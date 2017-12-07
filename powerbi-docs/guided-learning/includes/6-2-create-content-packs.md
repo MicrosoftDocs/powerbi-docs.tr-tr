@@ -1,4 +1,4 @@
-Bu derste, Power BI'da zaten sahip olduğumuz mevcut yapıtlarla bir *içerik paketi* oluşturacak ve bu yapıtları iş arkadaşlarımızla paylaşacağız.
+Bu derste, Power BI'da zaten sahip olduğumuz mevcut yapıtlarla bir *içerik paketi* oluşturacak ve bu yapıtları iş arkadaşlarımızla paylaşacağız. 
 
 **Çalışma Alanım**'da panom ve bunun altında ise rapor ve veri kümesi var. Bunları kuruluşumdaki kişilerin yeniden kullanabilmesi için paket olarak paylaşmak istiyorum.
 
