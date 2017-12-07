@@ -1,0 +1,16 @@
+- name: Başlarken
+  href: 'gettingstarted.yml#step-0'
+- name: Veri alma
+  href: 'gettingdata.yml#step-0'
+- name: Modelleme
+  href: 'modeling.yml#step-0'
+- name: Görselleştirmeler
+  href: 'visualizations.yml#step-0'
+- name: Verileri araştırma
+  href: 'exploringdata.yml#step-0'
+- name: Power BI ve Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: Yayımlama ve paylaşma
+  href: 'publishingandsharing.yml#step-0'
+- name: DAX'a giriş
+  href: 'introductiontodax.yml#step-0'

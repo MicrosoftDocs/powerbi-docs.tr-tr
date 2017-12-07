@@ -1,0 +1,158 @@
+documentType: Tutorial
+title: "Görselleştirmeler"
+metadata:
+  title: "Görselleştirmeler | Microsoft Power BI"
+  description: "Görselleştirmeler, verilerinizi hayata geçirmenin yanı sıra yalnızca etkileyici ve şaşırtıcı görsel sunumlarla elde edilebilecek öngörüleri ortaya çıkarır. Bu bölümde bunu nasıl yapacağınız gösterilmiştir."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: exploringdata
+  nextTutorialTitle: "Verileri araştırma"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Görselleştirmeler, verilerinizi hayata geçirmenin yanı sıra yalnızca etkileyici ve şaşırtıcı görsel sunumlarla elde edilebilecek öngörüleri ortaya çıkarır. Bu bölümde bunu nasıl yapacağınız gösterilmiştir.\n"
+  ms.openlocfilehash: e63bc13ecb7f9a0e296188c3a328e0cd19c83184
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 11/15/2017
+- title: "Power BI'daki görseller ile tanışın"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
+
+
+    [!INCLUDE [](includes/3-1-intro-visualizations.md)]
+- title: "Basit görselleştirmeler oluşturma ve bunları özelleştirme"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/IkJda4O7oGs?rel=0]
+
+
+    [!INCLUDE [](includes/3-2-create-customize-simple-visualizations.md)]
+- title: Karma grafikler
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/lnv66cTZ5ho?rel=0]
+
+
+    [!INCLUDE [](includes/3-3-create-combination-charts.md)]
+- title: Dilimleyiciler
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/zHUjz_0iZf0?rel=0]
+
+
+    [!INCLUDE [](includes/3-4-create-slicers.md)]
+- title: "Harita görselleştirmeleri"
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/ajTPGNpthcg?rel=0]
+
+
+    [!INCLUDE [](includes/3-5-create-map-visualizations.md)]
+- title: Matrisler ve tablolar
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/9xkErXYZQkU?rel=0]
+
+
+    [!INCLUDE [](includes/3-6-create-tables-matrixes.md)]
+- title: "Dağılım grafikleri"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/xLQ_ZVScI60?rel=0]
+
+
+    [!INCLUDE [](includes/3-7-create-scatter-charts.md)]
+- title: "Şelale ve huni grafikler"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/maTzOJSRB3g?rel=0]
+
+
+    [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
+- title: "Ölçekler ve tek bir sayı içeren kartlar"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
+
+
+    [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
+- title: "Grafik ve görsellerdeki renkleri değiştirme"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
+
+
+    [!INCLUDE [](includes/3-9a-modifying-colors.md)]
+- title: "Şekiller, metin kutuları ve resimler"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/_3q6VEBhGew?rel=0]
+
+
+    [!INCLUDE [](includes/3-10-create-shapes-images.md)]
+- title: "Sayfa düzeni ve biçimlendirme"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/5tg-OXzxe2g?rel=0]
+
+
+    [!INCLUDE [](includes/3-11-page-layout-formatting.md)]
+- title: "Görselleştirmeler arasındaki etkileşimleri gruplandırma"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/N_xYsCbyHPw?rel=0]
+
+
+    [!INCLUDE [](includes/3-11a-create-interaction-between-visualizations.md)]
+- title: "Bir rapor sayfasını yineleme"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/UOKbxTXZrWw?rel=0]
+
+
+    [!INCLUDE [](includes/3-11b-duplicate-page.md)]
+- title: "Veri içermeyen kategorileri gösterme"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/rsUMVJAIH00?rel=0]
+
+
+    [!INCLUDE [](includes/3-11c-display-empty-categories.md)]
+- title: "Özetleme ve kategori seçenekleri"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/Co2z9b-s_yM?rel=0]
+
+
+    [!INCLUDE [](includes/3-11d-customize-summarization-categorization.md)]
+- title: "Z düzeni"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/MkiiNFI2Ve0?rel=0]
+
+
+    [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
+- title: "Görsel hiyerarşiler ve detaya gitme"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
+
+
+    [!INCLUDE [](includes/3-11g-visual-hierarchies-drilling.md)]
+- title: "Power BI Desktop'ta R tümleştirmesi"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/pV78e9aYHXk?rel=0]
+
+
+    [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
+- content: "Microsoft Power BI Destekli Öğrenme kursunun **Görselleştirmeler** bölümünü tamamladınız.\0"

@@ -1,0 +1,74 @@
+documentType: Tutorial
+title: Modelleme
+metadata:
+  title: Modelleme | Microsoft Power BI
+  description: "Birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: visualizations
+  nextTutorialTitle: "Görselleştirmeler"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin.\n"
+  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 11/15/2017
+- title: "Verilerinizi modellemeye giriş"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
+
+
+    [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
+- title: "Veri ilişkilerinizi yönetme"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
+
+
+    [!INCLUDE [](includes/2-2-manage-data-relationships.md)]
+- title: "Hesaplanmış sütun oluşturma"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/GarBXef0Vew?rel=0]
+
+
+    [!INCLUDE [](includes/2-3-create-calculated-columns.md)]
+- title: "Veri modellerini iyileştirme"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/tDcrfnjjlgk?rel=0]
+
+
+    [!INCLUDE [](includes/2-4-optimize-data-models.md)]
+- title: "Hesaplanmış ölçü oluşturma"
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/yn2bXVQJLx8?rel=0]
+
+
+    [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
+- title: "Hesaplanmış tablo oluşturma"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]
+
+
+    [!INCLUDE [](includes/2-6-create-calculated-tables.md)]
+- title: "Zamana bağlı verilerinizi araştırma"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/MNAaHw4PxzE?rel=0]
+
+
+    [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
+- content: "Microsoft Power BI Destekli Öğrenme kursunun **Modelleme** bölümünü tamamladınız.\0"
