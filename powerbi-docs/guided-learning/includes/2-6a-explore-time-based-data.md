@@ -28,7 +28,7 @@ Tarih hiyerarşisini kullanmak yerine tarihleri ayrı ayrı görüntülemek içi
 Daha önce belirtmiş olsak da yeniden belirtmekte fayda görüyoruz. Bu kursta edindiğiniz bilgiler, Power BI'daki genel iş akışı ile aynı doğrultudadır:
 
 * Verileri **Power BI Desktop**'a aktarma ve rapor oluşturma.
-* Power BI hizmetinde yayımlayıp burada yeni **görselleştirmeler** ve panolar oluşturma
+* Power BI hizmetinde yayımlama ve burada yeni **görselleştirmeler** ve panolar oluşturma
 * Panolarınızı başkalarıyla (özellikle de hareket halinde olan kişilerle) **paylaşma**
 * **Power BI Mobil** uygulamalarında, paylaşılan panoları görüntüleme ve bu panolarla etkileşim kurma
 
