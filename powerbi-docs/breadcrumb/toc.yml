@@ -1,0 +1,17 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: Geliştirici
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: Destekli Öğrenme
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: Rapor Sunucusu
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
