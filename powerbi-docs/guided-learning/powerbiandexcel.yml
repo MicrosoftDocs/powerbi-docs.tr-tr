@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Power BI ve Excel
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 696459a8cd0ea243c0eb59548bac4379b403764d
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun.\n"
-  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: tr-TR
-  ms.lasthandoff: 11/15/2017
 - title: "Power BI'da Excel verilerini kullanmaya giriş"
   durationInMinutes: 2
   content: >
@@ -57,4 +58,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Power BI ve Excel** bölümünü tamamladınız.\0"
+- content: "Power BI Destekli Öğrenim kursunun **Power BI ve Excel** bölümünü tamamladığınız için tebrik ederiz. Sonraki adımda yayımlama ve paylaşmayı öğreneceksiniz.\0"

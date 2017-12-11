@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Verileri araştırma"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenin.\n"
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "**Veri keşfetme** öğreticisine hoş geldiniz. Bu öğreticide, Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenebilirsiniz.\n"
 - title: "Power BI hizmetine giriş"
   durationInMinutes: 2
   content: >
@@ -92,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Veri araştırma** bölümünü tamamladınız.\0"
+- content: "Destekli Öğrenim’in bu **veri keşfetme** bölümü, sizi her çeşit veri türüyle çalışmaya hazırlıyor. Sonraki öğreticide, ortak bir veri kaynağı olan Excel’i kullanmayı öğreneceksiniz.\0"

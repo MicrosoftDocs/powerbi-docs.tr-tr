@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Veri alma
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Power BI'da veri almak ve verilerle çalışmak için kullanabileceğiniz pek çok yöntem hakkında araştırma yapın ve bilgi edinin.\n"
-  ms.openlocfilehash: b994ce3414ac359333199c2174570ee314193341
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: a490c763a04fb3558ebc6e973ff1ec00d18c876c
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Veriler Power BI'ın temelini oluşturur. Bu **Destekli Öğrenim** bölümünde Power BI’dan nasıl veri alacağınızı ve bu verilerle nasıl çalışacağınızı öğrenirsiniz.\n"
 - title: "Power BI Desktop'a genel bakış"
   durationInMinutes: 4
   content: >
@@ -64,4 +65,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Veri alma** bölümünü tamamladınız.\0"
+- content: "Başlıyoruz! Microsoft Power BI Destekli Öğrenim kursunun **Veri alma** bölümünü tamamladınız. Sonraki adımımız, sonraki öğreticinin konusu olan **Modelleme** hakkında bilgi edinmek.\0"

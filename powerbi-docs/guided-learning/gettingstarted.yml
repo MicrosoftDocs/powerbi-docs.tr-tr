@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Başlangıç"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinin.\n"
-  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "**Destekli Öğrenim**’in bu ilk bölümünde, Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinirsiniz.\n"
 - title: "Power BI ile tanışın"
   durationInMinutes: 5
   content: >
@@ -48,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Başlangıç** bölümünü tamamladınız.\0"
+- content: "Microsoft Power BI Destekli Öğrenme kursunun **Başlangıç** bölümünü tamamladınız. Başlıyoruz! Artık Destekli Öğrenim’in sonraki kısmına geçebilirsiniz: **Veri alma**. Devam etmek için aşağıdaki **Veri alma** düğmesini seçin.\0"

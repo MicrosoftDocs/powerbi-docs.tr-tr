@@ -7,7 +7,7 @@ Bu kursun tüm bölümlerinde olacağı gibi, öğrenme süreciniz, Power BI'dak
 ## <a name="an-overview-of-power-bi-desktop"></a>Power BI Desktop'a genel bakış
 Power BI Desktop, verilerinize bağlanmak, verilerinizi temizlemek ve görselleştirmek için kullandığınız bir araçtır. Power BI Desktop ile verilerinize bağlanıp onları farklı şekillerde modelleyebilir ve görselleştirebilirsiniz. İş Zekası projelerinde çalışan kullanıcıların çoğu, zamanının büyük kısmını Power BI Desktop uygulamasını kullanarak geçirir.
 
-Power BI Desktop uygulamasını [web üzerinden](http://go.microsoft.com/fwlink/?LinkID=521662) veya Power BI hizmetinden indirebilirsiniz. Power BI uygulamasının sağ üst kenarındaki aşağı ok düğmesini seçtikten sonra Power BI Desktop seçeneğini belirlemeniz yeterlidir.
+Power BI Desktop’ı [web’den](http://go.microsoft.com/fwlink/?LinkID=521662) indirebilirsiniz, **Power BI Desktop**’ı [**Windows Store**](http://aka.ms/pbidesktopstore)’dan uygulama olarak yükleyebilirsiniz veya dilerseniz doğrudan Power BI hizmetinden indirebilirsiniz. Hizmette **Power BI Desktop**’ı almak için Power BI uygulamasının sağ üst kenarındaki aşağı ok düğmesini seçtikten sonra Power BI Desktop seçeneğini belirlemeniz yeterlidir.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 
