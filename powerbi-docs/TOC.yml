@@ -50,21 +50,21 @@
           href: sample-tutorial-connect-to-the-samples.md
         - name: Power BI için Financial Sample çalışma kitabını indirme
           href: sample-financial-download.md
-        - name: 'Power BI için Supplier Quality Analysis Sample: Tura katılın'
+        - name: 'Power BI için Tedarikçi Kalite Analizi örneği: Tura katılın'
           href: sample-supplier-quality.md
-        - name: 'Power BI için IT Spend Analysis örneği: Tura katılın'
+        - name: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
           href: sample-it-spend.md
-        - name: 'Power BI için Sales and Marketing Sample: Tura katılın'
+        - name: 'Power BI için Satış ve Pazarlama örneği: Tura katılın'
           href: sample-sales-and-marketing.md
-        - name: 'Power BI için Customer Profitability Sample: Tura katılın'
+        - name: 'Power BI için Müşteri Kârlılığı örneği: Tura katılın'
           href: sample-customer-profitability.md
-        - name: 'Human Resources Sample: Tura katılın'
+        - name: 'İnsan Kaynakları örneği: Tura katılın'
           href: sample-human-resources.md
-        - name: 'Power BI için Opportunity Analysis Sample: Tura katılın'
+        - name: 'Power BI için Fırsat Analizi örneği: Tura katılın'
           href: sample-opportunity-analysis.md
-        - name: 'Procurement Analysis Sample: Tura katılın'
+        - name: 'Tedarik Analizi örneği: Tura katılın'
           href: sample-procurement.md
-        - name: 'Power BI için Retail Analysis Sample: Tura katılın'
+        - name: 'Power BI için Perakende Analizi örneği: Tura katılın'
           href: sample-retail-analysis.md
     - name: Genel görevler
       items:
@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Sayısal aralık dilimleyiciyi kullanma
           href: desktop-slicer-numeric-range.md
-        - name: Göreli tarih dilimleyiciyi kullanma
-          href: desktop-slicer-filter-date-range.md
+        - name: 'Yeniden boyutlandırabileceğiniz, yanıt veren bir dilimleyici oluşturma'
+          href: power-bi-slicer-filter-responsive.md
         - name: Cortana için özel Power BI yanıt kartları oluşturma
           href: service-cortana-answer-cards.md
         - name: Satır düzeyi güvenlik
