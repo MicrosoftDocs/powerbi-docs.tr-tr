@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
           href: service-url-filters.md
+        - name: Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
+          href: power-bi-reports-performance.md
     - name: Görselleştirmeler
       items:
         - name: Power BI'daki görselleştirmeler
@@ -746,6 +748,8 @@
       items:
         - name: Power BI Desktop'taki rapor görünümü
           href: desktop-report-view.md
+        - name: Power BI Desktop’ta Soru-Cevap
+          href: desktop-qna-in-reports.md
         - name: Power BI Desktop'taki Analiz bölmesi
           href: desktop-analytics-pane.md
         - name: Power BI Desktop'taki öngörüleri kullanma
