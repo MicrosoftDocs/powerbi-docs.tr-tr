@@ -46,7 +46,7 @@
       items:
         - name: Power BI örnekleri
           href: sample-datasets.md
-        - name: 'Öğretici: Power BI örnek içerik paketlerini kullanma'
+        - name: 'Eğitim: Power BI örnek içerik paketlerini kullanma'
           href: sample-tutorial-connect-to-the-samples.md
         - name: Power BI için Financial Sample çalışma kitabını indirme
           href: sample-financial-download.md
@@ -270,7 +270,7 @@
           href: service-q-and-a.md
         - name: Power BI'daki Soru-Cevap özelliğini kullanma
           href: service-how-to-q-and-a.md
-        - name: 'Öğretici: Power BI Soru-Cevap özelliğini kullanmaya başlama'
+        - name: 'Eğitim: Power BI Soru-Cevap özelliğini kullanmaya başlama'
           href: power-bi-visualization-introduction-to-q-and-a.md
         - name: Power BI Gateway - Enterprise verileri ile Soru-Cevap özelliğini kullanma (Önizleme)
           href: service-q-and-a-direct-query.md
@@ -296,7 +296,7 @@
           href: service-create-distribute-apps.md
         - name: 'Kurumsal içerik paketleri: Giriş'
           href: service-organizational-content-pack-introduction.md
-        - name: Kurumsal içerik paketi oluşturma ve yayımlama (öğretici)
+        - name: Kurumsal içerik paketi oluşturma ve yayımlama (eğitim)
           href: service-organizational-content-pack-create-and-publish.md
         - name: İş arkadaşlarınızla ve diğer kullanıcılarla pano paylaşma
           href: service-share-dashboards.md
@@ -370,7 +370,7 @@
           href: service-aggregates.md
         - name: Power BI raporlarında sayfa görüntüleme ayarları
           href: power-bi-report-display-settings.md
-        - name: 'Öğretici: Power BI raporlarındaki sayfaların görüntüleme ayarlarını değiştirme'
+        - name: 'Eğitim: Power BI raporlarındaki sayfaların görüntüleme ayarlarını değiştirme'
           href: power-bi-change-report-display-settings.md
         - name: Power BI'daki bir raporun sayfalarını yeniden sıralama
           href: service-report-reorder-pages.md
@@ -392,9 +392,9 @@
           href: power-bi-visualization-best-practices.md
         - name: Power BI'daki özel görselleştirmeler
           href: power-bi-custom-visuals.md
-        - name: 'Öğretici: 1. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
+        - name: 'Eğitim: 1. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
           href: power-bi-report-add-visualizations-i.md
-        - name: 'Öğretici: 2. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
+        - name: 'Eğitim: 2. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
           href: power-bi-report-add-visualizations-ii.md
         - name: Görseli oluşturmak için kullanılan verilere bakma
           href: service-reports-show-data.md
@@ -424,35 +424,35 @@
           href: power-bi-map-tips-and-tricks.md
         - name: Power BI raporlarındaki metin kutuları
           href: power-bi-reports-add-text-and-shapes.md
-        - name: 'Öğretici: Power BI''daki ArcGIS'
+        - name: 'Eğitim: Power BI''daki ArcGIS'
           href: power-bi-visualization-arcgis.md
-        - name: 'Öğretici: Basit alan grafiği'
+        - name: 'Eğitim: Basit alan grafiği'
           href: power-bi-visualization-basic-area-chart.md
-        - name: 'Öğretici: Power BI''daki birleşik harita'
+        - name: 'Eğitim: Power BI''daki birleşik harita'
           href: power-bi-visualization-combo-chart.md
-        - name: 'Öğretici: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme'
+        - name: 'Eğitim: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme'
           href: power-bi-visualization-customize-title-background-and-legend.md
-        - name: 'Öğretici: X ve Y ekseni özelliklerini özelleştirme'
+        - name: 'Eğitim: X ve Y ekseni özelliklerini özelleştirme'
           href: power-bi-visualization-customize-x-axis-and-y-axis.md
-        - name: 'Öğretici: Power BI''daki halka grafikler'
+        - name: 'Eğitim: Power BI''daki halka grafikler'
           href: power-bi-visualization-doughnut-charts.md
-        - name: 'Öğretici: Power BI''daki kartogramlar (Koroplet haritalar)'
+        - name: 'Eğitim: Power BI''daki kartogramlar (Koroplet haritalar)'
           href: power-bi-visualization-filled-maps-choropleths.md
-        - name: 'Öğretici: Power BI''daki huni grafikler'
+        - name: 'Eğitim: Power BI''daki huni grafikler'
           href: power-bi-visualization-funnel-charts.md
         - name: KPI Görselleri
           href: power-bi-visualization-kpi.md
-        - name: 'Öğretici: Power BI''daki radyal ölçek grafikleri'
+        - name: 'Eğitim: Power BI''daki radyal ölçek grafikleri'
           href: power-bi-visualization-radial-gauge-charts.md
-        - name: 'Öğretici: Power BI''daki dağılım grafikleri'
+        - name: 'Eğitim: Power BI''daki dağılım grafikleri'
           href: power-bi-visualization-scatter.md
-        - name: 'Öğretici: Power BI''daki dilimleyiciler'
+        - name: 'Eğitim: Power BI''daki dilimleyiciler'
           href: power-bi-visualization-slicers.md
-        - name: 'Öğretici: Tablolarla çalışma'
+        - name: 'Eğitim: Tablolarla çalışma'
           href: power-bi-visualization-tables.md
-        - name: 'Öğretici: Power BI''daki ağaç haritaları'
+        - name: 'Eğitim: Power BI''daki ağaç haritaları'
           href: power-bi-visualization-treemaps.md
-        - name: 'Öğretici: Power BI''daki şelale grafikler'
+        - name: 'Eğitim: Power BI''daki şelale grafikler'
           href: power-bi-visualization-waterfall-charts.md
         - name: Soru sorarak Power BI panosu için büyük bir sayı kutucuğu oluşturma
           href: power-bi-visualization-big-number.md
@@ -464,7 +464,7 @@
       items:
         - name: Dosyalardan veri alma
           href: service-get-data-from-files.md
-        - name: 'Öğretici: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme'
+        - name: 'Eğitim: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme'
           href: service-from-excel-to-stunning-report.md
         - name: Excel çalışma kitabı dosyalarından veri alma
           href: service-excel-workbook-files.md
@@ -688,7 +688,7 @@
           href: desktop-directquery-sap-hana.md
         - name: Power BI Desktop'taki Bilgi tutarlılığı varsay ayarı
           href: desktop-assume-referential-integrity.md
-        - name: 'Öğretici: Analysis Services tablo modelindeki dinamik satır düzeyi güvenlik'
+        - name: 'Eğitim: Analysis Services tablo modelindeki dinamik satır düzeyi güvenlik'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Oracle ve Teradata veritabanları için DirectQuery
           href: desktop-directquery-for-oracle-teradata.md
@@ -810,15 +810,15 @@
       items:
         - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini kullanma
           href: desktop-see-data-see-records.md
-        - name: 'Öğretici: Power BI Desktop uygulamasını kullanarak bir Web Sayfasından veri aktarma ve bu verileri çözümleme'
+        - name: 'Eğitim: Power BI Desktop uygulamasını kullanarak bir Web Sayfasından veri aktarma ve bu verileri çözümleme'
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: 'Öğretici: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme'
+        - name: 'Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme'
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: 'Öğretici: Power BI Desktop''ta kendi ölçülerinizi oluşturma'
+        - name: 'Eğitim: Power BI Desktop''ta kendi ölçülerinizi oluşturma'
           href: desktop-tutorial-create-measures.md
-        - name: 'Öğretici: Power BI Desktop''ta, hesaplanmış sütun oluşturma'
+        - name: 'Eğitim: Power BI Desktop''ta, hesaplanmış sütun oluşturma'
           href: desktop-tutorial-create-calculated-columns.md
-        - name: 'Öğretici: Power BI Desktop ile Facebook analizi'
+        - name: 'Eğitim: Power BI Desktop ile Facebook analizi'
           href: desktop-tutorial-facebook-analytics.md
         - name: Power BI Desktop Gülümseme Gönder gizlilik bildirimi
           href: desktop-send-smile-privacy-statement.md
@@ -866,7 +866,7 @@
           href: mobile-set-data-alerts-in-the-mobile-apps.md
         - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
           href: mobile-apps-geographic-filtering.md
-        - name: iOS mobil uygulamalarında verileriniz hakkında soru sorma (Öğretici)
+        - name: iOS mobil uygulamalarında verileriniz hakkında soru sorma (Eğitim)
           href: mobile-apps-ios-qna.md
         - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
           href: mobile-apps-deep-link-specific-location.md
