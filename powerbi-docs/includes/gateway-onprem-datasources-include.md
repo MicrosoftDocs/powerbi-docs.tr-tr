@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>Kullanılabilir veri kaynağı türlerinin listesi
 | **Veri kaynağı** | **Canlı/DirectQuery** | **Kullanıcı tarafından yapılandırılan, elle yenileme veya zamanlanmış yenileme** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Evet |Evet |
 | Analysis Services - Tablo |Evet |Evet |
 | Analysis Services - Çok Boyutlu |Evet |Evet |
 | Dosya |Hayır |Evet |

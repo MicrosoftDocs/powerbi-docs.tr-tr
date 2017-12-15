@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
 ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 Azure SQL Veritabanı'na doğrudan nasıl bağlanacağınızı ve canlı verilerin kullanıldığı raporları nasıl oluşturacağınızı öğrenin. Verilerinizi Power BI yerine kaynakta tutabilirsiniz.

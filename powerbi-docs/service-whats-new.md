@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
@@ -167,7 +167,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 **28 Nisan 2016**
 
-* [Pano Kutucuklarında Hızlı Öngörüler](service-insights.md#run-quick-insights-on-a-dashboard-tile): Kutucukları Odak modunda görüntülerken Öngörü Al'a tıklayarak kutucukta ve bağlantılı verilerde saniyeler içinde otomatik olarak bağıntı, aykırı değer, eğilim, mevsimsellik, eğilimlerdeki değişim noktaları ve ana etkenler araması gerçekleştirebilirsiniz.
+* [Pano Kutucuklarında Hızlı Öngörüler](service-insights.md): Kutucukları Odak modunda görüntülerken Öngörü Al'a tıklayarak kutucukta ve bağlantılı verilerde saniyeler içinde otomatik olarak bağıntı, aykırı değer, eğilim, mevsimsellik, eğilimlerdeki değişim noktaları ve ana etkenler araması gerçekleştirebilirsiniz.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 

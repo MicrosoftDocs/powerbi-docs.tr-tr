@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: dee83471e0c8e2506902ac5bdb163163430bbb9a
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
 Bu makalede, ağ ortamınızda bir veri ağ geçidini dağıtmaya ilişkin yönergeler ve önemli noktalar sunulmaktadır. **Ağ geçidi**, Power BI gibi bir bulut hizmetinde gerçekleştirilen birbirini izleyen kullanımlara yönelik olarak, özel bir şirket içi ağda bulunan verilere erişimi kolaylaştıran yazılımdır. Bu makalede, dağıtım işlemi adım adım açıklanmakta ve **şirket içi veri ağ geçidi** kurulumu ile ilgili yönergeler sağlanmaktadır.

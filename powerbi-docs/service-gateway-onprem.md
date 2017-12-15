@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/27/2017
 ms.author: davidi
-ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, Microsoft Flow, Logic Apps ve PowerApps hizmetleri arasında hızlı ve güvenli veri aktarımı sağlar.
@@ -39,9 +39,9 @@ Tek bir ağ geçidini aynı anda farklı hizmetlerle kullanabilirsiniz. Power BI
 ### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services canlı bağlantılarına ilişkin sınırlamalar
 Tablolu veya çok boyutlu örnekler için bir canlı bağlantı kullanabilirsiniz.
 
-| **Sunucu sürümü** | **Gerekli SKU'lar** |
+| **Sunucu sürümü** | **Gerekli SKU** |
 | --- | --- |
-| 2012 SP1 CU4 veya üzeri |İş Zekası ve Enterprise SKU'su |
+| 2012 SP1 CU4 veya sonraki sürümleri |İş Zekası ve Enterprise SKU'su |
 | 2014 |İş Zekası ve Enterprise SKU'su |
 | 2016 |Standart SKU veya üzeri |
 
@@ -97,10 +97,10 @@ Ara sunucu sorunlarıyla karşılaştığınızı düşünüyorsanız bkz. [Powe
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri kaynağınızı yönetme - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Manage your data source - SAP HANA (Veri kaynağınızı yönetme - SAP HANA)](service-gateway-enterprise-manage-sap.md)  
+[Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
-[Manage your data source - Import/Scheduled refresh (Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme)](service-gateway-enterprise-manage-scheduled-refresh.md)  
+[Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Şirket içi veri ağ geçidi (ayrıntılı)](service-gateway-onprem-indepth.md)  
 [Şirket içi veri ağ geçidi (kişisel mod) - kişisel ağ geçidinin yeni sürümü](service-gateway-personal-mode.md)
 [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  

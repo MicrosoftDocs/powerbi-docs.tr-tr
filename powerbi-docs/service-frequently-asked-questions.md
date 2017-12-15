@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
-* Buna alternatif olarak, tarayıcı penceresinin sağ alt köşesindeki **Benimle İletişime Geçin** simgesine ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) tıklayın.
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI nedir?
 [Power BI](https://powerbi.microsoft.com/), herkesin verileri daha yüksek hız, verimlilik ve kavrayış ile görselleştirebilmesini ve çözümleyebimesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler sayesinde kullanıcıların çok çeşitli veriler ile bağlantı kurmasını sağlar.
@@ -156,5 +155,4 @@ Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da girdiğiniz son
 ## <a name="next-steps"></a>Sonraki adımlar
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin
-* Buna alternatif olarak, tarayıcı penceresinin sağ alt köşesindeki **Benimle İletişime Geçin** simgesine ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) tıklayın.
 
