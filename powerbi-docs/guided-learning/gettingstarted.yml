@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "Başlangıç"
 metadata:
   title: "Başlangıç | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: gettingdata
-  nextTutorialTitle: Veri alma
+  nextTutorialTitle: Getting data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "**Destekli Öğrenim**’in bu ilk bölümünde, Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinirsiniz.\n"
+  content: >
+    In this initial section of **Guided Learning**, you learn what Power BI is, how its building blocks work together, and how you can use them to gain insights to your data.
 - title: "Power BI ile tanışın"
   durationInMinutes: 5
   content: >
@@ -49,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Başlangıç** bölümünü tamamladınız. Başlıyoruz! Artık Destekli Öğrenim’in sonraki kısmına geçebilirsiniz: **Veri alma**. Devam etmek için aşağıdaki **Veri alma** düğmesini seçin.\0"
+- content: "You've completed the **Getting started** section of Microsoft Power BI Guided learning. Way to go! Now you can move on to the next part of Guided Learning, which is **Getting data**. Select the **Getting data** button below to keep going.\0"

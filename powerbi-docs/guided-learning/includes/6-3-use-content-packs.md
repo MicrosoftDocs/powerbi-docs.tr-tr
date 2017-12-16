@@ -32,5 +32,5 @@ Ancak istersem panoyu, raporu ve hatta veri kümesini düzenleyebilirim.
 
 Sonuç olarak içerik paketleri, kuruluşunuzdaki diğer kullanıcılar tarafından oluşturulan içeriğin yeniden kullanılmasına yönelik basit bir yöntemdir.
 
-Sonraki ders ile devam ediyoruz: [Power BI'da içerik paketi oluşturma](6-4-update-content-pack.md).
+Sonraki ders ile devam ediyoruz!
 

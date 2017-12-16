@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "DAX'a giriş"
 metadata:
   title: "DAX'a giriş | Microsoft Power BI"
@@ -13,14 +12,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 5553a2b4dc3856cb90f1d392709fb313acf3c4d8
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "İşini iyi bilen bir uzmandan DAX formülleri oluşturmayı ve bunlarla nasıl çalışacağınızı öğrenin.\n"
+  content: >
+    Learn how to create and work with DAX, from an established expert.
 - title: "DAX'a giriş"
   durationInMinutes: 9
   content: >
@@ -63,4 +63,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Power BI Destekli Öğrenim kursunun **DAX'a giriş** bölümünü tamamladınız. Harika bir maceraydı! Bu öğreticileri sırasıyla yaptıysanız, **Destekli Öğrenim**’in tüm bölümlerini bitirdiniz demektir. Başlıyoruz! Artık kendinizi ifade etmek için ilgi çekici raporlar ve panolar oluşturmak üzere **Power BI**’ı kullanabilirsiniz.\0"
+- content: "You've completed the **Introduction to DAX** section of Power BI Guided Learning. What a journey! If you've done these tutorials in sequence, then you've finished all the sections of **Guided Learning**. Way to go! Now go use **Power BI** to create compelling reports and dashboards that tell your story.\0"

@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Modelleme
 metadata:
   title: Modelleme | Microsoft Power BI
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: visualizations
-  nextTutorialTitle: "Görselleştirmeler"
+  nextTutorialTitle: Visualizations
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "**Power BI**’daki **modelleme** becerileri sayesinde birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin.\n"
+  content: >
+    With the **modeling** capabilities in **Power BI**, you can connect to multiple data sources, then combine them in ways that create a unique model of data that suits your needs.
 - title: "Verilerinizi modellemeye giriş"
   durationInMinutes: 3
   content: >
@@ -72,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Şans sizin yanınızda. Power BI’ı keşfetmeye devam edin! Microsoft Power BI Destekli Öğrenme kursunun **Modelleme** bölümünü tamamladınız. Sonraki adım; görselleştirmeler.\0"
+- content: "You are on a roll. Keep up the good work in learning about Power BI! You've completed the **Modeling** section of Microsoft Power BI Guided learning. Next up is visualizations.\0"

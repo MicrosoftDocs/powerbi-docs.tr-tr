@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "Görselleştirmeler"
 metadata:
   title: "Görselleştirmeler | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata
-  nextTutorialTitle: "Verileri araştırma"
+  nextTutorialTitle: Exploring data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "Görselleştirmeler, verilerinizi hayata geçirmenin yanı sıra yalnızca etkileyici ve şaşırtıcı görsel sunumlarla elde edilebilecek öngörüleri ortaya çıkarır. **Power BI** Destekli Öğrenim’in bu bölümünde bunları nasıl kullanmaya başlayacağınız gösterilir.\n"
+  content: >
+    Visualizations bring your data to life, and reveal insights that only compelling and amazing visual representations can. This section of **Power BI** Guided Learning shows you how to get started using them.
 - title: "Power BI'daki görseller ile tanışın"
   durationInMinutes: 2
   content: >
@@ -156,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "İyi iş çıkardınız. **Destekli Öğrenim**’in **Görselleştirmeler** bölümünü tamamladığınıza göre, sonraki öğretici **Veri keşfetme** için hazırsınız.\0"
+- content: "Nice work. You've completed the **Visualizations** section of **Guided Learning**, and you're ready for the next tutorial - **Exploring data**.\0"

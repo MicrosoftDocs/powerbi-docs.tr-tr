@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Veri alma
 metadata:
   title: Veri alma | Microsoft Power BI
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: modeling
-  nextTutorialTitle: Modelleme
+  nextTutorialTitle: Modeling
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: a490c763a04fb3558ebc6e973ff1ec00d18c876c
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "Veriler Power BI'ın temelini oluşturur. Bu **Destekli Öğrenim** bölümünde Power BI’dan nasıl veri alacağınızı ve bu verilerle nasıl çalışacağınızı öğrenirsiniz.\n"
+  content: >
+    Data is at the heart of Power BI. In this **Guided Learning** section, you learn how to get and work with data in Power BI.
 - title: "Power BI Desktop'a genel bakış"
   durationInMinutes: 4
   content: >
@@ -65,4 +65,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Başlıyoruz! Microsoft Power BI Destekli Öğrenim kursunun **Veri alma** bölümünü tamamladınız. Sonraki adımımız, sonraki öğreticinin konusu olan **Modelleme** hakkında bilgi edinmek.\0"
+- content: "Way to go! You've completed the **Getting data** section of Microsoft Power BI Guided Learning. The next step is to learn about **Modeling**, which is the subject of the next tutorial.\0"
