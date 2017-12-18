@@ -5,7 +5,7 @@ Size **DAX**'ı tanıtmak için tasarlanan Power BI **Destekli Öğrenme** böl�
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX ve Destekli Öğrenme video serisi
 Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari'nin portresi](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 **DAX** ile ilgili bu **Destekli Öğrenme** bölümündeki videolarda temel DAX bilgileri, DAX formül dilinin nasıl çalıştığına ilişkin bir bakış açısıyla anlatılmaktadır. Bu, sıfırdan DAX formülleri oluştururken kullanışlı olmakla birlikte **Sorgu Düzenleyicisi**'nde sorgular oluşturduğunuz sırada Power BI'ın bu tür DAX formüllerini nasıl oluşturduğunu anlamaya yönelik olarak da oldukça faydalıdır.
 
