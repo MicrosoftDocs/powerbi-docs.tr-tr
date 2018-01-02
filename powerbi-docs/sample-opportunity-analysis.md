@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Fırsat Analizi Örneği: Tura katılın
 **Fırsat Analizi Örneğinde** *doğrudan* ve *iş ortağı* olmak üzere 2 satış kanalına sahip olan bir yazılım şirketiyle ilgili pano (ve ilişkili rapor) yer almaktadır. Satış Yöneticisi, fırsatları ve geliri bölgeye, anlaşma boyutuna ve kanala göre izlemek için bu panoyu oluşturmuştur.
@@ -38,7 +38,8 @@ Satış Yöneticisi, gelir için 2 ölçü kullanmaktadır:
 
 Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI' nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir.
 
-Ayrıca [bu örnek için yalnızca veri kümesini de (Excel çalışma kitabı)](http://go.microsoft.com/fwlink/?LinkId=529782) indirebilirsiniz.  
+>[!Note] 
+Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529782). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir.  Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
@@ -94,10 +95,10 @@ CFO'muz bu sayfayı iş yükünü yönetmek için kullanmaktadır. Satış aşam
 * CFO, aya göre filtreleme yaparak (soldaki dilimleyicide ay adını seçerek) Ocak ayının 75 milyon ABD doları gelirle Finalize aşamasında en yüksek büyük fırsat oranına sahip olduğunu görebilir. Diğer taraftan Şubat ayı Solution ve Proposal aşamalarında en fazla orta çaplı fırsata sahiptir.
 * Genel olarak, faktöre bağlı gelir rakamları; satış aşamasına, fırsat sayısına ve anlaşma boyutuna göre dalgalanmaktadır. Bu öngörüler hakkında daha fazla bilgiye ulaşmak için filtre ekleyebilirsiniz. Filtrelemek için sağ taraftaki filtre bölmesini kullanabilirsiniz.
 
-Burası keşifler yapabileceğiniz güvenli bir ortamdır. Değişikliklerinizi kaydetmemeyi de tercih edebilirsiniz. Ancak, değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
+Burası keşifler yapabileceğiniz güvenli bir ortamdır. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak, değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
-Bu turun Power BI panolarının, Soru-Cevap özelliğinin ve raporların fırsat izleme verileri açısından nasıl öngörü sağlayabileceğini göstermiş olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI sayesinde çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
+Bu turun Power BI panolarının, Soru-Cevap özelliğinin ve raporların fırsat izleme verileri açısından nasıl öngörü sağlayabileceğini göstermiş olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
 
 [Örnekleri indirin](sample-datasets.md)  
 

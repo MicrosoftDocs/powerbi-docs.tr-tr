@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Power BI panolarınızı iş arkadaşlarınızla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI, [işbirliği yapmak ve panolarınızı dağıtmak](service-how-to-collaborate-distribute-dashboards-reports.md) için çeşitli yöntemler sunar ve paylaşım, bu yöntemlerden yalnızca biridir.
@@ -91,6 +91,8 @@ Yalnızca pano sahibi, yeniden paylaşımı etkinleştirebilir veya devre dış�
    * **Oku**, söz konusu kişinin yeniden paylaşım yapmasını engeller.
    * **Erişimi kaldır**, söz konusu kişinin panoyu hiç görmemesini sağlar.
 
+4. **Erişimi kaldır** iletişim kutusunda, ilgili içeriğe (raporlar ve veri kümeleri gibi) erişimi kaldırmak isteyip istemediğinize karar verin. Uyarı simgesine ![Power BI uyarı simgesi](media/service-share-dashboards/power-bi-warning-icon.png) sahip bir öğeyi kaldırmanız durumunda ilgili içerik düzgün bir şekilde görüntülenmeyeceğinden bu içeriği silmenizde yarar vardır.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Bir panoyu kuruluşunuz dışındaki kişilerle paylaşma
 Kuruluşunuz dışındaki kişilerle bir paylaşımda bulunduğunuzda bu kişiler, paylaşılan panonun bağlantısını içeren bir e-posta alır ve bu kişilerden panoyu görmek için Power BI'da oturum açmaları istenir. Power BI Pro lisansları yoksa bağlantıya tıkladıktan sonra lisans almak için kaydolabilirler.
 
@@ -115,6 +117,33 @@ Pano paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 * Sizinle aynı e-posta etki alanını kullanan iş arkadaşlarınız ve e-posta etki alanı sizinkinden farklı olan ancak aynı kiracıda kayıtlı kişiler, panoyu başka kullanıcılarla paylaşabilir. Örneğin, contoso.com ve contoso2.com etki alanlarının aynı kiracıda kayıtlı olduğunu varsayalım. E-posta adresiniz konrads@contoso.com ise paylaşım izni verdiğiniz sürece hem ravali@contoso.com hem de gustav@contoso2.com paylaşımda bulunabilir.
 * İş arkadaşlarınızın belirli bir panoya zaten erişimi varsa panodayken URL'yi kopyalayarak söz konusu panoya ait doğrudan bir bağlantı gönderebilirsiniz. Örnek: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Aynı şekilde, iş arkadaşlarınızın belirli bir panoya zaten erişimi varsa [bağlantılı rapora yönelik doğrudan bir bağlantı gönderebilirsiniz](service-share-reports.md). 
+
+## <a name="troubleshoot-sharing"></a>Paylaşım sorunlarını giderme
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Panomun alıcıları bir kutucukta kilit simgesiyle veya "İzin gerekiyor" iletisiyle karşılaşıyor
+
+Pano paylaşımında bulunduğunuz kişiler burada kilitli bir kutucuk görüyorsa veya bir raporu görüntülemeye çalıştıklarında "İzin gerekiyor" iletisiyle karşılaşıyorsa bu kişilere, temel alınan veri kümesine yönelik erişim izni vermeniz gerekir. Aşağıdaki adımları uygulayın:
+
+1. İçerik listenizdeki **Veri kümeleri** sekmesine gidin.
+
+1. Veri kümesinin yanındaki üç nokta (**...**) simgesini seçin ve ardından **İzinleri yönet** seçeneğini belirleyin.
+
+    ![İzinleri yönet](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. **Kullanıcı ekle**'yi seçin.
+
+    ![Kullanıcı ekle seçeneğini belirleme](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Kişilerin, dağıtım gruplarının veya güvenlik gruplarının tam e-posta adreslerini girin. Dinamik dağıtım listeleri ile paylaşım yapamazsınız.
+
+    ![E-posta adresi ekleme](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. **Ekle**'yi seçin.
+
+### <a name="i-cant-share-a-dashboard"></a>Pano paylaşamıyorum
+
+Bir panoyu paylaşmak için, temel alınan içeriği (ilgili tüm raporlar ve veri kümeleri) yeniden paylaşma iznine sahip olmanız gerekir. Paylaşım yapamayacağınızı belirten bir iletiyle karşılaşırsanız raporun yazarından size söz konusu raporlar ve veri kümeleri için yeniden paylaşma izni vermesini isteyin.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.

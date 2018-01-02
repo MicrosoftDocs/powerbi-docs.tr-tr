@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 Power BI hizmetinde bir raporu açtığınızda, rapordaki her sayfanın kendine ait bir URL'si bulunur. Bu rapor sayfasının filtrelemek için rapor tuvalindeki Filtreler bölmesini kullanabilirsiniz.  Alternatif olarak URL'ye sorgu dizesi parametreleri ekleyerek raporu filtreleyebilirsiniz. İş arkadaşlarınıza göstermek istediğiniz bir raporunuz olabilir ve bu raporu onlar için önceden filtrelemek isteyebilirsiniz. Bunu yapmanın bir yolu raporun varsayılan URL'si ile başlamak, filtre parametrelerini URL'ye eklemek ve ardından iş arkadaşlarınıza URL'nin tamamını e-posta ile göndermektir.
@@ -107,7 +107,7 @@ Panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görm
 ## <a name="limitations-and-troubleshooting"></a>Sınırlamalar ve sorun giderme
 Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar vardır.
 
-* Sorgu dizesi filtreleme özelliği [Web'de yayımlama](service-publish-to-web.md) URL'leri ile çalışmaz.
+* Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) seçeneği veya Power BI Embedded ile kullanılamaz.   
 * Alan türünün dize olması gerekir.
 * Tablo ve alan adlarında boşluk olamaz.
 

@@ -58,7 +58,7 @@ items:
 
 
     [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
-- title: "Hesaplanmış tablo oluşturma"
+- title: "Hesaplanan tablo oluşturma"
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]

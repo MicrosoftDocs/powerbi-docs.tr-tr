@@ -15,19 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
 Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümleşerek Power BI içeriklerinin kuruluş dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar ve bu sırada iç verilerin de denetimini elinde bulundurur.
 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+> [!NOTE]
+> Bu özellik şu anda Power BI mobil uygulamalarıyla kullanılamaz. Mobil cihazlardaki tarayıcılarda, Azure AD B2B kullanılarak paylaşılan Power BI içeriklerini görüntüleyebilirsiniz. 
 
 ## <a name="invite-guest-users"></a>Konuk kullanıcı davet etme
 
@@ -93,6 +96,12 @@ Konuk kullanıcıya kiracınızdaki bir Power BI Pro lisansının atanması, kon
 Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansına sahiptir.
 
 ![Konuk kullanıcının kendi lisansına sahip olması](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Sınırlamalar
+
+* Dış B2B konukları, yalnızca içeriğin kullanımıyla sınırlandırılır. Dış B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar.
+* Bu özellik şu anda Power BI mobil uygulamalarıyla kullanılamaz. Mobil cihazlardaki tarayıcılarda, Azure AD B2B kullanılarak paylaşılan Power BI içeriklerini görüntüleyebilirsiniz.
+* Bağımsız bulutlarda (kamu) Power BI ile konuk kullanıcılar desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

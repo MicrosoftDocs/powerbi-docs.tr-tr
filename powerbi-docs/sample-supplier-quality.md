@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 190d3d256a28deaac2555847d49d61af2263d5a7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5be71c2cbe4acf36b0b315b30ddf5d65108882be
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın
 Bu sektör örneği panosu ve bağlantılı rapor, tipik tedarik zincirinde yaygın olarak karşılaşılan zorluklardan birine odaklanır: tedarikçi kalite analizi.
@@ -33,8 +33,9 @@ Bu analizde iki birincil ölçüm ön plandadır: toplam hata sayısı ve bu hat
 Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır.
 Bunlar, anonim hale getirilen gerçek veriler olup obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınmıştır.
 
-Ayrıca, [yalnızca bu örneğe ilişkin veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529779). 
-
+> [!NOTE] 
+Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529779). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
+ 
 ![](media/sample-supplier-quality/supplier1.png)
 
 ## <a name="downtime-caused-by-defective-materials"></a>Hatalı malzemelerin neden olduğu çalışmama süresi
@@ -140,8 +141,8 @@ Toplam hata miktarıyla ilgili başka bir pano kutucuğuna bakalım.
 4. Aykırı ayları keşfetmek için "total downtime minutes in October by plant" (tesise göre Ekim'deki dakika cinsinden toplam çalışmama süresi) gibi sorular sorarak malzeme türü, tesis konumu, kategori vb. temelinde çalışmama süresi dakika sayısını kontrol edin.    
 5. Panoya geri dönmek için soru kutusunun yukarısında sol üst köşede bulunan geri okunu ![](media/sample-supplier-quality/backarrow.png) seçin.
 
-Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
+Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak, değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
-Bu turun; Power BI panolarının, Soru-Cevap özelliğinin ve raporların tedarikçi kalitesi verilerinde nasıl öngörü sağlayacağını gösterme konusunda etkili olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI sayesinde çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
+Bu turun; Power BI panolarının, Soru-Cevap özelliğinin ve raporların tedarikçi kalitesi verilerinde nasıl öngörü sağlayacağını gösterme konusunda etkili olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
 

@@ -18,7 +18,7 @@ Veriler içeri aktarıldıktan sonra Power BI'ın bunları düzgün bir şekilde
 
 ![](media/1-5-cleaning-irregular-data/1-5_3.png)
 
-Power BI ile bu dönüştürmeleri verilerinizin üzerinde deneyebilir ve verilerinizi Power BI'ın bu verilerle çalışmasına olanak sağlayan sütun biçimine dönüştürecek türleri belirleyebilirsiniz. Ayrıca gerçekleştirdiğiniz tüm işlemlerin Sorgu Düzenleyicisi'nin Uygulanan Adımlar bölümüne kaydedildiğini; bu nedenle, bir dönüştürmenin istediğiniz şekilde çalışmaması durumunda adımın yanındaki **x** işaretini tıklamanızın yeterli olacağını unutmayın.
+Power BI ile bu dönüştürmeleri verilerinizin üzerinde deneyebilir ve verilerinizi Power BI'ın bu verilerle çalışmasına olanak sağlayan sütun biçimine dönüştürecek türleri belirleyebilirsiniz. Ayrıca gerçekleştirdiğiniz tüm işlemlerin Sorgu Düzenleyicisi'nin Uygulanan Adımlar bölümüne kaydedildiğini; bu nedenle, bir dönüştürmenin istediğiniz şekilde çalışmaması durumunda adımın yanındaki **x** işaretine tıklamanızın yeterli olacağını unutmayın.
 
 ![](media/1-5-cleaning-irregular-data/1-5_5.png)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -41,14 +41,11 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 
 - [What's new and exciting in Power BI Report Server - Nov 2017 (Power BI Rapor Sunucusu'ndaki Heyecan Verici Yenilikler - Kas 2017)](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
 Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability -12/05/17 (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun - 05/12/17)](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [Improving Profitability in Healthcare - 12/12/17 (Sağlık Hizmetinde Kârlılığı Artırma - 12/12/17)](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Kuruluşunuzu Daha Güvenli Hale Getirecek Başarılı bir Veri Yönetimi Stratejisi Uygulama)](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [Transforming A Report From Good to GREAT! (İyi bir Raporu HARİKA bir Rapora Dönüştürme)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [Ask a Partner: Developing Custom Visuals for Power BI (Bir İş Ortağınıza Sorun: Power BI için Özel Görseller Geliştirme)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [How Microsoft does Power BI (Microsoft, Power BI'ı nasıl kullanıyor?)](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -68,7 +67,9 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 - [Power BI security deep dive (Power BI güvenliğe yakından bakış)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-## <a name="see-also"></a>Ayrıca bkz.
+- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun)](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
+
+## <a name="see-also"></a>Ayıca bkz.
 
 - [Power BI teknik incelemeleri](whitepapers.md)
 

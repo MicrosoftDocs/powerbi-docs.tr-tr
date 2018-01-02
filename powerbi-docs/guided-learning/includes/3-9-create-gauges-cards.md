@@ -1,4 +1,4 @@
-Genel olarak, görselleştirmeler iki veya daha fazla farklı değeri karşılaştırmak için kullanılır. Ancak, bazen rapor oluştururken yalnızca tek bir Ana Performans Göstergesinin (KPI) veya ölçümün zamana göre değişimini izlemek isteyebilirsiniz. Bunu Power BI Desktop'ta bir **Ölçek** veya **tek sayı içeren** kart görseli ile gerçekleştirebilirsiniz. Bu iki türden birinde boş bir grafik oluşturmak için **Görsel Öğeler** bölmesinde ilgili simgeyi seçin.
+Genel olarak, görselleştirmeler iki veya daha fazla farklı değeri karşılaştırmak için kullanılır. Ancak, bazen rapor oluştururken yalnızca tek bir Ana Performans Göstergesinin (KPI) veya ölçümün zamana göre değişimini izlemek isteyebilirsiniz. Bunu Power BI Desktop'ta bir **Ölçek** veya **tek bir sayı içeren** kart görseli ile gerçekleştirebilirsiniz. Bu iki türden birinde boş bir grafik oluşturmak için **Görsel Öğeler** bölmesinde ilgili simgeyi seçin.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)
 

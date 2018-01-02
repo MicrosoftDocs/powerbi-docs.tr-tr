@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f6c1b564bfab99deb35c919de4eb0c365d62c8e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için BT Harcama Analizi örneği: Tura katılın
 BT Harcama Analizi [içerik paketinde](service-organizational-content-pack-introduction.md) (pano, rapor ve veri kümesi), bir BT departmanının planlanan maliyetleriyle gerçek maliyetleri karşılaştırmalı olarak çözümlenir. Bu karşılaştırma şirketin yıl için ne kadar iyi planlama yaptığını anlamamıza yardımcı olur ve plana göre büyük sapmalar görülen alanları araştırmamıza olanak tanır. Bu örnekteki şirket yıllık bir planlama döngüsünden geçer ve ardından finansal yılda BT'ye yapılan harcamalardaki değişiklikleri çözümlemelerine yardımcı olması için üç ayda bir yeni En Yeni Tahmin (LE) oluşturur.
 
 Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan (<http://obvience.com/>) alınan anonimleştirilmiş gerçek verilerdir.
 
-* [BT Harcama Analizi içerik paketini edinin](sample-tutorial-connect-to-the-samples.md)
-* [bu örnek için yalnızca veri kümesini (Excel çalışma kitabı) indirin](http://go.microsoft.com/fwlink/?LinkId=529783).
+>[!Note] 
+[Bu örnek için yalnızca veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529783). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
 
 ![](media/sample-it-spend/it1.png)
 

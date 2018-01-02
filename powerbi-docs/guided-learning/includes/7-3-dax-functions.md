@@ -1,4 +1,4 @@
-DAX ile verilerinizi şekillendirmek, biçimlendirmek veya başka şekilde analiz etmek için kullanabileceğiniz birçok işlev vardır. Bu işlevler bir dizi kategoride gruplandırılabilir:
+DAX ile verilerinizi şekillendirmek, biçimlendirmek veya başka şekilde çözümlemek için kullanabileceğiniz birçok işlev vardır. Bu işlevler bir dizi kategoride gruplandırılabilir:
 
 * **Toplama** işlevleri
 * **Sayma** işlevleri

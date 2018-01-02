@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>Son görüntülenen içerik nedir?
-Son görüntülenen içerik ziyaret ettiğiniz son 20 öğedir.  Bunlar içerisinde panolar, raporlar, uygulamalar ve çalışma kitapları bulunur.
+Son görüntülenen içerik, en son ziyaret ettiğiniz öğeleri (maksimum 20 öğe) içerir.  Söz konusu öğeler şunları içerir: tüm çalışma alanlarınızdaki panolar, raporlar, uygulamalar ve çalışma kitapları.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Aşağıdaki videoda Amanda, **Son görüntülenen** içerik listelerinin nasıl doldurulduğunu göstermektedir. Bu videoyu izledikten sonra kendiniz denemek için videonun altında bulunan adım adım yönergeleri uygulayın.
 

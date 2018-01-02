@@ -133,7 +133,7 @@ Modelleme </h3>
                                 <span style="margin-left: 32px; align-self: center;">14 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-6">Hesaplanmış tablo oluşturma</a>
+                                <a class="barLink" href="modeling.yml#step-6">Hesaplanan tablo oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">

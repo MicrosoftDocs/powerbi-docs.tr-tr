@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: mihart
-ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI için Satış ve Pazarlama örneği: Tura katılın
 **Satış ve Pazarlama Örneği**, VanArsdel Ltd adında kurgusal bir üretim şirketine yönelik bir pano ve rapor içerir. Bu pano, sektörün yanı sıra şirketin pazar payını, ürün hacmini, satışları ve duyarlılığı takip etmek amacıyla VanArsdel Pazarlama Müdürü (CMO) tarafından oluşturuldu.
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/17/2017
 
 Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan (www.obvience.com) alınan, anonimleştirilmiş gerçek verilerdir.
 
-Ayrıca [bu örnek için yalnızca veri kümesini de (Excel çalışma kitabı)](http://go.microsoft.com/fwlink/?LinkId=529785) indirebilirsiniz.
+[!Note] Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529785). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
@@ -108,7 +108,7 @@ Duyarlılık uçurumu incelenmesi gereken başka bir alandır: Hangi bölgeler e
 
 Görselleştirmeleri VanArsdel'e, segmente, aya ve bölgeye göre filtreleyerek VanArsdel için büyüme fırsatlarına ulaşabiliriz.
 
-Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak değişiklikleri kaydederseniz bu örneğin yeni bir kopyası için dilediğiniz zaman **Veri Al** alanına gidebilirsiniz.
+Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak, değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Bu turun Power BI panolarının, Soru-Cevap özelliğinin ve raporların satış ve pazarlama verileri açısından nasıl öngörü sağlayabileceğini göstermiş olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.  

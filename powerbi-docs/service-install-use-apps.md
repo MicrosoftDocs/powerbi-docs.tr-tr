@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](service-connect-to-services.md) de Power BI uygulamaları sunar. 
@@ -34,7 +34,7 @@ Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığ�
 Bir uygulama yazmayı mı planlıyorsunuz? Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve yayımlama](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Yeni bir uygulama alma
-Uygulamaları birkaç farklı yolla alabilirsiniz. Uygulama yazarı Power BI hesabınıza uygulamayı otomatik olarak yükleyebilir veya size bir uygulamanın doğrudan bağlantısını gönderebilir, alternatif olarak erişiminiz olan tüm uygulamaları gördüğünüz AppSource'ta uygulamayı arayabilirsiniz. Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
+Uygulamaları iki farklı şekilde alabilirsiniz. Uygulama yazarı size bir uygulamanın doğrudan bağlantısını gönderebilir veya erişiminiz olan tüm uygulamaları gördüğünüz AppSource'ta uygulamayı arayabilirsiniz. Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. 
 
 ### <a name="install-an-app-from-a-direct-link"></a>Doğrudan bağlantı ile uygulama yükleme
 Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama yazarından bir doğrudan bağlantı almaktır. Power BI, yazarın size gönderebileceği bir yükleme bağlantısı oluşturur.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?
 Panolar ve raporlar oluşturuyorsunuz. Bu pano ve raporlar üzerinde iş arkadaşlarınızla işbirliği yapıyor da olabilirsiniz. Daha sonra başkalarının da bu panolara ve raporlara erişmesini istiyorsunuz. Bunları dağıtmanın en iyi yolu nedir?
@@ -54,7 +54,7 @@ Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşl
 
 ![Uygulamayı yayımla simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md#publish-your-app) hakkında daha fazla bilgi edinin. 
+Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md#publish-your-app) hakkında daha fazla bilgi edinin. 
 
 Kullanıcılar uygulamayı yükledikten sonra tarayıcılarında veya mobil cihazlarında görüntüleyebilir.
 

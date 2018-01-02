@@ -7,7 +7,7 @@ Power BI Desktop'ta çalışmaya başlayacak ve **Veri Al** seçeneğini belirle
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_1.png)
 
-Power BI, seçtiğiniz veri kaynağına bağlanır ve bu kaynakta mevcut olan verileri size gösterir. Başka bir örneğe ilişkin aşağıdaki görüntü, farklı eyaletleri ve bazı ilgi çekici emeklilik istatistiklerini gösteren bir Web sayfasından alınmıştır.
+Power BI, seçtiğiniz veri kaynağına bağlanır ve bu kaynakta mevcut olan verileri size gösterir. Başka bir örneğe ilişkin aşağıdaki görüntü, farklı eyaletleri ve bazı ilgi çekici emeklilik istatistiklerini çözümleyen bir Web sayfasından alınmıştır.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_2.png)
 

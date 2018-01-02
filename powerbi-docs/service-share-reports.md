@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 022f085d12d7dc872052ca9205deca264b1c0418
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="share-power-bi-reports-with-your-coworkers"></a>İş arkadaşlarınızla Power BI raporlarını paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI [işbirliği yapmak ve raporlarınızı dağıtmak](service-how-to-collaborate-distribute-dashboards-reports.md) için çeşitli yollar sunar ve paylaşım bu yollardan yalnızca biridir.
@@ -68,13 +68,14 @@ Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu
    
    Bizim örneğimizde, tablonun adı **Store**, alanın adı **Territory** ve filtrelemek istediğimiz değer **NC**'dir:
    
-    ?filter=Store/Territory eq NC
+    ?filter=Store/Territory eq 'NC'
    
    ![Filtrelenmiş rapor URL'si](media/service-share-reports/power-bi-filter-url3.png)
    
-   Tarayıcınız eğik çizgileri ve boşlukları temsil etmesi için özel karakterler ekler; böylece, aşağıdaki gibi bir URL elde edersiniz:
+   Tarayıcınız eğik çizgileri, boşlukları ve kesme işaretlerini göstermek için özel karakterler ekler; böylece, aşağıdaki gibi bir URL elde edersiniz:
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20NC
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
 3. Bu URL'yi iş arkadaşlarınıza gönderin. 
    
    İş arkadaşlarınız bağlantıyı seçtikleri zaman Power BI, filtrelenmiş raporun salt okunur bir sürümünü açar.

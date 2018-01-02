@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 11/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfba13cca4152825e81d4be0f46a9cd26a48d157
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Bir Power BI raporuna veya panosuna abone olma
-En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'a e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi söyleyebilirsiniz
+En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. E-posta ve anlık görüntü için Power BI'ın Ayarlar bölümünde belirlenen dil kullanılır. Dil tanımlanmamışsa Power BI, geçerli tarayıcının dilini kullanır.
+
+Dil tercihinizi görmek veya belirlemek için dişli simgesini ![](media/service-report-subscribe/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin.
+
+![](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Abonelikler yalnızca Power BI hizmetinde oluşturulabilir. Aldığınız e-postanın "rapora/panoya git" bağlantısı içerdiğini göreceksiniz. Power BI uygulamalarının yüklü olduğu mobil cihazlarda bu bağlantı seçildiğinde uygulama başlatılır (Power BI web sitesinde varsayılan olarak gerçekleştirilen, raporu veya panoyu açma işleminin aksine).

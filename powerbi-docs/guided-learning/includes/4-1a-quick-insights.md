@@ -2,7 +2,7 @@ Power BI hizmetindeki bir pano, rapor veya veri kümesiyle çalışırken Power 
 
 ![](media/4-1a-quick-insights/4-1a_1.png)
 
-Power BI, Hızlı Öngörüler seçeneğini belirlediğinizde bazı makine öğrenimi işlemleri gerçekleştirir ve hızlı öngörüler edinmek üzere analiz yaparak verileri arar. Hizmetin sağ üst köşesinde, Power BI'ın öngörüler edinme üzerinde çalıştığını gösteren bir bildirim görürsünüz.
+Power BI, Hızlı Öngörüler seçeneğini belirlediğinizde bazı makine öğrenimi işlemleri gerçekleştirir ve hızlı öngörüler edinmek üzere çözümleme yaparak verileri arar. Hizmetin sağ üst köşesinde, Power BI'ın öngörüler edinme üzerinde çalıştığını gösteren bir bildirim görürsünüz.
 
 ![](media/4-1a-quick-insights/4-1a_2.png)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın
 İK departmanları, bulundukları şirketler sektöre veya boyuta göre farklılık gösterse de aynı raporlama modeline sahiptir. Bu örnek, yeni işe alımlara, etkin çalışanlara ve işten ayrılan çalışanlara odaklanarak işe alım stratejisindeki eğilimleri ortaya çıkarmaya çalışır. Ana hedeflerimiz aşağıdaki noktaları kavramaktır:
@@ -36,7 +36,7 @@ Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nas�
 
 Birlikte ilerlemek ister misiniz? [Power BI hizmetinde](https://powerbi.com) **Veri Al > Örnekler > İnsan Kaynakları Örneği > Bağlan** yolunu izleyerek örneğin bir kopyasını edinin.
 
-Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529780).
+Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529780). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
 
 ## <a name="new-hires"></a>Yeni işe alımlar
 Önce yeni işe alımları inceleyelim.

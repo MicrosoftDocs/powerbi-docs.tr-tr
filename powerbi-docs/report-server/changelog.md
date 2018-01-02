@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -32,6 +32,10 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 ## <a name="october-2017"></a>Ekim 2017
 
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.1.6551.5155 (Derleme: 14.0.600.438), Yayımlanma Tarihi: 11 Aralık 2017*
+        - Hata Düzeltmeleri
+            - Belirli Power BI Desktop raporlarında yenilemeden sonra verilerin yenilenememesi.
+
     - *Sürüm: 1.1.6530.30789 (Derleme: 14.0.600.437), Yayımlanma Tarihi: 17 Kasım 2017*
         - Hata Düzeltmeleri
             - Temel Kimlik Doğrulaması Senaryolarına yönelik düzeltme 

@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
 
 ![Web portalında Power BI raporu](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI Rapor Sunucusu için Power BI raporları oluşturmaya hazırsınız demektir. Oluşturmadıysanız bu dört hızlı adım sayesinde hemen başlayabilirsiniz.
+Hemen başlamanızı sağlayacak 4 adım:
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>1. Adım: Power BI Desktop'ı (Rapor Sunucusu) yükleme
-Power BI hizmeti için rapor oluşturma amacıyla Power BI Desktop'ı önceden yüklemiş olabilirsiniz. Sunucunun ve uygulamanın her zaman eşitlenmesini sağlamak üzere, Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü yüklemenizi öneririz. Power BI Desktop uygulamasının iki sürümünü de aynı bilgisayarda kullanabilirsiniz.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>1. Adım: Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 
-1. Power BI Rapor Sunucusu web portalında, **Yeni** > **Power BI Raporu**'nu seçin.
+Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI Rapor Sunucusu için Power BI raporları oluşturmaya neredeyse hazırsınız demektir. Sunucunun ve uygulamanın her zaman eşitlenmesini sağlamak üzere, Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü yüklemenizi öneririz. Power BI Desktop uygulamasının iki sürümünü de aynı bilgisayarda kullanabilirsiniz.
+
+1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop**'ı seçin.
+
+    ![Web portalından Power BI Desktop'ı indirme](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Rapor Sunucusu için iyileştirilmiş - Ekim 2017) sayfasına da gidebilirsiniz.
+
+2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
+
+3. Bilgisayarınıza bağlı olarak, şu seçeneklerden birini belirleyin:
+
+    - **PBIDesktopRS.msi** (32 bit sürümü) veya
+
+    - **PBIDesktopRS_x64.msi** (64 bit sürümü).
+
+4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ekim 2017) Kurulum Sihirbazını çalıştırın.
+
+2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
    
-    ![Yeni Power BI raporu](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Power BI Rapor Sunucusu web portalına erişiminiz yoksa Microsoft İndirme Merkezi'ne gidip [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (Power BI Rapor Sunucusu için iyileştirilmiş - Haziran 2017 GA) uygulamasını indirin.
-2. Yükleme işleminin sonunda **Power BI Desktop uygulamasını şimdi başlat**'ı işaretleyin.
-   
-    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğunda "Power BI Desktop (Rapor Sunucusu)" görüntülendiği için doğru sürüme sahip olduğunuzu anlayabilirsiniz.
+    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki "Power BI Desktop (Ekim 2017)" ifadesi, doğru sürüme sahip olduğunuzu gösterir.
+
+    ![Power BI Desktop Ekim 2017 sürümü](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Power BI Desktop uygulamasını daha önceden kullanmadıysanız karşılama ekranındaki videoları izlemek isteyebilirsiniz.
    
     ![Power BI Desktop başlangıç ekranı](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)

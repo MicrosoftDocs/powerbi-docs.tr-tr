@@ -1,5 +1,5 @@
 ---
-title: "Power BI Pro içeriği nedir?"
+title: Power BI Premium nedir?
 description: "Power BI Premium, kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri sunan, kuruluşunuz veya ekibiniz için ayrılmış kapasitedir."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar, böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
@@ -69,9 +69,13 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 * P düğümleri, katıştırılmış dağıtımlar ve hizmet dağıtımları için kullanılabilir
 * EM düğümleri ise yalnızca katıştırılmış dağıtımlar için kullanılabilir
+* EM1 ve EM2 
+* Bu tablodaki bağlantılar yalnızca Office 365 genel yöneticisi olan kullanıcılar için düzgün bir şekilde görüntülenir, diğer kullanıcılar ise bir 404 hatasıyla karşılaşır. 
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı | Kullanılabilirlik |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 sanal çekirdek |.5 çekirdek, 2,5 GB RAM |.5 çekirdek |Saniyede 3,75 |150-300 |Mevcut |
+| [EM2 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 sanal çekirdek |1 çekirdek, 5 GB RAM |1 çekirdek |Saniyede 7,5 |301-600 |Mevcut |
 | [EM3 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 çekirdek | |601-1.200 |Kullanılabilir |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 sanal çekirdek |4 çekirdek, 25 GB RAM |4 çekirdek |saniyede 30 |1.201-2.400 |Kullanılabilir ([aylık](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) olarak da sunulur) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 sanal çekirdek |8 çekirdek, 50 GB RAM |8 çekirdek |saniyede 60 |2.401-4.800 |Kullanılabilir |

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Procurement Analysis Sample: Tura katılın
 Bu sektör örneği panosunda ve bağlantılı raporda, bir üretim şirketinin kategori ve konuma göre satıcılar için yaptığı harcamalar çözümlenmiştir. Bu örnekte şu alanları araştıracağız:
@@ -36,7 +36,7 @@ Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kulla
 
 Birlikte ilerlemek ister misiniz? [Power BI hizmetinde](https://powerbi.com) **Veri Al > Örnekler > Tedarik Analizi Örneği > Bağlan** yolunu izleyerek örneğin bir kopyasını edinin.
 
-Ayrıca bu örnek için [yalnızca veri kümesini de (Excel çalışma kitabı)](http://go.microsoft.com/fwlink/?LinkId=529784) indirebilirsiniz.
+[!Note] Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529784). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
 
 ## <a name="spending-trends"></a>Harcama eğilimleri
 İlk olarak kategoriye ve konuma göre harcama eğilimlerine göz atalım.  
@@ -114,7 +114,7 @@ Sol üst köşedeki **Raporu düzenle** seçeneğine tıklayıp Düzenleme Gör�
 * Bir grafik için görselleştirme türünü değiştirin (örneğin, ağaç haritasını halka grafik olarak değiştirin)
 * Bu görselleştirmeleri panonuza sabitleyin
 
-Burası keşif yapabileceğimiz güvenli bir ortam. Değişikliklerinizi kaydetmemeyi de tercih edebilirsiniz. Değişiklikleri kaydederseniz istediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
+Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Değişiklikleri kaydederseniz istediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Bu turda Power BI panolarının, perakende verilerine yönelik olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Şimdi sıra sizde, kendi verilerinize bağlanın. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.

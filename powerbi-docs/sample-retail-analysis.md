@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
 Sektörden alınan örneklerin yer aldığı pano ve bağlantılı raporda, birden fazla mağazada ve bölgede satışı yapılan mallara ilişkin perakende satış verileri çözümlenmektedir. Ölçümler şu alanlarda bu yılın performansını geçen yılın rakamlarıyla karşılaştırmaktadır: satış, birim sayısı, brüt kâr, varyans ve yeni mağaza analizi. Anonim hale getirilmiş bu gerçek veriler, obviEnce'tan ([www.obvience.com](http://www.obvience.com)) alınmıştır.
 
-Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529778).
+[!Note] Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) de indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529778). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir.  Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin. 
 
 ![](media/sample-retail-analysis/retail1.png)
 
@@ -132,10 +132,10 @@ Biraz daha ayrıntıya inelim.
 5. Dilimleyicideki Cincinnati 2 Fashions Direct öğesine tıkladığınızda, çizgi grafikte, Haziran ayında açıldığını ve en kötü performansa sahip mağaza olduğunu göreceksiniz.
 6. Önceki örneklerde olduğu gibi, grafiklerdeki diğer çubuklara, çizgilere ve kabarcıklara tıklayarak araştırma yapın ve öngörüler keşfedin.
 
-Bu ortamda dilediğiniz işlemi gerçekleştirebilirsiniz. Dilerseniz, değişikliklerinizi kaydetmemeyi de tercih edebilirsiniz. Değişikliklerinizi kaydetseniz bile Veri Al sayfasına giderek bu örneğin yeni bir kopyasını oluşturabilirsiniz.
+Bu ortamda dilediğiniz işlemi gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Değişikliklerinizi kaydetseniz bile Veri Al sayfasına giderek bu örneğin yeni bir kopyasını oluşturabilirsiniz.
 
 ## <a name="connect-to-your-data"></a>Verilerinize bağlanma
-Power BI panolarının, Soru-Cevap özelliğinin ve raporların perakende verileri için nasıl öngörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi edindiğinizi umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI sayesinde çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
+Power BI panolarının, Soru-Cevap özelliğinin ve raporların perakende verileri için nasıl öngörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi edindiğinizi umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Perakende Analizi örnek içerik paketini indirme](sample-tutorial-connect-to-the-samples.md)    
