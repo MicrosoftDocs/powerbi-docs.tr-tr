@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 Power BI Desktop'ta bir Power BI raporu oluşturduğunuzda [raporun telefondaki bir Power BI uygulamasında görüntülenmek üzere en iyi duruma getirilmiş](desktop-create-phone-report.md) sürümünü de oluşturabilirsiniz.
@@ -39,8 +39,8 @@ Telefon için en iyi duruma getirilmiş raporlarda diğer tüm Power BI rapor ö
 * [iPhone'larda raporlar](mobile-reports-in-the-mobile-apps.md). 
 * [Android telefonlarda raporlar](mobile-reports-in-the-mobile-apps.md).
 
-## <a name="filter-the-report-page-on-an-iphone"></a>iPhone'da rapor sayfasını filtreleme
-Telefon için en iyi duruma getirilmiş raporda tanımlı filtreler varsa, raporu iPhone'da görüntülerken bu filtreleri kullanabilirsiniz. 
+## <a name="filter-the-report-page-on-a-phone"></a>Telefonda rapor sayfasını filtreleme
+Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, söz konusu raporu bir telefonda görüntülerken bu filtreleri kullanabilirsiniz. 
 
 1. Sayfanın en altında bulunan filtre simgesine ![Telefon filtre simgesi](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) dokunun. 
 2. İlgilendiğiniz sonuçları görmek için temel veya gelişmiş filtreleme kullanın.

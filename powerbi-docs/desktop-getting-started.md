@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
@@ -43,6 +43,10 @@ Aceleniz varsa bu kılavuzu yalnızca birkaç dakika içinde tarayabilir ve Powe
 
 Daha iyi anlamak için her bölümü okuyabilir, adımları uygulayabilir ve kendi Power BI Desktop dosyanızı edinip bunu **Power BI** hizmetine gönderebilir ve başkalarıyla paylaşabilirsiniz.
 
+>[!NOTE]
+>**Power BI**'ın [**Power BI Rapor Sunucusu**](report-server/get-started.md) adlı ayrı, özel bir sürümü de mevcuttur. Bu sürüm, veri ve raporlarının şirket içinde kalmasını isteyen müşterilere yöneliktir. **Power BI Desktop**'ın da bu özel sürüm ile kullanıma yönelik **Power BI Rapor Sunucusu için Power BI Desktop** adlı ayrı, özel bir sürümü mevcuttur. Bu sürüm yalnızca, Power BI'ın Rapor Sunucusu sürümü ile kullanılabilir. Bu makalede standart **Power BI Desktop** ile ilgili açıklamalara yer verilmiştir.
+
+
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop nasıl çalışır?
 Power BI Desktop ile *verilere bağlanabilir* (genellikle birden çok veri kaynağına), *bu verileri şekillendirebilir* (öngörü sunan, ilgi çekici veri modelleri oluşturan sorgularla) ve bu modeli kullanarak *raporlar oluşturabilirsiniz* (başkaları da bu raporları kullanabilir, geliştirebilir ve paylaşabilir).
 
@@ -51,6 +55,8 @@ Adımlar (bağlanma, şekillendirme ve raporlama) istediğiniz şekilde tamamlan
 Power BI Desktop, normalde dağınık, kopuk ve zahmetli bir işlem olan iş zekası depolarını ve raporlarını tasarlama ve oluşturma işlemini merkezileştirir, sadeleştirir ve kolaylaştırır.
 
 Denemeye hazır mısınız? Başlayalım.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>Power BI Desktop'ı yükleme ve çalıştırma
 Power BI Desktop'ı, **Power BI** hizmetinde **dişli** simgesini ve ardından **Power BI Desktop**'ı seçerek indirebilirsiniz.
@@ -94,7 +100,7 @@ Emekliye ayrıldığınızı (bol güneşli, vergileri uygun ve sağlık hizmeti
 
  ![](media/desktop-getting-started/gettingstarted_8.png)
 
-**Tamam**'ı seçtiğinizde, Power BI Desktop'ın **Sorgu** işlevi çalışmaya başlar. Sorgu, Web kaynağı ile bağlantı kurar ve **Gezgin** penceresi, ilgili Web sayfasında bulduğu öğeleri döndürür. Bu örnekte, bir tablo (*Table 0*) ve genel Web Belgesi bulunmuştur. Tablo ilgimizi çekti, bu nedenle listeden tabloyu seçiyoruz. **Gezgin** penceresi bir önizleme görüntüler.
+**Tamam**'ı seçtiğinizde, Power BI Desktop'ın **Sorgu** işlevi çalışmaya başlar. Sorgu, Web kaynağı ile bağlantı kurar ve **Gezgin** penceresi, ilgili Web sayfasında bulduğu öğeleri döndürür. Bu örnekte, bir tablo (*Table 0*) ve genel Web Belgesi bulunmuştur. Tablo ilgimizi çekti, bu nedenle listeden tabloyu seçiyoruz. **Gezgin** penceresi, bir önizleme görüntüler.
 
  ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
@@ -153,7 +159,7 @@ Bu adımların her biri, **[Power BI Desktop'ta Verileri Şekillendirme ve Birle
 ## <a name="combine-data"></a>Verileri birleştirme
 Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözümleme çalışmaları ve sorgular oluşturmak için faydalı olacaktır. Ancak, bu noktada bir sorun var: Gösterilen verilerin çoğunda eyalet kodları için eyaletin tam adı yerine iki harfli kısaltmalar kullanılmıştır. Eyalet adlarını kısaltmalarıyla ilişkilendirmek için bir yönteme ihtiyacımız var.
 
-Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik bir web kaynağı verilmiştir:
+Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik web kaynağına ulaşabilirsiniz:
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
@@ -191,7 +197,7 @@ Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözü
 
 Sorguları birleştirmek için izlenebilecek, *birleştirme* ve *ekleme* olmak üzere iki temel yol bulunur.
 
-Başka bir sorguya eklemek istediğiniz bir veya daha fazla sütun olduğunda sorguları **birleştirirsiniz**. Var olan bir sorguya eklemek istediğiniz ek veri satırları olduğunda sorguyu **eklersiniz**.
+Bir veya daha fazla sütunu başka bir sorguya eklemek istediğinizde sorguları **birleştirirsiniz**. Var olan bir sorguya eklemek istediğiniz ek veri satırları olduğunda sorguyu **eklersiniz**.
 
 Bu örnekte sorguları birleştirmek istiyoruz. Öncelikle, diğer sorgunun birleşip *içine dahil olmasını* istediğimiz sorguyu seçiyoruz, ardından şeritteki **Giriş** sekmesinden **Sorguları Birleştir**'i seçiyoruz.
 
@@ -210,7 +216,7 @@ Bu örnekte yalnızca *State Code* sütununu istediğimizden, yalnızca bu sütu
 >[!NOTE]
 >Söz konusu *NewColumn* tablosunu elde etme konusunda birkaç deneme yapmak ister misiniz? Biraz deneme yapabilirsiniz ve sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**'dan bu adımı silmeniz yeterlidir. Sorgunuz, bu **Genişlet** adımı uygulanmadan önceki haline geri döner. Bu işlem, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabileceğiniz bir serbest tekrarlama gibidir.
 
-Şu anda her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağını birleştiren tek bir sorgumuz (tablomuz) var. Bu sorgu, herhangi bir eyaletteki konut maliyeti istatistikleri, demografik bilgiler veya iş fırsatları gibi ilgi çekici diğer birçok veri bağlantısı için temel oluşturabilir.
+Her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağının birleştirildiği tek bir sorgu (tablo) elde etmiş olduk. Bu sorgu, herhangi bir eyaletteki konut maliyeti istatistikleri, demografik bilgiler veya iş fırsatları gibi ilgi çekici diğer birçok veri bağlantısı için temel oluşturabilir.
 
 Tüm bu şekillendirme ve birleştirme veri adımlarının her birine yönelik daha ayrıntılı açıklama için bkz. [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md).
 

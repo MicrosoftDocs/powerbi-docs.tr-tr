@@ -1,6 +1,6 @@
 ---
-title: "Özel görselleri Office Mağazası'nda yayımlama"
-description: "Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla Office Mağazası'nda nasıl yayımlayacağınızı öğrenin."
+title: "AppSource'ta özel görsel yayımlama"
+description: "Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Özel görselleri Office Mağazası'nda yayımlama
-Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla Office Mağazası'nda nasıl yayımlayacağınızı öğrenin.
+# <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
+Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin. Office
 
-Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla Office Mağazası'nda yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md).
+Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Office Mağazası nedir? Kısaca, Office 365 yazılımınız için uygulamalar (eklenti) bulabileceğiniz yerdir. [Office Mağazası](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) milyonlarca Office 365 kullanıcısını, işlerini hiç olmadığı kadar verimli, bilinçli veya iyi bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlar.
+AppSource nedir? Basit bir şekilde açıklamak gerekirse bu platform, Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Office 365, Dynamics 365 ve Cortana Intelligence gibi çok sayıda ürünün milyonlarca kullanıcısını; işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlerle bir araya getirir.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
 Özel görselinizi kodlamayı ve test etmeyi tamamlayıp pbiviz dosyası şeklinde paketledikten sonra aşağıdaki gönderim için gerekli bilgilere sahip olmanız gerekir.
@@ -53,18 +53,18 @@ Gönderme süreci Power BI özel görseller gönderim ekibine gönderilen bir e-
 E-postanıza .pbiviz dosyasını ve örnek rapor .pbix dosyanızı ekleyin. Power BI ekibi yanıt olarak talimatları ve yüklenecek uygulama paketi XML dosyasını gönderecektir. Görselinizi Office Geliştirici Merkezi'nden göndermek için bu XML uygulama paketini kullanmanız gerekir.
 
 > [!NOTE]
-> Kaliteyi yükseltmek ve var olan raporların hata vermemesini sağlamak için var olan görsellerde yapılan güncelleştirmelerin mağaza onayından geçtikten sonra üretim ortamına ulaşması fazladan 2 hafta sürecektir.
+> Kaliteyi yükseltmek ve var olan raporların çalışmaya devam etmesini sağlamak için, mevcut görsellerde yapılan güncelleştirmelerin mağaza onayından geçtikten sonra üretim ortamına ulaşması için ek olarak iki hafta geçmesi gerekir.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Office Mağazası'na gönderme
-Power BI ekibinin gönderdiği uygulama paketi XML dosyasını aldıktan sonra [Office Geliştirici Merkezi](https://sellerdashboard.microsoft.com/Application/Summary)'ne giderek görselinizi Office Mağazası'na gönderebilirsiniz.
+## <a name="submitting-to-appsource"></a>AppSource'a gönderme
+Power BI ekibinin gönderdiği uygulama paketi XML dosyasını aldıktan sonra [geliştirici merkezine](https://sellerdashboard.microsoft.com/Application/Summary) giderek görselinizi AppSource'a gönderebilirsiniz.
 
 > [!NOTE]
 > [Office Geliştirici Merkezi](https://dev.office.com/)'nde oturum açmak için geçerli bir Office geliştirici hesabına sahip olmanız gerekir. Office geliştirici hesabının Microsoft Hesabı (hotmail.com veya outlook.com gibi Live ID) olması gerekir.
 > 
 > [!IMPORTANT]
-> Görselinizi Office Mağazası'na göndermeden önce .pbiviz ve .pbix dosyasını e-posta ile Power BI ekibine göndermeniz gerekir. Power BI ekibi dosyaları herkese açık paylaşım sunucusuna yükleyecektir. Aksi halde Office Mağazası dosyaları alamayacaktır. Yeni bir görsel gönderirken, var olan görseli güncelleştirirken veya Office Mağazası tarafından reddedilen görselleri düzeltirken dosyaları göndermeniz gerekir.
+> Görselinizi AppSource'a göndermeden önce .pbiviz ve .pbix dosyasını e-posta ile Power BI ekibine göndermeniz gerekir. Böylece Power BI ekibi, dosyaları herkese açık paylaşım sunucusuna yükleyebilir. Aksi halde mağaza, dosyaları alamaz. Yeni bir görsel gönderirken, mevcut görselleri güncelleştirirken veya reddedilen görselleri düzeltirken her seferinde dosyaları göndermeniz gerekir.
 > 
 > 
 

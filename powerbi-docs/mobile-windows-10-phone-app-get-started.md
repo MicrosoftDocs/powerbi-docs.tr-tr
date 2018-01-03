@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı tabletinize veya telefonunuza getirir. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyin ve etkileşime geçin.
@@ -35,10 +35,8 @@ Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve rapo
 ## <a name="first-things-first"></a>İlk yapılacaklar
 * Windows Mağazası'ndan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
   
-  > [!NOTE]
-  > Cihazınızın Windows 10'u çalıştırması gerekir. Uygulamanın en iyi çalıştığı cihazlar, en az 2 GB RAM'i ve 8 GB iç depolama alanı olan cihazlardır. Uygulama en az 1 GB RAM ile çalışır.
-  > 
-  > 
+  Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 3 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda çalışabilir.
+   
 * [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web üzerinde Power BI hizmetine kaydolma
@@ -62,7 +60,7 @@ Henüz kaydolmadıysanız [Power BI hizmeti](http://powerbi.com/) sayfasına gid
 Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Panoların bulunduğu giriş sayfasından dilediğiniz zaman örneklere geri dönebilirsiniz.
 
 ### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey vardır. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
 
 1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) dokunun.
 2. **Ayarlar** simgesine ![Ayarlar simgesi](media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) dokunun, adınıza dokunun ve ardından **Örnekleri görüntüle**'ye dokunun.

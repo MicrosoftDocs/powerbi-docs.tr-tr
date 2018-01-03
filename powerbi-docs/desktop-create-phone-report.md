@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-[Power BI Desktop'ta bir rapor oluşturduğunuzda](desktop-report-view.md) raporun telefona özgü bir sürümünü oluşturarak telefonlardaki mobil uygulamalarda daha iyi bir kullanım deneyimi sunmasını sağlayabilirsiniz. Raporunuzu telefon için uyarlamak üzere görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Ayrıca telefonda görüntülendiğinde yeniden boyutlandırılan [*esnek* görseller oluşturabilirsiniz](desktop-create-responsive-visuals.md). Ayrıca raporunuza eklediğiniz filtreler iPhone'da otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
+[Power BI Desktop'ta bir rapor oluşturduğunuzda](desktop-report-view.md) raporun telefona özgü bir sürümünü oluşturarak telefonlardaki mobil uygulamalarda daha iyi bir kullanım deneyimi sunmasını sağlayabilirsiniz. Raporunuzu telefon için uyarlamak üzere görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
 
 ![Telefonda en iyi duruma getirilmiş rapor](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/13/2017
    ![Görsel boyutunu değiştirme](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Görseli tüm boyutlar için en iyi duruma getirme
-Pano veya raporunuzdaki görsellerin *esnek* hale gelip ekran boyutu ne olursa olsun maksimum sayıda veri ve öngörü görüntüleyecek şekilde dinamik olarak değişmesini sağlayabilirsiniz.
+Pano veya raporunuzdaki görsellerin *esnek* hale gelip ekran boyutu ne olursa olsun maksimum sayıda veri ve öngörü görüntüleyecek şekilde dinamik olarak değişmesini sağlayabilirsiniz. 
 
 Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. Örneğin görselin küçülse dahi bilgilendirici olması için otomatik olarak boşluğu kaldırır ve açıklamayı görselin üst tarafına taşır.
 
@@ -82,10 +82,14 @@ Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görseller
 Dilimleyiciler, rapor verilerinizin tuval üzerinde filtrelenmesini sağlar. Dilimleyicileri normal rapor oluşturma modunda tasarlarken telefon raporlarında daha kullanışlı hale getirmek için bazı dilimleyici ayarlarını değiştirebilirsiniz:
 
 * Raporu okuyanların bir veya daha fazla öğeyi seçip seçemeyeceğine karar verin.
-* Dilimleyiciyi dikey veya yatay hale getirin. 
 * Dilimleyicinin etrafına bir kutu yerleştirerek raporu taramayı kolaylaştırın.
+* Dilimleyiciyi dikey, yatay veya *esnek* hale getirin. 
 
-[Power BI hizmetinde dilimleyici oluşturma](guided-learning/visualizations.yml#step-4) hakkında daha fazla bilgi edinin.
+Dilimleyiciyi esnek hale getirirseniz boyutunu veya şeklini değiştirdiğinizde daha fazla ya da daha az seçenek görüntülenir. Dilimleyici uzun, kısa, geniş veya dar olabilir. Yeterince küçültürseniz rapor sayfasında bir filtre simgesine dönüşür. 
+
+![Power BI'da esnek dilimleyici](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+[Esnek dilimleyiciler oluşturma](power-bi-slicer-filter-responsive.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="publish-a-phone-report"></a>Telefon raporu yayımlama
 * Raporunuzun telefon sürümünü yayımlamak için [ana raporu Power BI Desktop'tan Power BI hizmetine yayımlamanız](desktop-upload-desktop-files.md) yeterlidir, telefon sürümü de aynı anda yayımlanır.

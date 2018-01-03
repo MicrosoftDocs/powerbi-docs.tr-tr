@@ -3,7 +3,7 @@ title: "Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop
 description: "Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: maggiesMSFT
 manager: kfile
 backup: 
 editor: 
@@ -15,35 +15,51 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 5fd5f41523ffcba03eb4749a9560922bcff42a7c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/06/2017
+ms.author: maggies
+ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin.
 
-Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını indirip yüklemeniz gerekir. Bu, Power BI hizmetiyle birlikte kullanılan Power BI Desktop'tan farklı bir sürümdür. Bu, rapor sunucusunun raporların ve modelin bilinen sürümüyle etkileşim kurduğundan emin olmak için gereklidir. 
+Power BI Rapor Sunucusu için Power BI raporları oluşturmak istiyorsanız Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirip yüklemeniz gerekir. Bu, Power BI hizmetiyle kullanılan Power BI Desktop'tan farklı bir sürümdür. Örneğin, Power BI hizmetine yönelik Power BI Desktop sürümü, yayımlandıktan sonra Power BI Rapor Sunucusu sürümünde kullanılabilecek olan önizleme özelliklerini içerir. Bu sürümün kullanılması, rapor sunucusunun; raporların ve modelin bilinen bir sürümüyle etkileşim kurabilmesini sağlar. 
 
 > [!NOTE]
-> Power BI Desktop ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması aynı makineye yüklenebilir.
-> 
-> 
+> Power BI Desktop ile Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamaları aynı bilgisayarda yan yana yüklü olabilir.
 
-## <a name="download-and-install"></a>İndirme ve yükleme
-Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını [Microsoft İndirme Merkezi](https://go.microsoft.com/fwlink/?linkid=837581)'nden veya rapor sunucunuzun web portalından indirebilirsiniz.
+## <a name="download-and-install-power-bi-desktop"></a>Power BI Desktop uygulamasını indirme ve yükleme
 
-Yükleyiciyi indirdikten sonra Power BI Desktop uygulamasını yükleyebilirsiniz.
+Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en güncel sürümüne sahip olduğunuzdan emin olmanın en kolay yolu rapor sunucunuzun web portalına gitmektir.
+
+1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop**'ı seçin.
+
+    ![Web portalından Power BI Desktop'ı indirme](media/install-powerbi-desktop/report-server-download-web-portal.png)
+
+    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Rapor Sunucusu için iyileştirilmiş - Ekim 2017) sayfasına da gidebilirsiniz.
+
+2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
+
+3. Bilgisayarınıza bağlı olarak, şu seçeneklerden birini belirleyin: 
+
+    - **PBIDesktopRS.msi** (32 bit sürümü) veya
+
+    - **PBIDesktopRS_x64.msi** (64 bit sürümü).
+
+1. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ekim 2017) Kurulum Sihirbazını çalıştırın.
+2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
+   
+    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>Doğru sürümü kullandığınızdan emin olma
-Power BI Desktop uygulamasının doğru sürümünü kullandığınızdan emin olmak için açılış ekranına veya Power BI Desktop'taki başlık çubuğuna bakabilirsiniz. Başlık çubuğunda sürümün ayı ve yılı gösterilir.
+Power BI Desktop uygulamasının doğru sürümünü kullandığınızdan emin olmak için açılış ekranına veya Power BI Desktop'taki başlık çubuğuna bakabilirsiniz. Başlık çubuğunda sürüme ilişkin ay ve yıl bilgileri gösterilir.
 
-![](media/install-powerbi-desktop/powerbi-desktop-rs-title-bar.png "Power BI Desktop başlık çubuğu")
+![Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop için başlık çubuğu](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
-Power BI hizmeti için Power BI Desktop sürümünün başlık çubuğunda ay ve yıl görüntülenmez.
+Başlık çubuğunda Power BI hizmeti için Power BI Desktop sürümüne ilişkin ay ve yıl bilgisi görüntülenmez.
 
 ## <a name="file-extension-association"></a>Dosya uzantısı ilişkilendirme
 Aynı makineye hem Power BI Desktop hem de Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklediyseniz .pbix dosyası en son yüklenmiş olan Power BI Desktop ile ilişkilendirilir. Bu da bir pbix dosyasına çift tıkladığınızda en son yüklenen Power BI Desktop uygulamasının açılacağı anlamına gelir.

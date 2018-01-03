@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Kuruluşunuzda Power BI uygulamasını yönetme
 Microsoft Power BI, kullanıcıların verileri görselleştirmesine, keşfettiklerini paylaşmasına, yeni ve kolay anlaşılır yollarla işbirliği yapmasına olanak sağlar. Daha fazla bilgi edinmek için bkz. [Power BI ile çalışmaya başlama](service-get-started.md).
@@ -60,6 +60,7 @@ Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power 
 * [Hazırlıklı olmam gereken başka şeyler var mı?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Bu ücretsiz olarak mı sunuluyor? Bu lisanslar için ücret ödemem gerekir mi?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Power BI kiracım nerede bulunur?](#where-is-my-power-bi-tenant-located)
+* [Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) nedir?](#what-is-the-power-bi-sla)
 
 **Power BI'da Güvenlik**
 
@@ -255,6 +256,9 @@ Office 365 yönetim merkezinde standart işlemi uygulayarak kiracınızdan kulla
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 Power BI kiracınızın konumunu (veri bölgesi olarak da bilinir) nasıl bulacağınız hakkında bilgi edinmek için bkz. [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md)
+
+### <a name="what-is-the-power-bi-sla"></a>Power BI SLA'sı nedir?
+Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) hakkında bilgi edinmek için Microsoft Licensing web sitesinin **Licensing** (Lisanslama) bölümündeki [Licensing Terms and Documentation (Lisanslama ile ilgili Koşullar ve Belgeler)](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) makalesine başvurun.
 
 ## <a name="security-in-power-bi"></a>Power BI'da Güvenlik
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?

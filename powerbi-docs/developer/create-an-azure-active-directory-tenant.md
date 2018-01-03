@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 Power BI REST API'lerini kullanan özel uygulamanızla kullanmak üzere yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
@@ -33,7 +33,7 @@ Azure AD kiracısına sahip olduktan sonra bir uygulama tanımlayıp uygulamanı
 Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracısına sahip olabilir. Uygulamanız için bu kiracıyı kullanabilir veya uygulamanıza özel yeni bir kiracı oluşturabilirsiniz. Bu makalede yeni kiracı oluşturma adımları ele alınmaktadır.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory kiracısı oluşturma
-Power BI'ı özel uygulamanızla tümleştirmek için Azure AD içinde bir uygulama tanımlamanız gerekir. Bunun için Azure AD içinde bir dizine ihtiyacınız vardır. Bu dizin sizin kiracınızdır. Kuruluşunuz Power BI veya Office 365 kullanmadığı için kiracıya sahip değilse bir kiracı oluşturmanız gerekir. Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da yeni bir kiracı oluşturmanız gerekebilir. Bu sayede kaynakları birbirinden ayırmış olursunuz.
+Power BI'ı özel uygulamanızla tümleştirmek için Azure AD içinde bir uygulama tanımlamanız gerekir. Bunun için Azure AD içinde bir dizine ihtiyacınız vardır. Bu dizin sizin kiracınızdır. Kuruluşunuz Power BI veya Office 365 kullanmadığı için kiracıya sahip değilse [bir kiracı oluşturmanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da yeni bir kiracı oluşturmanız gerekebilir. Bu sayede kaynakları birbirinden ayırmış olursunuz.
 
 Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
 

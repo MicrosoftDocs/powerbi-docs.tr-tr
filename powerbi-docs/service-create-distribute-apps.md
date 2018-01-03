@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -32,7 +32,7 @@ Power BI'da, ilişkili pano ve raporları bir araya getirip kuruluşunuzda kalab
 
 Şimdi önizlemede olan Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu uygulamaları ister bütün kuruluşunuza, ister belirli kişi ve gruplara yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, pano koleksiyonlarında izin yönetimini kolaylaştırır.
 
-İş kullanıcıları, uygulamalarınızı birkaç farklı yöntemle alabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamalarınızı Microsoft AppSource'tan yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Hepsi tek bir yerde olduğu için içeriğinizi kolayca bulabilir ve içeriğinize geri dönebilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
+İşletme kullanıcıları bu uygulamaları Microsoft AppSource'tan yükleyebilir veya onlara doğrudan bağlantı gönderebilirsiniz. Hepsi tek bir yerde olduğu için içeriğinizi kolayca bulabilir ve içeriğinize geri dönebilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
 
 ### <a name="apps-and-organizational-content-packs"></a>Uygulamalar ve kurumsal içerik paketleri
 Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal içerik paketleriniz varsa bu paketler, uygulamalarla yan yana çalışmaya devam ederler.
@@ -119,15 +119,13 @@ Uygulama çalışma alanınızdaki panolar ve raporlar hazır olduğunda, bunlar
    
      ![Uygulama içeriği](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Son olarak, **Erişim**'de, uygulamaya kimin erişebileceğine karar verin: kuruluşunuzdaki herkes ya da belirli kişiler veya e-posta dağıtım listeleri olabilir. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz.
-   
-     ![Uygulama erişimi](media/service-create-distribute-apps/power-bi-apps-access.png)
+4. Son olarak, **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. 
 
 5. **Son**'u seçtiğinizde, uygulamanın yayımlamaya hazır olduğunu doğrulayan bir ileti göreceksiniz. Başarılı iletişim kutusundaki URL'yi kopyalayabilirsiniz. Bu, uygulamaya doğrudan bir bağlantıdır ve bunu uygulamayı paylaştığınız kişilere gönderebilirsiniz.
    
      ![Uygulama sonu](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Uygulamayı yayımladığınız iş kullanıcıları, söz konusu uygulamayı birkaç farklı yolla bulabilir. İlk olarak, otomatik olarak yüklediyseniz Power BI hesabında Uygulamalar altında görünür.  Uygulamanın doğrudan bağlantısını gönderebilirsiniz veya kullanıcılar, erişimleri olan her uygulamayı görebildiği Microsoft AppSource'ta uygulamayı arayabilir. Bundan sonra Uygulamalar'a her gittiklerinde, bu uygulamayı listelerinde görürler.
+Uygulamayı yayımladığınız işletme kullanıcıları, söz konusu uygulamayı iki farklı yolla bulabilir. Uygulamanın doğrudan bağlantısını gönderebilirsiniz veya kullanıcılar, erişimleri olan her uygulamayı görebildiği Microsoft AppSource'ta uygulamayı arayabilir. Daha sonra Uygulamalar'a her gittiklerinde, bu uygulamayı listelerinde görürler.
 
 [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
 

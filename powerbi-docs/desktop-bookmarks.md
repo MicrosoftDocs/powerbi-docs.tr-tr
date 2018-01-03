@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Power BI'da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma (Önizleme)
 Power BI'da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -152,7 +152,8 @@ Yer işaretleri arasında gezinmek için gri renkli yer işareti başlık çubu�
 * Bir rapor bölmesinin çapraz vurgulanma durumu, yer işareti oluşturduğunuzda *kaydedilmez*. 
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.
 * Bir yer işareti oluşturulduktan sonra gerçekleştirdiğiniz görsel taşıma işlemleri, yer işaretinde gösterilir. 
-* Bir raporu **Power BI** hizmetinde yayımladığınızda yer işaretlerinin hizmette kullanılabilir olması için raporunuzda en az bir yer işareti *olmalıdır*. Bu, yayımladığınız her rapor için gereklidir.
+* Raporunuzu **Power BI hizmetinde** yayımladığınızda hizmette yer işaretlerinin kullanılabilmesi için raporunuzda en az bir yer işareti *olması gerekir*. Bu, yayımladığınız her rapor için gereklidir.
+* Yer işaretleri bir Önizleme özelliği olduğundan henüz [**Rapor Sunucusu için Power BI Desktop**](report-server/quickstart-create-powerbi-report.md)'ta kullanılmamaktadır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Yer işaretlerine benzeyen veya yer işaretleriyle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:
