@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel göründüğü kadar işlevsel hale getirmeye geldi. Genel olarak yapmanız gereken, en önemli bilgileri öne çıkarıp panoyu temiz ve sade bir hale getirmektir.
@@ -54,7 +54,7 @@ Panonuzdaki tüm metinler ve görselleştirmeler aynı boyutta olursa kullanıc�
 
 Ancak bağlam sunduğunuzdan emin olun.  
 
-[Yalnızca sayı içeren bir kutucuk oluşturma](power-bi-visualization-big-number.md) hakkında bilgi edinin.
+[Yalnızca sayı içeren bir kutucuk oluşturma](power-bi-visualization-card.md) hakkında bilgi edinin.
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>En önemli bilgileri üst köşeye yerleştirin
 Çoğu kişi içeriği yukarıdan aşağıya doğru okuduğu için en yüksek ayrıntıya sahip olan öğeyi en üste yerleştirin ve hedef kitlenizin okuma yönüne göre (soldan sağa, sağdan sola) verileri ayrıntılandırın.

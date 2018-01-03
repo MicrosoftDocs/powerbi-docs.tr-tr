@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: asaxton
 ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/18/2017
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -112,19 +112,19 @@ Yönetici portalındaki üçüncü sekme **Kiracı ayarları**'dır. Kiracı aya
 
 Ayarlar, seçimlerinize bağlı olarak üç duruma sahip olabilir.
 
-### <a name="disabled-for-the-entire-organization"></a>Tüm kuruluş için devre dışıdır
+### <a name="disabled-for-the-entire-organization"></a>Tüm kuruluş için devre dışı bırakıldı
 
 Bir özelliği devre dışı bırakabilir ve kullanıcıların kullanamayacağı hale getirebilirsiniz.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-### <a name="enabled-for-the-entire-organization"></a>Tüm kuruluş için etkindir
+### <a name="enabled-for-the-entire-organization"></a>Tüm kuruluş için etkinleştirildi
 
 Bir özelliği kuruluşun tamamı için etkinleştirebilirsiniz; bu, tüm kullanıcıların bu özelliğe erişmesine olanak tanır.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Kuruluşun bir alt kümesi için etkindir
+### <a name="enabled-for-a-subset-of-the-organization"></a>Kuruluşun bir alt kümesi için etkinleştirildi
 
 Bir özelliği kuruluşunuzun belirli bir kısmı için de etkinleştirebilirsiniz. Bu, birkaç farklı şekilde gerçekleşebilir. Özelliği, belirli bir kullanıcı grubunu hariç tutarak tüm kuruluşunuz için etkinleştirebilirsiniz.
 

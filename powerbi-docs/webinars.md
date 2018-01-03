@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 12/07/2017
 ms.author: maikelson
 ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 12/18/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -69,7 +69,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 - [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun)](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-## <a name="see-also"></a>Ayıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 
 - [Power BI teknik incelemeleri](whitepapers.md)
 

@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: e3c3f59bc5d27e19bbd6256b6692782fc115ff28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
 [!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
 ## <a name="introduction"></a>Giriş
-Bu incelemede, Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler sunulmaktadır. Planlama ile başlayan incelemede raporlarınıza ve raporu oluşturan sayfalarla görsellere uygulayabileceğiniz tasarım ilkelerine yer verilmektedir.  Bu en iyi uygulamaların çoğu pano tasarımı için de geçerlidir.
+Bu incelemede, Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler sunulmaktadır. Planlama ile başlayan incelemede, raporlarınıza ve raporu oluşturan sayfalar ile görsellere uygulayabileceğiniz tasarım ilkelerine yer verilmektedir.  Bu en iyi uygulamaların çoğu pano tasarımı için de geçerlidir.
 
 Bu teknik incelemenin sizin için bir başlangıç noktası olacağını, öğrendiklerinizi kendi raporlarınızda ve görselleştirmelerinize uygulayacağınızı ve community.powerbi.com üzerinden bilgi alışverişine devam edeceğinizi umuyoruz. BI rapor tasarımı ve görselleştirmesi popüler bir konudur ve bu konuyu ayrıntılı şekilde ele alan birçok düşünce lideri, blog yazarı ve web sitesi mevcuttur (bunların bazıları yazının sonunda listelenmiştir).   
 
