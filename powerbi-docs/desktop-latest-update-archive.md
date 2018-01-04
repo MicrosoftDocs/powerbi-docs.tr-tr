@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 1ad6621683d6f28b63af373372c1d5100a0abd16
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -30,6 +30,66 @@ Bu makalede, **Power BI Desktop**'a yönelik önceki güncelleştirmeler açıkl
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
 Dilediğiniz zaman [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**'ı nasıl yüklediğinizden bağımsız olarak aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+
+
+
+## <a name="november-2017-update-2524921202"></a>Kasım 2017 Güncelleştirmesi (2.52.4921.202)
+
+Kasım ayında **Power BI Desktop** için mutlaka yararlanılması gereken güncelleştirmeler sunulmuştur. 
+
+Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
+
+-   Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
+-   Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
+-   Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
+-   Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+
+İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
+
+**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+
+### <a name="reporting"></a>Raporlama
+
+-   Tablo ve Matris görselleri için kural tabanlı koşullu biçimlendirme [[video]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
+-   Tablo ve Matris görselleri için hücre hizalama [[video]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
+-   Seçim bölmesi aracılığıyla görsel sıralamasını denetleme [[video]](https://youtu.be/sI3yRjdnJ7w?t=6m21s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
+-   Raporunuzdaki nesneleri kilitleme [[video]](https://youtu.be/sI3yRjdnJ7w?t=9m2s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
+-   ArcGIS Maps for Power BI için Esri Plus Aboneliği kullanılabilir  [[video]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
+-   Yavaş veri kaynakları için rapor seçenekleri  [[video]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
+-   Filtrelemeye ilişkin performans iyileştirmeleri  [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
+-   Son çıkan özel görseller  [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>Analiz
+
+-   Çok satırlı kart için çok boyutlu AS modellerini hücre düzeyinde biçimlendirme  [[video]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+
+-   Impala bağlayıcısı: Windows Kimlik Doğrulaması desteği  [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
+
+
+### <a name="other"></a>Diğer
+
+-   Sorgu düzenleme: Örneklerden Sütun Ekle özelliğine yönelik iyileştirmeler  [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+
+
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+
+
+
 
 
 ## <a name="october-2017-update-2514885543"></a>Ekim 2017 Güncelleştirmesi (2.51.4885.543)
@@ -77,7 +137,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 > [!NOTE]
 > Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
 
-Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
 
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
 
