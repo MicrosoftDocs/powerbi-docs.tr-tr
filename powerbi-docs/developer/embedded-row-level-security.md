@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
-Satır düzeyi güvenlik (RLS), kullanıcının bir rapor veya veri kümesi içindeki verilere erişimini kısıtlayarak birden fazla kullanıcının aynı rapordaki farklı verileri kullanması amacıyla kullanılabilir. RLS, Power BI raporlarının farklı ortamlara eklenmesi sırasında da kullanılabilir.
+Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için satır düzeyi güvenlik (RLS) kullanılabilir. Birçok farklı kullanıcı, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
 
-Tipik bir ISV senaryosu gibi Power BI harici kullanıcılar (verilerin sahibinin uygulama olduğu) için ekleme yapıyorsanız bu makale sizin içindir! Kullanıcı ve rol için ekleme belirtecini yapılandırmanız gerekir. Bunu nasıl yapacağınızı öğrenmek için okumaya devam edin.
+Tipik bir ISV senaryosunda olduğu gibi, Power BI harici kullanıcılar (verilerin sahibinin uygulama olduğu) için ekleme yapıyorsanız bu makale tam size göre! Kullanıcı ve rol için ekleme belirtecini yapılandırmanız gerekir. Bunu nasıl yapacağınızı öğrenmek için okumaya devam edin.
 
 Kuruluşunuzun içindeki Power BI kullanıcıları (verilerin sahibinin kullanıcı olduğu) için ekleme yapıyorsanız RLS, Power BI hizmetinde olduğu gibi çalışır. Uygulamada yapmanız gereken farklı bir işlem yoktur. Daha fazla bilgi için bkz. [Power BI ile satır düzeyi güvenlik (RLS)](../service-admin-rls.md).
 
@@ -34,7 +34,7 @@ Kuruluşunuzun içindeki Power BI kullanıcıları (verilerin sahibinin kullanı
 
 RLS'den faydalanmak için üç ana kavramı anlamak önemlidir: Kullanıcılar, Roller ve Kurallar. Şimdi her birine daha yakından bakalım:
 
-**Kullanıcılar**: Raporları görüntüleyen gerçek son kullanıcılardır. Power BI Embedded'da kullanıcılar bir ekleme belirteci içindeki kullanıcı adı özelliği ile tanımlanır.
+**Kullanıcılar**: Yapıtı (pano, kutucuk, rapor veya veri kümesi) görüntüleyen son kullanıcılar. Power BI Embedded'da kullanıcılar bir ekleme belirteci içindeki kullanıcı adı özelliği ile tanımlanır.
 
 **Roller**: Kullanıcılar rollere aittir. Rol, kural kapsayıcısıdır ve *Satış Yöneticisi* veya *Satış Temsilcisi* gibi adlar verilebilir. Rolleri Power BI Desktop uygulamasından oluşturabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ Power BI Desktop rollerini yapılandırdınız ancak uygulamanızın rollerden f
 
 Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından gerçekleştirilir ve kullanıcıya belirli bir Power BI Embedded raporuna erişim izni vermek için ekleme belirteçleri kullanılır. Power BI Embedded, kullanıcıyla ilgili belirli bilgilere sahip değildir. RLS'nin çalışması için ekleme belirtecinin bir parçası olarak kimlik biçiminde iletmeniz gereken ek bağlam vardır. Bu işlem [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API'si tarafından gerçekleştirilir.
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API'si, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. Şu an için yalnızca bir kimlik sağlanabilir. İlerleyen zamanlarda pano ekleme için birden fazla veri kümesi desteği eklenecektir. RLS'nin çalışması için aşağıdakileri kimlikle birlikte iletmeniz gerekir.
+[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API'si, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdakileri kimlikle birlikte iletmeniz gerekir.
 
 * **username (zorunlu)**: Bu dize RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilir. Yalnızca tek bir kullanıcı listelenebilir.
 * **roles (zorunlu)**: Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
-* **dataset (zorunlu)**: Eklediğiniz raporla ilgili veri kümesi. Veri kümesi listesinde yalnızca bir veri kümesi sağlanabilir. İlerleyen zamanlarda pano ekleme için birden fazla veri kümesi desteği eklenecektir.
+* **dataset (zorunlu)**: Eklediğiniz yapıtla ilgili veri kümesi. 
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz. Şu an için yalnızca raporlar desteklenmektedir.
 
@@ -125,7 +125,7 @@ REST API'sini çağırıyorsanız güncelleştirilmiş API artık kullanıcı ad
 }
 ```
 
-Tüm parçaları bir araya getirdiniz. Artık bir kullanıcı uygulamanızda oturum açıp bu raporu görüntülemek istediğinde yalnızca satır düzeyi güvenlikle belirlenen görme iznine sahip olduğu verileri görebilecek.
+Tüm parçaları bir araya getirdiniz. Artık bir kullanıcı uygulamanızda oturum açıp bu yapıtı görüntülemek istediğinde, belirlediğiniz satır düzeyi güvenliğe uygun şekilde, yalnızca görme iznine sahip olduğu verileri görebilir.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Analysis Services canlı bağlantılarıyla çalışma
 Satır düzeyi güvenlik şirket içi sunucular için Analysis Services canlı bağlantılarıyla birlikte kullanılabilir. Bu bağlantı türünü kullanırken anlamanız gereken birkaç belirli kavram vardır.
@@ -143,12 +143,11 @@ Roller bir ekleme belirteci içinde kimlikle birlikte sağlanabilir. Rol sağlan
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 * Power BI hizmetinde kullanıcıların rollere atanması, ekleme belirteci kullanıldığında RLS'yi etkilemez.
 * Power BI hizmeti RLS ayarını yöneticilere veya düzenleme izni olan üyelere uygulamaz ancak ekleme belirteciyle ilettiğiniz kimlikler verilere uygulanır.
-* GenerateToken çağrısında kimlik bilgilerini iletme özelliği yalnızca rapor okuma/yazma için desteklenmektedir. Diğer kaynaklar için destek daha sonra gelecektir.
 * Analysis Services canlı bağlantıları şirket içi sunucular için desteklenmektedir.
 * Azure Analysis Services canlı bağlantılarında role göre filtreleme özelliği desteklenir ancak kullanıcı adına göre dinamik filtreleme yapılamaz.
 * Temel alınan veri kümesi RLS gerektirmiyorsa GenerateToken isteğinin etkin kimlik **içermemesi** gerekir.
-* Temel alınan veri kümesi bulut modeliyse (önbelleğe alınmış model veya DirectQuery) etkin kimliğin en az bir rol içermesi gerekir. Aksi halde rol ataması gerçekleştirilmez.
-* Kimlik listesinde yalnızca bir kimlik sağlanabilir. İleride pano ekleme için çoklu kimlik belirteçlerini etkinleştirme amacıyla bir liste kullanacağız.
+* Temel alınan veri kümesi bir bulut modeliyse (önbelleğe alınmış model veya DirectQuery) etkin kimliğin en az bir rol içermesi gerekir. Aksi halde, rol ataması gerçekleşmez.
+* Kimlik listesi sayesinde, pano ekleme işlemi için birden çok kimlik belirteci kullanılabilir. Diğer tüm yapıtlar için liste tek bir kimlik içerir.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
