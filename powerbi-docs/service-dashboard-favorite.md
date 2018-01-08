@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar
 Bir panoyu *sık kullanılanlara* eklediğinizde panoya tüm çalışma alanlarınızdan erişebilirsiniz.  Sık kullanılanlar, genelde en çok ziyaret ettiğiniz öğelerdir.
@@ -32,7 +32,7 @@ Bir panoyu *sık kullanılanlara* eklediğinizde panoya tüm çalışma alanlar�
 > 
 > 
 
-Power BI'da tek bir panoyu [Öne çıkan pano](service-dashboard-featured.md) olarak belirleyebilirsiniz.
+Power BI hizmetinde tek bir panoyu [öne çıkan pano](service-dashboard-featured.md) olarak belirleyebilirsiniz.
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>Bir panoyu *sık kullanılanlara* ekleme
 En çok ziyaret ettiği öğeleri çalışma alanındaki sık kullanılanlar listesine ekleyen Amanda'yı izledikten sonra kendiniz denemek için videonun altındaki adım adım yönergeleri uygulayın.
@@ -50,7 +50,7 @@ En çok ziyaret ettiği öğeleri çalışma alanındaki sık kullanılanlar lis
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>*Sık kullanılanlar*'ı kullanma
-1. Sık kullanılanlara en son eklediğiniz beş öğeyi görmek için herhangi bir çalışma alanında **Sık Kullanılanlar**'ın yanındaki oku seçin.  Burada, sık kullanılan panolarınızdan birini seçerek açabilirsiniz. Yalnızca en son kullandığınız beş öğe listelenir (alfabetik sırada). Sık kullanılanlara beşten fazla öğe eklediyseniz Sık Kullanılanlar ekranını (aşağıdaki 2. görüntüye bakın) açmak için **Tümünü göster**'i seçin. 
+1. Sık kullanılanlara erişmek için herhangi bir çalışma alanında **Sık Kullanılanlar**'ın yanındaki oku seçin.  Burada, sık kullanılan panolarınızdan birini seçerek açabilirsiniz. Yalnızca beş sık kullanılan öğe listelenir (alfabetik sırada). Sık kullanılanlara beşten fazla öğe eklediyseniz sık kullanılanlar ekranını (aşağıdaki 2. görüntüye bakın) açmak için **Tümünü göster**'i seçin. 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. Sık kullanılanlara eklediğiniz **tüm** panoları görmek için sol taraftaki gezinti bölmesinde bulunan **Sık Kullanılanlar**'ı veya Sık Kullanılanlar simgesini ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) seçin.  

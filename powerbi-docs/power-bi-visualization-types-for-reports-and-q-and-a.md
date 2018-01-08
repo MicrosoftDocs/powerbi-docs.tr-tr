@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: ff769be04c8fd45c2f7483fa370584b4aadff2d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -54,7 +54,7 @@ Daha fazla bilgi için bkz. [Eğitim: Basit Alan grafiği](power-bi-visualizatio
 ### <a name="cards-single-number"></a>Kartlar: Tek sayı içeren kart
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
-Daha fazla bilgi için bkz. [Bir pano için büyük bir sayı kutucuğu oluşturma](power-bi-visualization-big-number.md).
+Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md).
 
 ### <a name="combo-charts"></a>Birleşik haritalar
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)

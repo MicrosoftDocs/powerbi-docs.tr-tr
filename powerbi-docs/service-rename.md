@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI hizmetinde hemen hemen her şeyi yeniden adlandırabilirsiniz
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalışma kitabını, veri kümesini, uygulamayı ve çalışma alanını yeniden adlandırma ile ilgili bilgiler sunulmaktadır.
@@ -35,12 +35,12 @@ Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalı
 | Bir çalışma alanındaki çalışma kitabı |Evet |Hayır |
 | Bir çalışma alanındaki veri kümesi |Evet |Hayır |
 | Uygulama çalışma alanı |Sahibiyseniz veya Yönetici izinlerine sahipseniz evet |Hayır |
-| Yayımlanan Uygulamalar |Yönetici izinleriniz varsa Uygulama adı, Uygulama ekranından olmasa da Uygulama çalışma alanından değiştirilebilir ve yeni bir adla yeniden yayımlanabilir |Hayır |
-| Uygulama içeriği (pano, rapor, çalışma kitabı ve veri kümesi) |Yönetici izinleriniz varsa Uygulamanın içeriği, Uygulama ekranından olmasa da Uygulama çalışma alanından yeniden adlandırılabilir ve yeni bir adla yeniden yayımlanabilir |Hayır |
+| Yayımlanan uygulamalar |Yönetici izinleriniz varsa uygulama adı, Uygulama ekranından olmasa da uygulama çalışma alanından değiştirilebilir ve yeni bir adla yeniden yayımlanabilir |Hayır |
+| Uygulama içeriği (pano, rapor, çalışma kitabı ve veri kümesi) |Yönetici izinleriniz varsa uygulamanın içeriği, Uygulama ekranından olmasa da uygulama çalışma alanından yeniden adlandırılabilir ve yeni bir adla yeniden yayımlanabilir |Hayır |
 | **Benimle paylaşılan** bölümündeki içerik |Hayır |Hayır |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Bir panoyu, raporu veya çalışma kitabını yeniden adlandırma
-1. Bir çalışma alanında işleme başlayın ve **Panolar**, **Raporlar**  veya **Çalışma Kitapları** sekmesini seçin. Yeniden adlandırmak için öğenin üzerine gelin ve dişli simgesini ![](media/service-rename/powerbi-cog-icon.png) seçin.
+1. Bir çalışma alanında işleme başlayın ve **Panolar**, **Raporlar**  veya **Çalışma Kitapları** sekmesini seçin. Yeniden adlandırmak için öğenin üzerine gelin ve dişli simgesini ![](media/service-rename/powerbi-cog-icon.png) seçin. Dişli simgesinin olmaması yeniden adlandırma iznine sahip olmadığınız anlamına gelir.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Ayarlar sayfasında, yeni adı yazın ve **Kaydet** seçeneğini belirleyin.
@@ -64,10 +64,10 @@ Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalı
      ![](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Bir Uygulama çalışma alanını yeniden adlandırma
-Yönetici izinlerine sahip olan herkes bir Uygulama çalışma alanını adlandırabilir.
+Yönetici izinlerine sahip olan herkes bir uygulama çalışma alanını adlandırabilir.
 
 1. Yeniden adlandırmak istediğiniz çalışma alanında işleme başlayın.
-2. Sağ üst köşede üç nokta (...) simgesini seçin ve **Çalışma alanını düzenle** seçeneğini belirleyin.  
+2. Sağ üst köşede üç nokta (...) simgesini seçin ve **Çalışma alanını düzenle** seçeneğini belirleyin. Bu seçeneği görmüyorsanız bu çalışma alanını yeniden adlandırma izniniz yoktur. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Yeni bir çalışma alanı adı yazın ve **Kaydet** seçeneğini belirleyin.

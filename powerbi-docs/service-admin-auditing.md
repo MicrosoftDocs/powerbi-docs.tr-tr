@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve uyumluluk merkezini veya PowerShell'i kullanabilirsiniz.
+Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
 
 Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir.
 
@@ -36,17 +36,27 @@ Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri küme
 > [!NOTE]
 > Power BI'ın denetim özelliği önizleme sürümündedir ve tüm veri bölgelerinde kullanılabilir durumdadır.
 
+## <a name="requirements"></a>Gereksinimler
+Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
+
+- Office 365 Güvenlik ve Uyumluluk Merkezi'nin denetim bölümüne erişmek için Exchange Online lisansına (Office 365 Enterprise E3 ve E5 aboneliklerine dahildir) sahip olmanız gerekir.
+- Genel yönetici veya denetim günlüğüne erişim sağlayan bir Exchange yöneticisi rolüne sahip olmanız gerekir. 
+
+  Exchange yöneticisi rolleri, Exchange yönetim merkezinden denetlenir. Daha fazla bilgi için bkz. [Permissions in Exchange Online (Exchange Online'da izinler)](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan Office 365 Güvenlik ve Uyumluluk Merkezi bağlantısına sahip olmanız gerekir.
+
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI yönetici portalında denetim işlevlerini etkinleştirme
 
 Raporlarla çalışmak için kuruluşunuzda denetim özelliklerini etkinleştirmeniz gerekir. Bunu yönetici portalının kiracı ayarlarında yapabilirsiniz.
 
 1. Sağ üst köşedeki **dişli simgesini** seçin.
 
-2. **Yönetici Portalı**'nı seçin.
+2. **Yönetici portalı**'nı seçin.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. **Kiracı Ayarları**'nı seçin.
+3. **Kiracı ayarları**'nı seçin.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
 
@@ -65,13 +75,13 @@ Power BI günlüklerinizi denetlemek için O365 Güvenlik ve Uyumluluk Merkezi'n
 
 1. Sağ üst köşedeki **dişli simgesini** seçin.
 
-2. **Yönetici Portalı**'nı seçin.
+2. **Yönetici portalı**'nı seçin.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. **Denetim Günlükleri**'ni seçin.
-4. 
-5. **O365 Yönetim Merkezi'ne git** seçeneğini belirleyin.
+3. **Denetim günlükleri**'ni seçin.
+ 
+4. **O365 Yönetim Merkezi'ne git** seçeneğini belirleyin.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

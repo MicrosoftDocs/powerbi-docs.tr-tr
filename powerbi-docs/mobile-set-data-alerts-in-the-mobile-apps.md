@@ -1,6 +1,6 @@
 ---
 title: "Power BI mobil uygulamalarında veri uyarıları oluşturma"
-description: "Bir panodaki veriler belirlediğiniz sınırı aşan şekilde değiştirildiğinde bildirim almak için Power BI mobil uygulamalarında ve Power BI hizmetinde veri uyarıları oluşturmayı öğrenin."
+description: "Bir panodaki veriler belirlediğiniz sınırları aşacak şekilde değiştirildiğinde bildirim almak için Power BI mobil uygulamasında veri uyarıları oluşturmayı öğrenin."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler için geçerlidir:
@@ -30,7 +30,9 @@ Aşağıdakiler için geçerlidir:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
-Bir panodaki veriler belirlediğiniz sınırı aşan şekilde değiştirildiğinde bildirim almak için Power BI mobil uygulamalarında ve Power BI hizmetinde veri uyarıları oluşturabilirsiniz. Uyarılar, kartlar ve ölçekler gibi tek bir sayı içeren kutucuklarla birlikte çalışır, akış verileri için kullanılamaz. Mobil cihazınızdan ayarladığınız veri uyarılarını Power BI hizmetinde, burada ayarladıklarınızı da mobil uygulamada görebilirsiniz. Bir panoyu veya kutucuğun anlık görüntüsünü paylaşsanız dahi ayarladığınız veri uyarılarını yalnızca siz görebilirsiniz.
+Power BI mobil uygulamalarında ve Power BI hizmetinde panolarda uyarılar ayarlayabilirsiniz. Bir kutucuktaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde uyarılar sizi bilgilendirir. Uyarılar, kartlar ve ölçekler gibi tek bir sayı içeren kutucuklarla birlikte çalışır, akış verileri için kullanılamaz. Mobil cihazınızdan ayarladığınız veri uyarılarını Power BI hizmetinde, burada ayarladıklarınızı da mobil uygulamada görebilirsiniz. Bir panoyu veya kutucuğun anlık görüntüsünü paylaşsanız dahi ayarladığınız veri uyarılarını yalnızca siz görebilirsiniz.
+
+Power BI Pro lisansınız varsa veya ücretsiz Power BI lisansına sahipken paylaşılan pano Premium kapasitedeyse kutucuklarda uyarı ayarlayabilirsiniz. 
 
 > [!WARNING]
 > Veri tabanlı uyarı bildirimleri, verileriniz hakkında bilgi verir. Cihazınız çalınırsa, Power BI hizmetine giderek veri tabanlı uyarı kurallarının tümünü kapatmanızı öneririz. 

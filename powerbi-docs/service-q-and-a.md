@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Power BI'daki Soru-Cevap
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Örneğin, "What were total sales last year?" (Bu yılki toplam satış rakamları nedir?)  Kullanımı kolay olan doğal dil özelliklerinden yararlanarak verilerinizi araştırmak ve grafikler ile graflar biçiminde cevaplar almak için Soru-Cevap'ı kullanın. Bir arama motorundan farklı olan Soru-Cevap, yalnızca Power BI'daki verilerle ilgili sonuçlar sunar.
 
 > [!NOTE]
-> Soru-Cevap aynı zamanda [iPad, iPhone ve iPod touch cihazlarıyla iOS için Microsoft Power BI uygulamasında](mobile-apps-ios-qna.md) da kullanılabilir.
+> Soru-Cevap aynı zamanda [iPad, iPhone ve iPod touch cihazlarıyla iOS için Microsoft Power BI uygulamasında](mobile-apps-ios-qna.md) ve [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA)'ta da kullanılabilir.
 > 
 > 
 
@@ -51,11 +51,6 @@ Bu, gerçekten etkileşimli ve hızlı bir deneyim. Bellek içi bir depolama bir
 [Eğitim: use Power BI Q&A with the Retail Analysis Sample (Perakende Analizi Örneği ile Power BI Soru-Cevap'ı kullanma)](power-bi-visualization-introduction-to-q-and-a.md): Sektör temelli gerçekçi bir eğitimde Soru-Cevap'ı kullanın.
 
 [Verilerinizin Soru-Cevap için uygun olmasını sağlama](service-prepare-data-for-q-and-a.md): Veri kümeleri ve veri modelleri mi oluşturuyorsunuz?  O zaman bu konu tam size göre.
-
-## <a name="next-steps"></a>Sonraki adımlar
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
-
-[Power BI ile çalışmaya başlama](service-get-started.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

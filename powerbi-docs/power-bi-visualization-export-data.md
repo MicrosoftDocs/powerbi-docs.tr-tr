@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI'da görüntüleyebilir](service-reports-show-data.md) veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -84,7 +84,7 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procur
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-* **Power BI Desktop**'tan bir .csv dosyasına aktarılabilen maksimum satır sayısı 30.000'dir.
+* **Power BI Desktop** ve **Power BI hizmetinden** bir .csv dosyasına aktarılabilen maksimum satır sayısı 30.000'dir.
 * **Power BI hizmetinden** .xlsx'e aktarılabilen maksimum satır sayısı Pro sürüm kullanıcıları için 150.000, Ücretsiz sürüm kullanıcıları için ise 30.000'dir.
 * DirectQuery kullanılırken, dışarı aktarılabilen maksimum veri miktarı 16 MB'tır. Bu, özellikle de çok sayıda sütun, sıkıştırılması zor veriler ve dosya boyutunu artırıp dışarı aktarılan satır sayısını düşüren diğer faktörlerin bulunması halinde maksimum sayının altında satırın dışarı aktarılmasına neden olabilir.
 * Power BI yalnızca basit toplama işlemlerinin kullanıldığı görsellerde dışarı aktarmayı destekler. Dışarı aktarma işlemi model veya rapor ölçülerinin kullanıldığı görseller için kullanılamaz.

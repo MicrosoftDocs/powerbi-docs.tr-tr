@@ -1,5 +1,5 @@
 ---
-title: "Soru-Cevap'tan kutucukları Power BI panolarına sabitleme"
+title: "Soru-Cevap'tan kutucukları panolara sabitleme"
 description: "Soru-Cevap soru kutusundan kutucukları Power BI panolarına sabitlemeye ilişkin belge"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
 ## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
 Soru-Cevap, Power BI'daki özel raporlama aracıdır. Belirli bir öngörüyü bulmanız mı gerekiyor? Verileriniz hakkında soru sorun ve görselleştirme şeklinde yanıt alın.
 
-> **NOT**: Örneği takip etmek için [Perakende Analizi örneğini](sample-retail-analysis.md) açın.
+Soru-Cevap, panolardan ve raporlardan kullanılabilir. Bu makalede panodan Soru-Cevap kutusu açacağız. Panolar yalnızca Power BI hizmetinde kullanılabilir, Power BI Desktop ile kullanılamaz. Örneği takip etmek için [Retail Analysis sample panosunu](sample-retail-analysis.md) açın.
 > 
 > 
 
@@ -40,7 +40,9 @@ Soru-Cevap, Power BI'daki özel raporlama aracıdır. Belirli bir öngörüyü b
    yazdığınızda soru kutusunda öneriler görüntülenir.
 4. Grafiği panonuza kutucuk olarak eklemek için tuvalin sağ üst kısmında bulunan raptiye ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) simgesini seçin.
 5. Kutucuğu, var olan bir panoya veya yeni bir panoya sabitleyin. 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * Var olan pano: Açılan listeden panonun adını seçin. Seçimleriniz, geçerli çalışma alanındaki panolarla sınırlı olacaktır.
    * Yeni pano: Yeni panonun adını yazarak geçerli çalışma alanınıza eklenmesini sağlayabilirsiniz.
 6. **Sabitle**'yi seçin.

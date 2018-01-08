@@ -1,6 +1,6 @@
 ---
 title: "Power BI'daki öne çıkan panolar"
-description: "Power BI'da Öne çıkan pano oluşturma hakkında belge"
+description: "Power BI hizmetinde Öne çıkan pano oluşturmaya ilişkin belge"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,29 +16,30 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Power BI'daki öne çıkan panolar
+# <a name="featured-dashboards-in-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
-Çoğu kullanıcının diğerlerinden daha sık ziyaret ettiği bir pano vardır.  Bu, işinizi yürütmek için kullandığınız veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
+Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır.  Bu, işlerimizi yürütmek için kullandığımız pano veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
 ![](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Bir panoyu *öne çıkan pano* olarak ayarlarsanız Power BI hizmetini açtığınızda bu pano görüntülenir.  
 
-> **NOT**: İsterseniz birden fazla pano seçip *sık kullanılanlara* ekleyebilirsiniz. Bkz. [Sık kullanılan panolar](service-dashboard-favorite.md).
-> 
-> 
+İsterseniz birden fazla pano seçip *sık kullanılanlara* ekleyebilirsiniz. Bkz. [Sık kullanılan panolar](service-dashboard-favorite.md).
 
-Henüz bir Öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son pano açılır.  
+> [!NOTE] 
+>Bu konu başlığı, Power BI Desktop uygulamasına değil Power BI hizmetine yöneliktir.
 
-### <a name="to-set-a-dashboard-as-featured"></a>Bir panoyu **Öne çıkan** olarak belirlemek için
+Henüz bir öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son pano açılır.  
+
+### <a name="to-set-a-dashboard-as-featured"></a>Bir panoyu **öne çıkan** olarak belirlemek için
 Öne çıkan bir pano oluşturan Amanda'yı izleyin ve ardından kendiniz denemek için videonun altındaki yönergeleri uygulayın.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
@@ -46,7 +47,7 @@ Henüz bir Öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son
 
 
 1. *Öne çıkan* olarak belirlemek istediğiniz panoyu açın. 
-2. Üst gezinti çubuğunda **Öne çıkan olarak ayarla** bağlantısını veya yalnızca Öne çıkanlar ![](media/service-dashboard-featured/power-bi-featured-icon.png) simgesini göreceksiniz. Bunlardan birini seçin.
+2. Üst gezinti çubuğunda **Öne çıkan olarak ayarla** bağlantısını veya yalnızca öne çıkanlar ![](media/service-dashboard-featured/power-bi-featured-icon.png) simgesini göreceksiniz. Bunlardan birini seçin.
    
     ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Seçiminizi onaylayın.
@@ -70,6 +71,8 @@ Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönerge
 2. Üstteki menü çubuğunda **Öne çıkan öğeyi devre dışı bırak**'ı seçin.
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+Power BI'da kullandığınız son pano açılır.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Bir panoyu sık kullanılanlara ekleme](service-dashboard-favorite.md)

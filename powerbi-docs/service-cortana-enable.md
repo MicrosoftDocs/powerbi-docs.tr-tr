@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana'nın, Power BI raporlarına (ve bağlantılı veri kümelerine) erişebilmesini sağlama
 [Cortana ve Power BI'a Giriş](service-cortana-intro.md) konulu makaleyi okudunuz. (Henüz okumadıysanız öncelikle bu makaleyi okumak isteyebilirsiniz.) Şimdi söz konusu işlemleri kendiniz gerçekleştirmek istiyorsunuz.  Cortana'da doğal dilde sorular sorup Power BI ***raporlarında*** depolanan verilerden yanıtlar elde edebilmeniz için karşılamanız gereken birkaç gereksinim mevcuttur. Aşağıdakileri yapmanız gerekir.
@@ -47,11 +47,10 @@ Power BI hizmetinde (Power BI Desktop değil) oturum açıp Cortana'nın erişeb
 2. Bu raporla ilişkilendirilen veri kümesi **Contoso Sales**'dir.
    
     ![Contoso Sales veri kümesi](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Power BI hizmetinin sağ üst köşesinde bulunan dişli simgesini ve ardından **Ayarlar**'ı seçin.
+3. Veri kümesi adının sağında **üç nokta (...) > Ayarlar**'ı seçin.  
    
-    ![Ayarlar'ı seçme](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. **Veri kümeleri** sekmesini seçin ve soldaki listeden, Cortana için etkinleştirmek istediğiniz veri kümesini belirleyin.
-5. **Soru-Cevap ve Cortana** > **Cortana'nın bu veri kümesine erişmesine izin ver** > **Uygula** seçeneğini belirleyin.
+    ![Ayarlar'ı seçme](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. **Soru-Cevap ve Cortana** > **Cortana'nın bu veri kümesine erişmesine izin ver** > **Uygula** seçeneğini belirleyin.
    
    ![Cortana veri kümesi erişimi](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ Power BI hizmetinde (Power BI Desktop değil) oturum açıp Cortana'nın erişeb
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Windows'a Power BI kimlik bilgilerinizi ekleme
 Windows 10'un 1511 veya sonraki bir sürümünün yüklü olması gerekir.
 
-1. Windows 10'un hangi sürümünü kullandığınızı belirleyin. **Ayarlar** > **Sistem** > **Hakkında** sayfasını açın.
-   
+1. Windows 10'un hangi sürümünü kullandığınızı belirleyin. **Ayarlar**'ı açın.
+    ![Windows ayarlarını açın](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    **Sistem > Hakkında**'yı seçin. Ekranın alt tarafında **Windows özellikleri > Sürüm** seçeneğini göreceksiniz
+
    * Windows 10'un 1511 (Windows 10 Kasım 2015 Güncelleştirmesi) ila 1607 arası bir sürümüne sahipseniz iş yeri veya okul hesabınızı ve Microsoft hesabınızı ekleyin. (Aşağıdaki 2. ve 3. adımları tamamlayın.)
    * Windows 10'un 1607 (Windows 10 Temmuz 2016 Güncelleştirmesi) veya sonraki bir sürümüne sahipseniz iş yeri veya okul hesabınızı ekleyin. (Aşağıdakiler arasından yalnızca 2. adımı tamamlayın.)
-2. Cortana için iş yeri veya okul hesabınızı ekleyin.
+1. Cortana için iş yeri veya okul hesabınızı ekleyin.
    
    * **Ayarlar** > **Hesaplar**'ı açın.
      
        ![Ayarlar - Hesaplar](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Sayfanın en altına gidin ve **İş yeri veya okul hesabı ekle** seçeneğini belirleyin.
+   * Sayfanın en altına gidin ve **İş yeri veya okul hesabı ekle** seçeneğini belirleyin. Veya **Hesaplar** sayfasından **İş yeri veya okula eriş > Bağlan**'ı seçin.
      
      ![İş yeri hesabı ekleme](media/service-cortana-enable/power-bi-add-work-account2.png)
 

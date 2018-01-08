@@ -1,6 +1,6 @@
 ---
-title: "Power BI tarafından desteklenen Hızlı Öngörü türleri"
-description: "Power BI ile Hızlı Öngörüler."
+title: "Power BI tarafından desteklenen Öngörü türleri"
+description: "Power BI ile Hızlı Öngörüler Öngörüleri görüntüleme."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen Hızlı Öngörü türleri
-## <a name="how-does-quick-insights-work"></a>Hızlı Öngörüler nasıl çalışır?
+# <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
+## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
 Power BI ilgi çekici olabilecek öngörüleri keşfetmek için bir karmaşık algoritma kümesi uygulayarak veri kümenizin farklı alt kümelerinde hızlıca arama yapar. Power BI, ayrılan bir sürede bir veri kümesinin mümkün olduğu kadar büyük bir kısmını tarar.
 
-Bir veri kümesine veya kutucuğa (İlgili Öngörüler) yönelik olarak Hızlı Öngörüleri çalıştırabilirsiniz.   
+Bir veri kümesi veya pano kutucuğunda öngörü çalıştırabilirsiniz.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Hangi Hızlı Öngörü türlerini bulabiliriz?
+## <a name="what-types-of-insights-can-we-find"></a>Hangi öngörü türlerini bulabiliriz?
 Kullandığımız bazı algoritmalar şunlardır:
 
 ## <a name="category-outliers-topbottom"></a>Kategori aykırı değerleri (üst/alt)
@@ -78,9 +78,9 @@ Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğ
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI Hızlı Öngörüler](service-insights.md)
+[Power BI öngörüleri](service-insights.md)
 
-Bir veri kümesine sahipseniz [bu veri kümesini Hızlı Öngörüler için en iyi duruma getirebilirsiniz](service-insights-optimize.md)
+Bir veri kümesine sahipseniz [bu veri kümesini öngörüler için en iyi duruma getirebilirsiniz](service-insights-optimize.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

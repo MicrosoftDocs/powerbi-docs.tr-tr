@@ -1,6 +1,6 @@
 ---
 title: "KPI görselleri (Eğitim)"
-description: "Power BI'da KPI oluşturma"
+description: "Power BI hizmetinde ve Power BI Desktop'ta KPI oluşturma"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 23b322c9fbc4c203a5b20aa45bb41c2cb6cb7f0f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f0efc9e18c5d23c6e52768b4c8e30233ff433356
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI görselleri (Eğitim)
 Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI'ler hakkında daha fazla bilgi için bkz. [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -42,30 +42,34 @@ Ana Performans Göstergeleri, (KPI'ler) belirli bir ölçüyü temel alır ve ge
 > 
 
 ## <a name="how-to-create-a-kpi"></a>KPI'ler nasıl oluşturulur?
-Birlikte ilerleyebilmek için, Power BI'da oturum açın ve **Veri Al > Örnekler > Perakende Analizi Örneği**'ni seçin. Bir satış hedefi için kaydettiğimiz ilerlemeyi ölçen bir KPI oluşturacağız.
+Birlikte ilerleyebilmek için Power BI hizmetinde oturum açın ve **Veri Al > Örnekler > Perakende Analizi Örneği**'ni seçin. Bir satış hedefi için kaydettiğimiz ilerlemeyi ölçen bir KPI oluşturacağız.
 
 Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik edebilirsiniz: ölçekler, kartlar ve KPI'ler.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. **Sales > Total Units This Year** seçeneğini belirleyin.  Bu göstergedir.
-2. **Time > Month** seçeneğini ekleyin.  Bu, eğilimi gösterir.
-3. ÖNEMLİ: Grafiği sıralamak için **Month** ölçütünü kullanın. Görselleştirmeyi KPI'ye çevirdikten sonra sıralama yapamazsınız.
-4. Görsel Öğeler bölmesindeki KPI simgesini seçerek görseli bir KPI'ye dönüştürün.
+1. Raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın ve [yeni bir sayfa ekleyin](power-bi-report-add-page.md).    
+2. **Sales > Total Units This Year** seçeneğini belirleyin.  Bu göstergedir.
+3. **Time > Month** seçeneğini ekleyin.  Bu, eğilimi gösterir.
+4. ÖNEMLİ: Grafiği sıralamak için **Month** ölçütünü kullanın. Görselleştirmeyi KPI'ye çevirdikten sonra sıralama yapamazsınız.
+
+    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+5. Görsel Öğeler bölmesindeki KPI simgesini seçerek görseli bir KPI'ye dönüştürün.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
-5. Bir hedef ekleyin. Hedef olarak geçen yılın satışlarını ekleyin. **Total Units Last Year** alanını **Hedefler** alanına ekleyin.
+6. Bir hedef ekleyin. Hedef olarak geçen yılın satışlarını ekleyin. **Total Units Last Year** alanını **Hedefler** alanına ekleyin.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
-6. İsteğe bağlı olarak, Biçimlendirme bölmesini açmak üzere boya rulosu simgesini seçerek KPI'yi biçimlendirebilirsiniz.
+7. İsteğe bağlı olarak, Biçimlendirme bölmesini açmak üzere boya rulosu simgesini seçerek KPI'yi biçimlendirebilirsiniz.
    
    * **Gösterge**: göstergenin görüntü birimlerini ve ondalık basamakları denetler.
    * **Eğilim ekseni**: **Açık** olarak ayarlandığında, KPI görselinin arka planı olarak eğilim ekseni görüntülenir.  
    * **Hedefler**: **Açık** olarak belirlendiğinde, görsel, hedefi ve yüzde olarak hedefe olan mesafeyi görüntüler.
-   * **Durum**: Bazı KPI'ler yüksek değerler için *daha uygun* görülürken bazılarının ise düşük değerler için *daha uygun* olduğu düşünülür. Örneğin, kazançlar ve bekleme süresi. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir, hatta ikincisinin genellikle daha kötü olduğu düşünülür. Bu geçiş düğmesi, KPI davranışının seçilebilmesini sağlar. Durum seçimi için **daha yüksek daha iyi** varsayılan olarak ayarlanmıştır.
-7. KPI'nizi istediğiniz şekilde ayarladıktan sonra [panoya sabitleyin](service-dashboard-pin-tile-from-report.md).
+   * **Renk kodlaması > Yön**: Bazı KPI'ler yüksek değerler için *daha uygun* görülürken bazılarının ise düşük değerler için *daha uygun* olduğu düşünülür. Örneğin kazanç ile bekleme süresi karşılaştırması. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir. **Yüksek daha iyidir**'i seçin ve isterseniz renk ayarlarını değiştirin.
 
-KPI'leri mobil cihazlarınızda da kullanabilir ve işinizin durumundan her zaman haberdar olabilirsiniz
+1. KPI'nizi istediğiniz şekilde ayarladıktan sonra [panoya sabitleyin](service-dashboard-pin-tile-from-report.md).
+
+KPI'leri mobil cihazlarınızda da kullanabilir ve işinizin durumundan her zaman haberdar olabilirsiniz.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * KPI'niz yukarıdaki gibi görünmüyorsa aya göre sıralama yapmamış olabilirsiniz. KPI'lerde sıralama seçeneği bulunmadığından görselleştirmenizi bir KPI'ye dönüştürmeden *önce* aya göre sıralama yapmanız gerekir.

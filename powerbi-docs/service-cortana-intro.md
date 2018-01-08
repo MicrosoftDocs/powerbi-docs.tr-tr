@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI için Cortana'yı kullanarak Power BI verilerinizi hızla bulma ve görüntüleme
 Windows 10 cihazlarınızda Cortana'yı kullanarak işletmenizle ilgili önemli sorulara anında cevap alabilirsiniz. Cortana, Power BI ile tümleştirildiğinde Power BI panolarındaki ve raporlarındaki önemli bilgilere doğrudan ulaşabilir. İhtiyacınız olanlar Windows 10 Kasım 2015 veya sonrası sürümü, Cortana, Power BI ve en az bir veri kümesine erişimdir.
@@ -85,13 +85,19 @@ Cortana'ya bir soru sorduğunuzda Power BI, Cortana için özel olarak hazırlan
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Cortana hazır duruma geldikten sonra sorunuzu Cortana arama çubuğuna yazın veya söyleyin. Cortana kullanılabilir sonuçları görüntüler. Soruyla eşleşen bir Power BI panosu varsa **En iyi eşleşme** veya **Power BI** bölümünde gösterilir.
    
-     ![Cortana araması Power BI panosu buldu](media/service-cortana-intro/power-bi-cortana-searching2.png "Cortana Power BI panosu buldu")
+     ![Cortana araması Power BI panosu buldu](media/service-cortana-intro/power-bi-cortana-search-hr.png "Cortana Power BI panosu buldu")
    
    > [!NOTE]
    > Şu anda yalnızca İngilizce dili desteklenmektedir.
    > 
    > 
-3. Adını seçerek panoyu Power BI'da açabilirsiniz. 
+3. Cortana'da açmak istediğiniz panoyu seçin.
+
+    ![Power BI panosunu seçin](media/service-cortana-intro/power-bi-cortana-dashboard.png "Power BI panosunu seçin")
+
+    Düzeni değiştirmek için [panonun *telefon görünümünü* düzenleyebilirsiniz](service-create-dashboard-mobile-phone-view.md). 
+
+1. Cortana'da ayrıca panoyu Power BI hizmetinde veya Power BI mobil uygulamasında açma seçenekleri de mevcuttur. Panoyu Power BI hizmetinde açmak için **Web'de aç**'ı seçin. 
    
    ![Panoyu Cortana'dan açma](media/service-cortana-intro/power-bi-dashboard-opens.png "Panoyu Cortana'dan açma")   
 4. Şimdi Cortana'yı kullanarak bir rapor arayalım. [Raporda Cortana yanıt kartı içeren bir sayfa olduğundan](service-cortana-answer-cards.md) emin olmamız gerekir. Bu örnekte "cortana stores" adlı bir yanıt kartı sayfasına sahip olan "Cortana-New-Stores" adlı bir raporu kullanıyoruz.  

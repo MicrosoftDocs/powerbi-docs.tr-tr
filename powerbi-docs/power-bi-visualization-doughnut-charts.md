@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI'daki halka grafikler (Eğitim)
 Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gösterir. Tek fark ortasının boş ve bir etiket veya simge yerleştirmeye müsait olmasıdır.
 
 ## <a name="create-a-doughnut-chart"></a>Halka grafik oluşturma
-Birlikte ilerleyebilmek için Power BI'da oturum açın ve **Veri Al** \> **Örnekler** \> **Perakende Analizi Örneği** \> **Bağlan**'ı seçin. 
+Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde gösteren bir Halka grafik oluşturmak üzere Retail Analysis Sample kullanılmaktadır. Yönergeleri takip etmek için Power BI hizmeti (app.powerbi.com) veya Power BI Desktop [örneğini indirin](sample-datasets.md).
 
-1. Panoda **Total Stores** kutucuğunu seçerek "Retail Analysis Sample" raporunu açın.
-2. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.
-3. [Yeni bir rapor sayfası ekleyin](power-bi-report-add-page.md).
-4. Bu yılın satışlarını kategorilere ayrılmış şekilde gösteren bir Halka grafik oluşturun.
+1. [Boş rapor sayfasıyla](power-bi-report-add-page.md) başlayın ve **SalesStage** \> **Sales Stage** alanını seçin. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
+
+2. Alanlar bölmesinde **Sales** \> **Last Year Sales** seçeneğini belirleyin.  
    
-   * **Alanlar** bölmesinde **Sales** \> **Last Year Sales** seçeneğini belirleyin.
-   * Halka grafiğe dönüştürün. Last Year Sales verileri **Değerler** alanında yoksa oraya sürükleyin.
+3. Görsel Öğeler bölmesinde çubuk grafiğinizi halka grafiğe dönüştürmek için halka grafik simgesini ![halka grafik simgesi]() seçin. **Last Year Sales**, **Değerler** alanında görüntülenmiyorsa oraya sürükleyin.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * **Item** \> **Category**'yi seçerek **Açıklama** alanına ekleyin. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. **Item** \> **Category**'yi seçerek **Açıklama** alanına ekleyin. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. İsteğe bağlı olarak [grafik metninin boyutunu ve rengini ayarlayabilirsiniz](power-bi-visualization-customize-title-background-and-legend.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * Halka grafikteki değerlerin toplamının %100 olması gerekir.

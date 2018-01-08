@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Huni grafikler (eğitim)
 Huni grafik, birbirine bağlı sıralı aşamalara sahip doğrusal süreçleri görselleştirmenize yardımcı olur. Örneğin bir satış hunisi, müşterileri şu aşamalarda takip eder: Aday Müşteri \> Nitelikli Aday Müşteri \> Potansiyel Müşteri \> Sözleşme \> Sonuçlandırma.  Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
@@ -59,15 +59,15 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir Huni g
 
 Artık satış aşamalarındaki fırsat sayılarını gösteren bir huni grafik oluşturabilirsiniz.
 
-Bu yönergelerde Fırsat Analizi Örneği kullanılmaktadır. Birlikte ilerleyebilmek için; [örneği indirin](sample-datasets.md), Power BI'da oturum açın ve **Veri Al \> Örnekler \> Fırsat Analizi Örneği \> Bağlan**'ı seçin.
+Bu yönergelerde Fırsat Analizi Örneği kullanılmaktadır. Yönergeleri takip etmek için Power BI hizmeti (app.powerbi.com) veya Power BI Desktop [örneğini indirin](sample-datasets.md).   
 
-1. [Boş rapor sayfasıyla](power-bi-report-add-page.md) [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde başlayın ve **SalesStage** \> **Sales Stage** alanını seçin.  
+1. [Boş rapor sayfasıyla](power-bi-report-add-page.md) başlayın ve **SalesStage** \> **Sales Stage** alanını seçin. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Grafiği huniye dönüştürün](power-bi-report-change-visualization-type.md). **Sales Stage** öğesinin **Grup** kutusunda olduğuna dikkat edin. 
 3. **Alanlar** bölmesinde **Fact** \> **Opportunity Count** seçimini yapın.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Çubuklardan birinin üzerine geldiğinizde bilgiler görüntülenir.
    
    * Aşamanın adı
@@ -90,14 +90,13 @@ Hunideki bir çubuğun vurgulanması rapor sayfasındaki diğer görselleştirme
 2. Görsellerin birbirini çapraz vurgulaması ve çapraz filtrelemesiyle ilgili tercihleri ayarlamak için bkz. [Power BI'daki görsel etkileşimleri](service-reports-visual-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Soru-Cevap'ta huni grafik oluşturma
-"Opportunity Tracking" veri kümesinden sabitlenmiş olan en az bir görselleştirmeye sahip olan panoyu vurgulayın.  Soru-Cevap'ta bir soru yazdığınızda Power BI, seçilen panoyla ilişkilendirilmiş olan (kutucukların sabitlenmiş olduğu) tüm veri kümelerinde yanıt arar. Daha fazla bilgi için bkz. [Power BI - temel kavramlar](service-basic-concepts.md).
+Opportunity Analysis Sample panosunu veya Opportunity Analysis Sample veri kümesinden sabitlenmiş olan en az bir görselleştirmeye sahip olan başka bir panoyu seçin.  Soru-Cevap'ta bir soru yazdığınızda Power BI, seçilen panoyla ilişkilendirilmiş olan (kutucukların sabitlenmiş olduğu) tüm veri kümelerinde yanıt arar. Daha fazla bilgi için bkz. [Power BI - temel kavramlar](service-basic-concepts.md).
 
-1. Opportunity Tracking veri kümesinden sabitlenmiş olan en az bir kutucuğa sahip olan panoyu vurgulayın.
-2. Soru-Cevap soru kutusuna sorunuzu yazmaya başlayın.
+1. Opportunity Analysis Sample panosunda Soru-Cevap soru kutusuna sorunuzu yazmaya başlayın.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Power BI'ın tercih ettiğiniz görselleştirme türünü anlaması için "as funnel" (huni olarak) eklemeyi unutmayın.
+2. Power BI'ın tercih ettiğiniz görselleştirme türünü anlaması için "as funnel" (huni olarak) eklemeyi unutmayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

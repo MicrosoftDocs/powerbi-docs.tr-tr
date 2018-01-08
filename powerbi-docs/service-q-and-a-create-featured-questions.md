@@ -16,29 +16,29 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
 Bir veri kümeniz varsa kendi öne çıkan sorularınızı bu veri kümesine ekleyebilirsiniz.  Böylece Power BI Soru-Cevap bu soruları, veri kümenizi kullanan iş arkadaşlarınıza gösterir.  Öne çıkan sorular, iş arkadaşlarınıza bir veri kümesi ile ilgili sorabilecekleri soru türleri hakkında fikirler verir. Ne tür öne çıkan sorular ekleyeceğiniz size bağlıdır; sık kullanılan sorular, ilgi çekici sonuçlar görüntüleyen sorular veya uygun şekilde ifade etmesi zor olabilecek sorular sorabilirsiniz.
 
-Will'in Power BI Soru-Cevap bölümünde bazı öne çıkan sorular sorduğu ve veri kümesini araştırmak için bu öne çıkan soruları kullandığı videoyu izleyin. Ardından kendiniz denemek için videonun altındaki adım adım yönergeleri uygulayın.
+Will'in Power BI Soru-Cevap bölümünde bazı öne çıkan sorular sorduğu ve veri kümesini araştırmak için bu öne çıkan soruları kullandığı videoyu izleyin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Soru-Cevap öne çıkan soruları, [iPad, iPhone ve iPod touch cihazlarında iOS için Microsoft Power BI uygulamasında](mobile-apps-ios-qna.md) da kullanılabilir.
+> Soru-Cevap öne çıkan soruları, [iPad, iPhone ve iPod touch cihazlarında iOS için Microsoft Power BI uygulamasında](mobile-apps-ios-qna.md) ve Power BI Desktop Soru-Cevap Önizlemesinde kullanılabilir. Ancak soru oluşturma seçeneği yalnızca Power BI hizmetinde (app.powerbi.com) mevcuttur.
 > 
 > 
 
 Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır.
 
-1. Soru-Cevap soru kutusunu seçin.   Soru-Cevap bölümünde, veri kümesinde görünen terimlerin yer aldığı faydalı bir listenin görüntülendiğini fark edersiniz.
+1. Panoda Soru-Cevap soru kutusunu seçin.   Soru-Cevap bölümünde, veri kümesinde görünen terimlerin yer aldığı faydalı bir listenin görüntülendiğini fark edersiniz.
 2. Bu listeye ekleme yapmak için PowerBI'ın sağ üst köşesindeki dişli simgesini seçin.  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. **Ayarlar** &gt; **Veri kümeleri** &gt; **Retail Analysis Sample** &gt; **Öne Çıkan Soru-Cevap soruları** seçeneğini belirleyin.  

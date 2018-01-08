@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -125,7 +125,7 @@ Başlangıç konusunda yardım almak için aşağıdaki kaynakları kullanabilir
 * [YouTube Kanalımızdaki](https://www.youtube.com/user/mspowerbi) başlangıç videoları
 * [Power BI ile çalışmaya başlama](service-get-started.md) makalesi
 * [Topluluğumuza katılın](https://community.powerbi.com/) ve soru sorun
-* Daha fazla öneri için bkz. [Yardım almaya yönelik 10 ipucu](service-tips-for-finding-help.md).
+* Daha fazla öneri için bkz. [Yardım almaya yönelik 10 ipucu](service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI hangi tarayıcıları destekliyor?
 [Power BI için desteklenen tarayıcılar](service-browser-support.md) tam listesi sunulmaktadır.
@@ -137,6 +137,11 @@ Başlangıç konusunda yardım almak için aşağıdaki kaynakları kullanabilir
 Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](http://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
 
 Ayrıca Power BI uygulamanızla ilgili yardımcı olması için bir [Microsoft İş Ortağı](https://partner.microsoft.com/) bulabilirsiniz.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
+Power BI Pro lisansının süresi dolduktan sonra 30 günlük yetkisiz kullanım süresi vardır.
+
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
 [Microsoft Güven Merkezi](http://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.

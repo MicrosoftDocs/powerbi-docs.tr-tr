@@ -1,6 +1,6 @@
 ---
 title: "Bir rapordaki metin kutusuna köprü ekleme"
-description: "Power BI'daki Metin Kutusuna köprü ekleme"
+description: "Power BI hizmetinde ve Desktop'ta Metin Kutusuna köprü ekleme"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
-Metin kutuları raporlara eklenebilir, raporlardan panolara sabitlenebilir ve doğrudan panolara eklenebilir. Köprüler, bulunduğu yer fark etmeksizin bir metin kutusuna eklenebilir. **Bu konuda raporlardaki metin kutuları ele alınmıştır.**
+Metin kutuları raporlara eklenebilir, raporlardan panolara sabitlenebilir ve doğrudan panolara eklenebilir. Köprüler, bulunduğu yer fark etmeksizin bir metin kutusuna eklenebilir. **Bu konu başlığında Power BI hizmetindeki (Power BI Desktop değil) raporlarda bulunan metin kutuları ele alınmaktadır.**
 
 > **NOT**: Power BI tablolarındaki ve matrislerindeki köprülerle ilgili bilgi için bkz. [Tablolardaki köprüler](power-bi-hyperlinks-in-tables.md). **Panonuza** metin kutusu ekleme ile ilgili bilgi için bkz. [Doğrudan panodan kutucuk ekleme](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ Metin kutuları raporlara eklenebilir, raporlardan panolara sabitlenebilir ve do
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * Metin kutusunda, URL'yi görüntülemek için köprüyü seçin.
+   * URL'yi görüntülemek için imleci vurgulanan metnin herhangi bir yerine götürün.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Sayfayı yeni bir tarayıcı penceresinde açmak için URL'yi seçin.

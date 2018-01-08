@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -37,9 +37,9 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Advanced Analytics with Power BI (Power BI ile Gelişmiş Analiz)](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Tahmine dayalı analiz, özel görselleştirmeler, R tümleştirmesi ve veri çözümleme ifadeleri dahil olmak üzere Power BI'ın gelişmiş analiz özelliklerini açıklar. |
 | [Bidirectional filtering (Çift yönlü filtreleme)](desktop-bidirectional-filtering.md) |Power BI Desktop'ta çift yönlü çapraz filtrelemeyi açıklar. (Ayrıca bu teknik inceleme, aynı davranışa sahip SQL Server Analysis Services 2016'yı da kapsar.) |
 | [DirectQuery in SQL Server 2016 Analysis Services (SQL Server 2016 Analysis Services'de DirectQuery)](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery, SQL Server 2016 için büyük ölçüde geliştirilmiş hız ve performans elde etmek üzere yeniden tasarlandı. Bu geliştirmeyle birlikte DirectQuery, artık daha da karmaşık ve uygulaması zor hale geldi. |
-| [Governance (İdare)](service-admin-governance.md) |Power BI ile ilgili yatırımların getirilerini artırmaya yönelik bir çerçeve sunar |
+| [Governance (İdare)](service-admin-governance.md) |Power BI ile ilgili yatırımların getirilerini artırmaya yönelik bir çerçeve sunar. |
 | [Security (Güvenlik)](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. |
 | [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Bu makalede, tablolu BI anlam modeline ve Power BI'a yönelik güvenlik modeli tanıtılmaktadır. Rol oluşturmayı, dinamik güvenlik uygulamayı, kimliğe bürünme ayarlarını yapılandırmayı, rolleri yönetmeyi ve ağınızın güvenlik bağlamında çalışan modellere bağlanma yöntemi seçmeyi öğreneceksiniz. |
 | [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. |
-
+|[Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment) | Power BI Premium planlama, dağıtma ve işletme hakkındaki en iyi yöntemler ve rehberlik konusunda teknik inceleme. 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

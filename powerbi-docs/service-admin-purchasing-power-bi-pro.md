@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro'yu satın alma
 Power BI Pro; raporlar yayımlayan, panolar paylaşan, çalışma alanlarında iş arkadaşlarıyla işbirliği yapan ve aşağıdakiler gibi diğer ilişkili etkinlikler ile ilgilenen kullanıcılara yöneliktir:
@@ -34,7 +34,7 @@ Power BI Pro; raporlar yayımlayan, panolar paylaşan, çalışma alanlarında i
 
 BT Yöneticileri, kuruluşlarında Power BI Pro'yu kullanmaya yönelik birkaç seçeneğe sahiptir. Power BI Pro'yu Office 365 yönetim merkezinden ya da Microsoft temsilciniz veya iş ortağınız aracılığıyla satın alabilirsiniz. Bu makalede, Power BI Pro sürümü için kullanılabilir iki deneme sürümü seçeneği ve Power BI Pro'nun bir kuruluş tarafından nasıl satın alınabileceği konusu ele alınacaktır.
 
-Power BI Pro'yu Premium teklifine uyarlama ve Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md).
+Power BI Pro'yu Premium teklifine uyarlama ve Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md)
 
 ## <a name="pricing"></a>Fiyatlandırma
 Power BI Pro'ya ilişkin son fiyatlandırma bilgileri ve dahil olan özellikleri listeleyen bir tablo için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/pricing/).
@@ -60,7 +60,7 @@ Daha sonra **Deneme sürümünü başlat**'ı seçin.
 > Bir BT Yöneticisi olarak, Power BI deneme sürümü lisansları edinip kuruluşunuzdaki kullanıcıların deneme sürümü koşullarını ayrı ayrı kabul etmesine gerek kalmadan bunları kuruluşunuzdaki birden çok kullanıcıya dağıtmak istiyorsanız [Power BI Pro aboneliği deneme sürümüne](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO) kaydolabilirsiniz. Yönetici deneme sürümüne kaydolmak isterseniz Office 365 Genel veya Faturalama Yöneticisi olmanız ya da yeni bir kiracı oluşturmanız gerekir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md).
 
 > [!NOTE]
-> Power BI Premium kullanılabilirliği ve 1 Haziran 2017 tarihli Power BI Ücretsiz teklifine ilişkin değişikliklerle, Uzatılmış Pro Deneme Sürümü için uygun bir aday haline gelebilirsiniz. Daha fazla bilgi için bkz. [Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md).
+> Power BI Premium kullanılabilirliği ve 1 Haziran 2017 tarihli Ücretsiz Power BI teklifine ilişkin değişikliklerle, Uzatılmış Pro Deneme Sürümü için uygun bir aday haline gelebilirsiniz. Daha fazla bilgi için bkz. [Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Bunu hizmette nasıl görürsünüz?
 Bir Pro deneme sürümü hesabına sahip olup olmadığınızı, hizmetteyken **dişli* simgesine gidip **Kişisel depolama alanını yönet** seçeneğini belirleyerek doğrulayabilirsiniz.
@@ -118,6 +118,11 @@ Kuruluşunuz için Power BI Pro'yu, Office 365 yönetim merkezi aracılığıyla
 Bir Pro hesabına sahip olduğunuzu, hizmetteyken **dişli** simgesine gidip **Kişisel depolama alanını yönet** seçeneğini belirleyerek doğrulayabilirsiniz.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Yetkisiz kullanım süresi
+Power BI Pro lisansının süresi dolduktan sonra 30 günlük yetkisiz kullanım süresi vardır. 
+
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI için self servis kayıt](service-self-service-signup-for-power-bi.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/18/2017
 ms.author: asaxton
-ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
+ms.openlocfilehash: 6ee8ab6d30d84857de9cd415ee58caade4e94a57
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 Azure SQL Veritabanı'na doğrudan nasıl bağlanacağınızı ve canlı verilerin kullanıldığı raporları nasıl oluşturacağınızı öğrenin. Verilerinizi Power BI yerine kaynakta tutabilirsiniz.
@@ -31,9 +31,9 @@ DirectQuery ile, siz verileri rapor görünümünde araştırırken sorgular Azu
 **Notlar:**
 
 * Bağlanırken tam sunucu adını belirtin (daha fazla ayrıntı için aşağıya bakın)
-* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://msdn.microsoft.com/library/azure/ee621782.aspx)" olarak yapılandırıldığından emin olun.
+* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://msdn.microsoft.com/library/azure/ee621782.aspx)" olarak yapılandırıldığından emin olun
 * Sütun seçme veya filtre ekleme gibi her işlem veritabanına sorgu gönderir
-* Kutucuklar yaklaşık her 15 dakikada bir yenilenir. (Yenileme işleminin zamanlanması gerekmez.) Bu, bağlantı kurulduktan sonra Gelişmiş ayarlar'da ayarlanabilir.
+* Kutucuklar saatte bir yenilenir (yenileme işleminin zamanlanması gerekmez). Bu, bağlantı kurulduktan sonra Gelişmiş ayarlar'da ayarlanabilir.
 * Soru-Cevap, DirectQuery veri kümeleri için kullanılamaz
 * Şema değişiklikleri otomatik olarak alınmaz
 
@@ -42,12 +42,19 @@ Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe deği
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop ve DirectQuery
 DirectQuery'yi kullanarak Azure SQL Veritabanı'na bağlanmak için Power BI Desktop'ı kullanmanız gerekir. Bu yaklaşım, daha fazla esneklik ve özellik sunar. Power BI Desktop kullanılarak oluşturulan raporlar daha sonra Power BI hizmetinde yayımlanabilir. Power BI Desktop'ta [DirectQuery'yi kullanarak Azure SQL Veritabanı](desktop-use-directquery.md)'na nasıl bağlanacağınızla ilgili daha fazla bilgi edinebilirsiniz. 
 
-## <a name="connecting-through-power-bi"></a>Power BI aracılığıyla bağlanma
-Artık Azure SQL Veritabanı'na doğrudan Power BI hizmetinden bağlanamazsınız. [Azure SQL Veritabanı bağlayıcısını](https://app.powerbi.com/getdata/bigdata/azure-sql-database-with-live-connect) seçtiğinizde, bağlantıyı Power BI Desktop'tan kurmanız istenir. Ardından Power BI Desktop raporlarınızı Power BI hizmetinizde yayımlayabilirsiniz. 
+## <a name="single-sign-on"></a>Çoklu oturum açma
 
-![](media/service-azure-sql-database-with-direct-connect/azure-sql-database-in-power-bi.png)
+Azure SQL DirectQuery veri kümesini hizmette yayımladıktan sonra son kullanıcılarınız için Azure Active Directory (Azure AD) OAuth2 aracılığıyla çoklu oturum açmayı (SSO) etkinleştirebilirsiniz. 
 
-### <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
+SSO özelliğini etkinleştirmek için veri kümesinin ayarlarına gidip **Veri Kaynakları** sekmesini açın ve SSO kutusunu işaretleyin.
+
+![Azure SQL DQ iletişim kutusunu yapılandırma](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
+
+SSO seçeneği etkin olduğunda ve kullanıcılarınız bu veri kaynağını kullanan raporlara eriştiğinde, Power BI kimlik doğrulamasından geçen Azure AD kimlik bilgilerini Azure SQL veritabanı sorgularında gönderir. Bu sayede Power BI, veri kaynağı seviyesinde yapılandırılmış olan güvenlik ayarlarını uygular.
+
+SSO seçeneği bu veri kaynağını kullanan tüm veri kümelerinde geçerli olur. İçeri aktarma senaryoları için kullanılan kimlik doğrulama yöntemini etkilemez.
+
+## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
 Tam sunucu adınız ve veritabanınızın adı Azure Portal'da bulunabilir.
 
 ![](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
@@ -59,4 +66,3 @@ Tam sunucu adınız ve veritabanınızın adı Azure Portal'da bulunabilir.
 [Power BI ile çalışmaya başlama](service-get-started.md)  
 [Power BI için veri alma](service-get-data.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

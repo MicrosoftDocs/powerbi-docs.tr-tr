@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI hizmetini veya Power BI Desktop'ı kullanarak Cortana için özel bir Yanıt Sayfası oluşturma
 Power BI'ı kullanarak *Cortana yanıt sayfaları* (ve bazı durumlarda "Cortana yanıt kartları") adı verilen ve Cortana sorularını cevaplamak için tasarlanmış özel rapor sayfaları oluşturun.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Cortana ve Power BI **panosu** önizlemesini kullanıyorsanız bu makalenin geri kalan kısmını okumanıza gerek yoktur. Cortana'nın, Power BI panolarınızda arama yapabilmesi için herhangi bir kurulum gereksinimi bulunmaz.
 > 
 > 
@@ -63,7 +63,7 @@ Bir rapordaki *Cortana yanıt sayfası*, Cortana için özel olarak boyutlandır
    > İyileştirilmiş sonuçlar elde etmek için aynı zamanda sütun adı olarak da bulunan sözcükler kullanmaktan kaçının.
    > 
    > 
-6. İsteğe bağlı olarak, rapor sayfanız sayfa düzeyi filtreleri içeriyorsa **Tek bir seçim yapılmasını zorunlu kıl** seçeneğini belirleyebilirsiniz. Cortana, soruda filtre öğelerinden sadece biri belirtilirse bu raporu yalnızca bir cevap olarak görüntüler.
+6. İsteğe bağlı olarak, rapor sayfanız sayfa düzeyi filtreleri içeriyorsa **Tek bir seçim yapılmasını zorunlu kıl** seçeneğini belirleyebilirsiniz. Cortana, soruda filtre öğelerinden sadece biri belirtilirse bu raporu yalnızca bir cevap olarak görüntüler. **Tek bir seçim yapılmasını zorunlu kıl** seçeneği **Filtreler** bölmesinin en altında yer alır.
    
    > [!NOTE]
    > Cortana'nın sayfa düzeyi filtreleri içeren bir raporu görüntülemesi için **Tek bir seçim yapılmasını zorunlu kıl** seçeneğini belirlemeniz gerekmez.  Örneğin, "show sales for Charlotte Lindseys" (Charlotte Lindseys için satışları göster) sorusu sorulduğunda, Tek bir seçim yapılmasını zorunlu kıl ayarına bakılmaksızın yanıt sayfası görüntülenir.

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve başka öğeler ekleme
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/13/2017
 Panonuzda şirket logonuzu veya başka bir resmi kullanmak istediğinizi düşünelim. Resim dosyasını çevrimiçi ortamda kaydedip bağlantısını eklemeniz gerekir. Resim dosyasına erişmek için özel kimlik bilgilerine gerek duyulmadığından emin olun. Örneğin, OneDrive ve SharePoint için kimlik doğrulaması gerektiğinden bu hesaplarda depolanan görüntüler panoya bu yöntemle eklenemez.  
 
 1. **Resim** > **İleri**'yi seçin.
-2. **Kutucuk ayrıntıları** bölmesine resim ile ilgili bilgileri girin.
+2. **Resim ekleme kutucuğu** penceresine resimle ilgili bilgileri girin.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,17 +56,17 @@ Panonuzda şirket logonuzu veya başka bir resmi kullanmak istediğinizi düşü
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Metin kutusu veya pano başlığı ekleme
 1. **Metin kutusu > İleri**'yi seçin.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **NOT**: Pano başlığı eklemek için başlığı metin kutusuna yazıp yazı tipi boyutunu artırın.
-   > 
    > 
 2. Metin kutusunu biçimlendirin:
    
    * Metin kutusunun üzerine bir başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle**'yi seçip bir başlık ve/veya alt konu başlığı yazın.
    * Metin kutusunun içeriğini girin ve biçimlendirin.  
-   * İsterseniz başlık için özel bir bağlantı ayarlayabilirsiniz.  Ancak, bu örnekte metin kutusunun kendisine köprü eklediğimiz için **Özel bağlantı ayarlayın** kutusunu işaretlemiyoruz.
-3. **Uygula**'yı seçin.  Panoda metin kutusunu gereken şekilde yeniden boyutlandırabilir ve taşıyabilirsiniz.
+   * İsterseniz başlık için özel bir bağlantı ayarlayabilirsiniz. Özel bağlantı dış bir siteye veya çalışma alanınızdaki bir panoya gidebilir. Ancak, bu örnekte metin kutusunun kendisine köprü eklediğimiz için **Özel bağlantı ayarlayın** kutusunu işaretlemeyeceğiz.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
+3. **Apply** (Uygula) seçeneğini belirleyin.  Panoda metin kutusunu gereken şekilde yeniden boyutlandırabilir ve taşıyabilirsiniz.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
@@ -74,7 +74,7 @@ Panonuzda şirket logonuzu veya başka bir resmi kullanmak istediğinizi düşü
 Panonuza YouTube veya Vimeo videosu kutucuğu eklediğinizde video doğrudan panonuzda oynatılır.
 
 1. **Video > İleri**'yi seçin.
-2. **Kutucuk ayrıntıları** bölmesine video ile ilgili bilgileri girin.
+2. **Video ekleme kutucuğu** bölmesine video ile ilgili bilgileri girin.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Herhangi bir HTML içeriği yapıştırın veya yazın.  Power BI bu içeriği p
    
    * Kutucuğun üzerine başlık yerleştirmek için *Başlığı ve alt konu başlığını görüntüle*'yi seçip bir başlık ve/veya alt konu başlığı yazın.
    * Ekleme kodunu girin. Bu örnekte bir Twitter akışını kopyalayıp yapıştıracağız.
-   * **Uygula**'yı seçin.  Panoda web içeriği kutucuğunu gereken şekilde yeniden boyutlandırabilir ve taşıyabilirsiniz.
+3. **Uygula**'yı seçin.  Panoda web içeriği kutucuğunu gereken şekilde yeniden boyutlandırabilir ve taşıyabilirsiniz.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

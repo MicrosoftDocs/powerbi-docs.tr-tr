@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında şirket içi rapor sunucusu raporlarını ve KPI'lerini görüntüleme
 Aşağıdakiler için geçerlidir:
@@ -63,7 +63,14 @@ Power BI mobil uygulamalarında şirket içi Power BI raporlarını, Reporting S
 3. **Sunucuya bağlan**'a dokunun.
    
     ![Sunucuya bağlan](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Sunucu adresinin yanı sıra kullanıcı adınızı ve parolanızı girin. Sunucu adresi için şu biçimi kullanın:
+
+     Mobil uygulamanın sunucuya bir şekilde erişmesi gerekir. Bunu yapmanın birkaç yolu vardır:
+
+    - Aynı ağda olmak/VPN kullanmak en kolay yöntemdir.
+    - Kuruluş dışından bağlantı kurmak için Web Uygulaması Ara Sunucusu kullanabilirsiniz. Ayrıntılar için bkz. [OAuth kullanarak Reporting Services'e bağlanma](mobile-oauth-ssrs.md). 
+    - Güvenlik duvarında bir bağlantı (bağlantı noktası) açma.
+
+1. Sunucu adresinin yanı sıra kullanıcı adınızı ve parolanızı girin. Sunucu adresi için şu biçimi kullanın:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Power BI mobil uygulamalarında şirket içi Power BI raporlarını, Reporting S
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > Bağlantı dizesinin önüne **http** veya **https** ifadesini ekleyin.
-   > 
-   > 
+   Bağlantı dizesinin önüne **http** veya **https** ifadesini ekleyin.
    
     ![Sunucuya bağlan iletişim kutusu](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (İsteğe bağlı) Dilerseniz **Advanced options** (Gelişmiş seçenekler) bölümünde sunucunuza kolay bir ad verebilirsiniz.
@@ -100,7 +104,7 @@ Web portalında KPI'leri ve raporları sık kullanılanlara ekleyip daha sonra b
 
 * **Sık Kullanılanlar**'a dokunun.
   
-   ![Sol gezinti bölmesindeki Sık Kullanılanlar seçeneği](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![Sol gezinti bölmesindeki Sık Kullanılanlar seçeneği](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Web portalında sık kullandığınız KPI ve raporlarınızın tümü, Power BI hizmetindeki Power BI panoları ile birlikte bu sayfada yer alır:
   
