@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 2c26a16bf8d8e54159dcd72b31fe9b9ed24e6d75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 389eea63ca03c982f89bc8d44611ec5b01f3a1ce
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="connecting-to-data-sources"></a>Veri kaynaklarına bağlanma
 Power BI Rapor Sunucusu'ndan bağlanabileceğiniz veri kaynakları hakkında bilgi edinin.

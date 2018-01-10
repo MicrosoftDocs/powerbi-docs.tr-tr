@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Kuruluşunuz için bir panoyu uygulamayla tümleştirme
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -40,15 +40,15 @@ Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini ve
 ## <a name="download-the-sample"></a>Örneği indirin
 Bu makalede GitHub üzerindeki [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) uygulamasında kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Uygulamayı Azure AD'ye kaydetme
-REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
+## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
+REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
 
 [Pano tümleştirme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) indirdiyseniz kayıt sonrasında aldığınız **İstemci Kimliğini** ve **Gizli Anahtar**'ı kullanarak örneğin Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *cloud.config* dosyasındaki **İstemci Kimliğini** ve **Gizli Anahtarı** değiştirin.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2. Adım: Azure AD'den erişim belirteci alma
-Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure AD'den **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
+Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için önce Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>3. Adım: Pano alma
 Bir **Power BI** panosu almak için **Power BI** panolarının listesini alan [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemini kullanabilirsiniz. Pano listesinden panoların kimliğini öğrenebilirsiniz.
@@ -56,7 +56,7 @@ Bir **Power BI** panosu almak için **Power BI** panolarının listesini alan [G
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Erişim belirteci kullanarak pano alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi çağrısını yapabilirsiniz. [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi pano listesini döndürür. Pano listesinden tek bir pano alabilirsiniz. Aşağıda pano almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. Power BI REST API'sini kullanmaya ilişkin örnekler için bkz. [APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/).
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi çağrısını yapabilirsiniz. [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi pano listesini döndürür. Pano listesinden tek bir pano alabilirsiniz. Aşağıda pano almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 

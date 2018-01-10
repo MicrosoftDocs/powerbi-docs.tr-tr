@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](service-connect-to-services.md) de Power BI uygulamaları sunar. 
@@ -63,7 +63,7 @@ Ayrıca, erişiminiz olan tüm uygulamaları Microsoft AppSource'ta bulabilir ve
 3. Uygulamalar sayfanıza eklemek için **Şimdi edinin**'i seçin. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Uygulamadaki panolarla ve raporlarla etkileşim kurma
-Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. [Power BI'da raporlarla etkileşim kurma](service-interact-with-a-report-in-reading-view.md) ile ilgili bilgi edinin. 
+Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. [Power BI'da raporlarla etkileşim kurma](service-reading-view-and-editing-view.md) ile ilgili bilgi edinin. 
 
 Yaptığınız değişiklikleri kaydedemezsiniz ancak her zaman bir rapordaki tablodan veya diğer bir görselden [verileri Excel'e aktarabilirsiniz](power-bi-visualization-export-data.md).
 

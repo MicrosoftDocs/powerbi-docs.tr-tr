@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Power BI panolarınızı iş arkadaşlarınızla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI, [işbirliği yapmak ve panolarınızı dağıtmak](service-how-to-collaborate-distribute-dashboards-reports.md) için çeşitli yöntemler sunar ve paylaşım, bu yöntemlerden yalnızca biridir.
@@ -110,7 +110,7 @@ Kuruluşunuz dışındaki kişilere bir Power BI mobil uygulamasından bağlant�
 Pano paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 
 * Genel olarak iş arkadaşlarınızla panoda aynı verileri görürsünüz. Bu nedenle, iş arkadaşlarınıza kıyasla daha fazla veri görme iznine sahipseniz iş arkadaşlarınız, panonuzda sizin gördüğünüz tüm verileri görebilir. Ancak, bir panonun bağlantılı veri kümesinde [satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanırsa kullanıcıların hangi verilere erişebileceği kimlik bilgilerine göre belirlenir.
-* Paylaştığınız herkes panonuzu görebilir ve [Okuma Görünümü](service-report-open-in-reading-view.md)'nde raporlarınızla etkileşim kurabilir. Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
+* Paylaştığınız herkes panonuzu görebilir ve [Okuma Görünümü](service-reading-view-and-editing-view.md)'nde raporlarınızla etkileşim kurabilir. Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
 * Hiç kimse veri kümesini göremez veya indiremez.
 * Herkes el ile [pano verilerini yenileyebilir](refresh-data.md).
 * E-posta için Office 365 hizmetini kullanıyorsanız bir dağıtım grubu ile ilişkili e-posta adresini girerek dağıtım grubu üyeleri ile paylaşımda bulunabilirsiniz.

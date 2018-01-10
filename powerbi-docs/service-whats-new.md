@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
@@ -589,10 +589,6 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 * [İçerik paketimizi](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx) kullanarak QuickBooks Online hesabı verileriniz hakkında hızlı öngörülere ulaşın. Bağlantı kurmanıza ve bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için Power BI için QuickBooks Online içerik paketi [belgelerine](service-connect-to-quickbooks-online.md) bakın.
 
-**19 Mayıs 2015**
-
-* Bu güncelleştirme sayesinde artık [Twilio'ya içerik paketimizi kullanarak](service-connect-to-twilio.md) bağlanabilirsiniz
-* Power BI API'sine de yeni eklemeler yapıldı! Artık [tüm tabloları listeleyebilir](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables) ve [var olan bir tablo şemasını güncelleştirebilirsiniz](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema)
 
 **13 Mayıs 2015**
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)
 Bu makalede bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](sample-datasets.md) kullanarak kendi raporunuzu oluşturun.
@@ -64,7 +64,7 @@ Bu makalede bir raporda görselleştirme oluşturma hakkında özet bilgiler ver
    
    [2. Bölüm: Bir Power BI raporuna görselleştirme ekleme](power-bi-report-add-visualizations-ii.md) bölümüne geçin
    
-   Rapordaki [görselleştirmelerle etkileşim kurun](service-interact-with-a-report-in-reading-view.md).
+   Rapordaki [görselleştirmelerle etkileşim kurun](service-reading-view-and-editing-view.md).
    
    [Görselleştirmelerle daha fazlasını yapın](power-bi-report-visualizations.md).
    

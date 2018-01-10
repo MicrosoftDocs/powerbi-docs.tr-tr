@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Sizinle paylaşılan Power BI panolarını görüntüleme
 ## <a name="shared-with-me"></a>Benimle paylaşılan
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/13/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Pano sahibinin size verdiği izinlere bağlı olarak panoyla ve kullandığı raporla etkileşim kurmak için birçok seçeneğe sahip olursunuz. Bu seçenekler arasında panonun kopyalarını oluşturmak, raporu [Okuma görünümünde](service-interact-with-a-report-in-reading-view.md) açmak ve diğer iş arkadaşlarınızla paylaşmak olabilir.
+Pano sahibinin size verdiği izinlere bağlı olarak panoyla ve kullandığı raporla etkileşim kurmak için birçok seçeneğe sahip olursunuz. Bu seçenekler arasında panonun kopyalarını oluşturmak, raporu [Okuma görünümünde](service-reading-view-and-editing-view.md) açmak ve diğer iş arkadaşlarınızla paylaşmak olabilir.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>**Benimle paylaşılan** ekranından gerçekleştirilebilecek eylemler
 * Yıldız simgesini seçerek [Panoyu sık kullanılanlara ekleyebilirsiniz](service-dashboard-favorite.md).

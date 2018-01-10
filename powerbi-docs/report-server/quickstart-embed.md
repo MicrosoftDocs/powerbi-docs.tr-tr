@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/09/2017
-ms.author: asaxton
-ms.openlocfilehash: df22a7ed0772979d164a9afae18f4931310ec4a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 0019b0a8d3fa628a1b3932a4c19eba0bf0d66ee3
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Hızlı Başlangıç: iFrame ve URL parametrelerini kullanarak Power BI raporu ekleme
 

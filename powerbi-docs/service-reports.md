@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?
@@ -36,7 +36,7 @@ Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](ser
 Raporlar, Power BI hizmetinin ve Power BI Desktop'ın bir özelliğidir. Raporlarla çalışma deneyimi her ikisinde de neredeyse aynıdır. Mobilde ise rapor oluşturamazsınız ancak [raporları görüntüleyebilir, paylaşabilir ve raporlara not ekleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Raporların avantajları
-Raporlar tek bir veri kümesini temel alır. Bir raporda bulunan her görselleştirme önemli bir bilgi parçasını temsil eder. Ayrıca görselleştirmeler statik değildir, öngörüler keşfetmek ve sorularınıza cevap aramak üzere verilerinizi ayrıntılı olarak incelemek için veri ekleyebilir veya kaldırabilir, görselleştirme türlerini değiştirebilir ve filtreler ve dilimleyiciler ekleyebilirsiniz. Bir rapor bir panoya benzer şekilde, ancak panodan daha yüksek oranda etkileşimlidir, yüksek derecede özelleştirilebilir ve temel alınan veriler değiştikçe görselleştirmeler de güncelleştirilir.
+Raporlar tek bir veri kümesini temel alır. Bir raporda bulunan her görselleştirme önemli bir bilgi parçasını temsil eder. Ayrıca görselleştirmeler statik olmadığından, öngörüler keşfetmek ve sorularınıza yanıt aramak üzere verilerinizi ayrıntılı olarak incelemek için veri ekleyebilir veya kaldırabilir, görselleştirme türlerini değiştirebilir, filtreler ve dilimleyiciler ekleyebilirsiniz. Bir rapor bir panoya benzer şekilde, ancak panodan daha yüksek oranda etkileşimlidir, yüksek derecede özelleştirilebilir ve temel alınan veriler değiştikçe görselleştirmeler de güncelleştirilir.
 
 ## <a name="dashboards-versus-reports"></a>Panolarla ve raporları karşılaştırma
 [Panolar](service-dashboards.md) da görselleştirmelerle dolu tuvaller olduklarından genellikle raporlarla karıştırılır. Ancak bazı önemli farklılıklar bulunur.  
@@ -47,9 +47,9 @@ Raporlar tek bir veri kümesini temel alır. Bir raporda bulunan her görselleş
 | Veri kaynakları |Pano başına bir veya daha fazla rapor ve bir veya daha fazla veri kümesi |Rapor başına tek bir veri kümesi |
 | Power BI Desktop'ta kullanılabilirlik |Hayır |Evet, Desktop'ta rapor oluşturabilir ve bunları görüntüleyebilirsiniz |
 | Sabitleme |Var olan görselleştirmeleri (kutucukları) yalnızca geçerli panodan diğer panolarınıza sabitleyebilirsiniz |Görselleştirmeleri (kutucuklar olarak) herhangi bir panonuza sabitleyebilirsiniz. Rapor sayfalarının tamamını herhangi bir panonuza sabitleyebilirsiniz. |
-| Abone olma |Bir panoya abone olamazsınız |Rapor sayfalarına abone olabilirsiniz |
-| Filtreleme |Filtreleyemez veya dilimleyemezsiniz |Filtreleme, vurgulama ve dilimleme için birçok farklı yol vardır |
-| Uyarı ayarlama |Belirli koşullar karşılandığında size e-posta göndermek üzere uyarılar oluşturabilirsiniz |Hayır |
+| Abonelik |Bir panoya abone olamazsınız |Rapor sayfalarına abone olabilirsiniz |
+| Filtreleme |Filtreleme veya dilimleme yapamazsınız |Filtreleme, vurgulama ve dilimleme için birçok farklı yol vardır |
+| Uyarı ayarlama |Belirli koşullar karşılandığında size e-posta gönderilmesini sağlamak üzere uyarılar oluşturabilirsiniz |Hayır |
 | Öne çıkan özelliği |Bir panoyu "öne çıkan" panonuz olarak ayarlayabilirsiniz |Öne çıkan bir rapor oluşturamazsınız |
 | Doğal dil sorguları |Panodan kullanılabilir |Raporlardan kullanılamaz |
 | Görselleştirme türünü değiştirme |Hayır. Hatta bir rapor sahibi rapordaki görselleştirme türünü değiştirirse panodaki sabitlenen görselleştirme güncelleştirilmez |Evet |
@@ -71,7 +71,7 @@ Rolünüze göre, başlamanıza yardımcı olacak bazı konu başlıkları aşa�
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Rapor alacak ve kullanacaksanız
 * Raporları ve rapor araçlarını nerede bulacağınızı öğrenmek için [Power BI hizmeti turu](service-basic-concepts.md) ile başlayın.
-* [Okuma görünümü](service-dashboard-tiles.md)'nde [bir raporu açmayı](service-report-open-in-reading-view.md) ve kullanabileceğiniz tüm etkileşimleri öğrenin.
+* [Okuma görünümü](service-reading-view-and-editing-view.md)'nde [bir raporu açmayı](service-report-open.md) ve kullanabileceğiniz tüm etkileşimleri öğrenin.
 * Raporları daha rahat kullanmak için [örneklerimizden](sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
 * Rapora ihtiyacınız kalmadı mı? Raporu [kaldırabilirsiniz](service-delete.md).
 * Raporun hangi veri kümesini kullandığını ve hangi panolarda rapordan sabitlenmiş kutucuklar bulunduğunu görmek için [ilişkili içeriği görüntüleyin](service-related-content.md).

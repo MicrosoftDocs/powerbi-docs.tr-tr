@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Kutucukları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir kutucuğu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -56,7 +56,7 @@ Bir **Power BI** kutucuğu almak için belirli bir panodaki **Power BI** kutucuk
 Kutucuğu alabilmek için öncelikle pano kimliğini almanız gerekir. Pano alma hakkında bilgi için bkz. [Panoları uygulamalarla tümleştirme (veriler kullanıcıya aittir)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Erişim belirteci kullanarak kutucuk alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi çağrısını yapabilirsiniz. [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi kutucuk listesini döndürür. Kutucuk listesindeki kutucuklardan birini alabilirsiniz. Aşağıda kutucuk almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. Power BI REST API'sini kullanmaya yönelik örnekler için bkz.[APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/).
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi çağrısını yapabilirsiniz. [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi kutucuk listesini döndürür. Kutucuk listesindeki kutucuklardan birini alabilirsiniz. Aşağıda kutucuk almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Kuruluşunuz için bir raporu uygulamayla tümleştirme
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -41,20 +41,20 @@ Bir raporu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini ve
 Bu makalede GitHub üzerindeki [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) uygulamasında kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
-REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
+REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
 
 [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) örneğini indirdiyseniz kayıt sonrasında aldığınız **İstemci Kimliğini** ve **Gizli Anahtar**'ı kullanarak örneğin Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *cloud.config* dosyasındaki **İstemci Kimliğini** ve **Gizli Anahtarı** değiştirin.
 
 ![](media/integrate-report/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2. Adım: Azure AD'den erişim belirteci alma
-Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure AD'den **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
+Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için önce Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-report"></a>3. Adım: Rapor alma
 Bir **Power BI** raporu almak için **Power BI** raporlarının listesini alan [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemini kullanabilirsiniz. Rapor listesindeki rapor kimliklerinden birini seçebilirsiniz.
 
 ### <a name="get-reports-using-an-access-token"></a>Erişim belirteci kullanarak rapor alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi çağrısını yapabilirsiniz. [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi rapor listesini döndürür. Rapor listesindeki raporlardan birini alabilirsiniz. Aşağıda rapor almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. Power BI REST API'sini kullanmaya yönelik örnekler için bkz.[APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/).
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi çağrısını yapabilirsiniz. [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi rapor listesini döndürür. Rapor listesindeki raporlardan birini alabilirsiniz. Aşağıda rapor almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 

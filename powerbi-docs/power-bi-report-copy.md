@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 8c108d1564a6de89d2a53134e0bbca3617ebfc92
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Mevcut bir rapordan yeni rapor oluşturma
 Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek isteyebileceğiniz bir raporunuzun bulunması da olasıdır.  Böyle bir durumda yeni bir rapor için temel oluşturmak üzere söz konusu raporu kopyalamanız yeterlidir.  Bunu gerçekleştirmek için:
 
-1. [Bir raporu açın](service-report-open-in-reading-view.md).
+1. [Bir raporu açın](service-report-open.md).
 2. **Dosya** menüsündeki **Farklı Kaydet** seçeneğini belirleyin.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)

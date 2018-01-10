@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. Adım: Power BI'da veri kümesi oluşturma
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
@@ -32,7 +32,7 @@ Bir REST kaynağına çağrı yapmak için, kaynağın yerini belirleyen bir URL
 
 Bir Power BI REST işleminin kimliğini doğrulamak için, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) bölümünde edindiğiniz belirteci bir istek üst bilgisine eklersiniz:
 
-[Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemini çağırdığınızda, yeni bir veri kümesi oluşturulur. Power BI REST API'sini kullanmaya yönelik örnekler için bkz. [APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/).
+[Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemini çağırdığınızda, yeni bir veri kümesi oluşturulur. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -238,8 +238,7 @@ Sonraki adımda [bir Power BI tablosuna satır eklemek için veri kümesi alma](
 [Veri Kümesi oluşturma](https://msdn.microsoft.com/library/mt203562.aspx)  
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[Power BI Rest API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
-[APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/)  
+[Power BI REST API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

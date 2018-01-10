@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 Power BI API ile bir Power BI veri kümesine veri gönderebilirsiniz. Veri kümenize anahtar verileri göndermek için mevcut bir iş akışını genişletmek istediğinizi varsayalım. Bu örnekte, bir veri kümesine, Ürün tablosu içeren bir Satış Pazarlama veri kümesi göndermeniz gerekiyor.
@@ -38,7 +38,7 @@ Bir veri kümesine veri göndermeye başlamadan önce Azure Active Directory (Az
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Veri göndermeye yönelik için Power BI API işlemleri
-Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama, veri kümesine satırlar eklediğinde panodaki kutucuklar, güncelleştirilen verilerle otomatik olarak güncelleştirilir. Veri göndermek için [Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx) işlemiyle birlikte [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemi kullanılır. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini kullanmanız gerekir. Bu işlemlerden herhangi biri için bir grupla çalışmak üzere grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için [Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx) işlemini kullanın. Power BI REST API'sini kullanmaya ilişkin örnekler için bkz. [APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/).
+Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama, veri kümesine satırlar eklediğinde panodaki kutucuklar, güncelleştirilen verilerle otomatik olarak güncelleştirilir. Veri göndermek için [Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx) işlemiyle birlikte [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemi kullanılır. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini kullanmanız gerekir. Bu işlemlerden herhangi biri için bir grupla çalışmak üzere grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için [Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx) işlemini kullanın.
 
 Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
 
@@ -126,6 +126,5 @@ Bir veri kümesine veri göndermeye başlamak için sol gezinti bölmesindeki [1
 [Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Introducing JSON (JSON'a giriş)](http://json.org/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[APIARY'deki Power BI REST API'si](http://docs.powerbi.apiary.io/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

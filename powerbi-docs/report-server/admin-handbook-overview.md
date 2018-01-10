@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 6307e6cc3beb119ffaba40344736ff29e293fc95
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 6434084ab59cf842544dbcf9e373a8f6985a9ee3
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="administrator-handbook-overview-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik yönetici el kitabına genel bakış
 Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz şirket içi konum olan Power BI Rapor Sunucusu'na yönelik yönetici el kitabına hoş geldiniz.

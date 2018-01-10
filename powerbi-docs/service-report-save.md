@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: f6d0f320dd18520c94ada531ee87aacbd562f5d7
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 50fd10596ea7ebba1284f78b4056f7afbd0e3400
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta rapor kaydetme
 Bir Power BI raporunda değişiklik yaptıktan sonra raporu kaydedebilir, yeni bir adla kaydedebilir veya değişikliklerinizi kaydetmeden kapatabilirsiniz. Raporu açtığınızı, bir görselleştirme oluşturduğunuzu ve panonuza sabitlediğinizi düşünelim. Değişikliklerinizi kaydetmeden kapatırsanız kutucuk panoda kalır ancak görselleştirme rapora kaydedilmez. Panodaki kutucuğa tıkladığınızda rapor açılır ancak görselleştirme raporda bulunmaz.
@@ -35,7 +35,7 @@ Bir Power BI raporunda değişiklik yaptıktan sonra raporu kaydedebilir, yeni b
 1. Bir raporun dışındaki bir alanı seçtiğinizde raporda değişiklik yapıldıysa Power BI bir istem görüntüler.
    
    ![](media/service-report-save/power-bi-unsaved.png)
-2. Raporu kaydetmek için **DOSYA** \> **Kaydet** veya **Farklı Kaydet** yolunu da izleyebilirsiniz. [Okuma görünümü](service-interact-with-a-report-in-reading-view.md) açıksa yalnızca Farlı Kaydet seçeneği görüntülenir. 
+2. Raporu kaydetmek için **DOSYA** \> **Kaydet** veya **Farklı Kaydet** yolunu da izleyebilirsiniz. [Okuma görünümü](service-reading-view-and-editing-view.md) açıksa yalnızca Farlı Kaydet seçeneği görüntülenir. 
    
    ![](media/service-report-save/power-bi-save-new.png)
 3. Rapor yeniyse (Kaydet) veya var olan bir raporun yeni sürümüyse (Farklı kaydet) açıklayıcı bir ad verin.  **Rapor, etkin çalışma alanına kaydedilir**.

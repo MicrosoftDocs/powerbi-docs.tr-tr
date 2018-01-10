@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: b9aff56a964a2a8c91d614a427ad77810680176f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: d6daa5625037729df6aa7908a43c0e068efbfb8b
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
@@ -69,14 +69,14 @@ Tablolu veya çok boyutlu örnekler için bir canlı bağlantı kullanabilirsini
 
 | **Sunucu sürümü** | **Gerekli SKU** |
 | --- | --- |
-| 2012 SP1 CU4 veya sonraki sürümleri |İş Zekası ve Enterprise SKU'su |
+| 2012 SP1 CU4 veya sonraki sürümler |İş Zekası ve Enterprise SKU'su |
 | 2014 |İş Zekası ve Enterprise SKU'su |
 | 2016 ve sonraki sürümleri |Standart SKU veya sonraki sürümleri |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kullanıcı el kitabı](user-handbook-overview.md)  
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Quickstart: Install Power BI Report Server (Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme)](quickstart-install-report-server.md)  
+[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
