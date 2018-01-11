@@ -44,16 +44,16 @@
       }
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "PDF"
+"branch_target_mapping": {
+     "live-sxs": [
+           "Publish",
+           "Pdf" 
     ],
-    "master": [
-      "Publish",
-      "PDF"
+    "live": [
+           "Publish",
+           "Pdf"
     ]
-  },
+},
   "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
