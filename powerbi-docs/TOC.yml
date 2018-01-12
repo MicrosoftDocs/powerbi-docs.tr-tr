@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Power BI için veri kaynakları
           href: service-get-data.md
-        - name: Yeni Power BI gezinti deneyimi
+        - name: 'Power BI’da Dolaşma: Gezinti deneyimi'
           href: service-the-new-power-bi-experience.md
         - name: Yardım almaya yönelik 10 ipucu
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Genel görevler
       items:
-        - name: Power BI'daki sık kullanılan panolar
+        - name: 'Power BI’daki sevdiğiniz panolar, raporlar ve uygulamalar'
           href: service-dashboard-favorite.md
         - name: 'Pano, pano kutucuğu ve rapor sayfası yazdırma'
           href: service-print.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Power BI'da yanıt veren görseller oluşturma
           href: desktop-create-responsive-visuals.md
-        - name: Power BI Desktop'taki satır içi hiyerarşi etiketlerini kullanma (Önizleme)
+        - name: Power BI Desktop'taki (Önizleme) satır içi hiyerarşi etiketlerini kullanma
           href: desktop-inline-hierarchy-labels.md
         - name: Sayısal aralık dilimleyiciyi kullanma
           href: desktop-slicer-numeric-range.md
