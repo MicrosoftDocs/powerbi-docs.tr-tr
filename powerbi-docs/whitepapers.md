@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -41,5 +41,6 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Security (Güvenlik)](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. |
 | [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Bu makalede, tablolu BI anlam modeline ve Power BI'a yönelik güvenlik modeli tanıtılmaktadır. Rol oluşturmayı, dinamik güvenlik uygulamayı, kimliğe bürünme ayarlarını yapılandırmayı, rolleri yönetmeyi ve ağınızın güvenlik bağlamında çalışan modellere bağlanma yöntemi seçmeyi öğreneceksiniz. |
 | [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. |
-|[Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment) | Power BI Premium planlama, dağıtma ve işletme hakkındaki en iyi yöntemler ve rehberlik konusunda teknik inceleme. 
+| [Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.|
+
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

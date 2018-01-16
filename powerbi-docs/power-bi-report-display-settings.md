@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunun bilincindeyiz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğinizden bu, zaman zaman güç olabilir. 
@@ -45,7 +45,7 @@ Power BI hizmetinde bir rapor açın ve sol üst menü çubuğundan **Görünüm
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Sayfa Görünümü ayarları hem [Okuma Görünümü](service-interact-with-a-report-in-reading-view.md)'nde hem de [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde kullanılabilir. Düzenleme Görünümü'nde, rapor sahibi her bir rapor sayfasına birer sayfa görünümü ayarı atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler.  İş arkadaşlarınız Okuma görünümü'nde Sayfa görünümü ayarlarının *bazılarını* değiştirebilir ancak bu değişiklikler raporu kapattıklarında kaydedilmez.
+Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde kullanılabilir. Düzenleme Görünümü'nde, rapor sahibi her bir rapor sayfasına birer sayfa görünümü ayarı atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler.  İş arkadaşlarınız Okuma görünümü'nde Sayfa görünümü ayarlarının *bazılarını* değiştirebilir ancak bu değişiklikler raporu kapattıklarında kaydedilmez.
 
 ##    <a name="page-view-settings"></a>Sayfa görünümü ayarları
 *Sayfa görünümü* ayarlarının ilk bölümü, rapor sayfanızın tarayıcı penceresiyle görüntülenme biçimini denetler.  Şunlardan birini seçin:

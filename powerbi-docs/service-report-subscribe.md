@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Bir Power BI raporuna veya panosuna abone olma
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. E-posta ve anlık görüntü için Power BI'ın Ayarlar bölümünde belirlenen dil kullanılır. Dil tanımlanmamışsa Power BI, geçerli tarayıcının dilini kullanır.
@@ -65,7 +65,7 @@ Abonelik **oluşturma** bir Power BI Pro özelliğidir ve içerik (pano veya rap
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Bir rapor sayfasına abone olma
-1. Raporu [Okuma görünümü](service-report-open-in-reading-view.md)'nde açın.
+1. Raporu [Okuma görünümü](service-reading-view-and-editing-view.md)'nde açın.
 2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Pro lisansının süresi dolarsa abonelik sona erer; pano veya rapor, sahibi tar
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * İçerik paketlerinden veya Power BI uygulamalarından gelen raporlar için abone olma seçeneği şu anda kullanılamaz. Ancak geçici bir çözüm kullanılabilir: Raporun/panonun kopyasını oluşturun ve abonelikleri söz konusu sürüme ekleyin.
+* Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir
 * E-posta abonelikleri ve canlı bağlantı veri kümeleri için yalnızca veri değişikliği olduğunda e-posta alırsınız. Bu nedenle, bir yenileme gerçekleşir ancak veri değişikliği olmazsa Power BI size e-posta göndermez.
 * E-posta abonelikleri çoğu [özel görseli](power-bi-custom-visuals.md) desteklemez.  Bu konudaki tek istisna, [sertifikalı](power-bi-custom-visuals-certified.md) özel görsellerdir.  
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olmadan önce varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.    

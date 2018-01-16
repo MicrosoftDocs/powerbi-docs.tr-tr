@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 5fcfd09e74f661a1cc5ab8fcda6cf4cd0525437a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 ## <a name="show-data"></a>Verileri Göster
@@ -35,7 +35,7 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 > 
 
 ## <a name="using-show-data-in-power-bi-service"></a>Power BI hizmetinde *Verileri Göster* işlevini kullanma
-1. Power BI hizmetinde bir raporu [Okuma Görünümü](service-report-open-in-reading-view.md) veya [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde açın ve bir görsel seçin.  Power BI Desktop'ta Rapor görünümünü açın.
+1. Power BI hizmetinde bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın ve bir görsel seçin.  Power BI Desktop'ta Rapor görünümünü açın.
 2. Görselde kullanılan verileri görüntülemek için **Araştır** > **Verileri göster**'i seçin.
    
    ![](media/service-reports-show-data/power-bi-show-data.png)

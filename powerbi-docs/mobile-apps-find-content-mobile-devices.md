@@ -1,6 +1,6 @@
 ---
 title: "Power BI mobil uygulamalarında panoları, raporları ve uygulamaları bulma"
-description: "Kaynaklarına bağlı olarak Power BI mobil uygulamalarında panolarınızı ve raporlarınızı nasıl bulacağınızı öğrenin."
+description: "Kaynaklarına bağlı olarak Power BI mobil uygulamalarında panolarınızı, raporlarınızı ve uygulamalarınızı nasıl bulacağınızı öğrenin."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 Aşağıdakiler için geçerlidir:
@@ -49,7 +49,7 @@ Bir veya daha fazla şirket içi Power BI Rapor Sunucusu ya da SQL Server Report
 ## <a name="3-apps"></a>3 Uygulamalar
 Uygulamalar, veri temelli kararlar almayı daha da hızlı ve kolay hale getirmeye yönelik ana ölçümler sunmak için kuruluşunuz tarafından oluşturulan panolardan ve raporlardan oluşan koleksiyonlardır. Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Yüklediğiniz uygulamaları tüm cihazlarda görüntüleyebilirsiniz. 
 
-![Yeni Power BI gezinti menüsü](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Yeni Power BI gezinti menüsü](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Uygulamalar sayesinde yazarların yaptığı tüm güncelleştirmeleri otomatik olarak alırsınız. Veri yenileme sıklığı da yazar tarafından belirlenir. Yazarın yaptığı değişiklikleri takip etme konusunda endişelenmeniz gerekmez.
 

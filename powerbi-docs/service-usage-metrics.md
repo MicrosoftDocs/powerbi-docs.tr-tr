@@ -1,6 +1,6 @@
 ---
 title: "Panolar ve raporlar için kullanım ölçümleri"
-description: "Power BI panoları ve raporları için kullanım ölçümlerini görüntülemeye ilişkin belge. İçerik oluşturuculara yönelik kullanım ölçümleriyle etkinizi ölçün ve artırın."
+description: "Power BI panoları ve raporları için kullanım ölçümlerini görüntülemeye ilişkin belge. İçerik oluşturucularına yönelik kullanım ölçümleriyle etkinizi ölçün ve artırın."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Panolar ve raporlar için kullanım ölçümleri
 Kullanım ölçümleri, oluşturduğunuz panoların ve raporların etkilerini anlamanıza yardımcı olabilir. Pano kullanım ölçümü veya rapor kullanım ölçümü çalıştırdığınızda kullanılan öğeler, kullanıcılar ve kullanım amaçları dahil olmak üzere ilgili pano ve raporların kuruluşunuzda nasıl kullanıldığını görebilirsiniz.  
 
 > [!NOTE]
-> Kullanım ölçümleri, panoları ve raporları başka sayfalara eklediğinizde kullanımı takip eder ancak [web'de yayımladığınızda](service-publish-to-web.md) etmez
+> SharePoint Online'a eklenmiş raporların kullanımı, kullanım ölçümleriyle izlenir. Kullanım ölçümleri, panolara ve raporlara ilişkin olarak hem "kimlik bilgilerinin kullanıcıya ait olduğu" hem de "kimlik bilgilerinin uygulamaya ait olduğu" akışlar aracılığıyla gerçekleştirilen ekleme işlemlerini de izler. [Web'de yayımla](service-publish-to-web.md) aracılığıyla eklenen raporların kullanımı, kullanım ölçümleriyle izlenmez.
 > 
 > 
 

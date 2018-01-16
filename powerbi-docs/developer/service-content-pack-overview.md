@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI hizmeti içerik paketi programına genel bakış
 İçerik paketleri, kullanıcıların bir kaynaktan hemen öngörü edinmesine olanak sağlayan bir hazır içerik dizisidir. İçerik paketleri genellikle belirli bir iş senaryosuna odaklanarak bir rol, etki alanı veya iş akışına yönelik öngörüler sağlar.
@@ -49,6 +49,7 @@ Bir içerik paketi oluşturmak ve paketi Power BI hizmetinde ve AppSource'ta yay
 * İşletme kullanıcıları tarafından kullanılan bir SaaS uygulamanız olmalıdır.
 * SaaS uygulamanız, Power BI'da görselleştirilebilen kullanıcı verileri içermelidir.
 * SaaS uygulamanız, genel İnternet üzerinden erişilebilen bir API'ye sahip olmalıdır. İdeal olarak API, API veya bir OData akışı temelli bir REST'tir. Power BI içerik paketleri; Temel Kimlik Doğrulaması, OAuth 2.0 ve API Anahtarı gibi birden çok kimlik doğrulaması türünü destekler. 
+* SaaS uygulamanızın içerik paketi yayımlamak için onaylanmış olması gerekir. İsteklerinizi pbiservicesapps@microsoft.com adresine gönderin. Her bir gönderi uygunluğa ve kullanım beklentisine göre değerlendirilmektedir. 
 * İş ortağı sözleşmesi imzalanmalıdır. Bu, paketi [gönderme adımında](template-content-pack-testing.md#submission) yapılır.
 
 Teknik gereksinimler hakkında daha fazla ayrıntı için lütfen [yazma](template-content-pack-authoring.md) bölümünü inceleyin.

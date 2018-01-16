@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Power BI'daki görselleştirmelerde detaya gitme
 ## <a name="drill-down-requires-a-hierarchy"></a>Detaya gitme bir hiyerarşi gerektirir
@@ -54,7 +54,7 @@ Görselleştirmenizde detaya gitmenin (ve detaydan çıkmanın) iki farklı yolu
 ## <a name="method-1-for-drill-down"></a>Detaya gitmenin 1. yöntemi
 Bu yöntemde görselleştirmenin üst köşelerinde görünen detay simgeleri kullanılır.
 
-1. Power BI'da bir raporu [Okuma Görünümü](service-report-open-in-reading-view.md) veya [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
+1. Power BI'da bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
    
    Aşağıdaki animasyonda bir hiyerarşi gösterilmektedir.  Görselleştirmede bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu vb. bulunur. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
    
@@ -75,7 +75,7 @@ Bu yöntemde görselleştirmenin üst köşelerinde görünen detay simgeleri ku
 ## <a name="method-2-for-drill-down"></a>Detaya gitmenin 2. yöntemi
 Bu yöntemde üst kısımdaki Power BI menü çubuğundaki **Araştır** açılır menüsü kullanılır.
 
-1. Power BI'da bir raporu [Okuma Görünümü](service-report-open-in-reading-view.md) veya [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
+1. Power BI'da bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
    
    Aşağıdaki görüntüde bir hiyerarşi gösterilmektedir.  Görselleştirmede bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu vb. bulunur. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
    

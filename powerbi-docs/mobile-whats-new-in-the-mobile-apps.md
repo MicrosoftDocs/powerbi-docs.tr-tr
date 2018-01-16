@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -30,24 +30,50 @@ ms.lasthandoff: 11/13/2017
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
 
-## <a name="september-2017"></a>Eylül 2017
-### <a name="filters-for-phone-reports-in-iphones"></a>iPhone cihazlarındaki telefon raporlarına yönelik filtreler
+## <a name="december-2017"></a>Aralık 2017
+### <a name="improved-permission-management"></a>Geliştirilmiş izin yönetimi
+
+Veri kümeleri, panolar ve raporlar için kullanıcı izinlerine yönelik daha kapsamlı yönetime olanak sağlamak üzere bazı değişiklikler yaptık.
+
+### <a name="auto-installed-apps"></a>Otomatik olarak yüklenen uygulamalar
+
+Power BI'daki bazı uygulamaları herhangi bir şekilde yüklemeniz gerekmez. Kuruluşunuzdaki uygulama oluşturucuları, bir dizi pano ve rapor içeren *uygulamalar* oluşturabilir. Ardından, uygulamayı yayımlayabilir ve Power BI hizmeti ile Power BI mobil uygulamalarında otomatik olarak yüklenecek şekilde ayarlayabilirler. Siz herhangi bir işlem yapmadan yüklenecek şekilde ayarlanan uygulamalar otomatik olarak **Uygulamalar** menünüzde görünür:
+
+![Power BI mobil uygulamasındaki uygulamalar](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>Kasım 2017
+### <a name="iphone-x-optimization"></a>iPhone X için en iyi duruma getirme
+
+Uygulama düzenini iPhone X için en iyi duruma getirdik. Böylece, verilerinizi her cihazda güzelce araştırabilirsiniz.
+
+## <a name="october-2017"></a>Ekim 2017
+### <a name="filters-for-phone-reports-in-android"></a>Android cihazlardaki telefon raporlarına yönelik filtreler
+
+Power BI Desktop'ta telefonlar için en iyi duruma getirilmiş sayfalar içeren bir rapor oluşturursanız ve raporda filtreler varsa artık bu filtreleri Android cihazınızdaki telefon raporunda da uygulayabilirsiniz. Android cihazlardaki Power BI raporlarına yönelik filtreler hakkında daha fazla bilgi edinin.
+
+### <a name="show-data-in-reports"></a>Raporlarda bulunan Verileri göster seçeneği
+
+Artık, verilerinizin temel aldığı sayıları görmek için raporlarınızdaki görselleri tablo görünümüne geçirebilirsiniz. Bu özelliğe erişmek için raporunuzdaki görselin ... menüsündeki "Verileri göster" seçeneğine veya genişletilmiş görsel eylem menüsündeki yeni simgeye dokunun.
+
+## <a name="previous-months"></a>Önceki aylar
+
+### <a name="september-2017"></a>Eylül 2017
+#### <a name="filters-for-phone-reports-in-iphones"></a>iPhone cihazlarındaki telefon raporlarına yönelik filtreler
 Power BI Desktop'ta telefonlar için en iyi duruma getirilmiş sayfalarla oluşturduğunuz bir raporda filtreler mevcutsa artık bu filtreleri iPhone'unuzdaki telefon raporunda da uygulayabilirsiniz. [iPhone cihazlarındaki Power BI raporlarına yönelik filtreler](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/) hakkında daha fazla bilgi edinin.
 
-## <a name="august-2017"></a>Ağustos 2017
-### <a name="ios-proxy-settings-support"></a>iOS ara sunucu ayarları desteği
+### <a name="august-2017"></a>Ağustos 2017
+#### <a name="ios-proxy-settings-support"></a>iOS ara sunucu ayarları desteği
 Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz. Bu, Power BI'ın mobil cihazınızda artık VPN bağlantıları ile çalışabileceği ve çok daha fazla sayıda kullanıcı ve kuruluşun, hareket halindeyken Power BI'ın gücünden güvenli bir şekilde yararlanabileceği anlamına gelir.
 
-## <a name="july-2017"></a>Temmuz 2017
+### <a name="july-2017"></a>Temmuz 2017
 [Temmuz 2017 güncelleştirmesi ile kullanıma sunulan mobil uygulama özelliklerine ilişkin özete](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview) göz atın
 
-### <a name="ios-devices"></a>iOS cihazları
+#### <a name="ios-devices"></a>iOS cihazları
 **iOS'te yeni Soru-Cevap deneyimi (Önizleme)** Yalnızca sorunuza cevap almak yerine artık doğal dili kullanarak kapsamlı öngörüler elde edebilirsiniz. Ne aradığınızdan emin olmadığınız durumlarda bile Soru-Cevap, verilerinize ilişkin öngörüleri etkin bir şekilde ortaya koyar. Microsoft Research ekibi ile iş birliği halinde geliştirilen, mobil cihazlardaki yeni Soru-Cevap deneyimi ürünümüzün sahip olduğu güçlü teknolojileri sergiliyor. Deneme sürümünü edinin, [iOS mobil uygulamalarında verileriniz hakkında soru sorun](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Esnek görseller
 **Telefon raporları ve panoları için esnek görseller** Pano veya raporunuzdaki görsellerin *esnek* hale gelip ekran boyutu ne olursa olsun maksimum sayıda veri ve öngörü görüntüleyecek şekilde dinamik olarak değişmesini sağlayabilirsiniz. [Esnek görsellerle ilgili bloga](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals) göz atın.
 
-## <a name="previous-months"></a>Önceki aylar
 ### <a name="june-2107"></a>Haziran 2107
 #### <a name="all-devices"></a>Tüm cihazlar
 **Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](service-install-use-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 

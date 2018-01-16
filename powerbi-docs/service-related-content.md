@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
 **İlişkili içerik** bölmesi, Power BI hizmet içeriğinizin (panolar, raporlar ve veri kümeleri) birbirine nasıl bağlı olduğunu gösterir.  Ayrıca, bu bölmeden yenileme, yeniden adlandırma, öngörü oluşturma gibi ortak görevleri ve çok daha fazlasını yapabilirsiniz. Bir ilgili rapor veya pano seçin, ardından seçiminiz Power BI çalışma alanınızda açılır.   
@@ -74,7 +74,7 @@ Bir çalışma alanında **Raporlar** sekmesini ve ardından **İlişkilileri g�
 <br>
 **2. Yöntem**
 
-Raporu [Okuma görünümü](service-interact-with-a-report-in-reading-view.md)'nde açın ve üst menü çubuğundan   ![](media/service-related-content/power-bi-view-related-new.png) seçeneğini belirleyin.
+Raporu [Okuma görünümü](service-reading-view-and-editing-view.md)'nde açın ve üst menü çubuğundan   ![](media/service-related-content/power-bi-view-related-new.png) seçeneğini belirleyin.
 
 **İlişkili içerik** bölmesi açılır. İlişkili veri kümesini ve en az bir kutucuğu rapordan sabitlenmiş olan tüm panoları gösterir. Bu raporda, 2 farklı panoya sabitlenmiş görselleştirmeler bulunur.
 
@@ -97,7 +97,7 @@ Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz.  Örneğin, 
 
 ## <a name="limitations-and-troubleshooting"></a>Sınırlamalar ve sorun giderme
 * Tarayıcınız yeterli alana sahip değilse **İlişkilileri görüntüle** işlemi için bir seçenek göremezsiniz ancak İlişkilileri görüntüle simgesini  ![](media/service-related-content/power-bi-view-related-icon-new.png)  yine de görürsünüz. **İlişkili içerik** bölmesini açmak için simgeyi seçin.
-* Bir raporun İlişkili içeriğini görmek için [Okuma görünümü](service-interact-with-a-report-in-reading-view.md)'nde olmanız gerekir.
+* Bir raporun İlişkili içeriğini görmek için [Okuma görünümü](service-reading-view-and-editing-view.md)'nde olmanız gerekir.
 * İlişkili içerik Power BI Desktop'ta kullanılamaz.
 * İlişkili içerik özelliği, akış veri kümeleri için çalışmaz.
 

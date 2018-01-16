@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
 Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde *kullanan* bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](power-bi-visualization-arcgis.md) başvurabilirsiniz.
@@ -62,7 +62,7 @@ ArcGIS Maps for Power BI üç seçim modu sunar. Aynı anda en fazla 250 veri no
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Bir ArcGIS haritasıyla etkileşim kurma
-Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluşturan kişi) ya da *kullanıcısı* (ArcGIS haritası sizinle paylaşıldığında) olmanıza göre farklılık gösterebilir. Bir ArcGIS haritası ile kullanıcı olarak etkileşim kuruyorsanız (bir başka deyişle [Okuma görünümü](service-interact-with-a-report-in-reading-view.md)) kullanabileceğiniz eylemler şu şekilde sıralanabilir.
+Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluşturan kişi) ya da *kullanıcısı* (ArcGIS haritası sizinle paylaşıldığında) olmanıza göre farklılık gösterebilir. Bir ArcGIS haritası ile kullanıcı olarak etkileşim kuruyorsanız (bir başka deyişle [Okuma görünümü](service-reading-view-and-editing-view.md)) aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
 * Diğer görselleştirme türleri için geçerli olduğu üzere [panoya sabitle](service-dashboard-pin-tile-from-report.md), [görüntüle](service-reports-show-data.md) ve/veya [temel alınan verileri dışarı aktar](power-bi-visualization-export-data.md) özelliklerinden faydalanabilir ve haritayı [Odak modu](service-focus-mode.md) ve [Tam ekran](service-fullscreen-mode.md) modunda görüntüleyebilirsiniz.    
 * Filtre kullanarak haritada gezmek için **Filtreler** bölmesini genişletin. Raporu kapattığınızda, uygulamış olduğunuz filtreler kaydedilmez.    
@@ -107,7 +107,7 @@ ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabil
 <td>Evet</td>
 </tr>
 <tr>
-<td>Power BI web'de yayımla</td>
+<td>Power BI - web'de yayımlama</td>
 <td>Hayır</td>
 </tr>
 <tr>
@@ -115,7 +115,7 @@ ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabil
 <td>Hayır</td>
 </tr>
 <tr>
-<td>Power BI hizmeti ekleme (PowerBI.com)</td>
+<td>Power BI hizmeti - ekleme (PowerBI.com)</td>
 <td>Hayır</td>
 </tr>
 </table>
@@ -124,11 +124,11 @@ ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabil
 ArcGIS Maps for Power BI'ın kullanılamadığı hizmet veya uygulamalarda görselleştirme, Power BI logosuyla boş bir görsel gösterir.
 
 **Tüm adreslerimi haritada göremiyorum**    
-Posta adreslerinin coğrafi kodlaması yapılırken yalnızca ilk 1500 adresin coğrafi kodlaması yapılır. 1500'lük adres sınırı, yer adları veya ülkelerin coğrafi kodlaması için geçerli değildir.
+Posta adreslerinin coğrafi kodlaması yapılırken yalnızca ilk 1500 adresin coğrafi kodlaması yapılır. Yer adlarına veya ülkelere yönelik coğrafi kodlama, 1500 adres sınırına tabi değildir.
 
-**ArcGIS Maps for Power BI kullanmanın herhangi bir ücreti var mı?**
+**ArcGIS Maps for Power BI kullanımı için herhangi bir ücret ödenir mi?**
 
-ArcGIS Maps for Power BI, hiçbir ek ücret ödemeden tüm Power BI kullanıcıları tarafından kullanılabilir. **Esri** tarafından sağlanan bir bileşendir ve bu makalede daha önce belirtildiği üzere, kullanımınız **Esri** tarafından sağlanan koşullar ve gizlilik ilkesine tabidir.
+Tüm Power BI kullanıcıları, ArcGIS Maps for Power BI'ı hiçbir ek ücret ödemeden kullanılabilir. **Esri** tarafından sağlanan bir bileşendir ve bu makalede daha önce belirtildiği üzere, kullanımınız **Esri** tarafından sağlanan koşullar ve gizlilik ilkesine tabidir.
 
 **Önbelleğimin dolu olduğu hakkında bir hata iletisi alıyorum**
 

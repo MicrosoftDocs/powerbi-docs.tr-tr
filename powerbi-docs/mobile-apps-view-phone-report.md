@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
-Power BI Desktop'ta bir Power BI raporu oluşturduğunuzda [raporun telefondaki bir Power BI uygulamasında görüntülenmek üzere en iyi duruma getirilmiş](desktop-create-phone-report.md) sürümünü de oluşturabilirsiniz.
+
+Aşağıdakiler cihazlar için geçerlidir:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Android telefon](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhone'lar |Android telefonlar |
+
+Power BI Desktop'ta bir Power BI raporu oluştururken, [söz konusu raporun telefonlardaki Power BI uygulamasında görüntülenmesi için en iyi duruma getirilmiş bir sürümünü de](desktop-create-phone-report.md) oluşturabilirsiniz.
 
 Daha sonra telefonda bir Power BI raporunu açtığınızda Power BI raporun telefonlar için en iyi duruma getirilmiş olup olmadığını algılar ve otomatik olarak en iyi duruma getirilmiş raporu dikey görünümde açar.
 

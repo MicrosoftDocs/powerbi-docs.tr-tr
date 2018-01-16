@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Söz konusu bölmeyle Power BI raporları için Düzenleme Görünümü ve Okuma Görünümü'nde karşılaşırsınız.
@@ -29,7 +29,7 @@ Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış
 Power BI'da verileri filtrelemenin birçok yolu vardır ancak öncelikle [Filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md) başlıklı makaleyi okumanızı öneririz.
 
 ## <a name="working-with-filters"></a>Filtrelerle çalışma
-Raporlar [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md) veya [Okuma Görünümü](service-interact-with-a-report-in-reading-view.md)'nde açılabilir. Düzenleme Görünümü'nde, rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma Görünümü'nde görüntüleyen kullanıcılar filtrelerle etkileşime geçebilir ancak filtrelere ilişkin değişiklikleri rapora kaydedemez.
+Raporlar [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme Görünümü'nde, rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümü'nde görüntüleyen kullanıcılar filtrelerle etkileşime geçebilir ancak filtre değişikliklerini rapora kaydedemez.
 
 ## <a name="filters-in-reading-view"></a>Okuma Görünümü'nde filtreler
 Bir rapor Okuma Görünümü'nde açıldığında Filtreler bölümü, rapor tuvalinin sağ tarafında görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
@@ -122,7 +122,7 @@ Alan değerleri tarih veya saat temsil ediyorsa Tarih/Saat filtrelerini kullanı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlarda filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)  
-[Okuma Görünümü'nde filtreler ve vurgulama ile etkileşim kurma](service-interact-with-a-report-in-reading-view.md)  
+[Okuma Görünümü'nde filtreler ve vurgulama ile etkileşim kurma](service-reading-view-and-editing-view.md)  
 [Rapor Düzenleme Görünümü'nde filtre oluşturma](power-bi-report-add-filter.md)  
 [Rapor görsellerinin birbirini çapraz filtreleme ve çapraz vurgulama şeklini değiştirme](service-reports-visual-interactions.md)
 

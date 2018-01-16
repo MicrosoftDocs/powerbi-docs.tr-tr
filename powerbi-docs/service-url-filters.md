@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 Power BI hizmetinde bir raporu açtığınızda, rapordaki her sayfanın kendine ait bir URL'si bulunur. Bu rapor sayfasının filtrelemek için rapor tuvalindeki Filtreler bölmesini kullanabilirsiniz.  Alternatif olarak URL'ye sorgu dizesi parametreleri ekleyerek raporu filtreleyebilirsiniz. İş arkadaşlarınıza göstermek istediğiniz bir raporunuz olabilir ve bu raporu onlar için önceden filtrelemek isteyebilirsiniz. Bunu yapmanın bir yolu raporun varsayılan URL'si ile başlamak, filtre parametrelerini URL'ye eklemek ve ardından iş arkadaşlarınıza URL'nin tamamını e-posta ile göndermektir.
@@ -41,7 +41,7 @@ URL?filter=***Tablo***/***Alan*** eq '***değer***'
 * **Tablo** ve **Alan** adları büyük/küçük harfe duyarlıdır, **değer** ise değildir.
 * Rapor görünümünden gizlenen alanlar yine de filtrelenebilir.
 * **Değer** tek tırnak içinde olmalıdır.
-* Alan türünün dize olması gerekir.
+* Alan türünün bir sayı veya dize olması gerekir
 * Tablo ve alan adlarında boşluk olamaz.
 
 Yine de karmaşık geliyorsa ayrıntıları görmek için okumaya devam edin.  
@@ -108,7 +108,7 @@ Panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görm
 Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar vardır.
 
 * Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) seçeneği veya Power BI Embedded ile kullanılamaz.   
-* Alan türünün dize olması gerekir.
+* Alan türünün sayı veya dize olması gerekir.
 * Tablo ve alan adlarında boşluk olamaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
