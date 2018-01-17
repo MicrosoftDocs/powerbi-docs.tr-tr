@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/12/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: ae87b79298308f362c327be3c753a5f46d3393f4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 21cdf0492f4466ea337abb32b74ae0250dc0353d
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında desteklenen diller
 Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: 0e0ad501ed809fc1f7cd8cc66d7f5d13badf7d15
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, Microsoft Flow, Logic Apps ve PowerApps hizmetleri arasında hızlı ve güvenli veri aktarımı sağlar.
@@ -37,13 +37,13 @@ Tek bir ağ geçidini aynı anda farklı hizmetlerle kullanabilirsiniz. Power BI
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services canlı bağlantılarına ilişkin sınırlamalar
-Tablolu veya çok boyutlu örnekler için bir canlı bağlantı kullanabilirsiniz.
+Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
 
 | **Sunucu sürümü** | **Gerekli SKU** |
 | --- | --- |
-| 2012 SP1 CU4 veya sonraki sürümleri |İş Zekası ve Enterprise SKU'su |
+| 2012 SP1 CU4 veya sonraki sürümler |İş Zekası ve Enterprise SKU'su |
 | 2014 |İş Zekası ve Enterprise SKU'su |
-| 2016 |Standart SKU veya üzeri |
+| 2016 |Standart SKU veya sonraki sürümler |
 
 * Hücre düzeyinde Biçimlendirme ve çeviri özellikleri desteklenmez.
 * Eylemler ve Adlandırılmış Kümeler Power BI için açık değildir ancak Eylemleri ve Adlandırılmış kümeleri de içeren çok boyutlu küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.

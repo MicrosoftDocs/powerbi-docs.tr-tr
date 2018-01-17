@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -141,7 +141,7 @@ Uygulama listesi sayfanızdan sildiğiniz uygulamalar diğer üyeler için silin
 Bu makalede Power BI hizmetinin başlıca yapı taşlarını silme yöntemleri ele alınmıştır. Ancak Power BI'da silebileceğiniz başka öğeler de vardır.  
 
 * [Öne Çıkan panonuzu kaldırma](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Bir panoyu kaldırma (sık kullanılanlardan çıkarma)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Bir panoyu kaldırma (sık kullanılanlardan çıkarma)](service-dashboard-favorite.md)
 * [Bir rapor sayfasını silme](service-delete.md)
 * [Bir pano kutucuğunu silme](service-dashboard-edit-tile.md)
 * [Bir rapor görselleştirmesini silme](service-delete.md)
