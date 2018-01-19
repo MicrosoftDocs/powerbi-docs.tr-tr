@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.
 
-**Şekil Haritası** görselleri, ESRI/TopoJSON haritalarını temel alır. Bu haritaların etkileyici özelliği, kendi oluşturabildiğiniz; coğrafi harita, oturma düzeni ve kat planı gibi özel haritaları kullanabilmenize olanak sağlamasıdır. Özel haritaları kullanabilme özelliği, **Şekil Haritası**'nın bu Önizleme sürümünde sunulmamaktadır, ancak özellik genel kullanıma sunulduğunda özel haritalar etkinleştirilecektir. Bunun bir sonraki Power BI Desktop aylık güncelleştirmesinde gerçekleştirilmesi planlanmaktadır.
+**Şekil Haritası** görselleri, ESRI/TopoJSON haritalarını temel alır. Bu haritaların etkileyici özelliği, kendi oluşturabildiğiniz; coğrafi harita, oturma düzeni ve kat planı gibi özel haritaları kullanabilmenize olanak sağlamasıdır. **Şekli Eşlemesi**’nin bu Önizleme sürümünde özel haritalar kullanılamaz.
 
 ## <a name="creating-shape-maps"></a>Şekil Haritası Oluşturma
 **Şekil Haritası** denetimini, bu Önizleme sürümüyle birlikte sunulan haritalarla test edebilir veya aşağıdaki **Özel Harita Kullanma** adlı bölümde açıklanmış gereksinimleri karşılaması koşuluyla kendi özel haritanızı kullanabilirsiniz.
@@ -95,8 +95,9 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 **Şekil Haritası**'nın bu Önizleme sürümü için akılda bulundurulması gereken bazı önemli noktalar ve gereksinimler vardır:
 
 * **Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**'nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**'ni seçin ve ardından **Şekil Haritası** onay kutusunu işaretleyin.
-* Şu anda **Açıklama** sınıflandırmasının düzgün bir şekilde çalışabilmesi için **Değerler** demetini de ayarlamanız gerekir. Bu davranışı **Şekil Haritası**'nın son sürümünde iyileştirmeyi planlıyoruz.
-* **Şekil Haritası**'nın yayın sürümünde, seçili durumdaki haritaya ilişkin harita anahtarlarını gösteren bir kullanıcı arabirimi bulunacaktır. Söz konusu Önizleme sürümünde, bu makalenin **Bölge Anahtarları** bölümünde yer alan bölge anahtarlarına başvurabilirsiniz.
+* Şu anda **Açıklama** sınıflandırmasının düzgün bir şekilde çalışabilmesi için **Değerler** demetini de ayarlamanız gerekir
+* **Şekil Eşlemesi**'nin son yayın sürümünde, seçili durumdaki eşlemeye ilişkin eşleme anahtarlarını gösteren bir kullanıcı arabirimi bulunacaktır (Son yayın için belirlenmiş bir tarih yoktur ve **Şekil Eşlemesi** hala Önizleme sürümündedir). Bu Önizleme sürümünde, bu makalenin **Bölge Anahtarları** bölümündeki tablolarda yer alan bölge anahtarlarına başvurabilirsiniz.
+* **Şekil Eşlemesi** görseli en fazla 1.000 veri noktasına kadar çizim yapar.
 
 ## <a name="region-keys"></a>Bölge anahtarları
 Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki **Bölge Anahtarları**'nı kullanın.

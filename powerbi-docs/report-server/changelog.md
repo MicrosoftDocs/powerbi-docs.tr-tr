@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -32,6 +32,13 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 ## <a name="october-2017"></a>Ekim 2017
 
 - **Power BI Rapor Sunucusu**
+    - *Sürüm 1.1.6582.41691 (Derleme 14.0.600.442), Yayın Tarihi: 10 Ocak 2018*
+        - Güvenlik Güncelleştirmeleri
+        - Hata Düzeltmeleri
+            - 400 döndüren Model.GetParameters için düzeltme
+            - Paylaşılan veri kümesini var olan Sayfalandırılmış Raporlara (RDL) ayarlama için düzeltme
+            - Raporu farklı parametre değerleri ile PDF'e aktarırken ExecutionNotFoundException hatası için düzeltme
+
     - *Sürüm: 1.1.6551.5155 (Derleme: 14.0.600.438), Yayımlanma Tarihi: 11 Aralık 2017*
         - Hata Düzeltmeleri
             - Belirli Power BI Desktop raporlarında yenilemeden sonra verilerin yenilenememesi.
@@ -61,6 +68,9 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - Erişilebilirlik geliştirmeleri
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.51.4885.2501 (Ekim 2017), Yayın Tarihi: 10 Ocak 2018*
+        - Güvenlik Güncelleştirmeleri
+
     - *Sürüm: 2.51.4885.1423 (Ekim 2017), Yayımlanma Tarihi: 17 Kasım 2017*
         - Hata Düzeltmeleri
             - x86 işletim sistemlerinde çalıştırılamayan 32 bit Power BI Desktop'a yönelik düzeltme
@@ -74,6 +84,9 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 ## <a name="june-2017"></a>Haziran 2017
 
 - **Power BI Rapor Sunucusu**
+    - *Derleme 14.0.600.309, Yayın Tarihi: 10 Ocak 2018*
+        - Güvenlik Güncelleştirmeleri
+
     - *Derleme: 14.0.600.305, Yayımlanma Tarihi: 19 Eylül 2017*  
         - Hata Düzeltmeleri
             - En son [Bing Haritalar Web Denetimi](https://msdn.microsoft.com/library/mt712542.aspx) sürümüne yönelik güncelleştirme
@@ -88,11 +101,15 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
     - *Derleme: 14.0.600.271, Yayımlanma Tarihi: 12 Haziran 2017*
         - Power BI Rapor Sunucusu ilk sürümü
 
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.47.4766.4901 (Haziran 2017), Yayın Tarihi: 10 Ocak 2018*
+        - Güvenlik Güncelleştirmeleri
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Kullanıcı el kitabı](user-handbook-overview.md)  
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Quickstart: Install Power BI Report Server (Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme)](quickstart-install-report-server.md)  
+[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına SSO (çoklu oturum açma) ile bağlanmak için Kerberos'u kullanma
 Şirket içi veri ağ geçidinizi Kerberos ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi, çoklu oturum açma (SSO) bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery'den yararlanarak kurar.
@@ -63,11 +63,15 @@ Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
 
 
 > [!NOTE]
-> SAP HANA için SSO'yu etkinleştirmek üzere, SAP'ye HANA'ya özgü şu iki yapılandırma düzeltmesini uygulamanız gerekir:
->    1. SAP HANA sunucusunu SAP'nin Ekim 2017 sonunda sunduğu HANA Patch 122.13 ile yükseltin. 
+> SAP HANA için SSO'yu etkinleştirmek üzere, SAP için HANA'ya özgü şu yapılandırmaların karşılandığından emin olmanız gerekir:
+>    1. SAP HANA sunucusunun 2.00.022* veya daha yüksek/sonraki sürümü çalıştırdığından emin olun. 
 >    2. Ağ geçidi makinesine SAP'nin en son HANA ODBC sürücüsünü yükleyin.  Yükleyebileceğiniz minimum sürüm Ağustos 2017'de kullanıma sunulan HANA ODBC 2.00.020.00 sürümüdür.
+>
+> SAP yama ve yükseltmelerinin aşağıdaki bağlantıları yararlı olabilir. SAP Destek hesabınızı kullanarak aşağıdaki kaynaklarda oturum açmanızın gerektiğini ve SAP’nin bu bağlantıları değiştirebileceğini veya güncelleştirebileceğini unutmayın.
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Yetersiz bir Kerberos yapılandırmasından kaynaklanan hatalar

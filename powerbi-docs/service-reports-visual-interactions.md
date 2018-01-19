@@ -1,6 +1,6 @@
 ---
 title: "Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme"
-description: "Microsoft Power BI raporlarında Görsel etkileşimler oluşturmaya ilişkin belgeler."
+description: "Microsoft Power BI hizmeti raporunda ve bir Power BI Desktop raporunda Görsel etkileşimler oluşturmaya ilişkin belgeler."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,20 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 126bd40e98a88138a2732155f9792d65666e52c7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI raporlarındaki görselleştirme etkileşimleri
+Bir rapor için düzenleme izinleriniz varsa, bir rapor sayfasındaki görsellerin birbirlerini nasıl etkileyeceğini değiştirmek için **Görsel etkileşimleri** kullanabilirsiniz. 
+
 Varsayılan olarak, bir rapor sayfasındaki görselleştirmeleri kullanıp sayfadaki diğer görselleştirmeler için çapraz filtreleme ve çapraz vurgulama işlemleri gerçekleştirebilirsiniz.
 Örneğin, bir harita görselleştirmesinde bir eyaleti seçtiğinizde görselleştirme, yalnızca söz konusu eyaletle ilgili verilerin görüntülenmesi için çizgi grafiği filtreler ve sütun grafiğini vurgular.
-Bkz. [Filtreleme ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md).
+Bkz. [Filtreleme ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md). Ayrıca, [ayrıntılara gitmeyi](power-bi-visualization-drill-down.md) destekleyen bir görselleştirmeniz varsa, bir görselleştirmenin ayrıntısına inmek rapor sayfasındaki diğer görselleştirmeleri varsayılan olarak etkilemez. Ancak bu varsayılan davranışların her ikisi de geçersiz kılınabilir ve etkileşimler, görselleştirme temelinde ayarlanabilir.
 
-Bu varsayılan davranışı değiştirmek için **Görsel Etkileşimler** denetimini kullanın. Görsel etkileşimler yalnızca [Düzenleme modunda](service-interact-with-a-report-in-editing-view.md) kullanılabilir. Sizinle bir rapor paylaşıldığında Görsel Etkileşimler'e erişemezsiniz.
+Bu makalede, Power BI hizmeti [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md) ve Power BI Desktop'ta **Görsel etkileşimlerin** nasıl kullanılacağı gösterilmektedir. Sizinle bir rapor paylaşıldığında Görsel etkileşimler ayarlarını değiştiremezsiniz.
 
 > [!NOTE]
 > Görselleştirmeleri filtrelemek ve vurgulamak için **Filtreler**  bölmesini kullandığınızda gerçekleşen davranış ile burada açıklanan davranış arasındaki farkı belirtmek için *çapraz filtreleme* ve *çapraz vurgulama* terimleri kullanılmıştır.  
@@ -39,15 +41,27 @@ Bu varsayılan davranışı değiştirmek için **Görsel Etkileşimler** deneti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N_xYsCbyHPw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 1. Etkin duruma getirmek için bir görselleştirmeyi seçin.  
-2. Üst kısımda bulunan menü çubuğunda **Görsel Etkileşimler**'i seçerek bu denetimi etkinleştirin. Rapor sayfasındaki diğer görselleştirmelerin üzerine geldiğinizde filtre ve vurgu simgelerinin göründüğünü fark edersiniz.
+2. **Görsel Etkileşimler** seçeneklerini görüntüleyin.
+    - Power BI hizmetinde, rapor menü çubuğundan açılır listeyi seçin.
+
+       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+
+    - Masaüstü'nde **Biçim > Etkileşimler**’i seçin.
+
+        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+
+3. Görselleştirme etkileşimi denetimlerini etkinleştirmek için **Etkileşimleri düzenle**’yi seçin. Power BI, rapor sayfasındaki diğer tüm görselleştirmelere çapraz filtreleme ve çapraz vurgulama simgeleri ekler.
    
-    ![](media/service-reports-visual-interactions/pbi-visual-interaction-icon.png)
-3. Seçili görselleştirmenin, diğer görselleştirmeler üzerinde nasıl bir etkisi olması gerektiğini belirleyin.  
+    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+3. Seçili görselleştirmenin, diğer görselleştirmeler üzerinde nasıl bir etkisi olması gerektiğini belirleyin.  Ayrıca, isteğe bağlı olarak, bu işlemi rapor sayfasındaki tüm görselleştirmeler için yineleyebilirsiniz.
    
-   * Diğer görselleştirmeyi çapraz filtrelemesi gerekiyorsa **filtre** simgesini ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png) seçin.
-   * Diğer görselleştirmeyi çapraz vurgulaması gerekiyorsa **vurgu** simgesini ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png) seçin.
+   * Görselleştirmeyi çapraz filtrelemesi gerekiyorsa **filtre** simgesini ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png) seçin.
+   * Görselleştirmeyi çapraz vurgulaması gerekiyorsa **vurgu** simgesini ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png) seçin.
    * Herhangi bir etkisi olmamalıysa **etkisi yok** simgesini ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png) seçin.
-4. İsteğe bağlı olarak, bu işlemi rapor sayfasındaki tüm görselleştirmeler için yineleyin.
+
+4. Ayrıntıya gitme denetimlerini etkinleştirmek için **Diğer görsel delme filtreleri**’ni seçin.  Bundan sonra bir görselleştirmede ayrıntıya indiğinizde (ve çıktığınızda), rapor sayfasındaki diğer görselleştirmeler geçerli ayrıntıya gitme seçiminizi yansıtacak şekilde değişir. 
+
+   ![](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)

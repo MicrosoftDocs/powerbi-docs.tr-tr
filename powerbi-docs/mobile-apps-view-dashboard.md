@@ -1,6 +1,6 @@
 ---
-title: "Power BI mobil uygulamalarında pano görüntüleme"
-description: "Power BI hizmetinde pano oluşturun veya var olan panolara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin."
+title: "Power BI mobil uygulamalarında pano ve raporları görüntüleme"
+description: "Power BI hizmetinde pano ve raporlar oluşturun veya var olanlara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Panolarınızı Power BI mobil uygulamalarında görüntüleme
-Aşağıdakiler için geçerlidir:
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 cihazları](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -35,10 +35,10 @@ Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı port
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Power BI hizmetinde (https://powerbi.com) pano oluşturma
 **Panolar mobil uygulamalarda oluşturulmaz.** 
 
-Panoları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
+Panoları ve raporları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
 
 1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesap açın](service-self-service-signup-for-power-bi.md).
-2. [Kendi Power BI panolarınızı oluşturun](service-dashboard-create.md) veya var olan [farklı hizmetlere ait içerik paketlerine](service-connect-to-services.md) bağlanın.
+2. [Kendi Power BI pano ve raporunuzu oluşturun](service-get-started.md) veya [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) ve [Adobe Analyics](service-connect-to-adobe-analytics.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](service-connect-to-services.md) bağlanın.
 
 Power BI hizmetinde Power BI panoları şu şekilde görünür:
 

@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>Gereksinimler
 **Minimum Gereksinimler:**
 
-* .NET 4.5 Framework
+* .NET 4.6 Framework
 * Windows 7 veya Windows Server 2008 R2 64 bit sürümü (ya da sonraki sürümler)
 
 **Önerilen:**

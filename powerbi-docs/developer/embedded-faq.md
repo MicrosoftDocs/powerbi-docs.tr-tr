@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -56,6 +56,10 @@ Microsoft, kuruluşların kurumsal sınıf, self servis bulut İş Zekası çöz
 
 Bir ISV (tipik olarak büyük), kuruluşunda önceden paketlenmiş Power BI hizmetinin ek avantajlarından yararlanmak ve uygulamalarına eklemek üzere P SKU kullanmak isteyebilir. Ayrıca bazı Kuruluşlar, yalnızca iş uygulamaları oluşturmak ve bunlara analiz eklemek istediklerinde ve önceden paketlenmiş Power BI hizmetini kullanmak istemediklerinde Azure'da A SKU kullanabilir.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>Kaç tane ekleme belirteci oluşturabilirim?
+
+PRO lisansına sahip ekleme belirteçleri, geliştirmeye ve geliştirme testlerine yöneliktir; bu nedenle, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Bir üretim ortamında ekleme yapmak için [kapasite satın almanız](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) gerekir. Bir kapasite satın alındıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Power BI Embedded ne zaman Azure'da sunulacak?
 
 Power BI Embedded kullanıma sunulmuştur.
@@ -70,7 +74,7 @@ Power BI Embedded ise bir Hizmet olarak Platform teklifinde katıştırılmış 
 
 Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir liste sunulmaktadır.
 
-|Özellik  |Power BI Embedded<br>(A SKU'lar) |Power BI Premium Kapasitesi<br>(EM SKU'lar)  |
+|Öne çıkan özelliği  |Power BI Embedded<br>(A SKU'lar) |Power BI Premium Kapasitesi<br>(EM SKU'lar)  |
 |---------|---------|---------|
 |Power BI Uygulaması çalışma alanlarından yapıtları ekleme     |Azure kapasitesi |Office 365 kapasitesi |
 |Raporların kullanılabilmesi için Power BI lisansı gereklidir |Hayır  |Evet |
@@ -87,6 +91,12 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
+
+- Kuruluş dizininizde oturum açmanız gerekir (MSA hesapları desteklenmez).
+- Bir Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’ye kaydolmuş olması gerekir. 
+- Kuruluş dizininizde bir Azure aboneliğinizin olması gerekir.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Kapasite tüketimini nasıl izleyebilirim?
 
@@ -130,7 +140,7 @@ Power BI Embedded kullanımı saatlik olarak ölçülür.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded kullanımı faturamda nasıl gösterilir?
 
-Power BI Embedded dağıtılan düğüm türlerine dayalı tahmini bir saatlik ücrete göre faturalandırılır.
+Power BI Embedded dağıtılan düğüm türlerine dayalı tahmini bir saatlik ücrete göre faturalandırılır. Kaynağınız etkin olduğu sürece, kullanım olmasa bile ücretler fatura edilir. Ücretlerin fatura edilmesini durdurmak için kaynağınızı etkin bir şekilde duraklatmanız gerekir. Duraklatma işlemi Azure veya ARM API'leri aracılığıyla yapılabilir.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Power BI Premium'u satın aldıysam ve Azure'da Power BI Embedded avantajlarının bazılarından yararlanmak istiyorsam ne yapmalıyım?
 
