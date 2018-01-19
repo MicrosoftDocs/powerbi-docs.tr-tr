@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Verileriniz hakkında soru sorma
       items:
-        - name: Power BI'daki Soru-Cevap
-          href: service-q-and-a.md
-        - name: Power BI'daki Soru-Cevap özelliğini kullanma
-          href: service-how-to-q-and-a.md
-        - name: 'Öğretici: Power BI Soru-Cevap özelliğini kullanmaya başlama'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Power BI Gateway - Enterprise verileri ile Soru-Cevap özelliğini kullanma (Önizleme)
-          href: service-q-and-a-direct-query.md
-        - name: Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
-          href: service-prepare-data-for-q-and-a.md
-        - name: Power BI için Cortana'ya giriş
-          href: service-cortana-intro.md
-        - name: Power BI için Cortana'yı etkinleştirme
-          href: service-cortana-enable.md
-        - name: Power BI Soru-Cevap için öne çıkan sorular oluşturma
-          href: service-q-and-a-create-featured-questions.md
-        - name: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
-          href: service-q-and-a-tips.md
-        - name: Cortana ile ilgili sorunları giderme
-          href: service-cortana-troubleshoot.md
+        - name: Genel Bakış
+          items:
+            - name: Power BI'daki Soru-Cevap
+              href: power-bi-q-and-a.md
+            - name: Power BI için Cortana'ya giriş
+              href: service-cortana-intro.md
+        - name: Hızlı başlangıç
+          items:
+            - name: Power BI Soru-Cevap’ı kullanmaya başlama
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Öğreticiler
+          items:
+            - name: Görselleştirmeler ve derleme raporları oluşturmak için Soru-Cevap’ı kullanma
+              href: power-bi-tutorial-q-and-a.md
+        - name: Nasıl Yapılır?
+          items:
+            - name: Power BI Gateway - Enterprise verileri ile Soru-Cevap özelliğini kullanma (Önizleme)
+              href: service-q-and-a-direct-query.md
+            - name: Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
+              href: service-prepare-data-for-q-and-a.md
+            - name: Power BI için Cortana'yı etkinleştirme
+              href: service-cortana-enable.md
+            - name: Power BI Soru-Cevap için öne çıkan sorular oluşturma
+              href: service-q-and-a-create-featured-questions.md
+        - name: Kaynaklar
+          items:
+            - name: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
+              href: service-q-and-a-tips.md
+            - name: Cortana ile ilgili sorunları giderme
+              href: service-cortana-troubleshoot.md
     - name: Çalışmanızı paylaşma
       items:
         - name: Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?
