@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 678c86336c115a87a8dd8c844962db9c1d66abaa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9b96b1efb4e0be69cf296d803a0ac9780e55ddd
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Power BI Desktop'tan bir Web sayfasına bağlanma
 Power BI Desktop'ta bir Web sayfasına bağlanıp verilerini içeri aktararak görsellerinizde ve veri modellerinizde kullanabilirsiniz.

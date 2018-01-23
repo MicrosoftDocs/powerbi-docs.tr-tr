@@ -253,13 +253,13 @@ Ardından veri kümesi bağlantı dizesini Power BI hizmetinden (Saas) güncelle
 * [SaaS çalışma alanında DirectQuery kimlik bilgilerini ayarlama](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)
 
 ## <a name="embedding"></a>Ekleme
-Power BI Embedded Azure hizmetindeki raporlarınızı Power BI hizmetine aktardığınıza göre uygulamanızı güncelleştirebilir ve raporları bu uygulama çalışma alanına eklemeye başlayabilirsiniz.
+Power BI Embedded Azure hizmetindeki raporlarınızı Power BI hizmetine geçirdiğinize göre uygulamanızı güncelleştirebilir ve raporları bu uygulama çalışma alanına eklemeye başlayabilirsiniz.
 
-Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md).
+Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [Power BI Premium nedir?](../service-premium.md)  
 [JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  

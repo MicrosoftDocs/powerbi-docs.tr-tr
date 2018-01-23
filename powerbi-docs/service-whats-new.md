@@ -100,7 +100,7 @@ ms.lasthandoff: 01/05/2018
 * Önizleme: [Power BI hizmeti, powerbi.com için yeni gezinti özelliklerini](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) keşfetme.
 * Önizleme: [Power BI raporlarını PowerPoint'e aktarma](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
 * Önizleme: Power BI Desktop uygulamasında düzenlemek üzere Power BI hizmetinden [Power BI raporlarını (PBIX dosyalarını) indirme](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/).
-* Yüzde değerini animasyonlu sıvı dalgalarıyla gösteren daire şeklinde bir ölçek olan [sıvı doldurma ölçeği](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) oluşturma.
+* Yüzde değerini animasyonlu sıvı dalgalarıyla gösteren daire şeklinde bir ölçer olan [sıvı doldurma ölçeri](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) oluşturma.
 * Bu Power BI içerik paketiyle [Jira proje yönetim verilerinizi](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) keşfetme
 * Bu Power BI içerik paketiyle [Insightcentr verilerinizi](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) keşfetme
 * [İnfografik tasarımcı özel görselini](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/) kullanarak hızla infografik oluşturma
@@ -249,7 +249,7 @@ Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleşt
 
 ***Soru-Cevap***
 
-* Artık Soru-Cevap içinde Ölçek ve Alan grafikleri belirtebilirsiniz
+* Artık Soru-Cevap içinde Ölçer ve Alan grafikleri belirtebilirsiniz
 * Soru-Cevap için geliştirilmiş otomatik tamamlama: Birkaç karakter yazdığınızda Soru-Cevap otomatik tamamlamaya ve görsel önermeye başlar.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)

@@ -192,7 +192,7 @@ Görselleştirmeler </h3>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-9">Ölçekler ve tek bir sayı içeren kartlar</a>
+                                <a class="barLink" href="visualizations.yml#step-9">Ölçerler ve tek bir sayı içeren kartlar</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">

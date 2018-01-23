@@ -43,7 +43,7 @@ Panoda bulunan, **Var Plan %** ve **Variance Latest Estimate % Quarter 3** adlı
 
 Ancak yalnızca bu grafiğe bakıp çıkarım yapmak yanıltıcı olabilir. Kapsamlı bir değerlendirme yapmak için dolar cinsinden gerçek tutarlara bakmamız gerekir.
 
-1. Sales Region tarafından düzenlenen Var Plan % grafiğinde **Aus and NZ** seçeneğini belirleyip IT Area tarafından düzenlenen Var Plan grafiğini gözlemleyin. 
+1. Sales Region ölçütüne göre Var Plan % grafiğinde **Aus and NZ** seçeneğini belirleyip IT Area ölçütüne göre Var Plan grafiğini gözlemleyin. 
    
    ![](media/sample-it-spend/it3.png)
 2. Şimdi **USA** seçeneğini belirleyin. Sizin de anladığınız gibi Avustralya, ABD ile kıyaslandığında toplam harcamalarımızda oldukça küçük bir paya sahip.
@@ -66,7 +66,7 @@ Panoya geri dönün ve **Var Plan %, Var LE3%** pano kutucuğuna bakın.
 Altyapı, plana ilişkin büyük bir pozitif varyansla yükseliyor.
 
 1. BT Harcama Analizi Örneği raporunun "YTD Spend by Cost Elements" sayfasına gitmek için bu kutucuğa tıklayın.
-2. Sol alttaki "IT Area tarafından düzenlenen Var Plan % and Var LE3 %" grafiğinde bulunan **Infrastructure** çubuğuna tıklayın ve sol taraftaki "Sales Region tarafından düzenlenen Var Plan %" grafiğinde plana ilişkin varyansı gözlemleyin.
+2. Sol alttaki "IT Area ölçütüne göre Var Plan % and Var LE3 %" grafiğinde bulunan **Infrastructure** çubuğuna tıklayın ve sol taraftaki "Sales Region ölçütüne göre Var Plan %" grafiğinde plana ilişkin varyansı gözlemleyin.
    
     ![](media/sample-it-spend/it6.png)
 3. Büyük bir varyansa sahip maliyet öğesini bulmak için dilimleyicideki her bir Cost Element Group öğesinin adına tıklayın.
@@ -79,11 +79,11 @@ Altyapı, plana ilişkin büyük bir pozitif varyansla yükseliyor.
 ## <a name="plan-variance-analysis-page"></a>"Plan Variance Analysis" sayfası
 Rapordayken, raporun 3. sayfasına gitmek için raporun alt tarafındaki "Plan Variance Analysis" sekmesine tıklayın.
 
-Sol taraftaki "Business Area tarafından düzenlenen Var Plan ve Var Plan % " birleşik haritasında, sayfanın geri kalanındaki altyapı değerlerini vurgulamak için Infrastructure sütununa tıklayın.
+Sol taraftaki "Business Area ölçütüne göre Var Plan ve Var Plan % " birleşik haritasında, sayfanın geri kalanındaki altyapı değerlerini vurgulamak için Infrastructure sütununa tıklayın.
 
 ![](media/sample-it-spend/it7.png)
 
-"Month ve Business Area tarafından düzenlenen Var Plan %" grafiğinde, altyapının Şubat ayında pozitif bir varyansa sahip olmaya başladığını, ardından artmaya devam ettiğini görürsünüz. Ayrıca altyapı için plana yönelik varyans değerinin, tüm iş alanlarına ilişkin değerle karşılaştırıldığında ülkelere göre nasıl değişiklik gösterdiğine de dikkat edin. Sayfanın geri kalan kısmındaki değerleri vurgulamak yerine filtrelemek için, sağ taraftaki "IT Area" ve "IT Sub Areas" dilimleyicilerini kullanın. Verileri farklı bir şekilde araştırmak için sağ taraftaki farklı IT Area seçeneklerine tıklayın. Ayrıca IT Sub Area seçeneklerine tıklayarak söz konusu düzeylerde varyansı da görebilirsiniz.
+"Month ve Business Area ölçütlerine göre Var Plan %" grafiğinde, altyapının Şubat ayında pozitif bir varyansa sahip olmaya başladığını, ardından artmaya devam ettiğini görürsünüz. Ayrıca altyapı için plana yönelik varyans değerinin, tüm iş alanlarına ilişkin değerle karşılaştırıldığında ülkelere göre nasıl değişiklik gösterdiğine de dikkat edin. Sayfanın geri kalan kısmındaki değerleri vurgulamak yerine filtrelemek için, sağ taraftaki "IT Area" ve "IT Sub Areas" dilimleyicilerini kullanın. Verileri farklı bir şekilde araştırmak için sağ taraftaki farklı IT Area seçeneklerine tıklayın. Ayrıca IT Sub Area seçeneklerine tıklayarak söz konusu düzeylerde varyansı da görebilirsiniz.
 
 ## <a name="edit-the-report"></a>Raporu düzenleme
 Sol üst köşedeki **Raporu düzenle** seçeneğine tıklayıp Düzenleme Görünümü'nde araştırma yapın.

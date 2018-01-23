@@ -111,12 +111,12 @@ Pano kutucuklarını yenileme ile ilgili bir hata alırsanız lütfen aşağıda
 [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md)
 
 ## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
-### <a name="refresh-history"></a>Geçmişi Yenile
-**Geçmişi yenile**, meydana gelen hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerektiğinde de size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Geçmişi yenile** bölümüne şuradan ulaşabilirsiniz.
+### <a name="refresh-history"></a>Yenileme Geçmişi
+**Yenileme Geçmişi**, meydana gelen hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerektiğinde de size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi** bölümüne şuradan ulaşabilirsiniz.
 
 1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünden bir veri kümesi seçin ve &gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Geçmişi yenile** seçeneğini belirleyin.  
+2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Yenileme Geçmişi** seçeneğini belirleyin.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)

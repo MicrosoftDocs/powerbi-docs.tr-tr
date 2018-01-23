@@ -45,7 +45,7 @@ Daha fazla bilgi için bkz. [Bir panoya veri gönderme](walkthrough-push-data.md
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [Özel görselleri Office Mağazası'nda yayımlama](office-store.md)  

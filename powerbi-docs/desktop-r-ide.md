@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: bbc0b90c36272c5a30865d92d78039c20f667ee9
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 5132f34182664327c608a96cd6c2a63ae335a21f
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI ile harici bir R IDE kullanma
 **Power BI Desktop** ile dış R IDE'nizi (Tümleşik Geliştirme Ortamı) kullanarak R betikleri oluşturabilir ve geliştirebilir, ardından da söz konusu betikleri Power BI'da kullanabilirsiniz.
@@ -89,7 +89,7 @@ Doğrudan Power BI Desktop'tan bir R IDE başlatma ile ilgili birkaç sınırlam
 * **R Client** düzenleyicisi (RGui.exe) desteklenmez, bunun nedeni, düzenleyicinin dosyaları açmak için tek başına kullanılamamasıdır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI'da R programlama dili hakkındaki aşağıdaki ek bilgilere göz atın.
+Power BI'da R kullanımı ile ilgili aşağıdaki ek bilgilere göz atın.
 
 * [Power BI Desktop'ta R Betikleri çalıştırma](desktop-r-scripts.md)
 * [R programlama dilini kullanarak Power BI görselleri oluşturma](desktop-r-visuals.md)

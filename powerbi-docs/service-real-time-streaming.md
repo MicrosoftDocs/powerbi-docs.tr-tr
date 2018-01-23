@@ -146,7 +146,7 @@ Bu sayfada, önceden oluşturduğunuz bir akış veri kümesinin bulunması hali
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
- **+**  simgesine tıkladığınızda, iki seçenek görürsünüz:
+**+**  simgesine tıkladığınızda, iki seçenek görürsünüz:
 
 ![](media/service-real-time-streaming/real-time-streaming_4a.png)
 

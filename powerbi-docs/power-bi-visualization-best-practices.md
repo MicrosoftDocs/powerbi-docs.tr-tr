@@ -425,7 +425,7 @@ Ardından, ayarlanacak görsel öğeyi seçin ve Açık ayarının seçildiğind
 
 **Metin boyutunu ayarlama**
 
-Başlıkların ve veri etiketlerinin metin boyutu ayarlanabilir ancak bu ayar X veya Y ekseni ve açıklamalar için yapılamaz.  Veri etiketleri için **Birimleri görüntüle** ve **Ondalık Basamaklar** ayarlarıyla oynayarak raporunuzda görüntülenen ayrıntılar için en uygun boyutu belirleyebilirsiniz.   
+Başlıkların ve veri etiketlerinin metin boyutu ayarlanabilir ancak bu ayar X veya Y ekseni ve açıklamalar için yapılamaz.  Veri etiketleri için **Görüntüleme birimleri** ve **Ondalık Basamaklar** ayarlarıyla oynayarak raporunuzda görüntülenen ayrıntılar için en uygun boyutu belirleyebilirsiniz.   
 
 **Metin hizalamayı ayarlama**
 
@@ -796,20 +796,20 @@ Pasta grafikler hakkında başka bir eğlenceli makale (ve animasyon) için [Dar
 
 Dilerseniz olaya diğer taraftan bakmak için [Why Tufte is flat-out wrong about pie charts (Tufte'ın pasta grafikler hakkında doğru bildikleri)](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) yazısını okuyabilirsiniz
 
-#### <a name="radial-gauges--kpis"></a>Radyal Ölçekler ve KPI'ler
+#### <a name="radial-gauges--kpis"></a>Radyal Ölçerler ve KPI'ler
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)
 
-Radyal ölçekler belirli bir hedefe ulaşma durumunu gösteren yararlı bir görseldir ve özellikle yöneticilere yönelik panolarda çok fazla kullanılır. Ancak, bu ölçeklerin iki önemli kusuru vardır. Pasta grafiklerinde olduğu gibi gölgeli alanın açısının tam 180 derecelik yay veya hedef çizgiye kıyasla yorumlanması zordur. Aynı zamanda kullanıcılara tek bir ölçümü göstermek için çok fazla yer kaplar.
+Radyal ölçerler belirli bir hedefe ulaşma durumunu gösteren yararlı bir görseldir ve özellikle yöneticilere yönelik panolarda çok fazla kullanılır. Ancak, bu ölçeklerin iki önemli kusuru vardır. Pasta grafiklerinde olduğu gibi gölgeli alanın açısının tam 180 derecelik yay veya hedef çizgiye kıyasla yorumlanması zordur. Aynı zamanda kullanıcılara tek bir ölçümü göstermek için çok fazla yer kaplar.
 
 İyi alternatiflerden biri basit bir KPI görseli kullanmaktır
 
 ![](media/power-bi-visualization-best-practices/power-bi-kpi.png)
 
-KPI'ler aynı miktarda alanda değeri, durumu, hedefi, hedeften sapmayı ve eğilimi gösterir. Hedefe ulaşılmadığında yeşil renk kırmızıya döner ve ara hedeflere ulaşıldıysa sarıya dönebilir. Ölçeğe kıyasla okuması ve yorumlaması çok daha kolaydır.
+KPI'ler aynı miktarda alanda değeri, durumu, hedefi, hedeften sapmayı ve eğilimi gösterir. Hedefe ulaşılmadığında yeşil renk kırmızıya döner ve ara hedeflere ulaşıldıysa sarıya dönebilir. Ölçere kıyasla okuması ve yorumlaması çok daha kolaydır.
 
 Daha fazla bilgi için bkz.
 
-* [Eğitim: Power BI'daki radyal ölçek grafikleri](power-bi-visualization-radial-gauge-charts.md)
+* [Eğitim: Power BI'daki radyal ölçer grafikleri](power-bi-visualization-radial-gauge-charts.md)
 * [Eğitim: Power BI'daki KPI'ler](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Sonuç

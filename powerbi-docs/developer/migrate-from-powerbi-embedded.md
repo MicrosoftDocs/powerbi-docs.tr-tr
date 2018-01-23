@@ -1,6 +1,6 @@
 ---
 title: "Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme"
-description: "Power BI Embedded hizmetinden Power BI hizmetine geçmeyi ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
+description: "Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -24,7 +24,7 @@ ms.contentlocale: tr-TR
 ms.lasthandoff: 11/13/2017
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme
-Power BI Embedded hizmetinden Power BI hizmetine geçmeyi ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
+Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
 
 Microsoft kısa süre önce kullanıcılara içerikle ilgili erişme, paylaşma ve dağıtma konularında daha fazla esneklik sunan yeni bir kapasite tabanlı lisanslama modeli olan [Power BI Premium'u duyurdu](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/). Bu teklif ayrıca Power BI hizmeti için ek ölçeklenebilirlik ve performansı da beraberinde getirdi.
 
@@ -123,7 +123,7 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 2. PBIX dosyasını kaydedin.
 3. SaaS çalışma alanına Import PBIX çağrısı yapın.
 
-#### <a name="directquery-dataset--report"></a>DirectQuery veri kümesi ve raporu
+#### <a name="directquery-dataset--report"></a>DirectQuery veri kümesi ve rapor
 **Akış**
 
 1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yapın ve alınan bağlantı dizesini kaydedin.
@@ -142,7 +142,7 @@ Bunlar Ekim 2016 öncesinde oluşturulmuş veri kümeleri/raporlardır. Download
 1. Geliştirme ortamınızdan (iç kaynak denetiminizden) PBIX dosyasını alın.
 2. SaaS çalışma alanına Import PBIX çağrısı yapın.
 
-#### <a name="push-dataset--report"></a>Push veri kümesi ve rapor
+#### <a name="push-dataset--report"></a>Gönderim veri kümesi ve rapor
 Download PBIX, *Push API* veri kümelerini desteklemez. Push API veri kümesi PaaS ile SaaS arasında taşınamaz.
 
 **Akış**
@@ -150,13 +150,13 @@ Download PBIX, *Push API* veri kümelerini desteklemez. Push API veri kümesi Pa
 1. Json veri kümesi ile "Create dataset" API çağrısı yaparak veri kümesini SaaS çalışma alanında oluşturun.
 2. Oluşturulan veri kümesinin raporunu yeniden oluşturun*.
 
-Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS ile SaaS arasında geçirebilirsiniz.
+Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS'tan SaaS'a geçirebilirsiniz.
 
 1. PaaS çalışma alanına işlevsiz PBIX dosyaları yükleyin.
 2. Push API raporunu kopyalayın ve 1. adımda oluşturduğunuz işlevsiz PBIX dosyasına bağlayın.
 3. Push API raporunu işlevsiz PBIX ile birlikte indirin.
 4. İşlevsiz PBIX dosyasını SaaS çalışma alanınıza yükleyin.
-5. Push veri kümesini SaaS çalışma alanınızda oluşturun.
+5. Gönderim veri kümesini SaaS çalışma alanınızda oluşturun.
 6. Raporu Push API veri kümesine tekrar bağlayın.
 
 ## <a name="create-and-upload-new-reports"></a>Yeni rapor oluşturma ve yükleme

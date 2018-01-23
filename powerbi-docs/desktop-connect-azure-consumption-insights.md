@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: eb5a41c75e26c0c9c5a6644b2ad0122d2d9623b9
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 3f0bca9114b163531adcd1a1921b8617a5f2eb75
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
@@ -150,58 +150,58 @@ Azure Portal'daki ayrıntı sütunları ve adları API ve bağlayıcıda benzerd
 
 | ACI Bağlayıcısı/İçerik Paketi Sütun Adı | ACI API'si Sütun Adı | EA Sütun Adı | Kullanımdan kalktı/Geriye dönük uyumluluk için mevcut |
 | --- | --- | --- | --- |
-| AccountName |accountName |Hesap Adı |Hayır |
-| AccountId |accountId | |Evet |
-| AccountOwnerId |accountOwnerEmail |AccountOwnerId |Hayır |
-| AdditionalInfo |additionalInfo |AdditionalInfo |Hayır |
+| AccountName |Hesap adı |Hesap Adı |Hayır |
+| AccountId |Hesap kimliği | |Evet |
+| AccountOwnerId |Hesap sahibinin e-posta adresi |Hesap sahibinin kimliği |Hayır |
+| AdditionalInfo |Ek bilgi |Ek bilgi |Hayır |
 | AdditionalInfold | | |Evet |
-| Tüketilen Miktar |consumedQuantity |Tüketilen Miktar |Hayır |
-| Tüketim Hizmeti |consumedService |Tüketim Hizmeti |Hayır |
-| ConsumedServiceId |consumedServiceId | |Evet |
-| Maliyet |cost |ExtendedCost |Hayır |
-| Maliyet Merkezi |costCenter |Maliyet Merkezi |Hayır |
-| Tarih |date |Tarih |Hayır |
-| Gün | |Gün |Hayır |
-| DepartmentName |departmentName |Bölüm Adı |Hayır |
-| DepartmentID |departmentId | |Evet |
-| Örnek Kimliği | | |Evet |
-| InstanceId |instanceId |Örnek Kimliği |Hayır |
-| Konum | | |Evet |
-| Sayaç Kategorisi |meterCategory |Sayaç Kategorisi |Hayır |
-| Ölçüm kimliği | | |Evet |
-| Sayaç Adı |meterName |Sayaç Adı |Hayır |
-| Tarife Bölgesi |meterRegion |Tarife Bölgesi |Hayır |
-| Sayaç Alt Kategorisi |meterSubCategory |Sayaç Alt Kategorisi |Hayır |
-| MeterId |meterId |Ölçüm kimliği |Hayır |
-| Ay | |Ay |Hayır |
-| Ürün |product |Ürün |Hayır |
-| ProductId |productId | |Evet |
-| Kaynak Grubu |resourceGroup |Kaynak Grubu |Hayır |
-| Kaynak Konumu |resourceLocation |Kaynak Konumu |Hayır |
+| Consumed Quantity |Tüketilen miktar |Tüketilen Miktar |Hayır |
+| Consumed Service |Tüketim hizmeti |Tüketim Hizmeti |Hayır |
+| ConsumedServiceId |Tüketilen hizmet kimliği | |Evet |
+| Cost |Maliyet |Ayrıntılı maliyet |Hayır |
+| Cost Center |Maliyet merkezi |Maliyet Merkezi |Hayır |
+| Date |Tarih |Tarih |Hayır |
+| Day | |Gün |Hayır |
+| DepartmentName |Bölüm adı |Bölüm Adı |Hayır |
+| DepartmentID |Bölüm kimliği | |Evet |
+| Instance ID | | |Evet |
+| InstanceId |Örnek kimliği |Örnek Kimliği |Hayır |
+| Location | | |Evet |
+| Meter Category |Sayaç kategorisi |Sayaç Kategorisi |Hayır |
+| Meter ID | | |Evet |
+| Meter Name |Sayaç adı |Sayaç Adı |Hayır |
+| Meter Region |Ölçüm bölgesi |Tarife Bölgesi |Hayır |
+| Meter Sub-Category |Sayaç alt kategorisi |Sayaç Alt Kategorisi |Hayır |
+| MeterId |Ölçüm kimliği |Ölçüm kimliği |Hayır |
+| Month | |Ay |Hayır |
+| Product |Ürün |Ürün |Hayır |
+| ProductId |Ürün kimliği | |Evet |
+| Resource Group |Kaynak grubu |Kaynak Grubu |Hayır |
+| Resource Location |Kaynak konumu |Kaynak Konumu |Hayır |
 | ResourceGroupId | | |Evet |
-| ResourceLocationId |resourceLocationId | |Evet |
-| ResourceRate |resourceRate |ResourceRate |Hayır |
-| ServiceAdministratorId |serviceAdministratorId |ServiceAdministratorId |Hayır |
-| ServiceInfo1 |serviceInfo1 |ServiceInfo1 |Hayır |
+| ResourceLocationId |Kaynak konumu kimliği | |Evet |
+| ResourceRate |Kaynak fiyatı |Kaynak Fiyatı |Hayır |
+| ServiceAdministratorId |Hizmet yöneticisi kimliği |Hizmet yöneticisi kimliği |Hayır |
+| ServiceInfo1 |Hizmet bilgisi 1 |Hizmet bilgisi 1 |Hayır |
 | ServiceInfo1Id | | |Evet |
-| ServiceInfo2 |serviceInfo2 |ServiceInfo2 |Hayır |
+| ServiceInfo2 |Hizmet bilgisi 2 |Hizmet bilgisi 2 |Hayır |
 | ServiceInfo2Id | | |Evet |
-| Depolama Hizmeti Tanımlayıcısı |storeServiceIdentifier |Depolama Hizmeti Tanımlayıcısı |Hayır |
+| Store Service Identifier |Depolama hizmeti tanımlayıcısı |Depolama Hizmeti Tanımlayıcısı |Hayır |
 | StoreServiceIdentifierId | | |Evet |
-| Abonelik Adı |subscriptionName |Abonelik Adı |Hayır |
-| Etiketler |tags |Etiketler |Hayır |
+| Subscription Name |Abonelik adı |Abonelik Adı |Hayır |
+| Tags |Etiketler |Etiketler |Hayır |
 | TagsId | | |Evet |
-| Ölçü Birimi |unitOfMeasure |Ölçü Birimi |Hayır |
-| Yıl | |Yıl |Hayır |
-| SubscriptionId |subscriptionId |SubscriptionId |Evet |
-| SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Hayır |
+| Unit Of Measure |Ölçü birimi |Ölçü Birimi |Hayır |
+| Year | |Yıl |Hayır |
+| SubscriptionId |Abonelik kimliği |Abonelik kimliği |Evet |
+| SubscriptionGuid |Abonelik guid'i |Abonelik guid'i |Hayır |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
-* [Power BI Desktop'ta Excel Çalışma Kitaplarına Bağlanma](desktop-connect-excel.md)   
+* [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   
 

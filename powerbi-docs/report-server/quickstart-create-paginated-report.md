@@ -85,7 +85,7 @@ Grafik sihirbazının **Veri kümesi seçin** adlı ilk sayfasında veri kümesi
 
 Düzeni, değerleri veya açıklamayı değiştirerek (hemen hemen istediğiniz her değişikliği yaparak), oluşturduğunuz grafiği değiştirebilirsiniz.
 
-Ayrıca diğer her türlü görselleştirmeyi ekleyebilirsiniz: ölçekler, tablolar, matrisler, haritalar ve daha fazlası... Birden fazla sayfa için üst bilgi ve altbilgi ekleyebilirsiniz. Bu işlemleri kendi başınıza denemek için bkz. [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials).
+Ayrıca diğer her türlü görselleştirmeyi ekleyebilirsiniz: ölçerler, tablolar, matrisler, haritalar ve daha fazlası... Birden fazla sayfa için üst bilgi ve altbilgi ekleyebilirsiniz. Bu işlemleri kendi başınıza denemek için bkz. [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials).
 
 ![Rapor Oluşturucusu Tasarım görünümü](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 

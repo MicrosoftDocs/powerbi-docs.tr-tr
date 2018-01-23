@@ -51,10 +51,10 @@ Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı)
 
 Aşağıdakilere dikkat edin:
 
-* **Month tarafından düzenlenen New Hire Count, New Hires SPLY ve Actives YoY % Change** birleşik haritası, geçen yılla karşılaştırıldığında her ay daha fazla çalışan (bazı aylarda çok daha fazla sayıda çalışan) işe aldığımızı gösteriyor.
-* **Region ve Ethnicity tarafından düzenlenen New Hire Count ve Active Employee Count** birleşik haritasında, **East** bölgesinde daha az sayıda çalışan işe aldığımızı görebilirsiniz.
-* **Age Group tarafından düzenlenen New Hires YoY Var** şelale grafiği çoğunlukla genç çalışanları işe aldığımızı gösteriyor. Neden olarak, işlerin genel olarak yarı zamanlı olması gösterilebilir.
-* **Gender tarafından düzenlenen New Hire Count** pasta grafiğinde oldukça eşit bir dağılım gözlemleniyor.
+* **Month ölçütüne göre New Hire Count, New Hires SPLY ve Actives YoY % Change** birleşik haritası, geçen yılla karşılaştırıldığında her ay daha fazla çalışan (bazı aylarda çok daha fazla sayıda çalışan) işe aldığımızı gösteriyor.
+* **Region ve Ethnicity ölçütlerine göre New Hire Count ve Active Employee Count** birleşik haritasında, **East** bölgesinde daha az sayıda çalışan işe aldığımızı görebilirsiniz.
+* **Age Group ölçütüne göre New Hires YoY Var** şelale grafiği çoğunlukla genç çalışanları işe aldığımızı gösteriyor. Neden olarak, işlerin genel olarak yarı zamanlı olması gösterilebilir.
+* **Gender ölçütüne göre New Hire Count** pasta grafiğinde oldukça eşit bir dağılım gözlemleniyor.
 
 Cinsiyet dağılımının ayrımının eşit olmadığı bir bölge gibi daha fazla öngörüye ulaşabilir misiniz? Yaş, cinsiyet, bölge ve etnik köken arasındaki ilişkileri araştırmak için grafiklerdeki farklı yaş gruplarını ve cinsiyetleri seçin.
 
@@ -65,7 +65,7 @@ Panoya geri dönmek için üst gezinti çubuğundan panonun adını seçin.
 ## <a name="compare-current-active-and-former-employees"></a>Geçerli etkin ve eski çalışanları karşılaştırma
 Geçerli etkin çalışanlara ve artık şirket için çalışmayan kişilere ilişkin verileri araştıralım.
 
-Panoda, **Age Group tarafından düzenlenen Active Employee** kutucuğunu seçin.  
+Panoda, **Age Group ölçütüne göre Active Employee** kutucuğunu seçin.  
 ![](media/sample-human-resources/pbi_hr_sample_activepie.png)
 
 İnsan Kaynakları Örneği raporu **Actives and Separations** sayfasıyla açılır.  
@@ -82,28 +82,28 @@ Rapora, Düzenleme Görünümü'nde göz atalım. Sol üst köşedeki **Raporu d
 
 Pasta grafiklerini Etkin çalışanlar yerine Ayrılan verilerini gösterecek şekilde değiştirin.
 
-1. **Age Group tarafından düzenlenen Active Employee Count** pasta grafiğini seçin.
+1. **Age Group ölçütüne göreActive Employee Count** pasta grafiğini seçin.
 2. **Alanlar**'da Employees tablosunu genişletmek için **Employees**'in yanındaki oku seçin. **Active Employee Count**'un yanındaki onay kutusunu temizleyerek söz konusu alanı kaldırın.
 3. Employees tablosundaki **Separation Count**'un yanındaki onay kutusunu seçerek bu alanı, alan kutusundaki **Values** kutusuna ekleyin.
-4. Rapor tuvaline geri döndüğünüzde, **Separation Reason tarafından düzenlenen Separation Count** çubuk grafiğindeki **Voluntary** çubuğunu seçin. Bu, rapordaki diğer görsellerde, gönüllü olarak ayrılan kişileri vurgular.
-5. Age Group tarafından düzenlenen Separation Count pasta grafiğinin 50+ adlı dilimine tıklayın.
+4. Rapor tuvaline geri döndüğünüzde, **Separation Reason ölçütüne göre Separation Count** çubuk grafiğindeki **Voluntary** çubuğunu seçin. Bu, rapordaki diğer görsellerde, gönüllü olarak ayrılan kişileri vurgular.
+5. Age Group ölçütüne göre Separation Count pasta grafiğinin 50+ adlı dilimine tıklayın.
    
    Sağ alt köşedeki Separations by Reason çizgi grafiğine bakın. Bu grafik, gönüllü ayrılmaları gösterecek şekilde filtrelenmiştir.  
    ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
    
    50 ve üzeri yaş grubundaki eğilimi fark ettiniz mi? Yılın ikinci yarısında 50 yaşın üstünde daha fazla çalışan gönüllü olarak ayrılıyor. Bu, daha fazla veriyle daha ayrıntılı bir şekilde incelenebilecek bir alan.
-6. **Gender tarafından düzenlenen Active Employee Count** pasta grafiği için de aynı adımları izleyebilir ve grafiği, etkin çalışanlar yerine ayrılanları gösterecek şekilde değiştirebilirsiniz. Başka herhangi bir öngörü bulup bulamayacağınızı öğrenmek için cinsiyete göre gönüllü ayrılma verilerini gözden geçirin.
+6. **Gender ölçütüne göre Active Employee Count** pasta grafiği için de aynı adımları izleyebilir ve grafiği, etkin çalışanlar yerine ayrılanları gösterecek şekilde değiştirebilirsiniz. Başka herhangi bir öngörü bulup bulamayacağınızı öğrenmek için cinsiyete göre gönüllü ayrılma verilerini gözden geçirin.
 7. Panoya geri dönmek için üst gezinti çubuğunda **Power BI**'a tıklayın. Raporda yapmış olduğunuz değişiklikleri kaydedip kaydetmemek size kalmıştır.
 
 ## <a name="bad-hires"></a>Hatalı işe alımlar
 Araştırılacak son alan hatalı işe alımlardır. Hatalı işe alımlar, en fazla 60 gün çalışan kişiler olarak tanımlanır. Yüksek oranda işe alım gerçekleştiriyoruz. İyi adayları mı işe alıyoruz?
 
-1. **Age Group tarafından düzenlenen Bad Hires as % of Actives** pano kutucuğunu seçin. Bu kutucuk, raporun "Bad Hires" başlıklı 3. sayfasını açar.
+1. **Age Group ölçütüne göre Bad Hires as % of Actives** pano kutucuğunu seçin. Bu kutucuk, raporun "Bad Hires" başlıklı 3. sayfasını açar.
    
    ![](media/sample-human-resources/hr7.png)  
-2. Sol taraftaki Bölge dilimleyicisinde **Northwest** onay kutusunu ve Gender tarafından düzenlenen Bad Hire Count halka grafiğindeki **male** dilimini seçin.  "Bad Hires" sayfasındaki diğer grafiklere bakın. Kadınlara göre daha fazla erkeğin hatalı olarak işe alındığını ve Group A'da çok sayıda hatalı işe alımın bulunduğunu görüyoruz.
+2. Sol taraftaki Bölge dilimleyicisinde **Northwest** onay kutusunu ve Gender ölçütüne göre Bad Hire Count halka grafiğindeki **male** dilimini seçin.  "Bad Hires" sayfasındaki diğer grafiklere bakın. Kadınlara göre daha fazla erkeğin hatalı olarak işe alındığını ve Group A'da çok sayıda hatalı işe alımın bulunduğunu görüyoruz.
    ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
-3. **Gender tarafından düzenlenen Bad Hires** halka grafiğine baktığımızda ve **Region** dilimleyicisine tıkladığımızda Doğu'nun erkeklere göre daha çok kadının hatalı olarak işe alındığı tek bölge olduğunu görüyoruz.  
+3. **Gender ölçütüne göre Bad Hires** halka grafiğine baktığımızda ve **Region** dilimleyicisine tıkladığımızda Doğu'nun erkeklere göre daha çok kadının hatalı olarak işe alındığı tek bölge olduğunu görüyoruz.  
 4. Panoya geri dönmek için üst gezinti çubuğundan panonun adını seçin.
 
 ## <a name="asking-a-question-in-the-qa-box"></a>Soru-Cevap kutusunda soru sorma

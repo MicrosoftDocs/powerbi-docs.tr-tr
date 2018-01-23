@@ -70,7 +70,7 @@ Hızlı ölçüm hesaplama türlerine ilişkin beş benzersiz grup bulunur ve bu
 * **Akıllı zaman gösterimi**
   * Yılın başından bu yana toplam
   * Çeyrek başından bu yana toplam
-  * Çeyrekten bu yana toplam
+  * Ayın başından bu yana toplam
   * Yıldan yıla değişim
   * Çeyrekten çeyreğe değişiklik
   * Aydan aya değişim

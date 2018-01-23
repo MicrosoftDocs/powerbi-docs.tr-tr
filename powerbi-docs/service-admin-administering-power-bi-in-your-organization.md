@@ -93,7 +93,7 @@ Kuruluşunuzun Power BI'dan faydalanmak için gerçekleştirmesi gereken bir yö
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Kullanıcıların, var olan Office 365 kiracıma katılmalarını nasıl önleyebilirim?
 Bir yönetici olarak, kullanıcıların Office 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Katılımı engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcılar, kuruluşlarının yöneticisiyle iletişim kurmaya yönlendirilir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
 
-Bu adımlar için Windows PowerShell kullanımı gerekli değildir. Windows PowerShell ile çalışmaya başlamak için bkz. [PowerShell ile çalışmaya başlama kılavuzu](http://go.microsoft.com/fwlink/p/?LinkID=286814).
+Bu adımlar için Windows PowerShell kullanımı gereklidir. Windows PowerShell ile çalışmaya başlamak için bkz. [PowerShell ile çalışmaya başlama kılavuzu](http://go.microsoft.com/fwlink/p/?LinkID=286814).
 
 Aşağıdaki adımları uygulamak için [Windows PowerShell için Azure Active Directory Modülü](http://go.microsoft.com/fwlink/p/?LinkID=236297)'nün en son sürümünü (64 bit) yüklemeniz gerekir.
 

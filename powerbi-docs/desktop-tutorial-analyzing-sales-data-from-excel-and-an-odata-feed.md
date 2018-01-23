@@ -201,7 +201,7 @@ Power BI Desktop, verilerinizden öngörüler elde etmek için çeşitli görsel
 
 Bu görevde, daha önce yüklenen verileri temel alan bir rapor oluşturacaksınız. Görselleştirmeleri oluşturmak üzere kullanacağınız sütunları seçmek için Alanlar bölmesini kullanırsınız.
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1. Adım: Product tarafından düzenlenen Units in Stock ve Year tarafından düzenlenen Total Sales'ı gösteren grafikler oluşturma
+### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1. Adım: Product ölçütüne göre Units in Stock ve Year ölçütüne göre Total Sales'i gösteren grafikler oluşturma
 Alanlar bölmesindeki (Alanlar bölmesi ekranın sağ tarafında yer alır) **UnitsInStock** alanını tuvaldeki boş bir alana sürükleyin. Bir Tablo görselleştirmesi oluşturulur. Ardından, ProductName alanını, Görsel Öğeler bölmesinin orta kısmının altında bulunan Eksen kutusuna sürükleyin. Ardından, görselleştirmenin sağ üst köşesindeki üç nokta simgesini kullanarak **Sıralama Ölçütü: \> UnitsInStock** seçeneğini belirleriz.
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)

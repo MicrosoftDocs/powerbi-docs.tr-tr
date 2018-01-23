@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Power BI Desktop'ta verileri şekillendirme ve birleştirme
 **Power BI Desktop** ile çok çeşitli veri kaynaklarına bağlanabilir ve ardından verileri ihtiyaçlarınızı karşılayacak şekilde şekillendirebilirsiniz. Verileri *şekillendirme* verileri dönüştürme anlamına gelir. Sütunları veya tabloları yeniden adlandırma, metinleri sayı olarak değiştirme, satırları kaldırma, ilk satırı başlık olarak ayarlama ve benzeri değişiklikler yapma bu işlemlere örnek olarak verilebilir. Verileri *birleştirme*, iki veya daha fazla veri kaynağını bağlama, gerektiği şekilde şekillendirme ve ardından bunları kullanışlı tek bir sorguda birleştirme anlamına gelir.
@@ -119,9 +119,9 @@ Tablo adı kolayca değiştirilebilir: **Sorgu Ayarları** bölmesindeki **Özel
 Verileri gerektiği ölçüde şekillendirdik. Şimdi de başka bir veri kaynağına bağlanalım ve verileri birleştirelim.
 
 ## <a name="combine-data"></a>Verileri birleştirme
-Çeşitli eyaletlerle ilgili ilgi çekici bu veriler ek çözümleme denemeleri yapmanın yanı sıra sorgular oluşturmak için de yararlı olacaktır. Ancak bir sorun var: buradaki verilerin çoğunda eyaletin tam adı yerine eyalet kodu olarak iki harfli kısaltmalar kullanılmıştır. Bir şekilde eyalet adlarını kısaltmalarıyla ilişkilendirmemiz gerekiyor.
+Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözümleme çalışmaları ve sorgular oluşturmak için faydalı olacaktır. Ancak, bu noktada bir sorun var: Gösterilen verilerin çoğunda eyalet kodları için eyaletin tam adı yerine iki harfli kısaltmalar kullanılmıştır. Eyalet adlarını kısaltmalarıyla ilişkilendirmek için bir yönteme ihtiyacımız var.
 
-Şanslı günümüzdeyiz! Tam da bunun gerçekleştirildiği başka bir genel veri kaynağı var, ancak veri kaynağını emeklilik tablomuza bağlamadan önce bir miktar şekillendirme yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik web kaynağına ulaşabilirsiniz:
+Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik web kaynağına ulaşabilirsiniz:
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
@@ -176,7 +176,7 @@ StateCodes tablosunu istediğimiz biçimde şekillendirdiğimize göre, bu iki t
 
 Sorguları birleştirmek için izlenebilecek, *birleştirme* ve *ekleme* olmak üzere iki temel yol bulunur.
 
-Bir veya daha fazla sütunu başka bir sorguya eklemek istediğinizde sorguları **birleştirirsiniz**. Mevcut bir sorguya veri satırları eklemek istediğinizde, sorguya **ekleme** yaparsınız.
+Bir veya daha fazla sütunu başka bir sorguya eklemek istediğinizde sorguları **birleştirirsiniz**. Var olan bir sorguya eklemek istediğiniz ek veri satırları olduğunda sorguyu **eklersiniz**.
 
 Bu örnekte sorguları birleştirmek istiyoruz. Başlamak için, Sorgu Düzenleyicisi'nin sol bölmesinde, diğer sorguyu *hangi* sorguyla birleştirmek istediğimizi (bu örnekte *RetirementStats*) seçeriz. Ardından, şeritte **Giriş** sekmesinde bulunan **Birleştir \> Sorguları Birleştir** seçeneğini belirleriz.
 
@@ -190,7 +190,7 @@ Seçilen tablo ile hangi tabloyu birleştirmek istediğimizi belirleyeceğimiz v
 
 ![](media/desktop-shape-and-combine-data/shapecombine_merge.png)
 
-Sorgunun sonucunda, mevcut sorguyla birleştirilen tablonun (sorgunun) içeriğinden meydana gelen **NewColumn** oluşturulur. Birleştirilen sorgunun tüm sütunları **NewColumn**'da yer alacak şekilde daraltılır, ancak **Genişlet** seçeneğini belirleyerek tabloyu genişletebilir ve istediğiniz sütunları dahil edebilirsiniz.
+Sorgunun sonunda, var olan sorguyla birleştirilen tablonun (sorgunun) içeriği olan **NewColumn** oluşturulur. Birleştirilen sorgunun tüm sütunları **NewColumn**'da yer alacak şekilde daraltılır, ancak **Genişlet** seçeneğini belirleyerek tabloyu genişletebilir ve istediğiniz sütunları dahil edebilirsiniz.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
 
@@ -201,7 +201,7 @@ Birleştirilen tabloyu Genişletmek ve hangi sütunların ekleneceğini belirlem
 Bu örnekte yalnızca **State Code** sütununu istediğimizden, yalnızca bu sütunu seçer ve ardından **Tamam** seçeneğini belirleriz. Ön ek olarak orijinal sütun adını kullan ayarına ihtiyacımız olmadığından veya bunu istemediğimizden ilgili onay kutusunu temizleriz. Bu onay kutusunu seçili bırakırsak, birleştirilen sütun **NewColumn.State Code** (sırasıyla orijinal sütun adı veya **NewColumn**, bir nokta ve sorguya aktarılan sütunun adı) şeklinde adlandırılır.
 
 >[!NOTE]
->Söz konusu **NewColumn** tablosunu elde etme konusunda birkaç deneme yapmak ister misiniz? Biraz deneme yapabilirsiniz ve sonuçları beğenmezseniz **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar**'dan ilgili adımı silmeniz yeterlidir. Sorgunuz, söz konusu **Genişlet** adımı uygulanmadan önceki haline geri döner. Genişletme işlemi istediğiniz sonucu verene kadar dilediğiniz sayıda deneme yapabilirsiniz.
+>Söz konusu **NewColumn** tablosunu elde etme konusunda birkaç deneme yapmak ister misiniz? Biraz deneme yapabilirsiniz ve sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**'dan bu adımı silmeniz yeterlidir. Sorgunuz, bu **Genişlet** adımı uygulanmadan önceki haline geri döner. Bu işlem, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabileceğiniz bir serbest tekrarlama gibidir.
 
 Her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağının birleştirildiği tek bir sorgu (tablo) elde etmiş olduk. Bu sorgu, herhangi bir eyaletteki konut maliyeti istatistikleri, demografik bilgiler veya iş fırsatları gibi ilgi çekici diğer birçok veri bağlantısı için temel oluşturabilir.
 
@@ -210,11 +210,11 @@ Değişiklikleri uygulamak ve Sorgu Düzenleyicisi'ni kapatmak için, şeritteki
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz pek çok şey vardır. Sunulan özellikler hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
 

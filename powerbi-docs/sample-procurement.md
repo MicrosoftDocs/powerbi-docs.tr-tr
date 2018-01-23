@@ -48,15 +48,15 @@ Birlikte ilerlemek ister misiniz? [Power BI hizmetinde](https://powerbi.com) **V
 
 Aşağıdaki birkaç noktaya dikkat edin:
 
-* **Month ve Category tarafından düzenlenen Total Invoice** adlı çizgi grafiğinde: **Direct** kategorisinde oldukça tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
-* **Country/Region tarafından düzenlenen Total Invoice** adlı haritada: Harcamalarımızın çoğunu ABD'de yaptığımızı görüyoruz.
-* **Sub Category tarafından düzenlenen Total Invoice** adlı sütun grafiğinde: **Hardware** ve **Indirect Goods & Services** kategorilerinin, en fazla harcama yapılan kategoriler olduğu görülüyor.
-* Tier tarafından düzenlenen Total Invoice adlı çubuk grafiğinde: Büyük çoğunlukla, Katman 1'de (ilk 10) yer alan satıcılarımızla çalıştığımızı görüyoruz. Bu, satıcı ilişkilerinin daha iyi yönetilmesine yardımcı olur.
+* **Month ve Category ölçütlerine göre Total Invoice** adlı çizgi grafiğinde: **Direct** kategorisinde oldukça tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
+* **Country/Region ölçütüne göre Total Invoice** adlı haritada: Harcamalarımızın çoğunu ABD'de yaptığımızı görüyoruz.
+* **Sub Category ölçütüne göre Total Invoice** adlı sütun grafiğinde: **Hardware** ve **Indirect Goods & Services** kategorilerinin, en fazla harcama yapılan kategoriler olduğu görülüyor.
+* Tier ölçütüne göre Total Invoice adlı çubuk grafiğinde: Büyük çoğunlukla, Katman 1'de (ilk 10) yer alan satıcılarımızla çalıştığımızı görüyoruz. Bu, satıcı ilişkilerinin daha iyi yönetilmesine yardımcı olur.
 
 ## <a name="spending-in-mexico"></a>Meksika'da yapılan harcamalar
 Şimdi de Meksika'daki harcama alanlarını araştıralım.
 
-1. Pasta grafiğinde haritadaki **Meksika** balonunu seçin. "Sub Category tarafından düzenlenen Total Invoice" adlı sütun grafiğinde, en fazla harcamanın **Indirect Goods & Services** alt kategorisinde yapıldığını görüyoruz.
+1. Pasta grafiğinde haritadaki **Meksika** balonunu seçin. "Sub Category ölçütüne göre Total Invoice" adlı sütun grafiğinde, en fazla harcamanın **Indirect Goods & Services** alt kategorisinde yapıldığını görüyoruz.
    
    ![](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. **Indirect Goods & Services** sütununda detaya gidin:
@@ -77,8 +77,8 @@ Aşağıdaki birkaç noktaya dikkat edin:
 ## <a name="evaluate-different-cities"></a>Farklı şehirleri değerlendirme
 Farklı şehirleri değerlendirmek için vurgulama özelliğini kullanabiliriz.
 
-1. **Month tarafından düzenlenen Total Invoice ve Discount %** adlı pano kutucuğunu seçin. Bu işlemin ardından raporun "Discount Analysis" sayfası açılır.
-2. **City tarafından düzenlenen Total Invoice** adlı ağaç haritasında farklı şehirleri seçerek karşılaştırma yapabilirsiniz. Miami'nin neredeyse tüm faturalarının Katman 1'deki satıcılara ait olduğu görülüyor.
+1. **Month ölçütüne göre Total Invoice ve Discount %** adlı pano kutucuğunu seçin. Bu işlemin ardından raporun "Discount Analysis" sayfası açılır.
+2. **City ölçütüne göre Total Invoice** adlı ağaç haritasında farklı şehirleri seçerek karşılaştırma yapabilirsiniz. Miami'nin neredeyse tüm faturalarının Katman 1'deki satıcılara ait olduğu görülüyor.
    
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
@@ -93,7 +93,7 @@ Farklı şehirleri değerlendirmek için vurgulama özelliğini kullanabiliriz.
 * Bazı şehirler diğerlerine göre daha fazla indirim alıyor mu?
 
 ### <a name="discount-by-month"></a>Aylara göre indirim
-**Month tarafından düzenlenen Total Invoice ve Discount %** adlı birleşik haritada **Şubat** ayının en yoğun geçen ay olduğunu ve bunu **Eylül** ayının izlediğini görüyoruz. Şimdi bu aylardaki indirim yüzdelerine göz atalım.
+**Month ölçütüne göre Total Invoice ve Discount %** adlı birleşik haritada **Şubat** ayının en yoğun geçen ay olduğunu ve bunu **Eylül** ayının izlediğini görüyoruz. Şimdi bu aylardaki indirim yüzdelerine göz atalım.
 Hacim arttıkça indirimin azaldığını ve hacim düştükçe indirimin arttığına dikkat edin. Ne kadar indirim talep edersek o kadar düşük hacimlerle çalıştığımızı görüyoruz.
 
 ![](media/sample-procurement/procurement5.png)

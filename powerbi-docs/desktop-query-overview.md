@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: fff6db53d19eb69bf582d3ec526ac625ec5cbab1
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 **Power BI Desktop** ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
@@ -141,7 +141,7 @@ Sorgunuz istediğiniz gibi olduğunda veya çalışmanızın kaydedildiğinden e
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey vardır. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
 * [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)

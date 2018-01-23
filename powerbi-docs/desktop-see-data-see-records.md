@@ -80,7 +80,7 @@ Rapora geri dönmek için tuvalin sol üst köşesindeki **Rapora Geri Dön** d�
   * **Sütun**
   * **Harita**
   * **Ağaç Haritası**
-  * **Doldurulmuş Harita**
+  * **Kartogram**
   * **Pasta**
   * **Halka**
   * **Huni**

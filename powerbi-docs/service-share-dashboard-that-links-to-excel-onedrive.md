@@ -35,7 +35,7 @@ OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu payl
   ![Panoyu paylaş iletişim kutusu](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_share_workbk.png)
 
 1. İş arkadaşlarınızın e-posta adreslerini girin.
-2. İş arkadaşlarınızın Power BI'da Excel çalışma kitabını görüntüleyebilmesini sağlamak için **Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin** seçeneğini belirleyin.
+2. İş arkadaşlarınızın Power BI'da Excel çalışma kitabını görüntüleyebilmesini sağlamak için **Go to OneDrive for Business to set workbook permissions** (Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin) seçeneğini belirleyin.
 3. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 4. **Paylaş**'ı seçin.
 
@@ -51,7 +51,7 @@ OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu payl
 2. OneDrive İş'teki Excel çalışma kitabıyla bağlantılı panoyu ve/veya raporu seçin.
    
     ![Bir içerik paketindeki Excel çalışma kitabı](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
-3. **Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin** seçeneğini belirleyin.
+3. **Go to OneDrive for Business to set workbook permissions** (Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin) seçeneğini belirleyin.
 4. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 5. **Yayımla** seçeneğini belirleyin.
 

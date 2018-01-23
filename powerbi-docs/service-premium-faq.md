@@ -175,7 +175,7 @@ Power BI Premium'un bir parçası olarak Power BI Embedded'ı Power BI hizmetiyl
 **Analizleri uygulamalara ekleme açısından Power BI Premium'un sunduğu avantajlar nelerdir?**  
 Power BI Premium, adanmış donanım üzerinde çalışan ve Power BI hizmeti kapsamında tamamen Microsoft tarafından yönetilen kapasite tabanlı bir tekliftir. Uygulama geliştirme yaşam döngünüzü göz önünde bulundurduğunuzda Power BI Premium esnek ve tahmin edilebilir maliyetler, geliştiriciler için geliştirilmiş içerik yönetimi ve ekli senaryolar için tüm Power BI özelliklerini kullanma gibi yeni avantajlar sunmaktadır.
 
-**Power BI Embedded üzerinde kurulmuş olan uygulamamı taşımam gerekiyor mu?**  
+**Power BI Embedded üzerinde kurulmuş olan uygulamamı geçirmem gerekiyor mu?**  
 Power BI Embedded, var olan uygulamalar için aşağıdaki takvime göre kullanılmaya devam edecektir:
 
 | Lisanslama sözleşmesi | Power BI Embedded kullanılabilirliği |
@@ -183,10 +183,10 @@ Power BI Embedded, var olan uygulamalar için aşağıdaki takvime göre kullan�
 | Kuruluş Sözleşmesi |Var olan sözleşmenin süresi dolana kadar |
 | Doğrudan ve CSP |Power BI Premium'un genel kullanıma sunulmasından itibaren bir yıl boyunca |
 
-Evet, katıştırılmış analiz çözümünüzü Power BI Premium'a taşımayı düşünmeye başlayabilirsiniz. Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](developer/migrate-from-powerbi-embedded.md).
+Evet, katıştırılmış analiz çözümünüzü Power BI Premium'a geçirmeyi düşünmeye başlayabilirsiniz. Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](developer/migrate-from-powerbi-embedded.md).
 
-**Power BI Embedded üzerinde kurulmuş olan uygulamamı nasıl taşıyabilirim?**  
-Uygulama taşıma hakkında yardım almak için [taşıma belgelerine](developer/migrate-from-powerbi-embedded.md) bakın.
+**Power BI Embedded üzerinde kurulmuş olan uygulamamı nasıl geçirebilirim?**  
+Uygulama geçirme hakkında yardım almak için [geçiş belgelerine](developer/migrate-from-powerbi-embedded.md) bakın.
 
 **Microsoft, Power BI Embedded Ücretsiz taahhüdünü sonlandırıyor mu?**  
 Önceki modelde geliştirme ve test için sınırlı sayıda oturum sunmuştuk. Yeni senaryoda kullanıcılar, kendilerine sunulmuş olan seçenekleri kullanarak üretime hazır olma amacıyla ücretsiz geliştirme ve test özelliklerinden faydalanabilecek. Müşteriler geliştirme ve test aşamasına başlangıç yapmak için 2 aylık Power BI Pro deneme sürümünü kullanabilecek. Power BI Desktop, veri keşfetme ve rapor yazma aracı ücretsiz olarak sunulmaya devam edecek.

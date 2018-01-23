@@ -63,7 +63,7 @@ Bu sorunları gidermek için lütfen hesap temsilciniz ile iletişim kurun.
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI hizmetinin US Government sürümü ile ilgili olarak Sıkça Sorulan Sorular (SSS)
 Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgileri hızla almanıza yardımcı olmak için verilmiştir.
 
-**Soru:** Ticari **Power BI** verilerimi ABD Kamu müşterileri için **Power BI hizmetine** nasıl aktarabilirim?
+**Soru:** Ticari **Power BI** verilerimi ABD Kamu müşterileri için **Power BI hizmetine** nasıl geçirebilirim?
 
 **Cevap:** Yöneticinizin US Government'a özel ayrı bir abonelik altında yeni bir **Power BI** örneği oluşturması gerekir. Ardından, ticari verilerinizi ABD Kamu müşterileri için **Power BI hizmetinde** çoğaltabilir, ticari lisansınızı kaldırabilir ve mevcut etki alanınızı US Government'a özel yeni hizmet ile ilişkilendirebilirsiniz.
 

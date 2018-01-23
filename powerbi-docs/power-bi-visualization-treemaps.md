@@ -73,7 +73,7 @@ Ağaç haritasında Category veya Ayrıntılar vurgulandığında rapor sayfası
 
 1. Ağaç haritasında, bir Category veya Category içinden bir Chain seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır. Örneğin **050-Shoes** kategorisi seçildiğinde geçen yılki ayakkabı satışının 3.640.471 ABD doları olduğu ve bunun 2.174.185 ABD doları tutarındaki kısmının Fashions Direct'ten geldiği görülür.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. **Chain tarafından düzenlenen Last Year Sales** pasta grafiğinde, **Fashions Direct** dilimini seçin.  
+2. **Chain ölçütüne göre Last Year Sales** pasta grafiğinde, **Fashions Direct** dilimini seçin.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 3. Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](service-reports-visual-interactions.md)
 

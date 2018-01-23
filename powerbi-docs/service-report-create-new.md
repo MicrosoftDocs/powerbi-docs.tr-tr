@@ -56,13 +56,13 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 > 
 > 
 
-## <a name="add-a-radial-gauge-to-the-report"></a>Rapora Radyal Ölçek ekleme
-Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başlayalım.  Pazarlama Müdürümüz (CMO) bu yılki satış hedeflerimize ne kadar yaklaştığımızı öğrenmek istiyor. Bu tür bilgilerin görüntülenmesi için Ölçek, [iyi bir görselleştirme seçimi](power-bi-report-visualizations.md) olacaktır.
+## <a name="add-a-radial-gauge-to-the-report"></a>Rapora Radyal Ölçer ekleme
+Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başlayalım.  Pazarlama Müdürümüz (CMO) bu yılki satış hedeflerimize ne kadar yaklaştığımızı öğrenmek istiyor. Bu tür bilgilerin görüntülenmesi için Ölçer, [iyi bir görselleştirme seçimi](power-bi-report-visualizations.md) olacaktır.
 
 1. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** seçeneğini belirleyin.
    
     ![](media/service-report-create-new/power-bi-report-step1.png)
-2. **Görsel Öğeler** bölmesinden Ölçek şablonunu ![](media/service-report-create-new/powerbi-gauge-icon.png) seçerek görseli bir Ölçeğe dönüştürün.
+2. **Görsel Öğeler** bölmesinden Ölçer şablonunu ![](media/service-report-create-new/powerbi-gauge-icon.png) seçerek görseli bir Ölçere dönüştürün.
    
     ![](media/service-report-create-new/power-bi-report-step2.png)
 3. **Sales** > **This Year Sales** > **Hedef** alanını **Hedef değer** kutusuna sürükleyin. Hedefimize çok yakın olduğumuzu görüyoruz.
@@ -75,8 +75,8 @@ Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başla
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>Rapora alan grafiği ve dilimleyici ekleme
 Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Pazarlama müdürümüz, bu yıla ait satış verileriyle bir önceki yıla ait verileri karşılaştırmamızı istiyor. Ayrıca, sonuçları bölge temelinde görmek istiyor.
 
-1. Öncelikle tuvalde biraz yer açalım. Ölçek görselleştirmesini seçin ve sağ üst köşeye taşıyın. Ardından, köşelerden birini tutup sürükleyerek görseli küçültün.
-2. Ölçeğin seçimini kaldırın. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** ve ardından **Sales** > **Last Year Sales** seçeneğini belirleyin.
+1. Öncelikle tuvalde biraz yer açalım. Ölçer görselleştirmesini seçin ve sağ üst köşeye taşıyın. Ardından, köşelerden birini tutup sürükleyerek görseli küçültün.
+2. Ölçerin seçimini kaldırın. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** ve ardından **Sales** > **Last Year Sales** seçeneğini belirleyin.
    
     ![](media/service-report-create-new/power-bi-report-step4.png)
 3. **Görsel Öğeler** bölmesinden Alan grafiği şablonunu ![](media/service-report-create-new/power-bi-areachart-icon.png) seçerek görseli bir Alan grafiğine dönüştürün.

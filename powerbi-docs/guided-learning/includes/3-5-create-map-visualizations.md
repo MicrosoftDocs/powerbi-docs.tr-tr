@@ -18,7 +18,7 @@ Power BI, şehir adı veya havaalanı kodu gibi daha genel bilgilerden belirli e
 ![](media/3-5-create-map-visualizations/3-5_3.png)
 
 ## <a name="create-shape-maps"></a>Şekil haritası oluşturma
-Şekil haritası oluşturmak için Görsel Öğeler bölmesinde **Doldurulmuş Harita** seçeneğini belirleyin. Balonlu haritalarda olduğu gibi, bu görseli kullanmak için de Konum demetine bazı değerler eklemeniz gerekir. Dolgu renginin yoğunluğunu uygun şekilde değiştirmek için Boyut demetine bir alan ekleyin.
+Şekil haritası oluşturmak için Görsel Öğeler bölmesinde **Kartogram** seçeneğini belirleyin. Balonlu haritalarda olduğu gibi, bu görseli kullanmak için de Konum demetine bazı değerler eklemeniz gerekir. Dolgu renginin yoğunluğunu uygun şekilde değiştirmek için Boyut demetine bir alan ekleyin.
 
 ![](media/3-5-create-map-visualizations/3-5_4.png)
 

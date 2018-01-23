@@ -60,8 +60,8 @@ Raporumuzda 3 sayfa var:
 Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler elde edebileceğimize bakalım. Rapor sayfasını yalnızca Andrew ile ilgili veriler görüntülenecek şekilde filtrelemek için soldaki dilimleyicide Andrew'un adını seçin.
 
 * Hızlı bir KPI edinmek için Andrew'un **Gelir Durumuna** (yeşil) bakın. Performansı iyi durumda.
-* "Month tarafından düzenlenen Revenue % Variance" Alan grafiğine baktığımızda Şubat ayında yaşanan düşüş dışında Andrew'un oldukça iyi bir performans sergilediğini görüyoruz. Baskın olduğu bölge Doğu, 49 müşterisi var ve toplam 7 üründen 5 tanesi ile ilgileniyor. Brüt kâr yüzdesi en yüksek veya en düşük seviyede değil.
-* "Month tarafından düzenlenen RevenueTY ve Revenue % Variance to Budget" grafiğinde kâr durumunun istikrarlı olduğu görülüyor. Ancak, bölge ağaç haritasında **Central**'ı filtrelediğinizde Andrew'un yalnızca Mart ayında ve sadece Indiana bölgesinden elde ettiğini görüyoruz. Amaçlanan bu muydu veya bu incelenmesi gereken bir durum mu?
+* "Month ölçütüne göre Revenue % Variance" Alan grafiğine baktığımızda Şubat ayında yaşanan düşüş dışında Andrew'un oldukça iyi bir performans sergilediğini görüyoruz. Baskın olduğu bölge Doğu, 49 müşterisi var ve toplam 7 üründen 5 tanesi ile ilgileniyor. Brüt kâr yüzdesi en yüksek veya en düşük seviyede değil.
+* "Month ölçütüne göre RevenueTY ve Revenue % Variance to Budget" grafiğinde kâr durumunun istikrarlı olduğu görülüyor. Ancak, bölge ağaç haritasında **Central**'ı filtrelediğinizde Andrew'un yalnızca Mart ayında ve sadece Indiana bölgesinden elde ettiğini görüyoruz. Amaçlanan bu muydu veya bu incelenmesi gereken bir durum mu?
 
 Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için dilimleyicide Valery'nin adını seçin.  
 ![](media/sample-customer-profitability/customer3.png)
@@ -75,7 +75,7 @@ Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler el
 Valery'nin düşük performansının altında yatan nedenleri bulmak için araştırmaya devam edin. Bölgelere, diğer departmanlara ve rapordaki bir sonraki sayfaya ("Industry Margin Analysis") bakın.
 
 ### <a name="industry-margin-analysis"></a>Industry Margin Analysis
-Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tamamına ilişkin brüt kârı, segmentlere göre ayrılmış şekilde görüyoruz. CFO, eğilimler ve kârlılık ile ilgili çıkarımlar yapmasına yardımcı olması için şirket ve departman ölçümlerini sektör ölçümleriyle karşılaştırmak üzere bu sayfayı kullanır. "Month ve Executive Name tarafından düzenlenen Gross Margin" alan grafiği ekibe özgü bir grafik olduğundan bu sayfada neden bulunduğunu merak etmiş olabilirsiniz. Bu grafik ile sayfayı departman yöneticisine göre filtreleyebiliyoruz.  
+Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tamamına ilişkin brüt kârı, segmentlere göre ayrılmış şekilde görüyoruz. CFO, eğilimler ve kârlılık ile ilgili çıkarımlar yapmasına yardımcı olması için şirket ve departman ölçümlerini sektör ölçümleriyle karşılaştırmak üzere bu sayfayı kullanır. "Month ve Executive Name ölçütlerine göre Gross Margin" alan grafiği ekibe özgü bir grafik olduğundan bu sayfada neden bulunduğunu merak etmiş olabilirsiniz. Bu grafik ile sayfayı departman yöneticisine göre filtreleyebiliyoruz.  
 ![](media/sample-customer-profitability/customer6.png)
 
 Kârlılık, sektörden sektöre nasıl bir değişiklik gösteriyor? Sektörlere göre ürün ve müşteri dağılımı nasıl gerçekleşiyor? Sol üst kısımda bir veya birden fazla sektör seçin. CPG sektörü ile başlayın. Filtreyi temizlemek için silgi simgesini seçin.
@@ -114,8 +114,8 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 3. **Industry** filtresini bulun ve listeyi genişletmek için oku seçin. Şimdi Distribution sektörü için bir sayfa filtresi ekleyelim. Öncelikle **Tümünü Seç** onay kutusunu temizleyerek tüm seçimleri kaldırın. Ardından, **Distribution**'ı seçin.  
    
    ![](media/sample-customer-profitability/customer7.png)
-4. "Month ve Executive tarafından düzenlenen Gross Margin" alan grafiğinde, yalnızca Valery ve Tina'nın bu sektörden müşterilerinin olduğunu ve Valery'nin bu sektör ile yalnızca Haziran ayından Kasım ayına kadar çalıştığını görüyoruz.   
-5. "Month ve Executive tarafından düzenlenen Gross Margin" alan grafiği açıklamasında **Tina**'yı ve ardından **Valery**'yi seçin. Tina'nın "Product tarafından düzenlenen Total Revenue" yüzdesinin Valery'ye kıyasla gerçekten çok düşük olduğuna dikkat edin. 
+4. "Month ve Executive ölçütlerine göre Gross Margin" alan grafiğinde, yalnızca Valery ve Tina'nın bu sektörden müşterilerinin olduğunu ve Valery'nin bu sektör ile yalnızca Haziran ayından Kasım ayına kadar çalıştığını görüyoruz.   
+5. "Month ve Executive ölçütüne göre Gross Margin" alan grafiği açıklamasında **Tina**'yı ve ardından **Valery**'yi seçin. Tina'nın "Product ölçütüne göre Total Revenue" yüzdesinin Valery'ye kıyasla gerçekten çok düşük olduğuna dikkat edin. 
 6. Mevcut geliri görmek için panoya geri dönün ve Soru-Cevap'ı kullanarak **total revenue for distribution by scenario by executive** (yöneticiye ve senaryoya göre dağıtım sektörü için toplam gelir) yazın.  
    
    ![](media/sample-customer-profitability/customer8.png)

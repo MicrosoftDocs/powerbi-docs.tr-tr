@@ -38,7 +38,7 @@ Ancak, Arşivlenmiş Çalışma Alanınızdaki içerikle ilgili bazı kısıtlam
 * **Grup oluşturma.  ** Arşivlenmiş Çalışma Alanınızda grup oluşturamazsınız.
 * **Power BI mobil uygulamalarından erişim.  **Arşivlenmiş Çalışma Alanınızdaki içeriği web üzerinde görüntülemeye devam edebilirsiniz ancak bu içerik Power BI mobil uygulamalarında görünmez.
 
-## <a name="migrating-content-in-your-archived-workspace"></a>Arşivlenmiş Çalışma Alanınızdaki İçeriği Aktarma
+## <a name="migrating-content-in-your-archived-workspace"></a>Arşivlenmiş Çalışma Alanınızdaki İçeriği Geçirme
 Power BI uygulamasını kullanmaya devam etmek için yeni içeriği, BT departmanınız tarafından yönetilen Çalışma Alanım bölümünde oluşturmanız gerekir.   Arşivlenmiş Çalışma Alanınızdaki içeriği, Çalışma Alanım bölümüne geçirmeyi de planlamanız gerekir.  İçerik geçirme yöntemi içerik türüne göre değişir:
 
 * **Excel veya Power BI Desktop Veri Kümeleri.  ** Bu veri kümelerini geçirmek için, Arşivlenmiş Çalışma Alanınızdan Çalışma Alanım bölümüne geçin ve ardından, "Verilerim" düğmesine tıklayarak Excel veya Power BI Desktop dosyasını tekrar karşıya yükleyin.  Zamanlanmış yenilemeyi ayarladıysanız bu ayarları Çalışma Alanım bölümündeki yeni veri kümesi için tekrar yapılandırmanız gerekir.

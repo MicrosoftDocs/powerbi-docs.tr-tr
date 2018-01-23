@@ -70,7 +70,7 @@ Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi sa
 ### <a name="comparing-plants"></a>Tesisleri karşılaştırma
 Şimdi hangi tesisin daha iyi bir iş çıkardığını ve hatalı malzemeyi yöneterek daha az çalışmama süresi sağladığını keşfedelim.  
 
-1. **Plant ve Defect Type tarafından düzenlenen Total Defect Reports** harita kutucuğunu seçin.  
+1. **Plant ve Defect Type ölçütlerine göre Total Defect Reports** harita kutucuğunu seçin.  
    
     Rapor açılarak "Supplier Quality" sayfası görüntülenir.  
    
@@ -127,7 +127,7 @@ Toplam hata miktarıyla ilgili başka bir pano kutucuğuna bakalım.
 
 1. Panoya geri dönmek için soru kutusunun yukarısında sol üst köşede bulunan geri okunu ![](media/sample-supplier-quality/backarrow.png) seçin.  
    
-    **Month ve Year tarafından düzenlenen Total Defect Quantity** kutucuğuna daha yakından bakıldığında 2014'ün ilk yarısında 2013'tekine benzer sayıda hata olduğu ancak 2014'ün ikinci yarısında hata sayısının kayda değer oranda arttığı görülür.  
+    **Month ve Year ölçütlerine göre Total Defect Quantity** kutucuğuna daha yakından bakıldığında 2014'ün ilk yarısında 2013'tekine benzer sayıda hata olduğu ancak 2014'ün ikinci yarısında hata sayısının kayda değer oranda arttığı görülür.  
    
     ![](media/sample-supplier-quality/supplier14.png)  
    

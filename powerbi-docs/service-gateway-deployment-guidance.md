@@ -131,7 +131,7 @@ Bu bölümde, ağ geçitlerini dağıtmaya ve yönetmeye ilişkin ek yönergeler
 
 Ağ geçidinizi kurtarmak için; ağ geçidinde yönetici olduğunuzdan, ağ geçidinin adını bildiğinizden, doğru kurtarma anahtarına sahip olduğunuzdan ve benzer performans özelliklerini taşıyan yeni bir makineniz bulunduğundan emin olun.
 
-Oturum açtıktan sonra **Migrate an existing gateway** (Mevcut ağ geçidini taşı) seçeneğini belirleyin. Ardından, kurtarmak veya geçirmek istediğiniz ağ geçidini seçmeniz, son olarak da kurtarma anahtarını girip yapılandırmayı gerçekleştirmeniz gerekir. Bu adım tamamlandığında, eski ağ geçidi yeni ağ geçidi ile değiştirilir ve yeni ağ geçidi, eski ağ geçidinin adının yanı sıra önceden yapılandırılmış tüm veri kaynaklarını devralır. Tüm veri kaynakları, herhangi bir yeniden yayımlama işlemine gerek olmadan yeni makineden geçmeye başlar. Otomatik yük devretme henüz desteklenmemekle birlikte, ağ geçidi ekibinin etkin olarak üzerinde düşündüğü bir özelliktir.
+Oturum açtıktan sonra **Migrate an existing gateway** (Mevcut ağ geçidini geçir) seçeneğini belirleyin. Ardından, kurtarmak veya geçirmek istediğiniz ağ geçidini seçmeniz, son olarak da kurtarma anahtarını girip yapılandırmayı gerçekleştirmeniz gerekir. Bu adım tamamlandığında, eski ağ geçidi yeni ağ geçidi ile değiştirilir ve yeni ağ geçidi, eski ağ geçidinin adının yanı sıra önceden yapılandırılmış tüm veri kaynaklarını devralır. Tüm veri kaynakları, herhangi bir yeniden yayımlama işlemine gerek olmadan yeni makineden geçmeye başlar. Otomatik yük devretme henüz desteklenmemekle birlikte, ağ geçidi ekibinin etkin olarak üzerinde düşündüğü bir özelliktir.
 
 #### <a name="administrators"></a>Yöneticiler
 **Power BI hizmetinde** ağ geçidi yöneticilerinin bir listesine ulaşabilirsiniz. **Power BI** hizmetinde oturum açtıktan sonra, **Ayarlar** (dişli simgesi) **> Ağ geçitlerini yönet > Gateway UI** (Ağ Geçidi UI'si) seçeneğini belirleyin.  
@@ -140,7 +140,7 @@ Oturum açtıktan sonra **Migrate an existing gateway** (Mevcut ağ geçidini ta
 
 Burada, bir ağ geçidi seçebilir ve ağ geçidi yöneticilerinin listesini görebilirsiniz. Listelenen yöneticiler ağ geçidi için erişim, kurtarma ve silme işlemlerini gerçekleştirebilir. Ayrıca ağ geçidindeki veri kaynaklarını silip yenilerini ekleyebilirler. Kuruluştaki tüm yöneticilerin kendi gruplarındaki tüm ağ geçitlerine erişimi bulunduğundan emin olmak için aşağıdakilerin gerçekleştirilmesi önerilir:
 
-* Bir **AAD** güvenlik grubu oluşturup diğer kullanıcıları bu gruba ekledikten sonra güvenlik grubunu ilgili ağ geçidi yöneticilerinin listesine ekleyin. Böylece, bir hata olması durumunda veya ağ geçidini kurtarmanız ya da taşımanız gerekmesi halinde ağ geçidine birden fazla kişi erişebilir. Ayrıca bu işlem diğer yöneticilerin, gruplarında hangi ağ geçitlerinin kullanıldığını ve her bir ağ geçidinde bulunan veri kaynaklarını görmesini de sağlar.
+* Bir **AAD** güvenlik grubu oluşturup diğer kullanıcıları bu gruba ekledikten sonra güvenlik grubunu ilgili ağ geçidi yöneticilerinin listesine ekleyin. Böylece, bir hata olması durumunda veya ağ geçidini kurtarmanız ya da geçirmeniz gerekmesi halinde ağ geçidine birden fazla kişi erişebilir. Ayrıca bu işlem diğer yöneticilerin, gruplarında hangi ağ geçitlerinin kullanıldığını ve her bir ağ geçidinde bulunan veri kaynaklarını görmesini de sağlar.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  

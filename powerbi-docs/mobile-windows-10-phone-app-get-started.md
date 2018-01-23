@@ -33,7 +33,7 @@ Verilerinizi kullanarak [Power BI hizmetinde pano ve rapor oluşturabilirsiniz](
 Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve raporlarınızla etkileşim kurabilir, verileri araştırabilir ve paylaşabilirsiniz.
 
 ## <a name="first-things-first"></a>İlk yapılacaklar
-* Windows Mağazası'ndan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
+* Microsoft Store'dan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
   
   Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 3 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda çalışabilir.
    
@@ -127,7 +127,7 @@ Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panol
 * [SQL Server Mobil Rapor Yayımcısı ile kendi mobil raporlarınızı oluşturma](https://msdn.microsoft.com/library/mt652547.aspx) ve bu raporları Reporting Services web portalında yayımlama.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Windows Mağazası'ndan [Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Microsoft Store'dan [Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

@@ -39,7 +39,7 @@ Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows B
    ![Windows 10 canlı kutucuğu](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10ph_startscrn.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Windows Mağazası'ndan [Windows 10 için Power BI mobil uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Microsoft Store'dan [Windows 10 için Power BI mobil uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

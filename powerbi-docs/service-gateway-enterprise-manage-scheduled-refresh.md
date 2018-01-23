@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 247d6ab4978a9e62573ba9fe2ee19d69fdd793a0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme
 Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, DirectQuery veya canlı bağlantılardan farklı olarak, zamanlanmış yenileme için kullanılan veri kaynakları ve ağ geçitleri ile nasıl çalışılacağı incelenecektir.
@@ -42,13 +42,13 @@ Ağ geçidi eklemek için kurumsal ağ geçidini ortamınızdaki bir sunucuya [i
 ## <a name="remove-a-gateway"></a>Ağ geçitlerini kaldırma
 Bir ağ geçidini kaldırmak, söz konusu ağ geçidi altındaki tüm veri kaynaklarının da silinmesine neden olur.  Ayrıca bu işlem, ilgili veri kaynaklarını kullanan panoların ve raporların da çalışmamasına yol açar.
 
-1. Sağ üst köşedeki dişli simgesini ![](media/service-gateway-enterprise-manage-scheduled-refresh/pbi_gearicon.png) seçin ve ardından **Ağ geçitlerini yönet** seçeneğini belirleyin.
-2. Ağ geçidi > **Kaldır**
+1. Sağ üst köşedeki dişli simgesi ![](media/service-gateway-enterprise-manage-scheduled-refresh/pbi_gearicon.png) > **Ağ geçitlerini yönet**'i seçin.
+2. Ağ geçidi > **Kaldır**'ı seçin
    
    ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Veri kaynağı ekleme
-Bir ağ geçidi seçip **Veri kaynağı ekle**'ye tıklayarak veya Ağ geçidi > **Veri kaynağı ekle** bölümüne giderek veri kaynağı ekleyebiliriz.
+Bir ağ geçidi seçip **Veri kaynağı ekle**'ye tıklayarak veya Ağ geçidi > **Veri kaynağı ekle** bölümüne giderek veri kaynağı ekleyebilirsiniz.
 
 ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings1.png)
 
@@ -59,7 +59,7 @@ Ardından, listeden **Veri Kaynağı Türü**'nü seçebilirsiniz. Listelenen t�
 Ardından, kaynak bilgilerini ve veri kaynağına erişmek için kullanılan kimlik bilgilerini içeren veri kaynağı bilgilerini doldurmanız gerekir.
 
 > [!NOTE]
-> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. [Kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığı ile ilgili daha fazla bilgi için şirket içi veri ağ geçidi konusunun ele alındığı ana makaleye başvurun.
+> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. [Kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığı ile ilgili daha fazla bilgi için, şirket içi veri ağ geçidi konusunun ele alındığı ana makaleye başvurun.
 > 
 > 
 
@@ -73,7 +73,7 @@ Tüm bilgileri doldurduktan sonra **Ekle**'ye tıklayabilirsiniz.  Artık bu ver
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ### <a name="advanced-settings"></a>Gelişmiş ayarlar
-Veri kaynağınızın gizlilik düzeyini yapılandırabilirsiniz. Bu işlem, verilerin nasıl bir araya getirileceğini denetler. Bu işlem yalnızca zamanlanmış yenileme için kullanılır. [Daha fazla bilgi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Veri kaynağınızın gizlilik düzeyini yapılandırabilirsiniz. Bu işlem, verilerin nasıl bir araya getirilebileceğini denetler. Bu işlem yalnızca zamanlanmış yenileme için kullanılır. [Daha fazla bilgi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
@@ -123,7 +123,7 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
-[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
+[Şirket içi veri ağ geçidi (ayrıntılı)](service-gateway-onprem-indepth.md)  
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

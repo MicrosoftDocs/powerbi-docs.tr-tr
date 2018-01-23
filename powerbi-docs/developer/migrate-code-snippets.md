@@ -24,7 +24,7 @@ ms.contentlocale: tr-TR
 ms.lasthandoff: 11/13/2017
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Power BI Embedded'dan içerik geçişi için kod parçacıkları
-Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md#content-migration).
+Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md#content-migration).
 
 Power BI Embedded (PaaS) içeriğinizi Power BI hizmetine (SaaS) kopyalama konusunda yardımcı olmak için bir **geçiş aracı** tasarlanmıştır. Bu araç özellikle çok fazla içeriğe sahip olan kullanıcılar için yararlıdır. Daha fazla bilgi için bkz. [Power BI Embedded geçiş aracı](migrate-tool.md).
 
@@ -165,7 +165,7 @@ Bu kod parçacığında kolaylık sağlaması açısından şifreli olmayan kiml
     var response = await simpleClient.SendAsync(request);
 ```
 
-## <a name="push-dataset--report"></a>Gönderim veri kümesi ve raporu
+## <a name="push-dataset--report"></a>Gönderim veri kümesi ve rapor
 Oluşturulan veri kümesinin raporunu yeniden oluşturmanız gerekir.
 
 Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir uygulama çalışma alanında bulunduğunu kabul ediyoruz. Gönderim API'si hakkında bilgi için bkz. [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md).
@@ -232,7 +232,7 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir uy
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Embedded geçiş aracı](migrate-tool.md)  
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)  
 [Power BI Premium nedir?](../service-premium.md)  
 [JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  

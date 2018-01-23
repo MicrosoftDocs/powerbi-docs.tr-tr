@@ -35,7 +35,7 @@ ms.lasthandoff: 11/13/2017
 4. Kutucuğu, Windows 10 cihazınızda yüklü bulunan herhangi bir paylaşım uygulamasını kullanarak paylaşın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Windows Mağazası'ndan [Windows 10 için Power BI mobil uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Microsoft Store'dan [Windows 10 için Power BI mobil uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * Power BI mobil uygulamalarından [pano paylaşma](mobile-share-dashboard-from-the-mobile-apps.md)
 * [Windows 10 için Power BI mobil uygulamasıyla çalışmaya başlama](mobile-windows-10-phone-app-get-started.md)  
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

@@ -64,11 +64,11 @@ Panoları, raporları ve kutucukları eklemek için kuruluşunuz için içerik e
 
 Ekleme hakkında ayrıntılı bilgi için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md).
 
-Azure'daki Power BI Çalışma Alanı Koleksiyonları'nı kullanıyorsanız içeriğinizi taşıma hakkında bilgi almak için bkz. [Power BI Çalışma Alanı Koleksiyonları Azure hizmetindeki içeriği taşıma](migrate-from-powerbi-embedded.md).
+Azure'daki Power BI Çalışma Alanı Koleksiyonları'nı kullanıyorsanız içeriğinizi geçirme hakkında bilgi almak için bkz. [Power BI Çalışma Alanı Koleksiyonları Azure hizmetindeki içeriği geçirme](migrate-from-powerbi-embedded.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [Power BI Premium nedir?](../service-premium.md)  
 [JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  

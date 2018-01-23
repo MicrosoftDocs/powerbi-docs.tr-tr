@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7e959054300dafcab5f38bfce121fe0ac91dca06
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma
 Bazen çözümlediğiniz veriler, istediğiniz sonuçlar için ihtiyaç duyduğunuz bir alanı içermeyebilir. Hesaplanmış sütunlar bunun için vardır. Hesaplanmış sütunlar, bir sütunun değerlerini Veri Çözümleme İfadeleri (DAX) formülleri kullanarak tanımlar. Bu sütun değerleri, modelin başka bir yerindeki birkaç farklı sütundan alınmış metin değerlerini birleştirmekten, diğer değerlerden yola çıkarak bir sayısal değer hesaplamaya kadar her şey olabilir. Örneğin, verilerinizde (Alanlar listesinde alanlar olarak) City ve State sütunları var ancak ikisini birden Miami, FL gibi tek bir Location alanında tek bir değer olarak görmek istiyorsunuz. Bu tam olarak hesaplanmış sütunların işidir.

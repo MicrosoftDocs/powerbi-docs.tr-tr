@@ -54,7 +54,7 @@ Satış Yöneticisi en önemli olduğunu düşündüğü ölçümleri izlemek i�
 
 Büyük, orta veya küçük ölçekli anlaşmaları gerçekleştirmek için aynı ölçüde efor sarf edildiğinden şirketimiz verilerin ayrıntılarına inerek büyük fırsatlar hakkında daha fazla bilgi edinmelidir. 
 
-Raporun 1. sayfasını açmak için **Partner Driven ve Sales Stage tarafından düzenlenen Opportunity Count** kutucuğunu seçin.  
+Raporun 1. sayfasını açmak için **Partner Driven ve Sales Stage ölçütlerine göre Opportunity Count** kutucuğunu seçin.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
 
 ## <a name="explore-the-pages-in-the-report"></a>Rapordaki sayfaları inceleme
@@ -63,7 +63,7 @@ Raporun 1. sayfasını açmak için **Partner Driven ve Sales Stage tarafından 
 
 * Fırsat sayısı bakımından en büyük bölge Doğu olmuştur.  
 * Pasta grafiğindeki bölgeleri teker teker seçerek sayfayı filtreleyin. Her bölgede iş ortaklarının daha büyük fırsatlar kovaladığını görebiliyoruz.   
-* "Partner Driven ve Opportunity Size tarafından düzenlenen Opportunity Count" sütun grafiği, büyük fırsatların çoğunun iş ortakları tarafından yaratıldığını ve küçük veya orta düzey fırsatlarda iş ortaklarının çoğunlukta olmadığını göstermektedir. 
+* "Partner Driven ve Opportunity Size ölçütlerine göre Opportunity Count" sütun grafiği, büyük fırsatların çoğunun iş ortakları tarafından yaratıldığını ve küçük veya orta düzey fırsatlarda iş ortaklarının çoğunlukta olmadığını göstermektedir. 
 * Sol alttaki çubuk grafikte yer alan Sales Stage öğelerini seçerek bölgesel sayıların arasındaki farkı inceleyin ve sayı açısından en büyük bölgemiz Doğu olmasına rağmen 3 bölgenin Solution, Proposal ve Finalize değerlerinin birbirine yakın olduğuna dikkat edin. Bu da Orta ve Batı bölgelerinde fırsat yüzdesinin daha yüksek olduğu anlamına gelmektedir. 
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Raporumuzun 2. sayfası "Revenue Overview" olarak adlandırılmıştır.

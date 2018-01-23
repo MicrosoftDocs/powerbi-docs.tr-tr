@@ -86,7 +86,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 ### <a name="ios"></a>iOS
 1. Açılan listeden **Uygulama Mağazası'ndan Yönetilen iOS Uygulaması**'nı seçin.
-2. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **İleri**'yi seçin.
+2. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **Sonraki** seçeneğini belirleyin.
    
     ![](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 3. Bir **Yayımcı**, **Ad** ve **Açıklama** seçin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
@@ -102,7 +102,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 ### <a name="android"></a>Android
 1. Açılan listeden **Dış Bağlantı**'yı seçin.
-2. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **İleri**'yi seçin.
+2. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **Sonraki** seçeneğini belirleyin.
    
     ![](media/service-admin-mobile-intune/intune-add-software-android1.png)
 3. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.

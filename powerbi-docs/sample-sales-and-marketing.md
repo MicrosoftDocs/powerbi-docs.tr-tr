@@ -71,13 +71,13 @@ Panomuzdaki R12M (Rolling 12 Months) satırı pazar payımızın artık büyüme
 ![](media/sample-sales-and-marketing/sales5.png)
 
 1. Alt taraftaki "Total Units by Month and isVanArsdel" adlı sütun grafiğine bakın. Siyah sütun VanArsdel'i (ürünlerimizi), yeşil sütun ise rakibimizi temsil eder. Haziran 2014'te VanArsdel'in yaşadığı düşüş, rakiplerinde gözlemlenmedi.
-2. Sağ tarafta ortada bulunan "Segment tarafından düzenlenen Total Category Volume" adlı çubuk grafik, VanArsdel'in en iyi 2 segmentini gösterecek şekilde filtrelenmiştir. Bu filtrenin nasıl oluşturulduğuna bir göz atalım:  
+2. Sağ tarafta ortada bulunan "Segment ölçütüne göre Total Category Volume" adlı çubuk grafik, VanArsdel'in en iyi 2 segmentini gösterecek şekilde filtrelenmiştir. Bu filtrenin nasıl oluşturulduğuna bir göz atalım:  
    
    a.  Sağ taraftaki Filtreler bölmesini genişletin.  
    b.  Görselleştirmeyi seçmek için tıklayın.  
    c.  Görsel düzeyi filtreleri bölümünde, **Segment**'in yalnızca **Convenience** ve **Moderation** segmentlerini içerecek şekilde filtrelenmiş olduğuna dikkat edin.  
    d.  Söz konusu bölümü genişletmek için Segment'i seçerek filtreyi değiştirin ve ardından **Productivity** seçeneğini işaretleyerek bu segmenti de ekleyin.  
-3. "Month ve isVanArsdel tarafından düzenlenen Total Units" kutucuğunda, sayfaya VanArsdel'e göre çapraz filtre uygulamak için açıklamadaki siyah renkli "Yes" seçeneğini belirleyin. Productivity segmentinde faaliyet göstermediğimize dikkat edin.
+3. "Month ve isVanArsdel ölçütlerine göre Total Units" kutucuğunda, sayfaya VanArsdel'e göre çapraz filtre uygulamak için açıklamadaki siyah renkli "Yes" seçeneğini belirleyin. Productivity segmentinde faaliyet göstermediğimize dikkat edin.
 4. Filtreyi kaldırmak için siyah renkli "Yes" seçeneğini tekrar belirleyin.
 5. Çizgi grafiğe göz atın. Aylık pazar payımızı ve 12 aylık hareketli düzende pazar paylarımızı gösterir. 12 aylık hareketli düzendeki veriler, aylık dalgalanmaların giderilmesine yardımcı olur ve uzun vadeli eğilimleri gösterir. Her segment için pazar payında ne kadar dalgalanma olduğunu görmek üzere çubuk grafikte Convenience ve ardından Moderation seçeneklerini belirleyin. Moderation segmenti Convenience segmentiyle karşılaştırıldığında pazar payında daha fazla dalgalanma gözlemleniyor.
 
@@ -86,7 +86,7 @@ Hâlâ Haziran'da pazar payında yaşanan büyük düşüşün sebebini öğrenm
 #### <a name="page-3-of-our-report-focuses-on-sentiment"></a>Raporumuzun 3. sayfası Yaklaşım odaklıdır.
 ![](media/sample-sales-and-marketing/sales6.png)
 
-Twitter, Facebook, bloglar, makaleler vb. iki çizgi grafikle gösterilen yaklaşıma katkı sağlar. Sol üst taraftaki yaklaşım grafiği, ürünlerimize yönelik yaklaşımın Şubat ayına kadar son derece nötr olduğunu gösteriyor. Ardından Şubat ayında ciddi bir düşüş başlamış ve Haziran'da en düşük seviyeye ulaşılmıştır. Yaklaşımdaki bu düşüşün sebebi nedir? Dış kaynaklara bakmamız gerekiyor. Şubat ayında birkaç makale ve blog gönderisinde, VanArsdel'in müşteri hizmetleri sektörün en kötüsü olarak değerlendirilmiştir. Basında yer alan bu kötü değerlendirmelerin müşteri yaklaşımı ve satış ile doğrudan bağıntısı olmuştur. VanArsdel, müşteri hizmetlerini geliştirmek için sıkı çalışmış, bu konuda müşterilerin ve sektörün dikkatini çekmiştir. Temmuz ayında pozitif yaklaşım artmaya başlamış ve 60'ları görerek en yüksek seviyesine ulaşmıştır. Yaklaşımdaki bu artışın 1. ve 3. sayfalardaki "Month tarafından düzenlenen Total Units" kutucuklarına da yansıdığını görebiliriz. Belki de bu, Haziran ayındaki pazar payı düşüşünü kısmen açıklıyor.
+Twitter, Facebook, bloglar, makaleler vb. iki çizgi grafikle gösterilen yaklaşıma katkı sağlar. Sol üst taraftaki yaklaşım grafiği, ürünlerimize yönelik yaklaşımın Şubat ayına kadar son derece nötr olduğunu gösteriyor. Ardından Şubat ayında ciddi bir düşüş başlamış ve Haziran'da en düşük seviyeye ulaşılmıştır. Yaklaşımdaki bu düşüşün sebebi nedir? Dış kaynaklara bakmamız gerekiyor. Şubat ayında birkaç makale ve blog gönderisinde, VanArsdel'in müşteri hizmetleri sektörün en kötüsü olarak değerlendirilmiştir. Basında yer alan bu kötü değerlendirmelerin müşteri yaklaşımı ve satış ile doğrudan bağıntısı olmuştur. VanArsdel, müşteri hizmetlerini geliştirmek için sıkı çalışmış, bu konuda müşterilerin ve sektörün dikkatini çekmiştir. Temmuz ayında pozitif yaklaşım artmaya başlamış ve 60'ları görerek en yüksek seviyesine ulaşmıştır. Yaklaşımdaki bu artışın 1. ve 3. sayfalardaki "Month ölçütüne göre Total Units" kutucuklarına da yansıdığını görebiliriz. Belki de bu, Haziran ayındaki pazar payı düşüşünü kısmen açıklıyor.
 
 Duyarlılık uçurumu incelenmesi gereken başka bir alandır: Hangi bölgeler en büyük duyarlılık uçurumuna sahip? Yönetim bunu nasıl faydaya çevirebilir? Diğer bölgelerde de aynısını uygulamak için hangi yöntemlere başvurmak gerekir?
 
