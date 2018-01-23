@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: Şirket içi veri ağ geçidi (ayrıntılı)
           href: service-gateway-onprem-indepth.md
+        - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
+          href: service-gateway-high-availability-clusters.md
         - name: Şirket içi veri ağ geçidi hakkında SSS
           href: service-gateway-onprem-faq.md
         - name: Şirket içi veri ağ geçidi (kişisel mod)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Durum parametrelerini kullanma
           href: desktop-what-if.md
+        - name: Detaylandırmayı kullanma
+          href: desktop-drillthrough.md
+        - name: Göreli tarih dilimleyici ve filtre kullanma
+          href: desktop-slicer-filter-date-range.md
         - name: Power BI raporlarında erişilebilirlik
           href: desktop-accessibility.md
         - name: Gruplandırma ve gruplamayı kullanma
