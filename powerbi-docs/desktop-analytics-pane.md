@@ -80,7 +80,7 @@ Seçtiğiniz görselde (bu örnekte, bir **Harita** görseli) dinamik başvuru �
 Dinamik başvuru çizgilerinin kullanılabildiği görsel türlerini genişletmek de dahil daha fazla özellik ve işlev sunmayı planlıyoruz; bu nedenle yenilikleri sık sık kontrol etmenizde fayda var.
 
 ## <a name="apply-forecasting"></a>Tahmin Uygulama
-**Tahmin** özelliğini, bir görseli seçip **Analiz** bölmesindeki **Tahmin** bölümünü genişleterek kullanabilirsiniz. Tahmini değiştirmek için, *Uzunluğu tahmin edin* ve *Olasılık aralığı* gibi birçok giriş sağlayabilirsiniz. Aşağıdaki görüntüde tahmin uygulanmış basit bir çizgi görseli gösterilmektedir ancak hayal gücünüzden yararlanarak (ve *tahmin etme* özelliğiyle deneme yaparak) bu özelliğin modellerinize nasıl uygulanabileceğini anlayabilirsiniz.
+**Tahmin** özelliğini, bir görseli seçip **Analiz** bölmesindeki **Tahmin** bölümünü genişleterek kullanabilirsiniz. Tahmini değiştirmek için, *Tahmin uzunluğu* ve *Olasılık aralığı* gibi birçok giriş sağlayabilirsiniz. Aşağıdaki görüntüde tahmin uygulanmış basit bir çizgi görseli gösterilmektedir ancak hayal gücünüzden yararlanarak (ve *tahmin etme* özelliğiyle deneme yaparak) bu özelliğin modellerinize nasıl uygulanabileceğini anlayabilirsiniz.
 
 ![](media/desktop-analytics-pane/analytics-pane_8.png)
 

@@ -42,7 +42,7 @@ Birlikte ilerleyebilmek için, app.powerbi sayfasında oturum açın ve [Peraken
 > 
 > 
 
-1. Raporun "New Stores" sayfasına gidin ve "Open Month ve Chain tarafından düzenlenen Open Store Count" sütun grafiğini seçin.
+1. Raporun "New Stores" sayfasına gidin ve "Open Month ve Chain ölçütlerine göre Open Store Count" sütun grafiğini seçin.
 2. Görsel Öğeler bölmesinde, biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.  Ardından **Başlık** seçeneğini belirleyerek bu bölümü genişletin.  
    
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
@@ -80,7 +80,7 @@ Aynı sütun grafiği seçili durumdayken Arka Plan seçeneklerini genişletin.
    Bu ana kadar gerçekleştirdiğimiz tüm özelleştirmeleri geri almak için **Arka Plan** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.
 
 ## <a name="customize-visualization-legends"></a>Görselleştirme açıklamalarını özelleştirme
-1. **Overview** adlı rapor sayfasını açın "FiscalMonth ve District Manager tarafından düzenlenen Total Sales Variance" grafiğini seçin.
+1. **Overview** adlı rapor sayfasını açın "FiscalMonth ve District Manager ölçütlerine göre Total Sales Variance" grafiğini seçin.
 2. Görsel Öğeler sekmesinde, biçimlendirme bölmesini açmak için boya fırçası simgesini seçin.  
 3. **Açıklama** seçeneklerini genişletin.
    
@@ -104,9 +104,9 @@ Aynı sütun grafiği seçili durumdayken Arka Plan seçeneklerini genişletin.
 | sütun |evet |evet |evet |
 | birleşik |evet |evet |evet |
 | halka |evet |evet |evet |
-| doldurulmuş harita |evet |evet |evet |
+| kartogram |evet |evet |evet |
 | huni |evet |evet |kullanılamaz |
-| ölçek |evet |evet |kullanılamaz |
+| ölçer |evet |evet |kullanılamaz |
 | kpi |evet |evet |kullanılamaz |
 | çizgi |evet |evet |evet |
 | harita |evet |evet |evet |

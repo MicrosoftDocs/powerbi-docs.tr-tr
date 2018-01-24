@@ -216,7 +216,7 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 
 | **cardName** |
 | --- |
-| axis: Ekseni ölç |
+| axis: Ölçer ekseni |
 | breakdown: Kırılım |
 | bubbles: Kabarcıklar |
 | calloutValue: Açıklama Balonu Değeri |
@@ -246,7 +246,7 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 | percentBarLabel: Dönüştürme Oranı Etiketi |
 | plotArea: Çizim Alanı |
 | plotAreaShading: Simetri gölgelendirme |
-| ratioLine: Oran satırı |
+| ratioLine: Oran çizgisi |
 | referenceLine: Sabit Çizgi |
 | ribbonChart: Şeritler |
 | rotation: Döndürme |

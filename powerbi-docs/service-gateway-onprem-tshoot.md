@@ -218,7 +218,7 @@ Herhangi bir ilerleme kaydedemediyseniz [fiddler](#fiddler) veya netsh gibi ara�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ_DJ30VNk4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="performance-counters"></a>Performans Sayaçları
-Ağ geçidine ilişkin etkinlikleri ölçek için kullanılabilecek çok sayıda performans sayacı vardır. Bunlar, etkinlik yükünüzün çok fazla olup olmadığını ve yeni bir ağ geçidine ihtiyaç duyup duymayacağınızı anlamanıza yardımcı olur. Bu sayaçlar işlemlerin ne kadar sürdüğünü göstermez.
+Ağ geçidine ilişkin etkinlikleri ölçer için kullanılabilecek çok sayıda performans sayacı vardır. Bunlar, etkinlik yükünüzün çok fazla olup olmadığını ve yeni bir ağ geçidine ihtiyaç duyup duymayacağınızı anlamanıza yardımcı olur. Bu sayaçlar işlemlerin ne kadar sürdüğünü göstermez.
 
 Bu sayaçlara Windows Performans İzleyicisi aracı üzerinden erişilebilir.
 

@@ -31,7 +31,7 @@ Ağ geçidi yüklendikten sonra iş veya okul hesabınızla oturum açmanız ger
 
 ![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
-Oturum açtıktan sonra yeni bir ağ geçidi yapılandırabilir veya var olan ağ geçidini taşıyabilir, geri yükleyebilir veya devralabilirsiniz.
+Oturum açtıktan sonra yeni bir ağ geçidi yapılandırabilir veya var olan ağ geçidini geçirebilir, geri yükleyebilir veya devralabilirsiniz.
 
 ![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
@@ -41,13 +41,13 @@ Oturum açtıktan sonra yeni bir ağ geçidi yapılandırabilir veya var olan a�
 3. **Yapılandır**'ı seçin.
 
 > [!NOTE]
-> Ağ geçidini taşımanız, geri yüklemeniz veya devralmanız gerekirse kurtarma anahtarına ihtiyaç duyarsınız. Bu anahtarı güvenli bir yerde saklamayı unutmayın.
+> Ağ geçidini geçirmeniz, geri yüklemeniz veya devralmanız gerekirse kurtarma anahtarına ihtiyaç duyarsınız. Bu anahtarı güvenli bir yerde saklamayı unutmayın.
 > 
 > 
 
 ![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
-### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Var olan bir ağ geçidini taşıma, geri yükleme veya devralma
+### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Var olan bir ağ geçidini geçirme, geri yükleme veya devralma
 Kurtarmak istediğiniz ağ geçidini seçmeniz ve ağ geçidini oluşturduğunuzda belirlediğiniz kurtarma anahtarını girmeniz gerekir.
 
 ### <a name="on-premises-data-gateway-connected"></a>Şirket içi veri ağ geçidi bağlandı

@@ -74,7 +74,7 @@ Power BI hizmetinde oturum açın ve **Retail Analysis Sample** raporunu [Düzen
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
 3. Y Ekseni **Konumunu** sağ olarak ayarlayın.
 4. Metin rengini, boyutunu ve yazı tipini biçimlendirin. Bu örnekte **Renk** için siyah, **Metin Boyutu** için 14 ve **Yazı Tipi** için Arial Black seçeneğini belirledik.  
-5. **Birimleri görüntüle** seçeneğini Milyon olarak ve **Değer ondalık basamakları** seçeneğini sıfır olarak bırakın.
+5. **Görüntüleme birimleri** seçeneğini Milyon olarak ve **Değer ondalık basamakları** seçeneğini sıfır olarak bırakın.
 6. Bu görselleştirme için Y ekseni başlığının görüntülenmesi görseli geliştirmediğinden **Başlık** seçeneğini Kapalı olarak bırakın.  
 7. **Renk** seçeneğini koyu gri olarak değiştirerek ve **Darbe genişliği** değerini 2'ye artırarak kılavuz çizgilerini belirginleştirin.
    
