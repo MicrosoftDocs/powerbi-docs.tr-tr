@@ -192,7 +192,7 @@ Listede bir öğe seçtiğinizde **köşeli çift ayraç simgelerini** veya giri
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Joker karakter (*) kullanma
+### <a name="using-wildcard-"></a>Joker karakter (\*) kullanma
 **Değiştir (Özgün ad)** dizeniz için joker karakter kullanabilirsiniz. Joker karakter yalnızca tek başına kullanılabilir, diğer herhangi bir dize bölümüyle kullanılamaz. Bu, tüm kullanıcılarınızı alıp veri kaynağına tek bir değer geçirmenize olanak tanır. Bu, kuruluşunuzdaki tüm kullanıcıların yerel ortamınızda aynı kullanıcı adını kullanmasını istediğinizde fayda sağlar.
 
 ### <a name="test-a-mapping-rule"></a>Bir eşleme kuralını test etme

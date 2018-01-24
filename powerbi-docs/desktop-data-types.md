@@ -126,7 +126,7 @@ Aşağıdaki tabloda satır başlığı, çıkarılan sayıyı (sol taraf) sütu
 
 **Çarpma (*)**
 
-| İşleç (*) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| İşleç (\*) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
 | TAMSAYI |TAMSAYI |PARA BİRİMİ |GERÇEK SAYI |TAMSAYI |
 | PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |PARA BİRİMİ |PARA BİRİMİ |
