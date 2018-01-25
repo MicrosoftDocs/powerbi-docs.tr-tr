@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a96e4b0f20eaea1a9f9e9fc71ea2724952f61fc3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67ed59961ca5bc4b382adf105bbc5c97ff470118
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI ile AT Internet Bridge'e bağlanma
 AT Internet, sahip olduğu birleşik dijital analiz platformu Analytics Suite'i kullanarak verilerinizden anında faydalanabilmenize yardımcı olur. Power BI için AT Internet Bridge içerik paketinde siteniz için ziyaretler, kaynaklar, yerelleştirme ve cihazlar ile ilgili veriler bulunur.
@@ -50,7 +50,7 @@ Power BI için [AT Internet Bridge içerik paketine](https://app.powerbi.com/get
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

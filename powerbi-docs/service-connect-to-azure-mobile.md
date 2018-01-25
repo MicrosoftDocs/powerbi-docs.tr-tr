@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 85b43579785983da2ddc3ac2e302396d1a282792
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ff7ff30874d4038547a0db94ae8c285081acc8eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI ile Azure Mobile Engagement'a bağlanma
 Power BI Azure Mobile Engagement içerik paketi sayesinde uygulama verileriniz konusunda hızla öngörü edinirsiniz.
@@ -29,7 +29,7 @@ Power BI Azure Mobile Engagement içerik paketi sayesinde uygulama verileriniz k
 Power BI için [Azure Mobile Engagement içerik paketine](https://app.powerbi.com/groups/me/getdata/services/azme) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
     ![](media/service-connect-to-azure-mobile/getdata.png)
 2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
@@ -50,7 +50,7 @@ Power BI için [Azure Mobile Engagement içerik paketine](https://app.powerbi.co
 
  **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

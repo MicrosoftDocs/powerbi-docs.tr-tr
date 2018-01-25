@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ec225639ed23f57735081d556c1ac3283dc4d691
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c2d8e22758e3d28a3851b99140876ff1646a6be0
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Power BI için Troux'a bağlanma
 Troux içerik paketiyle Enterprise Architecture deponuzu tamamen yeni yöntemlerle doğrudan Power BI'da görselleştirebilirsiniz. İçerik paketi; iş becerileriniz, bunları size sağlayan uygulamalar ve Power BI ile tamamen özelleştirilebilecek bu uygulamaları destekleyen teknolojilere ilişkin bir dizi öngörü sunar.
@@ -29,7 +29,7 @@ Troux içerik paketiyle Enterprise Architecture deponuzu tamamen yeni yöntemler
 Power BI için [Troux içerik paketine](https://app.powerbi.com/getdata/services/troux) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-troux/getdata.png)
 2. **Hizmetler** kutusundaki **Al**'ı seçin.
@@ -50,7 +50,7 @@ Power BI için [Troux içerik paketine](https://app.powerbi.com/getdata/services
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

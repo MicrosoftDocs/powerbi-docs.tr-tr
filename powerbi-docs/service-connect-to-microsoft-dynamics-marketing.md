@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI ile Microsoft Dynamics Marketing'e bağlanma
 Power BI için Microsoft Dynamics Marketing içerik paketi ile Dynamics Marketing'deki verilerinize kolayca erişir ve verilerinizi zahmetsizce çözümlersiniz. İçerik paketi; Programlar, Kampanyalar, Pazarlama Kişileri ve Şirketleri, Müşteri Adayları, Müşteri Adayı Etkileşimleri ve Puanlaması, E-posta Pazarlama İletileri ve Web Siteleri, davranış gözlemleri, bütçeler, finansal işlemler, performans KPI'leri gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle OData akışına ilişkin açıklayıcı bir model kullanır. 
@@ -53,7 +53,7 @@ Power BI için [Dynamics Marketing içerik paketine](https://app.powerbi.com/get
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

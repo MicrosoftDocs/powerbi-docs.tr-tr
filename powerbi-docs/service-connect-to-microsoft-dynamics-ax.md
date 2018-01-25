@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f942c0551a473140903e2fce19feba641a62e5a2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 38b9233bda842877b4c8c16df2904f5fe8b1966d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI ile Microsoft Dynamics AX içerik paketine bağlanma
 Microsoft Dynamics AX, farklı işletme kullanıcılarına yönelik üç farklı Power BI içerik paketine sahiptir. CFO'lar için tasarlanmış olan Financial Performance içerik paketi, kuruluşunuzun mali performansıyla ilgili öngörülere erişim sağlar. Kanal yöneticileri için tasarlanmış olan Retail Channel Performance içerik paketi, Perakende ve Ticaret verilerini doğrudan çekerek eğilimleri tahmin etmek ve öngörüleri keşfetmek için satış performansına odaklanır. COO ve CFO'lar için tasarlanmış olan Cost Management, operasyonel performans hakkında ayrıntılı bilgiler sunar.
@@ -52,7 +52,7 @@ Power BI için Microsoft Dynamics AX [Retail Channel Performance](https://app.po
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

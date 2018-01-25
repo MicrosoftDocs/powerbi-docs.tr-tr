@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
@@ -100,7 +100,7 @@ ms.lasthandoff: 01/05/2018
 * Önizleme: [Power BI hizmeti, powerbi.com için yeni gezinti özelliklerini](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) keşfetme.
 * Önizleme: [Power BI raporlarını PowerPoint'e aktarma](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
 * Önizleme: Power BI Desktop uygulamasında düzenlemek üzere Power BI hizmetinden [Power BI raporlarını (PBIX dosyalarını) indirme](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/).
-* Yüzde değerini animasyonlu sıvı dalgalarıyla gösteren daire şeklinde bir ölçer olan [sıvı doldurma ölçeri](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) oluşturma.
+* Yüzde değerini animasyonlu sıvı dalgalarıyla gösteren daire şeklinde bir ölçek olan [sıvı doldurma ölçeği](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) oluşturma.
 * Bu Power BI içerik paketiyle [Jira proje yönetim verilerinizi](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) keşfetme
 * Bu Power BI içerik paketiyle [Insightcentr verilerinizi](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) keşfetme
 * [İnfografik tasarımcı özel görselini](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/) kullanarak hızla infografik oluşturma
@@ -249,7 +249,7 @@ Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleşt
 
 ***Soru-Cevap***
 
-* Artık Soru-Cevap içinde Ölçer ve Alan grafikleri belirtebilirsiniz
+* Artık Soru-Cevap içinde Ölçek ve Alan grafikleri belirtebilirsiniz
 * Soru-Cevap için geliştirilmiş otomatik tamamlama: Birkaç karakter yazdığınızda Soru-Cevap otomatik tamamlamaya ve görsel önermeye başlar.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)
@@ -470,7 +470,7 @@ Daha fazla bilgi için [blog sayfamızı](http://blogs.msdn.com/b/powerbi/archiv
 
 **6 Ekim 2015**
 
-* Power BI Soru-Cevap sayesinde basit ve sezgisel sorular sorup etkileşimli grafik ve graflar halinde cevap alarak verilerinizi keşfedebilirsiniz. Bu sürümde veriler hakkında bilgi sahibi olmasanız bile Power BI Soru-Cevap ile çalışmaya başlamanıza yardımcı olacak bir özellik ekledik. Bu özellikle çalışmaya başlamak için [herhangi bir panoya gidip Soru-Cevap soru kutusunun yanındaki "Soru sorma" bağlantısına tıklayın](service-how-to-q-and-a.md). Power BI, verilerinizi temel alan bir dizi öneri sunar.
+* Power BI Soru-Cevap sayesinde basit ve sezgisel sorular sorup etkileşimli grafik ve graflar halinde cevap alarak verilerinizi keşfedebilirsiniz. Bu sürümde veriler hakkında bilgi sahibi olmasanız bile Power BI Soru-Cevap ile çalışmaya başlamanıza yardımcı olacak bir özellik ekledik. Bu özellikle çalışmaya başlamak için [herhangi bir panoya gidip Soru-Cevap soru kutusunun yanındaki "Soru sorma" bağlantısına tıklayın](power-bi-tutorial-q-and-a.md). Power BI, verilerinizi temel alan bir dizi öneri sunar.
 * İki hafta önce Power BI Desktop uygulamasındaki rapor tuvaline şekil ekleme desteği sunmaya başladık. Bu hafta da Power BI web uygulamasında rapor oluşturma ve/veya düzenleme sırasında rapor tuvalinize şekil ekleyebileceğinizi duyurmaktan mutluluk duyuyoruz.
 * Pano paylaştığınızda gönderilen bildirim e-postalarını devre dışı bırakma seçeneği ekledik. Bunun için Power BI paylaşım iletişim kutusundaki "Alıcılara e-posta bildirimi gönder" onay kutusunun işaretini kaldırmanız yeterlidir. Size bir URL verilir. Bu URL'yi kopyalayıp panonuza erişmelerini istediğiniz iş arkadaşlarınızla paylaşabilirsiniz.
 * Microsoft Dynamics NAV, küçük-orta büyüklükteki kuruluşlara yönelik bir iş yönetimi çözümüdür. Müşterilere finansal ve işletme süreçleri üzerinde daha geniş bir denetim olanağı sağlayarak işletmeler için eksiksiz bir çözüm sunar. Power BI içerik paketi, Dynamics NAV kullanıcıları için satış ve kâr, fırsat kanalı, kârlılık ve daha birçok hazır rapor sunar. Bu ölçümlerin yer aldığı pano tamamen özelleştirilebilir ve kolayca bağlantı kurarak verilerinizi keşfetmenizi sağlar.

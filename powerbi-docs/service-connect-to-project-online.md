@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 509b75d91611de827b236e45dc25ef893aff8177
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 778453840e5ab311f635fd20228186ac3f3fc39c
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Power BI ile Project Online'a bağlanma
 Microsoft Project Online, proje portföy yönetimi (PPM) ve günlük çalışmalara yönelik esnek bir çevrimiçi çözümdür. Project Online, kuruluşların çalışmaya başlayarak proje portföy yatırımlarını önceliklendirmesine ve planlanan iş değerini sunmasına olanak sağlar. Power BI için Project Online içerik paketi sayesinde portföy durumu ve proje uyumluluğu gibi kullanıma hazır ölçümlerle proje verilerinizi araştırırsınız.
@@ -29,7 +29,7 @@ Microsoft Project Online, proje portföy yönetimi (PPM) ve günlük çalışmal
 Power BI için [Project Online içerik paketine](https://app.powerbi.com/getdata/services/project-online) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
     ![](media/service-connect-to-project-online/getdata.png)
 2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
@@ -50,7 +50,7 @@ Power BI için [Project Online içerik paketine](https://app.powerbi.com/getdata
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

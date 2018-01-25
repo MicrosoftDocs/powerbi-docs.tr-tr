@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI hizmeti raporlarındaki Okuma görünümü ve Düzenleme görünümü
 Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: Okuma görünümü ve Düzenleme görünümü. Okuma görünümü, özellikle veri *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir. 
@@ -56,7 +56,7 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 | [Rapordaki **Görünüm** seçenekleri](power-bi-report-display-settings.md) | Evet ancak bazı özel durumlar mevcuttur. | Evet, tüm seçenekler (kılavuz çizgileri, yaslama ve kilitleme de dahil) kullanılabilir. |
 | [Yenileme zamanlaması oluşturma](refresh-data.md) | Hayır  | Evet |
 | [Bir rapora abone olma](service-report-subscribe.md) | Evet | Hayır |
-| [Soru-Cevap ile raporlarda soru sorma](service-q-and-a.md) | Hayır  | Evet |
+| [Soru-Cevap ile raporlarda soru sorma](power-bi-q-and-a.md) | Hayır  | Evet |
 | [Kullanım ölçümlerini görüntüleme](service-usage-metrics.md) | Evet, rapor tuvalinde kullanılabilir. | Evet, rapor listesinde (içerik görünümü) kullanılabilir. |
 | [İlişkilileri görüntüleme](service-related-content.md) | Evet, rapor tuvalinde kullanılabilir. | Evet, rapor listesinde (içerik görünümü) kullanılabilir. |
 | [Bir raporu kaydetme](service-report-save.md) | Evet, ancak yalnızca **Farklı kaydet** seçeneği ile kullanılabilir. | Evet |

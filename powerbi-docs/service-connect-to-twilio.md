@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 344ed348f087ead10a8fa4a2c297909e8da628f4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9a257ad413ff659ab763b26688a22c8461949eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Power BI ile Twilio'ya bağlanma
 Power BI için Microsoft Twilio içerik paketi, verilerinizi Power BI'a çekmenize olanak sağlar ve verilerinize ilişkin öngörüleri gösteren, kullanıma hazır bir [Twilio panosu](https://powerbi.microsoft.com/integrations/twilio) ile bir rapor oluşturur. Ayrıca, Power BI'ın oluşturduğu veri kümesinde özel raporlar ve pano oluşturabilirsiniz. Veriler günde bir kez yenilenir ve sürekli güncel kalır.
@@ -29,7 +29,7 @@ Power BI için Microsoft Twilio içerik paketi, verilerinizi Power BI'a çekmeni
 Power BI için [Twilio içerik paketine](https://app.powerbi.com/getdata/services/twilio) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-twilio/pbi_getdata.png) 
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
@@ -47,7 +47,7 @@ Power BI için [Twilio içerik paketine](https://app.powerbi.com/getdata/service
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunu kullanarak bir soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

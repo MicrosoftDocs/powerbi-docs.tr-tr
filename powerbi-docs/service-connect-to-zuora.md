@@ -17,40 +17,40 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI ile Zuora'ya bağlanma
-Power BI için Zuora; önemli gelir, faturalandırma ve abonelik verilerini görselleştirmenizi sağlar. Kullanım eğilimlerini çözümlemek, fatura ve ödemeleri takip etmek ve yinelenen geliri izlemek için varsayılan pano ve raporları kullanın veya bunları kendi benzersiz pano ve raporlama ihtiyaçlarınızı karşılayacak şekilde özelleştirin. 
+Power BI için Zuora; önemli gelir, faturalandırma ve abonelik verilerini görselleştirmenizi sağlar. Kullanım eğilimlerini çözümlemek, fatura ve ödemeleri takip etmek ve yinelenen geliri izlemek için varsayılan pano ve raporları kullanın veya bunları kendi benzersiz pano ve raporlama ihtiyaçlarınızı karşılayacak şekilde özelleştirin.
 
 Power BI için [Zuora](https://app.powerbi.com/getdata/services/Zuora)'ya bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
-   
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. **Zuora** \> **Al** seçeneğini belirleyin.
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
 4. Zuora URL'nizi belirtin. Bu genellikle "https://www.zuora.com"dur, aşağıdaki [bu parametreleri bulma](#FindingParams) başlığından ayrıntıları bulabilirsiniz.
-   
+
    ![](media/service-connect-to-zuora/params.png)
 5. **Kimlik Doğrulama Yöntemi** için **Temel** seçeneğini belirleyin ve kullanıcı adınızı ve parolanızı sağlayın (büyük/küçük harfe duyarlıdır), ardından **Oturum aç**'ı seçin.
-   
+
     ![](media/service-connect-to-zuora/creds.png)
-6. Onayladıktan sonra içeri aktarma işlemi otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
-   
+6. Onaylamanızın ardından, içeri aktarma işlemi otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
@@ -111,4 +111,3 @@ Zuora içerik paketi, Zuora hesabınızın birçok farklı özelliğini çeker. 
 [Power BI ile çalışmaya başlama](service-get-started.md)
 
 [Power BI'da veri alma](service-get-data.md)
-

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ed7255df535cf2e6703fe9235b192c85d98d92d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cac92465e36b87d2a59420f5a6265c219371ceba
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI ile Lithium'a bağlanma
 Lithium, kullanıcıların, sorularına ilişkin cevaplar almasına ve deneyimlerini paylaşmasına yardımcı olarak dünyanın en iyi markaları ile müşterileri arasında güvenilir ilişkiler inşa eder. Lithium içerik paketini Power BI'a ekleyerek satışların ve müşteri bağlılığının artırılmasına ve hizmet maliyetlerinin azaltılmasına yardımcı olmak üzere çevrimiçi topluluğunuza ilişkin ana ölçümler gerçekleştirebilirsiniz. 
@@ -32,7 +32,7 @@ Power BI için [Lithium içerik paketine](https://app.powerbi.com/getdata/servic
 >Power BI içerik paketi Lithium API'sini kullanır. Belirli sayıyı aşan API çağrıları Lithium'un ek ücret uygulamasına neden olabilir; lütfen Lithium yöneticinize danışın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-lithium/pbi_getdata.png) 
 2. **Hizmetler** kutusundaki **Al**'ı seçin.
@@ -55,10 +55,10 @@ Power BI için [Lithium içerik paketine](https://app.powerbi.com/getdata/servic
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenmeye zamanlanacak olsa da yenileme zamanlamasını değiştirebilir veya **Şimdi Yenile** ile istediğiniz zaman yenileme yapabilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 Lithium içerik paketi için Lithium Community v15.9 veya sonraki bir sürümü gerekir. Doğrulamak için lütfen Lithium yöneticinize danışın.

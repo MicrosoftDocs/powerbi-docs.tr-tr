@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fb2ebb35dd8a43d477bb300b7f601dd358339450
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
@@ -29,7 +29,7 @@ Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikl
 Power BI için [Marketo içerik paketi](https://app.powerbi.com/getdata/services/marketo)'ne bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-marketo/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
@@ -54,10 +54,10 @@ Power BI için [Marketo içerik paketi](https://app.powerbi.com/getdata/services
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenmeye zamanlanacak olsa da yenileme zamanlamasını değiştirebilir veya **Şimdi Yenile** ile istediğiniz zaman yenileme yapabilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Power BI'da, Marketo'nun sunduğu, günümüzle bir yıl öncesi arasındaki dönemde gerçekleşen etkinliklere ilişkin aşağıdaki verilere erişilebilir:

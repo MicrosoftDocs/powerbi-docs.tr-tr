@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 502135583f4d62144a2a2bdb908724c4f8e6b579
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI ile appFigures'a bağlanma
 Power BI ve appFigures içerik paketi ile uygulamalarınıza ilişkin önemli istatistikleri izlemek son derece kolaydır. Power BI; uygulama satışları, indirmeler ve reklam istatistikleri gibi verilerinizi alarak varsayılan bir pano ve bu verilere dayalı raporlar oluşturur.
@@ -29,7 +29,7 @@ Power BI ve appFigures içerik paketi ile uygulamalarınıza ilişkin önemli is
 [appFigures içerik paketine](https://app.powerbi.com/getdata/services/appfigures) bağlanın veya Power BI ile [appFigures tümleştirmesi](https://powerbi.microsoft.com/integrations/appfigures) hakkında daha fazla bilgi edinin.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-appfigures/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
@@ -52,7 +52,7 @@ Power BI ve appFigures içerik paketi ile uygulamalarınıza ilişkin önemli is
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
@@ -66,7 +66,7 @@ Power BI'da appFigures ile kullanabileceğiniz veriler aşağıdadır.
 | Dates |Bu tablo, içinde bulunduğunuz günden başlayarak, appFigures hesabınızda Active (Etkin) ve Visible (Görünür) durumda olan uygulamaların en erken Yayımlanma Tarihine kadar olan tarihleri içerir. |
 | Events |Bu tabloda ülkelere göre günlük olarak her bir uygulamaya ilişkin indirme, satış ve reklam bilgileri bulunur. Hem uygulama hem de uygulama içi satın alma bilgilerinin tümünün bu tek tabloda verileceğini ve bunları ayırt etmek için <strong>Type</strong> sütununu kullanabileceğinizi unutmayın. |
 | Inapps |Bu tablo, appFigures hesabınızdaki Active (Etkin) ve Visible (Görünür) durumdaki uygulamalarla ilişkili farklı Uygulama İçi Satın Alma türleri ile ilgili verileri içerir. |
-| Products |Bu tablo, appFigures hesabınızda Active (Etkin) ve Visible (Görünür) olan farklı uygulamalar ile ilgili verileri içerir. |
+| Ürünler |Bu tablo, appFigures hesabınızda Active (Etkin) ve Visible (Görünür) olan farklı uygulamalar ile ilgili verileri içerir. |
 
 ## <a name="troubleshooting"></a>Sorun giderme
 Bazı uygulamalarınızdan alınan veriler Power BI'da gösterilmiyorsa bu uygulamaların appFigures sitesindeki **apps** (uygulamalar) sekmesinde Visible (Görünür) ve Active (Etkin) durumda olup olmadıklarını denetleyin.

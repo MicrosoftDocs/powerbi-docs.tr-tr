@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 8fb0b4a10d4cd1caefb9f3731be1c264e270b943
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5ed68a3ee64803fa895ad9837fe37351163d09af
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Power BI ile Stripe'a bağlanma
 Power BI içerik paketi ile Power BI'da Stripe verilerinizi görselleştirin ve araştırın. Power BI Stripe içerik paketi Müşterileriniz, Ödemeleriniz, Olaylarınız ve Faturalarınız ile ilgili verileri çeker. Veriler, son 30 günde gerçekleşen en yeni on bin olayı ve beş bin ödemeyi içerir. İçerik, sizin denetiminizde olan bir zamanlamada her gün otomatik olarak bir kez yenilenir. 
@@ -29,7 +29,7 @@ Power BI içerik paketi ile Power BI'da Stripe verilerinizi görselleştirin ve 
 [Power BI için Stripe içerik paketine](https://app.powerbi.com/getdata/services/stripe) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki Veri Al seçeneğin belirleyin.  
+1. Sol gezinti bölmesinin alt kısmındaki Veri Al seçeneğini belirleyin.  
    
     ![](media/service-connect-to-stripe/getdata.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.  
@@ -47,13 +47,13 @@ Power BI içerik paketi ile Power BI'da Stripe verilerinizi görselleştirin ve 
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenmeye zamanlanacak olsa da yenileme zamanlamasını değiştirebilir veya **Şimdi Yenile** ile istediğiniz zaman yenileme yapabilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)
 
-[Power BI için veri alma](service-get-data.md)
+[Power BI için Veri Alma](service-get-data.md)
 

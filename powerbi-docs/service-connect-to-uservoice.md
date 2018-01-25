@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: dac3392ff7b86a2dcda0415a7d271c9140dcd534
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5dfd8c154b402f305e7de0c255040347b7fd4193
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI ile UserVoice'e bağlanma
 Power BI ve UserVoice içerik paketi ile UserVoice verilerinizi izlemek ve araştırmak çok kolay. Power BI; biletler, öneriler ve memnuniyet derecelendirmeleri de dahil olmak üzere verilerinizi alıp bu verilere dayalı, kullanıma hazır pano ve raporlar oluşturur.
@@ -32,7 +32,7 @@ Power BI için [UserVoice içerik paketine](https://app.powerbi.com/getdata/serv
 >Power BI içerik paketine bağlanmak için bir yönetici hesabı gereklidir. İçerik paketi aynı zamanda UserVoice API'sinden yararlanır ve UserVoice sınırlarına uygun kullanıma katkıda bulunur. Aşağıda daha fazla ayrıntı bulabilirsiniz.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-uservoice/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
@@ -59,7 +59,7 @@ Power BI için [UserVoice içerik paketine](https://app.powerbi.com/getdata/serv
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

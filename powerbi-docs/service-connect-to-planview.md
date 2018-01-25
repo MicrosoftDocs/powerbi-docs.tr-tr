@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 12346c0a9a580b2c3dd36c61a00d27097e1b3937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cef43b20a6c7fe91ef35567caa511d125c536bf5
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI ile Planview Enterprise'a bağlanma
 Planview Enterprise içerik paketi, kaynağınızı ve iş yönetim verilerinizi doğrudan Power BI'da yepyeni yöntemlerle görselleştirmenizi sağlar. Planview Enterprise oturum açma kimlik bilgilerinizi kullanarak portföy yatırım harcamalarınızı etkileşimli olarak görün, hangi noktalarda bütçeyi aştığınızı veya bütçenin altında kaldığınızı anlayın ve projelerinizin kurumsal stratejik önceliklerinizle ne kadar uyumlu olduğunu öğrenin. Ayrıca sizin için en önemli olan öngörüleri almak için kullanıma hazır panoları ve raporları genişletebilirsiniz.
@@ -50,7 +50,7 @@ Planview Enterprise içerik paketi, kaynağınızı ve iş yönetim verilerinizi
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

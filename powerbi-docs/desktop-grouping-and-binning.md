@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop'ta gruplandırma ve gruplama özelliklerini kullanma
 **Power BI Desktop** görsel oluştururken, temel alınan verilerde bulunan değerlere bağlı olarak verilerinizi öbekler (veya **gruplar**) halinde toplar. Genellikle sorun çıkmaz ancak bu öbeklerin sunulma biçimini geliştirmek istediğiniz zamanlar olabilir. Örneğin, üç ürün kategorisini daha büyük bir kategoriye (bir *gruba*) yerleştirmek isteyebilirsiniz. Başka bir örnek vermek gerekirse, satış rakamlarını eşit olarak bölünmüş 923.983 dolarlık gruplar yerine 1.000.000 dolarlık gruplar halinde görmek isteyebilirsiniz.
@@ -69,7 +69,7 @@ Bir gruplama boyutu uygulamak için bir **Alan**'a sağ tıklayıp **Gruplar**'�
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-**Gruplamayı** uygulamalı olarak görmek için bu [videoya](https://youtu.be/UXEYSvgvMaQ?t=12m17s) göz atın.
+**Gruplamayı** uygulamalı olarak görmek için bu [videoya](https://www.youtube.com/watch?v=BRvdZSfO0DY) göz atın.
 
 Böylece, raporlarınızdaki görsellerin istediğiniz şekilde gösterilmesini sağlamak için **gruplandırma** ve **gruplama** özelliklerini kullanarak gerçekleştirebileceğiniz tüm işlemlere değinmiş olduk.
 

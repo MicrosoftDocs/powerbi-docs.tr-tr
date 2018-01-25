@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 2781dc7088824cb00f5dcd174fbfc3677c0f13a6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5a0935d9401841ee2db71fdf821621ababdd01cb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Power BI ile MailChimp'e bağlanma
 Power BI içerik paketi MailChimp hesabınızdan veri çeker ve bir pano, raporlar kümesi ve veri kümesi oluşturarak verilerinizi araştırmanıza olanak sağlar. Analiz verileri çekerek [MailChimp panoları](https://powerbi.microsoft.com/integrations/mailchimp) oluşturun ve kampanyalarınızda, raporlarınızda ve bireysel abonelerinizde görülen eğilimleri hızla tanımlayın. Veriler, güncel bir izleme deneyimi elde etmenizi sağlamak üzere günlük olarak yenilenir.
@@ -29,7 +29,7 @@ Power BI içerik paketi MailChimp hesabınızdan veri çeker ve bir pano, raporl
 Power BI için [MailChimp içerik paketine](https://app.powerbi.com/getdata/services/mailchimp) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
     ![](media/service-connect-to-mailchimp/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al**'ı seçin.
@@ -51,10 +51,10 @@ Power BI için [MailChimp içerik paketine](https://app.powerbi.com/getdata/serv
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenmeye zamanlanacak olsa da yenileme zamanlamasını değiştirebilir veya **Şimdi Yenile** ile istediğiniz zaman yenileme yapabilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)

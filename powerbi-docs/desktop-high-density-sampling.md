@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: c8eb43a86791fa067f7f2417780806eba007672c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: b494120983f6042eeaad41a504180d7b61aa3db8
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI'da yüksek yoğunluklu çizgi örnekleme
 **Power BI Desktop**'ın Haziran 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmeler itibarıyla, yüksek yoğunluklu verileri örnekleyen görselleri geliştiren yeni bir örnekleme algoritması kullanıma sunulmuştur. Örneğin, perakende mağazalarınızın satış sonuçlarından oluşan ve her mağazanın yılda on binden fazla satış makbuzuna sahip olduğu bir çizgi grafik oluşturabilirsiniz. Bu tür satış bilgilerini içeren bir çizgi grafik, her mağaza için alınan verileri (satışların zamana göre nasıl değiştiğini göstermek için ilgili verilerin anlamlı bir temsilini seçin) örnekler ve temel alınan verileri temsil eden çok serili bir çizgi grafik oluşturur. Bu, yüksek yoğunluklu verileri görselleştirmede sık kullanılan bir yöntemdir ve Power BI Desktop, ayrıntıları bu makalede açıklanan yüksek yoğunluklu veri örnekleme özelliğini geliştirmiştir.

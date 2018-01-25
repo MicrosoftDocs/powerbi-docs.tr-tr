@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: cde6ca545d37b2ba490578bf43e7de95b10931d7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 007d4f6f5181722e23e280e1a57d305d7f069155
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Power BI ile ClickDimensions'a bağlanma
 Power BI için ClickDimensions içerik paketi, kullanıcıların, ClickDimensions pazarlama verilerini Power BI'da kullanarak yönetim ekiplerine, gerçekleştirdikleri satış ve pazarlama çalışmalarının başarısına ilişkin daha fazla öngörü sunmasına olanak sağlar. Power BI panolarında ve raporlarında e-posta etkileşimlerini, web ziyaretlerini ve form gönderilerini görselleştirip çözümleyin.
@@ -50,7 +50,7 @@ Power BI için [ClickDimensions içerik paketine](https://app.powerbi.com/getdat
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

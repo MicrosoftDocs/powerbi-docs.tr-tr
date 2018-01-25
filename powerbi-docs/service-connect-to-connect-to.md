@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: c53c7f5e0748e186c68bcc2642b381cf17c423eb
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b97dd32a3b6b075509c15dd1c1df5009c99e5f0b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI ile comScore Digital Analytix'e bağlanma
 Power BI içerik paketi ile Power BI'da comScore Digital Analytix verilerinizi görselleştirin ve araştırın. Veriler, günde bir kez otomatik olarak yenilenir.
@@ -47,14 +47,14 @@ Power BI içerik paketi ile Power BI'da comScore Digital Analytix verilerinizi g
 5. Bağlanmak için comScore kullanıcı adınızı ve parolanızı girin. Bu değeri bulmaya ilişkin ayrıntılar için aşağıya bakın.
    
    ![](media/service-connect-to-connect-to/creds.png)
-6. İçeri aktarma süreci otomatik olarak başlar. Tamamlandığında, Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
+6. İçeri aktarma süreci otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenmeye zamanlanacak olsa da yenileme zamanlamasını değiştirebilir veya **Şimdi Yenile** ile istediğiniz zaman yenileme yapabilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 <a name="Requirements"></a>
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 3327c193828dcdc28c2dd5b93c56615fdb367c70
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aec56a34194d9ed6217384d8d05cbe2ce64080b2
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI ile Projectplace by Planview'a bağlanma
 Projectplace by Planview içerik paketi ile işbirliğine dayalı proje verilerinizi, tamamen yeni yöntemlerle doğrudan Power BI'da görselleştirebilirsiniz. Önemli proje istatistiklerini etkileşimli olarak görüntülemek, en etkin ve üretken ekip üyelerinizi bulmak ve Projectplace hesabınızdaki projeler arasında risk altında bulunan kartları ve etkinlikleri belirlemek için Projectplace oturum açma kimlik bilgilerinizi kullanın. Ayrıca, sizin için en önemli öngörüleri edinmek üzere kullanıma hazır pano ve raporların kapsamını genişletebilirsiniz.
@@ -32,7 +32,7 @@ Projectplace by Planview içerik paketi ile işbirliğine dayalı proje verileri
 >Projectplace verilerinizi Power BI'a aktarmak için bir Projectplace kullanıcısı olmanız gerekir. Ek gereksinimler için aşağıya bakın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
     ![](media/service-connect-to-projectplace/get.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
@@ -55,7 +55,7 @@ Projectplace by Planview içerik paketi ile işbirliğine dayalı proje verileri
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunu kullanarak bir soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz

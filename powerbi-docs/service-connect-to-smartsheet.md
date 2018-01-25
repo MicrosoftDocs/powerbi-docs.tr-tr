@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 6e212f1a3cf114ebdd4eeba59aee20cfa4e02182
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d04ab24a30fe20e8a4797be17efd32867c541c79
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Power BI ile Smartsheet'e bağlanma
 Smartsheet, işbirliği ve dosya paylaşımı için basit bir platform sunar. Power BI için Smartsheet içerik paketi, Smartsheet hesabınıza genel bakış bilgilerini gösteren bir pano, raporlar ve veri kümesi sağlar. Ayrıca, [Power BI Desktop](desktop-connect-to-data.md)'ı kullanarak hesabınızdaki her bir sayfaya doğrudan bağlanabilirsiniz. 
@@ -32,7 +32,7 @@ Power BI için [Smartsheet içerik paketine](https://app.powerbi.com/groups/me/g
 >Ek erişim ayrıcalığı olduğundan, Power BI içerik paketine bağlanılması ve içerik paketinin yüklenmesi için Smartsheet yönetici hesabı tercih edilir.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-smartsheet/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
@@ -54,7 +54,7 @@ Power BI için [Smartsheet içerik paketine](https://app.powerbi.com/groups/me/g
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
@@ -68,4 +68,4 @@ Hesabınızdaki her bir sayfaya doğrudan bağlanmak için [Power BI Desktop](de
 
 [Power BI ile çalışmaya başlama](service-get-started.md)
 
-[Power BI için veri alma](service-get-data.md)
+[Power BI için Veri Alma](service-get-data.md)

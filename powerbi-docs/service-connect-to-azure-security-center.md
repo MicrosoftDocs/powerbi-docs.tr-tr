@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d052bc054e55eabfab53ad3b1ac9229f0a750785
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e26a26d7cba2ae3d68586a2e0dcdf87481009bd6
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-security-center-with-power-bi"></a>Power BI ile Azure Güvenlik Merkezi'ne bağlanma
 Power BI ile Azure Güvenlik Verilerine bağlanarak Azure iş yükünüzün güvenliğine ilişkin öngörüler edinin. Power BI, otomatik olarak Azure Güvenlik Merkezi verilerinize ilişkin bir pano ve rapor oluşturur. Bu pano ve rapor, verileri çözümlemenize ve araştırmanıza olanak sağlar.
@@ -29,7 +29,7 @@ Power BI ile Azure Güvenlik Verilerine bağlanarak Azure iş yükünüzün güv
 Power BI için [Azure Security Center içerik paketine](https://app.powerbi.com/getdata/services/azure-security-center) bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.
+1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-azure-security-center/getdata.png)
 2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
@@ -50,7 +50,7 @@ Power BI için [Azure Security Center içerik paketine](https://app.powerbi.com/
 
 **Sırada ne var?**
 
-* Panonun üst kısmındaki [Soru-Cevap kutusunda soru sormayı](service-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
@@ -68,8 +68,8 @@ Bu içerik paketi için Azure Güvenlik Merkezi'nin etkin olduğu bir abonelik k
 ## <a name="finding-parameters"></a>Parametreleri bulma
 Abonelik kimliğinizi bulmanın iki kolay yolu vardır.
 
-1. https://portal.azure.com adresinden -&gt; Gözat -&gt; Abonelikler -&gt; Abonelik Kimliği
-2. https://manage.windowsazure.com adresinden -&gt; Ayarlar -&gt; Abonelik Kimliği
+1. https://portal.azure.com -&gt; Gözat -&gt; Abonelikler -&gt; ABONELİK KİMLİĞİ'ne giderek
+2. https://manage.windowsazure.com -&gt; Ayarlar -&gt; Abonelik Kimliği'ne giderek
 
 Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer şekilde sayılardan ve karakterlerden oluşan uzun bir dizidir. 
 
