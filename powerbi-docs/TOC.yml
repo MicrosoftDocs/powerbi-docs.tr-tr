@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Kurumsal içerik paketi oluşturma ve yayımlama (öğretici)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: İş arkadaşlarınızla ve diğer kullanıcılarla pano paylaşma
+        - name: Panoları ve raporları paylaşma
           href: service-share-dashboards.md
-        - name: İş arkadaşlarınızla rapor paylaşma
+        - name: Filtrelenmiş rapor paylaşma
           href: service-share-reports.md
         - name: Power BI'dan web'de yayımlama
           href: service-publish-to-web.md
