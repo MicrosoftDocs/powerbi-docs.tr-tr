@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: Power BI uygulamasını Surface Hub'da sunu modunda görüntüleme
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Windows 10 için Power BI mobil uygulamasında kutucuk paylaşma
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Power BI Geliştirici
   items:
     - name: Genel Bakış
