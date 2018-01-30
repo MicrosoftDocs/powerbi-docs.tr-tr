@@ -15,27 +15,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: a5cc05e26012f88e889612788d4479a370063d4f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b154aec7c65b09743484f8f51ae88f9317f651a0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>Bir rapor sayfasının boyutunu değiştirme (Eğitim)
-[Önceki makalede ve videoda](power-bi-report-display-settings.md), Power BI raporlarındaki sayfaların nasıl görüntüleneceğini denetlemeye ilişkin iki farklı yöntem öğrendiniz: **Görünüm** ve **Sayfa Boyutu**. Şimdi kendimiz deneyelim.
+[Önceki makalede ve videoda](power-bi-report-display-settings.md), Power BI raporlarındaki sayfaların nasıl görüntüleneceğini denetlemeye ilişkin iki farklı yöntem öğrendiniz: **Görünüm** ve **Sayfa Boyutu**. Sayfa görünümü ve Sayfa Boyutu hem Power BI hizmetinde hem de Power BI Desktop'ta kullanılabilir. Görünüm ve işlevler de hemen hemen aynıdır ancak bu eğitimde biz Power BI hizmetini kullanacağız. 
+
+### <a name="prerequisites"></a>Önkoşullar
+- Power BI hizmeti   
+- [Retail Analysis Sample raporu](samples-retail-analysis.md)
 
 ## <a name="first-lets-change-the-page-view-setting"></a>İlk olarak, sayfa görünümü ayarını değiştirelim
-1. Bir raporu Okuma Görünümü'nde veya Düzenleme Görünümü'nde açın. Aşağıdaki örnekte, [Perakende Analizi örneğinin](sample-retail-analysis.md) "New Stores" sayfası kullanılmıştır.  Bu sayfa, **Sayfaya Sığdır** ayarı kullanılarak görüntülenir.  Bu örnekte Sayfaya Sığdır seçeneği kullanılmıştır ve rapor sayfası, kaydırma çubukları olmadan görüntülenmektedir ancak bazı ayrıntılar ve başlıklar okunamayacak kadar küçüktür.
+
+1. Raporu Okuma Görünümü'nde veya Düzenleme Görünümü'nde açın ve **New Stores** rapor sekmesini seçin. Varsayılan olarak bu rapor sayfası, **Sayfaya Sığdır** ayarı kullanılarak görüntülenir.  Bu örnekte Sayfaya Sığdır seçeneği kullanılmıştır ve rapor sayfası, kaydırma çubukları olmadan görüntülenmektedir ancak bazı ayrıntılar ve başlıklar okunamayacak kadar küçüktür.
    
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Tuvalde herhangi bir görselleştirmenin seçili olmadığından emin olun. **Görünüm**'ü seçin ve görüntüleme seçeneklerini gözden geçirin.
 
-* Okuma görünümünde, aşağıdaki seçenekleri görürsünüz.
+    * Okuma görünümünde, aşağıdaki seçenekleri görürsünüz.
   
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-* Düzenleme görünümü'nde ise aşağıdaki gibi bir menüyle karşılaşırsınız.
+    * Düzenleme görünümü'nde ise aşağıdaki gibi bir menüyle karşılaşırsınız.
   
     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
@@ -51,26 +56,31 @@ ms.lasthandoff: 11/13/2017
    Artık daha iyi görünüyor. Kaydırma çubukları hâlâ var ancak ayrıntılar daha kolay bir şekilde okunabiliyor.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>Bir rapor sayfasının varsayılan görünümünü değiştirme
-Tüm Power BI raporlarında varsayılan olarak **Sayfaya sığdır** görünümü kullanılmaktadır. Bu rapor sayfasının her zaman **Gerçek boyut** görünümünde açılmasını istiyorsanız ne yapmanız gerekir?
+Rapor *oluşturucusuysanız* rapor sayfalarınız için varsayılan görünümü değiştirebilirsiniz. Raporunuzu başkalarıyla paylaştığınızda rapor sayfaları, ayarlamış olduğunuz görünüm kullanılarak açılır. Rapor *kullanıcıları* görünümü değiştirebilir ancak rapordan çıktıklarında, yapmış oldukları değişiklikleri kaydedemezler.
 
 1. Raporun **New Stores** sayfasında **Gerçek boyut** görünümüne geri dönün.
    
    ![](media/power-bi-change-report-display-settings/power-bi-actual-size.png)
-2. **Dosya > Farklı kaydet**'i seçerek dosyayı farklı bir adla kaydedin. Artık bu raporun 2 kopyasına sahipsiniz; özgün raporda **New Stores** sayfası varsayılan görünümde açılmaya devam eder ancak yeni raporda **Gerçek boyut** görünümünde açılır. Hemen deneyelim.
+
+2. **District Monthly Sales** rapor sayfasında Görünüm ayarını **Sayfaya sığdır** olarak belirleyin.
+
+3. **Overview** rapor sayfasında varsayılan Görünüm ayarını değiştirmeyin.
+
+4. Şimdi **Dosya > Kaydet** seçeneğini belirleyerek raporu kaydedin. Raporu daha sonra açtığınızda sayfalar yeni Görünüm ayarları kullanılarak görüntülenir. Hemen deneyelim.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-save-as.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-save.png)
 3. Üstteki gezinti çubuğunda, geçerli çalışma alanının adını seçerek bu çalışma alanına dönün.  
    
    ![](media/power-bi-change-report-display-settings/power-bi-my-workspace.png)
-4. **Raporlar** sekmesini ve yeni oluşturduğunuz raporu (yanında sarı bir yıldız olan) seçin.
+4. **Raporlar** sekmesini ve ardından aynı raporu (Retail Analysis Sample) seçin.
    
     ![](media/power-bi-change-report-display-settings/power-bi-new-report2.png)
-5. Rapor, **Gerçek boyut** görünümünde açılıyor!
+5. Yeni ayarları görmek için raporun tüm sayfalarını açın.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Şimdi *sayfa boyutu* ayarını inceleyelim
-Sayfa boyutu ayarları yalnızca [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde kullanılabilir. Bir raporu Düzenleme görünümü'nde açmak için rapora ilişkin sahip izinleriniz olmalıdır. [Örneklerimizden](sample-datasets.md) herhangi birine bağlandıysanız mevcut raporlara ilişkin sahip izinleriniz olur.
+Sayfa boyutu ayarları yalnızca [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde kullanılabilir. Bu nedenle, sayfa boyutu ayarlarını değiştirebilmeniz için rapora ilişkin düzenleme (*oluşturucu*) izinlerine sahip olmanız gerekir. [Örneklerimizden](sample-datasets.md) herhangi birine bağlandığınızda bu raporlar için *oluşturucu* izinlerine sahip olursunuz.
 
 1. [Perakende Analizi örneğinin](sample-retail-analysis.md) "District monthly sales" sayfasını, Düzenleme Görünümü'nde açın.
 2. Tuvalde herhangi bir görselleştirmenin seçili olmadığından emin olun.  **Görsel Öğeler** bölmesinde boya rulosu simgesini ![](media/power-bi-change-report-display-settings/power-bi-paintroller.png) seçin.
@@ -80,18 +90,15 @@ Sayfa boyutu ayarları yalnızca [Düzenleme görünümü](service-interact-with
 4. **Letter**'ı seçin.  Tuvalde, yalnızca 816 x 1056 piksele (Letter boyutu) sığan içerikler tuvalin beyaz kısmında kalır.
    
    ![](media/power-bi-change-report-display-settings/power-bi-letter-new.png)
-5. **Görünüm**'ü "Genişliğe uydur" olarak değiştirirsek tuvalimizde artık yalnızca Letter boyutuna uyan sayfa içeriği görüntülenir.
-   
-   ![](media/power-bi-change-report-display-settings/power-bi-fit-to-width-new.png)
-6. **Sayfa boyutu** **16:9** oranını seçin.
+5. **Sayfa boyutu** **16:9** oranını seçin.
    
    ![](media/power-bi-change-report-display-settings/power-bi-16-to-9-new.png)
    
    Rapor sayfası 16:9 oranı kullanılarak görüntülenir. Kullanılan gerçek piksel boyutunu görmek için, gri renkli Genişlik ve Yükseklik alanlarına (1280 x 720) bakın. Rapor tuvalinin etrafında çok fazla boşluk bulunmaktadır. Bunun nedeni, **Görünüm**'ü "Genişliğe uydur" olarak ayarlamış olmamızdır.
 7. **Sayfa Boyutu** seçeneklerini incelemeye devam edin.
 
-## <a name="using-page-view-and-page-size-together"></a>Sayfa Görünümü ve Sayfa Boyutu'nu birlikte kullanma
-Başka bir uygulamaya eklendiğinde en iyi şekilde görüntülenecek olan bir rapor oluşturmak için Sayfa Görünümü ve Sayfa Boyutu seçeneklerini birlikte kullanın.
+## <a name="use-page-view-and-page-size-together"></a>Sayfa Görünümü ve Sayfa Boyutu seçeneklerini birlikte kullanma
+İş arkadaşlarınızla paylaştığınızda veya başka bir uygulamaya eklediğinizde en iyi şekilde görüntülenecek olan bir rapor oluşturmak için Sayfa Görünümü ve Sayfa Boyutu seçeneklerini birlikte kullanın.
 
 Bu alıştırmada, 500 piksel genişliğinde ve 750 piksel yüksekliğinde alana sahip bir uygulamada görüntülenecek bir rapor oluşturacaksınız.
 
@@ -112,8 +119,6 @@ Bu alıştırmada, 500 piksel genişliğinde ve 750 piksel yüksekliğinde alana
 [Cortana için rapor oluşturma](service-cortana-answer-cards.md)
 
 [Power BI raporlarında sayfa görüntüleme ayarları](power-bi-report-display-settings.md) konusuna tekrar göz atın
-
-[Power BI'daki raporlar](service-reports.md) hakkında daha fazla bilgi edinin
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

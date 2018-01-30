@@ -1,5 +1,5 @@
 ---
-title: "Power BI'daki radyal ölçer grafikleri (Eğitim)"
+title: "Eğitim: Power BI'daki radyal ölçer grafikleri"
 description: "Eğitim: Power BI'daki radyal ölçer grafikleri"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI'daki radyal ölçer grafikleri (Eğitim)
 Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe/KPI'ye yönelik ilerlemeyi ölçen tek bir değer görüntüler.  Hedef veya hedef değer çizgi (iğne) ile gösterilir. Hedefe yönelik ilerleme gölgelendirme ile gösterilir.  İlerlemeyi gösteren değer ise yayın içinde kalın olarak gösterilir. Olası tüm değerler, minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağılır.
@@ -39,17 +39,25 @@ Radial ölçerler şunlar için harika bir seçimdir:
 * tek bir ölçünün durumunu göstermek.
 * hızlıca taranıp anlaşılabilen bilgiler görüntülemek.
 
+### <a name="prerequisites"></a>Önkoşullar
+ - Power BI hizmeti veya Power BI Desktop
+ - Financial Sample adlı Excel çalışma kitabı: [Örneği doğrudan indirin](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Basit bir radyal ölçer oluşturma
-Bu yönergeler Financial Sample'a yöneliktir. Birlikte ilerleyebilmek için, bilgisayarınıza [örneği indirin](http://go.microsoft.com/fwlink/?LinkID=521962), Power BI'da oturum açın ve **Veri Al \> Dosyalar \>  Yerel Dosya > Aç** yolunu izleyin. 
+Bu yönergeler Power BI hizmeti için geçerlidir. Birlikte ilerlemek için Power BI hizmetinde oturum açtıktan sonra Financial Sample adlı Excel dosyasını açın.  
 
 Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik edebilirsiniz: ölçerler, kartlar ve KPI'ler.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>1. Adım: Financial Sample Excel dosyasını açın.
-1. [Örnek Financial Excel dosyasını indirin](sample-financial-download.md).
-2. **Veri Al \> Dosyalar** seçeneğini belirleyip, dosyayı kaydettiğiniz konuma giderek dosyayı Power BI'da açın. **İçeri aktar**'ı seçin. Financial Sample, çalışma alanınıza bir veri kümesi olarak eklenir.
-3. **Financial Sample**'ı seçerek Araştır modunda açın.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>1. Adım: Financial Sample adlı Excel dosyasını açın.
+1. Henüz indirmediyseniz [Financial Sample adlı örnek Excel dosyasını indirin](sample-financial-download.md). Dosyayı kaydettiğiniz yeri unutmayın.
+
+2. **Veri Al\> Dosyalar** seçeneğini belirleyip, dosyayı kaydettiğiniz konuma giderek dosyayı ***Power BI hizmetinde*** açın. **İçeri aktar**'ı seçin. Financial Sample, çalışma alanınıza bir veri kümesi olarak eklenir.
+
+3. **Veri kümesi** içerik listesinden **Financial Sample**'ı seçerek bu veri kümesini Araştırma modunda açın.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2. Adım: Brüt Satışı izlemeye yönelik bir ölçer oluşturma
 1. **Alanlar** bölmesinde, **Gross Sales** seçeneğini belirleyin.

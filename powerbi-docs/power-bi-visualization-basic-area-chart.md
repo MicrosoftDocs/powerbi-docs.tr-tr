@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 42e068b11c22c32f1a6736a6ca8f9020594fb40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9512be1bcba67eb169a41e3f240fac8e9073a5d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="basic-area-chart-tutorial"></a>Basit Alan grafiği (Eğitim)
 Basit alan grafiği (katmanlı alan grafiği olarak da bilinir) çizgi grafiğini temel alır. Eksen ve çizgi arasındaki alan, hacmi gösteren renklerle doldurulur. 
@@ -36,17 +36,26 @@ Basit alan grafikleri aşağıdaki durumlarda harika bir seçimdir:
 * zaman serilerindeki hacim eğilimlerini görmek ve karşılaştırmak için 
 * fiziksel olarak hesaplanabilen bir kümeyi temsil eden ayrı seriler için
 
+### <a name="prerequisites"></a>Önkoşullar
+ - Power BI hizmeti
+ - Perakende Analizi örneği
+
+Birlikte ilerlemek için Power BI'da oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan**'ı seçtikten sonra **Panoya git** seçeneğini belirleyin. 
+
 ## <a name="create-a-basic-area-chart"></a>Basit alan grafiği oluşturma
-Birlikte ilerleyebilmek için, Power BI'da oturum açın ve **Veri Al \> Örnekler \> Perakende Analizi Örneği** seçeneğini belirleyin. 
+ 
 
 1. "Retail Analysis Sample" panosunda, **Total Stores** kutucuğunu seçerek "Retail Analysis Sample" raporunu açın.
 2. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.
-3. Yeni bir rapor sayfası ekleyin.
+3. Raporun alt kısmında bulunan sarı artı simgesini (+) seçerek yeni bir rapor sayfası ekleyin.
 4. İçinde bulunulan yılın ve geçen yılın satışlarını aya göre görüntüleyen bir alan grafiği oluşturun.
    
-   a.  **Alanlar bölmesinde**, **Sales \> Last Year Sales** ve **This Year Sales > Value** seçeneklerini belirleyin.
-   
-   b.  Grafiği bir basit alan grafiğine dönüştürün.    
+   a. ALANLAR bölmesinde **Sales \> Last Year Sales** ve **This Year Sales > Değer** seçeneğini belirleyin.
+
+   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+
+   b.  GÖRSEL ÖĞELER bölmesinden Alan grafiği simgesini seçerek grafiği, basit bir alan grafiğine dönüştürün.
+
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
    c.  **Eksen** kutusuna eklemek üzere **Time \> Month** seçeneğini belirleyin.   
@@ -55,9 +64,9 @@ Birlikte ilerleyebilmek için, Power BI'da oturum açın ve **Veri Al \> Örnekl
    d.  Grafiği aya göre görüntülemek için, üç nokta (görselin sağ üst köşesinde) simgesini seçin ve **Sıralama Ölçütü: Month** seçeneğini belirleyin.
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
-Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](power-bi-report-add-filter.md).
+FİLTRELER bölmesinin kullanımı hakkında bilgi için bkz. [Bir rapora filtre ekleme](power-bi-report-add-filter.md).
 
-Bir alanı seçmek için söz konusu alanın içine veya üstünde bulunan çizgiye tıklayın.  Basit alan grafikleri, rapor sayfasındaki diğer görselleştirmelere çapraz filtreleme uygulamaz. Ancak alan grafikleri, rapor sayfasındaki diğer görselleştirmeler tarafından tetiklenen çapraz filtrelemelerden etkilenir.
+Grafiğinizdeki belirli bir alanı vurgulamak için ilgili alanı veya üst kenarlığını seçin.  Diğer görselleştirme türlerinin aksine, sayfada başka görselleştirmeler varken basit alan grafiklerini vurguladığınızda rapor sayfasındaki diğer görselleştirmeler için çapraz filtre uygulanmaz. Ancak alan grafikleri, rapor sayfasındaki diğer görselleştirmeler tarafından tetiklenen çapraz filtrelemelerden etkilenir. Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * Basit alan grafikleri, katmanlı alanlardaki kapatma nedeniyle değer karşılaştırmaları için kullanışlı değildir. Power BI, alanlardaki çakışmaları göstermek için saydamlıktan yararlanır. Ancak, bu özellik yalnızca iki veya üç farklı alanda düzgün bir şekilde çalışır. Eğilimi üçten fazla ölçüyle karşılaştırmak için çizgi grafikleri kullanmayı deneyin. Hacmi üçten fazla ölçüyle karşılaştırmak için ise ağaç haritası kullanmayı deneyin.

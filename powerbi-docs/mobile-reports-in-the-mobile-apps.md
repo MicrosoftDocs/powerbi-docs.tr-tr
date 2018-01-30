@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -50,7 +50,7 @@ Power BI raporlarını aldığınız yere bağlı olarak bu raporlar mobil uygul
   ![Telefonda yatay modda rapor görünümü](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Telefonlar için en iyi duruma getirilmiş raporlar görüntüleme
-Power BI rapor yazarları, özellikle telefonlar için en iyi duruma getirilmiş bir rapor düzeni oluşturabilir. İyileştirilmiş raporlar, rapor listesinde özel bir simge ile belirtilir ![Telefon raporu simgesi](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Power BI rapor yazarları, özellikle telefonlar için en iyi duruma getirilmiş bir rapor düzeni oluşturabilir. Telefonlar için en iyi duruma getirilmiş rapor sayfaları ek işlevler içerir. Örneğin, odak modunda görsellerde detaya gidebilir, sıralama yapabilir ve [rapor yazarının, rapor sayfasına eklediği filtrelere](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) erişebilirsiniz. En iyi duruma getirilmiş raporlar, rapor listesinde özel bir simge ile (![Telefon raporu simgesi](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)) belirtilir:
 
 ![Telefon raporunu açma](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Bu raporu bir telefonda görüntülediğinizde dikey görünümde açılır.
 
 ![Dikey görünümlü rapor](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Bir rapor, telefon için en iyi duruma getirilmiş ve getirilmemiş karışık sayfalar içerebilir. Bu durumda görünüm, rapor sayfalarına göz gezdirirken her sayfa için dikeyden yataya dönüşür.
+ Bir rapor, telefon için en iyi duruma getirilmiş ve getirilmemiş karışık sayfalar içerebilir. Bu durumda görünüm, rapor sayfalarına göz gezdirirken her sayfa için dikeyden yataya dönüşür.
 
 [Telefon görünümü için en iyi duruma getirilmiş raporlar](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
 

@@ -1,5 +1,5 @@
 ---
-title: "Soru-Cevap'tan kutucukları panolara sabitleme"
+title: "Soru-Cevap bölümünden bir kutucuğu panoya sabitleme"
 description: "Soru-Cevap soru kutusundan kutucukları Power BI panolarına sabitlemeye ilişkin belge"
 services: powerbi
 documentationcenter: 
@@ -15,54 +15,59 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
 ## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
 Soru-Cevap, Power BI'daki özel raporlama aracıdır. Belirli bir öngörüyü bulmanız mı gerekiyor? Verileriniz hakkında soru sorun ve görselleştirme şeklinde yanıt alın.
 
-Soru-Cevap, panolardan ve raporlardan kullanılabilir. Bu makalede panodan Soru-Cevap kutusu açacağız. Panolar yalnızca Power BI hizmetinde kullanılabilir, Power BI Desktop ile kullanılamaz. Örneği takip etmek için [Retail Analysis sample panosunu](sample-retail-analysis.md) açın.
-> 
-> 
+Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sorarak görselleştirme oluşturmak ve bu görselleştirmeyi bir panoya sabitlemek için Power BI hizmetini (app.powerbi.com) kullanacağız. Panolar Power BI Desktop'ta kullanılamaz. Soru-Cevap özelliğini diğer Power BI araçları ve içerikleri ile kullanma hakkında bilgi edinmek için bkz. [Power BI Soru-Cevap özelliğine genel bakış](power-bi-q-and-a.md). 
 
-1. Raporlardan sabitlenmiş en az bir kutucuk içeren bir [panoyu](service-dashboards.md) açın. Soru sorduğunuzda Power BI, ilgili panoya sabitlenmiş kutucuğa sahip olan veri kümelerinde yanıt arar.  Daha fazla bilgi edinmek için bkz. [Veri alma](service-get-data.md).
+Örneği takip etmek için [Retail Analysis sample panosunu](sample-retail-analysis.md) açın.
+
+
+1. Raporlardan sabitlenmiş en az bir kutucuk içeren bir [panoyu](service-dashboards.md) açın. Soru sorduğunuzda Power BI, ilgili panoya sabitlenmiş kutucuğa sahip olan veri kümelerinde cevap arar.  Daha fazla bilgi edinmek için bkz. [Veri alma](service-get-data.md).
 2. Panonuzun en üstündeki soru kutusuna verilerinizle ilgili olarak öğrenmek istediklerinizi yazmaya başlayın.  
    ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Örneğin, "last year sales by month and territory" (aya ve bölgeye göre geçen yılın satışları)...  
    ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
-   
+
    yazdığınızda soru kutusunda öneriler görüntülenir.
-4. Grafiği panonuza kutucuk olarak eklemek için tuvalin sağ üst kısmında bulunan raptiye ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) simgesini seçin.
-5. Kutucuğu, var olan bir panoya veya yeni bir panoya sabitleyin. 
+4. Grafiği panonuza kutucuk olarak eklemek için tuvalin sağ üst kısmında bulunan raptiye ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) simgesini seçin. Sizinle paylaşılmış olan panolara herhangi bir görselleştirme sabitleyemezsiniz.
+
+5. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin.
 
    ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * Var olan pano: Açılan listeden panonun adını seçin. Seçimleriniz, geçerli çalışma alanındaki panolarla sınırlı olacaktır.
    * Yeni pano: Yeni panonun adını yazarak geçerli çalışma alanınıza eklenmesini sağlayabilirsiniz.
+
 6. **Sabitle**'yi seçin.
-   
+
    Sağ üst köşeye yakın bir noktada çıkan bir başarı iletisi, görselleştirmenin bir kutucuk olarak panonuza eklendiğini bildirir.  
-   
+
    ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
-7. Yeni kutucuğu görmek için **Panoya git**'i seçin. Buradan panonuzda [kutucukla ilgili yeniden adlandırma, yeniden boyutlandırma, köprü ekleme, yeniden konumlandırma ve diğer işlemleri](service-dashboard-edit-tile.md) gerçekleştirebilirsiniz. 
-   
+7. Yeni kutucuğu görmek için **Panoya git**'i seçin. Ardından panonuzda [kutucuğu yeniden adlandırabilir, yeniden boyutlandırabilir, köprü ekleyebilir, kutucuğu yeniden konumlandırabilir ve daha pek çok şey yapabilirsiniz](service-dashboard-edit-tile.md).
+
    ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi yanıtı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti çubuğunda görünen panodur. Örneğin, bu soru, **mihart** uygulama çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
-  
+* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi cevabı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti çubuğunda görünen panodur. Örneğin, bu soru, **mihart** uygulama çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
+
   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
-* **Soru-Cevap hangi veri kümelerinin kullanılacağına nasıl karar veriyor**?  Soru-Cevap özelliği, ilgili panoya sabitlenmiş görselleştirmelere sahip olan tüm veri kümelerine erişim sahibidir.
+* **Soru-Cevap hangi veri kümelerinin kullanılacağına nasıl karar veriyor**?  Soru-Cevap özelliği, ilgili panoya sabitlenmiş en az bir görselleştirmeye sahip olan tüm veri kümelerine erişim sahibidir.
+
+* **Soru kutusunu göremiyor musunuz**? Power BI yöneticinizle iletişime geçin. Yönetici Soru-Cevap özelliğini devre dışı bırakabilir.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kutucukla ilgili yeniden adlandırma, yeniden boyutlandırma, köprü ekleme, yeniden konumlandırma ve diğer işlemleri gerçekleştirme](service-dashboard-edit-tile.md)    
 [Pano kutucuğunuzu Odak modunda görüntüleme](service-focus-mode.md)     
-[Power BI'daki Soru-Cevap özelliği](service-q-and-a.md)  
+[Power BI'daki Soru-Cevap konusuna tekrar göz atın](power-bi-q-and-a.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

@@ -15,31 +15,36 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: c29ea77eab09657b5c21fe97322464523b0621dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.
 
-* Bu videoda verilerinizi Power BI için en iyi duruma getirmeye yönelik bazı ipuçları verilmektedir. Verilerinizi hizmete yüklemeden önce en iyi biçimlendirme yöntemini öğrenin.
+Çalışmaya başlamak için listedeki birkaç videoyu aşağıda bulabilirsiniz.
+
+* Power BI hizmetine ve Power BI Desktop'a genel bakış.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
-* Yerel bilgisayarınızdaki dosyaları Power BI ile hızlı ve kolay bir şekilde karşıya yükleyebilirsiniz. Nasıl yapacağınızı şimdi öğrenin!
+* Ortak çalışma ve paylaşma.
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ETj-z3NyY_o" frameborder="0" allowfullscreen></iframe>
-* Verilerinize bağlanmak ve verilerinizin sürekli olarak güncel kalmasını sağlamak için OneDrive'ı kullanmak harika bir yöntemdir
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5DABLeJzQYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+* Power BI mobil uygulamalarına genel bakış
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/6cOjiV_klrs" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* Geliştiriciler için Power BI
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Yeni yüklediğimiz videolardan bazılarına göz atın
-* [Time intelligence (Akıllı zaman gösterimi)](https://youtu.be/MNAaHw4PxzE)
-* [Grouping and binning (Gruplandırma ve gruplama)](https://youtu.be/51n2itS7K5I)
-* [SAP HANA](https://youtu.be/FOjJLvsIACc)
+* [Tarih dilimleyici](https://youtu.be/V7i82ZZm0vw)
+* [Özel görselleştirmeler](https://youtu.be/d-rXAJ3_uAo)
+* [Power BI hizmetindeki uyarılar](https://youtu.be/JbL2-HJ8clE)
 
 ## <a name="more-videos"></a>Daha fazla video
 Daha fazla video için aşağıdaki kaynak ve içerik koleksiyonuna göz atın.

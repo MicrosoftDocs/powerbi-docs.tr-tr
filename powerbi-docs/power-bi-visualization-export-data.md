@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI'da görüntüleyebilir](service-reports-show-data.md) veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -46,7 +46,7 @@ Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, .
 ## <a name="from-a-visualization-in-a-report"></a>Bir raporda bulunan görselleştirmeden
 Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procurement.md) [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. [Yeni bir boş rapor sayfası ekleyin](power-bi-report-add-page.md). Ardından, aşağıdaki adımları uygulayarak bir toplama ve görsel düzeyi filtresi ekleyin.
 
-1. Yeni bir sütun grafiği oluşturun.  Alanlar bölmesinde, **Location > City** ve **Invoice > Discount Percent** seçeneklerini belirleyin.  **İndirim Yüzdesi**’ni Değer bölümüne taşımanız gerekebilir. 
+1. Yeni bir sütun grafiği oluşturun.  Alanlar bölmesinde, **Location > City** ve **Invoice > Discount Percent** seçeneklerini belirleyin.  **İndirim Yüzdesi**'ni Değer bölümüne taşımanız gerekebilir. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. **Discount Percent** için **Sayı** olan toplama işlemini **Ortalama** olarak değiştirin. Değer kutusunda, **Discount Percent**'in (**Sayı Discount Percent** olarak da görünüyor olabilir) sağında bulunan oku seçin ve ardından **Ortalama** seçeneğini belirleyin.
@@ -74,8 +74,7 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procur
    
    >[!WARNING]
    >Temel alınan verilerin dışarı aktarılması, kullanıcıların verileri tüm ayrıntılarıyla (verilerdeki tüm sütunlar) görebilmesine olanak sağlar. Power BI hizmeti yöneticileri kuruluşlarında bu özelliği devre dışı bırakamaz. Veri kümesinin sahibiyseniz özel bilgilerin bulunduğu sütunları "gizli" olarak ayarlayabilir ve böylece bu bilgilerin Desktop veya Power BI hizmetindeki Alanlar listesinde gösterilmemesini sağlayabilirsiniz.
-   > 
-   > 
+   
    
    **Temel alınan veriler**: Görselleştirmenizde bir toplama işlemi bulunuyorsa ve temel alınan tüm bilgileri görmek istiyorsanız bu seçeneği belirleyin. Kısacası, *Temel alınan veriler* seçeneğinin belirlenmesiyle toplama işlemi kaldırılır. **Dışarı Aktar** seçeneğini belirlediğinizde, veriler bir .xlsx dosyası olarak dışarı aktarılır ve tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
    
@@ -85,7 +84,9 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procur
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 * **Power BI Desktop** ve **Power BI hizmetinden** bir .csv dosyasına aktarılabilen maksimum satır sayısı 30.000'dir.
-* **Power BI hizmetinden** .xlsx'e aktarılabilen maksimum satır sayısı Pro sürüm kullanıcıları için 150.000, Ücretsiz sürüm kullanıcıları için ise 30.000'dir.
+* .xlsx dosyalarına aktarılabilen maksimum satır sayısı 150.000'dir.
+* Veri kaynağı bir Analysis Services canlı bağlantısıysa, 2016'dan önceki bir sürüm kullanılıyorsa ve modeldeki tablolar benzersiz bir anahtara sahip değilse *Temel alınan veriler* seçeneğiyle dışarı aktarma özelliği kullanılamaz.  
+* Dışarı aktarılan görselleştirme için *Veri içermeyen öğeleri göster* seçeneği etkinse *Temel alınan veriler* seçeneğiyle dışarı aktarma özelliği kullanılamaz.
 * DirectQuery kullanılırken, dışarı aktarılabilen maksimum veri miktarı 16 MB'tır. Bu, özellikle de çok sayıda sütun, sıkıştırılması zor veriler ve dosya boyutunu artırıp dışarı aktarılan satır sayısını düşüren diğer faktörlerin bulunması halinde maksimum sayının altında satırın dışarı aktarılmasına neden olabilir.
 * Power BI yalnızca basit toplama işlemlerinin kullanıldığı görsellerde dışarı aktarmayı destekler. Dışarı aktarma işlemi model veya rapor ölçülerinin kullanıldığı görseller için kullanılamaz.
 * Şu anda özel görseller ve R görselleri desteklenmemektedir.

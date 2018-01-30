@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.
@@ -69,6 +69,10 @@ Varsayılan **Gizlilik Düzeyleri** ayarı **Her bir kaynak için verileri Gizli
 
 > **Güvenlik Notu:** **Gizlilik Düzeyleri** iletişim kutusunda **Gizlilik Düzeylerini yoksayın ve potansiyel performansı geliştirin** seçeneği belirlenerek **Gizlilik Düzeyleri**'nin etkinleştirilmesi, gizli veya hassas verilerin yetkisiz bir kullanıcı tarafından görülebilmesine neden olabilir. Veri kaynağının gizli veya hassas veriler içermediğinden emin olmadığınız sürece **Gizlilik Düzeylerini** etkinleştirmeyin.
 > 
+> 
+
+> [!CAUTION]
+> **Gizlilik Düzeylerini yoksayın ve potansiyel performansı geliştirin** ayarı Power BI hizmetinde kullanılamaz. Aynı şekilde, bu ayarın etkin olduğu, Power BI hizmetinde yayımlanan Power BI Desktop raporları hizmette kullanıldığında bu davranışı *göstermez*.
 > 
 
 **Gizlilik Düzeylerini yapılandırma**

@@ -1,6 +1,6 @@
 ---
-title: "Power BI Soru-Cevap özelliğini kullanmaya başlama (Eğitim)"
-description: "Eğitim: Perakende Analizi örneğini kullanarak Power BI hizmetindeki Soru-Cevap özelliğini kullanmaya başlama"
+title: "Hızlı Başlangıç: Power BI Soru-Cevap özelliğini kullanmaya başlama"
+description: "Hızlı Başlangıç: Perakende Analizi örneğiyle Power BI hizmetindeki Soru-Cevap özelliğini kullanmaya başlama"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Power BI Soru-Cevap özelliğini kullanmaya başlama (Eğitim)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Eğitim: Perakende Analizi örneğiyle Power BI Soru-Cevap özelliğini kullanmaya başlama
-Bazen verilerinize ilişkin yanıtlar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır.  Bu eğitimde aynı görselleştirmeyi oluşturmanın 2 farklı yoluna göz atacağız: raporda oluşturma ve Soru-Cevap özelliğini kullanarak soru sorma.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI Soru-Cevap özelliğini kullanmaya başlama (Hızlı Başlangıç)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Perakende Analizi örneğiyle Power BI Soru-Cevap özelliğini kullanmaya başlama
+Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır.  Bu hızlı başlangıçta aynı görselleştirmeyi oluşturmanın 2 farklı yoluna göz atacağız: raporda oluşturma ve Soru-Cevap özelliğini kullanarak soru sorma yoluyla oluşturma. Biz Power BI hizmetini kullanacağız ancak Power BI Desktop kullanıldığında da neredeyse aynı işlem gerçekleştirilir.
+
+Birlikte ilerleyebilmeniz için, düzenleyebileceğiniz bir raporu kullanmanız gerekir. Bu nedenle, Power BI'da bulunan örneklerden birini kullanacağız.
 
 ## <a name="method-1-using-the-report-editor"></a>1. Yöntem: rapor düzenleyicisini kullanma
 1. Power BI çalışma alanınızda **Veri Al** \> **Örnekler** \> **Perakende Analizi Örneği** > **Bağlan**'ı seçin.
@@ -52,7 +54,7 @@ Soru-Cevap özelliğini kullanarak aynı çizgi grafiği nasıl oluşturabiliriz
    
    **what were this year sales and last year sales by month as area chart** (bu yıla ait satış verileri ile geçen yıla ait satış verilerini alan grafiğinde aylara göre görüntüle)
    
-   Siz sorunuzu yazarken Soru-Cevap özelliği, yanıtınızı görüntülemek üzere en iyi görselleştirmeyi seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir. Soru-Cevap özelliği öneriler, otomatik tamamlama ve yazım düzeltmeleri ile sorunuzu biçimlendirmenize de yardımcı olur.
+   Siz sorunuzu yazarken Soru-Cevap özelliği, cevabınızı görüntülemek üzere en iyi görselleştirmeyi seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir. Soru-Cevap özelliği öneriler, otomatik tamamlama ve yazım düzeltmeleri ile sorunuzu biçimlendirmenize de yardımcı olur.
    
    Sorunuzu yazmayı bitirdikten sonra sonuç olarak, raporda gördüğümüz grafiğin aynısını elde edersiniz.  Gördüğünüz gibi bu çok daha hızlı oldu!
    
@@ -61,13 +63,9 @@ Soru-Cevap özelliğini kullanarak aynı çizgi grafiği nasıl oluşturabiliriz
 4. Grafiği panonuza sabitlemek için raptiye simgesini ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Soru-Cevap özelliğini kullanarak ne tür sorular sorabilirim?](service-q-and-a.md)
-
-[Power BI'daki Soru-Cevap](service-q-and-a.md)
+[Power BI'daki Soru-Cevap](power-bi-q-and-a.md)
 
 [Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama](service-prepare-data-for-q-and-a.md)
-
-[Bir çalışma kitabını Soru-Cevap için hazırlama](service-prepare-data-for-q-and-a.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
 Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
+
+## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
+
+### <a name="fiddler-trace"></a>Fiddler ile İzleme
+
+[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinden Power BI API'lerindeki gelen ve giden trafiği görebilirsiniz. Bu sayede hataları ve diğer ilgili bilgileri görüntüleyebilirsiniz.
+
+![Fiddler ile İzleme](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>Ön uç hata ayıklama için Tarayıcıda F12
+
+F12 tarayıcınızda geliştirici penceresini açar. Bu, ağ trafiğini ve diğer bilgileri görüntüleme olanağı sağlar.
+
+![F12 Tarayıcı hata ayıklama](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Power BI yanıtından hata ayrıntılarını ayıklama
+
+Bu kod parçacığı, HTTP özel durumundan hata ayrıntılarını ayıklama işleminin nasıl yapılacağını göstermektedir:
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+Sorun giderme işlemi için istek kimliklerinin ve hata ayrıntılarının günlüğe kaydedilmesini öneriyoruz.
+Lütfen Microsoft destek bölümüyle iletişime geçerken istek kimliğini belirtin.
 
 ## <a name="app-registration"></a>Uygulama kaydı
 
@@ -105,19 +140,6 @@ Kullanıcı raporu veya panoyu göremiyorsa rapor ya da panonun powerbi.com'a do
 
 Power BI Desktop'tan veya powerbi.com'da dosyayı açın ve uygulamanızla veya API'leri eklemeyle ilgili sorunları elemek için performansın kabul edilebilir olduğunu doğrulayın.
 
-## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
-
-### <a name="fiddler-trace"></a>Fiddler ile İzleme
-
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinden Power BI API'lerindeki gelen ve giden trafiği görebilirsiniz. Bu sayede hataları ve diğer ilgili bilgileri görüntüleyebilirsiniz.
-
-![Fiddler ile İzleme](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>Ön uç hata ayıklama için Tarayıcıda F12
-
-F12 tarayıcınızda geliştirici penceresini açar. Bu, ağ trafiğini ve diğer bilgileri görüntüleme olanağı sağlar.
-
-![F12 Tarayıcı hata ayıklama](media/embedded-troubleshoot/browser-f12.png)
 
 Sık sorulan soruların cevapları için bkz. [Power BI Embedded hakkında SSS](embedded-faq.md).
 

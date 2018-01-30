@@ -1,6 +1,6 @@
 ---
-title: "Power BI'daki görselleştirmeler"
-description: "Microsoft Power BI görselleştirmeleri (görselleri) hakkındaki belgeler."
+title: "Power BI hizmetindeki ve Power BI Desktop'taki rapor görselleştirmelerine genel bakış"
+description: "Microsoft Power BI'daki görselleştirmelere (görsellere) genel bakış."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7b23ec8bf284de5419db98c326b206e205e253ec
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bb9244268a0a68f7b15877ae7ff567fe35cb2a1a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="visualizations-in-power-bi"></a>Power BI'daki görselleştirmeler
-Veri görselleştirmeleri (başka bir deyişle, görseller), işle ilgili öngörüleri bulmak için verilerinizle etkileşim kurmanıza olanak sağlar. Raporlarınızda görselleştirmeler oluşturup değiştirin ve bunları panolarınıza sabitleyin.   
+# <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
+Görselleştirmeler (başka bir deyişle görseller) verilerden elde edilen öngörüleri görüntüler. Power BI raporları bir görsel içeren tek sayfadan oluşabileceği gibi görsellerle dolu birçok sayfa da içerebilir. Power BI hizmetinde görseller [raporlardan veya panolardan sabitlenebilir](service-dashboard-pin-tile-from-report.md). 
+
+Rapor *oluşturucuları* ile rapor *kullanıcıları* arasındaki ayrımın yapılması önemlidir. Raporu oluşturan veya değiştiren kişi sizseniz bu, oluşturucu olduğunuz anlamına gelir.  Oluşturucular rapor ve bağlantılı veri kümesine yönelik düzenleme izinlerine sahip olur. Power BI Desktop'ta bu, veri kümesini Veri görünümünde açabileceğiniz ve Rapor görünümünde görseller oluşturabileceğiniz anlamına gelir. Power BI hizmetinde ise veri kümesini veya raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde rapor düzenleyicisinde açabileceğiniz anlamına gelir. Bir rapor veya pano [sizinle paylaşıldıysa](service-shared-with-me.md) rapor **kullanıcısı** olursunuz. Raporu görüntüleyebilmenin yanı sıra raporla ve içerdiği görsellerle etkileşim kurabilirsiniz ancak değişiklikleri kaydedemezsiniz.
+
+Doğrudan Power BI'daki GÖRSEL ÖĞELER bölmesinden kullanabileceğiniz çok sayıda farklı görsel türü vardır. 
+
+![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+
+Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [özel görselleri](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) indirebilirsiniz.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -36,13 +44,13 @@ Veri görselleştirmeleri (başka bir deyişle, görseller), işle ilgili öngö
 Rapor sayfalarınızda [görselleştirmeler oluşturun](power-bi-report-add-visualizations-i.md). [Kullanılabilir görselleştirmelere ve görselleştirmelere ilişkin mevcut eğitimlere](power-bi-visualization-types-for-reports-and-q-and-a.md) göz atın. 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Özel görselleştirme yükleme ve bunu Power BI'da kullanma
-Kendiniz oluşturduğunuz veya [Office Mağazası](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)'nda bulduğunuz özel bir görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için geliştirici araçlarımızı kullanın ve bunu [toplulukla paylaşın](http://visuals.powerbi.com)
+Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir özel görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](service-custom-visuals-getting-started-with-developer-tools.md) kullanın ve [bunu toplulukla paylaşın](developer/office-store.md)
 
 ## <a name="change-the-visualization-type"></a>Görselleştirme türünü değiştirme
 Verilerinize en çok hangisinin uyduğunu görmek için [görselleştirme türünü değiştirmeyi](power-bi-report-change-visualization-type.md) deneyin.
 
 ## <a name="pin-the-visualization"></a>Görselleştirmeyi sabitleme
-Görselleştirmeyi istediğiniz hale getirdikten sonra kutucuk olarak [bir panoya sabitleyebilirsiniz](service-dashboard-pin-tile-from-report.md). Görselleştirmeyi sabitledikten sonra raporda değiştirirseniz panodaki kutucuk değişmez.
+Power BI hizmetinde görselleştirmeyi istediğiniz hale getirdikten sonra kutucuk olarak [bir panoya sabitleyebilirsiniz](service-dashboard-pin-tile-from-report.md). Sabitledikten sonra, raporda kullanılan görselleştirmeyi değiştirmeniz halinde panodaki kutucuk değişmez. Görselleştirme bir çizgi grafik ise raporda Halka grafik olarak değiştirmiş olsanız bile çizgi grafik olarak kalır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
