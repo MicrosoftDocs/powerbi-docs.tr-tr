@@ -3,7 +3,7 @@ title: "Power BI Embedded hakkında sık sorulan sorular"
 description: "Power BI Embedded hakkında sık sorulan sorular ve cevaplar listesini inceleyin."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/15/2018
-ms.author: asaxton
-ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.author: maghan
+ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 

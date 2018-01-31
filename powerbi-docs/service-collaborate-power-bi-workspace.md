@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: a95e1ae0c1311d4db753d3e795dd7691927745d1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d7c27792b9eefc97c39f9211fe246e81d0932a80
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
 Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. Çalışma alanları tam olarak işbirliği yapabilmeniz için tasarlanmıştır. İş arkadaşlarınızla birlikte pano ve raporlarınızda işbirliği yaptıktan sonra çalışma alanını bir uygulama olarak paket haline getirip dağıtabilirsiniz. [Power BI'da uygulama ve uygulama çalışma alanları oluşturma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin. 
@@ -84,5 +84,5 @@ Bir uygulama çalışma alanının sahibi veya yöneticisiyseniz çalışma alan
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-* Geri bildirimde bulunmak ister misiniz? [Power BI Ideas (Power BI ile ilgili Fikirler)](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin
+* Geri bildirimde bulunmak ister misiniz? [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin
 

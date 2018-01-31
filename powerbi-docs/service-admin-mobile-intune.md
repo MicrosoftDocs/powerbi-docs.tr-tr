@@ -3,7 +3,7 @@ title: "Microsoft Intune ile mobil uygulamaları yapılandırma"
 description: "Power BI Mobil uygulamalarını Microsoft Intune ile yapılandırma. Bu makalede, uygulamayı ekleme ve dağıtma işlemleri açıklanır. Ayrıca güvenliği denetlemeye yönelik mobil uygulama ilkesinin nasıl oluşturulacağı da ele alınır."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 793734acf8e5d5a11747ec850cdf0faeda8448dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 Microsoft Intune, kuruluşların cihazları ve uygulamaları yönetmesine olanak sağlar. iOS ve Android için Power BI mobil uygulamaları Intune ile tümleşik bir biçimde çalışarak cihazlarınızda uygulamayı yönetmenizi ve güvenliği denetlemenizi sağlar. Yapılandırma ilkeleri aracılığıyla, erişim PIN'i gerektirme, verilerin uygulama tarafından nasıl işlendiğini denetleme ve hatta uygulama kullanılmadığı sırada uygulama verilerini şifreleme gibi öğeleri denetleyebilirsiniz.
@@ -89,7 +89,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 2. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **Sonraki** seçeneğini belirleyin.
    
     ![](media/service-admin-mobile-intune/intune-add-software-ios1.png)
-3. Bir **Yayımcı**, **Ad** ve **Açıklama** seçin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
+3. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
 4. Uygulamayı **Herhangi bir** (varsayılan), **iPad** veya **iPhone** seçeneklerinden birini belirleyerek yayımlamayı tercih edebilirsiniz. Varsayılan olarak, **Herhangi bir** seçeneği belirlenmiştir ve her iki cihaz türü için de kullanılabilir. Power BI uygulamasının URL'si iPhone ve iPad için aynıdır. **İleri**'yi seçin.
 5. **Karşıya Yükle**'yi seçin.
 

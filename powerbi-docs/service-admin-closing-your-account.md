@@ -3,7 +3,7 @@ title: "Power BI hesabınızı kapatma"
 description: "Power BI hesabınızı kapatma"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: b28ec5478ead2c2e6952f2b2a0e9e4476321440b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 2e3e7257e60cfcd92bd5091f67fb1acccb865fdf
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Power BI hesabınızı kapatma
 Power BI'ı artık kullanmak istemiyorsanız bizden Power BI hesabınızı kapatmamızı isteyebilirsiniz.  Hesabınız kapatıldıktan sonra Power BI'da oturum açamazsınız.  Ayrıca, Power BI'a yüklediğiniz veya burada oluşturduğunuz tüm müşteri verileri, Power BI Hizmet Kullanım Koşulları'ndaki veri saklama ilkesine göre silinir.

@@ -3,7 +3,7 @@ title: "Kuruluşunuz için Power BI (ücretsiz)"
 description: "Bu makalede Power BI (ücretsiz) seçenekleri kuruluş açısından ele alınmaktadır. Kiracınızın Yöneticisi sizseniz ücretsiz abonelikleri yönetme seçeneklerini de kullanabilirsiniz."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 5cdb3c17b1a65fd2a8b55918feaf58dd12fc1a2f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Kuruluşunuz için Power BI (ücretsiz)
 Bu makalede Power BI (ücretsiz) teklifini kuruluşunuzda nasıl kullanacağınız anlatılmaktadır. Kuruluş, kiracınız olduğu ve bu kiracı içindeki kullanıcıları ve hizmetleri yönetebildiğiniz anlamına gelir. Yönetici olarak lisans atamasını denetleyebilir veya kullanıcıların bireysel olarak kaydolmasına izin verebilirsiniz. Power BI (ücretsiz) lisansına ve bireysel kaydolma işlemlerini nasıl yönetebileceğinize göz atacağız.
@@ -80,7 +80,7 @@ Denetim **AllowAdHocSubscriptions** AAD ayarı tarafından gerçekleştirilir. �
 2. Oturum açtıktan sonra aşağıdaki komutu kullanarak kiracınızın geçerli yapılandırmasını görebilirsiniz.
    
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Bu komutu kullanarak AllowAdHocSubscriptions ayarını etkinleştirebilir ($true) veya devre dışı bırakabilirsiniz ($false).
+3. Aşağıdaki komutu kullanarak AllowAdHocSubscriptions ayarını etkinleştirebilir ($true) veya devre dışı bırakabilirsiniz ($false).
    
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 

@@ -3,7 +3,7 @@ title: "Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme"
 description: "Müşterileriniz için Power BI API'leri kullanarak bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Bir Power BI panosunu, kutucuğunu veya raporunu uygulamanıza ekleme
 Müşterileriniz için Power BI .NET SDK'sını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin. Bu tipik bir ISV senaryosudur.

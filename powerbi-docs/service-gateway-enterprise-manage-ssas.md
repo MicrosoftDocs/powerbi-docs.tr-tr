@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
@@ -46,23 +46,23 @@ Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
 * Eylemler ve Adlandırılmış Kümeler Power BI için açık değildir ancak Eylemleri veya Adlandırılmış kümeleri de içeren çok boyutlu küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
 
 ## <a name="add-a-gateway"></a>Ağ geçidi ekleme
-Ağ geçidi eklemek için ortamınızdaki bir sunucudan ağ geçidini [indirmeniz](https://go.microsoft.com/fwlink/?LinkId=698861) ve yüklemeniz yeterlidir. Ağ geçidi, yüklendikten sonra **Ağ geçitlerini yönet** seçeneği altındaki ağ geçidi listelerinde görünür.
+Bir ağ geçidi eklemek için ortamınızdaki bir sunucudan ağ geçidini [indirip](https://go.microsoft.com/fwlink/?LinkId=698861) yüklemeniz yeterlidir. Ağ geçidi, yüklendikten sonra **Ağ geçitlerini yönet** seçeneği altındaki ağ geçidi listelerinde görünür.
 
 > [!NOTE]
-> **Ağ geçitlerini yönet** seçeneği en az bir ağ geçidinin yöneticisi olduğunuzda görünür. Bunun için bir yönetici olarak eklenmeniz veya bir ağ geçidi yükleyip yapılandırmanız gerekir.
+> **Ağ geçitlerini yönet** seçeneği en az bir ağ geçidinin yöneticisi olduğunuzda görüntülenir. Bunun için bir yönetici olarak eklenmeniz veya bir ağ geçidi yükleyip yapılandırmanız gerekir.
 > 
 > 
 
 ## <a name="remove-a-gateway"></a>Ağ geçitlerini kaldırma
-Bir ağ geçidini kaldırmak, bu ağ geçidi altındaki tüm veri kaynaklarının da silinmesine neden olur.  Bu işlem ayrıca ilgili veri kaynağını kullanan panoların ve raporların tümünü bozar.
+Bir ağ geçidini kaldırmak, söz konusu ağ geçidi altındaki tüm veri kaynaklarının da silinmesine neden olur.  Ayrıca bu işlem, ilgili veri kaynaklarını kullanan panoların ve raporların da çalışmamasına yol açar.
 
-1. Sağ üst köşedeki dişli simgesi ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **Ağ geçitlerini yönet** seçeneğini belirleyin.
-2. Ağ geçidi > **Kaldır**
+1. Sağ üst köşedeki dişli simgesi ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **Ağ geçitlerini yönet**'i seçin.
+2. Ağ geçidi > **Kaldır**'ı seçin
    
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Veri kaynağı ekleme
-Bir veri kaynağını, bir ağ geçidi seçip **Veri kaynağı ekle**'ye tıklayarak veya Ağ geçidi > **Veri kaynağı ekle**'ye giderek ekleyebilirsiniz.
+Bir ağ geçidi seçip **Veri kaynağı ekle**'ye tıklayarak veya Ağ geçidi > **Veri kaynağı ekle** bölümüne giderek veri kaynağı ekleyebilirsiniz.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings1.png)
 
@@ -109,7 +109,7 @@ Ayrıca, Power BI oturum açma adınızı yerel dizin UPN'si ile eşleyebilirsin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="how-do-i-tell-what-my-upn-is"></a>UPN'min ne olduğunu nasıl anlarım?
-UPN'nizin ne olduğunu bilemeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzdan aşağıdaki komutu çalıştırabilirsiniz.
+UPN'nizin ne olduğunu bilmeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzdan aşağıdaki komutu çalıştırabilirsiniz.
 
     whoami /upn
 
@@ -216,7 +216,7 @@ Bir veri kaynağını kaldırmak için, Veri Kaynağı > **Kaldır** seçeneğin
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Yöneticileri yönetme
-Ağ geçidinin Yöneticiler sekmesinde, ağ geçidini yönetebilen kullanıcılar (veya güvenlik grupları) ekleyebilir ve kaldırabilirsiniz.
+Ağ geçidine ilişkin Yöneticiler sekmesinde, ağ geçidini yönetebilen kullanıcılar (veya güvenlik grupları) ekleyebilir ve kaldırabilirsiniz.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
@@ -238,7 +238,7 @@ Veri kaynağı, oluşturulduktan sonra canlı bağlantılarla veya zamanlanmış
 > 
 > 
 
-Ağ geçidindeki veri kaynağınız ile veri kümeniz arasındaki bağlantı, sunucu ve veritabanı adınızı temel alır. Bunlar eşleşmelidir. Örneğin, Power BI Desktop içinde sunucu adı için bir IP Adresi sağlarsanız bu IP Adresini ağ geçidi yapılandırması içindeki veri kaynağında da kullanmanız gerekir. Power BI Desktop'ta *SUNUCU\ÖRNEK* yapılandırmasını kullanırsanız ağ geçidi için yapılandırılan veri kaynağında da aynısını kullanmanız gerekir.
+Ağ geçidindeki veri kaynağı ve veri kümeniz arasındaki bağlantı, sunucu ve veritabanı adınızı temel alır. Bunlar eşleşmelidir. Örneğin, Power BI Desktop'ta sunucu adı için bir IP Adresi sağlarsanız bu IP Adresini ağ geçidi yapılandırmasındaki veri kaynağında da kullanmanız gerekir. Power BI Desktop'ta *SUNUCU\ÖRNEK* yapılandırmasını kullanırsanız ağ geçidi için yapılandırılan veri kaynağında da aynısını kullanmanız gerekir.
 
 Bu durum hem canlı bağlantılar hem de zamanlanmış yenileme için geçerlidir.
 

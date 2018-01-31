@@ -3,7 +3,7 @@ title: "Özel görselleri güvenlik ve gizlilik bakımından gözden geçirme"
 description: "Bir özel görseli etkinleştirmeden önce kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.author: maghan
+ms.openlocfilehash: 15f8d9090736a62fdaa53aa3f19e7e0fff127337
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>Özel görselleri güvenlik ve gizlilik bakımından gözden geçirme
 Bir özel görseli etkinleştirmeden önce kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir.

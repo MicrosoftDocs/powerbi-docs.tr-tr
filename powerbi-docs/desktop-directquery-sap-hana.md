@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d6f863df59d7374c792f1e1ac16db3a04ad99d87
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2b2e59371c96928a2b7c6b23bd393a80ecc3041a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery ve SAP HANA
 **DirectQuery**'yi kullanarak **SAP HANA** veri kaynaklarına doğrudan bağlanabilirsiniz.

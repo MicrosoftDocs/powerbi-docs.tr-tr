@@ -3,7 +3,7 @@ title: Power BI ile ekleme
 description: "Power BI, panolarınızı ve raporlarınızı uygulamalara eklemek için kullanabileceğiniz API'ler sunar."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/17
 ms.author: mihart
-ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embedding-with-power-bi"></a>Power BI ile ekleme
 Power BI, panolarınızı ve raporlarınızı uygulamalara eklemek için kullanabileceğiniz API'ler sunar. Power BI API'leri, içerik eklerken kullanabileceğiniz bir dizi özelliğin yanı sıra en yeni Power BI özeliklerine (panolar, ağ geçitleri ve uygulama çalışma alanları gibi) erişim sunar.
@@ -64,11 +64,11 @@ Panoları, raporları ve kutucukları eklemek için kuruluşunuz için içerik e
 
 Ekleme hakkında ayrıntılı bilgi için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md).
 
-Azure'daki Power BI Çalışma Alanı Koleksiyonları'nı kullanıyorsanız içeriğinizi geçirme hakkında bilgi almak için bkz. [Power BI Çalışma Alanı Koleksiyonları Azure hizmetindeki içeriği geçirme](migrate-from-powerbi-embedded.md).
+Azure'daki Power BI Çalışma Alanı Koleksiyonları'nı kullanıyorsanız içeriğinizi taşıma hakkında bilgi almak için bkz. [Power BI Çalışma Alanı Koleksiyonları Azure hizmetindeki içeriği taşıma](migrate-from-powerbi-embedded.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
 [Power BI Premium nedir?](../service-premium.md)  
 [JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  

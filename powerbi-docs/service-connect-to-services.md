@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: 
 editor: 
 tags: 
 qualityfocus: no
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: 484545b0c240f54e2efe73ff16ba24ebe77d247c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: caf18362c0793d0a501ced2cd3160acc8f891516
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI öncelikle kimlik bilgilerinizi kullanarak hizmete bağlanır, ardından, verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir pano ve Power BI raporları içeren bir Power BI uygulaması oluşturur. 

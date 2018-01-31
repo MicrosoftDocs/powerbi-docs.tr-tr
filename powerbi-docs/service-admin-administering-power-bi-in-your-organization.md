@@ -3,7 +3,7 @@ title: "Kuruluşunuzda Power BI uygulamasını yönetme"
 description: "Kuruluşunuzda Power BI uygulamasını yönetme"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.author: maghan
+ms.openlocfilehash: 0fd6226ca14a4b48c94e13eaae8b085381a5f9a6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Kuruluşunuzda Power BI uygulamasını yönetme
 Microsoft Power BI, kullanıcıların verileri görselleştirmesine, keşfettiklerini paylaşmasına, yeni ve kolay anlaşılır yollarla işbirliği yapmasına olanak sağlar. Daha fazla bilgi edinmek için bkz. [Power BI ile çalışmaya başlama](service-get-started.md).
@@ -93,7 +93,7 @@ Kuruluşunuzun Power BI'dan faydalanmak için gerçekleştirmesi gereken bir yö
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Kullanıcıların, var olan Office 365 kiracıma katılmalarını nasıl önleyebilirim?
 Bir yönetici olarak, kullanıcıların Office 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Katılımı engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcılar, kuruluşlarının yöneticisiyle iletişim kurmaya yönlendirilir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
 
-Bu adımlar için Windows PowerShell kullanımı gereklidir. Windows PowerShell ile çalışmaya başlamak için bkz. [PowerShell ile çalışmaya başlama kılavuzu](http://go.microsoft.com/fwlink/p/?LinkID=286814).
+Bu adımlar için Windows PowerShell kullanımı gerekli değildir. Windows PowerShell ile çalışmaya başlamak için bkz. [PowerShell ile çalışmaya başlama kılavuzu](http://go.microsoft.com/fwlink/p/?LinkID=286814).
 
 Aşağıdaki adımları uygulamak için [Windows PowerShell için Azure Active Directory Modülü](http://go.microsoft.com/fwlink/p/?LinkID=236297)'nün en son sürümünü (64 bit) yüklemeniz gerekir.
 

@@ -3,7 +3,7 @@ title: "Satır eklemek için veri kümesi alma"
 description: "Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablosuna satır eklemek için veri kümesi alma"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: fcb06e2b61fc1beb6ff5409256e5c54e68bb8f34
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. Adım: Bir Power BI tablosuna satır eklemek için veri kümesi alma
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.

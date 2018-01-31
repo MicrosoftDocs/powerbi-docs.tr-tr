@@ -3,7 +3,7 @@ title: Power BI Embedded'da Soru-Cevap
 description: "Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma olanağı vermenizi sağlayan bir yöntem sunar."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 856377112ccd7cb045ff80d3294ff9b8181122ee
-ms.sourcegitcommit: 97ca2ed578f4f0e11f2d014872fe1b80dfd8a28e
+ms.author: maghan
+ms.openlocfilehash: 93b4f21cd5a7a804874ab111bca61eea112cb11a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
 Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma ve tablo veya grafik gibi görsellerle anında cevap alma olanağı vermenizi sağlayan bir yöntem sunar.
