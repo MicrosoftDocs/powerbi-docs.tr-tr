@@ -68,7 +68,7 @@ Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı
    
     Kullanım ölçümleri, Power BI panolarını ve raporlarını dağıtma ve bunların bakımını yapma konusunda size yardımcı olacaktır. Raporunuzun en faydalı sayfalarını ve hangilerini kaldırmanız gerektiğini merak mı ediyorsunuz? Öğrenmek için **Rapor sayfası**'na göre dilimleyin. Panonuz için bir mobil düzen oluşturmanız gerekip gerekmediğini merak mı ediyorsunuz? İçeriğinize mobil uygulamalardan ve web tarayıcısından erişen kullanıcıların sayısını görmek için **Platformlar**'a göre dilimleyin.
 
-5. İsteğe bağlı olarak, bir görselleştirmenin üzerine gelin ve görselleştirmeyi bir panoya eklemek için raptiye simgesini seçin. Alternatif olarak, sayfanın tamamını bir panoya eklemek için üstteki menü çubuğunda **Canlı Sabitleme Sayfası** seçeneğini belirleyin. Panodan kullanım ölçümlerini daha kolayca izleyebilir veya başkalarıyla paylaşabilirsiniz.
+5. İsteğe bağlı olarak, bir görselleştirmenin üzerine gelin ve görselleştirmeyi bir panoya eklemek için raptiye simgesini seçin. Alternatif olarak, sayfanın tamamını bir panoya eklemek için üstteki menü çubuğunda **Canlı Sayfayı Sabitleme** seçeneğini belirleyin. Panodan kullanım ölçümlerini daha kolayca izleyebilir veya başkalarıyla paylaşabilirsiniz.
    
    > **NOT**: Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlemeniz halinde ilgili pano bir uygulamaya veya içerik paketine eklenemez.
    > 
