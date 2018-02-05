@@ -1,5 +1,5 @@
 ---
-title: "Rapor sayfalarının tamamını Power BI panolarına sabitleme "
+title: "Rapor sayfasının tamamını bir Power BI panosuna sabitleme "
 description: "Raporlardaki bir canlı rapor sayfasının tamamını Power BI panosuna sabitleme hakkında belge."
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Rapor sayfasının tamamını bir Power BI panosuna canlı kutucuk olarak sabitleme
-Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir.  Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, tüm sayfayı sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan panodan etkileşim kurabilirsiniz. Aynı zamanda rapor düzenleyicisinde görselleştirmeler için filtre eklemek veya grafikte kullanılan alanları değiştirmek gibi yaptığınız değişiklikler pano kutucuğunda da görünür.  
+Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
+
+Canlı kutucukların raporlardan panolara sabitlenmesi yalnızca Power BI hizmetinde (app.powerbi.com) mümkündür.
 
 > [!NOTE]
 > Sizinle paylaşılan raporlarda bulunan kutucukları sabitleyemezsiniz.
@@ -44,7 +46,7 @@ Canlı rapor sayfasını bir panoya sabitleyen Amanda'yı izledikten sonra kendi
    ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
 3. Kutucuğu var olan bir panoya veya yeni bir panoya sabitleyin. Vurgulanan metne dikkat edin: *Canlı sabitleme sayfası, sayfa yenilendiğinde rapor üzerinde yapılan değişikliklerin pano kutucuğunda görüntülenmesini sağlar.*
    
-   * Var olan pano: Açılan listeden pano adını seçin. Sizinle paylaşılmış panolar açılan listede görünmez.
+   * Var olan pano: Açılan listeden pano adını seçin. Sizinle paylaşılan panolar açılan listede görünmez.
    * Yeni pano: Yeni panonun adını girin.
      
      ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)

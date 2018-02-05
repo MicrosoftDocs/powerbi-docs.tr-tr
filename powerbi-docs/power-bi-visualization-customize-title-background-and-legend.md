@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme (Eğitim)
 Bu eğitimde, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz.   Görselleştirmelerinizi özelleştirmeye yönelik pek çok seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu, Biçimlendirme bölmesini keşfetmektir (boya rulosu simgesini seçerek).  Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.  
@@ -33,9 +33,12 @@ Amanda raporundaki görselleştirmeleri özelleştirirken ona eşlik edin. (Vide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Önkoşullar
+- Power BI hizmeti veya Power BI Desktop
+- Perakende Analizi örneği
 
 ## <a name="customize-visualization-titles-in-reports"></a>Raporlardaki görselleştirme başlıklarını özelleştirme
-Birlikte ilerleyebilmek için, app.powerbi sayfasında oturum açın ve [Perakende Analizi Örneği](sample-datasets.md) raporunu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açın.
+Örneği takip etmek için, Power BI hizmetinde (app.powerbi.com) oturum açın ve [Perakende Analizi Örneği](sample-datasets.md) raporunu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açın.
 
 > [!NOTE]
 > Panolara sabitlediğiniz görselleştirmeler birer pano kutucuğu haline gelir.  Kutucuklar da [yeni başlıklar, alt başlıklar ve köprülerle özelleştirilebilir veya yeniden boyutlandırılabilir](service-dashboard-edit-tile.md).
@@ -120,7 +123,6 @@ Aynı sütun grafiği seçili durumdayken Arka Plan seçeneklerini genişletin.
 | şelale |evet |evet |evet |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi  
 [X ve Y eksenini özelleştirme](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Renkleri ve eksen özelliklerini özelleştirme](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - Temel Kavramlar](service-basic-concepts.md)  

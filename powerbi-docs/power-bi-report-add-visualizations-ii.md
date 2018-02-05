@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>2. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)
 [1. Bölüm](power-bi-report-add-visualizations-ii.md)'de alan adlarının yanında bulunan onay kutularını seçerek temel görselleştirmeler oluşturdunuz.  2. Bölüm'de sürükle bırak işlevini nasıl kullanacağınızı ve her türlü görselleştirmeyi oluşturmak ve değiştirmek için **Alanlar** ve **Görsel Öğeler** bölmelerini tam olarak nasıl kullanabileceğinizi öğreneceksiniz.
+
+### <a name="prerequisites"></a>Önkoşullar
+- [Bölüm 1](power-bi-report-add-visualizations-ii.md)
+- Power BI hizmeti - Power BI hizmeti veya Power BI Desktop kullanılarak, raporlara görsel öğeler eklenebilir. Bu öğretici, Power BI hizmetini kullanır. 
+- Perakende Analizi örneği
 
 ## <a name="create-a-new-visualization"></a>Yeni görselleştirme oluşturma
 Bu eğitim kapsamında Perakende Analizi veri kümesini derinlemesine inceleyeceğiz ve birkaç anahtar görselleştirme oluşturacağız.
@@ -64,7 +69,6 @@ Bu eğitim kapsamında Perakende Analizi veri kümesini derinlemesine inceleyece
 ## <a name="next-steps"></a>Sonraki adımlar
 * Alanlar bölmesi ile ilgili daha fazla bilgi için bkz. [Rapor düzenleyicisi: Tura katılın](service-the-report-editor-take-a-tour.md).   
 * Görselleştirmelerinizi nasıl filtreleyeceğinizi ve vurgulayacağınızı öğrenmek için bkz. [Power BI raporlarındaki filtreler ve vurgulama](power-bi-reports-filters-and-highlighting.md).  
-* Toplamaları kullanma ve değiştirme ile ilgili daha fazla bilgi içi bkz. [Raporlardaki toplamalar](service-aggregates.md).  
 * [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi.  
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

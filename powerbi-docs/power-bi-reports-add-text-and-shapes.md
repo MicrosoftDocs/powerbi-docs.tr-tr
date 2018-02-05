@@ -16,34 +16,41 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: f2edc291c28b865eb956361cf0f9b4740f59c77c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5435af7441a1e9b706ac4dc58b544c44a94410a
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI raporlarındaki statik içerik
-Düzenleme Görünümü'nde, Power BI hizmetindeki bir rapora metin kutuları ve şekiller ekleyin. 
+Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller eklenebilir. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Sizinle bir rapor paylaşıldığında, Düzenleme görünümüne erişemezsiniz. 
 
-> **NOT**: Aşağıdaki videoda gösterildiği üzere, Power BI Desktop'ta [raporunuza statik görüntüler de ekleyebilirsiniz](guided-learning/visualizations.yml#step-11).
+Power BI Desktop kullanarak [rapora statik görüntüler ekleyin](guided-learning/visualizations.yml#step-11) ve sonra aşağıdaki adımları izleyerek, bunun yerine Power BI hizmetini kullanmayı deneyin.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
-> 
 
 ## <a name="add-a-text-box-to-a-report"></a>Rapora metin kutusu ekleme
-1. İmlecinizi rapor tuvalinin herhangi bir yerine yerleştirip **Metin Kutusu** seçeneğini belirleyin.
+1. Bir raporu Düzenleme görünümünde açın.
+
+2. İmlecinizi rapor tuvalinin boş bir alanına yerleştirip **Metin Kutusu** seçeneğini belirleyin.
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 2. Metin kutusuna metninizi yazın ve isteğe bağlı olarak yazı tipini, rengi ve metin hizalamasını biçimlendirin. 
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
-3. Metin kutusunu yerleştirmek için üst kısımdaki gri alanı seçip sürükleyin. Metin Kutusunu yeniden boyutlandırmak için ana hat tutamaçlarından herhangi birini seçip sürükleyin. 
+3. Metin kutusunu yerleştirmek için üst kısımdaki gri alanı seçip sürükleyin. Metin kutusunu yeniden boyutlandırmak için ana hat tutamaçlarından herhangi birini seçip sürükleyin. 
    
    ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
-4. Metin kutusunu kapatmak için rapor tuvalindeki herhangi bir boş alanı seçin.
+
+4. Metin kutusu hala seçiliyken, GÖRSEL ÖĞELER bölmesine başka biçimlendirmeler ekleyin. Bu örnekte, arka planı ve kenarlığı biçimlendirdik. Ayrıca, bir metin kutusu için tam bir boyut ve konum oluşturabilirsiniz.  
+
+   ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
+
+5. Metin kutusunu kapatmak için rapor tuvalindeki herhangi bir boş alanı seçin. 
+
 5. Metin kutusunu bir panoya sabitlemek için raptiye simgesini ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) seçin. 
 
 ## <a name="add-a-shape-to-a-report"></a>Rapora şekil ekleme
@@ -55,20 +62,15 @@ Düzenleme Görünümü'nde, Power BI hizmetindeki bir rapora metin kutuları ve
    **Şekli biçimlendir** bölmesinde, eklediğiniz şekli özelleştirin. Biz bu örnekte koyu kırmızı kenarlıklı, 90 derece döndürülmüş kırmızı bir ok oluşturduk.
    
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
-3. Şekli yerleştirmek için üst kısımdaki gri alanı seçip sürükleyin. Şekli yeniden boyutlandırmak için ise ana hat tutamaçlarından herhangi birini seçip sürükleyin. 
+3. Şekli yerleştirmek için üst kısımdaki gri alanı seçip sürükleyin. Şekli yeniden boyutlandırmak için ise ana hat tutamaçlarından herhangi birini seçip sürükleyin. Metin kutusu için yaptığınız gibi, bir şekil için de tam bir boyut ve konum oluşturabilirsiniz.
 
-> **NOT**: Şekiller bir panoya sabitlenemez. 
+> **NOT**: [Canlı bir sayfayı sabitlediğinizde](service-dashboard-pin-live-tile-from-report.md) görsel öğelerden biri olması dışında, şekiller bir panoya sabitlenemez. 
 > 
 > 
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Metin kutularına köprü ekleme](service-add-hyperlink-to-text-box.md)
 
-[Power BI'daki raporlar](service-reports.md)
-
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
-
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

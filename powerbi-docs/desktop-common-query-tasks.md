@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -69,7 +69,7 @@ Diğer veri bağlantıları da benzer şekilde kurulur. Bir veri bağlantısın�
 Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>Verileri şekillendirme ve birleştirme
-Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. ****[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
 
 Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünde) Sorgu Düzenleyicisi'ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
 

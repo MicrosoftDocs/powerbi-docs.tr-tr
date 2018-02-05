@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 3e0e06f36bfd229cf482428aa983e7211dbf897c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone veya iPod touch'ta Power BI mobil uygulaması ile çalışmaya başlama
 iPhone veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyip bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -41,7 +41,7 @@ Ardından, iPhone için Power BI uygulamasında, şirket içinde veya bulutta ol
 App Store'a giderek iPhone veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
 
 > [!NOTE]
-> iOS için Power BI uygulamasını, iOS 9.0 veya sonraki bir sürümü yüklü iPhone 5 ve sonraki modellerde çalıştırabilirsiniz. Uygulamayı iOS 9.0 veya sonraki bir sürümü yüklü bir iPod touch'ta da çalıştırabilirsiniz.
+> iOS için Power BI uygulamasını, iOS 10 veya sonraki bir sürümün yüklü olduğu iPhone 5 ve sonraki modellerde çalıştırabilirsiniz. Uygulamayı iOS 10 veya sonraki bir sürümün yüklü olduğu iPod Touch'ta da çalıştırabilirsiniz.
 > 
 > 
 
@@ -61,7 +61,7 @@ Henüz yapmadıysanız hizmete ulaşmak için Power BI'a (https://powerbi.com) g
 Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Dilediğiniz zaman genel gezinti düğmesini kullanarak örneklere geri dönebilirsiniz.
 
 ### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey vardır. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
 
 1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) dokunun.
 2. Sol üst taraftaki dişli simgesine ![Dişli simgesi](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) ve ardından **Power BI örnekleri** seçeneğine dokunun.
@@ -106,7 +106,7 @@ Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu v
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için kurumsal destek
-Kuruluşlar, Android ve iOS için Power BI mobil uygulamalarının da dahil olduğu cihazları ve uygulamaları yönetmek için Microsoft Intune'u kullanabilir.
+Kuruluşlar, Android ve iOS için Power BI mobil uygulamaları da dahil olmak üzere cihazları ve uygulamaları yönetmek için Microsoft Intune'u kullanabilir.
 
 Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygulama tarafından nasıl işlendiğini denetleme ve hatta uygulama kullanılmadığı sırada uygulama verilerini şifreleme gibi işlemler gerçekleştirerek öğeleri denetlemesine olanak sağlar.
 
@@ -138,6 +138,6 @@ iPhone uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sır
 * [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
 
 ### <a name="see-also"></a>Ayıca bkz.
-* [Power BI'ı kullanmaya başlama](service-get-started.md)
+* [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

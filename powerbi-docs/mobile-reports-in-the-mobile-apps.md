@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -63,7 +63,7 @@ Bu raporu bir telefonda görüntülediğinizde dikey görünümde açılır.
 [Telefon görünümü için en iyi duruma getirilmiş raporlar](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Bir rapor sayfasını filtrelemek için dilimleyicileri kullanma
-Power BI hizmetinde [(https://powerbi.com)](https://powerbi.com) bir rapor tasarlarken Filtreler bölmesini telefonda göremeyeceğinizi ancak [rapor sayfasında dilimleyicileri görebileceğinizi](power-bi-visualization-slicers.md) göz önünde bulundurun. Bir rapora dilimleyiciler eklediğinizde hem siz hem de iş arkadaşlarınız, bu dilimleyicileri kullanarak raporu telefonda da filtreleyebilirsiniz.
+Power BI Desktop’ta veya Power BI hizmetinde bir rapor tasarlarken [rapor sayfasına dilimleyiciler eklemeyi](power-bi-visualization-slicers.md) düşünün. İş arkadaşlarınızla birlikte, bir tarayıcıda ve mobil uygulamalarda sayfayı filtrelemek için dilimleyicileri kullanabilirsiniz. Raporu bir telefonda görüntülediğinizde, dilimleyicileri yatay modda ve telefonun dikey modu için iyileştirilmiş bir sayfada görebilir ve etkileşimde bulunabilirsiniz.
 
 * Rapor sayfasındaki bir dilimleyicide değer seçtiğinizde sayfadaki diğer görseller filtrelenir.
   

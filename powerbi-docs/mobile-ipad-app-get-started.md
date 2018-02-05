@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad'de Power BI mobil uygulamasını kullanmaya başlama
 iPad'lerdeki iOS için Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -41,7 +41,7 @@ Ardından, iPad için Power BI uygulamasında, şirket içinde veya bulutta olma
 Apple App Store'dan [iPad uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062).
 
 > [!NOTE]
-> iPad'inizde iOS 9.0 veya sonraki bir sürümünün yüklü olması gerekir. 
+> iPad'inizde iOS 10 veya sonraki bir sürümünün çalışıyor olması gerekir. 
 > 
 > 
 
@@ -62,7 +62,7 @@ Henüz yapmadıysanız hizmete kaydolmak için Power BI web sitesine (https://po
 Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Panoların bulunduğu giriş sayfasından dilediğiniz zaman örneklere geri dönebilirsiniz.
 
 ### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey vardır. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
 
 1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) ve ardından Ayarlar simgesine ![Ayarlar simgesi](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png)dokunun.
 2. **Power BI Örnekleri**'ne dokunun, bir rol seçin ve bu role ilişkin örnek panoyu inceleyin.  
@@ -121,8 +121,8 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 iPad uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra Power BI Rapor Sunucusu veya Reporting Services web portalındaki raporlar ve KPI'ler ile gerçekleştirebileceğiniz diğer işlemlerden bazıları aşağıda verilmiştir.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları
-* [Uygulamalarınızı](service-install-use-apps.md) görüntüleyin.
-* [Power BI panolarınızı](mobile-apps-view-dashboard.md) görüntüleyin.
+* [Uygulamalarınızı](service-install-use-apps.md) görüntüleme.
+* [Power BI panolarınızı](mobile-apps-view-dashboard.md) görüntüleme.
 * Soru-Cevap özelliğini kullanarak kendi kelimelerinizle [verileriniz hakkında soru sorun](mobile-apps-ios-qna.md)
 * İlgili bir pano kutucuğunu veya raporu açmak için [bir Power BI QR kodu taratın](mobile-apps-qr-code.md).
 * Verileriniz değiştiğinde bildirim almak için [veri uyarıları oluşturun](mobile-set-data-alerts-in-the-mobile-apps.md).
@@ -131,9 +131,9 @@ iPad uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra 
   ![Bildirimler](media/mobile-ipad-app-get-started/power-bi-ipad-notifications.png)
 
 ### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Rapor sunucusu web portallarındaki raporlar ve KPI'ler
-* iOS cihazlarındaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleyin](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
-* [Web portalında KPI'ler oluşturun](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services).
-* [Power BI Desktop'ta raporlar oluşturun ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlayın.
+* iOS cihazlarındaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+* [Web portalında KPI'ler](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
+* [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
 
 ### <a name="see-also"></a>Ayıca bkz.
 * [Power BI ile çalışmaya başlama](service-get-started.md)  

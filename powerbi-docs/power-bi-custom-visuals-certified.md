@@ -16,17 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
-*Sertifikalı özel görsel*, bir dizi kod gereksinimini karşılaşmış ve katı güvenlik testlerini geçmiş görsel demektir.  Bir özel görsel sertifikalandığında, [PowerPoint'e aktarılabilir](service-publish-to-powerpoint.md) ve kullanıcı [Rapor sayfalarına abone olduğunda](service-report-subscribe.md) alınan e-postalarda görüntülenir. Elbette, Power BI hizmeti ve Power BI Desktop raporlarına eklenen ve Power BI mobil uygulamalarında görüntülenip eklenen [standart özel görseller](power-bi-custom-visuals.md) gibi de kullanılabilir.
+*Sertifikalı özel görsel*, bir dizi kod gereksinimini karşılaşmış ve katı güvenlik testlerini geçmiş görsel demektir.  Bir özel görsel sertifikalandığında, [PowerPoint'e aktarılabilir](service-publish-to-powerpoint.md) ve kullanıcı [Rapor sayfalarına abone olduğunda](service-report-subscribe.md) alınan e-postalarda görüntülenir. Elbette, Power BI hizmeti ve Power BI Desktop raporlarına eklenen ve Power BI mobilde görüntülenip eklenen [standart özel görseller](power-bi-custom-visuals.md) gibi de kullanılabilir.
 
 Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları [Microsoft AppSource](https://appsource.microsoft.com)'a eklemek mi istiyorsunuz? Nasıl yapacağınızı öğrenmek için bkz.[Geliştirici Araçlarıyla çalışmaya başlama](service-custom-visuals-getting-started-with-developer-tools.md).
 
@@ -93,6 +93,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten waffle chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
+| [Zorla Yönlendirilmiş Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) |[Video](https://youtu.be/YsTa7uyJ4sg) |
 | [TBATS Tahmini](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
 | [Funnel with source]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Video](https://youtu.be/qJ7s_KrGiUU) |
 | [Akvelon hiyerarşi grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
@@ -115,6 +116,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Scroller](https://store.office.com/scroller-WA104381018.aspx) |[Video](https://youtu.be/uhRFQF2cGSY) |
 | [Smart Filter by SQLBI](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[Video](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[Video](https://youtu.be/0m3Vnvso9tY) |
+| [Akış grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) |  |
 | [Güneş ışığı](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
 | [Table Heatmap](https://store.office.com/table-heatmap-WA104380818.aspx) | |
 | [Tachometer](https://store.office.com/tachometer-WA104380937.aspx?) |[Video](https://www.youtube.com/watch?v=C3OXdETbS9o) |

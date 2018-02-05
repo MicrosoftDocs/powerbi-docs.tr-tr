@@ -1,5 +1,5 @@
 ---
-title: "Rapor düzenleyicisi: Tura katılın"
+title: "Hızlı başlangıç - Rapor düzenleyicisi: Tura katılın"
 description: "Rapor düzenleyicisi: Tura katılın."
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Rapor düzenleyicisi: Tura katılın
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleme
 Power BI hizmetindeki rapor düzenleyicisi ile Power BI Desktop uygulamasındaki rapor düzenleyicisi benzer özelliklere sahiptir. Videoda Power BI Desktop uygulamasındaki rapor düzenleyicisine, bu makalede ise Power BI hizmetindeki rapor düzenleyicisine yer verilmiştir. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Rapor *oluşturucuları* ile rapor *kullanıcıları* arasındaki fark
+Bir rapor yalnızca rapor sahipleri (diğer adıyla *oluşturucular*) tarafından oluşturulabilir ve düzenlenebilir. Sizinle paylaşılan bir raporu *kullanıyorsanız*, raporu Power BI hizmetinin yalnızca [Okuma görünümünde](service-reading-view-and-editing-view.md) açıp raporla etkileşimde bulunabilirsiniz ancak rapor oluşturucunun kullanabildiği tüm güçlü ve kapsamlı özelliklere sahip olmazsınız.  
+
+Rapor Okuma görünümü hakkında daha fazla bilgi almak için bkz. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI hizmetinde *rapor düzenleyicisi* yalnızca [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde kullanılabilir. Bir raporu Düzenleme görünümü'nde açabilmek için raporun sahibi olmanız gerekir.
+Power BI hizmetinde *rapor düzenleyicisi* yalnızca [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde kullanılabilir. Bir raporu Düzenleme görünümünde açabilmek için raporun sahibi veya oluşturucusu olmanız gerekir.
 
 Power BI rapor düzenleyicisi 3 bölümden oluşur:  
 
@@ -87,7 +93,9 @@ Power BI hizmetindeki Analiz bölmesini kullanarak görselleştirmelere dinamik 
 
 - - -
 ## <a name="the-filters-pane"></a>Filtreler bölmesi
-Sayfa, rapor, detaylandırma ve görsel düzeyi filtrelerini görüntüleyebilir, ayarlayabilir ve değiştirebilirsiniz.
+Raporunuzda sayfa, rapor, detaylandırma ve görsel öğe düzeyinde kalıcı filtreler görüntülemek, ayarlamak ve değiştirmek için Filtreler bölmesini kullanın. Evet, görsellerin öğelerini seçerek ya da dilimleyici gibi araçlar kullanarak rapor sayfalarında ve görsel öğelerde geçici filtreleme yapabilirsiniz, ancak Filtreler bölmesi kullanıldığında filtrelerin durumu raporla birlikte kaydedilir. 
+
+Filtreler bölmesinin bir diğer güçlü özelliği: ***halihazırda raporunuzdaki görsel öğelerden biri tarafından kullanılmayan*** bir alan kullanarak filtreleme olanağı. Biraz açıklayayım. Bir rapor sayfası oluşturduğunuzda Power BI, görsel öğelerinizde kullandığınız tüm alanları, Filtreler bölmesinin Görsel düzey filtreleri alanına otomatik olarak ekler.  Ancak, o anda bir görsel öğede kullanılmayan bir alanı kullanarak görsel öğe, sayfa, detaylandırma veya rapor filtresi ayarlamak istiyorsanız, ilgili öğeyi Filtreler demetlerinden birine sürüklemeniz yeterlidir.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Rapor tuvali, çalışmanızın görüntülendiği yerdir. Alanlar, Filtreler ve
 ## <a name="next-steps"></a>Sonraki Adımlar:
 [Rapor oluşturma](service-report-create-new.md)
 
-[Bir raporu düzenleme](service-interact-with-a-report-in-editing-view.md)
-
-[Power BI'daki raporlar](service-reports.md) hakkında daha fazla bilgi edinin
-
-[Power BI ile çalışmaya başlama](service-get-started.md)
+[Power BI hizmeti](service-reports.md), [Power BI Desktop](desktop-report-view.md) ve [Power BI mobil](mobile-apps-view-phone-report.md)’de raporlar hakkında daha fazla bilgi edinin.
 
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 

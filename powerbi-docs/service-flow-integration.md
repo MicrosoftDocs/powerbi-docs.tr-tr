@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
 
@@ -35,7 +35,9 @@ Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI veri uyarısıyla tetiklenen bir akış oluşturma
-Bu eğitimde, biri şablondan ve diğeri sıfırdan olmak üzere iki farklı akışı nasıl oluşturacağınız gösterilmektedir. Eğitimi takip edebilmek için, [Power BI'da bir veri uyarısı oluşturun](service-set-data-alerts.md) ve [Microsoft Flow'a kaydolun](https://flow.microsoft.com/en-us/#home-signup) (Ücretsiz!).
+
+### <a name="prerequisites"></a>Önkoşullar
+Bu eğitimde, biri şablondan ve diğeri sıfırdan olmak üzere iki farklı akışı nasıl oluşturacağınız gösterilmektedir. Örneği takip edebilmek için, [Power BI'da bir veri uyarısı oluşturun](service-set-data-alerts.md), ücretsiz bir Slack hesabı oluşturun ve [Microsoft Flow'a kaydolun](https://flow.microsoft.com/en-us/#home-signup) (ücretsiz!).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI'ı kullanan bir akış oluşturma (şablondan)
 Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit bir akış oluşturmak için şablon kullanacağız.
@@ -47,39 +49,40 @@ Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit 
 3. **Şablondan oluştur** seçeneğini belirleyin.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Power BI şablonlarını bulmak için Arama kutusunu kullanın ve **Power BI veri uyarısı tetiklendiğinde Slack kanalında bir ileti paylaşın** adlı şablonu seçin.
+4. Power BI şablonlarını bulmak için Arama kutusunu kullanın ve **Power BI veri uyarısı tetiklendiğinde her izleyiciye e-posta gönder > Devam** seçeneğini işaretleyin.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. **Bu şablonu kullan** seçeneğini belirleyin.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. İstenirse, **Oturum aç**'ı seçip görüntülenen istemleri izleyerek Slack'e ve Power BI'a bağlanın. Yeşil onay işareti oturum açmış olduğunuzu gösterir.  Bağlantılarınızı doğruladıktan sonra, **Devam**'ı seçin.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Akışı oluşturma
-Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat madalyasına yönelik Power BI veri uyarısı) ve bir eylem (Slack'te bir ileti paylaşma) bulunur. Bir alan seçtiğinizde Flow, ekleyebileceğiniz dinamik içerikleri görüntüler.  Bu örnekte, kutucuk değerini ve ileti gövdesindeki kutucuk URL'sini ekledik.
+Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat madalyasına yönelik Power BI veri uyarısı) ve bir eylem (e-posta gönderme) bulunur. Bir alan seçtiğinizde Flow, ekleyebileceğiniz dinamik içerikleri görüntüler.  Bu örnekte, kutucuk değerini ve ileti gövdesindeki kutucuk URL'sini ekledik.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. Tetikleyici açılan menüsünden bir Power BI veri uyarısı seçin. **New medal for Ireland** seçeneğini belirleyin. Uyarı oluşturma hakkında bilgi edinmek için bkz. [Power BI'daki veri uyarıları](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Slack'te paylaşımda bulunmak için bir kanal adı ve ileti metni girin (Flow'un oluşturduğu varsayılan iletiyi de seçebilirsiniz). İleti metni alanına eklediğimiz dinamik içeriği inceleyin.
+2. Bir veya daha fazla geçerli e-posta adresi girin ve sonra **Düzenle** (aşağıda gösterilmiştir) ya da **Dinamik içerik ekle**’yi seçin. 
    
-   > [!NOTE]
-   > Kanal adınızın başına "@" ekleyin.  Örneğin, Slack kanalı "channelA" olarak adlandırılmışsa Flow'da "@channelA" girin.
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Bu işlemi tamamladığınızda, **Akış oluştur** veya **Akışı kaydet** seçeneğini belirleyin.  Akış oluşturulur ve değerlendirilir.  Flow, herhangi bir hata bulması durumunda sizi bilgilendirir.
-4. Hata bulunması halinde bunları düzeltmek için **Akışı düzenle**'yi, aksi halde, yeni akışı çalıştırmak için **Bitti**'yi seçin.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Akış, tutabileceğiniz veya değiştirebileceğiniz bir başlık ve ileti oluşturur. Power BI'de uyarı oluştururken ayarladığınız tüm değerleri kullanabilirsiniz; imleci yerleştirmeniz ve gri ile vurgulanan alanı seçmeniz yeterlidir. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Örneğin, Power BI'de **Bir madalya daha kazandık** şeklinde bir uyarı başlığı oluşturduysanız, **Uyarı başlığı**’nı seçerek bu metni e-postanızın Konu alanına ekleyebilirsiniz.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    Ayrıca, varsayılan e-posta gövdesini kabul edebilir veya kendinizinkini oluşturabilirsiniz. Yukarıdaki örnekte iletinin birkaç değişikliği gösterilmiştir.
+
+1. Bu işlemi tamamladığınızda, **Akış oluştur** veya **Akışı kaydet** seçeneğini belirleyin.  Akış oluşturulur ve değerlendirilir.  Flow, herhangi bir hata bulması durumunda sizi bilgilendirir.
+2. Hata bulunması halinde bunları düzeltmek için **Akışı düzenle**'yi, aksi halde, yeni akışı çalıştırmak için **Bitti**'yi seçin.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. İletiyi görmek için Slack hesabınızı açın.  
+5. Veri uyarısı tetiklendiğinde belirttiğiniz adreslere bir e-posta gönderilir.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI'ı kullanan bir Akış oluşturma (sıfırdan)
 Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir akışı sıfırdan oluşturacağız.
@@ -88,12 +91,12 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
 2. **Akışlarım** > **Boş akış oluştur** seçeneğini belirleyin.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. Bir Power BI tetikleyicisi bulmak için Arama kutusunu kullanın ve **Veri temelli bir Power BI uyarısı tetiklendiğinde bir Akış tetikleyin** seçeneğini belirleyin.
+3. Bir Power BI tetikleyicisi bulmak için Arama kutusunu kullanın ve **Power BI - veri temelli bir uyarı tetiklendiğinde** seçeneğini belirleyin.
 
 ### <a name="build-your-flow"></a>Akışınızı oluşturma
 1. Açılan menüden uyarınızın adını seçin.  Uyarı oluşturma hakkında bilgi edinmek için bkz. [Power BI'daki veri uyarıları](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. **Yeni adım** > **Eylem ekle**'yi seçin.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

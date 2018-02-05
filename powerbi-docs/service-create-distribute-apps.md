@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -32,7 +32,13 @@ Power BI'da, ilişkili pano ve raporları bir araya getirip kuruluşunuzda kalab
 
 Şimdi önizlemede olan Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu uygulamaları ister bütün kuruluşunuza, ister belirli kişi ve gruplara yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, pano koleksiyonlarında izin yönetimini kolaylaştırır.
 
-İşletme kullanıcıları bu uygulamaları Microsoft AppSource'tan yükleyebilir veya onlara doğrudan bağlantı gönderebilirsiniz. Hepsi tek bir yerde olduğu için içeriğinizi kolayca bulabilir ve içeriğinize geri dönebilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
+İş kullanıcıları, uygulamalarınızı birkaç farklı yöntemle alabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamalarınızı Microsoft AppSource'tan yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Hepsi tek bir yerde olduğu için içeriğinizi kolayca bulabilir ve içeriğinize geri dönebilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
+
+### <a name="licenses-for-apps"></a>Uygulamalar için lisanslar
+Bir uygulama oluşturucusu olarak Power BI Pro lisansına ihtiyacınız vardır. Uygulama kullanıcılarınız için iki seçenek vardır.
+
+* 1. Seçenek: Tüm iş kullanıcılarının uygulamanızı görüntülemek için **Power BI Pro** lisansına ihtiyacı vardır. 
+* 2. Seçenek: Kuruluşunuzdaki ücretsiz sürüm kullanıcıları, uygulamanız Power BI Premium kapasitesinde yer alıyorsa uygulama içeriğini görüntüleyebilir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ### <a name="apps-and-organizational-content-packs"></a>Uygulamalar ve kurumsal içerik paketleri
 Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal içerik paketleriniz varsa bu paketler, uygulamalarla yan yana çalışmaya devam ederler.
@@ -41,12 +47,6 @@ Uygulamalara genel bakış yaptığımıza göre, uygulamaları oluşturduğumuz
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Uygulamalar ve uygulama çalışma alanları
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>Uygulamalar için lisanslar
-Bir uygulama oluşturucusu olarak Power BI Pro lisansına ihtiyacınız vardır. Uygulama kullanıcılarınız için iki seçenek vardır.
-
-* 1. Seçenek: Tüm iş kullanıcılarının uygulamanızı görüntülemek için **Power BI Pro** lisansına ihtiyacı vardır. 
-* 2. Seçenek: Kuruluşunuzdaki ücretsiz sürüm kullanıcıları, uygulamanız Power BI Premium kapasitesinde yer alıyorsa uygulama içeriğini görüntüleyebilir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ## <a name="app-workspaces"></a>Uygulama çalışma alanları
 *Uygulama çalışma alanları*, uygulamaları oluşturduğunuz yerdir, diğer bir deyişle, bir uygulama oluşturmadan önce uygulama çalışma alanı oluşturmanız gerekir. Daha önce Power BI'da bir grup çalışma alanında çalıştıysanız uygulama çalışma alanları size tanıdık gelecektir. Bunlar grup çalışma alanlarının gelişmiş halidir. Uygulama içeriği için hazırlama alanları ve kapsayıcılardır. 
@@ -106,21 +106,23 @@ Uygulama çalışma alanınızdaki panolar ve raporlar hazır olduğunda, bunlar
    
      ![Uygulama yayımlama](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. İlk olarak, **Ayrıntılar**'da kullanıcıların uygulamayı bulmasını kolaylaştıracak bir açıklama girin. Bunu özelleştirmek için bir arka plan rengi ayarlayabilirsiniz.
+2. **Ayrıntılar** alanına kullanıcıların uygulamayı bulmasını kolaylaştıracak bir açıklama girin. Bunu özelleştirmek için bir arka plan rengi ayarlayabilirsiniz.
    
      ![Uygulama ayrıntıları](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Sonra, **İçerik**'te uygulamanın parçası olarak yayımlanacak içeriği, diğer bir deyişle söz konusu çalışma alanında seçtiğiniz her şeyi görebilirsiniz. Ayrıca, uygulama giriş sayfasını, başka bir deyişle kullanıcıların uygulamanıza girdiğinde göreceği ilk pano veya raporu da ayarlayabilirsiniz. **Hiçbiri**'ni seçebilirsiniz. Bu durumda giriş sayfası uygulamadaki bütün içeriklerin bir listesi olacaktır. 
+3. **İçerik**'te uygulamanın parçası olarak yayımlanacak içeriği, diğer bir deyişle söz konusu çalışma alanında seçtiğiniz her şeyi görebilirsiniz. Ayrıca, uygulama giriş sayfasını, başka bir deyişle kullanıcıların uygulamanıza girdiğinde göreceği ilk pano veya raporu da ayarlayabilirsiniz. **Hiçbiri**'ni seçebilirsiniz. Bu durumda giriş sayfası uygulamadaki bütün içeriklerin bir listesi olacaktır. 
    
      ![Uygulama içeriği](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Son olarak, **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. 
+4. **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz.
+
+    ![Uygulama erişimi](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. **Son**'u seçtiğinizde, uygulamanın yayımlamaya hazır olduğunu doğrulayan bir ileti göreceksiniz. Başarılı iletişim kutusundaki URL'yi kopyalayabilirsiniz. Bu, uygulamaya doğrudan bir bağlantıdır ve bunu uygulamayı paylaştığınız kişilere gönderebilirsiniz.
    
      ![Uygulama sonu](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Uygulamayı yayımladığınız işletme kullanıcıları, söz konusu uygulamayı iki farklı yolla bulabilir. Uygulamanın doğrudan bağlantısını gönderebilirsiniz veya kullanıcılar, erişimleri olan her uygulamayı görebildiği Microsoft AppSource'ta uygulamayı arayabilir. Daha sonra Uygulamalar'a her gittiklerinde, bu uygulamayı listelerinde görürler.
+Uygulamayı yayımladığınız iş kullanıcıları, söz konusu uygulamayı birkaç farklı yolla bulabilir. Otomatik olarak yükleyebiliyorsanız, Power BI hesabında Uygulamalar altında görünür. Uygulamanın doğrudan bağlantısını gönderebilirsiniz veya kullanıcılar, erişimleri olan her uygulamayı görebildiği Microsoft AppSource'ta uygulamayı arayabilir. Nasıl edindiklerine bakılmaksızın, daha sonra Uygulamalar'a her gittiklerinde, bu uygulamayı listelerinde görürler.
 
 [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
 
@@ -137,6 +139,7 @@ Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteye
 1. Uygulama çalışma alanı içerik listesine geri dönün ve **Uygulamayı güncelleştir**'i seçin.
    
      ![Uygulamayı güncelleştir düğmesi](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. Gerektiği durumda **Ayrıntılar**, **İçerik** ve **Erişim**'i güncelleştirin, daha sonra **Uygulamayı güncelleştir**'i seçin.
    
      ![Uygulamayı güncelleştir düğmesi](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Uygulamalar, içerik paketlerinin evrim geçirmiş, basitleşmiş ve birkaç ön
 * Zaman içinde kurumsal içerik paketlerini kullanımdan kaldırmayı planlıyoruz. Bu nedenle bundan sonra uygulama oluşturmanızı öneririz.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>Gruplardaki salt okunur kullanıcılara ne olacak?
-Gruplara, içeriği yalnızca görüntüleyebilen salt okunur kullanıcılar ekleyebilirsiniz. Bu yaklaşımdaki ana problem, güvenlik gruplarının üye olarak eklenememesiydi. Uygulamalarda ise, uygulama çalışma alanınızın salt okunur bir sürümünü güvenlik grupları dahil olmak üzere geniş kitlelere yayımlayabilirsiniz. Uygulamanın içindeki panolarda ve raporlarda yapacağınız değişiklikleri, son kullanıcıyı etkilemeden hazırlayabilirsiniz. Gelecekte uygulamaları bu şekilde kullanmanızı öneriyoruz. Uzun vadede, çalışma alanlarının salt okunur kullanıcılarını da kullanımdan kaldırmayı planlıyoruz.  
+Gruplara, yalnızca içeriği görüntüleyebilen salt okunur üyeler ekleyebilirsiniz. Bu yaklaşımdaki ana problem, güvenlik gruplarının üye olarak eklenememesiydi. 
+
+Uygulamalarda ise, uygulama çalışma alanınızın salt okunur bir sürümünü güvenlik grupları dahil olmak üzere geniş kitlelere yayımlayabilirsiniz. Uygulamanın içindeki panolarda ve raporlarda yapacağınız değişiklikleri, son kullanıcıyı etkilemeden hazırlayabilirsiniz. Gelecekte uygulamaları bu şekilde kullanmanızı öneriyoruz. Uzun vadede, çalışma alanlarının salt okunur kullanıcılarını da kullanımdan kaldırmayı planlıyoruz.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulamaları yükleme ve kullanma](service-install-use-apps.md)

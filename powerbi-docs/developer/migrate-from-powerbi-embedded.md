@@ -3,7 +3,7 @@ title: "Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a ge
 description: "Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme
 Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
@@ -174,14 +174,11 @@ Uygulamanızın içinde yönettiğiniz kullanıcıları, uygulamanızın amaçla
 Üretim aşamasına geçmeye hazır olduğunuzda aşağıdaki işlemleri yapmanız gerekir.
 
 * Geliştirme için ayrı bir kiracı kullanıyorsanız uygulama çalışma alanlarınızın, panolarınızın ve raporlarınızın üretim ortamınızda kullanılabilir durumda olduğundan emin olmanız gerekir. Ayrıca uygulamayı üretim kiracınızın Azure AD ortamında oluşturduğunuzdan ve 1. Adım ile belirtilen gerekli uygulama izinlerini atadığınızdan da emin olmanız gerekir.
-* İhtiyaçlarınıza uygun bir kapasite satın alın. İhtiyacınızı belirlemek için [Embedded analytics capacity planning (Embedded Analytics kapasite planlama) teknik incelemesi)](https://aka.ms/pbiewhitepaper) sayfasından faydalanabilirsiniz. Satın almaya hazır olduğunuzda [Office 365 yönetim merkezini](https://portal.office.com/adminportal/home#/catalog) ziyaret edebilirsiniz.
-  
-  > [AZURE.INFORMATION] Power BI Premium'u satın alma hakkında bilgi için bkz. [Power BI Premium'u satın alma](../service-admin-premium-purchase.md).
-  > 
-  > 
+* İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Tümleşik analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
 * Uygulama çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir Premium kapasite atayın.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Güncelleştirilen uygulamanızı üretim ortamında dağıtın ve Power BI hizmetindeki raporları eklemeye başlayın.
 
 ## <a name="after-migration"></a>Geçiş sonrasında

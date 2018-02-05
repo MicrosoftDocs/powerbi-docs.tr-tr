@@ -3,7 +3,7 @@ title: "Power BI Rapor Sunucusu'nu yükleme"
 description: "Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin. "
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -29,7 +29,9 @@ Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 
  **İndirin** ![indir](media/install-report-server/download.png "indir")
 
-Power BI Rapor Sunucusu'nu indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin. Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını indirmek üzere, [Microsoft İndirme Merkezi](https://go.microsoft.com/fwlink/?linkid=837581)'ne gidin.
+Power BI Rapor Sunucusu'nu indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin. 
+
+Microsoft İndirme Merkezi'ne giderek [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Rapor Sunucusu için iyileştirilmiş - Ekim 2017) indirin.
 
 ![ipucu](media/install-report-server/fyi-tip.png "ipucu") Geçerli sürüm notları için bkz. [Power BI Rapor Sunucusu - Sürüm notları](release-notes.md).
 

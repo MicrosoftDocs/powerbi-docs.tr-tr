@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/24/2018
 
 ![](media/sample-human-resources/hr1.png)
 
-Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir.
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir. Veriler çeşitli biçimlerde sunulur: içerik paketi/uygulama, Excel çalışma kitabı veya .pbix Power BI Desktop dosyası. Daha fazla bilgi için bkz. [Örnek veri kümeleri](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -52,7 +52,7 @@ Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nas�
 4. **İnsan Kaynakları Örneği**'ni ve ardından **Bağlan**'ı seçin.  
    
    ![Veri Al](media/sample-human-resources/pbi_hr_sample_connect.png)
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldız işaretiyle işaretlenir. 
+5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
    
    ![Yıldız işareti](media/sample-human-resources/human-resources-sample-asterisk.png)
   

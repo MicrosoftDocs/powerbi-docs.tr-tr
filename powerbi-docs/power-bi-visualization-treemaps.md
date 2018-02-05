@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Power BI'daki ağaç haritaları (Eğitim)
 Ağaç haritaları, hiyerarşik verileri iç içe geçmiş dikdörtgenler kümesi şeklinde görüntüler.  Hiyerarşinin her düzeyi başka dikdörtgenler ("yapraklar") içeren renkli bir dikdörtgen (çoğunlukla "dal" olarak adlandırılır) ile gösterilir.  Her dikdörtgenin içindeki alan ölçülen nicel değere göre belirlenir ve dikdörtgenler, boyutları dikkate alınarak sol üstten (en büyük) sağ alta (en küçük) doğru düzenlenir.
@@ -41,20 +41,25 @@ Ağaç haritaları aşağıdaki durumlarda kullanım için mükemmel seçimdir:
 * boyut ve renk kodlaması kullanarak öznitelikleri gösterme.
 * desenleri, aykırı değerleri, en önemli katkıda bulunanları ve istisnaları bulma.
 
+### <a name="prerequisites"></a>Önkoşullar
+ - Power BI hizmeti veya Power BI Desktop
+ - Perakende Analizi örneği
+
 ## <a name="create-a-basic-treemap"></a>Basit bir ağaç haritası oluşturma
 Önce, ağaç haritası oluşturma işleminin gösterildiği bir videoyu izlemek ister misiniz?  Bu videoda 2:10'a atlayarak Amanda'nın ağaç haritası oluşturmasını izleyin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Alternatif olarak kendi ağaç haritanızı da oluşturabilirsiniz. Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Birlikte ilerleyebilmek için; [örneği indirin](sample-datasets.md), Power BI'da oturum açın ve **Veri Al \> Excel Çalışma Kitabı \> Bağlan \> Retail Analysis Sample**.**xlsx** seçeneklerini belirleyin.
+Alternatif olarak kendi ağaç haritanızı da oluşturabilirsiniz. Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Örneği takip etmek için Power BI hizmetinde (Desktop'ta değil) oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği \> Bağlan \>Panoya git** seçeneğini belirleyin. Bir raporda görsel öğe oluşturmak için veri kümesinde ve raporda düzenleme izinleri gerekir. Neyse ki, Power BI örnekleri düzenlenebilir. Ancak, birisi sizinle bir rapor paylaşırsa, yeni görsel öğeler ekleyemezsiniz.
 
-1. Çalışmaya [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde başlayın ve **Sales** > **Last Years Sales** ölçüsünü seçin.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Grafiği ağaç haritasına dönüştürün.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. **Grup** kutusuna **Item** > **Category** alanlarını sürükleyin. Power BI, dikdörtgen boyutunun toplam satışı, rengin ise kategoriyi gösterdiği bir ağaç haritası oluşturur.  Temelde, toplam satışın kategoriye göre boyutunu görsel olarak açıklayan bir hiyerarşi oluşturdunuz.  **Mens** kategorisi en yüksek satışlara sahipken **Hosiery** kategorisi en düşük satışlara sahip.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Ağaç haritanızı tamamlamak için **Ayrıntılar**'a **Store** > **Chain** alanlarını sürükleyin. Artık geçen yılın satışlarını kategori ve zincire göre karşılaştırabilirsiniz.   
+1. Perakende Analizi örnek raporunu açmak için "Toplam depo" kutucuğunu seçin.    
+2. [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)’nü açın ve **Satışlar** > **Geçen Yılın Satışları** ölçüsünü seçin.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Grafiği ağaç haritasına dönüştürün.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. **Grup** kutusuna **Item** > **Category** alanlarını sürükleyin. Power BI, dikdörtgen boyutunun toplam satışı, rengin ise kategoriyi gösterdiği bir ağaç haritası oluşturur.  Temelde, toplam satışın kategoriye göre boyutunu görsel olarak açıklayan bir hiyerarşi oluşturdunuz.  **Mens** kategorisi en yüksek satışlara sahipken **Hosiery** kategorisi en düşük satışlara sahip.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Ağaç haritanızı tamamlamak için **Ayrıntılar**'a **Store** > **Chain** alanlarını sürükleyin. Artık geçen yılın satışlarını kategori ve zincire göre karşılaştırabilirsiniz.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Ağaç haritasında Category veya Ayrıntılar vurgulandığında rapor sayfası
 
 1. Ağaç haritasında, bir Category veya Category içinden bir Chain seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır. Örneğin **050-Shoes** kategorisi seçildiğinde geçen yılki ayakkabı satışının 3.640.471 ABD doları olduğu ve bunun 2.174.185 ABD doları tutarındaki kısmının Fashions Direct'ten geldiği görülür.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. **Chain ölçütüne göre Last Year Sales** pasta grafiğinde, **Fashions Direct** dilimini seçin.  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. **Zincire göre Geçen Yılın Satışları** pasta grafiğinde, **Fashions Direct** dilimini seçtiğinizde ağaç haritası filtrelenir.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki raporlar](service-reports.md)  
-[Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md)  
-[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[ Panoya görselleştirme sabitleme](service-dashboard-pin-tile-from-report.md)  
+[Görsel öğeyi panoya sabitleme](service-dashboard-pin-tile-from-report.md)  
 [Power BI - Temel Kavramlar](service-basic-concepts.md)  
-[Ücretsiz deneyin!](https://powerbi.com/)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)  
 

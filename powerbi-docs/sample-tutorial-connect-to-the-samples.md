@@ -1,5 +1,5 @@
 ---
-title: "Power BI örneklerini kullanma eğitimi."
+title: "Öğretici - Power BI örneklerini kullanma."
 description: "Eğitim: Power BI örneklerini kullanma"
 services: powerbi
 documentationcenter: 
@@ -15,40 +15,34 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e8dead8f5ace2c3613c109a16808a6bb4c1ec15d
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Power BI örnekleri eğitimi
-<!-- Shared newnav Include -->
-[!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
 [Power BI için örnek veri kümeleri](sample-datasets.md) makalesiyle başlamanızı öneririz. Söz konusu makalede örnekler hakkında her şeyi, nasıl alındıklarını, nereye kaydedildiklerini ve örneklerin sunduğu içeriklerden bazılarını öğrenebilirsiniz. Temel konuları kavradıktan sonra bu eğitime geri dönebilirsiniz.   
 
-## <a name="about-this-tutorial"></a>Bu eğitim hakkında
-Bu eğitimde, örnek içerik paketlerini içeri aktarma, Power BI hizmetine ekleme ve içeriği açma ile ilgili bilgiler sağlanmaktadır. *İçerik paketleri*, veri kümesinin bir pano ve raporla birlikte sunulduğu bir örnek türüdür. Örnek içerik paketlerine Power BI'da **Veri Al** seçeneğini belirleyerek ulaşabilirsiniz.
-
-> [!NOTE]
-> Bu eğitim, Power BI Desktop'a değil, Power BI hizmetine yöneliktir.
-> 
-> 
+### <a name="prerequisites"></a>Önkoşullar
+Örnekler, Power BI hizmetinde ve Power BI Desktop'ta kullanılabilir. Örneği takip etmek için Perakende analizi örneğini kullanacağız.
 
 Bu eğitimde kullanılan *Perakende Analizi* örnek içerik paketi, bir pano, rapor ve veri kümesinden oluşur.
 Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Perakende Analizi örneğine ilişkin tura katılabilirsiniz](sample-retail-analysis.md).
 
-## <a name="get-data-in-this-case-get-a-sample-content-pack"></a>Veri alma (bu durumda, bir örnek içerik paketi alma)
+## <a name="about-this-tutorial"></a>Bu eğitim hakkında
+Bu öğreticide aşağıdaki işlemler hakkında bilgi edinirsiniz: 
+- Örnek içerik paketini içeri aktarma, Power BI hizmetine ekleme ve içeriği açma. *İçerik paketleri*, veri kümesinin bir pano ve raporla birlikte sunulduğu bir örnek türüdür. 
+-  Power BI Desktop'ta bir örnek .pbix dosyası açma.
+
+
+## <a name="samples-and-power-bi-service"></a>Örnekler ve Power BI hizmeti
+
 1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
-2. Çalışma alanı seçin ve yeni bir pano oluşturun.  
-   
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-create-dashboard2.png)
-3. **Retail analysis sample** olarak adlandırın.
-   
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-name-dashboard.png)
-4. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. **Veri Al**'ı görmüyorsanız ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png) seçeneğini belirleyerek gezinti bölmesini genişletin.
+2. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. **Veri Al**'ı görmüyorsanız ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png) seçeneğini belirleyerek gezinti bölmesini genişletin.
    
    ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. **Örnekler**'i seçin.  
@@ -59,7 +53,7 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Per
    ![](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>Tam olarak neler içeri aktarılır?
-Örnek içerik paketleri söz konusuysa **Bağlan**'ı seçtiğinizde Power BI, ilgili içerik paketinin bir kopyasını alıp sizin için bulutta depolar. İçerik paketini oluşturan kişi bir veri kümesi, rapor ve de pano eklemiş olduğundan, **Bağlan**a tıkladığınızda bunları edinirsiniz.
+Örnek içerik paketleri söz konusuysa **Bağlan**'ı seçtiğinizde Power BI, ilgili içerik paketinin bir kopyasını alıp sizin için bulutta depolar. İçerik paketini oluşturan kişi bir veri kümesi, rapor ve de pano eklemiş olduğundan, **Bağlan**a tıkladığınızda bunları edinirsiniz. 
 
 1. Power BI yeni bir Pano oluşturur ve bunu **Panolar** sekmesinde listeler. Sarı yıldız işareti, yeni olduğunu bilmenizi sağlar.
    
@@ -91,10 +85,10 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Per
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Kutucuk eğer [Power BI Soru-Cevap](power-bi-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı.
+   > Kutucuk eğer [Power BI Soru-Cevap](power-bi-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı. Kutucuk [Excel'den sabitlenmişse](service-dashboard-pin-tile-from-excel.md), Power BI içinde Excel Online açılır.
    > 
    > 
-4. **Veri Kümeleri** sekmenizde, veri kümenizi araştırmanıza yönelik çeşitli seçenekleriniz vardır.  Açıp tüm satırları ve sütunları (Power BI Desktop veya Excel'de görebildiğiniz gibi) görmeniz mümkün olmayacaktır.  Birisi iş arkadaşlarıyla bir içerik paketi paylaştığında, normalde sadece öngörüleri paylaşmak isterler, iş arkadaşlarına doğrudan veriye erişim vermek istemezler. Ancak bu, veri kümesini araştıramayacağınız anlamına gelmez.  
+1. **Veri Kümeleri** sekmenizde, veri kümenizi araştırmanıza yönelik çeşitli seçenekleriniz vardır.  Açıp tüm satırları ve sütunları (Power BI Desktop veya Excel'de görebildiğiniz gibi) görmeniz mümkün olmayacaktır.  Birisi iş arkadaşlarıyla bir içerik paketi paylaştığında, normalde sadece öngörüleri paylaşmak isterler, iş arkadaşlarına doğrudan veriye erişim vermek istemezler. Ancak bu, veri kümesini araştıramayacağınız anlamına gelmez.  
    
    ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
@@ -104,6 +98,42 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Per
    * Veri kümesini keşfetmenin bir başka yolu [Hızlı Öngörüler](service-insights.md) çalıştırmaktır. Üç nokta (...) simgesini ve ardından **Öngörü al**'ı seçin. Öngörüler hazır olduğunda **Öngörüleri görüntüle** seçeneğini belirleyin.
      
        ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+
+## <a name="samples-and-power-bi-desktop"></a>Örnekler ve Power BI Desktop 
+Örnek PBIX dosyasını ilk kez açtığınızda, görsel öğeler içeren herhangi bir sayıdaki rapor sayfasını keşfedebileceğiniz, oluşturabileceğiniz ve değiştirebileceğiniz Rapor görünümünde gösterilir. Rapor görünümü, Power BI hizmetindeki Düzenleme görünümü ile neredeyse aynı tasarım deneyimini sunar. Görselleştirmeleri taşıma, kopyalayıp yapıştırma ve birleştirme gibi işlemler gerçekleştirebilirsiniz.
+
+Aralarındaki fark şudur: Power BI Desktop'ı kullanırken sorgularla çalışabilir ve verilerinizin raporlarınızdaki en etkileyici öngörüleri desteklediğinden emin olmak için verilerinizi modelleyebilirsiniz. Ardından, Power BI Desktop dosyanızı dilediğiniz yere (ister yerel sürücünüze ister buluta) kaydedebilirsiniz.
+
+1. Power BI Desktop’ta [Perakende Analizi örneği .pbix dosyasını](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) açın. 
+
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+
+1. Dosya, Rapor görünümünde açılır. Rapor düzenleyicisinin alt kısmındaki 4 sekmeyi fark ettiniz mi? Bunlar, raporda 4 sayfa olduğu anlamına gelir ve o anda "Yeni Depolar" sayfası seçilidir. 
+
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+
+3. Rapor düzenleyicisine derinlemesine bakış için bkz. [Rapor düzenleyicisi turuna katılın](service-the-report-editor-take-a-tour.md)
+
+## <a name="what-exactly-was-imported"></a>Tam olarak neler içeri aktarılır?
+Desktop’ta örnek PBIX dosyasını ilk kez açtığınızda, Power BI aslında bu verilerin bir kopyasını getirir ve sizin için bulutta depolar. Desktop’tan rapora ***ve temel alınan veri kümesine*** erişebilirsiniz. Veriler yüklendiğinde Power BI Desktop, sizin yerinize bu ilişkileri bulup oluşturmayı dener.  
+
+1. Tablo simgesini ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png) seçerek [Veri görünümü](desktop-data-view.md)’ne geçiş yapın.
+ 
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
+
+    Veri Görünümü, Power BI Desktop modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri Sorgu Düzenleyicisi'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten sonraki halini incelersiniz.
+
+    Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo veya sütundaki verileri satır düzeyinde görmek istersiniz. Bu durum özellikle ölçü ve hesaplanmış sütun oluşturduğunuzda veya bir veri türü ya da veri kategorisi tanımlamanız gerektiğinde ortaya çıkar.
+
+1. ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) simgesini seçerek [İlişkiler görünümü](desktop-relationship-view.md)’ne geçin.
+ 
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
+
+    İlişki görünümü, modelinizdeki tüm tabloları, sütunları ve ilişkileri gösterir. Buradan ilişkileri görüntüleyebilir, değiştirebilir ve oluşturabilirsiniz.
+
+## <a name="explore-your-new-content"></a>Yeni içeriğinizi keşfedin
+Şimdi veri kümesini, ilişkileri ve raporu kendiniz keşfedin. Başlamanıza yardımcı olması için [Desktop Başlarken Kılavuzu](desktop-getting-started.md)’nu ziyaret edin.    
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI temel kavramları](service-basic-concepts.md)

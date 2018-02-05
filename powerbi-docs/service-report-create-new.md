@@ -1,5 +1,5 @@
 ---
-title: "Bir veri kümesinden yeni bir rapor oluşturma "
+title: "Öğretici - Bir veri kümesinden yeni bir rapor oluşturma "
 description: "Bir veri kümesinden yeni bir Power BI raporu oluşturun."
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Veri kümesi içeri aktararak yeni bir Power BI raporu oluşturma
 [Power BI'daki raporlar](service-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın birçok farklı yolu vardır. Biz bu makalede bir Excel veri kümesinden çok basit bir rapor oluşturarak başlayacağız. Rapor oluşturma işlemiyle ilgili temel bilgileri kavradığınızda, sayfanın en altında bulunan **Sonraki adımlar** bölümündeki bağlantıları kullanarak raporlarla ilgili daha ileri düzey konulara göz atabilirsiniz.  
 
 > **İPUCU**: Mevcut bir raporu kopyalayarak rapor oluşturmak için bkz. [Bir raporu kopyalama](power-bi-report-copy.md)
 > 
-> 
+### <a name="prerequisites"></a>Önkoşullar
+- Power BI hizmeti (Power BI Desktop kullanarak raporları oluşturmak için bkz. [Masaüstü rapor görünümü](desktop-report-view.md))   
+- Perakende Analizi örnek veri kümesi
 
 ## <a name="import-the-dataset"></a>Veri kümesini içeri aktarma
 Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başlayacağız. Birlikte ilerleyebilmemiz için [Retail Analysis Sample adlı Excel veri kümesini indirin](http://go.microsoft.com/fwlink/?LinkId=529778) ve bunu OneDrive İş'e (önerilir) veya yerel bir konuma kaydedin.
@@ -36,7 +38,7 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 1. Raporu bir Power BI hizmeti çalışma alanında oluşturacağımızdan mevcut bir çalışma alanını seçin veya yenisini oluşturun.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. Sol gezinti bölmesinin alt tarafında yer alan **Veri Al** seçeneğini belirleyin.
+2. Sol gezinti bölmesinin alt tarafında yer alan **Veri al** seçeneğini belirleyin.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. **Dosyalar**'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
@@ -83,7 +85,7 @@ Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Paz
 4. **Eksen** kutusuna eklemek üzere **Time** > **Period** seçeneğini belirleyin.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Görselleştirmeyi sıralamak için üç nokta menüsünü seçin ve **Sıralama Ölçütü: Period** seçeneğini belirleyin.
+5. Görselleştirmeyi zaman aralığına göre sıralamak için üç noktayı seçin ve **Döneme Göre Sırala** seçeneğini belirleyin.
 6. Şimdi de dilimleyiciyi ekleyelim. Tuvalde boş bir alanı ve ardından Dilimleyici ![](media/service-report-create-new/power-bi-slicer-icon.png) şablonunu seçin. Bu işlemin ardından, tuvalimize boş bir dilimleyici eklenir.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Paz
 8. Bölgeye göre belirli desenler ve öngörüler bulmak için dilimleyiciyi kullanın.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. İsteğe bağlı olarak, görselleştirme eklemeye devam edebilirsiniz.
+
+Verilerinizi keşfetmeye ve görsel öğeleri eklemeye devam edin. Özellikle ilgi çekici bilgiler bulduğunuzda [panoya sabitleyin](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Bir raporun kopyasını oluşturma](power-bi-report-copy.md)
-* [Raporu kaydetme](service-report-save.md)    
 * [Rapora yeni bir sayfa ekleme](power-bi-report-add-page.md)  
-* [Görselleştirmeleri bir panoya sabitlemeyi](service-dashboard-pin-tile-from-report.md) öğrenin    
+* [Görselleştirmeleri bir panoya sabitlemeyi](service-dashboard-pin-tile-from-report.md) öğrenin   
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

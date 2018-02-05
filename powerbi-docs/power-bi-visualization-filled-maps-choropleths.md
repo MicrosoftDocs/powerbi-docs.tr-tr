@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 1f1db890a9fea9c53575f9b5a263400d6b883693
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI'da kartogramlar (koroplet haritalar) (Eğitim)
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
@@ -49,6 +49,12 @@ Kartogramlar şu durumlarda kullanım için mükemmel seçimdir:
 * bölgelerin tanımlanması önemli olduğunda.
 * coğrafi konumlarda dağıtıma ilişkin bir genel bakış edinmek için.
 
+### <a name="prerequisites"></a>Önkoşullar
+- Power BI hizmeti veya Power BI Desktop
+- Satış ve Pazarlama Örneği
+
+Örneği takip etmek için bu öğreticide Power BI Desktop yerine Power BI hizmeti kullanılmaktadır.
+
 ## <a name="create-a-basic-filled-map"></a>Temel bir kartogram oluşturma
 Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
 
@@ -56,27 +62,27 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
 
 
 1. Kendi kartogramınızı oluşturmak için Power BI'da oturum açıp **Veri Al \> Örnekler \> Satış ve Pazarlama \> Bağlan** seçeneklerini belirleyerek [Satış ve Pazarlama örneğini indirin](sample-datasets.md).
-2. Başarılı iletisi göründüğünde **Veri kümesini görüntüle**'yi seçin. 
-   
+2. Başarılı iletisi göründüğünde **Veri kümesini görüntüle**'yi seçin.
+
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Power BI, [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde boş bir rapor tuvali açar.
-   
+
     ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Grafiği](power-bi-report-change-visualization-type.md) kartograma dönüştürün. **State** alanının artık **Konum** kutusunda olduğunu görebilirsiniz. Bing Haritalar, haritayı oluşturmak için **Konum** kutusundaki alanı kullanır.  Konum kutusunda çok sayıda geçerli konum bulunabilir: ülkeler, eyaletler, iller, ilçeler, şehirler, posta kodları vb. Bing Haritalar, dünya genelindeki konumlar için kartogram gölgeleri sağlar. Konum kutusunda geçerli bir giriş olmadan Power BI, kartogramı oluşturamaz.  
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Haritayı, yalnızca Kıtasal Amerika Birleşik Devletleri görüntülenecek şekilde filtreleyin.
-   
+
    a.  Görsel Öğeler bölmesinin alt tarafında **Filtreler** alanını bulun.
-   
+
    b.  **State** seçeneğinin üzerine gelin ve genişlet köşeli çift ayracına tıklayın  
    ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
-   
+
    c.  **Tümü** seçeneğine onay işareti koyun ve **AK** seçeneğinin yanındaki onay işaretini kaldırın.
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. **SalesFact** \> **Sentiment** seçeneğini belirleyerek **Renk doygunluğu** kutusuna ekleyin. **Renk doygunluğu** kutusundaki alan, harita gölgelendirmesini denetler.  
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
@@ -87,9 +93,9 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
 Filtreler bölmesini kullanmayla ilgili bilgi için bkz. [Bir rapora filtre ekleme](power-bi-report-add-filter.md).
 
-Bir Kartogram'da Konum'un vurgulanması rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu, tam tersi için de geçerlidir. 
+Bir Kartogram'da Konum'un vurgulanması rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu, tam tersi için de geçerlidir.
 
-Birlikte ilerlemek için Kartogramınızı kopyalayıp *Satış ve Pazarlama* raporunun **Sentiment** sayfasına yapıştırın. 
+Birlikte ilerlemek için Kartogramınızı kopyalayıp *Satış ve Pazarlama* raporunun **Sentiment** sayfasına yapıştırın.
 
 1. Kartogramda bir eyalet seçin.  Bu işlem, sayfadaki diğer görselleştirmeleri vurgular. Örneğin, **Texas** seçildiğinde Sentiment düzeyinin 74 olduğunu, Texas'ın Central District \#23'te olduğunu ve satış hacminin büyük bir kısmının Moderation ve Convenience segmentlerinden geldiğini görüyorum.   
    ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
@@ -98,7 +104,7 @@ Birlikte ilerlemek için Kartogramınızı kopyalayıp *Satış ve Pazarlama* ra
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, bir Paris, Fransa mevcuttur ancak Paris, Texas da bulunmaktadır. Coğrafi verileriniz büyük olasılıkla ayrı sütunlarda (şehir adları için bir sütun, eyalet veya il adları için ayrı bir sütun vb.) depolanır, bu nedenle Bing Paris'leri ayırt edemeyebilir. Veri kümeniz zaten enlem ve boylam verileri içeriyorsa Power BI, harita verilerinin anlaşılır hale getirilmesine yardımcı olacak özel alanlara sahiptir. Enlem verilerinizi içeren alanı Görsel Öğeler \> Enlem alanına sürüklemeniz yeterlidir.  Boylam verileriniz için de aynı işlemi yapın.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png) 
+![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Power BI Desktop'ta veri kümesini düzenleme izniniz varsa haritalarla ilgili kafa karıştırıcı durumların ele alınmasına yardımcı olabilecek şu videoyu izleyin.
 
@@ -114,4 +120,3 @@ Harita görselleştirmeleri hakkında daha fazla yardım için bkz. [Harita gör
  [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Kullanılan görselleştirme türünü değiştirme](power-bi-report-change-visualization-type.md)      
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

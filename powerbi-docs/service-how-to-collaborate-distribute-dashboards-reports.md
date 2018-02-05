@@ -1,11 +1,11 @@
 ---
-title: "Power BI'da panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?"
+title: "Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?"
 description: "Power BI'da çeşitli yöntemlerle panolar, raporlar ve kutucuklar üzerinde işbirliği yapabilir ve bunları paylaşabilirsiniz. Her biri farklı bir avantaj sunar."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?
-Panolar ve raporlar oluşturuyorsunuz. Bu pano ve raporlar üzerinde iş arkadaşlarınızla işbirliği yapıyor da olabilirsiniz. Daha sonra başkalarının da bu panolara ve raporlara erişmesini istiyorsunuz. Bunları dağıtmanın en iyi yolu nedir?
+Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlarınızla işbirliği yapıyor da olabilirsiniz. Daha sonra başkalarının da bu panolara ve raporlara erişmesini istiyorsunuz. Bunları dağıtmanın en iyi yolu nedir?
 
 Bu makalede, Power BI'da işbirliği yapmaya ve paylaşmaya yönelik seçenekleri karşılaştıracağız: 
 
@@ -34,7 +34,7 @@ Bu makalede, Power BI'da işbirliği yapmaya ve paylaşmaya yönelik seçenekler
 * Panoları ve raporları, herkesin görebileceği ve etkileşim kurabileceği şekilde web'de yayımlama.
 * Yazdırma. 
 
-Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-free-vs-pro.md) bulunmalı veya içerik, [Premium kapasitede](service-premium.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. Önerileriniz mi var? Power BI ekibi geri bildirimlerinize her zaman önem verir. [Power BI Topluluğu sitesine](https://community.powerbi.com/) gitmeye ne dersiniz?
+Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-free-vs-pro.md) bulunmalı veya içerik, [Premium kapasitede](service-premium.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
 
 ![Power BI hizmetindeki uygulamalar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşl
 
 ![Uygulamayı yayımla simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md#publish-your-app) hakkında daha fazla bilgi edinin. 
+Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md#publish-your-app) hakkında daha fazla bilgi edinin. 
 
 Kullanıcılar uygulamayı yükledikten sonra tarayıcılarında veya mobil cihazlarında görüntüleyebilir.
 
@@ -69,9 +69,7 @@ Kullanıcılarınızın uygulamanızı görüntülemesi için bir Power BI Pro l
 
 Kuruluşunuz dışındaki kişilerle de paylaşımda bulunabilirsiniz. Bu kişiler de panoyu görüntüleyebilir, panoyla etkileşim kurabilir ancak panoyu paylaşamaz. 
 
-Power BI hizmetinden [pano paylaşma](service-share-dashboards.md) ile ilgili daha fazla bilgi edinin.
-
-Ayrıca, panoyu atlayarak [bir raporun doğrudan bağlantısını paylaşabilirsiniz](service-share-reports.md). Alıcıların raporunuzu filtreli olarak görmesi için bağlantıya bir filtre ekleyebilirsiniz.
+Power BI hizmetinden [pano ve rapor paylaşma](service-share-dashboards.md) hakkında daha fazla bilgi edinin. Ayrıca, bir bağlantıya filtre ekleyebilir ve [raporunuzun filtrelenmiş bir görünümünü paylaşabilirsiniz](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından not ekleme ve paylaşma
 iOS cihazları ve Android cihazlar için Power BI mobil uygulamalarında bir kutucuğa, rapora veya görsele not ekleyebilir ve bunu e-posta yoluyla başkalarıyla paylaşabilirsiniz. 

@@ -1,6 +1,6 @@
 ---
-title: "Power BI Filtreler bölmesine ilişkin tura katılın"
-description: Rapor filtrelerini kullanma
+title: "Power BI Filtreler bölmesine genel bakış"
+description: "Power BI hizmeti ve Power BI panosundaki rapor Filtreleri bölmesine genel bakış"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
-Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Söz konusu bölmeyle Power BI raporları için Düzenleme Görünümü ve Okuma Görünümü'nde karşılaşırsınız.
+Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Bu bölmeyi [Power BI hizmeti Düzenleme Görünümü ve Okuma Görünümü](service-reading-view-and-editing-view.md) ile [Power BI Desktop Rapor görünümü](desktop-report-view.md) içinde görürsünüz.
 
 Power BI'da verileri filtrelemenin birçok yolu vardır ancak öncelikle [Filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md) başlıklı makaleyi okumanızı öneririz.
 
@@ -32,7 +32,7 @@ Power BI'da verileri filtrelemenin birçok yolu vardır ancak öncelikle [Filtre
 Raporlar [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme Görünümü'nde, rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümü'nde görüntüleyen kullanıcılar filtrelerle etkileşime geçebilir ancak filtre değişikliklerini rapora kaydedemez.
 
 ## <a name="filters-in-reading-view"></a>Okuma Görünümü'nde filtreler
-Bir rapor Okuma Görünümü'nde açıldığında Filtreler bölümü, rapor tuvalinin sağ tarafında görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
+Bir rapor Okuma görünümünde açıldığında Filtreler bölümü, rapor tuvalinin sağ tarafında görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
 
 Bu örnekte, 6 filtresi bulunan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Sayfa düzeyi filtreleri** başlığı altında yer alır. Bir [Detaylandırma filtresinin](power-bi-report-add-filter.md) yanı sıra raporun tamamına uygulanmış bir filtre daha bulunur: **FiscalYear** 2013 veya 2014 değeridir.
 
@@ -75,9 +75,9 @@ Belirli bir filtreye yönelik seçenekleri görüntülemek için filtre adının
  Gelişmiş veya temel filtreleme modunda, filtreyi sıfırlamak için silgi simgesini ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) seçin. 
 
 ## <a name="add-a-filter"></a>Filtre ekleme
-* Düzenleme görünümünde bir görsele, sayfaya, detaylandırmaya veya rapora filtre eklemek için Alanlar bölmesindeki bir alanı seçin ve **Veri alanlarını buraya sürükleyin** ifadesiyle gösterilen uygun filtre kutusuna sürükleyin. Bir alan filtre olarak eklendikten sonra, Temel filtreleme ve Gelişmiş filtreleme denetimlerini kullanarak (aşağıda açıklanmıştır) hassas ayarlamalar yapabilirsiniz.
+* Düzenleme görünümünde bir görsele, sayfaya, detaylandırmaya veya rapora filtre eklemek için Alanlar bölmesindeki bir alanı seçin ve **Alanları buraya sürükleyin** ifadesiyle gösterilen uygun filtre kutusuna sürükleyin. Bir alan filtre olarak eklendikten sonra, Temel filtreleme ve Gelişmiş filtreleme denetimlerini kullanarak (aşağıda açıklanmıştır) hassas ayarlamalar yapabilirsiniz.
 
-Görsel düzeyi filtresi alanına yeni bir alan sürüklemek söz konusu alanın görsele eklenmesini sağlamaz ancak görseli bu yeni alanla filtrelemenize olanak tanır. Aşağıdaki örnekte, **Chain** alanı görsele yeni bir filtre olarak eklenmiştir. Yalnızca **Chain** alanının bir filtre olarak eklenmesinin, siz Temel veya Gelişmiş filtreleme denetimlerini kullanana kadar görselin değişmesine neden olmadığına dikkat edin.
+- **Görsel düzeyi filtresi alanına yeni bir alan sürüklemek söz konusu alanın görsele eklenmesini sağlamaz** ancak görseli bu yeni alanla filtrelemenize olanak tanır. Aşağıdaki örnekte, **Chain** alanı görsele yeni bir filtre olarak eklenmiştir. Yalnızca **Chain** alanının bir filtre olarak eklenmesinin, siz Temel veya Gelişmiş filtreleme denetimlerini kullanana kadar görselin değişmesine neden olmadığına dikkat edin.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

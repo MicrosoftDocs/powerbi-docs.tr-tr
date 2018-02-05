@@ -1,6 +1,6 @@
 ---
-title: "Power BI rapor ve panolarındaki tablo görselleştirmeleri (Eğitim)"
-description: "Sütun genişliklerini değiştirme dahil olmak üzere Power BI rapor ve panolarındaki tablo görselleştirmeleriyle çalışma hakkında ipuçları."
+title: "Öğretici - Power BI rapor ve panolarındaki tablo görselleştirmeleri (Öğretici)"
+description: "Sütun genişliklerini değiştirme dahil olmak üzere Power BI rapor ve panolarındaki tablo görselleştirmeleriyle çalışmaya ilişkin öğretici."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Power BI rapor ve panolarında tablolarla çalışma (Eğitim)
 Tablo, mantıksal satır ve sütun dizilerinde ilgili verileri içeren bir kılavuzdur. Tabloda başlık ve toplam satırı da bulunabilir. Tablolar, tek bir kategoriye ait birden fazla değeri incelediğiniz nicelik karşılaştırmaları için idealdir. Örneğin bu tabloda **Category** için 5 farklı ölçü gösterilmektedir.
@@ -40,11 +40,16 @@ Tablolar şunlar için harika seçimdir:
 > Bir tabloda çok fazla değer varsa tabloyu matrise dönüştürmeyi ve/veya detaya gitme özelliğini kullanmayı deneyin.
 > 
 > 
+## <a name="prerequisites"></a>Önkoşullar
+ - Power BI hizmeti veya Power BI Desktop
+ - Perakende Analizi örneği
+
 
 ## <a name="create-a-table"></a>Tablo oluşturma
-Birlikte ilerleyebilmek için Power BI'da oturum açın ve **Veri Al > Örnekler > Perakende Analizi Örneği**'ni seçin. Yukarıdaki resimde görülen ve ürün kategorisine göre satış değerlerini gösteren tabloyu oluşturacağız.
+Yukarıdaki resimde görülen ve ürün kategorisine göre satış değerlerini gösteren tabloyu oluşturacağız. Örneği takip etmek için Power BI hizmetinde oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan**'ı seçtikten sonra **Panoya git seçeneğini belirleyin. Bir görsel öğe oluşturmak için veri kümesinde ve raporda düzenleme izinlerine sahip olmanız gerekir. Neyse ki, Power BI örneklerinin tümü düzenlenebilir. Sizinle bir rapor paylaşıldıysa, raporlarda görsel öğe oluşturamazsınız.
 
-1. **Çalışma alanım** ekranında Veri Kümeleri sekmesini seçin ve sayfayı kaydırarak önceki adımda eklediğiniz Retail Analysis Sample'ı bulun.  **Rapor oluştur** simgesini seçin.
+1. Sol gezinti bölmesinden **Çalışma Alanları > Çalışma Alanım**’ı seçin.    
+2. Veri Kümeleri sekmesini seçin ve sayfayı kaydırarak yeni eklediğiniz Perakende Analizi Örneği veri kümesini bulun.  **Rapor oluştur** simgesini seçin.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. Rapor düzenleyicisinde **Item** > **Category**'yi seçin.  Power BI otomatik olarak tüm kategorileri listeleyen bir tablo oluşturur.
