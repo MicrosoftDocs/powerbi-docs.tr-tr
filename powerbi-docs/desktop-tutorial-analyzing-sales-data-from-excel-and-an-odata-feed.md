@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme
 **Power BI Desktop**'ı kullanarak her türden farklı veri kaynağına bağlanabilir ve ardından, bunları ilgi çekici veri çözümlemeleri ve görselleştirmeler oluşturmayı kolay hale getiren yöntemlerle birleştirebilir ve şekillendirebilirsiniz. Bu eğitimde, iki veri kaynağından elde edilen verileri birleştirmeyi öğreneceksiniz. 
@@ -34,7 +34,7 @@ Raporun son hali aşağıdaki gibi görünecek:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Bu eğitimdeki adımları uygulayabilmek için, şu şekilde indirebileceğiniz bir Products çalışma kitabına ihtiyacınız vardır**:**[ Buraya](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[tıklayarak](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[ dosyasını indirin. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Bu eğitimdeki adımları uygulayabilmek için, şu şekilde indirebileceğiniz bir Products çalışma kitabına ihtiyacınız vardır**:**[ Buraya](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[tıklayarak](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** [dosyasını indirin](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
 
 **Farklı Kaydet** iletişim kutusunda, dosyayı **Products.xlsx** olarak adlandırın.
 
@@ -140,7 +140,7 @@ Her bir **Order\_Details** satırı için satır toplamını hesaplama:
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>5. Adım: LineTotal alanının veri türünü ayarlama
 1. **LineTotal** sütununa sağ tıklayın.
-2. **Türü Değiştir**'i seçin ve **Ondalık Sayı seçeneğini belirleyin.
+2. **Türü Değiştir**'i seçin ve **Ondalık Sayı** seçeneğini belirleyin.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Bu adımların tümünü uyguladıktan sonra, Products.xlsx dosyasındaki ve Nor
 * [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 
