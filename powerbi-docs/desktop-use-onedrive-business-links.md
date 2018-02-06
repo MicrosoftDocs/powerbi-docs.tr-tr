@@ -50,7 +50,7 @@ Power BI Desktop'ta, panoya kopyaladığınız bağlantıyı kullanabilirsiniz. 
 2. Bağlantıyı **Web'den** adlı iletişim kutusuna yapıştırın. (Henüz Tamam'ı **seçmeyin**.)
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. **Power BI Desktop**'ın dosyanıza sorunsuz bir şekilde erişebilmesi için, **Tamam**'ı seçmeden **önce** *Web URL dizesinin bu bölümünü (bağlantının sonundaki *?web=1* dizesi) kaldırmanız gerektiğine* dikkat edin.
+3. Bağlantının sonunda *?web=1* dizesine dikkat edin - *Web URL dizesinin bu kısmını kaldırmanız gerekir* **önce** seçme **Tamam**, **Power BI Desktop** 'un dosyanıza doğru şekilde gidebilmesi için.
 4. **Power BI Desktop** kimlik bilgilerini girmenizi isterse **Windows** (şirket içi SharePoint siteleri için) ya da **Kuruluş Hesabı** (Office 365 veya OneDrive İş siteleri için) seçeneğini belirleyin.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
