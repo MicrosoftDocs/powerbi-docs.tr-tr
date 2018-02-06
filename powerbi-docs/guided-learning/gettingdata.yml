@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: modeling
-  nextTutorialTitle: Modeling
+  nextTutorialTitle: Modelleme
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Data is at the heart of Power BI. In this **Guided Learning** section, you learn how to get and work with data in Power BI.
+  content: "Veriler Power BI'ın temelini oluşturur. Bu **Destekli Öğrenim** bölümünde Power BI’dan nasıl veri alacağınızı ve bu verilerle nasıl çalışacağınızı öğrenirsiniz.\n"
 - title: "Power BI Desktop'a genel bakış"
   durationInMinutes: 4
   content: >
@@ -65,4 +64,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Way to go! You've completed the **Getting data** section of Microsoft Power BI Guided Learning. The next step is to learn about **Modeling**, which is the subject of the next tutorial.\0"
+- content: "Başlıyoruz! Microsoft Power BI Destekli Öğrenim kursunun **Veri alma** bölümünü tamamladınız. Sonraki adımımız, sonraki öğreticinin konusu olan **Modelleme** hakkında bilgi edinmek.\0"

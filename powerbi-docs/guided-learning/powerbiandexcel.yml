@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: publishingandsharing
-  nextTutorialTitle: Publishing and sharing
+  nextTutorialTitle: "Yayımlama ve paylaşma"
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: cc4e7ae228222e696c481c53a2d4f87b8ed1a146
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Use Excel and Power BI together and create powerful, connected reports and visuals.
+  content: "Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun.\n"
 - title: "Power BI'da Excel verilerini kullanmaya giriş"
   durationInMinutes: 2
   content: >
@@ -58,4 +57,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Nice job completing the **Power BI and Excel** section of Power BI Guided learning. Next, you learn about publishing and sharing.\0"
+- content: "Power BI Destekli Öğrenim kursunun **Power BI ve Excel** bölümünü tamamladığınız için tebrik ederiz. Sonraki adımda yayımlama ve paylaşmayı öğreneceksiniz.\0"
