@@ -130,7 +130,7 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 2. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
-5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
+5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
 6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW kimliğini ve veri kaynağı kimliğini alın
 7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcı kimlik bilgilerini güncelleştirin
 
