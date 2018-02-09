@@ -398,7 +398,9 @@
           href: power-bi-visualization-best-practices.md
         - name: Power BI'daki özel görselleştirmeler
           href: power-bi-custom-visuals.md
-        - name: 'Öğretici: 1. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
+        - name: Power BI’da kuruluşlara yönelik özel görseller
+          href: power-bi-custom-visuals-organization.md
+        - name: 'Eğitim: 1. Bölüm: Bir Power BI raporuna görselleştirme ekleme'
           href: power-bi-report-add-visualizations-i.md
         - name: 'Öğretici: 2. Bölüm - Bir Power BI raporuna görselleştirme ekleme'
           href: power-bi-report-add-visualizations-ii.md
@@ -730,6 +732,8 @@
       items:
         - name: Power BI Desktop'taki veri görünümü
           href: desktop-data-view.md
+        - name: Power BI Desktop'ta tarih tabloları
+          href: desktop-date-tables.md
         - name: Power BI Desktop'taki ilişki görünümü
           href: desktop-relationship-view.md
         - name: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
@@ -758,8 +762,12 @@
           href: desktop-qna-in-reports.md
         - name: Power BI Desktop'taki Analiz bölmesi
           href: desktop-analytics-pane.md
+        - name: Power BI’da çoklu seçim
+          href: desktop-multi-select.md
         - name: Power BI Desktop'taki öngörüleri kullanma
           href: desktop-insights.md
+        - name: Power BI Desktop'ta dilimleyiciler
+          href: desktop-slicers.md
         - name: Power BI'da yer işaretleri
           href: desktop-bookmarks.md
         - name: Rapor temalarını kullanma
