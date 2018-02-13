@@ -852,51 +852,51 @@
       items:
         - name: Mobil cihazlar için Power BI uygulamaları
           href: mobile-apps-for-mobile-devices.md
-        - name: Mobil cihazınızda panolarınızı ve raporlarınızı bulma
+        - name: 'Mobil cihazda panoları, raporları ve uygulamaları bulma'
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Power BI mobil uygulamalarındaki yenilikler
+        - name: Mobil uygulamalardaki yenilikler
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: Tüm mobil uygulamalar
       items:
         - name: iOS için Power BI uygulamaları
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Power BI mobil uygulamalarında şirket içi raporları ve KPI'leri görüntüleme
+        - name: Mobil uygulamalarda şirket içi raporları ve KPI'leri görüntüleme
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: Power BI mobil uygulamaları için panolar
+        - name: Mobil uygulamalarda panolar
           href: mobile-apps-view-dashboard.md
-        - name: Power BI mobil uygulamalarında raporlar
+        - name: Mobil uygulamalarda raporlar
           href: mobile-reports-in-the-mobile-apps.md
         - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
           href: mobile-tiles-in-the-mobile-apps.md
         - name: Power BI mobil uygulamalarından pano paylaşma
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Power BI mobil uygulamalarında öğeleri sık kullanılanlara ekleme
+        - name: Mobil uygulamalarda sık kullanılanlar
           href: mobile-apps-favorites.md
-        - name: Mobil uygulamalarla gerçek dünyadan Power BI verileri edinme
+        - name: Mobil uygulamalar ile gerçek dünya Power BI verilerini alma
           href: mobile-apps-data-in-real-world-context.md
-        - name: Telefonunuzdan bir Power BI QR kodunu tarama
+        - name: Telefonunuzdan bir QR kodu tarama
           href: mobile-apps-qr-code.md
-        - name: Power BI mobil uygulamalarında bildirim alma
+        - name: Mobil uygulamalarda bildirim alma
           href: mobile-apps-notification-center.md
-        - name: 'Mobil uygulamalarda kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma'
+        - name: Mobil uygulamalarda not ekleme ve paylaşma
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
+        - name: Mobil uygulamalarda veri uyarıları oluşturma
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
+        - name: Mobil uygulamalarda bir raporu konuma göre filtreleme
           href: mobile-apps-geographic-filtering.md
         - name: iOS mobil uygulamalarında verileriniz hakkında soru sorma (Öğretici)
           href: mobile-apps-ios-qna.md
         - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
           href: mobile-apps-deep-link-specific-location.md
-        - name: Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
+        - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
           href: mobile-apps-offline-data.md
-        - name: Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma
+        - name: Telefonunuz için en iyi duruma getirilmiş raporları görüntüleme ve raporlarla etkileşim kurma
           href: mobile-apps-view-phone-report.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: service-admin-mobile-intune.md
-        - name: OAuth seçeneğini kullanarak Reporting Services'e bağlanma
+        - name: OAuth kullanarak Reporting Services'e bağlanma
           href: mobile-oauth-ssrs.md
-        - name: Power BI mobil uygulamalarında desteklenen diller
+        - name: Mobil uygulamalarda desteklenen diller
           href: mobile-apps-supported-languages.md
     - name: iPad uygulaması (iOS için Power BI)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Power BI Apple Watch uygulaması
           href: mobile-apple-watch.md
-        - name: iPhone'unuzdaki Power BI uygulamasından barkod tarama
+        - name: iPhone'unuzdaki mobil uygulamadan barkod tarama
           href: mobile-apps-scan-barcode-iphone.md
     - name: Android telefonlar için Power BI uygulaması
       items:
@@ -924,7 +924,7 @@
       items:
         - name: Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
           href: mobile-windows-10-phone-app-get-started.md
-        - name: Windows 10 için Power BI mobil uygulamasında Reporting Services mobil raporlarını ve KPI'lerini görüntüleme
+        - name: Windows 10’a yönelik mobil uygulamada Reporting Services mobil raporlarını ve KPI'lerini görüntüleme
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: Power BI kutucuklarını veya panolarını Başlangıç ekranına sabitleme
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
