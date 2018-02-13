@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Güvenlik Merkezi
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Circuit ID
@@ -980,8 +978,6 @@
       items:
         - name: Geliştirici Araçları ile özel görsel oluşturma
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Özel görselleri güvenlik ve gizlilik bakımından gözden geçirme
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Özel görselleri sertifikalatma
           href: power-bi-custom-visuals-certified.md
     - name: Bir panoya veri gönderme
