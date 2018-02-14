@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
@@ -89,17 +89,6 @@ Tüm bilgileri doldurduktan sonra **Ekle**'ye tıklayabilirsiniz.  Şirket içi 
 Veri kaynağınızın gizlilik düzeyini yapılandırabilirsiniz. Bu işlem, verilerin nasıl bir araya getirilebileceğini denetler. Bu işlem yalnızca zamanlanmış yenileme için kullanılır. Canlı bağlantılar için geçerli değildir. [Daha fazla bilgi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Power BI sitesinde Analysis Services için "Veri Al" deneyimi
-Analysis Services için benzersiz bir seçenek olarak doğrudan Power BI hizmetinde Veri Al özelliğini kullanabilirsiniz. Power BI Desktop'a ihtiyacınız olmadan ağ geçidi içinde yapılandırılan canlı bir Analysis Services veri kaynağına bağlanabilirsiniz. Hesabınızın listede gösterilmesi için, ağ geçidinin altında veri kaynağına ilişkin **Kullanıcılar** sekmesinde listelenmesi gerekir. Veri kaynağına bağlanmak için şunları yapabilirsiniz.
-
-1. Power BI hizmetinde **Veri al** seçeneğini belirleyin.
-2. **Veritabanları**'nı seçin.
-3. **SQL Server Analysis Services** > **Bağlan**'ı seçin.
-4. Listeden bir veri kaynağı seçin. Erişim sahibi olduğunuz tüm Analysis Services veri kaynakları burada listelenir.
-5. Bağlanmak istediğiniz modeli seçin. Ardından **Bağlan**'ı seçin.
-
-Sunucu adı ile bir veri kümesi görürsünüz. Ardından bu veri kümesini seçip veri kümesinin üzerinde rapor oluşturmaya başlayabilirsiniz. Bu, canlı verilere yönelik olarak çalışacaktır.
 
 ## <a name="usernames-with-analysis-services"></a>Analysis Services'de kullanıcı adları
 Bir kullanıcının Analysis Services'e bağlı bir raporla kurduğu her etkileşimde etkin kullanıcı adı, ağ geçidine ve ardından şirket içi Analysis Services sunucunuza geçirilir. Etkin kullanıcı olarak Analysis Services'e, Power BI'da oturum açmak için kullandığınız e-posta adresini geçiririz. Bu, [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) bağlantı özelliğine geçirilir. Bu e-posta adresi, yerel Active Directory Etki Alanı'nda tanımlı bir UPN ile eşleşmelidir. UPN, Active Directory hesabının bir özelliğidir. Daha sonra bu Windows hesabının, bir Analysis Services rolünde mevcut olması gerekir. Active Directory'de eşleşme bulunamazsa oturum açma işlemi başarılı olmaz. [Daha fazla bilgi](https://msdn.microsoft.com/library/ms677605.aspx)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
@@ -59,7 +59,7 @@ Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan 
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
-Azure Audit Logs içerik paketi için Azure Portal'da Denetim Günlükleri erişimi gerekir. [Burada](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/) daha ayrıntılı bilgilere ulaşabilirsiniz.
+Azure Audit Logs içerik paketi için Azure Portal'da Denetim Günlükleri erişimi gerekir. [Burada](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/) daha ayrıntılı bilgilere ulaşabilirsiniz.
 
 <a name="FindingParams"></a>
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -98,12 +98,6 @@ Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek iç
 
 2. Panoyu, rapora erişmesi gereken kullanıcılarla paylaşma. Daha fazla bilgi için bkz. [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Ücretsiz sürüm kullanıcılarına raporlara yönelik erişim izni verme
-
-Ücretsiz sürüm kullanıcıları, SharePoint Online için Power BI web bölümüyle eklenen raporları görüntüleyebilir. Bu kullanıcılara yukarıdaki [Raporlara yönelik erişim izni verme](#granting-access-to-reports) bölümünde anlatıldığı gibi Pro sürüm kullanıcıları için yaptığınız şekilde erişim izni vermeniz gerekir. Ayrıca, raporun bulunduğu çalışma alanında Power BI Premium kapasitesinin kullanılması gerekir. 
-
-Örneğin, bir uygulama çalışma alanında raporunuz varsa bu uygulama çalışma alanına bir Power BI Premium kapasitesi atamanız gerekir. Ayrıca, Ücretsiz sürüm kullanıcısını ilgili uygulama çalışma alanının üye listesine de eklemeniz gerekir.
-
 ## <a name="web-part-settings"></a>Web bölümü ayarları
 
 Aşağıda, SharePoint Online'a yönelik Power BI web bölümü için yapılabilecek ayarların açıklamalarına yer verilmiştir.
@@ -160,5 +154,5 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md)  
 [Power BI Premium nedir?](service-premium.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/) 
 

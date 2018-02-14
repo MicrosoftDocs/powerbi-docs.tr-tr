@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -142,7 +142,7 @@ Ağ gecikmesi, isteklerin Power BI hizmete ulaşması ve yanıtların teslim edi
 
 [Azure Hız Testi](http://azurespeedtest.azurewebsites.net/) gibi araçlar, istemci ile Azure bölgesi arasındaki ağ gecikmesini gösterir. Genel olarak ağ gecikmesinin etkisini en aza indirmek için veri kaynaklarını, ağ geçitlerini ve Power BI kümenizi mümkün olduğunca yakın tutun. Ağ gecikmesi sorunu yaşıyorsanız, ağ geçitlerini ve veri kaynaklarını sanal makinelere yerleştirerek Power BI kümenize yakınlaştırmayı deneyebilirsiniz. 
 
-Ağ gecikmesini daha da azaltmak için istemcilerinizle Azure veri merkezleri arasında daha hızlı, daha güvenilir ağ bağlantıları oluşturabilen [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)’u kullanmayı göz önünde bulundurun. 
+Ağ gecikmesini daha da azaltmak için istemcilerinizle Azure veri merkezleri arasında daha hızlı, daha güvenilir ağ bağlantıları oluşturabilen [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)’u kullanmayı göz önünde bulundurun. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 - Büyük ölçekli Power BI dağıtımlarına yönelik eksiksiz yönergelerle [Power BI Enterprise Dağıtımı Planlama](https://aka.ms/pbienterprisedeploy) 
