@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
+ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
@@ -50,8 +50,7 @@ Bir özel görseli sertifikasyona göndermek için:
    * Başlık: Görsel Sertifikasyon Talebi    
    * Görsel kaynak kodunun bulunduğu GitHub deposu bağlantısı    
    * Gereksinimlere uygunluk bilgisi (yukarıya bakın)    
-   * Kod ve güvenlik incelemesini geçtiği bilgisi    
-2. Microsoft Özel Görseller ekibi, özel görseliniz sertifikalandığında ve Sertifikalı listesine (aşağıda) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve Sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
+   * Kod ve güvenlik incelemesini geçtiği bilgisi    2. Microsoft Özel Görseller ekibi, özel görseliniz sertifikalandığında ve Sertifikalı listesine (aşağıda) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve Sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI Sertifikalı özel görsellerinin kaldırılması
 Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden kaldırabilir.  
@@ -60,76 +59,85 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | AppSource bağlantısı | Video bağlantısı |
 | --- | --- |
 | [İlişkilendirme kuralları](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
-| [Aster plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759?src=office&tab=Overview) | |
-| [BciCalendar (Beyondsoft Calendar)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096?src=office&tab=Overview)  | |
-| [Bowtie chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838?src=office&tab=Overview) |[Video](https://youtu.be/So5xKMSpVJI) |
-| [Box and Whisker](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831?src=office&tab=Overview) | |
-| [MAQ Software tuğla grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | |
-| [Akvelon kabarcık grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340?src=office) | |
-| [Bullet Chart](https://store.office.com/app.aspx?assetid=WA104380755) |[Video1](https://youtu.be/AOlsFYkfkcw)   [Video2](https://youtu.be/AQvd2FhRyCI) |
-| [Bullet Chart by OKViz](https://store.office.com/bullet-chart-by-okviz-WA104380953.aspx) |[Video](https://youtu.be/mtvUNl9bMjA) |
-| [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146?src=office&tab=Overview) | |
-| [OKViz Candlestick](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | |
-| [Chiclet slicer](https://store.office.com/chiclet-slicer-WA104380756.aspx) |[Video](https://youtu.be/iYOkJ1APueY) |
-| [Çubuk grafik](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761?src=office&tab=Overview) |[Video](https://youtu.be/AQvd2FhRyCI) |
-| [Circular gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837?tab=Overview) | |
-| [Cylindrical gauge](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) | |
-| [Dial gauge](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) |[Video](https://youtu.be/AOlsFYkfkcw) |
-| [Donut chart (Ring chart) by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824?tab=Overview) |[Video](https://youtu.be/pDToHDFHnq8) |
-| [MAQ Software Noktalı Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381101) | |
-| [Dot Plot by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104381101?src=office&tab=Overview) |[Video](https://youtu.be/4lskRgcpFJY) |
-| [Microsoft Noktalı Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760?src=office) | |
-| [Drill down donut chart by ZoomCharts](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) | |
-| [Ayrıntılı Kartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045?src=office) | |
-| [Ayrıntılı Koroplet](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044?src=office) | |
-| [ZoomCharts ayrıntılı sütun grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881?src=office) | |
-| [Zamana bağlı veriler için ZoomCharts ayrıntılı sütun grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | |
-| [ZoomCharts Ayrıntılı Halka Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | |
-| [Dual KPI](https://store.office.com/dual-kpi-WA104380774.aspx) |[Video](https://youtu.be/821o0-eVBXo?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x) |
-| [Gelişmiş dağılım](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
-| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
-| [Enlighten Bubble stack](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
-| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
+| [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
+| [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
+| [MAQ Software Bowtie Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |
+| [Kutu ve Çizgi grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [MAQ Software Brick Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [Video](https://youtu.be/hA3DOsvn2xY) |
+| [Akvelon Bubble Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
+| [Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [Video](https://youtu.be/AOlsFYkfkcw) |
+| [Bullet Chart by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) | [Video](https://youtu.be/mtvUNl9bMjA) |
+| [Calendar by Tallan](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381146) | |
+| [OKViz Candlestick](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | [Video](https://youtu.be/nT_18gyRxPo) |
+| [OKViz Card with States](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380967) | |
+| [Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756) | |
+| [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Video](https://youtu.be/AQvd2FhRyCI) |
+| [MAQ Software Circular Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Video](https://youtu.be/9NHXALkBXuY) |
+| [Küme Eşleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
+| [Kümeleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
+| [Aykırı Değerler ile Kümeleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
+| [Bağıntı çizimi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
+| [MAQ Software Cylindrical Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Video](https://youtu.be/DgdoWi7Gcxo) |
+| [Karar Ağacı Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
+| [Kadranlı Ölçer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
+| [Noktalı Çizim](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
+| [Dot Plot by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Video](https://youtu.be/By16pX9KT40) |
+| [Ayrıntılı Kartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) | |
+| [Ayrıntılı Koroplet](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) | |
+| [Ayrıntılı sütun grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) | [Video](https://youtu.be/lBy2gQQ5YsQ) |
+| [Zamana bağlı veriler için ayrıntılı sütun grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [Video](https://youtu.be/T_mRou18vx0) |
+| [Ayrıntılı halka grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [Video](https://youtu.be/AUVFrSHmPeo) |
+| [Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
+| [Gelişmiş Dağılım](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [Video](https://youtu.be/xCfM0cjM4do) |
+| [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
-| [Enlighten waffle chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
-| [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Zorla Yönlendirilmiş Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) |[Video](https://youtu.be/YsTa7uyJ4sg) |
-| [TBATS Tahmini](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [Funnel with source]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Video](https://youtu.be/qJ7s_KrGiUU) |
-| [Akvelon hiyerarşi grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
-| [Histogram](https://store.office.com/histogram-chart-WA104380776.aspx) | |
-| [Horizotal Funnel](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[Video](https://youtu.be/SudZei68PPo) |
-| [Görüntü Zaman Çizelgesi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381254) | |
-| [Bilgi Grafiği Tasarımcısı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898?src=office) | |
-| [KPI Indicator](https://store.office.com/kpi-indicator-WA104380832.aspx) | |
-| [MAQ Software KPI Bandı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | |
-| [LineDot grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766?src=office) | |
-| [Linear gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821?src=office&tab=Overview) |[Video](https://youtu.be/AOlsFYkfkcw) |
-| [Mekko chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785?src=office&tab=Overview)  | [Video](https://youtu.be/90FLCKpgicA)|
-| [Play Axis (Dynamic Slicer)](https://store.office.com/play-axis-dynamic-slicer-WA104380981.aspx) | |
-| [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) |[Video](https://youtu.be/IvfIP3E6-1Q) |
-| [Eğilim grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | |
-| [Radar chart](https://store.office.com/radar-chart-WA104380771.aspx) | |
-| [Ring chart (Donut chart) by MAQSoftware](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824?src=office&tab=Overview) | [Video](https://youtu.be/pDToHDFHnq8)|
-| [MAQ Software döner grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007?src=office) |  |
-| [Sankey chart](https://store.office.com/app.aspx?assetid=WA104380777.aspx) |[Video](https://youtu.be/WWP9wVUHGaA) |
-| [Scroller](https://store.office.com/scroller-WA104381018.aspx) |[Video](https://youtu.be/uhRFQF2cGSY) |
-| [Smart Filter by SQLBI](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[Video](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[Video](https://youtu.be/0m3Vnvso9tY) |
-| [Akış grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) |  |
-| [Güneş ışığı](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
-| [Table Heatmap](https://store.office.com/table-heatmap-WA104380818.aspx) | |
-| [Tachometer](https://store.office.com/tachometer-WA104380937.aspx?) |[Video](https://www.youtube.com/watch?v=C3OXdETbS9o) |
-| [Text wrapper](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) | |
-| [Termometre](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847?src=office&tab=Overview) | [Video](https://youtu.be/SPX9mgrAdBc)|
-| [Time series decomposition](https://appsource.microsoft.com/product/power-bi-visuals/WA104380897) | |
-| [Timeline slicer](https://store.office.com/timeline-slicer-WA104380786.aspx) |[Video](https://youtu.be/ozMtZ4_NZ10) |
-| [Tornado chart](https://store.office.com/tornado-chart-WA104380768.aspx) |[Video](https://youtu.be/AQvd2FhRyCI) |
-| [Klaus Birringer Ultimate Variance grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
-| [Ultimate Waterfall ücretsiz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
-| [Waffle chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[Video](https://youtu.be/1vRqYUsm3Vk) |
-| [Word Cloud](https://store.office.com/word-cloud-WA104380752.aspx?) |[Video](https://www.youtube.com/watch?v=AblTenl9fqo) |
+| [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
+| [Zorla Yönlendirilmiş Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Video](https://youtu.be/YsTa7uyJ4sg) |
+| [TBATS Tahmini](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
+| [ARIMA ile Tahmin](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
+| [MAQ Software Funnel with Source](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Video](https://youtu.be/R_EcimsLI8U) |
+| [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
+| [MAQ Software Gantt Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Video](https://youtu.be/vJLV9JRCpI8) |
+| [Yerküre Veri Çubukları](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Akvelon Hierarchy Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Video](https://youtu.be/0ZGzJaq_KT4) |
+| [Çubuk Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [MAQ Software Horizontal Funnel](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Video](https://youtu.be/SudZei68PPo) |
+| [CloudScope Image](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
+| [Görüntü Kılavuzu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
+| [Bilgi Grafiği Tasarımcısı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
+| [MAQ Software KPI Bandı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
+| [MAQ Software Linear Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
+| [LineDot Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
+| [Mekko Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Video](https://youtu.be/90FLCKpgicA) |
+| [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
+| [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
+| [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [Radar Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
+| [MAQ Software Ring Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
+| [MAQ Software Rotating Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Video](https://youtu.be/d5xBCMmb3hU) |
+| [Sankey Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [Video](https://youtu.be/WWP9wVUHGaA) |
+| [Scroller](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
+| [OKViz Smart Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Video](https://youtu.be/gcJsDDRQq28) |
+| [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Video](https://youtu.be/0m3Vnvso9tY) |
+| [Eğri grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
+| [Akış Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
+| [Güneş ışığı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
+| [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
+| [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Video](https://youtu.be/C3OXdETbS9o) |
+| [MAQ Software Text Wrapper](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
+| [Termometre](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [Zaman serisi ayrıştırma grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
+| [Zaman Serilerini Tahmin Etme Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
+| [Zaman Çizelgesi Dilimleyici](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
+| [Tornado chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [MAQ Software Trading Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |
+| [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Video](https://youtu.be/pDYF8iZxERs) |
+| [Ultimate Waterfall](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | [Video](https://youtu.be/0BZsVCQdEkc) |
+| [CloudScope User List](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381426) | |
+| [Waffle Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049) | [Video](https://youtu.be/1vRqYUsm3Vk) |
+| [Word Cloud](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Video](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Özel görseller geliştirici araçları ile çalışmaya başlama (Önizleme)](service-custom-visuals-getting-started-with-developer-tools.md)      
