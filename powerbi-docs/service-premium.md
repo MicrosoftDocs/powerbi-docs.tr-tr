@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar, böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
@@ -46,7 +46,7 @@ Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premi
 | Katıştırılmış API ve denetimler |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>2</sup> |
 | **Power BI raporlarını şirket içinde yayımlama** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
 
-*<sup>1</sup> Uygulamalarda kullanıcılara ücretsiz olarak sağlanan kullanımlar web üzerinde ve mobil cihazlarda içerik görüntülemeyi; Soru-Cevap, Hızlı Öngörüler ve Cortana kullanımını ve CSV, Excel ve PowerPoint'e aktarma işlemlerini kapsar.*  
+*<sup>1</sup> Uygulamalarda kullanıcılara ücretsiz olarak sağlanan kullanımlar web üzerinde ve mobil cihazlarda içerik görüntülemeyi; Soru-Cevap, Hızlı Öngörüler ve Cortana kullanımını ve CSV, Excel ve PowerPoint'e aktarma işlemlerini kapsar. Paylaşılan veri kümeleri üzerine rapor oluşturma ve Excel'de Çözümle gibi listede yer almayan diğer etkinlikler için Pro lisansı gerekir. [Power BI Ücretsiz ile Pro’yu karşılaştırarak](service-free-vs-pro.md) işlevsel farklılıklar konusunda daha fazla bilgi edinin.*  
 *<sup>2</sup> Power BI Premium'un genel kullanıma sunulmasından sonra daha fazla geliştirme sunulacaktır.*
 
 ### <a name="premium-capacity"></a>Premium kapasite

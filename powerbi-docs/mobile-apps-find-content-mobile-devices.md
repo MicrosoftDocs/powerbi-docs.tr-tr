@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 Aşağıdakiler için geçerlidir:
@@ -41,7 +41,11 @@ Panolarınız, raporlarınız ve uygulamalarınız kaynaklarına bağlı olarak 
 5. [Çalışma alanları](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 Sık Kullanılanlar
-En çok görüntülediğiniz panoları ve uygulamaları sık kullanılanlara ekleyerek bir araya toplayın. [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
+En çok görüntülediğiniz panoları, raporları ve uygulamaları sık kullanılanlara ekleyerek bir araya toplayın. 
+
+![Power BI mobil uygulamalarında sık kullanılanlar](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+[Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="2-report-servers"></a>2 Rapor sunucuları
 Bir veya daha fazla şirket içi Power BI Rapor Sunucusu ya da SQL Server Reporting Services sunucusu bağlantısına sahip olabilirsiniz. Sunucudaki KPI'ler, Power BI raporları ve sayfalandırılmış raporlar burada görüntülenir. Bunlardan birini sunucuda sık kullanılanlara eklediyseniz Sık Kullanılanlar listenizde de görüntülenir. [Power BI mobil uygulamalarında şirket içi KPI'leri ve raporları görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ Power BI mobil uygulamalarında, yüklemiş olduğunuz tüm uygulamaları görü
 Power BI hizmetinde Microsoft AppSource sayfasına giderek başka uygulamalar bulabilirsiniz ancak bu işlemi Power BI mobil uygulamalarında yapamazsınız. 
 
 ## <a name="4-shared-with-me"></a>4 Benimle paylaşılan
-İş arkadaşlarınızın sizinle paylaştığı panolar burada yer alır. Pano sahibine göre filtreleme yapabilir veya aradığınızı bulmak için arama yapabilirsiniz. Sıklıkla ziyaret ettiğiniz paylaşılan içerikleri, üç noktaya (...) tıklayarak doğrudan **Benimle paylaşılan** görünümünde sık kullanılanlara ekleyebilirsiniz.
+İş arkadaşlarınızın sizinle paylaştığı panolar ve raporlar burada yer alır. Sahibe göre filtreleme yapabilir veya aradığınızı bulmak için arama yapabilirsiniz. Sıklıkla ziyaret ettiğiniz paylaşılan içerikleri, doğrudan **Benimle paylaşılan** görünümünde üç noktaya (**...**) tıklayarak sık kullanılanlara ekleyebilirsiniz.
 
-![Yeni Power BI gezinti menüsü](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI Benimle paylaşılan](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Çalışma alanları
 *Uygulama çalışma alanları* olarak da bilinen bu alanlar, Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) bulunan, arkadaşlarınızla birlikte çalışarak pano ve rapor koleksiyonu oluşturabileceğiniz ortamlardır. Oluşturduğunuz koleksiyonları *uygulama* olarak dağıtabilirsiniz. 

@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop'taki Analiz Bölmesini Kullanma
-**Power BI Desktop**'taki **Analiz** bölmesini kullanarak görsellere *dinamik başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. **Analiz** bölmesi, Ağustos 2016 sürümü itibarıyla (2.37.4464.321 veya sonraki sürümler), aşağıda gösterildiği gibi Power BI Desktop'ın **Görsel Öğeler** alanında bulunur.
+**Power BI Desktop**'taki **Analiz** bölmesini kullanarak görsellere *dinamik başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. **Analiz** bölmesi, Power BI Desktop’ın **Görselleştirmeler** alanında bulunur.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > **Analiz** bölmesi yalnızca Power BI Desktop tuvalinde bir görsel seçmeniz halinde görünür.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Tahmin Etmeyi Etkinleştirme (Önizleme)
-Ayrıca, **Power BI Desktop**'ın Eylül 2016 sürümüyle birlikte (2.39.4526.362 veya sonraki sürümler), **Analiz** bölmesinde *tahmin etme* işlemleri gerçekleştirebilirsiniz. Bu önizleme özelliğini etkinleştirmek için **Dosya >Seçenekler ve Ayarlar >Seçenekler**'e gitmeniz ve sol bölmedeki **Önizleme Özellikleri**'ni seçmeniz gerekir. **Tahmin Etme**'nin yanındaki onay kutusunu, aşağıdaki görüntüde gösterildiği gibi işaretleyin. Değişikliklerin etkili olması için **Power BI Desktop**'ı yeniden başlatmanız gerekir.
+## <a name="search-within-the-analytics-pane"></a>Analiz bölmesinde arama
+**Power BI Desktop**’ın Şubat 2018 sürümünden (sürüm 2.55.5010.201 veya üzeri) itibaren, **Görselleştirmeler** bölmesinin alt bölümü olan **Analiz** bölmesi içinde arama yapabilirsiniz. Aşağıdaki resimde gösterildiği gibi, **Analiz** bölmesi seçildiğinde arama kutusu görünür.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
@@ -116,7 +114,7 @@ Son olarak, aşağıdakiler gibi Kartezyen olmayan görsellerle şu anda **Anali
 * Tablo
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz pek çok şey vardır. Sunulan özellikler hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+Power BI Desktop ile yapabileceğiniz çok şey var. Sunulan özellikler hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop'taki Yenilikler](desktop-latest-update.md)
 * [Power BI Desktop'ı İndirme](desktop-get-the-desktop.md)

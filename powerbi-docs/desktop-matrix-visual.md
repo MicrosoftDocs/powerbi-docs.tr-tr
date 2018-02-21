@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop'ta Matris görselini kullanma
 **Matris** görselini kullanarak **Power BI Desktop** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.
@@ -34,6 +34,19 @@ Matrisle ilişkili birçok özellik vardır ve bu özellikler, makalenin ilerley
 > **Power BI Desktop**'ın Temmuz 2017 sürümünden itibaren matris ve tablo görselleri, uygulanan **Rapor Teması**'ndaki stili (renkler dahil) yansıtmaktadır. Bunlar, matris görseliniz için görmeyi beklediğiniz renkler değilse **Rapor Teması** yapılandırmanızda değişiklik yapabilirsiniz. Temalar hakkında daha fazla bilgi için bkz. [**Power BI Desktop'ta Rapor Temalarını kullanma**](desktop-report-themes.md).
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI tarafından toplamların nasıl hesaplandığını anlama
+
+**Matris** görselinin nasıl kullanılacağı konusuna geçmeden önce Power BI tarafından tablo ve matrislerdeki toplam ve alt toplam değerlerinin nasıl hesaplandığının anlaşılması önemlidir. Toplam ve alt toplam satırları için yapılan ölçüm, temel verilerdeki tüm satırlarda değerlendirilir; yalnızca görünen veya görüntülenen satırlardaki değerlerin toplanmasından ibaret *değildir*. Bu, toplam satırında beklediğinizden farklı değerler görebileceğiniz anlamına gelir. 
+
+Aşağıdaki **Matris** görsellerine göz atın. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+Bu örnekte, en sağdaki **Matris** görselinin her satırında her bir satıcı/tarih bileşimi için *tutar* gösterilmektedir. Ancak, bir satıcının birden çok tarihte göründüğünden, sayılar birden çok kez yer görünebilir. Bu nedenle, temel verilerden elde edilen doğru toplam ile görünen değerlerin basitçe toplanmasından elde edilen değer eşit değildir. Bu, toplanan değer bir bire çok ilişkinin ‘bir’ tarafı olduğunda yaygın olarak kullanılan bir düzendir.
+
+Toplam ve alt toplam değerlerine bakarken bunların yalnızca görünen değerleri değil temel verileri temel aldığını unutmayın. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya gitme özelliğini kullanma
 **Matris** görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici detaya gitme etkinliğini gerçekleştirebilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.
@@ -144,16 +157,12 @@ Her iki yöntemle de aynı sonuç elde edilir. *Gelişmiş denetimler* seçildi�
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-**Matris** görselinin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
+## <a name="next-steps"></a>Sonraki adımlar
 
-* Sütunlarda detaya gitme özelliği yalnızca sağ tıklama menüsünden kullanılabilir ve şu anda satır veya sütun grupları için detaya gitme özelliğinin etkin olacağı herhangi bir görsel üzerinde çalışma olduğuna dair bir gösterge yoktur
-* Her seferde tek bir kategoriyi genişletmek yerine yalnızca bir düzeydeki tüm öğeleri bir defada genişletebilirsiniz
-* Bir sütun başlığına sağ tıkladığınızda **Kayıtları Görüntüle** seçeneği belirebilir ancak işlevsel değildir
-* Şu anda *Genel toplam* satırı yoktur
-* Basamaklı düzende alt toplam satırını devre dışı bırakmanın herhangi bir etkisi yoktur
-* İç gruplar dış gruplara göre daha kısa metinler içeriyorsa sütun başlıkları kesilebilir
-* Basamaklı düzen girintisi değiştirildiğinde en dıştaki satır grubunun girintisi değişmemelidir
+Aşağıdaki makaleler de ilginizi çekebilir:
 
-Fikirlerinizi duymak bizim için her zaman önemlidir. Şu anda bu **Matris** görseline ilişkin bir **anket** yapıyoruz; birkaç dakikanız varsa lütfen [ankete katılın](https://www.instant.ly/s/PYXT1).
+* [Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma](desktop-gridlines-snap-to-grid.md)
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri türleri](desktop-data-types.md)
 
+ 

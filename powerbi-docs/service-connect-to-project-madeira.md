@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI ile Project "Madeira"ya bağlanın
 Power BI ve Project "Madeira" içerik paketi sayesinde Project "Madeira" verileriniz için kolayca öngörüler elde edebilirsiniz. Power BI hem Satış hem de Finansal verilerinizi alıp bu verilere dayalı, kullanıma hazır bir pano ve raporlar oluşturur.
@@ -47,7 +47,7 @@ Power BI için [Project "Madeira" Analytics içerik paketine](https://app.powerb
     >[!NOTE]
     >Project "Madeira"da bir süper kullanıcı olmanız gerekir.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Bağlandıktan sonra bir pano, rapor ve veri kümesi otomatik olarak yüklenir. Yükleme tamamlandığında, kutucuklar hesabınızdaki veriler ile güncelleştirilir.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Tamam'ı seçtiğinizde bir anahtar oluşturulur. Bu anahtarı kopyalayarak Powe
 ## <a name="troubleshooting"></a>Sorun giderme
 Power BI panosunda, yukarıda listelenen yayımlanmış web hizmetlerine bağlı olarak, örnek şirkete veya mevcut finans çözümünüze ait verileri içeri aktardıysanız kendi şirketinize ilişkin veriler gösterilir. Ancak, herhangi bir sorun oluşması halinde bu bölüme göz atabilirsiniz. Burada, en sık karşılaşılan sorunlara yönelik geçici çözümler açıklanmıştır.
 
-**"Parametre doğrulaması başarısız oldu, lütfen tüm parametrelerin geçerli olduğundan emin olun"** Project "Madeira" URL'nizi girdikten sonra bu hatayla karşılaştıysanız aşağıdaki gereksinimlerin karşılandığından emin olun:  
+**"Parametre doğrulaması başarısız oldu. Lütfen tüm parametrelerin geçerli olduğundan emin olun"**
 
-    - URL tam olarak şu desende olmalıdır: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Şirket('*CRONUS%20US*')  
-    - Parantez içindeki şirket adından sonra gelen tüm metni silin  
-    - URL'nin sonunda eğik çizgi olmamalıdır.  
-    - URL'nin, https ile başlayan URL ile belirtilen güvenli bir bağlantıyı kullandığından emin olun.  
+Project "Madeira" URL'nizi girdikten sonra bu hatayla karşılaştıysanız aşağıdaki gereksinimlerin karşılandığından emin olun:  
+
+   - URL tam olarak şu desende olmalıdır: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Şirket('*CRONUS%20US*')  
+   - Parantez içindeki şirket adından sonra gelen tüm metni silin  
+   - URL'nin sonunda eğik çizgi olmamalıdır.  
+   - URL'nin, https ile başlayan URL ile belirtilen güvenli bir bağlantıyı kullandığından emin olun.  
 
 **"Oturum açılamadı"** Project "Madeira" kimlik bilgilerinizi kullanarak panoda oturum açmayı denediğinizde bir "oturum açılamadı" hatasıyla karşılaşırsanız bu duruma aşağıdaki sorunlardan biri neden olmuş olabilir:  
 

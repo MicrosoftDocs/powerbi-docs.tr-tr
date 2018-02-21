@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery ve SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:
@@ -74,13 +74,9 @@ Aşağıdaki tabloda, tam olarak desteklenmeyen veya Power BI kullanıldığınd
 | Öznitelikler |Power BI içinde bir karakteristiğin özniteliklerine erişmek mümkün değildir. |
 | Son kullanıcı dil ayarı |SAP BW'ya için bağlanmak için kullanılan yerel ayarlar, bağlantı ayrıntılarının bir parçası olarak belirlenmiştir ve son rapor kullanıcısının yerel ayarlarını yansıtmaz. |
 | Metin Değişkenleri |SAP BW, alan adlarının değişkenler için yer tutucular içermesine izin verir (örneğin "$YEAR$ Fiili Değerleri") ve bunlar daha sonra seçilmiş değerle değiştirilir. Örneğin, bu değişken için 2016 yılı seçildiyse bu alan BEx araçlarında "2016 Fiili Değerleri" olarak görünür. <br/> <br/> Power BI'da sütunun adı değişken değerine göre değiştirilmez ve bu nedenle "$YEAR$ Fiili Değerleri" olarak görünür.  Ancak, sütun adı Power BI'da daha sonra değiştirilebilir. |
+| Müşteri Çıkış Değişkenleri | Müşteri Çıkış değişkenleri genel API tarafından açıkça sunulmadığı için Power BI tarafından desteklenmez. |
+| Özellik Yapıları | Temel SAP BW kaynağındaki tüm özellik yapıları, Power BI'da sunulmakta olan ölçümlerde bir 'patlama' yaşanmasına neden olur. Örneğin, Satışlar ve Maliyetler adlı iki ölçüm ile Bütçe ve Gerçek özelliklerini içeren bir özellik yapısı olduğunda dört ölçüm sunulur: Satış.Bütçe, Satış.Gerçek, Maliyetler.Bütçe, Maliyetler.Gerçek. |
 
-## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-SAP BW bağlayıcısı beta sürümünün sınırlamaları aşağıdaki tabloda listelenmiştir.
-
-| Sınırlama | Açıklama |
-| --- | --- |
-| Yenile yoktur |Yenile düğmesi devre dışıdır ve görseller/meta veriler yenilenemez. |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

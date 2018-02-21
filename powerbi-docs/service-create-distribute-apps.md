@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -64,6 +64,8 @@ Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekl
 
 * Microsoft Dynamics CRM, Salesforce veya Google Analytics gibi [hizmetlere bağlanın](service-connect-to-services.md).
 * Excel, CSV veya Power BI Desktop (PBIX) gibi [dosyalardan veri alın](service-get-data-from-files.md).
+
+Bir uygulama çalışma alanının içeriğini görüntülediğinizde, içerik sahibi uygulama çalışma alanının adı olarak gösterilir.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Uygulamanıza bir görüntü ekleme (isteğe bağlı)
 Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini içeren küçük ve renkli bir daire oluşturur. Ancak, bunu bir görüntüyle özelleştirmek isteyebilirsiniz. Bir görüntü eklemek için Exchange Online lisansı gerekir.

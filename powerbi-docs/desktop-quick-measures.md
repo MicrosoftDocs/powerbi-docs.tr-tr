@@ -1,5 +1,5 @@
 ---
-title: "Power BI'da sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma (Önizleme)"
+title: "Power BI'da sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma"
 description: "Hızlı ölçümler, sık kullanılan hesaplama işini hızla gerçekleştiren kullanıma hazır DAX formülleri sağlar"
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>Sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma (Önizleme)
-**Power BI Desktop**'ın Nisan 2017 sürümünden itibaren, sık kullanılan ve etkili hesaplamaları hızla ve kolayca gerçekleştirmek için **Hızlı ölçümler** özelliğini kullanabilirsiniz. **Hızlı ölçüm** bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX'ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma
+**Hızlı ölçümler** özelliğini kullanarak kolayca sık kullanılan, etkili hesaplamalar gerçekleştirebilirsiniz. **Hızlı ölçüm** bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX'ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 **Hızlı ölçümler** oluşturmak için **Alanlar** kutusundaki bir alana sağ tıklayın ve görünen menüden **Hızlı ölçümler**'i seçin. Ayrıca mevcut bir görselin **Değerler** bölmesindeki herhangi bir değerine de sağ tıklayabilirsiniz (bir *Çubuk grafik* görselindeki *Değerler* alanı gibi). Kullanılabilen çok sayıda hesaplama kategorisi ve her hesaplamayı gereksinimlerinize uyacak şekilde değiştirmenin çeşitli yöntemleri vardır.
 
-### <a name="enable-the-quick-measures-preview"></a>Hızlı ölçümler önizlemesini etkinleştirme
-**Power BI Desktop**'ın **Nisan 2017** sürümünden itibaren yeni **Hızlı ölçümler** özelliğini deneyebilirsiniz. Bu önizleme özelliğini etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Hızlı ölçümler**'in yanındaki onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
+### <a name="quick-measures-now-generally-available"></a>Hızlı ölçümler genel kullanıma sunulmuştur
+
+Hızlı ölçümler, **Power BI Desktop**’ın Şubat 2018 sürümünden itibaren genel kullanıma sunulmuştur (artık önizlemede değildir). **Power BI Desktop**’ın önceki bir sürümünü kullanıyorsanız, **Power BI Desktop**’ın **Nisan 2017** sürümünden itibaren **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçip **Hızlı ölçümler**’in yanındaki onay kutusunu seçerek **Hızlı ölçümler** özelliğini deneyebilirsiniz.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -66,13 +67,13 @@ Hızlı ölçüm hesaplama türlerine ilişkin beş benzersiz grup bulunur ve bu
   * Filtrelenen değer
   * Filtrelenen değerden farkı
   * Filtrelenen değerden yüzde farkı
-  * Yeni kategorilerden toplam
+  * Yeni kategorilerden satışlar
 * **Akıllı zaman gösterimi**
   * Yılın başından bu yana toplam
   * Çeyrek başından bu yana toplam
   * Ayın başından bu yana toplam
   * Yıldan yıla değişim
-  * Çeyrekten çeyreğe değişiklik
+  * Çeyrekten çeyreğe değişim
   * Aydan aya değişim
   * Hareketli ortalama
 * **Toplamlar**
@@ -85,6 +86,7 @@ Hızlı ölçüm hesaplama türlerine ilişkin beş benzersiz grup bulunur ve bu
   * Çarpma
   * Bölme
   * Yüzde farkı
+  * Bağıntı katsayısı
 * **Metin**
   * Yıldız derecelendirmesi
   * Birleştirilmiş değer listesi
@@ -136,7 +138,7 @@ Bu özellik, varsayımsal sorularınıza sadece birkaç tıklama ile yanıt vere
 Tam olarak istediğiniz ölçüyü elde ettiğinizde aynı sağ tıklama menüsünü kullanarak ölçünüzü istediğiniz gibi yeniden adlandırabilirsiniz.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-**Hızlı ölçümler**'in bu önizleme sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
+Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 
 * **Hızlı ölçümler** yalnızca modeli değiştirirseniz kullanılabilir; DirectQuery veya çoğu Canlı bağlantıyla çalışırken ise kullanılamaz. (Yukarıda da açıklandığı gibi SSAS canlı bağlantıları desteklenmektedir.)
 * **Alanlar** kutusuna eklenen ölçü, rapordaki herhangi bir görselle kullanılabilir.
@@ -152,8 +154,6 @@ Tam olarak istediğiniz ölçüyü elde ettiğinizde aynı sağ tıklama menüs�
 
 ### <a name="additional-information-and-examples"></a>Ek bilgi ve örnekler
 **Hızlı ölçüm** hesaplamalarının her biri için örnekler sağlamayı ve rehberlik sunmayı planlıyoruz; bu nedenle lütfen ilgili makaleye ilişkin güncelleştirmeler için sayfayı yakın zamanda tekrar kontrol edin.
-
-Bu bir **Önizleme** özelliği olduğu için geri bildiriminizi ve fikirlerinizi özellikle önemsiyoruz.
 
 **Hızlı ölçüm** ile ilgili henüz sunulmamış bir fikriniz mi var? Harika! [Bu sayfayı](https://go.microsoft.com/fwlink/?linkid=842906) ziyaret ederek **Power BI Desktop**'ta görmek istediğiniz **Hızlı ölçüm** ile ilgili fikirlerinizi (ve DAX formülünü) paylaşın. Böylece biz de önerilerinizi gelecekteki bir sürümde sunulacak **Hızlı ölçümler** listesine ekleme konusunda bir değerlendirme yapabiliriz.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/30/2018
+ms.date: 02/07/2018
 ms.author: maikelson
-ms.openlocfilehash: 21bd243f56b077c3dfbeaeffd5db108670029937
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -49,6 +49,22 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 
 Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun
 
+**Office 365 Finans Uzmanları Web Semineri Serisi - 2. Bölüm: Yinelenen Raporları otomatikleştirme ve Self Servis Analizi Etkinleştirme**
+<br>Sağlayan: Mark Traverso ve Miguel Martinez
+<br>*15 Şubat, 12.00 PST, 15.00 EST*
+
+Office 365’i kullanarak günlük işlerinizde daha fazlasını başarmak için ipuçları, püf noktaları ve en iyi yöntemler hakkında bilgi edinin.
+
+[15 Şubat’ta izlemek üzere kaydolun](https://aka.ms/Office365FinanceProsPBI)
+
+**Microsoft ile BI Çözümleri Pazarlama**
+<br>Sağlayan: Tamer Farag
+<br>*15 Şubat, 08.00 PST, 11.00 EST*
+
+Microsoft ile başarılı bir iş ortaklığı kurarak İş Zekası pazar fırsatını nasıl yakalayabileceğiniz hakkında bilgi edinmek için bu web seminerine katılın. İşinizi kurup büyütmenize yardımcı olmaya yönelik en güncel eğitim kaynaklarımıza, pazarlama malzemelerimize, teşviklerimize ve tekliflerimize genel bir bakış atın. Ayrıca, çözüm ve tekliflerinizin Microsoft müşterileri ile satıcılarının dikkatini çekecek merkezi bir konumda olmasını sağlamak için PowerBI.com ve AppSource.com’da nasıl vitrinde yer alabileceğinizi öğrenin.
+
+[15 Şubat’ta izlemek üzere kaydolun](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
+
 **20 Dakika İçinde Bir Power BI Panosunda Aradıklarınızı Bulmayı Öğrenin**
 <br>Sağlayan: Miguel Martinez
 <br>*21 Şubat, 10.00 PST, 13.00 EST*
@@ -56,6 +72,13 @@ Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katı
 Hiç bir Power BI Panosunu açıp ne yapmanız gerektiğini anlayamadığınız oldu mu?  Bir panoda sizin için önemli olan verileri nasıl bulabileceğinizi bilmediğiniz durumlarla karşılaştınız mı? “Bir şeyleri bozma” korkusuyla filtre ve dilimleyici kullanımınızı kısıtlıyor musunuz?  Hiç korkmayın. Bize katılarak bir Power BI panosunda aradıklarınızı nasıl bulabileceğinizi öğrenin. Diğer yöneticiler tarafından yaygın olarak kullanılan ve aradığınız verilere istediğiniz zaman ulaşmanıza imkan tanıyan özellikleri adım adım göstereceğiz.
 
 [21 Şubat’ta izlemek üzere kaydolun](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Yeni Power BI ve data.world bağlayıcısı ile genel veya özel veri kümelerini görselleştirme**
+<br>*22 Şubat, 10.00 PST, 13.00 EST*
+
+Microsoft, data.world ile işbirliği yaparak data.world veri kümelerini Power BI Desktop'ta içeri aktarmanıza imkan tanıyan yeni bir veri bağlayıcısı yayınladı. Bu harika yeni bağlayıcının sağladığı avantajlardan yararlanmayı ve data.world topluluğunun gücünden yararlanarak veri öykünüz üzerinde başkalarıyla paylaşım ve işbirliği yapmayı öğrenmek için bize katılın.
+
+[22 Şubat’ta izlemek üzere kaydolun](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 

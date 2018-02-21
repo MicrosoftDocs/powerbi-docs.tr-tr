@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
@@ -35,6 +35,23 @@ ms.lasthandoff: 01/19/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>Ocak 2018
+*   Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
+*   Azure SQL Veritabanı ve Veri Ambarı için OAuth2 ve DirectQuery Çoklu Oturum Açma (SSO) Desteği.
+*   Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Office 365 bölgesinde depolanabilecek.
+*   SharePoint Online [Power BI raporu web bölümü](https://go.microsoft.com/fwlink/p/?LinkId=825698) genel kullanıma sunuldu.
+*   Bir kiracıdaki tüm kullanıcılar için özel görsellerin görüntülenmesini kapatmaya yönelik yönetici denetimi.
+*   Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
+
+## <a name="previous-months-2017"></a>Önceki aylar (2017)
+## <a name="october-and-november-2017"></a>Ekim ve Kasım 2017
+*   [Power BI Uygulamaları](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) ile seçmeli içerik yayımlama.
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
+* Yapay zeka destekli uygulama önerileri.
+* Pano kutucuğu üzerinde UI güncelleştirmeleri.
+* Uygulamalar için e-posta abonelikleri desteği. 
+* [Web'de yayımlama](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
+
 ## <a name="september-2017"></a>Eylül 2017
 * Premium ile ücretsiz sürüm kullanıcılarıyla pano paylaşımında bulunma.
 * Sanal çekirdek havuzu ile işletme ihtiyaçlarınıza uygun kapasite ayrımı yapma.
@@ -42,7 +59,6 @@ ms.lasthandoff: 01/19/2018
 * REST API'lerine kolayca veri iletmek için [PubNub bloğu](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
 * [Kullanım ölçümleri](service-usage-metrics.md) için geliştirilmiş yük performansı.
 
-## <a name="previous-months-2017"></a>Önceki aylar (2017)
 ### <a name="august-2017"></a>Ağustos 2017
 * [Kullanıcı başına kullanım ölçümleri](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/) ile hedef kitlenizi tanıma.
 * Çevrimiçi hizmetler için [Power BI hizmeti](service-connect-to-services.md) uygulamalarıyla çalışmaya başlama.

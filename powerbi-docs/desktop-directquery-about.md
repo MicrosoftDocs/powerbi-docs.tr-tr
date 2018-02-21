@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** seçeneğini kullanarak, verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede, aşağıdaki konu başlıkları da dahil olmak üzere **DirectQuery** ve özellikleri anlatılmaktadır:
@@ -269,14 +269,21 @@ Model tanımlarken aşağıdakileri göz önünde bulundurun:
 ### <a name="report-design-guidance"></a>Rapor Tasarım Kılavuzu
 DirectQuery bağlantısı kullanarak bir rapor oluştururken aşağıdaki yönergelere uyun:
 
+* **Sorgu Azaltma seçenekleri kullanımını göz önünde bulundurun:** Power BI, raporda daha az sorgu gönderme ve sonucunda elde edilen sorguların yürütülmesi çok uzun sürdüğü için kötü bir deneyime yol açacak belirli etkileşimleri devre dışı bırakma seçenekleri sağlar. **Power BI Desktop**’ta bu seçeneklere erişmek için **Dosya > Seçenekler ve ayarlar > Seçenekler**’e gidip **Sorgu azaltma**’yı seçin. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    **Sorgu azaltma** seçeneğindeki kutu seçimlerinin belirlenmesi, raporunuzun tamamında çapraz vurgulamayı devre dışı bırakmanıza olanak tanır. Ayrıca, dilimleyiciler ve/veya filtre seçimleri için bir *Uygula* düğmesinin görünmesini sağlayabilir ve bunu kullanarak herhangi birini uygulamaksızın birçok dilimleyici ve filtre seçimi yapabilirsiniz. Bu sayede, dilimleyicideki **Uygula** düğmesi seçilene kadar hiçbir sorgu gönderilmez. Daha sonra seçimleriniz kullanılarak veriler filtrelenir.
+
+    Bu seçenekler hem siz **Power BI Desktop**’ta raporunuzla etkileşim kurarken hem de kullanıcılar **Power BI hizmetinde** raporu kullanırken raporunuzda geçerli olur.
+
 * **Öncelikle filtreleri uygulayın:** Bir görsel oluştururken ilk olarak her zaman, uygulanabilen filtreleri uygulayın. Örneğin, TotalSalesAmount ve ProductName öğelerini sürükleyip belirli bir yıla göre filtrelemek yerine, Yıl filtresini en başta uygulayın. Bunun nedeni, görsel oluşturma işleminin her adımında sorgu gönderilecek olmasıdır. İlk sorgu tamamlanmadan başka bir değişiklik yapılabilse de, temel alınan kaynakta yine de gereksiz yük oluşur. Filtreler erken uygulandığında, bu ara sorgular genellikle daha az yüke neden olur. Ayrıca, filtrelerin erken uygulanmaması, yukarıda belirtilen 1 milyon satır sınırına ulaşılmasına neden olabilir.
 * **Sayfadaki görsel sayısını sınırlayın:** Bir sayfa açıldığında (veya sayfa düzeyi dilimleyici ya da filtre değiştiğinde) sayfadaki tüm görseller yenilenir. Ayrıca, paralel olarak gönderilen sorgu sayısına yönelik bir sınır da mevcuttur. Görsel sayısı arttıkça bazı görseller seri olarak yenilenir ve tüm sayfanın yenilenmesi için gereken süre artar. Bu nedenle, tek bir sayfadaki görsel sayısının sınırlanması ve bunun yerine sade içeriklere sahip daha fazla sayıda sayfa oluşturulması önerilir.
 * **Görseller arasındaki etkileşimi devre dışı bırakma seçeneğini göz önünde bulundurun:** Varsayılan olarak bir rapor sayfasındaki görselleştirmeler, sayfadaki diğer görselleştirmeleri çapraz filtrelemek ve çapraz vurgulamak için kullanılabilir. Örneğin, pasta grafiğinde "1999" seçildiğinde, sütun grafiği "1999" değerine ilişkin satış kategorisini göstermek üzere vurgulanır.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Ancak, bu etkileşim [bu makalede](service-reports-visual-interactions.md) açıklandığı şekilde denetlenebilir. DirectQuery'de bu tür çapraz filtreleme ve çapraz vurgulama işlemleri için, temel alınan kaynağa sorgu gönderilmesi gerekir. Bu nedenle, kullanıcıların seçimlerine yanıt verilmesi normalden uzun sürerse etkileşim devre dışı bırakılmalıdır.
-* **Yalnızca raporu paylaşma seçeneğini göz önünde bulundurun:** **Power BI hizmetinde** yayımlanan içeriği paylaşmak için kullanılabilecek farklı yöntemler mevcuttur. DirectQuery senaryosunda, diğer kullanıcıların yeni raporlar yazmasına (ve büyük olasılıkla, oluşturdukları belirli görsellere bağlı olarak performans sorunları ile karşılaşmalarına) izin verilmesi yerine, yalnızca tamamlanmış raporun paylaşılması önerilir.
+  DirectQuery'de bu tür çapraz filtreleme ve çapraz vurgulama işlemleri için, temel alınan kaynağa sorgu gönderilmesi gerekir. Bu nedenle, kullanıcıların seçimlerine yanıt verilmesi normalden uzun sürerse etkileşim devre dışı bırakılmalıdır. Ancak, bu etkileşim raporun tamamı için (yukarıda *sorgu azaltma seçenekleri* için açıklandığı gibi) veya [bu makalede](service-reports-visual-interactions.md) açıklandığı gibi tek tek olay temelinde kapatılabilir.
 
 Yukarıdaki öneri listesine ek olarak, aşağıdaki raporlama özelliklerinin her birinin performans sorunlarına neden olabileceğini unutmayın:
 
@@ -294,6 +301,8 @@ Yukarıdaki öneri listesine ek olarak, aşağıdaki raporlama özelliklerinin h
 * **Ortanca:** Genellikle tüm toplamalar (Toplam, Ayrı Say ve diğerleri) temel alınan kaynağa gönderilir. Ancak, bu toplama işlemi, temel alınan kaynak tarafından genel olarak desteklenmediğinden bu durum Ortanca için geçerli değildir. Böyle durumlarda ayrıntı verileri, temel alınan kaynaktan alınır ve döndürülen sonuçlardan Ortanca hesaplanır. Bu, ortancanın az sayıda sonuç üzerinden hesaplandığında durumlarda makul bir işlemdir ancak kardinalite yüksek olduğunda performans sorunları oluşur veya 1 milyon satır sınırı nedeniyle sorgu başarısız olur.  Örneğin, Ortanca Ülke Nüfusu makul olurken Ortanca Satış Fiyatı olmayabilir.
 * **Gelişmiş metin filtreleri ("şunu içerir" ve benzeri):** Bir metin sütununu filtrelerken, gelişmiş filtreleme özelliği sayesinde "şunu içerir" ve "ile başlar" gibi filtreler sağlanır. Bu filtreler, bazı veri kaynakları için performansın düşmesine neden olabilir. Özellikle, gerçekten tam bir eşleşmenin ("şudur" veya "şu değildir") gerekli olduğu durumlarda varsayılan "şunu içerir" filtresi kullanılmamalıdır. Sonuçlar aynı olsa da asıl verilere bağlı olarak, dizin kullanımı nedeniyle performans büyük ölçüde farklı olabilir.
 * **Dilimleyicilerde çoklu seçim:** Dilimleyiciler, varsayılan olarak yalnızca tek bir seçim yapılmasına olanak sağlar. Kullanıcı, dilimleyicide bir dizi öğe (örneğin, ilgilendiği on ürünü) seçerken her yeni seçimde arka uç kaynağa sorgular gönderileceğinden filtrelerde çoklu seçime izin verilmesi bazı performans sorunlarına neden olabilir. Kullanıcı, sorgu tamamlanmadan önce bir sonraki öğeyi seçebilse de bu durum temel alınan kaynakta ek yüke neden olur.
+
+* **Görsellerdeki toplamları kapatmayı göz önünde bulundurun:** Varsayılan olarak, tablo ve matrislerde toplamlar ve alt toplamlar görüntülenir. Çoğu durumda, bu toplam değerlerinin alınması için temel kaynağa ayrı sorgular gönderilmelidir. Bu, *DistinctCount* toplaması kullanılan her durumda veya SAP BW ve SAP HANA üzerinden DirectQuery kullanılan tüm durumlarda geçerlidir. Bu tür toplamlar gerekli değilse kapatılmalıdır (**Biçimlendir** bölmesi kullanılarak). 
 
 ### <a name="diagnosing-performance-issues"></a>Performans sorunlarını tanılama
 Bu bölümde performans sorunlarının nasıl tanılanacağı ve raporların iyileştirilebilmesi için ayrıntılı bilginin nasıl alınacağı açıklanmaktadır.

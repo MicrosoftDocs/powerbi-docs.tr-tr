@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -40,7 +40,7 @@ Power BI yönetici portalına erişim elde etmek için hesabınızın Office 365
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-Portalda beş sekme bulunur. Bunlar aşağıda açıklanmıştır.
+Portalda altı sekme bulunur. Bunlar aşağıda açıklanmıştır.
 
 * [Kullanım ölçümleri](#usage-metrics)
 * [Kullanıcılar](#users)
@@ -48,6 +48,7 @@ Portalda beş sekme bulunur. Bunlar aşağıda açıklanmıştır.
 * [Kiracı ayarları](#tenant-settings)
 * [Premium ayarları](#premium-settings)
 * [Ekleme kodları](#embed-codes)
+* [Kuruluş görselleri](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Premium ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Pr
 
 Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görüntüleyebilirsiniz. Raporu görüntüleme ve ekleme kodunu silerek söz konusu kodu iptal etme eylemlerini gerçekleştirebilirsiniz.
 
+## <a name="organization-visuals"></a>Kuruluş görselleri
+
+Kuruluş görselleri sekmesi, rapor yazarlarının şirkete ait özel görselleri kolayca keşfedebilmesi ve doğrudan Power BI Desktop’tan bunları raporlarında içeri aktarabilmesi için bu görselleri kuruluşta kolayca dağıtabilmek üzere özel görselleri kuruluşunuz içinde dağıtmanıza ve yönetmenize imkan sağlar.
+ 
+Sayfada, o an kuruluş deposunda dağıtılmış olan tüm özel görseller gösterilir.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Yeni özel görsel ekleme
+
+Listeye yeni bir özel görsel eklemek için **Özel görsel ekle**’yi seçin
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
+> 
+
+Alanları doldurun:
+ 
+* Bir .pbiviz dosyası seçin (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API özel görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
+Bir özel görseli karşıya yüklemeden önce görselin kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir. Özel görsel güvenliği hakkında daha fazla bilgi edinin.
+ 
+* Özel görsellerinizi adlandırın (gerekli): Power BI Desktop kullanıcılarının görselin ne işe yaradığını anlayabilmesi için görsele kısa bir başlık verin
+ 
+* Simge (gerekli): Power BI Desktop kullanıcı arabiriminde gösterilecek simge dosyası.
+ 
+* Açıklama: Kullanıcıya daha fazla bağlam bilgisi ve eğitim sağlanması için görselin kısa bir açıklaması
+ 
+Karşıya yükleme isteğini başlatmak için "Uygula"yı seçin. İşlem başarılı olursa yeni öğeyi listede görürsünüz. Başarısız olursa, uygun bir hata iletisi alırsınız
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Özel bir görseli listeden silme
+
+Görseli depodan kalıcı olarak silmek için çöp kutusu simgesini seçin.
+Önemli: Silme işlemi geri alınamaz. Görsel silindikten hemen sonra mevcut raporlarda gösterilmemeye başlar. Aynı görseli yeniden karşıya yükleseniz bile silinen bir önceki görselin yerini almaz ve kullanıcıların yeni görseli tekrar içeri aktararak raporlarındaki örnekle değiştirmesi gerekir.
+ 
+### <a name="how-to-update-a-visual"></a>Karşıya görsel yükleme
+
+Depodaki bir görselin yeni bir sürümü çıktığı için değiştirilmesi gerekiyorsa (örn. hata düzeltmeleri, yeni işlevler, vb.), yeni dosyayı listedeki yeni bir girdi olarak karşıya yükleyin (Görsel Kimliğinin aynı kaldığından emin olun), başlık ve açıklamada doğru ayrıntıları (örn. "Görselim v2.0") sağladığınızdan emin olun. Kullanıcılar Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
+ 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI yönetici rolünü anlama](service-admin-role.md)  
