@@ -3,7 +3,7 @@ title: "Power BI ile Bing'e bağlanma"
 description: "Power BI için Bing"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 305b718f16db7543b928df6902e406d23188b217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: sarinas
+ms.openlocfilehash: 57dabe4131da49770ddea73c44c60c79f5c75fd1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-bing-with-power-bi"></a>Power BI ile Bing'e bağlanma
 Bing içerik paketi, seçtiğiniz bir terimin İnternet üzerinde aranmasına ilişkin etkinlikle ilgili analizleri görüntülemenize olanak sağlar.

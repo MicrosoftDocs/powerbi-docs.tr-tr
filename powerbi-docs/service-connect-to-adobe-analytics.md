@@ -3,7 +3,7 @@ title: "Power BI ile Adobe Analytics'e bağlanma"
 description: "Hesap verilerinizi panolarda ve raporlarda görüntüleyen bir uygulama oluşturmak için Power BI'da Adobe Analytics'e bağlanın."
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2d4d5e71c87a90ef917ea91dd0b7d178a5c0cbfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: d73887c4f74d501057b3c35f5d9f404d4862b2a9
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI ile Adobe Analytics'e bağlanma
 Power BI aracılığıyla Adobe Analytics'e bağlanmak için öncelikle Adobe Analytics Marketing Cloud hesabınızı bağlamanız gerekir. Site trafiğinize ve kullanıcılarınıza ilişkin boyutlar hakkında öngörü sağlayan bir Power BI panosu ve bir dizi Power BI raporu içeren bir uygulamaya sahip olursunuz. Veriler günde bir kez otomatik olarak yenilenir. Pano ve raporlar ile etkileşim kurabilirsiniz, ancak değişiklikleri kaydedemezsiniz.
@@ -100,7 +100,7 @@ Kimlik bilgilerinizi girdikten sonra gerekli izinlere sahip olmadığınızı be
 Kimlik bilgileri ekranını hata almadan geçtiyseniz raporların tamamlanması çok uzun sürüyor olabilir. Sık karşılaşılan hatalardan biri *"Adobe Analytics raporundan veri alınamadı. Dahil edilen içerik &quot; başvuran, sayfa &quot;, yaklaşık süre xx saniyeydi"* şeklindedir. Lütfen "Neleri kapsar" bölümünü inceleyin ve Adobe örneğinizin boyutunu karşılaştırın. Maalesef bu zaman aşımı için bilinen bir geçici çözüm mevcut değildir. Ancak daha büyük örnekler için daha fazla destek sunma amacıyla güncelleştirme yapmayı düşünüyoruz. Lütfen geri bildiriminizi https://ideas.powerbi.com adresine giderek Power BI ekibiyle paylaşın
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI uygulamaları nelerdir?](service-install-use-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 
