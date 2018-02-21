@@ -3,7 +3,7 @@ title: "Power BI ile Project Madeira'ya bağlanma"
 description: "Power BI için Project Madeira"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI ile Project "Madeira"ya bağlanın
 Power BI ve Project "Madeira" içerik paketi sayesinde Project "Madeira" verileriniz için kolayca öngörüler elde edebilirsiniz. Power BI hem Satış hem de Finansal verilerinizi alıp bu verilere dayalı, kullanıma hazır bir pano ve raporlar oluşturur.
