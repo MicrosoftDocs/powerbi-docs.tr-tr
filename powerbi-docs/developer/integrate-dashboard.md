@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 36b19588d76c99cb712dc481752ebdee0c867f0d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e85b745798fd33ffbb5061f4c156054d2218bfb1
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Kuruluşunuz için bir panoyu uygulamayla tümleştirme
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -115,7 +115,7 @@ public class PBIDashboard
 ```
 
 #### <a name="get-dashboards-using-the-net-sdk"></a>.NET SDK kullanarak pano alma
-REST API'sini doğrudan çağırmak yerine .NET SDK kullanarak pano listesi alabilirsiniz.
+REST API’sini doğrudan çağırmak yerine .NET SDK kullanarak pano listesi alabilirsiniz.
 
 ```
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
