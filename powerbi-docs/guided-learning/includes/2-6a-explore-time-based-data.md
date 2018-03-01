@@ -1,4 +1,4 @@
-Power BI ile zamana dayalı verileri kolayca çözümleyebilirsiniz. Power BI Desktop'taki modelleme araçları, oluşturulan alanları otomatik olarak ekler ve böylece tek bir tıklamayla yıl, çeyrek yıl, ay ve gün temelinde detaya gidebilirsiniz.  
+Power BI ile zamana dayalı veri çözümlemek kolaydır. Power BI Desktop'taki modelleme araçları, oluşturulan alanları otomatik olarak ekler ve böylece tek bir tıklamayla yıl, çeyrek yıl, ay ve gün temelinde detaya gidebilirsiniz.  
 
 Raporunuzda tarih alanı kullanarak bir tablo görselleştirmesi oluşturduğunuzda Power BI Desktop, zaman aralığına göre kırılımları otomatik olarak ekler. Örneğin, aşağıda gösterildiği gibi, **Date** tablosundaki tek bir tarih alanı Power BI tarafından otomatik olarak Year, Quarter, Month ve Day şeklinde ayrılmıştır.
 

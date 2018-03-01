@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/11/2017
 ms.author: maghan
-ms.openlocfilehash: f729f20315d907cc2416723ba10b8c296e313899
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Premium
+ms.openlocfilehash: e25677f615f4aa5b1489604814cebc6916809c41
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium sürüm notları
 Bunlar, kuruluşunuz veya ekibiniz için daha güvenilir performans, daha büyük veri hacmi ve görüntüleyenler için kullanıcı başına lisansa ihtiyaç duymadan içerik dağıtma özelliği sunan bir ayrılmış kapasite olan Power BI Premium uygulamasının sürüm notlarıdır.

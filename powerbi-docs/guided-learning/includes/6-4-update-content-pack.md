@@ -4,7 +4,7 @@ Tekrar Çalışma Alanım'dayım ve özgün panomu düzenliyorum.
 
 ![Power BI'da paylaşım ve işbirliği](./media/6-4-update-content-pack/pbi_learn06_04myworkspace.png)
 
-Panoda yaptığım her değişiklikte, diğerleriyle paylaştığım bir şeyi değiştirdiğime ve paylaşılan sürümü güncelleştirmem gerektiğine ilişkin bu hatırlatmayı alıyorum.
+Panoda yaptığım her değişiklikte, diğerleriyle paylaştığım bir şeyi değiştirdiğime ve paylaşılan sürümü güncellemem gerektiğine ilişkin bu hatırlatmayı alıyorum.
 
 ![Power BI'da paylaşım ve işbirliği](./media/6-4-update-content-pack/pbi_learn06_04uvmadechanges.png)
 

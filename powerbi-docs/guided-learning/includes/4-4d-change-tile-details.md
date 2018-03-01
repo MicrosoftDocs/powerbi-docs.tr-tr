@@ -13,7 +13,7 @@ Bir pano kutucuğuna tıkladığınızda varsayılan olarak, kutucuğun kaynağ�
 ## <a name="add-widgets-to-your-dashboard"></a>Panonuza pencere öğesi ekleme
 Panonuza pencere öğeleri de ekleyebilirsiniz. **Pencere öğesi**, görselleştirme yerine resim, çevrimiçi video, metin kutusu veya zengin web içeriği gibi diğer öğeleri içeren özel bir pano kutucuğudur.
 
-Bir Panonun sağ üst köşesindeki Pencere Öğesi Ekle bağlantısını seçtiğinizde **Pencere öğesi ekleyin** iletişim kutusu görünür.
+Bir Pano'nun sağ üst köşesindeki Pencere Öğesi Ekle bağlantısını seçtiğinizde **Pencere öğesi ekleyin** iletişim kutusu görünür.
 
 ![](media/4-4d-change-tile-details/4-4d_3.png)
 

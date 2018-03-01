@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 90aec3618b3ce2f355f52569ba78add47930d962
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: 44b3c0008396d79a11b7984e4743eaaef97af07a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar
 Power BI şu tarayıcılarda çalıştırılabilir:

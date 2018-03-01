@@ -1,12 +1,12 @@
-Genel olarak, görselleştirmeler iki veya daha fazla farklı değeri karşılaştırmak için kullanılır. Ancak, bazen rapor oluştururken yalnızca tek bir Ana Performans Göstergesinin (KPI) veya ölçümün zamana göre değişimini izlemek isteyebilirsiniz. Bunu Power BI Desktop'ta bir **Ölçer** veya **tek bir sayı içeren** kart görseli ile gerçekleştirebilirsiniz. Bu iki türden birinde boş bir grafik oluşturmak için **Görsel Öğeler** bölmesinde ilgili simgeyi seçin.
+Genel olarak, görselleştirmeler iki veya daha fazla farklı değeri karşılaştırmak için kullanılır. Ancak, bazen rapor oluştururken yalnızca tek bir Ana Performans Göstergesinin (KPI) veya ölçümün zamana göre değişimini izlemek isteyebilirsiniz. Bunu Power BI Desktop'ta bir **Ölçek** veya **tek sayı içeren** kart görseli ile gerçekleştirebilirsiniz. Bu iki türden birinde boş bir grafik oluşturmak için **Görsel Öğeler** bölmesinde ilgili simgeyi seçin.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)
 
-Ölçerler özellikle panolar oluşturup belirli bir hedefe yönelik ilerlemeyi göstermek istediğinizde yararlıdır. Ölçer oluşturmak için **Görsel Öğeler** bölmesinden ilgili simgeyi seçin ve izlemek istediğiniz alanı *Değer* demetine sürükleyin.
+Ölçekler özellikle panolar oluşturup belirli bir hedefe yönelik ilerlemeyi göstermek istediğinizde yararlıdır. Ölçek oluşturmak için **Görsel Öğeler** bölmesinden ilgili simgeyi seçin ve izlemek istediğiniz alanı *Değer* demetine sürükleyin.
 
 ![](media/3-9-create-gauges-cards/3-9_1a.png)
 
-Ölçerler varsayılan olarak %50'ye veya *Değer*'in iki katına ayarlanmıştır ve bu ayarı değiştirmenin iki yolu vardır. Değerleri dinamik olarak ayarlamak için alanları *Minimum*, *Maksimum* ve *Hedef* Değer demetlerine sürükleyin. Alternatif olarak, ölçerinizin aralığını elle özelleştirmek için görsel biçimlendirme seçeneklerini de kullanabilirsiniz.
+Ölçekler varsayılan olarak %50'ye veya *Değer*'in iki katına ayarlanmıştır ve bu ayarı değiştirmenin iki yolu vardır. Değerleri dinamik olarak ayarlamak için alanları *Minimum*, *Maksimum* ve *Hedef* Değer demetlerine sürükleyin. Alternatif olarak, ölçeğinizin aralığını elle özelleştirmek için görsel biçimlendirme seçeneklerini de kullanabilirsiniz.
 
 ![](media/3-9-create-gauges-cards/3-9_2.png)
 

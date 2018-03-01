@@ -3,7 +3,7 @@ Power BI'da iki farklı türde harita görselleştirmesi mevcuttur: coğrafi nok
 ![](media/3-5-create-map-visualizations/3-5_1.png)
 
 > [!NOTE]
-> Ülkelerle veya bölgelerle çalışırken harita görselleştirmelerinde coğrafi kodlamanın düzgün çalıştığından emin olmak için üç harfli kısaltmalar kullanın. Bazı ülkeler veya bölgeler düzgün şekilde tanınmayacağından iki harfli kısaltmalar *kullanmayın*.
+> Ülkelerle veya bölgelerle çalışırken harita görselleştirmelerinde coğrafi kodlamanın düzgün çalıştığından emin olmak için üç harfli kısaltmalar kullanın. Bazı ülkeler veya bölgeler düzgün şekilde tanınmayabileceğinden iki harfli kısaltmalar *kullanmayın*.
 > Yalnızca iki harfli kısaltmalara sahipseniz iki harfli ülke/bölge kısaltmalarınızı üç harfli ülke/bölge kısaltmalarıyla nasıl ilişkilendireceğiniz ile ilgili adımların açıklandığı [bu harici blog gönderisine](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp) göz atın.
 > 
 > 
@@ -18,7 +18,7 @@ Power BI, şehir adı veya havaalanı kodu gibi daha genel bilgilerden belirli e
 ![](media/3-5-create-map-visualizations/3-5_3.png)
 
 ## <a name="create-shape-maps"></a>Şekil haritası oluşturma
-Şekil haritası oluşturmak için Görsel Öğeler bölmesinde **Kartogram** seçeneğini belirleyin. Balonlu haritalarda olduğu gibi, bu görseli kullanmak için de Konum demetine bazı değerler eklemeniz gerekir. Dolgu renginin yoğunluğunu uygun şekilde değiştirmek için Boyut demetine bir alan ekleyin.
+Şekil haritası oluşturmak için Görsel Öğeler bölmesinde **Doldurulmuş Harita** seçeneğini belirleyin. Balonlu haritalarda olduğu gibi, bu görseli kullanmak için de Konum demetine bazı değerler eklemeniz gerekir. Dolgu renginin yoğunluğunu uygun şekilde değiştirmek için Boyut demetine bir alan ekleyin.
 
 ![](media/3-5-create-map-visualizations/3-5_4.png)
 

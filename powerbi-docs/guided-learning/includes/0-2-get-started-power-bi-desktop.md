@@ -7,7 +7,7 @@ Power BI Desktop'ta çalışmaya başlayacak ve **Veri Al** seçeneğini belirle
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_1.png)
 
-Power BI, seçtiğiniz veri kaynağına bağlanır ve bu kaynakta mevcut olan verileri size gösterir. Başka bir örneğe ilişkin aşağıdaki görüntü, farklı eyaletleri ve bazı ilgi çekici emeklilik istatistiklerini çözümleyen bir Web sayfasından alınmıştır.
+Power BI, seçtiğiniz veri kaynağına bağlanır ve bu kaynakta mevcut olan verileri size gösterir. Başka bir örneğe ilişkin aşağıdaki görüntü, farklı eyaletleri ve bazı ilgi çekici emeklilik istatistiklerini gösteren bir Web sayfasından alınmıştır.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_2.png)
 
@@ -15,7 +15,7 @@ Power BI Desktop **Rapor** görünümünde rapor oluşturmaya başlayabilirsiniz
 
 **Rapor** görünümünde beş ana alan bulunur:
 
-1. Raporlar ve görselleştirmeler ile ilişkili ortak görevleri görüntüleyen şerit
+1. Raporlar ve görselleştirmelerle ilişkili sık kullanılan görevleri görüntüleyen şerit
 2. Görselleştirmelerin oluşturulduğu ve düzenlendiği **Rapor** görünümü veya tuval
 3. Rapor sayfası seçmenize veya eklemenize olanak sağlayan, alt taraftaki **Sayfalar** sekmesi
 4. Görselleştirmeleri değiştirebileceğiniz, renkleri veya eksenleri özelleştirebileceğiniz, filtreler uygulayabileceğiniz, alanları sürükleyebileceğiniz ve daha fazlasını yapabileceğiniz **Görsel Öğeler** bölmesi

@@ -13,5 +13,5 @@ Burada öğreneceğiniz çok şey var, keyfini çıkarın!
 ## <a name="introduction-to-visuals-in-power-bi"></a>Power BI'daki görseller ile tanışın
 Verileri görselleştirme, Power BI uygulamasının temel parçalarından (bu kursun önceki kısımlarında da değindiğimiz üzere yapı taşlarından) biridir. Görsel oluşturmak ise öngörüler elde etmenin ve bunları paylaşmanın en kolay yoludur.
 
-Power BI, basit çubuk grafiklerden pasta grafiklerine, haritalara ve hatta şelaleler, huniler ve ölçerler gibi çok daha özel bir dizi görselleştirmeye varsayılan olarak sahiptir. Ayrıca Power BI Desktop, raporunuzu hayata geçirmenize yardımcı olacak geniş kapsamlı sayfa biçimlendirme araçları da (şekiller ve resimler gibi) sunar.
+Power BI, basit çubuk grafiklerden pasta grafiklerine, haritalara ve hatta şelaleler, huniler ve ölçekler gibi çok daha özel bir dizi görselleştirmeye varsayılan olarak sahiptir. Ayrıca Power BI Desktop, raporunuzu hayata geçirmenize yardımcı olacak geniş kapsamlı sayfa biçimlendirme araçları da (şekiller ve resimler gibi) sunar.
 

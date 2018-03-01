@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/18/2017
 ms.author: maghan
-ms.openlocfilehash: 25e384b13f7161c3238e34bfc482570a1b29ec36
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Get started
+ms.openlocfilehash: e12bf422749ea5d67d764de9154eb541dcb42dd5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="extended-pro-trial-activation"></a>Uzatılmış Pro Deneme Sürümünü etkinleştirme
 1 Haziran 2017 tarihinden başlayarak uygun olan tüm kullanıcılar Power BI hizmeti için Uzatılmış Pro Deneme Sürümünü kullanmaya başlayabilecek.
