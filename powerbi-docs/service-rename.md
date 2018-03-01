@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI hizmetinde hemen hemen her şeyi yeniden adlandırabilirsiniz
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalışma kitabını, veri kümesini, uygulamayı ve çalışma alanını yeniden adlandırma ile ilgili bilgiler sunulmaktadır.

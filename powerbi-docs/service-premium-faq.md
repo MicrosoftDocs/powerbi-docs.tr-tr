@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/20/2017
 ms.author: maghan
-ms.openlocfilehash: ccec7821b206e9cd935756f45c0960d23fc28737
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Premium
+ms.openlocfilehash: 315b39942befdbbd3dd36ca86d1cb3ff7288403d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Get started
+ms.openlocfilehash: 4ffa00f92a6ee1275c1f8a691369cfd54363aa98
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Power BI önizleme özelliklerini kullanma
 ## <a name="what-are-preview-features"></a>*Önizleme özellikleri* nedir?
