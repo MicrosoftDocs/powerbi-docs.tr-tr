@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
@@ -31,7 +32,7 @@ Sektörden alınan örneklerin yer aldığı pano ve bağlantılı raporda, bird
 
 ## <a name="prerequisites"></a>Önkoşullar
 
- Örneği kullanabilmeniz için bir içerik paketi, .pbix dosyası veya Excel çalışma kitabı olarak indirmeniz gerekir.
+ Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [.pbix dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529778) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
@@ -46,7 +47,7 @@ Sektörden alınan örneklerin yer aldığı pano ve bağlantılı raporda, bird
   
    ![Perakende Analizi Örneği](media/sample-retail-analysis/retail16.png)
    
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldız işaretiyle işaretlenir. 
+5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
    
    ![Perakende Analizi Örneği](media/sample-retail-analysis/retail17.png)
   
@@ -91,12 +92,12 @@ Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı)
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI Soru-Cevap ile oluşturulmuş olan bir kutucuğu gözden geçirme
 Biraz daha ayrıntıya inelim.
 
-1. Soruya "this year sales **by district**" yazın. Sonucu inceleyin: Cevabı otomatik olarak bir çubuk grafiğe yerleştirir ve başka ifadeler önerir:
+1. Soruya "this year sales **by district**" yazın. Sonucu inceleyin: Yanıtı otomatik olarak bir çubuk grafiğe yerleştirir ve başka ifadeler önerir:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Şimdi soruyu "this year sales **by zip and chain**" olarak değiştirelim.
 
-   Siz yazdığınız sırada, sorunuzu uygun grafiklerle nasıl cevaplandığına dikkat edin.
+   Siz yazdığınız sırada, sorunuzu uygun grafiklerle nasıl yanıtladığına dikkat edin.
 3. Başka sorularla deneme yapın ve elde ettiğiniz sonuçları inceleyin.
 4. Hazır olduğunuzda panoya geri dönün.
 
@@ -166,7 +167,8 @@ Bu ortamda dilediğiniz işlemi gerçekleştirebilirsiniz. Değişikliklerinizi 
 Power BI panolarının, Soru-Cevap özelliğinin ve raporların perakende verileri için nasıl öngörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi edindiğinizi umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Perakende Analizi örnek içerik paketini indirme](sample-tutorial-connect-to-the-samples.md)    
+* [Perakende Analizi örnek içerik paketini indirme](sample-tutorial-connect-to-the-samples.md)
+* [Tüm örnek dosyaları bir zip dosyasında indirme](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Bu Power BI örneğine ilişkin Excel çalışma kitabını indirme](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Power BI için veri alma](service-get-data.md)    
 * [Power BI - Temel Kavramlar](service-basic-concepts.md)    

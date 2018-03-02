@@ -1,6 +1,6 @@
 ---
-title: "Tedarik Analizi örneği: Tura katılın"
-description: "Power BI için Tedarik Analizi örneği: Tura katılın"
+title: "Procurement Analysis Sample: Tura katılın"
+description: "Power BI için Procurement Analysis Sample: Tura katılın"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -17,13 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarik Analizi örneği: Tura katılın
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Procurement Analysis Sample: Tura katılın
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Tedarik Analizi örneğine genel bakış
 Bu sektör örneği panosunda ve bağlantılı raporda, bir üretim şirketinin kategori ve konuma göre satıcılar için yaptığı harcamalar çözümlenmiştir. Bu örnekte şu alanları araştıracağız:
@@ -38,7 +39,7 @@ Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kulla
 
 ## <a name="prerequisites"></a>Önkoşullar
 
- Örneği kullanabilmeniz için bir içerik paketi, .pbix dosyası veya Excel çalışma kitabı olarak indirmeniz gerekir.
+ Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/en-us/power-bi/sample-procurement#get-the-content-pack-for-this-sample), [.pbix dosyası](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement Analysis Sample PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529784) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
@@ -53,7 +54,7 @@ Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kulla
   
    ![Veri Al](media/sample-procurement/procurement1a.png)
    
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldız işaretiyle işaretlenir. 
+5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
    
    ![Yıldız işareti](media/sample-procurement/procurement1b.png)
   
