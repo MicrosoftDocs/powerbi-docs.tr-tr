@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 95c46e6efddd9f0bde6be6cbc1e484f0f72452ce
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Veri araştırırken, grafik ve pano oluştururken veya Soru-Cevap özelliğini kullanarak sorularınızı sorarken gördüğünüz görselleştirmelerin ve yanıtların tümüne ilişkin bağlantılı veriler veri kümelerinden alınır. Peki bu veri kümelerinin kaynağı nedir? Veri kaynakları.
@@ -57,7 +58,7 @@ Dosyalarınızın nerede depolandığı da çok önemlidir. OneDrive İş, Power
 ## <a name="databases"></a>Veritabanları
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**Buluttaki veritabanları**: DirectQuery ile Power BI hizmetinden Azure SQL Veritabanı, Azure SQL Veri Ambarı, Azure HD Insight'ta Spark ve SQL Server Analysis Services'e canlı bağlanabilirsiniz. Power BI ile bu veritabanları arasında kurulan bağlantılar canlıdır. Örneğin, bir Azure SQL Veritabanı'na bağlanıp Power BI'da raporlar oluşturarak bu veritabanına ilişkin verileri araştırmaya başladıktan sonra verilerinizi her dilimlediğinizde veya bir görselleştirmeye her alan eklediğinizde doğrudan veritabanına yönelik bir sorgu gerçekleştirilir. Daha fazla bilgi edinmek için bkz. [Azure ve Power BI](service-azure-and-power-bi.md).
+**Buluttaki veritabanları**: DirectQuery ile Power BI hizmetinden Azure SQL Veritabanı, Azure SQL Veri Ambarı, Spark on Azure HD Insight ve SQL Server Analysis Services'e canlı bağlanabilirsiniz. Power BI ile bu veritabanları arasında kurulan bağlantılar canlıdır. Örneğin, bir Azure SQL Veritabanı'na bağlanıp Power BI'da raporlar oluşturarak bu veritabanına ilişkin verileri araştırmaya başladıktan sonra verilerinizi her dilimlediğinizde veya bir görselleştirmeye her alan eklediğinizde doğrudan veritabanına yönelik bir sorgu gerçekleştirilir. Daha fazla bilgi edinmek için bkz. [Azure ve Power BI](service-azure-and-power-bi.md).
 
 **Şirket içi veritabanları**: Power BI hizmetinden SQL Server Analysis Services Tablo modelli veritabanlarına doğrudan bağlanabilirsiniz. Bu işlem için bir Power BI Enterprise ağ geçidi gereklidir. Kuruluşunuzun tablo modelli veritabanına nasıl bağlanacağınızdan emin değilseniz yöneticinizle veya BT departmanınızla iletişime geçin. Daha fazla bilgi edinmek için bkz. [Power BI'da SQL Server Analysis Tablo verileri](sql-server-analysis-services-tabular-data.md).
 
@@ -70,7 +71,7 @@ Bazı veri kaynaklarındaki veriler Power BI hizmeti ile kullanıma hazır biçi
 
 Diğer durumlarda verileri sorgulayıp bir dosyaya yüklemeniz gerekebilir. Örneğin, kuruluşunuzdaki bir sunucuda bulunan veri ambarı veritabanlarından birinde lojistik verilerinizin olduğunu varsayalım. Tablo modelli bir veritabanı değilse Power BI hizmetinde bu veritabanına doğrudan bağlanıp verileri araştırmaya başlayamazsınız. Ancak, Power BI Desktop'ı veya Excel'i kullanarak söz konusu lojistik verilerini sorgulayıp bir veri modeline yükledikten sonra bu veri modelini bir dosya olarak kaydedebilirsiniz. Ardından bu dosyayı Power BI'a aktarabilirsiniz ve Power BI'da bir veri kümesi oluşturulur.
 
-Aklınızdan, "Bu veritabanındaki lojistik verileri her gün değişiyor. Power BI'daki veri kümemin yenilenmesini nasıl sağlayabilirim?" sorusu geçmiş olabilir. Power BI Desktop veya Excel dosyasındaki bağlantı bilgileri, verilerle birlikte söz konusu veri kümesine aktarılır. Veri kümesi için zamanlanmış yenileme ayarlar veya veri elle yenileme işlemi gerçekleştirirseniz Power BI, veritabanına doğrudan bağlanmak, güncelleştirme olup olmadığını sorgulamak ve güncelleştirmeleri veri kümesine yüklemek için diğer birkaç ayarla birlikte bu veri kümesindeki bağlantı bilgilerini kullanır. Şirket içi sunucunuz ile Power BI arasında gerçekleşecek herhangi bir veri aktarımının güvenliğini sağlamak için bir Power BI ağ geçidine ihtiyacınız olabilir. Raporlardaki ve panolardaki tüm görselleştirmeler otomatik olarak yenilenir.
+Aklınızdan, "Bu veritabanındaki lojistik verileri her gün değişiyor. Power BI’daki veri kümemin yenilendiğinden nasıl emin olurum?: Power BI Desktop veya Excel dosyasındaki bağlantı bilgileri, verilerle birlikte söz konusu veri kümesine aktarılır. Veri kümesi için zamanlanmış yenileme ayarlar veya veri elle yenileme işlemi gerçekleştirirseniz Power BI, veritabanına doğrudan bağlanmak, güncelleştirme olup olmadığını sorgulamak ve güncelleştirmeleri veri kümesine yüklemek için diğer birkaç ayarla birlikte bu veri kümesindeki bağlantı bilgilerini kullanır. Şirket içi sunucunuz ile Power BI arasında gerçekleşecek herhangi bir veri aktarımının güvenliğini sağlamak için bir Power BI ağ geçidine ihtiyacınız olabilir. Raporlardaki ve panolardaki tüm görselleştirmeler otomatik olarak yenilenir.
 
 Gördüğünüz üzere, veri kaynağınıza Power BI hizmetinden doğrudan bağlanamıyor olmanız söz konusu verileri Power BI'a aktaramayacağınız anlamına gelmez. Yalnızca birkaç işlem daha gerçekleştirmeniz ve bazı durumlarda BT departmanınızdan yardım almanız yeterlidir. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md).
 

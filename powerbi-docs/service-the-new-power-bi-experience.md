@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Power BI hizmetinde dolaşma
 ## <a name="the-left-navigation-pane"></a>Sol gezinti bölmesi
@@ -132,7 +133,7 @@ Bir uygulama çalışma alanının üyesi veya yönetici değilseniz sol gezinti
 ![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Uygulama çalışma alanları
-Uygulamalar ve uygulama çalışma alanları Power BI Pro özelliğidir. Diğerleri için pano ve rapor oluşturacaksanız bunu yapmak için uygulama çalışma alanlarını kullanırsınız. Uygulama çalışma alanı, uygulama oluşturduğunuz yerdir; uygulama oluşturmak için önce uygulama çalışma alanını oluşturmanız gerekir. Grup çalışma alanlarında gelişim sağlanan noktalar uygulamadaki içeriğe yönelik hazırlama alanları ve kapsayıcılardır.  İş arkadaşlarınızla panolar, raporlar ve daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız diğer içerikler üzerinde işbirliği yapabilirsiniz.
+Uygulamalar ve uygulama çalışma alanları Power BI Pro özelliğidir. Diğerleri için pano ve rapor oluşturacaksanız bunu yapmak için uygulama çalışma alanlarını kullanırsınız. Uygulama çalışma alanı, uygulama oluşturduğunuz yerdir; uygulama oluşturmak için önce uygulama çalışma alanını oluşturmanız gerekir. Bunlar grup çalışma alanlarının gelişmiş halidir. Uygulama içeriği için hazırlama alanları ve kapsayıcılardır.  İş arkadaşlarınızla panolar, raporlar ve daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız diğer içerikler üzerinde işbirliği yapabilirsiniz.
 
 Daha fazla bilgi edinmek için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md#app-workspaces).
 
