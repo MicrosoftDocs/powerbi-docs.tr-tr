@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 73cb9769fad31ad4b12b0df6c9492079d5cecaa8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir kutucuk için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey ilgili BI bilgilerine gezinti ve arama gerekmeden doğrudan bağlanılabilir.
@@ -41,7 +42,7 @@ Panoyu paylaştığınız iş arkadaşlarınız [QR kodunu tarayarak doğrudan m
     ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. Burada QR kodunu tarayabilir veya aşağıdaki işlemleri gerçekleştirmek için indirip kaydedebilirsiniz: 
    
-   * Bir e-postaya veya diğer bir belgeye ekleme ya da 
+   * Bir e-postaya veya başka bir belgeye ekleme ya da 
    * yazdırıp belirli bir konuma yerleştirme. 
 
 ## <a name="print-the-qr-code"></a>QR kodunu yazdırma

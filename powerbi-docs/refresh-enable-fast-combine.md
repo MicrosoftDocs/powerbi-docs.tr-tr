@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Data refresh
+ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI Gateway - Personal'da gizlilik ayarlarını devre dışı bırakma
 > [!NOTE]

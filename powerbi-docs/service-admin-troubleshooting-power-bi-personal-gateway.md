@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal ile ilgili sorunları giderme
 Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşılaşılabilen sorunlar ele alınmıştır.
@@ -111,12 +112,12 @@ Pano kutucuklarını yenileme ile ilgili bir hata alırsanız lütfen aşağıda
 [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md)
 
 ## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
-### <a name="refresh-history"></a>Yenileme Geçmişi
-**Yenileme Geçmişi**, meydana gelen hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerektiğinde de size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi** bölümüne şuradan ulaşabilirsiniz.
+### <a name="refresh-history"></a>Geçmişi Yenile
+**Geçmişi yenile**, meydana gelen hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerektiğinde de size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi**'ne ulaşmak için aşağıdaki adımları uygulayın.
 
-1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünden bir veri kümesi seçin ve &gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
+1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünde bir veri kümesi seçin ve ardından&gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Yenileme Geçmişi** seçeneğini belirleyin.  
+2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Geçmişi yenile** seçeneğini belirleyin.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)

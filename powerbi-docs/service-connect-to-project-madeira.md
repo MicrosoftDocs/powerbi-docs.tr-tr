@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI ile Project "Madeira"ya bağlanın
 Power BI ve Project "Madeira" içerik paketi sayesinde Project "Madeira" verileriniz için kolayca öngörüler elde edebilirsiniz. Power BI hem Satış hem de Finansal verilerinizi alıp bu verilere dayalı, kullanıma hazır bir pano ve raporlar oluşturur.
@@ -106,8 +107,8 @@ Project "Madeira" URL'nizi girdikten sonra bu hatayla karşılaştıysanız aşa
 
 **"Oturum açılamadı"** Project "Madeira" kimlik bilgilerinizi kullanarak panoda oturum açmayı denediğinizde bir "oturum açılamadı" hatasıyla karşılaşırsanız bu duruma aşağıdaki sorunlardan biri neden olmuş olabilir:  
 
-    - Kullandığınız hesap, hesabınızdaki Project "Madeira" verilerini okumak için gerekli izinlere sahip olmayabilir. Project "Madeira" kullanıcı hesabınızı doğrulayın ve parola olarak doğru web hizmeti erişim anahtarını kullandığınızdan emin olup tekrar deneyin.  
-    - Bağlanmayı denediğiniz Project "Madeira" örneği, geçerli bir SSL sertifikasına sahip olmayabilir. Bu durumda, "unable to establish trusted SSL relationship" (güvenilir SSL ilişkisi oluşturulamıyor) gibi daha ayrıntılı bir hata iletisi ile karşılaşırsınız. Otomatik olarak imzalanan sertifikalar desteklenmemektedir.  
+   - Kullandığınız hesap, hesabınızdaki Project "Madeira" verilerini okumak için gerekli izinlere sahip olmayabilir. Project "Madeira" kullanıcı hesabınızı doğrulayın ve parola olarak doğru web hizmeti erişim anahtarını kullandığınızdan emin olup tekrar deneyin.  
+   - Bağlanmayı denediğiniz Project "Madeira" örneği, geçerli bir SSL sertifikasına sahip olmayabilir. Bu durumda, "unable to establish trusted SSL relationship" (güvenilir SSL ilişkisi oluşturulamıyor) gibi daha ayrıntılı bir hata iletisi ile karşılaşırsınız. Otomatik olarak imzalanan sertifikalar desteklenmemektedir.  
 
 **"Hata"** Kimlik doğrulaması iletişim kutusunun ardından "Hata" ifadesini içeren bir hata iletişim kutusuyla karşılaşırsanız bu, çoğunlukla içerik paketine ilişkin verilere bağlanma ile ilgili bir sorun olduğu anlamına gelir. URL'nin, daha önce belirtilen aşağıdaki desene uygun olduğunu doğrulayın:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Şirket('*CRONUS%20US*')

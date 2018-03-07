@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 15163782d3fda3e3b6ea370a25edb867c3e140d0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 8fa7b7bb2da0779e49553e9b1af438a999ce0dd0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="directquery-for-oracle-and-teradata-databases"></a>Oracle ve Teradata Veritabanları için DirectQuery
 Veri kaynakları ve DirectQuery hakkında bilgi için bkz. [DirectQuery Veri Kaynakları](desktop-directquery-data-sources.md).

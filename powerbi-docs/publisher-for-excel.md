@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: dd87c4fba99d9b3ba1953b23ad88910e45ce183e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efd01bc6afec23d614a9f57b1150681983227350
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel için Power BI Publisher
 Microsoft **Excel için Power BI Publisher** sayesinde PivotTable'lar, grafikler ve aralıklar gibi Excel'deki en önemli öngörülerinizin anlık görüntülerini alabilir ve bunları Power BI panolarına sabitleyebilirsiniz.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 6c0d6a0e0965f2fa4fedce4c2b32ee34a7b1b009
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: de8c162ab990a8d080157b8e490347083cf5fe38
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>Power BI yönetici rolünü anlama
 Kuruluşunuzda Power BI yönetici rolünü nasıl kullanabileceğiniz hakkında bilgi edinin.

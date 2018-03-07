@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: e5753838365178804dcda4fafd68526ea05aeb73
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 94c1e23fc012e40763247a28e8930a9abdd81425
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="histograms"></a>Histogramlar
 Power BI'da histogram oluşturmanın birkaç yolu vardır. En basitiyle başlayacağız.
@@ -39,7 +40,7 @@ Elde edilecek olan toplama sütunu için, veri türünün bir sayı olduğundan 
 ## <a name="defining-a-histogram-that-supports-brushing"></a>Fırça kullanımını destekleyen bir histogram tanımlama
 Fırça özelliği, görseller bağlantılıyken kullanıcı bir görselde bir veri noktasını seçtiğinde rapor sayfasında bulunan diğer görsellerin, seçilen veri noktası ile ilgili veri noktalarını vurgulaması veya filtrelemesi için kullanılır.  Sorgu süresince verileri düzenlediğimiz için tablolar arasında bir ilişki oluşturmamız ve histogramda bulunan demetin hangi ayrıntı öğesiyle ilgili olduğundan (veya tam tersi) emin olmamız gerekir.
 
-Histogram oluşturmak istediğiniz alanın bulunduğu sorguda *Başvuru* seçeneğini kullanarak işleme başlayın.  Yeni sorguyu *Buckets* olarak adlandırın.  Bu örnek için özgün sorguyu *Details* olarak adlandıralım.  Ardından, histogram için demet olarak kullanacağınız sütun dışındaki tüm sütunları kaldırın.  Şimdi, sorguda bulunan ve sütunu seçtiğinizde sağ tıklama menüsünde bulunan *Yinelenenleri Kaldır* özelliğini kullanın. Böylece sütunda yalnızca benzersiz değerler kalır. Elinizde ondalık sayılar varsa yönetebileceğiniz kadar demeti almak için bir histogram oluşturmak üzere ilk olarak demet tanımlama ipucunu kullanabilirsiniz.  Şimdi, sorgu önizlemesinde gösterilen verileri kontrol edin. Boş veya null değerler görürseniz ilişki oluşturmadan önce bunları düzeltmeniz gerekir. "Creating a relationship if my data has null or blank values" (Verilerinizde null veya boş değerler varsa ilişki oluşturma) başlıklı konuya bakın. Sıralama gereksinimi nedeniyle, bu yaklaşımın kullanılması sorunlara neden olabilir. Demetlerin doğru şekilde sıralanması için bkz. "Sorting order: make categories appear in the order I want" (Sıralama düzeni: kategorilerin istediğiniz düzende görünmesini sağlama). 
+Histogram oluşturmak istediğiniz alanın bulunduğu sorguda *Başvuru* seçeneğini kullanarak işleme başlayın.  Yeni sorguyu *Buckets* olarak adlandırın.  Bu örnek için özgün sorguyu *Details* olarak adlandıralım.  Ardından, histogram için demet olarak kullanacağınız sütun dışındaki tüm sütunları kaldırın.  Şimdi, sorguda bulunan ve sütunu seçtiğinizde sağ tıklama menüsünde bulunan *Yinelenenleri Kaldır* özelliğini kullanın. Böylece sütunda yalnızca benzersiz değerler kalır. Elinizde ondalık sayılar varsa yönetebileceğiniz kadar demeti almak için bir histogram oluşturmak üzere ilk olarak demet tanımlama ipucunu kullanabilirsiniz.  Şimdi, sorgu önizlemesinde gösterilen verileri kontrol edin. Boş veya null değerler görürseniz ilişki oluşturmadan önce bunları düzeltmeniz gerekir. Bkz. "Verilerinizde null veya boş değerler varsa ilişki oluşturma". Sıralama gereksinimi nedeniyle, bu yaklaşımın kullanılması sorunlara neden olabilir. Demetlerin doğru şekilde sıralanması için bkz. "Sıralama düzeni: kategorilerin istediğiniz düzende görünmesini sağlama". 
 
 > [!NOTE]
 > Herhangi bir görsel oluşturulmadan önce sıralama düzeni göz önünde bulundurulmalıdır.   

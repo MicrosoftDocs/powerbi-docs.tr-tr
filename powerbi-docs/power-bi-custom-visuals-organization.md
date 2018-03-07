@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 2c90ea4a7e95c354b6dfaec04cff7e5e4009b55f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6f7827f7804fcd52e7d922ebc8ffad5a8036b33c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-organization-custom-visuals-in-power-bi-preview"></a>Power BI’da özel kuruluş görsellerini kullanma (Önizleme)
 

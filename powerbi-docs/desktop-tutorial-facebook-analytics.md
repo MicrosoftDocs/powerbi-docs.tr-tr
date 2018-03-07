@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Eğitim: Power BI Desktop ile Facebook analizi
 Bu eğitimde **Facebook** verilerini içeri aktarmayı ve görselleştirmeyi öğreneceksiniz. Eğitim sırasında belirli bir Facebook sayfasına (Power BI sayfası) bağlanmayı, veri dönüştürme adımlarını uygulamayı ve görselleştirme oluşturmayı öğreneceksiniz.

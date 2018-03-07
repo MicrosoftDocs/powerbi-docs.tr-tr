@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 21a02c4d8dabd445afaadb43529489b3253d3599
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 714d9e0378cff0c03e26999d240857108e4ec5ad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme
 **Power BI Desktop**'ın Eylül 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmelerle birlikte yeni bir örnekleme algoritması kullanıma sunuldu. Bu algoritma ile yüksek yoğunluklu verilerin, dağılım grafiklerindeki gösterimi iyileştirildi.
@@ -69,7 +70,7 @@ Dağılım grafiklerinde **Yüksek Yoğunluklu Örnekleme**'nin kullanılamadı�
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * **Yürütme** eksenine herhangi bir değer girilirse dağılım grafiğinde özgün algoritmaya geçiş yapılır.
 * Bir dağılım grafiğinde hem X hem de Y ekseni yoksa grafikte özgün algoritmaya geçiş yapılır.
-* **Analiz** bölmesinde bir **Oran çizgisi** kullanılırsa grafikte özgün algoritmaya geçiş yapılır.
+* **Analiz** bölmesinde bir **Oran satırı** kullanılırsa grafikte özgün algoritmaya geçiş yapılır.
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 

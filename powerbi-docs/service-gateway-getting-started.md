@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 14c96dbc88784cd76099c25508409bcc24064e35
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Gateways
+ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI ağ geçitleriyle çalışmaya başlama
 **Power BI ağ geçitleriyle çalışmaya başlama** kılavuzuna hoş geldiniz. Bu kısa kılavuzda veri ağ geçitlerinin işlevleri ve çalışma şeklinin yanı sıra kendi ağ geçidinizi yükleme, yapılandırma ve çalıştırma yöntemleri ele alınmaktadır.  
