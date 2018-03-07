@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/02/2017
 ms.author: mihart
-ms.openlocfilehash: 263d85a9db996bd7979c29b9c8919fc63f97b1d0
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 2936ac75684e4efe1870c556b27fcbdbc77d17ec
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI Hızlı Öngörüler için verilerinizi en iyi duruma getirme
 Hızlı öngörüler için sonuçları iyileştirmek mi istiyorsunuz?  Bir veri kümesi sahibiyseniz şunları deneyin:

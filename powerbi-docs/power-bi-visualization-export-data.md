@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b5e5463f19c95106a026770ad987f013f472e541
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI'da görüntüleyebilir](service-reports-show-data.md) veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -46,7 +47,7 @@ Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, .
 ## <a name="from-a-visualization-in-a-report"></a>Bir raporda bulunan görselleştirmeden
 Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procurement.md) [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. [Yeni bir boş rapor sayfası ekleyin](power-bi-report-add-page.md). Ardından, aşağıdaki adımları uygulayarak bir toplama ve görsel düzeyi filtresi ekleyin.
 
-1. Yeni bir sütun grafiği oluşturun.  Alanlar bölmesinde, **Location > City** ve **Invoice > Discount Percent** seçeneklerini belirleyin.  **İndirim Yüzdesi**'ni Değer bölümüne taşımanız gerekebilir. 
+1. Yeni bir sütun grafiği oluşturun.  Alanlar bölmesinde, **Location > City** ve **Invoice > Discount Percent** seçeneklerini belirleyin.  **İndirim Yüzdesi**’ni Değer bölümüne taşımanız gerekebilir. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. **Discount Percent** için **Sayı** olan toplama işlemini **Ortalama** olarak değiştirin. Değer kutusunda, **Discount Percent**'in (**Sayı Discount Percent** olarak da görünüyor olabilir) sağında bulunan oku seçin ve ardından **Ortalama** seçeneğini belirleyin.

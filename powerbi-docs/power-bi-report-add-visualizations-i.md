@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b81061c25b453fc35e1490c3ded2d9c9770d4599
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)
 Bu makalede bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](sample-datasets.md) kullanarak kendi raporunuzu oluşturun.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: e0b8e6e573f9d511dd934b996f63bcdfdd386cf0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametresi oluşturma ve kullanma
 **Power BI Desktop**'ın Ağustos 2017 sürümünden itibaren, raporlarınız için **Durum** değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve böylece raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.

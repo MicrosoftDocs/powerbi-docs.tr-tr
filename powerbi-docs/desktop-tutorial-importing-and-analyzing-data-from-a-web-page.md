@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c5139c6f9f7b2098b51a608fb7719f371173c291
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Power BI Desktop'ı kullanarak Web sayfası verilerini çözümleme (eğitim)
 Bu eğitimde bir Web sayfasındaki veri tablosunu içeri aktarmayı ve bu verileri görselleştirmek için rapor oluşturmayı öğreneceksiniz. Bu işlemin bir parçası olarak bir Web sayfasındaki tablolarda gezinecek ve tabloya yeni bir şekil vermek için veri dönüştürme adımları uygulayacaksınız.

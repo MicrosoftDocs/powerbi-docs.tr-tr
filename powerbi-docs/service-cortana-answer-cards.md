@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Create reports
+ms.openlocfilehash: c4816ede1ea5364e5db2156af747a3d05231d02a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI hizmetini veya Power BI Desktop'ı kullanarak Cortana için özel bir Yanıt Sayfası oluşturma
 Power BI'ı kullanarak *Cortana yanıt sayfaları* (ve bazı durumlarda "Cortana yanıt kartları") adı verilen ve Cortana sorularını cevaplamak için tasarlanmış özel rapor sayfaları oluşturun.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 Pek çok kullanıcının OneDrive İş sürücüsünde Excel çalışma kitapları bulunur, bunlar Power BI Desktop'ta kullanmak için harika bir seçimdir. **Power BI Desktop** ile rapor ve görsel oluşturmak için **OneDrive İş**'te kayıtlı **Excel** dosyalarına ilişkin çevrimiçi bağlantıları kullanabilirsiniz. Bir **OneDrive İş** grup hesabını veya bireysel **OneDrive İş** hesabınızı kullanabilirsiniz.
@@ -50,7 +51,7 @@ Power BI Desktop'ta, panoya kopyaladığınız bağlantıyı kullanabilirsiniz. 
 2. Bağlantıyı **Web'den** adlı iletişim kutusuna yapıştırın. (Henüz Tamam'ı **seçmeyin**.)
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. Bağlantının sonunda *?web=1* dizesine dikkat edin - *Web URL dizesinin bu kısmını kaldırmanız gerekir* **önce** seçme **Tamam**, **Power BI Desktop** 'un dosyanıza doğru şekilde gidebilmesi için.
+3. **Power BI Desktop**'ın dosyanıza sorunsuz bir şekilde erişebilmesi için, **Tamam**'ı seçmeden **önce** *Web URL dizesinin bu bölümünü (bağlantının sonundaki *?web=1* dizesi) kaldırmanız gerektiğine* dikkat edin.
 4. **Power BI Desktop** kimlik bilgilerini girmenizi isterse **Windows** (şirket içi SharePoint siteleri için) ya da **Kuruluş Hesabı** (Office 365 veya OneDrive İş siteleri için) seçeneğini belirleyin.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)

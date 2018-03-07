@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Etkileyici raporlar oluşturmaya ilişkin ipuçları
 Power BI hizmetinde ve Power BI Desktop'ta rapor oluşturmak ve bu raporlarla çalışmak oldukça benzerdi. Bu nedenle, bu bağlantıların çoğu her iki platform için de geçerlidir.

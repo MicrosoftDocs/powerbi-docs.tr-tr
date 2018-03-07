@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: ca1ebda762fd86198248d6396233052a12dfa669
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 7927e43f570912b341ccd99dcbc1a7b8003c2fd1
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Power BI panolarına resim ekleme
 Bir panoya tek başına resim eklemenin farklı yöntemleri vardır: Biri, raporda yer alan bir resmi panoya sabitlemek, diğeri ise **Kutucuk ekle** seçeneğini kullanarak resmi doğrudan panoya eklemektir.  Daha fazla bilgi için şu makalelere göz atın:

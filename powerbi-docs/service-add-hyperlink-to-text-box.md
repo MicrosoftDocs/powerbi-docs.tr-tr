@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
 Metin kutuları raporlara eklenebilir, raporlardan panolara sabitlenebilir ve doğrudan panolara eklenebilir. Köprüler, bulunduğu yer fark etmeksizin bir metin kutusuna eklenebilir. **Bu konu başlığında Power BI hizmetindeki (Power BI Desktop değil) raporlarda bulunan metin kutuları ele alınmaktadır.**

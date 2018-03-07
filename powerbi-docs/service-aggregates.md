@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 40ed3ce1dbb228d8418c8cd5ca7de4bcb0731c2b
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?
@@ -133,7 +134,7 @@ S:  **Özetleme** seçeneğini neden görmüyorum?
 
 C: Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop-measures.md)'ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Kullanılan toplama işlemini değiştiremezsiniz.  Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. Alanlar listesinde, *hesaplanmış ölçüler* hesap makinesi sembolüyle gösterilir.
 
-S: Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
+S:  Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
 
 C1: Bu, veri kümesi sahibinin, alanı sayı olarak *sınıflandırmamış* olmasıyla (yanlışlıkla veya kasıtlı bir şekilde) açıklanabilir. Örneğin, bir veri kümesinde **yıl** alanı yer alıyorsa veri kümesi sahibi, **yıl** alanının sayılması (ör. 1974'te doğan kişi sayısı) daha olası bir durum olduğundan (toplanmak veya ortalaması alınmak yerine) bu alanı metin kategorisine dahil etmiş olabilir. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.  
 
@@ -148,19 +149,19 @@ C4: Bir eksen alanı kullanıyor olmanız da üçüncü bir olasılıktır. Örn
 
 S: Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Bunu nasıl yaparım?
 
-C: Alanı, X veya Y ekseni demetlerine değil, **Ayrıntılar** demetine ekleyin.
+C:  Alanı, X veya Y ekseni demetlerine değil, **Ayrıntılar** demetine ekleyin.
 
-S: Bir görselleştirmeye sayısal alan eklediğimde, alanların çoğu için varsayılan işlem toplam işlemi olarak ayarlanırken bazıları için de sayı veya başka bir toplama işlemi olarak belirleniyor.  Varsayılan toplama işlemi neden aynı kalmıyor?
+S:  Bir görselleştirmeye sayısal alan eklediğimde, alanların çoğu için varsayılan işlem toplam işlemi olarak ayarlanırken bazıları için de sayı veya başka bir toplama işlemi olarak belirleniyor.  Varsayılan toplama işlemi neden aynı kalmıyor?
 
-C: Veri kümesi sahipleri, her bir alan için varsayılan özetlemeyi ayarlama seçeneğine sahiptir. Bir veri kümesi sahibiyseniz Power BI Desktop'ın **Modelleme** sekmesindeki varsayılan özetlemeyi değiştirin.
+C:  Veri kümesi sahipleri, her bir alan için varsayılan özetlemeyi ayarlama seçeneğine sahiptir. Bir veri kümesi sahibiyseniz Power BI Desktop'ın **Modelleme** sekmesindeki varsayılan özetlemeyi değiştirin.
 
-S: Ben bir veri kümesi sahibiyim ve bir alanın hiçbir zaman toplanmamasını sağlamak istiyorum.
+S:  Ben bir veri kümesi sahibiyim ve bir alanın hiçbir zaman toplanmamasını sağlamak istiyorum.
 
-C: Power BI Desktop'taki **Modelleme** sekmesinde, **Veri türü**'nü **Metin** olarak ayarlayın.
+C:  Power BI Desktop'taki **Modelleme** sekmesinde, **Veri türü**'nü **Metin** olarak ayarlayın.
 
-S: Açılan menüde **Özetleme** seçeneği görünmüyor.
+S:  Açılan menüde **Özetleme** seçeneği görünmüyor.
 
-C: Alanı kaldırıp tekrar eklemeyi deneyin.
+C:  Alanı kaldırıp tekrar eklemeyi deneyin.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

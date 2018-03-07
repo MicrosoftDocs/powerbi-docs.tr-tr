@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
 Microsoft olarak ihtiyacınız olan performansa, güce ve kolaylığa sahip ürünleri kullanımınıza sunarken gizliliğinizi korumak için de çok çalışıyoruz. Bu Gizlilik Bildirimi, Microsoft Power BI Desktop Geri Bildirimi *Gülümseme Gönder* tarafından kullanılan veri toplama ve kullanım uygulamalarının çoğunu açıklamaktadır. Bu bildirim diğer çevrimiçi veya çevrimdışı Microsoft siteleri, ürünleri veya hizmetleri için geçerli değildir.

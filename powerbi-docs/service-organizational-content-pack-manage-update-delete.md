@@ -17,15 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 86d5ddd1643a713e3094ef39d9fbb46f9a1efc69
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 4e48ce4269def6764630322ac798a8dd0e491861
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
-> Yeni *uygulamalardan* haberiniz var mı? Power BI'da geniş kitlelere içerik dağıtmak için kullanılan yeni yöntem, uygulamalar. Kurumsal içerik paketleri veya salt okunur çalışma alanları yerine uygulamaları kullanmanızı öneririz. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
+> Yeni *uygulamalardan* haberiniz var mı? Uygulamalar, Power BI'da geniş kitlelere içerik dağıtmanın yeni yoludur. Kurumsal içerik paketleri veya salt okunur çalışma alanları yerine uygulamaları kullanmanızı öneririz. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
 > 
 > 
 

@@ -7,6 +7,7 @@
 | Klasör |Hayır |Evet |
 | IBM DB2 |Hayır |Evet |
 | IBM Informix Veritabanı |Hayır |Evet |
+| IBM Netezza |Evet |Evet |
 | Impala |Evet |Evet |
 | MySQL |Hayır |Evet |
 | OData |Hayır |Evet |
