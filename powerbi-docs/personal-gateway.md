@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -66,7 +67,7 @@ Ağ geçidi *yalnızca* [**Web.Page**](https://msdn.microsoft.com/library/mt2609
 
 ŞİMDİ YENİLE ve YENİLEMEYİ ZAMANLA özellikleri, aşağıdaki kaynaklardan yüklenen veri kümeleri için bir ağ geçidi olmadan desteklenir:
 
-* Çevrimiçi veri kaynaklarından alınan ait içerik paketleri (içerik paketleri\\hizmetler). İçerik paketlerinden alınan veri kümeleri, varsayılan ayara göre günde bir kez otomatik olarak güncelleştirilir ancak yenileme işlemini elle de gerçekleştirebilir veya bir yenileme zamanlaması oluşturabilirsiniz.
+* Çevrimiçi veri kaynaklarından alınan ait içerik paketleri (içerik paketleri/hizmetler). İçerik paketlerinden alınan veri kümeleri, varsayılan ayara göre günde bir kez otomatik olarak güncelleştirilir ancak yenileme işlemini elle de gerçekleştirebilir veya bir yenileme zamanlaması oluşturabilirsiniz.
 * Çevrimiçi bir veri kaynağına bağlanmak ve bu kaynaktan veri sorgulamak için Power Query veya Power Pivot eklentilerinin kullanıldığı Microsoft Excel 2013 (veya sonraki bir sürümü) çalışma kitapları.
 * Çevrimiçi bir veri kaynağına bağlanmak ve bu kaynaktan veri sorgulamak için Veri Al seçeneğinin kullanıldığı Microsoft Power BI Desktop dosyaları.
 
