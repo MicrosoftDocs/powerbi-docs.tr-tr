@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
 Power BI'a kaydolmayı ve Power BI'ı kişisel rapor ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
@@ -40,23 +40,24 @@ Office 365 kullanan bir kuruluşa bağlıysanız yine de ücretsiz hesaba kaydol
 
 > [!NOTE]
 > Bir kuruluşa bağlıysanız bireysel kayıt devre dışı bırakılmış olabilir. Bu seçeneğin devre dışı bırakılmış olduğunu belirten bir hata alırsanız daha fazla bilgi için [Bireysel kayıt devre dışı bırakılmış](#individual-sign-up-has-been-turned-off) bölümüne bakın.
-> 
-> 
+>
 
-## <a name="what-you-need-to-sign-up"></a>Kaydolmak için yapmanız gerekenler
-Power BI'a kaydolmak için bir iş e-posta adresiniz olmalıdır. Power BI hizmeti için kişisel bir e-posta adresi kullanamazsınız.
+## <a name="what-you-need-to-sign-up"></a>Kaydolmak için ne yapmanız gerekiyor?
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Power BI'a kaydolmak için çalışan bir e-posta adresiniz olmalıdır. Kişisel e-posta adresi Power BI'a kaydolurken çalışmaz.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Power BI ile hangi e-posta adresi kullanılabilir?
-Power BI'a kaydolmak için bir iş veya okul e-posta adresi kullanmanız gerekir. Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. Bunlar outlook.com, hotmail.com, gmail.com ve diğer adreslerdir.
+Power BI'a kaydolmak için bir iş veya okul e-posta adresi kullanmanız gerekir. Tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini kullanarak Power BI'a kaydolamazsınız. Bunlar outlook.com, hotmail.com, gmail.com ve diğer adreslerdir.
 
 Kişisel bir e-posta adresiyle kaydolmaya çalışırsanız iş veya okul e-posta adresinizi kullanmanız gerektiğini belirten bir ileti alırsınız.
 
 > [!NOTE]
-> Power BI şu anda .gov veya .mil adresleri için self servis kayıt işlemini desteklememektedir. Lütfen Office 365 yöneticinizle iletişime geçin.
-> 
-> 
+> Power BI'a .gov veya .mil adresleriyle kaydolabilirsiniz. Bilgi edinmek için, [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](https://docs.microsoft.com/en-us/power-bi/service-govus-signup) konusunu gözden geçirin.
+>
+
+> [!NOTE]
+> Kaydolduktan sonra, kişisel hesaplarınız dahil herhangi bir e-posta adresini kullanarak Power BI kiracınızdaki içeriği görmeleri için [konuk kullanıcıları davet edebilirsiniz](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+>
 
 ## <a name="which-one-do-you-need"></a>Hangisine ihtiyacınız var?
 Her bir lisans türünün sunduğu imkanları gözden geçirerek ihtiyacınızı belirleyebilirsiniz. Ücretsiz sürüm kullanıcıları, paylaşım ve işbirliği özellikleri hariç olmak üzere işlevlerin çoğuna erişebilir. Power BI Pro kullanıcıları hizmetteki tüm özellikleri kullanabilir ancak bunlar ücretsiz olarak sunulmaz. Herhangi bir içerik paylaşımı yapmanız gerekmiyorsa Ücretsiz sürüm sizin için uygun olabilir. [Power BI Fiyatlandırma sayfasında](https://powerbi.microsoft.com//pricing/) daha fazla bilgi edinebilirsiniz.
@@ -141,7 +142,7 @@ Power BI Pro lisansını bireysel olarak kullanmanın bir yolu yoktur. Lisansı 
 
 | **Belirti / Hata İletisi** | **Neden ve Geçici Çözüm** |
 | --- | --- |
-| **Kişisel e-posta adresi (ör. nancy@gmail.com)** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Kişisel e-posta adresi (ör. nancy@gmail.com)** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Kullanıcı hesabının [Azure B2B konuğu](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) olarak davet edilmesini sağlayın. |
 | **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydolmayı tamamlamak için BT yöneticinize başvurun ve sayfanın aşağısında verilen yönergeleri izleyerek mevcut kullanıcıların Power BI'a kaydolmasına ve yeni kullanıcıların mevcut kiracınıza katılmasına izin vermesini isteyin. <br/><br/> Office 365'e bir iş ortağı aracılığıyla kaydolduysanız da bu sorunla karşılaşabilirsiniz. [Daha fazla bilgi](service-admin-syndication-partner.md) <br /><br /> [Kuruluşunuzda Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.* |Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapabiliyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
