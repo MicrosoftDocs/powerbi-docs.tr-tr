@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop'ta CSV dosyalarına bağlanma
           href: desktop-connect-csv.md
-        - name: Power BI Desktop'ta bir Impala veritabanına bağlanma (Önizleme)
+        - name: Power BI Desktop’ta Adobe Analytics’e bağlanma (Önizleme)
+          href: desktop-connect-csv.md
+        - name: Power BI Desktop'ta bir Impala veritabanına bağlanma
           href: desktop-connect-impala.md
         - name: Power BI Desktop'ta bir OData akışına bağlanma
           href: desktop-connect-odata.md
-        - name: Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma (Önizleme)
+        - name: Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma
           href: desktop-connect-redshift.md
         - name: Power BI Desktop'tan bir Web sayfasına bağlanma
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Power BI'da yer işaretleri
           href: desktop-bookmarks.md
+        - name: Özel rapor araç ipuçları oluşturma (önizleme)
+          href: desktop-tooltips.md
         - name: Rapor temalarını kullanma
           href: desktop-report-themes.md
         - name: Hızlı Ölçüleri kullanma
