@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
 Bir veri kümeniz varsa kendi öne çıkan sorularınızı bu veri kümesine ekleyebilirsiniz.  Böylece Power BI Soru-Cevap bu soruları, veri kümenizi *kullanan* iş arkadaşlarınıza gösterir.  Öne çıkan sorular, iş arkadaşlarınıza bir veri kümesi ile ilgili sorabilecekleri soru türleri hakkında fikirler verir. Ne tür öne çıkan sorular ekleyeceğiniz size bağlıdır; sık kullanılan sorular, ilgi çekici sonuçlar görüntüleyen sorular veya uygun şekilde ifade etmesi zor olabilecek sorular sorabilirsiniz.
@@ -39,18 +40,18 @@ Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır.
 
 1. Panoda Soru-Cevap soru kutusunu seçin.   Soru-Cevap bölümünde, veri kümesinde görünen terimlerin yer aldığı faydalı bir listenin görüntülendiğini fark edersiniz.
 2. Bu listeye ekleme yapmak için PowerBI'ın sağ üst köşesindeki dişli simgesini seçin.  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![dişli simgesi](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. **Ayarlar** &gt; **Veri kümeleri** &gt; **Retail Analysis Sample** &gt; **Öne Çıkan Soru-Cevap soruları** seçeneğini belirleyin.  
 4. **Soru ekle**'yi seçin.
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![Ayarlar menüsü](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. Sorunuzu metin kutusuna yazdıktan sonra **Uygula**'yı seçin.   İsteğe bağlı olarak **Soru ekle**'yi seçip başka bir soru daha ekleyebilirsiniz.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   ![Öne çıkan Soru-Cevap Soruları bölmesi](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Power BI Retail Analysis Sample panosuna geri gidin ve imlecinizi Soru-Cevap soru kutusuna yerleştirin.   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![Soru-Cevap soru kutusu](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. Yeni eklenen **Sales by territory as a map** (Harita olarak bölgeye göre satışlar) öne çıkan sorusunun ilk sırada olduğunu görürsünüz. Bu soruyu seçin.  
 8. Cevap bir doldurulmuş harita görselleştirmesi olarak görüntülenir.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![harita görselleştirmesi](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki Soru-Cevap](power-bi-q-and-a.md)  

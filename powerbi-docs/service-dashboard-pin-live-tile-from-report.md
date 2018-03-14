@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3638c99b0dfafa8a90a6c911051e203f3e6037c4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Rapor sayfasının tamamını bir Power BI panosuna canlı kutucuk olarak sabitleme
 Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
@@ -43,20 +44,20 @@ Canlı rapor sayfasını bir panoya sabitleyen Amanda'yı izledikten sonra kendi
 1. Raporu [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde açın.
 2. Herhangi bir görselleştirmenin seçili olmadığından emin olduktan sonra menü çubuğundan **Canlı Sabitleme Sayfası**'nı seçin.
    
-   ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Kutucuğu var olan bir panoya veya yeni bir panoya sabitleyin. Vurgulanan metne dikkat edin: *Canlı sabitleme sayfası, sayfa yenilendiğinde rapor üzerinde yapılan değişikliklerin pano kutucuğunda görüntülenmesini sağlar.*
+   ![Canlı Sabitleme Sayfası simgesi](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
+3. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. Vurgulanan metne dikkat edin: *Canlı sabitleme sayfası, sayfa yenilendiğinde rapor üzerinde yapılan değişikliklerin pano kutucuğunda görüntülenmesini sağlar.*
    
    * Var olan pano: Açılan listeden pano adını seçin. Sizinle paylaşılan panolar açılan listede görünmez.
-   * Yeni pano: Yeni panonun adını girin.
+   * Yeni pano: Yeni panonun adını yazın.
      
-     ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
+     ![Panoya sabitle iletişim kutusu](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
 4. **Canlı sabitle**'yi seçin. Sağ üst köşeye yakın bir noktada çıkan Başarılı iletisi, sayfanın bir kutucuk olarak panonuza eklendiğini bildirir.
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>Sabitlenmiş canlı kutucuğu görmek için panoyu açma
 1. Gezinti bölmesinden yeni canlı kutucuk içeren panoyu seçin. Burada, sabitlenmiş rapor sayfasını [yeniden adlandırabilir, yeniden boyutlandırabilir, bağlantılı hale getirebilir ve taşıyabilirsiniz](service-dashboard-edit-tile.md).  
 2. Canlı kutucukla etkileşim kurun.  Aşağıdaki ekran görüntüsünde, sütun grafikteki çubuklardan biri seçildiğinde kutucuktaki diğer görselleştirmeler çapraz olarak filtrelenir ve vurgulanır.
    
-    ![](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
+    ![canlı kutucuğun bulunduğu panolar](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki panolar](service-dashboards.md)

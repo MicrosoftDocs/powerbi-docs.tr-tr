@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
 Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Pano kutucuklarını Power BI Mobil'de oluşturamaz veya sabitleyemezsiniz ancak [görüntüleyip paylaşabilirsiniz](mobile-tiles-in-the-mobile-apps.md). Ayrıca Power BI Mobil'de, [iPhone uygulamanızı kullanarak panonuza resim ekleyebilirsiniz](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Pano kutucukları
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI panosu](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Kutucuklar, verilerinizin panoya sabitlenmiş anlık görüntüleridir. Bir rapor, veri kümesi ve panonun yanı sıra Soru-Cevap kutusu, Excel, SQL Server Reporting Services (SSRS) ve diğer hizmetlerden kutucuk oluşturabilirsiniz.  Bu ekran görüntüsünde, bir panoya sabitlenmiş birçok farklı kutucuk gösterilmektedir.
 
@@ -53,34 +54,34 @@ Bir panoya kutucuk eklemenin (sabitlemenin) birçok farklı yolu vardır. Kutucu
 
 Ayrıca, [Kutucuk ekle](service-dashboard-add-widget.md) seçeneği kullanılarak doğrudan pano üzerinde resimler, metin kutuları, videolar, akış verileri ve web içeriği için ayrı kutucuklar oluşturulabilir.
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Kutucuk ekle simgesi](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Bir panodaki kutucuklarla ile etkileşim kurma
 ### <a name="move-and-resize-a-tile"></a>Bir kutucuğu taşıma ve yeniden boyutlandırma
-Bir kutucuğu alın ve [panonun farklı yerlerinde taşıyın](service-dashboard-edit-tile.md). Kutucuğu yeniden boyutlandırmak için tutamacın ![](media/service-dashboard-tiles/resize-handle.jpg) üzerine gelin ve tutamacı seçin.
+Bir kutucuğu alın ve [panonun farklı yerlerinde taşıyın](service-dashboard-edit-tile.md). Kutucuğu yeniden boyutlandırmak için tutamacın üzerine gelin ve tutamacı ![tutamaç](media/service-dashboard-tiles/resize-handle.jpg) seçin.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Görünümünü ve davranışını değiştirmek için bir kutucuğun üzerine gelme
 1. Üç noktanın görüntülenmesi için kutucuğun üzerine gelin.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![kutucuk üç noktası](media/service-dashboard-tiles/ellipses_new.png)
 2. Kutucuk eylem menüsünü açmak için üç nokta simgesini seçin.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![üç nokta simgesi](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Burada yapabilecekleriniz:
    
-   * [Bu kutucuğu oluşturmak için kullanılan raporu açma ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Bu kutucuğu oluşturmak için kullanılan raporu açma ](service-reports.md) ![rapor simgesi](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Bu kutucuğu oluşturmak için kullanılan çalışma sayfasını açma ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Bu kutucuğu oluşturmak için kullanılan çalışma sayfasını açma ](service-reports.md) ![çalışma sayfası simgesi](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Odak modunda görüntüleme ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Kutucukta kullanılan verileri dışarı aktarma ](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Başlığı ve alt başlığı düzenleme, köprü ekleme, son yenileme zamanını görüntüleme ](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Öngörüler elde etme ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Odak modunda görüntüleme ](service-focus-mode.md) ![odak simgesi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Kutucukta kullanılan verileri dışarı aktarma](power-bi-visualization-export-data.md) ![verileri dışarı aktarma simgesi](media/service-dashboard-tiles/export-icon.png)
+     * [Başlığı ve alt başlığı düzenleme, köprü ekleme, son yenileme zamanını görüntüleme](service-dashboard-edit-tile.md) ![düzenleme simgesi](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Öngörüleri çalıştırma ](service-insights.md) ![öngörüler simgesi](media/service-dashboard-tiles/power-bi-insights.png)
      * [Kutucuğu başka bir panoya sabitleme ](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Kutucuğu kaldırma ](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![raptiye simgesi](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Kutucuğunu kaldırma](service-dashboard-edit-tile.md)
+     ![silme simgesi](media/service-dashboard-tiles/trash-icon.png)
 3. Eylem menüsü kapatmak için tuvalde boş bir alan seçin.
 
 ### <a name="select-click-a-tile"></a>Bir kutucuğu seçme veya bir kutucuğa tıklama

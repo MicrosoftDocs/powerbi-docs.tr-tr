@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI hizmetinden yazdırma
 Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
@@ -41,25 +41,24 @@ Amanda'nın panosundan ve raporundan yazdırma işlemi gerçekleştirmesini izle
 1. Yazdırmak istediğiniz panoyu açın.
 2. Sağ üst köşedeki üç nokta (...) simgesini seçin ve **Panoyu yazdır** seçeneğini belirleyin.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Panoyu yazdır seçeneği](media/service-print/pbi_print_dash_ellipses.png)
 3. Tarayıcınızın Yazdır penceresi açılır. Ayarları ve yazdırma hedefini seçip **Yazdır** seçeneğini belirleyin.
    
    > [!NOTE]
-   > Göreceğiniz yazdırma iletişim kutusu, kullandığınız tarayıcıya bağlıdır.
-   > 
+   > Göreceğiniz yazdırma iletişim kutusu, kullandığınız tarayıcıya göre değişir.
    > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![yazdır iletişim kutusu](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Pano kutucuğu yazdırma
-1. [Kutucuğu Odak modunda açmak için](service-focus-mode.md) üç nokta ve Odak simgesini![](media/service-print/power-bi-focus-icon.png) seçin.
+1. [Kutucuğu Odak modunda açmak için](service-focus-mode.md) üç noktayı ve Odak simgesini ![Odak simgesi](media/service-print/power-bi-focus-icon.png) seçin.
    
-    ![](media/service-print/menu-options.png)
-2. Kutucuğu [tam ekran modunda](service-fullscreen-mode.md) açmak için üst taraftaki gezinti çubuğundan tam ekran simgesini ![](media/service-print/power-bi-full-screen-icon.png) seçin.
+    ![üç nokta menüsü](media/service-print/menu-options.png)
+2. Kutucuğu [tam ekran modunda](service-fullscreen-mode.md) açmak için üst taraftaki gezinti çubuğundan tam ekran simgesini ![tam ekran simgesi](media/service-print/power-bi-full-screen-icon.png) seçin.
 3. Seçenekler menüsünün gösterilmesi için kutucuğun üzerine gelin.
    
-    ![](media/service-print/menu-options-new.png)
-4. Yazdır simgesini ![](media/service-print/print-icon.png) seçin.     
+    ![tam ekran seçenekler menüsü](media/service-print/menu-options-new.png)
+4. Yazdır simgesini ![yazdır simgesi](media/service-print/print-icon.png) seçin.     
    
    > [!NOTE]
    > Göreceğiniz yazdırma iletişim kutusu, kullandığınız tarayıcıya göre değişir.
@@ -72,7 +71,7 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 1. Raporu Okuma Görünümü'nde veya Düzenleme Görünümü'nde açın.
 2. Geçerli rapor sayfasını yazdırmak için **Dosya** > **Yazdır** seçeneğini belirleyin.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Power BI Dosya menüsü](media/service-print/power-bi-print.png)
 3. Tarayıcınızın Yazdır penceresi açılır.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
    > 
 
 ## <a name="print-a-report-visual"></a>Rapor görseli yazdırma
-1. [Görseli Odak modunda açmak için](service-focus-mode.md) kutucuğun üzerine gelin ve sağ üst köşeden Odak simgesini ![](media/service-print/power-bi-focus-icon.png) seçin.
+1. [Görseli Odak modunda açmak](service-focus-mode.md) için kutucuğun üzerine gelin ve sağ üst köşedeki Odak simgesini ![Odak simgesi](media/service-print/power-bi-focus-icon.png) seçin.
 2. Yukarıdaki *Rapor sayfası yazdırma* bölümünde bulunan 2. ve 3. adımları uygulayın.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme

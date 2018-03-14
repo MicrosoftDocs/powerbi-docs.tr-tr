@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI ile tyGraph'e bağlanma
 Power BI içerik paketiyle tyGraph verilerinizi Power BI'da görselleştirin ve araştırın. tyGraph hesabınıza bağlanıp panoyu, raporları ve veri kümesini yükleyerek başlayın. Kullanıma hazır olarak sunulan içerik paketinde, MAE puanı olarak da bilinen Measure of Active Engagement (Etkin Katılım Ölçeği) ve En Çok Katkıda Bulunanlar gibi öngörüler yer alır. En çok önem verdiğiniz bilgileri vurgulamak için daha fazla özelleştirme gerçekleştirin.  Veriler, ayarladığınız bir zamanlamaya göre otomatik olarak yenilenir.
@@ -48,7 +49,7 @@ Power BI içerik paketiyle tyGraph verilerinizi Power BI'da görselleştirin ve 
    
     **Doğrulanmış bir Yammer yöneticisi değilseniz**
    
-    tyGraph içerik paketi için, doğrulanmış bir Yammer yöneticisi tarafından oluşturulmuş bir tyGraph hesabı gerekir. Hesap oluşturulduktan sonra aynı kuruluştaki kullanıcılara ek anahtarlar verilebilir. Doğrulanmış yöneticiniz henüz bir tyGraph hesabı oluşturmadıysa bunu gerçekleştirmesi için onunla iletişime geçin. Aksi halde, <mailto:support@unlimitedviz.com> adresine bir e-posta göndererek anahtar isteyebilirsiniz.
+    tyGraph içerik paketi için, doğrulanmış bir Yammer yöneticisi tarafından oluşturulmuş bir tyGraph hesabı gerekir. Hesap oluşturulduktan sonra aynı kuruluştaki kullanıcılara ek anahtarlar verilebilir. Doğrulanmış yöneticiniz henüz bir tyGraph hesabı oluşturmadıysa bunu gerçekleştirmesi için onunla iletişime geçin. Bu hesap oluşturulduysa <mailto:support@unlimitedviz.com> adresine bir e-posta göndererek anahtar isteyebilirsiniz.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Kimlik doğrulaması başarılı olduğunda, içeri aktarma işlemi otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.

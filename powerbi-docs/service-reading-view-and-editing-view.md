@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI hizmeti raporlarındaki Okuma görünümü ve Düzenleme görünümü
 Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: Okuma görünümü ve Düzenleme görünümü. Okuma görünümü, özellikle veri *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![Rapor oluşturucularının ve rapor kullanıcılarının resmi](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Rapor Okuma görünümü
 
@@ -83,17 +84,17 @@ Raporları yalnızca rapor oluşturucularının ve rapor sahiplerinin Düzenleme
 
 1. Raporlar varsayılan olarak Okuma görünümü'nde açılır. **Raporu düzenle** seçeneğinin görünmesi, Okuma görünümü'nün etkin olduğunu gösterir. **Raporu düzenle** seçeneğinin gri renkte olması, raporu Düzenleme görünümü'nde açma izninizin olmadığı anlamına gelir.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Gri renkte Raporu düzenle seçeneği](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. **Raporu Düzenle** seçeneği gri renkte değilse tıklayarak raporu Düzenleme görünümü'nde açabilirsiniz. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Raporu düzenle seçeneği](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Rapor şimdi Düzenleme görünümü'ndedir ve raporda, Okuma görünümü'nde son kullandığınız [görüntü ayarları](power-bi-report-display-settings.md) kullanılır.
 
 2. **Okuma görünümü**'ne dönmek için üst gezinti çubuğunda Okuma görünümü'nü seçin.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Okuma görünümü seçeneği](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

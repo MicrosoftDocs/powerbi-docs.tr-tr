@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Canlı bağlantılar için Soru-Cevap özelliğini etkinleştirme
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Şirket içi veri ağ geçidi nedir?  Canlı bağlantı nedir?
@@ -32,9 +33,9 @@ Bir ağ geçidi üzerinden eriştiğiniz veri kümeleriyle Soru-Cevap özelliği
 
 Bunlar etkinleştirildikten sonra Power BI, veri kaynağınızın bir dizinini oluşturur ve bu verilerin bir alt kümesini Power BI'a yükleyerek, soru sorulmasına olanak tanır. İlk dizinin oluşturulması birkaç dakika sürebilir. Power BI, dizini korur ve verileriniz değiştikçe otomatik olarak güncelleştirir. Soru-Cevap özelliğinin bu veri kümeleriyle kullanımı Power BI'da yayımlanan verilerle aynı şekilde davranış gösterir. Soru-Cevap deneyiminde kullanılabilen özelliklerin tamamı, veri kaynağını Cortana ile kullanma da dahil olmak üzere her iki durumda da desteklenir.
 
-Siz Power BI'da soru sordukça Soru-Cevap, veri kümenizin bir dizinini kullanarak, sorunuzun cevaplanması için oluşturulacak en iyi görseli ve kullanılacak rapor sayfasını belirler. Olası en iyi cevabı belirledikten sonra Soru-Cevap, grafikleri ve grafları doldurmak için ağ geçidi aracılığıyla veri kaynağından canlı veriler getirmek üzere DirectQuery'yi kullanır. Bu, her koşulda Power BI Soru-Cevap sonuçlarının doğrudan, temel alınan veri kaynağındaki en güncel verileri göstermesini sağlar.
+Siz Power BI'da soru sordukça Soru-Cevap, veri kümenizin bir dizinini kullanarak, sorunuzun yanıtlanması için oluşturulacak en iyi görseli ve kullanılacak rapor sayfasını belirler. Olası en iyi yanıtı belirledikten sonra Soru-Cevap, grafikleri ve grafları doldurmak için ağ geçidi aracılığıyla veri kaynağından canlı veriler getirmek üzere DirectQuery'yi kullanır. Bu, her koşulda Power BI Soru-Cevap sonuçlarının doğrudan, temel alınan veri kaynağındaki en güncel verileri göstermesini sağlar.
 
-Power BI Soru-Cevap özelliği cevaplar için temel alınan modelin nasıl sorgulanacağını belirlemek üzere veri kaynağınızdaki metin ve şema değerlerini kullandığından, yeni veya silinen belirli metin değerleri için yapılan aramalar (örneğin, yeni eklenen bir metin kaydındaki bir müşteri adını sorma), en son değerlerle güncelleştirilen dizinden yararlanır. Power BI, değişiklikleri 60 dakikalık bir zaman penceresinde değerlendirerek, metin ve şema dizinini otomatik olarak güncel tutar.
+Power BI Soru-Cevap özelliği yanıtlar için temel alınan modelin nasıl sorgulanacağını belirlemek üzere veri kaynağınızdaki metin ve şema değerlerini kullandığından, yeni veya silinen belirli metin değerleri için yapılan aramalar (örneğin, yeni eklenen bir metin kaydındaki bir müşteri adını sorma), en son değerlerle güncelleştirilen dizinden yararlanır. Power BI, değişiklikleri 60 dakikalık bir zaman penceresinde değerlendirerek, metin ve şema dizinini otomatik olarak güncel tutar.
 
 Daha fazla bilgi için bkz.
 
@@ -44,15 +45,15 @@ Daha fazla bilgi için bkz.
 ## <a name="enable-qa"></a>Soru-Cevap özelliğini etkinleştirme
 Veri ağ geçidini ayarladıktan sonra Power BI'dan verilerinize bağlanın.  Şirket içi verilerinizi kullanarak bir pano oluşturun veya şirket içi verilerin kullanıldığı bir .pbix dosyasını karşıya yükleyin.  Sizinle paylaşılan panolarda, raporlarda ve veri kümelerinde zaten şirket içi verileriniz olabilir.
 
-1. Power BI hizmetinin sağ üst köşesinde bulunan dişli simgesini ![](media/service-q-and-a-direct-query/power-bi-cog.png) ve ardından **Ayarlar**'ı seçin.
+1. Power BI hizmetinin sağ üst köşesinde bulunan dişli simgesini ![dişli simgesi](media/service-q-and-a-direct-query/power-bi-cog.png) ve **Ayarlar**’ı seçin.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Ayarlar menüsü](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. **Veri kümeleri**'ni seçin ve Soru-Cevap için etkinleştirilecek veri kümesini belirleyin.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Ayarlar menüsünün Veri kümeleri ekranı](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. **Soru-Cevap ve Cortana**'yı genişletin, **Bu veri kümesi için Soru-Cevap özelliğini aç** onay kutusunu işaretleyip **Uygula**'yı seçin.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Genişletilmiş Soru-Cevap alanı](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Hangi veriler önbelleğe alınır ve gizlilik nasıl korunur?
 Şirket içi verileriniz için Soru-Cevap özelliğini etkinleştirdiğinizde verilerinizin bir alt kümesi hizmette önbelleğe alınır. Bu, Soru-Cevap özelliğinin makul bir performansla çalışmasını sağlamak için gerçekleştirilir. Power BI, önbelleğe alma işlemine 24 karakterden daha uzun değerleri dahil etmez. **Bu veri kümesi için Soru-Cevap özelliğini aç** seçeneğinin işaretini kaldırarak Soru-Cevap özelliğini devre dışı bırakmanız veya veri kümenizi silmeniz halinde önbellek birkaç saat içinde silinir.

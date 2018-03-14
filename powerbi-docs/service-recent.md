@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>Son görüntülenen içerik nedir?
 Son görüntülenen içerik, en son ziyaret ettiğiniz öğeleri (maksimum 20 öğe) içerir.  Söz konusu öğeler şunları içerir: tüm çalışma alanlarınızdaki panolar, raporlar, uygulamalar ve çalışma kitapları.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Son görüntülenen içerik penceresi](media/service-recent/power-bi-recent-screen.png)
 
 Aşağıdaki videoda Amanda, **Son görüntülenen** içerik listelerinin nasıl doldurulduğunu göstermektedir. Bu videoyu izledikten sonra kendiniz denemek için videonun altında bulunan adım adım yönergeleri uygulayın.
 
@@ -40,11 +40,11 @@ Aşağıdaki videoda Amanda, **Son görüntülenen** içerik listelerinin nasıl
 ## <a name="display-recent-content"></a>Son görüntülenen içeriği görüntüleme
 En son ziyaret ettiğiniz beş öğeyi görmek için, sol gezinti bölmesinde **Son görüntülenen** sekmesinin sağındaki oku seçin.  Burada, son görüntülenen içeriği seçip açabilirsiniz. Yalnızca son görüntülenen beş öğe listelenir.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Son görüntülenen içerik açılır öğesi](media/service-recent/power-bi-recent-flyout-new.png)
 
-Son ziyaret ettiğiniz öğe sayısı beşten fazlaysa Son görüntülenen ekranını açmak için **Tümünü göster**'i seçin. (Aşağıya bakın.) Sol gezinti bölmesinde **Son görüntülenen**'i veya Son görüntülenen simgesini ![](media/service-recent/power-bi-recent-icon.png) seçebilirsiniz.
+Son ziyaret ettiğiniz öğe sayısı beşten fazlaysa Son görüntülenen ekranını açmak için **Tümünü göster**'i seçin. (Aşağıya bakın.) Sol gezinti bölmesinde **Son görüntülenen**’i veya Son görüntülenen ![Son görüntülenen simgesi](media/service-recent/power-bi-recent-icon.png) simgesini de seçebilirsiniz.
 
-![](media/service-recent/power-bi-recent-list.png)
+![son görüntülenen içeriğin tümünü görüntüleme](media/service-recent/power-bi-recent-list.png)
 
 Bu ekranda, [**Panolar**](service-dashboards.md), [**Raporlar**](service-reports.md), **Çalışma Kitapları** sekmelerinde ve [**Uygulamalar**](service-install-use-apps.md) ekranında olduğu gibi içeriklerle etkileşim kurabilirsiniz.
 

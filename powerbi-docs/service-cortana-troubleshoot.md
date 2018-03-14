@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
 Bu makale bir serinin parçasıdır. Henüz yapmadıysanız aşağıdaki üç makaleyi okumanızı öneririz.
@@ -95,7 +96,7 @@ Sorun devam mı ediyor?  O halde Cortana sorun giderme aracını çalıştırara
    Bir sonuç elde ettiğimiz için Cortana'nın Power BI'da **etkin olduğunu** biliyoruz. Bu durumda sorunun nedenleri Windows tarafı, Cortana dil ayarı veya Cortana için 100'den fazla veri kümesinin etkinleştirilmiş olması seçeneklerine kalıyor.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Panolardan yanıt alma konusunda sorun mu yaşıyorsunuz?
-Sizinle paylaşılmış olan bir panoyu mu arıyorsunuz?  Power BI > **Benimle paylaşılan** sayfasını açın ve panonun adını bulun.  Ardından ilgili adı *Utterance** (Söyleyiş) alanına girin.
+Sizinle paylaşılmış olan bir panoyu mu arıyorsunuz?  Power BI > **Benimle paylaşılan** sayfasını açın ve panonun adını bulun.  Daha sonra söz konusu adı **Utterances** (Söyleyiş) alanına girin.
 
 ![Power BI'daki Benimle paylaşılan listesini açma](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

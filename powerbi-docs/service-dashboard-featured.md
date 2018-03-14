@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
 Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır.  Bu, işlerimizi yürütmek için kullandığımız pano veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![öne çıkan olarak ayarla simgesi](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Bir panoyu *öne çıkan pano* olarak ayarlarsanız Power BI hizmetini açtığınızda bu pano görüntülenir.  
 
@@ -47,22 +48,22 @@ Henüz bir öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son
 
 
 1. *Öne çıkan* olarak belirlemek istediğiniz panoyu açın. 
-2. Üst gezinti çubuğunda **Öne çıkan olarak ayarla** bağlantısını veya yalnızca öne çıkanlar ![](media/service-dashboard-featured/power-bi-featured-icon.png) simgesini göreceksiniz. Bunlardan birini seçin.
+2. Üst gezinti çubuğunda **Öne çıkan olarak ayarla** bağlantısını veya yalnızca ![öne çıkanlar](media/service-dashboard-featured/power-bi-featured-icon.png) simgesini görürsünüz. Bunlardan birini seçin.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Öne çıkan olarak ayarla simgesi](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Seçiminizi onaylayın.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![öne çıkan pano olarak ayarlama](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Öne çıkan panoyu değiştirme
 Elbette ileride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan pano olarak ayarlayabilirsiniz.
 
 1. Yukarıdaki 1 ve 2 numaralı adımları uygulayın.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Öne çıkan panoyu değiştirme penceresi](media/service-dashboard-featured/power-bi-change-feature.png)
 2. **Öne çıkan olarak ayarla**'yı seçin. Öne çıkanlardan kaldırdığınız pano çalışma alanınızdan kaldırılmaz.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![başarılı iletisi](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Öne çıkan panoyu kaldırma
 Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönergeleri izleyerek öne çıkan panoyu kaldırabilirsiniz.
@@ -70,7 +71,7 @@ Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönerge
 1. Öne çıkan panoyu açın.
 2. Üstteki menü çubuğunda **Öne çıkan öğeyi devre dışı bırak**'ı seçin.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![öne çıkanı silme](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Power BI'da kullandığınız son pano açılır.  
 

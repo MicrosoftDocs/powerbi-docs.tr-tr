@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/03/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9a8f4e330ea2188b23f3730b18ee56d7c7f72de2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Bir Power BI raporuna veya panosuna abone olma
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. 
 
-E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](supported-languages-countries-regions.md)). Dil tanımlanmazsa, Power BI geçerli tarayıcınızın yerel ayarına göre seçilen dili kullanır. Dil tercihinizi görmek veya belirlemek için dişli simgesini ![](media/service-report-subscribe/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin. 
+E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](supported-languages-countries-regions.md)). Dil tanımlanmazsa, Power BI geçerli tarayıcınızın yerel ayarına göre seçilen dili kullanır. Dil tercihinizi görmek veya belirlemek için dişli simgesini ![dişli simgesi](media/service-report-subscribe/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin. 
 
-![](media/service-report-subscribe/power-bi-language.png)
+![Dil açılan menüsü](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Abonelikler yalnızca Power BI hizmetinde oluşturulabilir. Aldığınız e-postanın "rapora/panoya git" bağlantısı içerdiğini göreceksiniz. Power BI uygulamalarının yüklü olduğu mobil cihazlarda bu bağlantı seçildiğinde uygulama başlatılır (Power BI web sitesinde varsayılan olarak gerçekleştirilen, raporu veya panoyu açma işleminin aksine).
@@ -45,47 +45,47 @@ Sirui'nin bir rapor için e-posta aboneliği ayarlamasını izleyin. Ardından k
 Abonelik **oluşturma** bir Power BI Pro özelliğidir ve içerik (pano veya rapor) için görüntüleme veya düzenleme izinlerine sahip olmanız gerekir.
 
 ## <a name="subscribe-to-a-dashboard"></a>Bir panoya abone olma
-![](media/service-report-subscribe/power-bi-subscribe-orientation.png)
+![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png)
 
 1. Panoyu açın.
-2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![](media/service-report-subscribe/power-bi-icon-envelope.png) seçin.
+2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![Abone ol simgesi](media/service-report-subscribe/power-bi-icon-envelope.png) seçin.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Abone ol simgesi](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Aboneliği açıp kapatmak için sarı kaydırıcıyı kullanın.  Kaydırıcı Kapalı olarak ayarlandığında abonelik silinmez. Aboneliği silmek için çöp kutusu simgesini seçin.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
+   ![Abone ol penceresi](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
 4. Aboneliği kaydetmek için **Kaydet ve kapat** seçeneğini belirleyin. Temel alınan veri kümelerinden herhangi biri değiştiğinde e-posta yoluyla panonun bir ekran görüntüsünü alırsınız. Panoda günde birden fazla yenileme işlemi gerçekleştiriliyorsa yalnızca ilk yenilemeden sonra e-posta üzerinden anlık görüntüyü alırsınız.
    
-   ![](media/service-report-subscribe/power-bi-dashboard-email-new.png)
+   ![panonun anlık görüntüsünü e-posta ile gönderme](media/service-report-subscribe/power-bi-dashboard-email-new.png)
    
    > [!TIP]
-   > E-postayı hemen görmek mi istiyorsunuz? Panoyla ilişkili veri kümelerinden birini yenileyerek bir e-posta tetikleyin. (Veri kümesi için düzenleme izinlerine sahip değilseniz bu izinlere sahip birisinden söz konusu işlemi sizin için gerçekleştirmesini istemeniz gerekir.) Panoyu oluşturmak için hangi veri kümelerinin kullanıldığını öğrenmek üzere panodan **İlişkilileri görüntüle** simgesini ![](media/service-report-subscribe/power-bi-view-related.png) seçerek **İlişkili içerik**'i açın ve ardından, yenileme simgesini ![](media/service-report-subscribe/power-bi-refresh.png) seçin. 
+   > E-postayı hemen görmek mi istiyorsunuz? Panoyla ilişkili veri kümelerinden birini yenileyerek bir e-posta tetikleyin. (Veri kümesi için düzenleme izinlerine sahip değilseniz bu izinlere sahip birisinden söz konusu işlemi sizin için gerçekleştirmesini istemeniz gerekir.) Panonun oluşturulmasında hangi veri kümelerinin kullanıldığını öğrenmek için panodan **İlişkilileri görüntüle** simgesini ![İlişkilileri görüntüle simgesi](media/service-report-subscribe/power-bi-view-related.png) seçerek **İlişkili içerik**’i açın ve sonra yenile simgesini ![yenile simgesi](media/service-report-subscribe/power-bi-refresh.png) seçin. 
    > 
    > 
    
-   ![](media/service-report-subscribe/power-bi-view-related-screen.png)
+   ![İlişkili veri kümeleri](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Bir rapor sayfasına abone olma
 1. Raporu [Okuma görünümü](service-reading-view-and-editing-view.md)'nde açın.
 2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Abone ol simgesi](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Tek seferde yalnızca bir rapor sayfasına abone olabilirsiniz. Açılan menüden istediğiniz rapor sayfasını seçin.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dialog.png)
+   ![Abonelik penceresi](media/service-report-subscribe/power-bi-subscribe-dialog.png)
    
    Rapor sayfaları eklemeye devam edin.
 4. Her bir sayfaya ilişkin aboneliği açıp kapatmak için sarı kaydırıcıyı kullanın.  Kaydırıcı Kapalı olarak ayarlandığında abonelik silinmez. Aboneliği silmek için çöp kutusu simgesini seçin.
    
-   ![](media/service-report-subscribe/power-bi-slider.png)
+   ![aboneliği açma](media/service-report-subscribe/power-bi-slider.png)
 5. Aboneliği kaydetmek için **Kaydet ve kapat** seçeneğini belirleyin. Rapor yenilendiğinde her rapor sayfasının anlık görüntüsünü içeren bir e-posta alırsınız. Raporun yenilenmediği günler anlık görüntü almazsınız.  Raporda günde birden fazla yenileme gerçekleşiyorsa yalnızca ilk yenilemeden sonra e-posta ile anlık görüntü alırsınız.
    
-   ![](media/service-report-subscribe/power-bi-subscription-email.png)
+   ![panonun anlık görüntüsünü e-posta ile gönderme](media/service-report-subscribe/power-bi-subscription-email.png)
    
    > [!TIP]
    > E-postayı hemen görmek mi istiyorsunuz? Veri kümenizi açıp **Şimdi yenile** seçeneğini belirleyerek bir e-postayı tetikleyebilirsiniz. Veri kümesi için düzenleme izinlerine sahip değilseniz bu izinlere sahip birisinden bu işlemi sizin için gerçekleştirmesini istemeniz gerekir.
    > 
-   > ![](media/service-report-subscribe/power-bi-refresh-now.png)
+   > ![Veri Kümeleri sekmesindeki Şimdi yenile simgesi](media/service-report-subscribe/power-bi-refresh-now.png)
    > 
    > 
 
@@ -98,13 +98,13 @@ Aşağıdaki tabloda, ne sıklıkla e-posta alacağınız açıklanmaktadır. Bu
 | **Kullanıcı, abonelik e-posta zamanlaması üzerinde ne kadar denetim sahibidir?** |Seçenekler şunlardır: günlük veya haftalık |Seçenek yok: Raporun yenilenmesi durumunda günde en fazla bir kez olmak üzere kullanıcılara e-posta gönderilir. |Yenileme zamanlaması günlükse seçenekler günlük ve haftalıktır.  Yenileme zamanlaması haftalıksa tek seçenek haftalıktır. |Seçenek yok: Veri kümesi her güncelleştirildiğinde kullanıcıya günde en fazla bir kez olmak üzere e-posta gönderilir. |
 
 ## <a name="manage-your-subscriptions"></a>Aboneliklerinizi yönetme
-Aboneliklerinizi yönetmeye yönelik ekrana 2 farklı şekilde ulaşabilirsiniz.  İlki **E-postalara abone olun** iletişim kutusundan **Tüm abonelikleri yönet** seçeneğini belirlemektir. (Yukarıdaki 3. adıma bakın.) İkincisi ise üstteki menü çubuğundan Power BI dişli simgesini ![](media/service-report-subscribe/power-bi-settings-icon.png) seçip **Ayarlar** seçeneğini belirlemektir.
+Aboneliklerinizi yönetmeye yönelik ekrana 2 farklı şekilde ulaşabilirsiniz.  İlki **E-postalara abone olun** iletişim kutusundan **Tüm abonelikleri yönet** seçeneğini belirlemektir. (Yukarıdaki 3. adıma bakın.) İkincisi ise üstteki menü çubuğundan Power BI dişli simgesini ![dişli simgesi](media/service-report-subscribe/power-bi-settings-icon.png) seçip **Ayarlar** seçeneğini belirlemektir.
 
-![](media/service-report-subscribe/power-bi-subscribe-settings.png)
+![Ayarlar seçeneğini belirleme](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
 Görüntülenecek abonelikler o sırada etkin olan çalışma alanına bağlıdır.  Tüm çalışma alanları için aboneliklerinizi aynı anda görmek için **Çalışma Alanım**'ın etkin olduğundan emin olun. Çalışma alanlarının anlaşılması konusunda yardım almak için bkz. [Power BI'daki Çalışma Alanları](service-create-distribute-apps.md).
 
-![](media/service-report-subscribe/power-bi-subscriptions.png)
+![Çalışma Alanım içinde tüm abonelikleri görüntüleme](media/service-report-subscribe/power-bi-subscriptions.png)
 
 Pro lisansının süresi dolarsa abonelik sona erer; pano veya rapor, sahibi tarafından silinir ve aboneliğin oluşturulması için kullanılan kullanıcı hesabı silinir.
 
@@ -120,7 +120,7 @@ Pro lisansının süresi dolarsa abonelik sona erer; pano veya rapor, sahibi tar
 * E-posta boyutu sınırları nedeniyle, çok büyük resimler içeren panolarda veya raporlarda abonelikler başarısız olabilir.    
 * Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır.  Ancak bir panoya veya rapora abonelik eklerseniz bu abonelik ziyaret edilmese bile duraklatılmaz.    
 * Abonelik e-postalarını almıyorsanız Kullanıcı Asıl Adınızın (UPN) e-posta alabildiğinden emin olun. [Power BI ekibi şu anda bu gereksinimi esnetmek için çalışıyor](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), bu nedenle takipte kalın. 
-* Gönderilmiş raporlar ve panolar, Power BI dil ayarınızı kullanır. İngilizce varsayılan dildir. Dil tercihinizi görmek veya belirlemek için dişli simgesini ![](media/service-report-subscribe/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin.
+* Gönderilmiş raporlar ve panolar, Power BI dil ayarınızı kullanır. İngilizce varsayılan dildir. Dil tercihinizi görmek veya belirlemek için dişli simgesini ![dişli simgesi](media/service-report-subscribe/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)    

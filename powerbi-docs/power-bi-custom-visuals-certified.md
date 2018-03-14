@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
@@ -50,7 +50,9 @@ Bir özel görseli sertifikasyona göndermek için:
    * Başlık: Görsel Sertifikasyon Talebi    
    * Görsel kaynak kodunun bulunduğu GitHub deposu bağlantısı    
    * Gereksinimlere uygunluk bilgisi (yukarıya bakın)    
-   * Kod ve güvenlik incelemesini geçtiği bilgisi    2. Microsoft Özel Görseller ekibi, özel görseliniz sertifikalandığında ve Sertifikalı listesine (aşağıda) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve Sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
+   * Kod ve güvenlik incelemesini geçtiği bilgisi    
+
+2. Microsoft Özel Görseller ekibi, özel görseliniz sertifikalandığında ve Sertifikalı listesine (aşağıda) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve Sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI Sertifikalı özel görsellerinin kaldırılması
 Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden kaldırabilir.  
@@ -117,6 +119,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [MAQ Software Quadrant Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Video](https://youtu.be/ppBnyhqWNC0) |
 | [Radar Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software Ring Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
 | [MAQ Software Rotating Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Video](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Güneş ışığı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Video](https://youtu.be/C3OXdETbS9o) |
+| [Metin Filtresi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software Text Wrapper](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Termometre](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Zaman serisi ayrıştırma grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

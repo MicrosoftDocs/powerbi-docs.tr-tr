@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -94,7 +95,7 @@ Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini iç
      ![Özelleştirilmiş görüntü](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Uygulamanızı yayımlama
-Uygulama çalışma alanınızdaki panolar ve raporlar hazır olduğunda, bunları bir uygulama olarak yayımlayabilirsiniz. Unutmayın, çalışma alanındaki tüm raporları ve panoları yayımlamanıza gerek yoktur. Yalnızca hazır olanları yayımlamanız yeterlidir. 
+Uygulama çalışma alanınızdaki panolar ve raporlar hazır olduğunda, bunları bir uygulama olarak yayımlayabilirsiniz. Unutmayın, çalışma alanındaki tüm raporları ve panoları yayımlamanıza gerek yoktur. Yalnızca hazır olanları yayımlamanız yeterlidir.
 
 1. Çalışma alanı liste görünümünde, hangi panoları ve raporları uygulamaya eklemek istediğinize karar verin.
 
@@ -104,23 +105,23 @@ Uygulama çalışma alanınızdaki panolar ve raporlar hazır olduğunda, bunlar
 
      ![İlişkili pano uyarısı](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Sağ üstteki **Uygulamayı yayımla** düğmesini seçtiğinizde tüm içeriğin söz konusu çalışma alanında paylaşılma süreci başlar.
+2. Sağ üstteki **Uygulamayı yayımla** düğmesini seçtiğinizde tüm içeriğin söz konusu çalışma alanında paylaşılma süreci başlar.
    
      ![Uygulama yayımlama](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. **Ayrıntılar** alanına kullanıcıların uygulamayı bulmasını kolaylaştıracak bir açıklama girin. Bunu özelleştirmek için bir arka plan rengi ayarlayabilirsiniz.
+3. **Ayrıntılar** alanına kullanıcıların uygulamayı bulmasını kolaylaştıracak bir açıklama girin. Bunu özelleştirmek için bir arka plan rengi ayarlayabilirsiniz.
    
      ![Uygulama ayrıntıları](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. **İçerik**'te uygulamanın parçası olarak yayımlanacak içeriği, diğer bir deyişle söz konusu çalışma alanında seçtiğiniz her şeyi görebilirsiniz. Ayrıca, uygulama giriş sayfasını, başka bir deyişle kullanıcıların uygulamanıza girdiğinde göreceği ilk pano veya raporu da ayarlayabilirsiniz. **Hiçbiri**'ni seçebilirsiniz. Bu durumda giriş sayfası uygulamadaki bütün içeriklerin bir listesi olacaktır. 
+4. **İçerik**'te uygulamanın parçası olarak yayımlanacak içeriği, diğer bir deyişle söz konusu çalışma alanında seçtiğiniz her şeyi görebilirsiniz. Ayrıca, uygulama giriş sayfasını, başka bir deyişle kullanıcıların uygulamanıza girdiğinde göreceği ilk pano veya raporu da ayarlayabilirsiniz. **Hiçbiri**'ni seçebilirsiniz. Bu durumda giriş sayfası uygulamadaki bütün içeriklerin bir listesi olacaktır. 
    
      ![Uygulama içeriği](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz.
+5. **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz. Bu ayarı [Power BI Yönetim Portalı](#how-to-enable-pushing-apps)’nda etkinleştirebilirsiniz. [Bir uygulama göndermeye](#how-to-enable-pushing-apps) ilişkin dikkate alınması gereken diğer noktalarla ilgili daha fazla bilgi edinebilirsiniz.
 
     ![Uygulama erişimi](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. **Son**'u seçtiğinizde, uygulamanın yayımlamaya hazır olduğunu doğrulayan bir ileti göreceksiniz. Başarılı iletişim kutusundaki URL'yi kopyalayabilirsiniz. Bu, uygulamaya doğrudan bir bağlantıdır ve bunu uygulamayı paylaştığınız kişilere gönderebilirsiniz.
+6. **Son**'u seçtiğinizde, uygulamanın yayımlamaya hazır olduğunu doğrulayan bir ileti göreceksiniz. Başarılı iletişim kutusundaki URL'yi kopyalayabilirsiniz. Bu, uygulamaya doğrudan bir bağlantıdır ve bunu uygulamayı paylaştığınız kişilere gönderebilirsiniz.
    
      ![Uygulama sonu](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteye
    
      Uygulama çalışma alanı sizin hazırlama alanınızdır. Değişiklikleriniz, uygulamayı tekrar yayımlamadığınız sürece uygulamada kullanıma alınmaz. Böylece yayımlanmış uygulamaları etkilemeden değişiklik yapabilirsiniz.  
  
-1. Uygulama çalışma alanı içerik listesine geri dönün ve **Uygulamayı güncelleştir**'i seçin.
+3. Uygulama çalışma alanı içerik listesine geri dönün ve **Uygulamayı güncelleştir**'i seçin.
    
      ![Uygulamayı güncelleştir düğmesi](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteye
      ![Uygulamayı güncelleştir düğmesi](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 Uygulamayı yayımladığınız kişiler, otomatik olarak uygulamanın güncelleştirilmiş sürümünü görür. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Son kullanıcılar için uygulamaları otomatik olarak yükleme
+Uygulamaları, son kullanıcılar için otomatik olarak yükleyebilirsiniz. Böylece doğru kişilere veya gruplara doğru uygulamaları dağıtmanız kolaylaşır.
+
+Uygulamalar, son kullanıcılarınızın işlerini yapmak için ihtiyaç duyduğu verileri sunar. Artık uygulamaları Microsoft AppSource’tan bulmak veya bir yükleme bağlantısını izlemek yerine söz konusu uygulamaları Uygulamalar içerik listesinden otomatik olarak yükleyebilirsiniz. Bu, standart Power BI içeriğini kullanıcılarınıza sunmanızı kolaylaştırır.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Bir uygulama, son kullanıcılar için otomatik olarak nasıl yüklenir?
+Yönetici, özelliği etkinleştirdikten sonra uygulama yayımcıları **uygulamayı otomatik olarak yüklemek** için kullanılabilecekleri yeni bir seçeneğe sahip olur. Kutu ***işaretli*** olduğunda ve uygulama yayımcısı **Son** (veya mevcut uygulamalar için **Uygulamayı güncelleştir**) seçeneğini belirlediğinde uygulama, **Erişim** sekmesinde uygulamanın **İzinler** bölümünde tanımlanmış tüm kullanıcılara veya gruplara gönderilir.
+
+![Uygulama göndermeyi etkinleştirme](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Kullanıcılar kendilerine gönderilen uygulamaları nasıl alır?
+Bir uygulamayı göndermenizin ardından uygulama otomatik olarak Uygulamalar listesinde görünür. Kuruluşunuzdaki bir kullanıcının veya iş rolünün parmaklarının ucunda olması gereken uygulamaları seçki olarak sunabilirsiniz.
+
+![Uygulama göndermeyi etkinleştirme](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Uygulamaları otomatik olarak yüklemeye ilişkin dikkat edilmesi gereken noktalar
+Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurmanız gereken bazı hususlar verilmiştir:
+
+* Kullanıcılar için bir uygulamayı otomatik olarak yüklemek zaman alabilir. Uygulamaların birçoğu kullanıcılar için hemen yüklenir ancak uygulamaları göndermek zaman alabilir.  Bu, uygulamadaki öğelerin ve erişim verilen kişilerin sayısını bağlıdır. Uygulamaları, çalışma saatleri dışında ve kullanıcılar bunlara ihtiyaç duymadan önce yeterince zaman varken göndermenizi öneririz. Uygulamaların kullanılabilirliği hakkında genel bilgilendirme göndermeden önce birkaç kullanıcı ile bunu doğrulayın.
+
+* Tarayıcınızı yenileyin. Kullanıcının, gönderilen uygulamayı Uygulamalar listesinde görebilmek için önce tarayıcısını yenilemesi veya kapatıp yeniden açması gerekebilir.
+
+* Kullanıcı, uygulamayı Uygulamalar listesinde hemen görmüyorsa tarayıcısını yenilemeli veya kapatıp yeniden açmalıdır.
+
+* Kullanıcılara zahmet vermemeye çalışın. Kullanıcılarınızın önceden yüklenen uygulamaların onlar için kullanışlı olduğu algısına kapılmaması için çok fazla sayıda uygulama göndermemeye dikkat edin. İdeal yaklaşım, zamanlamayı koordine edebilmek açısından son kullanıcılara kimlerin uygulama gönderebileceğini denetlemektir. Kuruluşunuzda, son kullanıcılara gönderilen uygulamaları alacak bir irtibat kişisi belirleyebilirsiniz.
 
 ## <a name="unpublish-an-app"></a>Bir uygulamayı yayımdan kaldırma
 Uygulama çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.
@@ -167,7 +194,7 @@ Bu sürümde, tüm grup çalışma alanlarını uygulama çalışma alanları ol
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Uygulamalarla kurumsal içerik paketlerinin farkı nedir?
 Uygulamalar, içerik paketlerinin evrim geçirmiş, basitleşmiş ve birkaç önemli farklılığı olan halleridir. 
 
-* İş kullanıcıları bir içerik paketi yükledikten sonra paket, gruplandırılmış kimliğini kaybeder: Başka panolar ve raporlara karışmış bir pano ve rapor listesinden ibaret olur. Buna karşın uygulamalar, gruplandırılmış halleri ve kimliklerini yüklemeden sonra bile korur. Böylece iş kullanıcıları zaman geçtikten sonra bile uygulamalara kolayca gidebilir.  
+* İş kullanıcıları bir içerik paketi yükledikten sonra paket, gruplandırılmış kimliğini kaybeder: Başka panolar ve raporlara karışmış bir pano ve rapor listesinden ibaret olur. Buna karşın uygulamalar, gruplandırılmış halleri ve kimliklerini yüklemeden sonra bile korur. Böylece iş kullanıcıları zaman geçtikten sonra bile uygulamalara kolayca gidebilir.
 * Herhangi bir çalışma alanında birden çok içerik paketi oluşturabilirsiniz ancak bir uygulamanın çalışma alanıyla bire bir ilişkisi vardır. Böylece uygulamaların anlaşılmasının ve korunmasının uzun vadede kolaylaştığına inanıyoruz. Bu alanı nasıl iyileştirmeyi planladığımızla ilgili daha çok bilgi için Power BI blogunun "roadmap" (yol haritası) bölümüne başvurun. 
 * Zaman içinde kurumsal içerik paketlerini kullanımdan kaldırmayı planlıyoruz. Bu nedenle bundan sonra uygulama oluşturmanızı öneririz.  
 
@@ -179,5 +206,5 @@ Uygulamalarda ise, uygulama çalışma alanınızın salt okunur bir sürümün�
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulamaları yükleme ve kullanma](service-install-use-apps.md)
 * [Dış hizmetler için Power BI uygulamaları](service-connect-to-services.md)
+* [Power BI Yönetici Portalı](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

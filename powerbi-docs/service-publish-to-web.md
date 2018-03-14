@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -135,7 +136,7 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 **Web'de yayımla** özelliği Power BI hizmetindeki veri kaynaklarının ve raporların çoğu için desteklenmektedir ancak aşağıdaki öğeler şu anda Web'de yayımla işlevinde desteklenmez ve kullanılamaz:
 
 1. Satır düzeyi güvenlik kullanan raporlar.
-2. Şirket içi ortamda barındırılan Analysis Services tablolarını kullanan raporlar.
+2. Analysis Services - Çok Boyutlu, Azure Analysis Services, Power BI Hizmeti ve şirket içi ortamda barındırılan Analysis Services Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
 3. Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
 4. Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
 5. "R" Görselleri şu an için Web'de yayımla özelliği tarafından desteklenmemektedir.

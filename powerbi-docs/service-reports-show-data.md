@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 ## <a name="show-data"></a>Verileri Göster
@@ -38,16 +39,16 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 1. Power BI hizmetinde bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın ve bir görsel seçin.  Power BI Desktop'ta Rapor görünümünü açın.
 2. Görselde kullanılan verileri görüntülemek için **Araştır** > **Verileri göster**'i seçin.
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![Verileri Göster’i seçme](media/service-reports-show-data/power-bi-show-data.png)
 3. Veriler varsayılan olarak görselin altında gösterilir.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![görsel ve veri dikey görüntüsü](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. Verilerin yönünü değiştirmek için görselleştirmenin sağ üst köşesinden dikey düzeni ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) seçin.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![görsel ve veri yatay görüntüsü](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. Verileri .csv biçiminde dışarı aktarmak için üç noktayı ve ardından **Verileri dışarı aktar**'ı seçin.
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![Verileri dışarı aktar’ı seçme](media/service-reports-show-data/power-bi-export-data-new.png)
    
     Verileri Excel'e aktarma hakkında daha fazla bilgi için bkz. [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md).
 6. Verileri gizlemek için **Araştır** > **verileri göster** seçimini kaldırın.

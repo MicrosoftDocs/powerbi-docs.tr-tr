@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -39,6 +39,10 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Miranda Li
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**20 Dakika İçinde Bir Power BI Panosunda Aradıklarınızı Bulmayı Öğrenin**
+<br>Sağlayan: Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI (Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj)**
 <br>Sağlayan: Carlos Otero ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 
 Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun
 
-**Office 365 Finans Uzmanları Web Semineri Serisi - 2. Bölüm: Yinelenen Raporları otomatikleştirme ve Self Servis Analizi Etkinleştirme**
-<br>Sağlayan: Mark Traverso ve Miguel Martinez
-<br>*15 Şubat, 12.00 PST, 15.00 EST*
+**Power BI benimseme çerçevesi web semineri serisi: 1. Bölüm - Adoption: Adopt a data-driven culture (Benimseme: Veri odaklı bir kültürü benimseme)**
+<br>Manu Kanwarpal
+<br>*8 Mart, 09:00 PST, 12:00 EST*
 
-Office 365’i kullanarak günlük işlerinizde daha fazlasını başarmak için ipuçları, püf noktaları ve en iyi yöntemler hakkında bilgi edinin.
+Kuruluşunuzun anlayışını veri odaklı bir kültüre dönüştürün ve Microsoft’tan Power BI’ya yönelik size bir benimseme çerçevesi sunan Web Semineri serisine kaydolun. Self servis iş zekasını (BI) benimsemek zordur ve araçları edinmek, yolculuğunuzun yalnızca ilk adımıdır. Başarılı bir benimseme süreci; çalışanlarda, işlemlerde ve teknolojide değişim gerektirir.
+Bu web semineri, beş bölümden oluşan serinin, kuruluşunuz için Power BI’ın potansiyelini ortaya çıkarmaya yönelik birinci bölümüdür.
 
-[15 Şubat’ta izlemek üzere kaydolun](https://aka.ms/Office365FinanceProsPBI)
-
-**Microsoft ile BI Çözümleri Pazarlama**
-<br>Sağlayan: Tamer Farag
-<br>*15 Şubat, 08.00 PST, 11.00 EST*
-
-Microsoft ile başarılı bir iş ortaklığı kurarak İş Zekası pazar fırsatını nasıl yakalayabileceğiniz hakkında bilgi edinmek için bu web seminerine katılın. İşinizi kurup büyütmenize yardımcı olmaya yönelik en güncel eğitim kaynaklarımıza, pazarlama malzemelerimize, teşviklerimize ve tekliflerimize genel bir bakış atın. Ayrıca, çözüm ve tekliflerinizin Microsoft müşterileri ile satıcılarının dikkatini çekecek merkezi bir konumda olmasını sağlamak için PowerBI.com ve AppSource.com’da nasıl vitrinde yer alabileceğinizi öğrenin.
-
-[15 Şubat’ta izlemek üzere kaydolun](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**20 Dakika İçinde Bir Power BI Panosunda Aradıklarınızı Bulmayı Öğrenin**
-<br>Sağlayan: Miguel Martinez
-<br>*21 Şubat, 10.00 PST, 13.00 EST*
-
-Hiç bir Power BI Panosunu açıp ne yapmanız gerektiğini anlayamadığınız oldu mu?  Bir panoda sizin için önemli olan verileri nasıl bulabileceğinizi bilmediğiniz durumlarla karşılaştınız mı? “Bir şeyleri bozma” korkusuyla filtre ve dilimleyici kullanımınızı kısıtlıyor musunuz?  Hiç korkmayın. Bize katılarak bir Power BI panosunda aradıklarınızı nasıl bulabileceğinizi öğrenin. Diğer yöneticiler tarafından yaygın olarak kullanılan ve aradığınız verilere istediğiniz zaman ulaşmanıza imkan tanıyan özellikleri adım adım göstereceğiz.
-
-[21 Şubat’ta izlemek üzere kaydolun](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**Yeni Power BI ve data.world bağlayıcısı ile genel veya özel veri kümelerini görselleştirme**
-<br>*22 Şubat, 10.00 PST, 13.00 EST*
-
-Microsoft, data.world ile işbirliği yaparak data.world veri kümelerini Power BI Desktop'ta içeri aktarmanıza imkan tanıyan yeni bir veri bağlayıcısı yayınladı. Bu harika yeni bağlayıcının sağladığı avantajlardan yararlanmayı ve data.world topluluğunun gücünden yararlanarak veri öykünüz üzerinde başkalarıyla paylaşım ve işbirliği yapmayı öğrenmek için bize katılın.
-
-[22 Şubat’ta izlemek üzere kaydolun](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[8 Mart’ta izlemek üzere kaydolun](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Jon Thompson, Blue Margin ve Jim Pastor, Elgin Fastener Group
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**Yeni Power BI ve data.world bağlayıcısı ile genel veya özel veri kümelerini görselleştirme**
+<br>Patrick McGarry ve Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>İleri Düzey Konular ###
+
+**Office 365 Finans Uzmanları Web Semineri Serisi - 2. Bölüm: Yinelenen Raporları otomatikleştirme ve Self Servis Analizi Etkinleştirme**
+<br>Sağlayan: Mark Traverso ve Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://aka.ms/Office365FinanceProsPBI)
 
 **How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Kuruluşunuzu Daha Güvenli Hale Getirecek Başarılı bir Veri Yönetimi Stratejisi Uygulama)**
 <br>Sağlayan: Ajay Anandan

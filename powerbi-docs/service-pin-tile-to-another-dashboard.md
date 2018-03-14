@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: bf0146bf8cd57c515b0572b6a485e8da1a50f159
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 4784a5d07cab1f637afa6cf6622ea00fd264d501
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
 Yeni [pano kutucuğu](service-dashboard-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 
@@ -34,17 +35,17 @@ Yeni [pano kutucuğu](service-dashboard-tiles.md) eklemenin bir yolu da kutucuğ
 2. Bir [pano](service-dashboards.md) açın.
 3. Sabitlemek istediğiniz kutucuğun üzerine gelip üç nokta (...) simgesini ve ardından **Kutucuğu sabitle**'yi seçin.  
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
+   ![üç nokta menüsü](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. 
    
    * **Var olan pano**: Açılan listeden panonun adını seçin.
    * **Yeni pano**: Yeni panonun adını girin.
    
-   ![](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
+   ![Panoya Sabitle iletişim kutusu](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
 5. **Sabitle**'yi seçin.
    Sağ üst köşenin yakınında görüntülenen Başarılı iletisi, görselleştirmenin bir kutucuk olarak seçili panoya eklendiğini bildirir.
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
+   ![Panoya sabitlendi penceresi](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
 6. Sabitlenmiş kutucuğu görmek için **Panoya git**'i seçin. Burada, sabitlenmiş görselleştirmeyi [yeniden adlandırabilir, yeniden boyutlandırabilir, bağlantılı hale getirebilir ve taşıyabilirsiniz](service-dashboard-edit-tile.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar

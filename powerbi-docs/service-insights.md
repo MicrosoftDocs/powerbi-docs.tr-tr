@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI ile otomatik olarak veri öngörüleri oluşturma
 Yeni bir veri kümeniz var ve keşfetmeye nereden başlayacağınızı bilemiyor musunuz?  Hızla bir pano mu oluşturmanız gerekiyor?  Gözünüzden kaçmış olabilecek öngörülere göz atmak mı istiyorsunuz?
@@ -45,43 +46,42 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 
 1. **Veri kümeleri** sekmesinde, üç nokta simgesini (...) ve **Öngörü al**'ı seçin.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![Veri Kümeleri sekmesi](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![üç nokta menüsü](media/service-insights/power-bi-tab.png)
 2. Power BI [çeşitli algoritmalar](service-insight-types.md) kullanarak veri kümenizdeki eğilimleri arar.
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![Öngörüler aranıyor iletişim kutusu](media/service-insights/pbi_autoinsightssearching.png)
 3. Öngörüleriniz saniyeler içinde hazır duruma gelir.  Görselleştirmeleri görüntülemek için **Öngörüleri görüntüle**'yi seçin.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![başarılı iletisi](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **NOT**: Bazı veri kümelerindeki veriler istatistiksel olarak önemsiz olduğundan bu veri kümelerinde öngörü oluşturulamaz.  Daha fazla bilgi için bkz. [Verilerinizi öngörüler için en iyi duruma getirme](service-insights-optimize.md).
    > 
    > 
 1. Görselleştirmeler, en fazla 32 ayrı öngörü kartını destekleyen özel bir **Hızlı Öngörüler** tuvalinde görüntülenir. Her kartta bir grafik veya graf ile kısa bir açıklama bulunur.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![Hızlı Öngörüler tuvali](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Öngörü kartlarıyla etkileşim kurma
-  ![](media/service-insights/pbi_hover.png)
+  ![raptiye simgesi](media/service-insights/pbi_hover.png)
 
 1. Kartlardan birinin üzerine gelin ve görselleştirmeyi bir panoya eklemek için raptiye simgesini seçin.
 2. Bir kartın üzerine gelin, üç nokta (...) simgesini ve ardından **Öngörüleri görüntüle**'yi seçin. Böylece öngörü tam ekran olarak açılır.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![Öngörü tam ekranı](media/service-insights/power-bi-insight-focus.png)
 3. Odak modunda şunları yapabilirsiniz:
    
    * Görselleştirmeleri filtreleyebilirsiniz.  Filtreleri görüntülemek için sağ üst köşedeki oku seçerek Filtreler bölmesini genişletin.
+        ![genişletilmiş öngörü ve Filtreler menüsü](media/service-insights/power-bi-insights-filter-new.png)
+   * Raptiye ![raptiye simgesi](media/service-insights/power-bi-pin-icon.png) simgesini veya **Görseli sabitle**’yi seçerek öngörü kartını bir panoya sabitleyin.
+   * Kart üzerinde öngörüler çalıştırın. Bunlar genellikle **kapsamlı öngörüler** olarak adlandırılır. Sağ üst köşede, ampul simgesini ![Öngörü al simgesi](media/service-insights/power-bi-bulb-icon.png) veya **Öngörü al**’ı seçin.
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * Raptiye ![](media/service-insights/power-bi-pin-icon.png)  simgesini veya **Görseli sabitle**'yi seçerek öngörü kartını bir panoya sabitleyebilirsiniz.
-   * Kart üzerinde öngörüler çalıştırın. Bunlar genellikle **kapsamlı öngörüler** olarak adlandırılır. Sağ üst köşedeki ampul simgesini ![](media/service-insights/power-bi-bulb-icon.png) veya **Öngörü al**'ı seçin.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![Öngörü Al simgesini gösteren menü çubuğu](media/service-insights/pbi-autoinsights-tile.png)
      
      Öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni kartlar da sağ tarafta görüntülenir.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![öngörüler seçeneğinde öngörüler](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Özgün öngörü tuvaline geri dönmek için sol üst köşedeki **Odak modundan çık**'ı seçin.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Bir pano kutucuğu üzerinde öngörüler çalıştırma
@@ -90,7 +90,7 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 1. Bir pano açın.
 2. Bir kutucuğun üzerine gelin, üç nokta (...) simgesini ve ardından **Öngörüleri görüntüle**'yi seçin. Kutucuk, öngörü kartları sağ tarafta görüntülenecek şekilde [Odak modunda](service-focus-mode.md) açılır.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![Odak modu](media/service-insights/pbi-insights-tile.png)    
 4. Öngörülerden biri ilginizi mi çekti? İlgili öngörü kartını seçerek detaylandırabilirsiniz. Seçilen öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni öngörü kartları da sağ tarafta görüntülenir.    
 6. Verilerinizi ayrıntılı olarak incelemeye devam edin, ilginizi çeken bir öngörü bulduğunuzda sağ üst köşedeki **Görseli sabitle**'yi seçerek bu öngörüyü panonuza sabitleyin.
 

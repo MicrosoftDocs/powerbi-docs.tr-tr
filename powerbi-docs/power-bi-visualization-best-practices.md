@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Rapor sayfalarının arka planını belirlerken raporu gölgede bırakmayan, say
 
 Sanat eseri değil işlevsel bir rapor oluşturduğunuzu unutmayın. Rapor öğelerinin okunabilirliğini ve önceliğini geliştiren bir renk seçin.  
 
-Web sayfalarında renk ve görselleştirme kullanımı hakkında yapılan bir çalışma, renkler arasındaki karşıtlığın yüksek olmasının kavramayı geliştirdiğini göstermiştir (*The effect of text and background colour on visual search of Web pages (Web sayfalarının görsel taraması üzerinde metnin ve arka plan renginin etkisi)** ve **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics (Kullanıcıların web sayfalarının görsel karmaşıklık ve estetik özellikleri algısını belirleme)*.)
+Web sayfalarında renk ve görselleştirme kullanımı hakkında yapılan bir çalışma, renkler arasındaki karşıtlığın yüksek olmasının kavramayı geliştirdiğini göstermiştir (The effect of text and background colour on visual search of Web pages (Web sayfalarının görsel taraması üzerinde metnin ve arka plan renginin etkisi) ve **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics (Kullanıcıların web sayfalarının görsel karmaşıklık ve estetik özellikleri algısını belirleme))**.
 
 Renklerle ilgili en iyi uygulamaların bazılarını aşağıdaki örnek raporumuza (Şekil 20 ve 21) uyguladık. En çok dikkat çeken nokta arka plan renginin siyah olarak değiştirilmiş olmasıdır.  Sarı renk çok parlak olduğundan göz alıyordu.  Ayrıca "Count of athlete name by year and class" grafiğindeki çubukların sarı bölümü, sarı renkli arka planda kayboluyordu.  Siyah (veya beyaz) arka plan en yüksek karşıtlığı sağlar ve görselleri odak noktası haline getirir.
 
@@ -425,7 +426,7 @@ Ardından, ayarlanacak görsel öğeyi seçin ve Açık ayarının seçildiğind
 
 **Metin boyutunu ayarlama**
 
-Başlıkların ve veri etiketlerinin metin boyutu ayarlanabilir ancak bu ayar X veya Y ekseni ve açıklamalar için yapılamaz.  Veri etiketleri için **Görüntüleme birimleri** ve **Ondalık Basamaklar** ayarlarıyla oynayarak raporunuzda görüntülenen ayrıntılar için en uygun boyutu belirleyebilirsiniz.   
+Başlıkların ve veri etiketlerinin metin boyutu ayarlanabilir ancak bu ayar X veya Y ekseni ve açıklamalar için yapılamaz.  Veri etiketleri için **Birimleri görüntüle** ve **Ondalık Basamaklar** ayarlarıyla oynayarak raporunuzda görüntülenen ayrıntılar için en uygun boyutu belirleyebilirsiniz.   
 
 **Metin hizalamayı ayarlama**
 
@@ -796,20 +797,20 @@ Pasta grafikler hakkında başka bir eğlenceli makale (ve animasyon) için [Dar
 
 Dilerseniz olaya diğer taraftan bakmak için [Why Tufte is flat-out wrong about pie charts (Tufte'ın pasta grafikler hakkında doğru bildikleri)](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) yazısını okuyabilirsiniz
 
-#### <a name="radial-gauges--kpis"></a>Radyal Ölçerler ve KPI'ler
+#### <a name="radial-gauges--kpis"></a>Radyal Ölçekler ve KPI'ler
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)
 
-Radyal ölçerler belirli bir hedefe ulaşma durumunu gösteren yararlı bir görseldir ve özellikle yöneticilere yönelik panolarda çok fazla kullanılır. Ancak, bu ölçeklerin iki önemli kusuru vardır. Pasta grafiklerinde olduğu gibi gölgeli alanın açısının tam 180 derecelik yay veya hedef çizgiye kıyasla yorumlanması zordur. Aynı zamanda kullanıcılara tek bir ölçümü göstermek için çok fazla yer kaplar.
+Radyal ölçekler belirli bir hedefe ulaşma durumunu gösteren yararlı bir görseldir ve özellikle yöneticilere yönelik panolarda çok fazla kullanılır. Ancak, bu ölçeklerin iki önemli kusuru vardır. Pasta grafiklerinde olduğu gibi gölgeli alanın açısının tam 180 derecelik yay veya hedef çizgiye kıyasla yorumlanması zordur. Aynı zamanda kullanıcılara tek bir ölçümü göstermek için çok fazla yer kaplar.
 
 İyi alternatiflerden biri basit bir KPI görseli kullanmaktır
 
 ![](media/power-bi-visualization-best-practices/power-bi-kpi.png)
 
-KPI'ler aynı miktarda alanda değeri, durumu, hedefi, hedeften sapmayı ve eğilimi gösterir. Hedefe ulaşılmadığında yeşil renk kırmızıya döner ve ara hedeflere ulaşıldıysa sarıya dönebilir. Ölçere kıyasla okuması ve yorumlaması çok daha kolaydır.
+KPI'ler aynı miktarda alanda değeri, durumu, hedefi, hedeften sapmayı ve eğilimi gösterir. Hedefe ulaşılmadığında yeşil renk kırmızıya döner ve ara hedeflere ulaşıldıysa sarıya dönebilir. Ölçeğe kıyasla okuması ve yorumlaması çok daha kolaydır.
 
 Daha fazla bilgi için bkz.
 
-* [Eğitim: Power BI'daki radyal ölçer grafikleri](power-bi-visualization-radial-gauge-charts.md)
+* [Eğitim: Power BI'daki radyal ölçek grafikleri](power-bi-visualization-radial-gauge-charts.md)
 * [Eğitim: Power BI'daki KPI'ler](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Sonuç

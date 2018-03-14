@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Veri kümesi içeri aktararak yeni bir Power BI raporu oluşturma
 [Power BI'daki raporlar](service-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın birçok farklı yolu vardır. Biz bu makalede bir Excel veri kümesinden çok basit bir rapor oluşturarak başlayacağız. Rapor oluşturma işlemiyle ilgili temel bilgileri kavradığınızda, sayfanın en altında bulunan **Sonraki adımlar** bölümündeki bağlantıları kullanarak raporlarla ilgili daha ileri düzey konulara göz atabilirsiniz.  
@@ -37,22 +38,22 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 
 1. Raporu bir Power BI hizmeti çalışma alanında oluşturacağımızdan mevcut bir çalışma alanını seçin veya yenisini oluşturun.
    
-   ![](media/service-report-create-new/power-bi-workspaces2.png)
+   ![Uygulama çalışma alanlarının listesi](media/service-report-create-new/power-bi-workspaces2.png)
 2. Sol gezinti bölmesinin alt tarafında yer alan **Veri al** seçeneğini belirleyin.
    
-   ![](media/service-report-create-new/power-bi-get-data3.png)
+   ![Veri al](media/service-report-create-new/power-bi-get-data3.png)
 3. **Dosyalar**'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
    
-    ![](media/service-report-create-new/power-bi-select-files.png)
+    ![Dosyalar’ı seçme](media/service-report-create-new/power-bi-select-files.png)
 4. Bu alıştırma için **İçeri aktar** seçeneğini belirleyin.
    
-   ![](media/service-report-create-new/power-bi-import.png)
+   ![İçeri aktar seçeneğini belirleme](media/service-report-create-new/power-bi-import.png)
 5. Veri kümesi içeri aktarıldıktan sonra **Veri kümesini görüntüle**'yi seçin.
    
-   ![](media/service-report-create-new/power-bi-view-dataset.png)
+   ![Veri kümesini görüntüle’yi seçme](media/service-report-create-new/power-bi-view-dataset.png)
 6. Veri kümesi görüntülendiğinde rapor düzenleyicisi açılır.  Boş bir tuval ve rapor düzenleme araçları görürsünüz.
    
-   ![](media/service-report-create-new/power-bi-blank-report.png)
+   ![rapor düzenleyicisi](media/service-report-create-new/power-bi-blank-report.png)
 
 > **İPUCU**: Rapor düzenleme tuvalini daha önce hiç kullanmadıysanız veya bilgilerinizi tazelemeniz gerekiyorsa devam etmeden önce [Rapor düzenleyicisi ile ilgili bir tura katılın](service-the-report-editor-take-a-tour.md).
 > 
@@ -63,16 +64,16 @@ Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başla
 
 1. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** seçeneğini belirleyin.
    
-    ![](media/service-report-create-new/power-bi-report-step1.png)
-2. **Görsel Öğeler** bölmesinden Ölçer şablonunu ![](media/service-report-create-new/powerbi-gauge-icon.png) seçerek görseli bir Ölçere dönüştürün.
+    ![rapor düzenleyicisindeki çubuk grafik](media/service-report-create-new/power-bi-report-step1.png)
+2. **Görselleştirmeler** bölmesinden Ölçer şablonunu ![Ölçer simgesi](media/service-report-create-new/powerbi-gauge-icon.png) seçerek görseli bir Ölçere dönüştürün.
    
-    ![](media/service-report-create-new/power-bi-report-step2.png)
+    ![rapor düzenleyicisinde ölçer görseli](media/service-report-create-new/power-bi-report-step2.png)
 3. **Sales** > **This Year Sales** > **Hedef** alanını **Hedef değer** kutusuna sürükleyin. Hedefimize çok yakın olduğumuzu görüyoruz.
    
-    ![](media/service-report-create-new/power-bi-report-step3.png)
+    ![Hedef değer olarak Hedefin bulunduğu ölçer görseli](media/service-report-create-new/power-bi-report-step3.png)
 4. Şimdi [raporunuzu kaydedebilirsiniz](service-report-save.md).
    
-   ![](media/service-report-create-new/powerbi-save.png)
+   ![Dosya menüsü](media/service-report-create-new/powerbi-save.png)
 
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>Rapora alan grafiği ve dilimleyici ekleme
 Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Pazarlama müdürümüz, bu yıla ait satış verileriyle bir önceki yıla ait verileri karşılaştırmamızı istiyor. Ayrıca, sonuçları bölge temelinde görmek istiyor.
@@ -80,21 +81,21 @@ Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Paz
 1. Öncelikle tuvalde biraz yer açalım. Ölçer görselleştirmesini seçin ve sağ üst köşeye taşıyın. Ardından, köşelerden birini tutup sürükleyerek görseli küçültün.
 2. Ölçerin seçimini kaldırın. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** ve ardından **Sales** > **Last Year Sales** seçeneğini belirleyin.
    
-    ![](media/service-report-create-new/power-bi-report-step4.png)
-3. **Görsel Öğeler** bölmesinden Alan grafiği şablonunu ![](media/service-report-create-new/power-bi-areachart-icon.png) seçerek görseli bir Alan grafiğine dönüştürün.
+    ![Ölçerin ve çubuk grafiğin bulunduğu rapor düzenleyicisi](media/service-report-create-new/power-bi-report-step4.png)
+3. **Görselleştirmeler** bölmesinden Alan grafiği şablonunu ![grafik simgesi](media/service-report-create-new/power-bi-areachart-icon.png) seçerek görseli bir Alan grafiğine dönüştürün.
 4. **Eksen** kutusuna eklemek üzere **Time** > **Period** seçeneğini belirleyin.
    
-    ![](media/service-report-create-new/power-bi-report-step5.png)
+    ![Alan grafiğinin etkin olduğu rapor düzenleyicisi](media/service-report-create-new/power-bi-report-step5.png)
 5. Görselleştirmeyi zaman aralığına göre sıralamak için üç noktayı seçin ve **Döneme Göre Sırala** seçeneğini belirleyin.
-6. Şimdi de dilimleyiciyi ekleyelim. Tuvalde boş bir alanı ve ardından Dilimleyici ![](media/service-report-create-new/power-bi-slicer-icon.png) şablonunu seçin. Bu işlemin ardından, tuvalimize boş bir dilimleyici eklenir.
+6. Şimdi de dilimleyiciyi ekleyelim. Tuvalde boş bir alanı ve sonra Dilimleyici ![Dilimleyici simgesi](media/service-report-create-new/power-bi-slicer-icon.png)    şablonunu seçin. Bu işlemin ardından, tuvalimize boş bir dilimleyici eklenir.
    
-    ![](media/service-report-create-new/power-bi-report-step6.png)    
+    ![rapor tuvali](media/service-report-create-new/power-bi-report-step6.png)    
 7. Alanlar bölmesinde **District** > **District** seçeneğini belirleyin. Dilimleyiciyi taşıyın ve yeniden boyutlandırın.
    
-    ![](media/service-report-create-new/power-bi-report-step7.png)  
+    ![Rapor düzenleyicisi, Bölge ekleme](media/service-report-create-new/power-bi-report-step7.png)  
 8. Bölgeye göre belirli desenler ve öngörüler bulmak için dilimleyiciyi kullanın.
    
-   ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
+   ![dilimleyici kullanımının videosu](media/service-report-create-new/power-bi-slicer-video2.gif)  
 
 Verilerinizi keşfetmeye ve görsel öğeleri eklemeye devam edin. Özellikle ilgi çekici bilgiler bulduğunuzda [panoya sabitleyin](service-dashboard-pin-tile-from-report.md).
 

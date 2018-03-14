@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar, raporlar ve uygulamalar
 Bir içeriği *sık kullanılanlara* eklediğinizde panoya tüm çalışma alanlarınızdan erişebilirsiniz.  Sık kullanılanlar, genelde en çok ziyaret ettiğiniz içeriklerdir.
@@ -42,31 +42,31 @@ En çok ziyaret ettiği öğeleri çalışma alanındaki sık kullanılanlar lis
 
 
 1. Sık kullandığınız pano veya raporlardan birini açın. Sizinle paylaşılan içerikleri bile *sık kullanılanlara* ekleyebilirsiniz.
-2. Power BI hizmetinin sağ üst köşesinde bulunan **Sık kullanılanlara ekle**'yi veya yıldız ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) simgesini seçin.
+2. Power BI hizmetinin sağ üst köşesinde bulunan **Sık kullanılanlara ekle**’yi veya yıldız ![yıldız](media/service-dashboard-favorite/power-bi-favorite-icon.png) simgesini seçin.
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![Sık kullanılan simgesi](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    Ayrıca, çalışma alanınızın **Panolar** veya **Raporlar** içerik görünümü sekmesinden bir pano veya raporu sık kullanılanlara ekleyebilirsiniz.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![Sarı yıldızın bulunduğu pano sekmesi](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Bir uygulamayı *sık kullanılanlara* ekleme
 
 1. Sol gezinti bölmesinden **Uygulamalar**’ı seçin.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![pano](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. Daha fazla ayrıntı görüntülemek için bir uygulamanın üzerine gelin.  Yıldız simgesini ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) seçerek sık kullanılanlara ekleyin.
+2. Daha fazla ayrıntı görüntülemek için bir uygulamanın üzerine gelin.  Sık kullanılan olarak ayarlamak için yıldız ![yıldız simgesi](media/service-dashboard-favorite/power-bi-favorite-icon.png)  simgesini seçin.
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![uygulamanın üzerine gelme](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>*Sık kullanılanlar*'ı kullanma
 1. Sık kullanılanlara erişmek için herhangi bir çalışma alanında **Sık Kullanılanlar**'ın yanındaki oku seçin.  Burada, sık kullanılanlardan birini seçerek açabilirsiniz. Yalnızca beş sık kullanılan öğe listelenir (alfabetik sırada). Sık kullanılanlara beşten fazla öğe eklediyseniz sık kullanılanlar ekranını (aşağıdaki 2. görüntüye bakın) açmak için **Tümünü gör**'ü seçin. 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Sık kullanılanlara eklediğiniz **tüm** içeriği görmek için sol taraftaki gezinti bölmesinde bulunan **Sık Kullanılanlar**'ı veya Sık Kullanılanlar simgesini ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) seçin.  
+   ![Sık kullanılanlar açılır öğesi](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. Sık kullanılanlara eklediğiniz **tüm** içeriği görmek için sol taraftaki gezinti bölmesinde bulunan **Sık Kullanılanlar**’ı veya Sık Kullanılanlar ![yıldız simgesi](media/service-dashboard-favorite/power-bi-favorites-icon.png) simgesini seçin.  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![sık kullanılan penceresi](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    Burada şu işlemleri yapabilirsiniz: açma, sahipleri tanımlama ve hatta iş arkadaşlarınızla paylaşma.
 
@@ -75,7 +75,7 @@ Bir raporu artık eskisi kadar sık kullanmıyor musunuz?  Öyleyse sık kullan�
 
 1. Sol gezinti bölmesinde **Sık Kullanılanlar**'ı seçerek **Sık Kullanılanlar** ekranını açın.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![Sık Kullanılanlar ekranı](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. Sık kullanılanlardan çıkarmak istediğiniz içeriğin yanındaki sarı yıldızı seçin.
 
 > **NOT**: Bir panoyu, raporu veya uygulamayı da sık kullanılanlardan kaldırabilirsiniz. Yalnızca açın ve sarı simgenin seçimini kaldırın.   

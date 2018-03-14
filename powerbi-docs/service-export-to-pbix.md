@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
 Power BI Desktop uygulamasında bir raporu kaydedip **Yayımla**'yı seçerek Power BI hizmetine aktarabilirsiniz (*indirme* olarak da adlandırılır). Ayrıca, bu dışarı aktarma işleminin yönünü değiştirip Power BI hizmetinde bulunan bir raporu Desktop uygulamasına indirebilirsiniz. Herhangi bir yönde dışarı aktarılan dosyaların uzantısı *.pbix* olur.
 
 Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin sonraki bölümlerinde ele alınmıştır.
 
-![](media/service-export-to-pbix/power-bi-file-export.png)
+![Dosya açılan menüsü](media/service-export-to-pbix/power-bi-file-export.png)
 
 ## <a name="download-the-report-as-a-pbix"></a>Raporu .pbix olarak indirme
 .pbix dosyasını indirmek için şu adımları uygulayın:
@@ -42,18 +43,18 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin son
    > 
 3. .pbix dosyası oluşturulurken bir durum başlığında ilerleme durumu görüntülenir. Hazır olduğunda .pbix dosyasını açmanız veya kaydetmeniz istenir. Dosyanın adı raporun başlığıyla aynı olur.
    
-    ![](media/service-export-to-pbix/power-bi-save-pbix.png)
+    ![açma, kaydetme veya iptal etme](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Artık .pbix dosyasını ister Power BI hizmetinde (app.powerbi.com) isterseniz de Power BI Desktop uygulamasında açabilirsiniz.     
 4. Raporu Desktop uygulamasında hemen açmak için **Aç**'ı seçin. Dosyayı belirli bir konuma kaydetmek için **Kaydet > Farklı Kaydet**'i seçin. Henüz yüklü değilse [Power BI Desktop uygulamasını yükleyin](desktop-get-the-desktop.md).
    
     Raporu Desktop uygulamasında açtığınızda Power BI hizmeti raporunda bulunan bazı özelliklerin Desktop uygulamasında kullanılamayacağını belirten bir uyarı iletisiyle karşılaşabilirsiniz.
    
-    ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+    ![uyarı iletişim kutusu](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
 5. Desktop'taki rapor düzenleyicisi ile Power BI hizmetindeki rapor düzenleyicisi neredeyse aynı görünüme sahiptir.  
    
-    ![](media/service-export-to-pbix/power-bi-desktop.png)
+    ![Masaüstü rapor düzenleyicisi](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 Power BI hizmetinden *.pbix* dosyası indirirken (dışarı aktarırken) dikkat etmeniz gereken bazı önemli noktalar ve sınırlamalar vardır.

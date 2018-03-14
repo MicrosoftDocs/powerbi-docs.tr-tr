@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için satır düzeyi güvenlik (RLS) kullanılabilir. Birçok farklı kullanıcı, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
@@ -140,6 +140,47 @@ Analysis Services canlı bağlantılarıyla çalışırken bir [şirket içi ver
 
 Roller bir ekleme belirteci içinde kimlikle birlikte sağlanabilir. Rol sağlanmazsa ilgili rolleri çözümlemek için sağlanmış olan kullanıcı adı kullanılır.
 
+**CustomData özelliğini kullanma**
+
+CustomData özelliği, AS tarafından (CUSTOMDATA() işlevi aracılığıyla) kullanılacak bir değer olan CustomData bağlantı dizesi özelliği kullanılarak serbest metin (dize) geçirilmesine olanak sağlar.
+Bunu, veri tüketimini özelleştirmeye yönelik alternatif bir yol olarak kullanabilirsiniz.
+Bunu, rol DAX sorgusunun içinde veya bir ölçü DAX sorgusunda herhangi bir rol olmadan kullanabilirsiniz.
+CustomData özelliği, şu yapılara yönelik belirteç oluşturma işlevimizin bir parçasıdır: pano, rapor ve kutucuk. Panolarda birden çok CustomData kimliği (kutucuk/model başına bir adet) bulunabilir.
+
+> [!NOTE]
+> CustomData özelliği yalnızca Azure Analysis Services içinde bulunan modeller için ve yalnızca canlı modda çalışır. Kullanıcıların ve rollerin aksine özel veri özelliği bir .pbix dosyasının içinde ayarlanamaz. Özel veri özelliğiyle belirteç oluştururken bir kullanıcı adına sahip olmanız gerekir.
+>
+>
+
+**CustomData SDK Eklemeleri**
+
+CustomData dize özelliği, belirteç oluşturma senaryosunda etkili kimliğimize eklendi.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+Kimlik aşağıdaki çağrı kullanılarak özel verilerle oluşturulabilir:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK Kullanımı**
+
+REST API’sini çağırıyorsanız aşağıdaki gibi her kimliğin içine özel veriler ekleyebilirsiniz:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 * Power BI hizmetinde kullanıcıların rollere atanması, ekleme belirteci kullanıldığında RLS'yi etkilemez.
 * Power BI hizmeti RLS ayarını yöneticilere veya düzenleme izni olan üyelere uygulamaz ancak ekleme belirteciyle ilettiğiniz kimlikler verilere uygulanır.
@@ -150,4 +191,3 @@ Roller bir ekleme belirteci içinde kimlikle birlikte sağlanabilir. Rol sağlan
 * Kimlik listesi sayesinde, pano ekleme işlemi için birden çok kimlik belirteci kullanılabilir. Diğer tüm yapıtlar için liste tek bir kimlik içerir.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

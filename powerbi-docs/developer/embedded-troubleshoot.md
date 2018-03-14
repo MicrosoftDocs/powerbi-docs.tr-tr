@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -82,6 +82,7 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Azure AD'de kay�
 
 Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Bir 403 hatasının birkaç nedeni olabilir.
 
+* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aştı. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın almanız ve çalışma alanını bu kapasiteye atamanız gerekir. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir yöneticisi değildir.

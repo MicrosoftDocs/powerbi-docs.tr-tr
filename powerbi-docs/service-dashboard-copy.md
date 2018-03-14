@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir panonun kopyasını oluşturma
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![pano](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Bir panonun kopyasını oluşturmanın birçok farklı nedeni vardır. Değişiklik yapmak ve kopyanın performansını özgün panoyla karşılaştırarak test etmek isteyebilir; iş arkadaşı, bölge veya ekibe göre dağıtım yapmak için küçük farklılıklar gösteren sürümler oluşturmayı tercih edebilirsiniz. Belki de bir iş arkadaşınız pano tasarımınızı çok beğenir ve yöneticilerine raporlama yapmak için bunu kullanmak ister. Diğer bir neden olarak ise, aynı veri yapısı ile veri türlerine sahip yeni bir veritabanınızın bulunması ve oluşturmuş olduğunuz panoyu yeniden kullanmak istemeniz sunulabilir. Bu, mümkün olmakla birlikte Power BI Desktop'ta bazı işlemlerin yapılmasını gerektirir. 
 
@@ -36,13 +37,13 @@ Bir panonun kopyasını oluşturabilmeniz için panonun *oluşturucusu* olmanız
 1. Panoyu açın.
 2. Sağ üst köşeden üç nokta (...) simgesini seçin ve **Panoyu yinele** seçeneğini belirleyin.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![üç nokta menüsü](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Panoya bir ad verin ve **Yinele** seçeneğini belirleyin. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Panoyu yinele iletişim kutusu](media/service-dashboard-copy/power-bi-name.png)
 4. Yeni pano özgün panoyla aynı çalışma alanına kaydedilir. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Panolar sekmesi](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Yeni panoyu açın ve gereken şekilde düzenleyin. Daha sonra yapmak isteyebileceğiniz bazı işlemler aşağıda verilmiştir:    
     a. [Kutucukları taşıma, yeniden adlandırma, yeniden boyutlandırma ve hatta silme](service-dashboard-edit-tile.md).  
