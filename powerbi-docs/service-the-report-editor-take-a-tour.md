@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Rapor düzenleyicisi: Tura katılın
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleme
@@ -46,7 +47,7 @@ Power BI rapor düzenleyicisi 3 bölümden oluşur:
 ![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1. Rapor düzenleyicisi bölmeleri
-![](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
+![Power BI rapor düzenleyicisi](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
 Bir raporu açtığınızda 3 bölme görürsünüz: Görsel Öğeler, Filtreler ve Alanlar. Sol taraftaki Görsel Öğeler ve Filtreler bölmeleri görselleştirmeler üzerinde tür, renk, filtreleme ve biçimlendirme gibi denetimler gerçekleştirmenizi sağlar.  Sağ taraftaki Alanlar bölmesi ise görselleştirmelerde kullanılan bağlantılı verileri yönetir. 
 
@@ -54,30 +55,30 @@ Rapor düzenleyicisinde görüntülenen içerik, rapor tuvalinde yaptığınız 
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Görsel Öğeler bölmesinin en üst kısmında, kullanılan görselin türü görüntülenir. Bu örnekte, Kümelenmiş sütun grafik kullanılmaktadır.<br><br></li> <li>Görsel Öğeler bölmesinin en altında (sayfayı kaydırmanız gerekebilir), görselde kullanılan alanlar görüntülenir. Bu grafikte FiscalMonth, DistrictManager ve Total Sales Variance alanları kullanılmaktadır. <br><br></li><li>Filtreler bölmesinde (sayfayı kaydırmanız gerekebilir), uygulanmış olan filtreler görüntülenir. <br><br></li><li>Alanlar bölmesinde, kullanılabilir tablolar listelenir ve bir tablonun adını genişlettiğinizde tablonun içerdiği alanlar görüntülenir. Sarı renkli yazı tipi, tablodaki alanlardan en az birinin görselleştirmede kullanıldığını belirtir.<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Seçilen görselleştirmeye ilişkin biçimlendirme bölmesini görüntülemek için boya rulosu simgesini seçin.<br><br></li><li>![](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Analiz bölmesini görüntülemek için büyüteç simgesini seçin.</ul> |
+| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Görsel Öğeler bölmesinin en üst kısmında, kullanılan görselin türü görüntülenir. Bu örnekte, Kümelenmiş sütun grafik kullanılmaktadır.<br><br></li> <li>Görsel Öğeler bölmesinin en altında (sayfayı kaydırmanız gerekebilir), görselde kullanılan alanlar görüntülenir. Bu grafikte FiscalMonth, DistrictManager ve Total Sales Variance alanları kullanılmaktadır. <br><br></li><li>Filtreler bölmesinde (sayfayı kaydırmanız gerekebilir), uygulanmış olan filtreler görüntülenir. <br><br></li><li>Alanlar bölmesinde, kullanılabilir tablolar listelenir ve bir tablonun adını genişlettiğinizde tablonun içerdiği alanlar görüntülenir. Sarı renkli yazı tipi, tablodaki alanlardan en az birinin görselleştirmede kullanıldığını belirtir.<br><br></li><li>![boya rulosu simgesi](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Seçilen görselleştirmeye ilişkin biçimlendirme bölmesini görüntülemek için boya rulosu simgesini seçin.<br><br></li><li>![büyüteç simgesi](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Analiz bölmesini görüntülemek için büyüteç simgesini seçin.</ul> |
 |  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Görsel Öğeler bölmesi (yukarıdan aşağıya doğru)
-![](media/service-the-report-editor-take-a-tour/selectviz.png)
+![Görselleştirme bölmesinin üst kısmı](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 Görselleştirme türünü buradan seçebilirsiniz. Küçük resimlere *şablon* adı verilir. Yukarıdaki görüntüde, Kümelenmiş çubuk grafik seçilmiştir. Görselleştirme türü seçmeden alan seçerek bir görselleştirme oluşturmaya başlarsanız Power BI, görselleştirme türünü sizin yerinize belirler. Power BI tarafından yapılan seçimi tutabilir veya farklı bir şablonu seçerek türü değiştirebilirsiniz. Verilerinize en uygun görselleştirme türünü bulmak için istediğiniz kadar değişiklik yapabilirsiniz.
 
 ### <a name="manage-the-fields-used-in-your-visual"></a>Görselinizde kullanılan alanları yönetin.
-![](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
+![Görselleştirme bölmesinin ortası](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
 Bu bölmede gösterilen demetler (bazen *kutu* olarak da adlandırılır) seçtiğiniz görselleştirme türüne göre değişiklik gösterir.  Örneğin, bir çubuk grafik seçerseniz şu demetleri görürsünüz: Değerler, Eksen ve Açıklama. Bir alanı seçtiğinizde veya tuvale sürüklediğinizde Power BI, ilgili alanı demetlerden birine ekler.  Dilerseniz Alanlar listesindeki alanları doğrudan demetlerin içine sürükleyebilirsiniz.  Bazı demetler yalnızca belirli veri türlerinde kullanılabilir.  Örneğin, **Değerler** demeti, sayısal olmayan alanlarla kullanılamaz. **employeename** alanını **Değerler** demetine sürüklerseniz Power BI bunu **count of employeename** olarak değiştirir.
 
 ### <a name="remove-a-field"></a>Alanları kaldırma
 Görselleştirmedeki bir alanı kaldırmak için alan adının sağ tarafında bulunan **X** simgesini seçin.
 
-![](media/service-the-report-editor-take-a-tour/deletefield.png)
+![StoreType öğesini Açıklama’dan kaldırma](media/service-the-report-editor-take-a-tour/deletefield.png)
 
 Daha fazla bilgi için bkz. [Bir Power BI raporuna görselleştirme ekleme](power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>Görsellerinizi biçimlendirme
 Biçimlendirme bölmesini açmak için boya rulosu simgesini seçin. Kullanılabilir seçenekler, seçtiğiniz görselleştirme türüne göre değişiklik gösterir.
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![Biçimlendirme bölmesi](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 Biçimlendirme seçenekleri neredeyse sonsuzdur.  Daha fazla bilgi edinmek için kendiniz keşfedin veya şu makaleleri ziyaret edin:
 
@@ -97,7 +98,7 @@ Raporunuzda sayfa, rapor, detaylandırma ve görsel öğe düzeyinde kalıcı fi
 
 Filtreler bölmesinin bir diğer güçlü özelliği: ***halihazırda raporunuzdaki görsel öğelerden biri tarafından kullanılmayan*** bir alan kullanarak filtreleme olanağı. Biraz açıklayayım. Bir rapor sayfası oluşturduğunuzda Power BI, görsel öğelerinizde kullandığınız tüm alanları, Filtreler bölmesinin Görsel düzey filtreleri alanına otomatik olarak ekler.  Ancak, o anda bir görsel öğede kullanılmayan bir alanı kullanarak görsel öğe, sayfa, detaylandırma veya rapor filtresi ayarlamak istiyorsanız, ilgili öğeyi Filtreler demetlerinden birine sürüklemeniz yeterlidir.   
 
-![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
+![Filtreler bölmesi](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Daha fazla bilgi için bkz. [Bir rapora filtre ekleme](power-bi-report-add-filter.md).
 
@@ -107,20 +108,20 @@ Alanlar bölmesinde, verilerinizde bulunan ve görselleştirme oluşturmak için
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>Yeni bir görselleştirme başlatmak için alanlardan birini sayfaya sürükleyin.  Dilerseniz bir alanı, var olan bir görselleştirmenin üzerine sürükleyerek görselleştirmeye ekleyebilirsiniz.<br><br></li> <li>Bir alanın yanındaki onay kutusunu işaretlediğinizde Power BI, ilgili alanı etkin (veya yeni) görselleştirmeye ekler. Ayrıca söz konusu alanın yerleştirileceği demeti de belirler.  Örneğin, eklediğiniz alan bir açıklama, eksen veya değer olabilir. Power BI en iyi tahmini yapar ve gerekirse söz konusu alanı, belirlenen demetten bir başkasına taşıyabilirsiniz. <br><br></li><li>Her iki durumda da seçili alanlar, rapor düzenleyicisindeki Görsel Öğeler bölmesine eklenir.</li></ul> |
+| ![Alanlar bölmesi](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>Yeni bir görselleştirme başlatmak için alanlardan birini sayfaya sürükleyin.  Dilerseniz bir alanı, var olan bir görselleştirmenin üzerine sürükleyerek görselleştirmeye ekleyebilirsiniz.<br><br></li> <li>Bir alanın yanındaki onay kutusunu işaretlediğinizde Power BI, ilgili alanı etkin (veya yeni) görselleştirmeye ekler. Ayrıca söz konusu alanın yerleştirileceği demeti de belirler.  Örneğin, eklediğiniz alan bir açıklama, eksen veya değer olabilir. Power BI en iyi tahmini yapar ve gerekirse söz konusu alanı, belirlenen demetten bir başkasına taşıyabilirsiniz. <br><br></li><li>Her iki durumda da seçili alanlar, rapor düzenleyicisindeki Görsel Öğeler bölmesine eklenir.</li></ul> |
 
 **NOT**: Power BI Desktop uygulamasını kullanıyorsanız alanları gösterme/gizleme ve hesaplama ekleme gibi seçeneklere de sahip olursunuz.
 
 ### <a name="what-do-the-field-icons-mean"></a>Alan simgeleri ne anlama gelir?
 * **∑ Toplamlar** Toplam, toplaması yapılacak veya ortalaması alınacak bir sayısal değerdir. Toplamlar, verilerle (raporunuzun temel aldığı veri modelinde tanımlanan) birlikte içeri aktarılır.
   Daha fazla bilgi için bkz. [Power BI raporlarındaki toplamlar](service-aggregates.md).
-* ![](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Hesaplanan ölçüler (hesaplanan alanlar olarak da adlandırılır)**  
+* ![hesap makinesi simgesi](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Hesaplanan ölçüler (hesaplanan alanlar olarak da adlandırılır)**  
    Her hesaplanan alanın kendi sabit kodlanmış formülü vardır. Hesaplama türünü değiştiremezsiniz. Örneğin, tür toplam olarak ayarlanmışsa bu şekilde olarak kalır. Daha fazla bilgi için bkz. [Ölçüleri anlama](desktop-measures.md)
-* ![](media/service-the-report-editor-take-a-tour/icon.png) **Benzersiz alanlar**  
+* ![Benzersiz alan simgesi](media/service-the-report-editor-take-a-tour/icon.png) **Benzersiz alanlar**  
    Bu simgeye sahip alanlar Excel'den aktarılmıştır ve yinelenen değerlere sahip olsalar bile tüm değerleri gösterecek şekilde ayarlanmıştır. Örneğin, verilerinizde "Can Kaya" adlı iki kişinin kaydı olabilir ve bu değerler benzersiz kabul edilir, toplama yapılmaz.  
-* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Coğrafya alanları**  
+* **![Coğrafya simgesi](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Coğrafya alanları**  
    Konum alanları kullanılarak harita görselleştirmeleri oluşturulabilir. 
-* **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hiyerarşi**  
+* **![Hiyerarşi simgesi](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hiyerarşi**  
    Hiyerarşiyi oluşturan alanları göstermek için oku seçin. 
 
 - - -

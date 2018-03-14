@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI hizmeti içerik paketi programına genel bakış
 İçerik paketleri, kullanıcıların bir kaynaktan hemen öngörü edinmesine olanak sağlayan bir hazır içerik dizisidir. İçerik paketleri genellikle belirli bir iş senaryosuna odaklanarak bir rol, etki alanı veya iş akışına yönelik öngörüler sağlar.
@@ -64,9 +64,9 @@ Teknik gereksinimler hakkında daha fazla ayrıntı için lütfen [yazma](templa
 * Ayrı benzersiz senaryolar için birden fazla içerik paketi sunmayı düşünün  
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
-**Sahip olmadığım bir üçüncü taraf SaaS uygulaması için Power BI Hizmeti içerik paketi oluşturabilir miyim?**
+**Üçüncü taraf olarak, sahip olmadığım bir SaaS uygulaması için Power BI Hizmeti içerik paketi oluşturabilir miyim?**
 
-Hayır, şu anda içerik paketi hizmette yayımlanmadan önce SaaS uygulamasının sahibiyle bir iş ortağı sözleşmesi imzalanması gerekmektedir.
+İçerik paketi hizmette yayımlanmadan önce SaaS uygulamasının sahibiyle bir iş ortağı sözleşmesi imzalanması gerekmektedir. Bir üçüncü taraf olarak, SaaS uygulama sahibiyle iş ortağı sözleşmesinin imzalanması konusunda kolaylık sağlamanız gerekir.
 
 **Hizmetim için bir genel geliştirici API'sine sahip değilim. Yine de verileri doğrudan veri depolama alanından çeken bir Power BI hizmeti içerik paketi oluşturabilir miyim?**
 
@@ -76,9 +76,13 @@ Hayır, Power BI hizmeti içerik paketleri için genel İnternet üzerinden eri�
 
 Power BI hizmeti içerik paketleri herhangi bir REST API'sini veya OData akışını destekler. Power BI; Temel Kimlik Doğrulaması, OAuth 2.0 ve Web API Anahtarı'nı içeren birden çok kimlik doğrulaması türüyle çalışabilir. [Yazma](template-content-pack-authoring.md#dashboard) makalesinde teknik gereksinimler ile ilgili daha fazla ayrıntı bulabilirsiniz.
 
+**Power BI'da yayımlanan bir içerik paketim var. Bunu nasıl güncelleştirebilirim?**
+
+Yayımlanan içerik paketleri ayda bir kez güncelleştirilebilir. Geçerli ayın son gününden önce [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) adresine gönderilen güncelleştirme istekleri bir sonraki ayın ilk haftasında yayımlanır.
+
 **Hizmet İçerik Paketleri hakkında başka sorularım da var. Sizinle nasıl iletişim kurabilirim?**
 
-Sorularınızı pbiservicesapps@microsoft.com adresine e-posta olarak gönderebilirsiniz
+[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) adresinden e-posta ile sorularınızı bize gönderebilirsiniz
 
 ## <a name="support"></a>Destek
 Geliştirme sırasında destek almak için lütfen [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) adresine gidin. Bu sayfa etkin şekilde izlenmekte ve yönetilmektedir. Müşteri olayları hızla ilgili ekibe aktarılmaktadır.

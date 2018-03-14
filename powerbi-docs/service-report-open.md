@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/07/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 1d9c183a7fab95caa44221bd2d252ab92889b3f4
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com) bir raporu açma
 Raporlar Power BI hizmeti, Power BI Desktop, Power BI Mobil ve hatta Power BI Embedded'da kullanılabilir. Bu makalede, raporları ***Power BI hizmetinde*** açma konusu ele alınmıştır.
@@ -32,11 +32,11 @@ Power BI hizmetinde raporları görüntülemek ve onlarla etkileşim kurmak içi
 
 1. İşleme bir çalışma alanında başlayın ve tüm raporları görüntülemek için **Raporlar** sekmesini seçin.  
    
-   ![](media/service-report-open/power-bi-open-report.png)
-1. Rapor adını seçerek söz konusu raporu Okuma görünümü'nde açın.  
+   ![Bir çalışma alanının raporlar sekmesi](media/service-report-open/power-bi-open-report.png)
+2. Rapor adını seçerek söz konusu raporu Okuma görünümü'nde açın.  
    
-    ![](media/service-report-open/power-bi-reading-view.png)
-1. [Okuma Görünümü'nde yapabileceğiniz çok şey vardır](service-reading-view-and-editing-view.md).  Bu örnek raporda birden fazla sayfa vardır. Bu nedenle rapor tuvalinin en altındaki sekmeleri keşfederek başlayabilirsiniz. 
+    ![Okuma görünümü’nde rapor](media/service-report-open/power-bi-reading-view.png)
+3. [Okuma Görünümü'nde yapabileceğiniz çok şey vardır](service-reading-view-and-editing-view.md).  Bu örnek raporda birden fazla sayfa vardır. Bu nedenle rapor tuvalinin en altındaki sekmeleri keşfederek başlayabilirsiniz. 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Bir raporu panodan açma
 Raporu açmak için kullanabileceğiniz birçok yöntem vardır. Örneğin bir panodan başlayabilir ve rapordan oluşturulan bir kutucuğu seçebilirsiniz.  Bir kutucuğu seçtiğinizde rapor Okuma Görünümü'nde açılır. Birlikte ilerleyebilmek için, [Sales and Marketing Sample panosunu açın](sample-datasets.md).
@@ -47,34 +47,34 @@ Raporu açmak için kullanabileceğiniz birçok yöntem vardır. Örneğin bir p
 
 2.  Bu örnekte, "Total Units YTD..." sütun grafiği kutucuğunu seçmeyi tercih ettik.
 
-    ![](media/service-report-open/power-bi-dashboard.png)
+    ![kutucuğun seçili olduğu pano](media/service-report-open/power-bi-dashboard.png)
 
 3.  İlişkili rapor Okuma görünümü'nde açılır. "YTD Category" adlı sayfada olduğumuza dikkat edin. Bu, panodan seçtiğimiz sütun grafiğinin yer aldığı rapor sayfasıdır.
 
-    ![](media/service-report-open/power-bi-report.png)
+    ![Okuma görünümü’nde açık rapor](media/service-report-open/power-bi-report.png)
 
 4. Okuma görünümü'nde kalın veya raporu Düzenleme görünümü'nde açmak için **Raporu düzenle** seçeneğini belirleyin. Raporun yalnızca düzenleme izinlerine sahip olan kullanıcılar tarafından Düzenleme görünümü'nde açılabileceğini unutmayın.
 
-    ![](media/service-report-open/power-bi-edit-report.png)
+    ![Raporu düzenle simgesini gösteren rapor düzenleyicisi](media/service-report-open/power-bi-edit-report.png)
 
 ## <a name="create-a-brand-new-report-from-a-dataset"></a>Bir veri kümesinden yepyeni bir rapor oluşturma
 Bir raporu açmanın diğer bir yolu da bu işlem için veri kümelerini kullanmaktır. İşleme bir veri kümesinden başladığınızda boş bir rapor tuvali ile karşılaşırsınız. Bu nedenle bu yöntem, sahip oldukları veri kümesini temel alan yeni bir rapor oluşturmak isteyen rapor *oluşturucuları* için önerilir. Yukarıdaki örnekte olduğu gibi, birlikte ilerleyebilmek için [Sales and Marketing Sample uygulamasını](sample-datasets.md) indirin.
 
 1. İşleme bir raporun temelini oluşturacak şekilde kullanmak istediğiniz veri kümesini içeren çalışma alanından başlayın.
 
-   ![](media/service-report-open/power-bi-workspace.png)
+   ![Uygulama çalışma alanlarını görüntüleyen sol gezinti bölmesi](media/service-report-open/power-bi-workspace.png)
 
 2. Bu çalışma alanındaki tüm veri kümelerinin listesini görüntülemek için **Veri kümeleri** sekmesini seçin. Bu, **Veri kümeleri** içerik görünümü listesi olarak adlandırılır.
    
-   ![](media/service-report-open/power-bi-dataset.png)
+   ![veri kümeleri listesi](media/service-report-open/power-bi-dataset.png)
 
 1. Veri kümesini bulun ve veri kümesini Düzenleme görünümü'nde açmak için **Rapor oluştur** simgesini seçin. Bir veri kümesi için düzenleme izinlerine sahip değilseniz veri kümesini açamazsınız. 
    
-    ![](media/service-report-open/power-bi-create-report.png)
+    ![Rapor oluştur simgesinin bulunduğu veri kümesi](media/service-report-open/power-bi-create-report.png)
 
 3. Veri kümesi, rapor düzenleyicisinde açılır. Araştırmaya başlamanız ve görselleştirmeler oluşturmanız için kullanımınıza hazır olan veri alanları sağ tarafta görüntülenir. 
 
-   ![](media/service-report-open/power-bi-blank-canvas.png)
+   ![rapor tuvali](media/service-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Raporları açmak için kullanabileceğiniz yöntemler bunlarla sınırlı değildir
 Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en uygun iş akışlarını keşfedeceksiniz. Raporlara erişmek için kullanabileceğiniz diğer yöntemlerden bazıları aşağıda verilmiştir:

@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Sizinle paylaşılan Power BI panolarını görüntüleme
 ## <a name="shared-with-me"></a>Benimle paylaşılan
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Paylaş simgesi](media/service-shared-with-me/power-bi-share-dash.png)
 
 İş arkadaşlarınızdan birinin sizinle paylaştığı panonun başlığı **Benimle paylaşılan** listenize eklenir. Bu panoya yalnızca **Benimle paylaşılan** listesinden ulaşabilirsiniz, çalışma alanlarından veya **Uygulamalar** listesinden ulaşamazsınız.
 
@@ -38,8 +39,8 @@ Pano sahibinin size verdiği izinlere bağlı olarak panoyla ve kullandığı ra
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>**Benimle paylaşılan** ekranından gerçekleştirilebilecek eylemler
 * Yıldız simgesini seçerek [Panoyu sık kullanılanlara ekleyebilirsiniz](service-dashboard-favorite.md).
-* [Bir panoyu kaldırma](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Bazı panolar yeniden paylaşılabilir  ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Bir panoyu kaldırabilirsiniz](service-delete.md) ![çöp kutusu simgesi](media/service-shared-with-me/power-bi-delete-icon.png)
+* Bazı panolar yeniden paylaşılabilir  ![paylaş simgesi](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Ayrıca pano listeniz uzarsa [arama alanını ve sıralama özelliğini kullanarak, aradığınızı bulabilirsiniz](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Pano sahibinin size verdiği izinlere bağlı olarak panoyla ve kullandığı ra
 ## <a name="filter-shared-dashboards-by-owner"></a>Panoları sahibine göre filtreleme
 **Benimle paylaşılan** ekranındaki içerik, sahibine göre filtrelenebilir. Örneğin **Amanda**'yı seçersem yalnızca Amanda'nın benimle paylaştığı raporlar görüntülenir.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![sahibi tarafından filtrelenen pano](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI - Temel Kavramlar](service-basic-concepts.md)  

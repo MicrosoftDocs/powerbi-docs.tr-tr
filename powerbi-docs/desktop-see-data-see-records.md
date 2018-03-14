@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop görsellerinde Verileri Görüntüle ve Kayıtları Görüntüle özelliklerini kullanma
 **Power BI Desktop**'ta herhangi bir görselin detayına gidebilir ve seçilen görsel için verilerin metinsel temsilini veya tek tek veri öğelerini görebilirsiniz. Bu özellikler bazen *geçişli tıklama*, *detaylandırma* veya *ayrıntıları görüntüleme* olarak adlandırılır.
@@ -69,6 +70,9 @@ Ayrıca görsellerdeki tek bir veri öğesine odaklanıp bu öğenin temel aldı
 **Kayıtları Görüntüle** özelliği seçildiğinde **Power BI Desktop**, aşağıdaki görüntüde gösterildiği gibi bu tek veri öğesine odaklanıp tuval alanını ilgili verileri görüntülemeye ayırır.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> **Kayıtları Görüntüle** görünümünde görüntülenen (veya kullanıcılar tarafından değiştirilen) verilerdeki değişiklikleri bir rapora kaydedemezsiniz.
 
 Rapora geri dönmek için tuvalin sol üst köşesindeki **Rapora Geri Dön** düğmesini seçin.
 

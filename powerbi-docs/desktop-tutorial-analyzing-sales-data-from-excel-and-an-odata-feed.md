@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme
 **Power BI Desktop**'ı kullanarak her türden farklı veri kaynağına bağlanabilir ve ardından, bunları ilgi çekici veri çözümlemeleri ve görselleştirmeler oluşturmayı kolay hale getiren yöntemlerle birleştirebilir ve şekillendirebilirsiniz. Bu eğitimde, iki veri kaynağından elde edilen verileri birleştirmeyi öğreneceksiniz. 
@@ -34,7 +35,7 @@ Raporun son hali aşağıdaki gibi görünecek:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Bu eğitimdeki adımları uygulayabilmek için, şu şekilde indirebileceğiniz bir Products çalışma kitabına ihtiyacınız vardır**:**[ Buraya](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[tıklayarak](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)** [dosyasını indirin](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Bu öğreticideki adımları uygulayabilmeniz için Ürünler çalışma kitabına ihtiyacınız vardır, bu çalışma kitabını indirebilirsiniz: **[Products.xlsx dosyasını indirmek için buraya tıklayın](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
 
 **Farklı Kaydet** iletişim kutusunda, dosyayı **Products.xlsx** olarak adlandırın.
 
@@ -82,7 +83,7 @@ Siz Sorgu Düzenleyicisi'nde sorgu etkinlikleri gerçekleştirdikçe sorgu adım
 | Veri türünü değiştirme |Değiştirilen Tür |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>2. Görev: Bir OData akışındaki sipariş verilerini içeri aktarma
-Bu görevde, sipariş verilerini içeri aktaracaksınız. Bu adım, bir satış sistemine bağlanmayı temsil eder. Aşağıdaki URL'de bulunan örnek Northwind OData akışındaki verileri Power BI Desktop'a aktaracaksınız. Bu URL'yi aşağıda bulunan adımlar için kopyalayıp yapıştırabilirsiniz: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
+Bu görevde, sipariş verilerini içeri aktaracaksınız. Bu adım, bir satış sistemine bağlanmayı temsil eder. Aşağıdaki URL’de bulunan örnek Northwind OData akışındaki verileri Power BI Desktop’a aktaracaksınız. Bu URL’yi şu adımlarla kopyalayıp yapıştırabilirsiniz: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>1. Adım: Bir OData akışına bağlanma
 1. Sorgu Düzenleyicisi'ndeki **Giriş** şeridinde, **Veri Al** seçeneğini belirleyin.

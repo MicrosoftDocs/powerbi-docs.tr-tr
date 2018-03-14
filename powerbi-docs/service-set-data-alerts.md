@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI hizmetindeki veri uyarıları
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. 
@@ -31,7 +32,7 @@ Uyarılar yalnızca rapor görsellerinden sabitlenmiş olan kutucuklarda ve yaln
 
 Panonuzu paylaşsanız dahi ayarladığınız uyarıları yalnızca siz görebilirsiniz. Veri uyarıları platformlar arasında tamamen eşitlenir. Veri uyarılarını [Power BI mobil uygulamalarında](mobile-set-data-alerts-in-the-mobile-apps.md) ve Power BI hizmetinde ayarlayıp görüntüleyebilirsiniz. Uyarılar Power BI Desktop'ta kullanılamaz. İsterseniz uyarıları [Microsoft Flow'u kullanarak otomatikleştirilmiş ve tümleşik hale getirebilirsiniz](https://flow.microsoft.com) - [kendiniz deneyin](service-flow-integration.md).
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![kutucuklar](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > Veri tabanlı uyarı bildirimleri, verileriniz hakkında bilgi verir. Power BI verilerini bir mobil cihazda görüntülüyorsanız ve cihazınız çalınırsa, Power BI hizmetini kullanarak veri tabanlı uyarı kurallarının tümünü devre dışı bırakmanızı öneririz.
@@ -47,15 +48,15 @@ Bu örnekte Perakende Analizi örneği panosu kullanılmıştır.
 
 1. İşleme bir panodan başlayın. Panodaki bir ölçek, KPI veya kart kutucuğundaki üç nokta simgesini seçin.
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. Zil simgesini ![](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Total stores** için bir veya daha fazla uyarı ekleyin.
+   ![Toplam Mağaza Sayısı kutucuğu](media/service-set-data-alerts/powerbi-card.png)
+2. Zil simgesini ![Uyarı simgesi](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Toplam mağaza sayısı** için bir veya daha fazla uyarı ekleyin.
    
 1. Başlamak için **+ Uyarı kuralı ekle**'yi seçin kaydırıcının **Açık** konumda olduğundan emin olun ve uyarınıza bir ad verin. Başlıklar, uyarılarınızı kolayca ayırt etmenizi sağlar.
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Uyarıları yönetme penceresi](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Sayfayı aşağı kaydırıp uyarıyla ilgili ayrıntıları girin.  Bu örnekte toplam mağaza sayısı 100'ün üzerine çıktığında bizi günde bir kez bilgilendiren bir uyarı oluşturacağız. Uyarılar, Bildirim merkezinde görüntülenecek. Ayrıca Power BI bize bir e-posta da gönderecek.
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
+   ![Uyarıları yönetme penceresi, Eşiği ayarlama](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. **Kaydet**'i seçin.
 
 ## <a name="receiving-alerts"></a>Uyarı alma
@@ -65,13 +66,13 @@ Ardından, Power BI, bildirim merkezinize ve isteğe bağlı olarak gelen kutunu
 
 1. Uyarının e-posta gönderme ayarını etkinleştirdiyseniz, Gelen Kutunuzda aşağıdakine benzer bir ileti görürsünüz.
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![Uyarı e-postası](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI, **Bildirim merkezinize** bir ileti ekler ve ilgili kutucukta yeni uyarı simgesi görüntüler.
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Power BI hizmetinde bildirim simgesi](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Uyarıyla ilgili ayrıntılı bilgileri görmek için Bildirim merkezinizi açın.
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![Uyarıyı okuma](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > Uyarılar yalnızca yenilenen verilerde çalışır. Veriler yenilendiğinde Power BI bu veriler için bir uyarı ayarlanıp ayarlanmadığını kontrol eder. Veriler bir uyarı eşiğine ulaştığında bir uyarı tetiklenir.
@@ -82,23 +83,23 @@ Ardından, Power BI, bildirim merkezinize ve isteğe bağlı olarak gelen kutunu
 Uyarıları yönetmek için kullanabileceğiniz birçok farklı yöntem vardır: Pano kutucuğunun kendisinden, Power BI Ayarlar menüsünden, [iPhone'daki Power BI mobil uygulaması](mobile-set-data-alerts-in-the-mobile-apps.md) veya [Windows 10 için Power BI mobil uygulamasında](mobile-set-data-alerts-in-the-mobile-apps.md) yer alan kutucuktan.
 
 ### <a name="from-the-tile-itself"></a>Kutucuğun kendisinden
-1. Kutucuklara ilişkin uyarıları değiştirmek veya kaldırmak için zil simgesini ![](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Uyarıları yönet** penceresini yeniden açın. İlgili kutucuk için ayarladığınız tüm uyarılar görüntülenir.
+1. Kutucuklara ilişkin uyarıları değiştirmek veya kaldırmak için zil simgesini ![Uyarı simgesi](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Uyarıları yönet** penceresini yeniden açın. İlgili kutucuk için ayarladığınız tüm uyarılar görüntülenir.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![Uyarıları yönetme penceresi](media/service-set-data-alerts/powerbi-see-alerts.png)geçin.
 2. Bir uyarıyı değiştirmek için adının sol tarafındaki oku seçin.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![Uyarı adının yanındaki ok](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)geçin.
 3. Bir uyarıyı silmek için adının sağ tarafındaki çöp kutusunu seçin.
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![seçili çöp kutusu simgesi](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>Power BI Ayarlar menüsünden
 1. Power BI menü çubuğundaki dişli simgesini seçin.
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![dişli simgesi](media/service-set-data-alerts/powerbi-gear-icon.png)geçin.
 2. **Ayarlar** bölümünden **Uyarılar**'ı seçin.
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![Ayarlar penceresinin Uyarılar sekmesi](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. Bu sayfadan uyarıları etkinleştirebilir ve devre dışı bırakabilir, **Uyarıları yönet** penceresini açarak değişiklik yapabilir veya uyarıları silebilirsiniz.
 
 ## <a name="tips-and-troubleshooting"></a>İpuçları ve sorun giderme

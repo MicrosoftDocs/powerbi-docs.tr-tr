@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 
@@ -54,23 +55,23 @@ Bu makalede aşağıdaki noktalar ele alınmaktadır.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Yeni bir görselleştirme oluşturma ve bu görselleştirmeyi panoya sabitleme
 1. IT Spend Analysis Sample panosunda "Amount" kutucuğunu seçerek ilgili raporu açın.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Tutar kutucuğu](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Üstteki menü çubuğundan **Raporu düzenle**'yi seçerek raporu Düzenleme görünümü'nde açın.
 
 3. Raporun alt kısmında bulunan artı işaretini (+) seçerek yeni bir rapor sayfası ekleyin.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![artı simgesi](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. ALANLAR bölmesinde **Fact > Amount** ve **Business Area > Business Area** seçeneklerini belirleyin.
  
 5. Görselleştirmeyi bir Halka grafiğe dönüştürmek için GÖRSEL ÖĞELER bölmesinde Halka grafik simgesini seçin.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Görselleştirmeler bölmesi](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Raptiye simgesini seçin ve Halka grafiği, IT Spend Analysis Sample panosuna sabitleyin.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![kutucuğun üzerine gelme](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. "Başarılı" iletisi göründüğünde **Panoya git**'i seçin. Değişikliklerinizi kaydetmeniz istenecek. **Kaydet**'i seçin.
 
@@ -86,24 +87,23 @@ Panoda yeni kutucuğu bulun. Pano tuvali üzerindeki farklı bir konuma taşıma
 ## <a name="resize-the-tile"></a>Kutucuğu yeniden boyutlandırma
 Kutucuklar için 1x1'den 5x5'e kadar birçok farklı boyut belirleyebilirsiniz. Kutucuğu yeniden boyutlandırmak için tutamacı (sağ alt köşedeki) seçin ve sürükleyin.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Üç nokta (...) menüsü
 
 1. Kutucuğun sağ üst köşesindeki üç nokta (...) simgesini seçin. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![kutucuk üç noktası](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. "Account" kutucuğunun üzerine gelin ve seçenekleri görüntülemek için üç nokta simgesini seçin. Kullanabileceğiniz seçenekler kutucuk türüne göre değişir.  Örneğin, canlı bir kutucuk için kullanabileceğiniz seçenekler standart bir görselleştirme kutucuğu için kullanabileceğiniz seçeneklerden farklıdır. Ayrıca, sizinle paylaşılan (sahibi olmadığınız) bir pano üzerinde çalışıyorsanız daha az seçeneğiniz olur.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![üç nokta seçenekler menüsü](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. "Kutucuk ayrıntıları" penceresini açmak için **Ayrıntıları düzenle** seçeneğini belirleyin. 
 
     Kutucuğun başlığını ve varsayılan davranışını değiştirin.  Örneğin, *kullanıcı* bir kutucuğu seçtiğinde ilgili kutucuğun oluşturulması için kullanılan raporun açılması yerine yeni bir panonun görüntülenmesini sağlayabilirsiniz.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Kutucuklar için 1x1'den 5x5'e kadar birçok farklı boyut belirleyebilirsiniz. 
 ### <a name="rename-the-tile"></a>Kutucuğu yeniden adlandırma
 "Kutucuk ayrıntıları" penceresinin üst kısmındaki **Başlık** değerini **Amount spent** olarak değiştirin.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Kutucuk ayrıntıları penceresi](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 
 2. **Geçerli çalışma alanındaki bir pano veya rapora bağlantı**'yı seçin ve açılan listeden seçiminizi yapın.  Bu örnekte biz Human Resources Sample panosunu seçtik. Çalışma alanınızda bu örnek yoksa örneği ekleyip bu adımdan devam edebilir veya farklı bir pano seçebilirsiniz. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![İşlev iletişim kutusu](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. **Uygula** seçeneğini belirleyin.
+3. **Apply** (Uygula) seçeneğini belirleyin.
 
 4. Kutucukta yeni başlık görüntülenir.  Kutucuğu seçtiğinizde Power BI, Human Resources Sample panosunu açar. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![kutucuk başlığı](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Kutucuğu farklı bir panoya sabitleme
-1. Üç nokta açılan menüsünde **Kutucuğu sabitle** ![](media/service-dashboard-edit-tile/pinnooutline.png) seçeneğini belirleyin.
+1. Üç nokta açılan menüsünde **Kutucuğu sabitle** ![raptiye simgesi](media/service-dashboard-edit-tile/pinnooutline.png) seçeneğini belirleyin.
 2. Bu kutucuğun bir kopyasını mevcut bir panoya mı yoksa yeni bir panoya mı sabitlemek istediğinize karar verin. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Panoya sabitle iletişim kutusu](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. **Sabitle**'yi seçin.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Kutucuğu silme
-1. Bir kutucuğu panodan kalıcı olarak kaldırmak için üç nokta açılan menüsünde **Kutucuğu sil** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) seçeneğini belirleyin. 
+1. Bir kutucuğu panodan kalıcı olarak kaldırmak için üç nokta açılan menüsünden **Kutucuğu sil** ![silme simgesi](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) seçeneğini belirleyin. 
 
 2. Kutucuğu sildiğinizde bağlantılı görselleştirme silinmez. "Amount" kutucuğunu seçerek bağlantılı raporu açın. Özgün görselleştirmenin rapordan silinmediğini görmek için raporunuzdaki son sayfayı açın. 
 

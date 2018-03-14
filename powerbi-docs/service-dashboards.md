@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 223df3a898c925d2a8ffc6d004a26c1a67807fc2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI hizmetindeki panolar
 
 Power BI ***panosu***, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi tasarlanmış bir panoda yalnızca hikayenin en önemli parçaları yer alır.
 
-![](media/service-dashboards/power-bi-dashboard2.png)
+![pano](media/service-dashboards/power-bi-dashboard2.png)
 
 Panoda gördüğünüz görselleştirmeler, *kutucuk* olarak adlandırılır ve panolara raporlardan *sabitlenir*. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](service-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
 
@@ -38,7 +39,7 @@ Panoda gördüğünüz görselleştirmeler, *kutucuk* olarak adlandırılır ve 
 
 Panodaki görselleştirmeler raporlardan gelir ve her rapor bir veri kümesini temel alır. Panoları, bağlantılı raporlara ve temel alınan veri kümelerine giriş noktası olarak düşünebilirsiniz. Görselleştirmelerden birini seçtiğinizde bunu oluşturmak için kullanılan rapor (ve veri kümesi) açılır.
 
-![](media/service-dashboards/power-bi-diagram.png)
+![panolar, raporlar, veri kümeleri arasındaki ilişkiyi gösteren diyagram](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Panoların avantajları
 Panolar işlerinizi izlemek, yanıtlar aramak ve en önemli ölçümlerinizi bir bakışta görmek için harikadır. Panolardaki görselleştirmeler, bir veya daha fazla temel alınan veri kümesinden ve bağlantılı rapordan oluşabilir. Bir panoda şirket içi ve bulut kaynaklı veriler bir arada kullanılarak verilerin konumundan bağımsız tümleşik bir görünüm oluşturulabilir.

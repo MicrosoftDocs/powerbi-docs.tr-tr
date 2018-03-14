@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -36,21 +36,21 @@ Panoları kaldırabilirsiniz. Bir panoyu kaldırdığınızda bağlı olduğu ve
 
 ### <a name="to-delete-a-dashboard"></a>Bir panoyu silmek için
 1. Çalışma alanınızda **Panolar** sekmesini seçin.
-2. Silmek istediğiniz panoyu bulup Sil simgesini ![](media/service-delete/power-bi-delete-icon.png) seçin.
+2. Silmek istediğiniz panoyu bulun ve Sil simgesini ![sil simgesi](media/service-delete/power-bi-delete-icon.png)geçin.
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![video](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Bir raporu silme
 Endişelenmeyin, bir raporu sildiğinizde raporun temel aldığı veri kümesi silinmez.  Rapordan sabitlediğiniz görselleştirmeler de güvendedir. Bu görselleştirmeler silinene kadar panoda kalmaya devam eder.
 
 ### <a name="to-delete-a-report"></a>Bir raporu silmek için
 1. Çalışma alanınızda **Raporlar** sekmesini seçin.
-2. Silmek istediğiniz raporu bulup Sil simgesini ![](media/service-delete/power-bi-delete-icon.png) seçin.   
+2. Silmek istediğiniz raporu bulup Sil simgesini   ![sil simgesi](media/service-delete/power-bi-delete-icon.png)geçin.   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![çalışma alanının raporlar sekmesi](media/service-delete/power-bi-delete-reportnew.png)
 3. Silme işlemini onaylayın.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Raporu sil iletişim kutusu](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > [İçerik paketlerinde](service-organizational-content-pack-introduction.md) bulunan raporlar bu yöntemle silinemez.  Bkz. [Kurumsal içerik paketi bağlantılarını kaldırma](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ OneDrive İş hesabında kayıtlı çalışma kitaplarının Power BI'dan silinm
 
 ### <a name="to-delete-a-workbook"></a>Bir çalışma kitabını silmek için
 1. Çalışma alanınızda **Çalışma Kitapları** sekmesini seçin.
-2. Silmek istediğiniz çalışma kitabını bulup Sil simgesini ![](media/service-delete/power-bi-delete-report2.png) seçin.
+2. Silmek istediğiniz çalışma kitabını bulun ve Sil ![sil simgesi](media/service-delete/power-bi-delete-report2.png) simgesini seçin.
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Çalışma kitapları sekmesi](media/service-delete/power-bi-delete-workbooknew.png)
 3. Silme işlemini onaylayın.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Çalışma kitabını kaldır iletişim kutusu](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Bir veri kümesini silme
 Veri kümeleri silinebilir. Ancak bir veri kümesini sildiğinizde ilgili veri kümesindeki verilerin kullanıldığı tüm raporlar ve pano kutucukları da silinir.
@@ -80,13 +80,13 @@ Veri kümesi bir veya daha fazla [kurumsal içerik paketinin](service-organizati
 1. Çalışma alanınızda **Veri Kümeleri** sekmesini seçin.
 2. Silmek istediğiniz veri kümesini bulup üç nokta (...) simgesini seçin.  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Veri Kümeleri sekmesi](media/service-delete/power-bi-delete-datasetnew.png)
 3. Açılan listeden **Sil**'i seçin.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![üç nokta menüsü](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Silme işlemini onaylayın.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Panoyu sil iletişim kutusu](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Bir uygulama çalışma alanını silme
 > [!WARNING]
@@ -99,13 +99,13 @@ Kendi oluşturduğunuz uygulama çalışma alanlarını silebilirsiniz. Ayrıca 
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Yöneticisi olduğunuz bir uygulama çalışma alanını silmek için
 1. Sol gezinti bölmesinde, **Çalışma Alanı**'nı seçin
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![Uygulama çalışma alanları](media/service-delete/power-bi-delete-workspace.png)
 2. Silmek istediğiniz çalışma alanının sağ tarafındaki üç nokta (...) simgesini seçip **Çalışma alanını düzenle**'yi seçin.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![üç nokta menüsü > Çalışma alanını düzenle](media/service-delete/power-bi-edit-workspace.png)
 3. **Çalışma alanını düzenle** penceresinde, **Çalışma alanını sil** > **Sil**'i seçin.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![çalışma alanını silme](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Bir uygulama çalışma alanını listenizden kaldırma
 Artık bir uygulama çalışma alanının üyesi olmak istemiyorsanız ***ayrılabilir*** ve ilgili girişin listenizden kaldırılmasını sağlayabilirsiniz. Siz bir çalışma alanından ayrıldığınızda diğer çalışma alanı üyeleri için herhangi bir değişiklik olmaz.  
@@ -118,7 +118,7 @@ Artık bir uygulama çalışma alanının üyesi olmak istemiyorsanız ***ayrıl
 1. Kaldırmak istediğiniz çalışma alanında işleme başlayın.
 2. Sağ üst köşede üç nokta (...) simgesini seçin ve **Çalışma alanından ayrıl** > **Ayrıl** seçeneğini belirleyin.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![çalışma alanından ayrılma](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > Açılan listede göreceğiniz seçenekler, uygulama çalışma alanında Yönetici veya Üye olma durumunuza göre değişir.
@@ -134,7 +134,7 @@ Uygulama listesi sayfanızdan sildiğiniz uygulamalar diğer üyeler için silin
 1. Sol gezinti bölmesinde **Uygulamalar**'ı seçerek uygulama listesi sayfasını açın.
 2. Silmek istediğiniz uygulamanın üzerine gelip Sil simgesini ![](media/service-delete/power-bi-delete-report2.png) seçin.
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![Uygulama seçme](media/service-delete/power-bi-delete-app.png)
 
    Yanlışlıkla kaldırdığınız uygulamaları geri almak için kullanabileceğiniz birçok seçenek vardır.  Uygulama oluşturucusunun uygulamayı yeniden göndermesini isteyebilir, uygulama bağlantısını içeren özgün e-postayı bulabilir, [Bildirim merkezinizde](service-notification-center.md) uygulamayla ilgili bildirimin mevcut olup olmadığına bakabilir veya kuruluşunuzun [AppSource](service-install-use-apps.md) sayfasını kontrol edebilirsiniz.
 

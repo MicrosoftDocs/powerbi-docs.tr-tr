@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI'daki dağılım grafikleri ve kabarcık grafikleri (Eğitim)
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
@@ -35,18 +36,18 @@ Veri noktalarının sayısını ayarlayabilirsiniz
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Dağılım grafiğinin ve kabarcık grafiğinin kullanım alanları
 ### <a name="scatter-charts-are-a-great-choice"></a>Dağılım grafikleri aşağıdaki durumlarda harika bir seçimdir:
-* 2 (dağılım) veya 3 (kabarcık) **sayısal** değer arasındaki ilişkiyi gösterme.
+* 2 (dağılım) veya 3 (kabarcık) **sayısal** değer arasındaki ilişkiyi göstermek için.
 * İki sayı grubunu tek bir xy koordinat dizisi olarak çizme.
-* Yatay eksenin ölçeğini değiştirmek istediğiniz durumlarda çizgi grafiğin yerine kullanma.    
-* Yatay ekseni logaritmik ölçeğe dönüştürme.
-* İkili veya gruplanmış değer kümeleri içeren çalışma sayfası verilerini gösterme. Dağılım grafiğinde eksenlerin ölçeğini ayrı ayrı ayarlayarak gruplanmış değerlerle ilgili daha fazla bilgiye yer verebilirsiniz.
-* Doğrusal veya doğrusal olmayan eğilimler, gruplar ve aykırı değerler gibi büyük veri kümelerindeki desenleri gösterme.
+* yatay eksenin ölçeğini değiştirmek istediğiniz durumlarda çizgi grafiğin yerine    
+* yatay ekseni logaritmik ölçeğe dönüştürmek için.
+* ikili veya gruplanmış değer kümeleri içeren çalışma sayfası verilerini göstermek için. Dağılım grafiğinde eksenlerin ölçeğini ayrı ayrı ayarlayarak gruplanmış değerlerle ilgili daha fazla bilgiye yer verebilirsiniz.
+* doğrusal veya doğrusal olmayan eğilimler, gruplar ve aykırı değerler gibi büyük veri kümelerindeki desenleri göstermek için.
 * Zamanı dikkate almadan çok sayıda veri noktasını karşılaştırma.  Bir dağılım grafiğine ne kadar veri eklerseniz yapabileceğiniz karşılaştırmalar da o kadar iyi olur.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>Kabarcık grafikler aşağıdaki durumlarda harika bir seçimdir:
-* Verilerinizde her biri değer kümesi içeren 3 veri dizisi varsa.
-* Finansal verileri sunma.  Farklı kabarcık boyutları, belirli değerleri vurgulama açısından kullanışlıdır.
-* Çeyrek dairelerle birlikte kullanma.
+* verilerinizde her biri değer kümesi içeren 3 veri dizisi varsa.
+* finansal verileri sunmak için.  Farklı kabarcık boyutları, belirli değerleri vurgulama açısından kullanışlıdır.
+* çeyrek dairelerle birlikte kullanmak için.
 
 ## <a name="create-a-scatter-chart"></a>Dağılım grafiği oluşturma
 Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki adımları kullanarak kendiniz bir dağılım grafiği oluşturun.
@@ -56,44 +57,55 @@ Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki ad
 
 Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri takip etmek için Power BI hizmeti (app.powerbi.com) veya Power BI Desktop [örneğini indirin](sample-datasets.md).   
 
-1. [Boş rapor sayfası](power-bi-report-add-page.md) ile başlayın ve **Sales** \> **Sales Per Sq Ft** ile **Sales** > **Total Sales Variance %** alanlarını seçin. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
+1. [Boş rapor sayfası](power-bi-report-add-page.md) oluşturmak için sarı artı simgesini seçin.
  
-2. Alanlar bölmesinden **District > District** seçeneğini belirleyin.
-   
+2. Alanlar bölmesinden aşağıdaki alanları seçin:
+   - **Satış** > **Fit Kare Başına Satış**
+   - **Satış** > **Toplam Satış Varyansı %**
+   - **Bölge** > **Bölge**
+
     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
-4. Sonucu dağılım grafiğine dönüştürün. Görsel Öğeler bölmesinde Dağılım grafiği simgesini seçin.
+
+    Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
+
+3. Sonucu dağılım grafiğine dönüştürün. Görsel Öğeler bölmesinde Dağılım grafiği simgesini seçin.
+
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
-5. **District** öğesini **Ayrıntılar** bölmesinden **Açıklama**'ya sürükleyin.
-   
+
+4. **District** öğesini **Ayrıntılar** bölmesinden **Açıklama**'ya sürükleyin. Burada, Y ekseninde **Toplam Satış Varyansı %** verisini, X ekseninde ise **Fit Kare Başına Satış** verisi gösteren bir dağılım grafiği görüntülenir. Veri noktası renkleri bölgeleri göstermektedir:
+
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
-Şimdi elimizde Y ekseninde Total Sales Variance % verisini, X ekseninde ise Sales Per Square Feet verisini gösteren bir dağılım grafiğimiz var.  Veri noktası renkleri bölgeleri göstermektedir.  Şimdi üçüncü boyutu ekleyelim.
+Şimdi üçüncü boyutu ekleyelim.
 
 ## <a name="create-a-bubble-chart"></a>Kabarcık grafiği oluşturma
-1. Alanlar bölmesinden **Sales** > **This Year Sales** > **Değer** öğesini **Boyut** alanına sürükleyin. 
+
+1. **Alanlar** bölmesinden, **Satış** > **Bu Yılın Satışları** > **Değer** öğesini **Boyut** alanına sürükleyin. Veri noktaları, satış değeriyle orantılı bir şekilde hacimlere genişler.
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
-2. Bir kabarcığın üzerine gelin.  Kabarcığın boyutu **This Year Sales** değerini yansıtır.
+
+2. Bir kabarcığın üzerine gelin. Kabarcığın boyutu **This Year Sales** değerini yansıtır.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
-3. İsteğe bağlı olarak [görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve diğer öğeleri biçimlendirebilirsiniz](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+3. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel** kartını genişletin ve **Veri Hacmi**'ni ayarlayın. Veri hacmi üst sınırını 10.000’e kadar herhangi bir sayıya ayarlayabilirsiniz. (Varsayılan olarak 3500’dür.)
+
+    ![Veri Hacmi](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+
+   > [!NOTE]
+   > Veri noktası sayısı arttığında yükleme süresi de uzayacağından, raporları ölçeğin uç sınırlarıyla yayımlamayı seçerseniz performansın kullanıcı beklentilerini karşılamasını sağlamak için raporlarınızı hem web üzerinde hem de mobil cihazlarda test ettiğinizden emin olun. Daha fazla sayıda veri noktası için, iyi performans sağlamak amacıyla sonuçları farklı form faktörleri üzerinde test etmeniz gerektiğini unutmayın.
+
+4. [Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha pek çok özelliğini biçimlendirebilirsiniz](service-getting-started-with-color-formatting-and-axis-properties.md). [Erişilebilirliği artırmak](desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. Her çizgi için farklı bir İşaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar. İşaretçi şeklini seçmek için **Şekiller** kartını genişletin ve bir işaretçi şekli belirleyin.
+
+      ![İşaretçi şekli](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    İşaretçi şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz:
 
    ![Kare işaretçi](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-4. İsteğe bağlı olarak, kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel** kartını genişletin ve **Veri Hacmi**'ni ayarlayın. Varsayılan değer 3500'dür. 
- 
-    ![Veri Hacmi](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
-
-   > [!NOTE]
-   > Veri noktası sayısı arttığında yükleme süresi de uzayacağından, raporları ölçeğin uç sınırlarıyla yayımlamayı seçerseniz performansın kullanıcı beklentilerini karşılamasını sağlamak için raporlarınızı hem web üzerinde hem de mobil cihazlarda test ettiğinizden emin olun.
-
-5.   İsteğe bağlı olarak, işaretçi şeklini seçmek için **Şekiller** kartını genişletin ve bir işaretçi şekli belirleyin.
-
-      ![İşaretçi şekli](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli Noktalar ve Sorun Giderme
+
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Dağılım grafiğinizde tek bir veri noktası var**
 Dağılım grafiğinizde X ve Y eksenindeki tüm değerleri toplayan yalnızca bir veri noktası mı var?  Ya da tek bir yatay veya dikey çizgi üzerindeki tüm değerleri mi topluyor?
 

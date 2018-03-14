@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 02/15/2018
 ms.author: maggies
-ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -29,6 +29,12 @@ ms.lasthandoff: 02/11/2018
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
+
+## <a name="february-2018"></a>Şubat 2018
+
+### <a name="share-reports"></a>Rapor paylaşma
+
+Artık bir raporu doğrudan mobil uygulamalardan paylaşabilirsiniz. [Mobil uygulamalardan pano ve rapor paylaşma](mobile-share-dashboard-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin
 
 ## <a name="january-2018"></a>Ocak 2018
 

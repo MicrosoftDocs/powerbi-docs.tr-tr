@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?
 Bir Power BI ***raporu***, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görselleştirmelerle, bu veri kümesine ilişkin çok perspektifli bir görüş sunar.  Bir raporda tek bir görselleştirme olabilir veya rapor, görselleştirmelerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, raporu *oluşturan* ve/veya raporu sadece *kullanan* biri olabilirsiniz.
 
-![](media/service-reports/reportview.png)
+![rapor sayfası](media/service-reports/reportview.png)
 
 Bu raporda 3 sayfa (veya sekme) bulunuyor ve biz şu anda Store Sales Overview sayfasını görüntülüyoruz. Bu sayfada 6 farklı görselleştirme ve bir sayfa başlığı bulunuyor. Görselleştirmeler panolara *sabitlenebilir* ve bu sabitlenen görselleştirme seçildiği zaman, sabitlenen görselleştirmenin kaynağı olan rapor açılır.
 
