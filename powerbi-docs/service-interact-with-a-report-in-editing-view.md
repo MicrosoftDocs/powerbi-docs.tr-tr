@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Sahip izinleriniz varsa Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleyebilirsiniz. Desktop'ın aksine, Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](service-reading-view-and-editing-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü. Makale biçimindeki bu eğitimde Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
