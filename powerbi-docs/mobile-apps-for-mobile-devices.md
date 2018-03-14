@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Nereye giderseniz gidin, mobil cihazınızla Power BI'ı da yanınızda götürün
 Power BI panolarını ve raporlarını Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)), şirket içi Power BI raporlarınızı ise [Power BI Rapor Sunucusu](report-server/get-started.md)'nda görüntüleyebilirsiniz. Şirket içindeki ve buluttaki verilerinize artık Power BI mobil uygulamaları aracılığıyla bağlanabilirsiniz. Power BI panolarınızı ve raporlarınızı iOS (iPad, iPhone, iPod touch veya Apple Watch), Android telefon veya tablet ya da Windows 10 cihazı gibi mobil cihazlarınızda görüntülemeyi ve bunlarla mobil cihazlarınız üzerinden etkileşim kurmayı deneyin.
@@ -51,4 +51,5 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI (ücretsiz) ve Pro lisansları](service-free-vs-pro.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+
 
