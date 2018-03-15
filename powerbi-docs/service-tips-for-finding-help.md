@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -56,7 +57,7 @@ Yüz yüze laboratuvar eğitimlerinden kısa videolara kadar neredeyse sınırs�
 
 Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belirtilmiştir:
 
-* **edX.org**, [Analyzing and Visualizing Data with Power BI (Power BI ile Verileri Çözümleme ve Görselleştirme)](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) adlı ücretsiz bir kurs sunar. 
+* **edX.org**, [Analyzing and Visualizing Data with Power BI (Power BI ile Verileri Çözümleme ve Görselleştirme)](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) adlı ücretsiz bir kurs sunar.
 * **Lynda.com**, [Power BI Pro Essential Training (Power BI Pro Temel Eğitimi)](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) gibi kurslar sunar.
 * Yüz yüze "**Dashboard in a Day (Bir Günde Pano)**" eğitim oturumları arayın.
 
@@ -67,15 +68,14 @@ Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belir
 Bir [Power BI kullanıcı grubuna](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) katılarak sorularınıza cevap bulmak için grubunuzdan yardım isteyin. Alternatif olarak, kendi kullanıcı grubunuzu kurabilir, kullanıcıların birbirine yardım ettiği bir topluluk oluşturabilir ve kendi bölgenizde, kendi verileriniz için, kendi saat diliminizde ihtiyaçlarınıza odaklanabilirsiniz.
 
 ## <a name="9-check-the-service-status"></a>9 Hizmet durumunu denetleyin
-Hizmetle ilgili olarak yaşadığınız sorunlar hizmetin kendisinden kaynaklanıyor olabilir. Raporlar için [Destek sayfasını kontrol edin](https://powerbi.microsoft.com/support/). 
+Hizmetle ilgili olarak yaşadığınız sorunlar hizmetin kendisinden kaynaklanıyor olabilir. Raporlar için [Destek sayfasını kontrol edin](https://powerbi.microsoft.com/support/).
 
 ## <a name="10-just-try-it"></a>10 Kullanmayı deneyin
-Bu seçeneklerin hiçbiri işinize yaramazsa son ipucu olarak sistemi gözlemleyin. Kullanıcılar genelde Power BI'ın ne gibi özelliklere sahip olduğunu sorar. Bu tür soruları genellikle Power BI hizmetine veya Power BI Desktop uygulamasına gidip kullanıcı arabirimindeki seçenekleri inceleyerek ve kullanmayı deneyerek cevaplayabilirsiniz. 
+Bu seçeneklerin hiçbiri işinize yaramazsa son ipucu olarak sistemi gözlemleyin. Kullanıcılar genelde Power BI'ın ne gibi özelliklere sahip olduğunu sorar. Bu tür soruları genellikle Power BI hizmetine veya Power BI Desktop uygulamasına gidip kullanıcı arabirimindeki seçenekleri inceleyerek ve kullanmayı deneyerek cevaplayabilirsiniz.
 
 Örneğin, bir güvenlik grubuyla pano paylaşıp paylaşamayacağınızı merak ediyorsunuz. Bu soruyu cevaplamak için paylaşım iletişim kutusuna gidin ve bir güvenlik grubu eklemeyi deneyin. Sonuç olarak bu testin ardından cevabı bulmuş olursunuz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI ile çalışmaya başlama](service-get-started.md) 
+* [Power BI ile çalışmaya başlama](service-get-started.md)
 * [Power BI Topluluğu](http://community.powerbi.com/)'na sorun
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin
-
