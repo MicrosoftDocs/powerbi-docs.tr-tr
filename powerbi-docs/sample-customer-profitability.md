@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Customer Profitability Sample: Tura katılın
 
@@ -40,21 +40,22 @@ Birlikte ilerlemek ister misiniz? Bu öğreticide, Power BI hizmeti ve "Müşter
 
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
 2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **Müşteri Kârlılığı Örneği**'ni ve ardından **Bağlan**'ı seçin.  
-   
+
    ![Veri Al](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. Power BI'da test çalıştırması gerçekleştirmek için örnekleri kullanın.  
-   
+
    ![Yıldız işareti](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. [Müşteri Karlılık Örneği] (<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Karlılık Örneği PBIX.pbix)
+Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
+[Müşteri Kârlılığı Örneği](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
@@ -87,13 +88,13 @@ Panonun sağ tarafındaki kutucuklar ise bir ekip puan kartı sağlar. CFO'nun, 
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Carlos dışındaki tüm yöneticiler, satış hedeflerini zaten aştı. Ancak en fazla gerçek satışı Carlos yapmıştır. 
+- Carlos dışındaki tüm yöneticiler, satış hedeflerini zaten aştı. Ancak en fazla gerçek satışı Carlos yapmıştır.
 - Brüt kâr yüzdesi en düşük yönetici Annelie ancak onun da Mart ayından bu yana istikrarlı bir artış yakaladığını görüyoruz.
-- Diğer taraftan, Valery'nin brüt kâr yüzdesinde önemli ölçüde bir düşüş görülüyor. 
-- Andrew ise istikrarsız bir yıl geçirmiş gibi görünüyor. 
+- Diğer taraftan, Valery'nin brüt kâr yüzdesinde önemli ölçüde bir düşüş görülüyor.
+- Andrew ise istikrarsız bir yıl geçirmiş gibi görünüyor.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Panodaki temel alınan verileri keşfedin
-Bu panoda bir raporun ve bir Excel çalışma kitabının bağlantısını içeren kutucuklara sahiptir. 
+Bu panoda bir raporun ve bir Excel çalışma kitabının bağlantısını içeren kutucuklara sahiptir.
 
 ### <a name="open-the-excel-online-data-source"></a>Excel Online veri kaynağını açma
 Bu panodaki "Hedef ve Gerçek" ile "Yıllara Göre Gelir Büyümesi" adlı iki kutucuk bir Excel çalışma kitabından sabitlenmiştir. Bu nedenle, bu kutucuklardan birini seçtiğinizde Power BI, veri kaynağını (bu durumda, Excel Online) açar.
@@ -112,14 +113,14 @@ Bu panodaki "Hedef ve Gerçek" ile "Yıllara Göre Gelir Büyümesi" adlı iki k
 
 4. Araştırmaya devam edin ve ilgi çekici bir şeyler bulursanız sağ üst köşeden **Sabitle** ![](media/sample-customer-profitability/power-bi-excel-pin.png) öğesini seçerek [panoya sabitleyin](service-dashboard-pin-tile-from-excel.md).
 
-5. Panoya geri dönmek için tarayıcınızın geri okunu kullanın. 
+5. Panoya geri dönmek için tarayıcınızın geri okunu kullanın.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Temel alınan Power BI raporunu açın
-Müşteri Karlılığı örnek panosundaki kutucuklarının büyük bölümü, temel alınan Müşteri Karlılığı örnek raporundan sabitlenmiştir. 
+Müşteri Karlılığı örnek panosundaki kutucuklarının büyük bölümü, temel alınan Müşteri Karlılığı örnek raporundan sabitlenmiştir.
 
-1. Raporu Okuma görünümünde açmak için bu kutucuklardan birini seçin. 
+1. Raporu Okuma görünümünde açmak için bu kutucuklardan birini seçin.
 
-2. Raporda 3 sayfa vardır. Raporun en alt bölümündeki her sekme bir sayfaya karşılık gelir. 
+2. Raporda 3 sayfa vardır. Raporun en alt bölümündeki her sekme bir sayfaya karşılık gelir.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Kârlılık, sektörden sektöre nasıl bir değişiklik gösteriyor? Sektörler
 
 CFO, kabarcık grafiğindeki en büyük balonları görmeye çalışır. Gelir üzerinde en büyük etkiye sahip olanlar bunlardır. Alan grafiğinde adlarına tıklayarak sayfayı yöneticiye göre filtrelediğinde ise her bir yöneticinin sektör segmentine göre etkisini kolayca görebilir.
 
-* Andrew'un etki alanının birçok farklı sektör segmentine yayıldığını ve brüt kâr yüzdesi (çoğunlukla olumlu anlamda) ile varyans yüzdesinin geniş çapta değişiklik gösterdiğini görüyoruz. 
-* Federal segmentine ve Gladius ürününe daha fazla odaklanmış olup az sayıda sektör segmentine yönelmiş olması dışında Annelie'nin grafiğinde de benzer bir durumla karşılaşıyoruz. 
-* Carlos'un Services segmentine net bir şekilde yöneldiğini ve iyi bir kâr yüzdesi yakaladığını görüyoruz. High Tech segmenti için varyans yüzdesini büyük oranda iyileştirmiş ve henüz acemisi olduğu Industrial segmentinde bütçeye kıyasla olağanüstü bir başarı göstermiş. 
-* Tina az sayıda segment ile çalışıyor ve en yüksek brüt kâr yüzdesine sahip ancak balonlarının genel olarak küçük boyutta olması, şirketin nihai kâr-zarar dengesi üzerindeki etkisinin minimum düzeyde olduğunu gösteriyor. 
+* Andrew'un etki alanının birçok farklı sektör segmentine yayıldığını ve brüt kâr yüzdesi (çoğunlukla olumlu anlamda) ile varyans yüzdesinin geniş çapta değişiklik gösterdiğini görüyoruz.
+* Federal segmentine ve Gladius ürününe daha fazla odaklanmış olup az sayıda sektör segmentine yönelmiş olması dışında Annelie'nin grafiğinde de benzer bir durumla karşılaşıyoruz.
+* Carlos'un Services segmentine net bir şekilde yöneldiğini ve iyi bir kâr yüzdesi yakaladığını görüyoruz. High Tech segmenti için varyans yüzdesini büyük oranda iyileştirmiş ve henüz acemisi olduğu Industrial segmentinde bütçeye kıyasla olağanüstü bir başarı göstermiş.
+* Tina az sayıda segment ile çalışıyor ve en yüksek brüt kâr yüzdesine sahip ancak balonlarının genel olarak küçük boyutta olması, şirketin nihai kâr-zarar dengesi üzerindeki etkisinin minimum düzeyde olduğunu gösteriyor.
 * Yalnızca tek bir üründen sorumlu olan Valery, yalnızca 5 sektör segmentinde çalışıyor. Sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kâr-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör onun bu olumsuz performansını nasıl etkiliyor?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
@@ -174,9 +175,9 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **Total revenue by industry for Valery** (Valery için sektörlere göre toplam gelir) yazın. Siz sorunuzu yazdıkça görselleştirmenin nasıl güncelleştirildiğine dikkat edin.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    Valery'nin en çok geliri Distribution sektöründen elde ettiğini görüyoruz.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Filtreler ekleyerek daha fazla ayrıntıya ulaşma
@@ -184,15 +185,15 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 
 1. "Sektör Marjı Analizi" rapor sayfasını açın.
 2. Rapor sayfasında herhangi bir görselleştirmeyi seçmeden sağdaki filtre bölmesini genişletin (henüz genişletilmemişse). Filtreler bölmesinde yalnızca Sayfa düzeyi filtreleri görüntülenmelidir.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. **Industry** filtresini bulun ve listeyi genişletmek için oku seçin. Şimdi Distribution sektörü için bir sayfa filtresi ekleyelim. Öncelikle **Tümünü Seç** onay kutusunu temizleyerek tüm seçimleri kaldırın. Ardından yalnızca **Dağıtım**'ı seçin.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. "Month ve Executive ölçütlerine göre Gross Margin" alan grafiğinde, yalnızca Valery ve Tina'nın bu sektörden müşterilerinin olduğunu ve Valery'nin bu sektör ile yalnızca Haziran ayından Kasım ayına kadar çalıştığını görüyoruz.   
-5. "Month ve Executive ölçütüne göre Gross Margin" alan grafiği açıklamasında **Tina**'yı ve ardından **Valery**'yi seçin. Tina'nın "Product ölçütüne göre Total Revenue" yüzdesinin Valery'ye kıyasla gerçekten çok düşük olduğuna dikkat edin. 
+5. "Month ve Executive ölçütüne göre Gross Margin" alan grafiği açıklamasında **Tina**'yı ve ardından **Valery**'yi seçin. Tina'nın "Product ölçütüne göre Total Revenue" yüzdesinin Valery'ye kıyasla gerçekten çok düşük olduğuna dikkat edin.
 6. Gerçek geliri görmek için Soru-Cevap seçeneğini kullanarak **yöneticiye ve senaryoya göre dağıtım sektörü için toplam gelir** yazın.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Valery'nin performansını etkileyen unsurları anlamak için benzer şekilde diğer sektörleri de inceleyebilir ve hatta müşterileri de görsellerimize ekleyebiliriz.
@@ -205,4 +206,3 @@ Ayrıca [sadece bu örneğe ilişkin veri kümesini (Excel çalışma kitabı) d
 Bu turda Power BI panolarının, Soru-Cevap özelliğinin ve raporların müşteri verileriyle ilgili olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Şimdi sıra sizde, kendi verilerinize bağlanın. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
 
 [Power BI'daki Örneklere geri dönün](sample-datasets.md)  
-

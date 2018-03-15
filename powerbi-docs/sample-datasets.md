@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Bir veri kümeniz olsa da (henüz) Power BI'ın nasıl çalıştığını bilmediğinizden veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
@@ -106,16 +106,16 @@ Yukarıda da belirtildiği gibi, örnekler çeşitli biçimlerde kullanılabilir
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Power BI hizmetinde örnek içerik paketlerini edinme ve açma
 1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Açıklamasını görmek üzere örneklerden birini açın. Ardından, **Bağlan** seçeneğini belirleyin.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. Power BI'da test çalıştırması gerçekleştirmek için örnekleri kullanın.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketlerini kullanarak eğitimlerimizden bazılarını deneyin veya Power BI hizmetini açıp dilediğiniz gibi araştırma yapın.
@@ -124,7 +124,7 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
 Örnek içerik paketlerinden her biri aynı zamanda Excel çalışma kitabı olarak da kullanılabilir. Excel çalışma kitapları, Power BI hizmetiyle kullanılacak şekilde tasarlanmıştır.  
 
 1. Aşağıdaki bağlantıları kullanarak dosyaları tek tek veya [tüm örnek dosyalarını içeren bir zip dosyası halinde indirin](http://go.microsoft.com/fwlink/?LinkId=535020). İleri düzeyde bir kullanıcıysanız veri modellerini araştırmak veya düzenlemek için Excel çalışma kitaplarını indirmeyi tercih edebilirsiniz.
-   
+
    * [Perakende Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [Tedarikçi Kalite Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [İnsan Kaynakları Örneği](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
    * [Tedarik Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [Satış ve Pazarlama Örneği](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. İndirdiğiniz dosyayı kaydedin. Dosyayı kaydettiğiniz yer önemlidir.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI'ı kullanarak dosyanızı Power BI'a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen asıl işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - İş**: OneDrive İş kullanıyorsanız ve OneDrive İş'te oturum açarken, Power BI'a bağlandığınız hesabı kullanıyorsanız bu, Excel'deki, Power BI'daki veya bir .CSV dosyasındaki çalışmanızı veri kümeniz, raporlarınız ve panolarınız ile Power BI'da eşitlenmiş durumda tutmanın açık ara en etkili yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş'te sahip olduğunuz avantajların pek çoğundan yararlanabilirsiniz. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel adımlarını kullanarak) OneDrive oturumunuzu Microsoft hesabınızla açmanız gerekir. Bu hesap genellikle, Power BI'da oturum açarken kullandığınızdan farklı bir hesaptır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Ekip Siteleri**: Power BI dosyalarınızı SharePoint - Ekip Siteleri'ne kaydetme, OneDrive İş'e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
 3. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
-   
+
    > [!TIP]
    > Bu noktada yeni bir pano oluşturup bu panoya, içeri aktarmayı planladığınız dosyanın adını vermenizde yarar vardır.  Aksi halde, Excel veri kümesini içeri aktardığınızda Power BI, örneğin adının verildiği yeni bir pano oluşturmaz; bunun yerine o sırada açık olan panoya bir kutucuk ekler. Bu kutucuğu seçtiğinizde veri kümesinin raporuna yönlendirilirsiniz. Daha sonra dilediğiniz zaman yeni bir pano oluşturabileceğiniz için bu büyük bir sorun değildir ancak yeni bir panoyla başlamak size birkaç adım kazandırır.
-   > 
-   > 
+   >
+   >
 4. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. Görünen Veri Al sayfasında **Dosyalar > Al** seçeneğini belirleyin.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. Örneği indirip kaydettiğiniz konuma gidin.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. OneDrive İş'e kaydedilen dosyayı (bu örnekte **Procurement Analysis Sample.xlsx**) seçin ve **Bağlan** seçeneğini belirleyin.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Verileri içeri aktarma ile çalışma kitabını Power BI'a aktarıp tam olarak Excel Online'da göründüğü şekilde görüntüleme arasında bir seçim yapın.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. **İçeri aktar** seçeneğini belirlemeniz durumunda Power BI, örnek çalışma kitabını içeri aktarır **Tedarik Analizi Örneği** adında yeni bir veri kümesi olarak ekler.  Çalışma kitabında herhangi bir Power View sayfası, tablo veya aralık ya da veri modeli varsa Power BI bir rapor (aynı ada sahip) da oluşturur. Ayrıca, açık bir panoya sahip olmamanız halinde Power BI tarafından yeni bir pano oluşturulur. (**Veri Al** seçeneğine tıkladığınız sırada bir panonuz açıksa bu panoda yeni bir boş kutucuk görürsünüz.  Bu kutucuğa tıkladığınızda, yeni eklediğiniz veri kümesine ilişkin rapora yönlendirilirsiniz.) Yeni içerik örneğin adını alır ve sarı yıldızla işaretlenir.
 10. **Veri kümeniz hazır!** ekranı göründüğünde, **Veri kümesini görüntüle** veya **Hızlı Öngörüler Alın** seçeneğini belirleyin ya da Power BI'daki sol gezinti çubuğunuzu kullanarak ilişkili raporu ya da panoyu bulup açın.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(İsteğe bağlı) Doğrudan Excel üzerinden Excel örneklerine göz atın
@@ -170,18 +170,18 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 
 * Bir örnek çalışma kitabını Excel'de ilk kez açtığınızda iki uyarı görebilirsiniz. İlk uyarı, çalışma kitabının Korumalı Görünüm'de olduğunu belirtir. **Düzenlemeyi Etkinleştir** seçeneğini belirleyin. İkinci uyarı, çalışma kitabında dış veri bağlantıları olduğunu bildirebilir. **İçeriği Etkinleştir** seçeneğini belirleyin.
 * Her çalışma kitabında çeşitli sayfalar bulunur. Excel örneklerinin tümünde görselleştirmeler içeren en az bir Power View sayfası bulunduğundan, Excel dosyasını Power BI'a aktardığınızda bir veri kümesi **ve** rapor elde edersiniz.
-  
+
    [Power View eklentisini etkinleştirmeniz](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957) gerekebilir.
 * Peki gerçek veriler nerededir? Gerçek veriler Power Pivot veri modelinde yer alır. Verileri görmek için **PowerPivot** sekmesinde **Veri Modelini Yönet** seçeneğini belirleyin.
-  
-    PowerPivot sekmesini göremiyor musunuz? [Power Pivot eklentisini etkinleştirin](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
+
+    PowerPivot sekmesini göremiyor musunuz? [Power Pivot eklentisini etkinleştirin](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * Info sekmesi, örneği oluşturan şirket olan obviEnce ile ilgili bilgiler verir.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>.pbix dosyaları olarak sunulan Power BI örnekleri
 Örnek içerik paketlerinden her biri Power BI .pbix dosyası olarak da kullanılabilir. .pbix dosyaları Power BI Desktop ile kullanılmak üzere tasarlanmıştır.  
 
 1. Aşağıdaki bağlantıları kullanarak dosyaları tek tek indirebilirsiniz.
-   
+
    * [Perakende Analizi Örneği](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [Tedarikçi Kalite Analizi Örneği](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [İnsan Kaynakları Örneği](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
    * [Satış ve Pazarlama Örneği](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. İndirdiğiniz dosyayı kaydedin.
 3. Desktop'ta **Dosya > Aç** seçeneğini belirleyin ve örnek .pbix dosyasını kaydettiğiniz konuma gidin.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Desktop'ta açmak için .pbix dosyasını seçin.
 
@@ -204,4 +204,3 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 [Power BI için veri kaynakları](service-get-data.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-
