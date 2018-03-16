@@ -862,6 +862,8 @@
       items:
         - name: iOS için Power BI uygulamaları
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Karma Gerçeklik için Power BI
+          href: mobile-mixed-reality-app.md
         - name: Mobil uygulamalarda şirket içi raporları ve KPI'leri görüntüleme
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Mobil uygulamalarda panolar

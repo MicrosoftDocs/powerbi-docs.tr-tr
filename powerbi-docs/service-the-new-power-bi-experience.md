@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Power BI hizmetinde dolaşma
 ## <a name="the-left-navigation-pane"></a>Sol gezinti bölmesi
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![sol gezinti bölmesi](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Hızlı başvuru kılavuzu**
 
@@ -64,61 +64,61 @@ Temel içeriğin (panolar, raporlar, veri kümeleri ve çalışma kitapları) na
 
 Ücretsiz Power BI sürümünü kullanıyorsanız yalnızca bir çalışma alanı görürsünüz: **Çalışma Alanım**.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![çalışma alanının kısa videosu](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Sık kullanılan panolar, raporlar ve uygulamalar
 **Sık Kullanılanlar** sizin için en önemli içeriklere hızlıca erişmenizi sağlar.  
 
 1. Pano veya rapor açıkken sağ üst köşeden **Sık kullanılanlara ekle** seçeneğini belirleyin.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![sık kullanılanlara ekleme](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    **Sık kullanılanlara ekle** seçeneği **Sık kullanılanlardan çıkar** olarak değişir ve yıldız simgesi sarı olur.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![sık kullanılanlardan çıkarma](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Uygulama için sol gezinti bölmesinden **Uygulamalar**’ı seçin, uygulamanın üzerine gelin ve yıldızı seçerek sık kullanılanlara ekleyin.
 
 2. Sık kullanılanlara eklediğiniz tüm içeriklerin listesini görüntülemek için sol gezinti bölmesinde **Sık Kullanılanlar**'ın sağ tarafındaki oku seçin. Sol gezinti bölmesi Power BI hizmetinin kalıcı bir özelliği olduğundan, bu listeye Power BI hizmetindeki herhangi bir konumdan erişebilirsiniz.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![sık kullanılanlar açılır öğesi](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     Buradan bir pano, rapor veya uygulamayı seçerek açabilirsiniz.
 
 3. Sol gezinti bölmesindeki **Sık Kullanılanlar** bölmesini açmak için **Sık Kullanılanlar** seçeneğini belirleyin veya Sık Kullanılanlar simgesini ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png) seçin.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![Sık Kullanılanlar’ı açma ekranı](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    Buradan içerikleri açabilir, bulabilir, sık kullanılanlardan çıkarabilir veya iş arkadaşlarınızla paylaşabilirsiniz.
 
 1. Bir pano veya raporu sık kullanılanlara eklemenin başka bir yolu ise **Panolar** veya **Raporlar** çalışma sekmesini kullanmaktır.  Çalışma alanını açarak içerik görünümünü görüntüleyin ve adın sol tarafındaki yıldız simgesini seçin.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![sık kullanılan olarak işaretleme](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 Daha fazla bilgi edinmek için bkz. [Sık Kullanılanlar](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>Son görüntülenen
 **Son görüntülenen** bölmesine giderek, en son eriştiğiniz içeriklere hızlıca ulaşabilirsiniz. Buna tüm çalışma alanlarınızdaki içerikler de dahildir.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![Son görüntülenen bölmesi](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 Sık Kullanılanlar bölmesine benzer şekilde son görüntülenenlerinize de Power BI hizmetindeki sol gezinti bölmesinde bulunan **Son görüntülenen** sekmesinin yanındaki oku seçerek hızlıca erişebilirsiniz.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![Son görüntülenen açılır öğesi](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 Daha fazla bilgi için bkz. [Power BI'da son görüntülenenler](service-recent.md)
 
 ### <a name="apps"></a>Uygulamalar
 Uygulama, tüm ana ölçümler tek bir yerde sunulacak şekilde tasarlanmış, panolardan ve raporlardan oluşan bir koleksiyonudur. Kuruluşunuz dahilinde uygulamalarınız ve Google Analytics, Microsoft Dynamics CRM gibi [dış hizmetler için uygulamalarınız](service-connect-to-services.md) olabilir. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![Uygulamalar bölmesi](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 Daha fazla bilgi edinmek için bkz. **Uygulama çalışma alanları** (aşağıda) ve [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Benimle paylaşılan
 **Benimle paylaşılan**, iş arkadaşlarınızın sizinle paylaştığı tüm içeriklerin bulunduğu konumdur.  Pano sahibine göre filtreleyin, ilgili içeriği bulmak için arama alanını kullanın ve öğeleri tarihe göre sıralayın.  Sıklıkla ziyaret ettiğiniz paylaşılan bir içeriği doğrudan **Benimle paylaşılan** görünümünde sık kullanılanlara eklemek daha da kolaydır.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![Benimle paylaşılan bölmesi](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 Daha fazla bilgi edinmek için bkz. [Benimle paylaşılan](service-shared-with-me.md)
 
@@ -130,7 +130,7 @@ Bir uygulama çalışma alanının üyesi veya yönetici değilseniz sol gezinti
 #### <a name="my-workspace"></a>Çalışma Alanım
 **Çalışma Alanım** size ait tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. İş arkadaşlarınızla Çalışma Alanım'dan içerik paylaşabilirsiniz. Çalışma Alanım'da içeriğiniz 4 sekmede düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Çalışma Alanım ekranı](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Uygulama çalışma alanları
 Uygulamalar ve uygulama çalışma alanları Power BI Pro özelliğidir. Diğerleri için pano ve rapor oluşturacaksanız bunu yapmak için uygulama çalışma alanlarını kullanırsınız. Uygulama çalışma alanı, uygulama oluşturduğunuz yerdir; uygulama oluşturmak için önce uygulama çalışma alanını oluşturmanız gerekir. Bunlar grup çalışma alanlarının gelişmiş halidir. Uygulama içeriği için hazırlama alanları ve kapsayıcılardır.  İş arkadaşlarınızla panolar, raporlar ve daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız diğer içerikler üzerinde işbirliği yapabilirsiniz.
@@ -139,20 +139,20 @@ Daha fazla bilgi edinmek için bkz. [Power BI'da uygulama oluşturma ve dağıtm
 
 **Çalışma Alanım**'da olduğu gibi içeriğiniz burada da 4 sekmede düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![Uygulama çalışma alanı](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Sol gezinti bölmesinden **Çalışma Alanı** seçeneğini belirleyerek çalışma alanları arasında geçiş yapabilirsiniz.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Çalışma alanı seçme](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>İçerikleri arama ve sıralama
 İçerik görünümü, içeriğinizi aramayı, filtrelemeyi ve sıralamayı kolaylaştırır. Bir panoyu, raporu veya çalışma kitabını aramak için arama alanına yazın. Power BI, yalnızca adında arama dizenizi barındıran içeriği filtreler.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![pano arama](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![içeriği sıralama](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama, sıralama, filtreleme](service-navigation-search-filter-sort.md)
 
