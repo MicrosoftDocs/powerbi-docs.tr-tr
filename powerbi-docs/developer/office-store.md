@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin. Office
@@ -38,7 +38,7 @@ AppSource nedir? Basit bir şekilde açıklamak gerekirse bu platform, Microsoft
 | Öğe | Gerekli | Açıklama |
 | --- | --- | --- |
 | Pbiviz paketi gerekli tüm meta verileri içeriyor |Evet |Görsel adı<br>Görünen ad<br>GUID<br>Sürüm<br>Açıklama<br>Yazarın adı ve e-posta adresi |
-| Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya kattığı değere odaklanmanız ve kullanım, biçimlendirme seçenekleri gibi alanlarda örnekler vermeniz gerekir. En sona ekleyeceğiniz *"ipuçları"* sayfasına püf noktalarını, dikkat edilmesi gerekenleri ve benzer bilgileri girebilirsiniz. |
+| Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya kattığı değere odaklanmanız ve kullanım, biçimlendirme seçenekleri gibi alanlarda örnekler vermeniz gerekir. En sona ekleyeceğiniz *"ipuçları"* sayfasına püf noktalarını, dikkat edilmesi gerekenleri ve benzer bilgileri girebilirsiniz.<br>Örnek .pbix rapor dosyası, herhangi bir dış bağlantı olmadan çevrimdışı çalıştırılmalıdır |
 | Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) olmalıdır. Dosya boyutu 512 KB'tan büyük olamaz. |
 | Ekran görüntüleri |Evet |En az bir ekran görüntüsü eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) olmalıdır. Dosya boyutu 1024 KB'tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.* |
 | Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. URL'niz https:// veya http:// ile başlamalıdır. |

@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -174,6 +174,8 @@ Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurman�
 * Kullanıcı, uygulamayı Uygulamalar listesinde hemen görmüyorsa tarayıcısını yenilemeli veya kapatıp yeniden açmalıdır.
 
 * Kullanıcılara zahmet vermemeye çalışın. Kullanıcılarınızın önceden yüklenen uygulamaların onlar için kullanışlı olduğu algısına kapılmaması için çok fazla sayıda uygulama göndermemeye dikkat edin. İdeal yaklaşım, zamanlamayı koordine edebilmek açısından son kullanıcılara kimlerin uygulama gönderebileceğini denetlemektir. Kuruluşunuzda, son kullanıcılara gönderilen uygulamaları alacak bir irtibat kişisi belirleyebilirsiniz.
+
+* Bir daveti kabul etmeyen konuk kullanıcılar için uygulamalar otomatik olarak yüklü gelmez.  
 
 ## <a name="unpublish-an-app"></a>Bir uygulamayı yayımdan kaldırma
 Uygulama çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.
