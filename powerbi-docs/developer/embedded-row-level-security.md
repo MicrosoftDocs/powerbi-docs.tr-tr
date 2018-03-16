@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
-ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için satır düzeyi güvenlik (RLS) kullanılabilir. Birçok farklı kullanıcı, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
@@ -134,7 +134,7 @@ Kullanıcı adı özelliği için sunulan etkin kimliğin, Analysis Services sun
 
 **Şirket içi veri ağ geçidi yapılandırması**
 
-Analysis Services canlı bağlantılarıyla çalışırken bir [şirket içi veri ağ geçidi](../service-gateway-onprem.md) kullanılır. Listelenmiş bir kimlikle ekleme belirteci oluştururken ana hesabın ağ geçidinin yöneticisi olarak listelenmesi gerekir. Ana hesap listelenmezse satır düzeyi güvenlik, özelliği verilere uygulamaz. Ağ geçidinde yönetici olmayan bir kullanıcı, rolleri sağlayabilir ancak etkin kimlik için kendi kullanıcı adını belirtmesi gerekir.
+Analysis Services canlı bağlantılarıyla çalışılırken bir [Şirket içi veri ağ geçidi](../service-gateway-onprem.md) kullanılır. Listelenmiş bir kimlikle ekleme belirteci oluştururken ana hesabın ağ geçidinin yöneticisi olarak listelenmesi gerekir. Ana hesap listelenmezse satır düzeyi güvenlik, özelliği verilere uygulamaz. Ağ geçidinde yönetici olmayan bir kullanıcı, rolleri sağlayabilir ancak etkin kimlik için kendi kullanıcı adını belirtmesi gerekir.
 
 **Rollerin kullanılması**
 

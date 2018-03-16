@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
 
 Power BI Desktop'a veri yüklediğinizde bu uygulama, kaynak sütunun veri türünü; depolama verimliliğini, hesaplamaları ve veri görselleştirme işlemlerini daha iyi destekleyecek bir veri türüne dönüştürmeye çalışır. Örneğin, Excel'den içeri aktardığınız bir değer sütununda hiç kesirli değer yoksa Power BI Desktop, veri sütununun tamamını Tam Sayı veri türüne dönüştürür. Bu veri türü, tam sayıların depolanması için daha iyi bir seçenektir.
 
-Bazı DAX işlevleri için özel veri türü gereksinimleri bulunduğundan bu önemli bir işlemdir. DAX çoğu durumda veri türlerini sizin için örtük olarak dönüştürürken bazı durumlarda bu işlemi gerçekleştirmez.  Örneğin, bir DAX işlevi için Tarih veri türü gerekli olduğunda sütununuzun veri türü Metin ise DAX işlevi düzgün çalışmaz.  Bu nedenle, sütunlar için doğru veri türlerinin belirlenmesi hem önemli hem de faydalı bir işlemdir. Örtük dönüştürme işlemleri bu makalenin sonraki bölümlerinde açıklanmıştır.
+Bazı DAX işlevleri için özel veri türü gereksinimleri bulunduğundan bu önemli bir kavramdır. DAX çoğu durumda veri türlerini sizin için örtük olarak dönüştürürken bazı durumlarda bu işlemi gerçekleştirmez.  Örneğin, bir DAX işlevi için Tarih veri türü gerekli olduğunda sütununuzun veri türü Metin ise DAX işlevi düzgün çalışmaz.  Bu nedenle, sütunlar için doğru veri türlerinin belirlenmesi hem önemli hem de faydalı bir işlemdir. Örtük dönüştürme işlemleri bu makalenin sonraki bölümlerinde açıklanmıştır.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Bir sütunun veri türünü belirleme ve belirtme
 Power BI Desktop'ta bir sütunun veri türünü Sorgu Düzenleyicisi'nde, Veri Görünümü'nde veya Rapor Görünümü'nde belirleyebilir ve belirtebilirsiniz:
@@ -42,7 +42,7 @@ Power BI Desktop'ta bir sütunun veri türünü Sorgu Düzenleyicisi'nde, Veri G
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-Sorgu Düzenleyicisi'ndeki Veri Türü açılan listesinde, Veri veya Rapor Görünümü'nde mevcut olmayan iki veri türü bulunmaktadır: **Tarih/Saat/Saat Dilimi** ve **Süre**. Modele bu veri türlerini içeren bir sütun yüklendiğinde ve söz konusu model Veri veya Rapor görünümünde görüntülendiğinde; Tarih/Saat/Saat Dilimi veri türündeki sütunlar Tarih/Saat veri türüne, Süre veri türündeki sütunlar ise Ondalık Sayı veri türüne dönüştürülür.
+Sorgu Düzenleyicisi'ndeki Veri Türü açılan listesinde, Veri veya Rapor Görünümü'nde mevcut olmayan iki veri türü bulunmaktadır: **Tarih/Saat/Saat Dilimi** ve **Süre**. Modele bu veri türlerini içeren bir sütun yüklendiğinde ve söz konusu model Veri veya Rapor görünümü'nde görüntülendiğinde; Tarih/Saat/Saat Dilimi veri türündeki sütunlar Tarih/Saat veri türüne, Süre veri türündeki sütunlar ise Ondalık Sayı veri türüne dönüştürülür.
 
 ### <a name="number-types"></a>Sayı türleri
 Power BI Desktop üç sayı türünü destekler:
@@ -125,7 +125,7 @@ Aşağıdaki tabloda satır başlığı, çıkarılan sayıyı (sol taraf) sütu
 > 
 > 
 
-**(*)**
+**Çarpma (*)**
 
 | İşleç (\*) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ Aşağıdaki DAX ifadelerinde bu davranış görülmektedir:
 
 =IF(FALSE()\>"true","Expression is true", "Expression is false") ifadesi için "Expression is true" değeri döndürülür.
 
-=IF("12"\>12,"Expression is true", "Expression is false") ifadesi için "Expression is true" değeri döndürülür.
+=IF("12"\>12,"Expression is true", "Expression is false") ifadesi için "Expression is true" değeri döndürülür
 
 =IF("12"=12,"Expression is true", "Expression is false") ifadesi için "Expression is false" değeri döndürülür.
 

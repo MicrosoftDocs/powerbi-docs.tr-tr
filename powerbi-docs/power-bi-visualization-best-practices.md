@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
