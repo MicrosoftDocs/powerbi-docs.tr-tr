@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -101,7 +101,7 @@ Kendinize ait bir ağ geçidine sahip olmak için **Şirket içi veri ağ geçid
 Bir ağ geçidi yüklemek gerçekten de çok kolaydır. Ağ geçidini yüklemek için bir konum seçtikten sonra diğer uygulamalarda olduğu gibi lisans sözleşmesini okuyup kabul etmeniz yeterlidir. Bununla birlikte, bilmeniz gereken bazı önemli noktalar da vardır. Özellikle, ağ geçidini yüklediğiniz bilgisayar türünü ve bu bilgisayarda Windows'da oturum açtığınız hesabın türünü bilmeniz gerekir.
 
 > [!NOTE]
-> Ağ geçidinin, veri kaynağına erişimi olması gerekir. Kişisel makineniz veri kaynağına bağlanamıyorsa, veri kaynağına erişimi olan bir makineye [şirket içi veri ağ geçidi](service-gateway-onprem.md) yüklemeyi deneyebilirsiniz. Azure'da barındırılan bir sanal makineye (VM) yüklenmiş olan SQL Server, buna örnek olarak gösterilebilir. Kişisel makinenizin VM'ye erişimi olmayabilir. Bunun yerine, şirket içi veri ağ geçidini VM'ye yükleyip Power BI hizmetinde bir veri kaynağı yapılandırabilirsiniz.
+> Ağ geçidinin, veri kaynağına erişimi olması gerekir. Kişisel makineniz veri kaynağına bağlanamıyorsa, veri kaynağına erişimi olan bir makineye [şirket içi veri ağ geçidi](service-gateway-onprem.md) yüklemeyi deneyebilirsiniz. Azure'da barındırılan bir sanal makineye (VM) yüklenmiş olan SQL Server, buna örnek olarak gösterilebilir. Kişisel makinenizin VM'ye erişimi olmayabilir. Bunun yerine, şirket içi veri ağ geçidini VM’ye yükleyip Power BI hizmetinde bir veri kaynağı yapılandırabilirsiniz.
 > 
 > 
 
