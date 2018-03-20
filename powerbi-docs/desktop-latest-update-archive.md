@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -31,6 +31,69 @@ Bu makalede, **Power BI Desktop**'a yönelik önceki güncelleştirmeler açıkl
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
 Dilediğiniz zaman [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**'ı nasıl yüklediğinizden bağımsız olarak aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+
+
+## <a name="february-2018-update-2555010521"></a>Şubat 2018 Güncelleştirmesi (2.55.5010.521)
+
+Şubat ayında **Power BI Desktop**’ta yapılan güncelleştirmeler için heyecanla çalıştık ve sizin de bunları beğenmenizi, bunlarla ilgili bizim kadar heyecan duyacağınızı umuyoruz.
+
+Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
+
+* Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
+* Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
+* Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
+* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+
+İlk olarak bu makalede yer alan, bu aya ait **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
+
+Şubat 2018’de yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
+
+### <a name="reporting"></a>Raporlama
+
+* Birden çok sayfada çoklu seçim noktaları  [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[makale]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* Bir raporun birden çok sayfasında dilimleyicileri eşitleme  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[makale]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Sayısal aralık dilimleyici geliştirildi - tam sayıya yaslama (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[makale]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Bing için daha hızlı coğrafi kodlama eşlemeleri (web Önizlemesi) - 6 kata kadar daha hızlı [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* Çubuk ve sütun grafik görselleri için taşma veri etiketleri [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* Biçimlendirme ve analiz bölmelerinde arama  [[video]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[makale]](desktop-analytics-pane.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>Özel görseller
+
+* Kuruluş özel görselleri (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[makale]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>Analiz
+
+* Özel tarih tablosu ayarlama  [[video]](https://youtu.be/KeVB5RwMzJo?t=16m4s)  [[makale]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* Hızlı ölçümler genel kullanıma sunuldu  [[video]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[makale]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+
+* SAP HANA üzerinden DirectQuery geliştirmeleri (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[makale]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>Diğer
+
+* DirectQuery performans iyileştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[makale]](desktop-directquery-about.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* Açma ve kaydetmeye ilişkin performans iyileştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* *Veri içermeyen öğeleri göster* geliştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* Yakında çıkacak **Power BI hizmeti** özelliği için kalıcı filtreler denetimi [[video]](https://youtu.be/KeVB5RwMzJo?t=34m56s)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="january-2018-update-2544970761"></a>Ocak 2018 Güncelleştirmesi (2.54.4970.761)
@@ -44,7 +107,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 * Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
 -   Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
 
-İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
+İlk olarak bu makalede yer alan, bu aya ait **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
 Ocak ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
 
@@ -83,7 +146,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 
-## <a name="december-2017-update-2534954481-"></a>Aralık 2017 Güncelleştirmesi (2.53.4954.481)
+## <a name="december-2017-update-2534954481"></a>Aralık 2017 Güncelleştirmesi (2.53.4954.481)
 
 Aralık ayında **Power BI Desktop**'ta iş zekası odaklı çocuklara (ve yetişkinlere) yönelik çok sayıda güncelleştirme yapıldı.
 
@@ -350,9 +413,9 @@ Temmuz ayında yapılan **Power BI Desktop** güncelleştirmelerini aşağıda b
 -   Görseller için esnek düzen (önizleme)  [[video]](https://youtu.be/4X96ow7FnSY?t=12m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   Yeni şelale grafik seçeneği - kırılım  [[video]](https://youtu.be/4X96ow7FnSY?t=14m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
 -   Özel görsel güncelleştirmeleri  [[video]](https://youtu.be/4X96ow7FnSY?t=17m34s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
-    -   Drilldown Choropleth  [[video]](https://youtu.be/4X96ow7FnSY?t=18m11s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
-    -   Drilldown Cartogram  [[video]](https://youtu.be/4X96ow7FnSY?t=19m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
-    -   Drilldown Player  [[video]](https://youtu.be/4X96ow7FnSY?t=20m17s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
+    -   Choropleth’te detaya gitme [[video]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
+    -   Cartogram’da detaya gitme [[video]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
+    -   Player’da detaya gitme [[video]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
     -   Sertifikalı özel görseller  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
@@ -831,7 +894,7 @@ Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabili
 
 ### <a name="report-view"></a>Rapor Görünümü:
 
--   Çizgi grafiklerde detaya gitme veya detaydan çıkma [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[video]](https://youtu.be/0VvG7Eqoke8?t=3m1s)
+-   Çizgi grafiklerde detaya gitme (veya detaydan çıkma) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[video]](https://youtu.be/0VvG7Eqoke8?t=3m1s)
 -   Tarih ekseni için sürekli eksen desteği [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)  [[video]](https://youtu.be/0VvG7Eqoke8?t=3m48s)
 -   Satır İçi Hiyerarşiler genel kullanıma sunuldu [[makale]](desktop-inline-hierarchy-labels.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[video]](https://youtu.be/0VvG7Eqoke8?t=4m6s)
 -   Önceden tanımlanmış matris stilleri (Excel'de tablo biçimlendirmeye benzer) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[video]](https://youtu.be/0VvG7Eqoke8?t=4m59s)
@@ -1294,7 +1357,7 @@ Bu ay da Power BI Desktop'a yönelik çok sayıda yeni özellik ve iyileştirme 
 -   Dilimleyici Seçme Davranışları (tek veya çoklu seçim)
 -   Z Düzenini Denetleme
 -   Dilimleyiciler için Arka Plan Renkleri
--   Görseller arasında Etkileşim - Alt görünüm (kutucuğa göre)
+-   Görseller arasında etkileşim - Alt görünüm (kutucuğa göre)
 -   Sayfaları Yineleme
 -   Tablolarda, matrislerde ve kartlarda KPI ve Resim desteği
 -   Alan Grafiklerinde ve Çizgi Grafiklerde Daha İyi Araç İpuçları
@@ -1363,8 +1426,8 @@ Ekim ayında da Power BI Desktop'a yönelik olarak çok sayıda güncelleştirme
 
 
 ### <a name="data-transformations"></a>Veri Dönüştürme Seçenekleri:
--   "En erken/geç tarih değil" ölçütüne göre filtreleme
--   "Önceki N dakika/saat/saniye içinde" ölçütüne göre filtreleme
+-   “En erken/geç tarih değil” ölçütüne göre filtreleme
+-   “Önceki N dakika/saat/saniye içinde” ölçütüne göre filtreleme
 -   Power BI Desktop ile Excel arasında Sorguları Kopyalayıp Yapıştırma
 -   Sütunu Böl iletişim kutusunda Özel Karakter desteği
 -   Sorguları Birleştir iletişim kutusunda Önizlemeleri Yenileme seçeneği
@@ -1396,7 +1459,7 @@ Bu güncelleştirmeye dahil edilen 44 özelliği aşağıda bulabilirsiniz:
 - Rapor tuvaline Şekil ekleme desteği
 - Alanlar bölmesine yönelik iyileştirmeler
     - Alanları adlarına göre bulmayı kolaylaştırmaya yönelik Arama Kutusu
-    - Alanlar bölmesinin birden fazla tablo içerdiği durumlarda gezintiyi iyileştirmeye yönelik "Tümünü Genişlet/Daralt" seçenekleri
+    - Alanlar bölmesinin birden fazla tablo içerdiği durumlarda gezintiyi iyileştirmeye yönelik “Tümünü Genişlet/Daralt” seçenekleri
     - Alan kutusu kardinalite desteği, 1 öğe içeren demetler için sürükleyerek yer değiştirme seçeneği
     - Veri Etiketlerini biçimlendirmeye ilişkin ek seçenekler
     - Kartezyen Grafiklere yönelik Eksen İyileştirmeleri:
@@ -1427,12 +1490,12 @@ Bu güncelleştirmeye dahil edilen 44 özelliği aşağıda bulabilirsiniz:
 - İngilizce dilinde olmayan sitelerden alınan SharePoint listelerine yönelik destek
 - Exchange bağlayıcısı - Birden fazla posta kutusuna bağlanma olanağı sağlanarak destek iyileştirildi
 - Excel Çalışma Kitabı Bağlayıcısı - .XLS dosyaları içeri aktarılırken Otomatik Sütun Türü algılama desteği
-- Veritabanı kaynaklarına bağlanırken görüntülenen "İlgili Tabloları Seç" seçeneği
+- Veritabanı kaynaklarına bağlanırken görüntülenen “İlgili Tabloları Seç” seçeneği
 - Active Directory bağlayıcısı kimlik bilgileri iyileştirildi; alternatif Windows Kimlik Bilgilerine de izin veriliyor
 - Veri kaynaklarından (örneğin, bir veritabanı) işlev yükleme sırasında İşlev Çağırma deneyimi iyileştirildi
-- Geçen ay kullanıma sunulan "Excel Çalışma Kitabı İçeriklerini İçeri Aktar" özelliği artık Analysis Services tablolu modellerine yönelik harici bağlantıları da destekliyor
-- Veri Kaynağı Ayarları iletişim kutusunda girişler için yeni "Tümünü Sil" seçeneği
-- "Yenileme işlemleri sırasında İlişki İçeri Aktarma özelliğini etkinleştirme" seçeneği
+- Geçen ay kullanıma sunulan “Excel Çalışma Kitabı İçeriklerini İçeri Aktar” özelliği artık Analysis Services tablolu modellerine yönelik harici bağlantıları da destekliyor
+- Veri Kaynağı Ayarları iletişim kutusunda girişler için yeni “Tümünü Sil” seçeneği
+- “Yenileme işlemleri sırasında İlişki İçeri Aktarma özelliğini etkinleştirme” seçeneği
 
 ### <a name="data-transformations-and-query-editor-improvements"></a>Veri Dönüştürme Seçenekleri ve Sorgu Düzenleyicisi İyileştirmeleri
 
@@ -1440,8 +1503,8 @@ Bu güncelleştirmeye dahil edilen 44 özelliği aşağıda bulabilirsiniz:
 - Tarih sütunlarını en erken/en son tarihe göre filtreleme (dinamik filtre)
 - Bir sütundaki minimum/maksimum tarih/saat değerini ayıklama
 - Değerleri Değiştir - Özel karakter belirtme olanağı
-- İsteğe bağlı olarak tür algılama işlemi başlatmak için "Sütun Türlerini Algıla" seçeneği
-- Tek bir tıklamayla tüm Sorgu Düzenleyicisi önizlemelerini yenilemek için "Tüm Önizlemeleri Yenile" seçeneği
+- İsteğe bağlı olarak tür algılama işlemi başlatmak için “Sütun Türlerini Algıla” seçeneği
+- Tek bir tıklamayla tüm Sorgu Düzenleyicisi önizlemelerini yenilemek için “Tüm Önizlemeleri Yenile” seçeneği
 - Performans İyileştirmeleri:
     - Sütunları Seç iletişim kutusu: Geniş tablolarla çalışırken daha hızlı bir kullanıcı deneyimi
     - Otomatik filtre ve Genişlet/Toplam açılan pencereleri: Çok sayıda değer/alan ile çalışılırken daha hızlı bir deneyim
@@ -1512,9 +1575,9 @@ Bu güncelleştirmedeki özellikleri aşağıda bulabilirsiniz:
 
 -   Başlangıç Sayfasında Son Kullanılan Dosyaları açma desteğinin yanı sıra "Dosya-\> Aç" menüsü.
 
--   Exchange bağlayıcısında Exchange UPN Kimlik Bilgileri desteği.
+-   Exchange bağlayıcısında Exchange UPN Kimlik Bilgileri desteği.ï»¿
 
-Tüm bu yeni özelliklerin yanı sıra **Power BI Desktop'ı 42 farklı dilde kullanıma sunuyoruz.** Dillerin tam listesine göz atın ve [resmî indirme sayfamızdan](https://www.microsoft.com/download/details.aspx?id=45331) istediğinizi yükleyin.
+Tüm bu yeni özelliklerin yanı sıra **Power BI Desktop’ı 42 farklı dilde kullanıma sunuyoruz.** Dillerin tam listesine göz atın ve [resmî indirme sayfamızdan](https://www.microsoft.com/download/details.aspx?id=45331) istediğinizi yükleyin.
 
 Daha ayrıntılı bilgi edinmek için aşağıdaki videoya göz atın:
 
@@ -1542,7 +1605,7 @@ Bu güncelleştirmedeki özellikleri aşağıda bulabilirsiniz:
 
 -   Yeni Metin Sütunu Filtreleri - **Şununla Başlamaz** ve **Şununla Bitmez**
 
--   Gizlilik Düzeyleri iletişim kutusu iyileştirildi
+-   Gizlilik Düzeyleri iletişim kutusu iyileştirildiï»¿
 
 Ayrıntılı bilgi edinmek için aşağıdaki videoya göz atın:
 
@@ -1626,7 +1689,7 @@ Bu güncelleştirmede eklenen veya iyileştirilen özellikleri aşağıda bulabi
 - Performans iyileştirmeleri
 - Dynamics CRM Online bağlayıcısı
     > [!NOTE]
-    > Şu anda bu iletişim kutusunda yalnızca crm.microsoft.com etki alanında yer alan URL'ler kabul edilmektedir. Üretim dışı kiracılar buna dahil değildir. Bu sorunu Mart güncelleştirmesinde gidereceğiz. Geçici bir çözüm olarak, bu akışa bağlanmak için "OData Akışından" seçeneği kullanılabilir.*
+    > Şu anda bu iletişim kutusunda yalnızca crm.microsoft.com etki alanında yer alan URL'ler kabul edilmektedir. Üretim dışı kiracılar buna dahil değildir. Bu sorunu Mart güncelleştirmesinde gidereceğiz. Geçici bir çözüm olarak, bu akışa bağlanmak için “OData Akışından” seçeneği kullanılabilir.*
 - Gezgin İletişim Kutusu iyileştirmeleri
     -   Çok boyutlu kaynaklar için (Analysis Services ve SAP BusinessObjects) daha iyi önizleme deneyimi
     -   Seçili Öğeleri Göster seçeneği
