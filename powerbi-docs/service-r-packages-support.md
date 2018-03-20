@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI hizmetindeki R paketleri
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -36,12 +36,12 @@ Aşağıdaki bölümde, Power BI'da desteklenen ve desteklenmeyen R paketlerinin
 R paketlerine yönelik birçok gereksinim ve sınırlama bulunmaktadır:
 
 * Power BI hizmeti, R paketlerini çoğunlukla GPL-2, GPL-3, MIT+ ve bu tür ücretsiz ve açık kaynaklı yazılım lisanslarıyla destekler.
-* Power BI hizmeti, CRAN'de yayımlanan paketleri destekler. Hizmet, kişisel veya özel R paketlerini desteklemez. Kullanıcılarımıza, kişisel paketlerinin Power BI hizmetinde kullanılması isteğinde bulunmadan önce bu paketlerini CRAN'de kullanılabilir hale getirmelerini öneririz.
+* Power BI hizmeti, CRAN'de yayımlanan paketleri destekler. Hizmet, kişisel veya özel R paketlerini desteklemez. Kullanıcılarımıza, kişisel paketlerinin Power BI hizmetinde kullanılması isteğinde bulunmadan önce bu paketlerini CRAN’de kullanılabilir hale getirmeleri önerilir.
 * **Power BI Desktop**, R paketlerine yönelik iki çeşitlemeye sahiptir:
   
   * R görselleri için, özel R paketleri de dahil olmak üzere herhangi bir paket yükleyebilirsiniz
   * Özel R görselleri içinse otomatik paket yüklemesinde yalnızca genel CRAN paketleri desteklenir.
-* Güvenlik ve gizlilik nedenleriyle, World-Wide Web üzerinden istemci-sunucu sorguları sağlayan R paketleri (RgoogleMaps gibi) şu anda hizmette desteklenmez. Bu tür denemeler yapıldığında ağ engellenir. Desteklenen ve desteklenmeyen R paketleri listesi için aşağıdaki bölüme bakın.
+* Güvenlik ve gizlilik nedenleriyle, World-Wide Web üzerinden istemci-sunucu sorguları sağlayan R paketleri (RgoogleMaps gibi) desteklenmemektedir. Bu tür denemeler yapıldığında ağ engellenir. Desteklenen ve desteklenmeyen R paketleri listesi için aşağıdaki bölüme bakın.
 * Yeni bir R paketi eklemeye yönelik onay süreci birçok bağımlılık gerektirir; hizmete yüklenmesi gereken bazı bağımlılıklar desteklenmemektedir.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Power BI'da desteklenen R paketleri
@@ -116,7 +116,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/dbscan/index.html |
@@ -202,7 +202,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |
@@ -396,7 +396,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| Treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| ağaç haritası |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 572f64cc0e6ba97c62c9a088c60cf3887bacc6ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** seçeneğini kullanarak, verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede, aşağıdaki konu başlıkları da dahil olmak üzere **DirectQuery** ve özellikleri anlatılmaktadır:

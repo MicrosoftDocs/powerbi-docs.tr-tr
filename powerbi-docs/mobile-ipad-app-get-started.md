@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad'de Power BI mobil uygulamasını kullanmaya başlama
 iPad'lerdeki iOS için Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -31,9 +31,9 @@ iPad'lerdeki iOS için Microsoft Power BI uygulaması Power BI, Power BI Rapor S
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
 * [Raporlarınızı Power BI hizmetinde yayımlayın](service-get-started.md) ve panolar oluşturun.
-* [Raporlarınızı Power BI Rapor Sunucusu'nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
+* [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
 
-Ardından, iPad için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
+Daha sonra iPad için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
 
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
@@ -138,4 +138,5 @@ iPad uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra 
 ### <a name="see-also"></a>Ayıca bkz.
 * [Power BI ile çalışmaya başlama](service-get-started.md)  
 * Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun
+
 

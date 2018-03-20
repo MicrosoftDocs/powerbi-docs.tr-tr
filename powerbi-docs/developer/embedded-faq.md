@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -66,7 +66,7 @@ Power BI Embedded kullanıma sunulmuştur.
 
 ## <a name="technical"></a>Teknik
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Azure'da A SKU ile Office 365'te EM SKU arasındaki fark nedir?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure’da A SKU ile Office 365’te EM SKU arasındaki fark nedir?
 
 PowerBI.com bir Hizmet olarak Yazılım teklifinde sosyal iş birliği, e-posta aboneliği ve benzeri pek çok özelliği içeren kurumsal bir çözümdür
 
@@ -128,6 +128,10 @@ Power BI Embedded kapasitenize çalışma alanları atamak/çalışma alanının
 
 Avustralya Güneydoğu, Batı ABD, Batı ABD 2, Batı Avrupa, Birleşik Krallık Güney, Brezilya Güney, Doğu ABD 2, Güneydoğu Asya, Hindistan Batı, Japonya Doğu, Kuzey Avrupa, Kuzey Orta ABD, Orta Güney ABD, Orta Kanada.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Ne tür içerik paketi verileri eklenebilir?
+
+İçerik paketi veri kümelerinden oluşturulan **panolar** ve **kutucuklar** *eklenemez*, ancak bir içerik paketi veri kümesinden oluşturulan **raporlar** *eklenebilir*.
+
 ## <a name="licensing"></a>Lisanslama
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Power BI Embedded'ı nasıl satın alabilirim?
@@ -170,7 +174,7 @@ Müşteriler kullanımlarını saatlik olarak değiştirebilir. Power BI Embedde
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded nerede kullanılabilir? ABD Kamu? Almanya? Çin? Zamanlama nedir?
 
-Power BI Embedded, GA'daki Azure ticari bulutlarında kullanıma sunulacaktır.  Bağımsız bulut seçeneği gelecekte eklenecektir.
+Power BI Embedded, Azure ticari bulutlarında ve ABD kamu bulutunda kullanılabilir.  Almanya ve Çin için bağımsız bulut seçeneği gelecekte eklenecektir.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded kâr amacı gütmeyen ve eğitim kuruluşları için kullanılabilir mi?
 

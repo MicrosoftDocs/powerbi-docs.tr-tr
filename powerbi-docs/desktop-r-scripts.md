@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta R betikleri çalıştırın
 **Power BI Desktop**'ta R betiklerini doğrudan çalıştırabilir ve elde edilen veri kümelerini bir Power BI Desktop veri modeline aktarabilirsiniz.
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 Power BI Desktop'ta R betikleri çalıştırabilmek için yerel makinenize **R** yüklemeniz gerekir. **R** programlama dilini, [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirip yükleyebilirsiniz. R betiklerinin Power BI Desktop'taki güncel sürümü, yükleme yolunda Unicode karakterlerin yanı sıra boşlukların (boş karakterler) olmasını da destekler.
 
 ## <a name="run-r-scripts"></a>R betiklerini çalıştırma
-Power BI Desktop'ta yalnızca birkaç basit adım uygulayarak R betikleri çalıştırabilir ve bir veri modeli oluşturabilirsiniz. Bu modeli kullanarak raporlar oluşturabilir ve raporları Power BI hizmetinde paylaşabilirsiniz. Power BI Desktop'taki R betikleri artık, ondalık (.) ve virgül (,) içeren sayı biçimlerini de destekliyor.
+Power BI Desktop’ta yalnızca birkaç basit adım uygulayarak R betikleri çalıştırabilir ve bir veri modeli oluşturabilirsiniz. Bu modeli kullanarak raporlar oluşturabilir ve raporları Power BI hizmetinde paylaşabilirsiniz. Power BI Desktop'taki R betikleri artık, ondalık (.) ve virgül (,) içeren sayı biçimlerini de destekliyor.
 
 ### <a name="prepare-an-r-script"></a>R betiği hazırlama
 Power BI Desktop'ta bir R betiği çalıştırmak için yerel R geliştirme ortamınızda betiği oluşturun ve başarıyla çalıştığından emin olun.
@@ -41,14 +41,14 @@ Betiği Power BI Desktop'ta çalıştırmak için, söz konusu betiğin yeni ve 
 Power BI Desktop'ta bir R betiğini hazırlamaya ve çalıştırmaya ilişkin bazı sınırlamalar vardır:
 
 * Yalnızca veri çerçeveleri içeri aktarıldığından, Power BI'a aktarmak istediğiniz verilerin bir veri çerçevesinde gösterildiğinden emin olun
-* Karmaşık ve Vektör olarak yazılan sütunlar içeri aktarılmaz ve oluşturulan tablodaki hata değerleri ile değiştirilir.
+* Karmaşık ve Vektör olarak yazılan sütunlar içeri aktarılmaz ve oluşturulan tablodaki hata değerleri ile değiştirilir
 * Yok değerleri, Power BI Desktop'ta NULL değerlere dönüştürülür
 * 30 dakikadan uzun süren herhangi bir R betiği çalıştırma işlemi zaman aşımına uğrar
 * R betiğindeki etkileşimli çağrılar (kullanıcı girişinin beklenmesi gibi) betik yürütme işlemini durdurur
 * R betiğindeki çalışma dizinini ayarlarken çalışma dizinine yönelik bir tam yol (göreli yol yerine) tanımlamanız *gerekir*
 
 ### <a name="run-your-r-script-and-import-data"></a>R betiğinizi çalıştırma ve verileri içeri aktarma
-1. Power BI Desktop'ta R Betiği veri bağlayıcısını **Veri Al** penceresinde bulabilirsiniz. R Betiğinizi çalıştırmak için, aşağıda gösterilen şekilde **Veri Al&gt; Diğer...** seçeneğini belirleyin ve ardından **Diğer &gt; R Betiği**'ni seçin.
+1. Power BI Desktop'ta R Betiği veri bağlayıcısını **Veri Al** penceresinde bulabilirsiniz. R Betiğinizi çalıştırmak için, aşağıda gösterilen şekilde **Veri Al&gt; Diğer...** seçeneğini belirleyin ve ardından **Diğer &gt; R betiği**’ni seçin:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Yerel makinenizde R yüklüyse R altyapınız olarak en son yüklenen sürüm seçilir. Betiğinizi kopyalayıp betik penceresine yapıştırmanız ve **Tamam**'ı seçmeniz yeterlidir.
@@ -58,9 +58,9 @@ Power BI Desktop'ta bir R betiğini hazırlamaya ve çalıştırmaya ilişkin ba
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   R yüklü ancak tanımlanmamışsa, **R Yükleme Ayarları** menüsünü genişlettiğinizde görünen metin kutusuna betiğin konumunu açık bir şekilde girebilirsiniz. Yukarıdaki görüntüde *C:\Program Files\R\R-3.2.0* yolu, metin kutusuna açık bir şekilde girilmiştir.
+   R yüklüyse ancak tanımlanmamışsa, **R Yükleme Ayarları** menüsünü genişlettiğinizde görünen metin kutusuna betiğin konumunu açık bir şekilde girebilirsiniz. Yukarıdaki görüntüde *C:\Program Files\R\R-3.2.0* yolu, metin kutusuna açık bir şekilde girilmiştir.
    
-   R yükleme ayarları, Seçenekler iletişim kutusunun R Betiği Oluşturma bölümünde bulunur. R yükleme ayarlarınızı belirtmek için **Dosya > Seçenekler ve ayarlar**'ı seçin, ardından **Seçenekler > R Betiği Oluşturma** seçeneğini belirleyin. Birden fazla R yüklemesi varsa, kullanacağınız yüklemeyi seçmenize olanak sağlayan bir açılan menü görüntülenir.
+   R yükleme ayarları, Seçenekler iletişim kutusunun R Betiği Oluşturma bölümünde bulunur. R yükleme ayarlarınızı belirtmek için **Dosya > Seçenekler ve ayarlar**’ı seçin, sonra da **Seçenekler > R betiği oluşturma** seçeneğini belirleyin. Birden fazla R yüklemesi varsa, kullanacağınız yüklemeyi seçmenize olanak sağlayan bir açılan menü görüntülenir.
    
    ![](media/desktop-r-scripts/r-scripts-4.png)
 4. R Betiğini çalıştırmak için **Tamam**'ı seçin. Betik başarıyla çalıştırıldığında, oluşturulan veri çerçevelerini seçip Power BI modeline ekleyebilirsiniz.

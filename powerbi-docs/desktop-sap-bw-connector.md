@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP BusinessWarehouse (BW)** verilerine erişebilirsiniz.
@@ -33,12 +33,16 @@ Power BI Desktop ile **SAP BusinessWarehouse (BW)** verilerine erişebilirsiniz.
 1. Yerel makinenize **SAP NetWeaver** kitaplığını yükleyin. **SAP Netweaver** kitaplığını SAP yöneticinizden veya doğrudan [SAP Software Download Center](https://support.sap.com/swdc) sayfasından edinebilirsiniz. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz. **SAP NetWeaver** kitaplığı genelde SAP Client Tools yüklemesine de dahil edilir.
    
    Son sürümü bulmak için *SAP Note #1025361* terimini de aratabilirsiniz. **SAP NetWeaver** kitaplığı mimarisinin (32 bit veya 64 bit) **Power BI Desktop** yüklemenizle aynı olduğundan emin olduktan sonra **SAP NetWeaver RFC SDK** içindeki tüm dosyaları SAP Note talimatlarına uygun şekilde yükleyin.
-2. **Veri Al** iletişim kutusunun **Veritabanı** kategorisinde **SAP Business Warehouse Sunucusu** girişi bulunur.
+2. **Veri Al** iletişim kutusunun **Veritabanı** kategorisinde **SAP Business Warehouse Uygulama Sunucusu** ve **SAP Business Warehouse İleti Sunucusu** için bir giriş bulunur.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Bağlayıcısı'nın özellikleri
-Power BI Desktop'ta bulunan önizleme sürümündeki **SAP BW Bağlayıcısı**, kullanıcıların **SAP Business Warehouse Sunucusu** küplerini içeri aktarmasını sağlar. **SAP BW Bağlayıcısı** ile DirectQuery özelliğini de kullanabilirsiniz. Bağlantıyı kurmak için *Sunucu*, *Sistem Numarası* ve *İstemci Kimliği* girmeniz gerekir.
+Power BI Desktop’taki **SAP BW Bağlayıcıları** **SAP Business Warehouse Sunucusu** küplerinden verileri içeri aktarmanıza olanak tanır veya **SAP BW Bağlayıcısı** ile DirectQuery’yi kullanabilirsiniz. 
+
+**SAP BW bağlayıcısı** ve bunun DirectQuery ile kullanımı hakkında daha fazla bilgi edinmek için [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) makalesine göz atın.
+
+Bağlantıyı kurmak için bir *Sunucu*, *Sistem Numarası* ve *İstemci Kimliği* belirtmeniz gerekir.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Bu bölümde **SAP BW** bağlayıcısının önizleme sürümüyle çalışırke
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Sonraki adımlar
+SAP HANA ve DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+
+* [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI'da DirectQuery](desktop-directquery-about.md)
+* [DirectQuery tarafından desteklenen Veri Kaynakları](desktop-directquery-data-sources.md)

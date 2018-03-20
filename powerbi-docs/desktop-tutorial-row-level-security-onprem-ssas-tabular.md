@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.

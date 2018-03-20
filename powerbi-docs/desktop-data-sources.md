@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -78,13 +78,14 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Oracle Veritabanı
 * IBM DB2 Veritabanı
 * IBM Informix veritabanı (Beta)
-* IBM Netezza (Beta)
+* IBM Netezza
 * MySQL Veritabanı
 * PostgreSQL Veritabanı
 * Sybase Veritabanı
 * Teradata Veritabanı
 * SAP HANA Veritabanı
-* SAP Business Warehouse sunucusu
+* SAP Business Warehouse Uygulama Sunucusu
+* SAP Business Warehouse İleti Sunucusu (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (Beta)
@@ -103,13 +104,14 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 
 * Azure SQL Veritabanı
 * Azure SQL Veri Ambarı
-* Azure Analysis Services veritabanı (Beta)
+* Azure Analysis Services veritabanı
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* HDInsight Etkileşimli Sorgu (Beta)
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -121,6 +123,7 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * SharePoint Online Listesi
 * Microsoft Exchange Online
 * Dynamics 365 (çevrimiçi)
+* Dynamics NAV (Beta)
 * Dynamics 365 for Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Tüketim Öngörüleri (Beta)
@@ -128,23 +131,24 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Salesforce Nesneleri
 * Salesforce Raporları
 * Google Analytics
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Customer Insights için Dynamics 365 (Beta)
+* Data.World - Veri Kümesi Al (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One - CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 **Diğer** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * SharePoint Listesi
 * OData Akışı
@@ -203,4 +208,3 @@ Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha 
 * [Power BI Desktop'taki Veri Türleri](desktop-data-types.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)    
-

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 173093cd7b8601357c893e2299031f331c440a75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Android telefonlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -31,9 +31,9 @@ Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor S
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
 * [Raporlarınızı Power BI hizmetinde yayımlayın](service-get-started.md) ve panolar oluşturun.
-* [Raporlarınızı Power BI Rapor Sunucusu'nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
+* [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
 
-Ardından, Android telefonlardaki Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
+Daha sonra Android telefonlardaki Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
 
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
@@ -69,21 +69,21 @@ Henüz kaydolmadıysanız [Power BI hizmeti (http://powerbi.com/)](http://powerb
 Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Panoların bulunduğu giriş sayfasından dilediğiniz zaman örneklere geri dönebilirsiniz.
 
 ### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey vardır. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
 
-1. Sol üst köşede bulunan ![Genel gezinti düğmesi](media/mobile-android-app-get-started/power-bi-android-options-icon.png) genel gezinti düğmesine dokunun.
+1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](media/mobile-android-app-get-started/power-bi-android-options-icon.png) dokunun.
 2. **Ayarlar** > **Örneklerimizi keşfedin**'e dokunun, ardından bir rol seçin ve bu role ilişkin örnek panoyu inceleyin.  
    
    ![Power BI mobil örnekleri](media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services mobil rapor örnekleri
-1. Sol üst köşede bulunan ![Genel gezinti düğmesi](media/mobile-android-app-get-started/power-bi-android-options-icon.png) genel gezinti düğmesine dokunun.
+1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](media/mobile-android-app-get-started/power-bi-android-options-icon.png) dokunun.
 2. **Reporting Services örnekleri** seçeneğine dokunun, ardından Retail Reports veya Sales Reports klasörünü açarak bunlara ilişkin KPI'leri ve mobil raporları inceleyin.
    
    ![Reporting Services örnekleri](media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
 
 ## <a name="search-for-a-dashboard-or-report"></a>Pano veya rapor arama
-* Sağ üst köşedeki büyütece dokunun ![Arama simgesi](media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)ve bulmak istediğiniz terimi yazın.
+* Sağ üst köşedeki büyütece ![Arama simgesi](media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)dokunun, ardından bulmak istediğiniz terimi yazın.
   
     ![Arama sonuçları](media/mobile-android-app-get-started/power-bi-android-tablet-search.png)
   
@@ -134,12 +134,13 @@ Android için Power BI mobil uygulamalarındaki panolar ve raporların yanı sı
 * İş arkadaşlarınızın sizinle paylaştığı panolar gibi, [Power BI hesabınızdaki güncelleştirmelere yönelik bildirimleri](mobile-apps-notification-center.md) görüntüleme.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI Rapor Sunucusu ve Reporting Services web portallarındaki raporlar ve KPI'ler
-* Android cihazlarındaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleyin](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
-* [Web portalında KPI'ler](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturun.
-* [Power BI Desktop'ta raporlar oluşturun ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlayın.
+* Android cihazlardaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+* [Web portalında KPI'ler](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
+* [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
 
 ### <a name="see-also"></a>Ayrıca bkz.
 * Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
 * [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+
 

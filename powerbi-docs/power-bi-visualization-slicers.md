@@ -1,6 +1,6 @@
 ---
 title: "Power BI'daki dilimleyiciler (Eğitim)"
-description: "Eğitim: Power BI'daki dilimleyiciler"
+description: "Öğretici: Power BI'daki dilimleyiciler"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,103 +16,147 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/30/2017
-ms.author: mihart
+ms.date: 03/05/2018
+ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cfa4c0f17c67a036b7d01744da1b5247345c493a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="slicers-in-power-bi-service-tutorial"></a>Power BI hizmetindeki dilimleyiciler (Eğitim)
-Satıştan sorumlu Genel Müdür Yardımcınız, tüm bölümle ilgili olarak ve her bir District Manager için bazı ölçümlere göz atabilmek istiyor. Bu amaçla her yönetici için ayrı bir rapor sayfası oluşturabilir veya bir dilimleyici kullanabilir. Dilimleyici, sayfadaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltır.  Dilimleyiciler, filtrelemenin alternatif bir yoludur.
+# <a name="slicers-in-power-bi-tutorial"></a>Power BI'daki dilimleyiciler (Eğitim)
+Satıştan sorumlu Genel Müdür Yardımcısı, tüm bölümle ilgili olarak ve her bir District Manager için bazı ölçümlere göz atabilmek istiyor. Bu amaçla her yönetici için ayrı bir rapor oluşturabilir veya bir dilimleyici kullanabilir. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltır. Dilimleyiciler, filtrelemenin alternatif bir yoludur.
 
-![](media/power-bi-visualization-slicers/slicer2.gif)
+Bu öğreticide, bir dilimleyici oluşturup biçimlendirme ve bu dilimleyiciyi kullanarak bir raporu filtreleme konusunda size yol göstermek için ücretsiz [Perakende Analizi Örneği](sample-retail-analysis.md) kullanılmaktadır. Dilimleyicileri biçimlendirme ve kullanma yöntemlerini keşfetmekten keyif alacağınızı umuyoruz. 
+
+![dilimleyici](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>Dilimleyici ne zaman kullanılır?
-Dilimleyiciler, aşağıdaki durumlarda harika bir seçim olacaktır.
+Aşağıdakileri yapmak istediğinizde dilimleyicileri kullanmanız oldukça faydalı olacaktır:
 
-* Daha kolay erişim sağlamak amacıyla, sık kullanılan veya önemli filtreleri rapor tuvalinde görüntülemek istiyorsanız.
-* Filtreleme ayrıntılarını bulmak için bir açılan liste açmaya gerek kalmadan geçerli filtreli durumu daha kolay bir şekilde görmek istiyorsanız.
-* Sütunları gizlemek istediğinizde ihtiyaç duymazsınız ancak yine de filtrelemek için bunları kullanarak daha daraltılmış ve net tablolar elde edersiniz.
-* Daha odaklanmış raporlar oluşturmak için kullanabilirsiniz. Dilimleyiciler kayan nesneler olduğu için bunları raporun, kullanıcıların odaklanmasını istediğiniz bölümünün yanına yerleştirebilirsiniz.
+* Daha kolay erişim sağlamak amacıyla, sık kullanılan veya önemli filtreleri rapor tuvalinde görüntülemek.
+* Açılan bir listeyi açmak zorunda kalmadan, o sırada filtreli olan durumu daha kolay bir şekilde görüntülemek. 
+* Veri tablolarında gereksiz ve gizli sütunlara göre filtreleme yapmak.
+* Dilimleyicileri önemli görsellerin yanına koyarak daha odaklı raporlar oluşturmak.
+
+Power BI dilimleyicileri aşağıdaki sınırlamalara sahiptir:
+
+- Dilimleyiciler giriş alanlarını desteklemez.
+- Dilimleyiciler panolara sabitlenemez.
+- Detaya gitme özelliği, dilimleyiciler için desteklenmez.
+- Dilimleyiciler, görsel düzeyi filtrelerini desteklemez.
 
 ## <a name="create-a-slicer"></a>Dilimleyici oluşturma
+
+Bu öğreticide bir liste dilimleyici kullanılmaktadır. Sayısal ve tarih/saat veri türleri, aralık dilimleyicilere sahip olabilir. Aralık dilimleyiciler oluşturma ve bunları kullanma hakkında daha fazla bilgi için [Power BI Desktop uygulamasındaki sayısal aralık dilimleyiciyi kullanma](desktop-slicer-numeric-range.md) başlıklı makaleye bakın veya aşağıdaki videoyu izleyin.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe>
 
+1. Power BI Desktop veya Power BI hizmetinde, [Perakende Analizi Örneği](sample-retail-analysis.md)’ni [Düzeleme Görünümü](service-interact-with-a-report-in-editing-view.md)’nde açın ve [yeni bir rapor sayfası ekleyin](power-bi-report-add-page.md).
+2. Alanlar bölmesinden, yeni bir görselleştirme oluşturmak için Bölge bölümünde **Bölge Yöneticisi**’ni seçin.
+    
+    ![yeni grafik](media/power-bi-visualization-slicers/1-new-vis.png)
+    
+3. Yeni görselleştirmeyi bir dilimleyiciye dönüştürmek için Görselleştirmeler bölmesindeki **Dilimleyici** simgesini ![dilimleyici simgesi](media/power-bi-visualization-slicers/slicer-icon.png) seçin. 
+    
+    ![dilimleyiciye dönüştürme](media/power-bi-visualization-slicers/2-slicer.png)
 
-1. [Retail Analysis Sample](sample-retail-analysis.md)'ı [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde açın ve [yeni bir rapor sayfası ekleyin](power-bi-report-add-page.md).
-2. Alanlar bölmesinden **District > District Manager** seçeneğini belirleyin.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_chartfirst.png)
-3. Görselleştirmeyi bir dilimleyiciye dönüştürün. Görsel Öğeler bölmesinde dilimleyici simgesini seçin.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_select.png)
+Ayrıca yeni bir dilimleyici oluşturmak için Dilimleyici simgesini seçip, Alan kutusunu doldurmak için bir veri alanını seçebilir veya bu Alan kutusuna sürükleyebilirsiniz.
+
+>[!TIP]
+>Liste dilimleyici öğelerini veri değerlerine göre sıralayabilirsiniz. Dilimleyici öğelerini ters alfabetik düzende sıralamak için dilimleyicinin sağ üst köşesindeki üç noktayı (...) seçin ve **Bölge Yöneticisine Göre Sırala** seçeneğini belirleyin. Ayar, varsayılan olarak alfabetik düzende artar ancak artan veya azalan sıra arasında geçiş yapar. 
 
 ## <a name="format-the-slicer"></a>Dilimleyiciyi biçimlendirme
-1. Görsel Öğeler bölmesinde, dilimleyici seçiliyken Biçim seçeneklerini görüntülemek için boya rulosu simgesini ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) seçin.
-2. **Genel > Ana hat rengi** açılan listesinde koyu mavi rengini seçtikten sonra **Ağırlık** değerini **6** olarak belirleyin.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_outline2.png)
-3. **Seçim Denetimleri** bölümünde varsayılan olarak **Tümünü Seç** **Kapalı** ve **Tek Seçim** **Açık** durumdadır. Bu, aynı anda birden fazla ad seçmek için CTRL tuşunu kullanmamız gerekeceği anlamına gelir. **Tümünü Seç**'i **Açık**, **Tek Seçim**'i ise **Kapalı** duruma getirin.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_selectioncontrols2.png)
-   
-   * Dilimleyicide listenin en üstünde bir **Tümünü Seç** seçeneği belirir. **Tümünü Seç**'i işaretleyerek adların tümünü seçebilir veya tümünün seçimini kaldırabilirsiniz.
-   * Bunun yanı sıra artık CTRL tuşunu kullanmak zorunda kalmadan birden çok ad seçebilirsiniz.
-4. **Öğeler** bölümünde metin boyutunu 14 olarak artırın.  İş arkadaşlarınızın bu dilimleyiciyi kolayca fark edebilmesini istiyoruz.
-5. Son olarak, **Yazı tipi rengi** değerini koyu kırmızı olarak ayarlayın.  Böylece dilimleyicimizdeki seçili adlar, seçili olmayan adlardan ayırt edilir.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_font2.png)
-6. Dilimleyicilere ilişkin diğer seçenekleri inceleyin.
+Görsel biçimlendirmesini Bölge Yöneticisi dilimleyicisine uygulayın.
+1. Biçimlendirme denetimlerini görüntülemek için Görselleştirmeler bölmesinde, Dilimleyici seçiliyken Biçim simgesini ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) seçin. 
+    
+    ![biçimlendirme](media/power-bi-visualization-slicers/3-format.png)
+    
+2. Seçenekleri görüntülemek ve düzenlemek için her kategorinin yanındaki açılan oklara tıklayın. 
 
-## <a name="use-the-slicer-in-a-report"></a>Raporlarda dilimleyiciyi kullanma
-1. Rapor sayfasına birkaç görselleştirme daha ekleyin veya [Retail Analysis Sample raporunu](sample-retail-analysis.md) açıp **District Monthly Sales** sekmesini seçin.
-   
-    ![](media/power-bi-visualization-slicers/power-bi-retail-sample.png)
-2. Rapor sayfasını Carlos için dilimleyin. Diğer görselleştirmelerin bu seçimleri yansıtacak şekilde güncelleştirildiğini göreceksiniz.
-   
-    ![](media/power-bi-visualization-slicers/slicer2.gif)
-3. Dilimleyiciyi District Manager soyadına göre alfabetik olarak sıralayın.  Dilimleyicinin sağ üst köşesindeki üç nokta simgesini (...) seçin ve **District Manager** seçeneğini belirleyin.
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_sort2.png)
-   
-    ![](media/power-bi-visualization-slicers/pbi_slicer_sorted.png)
+### <a name="general-options"></a>Genel seçenekler
+1. **Anahat rengi**’nin altında kırmızıyı seçin ve **Anahat ağırlığı**’nı “2” olarak değiştirin. Etkinleştirildiğinde bu, üst bilgi ve öğe ana hatlarının veya alt çizgilerinin rengini ve kalınlığını ayarlar. 
+2. Yönlendirme bölümünde varsayılan ayar Dikey’dir ve öğelerin önünde seçim kutularının bulunduğu dikey bir liste oluşturur. Yatay olarak düzenlenmiş öğelerle dilimleyici oluşturmak için **Yatay** seçeneğini belirleyin. Yatay yönlendirme, dilimleyicinin boyutuna, şekline ve öğe biçimlendirmesine bağlı olarak çeşitli metin, düğme veya kutucuk düzenlemeleri oluşturabilir. 
+    
+    ![yatay](media/power-bi-visualization-slicers/4-horizontal.png)
+    
+3. Yatay dilimleyici öğelerinin boyutunu ve düzenlemesini, dilimleyici boyutu ve şekli ile eşleşecek biçimde değiştiren **Esnek** düzeni açın. Dilimleyici çok küçük boyutta olduğunda bir filtre simgesi haline gelir. 
+    
+    ![esnek](media/power-bi-visualization-slicers/5-responsive.png)
+    
+    >[!NOTE]
+    >Esnek düzen değişiklikleri, ayarladığınız üst bilgi ve öğe biçimlendirmesini geçersiz kılabilir. 
+    
+4. **X Konumu**, **Y Konumu**, **Genişlik** ve **Yükseklik** bölümündeki sayısal duyarlıkla dilimleyici konumunu ve boyutunu ayarlayın veya yatay düğme sırası gibi farklı öğe boyutları ve düzenlemeleri oluşturmak için dilimleyiciyi doğrudan tuval üzerinde taşıyıp yeniden boyutlandırın. 
 
-## <a name="control-what-effect-the-slicer-has-on-other-visuals-on-the-page"></a>Dilimleyicinin sayfadaki diğer görseller üzerindeki etkisini denetleme
-Dilimleyicinin rapor sayfasındaki görsellerden yalnızca bazılarını mı filtrelemesini istiyorsunuz?  Bunu ayarlamak için **Görsel etkileşimler** denetimini kullanın.
+    ![yatay düğmeler](media/power-bi-visualization-slicers/6-buttons.png)
 
-**NOT**: **Görsel Etkileşimler** denetimini görmüyorsanız ![](media/power-bi-visualization-slicers/power-bi-slicer-visual-interactions.png) simgesini arayın. İkisini de görmüyorsanız rapor [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nün açık olduğundan emin olun.
+Yatay yönlendirme ve esnek biçimlendirme hakkında daha fazla bilgi için bkz. [Power BI’da yeniden boyutlandırabileceğiniz esnek bir dilimleyici oluşturma](power-bi-slicer-filter-responsive.md).
 
-1. Dilimleyiciyi etkin hale getirmek için seçin ve menü çubuğunda **Görsel etkileşimler** seçeneğini belirleyin.
-   
-    ![](media/power-bi-visualization-slicers/pbi-slicer-interactions.png)
-2. Sayfadaki diğer tüm görsellerin üzerinde filtre denetimleri görünür. Dilimleyicinin bir görseli filtrelemesi gerekiyorsa **Filtre** simgesini seçin.  Dilimleyicinin görsel üzerinde herhangi bir etkisi olmaması gerekiyorsa **Hiçbiri** simgesini seçin.
-   
-    ![](media/power-bi-visualization-slicers/filter-controls.png)
+### <a name="selection-controls-options"></a>Seçim Denetimleri seçenekleri
+1. Show Select All (Tümünü Seç’i Göster) varsayılan olarak Kapalı’dır. Dilimleyiciye, açılıp kapatıldığında tüm öğeleri seçen veya tüm öğelerin seçimini kaldıran bir Tümünü seç öğesi eklemek için bu seçeneği **Açık** duruma getirin. Tüm öğeler seçiliyken öğeye tıklandığında öğenin seçimi kaldırılır ve “is-not” türünde bir filtreye izin verilir. 
+    
+    ![tümünü seç](media/power-bi-visualization-slicers/7-select-all.png)
+    
+2. Tek Seçim varsayılan olarak Açık’tır. Öğeye tıklandığında bu öğe seçilir, tıklama sırasında CTRL tuşu basılı tutulduğunda ise birden çok öğe seçilir. CTRL tuşu basılı tutulmadan birden çok öğenin seçilmesini sağlamak için Tek Seçim’i **Kapalı** duruma getirin. Bir öğeye tıklandığında bu öğenin seçimi kaldırılır. 
 
-Daha fazla bilgi için bkz. [Power BI raporlarındaki görsel etkileşimler](service-reports-visual-interactions.md).
+### <a name="header-options"></a>Üst bilgi seçenekleri
+Üst bilgi varsayılan olarak Açık’tır ve dilimleyicinin üst tarafında veri alanı adını gösterir. 
+1. **Yazı tipi rengini** kırmızı **Metin boyutunu** 14 pt, **Yazı tipi ailesini** ise Arial Black olarak ayarlayacak şekilde üst bilgi metnini biçimlendirin. 
+2. Anahat bölümünde Genel seçeneklerde ayarladığınız boyuta ve renge sahip bir alt çizgi oluşturmak için **Yalnızca alt** seçeneğini belirleyin. 
 
-## <a name="considerations-and-troubleshooting-slicers-in-power-bi"></a>Power BI'daki dilimleyiciler ile ilgili önemli noktalar ve sorun giderme
-Power BI'daki dilimleyicileri kullanmaya ilişkin birkaç sınırlama vardır ve bu sınırlamalar aşağıda verilmiştir:
+### <a name="item-options"></a>Öğe seçenekleri
+1. **Yazı tipi rengini** siyah, **Arka planı** açık kırmızı, **Metin boyutunu** 10 pt, **Yazı tipi ailesini** ise Arial olarak ayarlayacak şekilde öğe metnini ve arka planını biçimlendirin. 
+2. Her bir öğenin çevresine Genel seçeneklerde ayarladığınız boyuta ve renge sahip bir kenarlık çizmek için **Çerçeve** seçeneğini belirleyin. 
+    
+    ![biçimlendirilmiş](media/power-bi-visualization-slicers/8-formatted.png)
+    
+    >[!TIP]
+    >- Yatay Yönlendirme kullanıldığında, seçimi kaldırılan öğeler seçilen metin ve arka plan renklerini gösterirken seçilen öğeler, genellikle beyaz metinli siyah arka plan olan sistem varsayılanını kullanır. 
+    >- Dikey Yönlendirme kullanıldığında, öğeler her zaman ayarlanan renkleri gösterir ve seçim kutuları seçildiğinde her zaman siyah olur. 
 
-1. Dilimleyiciler giriş alanlarını desteklemez.
-2. Tek bir dilimleyici bir raporun tamamında kullanılamaz. Bir dilimleyici yalnızca geçerli sayfayı etkiler.
-3. Dilimleyiciler panolara sabitlenemez.
-4. Detaya gitme özelliği, dilimleyiciler için desteklenmez.    
-5. Dilimleyiciler, Görsel düzeyi filtrelerini desteklemez.
+### <a name="other-formatting-options"></a>Diğer biçimlendirme seçenekleri
+Diğer biçimlendirme seçenekleri varsayılan olarak kapalıdır. **Açık** duruma getirildiğinde: 
+- **Başlık:** Dilimleyicinin üst tarafına bir başlık ekler ve bu başlığı biçimlendirir (üst bilgiye ek olarak ve üst bilgiden bağımsız olarak). 
+- **Arka plan:** Genel dilimleyiciye bir arka plan rengi ekler ve bunun saydamlığını ayarlar.
+- **Görünüşü kilitle:** Dilimleyici yeniden boyutlandırıldıysa dilimleyicinin şeklini korur.
+- **Kenarlık:** Dilimleyicinin çevresine 1 piksel kenarlık ekler ve bunun rengini ayarlar. (Bu dilimleyici kenarlığı Genel Anahat ayarlarından ayrıdır ve bunlardan etkilenmez.) 
+
+## <a name="sync-and-use-the-slicer-on-other-pages"></a>Diğer sayfalarda dilimleyiciyi eşitleme ve kullanma
+Şubat 2018 tarihinde yapılan Power BI güncelleştirmesinden itibaren bir dilimleyiciyi eşitleyebilir ve bir rapordaki tüm sayfalarda kullanabilirsiniz. 
+1. Bölge Yöneticisi seçiliyken Power BI Desktop’ta Görünüm menüsünden **Dilimleyicileri eşitle** seçeneğini belirleyin veya Power BI hizmetinde **Dilimleyicileri eşitle bölmesini** açık duruma getirin. Dilimleyicileri Eşitle bölmesi görünür. 
+    
+    ![dilimleyicileri eşitleme](media/power-bi-visualization-slicers/9-sync-slicers.png)
+    
+2. İlk sütunda **Genel Bakış**’ı ve dilimleyicinin eşitlenmesini istediğiniz diğer tüm sayfaları seçin veya dilimleyicinin tüm rapor sayfalarıyla eşitlenmesini sağlamak için **Tümüne ekle** seçeneğine tıklayın.  
+3. Sonraki sütunda **Genel Bakış**’ı ve dilimleyicinin görünür durumda olmasını istediğiniz diğer tüm sayfaları seçin. 
+4. **Genel Bakış** sayfasına geçip dilimleyiciye ve dilimleyicinin diğer sayfa görselleri üzerindeki etkilerine bakın. 
+    - Farklı öğe seçimleri yapıp bu seçimleri kaldırın ve sayfadaki diğer görsellerin buna uygun şekilde nasıl değiştiğine dikkat edin. Herhangi bir sayfada yapılan öğe seçimi, eşitlenen tüm sayfalara yansır.
+    - Genel Bakış sayfasında dilimleyicinin boyutunu, şeklini, konumunu ve/veya biçimlendirmesini değiştirin. Eşitlenen diğer sayfalardaki dilimleyici biçimlendirmesi değişmez. 
+
+### <a name="control-which-page-visuals-are-affected-by-the-slicer"></a>Hangi sayfa görsellerinin dilimleyici tarafından etkileneceğini denetleme
+Varsayılan olarak, rapor sayfasındaki bir dilimleyici söz konusu sayfada bulunan diğer tüm görselleştirmeleri etkiler. Bazı sayfa görselleştirmelerinin etkilenmesini önlemek için **Görsel etkileşimler**’i kullanın.
+
+1. **Genel Bakış** sayfasında, dilimleyici seçiliyken:
+    - Power BI Desktop’ta Görsel Araçlar bölümündeki Biçim menüsüne tıklayın ve **Etkileşimleri düzenle** seçeneğini belirleyin.
+    - Power BI hizmetinde, menü çubuğundan **Görsel etkileşimler**’i açın ve **Etkileşimleri düzenle** seçeneğini açın. 
+    
+    Sayfadaki diğer tüm görsellerin üzerinde filtre denetimleri görünür. ![filtre denetimleri](media/power-bi-visualization-slicers/filter-controls.png)
+    
+2. Dilimleyicinin bir görseli filtrelemesini durdurmak için söz konusu görselin üzerindeki **Hiçbiri** simgesini seçin. Dilimleyicinin görseli tekrar filtrelemeye başlaması için **Filtre** simgesini seçin. 
+
+Etkileşimleri düzenleme hakkında daha fazla bilgi için bkz. [Power BI raporlarındaki görsel etkileşimler](service-reports-visual-interactions.md).
+
+## <a name="next-steps"></a>Sonraki adımlar
+[Ücretsiz deneyin!](https://powerbi.com/)
 
 Power BI'ı iyileştirmeye yönelik fikirleriniz mi var? [Fikir sunun](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
-## <a name="next-steps"></a>Sonraki adımlar
- [Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md)
-
- [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
- [Power BI - Temel Kavramlar](service-basic-concepts.md)
-
-[Ücretsiz deneyin!](https://powerbi.com/)
-
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+
+[Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md)
+
+[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+[Power BI - Temel Kavramlar](service-basic-concepts.md)
 

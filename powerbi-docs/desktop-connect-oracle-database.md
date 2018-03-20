@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 **Power BI Desktop**'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklü Power BI Desktop sürümüne göre değişiklik gösterir: **32 bit** sürüm veya **64 bit** sürüm.
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 **Desteklenen sürümler**: Oracle 9 ve sonraki sürümler, Oracle istemci yazılımı 8.1.7 ve sonraki sürümler.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirleme
-Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirlemek için **Dosya > Hakkında**'yı seçip **Sürüm:** satırına bakın. Aşağıdaki resimde Power BI Desktop'ın 64 bit sürümü yüklüdür:
+Power BI Desktop’ın hangi sürümünün yüklü olduğunu belirlemek için **Dosya > Yardım > Hakkında**’yı seçip **Sürüm:** satırına bakın. Aşağıdaki resimde Power BI Desktop'ın 64 bit sürümü yüklüdür:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ Power BI Desktop'ın **64 bit** sürümü için, **64 bit** Oracle istemcisini i
 * [Windows x64 için 64 bit ODAC 12c Sürüm 4 (12.1.0.2.4)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
-Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına bağlanabilirsiniz. Bağlantı kurmak için aşağıdaki adımları uygulayın.
+Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına bağlanabilirsiniz. Bağlantı kurmak için aşağıdaki adımları uygulayın:
 
 1. Veri Al penceresinde **Veritabanı > Oracle Veritabanı**'nı seçin
    
