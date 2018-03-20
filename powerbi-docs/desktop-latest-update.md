@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e68f581e735619a85024cb9582bbc88b8f9aca79
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler
 
-## <a name="february-2018-update-2555010521"></a>Şubat 2018 Güncelleştirmesi (2.55.5010.521)
+## <a name="march-2018-update-2565023861"></a>Mart 2018 Güncelleştirmesi (2.56.5023.861)
 
 Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**'ı nasıl yüklediğinizden bağımsız olarak aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
-**Power BI Desktop**’ta bu ay yapılacak güncelleştirmeler içimizi sevgiyle dolduruyor ve sizin de bunları bir kutu çikolata kadar tatlı bulacağınızı umuyoruz.
+Bu ay **Power BI Desktop**’ta yapılan güncelleştirmelerden dolayı kendimizi şanslı hissediyoruz.
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -45,46 +45,39 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 ### <a name="reporting"></a>Raporlama
 
-* Birden çok sayfada çoklu seçim noktaları  [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[makale]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Bir raporun birden çok sayfasında dilimleyicileri eşitleme  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[makale]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
-* Sayısal aralık dilimleyici geliştirildi - tam sayıya yaslama (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[makale]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* Bing için daha hızlı coğrafi kodlama eşlemeleri (web Önizlemesi) - 6 kata kadar daha hızlı [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
-* Çubuk ve sütun grafik görselleri için taşma veri etiketleri [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
-* Biçimlendirme ve analiz bölmelerinde arama  [[video]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[makale]](desktop-analytics-pane.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
-
+* Rapor sayfası araç ipuçları [[video]](https://youtu.be/kuI6MMzDh34?t=16s) [[makale]]() [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Yer işareti ekleme özelliği genel kullanıma sunuldu [[video]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[makale]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* Tablo ve Matris sütunları için görüntüleme birimleri ve duyarlık denetimi [[video]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[makale]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Rapor için Okuma modunda görsel üst bilgiyi kapatma  [[video]](https://youtu.be/kuI6MMzDh34?t=12m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* Gelişmiş varsayılan görsel yerleşimi [[video]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>Özel görseller
 
-* Kuruluş özel görselleri (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[makale]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
-
-
-### <a name="analytics"></a>Analiz
-
-* Özel tarih tablosu ayarlama  [[video]](https://youtu.be/KeVB5RwMzJo?t=16m4s)  [[makale]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
-* Hızlı ölçümler genel kullanıma sunuldu  [[video]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[makale]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+* Çok sayıda yeni özel görsel  [[video]](https://youtu.be/kuI6MMzDh34?t=15m43s)  [[article]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
 
-* SAP HANA üzerinden DirectQuery geliştirmeleri (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[makale]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+* Visual Studio Team Services bağlayıcısı iyileştirmeleri [[video]](https://youtu.be/kuI6MMzDh34?t=32m) [[makale]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* SAP HANA bağlayıcısı iyileştirmeleri [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[makale]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * DirectQuery çok boyutlu desteği genel kullanıma sunuldu
+  * SSL sertifikası doğrulama desteği
+* SAP BW DirectQuery genel kullanıma sunuldu [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[makale]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Azure Analysis Services bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[makale]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
 ### <a name="other"></a>Diğer
 
-* DirectQuery performans iyileştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[makale]](desktop-directquery-about.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
-* Açma ve kaydetmeye ilişkin performans iyileştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* *Veri içermeyen öğeleri göster* geliştirmeleri  [[video]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* Yakında çıkacak **Power BI hizmeti** özelliği için kalıcı filtreler denetimi [[video]](https://youtu.be/KeVB5RwMzJo?t=34m56s)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
-
-
+* İyileştirilmiş hata raporlama [[video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[makale]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* Daha önce karşılaştığınız hataları görüntüleme [[video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
 
-Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
 
 
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

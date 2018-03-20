@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: 9b8de53534c94ad995e2d953cfc6994b93915bd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI'da şablon içerik paketi yazma
 Şablon içerik paketleri yazmak için Power BI Desktop ve PowerBI.com kullanılır. İçerik paketiniz dört bileşenden oluşur:

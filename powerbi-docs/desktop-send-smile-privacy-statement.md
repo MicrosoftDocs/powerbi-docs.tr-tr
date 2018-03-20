@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
+
+**Power BI Desktop**’ın Mart 2018 sürümünden itibaren hata raporlama özelliği, *Gülümseme Gönder* veya *Kaş Çatma Gönder* işlevi yerine Windows Hata Bildirimi platformunu kullanır. [Windows gizlilik blogunda](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/) Windows Hata Bildirimi platformu hakkında daha fazla bilgi edinebilirsiniz. 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Power BI Desktop’ın Mart 2018’den önceki sürümleri için
+
 Microsoft olarak ihtiyacınız olan performansa, güce ve kolaylığa sahip ürünleri kullanımınıza sunarken gizliliğinizi korumak için de çok çalışıyoruz. Bu Gizlilik Bildirimi, Microsoft Power BI Desktop Geri Bildirimi *Gülümseme Gönder* tarafından kullanılan veri toplama ve kullanım uygulamalarının çoğunu açıklamaktadır. Bu bildirim diğer çevrimiçi veya çevrimdışı Microsoft siteleri, ürünleri veya hizmetleri için geçerli değildir.
 
 Bu bildirimde aksi belirtilmediği sürece *Gülümseme Gönder* işlevi kişisel bilgileri Microsoft'a göndermez. Microsoft'a gönderilen bilgiler izniniz olmadan Microsoft ile denetim altındaki yan kuruluşları ve bağlı kuruluşları haricinde paylaşılmaz.

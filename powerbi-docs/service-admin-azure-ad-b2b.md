@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -31,7 +31,14 @@ Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümle�
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> Konuk kullanıcıları davet etmeden önce Power BI yönetici portalı Kiracı ayarlarında [Dışarı aktarma ve paylaşım ayarları](service-admin-portal.md#export-and-sharing-settings) özelliğini **Etkinleştirmeniz** gerekir.
+
+> [!NOTE]
 > Bu özellik şu anda Power BI mobil uygulamalarıyla kullanılamaz. Mobil cihazlardaki tarayıcılarda, Azure AD B2B kullanılarak paylaşılan Power BI içeriklerini görüntüleyebilirsiniz. 
+
+## <a name="who-can-you-invite"></a>Kimleri davet edebilirsiniz?
+
+Gmail.com, outlook.com veya hotmail.com gibi kişisel hesaplar da dahil olmak üzere herhangi bir e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure B2B’de bunlar “Sosyal Kimlikler” olarak adlandırılır. Daha fazla bilgi için lütfen [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) başlıklı makaleye başvurun.
 
 ## <a name="invite-guest-users"></a>Konuk kullanıcı davet etme
 
@@ -63,8 +70,9 @@ Kullanıcının, aldığı e-posta davetindeki **Get Started** (Başlayın) seç
 
 ### <a name="ad-hoc-invites"></a>Geçici davetler
 
-Bir uygulamayı yayımlarken ilgili erişim listesine dış kullanıcıyı ekleyerek, dilediğiniz zaman davet etme işlemi gerçekleştirebilirsiniz.
+Dilediğiniz zaman davet gerçekleştirmek için dış kullanıcıyı, paylaşım kullanıcı arabirimi aracılığıyla panonuza veya raporunuza ya da erişim sayfası aracılığıyla uygulamanıza ekleyin.
 
+Bir uygulamayı kullanması için bir dış kullanıcıyı davet ederken ne yapılacağına ilişkin bir örnek burada verilmiştir.
 ![Uygulama erişim listesine eklenmiş dış kullanıcı](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 Konuk kullanıcı, uygulamanın kendisiyle paylaşıldığını belirten bir e-posta alır.
@@ -98,8 +106,9 @@ Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansın
 
 ![Konuk kullanıcının kendi lisansına sahip olması](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>Sınırlamalar
+## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 
+* gmail.com, outlook.com veya hotmail.com gibi kişisel e-posta hesapları kullanan konuk kullanıcıları davet ederken, bir kullanıcının nasıl kaydolacağının örneğini gösteren bu [eklenmiş videoyu](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) izleyebilirsiniz.
 * Dış B2B konukları, yalnızca içeriğin kullanımıyla sınırlandırılır. Dış B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar.
 * Bu özellik şu anda Power BI mobil uygulamalarıyla kullanılamaz. Mobil cihazlardaki tarayıcılarda, Azure AD B2B kullanılarak paylaşılan Power BI içeriklerini görüntüleyebilirsiniz.
 * Bağımsız bulutlarda (kamu) Power BI ile konuk kullanıcılar desteklenmez.

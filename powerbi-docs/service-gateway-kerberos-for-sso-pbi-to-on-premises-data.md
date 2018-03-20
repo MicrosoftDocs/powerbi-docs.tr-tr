@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına SSO (çoklu oturum açma) ile bağlanmak için Kerberos'u kullanma
 Şirket içi veri ağ geçidinizi Kerberos ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi, çoklu oturum açma (SSO) bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery'den yararlanarak kurar.
@@ -64,9 +64,13 @@ Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
 
 
 > [!NOTE]
-> SAP HANA için SSO'yu etkinleştirmek üzere, SAP için HANA'ya özgü şu yapılandırmaların karşılandığından emin olmanız gerekir:
->    1. SAP HANA sunucusunun 2.00.022* veya daha yüksek/sonraki sürümü çalıştırdığından emin olun. 
->    2. Ağ geçidi makinesine SAP'nin en son HANA ODBC sürücüsünü yükleyin.  Yükleyebileceğiniz minimum sürüm Ağustos 2017'de kullanıma sunulan HANA ODBC 2.00.020.00 sürümüdür.
+> SAP HANA için SSO’yu etkinleştirmek üzere SAP HANA’ya özgü şu yapılandırma gereksinimlerinin karşılandığından emin olmanız gerekir:
+> 1. SAP HANA sunucusunun, gerekli olan en düşük sürümü çalıştırdığından emin olun. Bu sürüm, SAP HANA sunucusu platform düzeyinize bağlıdır:
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+>
+> 2. Ağ geçidi makinesine SAP'nin en son HANA ODBC sürücüsünü yükleyin.  Yükleyebileceğiniz minimum sürüm Ağustos 2017'de kullanıma sunulan HANA ODBC 2.00.020.00 sürümüdür.
 >
 > SAP yama ve yükseltmelerinin aşağıdaki bağlantıları yararlı olabilir. SAP Destek hesabınızı kullanarak aşağıdaki kaynaklarda oturum açmanızın gerektiğini ve SAP’nin bu bağlantıları değiştirebileceğini veya güncelleştirebileceğini unutmayın.
 > 

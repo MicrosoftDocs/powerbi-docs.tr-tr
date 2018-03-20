@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop'ta genel arabirimleri kullanarak verilere bağlanma
-**Veri Al** penceresinde gösterildiği gibi, **Access veritabanlarından** **Zendesk** kaynaklarına kadar çeşitlilik gösteren yerleşik veri bağlayıcılarını kullanarak **Power BI Desktop**'ta çok sayıda veri kaynağına bağlanabilirsiniz. Ayrıca, **Power BI Desktop**'ta yerleşik olarak bulunan genel arabirimleri (**ODBC** veya **REST API'leri** gibi) kullanarak çok çeşitli *başka* veri kaynaklarına da bağlanabilir, bu sayede bağlantı seçeneklerinizi daha da genişletebilirsiniz.
+**Veri Al** penceresinde gösterildiği gibi, **Access veritabanlarından** **Zendesk** kaynaklarına kadar çeşitlilik gösteren yerleşik veri bağlayıcılarını kullanarak **Power BI Desktop**'ta çok sayıda veri kaynağına bağlanabilirsiniz. Ayrıca, **Power BI Desktop**’ta yerleşik olarak bulunan genel arabirimleri (**ODBC** veya **REST API’leri** gibi) kullanarak çok çeşitli *başka* veri kaynaklarına da bağlanabilir, bu sayede bağlantı seçeneklerinizi daha da genişletebilirsiniz.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop veri arabirimleri
 **Power BI Desktop**, belirli bir veri kaynağına bağlanmak için oluşturulmuş, sürekli büyüyen bir veri bağlayıcısı koleksiyonuna sahiptir. Örneğin, **SharePoint Listesi** veri bağlayıcısı, bağlantı sırasında, **SharePoint Listeleri** için tasarlanmış belirli alanlar ve destekleyici bilgiler sağlar ve bu durum, **Veri Al > Diğer...** (önceki görüntüde verilen) seçeneğini belirlediğinizde açılan penceredeki diğer veri kaynakları için de geçerlidir.
 
-Ayrıca **Power BI Desktop**, aşağıdaki genel veri arabirimlerinden birini kullanarak **Veri Al** listelerinde özel olarak tanımlanmayan veri kaynaklarına bağlanmanıza da olanak sağlar:
+Ayrıca **Power BI Desktop**, aşağıdaki genel veri arabirimlerinden birini kullanarak **Veri Al** listelerinde tanımlanmayan veri kaynaklarına bağlanmanıza da olanak sağlar:
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ Bu genel arabirimler tarafından sunulan bağlantı pencerelerinde uygun paramet
 
 Söz konusu genel arabirimler tarafından erişilebilen veri kaynaklarına ait listeleri aşağıdaki bölümlerde bulabilirsiniz.
 
-**Power BI Desktop** ile kullanmak istediğiniz veri kaynağını bulamıyor musunuz? Fikir ve istek listesine ekleyebilmemiz için lütfen bu durumu [bize bildirin](https://ideas.powerbi.com/).
+**Power BI Desktop** ile kullanmak istediğiniz veri kaynağını bulamıyor musunuz? Power BI ekibinin [fikir ve istek listesine](https://ideas.powerbi.com/) fikrinizi gönderin.
 
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC aracılığıyla erişilebilir veri kaynakları
 **Power BI Desktop**'taki **ODBC** bağlayıcısı, yalnızca bir **Veri Kaynağı Adı (DSN)** veya *bağlantı dizesi* belirterek herhangi bir üçüncü taraf ODBC sürücüsünden veri içeri aktarmanıza olanak sağlar. Bir seçenek olarak, ODBC sürücüsüne yönelik olarak yürütmek için bir SQL deyimi de belirtebilirsiniz.
@@ -114,7 +114,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **R betikleri** arabirimin
 | R Betiği |R İstatistik Dosyaları |[CRAN tarafından sunulan R betiği kılavuzu](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop'ı kullanarak çok çeşitli türlerdeki veri kaynaklarına bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+**Power BI Desktop**’ı kullanarak çok çeşitli türlerdeki veri kaynaklarına bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
 * [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)

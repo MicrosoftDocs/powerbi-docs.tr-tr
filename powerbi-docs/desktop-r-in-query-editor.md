@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>Sorgu Düzenleyicisi'nde R programlama dilini kullanma
 İstatistik uzmanları, veri bilimciler ve veri analistleri tarafından yaygın olarak kullanılan bir programlama dili olan **R**, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanılabilir. R programlama dilinin bu şekilde **Sorgu Düzenleyicisi** ile tümleştirilmesi, R kullanarak verileri temizlemenin yanı sıra eksik verilerin tamamlanması, tahminler ve kümeleme gibi gelişmiş veri şekillendirme ve analiz işlemleri gerçekleştirmenize olanak sağlar. **R** güçlü bir dildir ve bu dili veri modelinizi hazırlamanın yanı sıra raporlar oluşturmak için **Sorgu Düzenleyicisi**'nde kullanabilirsiniz.
@@ -31,9 +31,9 @@ ms.lasthandoff: 02/24/2018
 **R** programlama dilini Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanabilmek için yerel makinenize **R**'yi yüklemeniz gerekir. **R** programlama dilini [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirip yükleyebilirsiniz.
 
 ## <a name="using-r-in-query-editor"></a>Sorgu Düzenleyicisi'nde R programlama dilini kullanma
-**R** programlama dilinin **Sorgu Düzenleyicisi**'nde nasıl kullanılacağını göstermek için, birlikte ilerleyebilmek üzere [buradan indirebileceğiniz](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) bir .CSV dosyasını temel alan borsa veri kümesinden alınmış örnekten yararlanacağız. Bu örneğe yönelik adımlar aşağıda verilmiştir:
+**R** programlama dilinin **Sorgu Düzenleyicisi**’nde nasıl kullanılacağını göstermek için, birlikte ilerleyebilmek üzere [buradan indirebileceğiniz](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) bir .CSV dosyasını temel alan borsa veri kümesinden alınmış örnekten yararlanacağız. Bu örneğe yönelik adımlar aşağıda verilmiştir:
 
-1. Öncelikle verilerinizi **Power BI Desktop**'a yükleyin. Bu örnekte, *EuStockMarkets_NA.csv* dosyasını yükleyeceğiz. **Power BI Desktop**'taki **Giriş** şeridinde bulunan **Veri Al > CSV** seçeneğini belirleyin.
+1. Öncelikle verilerinizi **Power BI Desktop**'a yükleyin. Bu örnekte, *EuStockMarkets_NA.csv* dosyasını yükleyin ve **Power BI Desktop**’taki **Giriş** şeridinden **Veri Al > CSV** seçeneğini belirleyin.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. Dosyayı seçip **Aç** seçeneğini belirlediğinizde, CSV, **CSV dosyası** iletişim kutusunda görüntülenir.
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/24/2018
 5. **Dönüştür** sekmesinde, **R Betiğini Çalıştır** seçeneğini belirleyerek **R Betiğini Çalıştır** düzenleyicisini görüntüleyin. (Bir sonraki adımda gösterilmiştir.) Tıpkı aşağıdaki görüntüde göremediğiniz diğer satırlar gibi, 15 ve 20 numaralı satırlar için eksik veri sorununun gözlemlendiğine dikkat edin. Söz konusu satırların R tarafından nasıl doldurulabildiği (veya doldurulacağı) aşağıdaki adımlarda gösterilmiştir.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-6. Bu örnek için, aşağıdaki betik kodunu gireceğiz:
+6. Bu örnek için aşağıdaki betik kodunu gireceğiz:
    
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
@@ -64,24 +64,24 @@ ms.lasthandoff: 02/24/2018
    **R Betiğini Çalıştır** iletişim kutusuna yerleştirilen kod aşağıdaki gibi görünür:
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5b.png)
-7. **Tamam**'ı seçtiğimizde, **Sorgu Düzenleyicisi** veri gizliliği ile ilgili bir uyarı görüntüler.
+7. **Tamam**’ı seçmemizin ardından **Sorgu Düzenleyicisi**, veri gizliliği ile ilgili bir uyarı görüntüler.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
 8. R betiklerinin Power BI hizmetinde düzgün bir şekilde çalışabilmesi için, tüm veri kaynaklarının *genel* olarak ayarlanması gerekir. Gizlilik ayarları ve etkileri hakkında daha fazla bilgi için bkz. [Gizlilik Düzeyleri](desktop-privacy-levels.md).
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   İşlemi gerçekleştirdikten sonra, **Alanlar** kutusunda *completedValues* adlı yeni bir sütunla karşılaşırız. 15 ve 18 numaralı satırlar gibi birkaç eksik veri öğesinin bulunduğuna dikkat edin. Bu sorunun R tarafından nasıl giderildiğini bir sonraki bölümde göreceğiz.
+   **Alanlar** bölmesinde *completedValues* adlı yeni bir sütunla karşılaşırız. 15 ve 18 numaralı satırlar gibi birkaç eksik veri öğesinin bulunduğuna dikkat edin. Bu sorunun R tarafından nasıl giderildiğini bir sonraki bölümde görebilirsiniz.
    
 
 Yalnızca beş R betiği satırı sayesinde **Sorgu Düzenleyicisi**, eksik değerleri bir tahmin modeli ile doldurur.
 
 ## <a name="creating-visuals-from-r-script-data"></a>R betiği verilerinden görseller oluşturma
-Artık R betik kodunun, *mice* kitaplığını kullanarak eksik değerleri aşağıdaki görüntüde gösterildiği gibi nasıl tamamladığını görmek için bir görsel oluşturabiliriz.
+Artık R betik kodunun, *mice* kitaplığını kullanarak eksik değerleri aşağıdaki görüntüde gösterildiği gibi nasıl tamamladığını görmek için bir görsel oluşturabiliriz:
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-Söz konusu görsel ve **Power BI Desktop**'ı kullanarak oluşturmak isteyebileceğimiz diğer görseller tamamlandıktan sonra, içerdiği R betikleriyle birlikte **Power BI Desktop** dosyasını (.pbix dosyası olarak kaydedilen) kaydedebilir ve Power BI hizmetinde kullanabiliriz.
+Söz konusu görsel ve **Power BI Desktop**’ı kullanarak oluşturmak isteyebileceğimiz diğer görseller tamamlandıktan sonra, içerdiği R betikleriyle birlikte **Power BI Desktop** dosyasını (.pbix dosyası olarak kaydedilen) kaydedebilir ve Power BI hizmetinde kullanabilirsiniz.
 
 > [!NOTE]
 > Bu adımlar uygulandığında elde edilen bir .pbix dosyasının nasıl göründüğünü merak ediyor musunuz? Şanslısınız. Bu örneklerde kullanılan tamamlanmış **Power BI Desktop** dosyasını [buradan](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with R in PQ.pbix) indirebilirsiniz.

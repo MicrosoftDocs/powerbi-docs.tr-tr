@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 **Power BI Desktop** ve **Power BI hizmeti**, bağlanıp verilere erişebileceğiniz pek çok veri kaynağına sahiptir. Bu makalede hangi Power BI kaynaklarının **DirectQuery** olarak bilinen bağlantı yöntemini desteklediği açıklanmaktadır. DirectQuery hakkında daha fazla bilgi için [**Power BI'da DirectQuery**](desktop-directquery-about.md) başlıklı makaleye bakın.
@@ -37,7 +37,8 @@ Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 * IBM Netezza (Beta)
 * Impala (2.x sürümü)
 * Oracle Database (12 ve sonraki sürümler)
-* SAP Business Warehouse (Beta)
+* SAP Business Warehouse Uygulama Sunucusu
+* SAP Business Warehouse İleti Sunucusu (Beta)
 * SAP HANA
 * Snowflake
 * Spark (Beta) (0.9 ve sonraki sürümler)
@@ -62,11 +63,14 @@ Aşağıdaki tabloda, **Power BI hizmetinde** bir rapor yayımladıktan sonra, b
 | Teradata Veritabanı |Evet |
 | Amazon Redshift |Hayır |
 | Impala (2.x sürümü) |Evet |
-| Snowflake (Önizleme) |**Power BI hizmetinde** henüz desteklenmiyor |
+| Snowflake |Evet |
 | Spark (Beta), 0.9 ve sonraki sürümler |**Power BI hizmetinde** henüz desteklenmiyor |
-| Azure HDInsight Spark (Beta) |**Power BI hizmetinde** henüz desteklenmiyor |
-| IBM Netezza (Beta) |**Power BI hizmetinde** henüz desteklenmiyor |
-| SAP Business Warehouse (Beta) |**Power BI hizmetinde** henüz desteklenmiyor |
+| Azure HDInsight Spark (Beta) |Hayır |
+| IBM Netezza |Evet |
+| SAP Business Warehouse Uygulama Sunucusu |Evet |
+| SAP Business Warehouse İleti Sunucusu |**Power BI hizmetinde** henüz desteklenmiyor |
+| Google BigQuery |Hayır |
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

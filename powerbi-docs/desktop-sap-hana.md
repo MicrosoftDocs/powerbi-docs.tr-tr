@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA'yı kullanma
 Power BI Desktop'ta artık **SAP HANA** veritabanlarına erişebilirsiniz. **SAP HANA**'yı kullanabilmek için Power BI Desktop **SAP HANA** veri bağlantısının düzgün çalışabilmesi amacıyla yerel istemci bilgisayara SAP HANA ODBC sürücüsünün yüklenmesi gerekir. SAP HANA ODBC sürücüsünü [SAP Software Download Center](https://support.sap.com/swdc) sayfasından indirebilirsiniz. Bu sayfada Windows bilgisayarlar için SAP HANA CLIENT uygulamasını arayın. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz.
@@ -35,7 +35,7 @@ SAP HANA veritabanına bağlanırken sunucu adını ve bağlantı noktasını *s
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-Bu sürümde Power BI Desktop ve Power BI hizmetinde **SAP HANA**, [DirectQuery](desktop-use-directquery.md) modunda desteklenmektedir ve **SAP HANA** kullanan raporları DirectQuery modunda Power BI hizmetine yükleyip orada yayımlayabilirsiniz. Ayrıca, **SAP HANA**'yı DirectQuery modunda kullanmadığınızda da raporları Power BI hizmetine yükleyip orada yayımlayabilirsiniz.
+Bu sürümde Power BI Desktop ve Power BI hizmetinde **SAP HANA**, [DirectQuery](desktop-directquery-sap-hana.md) modunda desteklenmektedir ve **SAP HANA** kullanan raporları DirectQuery modunda Power BI hizmetine yükleyip orada yayımlayabilirsiniz. Ayrıca, **SAP HANA**'yı DirectQuery modunda kullanmadığınızda da raporları Power BI hizmetine yükleyip orada yayımlayabilirsiniz.
 
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA için desteklenen özellikler
 Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** özelliği desteklenmektedir:
@@ -55,4 +55,12 @@ Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** ö
 * SMALLDECIMAL desteklenmez
 * VARBINARY desteklenmez
 * Geçerli Tarihler 1899/12/30 ile 9999/12/31 arasıdır
+
+
+## <a name="next-steps"></a>Sonraki adımlar
+DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+
+* [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI'da DirectQuery](desktop-directquery-about.md)
+* [DirectQuery tarafından desteklenen Veri Kaynakları](desktop-directquery-data-sources.md)
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery ve SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:
@@ -32,6 +32,9 @@ ms.lasthandoff: 02/24/2018
 * OLAP kaynakların kendine özgü yapısı göz önünde bulundurulduğunda, DirectQuery için uygulanan kısıtlamalara ek olarak başka kısıtlamalar (hem modelleme hem de görselleştirmelerde) söz konusudur. Bu kısıtlamalar, makalenin sonraki bölümlerinde açıklanmıştır.
 
 Ayrıca, SAP BW'nun Power BI'da desteklenmeyen birçok özelliğinin olduğunu, ve SAP BW'nun ortak arabiriminin yapısı nedeniyle Power BI'da görünen sonuçların bir SAP aracı kullanırken görünen sonuçlarla eşleşmeyeceği önemli durumlar olabileceğini anlamak *son derece önemlidir*. Bu sınırlamalar, makalenin sonraki bölümlerinde açıklanmıştır. SAP ortak arabiriminden döndürülen sonuçların Power BI'da görüntülenmesi sırasında doğru yorumlandığından emin olabilmek için bu sınırlamaların ve davranış farklılıklarının dikkatlice gözden geçirilmesi gerekir.  
+
+> [!NOTE]
+> SAP BW üzerinde DirectQuery’yi kullanma özelliği, Power BI Desktop’ta gerçekleştirilen Mart 2018 güncelleştirmesine kadar önizlemedeydi. Önizleme sırasında alınan geri bildirimler ve iyileştirme önerileri, önizleme sürümü kullanılarak oluşturulmuş raporları etkileyen bir değişiklikle sonuçlandı. SAP BW üzerinde DirectQuery’nin Genel Kullanılabilirlik (GA) sürümü kullanıma sunulduğuna göre, önceki GA sürümü ile oluşturulmuş tüm mevcut (önizleme tabanlı) raporları SAP BW üzerinde DirectQuery’yi kullanarak atmanız *gerekir*. SAP BW üzerinde DirecQuery’nin önceki GA sürümüyle oluşturulmuş raporlarda, meta verileri temel alınan SAP BW küpünde yapılan değişikliklerle yenileme girişimi nedeniyle, Yenileme çağrıldıktan sonra söz konusu önceki GA raporlarında hatalar oluşur. Lütfen SAP BW üzerinde DirectQuery’nin GA sürümünü kullanarak bu raporları boş bir rapordan yeniden oluşturun. 
 
 ## <a name="additional-modelling-restrictions"></a>Modellemeye ilişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca modelleme kısıtlamaları aşağıdaki gibidir:

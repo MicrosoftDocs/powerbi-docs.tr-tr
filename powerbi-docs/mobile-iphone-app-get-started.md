@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone veya iPod touch'ta Power BI mobil uygulaması ile çalışmaya başlama
 iPhone veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyip bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -31,7 +31,7 @@ iPhone veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rap
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
 * [Raporlarınızı Power BI hizmetinde yayımlayın](service-get-started.md) ve panolar oluşturun.
-* [Raporlarınızı Power BI Rapor Sunucusu'nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
+* [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
 
 Ardından, iPhone için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
 
@@ -140,4 +140,5 @@ iPhone uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sır
 ### <a name="see-also"></a>Ayıca bkz.
 * [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+
 

@@ -1,5 +1,5 @@
 ---
-title: "Power BI'da yer işaretlerini kullanma (Önizleme)"
+title: "Power BI’da yer işaretlerini kullanma"
 description: "Power BI Desktop'taki yer işaretleri, raporlarınızdaki görünümleri ve ayarları kaydetmenize ve akıcı sunumlar oluşturmanıza olanak sağlar"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Power BI'da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma (Önizleme)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI'da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
 
 Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sırasını istediğiniz gibi düzenleyebilir ve daha sonra bir öngörü dizisini veya görselleriniz ve raporlarınız ile anlatmak istediğiniz hikayeyi vurgulamak için her bir yer işareti üzerinden ilerleyebilirsiniz. 
@@ -33,12 +33,14 @@ Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sır
 
 Yer işaretlemesine yönelik birçok kullanım vardır. Yer işaretlerini, rapor oluşturma konusundaki ilerleyişinizi izlemek için kullanabilirsiniz (yer işaretleri kolayca eklenebilir, silinebilir ve yeniden adlandırılabilir) ve yer işaretleri üzerinden sırayla ilerleyen PowerPoint benzeri bir sunum oluşturarak raporunuzla bir hikaye anlatmak için yer işaretlerinden yararlanabilirsiniz. Yer işaretleri, en iyi şekilde nasıl yararlanabileceğinize yönelik tercihlerinize bağlı olarak başka amaçlarla da kullanılabilir.
 
-### <a name="enable-the-bookmarks-preview"></a>Yer işaretleri önizlemesini etkinleştirme
-**Power BI Desktop**'ın **Ekim 2017** sürümü itibarıyla, yeni **yer işaretleri** özelliğini deneyebilirsiniz. Bu özellik, **Power BI hizmetindeki** yer işareti özellikli raporlar için de kullanılabilir. Bu önizleme özelliğini etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Yer imleri**'nin yanındaki onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Yer işaretleri önizlemesini (Mart 2018’den önceki sürümler) etkinleştirme
+Power BI Desktop için Mart 2018 sürümünden itibaren, yer işaretleri genel kullanıma sunulmuştur. 
+
+Her zaman en son sürüme yükseltmeniz önerilir. Ancak Power BI Desktop sürümünüz söz konusu sürümden eskiyse **Power BI Desktop**’ın **Ekim 2017** sürümü itibarıyla, **yer işaretleri** özelliğini deneyebilirsiniz. Bu özellik, **Power BI hizmetindeki** yer işareti özellikli raporlar için de kullanılabilir. Bu önizleme özelliğini etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Yer imleri**’nin yanındaki onay kutusunu işaretleyin. 
 
 ![Seçenekler penceresinde yer işaretlerini etkinleştirme](media/desktop-bookmarks/bookmarks_02.png)
 
-Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerekir.
+Yer işaretlerinin önizleme sürümünü etkinleştirmeyi seçtikten sonra **Power BI Desktop**’ı yeniden başlatmanız gerekir.
 
 ## <a name="using-bookmarks"></a>Yer işaretlerini kullanma
 Yer işaretlerini kullanmak için **Görünüm** şeridini ve ardından **Yer İşaretleri Bölmesi** kutusunu seçin. 
@@ -147,14 +149,13 @@ Bir raporda yer işaretleri mevcut olduğunda söz konusu bölmelerden her birim
 Yer işaretleri arasında gezinmek için gri renkli yer işareti başlık çubuğunu kullanmayı unutmayın. Siyah okları kullanırsanız yer işaretleri arasında değil, raporlar arasında gezinirsiniz.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-**Yer işaretleri**'nin bu önizleme sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
+**Yer işaretleri**’nin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
 * Filtrenin *kaynağı* olmaları durumunda özel görseller, yer işaretleri ile birlikte çalışmaz. Bir sayfadaki öğeleri filtrelemek için özel görseller kullanıyorsanız (örneğin, ciklet dilimleyici) ve ilgili sayfaya bir yer işareti ile dönerseniz sayfa filtrelenebilir ancak özel görsel sayfanın nasıl filtrelendiğini gösterecek şekilde güncelleştirilmez. 
 * Bir rapor bölmesinin çapraz vurgulanma durumu, yer işareti oluşturduğunuzda *kaydedilmez*. 
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.
 * Bir yer işareti oluşturulduktan sonra gerçekleştirdiğiniz görsel taşıma işlemleri, yer işaretinde gösterilir. 
 * Raporunuzu **Power BI hizmetinde** yayımladığınızda hizmette yer işaretlerinin kullanılabilmesi için raporunuzda en az bir yer işareti *olması gerekir*. Bu, yayımladığınız her rapor için gereklidir.
-* Yer işaretleri bir Önizleme özelliği olduğundan henüz [**Rapor Sunucusu için Power BI Desktop**](report-server/quickstart-create-powerbi-report.md)'ta kullanılmamaktadır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Yer işaretlerine benzeyen veya yer işaretleriyle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:

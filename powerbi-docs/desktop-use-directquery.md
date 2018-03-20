@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 **Power BI Desktop** ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman **Power BI Desktop**'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: **DirectQuery**'yi kullanarak veri kaynağına doğrudan bağlanma.

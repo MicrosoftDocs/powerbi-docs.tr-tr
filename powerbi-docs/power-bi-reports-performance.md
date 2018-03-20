@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  

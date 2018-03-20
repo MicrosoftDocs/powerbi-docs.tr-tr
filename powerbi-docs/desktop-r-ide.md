@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI ile harici bir R IDE kullanma
 **Power BI Desktop** ile dış R IDE'nizi (Tümleşik Geliştirme Ortamı) kullanarak R betikleri oluşturabilir ve geliştirebilir, ardından da söz konusu betikleri Power BI'da kullanabilirsiniz.
@@ -35,7 +35,7 @@ ms.lasthandoff: 02/24/2018
 **Power BI Desktop**'ın Eylül 2016 sürümü (2.39.4526.362 sürümü) itibarıyla, hangi R IDE'yi kullanmak istediğinizi belirtebilir ve otomatik olarak **Power BI Desktop**'ta açılmasını sağlayabilirsiniz.
 
 ### <a name="requirements"></a>Gereksinimler
-Bu özelliği kullanmak için yerel bilgisayarınıza **R IDE** yüklemeniz gerekir. **Power BI Desktop** R motoru içermez, dağıtmaz veya yüklemez. Bu nedenle, **R**'ı yerel bilgisayarınıza ayrı olarak yüklemeniz gerekir. Hangi R IDE'yi kullanmak istediğinizi seçebilirsiniz. Bu işlem için aşağıdaki şekillerde ilerleyebilirsiniz:
+Bu özelliği kullanmak için yerel bilgisayarınıza **R IDE** yüklemeniz gerekir. **Power BI Desktop** R motoru içermez, dağıtmaz veya yüklemez. Bu nedenle, **R**’ı yerel bilgisayarınıza ayrı olarak yüklemeniz gerekir. Hangi R IDE'yi kullanmak istediğinizi seçebilirsiniz. Bu işlem için aşağıdaki şekillerde ilerleyebilirsiniz:
 
 * [Revolution Open](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) gibi, çoğu ücretsiz olarak sunulan R IDE'ler arasından favorinizi yükleyebilirsiniz.
 * **Power BI Desktop**, [R Studio](https://www.rstudio.com/) ve [*Visual Studio için R Araçları*](https://beta.visualstudio.com/vs/rtvs/)'nı içeren **Visual Studio 2015** düzenleyicilerini de destekler.
@@ -53,7 +53,7 @@ Varsayılan olarak, **Power BI Desktop** dış R IDE olarak **R Studio**'yu aça
 Herhangi bir **.R** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** iletişim kutusunun *Tercih ettiğiniz R IDE'ye göz atın* bölümünde bir özel IDE'ye ilişkin yolu belirtebilirsiniz. Ayrıca **R IDE'yi başlat** ok simgesinin yanındaki **Ayarlar** dişli simgesini seçerek **Power BI Desktop**'ta farklı bir R IDE de başlatabilirsiniz.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Power BI Desktop'ta R IDE başlatma
-**Power BI Desktop**'ta R IDE başlatmak için aşağıdaki adımları uygulayın.
+**Power BI Desktop**'ta R IDE başlatmak için aşağıdaki adımları uygulayın:
 
 1. **Power BI Desktop**'a veri yükleyin.
 2. **Alanlar** bölmesinden birlikte çalışmak istediğiniz alanlar seçin. Henüz betik görsellerini etkinleştirmediyseniz bunu gerçekleştirmeniz istenir.
@@ -81,7 +81,7 @@ Herhangi bir **.R** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** ile
    > **Power BI Desktop**, betiği çalıştırdığınızda **Power BI Desktop**'taki verilerin içeri aktarılabilmesini sağlamak için ilk üç satırı ekler.
    > 
    > 
-7. **Power BI Desktop**'ın **R betik düzenleyicisi bölmesinde** oluşturduğunuz her betik R IDE'nizdeki 4. satırdan itibaren yer alır. Bu noktada R betiğinizi R IDE'de oluşturabilirsiniz. R IDE'nizde R betiğinizi tamamladıktan sonra, bunu kopyalayıp **Power BI Desktop**'taki **R betik düzenleyicisi** bölmesine yapıştırırken, **Power BI Desktop**'ın otomatik olarak oluşturduğu betiğin ilk üç satırını *dışlamanız* gerekir. Betiğin ilk üç satırını **Power BI Desktop**'a geri yapıştırmayın, bu satırlar yalnızca **Power BI Desktop**'taki R IDE'nizi içeri aktarmak için kullanılmıştır.
+7. **Power BI Desktop**'ın **R betik düzenleyicisi bölmesinde** oluşturduğunuz her betik R IDE'nizdeki 4. satırdan itibaren yer alır. Bu noktada R betiğinizi R IDE’de oluşturabilirsiniz. R IDE'nizde R betiğinizi tamamladıktan sonra, bunu kopyalayıp **Power BI Desktop**'taki **R betik düzenleyicisi** bölmesine yapıştırırken, **Power BI Desktop**'ın otomatik olarak oluşturduğu betiğin ilk üç satırını *dışlamanız* gerekir. Betiğin ilk üç satırını **Power BI Desktop**'a geri yapıştırmayın, bu satırlar yalnızca **Power BI Desktop**'taki R IDE'nizi içeri aktarmak için kullanılmıştır.
 
 ### <a name="known-limitations"></a>Bilinen sınırlamalar
 Doğrudan Power BI Desktop'tan bir R IDE başlatma ile ilgili birkaç sınırlama bulunur:

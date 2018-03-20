@@ -1,6 +1,6 @@
 ---
-title: "Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme"
-description: "Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
+title: "Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme"
+description: "Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
 services: powerbi
 documentationcenter: 
 author: markingmyname
@@ -10,37 +10,37 @@ editor:
 tags: 
 qualityfocus: no
 qualitydate: 
-ms.service: powerbi
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme
-Power BI Embedded hizmetinden Power BI hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
+Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
 
-Microsoft kısa süre önce kullanıcılara içerikle ilgili erişme, paylaşma ve dağıtma konularında daha fazla esneklik sunan yeni bir kapasite tabanlı lisanslama modeli olan [Power BI Premium'u duyurdu](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/). Bu teklif ayrıca Power BI hizmeti için ek ölçeklenebilirlik ve performansı da beraberinde getirdi.
+Microsoft kısa süre önce kullanıcılara içerikle ilgili erişme, paylaşma ve dağıtma konularında daha fazla esneklik sunan yeni bir kapasite tabanlı lisanslama modeli olan [Power BI Embedded’i duyurdu](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/). Bu teklif ayrıca ek ölçeklenebilirlik ve performansı da beraberinde getirdi.
 
-Power BI Premium tanıtıldıktan sonra Power BI Embedded ve Power BI hizmeti güçlerini birleştirerek Power BI içeriğinin uygulamalara eklenme olanaklarını geliştirmeye başladı. Başka bir deyişle tek bir API yüzeyi, içeriğinizi eklerken kullanabileceğiniz tutarlı özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacaksınız. Artık süreci Power BI Desktop ile başlatıp dağıtımı 2017'nin ikinci çeyreğinin sonlarında genel kullanıma sunulacak olan Power BI Premium'a taşıyabilirsiniz.
+Power BI Embedded ile tek bir API yüzeyi, içeriğinizi eklerken kullanabileceğiniz tutarlı özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacaksınız. Ayrıca Power BI Desktop’ı kullanmaya başlayabilecek ve Power BI Embedded ile dağıtıma geçebileceksiniz.
 
-Mevcut Power BI Embedded hizmeti birleşme teklifinin genel kullanıma alınmasının ardından sınırlı bir süre boyunca kullanıma açık olacak: Kurumsal Anlaşma kapsamındaki müşteriler mevcut anlaşmalarının sonuna kadar erişim sahibi olacak, Power BI Embedded çözümünü Doğrudan veya Bulut Çözümü Sağlayıcısı kanallarından satın almış olan müşteriler ise Power BI Premium'un genel kullanıma sunulmasından itibaren bir yıl boyunca erişim sağlayabilecek.  Bu makalede Azure hizmetinden Power BI hizmetine geçiş ve uygulamanızda oluşabilecek değişiklikler hakkında bilgilere yer verilmiştir.
+Geçerli Power BI Çalışma Alanı Koleksiyonu sınırlı bir süre için kullanılabilir olmaya devam edecektir. Kurumsal Anlaşma kapsamındaki müşteriler mevcut sözleşmelerinin süresi dolana kadar erişim sahibi olacak, Power BI Çalışma Alanı Koleksiyonu hizmetini Doğrudan ya da Bulut Çözümü Sağlayıcısı kanallarından satın almış müşteriler ise Power BI Embedded’in Genel Kullanılabilirlik sürümünden bir yıl süreyle erişim sağlamaya devam edebilecektir.  Bu makalede Power BI Çalışma Alanı Koleksiyonu hizmetinden yeni Power BI Embedded deneyimine geçiş ve uygulamanızda oluşabilecek değişiklikler hakkında bilgilere yer verilmiştir.
 
 > [!IMPORTANT]
-> Geçiş Power BI hizmetine bağlı olsa da **ekleme belirteci** kullandığınız zaman uygulamanızın kullanıcıları açısından Power BI bağımlılığı söz konusu değildir. Kullanıcıların uygulamanıza eklenmiş içeriği görüntülemek için Power BI'a kaydolması gerekmez. Power BI harici kullanıcılara hizmet sunmak için bu ekleme yaklaşımını kullanabilirsiniz.
+> Geçiş Power BI Embedded hizmetine bağlı olsa da **ekleme belirteci** kullandığınız zaman uygulamanızın kullanıcıları açısından Power BI bağımlılığı söz konusu değildir. Kullanıcıların uygulamanıza eklenmiş içeriği görüntülemek için Power BI'a kaydolması gerekmez. Power BI Embedded harici kullanıcılara hizmet sunmak için bu ekleme yaklaşımını kullanabilirsiniz.
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>Geçiş için hazırlama
-Power BI Embedded Azure hizmetinden Power BI hizmetine geçişe hazırlanmak için yapmanız gereken birkaç işlem vardır. Bir kiracıya ve Power BI Pro lisansına sahip bir kullanıcıya ihtiyacınız vardır.
+Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçişe hazırlanmak için yapmanız gereken birkaç işlem vardır. Bir kiracıya ve Power BI Pro lisansına sahip bir kullanıcıya ihtiyacınız vardır.
 
 1. Azure Active Directory (Azure AD) kiracısına erişim sahibi olduğunuzdan emin olun.
    
@@ -67,7 +67,7 @@ Aşağıdaki hesapların kiracınızda bulunması gerekir.
 2. İçeriği oluşturacak analistlerin hesapları.
    
     Bu kullanıcıların gerektiğinde Uygulama çalışma alanlarına atanması gerekir.
-3. Uygulama *ana* kullanıcı hesabı veya hizmet hesabı.
+3. Uygulama *ana* kullanıcı hesabı veya Embedded hesabı.
    
     Bu hesabın kimlik bilgileri uygulama arka ucunda depolanır ve Power BI REST API'leri ile kullanılacak Azure AD belirteçlerini almak için kullanılır. Bu hesap uygulamanın ekleme belirtecini oluşturmak için kullanılır. Bu hesabın aynı zamanda ekleme için oluşturulmuş olan Uygulama çalışma alanlarının da yöneticisi olması gerekir.
    
@@ -100,16 +100,16 @@ Power BI'da bir uygulama çalışma alanı oluşturmak için Pro lisansa sahip b
 > 
 
 ## <a name="content-migration"></a>İçerik geçişi
-Çalışma alanı koleksiyonlarınızdaki içeriği Power BI hizmetine mevcut çözümünüzle paralel bir şekilde ve kesinti yaşamadan geçirebilirsiniz.
+Çalışma alanı koleksiyonlarınızdaki içeriği Power BI Embedded hizmetine mevcut çözümünüzle paralel bir şekilde ve kesinti yaşamadan geçirebilirsiniz.
 
-Power BI Embedded içeriğinizi Power BI hizmetine kopyalama konusunda yardımcı olmak için bir **geçiş aracı** tasarlanmıştır. Bu araç özellikle çok fazla içeriğe sahip olan kullanıcılar için yararlıdır. Daha fazla bilgi için bkz. [Power BI Embedded geçiş aracı](migrate-tool.md).
+Power BI Çalışma Alanı Koleksiyonu içeriğinizi Power BI Embedded hizmetine kopyalama konusunda yardımcı olmak için bir **geçiş aracı** tasarlanmıştır. Bu araç özellikle çok fazla içeriğe sahip olan kullanıcılar için yararlıdır. Daha fazla bilgi için bkz. [Power BI Embedded geçiş aracı](migrate-tool.md).
 
 İçerik geçişi temelde iki API kullanır.
 
 1. Download PBIX: Bu API, Ekim 2016'dan sonra Power BI'a yüklenmiş olan PBIX dosyalarını indirebilir.
 2. Import PBIX: Bu API, PBIX dosyalarını Power BI'a yükler.
 
-İlgili kod parçacıkları için bkz. [Power BI Embedded'dan içerik geçişi için kod parçacıkları](migrate-code-snippets.md).
+İlgili kod parçacıkları için bkz. [Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları](migrate-code-snippets.md).
 
 ### <a name="report-types"></a>Rapor türleri
 Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden farklıdır.
@@ -130,7 +130,7 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 2. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
-5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
+5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
 6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW kimliğini ve veri kaynağı kimliğini alın
 7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcı kimlik bilgilerini güncelleştirin
 
@@ -150,7 +150,7 @@ Download PBIX, *Push API* veri kümelerini desteklemez. Push API veri kümesi Pa
 1. Json veri kümesi ile "Create dataset" API çağrısı yaparak veri kümesini SaaS çalışma alanında oluşturun.
 2. Oluşturulan veri kümesinin raporunu yeniden oluşturun*.
 
-Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS'tan SaaS'a geçirebilirsiniz.
+Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS’tan SaaS’a geçirebilirsiniz.
 
 1. PaaS çalışma alanına işlevsiz PBIX dosyaları yükleyin.
 2. Push API raporunu kopyalayın ve 1. adımda oluşturduğunuz işlevsiz PBIX dosyasına bağlayın.
@@ -160,7 +160,7 @@ Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS'tan SaaS'a g
 6. Raporu Push API veri kümesine tekrar bağlayın.
 
 ## <a name="create-and-upload-new-reports"></a>Yeni rapor oluşturma ve yükleme
-Power BI Embedded Azure hizmetinden geçirdiğiniz içeriğe ek olarak Power BI Desktop uygulamasını kullanarak rapor ve veri kümesi oluşturabilir, ardından bu raporları bir uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
+Power BI Çalışma Alanı Koleksiyonu hizmetinden geçirdiğiniz içeriğe ek olarak Power BI Desktop uygulamasını kullanarak rapor ve veri kümesi oluşturabilir, ardından bu raporları bir uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
 
 ## <a name="rebuild-your-application"></a>Uygulamanızı yeniden oluşturma
 1. Uygulamanızı Power BI REST API'lerini ve powerbi.com içindeki rapor konumunu kullanacak şekilde değiştirmeniz gerekir.
@@ -174,30 +174,29 @@ Uygulamanızın içinde yönettiğiniz kullanıcıları, uygulamanızın amaçla
 Üretim aşamasına geçmeye hazır olduğunuzda aşağıdaki işlemleri yapmanız gerekir.
 
 * Geliştirme için ayrı bir kiracı kullanıyorsanız uygulama çalışma alanlarınızın, panolarınızın ve raporlarınızın üretim ortamınızda kullanılabilir durumda olduğundan emin olmanız gerekir. Ayrıca uygulamayı üretim kiracınızın Azure AD ortamında oluşturduğunuzdan ve 1. Adım ile belirtilen gerekli uygulama izinlerini atadığınızdan da emin olmanız gerekir.
-* İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Tümleşik analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
+* İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Power BI Embedded analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
 * Uygulama çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir Premium kapasite atayın.
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* Güncelleştirilen uygulamanızı üretim ortamında dağıtın ve Power BI hizmetindeki raporları eklemeye başlayın.
+* Güncelleştirilen uygulamanızı üretim ortamında dağıtın ve Power BI Embedded hizmetindeki raporları eklemeye başlayın.
 
 ## <a name="after-migration"></a>Geçiş sonrasında
 Azure'da biraz temizlik yapmanız gerekir.
 
-* Dağıtılan çözümün tüm çalışma alanlarını Power BI Embedded Azure hizmetinden kaldırın.
+* Dağıtılan çözümün tüm çalışma alanlarını Power BI Çalışma Alanı Koleksiyonunun Azure Embedded hizmetinden kaldırın.
 * Azure'daki mevcut Çalışma Alanı Koleksiyonlarını silin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded geçiş aracı](migrate-tool.md)  
-[Power BI Embedded'dan içerik geçişi için kod parçacıkları](migrate-code-snippets.md)  
+[Power BI Çalışma Alanı Koleksiyonu geçiş aracı](migrate-tool.md)  
+[Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları](migrate-code-snippets.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)  
 [Power BI Premium nedir?](../service-premium.md)  
 [JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Embedded analytics capacity planning (Embedded Analytics kapasite planlama) teknik incelemesi](https://aka.ms/pbiewhitepaper)  
+[Çalışma Alanı Koleksiyonu analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

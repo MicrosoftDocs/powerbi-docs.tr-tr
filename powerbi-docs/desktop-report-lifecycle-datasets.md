@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI Hizmeti Canlı Bağlantı**'dır.
@@ -101,7 +101,7 @@ Penceredeki **Yükle** düğmesine tıkladığınızda seçili veri kümesiyle b
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-Artık siz (ve diğer kişiler) aynı veri kümesinden farklı ve özel raporlar oluşturup paylaşabilirsiniz. Bilgi sahibi bir kişinin iyi biçimlendirilmiş bir veri kümesi oluşturup (Anna'nın yaptığı gibi), birçok ekip arkadaşının aynı veri kümesinden yola çıkarak kendi raporlarını oluşturması için bu harika bir yöntemdir.
+Artık siz (ve diğer kişiler) aynı veri kümesinden özel raporlar oluşturup paylaşabilirsiniz. Bilgi sahibi bir kişinin iyi biçimlendirilmiş bir veri kümesi oluşturup (Anna'nın yaptığı gibi), birçok ekip arkadaşının aynı veri kümesinden yola çıkarak kendi raporlarını oluşturması için bu harika bir yöntemdir.
 
 > [!NOTE]
 > **Power BI hizmeti** canlı bağlantısını kullanarak bir veri kümesini temel alan raporlar oluşturduğunuzda bu raporları yalnızca, kullanılan veri kümesini içeren Power BI hizmeti çalışma alanında yayımlayabilirsiniz.
@@ -116,8 +116,8 @@ Artık siz (ve diğer kişiler) aynı veri kümesinden farklı ve özel raporlar
 * Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki davranışa benzer şekilde sol gezinti çubuğu ve modellemeler devre dışıdır.
 * Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki gibi, RLS (satır ve rol düzeyi güvenlik), OneDrive İş ve diğer benzer bağlantı davranışları uygulanır.
 * **Power BI hizmetinde** hangi veri kümesine bağlanacağınızı seçerken, arama kutusu yalnızca genişletilmiş çalışma alanlarında geçerlidir.
-* Özgün paylaşılmış .pbix dosyasında yapacağınız değişiklikler, **Power BI hizmetinde** paylaşılmış veri kümesinin ve raporun üzerine yazılır.
-* Özgün paylaşılmış raporu başka bir raporla değiştiremezsiniz. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir.
+* Özgün paylaşılmış .pbix dosyasında dosyanın sahibi tarafından değişiklikler, **Power BI hizmetinde** paylaşılmış veri kümesinin ve raporun üzerine yazılır.
+* Bir çalışma alanının üyeleri özgün paylaşılmış raporu başka bir raporla değiştiremez. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir.
 * **Power BI hizmetinde** paylaşılmış veri kümesini silerseniz diğer **Power BI Desktop** (.pbix) dosyaları düzgün çalışmaz ve görsellerini görüntülemez.
 * İçerik Paketlerini **Power BI hizmetinde** bir .pbix raporu ve veri kümesi paylaşmak için temel olarak kullanmadan önce söz konusu içerik paketinin bir kopyasını oluşturmanız gerekir.
 * *Kuruluşum*'dan gelen İçerik Paketlerini kopyaladığınızda, hizmette oluşturulan raporu ve/veya bir canlı bağlantıyla bir İçerik Paketini kopyalama işleminin bir parçası olarak oluşturulmuş bir raporu başka bir raporla değiştiremezsiniz. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir. Bu durumda yalnızca yayımlanmış canlı bağlantılı raporları başka raporlarla değiştirebilirsiniz.

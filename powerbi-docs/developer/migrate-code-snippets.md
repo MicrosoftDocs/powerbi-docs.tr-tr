@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Power BI Embedded'dan içerik geçişi için kod parçacıkları
-Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md#content-migration).
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları
+Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI çalışma alanı koleksiyon içeriğini Power BI Embedded’e geçirme](migrate-from-powerbi-embedded.md#content-migration).
 
 Power BI Embedded (PaaS) içeriğinizi Power BI hizmetine (SaaS) kopyalama konusunda yardımcı olmak için bir **geçiş aracı** tasarlanmıştır. Bu araç özellikle çok fazla içeriğe sahip olan kullanıcılar için yararlıdır. Daha fazla bilgi için bkz. [Power BI Embedded geçiş aracı](migrate-tool.md).
 
