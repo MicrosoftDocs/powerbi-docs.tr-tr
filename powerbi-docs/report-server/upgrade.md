@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
@@ -29,8 +29,6 @@ Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
  **İndir** ![indir](media/upgrade/download.png "indir")
 
 Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
-
-![ipucu](media/upgrade/fyi-tip.png "ipucu") Geçerli sürüm notları için bkz. [Power BI Rapor Sunucusu - Sürüm notları](release-notes.md).
 
 ## <a name="before-you-begin"></a>Başlamadan önce
 Bir rapor sunucusunu yükseltmeden önce rapor sunucunuzu yedeklemek için aşağıdaki adımları uygulamanız önerilir.

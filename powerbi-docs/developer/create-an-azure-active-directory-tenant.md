@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/2017
-ms.author: mihart
-ms.openlocfilehash: 0e5df07ab3690b88c2fcf6673db44f8f79b1817d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.author: maghan
+ms.openlocfilehash: b860bd57baa05bc718a51555ecb1118c306f5216
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 Power BI REST API'lerini kullanan özel uygulamanızla kullanmak üzere yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
