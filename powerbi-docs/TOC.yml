@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 'Öğretici: Analysis Services tablo modelindeki dinamik satır düzeyi güvenlik'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Oracle ve Teradata veritabanları için DirectQuery
-          href: desktop-directquery-for-oracle-teradata.md
         - name: Power BI Desktop'ta SAP BW bağlayıcısını kullanma (Önizleme)
           href: desktop-sap-bw-connector.md
         - name: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
