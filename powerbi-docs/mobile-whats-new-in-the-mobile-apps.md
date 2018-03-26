@@ -1,27 +1,27 @@
 ---
-title: "Power BI mobil uygulamalarındaki yenilikler"
-description: "Power BI mobil uygulamalarındaki yenilikler"
+title: Power BI mobil uygulamalarındaki yenilikler
+description: Power BI mobil uygulamalarındaki yenilikler
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -30,11 +30,21 @@ ms.lasthandoff: 02/27/2018
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
 
+## <a name="march-2018"></a>Mart 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
+
+Bulunduğunuz yere verileri getirme çalışmamızda son adım olarak, Karma Gerçeklik için Power BI uygulamasını oluşturduk. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. Yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) hakkında daha fazla bilgi edinin.
+
 ## <a name="february-2018"></a>Şubat 2018
 
 ### <a name="share-reports"></a>Rapor paylaşma
 
 Artık bir raporu doğrudan mobil uygulamalardan paylaşabilirsiniz. [Mobil uygulamalardan pano ve rapor paylaşma](mobile-share-dashboard-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin
+
+### <a name="improved-tooltips"></a>Gelişmiş araç ipuçları
+
+Araç ipuçlarına erişmek için bir rapor görselinin üzerine dokunup basılı tuttuğunuzda artık yol boyunca her bir veri noktasıyla ilgili ayrıntıları keşfetmek için görsel boyunca parmağınızı sürükleyebilirsiniz.
 
 ## <a name="january-2018"></a>Ocak 2018
 

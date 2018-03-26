@@ -1,50 +1,58 @@
 ---
-title: "Bir rapora görselleştirme, sayfa, detaylandırma veya rapor filtresi ekleme"
-description: "Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi veya rapor filtresi ekleme"
+title: Bir rapora görselleştirme, sayfa, detaylandırma veya rapor filtresi ekleme
+description: Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi veya rapor filtresi ekleme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Bir Power BI raporuna filtre ekleme (Düzenleme görünümü'nde)
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Bir Power BI hizmet raporuna filtre ekleme (Düzenleme görünümünde)
 > [!TIP]
 > Öncelikle [Power BI raporlarındaki filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md) başlıklı makaleyi okumanızı öneririz.
+
+Bu makaledeki örneklerde, Power BI hizmeti gösterilmektedir. Ancak adımlar, Power BI Desktop ile neredeyse aynıdır.
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Düzenleme Görünümü'ndeki ve Okuma Görünümü'ndeki rapor filtreleri arasındaki fark nedir?
 Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma Görünümü](service-reading-view-and-editing-view.md) ve [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
 
-* Düzenleme Görünümü'nde rapor ve sayfa filtrelerinin yanı sıra görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde filtreler de birlikte kaydedilir. Okuma Görünümü'nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir ancak kendi değişikliklerini kaydedemez.
-* Okuma Görünümü'nde, raporda bulunan herhangi bir rapor, sayfa ve görsel filtreleri ile etkileşim kurabilirsiniz ancak filtre değişikliklerinizi kaydedemezsiniz.
+* Düzenleme Görünümü'nde rapor ve sayfa filtrelerinin yanı sıra görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde filtreler de birlikte kaydedilir. Okuma Görünümü'nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir.
+* Okuma Görünümü'nde, önceden raporda bulunan tüm rapor, detaylandırma, sayfa ve görsel filtreler ile etkileşim kurabilirsiniz ancak yeni filtreler ekleyemezsiniz. Raporu mobil uygulamada görüntüleseniz bile, Filtreler bölmesinde yaptığınız değişiklikler rapora kaydedilir.  
 
 > [!NOTE]
 > Bu makalede rapor **Düzenleme Görünümü**'nde nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma Görünümü'ndeki filtreler hakkında daha fazla bilgi için [rapor Okuma Görünümü'nde filtrelerle etkileşim kurma](service-reading-view-and-editing-view.md) başlıklı makaleye bakın.
-> 
-> 
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>Görsel filtreleri, sayfa filtreleri, detaylandırma filtreleri ve rapor filtreleri
-Bir **sayfa filtresi**, rapor sayfasındaki tüm görsellere uygulanır. Bir **görsel filtresi**, bir rapor sayfasındaki tek bir görsele uygulanır. Bir **rapor filtresi** ise rapordaki tüm sayfalara uygulanır.
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI'ın *Filtreler* bölmesinde filtreler mevcuttur
+Masaüstü veya Power BI hizmeti kullanılırken, rapor tuvalinin sağ kenarında Filtreler bölmesi görüntülenir. Filtreler bölmesini görmüyorsanız bölmeyi genişletmek için sağ üst köşedeki ">" simgesini seçin.
+
+Dört tür filtre vardır.
+
+- **Sayfa filtresi**, rapor sayfasındaki tüm görsellere uygulanır     
+- **Görsel filtresi**, bir rapor sayfasındaki tek bir görsele uygulanır    
+- **Detaylandırma filtresi**, bir rapordaki tek bir varlığa uygulanır    
+- **Rapor filtresi**, rapordaki tüm sayfalara uygulanır    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Belirli bir görselleştirmeye filtre ekleme (başka bir deyişle, görsel filtresi)
 Bunu yapmanın 2 yolu vardır: 
@@ -130,11 +138,11 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 3. Alanlar bölmesinden yeni rapor düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Rapor düzeyi filtreleri** alanına sürükleyin.  
 4. Filtrelemek istediğiniz değerleri seçin (bkz. [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)).
 
-Etkin sayfadaki ve raporda bulunan tüm sayfalardaki görseller, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma Görünümü'nde filtre ile etkileşim kurabilir.
+    Etkin sayfadaki ve raporda bulunan tüm sayfalardaki görseller, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma Görünümü'nde filtre ile etkileşim kurabilir.
 
 1. Önceki rapor sayfasına geri dönmek için geri okunu seçin.
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Görsel düzeyi ve sayfa düzeyi filtrenizin farklı sonuçlar göstermesi neden mümkündür?
 Bir görsel düzeyi filtresi eklediğinizde Power BI, toplanan sonuçlarda filtre uygular.  Varsayılan toplama, Toplam'dır ancak [toplama türünü değiştirebilirsiniz](service-aggregates.md).  
 

@@ -2,14 +2,14 @@
 title: Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 description: Power BI Desktop'taki Analysis Services Tablo verileri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -54,7 +54,7 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * Öğeleri seçip veri alma seçeneğini kullanıyorsanız Gezgin'de bir Tablo modeli veya perspektif seçin. Ardından yalnızca yüklenecek tabloları veya sütunları seçebilirsiniz. Yüklemeden önce verilerinizi şekillendirmek için Düzenle'ye tıklayarak Sorgu Düzenleyicisi'ni açın. Hazır olduğunuzda Yükle'ye tıklayarak verileri Power BI Desktop'a aktarın.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Sık Sorulan Sorular
 **Soru:** Şirket içi veri ağ geçidine ihtiyacım var mı?

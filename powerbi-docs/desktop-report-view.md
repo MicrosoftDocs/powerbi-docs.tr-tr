@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'taki Rapor Görünümü"
-description: "Power BI Desktop'taki Rapor Görünümü"
+title: Power BI Desktop'taki Rapor Görünümü
+description: Power BI Desktop'taki Rapor Görünümü
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop'taki Rapor Görünümü
 Power BI'a aşinaysanız, verilerinize dinamik bakış açıları ve öngörüler kazandıran raporlar oluşturmanın ne kadar kolay olduğunu biliyorsunuz demektir. Power BI, Power BI Desktop'ta daha gelişmiş özelliklere de sahiptir. Power BI Desktop ile gelişmiş sorgular oluşturabilir, birden fazla kaynaktaki verileri birleştirebilir, tablolar arasında ilişkiler oluşturabilir ve daha fazlasını yapabilirsiniz.
@@ -44,7 +44,7 @@ Veri ekledikten sonra tuvaldeki yeni bir görselleştirmeye alanlar ekleyebilirs
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Görselleştirmenin türünü değiştirmek için şeritteki **Görsel Öğeler** grubundan seçim yapabilir veya görselleştirmeye sağ tıklayıp farklı bir **görselleştirme** türü seçebilirsiniz.
+Görselleştirmenin türünü değiştirmek için şeritteki **Görselleştirme** grubundan seçim yapabilir veya görselleştirmeye sağ tıklayıp **Görselleştirme türünü değiştir** simgesinden farklı bir tür seçebilirsiniz.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Görselleştirmenin türünü değiştirmek için şeritteki **Görsel Öğeler*
 > 
 > 
 
-Bir rapor başlangıç olarak en az bir boş sayfa içerir. Sayfalar, tuvalin solundaki gezinti bölmesinde görünür. Bir sayfaya istediğiniz türden görselleştirmeler ekleyebilirsiniz ancak aşırıya kaçmamakta yarar vardır. Bir sayfada çok fazla görselleştirmenin bulunması sayfanın karmaşık görünmesine ve aranan bilgilerin bulunmasının zorlaşmasına neden olur. Raporunuza yeni sayfalar eklemek için şeritteki **Yeni Sayfa**'ya tıklamanız yeterlidir.
+Bir rapor başlangıç olarak en az bir boş sayfa içerir. Sayfalar, tuvalin solundaki gezinti bölmesinde görünür. Bir sayfaya istediğiniz türden görselleştirmeler ekleyebilirsiniz ancak aşırıya kaçmamakta yarar vardır. Bir sayfada çok fazla görselleştirmenin bulunması sayfanın karmaşık görünmesine ve aranan bilgilerin bulunmasının zorlaşmasına neden olur. Raporunuza yeni sayfalar ekleyebilirsiniz. Şeritteki **Yeni Sayfa**’ya tıklayın.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

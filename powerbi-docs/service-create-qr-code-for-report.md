@@ -1,35 +1,35 @@
 ---
-title: "Power BI Mobil uygulamalarında kullanmak üzere bir rapor için QR kodu oluşturma"
-description: "Power BI'daki QR kodları kullanılarak gerçek dünyadaki her şey, Power BI Mobil uygulamasındaki ilgili BI bilgilerine, arama gerekmeden doğrudan bağlanabilir."
+title: Power BI Mobil uygulamalarında kullanmak üzere bir rapor için QR kodu oluşturma
+description: Power BI'daki QR kodları kullanılarak gerçek dünyadaki her şey, Power BI Mobil uygulamasındaki ilgili BI bilgilerine, arama gerekmeden doğrudan bağlanabilir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4bd635fbb68f128d0c4f37631f05d0f2b8d9bf7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir rapor için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey, ilgili BI bilgilerine, gezinti ve arama gerekmeden doğrudan bağlanabilir.
 
 Herhangi bir rapor (düzenleyemediğiniz raporlar da dahil) için Power BI hizmetinde QR kodu oluşturabilirsiniz. Ardından QR kodunu önemli bir konuma yerleştirebilirsiniz. Örneğin, kodu bir e-postaya yapıştırabilir veya yazdırıp belirli bir konuma yerleştirebilirsiniz. 
 
-Raporu paylaştığınız iş arkadaşlarınız [QR kodunu tarayarak doğrudan mobil cihazlarından rapora erişebilir](mobile-apps-qr-code.md). Power BI uygulamasında yer alan QR kodu tarayıcısını veya cihazlarında yüklü olan diğer herhangi bir QR tarayıcısını kullanabilirler.
+Raporu paylaştığınız iş arkadaşlarınız [QR kodunu tarayarak doğrudan mobil cihazlarından rapora erişebilir](mobile-apps-qr-code.md). Power BI uygulamasında yer alan QR kodu tarayıcısını veya cihazlarında yüklü olan diğer herhangi bir QR tarayıcısını kullanabilirler. Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla raporun QR kodunu da tarayabilirler](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="create-a-qr-code-for-a-report"></a>Rapor için QR kodu oluşturma
 1. Power BI hizmetinde bir raporu açın.
@@ -49,12 +49,10 @@ Power BI, QR kodunu, JPG dosyası olarak yazdırılmaya hazır bir şekilde olu�
 
 1. **İndir**'i seçin ve ardından yazıcıya bağlı bir bilgisayarda JPG dosyasını açın.  
    
-   > [!TIP]
-   > JPG dosyası kutucukla aynı ada sahiptir. Örneğin, "Sales and Marketing Sample.jpg".
-   > 
-   > 
-2. Dosyayı %100 oranında veya "gerçek boyutu" ile yazdırın.  
-3. QR kodunu kesin ve raporla ilgili bir konuma yapıştırın. 
+   JPG dosyası kutucukla aynı ada sahiptir. Örneğin, "Sales and Marketing Sample.jpg".
+   
+1. Dosyayı %100 oranında veya "gerçek boyutu" ile yazdırın.  
+2. QR kodunu kesin ve raporla ilgili bir konuma yapıştırın. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)

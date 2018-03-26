@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta Azure Tüketim Öngörüleri verilerine bağlanma (Beta)"
-description: "Power BI Desktop'ı kullanarak Azure'a kolayca bağlanın ve hem tüketim hem de kullanım ile ilgili öngörüler edinin"
+title: Power BI Desktop'ta Azure Tüketim Öngörüleri verilerine bağlanma (Beta)
+description: Power BI Desktop'ı kullanarak Azure'a kolayca bağlanın ve hem tüketim hem de kullanım ile ilgili öngörüler edinin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
@@ -42,11 +42,11 @@ Görüntülenen iletişim kutusuna *Kayıt Numaranızı* girin.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Kayıt numaranızı, [Azure Enterprise Portal](https://ea.azure.com)'da aşağıdaki görüntüde gösterilen konuma giderek bulabilirsiniz.
+* Kayıt numaranızı, [Azure Enterprise Portal](https://ea.azure.com)'da aşağıdaki görüntüde gösterilen konuma giderek bulabilirsiniz:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  Bağlayıcının bu sürümü, yalnızca https://ea.azure.com sayfasından gelen kurumsal kayıtları destekler. Çin'e ait kayıtlar şu anda desteklenmemektedir.
+  Bağlayıcının bu sürümü yalnızca https://ea.azure.com sayfasından gelen kurumsal kayıtları destekler. Çin'e ait kayıtlar şu anda desteklenmemektedir.
 
 Bağlanmak için *Erişim anahtarınızı* girin.
 
@@ -61,7 +61,7 @@ Bağlanmak için *Erişim anahtarınızı* girin.
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> *Summaries ve *PriceSheets* tabloları yalnızca kayıt düzeyindeki API Anahtarı için kullanılabilir. Ayrıca, *UsageDetails* ve *PriceSheets* tabloları, varsayılan olarak geçerli aya ilişkin verileri içerir. *Summaries* ve *Marketplace* tabloları, geçerli ay ile sınırlı değildir.
+> *Summary* ve *PriceSheet* tabloları yalnızca kayıt düzeyindeki API Anahtarı için kullanılabilir. Ayrıca, *UsageDetails* ve *PriceSheets* tabloları, varsayılan olarak geçerli aya ilişkin verileri içerir. *Summaries* ve *Marketplace* tabloları, geçerli ay ile sınırlı değildir.
 > 
 > 
 
@@ -84,16 +84,16 @@ Azure'da boş bir sorgu kullanarak alabileceğiniz bir dizi örnek özel sorgu d
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Aşağıdaki görüntüde olduğu gibi bir dizi örnek görünür.
+Aşağıdaki görüntüde olduğu gibi bir dizi örnek görünür:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Raporlarla çalışırken ve sorgu oluştururken aşağıdakileri kullanın:
 
-* Geçerli tarihten itibaren ay sayısını tanımlamak için *noOfMonths* parametresini kullanın
+* Geçerli tarihten itibaren ay sayısını tanımlamak için *numberOfMonth* parametresini kullanın
   * Geçerli tarihten itibaren kaç aya ilişkin verileri içeri aktarmak istediğinizi belirtmek için 1 ile 36 arasında bir değer kullanın. İçeri aktarma kısıtlamalarıyla karşılaşmamak ve Power BI'da sorgular için izin verilen veri hacmi eşiğini aşmamak için en fazla 12 aya ait verileri almanızı öneririz.
 * Tarihteki bir ay aralığını tanımlamak için *startBillingDataWindow* ve *endBillingDataWindow* parametrelerini kullanın
-* *noOfMonths* parametresini, *startBillingDataWindow* veya *endBillingDataWindow* parametreleri ile birlikte *kullanmayın*
+* *numberOfMonth* parametresini, *startBillingDataWindow* veya *endBillingDataWindow* parametresiyle birlikte *kullanmayın*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Azure Kurumsal Bağlayıcısı'ndan geçiş yapma
 Bazı müşterilerin, kullanımdan kaldırılarak **Azure Tüketim Öngörüleri** bağlayıcısı ile değiştirilecek olan *Azure Kurumsal Bağlayıcısı (Beta)* aracılığıyla oluşturduğu görseller vardır. **Azure Tüketim Öngörüleri** bağlayıcısı, aşağıdakilerin de dahil olduğu bazı özellikler ve iyileştirmeler içerir:
@@ -108,7 +108,7 @@ Müşterilerin yeni **Azure Tüketim Öngörüleri** bağlayıcısına geçiş y
 İlk adım, **Azure Tüketim Öngörüleri** bağlayıcısını kullanarak Azure'a bağlanmaktır. Bu işlemi nasıl gerçekleştireceğiniz, makalenin önceki kısımlarında ayrıntılı olarak açıklanmıştır. Bu adımda **Power BI Desktop**'taki **Giriş** şeridinde **Veri Al > Boş Sorgu** seçeneğini belirleyin.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>2. Adım: Gelişmiş Düzenleyici'yi kullanarak bir sorgu oluşturma
-**Sorgu Düzenleyicisi**'ndeki **Giriş** şeridinin **Sorgu** bölümünde **Gelişmiş Düzenleyici**'yi seçin. Açılan **Gelişmiş Düzenleyici** penceresine aşağıdaki sorguyu girin.
+**Sorgu Düzenleyicisi**'ndeki **Giriş** şeridinin **Sorgu** bölümünde **Gelişmiş Düzenleyici**'yi seçin. Açılan **Gelişmiş Düzenleyici** penceresine aşağıdaki sorguyu girin:
 
     let    
         enrollmentNumber = "100",

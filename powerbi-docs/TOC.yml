@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI Pro'yu satın alma
           href: service-admin-purchasing-power-bi-pro.md
+        - name: Power BI Pro’yu atama
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: Kuruluşunuzda Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI yönetim ve dağıtım yaklaşımları
           href: service-admin-governance.md
         - name: Power BI güvenliği

@@ -1,39 +1,41 @@
 ---
-title: "Power BI Filtreler bölmesine genel bakış"
-description: "Power BI hizmeti ve Power BI panosundaki rapor Filtreleri bölmesine genel bakış"
+title: Power BI Filtreler bölmesine genel bakış
+description: Power BI hizmeti ve Power BI panosundaki rapor Filtreleri bölmesine genel bakış
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Bu bölmeyi [Power BI hizmeti Düzenleme Görünümü ve Okuma Görünümü](service-reading-view-and-editing-view.md) ile [Power BI Desktop Rapor görünümü](desktop-report-view.md) içinde görürsünüz.
 
 Power BI'da verileri filtrelemenin birçok yolu vardır ancak öncelikle [Filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md) başlıklı makaleyi okumanızı öneririz.
 
-## <a name="working-with-filters"></a>Filtrelerle çalışma
-Raporlar [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme Görünümü'nde, rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümü'nde görüntüleyen kullanıcılar filtrelerle etkileşime geçebilir ancak filtre değişikliklerini rapora kaydedemez.
+## <a name="working-with-the-report-filters-pane"></a>Raporun Filtreler bölmesiyle çalışma
+Power BI Desktop'ta raporlar, Rapor görünümünde açılır. Power BI hizmetinde raporlar, [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme görünümünde ve Masaüstü Raporu görünümünde rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümünde görüntüleyen kişiler filtrelerle etkileşime geçebilir, ancak rapora yeni filtreler ekleyemez.
 
-## <a name="filters-in-reading-view"></a>Okuma Görünümü'nde filtreler
-Bir rapor Okuma görünümünde açıldığında Filtreler bölümü, rapor tuvalinin sağ tarafında görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
+Power BI hizmetinde raporlar, Filtreler bölmesinde yaptığınız tüm değişiklikleri korur ve bu değişiklikler, raporun mobil sürümüne taşınır. Filtre bölmesini oluşturanın varsayılanlarına geri döndürmek için en üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçin.     
+
+## <a name="open-the-filters-pane"></a>Filtreler bölmesini açma
+Bir rapor açıldığında, rapor tuvalinin sağ tarafında Filtreler bölmesi görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin. Power BI hizmetinin Okuma görünümündeyseniz, sağ tarafta yalnızca Filtreler bölmesi bulunur.
 
 Bu örnekte, 6 filtresi bulunan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Sayfa düzeyi filtreleri** başlığı altında yer alır. Bir [Detaylandırma filtresinin](power-bi-report-add-filter.md) yanı sıra raporun tamamına uygulanmış bir filtre daha bulunur: **FiscalYear** 2013 veya 2014 değeridir.
 
@@ -43,20 +45,24 @@ Bazı filtrelerin yanında **Tümü** ifadesi bulunur ve bu, tüm değerlerin s�
 
 Bu raporu görüntüleyen tüm kullanıcılar filtrelerle etkileşime geçebilir.
 
-* Filtrenin üzerine gelip yanındaki oku seçerek ayrıntılarını görüntüleyebilirler.
+* Filtrenin üzerine gelip yanındaki oku seçerek ayrıntılarını görüntüleyebilir.
   
    ![](media/power-bi-how-to-report-filter/power-bi-expan-filter.png)
-* Filtreyi değiştirebilirler (örneğin, **Lindseys** filtresini **Fashions Direct** ile değiştirme).
+* Filtreyi değiştirebilir (örneğin, **Lindseys** filtresini **Fashions Direct** ile değiştirme).
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
-* Filtre adının yanındaki **x** işaretini seçerek filtreyi silebilirler.
+
+* Üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçerek filtreleri özgün durumuna geri döndürebilir.    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
+* Filtre adının yanındaki **x** işaretini seçerek filtreyi silebilir.
   
   Bir filtre silindiğinde listeden kaldırılır ancak rapordan silinmez.  Örneğin, **FiscalYear 2013 veya 2014 değeridir** filtresini silerseniz mali yıl verileri raporda kalmaya devam eder ancak artık yalnızca 2013 ve 2014 yıllarını gösterecek şekilde filtrelenmek yerine verilerin kapsadığı tüm mali yılları gösterir.  Ancak sildiğiniz filtreler listeden kaldırılacağından bu filtreleri artık değiştiremezsiniz. Silgi simgesini ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) seçerek filtreyi temizlemek daha kullanışlı bir seçenektir.
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>Düzenleme Görünümü'nde filtreler
-Bir rapor Düzenleme Görünümü'nde açıldığında Filtreler bölümü, rapor tuvalindeki **Görsel Öğeler bölmesinin** orta kısmının altında görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
+Bir rapor, Masaüstünde veya Power BI hizmetinin Düzenleme görünümünde açıldığında, rapor tuvalindeki **Görselleştirme bölmesinin** orta kısmının altında Filtreler bölmesi görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ Belirli bir filtreye yönelik seçenekleri görüntülemek için filtre adının
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Bir filtreyi temizleme
- Gelişmiş veya temel filtreleme modunda, filtreyi sıfırlamak için silgi simgesini ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) seçin. 
+ Gelişmiş veya temel filtreleme modunda, filtreyi temizlemek için silgi simgesini ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) seçin. 
 
 ## <a name="add-a-filter"></a>Filtre ekleme
-* Düzenleme görünümünde bir görsele, sayfaya, detaylandırmaya veya rapora filtre eklemek için Alanlar bölmesindeki bir alanı seçin ve **Alanları buraya sürükleyin** ifadesiyle gösterilen uygun filtre kutusuna sürükleyin. Bir alan filtre olarak eklendikten sonra, Temel filtreleme ve Gelişmiş filtreleme denetimlerini kullanarak (aşağıda açıklanmıştır) hassas ayarlamalar yapabilirsiniz.
+* Masaüstünde veya Power BI hizmetinin Düzenleme görünümünde bir görsele, sayfaya, detaylandırmaya ya da rapora filtre eklemek için Alanlar bölmesindeki bir alanı seçin ve **Alanları buraya sürükleyin** ifadesiyle gösterilen uygun filtre kutusuna sürükleyin. Bir alan filtre olarak eklendikten sonra, Temel filtreleme ve Gelişmiş filtreleme denetimlerini kullanarak (aşağıda açıklanmıştır) hassas ayarlamalar yapabilirsiniz.
 
 - **Görsel düzeyi filtresi alanına yeni bir alan sürüklemek söz konusu alanın görsele eklenmesini sağlamaz** ancak görseli bu yeni alanla filtrelemenize olanak tanır. Aşağıdaki örnekte, **Chain** alanı görsele yeni bir filtre olarak eklenmiştir. Yalnızca **Chain** alanının bir filtre olarak eklenmesinin, siz Temel veya Gelişmiş filtreleme denetimlerini kullanana kadar görselin değişmesine neden olmadığına dikkat edin.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* Görselleştirme oluşturmak için kullanılan tüm alanlar aynı zamanda filtre olarak da kullanılabilir. Öncelikle, bir görseli seçerek etkin hale getirin. Görselde kullanılmakta olan alanlar Görsel Öğeler bölmesinde (Düzenleme görünümündeyseniz) ve Filtreler bölmesindeki **Görsel düzeyi filtreleri** başlığı altında yer alır.
+* Görselleştirme oluşturmak için kullanılan tüm alanlar aynı zamanda filtre olarak da kullanılabilir. Öncelikle, bir görseli seçerek etkin hale getirin. Görselde kullanılmakta olan alanlar, Görselleştirmeler bölmesinde ve Filtreler bölmesindeki **Görsel düzeyi filtreleri** başlığı altında yer alır.
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

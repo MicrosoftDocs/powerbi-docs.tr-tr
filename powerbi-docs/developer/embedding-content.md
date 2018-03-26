@@ -1,27 +1,27 @@
 ---
-title: "Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme"
-description: "Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin."
+title: Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
+description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
 
@@ -88,6 +88,10 @@ REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kay
 Pano ve raporları müşteriniz için ekliyorsanız bu pano ve raporların bir uygulama çalışma alanına eklenmesi gerekir. Yukarıda bahsedilen *ana* hesabın, ilgili uygulama çalışma alanının yöneticisi olması gerekir.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Yönetici olmayan bir kullanıcı en fazla yalnızca 250 uygulama çalışma alanı oluşturabilir. Daha fazla uygulama çalışma alanı oluşturmak için bir kiracı yönetici hesabı kullanmanız gerekir.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Raporlarınızı oluşturma ve karşıya yükleme
 

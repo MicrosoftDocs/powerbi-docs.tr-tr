@@ -1,30 +1,30 @@
 ---
-title: "Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma"
-description: "Power BI Rapor Sunucusu için birkaç kolay adımda Power BI raporu oluşturmayı öğrenin."
+title: 'Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma'
+description: Power BI Rapor Sunucusu için birkaç kolay adımda Power BI raporu oluşturmayı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma
-Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
+Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com)) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
 
 ![Web portalında Power BI raporu](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -38,7 +38,7 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 
     ![Web portalından Power BI Desktop'ı indirme](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Rapor Sunucusu için iyileştirilmiş - Ekim 2017) sayfasına da gidebilirsiniz.
+    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (Power BI Rapor Sunucusu için en iyi duruma getirilmiş - Mart 2018) sayfasına da gidebilirsiniz.
 
 2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
 
@@ -48,13 +48,13 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 
     - **PBIDesktopRS_x64.msi** (64 bit sürümü).
 
-4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ekim 2017) Kurulum Sihirbazını çalıştırın.
+4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Mart 2018) Kurulum Sihirbazını çalıştırın.
 
 2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
    
-    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki "Power BI Desktop (Ekim 2017)" ifadesi, doğru sürüme sahip olduğunuzu gösterir.
+    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki "Power BI Desktop (Mart 2018)" ifadesi, doğru sürüme sahip olduğunuzu gösterir.
 
-    ![Power BI Desktop Ekim 2017 sürümü](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop Mart 2018 sürümü](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Power BI Desktop uygulamasını daha önceden kullanmadıysanız karşılama ekranındaki videoları izlemek isteyebilirsiniz.
    
@@ -100,7 +100,7 @@ Hazırladığınız raporu, 2. Adımda seçtiğiniz Power BI Rapor Sunucusu'na k
     ![Raporu web portalında görüntüleme](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-Power BI Rapor Sunucusu ve Power BI hizmetindeki (http://powerbi.com) raporlar, birkaç farklı özellik dışında neredeyse aynıdır.
+Power BI Rapor Sunucusu ve Power BI hizmetindeki (http://powerbi.com)) raporlar, birkaç farklı özellik dışında neredeyse aynıdır.
 
 ### <a name="in-a-browser"></a>Tarayıcıda
 Power BI Rapor Sunucusu raporları aşağıdakiler de dahil olmak üzere tüm görselleştirmeleri destekler:
@@ -135,6 +135,7 @@ Power BI Desktop'ta rapor oluşturmak için faydalanabileceğiniz birçok harika
 
 * [Power BI Desktop ile çalışmaya başlama](../desktop-getting-started.md)
 * Destekli öğrenme: [Power BI Desktop ile çalışmaya başlama](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  

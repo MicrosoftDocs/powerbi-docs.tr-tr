@@ -1,34 +1,32 @@
 ---
 title: Power BI Rapor Sunucusu'ndaki yenilikler
-description: "Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir."
+description: Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir.
 
 Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
-
-![ipucu](media/whats-new/fyi-tip.png "ipucu") Geçerli sürüm notları için bkz. [Power BI Rapor Sunucusu - Sürüm notları](release-notes.md).
 
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
@@ -37,6 +35,103 @@ Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getiri
 * [Power BI mobil uygulamalarındaki yenilikler](../mobile-whats-new-in-the-mobile-apps.md)
 * [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>Mart 2018 yayını
+
+Mart 2018 yayınında, Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümüne çok fazla sayıda yeni özellik eklenmiştir. Alana göre ayrıştırılmış şekilde bu yenilikler aşağıdaki gibidir: 
+- [Görseller](#visuals-updates)
+- [Raporlama](#reporting)
+- [Analiz](#analytics)
+- [Performans](#performance)
+- [Rapor sunucusu](#report-server)
+- [Diğerleri](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>Bu sürümün öne çıkan özellikleri
+
+Yeni özelliklerin uzun listesinde öne çıkan ilginç özellikler şunlardır.
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Tablo ve matris için kural tabanlı koşullu biçimlendirme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+Tablo veya matrisinizdeki özel iş mantığına dayalı bir sütunun yazı tipi rengini veya arka planı koşullu olarak renklendirmek için kurallar oluşturun.
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Sayfaları gösterme ve gizleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+Okuyucularınızın raporunuza erişim elde etmesini istiyorsunuz, ancak sayfalardan bazıları henüz tamamlanmamış. Artık hazır oluncaya kadar bunları gizleyebilirsiniz. Alternatif olarak, sayfaları normal gezintiden gizleyebilirsiniz ve okuyucular yer işaretlerini veya detaylandırmayı kullanarak sayfaya erişebilir.
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Yer işareti ekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+Yer işareti demişken, raporunuzdaki verilerle bir hikaye anlatmak için yer işaretleri oluşturabilirsiniz.
+
+- [Yer işaretleri için çapraz vurgulama](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): Yer işaretleri, yer işaretini oluşturduğunuz anda rapor sayfasının çapraz vurgulanan durumunu korur ve görüntüler.
+- [Daha fazla yer işareti esnekliği](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): Yer işaretleri, raporunuzda ayarladığınız özellikleri yansıtır ve yalnızca seçtiğiniz görselleri etkiler.
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Birden çok grafikte çoklu seçim noktaları](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+Birden çok grafikte çoklu veri noktası seçip sayfanın tamamına çapraz filtreleme uygulayabilirsiniz.
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Raporunuzun birden çok sayfasında dilimleyicileri eşitleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+Dilimleyici, bir rapordaki bir, iki veya daha fazla sayfaya uygulanabilir.
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Hızlı ölçümler](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+Bir tablodaki mevcut ölçümlere ve sayısal sütunlara dayalı yeni ölçümler oluşturabilirsiniz.
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Detaya gidildiğinde diğer görselleri de filtreleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+Bir görselde belirtilen bir kategoride detaya gittiğinizde, sayfadaki tüm görselleri aynı kategoriye göre filtreleyebilirsiniz.
+
+### <a name="visuals-updates"></a>Görsellerin güncelleştirmeleri
+
+- [Tablo ve matris için hücre hizalaması](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [Tablo ve matris sütunları için birimleri ve duyarlık denetimini görüntüleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [Çubuk ve sütun grafikleri için taşma veri etiketleri](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [Kartezyen ve eşleme görselleri için veri etiketi arka plan rengini denetleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [Çubuk/sütun doldurma denetimi](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [Grafiklerde eksen etiketleri için kullanılan alanı artırma](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [x ve y eksen gruplandırmalarıyla dağılım görseli](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [Enlem ve boylam temelli haritalar için yüksek yoğunluklu örnekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [Esnek dilimleyiciler](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [Göreli tarih dilimleyici için yer işareti tarihi ekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>Raporlama
+
+- [Rapor için okuma modunda görsel üst bilgiyi kapatma](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [Yavaş veri kaynakları için rapor seçenekleri](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [Gelişmiş varsayılan görsel yerleşimi](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [Seçim bölmesi aracılığıyla görsel sıralamasını denetleme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [Raporunuzdaki nesneleri kilitleme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [Biçimlendirme ve analiz bölmelerinde arama](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [Alan özellikleri bölmesi ve alan açıklamaları](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>Analiz
+
+- [UTCNOW() ve UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [Özel tarih tablosu işaretleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [Detaya gidildiğinde diğer görselleri de filtreleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [Çok satırlı kart için çok boyutlu AS modellerini hücre düzeyinde biçimlendirme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>Performans
+
+- [Filtrelemeye ilişkin performans iyileştirmeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [DirectQuery’ye ilişkin performans iyileştirmeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [Açma ve kaydetmeye ilişkin performans iyileştirmeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [“Veri içermeyen öğeleri göstermeye” ilişkin iyileştirmeler](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>Rapor sunucusu 
+
+#### <a name="export-to-accessible-pdf"></a>Erişilebilir PDF'ye dışa aktarma
+
+Sayfalandırılmış (RDL) raporu PDF’ye dışarı aktardığınızda artık erişilebilir/etiketlenmiş bir PDF dosyası elde edebilirsiniz. Boyutu daha büyüktür, ancak ekran okuyucularının ve diğer yardımcı teknolojilerin okuması ve gezinmesi daha kolaydır. **AccessiblePDF** cihaz bilgileri ayarını **True** olarak belirleyerek erişilebilir PDF’yi etkinleştirebilirsiniz. Bkz. [PDF Cihaz Bilgileri Ayarları](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) ve [Cihaz Bilgileri Ayarlarını Değiştirme](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+
+
+### <a name="other-improvements"></a>Diğer iyileştirmeler
+
+- [Örneklerden Sütun Eklemeye ilişkin iyileştirmeler](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [Danışmanlık Hizmetleri hızlı bağlantısı](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [Gelişmiş hata raporlama](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [Daha önce karşılaştığınız hataları görüntüleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>Ekim 2017 sürümü
 ### <a name="power-bi-report-data-sources"></a>Power BI raporu veri kaynakları
 Power BI Rapor Sunucusu'ndaki Power BI raporları çeşitli veri kaynaklarına bağlanabilir. Verileri içeri aktarabilir, veri yenileme zamanlayabilir veya DirectQuery ya da SQL Server Analysis Services canlı bağlantısı kullanarak doğrudan sorgulayabilirsiniz. Zamanlanmış yenileme ve DirectQuery desteği sunan veri kaynaklarının listesi için bkz. "Power BI Rapor Sunucusu'ndaki Power BI raporu veri kaynakları".
@@ -111,7 +206,6 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 * Yorumlar eklenerek raporlardaki işbirliği özellikleri geliştirildi
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI Rapor Sunucusu sürüm notları](release-notes.md)  
 [Kullanıcı el kitabı](user-handbook-overview.md)  
 [Yönetici el kitabı](admin-handbook-overview.md)  
 [Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
