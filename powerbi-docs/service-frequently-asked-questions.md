@@ -1,13 +1,13 @@
 ---
-title: "Power BI'da sık sorulan sorular"
-description: "Power BI hizmeti, Power BI Desktop ve Power BI mobil uygulamaları hakkında sık sorulan sorular ve cevaplar listesini inceleyin."
+title: Power BI'da sık sorulan sorular
+description: Power BI hizmeti, Power BI Desktop ve Power BI mobil uygulamaları hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).

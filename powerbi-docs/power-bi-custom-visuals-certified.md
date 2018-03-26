@@ -1,16 +1,16 @@
 ---
-title: "Sertifikalı Power BI özel görselleştirmeleri"
-description: "Sertifika için özel görsel gönderme işlemi ve gereksinimleri. Önceden sertifikalanan özel görseller listesi."
+title: Sertifikalı Power BI özel görselleştirmeleri
+description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri. Önceden sertifikalanan özel görseller listesi.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
@@ -60,7 +60,6 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Sertifikalı özel görseller listesi
 | AppSource bağlantısı | Video bağlantısı |
 | --- | --- |
-| [İlişkilendirme kuralları](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ Software Bowtie Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Video](https://youtu.be/AQvd2FhRyCI) |
 | [MAQ Software Circular Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Video](https://youtu.be/9NHXALkBXuY) |
 | [Küme Eşleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [Kümeleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [Aykırı Değerler ile Kümeleme](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [Bağıntı çizimi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [MAQ Software Cylindrical Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Video](https://youtu.be/DgdoWi7Gcxo) |
-| [Karar Ağacı Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [Kadranlı Ölçer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [Noktalı Çizim](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [Dot Plot by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Video](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Zorla Yönlendirilmiş Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Video](https://youtu.be/YsTa7uyJ4sg) |
-| [TBATS Tahmini](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [ARIMA ile Tahmin](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [MAQ Software Funnel with Source](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Video](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
 | [MAQ Software Gantt Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Video](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |
+| [Eğilim Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [Video](https://youtu.be/DQWdcQtjDVw) |
 | [MAQ Software Quadrant Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Video](https://youtu.be/ppBnyhqWNC0) |
 | [Radar Grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [MAQ Software Ring Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Video](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Scroller](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [OKViz Smart Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Video](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Video](https://youtu.be/0m3Vnvso9tY) |
-| [Eğri grafik](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [Akış Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Güneş ışığı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Metin Filtresi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software Text Wrapper](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Termometre](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [Zaman serisi ayrıştırma grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [Zaman Serilerini Tahmin Etme Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [Zaman Çizelgesi Dilimleyici](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
 | [Tornado chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software Trading Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |

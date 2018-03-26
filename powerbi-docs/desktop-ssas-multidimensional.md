@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri"
-description: "Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri"
+title: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
+description: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
 
-Bir **SSAS MD** veritabanına bağlanmak için aşağıdaki resimde gösterildiği gibi **Veri Al &gt; Veritabanı &gt; SQL Server Analysis Services Veritabanı** yolunu izleyin.
+Bir **SSAS MD** veritabanına bağlanmak için aşağıdaki resimde gösterildiği gibi **Veri Al &gt; Veritabanı &gt; SQL Server Analysis Services Veritabanı** yolunu izleyin:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -37,13 +37,13 @@ Canlı bağlantı modunda **SSAS Çok Boyutlu modelleri** hem Power BI hizmetind
 Aşağıdaki bölümlerde Power BI ve SSAS MD bağlantılarının özellikleri anlatılmaktadır.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Çok boyutlu modellerin tablo meta verileri
-Aşağıdaki tabloda çok boyutlu nesnelerle Power BI Desktop uygulamasına döndürülen tablo meta verileri gösterilmektedir. Power BI modele tablo meta verileri için sorgu gönderir ve döndürülen meta verilere göre tablo, matris, grafik veya dilimleyici gibi bir görselleştirme oluşturduğunuzda Analysis Services hedefinde uygun DAX sorgularını çalıştırır.
+Aşağıdaki tabloda çok boyutlu nesnelerle Power BI Desktop uygulamasına döndürülen tablo meta verileri gösterilmektedir. Power BI, modele tablo meta verileri için sorgu gönderir ve döndürülen meta verilere göre tablo, matris, grafik veya dilimleyici gibi bir görselleştirme oluşturduğunuzda Analysis Services hedefinde uygun DAX sorgularını çalıştırır.
 
 | BISM-Çok boyutlu nesne | Tablo Meta Verileri |
 | --- | --- |
 | Küp |Model |
 | Küp boyutu |Tablo |
-| Boyut öznitelikleri (Anahtarlar), (Ad) |Sütunlar |
+| Boyut öznitelikleri (Anahtarlar), Ad |Sütunlar |
 | Ölçü grubu |Tablo |
 | Ölçü |Ölçü |
 | Ölçüler, ilgili Ölçü Grubu olmadan |*Ölçüler* adlı tablonun içinde |

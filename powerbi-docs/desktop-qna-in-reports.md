@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop’ta Soru-Cevap Kullanma"
-description: "Artık Power BI Desktop’ta Soru-Cevap özelliğiyle doğal dil sorguları kullanabilirsiniz"
+title: Power BI Desktop’ta Soru-Cevap Kullanma
+description: Artık Power BI Desktop’ta Soru-Cevap özelliğiyle doğal dil sorguları kullanabilirsiniz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Doğal dil sorguları için Power BI Desktop'taki Soru-Cevap özelliğini kullanın
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte **Power BI Desktop**’taki Soru-Cevap ile bunu yapabilirsiniz.
@@ -50,7 +50,7 @@ Soru-Cevap için tablo ve sütun seçimi çok önemlidir. Örneğin, müşterile
 
 Soru-Cevap, bazı temel sözcük bölme ve çoğul algılama işlemlerini gerçekleştirebilse de tablo ve sütun adlarınızın içeriği doğru bir şekilde yansıttığını varsayar.
 
-Başka bir örnek verelim. Çalışanların ad, soyadı ve numaralarını içeren *Sayım* adlı bir tablonun yanı sıra, çalışan numaralarını, iş numaralarını ve başlangıç tarihlerini içeren, *Çalışanlar* adlı bir tablonuz olduğunu varsayın. Modeli tanıyan kişiler için bu adlar anlaşılabilir olsa da başka birisi “çalışanların sayısını” sorduğunda, istediği cevap yerine her çalışanın daha önce yaptığı tüm işlerin sayısını ifade eden “Çalışanlar” tablosundaki satırların sayısı sunulur. Bu tabloların içeriği doğru yansıtacak şekilde yeniden adlandırılması çok daha iyi olur.
+Başka bir örnek verelim. Çalışanların ad, soyad ve numaralarını içeren *Çalışan Sayısı* adlı bir tablonun yanı sıra, çalışan numaralarını, iş numaralarını ve başlangıç tarihlerini içeren *Çalışanlar* adlı bir tablonuz olduğunu varsayın. Modeli tanıyan kişiler için bu adlar anlaşılabilir olsa da başka birisi “çalışanların sayısını” sorduğunda, istediği cevap yerine her çalışanın daha önce yaptığı tüm işlerin sayısını ifade eden “Çalışanlar” tablosundaki satırların sayısı sunulur. Bu tabloların içeriği doğru yansıtacak şekilde yeniden adlandırılması çok daha iyi olur.
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -93,7 +93,7 @@ Power BI, varsayılan olarak sayısal sütunları agresif bir şekilde topladı�
 
 Tabii ki modelinizi tamamen yeniden şekillendirmeniz gerektiğini söylemiyoruz. Bununla birlikte, Soru-Cevap’ın başa çıkamayacağı kadar zor olan belirli yapılar vardır. Modelinizin yapısında bazı temel normalleştirme işlemleri gerçekleştirirseniz, hem Power BI raporlarının kullanılabilirliği hem de Soru-Cevap sonuçlarının doğruluğu önemli ölçüde artar.
 
-Şu genel kuralı izlemelisiniz: Kullanıcının bahsettiği her benzersiz “şey”, tam olarak bir model nesnesiyle (tablo veya sütun) temsil edilmelidir. Kullanıcılarınız müşterilerden bahsediyorsa bir *müşteri* nesnesi olmalıdır. Kullanıcılarınız satıştan bahediyorsa bir *satış* nesnesi olmalıdır. Kulağa basit geliyor, değil mi? Başlangıçta sahip olduğunuz verilerin durumuna bağlı olarak basit olabilir. Gerekirse **Sorgu Düzenleyicisi**’ndeki zengin veri biçimlendirme özelliklerinden yararlanabilirsiniz, ancak daha basit olan çoğu işlem yalnızca Power BI modelindeki hesaplamalar kullanılarak gerçekleştirilebilir.
+Şu genel kuralı izlemelisiniz: Kullanıcının bahsettiği her benzersiz “şey”, tam olarak bir model nesnesiyle (tablo veya sütun) temsil edilmelidir. Kullanıcılarınız müşterilerden bahsediyorsa bir *müşteri* nesnesi olmalıdır. Kullanıcılarınız satıştan bahsediyorsa bir *satış* nesnesi olmalıdır. Kulağa basit geliyor, değil mi? Başlangıçta sahip olduğunuz verilerin durumuna bağlı olarak basit olabilir. Gerekirse **Sorgu Düzenleyicisi**’ndeki zengin veri biçimlendirme özelliklerinden yararlanabilirsiniz, ancak daha basit olan çoğu işlem yalnızca Power BI modelindeki hesaplamalar kullanılarak gerçekleştirilebilir.
 
 Aşağıdaki bölümler, gerçekleştirmeniz gerekebilecek bazı yaygın dönüşümleri içermektedir.
 
@@ -113,7 +113,7 @@ Daha büyük bir tablo içinde tek başına ayrı bir birim görevi gören birde
 
 Modelinizde özellik paketleri varsa bunlar özellik başına tek bir sütun içerecek şekilde yeniden yapılandırılmalıdır. Özellik paketleri çok sayıda özelliğin yönetilmesi için kullanışlı olsa da ne Power BI tarafından raporlanan ne de Soru-Cevap’ın çözüm bulabileceği bir dizi doğal sınırlamaya sahiptir.
 
-Örneğin, Müşteri Kimliği, Özellik ve Değer sütunlarına sahip olan ve her satırın aynı müşteri için farklı bir özelliği (örneğin, yaş, medeni durum, şehir, vb.) temsil ettiği bir *MüşteriDemografisi* tablosunu göz önünde bulundurun. Özellik sütununun içeriğine bağlı olarak Değer sütununa ek anlamlar yüklenmesi, Soru-Cevap’ın buna başvuran çoğu sorguyu yorumlamasını imkansız hale getirir. “Her müşterinin yaşını göster” gibi basit bir komut, “özelliğin yaş olduğu yerlerde müşterileri ve müşterilerin demografik bilgilerini göster” olarak yorumlanabileceğinden işe yarayabilir. Bununla birlikte, modelin yapısı biraz daha karmaşık olan “Chicago’daki müşterilerin ortalama yaşı” gibi soruları desteklemez. Power BI raporlarını doğrudan yazan kullanıcılar bazen istedikleri verilere ulaşmanın akıllı yollarını bulabilse de Soru-Cevap yalnızca her sütunun tek bir anlamı olduğunda çalışır.
+Örneğin, Müşteri Kimliği, Özellik ve Değer sütunlarına sahip olan ve her satırın aynı müşteri için farklı bir özelliği (örneğin, yaş, medeni durum, şehir, vb.) temsil ettiği bir *MüşteriDemografisi* tablosunu göz önünde bulundurun. Özellik sütununun içeriğine bağlı olarak Değer sütununa ek anlamlar yüklenmesi, Soru-Cevap’ın buna başvuran çoğu sorguyu yorumlamasını imkansız hale getirir. “Her müşterinin yaşını göster” gibi basit bir komut, “özelliğin yaş olduğu yerlerde müşterileri ve müşterilerin demografik bilgilerini göster” olarak yorumlanabileceğinden işe yarayabilir. Bununla birlikte, modelin yapısı biraz daha karmaşık olan “Chicago’daki müşterilerin ortalama yaşı” gibi soruları desteklemez. Power BI raporlarını doğrudan yazan kullanıcılar bazen istedikleri verilere ulaşmanın akıllıca yollarını bulabilse de Soru-Cevap yalnızca her sütunun tek bir anlamı olduğunda çalışır.
 
 **Üzerinde çalışılması gerekiyor**
 

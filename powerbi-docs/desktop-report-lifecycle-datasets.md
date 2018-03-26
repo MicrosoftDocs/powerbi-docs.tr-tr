@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma"
-description: "Birden fazla Power BI Desktop raporu için ortak bir veri kümesi kullanma ve rapor yaşam döngüsünü yönetme"
+title: Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
+description: Birden fazla Power BI Desktop raporu için ortak bir veri kümesi kullanma ve rapor yaşam döngüsünü yönetme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
-Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI Hizmeti Canlı Bağlantı**'dır.
+Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_01.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)"
-description: "Power BI Desktop'ta şekil haritaları kullanarak bölgelere ilişkin göreli karşılaştırmalar oluşturma"
+title: Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)
+description: Power BI Desktop'ta şekil haritaları kullanarak bölgelere ilişkin göreli karşılaştırmalar oluşturma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.
@@ -73,6 +73,23 @@ Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 **TopoJSON** harita dosyanızı kullanmak için, raporunuza bir Şekil Haritası görseli, *Konum* ve *Değerler* demetlerine ise bazı veriler ekleyin. Ardından **Görselleştirmeler** bölmesinde **Biçim** bölümü seçiliyken (aşağıdaki görüntüde (1) olarak gösterilen boya fırçası simgesi) **Şekil** bölümünü genişletin ve **+Harita Ekle** seçeneğini belirleyin.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Örnek Özel Eşleme
+*ABD Savcılar Bürosu*, dava ve dosya yükü verileriyle ilgili yıllık mali rapor yayınlar.  Tüm raporlarına aşağıdaki bağlantıdan erişilebilir,
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Eyaletler birden çok bölgeye ayrılabildiğinden, özel şekil haritası kullanmamız gerekir.  ABD yargı bölgelerinin **TopoJSON** haritasını **Power BI Desktop**’a içeri aktararak, yıllık mali bölge savcı verilerini görselleştirebiliriz.  Aşağıdaki resimde bu haritanın bir örneği gösterilmektedir.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Tek tek eyalet haritalarıyla ilgi çekici şeyler yapabilir ve içerdiği bölgelere dayalı daha fazla ayrıntı gösterebilirsiniz. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Bu veri kümesi ve görselleştirme ile deneme yapmak istiyorsanız, aşağıdaki bağlantıyı kullanarak bu raporu oluşturmak için kullanılan özgün PBIX dosyasını indirebilirsiniz.
+
+* [Özel şekil haritası .PBIX dosyası](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Harita verileri alma
 **Şekil Haritası**'nı test etmek üzere bir modele hızlıca veri almak için, bu makalenin sonundaki tablolardan birini kopyalayabilir ve ardından **Giriş** şeridindeki **Verileri Girin** seçeneğini belirleyebilirsiniz.

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta SAP HANA'yı kullanma"
-description: "Power BI Desktop'ta SAP HANA'yı kullanma"
+title: Power BI Desktop'ta SAP HANA'yı kullanma
+description: Power BI Desktop'ta SAP HANA'yı kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA'yı kullanma
 Power BI Desktop'ta artık **SAP HANA** veritabanlarına erişebilirsiniz. **SAP HANA**'yı kullanabilmek için Power BI Desktop **SAP HANA** veri bağlantısının düzgün çalışabilmesi amacıyla yerel istemci bilgisayara SAP HANA ODBC sürücüsünün yüklenmesi gerekir. SAP HANA ODBC sürücüsünü [SAP Software Download Center](https://support.sap.com/swdc) sayfasından indirebilirsiniz. Bu sayfada Windows bilgisayarlar için SAP HANA CLIENT uygulamasını arayın. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz.
 
-Bir **SAP HANA** veritabanına bağlanmak için aşağıdaki görüntüde gösterildiği gibi **Veri Al > Veritabanı > SAP HANA Veritabanı** yolunu izleyin.
+Bir **SAP HANA** veritabanına bağlanmak için aşağıdaki görüntüde gösterildiği gibi **Veri Al > Veritabanı > SAP HANA Veritabanı** yolunu izleyin:
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -40,7 +40,7 @@ Bu sürümde Power BI Desktop ve Power BI hizmetinde **SAP HANA**, [DirectQuery]
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA için desteklenen özellikler
 Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** özelliği desteklenmektedir:
 
-* **SAP HANA** için Power BI bağlayıcısı, en iyi deneyimi sunmak için SAP ODBC sürücüsünü kullanır
+* **SAP HANA** için Power BI bağlayıcısı, en iyi kullanıcı deneyimini sunmak için SAP ODBC sürücüsünü kullanır
 * **SAP HANA**, hem DirectQuery hem de İçeri Aktarma seçeneklerini destekler
 * Power BI, HANA bilgi modellerini (Analiz ve Hesaplama görünümleri gibi) destekler ve en iyi duruma getirilmiş gezinti özelliklerine sahiptir
 * **SAP HANA** ile doğrudan SQL özelliğini kullanarak Satır ve Sütun Tablolarına bağlanabilirsiniz

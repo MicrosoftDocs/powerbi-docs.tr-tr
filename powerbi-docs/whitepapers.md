@@ -1,27 +1,27 @@
 ---
-title: "Power BI'a yönelik teknik incelemeler"
-description: "Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde araştırmanıza olanak sağlar."
+title: Power BI'a yönelik teknik incelemeler
+description: Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde araştırmanıza olanak sağlar.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -42,5 +42,6 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Bu makalede, tablolu BI anlam modeline ve Power BI'a yönelik güvenlik modeli tanıtılmaktadır. Rol oluşturmayı, dinamik güvenlik uygulamayı, kimliğe bürünme ayarlarını yapılandırmayı, rolleri yönetmeyi ve ağınızın güvenlik bağlamında çalışan modellere bağlanma yöntemi seçmeyi öğreneceksiniz. |
 | [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. |
 | [Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.|
+| [Power BI ve SAP BW](https://aka.ms/powerbiandsapbw)| Bu belgede, SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği açıklanmaktadır.|
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

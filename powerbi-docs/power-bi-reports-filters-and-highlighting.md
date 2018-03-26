@@ -1,28 +1,28 @@
 ---
-title: "Power BI raporlarındaki filtreler ve vurgulama hakkında"
-description: "Power BI raporlarındaki filtreler ve vurgulama hakkında"
+title: Power BI raporlarındaki filtreler ve vurgulama hakkında
+description: Power BI raporlarındaki filtreler ve vurgulama hakkında
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Power BI raporlarındaki filtreler ve vurgulama hakkında
 ***Filtreler***, odaklanmak istedikleriniz dışındaki tüm verileri kaldırır.  Verilerin kaldırılması söz konusu olmadığından ***vurgulama***, filtreleme değildir; bunun yerine görünen verilerin bir alt kümesini vurgular. Vurgulanmayan veriler görünür kalır ancak gridir.
@@ -41,20 +41,22 @@ Power BI'da raporları çok çeşitli yollarla filtreleyebilir ve vurgulayabilir
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>Filtreler bölmesi kullanılarak raporlarda filtreleme ve vurgulamaya giriş
+ Bu makalede, Power BI hizmetindeki filtreleme ve vurgulama özellikleri tanıtılmaktadır.  Ancak bu, Power BI Desktop ile neredeyse aynı deneyimi sunar.  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-Filtreler ve vurgulama, **Filtreler** bölmesi kullanılarak veya doğrudan rapor üzerinde seçimler yapılarak (geçici, sayfanın en alt kısmına bakın) uygulanabilir. Filtreler bölmesi, raporda kullanılan tabloların ve alanların yanı sıra uygulanan filtreleri (varsa ) gösterir. Filtreler **Sayfa düzeyi filtreleri**, **Rapor düzeyi filtreleri** ve **Görsel düzeyi filtreleri** olarak ayrılır.  Rapor tuvalinde görselleştirme seçtiyseniz yalnızca görsel düzeyi filtrelerini görürsünüz.
+Filtreler ve vurgulama, **Filtreler** bölmesi kullanılarak veya doğrudan rapor üzerinde seçimler yapılarak (geçici, sayfanın en alt kısmına bakın) uygulanabilir. Filtreler bölmesi, raporda kullanılan tabloların ve alanların yanı sıra uygulanan filtreleri (varsa ) gösterir. Filtreler; **Sayfa düzeyi**, **Rapor düzeyi**, **Detaylandırma** ve **Görsel düzeyi** olarak ayrılır.  Rapor tuvalinde görselleştirme seçtiyseniz yalnızca görsel düzeyi filtrelerini görürsünüz.
 
 > [!TIP]
 > Filtrenin yanında **Tümü** ifadesi varsa bu, alanın tamamının filtre olarak dahil edildiği anlamına gelir.  Örneğin, aşağıdaki ekran görüntüsünde **Chain (Tümü)**, bize bu rapor sayfasının tüm mağaza zincirleriyle ilgili verileri içerdiğini gösterir.  Diğer yandan, **FiscalYear 2013 veya 2014 değeridir** rapor düzeyi filtresi, bize raporun yalnızca 2013 ve 2014 mali yıllarına ilişkin verileri içerdiğini gösterir.
 > 
 > 
 
-## <a name="filters-in-reading-view-versus-editing-view"></a>Okuma Görünümü'nde ve Düzenleme Görünümü'nde Filtreler
+## <a name="filters-in-reading-view-versus-editing-view"></a>Okuma görünümündeki ve Düzenleme görünümündeki filtrelerin karşılaştırması
 Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
 
-* Düzenleme Görünümü'nde rapor ve sayfa filtrelerinin yanı sıra görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde filtreler de birlikte kaydedilir. Okuma Görünümü'nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir ancak kendi değişikliklerini kaydedemez.
-* Okuma Görünümü'nde raporda bulunan herhangi bir sayfa filtresi ve görsel filtre ile etkileşim kurabilirsiniz ancak filtre değişikliklerinizi kaydedemezsiniz.
+* Düzenleme Görünümü’nde, rapor, sayfa, detaylandırma ve görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde, mobil uygulamada açsanız bile filtreler raporla birlikte kaydedilir. Okuma Görünümü’nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir ancak yeni filtreler ekleyemez.
+* Okuma Görünümü’nde önceden raporda bulunan filtrelerle etkileşim kurabilir ve yaptığınız seçimi kaydedebilirsiniz.  Ancak yeni filtreler ekleyemezsiniz.
 
 ### <a name="the-filters-pane-in-reading-view"></a>Okuma Görünümü'nde Filtreler bölmesi
 Bir rapora yalnızca Okuma Görünümü'nde erişim sahibiyseniz Filtreler bölmesi aşağıdaki gibi görünür:
@@ -67,7 +69,7 @@ Herhangi bir görsel düzeyi filtresinin mevcut olup olmadığını görmek içi
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Okuma Görünümü'nde, mevcut filtreleri değiştirerek verileri araştırın. Bunun nasıl yapıldığını [Okuma Görünümü'nde filtrelerle etkileşim kurma](service-reading-view-and-editing-view.md) makalesinden öğrenebilirsiniz
+Okuma Görünümü'nde, mevcut filtreleri değiştirerek verileri araştırın. Raporu mobil uygulamada açsanız bile, yaptığınız değişiklikler rapora kaydedilir. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) başlıklı makaleden bu konuda bilgi alabilirsiniz
 
 ### <a name="the-filters-pane-in-editing-view"></a>Düzenleme Görünümü'nde Filtreler bölmesi
 Bir rapor için sahip izinleriniz olduğunda ve raporu Düzenleme Görünümü'nde açtığınızda **Filtreler**'in, kullanılabilir birkaç düzenleme bölmesinden yalnızca biri olduğunu görürsünüz.
@@ -78,10 +80,14 @@ Okuma Görünümü'nde olduğu gibi (yukarıda), raporun bu sayfasında 6 sayfa 
 
 Ancak Düzenleme Görünümü'nde, filtrelerle ve vurgulamayla yapabileceğimiz çok daha fazla işlem vardır. Temel fark, yeni filtreler ekleyebilmemizdir. [Bir rapora filtre ekleme](power-bi-report-add-filter.md) makalesinde bunun nasıl yapıldığını ve çok daha fazlasını öğrenebilirsiniz
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>Geçici filtreleme ve vurgulama
-Sayfanın geri kalanını filtrelemek ve vurgulamak için rapor tuvalinde bir alan seçin. Filtreleme ve vurgulamayı kaldırmak için aynı görselde boş bir alan seçin. Bu türdeki filtreleme ve vurgulama işlemleri rapora kaydedilmez ancak veri etkilerini hızla keşfetmenin eğlenceli bir yoludur. [Görsel etkileşimler](service-reports-visual-interactions.md) makalesine giderek bu türdeki çapraz filtreleme ve çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz
+## <a name="ad-hoc-filtering-and-highlighting"></a>Geçici filtreleme ve vurgulama
+Sayfanın geri kalanını filtrelemek ve vurgulamak için rapor tuvalinde bir alan seçin. Filtreleme ve vurgulamayı kaldırmak için aynı görselde boş bir alan seçin. Bu türdeki filtreleme ve vurgulama işlemleri, veri etkilerini hızla keşfetmenin eğlenceli bir yoludur. [Görsel etkileşimler](service-reports-visual-interactions.md) makalesine giderek bu türdeki çapraz filtreleme ve çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+Rapordan çıktığınızda değişiklikleriniz kaydedilir. Filtrelemenizi geri almak için üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçin.
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Filtreler ve vurgulama ile etkileşim kurma (Okuma Görünümü'nde)](service-reading-view-and-editing-view.md)

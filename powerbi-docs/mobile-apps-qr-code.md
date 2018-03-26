@@ -1,27 +1,27 @@
 ---
-title: "Mobil cihazınızdan Power BI QR kodu tarama"
-description: "Power BI'daki QR kodları, gerçek dünyadaki herhangi bir öğeyi, iPhone'lar ve Android cihazlar için Power BI mobil uygulamasındaki ilgili BI bilgilerine doğrudan bağlayabilir."
+title: Mobil cihazınızdan Power BI QR kodu tarama
+description: Power BI'daki QR kodları, gerçek dünyadaki herhangi bir öğeyi, iPhone'lar ve Android cihazlar için Power BI mobil uygulamasındaki ilgili BI bilgilerine doğrudan bağlayabilir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
 Aşağıdakiler için geçerlidir:
@@ -36,10 +36,10 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 İster Power BI uygulamasındaki tarayıcıyı ister telefonunuzda yüklü bulunan herhangi bir tarayıcıyı kullanarak doğrudan telefonunuz üzerinden ilgili kutucuk ya da rapora anında erişim için QR kodunu taratabilirsiniz. 
 
+İş arkadaşınız panoyu ya da raporu sizinle paylaşmadıysa doğrudan mobil uygulama üzeriden erişim isteğinde bulunabilirsiniz. 
+
 > [!NOTE]
-> İş arkadaşınız panoyu ya da raporu sizinle paylaşmadıysa doğrudan mobil uygulama üzeriden erişim isteğinde bulunabilirsiniz.
-> 
-> 
+> Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla raporun QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Power BI tarayıcısıyla iPhone'unuzda bir Power BI QR kodu taratma
 1. Power BI mobil uygulamasının sol üst tarafında bulunan genel gezinti menüsünü ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) açın. 
@@ -80,5 +80,6 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)
 * [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](service-create-qr-code-for-tile.md)
 * [Power BI hizmetinde bir rapor için QR kodu oluşturma](service-create-qr-code-for-report.md)
+* Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

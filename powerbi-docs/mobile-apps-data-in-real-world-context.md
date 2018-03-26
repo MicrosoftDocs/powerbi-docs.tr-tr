@@ -1,33 +1,33 @@
 ---
-title: "Power BI mobil uygulamaları ile gerçek dünya verileri alma"
-description: "Power BI mobil uygulamaları, arama yapmaya gerek duyulmadan gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir."
+title: Power BI mobil uygulamaları ile gerçek dünya verileri alma
+description: Power BI mobil uygulamaları, arama yapmaya gerek duyulmadan gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları ile gerçek dünyadan veriler alma
 Power BI mobil uygulamaları çok çeşitli şekillerde gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir. 
 
 ## <a name="qr-codes-for-tiles"></a>Kutucuklara yönelik QR kodları
-Panodaki bir kutucuk için QR kodu oluşturun ve QR kodunu dilediğiniz yere yerleştirin. İş arkadaşlarınız kodu iPhone'ları veya Android telefonları ile taradığında, söz konusu QR koduyla ilişkilendirdiğiniz kutucukla karşılaşır. Bu işlemi iPhone'da gerçekleştiren iş arkadaşlarınız kutucuğu artırılmış gerçeklikle görüntüler.
+Bir rapor veya panodaki bir kutucuk için QR kodu oluşturun ve QR kodunu dilediğiniz yere yerleştirin. İş arkadaşlarınız kodu iPhone'ları, Android telefonları veya Karma Gerçeklik için Power BI uygulaması ile taradığında, söz konusu QR koduyla ilişkilendirdiğiniz kutucuğu görür. iPhone’da genişletilmiş gerçeklikte kutucuğu görür.
 
 ![QR kodu](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ Daha fazla bilgi:
 
 * [Power BI'da bir kutucuk için QR kodu oluşturma](service-create-qr-code-for-tile.md)
 * [Mobil cihazınızda Power BI QR kodu tarama](mobile-apps-qr-code.md)
+* [Karma Gerçeklik için Power BI uygulamasıyla QR kodunu tarama](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="qr-codes-for-reports"></a>Raporlara yönelik QR kodları
 Bir rapor için QR kodu oluşturun.  İş arkadaşlarınız kodu iPhone'ları (Android telefonlar için destek yakında sunulacaktır) ile taradığında, söz konusu QR koduyla ilişkilendirdiğiniz raporla karşılaşır. 

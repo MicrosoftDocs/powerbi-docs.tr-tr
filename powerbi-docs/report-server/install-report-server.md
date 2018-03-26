@@ -1,46 +1,45 @@
 ---
-title: "Power BI Rapor Sunucusu'nu yükleme"
-description: "Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin. "
+title: Power BI Rapor Sunucusu'nu yükleme
+description: Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
 Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 
- **İndirin** ![indir](media/install-report-server/download.png "indir")
+ **İndir** ![indir](media/install-report-server/download.png "indir")
 
-Power BI Rapor Sunucusu'nu indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin. 
+Power BI Rapor Sunucusu'nu indirmek için [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasına gidin ve **Ücretsiz deneme sürümünü indirin**’i seçin. 
 
-Microsoft İndirme Merkezi'ne giderek [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Power BI Rapor Sunucusu için iyileştirilmiş - Ekim 2017) indirin.
-
-![ipucu](media/install-report-server/fyi-tip.png "ipucu") Geçerli sürüm notları için bkz. [Power BI Rapor Sunucusu - Sürüm notları](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Video: Power BI Rapor Sunucusu'nu yükleme
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Başlamadan önce
-Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım gereksinimleri](system-requirements.md) sayfasını incelemeniz önerilir.
+Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım Gereksinimleri](system-requirements.md) sayfasını incelemenizi öneririz.
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Rapor Sunucusu ürün anahtarı
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Power BI Premium'u satın aldıysanız Power BI yönetici portalının **Premium ayarları** sekmesine giderek Power BI Rapor Sunucusu ürün anahtarınıza erişebilirsiniz. Bu yalnızca Power BI hizmeti yönetici rolüne atanan kullanıcılar veya Genel Yöneticiler tarafından kullanılabilir.
 
@@ -56,10 +55,7 @@ SQL Server Enterprise YG sözleşmeniz varsa ürün anahtarınızı [Toplu Lisan
 ## <a name="install-your-report-server"></a>Rapor sunucunuzu yükleme
 Power BI Rapor Sunucusu'nu yükleme adımları oldukça kolaydır. Dosyaları yüklemek için uygulamanız gereken yalnızca birkaç adım vardır.
 
-> [!NOTE]
-> Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız yoktur. Yükleme sonrasında Reporting Services'i yapılandırmak için bu sunucuya ihtiyacınız olacaktır.
-> 
-> 
+Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız yoktur. Yükleme sonrasında Reporting Services'i yapılandırmak için bu sunucuya ihtiyacınız olacaktır.
 
 1. PowerBIReportServer.exe dosyasını bulun ve yükleyiciyi başlatın.
 2. **Power BI Rapor Sunucusu'nu yükle**'yi seçin.
@@ -84,15 +80,14 @@ Power BI Rapor Sunucusu'nu yükleme adımları oldukça kolaydır. Dosyaları y�
    
     ![Yükleme yolunu belirtme](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > Varsayılan yol: C:\Program Files\Microsoft Power BI Report Server.
-   > 
-   > 
-7. Kurulum başarılı olduktan sonra Reporting Services Yapılandırma Yöneticisi'ni başlatmak için **Rapor Sunucusunu Yapılandır**'ı seçin.
+    Varsayılan yol: C:\Program Files\Microsoft Power BI Report Server.
+
+1. Kurulum başarılı olduktan sonra Reporting Services Yapılandırma Yöneticisi'ni başlatmak için **Rapor Sunucusunu Yapılandır**'ı seçin.
    
     ![Rapor sunucusunu yapılandırma](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>Rapor sunucunuzu yapılandırma
+## <a name="configuring-your-report-server"></a>Rapor sunucunuzu yapılandırma
+
 Kurulumda **Rapor Sunucusunu Yapılandır**'ı seçtiğinizde Reporting Services Yapılandırma Yöneticisi açılır. Daha fazla bilgi için bkz. [Reporting Services Yapılandırma Yöneticisi](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 Reporting Services'in ilk yapılandırmasını tamamlamak için [rapor sunucusu veritabanı oluşturmanız](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) gerekir. Bu adımı tamamlamak için bir SQL Server Veritabanı sunucusu gerekir.
