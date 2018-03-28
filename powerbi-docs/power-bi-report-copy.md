@@ -1,28 +1,28 @@
 ---
 title: Bir Power BI raporunu kopyalama
-description: "Bir rapordan başka bir Power BI raporu oluşturun."
+description: Bir rapordan başka bir Power BI raporu oluşturun.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 63d545f24db126566d5c7f9c485e9cc4fd0e079e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Mevcut bir rapordan yeni rapor oluşturma
 Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek isteyebileceğiniz bir raporunuzun bulunması da olasıdır.  Böyle bir durumda yeni bir rapor için temel oluşturmak üzere söz konusu raporu kopyalamanız yeterlidir.  Bunu gerçekleştirmek için:
