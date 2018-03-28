@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)"
-description: "Power BI Desktop'ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin"
+title: Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
+description: Power BI Desktop'ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
 **Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri ve çok daha fazlası) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
@@ -163,7 +163,7 @@ Biçimlendirme konusunda daha ayrıntılı denetim sağlayan genişletilmiş bi�
         }
     }
 
-**visualName** ve **cardName** bölümleri için belirli bir görsel ve kart adı listeleyebilir veya bu ayarın, belirli görseller için bir özellik içeren tüm görsellere ya da kartlara uygulanmasını istiyorsanız bir yıldız işareti ("*") kullanabilirsiniz. Bir ayarın (yazı tipi boyutu veya belirli bir yazı tipi ailesi gibi) raporunuzdaki tüm görseller için uygulanmasını istediğinizde yıldız işaretini ("*") kullanabilirsiniz.
+**visualName** ve **cardName** bölümleri için belirli bir görsel ve kart adı listeleyebilir veya bu ayarın, belirli görseller için bir özellik içeren tüm görsellere ya da kartlara uygulanmasını istiyorsanız bir yıldız işareti ("\*") kullanabilirsiniz. Bir ayarın (yazı tipi boyutu veya belirli bir yazı tipi ailesi gibi) raporunuzdaki tüm görseller için uygulanmasını istediğinizde yıldız işaretini ("\*") kullanabilirsiniz.
 
 > [!NOTE]
 > Yalnızca değiştirmek istediğiniz biçimlendirme öğelerini belirtmeniz yeterlidir. JSON dosyasında belirtilmeyen biçimlendirme öğeleri için varsayılan değerler ve ayarlar geçerli olur.
