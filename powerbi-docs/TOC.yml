@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Power BI Desktop'ta CSV dosyalarına bağlanma
           href: desktop-connect-csv.md
-        - name: Power BI Desktop’ta Adobe Analytics’e bağlanma (Önizleme)
-          href: desktop-connect-csv.md
+        - name: Power BI Desktop'ta Adobe Analytics'e bağlanma
+          href: desktop-connect-adobe-analytics.md
         - name: Power BI Desktop'ta bir Impala veritabanına bağlanma
           href: desktop-connect-impala.md
         - name: Power BI Desktop'ta bir OData akışına bağlanma
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: İçerikleri uygulamanızla tümleştirme (veriler uygulamaya aittir)
           href: developer/embed-sample-for-customers.md
+        - name: Bağımsız Bulut müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Özel düzenleri uygulamaya ekleme
           href: developer/embedded-custom-layout.md
         - name: Azure Active Directory kiracısı oluşturma
