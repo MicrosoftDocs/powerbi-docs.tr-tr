@@ -1,27 +1,27 @@
 ---
-title: "Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları"
-description: "Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir."
+title: Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
+description: Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 03/21/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -34,6 +34,7 @@ Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporları
 > 
 
 ## <a name="list-of-supported-data-sources"></a>Desteklenen veri kaynaklarının listesi
+
 Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile çalışıyor olabilir.
 
 | **Veri kaynağı** | **Önbelleğe veri alma** | **Zamanlanmış yenileme** | **Canlı/DirectQuery** |
@@ -48,7 +49,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | Amazon Redshift |Evet |Hayır |Hayır |
 | Azure Blob Depolama Alanı |Evet |Evet |Hayır |
 | Azure Data Lake Store |Evet |Hayır |Hayır |
-| Azure HDInsight (HDFS) |Evet |Evet |Hayır |
+| Azure HDInsight (HDFS) |Evet |Hayır |Hayır |
 | Azure HDInsight (Spark) |Evet |Evet |Hayır |
 | Azure Tablo Depolama |Evet |Evet |Hayır |
 | Dynamics 365 (çevrimiçi) |Evet |Hayır |Hayır |
@@ -119,6 +120,100 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 > Kerberos'un ortamınızda uygun şekilde yapılandırıldığı varsayıldığında, veri kaynağında yapılandırılmış satır düzeyi güvenlik, belirli DirectQuery (SQL Server, Azure SQL Veritabanı, Oracle ve Teradata) bağlantıları ve canlı bağlantılar için çalışacaktır.
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>Model yenileme için desteklenen kimlik doğrulama yöntemleri listesi
+
+Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilemeyi desteklemez. Excel veya Access veritabanları gibi bazı veri kaynakları, verilere bağlanmak için Dosya veya Web gibi ayrı bir adımdan yararlanır.
+
+| **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** |
+| --- | --- | --- | --- | --- |
+| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |
+| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |
+| Web |Evet |Hayır |Evet |Evet |
+| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |
+| Active Directory |Hayır |Hayır |Evet |Evet |
+| Amazon Redshift |Hayır |Hayır |Hayır |Hayır |
+| Azure Blob Depolama Alanı |Evet |Evet |Hayır |Hayır |
+| Azure Data Lake Store |Hayır |Hayır |Hayır |Hayır |
+| Azure HDInsight (HDFS) |Hayır |Hayır |Hayır |Hayır |
+| Azure HDInsight (Spark) |Evet |Evet |Hayır |Hayır |
+| Azure Tablo Depolama |Hayır |Evet |Hayır |Hayır |
+| Dynamics 365 (çevrimiçi) |Hayır |Hayır |Hayır |Hayır |
+| Facebook |Hayır |Hayır |Hayır |Hayır |
+| Klasör |Hayır |Hayır |Hayır |Evet |
+| Google Analytics |Hayır |Hayır |Hayır |Hayır |
+| Hadoop Dosyası (HDFS) |Hayır |Hayır |Hayır |Hayır |
+| IBM DB2 Veritabanı |Hayır |Hayır |Evet |Evet |
+| Impala |Hayır |Hayır |Hayır |Hayır |
+| Microsoft Exchange |Hayır |Hayır |Hayır |Hayır |
+| Microsoft Exchange Online |Hayır |Hayır |Hayır |Hayır |
+| MySQL Veritabanı |Hayır |Hayır |Evet |Evet |
+| OData Akışı |Evet |Evet |Evet |Evet |
+| ODBC |Evet |Hayır |Evet |Evet |
+| OLE DB |Evet |Hayır |Evet |Evet |
+| Oracle Database |Hayır |Hayır |Evet |Evet |
+| PostgreSQL Veritabanı |Hayır |Hayır |Evet |Hayır |
+| Power BI hizmeti |Hayır |Hayır |Hayır |Hayır |
+| R Betiği |Hayır |Hayır |Hayır |Hayır |
+| Salesforce Nesneleri |Hayır |Hayır |Hayır |Hayır |
+| Salesforce Raporları |Hayır |Hayır |Hayır |Hayır |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |
+| SharePoint Klasörü (şirket içi) |Evet |Hayır |Hayır |Evet |
+| SharePoint Listesi (şirket içi) |Evet |Hayır |Hayır |Evet |
+| SharePoint Online Listesi |Hayır |Hayır |Hayır |Hayır |
+| Snowflake |Hayır |Hayır |Hayır |Hayır |
+| Sybase Veritabanı |Hayır |Hayır |Evet |Evet |
+| Teradata Veritabanı |Hayır |Hayır |Evet |Evet |
+| appFigures (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Azure Analysis Services veritabanı (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Azure Cosmos DB (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Azure HDInsight Spark (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Common Data Service (Beta) |Hayır |Hayır |Hayır |Hayır |
+| comScore Digital Analytix (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Customer Insights için Dynamics 365 (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Dynamics 365 for Financials (Beta) |Hayır |Hayır |Hayır |Hayır |
+| GitHub (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Google BigQuery (Beta) |Hayır |Hayır |Hayır |Hayır |
+| IBM Informix veritabanı (Beta) |Hayır |Hayır |Hayır |Hayır |
+| IBM Netezza (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Kusto (Beta) |Hayır |Hayır |Hayır |Hayır |
+| MailChimp (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Microsoft Azure Tüketim Öngörüleri (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Mixpanel (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Planview Enterprise (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Projectplace (Beta) |Hayır |Hayır |Hayır |Hayır |
+| QuickBooks Online (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Smartsheet |Hayır |Hayır |Hayır |Hayır |
+| Spark (Beta) |Hayır |Hayır |Hayır |Hayır |
+| SparkPost (Beta) |Hayır |Hayır |Hayır |Hayır |
+| SQL Sentry (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Stripe (Beta) |Hayır |Hayır |Hayır |Hayır |
+| SweetIQ (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Troux (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Twilio (Beta) |Hayır |Hayır |Hayır |Hayır |
+| tyGraph (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Vertica (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Visual Studio Team Services (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Webtrends (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Zendesk (Beta) |Hayır |Hayır |Hayır |Hayır |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery için desteklenen kimlik doğrulama yöntemleri listesi
+
+Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery’yi desteklemez.
+
+| **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** | **Tümleşik Windows Kimlik Doğrulaması** |
+| --- | --- | --- | --- | --- | --- |
+| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
+| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |Evet |
+| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
+| Oracle Database |Hayır |Hayır |Evet |Evet |Evet |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Evet |
+| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Hayır |
+| Teradata Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Veri kaynağınızı seçildiğine göre, artık bu veri kaynağındaki verileri kullanarak [rapor oluşturabilirsiniz](quickstart-create-powerbi-report.md).

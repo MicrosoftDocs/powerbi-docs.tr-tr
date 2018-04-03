@@ -1,15 +1,15 @@
 ---
-title: "Power BI'da DirectQuery tarafından desteklenen veri kaynakları"
-description: "Hangi veri kaynaklarında DirectQuery'nin kullanabildiğini gösteren listeyi edinin."
+title: Power BI'da DirectQuery tarafından desteklenen veri kaynakları
+description: Hangi veri kaynaklarında DirectQuery'nin kullanabildiğini gösteren listeyi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 **Power BI Desktop** ve **Power BI hizmeti**, bağlanıp verilere erişebileceğiniz pek çok veri kaynağına sahiptir. Bu makalede hangi Power BI kaynaklarının **DirectQuery** olarak bilinen bağlantı yöntemini desteklediği açıklanmaktadır. DirectQuery hakkında daha fazla bilgi için [**Power BI'da DirectQuery**](desktop-directquery-about.md) başlıklı makaleye bakın.
@@ -48,7 +48,7 @@ Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 
 Adının yanında **(Beta)** veya **(Önizleme)** bulunan veri kaynakları, değişikliğe tabidir ve üretim ortamında kullanımları desteklenmez. Ayrıca bunlar, **Power BI hizmetinde** yayımlanan raporlarda da desteklenmeyebilir. Bu, yayımlanmış bir raporu açma veya veri kümesini araştırma işlemlerinin hatayla sonuçlanabileceği anlamına gelir.
 
-**(Beta)** ile **(Önizleme)** veri kaynakları arasındaki tek fark, **(Önizleme)** kaynaklarının yalnızca Önizleme özelliği olarak etkinleştirildikten sonra kullanılabilmesidir. Bir **(Önizleme)** veri bağlayıcısını etkinleştirmek için **Power BI Desktop**'ta **Dosya > Seçenekler ve Ayarlar** seçeneğine gidin ve ardından **Ayarlar > Seçenekler > Önizleme özellikleri** seçeneğini belirleyin.
+**(Beta)** ile **(Önizleme)** veri kaynakları arasındaki tek fark, **(Önizleme)** kaynaklarının yalnızca Önizleme özelliği olarak etkinleştirildikten sonra kullanılabilmesidir. Bir **(Önizleme)** veri bağlayıcısını etkinleştirmek için **Power BI Desktop**'ta **Dosya > Seçenekler ve Ayarlar > Seçenekler** adımlarını izleyin ve ardından **Önizleme özellikleri** seçeneğini belirleyin.
 
 ## <a name="on-premises-gateway-requirements"></a>Şirket içi ağ geçidi gereksinimleri
 Aşağıdaki tabloda, **Power BI hizmetinde** bir rapor yayımladıktan sonra, belirtilen veri kaynağına bağlanmak için bir **şirket içi veri ağ geçidi** gerekip gerekmediği açıklanmaktadır.

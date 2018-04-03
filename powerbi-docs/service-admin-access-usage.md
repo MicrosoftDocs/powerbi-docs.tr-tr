@@ -1,15 +1,15 @@
 ---
-title: "Oturum açmış Power BI kullanıcılarını bulma"
-description: "Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz."
+title: Oturum açmış Power BI kullanıcılarını bulma
+description: Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 7730f7b407eee9c474d04d64cd5748b33b9181ff
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78deaa2e98060e86756876e3d736fe973a5f5905
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
@@ -52,7 +52,7 @@ Oturum açma etkinliğini görüntülemek için Azure AD portalını kullanabili
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Uygulamayı **Microsoft Power BI** veya **Power BI Gateway** olarak filtreleyin ve **Uygula**'yı seçin.
    
-    **Microsoft Power BI**, hizmetle ilgili oturum açma etkinliğini gösterirken **Power BI Gateway** şirket içi ağ geçidiyle ilgili oturum açma etkinliğini gösterir.
+    **Microsoft Power BI**, hizmetle ilgili oturum açma etkinliğini gösterirken **Power BI Gateway** ise şirket içi ağ geçidiyle ilgili oturum açma etkinliğini gösterir.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

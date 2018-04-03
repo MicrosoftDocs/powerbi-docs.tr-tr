@@ -1,28 +1,28 @@
 ---
-title: "DirectQuery ile Azure SQL Veri Ambarı"
-description: "DirectQuery ile Azure SQL Veri Ambarı"
+title: DirectQuery ile Azure SQL Veri Ambarı
+description: DirectQuery ile Azure SQL Veri Ambarı
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6d7cb2161702b844866af66896dbadb35ad801ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 DirectQuery ile Azure SQL Veri Ambarı, Azure SQL Veri Ambarı'ndaki hazır verilerinizi ve ölçümlerinizi temel alan dinamik raporlar oluşturmanızı sağlar. DirectQuery ile, siz verileri keşfederken sorgular Azure SQL Veri Ambarı'nıza gerçek zamanlı olarak geri gönderilir. Bu özellik SQL Veri Ambarı'nın ölçeğiyle birleştirildiğinde kullanıcıların terabaytlarca veriden birkaç dakika içinde dinamik rapor oluşturmasını sağlar. Ayrıca, **Power BI'da aç** düğmesi sayesinde kullanıcılar el ile bilgi girmek zorunda kalmadan Power BI'ı doğrudan SQL Veri Ambarı hizmetlerine bağlayabilir.
@@ -84,9 +84,13 @@ Tam sunucu adınız ve veritabanınızın adı Azure Preview Portal'da bulunabil
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
+> [!NOTE]
+> Power BI kiracınız Azure SQL Veri Ambarı ile aynı bölgedeyse çıkış ücreti uygulanmaz. [Bu yönergeleri](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located) kullanarak Power BI kiracınızın bulunduğu yeri belirleyebilirsiniz.
+>
+
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)  
 [Power BI için veri alma](service-get-data.md)  
 [Azure SQL Veri Ambarı](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

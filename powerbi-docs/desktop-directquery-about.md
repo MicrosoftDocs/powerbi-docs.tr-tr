@@ -1,15 +1,15 @@
 ---
 title: Power BI'da DirectQuery kullanma
-description: "Power BI'da DirectQuery kullanmayı anlama"
+description: Power BI'da DirectQuery kullanmayı anlama
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** seçeneğini kullanarak, verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede, aşağıdaki konu başlıkları da dahil olmak üzere **DirectQuery** ve özellikleri anlatılmaktadır:
@@ -100,11 +100,11 @@ Aşağıdaki tabloda, verilerin özgün kaynakta bırakılmasının yararlı kab
 
 | Sınırlama | Açıklama |
 | --- | --- |
-| Verilerin sıklıkla değişmesi ve neredeyse "gerçek zamanlı" raporlamanın gerekli olması |İçeri aktarılan verilere sahip modeller en fazla saatte bir kez yenilenebilir. Bu nedenle, veriler sürekli değişiyorsa ve raporlarda son verilerin gösterilmesi gerekiyorsa zamanlanmış yenileme ile İçeri Aktarma seçeneğinin kullanılması bu ihtiyaçları karşılamayabilir. Power BI'a doğrudan veri akışı yapılabileceğini de unutmayın. Ancak, bu durum için desteklenen veri hacimlerine yönelik sınırlamalar mevcuttur. <br/> <br/> Bunun aksine, DirectQuery kullanıldığında bir raporun veya panonun açılmasının ya da yenilenmesinin ardından her zaman kaynaktaki en son veriler gösterilir. Buna ek olarak, pano kutucukları daha sık şekilde (her 15 dakikada bir) güncelleştirilebilir. |
+| Verilerin sıklıkla değişmesi ve neredeyse "gerçek zamanlı" raporlamanın gerekli olması |İçeri aktarılan verilere sahip modeller en fazla saatte bir kez yenilenebilir. Bu nedenle, veriler sürekli değişiyorsa ve raporlarda son verilerin gösterilmesi gerekiyorsa zamanlanmış yenileme ile İçeri Aktarma seçeneğinin kullanılması bu ihtiyaçları karşılamayabilir. Power BI'a doğrudan veri akışı yapılabileceğini de unutmayın. Ancak bu durum için desteklenen veri hacimlerine yönelik sınırlamalar mevcuttur. <br/> <br/> Bunun aksine, DirectQuery kullanıldığında bir raporun veya panonun açılmasının ya da yenilenmesinin ardından her zaman kaynaktaki en son veriler gösterilir. Buna ek olarak, pano kutucukları daha sık şekilde (her 15 dakikada bir) güncelleştirilebilir. |
 | Verilerin çok büyük olması |Veriler çok büyükse tümünün içeri aktarılması uygun olmaz. Bunun aksine, sorgulama işlemi yerinde gerçekleştiğinden DirectQuery için büyük bir veri aktarımı gerekmez. <br/> <br/> Ancak, büyük veriler, temel alınan kaynakta sorgulama performansının çok yavaş olacağı anlamına da gelebilir. (Bu makaledeki *DirectQuery kullanmanın etkileri* bölümünde bu konuya değinilmiştir.) Ayrıca, verilerin tüm ayrıntılarıyla içeri aktarılması her zaman gerekli değildir. Bunun yerine, veriler içeri aktarma sırasında önceden toplanabilir. (**Sorgu Düzenleyicisi** tam olarak bunun yapılmasını kolaylaştırır.) Uç durumlar söz konusu olduğunda, her bir görsel için tam olarak gerekli olan toplama verileri içeri aktarılabilir. Bu nedenle, büyük veriler için en kolay yaklaşım DirectQuery olsa da, temel alınan kaynağın çok yavaş olduğu durumlarda toplama verilerinin içeri aktarılmasının bir çözüm sunabileceğini göz önünde bulundurun. |
 | Temel alınan kaynakta güvenlik kurallarının tanımlanmış olması |Veriler içeri aktarıldığında, Power BI geçerli kullanıcı kimlik bilgilerini (Power BI Desktop'tan) veya zamanlanmış yenileme yapılandırmasında tanımlanan kimlik bilgilerini (Power BI hizmetinden) kullanarak veri kaynağına bağlanır. Bu nedenle, böyle bir rapor yayımlanırken ve paylaşılırken raporun yalnızca söz konusu verileri görme izni olan kullanıcılarla paylaşıldığına veya veri kümesinin parçası olarak Satır Düzeyi Güvenlik tanımlandığına dikkat edilmesi gerekir. <br/> <br/> DirectQuery her zaman, temel alınan kaynağı sorguladığından bunun yapılması ideal olarak temel alınan kaynaktaki güvenliğin uygulanmasını sağlar. Ancak, Power BI temel alınan kaynağa her zaman İçeri Aktarma için kullanılan kimlik bilgileriyle bağlanır. <br/> <br/> Bu nedenle Power BI, rapor kullanıcısının kimliğinin temel alınan kaynaktan geçmesine izin verene kadar DirectQuery, veri kaynağı güvenliği açısından hiçbir avantaj sunmaz. |
 | Veri hakimiyeti kısıtlamalarının geçerli olması |Bazı kuruluşların veri hakimiyeti ilkeleri bulunur, böylece veriler kuruluş dışına çıkamaz. İçeri aktarma tabanlı bir çözüm sorunlara neden olabilir. Bunun aksine, DirectQuery ile bu veriler temel alınan kaynakta kalır. <br/> <br/> Ancak, DirectQuery ile dahi görsel düzeydeki bazı veri önbelleklerinin Power BI hizmetinde tutulduğu (zamanlanmış kutucuk yenilemesi nedeniyle) unutulmamalıdır. |
-| Temel alınan veri kaynağının, ölçüler içeren bir OLAP kaynağı olması |Temel alınan veri kaynağı *ölçüler* (SAP HANA veya SAP Business Warehouse gibi) içeriyorsa verilerin içeri aktarılması başka sorunlara neden olur. İçeri aktarılan verilerin, sorgu ile tanımlandığı üzere belirli bir toplama düzeyinde olduğu anlamına gelir. Örneğin, Class, Year ve City verilerine göre TotalSales ölçüsü. Ardından, daha yüksek düzeyde bir toplama işlemine ihtiyaç duyan verileri (Year verilerine göre TotalSales gibi) gerektiren bir görsel oluşturulursa toplam değer yeniden hesaplanır. Bu durum eklenebilir ölçüler için (Toplam, Minimum gibi) sorun oluşturmazken, eklenebilir olmayan ölçüler için (Ortalama, Ayrı Say gibi) soruna yol açar. <br/> <br/> Doğru toplama verilerinin (belirli bir görsel için gerektiği şekilde) doğrudan kaynaktan alınmasının kolaylaştırılması amacıyla, sorguların DirectQuery'de olduğu gibi görsel başına gönderilmesi gerekir. <br/> <br/> SAP Business Warehouse (BW) bağlantısında, DirectQuery'nin seçilmesi ölçülerin bu şekilde işlenmesini sağlar. SAP BW desteği [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md) makalesinde ayrıntılı olarak ele alınmaktadır. <br/> <br/> Ancak, şu anda SAP HANA üzerinden DirectQuery, ilişkisel kaynakla aynı şekilde işler ve bu nedenle içeri aktarma deneyimindekine benzer bir davranış sunar. Buna [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md) makalesinde ayrıntılı olarak değinilmiştir. |
+| Temel alınan veri kaynağının, ölçüler içeren bir OLAP kaynağı olması |Temel alınan veri kaynağı *ölçüler* (SAP HANA veya SAP Business Warehouse gibi) içeriyorsa verilerin içeri aktarılması başka sorunlara neden olur. İçeri aktarılan verilerin, sorgu ile tanımlandığı üzere belirli bir toplama düzeyinde olduğu anlamına gelir. Örneğin, Class, Year ve City verilerine göre TotalSales ölçüsü. Ardından, daha yüksek düzeyde bir toplama işlemine ihtiyaç duyan verileri (Year verilerine göre TotalSales gibi) gerektiren bir görsel oluşturulursa toplam değer yeniden hesaplanır. Bu durum toplanabilen ölçüler için (Toplam, Minimum gibi) sorun oluşturmazken, toplanamayan ölçüler için (Ortalama, Ayrı Say gibi) soruna yol açar. <br/> <br/> Doğru toplama verilerinin (belirli bir görsel için gerektiği şekilde) doğrudan kaynaktan alınmasının kolaylaştırılması amacıyla, sorguların DirectQuery'de olduğu gibi görsel başına gönderilmesi gerekir. <br/> <br/> SAP Business Warehouse (BW) bağlantısında, DirectQuery'nin seçilmesi ölçülerin bu şekilde işlenmesini sağlar. SAP BW desteği [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md) makalesinde ayrıntılı olarak ele alınmaktadır. <br/> <br/> Ancak, şu anda SAP HANA üzerinden DirectQuery, ilişkisel kaynakla aynı şekilde işler ve bu nedenle içeri aktarma deneyimindekine benzer bir davranış sunar. Buna [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md) makalesinde ayrıntılı olarak değinilmiştir. |
 
 Özetlemek gerekirse, Power BI'daki mevcut özellikleri göz önünde bulundurulduğunda DirectQuery, aşağıdaki senaryolarda avantaj sunmaktadır:
 
@@ -129,9 +129,9 @@ Verileri içeri aktarırken, kurumsal bir SQL Server veritabanındaki bazı veri
 ### <a name="limited-data-transformations"></a>Veri dönüştürme işlemine yönelik sınırlamalar
 Benzer şekilde, **Sorgu Düzenleyicisi**'nde uygulanabilecek veri dönüştürme işlemlerine yönelik sınırlamalar mevcuttur. Veriler içeri aktarıldığında, görsel oluşturmada kullanılmadan önce söz konusu verilerin temizlenmesi ve yeniden şekillendirilmesi için bir dizi kapsamlı dönüştürme işlemi (JSON belgelerini ayrıştırma veya bir sütundan satır hizalamalı bir forma veri özetleme gibi) kolayca uygulanabilir. Bu dönüştürme işlemleri için DirectQuery'de daha fazla sınırlama mevcuttur. İlk olarak, SAP Business Warehouse gibi bir OLAP kaynağına bağlanılırken hiçbir dönüştürme tanımlanamaz ve dış "modelin" tamamı kaynaktan alınır. SQL Server gibi ilişkisel kaynaklarda her sorgu için bir dizi dönüştürme tanımlanabilir, ancak bu dönüştürme işlemleri performans nedeniyle sınırlıdır. Bu tür dönüştürme işlemlerinin veriler yenilendikçe değil, temel alınan kaynağa her sorgu gönderildiğinde uygulanması gerekir. Böylece bu işlem, tek bir yerel sorguya makul şekilde çevrilebilen dönüştürmelerle sınırlıdır. Fazla karmaşık bir dönüştürme kullanmanız durumunda, dönüştürmenin silinmesini veya modelin İçeri Aktarma moduna geçirilmesini belirten bir hata iletisi alırsınız.
 
-Ayrıca, **Veri Al** iletişim kutusundan veya **Sorgu Düzenleyicisi**'nden elde edilen sorgu, görsel için gereken verileri almak üzere oluşturulan ve gönderilen sorgulardaki bir alt seçimde kullanılır. Bu nedenle, Sorgu Düzenleyicisi'nde tanımlanan sorgu, bu bağlamda geçerli olmalıdır. Bu durum tam olarak, Ortak Tablo İfadeleri kullanılarak bir sorgu oluşturulamadığı ve Saklı Yordamların çağrılmadığı anlamına gelir.
+Ayrıca, **Veri Al** iletişim kutusundan veya **Sorgu Düzenleyicisi**'nden elde edilen sorgu, görsel için gereken verileri almak üzere oluşturulan ve gönderilen sorgulardaki bir alt seçimde kullanılır. Bu nedenle, Sorgu Düzenleyicisi'nde tanımlanan sorgu, bu bağlamda geçerli olmalıdır. Bu durum tam olarak, Ortak Tablo İfadeleri kullanılarak veya Saklı Yordamları çağıran bir sorgu oluşturulamadığı anlamına gelir.
 
-### <a name="modelling-limitations"></a>Modelleme sınırlamaları
+### <a name="modeling-limitations"></a>Modelleme sınırlamaları
 Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken verilerin iyileştirilmesi ve zenginleştirilmesi anlamına gelir. Örnekler arasında şunlar yer almaktadır:
 
 * Tablolar arasında ilişki tanımlama
@@ -143,10 +143,10 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
 
 **DirectQuery** kullanılırken bu model zenginleştirmelerinin birçoğu yapılabilir ve daha sonraki kullanımların iyileştirilmesi için ham veriler de zenginleştirilebilir. Ancak, DirectQuery ile bazı modelleme özellikleri kullanılamaz veya sınırlıdır. Sınırlamalar, genellikle performans sorunlarından kaçınmak için uygulanır. Tüm DirectQuery kaynaklarında yaygın olarak görülen sınırlamalar aşağıdaki madde işaretli listede belirtilmiştir. Bu makalenin sonlarında yer alan *Veri kaynağına özgü ayrıntılar* bölümünde açıklandığı üzere, farklı kaynaklar için ek sınırlamalar söz konusu olabilir.
 
-* **Yerleşik tarih hiyerarşisinin olmaması:** Veriler içeri aktarılırken, tüm tarih/tarih saat sütunlarında varsayılan olarak yerleşik bir tarih hiyerarşisi de bulunur. Örneğin, OrderDate sütununu içeren satış siparişleri tablosunu içeri aktarıyorsanız bir görselde OrderDate kullanılırken, kullanılacak uygun düzeyi (Year, Month, Day) seçebilirsiniz. DirectQuery modunda bu yerleşik tarih hiyerarşisi kullanılamaz. Ancak, temel alınan kaynakta Date tablosu bulunuyorsa (birçok veri ambarında yaygın olarak bulunur) DAX Akıllı Zaman Gösterimi işlevlerinin normal şekilde kullanılabileceğini unutmayın.
+* **Yerleşik tarih hiyerarşisi yoktur:** Veriler içeri aktarılırken, tüm tarih/tarih saat sütunlarında varsayılan olarak yerleşik bir tarih hiyerarşisi de bulunur. Örneğin, OrderDate sütununu içeren satış siparişleri tablosunu içeri aktarıyorsanız bir görselde OrderDate kullanılırken, kullanılacak uygun düzeyi (Year, Month, Day) seçebilirsiniz. DirectQuery modunda bu yerleşik tarih hiyerarşisi kullanılamaz. Ancak, temel alınan kaynakta Date tablosu bulunuyorsa (birçok veri ambarında yaygın olarak bulunur) DAX Akıllı Zaman Gösterimi işlevlerinin normal şekilde kullanılabileceğini unutmayın.
 * **Hesaplanmış sütunlara yönelik sınırlamalar:** Hesaplanmış sütunlar satır içi işlemlerle sınırlıdır; herhangi bir toplama işlevi kullanılmadan yalnızca aynı tablonun diğer sütunlarındaki değerlerine başvurabilir. Buna ek olarak, izin verilen DAX skaler işlevleri (LEFT () gibi), temel alınan kaynağa kolayca gönderilebilecek olanlarla sınırlıdır. Bu nedenle, kaynağın tam olarak hangi özelliklere sahip olduğuna göre değişiklik gösterir. Hesaplanmış bir sütun için DAX yazılırken, desteklenmeyen işlevler otomatik tamamlamada listelenmez ve kullanılırsa hataya neden olur.
 * **Üst-alt DAX işlevlerinin desteklenmemesi:** DirectQuery modelinde, genellikle Üst-Alt yapıları (hesaplar grafiği ve çalışan hiyerarşileri gibi) işleyen DAX PATH() işlev ailesini kullanmak mümkün değildir.
-* **Ölçüler için sınırlamalar (varsayılan):** Ölçülerde kullanılabilecek DAX işlevleri ve ifadeleri varsayılan olarak sınırlıdır. Burada da, listelenen işlevler otomatik tamamlamada sınırlanır ve geçersiz bir işlev veya ifade kullanılırsa hata oluşur. Bunun nedeni ölçülerin varsayılan olarak, kendi başlarına herhangi bir performans sorunu oluşturması olası olmayan basit ölçülerle sınırlı olmasını sağlamaktır. İleri düzey kullanıcılar **Dosya > Seçenekler**, **Ayarlar > Seçenekler > DirectQuery** ve ardından *DirectQuery modunda kısıtlanmamış ölçümlere izin verin*'i seçerek bu sınırlamayı atlamayı tercih edebilir. Bu seçenek belirlendiğinde, bir ölçü için geçerli olan tüm DAX ifadeleri kullanılabilir. Ancak, kullanıcılar, içeri aktarıldığında iyi performans gösteren bazı ifadelerin, DirectQuery modunda arka uç kaynağa çok yavaş sorgu gönderilmesine neden olabileceğini göz önünde bulundurmalıdır.
+* **Ölçüler için sınırlamalar (varsayılan):** Ölçülerde kullanılabilecek DAX işlevleri ve ifadeleri varsayılan olarak sınırlıdır. Burada da, listelenen işlevler otomatik tamamlamada sınırlanır ve geçersiz bir işlev veya ifade kullanılırsa hata oluşur. Bunun nedeni ölçülerin varsayılan olarak, kendi başlarına herhangi bir performans sorunu oluşturması olası olmayan basit ölçülerle sınırlı olmasını sağlamaktır. İleri düzey kullanıcılar **Dosya > Seçenekler ve ayarlar > Seçenekler** adımlarını izleyip **DirectQuery**’yi ve ardından *DirectQuery modunda kısıtlanmamış ölçümlere izin ver*'i seçerek bu sınırlamayı atlamayı tercih edebilir. Bu seçenek belirlendiğinde, bir ölçü için geçerli olan tüm DAX ifadeleri kullanılabilir. Ancak, kullanıcılar, içeri aktarıldığında iyi performans gösteren bazı ifadelerin, DirectQuery modunda arka uç kaynağa çok yavaş sorgu gönderilmesine neden olabileceğini göz önünde bulundurmalıdır.
   
   * Örneğin, varsayılan olarak:
     
@@ -274,7 +274,7 @@ DirectQuery bağlantısı kullanarak bir rapor oluştururken aşağıdaki yöner
 
    ![](media/desktop-directquery-about/directquery-about_03b.png)
 
-    **Sorgu azaltma** seçeneğindeki kutu seçimlerinin belirlenmesi, raporunuzun tamamında çapraz vurgulamayı devre dışı bırakmanıza olanak tanır. Ayrıca, dilimleyiciler ve/veya filtre seçimleri için bir *Uygula* düğmesinin görünmesini sağlayabilir ve bunu kullanarak herhangi birini uygulamaksızın birçok dilimleyici ve filtre seçimi yapabilirsiniz. Bu sayede, dilimleyicideki **Uygula** düğmesi seçilene kadar hiçbir sorgu gönderilmez. Daha sonra seçimleriniz kullanılarak veriler filtrelenir.
+    **Sorgu azaltma** seçeneğindeki kutu seçimlerinin belirlenmesi, raporunuzun tamamında çapraz vurgulamayı devre dışı bırakmanıza olanak tanır. Ayrıca, dilimleyiciler ve/veya filtre seçimleri için bir *Uygula* düğmesinin görünmesini sağlayabilir ve bunu kullanarak herhangi birini uygulamaksızın birçok dilimleyici ve filtre seçimi yapabilirsiniz. Bu sayede, dilimleyicideki **Uygula** düğmesi seçilene kadar hiçbir sorgu gönderilmez. Daha sonra seçimleriniz kullanılarak veriler filtrelenebilir.
 
     Bu seçenekler hem siz **Power BI Desktop**’ta raporunuzla etkileşim kurarken hem de kullanıcılar **Power BI hizmetinde** raporu kullanırken raporunuzda geçerli olur.
 
@@ -342,7 +342,7 @@ Bu klasöre kolayca ulaşmak için: **Power BI Desktop**'ta **Dosya > Seçenekle
 
 Bu klasörün üst klasörüne gidildiğinde *AnalysisServicesWorkspaces* klasörünü içeren klasör görüntülenir. Bu klasör, açık olan her bir **Power BI Desktop** örneği için bir çalışma alanı alt klasörü içerir. Bu alt klasörler, *AnalysisServicesWorkspace2058279583* örneğinde olduğu gibi bir tamsayı sonekiyle adlandırılır.
 
-Bu klasörün içinde, geçerli Power BI oturumuna ilişkin FlightRecorderCurrent.trc izleme dosyasını içeren *\Data* alt klasörü bulunur. İlişkili Power BI Desktop oturumu sona erdiğinde ilgili çalışma alanı klasörü silinir.
+Bu klasörün içinde, geçerli Power BI oturumuna ilişkin FlightRecorderCurrent.trc izleme dosyasını içeren *\\Data* alt klasörü bulunur. İlişkili Power BI Desktop oturumu sona erdiğinde ilgili çalışma alanı klasörü silinir.
 
 İzleme dosyaları, **SQL Server Management Studio** ile birlikte ücretsiz indirilebilen **SQL Server Profiler** aracı kullanılarak okunabilir. [Bu sayfadan](https://msdn.microsoft.com/library/mt238290.aspx) edinebilirsiniz.
 

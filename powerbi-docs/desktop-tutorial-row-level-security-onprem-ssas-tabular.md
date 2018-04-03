@@ -1,15 +1,15 @@
 ---
 title: "Eğitim: Power BI'da Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik"
-description: "Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik"
+description: 'Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.
@@ -38,31 +38,31 @@ Bu eğitimde aşağıdaki adımlar ayrıntılı bir şekilde anlatılarak Analys
 * Raporu temel alan yeni bir pano oluşturma ve son olarak,
 * Panoyu iş arkadaşlarınızla paylaşma
 
-Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **AdventureworksDW2012** veritabanını **[buradan](http://msftdbprodsamples.codeplex.com/releases/view/55330)** indirebilirsiniz.
+Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **AdventureworksDW2012** veritabanını **[depodan](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** indirebilirsiniz.
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>1. Görev: Kullanıcı güvenliği tablosunu oluşturma ve veri ilişkisini tanımlama
-**SQL Server Analysis Services (SSAS) tablolu** modeliyle satır düzeyi dinamik güvenliğin nasıl tanımlanacağını anlatan birçok makale mevcuttur. [Bu örnekte bu makaleyi takip ediyor olacağız.](https://msdn.microsoft.com/library/hh479759.aspx) Aşağıdaki adımlar bu eğitimin ilk görevini tamamlamanızı sağlayacak.
+**SQL Server Analysis Services (SSAS) tablolu** modeliyle satır düzeyi dinamik güvenliğin nasıl tanımlanacağını anlatan birçok makale mevcuttur. Bizim örneğimiz için [Satır Filtrelerini Kullanarak Dinamik Güvenlik Uygulama](https://msdn.microsoft.com/library/hh479759.aspx) makalesini izleyin. Aşağıdaki adımlar bu eğitimin ilk görevini tamamlamanızı sağlar:
 
 1. Bu örnekte **AdventureworksDW2012** ilişkisel veritabanını kullanıyoruz. Bu veritabanında aşağıdaki görüntüde gösterilen şekilde **DimUserSecurity** tablosunu oluşturun. Bu örnekte tabloyu oluşturmak için SQL Server Management Studio (SSMS) uygulamasını kullanıyoruz.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. Tabloyu oluşturup kaydettikten sonra aşağıdaki görüntüde gösterildiği gibi **DimUserSecurity** tablosunun **SalesTerritoryID** sütunu ile **DimSalesTerritory** tablosunun **SalesTerritoryKey** sütunu arasında bir ilişki oluşturmamız gerekiyor. Bu işlemi **SSMS** tarafında **DimUserSecurity** tablosuna sağ tıklayıp **Düzenle**'yi seçerek gerçekleştirebiliriz.
+2. Tabloyu oluşturup kaydettikten sonra aşağıdaki görüntüde gösterildiği gibi **DimUserSecurity** tablosunun **SalesTerritoryID** sütunu ile **DimSalesTerritory** tablosunun **SalesTerritoryKey** sütunu arasında bir ilişki oluşturmamız gerekiyor. Bu işlemi **SSMS** tarafında **DimUserSecurity** tablosuna sağ tıklayıp **Tasarım**'ı seçerek gerçekleştirebiliriz. Ardından menüden **Tablo Tasarımcısı -> İlişkiler...** seçeneğini belirleyin.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. Tabloyu kaydettikten sonra **DimUserSecurity** tablosuna sağ tıklayıp **Edit top 200 rows** (İlk 200 satırı düzenle) seçeneğini belirleyerek tabloya kullanıcı bilgisi içeren birkaç satır daha ekleyin. Bu kullanıcıları ekledikten sonra **DimUserSecurity** tablosunun satırları aşağıdaki görüntüde olduğu gibi görünecektir:
+3. Tabloyu kaydettikten sonra **DimUserSecurity** tablosuna sağ tıklayıp **Edit Top 200 Rows** (İlk 200 satırı düzenle) seçeneğini belirleyerek tabloya kullanıcı bilgisi içeren birkaç satır daha ekleyin. Bu kullanıcıları ekledikten sonra **DimUserSecurity** tablosunun satırları aşağıdaki görüntüde olduğu gibi görünecektir:
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    Sonraki görevlerde bu kullanıcılara geri döneceğiz.
 4. Sonraki adımda kullanıcıyla ilişkilendirilmiş bölgelerin ayrıntılarının yer aldığı **DimSalesTerritory** tablosunda bir *iç birleşim* gerçekleştireceğiz. Aşağıdaki kod *iç birleşim* işlemini gerçekleştirir ve *iç birleşim* başarılı olduğunda tablo altındaki resimde olduğu gibi gösterilir.
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Yukarıdaki görüntüde kullanıcılar ve sorumlu oldukları satış bölgeleri gibi bilgilerin gösterildiğine dikkat edin. Bu verilerin görüntülenme nedeni, **2. Adım**'da oluşturduğumuz ilişkidir. Ayrıca **Jon Doe kullanıcısının Avustralya satış bölgesine dahil olduğuna** dikkat edin. John Doe adlı kullanıcıya sonraki adımlarda ve görevlerde geri döneceğiz.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>2. Görev: Olgu ve boyut tablolarıyla tablolu modeli oluşturma
-1. İlişkisel veri ambarınızı oluşturduktan sonra sıra tablolu modelinizi tanımlamaya geldi. Modeli **SQL Server Veri Araçları'nı (SSDT)** kullanarak oluşturabilirsiniz. Tablolu model tanımlama hakkında daha fazla bilgi edinmek için lütfen [bu makaleye bakın](https://msdn.microsoft.com/library/hh231689.aspx).
+1. İlişkisel veri ambarınızı oluşturduktan sonra sıra tablolu modelinizi tanımlamaya geldi. Modeli **SQL Server Veri Araçları'nı (SSDT)** kullanarak oluşturabilirsiniz. Tablolu model tanımlama hakkında daha fazla bilgi edinmek için lütfen [Yeni Tablosal Model Projesi Oluşturma](https://msdn.microsoft.com/library/hh231689.aspx) makalesine başvurun.
 2. Aşağıda gösterilen şekilde gerekli tüm tabloları modele aktarın.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,14 +76,15 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
 6. Bu adımda Windows kullanıcı adının **USERNAME** işlevi tarafından döndürülen kullanıcı adıyla aynı olduğu sütun değerlerini döndürmek için **LOOKUPVALUE** işlevini kullanıyoruz. Sorgular **LOOKUPVALUE** tarafından döndürülen değerlerin aynı veya ilişkili tablodaki değerlerle eşleşeceği şekilde kısıtlanabilir. **DAX Filtresi** sütununa aşağıdaki formülü yazın:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. Bu formülde **LOOKUPVALUE** işlevi **DimUserSecurity[SalesTerritoryID]** sütunu için tüm değerleri döndürür ve burada **DimUserSecurity[UserName]**, oturum açmış olan Windows kullanıcı adıyla, **DimUserSecurity[SalesTerritoryID]** ise **DimSalesTerritory[SalesTerritoryKey]** değeriyle aynıdır.
+    Bu formülde **LOOKUPVALUE** işlevi **DimUserSecurity[SalesTerritoryID]** sütunu için tüm değerleri döndürür ve burada **DimUserSecurity[UserName]**, oturum açmış olan Windows kullanıcı adıyla, **DimUserSecurity[SalesTerritoryID]** ise **DimSalesTerritory[SalesTerritoryKey]** değeriyle aynıdır.
    
    **DimSalesTerritory** içinde gösterilen satırları kısıtlamak için **LOOKUPVALUE** tarafından döndürülen Sales SalesTerritoryKey değerleri kullanılır. Yalnızca satırın **SalesTerritoryKey** değerinin **LOOKUPVALUE** işlevi tarafından döndürülen kümede bulunduğu satırlar görüntülenir.
-8. **DimUserSecurity** tablosu için **DAX Filtresi** sütununa aşağıdaki formülü yazın.
+8. **DimUserSecurity** tablosu için **DAX Filtresi** sütununa aşağıdaki formülü yazın:
    
        =FALSE()
-9. Bu formül tüm sütunların false Boole koşulu verdiğini ve bu nedenle **DimUserSecurity** tablosunun sütunlarının sorgulanamayacağını belirtir.
-10. Şimdi yapmamız gereken modeli işleyip dağıtmak. Modeli dağıtma konusunda yardım almak için [bu makaleye](https://msdn.microsoft.com/library/hh231693.aspx) bakabilirsiniz.
+
+    Bu formül tüm sütunların false Boole koşulu verdiğini ve bu nedenle **DimUserSecurity** tablosunun sütunlarının sorgulanamayacağını belirtir.
+1. Şimdi yapmamız gereken modeli işleyip dağıtmak. Modeli dağıtma konusunda yardım almak için [Dağıtma makalesine](https://msdn.microsoft.com/library/hh231693.aspx) başvurabilirsiniz.
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>3. Görev: Şirket içi veri ağ geçidinizdeki Veri Kaynaklarını ekleme
 1. Tablolu modeliniz dağıtıldıktan ve kullanıma hazır hale geldikten sonra Power BI portalınızdan şirket içi Analysis Services tablolu sunucusuna veri kaynağı bağlantısı kurmanız gerekir.
@@ -98,7 +99,7 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
 2. Veri kaynakları listesinden **SQL Server Analysis Services Veritabanı**'nı ve ardından **Bağlan**'ı seçin.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. **Analysis Services** tablolu örneğinizle ilgili bilgileri girip **Canlı bağlan**'ı seçin. Tamam'ı seçin. **Power BI**'da dinamik güvenlik yalnızca **Canlı bağlantı** ile kullanılabilir.
+3. **Analysis Services** tablolu örneğinizle ilgili bilgileri girip **Canlı bağlan**'ı seçin. **Tamam**'ı seçin. **Power BI**'da dinamik güvenlik yalnızca **Canlı bağlantı** ile kullanılabilir.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 4. **Analysis Services** örneğinde dağıtılmış olan modeli göreceksiniz. İlgili modeli ve ardından **Tamam**'ı seçin.
@@ -134,7 +135,7 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
 2. Oturum, kullanıcı (bu örnekte Jon Doe) Power BI hizmetindeki panoya eriştiği anda başlatılır. **salesterritoryusers** rolünün **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** olan geçerli kullanıcı adıyla aynı anda geçerli hale geldiğini görebilirsiniz
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Analysis Services, geçerli kullanıcı adı isteğine göre yerel Active Directory örneğini sorguladıktan sonra isteği gerçek moonneo\jondoe kimlik bilgisine dönüştürür. **Analysis Services**, Active Directory örneğinden gerçek kimlik bilgilerini aldıktan sonra kullanıcının veri üzerindeki erişim izinlerini değerlendirir ve **Analysis Services** yalnızca kullanıcının erişim iznine sahip olduğu verileri döndürür.
+3. Analysis Services, geçerli kullanıcı adı isteğine göre yerel Active Directory örneğini sorguladıktan sonra isteği gerçek moonneo\jondoe kimlik bilgisine dönüştürür. **Analysis Services**, Active Directory örneğinden gerçek kimlik bilgilerini aldıktan sonra kullanıcının veri üzerindeki erişimini ve izinlerini değerlendirir ve **Analysis Services** yalnızca kullanıcının erişim iznine sahip olduğu verileri döndürür.
 4. Panoda daha fazla etkinlik gerçekleştirilirse, örneğin Jon Doe panodan bağlantılı rapora giderse SQL Profiler içinde Analysis Services tablolu modeline DAX sorgusu olarak gönderilen belirli bir sorgu olduğunu görebilirsiniz.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
@@ -165,8 +166,8 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
    ```
 
 ## <a name="considerations"></a>Önemli noktalar
-Satır düzeyi güvenlik, SSAS ve Power BI ile çalışırken dikkat etmeniz gereken birkaç önemli nokta vardır.
+Satır düzeyinde güvenlik, SSAS ve Power BI ile çalışırken dikkat etmeniz gereken birkaç önemli nokta vardır:
 
 1. Power BI'da şirket içi satır düzeyi güvenlik yalnızca Canlı Bağlantı ile kullanılabilir.
-2. Model işlendikten sonra veriler üzerinde yapılan değişiklikler, Power BI hizmetinden **canlı bağlantı** aracılığıyla rapora erişen kullanıcılara anında yansıtılır.
+2. Model işlendikten sonra veriler üzerinde yapılan değişiklikler, Power BI hizmetinden **Canlı Bağlantı** aracılığıyla rapora erişen kullanıcılara anında yansıtılır.
 

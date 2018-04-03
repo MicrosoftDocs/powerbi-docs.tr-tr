@@ -1,15 +1,15 @@
 ---
-title: "Power BI Güvenliği"
-description: "Power BI Güvenliği. Power BI ile Azure Active Directory ve diğer Azure hizmetleri arasındaki ilişki. Bu konu başlığı altında, daha ayrıntılı bir teknik incelemenin bağlantısı da verilmiştir."
+title: Power BI Güvenliği
+description: Power BI Güvenliği. Power BI ile Azure Active Directory ve diğer Azure hizmetleri arasındaki ilişki. Bu konu başlığı altında, daha ayrıntılı bir teknik incelemenin bağlantısı da verilmiştir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini indirin](http://go.microsoft.com/fwlink/?LinkId=829185):

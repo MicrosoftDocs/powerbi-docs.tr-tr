@@ -1,15 +1,15 @@
 ---
-title: "Power BI'da SAP HANA için DirectQuery"
-description: "SAP HANA ile DirectQuery kullanımında dikkat edilmesi gerekenler"
+title: Power BI'da SAP HANA için DirectQuery
+description: SAP HANA ile DirectQuery kullanımında dikkat edilmesi gerekenler
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery ve SAP HANA
 **DirectQuery** kullanarak **SAP HANA** veri kaynaklarına doğrudan bağlanabilirsiniz. SAP HANA’ya bağlanmak için kullanabileceğiniz iki seçenek vardır:
@@ -43,7 +43,7 @@ Bu iki yaklaşımın her birine ilişkin diğer ayrıntılara sırasıyla göz a
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA’ya çok boyutlu bir kaynak olarak davranma (varsayılan)
 
-SAP HANA ile kurulan tüm yeni bağlantılar varsayılan olarak bu bağlantı yöntemini kullanıp SAP HANA’yı çok boyutlu bir kaynak olarak kabul eder. SAP HANA ile kurulan bir bağlantıyı ilişkisel bir kaynak olarak kabul etmek için **Dosya > Seçenekler ve ayarlar**’ı seçip **Direct Query > SAP HANA’ya bir ilişkisel kaynak olarak davran** seçeneğinin altındaki kutuyu işaretlemeniz gerekir. Bu özellik **Önizlemede** olduğu sürece, çok boyutlu yaklaşım kullanılarak oluşturulan raporlar Power BI hizmetinde *yayımlanamaz* ve bunun yapılması durumunda rapor Power BI hizmetinde açılınca hatalar oluşur.  
+SAP HANA ile kurulan tüm yeni bağlantılar varsayılan olarak bu bağlantı yöntemini kullanıp SAP HANA’yı çok boyutlu bir kaynak olarak kabul eder. SAP HANA ile kurulan bir bağlantıyı ilişkisel bir kaynak olarak kabul etmek için **Dosya > Seçenekler ve ayarlar > Seçenekler** adımlarını izleyip **Direct Query > SAP HANA’ya bir ilişkisel kaynak olarak davran** seçeneğinin altındaki kutuyu işaretlemeniz gerekir. Bu özellik **Önizlemede** olduğu sürece, çok boyutlu yaklaşım kullanılarak oluşturulan raporlar Power BI hizmetinde *yayımlanamaz* ve bunun yapılması durumunda rapor Power BI hizmetinde açılınca hatalar oluşur.  
 
 SAP HANA’ya çok boyutlu bir kaynak olarak bağlanılırken aşağıdakiler geçerli olur:
 
@@ -63,11 +63,11 @@ SAP HANA’ya çok boyutlu bir kaynak olarak davranılması, alternatif *ilişki
 
 * SAP HANA’da bir öznitelik, etiketi olarak başka bir özniteliği kullanacak şekilde tanımlanabilir. Örneğin, **Ürün** (1,2,3, vb. değerlerine sahip) öğesi **ProductName** (Bisiklet,Gömlek,Eldiven vb. değerlerine sahip) öğesini etiket olarak kullanabilir. Bu durumda, alan listesinde Bisiklet, Gömlek, Eldiven, vb. değerlerine sahip **Ürün** adlı tek bir alan gösterilir, ancak bu değerlerin sıralanması ve benzersizlik durumlarının belirlenmesi 1,2,3 anahtar değerlerine göre gerçekleştirilir. Gerekirse temel anahtar değerlerine erişim imkanı tanıyan gizli bir **Product.Key** sütunu da oluşturulur. 
 
-Temel alınan SAP HANA görünümünde tanımlanan tüm değişkenler bağlanma sırasında görüntülenir ve gerekli değerler girilebilir. Bu değerler daha sonra şeritten **Sorguları Düzenle** seçeneği belirlenip görüntülenen açılan menüden **Değişkenleri Düzenle** seçilerek değiştirilebilir. 
+Temel alınan SAP HANA görünümünde tanımlanan tüm değişkenler bağlanma sırasında görüntülenir ve gerekli değerler girilebilir. Bu değerler daha sonra şeritten **Sorguları Düzenle** seçeneği belirlenip görüntülenen açılan menüden **Parametreleri Yönet** seçilerek değiştirilebilir. 
 
 SAP HANA’dan her zaman doğru toplama verilerinin alınabilmesini sağlama gereksinimi göz önünde bulundurulduğunda, izin verilen modelleme işlemleri DirectQuery’nin kullanıldığı genel duruma göre daha kısıtlıdır. Bununla birlikte, ölçü tanımlama, alanları yeniden adlandırıp gizleme ve görüntü biçimleri tanımlama dahil olmak üzere birçok ekleme ve değişiklik yapılabilir. Yenileme sırasında tüm bu değişiklikler korunur ve SAP HANA görünümünde gerçekleştirilen, çakışmayan tüm değişiklikler uygulanır. 
 
-### <a name="additional-modelling-restrictions"></a>Modellemeye ilişkin Ek Kısıtlamalar
+### <a name="additional-modeling-restrictions"></a>Modellemeye İlişkin Ek Kısıtlamalar
 
 DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak olarak davranma) geçerli olan birincil ek modelleme kısıtlamaları şunlardır: 
 
@@ -80,7 +80,7 @@ DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak ol
 
 ### <a name="additional-visualization-restrictions"></a>Görselleştirmelere ilişkin Ek Kısıtlamalar
 
-DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak olarak davranma) görsellerde birkaç kısıtlama söz konusudur: 
+DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak olarak davranma) görsellerde kısıtlamalar söz konusudur: 
 * **Sütunlarda toplama yoktur:** Bir görseldeki sütun için toplamayı değiştirmek mümkün değildir ve toplama her zaman *Özetleme* şeklindedir.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA’ya bir ilişkisel kaynak olarak davranma 
@@ -138,14 +138,14 @@ Power BI, SAP HANA’ya SQL arabirimini kullanarak erişir ve SQL aracılığıy
 * **Diğer hiyerarşi meta verileri**: Power BI’da hiyerarşilerin temel yapısı gösterilir, ancak bazı hiyerarşi meta verileri (düzensiz hiyerarşiler için davranışı denetleme gibi) etkili olmaz.
 Tekrar belirtmek gerekirse, bunun nedeni SQL arabirimi tarafından uygulanan kısıtlamalardır.
 * **SSL kullanarak bağlanma**: SSL kullanacak şekilde yapılandırılmış SAP HANA örneklerine bağlanamazsınız.
-Öznitelik görünümleri için destek: Power BI, Analitik görünümlere ve Hesaplama görünümlerine erişebilir, ancak Öznitelik görünümlerine doğrudan bağlanamaz.
+* **Öznitelik görünümleri için destek** - Power BI, Analitik görünümlere ve Hesaplama görünümlerine erişebilir, ancak Öznitelik görünümlerine doğrudan bağlanamaz.
 * **Katalog nesneleri için destek**: Power BI, Katalog nesnelerine bağlanamaz.
 * **Yayımlama işleminden sonra Değişkenleri değiştirme**: Rapor yayımlandıktan sonra doğrudan Power BI hizmetinde herhangi bir SAP HANA değişkenini değiştiremezsiniz. 
  
 ## <a name="known-issues"></a>Bilinen sorunlar 
 Aşağıdaki listede, Power BI kullanılarak SAP HANA’ya (DirectQuery) bağlanılırken yaşandığı bilinen tüm sorunlar açıklanmıştır. 
 
-* **Sayaçlar ve diğer ölçüler sorgulanırken karşılaşılan SAP HANA sorunu**: Bir Analitik Görünüme bağlanılıyorsa SAP HANA’dan yanlış veriler döndürülür ve aynı görsele bir Sayaç ölçüsü ile diğer bazı oran ölçüleri eklenir. Bu, 2128928 numaralı SAP Notu’nda ele alınmıştır (Hesaplanan Sütun ve Sayaç sorgulanırken beklenmeyen sonuçlar). Bu durumda oran ölçüsü yanlış olur. 
+* **Sayaçlar ve diğer ölçüler sorgulanırken karşılaşılan SAP HANA sorunu**: Bir Analitik Görünüme bağlanılıyorsa SAP HANA’dan yanlış veriler döndürülür ve aynı görsele bir Sayaç ölçüsü ile diğer bazı oran ölçüleri eklenir. Bu, 2128928 numaralı SAP Notu’nda (Hesaplanan Sütun ve Sayaç sorgulanırken beklenmeyen sonuçlar) ele alınmıştır. Bu durumda oran ölçüsü yanlış olur. 
 
 * **Tek SAP HANA sütunundan birden çok Power BI sütunu**: Bir SAP HANA sütununun birden çok hiyerarşide kullanıldığı bazı hesaplama görünümleri için SAP HANA bunu iki ayrı öznitelik olarak kullanıma sunar. Bu, Power BI'da iki sütun oluşturulmasıyla sonuçlanır.  Bu sütun varsayılan olarak gizlidir, ancak hiyerarşiler veya sütunlar ile doğrudan ilgili olan hiçbir sorgu doğru şekilde davranmaz. 
  

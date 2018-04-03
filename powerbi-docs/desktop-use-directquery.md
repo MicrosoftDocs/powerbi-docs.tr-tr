@@ -1,15 +1,15 @@
 ---
 title: Power BI Desktop'ta DirectQuery'yi kullanma
-description: "Power BI Desktop'ta Canlı bağlantı olarak da bilinen DirectQuery'yi kullanın"
+description: Power BI Desktop'ta Canlı bağlantı olarak da bilinen DirectQuery'yi kullanın
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 **Power BI Desktop** ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman **Power BI Desktop**'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: **DirectQuery**'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -62,7 +62,7 @@ Bazı sınırlamalar olsa da **DirectQuery** ile kullanabileceğiniz çok sayıd
 * Varsayılan olarak, ölçülerde izin verilen DAX ifadelerine yönelik bazı sınırlamalar mevcuttur; daha fazla bilgi için aşağıdaki paragrafa (bu madde işaretli listeden sonraki) bakın
 * **DirectQuery** kullanılarak döndürülen veriler için 1 milyon satırlık bir sınır söz konusudur. Bu, **DirectQuery** ile döndürülen veri kümesini oluşturmak için kullanılan toplamalar veya hesaplamalar için değil, yalnızca döndürülen sütunlar için geçerli bir sınırlamadır. Örneğin, veri kaynağında çalıştırılan sorgunuzla 10 milyon satırı toplayıp **DirectQuery**'yi kullanarak toplama işleminin sonuçlarını Power BI'a doğru şekilde döndürebilirsiniz. Bu işlem için, Power BI'a döndürülen veri sayısının 1 milyon satırdan az olması yeterlidir. **DirectQuery**'den 1 milyondan fazla satır döndürülürse Power BI hata döndürür.
 
-Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçülere varsayılan olarak bazı sınırlamalar getirilir. İleri düzey kullanıcılar **Dosya > Seçenekler**'i seçip **Ayarlar > Seçenekler ve ayarlar > DirectQuery** ve ardından *DirectQuery modunda kısıtlanmamış ölçümlere izin verin* seçeneğini belirleyerek bu sınırlamayı atlamayı tercih edebilir. Bu seçenek belirlendiğinde, bir ölçü için geçerli olan tüm DAX ifadeleri kullanılabilir. Ancak kullanıcılar, içeri aktarıldığında çok iyi performans gösteren bazı ifadelerin, DirectQuery modunda arka uç kaynağa çok yavaş sorgu gönderilmesine neden olabileceğini unutmamalıdır.
+Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçülere varsayılan olarak bazı sınırlamalar getirilir. İleri düzey kullanıcılar **Dosya > Seçenekler ve ayarlar > Seçenekler** adımlarını izleyip **DirectQuery**’yi ve ardından *DirectQuery modunda kısıtlanmamış ölçümlere izin ver*'i seçerek bu sınırlamayı atlamayı tercih edebilir. Bu seçenek belirlendiğinde, bir ölçü için geçerli olan tüm DAX ifadeleri kullanılabilir. Ancak kullanıcılar, içeri aktarıldığında çok iyi performans gösteren bazı ifadelerin, DirectQuery modunda arka uç kaynağa çok yavaş sorgu gönderilmesine neden olabileceğini unutmamalıdır.
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery kullanımında dikkat edilmesi gereken önemli noktalar
 **DirectQuery** kullanımında aşağıdaki üç nokta göz önünde bulundurulmalıdır:
@@ -77,7 +77,7 @@ Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde
       the maximum allowed size of '1000000' rows.
   
   Bu durum, kardinalitenin çok yüksek olduğu bir sütun içeren, toplama seçeneği *Özetleme* olarak ayarlanmış basit bir grafikte ortaya çıkabilir. Görselde yalnızca, kardinalite değeri 1 milyondan az olan sütunlar bulunmalı veya uygun filtreler uygulanmış olmalıdır.
-* **Güvenlik**: Yayımlanan bir raporu kullanan tüm kullanıcılar arka uç veri kaynağına, Power BI hizmetinde yayımlama işleminin ardından girilen kimlik bilgilerini kullanarak bağlanır. Bu durum, içeri aktarılan veriler için de geçerlidir: Tüm kullanıcılar, arka uç kaynağında tanımlanan herhangi bir güvenlik kuralından bağımsız olarak aynı verileri görür. Her kullanıcı için ayrı bir güvenlik doğrulaması olmasını isteyen müşteriler DirectQuery kaynaklarıyla çalışır ve RLS'yi kullanır. [RLS hakkında daha fazla bilgi edinin](service-admin-rls.md).
+* **Güvenlik**: Yayımlanan bir raporu kullanan tüm kullanıcılar arka uç veri kaynağına, Power BI hizmetinde yayımlama işleminin ardından girilen kimlik bilgilerini kullanarak bağlanır. Bu durum, içeri aktarılan veriler için de geçerlidir: Tüm kullanıcılar, arka uç kaynağında tanımlanan herhangi bir güvenlik kuralından bağımsız olarak aynı verileri görür. Her kullanıcı için DirectQuery kaynaklarıyla ayrı bir güvenlik doğrulaması olmasını isteyen müşteriler RLS'yi kullanmalıdır. [RLS hakkında daha fazla bilgi edinin](service-admin-rls.md).
 * **Desteklenen özellikler**: **Power BI Desktop**'taki özelliklerin tümü **DirectQuery** modunda desteklenmez veya bazı sınırlamalar mevcuttur. Buna ek olarak, Power BI hizmetindeki bazı özellikler de (*Hızlı Öngörüler* gibi) **DirectQuery** modunda veri kümeleri için kullanılamaz. Benzer şekilde, **DirectQuery**'yi kullanıp kullanmayacağınıza karar verirken, **DirectQuery** modunda bu özelliklere getirilen sınırlamaları da göz önünde bulundurmanız gerekir.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Power BI hizmetinde yayımlama

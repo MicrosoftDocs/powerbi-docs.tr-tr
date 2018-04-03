@@ -1,15 +1,15 @@
 ---
-title: "Buluttaki bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme"
-description: "Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme"
+title: Buluttaki bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme
+description: Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c20ba2a33a88ba8c6ab27cf60b02babf3ebb4cad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff5a13e842473f276b183f524b2ee5c17e173c96
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme
 Yerel makinenizde veya OneDrive İş ya da SharePoint Online gibi bulut depolama alanlarında depolanan Excel çalışma kitaplarını içeri aktarabilirsiniz. Bu makalede, Excel dosyalarınız için bulut depolama alanı kullanımının avantajları anlatılmaktadır. Excel dosyalarını Power BI'a aktarma hakkında daha fazla bilgi için bkz. [Excel çalışma kitabı dosyalarından veri alma](service-excel-workbook-files.md).

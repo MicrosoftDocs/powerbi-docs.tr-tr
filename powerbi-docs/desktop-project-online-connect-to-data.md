@@ -1,15 +1,15 @@
 ---
-title: "Project Online: Power BI Desktop aracılığıyla verilere bağlanma"
-description: "Project Online: Power BI Desktop aracılığıyla verilere bağlanma"
+title: 'Project Online: Power BI Desktop aracılığıyla verilere bağlanma'
+description: 'Project Online: Power BI Desktop aracılığıyla verilere bağlanma'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: Power BI Desktop aracılığıyla verilere bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
@@ -38,10 +38,12 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
    
    Project Web sitenizin adresi https://\<kiracıadı\>.sharepoint.com/sites/pwa gibiyse OData Akışı için girmeniz gereken adres https://\<kiracıadı\>.sharepoint.com/sites/pwa/\_api/Projectdata şeklinde olacaktır.
    
-   Bu örnekte kullandığımız adres: https://contoso.sharepoint.com/sites/pwa/default.aspx
+   Biz bu örnekte https://contoso.sharepoint.com/sites/pwa/default.aspx seçeneğini kullanıyoruz.
 5. Power BI Desktop, Office 365 hesabınızla kimlik doğrulamasından geçmenizi isteyecektir. Kuruluş hesabınızı seçip kimlik bilgilerinizi girin.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+Lütfen OData akışına bağlanmak için kullandığınız hesabın, Project Web App sitesine en az Portföy Görüntüleyicisi düzeyinde erişim izni olması gerektiğini unutmayın. 
 
 Buradan bağlanmak istediğiniz tabloları seçebilir ve sorgu oluşturabilirsiniz.  Nereden başlayacağınızı bilemiyor musunuz?  Aşağıdaki blog gönderisi, Project Online verilerinizden ilerleme grafiği oluşturmayı göstermektedir.  Blog gönderisinde, Project Online'a bağlanmak için Power Query kullanılmaktadır ancak aynı adımlar Power BI Desktop için de geçerlidir.
 

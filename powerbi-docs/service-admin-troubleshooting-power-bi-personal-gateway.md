@@ -1,15 +1,15 @@
 ---
-title: "Power BI Gateway - Personal ile ilgili sorunları giderme"
-description: "Power BI Gateway - Personal ile ilgili sorunları giderme"
+title: Power BI Gateway - Personal ile ilgili sorunları giderme
+description: Power BI Gateway - Personal ile ilgili sorunları giderme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1063f8a34041e4c27b481085608d69c3eb32558a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal ile ilgili sorunları giderme
 Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşılaşılabilen sorunlar ele alınmıştır.
