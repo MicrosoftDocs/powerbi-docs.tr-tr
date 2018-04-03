@@ -1,15 +1,15 @@
 ---
-title: "Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler"
-description: "Power BI için ağ geçidi dağıtmaya ilişkin en iyi uygulamaları ve önemli noktaları öğrenin."
+title: Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
+description: Power BI için ağ geçidi dağıtmaya ilişkin en iyi uygulamaları ve önemli noktaları öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
-Bu makalede, ağ ortamınızda bir veri ağ geçidini dağıtmaya ilişkin yönergeler ve önemli noktalar sunulmaktadır. **Ağ geçidi**, Power BI gibi bir bulut hizmetinde gerçekleştirilen birbirini izleyen kullanımlara yönelik olarak, özel bir şirket içi ağda bulunan verilere erişimi kolaylaştıran yazılımdır. Bu makalede, dağıtım işlemi adım adım açıklanmakta ve **şirket içi veri ağ geçidi** kurulumu ile ilgili yönergeler sağlanmaktadır.
+Bu makalede, ağ ortamınızda bir veri ağ geçidini dağıtmaya ilişkin yönergeler ve önemli noktalar sunulmaktadır. **Ağ geçidi**, Power BI gibi bir bulut hizmetinde gerçekleştirilen birbirini izleyen kullanımlara yönelik olarak, özel bir şirket içi ağda bulunan verilere erişimi kolaylaştıran yazılımdır. Bu makalede, dağıtım işlemi adım adım açıklanır ve **şirket içi veri ağ geçidi** kurulumu ile ilgili yönergeler sağlanır.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-**Şirket içi veri ağ geçidi** ile ilgili daha fazla bilgi edinmek için, yükleme bağlantısının da bulunduğu [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/) göz atın.
+**Şirket içi veri ağ geçidi** ile ilgili daha fazla bilgi edinmek için yükleme bağlantısının da bulunduğu [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/) göz atın.
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidini yükleme ile ilgili önemli noktalar
 Yükleme ve dağıtım ile ilgili ayrıntılara girmeden önce dikkat etmeniz gereken birkaç önemli nokta vardır. Aşağıdaki bölümlerde, göz önünde bulundurmanız gereken önemli noktalar açıklanmaktadır.
@@ -53,7 +53,7 @@ Ağ geçidi kullanımı, kullanılmakta olan bağlantı türüne göre değişik
 * **Zamanlanmış yenileme** için: Sorgunuzun boyutuna ve günlük olarak gerçekleşen yenileme sayısına bağlı olarak, önerilen minimum donanım gereksinimlerini aşmama veya daha yüksek performans gösteren bir makineye yükseltme arasında seçim yapabilirsiniz. Belirli bir sorgu katlanmış değilse ağ geçidi makinesinde dönüştürme işlemleri gerçekleştirilir, böylece ağ geçidi makinesi, kullanılabilir daha fazla RAM'den yararlanır.
 * **DirectQuery** için: Herhangi bir kullanıcı raporu her açtığında veya verilere göz attığında bir sorgu gönderilir. Bu nedenle, 1.000'den fazla kullanıcının aynı anda verilere erişeceğini öngörüyorsanız bilgisayarınızın güçlü ve nitelikli donanım bileşenlerinden oluştuğundan emin olmak istersiniz. Daha fazla CPU çekirdeği, **DirectQuery** bağlantısı için daha iyi bir performans elde edilmesini sağlar.
 
-**Şirket içi veri ağ geçidi** yüklenecek bir makine için gereksinimler aşağıda belirtilmiştir:
+**Şirket içi veri ağ geçidi** yüklenecek bir makine için gereksinimler şunlardır:
 
 **Minimum:**
 
@@ -86,7 +86,7 @@ Makinenizdeki sayaçlara ek olarak, *ağ geçidi sayacı*, makinenizin ne kadar 
 
 Bu sayaçlara **Windows Performans İzleyicisi**'nden erişebilir ve bu amaçla kullandığınız tüm raporlama araçları için söz konusu sayaçlardan faydalanabilirsiniz. Ağ geçidi performans izleyicisinin Power BI ile kullanılması hakkındaki ayrıntılı yönergeler için, bir topluluk üyesi tarafından oluşturulmuş aşağıdaki blog gönderisine göz atabilirsiniz.
 
-* [Monitor on-premises data gateways](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/) (Şirket içi veri ağ geçitlerini izleme)
+* [Şirket içi veri ağ geçitlerini izleme](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>Günlükler
 Yapılandırma ve hizmet günlükleri, ağ geçidinizde neler olduğu hakkında farklı bir bakış açısı sunar. Power BI hizmetinde tüm hata iletileri bildirilmediğinden, bağlantınızın beklediğiniz gibi çalışmaması halinde her zaman ağ geçidi günlüklerini denetleyin.

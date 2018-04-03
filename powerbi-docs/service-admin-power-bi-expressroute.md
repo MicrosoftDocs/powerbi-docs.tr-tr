@@ -2,14 +2,14 @@
 title: Power BI ve ExpressRoute
 description: Power BI ve ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI ve ExpressRoute
 **Power BI** ve **ExpressRoute** ile gizli Power BI verileriniz ve bağlantılarınız için daha yüksek düzeyde güvenlik sağlamak üzere, İnternet kullanmadan (veya bir ISP ortak konum özelliği kullanarak) kuruluşunuz ile Power BI arasında özel bir ağ bağlantısı oluşturabilirsiniz.
@@ -49,7 +49,7 @@ ExpressRoute'un kullanıldığı Power BI'a ilişkin iki özel durum söz konusu
 * **Content Delivery Network (CDN)** ve web sitelerinden indirilen statik dosyalar
 * Genel İnternet üzerinden gönderilen **Telemetri** verileri
 
-Power BI, gerekli statik içeriği ve dosyaları, coğrafi yerel ayara göre kullanıcılara genel İnternet üzerinden verimli bir şekilde dağıtmak için birden çok **Content Delivery Network (CDN)** veya web sitesi kullanır. Bu statik dosyalar; ürün indirmelerini (çeşitli bağımsız hizmet sağlayıcılarından **Power BI Desktop**, **şirket içi veri ağ geçidi** veya **Power BI İçerik Paketleri** gibi), Power BI ile sonraki bağlantıları başlatmak ve kurmak için kullanılan tarayıcı yapılandırma dosyalarını, başlangıçtaki güvenli Power BI oturum açma sayfasını (gerçek kimlik bilgileri yalnızca ExpressRoute üzerinden gönderilir) içerir.   
+Power BI, gerekli statik içeriği ve dosyaları, coğrafi yerel ayara göre kullanıcılara genel İnternet üzerinden verimli bir şekilde dağıtmak için birden çok **Content Delivery Network (CDN)** veya web sitesi kullanır. Bu statik dosyalar ürün indirmelerini (**Power BI Desktop**, **şirket içi veri ağ geçidi** veya çeşitli bağımsız hizmet sağlayıcılarından **Power BI İçerik Paketleri** gibi), Power BI ile sonraki bağlantıları başlatmak ve kurmak için kullanılan tarayıcı yapılandırma dosyalarını, başlangıçtaki güvenli Power BI oturum açma sayfasını (gerçek kimlik bilgileri yalnızca ExpressRoute üzerinden gönderilir) içerir.   
 
 Belirli **telemetri verileri** de genel İnternet ve ExpressRoute üzerinden gönderilir. Telemetri verileri; kullanımı ve etkinliği izlemek için kullanılan hizmetlere iletilen kullanım istatistiklerini ve benzeri verileri içerir.
 

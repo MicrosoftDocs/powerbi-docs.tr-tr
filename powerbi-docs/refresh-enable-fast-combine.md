@@ -1,15 +1,15 @@
 ---
-title: "Gizlilik ayarlarını devre dışı bırakma"
-description: "Yenileme için gizlilik ayarlarını devre dışı bırakmak üzere Personal Gateway'de Hızlı Birleştirme özelliğini etkinleştirme."
+title: Gizlilik ayarlarını devre dışı bırakma
+description: Yenileme için gizlilik ayarlarını devre dışı bırakmak üzere Personal Gateway'de Hızlı Birleştirme özelliğini etkinleştirme.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Power BI Gateway - Personal'da gizlilik ayarlarını devre dışı bırakma
 > [!NOTE]

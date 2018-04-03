@@ -2,14 +2,14 @@
 title: Alternatif e-posta adresi kullanma
 description: Alternatif e-posta adresi kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Power BI için bir Azure Active Directory (AAD) ekleme belirtecini yakalarken ü
 
 Power BI, kullanılacak e-posta adresini şu ölçütlere göre seçer:
 1.  AAD kiracısının kullanıcı nesnesindeki posta özniteliği mevcutsa Power BI, e-posta adresi için söz konusu posta özniteliğini kullanır
-2.  UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi (“@” simgesinden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır
+2.  UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi (“\@” simgesinden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır
 3.  AAD kullanıcı nesnesinde "diğer" e-posta dizisi özniteliği mevcutsa söz konusu listedeki ilk e-posta adresi (bu öznitelikte e-postalardan oluşan bir liste olabileceği için) kullanılır
 4. Yukarıdaki koşulların hiçbiri mevcut değilse UPN adresi kullanılır
 

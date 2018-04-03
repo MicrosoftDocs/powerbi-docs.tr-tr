@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Microsoft Azure Kurumsal'a bağlanma"
-description: "Power BI için Microsoft Azure Kurumsal"
+title: Power BI ile Microsoft Azure Kurumsal'a bağlanma
+description: Power BI için Microsoft Azure Kurumsal
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -69,7 +69,7 @@ Power BI raporlama özelliği, fatura bilgilerini görüntüleyebilen EA Doğrud
 
 **Azure Ortamı URL'si**
 
-* Bu değer genellikle https://ea.azure.com'dur ancak onaylamak için, oturum açtıktan sonra URL'yi kontrol edebilirsiniz.
+* Bu değer genellikle https://ea.azure.com 'dur ancak onaylamak için, oturum açtıktan sonra URL'yi kontrol edebilirsiniz.
   
     ![](media/service-connect-to-azure-enterprise/params3.png)
 

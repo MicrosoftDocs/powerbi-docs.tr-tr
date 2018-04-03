@@ -1,15 +1,15 @@
 ---
-title: "Yerel bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme"
-description: "Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme"
+title: Yerel bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
+description: Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 69b755b1e4844f5731ecf13a8be154f1684bb8fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78c3da471701a7973934e2349d9209fb55aa2026
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
 ## <a name="whats-supported"></a>Hangi veri kümeleri desteklenir?

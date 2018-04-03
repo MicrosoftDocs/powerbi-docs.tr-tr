@@ -1,14 +1,14 @@
 ---
-title: "Zamanlanmış yenileme yapılandırma"
-description: "Burada, bir ağ geçidi seçme ve zamanlanmış yenileme özelliklerini ayarlama adımları ele alınır."
+title: Zamanlanmış yenileme yapılandırma
+description: Burada, bir ağ geçidi seçme ve zamanlanmış yenileme özelliklerini ayarlama adımları ele alınır.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 Veri kümeniz Şimdi Yenile ve Yenilemeyi Zamanla seçenekleri kullanılarak, zamanlanmış yenileme işlemi gerçekleştirilmesini destekliyorsa yenilemenin başarılı olması için dikkat edilmesi gereken birkaç gereksinim ve ayar vardır. Bunlar **Ağ geçidi bağlantısı**, **Veri Kaynağı Kimlik Bilgileri** ve **Yenilemeyi Zamanlama**'dır. Şimdi her birine daha yakından bakalım.
 
-Burada, hem [Power BI Gateway – Personal](personal-gateway.md) hem de [şirket içi veri ağ geçidi](service-gateway-onprem.md) için mevcut olan seçenekler açıklanmıştır.
+Burada hem [Power BI Gateway – Personal](personal-gateway.md) hem de [şirket içi veri ağ geçidi](service-gateway-onprem.md) için mevcut olan seçenekler açıklanmıştır.
 
 Yenileme zamanlama ekranına gitmek için aşağıdakileri yapabilirsiniz.
 
@@ -70,7 +70,7 @@ Yalnızca söz konusu veri kümesinde yenileme özelliğini ilk kez kullanırken
 Olası sorunlar genellikle ya ağ geçidinin Windows'da oturum açamayıp hizmeti başlatamaması nedeniyle çevrimdışı olmasından ya da Power BI'ın güncelleştirilmiş verileri sorgulamak üzere veri kaynaklarında oturum açamamasından meydana gelir. Yenileme başarısız olursa veri kümesinin ayarlarını kontrol edin. Ağ geçidi hizmeti çevrimdışıysa Ağ Geçidi Durumu bölümünde bir hatayla karşılaşırsınız. Power BI'ın veri kaynaklarında oturum açamaması halinde ise hatayla karşılaşacağınız bölüm Veri Kaynağı Kimlik Bilgileri'dir.
 
 ### <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
-Verileri yenilemek için şirket içi veri ağ geçidini kullanıyorsanız Ağ Geçidi Yöneticisi tarafından veri kaynağı için tanımlanan kimlik bilgilerini sağlamanız gerekmez.
+Verileri yenilemek için şirket içi veri ağ geçidini kullanıyorsanız ağ geçidi yöneticisi tarafından veri kaynağı için tanımlanan kimlik bilgilerini sağlamanız gerekmez.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 

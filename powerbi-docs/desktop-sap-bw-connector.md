@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma"
-description: "Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma"
+title: Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
+description: Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP BusinessWarehouse (BW)** verilerine erişebilirsiniz.
@@ -38,7 +38,7 @@ Power BI Desktop ile **SAP BusinessWarehouse (BW)** verilerine erişebilirsiniz.
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW Bağlayıcısı'nın özellikleri
-Power BI Desktop’taki **SAP BW Bağlayıcıları** **SAP Business Warehouse Sunucusu** küplerinden verileri içeri aktarmanıza olanak tanır veya **SAP BW Bağlayıcısı** ile DirectQuery’yi kullanabilirsiniz. 
+Power BI Desktop’taki **SAP BW Bağlayıcıları**, **SAP Business Warehouse Sunucusu** küplerinden verileri içeri aktarmanıza veya DirectQuery’yi kullanmanıza olanak tanır. 
 
 **SAP BW bağlayıcısı** ve bunun DirectQuery ile kullanımı hakkında daha fazla bilgi edinmek için [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) makalesine göz atın.
 
@@ -50,7 +50,7 @@ Ayrıca belirtebileceğiniz iki ek **Gelişmiş seçenek** de vardır: Dil kodu 
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Herhangi bir MDX deyimi belirtilmezse **Gezgin** penceresi açılır ve burada sunucudaki kullanılabilir küplerin listesinin yanı sıra kullanılabilir küplerden boyutlar ve ölçüler dahil olmak üzere ayrıntıya inme ve öğe belirleme seçenekleri görüntülenir. Power BI, [BW Open Analysis Interface OLAP BAPI'leri](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) tarafından gösterilen sorguları ve küpleri gösterir.
+Herhangi bir MDX deyimi belirtilmezse **Gezgin** penceresi açılır ve burada sunucudaki kullanılabilir küplerin listesinin yanı sıra kullanılabilir küplerden boyutlar ve ölçüler dahil olmak üzere detaya gitme ve öğe belirleme seçenekleri görüntülenir. Power BI, [BW Open Analysis Interface OLAP BAPI'leri](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) tarafından gösterilen sorguları ve küpleri gösterir.
 
 Sunucudan bir veya daha fazla öğe seçtiğinizde yaptığınız seçime bağlı olarak çıkış tablosu önizlemesi oluşturulur.
 
