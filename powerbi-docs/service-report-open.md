@@ -1,15 +1,15 @@
 ---
-title: "Power BI hizmetinde bir raporu Okuma görünümü veya Düzenleme görünümü'nde açma"
-description: "Power BI raporunu Okuma görünümü veya Düzenleme görünümünde açma"
+title: Power BI hizmetinde bir raporu Okuma görünümü veya Düzenleme görünümü'nde açma
+description: Power BI raporunu Okuma görünümü veya Düzenleme görünümünde açma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
