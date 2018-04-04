@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Zuora'ya bağlanma"
-description: "Power BI için Zuora"
+title: Power BI ile Zuora'ya bağlanma
+description: Power BI için Zuora
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -39,7 +39,7 @@ Power BI için [Zuora](https://app.powerbi.com/getdata/services/Zuora)'ya bağla
 3. **Zuora** \> **Al** seçeneğini belirleyin.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL'nizi belirtin. Bu genellikle "https://www.zuora.com"dur, aşağıdaki [bu parametreleri bulma](#FindingParams) başlığından ayrıntıları bulabilirsiniz.
+4. Zuora URL'nizi belirtin. Bu genellikle "https://www.zuora.com" dur, aşağıdaki [bu parametreleri bulma](#FindingParams) başlığından ayrıntıları bulabilirsiniz.
 
    ![](media/service-connect-to-zuora/params.png)
 5. **Kimlik Doğrulama Yöntemi** için **Temel** seçeneğini belirleyin ve kullanıcı adınızı ve parolanızı sağlayın (büyük/küçük harfe duyarlıdır), ardından **Oturum aç**'ı seçin.
