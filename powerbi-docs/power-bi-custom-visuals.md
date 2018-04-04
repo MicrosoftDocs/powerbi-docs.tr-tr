@@ -1,15 +1,15 @@
 ---
-title: "Power BI'daki özel görselleştirmeler"
-description: "Power BI'daki özel görselleştirmeler"
+title: Power BI'daki özel görselleştirmeler
+description: Power BI'daki özel görselleştirmeler
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, Power BI Desktop'ı indirdiğinizde veya Power BI hizmetini (app.powerbi.com) açtığınızda hazır olarak sunulur.
@@ -47,7 +47,7 @@ Geliştiriciler, iş kullanıcılarının verilerini işletme için en uygun şe
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>Kuruluş görselleri (Önizleme)
+## <a name="organization-visuals"></a>Kuruluş görselleri
 
 Power BI yöneticileri, kuruluş içinde kullanılmasına onay verdikleri özel görselleri rapor yazarlarının kolayca keşfedip kullanabilmesi için kuruluşlarına özel görseller dağıtabilir. Bu sayede, yönetici kuruluşta dağıtmak üzere belirli özel görselleri seçme konusunda denetimin yanı sıra bu görselleri yönetmenin (örn. sürümü güncelleştirme, devre dışı bırakma/etkinleştirme) kolay bir yoluna sahip olur. Rapor yazarı için kuruluşa özgü görselleri keşfetme ve bu görsellerin güncelleştirilmesi için sorunsuz destek almanın kolay bir yolunu sağlar.
 
