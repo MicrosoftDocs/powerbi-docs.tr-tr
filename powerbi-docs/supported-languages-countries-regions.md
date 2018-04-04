@@ -1,28 +1,28 @@
 ---
-title: "Power BI için desteklenen diller ve ülkeler/bölgeler"
-description: "Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen diller ile ülkelerin/bölgelerin bulunduğu listelere göz atın."
+title: Power BI için desteklenen diller ve ülkeler/bölgeler
+description: Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen diller ile ülkelerin/bölgelerin bulunduğu listelere göz atın.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -32,7 +32,7 @@ Bu makalede Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için deste
 Power BI'ın kullanılabildiği ülkelerin ve bölgelerin bir listesi için [uluslararası kullanılabilirlik listesine](https://products.office.com/business/international-availability) göz atın. 
 
 ## <a name="languages-for-the-power-bi-service"></a>Power BI hizmetinin kullanıma sunulduğu diller
-Power BI hizmeti (tarayıcıdaki) şu 42 dilde kullanılabilir:
+Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 
 * Arapça
 * Bask dili - Basque

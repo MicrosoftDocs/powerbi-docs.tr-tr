@@ -1,27 +1,27 @@
 ---
-title: "Power BI mobil uygulamalarında raporları araştırma"
+title: Power BI mobil uygulamalarında raporları araştırma
 description: "Telefonunuzdaki veya tabletinizdeki Power BI mobil uygulamalarında bulunan raporları görüntüleme ve bu raporlarla etkileşim kurma hakkında bilgi edinin. Power BI hizmetinde veya Power BI Desktop'ta oluşturduğunuz raporlarla daha sonra mobil uygulamalarda etkileşim kurabilirsiniz. "
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -50,7 +50,9 @@ Power BI raporlarını aldığınız yere bağlı olarak bu raporlar mobil uygul
   ![Telefonda yatay modda rapor görünümü](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Telefonlar için en iyi duruma getirilmiş raporlar görüntüleme
-Power BI rapor yazarları, özellikle telefonlar için en iyi duruma getirilmiş bir rapor düzeni oluşturabilir. Telefonlar için en iyi duruma getirilmiş rapor sayfaları ek işlevler içerir. Örneğin, odak modunda görsellerde detaya gidebilir, sıralama yapabilir ve [rapor yazarının, rapor sayfasına eklediği filtrelere](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) erişebilirsiniz. En iyi duruma getirilmiş raporlar, rapor listesinde özel bir simge ile (![Telefon raporu simgesi](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)) belirtilir:
+Power BI rapor yazarları, özellikle telefonlar için en iyi duruma getirilmiş bir rapor düzeni oluşturabilir. Telefonlar için en iyi duruma getirilmiş rapor sayfaları ek işlevler içerir. Örneğin, odak modunda görsellerde detaya gidebilir, sıralama yapabilir ve [rapor yazarının, rapor sayfasına eklediği filtrelere](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) erişebilirsiniz. Rapor telefonunuzda, web üzerindeki raporda filtrelenen değerlerle filtrelenmiş bir şekilde ve sayfada etkin filtreler olduğunu belirten bir iletiyle açılır. Telefonunuzdaki filtreleri değiştirebilirsiniz.
+
+İyileştirilmiş raporlar, rapor listesinde özel bir simge ile belirtilir ![Telefon raporu simgesi](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Telefon raporunu açma](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Bu raporu bir telefonda görüntülediğinizde dikey görünümde açılır.
 [Telefon görünümü için en iyi duruma getirilmiş raporlar](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Bir rapor sayfasını filtrelemek için dilimleyicileri kullanma
-Power BI Desktop’ta veya Power BI hizmetinde bir rapor tasarlarken [rapor sayfasına dilimleyiciler eklemeyi](power-bi-visualization-slicers.md) düşünün. İş arkadaşlarınızla birlikte, bir tarayıcıda ve mobil uygulamalarda sayfayı filtrelemek için dilimleyicileri kullanabilirsiniz. Raporu bir telefonda görüntülediğinizde, dilimleyicileri yatay modda ve telefonun dikey modu için iyileştirilmiş bir sayfada görebilir ve etkileşimde bulunabilirsiniz.
+Power BI Desktop’ta veya Power BI hizmetinde bir rapor tasarlarken [rapor sayfasına dilimleyiciler eklemeyi](power-bi-visualization-slicers.md) düşünün. İş arkadaşlarınızla birlikte, bir tarayıcıda ve mobil uygulamalarda sayfayı filtrelemek için dilimleyicileri kullanabilirsiniz. Raporu bir telefonda görüntülediğinizde, dilimleyicileri yatay modda ve telefonun dikey modu için iyileştirilmiş bir sayfada görebilir ve etkileşimde bulunabilirsiniz. Tarayıcıdaki bir dilimleyiciden veya filtreden bir değer seçerseniz sayfayı mobil uygulamada görüntülediğinizde de değer seçilir. Sayfada etkin filtreler olduğunu belirten bir ileti görürsünüz.  
 
 * Rapor sayfasındaki bir dilimleyicide değer seçtiğinizde sayfadaki diğer görseller filtrelenir.
   
