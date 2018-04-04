@@ -1,27 +1,27 @@
 ---
-title: "Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme"
-description: "Power BI telefon uygulamalarında görüntülemek için en iyi duruma getirilmiş rapor sayfalarıyla etkileşim kurma hakkında bilgi edinin."
+title: Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
+description: Power BI telefon uygulamalarında görüntülemek için en iyi duruma getirilmiş rapor sayfalarıyla etkileşim kurma hakkında bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -47,7 +47,7 @@ Telefon için en iyi duruma getirilmiş raporlarda diğer tüm Power BI rapor ö
 * [Android telefonlarda raporlar](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Telefonda rapor sayfasını filtreleme
-Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, söz konusu raporu bir telefonda görüntülerken bu filtreleri kullanabilirsiniz. 
+Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, söz konusu raporu bir telefonda görüntülerken bu filtreleri kullanabilirsiniz. Rapor telefonunuzda, web üzerindeki raporda filtrelenen değerlerle filtrelenmiş bir şekilde ve sayfada etkin filtreler olduğunu belirten bir iletiyle açılır. Telefonunuzdaki filtreleri değiştirebilirsiniz.
 
 1. Sayfanın en altında bulunan filtre simgesine ![Telefon filtre simgesi](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) dokunun. 
 2. İlgilendiğiniz sonuçları görmek için temel veya gelişmiş filtreleme kullanın.

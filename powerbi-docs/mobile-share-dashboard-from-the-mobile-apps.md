@@ -1,27 +1,27 @@
 ---
-title: "Power BI mobil uygulamalarından pano veya rapor paylaşma"
-description: "Power BI mobil uygulamalarından bağlantı paylaşarak iş arkadaşlarınızı panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Nasıl yapıldığını öğrenin."
+title: Power BI mobil uygulamalarından pano veya rapor paylaşma
+description: Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edin. Nasıl yapıldığını öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -30,7 +30,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
-[Power BI Pro lisansı](service-free-vs-pro.md) ile Power BI mobil uygulamalarından bağlantı paylaşarak iş arkadaşlarınızı panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Paylaşımda bulunacağınız kişilerin sizinle aynı e-posta etki bulunması ve Power BI Pro lisansına sahip olması veya içeriğin bir [Premium kapasitede](service-premium.md) yer alması gerekir.
+[Power BI Pro lisansı](service-free-vs-pro.md) ile Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Kuruluşunuzun içindeki veya dışındaki, kurumsal posta hesabına sahip olan ya da olmayan herhangi biriyle paylaşabilirsiniz. Power BI Pro lisansı olmasına sahip olmaları veya içeriğin [Premium kapasitede](service-premium.md) olması gerekmez.
 
 iOS ve Android cihazlarda Power BI mobil uygulamalarından [kutucuklara, raporlara veya görselleştirmelere not ekleyip anlık görüntülerini](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) istediğiniz kişiyle paylaşabilirsiniz. 
 
@@ -38,14 +38,13 @@ iOS ve Android cihazlarda Power BI mobil uygulamalarından [kutucuklara, raporla
 1. Panonun veya raporun alt tarafındaki eylemler çubuğunda **Paylaş** simgesine ![Paylaş simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png) dokunun.
    
    ![iPhone Paylaş simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. **İş arkadaşınızı davet edin**'e dokunun.
-3. Virgülle ayırarak adları yazın ve davetinizle birlikte gönderilecek iletinizi girin.
-4. Yeniden paylaşıma izin vermek için **Alıcıların yeniden paylaşmasına izin ver**'i seçili durumda bırakın.
+2. Virgülle ayırarak adları yazın ve davetinizle birlikte gönderilecek iletinizi girin.
+3. Yeniden paylaşıma izin vermek için **Alıcıların yeniden paylaşmasına izin ver**'i seçili durumda bırakın.
    
    Yeniden paylaşma işlevi, iş arkadaşlarınızın davet e-postasını kuruluşunuzdaki diğer kullanıcılarla web veya mobil uygulamalar üzerinden paylaşmasını sağlar.
 5. Sağ üst köşede bulunan **Gönder**'e dokunun.
    
-   İş arkadaşlarınıza panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
+   Alıcılara panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
    
    ![Benimle paylaşılan](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 
 ## <a name="share-from-your-ipad"></a>iPad cihazınızdan paylaşımda bulunma
 1. Panonuzun veya raporunuzun sağ üst köşesindeki **Paylaş** simgesine ![Paylaş simgesi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) dokunun.
-2. **İş arkadaşınızı davet edin**'e dokunup e-posta adreslerini ve davetinizle birlikte gönderilecek iletinizi yazın.
+2. E-posta adreslerini ve davetinizle birlikte gönderilecek iletinizi yazın.
 3. Yeniden paylaşıma izin vermek için **Alıcıların yeniden paylaşmasına izin ver**'i seçili durumda bırakın.
    
    Yeniden paylaşma işlevi, iş arkadaşlarınızın davet e-postasını kuruluşunuzdaki diğer kullanıcılarla web veya mobil uygulamalar üzerinden paylaşmasını sağlar. 
 
 4. Sağ üst köşede bulunan **Gönder**'e dokunun.
    
-   İş arkadaşlarınıza panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
+   Alıcılara panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
    
    ![Benimle paylaşılan](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 1. Panoların veya raporların giriş sayfasında üç nokta (...) simgesine ve **İş arkadaşınızı davet edin**'e dokunun.
    
    ![İş arkadaşınızı davet edin](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. Alternatif olarak, bir panonun veya raporun sağ üst köşesinde bulunan davet et simgesine ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)dokunun.
+2. Dilerseniz bir panonun veya raporun içinde Davet et simgesine dokunun ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)geçin.
 
     Panonun sahibi sizseniz bu panoyu veya raporu paylaştığınız iş arkadaşlarınızın listesini ve şu notları görürsünüz:
 
@@ -111,7 +110,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    
 1. Postayı göndermek için sağ üst köşedeki **Gönder** simgesine ![Gönder simgesi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) dokunun.
    
-   İş arkadaşlarınıza panonun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
+   Alıcılara panonun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
    
    ![Benimle paylaşılan](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -120,13 +119,13 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 ### <a name="unshare-from-your-android-device"></a>Android cihazınızdan bir paylaşımı kaldırma
 Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 
-1. Panonuzun veya raporunuzun sağ üst köşesinde bulunan davet et simgesine ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)dokunun. 
+1. Panonuzun veya raporunuzun sağ üst köşesinde bulunan davet et simgesine ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)geçin. 
    
    Bu panoyu veya raporu paylaştığınız iş arkadaşlarınızın listesini görürsünüz.
 2. İş arkadaşınızla paylaştığınız bir panonun veya raporun paylaşımını kaldırmak için herhangi bir adın yanında bulunan **X** işaretine dokunup \> **Kaldır**'ı seçin.
 
 ## <a name="share-from-your-windows-10-device"></a>Windows 10 cihazınızdan paylaşımda bulunma
-1. Bir panonun veya raporun içinde Davet et simgesine ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png)dokunun.
+1. Bir panonun veya raporun içinde Davet et simgesine ![Davet et simgesi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png)geçin.
    
    Alternatif olarak, panoların veya raporların giriş sayfasında sağ tıklayıp ya da basılı tutup **Davet et**’e dokunun.
    
@@ -146,7 +145,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    
 1. **Gönder** simgesine ![Gönder simgesi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png) dokunun.
    
-   İş arkadaşlarınıza panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
+   Alıcılara panonun veya raporun doğrudan bağlantısını içeren bir davet e-postası gönderilir. Davetin süresi bir ay sonra dolar. Davet tarayıcıda veya Power BI mobil uygulamasında açıldığında, ilgili kişinin Power BI hesabının **Benimle paylaşılan** bölümüne eklenir.
    
    ![Benimle paylaşılan](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    

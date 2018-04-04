@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
 
-* [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
-* [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md)  
-* [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
+- [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
+- [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
+- Dynamics 365’ten [Business Applications Spring ‘18 sürüm notları](https://aka.ms/bagspring2018releasenotes_internal): İş uygulamalarımıza yapılan son güncelleştirmelerin yanı sıra platformumuzda uygulama ve uzantılarınızı oluşturmaya yönelik yeni özellikler. 
 
 "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanallarını da inceleyebilirsiniz.
 

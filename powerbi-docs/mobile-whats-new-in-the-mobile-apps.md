@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -35,6 +35,18 @@ ms.lasthandoff: 03/15/2018
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
 Bulunduğunuz yere verileri getirme çalışmamızda son adım olarak, Karma Gerçeklik için Power BI uygulamasını oluşturduk. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. Yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) hakkında daha fazla bilgi edinin.
+
+### <a name="share-reports-and-dashboards-externally"></a>Raporları ve panoları harici olarak paylaşın
+
+Panoları ve raporları, kuruluşunuzun dışındaki kullanıcılarla doğrudan uygulama üzerinden paylaşın. Hem kuruluş hesaplanır hem de sosyal hesaplar için harici paylaşım etkindir. 
+
+### <a name="persistent-filters"></a>Kalıcı filtreler
+
+Web üzerinde Power BI’da filtreleri ve dilimleyicileri ayarladığınızda, kaldığınız yerden devam edebilmeniz için tüm filtre tercihleriniz mobil uygulamanıza da kaydedilir.
+
+### <a name="refresh-reports-on-the-ipad"></a>iPad’de raporları yenileme
+
+Power BI raporları, artık iPad uygulamasında yenileme düğmesine sahip.
 
 ## <a name="february-2018"></a>Şubat 2018
 
