@@ -1,16 +1,16 @@
 ---
-title: "Eğitim: Birleşik Harita"
-description: "Birleşik haritalar ile ilgili bu eğitimde, birleşik haritaları ne zaman kullanacağınızın yanı sıra Power BI hizmetinde ve Power BI Desktop'ta nasıl oluşturacağınız açıklanmaktadır."
+title: 'Eğitim: Birleşik Harita'
+description: Birleşik haritalar ile ilgili bu eğitimde, birleşik haritaları ne zaman kullanacağınızın yanı sıra Power BI hizmetinde ve Power BI Desktop'ta nasıl oluşturacağınız açıklanmaktadır.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Power BI'daki Birleşik Harita (Eğitim)
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -46,7 +46,7 @@ Birleşik haritalar Power BI hizmetinde ve Power BI Desktop'ta kullanılabilir. 
 ## <a name="create-a-basic-single-axis-combo-chart"></a>Basit, tek eksenli bir Birleşik Harita oluşturma
 Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birleşik harita oluşturmaktadır.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
 <a name="create"></a> Kendi birleşik haritanızı oluşturmak için Power BI hizmetinde oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan > Panoya git** seçeneğini belirleyin.
 
