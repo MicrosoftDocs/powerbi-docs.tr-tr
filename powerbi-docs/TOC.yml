@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)
           href: desktop-shape-map.md
-        - name: İkili değerleri birleştirme
+        - name: Dosyaları birleştirme (ikili)
           href: desktop-combine-binaries.md
     - name: Verilerinizi modelleme
       items:
