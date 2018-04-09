@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Power BI Desktop'ta dilimleyiciler
           href: desktop-slicers.md
+        - name: Power BI’da düğmeleri kullanma
+          href: desktop-buttons.md
         - name: Power BI'da yer işaretleri
           href: desktop-bookmarks.md
         - name: Özel rapor araç ipuçları oluşturma (önizleme)
