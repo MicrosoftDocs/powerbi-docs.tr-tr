@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Özel görselleri sertifikalatma
           href: power-bi-custom-visuals-certified.md
+        - name: AppSource'ta özel görsel yayımlama
+          href: developer/office-store.md
     - name: Bir panoya veri gönderme
       items:
         - name: Bir panoya veri gönderme
