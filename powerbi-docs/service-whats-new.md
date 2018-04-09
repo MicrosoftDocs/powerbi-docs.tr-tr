@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -75,7 +75,7 @@ ms.lasthandoff: 03/28/2018
 ### <a name="august-2017"></a>Ağustos 2017
 * [Kullanıcı başına kullanım ölçümleri](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/) ile hedef kitlenizi tanıma.
 * Çevrimiçi hizmetler için [Power BI hizmeti](service-connect-to-services.md) uygulamalarıyla çalışmaya başlama.
-* Hem içeri aktarma hem de DirectQuery bağlantı modları için şirket içi veri ağ geçidi üzerinden IBM Netezza'ya bağlanma.
+* Hem içeri aktarma hem de DirectQuery bağlantı modları üzerinden şirket içi veri ağ geçidi ile IBM Netezza’ya bağlanın.
 * [Dynamic RLS](developer/embedded-row-level-security.md) artık Power BI Embedded için destekleniyor.
 * Özel görseller API'sinin 1.7 sürümüne gelişmiş [filtreleme API'si](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) eklendi.
 
