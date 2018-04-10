@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta OneDrive İş bağlantılarını kullanma"
-description: "Power BI Desktop'ta OneDrive İş bağlantılarını kullanma"
+title: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
+description: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 Pek çok kullanıcının OneDrive İş sürücüsünde Excel çalışma kitapları bulunur, bunlar Power BI Desktop'ta kullanmak için harika bir seçimdir. **Power BI Desktop** ile rapor ve görsel oluşturmak için **OneDrive İş**'te kayıtlı **Excel** dosyalarına ilişkin çevrimiçi bağlantıları kullanabilirsiniz. Bir **OneDrive İş** grup hesabını veya bireysel **OneDrive İş** hesabınızı kullanabilirsiniz.
@@ -59,7 +59,7 @@ Power BI Desktop'ta, panoya kopyaladığınız bağlantıyı kullanabilirsiniz. 
 Excel çalışma kitabında bulunan tablolardan, sayfalardan ve aralıklardan oluşan listeden seçim yapmanıza olanak sağlayan **Gezgin** penceresi görüntülenir. Buradan, OneDrive İş dosyasını diğer tüm Excel dosyaları gibi kullanarak rapor oluşturabilir ve diğer tüm veri kaynaklarında olduğu gibi veri kümelerinde kullanabilirsiniz.
 
 > [!NOTE]
-> **OneDrive İş** dosyasını, söz konusu dosya için **Hizmeti Yenileme** özelliği etkinleştirilmiş şekilde Power BI hizmetinde bir veri kaynağı olarak kullanmak için, yenileme ayarlarınızı yapılandırırken **Kimlik doğrulama yöntemi** olarak **OAuth2** seçeneğini belirlediğinizden emin olun. Aksi halde, bağlanma veya yenileme işlemi gerçekleştirmeye çalıştığınızda bir hata (ör. *Veri kaynağı kimlik bilgileri güncelleştirilemedi*) ile karşılaşabilirsiniz. Kimlik doğrulama yöntemi olarak **OAuth2** seçeneği belirlenerek bu kimlik bilgileri hatası önlenebilir.
+> **OneDrive İş** dosyasını, söz konusu dosya için **Hizmeti Yenileme** özelliği etkinleştirilmiş şekilde Power BI hizmetinde bir veri kaynağı olarak kullanmak için, yenileme ayarlarınızı yapılandırırken **Kimlik doğrulama yöntemi** olarak **OAuth2** seçeneğini belirlediğinizden emin olun. Aksi halde, bağlanma veya yenileme işlemi gerçekleştirmeye çalıştığınızda bir hata (örn. *Veri kaynağı kimlik bilgileri güncelleştirilemedi*) ile karşılaşabilirsiniz. Kimlik doğrulama yöntemi olarak **OAuth2** seçeneği belirlenerek bu kimlik bilgileri hatası önlenebilir.
 > 
 > 
 

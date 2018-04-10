@@ -1,15 +1,15 @@
 ---
-title: "Veri kaynağınızı yönetme - Oracle"
-description: "Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme."
+title: Veri kaynağınızı yönetme - Oracle
+description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Oracle veri kaynağını, zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz.
@@ -42,7 +42,7 @@ Power BI Desktop'ın **32 bit** sürümü için, **32 bit** Oracle istemcisini i
 
 * [Oracle Developer Tools for Visual Studio (12.1.0.2.4) ile 32 bit Oracle Data Access Components (ODAC)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-Power BI Desktop'ın **64 bit** sürümü veya şirket içi veri ağ geçidi için, **64 bit** Oracle istemcisini indirip yüklemek üzere aşağıdaki bağlantıyı kullanın:
+Power BI Desktop’ın **64 bit** sürümü veya Şirket içi veri ağ geçidi için, **64 bit** Oracle istemcisini indirip yüklemek üzere aşağıdaki bağlantıyı kullanın:
 
 * [Windows x64 için 64 bit ODAC 12.2c Sürüm 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -140,10 +140,10 @@ Veri kaynağına ilişkin Kullanıcılar sekmesinde, veri kaynağını kullanabi
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>Veri kaynağını kullanma
-Veri kaynağı, oluşturulduktan sonra DirectQuery bağlantılarıyla veya zamanlanmış yenileme yoluyla kullanılabilir.
+Oluşturduğunuz veri kaynağı, DirectQuery bağlantıları veya zamanlanmış yenileme ile kullanılabilir.
 
 > [!WARNING]
-> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop'taki sunucu adı ile veritabanı adı eşleşmelidir!
+> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adı eşleşmelidir!
 > 
 > 
 

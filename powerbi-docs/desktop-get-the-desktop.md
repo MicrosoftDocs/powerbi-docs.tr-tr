@@ -1,13 +1,13 @@
 ---
-title: "Power BI Desktop uygulamasını edinme"
-description: "Power BI Desktop uygulamasını indirme ve yükleme"
+title: Power BI Desktop uygulamasını edinme
+description: Power BI Desktop uygulamasını indirme ve yükleme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 **Power BI Desktop**'ı aşağıda açıklanan iki yöntemden birini kullanarak edinebilirsiniz:
 
 * Doğrudan **indirme** (bilgisayarınıza indirip yüklediğiniz bir MSI paketi)
-* **Microsoft Store**'dan bir uygulama olarak yükleme
+* **Microsoft Store**’dan bir uygulama olarak yükleme
 
 Her iki yöntemle de bilgisayarınıza **Power BI Desktop**'ın en son sürümünü indirmiş olursunuz ancak dikkat edilmesi gereken ve aşağıda açıklanan birkaç farklılık söz konusudur.
 
@@ -54,31 +54,32 @@ Seçtiğiniz indirme yönteminden bağımsız olarak, **Power BI Desktop**'ı in
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> **Power BI Desktop**'ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir.
+> **Power BI Desktop**’ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir.
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>Microsoft Store'dan bir uygulama olarak yükleme
-**Power BI Desktop**'ı, şu bağlantıyı kullanarak Microsoft Store'dan da edinebilirsiniz:
+## <a name="install-as-an-app-from-the-microsoft-store"></a>Microsoft Store’dan bir uygulama olarak yükleme
+**Power BI Desktop**’ı, şu bağlantıyı kullanarak Microsoft Store’dan da edinebilirsiniz:
 
-* [**Microsoft Store**'dan **Power BI Desktop**'ı yükleme](http://aka.ms/pbidesktopstore)
+* [**Microsoft Store**’dan **Power BI Desktop**’ı yükleme](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-**Power BI Desktop**'ı Microsoft Store'dan edinmenin bazı avantajları vardır:
+**Power BI Desktop**’ı Microsoft Store’dan edinmenin bazı avantajları vardır:
 
 * **Otomatik güncelleştirmeler**: Windows, en son sürümü, kullanılabilir olduğunda arka planda otomatik olarak indirir. Böylece, sürümünüz her zaman güncel kalır.
 * **Daha küçük indirmeler**: **Microsoft Store** yalnızca her güncelleştirmede değiştirilen bileşenlerin makinenize indirilmesini sağlar, bu da her güncelleştirme için daha küçük boyutta indirmeler gerçekleştirileceği anlamına gelir.
-* **Yönetici ayrıcalığı gerekmez**: MSI'yi doğrudan indirip yüklediğinizde yüklemenin başarıyla tamamlanması için bir yönetici olmanız gerekir. **Power BI Desktop**'ı Microsoft Store'dan edinirseniz yönetici ayrıcalığı gerekli *değildir*.
-* **BT tarafından kullanıma sunulabilir**: **Microsoft Store** sürümü, kuruluşunuzdaki herkese kolayca dağıtılabilir veya kolaylıkla *kullanıma sunulabilir*; bunun yanı sıra **Power BI Desktop**'a **İş için Microsoft Store** aracılığıyla da ulaşılabilir.
+* **Yönetici ayrıcalığı gerekmez**: MSI'yi doğrudan indirip yüklediğinizde yüklemenin başarıyla tamamlanması için bir yönetici olmanız gerekir. **Power BI Desktop**’ı Microsoft Store’dan edinirseniz yönetici ayrıcalığı gerekli *değildir*.
+* **BT tarafından kullanıma sunulabilir**: **Microsoft Store** sürümü, kuruluşunuzdaki herkese kolayca dağıtılabilir veya kolaylıkla *kullanıma sunulabilir*; bunun yanı sıra **Power BI Desktop**’a **İş için Microsoft Store** aracılığıyla da ulaşılabilir.
 * **Dil algılama**: **Microsoft Store** sürümü, desteklenen tüm dilleri içerir ve her başlatıldığında bilgisayarda kullanılan dilleri denetler. Bu durum, **Power BI Desktop**'ta oluşturulan modellerin yerelleştirmesini de etkiler; örneğin, yerleşik tarih hiyerarşileri, **Power BI Desktop**'ın .pbix dosyası oluşturulurken kullandığı dil ile eşleşir.
 
-**Power BI Desktop**'ı Microsoft Store'dan yükleme konusunda aşağıda verilen bazı önemli noktalar ve sınırlamalar söz konusudur:
+**Power BI Desktop**’ı Microsoft Store’dan yükleme konusunda aşağıda verilen bazı önemli noktalar ve sınırlamalar söz konusudur:
 
 * SAP bağlayıcısını kullanıyorsanız SAP sürücü dosyalarınızı *Windows\System32* klasörüne taşımanız gerekir.
+* **Power BI Desktop**, Microsoft Store’dan yüklendiğinde, MSI sürümünden kullanıcı ayarları kopyalanmaz. Yeni veri kaynaklarınıza yeniden bağlanmanız ve veri kaynağı kimlik bilgilerinizi yeniden girmeniz gerekebilir. 
 
 > [!NOTE]
-> **Power BI Desktop**'ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir.
+> **Power BI Desktop**’ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir. **Power BI Desktop**’ı **Microsoft Store**’dan indirmeden önce el ile kaldırmanız gerekir
 > 
 > [!NOTE]
 > **Power BI Desktop**'ın Power BI Rapor Sunucusu sürümü için bu makalede ele alınan sürümlerden ayrı ve farklı bir yükleme gereklidir. **Power BI Desktop**'ın Power BI Rapor Sunucusu sürümü hakkında daha fazla bilgi için [Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma](report-server/quickstart-create-powerbi-report.md) makalesine bakın.

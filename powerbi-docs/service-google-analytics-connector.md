@@ -1,15 +1,15 @@
 ---
-title: "Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı"
-description: "Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı"
+title: 'Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı'
+description: 'Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop için Google Analytics bağlayıcısı
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 **Google Analytics** bağlayıcısını kullanarak Google Analytics verilerine bağlanabilirsiniz. Bağlanmak için şu adımları uygulayın:
 
 1. **Power BI Desktop**'taki **Giriş** şerit sekmesinde **Veri Al**'ı seçin.
-2. **Veri Al** penceresinde, sol bölmedeki kategoriler arasından **Diğer**'i seçin.
+2. **Veri Al** penceresinde, sol bölmedeki kategoriler arasından **Online Services**’i seçin.
 3. Sağ bölmedeki seçimler arasından **Google Analytics**'i seçin.
 4. Pencerenin en altında bulunan **Bağlan**'ı seçin.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

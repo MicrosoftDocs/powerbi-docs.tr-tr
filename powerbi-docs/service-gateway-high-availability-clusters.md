@@ -1,15 +1,15 @@
 ---
-title: "Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri"
-description: "Kuruluşunuz için yüksek kullanılabilirlik sağlamak üzere şirket içi veri ağ geçidi kümeleri oluşturabilirsiniz."
+title: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
+description: Kuruluşunuz için yüksek kullanılabilirlik sağlamak üzere Şirket içi veri ağ geçidi kümeleri oluşturabilirsiniz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
-Kuruluşunuzun Power BI raporlarında ve panolarında kullanılan şirket içi veri kaynaklarına erişebildiğinden emin olmak için **şirket içi veri ağ geçidi** yüklemelerinin **yüksek kullanılabilirlik kümelerini** oluşturabilirsiniz. Bu tür kümeler, yöneticilerin şirket içi veri kaynaklarına erişirken tek hata noktalarından kaçınmak için ağ geçitlerini gruplandırmasına olanak sağlar. Bu makalede, şirket içi veri ağ geçitlerinin yüksek kullanılabilirlik kümelerini oluşturmak için izleyebileceğiniz adımlar ve bunları ayarlamaya yönelik en iyi uygulamalar açıklanmaktadır. Yüksek kullanılabilirlik ağ geçidi kümeleri, şirket içi veri ağ geçidinin Kasım 2017 güncelleştirmesine veya üzerine sahip olmasını gerektirir.
+Kuruluşunuzun Power BI raporlarında ve panolarında kullanılan şirket içi veri kaynaklarına erişebildiğinden emin olmak için **Şirket içi veri ağ geçidi** yüklemelerinin **yüksek kullanılabilirlik kümelerini** oluşturabilirsiniz. Bu tür kümeler, yöneticilerin şirket içi veri kaynaklarına erişirken tek hata noktalarından kaçınmak için ağ geçitlerini gruplandırmasına olanak sağlar. Bu makalede, Şirket içi veri ağ geçitlerinin yüksek kullanılabilirlik kümelerini oluşturmak için izleyebileceğiniz adımlar ve bunları ayarlamaya yönelik en iyi uygulamalar açıklanmaktadır. Yüksek kullanılabilirlik ağ geçidi kümeleri, Şirket içi veri ağ geçidinin Kasım 2017 güncelleştirmesine veya üzerine sahip olmasını gerektirir.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Ağ geçitlerinin yüksek kullanılabilirlik kümelerini ayarlama
@@ -47,7 +47,7 @@ Tüm yeni **Zamanlanan Yenileme** istekleri ve DirectQuery işlemleri otomatik o
 
 ## <a name="powershell-support-for-gateway-clusters"></a>Ağ geçidi kümeleri için PowerShell desteği
 
-PowerShell betikleri şirket içi ağ geçidi yükleme klasöründe bulunur. Bu klasör varsayılan olarak *C:\Program Files\On-premises data gateway*’dir. Bu betiklerin düzgün çalışması için PowerShell sürüm 5 veya üzerini kullanmanız gerekir. PowerShell betikleri kullanıcıların aşağıdaki işlemleri gerçekleştirmelerine olanak sağlar:
+PowerShell betikleri, Şirket içi ağ geçidi yükleme klasöründe bulunur. Bu klasör varsayılan olarak *C:\Program Files\On-premises data gateway*’dir. Bu betiklerin düzgün çalışması için PowerShell sürüm 5 veya üzerini kullanmanız gerekir. PowerShell betikleri kullanıcıların aşağıdaki işlemleri gerçekleştirmelerine olanak sağlar:
 
 -   Bir kullanıcı için kullanılabilir ağ geçidi kümelerinin listesini alma
 -   Bir kümede kayıtlı ağ geçidi örneklerinin listesini ve bunların çevrimiçi veya çevrimdışı olma durumunu alma
@@ -63,7 +63,7 @@ Tabloda PowerShell komutlarını çalıştırmak için, önce aşağıdaki adım
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
-3. Daha sonra, PowerShell penceresinde şirket içi veri ağ geçidi yükleme klasörüne gidip aşağıdaki komutu kullanarak gerekli modülü içeri aktarın:
+3. Daha sonra, PowerShell penceresinde Şirket içi veri ağ geçidi yükleme klasörüne gidip aşağıdaki komutu kullanarak gerekli modülü içeri aktarın:
 
     ```
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
@@ -73,7 +73,7 @@ Bu adımlar tamamlandığında, ağ geçidi kümelerinizi yönetmek için aşağ
 
 | **Komut** | **Açıklama** | **Parametreler** |
 | --- | --- | --- |
-| *Login-OnPremisesDataGateway* |Bu komut kullanıcının şirket içi veri ağ geçidi kümelerini yönetmek için oturum açmasına olanak sağlar.  Diğer yüksek kullanılabilirlik komutlarının düzgün çalışması için *önce* bu komutu çalıştırarak oturum açmanız gerekir. Not: Oturum açma çağrısının parçası olarak alınan AAD kimlik doğrulama belirteci 1 saat boyunca geçerlidir ve daha sonra süresi dolar. Yeni bir belirteç almak için Login komutunu yeniden çalıştırabilirsiniz.| AAD kullanıcı adı ve parolası (ilk çağırmanın değil komut yürütmenin parçası olarak sağlanır)|
+| *Login-OnPremisesDataGateway* |Bu komut, kullanıcının Şirket içi veri ağ geçidi kümelerini yönetmek için oturum açmasına olanak sağlar.  Diğer yüksek kullanılabilirlik komutlarının düzgün çalışması için *önce* bu komutu çalıştırarak oturum açmanız gerekir. Not: Oturum açma çağrısının parçası olarak alınan AAD kimlik doğrulama belirteci 1 saat boyunca geçerlidir ve daha sonra süresi dolar. Yeni bir belirteç almak için Login komutunu yeniden çalıştırabilirsiniz.| AAD kullanıcı adı ve parolası (ilk çağırmanın değil komut yürütmenin parçası olarak sağlanır)|
 | *Get-OnPremisesDataGatewayClusters* | Oturum açan kullanıcı için ağ geçidi kümelerinin listesini alır. | İsteğe bağlı olarak, daha iyi okunabilirlik için bu komuta *Format-Table -AutoSize -Wrap* gibi biçimlendirme parametreleri geçirebilirsiniz |
 | *Get-OnPremisesDataClusterGateways* | Belirtilen küme içindeki ağ geçitlerinin listesini ve her bir ağ geçidi için ek bilgileri (çevrimiçi/çevrimdışı olma durumu, makine adı vb.) alır | *-ClusterObjectID xyz*  (burada *xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilir)|
 | *Set-OnPremisesDataGateway* | Bir küme içindeki belirli bir ağ geçidi için, belirli ağ geçidi örneğini Etkinleştirme/Devre Dışı Bırakma dahil, özellik değerlerini ayarlamanıza olanak sağlar  | *-ClusterObjectID xyz* (*xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilmelidir) *-GatewayObjectID abc*  (*abc*, belirli bir küme nesnesi kimliği için *Get-OnPremisesDataClusterGateways* komutu kullanılarak alınabilen gerçek bir ağ geçidi nesnesi kimliği değeriyle değiştirilmelidir) |
@@ -90,7 +90,7 @@ Bu adımlar tamamlandığında, ağ geçidi kümelerinizi yönetmek için aşağ
 -   [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
 -   [Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
 -   [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-personal-mode.md)
--   [Şirket içi veri ağ geçidi için proxy ayarlarını yapılandırma](service-gateway-proxy.md)  
+-   [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  
 -   [Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

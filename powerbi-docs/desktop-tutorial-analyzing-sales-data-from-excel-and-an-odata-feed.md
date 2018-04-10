@@ -1,15 +1,15 @@
 ---
 title: "Eğitim: Power BI Desktop'ta bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme"
-description: "Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme"
+description: 'Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme
 **Power BI Desktop**'ı kullanarak her türden farklı veri kaynağına bağlanabilir ve ardından, bunları ilgi çekici veri çözümlemeleri ve görselleştirmeler oluşturmayı kolay hale getiren yöntemlerle birleştirebilir ve şekillendirebilirsiniz. Bu eğitimde, iki veri kaynağından elde edilen verileri birleştirmeyi öğreneceksiniz. 
@@ -133,7 +133,7 @@ Her bir **Order\_Details** satırı için satır toplamını hesaplama:
 1. **Sütun Ekle** şerit sekmesinde, **Ekle** **Özel Sütun** seçeneğine tıklayın.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. **Özel Sütun Ekle** iletişim kutusundaki **Özel Sütun Formülü** metin kutusuna **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]** girin.
+2. **Özel Sütun Ekle** iletişim kutusundaki **Özel Sütun Formülü** metin kutusuna **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]** girin
 3. **Yeni sütun adı** metin kutusuna **LineTotal** girin.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

@@ -1,15 +1,15 @@
 ---
-title: "Alman kamu müşterileri için Power BI hakkında Sık Sorulan Sorular"
-description: "Alman kamu müşterileri için, Power BI Alman kamu hizmeti hakkında sık sorulan soruların cevapları"
+title: Alman kamu müşterileri için Power BI hakkında Sık Sorulan Sorular
+description: Alman kamu müşterileri için, Power BI Alman kamu hizmeti hakkında sık sorulan soruların cevapları
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -43,7 +43,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
 4. **Almanya bulutu için Power BI hizmetinde ücretsiz hizmet seçeneği var mı?**
    
    Hayır. Almanya bulutu için Power BI hizmetinde ücretsiz lisans sürümü sunmuyoruz. Ancak, işletmenizin ihtiyaçları Power BI ücretsiz sürümüne uygunsa [genel bulutumuzdaki Power BI ücretsiz teklifine](https://powerbi.microsoft.com/get-started/) kaydolmanızı öneriyoruz.
-5. **Power BI Desktop, Power BI Mobil, şirket içi veri ağ geçidi ve Excel için Publisher uygulamalarını Almanya bulutu için Power BI hizmetiyle kullanabilir miyim?**
+5. **Power BI Desktop, Power BI Mobil, Şirket içi veri ağ geçidi ve Excel için Publisher uygulamalarını Almanya için Power BI hizmeti bulutu ile kullanabilir miyim?**
    
    Evet. Power BI istemci ürünlerimizi Almanya bulutu için Power BI hizmetiyle sorunsuz çalışacak şekilde güncelleştirdik. Aynı hizmetleri Almanya bulutu için Power BI hizmetiyle kullanmaya başlamak istiyorsanız lütfen Almanya bulutu için Power BI hizmeti hesabınızda oturum açın. İstemci ürünlerinin son sürümünü şu konumlardan indirebilirsiniz:
    

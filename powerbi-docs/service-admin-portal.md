@@ -1,28 +1,28 @@
 ---
-title: "Power BI yönetici portalı"
-description: "Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir."
+title: Power BI yönetici portalı
+description: Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -148,7 +148,7 @@ Bir dış kullanıcıyla paylaştığınızda görünecek ileti aşağıdaki gib
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Web'de yayımlama
+### <a name="publish-to-web"></a>Web'de yayımla
 
 Kuruluştaki kullanıcılar web'de rapor yayımlayabilir. [Daha fazla bilgi](service-publish-to-web.md)
 
@@ -163,7 +163,7 @@ Kullanıcılar, web'de yayımlama ayarına göre kullanıcı arabiriminde farkl�
 |Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum olarak **Devre dışı** görüntülenir|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
 
-### <a name="export-data"></a>Verileri dışarı aktarma
+### <a name="export-data"></a>Verileri dışarı aktar
 
 Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. [Daha fazla bilgi](power-bi-visualization-export-data.md)
 
@@ -326,8 +326,8 @@ Görseli depodan kalıcı olarak silmek için çöp kutusu simgesini seçin.
  
 ### <a name="how-to-update-a-visual"></a>Karşıya görsel yükleme
 
-Depodaki bir görselin yeni bir sürümü çıktığı için değiştirilmesi gerekiyorsa (örn. hata düzeltmeleri, yeni işlevler, vb.), yeni dosyayı listedeki yeni bir girdi olarak karşıya yükleyin (Görsel Kimliğinin aynı kaldığından emin olun), başlık ve açıklamada doğru ayrıntıları (örn. "Görselim v2.0") sağladığınızdan emin olun. Kullanıcılar Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
- 
+Görselin yeni bir sürümü bulunduğundan, depodaki bir görseli (örn. hata düzeltmeleri, yeni işlevler vb.) güncelleştirmek istiyorsanız **Güncelleştir** simgesini seçin ve yeni dosyayı karşıya yükleyin. Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI yönetici rolünü anlama](service-admin-role.md)  

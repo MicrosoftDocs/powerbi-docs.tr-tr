@@ -2,14 +2,14 @@
 title: "Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 description: "Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,242 +18,192 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma
-Power BI Desktop'taki en etkili veri çözümleme çözümlerinin bazıları ölçüler kullanılarak oluşturulabilir. Ölçüler, raporlarımızla etkileşim kurarken hesaplamalar gerçekleştirmemize yardımcı olur. Bu eğitim, Power BI Desktop'taki temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.
+Power BI Desktop’taki en güçlü veri analizi çözümlerinin bazılarını ölçüler kullanarak oluşturabilirsiniz. Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur. Bu öğretici, Power BI Desktop’ta temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.
 
-Bu makale, Power BI Desktop'ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden çok ilişkili tabloyla çalışmak ve Rapor Tuvali'ne alan eklemek için Veri Al ve Sorgu Düzenleyicisi özelliklerini kullanmaya alışmış olmanız gerekir. Power BI Desktop'ı kullanmaya yeni başladıysanız, [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) başlıklı makaleye mutlaka göz atın.
+### <a name="prerequisites"></a>Önkoşullar
+- Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden çok ilişkili tabloyla çalışmak ve Rapor Tuvali'ne alan eklemek için Veri Al ve Sorgu Düzenleyicisi özelliklerini kullanmaya alışmış olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
+  
+- Contoso, Inc. adlı kurgusal şirketin çevrimiçi satış verilerini içeren [Power BI Desktop için Contoso Satış Örneği](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirin. Bu veriler bir veritabanından içeri aktarıldığından veri kaynağına bağlanamaz veya verileri Sorgu Düzenleyicisi’nde görüntüleyemezsiniz. Dosyayı bilgisayarınızda ayıklayıp Power BI Desktop’ta açın.
 
-Bu eğitimdeki adımları tamamlamak için, [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirmeniz gerekir. Contoso, Inc. adlı kurgusal şirketin çevrimiçi satış verileri zaten girilmiş durumdadır. Dosyadaki veriler bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamaz veya bunu Sorgu Düzenleyicisi'nde görüntüleyemezsiniz. Bilgisayarınıza indirdiğiniz dosyayı Power BI Desktop'ta açın.
+## <a name="understand-measures"></a>Ölçüleri anlama
 
-## <a name="what-are-these-measures-all-about"></a>Ölçüler ne işe yarar?
-Ölçüler çoğu durumda bizim için otomatik olarak oluşturulur. Örneğin, alan listesindeki **Sales** tablosunda bulunan **SalesAmount** alanının yanındaki onay kutusunu seçtiğimizde veya **SalesAmount** alanını Rapor tuvaline sürüklediğimizde...
+Ölçüler çoğu zaman sizin için otomatik olarak oluşturulur. Contoso Satış Örneği dosyasında, Alanlar bölümündeki **Satış** tablosunda yer alan **SalesAmount** alanının yanındaki onay kutusunu seçin veya **SalesAmount** değerini rapor tuvaline sürükleyin. Satış tablosunun SalesAmount sütununda yer alan tüm değerlerin toplamını gösteren yeni bir sütun grafiği görselleştirmesi görüntülenir.
 
-![](media/desktop-tutorial-create-measures/measurestut_salesamountinfieldlist.png)
+![SalesAmount grafiği](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-Aşağıdakine benzer yeni bir grafik görselleştirmesi görünür:
+Alanlar bölümünde sigma simgesiyle görüntülenen alanlar ![sigma simgesi](media/desktop-tutorial-create-measures/meastut_sigma.png) sayısaldır ve değerleri toplanabilir. Power BI Desktop, iki milyon satır SalesAmount değeri içeren bir tablo göstermek yerine bir sayısal veri türü algıladı ve verileri toplamak için otomatik olarak bir ölçü oluşturup hesapladı. Toplam, bir sayısal veri türü için varsayılan toplamadır, ancak ortalama veya sayım gibi farklı toplamaları kolayca uygulayabilirsiniz. Her ölçü bir tür toplama işlemi gerçekleştirdiğinden, toplama işlemlerini anlamak ölçüleri anlamaktan geçer. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
+Grafik toplamasını ortalama olarak değiştirmek için, Görsel Öğeler bölmesinin **Değer** alanında **SalesAmount**’un yanındaki aşağı oka tıklayıp **Ortalama**’yı seçin. Görselleştirme, SalesAmount alanındaki tüm satış değerlerinin ortalamasını gösterecek şekilde değişir.
 
-SalesAmount alanındaki toplam satış tutarı değerlerinin toplamını gösteren bir Sütun grafiği elde ederiz.  SalesAmount alanımız aslında içeri aktarmış olduğumuz Sales tablosundaki SalesAmount adlı bir sütundur.
+![SalesAmount ortalama grafiği](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-SalesAmount sütunu iki milyonun üzerinde satış değeri satırı içerir. Neden tüm bu değerlere ilişkin satırları içeren bir tablo görmediğinizi merak ediyor olabilirsiniz. Power BI Desktop SalesAmount sütunundaki tüm değerlerin sayısal veri türünde olduğunu ve büyük olasılıkla bu değerleri bir şekilde (toplama, ortalama, sayma vb.) toplamak isteyeceğinizi algılar.
+Toplama türünü, istediğiniz sonuca bağlı olarak değiştirebilirsiniz, ancak tüm toplama türleri her sayısal veri türü için geçerli değildir. Örneğin, SalesAmount alanı için Toplam ve Ortalama kullanılabilir. Minimum ve Maksimum da kullanılabilir işlemler olarak yer alır. Ancak SalesAmount alanının değerleri sayısal olmasına rağmen satış tutarları ifade ettiğinden Sayım işlemi bu alan için pek bir anlam ifade etmez.
 
-Alanlar listesindeki bir alanın yanında bulunan sigma simgesi ![](media/desktop-tutorial-create-measures/meastut_sigma.png), bu alanın sayısal olduğu ve içerdiği değerlerin toplanabildiği anlamına gelir. Bu örnekte SalesAmount alanını seçtiğimizde, Power BI Desktop kendi ölçüsünü oluşturur ve tüm satış tutarlarının toplamı hesaplanarak grafiğimizde görüntülenir.
+Ölçülerden hesaplanan değerler, raporla etkileşimlerinize bağlı olarak değişiklik gösterir. Örneğin, **Geography** tablosundan **RegionCountryName** alanı grafiğinize sürüklendiğinde, her bir ülke için ortalama satış tutarları gösterilir.
 
-Toplam, sayısal veri türüne sahip bir alan seçildiğinde belirlenen varsayılan toplama işlemidir ancak bunu oldukça kolay bir şekilde farklı bir toplama türüyle değiştirebiliriz.
+![Ülkeye Göre SaleAmount](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-**Değer** alanında, **SalesAmount** alanının yanındaki aşağı oka tıklamamız halinde **Ortalama** seçeneğini belirleyebiliriz.
+Raporunuzla bir etkileşim nedeniyle bir ölçünün sonucu değiştiğinde, ölçünüzün *bağlamını* etkilemiş olursunuz. Rapor görselleştirmelerinizle her etkileşime geçtiğinizde, bir ölçünün hesaplama yaptığı ve bu hesaplamanın sonuçlarını görüntülediği bağlamı değiştirmiş olursunuz.
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaverage.png)
+## <a name="create-and-use-your-own-measures"></a>Kendi ölçülerinizi oluşturma ve kullanma
 
-Görselleştirmemiz, SalesAmount alanındaki tüm satış değerlerinin ortalamasını gösterecek şekilde değişir.
+Çoğu durumda Power BI, seçtiğiniz alan ve toplama türlerine göre otomatik olarak değerleri hesaplar ve döndürür, ancak bazı durumlarda daha karmaşık, benzersiz hesaplamalar gerçekleştirmek için kendi ölçülerinizi oluşturmak isteyebilirsiniz. Power BI Desktop ile kendi ölçülerinizi oluştururken Veri Çözümleme İfadeleri (DAX) formül dilini kullanabilirsiniz. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+DAX formülleri, Excel formüllerinde de bulunan birçok işlevi, işleci ve söz dizimini kullanır. Ancak DAX işlevleri, ilişkisel verilerle çalışacak ve raporlarınızla etkileşime geçtiğimiz sırada daha dinamik hesaplamalar gerçekleştirecek şekilde tasarlanmıştır. Toplam ve Ortalama gibi basit toplama işlemlerinden daha karmaşık istatistik ve filtreleme işlevlerine kadar her şeyi yapan 200’ün üzerinde DAX işlevi vardır. DAX hakkında daha fazla bilgi edinmenize yardımcı olacak birçok kaynak vardır. Bu öğreticiyi tamamladıktan sonra [Power BI Desktop’ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md) makalesine göz atmayı unutmayın.
 
-Toplama türünü, elde etmek istediğimiz sonuca bağlı olarak değiştirebiliriz ancak tüm toplama türleri her sayısal veri türü için geçerli değildir. Örneğin, SalesAmount alanımız için Toplam ve Ortalama kullanılabilir. Minimum ve Maksimum da kullanılabilir işlemler olarak yer alır. Ancak SalesAmount alanımızın değerleri sayısal olmasına rağmen satış tutarları ifade ettiğinden Sayı işlemi bu alan için pek bir anlam ifade etmez.
+Kendi ölçünüzü oluşturduğunuzda bu ölçü, seçtiğiniz tablonun Alanlar listesine eklenir ve *model* ölçüsü olarak adlandırılır. Model ölçülerinin avantajlarından bazıları, bunlara istediğiniz adı vererek daha kolay tanımlanabilmesini sağlayabilmeniz; diğer DAX ifadelerinde bunları bağımsız değişken olarak kullanabilmeniz ve karmaşık hesaplamaları çok hızlı şekilde gerçekleştirmelerini sağlayabilmenizdir.
 
-Her ölçü bir tür toplama işlemi gerçekleştirdiğinden, toplama işlemlerini anlamak ölçüleri anlamaktan geçer. Biraz sonra kendi ölçülerinizden bazılarını oluştururken, toplama işlemi türlerinden Toplam'ı kullanmaya ilişkin daha fazla örneği inceleyeceğiz.
+>[!TIP]
+>Power BI Desktop’ın Şubat 2018 sürümünden itibaren birçok genel hesaplama, **hızlı ölçüler** olarak kullanılabilir ve bir iletişim kutusuna girdilerinize dayanarak sizin için DAX formüllerini yazabilir. Bu hızlı ve güçlü hesaplamalar, DAX’ı öğrenmek ve kendi özelleştirilmiş ölçülerinizin çekirdeğini oluşturmak için de mükemmeldir. Hızlı ölçüler oluşturmak veya keşfetmek için, bir tablonun **Diğer seçenekler** listesinden veya şeridin Giriş sekmesindeki **Hesaplamalar** bölümünden **Yeni hızlı ölçü** seçeneğini belirleyin. Hızlı ölçüleri oluşturma ve kullanma hakkında daha fazla bilgi için [Hızlı ölçüleri kullanma](desktop-quick-measures.md) bölümüne bakın.
 
-Ölçülerden hesaplanan değerler, raporla etkileşimlerimize bağlı olarak her zaman değişiklik gösterir. Örneğin, **Geography** tablosundaki **RegionCountryName** alanını grafiğimize sürüklersek her bir ülke için satış tutarları ortalanarak görüntülenir.
+### <a name="create-a-measure"></a>Ölçü oluşturma
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
+Toplam satış miktarından indirimleri ve iadeleri çıkararak net satışınızı analiz etmek istersiniz. Görselleştirmenizde ne için bağlam olursa olsun, SalesAmount toplamından DiscountAmount ve ReturnAmount toplamını çıkaran bir ölçü gerekir. Alanlar listesinde Net Satış için bir alan yoktur, ancak net satışı hesaplamak için kendi ölçünüzü oluşturmak üzere yapı taşlarınız vardır. 
 
-Raporla etkileşimimiz sonucunda bir ölçünün sonucu değiştiğinde, ölçümüzün *bağlamını* etkilemiş oluruz. Aslında, raporunuzla her etkileşime geçtiğinizde, bir ölçünün hesaplama yaptığı ve bu hesaplamanın sonuçlarını görüntülediği bağlamı değiştirmiş olursunuz.
-
-Çoğu durumda Power BI, üzerine düşeni yaparak, eklediğimiz alanlara ve seçtiğimiz toplama türlerine göre hesaplama yapar ve değerler döndürür. Ancak geri kalan durumlarda, daha karmaşık, benzersiz hesaplamalar gerçekleştirmek için kendi ölçülerinizi oluşturmanız gerekebilir.
-
-Power BI Desktop ile kendi ölçülerinizi oluştururken Veri Çözümleme İfadeleri (DAX) formül dilini kullanırsınız. DAX formülleri Excel formülleriyle oldukça benzerdir. Aslında DAX, Excel formüllerinde de bulunan birçok işlevi, işleci ve söz dizimini kullanır. Ancak DAX işlevleri, ilişkisel verilerle çalışacak ve raporlarımızla etkileşime geçtiğimiz sırada daha dinamik hesaplamalar gerçekleştirecek şekilde tasarlanmıştır.
-
-Toplam ve Ortalama gibi basit toplama işlemlerinden daha karmaşık istatistik ve filtreleme işlevlerine kadar her şeyi yapan 200'ün üzerinde DAX işlevi vardır. Bu makalede DAX diliyle ilgili çok fazla ayrıntıya girmeyecek olsak da daha fazla bilgi edinmenize yardımcı olacak birçok kaynağa ulaşabilirsiniz. Bu eğitimi tamamladıktan sonra [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md) makalesine göz atmayı unutmayın.
-
-Kendi oluşturduğumuz ölçüler, tercih ettiğimiz tabloya ilişkin Alanlar listesine eklenir. Bunlar *model* ölçüsü olarak bilinir ve tablomuzda bir alan olarak yer alır. Model ölçülerinin harika avantajlarından biri de bunları istediğimiz gibi adlandırarak daha tanımlanabilir hale getirebilmemizdir. Ayrıca bu ölçüleri diğer DAX ifadelerinde bağımsız değişken olarak kullanabilir ve daha karmaşık hesaplamaları hızla gerçekleştiren ölçüler oluşturabiliriz.
-
-## <a name="lets-create-our-own-measure"></a>Artık kendi ölçümüzü oluşturmamıza ne dersiniz?
-Net satışlarımızı çözümlemek istediğimizi varsayalım. Alan listesindeki Sales tablomuza baktığımızda, NetSales adlı bir alanın bulunmadığını görürüz. Ancak net satışları hesaplamak üzere kendi ölçümüzü oluşturmak için gereken yapı taşlarına sahibiz.
-
-Satış tutarlarından indirimleri ve iadeleri çıkarmak için bir ölçüye ihtiyacımız var. Ölçümüzün görselleştirmemizde bulunan bağlama ilişkin bir sonucu hesaplamasını istediğimizden, DiscountAmount ve ReturnAmount toplamını SalesAmount toplamından çıkarmamız gerekir. Bu şu anda biraz kafa karıştırıcı gelebilir ancak endişelenmenize gerek yok, kısa bir süre sonra daha iyi anlamaya başlayacaksınız.
-
-### <a name="net-sales"></a>Net satışlar
-1.  Alan listesindeki **Sales** tablosuna sağ tıklayın veya bu bölümdeki aşağı oka tıklayın ve ardından **Yeni Ölçü** seçeneğine tıklayın. Böylece yeni ölçümüz, onu daha kolay bir şekilde bulabileceğimiz Sales tablosuna kaydedilir.
+1.  Alanlar bölümünde **Satış** tablosuna sağ tıklayın veya imleci tablonun üzerine getirip **Diğer seçenekler** üç noktasını (...) ve sonra **Yeni Ölçü**’yü seçin. Böylece yeni ölçünüz, daha kolay bir şekilde bulabileceğiniz Satış tablosuna kaydedilir.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
+    ![Yeni ölçü](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    > [!TIP]
-    > Power BI Desktop'ın Giriş sekmesindeki Yeni Ölçü düğmesine tıklayarak da yeni bir ölçü oluşturabilirsiniz.
-    > 
-    > ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
-    > 
-    > Şeritten bir ölçü oluşturduğunuzda söz konusu ölçü tablolardan herhangi birinde oluşturulabilir. Ölçülerin belirli bir tabloya ait olması gerekmez ancak ölçüleri sizin için en mantıklı gelen tabloda oluşturmanız halinde bunları bulmanız daha kolay olur. Ölçünün belirli bir tabloda bulunmasını istiyorsanız öncelikle tabloya tıklayarak tabloyu etkin hale getirin. Ardından,Yeni Ölçü'ye tıklayın. Bu örnekte, ilk ölçümüzü Sales tablosunda oluşturacağız.
-    > 
-    > 
+    Power BI Desktop şeridinin Giriş sekmesindeki Hesaplamalar grubunda **Yeni Ölçü**’yü seçerek de yeni bir ölçü oluşturabilirsiniz.
     
-    Formül çubuğu, Rapor Tuvali'nin en üst kısmında görünür. Burada ölçümüzü yeniden adlandırabilir ve bir DAX formülü girebiliriz.
+    ![Şeritteki yeni ölçü](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
+    >[!TIP]
+    >Şeritte bir ölçü oluşturduğunuzda bu ölçü herhangi bir tabloda oluşturulabilir; ancak bunu kullanmayı planladığınız yerde oluşturursanız bulmanız da kolaylaşır. Bu durumda, ilk olarak Satış tablosunu seçerek etkinleştirin ve sonra **Yeni Ölçü**’yü seçin. 
     
-    Yeni ölçümüze bir ad verelim. Yeni ölçülere varsayılan olarak Ölçü adı verilir. Oluşturduğumuz ölçüyü yeniden adlandırmadan başka ölçüler oluşturursak bunlar Ölçü 2, Ölçü 3 vb. şekilde adlandırılır. Ölçülerimizin daha tanımlanabilir olmasını istediğimizden yeni ölçümüzü Net Sales olarak adlandıralım.
+    Formül çubuğu, Rapor tuvalinin üst kısmında görüntülenir. Burada, ölçünüzü yeniden adlandırabilir ve bir DAX formülü girebilirsiniz.
     
-2. Formül çubuğunda **Ölçü**'yü vurgulayın ve ardından **Net Sales** yazın.
+    ![Formül çubuğu](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-    Artık formülümüzü girmeye başlayabiliriz.
+2.  Yeni ölçülere varsayılan olarak Ölçü adı verilir. Yeniden adlandırmazsanız, ek yeni ölçüler Ölçü 2, Ölçü 3 olarak adlandırılır ve bu şekilde devam eder. Ölçülerinizin daha kolay tanımlanabilmesini istersiniz. Bu nedenle formül çubuğundaki **Ölçü**’yü vurgulayın ve **Net Satış** yazın.
     
-3.  Eşittir işaretinden sonra **S** yazın. S harfi ile başlayan bütün DAX işlevlerini içeren bir açılan öneri listesi görürsünüz. Yazdığımız her bir harfle, öneri listesi, ihtiyacımız olan işleve yaklaşarak küçülür. Aşağı kaydırıp **SUM** seçeneğini belirleyin ve ardından Enter tuşuna basın.
+3.  Artık formülünüzü girmeye başlayabilirsiniz. Eşittir işaretinden sonra **Toplam** yazmaya başlayın. Siz yazarken, yazdığınız harflerle başlayan tüm DAX işlevlerini gösteren bir açılan öneri listesi görüntülenir. Gerekirse, sayfayı aşağı kaydırarak listeden **SUM**’ı seçin ve Enter tuşuna basın.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
+    ![SUM seçin](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
     
-    Enter tuşuna basmamızın ardından bir açma ayracı ve SUM işlevine geçirebileceğimiz tüm kullanılabilir sütunların bulunduğu başka bir öneri listesi görünür.
+    Bir açma ayracı ve SUM işlevine geçirebileceğimiz tüm kullanılabilir sütunların bulunduğu başka bir açılır öneri listesi görünür.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
+    ![Sütun seçin](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    İfadeler her zaman bir açma ayracı ve kapatma ayracı arasında yer alır. Bu örnekteki ifademiz, SUM işlevine geçirilecek tek bir ifade (toplanacak bir sütun) içerecek. İstediğimiz sütunun ilk harflerini yazarak sütun listemizi daraltabiliriz. Bu örnekte SalesAmount sütununu istediğimizden salesam yazmaya başladığımızda listemiz küçülür ve seçebileceğimiz iki öğe sunulur. Bunlar aslında aynı sütuna yöneliktir. Ölçümüzü SalesAmount sütununun bulunduğu tabloda oluşturduğumuzdan öğelerden biri yalnızca [SalesAmount] ifadesini gösterir. Diğeri ise sütun adının önünde bulunan tablo adıdır.
+    İfadeler her zaman bir açma ayracı ve kapatma ayracı arasında görüntülenir. İfadeniz, SUM işlevine geçirilecek tek bir bağımsız değişken içerir: SalesAmount sütunu. Listede yalnızca Sales(SalesAmount) değeri kalıncaya kadar "SalesAmount" yazmaya başlayın. Başında tablo adı bulunan sütun adına, sütunun *tam adı* denir. Tam nitelikli sütun adları, formüllerinizin okunmasını kolaylaştırır. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
-    
-    Genel olarak, sütunların tam adlarını girmekte yarar vardır. Bu sayede, formülleriniz daha kolay okunabilir.
+    ![SalesAmount seçin](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
 4. **Sales[SalesAmount]** seçeneğini belirleyin ve bir kapatma ayracı girin.
     
     > [!TIP]
-    > Söz dizimi hataları genellikle, eksik veya yanlış yerleştirilmiş bir kapatma ayracından kaynaklanır.
-    > 
-    > 
+    > Söz dizimi hatalarının sebebi genellikle eksik veya yanlış yerleştirilmiş bir kapanış parantezidir.
     
-    Şimdi de diğer iki sütunumuzu çıkaralım.
     
-5.  İlk ifademizdeki kapatma ayracından sonra bir boşluk girin ve ardından başka bir boşluk karakterinin izlediği bir eksi işleci (**-**) girin. Ardından, bağımsız değişken olarak **Sales[DiscountAmount]** sütununun yer aldığı başka bir SUM işlevi girin.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
+5.  Diğer iki sütunu çıkarmak için:
+    1. İlk ifadedeki kapatma ayracından sonra bir boşluk girin, ardından eksi işleci (**-**) ve başka bir boşluk girin. 
+    2. Başka bir SUM işlevi girin ve bağımsız değişken olarak **Sales[DiscountAmount]** sütununu seçebilinceye kadar "DiscountAmount" yazmaya başlayın. Kapatma ayracı ekleyin. 
+    3. Bir boşluk, başka bir eksi işleci, boşluk, bağımsız değişken olarak **Sales[ReturnAmount]** içeren başka bir SUM işlevi ve bir kapatma ayracı girin.
     
-    Formülümüz için sahip olduğumuz alan azalmaya başladı. Hiç sorun değil.
+    ![Formülü tamamlama](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  Formül çubuğunun sağındaki aşağı yönde köşeli çift ayraca tıklayın.
+6.  Formülü tamamlamak ve doğrulamak için Enter tuşuna basın veya formül çubuğundaki onay işaretine tıklayın. Doğrulanmış ölçü artık Satış tablosu için Alan listesinde kullanılmaya hazırdır. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
+    ![Alan listesindeki ölçü](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
-    Artık daha fazla alana sahibiz. Alt-Enter tuşlarına basarak formülümüzün yeni kısımlarını yeni bir satıra girebiliriz. Ayrıca Tab tuşunu kullanarak formül parçalarını yana da kaydırabiliriz.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
-    
-    Şimdi formülümüzün son kısmını ekleyebiliriz.
-    
-7.  Bağımsız değişken olarak **Sales[ReturnAmount]** sütununun bulunduğu başka bir SUM işlevi tarafından izlenen bir eksi işleci daha ekleyin.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
-    
-    Formülümüz artık hazır gibi görünüyor.
+Formül girecek alanınız kalmazsa veya formülün ayrı satırlarda olmasını istiyorsanız, daha fazla alan açmak için formül çubuğunun sağ tarafındaki aşağı köşeli çift ayracı seçin.
 
-8.  İşlemi tamamlamak için Enter tuşuna basın veya formül çubuğundaki onay işaretine tıklayın. Formül doğrulanır ve Sales tablosundaki alan listesine eklenir.
+![Formül köşeli çift ayracı](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
 
-### <a name="lets-add-our-new-measure-to-a-report"></a>Yeni ölçümüzü bir rapora ekleyelim
-Artık Net Sales ölçümüzü rapor tuvaline ekleyebiliriz. Böylece, net satışlar, rapora eklediğimiz diğer tüm alanlar için de hesaplanır. Şimdi de ülkelere göre net satışlara bakalım.
+**Alt-Enter** tuşlarına basarak formülünüzü farklı satırlara bölebilir veya **Tab** tuşunu kullanarak öğeleri taşıyabilirsiniz.
 
-1.  **Sales** tablosundaki **Net Sales** ölçüsünü Rapor tuvaline sürükleyin.
+![Genişletilmiş formül](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
+
+### <a name="use-your-measure-in-the-report"></a>Raporda ölçünüzü kullanma
+Artık Net Satış ölçünüzü rapor tuvaline ekleyebilir ve rapora eklediğiniz diğer tüm alanlar için net satışı hesaplayabilirsiniz. Ülkeye göre net satışı görmek için:
+
+1. **Satış** tablosundan **Net Satış** ölçüsünü seçip rapor tuvaline sürükleyin.
     
-2. Şimdi ise **Geography** tablosundaki **RegionCountryName** alanını grafiğe sürükleyin.
+2. **Coğrafya** tablosundan **RegionCountryName** alanını seçin veya grafiğe sürükleyin.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
+    ![Ülkeye Göre Net Satış](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-    Biraz daha veri ekleyelim.
+Ülkeye göre toplam satış ile net satış arasındaki farkı görmek için, **SalesAmount** alanını seçin veya grafiğe sürükleyin. 
+
+![Ülkeye Göre Net Satış ve Satış Miktarı](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
+
+Grafik şimdi iki ölçü kullanır: otomatik olarak toplanan SalesAmount ve oluşturduğunuz Net Satış ölçüsü. Her ölçü, başka bir alan (RegionCountryName) bağlamında hesaplanmıştır.
     
-3.  Net satışlar ve satış tutarı arasındaki farkı görmek için **SalesAmount** alanını grafiğe sürükleyin.
+### <a name="use-your-measure-with-a-slicer"></a>Dilimleyici ile ölçünüzü kullanma
+
+Net satışı ve satış miktarlarını takvim yılına göre filtrelemek için bir dilimleyici ekleyebilirsiniz.
     
-    Artık gerçekten de grafiğimizde iki ölçü var. Otomatik olarak toplanmış olan SalesAmount ölçüsü ve kendi oluşturduğumuz Net Sales ölçüsü. Her iki durumda da sonuçlar, grafiğimizde bulunan başka bir alan bağlamında (RegionCountryName sütunundaki ülkeler) hesaplanmıştır.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
-    
-    Net satışlarımızın ve satış tutarlarımızın takvim yılına göre dağılımını görebilmek için bir Dilimleyici ekleyelim.
-    
-4.  Grafiğin yanındaki boş bir alana ve ardından, **Görsel Öğeler** bölmesindeki Tablo görselleştirmesine tıklayın.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktablevisbutton.png)
-    
-    Bu işlemden sonra Rapor tuvalinde boş bir tablo görselleştirmesi oluşturulur.
+1.  Grafiğin yanındaki boş bir alana tıklayın, ardından **Görsel Öğeler** bölmesindeki **Tablo** görselleştirmesini seçin. Bu işlemden sonra rapor tuvalinde boş bir tablo görselleştirmesi oluşturulur.
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-5.  **Calendar** tablosundaki **Year** alanını yeni boş tabloya sürükleyin.
+2.  **Takvim** tablosundaki **Yıl** alanını yeni boş tablo görselleştirmesine sürükleyin. Yıl bir sayısal alan olduğundan, Power BI Desktop kendi değerlerini toplar, ancak bir toplama kadar anlam ifade etmez. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
+    ![Yıl toplama](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-    Year sayısal bir alan olduğundan, Power BI Desktop bu alanın değerlerini toplamış ve bize bir grafik sunmuştur. Ancak bu, bir Dilimleyici kadar işlevsel değildir.
+3.  Görsel Öğeler bölmesindeki **Değerler** alanında, **Yıl**’ın yanındaki aşağı oku seçin ve **Özetleme** seçeneğini belirleyin. Tablo şimdi tek tek yılları listeler.
     
-6. **Değerler** bölümünde, **Year** alanının yanındaki aşağı oka ve ardından **Özetleme**'ye tıklayın.
+    ![Özetleme](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
-    
-    Artık tablo görselleştirmemizdeki Year alanını bir Dilimleyici olarak değiştirebiliriz.
+4.  Tabloyu dilimleyiciye dönüştürmek için Görsel Öğeler bölmesindeki **Dilimleyici** simgesini seçin.
 
-    7.  **Görsel Öğeler** bölmesinde, **Dilimleyici** görselleştirmesine tıklayın.
+    ![Dilimleyici olarak değiştirme](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
+    
+5.  **Ülkeye Göre Net Satış ve Satış Miktarı** grafiğini uygun şekilde filtrelemek için **Yıl** dilimleyicisinde herhangi bir değer seçin. Net Satış ve SalesAmount ölçüleri, seçilen Yıl alanı bağlamında sonuçları yeniden hesaplar ve görüntüler. 
+    
+    ![Yıla göre dilimlenmiş grafik](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
-    
-    Artık Year Dilimleyicisi'ne sahibiz. Herhangi bir yılı veya bir grup yılı seçerek raporumuzun görselleştirmelerinin uygun şekilde dilimlenmesini sağlayabiliriz.
-    
-8. **2013**'e tıklayın. Grafiğin değiştiğini görürsünüz. Net Sales ve SalesAmount ölçülerimiz, yalnızca 2013 için yeni sonuçları gösterecek şekilde yeniden hesaplanır. Böylece, ölçülerimizin hesaplandığı ve sonuçları görüntülediği bağlamı tekrar değiştirmiş olduk.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
+### <a name="use-your-measure-in-another-measure"></a>Ölçünüzü başka bir ölçüde kullanma
 
-## <a name="lets-create-another-measure"></a>Başka bir ölçü oluşturalım
-Kendi ölçülerinizi oluşturmayı öğrendiğinize göre, bir tane daha oluşturalım.
+Satılan birim başına en yüksek net satış miktarına sahip olan ürünleri bulmak istediğinizden, net satışı, satılan birim miktarına bölen bir ölçü gerekir. Net Satış ölçünüzün sonucunu, Sales[SalesQuantity] toplamına bölen yeni bir ölçü oluşturabilirsiniz.
 
-### <a name="net-sales-per-unit"></a>Birim başına net satışlar
-Peki ya birim başına en çok satışın hangi ürünlerde yapıldığını bulmak istesek?
+1.  Satış tablosunda **Birim Başına Net Satış** adlı yeni bir ölçü oluşturun.
+    
+2.  Formül çubuğuna **Net Satış** yazmaya başlayın. Öneri listesi, ne ekleyebileceğinizi gösterir. **[Net Sales]** seçeneğini belirleyin.
+    
+    ![Net Satış kullanan formül](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
+    
+    Ayrıca yalnızca bir açma ayracı (**[**) yazarak da ölçülere başvurabilirsiniz. Öneri listesi yalnızca formülünüze eklenecek ölçüleri gösterir.
+    
+    ![Köşeli ayraç yalnızca ölçüleri gösterir](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
+    
+3.  Bir boşluk, bölme işleci (**/**), bir boşluk daha, bir SUM işlevi girin ve sonra **Miktar** yazın. Öneri listesi, adında Miktar olan tüm sütunları gösterir. **Sales[SalesQuantity]** öğesini seçin, kapatma ayracını yazın ve ENTER tuşuna basın veya formülünüzü doğrulamak için onay işaretini seçin. Formülünüz şöyle görünmelidir:
+    
+    `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
+    
+4. Satış tablosundan **Birim Başına Net Satış** ölçüsünü seçin veya rapor tuvalindeki boş bir alana sürükleyin. Grafik, satılan tüm ürünlerin birim başına net satış miktarını gösterir; bu çok bilgilendirici değildir. 
+    
+    ![Genel birim başına net satış](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
+    
+5. Farklı bir görünüm için, grafik görselleştirmesi türünü **Ağaç Haritası** olarak değiştirin.
+    
+    ![Ağaç haritası olarak değiştirme](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
+    
+6. **Ürün Kategorisi** alanını seçin veya ağaç haritasına ya da Görsel Öğeler bölmesinin Grup alanına sürükleyin. Şimdi harika bilgilere sahipsiniz!
+    
+    ![Ürün Kategorisine Göre Ağaç Haritası](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
+    
+7. Bunun yerine **ProductCategory** alanını kaldırmayı ve **ProductName** alanını grafiğe sürüklemeyi deneyin. 
+    
+    ![Ürün Adına Göre Ağaç Haritası](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
+    
+Şu anda dilediğimiz gibi deneme yapıyor olabiliriz ancak kabul etmeniz gerekir ki bu oldukça havalı! Görselleştirmeyi filtrelemenin ve biçimlendirmenin diğer yollarını deneyin.
 
-Bunun için başka bir ölçü daha oluşturabiliriz. Bu durumda, net satışları satılan birim miktarına bölmemiz gerekir. Aslında yapmak istediğimiz, Net Sales ölçümüzün sonucunu Sales[SalesQuantity] toplamına bölmektir.
-
-1.  Sales veya Products tablosunda **Net Sales per Unit** adlı yeni bir ölçü oluşturun.
-    
-    Bu ölçüde, daha önce oluşturduğumuz Net Sales ölçüsünü kullanacağız. DAX formül dilini kullanarak formülümüzde diğer ölçülere başvurabiliriz.
-    
-2.  **Net Sales** yazmaya başlayın. Öneri listesi ne ekleyebileceğimizi gösterir. **[Net Sales]** seçeneğini belirleyin.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
-    
-    Ayrıca, yalnızca bir açma ayracı (**[**) yazarak da başka bir ölçüye başvurabiliriz. Öneri listesi, yalnızca formülümüze ekleyebileceğimiz ölçüleri gösterir.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
-    
-3.  **[Net Sales]** ifadesinden hemen sonra sırasıyla bir boşluk, bölme işleci (**/**) ve SUM işlevi girip **Quantity** yazın. Öneri listesi, adında Quantity bulunan tüm sütunları gösterir. **Sales[SalesQuantity]** seçeneğini belirleyin. Formülün aşağıdaki gibi görünmesi gerekir:
-    
-    > **Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])**
-    > 
-    > 
-    
-    Çok iyi görünüyor, değil mi? DAX Editor'ın arama ve öneri işlevleri kullanıldığında, DAX formüllerini girmek oldukça kolay hale gelir. Şimdi yeni Net Sales per Unit ölçümüzle neler elde ettiğimize bakalım.
-    
-4. **Net Sales per Unit** ölçüsünü rapor tuvalindeki boş bir alana sürükleyin.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
-    
-    Pek bir işe yaramadı gibi görünüyor olabilir. Endişelenmeyin.
-    
-5.  Grafik görselleştirmesi türünü **Ağaç Haritası** olarak değiştirin.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
-    
-6. Şimdi de **ProductCategory** tablosundaki **ProductCategory** alanını aşağıdaki **Group** alanına sürükleyin.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
-    
-    Bu işe yarar bir bilgi. Peki ya ürüne göre net satışları görmek istersek?
-    
-7. **ProductCategory** alanını kaldırın ve ardından bunun yerine **Product** tablosundaki **ProductName** alanını **Group** alanına sürükleyin. 
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
-    
-    Şu anda dilediğimiz gibi deneme yapıyor olabiliriz ancak kabul etmeniz gerekir ki bu oldukça havalı. Elbette bu ağaç haritasını birçok şekilde filtreleyebiliriz ancak bu konu eğitimimizin kapsamında yer almıyor.
-
-## <a name="what-weve-learned"></a>Öğrendiklerimiz
-Ölçüler, verilerimizden istediğimiz öngörüleri elde etmede büyük ölçüde etkili. Formül çubuğunu kullanarak ölçü oluşturmayı öğrendik. Ölçüleri, bizim için en çok işe yarayacak şekilde adlandırabiliriz. Böylece öneri listesi, formüllerimize eklenecek doğru öğenin bulunmasını ve seçilmesini kolay hale getirir. Ayrıca, ölçülerdeki hesaplamaların sonuçlarının diğer alanlara veya ölçü formülünüzdeki başka ifadelere göre değiştiği bağlam kavramıyla da tanışmış olduk.
+## <a name="what-youve-learned"></a>Öğrendikleriniz
+Ölçüler size verilerinizden istediğiniz öngörüleri elde etme gücü sunar. Formül çubuğunu kullanarak ölçüler oluşturmayı, ölçüleri en mantıklı şekilde adlandırmayı ve DAX öneri listelerini kullanarak doğru formül öğelerini bulup seçmeyi öğrendiniz. Ayrıca, ölçülerdeki hesaplamaların sonuçlarının diğer alanlara veya formülünüzdeki başka ifadelere ya da alanlara göre değiştiği bağlam kavramıyla da tanışmış oldunuz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-DAX formüllerini daha ayrıntılı bir şekilde incelemek ve daha gelişmiş ölçüler oluşturmak istiyorsanız [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md) başlıklı makaleye bakabilirsiniz. Bu makale, DAX'ta bulunan söz dizimi ve işlevler gibi temel kavramlara ve bağlamın daha kapsamlı bir şekilde anlaşılmasına odaklanmıştır.
-
-Sık kullanılanlar listenize [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'nu eklediğinizden emin olun. Burada DAX söz dizimi, işleçleri ve 200'ü aşkın DAX işleviyle ilgili ayrıntılı bilgi bulabilirsiniz.
+- Sizin için birçok genel ölçü hesaplamaları sağlayan Power BI Desktop hızlı ölçümleri hakkında daha fazla bilgi edinmek için bkz. [Genel ve güçlü hesaplamaları kolayca gerçekleştirmek için hızlı ölçüleri kullanma](desktop-quick-measures.md).
+  
+- DAX formüllerini daha ayrıntılı bir şekilde incelemek ve daha gelişmiş ölçüler oluşturmak istiyorsanız [Power BI Desktop’ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md) başlıklı makaleye bakabilirsiniz. Bu makale söz dizimi ve işlevler gibi DAX temel kavramlarını ele alır ve bağlama ilişkin daha kapsamlı bilgi sunar.
+  
+- Sık kullanılanlar listenize [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'nu eklediğinizden emin olun. Burada DAX söz dizimi, işleçleri ve 200'ü aşkın DAX işleviyle ilgili ayrıntılı bilgi bulabilirsiniz.
 

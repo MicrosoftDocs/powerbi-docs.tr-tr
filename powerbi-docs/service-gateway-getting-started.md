@@ -1,15 +1,15 @@
 ---
-title: "Power BI ağ geçitleriyle çalışmaya başlama"
-description: "Power BI ile birlikte kullanılan veri ağ geçitleri hakkındaki temel bilgileri öğrenin."
+title: Power BI ağ geçitleriyle çalışmaya başlama
+description: Power BI ile birlikte kullanılan veri ağ geçitleri hakkındaki temel bilgileri öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Power BI ağ geçitleriyle çalışmaya başlama
 **Power BI ağ geçitleriyle çalışmaya başlama** kılavuzuna hoş geldiniz. Bu kısa kılavuzda veri ağ geçitlerinin işlevleri ve çalışma şeklinin yanı sıra kendi ağ geçidinizi yükleme, yapılandırma ve çalıştırma yöntemleri ele alınmaktadır.  
@@ -45,7 +45,7 @@ Neyse ki Power BI bu senaryolara çok iyi uyum sağlayan iki farklı ağ geçidi
 * **Şirket içi veri ağ geçidi (kişisel mod)**: Tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Yalnızca Power BI ile birlikte kullanılabilir.
 * **Şirket içi veri ağ geçidi**: Birden fazla kullanıcının şirket içi veri kaynaklarına bağlanmasını sağlar ve tek bir ağ geçidi yüklemesiyle Power BI, PowerApps, Flow ve Azure Logic uygulamaları tarafından kullanılabilir.
 
-İki ağ geçidi de benzer işleve sahiptir. Ağ geçitleri özel şirket içi ağ üzerindeki verilere erişim sağlar ve bu sayede veriler Power BI gibi bulut tabanlı hizmetlerde kullanılabilir. Kişisel ağ geçidi tek bir kişi ve yalnızca Power BI tarafından kullanılabilir, **şirket içi veri ağ geçidi** birden fazla kullanıcı ve birden fazla hizmet tarafından kullanılabilir.
+İki ağ geçidi de benzer işleve sahiptir. Ağ geçitleri özel şirket içi ağ üzerindeki verilere erişim sağlar ve bu sayede veriler Power BI gibi bulut tabanlı hizmetlerde kullanılabilir. Kişisel ağ geçidi tek bir kişi ve yalnızca Power BI tarafından kullanılabilir, **Şirket içi veri ağ geçidi** birden fazla kullanıcı ve birden fazla hizmet tarafından kullanılabilir.
 
 Bir ağ geçidini hizmete almak için gerçekleştirilmesi gereken işlemler üç bölüme veya üç aşamaya ayrılabilir:
 
@@ -161,7 +161,7 @@ Ağ geçidinizi yüklediniz ve veri kaynağı eklemeye hazırsınız. Harika! Ve
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidini kullanma](service-gateway-onprem.md)  
-[Şirket içi veri ağ geçidi (ayrıntılı)](service-gateway-onprem-indepth.md)  
+[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
 [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-personal-mode.md)
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 

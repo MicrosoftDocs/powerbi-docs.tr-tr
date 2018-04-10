@@ -1,15 +1,15 @@
 ---
-title: "Power BI’da yer işaretlerini kullanma"
-description: "Power BI Desktop'taki yer işaretleri, raporlarınızdaki görünümleri ve ayarları kaydetmenize ve akıcı sunumlar oluşturmanıza olanak sağlar"
+title: Power BI’da yer işaretlerini kullanma
+description: Power BI Desktop'taki yer işaretleri, raporlarınızdaki görünümleri ve ayarları kaydetmenize ve akıcı sunumlar oluşturmanıza olanak sağlar
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
-Power BI'da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
+Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
 
 Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sırasını istediğiniz gibi düzenleyebilir ve daha sonra bir öngörü dizisini veya görselleriniz ve raporlarınız ile anlatmak istediğiniz hikayeyi vurgulamak için her bir yer işareti üzerinden ilerleyebilirsiniz. 
 
@@ -34,7 +34,7 @@ Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sır
 Yer işaretlemesine yönelik birçok kullanım vardır. Yer işaretlerini, rapor oluşturma konusundaki ilerleyişinizi izlemek için kullanabilirsiniz (yer işaretleri kolayca eklenebilir, silinebilir ve yeniden adlandırılabilir) ve yer işaretleri üzerinden sırayla ilerleyen PowerPoint benzeri bir sunum oluşturarak raporunuzla bir hikaye anlatmak için yer işaretlerinden yararlanabilirsiniz. Yer işaretleri, en iyi şekilde nasıl yararlanabileceğinize yönelik tercihlerinize bağlı olarak başka amaçlarla da kullanılabilir.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Yer işaretleri önizlemesini (Mart 2018’den önceki sürümler) etkinleştirme
-Power BI Desktop için Mart 2018 sürümünden itibaren, yer işaretleri genel kullanıma sunulmuştur. 
+Power BI Desktop’ın Mart 2018 sürümünden itibaren, yer işaretleri genel kullanıma sunulmuştur. 
 
 Her zaman en son sürüme yükseltmeniz önerilir. Ancak Power BI Desktop sürümünüz söz konusu sürümden eskiyse **Power BI Desktop**’ın **Ekim 2017** sürümü itibarıyla, **yer işaretleri** özelliğini deneyebilirsiniz. Bu özellik, **Power BI hizmetindeki** yer işareti özellikli raporlar için de kullanılabilir. Bu önizleme özelliğini etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Yer imleri**’nin yanındaki onay kutusunu işaretleyin. 
 
@@ -63,7 +63,7 @@ Bir rapor sayfasını yer işaretinde görünmesini istediğiniz şekilde yapıl
 
 ![Bir yer işareti ekleme](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop**, bir yer işareti oluşturur ve yer işaretine genel bir ad verir. Bir yer işaretini, yer işareti adının yanındaki üç nokta simgesini seçip görüntülenen menüden bir eylem belirleyerek kolayca *yeniden adlandırabilir*, *silebilir* veya *güncelleştirebilirsiniz*.
+**Power BI Desktop**, bir yer işareti oluşturur ve yer işaretine genel bir ad verir. Bir yer işaretini, yer işareti adının yanındaki üç nokta simgesini seçip görüntülenen menüden bir eylem seçerek kolayca *yeniden adlandırabilir*, *silebilir* veya *güncelleştirebilirsiniz*.
 
 ![Bir yer işareti için üç nokta simgesini kullanarak alt menü seçme](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -84,8 +84,8 @@ Sırasıyla sunmak istediğiniz bir yer işareti koleksiyonunuz olduğunda, bir 
 **Görünüm** modunda dikkat edilmesi gereken birkaç özellik vardır:
 
 1. Yer işaretinin adı, tuvalin alt tarafında görüntülenen yer işareti başlık çubuğunda görünür.
-2. Yer işareti başlık çubuğu, önceki ve sonraki yer işaretine gitmenize olanak sağlayan oklar içerir
-3. **Görünüm** modundan çıkmak için **Yer İşaretleri** bölmesindeki **Çıkış**'ı veya yer işareti başlık çubuğundaki **X** işaretini seçebilirsiniz. 
+2. Yer işareti başlık çubuğu, önceki ve sonraki yer işaretine gitmenize olanak sağlayan oklar içerir.
+3. **Görünüm** modundan çıkmak için **Yer İşaretleri** bölmesindeki **Çıkış**’ı veya yer işareti başlık çubuğundaki **X** işaretini seçebilirsiniz. 
 
 ![Yer işareti bölmesindeki yer işareti başlık çubuğu özellikleri](media/desktop-bookmarks/bookmarks_07.png)
 

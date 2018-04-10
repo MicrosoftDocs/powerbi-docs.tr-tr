@@ -1,15 +1,15 @@
 ---
-title: "Manage your data source - SQL (Veri kaynağınızı yönetme - SQL)"
-description: "Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme."
+title: Manage your data source - SQL (Veri kaynağınızı yönetme - SQL)
+description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Manage your data source - SQL Server (Veri kaynağınızı yönetme - SQL Server)
 Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilen veri kaynaklarını ekleyebilirsiniz. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. SQL Server veri kaynağını zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz.
@@ -67,13 +67,13 @@ Ardından, **Sunucu** ve **Veritabanı**'nı içeren veri kaynağı bilgilerini 
 Bir **Kimlik Doğrulama Yöntemi** seçmeniz de gerekecektir.  Bu yöntem **Windows** veya **Temel** seçeneklerinden biri olabilir.  Windows Kimlik Doğrulaması yerine SQL Kimlik Doğrulaması kullanacaksanız **Temel**'i seçmeyi tercih edebilirsiniz. Ardından, bu veri kaynağı için kullanılacak kimlik bilgilerini girin.
 
 > [!NOTE]
-> Kerberos Çoklu Oturum Açma (SSO) özelliği, veri kaynağı için yapılandırılmadığı ve etkinleştirilmediği sürece veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. SSO ile oturum açıldığında, içeri aktarılan veri kümeleri için, depolanan kimlik bilgilerini kullanır ancak DirectQuery veri kümeleri, SSO ile sorgu yürütmek için geçerli Power BI kullanıcısını kullanır. Daha fazla bilgi edinmek için, [kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığını anlatan ana şirket içi veri geçidi makalesine veya [Power BI ve şirket içi veri kaynakları arasında SSO (çoklu oturum açma) gerçekleştirmek için Kerberos'u kullanmayı](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) anlatan makaleye göz atın.
+> Kerberos Çoklu Oturum Açma (SSO) özelliği, veri kaynağı için yapılandırılmadığı ve etkinleştirilmediği sürece veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. SSO ile oturum açıldığında, içeri aktarılan veri kümeleri için, depolanan kimlik bilgilerini kullanır ancak DirectQuery veri kümeleri, SSO ile sorgu yürütmek için geçerli Power BI kullanıcısını kullanır. Daha fazla bilgi edinmek için, [kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığını anlatan ana şirket içi veri geçidi makalesine veya [Power BI ve şirket içi veri kaynakları arasında SSO (çoklu oturum açma) gerçekleştirmek için Kerberos’u kullanmayı](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) anlatan makaleye göz atın.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
-Her yeri doldurduktan sonra **Ekle**'ye tıklayabilirsiniz.  Artık bu veri kaynağını bir şirket içi SQL Server'da zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz. İşlem başarılı olduğunda *Bağlantı Başarılı* iletisi göreceksiniz.
+Tüm bilgileri doldurduktan sonra **Ekle**'ye tıklayabilirsiniz.  Artık bu veri kaynağını bir şirket içi SQL Server'da zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz. İşlem başarılı olduğunda *Bağlantı Başarılı* iletisi göreceksiniz.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
@@ -105,10 +105,10 @@ Veri kaynağına ilişkin Kullanıcılar sekmesinde, veri kaynağını kullanabi
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>Veri kaynağını kullanma
-Veri kaynağı, oluşturulduktan sonra DirectQuery bağlantılarıyla veya zamanlanmış yenileme yoluyla kullanılabilir.
+Oluşturduğunuz veri kaynağı, DirectQuery bağlantıları veya zamanlanmış yenileme ile kullanılabilir.
 
 > [!NOTE]
-> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop'taki sunucu adı ile veritabanı adı eşleşmelidir!
+> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adı eşleşmelidir!
 > 
 > 
 

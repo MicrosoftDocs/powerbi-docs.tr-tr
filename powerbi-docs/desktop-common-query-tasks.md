@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'taki genel sorgu görevleri"
-description: "Power BI Desktop'taki genel sorgu görevleri"
+title: Power BI Desktop'taki genel sorgu görevleri
+description: Power BI Desktop'taki genel sorgu görevleri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -45,7 +45,7 @@ Bu görevleri tamamlamak için birkaç veri bağlantısından yararlanacağız. 
 Bu veri kaynaklarından her ikisine de bağlanmak için gerekli adımlar, sık kullanılan Sorgu görevlerinin başlangıcı niteliğindedir.
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
-Power BI Desktop'ta verilere bağlanmak için, şeritteki **Giriş** sekmesinde bulunan **Veri Al** seçeneğini belirleyin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün alt kısmında bulunan **Diğer...** düğmesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki Veri Kaynakları](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+Power BI Desktop'ta verilere bağlanmak için, şeritteki **Giriş** sekmesinde bulunan **Veri Al** seçeneğini belirleyin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün alt kısmında bulunan **Diğer...** düğmesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki Veri Kaynakları](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,27 +67,27 @@ Web sayfasının URL'sini girebileceğiniz **Web'den** penceresi görüntülenir
 
 Diğer veri bağlantıları da benzer şekilde kurulur. Bir veri bağlantısını gerçekleştirmek için kimlik doğrulaması gerekiyorsa Power BI Desktop, geçerli kimlik bilgilerini girmenizi ister.
 
-Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://powerbi.uservoice.com/knowledgebase/articles/471635).
+Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Verileri şekillendirme ve birleştirme
-Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
+Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
 
-Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünde) Sorgu Düzenleyicisi'ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
+Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünden alınan) Sorgu Düzenleyicisi’ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 Verileri şekillendirdiğinizde, bir veri kaynağını ihtiyaçlarınızı karşılayan bir düzene ve biçime dönüştürmüş olursunuz. Bu örnekte ihtiyaç duymadığımızdan, *Header* başlıklı ilk sütunu kaldırabiliriz.
 
-**Sorgu Düzenleyicisi**'ndeki şeritte ve bağlama duyarlı sağ tıklama menülerinde birçok komuta ulaşabilirsiniz. Örneğin, *Header* sütununa sağ tıkladığımda görüntülenen menüyü kullanarak sütunu kaldırabilirim. Ayrıca sütunu seçip şeritteki **Sütunları Kaldır** seçeneğini belirlemeyi de tercih edebilirim.
+**Sorgu Düzenleyicisi**'ndeki şeritte ve bağlama duyarlı sağ tıklama menülerinde birçok komuta ulaşabilirsiniz. Örneğin, *Üst bilgi* sütununa sağ tıkladığınızda görüntülenen menüyü kullanarak sütunu kaldırabilirsiniz. Ayrıca sütunu seçip şeritteki **Sütunları Kaldır** düğmesini de belirleyebilirsiniz.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-Bu sorgudaki verileri başka birçok yöntemle de şekillendirebilirim; üstten veya alttan başlayarak dilediğim sayıda satırı kaldırabilir, sütun ekleyebilir, sütunları bölebilir, değerleri değiştirebilir ve Sorgu Düzenleyicisi'ni, verileri istediğim gibi alacak şekilde yönlendirmek için başka şekillendirme görevleri gerçekleştirebilirim.
+Bu sorgudaki verileri başka birçok yöntemle de şekillendirebilirsiniz; üstten veya alttan başlayarak dilediğiniz sayıda satırı kaldırabilir, sütun ekleyebilir, sütunları bölebilir, değerleri değiştirebilir ve Sorgu Düzenleyicisi’ni, verileri istediğiniz gibi alacak şekilde yönlendirmek için başka şekillendirme görevleri gerçekleştirebilirsiniz.
 
 ## <a name="group-rows"></a>Satırları gruplandırma
 Sorgu Düzenleyicisi'nde, birden çok satırda bulunan değerleri tek bir değer olacak şekilde gruplandırabilirsiniz. Bu, sunulan ürün sayısı, toplam satışlar veya öğrenci sayısı özetlenirken kullanışlı olabilir.
 
-Bu örnekte, bir eğitim kaydı veri kümesindeki satırları gruplandıracağız. Veriler bir Excel çalışma kitabından alınmış ve tam da istediğimiz sütunları elde etmek üzere Sorgu Düzenleyicisi'nde şekillendirilmiştir. Ayrıca tablo yeniden adlandırılmış ve birkaç dönüştürme işlemi daha gerçekleştirilmiştir.
+Bu örnekte, bir eğitim kaydı veri kümesindeki satırları gruplandıracağız. Veriler bir Excel çalışma kitabından alınmış ve tam da istediğimiz sütunları elde etmek üzere Sorgu Düzenleyicisi’nde şekillendirilmiştir. Ayrıca tablo yeniden adlandırılmış ve birkaç dönüştürme işlemi daha gerçekleştirilmiştir.
 
 Şimdi her bir eyaletin sahip olduğu Kuruluş (okul bölgelerinin yanı sıra hizmet bölgeleri gibi diğer eğitim kuruluşları dahil) miktarını bulalım. *State Abbr* sütununu seçip şeritteki **Dönüştür** veya **Giriş** sekmesinde bulunan **Gruplandır** düğmesini seçeriz. (**Gruplandır** düğmesi her iki sekmede de yer alır.)
 
@@ -95,14 +95,16 @@ Bu örnekte, bir eğitim kaydı veri kümesindeki satırları gruplandıracağı
 
 **Gruplandır** penceresi görüntülenir. Sorgu Düzenleyicisi satırları gruplandırdığında, **Gruplandır** işleminden elde edilen sonuçları yerleştirdiği yeni bir sütun oluşturur. **Gruplandır** işlemini aşağıda belirtilen yollarla ayarlayabilirsiniz:
 
-1. *Gruplandırma ölçütü*: Bu, gruplandırılacak sütundur. Sorgu Düzenleyicisi, seçilmiş sütunu belirler ancak bu pencerede, söz konusu sütunu tablodaki herhangi bir sütunla değiştirebilirsiniz.
+1. *Gruplandır*: Bu, gruplandırılacak sütundur. Sorgu Düzenleyicisi, seçilmiş sütunu belirler ancak bu pencerede, söz konusu sütunu tablodaki herhangi bir sütunla değiştirebilirsiniz.
 2. *Yeni sütun adı*: Sorgu Düzenleyicisi, gruplandırılmakta olan sütuna uyguladığı işlemi temel alarak yeni sütun için bir ad önerse de yeni sütunu dilediğiniz gibi adlandırabilirsiniz.
 3. *İşlem*: Burada, Sorgu Düzenleyicisi'nin uygulayacağı işlemi belirtirsiniz.
-4. *+/- işaretleri*: Birden çok sütunda toplama işleminin (**Gruplandır** eylemleri) yanı sıra birden çok toplama işlemi de yapabilirsiniz. Üstelik bunların tümünü **Gruplandır** penceresinde, tek bir işlem altında gerçekleştirebilirsiniz. Sorgu Düzenleyicisi, birden çok sütun üzerinde çalışan yeni bir sütun (bu penceredeki seçimlerinize göre) oluşturur. **+** düğmesini seçerek bir **Gruplandır** işlemine daha fazla sütun veya toplama ekleyebilirsiniz. – simgesini seçerek bir sütunu veya toplamayı kaldırabilirsiniz. İsterseniz nasıl bir işlem olduğunu görmek için düğmeyi deneyebilirsiniz. 
+4. *Gruplama ekleme* ve *Toplama ekleme*: Bu seçenekler, **Gelişmiş** seçeneği belirlendikten sonra görüntülenir. Birden çok sütunda gruplandırma işlemlerinin (**Gruplandır** eylemleri) yanı sıra birden çok toplama işlemi de yapabilirsiniz. Üstelik bunların tümünü **Gruplandır** penceresinde, tek bir işlem altında gerçekleştirebilirsiniz. Sorgu Düzenleyicisi, birden çok sütun üzerinde çalışan yeni bir sütun (bu penceredeki seçimlerinize göre) oluşturur. 
+
+Bir **Gruplandır** işlemine daha fazla gruplanma veya toplama eklemek için **Gruplama ekleme** veya **Toplama ekleme** düğmesini seçin. **...** simgesini seçip **Sil** seçeneğini belirleyerek bir gruplamayı veya toplamayı kaldırabilirsiniz. İsterseniz nasıl bir işlem olduğunu görmek için düğmeyi deneyebilirsiniz.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-**Tamam** seçeneğini belirlediğimizde, Sorgu Düzenleyicisi **Gruplandır** işlemini gerçekleştirir ve sonuçları döndürür. Şuna bir bakın: Ohio, Texas, Illinois ve California eyaletlerinden her birinde binin üzerinde kuruluş var.
+**Tamam** seçeneğini belirlediğimizde, Sorgu Düzenleyicisi **Gruplandır** işlemini gerçekleştirir ve sonuçları döndürür. Şuna bir bakın: Bugün Ohio, Texas, Illinois ve California eyaletlerinden her birinde binin üzerinde kuruluş var!
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Yeni sütun oluşturmak için hangi sütun değerlerinin kullanılacağını bel
 ## <a name="create-custom-columns"></a>Özel sütun oluşturma
 Sorgu Düzenleyicisi'nde, tablonuzdaki birden çok sütunda çalışan özel formüller oluşturabilir ve ardından söz konusu formüllerin sonuçlarını yeni (özel) bir sütuna yerleştirebilirsiniz. Sorgu Düzenleyicisi sayesinde özel sütunları kolayca oluşturabilirsiniz.
 
-Sorgu Düzenleyicisi'nde, şeritteki **Sütun Ekle** sekmesinde bulunan **Özel Sütun Ekle** sekmesini seçin.
+Sorgu Düzenleyicisi’nde, şeritteki **Sütun Ekle** sekmesinden **Özel Sütun**’u seçin.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Sorgu Düzenleyicisi, her bir sorgu için uygulanan tüm adımları, görüntül
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla **M** olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Bilgi için bkz. [Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Yalnızca dil belirtimini görüntülemek isterseniz [Excel için Microsoft Power Query Formül Dili Belirtimi](http://go.microsoft.com/fwlink/?linkid=320633)'ni indirin.
+Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla **M** olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Bilgi için bkz. [Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Yalnızca dil belirtimini görüntülemek için bkz. [Excel için Microsoft Power Query Formül Dili Belirtimi](http://go.microsoft.com/fwlink/?linkid=320633).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

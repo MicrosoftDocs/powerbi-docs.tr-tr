@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Power BI Pro'yu satın alma
 
@@ -70,6 +70,10 @@ Office BT Yöneticisiyseniz Power BI Pro'yu satın almak için şu adımları iz
 ## <a name="pricing"></a>Fiyatlandırma
 
 En son fiyatlandırma bilgileri için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/en-us/pricing/).
+
+> [!NOTE]
+> Pro lisansları atanmış olan kullanıcılar, abonelik sona erdikten sonra 30 gün boyunca tam erişime sahip olacaktır. Bu durumda aboneliğinizin yönetici portalında "süresi dolmuş" olarak gösterildiğini görürsünüz.
+>
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI için self servis kayıt](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

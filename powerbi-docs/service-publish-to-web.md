@@ -1,28 +1,28 @@
 ---
-title: "Power BI'dan Web'de yayımlama"
-description: "Power BI'daki Web'de yayımla özelliği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz."
+title: Power BI'dan Web'de yayımlama
+description: Power BI'daki Web'de yayımla özelliği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -133,13 +133,16 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 
 ## <a name="limitations"></a>Sınırlamalar
 
-**Web'de yayımla** özelliği Power BI hizmetindeki veri kaynaklarının ve raporların çoğu için desteklenmektedir ancak aşağıdaki öğeler şu anda Web'de yayımla işlevinde desteklenmez ve kullanılamaz:
+**Web’de yayımla** özelliği Power BI hizmetindeki veri kaynaklarının ve raporların çoğu için desteklenmektedir ancak aşağıdaki öğeler **şu anda Web’de yayımla işlevinde desteklenmez ve kullanılamaz**:
 
 1. Satır düzeyi güvenlik kullanan raporlar.
-2. Analysis Services - Çok Boyutlu, Azure Analysis Services, Power BI Hizmeti ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
+2. Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
 3. Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
 4. Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
 5. "R" Görselleri şu an için Web'de yayımla özelliği tarafından desteklenmemektedir.
+6. Web’de yayımlanan bir rapordaki görsellerden Verileri dışarı aktarma
+7. ArcGIS Maps for Power BI görselleri
+8. [Gizli veya özel bilgilerin güvenliğini sağlama](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Kiracı ayarı
 
@@ -177,7 +180,7 @@ Sorun bildirmek için gördüğünüz Web'de yayımla raporunun alt çubuğundak
 
 ## <a name="how-it-works-technical-details"></a>Nasıl çalışır? (teknik bilgiler)
 
-**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet üzerindeki kullanıcılara açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu yaklaşım sayesinde rapor binlerce kullanıcı tarafından aynı anda görüntülenebilir ve herhangi bir performans kaybı yaşanmaz.  
+**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet üzerindeki kullanıcılara açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu yaklaşım sayesinde rapor binlerce kullanıcı tarafından aynı anda görüntülenebilir ve herhangi bir performans kaybı yaşanmaz.
 
 Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılar tarafından kullanılan sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web'de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
 

@@ -1,15 +1,15 @@
 ---
-title: "Eğitim: Power BI Desktop ile Facebook analizi"
-description: "Eğitim: Power BI Desktop ile Facebook analizi"
+title: 'Eğitim: Power BI Desktop ile Facebook analizi'
+description: 'Eğitim: Power BI Desktop ile Facebook analizi'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Eğitim: Power BI Desktop ile Facebook analizi
-Bu eğitimde **Facebook** verilerini içeri aktarmayı ve görselleştirmeyi öğreneceksiniz. Eğitim sırasında belirli bir Facebook sayfasına (Power BI sayfası) bağlanmayı, veri dönüştürme adımlarını uygulamayı ve görselleştirme oluşturmayı öğreneceksiniz.
 
-Eğitim şu adımlardan oluşmaktadır:
+Bu öğreticide, Facebook’tan verileri içeri aktarmayı ve Power BI Desktop’ta bunları kullanmayı öğreneceksiniz. Bağlanıp Power BI Facebook sayfasından verileri içeri aktaracak, içeri aktarılan verilere dönüştürmeler uygulayacak ve rapor görselleştirmelerinde bu verileri kullanacaksınız.
 
-* **1. Görev:** Bir Facebook Sayfasına bağlanma
-* **2. Görev**: Rapor görünümünü kullanarak görselleştirme oluşturma
-  
-  * **1. Adım**: Ağaç haritası görselleştirmesi oluşturma
-* **3. Görev**: Verileri Sorgu görünümünde şekillendirme
-  
-  * **1. Adım**: Tarih-saat sütununu ikiye ayırma
-  * **2. Adım**: İlişkili tablodan toplam değer ekleme
-* **4. Görev**: Rapor görünümünü kullanarak ek görselleştirmeler oluşturma
-  
-  * **1. Adım**: Sorguyu raporunuza yükleme
-  * **2. Adım**: Çizgi grafik ve Çubuk grafik oluşturma
+## <a name="connect-to-a-facebook-page"></a>Bir Facebook sayfasına bağlanma
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**1. Görev: Bir Facebook sayfasına bağlanma**
-Bu görevde [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi) sitesindeki (URL: *https://www.facebook.com/microsoftbi)* verileri içeri aktaracaksınız.
+Bu öğreticide, [Microsoft Power BI Facebook sayfasındaki](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) veriler kullanılmaktadır. Bağlanmak ve bu sayfadan verileri içeri aktarmak için kişisel Facebook hesabı dışında özel bir kimlik bilgisi gerekmez.
 
-Herkes bu sayfaya bağlanarak bu adımları uygulayabilir, herhangi bir özel kimlik bilgisi (bu adımda kullanacağınız kendi Facebook hesabınız dışında) gerekli değildir.
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. **Başlarken** iletişim kutusunda veya **Giriş şerit sekmesinde** **Veri Al**'ı seçin.
-2. Açılan **Veri Al** iletişim kutusunda bulunan veri kaynakları arasından seçim yapabilirsiniz. **Diğer** grubundan **Facebook**'u seçin.
+1. Power BI Desktop’ı açın ve **Başlarken** iletişim kutusunda **Veri al** seçeneğini belirleyin veya **Giriş** şerit sekmesinde **Veri Al**’ı ve sonra **Diğer...** seçeneğini belirleyin.
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. **Veri Al** iletişim kutusunda, **Online Services** grubundan **Facebook**’u seçin ve **Bağlan** seçeneğini belirleyin.
    
-   **Bağlan**'ı seçtiğinizde üçüncü taraf hizmetleri kullanmanın risklerini belirten bir iletişim kutusu açılır.
+   ![Veri al](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. Devam'ı seçtiğinizde **Facebook** iletişim kutusu açılır ve sayfa adını (**microsoftbi**) **Kullanıcı adı** metin kutusuna yapıştırabilirsiniz. **Bağlantı** açılan menüsünden **Gönderiler**'i seçin.
+   Üçüncü taraf hizmetleri kullanmanın risklerini bildiren bir iletişim kutusu görüntülenir.
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. **Tamam**'a tıklayın.
-5. Kimlik bilgileri istendiğinde kendi Facebook hesabınızı kullanarak oturum açın ve Power BI'ın hesabınız üzerinden erişim kurmasına izin verin.
+   ![Üçüncü taraf uyarı](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
-
-Sayfaya bağlandıktan sonra verilerin modele yüklendiğini göreceksiniz. 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-Ardından veriler **Sorgu Düzenleyicisi**'nde görüntülenir. **Sorgu Düzenleyicisi**, Power BI Desktop'ın bir parçasıdır ancak ayrı bir pencerede yüklenir ve veri bağlantılarınızdaki tüm dönüştürme işlemlerini gerçekleştireceğiniz yer burasıdır.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-Verilerinizi istediğiniz şekle getirdikten sonra Power BI Desktop'a yükleyebilirsiniz. **Giriş** şeridinde **Yükle ve Kapat**'ı seçin.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-Verilerin Power BI Desktop veri modeline yüklenme durumu gösteren bir iletişim kutusu açılır.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-Veriler yüklendikten sonra **Rapor** görünümü açılır ve tablodaki tüm sütunlar sağ taraftaki **Alan** listesine eklenir.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**2. Görev: Rapor görünümünü kullanarak görselleştirme oluşturma**
-Sayfadaki verileri aldığınıza göre görselleştirmeleri kullanarak hızlıca verilerinizle ilgili öngörülere sahip olabilirsiniz.
-
-**1. Adım:** Ağaç haritası görselleştirmesi oluşturma
-
-Görselleştirme oluşturmak oldukça kolaydır. Tek yapmanız gereken **Alan listesi** bölümündeki alanlardan birini sürükleyip **Rapor tuvaline** bırakmaktır.
-
-**type** alanını **Rapor** tuvaline sürükleyin. Power BI Desktop, **Rapor tuvalinde** yeni bir görselleştirme oluşturur. Ardından **Alanlar** bölümündeki **type** öğesini (az önce **Rapor** tuvaline sürüklediğiniz alan) **Değer** alanına sürükleyerek bir **Çubuk** görselleştirme oluşturun.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-**Görsel Öğeler** bölmesinden farklı bir simge seçerek görselleştirme türünü kolayca değiştirebilirsiniz. Şimdi **Ağaç haritası** oluşturmak için aşağıdaki görüntüde verilen şekilde **Görsel Öğeler** bölmesinde ilgili simgeyi seçelim.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-Ardından bir açıklama ekleyip bir veri noktasını rengini değiştirelim. **Görsel Öğeler** bölmesindeki **Biçim** simgesini seçin. **Biçim** simgesi boya fırçasına benzer.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-**Açıklama**'nın yanındaki aşağı oku seçtiğinizde bölüm genişletilerek seçtiğiniz görselleştirmenin açıklamasını özelleştirmek için kullanılabilecek seçenekler gösterilir. Bu örnekte aşağıdaki seçimleri yaptık:
-
-* açıklamanın görünmesi için **Açıklama** kaydırıcısını **Açık** konumuna getirdik
-* **Açıklama Konumu** açılan menüsünden **Sağ**'ı seçtik
-* açıklamaya ilişkin bir başlık görünmesi için **Başlık** kaydırıcısını da **Açık** konumuna getirdik
-* açıklamanın başlığına **type** yazdık
-
-Aşağıdaki görüntüde bu ayarlar yapılmış ve görselleştirmeye yansıtılmıştır.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-Şimdi veri noktalarından birinin rengini değiştirelim. Genelde köprüler için kullanılan renge yakın olması için bağlantı veri noktasının mavi olması gerekir.
-
-**Veri Renkleri**'nin yanındaki oku seçerek bu bölümü genişletin. Veri noktaları gösterilir ve renklerin yanındaki seçim oklarını kullanarak her veri noktası için ayrı bir renk seçebiliriz.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-Herhangi bir veri noktasının yanındaki renk kutusunda bulunan aşağı oka tıkladığınızda açılan renk seçimi iletişim kutusundan kullanmak istediğiniz rengi seçebilirsiniz. Burada açık maviyi seçeceğiz.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-Böyle daha iyi. Aşağıdaki görüntüde rengin görselleştirmedeki veri noktasına nasıl uygulandığını ve açıklamanın da otomatik olarak güncelleştirilerek **Veri Renkleri** bölümünde seçilen rengi yansıttığını görebilirsiniz.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**3. Görev: Tablodaki verileri şekillendirme**
-Tabloyu içeri aktardıktan ve görselleştirmeye başladıktan sonra verilerinizden en yüksek performansı elde etmek için çeşitli veri şekillendirme ve temizleme adımları gerçekleştirmeniz gerekebilir.
-
-**1. Adım:** Tarih-saat sütununu ikiye ayırma
-
-Bu adımda **created\_time** sütununu ikiye bölerek tarih ve saat değerlerini alacaksınız. Power BI Desktop'ta var olan sorguları değiştirmek istediğinizde **Sorgu Düzenleyicisi**'ni açmanız gerekir. Bunu yapmak için **Giriş** sekmesinden **Sorguları Düzenle**'yi seçin.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. **Sorgu Düzenleyicisi** kılavuzunda **created\_time** sütununu görene kadar sağa doğru kaydırın
-2. **Sorgu Önizlemesi** kılavuzunda sütun başlığına sağ tıklayıp **Sütunu Böl \> Sınırlayıcıya göre** yolunu izleyerek sütunları bölün. Sınırlayıcı açılan menüsünde **Özel**'i seçip **"T"** yazın. Bu işlem **Giriş** şerit sekmesinin **Sütunları Yönet** grubunda da mevcuttur.
+3. **Devam**’ı seçin. **Facebook** iletişim kutusu görüntülenir.
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+4. **Kullanıcı Adı** metin kutusuna **microsoftbi** sayfa adını yazın veya yapıştırın, **Bağlantı** açılır kutusundan **Gönderiler**’i seçin ve sonra **Tamam** seçeneğini belirleyin.
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. Oluşturulan sütunları sırasıyla **created\_date** ve **created\_time** olarak adlandırın.
-4. Yeni **created\_time** sütununu seçtikten sonra **Sorgu görünümü** şeridinde **Sütun Ekle** sekmesine gidip **Tarih ve Saat** grubundan **Zaman\>Saat**'i seçin. Yalnızca zamanın saat bileşenini içeren yeni bir sütun eklenir.
+   ![Bağlan](media/desktop-tutorial-facebook-analytics/2.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. Yeni **Saat** sütununun türünü **Tam Sayı** olarak değiştirmek için **Giriş** sekmesine gidip **Veri Türü** açılan menüsünü seçin veya sütuna sağ tıklayıp **Dönüştür\>Tam Sayı**'yı seçin.
+5. Kimlik bilgileri istendiğinde kendi Facebook hesabınızda oturum açın ve Power BI’ın hesabınız üzerinden erişim kurmasına izin verin.
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
+   ![Kimlik bilgileri](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-**2. Adım:** İlişkili tablodan toplam değer ekleme
-
-Bu adımda görselleştirmelerde kullanmak üzere iç içe geçmiş değerden alınacak paylaşım sayısını ekleyeceksiniz.
-
-1. **shares** sütununu görene kadar sağa doğru kaydırın. İç içe geçmiş değer, gerçek değerlere ulaşmak için başka bir dönüştürme işlemi yapılması gerektiğini belirtir.
-2. Sütun başlığının sağ üst köşesindeki ![](media/desktop-tutorial-facebook-analytics/14.png) simgesini seçerek **Genişlet/Toplam** oluşturucusunu açın. **count** öğesini ve ardından **Tamam**'ı seçin. Bunu yaptığınızda tablodaki her satır için paylaşım sayısı eklenir.
+   Power BI Facebook sayfasına bağlandıktan sonra, sayfanın **Gönderiler** verilerinin önizlemesini görürsünüz. 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![Veri önizlemesi](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   Veriler yüklendikten sonra sütun adına çift tıklayarak, sütuna sağ tıklayarak veya **Sorgu görünümü** şeridinde **Dönüştür** sekmesinin **Herhangi Bir Sütun** grubunda **Yeniden Adlandır**'ı seçerek sütunun adını **shares** olarak değiştirin.
-3. Son olarak yeni **shares** sütununun değerini **Tam Sayı** olarak değiştirin. Sütun seçiliyken türü değiştirmek için sütuna sağ tıklayıp **Dönüştür\>Tam Sayı** yolunu izleyebilir veya **Giriş** sekmesine gidip **Veri Türü** açılan menüsünü seçebilirsiniz.
+## <a name="shape-and-transform-the-imported-data"></a>İçeri aktarılan verileri şekillendirme ve dönüştürme
 
-### <a name="query-steps-created"></a>Oluşturulan sorgu adımları
-Siz Sorgu görünümünde dönüştürme işlemlerini etkinlikleri gerçekleştirdikçe sorgu adımları oluşturulur ve **Sorgu Ayarları** bölmesindeki **UYGULANAN ADIMLAR** listesinde görüntülenir. Her bir sorgu adımına ilişkin bir Sorgu formülü ("M" dili olarak da bilinir) bulunur.
+Zaman içinde hangi gönderilerin en çok açıklama içerdiğini görmek ve göstermek istiyorsunuz, ancak **Gönderiler** veri önizlemesinde, **created_time** verilerinin okunmasının ve anlaşılmasının zor olduğunu ve herhangi bir açıklama verisi olmadığını fark ediyorsunuz. En iyi şekilde yararlanmak için veriler üzerinde şekillendirme ve temizleme işlemi gerçekleştirmeniz gerekir. Verileri Power BI Desktop’a içeri aktarmadan önce veya sonra Power BI Desktop **Power Query Editor**’ı kullanarak düzenleyebilirsiniz. 
 
-![](media/desktop-tutorial-facebook-analytics/16.png)
+### <a name="split-the-datetime-column"></a>Tarih/saat sütununu bölme
 
-| Görev | Sorgu adımı | Formül |
-| --- | --- | --- |
-| Bir Facebook kaynağına bağlanma |Source |Facebook.Graph (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| İhtiyacınız olan değerlere ulaşmak için **Sütunları Böl** işlemi |Split Column by Delimiter |Table.SplitColumn  (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| Yeni sütunlar için **Türü Değiştir** işlemi (otomatik adım) |Changed Type |Table.TransformColumnTypes  (#&quot;Split Column by Delimiter&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| ****Bir sütunu** yeniden adlandırma** |Renamed Columns |Table.RenameColumns  (#&quot;Changed Type&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| ****Bir sütun** ekleme** |Inserted Hour |Table.AddColumn  (#&quot;Renamed Columns&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| **Türü Değiştirme ** |Changed Type1 |Table.TransformColumnTypes  (#&quot;Inserted Hour&quot;,{{&quot;Hour&quot;, type text}}) |
-| ****İç içe geçmiş tablodaki değerleri** genişletme** |Expand shares |Table.ExpandRecordColumn  (#&quot;Changed Type1&quot;, &quot;shares&quot;, {&quot;count&quot;}, {&quot;shares.count&quot;}) |
-| ****Sütunu** yeniden adlandırma** |Renamed Columns1 |Table.RenameColumns  (#&quot; Expand shares&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **Türü Değiştir** |Changed Type2 |Table.TransformColumnTypes  (#&quot;Renamed Columns1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
+İlk olarak, **created_time** sütunundaki tarih ve saat değerlerini daha okunaklı olması için ayırın. 
 
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**4. Görev: Rapor görünümünü kullanarak ek görselleştirmeler oluşturma**
-Verileri çözümlememizin geri kalanı için istediğimiz şekle dönüştürdüğümüze göre sonuç tabloyu Raporumuza yükleyip ek görselleştirmeler oluşturabiliriz.
-
-**1. Adım: Sorguyu raporunuza yükleme**
-
-Sorgu sonuçlarını rapora yüklemek için **Sorgu Düzenleyicisi**'nde **Yükle ve Kapat**'ı seçin. Bunu yaptığınızda değişiklikler Power BI Desktop'a yüklenir ve **Sorgu Düzenleyicisi** kapatılır.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-Power BI Desktop'ta **Rapor** görünümünde olduğunuzdan emin olun. Power BI Desktop'ta sol taraftaki çubuğun en üstünde bulunan simgeyi seçin.
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**2. Adım:** Çizgi grafik ve Çubuk grafik oluşturma
-
-Görselleştirme oluşturmak için **Alan listesindeki** alanları sürükleyerek **Rapor tuvaline** bırakabiliriz.
-
-1. **shares** alanını **Rapor** tuvaline sürükleyerek bir çubuk grafik oluşturun. Ardından created\_date sütununu grafiğe sürüklediğinizde Power BI Desktop görselleştirmeyi **Çizgi Grafik** olarak değiştirir.
+1. Facebook veri önizlemesinde **Düzenle**’yi seçin. 
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. Sonraki adımda **shares** alanını sürükleyip **Rapor tuvaline** bırakın. Şimdi **Hour** alanını **Alan Listesi** altındaki **Eksen** bölümüne sürükleyin.
+   ![Veri önizlemesi düzenleme](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. **Görsel Öğeler** bölmesinde farklı bir simgeye tıklayarak görselleştirme türünü kolayca değiştirebiliriz. Aşağıdaki resimde **Çubuk Grafik** simgesi okla gösterilmiştir.
+   Power BI Desktop **Power Query Editor**, yeni bir pencerede açılır ve Power BI Facebook sayfasından veri önizlemesini görüntüler. 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. Görselleştirme türünü **Çubuk Grafik** olarak değiştirin.
-5. **Çubuk Grafik** oluşturuldu ancak eksen istediğimiz şekilde değil. Diğer yönde (yüksekten düşüğe) sıralanmasını istiyoruz. **Y Ekseni**'nin yanındaki aşağı oku seçerek o bölümü genişletin. İstediğimiz şekilde sıralayabilmek için bu eksenin türünü **Sürekli** yerine **Kategorik** olarak değiştirmemiz gerekiyor (aşağıdaki görüntüde eksenin seçimi yapmadan önceki hali gösterilmektedir, istediğiniz gibi görünen hali için sonraki görüntüye bakın).
+   ![Power Query Editor](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   
+2. **created_time** sütununu seçin. Bunun, sütun üst bilgisindeki bir **ABC** simgesiyle gösterilen bir Metin veri türü olduğunu unutmayın. Üst bilgiye sağ tıklayın ve açılır listeden **Sütunu Böl > Sınırlayıcıya Göre** seçeneğini belirleyin veya şeridin Giriş sekmesindeki **Dönüştür** bölümünden **Sütunu Böl > Sınırlayıcıya Göre** seçeneğini belirleyin.  
+   
+   ![Sütunu sınırlayıcıyla bölme](media/desktop-tutorial-facebook-analytics/delimiter1.png)
+   
+3. **Sütunu sınırlayıcıyla böl** iletişim kutusunda, açılır listeden **Özel**’i seçin, girdi alanına **T** (created_time değerlerinin zaman kısmının başındaki karakter) yazın ve **Tamam**’ı seçin. 
+   
+   ![Sütunu sınırlayıcıyla böl iletişim kutusu](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   Sütun, **T** sınırlayıcısından önceki ve sonraki dizeleri içeren iki sütuna ayrılır ve sırayla **created_time.1** ve **created_time.2** olarak adlandırılır. Power BI’ın veri türlerini otomatik olarak algıladığını ve bu veri türlerini birinci sütun için **Tarih** olarak, ikinci sütun için **Saat** olarak değiştirdiğini ve tarih ve saat değerlerini daha okunabilir olacak şekilde biçimlendirdiğini unutmayın.
+   
+4. Her bir sütun üst bilgisine çift tıklayarak veya her bir sütunu seçip sonra şeritteki **Dönüştür** sekmesinin **Herhangi Bir Sütun** Grubunda **Yeniden Adlandır**’ı seçerek, ardından sırayla **created_date** ve **created_time** olarak yeni sütun üst bilgilerini yazarak sütunları yeniden adlandırın.
+   
+   ![Yeni tarih ve saat sütunları](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>İç içe geçmiş sütunu genişletme
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+Tarih ve saat verileri, istediğiniz şekilde olduğuna göre şimdi iç içe geçmiş bir sütunu genişleterek açıklama verilerini gösterirsiniz. 
 
-Böyle daha iyi. Bu sayfada artık üç farklı görselleştirmemiz olduğuna göre bunları istediğimiz şekilde boyutlandırarak rapor sayfasını doldurabiliriz.
+1. **object_link** sütununu ve sonra ![genişlet simgesi](media/desktop-tutorial-facebook-analytics/14.png) simgesini seçip **Genişlet/Toplat** iletişim kutusunu açın. **Bağlantılar**’ı seçin ve sonra **Tamam** seçeneğini belirleyin. 
+   
+   ![object_link öğesini genişletin](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   Sütun başlığı, **object_link.connections** olarak değişir.
+2. Tekrar **object_link.connections** sütununun üst kısmındaki ![genişlet simgesi](media/desktop-tutorial-facebook-analytics/14.png) simgesini seçin, **açıklamalar**’ı seçin ve sonra **Tamam** seçeneğini belirleyin. Sütun başlığı, **object_link.connections.comments** olarak değişir.
+   
+3. **object_link.connections.comments** sütununun üst kısmındaki ![genişlet simgesi](media/desktop-tutorial-facebook-analytics/14.png) simgesini seçin ve bu defa iletişim kutusunda Genişlet yerine **Topla** seçeneğini belirleyin. **Kimlik # Sayısı**’nı seçin ve sonra **Tamam** seçeneğini belirleyin. 
+   
+   ![Açıklamaları toplama](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   Sütun şimdi her bir ileti için açıklama sayısını görüntüler. 
+   
+4. **object_link.connections.comments.id sayısı** sütununu **Açıklama sayısı** olarak yeniden adlandırın.
+   
+5. **Açıklama sayısı** üst bilgisinin yanındaki aşağı oku seçin ve **Azalan Düzende Sırala** seçeneğini belirleyerek Gönderileri en fazla açıklama içerenden en az içerene doğru sıralanmış şekilde görüntüleyin. 
+   
+   ![İleti başına açıklama sayısı](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>Sorgu adımlarını gözden geçirme
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+**Power Query Editor**’daki verileri şekillendirip dönüştürdüğünüzde her bir adım, Güç Sorgu Düzenleyicisi penceresinin sağ tarafındaki **Sorgu Ayarları** bölmesinin **Uygulanan Adımlar** alanına kaydedilmiştir. Tam olarak hangi değişiklikleri yaptığınızı görmek için Uygulanan Adımlar boyunca geri gidebilir ve gerekirse bunları düzenleyebilir, silebilir veya yeniden ayarlayabilirsiniz (ancak önceki adımların değiştirilmesi, sonraki adımları bozabileceğinden bu riskli olabilir). 
 
-Gördüğünüz gibi verileri istediğiniz şekilde sunmak için raporunuzdaki görselleştirmeleri kolayca özelleştirebilirsiniz. Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Rapor hazır hale geldikten sonra [Power BI'a yükleyip](desktop-upload-desktop-files.md) bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
+Şu ana kadar veri dönüştürmelerini uygulamanızın ardından Uygulanan Adımlarınız şöyle görünmelidir:
+   
+   ![Uygulanan Adımlar](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >Uygulanan Adımların temelini, **M** dili olarak da bilinen, **Power Query Editor**’da yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin Giriş sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin. 
 
-Bu eğitimde kullanılan dosyanın son halini [buradan](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix) indirebilirsiniz
+### <a name="import-the-transformed-data"></a>Dönüştürülmüş verileri içeri aktarma
 
-### <a name="where-else-can-i-get-more-information"></a>Daha fazla bilgiye nereden ulaşabilirim?
+Verilerden memnun kaldığınızda, verileri Power BI Desktop’a içeri aktarmak için şeridin Giriş sekmesindeki **Kapat ve Uygula** > **Kapat ve Uygula** seçeneklerini belirleyin. 
+   
+   ![Kapat ve Uygula](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   Bir iletişim kutusu, verilerin Power BI Desktop veri modeline yüklenme durumunu görüntüler. 
+   
+   ![Verileri yükleme](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   Veriler yüklendikten sonra, Rapor görünümünde Alanlar listesinde yeni bir Sorgu olarak görüntülenir.
+   
+   ![Yeni sorgu](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>Rapor görselleştirmelerindeki verileri kullanma 
+
+Facebook sayfasındaki verileri içeri aktardığınıza göre şimdi görselleştirmeleri kullanarak hızlı ve kolayca verilerinizle ilgili öngörülere sahip olabilirsiniz. Görselleştirme oluşturmak kolaydır; tek yapmanız gereken bir alanı seçip **Alanlar** listesinden rapor tuvaline sürüklemektir.
+
+### <a name="create-a-bar-chart"></a>Çubuk grafik oluşturma
+
+1. Power BI Desktop Rapor görünümünde, alan listesinden **ileti** öğesini seçin veya tuvale sürükleyin. Tuvalde, tüm gönderi iletilerini gösteren bir tablo görüntülenir. 
+   
+   ![Yeni sorgu](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. Bu tablo seçili durumdayken, Alanlar listesinden **Açıklama sayısı**’nı da seçin veya tabloya sürükleyin. 
+   
+3. Görsel Öğeler bölmesinde **Yığılmış çubuk grafik** simgesini seçin. Tablo, gönderi başına açıklama sayısını gösteren bir çubuk grafiğe dönüşür. 
+   
+   ![Çubuk Grafik](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. Görselleştirmenin sağ üst kısmındaki üç noktayı (...) seçin ve sonra tabloyu açıklama sayısına göre azalan düzende sıralamak için **Açıklama sayısına göre sırala** seçeneğini belirleyin. 
+   
+   ![Açıklama sayısına göre sıralama](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. Çoğu açıklamanın, **Boş** iletilerle ilişkilendirilmiş olduğunu unutmayın (bu gönderiler; hikayeler, bağlantılar, videolar veya metin olmayan başka içerikler olabilir). Boş satırı filtrelemek için, Görsel Öğeler bölmesinin alt kısmındaki **Filtreler** bölümünden **ileti (tümü)** seçeneğini belirleyin, **Tümünü Seç** öğesini seçin ve sonra **Boş**’u seçerek bunun seçimini kaldırın. Filtreler girişi, **ileti (Boş) değil** olarak değişir ve Boş satır, grafik görselleştirmesinden kaybolur. 
+   
+   ![Boş olanları filtreleme](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>Grafiği biçimlendirme
+
+Görselleştirme daha ilginç hale geliyor, ancak grafikte gönderi metninin büyük kısmını göremiyorsunuz. Gönderi metninin daha fazlasını göstermek için:
+
+1. Grafik görselleştirmesindeki tutamaçları kullanarak grafiği olabildiğince büyük olacak şekilde yeniden boyutlandırın. 
+   
+2. Grafik seçili durumdayken, Görsel Öğeler bölmesindeki **Biçim simgesi** (boya rulosu) simgesini seçin.
+   
+3. **Y ekseni**’nin yanındaki aşağı oku seçin ve **En büyük boyut**’un yanındaki kaydırıcıyı tamamen sağa (%50) sürükleyin. 
+4. Ayrıca daha fazla metin sığdırmak için **Metin boyutu**’nu **10** değerine de düşürebilirsiniz.
+   
+   ![Değişiklikleri biçimlendirme](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   Grafik şimdi daha fazla gönderi içeriği gösterir. 
+   
+   ![Daha fazla gönderi gösterme](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+Grafiğin X ekseni (açıklama sayısı), tam değerleri göstermez ve grafiğin alt kısmında kaybolur. Bunun yerine veri etiketlerini kullanmaya karar verirsiniz. 
+
+1. Biçim simgesini seçin ve ardından **X ekseni**’nin yanındaki kaydırıcıyı seçip **Kapalı** durumuna getirin. 
+   
+2. **Veri etiketleri**’nin yanındaki kaydırıcıyı seçip **Açık** durumuna getirin. Şimdi grafik, her bir gönderi için tam açıklama sayısını gösterir.
+   
+   ![Veri etiketlerini uygulama](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>Veri türünü düzenleme
+
+Bu daha iyi, ancak **Gönderi sayısı** değerinin bir tamsayı olması gerektiğinden, tüm veri etiketlerinde dikkat dağıtabilecek ve yanıltabilecek bir **.0** ondalık basamağı vardır. **Gönderi sayısı** sütununun veri türünü Tam Sayı olarak değiştirmeniz gerekir.
+
+1. Veri türünü düzenlemek için, Alanlar listesinde **Sorgu1**’e sağ tıklayın veya imleci üzerine getirip **Diğer seçenekler** üç noktasını (...) seçin ve **Sorguyu Düzenle** seçeneğini belirleyin. Şeridin Giriş sekmesinin **Dış veri** alanından **Sorguları Düzenle**’yi de seçebilir ve sonra açılır listeden **Sorguları Düzenle**’yi seçin. Power BI Desktop **Power Query Editor**, ayrı bir pencerede açılır.
+   
+   ![Alanlar listesinden Sorguyu Düzenleme](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Şeritten Sorguları Düzenleme](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. Power Query Editor’da **Açıklama sayısı** sütununu seçin ve aşağıdakilerden birini yaparak veri türünü **Tam Sayı** olarak değiştirin: 
+   - **Açıklama sayısı** sütun üst bilgisinin yanındaki **1.2** simgesini seçip açılır listeden **Tam sayı**’yı seçerek veya
+   - Sütun üst bilgisine sağ tıklayıp **Türü değiştir > Tam Sayı** seçeneklerini belirleyerek veya
+   - Giriş sekmesinin **Dönüştür** grubunda **Veri türü: Ondalık Sayı** seçeneğini belirleyerek veya **Dönüştür** sekmesinin **Herhangi Bir Sütun** grubunda **Tam Sayı**’yı seçerek.
+   
+   Sütun üst bilgisindeki simge, **123**’e dönüşerek Tam Sayı veri türünü belirtir.
+   
+   ![Veri türünü değiştirme](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. **Kapat ve Uygula**’yı seçin veya yalnızca **Uygula**’yı seçerek, Power Query Editor penceresini açık tutarken değişiklikleri uygulayın. Değişiklikler yüklendikten sonra grafikteki veri etiketleri tam sayıya dönüşür. 
+   
+   ![Tam sayılar içeren grafik](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>Tarih dilimleyici oluşturma
+
+Zaman içinde gönderilerdeki açıklama sayısını görselleştirmek istersiniz. Farklı zaman çerçevelerine yönelik grafik verilerini filtrelemek için dilimleyici görselleştirmesi oluşturabilirsiniz. 
+
+1. Tuvalin boş bir alanına tıklayın ve sonra Görsel Öğeler bölmesindeki **Dilimleyici simgesi** öğesini seçin. Boş bir dilimleyici görselleştirmesi görüntülenir. 
+   
+   ![Dilimleyici simgesini seçme](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. Alanlar listesinden **created_date** alanını seçin veya yeni dilimleyiciye sürükleyin. Dilimleyici, alanın Tarih veri türüne bağlı olarak bir tarih aralığı kaydırıcısına dönüşür.
+   
+   ![Tarih aralığı kaydırıcı dilimleyicisi](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. Farklı tarih aralıkları seçmek için kaydırıcı tutamaçlarını taşıyın ve grafik verilerinin nasıl uygun şekilde filtrelendiğine dikkat edin. Ayrıca, kaydırıcıdaki tarih alanlarını da seçebilir ve belirli tarihleri girebilir veya bir takvim açılır penceresinden bunları seçebilirsiniz.
+    
+   ![Dilim verileri](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>Görselleştirmeleri biçimlendirme
+
+Grafiğe daha açıklayıcı ve çekici bir başlık vermeye karar verdiniz. 
+
+1. Grafik seçili durumdayken, **Biçim** simgesini seçin ve açılır oku seçerek **Başlık** seçeneğini genişletin.
+2. **Başlık metni**’ni **Gönderi başına açıklama sayısı** olarak değiştirin. 
+3. **Yazı tipi rengi**’nin yanındaki açılır oku seçin ve görselleştirmenin yeşil çubuklarıyla eşleşmesi için yeşil renk seçin.
+4. **Metin boyutu**’nu **10** değerine artırın ve **Yazı tipi ailesi**’ni **Segoe (Kalın)** değerine geçirin.
+
+![Grafik başlığını biçimlendirme](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+Görselleştirmelerinizin görünümünü değiştirmek için diğer biçimlendirme seçenekleri ve ayarları ile denemeler yapın. 
+
+![Görselleştirmeler](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>Daha fazla görselleştirme oluşturma
+
+Gördüğünüz gibi verileri istediğiniz şekilde sunmak için raporunuzdaki görselleştirmeleri kolayca özelleştirebilirsiniz. Örneğin, zaman içindeki açıklama sayısını gösteren bu çizgi grafiği oluşturmak için içeri aktarılan Facebook verilerini kullanmayı deneyin.
+
+![Çizgi grafik](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Raporunuz hazır hale geldikten sonra raporunuzu [Power BI hizmetine yükleyebilir](desktop-upload-desktop-files.md), bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
+
+## <a name="next-steps"></a>Sonraki adımlar
 * [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

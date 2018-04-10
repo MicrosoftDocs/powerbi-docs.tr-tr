@@ -1,28 +1,28 @@
 ---
-title: "Şirket içi veri ağ geçidi"
-description: "Bu, Power BI için şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz."
+title: Şirket içi veri ağ geçidi
+description: Bu, Power BI için Şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, Microsoft Flow, Logic Apps ve PowerApps hizmetleri arasında hızlı ve güvenli veri aktarımı sağlar.
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 Tek bir ağ geçidini aynı anda farklı hizmetlerle kullanabilirsiniz. Power BI'ın yanı sıra PowerApps hizmetini kullanıyorsanız her iki hizmet için tek bir ağ geçidi kullanılabilir. Bu, oturum açmak için kullandığınız hesaba bağlıdır.
 
 > [!NOTE]
-> Şirket içi veri ağ geçidi, tüm modlarda veri sıkıştırma ve aktarım şifreleme uygular.
+> Şirket içi veri ağ geçidi, tüm modlarda veri sıkıştırma ve aktarım şifrelemesi uygular.
 > 
 > 
 
@@ -47,12 +47,12 @@ Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
 | 2016 |Standart SKU veya sonraki sürümler |
 
 * Hücre düzeyinde Biçimlendirme ve çeviri özellikleri desteklenmez.
-* Eylemler ve Adlandırılmış Kümeler Power BI için açık değildir ancak Eylemleri ve Adlandırılmış kümeleri de içeren çok boyutlu küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
+* Eylemler ve Adlandırılmış Kümeler Power BI için açık değildir ancak Eylemleri veya Adlandırılmış kümeleri de içeren çok boyutlu küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
 
 <!-- Shared Install steps Include -->
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi indirme ve yükleme
+## <a name="download-and-install-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidini indirme ve yükleme
 Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
@@ -91,6 +91,11 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve Önemli Noktalar
+* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) şu anda desteklenmiyor
+* [Access Online](https://products.office.com/en-us/access) şu anda desteklenmiyor
+
 ## <a name="troubleshooting"></a>Sorun giderme
 Bir ağ geçidini yüklerken ve yapılandırırken sorun yaşıyorsanız [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md) makalesini mutlaka inceleyin. Güvenlik duvarınızla ilgili bir sorun yaşadığınızı düşünüyorsanız sorun giderme makalesindeki [güvenlik duvarı veya ara sunucu](service-gateway-onprem-tshoot.md#firewall-or-proxy) bölümüne bakın.
 
@@ -102,7 +107,7 @@ Ara sunucu sorunlarıyla karşılaştığınızı düşünüyorsanız bkz. [Powe
 [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
 [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
-[Şirket içi veri ağ geçidi (ayrıntılı)](service-gateway-onprem-indepth.md)  
+[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
 [Şirket içi veri ağ geçidi (kişisel mod) - kişisel ağ geçidinin yeni sürümü](service-gateway-personal-mode.md)
 [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
