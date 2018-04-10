@@ -1,15 +1,15 @@
 ---
-title: "Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme"
-description: "Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu makale, içeri aktarma/zamanlanmış yenileme ile kullanılabilen veri kaynaklarına yöneliktir."
+title: Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme
+description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu makale, içeri aktarma/zamanlanmış yenileme ile kullanılabilen veri kaynaklarına yöneliktir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme
-Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, DirectQuery veya canlı bağlantılardan farklı olarak, zamanlanmış yenileme için kullanılan veri kaynakları ve ağ geçitleri ile nasıl çalışılacağı incelenecektir.
+Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, DirectQuery veya canlı bağlantılardan farklı olarak, zamanlanmış yenileme için kullanılan veri kaynakları ve ağ geçitleri ile nasıl çalışılacağı incelenecektir.
 
 ## <a name="download-and-install-the-gateway"></a>Ağ geçidini indirme ve yükleme
 Ağ geçidini Power BI hizmetinden indirebilirsiniz. **İndir** > **Data Gateway** seçeneğini belirleyin veya [ağ geçidi indirme sayfasına](https://go.microsoft.com/fwlink/?LinkId=698861) gidin.
@@ -104,7 +104,7 @@ Veri kaynağına ilişkin Kullanıcılar sekmesinde, veri kaynağını kullanabi
 Oluşturduğunuz veri kaynağı, DirectQuery bağlantıları veya zamanlanmış yenileme ile kullanılabilir.
 
 > [!NOTE]
-> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop'taki sunucu adı ile veritabanı adı eşleşmelidir!
+> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adı eşleşmelidir!
 > 
 > 
 
@@ -120,7 +120,7 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 > 
 
 ## <a name="limitations"></a>Sınırlamalar
-* OAuth, şirket içi veri ağ geçidi için desteklenen bir kimlik doğrulama düzeni değildir. OAuth kimlik doğrulamasını gerekli kılan veri kaynakları ekleyemezsiniz. Veri kümeniz OAuth kimlik doğrulamasını gerekli kılan bir veri kaynağı içeriyorsa ağ geçidini zamanlanmış yenileme için kullanamazsınız.
+* OAuth, Şirket içi veri ağ geçidi ile desteklenen bir kimlik doğrulama düzeni değildir. OAuth kimlik doğrulamasını gerekli kılan veri kaynakları ekleyemezsiniz. Veri kümeniz OAuth kimlik doğrulamasını gerekli kılan bir veri kaynağı içeriyorsa ağ geçidini zamanlanmış yenileme için kullanamazsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  

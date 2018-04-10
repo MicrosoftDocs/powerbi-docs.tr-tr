@@ -1,15 +1,15 @@
 ---
-title: "Şirket içi veri ağ geçidi (ayrıntılı)"
-description: "Bu makalede, şirket içi veri ağ geçidi ayrıntılı olarak ele alınmaktadır. Analysis Services kullanılırken hizmetin Azure Active Directory ve yerel Active Directory hesabınız ile nasıl çalıştığı incelenmektedir"
+title: Şirket içi veri ağ geçidi (ayrıntılı)
+description: Bu makalede, şirket içi veri ağ geçidi ayrıntılı olarak ele alınmaktadır. Analysis Services kullanılırken hizmetin Azure Active Directory ve yerel Active Directory hesabınız ile nasıl çalıştığı incelenmektedir
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
-Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
+Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
 
 Ağ geçidi, genellikle bir yönetici tarafından yüklenir ve yapılandırılır. Bu işlem için şirket içi sunucularınız ile ilgili özel bilgiler gerekebileceği gibi bazı durumlarda Sunucu Yöneticisi izinleri de gerekli olabilir.
 

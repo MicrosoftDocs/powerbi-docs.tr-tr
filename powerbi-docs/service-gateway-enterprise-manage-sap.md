@@ -1,15 +1,15 @@
 ---
-title: "SAP HANA veri kaynağınızı yönetme"
-description: "Şirket içi veri ağ geçitlerini ve bu ağ geçitlerine ait veri kaynaklarını yönetme. Bu makale SAP HANA'ya özeldir."
+title: SAP HANA veri kaynağınızı yönetme
+description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu makale SAP HANA'ya özeldir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f9ec69c2a131a8de8f53385170bbddc59211f7b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43bc0c22918e041f354c29ae9cc3ee4806b8da1a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>SAP HANA veri kaynağınızı yönetme
-Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. SAP HANA veri kaynağını zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz.
+Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. SAP HANA veri kaynağını zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz.
 
 ## <a name="download-and-install-the-gateway"></a>Ağ geçidini indirme ve yükleme
 Ağ geçidini Power BI hizmetinden indirebilirsiniz. **İndir** > **Data Gateway** seçeneğini belirleyin veya [ağ geçidi indirme sayfasına](https://go.microsoft.com/fwlink/?LinkId=698861) gidin.
@@ -98,10 +98,10 @@ Veri kaynağına ilişkin Kullanıcılar sekmesinde, veri kaynağını kullanabi
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>Veri kaynağını kullanma
-Veri kaynağı, oluşturulduktan sonra DirectQuery bağlantılarıyla veya zamanlanmış yenileme yoluyla kullanılabilir.
+Oluşturduğunuz veri kaynağı, DirectQuery bağlantıları veya zamanlanmış yenileme ile kullanılabilir.
 
 > [!NOTE]
-> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop'taki sunucu adı ile veritabanı adı eşleşmelidir!
+> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adı eşleşmelidir!
 > 
 > 
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI'da sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma"
-description: "Hızlı ölçümler, sık kullanılan hesaplama işini hızla gerçekleştiren kullanıma hazır DAX formülleri sağlar"
+title: Power BI'da sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma
+description: Hızlı ölçümler, sık kullanılan hesaplama işini hızla gerçekleştiren kullanıma hazır DAX formülleri sağlar
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma
-**Hızlı ölçümler** özelliğini kullanarak kolayca sık kullanılan, etkili hesaplamalar gerçekleştirebilirsiniz. **Hızlı ölçüm** bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX'ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.
+**Hızlı ölçümler** özelliğini kullanarak kolayca sık kullanılan, etkili hesaplamalar gerçekleştirebilirsiniz. **Hızlı ölçüm**, bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX’ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -101,7 +101,7 @@ Aşağıdaki **Matris** görselinde, çeşitli elektronik ürünlere ilişkin bi
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-**Değerler** alanı kutusuna sağ tıklayıp **Hızlı ölçümler**'i seçtiğimizde *Hesaplama* olarak *Kategori başına ortalama*'yı, ardından *Taban değeri* olarak *Sum of SalesAmount*'u seçin ve söz konusu alanı sağ bölmedeki *Alanlar* kutusundan sol taraftaki *Category* bölümüne sürükleyerek *SalesAmount* değerini belirtin.
+**Değerler** alanı kutusuna sağ tıklayıp **Hızlı ölçümler**’i seçtiğimizde *Hesaplama* olarak *Kategori başına ortalama*’yı, ardından *Taban değeri* olarak *Sum of SalesAmount*’u seçin ve söz konusu alanı sağ bölmedeki *Alanlar* kutusundan sol taraftaki *Kategori* bölümüne sürükleyerek *SalesAmount* değerini belirtin.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -128,9 +128,9 @@ Birinci öğeyle başlamak için görsele **Hızlı ölçüm** uygulanmış oldu
 
 ![](media/desktop-quick-measures/quick-measures_10.png)
 
-Ölçünün arkasındaki formülü göstermesi bile başlı başına bir yarar sağlar. Ancak belki de daha önemlisi, **Hızlı ölçümler**'i kullanarak, temel alınan DAX formüllerinin nasıl oluşturulması gerektiğini görmenize olanak sağlamasıdır.
+Ölçünün arkasındaki formülü göstermesi bile başlı başına bir yarar sağlar. Ancak belki de daha önemlisi, **Hızlı ölçümler**’i kullanarak, temel alınan DAX formüllerinin nasıl oluşturulması gerektiğini görmenize olanak sağlamasıdır.
 
-Bir yıldan yıla hesaplaması yapmanız gerektiğini ancak DAX formülünü nasıl yapılandırmanız gerektiğini bilmediğinizi (veya nereden başlayacağınız konusunda hiçbir fikriniz olmadığını) düşünün. Ne yapacağınızı düşünmek yerine **Yıldan yıla değişim** hesaplamasını kullanarak **Hızlı ölçüm** oluşturup neler olacağını görebilirsiniz. **Hızlı ölçüm**'ü oluşturun ve görselinizde nasıl göründüğüne bakın, DAX formülünün nasıl çalıştığını görün ve ardından, gerek duyduğunuz ya da beklediğiniz hesaplamaya ulaşana kadar ister doğrudan DAX üzerinde değişiklikler yapın ister başka bir ölçü oluşturun.
+Bir yıldan yıla hesaplaması yapmanız gerektiğini ancak DAX formülünü nasıl yapılandırmanız gerektiğini bilmediğinizi (veya nereden başlayacağınız konusunda hiçbir fikriniz olmadığını) düşünün. Ne yapacağınızı düşünmek yerine **Yıldan yıla değişim** hesaplamasını kullanarak **Hızlı ölçüm** oluşturup neler olacağını görebilirsiniz. **Hızlı ölçüm**’ü oluşturun ve görselinizde nasıl göründüğüne bakın, DAX formülünün nasıl çalıştığını görün ve ardından, gerek duyduğunuz ya da beklediğiniz hesaplamaya ulaşana kadar ister doğrudan DAX üzerinde değişiklikler yapın ister başka bir ölçü oluşturun.
 
 Bu özellik, varsayımsal sorularınıza sadece birkaç tıklama ile yanıt veren hızlı bir öğretmen gibidir. İstemediğiniz ölçüleri dilediğiniz zaman modelinizden silebilirsiniz. Bunun için ölçüye tıklayıp **sil** seçeneğini belirlemeniz yeterlidir.
 

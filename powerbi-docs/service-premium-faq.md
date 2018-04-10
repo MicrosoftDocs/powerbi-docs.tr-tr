@@ -1,15 +1,15 @@
 ---
-title: "Power BI Premium hakkında SSS"
-description: "Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin."
+title: Power BI Premium hakkında SSS
+description: Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 09/20/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: 315b39942befdbbd3dd36ca86d1cb3ff7288403d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c5d96b0aa9ce02abf3e88d83718d70a3b8033897
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.

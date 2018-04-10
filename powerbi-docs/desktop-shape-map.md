@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.
@@ -32,7 +32,7 @@ Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırm
 ## <a name="creating-shape-maps"></a>Şekil Haritası Oluşturma
 **Şekil Haritası** denetimini, bu Önizleme sürümüyle birlikte sunulan haritalarla test edebilir veya aşağıdaki **Özel Harita Kullanma** adlı bölümde açıklanmış gereksinimleri karşılaması koşuluyla kendi özel haritanızı kullanabilirsiniz.
 
-**Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**'nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**'ni seçin ve ardından **Şekil Haritası** onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
+**Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**’nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **Şekil Haritası Görseli** onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ Power BI Desktop, boş bir **Şekil Haritası** görsel tasarım tuvali oluştur
 
 Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 
-1. **Alanlar** bölmesinde, bölge adlarını (veya kısaltmalarını) içeren bir veri alanını **Konum** demetine, bir veri ölçüsü alanını ise **Değerler** demetine sürükleyin. (Henüz bir harita görmezsiniz.)
+1. **Alanlar** bölmesinde, bölge adlarını (veya kısaltmalarını) içeren bir veri alanını **Konum** demetine, bir veri ölçüsü alanını ise **Renk doygunluğu** demetine sürükleyin (Henüz bir harita görmezsiniz).
    
    > [!NOTE]
 > **Şekil Haritası**'nı test etmek üzere hızlıca harita verileri alma hakkında bilgi için aşağıdaki **Harita Verileri Alma** başlıklı bölüme bakabilirsiniz.
@@ -70,7 +70,7 @@ Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 ## <a name="use-custom-maps"></a>Özel harita kullanma
 **TopoJSON** biçimindeki özel haritaları **Şekil Haritası** ile kullanabilirsiniz. Haritanız başka bir biçimdeyse [**Map Shaper**](http://mapshaper.org/) gibi çevrimiçi araçları kullanarak *şekil dosyalarınızı* ve *GeoJSON* haritalarınızı **TopoJSON** biçimine dönüştürebilirsiniz.
 
-**TopoJSON** harita dosyanızı kullanmak için, raporunuza bir Şekil Haritası görseli, *Konum* ve *Değerler* demetlerine ise bazı veriler ekleyin. Ardından **Görselleştirmeler** bölmesinde **Biçim** bölümü seçiliyken (aşağıdaki görüntüde (1) olarak gösterilen boya fırçası simgesi) **Şekil** bölümünü genişletin ve **+Harita Ekle** seçeneğini belirleyin.
+**TopoJSON** harita dosyanızı kullanmak için, raporunuza bir Şekil Haritası görseli, *Konum* ve *Renk doygunluğu* demetlerine ise bazı veriler ekleyin. Ardından **Görsel Öğeler** bölmesinde **Biçim** bölümü seçiliyken (aşağıdaki görüntüde (1) olarak gösterilen) **Şekil** bölümünü genişletin ve **+Harita Ekle** seçeneğini belirleyin.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Bu veri kümesi ve görselleştirme ile deneme yapmak istiyorsanız, aşağıdak
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Ardından, tabloyu Power BI Desktop'a yapıştırabilirsiniz. En üst satır otomatik bir şekilde başlık olarak tanımlanır.
+Verilerinizde birden çok sütun varsa, verileri yapıştırmak için Excel gibi bir düzenleyici kullanmanız ve sonra her bir veri sütununu ayrı olarak kopyalamanız gerekir. Ardından, verileri Power BI Desktop’a yapıştırabilirsiniz. En üst satır otomatik bir şekilde başlık olarak tanımlanır.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 ## <a name="preview-behavior-and-requirements"></a>Önizleme davranışı ve gereksinimleri
 **Şekil Haritası**'nın bu Önizleme sürümü için akılda bulundurulması gereken bazı önemli noktalar ve gereksinimler vardır:
 
-* **Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**'nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**'ni seçin ve ardından **Şekil Haritası** onay kutusunu işaretleyin.
-* Şu anda **Açıklama** sınıflandırmasının düzgün bir şekilde çalışabilmesi için **Değerler** demetini de ayarlamanız gerekir
-* **Şekil Eşlemesi**'nin son yayın sürümünde, seçili durumdaki eşlemeye ilişkin eşleme anahtarlarını gösteren bir kullanıcı arabirimi bulunacaktır (Son yayın için belirlenmiş bir tarih yoktur ve **Şekil Eşlemesi** hala Önizleme sürümündedir). Bu Önizleme sürümünde, bu makalenin **Bölge Anahtarları** bölümündeki tablolarda yer alan bölge anahtarlarına başvurabilirsiniz.
+* **Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**’nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **Şekil Haritası Görseli** onay kutusunu işaretleyin.
+* Şu anda **Açıklama** sınıflandırmasının düzgün şekilde çalışabilmesi için **Renk doygunluğu** demetini de ayarlamanız gerekir.
+* **Şekil Haritası**’nın son sürümü, şu anda seçili haritanın harita anahtarlarını gösteren bir kullanıcı arabirimi içerecektir (son sürüm için ayarlanmış bir tarih yoktur ve **Şekil Haritası** halen Önizleme aşamasındadır). Bu Önizleme sürümünde, bu makalenin aşağıdaki **Bölge Anahtarları** bölümünde bulunan tablolarda yer alan harita bölgesi anahtarlarına başvurabilirsiniz.
 * **Şekil Eşlemesi** görseli en fazla 1.000 veri noktasına kadar çizim yapar.
 
 ## <a name="region-keys"></a>Bölge anahtarları

@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
-**Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri ve çok daha fazlası) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
+**Rapor Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
 
 ![](media/desktop-report-themes/report-themes_1.png)
 

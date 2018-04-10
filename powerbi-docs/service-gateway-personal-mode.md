@@ -1,15 +1,15 @@
 ---
-title: "Şirket içi veri ağ geçidi (kişisel mod)"
-description: "Kullanıcıların şirket içi verilere bağlanmak için kullanabileceği Power BI veri ağ geçidi"
+title: Şirket içi veri ağ geçidi (kişisel mod)
+description: Kullanıcıların şirket içi verilere bağlanmak için kullanabileceği Power BI veri ağ geçidi
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidi (kişisel mod)
 Bir ağ geçidiyle şirket içi veri kaynaklarını kullanabilir ve Power BI raporları ve panoları oluşturabilirsiniz. Bir **ağ geçidi,** özel, şirket içi ağda depolanan verilere erişimi kolaylaştıran ve ardından bu verileri **Power BI hizmeti** gibi çevrimiçi hizmetlerde kullanabilmenizi sağlayan bir yazılımdı. **Şirket içi veri ağ geçidi (kişisel mod)** kısa süre önce kullanıma sunulan bir Power BI ağ geçidi güncelleştirmesidir ve kullanıcıların kendi bilgisayarlarına bir ağ geçidi yüklemesine ve şirket içi verilere erişim sağlayabilmesine olanak tanır.
@@ -35,7 +35,7 @@ Bir ağ geçidiyle şirket içi veri kaynaklarını kullanabilir ve Power BI rap
 > 
 
 ## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidi (kişisel mod) özellikleri
-**Şirket içi veri ağ geçidinin (kişisel mod)** kullanıma sunulmasıyla birlikte bir dizi iyileştirme ve özellik sunulmaktadır. Kişisel ağ geçidinin önceki sürümünde (**Power BI Gateway - Personal**), uygulanması bazı sınırlamalara neden olmuştur. Birçok Power BI ürününde olduğu gibi müşterilerin ihtiyaçlarına, isteklerine ve ürünü nasıl kullandıklarına dikkat ettik. Sonuç olarak, **şirket içi veri ağ geçidi (kişisel mod)** sıfırdan yeniden tasarlandı ve artık aşağıdaki özellikleri ve iyileştirmeleri içeriyor:
+**Şirket içi veri ağ geçidinin (kişisel mod)** kullanıma sunulmasıyla birlikte bir dizi iyileştirme ve özellik sunulmaktadır. Kişisel ağ geçidinin önceki sürümünde (**Power BI Gateway - Personal**), uygulanması bazı sınırlamalara neden olmuştur. Birçok Power BI ürününde olduğu gibi müşterilerin ihtiyaçlarına, isteklerine ve ürünü nasıl kullandıklarına dikkat ettik. Sonuç olarak, **Şirket içi veri ağ geçidi (kişisel mod)** sıfırdan yeniden tasarlandı ve artık aşağıdaki özellikleri ve iyileştirmeleri içeriyor:
 
 * **Gelişmiş güvenilirlik**: Kişisel ağ geçidinin yeni sürümü, kod ve yapısal yazılım iyileştirmeleri sayesinde güvenilirlik açısından önceki sürümden üstündür.
 * **Gelişmiş genişletilebilirlik**: Yapısal yazılım iyileştirmeleri kapsamında ek özellikler sunulduğunda kolayca kişisel ağ geçidine eklenebilir.
@@ -43,11 +43,11 @@ Bir ağ geçidiyle şirket içi veri kaynaklarını kullanabilir ve Power BI rap
 * **Yapılandırma ve hizmet günlükleri**: Yeni sürüm sayesinde yapılandırma ve hizmet günlüklerini tek bir tıklamayla kolayca bir .zip dosyasına aktarabilirsiniz.
 
 ## <a name="installing-on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidini (kişisel mod) yükleme
-Ağ geçidinin önceki sürümü yüklü değilken **şirket içi veri ağ geçidini (kişisel mod)** yüklemek için **Power BI hizmetinde** dişli simgesini ve **Data Gateway** öğesini seçin.
+Ağ geçidinin önceki sürümü yüklü değilken **Şirket içi veri ağ geçidini (kişisel mod)** yüklemek için **Power BI hizmetinde** dişli simgesini ve **Data Gateway** öğesini seçin.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
-Ağ geçidini [bu konumdan](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409) da indirebilirsiniz. Yükleme adımlarını uygulayabilirsiniz. Yükleme işlemi, ağ geçidinin iki sürümünü de yüklemenize izin verdiğinden (başkalarıyla paylaşılabilen standart ağ geçidi veya kişisel mod) ağ geçidinin hangi sürümünü yükleyeceğinizi belirtmeniz istendiğinde **şirket içi veri ağ geçidi (kişisel mod)** seçeneğini belirlediğinizden emin olun.
+Ağ geçidini [bu konumdan](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409) da indirebilirsiniz. Yükleme adımlarını uygulayabilirsiniz. Yükleme işlemi, ağ geçidinin iki sürümünü de yüklemenize izin verdiğinden (başkalarıyla paylaşılabilen standart ağ geçidi veya kişisel mod) ağ geçidinin hangi sürümünü yükleyeceğinizi belirtmeniz istendiğinde **Şirket içi veri ağ geçidi (kişisel mod)** seçeneğini belirlediğinizden emin olun.
 
 ### <a name="updating-from-the-previous-personal-gateway"></a>Önceki kişisel ağ geçidinden güncelleştirme
 **Power BI Gateway - personal** ağ geçidi yüklüyse **Power BI hizmetinde** **Ayarlar** bölümündeki **Veri Kümeleri** öğesini görüntülediğinizde kişisel ağ geçidinin yeni ve geliştirilmiş sürümünü yüklemeniz istenir.
@@ -79,17 +79,17 @@ Neredeyse bitti. Yeni ağ geçidini yükledikten sonra makinenizdeki önceki sü
 Kişisel ağ geçidinin hangi sürümünün yüklü olduğunu belirlemek için aşağıdakileri yapabilirsiniz:
 
 * Kişisel ağ geçidinin önceki sürümünün adı **Power BI Gateway - Personal** şeklindedir ve yükleme iletişim kutusunda Power BI simgesi bulunur.
-* Kişisel ağ geçidinin yeni sürümünün adı **şirket içi veri ağ geçidi (kişisel mod)** şeklindedir ve ağ geçidi simgesi (alt kısmı boyunca bir yukarı ve aşağı ok bulunan bulut) bulunur.
+* Kişisel ağ geçidinin yeni sürümünün adı **Şirket içi veri ağ geçidi (kişisel mod)** şeklindedir ve ağ geçidi simgesi (alt kısmı boyunca bir yukarı ve aşağı ok bulunan bulut) bulunur.
 
 **Program Ekle/Kaldır** bölümüne gidip listede **Power BI Gateway - Personal** programının görüntülenip görüntülenmediğine bakabilirsiniz. Listede yer alıyorsa kişisel ağ geçidinin önceki sürümü yüklüdür.
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>Kişisel ağ geçidi ile Hızlı Birleştirmeyi kullanma
-Önceki ağ geçidi ile **Hızlı Birleştirme** özelliğini kullandıysanız aşağıdaki adımları uygulayarak **Hızlı Birleştirme** özelliğini **şirket içi veri ağ geçidi (kişisel mod)** ile çalışmak üzere yeniden etkinleştirebilirsiniz:
+Önceki ağ geçidi ile **Hızlı Birleştirme** özelliğini kullandıysanız aşağıdaki adımları uygulayarak **Hızlı Birleştirme** özelliğini **Şirket içi veri ağ geçidi (kişisel mod)** ile çalışmak üzere yeniden etkinleştirebilirsiniz:
 
 1. Dosya Gezgini'ni kullanarak aşağıdaki dosyayı açın:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. Dosyanın alt kısmına aşağıdaki metni ekleyin:
    
@@ -101,13 +101,13 @@ Kişisel ağ geçidinin hangi sürümünün yüklü olduğunu belirlemek için a
 3. Bu işlemin ardından ayar, yaklaşık bir dakika içinde etkinleşir. Düzgün çalışıp çalışmadığını kontrol etmek için **Hızlı Birleştirme** özelliğinin çalıştığını onaylamak üzere **Power BI hizmetinde** isteğe bağlı yenileme işlemi yapın.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-Aşağıdaki listede açıklandığı şekilde **şirket içi veri ağ geçidini (kişisel mod)** kullanırken göz önünde bulundurmanız gereken bazı önemli noktalar vardır.
+Aşağıdaki listede açıklandığı şekilde **Şirket içi veri ağ geçidini (kişisel mod)** kullanırken göz önünde bulundurmanız gereken bazı önemli noktalar vardır.
 
 * Windows oturumu açmak için bir PIN veya **Windows Hello** kullanıyorsanız aşağıdaki hata ile karşılaşabilirsiniz: 
   * *Seçtiğiniz kullanıcı hesabı, uygulamanın gereksinimleriyle eşleşmiyor. Lütfen farklı bir hesap kullanın.*
   * Bu hatayı düzeltmek için *Farklı bir hesap kullan* seçeneğini belirleyin ve yeniden oturum açın. 
 
-Aşağıdaki veri kaynakları şu anda **şirket içi veri ağ geçidinde (kişisel mod)** desteklenmemektedir:
+Aşağıdaki veri kaynakları şu anda **Şirket içi veri ağ geçidinde (kişisel mod)** desteklenmemektedir:
 
 * ADO.NET 
 * CurrentWorkbook
@@ -119,18 +119,18 @@ Aşağıdaki veri kaynakları şu anda **şirket içi veri ağ geçidinde (kişi
 Spark desteğinin 2017 takvim yılının ikinci yarısında sunulması planlanmaktadır.
 
 ## <a name="frequently-asked-questions-faq"></a>Sık Sorulan Sorular (SSS)
-* **Şirket içi veri ağ geçidini (kişisel mod)** **şirket içi veri ağ geçidi** (önceki adıyla ağ geçidinin Kurumsal sürümü) ile yan yana çalıştırabilir miyim?
+* **Şirket içi veri ağ geçidini (kişisel mod)** **Şirket içi veri ağ geçidi** (önceki adıyla ağ geçidinin Kurumsal sürümü) ile yan yana çalıştırabilir miyim?
   
   * **Cevap**: Evet, yeni sürüm ile birlikte her ikisini aynı anda çalıştırabilirsiniz.
 * **Şirket içi veri ağ geçidini (kişisel mod)** bir hizmet olarak çalıştırabilir miyim?
   
-  * **Cevap**: Hayır. **Şirket içi veri ağ geçidi (kişisel mod)** yalnızca bir uygulama olarak çalıştırılabilir. Ağ geçidini bir hizmet olarak ve/veya yönetici modda çalıştırmanız gerekirse [**şirket içi veri ağ geçidini**](service-gateway-onprem.md) (önceki adıyla ağ geçidinin Kurumsal sürümü) çalıştırmayı düşünebilirsiniz.
+  * **Cevap**: Hayır. **Şirket içi veri ağ geçidi (kişisel mod)** yalnızca bir uygulama olarak çalıştırılabilir. Ağ geçidini bir hizmet olarak ve/veya yönetici modda çalıştırmanız gerekirse [**Şirket içi veri ağ geçidini**](service-gateway-onprem.md) (önceki adıyla ağ geçidinin Kurumsal sürümü) çalıştırmayı düşünebilirsiniz.
 * **Şirket içi veri ağ geçidi (kişisel mod)** ne sıklıkla güncelleştirilir?
   
   * **Cevap**: Kişisel ağ geçidini aylık olarak güncelleştirmeyi planlıyoruz.
 * Neden kimlik bilgilerimi güncelleştirmem isteniyor?
   
-  * **Cevap**: Birçok durumda kimlik bilgileriniz istenebilir. En yaygın olarak, **şirket içi veri ağ geçidini (kişisel mod)** **Power BI - personal** ağ geçidinizden farklı bir makinede yeniden yüklediğinizde karşılaşırsınız. Veya veri kaynağında bir sorun olabilir, Power BI bir test bağlantısını gerçekleştirememiş olabilir ya da zaman aşımı veya bir sistem hatası meydana gelmiş olabilir. **Power BI hizmetinde** **dişli simgesine** gidip **Ayarlar** öğesini ve ardından **Veri Kümeleri** seçeneğini belirleyerek ve söz konusu veri kümesini bulup *kimlik bilgilerini güncelleştir* öğesine tıklayarak kimlik bilgilerinizi güncelleştirebilirsiniz.
+  * **Cevap**: Birçok durumda kimlik bilgileriniz istenebilir. En yaygın olarak, **Şirket içi veri ağ geçidini (kişisel mod)** **Power BI - personal** ağ geçidinizden farklı bir makinede yeniden yüklediğinizde karşılaşırsınız. Veya veri kaynağında bir sorun olabilir, Power BI bir test bağlantısını gerçekleştirememiş olabilir ya da zaman aşımı veya bir sistem hatası meydana gelmiş olabilir. **Power BI hizmetinde** **dişli simgesine** gidip **Ayarlar** öğesini ve ardından **Veri Kümeleri** seçeneğini belirleyerek ve söz konusu veri kümesini bulup *kimlik bilgilerini güncelleştir* öğesine tıklayarak kimlik bilgilerinizi güncelleştirebilirsiniz.
 * Yükseltme sırasında önceki kişisel ağ geçidim ne kadar süreyle çevrimdışı olacak?
   
   * **Cevap**: Kişisel ağ geçidinizi yeni sürüme yükseltmek yalnızca birkaç dakika sürer. 

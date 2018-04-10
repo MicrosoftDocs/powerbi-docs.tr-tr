@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop'taki Analiz Bölmesini Kullanma
 **Power BI Desktop**'taki **Analiz** bölmesini kullanarak görsellere *dinamik başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. **Analiz** bölmesi, Power BI Desktop’ın **Görselleştirmeler** alanında bulunur.
@@ -113,6 +113,8 @@ Son olarak, aşağıdakiler gibi Kartezyen olmayan görsellerle şu anda **Anali
 * Pasta grafiği
 * Halka
 * Tablo
+
+Yüzdelik satır yalnızca **Power BI Desktop**’ta içeri aktarılan veriler kullanılırken veya **Analysis Service 2016** veya sonraki sürümünü, **Azure Analysis Services**’ı ya da Power BI hizmetindeki bir veri kümesini çalıştıran bir sunucudaki modele canlı olarak bağlanıldığında kullanılır. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Sunulan özellikler hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

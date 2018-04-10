@@ -1,15 +1,15 @@
 ---
-title: "Veri kaynağınızı yönetme - Analysis Services"
-description: "Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu hem Çok Boyutlu hem de Tablolu moddaki Analysis Services'e yöneliktir."
+title: Veri kaynağınızı yönetme - Analysis Services
+description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu hem Çok Boyutlu hem de Tablolu moddaki Analysis Services'e yöneliktir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
-Şirket içi veri ağ geçidini yükledikten sonra ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
+Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -76,7 +76,7 @@ Ardından **Sunucu**'yu ve **Veritabanı**'nı içeren veri kaynağına ilişkin
 Girdiğiniz **Kullanıcı Adı** ve **Parola** Analysis Services örneğine bağlanmak için ağ geçidi tarafından kullanılır.
 
 > [!NOTE]
-> Girdiğiniz Windows hesabının bağlantı kurduğunuz örneğe ilişkin Sunucu Yöneticisi izinlerine sahip olması gerekir. Bu hesabın parolası, süresi dolacak şekilde ayarlanmışsa kullanıcılar, parolanın veri kaynağı için güncelleştirilmemesi durumunda bağlantı hatası alabilir. Daha fazla bilgi için [kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığını öğrenmek üzere şirket içi veri ağ geçidi ana makalesine başvurun.
+> Girdiğiniz Windows hesabının bağlantı kurduğunuz örneğe ilişkin Sunucu Yöneticisi izinlerine sahip olması gerekir. Bu hesabın parolası, süresi dolacak şekilde ayarlanmışsa kullanıcılar, parolanın veri kaynağı için güncelleştirilmemesi durumunda bağlantı hatası alabilir. [Kimlik bilgilerinin](service-gateway-onprem.md#credentials) nasıl depolandığı ile ilgili daha fazla bilgi için, şirket içi veri ağ geçidi konusunun ele alındığı ana makaleye başvurun.
 > 
 > 
 
@@ -144,11 +144,11 @@ AAD UPN'lerini Active Directory kullanıcılarıyla yeniden eşlemek için şirk
 - Bir Power BI AAD kullanıcısı tarafından şirket içi SSAS sunucusuna yapılan her sorgu için şunun gibi bir UPN dizesi geçirilir:      firstName.lastName@contoso.com
 
 > [!NOTE]
-> Power BI veri kaynağı yapılandırmasında tanımlanmış tüm el ile UPN kullanıcı eşlemeleri yine de kullanıcı adı dizesi şirket içi veri ağ geçidine gönderilmeden *önce* uygulanır.
+> Power BI veri kaynağı yapılandırmasında tanımlanmış tüm el ile UPN kullanıcı eşlemeleri yine de kullanıcı adı dizesi Şirket içi veri ağ geçidine gönderilmeden *önce* uygulanır.
 > 
 > 
 
-Yapılandırılabilir Özel Kullanıcı Eşlemesi'ne sahip şirket içi veri ağ geçidinde aşağıdaki işlemleri gerçekleştirin:
+Yapılandırılabilir Özel Kullanıcı Eşlemesi’ne sahip Şirket içi veri ağ geçidinde aşağıdaki işlemleri gerçekleştirin:
 
 1. Aramak için Active Directory'yi bulun (otomatik veya yapılandırılabilir)
 2. **Power BI hizmetinden** gelen UPN dizesine ("firstName.lastName@contoso.com") bağlı olarak AD Kullanıcısının özniteliğini (*E-posta* gibi) arayın.
@@ -159,14 +159,14 @@ Yapılandırılabilir Özel Kullanıcı Eşlemesi'ne sahip şirket içi veri ağ
 AD Arama gerçekleştirmek için ağ geçidinizi yapılandırma:
 
 1. En yeni ağ geçidini indirme ve yükleme
-2. Ağ geçidinde **şirket içi veri ağ geçidi hizmetini** yerel hizmet hesabı yerine bir etki alanı hesabıyla çalışacak şekilde değiştirmeniz gerekir. (Aksi halde AD arama, çalışma zamanında düzgün şekilde çalışmaz.) Değişikliğin geçerli olması için ağ geçidi hizmetini yeniden başlatmanız gerekir.  Makinenizde ağ geçidi uygulamasına gidin. ("On-premises data gateway" (şirket içi veri ağ geçidi) araması yapın). Bunu yapmak için **Service settings > Change service account** (Hizmet ayarları > Hizmet hesabını değiştir) seçeneğine gidin. Yeni bir ağ geçidi oluşturmak istemiyorsanız bu ağ geçidini aynı makinede geri yüklemeniz gerekeceğinden ağ geçidine ilişkin kurtarma anahtarını bildiğinizden emin olun. 
+2. Ağ geçidinde **Şirket içi veri ağ geçidi hizmetini** yerel hizmet hesabı yerine bir etki alanı hesabıyla çalışacak şekilde değiştirmeniz gerekir (Aksi halde AD arama, çalışma zamanında düzgün şekilde çalışmaz). Değişikliğin geçerli olması için ağ geçidi hizmetini yeniden başlatmanız gerekir.  Makinenizde ağ geçidi uygulamasına gidin. ("On-premises data gateway" (Şirket içi veri ağ geçidi) araması yapın). Bunu yapmak için **Service settings > Change service account** (Hizmet ayarları > Hizmet hesabını değiştir) seçeneğine gidin. Yeni bir ağ geçidi oluşturmak istemiyorsanız bu ağ geçidini aynı makinede geri yüklemeniz gerekeceğinden ağ geçidine ilişkin kurtarma anahtarını bildiğinizden emin olun. 
 3. Yazma izinlerine sahip olduğunuzdan emin olmak ve şu dosyayı düzenlemek için ağ geçidinin yüklendiği klasöre (*C:\Program Files\On-premises data gateway*) yönetici olarak gidin:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. AD kullanıcılarınıza ilişkin Active Directory özniteliği *yapılandırmalarınıza* göre aşağıdaki iki yapılandırma değerini düzenleyin. Aşağıda gösterilen yapılandırma değerleri yalnızca örnek amaçlıdır, Active Directory yapılandırmanıza göre değer belirtmeniz gerekir. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Yapılandırma değişikliğinin geçerli olması için **şirket içi veri ağ geçidini** yeniden başlatın.
+5. Yapılandırma değişikliğinin geçerli olması için **Şirket içi veri ağ geçidi** hizmetini yeniden başlatın.
 
 ### <a name="working-with-mapping-rules"></a>Eşleme kuralları ile çalışma
 Eşleme kuralı oluşturmak için **Özgün ad** ve **Yeni Ad** değerlerini belirtmeniz ve ardından **Ekle** seçeneğini belirlemeniz gerekir.
@@ -224,7 +224,7 @@ Veri kaynakları için, Kullanıcılar sekmesinde ilgili veri kaynağını kulla
 Veri kaynağı, oluşturulduktan sonra canlı bağlantılarla veya zamanlanmış yenileme yoluyla kullanılabilir.
 
 > [!NOTE]
-> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop'taki sunucu ve veritabanı adı eşleşmelidir!
+> Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adı eşleşmelidir!
 > 
 > 
 

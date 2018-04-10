@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'taki gizlilik düzeylerini anlama"
-description: "Power BI Desktop gizlilik düzeyleri"
+title: Power BI Desktop'taki gizlilik düzeylerini anlama
+description: Power BI Desktop gizlilik düzeyleri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.
@@ -31,15 +31,6 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- Her bir veri kaynağına ilişkin **Gizlilik** ayarları iletişim kutusuna **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları** yolunu izleyerek de ulaşabilirsiniz. Veri kaynağını seçin ve ardından **Düzenle**'yi seçin. Aşağıdaki görüntüde gösterildiği gibi, alt kısmındaki açılan menüden uygun gizlilik düzeyini seçebileceğiniz **Veri Kaynağı Ayarları** iletişim kutusu görüntülenir.
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> Yüksek düzeyde gizli veya hassas veriler içeren veri kaynaklarını **Gizli** olarak yapılandırmanız gerekir.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Gizlilik düzeyi yapılandırma
 Gizlilik düzeyi ayarlarını kullanarak, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtebilirsiniz.
 
@@ -47,7 +38,7 @@ Gizlilik düzeyi ayarlarını kullanarak, bir veri kaynağının diğer veri kay
 | --- | --- | --- |
 | **Gizli veri kaynağı** |**Gizli** veri kaynakları gizli veya hassas bilgiler içerir ve veri kaynağının görünürlüğü yetkili kullanıcılarla sınırlandırılabilir. Gizli veri kaynakları diğer veri kaynaklarından tamamen yalıtılır. |Facebook verileri, hisse ikramiyeler içeren bir metin dosyası veya çalışan inceleme bilgilerinin bulunduğu bir çalışma kitabı. |
 | **Kuruluş veri kaynağı** |**Kuruluş** veri kaynakları bir veri kaynağının görünürlüğünü güvenilen bir grup kullanıcıyla sınırlar. **Kuruluş** veri kaynakları tüm **Genel** veri kaynaklarından yalıtılır ancak diğer **Kuruluş** veri kaynaklarından yalıtılmaz. |İzinlerin güvenilen bir grup için etkinleştirildiği, intranet SharePoint sitesindeki bir **Microsoft Word** belgesi. |
-| **Genel veri kaynağı** |**Genel** veri kaynaklarında bulunan veriler herkes tarafından görülebilir. Yalnızca dosyalar, internet veri kaynakları veya çalışma kitabı verileri **Genel** olarak işaretlenebilir. |Microsoft Azure Marketi'ndeki ücretsiz veriler, Wikipedia sayfalarındaki veriler veya bir web sayfasından kopyalanmış veriler içeren yerel bir dosya |
+| **Genel veri kaynağı** |**Genel** veri kaynaklarında bulunan veriler herkes tarafından görülebilir. Yalnızca dosyalar, internet veri kaynakları veya çalışma kitabı verileri **Genel** olarak işaretlenebilir. |Microsoft Azure Market’teki ücretsiz veriler, Wikipedia sayfalarındaki veriler veya bir web sayfasından kopyalanmış veriler içeren yerel bir dosya. |
 
 ## <a name="configure-privacy-level-settings"></a>Gizlilik düzeyi ayarlarını yapılandırma
 Her bir veri kaynağına ilişkin **Gizlilik** ayarları iletişim kutusuna **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları** yolunu izleyerek de ulaşabilirsiniz.

@@ -1,15 +1,15 @@
 ---
-title: "Şirket içi veri ağ geçidi hakkında SSS"
-description: "Bu makalede şirket içi veri ağ geçidi ile ilgili sıkça sorulan sorulara yer verilmiştir. Ağ geçidi ile ilgili sıkça sorulan sorular tek bir noktada toplanmıştır."
+title: Şirket içi veri ağ geçidi hakkında SSS
+description: Bu makalede şirket içi veri ağ geçidi ile ilgili sıkça sorulan sorulara yer verilmiştir. Ağ geçidi ile ilgili sıkça sorulan sorular tek bir noktada toplanmıştır.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Şirket içi veri ağ geçidi hakkında SSS
 <!-- Shared FAQ shared Include -->
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 **Cevap:** Hayır. Bu özellik şu anda desteklenmiyor.
 
 **Soru:** Ağ geçidini kullanarak çok boyutlu (OLAP) bir örneğe bağlanabilir miyim?  
-**Cevap:** Evet! Şirket içi veri ağ geçidi, Analysis Services Tablolu ve Çok Boyutlu modellere yönelik canlı bağlantıları desteklemektedir.
+**Cevap:** Evet! Şirket içi veri ağ geçidi, Analysis Services - Tablo ve Çok Boyutlu modellerine yönelik canlı bağlantıları desteklemektedir.
 
 **Soru:** Ağ geçidini, Windows kimlik doğrulaması kullanan şirket içi sunucumdan farklı etki alanındaki bir bilgisayara yüklersem ne olur?  
 **Cevap:** Bununla ilgili kesin bir cevap verilemez. Bu tamamen iki etki alanı arasındaki güven ilişkisine dayalıdır. İki farklı etki alanı bir güvenilir etki alanı modelindeyse ağ geçidi, Analysis Services sunucusuna bağlanabilir ve etkin kullanıcı adı çözümlenebilir. Aksi halde oturum açma hatasıyla karşılaşabilirsiniz.
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 **Soru:** Kişisel ağ geçidini yükseltmem gerekiyor mu?
 **Cevap:** Hayır, Power BI için kişisel ağ geçidini kullanmaya devam edebilirsiniz.
 
-**Soru:** Power BI'daki bir panoda bulunan kutucuklar, şirket içi veri ağ geçidi yoluyla bağlanıldığında ne sıklıkla yenilenir?  
+**Soru:** Power BI’daki bir panoda bulunan kutucuklar, Şirket içi veri ağ geçidi yoluyla bağlanıldığında ne sıklıkla yenilenir?  
 **Cevap:** Yaklaşık on dakikada bir. DirectQuery bağlantıları tam olarak bu şekilde çalışır. Bu, bir kutucuğun her on dakikada bir şirket içi sunucunuza sorgu göndereceği ve yeni veriler göstereceği anlamına gelmez.
 
 **Soru:** Şirket içi veri kaynaklarına bağlanan Power Pivot veri modelleri içeren Excel çalışma kitaplarını karşıya yükleyebilir miyim? Bu senaryo için bir ağ geçidi gerekir mi?  
@@ -78,7 +78,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
-[Şirket içi veri ağ geçidi (ayrıntılı)](service-gateway-onprem-indepth.md)  
+[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI’da rapor araç ipucu sayfalarını kullanma"
-description: "Power BI Desktop’taki araç ipucu sayfaları, raporlarınızdaki görseller için üzerine gelindiğinde görüntülenecek zengin araç ipuçları oluşturmanıza olanak tanır"
+title: Power BI’da rapor araç ipucu sayfalarını kullanma
+description: Power BI Desktop’taki araç ipucu sayfaları, raporlarınızdaki görseller için üzerine gelindiğinde görüntülenecek zengin araç ipuçları oluşturmanıza olanak tanır
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop’ta (önizleme) rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/08/2018
 Rapor araç ipuçları ile pek çok ilgi çekici işlem yapabilirsiniz. Araç ipuçlarının nasıl oluşturulduğuna ve bunları yapılandırmak için yapmanız gerekenlere bir göz atalım.
 
 ### <a name="enable-the-tooltips-preview"></a>Araç ipuçları önizlemesini etkinleştirme 
-Rapor araç ipuçları şu anda önizleme aşamasında olduğundan, rapor araç ipuçları oluşturabilmek için bunları etkinleştirmeniz gerekir. Rapor araç ipuçları önizleme özelliğini etkinleştirmek için Power BI Desktop’ta **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Yer imleri**’nin yanındaki onay kutusunu işaretleyin. 
+Rapor araç ipuçları şu anda önizleme aşamasında olduğundan, rapor araç ipuçları oluşturabilmek için bunları etkinleştirmeniz gerekir. Rapor araç ipuçları önizleme özelliğini etkinleştirmek için Power BI Desktop’ta **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Rapor sayfası araç ipuçları**’nın yanındaki onay kutusunu seçin. 
 
 ![Rapor araç ipuçlarının önizleme özelliğini etkinleştirme](media/desktop-tooltips/desktop-tooltips_01.png)
 
