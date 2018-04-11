@@ -69,7 +69,7 @@ Power BI raporlama özelliği, fatura bilgilerini görüntüleyebilen EA Doğrud
 
 **Azure Ortamı URL'si**
 
-* Bu değer genellikle https://ea.azure.com 'dur ancak onaylamak için, oturum açtıktan sonra URL'yi kontrol edebilirsiniz.
+* Bu değer genellikle https://ea.azure.com'dur ancak onaylamak için, oturum açtıktan sonra URL'yi kontrol edebilirsiniz.
   
     ![](media/service-connect-to-azure-enterprise/params3.png)
 

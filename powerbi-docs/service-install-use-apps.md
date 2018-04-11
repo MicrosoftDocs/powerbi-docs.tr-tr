@@ -1,12 +1,12 @@
 ---
-title: "Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma"
-description: "Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir."
+title: Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
+description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

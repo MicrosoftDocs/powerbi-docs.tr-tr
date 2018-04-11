@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Mandrill'e bağlanma"
-description: "Power BI için Mandrill"
+title: Power BI ile Mandrill'e bağlanma
+description: Power BI için Mandrill
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

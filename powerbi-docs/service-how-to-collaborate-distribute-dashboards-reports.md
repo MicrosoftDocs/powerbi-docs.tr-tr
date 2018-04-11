@@ -1,13 +1,13 @@
 ---
-title: "Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?"
-description: "Power BI'da panolar, raporlar, kutucuklar ve uygulamalar üzerinde farklı yollarla işbirliği yapabilir ve bunları paylaşabilirsiniz. Her biri farklı bir avantaj sunar."
+title: Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
+description: Power BI'da panolar, raporlar, kutucuklar ve uygulamalar üzerinde farklı yollarla işbirliği yapabilir ve bunları paylaşabilirsiniz. Her biri farklı bir avantaj sunar.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

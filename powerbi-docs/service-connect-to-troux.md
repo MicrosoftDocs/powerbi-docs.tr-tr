@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Troux'a bağlanma"
-description: "Power BI için Troux"
+title: Power BI ile Troux'a bağlanma
+description: Power BI için Troux
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

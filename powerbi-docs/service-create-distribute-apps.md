@@ -1,14 +1,14 @@
 ---
-title: "Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama"
-description: "Kuruluşunuza ana ölçümler sunmayı amaçlayan pano ve rapor koleksiyonlarına sahip uygulamalar oluşturmayı ve yayımlamayı öğrenin."
+title: Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
+description: Kuruluşunuza ana ölçümler sunmayı amaçlayan pano ve rapor koleksiyonlarına sahip uygulamalar oluşturmayı ve yayımlamayı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

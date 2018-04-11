@@ -1,11 +1,11 @@
 ---
-title: "Power BI için Cortana'yı etkinleştirme"
-description: "Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Her bir Power BI veri kümesi için Cortana'yı etkinleştirin ve Cortana'nın, Windows cihazlarından veri kümelerinize erişebilmesini sağlayın."
+title: Power BI için Cortana'yı etkinleştirme
+description: Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Her bir Power BI veri kümesi için Cortana'yı etkinleştirin ve Cortana'nın, Windows cihazlarından veri kümelerinize erişebilmesini sağlayın.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

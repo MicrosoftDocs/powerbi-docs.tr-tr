@@ -1,15 +1,15 @@
 ---
-title: "OneDrive'daki bir Excel dosyasıyla bağlantılı panoyu paylaşma - Power BI"
-description: "OneDrive İş'teki bir Excel çalışma kitabına bağlı panoları (söz konusu çalışma kitabından sabitlenen kutucuklar içeren) paylaşma hakkında bilgi edinin."
+title: OneDrive'daki bir Excel dosyasıyla bağlantılı panoyu paylaşma - Power BI
+description: OneDrive İş'teki bir Excel çalışma kitabına bağlı panoları (söz konusu çalışma kitabından sabitlenen kutucuklar içeren) paylaşma hakkında bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

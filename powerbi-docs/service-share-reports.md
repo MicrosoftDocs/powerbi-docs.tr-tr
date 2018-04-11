@@ -1,13 +1,13 @@
 ---
-title: "Power BI raporlarını filtreleme ve iş arkadaşları ile paylaşma"
-description: "Filtre uygulanmış bir Power BI raporunu kuruluşunuzdaki iş arkadaşlarınızla nasıl paylaşacağınızı öğrenin."
+title: Power BI raporlarını filtreleme ve iş arkadaşları ile paylaşma
+description: Filtre uygulanmış bir Power BI raporunu kuruluşunuzdaki iş arkadaşlarınızla nasıl paylaşacağınızı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

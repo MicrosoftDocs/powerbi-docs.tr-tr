@@ -1,15 +1,15 @@
 ---
-title: "Power BI uygulama çalışma alanınızda işbirliği yapma"
-description: "Office 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak uygulama çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin."
+title: Power BI uygulama çalışma alanınızda işbirliği yapma
+description: Office 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak uygulama çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

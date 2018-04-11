@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Planview Enterprise'a bağlanma"
-description: "Power BI için Planview Enterprise"
+title: Power BI ile Planview Enterprise'a bağlanma
+description: Power BI için Planview Enterprise
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

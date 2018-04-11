@@ -1,15 +1,15 @@
 ---
-title: "Kurumsal içerik paketleri bulma ve bunlara bağlanma - Power BI"
-description: "Power BI'da kurumsal içerik paketi bulma ve açma"
+title: Kurumsal içerik paketleri bulma ve bunlara bağlanma - Power BI
+description: Power BI'da kurumsal içerik paketi bulma ve açma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

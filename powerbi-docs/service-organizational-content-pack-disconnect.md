@@ -1,15 +1,15 @@
 ---
-title: "Bir kurumsal içerik paketinin bağlantısını kesme - Power BI"
-description: "Bir kurumsal içerik paketinin bağlantısını, Power BI'daki veri kümesini silerek nasıl keseceğiniz hakkında bilgi edinin."
+title: Bir kurumsal içerik paketinin bağlantısını kesme - Power BI
+description: Bir kurumsal içerik paketinin bağlantısını, Power BI'daki veri kümesini silerek nasıl keseceğiniz hakkında bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

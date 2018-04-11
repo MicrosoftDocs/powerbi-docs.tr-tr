@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile SQL Sentry'ye bağlanma"
-description: "Power BI için SQL Sentry"
+title: Power BI ile SQL Sentry'ye bağlanma
+description: Power BI için SQL Sentry
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

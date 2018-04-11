@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Office365Mon'a bağlanma"
-description: "Power BI için Office365Mon"
+title: Power BI ile Office365Mon'a bağlanma
+description: Power BI için Office365Mon
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

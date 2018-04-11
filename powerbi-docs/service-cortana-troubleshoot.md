@@ -1,16 +1,16 @@
 ---
-title: "Power BI için Cortana ile ilgili sorunları giderme"
-description: "Cortana'yı Power BI ile kullanma konusunda sorun yaşıyorsanız bu önerileri uygulamayı deneyin."
+title: Power BI için Cortana ile ilgili sorunları giderme
+description: Cortana'yı Power BI ile kullanma konusunda sorun yaşıyorsanız bu önerileri uygulamayı deneyin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

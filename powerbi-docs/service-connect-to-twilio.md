@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Twilio'ya bağlanma"
-description: "Power BI için Twilio"
+title: Power BI ile Twilio'ya bağlanma
+description: Power BI için Twilio
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
