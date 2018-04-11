@@ -1,12 +1,12 @@
 ---
-title: "Eğitim: Soru-Cevap özelliğini bir panoda veya raporda kullanma"
-description: "Pano ve raporlarda yeni görselleştirmeler oluşturmak için Power BI Soru-Cevap özelliğinin nasıl kullanılacağına ilişkin eğitim."
+title: 'Eğitim: Soru-Cevap özelliğini bir panoda veya raporda kullanma'
+description: Pano ve raporlarda yeni görselleştirmeler oluşturmak için Power BI Soru-Cevap özelliğinin nasıl kullanılacağına ilişkin eğitim.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

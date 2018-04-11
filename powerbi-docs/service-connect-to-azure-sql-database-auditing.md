@@ -1,15 +1,15 @@
 ---
-title: "SQL Database Auditing içerik paketi"
-description: "Power BI için SQL Database Auditing içerik paketi"
+title: SQL Database Auditing içerik paketi
+description: Power BI için SQL Database Auditing içerik paketi
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

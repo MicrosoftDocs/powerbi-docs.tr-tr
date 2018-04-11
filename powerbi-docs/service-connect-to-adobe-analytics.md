@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Adobe Analytics'e bağlanma"
-description: "Hesap verilerinizi panolarda ve raporlarda görüntüleyen bir uygulama oluşturmak için Power BI'da Adobe Analytics'e bağlanın."
+title: Power BI ile Adobe Analytics'e bağlanma
+description: Hesap verilerinizi panolarda ve raporlarda görüntüleyen bir uygulama oluşturmak için Power BI'da Adobe Analytics'e bağlanın.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

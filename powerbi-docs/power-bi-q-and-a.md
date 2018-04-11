@@ -1,15 +1,15 @@
 ---
-title: "Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliğine genel bakış"
-description: "Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu."
+title: Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliğine genel bakış
+description: Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

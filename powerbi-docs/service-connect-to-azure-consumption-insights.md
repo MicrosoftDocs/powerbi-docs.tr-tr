@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Microsoft Azure Tüketim Öngörüleri'ne bağlanma"
-description: "Power BI için Microsoft Azure Tüketim Öngörüleri"
+title: Power BI ile Microsoft Azure Tüketim Öngörüleri'ne bağlanma
+description: Power BI için Microsoft Azure Tüketim Öngörüleri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Raporları Power BI'dan PowerPoint'e aktarma (Önizleme)"
-description: "Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğrenin."
+title: Raporları Power BI'dan PowerPoint'e aktarma (Önizleme)
+description: Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

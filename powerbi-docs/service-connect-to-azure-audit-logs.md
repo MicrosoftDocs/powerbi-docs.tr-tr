@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Azure Audit Logs'a bağlanma"
-description: "Power BI için Azure Audit Logs"
+title: Power BI ile Azure Audit Logs'a bağlanma
+description: Power BI için Azure Audit Logs
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

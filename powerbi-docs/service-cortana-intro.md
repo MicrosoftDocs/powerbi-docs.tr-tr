@@ -1,11 +1,11 @@
 ---
-title: "Cortana'yı kullanarak Power BI raporlarınızı ve panolarınızı hızla bulma ve görüntüleme"
-description: "Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Şu anda raporlar ve panolarla birlikte çalışmaktadır."
+title: Cortana'yı kullanarak Power BI raporlarınızı ve panolarınızı hızla bulma ve görüntüleme
+description: Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Şu anda raporlar ve panolarla birlikte çalışmaktadır.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

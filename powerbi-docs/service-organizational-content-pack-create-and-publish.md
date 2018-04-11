@@ -1,15 +1,15 @@
 ---
-title: "Kurumsal içerik paketi oluşturma ve yayımlama - Power BI"
-description: "Bu eğitim kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, erişimi belirli bir grup ile sınırlayacak ve içerik paketini, kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız."
+title: Kurumsal içerik paketi oluşturma ve yayımlama - Power BI
+description: Bu eğitim kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, erişimi belirli bir grup ile sınırlayacak ve içerik paketini, kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

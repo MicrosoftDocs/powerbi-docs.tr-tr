@@ -1,15 +1,15 @@
 ---
-title: "Power BI ve Office 365'te uygulama çalışma alanınızı yönetme"
-description: "Power BI'daki uygulama çalışma alanları, Office 365 grupları temel alınarak oluşturulmuş bir işbirliği deneyimi sunar. Uygulama çalışma alanlarınızı hem Power BI'da hem de Office 365'te yönetebilirsiniz."
+title: Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
+description: Power BI'daki uygulama çalışma alanları, Office 365 grupları temel alınarak oluşturulmuş bir işbirliği deneyimi sunar. Uygulama çalışma alanlarınızı hem Power BI'da hem de Office 365'te yönetebilirsiniz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

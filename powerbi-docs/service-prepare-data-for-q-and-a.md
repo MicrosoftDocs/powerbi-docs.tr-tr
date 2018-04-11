@@ -1,15 +1,15 @@
 ---
-title: "Excel verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama"
-description: "Verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama"
+title: Excel verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama
+description: Verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

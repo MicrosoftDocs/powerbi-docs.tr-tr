@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile kullandığınız hizmetlere bağlanma"
-description: "Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz."
+title: Power BI ile kullandığınız hizmetlere bağlanma
+description: Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Smartsheet'e bağlanma"
-description: "Power BI için Smartsheet"
+title: Power BI ile Smartsheet'e bağlanma
+description: Power BI için Smartsheet
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Acumatica'ya Bağlanma"
-description: "Power BI için Acumatica"
+title: Power BI ile Acumatica'ya Bağlanma
+description: Power BI için Acumatica
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI ile Alpine Metrics Sales Predictions'a bağlanma"
-description: "Power BI için Alpine Metrics Sales Predictions"
+title: Power BI ile Alpine Metrics Sales Predictions'a bağlanma
+description: Power BI için Alpine Metrics Sales Predictions
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

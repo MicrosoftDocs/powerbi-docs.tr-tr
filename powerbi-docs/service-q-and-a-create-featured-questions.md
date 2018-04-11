@@ -1,16 +1,16 @@
 ---
-title: "Power BI Soru-Cevap için öne çıkan sorular oluşturma"
-description: "Power BI Soru-Cevap için öne çıkan sorular oluşturma hakkında belge"
+title: Power BI Soru-Cevap için öne çıkan sorular oluşturma
+description: Power BI Soru-Cevap için öne çıkan sorular oluşturma hakkında belge
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
