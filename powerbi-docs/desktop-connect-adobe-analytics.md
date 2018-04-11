@@ -1,40 +1,33 @@
 ---
-title: "Power BI Desktop’ta Adobe Analytics’e bağlanma (önizleme)"
-description: "Adobe Analytics Power BI Desktop’a kolayca bağlanma ve bu hizmeti kolayca kullanma"
+title: Power BI Desktop'ta Adobe Analytics'e bağlanma
+description: Adobe Analytics Power BI Desktop’a kolayca bağlanma ve bu hizmeti kolayca kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Power BI Desktop’ta Adobe Analytics’e bağlanma (önizleme)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop'ta Adobe Analytics'e bağlanma 
 Tıpkı Power BI Desktop’taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop**’ta da **Adobe Analytics**’e bağlanabilir ve temel alınan verileri kullanabilirsiniz. 
 
 ![Adobe Analytics’ten veri alma](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Adobe Analytics bağlayıcı önizlemesini etkinleştirme 
-**Adobe Analytics** bağlayıcı şu anda önizlemede olduğundan, bağlayıcının **Veri Al** penceresinde kullanılabilir hale gelmesi için önizleme özelliğini etkinleştirmeniz gerekir. Bağlayıcı önizlemesini etkinleştirmek için Power BI Desktop’ta **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Yer imleri**’nin yanındaki onay kutusunu işaretleyin. 
-
-![Seçenekler’de Adobe Analytics bağlayıcının önizlemesini etkinleştirme](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Adobe Analytics bağlayıcı önizlemesini etkinleştirmeyi seçtikten sonra **Power BI Desktop**’ı yeniden başlatmanız gerekir.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics verilerine bağlanma
 **Adobe Analytics** verilerine bağlanmak için Power BI Desktop’ın **Giriş** şeridindeki **Veri Al** seçeneğini belirleyin. Soldaki kategorilerden **Çevrimiçi Hizmetler**’i seçtiğinizde **Adobe Analytics bağlayıcıyı** görürsünüz.

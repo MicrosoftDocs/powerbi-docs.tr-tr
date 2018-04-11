@@ -1,28 +1,28 @@
 ---
-title: "Power BI kiracım nerede bulunur?"
-description: "Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğrenin. Hizmetle kurduğunuz etkileşimleri etkileyebileceğinden bu durumu kavramanız önemlidir."
+title: Power BI kiracım nerede bulunur?
+description: Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğrenin. Hizmetle kurduğunuz etkileşimleri etkileyebileceğinden bu durumu kavramanız önemlidir.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fa24689739cc3f38d3b0a5c70bdf6d865cf8f304
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22b5319cf95beb3ea4a4a498c7174a701e56fb95
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>

@@ -3,7 +3,7 @@ title: Şirket içi veri ağ geçidi
 description: Bu, Power BI için Şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 03/26/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, Microsoft Flow, Logic Apps ve PowerApps hizmetleri arasında hızlı ve güvenli veri aktarımı sağlar.

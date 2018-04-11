@@ -1,28 +1,28 @@
 ---
-title: "Power BI yönetici rolünü anlama"
-description: "Power BI hizmetinde içeri aktarılan veri kümeleri ve DirectQuery için satır düzeyi güvenliği yapılandırma."
+title: Power BI yönetici rolünü anlama
+description: Power BI hizmetinde içeri aktarılan veri kümeleri ve DirectQuery için satır düzeyi güvenliği yapılandırma.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: de8c162ab990a8d080157b8e490347083cf5fe38
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0b62369d562606a4f85e1bbdce9d9b2a3130e294
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>Power BI yönetici rolünü anlama
 Kuruluşunuzda Power BI yönetici rolünü nasıl kullanabileceğiniz hakkında bilgi edinin.

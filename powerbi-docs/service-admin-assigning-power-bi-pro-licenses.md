@@ -3,7 +3,7 @@ title: Power BI Pro lisansları atama
 description: Power BI Pro lisansları atama
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 010f99922e2e9d43bbb192fe53eabb17a6af43f3
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: cc22bfa635bb9d91624e6d4a5cdfe301d6478af6
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="assigning-power-bi-pro-licenses"></a>Power BI Pro lisansları atama
 

@@ -3,7 +3,7 @@ title: Şirket içi veri ağ geçidi (ayrıntılı)
 description: Bu makalede, şirket içi veri ağ geçidi ayrıntılı olarak ele alınmaktadır. Analysis Services kullanılırken hizmetin Azure Active Directory ve yerel Active Directory hesabınız ile nasıl çalıştığı incelenmektedir
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
