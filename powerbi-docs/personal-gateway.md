@@ -2,27 +2,27 @@
 title: Power BI Gateway - Personal
 description: Power BI Gateway - Personal
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 8d047e814eaa7c84ee7e1be20d1f4722c6cb1e56
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -67,7 +67,7 @@ Ağ geçidi *yalnızca* [**Web.Page**](https://msdn.microsoft.com/library/mt2609
 
 ŞİMDİ YENİLE ve YENİLEMEYİ ZAMANLA özellikleri, aşağıdaki kaynaklardan yüklenen veri kümeleri için bir ağ geçidi olmadan desteklenir:
 
-* Çevrimiçi veri kaynaklarından alınan ait içerik paketleri (içerik paketleri/hizmetler). İçerik paketlerinden alınan veri kümeleri, varsayılan ayara göre günde bir kez otomatik olarak güncelleştirilir ancak yenileme işlemini elle de gerçekleştirebilir veya bir yenileme zamanlaması oluşturabilirsiniz.
+* Çevrimiçi veri kaynaklarından alınan ait içerik paketleri (içerik paketleri\\hizmetler). İçerik paketlerinden alınan veri kümeleri, varsayılan ayara göre günde bir kez otomatik olarak güncelleştirilir ancak yenileme işlemini elle de gerçekleştirebilir veya bir yenileme zamanlaması oluşturabilirsiniz.
 * Çevrimiçi bir veri kaynağına bağlanmak ve bu kaynaktan veri sorgulamak için Power Query veya Power Pivot eklentilerinin kullanıldığı Microsoft Excel 2013 (veya sonraki bir sürümü) çalışma kitapları.
 * Çevrimiçi bir veri kaynağına bağlanmak ve bu kaynaktan veri sorgulamak için Veri Al seçeneğinin kullanıldığı Microsoft Power BI Desktop dosyaları.
 
