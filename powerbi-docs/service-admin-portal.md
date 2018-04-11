@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: f60822dced9cea4aab47956cb3e9dea40ef20a55
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 

@@ -1,28 +1,28 @@
 ---
-title: "Yönetim ve dağıtım yaklaşımları"
-description: "Power BI ekosisteminde yönetimle ilgili kavramlar, seçenekler ve öneriler hakkında bilgi edinmeye yönelik teknik inceleme."
+title: Yönetim ve dağıtım yaklaşımları
+description: Power BI ekosisteminde yönetimle ilgili kavramlar, seçenekler ve öneriler hakkında bilgi edinmeye yönelik teknik inceleme.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Yönetim ve dağıtım yaklaşımları
 Son yıllarda şirketler, pazar fırsatlarından yararlanmak için veri varlıklarını stratejik bir şekilde kullanmanın önemini her geçen gün daha iyi anlıyor. İster rekabet analizi gerçekleştirerek ister faaliyet biçimlerini anlayarak olsun kuruluşların birçoğu artık rakiplerinin önüne geçmenin bir yolu olarak bir veri stratejisine sahip olmanın avantajlarından yararlanabileceklerinin farkındadır.  

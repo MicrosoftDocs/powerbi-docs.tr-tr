@@ -1,28 +1,28 @@
 ---
-title: "Kuruluşunuz için Power BI (ücretsiz)"
-description: "Bu makalede Power BI (ücretsiz) seçenekleri kuruluş açısından ele alınmaktadır. Kiracınızın Yöneticisi sizseniz ücretsiz abonelikleri yönetme seçeneklerini de kullanabilirsiniz."
+title: Kuruluşunuz için Power BI (ücretsiz)
+description: Bu makalede Power BI (ücretsiz) seçenekleri kuruluş açısından ele alınmaktadır. Kiracınızın Yöneticisi sizseniz ücretsiz abonelikleri yönetme seçeneklerini de kullanabilirsiniz.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Kuruluşunuz için Power BI (ücretsiz)
 Bu makalede Power BI (ücretsiz) teklifini kuruluşunuzda nasıl kullanacağınız anlatılmaktadır. Kuruluş, kiracınız olduğu ve bu kiracı içindeki kullanıcıları ve hizmetleri yönetebildiğiniz anlamına gelir. Yönetici olarak lisans atamasını denetleyebilir veya kullanıcıların bireysel olarak kaydolmasına izin verebilirsiniz. Power BI (ücretsiz) lisansına ve bireysel kaydolma işlemlerini nasıl yönetebileceğinize göz atacağız.

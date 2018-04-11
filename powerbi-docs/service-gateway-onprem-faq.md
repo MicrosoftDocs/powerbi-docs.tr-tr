@@ -3,7 +3,7 @@ title: Şirket içi veri ağ geçidi hakkında SSS
 description: Bu makalede şirket içi veri ağ geçidi ile ilgili sıkça sorulan sorulara yer verilmiştir. Ağ geçidi ile ilgili sıkça sorulan sorular tek bir noktada toplanmıştır.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 152a5ffe0c209be7251bd4dd4e94cf1769c10d79
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Şirket içi veri ağ geçidi hakkında SSS
 <!-- Shared FAQ shared Include -->
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/30/2018
 **Soru:** Kuruluşumdaki ağ geçitlerinin kullanım ve istatistik bilgilerini edinebilir miyim?  
 **Cevap:** Hayır. Yol haritasında buna yer verilmiştir ancak henüz bir zaman aralığı belirlenmemiştir.
 
-## <a name="power-bi"></a>Power BI
+## <a name="power-bi"></a>Power BI’da bağlanın ve görüntüleyin
 **Soru:** Kişisel ağ geçidini yükseltmem gerekiyor mu?
 **Cevap:** Hayır, Power BI için kişisel ağ geçidini kullanmaya devam edebilirsiniz.
 
