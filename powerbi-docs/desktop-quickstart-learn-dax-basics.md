@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler"
-description: "Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler"
+title: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
+description: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -31,7 +31,7 @@ Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneli
 DAX, hesaplama yapmak ve bir veya daha fazla değer döndürmek için bir formülde veya ifadede kullanılabilen işlevlerden, işleçlerden ve sabitlerden oluşan bir koleksiyondur. Daha basit bir şekilde ifade etmek gerekirse DAX, modelinizde zaten bulunan verilerden yeni bilgiler oluşturmanıza yardımcı olur.
 
 ## <a name="why-is-dax-so-important"></a>DAX neden bu kadar önemlidir?
-Yeni bir Power BI Desktop dosyası oluşturup bu dosyaya veri aktarmak oldukça kolaydır. Hatta hiçbir DAX formülü kullanmadan değerli öngörüler sunan raporlar da oluşturabilirsiniz. Peki ya ürün kategorilerinde farklı tarih aralıklarında gözlemlenen büyüme yüzdesini çözümlemeniz gerekseydi? Pazar eğilimleriyle karşılaştırıldığında yıldan yıla büyümeyi hesaplamanız gerekse ne yapardınız? DAX formülleri, bu tür görevleri gerçekleştirmeye yarayan becerilerin yanı sıra başka pek çok önemli işlev de sunar. Etkili DAX formülleri oluşturmayı öğrenmek, verilerinizden en iyi şekilde yararlanmanıza yardımcı olur. İhtiyaç duyduğunuz bilgileri elde ettiğinizde, nihai kâr-zarar dengenizi etkileyen gerçek iş sorunlarını çözmeye başlayabilirsiniz. Power BI bu gücü barındırır, DAX ise onu kullanmanıza yardımcı olur.
+Yeni bir Power BI Desktop dosyası oluşturup bu dosyaya veri aktarmak oldukça kolaydır. Hatta hiçbir DAX formülü kullanmadan değerli öngörüler sunan raporlar da oluşturabilirsiniz. Peki ya ürün kategorilerinde farklı tarih aralıklarında gözlemlenen büyüme yüzdesini çözümlemeniz gerekseydi? Yıldan yıla büyümeyi pazar eğilimleriyle karşılaştırarak hesaplamanız gerekse ne yapardınız? DAX formülleri, bu tür görevleri gerçekleştirmeye yarayan becerilerin yanı sıra başka pek çok önemli işlev de sunar. Etkili DAX formülleri oluşturmayı öğrenmek, verilerinizden en iyi şekilde yararlanmanıza yardımcı olur. İhtiyaç duyduğunuz bilgileri elde ettiğinizde, nihai kâr-zarar dengenizi etkileyen gerçek iş sorunlarını çözmeye başlayabilirsiniz. Power BI bu gücü barındırır, DAX ise onu kullanmanıza yardımcı olur.
 
 ## <a name="prerequisites"></a>Önkoşullar
 Microsoft Excel'de formül oluşturma konusuna zaten aşina olabilirsiniz. DAX'ı anlama konusunda bu bilgilerden yararlanabilirsiniz ancak Excel formülleri konusunda hiç deneyiminiz olmasa bile burada açıklanan kavramlar, DAX formülleri oluşturmaya ve gerçek dünyadaki BI sorunlarını hemen çözmeye başlamanıza yardımcı olacaktır.
@@ -40,7 +40,7 @@ Hesaplamalarda, özellikle de ölçülerde ve hesaplanmış sütunlarda kullanı
 
 **Örnek Çalışma Kitabı**
 
-DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde Power BI Desktop için Contoso Sales örneği Önizleme dosyası kullanılmaktadır. Bu örnek dosya, "Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma" başlıklı makalede de kullanılmıştır. Söz konusu dosyayı [buradan](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) indirebilirsiniz.
+DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde Power BI Desktop için Contoso Sales örneği Önizleme dosyası kullanılmaktadır. Bu örnek dosya, [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) başlıklı makalede de kullanılmıştır. [Örnek dosyayı](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) buradan indirebilirsiniz.
 
 ## <a name="lets-begin"></a>Haydi başlayalım!
 DAX'a ilişkin kavrayışımızı *Söz dizimi*, *İşlevler* ve *Bağlam* olmak üzere üç temel kavram etrafında şekillendireceğiz. Elbette, DAX'ta başka önemli kavramlar da bulunmaktadır ancak bu üç kavramı anlamak, DAX becerilerinizi oluşturmak için en iyi temeli sağlayacaktır.
@@ -111,7 +111,6 @@ Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını a�
 7.  PREVIOUSQUARTER işlevine ilişkin ayraçların **()** arasına **Calendar[DateKey]** yazın.
     
     PREVIOUSQUARTER işlevi, bitişik tarih aralığı içeren bir sütun olan tek bir bağımsız değişkene sahiptir.
-    >
     
 8.  Biri PREVIOUSQUARTER işlevine, diğeri ise CALCULATE işlevine geçirilen her iki bağımsız değişkenin de hemen ardına iki sağ ayraç **))** eklediğinizden emin olun.
     
@@ -144,7 +143,7 @@ Yanıtlara bu makalenin sonunda ulaşabilirsiniz.
 ### <a name="functions"></a>İşlevler
 İşlevler, bağımsız değişken olarak adlandırılan belirli değerleri özel bir sırada veya yapıda kullanarak hesaplamalar gerçekleştiren, önceden tanımlanmış formüllerdir. Diğer işlevler, farklı bir formül, ifade, sütun başvurular, sayılar, metinler, TRUE veya FALSE gibi mantıksal değerler ya da sabitler birer bağımsız değişken olabilir.
 
-DAX, şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.com/library/ee634786.aspx), [Akıllı Zaman Gösterimi](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[Bilgi](https://msdn.microsoft.com/library/ee634552.aspx), [Mantıksal](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[Matematiksel](https://msdn.microsoft.com/library/ee634241.aspx), [İstatistiksel](https://msdn.microsoft.com/library/ee634822.aspx), [Metin](https://msdn.microsoft.com/library/ee634938.aspx), [Üst/Alt Öğe](https://msdn.microsoft.com/library/mt150102.aspx) ve [Diğer](https://msdn.microsoft.com/library/mt150101.aspx) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
+DAX, şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.com/library/ee634786.aspx), [Akıllı Zaman Gösterimi](https://msdn.microsoft.com/library/ee634763.aspx),[Bilgi](https://msdn.microsoft.com/library/ee634552.aspx), [Mantıksal](https://msdn.microsoft.com/library/ee634365.aspx),[Matematiksel](https://msdn.microsoft.com/library/ee634241.aspx), [İstatistiksel](https://msdn.microsoft.com/library/ee634822.aspx), [Metin](https://msdn.microsoft.com/library/ee634938.aspx), [Üst/Alt Öğe](https://msdn.microsoft.com/library/mt150102.aspx) ve [Diğer](https://msdn.microsoft.com/library/mt150101.aspx) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
 
 * Bir DAX işlevi, her zaman sütunun veya tablonun tamamına başvurur. Bir tablo veya sütundaki belirli değerleri kullanmak istiyorsanız formüle filtre ekleyebilirsiniz.
 * Hesaplamaları satır bazında özelleştirmeniz gerekiyorsa DAX, bağlama göre değişiklik gösteren hesaplamalar gerçekleştirmek için geçerli satır değerini veya ilgili bir değeri bağımsız değişken türü olarak kullanmanıza olanak sağlayan işlevler sunar. İlerleyen bölümlerde bağlam hakkında daha fazla bilgi edineceksiniz.

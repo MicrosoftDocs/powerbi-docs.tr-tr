@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'taki hesaplanmış sütunları kullanma"
-description: "Power BI Desktop'taki hesaplanmış sütunlar"
+title: Power BI Desktop'taki hesaplanmış sütunları kullanma
+description: Power BI Desktop'taki hesaplanmış sütunlar
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunları kullanma
 Hesaplanmış sütunları kullanarak modelinizdeki tablolara yeni veriler ekleyebilirsiniz. Ancak bir veri kaynağından yeni sütununuza değer sorgulamak ve yüklemek yerine sütunun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanmış sütunları oluşturmak için Rapor Görünümündeki Yeni Sütun özelliğini kullanabilirsiniz.
 
-Sorgu Düzenleyicisi'ndeki Özel Sütun Ekle işlevini kullanarak bir sorgunun parçası olarak oluşturulan özel sütunlardan farklı olarak Rapor Görünümü veya Veri Görünümünde oluşturulan hesaplanmış sütunlar, modele önceden yüklemiş olduğunuz verileri temel alır. Örneğin, iki farklı ancak ilişkili tabloda bulunan iki farklı sütundaki değerleri birleştirebilir, ekleme veya alt dizeleri ayıklama işlemi gerçekleştirebilirsiniz.
+Sorgu Düzenleyicisi'ndeki Özel Sütun Ekle işlevini kullanarak bir sorgunun parçası olarak oluşturulan özel sütunlardan farklı olarak Rapor Görünümü veya Veri Görünümünde oluşturulan hesaplanmış sütunlar, modele önceden yüklemiş olduğunuz verileri temel alır. Örneğin, birbiriyle ilişkili iki farklı tabloda bulunan iki farklı sütundaki değerleri birleştirebilir, ekleme veya alt dizeleri ayıklama işlemi gerçekleştirebilirsiniz.
 
 Oluşturduğunuz hesaplanmış sütunlar, Alanlar listesinde diğer alanlar gibi görüntülenir ancak değerlerinin bir formülün sonucu olduğunu gösteren özel bir simge kullanılır. Sütunlara istediğiniz adı verip diğer alanlar gibi rapor görselleştirmelerine ekleyebilirsiniz.
 
@@ -54,7 +54,7 @@ Jeff artık istediği alana sahiptir.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Bu sütunu gönderim sayısıyla birlikte rapor tuvaline ekleyebilir. Jeff, hızlı ve kolay bir şekilde City, State alanına sahip oldu. Bu sütunu istediği tüm görselleştirmelere ekleyebilir. Jeff, harita görselleştirmesi oluşturduğunda Power BI Desktop'ın yeni sütunundaki City, State değerlerini nasıl okuması gerektiğini bildiğini de görüyor.
+Bu sütunu gönderim sayısıyla birlikte rapor tuvaline ekleyebilir. Çok hızlı bir şekilde ve en az çaba ile Jeff’in artık, neredeyse tüm görselleştirme türlerine ekleyebileceği bir City, State alanı var. Jeff, harita görselleştirmesi oluşturduğunda Power BI Desktop'ın yeni sütunundaki City, State değerlerini nasıl okuması gerektiğini bildiğini de görüyor.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
