@@ -2,14 +2,14 @@
 title: Power BI API ile neler yapabilirim?
 description: Power BI API ile neler yapabilirim?
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: ae8654df2868a6499dfd4e4626d5f91b67543c58
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a65831e9ca04170464925efd13f02e43ad8027f0
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/06/2018
 ---
-# <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
+# <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 Power BI, gerçek zamanlı olarak pek çok farklı veri kaynağından oluşturulabilen ve güncelleştirilebilen etkileşimli panolar görüntüler. REST çağrılarını destekleyen herhangi bir programlama dilini kullanarak, Power BI panosuyla gerçek zamanlı olarak tümleşebilen uygulamalar oluşturabilirsiniz. Ayrıca, Power BI kutucuklarını ve raporlarını da uygulamalara tümleştirebilirsiniz.
 
 Geliştiriciler ayrıca etkileşimli raporlarda ve panolarda kullanılması mümkün kendi veri görselleştirmelerini de oluşturabilirler. 

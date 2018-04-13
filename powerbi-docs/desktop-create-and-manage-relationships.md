@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme"
-description: "Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme"
+title: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
+description: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd0f89766a07d468942735d5da0d99e5c6d1c87f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve Otomatik Algıla özelliği sizin yerinize bunları yapar. Ancak, bazı durumlarda ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -40,38 +40,38 @@ Aynı anda iki veya daha fazla tablo sorgularsanız veriler yüklendiğinde Powe
 2. **İlişki Oluştur** iletişim kutusundaki birinci tablonun açılan listesinde bir tablo seçin ve ardından ilişkide kullanmak istediğiniz sütunu seçin.
 3. İkinci tablonun açılan listesinde, ilişkide olmasını istediğiniz diğer tabloyu seçin, ardından kullanmak istediğiniz diğer sütunu seçip **Tamam**'a tıklayın.
 
-![](media/desktop-create-and-manage-relationships/manualrelationship.gif)
+![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Varsayılan olarak, Power BI Desktop Kardinaliteyi (yön), Çapraz filtre yönünü ve yeni ilişkiniz için etkin özellikleri otomatik olarak yapılandırır. Ancak, gerekirse bunları Gelişmiş seçenekler bölümünde değiştirebilirsiniz. Daha fazla bilgi edinmek için, bu makalenin devamındaki Gelişmiş seçenekleri anlama bölümüne bakın.
+Varsayılan olarak, Power BI Desktop Kardinaliteyi (yön), Çapraz filtre yönünü ve yeni ilişkiniz için Etkin özellikleri otomatik olarak yapılandırır. Ancak, gerekirse bunları değiştirebilirsiniz. Daha fazla bilgi edinmek için, bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="edit-a-relationship"></a>Bir ilişkiyi düzenleme
 1. **Giriş** sekmesinde **İlişkileri Yönet**'e tıklayın.
 2. **İlişkileri Yönet** iletişim kutusunda ilişkiyi seçin ve ardından **Düzenle**'ye tıklayın.
 
-## <a name="configure-advanced-options"></a>Gelişmiş seçenekleri yapılandırma
-İlişki oluşturduğunuzda veya düzenlediğinizde, gelişmiş seçenekleri yapılandırabilirsiniz.  Varsayılan olarak, gelişmiş seçenekler en iyi tahmin doğrultusunda otomatik olarak yapılandırılır. Bu, sütunlardaki verileri temel alan her bir ilişki için farklı olabilir.
+## <a name="configure-additional-options"></a>Ek seçenekleri yapılandırma
+İlişki oluşturduğunuzda veya düzenlediğinizde, ek seçenekleri yapılandırabilirsiniz.  Varsayılan olarak, ek seçenekler en iyi tahmin doğrultusunda otomatik olarak yapılandırılır. Bu, sütunlardaki verileri temel alan her bir ilişki için farklı olabilir.
 
 ## <a name="cardinality"></a>Kardinalite
 **Çok - Tek (\*: 1):** En sık kullanılan varsayılan türdür. Bu, bir tablodaki sütunda bir değerin birden çok örneği olabileceği ve genellikle Arama tablosu olarak bilinen diğer ilişkili tabloda bir değerin yalnızca bir örneği olduğu anlamına gelir.
 
 **Tek - Tek (1:1):** Bu, bir tablodaki sütunda belirli bir değerin yalnızca bir örneği olduğu ve diğer ilişkili tabloda belirli bir değerin yalnızca bir örneği olduğu anlamına gelir.
 
-Kardinalitenin ne zaman değiştirileceği hakkında daha ayrıntılı bilgi için bu makalenin devamındaki Gelişmiş seçenekleri anlama bölümüne bakın.
+Kardinalitenin ne zaman değiştirileceği hakkında daha ayrıntılı bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="cross-filter-direction"></a>Çapraz filtre yönü
-**Her ikisi de**: En sık kullanılan varsayılan yön budur. Bu, filtreleme amacıyla her iki tablonun da tek bir tabloymuş gibi kabul edildiği anlamına gelir.  Bu seçenek, bir dizi arama tablosu içeren tek bir tabloda kullanıldığında oldukça kullanışlıdır.  Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir.  Buna genellikle Yıldız şeması yapılandırması (birkaç Arama tablosuna sahip merkezi bir tablo) denir.  Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir.  Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur.  Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır.  Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
+**Her ikisi de**: En sık kullanılan varsayılan yön budur. Bu, filtreleme amacıyla her iki tablonun da tek bir tabloymuş gibi kabul edildiği anlamına gelir.  Bu seçenek, bir dizi arama tablosu içeren tek bir tabloda kullanıldığında oldukça kullanışlıdır.  Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir.  Buna genellikle Yıldız şeması yapılandırması (birkaç arama tablosuna sahip merkezi bir tablo) denir.  Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir.  Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur.  Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır.  Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
 
 **Tek:** Bağlı tablolardaki filtreleme seçimlerinin, değerlerin toplandığı tablolarda çalıştığı anlamına gelir. Excel 2013 veya önceki sürümlerinden bir Power Pivot veri modeli aktarırsanız tüm ilişkilerin tek bir yönü olur. 
 
-Çapraz filtre yönünün ne zaman değiştirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Gelişmiş seçenekleri anlama bölümüne bakın.
+Çapraz filtre yönünün ne zaman değiştirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="make-this-relationship-active"></a>Bu ilişkiyi etkinleştir
 Bu seçeneğin işaretlenmesi, ilişkinin varsayılan etkin ilişki olduğu anlamına gelir.  İki tablo arasında birden çok ilişkinin olduğu durumlarda, etkin ilişki sayesinde, Power BI Desktop'ın otomatik olarak her iki tabloyu da içeren görselleştirmeler oluşturması için bir yol sağlanır.
 
-Belirli bir ilişkinin ne zaman etkin hale getirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Gelişmiş seçenekleri anlama bölümüne bakın.
+Belirli bir ilişkinin ne zaman etkin hale getirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="understanding-relationships"></a>İlişkileri anlama
-İki tabloyu bir ilişki ile birbirine bağladıktan sonra, her iki tablodaki verilerle tek bir tablodaymış gibi çalışabilirsiniz. Böylece ilişki ayrıntılarını düşünmenize veya bu tabloları içeri aktarmadan önce sıkıştırmanıza gerek kalmaz.  Power BI Desktop birçok durumda ilişkileri sizin yerinize otomatik olarak oluşturabilir, bu nedenle kendiniz oluşturmanız bile gerekmeyebilir. Ancak, Power BI Desktop iki tablo arasında bir eşleşme olması gerektiğinden tam olarak emin değilse ilişki otomatik olarak oluşturulmaz. Bu durumda ilişkiyi sizin oluşturmanız gerekir.   
+İki tabloyu bir ilişki ile birbirine bağladıktan sonra, her iki tablodaki verilerle tek bir tablodaymış gibi çalışabilirsiniz. Böylece ilişki ayrıntılarını düşünmenize veya bu tabloları içeri aktarmadan önce sıkıştırmanıza gerek kalmaz.  Power BI Desktop birçok durumda ilişkileri sizin yerinize otomatik olarak oluşturabilir, bu nedenle kendiniz oluşturmanız bile gerekmeyebilir. Ancak, Power BI Desktop iki tablo arasında bir ilişki olması gerektiğinden tam olarak emin değilse, ilişki otomatik olarak oluşturulmaz. Bu durumda ilişkiyi sizin oluşturmanız gerekir.   
 
 Power BI Desktop'ta ilişkilerin nasıl çalıştığını daha iyi anlamanız için küçük bir eğitim hazırladık.
 
@@ -123,11 +123,11 @@ Proje adı olan ve değerleri birbirine benzeyen her iki tabloda da gördüğüm
 
 Neden bu sütunları kullandığımızı biliyor musunuz? ProjectHours tablosundaki Project sütununa bakarsak Blue, Red, Yellow, Orange gibi değerler görürüz. Aslında aynı değere sahip birkaç satır görüyoruz. Project sütunu için kullanılabilecek çok sayıda renk değeri vardır.
 
-CompanyProject tablosundaki ProjName sütununa bakarsak proje için her bir rengin yalnızca bir kez kullanıldığını görürüz. Bu tablodaki her bir renk değeri benzersizdir ve bu durum, bu iki tablo arasında bir ilişki oluşturabilmemiz açısından önemlidir. Bu durumda ilişkimiz çok - tek türünde bir ilişkidir. Çok - tek türündeki ilişkilerde, tablolardan birinde en az bir sütunda benzersiz değerler olmalıdır. Bazı ilişkiler için birtakım gelişmiş seçenekler bulunur ve bunlara daha sonra değineceğiz. Şimdilik iki tablomuzun her biri için Project sütunları arasında bir ilişki oluşturalım.
+CompanyProject tablosundaki ProjName sütununa bakarsak proje için her bir rengin yalnızca bir kez kullanıldığını görürüz. Bu tablodaki her bir renk değeri benzersizdir ve bu durum, bu iki tablo arasında bir ilişki oluşturabilmemiz açısından önemlidir. Bu durumda ilişkimiz çok - tek türünde bir ilişkidir. Çok - tek türündeki ilişkilerde, tablolardan birinde en az bir sütunda benzersiz değerler olmalıdır. Bazı ilişkiler için birtakım ek seçenekler bulunur ve bunlara daha sonra değineceğiz. Şimdilik iki tablomuzun her biri için Project sütunları arasında bir ilişki oluşturalım.
 
 ### <a name="to-create-the-new-relationship"></a>Yeni ilişki oluşturmak için
 1. **İlişkileri Yönet**'e tıklayın.
-2. **İlişkileri Yönet** penceresinde **Yeni**'ye tıklayın. Bu işlemin ardından **İlişki Oluştur** iletişim kutusu açılır. Burada, ilişkimiz için istediğimiz tabloları, sütunları ve gelişmiş ayarları seçebiliriz.
+2. **İlişkileri Yönet** penceresinde **Yeni**'ye tıklayın. Bu işlemin ardından **İlişki Oluştur** iletişim kutusu açılır. Burada, ilişkimiz için istediğimiz tabloları, sütunları ve ek ayarları seçebiliriz.
 3. Birinci tabloda **ProjectHours** seçeneğini belirleyip ardından **Project** sütununu seçin. Bu, ilişkimizin çok olarak adlandırılan tarafıdır.
 4. İkinci tabloda **CompanyProject** seçeneğini belirleyip ardından **ProjName** sütununu seçin. Bu, ilişkimizin tek olarak adlandırılan tarafıdır.  
 5. Hem **İlişki Oluştur** hem de **İlişkileri Yönet** iletişim kutusunda **Tamam**'a tıklayın.
@@ -146,12 +146,12 @@ Saatleri Priority'ye göre topladığımızda Power BI Desktop, CompanyProject a
 
 Bu çok kolaydı. Aslında, Otomatik Algıla özelliği ile bu kadarını bile yapmanız gerekmeyebilir.
 
-## <a name="understanding-advanced-options"></a>Gelişmiş seçenekleri anlama
-Bir ilişki oluşturulduğunda (Otomatik Algıla özelliği tarafından veya elle) Power BI Desktop, tablolarınızdaki verileri temel alarak gelişmiş seçenekleri otomatik olarak yapılandırır. İlişki oluştur/düzenle iletişim kutusundaki Gelişmiş seçenekler bölümünü genişleterek gelişmiş ilişki özellikleri yapılandırabilirsiniz.
+## <a name="understanding-additional-options"></a>Ek seçenekleri anlama
+Bir ilişki oluşturulduğunda (Otomatik Algıla özelliği tarafından veya elle) Power BI Desktop, tablolarınızdaki verileri temel alarak ek seçenekleri otomatik olarak yapılandırır. Bu ek ilişki özelliklerini, Oluştur/Düzenle ilişkisi iletişim kutusunun en alt kısmında yapılandırabilirsiniz.
 
- ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
-Söz ettiğimiz üzere, bunlar genellikle otomatik olarak ayarlanır ve düzenlenmesi gerekmez. Ancak, gelişmiş seçenekleri kendiniz yapılandırmak isteyebileceğiniz birkaç durum mevcuttur.
+Söz ettiğimiz üzere, bunlar genellikle otomatik olarak ayarlanır ve düzenlenmesi gerekmez. Ancak, bu seçenekleri kendiniz yapılandırmak isteyebileceğiniz birkaç durum mevcuttur.
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Veriler güncelleştirildiğinde farklı bir kardinalite gerekir
 Normalde, Power BI Desktop ilişki için en iyi kardinaliteyi otomatik olarak belirleyebilir.  Verilerin daha sonra değişeceğini bildiğiniz için otomatik ayarı geçersiz kılmanız gerekirse bunu Kardinalite denetiminde seçebilirsiniz. Farklı bir kardinalite seçmemiz gereken bir örneğe bakalım.
@@ -179,7 +179,7 @@ Aşağıdaki CompanyProjectPriority tablosu, tüm şirket projelerinin ve proje 
 
 CompanyProjectPriority tablosundaki Project sütunu ile ProjectBudget tablosundaki ApprovedProjects sütunu arasında bir ilişki oluşturursak aşağıdaki gibi görünür:
 
- ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png)
 
 Kardinalite otomatik olarak Tek - Tek (1:1) ve çapraz filtreleme yönü Her ikisi de (gösterildiği gibi) şeklinde ayarlanır.  Bunun nedeni, Power BI Desktop için bu iki tablonun en iyi birleşiminin aşağıdaki gibi olmasıdır:
 
@@ -221,7 +221,7 @@ Ancak, sonraki yenilemede verilerin değişeceğini bildiğinizi varsayalım. Pr
 
 Bu yeni birleşik tabloda, Project sütunu yineleyen değerler içeriyor.  Tablo yenilendikten sonra bu iki özgün tabloda tek - tek türünde ilişki olmaz. Bu durumda, gelecekteki güncelleştirmelerin Project sütununda yinelemelere neden olacağını bildiğimiz için, Kardinalite ayarını ProjectBudget tarafı Çok ve CompanyProject tarafı Tek olacak şekilde Çok - Tek (\*:1) olarak ayarlamamız gerekir.
 
-## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-of-relationships"></a>Karmaşık bir ilişki tablosu kümesi için çapraz filtre yönü ayarlama
+## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>Karmaşık bir tablolar ve ilişkiler kümesi için çapraz filtre yönü ayarlama
 Çoğu ilişki için çapraz filtre yönü "Her ikisi de" olarak ayarlanır.  Ancak, bunu varsayılandan farklı ayarlamanızı gerektirebilecek bazı az rastlanan durumlar da mevcuttur. Örneğin, Power Pivot'ın önceki bir sürümünden, her ilişkinin tek bir yöne ayarlandığı bir modeli içeri aktarıyor olabilirsiniz. 
 
 Her ikisi de ayarı, bağlı tabloların tüm özelliklerinin Power BI Desktop tarafından tek bir tablo gibi değerlendirilmesini sağlar.  Ancak, bir ilişkinin çapraz filtre yönünün Power BI Desktop tarafından "Her ikisi de" şeklinde ayarlanamadığı ve raporlama amacıyla kullanılabilecek anlaşılır bir varsayılanlar kümesinin tutulduğu bazı durumlar bulunur. Bir ilişkinin çapraz filtre yönü Her ikisi de olarak ayarlanmamışsa bunun nedeni, söz konusu ayarın belirsizlik yaratacak olmasıdır.  Varsayılan çapraz filtre ayarı sizin için uygun değilse belirli bir tablo veya Her ikisi de olarak ayarlamayı deneyin.
@@ -250,7 +250,7 @@ Her iki yönde çapraz filtreleme, yukarıdaki desen gibi görünen tablo ilişk
 
  ![](media/desktop-create-and-manage-relationships/candmrel_crossfilterwithloops.png)
 
-Bunun gibi döngülere sahip bir tablo deseniniz varsa çapraz filtreleme, belirsiz bir ilişki kümesi oluşturabilir. Örneğin, TableX'teki bir alanı toplar ve TableY'deki bir alana göre filtrelemeyi seçerseniz filtrenin hangi yönde ilerleyeceği (en üstteki tablodan veya en alttaki tablodan) net olmaz. Bu tür desenlere ilişkin sık kullanılan bir örnek olarak, TableX'in, gerçek değer verilerine sahip bir Satış tablosu; TableY'nin de bir bütçe tablosu olduğunu düşünün. Ortadaki tablolar, her iki tablonun da kullandığı Division veya Region gibi arama tablolarıdır. 
+Bunun gibi döngülere sahip bir tablo deseniniz varsa çapraz filtreleme, belirsiz bir ilişki kümesi oluşturabilir. Örneğin, TableX'teki bir alanı toplar ve TableY'deki bir alana göre filtrelemeyi seçerseniz filtrenin hangi yönde ilerleyeceği (en üstteki tablodan veya en alttaki tablodan) net olmaz. Bu tür desenlere ilişkin sık kullanılan bir örnek olarak, TableX'in, gerçek verilere sahip bir Satış tablosu ve TableY'nin de bütçe verileri olduğunu düşünün. Ortadaki tablolar, her iki tablonun da kullandığı Division veya Region gibi arama tablolarıdır. 
 
 Power BI Desktop, etkin/etkin olmayan ilişkilerde olduğu gibi, raporlarda belirsizlik oluşmasına neden olacaksa bir ilişkinin Her ikisi de olarak ayarlanmasına izin vermez. Bu sorunu çözmenin birkaç farklı yolu vardır. En sık kullanılan iki yöntem aşağıda belirtilmiştir:
 
