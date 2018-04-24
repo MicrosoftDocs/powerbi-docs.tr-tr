@@ -1,16 +1,16 @@
 ---
-title: "Excel'deki kutucukları bir Power BI panosuna sabitleme"
-description: "OneDrive İş'teki bir Excel dosyasında bulunan kutucukları Power BI panolarına sabitleyin. Aralıkları, grafikleri ve tabloları sabitleyin"
+title: Excel'deki kutucukları bir Power BI panosuna sabitleme
+description: OneDrive İş'teki bir Excel dosyasında bulunan kutucukları Power BI panolarına sabitleyin. Aralıkları, grafikleri ve tabloları sabitleyin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  
@@ -41,20 +41,19 @@ Will bize Excel çalışma kitaplarındaki verileri içeri aktarmak ve bu verile
 Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak bazı değişiklikler yapmanız gerekirse çalışma alanınızın **Çalışma Kitapları** sekmesinden kalem simgesini seçip çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel programında açmayı seçebilirsiniz. Yaptığınız tüm değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
 
 1. Çalışma kitabınızı OneDrive İş hesabınıza yükleyin.
+
 2. Power BI’de **Veri Al > Dosyalar > OneDrive - İş**’i seçip Excel dosyasını kaydettiğiniz konuma giderek [söz konusu çalışma kitabına bağlanın](service-excel-workbook-files.md). Dosyayı ve **Bağlan > Bağlan** öğesini seçin.
 
-   ![OneDrive İş iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![OneDrive İş iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. Power BI'da söz konusu çalışma kitabı çalışma alanınızın **Çalışma Kitapları** sekmesine eklenir.  ![Çalışma kitabı](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) simgesi bunun bir Excel çalışma kitabı olduğunu, sarı yıldız işareti ise yeni olduğunu gösterir.
-   
     
-   ![çalışma kitapları sekmesi](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![çalışma kitapları sekmesi](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Adını seçerek çalışma kitabını Power BI'da açın.
 
     Power BI'da çalışma kitabı üzerinde yaptığınız değişiklikler kaydedilmez ve OneDrive İş'teki özgün çalışma kitabı bu değişikliklerden etkilenmez. Power BI'da değerleri sıralar, filtreler veya değiştirirseniz söz konusu değişiklikler kaydedilemez ya da sabitlenemez. Kaydedilecek değişiklikler yapmanız gerekirse, sağ üst köşeden **Düzenle**’yi seçerek Excel Online'da veya Excel'de düzenlemek üzere açın. Bu şekilde yapılan değişikliklerin pano üzerindeki kutucukları güncelleştirmesi birkaç dakika sürebilir.
    
-   
-   ![Power BI'da Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Power BI'da Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Bir hücre aralığını panoya sabitleme
 Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin yollarından biri, bu işlemi Power BI'daki Excel çalışma kitabında gerçekleştirmektir. OneDrive İş hesabınıza veya grup tarafından paylaşılan başka bir belge kitaplığına kaydedilen Excel çalışma kitaplarından aralık sabitleyebilirsiniz. Bu aralıklar veri, grafik, tablo, PivotTable, PivotChart ve Excel'in diğer öğelerini içerebilir.

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI hizmeti raporlarındaki Okuma görünümü ve Düzenleme görünümü
 Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: Okuma görünümü ve Düzenleme görünümü. Okuma görünümü, özellikle veri *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir.
@@ -48,7 +48,6 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 |Görev  | Okuma görünümü  | Düzenleme görünümü |
 |-------------------------|-------|-------|
 |**Bir bütün olarak raporlar**  |
-||||
 | [Rapor oluşturma veya düzenleme](service-report-create-new.md) | Hayır  | Evet |
 | [Rapor paylaşma](service-share-reports.md)| Evet | Evet, ayrıca izinler (başkalarına *sahip* izinleri verme de dahil) yönetilebilir. |
 | [Filtreler bölmesinden sürekli (kalıcı) görsel düzeyi, detaylandırma, sayfa düzeyi ve rapor düzeyi filtreleri oluşturma](power-bi-report-add-filter.md) | Hayır  | Evet |
@@ -63,12 +62,10 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 | [Bir raporu kaydetme](service-report-save.md) | Evet, ancak yalnızca **Farklı kaydet** seçeneği ile kullanılabilir. | Evet |
 | [Bir raporu silme](service-delete.md) | Hayır  | Evet |
 |**Rapor sayfaları** |
-||||
 | [Bir rapor sayfası ekleme veya sayfayı yeniden adlandırma](power-bi-report-add-page.md)  | Hayır  | Evet  |
 | [Bir rapor sayfasını yineleme](power-bi-report-copy-paste-page.md) | Hayır  | Evet |
 | [Bir rapor sayfasını silme](service-delete.md) | hayır | evet |
 |**Rapor görselleştirmeleri ile çalışma**|
-||||
 | [Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md) | Hayır  | Evet |
 | [Bir rapora metin kutusu ve şekil ekleme](power-bi-reports-add-text-and-shapes.md) | Hayır  | Evet |
 | [Rapordaki Biçimlendirme bölmesini kullanma](service-the-report-editor-take-a-tour.md) | Hayır | Evet |

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Kuruluşunuzda Power BI uygulamasını yönetme
 Microsoft Power BI, kullanıcıların verileri görselleştirmesine, keşfettiklerini paylaşmasına, yeni ve kolay anlaşılır yollarla işbirliği yapmasına olanak sağlar. Daha fazla bilgi edinmek için bkz. [Power BI ile çalışmaya başlama](service-get-started.md).
@@ -185,8 +185,6 @@ Aşağıdaki adımları uygulamak için [Windows PowerShell için Azure Active D
 Kuruluşunuzun bir Office 365 ortamı mevcutsa ve kuruluşunuzdaki tüm kullanıcıların Office 365 hesabı varsa kimlik yönetimi değişmez.
 
 Kuruluşunuzun bir Office 365 ortamı var ancak kuruluşunuzdaki her kullanıcının Office 365 hesabı yoksa kiracıda bir kullanıcı oluşturup kullanıcının iş veya okul e-posta adresine göre lisans atarız. Bu, kuruluşunuzdaki kullanıcılar hizmete kaydoldukça, belirli herhangi bir zamanda yönettiğiniz kullanıcı sayısının artacağı anlamına gelir.
-
-Dizininizi şirket içinde yönetiyor ve Active Directory Federasyon Hizmetleri'ni (AD FS) kullanıyorsanız Microsoft, kiracınıza kullanıcı eklemez ve kiracınıza katılmaya çalışan kullanıcılar kuruluşlarının yöneticisi ile iletişim kurmaya yönlendirilir.
 
 Kuruluşunuzun, e-posta etki alanınıza bağlı bir Office 365 ortamı yoksa kimlik yönetme biçiminizde herhangi bir değişiklik olmaz. Kullanıcılar yalnızca bulut kullanımına yönelik yeni bir kullanıcı dizinine eklenir, siz de kiracı yönetimini devralıp onları yönetme seçeneğine sahip olursunuz.
 

@@ -1,15 +1,15 @@
 ---
-title: "Büyük veri kümelerine yönelik Power BI Premium desteği"
-description: "Power BI Premium artık 10 GB’a kadar olan veri kümelerini destekler."
+title: Büyük veri kümelerine yönelik Power BI Premium desteği
+description: Power BI Premium artık 10 GB’a kadar olan veri kümelerini destekler.
 services: powerbi
-documentationcenter: 
-author: MarkMcGeeAtAquent
+documentationcenter: ''
+author: jocaplan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/27/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 1c617624d93dfa6c4193c77d36b6f6cec2992a03
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Büyük veri kümelerine yönelik Power BI Premium desteği
 
