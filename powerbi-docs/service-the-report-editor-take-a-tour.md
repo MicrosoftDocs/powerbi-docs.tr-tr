@@ -1,29 +1,29 @@
 ---
-title: "Hızlı başlangıç - Rapor düzenleyicisi: Tura katılın"
-description: "Rapor düzenleyicisi: Tura katılın."
+title: 'Hızlı başlangıç - Rapor düzenleyicisi: Tura katılın'
+description: 'Rapor düzenleyicisi: Tura katılın.'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Rapor düzenleyicisi: Tura katılın
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleme
@@ -56,7 +56,6 @@ Rapor düzenleyicisinde görüntülenen içerik, rapor tuvalinde yaptığınız 
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Görsel Öğeler bölmesinin en üst kısmında, kullanılan görselin türü görüntülenir. Bu örnekte, Kümelenmiş sütun grafik kullanılmaktadır.<br><br></li> <li>Görsel Öğeler bölmesinin en altında (sayfayı kaydırmanız gerekebilir), görselde kullanılan alanlar görüntülenir. Bu grafikte FiscalMonth, DistrictManager ve Total Sales Variance alanları kullanılmaktadır. <br><br></li><li>Filtreler bölmesinde (sayfayı kaydırmanız gerekebilir), uygulanmış olan filtreler görüntülenir. <br><br></li><li>Alanlar bölmesinde, kullanılabilir tablolar listelenir ve bir tablonun adını genişlettiğinizde tablonun içerdiği alanlar görüntülenir. Sarı renkli yazı tipi, tablodaki alanlardan en az birinin görselleştirmede kullanıldığını belirtir.<br><br></li><li>![boya rulosu simgesi](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Seçilen görselleştirmeye ilişkin biçimlendirme bölmesini görüntülemek için boya rulosu simgesini seçin.<br><br></li><li>![büyüteç simgesi](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Analiz bölmesini görüntülemek için büyüteç simgesini seçin.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Görsel Öğeler bölmesi (yukarıdan aşağıya doğru)
 ![Görselleştirme bölmesinin üst kısmı](media/service-the-report-editor-take-a-tour/selectviz.png)
