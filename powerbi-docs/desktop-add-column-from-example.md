@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop'ta örnekten sütun ekleme"
-description: "Mevcut sütunları örnek olarak kullanıp Power BI Desktop'ta hızlıca yeni bir sütun oluşturma"
+title: Power BI Desktop'ta örnekten sütun ekleme
+description: Mevcut sütunları örnek olarak kullanıp Power BI Desktop'ta hızlıca yeni bir sütun oluşturma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop'ta örnekten sütun ekleme
 **Power BI Desktop**'ın Nisan 2017 sürümünden itibaren, **Sorgu Düzenleyicisi**'ni kullanarak modelinize yeni veri sütunları ekleyebilirsiniz. Bunun için yeni sütununuzda bir veya daha fazla örnek değer sağlamanız yeterlidir. Geçerli seçimi kullanarak veya bir tablodaki tüm (veya seçili) sütunları temel alan bir giriş sağlayarak yeni bir sütun örneği oluşturabilirsiniz.
@@ -68,7 +68,7 @@ Bunun **Sorgu Ayarları** bölmesindeki bir **Uygulanan Adım** olduğuna da dik
 
 Örneğinizi yeni sütuna yazdığınız sırada Power BI, algıladığı dönüştürmeleri temel alarak, oluşturacağı sütunun nasıl görüneceğine ilişkin bir önizleme sunar. Örneğin, tablonun ilk sütunundaki *Alabama* değerine karşılık olarak ilk satıra *Alabama* yazdık. Biz *Enter* tuşuna basar basmaz Power BI bu değeri temel alarak sütunu doldurur.
 
-Ama sonra *Masssachusetts[E]* yazan satıra gittik ve sonundaki *[E]*yi (istemediğimiz için sildik. Power BI değişimi algıladı ve örneği kullanarak bir dönüştürme oluşturdu. Orta bölmenin üst kısmındaki dönüşüm açıklamasına dikkat edin.
+Ama sonra *Masssachusetts[E]* yazan satıra gittik ve sonundaki *[E]* yi (istemediğimiz için sildik. Power BI değişimi algıladı ve örneği kullanarak bir dönüştürme oluşturdu. Orta bölmenin üst kısmındaki dönüşüm açıklamasına dikkat edin.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
