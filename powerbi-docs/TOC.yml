@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Sorun giderme
       items:
-        - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
-          href: desktop-access-database-errors.md
+        - name: Power BI Desktop’ta oturum açma sırasında oluşan sorunları çözme
+          href: desktop-troubleshooting-sign-in.md
         - name: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
           href: desktop-error-launching-desktop.md
+        - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
+          href: desktop-access-database-errors.md
 - name: Power BI Mobil Uygulamaları
   items:
     - name: Başlangıç
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: KPI'lerle çalışma
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Desteklenen veri kaynakları
+        - name: Power BI raporu (.pbix) veri kaynakları
           href: report-server/data-sources.md
-        - name: Veri kaynaklarına bağlanma
+        - name: Sayfalandırılmış rapor (.rdl) veri kaynakları
           href: report-server/connect-data-sources.md
         - name: 'Paylaşılan veri kümelerine OData akışı olarak erişme '
           href: report-server/access-dataset-odata.md
