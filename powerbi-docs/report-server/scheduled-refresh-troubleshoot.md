@@ -1,15 +1,15 @@
 ---
-title: "Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme"
-description: "Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir."
+title: Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
+description: Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
@@ -60,7 +60,6 @@ Zamanlanmış yenilemeyi etkilemek için aşağıdaki ayarlar kullanılabilir. S
 
 | Ayar | Açıklama |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |Raporlarınızda içeri aktarılan verileri kullanma özelliğini etkinleştirir veya devre dışı bırakır. Geçerli değerler True veya False şeklindedir. |
 | MaxFileSizeMb |Karşıya yüklenen raporlar için maksimum dosya boyutu. Varsayılan değer: 1.000 MB (1 GB). Maksimum değer: 2.000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Modelin bellekten çıkarılmak üzere hangi sıklıkta denetlendiğini tanımlar. Varsayılan değer 15 dakikadır. |
 | ModelExpirationMinutes |Son kullanıldığı ve çıkarıldığı zamana göre modelin süresinin kaç dakika sonra dolacağını tanımlar. Varsayılan değer 60 dakikadır. |
