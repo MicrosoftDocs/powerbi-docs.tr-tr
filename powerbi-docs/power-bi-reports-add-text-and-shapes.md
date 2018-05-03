@@ -1,32 +1,32 @@
 ---
-title: "Power BI raporlarındaki metin kutuları ve şekiller"
-description: "Microsoft Power BI hizmetini kullanarak raporlarda metin kutuları ve şekiller oluşturmaya ve eklemeye ilişkin belgeler."
+title: Power BI raporlarındaki metin kutuları ve şekiller
+description: Microsoft Power BI hizmetini kullanarak raporlarda metin kutuları ve şekiller oluşturmaya ve eklemeye ilişkin belgeler.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI raporlarındaki statik içerik
-Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller eklenebilir. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Sizinle bir rapor paylaşıldığında, Düzenleme görünümüne erişemezsiniz. 
+Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller eklenebilir. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Power BI hizmetinde bir rapor sizinle paylaşıldıysa, düzenleme izinlerine sahip olmazsınız. 
 
 Power BI Desktop kullanarak [rapora statik görüntüler ekleyin](guided-learning/visualizations.yml#step-11) ve sonra aşağıdaki adımları izleyerek, bunun yerine Power BI hizmetini kullanmayı deneyin.
 > 

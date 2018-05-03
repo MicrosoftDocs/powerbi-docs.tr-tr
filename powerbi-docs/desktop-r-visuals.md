@@ -1,15 +1,15 @@
 ---
-title: "R programlama dilini kullanarak Power BI görselleri oluşturma"
-description: "R programlama dilini kullanarak Power BI görselleri oluşturma"
+title: R programlama dilini kullanarak Power BI görselleri oluşturma
+description: R programlama dilini kullanarak Power BI görselleri oluşturma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 **Power BI Desktop** ile verilerinizi görselleştirmek için **R** programlama dilini kullanabilirsiniz.
@@ -41,21 +41,27 @@ R yüklemenizi belirttiğinizde R görselleri oluşturmaya başlayabilirsiniz.
 1. Bir R görseli eklemek için, aşağıdaki görüntüde gösterilen şekilde, **Görsel Öğeler** bölmesindeki **R Görseli** simgesini seçin.
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. Bir rapora R görseli eklediğinizde **Power BI Desktop** şu işlemleri gerçekleştirir:
+
+   Bir rapora R görseli eklediğinizde **Power BI Desktop** şu işlemleri gerçekleştirir:
    
    - Rapor tuvalinde bir yer tutucu R görseli görüntüsü görünür.
    
    - Orta bölmenin alt kısmında **R betik düzenleyicisi** görünür.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. Daha sonra, R betiğinizde kullanmak istediğiniz alanları, diğer **Power BI Desktop** görsellerinde yaptığınız gibi **Alanlar** bölmesindeki **Değerler** bölümüne ekleyin. R betiğinizde, yalnızca **Alanlar** bölmesine eklediğiniz alanları kullanabilirsiniz. Ayrıca, **Power BI Desktop R betik düzenleyicisinde** R betiğinizle çalışırken **Alanlar** bölmesine yeni alan ekleyebilir veya gereksiz alanları bu bölmeden çıkarabilirsiniz. **Power BI Desktop**, hangi alanları eklediğinizi veya kaldırdığınızı otomatik olarak algılar.
+
+2. Daha sonra, R betiğinizde kullanmak istediğiniz alanları, diğer **Power BI Desktop** görsellerinde yaptığınız gibi **Alanlar** bölmesindeki **Değerler** bölümüne ekleyin. 
+    
+    Yalnızca **Alanlar** kutusuna eklenmiş alanlar R betiğinizle kullanılabilir. Ayrıca, **Power BI Desktop R betik düzenleyicisinde** R betiğinizle çalışırken **Alanlar** bölmesine yeni alan ekleyebilir veya gereksiz alanları bu bölmeden çıkarabilirsiniz. **Power BI Desktop**, hangi alanları eklediğinizi veya kaldırdığınızı otomatik olarak algılar.
    
    > [!NOTE]
    > R görselleri için varsayılan toplama türü, *özetleme* şeklindedir.
    > 
    > 
    
-1. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz. Siz alan seçtikçe **R betik düzenleyicisi**, düzenleyici bölmesinin üst kısmında bulunan gri bölümde yaptığınız seçimlere bağlı olarak yardımcı R betiği bağlama kodunu oluşturur. Yeni alan seçtiğinizde veya var olan bir alanı kaldırdığınızda R betik düzenleyicisinde yardımcı kod otomatik olarak oluşturulur veya kaldırılır.
+3. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz. 
+
+    Siz alan seçtikçe **R betik düzenleyicisi**, düzenleyici bölmesinin üst kısmında bulunan gri bölümde yaptığınız seçimlere bağlı olarak yardımcı R betiği bağlama kodunu oluşturur. Yeni alan seçtiğinizde veya var olan bir alanı kaldırdığınızda R betik düzenleyicisinde yardımcı kod otomatik olarak oluşturulur veya kaldırılır.
    
    Aşağıdaki görüntüde gösterilen örnekte hp, gear ve drat olmak üzere üç alan seçilmiştir. Bu seçimlerin sonucunda R betik düzenleyicisi, aşağıdaki bağlama kodunu oluşturmuştur:
    
@@ -71,52 +77,52 @@ R yüklemenizi belirttiğinizde R görselleri oluşturmaya başlayabilirsiniz.
    > 
    > 
    
-   Oluşturulan veri çerçevesi **dataset** olarak adlandırılır ve seçilen sütunlara, adları kullanılarak erişilebilir. Örneğin, R betiğinizde *dataset$gear* yazarak gear alanına erişebilirsiniz. Boşluklu veya özel karakterler içeren alanlar için tek tırnak işareti kullanın.
-2. Seçtiğiniz alanlara göre otomatik olarak oluşturulan veri çerçevesi ile R betiği yazmaya hazır hale gelirsiniz. R betiği yazdığınızda, varsayılan R cihazında bir çizim oluşturulur. Betik tamamlandığında **R betik düzenleyicisi** başlık çubuğunda **Çalıştır**'ı seçin. (**Çalıştır** seçeneği, başlık çubuğunun sağ tarafında bulunur.)
+   Oluşturulan veri çerçevesi **dataset** olarak adlandırılır ve seçilen sütunlara, adlarıyla erişebilirsiniz. Örneğin, R betiğinizde *dataset$gear* yazarak gear alanına erişin. Boşluklu veya özel karakterler içeren alanlar için tek tırnak işareti kullanın.
+
+4. Seçtiğiniz alanlara göre otomatik olarak oluşturulan veri çerçevesi ile R betiği yazmaya hazır hale gelirsiniz. R betiği yazdığınızda, varsayılan R cihazında bir çizim oluşturulur. Betik tamamlandığında **R betik düzenleyicisi** başlık çubuğunda **Çalıştır**'ı seçin. (**Çalıştır** seçeneği, başlık çubuğunun sağ tarafında bulunur.)
    
-    **Çalıştır** öğesi seçildiğinde **Power BI Desktop**, çizimi tanımlar ve tuval üzerinde görüntüler.
-   İşlem yerel R yüklemenizde gerçekleştirildiğinden, gerekli paketlerin yüklendiğinden emin olun.
+    **Çalıştır**’ı seçtiğinizde **Power BI Desktop**, çizimi tanımlar ve tuval üzerinde görüntüler. İşlem yerel R yüklemenizde gerçekleştirildiğinden, gerekli paketlerin yüklendiğinden emin olun.
    
    **Power BI Desktop**, aşağıdaki olaylardan herhangi biri meydana geldiğinde görseli yeniden çizer:
    
-   * **R betik düzenleyicisi** başlık çubuğunda **Çalıştır** seçeneği belirlendiğinde
+   * **R betik düzenleyicisi** başlık çubuğunda **Çalıştır** seçeneğini belirlediğinizde
    * Veri yenileme, filtreleme veya vurgulama işlemi nedeniyle her veri değişikliği gerçekleştiğinde
 
-Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
+    Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-Görselleştirmelerin daha büyük bir görünümünü elde etmek için **R betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz. **Power BI Desktop**'taki diğer görsellerde olduğu gibi, halka görselinde (yukarıdaki örnek görüntüsünde, sağdaki yuvarlak görsel) yalnızca spor otomobilleri seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
+5. Görselleştirmelerin daha büyük bir görünümünü elde etmek için **R betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz. **Power BI Desktop**'taki diğer görsellerde olduğu gibi, halka görselinde (yukarıdaki örnek görüntüsünde, sağdaki yuvarlak görsel) yalnızca spor otomobilleri seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-Ayrıca, görseli özelleştirmek için R betiğini değiştirebilir ve çizim oluşturma komutuna parametre ekleyerek R programlama dilinin gücünden yararlanabilirsiniz.
+6. Ayrıca, görseli özelleştirmek için R betiğini değiştirebilir ve çizim oluşturma komutuna parametre ekleyerek R programlama dilinin gücünden yararlanabilirsiniz.
 
-Başlangıçta, çizim oluşturma komutu şu şekildeydi:
+    Başlangıçta, çizim oluşturma komutu şu şekildeydi:
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-R betiğinde yapılan birkaç değişikliğin ardından yeni komut şu şekildedir:
+    R betiğinde yapılan birkaç değişikliğin ardından yeni komut şu şekildedir:
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-Değişikliklerin ardından R görseli, aşağıdaki görüntüde gösterildiği gibi, artık daireler çiziyor, yalnızca üst yarıyı dikkate alıyor ve bağıntılı öznitelikleri kümelemek için matrisi yeniden sıralıyor.
+    Değişikliklerin ardından R görseli, aşağıdaki görüntüde gösterildiği gibi, artık daireler çiziyor, yalnızca üst yarıyı dikkate alıyor ve bağıntılı öznitelikleri kümelemek için matrisi yeniden sıralıyor.
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-Bir R betiği yürütülürken hata oluşursa R görseli çizilmez ve tuvalde bir hata iletisi görüntülenir. Hataya ilişkin ayrıntılar için, tuvalde görüntülenen R görseli hata iletisinde **Ayrıntılara göz atın** seçeneğini belirleyin.
+    Bir R betiği yürütülürken hata oluşursa R görseli çizilmez ve tuvalde bir hata iletisi görüntülenir. Hataya ilişkin ayrıntılar için, tuvalde görüntülenen R görseli hata iletisinde **Ayrıntılara göz atın** seçeneğini belirleyin.
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **R betiklerinin güvenliği:** R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R betiklerinden oluşturulur. Bir R görselini ilk kez görüntülemeye veya R görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. R görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili R betiğini gözden geçirip anladıktan sonra etkinleştirin.
-> 
-> 
+    > **R betiklerinin güvenliği:** R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R betiklerinden oluşturulur. Bir R görselini ilk kez görüntülemeye veya R görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. R görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili R betiğini gözden geçirip anladıktan sonra etkinleştirin.
+    > 
+    > 
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
 **Power BI Desktop**'ta R görsellerine ilişkin bazı sınırlamalar mevcuttur:
 
 * Veri boyutu sınırlamaları: R görseli tarafından çizim için kullanılan veri 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
-* Hesaplama süresi sınırlaması: Bir R görseli hesaplaması 5 dakikadan uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
+* Hesaplama süresi sınırlaması: Bir R görseli hesaplaması beş dakikadan uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
 * İlişkiler: Diğer Power BI Desktop görsellerinde olduğu gibi, aralarında tanımlanmış hiçbir ilişki bulunmayan farklı tablolardan veri alanları seçilirse hata oluşur.
 * R görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve çapraz filtrelemenin kaynağı olamaz.
 * R görselleri, diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için R görsellerindeki öğelere tıklayamazsınız.

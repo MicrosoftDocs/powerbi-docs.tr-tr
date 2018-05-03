@@ -1,28 +1,28 @@
 ---
-title: "Kart görselleştirmeleri (diğer adıyla büyük sayı kutucukları)"
-description: "Power BI'da Kart görselleştirmesi oluşturma"
+title: Kart görselleştirmeleri (diğer adıyla büyük sayı kutucukları)
+description: Power BI'da Kart görselleştirmesi oluşturma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Kart görselleştirmeleri
 Bazen Power BI panonuzda veya raporunuzda izlemek istediğiniz en önemli şey (örneğin, toplam satış, yıldan yıla pazar payı veya toplam fırsat) tek bir sayı olabilir. Bu görselleştirme türüne *Kart* adı verilir. Diğer tüm yerel Power BI görselleştirmelerinde olduğu gibi Kartlar da rapor düzenleyicisi veya Soru-Cevap kullanılarak oluşturulabilir.
@@ -91,6 +91,25 @@ Soru-Cevap soru kutusu, Kart oluşturmanın en kolay yoludur. Soru-Cevap soru ku
 - Soru kutusu görmüyorsanız sistem veya kiracı yöneticinizle iletişime geçin.    
 - Desktop uygulamasını kullanıyorsanız ve rapordaki boş alana çift tıkladığınızda Soru-Cevap açılmıyorsa bu özelliği etkinleştirmeniz gerekebilir.  **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme özellikleri > Soru-Cevap** yolunu izleyip Desktop uygulamasını yeniden başlatın.
 
+## <a name="format-a-card"></a>Kart biçimlendirme
+Etiketler, metin, renk ve daha fazlasını değiştirmek için çok sayıda seçeneğiniz vardır. Öğrenmenin en iyi yolu, bir kart oluşturduktan sonra Biçimlendirme bölmesini inceleyin. Biçimlendirme seçeneklerinden birkaçı aşağıda verilmiştir. 
+
+1. Biçimlendirme bölmesini açmak için ilk olarak boya fırçası simgesini seçin. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. **Veri etiketi**’ni genişletin ve renk, boyut ve yazı tipi ailesini değiştirin. Binlerce deponuz olsaydı, binlerce depo sayısını göstermek ve ondalık basamakları denetlemek için **Görüntüleme birimleri**’ni kullanabilirdiniz. Örneğin, 125.832,00 yerine 125,8 bin.
+
+3.  **Kategori etiketi**’ni genişletin ve renk ile boyutu değiştirin.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. **Arka plan**’ı genişletin ve kaydırıcıyı Açık konuma taşıyın.  Artık arka plan rengini ve saydamlığı değiştirebilirsiniz.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Kartınız tam olarak istediğiniz şekilde olana kadar biçimlendirme seçeneklerini incelemeye devam edin. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki pano kutucukları](service-dashboard-tiles.md)

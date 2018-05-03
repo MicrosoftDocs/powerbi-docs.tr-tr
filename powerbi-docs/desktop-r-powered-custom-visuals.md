@@ -1,15 +1,15 @@
 ---
-title: "Power BI'da R tarafından sağlanan özel görselleri kullanma"
-description: "Power BI'da R tarafından sağlanan özel görselleri kullanma"
+title: Power BI'da R tarafından sağlanan özel görselleri kullanma
+description: Power BI'da R tarafından sağlanan özel görselleri kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d43b9ec0d471c8a824d3c4d081a38f3bea6ad1e9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 30bb3628b48bbee66622afa30b3364eeacf054ca
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI'da R tarafından sağlanan özel görselleri kullanma
 **Power BI Desktop**'ta ve **Power BI hizmetinde** herhangi bir R bilgisine sahip olmanıza ve R betiği oluşturmanıza gerek kalmadan R tarafından sağlanan özel görselleri kullanabilirsiniz. Bu sayede, R hakkında bilgi sahibi olmadan veya kendiniz herhangi bir programlama yapmadan R görselleri ve R betiklerinin analitik ve görsel özelliklerinden yararlanabilirsiniz.
@@ -34,25 +34,24 @@ R tabanlı özel görselleri kullanmak için önce Power BI'a yönelik [**AppSou
 **Power BI Desktop**'ta R tabanlı görselleri seçme, yükleme ve kullanma işlemleri aşağıdaki bölümlerde açıklanmıştır.
 
 ## <a name="use-r-custom-visuals"></a>R özel görsellerini kullanma
-R tabanlı özel görselleri kullanmak için her bir görseli **özel görsel** kitaplığından indirmeniz gerekir. Böylece, ilgili görseli **Power BI Desktop**'taki tüm diğer görsel türleri gibi kullanabilirsiniz. Özel görselleri almak için izlenebilecek iki yol vardır: Çevrimiçi **AppSource** sitesinden indirebilir veya **Power BI Desktop**'tayken göz atıp edinebilirsiniz. 
+R tabanlı özel görselleri kullanmak için her bir görseli **özel görsel** kitaplığından indirin. Daha sonra, ilgili görseli **Power BI Desktop**'taki tüm diğer görsel türleri gibi kullanın. Özel görselleri almak için izlenebilecek iki yol vardır: Çevrimiçi **AppSource** sitesinden indirebilir veya **Power BI Desktop**'tayken göz atıp edinebilirsiniz. 
 
 ### <a name="get-custom-visuals-from-appsource"></a>Özel görselleri AppSource'tan alma
 
 Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda verilmiştir:
 
-1. [https://appsource.microsoft.com](https://appsource.microsoft.com/) adresindeki [Power BI visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) kitaplığına gidin. *Ürüne göre daralt* bölümündeki *Power BI apps* onay kutusunu işaretleyin ve ardından **Tümünü gör** bağlantısını seçin.
+1. [https://appsource.microsoft.com](https://appsource.microsoft.com/) sayfasında bulunan Power BI görselleri kitaplığına gidin. *Ürüne göre daralt* bölümündeki *Power BI apps* onay kutusunu işaretleyin ve ardından **Tümünü gör** bağlantısını seçin.
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
-2. Sol bölmedeki Eklentiler listesinden **Power BI visuals**'ı seçin. 
-
+2. [Power BI görselleri](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) kitaplık sayfasında, sol bölmedeki Eklentiler listesinden **Power BI görselleri**’ni seçin.
 
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
 3. Galeriden işinize yarayacak **görseli** seçin, seçiminizin ardından görsel açıklamasının sunulduğu bir sayfaya yönlendirilirsiniz. İndirmek için **Şimdi edinin** seçeneğini belirleyin.
    
    > [!NOTE]
-> **Power BI Desktop**'ta yazmak için yerel makinenizde R yüklü olmalıdır. Ancak, kullanıcılar R tabanlı bir görseli **Power BI hizmetinde** görüntülemek isterse R'nin yerel makinede yüklü olmasına gerek *yoktur*.
+    > **Power BI Desktop**'ta yazmak için yerel makinenizde R yüklü olmalıdır. Ancak, kullanıcılar R tabanlı bir görseli **Power BI hizmetinde** görüntülemek isterse R'nin yerel makinede yüklü olmasına gerek yoktur.
    > 
    > 
    
@@ -63,7 +62,7 @@ Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Görseli indirdikten sonra (indirme işlemi tarayıcınızdan herhangi bir dosya indirmeye benzer) **Power BI Desktop**'a giderek **Görsel Öğeler** bölmesindeki üç nokta (...) simgesine sağ tıklayın ve **Dosyadan içeri aktar**'ı seçin.
+4. Görseli indirdikten sonra (indirme işlemi tarayıcınızdan herhangi bir dosya indirmeye benzer) **Power BI Desktop**'a giderek **Görsel Öğeler** bölmesindeki üç nokta (...) simgesine tıklayın ve **Dosyadan içeri aktar**'ı seçin.
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Aşağıdaki görüntüde gösterildiği gibi özel görselleri içeri aktarırken dikkatli olmanız konusunda bir uyarı alırsınız:
@@ -79,23 +78,23 @@ Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda 
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
-Tüm diğer **Power BI Desktop** görsellerinde yaptığınız gibi buradan görsele veri ekleyebilirsiniz. İşlemlerinizi tamamladığınızda, görselinizin son halini tuvalde görebilirsiniz. Aşağıdaki görselde, Birleşmiş Milletler (BM) doğum oranı tahminlerini (soldaki görsel) sunmak üzere R tabanlı **Forecasting** görseli kullanılmıştır.
+9. Tüm diğer **Power BI Desktop** görsellerinde yaptığınız gibi buradan görsele veri ekleyebilirsiniz. İşlemlerinizi tamamladığınızda, görselinizin son halini tuvalde görebilirsiniz. Aşağıdaki görselde, Birleşmiş Milletler (BM) doğum oranı tahminlerini (soldaki görsel) sunmak üzere R tabanlı **Forecasting** görseli kullanılmıştır.
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
+    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
-Tüm diğer **Power BI Desktop** görsellerinde olduğu gibi R tabanlı görselleriyle birlikte bu raporu da **Power BI hizmetinde** yayımlayabilir ve başkalarıyla paylaşabilirsiniz.
+    Tüm diğer **Power BI Desktop** görsellerinde olduğu gibi R tabanlı görselleriyle birlikte bu raporu da **Power BI hizmetinde** yayımlayabilir ve başkalarıyla paylaşabilirsiniz.
 
-Her zaman yeni görseller eklendiği için kitaplığı sık sık ziyaret etmeyi unutmayın.
+    Her zaman yeni görseller eklendiği için kitaplığı sık sık ziyaret etmeyi unutmayın.
 
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Özel görselleri **Power BI Desktop**'tan edinme
 
-Özel görselleri **Power BI Desktop**'tan da edinebilirsiniz. **Power BI Desktop**'ta **Görsel Öğeler** bölmesindeki üç nokta (...) simgesine sağ tıklayın ve **Mağazadan al**'ı seçin.
+1. Özel görselleri **Power BI Desktop**'tan da edinebilirsiniz. **Power BI Desktop**'ta **Görsel Öğeler** bölmesindeki üç nokta (...) simgesine tıklayın ve **Market’ten al**'ı seçin.
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-Bu işlemin ardından, kullanılabilir özel görsellere göz atarak aralarından seçim yapabileceğiniz **Power BI Özel Görselleri** iletişim kutusu açılır. Ada göre arama yapabilir, kategori belirleyebilir veya kullanılabilir görsellere göz atabilirsiniz. Hazır olduğunuzda özel görseli **Power BI Desktop**'a eklemek için **Ekle** seçeneğini belirlemeniz yeterlidir.
+2. Bu işlemin ardından, kullanılabilir özel görsellere göz atarak aralarından seçim yapabileceğiniz **Power BI Görselleri** iletişim kutusu açılır. Ada göre arama yapabilir, kategori belirleyebilir veya kullanılabilir görsellere göz atabilirsiniz. Hazır olduğunuzda özel görseli **Power BI Desktop**'a eklemek için **Ekle** seçeneğini belirlemeniz yeterlidir.
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
 ## <a name="contribute-r-powered-custom-visuals"></a>R tabanlı özel görsellere katkıda bulunma
 Raporlarınızda kullanmak için kendi R görsellerinizi oluşturursanız bunları **özel görseller galerisine** ekleyerek tüm dünyayla paylaşabilirsiniz. Katkılar, GitHub aracılığıyla yapılır ve katkıda bulunma işlemi, aşağıdaki konumda ana hatlarıyla açıklanmıştır:
@@ -109,24 +108,27 @@ R tabanlı özel görseller, görsellerin düzgün şekilde çalışması için 
 * R betiğindeki görsel temelli hatalar
 * R paketlerinin eksik olması veya güncel olmaması
 
-Aşağıdaki bölümde, karşılaştığınız sorunları çözmenize yardımcı olacak sorun giderme adımları açıklanmaktadır.
+Aşağıdaki bölümde, karşılaşabileceğiniz sorunları çözmenize yardımcı olacak sorun giderme adımları açıklanmaktadır.
 
 ### <a name="missing-or-outdated-r-packages"></a>Güncel olmayan veya eksik R paketleri
 R tabanlı bir özel görseli yüklerken güncel olmayan veya eksik R paketlerine bağlı sorunlarla karşılaşabilirsiniz; bunun nedeni genellikle aşağıdakilerden biridir:
 
-* R yüklemesinin R paketi ile uyumlu olmaması,
-* Bir güvenlik duvarının, virüsten koruma yazılımının veya ara sunucu ayarlarının, R'nin İnternet'e bağlanmasına engel olması
+* R yüklemesinin R paketi ile uyumlu olmaması
+* Güvenlik duvarının, virüsten koruma yazılımının veya ara sunucu ayarlarının, R'nin İnternet'e bağlanmasına engel olması
 * İnternet bağlantısının yavaş olması veya bir İnternet bağlantısı sorununun bulunması
 
 Power BI ekibi, siz henüz karşılaşmadan bu tür sorunları azaltmak için etkin bir şekilde çalışır ve sonraki Power BI Desktop sürümüne bu sorunları gidermeye yönelik güncelleştirmeler eklenir. Şimdilik bu sorunları gidermek için aşağıdaki adımlardan birini veya birkaçını uygulayabilirsiniz:
 
 1. Özel görseli kaldırın ve tekrar yükleyin. Bu işlem, R paketlerini yeniden yükleme işlemini başlatır.
-2. R yüklemeniz güncel değilse R yüklemenizi yükseltin, ardından önceki adımda açıklandığı gibi özel görseli kaldırın/yeniden yükleyin.
+2. R yüklemeniz güncel değilse R yüklemenizi yükseltin, ardından önceki adımda açıklandığı gibi özel görseli kaldırın ve yeniden yükleyin.
    
-   * Desteklenen R sürümleri, aşağıdaki görüntüde gösterildiği gibi R tabanlı her bir özel görselin açıklamasında belirtilmiştir.
+   Desteklenen R sürümleri, aşağıdaki görüntüde gösterildiği gibi R tabanlı her bir özel görselin açıklamasında belirtilmiştir.
+   
      ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
      > [!NOTE]
-> Özgün R yüklemesini koruyabilir ve Power BI Desktop'ı yalnızca yüklediğiniz güncel sürümle ilişkilendirebilirsiniz. **Dosya > Seçenekler ve ayarlar > Seçenekler > R betiği oluşturma** seçeneğine gidin.
+    > Özgün R yüklemesini koruyabilir ve Power BI Desktop'ı yalnızca yüklediğiniz güncel sürümle ilişkilendirebilirsiniz. **Dosya > Seçenekler ve ayarlar > Seçenekler > R betiği oluşturma** seçeneğine gidin.
+    >
+    >
 3. R konsolunu kullanarak R paketlerini el ile yükleyin. Bu yaklaşıma ilişkin adımlar aşağıda açıklanmıştır:
    
    a.  R tabanlı görselin yükleme betiğini indirin ve bu dosyayı yerel bir sürücüye kaydedin.

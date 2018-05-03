@@ -1,15 +1,15 @@
 ---
-title: "Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme"
-description: "Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin."
+title: Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme
+description: Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
@@ -58,8 +58,7 @@ Aşağıdaki hesapların kiracınızda bulunması gerekir.
 
 > [!NOTE]
 > Bu hesapların Uygulama çalışma alanlarını kullanabilmesi için Power BI Pro lisansına sahip olması gerekir.
-> 
-> 
+>
 
 1. Kiracı yöneticisi rolüne sahip bir kullanıcı.
    
@@ -71,10 +70,13 @@ Aşağıdaki hesapların kiracınızda bulunması gerekir.
    
     Bu hesabın kimlik bilgileri uygulama arka ucunda depolanır ve Power BI REST API'leri ile kullanılacak Azure AD belirteçlerini almak için kullanılır. Bu hesap uygulamanın ekleme belirtecini oluşturmak için kullanılır. Bu hesabın aynı zamanda ekleme için oluşturulmuş olan Uygulama çalışma alanlarının da yöneticisi olması gerekir.
    
-   > [!NOTE]
-   > Bu, kuruluşunuzda bulunan normal bir kullanıcı hesabıdır ve ekleme amacıyla kullanılacaktır.
-   > 
-   > 
+> [!NOTE]
+> Bu, kuruluşunuzda bulunan normal bir kullanıcı hesabıdır ve ekleme amacıyla kullanılacaktır.
+>
+
+> [!NOTE]
+> Uygulamanız için Yalnızca Uygulama Belirteci Kimlik Doğrulaması gerekiyorsa, lütfen bize ulaşmak için [buraya](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) tıklayın.
+>
 
 ## <a name="app-registration-and-permissions"></a>Uygulama kaydı ve izinler
 Uygulamayı Azure AD'ye kaydetmeniz ve belirli izinleri vermeniz gerekir.
@@ -130,9 +132,9 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 2. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
-5. POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW kimliğini ve veri kaynağı kimliğini alın
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcı kimlik bilgilerini güncelleştirin
+5. - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
+6. - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW kimliğini ve veri kaynağı kimliğini alın
+7. - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
 
 #### <a name="old-dataset--reports"></a>Eski veri kümeleri ve raporlar
 Bunlar Ekim 2016 öncesinde oluşturulmuş veri kümeleri/raporlardır. Download PBIX, Ekim 2016'dan önce yüklenmiş olan PBIX dosyalarını desteklemez

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametrelerini kullanma"
-description: "Power BI raporlarında değişkenlere yönelik varsayımlarda bulunmak ve değişkenleri görselleştirmek için kendi Durum değişkeninizi oluşturma"
+title: Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametrelerini kullanma
+description: Power BI raporlarında değişkenlere yönelik varsayımlarda bulunmak ve değişkenleri görselleştirmek için kendi Durum değişkeninizi oluşturma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametresi oluşturma ve kullanma
 **Power BI Desktop**'ın Ağustos 2017 sürümünden itibaren, raporlarınız için **Durum** değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve böylece raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.
 
 ![](media/desktop-what-if/what-if_01.png)
 
-**Durum** parametresi, **Power BI Desktop**'taki **Modelleme** sekmesinde bulunur. Bu, sizi parametreyi yapılandırabileceğiniz bir iletişim kutusuna götürür.
+**Durum** parametresi, **Power BI Desktop**'taki **Modelleme** sekmesinde bulunur. Bu seçeneği belirlediğinizde, parametreyi yapılandırabileceğiniz bir iletişim kutusu görüntülenir.
 
 ## <a name="creating-a-what-if-parameter"></a>Durum parametresi oluşturma
 **Durum** parametresi oluşturmak için, **Power BI Desktop**'taki **Modelleme** sekmesinde bulunan **Durum** düğmesini seçin. Aşağıdaki görüntüde, *Discount percentage* adlı bir parametre oluşturup veri türünü *Ondalık sayı* olarak ayarladık. *Minimum* değer sıfır, *Maksimum* değer ise 0,50'dir (yüzde elli). *Artış* olarak ise 0,05 (yüzde beş) değerini belirledik. Bu, bir raporda etkileşime geçildiğinde parametrenin ne ölçüde artış göstereceğini belirtir.
@@ -37,7 +37,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Ondalık sayıların önüne sıfır koymayı (kutudaki gibi, yalnızca ,50 yerine 0,50 kullanın) unutmayın. Aksi halde sayı doğrulanmaz ve **Tamam** düğmesi seçilemez.
+> Ondalık sayıların önüne sıfır koymayı (yalnızca ,50 yerine 0,50 kullanın) unutmayın. Aksi halde sayı doğrulanmaz ve **Tamam** düğmesi seçilemez.
 > 
 > 
 
@@ -49,7 +49,7 @@ Size kolaylık sağlamak adına, **Bu sayfaya dilimleyici ekle** onay kutusu oto
 
 ![](media/desktop-what-if/what-if_04.png)
 
-**Durum** parametresi oluşturduğunuzda, hem parametrenin hem de ölçünün modelinizin bir parçası haline geldiğini göz önünde bulundurmanızda yarar vardır. Başka bir deyişle, bunlar raporun tamamında ve diğer rapor sayfalarında kullanılabilir. Ayrıca modelin bir parçası olduklarından, rapor sayfasından dilimleyiciyi silebilir, geri almak istemeniz durumunda ise **Alanlar** listesindeki **Durum** parametresini tuvale sürükleyerek (ardından görseli bir dilimleyici olarak değiştirerek) **Durum** parametresini raporunuzda kolayca tekrar kullanabilirsiniz.
+**Durum** parametresi oluşturduğunuzda, hem parametrenin hem de ölçünün modelinizin bir parçası haline geldiğini göz önünde bulundurmanızda yarar vardır. Başka bir deyişle, bunlar raporun tamamında ve diğer rapor sayfalarında kullanılabilir. Ayrıca modelin bir parçası olduklarından, rapor sayfasından dilimleyiciyi silebilir veya geri almak istemeniz durumunda **Alanlar** listesindeki **Durum** parametresini tuvale sürükleyerek (ardından görseli bir dilimleyici olarak değiştirerek) parametreyi raporunuzda kolayca tekrar kullanabilirsiniz.
 
 ## <a name="using-a-what-if-parameter"></a>Durum parametresi kullanma
 Şimdi de **Durum** parametresinin kullanımına yönelik bir örnek üzerinden gidelim. **Durum** parametresini bir önceki bölümde oluşturduğumuza göre, şimdi de değeri kaydırıcı ile ayarlanan yeni bir ölçü oluşturarak bu parametreyi kullanalım. Bunu gerçekleştirmek için yeni bir ölçü oluştururuz.

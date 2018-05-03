@@ -1,28 +1,28 @@
 ---
-title: "Harika bir Power BI panosu tasarlamaya ilişkin ipuçları"
-description: "Harika bir Power BI panosu tasarlamaya ilişkin ipuçları"
+title: Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
+description: Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel göründüğü kadar işlevsel hale getirmeye geldi. Genel olarak yapmanız gereken, en önemli bilgileri öne çıkarıp panoyu temiz ve sade bir hale getirmektir.
@@ -31,25 +31,28 @@ Burada birkaç ipucu verilmiştir.
 
 > [!TIP]
 > Bunların çoğu raporlara ilişkin tasarım ilkeleridir ancak panolar için de geçerlidir.  [Raporlar ve görselleştirmeler için en iyi tasarım ilkeleri](power-bi-visualization-best-practices.md) teknik incelememizi okuyun.
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Hedef kitlenizi değerlendirin
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>[Dashboard Makeover (Panoları Baştan Yaratma) web seminerini](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html) izleyin
+Microsoft Program Yöneticisi Sorumlusu ve Power BI pano uzmanı olarak görev yapan Marc Reguera'nın [pano görünümü değiştirme işlemleri gerçekleştirmesini](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html) izleyin.
+
+## <a name="consider-your-audience"></a>Hedef kitlenizi değerlendirin
 Okuyucuların karar almasına yardımcı olacak ana ölçümler neler? Pano nasıl kullanılacak? Tasarım sırasında yapılacak seçimleri etkileyebilecek öğrenilen veya kültürel varsayımlar neler? Hedef kitlenizin başarılı olmasını sağlayacak bilgiler hangileri?
 
 Panoların genel bir bakış sunan, verilerin geçerli durumunun izlenebileceği merkezler olduğunu unutmayın. Pano, önemli ölçüde ayrıntıya sahip olabilen raporları ve veri kümelerini temel alır. Okuyucularınız panonuzdaki raporların detayına gidebilir. Bu nedenle, okuyucularınızın gerçekten izlemesi gerekmeyen ayrıntıları panoya eklememeniz gerekir.
 
 Pano nerede görüntülenecek? Büyük bir monitörde görüntülenecek panolara daha fazla içerik ekleyebilirsiniz. Okuyucular panoyu tablette görüntüleyecekse daha az sayıda kutucuk daha okunabilir olacaktır.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Bir hikaye anlatın ve tek bir ekranla sınırlı tutun
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Bir hikaye anlatın ve tek bir ekranla sınırlı tutun
 Panoların amacı önemli bilgileri bir bakışta sunmak olduğundan tüm kutucukları tek bir ekrana sığdırmak en iyisidir. Panonuzda kaydırma çubuğu kullanılmasını önleyebilir misiniz?
 
 Panonuz çok mu kalabalık?  Kolay okunup yorumlanacak temel bilgiler dışındakileri kaldırın.
 
-### <a name="make-use-of-full-screen-mode"></a>Tam ekran modunu kullanın
+## <a name="make-use-of-full-screen-mode"></a>Tam ekran modunu kullanın
 Panonuzu [tam ekran](service-fullscreen-mode.md) modunda, dikkati dağıtacak öğeler olmadan görüntüleyin.
 
-### <a name="make-the-most-important-information-biggest"></a>En önemli bilgiler için en büyük boyutları kullanın
+## <a name="make-the-most-important-information-biggest"></a>En önemli bilgiler için en büyük boyutları kullanın
 Panonuzdaki tüm metinler ve görselleştirmeler aynı boyutta olursa kullanıcılarınız önemli olan bilgilere odaklanma konusunda sorun yaşayabilir. Örneğin, kart görselleştirmeleri, önemli sayıları belirgin bir şekilde görüntülemenin iyi bir yoludur:  
 ![Kart görselleştirmesi](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Ancak bağlam sunduğunuzdan emin olun.
 
 [Yalnızca sayı içeren bir kutucuk oluşturma](power-bi-visualization-card.md) hakkında bilgi edinin.
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>En önemli bilgileri üst köşeye yerleştirin
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>En önemli bilgileri üst köşeye yerleştirin
 Çoğu kişi içeriği yukarıdan aşağıya doğru okuduğu için en yüksek ayrıntıya sahip olan öğeyi en üste yerleştirin ve hedef kitlenizin okuma yönüne göre (soldan sağa, sağdan sola) verileri ayrıntılandırın.
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Verilere uygun görselleştirmeleri kullanın ve okunaklı olacak şekilde biçimlendirin.
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Verilere uygun görselleştirmeleri kullanın ve okunaklı olacak şekilde biçimlendirin.
 Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak için kullanmaktan sakının.  Görselleştirmelerin bir resim çizmesi ve hem "okunması" hem de yorumlanması kolay olmalıdır.  Bazı veriler ve görselleştirmeler için basit bir grafik yeterli olacaktır. Ancak bazı veriler için daha karmaşık görselleştirmeler gerekebilir. Okuyucuya yardımcı olmak için başlıklara, etiketlere ve diğer özelleştirmelere yer vermeyi unutmayın.  
 
 * [Uygun veri görselleştirmeleri seçin](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). 3B grafikler gibi gerçeği çarpıtan grafikleri kullanmaktan kaçının. İnsan beyninin dairesel şekilleri yorumlamakta zorlandığını unutmayın. Pasta grafikleri, halka grafikler, ölçekler ve diğer dairesel grafik türleri güzel görünebilir ancak veri görselleştirme alanındaki en iyi uygulamalardan değildir.
@@ -84,7 +87,6 @@ Pano tasarımı konusunda uzmanlaşmak için bağlam içinde eyleme dönüştür
 * *Advanced Presentations* (Gelişmiş Sunumlar), Andrew Abela   
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki panolar](service-dashboards.md)  
+[Rapordan pano oluşturma](service-dashboard-create.md)  
 [Power BI - Temel Kavramlar](service-basic-concepts.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

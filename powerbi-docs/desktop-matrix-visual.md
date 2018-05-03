@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop'ta matris görselini kullanma"
-description: "Matris görselinin Power BI Desktop'ta basamaklı düzenlere ve ayrıntılı vurgulamaya nasıl olanak sağladığını öğrenin"
+title: Power BI Desktop'ta matris görselini kullanma
+description: Matris görselinin Power BI Desktop'ta basamaklı düzenlere ve ayrıntılı vurgulamaya nasıl olanak sağladığını öğrenin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop'ta Matris görselini kullanma
-**Matris** görselini kullanarak **Power BI Desktop** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.
+**Matris** görsel özelliğini kullanarak **Power BI Desktop** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -77,11 +77,11 @@ Açılan menüde farklı sonuçlar elde etmenizi sağlayan birkaç seçenek bulu
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-**Detaydan çık** simgesine tıklayarak önceki en üst düzey görünümüne dönebiliriz. Ardından sağ tıklama menüsünden **Sonraki Düzeyi Göster**'i seçtiğimizde, daha üst düzey hiyerarşi kategorileri olmaksızın tüm sonraki düzey öğelerinin (bu örnekteki *SubCategory* alanı) alfabetik olarak sıralanmış bir listesini görürüz.
+**Detaydan çık** simgesine tıklayarak önceki en üst düzey görünümüne dönebilirsiniz. Ardından sağ tıklama menüsünden **Sonraki Düzeyi Göster**'i seçtiğinizde, daha üst düzey hiyerarşi kategorileri olmaksızın tüm sonraki düzey öğelerinin (bu örnekteki *SubCategory* alanı) alfabetik olarak sıralanmış bir listesini görürsünüz.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Matrisin tüm en üst düzey kategorilerini göstermesi için sol üst köşedeki **Detaydan çık** simgesine tıkladıktan sonra bu simgeye tekrar sağ tıklayıp **Bir sonraki düzeye genişlet**'i seçtiğimizde aşağıdakini görürüz:
+Matrisin tüm en üst düzey kategorilerini göstermesi için sol üst köşedeki **Detaydan çık** simgesine tıkladıktan sonra bu simgeye tekrar sağ tıklayıp **Bir sonraki düzeye genişlet**'i seçtiğinizde aşağıdakini görürsünüz:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,11 +96,11 @@ Satırlarda detaya gitme özelliğine benzer şekilde **Sütunlarda** da detaya 
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-**Detaya Git** seçildiğinde *Deluxe* için sütun hiyerarşisinin sonraki düzeyi (bu örnekte *Color*) görüntülenir.
+**Detaya Git**’i seçtiğinizde *Deluxe* için sütun hiyerarşisinin sonraki düzeyi (bu örnekte *Color*) görüntülenir.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-Sağ tıklama menüsünün diğer öğeleri, Sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın.) Satırlarda olduğu gibi sütunlarınızda da **Sonraki Düzeyi Göster**, **Bir sonraki düzeye genişlet** ve **Ekle** veya **Dışla** seçeneklerini kullanabilirsiniz.
+Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın.) Satırlarda olduğu gibi sütunlarınızda da **Sonraki Düzeyi Göster**, **Bir sonraki düzeye genişlet**, **Ekle** veya **Dışla** seçeneklerini kullanabilirsiniz.
 
 > [!NOTE]
 > Matris görselinin sol üstündeki detaya git ve detaydan çık simgeleri, yalnızca satırlar için kullanılabilir. Sütunlarda detaya gitmek için sağ tıklama menüsünü kullanmanız gerekir.
@@ -108,17 +108,17 @@ Sağ tıklama menüsünün diğer öğeleri, Sütunlarda da satırlarda olduğu 
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Matris görselleriyle basamaklı düzen
-**Matris** görseli, bir hiyerarşide her bir üst öğenin altındaki alt kategorileri otomatik olarak girintiler ve bu işleme **basamaklı düzen** adı verilir.
+**Matris** görseli, bir hiyerarşide her bir üst öğenin altındaki alt kategorileri otomatik olarak girintiler ve bu işleme **Basamaklı düzen** adı verilir.
 
-Matris görselinin *özgün* halinde alt kategoriler tamamen farklı bir sütunda gösterilir ve bu durum, görselde daha fazla alan kullanılmasına neden olur. Aşağıdaki görüntüde, özgün **matris** görselindeki tablo gösterilmektedir; buradan alt kategorilerin tamamen ayrı bir sütunda bulunduğunu görebilirsiniz.
+Matris görselinin *özgün* halinde alt kategoriler tamamen farklı bir sütunda gösterilir ve bu durum, görselde daha fazla alan kullanılmasına neden olur. Aşağıdaki görüntüde, özgün **Matris** görselindeki tablo gösterilmektedir; buradan alt kategorilerin tamamen ayrı bir sütunda bulunduğunu görebilirsiniz.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Aşağıdaki görüntü, **basamaklı düzen** kullanılan bir **Matris** görseli içermektedir. *Computers* kategorisinin alt kategorilerinin (Computers Accessories, Desktops, Laptops, Monitors vb.) hafif girintili olduğunu ve böylece daha net ve yoğun bir görselin ortaya çıktığını görebilirsiniz.
+Aşağıdaki görüntü, **Basamaklı düzen** kullanılan bir **Matris** görseli içermektedir. *Computers* kategorisinin alt kategorilerinin (Computers Accessories, Desktops, Laptops, Monitors vb.) hafif girintili olduğunu ve böylece daha net ve yoğun bir görselin ortaya çıktığını görebilirsiniz.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-**Basamaklı düzen** ayarlarını kolayca yapabilirsiniz. **Matris** görseli seçiliyken **Görsel Öğeler** bölmesinin **Biçim** bölümündeki (boya rulosu simgesi) **Satır başlıkları** bölümünü genişletin. Burada iki seçenek vardır: **Basamaklı düzen** açma/kapatma kaydırıcısı (bu özelliği etkinleştirir veya devre dışı bırakır) ve **Basamaklı düzen girintisi** (piksel cinsinden girinti miktarını belirler).
+Basamaklı düzen ayarlarını kolayca yapabilirsiniz. **Matris** görseli seçiliyken **Görsel Öğeler** bölmesinin **Biçim** bölümündeki (boya rulosu simgesi) **Satır başlıkları** bölümünü genişletin. İki seçeneğiniz vardır: **Basamaklı düzen** açma/kapatma kaydırıcısı (bu özelliği etkinleştirir veya devre dışı bırakır) ve **Basamaklı düzen girintisi** (piksel cinsinden girinti miktarını belirler).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,21 +136,21 @@ Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etk
 Aynı işlem sütun alt toplamları için de geçerlidir.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Matris görselleri ile çapraz vurgulama
-**Matris** görseliyle matristeki herhangi bir öğe, çapraz vurgulamada temel alınacak şekilde seçilebilir. **Matriste** bir sütun seçtiğinizde, rapor sayfasındaki diğer görsellerde olduğu gibi bu sütun da vurgulanır. Bu, diğer görseller ve bir veri noktası seçimi için ortak bir özellik olup artık **Matris** görseli için de geçerlidir.
+**Matris** görseliyle matristeki herhangi bir öğeyi, çapraz vurgulamada temel alınacak şekilde seçebilirsiniz. **Matriste** bir sütun seçtiğinizde, rapor sayfasındaki diğer görsellerde olduğu gibi bu sütun da vurgulanır. Bu, diğer görseller ve bir veri noktası seçimleri için ortak bir özellik olduğundan artık **Matris** görseli de aynı işlevi sunar.
 
-Ayrıca, çapraz vurgulama için CTRL tuşu + tıklama seçeneği de kullanılabilir. Örneğin, aşağıdaki görüntüde **Matris** görselindeki bir alt kategori koleksiyonu seçilmiştir. Görseldeki seçili olmayan öğelerin gri renkte göründüğünü ve sayfadaki diğer görsellerin, **Matris** görselinde yapılan seçimleri yansıttığını görebilirsiniz.
+Ayrıca, çapraz vurgulama için Ctrl+Tıklama seçeneği de kullanılabilir. Örneğin, aşağıdaki görüntüde **Matris** görselindeki bir alt kategori koleksiyonu seçilmiştir. Görseldeki seçili olmayan öğelerin gri renkte göründüğünü ve sayfadaki diğer görsellerin, **Matris** görselinde yapılan seçimleri yansıttığını görebilirsiniz.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Matris görselleriyle gölgelendirme ve yazı tipi renkleri
-**Matris** görseliyle, matris içindeki hücrelerin arka planına **koşullu biçimlendirme** (renkler ve gölgelendirme) uygulayabilir, ayrıca metin ve değerlerde de koşullu biçimlendirme gerçekleştirebilirsiniz.
+**Matris** görseliyle, matris içindeki hücrelerin arka planına **Koşullu biçimlendirme** (renkler ve gölgelendirme) uygulayabilir, ayrıca metin ve değerlerde de koşullu biçimlendirme gerçekleştirebilirsiniz.
 
 Koşullu biçimlendirme uygulamak için bir matris görseli seçin aşağıdakilerden birini yapın:
 
 * **Alanlar** bölmesinde, Alan'a sağ tıklayın ve menüden **Koşullu biçimlendirme**'yi seçin.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Buna alternatif olarak, **Biçim** bölmesindeki **Koşullu biçimlendirme** kartını genişletin ve **Arka plan renk ölçekleri** veya **Yazı tipi renk ölçekleri** için kaydırıcıyı **Açık** durumuna getirin. Bunlardan biri etkinleştirildiğinde, koşullu biçimlendirme için renkleri ve değerleri özelleştirmenize olanak sağlayan bir *Gelişmiş denetimler* bağlantısı görüntülenir.
+* Buna alternatif olarak, **Biçim** bölmesindeki **Koşullu biçimlendirme** kartını genişletin ve **Arka plan renk ölçekleri** veya **Yazı tipi renk ölçekleri** için kaydırıcıyı **Açık** durumuna getirin. Bu seçeneklerden biri etkinleştirildiğinde, koşullu biçimlendirme için renkleri ve değerleri özelleştirmenize olanak sağlayan bir *Gelişmiş denetimler* bağlantısı görüntülenir.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

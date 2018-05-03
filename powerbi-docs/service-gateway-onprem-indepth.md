@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
@@ -87,10 +87,7 @@ Bulut hizmetleri yalnızca Azure Active Directory'deki hesapları tanır. Yerel 
    Azure portalı veya Office 365 Yönetim Portalı'nda bir hesap oluşturabilirsiniz. Böylece hesap adı, yerel Active Directory hesabının UPN'si ile eşleşir.
 2. Yerel hesapları Azure Active Directory kiracınız ile eşitlemek için [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) aracını kullanabilirsiniz.
    
-   Azure AD Connect aracı, dizin ve parola eşitlemesine yönelik seçenekler sunar. Bir kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz bu yapılandırmayı gerçekleştirmesi için BT yöneticinizle iletişime geçmeniz gerekir.
-3. Active Directory Federasyon Hizmetleri'ni (ADFS) yapılandırabilirsiniz.
-   
-   [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) aracını kullanarak ADFS sunucunuzu AAD kiracınız ile ilişkilendirebilirsiniz. ADFS, yukarıda bahsedilen dizin eşitlemesini kullanır ancak çoklu oturum açma (SSO) deneyimine olanak sağlar. Örneğin, iş ağınızdaysanız bir bulut hizmetine bağlanmak ve oturum açmak istediğinizde kullanıcı adı veya parola girmeniz istenmeyebilir. Bu özelliğin kuruluşunuzda mevcut olup olmadığını öğrenmek için BT Yöneticiniz ile iletişime geçmeniz gerekir.
+   Azure AD Connect aracı, parola karma eşitlemesi, geçişli kimlik doğrulama ve federasyon gibi dizin eşitleme ve kimlik doğrulaması ayarlamaya yönelik seçenekler sağlar. Bir kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz bu yapılandırmayı gerçekleştirmesi için BT yöneticinizle iletişime geçmeniz gerekir.
 
 Azure AD Connect, UPN'nin AAD ile yerel Active Directory etki alanınız arasında eşleşmesini sağlar.
 

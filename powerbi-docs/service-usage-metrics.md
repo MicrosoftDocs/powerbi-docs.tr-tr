@@ -1,29 +1,29 @@
 ---
-title: "Panolar ve raporlar için kullanım ölçümleri"
-description: "Power BI panoları ve raporları için Kullanım ölçümlerini görüntüleme, kaydetme ve kullanma. İçerik oluşturuculara yönelik kullanım ölçümleriyle etkinizi ölçün ve artırın."
+title: Panolar ve raporlar için kullanım ölçümleri
+description: Power BI panoları ve raporları için Kullanım ölçümlerini görüntüleme, kaydetme ve kullanma. İçerik oluşturuculara yönelik kullanım ölçümleriyle etkinizi ölçün ve artırın.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Panolar ve raporlar için kullanım ölçümleri
 Kullanım ölçümleri, oluşturduğunuz panoların ve raporların etkilerini anlamanıza yardımcı olabilir. Pano kullanım ölçümü veya rapor kullanım ölçümü çalıştırdığınızda kullanılan öğeler, kullanıcılar ve kullanım amaçları dahil olmak üzere ilgili pano ve raporların kuruluşunuzda nasıl kullanıldığını görebilirsiniz.  
@@ -53,7 +53,7 @@ Kullanım ölçümleri raporları oluşturma özelliği yalnızca Power BI hizme
 
 Kullanım ölçümleri raporları **Son görüntülenen**, **Çalışma Alanı**, **Sık Kullanılanlar** veya diğer içerik listelerinde gösterilmez. Bu raporlar uygulamaya eklenemez. Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlemeniz halinde ilgili pano bir uygulamaya veya içerik paketine eklenemez.
 
-Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı oluşturmak için **Farklı kaydet** (bkz. [Kullanım Ölçümleri raporunu tam özellikli bir Power BI raporu olarak kaydetme](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)) seçeneğini kullanın.
+Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı oluşturmak için **Farklı kaydet** (bkz. [Kullanım Ölçümleri raporunu tam özellikli bir Power BI raporu olarak kaydetme](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))) seçeneğini kullanın.
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Bir pano veya rapora ilişkin Kullanım Ölçümleri raporunu açma
 1. İlgili panoyu veya raporu içeren çalışma alanından başlayın.

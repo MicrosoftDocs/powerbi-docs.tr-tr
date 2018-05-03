@@ -1,45 +1,50 @@
 ---
-title: "Odak modu: Daha fazla ayrıntı görüntülemek için tek bir görselleştirmeyi yakınlaştırın."
-description: "Power BI pano kutucuklarını veya rapor görselleştirmelerini odak modunda (büyütme olarak da bilinir) görüntülemeye yönelik belgeler."
+title: 'Odak modu: Daha fazla ayrıntı görüntülemek için tek bir görselleştirmeyi yakınlaştırın.'
+description: Power BI pano kutucuklarını veya rapor görselleştirmelerini odak modunda (büyütme olarak da bilinir) görüntülemeye yönelik belgeler.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: dtdLul6otYE
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Bir pano kutucuğunu veya rapor görselini odak modunda görüntüleme
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
 
 ## <a name="what-is-focus-mode"></a>Odak modu nedir?
-***Odak*** modu, daha fazla ayrıntı görmek için bir pano kutucuğunu veya rapor görselini genişletmenize (büyütmenize) olanak tanır.  Odak modundayken, söz konusu görsel oluşturulduğunda uygulanan filtreleri görüntüleyebilir ve değiştirebilirsiniz.  
+
+***Odak*** modunu kullanarak daha fazla ayrıntı görmek üzere içeriği genişletebilirsiniz (açılır pencere).  Odak modundayken, söz konusu görsel oluşturulduğunda uygulanan filtreleri görüntüleyebilir ve değiştirebilirsiniz.  Power BI hizmetinde bir pano kutucuğunda veya rapor görselinde odak modunu kullanabilir ve Power BI Desktop’ta bir [rapor görselinde](desktop-report-view.md) odak modunu kullanabilirsiniz.
 
 > [!NOTE]
 > Odak, [tam ekran modundan](service-fullscreen-mode.md) farklıdır.
 > 
+
+
 ## <a name="focus-mode-for-dashboard-tiles"></a>Pano kutucukları için odak modu
-1. Kutucuk görselleştirmesinin üzerine gelin, üç nokta (...) simgesini seçin ve **Odak modunda aç** seçeneğini belirleyin 
+
+1. Kutucuk görselleştirmesinin üzerine gelin, üç nokta (...) simgesini seçin ve **Odak modunda aç** seçeneğini belirleyin. 
 
     ![kutucuk için üç nokta menüsü](media/service-focus-mode/power-bi-dashboard-focus-mode.png)geçin.
-   
+
 2. Kutucuk, tuvalin tamamını kaplayacak şekilde açılır. 
 
    ![rapor tuvalini dolduran kutucuk](media/service-focus-mode/power-bi-tile-focus.png)
@@ -62,7 +67,6 @@ ms.lasthandoff: 03/09/2018
    ![kutucukta gösterilen odak simgesi](media/service-focus-mode/power-bi-hover-focus.png)
 2. Görselleştirme, tuvalin tamamını kaplayacak şekilde açılır. 
 
-   
    ![odak modunda görsel](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Bu görsele uygulanan tüm filtreleri görüntülemek için Filtreler bölmesini genişletin.
    
@@ -76,7 +80,7 @@ ms.lasthandoff: 03/09/2018
 Odak moduna geçtikten sonra kutucuğu veya görseli [tam ekran modunda (TV modu) görüntüleyebilirsiniz.](service-fullscreen-mode.md) Tam ekran modunda görüntüleme yaparak menülerin ve gezinti düğmelerinin dikkatinizi dağıtmasını önleyebilirsiniz.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Bir rapordaki görselleştirme ile odak modunu kullanırken tüm filtreleri görüntüleyebilir ve değiştirebilirsiniz: Görsel düzeyi, Sayfa düzeyi ve Rapor düzeyi.    
+* Bir rapordaki görselleştirme ile odak modunu kullanırken tüm filtreleri görüntüleyebilir ve değiştirebilirsiniz: Görsel düzeyi, Sayfa düzeyi, Detaylandırma ve Rapor düzeyi.    
 * Bir panodaki görselleştirme ile odak modunu kullanırken yalnızca Görsel düzeyi filtrelerini görüntüleyebilir ve değiştirebilirsiniz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

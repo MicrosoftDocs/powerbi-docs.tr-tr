@@ -2,14 +2,14 @@
 title: "Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
 description: "Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,135 +18,126 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma
-Bazen çözümlediğiniz veriler, istediğiniz sonuçlar için ihtiyaç duyduğunuz bir alanı içermeyebilir. Hesaplanmış sütunlar bunun için vardır. Hesaplanmış sütunlar, bir sütunun değerlerini Veri Çözümleme İfadeleri (DAX) formülleri kullanarak tanımlar. Bu sütun değerleri, modelin başka bir yerindeki birkaç farklı sütundan alınmış metin değerlerini birleştirmekten, diğer değerlerden yola çıkarak bir sayısal değer hesaplamaya kadar her şey olabilir. Örneğin, verilerinizde (Alanlar listesinde alanlar olarak) City ve State sütunları var ancak ikisini birden Miami, FL gibi tek bir Location alanında tek bir değer olarak görmek istiyorsunuz. Bu tam olarak hesaplanmış sütunların işidir.
 
-Hesaplanmış sütunlar, DAX formüllerini temel almaları açısından ölçülere benzer ancak kullanımları birbirinden farklıdır. Ölçüler çoğunlukla, sonuçları bir tablo satırına, veya bir görselleştirmenin Eksen, Açıklama ya da Grup kısmındaki diğer alanlara göre hesaplamak için kullanılır. Buna karşın hesaplanmış sütunlar, sütunun sonucunu tablo satırının kendisinde veya görselleştirmenin Eksen, Açıklama ya da Grup alanında gösterir.
+Bazen çözümlediğiniz veriler, istediğiniz sonuçlar için ihtiyaç duyduğunuz bir alanı içermeyebilir. *Hesaplanmış sütunlar* bunun için vardır. Hesaplanmış sütunlar bir sütunun değerlerini tanımlamak, birkaç farklı sütundan metin değerlerini bir araya getirmek veya diğer değerlerden bir sayısal değer hesaplamak gibi her türlü işlem için Veri Çözümleme İfadeleri (DAX) formüllerini kullanır. Örneğin, verilerinizde **City** ve **State** alanları var ancak "Miami, FL" gibi her iki alanı da içeren tek bir **Location** alanınızın olmasını istiyorsunuz. Bu tam olarak hesaplanmış sütunların işidir.
 
-Bu eğitim, hesaplanmış sütunları anlamanız ve Power BI Desktop'ta kendi hesaplanmış sütunlarınızı oluşturmanız konusunda size yol gösterecektir. Eğitim, Power BI Desktop'ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak için Sorgu kullanmaya, birden çok ilişkili tabloyla çalışmaya ve Rapor Tuvaline alan eklemeye alışkın olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
+Hesaplanmış sütunlar, DAX formüllerini temel almaları açısından [ölçülere](desktop-tutorial-create-measures.md) benzer ancak kullanımları birbirinden farklıdır. Ölçüler genellikle diğer alanlara göre sonuçları hesaplamak için bir görselleştirmenin **Değerler** alanında kullanılır. Hesaplanmış sütunlar ise görselleştirmelerin satır, eksen, açıklama ve grup alanlarındaki yeni **Alanlar** olarak kullanılır.
 
-Bu eğitimdeki adımları tamamlamak için [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirmeniz gerekir. Bu örnek dosyanın aynısı, [Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) eğitiminde de kullanılmıştır. Bu dosya, Contoso, Inc adlı kurgusal şirketin satış verilerini içerir. Dosyadaki veriler bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Sorgu Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı bilgisayarınıza indirip Power BI Desktop'ta açın.
+Bu öğretici, bazı hesaplanmış sütunları anlayıp oluşturmanız ve Power BI Desktop'taki rapor görselleştirmelerinde kullanmanız konusunda size yol gösterecektir. 
 
-## <a name="lets-create-a-calculated-column"></a>Şimdi bir hesaplanmış sütun oluşturalım
-Ürün kategorilerini ürün alt kategorileriyle birlikte satırlarda tek bir değer olarak görmek istediğimizi varsayalım (Cell phones - Accessories, Cell phones - Smart phones & PDAs vb. gibi). Rapor Görünümü veya Veri Görünümünde (burada Rapor Görünümünü kullanıyoruz) Alanlar listesindeki ürün tablolarımıza baktığımızda bize istediğimizi sunan bir alan olmadığını görüyoruz. Ancak, ayrı ayrı tablolarda ProductCategory ve ProductSubcategory alanları bulunuyor.
+### <a name="prerequisites"></a>Önkoşullar
+- Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden fazla ilgili tablo ile çalışmak ve Rapor tuvaline alanlar eklemek için **Veri Alma** ve **Power Query Düzenleyicisi**’ni nasıl kullanacağınızı zaten biliyor olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
+  
+- Bu öğreticide, [Power BI Desktop’ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) öğreticisi için kullanılan örneğin aynısı, yani [Power BI Desktop için Contoso Satış Örneği](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) kullanılır. Contoso, Inc adlı kurgusal şirketin bu satış verileri bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Power Query Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı indirip bilgisayarınıza ayıklayın ve sonra Power BI Desktop’ta açın.
 
- ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
+## <a name="create-a-calculated-column-with-values-from-related-tables"></a>İlgili tablolardan değerlerle hesaplanmış bir sütun oluşturma
 
-Bu iki sütundaki değerleri birleştirerek yeni sütunumuzda yeni değerler üretecek bir hesaplanmış sütun oluşturalım. İlginçtir ki, iki ayrı tablodan veri alıp tek bir sütunda birleştirmemiz gerekiyor. Yeni sütunumuzu oluşturmak için DAX kullanacağımız için, var olan farklı tabloların birbiri arasındaki ilişkiler dahil olmak üzere elimizdeki modelin tam gücünden yararlanabiliriz.
+Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones – Accessories", "Cell phones – Smartphones & PDAs" gibi tek değerler halinde görüntülemek istiyorsunuz. **Alanlar** listesinde size bu verileri sağlayan bir alan yoktur ancak her biri kendi tablosunda bulunan bir **ProductCategory** alanı ve bir **ProductSubcategory** alanı mevcuttur. Bu iki sütundaki değerleri birleştiren bir hesaplanmış sütun oluşturabilirsiniz. DAX formülleri, var olan farklı tabloların birbiri arasındaki ilişkiler dahil olmak üzere elinizdeki modelin tam gücünden yararlanabilir. 
 
-### <a name="to-create-a-productfullcategory-column"></a>Bir ProductFullCategory sütunu oluşturmak için
-1.  Alanlar listesindeki **ProductSubcategory** tablosuna sağ tıklayın veya yanındaki aşağı oka tıklayın ve **Yeni Sütun**'u seçin. Böylece yeni sütunumuzun ProductSubcategory tablosuna ekleneceğinden emin olduk.
+ ![Alanlar listesindeki sütunlar](media/desktop-tutorial-create-calculated-columns/create1.png)
+
+1.  **Diğer seçenekler** üç nokta simgesini (...) seçin veya Alanlar listesindeki **ProductSubcategory** tablosuna sağ tıklayın ve sonra **Yeni Sütun**’u seçin. Bu işlem ProductSubcategory tablosunda yeni sütununuzu oluşturur.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumn.png)
+    ![Yeni Sütun](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    Formül çubuğu, Rapor tuvalinin veya Veri kılavuzunun üzerinde görünür. Burada sütunumuzu yeniden adlandırabilir ve bir DAX formülü girebiliriz.
+    Formül çubuğu, Rapor tuvalinin üst kısmında görüntülenir. Burada sütununuzu yeniden adlandırabilir ve bir DAX formülü girebilirsiniz.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumnformula.png)
+    ![Formül çubuğu](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-    Varsayılan olarak yeni bir hesaplanmış sütunun adı sadece Sütun olur. Bunu yeniden adlandırmadan başka sütunlar oluşturursak bu yeni sütunların adları da Sütun 2, Sütun 3 vs. şeklinde ilerler. Sütunlarımızın birbirine karışmamasını isteriz, bu yüzden yeni sütunumuza yeni bir ad verelim.
+2.  Varsayılan olarak, yeni bir hesaplanmış sütunun adı sadece Sütun olur. Sütunu yeniden adlandırmazsanız ek olarak oluşturulacak sütunlar Sütun 2, Sütun 3 ve benzeri şekilde adlandırılır. Sütununuzun daha iyi ayırt edilebilir olmasını istiyorsunuz. Bu nedenle, **Sütun** adı formül çubuğunda zaten vurgulandığı için **ProductFullCategory** yazarak yeniden adlandırın ve sonra bir eşittir (**=**) işareti girin.
     
-2.  Formül çubuğunda **Sütun** adı zaten vurgulanmış olduğu için **ProductFullCategory** yazmanız yeterlidir.
+3.  Yeni sütununuzdaki değerlerin ProductCategory adıyla başlamasını istiyoruz. Bu sütun farklı ancak ilişkili bir tabloda olduğundan, sütuna [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) işlevini kullanarak ulaşabilirsiniz.
     
-    Şimdi formülümüzü girmeye başlayabiliriz. Yeni sütunumuzdaki değerlerin ProductCategory tablosundan ProductCategory adıyla başlamasını istiyoruz. Bu sütun farklı ancak ilişkili bir tabloda olduğu için sütuna [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) işlevini kullanarak ulaşacağız.
+    Eşittir işaretinden sonra **r** yazın. Bir açılır öneri listesinde, R harfiyle başlayan tüm DAX işlevleri gösterilir. Bir işlev seçildiğinde, etkisinin açıklaması gösterilir. Siz yazdıkça, öneri listesi ihtiyaç duyduğunuz işleve yaklaşacak şekilde ölçeklendirilir. **RELATED** öğesini seçin ve sonra **Enter** tuşuna basın.
     
-3.  Eşittir işaretinden sonra **R** yazın. R harfi ile başlayan bütün DAX işlevlerini içeren bir açılır öneri listesi göreceksiniz. Yazdığımız her bir harfle, öneri listesi ihtiyacımız olan işleve yaklaşarak küçülür. İşlevin yanında işlevin bir açıklamasını görürsünüz. Aşağıya inip Enter'a basarak **RELATED**'ı seçin.
+    ![RELATED işlevini seçme](media/desktop-tutorial-create-calculated-columns/create4.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_1.png)
+    RELATED işlevine geçirebileceğiniz ilgili sütunları ve beklenen parametrelere ilişkin açıklama ve ayrıntıları içeren başka bir öneri listesiyle birlikte bir açma ayracı görünür. 
     
-    Bir açma parantezi ve RELATED işlevine geçirilebilecek bütün kullanılabilir sütunların öneri listesi belirir. Bir açıklama ve beklenen parametrelerin ayrıntıları da gösterilir.
+    ![ProductCategory seçme](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_2.png)
-    
-    Bir ifade her zaman bir açma parantezi ve kapanış parantezi arasında görünür. Bu örnekte, ifademiz RELATED işlevine geçirilmiş tek bir bağımsız değişken içerecektir. Bu, değeri döndürülecek olan ilgili sütundur. Sütun listesi sadece ilgili sütunları gösterecek şekilde otomatik olarak daraltılır. Bu örnekte, ProductCategory tablosundaki ProductCategory sütununu istiyoruz.
-    
-    **ProductCategory[ProductCategory]**'yi seçin ve ardından bir kapanış parantezi ekleyin.
+4.  **ProductCategory** tablosundan **ProductCategory** sütununu istiyorsunuz. **ProductCategory[ProductCategory]** öğesini seçin, **Enter** tuşuna basın ve sonra bir kapatma ayracı girin.
     
     > [!TIP]
-    > Söz dizimi hatalarının sebebi genellikle eksik veya yanlış yerleştirilmiş bir kapanış parantezidir. Ancak, parantezi unutsanız bile Power BI Desktop genellikle ekler.
-    > 
-    > 
+    > Bazı durumlarda sizin yerinize Power BI Desktop tarafından eklenmesine rağmen, söz dizimi hataları en yaygın olarak eksik veya yanlış yerleştirilmiş bir kapatma ayracından kaynaklanır.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_3.png)
+4. Yeni değerlerde ProductCategories ve ProductSubcategories öğelerini tire ve boşluklarla birbirinden ayırmak istiyorsunuz. Bu nedenle, ilk ifadenin kapatma ayracından sonra bir boşluk, ve işareti (**&**), çift tırnak (**"**), boşluk, tire (**-**), başka bir boşluk, başka bir çift tırnak ve başka bir ve işareti girin. Formülünüzün aşağıdaki gibi görünmesi gerekir:
     
-4. Her bir değeri ayırmak için tire simgesi eklemeniz gerekir. Diğer bir deyişle, ilk ifadenin kapanış parantezinden sonra bir boşluk koyun, ve işareti (&) yazın, tırnak işareti yazın, boşluk koyun, tire (-) ekleyin, bir boşluk daha koyun, kapanış tırnağı ile bir ve işareti daha yazın. Formülünüzün şöyle görünmesi gerekir:
-    
-    **ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &**
+    `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
-    > Formül düzenleyicisini genişletmek için formül çubuğunun sağındaki aşağı köşeli çift ayraca tıklayın. Bir satır aşağı inmek için Alt ve Enter'a, içeriği yana kaydırmak için Tab tuşuna basın.
-    > 
-    > 
+    > Daha fazla yer gerekirse, formül düzenleyicisini genişletmek için formül çubuğunun sağındaki aşağı köşeli çift ayracı seçin. Düzenleyicide bir satır aşağı inmek için **Alt + Enter** tuşlarına, içeriği yana kaydırmak için **Tab** tuşuna basın.
     
-5.  Son olarak, formülü tamamlamak için bir sol köşeli ayraç daha açın ve formülü bitirmek için **[ProductSubcategory]** sütununu seçin. Formülünüzün şöyle görünmesi gerekir:
+5.  Formülü tamamlamak için bir açma ayracı (**[**) girin ve sonra **[ProductSubcategory]** sütununu seçin. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_5.png)
+    ![ProductSubcategory seçme](media/desktop-tutorial-create-calculated-columns/create6.png)
     
-    ProductSubcategory sütununu çağıran ikinci ifadede bir kez daha RELATED işlevini kullanmadığımızı fark edeceksiniz. Bunun sebebi, bu sütunun zaten yeni sütunumuzu oluşturduğumuz tabloda olmasıdır. Tablo adıyla (tam ad) veya tablo adı olmadan (nitelemesiz ad) [ProductCategory]'ye girebiliriz.
+    Bu tabloda hesaplanmış bir sütun oluşturduğunuz için ikinci ifadede ProductSubcategory tablosunu çağırmak için başka RELATED işlevi kullanmanız gerekmedi. Tablo adı ön ekiyle (tam ad) veya tablo adı ön eki olmadan (nitelemesiz ad) [ProductCategory] girebilirsiniz.
     
-6.  Enter tuşuna basarak veya formül çubuğundaki onay işaretine tıklayarak formülü tamamlayın. Formül doğrulanır ve **ProductSubcategory** tablosundaki alan listesine eklenir.
+6.  **Enter** tuşuna basarak veya formül çubuğundaki onay işaretini seçerek formülü tamamlayın. Formül doğrulanır ve Alanlar listesindeki **ProductSubcategory** tablosunda **ProductFullCategory** sütun adı görünür. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_6.png)
+    ![Bitmiş ProductFullCategory sütunu](media/desktop-tutorial-create-calculated-columns/create7.png)
     
-    Hesaplanmış sütunların, alan listesinde özel bir simge ile belirtildiğini fark edeceksiniz. Bu simge, söz konusu sütunların formül içerdiğini gösterir. Bunlar yalnızca Power BI Desktop'ta böyle görünür. Power BI hizmetinde (Power BI sitenizde) bir formülü değiştirme olanağı yoktur. Bu nedenle, bir hesaplanmış sütun alanı simge içermez.
+    >[!NOTE]
+    >Power BI Desktop’ta hesaplanmış sütunlar, formül içerdiklerini belirtmek üzere alan listesinde özel bir simge alırlar. Power BI hizmetinde (Power BI sitenizde) bir formülü değiştirme olanağı yoktur. Bu nedenle, hesaplanmış sütunlar simge içermez.
     
-## <a name="lets-add-our-new-column-to-a-report"></a>Yeni sütunumuzu bir rapora ekleyelim
-Şimdi yeni ProductFullCategory sütunumuzu rapor tuvaline ekleyebiliriz. ProductFullCategory'e göre SalesAmount'a bakalım.
+## <a name="use-your-new-column-in-a-report"></a>Yeni sütununuzu bir raporda kullanma
 
-**ProductFullCategory** sütununu **ProductSubcategory** tablosundan Rapor tuvaline sürükleyin ve daha sonra **Sales** tablosundaki **SalesAmount** alanını grafiğe sürükleyin.
+Artık yeni ProductFullCategory sütununuzu ProductFullCategory ölçütüne göre SalesAmount değerine bakmak için kullanabilirsiniz.
 
-![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_report_1.png)
+1. Tüm ProductFullCategory adlarını gösteren bir tablo oluşturmak için **ProductFullCategory** sütununu seçin veya **ProductSubcategory** tablosundan Rapor tuvaline sürükleyin.
+   
+   ![ProductFullCategory tablosu](media/desktop-tutorial-create-calculated-columns/vis1.png)
+    
+2. **SalesAmount** alanını seçin veya **Sales** tablosundan her bir Ürün Tam Kategorisine ait Satış Tutarını gösteren tabloya sürükleyin.
+   
+   ![ProductFullCategory’ye göre SalesAmount tablosu](media/desktop-tutorial-create-calculated-columns/vis2.png)
+    
+## <a name="create-a-calculated-column-that-uses-an-if-function"></a>IF işlevi kullanan hesaplanmış sütun oluşturma
 
-## <a name="lets-create-another"></a>Şimdi bir tane daha oluşturalım
-Hesaplanmış sütun oluşturmayı öğrendiğinize göre bir tane daha hesaplanmış sütun oluşturabiliriz.
+Contoso Satış Örneği, hem etkin hem de etkin olmayan mağazaların satış verilerini içerir. Bir Active StoreName alanı oluşturarak raporunuzda etkin mağaza satışlarının Etkin Olmayan mağaza satışlarından net bir şekilde ayrılmasını istiyorsunuz. Yeni Active StoreName hesaplanmış sütununda her bir Etkin mağaza, mağazanın tam adı ile görünürken etkin olmayan mağazalar "Inactive" altında gruplandırılır. 
 
-Contoso Sales Sample for Power BI Desktop modeli, hem etkin hem de etkin olmayan mağazaların satış verilerini içerir. Verileri gösterilen mağazalar etkin değilse bunun net bir şekilde anlaşılmasını istiyoruz. Bu nedenle Active StoreName adlı bir alan istiyoruz. Bunu yapmak için başka bir sütun oluşturacağız. Bu örnekte, etkin olmayan mağazanın adının, yeni Active StoreName sütunumuz (alan olarak) tarafından "Inactive" olarak, etkin olan mağazanınsa yine bu sütun tarafından gerçek adıyla gösterilmesini istiyoruz.
+Neyse ki, Stores tablosunda etkin mağazalar için "On" ve etkin olmayan mağazalar için "Off" değerlerine sahip **Status** adlı bir sütun bulunur ve bu sütun kullanılarak yeni Active StoreName sütunumuza ait değerleri oluşturabiliriz. DAX formülünüz her bir mağazanın Durumunu test etmek ve sonuca bağlı olarak belirli bir değer döndürmek üzere mantıksal [IF](https://msdn.microsoft.com/library/ee634824.aspx) işlevini kullanır. Mağazanın Durumu “On” ise formül, mağazanın adını döndürür. "Off" ise formül "Inactive" durumunda bir Active StoreName atar. 
 
-Neyse ki Stores tablomuzda, etkin mağazalar için On, etkin olmayan mağazalar içinse Off değerini içeren Status adlı bir sütun var. Yeni sütunumuzda yeni değerler oluşturmak için Status sütunundaki her satır için değerleri sınayabiliriz.
 
-### <a name="to-create-an-active-storename-column"></a>Bir Active StoreName sütunu oluşturmak için
-1.  **Stores** tablosunda **Active StoreName** adlı yeni bir hesaplanmış sütun oluşturun.
+1.  **Stores** tablosunda yeni bir hesaplanmış sütun oluşturun ve formül çubuğunda **Active StoreName** olarak adlandırın.
     
-    Bu sütun için DAX formülümüz her mağazanın durumunu denetleyecek. Mağazanın durumu On ise formülümüz mağazanın adını döndürecek. Off ise, "Inactive" adı belirecek. Bunu yapmak için mantıksal [IF](https://msdn.microsoft.com/library/ee634824.aspx) işlevini kullanarak mağazanın durumunu sınayacağız ve sonucun true veya false olma durumuna göre belirli bir değer döndüreceğiz.
+2.  **=** işaretinden sonra **IF** yazmaya başlayın. Öneri listesi, ne ekleyebileceğinizi gösterir. **IF**'i seçin.
     
-2.  **IF** yazmaya başlayın. Öneri listesi ne ekleyebileceğimizi gösterir. **IF**'i seçin.
+    ![IF seçme](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_1.png)
+3.  IF için birinci bağımsız değişken, bir mağazanın Durumunun "On" olup olmadığına yönelik mantıksal bir testtir. Stores tablosundaki sütunları listeleyen bir açma ayracı **[** ekleyin ve **[Status]** öğesini seçin.
     
-    IF için ilk bağımsız değişken bir mantıksal sınamadır. Bir mağazanın durumunun "On" olup olmadığını sınamak istiyoruz.
+    ![Status seçme](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-3.  Bir açma köşeli ayracı **[** ekleyin, bu Stores tablosundan sütun seçmemize olanak sağlar. **[Status]**'u seçin.
+4.  **[Status]** öğesinden hemen sonra **="On"** yazın ve sonra bir virgül (**,**) girerek bağımsız değişkeni sonlandırın. Araç ipucu, sonuç TRUE olduğunda döndürülecek bir değer eklemenizi önerir.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_2.png)
+    ![TRUE değeri ekleme](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-4.  **[Status]** ifadesinden hemen sonra **="On"** yazın ve ikinci bağımsız değişkeni girmek için virgül (**,**) koyun. Araç ipucu, sonucun true olduğu durumlara ilişkin değeri eklememizi öneriyor.
+5.  Mağazanın durumu “On” ise, mağaza adını göstermek istersiniz. Bir açma köşeli ayracı **[** yazın ve **[StoreName]** sütununu seçin, ardından bir virgül daha girin. Araç ipucu bu durumda sonuç FALSE ise döndürülecek bir değer eklemeniz gerektiğini belirtir. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_3.png)
+    ![FALSE değeri ekleme](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-5.  Mağaza On ise, mağaza adını göstermek istiyoruz. Bir açma köşeli ayracı **[** yazın ve **[StoreName]** sütununu seçin, daha sonra üçüncü bağımsız değişkeni girmek için bir virgül daha koyun.
+6.  Değerin *Inactive* olmasını istediğiniz için **"Inactive"** yazın ve sonra **Enter** tuşuna basarak veya formül çubuğundaki onay işaretini seçerek formülü tamamlayın. Formül doğrulanır ve yeni sütunun adı, Alanlar listesindeki **Stores** tablosunda görünür.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step5.png)
+    ![Active StoreName sütunu](media/desktop-tutorial-create-calculated-columns/if5.png)
     
-6.  Sonucun false olduğu durumlar için bir değer eklememiz gerekiyor. Bu örnekte değerin **"Inactive"** olmasını istiyoruz.
+8.  Yeni Active StoreName sütununuzu diğer herhangi bir alan gibi kullanabilirsiniz. Active StoreName ölçütüne göre SalesAmounts değerini görüntülemek için **Active StoreName** alanını seçin veya tuvale sürükleyin ve sonra **SalesAmount** alanını seçin ya da tabloya sürükleyin. Bu tabloda etkin mağazalar ada göre tek tek görüntülenir ancak etkin olmayan mağazalar sonda *Inactive* olarak bir arada gruplandırılır. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step6.png)
+    ![Active StoreName ölçütüne göre SalesAmount tablosu](media/desktop-tutorial-create-calculated-columns/if6.png)
     
-7.  Enter tuşuna basarak veya formül çubuğundaki onay işaretine tıklayarak formülü tamamlayın. Formül doğrulanır ve Stores tablosundaki alan listesine eklenir.
-    
-    Diğer herhangi bir alan gibi yeni Active StoreName sütunumuzu da görselleştirmelerde kullanabiliriz. Bu grafikte, durumu On olan mağazalar adlarıyla ayrı ayrı, durumu Off olan mağazalar ise grup halinde ve Inactive olarak gösterilir. 
-    
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_viz.png)
-    
-## <a name="what-weve-learned"></a>Öğrendiklerimiz
-Hesaplanmış sütunlar verilerimizi zenginleştirerek daha kolay öngörüler sağlayabilir. Formül çubuğunu kullanarak hesaplanmış sütun oluşturmayı, öneri listesinin kullanımını ve yeni sütunlarımızı adlandırmanın en iyi yollarını öğrendik.
+## <a name="what-youve-learned"></a>Öğrendikleriniz
+Hesaplanmış sütunlar verilerinizi zenginleştirerek daha kolay içgörüler sağlayabilir. Alan listesi ve formül çubuğunda hesaplanmış sütunlar oluşturmayı, öneri listelerini ve araç ipuçlarını kullanarak formül oluşturmayı, uygun bağımsız değişkenlerle RELATED ve IF gibi DAX işlevleri çağırmayı ve hesaplanmış sütunlarınızı rapor görselleştirmelerinde kullanmayı öğrendiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-DAX formüllerine ilişkin derinlemesine bilgi edinmek ve daha gelişmiş DAX formülleriyle hesaplamış sütunlar oluşturmak istiyorsanız bkz. [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md). Bu makale söz dizimi ve işlevler gibi DAX temel kavramlarını ele alır ve bağlama ilişkin daha kapsamlı bilgi sunar.
+DAX formüllerine ilişkin derinlemesine bilgi edinmek ve daha gelişmiş formüllerle hesaplamış sütunlar oluşturmak istiyorsanız bkz. [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md). Bu makale söz dizimi ve işlevler gibi DAX temel kavramlarını ele alır ve bağlama ilişkin daha kapsamlı bilgi sunar.
 
 Sık kullanılanlar listenize [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'nu eklediğinizden emin olun. Burada DAX söz dizimi, işleçleri ve 200'ü aşkın DAX işleviyle ilgili ayrıntılı bilgi bulabilirsiniz.
 

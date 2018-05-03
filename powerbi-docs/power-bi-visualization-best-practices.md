@@ -1,28 +1,28 @@
 ---
-title: "Raporlar ve görseller için en iyi tasarım yöntemleri (teknik inceleme)"
+title: Raporlar ve görseller için en iyi tasarım yöntemleri (teknik inceleme)
 description: "Teknik İnceleme: Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler"
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Daha fazla bilgi için bkz.
 
 Çubuk ve Sütun grafikler hakkında daha fazla bilgi için:
 
-* [Bar charts 101 (Çubuk grafikler 101)](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)
+* [Bar charts 101 (Çubuk grafikler 101)](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [Data Visualization Catalogue: Bar Chart (Veri Görselleştirme Kataloğu: Çubuk Grafik)](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 * [Data Visualization Catalogue: Multi-set Bar Chart (Veri Görselleştirme Kataloğu: Çok Kümeli Çubuk Grafik)](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 

@@ -1,35 +1,35 @@
 ---
-title: "Öğretici - Power BI için Müşteri Karlılığı örneği: Tura katılın"
-description: "Power BI için Customer Profitability Sample: Tura katılın"
+title: 'Öğretici - Power BI için Müşteri Karlılığı örneği: Tura katılın'
+description: 'Power BI için Customer Profitability Sample: Tura katılın'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Customer Profitability Sample: Tura katılın
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Müşteri Karlılığı örneğine genel bakış
 "Customer Profitability Sample" içerik paketinde, pazarlama malzemeleri üreten bir şirkete ilişkin pano, rapor ve veri kümesi bulunmaktadır. Bu pano, mali işlerden sorumlu bir genel müdür (CFO) tarafından, 5 departman yöneticisi (diğer adıyla idareciler), ürünler, müşteriler ve brüt kâr ile ilgili ana ölçümleri görme amacıyla oluşturulmuştur. CFO, kârlılığı etkileyen faktörleri bir bakışta görebiliyor.
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![power bi panosu](media/sample-customer-profitability/power-bi-dash.png)
 
 Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Anonim hale getirilmiş bu gerçek veriler, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınmıştır. Veriler çeşitli biçimlerde sunulur: içerik paketi/uygulama, Excel çalışma kitabı veya .pbix Power BI Desktop dosyası. Bkz: [Örnek veri kümeleri](sample-datasets.md).
 
@@ -41,10 +41,10 @@ Birlikte ilerlemek ister misiniz? Bu öğreticide, Power BI hizmeti ve "Müşter
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
 2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![veri al](media/sample-datasets/power-bi-get-data.png)
 3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![örnekler simgesi](media/sample-datasets/power-bi-samples-icon.png)
 4. **Müşteri Kârlılığı Örneği**'ni ve ardından **Bağlan**'ı seçin.  
 
    ![Veri Al](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ Bu örnekte kullanılan veri kaynağını detaylı olarak incelemek isterseniz, 
 
 2. Panonun sol tarafındaki kutucukları gözden geçirin.
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![yöneticiler için kutucuklar](media/sample-customer-profitability/power-bi-manager.png)
 
 - Şirketimizin brüt kârı %42,5.
 - 80 müşterimiz var.
@@ -86,7 +86,7 @@ Bu örnekte kullanılan veri kaynağını detaylı olarak incelemek isterseniz, 
 ### <a name="manager-specific-dashboard-tiles"></a>Yöneticiye özgü pano kutucukları
 Panonun sağ tarafındaki kutucuklar ise bir ekip puan kartı sağlar. CFO'nun, yöneticilerini takip etmesi gerekiyor ve bu kutucuklar, brüt kâr yüzdesini kullanarak ona kâr ile ilgili üst düzey bir genel bakış sağlıyor. Herhangi bir yönetici için brüt kâr yüzdesi eğilimi beklentinin altındaysa CFO, söz konusu durumu daha ayrıntılı olarak inceleyebiliyor.
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![yöneticiler için GM%](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Carlos dışındaki tüm yöneticiler, satış hedeflerini zaten aştı. Ancak en fazla gerçek satışı Carlos yapmıştır.
 - Brüt kâr yüzdesi en düşük yönetici Annelie ancak onun da Mart ayından bu yana istikrarlı bir artış yakaladığını görüyoruz.
@@ -99,7 +99,7 @@ Bu panoda bir raporun ve bir Excel çalışma kitabının bağlantısını içer
 ### <a name="open-the-excel-online-data-source"></a>Excel Online veri kaynağını açma
 Bu panodaki "Hedef ve Gerçek" ile "Yıllara Göre Gelir Büyümesi" adlı iki kutucuk bir Excel çalışma kitabından sabitlenmiştir. Bu nedenle, bu kutucuklardan birini seçtiğinizde Power BI, veri kaynağını (bu durumda, Excel Online) açar.
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Excel'den sabitlenmiş kutucuklardan birini seçin. Excel Online, Power BI hizmetinde açılır.
 2. Çalışma kitabında 3 sekme değerinde veri olduğuna dikkat edin. "Gelir" bölümünü açın.
@@ -107,11 +107,11 @@ Bu panodaki "Hedef ve Gerçek" ile "Yıllara Göre Gelir Büyümesi" adlı iki k
     a. "Yönetici" kaydırıcısından **Carlos Grilo**’ı seçin.   
     b. Birinci PivotTable, Carlos’un en popüler ürünü Primus için gelirlerinin geçen yıla göre %152 azaldığını göstermektedir. Yıllara göre grafik ise ayların birçoğunda bütçe altında kaldığını göstermektedir.  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![PivotTable](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![Carlos için sonuçlar](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Araştırmaya devam edin ve ilgi çekici bir şeyler bulursanız sağ üst köşeden **Sabitle** ![](media/sample-customer-profitability/power-bi-excel-pin.png) öğesini seçerek [panoya sabitleyin](service-dashboard-pin-tile-from-excel.md).
+4. Araştırmaya devam edin ve ilgi çekici bir şeyler bulursanız sağ üst köşeden **Sabitle** ![sabitle simgesi](media/sample-customer-profitability/power-bi-excel-pin.png) öğesini seçerek [panoya sabitleyin](service-dashboard-pin-tile-from-excel.md).
 
 5. Panoya geri dönmek için tarayıcınızın geri okunu kullanın.
 
@@ -122,14 +122,14 @@ Müşteri Karlılığı örnek panosundaki kutucuklarının büyük bölümü, t
 
 2. Raporda 3 sayfa vardır. Raporun en alt bölümündeki her sekme bir sayfaya karşılık gelir.
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![alt kısımdaki 3 sekme](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * "Team Scorecard" sayfasında 5 yöneticinin performansına ve "müşterilerine" odaklanılmaktadır.
     * "Industry Margin Analysis" sayfasında kârlılık durumumuzu, bulunduğumuz sektörün tamamı ile karşılaştırmalı bir şekilde çözümlememizi sağlayacak bir yöntem sunulur.
     * "Executive Scorecard" sayfasında ise her yöneticimize ilişkin bir bakış sağlanır. Bunlar Cortana'da görüntülenmek üzere biçimlendirilmiştir.
 
 ### <a name="team-scorecard-page"></a>Team Scorecard sayfası
-![](media/sample-customer-profitability/customer2.png)
+![Team scorecard rapor sayfası](media/sample-customer-profitability/customer2.png)
 
 Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler elde edebileceğimize bakalım. Rapor sayfasını yalnızca Andrew ile ilgili veriler görüntülenecek şekilde filtrelemek için soldaki dilimleyicide Andrew'un adını seçin.
 
@@ -138,7 +138,7 @@ Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler el
 * "Month ölçütüne göre RevenueTY ve Revenue % Variance to Budget" grafiğinde kâr durumunun istikrarlı olduğu görülüyor. Ancak, bölge ağaç haritasında **Central**'ı filtrelediğinizde Andrew'un yalnızca Mart ayında ve sadece Indiana bölgesinden elde ettiğini görüyoruz. Amaçlanan bu muydu veya bu incelenmesi gereken bir durum mu?
 
 Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için dilimleyicide Valery'nin adını seçin.  
-![](media/sample-customer-profitability/customer3.png)
+![Vaery Ushalov için dilim Yöneticisi](media/sample-customer-profitability/customer3.png)
 
 * **RevenueTY Status** KPI'sinin kırmızı olduğuna dikkat edin. Bu durumun kesinlikle biraz daha incelenmesi gerekiyor.
 * Gelir varyansına baktığımızda da endişelendirici bir tabloyla karşılaşıyoruz. Valery gelir marjlarını karşılamıyor.
@@ -150,7 +150,7 @@ Valery'nin düşük performansının altında yatan nedenleri bulmak için araş
 
 ### <a name="industry-margin-analysis"></a>Industry Margin Analysis
 Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tamamına ilişkin brüt kârı, segmentlere göre ayrılmış şekilde görüyoruz. CFO, eğilimler ve kârlılık ile ilgili çıkarımlar yapmasına yardımcı olması için şirket ve departman ölçümlerini sektör ölçümleriyle karşılaştırmak üzere bu sayfayı kullanır. "Month ve Executive Name ölçütlerine göre Gross Margin" alan grafiği ekibe özgü bir grafik olduğundan bu sayfada neden bulunduğunu merak etmiş olabilirsiniz. Bu grafik ile sayfayı departman yöneticisine göre filtreleyebiliyoruz.  
-![](media/sample-customer-profitability/customer6.png)
+![Sektör marjı analizi rapor sayfası](media/sample-customer-profitability/customer6.png)
 
 Kârlılık, sektörden sektöre nasıl bir değişiklik gösteriyor? Sektörlere göre ürün ve müşteri dağılımı nasıl gerçekleşiyor? Sol üst kısımda bir veya birden fazla sektör seçin. CPG sektörü ile başlayın. Filtreyi temizlemek için silgi simgesini seçin.
 
@@ -172,11 +172,11 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 
 2.  Üst menü çubuğundan **Soru sorun**’u seçerek Soru-Cevap soru kutusunu açın.
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Verileriniz hakkında soru sorun](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. **Total revenue by industry for Valery** (Valery için sektörlere göre toplam gelir) yazın. Siz sorunuzu yazdıkça görselleştirmenin nasıl güncelleştirildiğine dikkat edin.
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![soru kutusuna soru yazın](media/sample-customer-profitability/power-bi-qna.png)
 
    Valery'nin en çok geliri Distribution sektöründen elde ettiğini görüyoruz.
 
@@ -186,15 +186,15 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 1. "Sektör Marjı Analizi" rapor sayfasını açın.
 2. Rapor sayfasında herhangi bir görselleştirmeyi seçmeden sağdaki filtre bölmesini genişletin (henüz genişletilmemişse). Filtreler bölmesinde yalnızca Sayfa düzeyi filtreleri görüntülenmelidir.  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![Sayfa düzeyi filtreleri](media/sample-customer-profitability/power-bi-filters.png)
 3. **Industry** filtresini bulun ve listeyi genişletmek için oku seçin. Şimdi Distribution sektörü için bir sayfa filtresi ekleyelim. Öncelikle **Tümünü Seç** onay kutusunu temizleyerek tüm seçimleri kaldırın. Ardından yalnızca **Dağıtım**'ı seçin.  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![Dağıtım için filtre](media/sample-customer-profitability/customer7.png)
 4. "Month ve Executive ölçütlerine göre Gross Margin" alan grafiğinde, yalnızca Valery ve Tina'nın bu sektörden müşterilerinin olduğunu ve Valery'nin bu sektör ile yalnızca Haziran ayından Kasım ayına kadar çalıştığını görüyoruz.   
 5. "Month ve Executive ölçütüne göre Gross Margin" alan grafiği açıklamasında **Tina**'yı ve ardından **Valery**'yi seçin. Tina'nın "Product ölçütüne göre Total Revenue" yüzdesinin Valery'ye kıyasla gerçekten çok düşük olduğuna dikkat edin.
 6. Gerçek geliri görmek için Soru-Cevap seçeneğini kullanarak **yöneticiye ve senaryoya göre dağıtım sektörü için toplam gelir** yazın.  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![çubuk grafiği görmek için soru kutusuna soru yazın](media/sample-customer-profitability/power-bi-qna2.png)
 
     Valery'nin performansını etkileyen unsurları anlamak için benzer şekilde diğer sektörleri de inceleyebilir ve hatta müşterileri de görsellerimize ekleyebiliriz.
 

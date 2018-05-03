@@ -1,36 +1,36 @@
 ---
-title: "Önizleme özelliklerini kullanma"
-description: "Önizleme sürümündeki Power BI özelliklerini etkinleştirme (ve devre dışı bırakma)."
+title: Önizleme özelliklerini kullanma
+description: Önizleme sürümündeki Power BI özelliklerini etkinleştirme (ve devre dışı bırakma).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Power BI önizleme özelliklerini kullanma
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI hizmetinin önizleme özelliklerini kullanma
 ## <a name="what-are-preview-features"></a>*Önizleme özellikleri* nedir?
 Power BI hizmetini geliştirmeye devam ederken yeni işlevlerin bazılarını *önizleme özellikleri* olarak kullanıma sunarız. Önizleme özelliklerini etkinleştirebilir veya devre dışı bırakabilir ve dilediğiniz gibi deneyebilirsiniz.
 
 > [!TIP]
-> Sorularınız veya geri bildiriminiz mi var? [Power BI topluluk forumunu ziyaret edin](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+> Önizleme özellikleri Power BI Desktop ile de kullanılabilir. Daha fazla bilgi için [Power BI Desktop topluluk forumunu ziyaret edin](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer).
 > 
 > 
 

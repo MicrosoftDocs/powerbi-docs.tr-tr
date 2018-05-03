@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
 
 Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir.
 
 Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri kümesine ve etkinlik türüne göre filtreleyebilirsiniz. İsterseniz etkinlikleri csv (virgülle ayrılmış değer) dosyası halinde indirerek çevrimdışı analiz gerçekleştirebilirsiniz.
-
-> [!NOTE]
-> Power BI'ın denetim özelliği önizleme sürümündedir ve tüm veri bölgelerinde kullanılabilir durumdadır.
 
 ## <a name="requirements"></a>Gereksinimler
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
@@ -47,28 +42,8 @@ Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir
 
 - Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan Office 365 Güvenlik ve Uyumluluk Merkezi bağlantısına sahip olmanız gerekir.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Power BI yönetici portalında denetim işlevlerini etkinleştirme
-
-Raporlarla çalışmak için kuruluşunuzda denetim özelliklerini etkinleştirmeniz gerekir. Bunu yönetici portalının kiracı ayarlarında yapabilirsiniz.
-
-1. Sağ üst köşedeki **dişli simgesini** seçin.
-
-2. **Yönetici portalı**'nı seçin.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. **Kiracı ayarları**'nı seçin.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. **İç etkinlik denetimi ve uyumluluk amaçlarına yönelik denetim günlükleri oluşturun** seçeneğini etkinleştirin.
-
-5. **Uygula**'yı seçin.
-
-Power BI, kullanıcılarınızın Power BI'da gerçekleştirdiği çeşitli etkinlikleri günlüğe kaydetmeye başlayacaktır. Günlüklerin O365 Güvenlik ve Uyumluluk Merkezi'nde görünmesi 48 saate kadar sürebilir. Günlüğe kaydedilen etkinlikler hakkında daha fazla bilgi için bkz. [Power BI tarafından denetlenen etkinliklerin listesi](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Kiracınızda Power BI denetimini etkinleştirmek için en az bir Exchange posta kutusu lisansına ihtiyacınız vardır.
+> Kiracınızda Power BI denetim günlüklerini görüntülemek için en az bir Exchange posta kutusu lisansına ihtiyacınız vardır.
 
 ## <a name="accessing-your-audit-logs"></a>Denetim günlüklerinize erişme
 

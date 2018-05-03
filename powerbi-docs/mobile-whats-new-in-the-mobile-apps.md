@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -29,6 +29,17 @@ ms.lasthandoff: 03/28/2018
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
+
+## <a name="april-2018"></a>Nisan 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Mobil detaya gitme veya detaydan çıkma
+
+Artık mobil cihazınızdaki rapor görsellerinde detaya gidebilir ve detaydan çıkabilirsiniz. Bu yeni özelliğe erişmek için bir rapor görselinde araç ipucu menüsünü basılı tutarak açın ve sonra detaylandırma düğmelerine dokunarak verilerinizi derinlemesine inceleyin.
+
+### <a name="persistent-filters"></a>Kalıcı filtreler
+
+Kısa süre önce rapor filtrelerini ve dilimleyicileri güncelleştirdiğimiz için web üzerinde Power BI'dan Power BI mobil uygulamasına otomatik olarak kaydedilmiştir. Bundan böyle, mobil uygulamada ayarladığınız filtreler ve dilimleyiciler web üzerinde Power BI’ya otomatik olarak kaydedilir.
+
 
 ## <a name="march-2018"></a>Mart 2018
 

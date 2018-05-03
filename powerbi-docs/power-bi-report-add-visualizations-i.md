@@ -1,32 +1,32 @@
 ---
-title: "1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)"
-description: "Eğitim: 1. Bölüm: Bir Power BI raporuna görselleştirme ekleme"
+title: '1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)'
+description: 'Eğitim: 1. Bölüm: Bir Power BI raporuna görselleştirme ekleme'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b81061c25b453fc35e1490c3ded2d9c9770d4599
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)
-Bu makalede bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](sample-datasets.md) kullanarak kendi raporunuzu oluşturun.
+Bu makalede, Power BI hizmeti veya Power BI Desktop kullanarak bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](sample-datasets.md) kullanarak kendi raporunuzu oluşturun.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
