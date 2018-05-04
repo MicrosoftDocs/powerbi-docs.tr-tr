@@ -1,106 +1,107 @@
 ### YamlMime:Tutorial
-title: "Yayımlama ve paylaşma"
+title: Yayımlama ve paylaşma
 metadata:
-  title: "Yayımlama ve paylaşma | Microsoft Power BI"
-  description: "Verilerin asıl gücü, başkalarıyla paylaşıldığında ortaya çıkar. Power BI veri öngörülerinizi yayımlamayı, dışarı aktarmayı, paylaşmayı ve dağıtmayı öğrenin."
+  title: Yayımlama ve paylaşma | Microsoft Power BI
+  description: Verilerin asıl gücü, başkalarıyla paylaşıldığında ortaya çıkar. Power BI veri öngörülerinizi yayımlamayı, dışarı aktarmayı, paylaşmayı ve dağıtmayı öğrenin.
   audience: Business User
   level: Beginner
-  nextTutorialHref: introductiontodax
-  nextTutorialTitle: "DAX'a giriş"
+  nextTutorialHref: introductiontodax.yml
+  nextTutorialTitle: DAX'a giriş
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/06/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 32729b224866381b41be53ac1eb8f7f1874903b4
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Verilerin asıl gücü, başkalarıyla paylaşıldığında ortaya çıkar. Power BI veri öngörülerinizi yayımlamayı, dışarı aktarmayı, paylaşmayı ve dağıtmayı öğrenin.\n"
-- title: "İçerik paketleri, güvenlik ve gruplar ile tanışın"
+  content: >
+    Verilerin asıl gücü, başkalarıyla paylaşıldığında ortaya çıkar. Power BI veri öngörülerinizi yayımlamayı, dışarı aktarmayı, paylaşmayı ve dağıtmayı öğrenin.
+- title: İçerik paketleri, güvenlik ve gruplar ile tanışın
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/5DABLeJzQYM?rel=0]
 
 
     [!INCLUDE [](includes/6-0-intro-content-packs-groups.md)]
-- title: "Power BI Desktop raporlarını yayımlama"
+- title: Power BI Desktop raporlarını yayımlama
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
 
 
     [!INCLUDE [](includes/4-1-publish-reports.md)]
-- title: "Panoları ile raporları yazdırma ve dışarı aktarma"
+- title: Panoları ile raporları yazdırma ve dışarı aktarma
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/gauDt5ZV74I?rel=0]
 
 
     [!INCLUDE [](includes/4-4g-print-and-export-dashboards-reports.md)]
-- title: "Verilerinizi elle yeniden yayımlama ve yenileme"
+- title: Verilerinizi elle yeniden yayımlama ve yenileme
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/O60a1Acdpkc?rel=0]
 
 
     [!INCLUDE [](includes/4-5-manually-republish-reports.md)]
-- title: "Power BI Mobil ile tanışın"
+- title: Power BI Mobil ile tanışın
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/Sfb_vDIb6Dc?rel=0]
 
 
     [!INCLUDE [](includes/4-4a-power-bi-mobile.md)]
-- title: "Power BI'da grup oluşturma"
+- title: Power BI'da grup oluşturma
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/758Lnhj9DRo?rel=0]
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
-- title: "İçerik paketi oluşturma"
+- title: İçerik paketi oluşturma
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
 
 
     [!INCLUDE [](includes/6-2-create-content-packs.md)]
-- title: "İçerik paketlerini kullanma"
+- title: İçerik paketlerini kullanma
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
 
 
     [!INCLUDE [](includes/6-3-use-content-packs.md)]
-- title: "İçerik paketlerini güncelleştirme"
+- title: İçerik paketlerini güncelleştirme
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]
 
 
     [!INCLUDE [](includes/6-4-update-content-pack.md)]
-- title: "OneDrive İş uygulamasını Power BI ile tümleştirme"
+- title: OneDrive İş uygulamasını Power BI ile tümleştirme
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/mxjakuVGgnU?rel=0]
 
 
     [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
-- title: "Web'de yayımlama"
+- title: Web'de yayımlama
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
 
 
     [!INCLUDE [](includes/6-6-publish-to-web.md)]
-- title: "Power BI Destekli Öğrenme kursunun sonu"
+- title: Power BI Destekli Öğrenme kursunun sonu
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "Power BI Destekli Öğrenim kursunun **Yayımlama ve paylaşma** bölümünü tamamladınız. Power BI sorgularını oluşturmak için kullanılan dil olan DAX’e giriş yapmak istiyorsanız, sonraki öğreticiye devam edin.\0"
+- content: Power BI Destekli Öğrenim kursunun **Yayımlama ve paylaşma** bölümünü tamamladınız. Power BI sorgularını oluşturmak için kullanılan dil olan DAX’e giriş yapmak istiyorsanız, sonraki öğreticiye devam edin.

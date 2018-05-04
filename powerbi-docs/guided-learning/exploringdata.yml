@@ -1,77 +1,78 @@
 ### YamlMime:Tutorial
-title: "Verileri araştırma"
+title: Verileri araştırma
 metadata:
-  title: "Verileri araştırma | Microsoft Power BI"
-  description: "Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenin."
+  title: Verileri araştırma | Microsoft Power BI
+  description: Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenin.
   audience: Business User
   level: Beginner
-  nextTutorialHref: powerbiandexcel
+  nextTutorialHref: powerbiandexcel.yml
   nextTutorialTitle: Power BI ve Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 2d5e4f060aa342e7ce86af699032f7fa2256543e
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**Veri keşfetme** öğreticisine hoş geldiniz. Bu öğreticide, Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenebilirsiniz.\n"
-- title: "Power BI hizmetine giriş"
+  content: >
+    **Veri keşfetme** öğreticisine hoş geldiniz. Bu öğreticide, Power BI'da verileri nasıl bulacağınızı, verilere nasıl bağlanacağınızı ve onlarla nasıl etkileşim kuracağınızı öğrenebilirsiniz.
+- title: Power BI hizmetine giriş
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
 
 
     [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
-- title: "Power BI'daki hızlı öngörüler"
+- title: Power BI'daki hızlı öngörüler
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
 
 
     [!INCLUDE [](includes/4-1a-quick-insights.md)]
-- title: "Pano oluşturma ve yapılandırma"
+- title: Pano oluşturma ve yapılandırma
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
 
 
     [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
-- title: "Doğal dil kullanarak verileriniz hakkında soru sorma"
+- title: Doğal dil kullanarak verileriniz hakkında soru sorma
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
 
 
     [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
-- title: "Özel Soru-Cevap önerileri oluşturma"
+- title: Özel Soru-Cevap önerileri oluşturma
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
 
 
     [!INCLUDE [](includes/4-3a-suggested-questions.md)]
-- title: "Panoları kuruluşunuzla paylaşma"
+- title: Panoları kuruluşunuzla paylaşma
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
 
 
     [!INCLUDE [](includes/4-4-share-dashboards.md)]
-- title: "Görselleri ve kutucukları tam ekran görüntüleme"
+- title: Görselleri ve kutucukları tam ekran görüntüleme
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
 
 
     [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
-- title: "Kutucuk ayrıntılarını düzenleme ve pencere öğesi ekleme"
+- title: Kutucuk ayrıntılarını düzenleme ve pencere öğesi ekleme
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
@@ -85,11 +86,11 @@ items:
 
 
     [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
-- title: "Kişisel ağ geçidi yükleme ve yapılandırma"
+- title: Kişisel ağ geçidi yükleme ve yapılandırma
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Destekli Öğrenim’in bu **veri keşfetme** bölümü, sizi her çeşit veri türüyle çalışmaya hazırlıyor. Sonraki öğreticide, ortak bir veri kaynağı olan Excel’i kullanmayı öğreneceksiniz.\0"
+- content: Destekli Öğrenim’in bu **veri keşfetme** bölümü, sizi her çeşit veri türüyle çalışmaya hazırlıyor. Sonraki öğreticide, ortak bir veri kaynağı olan Excel’i kullanmayı öğreneceksiniz.

@@ -2,73 +2,74 @@
 title: Modelleme
 metadata:
   title: Modelleme | Microsoft Power BI
-  description: "Birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin."
+  description: Birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin.
   audience: Business User
   level: Beginner
-  nextTutorialHref: visualizations
-  nextTutorialTitle: "Görselleştirmeler"
+  nextTutorialHref: visualizations.yml
+  nextTutorialTitle: Görselleştirmeler
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 302dcaa8f76b9cd767ec7c3349abaea3cb0f8548
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**Power BI**’daki **modelleme** becerileri sayesinde birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin.\n"
-- title: "Verilerinizi modellemeye giriş"
+  content: >
+    **Power BI**’daki **modelleme** becerileri sayesinde birden fazla veri kaynağına bağlanın ve ardından bunları gereksinimlerinize uyan benzersiz bir veri modeli oluşturacak şekillerde birleştirin.
+- title: Verilerinizi modellemeye giriş
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
 
 
     [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
-- title: "Veri ilişkilerinizi yönetme"
+- title: Veri ilişkilerinizi yönetme
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
 
 
     [!INCLUDE [](includes/2-2-manage-data-relationships.md)]
-- title: "Hesaplanmış sütun oluşturma"
+- title: Hesaplanmış sütun oluşturma
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/GarBXef0Vew?rel=0]
 
 
     [!INCLUDE [](includes/2-3-create-calculated-columns.md)]
-- title: "Veri modellerini iyileştirme"
+- title: Veri modellerini iyileştirme
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/tDcrfnjjlgk?rel=0]
 
 
     [!INCLUDE [](includes/2-4-optimize-data-models.md)]
-- title: "Hesaplanmış ölçü oluşturma"
+- title: Hesaplanmış ölçü oluşturma
   durationInMinutes: 14
   content: >
     > [!Video https://www.youtube.com/embed/yn2bXVQJLx8?rel=0]
 
 
     [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
-- title: "Hesaplanmış tablo oluşturma"
+- title: Hesaplanmış tablo oluşturma
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]
 
 
     [!INCLUDE [](includes/2-6-create-calculated-tables.md)]
-- title: "Zamana bağlı verilerinizi araştırma"
+- title: Zamana bağlı verilerinizi araştırma
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/MNAaHw4PxzE?rel=0]
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Şans sizin yanınızda. Power BI’ı keşfetmeye devam edin! Microsoft Power BI Destekli Öğrenme kursunun **Modelleme** bölümünü tamamladınız. Sonraki adım; görselleştirmeler.\0"
+- content: Şans sizin yanınızda. Power BI’ı keşfetmeye devam edin! Microsoft Power BI Destekli Öğrenme kursunun **Modelleme** bölümünü tamamladınız. Sonraki adım; görselleştirmeler.

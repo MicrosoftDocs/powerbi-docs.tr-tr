@@ -2,34 +2,35 @@
 title: Power BI ve Excel
 metadata:
   title: Power BI ve Excel | Microsoft Power BI
-  description: "Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun."
+  description: Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun.
   audience: Business User
   level: Beginner
-  nextTutorialHref: publishingandsharing
-  nextTutorialTitle: "Yayımlama ve paylaşma"
+  nextTutorialHref: publishingandsharing.yml
+  nextTutorialTitle: Yayımlama ve paylaşma
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc4e7ae228222e696c481c53a2d4f87b8ed1a146
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 409b3c25c0d9841d21f8c9be1ee20af37dafe846
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun.\n"
-- title: "Power BI'da Excel verilerini kullanmaya giriş"
+  content: >
+    Power BI'ı Excel ile birlikte kullanarak güçlü, bağlı raporlar ve görseller oluşturun.
+- title: Power BI'da Excel verilerini kullanmaya giriş
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
 
 
     [!INCLUDE [](includes/5-1-intro-excel-data.md)]
-- title: "Power BI'a Excel verileri yükleme"
+- title: Power BI'a Excel verileri yükleme
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/8-z6QoaNL3A?rel=0]
@@ -43,18 +44,18 @@ items:
 
 
     [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
-- title: "OneDrive İş ve Power BI arasında bağlantı kurma"
+- title: OneDrive İş ve Power BI arasında bağlantı kurma
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
 
 
     [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
-- title: "Power BI'da Excel - özet"
+- title: Power BI'da Excel - özet
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Power BI Destekli Öğrenim kursunun **Power BI ve Excel** bölümünü tamamladığınız için tebrik ederiz. Sonraki adımda yayımlama ve paylaşmayı öğreneceksiniz.\0"
+- content: Power BI Destekli Öğrenim kursunun **Power BI ve Excel** bölümünü tamamladığınız için tebrik ederiz. Sonraki adımda yayımlama ve paylaşmayı öğreneceksiniz.

@@ -2,66 +2,67 @@
 title: Veri alma
 metadata:
   title: Veri alma | Microsoft Power BI
-  description: "Power BI'da veri almak ve verilerle çalışmak için kullanabileceğiniz pek çok yöntem hakkında araştırma yapın ve bilgi edinin."
+  description: Power BI'da veri almak ve verilerle çalışmak için kullanabileceğiniz pek çok yöntem hakkında araştırma yapın ve bilgi edinin.
   audience: Business User
   level: Beginner
-  nextTutorialHref: modeling
+  nextTutorialHref: modeling.yml
   nextTutorialTitle: Modelleme
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 9985382471f966f308ff782a8e95a07e29ebccca
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Veriler Power BI'ın temelini oluşturur. Bu **Destekli Öğrenim** bölümünde Power BI’dan nasıl veri alacağınızı ve bu verilerle nasıl çalışacağınızı öğrenirsiniz.\n"
-- title: "Power BI Desktop'a genel bakış"
+  content: >
+    Veriler Power BI'ın temelini oluşturur. Bu **Destekli Öğrenim** bölümünde Power BI’dan nasıl veri alacağınızı ve bu verilerle nasıl çalışacağınızı öğrenirsiniz.
+- title: Power BI Desktop'a genel bakış
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/mdy-eRev6HM?rel=0]
 
 
     [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
-- title: "Power BI Desktop ile çalışmaya başlama"
+- title: Power BI Desktop ile çalışmaya başlama
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
 
 
     [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
-- title: "Power BI Desktop'ta veri kaynaklarına bağlanma"
+- title: Power BI Desktop'ta veri kaynaklarına bağlanma
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
 
 
     [!INCLUDE [](includes/1-2-connect-to-data-sources-in-power-bi-desktop.md)]
-- title: "Sorgu Düzenleyicisi ile verilerinizi temizleme ve dönüştürme"
+- title: Sorgu Düzenleyicisi ile verilerinizi temizleme ve dönüştürme
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/o-sinon5JYY?rel=0]
 
 
     [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
-- title: "Daha gelişmiş veri kaynakları ve dönüştürme"
+- title: Daha gelişmiş veri kaynakları ve dönüştürme
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
 
 
     [!INCLUDE [](includes/1-4-advanced-data-sources-and-transformation.md)]
-- title: "Düzensiz biçimlendirilmiş verileri temizleme"
+- title: Düzensiz biçimlendirilmiş verileri temizleme
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/74KQmzdvFV8?rel=0]
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Başlıyoruz! Microsoft Power BI Destekli Öğrenim kursunun **Veri alma** bölümünü tamamladınız. Sonraki adımımız, sonraki öğreticinin konusu olan **Modelleme** hakkında bilgi edinmek.\0"
+- content: Başlıyoruz! Microsoft Power BI Destekli Öğrenim kursunun **Veri alma** bölümünü tamamladınız. Sonraki adımımız, sonraki öğreticinin konusu olan **Modelleme** hakkında bilgi edinmek.

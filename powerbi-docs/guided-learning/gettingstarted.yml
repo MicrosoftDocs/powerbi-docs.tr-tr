@@ -1,51 +1,52 @@
 ### YamlMime:Tutorial
-title: "Başlangıç"
+title: Başlangıç
 metadata:
-  title: "Başlangıç | Microsoft Power BI"
-  description: "Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinin."
+  title: Başlangıç | Microsoft Power BI
+  description: Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinin.
   audience: Business User
   level: Beginner
-  nextTutorialHref: gettingdata
+  nextTutorialHref: gettingdata.yml
   nextTutorialTitle: Veri alma
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 7eac10ab7caf67209bc9dc61d24890371e1a4f94
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**Destekli Öğrenim**’in bu ilk bölümünde, Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinirsiniz.\n"
-- title: "Power BI ile tanışın"
+  content: >
+    **Destekli Öğrenim**’in bu ilk bölümünde, Power BI'ın ne olduğu, yapı taşlarının birlikte nasıl çalıştığı ve verilerinizle ilgili öngörüler elde etmek için bunları nasıl kullanabileceğiniz hakkında bilgi edinirsiniz.
+- title: Power BI ile tanışın
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
-- title: "Power BI uygulamasını kullanma"
+- title: Power BI uygulamasını kullanma
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
 
 
     [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
-- title: "Power BI uygulamasının yapı taşları"
+- title: Power BI uygulamasının yapı taşları
   durationInMinutes: 6
   content: >
     [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
-- title: "Power BI hizmetine hızlı bakış"
+- title: Power BI hizmetine hızlı bakış
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
 
 
     [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
-- title: "Gözden geçirme ve sıradakiler"
+- title: Gözden geçirme ve sıradakiler
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Microsoft Power BI Destekli Öğrenme kursunun **Başlangıç** bölümünü tamamladınız. Başlıyoruz! Artık Destekli Öğrenim’in sonraki kısmına geçebilirsiniz: **Veri alma**. Devam etmek için aşağıdaki **Veri alma** düğmesini seçin.\0"
+- content: 'Microsoft Power BI Destekli Öğrenme kursunun **Başlangıç** bölümünü tamamladınız. Başlıyoruz! Artık Destekli Öğrenim’in sonraki kısmına geçebilirsiniz: **Veri alma**. Devam etmek için aşağıdaki **Veri alma** düğmesini seçin.'
