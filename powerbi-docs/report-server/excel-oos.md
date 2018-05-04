@@ -1,39 +1,32 @@
 ---
-title: "Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma"
-description: "İş kullanıcıları, Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu'nda da Excel çalışma kitaplarını görüntüleyebilir."
+title: Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırma - Power BI Rapor Sunucusu
+description: Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
-İş kullanıcıları, Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu'nda Excel çalışma kitaplarını görüntüleyerek tek noktadan kendilerine ait Microsoft BI içeriğini yayımlayabilir ve görüntüleyebilir.
+Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir. Rapor sunucunuz, self servis Microsoft BI içeriklerini yayımlayacak ve görüntüleyecek tek bir konum haline gelir.
 
-> [!NOTE]
-> Bu özellik, Ağustos 2017 önizleme sürümüyle sunulan bir önizleme özelliğidir. Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md).
-> 
-> 
-
-![Excel biçimindeki raporlar, rapor sunucusu web portalından görüntülenebilir.](media/excel-oos/excel-in-pbirs.png)
-
-Bunun için [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) uygulamasını kullanabilirsiniz.
+![Rapor sunucusu web portalından görüntülenen Excel raporları](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Sunucuyu Office Online Server uygulamasını çalıştırmak üzere hazırlama
 Bu yordamları Office Online Server uygulamasının çalıştırılacağı sunucuda gerçekleştirin. Bu sunucunun Windows Server 2012 R2 veya Windows Server 2016 olması gerekir. Windows Server 2016 için Office Online Server Nisan 2017 veya sonraki bir sürüm gerekir.

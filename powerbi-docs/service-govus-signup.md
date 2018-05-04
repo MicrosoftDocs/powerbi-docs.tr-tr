@@ -1,28 +1,28 @@
 ---
-title: "Power BI US Government müşterileri için kaydolma işlemi"
-description: "ABD Kamu müşterileri olarak ABD Kamu kuruluşunuzla Power BI US Government hizmetine kaydolmayı öğrenin"
+title: Power BI US Government müşterileri için kaydolma işlemi
+description: ABD Kamu müşterileri olarak ABD Kamu kuruluşunuzla Power BI US Government hizmetine kaydolmayı öğrenin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -48,7 +48,7 @@ Kuruluşunuz yeni bir **Office Kamu Bulutu** müşterisiyse aşağıdaki adımla
 > Bu adımların portal yöneticisi tarafından gerçekleştirilmesi gerekir.
 >
 
-1. [https://products.office.com/tr-tr/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) adresine gidin.
+1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) adresine gidin.
 
 >[!NOTE]
 >Bu adımda Office Kamu Bulutu'na kaydolmak istemiyorsanız lütfen satış temsilcinize ulaşın.
@@ -97,12 +97,7 @@ Aşağıda çeşitli lisans geçiş durumlarında **Power BI US Government** sü
 ### <a name="whitelisting-instructions"></a>Beyaz Listeye Ekleme Yönergeleri
 *Beyaz listeye ekleme*, Power BI mühendislik ekibinin ticari bulut ortamındaki müşterilerini güvenli Kamu bulutu ortamına taşımak için kullandığı bir işlemdir. Bu işlem ABD Kamu bulutundaki özelliklerin beklenen şekilde çalışmasını sağlar. ABD Kamu **Power BI** hizmetlerini ilk kez satın alan tüm mevcut (veya yeni) ABD Kamu müşterilerinin, aşağıdaki beyaz listeye ekleme işlemini başlatması *gereklidir*. Bu işlemin ABD Kamu **Power BI** hizmetleri kurulmadan veya geçişi yapılmadan önce gerçekleştirilmesi gerekir. 
 
-Kiracınızın ABD Kamu bulutunda *beyaz listeye eklenmesi* için aşağıdaki bağlantıdan bu isteği ileten bir destek bileti oluşturun. Bu isteği yalnızca yöneticilerin yapabileceğini lütfen unutmayın:
-
-* [*Beyaz listeye ekleme* çevrimiçi destek isteği ](https://powerbi.microsoft.com/clouds/)
-* *Beyaz listeye eklenecek* etki alanını ve bu işlemle ilgili olarak sizinle birlikte çalışan Microsoft temsilcisinin e-posta adresini eklemeyi unutmayın.
-
-*Beyaz listeye ekleme* işlemi yaklaşık üç hafta sürer ve Power BI mühendislik ekibi bu süreçte kiracınızın ABD Kamu bulutunda düzgün şekilde çalışması için gerekli değişiklikleri gerçekleştirir.
+Kiracınızı ABD Kamu bulutu için *izin verilenler listesine eklemek* için, izin verilenler listesine ekleme yardımı almak üzere Microsoft hesabı ekibine başvurun. Bu isteği yalnızca yöneticilerin yapabileceğini lütfen unutmayın: *Beyaz listeye ekleme* işlemi yaklaşık üç hafta sürer ve Power BI mühendislik ekibi bu süreçte kiracınızın ABD Kamu bulutunda düzgün şekilde çalışması için gerekli değişiklikleri gerçekleştirir.
 
 Power BI **Ücretsiz** lisanslarından **Power BI US Government** lisansına geçiş yapan (ve bu makalenin önceki bölümlerinde açıklanan ilgili **Pro** lisansı özelliklerine geçiş yapan) müşteriler, kiracıları Power BI mühendislik ekibi tarafından *beyaz listeye eklenmediğinde* bu makalenin aşağıdaki bölümünde açıklanan sorunlarla karşılaşacaktır.
 

@@ -1,27 +1,27 @@
 ---
-title: "Power BI içeriği eklemek için bir uygulamayı kaydetme"
-description: "Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye nasıl kaydedeceğinizi öğrenin."
+title: Power BI içeriği eklemek için bir uygulamayı kaydetme
+description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye nasıl kaydedeceğinizi öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme
 Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye (Azure AD) nasıl kaydedeceğinizi öğrenin.
@@ -58,6 +58,22 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
 7. **Uygulamayı Kaydet**'i seçin.
    
     Bu adımın ardından bir **İstemci kimliği** göreceksiniz. **Sunucu tarafı Web uygulaması**'nı seçtiyseniz bir **Gizli Anahtar** da verilecektir. İleride ihtiyaç duymanız halinde **İstemci kimliğine** Azure portalından ulaşabilirsiniz. **Gizli Anahtar**'ı kaybederseniz Azure portalından yeni bir tane oluşturmanız gerekir.
+
+8. **İzin ver**’i seçmek için Azure’a gitmeniz gerekir.
+> [!Note]
+    > Bu işlemi tamamlaması için Azure kiracısında genel yönetici olması gerekir
+>
+
+* Azure'a gidin.
+* **Uygulama kayıtları**’nı arayıp seçin.
+* Uygulamanızı seçin.
+* **Ayarlar** seçeneğini belirleyin.
+* **Gerekli izinler**’i seçin.
+* Uygulama kayıt sitesinden seçtiğiniz izinleri doğrulamak için **Power BI Hizmeti**’ni seçin.
+* **İzin Ver**’i seçin.
+
+
+
 
 Artık kaydettiğiniz uygulamayı özel uygulamanızla birlikte kullanarak Power BI hizmetiyle etkileşim kurabilirsiniz.
 
@@ -190,4 +206,5 @@ Ekleme için kullanılan *ana* hesapla veya Genel yönetici hesabıyla oturum a�
 Uygulamanızı Azure AD'ye kaydettiniz, şimdi uygulamanızdaki kullanıcıların kimliğini doğrulamanız gerekiyor. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+
 

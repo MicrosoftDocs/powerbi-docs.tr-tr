@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
 
@@ -143,7 +143,7 @@ Müşterileriniz için ekliyorsanız aşağıdaki işlemleri yapın.
 * İhtiyaçlarınıza uygun bir kapasite satın alın. İhtiyacınız olan Power BI Embedded kapasitesi SKU seviyesini belirlemek için aşağıdaki tabloyu kullanabilirsiniz. Daha ayrıntılı bilgi için bkz. [Embedded analytics capacity planning (Katıştırılmış analiz kapasite planlama) teknik incelemesi](https://aka.ms/pbiewhitepaper). Satın almaya hazır olduğunuzda [Microsoft Azure portalını](https://portal.azure.com) ziyaret edebilirsiniz. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Create Power BI Embedded capacity in the Azure portal (Azure portalında Power BI Embedded kapasitesi oluşturma)](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 
 > [!IMPORTANT]
-> Ekleme belirteçleri yalnızca geliştirmeye yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
+> Ekleme belirteçleri yalnızca geliştirmeye yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur. Kaç tane ekleme belirtecinin kullanılıp kullanılmadığını kontrol etmek için [Kullanılabilir Özellikleri Alın](https://msdn.microsoft.com/en-us/library/mt846473.aspx) bölümüne gidin.
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
 | --- | --- | --- | --- | --- | --- |

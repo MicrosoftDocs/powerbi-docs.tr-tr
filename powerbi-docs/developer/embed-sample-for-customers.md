@@ -1,15 +1,15 @@
 ---
-title: "Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme"
-description: "Müşterileriniz için Power BI API'leri kullanarak bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin."
+title: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
+description: Müşterileriniz için Power BI API'leri kullanarak bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Bir Power BI panosunu, kutucuğunu veya raporunu uygulamanıza ekleme
 Müşterileriniz için Power BI .NET SDK'sını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin. Bu tipik bir ISV senaryosudur.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 JavaScript API'sinden kullanılabilecek bir ekleme belirtecinin oluşturulması gerekir. Ekleme belirteci, eklediğiniz öğeye özeldir. Bu da eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerektiği anlamına gelir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx).
 
 > [!IMPORTANT]
-> Ekleme belirteçleri yalnızca geliştirmeye yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
+> Ekleme belirteçleri yalnızca geliştirmeye yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur. Kaç tane ekleme belirtecinin kullanılıp kullanılmadığını kontrol etmek için [Kullanılabilir Özellikleri Alın](https://msdn.microsoft.com/en-us/library/mt846473.aspx) bölümüne gidin.
 
 Bu örnek [Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında mevcuttur.
 

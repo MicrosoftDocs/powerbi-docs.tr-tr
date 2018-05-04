@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -69,6 +69,10 @@ Bir rapor sayfasını yer işaretinde görünmesini istediğiniz şekilde yapıl
 
 **Yer İşaretleri** bölmesindeki yer işaretine tıklayarak yer işaretinizi görüntüleyebilirsiniz. 
 
+Ayrıca her yer işaretinin, filtreler ve dilimleyiciler gibi *veri* özelliklerini, öne çıkanlar ve görünürlüğü gibi *görüntüleme* özelliklerini ve yer işareti eklendiğinde görünür olan sayfayı sunan sayfa değişikliklerini uygulayıp uygulamayacağını seçebilirsiniz. Bu özellikler, görsel türleri değiştirmek için yer işaretlerini kullanırken faydalıdır. Ancak bu durumda, filtrelerin kullanıcılar görsel türleri değiştirdikçe sıfırlanmaması için veri özelliklerini kapatmak isteyebilirsiniz. 
+
+Bunun gibi değişiklikler yapmak için, bir önceki resimdeki gösterildiği gibi yer işaretinin adının yanında bulunan üç noktayı seçin, ardından *Veriler*, *Görüntü* ve diğer denetimlerin yanındaki onay işaretlerini seçin ya da seçimi kaldırın. 
+
 ## <a name="arranging-bookmarks"></a>Yer işaretlerini düzenleme
 Yer işaretleri oluşturdukça bunları oluşturduğunuz sıranın hedef kitlenize sunmak istediğiniz sırayla aynı olmadığını düşünebilirsiniz. Sorun değil, yer işaretlerinin sırasını kolayca yeniden düzenleyebilirsiniz.
 
@@ -105,13 +109,13 @@ Bir yer işareti eklendiğinde her bir nesnenin görünürlük durumu da **Seçi
 **Dilimleyicilerin**, görünür olup olmadıklarından bağımsız olarak rapor sayfalarını filtrelemeye devam ettiğini unutmayın. Bu nedenle, farklı dilimleyici ayarlarına sahip birçok farklı yer işareti oluşturabilir ve tek bir rapor sayfasının çeşitli yer işaretlerinde oldukça farklı görünmesini (ve farklı öngörüleri vurgulamasını) sağlayabilirsiniz.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Şekiller ve resimler için yer işaretleri
-Yer işaretlerine şekil ve resim de bağlayabilirsiniz. Bu özellik kullanıldığında, bir nesneye tıkladığınızda o nesne ile ilişkili yer işareti gösterilir. 
+Yer işaretlerine şekil ve resim de bağlayabilirsiniz. Bu özellik kullanıldığında, bir nesneye tıkladığınızda o nesne ile ilişkili yer işareti gösterilir. Bu, özellikle düğmelerle çalışırken faydalı olabilir. [Power BI’da düğmeleri kullanma](desktop-buttons.md) ile ilgili makaleyi okuyarak daha fazla bilgi edinebilirsiniz. 
 
-Bir nesneye yer işareti atamak için nesneyi seçin, ardından aşağıdaki görüntüde gösterildiği gibi **Şekil Biçimlendir** bölmesinden **Bağlantı** seçeneğini belirleyin.
+Bir nesneye yer işareti atamak için nesneyi seçin, ardından aşağıdaki görüntüde gösterildiği gibi **Şekil Biçimlendir** bölmesinden **Eylem** bölümünü genişletin.
 
 ![Bir nesneye yer işareti bağlantısı ekleme](media/desktop-bookmarks/bookmarks_10.png)
 
-**Bağlantı** kaydırıcısını **Açık** olarak ayarladığınızda nesnenin bir bağlantı mı yoksa bir yer işareti mi olacağını belirleyebilirsiniz. Yer işaretini seçerseniz ardından nesnenin hangi yer işaretlerine bağlanacağını seçebilirsiniz.
+**Bağlantı** kaydırıcısını **Açık** olarak ayarladığınızda nesnenin bir geri düğmesi mi, bir yer işareti mi, yoksa bir Soru-Cevap komutu mu olacağını belirleyebilirsiniz. Yer işaretini seçerseniz ardından nesnenin hangi yer işaretlerine bağlanacağını seçebilirsiniz.
 
 Nesne bağlantılı yer işaretlemesi ile pek çok ilgi çekici işlem yapabilirsiniz. Sadece bir nesneye tıklayarak rapor sayfanızdaki görsellere ilişkin bir içindekiler tablosu oluşturabilir veya aynı bilgilerle farklı görünümler (görsel türleri gibi) sağlayabilirsiniz.
 
@@ -138,9 +142,7 @@ Görselin üç nokta menüsünden **Spotlight** seçildiğindeyse sayfa aşağı
 Bir yer işareti eklendiğinde bu modlardan biri seçiliyse seçili olan mod (odak veya Spotlight) yer işaretinde de korunur.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Power BI hizmetinde yer işaretleri
-**Power BI hizmetinde** en az bir yer işareti bulunan bir rapor yayımladığınızda, bu yer işaretlerini **Power BI hizmetinde** görüntüleyebilir ve yer işaretleriyle etkileşim kurabilirsiniz. Yayımladığınız her rapor içink, yer işaretleri özelliğinin **Power BI hizmetinde** kullanılabilir olmasını sağlamak üzere, raporu yayımlamadan önce raporda oluşturulmuş en az bir yer işaretiniz olmalıdır.
-
-Bir raporda yer işaretleri mevcut olduğunda söz konusu bölmelerden her birimi göstermek için **Görünüm > Seçim bölmesi** veya **Görünüm > Yer İşaretleri bölmesi**'ni seçebilirsiniz.
+**Power BI hizmetinde** en az bir yer işareti bulunan bir rapor yayımladığınızda, bu yer işaretlerini **Power BI hizmetinde** görüntüleyebilir ve yer işaretleriyle etkileşim kurabilirsiniz. Bir raporda yer işaretleri mevcut olduğunda söz konusu bölmelerden her birimi göstermek için **Görünüm > Seçim bölmesi** veya **Görünüm > Yer İşaretleri bölmesi**'ni seçebilirsiniz.
 
 ![Power BI hizmetinde yer işaretleri ve seçim bölmelerini görüntüleme](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Yer işaretleri arasında gezinmek için gri renkli yer işareti başlık çubu�
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 **Yer işaretleri**’nin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
-* Filtrenin *kaynağı* olmaları durumunda özel görseller, yer işaretleri ile birlikte çalışmaz. Bir sayfadaki öğeleri filtrelemek için özel görseller kullanıyorsanız (örneğin, ciklet dilimleyici) ve ilgili sayfaya bir yer işareti ile dönerseniz sayfa filtrelenebilir ancak özel görsel sayfanın nasıl filtrelendiğini gösterecek şekilde güncelleştirilmez. 
-* Bir rapor bölmesinin çapraz vurgulanma durumu, yer işareti oluşturduğunuzda *kaydedilmez*. 
+* Çoğu özel görsellerin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve özel görselle ilgili bir sorunla karşılaşırsanız, bu özel görseli oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin. 
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.
 * Bir yer işareti oluşturulduktan sonra gerçekleştirdiğiniz görsel taşıma işlemleri, yer işaretinde gösterilir. 
-* Raporunuzu **Power BI hizmetinde** yayımladığınızda hizmette yer işaretlerinin kullanılabilmesi için raporunuzda en az bir yer işareti *olması gerekir*. Bu, yayımladığınız her rapor için gereklidir.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Yer işaretlerine benzeyen veya yer işaretleriyle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:

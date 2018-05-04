@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop'ı başlatma ile ilgili sorunları giderme"
-description: "Power BI Desktop'ı başlatma ile ilgili sorunları giderme"
+title: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
+description: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop'ın çalışmamasına neden olan sorunları giderme
 **Power BI Desktop**’ta eski **Power BI şirket içi veri ağ geçidi** sürümlerini yüklemiş ve çalıştırıyor olan kullanıcılar, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimsel ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını çalıştıramayabilir. 
@@ -39,10 +39,12 @@ Power BI şirket içi veri ağ geçidine ihtiyacınız kalmadıysa yüklemesini 
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>3. Çözüm: Power BI Desktop uygulamasını yönetici ayrıcalıklarıyla çalıştırın
 Alternatif olarak, Power BI Desktop uygulamasını yönetici olarak çalıştırabilir, başarıyla açılmasını sağlayabilirsiniz. Bu makalenin başlarında açıklandığı gibi, yine de Power BI şirket içi veri ağ geçidinin en son sürümünü yüklemeniz önerilir.
 
+Power BI Desktop’un çok işlemli bir mimari olarak tasarlandığını ve bu işlemlerden birkaçının Windows adlandırılmış kanalları kullanarak iletişim kurduğunu unutmamanız gerekir. Bu adlandırılmış kanalları engelleyen başka işlemler de olabilir. Virüsten koruma yazılımının ya da güvenlik duvarlarının kanalları engellediği veya trafiği belirli bir bağlantı noktasına yeniden yönlendirdiği durumların dahil olduğu bir güvenlik nedeniyle böyle bir engel oluşuyor olabilir. Power BI Desktop’ı yönetici ayrıcalığıyla başlatmak bu sorunu çözülebilir. Yönetici ayrıcalığıyla başlatmak mümkün değilse, uygulanan hangi güvenlik kurallarının adlandırılmış kanalların düzgün bir şekilde iletişim kurmasını engellediğini belirlemesi ve Power BI Desktop’ı ve ilgili alt işlemlerini izin verilenler listesine eklemesi için yöneticinize başvurun.
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Diğer Power BI Desktop başlatma sorunlarıyla ilgili yardım
 **Power BI Desktop** ile ilgili mümkün olduğu kadar çok sayıda sorunu ele almak için elimizden geleni yapıyoruz. Birçok müşteriyi etkileyebilecek sorunları düzenli olarak kontrol edip makalelerimizde bu sorunlara yer veriyoruz.
 
-**Power BI Desktop** uygulamasını başlatma sorunları şirket içi veri ağ geçidiyle ilgili değilse veya yukarıdaki adımlar sorunu gidermediyse sorununuzun tanımlanması ve çözülmesi için [Power BI destek ekibine](https://support.powerbi.com) (https://support.powerbi.com) destek çağrısı gönderebilirsiniz.
+**Power BI Desktop** uygulamasını başlatma sorunları Şirket içi veri ağ geçidiyle ilgili değilse veya bir önceki çözümler sorunu gidermediyse sorununuzun tanımlanması ve çözülmesi için [Power BI destek ekibine](https://support.powerbi.com) (https://support.powerbi.com)) destek çağrısı gönderebilirsiniz.
 
 İleride karşılaşabileceğiniz diğer **Power BI Desktop** sorunları için (hiç olmayacağını veya az sayıda olacağını umuyoruz) sorunu daha ayrıntılı bir şekilde incelemek ve tanımlamak için izleme yapmak ve günlük dosyalarını toplamak yararlı olabilir. İzlemeyi açmak için **Dosya > Seçenekler ve ayarlar > Seçenekler** yolunu izleyip **Tanılama**'ı seçin ve *Tanılama Seçenekleri*'nin altındaki **İzlemeyi etkinleştir** seçeneğini işaretleyin. Bu seçeneği belirlemek için **Power BI Desktop** uygulamasının açık olması gerektiğinin farkındayız ve bu işlevin ileride ortaya çıkabilecek **Power BI Desktop** uygulamasını başlatma sorunları konusunda faydalı olacağını düşünüyoruz.
 

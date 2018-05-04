@@ -1,6 +1,6 @@
 ---
 title: Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
-description: Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
+description: Power BI raporları (.pbix) birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
-Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu (.pbix) veri kaynakları
+Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
 
-Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Zamanlanmış yenilemenin yapılandırılabilmesi için bir Power BI Desktop raporundaki tüm veri kaynaklarının desteklenmesi gerekir.
-> 
-> 
+> Bir Power BI Desktop raporundaki tüm veri kaynaklarının zamanlanmış yenilemeyi yapılandırma özelliğini desteklemesi gerekir.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Desteklenen veri kaynaklarının listesi
 
@@ -216,7 +215,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Veri kaynağınızı seçildiğine göre, artık bu veri kaynağındaki verileri kullanarak [rapor oluşturabilirsiniz](quickstart-create-powerbi-report.md).
+Veri kaynağınıza bağlandığınıza göre, artık bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturabilirsiniz](quickstart-create-powerbi-report.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

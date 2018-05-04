@@ -1,28 +1,28 @@
 ---
-title: "Oracle veritabanlarına bağlanma"
-description: "Power BI Desktop'tan Oracle veritabanlarına bağlanmak için gerçekleştirilmesi gereken işlemler ve indirmeler"
+title: Oracle veritabanlarına bağlanma
+description: Power BI Desktop'tan Oracle veritabanlarına bağlanmak için gerçekleştirilmesi gereken işlemler ve indirmeler
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 **Power BI Desktop**'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklü Power BI Desktop sürümüne göre değişiklik gösterir: **32 bit** sürüm veya **64 bit** sürüm.
@@ -49,7 +49,7 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
 1. Veri Al penceresinde **Veritabanı > Oracle Veritabanı**'nı seçin
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Açılan **Oracle Veritabanı** iletişim kutusuna sunucu adını girip **Bağlan**'ı seçin. SID gerekiyorsa şu biçimi kullanarak belirtebilirsiniz: *SunucuAdı/SID*.
+2. Açılan **Oracle Veritabanı** iletişim kutusuna sunucu adını girip **Bağlan**'ı seçin. SID gerekiyorsa şu biçimi kullanarak belirtebilirsiniz: *SunucuAdı/SID*, SID burada veritabanının benzersiz adıdır. *SunucuAdı/SID* biçimi işe yaramıyorsa, HizmetAdı’nın bağlanırken kullanılan diğer ad olduğu *SunucuAdı/HizmetAdı*’nı kullanmayı deneyin.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. Yerel veritabanı sorgusu kullanarak veri içeri aktarmak istiyorsanız sorgunuzu **SQL Deyimi** kutusuna girebilirsiniz. Bu kutuya ulaşmak için **Oracle Veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.
