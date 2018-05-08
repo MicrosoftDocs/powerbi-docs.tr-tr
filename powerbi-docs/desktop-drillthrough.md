@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
 **Power BI Desktop**'ta **detaylandırma** özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Odaklanmış bu rapor sayfası sayesinde kullanıcılar, diğer rapor sayfalarındaki bir veri noktasına sağ tıklayıp ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için, odaklanmış sayfaya geçebilirler.
@@ -45,8 +45,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="use-your-own-image-for-a-back-button"></a>Geri düğmesi için kendi görüntünüzü kullanma    
  Geri düğmesi bir görüntü olduğu için istediğiniz görüntüyle değiştirebilirsiniz raporunuzu inceleyen kullanıcıların geldikleri sayfaya geri dönebilmesi için geri düğmesi olarak çalışmaya devam eder.
 
-1. Geri düğmesi için kendi görüntünüzü kullanmak istiyorsanız detaylandırma sayfasına bir görüntü görseli yerleştirin.
-2. Görseli seçin ve **Geri düğmesi** kaydırıcısını açık olarak ayarlayın. Görüntünüz artık geri düğmesi olarak işlev görür.
+1. **Giriş** sekmesinde **Görüntü**’ye tıklayın, sonra görüntünüzü bulun ve detaylandırma sayfasına yerleştirin.
+2. Detaylandırma sayfasında yeni görüntünüzü seçin ve Görüntü Biçimlendirme bölümü altında **Bağlantı** kaydırıcısını açık duruma ve **Tür** değerini **Geri** seçeneğine ayarlayın. Görüntünüz artık geri düğmesi olarak işlev görür.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 

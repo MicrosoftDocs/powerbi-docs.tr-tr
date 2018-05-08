@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -34,7 +34,7 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="mobile-drill-down-and-drill-up"></a>Mobil detaya gitme veya detaydan çıkma
 
-Artık mobil cihazınızdaki rapor görsellerinde detaya gidebilir ve detaydan çıkabilirsiniz. Bu yeni özelliğe erişmek için bir rapor görselinde araç ipucu menüsünü basılı tutarak açın ve sonra detaylandırma düğmelerine dokunarak verilerinizi derinlemesine inceleyin.
+Artık mobil cihazınızdaki rapor görsellerinde detaya gidebilir ve detaydan çıkabilirsiniz. Bu yeni özelliğe erişmek için bir rapor görselinde araç ipucu menüsünü basılı tutarak açın ve sonra detaylandırma düğmelerine dokunarak verilerinizi derinlemesine inceleyin. [Mobil uygulamalarda ayrıntı artırma ve azaltma](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/) hakkında daha fazla bilgi.
 
 ### <a name="persistent-filters"></a>Kalıcı filtreler
 
