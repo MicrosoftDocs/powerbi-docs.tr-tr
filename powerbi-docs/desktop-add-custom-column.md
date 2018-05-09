@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
 **Power BI Desktop**'taki **Sorgu Düzenleyicisi**'ni kullanarak modelinize veri içeren yeni bir özel sütunu kolayca ekleyebilirsiniz. Özel sütununuzu tanımlayan [M formüllerini](https://msdn.microsoft.com/library/mt270235.aspx) oluşturmaya yönelik kullanışlı tuşlar yardımıyla özel sütununuzu oluşturabilir ve yeniden adlandırabilirsiniz. M formülü, [kapsamlı bir işlev başvurusu içerik kümesine](https://msdn.microsoft.com/library/mt779182.aspx) sahiptir. 
@@ -40,10 +40,10 @@ Yeni özel sütun oluşturmak için **Sorgu Düzenleyicisi**'ni başlatın. Bunu
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-Bunu yaptığınızda, bir sonraki bölümde ele alacağımız **Özel Sütun Ekle** penceresiyle karşılaşırsınız.
+Bir sonraki bölümde ele alacağımız **Özel Sütun Ekle** penceresi görüntülenir.
 
 ## <a name="the-add-custom-column-window"></a>Özel Sütun Ekle penceresi
-**Özel Sütun Ekle** penceresindeyken, kullanılabilir alanların listesini sağ bölmede, özel sütununuzun adını ise üstte (yeniden adlandırmak için bu metin kutusuna yeni bir ad girmeniz yeterlidir) görürsünüz. Ayrıca bu pencerede, sağ bölmeden alan ekleyerek, işleçler yerleştirerek ve başka işlemlerle oluşturduğunuz (veya yazdığınız), yeni özel sütunuzun tanımlanacağı [**M** formülünü](https://msdn.microsoft.com/library/mt779182.aspx) de görüntülersiniz. 
+**Özel Sütun Ekle** penceresindeyken, kullanılabilir alanların listesini sağ bölmede, özel sütununuzun adını ise üstte (yeniden adlandırmak için bu metin kutusuna yeni bir ad girmeniz yeterlidir) görürsünüz. Ayrıca bu pencerede, sağ bölmeden alan ekleyerek, işleçler yerleştirerek ve başka işlemlerle oluşturduğunuz (veya yazdığınız), yeni özel sütununuzun tanımlanacağı [**M** formülünü](https://msdn.microsoft.com/library/mt779182.aspx) de görüntülersiniz. 
 
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 

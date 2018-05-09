@@ -1,38 +1,38 @@
 ---
-title: "Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma"
-description: "Power BI Desktop raporlarında kılavuz çizgilerini, kılavuza yaslama işlevini, z düzenini, hizalamayı ve dağıtımı kullanma"
+title: Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma
+description: Power BI Desktop raporlarında kılavuz çizgilerini, kılavuza yaslama işlevini, z düzenini, hizalamayı ve dağıtımı kullanma
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1b6b1a3ecda7d3f827975da8fcfec5d9d5b67023
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma
-**Power BI Desktop** rapor tuvali, görselleri rapor sayfasında düzgünce hizalamanızı sağlayan kılavuz çizgileri ve raporunuzdaki görsellerin temiz, hizalı ve eşit aralıklı görünmesi için kılavuza yaslama özelliği sunar.
+**Power BI Desktop** rapor tuvali, görselleri rapor sayfasında düzgünce hizalamanızı sağlayan kılavuz çizgileri sunar ve raporunuzdaki görsellerin temiz, hizalı ve eşit aralıklı görünmesi için kılavuza yaslama özelliğini kullanır.
 
 **Power BI Desktop**'ta bir rapordaki nesnelerin z düzenini ayarlayabilir (bir öne getirme, bir arkaya gönderme) ve tuvalde seçili görselleri hizalayabilir veya eşit bir şekilde dağıtabilirsiniz.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
 ### <a name="enabling-gridlines-and-snap-to-grid"></a>Kılavuz çizgilerini ve kılavuza yaslama işlevini etkinleştirme
-Kılavuz çizgileri ve kılavuza yaslama işlevini etkinleştirmek için **Görünüm** şeridini seçin, sonra **Kılavuz çizgilerini göster** ve **Nesneleri kılavuza yasla** onay kutularını etkinleştirin. Kutulardan birini veya ikisini seçebilirsiniz; bunlar birbirinden bağımsız olarak çalışır.
+Kılavuz çizgileri ve kılavuza yaslama işlevini etkinleştirmek için **Görünüm** şeridini seçin, sonra **Kılavuz çizgilerini göster** ve **Nesneleri kılavuza yasla** onay kutularını etkinleştirin. Seçeneklerden birini veya ikisini belirleyebilirsiniz; bunlar birbirinden bağımsız olarak çalışır.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
@@ -42,21 +42,21 @@ Kılavuz çizgileri ve kılavuza yaslama işlevini etkinleştirmek için **Gör�
 > 
 
 ### <a name="using-gridlines"></a>Kılavuz çizgilerini kullanma
-Kılavuz çizgileri, iki veya daha fazla görselin düzgünce hizalı olup olmadığını görmenize yardım eden görsel kılavuzlardır. İki (veya daha fazla) görselin yatay ya da dikey hizalı olup olmadığını anlamak için kılavuz çizgilerini kullanarak kenarlıklarının hizalı olup olmadığını görebilirsiniz.
+Kılavuz çizgileri, görsellerinizi hizalamanıza yardımcı olan görünür kılavuzlardır. İki (veya daha fazla) görselin yatay ya da dikey hizalı olup olmadığını anlamak için kılavuz çizgilerini kullanarak kenarlıklarının hizalı olup olmadığını belirleyin.
 
-*CTRL tuşuna basıp tıklayarak* birden fazla görseli aynı anda seçebilirsiniz. Böylece seçili tüm görsellerin kenarlıkları belirir ve görsellerin düzgün bir şekilde hizalı olup olmadığını kolayca anlamanıza yardımcı olur.
+CTRL tuşuna basıp tıklayarak birden fazla görseli aynı anda seçin. Böylece seçili tüm görsellerin kenarlıkları belirir ve görsellerin düzgün bir şekilde hizalı olup olmadığını gösterir.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
 #### <a name="using-gridlines-inside-visuals"></a>Kılavuz çizgileri görsellerin içinde kullanma
-Power BI'da kılavuz çizgileri görsellerin içinde de görülebilir. Bunlar veri noktalarını ve değerleri karşılaştırmak için görsel kılavuzlar sağlar. **Power BI Desktop**'ın Eylül 2017 sürümünden itibaren **Görsel Öğeler** bölmesinin **Biçim** bölümündeki **X Ekseni** ve **Y Ekseni** kartlarını (görsel türüne göre) kullanarak görsellerin içindeki kılavuz çizgilerini yönetebilirsiniz. Bir görselin içindeki kılavuz çizgilerinin aşağıdaki öğelerini yönetebilirsiniz:
+Power BI’da kılavuz çizgileri görsellerin içinde de görülebilir. Bunlar veri noktalarını ve değerleri karşılaştırmak için görsel kılavuzlar sağlar. **Power BI Desktop**'ın Eylül 2017 sürümünden itibaren **Görsel Öğeler** bölmesinin **Biçim** bölümündeki **X Ekseni** ve **Y Ekseni** kartlarını (görsel türüne göre) kullanarak görsellerin içindeki kılavuz çizgilerini yönetebilirsiniz. Bir görselin içindeki kılavuz çizgilerinin aşağıdaki öğelerini yönetebilirsiniz:
 
 * Kılavuz çizgileri etkinleştirme veya devre dışı bırakma
 * Kılavuz çizgilerinin rengini değiştirme
 * Kılavuz çizgilerinin darbe genişliğini ayarlama
 * Görseldeki kılavuz çizgilerinin stilini düz, kesik çizgili, veya noktalı olarak seçme
 
-Kılavuz çizgilerinin belirli öğelerini değiştirmek, özellikle görsellerinde koyu renkli arka planlar olan raporlarda kullanışlıdır. Aşağıdaki görüntüde **X Ekseni** kartındaki *Kılavuz çizgileri* bölümü gösterilmektedir.
+Kılavuz çizgilerinin belirli öğelerini değiştirmek, özellikle görsellerinde koyu renkli arka planlar olan raporlarda kullanışlıdır. Aşağıdaki görüntüde **Y Ekseni** kartındaki **Kılavuz çizgileri** bölümü gösterilmektedir.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
@@ -65,22 +65,22 @@ Kılavuz çizgilerinin belirli öğelerini değiştirmek, özellikle görselleri
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
-Raporlarınızdaki görsellerin düzgünce hizalandığından emin olmak için **kılavuz çizgileri** ve **kılavuza yaslama işlevini** kullanmak işte bu kadar kolay.
+Raporlarınızdaki görsellerin düzgünce hizalandığından emin olmak üzere **kılavuz çizgileri** ve **kılavuza yaslama işlevini** kullanmak için tek yapmanız gereken budur.
 
 ### <a name="using-z-order-align-and-distribute"></a>Z düzenini, hizalamayı ve dağıtımı kullanma
-Bir rapordaki görsellerin önden arkaya sırasını yönetebilirsiniz. Buna genellikle öğelerin *z düzeni* denir. Böylece görselleri istediğiniz biçimde üst üste getirebilir ve her görselin önden arkaya sırasını ayarlayabilirsiniz. Bu sıralama, **Bir Öne Getir** ve **Bir Arkaya Gönder** düğmeleriyle yapılır. Bu düğmeler **Biçim** şeridinin **Düzenle** bölümünde bulunur ve bir veya daha fazla görsel seçildiğinde belirir (seçili görsel yoksa kullanılamaz).
+Bir rapordaki görsellerin önden arkaya sırasını yönetebilirsiniz. Buna genellikle öğelerin *z düzeni* denir. Bu özellik, görselleri istediğiniz biçimde üst üste getirmenize ve her görselin önden arkaya sırasını ayarlamanıza olanak tanır. **Biçim** şeridinin **Düzenle** bölümünde bulunan **Öne Getir** ve **Geriye Gönder** düğmelerini kullanarak görsellerinizin sırasını ayarlayabilirsiniz. **Biçim** şeridi, sayfada bir veya daha fazla görsel seçmenizle birlikte görünür.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
 
-**Biçim** şeridi ayrıca görsellerinizi pek çok farklı şekilde hizalamanızı sağlar. Böylece görselleriniz sayfada sizin en iyi görünüm ve işleve sahip olduğuna inandığınız hizalamayla görünür.
+**Biçim** şeridi, görsellerinizin en iyi şekilde görünüp çalışacağı hizalamada görünmesi için görsellerinizi birçok farklı şekilde hizalamanıza olanak tanır.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
-Aşağıdaki görüntüde görüldüğü gibi bir görsel seçilir ve **Hizala** düğmesine tıklanırsa o görsel, rapor tuvalinin kenarına (veya merkezine) hizalanır.
+Aşağıdaki görüntüde görüldüğü gibi, **Hizala** düğmesi seçili görseli rapor tuvalinin kenarına (veya merkezine) hizalar.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_6.png)
 
-İki veya daha fazla görsel seçildiğinde, zaten hizalı olan sınırlara göre birlikte hizalanır. Örneğin, iki görsel seçip *Sola Hizala* düğmesine tıklarsanız görsellerin hizalanması, seçili tüm görsellerin en soldaki sınırına göre gerçekleştirilir.
+İki veya daha fazla görsel seçildiğinde, zaten hizalı olan sınırlara göre birlikte hizalanır. Örneğin, iki görsel seçip **Sola Hizala** seçeneğini belirlerseniz, görseller tüm seçili görsellerin en soldaki sınırına hizalanır.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 

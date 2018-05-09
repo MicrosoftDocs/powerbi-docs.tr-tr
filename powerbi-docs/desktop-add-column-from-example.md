@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop'ta örnekten sütun ekleme
-**Power BI Desktop**'ın Nisan 2017 sürümünden itibaren, **Sorgu Düzenleyicisi**'ni kullanarak modelinize yeni veri sütunları ekleyebilirsiniz. Bunun için yeni sütununuzda bir veya daha fazla örnek değer sağlamanız yeterlidir. Geçerli seçimi kullanarak veya bir tablodaki tüm (veya seçili) sütunları temel alan bir giriş sağlayarak yeni bir sütun örneği oluşturabilirsiniz.
+**Power BI Desktop**'ın Nisan 2017 sürümünden itibaren, **Sorgu Düzenleyicisi**'ni kullanarak modelinize yeni veri sütunları ekleyebilirsiniz. Bunun için yeni sütununuzda bir veya daha fazla örnek değer sağlamanız yeterlidir. Geçerli seçimi kullanarak yeni bir sütun örneği oluşturabilir veya bir tablodaki tüm (veya seçili) sütunları temel alan bir giriş sağlayabilirsiniz.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
@@ -42,7 +42,7 @@ Bir örnekten yeni sütun oluşturmak için **Sorgu Düzenleyicisi**'ni başlat�
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-Bu makalede, aşağıdaki Wikipedia makalesindeki verileri kullanacağız (bu bir bağlantı olduğundan, tıklayarak verileri kendiniz alabilir ve birlikte ilerleyebilirsiniz):
+Bir web sayfasından veri almak için **Giriş** sekmesine gidin, **Veri Al > Web**’e tıklayın, ardından URL’yi görüntülenen iletişim kutusuna yapıştırın. Bu makalede bir Wikipedia makalesinin verileri kullanılmaktadır. Verileri kendiniz almak için aşağıdaki bağlantıya tıklayarak adımları izleyebilirsiniz:
 
 * [**List of states and territories of the United States**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States) (Amerika Birleşik Devletleri'nin eyaletleri ve bölgeleri listesi)
 
@@ -51,9 +51,9 @@ Bu makalede, aşağıdaki Wikipedia makalesindeki verileri kullanacağız (bu bi
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>Örneklerden Sütun Ekle bölmesi
-Örneklerden yeni bir sütun eklemek üzere seçim yaptığınızda, yeni bir bölme görünür ve geçerli tablodaki sütunları gösterir. (Hepsini görmek için kaydırma yapmanız gerekebilir.) Ayrıca sağ tarafta da **Column1** gösterilir. Bu, **Power BI Desktop**'un örneklerinizden yola çıkarak oluşturduğu sütundur. Yeni **Column1** başlığının altında, Power BI'ın örneğinizle eşleşecek kurallar ve dönüştürmeler oluşturmak için kullandığı örnekleri girebileceğiniz boş hücreler bulunur.
+Örneklerden yeni bir sütun eklemek üzere seçim yaptığınızda, yeni bir bölme görünür ve geçerli tablodaki sütunları gösterir. (Hepsini görmek için kaydırma yapmanız gerekebilir.) Ayrıca sağ tarafta da **Column1** gösterilir. Bu, **Power BI Desktop**'un örneklerinizden yola çıkarak oluşturduğu sütundur. Yeni **Column1** başlığının altında, Power BI’ın örneğinizle eşleşecek kurallar ve dönüştürmeler oluşturmak için kullandığı örnekleri girebileceğiniz boş hücreler bulunur.
 
-Bunun **Sorgu Ayarları** bölmesindeki bir **Uygulanan Adım** olduğuna da dikkat edin. **Sorgu Düzenleyicisi** her zamanki gibi dönüştürme adımlarınızı kaydeder ve sırasıyla bunları sorguya uygular.
+Bunun **Sorgu Ayarları** bölmesindeki bir **Uygulanan Adım** olduğuna dikkat edin. **Sorgu Düzenleyicisi** her zamanki gibi dönüştürme adımlarınızı kaydeder ve sırasıyla bunları sorguya uygular.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -66,9 +66,9 @@ Bunun **Sorgu Ayarları** bölmesindeki bir **Uygulanan Adım** olduğuna da dik
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Örneğinizi yeni sütuna yazdığınız sırada Power BI, algıladığı dönüştürmeleri temel alarak, oluşturacağı sütunun nasıl görüneceğine ilişkin bir önizleme sunar. Örneğin, tablonun ilk sütunundaki *Alabama* değerine karşılık olarak ilk satıra *Alabama* yazdık. Biz *Enter* tuşuna basar basmaz Power BI bu değeri temel alarak sütunu doldurur.
+Örneğinizi yeni sütuna yazdığınız sırada Power BI, algıladığı dönüştürmeleri temel alarak, oluşturacağı sütunun nasıl görüneceğine ilişkin bir önizleme sunar. Örneğin, tablonun ilk sütunundaki *Alabama* değerine karşılık olarak ilk satıra *Alabama* yazdınız. *Enter* tuşuna basar basmaz Power BI bu değeri temel alarak sütunu doldurur.
 
-Ama sonra *Masssachusetts[E]* yazan satıra gittik ve sonundaki *[E]* yi (istemediğimiz için sildik. Power BI değişimi algıladı ve örneği kullanarak bir dönüştürme oluşturdu. Orta bölmenin üst kısmındaki dönüşüm açıklamasına dikkat edin.
+Ancak, daha sonra *Massachusetts[E]* değerini içeren satıra gidip sondaki *[E]* kısmını sildiğinizi (artık istemediğiniz için) varsayalım. Power BI değişikliği algılar ve örneği kullanarak bir dönüşüm oluşturur. Orta bölmenin üst kısmındaki dönüşüm açıklamasına dikkat edin.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Nasıl çalıştığını görmek ister misiniz? Aşağıdaki videoda, bu örne�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-**Örneklerden Sütun Ekle**'yle kullanılabilen birçok dönüştürme vardır, ancak tüm dönüştürmeler bu özelliğin kapsamında değildir. Aşağıdaki listede, *desteklenen* tüm dönüştürmeler sunulmuştur.
+**Örneklerden Sütun Ekle**'yle kullanılabilen birçok dönüştürme vardır, ancak tüm dönüştürmeler bu özelliğin kapsamında değildir. Aşağıdaki listede desteklenen tüm dönüşümler verilmiştir.
 
 * **Başvuru**
   
