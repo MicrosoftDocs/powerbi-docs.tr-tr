@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fb1c85e8c7b4a9c8e92019e4917af16b83ae580c
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 9855d0e0f0c3703773463f09faa95ec9a80ab343
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI'daki şerit grafikleri kullanma
 **Power BI**'da verileri görselleştirmek ve en yüksek dereceli (en yüksek değer) veri kategorisini hızla belirlemek için şerit grafikleri kullanabilirsiniz. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir. **Power BI Desktop**'ta şerit grafikler, Eylül 2017 sürümünden başlayarak ve **Power BI hizmetinde** gerçekleştirilen sonraki güncelleştirmelerle kullanıma sunulmuştur.

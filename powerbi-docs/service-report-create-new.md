@@ -1,5 +1,5 @@
 ---
-title: 'Öğretici - Bir veri kümesinden yeni bir rapor oluşturma '
+title: 'Bir veri kümesinden yeni bir rapor oluşturma '
 description: Bir veri kümesinden yeni bir Power BI raporu oluşturun.
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: c6b156157d9d286bae6b93a217ca1b9502534498
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde yeni bir rapor oluşturma
 [Power BI'daki raporlar](service-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın birçok farklı yolu vardır. Biz bu makalede ilk olarak Power BI hizmetini kullanarak bir Excel veri kümesinden çok basit bir rapor oluşturacağız. Rapor oluşturma işlemiyle ilgili temel bilgileri kavradığınızda, sayfanın en altında bulunan **Sonraki adımlar** bölümündeki bağlantıları kullanarak raporlarla ilgili daha ileri düzey konulara göz atabilirsiniz.  

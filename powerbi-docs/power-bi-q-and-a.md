@@ -11,18 +11,18 @@ tags: ''
 qualityfocus: ''
 qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-service
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 814c4a4274b5f2e022074454ce5460d13a20f1e2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği
 ## <a name="what-is-qa"></a>Soru-Cevap nedir?
