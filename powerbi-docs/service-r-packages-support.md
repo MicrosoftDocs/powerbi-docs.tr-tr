@@ -1,28 +1,28 @@
 ---
-title: "Power BI'da R betikleri oluşturma ve kullanma için hangi R paketlerinin desteklendiğini öğrenin"
+title: Power BI'da R betikleri oluşturma ve kullanma için hangi R paketlerinin desteklendiğini öğrenin
 description: Power BI'da desteklenen ve desteklenmeyen R paketleri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI hizmetindeki R paketleri
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -55,7 +55,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | actuar |1.2-0 |https://cran.r-project.org/web/packages/actuar/index.html |
 | ade4 |1.7-4 |https://cran.r-project.org/web/packages/ade4/index.html |
 | AdMit |2.0.1 |https://cran.r-project.org/web/packages/AdMit/index.html |
-| andrews |1 |https://cran.r-project.org/web/packages/ade4/index.html |
+| andrews |1 |https://cran.r-project.org/web/packages/andrews/index.html |
 | aod |1.3 |https://cran.r-project.org/web/packages/aod/index.html |
 | apcluster |1.4.3 |https://cran.r-project.org/web/packages/apcluster/index.html |
 | ape |3.4 |https://cran.r-project.org/web/packages/ape/index.html |
@@ -117,9 +117,9 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| tarih |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
-| deal |1.2-37 |https://cran.r-project.org/web/packages/dbscan/index.html |
+| deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
 | deldir |0.1-12 |https://cran.r-project.org/web/packages/deldir/index.html |
 | dendextend |1.1.8 |https://cran.r-project.org/web/packages/dendextend/index.html |
@@ -162,7 +162,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | foreach |1.4.3 |https://cran.r-project.org/web/packages/foreach/index.html |
 | forecast |7 |https://cran.r-project.org/web/packages/forecast/index.html |
 | forecastHybrid |0.3.0 |https://cran.r-project.org/web/packages/forecastHybrid/index.html |
-| Formula |1.2-1 |https://cran.r-project.org/web/packages/Formula/index.html |
+| Formül |1.2-1 |https://cran.r-project.org/web/packages/Formula/index.html |
 | fracdiff |1.4-2 |https://cran.r-project.org/web/packages/fracdiff/index.html |
 | fTrading |3010.78 |https://cran.r-project.org/web/packages/fTrading/index.html |
 | futile.logger |1.4.3 |https://cran.r-project.org/web/packages/futile.logger/index.html |
@@ -176,7 +176,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | geosphere |1.5-1 |https://cran.r-project.org/web/packages/geosphere/index.html |
 | ggdendro |0.1-18 |https://cran.r-project.org/web/packages/ggdendro/index.html |
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
-| ggmcmc |0.8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
+| ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
 | ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
@@ -198,7 +198,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | haplo.stats |1.7.6 |https://cran.r-project.org/web/packages/haplo.stats/index.html |
 | hash |2.2.6 |https://cran.r-project.org/web/packages/hash/index.html |
 | hbsae |1 |https://cran.r-project.org/web/packages/hbsae/index.html |
-| hdrcde |3.1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
+| hdrcde |3,1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
@@ -247,7 +247,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | maptree |1.4-7 |https://cran.r-project.org/web/packages/maptree/index.html |
 | MASS |7.3-45 |https://cran.r-project.org/web/packages/MASS/index.html |
 | MasterBayes |2.52 |https://cran.r-project.org/web/packages/MasterBayes/index.html |
-| Matrix |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
+| Matris |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
 | matrixcalc |1.0-3 |https://cran.r-project.org/web/packages/matrixcalc/index.html |
 | MatrixModels |0.4-1 |https://cran.r-project.org/web/packages/MatrixModels/index.html |
 | maxent |1.3.3.1 |https://cran.r-project.org/web/packages/maxent/index.html |
@@ -364,7 +364,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | snowFT |1.4-0 |https://cran.r-project.org/web/packages/snowFT/index.html |
 | sp |1.2-2 |https://cran.r-project.org/web/packages/sp/index.html |
 | spacetime |1.1-5 |https://cran.r-project.org/web/packages/spacetime/index.html |
-| spam |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
+| istenmeyen posta |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
 | SparseM |1.7 |https://cran.r-project.org/web/packages/SparseM/index.html |
 | spatial |7.3-11 |https://cran.r-project.org/web/packages/spatial/index.html |
 | spBayes |0.3-9 |https://cran.r-project.org/web/packages/spBayes/index.html |
@@ -376,7 +376,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 | sROC |0.1-2 |https://cran.r-project.org/web/packages/sROC/index.html |
 | stabledist |0.7-0 |https://cran.r-project.org/web/packages/stabledist/index.html |
 | stabs |0.5-1 |https://cran.r-project.org/web/packages/stabs/index.html |
-| stepPlr |0.92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
+| stepPlr |0,92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
 | stringdist |0.9.4.1 |https://cran.r-project.org/web/packages/stringdist/index.html |
 | stringr |1.0.0 |https://cran.r-project.org/web/packages/stringr/index.html |
 | stsm |1.7 |https://cran.r-project.org/web/packages/stsm/index.html |

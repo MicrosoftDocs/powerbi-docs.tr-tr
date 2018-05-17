@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 97eed4093954312ff70a7c55078c9726e5e861f9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım gereksinimleri"
-description: "Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır."
+title: Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım gereksinimleri
+description: Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
@@ -76,7 +76,7 @@ Tablolu veya çok boyutlu örnekler için bir canlı bağlantı kullanabilirsini
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kullanıcı el kitabı](user-handbook-overview.md)  
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

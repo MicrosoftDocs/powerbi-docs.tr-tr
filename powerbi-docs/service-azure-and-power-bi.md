@@ -2,27 +2,27 @@
 title: Azure ve Power BI
 description: Azure ve Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f07abb6b878ba96c1e5a84168ded6e466c8fb18e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 **Azure** hizmetlerini ve **Power BI** uygulamasını bir arada kullanarak veri işleme çalışmalarınızı işletmenizle ilgili gerçek zamanlı öngörüler sağlayan analizlere ve raporlara dönüştürebilirsiniz. Veri işleme süreçlerinizin bulut tabanlı veya şirket içi, basit veya karmaşık, tek kaynaklı veya çok büyük ölçekli, ambar tabanlı veya gerçek zamanlı olma durumundan bağımsız olarak Azure ve Power BI'da iş zekası çalışmalarınızdan sonuç almanızı sağlayacak yerleşik bağlantı ve tümleştirme çözümleri mevcuttur.

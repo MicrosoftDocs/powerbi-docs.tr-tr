@@ -1,15 +1,15 @@
 ---
-title: "Rapor sunucusu yüklemesini geçirme"
-description: "Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services örneğinizi geçirmeyi öğrenin."
+title: Rapor sunucusu yüklemesini geçirme
+description: Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services örneğinizi geçirmeyi öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Bir rapor sunucusu yüklemesini geçirme
 Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services (SSRS) örneğinizi nasıl geçireceğinizi öğrenin.
@@ -107,7 +107,7 @@ Bir Power BI Rapor Sunucusu'ndan geçiş yaparken izlenen süreç, SSRS'den (yer
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Script with the rs.exe Utility and the Web Service (rs.exe Yardımcı Programı ve Web Hizmeti ile kullanılan betik)](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

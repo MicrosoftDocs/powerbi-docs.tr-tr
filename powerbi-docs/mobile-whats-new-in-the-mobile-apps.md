@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -271,7 +271,7 @@ Resim kutucuğunda pano sahibi tarafından tanımlanmış özel bir URL varsa ku
 #### <a name="android-devices"></a>Android cihazlar
 **Önizleme: Intune Mobil Uygulama Yönetimi** Microsoft Intune Mobil Uygulama Yönetimi'ne (MAM) yönelik Power BI desteği artık, Android cihaz kullanan Power BI Pro kullanıcıları için önizlemede. 
 
-**Sık kullanılanlar** Android cihazınızda sık kullandığınız panolarınızı etiketleyerek [sık kullanılan Power BI panolarınızın, Reporting Services mobil raporlarınızın ve KPI'lerinizin](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) tamamını tek bir yerde görebilirsiniz. 
+**Sık kullanılanlar** Android cihazınızda sık kullandığınız panolarınızı etiketleyerek [sık kullanılan Power BI panolarınızın, Reporting Services mobil raporlarınızın ve KPI'lerinizin](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) tamamını tek bir yerde görebilirsiniz. 
 
 #### <a name="ios-devices"></a>iOS cihazları
 **Bağlantılar** Artık, tıklama yoluyla kutucuklardaki ve görselleştirmelerdeki URL'leri bir tarayıcıda açabilirsiniz.

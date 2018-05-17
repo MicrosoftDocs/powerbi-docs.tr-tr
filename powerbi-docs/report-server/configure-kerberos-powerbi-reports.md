@@ -1,15 +1,15 @@
 ---
-title: "Power BI raporlarını kullanmak için Kerberos'u yapılandırma"
-description: "Dağıtılmış bir ortam için rapor sunucunuzu, Power BI raporlarında kullanılan veri kaynaklarında Kerberos kimlik doğrulaması gerçekleştirecek şekilde yapılandırmayı öğrenin."
+title: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
+description: Dağıtılmış bir ortam için rapor sunucunuzu, Power BI raporlarında kullanılan veri kaynaklarında Kerberos kimlik doğrulaması gerçekleştirecek şekilde yapılandırmayı öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ Bu yapılandırma Kerberos kullanılan çoğu durumda çalışır ancak ortamın
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Quickstart: Install Power BI Report Server (Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme)](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

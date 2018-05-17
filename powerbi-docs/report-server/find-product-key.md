@@ -1,15 +1,15 @@
 ---
-title: "Rapor sunucusu ürün anahtarınızı bulma"
-description: "Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin."
+title: Rapor sunucusu ürün anahtarınızı bulma
+description: Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Rapor sunucusu ürün anahtarınızı bulma
 Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.
@@ -52,7 +52,7 @@ SQL Server Enterprise YG sözleşmeniz varsa ürün anahtarınızı [Toplu Lisan
 ![](media/find-product-key/vlsc-download.png "Toplu Lisanslama Hizmeti Merkezi")
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)

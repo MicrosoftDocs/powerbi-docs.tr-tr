@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop'taki veri türleri"
-description: "Power BI Desktop'taki veri türleri"
+title: Power BI Desktop'taki veri türleri
+description: Power BI Desktop'taki veri türleri
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: d651e03e1483daae3411aa84d2fd8a08927dbbdf
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 

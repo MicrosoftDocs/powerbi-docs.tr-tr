@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Bir Power BI panosunu, kutucuğunu veya raporunu bağımsız bulut uygulamanıza ekleme
 Müşterileriniz için Power BI .NET SDK'sını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin. Bu tipik bir ISV senaryosudur.
@@ -38,7 +38,7 @@ Power BI, bağımsız (özel) bulutları da destekler. Her bağımsız bulut ken
 
 ![Katıştırılmış pano](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, kamu türüne bağlı olarak [ABD kamu Power BI hesabına](../service-govus-signup.md) veya [Almanya için Power BI bulut hesabına kaybolabilirsiniz](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, kamu türüne bağlı olarak [ABD kamu Power BI hesabına](../service-govus-signup.md) veya [Almanya için Power BI bulut hesabına kaybolabilirsiniz](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](integrate-dashboard.md).
@@ -407,7 +407,7 @@ Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mic
 
 * GitHub üzerindeki örnek uygulamayı gözden geçirebilirsiniz. Yukarıdaki örnekler de bu örneği temel almaktadır. Daha fazla bilgi için bkz. [Kuruluşunuz için ekleme örneği](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * JavaScript API’si hakkında daha fazla bilgi için lütfen [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) bölümüne bakın.
-* Almanya için Power BI bulutu hakkında daha fazla bilgi için lütfen [Almanya için Power BI bulutu ile ilgili SSS](https://docs.microsoft.com/en-us/power-bi/service-govde-faq) bölümüne bakın
+* Almanya için Power BI bulutu hakkında daha fazla bilgi için lütfen [Almanya için Power BI bulutu ile ilgili SSS](https://docs.microsoft.com/power-bi/service-govde-faq) bölümüne bakın
 * [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme](migrate-from-powerbi-embedded.md)
 
 Sınırlamalar ve Önemli Noktalar

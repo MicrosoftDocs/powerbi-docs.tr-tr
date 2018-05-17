@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
 Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir. Rapor sunucunuz, self servis Microsoft BI içeriklerini yayımlayacak ve görüntüleyecek tek bir konum haline gelir.
@@ -176,7 +176,7 @@ Keşif URL'sini girip **Uygula**'yı belirledikten ve web portalında bir Excel 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

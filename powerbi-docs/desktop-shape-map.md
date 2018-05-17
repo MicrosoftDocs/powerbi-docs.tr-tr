@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 5d18d7b5f5ebdd096cc5fb0e40eef845dc72c0db
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.

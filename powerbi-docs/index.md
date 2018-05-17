@@ -1,13 +1,13 @@
 ---
 layout: HubPage
-hide_bc: True
+hide_bc: true
 title: Power BI Belgeleri
 description: Power BI Belgeleri
-ms.openlocfilehash: c4e725a9c01d93bf2a9225299502b821c51495c0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da81bbbac4b4e92cf5e22580e27087e9e0cc54e1
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 05/10/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -21,7 +21,7 @@ ms.lasthandoff: 11/15/2017
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsA">
                             <li>
-                                <a href="service-get-started.md">
+                                <a href="power-bi-overview.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/15/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="desktop-getting-started.md">
+                                <a href="desktop-what-is-desktop.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

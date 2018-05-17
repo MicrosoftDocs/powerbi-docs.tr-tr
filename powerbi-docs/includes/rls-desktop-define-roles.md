@@ -21,7 +21,7 @@ Güvenlik rollerini tanımlamak için aşağıdaki adımları izleyebilirsiniz.
 7. DAX ifadelerini girin. İfadenin true veya false değeri döndürmesi gerekir. Örneğin: [Entity ID] = "Değer".
    
    > [!NOTE]
-   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olacağını unutmayın. Power BI hizmetinde kullanıcının UPN bilgisini kullanmanız gerekir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde döndürecek *userprincipalname()* parametresini kullanabilirsiniz.
+   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olacağını unutmayın. Power BI hizmetinde kullanıcının UPN bilgisini kullanmanız gerekir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde döndüren *userprincipalname()* parametresini kullanabilirsiniz.
    > 
    > 
    

@@ -1,13 +1,13 @@
 ---
-title: "Excel çalışma kitabı dosyalarından veri alma"
-description: "Power BI'da Excel çalışma kitabı dosyalarından veri almayı öğrenin"
+title: Excel çalışma kitabı dosyalarından veri alma
+description: Power BI'da Excel çalışma kitabı dosyalarından veri almayı öğrenin
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/25/2016
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8e85924dd4ceab7836408b7ef3431525eebc9163
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2d837ee4399275fd5d07bde6bb431d5fcaaf494d
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
 ![](media/service-excel-workbook-files/excel_icon.png)

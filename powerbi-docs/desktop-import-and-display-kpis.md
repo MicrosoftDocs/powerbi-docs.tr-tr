@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: deb6da926cafd78bfc12931ee731a6e2b2d6d44d
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5cb7370942cdd4b50c8315a075eb7a178b05a692
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI'da KPI'leri içeri aktarma ve görüntüleme
 **Power BI Desktop** ile KPI'leri içeri aktarabilir ve tablolarda, matrislerde ve kartlarda görüntüleyebilirsiniz.

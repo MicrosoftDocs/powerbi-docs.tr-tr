@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal ile ilgili sorunları giderme
 Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşılaşılabilen sorunlar ele alınmıştır.
@@ -76,11 +76,11 @@ Bir yenileme zamanladıktan sonra kişisel ağ geçidini kaldırıp yeniden yük
 
 **Hata: [Veriler birleştirilemiyor] &lt;sorgu parçası&gt;/&lt;…&gt;/&lt;…&gt;, birlikte kullanılamayan gizlilik düzeylerine sahip veri kaynaklarına erişiyor. Lütfen bu veri birleşimini yeniden oluşturun.**
 
-**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır. [Daha fazla bilgi](refresh-enable-fast-combine.md)
+**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır.
 
 **Hata: Veri kaynağı hatası: "\[Table\]"değerini Table türüne dönüştüremiyoruz.**
 
-**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır. [Daha fazla bilgi](refresh-enable-fast-combine.md)
+**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır.
 
 **Hata: There is not enough space for this row.** (Bu satır için yeterli alan yok.)
 

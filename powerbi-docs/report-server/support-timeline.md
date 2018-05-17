@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için destek zaman çizelgesi
 Power BI Rapor Sunucusu yılda birkaç kez yayımlanacaktır. Bir sonraki sürüm genel kullanıma sunulana kadar güvenlik güncelleştirmeleri ve kritik güncelleştirmeler sağlanır. Sonraki sürümün yayımlanmasının ardından önceki sürüm, 12 aylık kullanım süresinin geri kalan dönemi boyunca güvenlik güncelleştirmeleri almaya devam eder.
@@ -46,7 +46,7 @@ Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getiri
 [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md)  
 [Kullanıcı el kitabı](user-handbook-overview.md)  
 [Yönetici el kitabı](admin-handbook-overview.md)  
-[Quickstart: Install Power BI Report Server (Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme)](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
