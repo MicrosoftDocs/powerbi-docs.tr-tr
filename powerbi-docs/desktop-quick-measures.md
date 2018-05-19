@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma
 **Hızlı ölçümler** özelliğini kullanarak kolayca sık kullanılan, etkili hesaplamalar gerçekleştirebilirsiniz. **Hızlı ölçüm**, bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX’ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.
@@ -43,8 +43,6 @@ Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerek
 **Hızlı ölçüm** oluşturmak için **Power BI Desktop**'taki **Alanlar** kutusunda bulunan bir alana sağ tıklayın ve görünen menüden **Hızlı ölçüm** seçeneğini belirleyin.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-**Hızlı ölçümler** özelliğinin kullanılabilmesi için o sırada yüklü olan veri kümesinde modelleme kullanılabilir olmalıdır. Bu nedenle, SSAS canlı bağlantıları dışındaki canlı bağlantılar (bir Power BI hizmeti veri kümesine yönelik bağlantı gibi), **Alanlar** listesine sağ tıkladığınızda **Hızlı ölçümler** menü öğesini görüntülemez. 
 
 SQL Server Analysis Services (SSAS) canlı bağlantıları söz konusu olduğunda bazı **Hızlı ölçümler** kullanılabilir. **Power BI Desktop** yalnızca bağlantının kurulduğu SSAS sürümü için desteklenen **Hızlı ölçümler** koleksiyonunu görüntüler. Bu nedenle, bir SSAS canlı veri kaynağına bağlandığınızda belirli **Hızlı ölçümleri** listede görmemenizin nedeni, bağlandığınız SSAS sürümünün söz konusu **Hızlı ölçümü** uygulamak için kullanılan DAX ölçümünü desteklememesidir.
 
@@ -141,9 +139,10 @@ Tam olarak istediğiniz ölçüyü elde ettiğinizde aynı sağ tıklama menüs�
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 
-* **Hızlı ölçümler** yalnızca modeli değiştirirseniz kullanılabilir; DirectQuery veya çoğu Canlı bağlantıyla çalışırken ise kullanılamaz. (Yukarıda da açıklandığı gibi SSAS canlı bağlantıları desteklenmektedir.)
+* **Hızlı ölçümler** yalnızca modeli değiştirirseniz kullanılabilir; bazı Canlı bağlantılarla çalışırken kullanılamaz (Yukarıda da açıklandığı gibi SSAS sekmeli canlı bağlantıları desteklenmektedir).
 * **Alanlar** kutusuna eklenen ölçü, rapordaki herhangi bir görselle kullanılabilir.
 * **Alanlar** kutusunda, oluşturulan ölçüyü seçip **Formül çubuğunda** gösterilen formüle bakarak bir **Hızlı ölçüm** ile ilişkili DAX formülünü dilediğiniz zaman görebilirsiniz.
+* DirectQuery modunda çalışırken, akıllı zaman gösterimi hızlı ölçümleri oluşturamazsınız. Bu hızlı ölçümlerde kullanılan DAX işlevleri, veri kaynağınıza gönderilen T-SQL deyimlerine çevrildiğinde performansı etkiler.
 
 > [!WARNING]
 > Hızlı ölçümler şu anda *yalnızca* bağımsız değişken ayırıcısı virgül olan DAX deyimleri oluşturur. **Power BI Desktop** sürümünüz, ondalık ayırıcı olarak virgülü kullanan bir dile yerelleştirilirse hızlı ölçümler düzgün şekilde çalışmaz.
@@ -151,7 +150,7 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Akıllı zaman gösterimi ve Hızlı ölçümler
-**Power BI Desktop**'ın Ekim 2017 güncelleştirmesinden itibaren akıllı zaman gösterimi **Hızlı ölçümleri** ile kendi özel tarih tablolarınızı kullanabilirsiniz. Veri modeliniz özel bir tarih tablosu içeriyorsa akıllı zaman gösterimi hızlı ölçümleri için söz konusu tablodaki birincil tarih sütununu kullanabilirsiniz. [Bu makalede](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) açıklandığı gibi, modelin ne zaman oluşturulduğundan ve ilgili tablodaki birincil tarih sütununun bir Tarih tablosu olarak işaretlendiğinden *emin olmanız gerekir*.
+**Power BI Desktop**'ın Ekim 2017 güncelleştirmesinden itibaren akıllı zaman gösterimi **Hızlı ölçümleri** ile kendi özel tarih tablolarınızı kullanabilirsiniz. Dış bir sekmeli model kullanıyorsanız, [bu makalede](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) açıklandığı gibi, modelin ne zaman oluşturulduğundan ve ilgili tablodaki birincil tarih sütununun bir Tarih tablosu olarak işaretlendiğinden emin olun. Kendi tarih tablonuzu içeri aktarıyorsanız, [bu makalede](https://docs.microsoft.com/power-bi/desktop-date-tables) açıklandığı gibi bunu bir tarih tablosu olarak işaretlediğinizden emin olun.
 
 ### <a name="additional-information-and-examples"></a>Ek bilgi ve örnekler
 **Hızlı ölçüm** hesaplamalarının her biri için örnekler sağlamayı ve rehberlik sunmayı planlıyoruz; bu nedenle lütfen ilgili makaleye ilişkin güncelleştirmeler için sayfayı yakın zamanda tekrar kontrol edin.

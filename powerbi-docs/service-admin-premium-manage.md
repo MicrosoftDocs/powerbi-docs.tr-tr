@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.
@@ -55,8 +55,8 @@ Power BI Premium SKU satın aldığınızda, kiracınız çalışan kapasitelerd
 ## <a name="capacity-admins"></a>Kapasite yöneticileri
 > [!NOTE]
 > Power BI Embedded kapasitesine ilişkin kapasite yöneticileri Microsoft Azure portalında tanımlanır.
-> 
-> 
+>
+>
 
 Bir kapasiteye kapasite yöneticisi olarak atandığınızda kapasite üzerinde tam kontrole ve kapasitenin yönetim özelliklerine sahip olursunuz. Power BI yönetici portalından daha fazla kapasite yöneticisi (yalnızca Power BI Premium) ekleyebilir veya kullanıcılara kapasite atama izinleri verebilirsiniz. Bir kapasiteye çalışma alanlarını toplu olarak atayabilir ve kapasitedeki kullanım ölçümlerini görüntüleyebilirsiniz.
 
@@ -81,14 +81,14 @@ Kullanılabilir sanal çekirdekleriniz varsa aşağıdakileri yaparak yeni kapas
 1. **Yeni kapasite ayarlama** seçeneğini belirleyin.
 2. Kapasitenize bir **ad** verin.
 3. Bu kapasitenin kapasite yöneticisini tanımlayın.
-   
+
     Kapasite yöneticilerinin Power BI yöneticisi veya Office 365 Genel yöneticisi olması gerekmez. Daha fazla bilgi için bkz. [Power BI Premium kapasite yöneticileri](#capacity-admins)
 4. Kapasite boyutunuzu seçin. Mevcut seçenekler, sahip olduğunuz kullanılabilir sanal çekirdek sayısına bağlıdır. Kullanabildiğiniz sayıdan daha fazlasını gerektiren bir seçeneği belirleyemezsiniz.
-   
+
     ![Kullanılabilir Premium kapasite boyutları](media/service-admin-premium-manage/premium-capacity-size.png)
 5. **Ayarla** seçeneğini belirleyin.
 
-![Yeni kapasitesi ayarlama](media/service-admin-premium-manage/set-up-capacity.png)
+    ![Yeni kapasitesi ayarlama](media/service-admin-premium-manage/set-up-capacity.png)
 
 Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel Yöneticileri, yönetici portalında listelenen kapasiteyi görür.
 
@@ -103,15 +103,15 @@ Premium kapasite yönetimi ekranında, eylemler bölümündeki **dişli simgesin
 
 > [!NOTE]
 > Power BI Embedded kapasite ayarları Microsoft Azure portalında yönetilir.
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Kapasite boyutunu değiştirme (Power BI Premium)
 Power BI yöneticileri ve Office 365 Genel yöneticileri Power BI Premium kapasite boyutunu **Kapasite boyutunu değiştirme** seçeneğini belirleyerek değiştirir. Power BI yöneticisi veya Office 365 Genel yöneticisi olmayan kapasite yöneticileri bu seçeneğe sahip olmaz.
 
 ![Power BI Premium kapasite boyutunu değiştirme](media/service-admin-premium-manage/change-capacity-size.png)
 
-**Kapasite boyutunu değiştirme** ekranı, kullanılabilir kaynaklarınız varsa kapasite boyutunuzu yükseltmenize veya eski sürümü yüklemenize olanak tanır. Gereken sayıda sanal çekirdeğe sahip oldukları sürece yöneticiler düğüm oluşturabilir, düğümleri yeniden boyutlandırabilir ve silebilir. 
+**Kapasite boyutunu değiştirme** ekranı, kullanılabilir kaynaklarınız varsa kapasite boyutunuzu yükseltmenize veya eski sürümü yüklemenize olanak tanır. Gereken sayıda sanal çekirdeğe sahip oldukları sürece yöneticiler düğüm oluşturabilir, düğümleri yeniden boyutlandırabilir ve silebilir.
 
 P SKU'lar EM SKU'lara düşürülebilir. Devre dışı bırakılan seçeneklerin üzerine geldiğinizde bir açıklamayla karşılaşırsınız.
 
@@ -129,31 +129,41 @@ Power BI Premium kapasiteleri için ek **Kapasite yöneticileri** atayabilirsini
 
 > [!NOTE]
 > Power BI Embedded kapasitesi için kapasite yöneticileri Microsoft Azure portalında atanır.
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>Kullanım ölçümleri (Power BI Premium)
-Her kapasiteye yönelik olarak, CPU, bellek ve DirectQuery kullanım ölçümlerini kullanabilirsiniz. Her KPI **Good** (İyi (yeşil)), **Marginal** (Marjinal (sarı)) ve **Critical** (Kritik (kırmızı)) olmak üzere üç göstergeye sahiptir. Kullanıcılarınızın, Premium içeriğini kullanırken iyi bir performans deneyimine sahip olmasını sağlamak üzere bu ölçümlerin izlenmesini öneririz.
+Her kapasiteye yönelik olarak, CPU, Bellek Temizleme ve Direct Query için kullanım ölçümlerini kullanabilirsiniz. Kullanıcılarınızın, kapasiteniz üzerinde iyi performans deneyimine sahip olmasını sağlamak için bu ölçümlerin izlenmesini öneririz:
 
-**Power BI Embedded kapasite kullanımı Azure portalında izlenir.**
+![Son yedi güne ait kullanım](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "Kapasite kullanım ölçümleri - kritik")
+> [!NOTE]
+> Power BI Embedded kapasite kullanımı Azure portalında izlenir.
 
 | Ölçüm | Açıklama |
 | --- | --- |
-| CPU |Çekirdeklerinizin CPU kullanımı. |
-| Bellek |Arka uç çekirdeklerinizin bellek baskısını gösterir. Bu, özellikle birden çok modelin kullanılmasından kaynaklanan bellek baskısı nedeniyle modellerin bellekten ne sıklıkta çıkarıldığına ilişkin bir ölçümdür. |
-| DQ/s |* Saniye başına toplam DirectQuery ve canlı bağlantı sorgusu sayısını sınırlarız.<br/>* Sınırlar şu şekildedir: P1 için 30/s, P2 için 60/s ve P3 için 120/s.<br/>* DirectQuery ve canlı bağlantı sorgusu sayısı yukarıdaki kısıtlamaya yönelik olarak birlikte hesaplanır. Örneğin, saniyede 15 DirectQuery bağlantısı ve 15 canlı bağlantıya sahipseniz kısıtlama noktanıza varmış olursunuz.<br/>* Bu, şirket içi ve bulut bağlantıları için aynı ölçüde geçerlidir. |
+| CPU |CPU’nun %80 kullanımı aşma sayısı. |
+| Bellek Temizleme |Arka uç çekirdeklerinizdeki bellek baskısını gösterir. Bu, özellikle birden çok veri kümesinin kullanılmasından kaynaklanan bellek baskısı nedeniyle veri kümelerinin bellekten ne sıklıkta çıkarıldığına ilişkin bir ölçümdür. |
+| Memory Usage |Gigabayt (GB) olarak temsil edilen ortalama bellek kullanımı. |
+| DQ/s | Direct Query ve Canlı Bağlantı sayısının, sınırın %80’ini aşma sayısı. <br> <br> * Saniye başına toplam DirectQuery ve canlı bağlantı sorgusu sayısını sınırlarız.<br><br>* Sınırlar şu şekildedir: P1 için 30/s, P2 için 60/s ve P3 için 120/s.<br><br> * Direct Query ve canlı bağlantı sorguları sayısı yukarıdaki kısıtlamaya yönelik olarak birlikte hesaplanır. Örneğin, saniyede 15 DirectQuery bağlantısı ve 15 canlı bağlantıya sahipseniz kısıtlama noktanıza varmış olursunuz.<br/><br>* Bu, şirket içi ve bulut bağlantıları için aynı ölçüde geçerlidir. |
 
-Bu ölçümlerin marjinal/kiritik olması halinde kullanıcılarınız, özellikle de yükün en yüksek olduğu zamanlarda rapor ve yenileme performansında düşüş gözlemleyebilir.
+Ölçümler, geçen hafta içindeki kullanımı yansıtır.  Ölçümlerin daha ayrıntılı bir görünümünü görmek istiyorsanız, özet kutucuklarının herhangi birine tıklayarak bunu yapabilirsiniz.  Böylece, premium kapasitenize yönelik her bir ölçüm için ayrıntılı grafiklere gidersiniz.  Bu grafikler, geçen hafta için saatlik olarak özetlenir ve premium kapasitenizde performansla ilgili belirli olaylar olduğunda sorunu ayrıştırmanıza yardımcı olabilir.  
 
-Ölçümler, geride bırakılan hafta boyunca gerçekleşen kullanımı yansıtır ve kapasitenin aşırı yüklü olması nedeniyle kullanıcılarınız için en iyi performansın sunulamadığı durumları göstermek için tasarlanmıştır.
+![CPU için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-Her *%80'in üzerinde kullanım* oluşumu, olası bir performans düşüşü durumu olarak değerlendirilmelidir. Çok fazla durum olması, kullanıcıların önemli performans sorunları yaşadığına yönelik sağlam bir göstergedir.
+![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Bellek Boyutu için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Herhangi bir ölçüme yönelik temel verileri bir csv dosyasına da dışarı aktarabilirsiniz.  Bu dışarı aktarma, geçen haftanın her günü için üçer dakikalık aralıklarla size ayrıntılı bilgi sunar.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
 Bir kapasiteye çalışma alanı atayabilmenin birkaç yolu vardır.
@@ -165,7 +175,7 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 genel
 
 1. **Çalışma alanları atama** seçeneğini belirleyin. Bu seçenek birden fazla yerde bulunur ve hepsi aynı görevi gerçekleştirir.
 2. **Tüm kuruluşun çalışma alanları** veya **Kullanıcılara göre belirli çalışma alanları** seçeneğini belirleyin.
-   
+
    | Seçim | Açıklama |
    | --- | --- |
    | **Tüm kuruluşun çalışma alanları** |Tüm kuruluşun çalışma alanlarını Premium kapasiteye atamak kuruluşunuzdaki tüm Uygulama Çalışma Alanları'nı ve Çalışma Alanım adlı kişisel alanları bu Premium kapasiteye atar. Ayrıca mevcut ve gelecekteki tüm kullanıcılar bu kapasiteye çalışma alanlarını ayrı ayrı yeniden atama iznine sahip olur. |
@@ -180,23 +190,23 @@ Söz konusu çalışma alanının ayarlarından Premium kapasiteye uygulama çal
 Bir çalışma alanını kapasiteye taşımak için söz konusu çalışma alanının yönetici izinlerinin yanı sıra bu kapasiteye ilişkin kapasite atama izinlerine de sahip olmanız gerekir. Çalışma alanı yöneticilerinin bir çalışma alanını Premium kapasiteden istedikleri zaman kaldırabileceğini unutmayın.
 
 1. **Üç nokta (...)** simgesini ve **Çalışma alanını düzenle**'yi seçerek uygulama çalışma alanını düzenleyin.
-   
+
     ![Üç nokta bağlam menüsünden çalışma alanı düzenleme](media/service-admin-premium-manage/edit-app-workspace.png)
 2. **Çalışma alanını düzenle** alanında **Gelişmiş** seçeneğini genişletin.
 3. Herhangi bir kapasite için size kapasite atama izinleri verildiyse bu çalışma alanında **Premium**'u etkinleştirme seçeneğine sahip olursunuz.
 4. Bu Uygulama çalışma alanını atamak istediğiniz kapasiteyi seçin.
-   
+
     ![Kapasite seçimi açılan listesi](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. **Kaydet**'i seçin.
 
 Kaydedildikten sonra çalışma alanı ve tüm içerikleri, son kullanıcılar için herhangi bir deneyim kesintisi olmaksızın Premium kapasiteye taşınır.
 
 ## <a name="what-premium-looks-like-for-users"></a>Premium, kullanıcılara nasıl görünür?
-Çoğunlukla kullanıcıların Premium kapasitede olduklarını bilmelerine bile gerek yoktur. Panoları ve raporları normal şekilde çalışmaya devam eder. Görsel bir ipucu olarak, Premium kapasitedeki çalışma alanlarının yanında bir baklava simgesi görürsünüz. 
+Çoğunlukla kullanıcıların Premium kapasitede olduklarını bilmelerine bile gerek yoktur. Panoları ve raporları normal şekilde çalışmaya devam eder. Görsel bir ipucu olarak, Premium kapasitedeki çalışma alanlarının yanında bir baklava simgesi görürsünüz.
 
 ![Baklava simgesi görünen çalışma alanı Premium kapasite tarafından yedeklenir](media/service-admin-premium-manage/premium-workspace.png)
 
-## <a name="power-bi-report-server-product-key"></a>Power BI Rapor Sunucusu ürün anahtarı)
+## <a name="power-bi-report-server-product-key"></a>Power BI Rapor Sunucusu ürün anahtarı
 Power BI yönetici portalının **Kapasite ayarları** sekmesinde Power BI Rapor Sunucusu ürün anahtarınıza erişebilirsiniz. Bu yalnızca Genel Yöneticiler veya Power BI hizmeti yönetici rolüne atanan kullanıcılar için ve Power BI Premium SKU satın aldıysanız kullanılabilir.
 
 ![Kapasite ayarlarındaki Power BI Rapor Sunucusu anahtarı](media/service-admin-premium-manage/pbirs-product-key.png)
@@ -211,4 +221,3 @@ Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'nu yükleme](report-server/
 Çalışma alanını Premium kapasiteye atarken, yayımlanmış uygulamaları Ücretsiz hesap kullanıcıları ile paylaşın. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

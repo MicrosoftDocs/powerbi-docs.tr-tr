@@ -1,6 +1,6 @@
 ---
-title: 'Hızlı Başlangıç: Power BI Soru-Cevap özelliğini kullanmaya başlama'
-description: 'Hızlı Başlangıç: Perakende Analizi örneğiyle Power BI hizmetindeki Soru-Cevap özelliğini kullanmaya başlama'
+title: Power BI Soru-Cevap’ı kullanmaya başlama
+description: Perakende Analizi örneğini kullanarak Power BI hizmetindeki Soru-Cevap özelliğini kullanmaya başlama
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Power BI Soru-Cevap özelliğini kullanmaya başlama (Hızlı Başlangıç)
+# <a name="get-started-with-power-bi-qa"></a>Power BI Soru-Cevap’ı kullanmaya başlama
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Perakende Analizi örneğiyle Power BI Soru-Cevap özelliğini kullanmaya başlama
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır.  Bu hızlı başlangıçta aynı görselleştirmeyi oluşturmanın 2 farklı yoluna göz atacağız: raporda oluşturma ve Soru-Cevap özelliğini kullanarak soru sorma yoluyla oluşturma. Biz Power BI hizmetini kullanacağız ancak Power BI Desktop kullanıldığında da neredeyse aynı işlem gerçekleştirilir.
 
