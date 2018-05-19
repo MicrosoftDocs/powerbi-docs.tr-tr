@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Power BI Destekli Öğrenme"
-description: "Sıralı olarak sunulan bu kursların yardımıyla öğrenme sürecinizi başlatın ve Microsoft Power BI'ın kapsamlı ve güçlü özelliklerini anlayın."
+title: Microsoft Power BI Destekli Öğrenme
+description: Sıralı olarak sunulan bu kursların yardımıyla öğrenme sürecinizi başlatın ve Microsoft Power BI'ın kapsamlı ve güçlü özelliklerini anlayın.
 layout: LandingPage
-ms.openlocfilehash: c0c9b77489731ff2107135f8720b14d320d11e52
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -31,23 +31,23 @@ ms.lasthandoff: 11/17/2017
 Başlangıç </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-1">Power BI ile tanışın</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Power BI ile tanışın</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-2">Power BI uygulamasını kullanma</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">Power BI uygulamasını kullanma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-3">Power BI uygulamasının yapı taşları</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">Power BI uygulamasının yapı taşları</a>
                                 <span style="margin-left: 32px; align-self: center;">6 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-4">Power BI hizmetine hızlı bakış</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">Power BI hizmetine hızlı bakış</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-5">Gözden geçirme ve sıradakiler</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Gözden geçirme ve sıradakiler</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                           </ul>
@@ -70,27 +70,27 @@ Başlangıç </h3>
 Veri alma </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-1">Power BI Desktop'a genel bakış</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=1">Power BI Desktop'a genel bakış</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-2">Power BI Desktop ile çalışmaya başlama</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=2">Power BI Desktop ile çalışmaya başlama</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-3">Power BI Desktop'ta veri kaynaklarına bağlanma</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=3">Power BI Desktop'ta veri kaynaklarına bağlanma</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-4">Sorgu Düzenleyicisi ile verilerinizi temizleme ve dönüştürme</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=4">Sorgu Düzenleyicisi ile verilerinizi temizleme ve dönüştürme</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-5">Daha gelişmiş veri kaynakları ve dönüştürme</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=5">Daha gelişmiş veri kaynakları ve dönüştürme</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-6">Düzensiz biçimlendirilmiş verileri temizleme</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=6">Düzensiz biçimlendirilmiş verileri temizleme</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                           </ul>
@@ -113,31 +113,31 @@ Veri alma </h3>
 Modelleme </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-1">Verilerinizi modellemeye giriş</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=1">Verilerinizi modellemeye giriş</a>
                                 <span style="margin-left: 32px; align-self: center;">3 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-2">Veri ilişkilerinizi yönetme</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=2">Veri ilişkilerinizi yönetme</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-3">Hesaplanmış sütun oluşturma</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=3">Hesaplanmış sütun oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-4">Veri modellerini iyileştirme</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=4">Veri modellerini iyileştirme</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-5">Hesaplanmış ölçü oluşturma</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=5">Hesaplanmış ölçü oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">14 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-6">Hesaplanmış tablo oluşturma</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=6">Hesaplanmış tablo oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-7">Zamana bağlı verilerinizi araştırma</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=7">Zamana bağlı verilerinizi araştırma</a>
                                 <span style="margin-left: 32px; align-self: center;">6 dk</span>
                               </li>
                           </ul>
@@ -160,79 +160,79 @@ Modelleme </h3>
 Görselleştirmeler </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-1">Power BI'daki görseller ile tanışın</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=1">Power BI'daki görseller ile tanışın</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-2">Basit görselleştirmeler oluşturma ve bunları özelleştirme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=2">Basit görselleştirmeler oluşturma ve bunları özelleştirme</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-3">Karma grafikler</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=3">Karma grafikler</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-4">Dilimleyiciler</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=4">Dilimleyiciler</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-5">Harita görselleştirmeleri</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=5">Harita görselleştirmeleri</a>
                                 <span style="margin-left: 32px; align-self: center;">11 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-6">Matrisler ve tablolar</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=6">Matrisler ve tablolar</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-7">Dağılım grafikleri</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=7">Dağılım grafikleri</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-8">Şelale ve huni grafikler</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=8">Şelale ve huni grafikler</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-9">Ölçekler ve tek bir sayı içeren kartlar</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=9">Ölçekler ve tek bir sayı içeren kartlar</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-10">Grafik ve görsellerdeki renkleri değiştirme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=10">Grafik ve görsellerdeki renkleri değiştirme</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-11">Şekiller, metin kutuları ve resimler</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=11">Şekiller, metin kutuları ve resimler</a>
                                 <span style="margin-left: 32px; align-self: center;">6 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-12">Sayfa düzeni ve biçimlendirme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=12">Sayfa düzeni ve biçimlendirme</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-13">Görselleştirmeler arasındaki etkileşimleri gruplandırma</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=13">Görselleştirmeler arasındaki etkileşimleri gruplandırma</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-14">Bir rapor sayfasını yineleme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=14">Bir rapor sayfasını yineleme</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-15">Veri içermeyen kategorileri gösterme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=15">Veri içermeyen kategorileri gösterme</a>
                                 <span style="margin-left: 32px; align-self: center;">3 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-16">Özetleme ve kategori seçenekleri</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=16">Özetleme ve kategori seçenekleri</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-17">Z düzeni</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=17">Z düzeni</a>
                                 <span style="margin-left: 32px; align-self: center;">3 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-18">Görsel hiyerarşiler ve detaya gitme</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=18">Görsel hiyerarşiler ve detaya gitme</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-19">Power BI Desktop'ta R tümleştirmesi</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=19">Power BI Desktop'ta R tümleştirmesi</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                           </ul>
@@ -255,43 +255,43 @@ Görselleştirmeler </h3>
 Verileri araştırma </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-1">Power BI hizmetine giriş</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=1">Power BI hizmetine giriş</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-2">Power BI'daki hızlı öngörüler</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=2">Power BI'daki hızlı öngörüler</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-3">Pano oluşturma ve yapılandırma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=3">Pano oluşturma ve yapılandırma</a>
                                 <span style="margin-left: 32px; align-self: center;">6 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-4">Doğal dil kullanarak verileriniz hakkında soru sorma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=4">Doğal dil kullanarak verileriniz hakkında soru sorma</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-5">Özel Soru-Cevap önerileri oluşturma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Özel Soru-Cevap önerileri oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-6">Panoları kuruluşunuzla paylaşma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=6">Panoları kuruluşunuzla paylaşma</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-7">Görselleri ve kutucukları tam ekran görüntüleme</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=7">Görselleri ve kutucukları tam ekran görüntüleme</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-8">Kutucuk ayrıntılarını düzenleme ve pencere öğesi ekleme</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=8">Kutucuk ayrıntılarını düzenleme ve pencere öğesi ekleme</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-9">Panonuzda daha fazla alan elde etme</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=9">Panonuzda daha fazla alan elde etme</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-10">Kişisel ağ geçidi yükleme ve yapılandırma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=10">Kişisel ağ geçidi yükleme ve yapılandırma</a>
                                 <span style="margin-left: 32px; align-self: center;">11 dk</span>
                               </li>
                           </ul>
@@ -314,23 +314,23 @@ Verileri araştırma </h3>
 Power BI ve Excel </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-1">Power BI'da Excel verilerini kullanmaya giriş</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=1">Power BI'da Excel verilerini kullanmaya giriş</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-2">Power BI'a Excel verileri yükleme</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=2">Power BI'a Excel verileri yükleme</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-3">Power BI'a Power View ve Power Pivot aktarma</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=3">Power BI'a Power View ve Power Pivot aktarma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-4">OneDrive İş ve Power BI arasında bağlantı kurma</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=4">OneDrive İş ve Power BI arasında bağlantı kurma</a>
                                 <span style="margin-left: 32px; align-self: center;">8 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-5">Power BI'da Excel - özet</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=5">Power BI'da Excel - özet</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                           </ul>
@@ -353,51 +353,51 @@ Power BI ve Excel </h3>
 Yayımlama ve paylaşma </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-1">İçerik paketleri, güvenlik ve gruplar ile tanışın</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=1">İçerik paketleri, güvenlik ve gruplar ile tanışın</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-2">Power BI Desktop raporlarını yayımlama</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=2">Power BI Desktop raporlarını yayımlama</a>
                                 <span style="margin-left: 32px; align-self: center;">2 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-3">Panolar ile raporları yazdırma ve dışarı aktarma</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=3">Panolar ile raporları yazdırma ve dışarı aktarma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-4">Verilerinizi elle yeniden yayımlama ve yenileme</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=4">Verilerinizi elle yeniden yayımlama ve yenileme</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-5">Power BI Mobil ile tanışın</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=5">Power BI Mobil ile tanışın</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-6">Power BI'da grup oluşturma</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=6">Power BI'da grup oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-7">İçerik paketi oluşturma</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=7">İçerik paketi oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-8">İçerik paketlerini kullanma</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=8">İçerik paketlerini kullanma</a>
                                 <span style="margin-left: 32px; align-self: center;">7 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-9">İçerik paketlerini güncelleştirme</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=9">İçerik paketlerini güncelleştirme</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-10">OneDrive İş uygulamasını Power BI ile tümleştirme</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=10">OneDrive İş uygulamasını Power BI ile tümleştirme</a>
                                 <span style="margin-left: 32px; align-self: center;">3 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-11">Web'de yayımlama</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=11">Web'de yayımlama</a>
                                 <span style="margin-left: 32px; align-self: center;">5 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-12">Power BI Destekli Öğrenme kursunu tamamlama</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=12">Power BI Destekli Öğrenme kursunu tamamlama</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                           </ul>
@@ -420,27 +420,27 @@ Yayımlama ve paylaşma </h3>
 DAX'a giriş </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-1">DAX'a giriş</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=1">DAX'a giriş</a>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-2">DAX hesaplama türleri</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=2">DAX hesaplama türleri</a>
                                 <span style="margin-left: 32px; align-self: center;">22 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-3">DAX işlevleri</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=3">DAX işlevleri</a>
                                 <span style="margin-left: 32px; align-self: center;">17 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-4">DAX ifadelerinde değişken kullanma</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=4">DAX ifadelerinde değişken kullanma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-5">Tablo ilişkileri ve DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=5">Tablo ilişkileri ve DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">13 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-6">DAX tabloları ve filtreleme</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=6">DAX tabloları ve filtreleme</a>
                                 <span style="margin-left: 32px; align-self: center;">32 dk</span>
                               </li>
                           </ul>
