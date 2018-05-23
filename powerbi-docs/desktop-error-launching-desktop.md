@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
 description: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop'ın çalışmamasına neden olan sorunları giderme
 **Power BI Desktop**’ta eski **Power BI şirket içi veri ağ geçidi** sürümlerini yüklemiş ve çalıştırıyor olan kullanıcılar, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimsel ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını çalıştıramayabilir. 

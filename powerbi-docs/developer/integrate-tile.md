@@ -1,27 +1,19 @@
 ---
-title: "Kuruluşunuz için bir Power BI kutucuğunu uygulamayla tümleştirme"
-description: "Bir kutucuğu uygulamayla tümleştirmek için adım adım kılavuz, örnek kod"
-services: powerbi
-documentationcenter: 
+title: Kuruluşunuz için bir Power BI kutucuğunu uygulamayla tümleştirme
+description: Bir kutucuğu uygulamayla tümleştirmek için adım adım kılavuz, örnek kod
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: c4c1b9223554491968a541c9d6b698a9655eded5
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Kutucukları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir kutucuğu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.

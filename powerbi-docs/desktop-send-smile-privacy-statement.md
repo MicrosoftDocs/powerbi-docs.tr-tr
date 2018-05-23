@@ -1,28 +1,20 @@
 ---
-title: "Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi"
-description: "Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi"
-services: powerbi
-documentationcenter: 
+title: Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
+description: Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: ff42531dbff46dd95c92832c6aee2d341eb3d93f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
 

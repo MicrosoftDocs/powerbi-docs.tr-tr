@@ -1,27 +1,19 @@
 ---
-title: "Mobil uygulamalar için Power BI Desktop'ta coğrafi filtreler ayarlama"
-description: "Power BI Desktop'ta modelinizde coğrafi filtreler ayarladığınızda Power BI mobil uygulamalarında konumunuza ait verileri otomatik olarak filtreleyebilirsiniz."
-services: powerbi
-documentationcenter: 
+title: Mobil uygulamalar için Power BI Desktop'ta coğrafi filtreler ayarlama
+description: Power BI Desktop'ta modelinizde coğrafi filtreler ayarladığınızda Power BI mobil uygulamalarında konumunuza ait verileri otomatik olarak filtreleyebilirsiniz.
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5fa7e303c51ac4e4a5ca0a949dabfafe3c166e74
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Mobil uygulamalar için Power BI Desktop'ta coğrafi filtreler ayarlama
 Power BI Desktop'ta bir sütunun [coğrafi verilerini kategorilere ayırarak](desktop-data-categorization.md) Power BI Desktop uygulamasının bir rapordaki görsellerde bulunan değerleri nasıl işlemesi gerektiğini belirleyebilirsiniz. Ayrıca siz veya iş arkadaşlarınız söz konusu raporu Power BI mobil uygulamalarında görüntülediğinizde Power BI, otomatik olarak bulunduğunuz konumlarla eşleşen coğrafi filtreler sağlar. 

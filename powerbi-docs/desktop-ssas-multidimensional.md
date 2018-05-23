@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
 description: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 092976d57e9635aae4a1fa62cb52fe2144029b4f
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.

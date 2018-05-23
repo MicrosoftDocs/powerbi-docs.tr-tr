@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'ta bir OData akışına bağlanma
 description: Power BI Desktop'ta bir OData akışına kolayca bağlanın ve bu akışı kullanın
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1a9d95818143e486c2c9252ea957419a2634c62
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 1b744676deecbd84890057af84e331d6e7a15e90
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Power BI Desktop'ta OData akışlarına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **OData akışına** bağlanabilir ve temel alınan verileri kullanabilirsiniz.

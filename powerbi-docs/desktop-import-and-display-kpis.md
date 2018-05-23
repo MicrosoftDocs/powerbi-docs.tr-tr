@@ -1,28 +1,20 @@
 ---
 title: Power BI'da KPI'leri içeri aktarma ve görüntüleme
 description: KPI'leri içeri aktarma ve görüntüleme
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5cb7370942cdd4b50c8315a075eb7a178b05a692
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: c077f64554101b97469dffc40b41ed3b1e8211cd
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Power BI'da KPI'leri içeri aktarma ve görüntüleme
 **Power BI Desktop** ile KPI'leri içeri aktarabilir ve tablolarda, matrislerde ve kartlarda görüntüleyebilirsiniz.
