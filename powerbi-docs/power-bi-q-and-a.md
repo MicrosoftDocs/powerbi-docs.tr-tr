@@ -1,34 +1,31 @@
 ---
 title: Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliğine genel bakış
 description: Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği
 ## <a name="what-is-qa"></a>Soru-Cevap nedir?
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Örneğin, "What were total sales last year?" (Bu yılki toplam satış rakamları nedir?)  Kullanımı kolay olan doğal dil özelliklerinden yararlanarak verilerinizi araştırmak ve grafikler ile graflar biçiminde cevaplar almak için Soru-Cevap'ı kullanın. Bir arama motorundan farklı olan Soru-Cevap, yalnızca Power BI'daki verilerle ilgili sonuçlar sunar.
 
 Bu makale, Soru-Cevap ile ilgili bilmeniz gereken her şey için bir başlangıç noktası niteliğindedir. Soru-Cevap özelliğinin Power BI hizmetinde (panolar ve raporlar), Power BI Desktop'ta (raporlar), Power BI Embedded'da ve Power BI mobil uygulamalarında nasıl kullanılacağını öğrenmek için aşağıdaki bağlantılardan birini seçin.  
+
+> [!NOTE]
+> **Power BI Soru-Cevap** yalnızca İngilizce sorulan doğal dil sorgularının yanıtlanmasını destekler. İspanyolca sorulan sorulara yönelik bir önizleme özelliğini de deneyebilirsiniz. **Power BI Desktop**’ta **Dosya**, **Seçenekler ve ayarlar**, **Seçenekler** bölümüne gidip **Önizleme Özellikleri** sekmesini bulun. **Soru-Cevap için İspanyolca dil desteği** kutusunu bulup işaretleyin.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

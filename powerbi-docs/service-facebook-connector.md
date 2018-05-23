@@ -1,28 +1,20 @@
 ---
-title: "Üçüncü taraf hizmet: Power BI Desktop için Facebook bağlayıcısı"
-description: "Üçüncü taraf hizmet: Power BI Desktop için Facebook bağlayıcısı"
-services: powerbi
-documentationcenter: 
+title: 'Üçüncü taraf hizmet: Power BI Desktop için Facebook bağlayıcısı'
+description: 'Üçüncü taraf hizmet: Power BI Desktop için Facebook bağlayıcısı'
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 894791ddc4eb632ad4dc0ee55f19bbadad5e28d6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e33e1a27903cc3fbce5c3f504287fa96dbf8305
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="facebook-connector-for-power-bi-desktop"></a>Power BI Desktop için Facebook bağlayıcısı
 **Power BI Desktop**'taki Facebook bağlayıcısı, Facebook Graph API'yi kullanır. Bu nedenle, özellikler ve kullanılabilirlik zaman içinde değişebilir.

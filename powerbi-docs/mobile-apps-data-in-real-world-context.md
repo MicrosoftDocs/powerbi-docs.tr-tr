@@ -1,27 +1,19 @@
 ---
 title: Power BI mobil uygulamaları ile gerçek dünya verileri alma
 description: Power BI mobil uygulamaları, arama yapmaya gerek duyulmadan gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: d6896686f89cc5b5eba1ec5f5e23d1e857da3c9c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları ile gerçek dünyadan veriler alma
 Power BI mobil uygulamaları çok çeşitli şekillerde gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir. 

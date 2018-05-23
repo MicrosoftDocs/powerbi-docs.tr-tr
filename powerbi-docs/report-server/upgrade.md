@@ -1,27 +1,19 @@
 ---
-title: "Power BI Rapor Sunucusu'nu yükseltme"
-description: "Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin."
-services: powerbi
-documentationcenter: 
+title: Power BI Rapor Sunucusu'nu yükseltme
+description: Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.

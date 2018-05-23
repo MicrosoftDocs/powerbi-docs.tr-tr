@@ -1,28 +1,20 @@
 ---
-title: "Performans açısından en iyi Power BI yöntemleri"
-description: "Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sağlanır"
-services: powerbi
-documentationcenter: 
+title: Performans açısından en iyi Power BI yöntemleri
+description: Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sağlanır
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -96,8 +88,14 @@ DirectQuery ve canlı bağlantı için bu sorgu önbelleğinin veri kaynağı so
 ## <a name="understand-custom-visual-performance"></a>Özel görsel öğe performansını anlama 
 Her bir özel görsel öğeyi gerekli testlere tabi tutarak öğe performansının yüksek olduğundan emin olun. Hatalı bir şekilde iyileştirilmiş özel görsel öğeler, raporun tamamının performansını olumsuz yönde etkileyebilir. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL Profiler ve Power BI Desktop ile sorgu performansına ayrıntılı bakış 
-En çok zamanı ve kaynağı hangi görsel öğelerin harcadığına yönelik daha ayrıntılı bir bakış için Power BI Desktop’a SQL Profiler’ı bağlayarak sorgu performansının tam görünümünü elde edebilirsiniz. Yönergeler aşağıda verilmiştir: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>SQL Profiler ve Power BI Desktop ile sorgu performansına ayrıntılı bakış
+
+En çok zamanı ve kaynağı hangi görsel öğelerin harcadığına yönelik daha ayrıntılı bir bakış için Power BI Desktop’a SQL Profiler’ı bağlayarak sorgu performansının tam görünümünü elde edebilirsiniz.
+
+> [!NOTE]
+> Power BI Desktop bir tanılama bağlantı noktasına bağlanmayı destekler. Tanılama bağlantı noktası, diğer araçların tanılama amacıyla bağlanmasına ve izleme gerçekleştirmesine imkan tanır. *Modele herhangi bir değişiklik yapılması desteklenmez! Modelde değişiklik yapılması bozulmaya veya veri kaybına yol açabilir.*
+
+Yönergeler aşağıda verilmiştir:
   
 1. **SQL Server Profiler’ı yükleyin ve Power BI Desktop’ı çalıştırın** 
 

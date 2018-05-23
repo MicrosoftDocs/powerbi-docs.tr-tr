@@ -1,28 +1,20 @@
 ---
 title: Power BI ile SQL Sentry'ye bağlanma
 description: Power BI için SQL Sentry
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Power BI ile SQL Sentry'ye bağlanma
 SQL Sentry tarafından toplanan performans verilerinizi Power BI ile çözümlemek kolaydır. Power BI, verilerinizi alır ve ardından bu verilere dayalı varsayılan bir pano ve raporlar oluşturur.
@@ -30,7 +22,7 @@ SQL Sentry tarafından toplanan performans verilerinizi Power BI ile çözümlem
 Power BI için [SQL Sentry içerik paketine](https://app.powerbi.com/groups/me/getdata/services/sql-sentry) bağlanın.
 
 >[!NOTE]
->Bağlanmak için, http://cloud.sqlsentry.com sayfasına bağlanırken kullandığınız SQL Sentry hesabına erişim ve izleyeceğiniz Veritabanı Kimliği gereklidir.  Veritabanı Kimliğini nerede bulacağınıza yönelik bilgiler aşağıda verilmiştir.
+>Bağlanmak için, http://cloud.sqlsentry.com adresine bağlanırken kullandığınız SQL Sentry hesabına erişim ve izleyeceğiniz Veritabanı Kimliği gereklidir.  Veritabanı Kimliğini nerede bulacağınıza yönelik bilgiler aşağıda verilmiştir.
 
 ## <a name="how-to-connect"></a>Bağlanma
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.

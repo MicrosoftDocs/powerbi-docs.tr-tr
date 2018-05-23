@@ -1,28 +1,20 @@
 ---
 title: Power BI ile Windows Dev Center'a bağlanma
 description: Power BI için Windows Dev Center
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI ile Windows Dev Center'a bağlanma
 Power BI içerik paketi ile Power BI'daki Windows Dev Center uygulama analizi verilerini araştırın ve izleyin. Veriler, günde bir kez otomatik olarak yenilenir.
@@ -73,7 +65,7 @@ Bu içerik paketi, Microsoft Store'da yayımlanmış en az bir uygulama ve Windo
 ## <a name="finding-parameters"></a>Parametreleri bulma
 Bir uygulamaya ilişkin uygulama kimliğini, App identity (Uygulama kimliği) sayfasındaki App management (Uygulama yönetimi) bölümünde bulabilirsiniz.
 
-Uygulama kimliği, Windows 10 Mağazası'na yönelik URL'nizin sonunda yer alır, https://www.microsoft.com/tr-tr/store/apps/ **{uygulamakimliği}**
+Uygulama kimliği, Windows 10 Mağazası'na yönelik URL'nizin sonunda yer alır, https://www.microsoft.com/store/apps/ **{applicationId}**
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)

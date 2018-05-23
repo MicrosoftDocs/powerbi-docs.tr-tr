@@ -1,28 +1,20 @@
 ---
 title: Power BI ile Project Madeira'ya bağlanma
 description: Power BI için Project Madeira
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI ile Project "Madeira"ya bağlanın
 Power BI ve Project "Madeira" içerik paketi sayesinde Project "Madeira" verileriniz için kolayca öngörüler elde edebilirsiniz. Power BI hem Satış hem de Finansal verilerinizi alıp bu verilere dayalı, kullanıma hazır bir pano ve raporlar oluşturur.
@@ -40,7 +32,7 @@ Power BI için [Project "Madeira" Analytics içerik paketine](https://app.powerb
     ![](media/service-connect-to-project-madeira/services.png)
 3. **Project "Madeira"** seçeneğini belirleyin ve **Al**'ı seçin.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. İstendiğinde Project "Madeira" URL'nizi girin. URL'nin tam olarak şu desende olması gerekir: https://mycronusus.projectmadeira.com:7048/NAV/OData/Şirket('CRONUS%20US'). (Kendi Project "Madeira" şirket adınızı kullanın.) Sonda eğik çizgi olmadığına ve bağlantının https biçiminde olması gerektiğine dikkat edin. [Aşağıda](#FindingParams), bu URL'yi bulma ile ilgili ayrıntılara ulaşabilirsiniz.  
+4. İstendiğinde Project "Madeira" URL'nizi girin. URL'nin tam olarak şu desende olması gerekir: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US'). (Kendi Project "Madeira" şirket adınızı kullanın.) Sonda eğik çizgi olmadığına ve bağlantının https biçiminde olması gerektiğine dikkat edin. [Aşağıda](#FindingParams), bu URL'yi bulma ile ilgili ayrıntılara ulaşabilirsiniz.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. İstendiğinde Kimlik Doğrulama Yöntemi olarak Temel seçeneğini belirleyin. Kullanıcı adı olarak Project "Madeira" e-posta adresinizi, parola olarak ise Project "Madeira" hesabınıza ilişkin web hizmeti erişim anahtarını girin. Tarayıcınızda daha önce Project "Madeira" hesabınızda oturum açtıysanız kimlik bilgileriniz istenmeyebilir. Bu erişim anahtarının nasıl oluşturulacağı hakkında ayrıntılı bilgiyi [aşağıda](#FindingParams) bulabilirsiniz.  

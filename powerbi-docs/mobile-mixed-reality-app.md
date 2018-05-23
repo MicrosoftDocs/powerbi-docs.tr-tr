@@ -1,27 +1,19 @@
 ---
 title: Karma Gerçeklik için Power BI uygulaması (Önizleme)
 description: Karma Gerçeklik için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde veya ortamınız bağlamında görüntüleyin.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: ''
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 4226973fa48470faf46db68509b05eb02d88c113
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 299f8c0997c980da6011f9052fbb9c0ac86b4ae0
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 Karma Gerçeklik için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 

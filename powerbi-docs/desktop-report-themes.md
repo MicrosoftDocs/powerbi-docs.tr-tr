@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
 description: Power BI Desktop'ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
 **Rapor Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
@@ -149,7 +141,7 @@ Temel JSON dosyasında beş adet gerekli satır bulunur:
 
 * **name**: Bu, temanın adıdır ve gerekli olan tek alandır
 * **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak onaltılık renk kodlarının listesi. Liste istediğiniz kadar renk içerebilir
-* **background**, **foreground** ve **tableAccent**: Bu değerler, **tablo** ve **matris** görsellerinde kullanılması gereken renklerdir. Bu renklerin nasıl kullanıldığı, uygulanan belirli tablo veya matris stiline bağlıdır. **Tablo** ve **matris** görselleri, bu stilleri varsayılan olarak uygular.
+* **background**, **foreground** ve **tableAccent**: Bu değerler, çeşitli görsel türlerinde uygulanması gereken renklerdir. **foreground** değeri metin kutusu metnine, KPI hedefi metnine, çok satırlı kart metnine, kart değeri metnine, ölçüm belirtme metnine, dikey dilimleyici öğesi metnine ve **tablo** ile **matris** toplam ve değerler metnine uygulanır. **background** değeri düğme dolgusuna ve birleşik grafik etiketi arka planına uygulanır. Bu renklerin nasıl kullanıldığı, uygulanan görsel stiline bağlıdır. **Tablo** ve **matris** görselleri, bu stilleri varsayılan olarak uygular.
 
 Biçimlendirme konusunda daha ayrıntılı denetim sağlayan genişletilmiş biçimli bir JSON dosyası oluşturmak için JSON dosyasına bir **visualStyles** bölümü ekleyip biçimlendirme ayrıntılarını bu bölümde iç içe yerleştirmeniz gerekir. **visualStyles** bölümünün biçimi aşağıdaki gibi görünür:
 

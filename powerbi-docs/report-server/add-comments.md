@@ -1,27 +1,19 @@
 ---
-title: "Rapor sunucularındaki raporlara açıklama ekleme - Power BI Rapor Sunucusu"
-description: "Power BI Rapor Sunucusu veya SQL Server Reporting Services rapor sunucusu üzerindeki Power BI raporlarına veya sayfalandırılmış raporlara açıklama eklemeyi öğrenin."
-services: powerbi
-documentationcenter: 
+title: Rapor sunucularındaki raporlara açıklama ekleme - Power BI Rapor Sunucusu
+description: Power BI Rapor Sunucusu veya SQL Server Reporting Services rapor sunucusu üzerindeki Power BI raporlarına veya sayfalandırılmış raporlara açıklama eklemeyi öğrenin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 24848b978ae88ae890cbd5b6eea24146cd01e542
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Rapor sunucularındaki raporlara açıklama ekleme
 Bir rapor sunucusunun web portalından raporlara (Power BI raporları dahil) açıklama ekleyebilirsiniz. Açıklamalar raporların üzerinde kalır ve gerekli izinlere sahip olan kullanıcılar rapordaki açıklamaları görebilir. Ayrıntılar için aşağıdaki [İzinler](#permissions) bölümünü inceleyin.

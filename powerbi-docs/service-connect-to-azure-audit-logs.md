@@ -1,28 +1,20 @@
 ---
 title: Power BI ile Azure Audit Logs'a bağlanma
 description: Power BI için Azure Audit Logs
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
@@ -67,8 +59,8 @@ Azure Audit Logs içerik paketi için Azure Portal'da Denetim Günlükleri eriş
 ## <a name="finding-parameters"></a>Parametreleri bulma
 Abonelik kimliğinizi bulmanın iki kolay yolu vardır.
 
-1. https://portal.azure.com -&gt; Gözat -&gt; Abonelikler -&gt; ABONELİK KİMLİĞİ'ne giderek
-2. https://manage.windowsazure.com -&gt; Ayarlar -&gt; Abonelik Kimliği'ne giderek
+1. https://portal.azure.com -&gt; Gözat - &gt; Abonelikleri - &gt; Abonelik Kimliği bölümünden
+2. https://manage.windowsazure.com -&gt; Ayarları  -&gt; Abonelik Kimliği bölümünden
 
 Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer şekilde sayılardan ve karakterlerden oluşan uzun bir dizidir. 
 

@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'ta detaylandırma özelliğini kullanma
 description: Power BI Desktop'ta yeni bir rapor sayfasında verilerin ayrıntılarına gitmeyi öğrenin
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
 **Power BI Desktop**'ta **detaylandırma** özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Odaklanmış bu rapor sayfası sayesinde kullanıcılar, diğer rapor sayfalarındaki bir veri noktasına sağ tıklayıp ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için, odaklanmış sayfaya geçebilirler.
@@ -71,6 +63,14 @@ Daha sonra bir görsel üzerinde detaylandırma yaptığınızda, kaynak görsel
 ![italik geçici filtreler](media/desktop-drillthrough/drillthrough_07.png)
 
 Araç ipuçları sayfalarında bunu kullanabilirsiniz, ancak bu sorunlu bir deneyim olacaktır (araç ipucu düzgün çalışmaz), bu nedenle araç ipuçlarıyla bu filtrelerin kullanılması önerilmez.
+
+## <a name="add-a-measure-to-drillthrough"></a>Detaylandırmak için bir ölçü ekleyin
+
+Tüm filtreleri detaylandırma penceresine geçirmeye ek olarak detaylandırma alanına bir ölçü de (veya özetlenen sayısal sütun) ekleyebilirsiniz. Tek yapmanız gereken, detaylandırma alanını Detaylandırma kartına sürükleyerek uygulamaktır. 
+
+![Detaylandırma için bir ölçü ekleyin](media/desktop-drillthrough/drillthrough_08.png)
+
+Bir ölçü (veya özetlenen sayısal sütun) eklediğinizde, alan bir görselin *Değer* alanında kullanılıyorsa sayfayı detaylandırabilirsiniz.
 
 Raporlarınızda **detaylandırma** özelliğini kullanmak için yapmanız gerekenler bu kadardır. Bu, detaylandırma filtreniz için seçtiğiniz varlık bilgilerini genişletilmiş görünümde göstermek için idealdir.
 

@@ -1,28 +1,21 @@
 ---
-title: "Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma"
-description: "ArcGis haritasını okuma görünümünde kullanma "
-services: powerbi
-documentationcenter: 
+title: Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma
+description: 'ArcGis haritasını okuma görünümünde kullanma '
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
-qualityfocus: monitoring
-qualitydate: 06/23/2017
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 3a4c722144b1d3d44dee0f742b5ae90ccef53fe3
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: 2a5e654062c056308431b2a94f7e2da4e3d46d17
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
 Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde *kullanan* bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](power-bi-visualization-arcgis.md) başvurabilirsiniz.

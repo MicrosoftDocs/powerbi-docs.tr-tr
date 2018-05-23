@@ -1,27 +1,19 @@
 ---
-title: "Windows 10 için Power BI mobil uygulamasını kullanmaya başlama"
-description: "Windows 10 için Power BI mobil uygulaması, işletme bilgilerinize tabletinizden veya telefonunuzdan güncel ve dokunmatik kullanıma uygun bir şekilde erişmenizi sağlar."
-services: powerbi
-documentationcenter: 
+title: Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
+description: Windows 10 için Power BI mobil uygulaması, işletme bilgilerinize tabletinizden veya telefonunuzdan güncel ve dokunmatik kullanıma uygun bir şekilde erişmenizi sağlar.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı tabletinize veya telefonunuza getirir. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyin ve etkileşime geçin.
@@ -33,7 +25,7 @@ Verilerinizi kullanarak [Power BI hizmetinde pano ve rapor oluşturabilirsiniz](
 Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve raporlarınızla etkileşim kurabilir, verileri araştırabilir ve paylaşabilirsiniz.
 
 ## <a name="first-things-first"></a>İlk yapılacaklar
-* Microsoft Store'dan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
+* Windows Mağazası'ndan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
   
   Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 3 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda çalışabilir.
    
@@ -127,7 +119,7 @@ Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panol
 * [SQL Server Mobil Rapor Yayımcısı ile kendi mobil raporlarınızı oluşturma](https://msdn.microsoft.com/library/mt652547.aspx) ve bu raporları Reporting Services web portalında yayımlama.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Microsoft Store'dan [Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Windows Mağazası'ndan [Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI ile çalışmaya başlama](service-get-started.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

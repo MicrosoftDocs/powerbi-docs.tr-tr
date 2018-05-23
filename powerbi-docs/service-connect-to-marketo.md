@@ -1,28 +1,20 @@
 ---
 title: Power BI ile Marketo'ya bağlanma
 description: Power BI için Marketo
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
@@ -44,7 +36,7 @@ Power BI için [Marketo içerik paketi](https://app.powerbi.com/getdata/services
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
    Marketo REST uç noktası hakkında daha fazla bilgi edinin: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Kimlik doğrulama yöntemi olarak **Temel** seçeneğini, **Kullanıcı adı** olarak İstemci Kimliğini **Parola** olarak ise Gizli Anahtarı girin. İstemci Kimliğini ve Gizli Anahtarı Marketo'da bulabilir veya Marketo yöneticinizden isteyebilirsiniz ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+5. Kimlik doğrulama yöntemi olarak **Temel** seçeneğini, **Kullanıcı adı** olarak İstemci Kimliğini **Parola** olarak ise Gizli Anahtarı girin. İstemci Kimliğini ve İstemci Gizli Anahtarını Marketo’dan veya marketo yönetiniz aracılığıyla ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) edinebilirsiniz. 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

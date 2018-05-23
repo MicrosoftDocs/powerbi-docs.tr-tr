@@ -1,28 +1,20 @@
 ---
 title: Power BI ile comScore Digital Analytix'e bağlanma
 description: Power BI için comScore Digital Analytix
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI ile comScore Digital Analytix'e bağlanma
 Power BI içerik paketi ile Power BI'da comScore Digital Analytix verilerinizi görselleştirin ve araştırın. Veriler, günde bir kez otomatik olarak yenilenir.
@@ -71,7 +63,7 @@ comScore parametrelerinizin her birini nasıl bulacağınıza ilişkin ayrıntı
 
 Bağlandığınız veri merkezi comScore'da gittiğiniz URL tarafından belirlenir.
 
-https://dax.comscore.com kullanıyorsanız "US" öğesini, https://dax.comscore.eu kullanıyorsanız "EU" öğesini girin.
+https://dax.comscore.com kullanıyorsanız “US”, https://dax.comscore.eu kullanıyorsanız “EU” değerini girin.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

@@ -1,36 +1,28 @@
 ---
 title: 'Hata: '
-communication: 
-failures": 
-in: 
-ios: 
-mobile: 
-apps: 
-'-': 
-power: 
-bi": 
-description: "Şu iletiyle karşılaşıyorsanız bu makale faydalı olabilir: \"İletişim hatalarıyla karşılaştık. Hataların nedeni Wi-Fi bağlantınızdaki proxy ayarlarıyla ilgili olabilir.\""
-services: powerbi
-documentationcenter: 
+communication: ''
+failures": ''
+in: ''
+ios: ''
+mobile: ''
+apps: ''
+'-': ''
+power: ''
+bi": ''
+description: 'Şu iletiyle karşılaşıyorsanız bu makale faydalı olabilir: "İletişim hatalarıyla karşılaştık. Hataların nedeni Wi-Fi bağlantınızdaki proxy ayarlarıyla ilgili olabilir."'
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 03/07/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 52b6876165c6760bf76715b8eb051299eb07fe0c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2d50f96dc3e29025223143ca2d2c7522b9e8b559
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="error-communication-failures-in-ios-mobile-apps---power-bi"></a>Hata: iOS mobil uygulamalarında "iletişim hatası" - Power BI
 | ![iPhone](media/mobile-known-issues-with-the-iphone-app/iphone-logo-50-px.png) | ![iPad](media/mobile-known-issues-with-the-iphone-app/ipad-logo-50-px.png) |
