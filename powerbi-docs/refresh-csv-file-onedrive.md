@@ -1,28 +1,20 @@
 ---
 title: OneDrive'daki virgülle ayrılmış değer (.csv) dosyalarından oluşturulan veri kümelerini yenileme
 description: OneDrive'daki virgülle ayrılmış değer (.csv) dosyalarından oluşturulan veri kümelerini yenileme
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a9d998655fd8d82169d265f50ce03b59da47de38
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 42f5353c49d562f4fefeec81867fd9e9ff4831c2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'daki bir .CSV dosyasından oluşturulan veri kümelerini yenileme
 ## <a name="what-are-the-advantages"></a>Avantajları nelerdir?

@@ -1,29 +1,21 @@
 ---
-title: "Power BI hizmetinden yazdırma"
-description: "Power BI'dan bir pano, kutucuk veya rapor sayfasını yazdırma."
-services: powerbi
-documentationcenter: 
+title: Power BI hizmetinden yazdırma
+description: Power BI'dan bir pano, kutucuk veya rapor sayfasını yazdırma.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI hizmetinden yazdırma
 Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.

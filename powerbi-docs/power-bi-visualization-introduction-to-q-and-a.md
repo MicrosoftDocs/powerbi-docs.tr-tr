@@ -1,28 +1,20 @@
 ---
 title: Power BI Soru-Cevap’ı kullanmaya başlama
 description: Perakende Analizi örneğini kullanarak Power BI hizmetindeki Soru-Cevap özelliğini kullanmaya başlama
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI Soru-Cevap’ı kullanmaya başlama
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Perakende Analizi örneğiyle Power BI Soru-Cevap özelliğini kullanmaya başlama

@@ -1,28 +1,20 @@
 ---
 title: Raporları Power BI'dan PowerPoint'e aktarma (Önizleme)
 description: Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğrenin.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Share your work
-ms.openlocfilehash: d518e0dfc3fd9df3ebec227b1277ee960103b0ee
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Raporları Power BI'dan PowerPoint'e aktarma (Önizleme)
 Power BI sayesinde artık raporunuzu **Microsoft PowerPoint**'te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. **PowerPoint'e aktardığınızda**, aşağıdakiler gerçekleşir:

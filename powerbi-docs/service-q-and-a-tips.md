@@ -1,28 +1,20 @@
 ---
 title: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
 description: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Soru-Cevap tarafından tanınan sözcükler ve terminoloji

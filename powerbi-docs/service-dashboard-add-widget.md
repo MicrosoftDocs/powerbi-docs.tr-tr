@@ -1,29 +1,21 @@
 ---
-title: "Panonuza resim, metin, video ve akış verileri ekleme"
-description: "Kutucuk ekle pencere öğesini kullanarak panolara resim, video, metin kutusu, web kodu ve akış verileri eklemeye ilişkin belge."
-services: powerbi
-documentationcenter: 
+title: Panonuza resim, metin, video ve akış verileri ekleme
+description: Kutucuk ekle pencere öğesini kullanarak panolara resim, video, metin kutusu, web kodu ve akış verileri eklemeye ilişkin belge.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
-qualityfocus: identified
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve başka öğeler ekleme
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>

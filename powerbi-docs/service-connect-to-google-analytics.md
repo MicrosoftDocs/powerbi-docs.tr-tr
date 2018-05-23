@@ -1,28 +1,20 @@
 ---
 title: Power BI ile Google Analytics'e bağlanma
 description: Power BI için Google Analytics
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI ile Google Analytics'e bağlanma
 Power BI aracılığıyla Google Analytics'e bağlanmak için ilk olarak Google Analytics hesabınıza bağlanırsınız. Site trafiğiniz ve kullanıcılarınıza ilişkin ölçülerle ilgili öngörüler sağlayan bir Power BI panosu ile bir dizi Power BI raporu edinirsiniz. Pano ve raporlarla etkileşim kurabilir ancak değişiklikleri kaydedemezsiniz. Veriler günde bir kez otomatik olarak yenilenir.

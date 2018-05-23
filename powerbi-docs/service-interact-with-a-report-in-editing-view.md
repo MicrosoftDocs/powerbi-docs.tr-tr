@@ -1,28 +1,20 @@
 ---
 title: Düzenleme görünümünde bir raporla etkileşim kurma
 description: Power BI hizmetindeki rapor Düzenleme görünümü'nde bir raporla etkileşim kurma
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop'ta raporlar oluşturulup düzenlenebilir. Power BI hizmetinde raporlar, **Düzenleme görünümü**'nde oluşturulup düzenlenebilir. Power BI Desktop’ta ise raporlar [**Rapor görünümü**](desktop-report-view.md)'nde oluşturulup düzenlenebilir. Bu makalede Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 

@@ -1,27 +1,19 @@
 ---
 title: Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 description: Kuruluşunuza ana ölçümler sunmayı amaçlayan pano ve rapor koleksiyonlarına sahip uygulamalar oluşturmayı ve yayımlamayı öğrenin.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -56,7 +48,7 @@ Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekl
 
 İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçin, ardından uygulamayı yayımlayın. İstediğiniz geniş kitleye doğrudan bağlantı gönderebilirsiniz veya uygulamanızı, **daha fazla uygulama indirmek ve keşfetmek üzere AppSource'taki Uygulamalar** sekmesine giderek kendileri indirebilir. Diğer kişiler uygulamanın içeriğini değiştiremez ancak ister Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilir. 
 
-## <a name="create-an-app-workspace"></a>Bir uygulama çalışma alanı oluşturma
+## <a name="create-an-app-workspace"></a>Uygulama çalışma alanı oluştur
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 Şu anda boş. Bu nedenle şimdi içerik ekleyeceğiz. Çalışma alanını ilk oluşturduğunuzda, Office 365'e yayılması için yaklaşık bir saat beklemeniz gerekebileceğini unutmayın. 

@@ -1,29 +1,21 @@
 ---
 title: Önizleme özelliklerini kullanma
 description: Önizleme sürümündeki Power BI özelliklerini etkinleştirme (ve devre dışı bırakma).
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: df676392c484239724cf631c208a4d586ca65e24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI hizmetinin önizleme özelliklerini kullanma
 ## <a name="what-are-preview-features"></a>*Önizleme özellikleri* nedir?

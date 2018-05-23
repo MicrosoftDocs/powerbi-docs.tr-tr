@@ -1,28 +1,20 @@
 ---
-title: "Power BI için Satış ve Pazarlama örneği: Tura katılın"
-description: "Power BI için Satış ve Pazarlama örneği: Tura katılın"
-services: powerbi
-documentationcenter: 
+title: 'Power BI için Satış ve Pazarlama örneği: Tura katılın'
+description: 'Power BI için Satış ve Pazarlama örneği: Tura katılın'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 39cd9c92128ca352c713bc2e37624356fea412e8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI için Satış ve Pazarlama örneği: Tura katılın
 

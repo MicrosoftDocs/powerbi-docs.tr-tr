@@ -1,28 +1,20 @@
 ---
-title: "Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu"
-description: "Power BI'ın çalışmasına yönelik sorularınız konusunda yardım almanın 10 yolu"
-services: powerbi
-documentationcenter: 
+title: Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
+description: Power BI'ın çalışmasına yönelik sorularınız konusunda yardım almanın 10 yolu
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -52,7 +44,7 @@ Video izlemek öğrenme şeklinize daha mı uygun? Power BI ilginizi çekecek ik
 ## <a name="6-attend-training"></a>6 Eğitimlere katılın
 Yüz yüze laboratuvar eğitimlerinden kısa videolara kadar neredeyse sınırsız sayıda eğitim seçeneğiniz bulunmaktadır.
 
-* Power BI sitesindeki [destekli öğrenme](guided-learning/gettingstarted.yml#step-1) kursu.
+* Power BI sitesindeki [destekli öğrenme](guided-learning/gettingstarted.yml?tutorial-step=1) kursu.
 * Power BI sitesinden canlı ve isteğe bağlı olarak sunulan [ücretsiz Power BI web seminerleri](webinars.md).
 
 Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belirtilmiştir:

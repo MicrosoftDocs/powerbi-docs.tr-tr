@@ -1,28 +1,20 @@
 ---
 title: Dosyalardan veri alma
 description: Excel, Power BI Desktop ve CSV dosyalarından Power BI'a veri almayı öğrenin
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 04/01/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 629eb65b4090023c24df3098ba1b629349edf128
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 2c23043840e750cf4e8ef7a06a613f750bfddcf2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-data-from-files"></a>Dosyalardan veri alma
 ![](media/service-get-data-from-files/file_icons.png)

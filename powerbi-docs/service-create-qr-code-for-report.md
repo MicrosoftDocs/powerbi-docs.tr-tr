@@ -1,28 +1,20 @@
 ---
 title: Power BI Mobil uygulamalarında kullanmak üzere bir rapor için QR kodu oluşturma
 description: Power BI'daki QR kodları kullanılarak gerçek dünyadaki her şey, Power BI Mobil uygulamasındaki ilgili BI bilgilerine, arama gerekmeden doğrudan bağlanabilir.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir rapor için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey, ilgili BI bilgilerine, gezinti ve arama gerekmeden doğrudan bağlanabilir.

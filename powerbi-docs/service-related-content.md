@@ -1,29 +1,21 @@
 ---
-title: "Power BI hizmetinde ilişkili içeriği görüntüleme"
-description: "Gezinme artık daha kolay; panolardaki, raporlardaki ve veri kümelerindeki ilişkili içeriği görüntüleyin"
-services: powerbi
-documentationcenter: 
+title: Power BI hizmetinde ilişkili içeriği görüntüleme
+description: Gezinme artık daha kolay; panolardaki, raporlardaki ve veri kümelerindeki ilişkili içeriği görüntüleyin
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
 **İlişkili içerik** bölmesi, Power BI hizmet içeriğinizin (panolar, raporlar ve veri kümeleri) birbirine nasıl bağlı olduğunu gösterir.  Ayrıca, bu bölmeden yenileme, yeniden adlandırma, öngörü oluşturma gibi ortak görevleri ve çok daha fazlasını yapabilirsiniz. Bir ilgili rapor veya pano seçin, ardından seçiminiz Power BI çalışma alanınızda açılır.   

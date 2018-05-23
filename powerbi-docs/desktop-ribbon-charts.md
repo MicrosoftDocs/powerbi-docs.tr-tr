@@ -1,28 +1,20 @@
 ---
 title: Power BI'daki şerit grafikleri kullanma
 description: Power BI hizmetinde ve Power BI Desktop'ta şerit grafikler oluşturma ve bunları kullanma
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9855d0e0f0c3703773463f09faa95ec9a80ab343
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI'daki şerit grafikleri kullanma
 **Power BI**'da verileri görselleştirmek ve en yüksek dereceli (en yüksek değer) veri kategorisini hızla belirlemek için şerit grafikleri kullanabilirsiniz. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir. **Power BI Desktop**'ta şerit grafikler, Eylül 2017 sürümünden başlayarak ve **Power BI hizmetinde** gerçekleştirilen sonraki güncelleştirmelerle kullanıma sunulmuştur.

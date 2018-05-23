@@ -1,28 +1,20 @@
 ---
-title: "Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)"
-description: "Power BI hizmetindeki raporları Power BI Desktop dosyalarına indirme"
-services: powerbi
-documentationcenter: 
+title: Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
+description: Power BI hizmetindeki raporları Power BI Desktop dosyalarına indirme
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
 Power BI Desktop uygulamasında bir raporu kaydedip **Yayımla**'yı seçerek Power BI hizmetine aktarabilirsiniz (*indirme* olarak da adlandırılır). Ayrıca, bu dışarı aktarma işleminin yönünü değiştirip Power BI hizmetinde bulunan bir raporu Desktop uygulamasına indirebilirsiniz. Herhangi bir yönde dışarı aktarılan dosyaların uzantısı *.pbix* olur.
@@ -38,7 +30,7 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin son
 2. Menü çubuğundan **Dosya > Raporu indir**'i seçin.
    
    > [!NOTE]
-   > Raporun indirilebilmesi için 23 Kasım 2016 tarihinden sonra [Power BI Desktop kullanılarak oluşturulmuş](guided-learning/publishingandsharing.yml#step-2) ve bu tarihten sonra güncelleştirilmiş olması gerekir. Aksi halde Power BI hizmetindeki *Raporu indir* seçeneği gri renkte görünür.
+   > Raporun indirilebilmesi için 23 Kasım 2016 tarihinden sonra [Power BI Desktop kullanılarak oluşturulmuş](guided-learning/publishingandsharing.yml?tutorial-step=2) ve bu tarihten sonra güncelleştirilmiş olması gerekir. Aksi halde Power BI hizmetindeki *Raporu indir* seçeneği gri renkte görünür.
    > 
    > 
 3. .pbix dosyası oluşturulurken bir durum başlığında ilerleme durumu görüntülenir. Hazır olduğunda .pbix dosyasını açmanız veya kaydetmeniz istenir. Dosyanın adı raporun başlığıyla aynı olur.

@@ -4,13 +4,13 @@ Başardınız! **Tebrikler!** Power BI **Destekli Öğrenme** kursunu tamamladı
 
 Bu, kursun son bölümüdür. (DAX hakkında bilgi edinmek istemiyorsanız aynı zamanda son konudur.) Sırasıyla tüm bu bölümleri incelediyseniz kendinizi tebrik edebilirsiniz. İyi iş çıkardınız! Artık tüm bu **önemli kavramlara** hakimsiniz:
 
-* [Power BI nedir](../gettingstarted.yml#step-1)?
-* Power BI'ın [yapı taşları](../gettingstarted.yml#step-3)
-* Verileri [alma](../gettingdata.yml#step-3) ve [modelleme](../modeling.yml#step-1)
-* [Görselleştirmeler](../visualizations.yml#step-1)
-* Power BI hizmetinde [verileri araştırma](../exploringdata.yml#step-1)
-* [Excel ve Power BI](../powerbiandexcel.yml#step-1) yazılımlarını birlikte kullanma
-* Çalışmanızı [yayımlama ve paylaşma](../publishingandsharing.yml#step-1)
+* [Power BI nedir](../gettingstarted.yml?tutorial-step=1)?
+* Power BI'ın [yapı taşları](../gettingstarted.yml?tutorial-step=3)
+* Verileri [alma](../gettingdata.yml?tutorial-step=3) ve [modelleme](../modeling.yml?tutorial-step=1)
+* [Görselleştirmeler](../visualizations.yml?tutorial-step=1)
+* Power BI hizmetinde [verileri araştırma](../exploringdata.yml?tutorial-step=1)
+* [Excel ve Power BI](../powerbiandexcel.yml?tutorial-step=1) yazılımlarını birlikte kullanma
+* Çalışmanızı [yayımlama ve paylaşma](../publishingandsharing.yml?tutorial-step=1)
 
 Artık bu önemli bilgi birikimine sahip olduğunuza göre uygulamaya geçmeye hazırsınız! **İndirmelere ulaşmaya** veya tarayıcınızın **Power BI hizmetine bağlanmasını** sağlamaya yönelik bazı bağlantılar aşağıda verilmiştir:
 

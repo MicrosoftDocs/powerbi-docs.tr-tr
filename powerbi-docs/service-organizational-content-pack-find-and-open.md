@@ -1,28 +1,20 @@
 ---
 title: Kurumsal içerik paketleri bulma ve bunlara bağlanma - Power BI
 description: Power BI'da kurumsal içerik paketi bulma ve açma
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56766f6b2170a6bc7d22d1b9581db2d3bde441ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f1580aeeb25d5159eff7fcb4759bb426e5ff0bfd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Kurumsal içerik paketleri bulma ve bunlara bağlanma
 > [!NOTE]

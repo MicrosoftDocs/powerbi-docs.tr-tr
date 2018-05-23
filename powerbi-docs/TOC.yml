@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Güvenlik Merkezi
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: Yenileme ile ilgili sorun giderme senaryoları
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Gizlilik ayarlarını devre dışı bırakma
-                  href: refresh-enable-fast-combine.md
             - name: Sorun giderme
               items:
                 - name: Power BI parolanızı mı unuttunuz?
@@ -470,6 +466,18 @@
       items:
         - name: Birden çok veri kaynağını şekillendirme ve birleştirme
           href: desktop-shape-and-combine-data.md
+        - name: Power BI Desktop'ı kullanarak bir Web Sayfasından verileri içeri aktarma ve çözümleme
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Excel’den ve bir OData akışından satış verilerini çözümleme'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Power BI Desktop'ta kendi ölçülerinizi oluşturma
+          href: desktop-tutorial-create-measures.md
+        - name: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Power BI Desktop ile Facebook analizi
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Örnekler
       items:
         - name: Power BI için Financial Sample çalışma kitabını indirme
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Power BI Desktop'tan yayımlama
           href: desktop-upload-desktop-files.md
-        - name: Power BI Desktop'ı kullanarak bir Web Sayfasından verileri içeri aktarma ve çözümleme
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel’den ve bir OData akışından satış verilerini çözümleme'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop'ta kendi ölçülerinizi oluşturma
-          href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop ile Facebook analizi
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Power BI'daki özel görselleştirmeler
           href: power-bi-custom-visuals.md
         - name: Power BI’da kuruluşlara yönelik özel görseller
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Nasıl yapılır?
       items:
-        - name: Geliştirici Araçları ile özel görsel oluşturma
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: İçeriğinizi ekleme
           href: developer/embedding-content.md
         - name: Bir panoya veri gönderme
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: İçeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
           href: developer/embed-sample-for-customers.md
+        - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Özel görsel oluşturma
+          items:
+            - name: Geliştirici Araçları ile özel görsel oluşturma
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Özel görselleri güvenlik ve gizlilik bakımından gözden geçirme
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Özel görselleri sertifikalatma
+              href: power-bi-custom-visuals-certified.md
+            - name: AppSource'ta özel görsel yayımlama
+              href: developer/office-store.md
         - name: Ekleme
           items:
             - name: Power BI ile ekleme
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Katıştırılmış uygulamanızla ilgili sorunları giderme
               href: developer/embedded-troubleshoot.md
-        - name: Özel görsel oluşturma
-          items:
-            - name: Özel görselleri güvenlik ve gizlilik bakımından gözden geçirme
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Özel görselleri sertifikalatma
-              href: power-bi-custom-visuals-certified.md
         - name: Bir panoya veri gönderme
           items:
             - name: Bir uygulamayı Azure AD'ye kaydetme
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Kaynaklar
       items:
-        - name: JavaScript ekleme demosu
+        - name: JavaScript Playground Örneği
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Örnekler
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Ara sunucu ayarlarını yapılandırma
           href: service-gateway-proxy.md
-        - name: Şirket içi veri ağ geçidi (ayrıntılı)
-          href: service-gateway-onprem-indepth.md
         - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
           href: service-gateway-high-availability-clusters.md
+        - name: Şirket içi veri ağ geçidi
+          href: service-gateway-onprem.md
+        - name: Şirket içi veri ağ geçidi (ayrıntılı)
+          href: service-gateway-onprem-indepth.md
         - name: Şirket içi veri ağ geçidi (kişisel mod)
           href: service-gateway-personal-mode.md
         - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Power BI hesabınızı kapatma
           href: service-admin-closing-your-account.md
+        - name: Kuruluşunuzda Power BI Pro
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Kuruluşunuz için Power BI (ücretsiz)
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI ve ExpressRoute

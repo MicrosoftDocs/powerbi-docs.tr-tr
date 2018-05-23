@@ -1,28 +1,20 @@
 ---
-title: "Cep telefonları için bir Power BI panosunun görünümünü oluşturma"
-description: "Özellikle cep telefonlarında görüntülemeye yönelik olarak Power BI hizmetindeki bir panonun özelleştirilmiş bir görünümünü oluşturmayı öğrenin."
-services: powerbi
-documentationcenter: 
+title: Cep telefonları için bir Power BI panosunun görünümünü oluşturma
+description: Özellikle cep telefonlarında görüntülemeye yönelik olarak Power BI hizmetindeki bir panonun özelleştirilmiş bir görünümünü oluşturmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Cep telefonları için en iyi duruma getirilmiş Power BI panosu görünümü oluşturma
 Telefon kullanırken Power BI Mobil uygulamasında panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlara özel olarak, sahip olduğunuz herhangi bir panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz.

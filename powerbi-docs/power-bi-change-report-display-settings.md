@@ -1,28 +1,20 @@
 ---
 title: Bir rapor sayfasının boyutunu değiştirme
 description: Power BI raporundaki bir sayfanın görüntüleme ayarlarını değiştirme
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: modifying
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="change-the-size-of-a-report-page"></a>Bir rapor sayfasının boyutunu değiştirme
 [Önceki makalede ve videoda](power-bi-report-display-settings.md), Power BI raporlarındaki sayfaların nasıl görüntüleneceğini denetlemeye ilişkin iki farklı yöntem öğrendiniz: **Görünüm** ve **Sayfa Boyutu**. Sayfa görünümü ve Sayfa Boyutu hem Power BI hizmetinde hem de Power BI Desktop'ta kullanılabilir. Görünüm ve işlevler de hemen hemen aynıdır ancak bu eğitimde biz Power BI hizmetini kullanacağız.

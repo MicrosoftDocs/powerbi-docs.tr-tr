@@ -1,25 +1,19 @@
 ---
 title: 'Eğitim: Soru-Cevap özelliğini bir panoda veya raporda kullanma'
 description: Pano ve raporlarda yeni görselleştirmeler oluşturmak için Power BI Soru-Cevap özelliğinin nasıl kullanılacağına ilişkin eğitim.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Eğitim: Görselleştirmeler ve raporlar oluşturmak için Soru-Cevap özelliğini kullanma
 [Soru-Cevap özelliğine genel bakış](power-bi-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.

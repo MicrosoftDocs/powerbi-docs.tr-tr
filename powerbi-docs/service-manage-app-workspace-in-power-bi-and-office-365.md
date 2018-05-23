@@ -1,28 +1,20 @@
 ---
 title: Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 description: Power BI'daki uygulama çalışma alanları, Office 365 grupları temel alınarak oluşturulmuş bir işbirliği deneyimi sunar. Uygulama çalışma alanlarınızı hem Power BI'da hem de Office 365'te yönetebilirsiniz.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8aac093b06910d5d32c2e5d33951db9448757c4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-install-use-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 

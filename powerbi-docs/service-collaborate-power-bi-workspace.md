@@ -1,28 +1,20 @@
 ---
 title: Power BI uygulama çalışma alanınızda işbirliği yapma
 description: Office 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak uygulama çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
 Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. Çalışma alanları tam olarak işbirliği yapabilmeniz için tasarlanmıştır. İş arkadaşlarınızla birlikte pano ve raporlarınızda işbirliği yaptıktan sonra çalışma alanını bir uygulama olarak paket haline getirip dağıtabilirsiniz. [Power BI'da uygulama ve uygulama çalışma alanları oluşturma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin. 

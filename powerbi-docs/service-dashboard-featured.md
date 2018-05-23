@@ -1,29 +1,21 @@
 ---
-title: "Power BI'daki öne çıkan panolar"
-description: "Power BI hizmetinde Öne çıkan pano oluşturmaya ilişkin belge"
-services: powerbi
-documentationcenter: 
+title: Power BI'daki öne çıkan panolar
+description: Power BI hizmetinde Öne çıkan pano oluşturmaya ilişkin belge
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 31fe8629b2943e125b2e70106cc9c87578ecc977
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma

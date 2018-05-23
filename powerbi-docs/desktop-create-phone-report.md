@@ -1,28 +1,20 @@
 ---
-title: "Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma"
-description: "Power BI Desktop'ta rapor sayfalarını Power BI telefon uygulamaları için en iyi duruma getirmeyi öğrenin."
-services: powerbi
-documentationcenter: 
+title: Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
+description: Power BI Desktop'ta rapor sayfalarını Power BI telefon uygulamaları için en iyi duruma getirmeyi öğrenin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
 [Power BI Desktop'ta bir rapor oluşturduğunuzda](desktop-report-view.md) raporun telefona özgü bir sürümünü oluşturarak telefonlardaki mobil uygulamalarda daha iyi bir kullanım deneyimi sunmasını sağlayabilirsiniz. Raporunuzu telefon için uyarlamak üzere görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.

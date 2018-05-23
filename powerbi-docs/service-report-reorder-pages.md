@@ -1,28 +1,20 @@
 ---
-title: "Power BI'daki bir raporda bulunan sayfaları yeniden sıralama"
-description: "Power BI hizmetinde ve Power BI Desktop'taki bir raporda bulunan sayfaları yeniden sıralama"
-services: powerbi
-documentationcenter: 
+title: Power BI'daki bir raporda bulunan sayfaları yeniden sıralama
+description: Power BI hizmetinde ve Power BI Desktop'taki bir raporda bulunan sayfaları yeniden sıralama
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e137a0af200da7c32d3261eb43d53c9d82a3b476
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 205df68a380c9c8b33ce11fae5509c555ec506cb
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Power BI'daki bir raporda bulunan sayfaları yeniden sıralama
 Power BI'da raporlar bir veya daha fazla sayfadan oluşur.  Her sayfanın at kısmında bir sekme bulunur.  Bir raporu yeniden sıralamak için söz konusu sekmeyi seçmeniz ve yeni konumuna sürüklemeniz yeterlidir.

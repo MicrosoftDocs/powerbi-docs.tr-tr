@@ -1,28 +1,20 @@
 ---
 title: Power BI Desktop'ta dilimleyicileri kullanma
 description: Power BI Desktop'ta dilimleyicileri kullanarak raporları filtreleyebilir, vurgulayabilir ve özelleştirebilirsiniz
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 734ee85977dbde709f6e78eda72e9a0d3658adb4
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 2ee3f5aa5416e69646756b1028ea64f1e273d0df
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Power BI Desktop'ta dilimleyicileri kullanma
 

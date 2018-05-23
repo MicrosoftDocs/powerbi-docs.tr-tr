@@ -1,28 +1,20 @@
 ---
-title: "Power BI için Financial Sample çalışma kitabını indirme"
-description: "Power BI için Financial Sample çalışma kitabını indirme"
-services: powerbi
-documentationcenter: 
+title: Power BI için Financial Sample çalışma kitabını indirme
+description: Power BI için Financial Sample çalışma kitabını indirme
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 10/28/2017
 ms.author: amac
 LocalizationGroup: Samples
-ms.openlocfilehash: 966c64e45db296888e7927130f263c288d7e714d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b122bbfc43ccfbe7a03b4c63f0f83ce49a27754e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI için Financial Sample çalışma kitabını indirme
 Power BI hizmetini denemek için veriye mi ihtiyacınız var? Sizin için hazırladığımız, örnek finansal veriler içeren basit bir Excel çalışma kitabını indirebilirsiniz.  Nasıl indireceğiniz aşağıda açıklanmıştır:

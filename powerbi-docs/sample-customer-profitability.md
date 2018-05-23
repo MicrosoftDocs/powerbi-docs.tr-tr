@@ -1,28 +1,20 @@
 ---
 title: 'Power BI için Customer Profitability Sample: Tura katılın'
 description: 'Power BI için Customer Profitability Sample: Tura katılın'
-services: powerbi
-documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 63cb0e8c3072c7e748e1829a46c01340b9ceea61
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 2150c1c54a32ab201218088265f1b10c7c8a8f0e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Customer Profitability Sample: Tura katılın
 

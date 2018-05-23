@@ -1,25 +1,21 @@
 ---
 title: Power BI hizmetinde dolaşma
 description: Yeni Power BI gezinti deneyimine genel bakış
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: quickstart
 ms.component: powerbi-service
-ms.workload: powerbi
+ms.topic: quickstart
 ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 

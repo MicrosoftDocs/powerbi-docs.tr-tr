@@ -1,28 +1,20 @@
 ---
 title: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 description: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5db7d92b7d62d1518682d831dd425e8b4b6efe86
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: dd43c063d56f75fd1ba45b6c596f54fd002adad6
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -45,7 +37,7 @@ Power BI'a iş e-posta adresinizle kaydolma ile ilgili sorun yaşıyorsanız ola
 4. İşte bu kadar!  İşlem tamamlandığında yeniden Power BI'a yönlendirilirsiniz.
 
 ## <a name="important-considerations"></a>Önemli noktalar
-Oturum açma yöntemini kullanarak yeni bir kuruluş kiracısı oluşturursunuz ve bu kiracının yöneticisi olarak atanırsınız.  Power BI'da paylaşım tek bir kiracıyla sınırlı olduğundan kiracı dışındaki kullanıcılarla paylaşımda bulunamazsınız.  Örneğin, 2. Adım'da yourcompany.onmicrosoft.com kiracısını oluşturursanız yourcompany.com kiracısındaki kullanıcılarla paylaşımda bulunamazsınız.  Kiracınıza yeni kullanıcılar ekleyebilir ve ardından söz konusu kullanıcılarla [bu yardım konusunda](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG) açıklandığı gibi paylaşımda bulunabilirsiniz.
+Oturum açma yöntemini kullanarak yeni bir kuruluş kiracısı oluşturursunuz ve bu kiracının yöneticisi olarak atanırsınız. Kiracınıza yeni kullanıcılar ekleyebilir ve ardından söz konusu kullanıcılarla [bu yardım konusunda](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG) açıklandığı gibi paylaşımda bulunabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  

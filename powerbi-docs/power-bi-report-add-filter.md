@@ -1,28 +1,20 @@
 ---
 title: Bir rapora görselleştirme, sayfa, detaylandırma veya rapor filtresi ekleme
 description: Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi veya rapor filtresi ekleme
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Bir Power BI hizmet raporuna filtre ekleme (Düzenleme görünümünde)
 > [!TIP]

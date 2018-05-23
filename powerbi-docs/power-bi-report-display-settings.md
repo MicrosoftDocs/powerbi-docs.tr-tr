@@ -1,29 +1,21 @@
 ---
-title: "Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları"
-description: "Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları"
-services: powerbi
-documentationcenter: 
+title: Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları
+description: Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8d8fd5e3c983acc458647ae5efce67bafd4cd412
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunun bilincindeyiz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğinizden bu, zaman zaman güç olabilir. 
