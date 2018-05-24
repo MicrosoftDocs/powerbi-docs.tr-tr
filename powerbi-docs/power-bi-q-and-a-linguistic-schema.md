@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Dil modelleme ve dil şeması 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap ile bunu yapabilirsiniz. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. 
@@ -53,10 +53,7 @@ Dil şeması YAML dosyalarını düzenlemek için Visual Studio Code kullanılma
 
     ![Bu dosyayı nasıl açmak istiyorsunuz?](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. Visual Studio Code’da, YAML Support by Red Hat uzantısını yükleyin.
-
-   
-
+4. Visual Studio Code’da, YAML Support by Red Hat uzantısını yükleyin.    
     a. **Uzantılar** sekmesini (solda en sonda yer alan) seçin veya CTRL+SHIFT+X tuşlarına basın.    
     ![uzantılar simgesi](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. "Yaml" ifadesini arayın ve listeden **YAML Support by Red Hat** seçeneğini belirleyin.    

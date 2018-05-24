@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2150c1c54a32ab201218088265f1b10c7c8a8f0e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f20fe4595236381106b6cb2a676ffd3d3baa3971
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Customer Profitability Sample: Tura katılın
 
@@ -47,7 +47,7 @@ Birlikte ilerlemek ister misiniz? Bu öğreticide, Power BI hizmeti ve "Müşter
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
 Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
-[Müşteri Kârlılığı Örneği](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+[Müşteri Kârlılığı Örneği](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 

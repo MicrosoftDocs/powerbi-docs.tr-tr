@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: eb21eede666653e53af4ab012a712091b49be7d2
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın
 
