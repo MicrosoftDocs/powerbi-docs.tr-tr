@@ -1,27 +1,19 @@
 ---
-title: "Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma"
-description: "Tekdüzen kaynak tanımlayıcısı (URI) kullanarak Power BI mobil uygulamasındaki belirli bir panonun, kutucuğun veya raporun ayrıntılı bağlantısını oluşturmayı öğrenin."
-services: powerbi
-documentationcenter: 
+title: Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
+description: Tekdüzen kaynak tanımlayıcısı (URI) kullanarak Power BI mobil uygulamasındaki belirli bir panonun, kutucuğun veya raporun ayrıntılı bağlantısını oluşturmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Tüm mobil platformlardaki (iOS, Android cihazlar ve Windows 10) Power BI mobil uygulamalarında belirli bir konumun bağlantısına (*ayrıntılı bağlantı*) yönelik bir tekdüzen kaynak tanımlayıcısı (URI) oluşturup kullanabilirsiniz.
@@ -41,13 +33,13 @@ Bu URI, Power BI mobil uygulamasını belirli bir pano ile açar:
 
     mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
 
-36 karakterden oluşan pano nesnesi kimliğini bulmak için Power BI hizmetinde (https://powerbi.com) söz konusu panoya gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
+36 karakterden oluşan pano nesnesi kimliğini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
 https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
 
 Pano, Çalışma Alanım dışındaki bir gruptaysa pano kimliğinin önüne veya sonuna `&GroupObjectId=<36-character-group-id>` ekleyin. Örneğin, 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 İkisi arasındaki ve işaretine (&) dikkat edin.
 
@@ -56,7 +48,7 @@ Bu URI, Power BI mobil uygulamasını odak modunda belirli bir pano ile açar:
 
     mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
 
-36 karakterden oluşan pano ve kutucuk nesnesi kimliklerini bulmak için Power BI hizmetinde (https://powerbi.com) söz konusu panoya gidin ve kutucuğu odak modunda açın. Örneğin, şu URL'nin vurgulanan bölümlerine bakın:
+36 karakterden oluşan pano ve kutucuk nesnesi kimliklerini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin ve kutucuğu odak modunda açın. Örneğin, şu URL'nin vurgulanan bölümlerine bakın:
 
 https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
 
@@ -73,7 +65,7 @@ Bu URI, Power BI mobil uygulamasında belirli bir raporu açar:
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
 
-36 karakterden oluşan rapor nesnesi kimliğini bulmak için Power BI hizmetindeki (https://powerbi.com) söz konusu rapora gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
+36 karakterden oluşan rapor nesnesi kimliğini bulmak için Power BI hizmetindeki (https://powerbi.com)) söz konusu rapora gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
 https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
@@ -82,7 +74,7 @@ Bu URI, Power BI mobil uygulamasında belirli bir rapor sayfasını açar:
 
     mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
 
-Rapor sayfası, ardından gelecek bir sayıyla birlikte "ReportSection" olarak adlandırılır. Power BI hizmetinde (https://powerbi.com) raporu tekrar açın ve söz konusu rapor sayfasına gidin. 
+Rapor sayfası, ardından gelecek bir sayıyla birlikte "ReportSection" olarak adlandırılır. Power BI hizmetinde (https://powerbi.com)) raporu tekrar açın ve söz konusu rapor sayfasına gidin. 
 
 Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 

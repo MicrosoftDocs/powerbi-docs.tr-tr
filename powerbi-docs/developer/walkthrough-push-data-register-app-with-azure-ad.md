@@ -1,27 +1,19 @@
 ---
-title: "Bir uygulamayı Azure AD'ye kaydetme"
-description: "İzlenecek yol - Veri kümesine veri gönderme - Bir uygulamayı Azure AD'ye kaydetme"
-services: powerbi
-documentationcenter: 
+title: Bir uygulamayı Azure AD'ye kaydetme
+description: İzlenecek yol - Veri kümesine veri gönderme - Bir uygulamayı Azure AD'ye kaydetme
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
 Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişkin adım adım kılavuzun bir parçasıdır.
@@ -39,7 +31,7 @@ Bir uygulamayı Azure AD'ye kaydetmeye ilişkin adımlar aşağıda açıklanmı
 2. **Sign in with your existing account** (Mevcut hesabınızla oturum açın) seçeneğine tıklayın ve Power BI hesabınızda oturum açın.
 3. **App Name** (Uygulama Adı) alanına bir uygulama adı (örneğin, "Örnek veri gönderme uygulaması") girin.
 4. **App Type** (Uygulama Türü) için **Native app** (Yerel uygulama) seçeneğini belirleyin.
-5. **Redirect URL** (Yönlendirme URL'si) alanına **https://login.live.com/oauth20_desktop.srf** gibi bir URL girin. **Native client app** (Yerel istemci uygulaması) için yönlendirme URI'si girildiğinde, **Azure AD**'ye kimliği doğrulanacak belirli uygulama ile ilgili daha ayrıntılı bilgi sağlanmış olur. İstemci uygulamaları için standart URI şu şekildedir: https://login.live.com/oauth20_desktop.srf.
+5. **https://login.live.com/oauth20_desktop.srf** gibi bir **Yeniden yönlendirme URL'si** girin. **Native client app** (Yerel istemci uygulaması) için yönlendirme URI'si girildiğinde, **Azure AD**'ye kimliği doğrulanacak belirli uygulama ile ilgili daha ayrıntılı bilgi sağlanmış olur. Bir istemci uygulamasının standart Uri’si https://login.live.com/oauth20_desktop.srf.
 6. **Choose APIs to access** (Erişilecek API'leri seçin) bölümünde **Read and Write All Datasets** (Tüm Veri Kümelerini Okuma ve Yazma) seçeneğini belirleyin. Tüm Power BI uygulama izinleri için bkz. [Power BI İzinleri](power-bi-permissions.md).
 7. **Register app**'e (Uygulamayı kaydet) tıklayın ve oluşturulan **İstemci Kimliğini** kaydedin. **İstemci Kimliği**, Azure AD'de uygulamayı tanımlar.
 

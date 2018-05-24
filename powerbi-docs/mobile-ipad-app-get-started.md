@@ -1,27 +1,19 @@
 ---
-title: "iPad'de Power BI mobil uygulamasını kullanmaya başlama"
-description: "iPad'deki iOS için Microsoft Power BI uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin."
-services: powerbi
-documentationcenter: 
+title: iPad'de Power BI mobil uygulamasını kullanmaya başlama
+description: iPad'deki iOS için Microsoft Power BI uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>iPad'de Power BI mobil uygulamasını kullanmaya başlama
 iPad'lerdeki iOS için Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -46,7 +38,7 @@ Apple App Store'dan [iPad uygulamasını indirin](http://go.microsoft.com/fwlink
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI hizmetine kaydolma
-Henüz yapmadıysanız hizmete kaydolmak için Power BI web sitesine (https://powerbi.com) gidin. Ücretsiz kaydolabilirsiniz.
+Henüz yapmadıysanız hizmete kaydolmak için Power BI web sitesine (https://powerbi.com)) gidin. Ücretsiz kaydolabilirsiniz.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI uygulamasını kullanmaya başlama
 1. iPad'de Power BI uygulamasını açın.

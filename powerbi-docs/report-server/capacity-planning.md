@@ -1,27 +1,19 @@
 ---
-title: "Power BI Rapor Sunucusu için kapasite planlaması rehberi"
-description: "Bu makalede, çeşitli iş yüklerine ilişkin yük testi yürütmelerinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunulmaktadır."
-services: powerbi
-documentationcenter: 
+title: Power BI Rapor Sunucusu için kapasite planlaması rehberi
+description: Bu makalede, çeşitli iş yüklerine ilişkin yük testi yürütmelerinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunulmaktadır.
 author: parthsha
 manager: kfile
-backup: maghan
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
 Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konulan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki bir kişi için başvuru noktası oluşturur.
@@ -57,7 +49,7 @@ Power BI Rapor Sunucusu dağıtımında aşağıdaki sanal makineler yer almış
 Topolojide kullanılan her bir sanal makinenin yapılandırmasını ayrıntılı bir şekilde görmek için Ek 1.1 Power BI Rapor Sunucusu Topolojisi ve Ek 1.2 Power BI Sunucusu Sanal Makine Yapılandırması bölümlerine bakın.
 
 ### <a name="tests"></a>Testler
-Yük testi çalıştırmalarında kullanılan testlere, Reporting Services LoadTest olarak adlandırılan GitHub projesinden ulaşılabilir (bkz. https://github.com/Microsoft/Reporting-Services-LoadTest). Bu araç, kullanıcıların, SQL Server Reporting Services ve Power BI Rapor Sunucusu'na ilişkin performans, güvenilirlik, ölçeklenebilirlik ve kurtarılabilme özelliklerini incelemesine olanak sağlar. Bu proje, dört test çalışması grubundan oluşur:
+Yük testi çalıştırmalarında kullanılan testlere, Reporting Services LoadTest olarak adlandırılan GitHub projesinden ulaşılabilir   (Bkz. https://github.com/Microsoft/Reporting-Services-LoadTest). Bu araç, kullanıcıların, SQL Server Reporting Services ve Power BI Rapor Sunucusu'na ilişkin performans, güvenilirlik, ölçeklenebilirlik ve kurtarılabilme özelliklerini incelemesine olanak sağlar. Bu proje, dört test çalışması grubundan oluşur:
 
 * Power BI raporu işleme işleminin benzetiminin yapıldığı testler,
 * Mobil raporların işlenmesinin benzetiminin yapıldığı testler,
@@ -121,7 +113,7 @@ Bu makalede ortaya konulan sonuçlar, belirli veriler kullanılarak özel bir ra
 ### <a name="1-topology"></a>1 Topoloji
 **1.1 Power BI Rapor Sunucusu Topolojisi**
 
-Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/tr-tr/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaç" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine Türü | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -131,7 +123,7 @@ Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranı
 
 **1.2 Power BI Rapor Sunucusu Sanal Makine Yapılandırması** 
 
-Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/tr-tr/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaç" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -141,10 +133,10 @@ Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işl
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest aracını çalıştırma
 Reporting Services LoadTest aracını Power BI Rapor Sunucusu'na ilişkin Microsoft Azure dağıtımınızda çalıştırmak için aşağıdaki adımları uygulayın.
 
-1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest) Reporting Services LoadTest projesini kopyalayın.
+1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest)) Reporting Services LoadTest projesini kopyalayın.
 2. Proje dizininde, RSLoadTests.sln adlı bir çözüm dosyası bulunur. Bu dosyayı Visual Studio 2015 veya sonraki bir sürümünde açın.
 3. Bu aracı Power BI Rapor Sunucusu dağıtımınızda mı yoksa Microsoft Azure'daki bir Power BI Rapor Sunucusu dağıtımında mı çalıştırmak istediğinize karar verin. Aracı kendi dağıtımınızda çalıştırmak istiyorsanız 5. adıma gidin.
-4. Azure'da bir Power BI Rapor Sunucusu ortamı oluşturmak için https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure sayfasındaki yönergeleri uygulayın.
+4. Azure'da bir Power BI Rapor Sunucusu ortamı oluşturmak için https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure bölümünde listelenen yönergeleri izleyin.
 5. Ortamı dağıtma işlemini tamamladıktan sonra, testleri çalıştırmak üzere https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution sayfasında listelenen yönergeleri uygulayın.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

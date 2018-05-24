@@ -1,34 +1,26 @@
 ---
-title: "iOS cihazları için Power BI mobil uygulamasında verilerinizi araştırma"
-description: "Power BI panolarınız ve raporlarınız ile Reporting Services mobil raporları ve KPI'lerini iPad, iPhone, Apple Watch ve iPod touch cihazlarınızda görüntüleyin ve bunlarla etkileşime geçin."
-services: powerbi
-documentationcenter: 
+title: iOS cihazları için Power BI mobil uygulamasında verilerinizi araştırma
+description: Power BI panolarınız ve raporlarınız ile Reporting Services mobil raporları ve KPI'lerini iPad, iPhone, Apple Watch ve iPod touch cihazlarınızda görüntüleyin ve bunlarla etkileşime geçin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>iOS cihazları için Power BI mobil uygulamasında verilerinizi araştırma
 iOS için Microsoft Power BI uygulaması iPad, iPhone, Apple Watch ve iPod touch cihazlarında mobil BI deneyimi sunar. Uygulamalar, önemli iş bilgilerinize yönelik gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim sağlar. Böylece, kuruluşunuzun Power BI panoları ile raporlarını ve Reporting Services mobil raporları ile KPI'lerini dilediğiniz yerden görüntüleyebilir, ayrıca bunlarla etkileşime geçebilirsiniz. Panolarınızdaki verileri araştırın ve bunları, e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın.
 
 ![iPhone ve iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-Power BI hizmetine kaydolmak için Power BI web sitesine (https://powerbi.com) gidin.
+Power BI hizmetine kaydolmak için Power BI web sitesine (https://powerbi.com)) gidin.
 
 Bkz. [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md).
 

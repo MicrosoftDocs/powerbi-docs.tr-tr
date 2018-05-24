@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: Öğreticiler
       items:
-        - name: Çevrimiçi GitHub hizmetine bağlanın
+        - name: GitHub örneğine bağlanma
           href: service-tutorial-connect-to-github.md
     - name: Kavramlar
       items:
         - name: Power BI hizmetindeki yenilikler
           href: service-whats-new.md
+        - name: Self servise kaydolma
+          href: service-self-service-signup-for-power-bi.md
         - name: Power BI temel bilgileri
           items:
             - name: Power BI - temel kavramlar
@@ -56,16 +58,12 @@
           items:
             - name: Power BI'daki Hızlı Öngörüler
               href: service-insights.md
-            - name: Rapordan pano oluşturma
-              href: service-dashboard-create.md
             - name: Dosyalardan veri alma
               href: service-get-data-from-files.md
             - name: Power BI raporunu Okuma görünümü veya Düzenleme görünümünde açma
               href: service-reading-view-and-editing-view.md
             - name: 'Rapor düzenleyicisi: Tura katılın'
               href: service-the-report-editor-take-a-tour.md
-            - name: Power BI örnekleri
-              href: sample-datasets.md
             - name: Power BI'daki görselleştirmeler
               href: power-bi-report-visualizations.md
             - name: Power BI için veri kaynakları
@@ -124,6 +122,8 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
                 - name: Alpine Metrics Sales Predictions
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Power BI'da çalışma
           items:
-            - name: Power BI örnek içerik paketlerini kullanma
-              href: sample-tutorial-connect-to-the-samples.md
             - name: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
               href: service-from-excel-to-stunning-report.md
             - name: Görselleştirmeler ve derleme raporları oluşturmak için Soru-Cevap’ı kullanma
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: Panolar
               items:
+                - name: Rapordan pano oluşturma
+                  href: service-dashboard-create.md
                 - name: Panonuzun kopyasını oluşturma
                   href: service-dashboard-copy.md
                 - name: Raporlardan Power BI panolarına kutucuk sabitleme
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Çalışmanızı paylaşma
               items:
-                - name: 'Kurumsal içerik paketleri: Giriş'
-                  href: service-organizational-content-pack-introduction.md
-                - name: Kurumsal içerik paketi oluşturma ve yayımlama
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Filtrelenmiş rapor paylaşma
                   href: service-share-reports.md
                 - name: Power BI'dan web'de yayımlama
                   href: service-publish-to-web.md
                 - name: SharePoint Online'a rapor ekleme
                   href: service-embed-report-spo.md
-                - name: Grubunuzun OneDrive İş'teki dosyalarına bağlanma
+                - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Power BI grup çalışma alanınızda işbirliği yapma
+                - name: Grup çalışma alanınızda işbirliği yapma
                   href: service-collaborate-power-bi-workspace.md
                 - name: Power BI ve Office 365'teki grubunuzu yönetme
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Kurumsal içerik paketleri: Giriş'
+                  href: service-organizational-content-pack-introduction.md
+                - name: Kurumsal içerik paketi oluşturma ve yayımlama
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Kurumsal içerik paketi bağlantılarını kaldırma
                   href: service-organizational-content-pack-disconnect.md
                 - name: OneDrive İş'teki Excel çalışma kitaplarına bağlı panoları paylaşma
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: Kaynaklar
       items:
-        - name: Power BI için desteklenen tarayıcılar
+        - name: Videolar
+          href: videos.md
+        - name: Web Seminerleri
+          href: webinars.md
+        - name: Desteklenen tarayıcılar
           href: service-browser-support.md
-        - name: Power BI için desteklenen diller ve ülkeler/bölgeler
+        - name: Desteklenen diller ve ülkeler/bölgeler
           href: supported-languages-countries-regions.md
         - name: Teknik incelemeler
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Örnekler
       items:
-        - name: Power BI için Financial Sample çalışma kitabını indirme
-          href: sample-financial-download.md
-        - name: 'Power BI için Supplier Quality Analysis Sample: Tura katılın'
-          href: sample-supplier-quality.md
-        - name: 'Power BI için IT Spend Analysis örneği: Tura katılın'
-          href: sample-it-spend.md
-        - name: 'Power BI için Sales and Marketing Sample: Tura katılın'
-          href: sample-sales-and-marketing.md
-        - name: 'Power BI için Customer Profitability Sample: Tura katılın'
+        - name: Power BI örnekleri
+          href: sample-datasets.md
+        - name: Örnek içerik paketlerini kullanma
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Müşteri Karlılığı örneği: Tura katılın'
           href: sample-customer-profitability.md
-        - name: 'Human Resources Sample: Tura katılın'
+        - name: 'BT Harcama Analizi örneği: Tura katılın'
+          href: sample-it-spend.md
+        - name: 'İnsan Kaynakları örneği: Tura katılın'
           href: sample-human-resources.md
-        - name: 'Power BI için Opportunity Analysis Sample: Tura katılın'
+        - name: 'Fırsat Analizi örneği: Tura katılın'
           href: sample-opportunity-analysis.md
         - name: 'Procurement Analysis Sample: Tura katılın'
           href: sample-procurement.md
-        - name: 'Power BI için Perakende Analizi örneği: Tura katılın'
+        - name: 'Perakende Analizi örneği: Tura katılın'
           href: sample-retail-analysis.md
+        - name: 'Satış ve Pazarlama örneği: Tura katılın'
+          href: sample-sales-and-marketing.md
+        - name: 'Tedarikçi Kalite Analizi örneği: Tura katılın'
+          href: sample-supplier-quality.md
+        - name: Financial Sample çalışma kitabını indirme
+          href: sample-financial-download.md
     - name: Kavramlar
       items:
         - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
@@ -806,6 +814,8 @@
           items:
             - name: Mobil uygulamalarda şirket içi raporları görüntüleme
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
+              href: mobile-mixed-reality-app.md
             - name: Power BI mobil uygulamalarından pano paylaşma
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
@@ -838,6 +848,8 @@
               href: mobile-android-app-get-started.md
             - name: '"Kurumsal SSL sertifikanıza güvenilmiyor" hatalarını giderme'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: '"Android System Webview''un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi'
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: iOS için Power BI uygulamasını kullanmaya başlama
@@ -1004,8 +1016,6 @@
           href: report-server/changelog.md
         - name: Destek zaman çizelgesi
           href: report-server/support-timeline.md
-        - name: Desteklenen veri kaynakları
-          href: report-server/data-sources.md
         - name: Donanım ve yazılım gereksinimleri
           href: report-server/system-requirements.md
         - name: Tarayıcı desteği
@@ -1016,9 +1026,9 @@
           items:
             - name: Power BI raporlarında zamanlanmış yenileme
               href: report-server/scheduled-refresh.md
-            - name: Power BI raporu (.pbix) veri kaynakları
+            - name: Power BI raporu veri kaynakları
               href: report-server/data-sources.md
-            - name: Sayfalandırılmış rapor (.rdl) veri kaynakları
+            - name: Sayfalandırılmış rapor veri kaynakları
               href: report-server/connect-data-sources.md
             - name: Abonelikler
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1058,6 @@
               href: report-server/getting-around.md
             - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
               href: report-server/quickstart-create-paginated-report.md
-            - name: Gelişmiş Power BI raporları
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: Gelişmiş sayfalandırılmış raporlar
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: KPI’lerle çalışma
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'Paylaşılan veri kümelerine OData akışı olarak erişme '
