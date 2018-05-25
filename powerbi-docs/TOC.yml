@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Bir rapora veya panoya abone olma
                   href: service-report-subscribe.md
+                - name: Çeşitli rapor açma yöntemleri
+                  href: service-report-open.md
                 - name: Power BI'daki içerikleri yeniden adlandırma
                   href: service-rename.md
                 - name: Panoları ve raporları Tam Ekran modunda (TV modu) görüntüleme

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -125,6 +125,19 @@ Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz.
 ![içeriği sıralama](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama, sıralama, filtreleme](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Kaynakları temizleme
+Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örneği panosunu, raporu ve veri kümesini silebilirsiniz.
+
+1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.    
+2. Sol gezinti bölmesinde **Çalışma Alanları > Çalışma Alanım**’ı seçin.  
+    Sık kullanılanların sarı yıldızla gösterildiğini fark ettiniz mi?    
+3. **Panolar** sekmesinde Perakende Analizi panosunun yanında bulunan çöp kutusu biçimindeki **Sil** simgesini seçin.    
+
+    ![panoyu sil](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. **Raporlar** sekmesini seçin ve aynı işlemi Perakende Analizi raporu için tekrarlayın.
+1. **Veri Kümeleri** sekmesini seçin ve aynı işlemi Perakende Analizi veri kümesi için tekrarlayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
