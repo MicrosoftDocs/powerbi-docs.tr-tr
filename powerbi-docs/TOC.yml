@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: Tarayıcı desteği
           href: report-server/browser-support.md
-        - name: Yöneticiler için rapor sunucusu
+        - name: Yöneticiye genel bakış
           href: report-server/admin-handbook-overview.md
         - name: Rapor sunucusu temel bilgileri
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Mobil uygulama erişimini uzaktan yapılandırma
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Excel çalışma kitapları barındırma
               href: report-server/excel-oos.md
     - name: Başvuru
