@@ -1,29 +1,20 @@
 ---
 title: Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 description: Android telefonlardaki Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 16d3755af688a3bfb99964957f284fde3c658328
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946044"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297458"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 

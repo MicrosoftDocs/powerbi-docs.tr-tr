@@ -1,21 +1,29 @@
 ---
 title: 'Hızlı Başlangıç: Verilere bağlanma'
 description: Power BI Desktop'taki bir veri kaynağına bağlanma
+services: powerbi
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.devlang: NA
 ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 3f29bd899c62adbe2de1fdedd25b60cb104c71e0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b5b8a6abd16256abfb87eac63789fcae852e98c0
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34287843"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813772"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı Başlangıç: Power BI Desktop’ta verilere bağlanma
 
