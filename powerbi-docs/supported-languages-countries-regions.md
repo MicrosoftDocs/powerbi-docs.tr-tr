@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871490"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -165,6 +166,11 @@ Power BI Desktop uygulamasının dilini ayarlamanın yanı sıra model dilini de
 - Dizeleri karşılaştırma ve sıralama yöntemi. Örneğin, Türkçe iki farklı i harfine sahip olduğu için veritabanınızın harmanlama özelliğine göre sıralama sırasında bu iki harf farklı sıralarda yer alabilir. 
 - Power BI Desktop uygulamasının tarih alanlarından gizli tarih tablosu oluştururken kullandığı dil. Örneğin alanların adı Month/Monat/Mois/Ay vs. olabilir.
 
+> [!NOTE]
+> Power BI modeli şu anda büyük/küçük harfe duyarlı (veya kana duyarlı) olmayan bir yerel ayar kullandığı için “ABC” ile “abc” eşdeğer kabul edilir. Veri kümesine ilk olarak “ABC” yüklenirse, yalnızca büyük harf bakımından farklılık gösteren “Abc” gibi diğer dizeler ayrı bir değer olarak yüklenmez.
+> 
+>
+
 Model dilini ayarlamak için aşağıdaki yönergeleri izleyin.
 
 1. Power BI Desktop'ta **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler** bölümüne gidin.
@@ -173,6 +179,10 @@ Model dilini ayarlamak için aşağıdaki yönergeleri izleyin.
 
     ![Power BI Desktop'ta model dilini ayarlama](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Bir Power BI modeli oluşturulduktan sonra dili değiştirilemez.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Yardım belgelerinin kullanıma sunulduğu diller
 Yardım belgeleri şu 10 dilde kullanıma sunulmuştur: 

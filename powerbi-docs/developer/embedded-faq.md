@@ -1,27 +1,20 @@
 ---
 title: Power BI Embedded hakkında sık sorulan sorular
 description: Power BI Embedded hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289752"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -58,7 +51,7 @@ Bir ISV (tipik olarak büyük), kuruluşunda önceden paketlenmiş Power BI hizm
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Kaç tane ekleme belirteci oluşturabilirim?
 
-PRO lisansına sahip ekleme belirteçleri, geliştirmeye ve geliştirme testlerine yöneliktir; bu nedenle, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Bir üretim ortamında ekleme yapmak için [kapasite satın almanız](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) gerekir. Bir kapasite satın alındıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
+PRO lisansına sahip ekleme belirteçleri, geliştirmeye testlerine yöneliktir; bu nedenle, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Bir üretim ortamında ekleme yapmak için [kapasite satın almanız](#technical) gerekir. Bir kapasite satın alındıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikleri Al](https://msdn.microsoft.com/library/mt846473.aspx) bölümüne gidin.
 
 ## <a name="technical"></a>Teknik
 
@@ -164,10 +157,6 @@ Evet, Power BI Embedded için [Azure kredilerinizi](https://azure.microsoft.com/
 
 Power BI Embedded Azure kapsamında yer aldığından hizmeti [Azure'a kaydolurken tanınan 200 $ kredi](https://azure.microsoft.com/free/) ile kullanabilirsiniz.
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Bir Power BI yöneticisi hesabının oluşturabileceği ekleme belirteçleri sayısı sınırlı mıdır? 
-
-Evet, sınırlıdır, çünkü bu ekleme belirteçleri yalnızca geliştirme testi içindir. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur. Kaç tane ekleme belirtecinin kullanılıp kullanılmadığını kontrol etmek için [Kullanılabilir Özellikleri Alın](https://msdn.microsoft.com/en-us/library/mt846473.aspx) bölümüne gidin.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded, bağımsız bulutlarda (ABD, Almanya, Çin) kullanılabilir mi?
 
 Power BI Embedded bazı [bağımsız bulutlarda](embed-sample-for-customers-sovereign-clouds.md) kullanılabilir. Bu hizmet Çin bulutunda henüz **kullanılamıyor**.
@@ -176,9 +165,47 @@ Power BI Embedded bazı [bağımsız bulutlarda](embed-sample-for-customers-sove
 
 Kâr amacı gütmeyen kuruluşlar ve eğitim kurumları Azure'ı satın alabilir. Azure'da bu tür müşteriler için özel fiyatlandırma yoktur.
 
+## <a name="power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu
+
+### <a name="what-is-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu nedir?
+
+**Power BI Çalışma Alanı Koleksiyonu** (**Power BI Embedded** Sürüm 1), **Power BI Çalışma Alanı Koleksiyonu** Azure kaynağını temel alan bir çözümdür. Bu çözüm, **Power BI Çalışma Alanı Koleksiyonu** çözümü altındaki Power BI içeriğini, özel API’leri ve power BI’da uygulama kimliğini doğrulamak amacıyla çalışma alanı koleksiyonu anahtarlarını kullanarak müşterileriniz için **Power BI Embedded** uygulamaları oluşturmanıza olanak tanır.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e geçiş yapabilir miyim?
+
+1. **Power BI Çalışma Alanı Koleksiyonu** içeriğini Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration sürümüne kopyalamak için geçiş aracını kullanabilirsiniz.
+
+2. İlk olarak, Power BI içeriği kullanan **Power BI Embedded** uygulama POC’si ile başlayın.
+
+3. Üretime hazır olduğunuzda **Power BI Embedded** ayrılmış kapasitesi satın alın ve Power BI içeriğinizi (çalışma alanı) bu kapasiteye atayın.
+
+>[!Note]
+Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu**’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
+
+Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded'e geçirme](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) bölümüne başvurun.
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>Power BI Çalışma Alanı Koleksiyonu kullanım dışı bırakılacak mı?
+
+Evet. Ancak halihazırda **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanan müşteriler kullanımdan kaldırılmasına kadar kullanmaya devam edebilir. Müşteriler ayrıca yeni çalışma alanı koleksiyonları ve hala **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanan herhangi bir **Power BI Embedded** uygulaması oluşturabilir.
+
+Ancak, bu durum aynı zamanda hiçbir **Power BI Çalışma Alanı Koleksiyonu** çözümüne yeni özelliklerin eklenmeyeceği anlamına gelir ve bu müşterilerin yeni **Power BI Embedded** çözümüne geçişlerini planlamaları önerilir.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI Çalışma Alanı Koleksiyonu desteği ne zaman sona erecek?
+
+Halihazırda **Power BI Çalışma Alanı Koleksiyonları** çözümünü kullanan müşteriler, çözümü Haziran 2018 sonuna ya da destek sözleşmelerinin sonuna kadar kullanmaya devam edebilir.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>PBI Çalışma Alanı Koleksiyonu hangi bölgelerde oluşturulabilir?
+
+Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya, ABD Orta Kuzey, Kuzey Avrupa, Orta Güney ABD, Güneydoğu Asya, UK Güney, Batı Avrupa, Batı Hindistan ve Batı ABD bölgeleri kullanılabilir.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e neden geçiş yapmalıyım?
+
+**Power BI Embedded** çözümünde, **Power BI Çalışma Alanı Koleksiyonu** ile kullanamayacağınız yeni özellikler kullanıma sunulmuştur.
+
+Özelliklerden bazıları şunlardır:
+* **Power BI Çalışma Alanı Koleksiyonu** ile desteklenen 2 veri kaynağı karşısında tüm PBI veri kaynakları desteklenmektedir. 
+* Soru-cevap, Yenileme, yer işaretleri, pano ve kutucuk ekleme, özel menü vb. yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
+* Kapasite faturalama modeli.
+
 Daha fazla bilgi için lütfen bkz. [Ekli uygulamanızın sorunlarını giderme](embedded-troubleshoot.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-
-
-

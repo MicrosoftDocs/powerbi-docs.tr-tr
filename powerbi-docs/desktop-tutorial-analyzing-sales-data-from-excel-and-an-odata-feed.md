@@ -1,6 +1,6 @@
 ---
-title: "Eğitim: Power BI Desktop'ta bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme"
-description: 'Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme'
+title: "Eğitim: Power BI Desktop'ta Excel’deki ve OData akışındaki verileri birleştirme"
+description: 'Eğitim: Excel’deki ve OData akışındaki verileri birleştirme'
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945998"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Bir Excel dosyasındaki ve OData akışındaki satış verilerini çözümleme
-**Power BI Desktop**'ı kullanarak her türden farklı veri kaynağına bağlanabilir ve ardından, bunları ilgi çekici veri çözümlemeleri ve görselleştirmeler oluşturmayı kolay hale getiren yöntemlerle birleştirebilir ve şekillendirebilirsiniz. Bu eğitimde, iki veri kaynağından elde edilen verileri birleştirmeyi öğreneceksiniz. 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Excel’deki ve OData akışındaki satış verilerini birleştirme
 
-Veriler yaygın olarak birden çok veri kaynağına yayılmış halde (ürün bilgilerinin bulunduğu bir veritabanı ve satış bilgilerinin bulunduğu diğer bir veritabanı gibi) bulunur. Bu belgede öğreneceğiniz teknikler bir Excel çalışma kitabı ve OData akışına yönelik olsa da SQL Server sorguları, CSV dosyaları veya Power BI Desktop'taki başka bir veri kaynağı gibi diğer veri kaynakları için de uygulanabilir.
+Veriler yaygın olarak birden çok veri kaynağına yayılmış halde (ürün bilgilerinin bulunduğu bir veritabanı ve satış bilgilerinin bulunduğu diğer bir veritabanı gibi) bulunur. **Power BI Desktop** ile farklı kaynaklardan verileri birleştirerek ilgi çekici, merak uyandıran veri çözümlemeleri ve görselleştirmeler oluşturabilirsiniz. 
 
-Bu eğitimde, Excel'deki (ürün bilgileri içerir) ve bir OData akışındaki (sipariş verileri içerir) verileri içeri aktaracaksınız. Dönüştürme ve birleştirme adımları uygulayacak, ayrıca etkileşimli görselleştirmeler içeren bir **Total Sales per Product and Year** raporu oluşturmak için her iki veri kaynağındaki verileri birleştireceksiniz. 
-
-Raporun son hali aşağıdaki gibi görünecek:
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-Bu öğreticideki adımları uygulayabilmeniz için Ürünler çalışma kitabına ihtiyacınız vardır, bu çalışma kitabını indirebilirsiniz: **[Products.xlsx dosyasını indirmek için buraya tıklayın](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
-
-**Farklı Kaydet** iletişim kutusunda, dosyayı **Products.xlsx** olarak adlandırın.
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>1. Görev: Bir Excel çalışma kitabından ürün verileri alma
-Bu görevde, Products.xlsx dosyasındaki ürünleri Power BI Desktop'a aktaracaksınız.
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>1. Adım: Bir Excel çalışma kitabına bağlanma
-1. Power BI Desktop'ı başlatın.
-2. Giriş şeridinde, **Veri Al**'ı seçin. Excel **En Yaygın** veri bağlantılarından biri olduğundan, doğrudan seçebilmeniz için **Veri Al** menüsünde yer alır.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. Veri Al düğmesini doğrudan seçerseniz **Dosya \> Excel**'i seçip **Bağlan** seçeneğini de belirleyebilirsiniz.
-4. **Dosya Aç** iletişim kutusunda, **Products.xlsx** dosyasını seçin.
-5. **Gezgin** bölmesinde, **Products** tablosunu ve ardından **Düzenle**'yi seçin.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>2. Adım: Yalnızca ilgili sütunları görüntülemek için diğer sütunları kaldırma
-Bu adımda, **ProductID**, **ProductName**, **UnitsInStock** ve **QuantityPerUnit** dışındaki tüm sütunları kaldıracaksınız. Power BI Desktop'ta genellikle aynı görevi birkaç farklı yolla gerçekleştirebilirsiniz. Örneğin, şeritteki birçok düğmenin işlevi, bir sütunda veya hücrede sağ tıklama menüsü kullanılarak da gerçekleştirilebilir.
-
-Power BI Desktop, veri bağlantılarınızı şekillendirdiğiniz ve dönüştürdüğünüz Sorgu Düzenleyicisi'ni içerir. Sorgu Düzenleyicisi, **Gezgin**'deki **Düzenle** seçeneğini belirlediğinizde otomatik olarak açılır. Sorgu Düzenleyicisi, Power BI Desktop'taki **Giriş** şeridinde bulunan **Sorguları Düzenle** seçeneği belirlenerek de açılabilir. Aşağıdaki adımlar Sorgu Düzenleyicisi'nde uygulanır.
-
-1. Sorgu Düzenleyicisi'nde, **ProductID**, **ProductName**, **QuantityPerUnit** ve **UnitsInStock** sütunlarını seçin. (**CTRL+Tıklama** yöntemiyle birden fazla sütun seçin veya **SHIFT+Tıklama** yöntemiyle yan yana sütunları seçin.)
-2. Şeritteki **Sütunları Kaldır** \> **Diğer Sütunları Kaldır** seçeneğini belirleyin veya bir sütun başlığına sağ tıklayıp **Diğer Sütunları Kaldır** seçeneğine tıklayın.
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>3. Adım: UnitsInStock sütununun veri türünü değiştirme
-Sorgu Düzenleyicisi verilere bağlandığında, en iyi veri türünü belirlemek için her bir alanı inceler. Excel çalışma kitabında, stoktaki ürünler her zaman tam sayı değeri alır. Bu nedenle, geçerli adımda **UnitsInStock** sütununun veri türünün Tam Sayı olduğunu doğrulayacaksınız.
-
-1. **UnitsInStock** sütununu seçin.
-2. **Giriş** şeridindeki **Veri Türü** açılan menüsüne ilişkin düğmeyi seçin.
-3. Tam Sayı olarak belirlenmiş olmaması halinde, açılan menüden veri türü için **Tam Sayı** seçeneğini belirleyin. (**Veri Türü:** düğmesi geçerli seçimin veri türünü de görüntüler.)
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>Oluşturulan Power BI Desktop adımları
-Siz Sorgu Düzenleyicisi'nde sorgu etkinlikleri gerçekleştirdikçe sorgu adımları oluşturulur ve **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar** listesinde görüntülenir. Her bir sorgu adımına ilişkin bir formül ("M" dili olarak da bilinir) bulunur. "M" formül dili hakkında daha fazla bilgi için bkz. [Power BI formülleri hakkında bilgi edinin](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
-
-| Görev | Sorgu adımı | Formül |
-| --- | --- | --- |
-| Excel çalışma kitabına bağlanma |Kaynak |Source{[Name="Products"]}[Data] |
-| İlk satırları tablo sütun başlığı düzeyine yükseltme |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> (Products) |
-| Yalnızca ilgili sütunları görüntülemek için diğer sütunları kaldırma |Kaldırılan Diğer Sütunlar |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| Veri türünü değiştirme |Değiştirilen Tür |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>2. Görev: Bir OData akışındaki sipariş verilerini içeri aktarma
-Bu görevde, sipariş verilerini içeri aktaracaksınız. Bu adım, bir satış sistemine bağlanmayı temsil eder. Aşağıdaki URL’de bulunan örnek Northwind OData akışındaki verileri Power BI Desktop’a aktaracaksınız. Bu URL’yi şu adımlarla kopyalayıp yapıştırabilirsiniz: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>1. Adım: Bir OData akışına bağlanma
-1. Sorgu Düzenleyicisi'ndeki **Giriş** şeridinde, **Veri Al** seçeneğini belirleyin.
-2. **OData Akışı** veri kaynağına gidin.
-3. **OData Akışı** iletişim kutusunda, Northwind OData akışına yönelik **URL**'yi yapıştırın.
-4. **Tamam**'ı seçin.
-5. **Gezgin** bölmesinde, **Orders** tablosunu ve ardından **Düzenle**'yi seçin.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+Bu öğreticide, iki veri kaynağından verileri birleştirmeyi öğreneceksiniz: ürün bilgilerini içeren bir Excel çalışma kitabı ve sipariş verilerini içeren bir OData akışı. Her bir veri kümesini içeri aktarıp dönüştürme ve toplama adımlarını gerçekleştirdikten sonra, her iki kaynaktan verileri kullanarak etkileşimli görselleştirmelerle bir satış analizi raporu oluşturacaksınız. Bu teknikler SQL Server sorgularına, CSV dosyalarına ve Power BI Desktop’taki diğer veri kaynaklarına da uygulanabilir.
 
 >[!NOTE]
->Bir tablo adına tıklayarak (onay kutusunu seçmeden) önizleme görüntüleyebilirsiniz.
+>Power BI Desktop'ta genellikle bir görevi birkaç farklı yolla gerçekleştirebilirsiniz. Örneğin, bir sütun ya da hücre üzerinde sağ tıklama işlemi veya **Diğer seçenekler** menüsü kullanılarak çok sayıda şerit seçimi yapılabilir. Aşağıdaki adımlarda birkaç alternatif yöntem açıklanmaktadır. 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>2. Adım: Order\_Details tablosunu genişletme
-**Orders** tablosunda, her bir Siparişe dahil edilen belirli ürünleri içeren **Details** tablosuna yönelik bir başvuru bulunur. Birden çok tablo içeren veri kaynaklarına (ilişkisel veritabanı gibi) bağlanırken sorgunuzu oluşturmak için bu başvurulardan yararlanabilirsiniz. 
+## <a name="import-the-product-data-from-excel"></a>Ürün verilerini Excel'den içeri aktarma
 
-Bu adımda, **Order\_Details** tablosundaki **ProductID**, **UnitPrice** ve **Quantity** sütunlarını **Orders** tablosunda birleştirmek için **Orders** tablosuyla ilişkili **Order\_Details** tablosunu genişletirsiniz. Bu tablolardaki verilerin bir gösterimi aşağıda verilmiştir:
+İlk olarak, ürün verilerini Excel Products.xlsx çalışma kitabından Power BI Desktop’a aktarın.
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [Products.xlsx Excel çalışma kitabını indirin](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) ve **Products.xlsx** olarak kaydedin.
+   
+2. Power BI Desktop şeridinin **Giriş** sekmesinde **Verileri Al** öğesinin yanındaki açılır oku ve sonra **En Yaygın** açılır listesinden **Excel**’i seçin. 
+   
+   ![Veri al](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >Ayrıca **Verileri Al** öğesini seçebilir ya da Power BI **Kullanmaya başlama** iletişim kutusundan **Verileri Al**’ı seçtikten sonra **Verileri Al** iletişim kutusundaki **Excel** ya da **Dosya** > **Excel**’i ve ardından **Bağlan**’ı seçebilirsiniz.
+   
+3. **Aç** iletişim kutusunda **Products.xlsx** dosyasına gidip seçin ve sonra **Aç** seçeneğini belirleyin.
+   
+4. **Gezgin** bölmesinde, **Products** tablosunu ve ardından **Düzenle**'yi seçin.
+   
+   ![Excel Gezgin bölmesi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+**Power Query Editor**’da tablonun önizlemesi açılır. Burada verileri temizlemek için dönüşümler uygulayabilirsiniz. 
+   
+![Power Query Editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>**Power Query Editor**’ı, Power BI Desktop’ta **Giriş** şeridinden **Sorguları Düzenle** > **Sorguları Düzenle** öğesini seçerek veya **Rapor Görünümü** içinde herhangi bir sorgunun yanındaki **Diğer seçenekler**’e sağ tıklayıp veya seçip **Sorguyu Düzenle** seçeneğini belirleyerek de açabilirsiniz.
 
-**Genişletme** işlemi, ilişkili bir tablodaki sütunları bir konu tablosunda birleştirir. Sorgu çalıştırıldığında, ilişkili tablodaki (**Order\_Details**) satırlar, konu tablosundaki (**Orders**) satırlarda birleştirilir.
+## <a name="clean-up-the-products-columns"></a>Ürünler sütunlarını temizleme
 
-**Order\_Details** tablosunu genişletmenizin ardından, **Orders** tablosuna, iç içe geçmiş veya ilişkili tablodaki her bir satır için bir tane olmak üzere üç yeni sütun ve ek satırlar eklenir.
+Birleşik raporunuz yalnızca Excel çalışma kitabındaki **ProductID**, **ProductName**, **QuantityPerUnit** ve **UnitsInStock** sütunlarını kullanacağı için diğer sütunları kaldırabilirsiniz. 
 
-1. **Sorgu Görünümü**'nde, **Order\_Details** sütununa gidin.
-2. **Order\_Details** sütununda, genişletme simgesini (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)) seçin.
+1. **Power Query Editor**’da **ProductID**, **ProductName**, **QuantityPerUnit** ve **UnitsInStock** sütunlarını seçin (**Ctrl**+**Tıklama** birleşimini kullanarak birden fazla sütun seçebilir veya **Shift**+**Tıklama** birleşimini kullanarak yan yana sütunları seçin).
+   
+2. Seçili üst bilgilerden herhangi birine sağ tıklayın ve açılır listeden **Diğer Sütunları Kaldır**’ı seçerek tabloda seçili olan sütunlar dışındaki tüm sütunları kaldırın. 
+   Ayrıca, **Giriş** şerit sekmesindeki **Sütunları Yönet** grubundan **Sütunları Kaldır** > **Diğer Sütunları Kaldır**’ı seçebilirsiniz. 
+   
+   ![Diğer sütunları kaldırma](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>Bir OData akışındaki sipariş verilerini içeri aktarma
+
+Ardından, örnek Northwind satış sistemi OData akışından sipariş verilerini içeri aktarın. 
+
+1. **Power Query Editor**’da **Yeni Kaynak**’ı ve sonra **En Yaygın** açılır listesinden **OData akışı**’nı seçin. 
+   
+   ![OData alma](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. **OData Akışı** iletişim kutusunda, Northwind OData akışına ait URL'yi (`http://services.odata.org/V3/Northwind/Northwind.svc/`) yapıştırın ve **Tamam**’ı seçin.
+   
+   ![OData akışı iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. **Gezgin** bölmesinde **Siparişler** tablosunu seçin ve sonra **Tamam**’ı seçerek verileri **Power Query Editor**’a yükleyin.
+   
+   ![OData Gezgin bölmesi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >**Gezgin**’de, onay kutusunu seçmeden herhangi bir tablo adını seçerek önizleme görüntüleyebilirsiniz.
+
+## <a name="expand-the-order-data"></a>Sipariş verilerini genişletme
+
+İlişkisel veritabanları veya Northwind OData akışı gibi birden fazla tablosu olan veri kaynaklarına bağlandığınızda, sorgularınızı oluşturmak için tablolar arasındaki başvuruları kullanabilirsiniz. **Siparişler** tablosu, birden fazla ilgili tabloya başvurular içerir. **Expand** işlemini kullanarak, ilgili **Order_Details** tablosundan **ProductID**, **UnitPrice** ve **Quantity** sütunlarını konu (**Siparişler**) tablosuna ekleyebilirsiniz. 
+
+1. **Order_Details** sütununu görene kadar **Siparişler** tablosunu sağa kaydırın. Veri yerine başka bir tabloya başvuru içerdiğini unutmayın.
+   
+   ![Order_Details sütunu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. **Order_Details** sütun başlığındaki **Genişlet** simgesini (![Genişlet simgesi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)) seçin. 
+   
 3. **Genişlet** açılan menüsünde:
+   
    1. Tüm sütunları temizlemek için **(Tüm Sütunları Seç)** seçeneğini belirleyin.
-   2. **ProductID**, **UnitPrice** ve **Quantity** sütunlarını seçin.
-   3. **Tamam**'a tıklayın.
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+      
+   2. **ProductID**, **UnitPrice** ve **Quantity** sütunlarını seçtikten sonra **Tamam**’ı seçin.
+      
+      ![Genişlet iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>3. Adım: Yalnızca ilgili sütunları görüntülemek için diğer sütunları kaldırma
-Bu adımda; **OrderDate, ShipCity**, **ShipCountry**, **Order\_Details.ProductID**, **Order\_Details.UnitPrice** ve **Order\_Details.Quantity** sütunları dışındaki tüm sütunları kaldıracaksınız. Bir önceki görevde **Diğer Sütunları Kaldır** seçeneğini kullanmıştınız. Bu görev için, seçili sütunları kaldıracaksınız.
+**Order_Details** tablosunu genişlettikten sonra **Order_Details** sütunu iç içe tablodaki üç yeni sütunla değiştirilir ve her siparişten eklenen veriler için tabloda yeni satırlar bulunur. 
 
-1. **Sorgu Görünümü**'nde, a. ve b. adımlarını uygulayarak tüm sütunları seçin:
-   1. İlk sütuna (**OrderID**) tıklayın.
-   2. Son sütunu (**Shipper**) SHIFT tuşunu basılı tutarak tıklayın.
-   3. Tüm sütunlar seçildiğine göre, CTRL tuşuna basıp tıklayarak şu sütunların seçimini kaldırın: **OrderDate**, **ShipCity**, **ShipCountry**, **Order\_Details.ProductID**, **Order\_Details.UnitPrice** ve **Order\_Details.Quantity**.
-2. Yalnızca kaldırmak istediğimiz sütunlar seçili olduğuna göre, seçili herhangi bir sütunun başlığına sağ tıklayıp **Sütunları Kaldır** seçeneğine tıklayın.
+![Genişletilmiş sütunlar](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>4. Adım: Her bir Order\_Details satırı için satır toplamını hesaplama
-Power BI Desktop, içeri aktardığınız sütunları temel alan hesaplamalar oluşturmanıza olanak sağlar. Böylece, bağlandığınız verileri zenginleştirebilirsiniz. Bu adımda, her bir **Order\_Details** satırı için satır toplamını hesaplamak üzere **Özel Sütun** oluşturacaksınız.
+## <a name="create-a-custom-calculated-column"></a>Özel bir hesaplanmış sütun oluşturma
 
-Her bir **Order\_Details** satırı için satır toplamını hesaplama:
+Power Query Editor, verilerinizi zenginleştirmeniz için hesaplamalar ve özel alanları oluşturmanızı sağlar. Birim fiyatı öğe miktarıyla çarparak her bir satır öğesinin toplam fiyatını bir sırayla hesaplayan özel bir sütun oluşturacaksınız.
 
-1. **Sütun Ekle** şerit sekmesinde, **Ekle** **Özel Sütun** seçeneğine tıklayın.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. **Özel Sütun Ekle** iletişim kutusundaki **Özel Sütun Formülü** metin kutusuna **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]** girin
-3. **Yeni sütun adı** metin kutusuna **LineTotal** girin.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. **Tamam**'a tıklayın.
-
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>5. Adım: LineTotal alanının veri türünü ayarlama
-1. **LineTotal** sütununa sağ tıklayın.
-2. **Türü Değiştir**'i seçin ve **Ondalık Sayı** seçeneğini belirleyin.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
-
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>6. Adım: Sorgudaki sütunları yeniden adlandırma ve yeniden sıralama
-Bu adımda, sondaki sütunları yeniden adlandırarak ve bunların sıralarını değiştirerek, modeli, rapor oluşturma sırasında kolayca çalışılabilir hale getirme konusundaki son adımları uygulayacaksınız.
-
-1. **Sorgu Düzenleyicisi**'nde, **LineTotal** sütununu sol taraftaki **ShipCountry** sütununun arkasına sürükleyin.
+1. Power Query Editor’ın **Sütun Ekle** şerit sekmesinde **Özel Sütun**’u seçin.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. *Order\_Details* ön ekini **Order\_Details.ProductID**, **Order\_Details.UnitPrice** ve **Order\_Details.Quantity** sütunlarından kaldırın. Bunu gerçekleştirmek için her bir sütun başlığına çift tıklayın ve ardından söz konusu metni sütun adlarından silin.
-
-### <a name="power-bi-desktop-steps-created"></a>Oluşturulan Power BI Desktop adımları
-Siz Sorgu Düzenleyicisi'nde sorgu etkinlikleri gerçekleştirdikçe sorgu adımları oluşturulur ve **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar** listesinde görüntülenir. Her bir sorgu adımına ilişkin bir Power Query formülü ("M" dili olarak da bilinir) bulunur. Bu formül dili hakkında daha fazla bilgi için bkz. [Power BI formülleri hakkında bilgi edinin](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)").
-
-| Görev | Sorgu adımı | Formül |
-| --- | --- | --- |
-| Bir OData akışına bağlanma |Kaynak |Source{[Name="Orders"]}[Data] |
-| Order\_Details tablosunu genişletme |Order\_Details Genişletildi |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| Yalnızca ilgili sütunları görüntülemek için diğer sütunları kaldırma |Kaldırılan Sütunlar |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| Her bir Order\_Details satırı için satır toplamını hesaplama |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>Görev 3: Products ve Total Sales sorgularını birleştirme
-Power BI Desktop, sorgular üzerinde raporlama yapmak için bunları birleştirmenizi gerektirmez. Bunun yerine, veri kümeleri arasında **İlişkiler** oluşturabilirsiniz. Bu ilişkiler, veri kümeleriniz için ortak olan herhangi bir sütun üzerinde oluşturulabilir. Daha fazla bilgi için bkz. [İlişki oluşturma ve ilişkileri yönetme](desktop-create-and-manage-relationships.md).
-
-Bu eğitimde, ortak bir 'ProductID' alanına sahip Orders ve Products verilerine sahibiz. Bu nedenle, Power BI Desktop ile kullandığımız modelde bunlar arasında bir ilişkinin bulunduğundan emin olmamız gerekir. Bunun için Power BI Desktop'ta her bir tablodaki sütunların ilişkili olduğunu (aynı değerleri içeren sütunların bulunduğunu) belirtmeniz yeterlidir. Power BI Desktop, ilişki yönünü ve kardinalitesini sizin için belirler. Bazı durumlarda, ilişkileri otomatik olarak bile algılayabilir.
-
-Bu görevde, Power BI Desktop'taki **Products** ve **Total Sales** sorguları arasında bir ilişkinin bulunduğunu doğrulayacaksınız.
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>1. Adım: Products ve Total Sales arasındaki ilişkiyi doğrulama
-1. Öncelikle, Sorgu Düzenleyicisi'nde oluşturduğumuz modeli Power BI Desktop'a yüklememiz gerekir. Sorgu Düzenleyicisi'ndeki **Giriş** şeridinde, **Kapat ve Yükle** seçeneğini belirleyin.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Power BI Desktop iki sorgudan elde edilen verileri yükler.
+2. **Özel Sütun** iletişim kutusunda **Yeni sütun adı** alanına **LineTotal** yazın.
+
+3. **=** öğesinden sonra gelen **Özel sütun formülü** alanına **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** girin. (Alan adlarını yazmak yerine **Kullanılabilir sütunlar** kaydırma kutusundan seçebilir ve **<< Ekle** seçeneğini kullanabilirsiniz.) 
+3. **Tamam**'ı seçin.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. Veriler yüklendikten sonra, **Giriş** şeridindeki **İlişkileri Yönet** seçeneğini belirleyin.
+   ![Özel Sütun iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+Yeni **LineTotal** alanı, **Siparişler** tablosunun son sütunu olarak görünür.
+
+## <a name="set-the-data-type-for-the-new-field"></a>Yeni alanın veri türünü belirleme
+
+Power Query Editor verilere bağlandığında, her bir alanın en iyi veri türünü belirler ve verileri buna uygun olarak gösterir. Alanlara atanan veri türlerini üst bilgilerdeki simgelere göre veya **Giriş** şerit sekmesinin **Dönüşüm** grubundaki **Veri Türü** altında görüntüleyebilirsiniz. 
+
+Yeni **LineTotal** sütununuzda **Any** veri türü mevcuttur ancak değerleri para birimidir. Bir veri türü atamak için **LineTotal** sütunu üst bilgisine sağ tıklayın, açılır listeden **Veri Türünü Değiştir**’i seçin ve sonra **Sabit ondalık sayı**’yı seçin. 
+
+![Veri türünü değiştirme](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>Ayrıca **LineTotal** sütununu, sonra **Giriş** şerit sekmesinin **Dönüşüm** alanındaki **Veri Türü**’nü ve ardından **Sabit ondalık sayı**’yı seçebilirsiniz.
+
+## <a name="clean-up-the-orders-columns"></a>Sipariş sütunlarını temizleme
+
+Raporlarda modelinizle birlikte çalışmayı kolaylaştırmak için, bazı sütunları silebilir, yeniden adlandırabilir ve yeniden sıralayabilirsiniz.
+
+Raporunuz yalnızca **OrderDate**, **ShipCity**, **ShipCountry**, **Order_Details.ProductID**, **Order_Details.UnitPrice** ve **Order_Details.Quantity** sütunlarını kullanır. Excel verileriyle yaptığınız gibi bu sütunları seçip **Diğer Sütunları Kaldır** seçeneğini kullanabilir veya listedekilerin dışında kalan tüm sütunları seçebilir, seçili sütunlara sağ tıklayabilir ve **Sütunları Kaldır**’ı seçerek tümünü kaldırabilirsiniz. 
+
+**Order_Details.ProductID**, **Order_Details.UnitPrice** ve **Order_Details.Quantity** sütunlarını tanımlamayı kolaylaştırmak için, sütun adlarındaki *Order_Details.* ön eklerini kaldırabilirsiniz. Sütunları sırasıyla **ProductID**, **UnitPrice** ve **Quantity** olarak yeniden adlandırmak için:
+
+1. Her bir sütun üst bilgisine çift tıklayın ya da basılı tutun veya sütun üst bilgisine sağ tıklayıp açılır listeden **Yeniden Adlandır**’ı seçin. 
+2. Her bir adın *Order_Details.* ön ekini silin ve sonra **Enter** tuşuna basın.
+
+Son olarak, **LineTotal** sütununa erişimi kolaylaştırmak için sütunu sola sürükleyip **ShipCountry** sütununun hemen sağına bırakın.
+
+![Temizlenmiş tablo](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>Sorgu adımlarını gözden geçirme
+
+Power Query Editor’daki verileri şekillendirip dönüştürdüğünüzde her bir adım, Power Query Editor’ın sağ tarafındaki **Sorgu Ayarları** bölmesinin **Uygulanan Adımlar** alanına kaydedilmiştir. Yaptığınız değişiklikleri gözden geçirmek için Uygulanan Adımlar boyunca geri gidebilir ve gerekirse bunları düzenleyebilir, silebilir veya yeniden ayarlayabilirsiniz (ancak önceki adımların değiştirilmesi, sonraki adımları bozabileceğinden bu riskli olabilir). 
+
+Power Query Editor’ın sol tarafındaki **Sorgular** listesinden her bir sorguyu seçin ve **Sorgu Ayarları** içindeki **Uygulanan Adımlar**’ı gözden geçirin. Önceki veri dönüşümlerini uyguladıktan sonra, iki sorgunuza ait Uygulanan Adımlar aşağıdaki gibi görünmelidir:
+
+![Ürünler sorgusu Uygulanan Adımlar](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![Siparişler sorgusu Uygulanan Adımlar](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>Uygulanan Adımların temelini, **M** dili olarak da bilinen, **Power Query Editor**’da yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin Giriş sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin. 
+
+## <a name="import-the-transformed-queries"></a>Dönüştürülmüş sorguları içeri aktarma
+
+Dönüştürülmüş verilerinizden memnun olduğunuzda, Power BI Desktop Rapor Görünümüne verileri aktarmak için **Giriş** şerit sekmesinin **Kapat** grubundaki **Kapat ve Uygula** > **Kapat ve Uygula** öğesini seçin. 
+
+![Kapat ve Uygula](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+Veriler yüklendikten sonra sorgular Power BI Desktop Rapor Görünümündeki **Alanlar** listesinde görünür.
+
+![Alanlar listesindeki sorgular](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>Veri kümeleri arasındaki ilişkiyi yönetme
+
+Power BI Desktop, sorgular üzerinde raporlama yapmak için bunları birleştirmenizi gerektirmez. Bununla birlikte, ortak sahip oldukları alanlara göre veri kümeleri arasındaki ilişkileri kullanarak raporlarınızı genişletebilir ve zenginleştirebilirsiniz. İlişkileri Power BI Desktop otomatik olarak algılayabilir veya Power BI Desktop **İlişkileri Yönet** iletişim kutusunda siz oluşturabilirsiniz. Power BI Desktop’ta ilişkiler hakkında daha fazla bilgi için bkz. [İlişki oluşturma ve yönetme](desktop-create-and-manage-relationships.md).
+
+Bu öğreticideki Siparişler ve Ürünler veri kümeleri ortak bir *ProductID* alanına sahiptir, dolayısıyla aralarında bu sütuna göre bir ilişki vardır. 
+
+1. Power BI Desktop Rapor Görünümünde, **Giriş** şerit sekmesinin **İlişkiler** alanındaki **İlişkileri Yönet**’i seçin.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. **Yeni…** düğmesini seçin
+   ![İlişkileri Yönet şeridi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. İlişkiyi oluşturmaya çalıştığımızda zaten bir ilişkinin bulunduğunu görüyoruz. **İlişki Oluştur** iletişim kutusunda (gölgeli sütunlar ile) gösterildiği gibi, her bir sorgudaki **ProductsID** alanlarında zaten bir ilişki kurulmuş.
+2. **İlişkileri Yönet** iletişim kutusunda Power BI Desktop’ın Ürünler ile Siparişler tabloları arasında etkin bir ilişki olduğunu zaten algıladığına ve listelediğine dikkat edin. İlişkiyi görüntülemek için **Düzenle**’yi seçin. 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. **İptal** seçeneğini belirleyin ve ardından Power BI Desktop'taki **İlişki** görünümünü seçin.
+   ![İlişkileri Yönet iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. Sorgular arasındaki ilişkinin görselleştirildiği aşağıdaki görüntüyle karşılaşırız.
+   İlişkinin ayrıntılarını gösteren **İlişkiyi Düzenle** iletişim kutusu açılır.  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. Sorguları bağlayan çizgideki oka çift tıkladığınızda, **İlişkiyi Düzenle** iletişim kutusu görüntülenir.
+   ![İlişkiyi Düzenle iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. Herhangi bir değişiklik gerekmediğinden, **İptal** seçeneğini belirleyerek, **İlişkiyi Düzenle** iletişim kutusunu kapatabiliriz.
+3. Power BI Desktop, ilişkiyi doğru bir şekilde otomatik olarak algıladığı için **İptal** ve sonra **Kapat**’ı seçerek ilişki iletişim kutularından çıkış yapabilirsiniz.
 
-## <a name="task-4-build-visuals-using-your-data"></a>4. Görev: Verilerinizi kullanarak görsel oluşturma
-Power BI Desktop, verilerinizden öngörüler elde etmek için çeşitli görselleştirmeler oluşturmanıza olanak sağlar. Birden çok sayfa içeren raporlar oluşturabilir ve her bir sayfada birden çok görsel olmasını sağlayabilirsiniz. Verilerinizi çözümlemenize ve anlamanıza yardımcı olmaları için görselleştirmelerinizle etkileşime geçebilirsiniz. Raporları düzenleme hakkında daha fazla bilgi için bkz. [Bir raporu düzenleme](service-interact-with-a-report-in-editing-view.md).
+Power BI Desktop penceresinin sol tarafındaki **İlişki** görünümünü seçerek, sorgularınız arasındaki ilişkileri görüntüleyip yönetebilirsiniz. İki sorguyu bağlayan satırdaki oka çift tıklayarak **İlişkiyi Düzenle** iletişim kutusunu açın ve ilişkiyi değiştirin. 
 
-Bu görevde, daha önce yüklenen verileri temel alan bir rapor oluşturacaksınız. Görselleştirmeleri oluşturmak üzere kullanacağınız sütunları seçmek için Alanlar bölmesini kullanırsınız.
+![İlişki Görünümü](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1. Adım: Product ölçütüne göre Units in Stock ve Year ölçütüne göre Total Sales'i gösteren grafikler oluşturma
-Alanlar bölmesindeki (Alanlar bölmesi ekranın sağ tarafında yer alır) **UnitsInStock** alanını tuvaldeki boş bir alana sürükleyin. Bir Tablo görselleştirmesi oluşturulur. Ardından, ProductName alanını, Görsel Öğeler bölmesinin orta kısmının altında bulunan Eksen kutusuna sürükleyin. Ardından, görselleştirmenin sağ üst köşesindeki üç nokta simgesini kullanarak **Sıralama Ölçütü: \> UnitsInStock** seçeneğini belirleriz.
+İlişkiler Görünümünden Rapor Görünümüne geri dönmek için **Rapor Görünümü** simgesini seçin. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![Rapor Görünümü simgesi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-**OrderDate**'i tuvaldeki ilk grafiğin altına, LineTotal'ı (Alanlar bölmesinden) ise görselin üzerine sürükleyin ve ardından Çizgi Grafik seçeneğini belirleyin. Aşağıdaki görselleştirme oluşturulur.
+## <a name="create-visualizations-using-your-data"></a>Verilerinizi kullanarak görselleştirmeler oluşturma
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+Power BI Desktop Rapor Görünümünde verilerinizden içgörüler elde etmek için çeşitli görselleştirmeler oluşturabilirsiniz. Birden çok sayfa içeren raporlar oluşturabilir ve her bir sayfada birden çok görsel olmasını sağlayabilirsiniz. Verilerinizi çözümlemenize ve anlamanıza yardımcı olmaları için başkalarıyla birlikte görselleştirmelerinizle etkileşime geçebilirsiniz. Power BI Hizmetinde (siteniz) raporları görüntüleme ve düzenleme hakkında daha fazla bilgi için bkz. [Rapor Düzenleme](service-interact-with-a-report-in-editing-view.md).
 
- Ardından, **ShipCountry** alanını tuvalin sağ üst tarafındaki bir alana sürükleyin. Coğrafi bir alan seçtiğiniz için otomatik olarak bir harita oluşturulur. Şimdi de **LineTotal**'ı **Değerler** alanına sürükleyin; her bir ülkeye yönelik olarak haritada bulunan daireler artık söz konusu ülkeye gönderilen siparişlere ilişkin **LineTotal**'a göre boyutlandırılır.
+Veri kümelerinizin her ikisini ve aralarındaki ilişkiyi kullanarak satış verilerinizin görselleştirilmesine ve analiz edilmesine yardımcı olabilirsiniz. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+İlk olarak, sipariş edilen her bir ürünün miktarını göstermek üzere her iki sorgunun alanlarını kullanan yığılmış bir sütun grafiği oluşturun. 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>2. Adım: Daha fazla çözümleme yapmak için rapor görsellerinizle etkileşime geçme
-Power BI Desktop, daha fazla eğilimi ortaya çıkarmak için birbirlerine çapraz vurgulama ve filtreleme uygulayan görsellerle etkileşime geçmenize olanak sağlar. Daha fazla ayrıntı için bkz. [Raporlarda Filtreleme ve Vurgulama](power-bi-reports-filters-and-highlighting.md)
-
-1. **Canad****a**'nın ortasında bulunan açık mavi daireye tıklayın. Diğer görsellerin yalnızca Kanada için Stoku (**ShipCountry**) ve Toplam Siparişleri (**LineTotal**) gösterecek şekilde nasıl filtrelendiğine dikkat edin.
+1. Sağ taraftaki **Alanlar** bölmesinde bulunan **Siparişler** bölümünden **Miktar** alanını seçin veya tuval üzerindeki boş bir alana sürükleyin. Bu işlem, sipariş edilen tüm ürünlerin toplam miktarını gösteren yığılmış bir sütun grafiği oluşturur. 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. Sipariş edilen her bir ürünün miktarını görüntülemek için **Alanlar** bölmesindeki **Ürünler** bölümünden **ProductName** öğesini seçin veya grafiğin üzerine sürükleyin. 
+   
+3. Ürünleri en fazla sipariş edilenden en az sipariş edilene doğru sıralamak için, görselleştirmenin sağ üst kısmındaki **Diğer seçenekler** üç nokta simgesini (**...**) ve sonra **Miktara Göre Sırala**’yı seçin.
+   
+4. Grafiği ürün adları görünür olacak şekilde genişletmek için grafiğin köşelerindeki tutamaçları kullanın. 
+   
+   ![ProductName’e Göre Miktar çubuk grafiği](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>Tamamlanmış Satış Analizi Raporu
-Bu adımların tümünü uyguladıktan sonra, Products.xlsx dosyasındaki ve Northwind OData akışındaki verileri birleştiren bir Satış Raporu elde edersiniz. Rapor, farklı ülkelerden elde edilen satış bilgilerinin çözümlenmesine yardımcı olan görseller görüntüler. Bu eğitime yönelik tamamlanmış bir Power BI Desktop dosyasını [buradan](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix) indirebilirsiniz.
+Ardından, zaman içinde (**OrderDate**) sipariş tutarını USD cinsinden (**LineTotal**) gösteren bir grafik oluşturun. 
+
+1. Tuvalde seçili bir öğe yokken **Alanlar** bölmesindeki **Siparişler** bölümünden **LineTotal** öğesini seçin veya tuval üzerindeki boş bir alana sürükleyin. Yığılmış sütun grafiği, tüm siparişlerin toplam tutarını USD cinsinden gösterir. 
+   
+2. Grafik seçiliyken **Siparişler** bölümünden **OrderDate** öğesini seçin veya grafiğin üzerine sürükleyin. Grafik bu durumda her bir sipariş tarihinin satır toplamlarını gösterir. 
+   
+3. Daha fazla veri görebilmek için köşeleri sürükleyerek görselleştirmeyi yeniden boyutlandırın. 
+   
+   ![OrderDate’e Göre LineTotals çizgi grafiği](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >Grafikte yalnızca Yılları görüyorsanız (yalnızca üç veri noktası), **Görselleştirmeler** bölmesinin **Eksen** alanındaki **OrderDate** öğesinin yanın bulunan oku açın ve **Tarih Hiyerarşisi** yerine **OrderDate** öğesini seçin. 
+
+Son olarak, her bir ülkenin sipariş tutarlarını gösteren bir harita görselleştirmesi oluşturun. 
+
+1. Tuvalde seçili bir öğe yokken **Alanlar** bölmesindeki **Siparişler** bölümünden **ShipCountry** öğesini seçin veya tuval üzerindeki boş bir alana sürükleyin. Power BI Desktop, verilerin ülke adları olduğunu algılar ve siparişi olan her ülke için bir veri noktası ile birlikte otomatik olarak bir harita görselleştirmesi oluşturur. 
+   
+2. Veri noktalarının boyutlarını her bir ülkenin sipariş tutarlarını yansıtacak hale getirmek için **LineTotal** alanını haritanın üzerine sürükleyin (veya **Görselleştirmeler** alanının alt yarısında bulunan **Boyut** altındaki **Veri alanlarını buraya sürükleyin** alanına sürükleyin). Harita üzerindeki dairelerin boyutları bu durumda her bir ülkenin sipariş tutarlarını USD cinsinden yansıtır. 
+   
+   ![ShipCountry’ye Göre LineTotals harita görselleştirmesi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>Daha fazla analiz yapmak için rapor görsellerinizle etkileşimde bulunma
+
+Power BI Desktop, birbirlerine çapraz vurgulama ve filtreleme uygulayan görsellerle etkileşimde bulunarak daha fazla eğilimi ortaya çıkarmanızı sağlar. Daha fazla bilgi için bkz. [Raporlarda Filtreleme ve Vurgulama](power-bi-reports-filters-and-highlighting.md). 
+
+Sorgularınız arasındaki ilişki nedeniyle, bir görselleştirmedeki etkileşimler sayfa üzerindeki diğer tüm görselleştirmeleri etkiler. 
+
+Harita görselleştirmesi üzerinde, merkezi **Kanada**’da bulunan daireyi seçin. Diğer iki görselleştirmenin yalnızca Kanada’ya ait satır toplamlarını ve sipariş miktarlarını vurgulamak üzere filtrelendiğine dikkat edin.
+
+![Kanada için filtrelenmiş satış verileri](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+**ProductName’e Göre Miktar** grafiğindeki ürünlerden birini seçerseniz, harita ve tarih grafik filtresi o ürünün verilerini yansıtacak şekilde filtrelenir. **OrderDate’e Göre LineTotal** grafiğindeki tarihlerden birini seçerseniz, harita ve ürün grafiği o tarihe ait verileri gösterecek şekilde filtrelenir. 
+>[!TIP]
+>Bir seçimi kaldırmak için yeniden seçin veya diğer görselleştirmelerden birini seçin. 
+
+## <a name="complete-the-sales-analysis-report"></a>Satış analizi raporunu tamamlama
+
+Products.xlsx Excel dosyasındaki ve Northwind OData akışındaki verileri, farklı ülke, zaman çerçevesi ve ürünler için sipariş bilgilerini analiz etmeye yardımcı olan görseller halinde birleştirmeyi tamamladınız. Raporunuz hazır olduğunda [Power BI hizmetine yükleyerek](desktop-upload-desktop-files.md) diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
