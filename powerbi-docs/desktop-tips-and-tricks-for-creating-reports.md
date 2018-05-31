@@ -1,27 +1,20 @@
 ---
 title: Power BI'da rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 description: Power BI hizmetinde ve Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34230221"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -163,7 +156,7 @@ Bazen bir veri kümesi için özet istatistikleri hesaplamanız gerekebilir.  Bu
 ## <a name="using-dax-for-the-first-time"></a>İlk kez DAX kullanma
 DAX, Power BI Desktop'taki hesaplama formülü dilidir.  BI analizi için en iyi duruma getirilmiştir.  Yalnızca SQL gibi bir sorgu dili kullandıysanız biraz farklı gelebilir. DAX öğrenmek için faydalanabileceğiniz birçok çevrimiçi ve çevrimdışı kaynak mevcuttur. 
 
-[Hızlı Başlangıç: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md)
+[Power BI Desktop’ta DAX Kullanımıyla İlgili Temel Bilgileri öğrenme](desktop-quickstart-learn-dax-basics.md)
 
 [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)
 

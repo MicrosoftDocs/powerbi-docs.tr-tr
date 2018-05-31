@@ -1,169 +1,66 @@
 ---
-title: Power BI ağ geçitleriyle çalışmaya başlama
+title: Power BI ağ geçitleri nelerdir?
 description: Power BI ile birlikte kullanılan veri ağ geçitleri hakkındaki temel bilgileri öğrenin.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-gateways
+ms.topic: overview
+ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 173122c863d9472b53051febbec543e140a4a6db
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297895"
 ---
-# <a name="getting-started-with-power-bi-gateways"></a>Power BI ağ geçitleriyle çalışmaya başlama
-**Power BI ağ geçitleriyle çalışmaya başlama** kılavuzuna hoş geldiniz. Bu kısa kılavuzda veri ağ geçitlerinin işlevleri ve çalışma şeklinin yanı sıra kendi ağ geçidinizi yükleme, yapılandırma ve çalıştırma yöntemleri ele alınmaktadır.  
+# <a name="what-are-power-bi-gateways"></a>Power BI ağ geçitleri nelerdir?
 
-![](media/service-gateway-getting-started/gw_gettingstarted_0a.png)
+Power BI ağ geçidi, şirket içi ağı içine yüklediğiniz bir yazılımdır ve bu ağda verilere erişimi kolaylaştırır. Bağlantı isteklerini dinleyen ve yalnızca belirli ölçütlere uygun olan kullanıcı isteklerini onaylayan bir bekçi gibidir. Böylece kuruluşlar veritabanlarını ve diğer veri kaynaklarını şirket içi ağlarında tutabilir, diğer yandan da bu şirket içi verileri Power BI rapor ve panolarında güvenli bir şekilde kullanabilir.
 
-Her ağ ve kuruluş birbirinden farklı olduğu için ağ geçitleri karmaşık ve teknik bir konu haline gelebilir. Bu karmaşayı biraz gidermek için temel bilgileri incelemeye başlayalım.
+Aşağıdaki diyagramda, üç şirket içi bilgisayar için buluttan istekleri işleyen ağ geçidi ile birlikte temel bir görünüm gösterilmektedir. Makalenin sonraki bölümlerinde bu konuyu daha ayrıntılı ele alacağız.
 
-## <a name="how-power-bi-gateways-work"></a>Power BI ağ geçitleri nasıl çalışır?
-**Ağ geçidi**, Power BI gibi bir bulut hizmetinde sonradan kullanılmak üzere özel veya şirket içi bir ağda tutulan verilere erişilmesini kolaylaştıran bir yazılımdır. Bağlantı isteklerini dinleyen ve yalnızca belirli ölçütlere (ağ geçidini kullanma iznine sahip olup olmadıkları gibi) uygun olan kullanıcı isteklerini onaylayan bir bekçi gibidir. Bu sistem, kuruluşların veritabanlarını ve ambarlarını şirket içi ağlarında tutarak bu verilerin alt kümelerini Power BI'da etkili raporlar ve panolar oluşturma amacıyla kullanmaya devam etmelerini sağlar.
+![Ağ geçidine genel bakış](media/service-gateway-getting-started/gateway-overview.png)
 
-Ağ geçidi aynı zamanda üzerinden geçen tüm verilerin yanı sıra veri kaynaklarına bağlanmak için kullanılan parolaları şifreleyip sıkıştırarak erişim ve veri güvenliğini de sağlar. Tüm bu bilgilerin oldukça anlaşılır göründüğünden eminim ancak bu konuyla ilgili birçok ayrıntı da mevcut.
+## <a name="types-of-gateways"></a>Ağ geçidi türleri
 
-Bazen yalnızca kendinize ait olacak bir ağ geçidi isteyebilirsiniz. Belki uzun yıllara ait satış ve pazarlama verilerinin bulunduğu büyük bir Excel çalışma kitabı ve üç SQL veritabanınız vardır ve bu satışları her açıdan ele alan bir Power BI panosu oluşturmak istersiniz. Raporları oluşturan tek kişisiniz, Excel çalışma kitabı size ait ve bu veritabanlarını Power BI raporu oluşturma amacıyla kullanan yalnızca sizsiniz. Yalnızca kişisel kullanım için bir ağ geçidine ihtiyaç duyuyorsunuz, bu veri kaynaklarını başkalarıyla paylaşma isteğiniz yok.
+Power BI, her biri farklı bir senaryoya yönelik iki ağ geçidi sunar:
 
-Diğer durumlarda Analysis Services, SAP, Oracle, IBM gibi farklı satıcılardan her türlü veritabanı ile başka birçok veri kaynağına sahip bir kuruluşta olabilirsiniz ve bu verilere çok sayıda kullanıcının erişerek farklı raporlar oluşturmasına ihtiyaç duyabilirsiniz. Bu durumda bu kaynakların tümüne erişimi yapılandırmanıza ve ardından kuruluşunuzdaki çok sayıda kullanıcıyla paylaşmanıza izin veren bir ağ geçidine ihtiyaç duyarsınız. Bu da farklı bir ağ geçidi türüdür.
+* **Şirket içi veri ağ geçidi (kişisel mod)**: Tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Yalnızca Power BI ile birlikte kullanılabilir. Bu ağ geçidi, rapor oluşturan tek kişinin siz olduğunuz ve veri kaynaklarını başkalarıyla paylaşmak zorunda olmadığınız senaryolara çok uygundur.
 
-Neyse ki Power BI bu senaryolara çok iyi uyum sağlayan iki farklı ağ geçidi sunmaktadır. Power BI tarafından sunulan bu iki ağ geçidi seçeneği şunlardır:
+* **Şirket içi veri ağ geçidi** – Birden fazla kullanıcının birden fazla şirket içi veri kaynağına bağlanmasını sağlar. Tümü tek bir ağ geçidi yüklemesi ile olmak üzere Power BI, PowerApps, Flow, Azure Analysis Services ve Azure Logic apps tarafından kullanılabilir. Bu ağ geçidi birden fazla kullanıcının birden fazla veri kaynağına eriştiği daha karmaşık senaryolara çok uygundur. 
 
-* **Şirket içi veri ağ geçidi (kişisel mod)**: Tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Yalnızca Power BI ile birlikte kullanılabilir.
-* **Şirket içi veri ağ geçidi**: Birden fazla kullanıcının şirket içi veri kaynaklarına bağlanmasını sağlar ve tek bir ağ geçidi yüklemesiyle Power BI, PowerApps, Flow ve Azure Logic uygulamaları tarafından kullanılabilir.
+## <a name="using-a-gateway"></a>Ağ geçidi kullanma
 
-İki ağ geçidi de benzer işleve sahiptir. Ağ geçitleri özel şirket içi ağ üzerindeki verilere erişim sağlar ve bu sayede veriler Power BI gibi bulut tabanlı hizmetlerde kullanılabilir. Kişisel ağ geçidi tek bir kişi ve yalnızca Power BI tarafından kullanılabilir, **Şirket içi veri ağ geçidi** birden fazla kullanıcı ve birden fazla hizmet tarafından kullanılabilir.
+Ağ geçidi kullanmanın dört ana adımı vardır:
 
-Bir ağ geçidini hizmete almak için gerçekleştirilmesi gereken işlemler üç bölüme veya üç aşamaya ayrılabilir:
+1. Uygun modu kullanarak, yerel bir bilgisayara **ağ geçidini yükleme**
+2. Şirket içi veri kaynaklarına erişebilmeleri için **ağ geçidine kullanıcı ekleme**
+3. Raporlarda ve panolarda kullanılabilmesi için **veri kaynaklarına bağlanma**
+4. Power BI raporlarının güncel olması için **şirket içi verileri yenileme**
 
-* Ağ geçidini yükleme
-* Kullanıcıları ağ geçidine ekleme (ağ geçidini kullanmalarını sağlama)
-* Veri kaynaklarına bağlanma
+Tek başına ağ geçidi yükleyebilir veya yüksek kullanılabilirlik için önerilen bir yöntem olarak bir ağ geçidini *kümeye* ekleyebilirsiniz.
 
-Ağ geçidi kullanma ayrıca, önemli olabilecek başka bir işlemi de gerçekleştirmenizi sağlar:
+## <a name="how-gateways-work"></a>Ağ geçitlerinin işleyişi
 
-* Power BI raporlarındaki verilerin yenilenebilmesi için şirket içi verileri yenileme
+Yüklediğiniz ağ geçidi bir Windows hizmeti olan **Şirket içi veri ağ geçidi** olarak çalışır. Bu yerel hizmet, Azure Service Bus aracılığıyla Ağ Geçidi Bulut Hizmeti’ne kaydedilir. Aşağıdaki diyagramda, şirket içi veriler ile ağ geçidini kullanan bulut hizmetleri arasındaki akış gösterilmektedir.
 
-Veri yenileme, Power BI panolarınızın ve raporlarınızın güncel olarak en yeni verileri yansıtması anlamına gelir. Bu şekilde şirket içi verilerle oluşturduğunuz bir raporu görüntüleyen kişi, raporu bir süre önce oluşturmuş olsanız dahi en güncel bilgileri görebilir.
+![Ağ geçidi veri akışını gösteren diyagram](media/service-gateway-getting-started/gateway-how-it-works.png)
 
-Birinci bölüm olan ağ geçidini yükleme adımı oldukça basittir. Kullanıcılara ağ geçidine erişim izni vermek de kolaydır. Tek yapmanız gereken onları Power BI içindeki bir iletişim kutusuna eklemektir. Her biri kendi bağlantı gereksinimlerine ve farklılıklarına sahip birçok farklı veri kaynağı olduğundan veri kaynaklarına bağlanma adımı karmaşık olabilir. Bu makalenin konusunu ağ geçidiyle sınırlamak için yenileme sürecini başka bir kılavuzda ele alacağız.
+Sorgular ve veri akışı:
 
-Öncelikle kolaydan başlayıp ağ geçidi yükleme adımlarını inceleyelim.
-
-## <a name="install-the-gateway"></a>Ağ geçidini yükleme
-Bir ağ geçidi yüklemek için Power BI hizmetini açın (bu bağlantıyı kullanarak Power BI hizmetini tarayıcınızdan başlatıp oturum açabilirsiniz) ve Power BI hesabınızla oturum açın. Power BI hizmetinde aşağıdaki resimde gösterildiği gibi **indir simgesini** ve ardından **Data Gateway**'i seçin.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_01.png)
-
-Açılan indirme sayfasındaki **Download gateway** (Ağ geçidini indir) düğmesine tıklayarak indirme işlemini başlatabilirsiniz.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_02.png)
-
-Bu ekranda ağ geçidinin işlevleri hakkında özet bilgiler verilir. Ayrıca birkaç önemli **uyarı** da bulunur. Yüklediğiniz ağ geçidi, yüklemeyi gerçekleştirdiğiniz bilgisayarda çalışır. Bu bilgisayar kapalı olduğunda ağ geçidi de kapalı olur (yani bilgisayar çalışmadığında ağ geçidi çalışmaz). Ayrıca, yüklemeyi kablosuz ağ kullanan bir bilgisayara yapmanız önerilmez, en iyisi kablolu ağa bağlı bir bilgisayar tercih etmektir.
-
-Hazır olduğunuzda kurulum adımlarına geçmek için **İleri**'yi seçin.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_03.png)
-
-Burada şirket içi ağ geçidi mi yoksa kişisel ağ geçidi mi yükleyeceğinizi belirleyebilirsiniz. Bu kılavuzda **Şirket içi veri ağ geçidini** yükleyeceğiz.
-
-Burada dikkat etmeniz gereken bazı noktalar vardır:
-
-* İki ağ geçidi için de 64 bit Windows işletim sistemi gerekir.
-* Ağ geçitleri etki alanı denetleyicisi üzerine yüklenemez.
-* Aynı bilgisayara her biri farklı bir modda çalışan (kişisel ve standart) iki şirket içi veri ağ geçidi yükleyebilirsiniz. 
-* Aynı bilgisayara aynı modda çalışan birden fazla ağ geçidi yükleyemezsiniz.
-* Farklı bilgisayarlara birden fazla şirket içi veri ağ geçidi yükleyip tümünü aynı Power BI ağ geçidi yönetim arabiriminden yönetebilirsiniz (kişisel hariç, aşağıdaki noktaya bakın).
-* Her Power BI kullanıcısı için kişisel modda çalışan yalnızca bir ağ geçidine sahip olabilirsiniz. Başka bir bilgisayarda bile olsa aynı kullanıcı için ikinci bir kişisel mod ağ geçidi yüklediğinizde en son yapılan yükleme önceki yüklemelerin yerini alır.
-
-**İleri**'yi seçtiğinizde ağ geçidi yüklemesi başlar. Yükleneceği konumu belirtmeniz gerekir ve genelde varsayılan konum en iyisidir.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_06.png)
-
-Yükleme işlemi hızla tamamlanır ve ilerleme durumunu görebileceğiniz bir durum çubuğu sunulur.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_06a.png)
-
-İşlem tamamlanmadan önce ağ geçidiyle birlikte kullanılacak hesabı tanımlamanız gerekir. Bunun Power BI oturumu açmak için kullandığınız hesap (kullanıcı adı ve parola) olması gerekir. Ağ geçidi Power BI hesabınızla ilişkilendirilir ve ağ geçitlerini Power BI hizmetinden yapılandırırsınız.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_07.png)
-
-Aşağıdaki resimde gösterilen şekilde oturumunuz açılır.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_08.png)
-
-Oturum açıldıktan sonra bir **Kurtarma anahtarı** oluşturmanız gerekir. Bu adımları başka bir makalede ayrıntılı bir şekilde anlatacağız ancak şimdilik ağ geçidinizi kurtarmak veya taşımak için bu anahtara ihtiyaç duyacağınızı bilmeniz yeterlidir.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_09.png)
-
-Tüm adımlar başarıyla tamamlandığında ağ geçidinizin hazır olduğunu bildiren bir pencere görüntülenir.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_10.png)
-
-Şirket içi ağ geçidi oluşturma adımları bunlardır. Söz verdiğimiz gibi oldukça kolay bir süreç oldu. Sonraki adım **kullanıcı ekleme** veya **veri kaynağı ekleme** adımıdır. İstediğinizi önce yapabilir ve ilk yapılandırma sonrasında istediğinizi ekleyebilirsiniz.
-
-Sonraki bölümde ağ geçidine kullanıcı ekleme adımları anlatılmıştır. Bu işlemin ardından ağ geçidine veri eklemek için neler yapmanız gerektiğini ele alacağız.
-
-## <a name="add-users-to-a-gateway"></a>Ağ geçidine kullanıcı ekleme
-Ağ geçidinizi yüklediğimize göre ağ geçidini **Power BI hizmetinden** yönetebiliriz. Ağ geçidi yönetim ekranına ulaşmak için Power BI hizmetinde sağ üst köşedeki dişli simgesini ve ardından **Ağ geçitlerini yönet**'i seçin.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_15.png)
-
-Power BI hizmeti tuvali içinde ağ geçitlerinizi yönetebileceğiniz bir sayfa açılır. **Ağ Geçidi Ayarları** sayfası aşağıdakine benzer.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_12.png)
-
-**Yöneticiler**'e dokunduğunuzda veya tıkladığınızda aşağıdaki yönetici yönetim sayfası açılır. Bunlar yalnızca ağ geçidini *yönetebilecek* kullanıcılardır. Ağ geçidi kullanıcıları ise farklı bir sayfa kullanılarak her bir veri kaynağından eklenir (veya kaldırılır). Bu işlemi sonraki birkaç paragrafta anlatacağız.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_13.png)
-
-Yükleyip doğruladığınız (başarıyla bağlandığınız) veri kaynakları aşağıdaki resimde gösterildiği şekilde bu **Ağ geçitlerini yönet** ekranının sol tarafındaki ilgili ağ geçidinin altında görünür. Sağ taraftaki bölmede arasında geçiş yapabileceğiniz iki bölüm olduğuna dikkat edin: **Veri Kaynağı Ayarları** ve **Kullanıcılar**. Aşağıdaki ekranda **Veri Kaynağı Ayarları** bölümü gösterilmektedir.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_16.png)
-
-**Kullanıcılar**'ı seçtiğinizde açılan metin kutusuna kuruluşunuzdaki kullanıcılardan seçilen veri kaynağına erişim izni vermek istediklerinizi yazabilirsiniz. Aşağıdaki ekranda gördüğünüz üzere Maggie ve Adam'ı ekledim.
-
-Metin kutusuna e-posta adresi yazmaya başladığınızda Power BI, e-posta adresi yazdıklarınızla eşleşen kullanıcıların listesini gösterir ve bu adlara tıklayarak listeye ekleme yapabilirsiniz.
-
-Bir grup içindeki kullanıcılara erişim izni vermek için e-posta gruplarını (takma adlar) veya tek kullanıcıları ekleyebilirsiniz.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_17.png)
-
-**Ekle**'yi seçtiğinizde eklenen üyeler kutuda görüntülenir ve dilerseniz ekleme yapabilirsiniz. Kullanıcıları kaldırmak da oldukça kolaydır. Kullanıcı adının yanındaki onay kutusunu işaretleyip kutunun altındaki **Kaldır** düğmesini seçmeniz yeterlidir.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_18.png)
-
-İşte bu kadar kolay. Kullanıcıları, erişim izni vermek istediğiniz her bir veri kaynağına eklemeniz gerektiğini unutmayın. Her veri kaynağının kullanıcı listesi ayrıdır ve kullanıcıları her veri kaynağına ayrıca eklemeniz gerekir.
-
-## <a name="adding-data-sources"></a>Veri kaynaklarını ekleme
-Elbette ağ geçidinizi işe yarar hale getirmek için veri kaynağı eklemeniz gerekir. Power BI ağ geçitlerinin karmaşıklığı burada başlar. Kullanılabilecek birçok farklı veri kaynağı vardır ve her birinin gereksinimleri (ve genelde gerekli sürücüsü) diğerlerinden farklıdır.
-
-Sizi başka bir makaleye göndermeden önce veri kaynağı ekleme konusunda bilgi vermek istiyoruz. **Power BI hizmetinin** **Ağ geçitlerini yönet** sayfasında veri kaynağı eklemek istediğiniz ağ geçidini seçip sayfanın sol üst köşesinde, kullanılabilir ağ geçitleri listenizin hemen üzerinde yer alan **Veri Kaynağı Ekle**'yi seçin.
-
-Bu işlemi gerçekleştirdiğinizde aşağıdaki resimde gösterildiği şekilde sağ taraftaki bölmede **Veri Kaynağı Ayarları** bölmesi görünür. Buradan veri kaynağınızı adlandırabilir (**Veri Kaynağı Adı** metin kutusuna girerek) ve **Veri Kaynağı Türü** açılan listesinden türünü seçebilirsiniz.
-
-![](media/service-gateway-getting-started/gw_gettingstarted_14.png)
-
-Ağ geçidinizi yüklediniz ve veri kaynağı eklemeye hazırsınız. Harika! Veri kaynakları hakkında bilgiler, ağ geçidi kullanma hakkında ayrıntılar ve diğer yararlı bilgiler için aşağıdaki bölümde yer alan kaynakları inceleyin.
+1. Bulut hizmeti, şirket içi veri kaynağı için şifrelenmiş kimlik bilgileri ile bir sorgu oluşturur. Bu sorgu daha sonra işlenmek üzere ağ geçidi sırasına gönderilir.
+2. Ağ geçidi bulut hizmeti sorguyu çözümler ve isteği Azure Service Bus'a gönderir.
+3. Şirket içi veri ağ geçidi, Azure Service Bus’ta bekleyen istekler olup olmadığını yoklar.
+4. Ağ geçidi sorguyu alır, kimlik bilgilerinin şifresini çözer ve bu kimlik bilgileriyle veri kaynaklarına bağlanır.
+5. Ağ geçidi, yürütme için sorguyu veri kaynağına gönderir.
+6. Sonuçlar, veri kaynağından ağ geçidine ve ardından bulut hizmetine ve sunucunuza geri gönderilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Şirket içi veri ağ geçidini kullanma](service-gateway-onprem.md)  
-[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
-[Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-personal-mode.md)
-[Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
+[Şirket içi veri ağ geçidini yükleme](service-gateway-install.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

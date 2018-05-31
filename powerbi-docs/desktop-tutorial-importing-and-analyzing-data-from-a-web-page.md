@@ -1,168 +1,196 @@
 ---
-title: "Eğitim: Power BI Desktop'ı kullanarak bir Web Sayfasından veri içeri aktarma ve bu verileri çözümleme"
-description: "Eğitim: Power BI Desktop'ı kullanarak bir Web Sayfasından veri içeri aktarma ve bu verileri çözümleme"
+title: 'Öğretici: Power BI Desktop kullanarak bir web sayfasından verileri içeri aktarma ve çözümleme'
+description: 'Öğretici: Power BI Desktop kullanarak bir web sayfasından verileri içeri aktarma ve çözümleme'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945975"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Power BI Desktop'ı kullanarak Web sayfası verilerini çözümleme (eğitim)
-Bu eğitimde bir Web sayfasındaki veri tablosunu içeri aktarmayı ve bu verileri görselleştirmek için rapor oluşturmayı öğreneceksiniz. Bu işlemin bir parçası olarak bir Web sayfasındaki tablolarda gezinecek ve tabloya yeni bir şekil vermek için veri dönüştürme adımları uygulayacaksınız.
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini çözümleme
 
- Bu makalede:
+Uzun süreli bir futbol sever olarak, yıllara göre UEFA Avrupa Kupası (Euro Cup) sahipleri ile ilgili rapor oluşturmak istiyorsunuz. Power BI Desktop sayesinde bu verileri bir web sayfasından rapora aktarabilir ve verileri gösteren görselleştirmeler oluşturabilirsiniz. Bu öğreticide, Power BI Desktop kullanarak aşağıdakileri yapmayı öğreneceksiniz:
 
-* **1. Görev:** Web veri kaynağına bağlanma
-* **2. Görev:** Verileri Sorgu görünümünde şekillendirme
-  * 1. Adım: Yalnızca ilgili sütunları görüntülemek için Diğer Sütunları kaldırma
-  * 2. Adım: Belirli bir sütundaki değerleri temizlemek için Değerleri değiştirme
-  * 3. Adım: Bir sütunda bulunan değerleri filtreleme
-  * 4. Adım: Bir sütunu yeniden adlandırma
-  * 5. Adım: Bir sütundaki boş değerleri filtreleme
-  * 6. Adım: Bir sorguyu yeniden adlandırma
-  * Sorgu Adımları oluşturuldu
-* **3. Görev:** Rapor görünümünü kullanarak görselleştirme oluşturma
-  * 1. Adım: Sorguyu raporunuza yükleme
-  * 2. Adım: Harita görselleştirmesi oluşturma
+- Bir web veri kaynağına bağlanma ve tüm kullanılabilir tablolarda gezinme,
+- **Power Query Editor**’de verileri şekillendirme ve dönüştürme,
+- Bir sorguyu adlandırma ve bir Power BI Desktop raporuna aktarma ve 
+- Bir harita ve pasta grafiği görselleştirmesi oluşturma ve özelleştirme.
 
-## <a name="task-1-connect-to-a-web-data-source"></a>1. Görev: Web veri kaynağına bağlanma
- 1. görevde şu konumdaki UEFA Avrupa Futbol Şampiyonası Wikipedia sayfasında bulunan Turnuva Özeti tablosunu içeri aktaracaksınız: http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+## <a name="connect-to-a-web-data-source"></a>Bir web veri kaynağına bağlanma
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+UEFA kupası sahiplerine ait verileri, http://en.wikipedia.org/wiki/UEFA_European_Football_Championship adresindeki UEFA Avrupa Futbol Şampiyonası Wikipedia sayfasında bulunan Sonuçlar tablosundan alabilirsiniz. 
 
-### <a name="add-a-wikipedia-page-data-source"></a>Wikipedia sayfası veri kaynağı ekleme
-1. **Başlarken iletişim kutusunda** veya **Giriş** şerit sekmesinde **Veri Al**'ı seçin.
-2. Açılan **Veri Al** iletişim kutusunda Power BI Desktop'a aktarabileceğiniz farklı veri kaynakları arasından seçim yapabilirsiniz. **Tümü** veya **Diğer** grubunda bulunan **Web**'i seçeceğiz.
-3. **Web İçeriği** iletişim kutusundaki **URL** metin kutusuna Wikipedia URL'sini yapıştırın: (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship).
-4. **Tamam**'a tıklayın.
+![Wikipedia Sonuçlar tablosu](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-Web sayfasıyla bağlantı kurduktan sonra **Gezgin** iletişim kutusunda bu Wikipedia sayfasında bulunan tabloların listesini göreceksiniz. Verileri önizlemek için bu tablolara bir kez tıklayabilirsiniz.
+Verileri içeri aktarmak için:
 
-**Gezgin** iletişim kutusunda soldaki bölmede Tournament Summary sonuçları tablosunun **Results[edit]** tablosunu seçin veya **Results[edit]** tablosunu seçip **Düzenle**'yi seçin. Bu sayede bu tabloyu Rapora yüklemeden önce düzenleyebilir, verileri çözümleme için gerekli biçime dönüştürebiliriz.
+1. Power BI Desktop **Giriş** şerit sekmesinde, **Veri Al** seçeneğinin yanındaki oku açın ve sonra **Web**’i seçin.
+   
+   ![Şeritten Veri Al](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >Ayrıca **Veri Al** öğesini seçebilir ya da Power BI **Kullanmaya başlama** iletişim kutusundan **Veri Al**’ı seçtikten sonra **Veri Al** iletişim kutusundaki **Tümü** veya **Diğer** bölümünden **Web**’i ve sonra **Bağlan**’ı seçebilirsiniz.
+   
+2. **Web’den** iletişim kutusunda, `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` URL’sini **URL** metin kutusuna yapıştırın ve sonra **Tamam**’ı seçin.
+   
+    ![İletişim kutusundan Veri Al](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   Wikipedia web sayfasına bağlandıktan sonra, Power BI **Gezgin** iletişim kutusunda sayfadaki kullanılabilir tabloların bir listesi gösterilir. Verilerin önizlemesini görmek için tablo adlarından herhangi birini seçebilirsiniz. **Sonuçlar[düzenle]** tablosunda istediğiniz veriler bulunur ancak bu veriler tam olarak istediğiniz şekilde değildir. Verileri raporunuza yüklemeden önce yeniden şekillendirir ve temizlersiniz. 
+   
+   ![Gezgin iletişim kutusu](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >**Önizleme** bölmesinde, seçilen en son tablo gösterilir ancak **Düzenle** veya **Yükle**’yi seçtiğinizde tüm seçili tablolar **Power Query Editor**’a yüklenir. 
+   
+3. **Gezgin** listesinde **Sonuçlar[düzenle]** tablosunu ve ardından **Düzenle**’yi seçin. 
+   
+   **Power Query Editor**’da tablonun önizlemesi açılır. Burada verileri temizlemek için dönüşümler uygulayabilirsiniz. 
+   
+   ![Power Query Editor](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>Power Query Editor’da verileri şekillendirme
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+Yalnızca yılları ve kazanan ülkeleri görüntüleyerek verilerin taranmasını kolaylaştırmak istiyorsunuz. Bu veri şekillendirme ve temizleme adımlarını gerçekleştirmek için **Power Query Editor**’u kullanabilirsiniz.
 
-Bu işlemin ardından tablo özeti Sorgu görünümünde açılacak ve verileri temizlemek için bir dizi dönüştürme adımı uygulayabileceksiniz.
+İlk olarak, tablodan **Year** ve **Final Winners** haricindeki tüm sütunları kaldırın.
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. **Power Query Editor** kılavuzunda **Year** ve **Final Winners** sütunlarını seçin (birden fazla öğe seçmek için **Ctrl** tuşunu basılı tutun).
+   
+2. Tablodan diğer tüm sütunları kaldırmak için, sağ tıklayıp açılır listeden **Diğer Sütunları Kaldır**’ı veya **Giriş** şerit sekmesindeki **Sütunları Yönet** grubundan **Sütunları Kaldır** > **Diğer Sütunları Kaldır**’ı seçin. 
+   
+   ![Diğer sütunları kaldır açılır listesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) veya ![Diğer sütunları kaldır şeridi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>2. Görev: Verileri konu tablosunda şekillendirme
-Veri sorgunuza ait konu tablosunu seçtiniz, şimdi farklı veri şekillendirme ve temizleme adımlarını gerçekleştirmeyi öğreneceksiniz.
-
-**1. Adım:** Yalnızca ilgili sütunları görüntülemek için Diğer Sütunları kaldırma
-
-Bu adımda **Year** ve **Final Winners** haricindeki tüm sütunları kaldıracaksınız.
-
-1. **Sorgu Önizlemesi** kılavuzunda **Year** ve **Final Winners** sütunlarını seçin (**CTRL** + **Tıklama** birleşimini kullanın).
-2. **Sorgu Önizlemesi** kılavuzunda sütun başlıklarından birine sağ tıklayıp **Diğer Sütunları Kaldır**'a tıklayarak seçili olmayan sütunları kaldırın. Bu işlem **Giriş** şerit sekmesinin **Sütunları Yönet** grubunda da mevcuttur.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**2. Adım:** Belirli bir sütundaki değerleri temizlemek için Değerleri değiştirme
-
-Bu adımda **Year** sütunundaki Details son ekini değiştireceksiniz. Bu son ek yeni satırda olduğu için tablo önizlemesinde görünmediğine dikkat edin. Ancak Year sütunundaki sayısal değer içeren hücrelerden birine tıkladığınızda tam değeri ayrıntılı görünümde görebilirsiniz.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+Ardından, **Year** sütun hücrelerinde fazladan **Details** sözcüğünü kaldırın.
 
 1. **Year** sütununu seçin.
-2. **Sorgu görünümü** şeridinin **Giriş** sekmesinde **Değerleri Değiştir**'e tıklayın veya **Year** sütununa sağ tıklayıp **Değerleri Değiştir**'e tıklayarak Details son ekini boş metinle değiştirin.
-3. **Değerleri Değiştir** iletişim kutusunda **Bulunacak Değer** metin kutusuna Details yazın ve **Şununla Değiştir** metin kutusunu boş bırakın.
-4. **Tamam**'a tıklayın.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **3. Adım:** Bir sütunda bulunan değerleri filtreleme
-
-Bu adımda **Year** sütununu "Year" içermeyen satırları görüntüleyecek şekilde filtreleyeceksiniz.
-
-1. **Year** sütunundaki filtre açılan menü okuna tıklayın.
-2. **Filtre** açılan menüsündeki **Year** seçeneğini silin.
-3. **Tamam**'a tıklayın.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**4. Adım:** Bir sütunu yeniden adlandırma
-
-**Year** sütunundaki verileri temizledik, şimdi **Final Winner** sütunu üzerinde çalışacağız.
-
-Yalnızca kazananların listesine baktığımız için bu sütunun adını **Country** olarak değiştirebiliriz.
-
-1. Sorgu önizlemesinde **Final Winner** sütununu seçin.
-2. **Sorgu görünümü** şeridinin **Dönüştür** sekmesinin ve **Herhangi Bir Sütun** grubunun altında **Yeniden Adlandır** seçeneğini göreceksiniz.
-3. Buna tıkladığınızda sütun adı düzenlenebilir hale gelir. Bu sütunun adını **Country** olarak değiştireceğiz.
-
-**5. Adım:** Bir sütundaki boş değerleri filtreleme
-
-**Country** sütunundaki boş değerleri de filtrelememiz gerekiyor. Bunu yapmak için 3. adımdaki filtre menüsünü kullanabilir veya alternatif olarak şu işlemi gerçekleştirebiliriz:
-
-1. **Country** sütunundaki boş değer içeren hücrelerden birine sağ tıklayın.
-2. Bağlam menüsündeki **Metin Filtreleri -\> Eşit değildir** seçeneğini belirleyin.
-3. **Country** sütunundaki boş değerlere sahip satırları kaldırmak üzere yeni bir filtre adımı oluşturulur.
-
-**6. Adım:** Sorguyu adlandırma
-
-Bu adımda son sorgunuzu **Euro Cup Winners** olarak adlandıracaksınız.
-
-1. **Sorgu Ayarları** bölmesindeki **Ad** metin kutusuna **Euro Cup Winners** yazın.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>3. Görev: Rapor görünümünü kullanarak görselleştirme oluşturma
-Verileri çözümleme için istediğimiz şekle dönüştürdüğümüze göre sonuçta ortaya çıkan tabloyu Raporumuza yükleyip birkaç görselleştirme oluşturabiliriz.
-
-**1. Adım:** Sorguyu raporunuza yükleme
-
-Sorgu sonuçlarını Power BI Desktop'a yükleyip rapor oluşturmak için **Giriş** şeridinden **Kapat ve Yükle**'yi seçin.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-Bunu yaptığınızda sorgu değerlendirmesi tetiklenir ve tablo çıktısı Rapora yüklenir. Power BI Desktop'ta **Rapor** simgesini seçerek Power BI Desktop uygulamasını Rapor görünümüne geçirin.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-Sonuç tablosunun alanlarını **Rapor görünümünün** **Alanlar bölmesinde** görebilirsiniz.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**2. Adım:** Harita görselleştirmesi oluşturma
-
-Görselleştirme oluşturmak için **Alan listesindeki** alanları sürükleyerek **Rapor tuvaline** bırakabiliriz.
-
-1. **Country** alanını sürükleyip **Rapor tuvaline** bırakın. **Rapor tuvalinde** yeni bir görselleştirme oluşturulur. Bu durumda elimizde ülke listesi olduğu için bir **Harita görselleştirmesi** oluşturulur.
+2. Sağ tıklayıp açılır listeden **Değerleri Değiştir**’i veya şeridin **Giriş** sekmesindeki **Dönüşüm** grubundan **Değerleri Değiştir**’i seçin (aynı zamanda **Dönüşüm** sekmesinin **Herhangi Bir Sütun** grubunda bulunur). 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. **Görsel Öğeler** bölmesinde farklı bir simgeye tıklayarak görselleştirme türünü kolayca değiştirebiliriz.
+   ![Değerleri Değiştir açılır listesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) veya ![Değerleri Değiştir şeridi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. Bu örnekte **Harita** görselleştirme türünü koruyacağız. Görselleştirmenin köşelerini sürükleyerek boyutunu da değiştirebiliriz.
+3. **Değerleri Değiştir** iletişim kutusunda, **Bulunacak Değer** metin kutusuna **Details** yazın, **Şununla Değiştir** metin kutusunu boş bırakın ve sonra **Tamam**’ı seçerek "Details" sözcüğünü **Year** girişlerinden silin.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. Haritadaki tüm noktaların aynı boyutta olduğuna dikkat edin. Bunu değiştirerek daha fazla Avrupa Kupası kazanmış ülkelerin haritada daha büyük noktayla gösterilmesini istiyoruz. Bunu yapmak için **Alanlar listesindeki** **Year** alanını **Alanlar bölmesinin** alt yarısındaki **Değerler** kutusuna sürükleyebilirsiniz.
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+Bazı **Year** hücreleri, yıl değerleri yerine yalnızca "Year" sözcüğünü içerir. **Year** sütununu yalnızca "Year" sözcüğünü içermeyen satırları gösterecek şekilde filtreleyebilirsiniz. 
+
+1. **Year** sütunundaki filtre açılır okunu seçin.
+   
+2. Açılır listeyi aşağı kaydırın ve **Year** seçeneğinin yanındaki onay kutusunun işaretini kaldırın, ardından **Tamam**’ı seçerek **Year** sütununda yalnızca "Year" sözcüğü olan satırları kaldırın. 
+
+   ![Verileri filtreleme](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+**Year** sütunundaki verileri temizledikten sonra **Final Winner** sütunu üzerinde çalışabilirsiniz. Şu anda yalnızca finali kazananların verilerine baktığınız için bu sütunun adını **Country** olarak değiştirebilirsiniz. Sütunu yeniden adlandırmak için:
+
+1. **Final Winner** sütun başlığına çift tıklayın veya basılı tutun ya da 
+   - **Final Winners** sütun başlığına sağ tıklayın ve açılır listeden **Yeniden Adlandır**’ı seçin ya da 
+   - **Final Winners** sütununu ve şeridin **Dönüşüm** sekmesindeki **Herhangi Bir Sütun** grubundan **Yeniden Adlandır**’ı seçin. 
+   
+   ![Yeniden Adlandır açılır listesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) veya ![Yeniden adlandır şeridi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. Sütunu yeniden adlandırmak için üst bilgiye **Country** yazın ve **Enter** tuşuna basın.
+
+Ayrıca, **Country** sütununda null değerleri olan "2020" gibi sütunları filtrelemek istiyorsunuz. **Year** değerlerinde yaptığınız gibi filtre menüsünü kullanabilir veya şunları yapabilirsiniz:
+
+1. Değeri *null* olan **2020** satırında **Country** hücresine sağ tıklayın. 
+2. Bağlam menüsünden **Metin Filtreleri** > **Eşit Değil**’i seçerek hücrenin değerini içeren satırları kaldırın.
+   
+   ![Metin filtresi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>Sorguyu Rapor Görünümüne aktarma
+
+Verileri istediğiniz gibi şekillendirdikten sonra sorgunuzu "Euro Cup Winners" olarak adlandırıp raporunuza aktarabilirsiniz.
+
+1. **Sorgu Ayarları** bölmesinin **Ad** metin kutusuna **Euro Cup Winners** yazın ve sonra **Enter**’a basın.
+   
+   ![Sorguyu adlandırma](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. Şeridin **Giriş** sekmesinden **Kapat ve Uygula** > **Kapat ve Uygula** öğesini seçin.
+   
+   ![Kapat ve Uygula](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+Sorgu, Power BI Desktop **Rapor Görünümü**’ne yüklenir ve **Alanlar** bölmesinde görülebilir. 
+   
+   ![Alanlar Bölmesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>Sorgunuzu düzenlemek ve daraltmak için aşağıdakileri yaparak dilediğiniz zaman **Power Query Editor**’a geri dönebilirsiniz:
+>- **Alanlar** bölmesindeki **Euro Cup Winners** öğesinin yanında bulunan **Diğer seçenekler** üç nokta simgesini (**...**) ve açılır listeden **Sorguyu Düzenle**’yi seçin ya da
+>- Rapor görünümünde **Giriş** şerit sekmesinin **Harici veriler** grubundaki **Sorguları Düzenle** > **Sorguları Düzenle** öğesini seçin. 
+
+## <a name="create-a-visualization"></a>Görselleştirme oluşturma
+
+Verilerinizi temel alan bir görselleştirme oluşturmak için: 
+
+1. **Alanlar** bölmesinden **Ülke** alanını seçin veya rapor tuvaline sürükleyin. Power BI Desktop, verileri ülke adları olarak tanır ve otomatik olarak bir **Harita** görselleştirmesi oluşturur. 
+   
+   ![Harita görselleştirmesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. Köşelerdeki tanıtıcıları tüm kazanan ülke adları görünür olacak şekilde sürükleyerek haritayı genişletin.  
+
+   ![Haritayı genişletme](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. Haritada, bir Avrupa Kupası turnuvasını kazanmış her ülke için türdeş veri noktaları gösterilir. Her bir veri noktasının boyutunu ülkenin ne sıklıkta kazandığını yansıtacak şekilde değiştirmek için, **Yıl** alanını **Görselleştirmeler** bölmesinin alt kısmında bulunan **Boyut** altında **Veri alanlarını buraya sürükleyin** alanına sürükleyin. Alan otomatik olarak **Yıl Sayısı** ölçümüne dönüşür ve harita görselleştirmesinde daha fazla turnuva kazanmış ülkeler için daha büyük veri noktaları gösterilir. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-Gördüğünüz gibi verileri istediğiniz şekilde sunmak için raporunuzdaki görselleştirmeleri kolayca özelleştirebilirsiniz. Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Rapor hazır hale geldikten sonra [Power BI'a yükleyip](desktop-upload-desktop-files.md) bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
+## <a name="customize-the-visualization"></a>Görselleştirmeyi özelleştirme
 
-**Web'den Veri Aktarma** eğitiminin sonuna geldiniz. Tamamlanmış Power BI Desktop dosyasını [buradan](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix) indirebilirsiniz.
+Görebildiğiniz gibi, verilerinizi temel alarak görselleştirmeler oluşturmak son derece kolaydır. Ayrıca, görselleştirmelerinizi, verilerinizi istediğiniz yöntemlerle daha iyi şekilde sunmak üzere özelleştirmek de kolaydır. 
 
-## <a name="where-else-can-i-get-more-information"></a>Daha fazla bilgiye nereden ulaşabilirim?
+### <a name="format-the-map"></a>Haritayı biçimlendirme
+Görselleştirmeyi ve ardından **Görselleştirmeler** bölmesindeki **Biçim** (boya fırçası) simgesini seçerek görselleştirmenin görünümünü değiştirebilirsiniz. Örneğin, Batı Almanya iki, Almanya ise bir turnuva kazandığı için ve harita iki noktayı ayırmak veya birbirine eklemek yerine üst üste getirdiğinden, görselleştirmenizdeki "Almanya" veri noktaları yanıltıcı olabilir. Bu durumu vurgulamak için bu iki noktayı farklı şekillerde renklendirebilirsiniz. Ayrıca, haritaya daha açıklayıcı ve çekici bir başlık verebilirsiniz. 
+
+1. Görselleştirme seçiliyken, **Biçim** simgesini ve sonra **Veri renkleri**’ni seçerek veri rengi seçeneklerini genişletin. 
+   
+   ![Veri biçimlendirme renkleri](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. **Tümünü Göster** seçeneğini **Açık** duruma getirin ve ardından **Batı Almanya**’nın yanındaki açılır listeyi ve sarı rengi seçin. 
+   
+   ![Renk değiştirme](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. Başlık seçeneklerini genişletmek için **Başlık** öğesini seçin ve **Başlık metni** alanında mevcut başlığın yerine **Euro Cup Winners** yazın. 
+4. **Yazı tipi rengi**’ni kırmızı, **Metin boyutu**’nu **12** ve **Yazı tipi ailesi**’ni **Segoe (Kalın)** olarak değiştirin. 
+   
+   ![Veri biçimlendirme renkleri](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+Harita görselleştirmeniz şu şekilde görünür:
+
+![Biçimlendirilmiş harita görselleştirmesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>Görselleştirme türünü değiştirme
+Bir görselleştirmeyi ve sonra **Görselleştirme** bölmesinin üst kısmından farklı bir simgeyi seçerek görselleştirme türünü değiştirebilirsiniz. Örneğin, Sovyetler Birliği ve Çekoslovakya ülkeleri dünya haritasında artık mevcut olmadığı için harita görselleştirmenizde bu ülkelerin verileri eksik olabilir. Ağaç haritası veya pasta grafiği gibi başka bir görselleştirme türü tüm değerleri gösterdiği için daha doğru olabilir. 
+
+Haritayı bir pasta grafiği ile değiştirmek için haritayı ve sonra **Görselleştirme** bölmesindeki **Pasta grafiği** öğesini seçin. 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- "Almanya" ve "Batı Almanya"’yı aynı renk yapmak için **Veri renkleri** biçimlendirme seçeneklerini kullanabilirsiniz. 
+>- Pasta grafiğinde en fazla kazanan ülkeleri bir arada gruplandırmak için, görselleştirmenin sağ üst kısmındaki üç noktayı (**...**) ve sonra açılır listeden **Yıl Sayısına Göre Sırala**’yı seçin. 
+
+Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Rapor hazır hale geldikten sonra [Power BI'a yükleyip](desktop-upload-desktop-files.md) bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
+
+## <a name="see-also"></a>Ayrıca bkz.
 * [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)

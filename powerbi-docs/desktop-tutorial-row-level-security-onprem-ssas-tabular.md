@@ -1,30 +1,24 @@
 ---
-title: "Eğitim: Power BI'da Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik"
-description: 'Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik'
-services: powerbi
-documentationcenter: ''
+title: Power BI'da Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik
+description: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456146"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Eğitim: Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.
 
 Bu eğitimde aşağıdaki adımlar ayrıntılı bir şekilde anlatılarak Analysis Services tablolu modelinde dinamik satır düzeyi güvenlik uygulaması yapmak için gerekli olan öğeleri kavramanız amaçlanmaktadır:

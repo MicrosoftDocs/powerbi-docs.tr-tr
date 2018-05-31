@@ -1,30 +1,23 @@
 ---
-title: "Power BI'daki halka grafikler (Eğitim)"
-description: "Eğitim: Power BI'daki halka grafikler"
-services: powerbi
-documentationcenter: 
+title: Power BI'da halka grafikler
+description: Power BI'da halka grafikler
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5d8be3d160e8ea37ba9814c7bd78c3ad5a751d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294208"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI'daki halka grafikler (Eğitim)
+# <a name="doughnut-charts-in-power-bi"></a>Power BI'da halka grafikler
 Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gösterir. Tek fark ortasının boş ve bir etiket veya simge yerleştirmeye müsait olmasıdır.
 
 ## <a name="create-a-doughnut-chart"></a>Halka grafik oluşturma

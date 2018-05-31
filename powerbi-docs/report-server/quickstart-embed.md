@@ -1,108 +1,107 @@
 ---
-title: "iFrame kullanarak rapor gömme"
-description: "Power BI Rapor Sunucusunu yüklemek oldukça hızlı bir işlemdir. İndirmede işleminden yükleme ve yapılandırma aşamasına kadar geçen birkaç dakika içinde çalışmaya başlayabilirsiniz."
-services: powerbi
-documentationcenter: 
+title: iFrame kullanarak rapor gömme
+description: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame’e ekleme
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293709"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Hızlı Başlangıç: iFrame ve URL parametrelerini kullanarak Power BI raporu ekleme
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Hızlı Başlangıç: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
-Uygulamanızda iFrame kullanarak herhangi bir raporu ekleyebilirsiniz. 
+Bu hızlı başlangıçta, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sunucusu raporunu eklemeyi öğreneceksiniz. SharePoint Online ile çalışıyorsanız, Power BI Rapor Sunucusu genel erişime açık olmalıdır. SharePoint Online’da Power BI hizmeti ile çalışan Power BI Web Bölümü, Power BI Rapor Sunucusu ile birlikte çalışmaz. 
 
-## <a name="url-parameter"></a>URL parametresi
+![iFrame örneği](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>Önkoşullar
+* [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/en-us/report-server/) yüklü ve yapılandırılmış olmalıdır.
+* [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop](install-powerbi-desktop.md) uygulaması yüklü olmalıdır.
+* Bir [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) ortamı yüklü ve yapılandırılmış olmalıdır.
 
-Bir rapora ilişkin herhangi bir URL için `?rs:Embed=true` sorgu dizesi parametresini ekleyebilirsiniz.
+## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Rapor Sunucusu rapor URL'si oluşturma
 
-Örneğin:
+1. Github'dan örneği indirin - [Blog Tanıtımı](https://github.com/Microsoft/powerbi-desktop-samples).
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![Örnek PBIX dosyasını indirme](media/quickstart-embed/quickstart_embed_14.png)
 
-Bu, Power BI Rapor Sunucusu'ndaki tüm rapor türlerinde çalışır.
+2. **Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop** uygulamasında GitHub’dan örnek PBIX dosyasını açın.
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS Masaüstü aracı](media/quickstart-embed/quickstart_embed_02.png)
 
-URL'nizi edindikten sonra, raporun barındırılması için bir web sayfasında iFrame oluşturabilirsiniz.
+3. Raporu **Power BI Rapor Sunucusu**’na kaydedin. 
 
-Örneğin:
+    ![PBI RS Kaydetme](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. Raporu **Web Portalında** görüntüleyin.
 
-## <a name="url-filter"></a>URL filtresi
+    ![Web Portalı](media/quickstart-embed/quickstart_embed_04.png)
 
-Power BI raporunda döndürülen verileri filtrelemek için URL'ye sorgu dizesi parametresi ekleyebilirsiniz.
+### <a name="capturing-the-url-parameter"></a>URL parametresini yakalama
 
-Söz dizimi basittir; rapor URL'si ile başlayın, bir soru işareti ekleyin, ardından bu filtre söz dizimini ekleyin.
+URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfasında iFrame oluşturabilirsiniz. Herhangi bir Power BI Rapor Sunucusu rapor URL’si için raporunuzu bir iFrame’e eklemek üzere bir `?rs:embed=true` sorgu dizesi parametresi ekleyebilirsiniz. 
 
-URL?filter=***Tablo***/***Alan*** eq '***değer***'
+   Örnek:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Power BI Rapor Sunucusu raporunu SharePoint iFrame’e ekleme
 
-Şu noktaları göz önünde bulundurun:
+1. SharePoint **Site İçeriği** sayfasına gidin.
 
-- **Tablo** ve **Alan** adları büyük/küçük harfe duyarlıdır, **değer** ise değildir.
-- Bir raporu, rapor görünümünde alanlar gizlenmiş olacak şekilde filtreleyebilirsiniz.
-- **Değer** tek tırnak içine alınmalıdır.
-- Alan türünün dize olması gerekir.
-- Tablo ve alan adlarında boşluk olamaz.
+    ![Site İçeriği Sayfası](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>Örnek: Bir alanı filtreleme
+2. Raporunuzu eklemek istediğiniz sayfayı seçin.
 
-Örnek olarak [Perakende Analizi Örneği](../sample-datasets.md)'ni alalım. Bunun, rapor sunucusundaki "power-bi" adlı bir klasörde bulunan raporun URL'si olduğunu varsayalım:
+    ![Site İçeriği Sayfası Uygulaması](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. Sağ üst kısımdaki dişli simgesini ve **Sayfayı Düzenle**’yi seçin.
 
-Perakende Analizi Örneği'ndeki harita görselleştirmesinde, Kuzey Carolina ve diğer eyaletlerdeki mağazaların gösterildiğine dikkat edin.
+    ![Sayfayı Düzenle seçeneği](media/quickstart-embed/quickstart_embed_07.png)
 
-![Perakende Analizi Örneği harita görselleştirmesi](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. **Web Bölümü Ekle**’yi seçin.
 
-*NC*, **Store** tablosunun **Territory** alanında depolanan Kuzey Carolina değeridir. Raporu yalnızca Kuzey Carolina'da bulunan mağazaları göstermek üzere filtrelemek için URL'ye aşağıdakileri ekleyin:
+    ![Web Bölümü Ekleme](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. **Kategoriler** altında **Medya ve İçerik**’i seçin, **Bölümler** altında **İçerik Düzenleyicisi**’ni ve sonra **Ekle**’yi seçin.
 
-Rapor Kuzey Carolina için filtrelendiğinden rapor sayfasında bulunan tüm görselleştirmeler yalnızca Kuzey Carolina'ya ait verileri gösterir.
+    ![İçerik Düzenleyicisi Web Bölümü seç](media/quickstart-embed/quickstart_embed_09.png) ![Ekle’yi seç](media/quickstart-embed/quickstart_embed_091.png)
 
-![Perakende Analizi Örneği'nde filtrelenmiş görselleştirmeler](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. **Yeni içerik eklemek için buraya tıklayın** öğesini seçin.
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>Birden çok değeri filtrelemek için DAX formülü oluşturma
+    ![Yeni içerik ekleme](media/quickstart-embed/quickstart_embed_10.png)
 
-Birden çok alanı filtrelemenin başka bir yolu da, Power BI Desktop'ta iki alanı tek bir değerde birleştiren hesaplanmış bir sütun oluşturmaktır. Ardından, elde ettiğiniz bu değeri filtreleyebilirsiniz.
+7. Şeritte **Metni Biçimlendir** sekmesini ve sonra **Kaynağı Düzenle**’yi seçin.
 
-Örneğin, Perakende Analizi Örneği'nde iki alan vardır: Territory ve Chain. Power BI Desktop'ta, TerritoryChain (Alan) adlı [hesaplanmış bir sütun oluşturabilirsiniz](../desktop-tutorial-create-calculated-columns.md). **Alan** adında boşluk olamayacağını unutmayın. Bu sütun için DAX formülü aşağıdadır.
+     ![Kaynağı Düzenle](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. Kaynağı Düzenle penceresinde iFrame kodunuzu yapıştırıp Tamam’ı seçin.
 
-Raporu Power BI Rapor Sunucusu'nda yayımlayın ve ardından yalnızca NC'deki Lindseys mağazalarına ait verileri görüntülemek üzere filtreleme yapmak için URL sorgu dizesini kullanın.
+    ![iFrame kodu](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     Örnek:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. Şeritte **Sayfa** sekmesini ve **Düzenlemeyi Durdur**’u seçin.
+
+    ![Düzenlemeyi Durdur](media/quickstart-embed/quickstart_embed_13.png)
+
+10. Şimdi raporu sayfada görmeniz gerekir.
+
+    ![iFrame örneği](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Hızlı Başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma](quickstart-create-powerbi-report.md)  
 [Hızlı Başlangıç: Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma](quickstart-create-paginated-report.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/) 

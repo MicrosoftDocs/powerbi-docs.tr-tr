@@ -1,27 +1,28 @@
 ---
-title: "Power BI mobil uygulamalarında sık kullanılanlar"
-description: "Mobil uygulamalarda Power BI panoları, raporları ve uygulamalarının yanı sıra Power BI Rapor Sunucusu ile Reporting Services raporlarını ve KPI'leri sık kullanılanlara ekleme ve eklediğiniz girişleri görüntüleme hakkında bilgi edinin."
+title: Power BI mobil uygulamalarında sık kullanılanlar
+description: Mobil uygulamalarda Power BI panoları, raporları ve uygulamalarının yanı sıra Power BI Rapor Sunucusu ile Reporting Services raporlarını ve KPI'leri sık kullanılanlara ekleme ve eklediğiniz girişleri görüntüleme hakkında bilgi edinin.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812162"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında sık kullanılanlara ekleme ve sık kullanılanları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -80,7 +81,7 @@ Bir panoyu veya raporu, pano veya rapor listesinden ya da doğrudan pano veya ra
     ![Android Sık Kullanılan yıldızı](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Power BI Rapor Sunucusu ve Reporting Services raporları ile KPI'leri sık kullanılanlara ekleme
-Sık kullanılan Power BI Rapor Sunucusu ve Reporting Services raporlarınızla KPI'leri Power BI mobil uygulamalarında görüntüleyebilirsiniz ancak bunları mobil uygulamalarda sık kullanılanlara ekleyemezsiniz. [Bunları web portalında sık kullanılan olarak etiketleyebilirsiniz](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+Sık kullanılan Power BI Rapor Sunucusu ve Reporting Services raporlarınızla KPI'leri Power BI mobil uygulamalarında görüntüleyebilirsiniz ancak bunları mobil uygulamalarda sık kullanılanlara ekleyemezsiniz. [Bunları web portalında sık kullanılan olarak etiketleyebilirsiniz](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki sık kullanılan panolar](service-dashboard-favorite.md) 

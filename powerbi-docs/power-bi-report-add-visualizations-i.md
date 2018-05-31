@@ -1,31 +1,24 @@
 ---
-title: '1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)'
-description: 'Eğitim: 1. Bölüm: Bir Power BI raporuna görselleştirme ekleme'
-services: powerbi
-documentationcenter: ''
+title: 1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
+description: 1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293778"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>1. Bölüm: Bir Power BI raporuna görselleştirme ekleme (Eğitim)
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 Bu makalede, Power BI hizmeti veya Power BI Desktop kullanarak bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](sample-datasets.md) kullanarak kendi raporunuzu oluşturun.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>

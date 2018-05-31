@@ -1,27 +1,20 @@
 ---
-title: "Power BI mobil uygulamalarında pano ve raporları görüntüleme"
-description: "Power BI hizmetinde pano ve raporlar oluşturun veya var olanlara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin."
-services: powerbi
-documentationcenter: 
+title: Power BI mobil uygulamalarında pano ve raporları görüntüleme
+description: Power BI hizmetinde pano ve raporlar oluşturun veya var olanlara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295889"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -32,13 +25,13 @@ Aşağıdakiler cihazlar için geçerlidir:
 
 Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı portallardır. Genel bakış sunan panolar, işletmenin geçerli durumunun takip edilebileceği merkezlerdir.
 
-## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Power BI hizmetinde (https://powerbi.com) pano oluşturma
+## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Power BI hizmetinde panolar oluşturma (https://powerbi.com)
 **Panolar mobil uygulamalarda oluşturulmaz.** 
 
 Panoları ve raporları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
 
-1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesap açın](service-self-service-signup-for-power-bi.md).
-2. [Kendi Power BI pano ve raporunuzu oluşturun](service-get-started.md) veya [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) ve [Adobe Analyics](service-connect-to-adobe-analytics.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](service-connect-to-services.md) bağlanın.
+1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesaba kaydolun](service-self-service-signup-for-power-bi.md).
+2. [Kendi Power BI pano ve raporunuzu oluşturun](service-get-started.md) veya [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) ve [Adobe Analytics](service-connect-to-adobe-analytics.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](service-connect-to-services.md) bağlanın.
 
 Power BI hizmetinde Power BI panoları şu şekilde görünür:
 
@@ -115,31 +108,21 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    
    ![Pano giriş sayfası](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Sarı yıldızlar ![Sık kullanılanlar yıldızı](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
+    Sarı yıldızlar ![Sık kullanılanlar yıldızı](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
 
-     -     Pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](service-data-classification.md) hakkında daha fazla bilgi edinin.
-
+    Pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](service-data-classification.md) hakkında daha fazla bilgi edinin.
 
     Power BI panoları Android telefonunuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
 
     ![Dikey pano görünümü](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Telefonunuzu yan çevirerek kutucukları telefonunuzda yatay modda görüntüleyebilirsiniz.
-
-    > [AZURE.TIP] Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](service-create-dashboard-mobile-phone-view.md). 
+    Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](service-create-dashboard-mobile-phone-view.md). 
 
 1. Pano adının yanındaki üç nokta (...) simgesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
    ![Üç nokta menüsü](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [Panodaki tüm kutucukları](mobile-tiles-in-the-mobile-apps.md) görmek için ekranı yukarı ve aşağı kaydırın. 
 3. Pano giriş sayfasına geri dönmek için pano adına dokunarak içerik haritasını açın ve **Çalışma Alanım**'a dokunun.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Panoları Android telefonunuzda yatay modda görüntüleme
-Telefonunuzu yan çevirerek panoları yatay modda da görüntüleyebilirsiniz. Pano düzeni kutucuk dizisinden tam kapsamlı pano görünümüne dönüşür. Bu sayede tüm pano kutucuklarını Power BI hizmetinde olduğu gibi görüntüleyebilirsiniz.
-
-![Yatay pano](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-"Sıkıştırma" hareketini kullanarak panonuzun farklı bölümlerini yakınlaştırıp uzaklaştırabilir, ekranı kaydırarak panoda gezinebilirsiniz. Bu modda da [bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) odak modunda açabilir ve verilerinizle etkileşim kurabilirsiniz.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Panoları Android tabletinizde görüntüleme
 1. Android tabletinizde Power BI uygulamasını açıp oturum açın.

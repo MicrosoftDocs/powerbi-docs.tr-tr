@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810932"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunları kullanma
 Hesaplanmış sütunları kullanarak modelinizdeki tablolara yeni veriler ekleyebilirsiniz. Ancak bir veri kaynağından yeni sütununuza değer sorgulamak ve yüklemek yerine sütunun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanmış sütunları oluşturmak için Rapor Görünümündeki Yeni Sütun özelliğini kullanabilirsiniz.
@@ -59,7 +60,7 @@ Bu sütunu gönderim sayısıyla birlikte rapor tuvaline ekleyebilir. Çok hızl
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Daha fazla bilgi
-Burada hesaplanmış sütunlara yalnızca kısa bir giriş yaptık. Ayrıntılı bilgi için örnek dosya indirip daha fazla sütun oluşturma konusunda adım adım talimatları takip edebileceğiniz [Power BI Desktop'ta hesaplanmış sütunlar oluşturma](desktop-tutorial-create-calculated-columns.md) eğitimini inceleyebilirsiniz. 
+Burada hesaplanmış sütunlara yalnızca kısa bir giriş yaptık. Ayrıntılı bilgi için örnek dosya indirip daha fazla sütun oluşturma konusunda adım adım talimatları takip edebileceğiniz [Öğretici: Power BI Desktop'ta hesaplanmış sütunlar oluşturma](desktop-tutorial-create-calculated-columns.md) eğitimini inceleyebilirsiniz. 
 
 DAX hakkında daha fazla bilgi için bkz. [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md).
 

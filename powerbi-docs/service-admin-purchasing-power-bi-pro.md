@@ -1,95 +1,77 @@
 ---
-title: Power BI Pro'yu satın alma
-description: Power BI Pro; raporlar yayımlayan, panolar paylaşan, çalışma alanlarında iş arkadaşlarıyla işbirliği yapan ve ilişkili diğer etkinlikler ile ilgilenen kullanıcılara yöneliktir.
-services: powerbi
-documentationcenter: ''
+title: 'Hızlı Başlangıç: Power BI Pro lisansları satın alma'
+description: Kullanıcılarınızın Power BI hizmetindeki tüm içerik ve özelliklere erişebilmesi için Power BI Pro lisansları satın alma hakkında bilgi edinin.
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c843125b875a2fe63dd24ab9b6346cda85456835
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 723b352657f0f89e591ef5c8614866d1ede59ae9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295181"
 ---
-# <a name="purchasing-power-bi-pro"></a>Power BI Pro'yu satın alma
+# <a name="quickstart-purchase-power-bi-pro-licenses"></a>Hızlı Başlangıç: Power BI Pro lisansları satın alma
 
-Power BI Pro ile raporlar yayımlayabilir, panolar paylaşabilir, çalışma alanlarında iş arkadaşlarıyla işbirliği yapabilir ve ilişkili diğer etkinliklerle ilgilenebilirsiniz. Power BI Pro’nun kuruluşunuza nasıl avantaj sağlayabileceği hakkında daha fazla bilgi için [Kuruluşunuzda Power BI Pro](service-admin-power-bi-pro-in-your-organization.md) bölümüne bakın.
+Power BI Pro, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim izni veren bireysel bir lisanstır. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Bu makalede, Office 365'te Power BI Pro lisansları satın alma işlemi açıklanmaktadır.
 
-## <a name="purchasing-power-bi-pro-through-office-365-admin-center"></a>Office 365 Yönetim Merkezi Aracılığıyla Power BI Pro’yu Satın Alma
 
-Office BT Yöneticileri, Power BI Pro’yu Office 365 Kurumsal E5 aboneliğinin parçası olarak veya ayrı bir Power BI Pro aboneliği olarak satın alabilir. Daha sonra uygun kullanıcılara Power BI Pro lisansları atayabilirsiniz. Lisans atama hakkında daha fazla bilgi için [Office 365’te kullanıcılara lisans atama](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US) bölümüne bakın.
+## <a name="prerequisites"></a>Önkoşullar
 
-Office BT Yöneticisiyseniz Power BI Pro'yu satın almak için şu adımları izleyin:
+Office 365’te [**Genel yönetici** veya **Faturalama yöneticisi**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) rolünün üyesi olmanız gerekir. 
 
-1. [Office 365 yönetim merkezine](https://portal.office.com/adminportal/home#/homepage) gidin.
-2. Sol gezinti bölmesinde Faturalama’yı seçin ve Abonelikler'e tıklayın.
 
-    ![gezinti bölmesi](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+## <a name="purchase-power-bi-pro-licenses-through-office-365"></a>Office 365 üzerinden Power BI Pro lisansları satın alma
 
-3. Abonelikler sayfasının sağ üst köşesindeki Abonelik ekleyin seçeneğine tıklayın.
+Power BI Pro lisansları satın almak için şu adımları izleyin:
 
-    ![abonelik](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
+1. [Office 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
+
+2. Sol gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
+
+    ![Gezinti bölmesi](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+
+3. **Abonelikler** sayfasının sağ üst köşesindeki **Abonelik ekle** öğesini seçin.
+
+    ![Abonelik](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
 4. İstediğiniz abonelik teklifini bulun:
 
-    Kurumsal Paket bölümünde Office 365 Kurumsal E5’i seçin
+    **Kurumsal Paket** bölümünde **Office 365 Kurumsal E5**’i seçin.
 
     ![Office E5 aboneliği](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    Diğer Planlar bölümünde Power BI Pro’yu seçin
+    **Diğer Planlar** bölümünde **Power BI Pro**’yu seçin.
 
-    ![PBI aboneliği](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    ![Power BI aboneliği](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. İstediğiniz abonelik için üç nokta (...) öğesinin üzerine imleci getirin ve Şimdi satın al’ı seçin.
+5. İstediğiniz abonelik için üç nokta (...) öğesinin üzerine imleci getirin ve **Şimdi satın al**’ı seçin.
 
     ![Şimdi Satın Al](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. Faturalama tercihinize göre Aylık ödeme veya Tam yıllık ödeme seçeneğini belirleyin.
-7. Kaç tane kullanıcı istiyorsunuz? bölümüne istediğiniz lisans sayısını girin ve Şimdi kullanıma al veya Sepete ekle seçeneğine tıklayıp işlemi tamamlayın.
-8. Satın alınan aboneliğin şimdi Abonelikler sayfasında listelendiğini doğrulayın.
+6. Faturalama tercihinize göre **Aylık ödeme** veya **Tam yıllık ödeme** seçeneğini belirleyin.
+
+7. **Kaç tane kullanıcı istiyorsunuz?** bölümüne istediğiniz lisans sayısını girin ve işlemi tamamlamak için **Şimdi kullanıma al**’ı seçin.
+
+8. Satın alınan aboneliğin şimdi **Abonelikler** sayfasında listelendiğini doğrulayın.
 
    ![Alınan abonelik](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-> [!NOTE]
-> İlk satın alımdan sonra daha fazla lisans ekleyebilirsiniz. Abonelikler sayfasından Power BI Pro aboneliğini seçin ve sonra Lisans ekle/kaldır seçeneğine tıklayın.
->
+9. İlk satın alma sonrasında daha fazla lisans eklemek için **Abonelikler** sayfasından **Power BI Pro**’yu ve sonra **Lisans Ekle/Kaldır**’ı seçin.
 
-## <a name="pricing"></a>Fiyatlandırma
-
-En son fiyatlandırma bilgileri için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/en-us/pricing/).
-
-> [!NOTE]
-> Pro lisansları atanmış olan kullanıcılar, abonelik sona erdikten sonra 30 gün boyunca tam erişime sahip olacaktır. Bu durumda aboneliğinizin yönetici portalında "süresi dolmuş" olarak gösterildiğini görürsünüz.
->
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI için self servis kayıt](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)
-<br/>
-[Kuruluşunuz için Power BI (ücretsiz)](service-admin-service-free-in-your-organization.md)
-<br/>
-[Kuruluşunuzda Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)
-<br/>
-[Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md)
-<br/>
-[Power BI Pro lisansları atama](service-admin-assigning-power-bi-pro-licenses.md)
-<br/>
-[Power BI Premium nedir?](service-admin-premium-manage.md)
-<br/>
-[Power BI Premium'u satın alma](service-admin-premium-purchase.md)
-<br/>
-[Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Lisansları satın aldıktan sonra kiracınızdaki kullanıcılara atayın.
+
+[Office 365'te kullanıcılara lisans atama](service-admin-assigning-power-bi-pro-licenses.md)
+
+[Azure'da kullanıcılara lisans atama](service-admin-assigning-power-bi-pro-licenses-azure.md)
+
+[Power BI Fiyatlandırma](https://powerbi.microsoft.com/en-us/pricing/)

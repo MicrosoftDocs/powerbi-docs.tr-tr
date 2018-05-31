@@ -1,6 +1,6 @@
 ---
-title: Power BI'daki kartogramlar (Koroplet haritalar) (Eğitim)
-description: Belgeler - Power BI'da Kartogram (Koroplet harita) oluşturma konusunda eğitim
+title: Power BI'da kartogramlar (Koroplet haritalar)
+description: Power BI'da Kartogram (Koroplet harita) oluşturma belgeleri
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812323"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI'da kartogramlar (koroplet haritalar) (Eğitim)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)

@@ -898,32 +898,14 @@
       items:
         - name: Power BI API ile neler yapabilirim?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: SSS
-          href: developer/embedded-faq.md
         - name: Power BI izinleri
           href: developer/power-bi-permissions.md
         - name: Satır düzeyi güvenlik (RLS)
           href: developer/embedded-row-level-security.md
-        - name: Soru-Cevap ekleme
-          href: developer/qanda.md
+        - name: SSS
+          href: developer/embedded-faq.md
     - name: Nasıl yapılır?
       items:
-        - name: İçeriğinizi ekleme
-          href: developer/embedding-content.md
-        - name: Bir panoya veri gönderme
-          href: developer/walkthrough-push-data.md
-        - name: Power BI Embedded'i geçirme
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Panoları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-          href: developer/integrate-dashboard.md
-        - name: Power BI kutucuklarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-          href: developer/integrate-tile.md
-        - name: Power BI raporlarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-          href: developer/integrate-report.md
-        - name: İçeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
-          href: developer/embed-sample-for-customers.md
-        - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Özel görsel oluşturma
           items:
             - name: Geliştirici Araçları ile özel görsel oluşturma
@@ -938,6 +920,18 @@
           items:
             - name: Power BI ile ekleme
               href: developer/embedding.md
+            - name: İçeriğinizi ekleme
+              href: developer/embedding-content.md
+            - name: Panoları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
+              href: developer/integrate-dashboard.md
+            - name: Power BI kutucuklarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
+              href: developer/integrate-tile.md
+            - name: Power BI raporlarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
+              href: developer/integrate-report.md
+            - name: İçeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
+              href: developer/embed-sample-for-customers.md
+            - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Özel düzenleri uygulamaya ekleme
               href: developer/embedded-custom-layout.md
             - name: Azure Active Directory kiracısı oluşturma
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Power BI hizmetinde kimlik doğrulaması
               href: developer/get-azuread-access-token.md
+            - name: Soru-Cevap ekleme
+              href: developer/qanda.md
+            - name: Power BI Embedded'i geçirme
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded geçiş aracı
               href: developer/migrate-tool.md
             - name: Geçiş kodu parçacıkları
               href: developer/migrate-code-snippets.md
             - name: Katıştırılmış uygulamanızla ilgili sorunları giderme
               href: developer/embedded-troubleshoot.md
-        - name: Bir panoya veri gönderme
+        - name: Verileri gönderme
           items:
+            - name: Bir panoya veri gönderme
+              href: developer/walkthrough-push-data.md
             - name: Bir uygulamayı Azure AD'ye kaydetme
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Kimlik doğrulaması erişim belirteci alma
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Kaynaklar
       items:
+        - name: Ekleme için Katılım Deneyimi Aracı
+          href: 'https://aka.ms/embedsetup'
         - name: JavaScript Playground Örneği
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Örnekler
