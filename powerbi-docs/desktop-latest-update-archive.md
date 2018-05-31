@@ -1,21 +1,29 @@
 ---
 title: Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 description: Power BI Desktop'ın önceki sürümlerine yönelik özellik güncelleştirmeleri
+services: powerbi
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: identified
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: get-started-article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291178"
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33917194"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 

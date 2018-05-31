@@ -1,20 +1,28 @@
 ---
 title: Power BI Rapor Sunucusu web portalında içeriği yönetme
 description: Power BI Rapor Sunucusu web portalında içeriği yönetme hakkında bilgi edinin.
+services: powerbi
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293250"
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33892520"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web portalında içeriği yönetme 
 Power BI Rapor Sunucusu web portalı, Power BI, mobil ve sayfalandırılmış raporlarınızın yanı sıra KPI'lerinizi yönetebileceğiniz şirket içi bir konumdur.
