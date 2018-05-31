@@ -1,29 +1,20 @@
 ---
 title: 'Öğretici: Bir VM’de Power BI Rapor Sunucusunu keşfetme'
 description: Bu öğreticide, Power BI Rapor Sunucusu zaten yüklüyken bir sanal makine oluşturacak ve web portalını keşfedeceksiniz.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813956"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445015"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Öğretici: Bir VM’de Power BI Rapor Sunucusu web portalını keşfetme
 Bu öğreticide, örnek Power BI ve sayfalandırılmış raporları görüntüleme, düzenleme ve yönetme işlemlerini yapabilmek için Power BI Rapor Sunucusu zaten yüklüyken bir Azure sanal makinesi oluşturacaksınız.
@@ -59,6 +50,8 @@ Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM
 
 6. **Kaynak grubu** için **Yeni oluştur**’u seçin **reportserverresourcegroup** olarak adlandırın.
 
+    Öğreticiyi bir kereden fazla uygularsanız, kaynak grubuna ilk denemenizde kullandığınız addan farklı bir ad vermeniz gerekir. Bir kaynak grubu adını aynı abonelik içinde ikinci kez kullanamazsınız. 
+
 7. Diğer varsayılanları tutun > **Tamam**’ı seçin.
 
     ![VM ve kaynak grubunu adlandırma](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
@@ -91,7 +84,7 @@ Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM
 
 7. Sonraki iletişim kutusunda, uzak bilgisayar kimliğinin tanımlanamadığı söylenir. **Evet**’i seçin.
 
-   İşte, yeni sanal makineniz açılır.
+   Yeni sanal makineniz açılır.
 
 ## <a name="power-bi-report-server-on-the-vm"></a>VM üzerinde Power BI Rapor Sunucusu
 
@@ -165,6 +158,8 @@ Web portalında Power BI raporlarını görüntüleyip etkileşimde bulunabilir 
      Rapor Power BI Desktop’ta açılır. Üst çubuktaki "Power BI Desktop (Mart 2018)" adını not edin. Bu sürüm, Power BI Rapor Sunucusu için en iyi duruma getirilmiştir.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     VM’de yüklü olan Power BI Desktop sürümünü kullanın. Bir raporu karşıya yüklemek için etki alanları arasında geçiş yapamazsınız.
 
 3. Alanlar bölmesinde, Müşteriler tablosunu genişletin ve Meslek alanını Rapor düzeyi filtrelerine sürükleyin.
 
@@ -252,7 +247,9 @@ Bu öğreticiyi bitirdikten sonra kaynak grubunu, sanal makineyi ve tüm ilişki
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide, Power BI Rapor Sunucusu ile bir VM oluşturdunuz. Web portalının bazı işlevlerini denediniz ve bir Power BI raporu ile sayfalandırılmış bir raporu ilgili düzenleyicilerde açtınız. Power BI Rapor Sunucusuna yönelik raporlar oluşturma hakkında daha fazla bilgi için devam edin.
+Bu öğreticide, Power BI Rapor Sunucusu ile bir VM oluşturdunuz. Web portalının bazı işlevlerini denediniz ve bir Power BI raporu ile sayfalandırılmış bir raporu ilgili düzenleyicilerde açtınız. Bu VM’de SQL Server Analysis Services veri kaynakları yüklü olduğundan, bu veri kaynaklarını kullanarak kendi Power BI raporlarınızı ve sayfalandırılmış raporlarınızı oluşturmayı deneyebilirsiniz. 
+
+Power BI Rapor Sunucusuna yönelik raporlar oluşturma hakkında daha fazla bilgi için devam edin.
 
 > [!div class="nextstepaction"]
 > [Power BI Rapor Sunucusu için Power BI raporu oluşturma](./quickstart-create-powerbi-report.md)
