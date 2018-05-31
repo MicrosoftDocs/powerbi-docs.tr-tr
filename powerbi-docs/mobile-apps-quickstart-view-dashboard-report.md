@@ -1,27 +1,20 @@
 ---
 title: 'Hızlı Başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme'
 description: Bu hızlı başlangıçta, Power BI mobil uygulamalarındaki örnek bir pano ve raporu keşfedeceksiniz.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.component: ''
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 7d7d1cbe56f1f41d7fab02f0168c2794e5342abb
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946113"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295779"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Hızlı Başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme
 Bu hızlı başlangıçta, bir Android telefon üzerinde çalışan Power BI mobil uygulamalarındaki örnek bir pano ve raporu keşfedeceksiniz. Diğer mobil uygulamaları da takip edebilirsiniz. 
