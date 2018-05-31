@@ -1,28 +1,21 @@
 ---
 title: Sertifikalı Power BI özel görselleştirmeleri
 description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri. Önceden sertifikalanan özel görseller listesi.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297021"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
@@ -105,11 +98,13 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Görüntü Kılavuzu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Bilgi Grafiği Tasarımcısı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Akvelon KPI Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
+| [MAQ Software KPI Sütunu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Video](https://youtu.be/rU0xoOlIq1U) |
 | [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ Software KPI Bandı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software Linear Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
 | [LineDot Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Mekko Grafiği](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Video](https://youtu.be/90FLCKpgicA) |
+| [CloudScope Genel Bakışı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Video](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Video](https://youtu.be/1enze8pcGzY) |

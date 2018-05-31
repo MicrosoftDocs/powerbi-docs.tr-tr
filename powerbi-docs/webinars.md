@@ -1,27 +1,20 @@
 ---
 title: Power BI web seminerleri
 description: Power BI web seminerleri
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299298"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -31,17 +24,13 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun
 
-**[Power BI benimseme çerçevesi web semineri serisi](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>Manu Kanwarpal ve Paul Henwood tarafından hazırlandı
-<br>*Mart, Nisan ve Mayıs 2018 9:00 PST, 12:00 EST*
+**Power BI ve Visio ile doğru içgörüleri alma**
+<br>Hazırlayan: Shakun Grover
+<br>*22 Mayıs 2018 10:00 PST, 13:00 EST*
 
-Power BI’yı kuruluşunuzda kullanıma almak için etkili bir plan yapın ve etkili hizmet olarak yazılım (SaaS) yönetiminin ayrıntılarını keşfedin. Beş bölümden oluşan bu seride kuruluşunuz için Power BI’ın potansiyeli ortaya çıkarılır.
+Güçlü görsel içgörüler oluşturmak üzere Power BI panoları ile Microsoft Visio diyagramlarını birleştirme hakkında bilgi edinmek için bu web seminerinde bize katılın. Visio ve Power BI yüksek oranda görsel ve doğal olarak tamamlayıcı özelliktedir. Visio’yu kullanarak birbirine bağlı iş akışları ve gerçek dünya düzenleri gibi örnekleyici diyagramlar oluşturabilirsiniz. Power BI, temel performans göstergelerini ölçmek ve hedefleri izlemek amacıyla grafik ve haritaları kullanarak sezgisel panolar oluşturmanıza yardımcı olur.
 
-[1 Mayıs’ta izlemek için kaydolun - Bölüm 5 - Kullanıma Sunma: Power BI’ı başarıyla kullanıma sunma](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 4 - Power BI ile verilerinizin güvenliğini koruma](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 3 - Hizmet Yönetimi: Power BI Hizmet Yönetimi İçgörüleri](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 2 - İdare: Power BI kullanımınızı yönetme](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 1 - Benimseme: Veri temelli bir kültür benimseme](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[22 Mayıs’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **20 dakika içinde Power BI Embedded hakkında bilgi edinin**
 <br>Hazırlayan: Megan Asarrane ve Colin Murphy
@@ -88,6 +77,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 **How to Design Visually Stunning Power BI Reports (Görsel Olarak Etkileyici Power BI Raporları Tasarlama)**
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Elektronik Tablonun ötesinde**
+<br>Hazırlayan: Gohul Shanmugalingam
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Transforming A Report From Good to GREAT! (İyi bir Raporu HARİKA bir Rapora Dönüştürme)**
 <br>Sağlayan: Reid Havens
@@ -139,6 +132,14 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Nagasaikiran Kambhampati ve Miguel Martinez tarafından hazırlandı
 <br>[İzlemek için kaydolun](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Takip etmek için Gelişmiş Analiz Başlangıç Setini indirin](https://aka.ms/pbiaawebinar)
+
+**[Power BI benimseme çerçevesi web semineri serisi](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>Manu Kanwarpal ve Paul Henwood tarafından hazırlandı
+<br>[Hemen kaydolun ve izleyin - Bölüm 1 - Benimseme: Veri temelli bir kültür benimseme](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 2 - İdare: Power BI kullanımınızı yönetme](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 3 - Hizmet Yönetimi: Power BI Hizmet Yönetimi İçgörüleri](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 4 - Power BI ile verilerinizin güvenliğini koruma](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 5 - Kullanıma Sunma: Power BI’ı başarıyla kullanıma sunma](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 Finans Uzmanları Web Semineri Serisi**
 <br>Hazırlayan: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky ve Miguel Martinez

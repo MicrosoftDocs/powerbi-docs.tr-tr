@@ -1,16 +1,16 @@
 ---
-title: "Power BI'daki ağaç haritaları (Eğitim)"
-description: "Eğitim: Power BI'daki ağaç haritaları"
+title: Power BI'da ağaç haritaları
+description: Power BI'da ağaç haritaları
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813220"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Power BI'daki ağaç haritaları (Eğitim)
+# <a name="treemaps-in-power-bi"></a>Power BI'da ağaç haritaları
 Ağaç haritaları, hiyerarşik verileri iç içe geçmiş dikdörtgenler kümesi şeklinde görüntüler.  Hiyerarşinin her düzeyi başka dikdörtgenler ("yapraklar") içeren renkli bir dikdörtgen (çoğunlukla "dal" olarak adlandırılır) ile gösterilir.  Her dikdörtgenin içindeki alan ölçülen nicel değere göre belirlenir ve dikdörtgenler, boyutları dikkate alınarak sol üstten (en büyük) sağ alta (en küçük) doğru düzenlenir.
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)

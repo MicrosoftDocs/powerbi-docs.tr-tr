@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813381"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Bunu yapmak için Biçimlendirme bölmesini açın, **Y Ekseni**'ni genişletin 
 
 Daha fazla bilgi için:
 
-* [Eğitim: Power BI'daki birleşik harita](power-bi-visualization-combo-chart.md)
+* [Power BI'da birleşik grafik](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals (Görsellerdeki iki ölçekli eksen kullanım tehlikesi)](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>Dağılım Grafiği
@@ -810,8 +811,8 @@ KPI'ler aynı miktarda alanda değeri, durumu, hedefi, hedeften sapmayı ve eği
 
 Daha fazla bilgi için bkz.
 
-* [Eğitim: Power BI'daki radyal ölçek grafikleri](power-bi-visualization-radial-gauge-charts.md)
-* [Eğitim: Power BI'daki KPI'ler](power-bi-visualization-kpi.md)
+* [Power BI'da radyal ölçüm grafikleri](power-bi-visualization-radial-gauge-charts.md)
+* [Power BI’da KPI’lar](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Sonuç
 Şimdi burada öğrendiğiniz en iyi yöntemleri test edebilirsiniz.  İletişim halinde kalın ve kendi en iyi yöntemlerinizi paylaşın. Önerilerimizden farklı fikirleriniz veya "kuralları yıkmak" için iyi bir nedeniniz mi var?  Bunları da öğrenmek isteriz.  

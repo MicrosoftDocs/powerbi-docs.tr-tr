@@ -1,77 +1,64 @@
 ---
-title: "Power BI Rapor Sunucusu ile çalışmaya başlama"
-description: "Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin. "
+title: Power BI Rapor Sunucusu nedir?
+description: SQL Server Reporting Services (SSRS) ve Power BI hizmetinin geri kalanı ile uyumunu anlamak için Power BI Rapor Sunucusu’na genel bir bakış elde edin.
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840109"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Power BI Rapor Sunucusu ile çalışmaya başlama
-Power BI Rapor Sunucusu'nun sunduğu, kullanıma hazır çok sayıda araç ve hizmeti kullanarak Power BI raporları, mobil raporlar ve sayfalandırılmış raporlar oluşturun, bunları dağıtın ve yönetin.
+# <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
-## <a name="create-deploy-and-manage-reports"></a>Rapor oluşturma, dağıtma ve yönetme
-Power BI Rapor Sunucusu, müşterilerin rapor oluşturmak, yayımlamak, yönetmek ve ardından çeşitli yollarla (bir web tarayıcısında veya mobil cihazlarında görüntülemelerini sağlamak veya gelen kutularına e-posta göndermek) doğru kullanıcılara sunmak üzere kendi şirketlerinde dağıttığı bir çözümdür.
+Power BI Rapor Sunucusu; Power BI raporları, sayfalandırılmış raporlar, mobil raporlar ve KPI’lar oluşturmaya yönelik araçlarla birlikte rapor ve KPI’ları görüntüleyip yönetebileceğiniz bir web portalı içeren, bir şirket içi rapor sunucusudur. Kullanıcılarınız bu raporlara farklı yöntemlerle erişebilir: bir web tarayıcısı ya da mobil cihazdan veya gelen kutularında e-posta olarak görüntüleyerek.
 
-Power BI Rapor Sunucusu bir ürün paketi sunar:
+![Power BI Rapor Sunucusu web portalı](media/get-started/power-bi-report-server-overview.png)
 
-* Güncel bir tarayıcıda görüntüleyebileceğiniz modern bir web portalı. Web portalında raporlar ile KPI'leri düzenleyebilir ve görüntüleyebilirsiniz. Ayrıca, portalda Excel çalışma kitaplarını da depolayabilirsiniz.
-* Kendi ortamınızda web portalından görüntüleyebileceğiniz, Power BI Desktop ile oluşturulan Power BI raporları.
-* Rapor oluşturma araçlarıyla modern görünümlü raporlar oluşturabilmenize yönelik sayfalandırılmış raporlar.
-* Farklı cihazlara ve cihazları nasıl tuttuğunuza göre uyum sağlayan farklı yöntemlere uyum sağlayan esnek bir düzene sahip mobil raporlar.
+## <a name="comparing-power-bi-report-server"></a>Power BI Rapor Sunucusunu karşılaştırma 
+Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI Rapor Sunucusu, Power BI hizmeti gibi Power BI raporlarını (.PBIX) ve Excel dosyalarını barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir ve sayfalandırılmış raporları (.RDL) barındırır. Power BI Rapor Sunucusu, Reporting Services’in bir üst kümesidir: Reporting Services ile yapabileceğiniz her şeyi ve Power BI raporları desteği eklendiğinde daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
 
-Her biri hakkında daha fazla bilgi edinmek için okumaya devam edin.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
-Bu kaynaklar, güncel Power BI Rapor Sunucusu'ndaki yeni özelliklerden sürekli olarak haberdar olmanızı sağlar.
-
-* [Power BI Rapor Sunucusu'ndaki Yenilikler](whats-new.md)
-* [Microsoft Power BI Blog (Microsoft Power BI Blogu)](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services Team Blog (SQL Server Reporting Services Ekip Blogu)](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube YouTube kanalı](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Power BI Rapor Sunucusunu lisanslama
+Power BI Rapor Sunucusu iki farklı lisansla kullanılabilir: [Power BI Premium](../service-premium.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
 
 ## <a name="web-portal"></a>Web portalı
-![](media/get-started/web-portal.png)
+Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görüntüleyebileceğiniz güvenli bir web portalıdır. Buradan tüm raporlarınıza ve KPI'larınıza erişebilirsiniz. Web portalındaki içerik, geleneksel bir klasör hiyerarşisi halinde düzenlenir. Klasörlerinizdeki içerik, türe göre gruplandırılır: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar, KPI'lar ve Excel çalışma kitapları, paylaşılan veri kümeleri ve raporlarınız için yapı taşı olarak kullanılabilecek paylaşılan veri kaynakları. Sık kullanılanları tek bir klasörde görüntülemek üzere etiketleyebilirsiniz. Ayrıca doğrudan web portalında KPI'ler oluşturabilirsiniz. 
 
-Power BI Rapor Sunucusu'nun son kullanıcıları için ön kapı, tüm güncel tarayıcılarda görüntüleyebileceğiniz modern bir web portalıdır. Yeni portalda tüm raporlarınıza ve KPI'lerinize erişebilirsiniz.
+![Power BI Rapor Sunucusu web portalı](media/get-started/web-portal.png)
 
-Web portalınıza kendi özel [markalamanızı](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) uygulayabilirsiniz. Ayrıca doğrudan web portalında KPI'ler oluşturabilirsiniz. KPI'ler, raporu açmanıza gerek kalmadan önemli iş ölçümlerini tarayıcıda tek bakışta görmenizi sağlayabilir.
+İzinlerinize bağlı olarak, web portalındaki içeriği yönetebilirsiniz. Rapor işleme zamanlaması oluşturabilir, isteğe bağlı olarak raporlara erişebilir ve yayımlanan raporlara abone olabilirsiniz. Ayrıca, web portalınıza kendi özel [markalamanızı](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) uygulayabilirsiniz. 
 
-Web portalındaki içerik türe göre düzenlenir: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar ve KPI'ler, Excel çalışma kitapları, paylaşılan veri kümeleri ve raporlarınız için yapı taşı olarak kullanılabilecek paylaşılan veri kaynakları. Söz konusu içerikler, alışılmış klasör hiyerarşisiyle güvenli bir şekilde depolanabilir ve yönetilebilir. Sık kullanılanlarınızı etiketleyebilir ve ilgili role sahipseniz içeriği yönetebilirsiniz.
-
-Yeni web portalında rapor işleme zamanlaması oluşturabilir, isteğe bağlı olarak raporlara erişebilir ve yayımlanan raporlara abone olabilirsiniz.
-
-[Web portalı](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode) hakkında daha fazla bilgi edinin.
+[Power BI Rapor Sunucusu web portalı](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode) hakkında daha fazla bilgi.
 
 ## <a name="power-bi-reports"></a>Power BI raporları
-![](media/get-started/powerbi-reports.png)
+Rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümü ile Power BI raporları (.PBIX) oluşturabilirsiniz. Sonra bu raporları kendi ortamınızdaki web portalında yayımlayıp görüntüleyebilirsiniz.
 
-Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görselleştirmeler yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görselleştirme olabilir veya rapor görselleştirmelerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor oluşturan ve/veya kullanan biri olabilirsiniz.
+![Power BI Rapor Sunucusundaki Power BI raporları](media/get-started/powerbi-reports.png)
 
-Raporlar tek bir veri kümesini temel alır. Bir raporda bulunan her görselleştirme önemli bir bilgi parçasını temsil eder. Ayrıca görselleştirmeler statik olmadığından, öngörüler keşfetmek ve sorularınıza yanıt aramak üzere verilerinizi ayrıntılı olarak incelemek için veri ekleyebilir veya kaldırabilir, görselleştirme türlerini değiştirebilir, filtreler ve dilimleyiciler ekleyebilirsiniz. Tıpkı panolar gibi (ancak panodan daha yüksek oranda), raporlar da büyük ölçüde etkileşimli ve özelleştirilebilirdir. Ayrıca temel alınan veriler değiştikçe görselleştirmeler de güncelleştirilir.
+Power BI raporları, bir veri modelinden edinilen farklı bulguları ve öngörüleri temsil eden görselleştirmeler yardımıyla bu veri modeline ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görselleştirme olabilir veya rapor, görselleştirmelerle dolu sayfalardan oluşabilir. Rolünüze bağlı olarak, raporları okuyup keşfedebilir veya başkaları için raporlar oluşturabilirsiniz.
+
+[Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını](quickstart-create-powerbi-report.md) yükleyin.
 
 ## <a name="paginated-reports"></a>Sayfalandırılmış raporlar
-![](media/get-started/paginated-reports.png)
+Sayfalandırılmış raporlar (.RDL), görseller içeren ve içindeki tabloların tüm verileri göstermek üzere yatay ve dikey yönde genişlediği, gerektiğinde sayfalara yayıldığı belge stili raporlardır. Bu raporlar, PDF ve Word dosyaları gibi yazdırma işlemi için en iyi duruma getirilmiş sabit düzenli, kusursuz kalitede belgeler oluşturmak için idealdir.
 
-Sayfalandırılmış raporlar, tablolardaki satır sayısının ve rapordaki sayfa sayısının sahip olduğunuz verilerin miktarıyla orantılı olarak arttığı, sayfalandırılmış belge stilinde raporlardır. PDF ve Word dosyaları gibi, yazdırma işlemi için en iyi duruma getirilmiş sabit düzenli, kusursuz kalitede belgeler oluşturmak için idealdir.
+![Power BI Rapor Sunucusundaki sayfalandırılmış raporlar](media/get-started/paginated-reports.png)
 
 [SQL Server Veri Araçları'nda (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) [Rapor Oluşturucusu](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)'nu veya Rapor Tasarımcısı'nı kullanarak modern görünümlü raporlar oluşturabilirsiniz.
+
+## <a name="reporting-services-mobile-reports"></a>Reporting Services mobil raporları
+Mobil raporlar şirket içi verilere bağlanır ve farklı cihazlara ve cihazları nasıl tuttuğunuza göre uyum sağlayan farklı yöntemlere uyum sağlayan esnek bir düzene sahiptir. Bu raporları SQL Server Mobil Rapor Yayımcısı ile oluşturabilirsiniz.
+
+[Reporting Services mobil raporları](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) hakkında daha fazla bilgi. 
 
 ## <a name="report-server-programming-features"></a>Rapor Sunucusu programlama özellikleri
 Özel uygulamalardaki veri ve rapor işleme süreçlerini tümleştirmeye veya genişletmeye yönelik API'lerle raporlama işlevlerinizi genişletmek ve özelleştirmek için Power BI Rapor Sunucusu programlama özelliklerinden yararlanın.
@@ -79,11 +66,8 @@ Sayfalandırılmış raporlar, tablolardaki satır sayısının ve rapordaki say
 Diğer [Rapor Sunucusu geliştirici belgeleri](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Kullanıcı el kitabı](user-handbook-overview.md)  
-[Yönetici el kitabı](admin-handbook-overview.md)  
-[Hızlı Başlangıç: Power BI Rapor Sunucusu'nu yükleme](quickstart-install-report-server.md)  
+[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
