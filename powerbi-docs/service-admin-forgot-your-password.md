@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e15b3d9b43f2cd203075d8dc9397b81a8240de6e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34238236"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI parolanızı mı unuttunuz?
 Parolanızı unuttuysanız aşağıdaki bağlantıyı kullanarak parola sıfırlama isteğinde bulunabilirsiniz.

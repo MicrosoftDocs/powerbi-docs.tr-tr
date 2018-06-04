@@ -11,10 +11,11 @@ ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237442"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta bir Power BI raporuna sayfa ekleme
 Rapor sayfasını kalabalık hale getirmek yerine yeni boş sayfa eklenebilir. 
