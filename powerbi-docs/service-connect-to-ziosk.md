@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3308abbb3fbc1ceadb78b83d13d69d014de1bff1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34238561"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI ile Ziosk Survey Analytics'e bağlanma
 Power BI için Ziosk Survey Analytics içerik paketi, Ziosk tabletli restoranlar için gün, konum, çalışan ve daha fazlasına göre segmentasyon dahil olmak üzere Ziosk anket verileri ile sağlanan öngörülere rakipsiz erişim fırsatı sunar.
