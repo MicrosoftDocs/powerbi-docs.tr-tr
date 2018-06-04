@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d1023f1563f69c37e2aebe47181a5276d27d3497
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285520"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop'ta Access ve .XLS dosyalarını içeri aktarmaya ilişkin sorunlarını giderme
 **Power BI Desktop**'ta hem **Access veritabanları** hem de **Excel çalışma kitaplarının** önceki sürümleri (Excel 97-2003 türünde .XLS dosyaları) *Access Veritabanı Altyapısı*'nı kullanır. Access Veritabanı Altyapısı'nın düzgün şekilde çalışmasını engelleyebilecek üç yaygın durum söz konusudur:

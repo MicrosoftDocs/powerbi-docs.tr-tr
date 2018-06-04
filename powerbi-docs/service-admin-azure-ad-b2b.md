@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722236"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -30,7 +31,7 @@ Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümle�
 
 ## <a name="who-can-you-invite"></a>Kimleri davet edebilirsiniz?
 
-Gmail.com, outlook.com veya hotmail.com gibi kişisel hesaplar da dahil olmak üzere herhangi bir e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure B2B’de bunlar “Sosyal Kimlikler” olarak adlandırılır. Daha fazla bilgi için lütfen [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) başlıklı makaleye başvurun.
+Gmail.com, outlook.com veya hotmail.com gibi kişisel hesaplar da dahil olmak üzere herhangi bir e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure B2B’de bunlar “Sosyal Kimlikler” olarak adlandırılır. Daha fazla bilgi için lütfen [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) başlıklı makaleye başvurun.
 
 ## <a name="invite-guest-users"></a>Konuk kullanıcı davet etme
 
@@ -100,7 +101,7 @@ Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansın
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 
-* gmail.com, outlook.com veya hotmail.com gibi kişisel e-posta hesapları kullanan konuk kullanıcıları davet ederken, bir kullanıcının nasıl kaydolacağının örneğini gösteren bu [eklenmiş videoyu](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) izleyebilirsiniz.
+* gmail.com, outlook.com veya hotmail.com gibi kişisel e-posta hesapları kullanan konuk kullanıcıları davet ederken, bir kullanıcının nasıl kaydolacağının örneğini gösteren bu [eklenmiş videoyu](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience) izleyebilirsiniz.
 * Dış B2B konukları, yalnızca içeriğin kullanımıyla sınırlandırılır. Dış B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar.
 * Bu özellik şu anda Power BI mobil uygulamalarıyla kullanılamaz. Mobil cihazlardaki tarayıcılarda, Azure AD B2B kullanılarak paylaşılan Power BI içeriklerini görüntüleyebilirsiniz.
 * Bu özellik şu anda Power BI SharePoint Online raporu web bölümüyle kullanılamaz.

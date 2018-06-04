@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 2c027cef97d858cf64febb096e0674742e4c80bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286210"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop videoları
 [Power BI için bir YouTube kanalımız](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p) var!

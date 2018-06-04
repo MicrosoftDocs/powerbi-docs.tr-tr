@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248423"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?

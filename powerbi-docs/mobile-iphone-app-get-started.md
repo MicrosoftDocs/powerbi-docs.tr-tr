@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
 ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294422"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone veya iPod touch'ta Power BI mobil uygulaması ile çalışmaya başlama
 iPhone veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyip bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721467"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, Power BI Desktop'ı indirdiğinizde veya Power BI hizmetini (app.powerbi.com) açtığınızda hazır olarak sunulur.
@@ -53,10 +54,10 @@ AppSource nedir? Basit bir şekilde açıklamak gerekirse, Microsoft yazılımı
 
 ### <a name="certified-visuals"></a>Sertifikalı görseller
 
-Power BI sertifikalı görseller, kalite konusunda ek olarak sıkı testlerden geçirilmiş olan market görselleridir. Bu görsellerin, [e-posta abonelikleri](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) ve [PowerPoint'e aktarma](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint) gibi ek senaryolardaki kullanımları desteklenir.
-Sertifikalı özel görsellerin listesini görmek veya kendi özel görselinizi göndermek için bkz. [Sertifikalı özel görseller](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Power BI sertifikalı görseller, kalite konusunda ek olarak sıkı testlerden geçirilmiş olan market görselleridir. Bu görsellerin, [e-posta abonelikleri](https://docs.microsoft.com/power-bi/service-report-subscribe) ve [PowerPoint'e aktarma](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint) gibi ek senaryolardaki kullanımları desteklenir.
+Sertifikalı özel görsellerin listesini görmek veya kendi özel görselinizi göndermek için bkz. [Sertifikalı özel görseller](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Geliştirici Araçlarıyla çalışmaya başlama](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) öğrenin.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Geliştirici Araçlarıyla çalışmaya başlama](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) öğrenin.
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Bir dosyadan özel bir görseli içeri aktarın
 

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244468"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI ile Insightly'ye Bağlanma
 Insightly içerik paketi ile Power BI'da Insightly CRM verilerinizi görselleştirin ve paylaşın. CRM verilerinizden raporlar ve panolar oluşturup bunları görüntülemek için Insightly API anahtarınızı kullanarak Power BI'a bağlanın. Power BI ile verileri yeni yöntemlerle çözümleyebilir, etkileyici graflar ve grafikler oluşturabilir, ayrıca kişileri, müşteri adaylarını ve kuruluşları harita üzerinde görüntüleyebilirsiniz.

@@ -11,10 +11,11 @@ ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293686"
 ---
 # <a name="power-bi-free-in-your-organization"></a>Kuruluşunuz için Power BI (ücretsiz)
 Bu makalede Power BI (ücretsiz) teklifini kuruluşunuzda nasıl kullanacağınız anlatılmaktadır. Kuruluş, kiracınız olduğu ve bu kiracı içindeki kullanıcıları ve hizmetleri yönetebildiğiniz anlamına gelir. Yönetici olarak lisans atamasını denetleyebilir veya kullanıcıların bireysel olarak kaydolmasına izin verebilirsiniz. Power BI (ücretsiz) lisansına ve bireysel kaydolma işlemlerini nasıl yönetebileceğinize göz atacağız.

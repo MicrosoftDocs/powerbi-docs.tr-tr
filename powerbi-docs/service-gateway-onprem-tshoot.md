@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34723012"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabileceğiniz bazı yaygın sorunlar ele alınmıştır.

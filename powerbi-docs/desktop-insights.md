@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286095"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop'taki öngörüleri kullanma (Önizleme)
 **Power BI Desktop**'tan grafiklerdeki artışları veya düşüşleri açıklamasını isteyerek verileriniz hakkında hızlı, otomatik ve öngörü sunan analizlere ulaşabilirsiniz. Tek yapmanız gereken bir veri noktasına sağ tıklayıp **Analiz > Düşüşü açıkla**'yı (veya önceki değer daha düşükse artışı) seçmek. Öngörü, kullanışlı bir pencerede gösterilir.

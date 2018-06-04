@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243207"
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Power BI ile Microsoft Azure Kurumsal'a bağlanma
 Power BI içerik paketi ile Power BI'da Microsoft Azure Kurumsal verilerinizi araştırın ve izleyin. Veriler günde bir kez otomatik olarak yenilenir.

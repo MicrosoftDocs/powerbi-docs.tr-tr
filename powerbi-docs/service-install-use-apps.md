@@ -10,10 +10,11 @@ ms.date: 01/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242747"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](service-connect-to-services.md) de Power BI uygulamaları sunar. 

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241148"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI ile tyGraph'e bağlanma
 Power BI içerik paketiyle tyGraph verilerinizi Power BI'da görselleştirin ve araştırın. tyGraph hesabınıza bağlanıp panoyu, raporları ve veri kümesini yükleyerek başlayın. Kullanıma hazır olarak sunulan içerik paketinde, MAE puanı olarak da bilinen Measure of Active Engagement (Etkin Katılım Ölçeği) ve En Çok Katkıda Bulunanlar gibi öngörüler yer alır. En çok önem verdiğiniz bilgileri vurgulamak için daha fazla özelleştirme gerçekleştirin.  Veriler, ayarladığınız bir zamanlamaya göre otomatik olarak yenilenir.

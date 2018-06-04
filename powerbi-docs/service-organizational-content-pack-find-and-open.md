@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f1580aeeb25d5159eff7fcb4759bb426e5ff0bfd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251403"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Kurumsal içerik paketleri bulma ve bunlara bağlanma
 > [!NOTE]

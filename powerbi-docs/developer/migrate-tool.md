@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2017
 ms.author: maghan
-ms.openlocfilehash: e404830de9981ba7a2de9af713d20b632cb292f5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bbd0a616460d4fb948c2efe63cca0d3e3d90d70e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689749"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 Power BI Embedded Azure hizmetindeki (PaaS) raporlarınızı Power BI hizmetine (SaaS) kopyalamak için bu geçiş aracından faydalanabilirsiniz.
