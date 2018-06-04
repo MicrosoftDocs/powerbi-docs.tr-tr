@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242944"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI ile Alpine Metrics Sales Predictions'a bağlanma
 Alpine Metrics, küçük ve büyük ölçekli satış kuruluşlarının isteği üzerine bulutta son teknoloji Tahmine Dayalı Satış Süreci Optimizasyonu olanağı sağlar. Power BI için Alpine Metrics Sales Predictions içerik paketinde, potansiyel ve öngörülen satışlar ve riskler gibi, işinizin geleceğine yönelik ayrıntılı öngörüler edinmenizi sağlayan ölçümler bulunur. 
