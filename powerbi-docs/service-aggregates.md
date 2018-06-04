@@ -11,10 +11,11 @@ ms.date: 01/04/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247608"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?

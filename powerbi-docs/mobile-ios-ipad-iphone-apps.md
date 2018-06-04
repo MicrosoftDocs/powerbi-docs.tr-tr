@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292973"
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>iOS cihazları için Power BI mobil uygulamasında verilerinizi araştırma
 iOS için Microsoft Power BI uygulaması iPad, iPhone, Apple Watch ve iPod touch cihazlarında mobil BI deneyimi sunar. Uygulamalar, önemli iş bilgilerinize yönelik gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim sağlar. Böylece, kuruluşunuzun Power BI panoları ile raporlarını ve Reporting Services mobil raporları ile KPI'lerini dilediğiniz yerden görüntüleyebilir, ayrıca bunlarla etkileşime geçebilirsiniz. Panolarınızdaki verileri araştırın ve bunları, e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın.

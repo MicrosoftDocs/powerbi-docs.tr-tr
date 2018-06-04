@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721766"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 Power BI Rapor Sunucusu, Temsili Durum Aktarımı (REST) API'leri destekler. REST API'ler, bir rapor sunucusu içindeki kaynaklar için oluşturma, alma, güncelleştirme veya silme erişimi sunan bir dizi HTTP işlemini (yöntemini) destekleyen hizmet uç noktalarıdır.
 
 REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılığıyla erişim sağlar. Nesnelere örnek olarak klasörler, raporlar, KPI'ler, veri kaynakları, veri kümeleri, yenileme planları, abonelikler ve diğerleri verilebilir. Örneğin REST API'yi kullanarak klasör hiyerarşisinde gezinebilir, bir klasörün içeriğini keşfedebilir veya bir rapor tanımını indirebilirsiniz. Ayrıca nesne oluşturabilir, güncelleştirebilir ve silebilirsiniz. Nesnelerle çalışmaya örnek olarak rapor yükleme, yenileme planı çalıştırma, klasör silme gibi işlevler verilebilir.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API istek/yanıt bileşenleri
 REST API istek/yanıt çifti beş bileşene ayrılabilir:

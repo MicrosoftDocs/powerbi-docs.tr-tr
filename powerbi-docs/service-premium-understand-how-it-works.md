@@ -10,10 +10,10 @@ ms.reviewer: susuresh
 author: suds001
 manager: kfile
 ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298470"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
@@ -71,13 +71,13 @@ Bellek, veri kümelerinin yenilenmesini kısıtlayabilen tek kaynak değildir. B
 
  | SKU  | Arka uç sanal çekirdek sayısı  | Model yenileme paralelliği   |
  | --- | --- | --- |
- | A1  | 0.5  | 1  |
+ | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
  | A3  | 2  | 3  |
  | A4  | 4  | 6  |
  | A5  | 8  | 12  |
  | A6  | 16  | 24  |
- | EM1  | 0.5  | 1  |
+ | EM1  | 0,5  | 1  |
  | EM2  | 1  | 2  |
  | EM3  | 2  | 3  |
  | P1  | 4  | 6  |

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241171"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Power BI ile Circuit ID'ye bağlanma
 Power BI ile iletişim verilerinizi Circuit ID'den kolayca çözümleyebilirsiniz. Power BI, verilerinizi alır ve ardından varsayılan bir pano ve bu verilere dayalı raporlar oluşturur. Bağlantıyı oluşturduktan sonra, verilerinizi araştırabilir ve panoyu gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz. Veriler her gün otomatik olarak yenilenir.
