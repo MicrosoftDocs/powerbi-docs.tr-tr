@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247654"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 İş arkadaşlarınızdan biri bir içerik paketi oluşturuyor. AppSource'ta bu içerik paketini bulup Power BI çalışma alanınıza ekliyorsunuz. Bir süre sonra bu içerik paketine ihtiyacınız olmadığını düşünüyorsunuz.  İçerik paketini nasıl kaldırırsınız?

@@ -11,10 +11,11 @@ ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: d1535dcdd818c3c49c71df9b1b08f115f6091cfc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295848"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.

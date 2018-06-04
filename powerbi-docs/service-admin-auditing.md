@@ -11,10 +11,11 @@ ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297090"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
@@ -119,7 +120,7 @@ Aşağıdaki tabloda görüntülenebilecek ayrıntılar hakkında daha fazla bil
 | --- | --- | --- |
 | Power BI raporu indirme |Bu etkinlik bir rapor indirildiğinde günlüğe kaydedilir |Rapor Adı, Veri Kümesi Adı |
 | Rapor oluşturma |Bu etkinlik yeni bir rapor oluşturulduğunda günlüğe kaydedilir. |Rapor Adı, Veri Kümesi Adı |
-| Rapor düzenleme |Bu etkinlik bir rapor düzenlendiğinde günlüğe kaydedilir. |Rapor Adı, Veri Kümesi Adı |
+| Rapor Düzenle |Bu etkinlik bir rapor düzenlendiğinde günlüğe kaydedilir. |Rapor Adı, Veri Kümesi Adı |
 | Veri kümesi oluşturma |Bu etkinlik bir veri kümesi oluşturulduğunda günlüğe kaydedilir. |Veri Kümesi Adı, DataConnectivityMode |
 | Veri kümesi silme |Bu etkinlik bir veri kümesi silindiğinde günlüğe kaydedilir. |Veri Kümesi Adı, DataConnectivityMode |
 | Power BI uygulaması oluşturma |Bu etkinlik bir Power BI uygulaması oluşturulduğunda günlüğe kaydedilir |Uygulama adı, İzinler, Çalışma Alanı Adı |

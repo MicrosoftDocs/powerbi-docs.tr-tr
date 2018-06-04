@@ -11,10 +11,11 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243903"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI için SQL Database Auditing içerik paketi
 Power BI için Azure [SQL Database Auditing](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) içerik paketi, veritabanınızdaki etkinlikleri anlamanıza, işle ilgili endişeleri ifade eden tutarsızlıklar ve anomaliler veya şüphe duyulan güvenlik ihlalleri hakkında daha fazla bilgi almanıza olanak sağlar. 

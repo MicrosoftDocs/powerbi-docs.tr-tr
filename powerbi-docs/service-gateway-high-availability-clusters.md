@@ -11,10 +11,11 @@ ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298792"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
 Kuruluşunuzun Power BI raporlarında ve panolarında kullanılan şirket içi veri kaynaklarına erişebildiğinden emin olmak için **Şirket içi veri ağ geçidi** yüklemelerinin **yüksek kullanılabilirlik kümelerini** oluşturabilirsiniz. Bu tür kümeler, yöneticilerin şirket içi veri kaynaklarına erişirken tek hata noktalarından kaçınmak için ağ geçitlerini gruplandırmasına olanak sağlar. Bu makalede, Şirket içi veri ağ geçitlerinin yüksek kullanılabilirlik kümelerini oluşturmak için izleyebileceğiniz adımlar ve bunları ayarlamaya yönelik en iyi uygulamalar açıklanmaktadır. Yüksek kullanılabilirlik ağ geçidi kümeleri, Şirket içi veri ağ geçidinin Kasım 2017 güncelleştirmesine veya üzerine sahip olmasını gerektirir.
