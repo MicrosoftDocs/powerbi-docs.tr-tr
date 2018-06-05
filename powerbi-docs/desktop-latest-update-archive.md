@@ -1,29 +1,21 @@
 ---
 title: Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 description: Power BI Desktop'ın önceki sürümlerine yönelik özellik güncelleştirmeleri
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33917194"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291178"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -55,7 +47,7 @@ Nisan ayındaki **Power BI Desktop** güncelleştirmelerinden duyduğumuz konusu
 * Görseller için varsayılan sıralama iyileştirildi  [[video]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Sayısal dilimleyici artık genel kullanıma sunuldu  [[video]](https://youtu.be/W_Nb73Od_AI?t=21m13s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analiz
+### <a name="analytics"></a>Analytics
 
 * Dil şemanızı güncelleştirin  [[video]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[makale]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Yeni DAX işlevi: COMBINEVALUES()  [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -164,7 +156,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 * Kuruluş özel görselleri (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[makale]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analiz
+### <a name="analytics"></a>Analytics
 
 * Özel tarih tablosu ayarlama  [[video]](https://youtu.be/KeVB5RwMzJo?t=16m4s)  [[makale]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Hızlı ölçümler genel kullanıma sunuldu  [[video]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[makale]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -223,7 +215,7 @@ Ocak ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıd
 -   Soru-Cevap halinde ilk N seçim  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Çok sayıda yeni özel görsel  [[video]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analiz
+### <a name="analytics"></a>Analytics
 
 -   Korelasyon katsayısı hızlı ölçümü [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -274,7 +266,7 @@ Aralık ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağ
 -   Son çıkan özel görseller  [[video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analiz
+### <a name="analytics"></a>Analytics
 
 -   Detaylandırma işlemi yapıldığında diğer görsellerin de filtrelenmesi  [[video]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
