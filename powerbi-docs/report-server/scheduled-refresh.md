@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296906"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799545"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 Power BI raporları için zamanlanmış yenileme, bir rapora ilişkin verilerin güncel kalmasını sağlar.
@@ -60,9 +60,6 @@ Rapor sunucularında sık görülen iş yükü, web uygulamalarıyla benzerdir. 
 Analysis Services örneklerini izleme hakkında bilgi için bkz. [Monitor an Analysis Services Instance (bir Analysis Services örneğini izleme)](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
 Analysis Services bellek ayarları hakkında bilgi için bkz. [Memory Properties (Bellek Özellikleri)](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
-
-### <a name="authentication-and-kerberos"></a>Kimlik doğrulaması ve Kerberos
-Veri kaynağınız Windows kimlik bilgilerini kullanacak şekilde ayarlanmışsa bağlantının başarılı olması için Kerberos kısıtlanmış temsil yapılandırması gerekli olabilir. Daha fazla bilgi için bkz. [Configure Windows authentication on the report server (Rapor sunucunuzda Windows kimlik doğrulamasını yapılandırma)](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI raporlarında, [zamanlanmış yenilemeyi](configure-scheduled-refresh.md) yapılandırın.
