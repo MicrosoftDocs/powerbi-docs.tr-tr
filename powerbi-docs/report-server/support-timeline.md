@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481061"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için destek zaman çizelgesi
 Power BI Rapor Sunucusu yılda birkaç kez yayımlanacaktır. Bir sonraki sürüm genel kullanıma sunulana kadar güvenlik güncelleştirmeleri ve kritik güncelleştirmeler sağlanır. Sonraki sürümün yayımlanmasının ardından önceki sürüm, 12 aylık kullanım süresinin geri kalan dönemi boyunca güvenlik güncelleştirmeleri almaya devam eder.
@@ -36,8 +37,8 @@ Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getiri
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md)  
-[Kullanıcı el kitabı](user-handbook-overview.md)  
-[Yönetici el kitabı](admin-handbook-overview.md)  
+[Power BI Rapor Sunucusu nedir?](get-started.md)
+[Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

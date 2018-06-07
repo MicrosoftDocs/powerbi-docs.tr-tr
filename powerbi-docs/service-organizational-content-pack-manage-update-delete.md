@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689884"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
@@ -71,7 +72,7 @@ Bir içerik paketine eklediğiniz panoda değişiklik yapıp kaydettiğinizde Po
 İçerik paketi oluşturucusu olarak, [veri kümelerinin yenilenmesini zamanlayabilirsiniz](refresh-data.md).  İçerik paketi oluşturup karşıya yüklediğinizde, söz konusu yenileme zamanlaması veri kümeleriyle birlikte karşıya yüklenir. Yenileme zamanlamasını değiştirirseniz içerik paketini yeniden yayımlamanız gerekir. (Yukarıya bakın.)
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>AppSource'taki kurumsal bir içerik paketini silme
-AppSource'ta yalnızca oluşturucusu olduğunuz içerik paketlerini silebilirsiniz. 
+AppSource'ta yalnızca oluşturucusu olduğunuz içerik paketlerini silebilirsiniz. Bir uygulama çalışma alanında kurumsal içerik paketi oluşturduysanız ve sonra bu çalışma alanını silmeye karar verirseniz, ilk olarak içerik paketini sildiğinizden emin olun. İlk olarak içerik paketini silmeden çalışma alanını silerseniz, bu içerik paketlerine tüm erişimi kaybedersiniz ve yardım için Microsoft Desteği’ne başvurmanız gerekir. 
 
 > [!TIP]
 > Oluşturucusu olmadığınız [bir içerik paketine yönelik bağlantınızı silebilirsiniz](service-organizational-content-pack-disconnect.md). Bu, içerik paketinin AppSource'tan silinmesine neden olmaz.

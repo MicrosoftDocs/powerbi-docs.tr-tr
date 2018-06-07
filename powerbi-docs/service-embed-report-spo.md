@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553577"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -142,7 +143,9 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 
 * Internet Explorer 10 kullanıyorsanız sorunlarla karşılaşabilirsiniz. [Office 365](https://products.office.com/office-system-requirements#Browsers-section) ve [Power BI için tarayıcı desteği](service-browser-support.md) sayfalarına bakabilirsiniz.
 
-* Power BI web bölümü [ulusal bulutlarda](https://powerbi.microsoft.com/en-us/clouds/) kullanılamaz. 
+* Power BI web bölümü [bağımsız bulutlar](https://powerbi.microsoft.com/en-us/clouds/) için kullanılamaz.
+
+* Klasik SharePoint Sunucusu bu web bölümü ile desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

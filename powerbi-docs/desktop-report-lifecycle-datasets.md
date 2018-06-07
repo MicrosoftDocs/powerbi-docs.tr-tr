@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721122"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
@@ -35,6 +36,8 @@ Anna'nın raporu herkes tarafından çok beğeniliyor ve sorun burada başlıyor
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Canlı bağlantıyla bir Power BI hizmeti veri kümesine bağlanma
 Anna raporunu (ve temel aldığı veri kümesini) oluşturup **Power BI hizmetinde** yayımladığında rapor, ekibinin Power BI hizmetindeki çalışma alanında görünür. Artık çalışma alanındaki herkes bunu görebilir ve kullanabilir.
+
+Çalışma alanları hakkında daha fazla bilgi için bkz. [uygulama çalışma alanları](service-create-distribute-apps.md#app-workspaces).
 
 Artık çalışma alanının diğer üyeleri (**Power BI** hizmeti canlı bağlantı özelliği sayesinde) Anna'nın paylaştığı veri modeliyle canlı bağlantı kurabilir ve onun *özgün veri kümesinden* yola çıkarak kendi benzersiz raporlarını oluşturabilir.
 

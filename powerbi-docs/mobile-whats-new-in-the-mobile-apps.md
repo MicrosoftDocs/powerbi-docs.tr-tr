@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482188"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -21,6 +22,12 @@ ms.lasthandoff: 05/17/2018
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
+
+## <a name="may-2018"></a>Mayıs 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Uzaktan rapor sunucuları için Power BI iOS mobil uygulamalarını yapılandırma
+
+BT yöneticiniz artık bir MDM aracı kullanarak rapor sunucusuna erişmek için Power BI iOS mobil uygulamasını yapılandırabilir. Ayrıntılı bilgi için bkz. [Uzaktan bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma](report-server/configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="april-2018"></a>Nisan 2018
 

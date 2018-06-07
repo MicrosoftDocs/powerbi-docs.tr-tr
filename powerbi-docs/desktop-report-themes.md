@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721191"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
 **Rapor Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
@@ -54,7 +55,7 @@ Bu JSON dosyasında şu gerekli satırlar bulunur:
 
 * **name**: Bu, temanın adıdır ve gerekli olan tek alandır
 * **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak onaltılık renk kodlarının listesi. Liste istediğiniz kadar renk içerebilir
-* **background**, **foreground** ve **tableAccent**: Bu değerler, **tablo** ve **matris** görsellerinde kullanılması gereken renklerdir. Bu renklerin nasıl kullanıldığı, uygulanan belirli tablo veya matris stiline bağlıdır. **Tablo** ve **matris** görselleri, bu stilleri varsayılan olarak uygular.
+* **background**, **foreground** ve **tableAccent**: Bu değerler, çeşitli görsel türlerinde uygulanması gereken renklerdir. **foreground** değeri metin kutusu metnine, KPI hedefi metnine, çok satırlı kart metnine, kart değeri metnine, ölçüm belirtme metnine, dikey dilimleyici öğesi metnine ve **tablo** ile **matris** toplam ve değerler metnine uygulanır. **background** değeri düğme dolgusuna ve birleşik grafik etiketi arka planına uygulanır. Bu renklerin nasıl kullanıldığı, uygulanan görsel stiline bağlıdır. **Tablo** ve **matris** görselleri, bu stilleri varsayılan olarak uygular.
 
 **Tablo** veya **matris** görsellerine bir stil uygulamak için ilgili görseli ve ardından **Görsel Öğeler** bölmesinde **Biçim** bölümünü seçin, ardından **Matris stili**'ni genişletip açılan **Stil** menüsünde bir stil belirleyin.
 

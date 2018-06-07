@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720823"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -74,7 +75,7 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Azure AD'de kay�
 
 Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Bir 403 hatasının birkaç nedeni olabilir.
 
-* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aştı. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın almanız ve çalışma alanını bu kapasiteye atamanız gerekir. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
+* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aştı. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın almanız ve çalışma alanını bu kapasiteye atamanız gerekir. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir yöneticisi değildir.
@@ -132,6 +133,53 @@ Kullanıcı raporu veya panoyu göremiyorsa rapor ya da panonun powerbi.com'a do
 **Rapor veya Pano yavaş çalışıyor**
 
 Power BI Desktop'tan veya powerbi.com'da dosyayı açın ve uygulamanızla veya API'leri eklemeyle ilgili sorunları elemek için performansın kabul edilebilir olduğunu doğrulayın.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için katılım deneyimi aracı
+
+Bir örnek uygulamayı hızlıca indirmek için [Katılım deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz. Daha sonra uygulamanızı örnekle karşılaştırabilirsiniz.
+
+### <a name="prerequisites"></a>Önkoşullar
+
+Katılım deneyimi aracını kullanmadan önce tüm uygun önkoşulları yerine getirdiğinizi doğrulayın. Bir **Power BI Pro** hesabı ve bir **Microsoft Azure** aboneliği gerekir.
+
+* **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
+* Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
+* [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
+* [Visual Studio](https://www.visualstudio.com/) yüklü olmalıdır (sürüm 2013 veya üzeri).
+
+### <a name="common-issues"></a>Sık Karşılaşılan Sorunlar
+
+Katılım deneyimi aracı ile test etme sırasında karşılaşabileceğiniz bazı yaygın sorunlar şunlardır:
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>Embed for your customers örnek uygulamasını kullanma
+
+**Embed for your customers** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\App Owns Data* klasörünü açın ve *PowerBIEmbedded_AppOwnsData.sln* dosyasını çalıştırın.
+
+**İzin ver**’i seçtiğinizde (İzin verme adımı) aşağıdaki hatayı alırsınız:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar denemektir. Bu eylemi birkaç kez yinelemeniz gerekebilir. Uygulama kayıt işlemini tamamlama ile dış API’lerin kullanımına sunulması arasındaki zaman aralığı bu soruna neden olur.
+
+Örnek uygulama çalıştırılırken aşağıdaki hata iletisi görüntülenir:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Örnek uygulamaya eklenmeyen tek değer kullanıcı parolanız olduğundan bu hata oluşur. Çözümde Web.config dosyasını açın ve pbiPassword alanını kullanıcınızın parolasıyla doldurun.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Embed for your organization örnek uygulamasını kullanma
+
+**Embed for your organization** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* klasörünü açın ve *pbi-saas-embed-report.sln* dosyasını çalıştırın.
+
+**Embed for your organization** örnek uygulamasını çalıştırdığınızda aşağıdaki hatayı alırsınız:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+Bunun nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak *http://localhost:13526/* kullanın.
+
+Kayıtlı uygulamayı düzenlemek istiyorsanız, uygulamanın web API’lerine erişim sağlayabilmesi için [AAD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) düzenleme hakkında bilgi edinin.
+
+Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
 
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584266"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Power BI ile QuickBooks Online'a bağlanma
 Power BI'dan QuickBooks Online verilerine bağlandığınızda işletmenizin nakit akışına, kârlılığına, müşterilerine ve daha fazlasına yönelik öngörüler içeren bir Power BI panosu ve Power BI raporları alırsınız. Panoyu ve raporları olduğu gibi kullanabilir ya da en çok değer verdiğiniz bilgiler vurgulanacak şekilde özelleştirebilirsiniz. Veriler günde bir kez otomatik olarak yenilenir.
@@ -22,7 +23,7 @@ Power BI'dan QuickBooks Online verilerine bağlandığınızda işletmenizin nak
 Power BI için [QuickBooks Online içerik paketine](https://dxt.powerbi.com/getdata/services/quickbooks-online) bağlanın.
 
 >[!NOTE]
->QuickBooks Online verilerinizi Power BI'a aktarmak için QuickBooks Online hesabınızda bir yönetici olmanız ve yönetici hesabı kimlik bilgilerinizle oturum açmanız gerekir.
+>QuickBooks Online verilerinizi Power BI'a aktarmak için QuickBooks Online hesabınızda bir yönetici olmanız ve yönetici hesabı kimlik bilgilerinizle oturum açmanız gerekir. Bu bağlayıcıyı QuickBooks Desktop yazılımı ile birlikte kullanamazsınız. 
 
 ## <a name="how-to-connect"></a>Bağlanma
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294928"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721835"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma
 Adından da anlaşılacağı gibi sayfalandırılmış raporlar birçok sayfayı çalıştırabilir. Bunlar, sabit bir biçimde düzenlenmiştir ve tam özelleştirme sunar. Sayfalandırılmış raporlar .rdl dosyalarıdır.
@@ -94,7 +94,7 @@ Raporunuz hazır olduğunda bu raporu Power BI Rapor Sunucusu'na kaydedin.
 SQL Server Veri Araçları'nı kullanarak Rapor Oluşturucusu'nda ve Rapor Tasarımcısı'nda rapor oluşturmaya yönelik çok sayıda harika kaynak mevcuttur. Rapor Oluşturucusu eğitimleri başlangıç yapmak için idealdir.
 
 * [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Power BI Rapor Sunucusu kullanıcı el kitabı](user-handbook-overview.md)  
+* [Power BI Rapor Sunucusu nedir?](get-started.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

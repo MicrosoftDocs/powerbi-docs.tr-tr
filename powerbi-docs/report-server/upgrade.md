@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482053"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
@@ -66,7 +67,7 @@ Power BI Rapor Sunucusu'nu yükseltmek oldukça kolaydır. Dosyaları yüklemek 
 Rapor sunucusu yükseltildikten sonra tüm Power BI Rapor yazarlarının Power BI Rapor Sunucusu için en iyi duruma getirilmiş olan ve sunucuyla eşleşen Power BI Desktop sürümüne yükseltme yaptığından emin olmanızda yarar vardır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Yönetici el kitabı](admin-handbook-overview.md)  
+[Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
 [Verify a reporting services installation (Bir raporlama hizmeti yüklemesini doğrulama)](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

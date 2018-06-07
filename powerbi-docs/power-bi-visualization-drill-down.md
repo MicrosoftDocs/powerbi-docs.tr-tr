@@ -1,5 +1,5 @@
 ---
-title: Power BI'daki görselleştirmelerde detaya gitme
+title: Power BI’daki görselleştirmelerde ayrıntı modu
 description: Bu belgede, Microsoft Power BI hizmetinde ve Power BI Desktop'ta bir görselleştirmenin detayına nasıl gidileceği gösterilmektedir.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584220"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Power BI'daki görselleştirmelerde detaya gitme
-## <a name="drill-down-requires-a-hierarchy"></a>Detaya gitme bir hiyerarşi gerektirir
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI’daki görselleştirmelerde ayrıntı modu
+
+## <a name="drill-requires-a-hierarchy"></a>Detay bir hiyerarşi gerektirir
 Bir görselde hiyerarşi varsa ek ayrıntıları açığa çıkarmak için detaya gidebilirsiniz. Örneğin, Olimpiyat madalyası sayısına spor, disiplin ve etkinlik açısından bakan bir görselleştirmeniz olabilir. Görselleştirme varsayılan olarak madalya sayısını sporlara göre (jimnastik, kayak, su sporları vb.) gösterir. Ancak bir hiyerarşiye sahip olduğundan, görsel öğelerden (bir çubuk, çizgi veya kabarcık) biri seçildiğinde giderek daha ayrıntılı hale gelen bir resim görüntülenir. Yüzme, atlama ve su topu ile ilgili verileri görmek için **su sporları** öğesini seçin.  Tramplen, kule ve senkronize atlama etkinlikleri ile ilgili ayrıntıları görmek için **atlama** öğesini seçin.
 
 Size ait raporlara hiyerarşiler ekleyebilirsiniz ancak sizinle paylaşılan raporlara ekleyemezsiniz.
@@ -35,64 +37,134 @@ Tarih, benzersiz bir hiyerarşi türüdür. Görselleştirmeye bir tarih alanı 
 > [!NOTE]
 > Power BI Desktop'ı kullanarak hiyerarşi oluşturmayı öğrenmek için [How to create and add hierarchies (Hiyerarşi oluşturma ve ekleme)](https://youtu.be/q8WDUAiTGeU) videosunu seyredin
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Detaya gitmek için iki yöntem
-Görselleştirmenizde detaya gitmek (ve detaydan çıkmak) için izleyebileceğiniz iki yol vardır.  Bu makalede her iki yol da açıklanmaktadır. Her iki yöntem de aynı görevi gerçekleştirir, bu nedenle tercih ettiğiniz yöntemi kullanın.
+## <a name="prerequisites"></a>Önkoşullar
+
+1. Power BI hizmeti veya Desktop’ta detay için hiyerarşiye sahip bir görselleştirme gerekir. 
+   
+2. Birlikte ilerlemek için [Perakende Analizi örneğini açın](sample-datasets.md) ve **Total Units This Year** (Değerler) özelliğine **Territory**, **City**, **PostalCode** ve **Name** (Grup) açısından bakan bir ağaç haritası oluşturun.  Ağaç haritasında bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu bulunur ve bu şekilde devam eder. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. Çeşitli detay simgelerinin birlikte nasıl çalıştığını anlamak kafa karıştırıcı olabilir. Bu nedenle ağaç haritasını küçük bölgelerin yalnızca 2 tanesini gösterecek şekilde filtreleyelim: **KY** ve **TN**. Ağaç haritasını seçin ve **Görsel düzeyi filtreleri** altında **Bölge**’yi genişletip **KY** ve **TN**’yi seçin.
+
+    ![KY ve TN filtresi](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Şimdi harita ağacında yalnızca iki bölge gösterilir.
+
+   ![çift detay simgesi](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>Detay özelliklerine erişmek için üç yol
+Hiyerarşisi olan görselleştirmeler için detaya gitme, detaydan çıkma ve genişletme özelliklerine erişmeye yönelik birkaç seçeneğiniz vardır. Bu makalede aşağıdaki birinci seçeneğin nasıl kullanılacağı gösterilmiştir. Detaya gitme ve genişletme temel bilgilerini anladıktan sonra bu yöntemlerin üçü de aynı işlemi gerçekleştirir. Bunları deneyin ve en çok keyif aldığınız seçeneği belirleyin.
+
+- Simgeleri görmek ve kullanmak için bir görselleştirmenin üzerine gelin.  
+
+    ![detay yolu](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- Menüyü ortaya çıkarmak ve kullanmak için bir görselleştirmeye sağ tıklayın.
+    
+    ![bağlam menüsü](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- Power BI menü çubuğundan **Araştır** düğmesini seçin.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>Detay yolları
+### <a name="drill-down"></a>Detaya gitme
+Görselleştirmenizi detaylandırmanın birkaç yolu vardır. ***Detaya gitme***, sizi hiyerarşide sonraki düzeye götürür. Bu nedenle, **Bölge** düzeyine bakıyorsanız şehir düzeyine, sonra posta kodu ve son olarak ad düzeyine gidebilirsiniz. Yoldaki her bir adım size yeni bilgiler gösterir.
+
+![detay yolu](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Genişlet
+
+***Genişletme***, geçerli görünüme ilave bir hiyerarşi düzeyi ekler. Bu nedenle, **Bölge** düzeyine bakıyorsanız ağaç haritanızı genişletip şehir, posta kodu ve ad ayrıntısını ekleyebilirsiniz. Yoldaki her adım size aynı bilgileri gösterir ve bir düzey yeni bilgi ekler.
+
+![genişletme yolu](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+Ayrıca tek seferde bir alanda veya aynı anda tüm alanlarda detaya gitmeyi ya da genişletmeyi seçebilirsiniz. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Aynı anda tüm alanlarda detaya gitme
+
+1. Ağaç haritasının KY ve TN verilerini gösteren en üst düzeyinden başlayın. Tanıtıcılardan birini seçip sağa sürükleyerek ağaç haritanızı genişletin. 
+
+    ![2 durumu gösteren ağaç haritası](media/power-bi-visualization-drill-down/power-bi-drill-down.png) geçin.
+
+2. ***Tüm alanlarda aynı anda*** detaya gitmek için görselleştirmenin sol üst köşesindeki çift oku ![çift detaya gitme simgesi](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png) seçin. Ağaç haritanızda şimdi Kentucky ve Tennessee şehir verileri gösterilir. 
+
+    ![çift detay simgesi](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Hiyerarşinin posta kodu düzeyine ulaşmak için bir kez daha detaya gidin.
+
+    ![çift detay simgesi](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Yeniden detaydan çıkmak için görselleştirmenin sol üst köşesindeki yukarı oku ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) seçin.
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Aynı anda tek bir alanda detaya gitme
+Bu yöntemde görselleştirmenin sağ üst köşesinde görünen detaya gitme simgesi kullanılır. 
+
+1. Detaya gitme simgesini seçerek açın ![detaya gitme açın](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Şimdi ***aynı anda tek alanda*** detaya gitme seçeneği sunulur. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Detaya gitmeyi açmazsanız bir görsel öğe (çubuk veya kabarcık ya da yaprak gibi) seçildiğinde detaya gidilmez, bunun yerine rapor sayfasındaki diğer grafiklere çapraz filtreleme uygulanır.
+
+2. **TN** için *yaprak* öğesini seçin. Ağaç haritanızda şimdi Tennessee’de mağazası olan tüm şehirler gösterilir. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Bu noktada Tennesee için detaya gitmeye devam edebilir veya belirli bir Tennesee şehri için detaya gidebilir ya da bunun yerine genişletebilirsiniz (aşağıdaki **Aynı anda tüm alanları genişletme** bölümüne bakın). Aynı anda tek bir alanda detaya gitme konusuna devam edelim.  **Knoxville, TN** öğesini seçin. Ağaç haritanız şimdi Knoxville’deki mağazanızın posta kodunu gösterir. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    Detaya gittiğinizde ve detaydan çıktığınızda başlığın değiştiğine dikkat edin.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Aynı anda tüm alanları ve tek bir alanı genişletme
+Yalnızca posta kodu gösteren bir ağaç haritası çok fazla bilgi vermez.  Bu nedenle hiyerarşide bir düzey aşağıya genişletelim.  
+
+1. Ağaç haritası etkinken *aşağıya genişlet* simgesini ![aşağıya genişlet simgesi](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png) seçin. Ağaç haritanız şimdi hiyerarşimizin 2 düzeyini gösterir: posta kodu ve mağaza adı. 
+
+    ![posta kodu ve mağaza adı gösteriliyor](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Tennesee’nin 4 hiyerarşi düzeyinin tamamını görmek için ikinci düzeye ulaşana kadar ağaç haritanızın detaydan çıkma okunu seçin (**Bölge ve şehre göre bu yılki toplam birim sayısı**). 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Detaya gitme seçeneğinin hala etkin olduğundan ![detaya gitme açık](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png) emin olun ve *aşağıya genişlet* simgesini ![aşağıya genişlet simgesi](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png) seçin. Ağaç haritasında şimdi bazı ek ayrıntılar gösterilir; yalnızca şehir ve eyalet yerine posta kodu da gösterilir. 
+
+    ![çift detay simgesi](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Ağaç haritanızda Tennesee’nin 4 hiyerarşi düzeyinin tamamını görüntülemek için *aşağıya genişlet* simgesini bir kez daha seçin. Daha fazla ayrıntı görmek için bir yaprağın üzerine gelin.
+
+   ![Tennesee verilerini gösteren ağaç haritası](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Diğer görsel delme filtreleri
+Detay modunda çalışırken detaya gitme ve genişletme özelliklerinin sayfadaki diğer görselleştirmeleri nasıl etkilediğine karar verirsiniz. 
+
+Varsayılan olarak, detaylandırma özelliği bir rapordaki diğer görselleri filtrelemez. Ancak bu özellik, Power BI Desktop ve Power BI hizmetinde etkinleştirilebilir. 
+
+1. Desktop’ta **Biçim** sekmesini ve **Diğer görsel delme filtreleri** onay kutusunu seçin.
+
+    ![Power BI Desktop'ta ayarlama](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Şimdi hiyerarşideki bir görselde detaya gittiğinizde (veya detaydan çıktığınızda ya da genişlettiğinizde), bu eylem sayfadaki diğer görselleri filtreler. 
+
+    ![Desktop’ta ayarlama](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![Desktop’ta ayarlama](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> Birlikte ilerlemek için Power BI hizmetinde [Retail Analysis sample'ı açın](sample-datasets.md) ve **Total Units This Year** (Değerler) özelliğine **Territory**, **City**, **PostalCode** ve **Name** (Grup) açısından bakan bir ağaç haritası oluşturun.  
-> 
-> 
+> Power BI hizmetinde bu özelliği etkinleştirmek için, üst menü çubuğundan **Görsel etkileşimler > Diğer görsel delme filtreleri**’ni seçin.
+>
+> ![Power BI hizmetinde ayarlama](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>Detaya gitmek için birinci yöntem
-Bu yöntemde görselleştirmenin üst köşelerinde görünen detay simgeleri kullanılır.
 
-1. Power BI'da bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
-   
-   Aşağıdaki animasyonda bir hiyerarşi gösterilmektedir.  Görselleştirmede bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu bulunur ve bu şekilde devam eder. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Detaya gitmeyi etkinleştirmek için görselleştirmenin sağ üst köşesindeki ok simgesini seçin. Simge koyu olduğunda detay etkindir. Detayı açmazsanız bir görsel öğe (çubuk veya kabarcık gibi) seçildiğinde rapor sayfasındaki diğer grafiklere çapraz filtreleme uygulanır.    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. **Tek seferde bir alan** kadar detaya gitmek için görselleştirmenizdeki öğelerden birini seçin. Çubuk grafikte bunu, çubuklardan birine tıklayarak yapabilirsiniz. Ağaç haritasında ise **yapraklardan** birine tıklamanız gerekir. Detaya gittiğinizde ve detaydan çıktığınızda başlığın değiştiğine dikkat edin. Bu animasyonda "Territory tarafından düzenlenen Total Units This Year" başlığı "Territory ve City tarafından düzenlenen Total Units This Year", "Territory, City ve PostalCode tarafından düzenlenen Total Units This Year", "Territory, City, PostalCode ve Name tarafından düzenlenen Total Units This Year" olarak değişir. Yeniden detaydan çıkmak için aşağıda gösterildiği gibi görselleştirmenin sol üst köşesindeki **Detaydan Çık** simgesini ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) seçin.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. ***Tüm alanlarda aynı anda*** detaya gitmek için görselleştirmenin sol üst köşesindeki çift oku seçin.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Yeniden detaydan çıkmak için görselleştirmenin sol üst köşesindeki yukarı oku seçin.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>Detaya gitmek için ikinci yöntem
-Bu yöntemde üst kısımdaki Power BI menü çubuğundaki **Araştır** açılan menüsü kullanılır.
-
-1. Power BI'da bir raporu [Okuma görünümü veya Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın. Detay için hiyerarşiye sahip bir görselleştirme gerekir. 
-   
-   Aşağıdaki görüntüde bir hiyerarşi gösterilmektedir.  Görselleştirmede bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu bulunur ve bu şekilde devam eder. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Detaya gitmeyi etkinleştirmek için bir görselleştirmeyi seçerek etkin hale getirin ve Power BI üst menü çubuğunda **Araştır** > **Detaya Git**'i seçin. Görselleştirmenin sağ üst köşesindeki detaya git simgesi siyah bir arka plan olarak değişir. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Etkinleştirildikten sonra, bir seferde bir alanda detaya gitmek için ağaç haritası yapraklarından birini seçin. Bu örnekte, bu yıl Kuzey Carolina'da satılan toplam birimlerin şehre göre görüntülenmesi için **NC** adlı bölge seçilmektedir.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Tüm alanlarda aynı anda detaya gitmek için **Araştır** > **Sonraki Düzeyi Göster**'i seçin.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Yeniden detaydan çıkmak için **Araştır** > **Detaydan Çık**'ı seçin.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. Görseli oluşturmada kullanılan verileri görmek için **Verileri görüntüle**'yi seçin. Veriler, görselin altındaki bölmede görüntülenir. Siz görseli ayrıntılandırırken bu bölme sabit kalır. Daha fazla bilgi için bkz. [Görseli oluşturmak için kullanılan verileri gösterme](service-reports-show-data.md).
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Hiyerarşi eksenini ve hiyerarşi grubunu anlama
 Hiyerarşi eksenini ve hiyerarşi grubunu, görüntülemek istediğiniz verilerin ayrıntı düzeyini artırmak ve azaltmak için kullanabileceğiniz mekanizmalar olarak düşünebilirsiniz. Kategoriler ve alt kategoriler halinde düzenlenebilen tüm veriler bir hiyerarşiye sahip olmaya uygundur. Doğal olarak, buna tarihler ve saatler de dahildir.
 
-**Değerler** kutusunda veri alanları olarak araştırmak istediğiniz verilerin yanı sıra **Eksen** kutusuna veya **Grup** kutusuna eklenecek bir ya da daha fazla veri alanını seçerek hiyerarşi elde etmek için Power BI’da bir görselleştirme oluşturabilirsiniz. Görselleştirmenizin sol üst ve sağ köşelerinde Ayrıntı Modu simgelerinin görünmesi, verilerinizin hiyerarşik olduğu anlamına gelir. 
+**Değerler** kutusunda veri alanları olarak araştırmak istediğiniz verilerin yanı sıra **Eksen** kutusuna veya **Grup** kutusuna eklenecek bir ya da daha fazla veri alanını seçerek hiyerarşi elde etmek için Power BI’da bir görselleştirme oluşturabilirsiniz. Görselleştirmenizin sol üst ve sağ köşelerinde *Ayrıntı modu* simgelerinin görünmesi, verilerinizin hiyerarşik olduğu anlamına gelir. 
 
 Hiyerarşik verilerin temel olarak iki türü olduğu söylenebilir:
 - Tarih ve saat verileri - Bir DateTime veri türünün bulunduğu bir veri alanınız varsa bu, hiyerarşik verilere zaten sahip olduğunuz anlamına gelir. Power BI, değerleri bir [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) yapısına ayrıştırılabilen herhangi bir veri alanı için otomatik olarak hiyerarşi oluşturur. **Eksen** veya **Grup** kutusuna yalnızca bir DateTime alanı eklemeniz gerekir.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289752"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721030"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -102,6 +102,9 @@ Power BI Embedded, Power BI'da uygulama kimliğini doğrulayarak ana kullanıcı
 Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemleri, ISV tarafından gerçekleştirilecektir ve ISV, uygulamaları için kendi kimlik doğrulama modelini uygulayabilir.
 
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilir veya katıştırılmış uygulama içeriğinizin güvenliği için yeni bir Azure AD kiracısı oluşturabilirsiniz.
+
+Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplıklarından birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded hangi açıdan diğer Azure hizmetlerinden farklıdır?
 
@@ -205,6 +208,31 @@ Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya
 * **Power BI Çalışma Alanı Koleksiyonu** ile desteklenen 2 veri kaynağı karşısında tüm PBI veri kaynakları desteklenmektedir. 
 * Soru-cevap, Yenileme, yer işaretleri, pano ve kutucuk ekleme, özel menü vb. yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
 * Kapasite faturalama modeli.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için Katılım Deneyimi Aracı
+
+### <a name="what-is-the-onboarding-experience-tool"></a>Katılım deneyimi aracı nedir?
+
+[Katılım deneyimi aracı](https://aka.ms/embedsetup), hızlıca kullanmaya başlamanıza ve bir örnek uygulama indirerek Power BI ile eklemeye başlamanıza olanak tanır.
+
+### <a name="which-solution-should-i-choose"></a>Hangi çözümü seçmem gerekir?
+
+* [Embedding for your customers](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. [Embed for your customers](https://aka.ms/embedsetup/AppOwnsData) çözümünü çalıştırın.
+* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü çalıştırın.
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Örnek uygulamayı indirdim, hangi çözümü seçmem gerekiyor?
+
+**Embed for your customers** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\App Owns Data* klasörünü açın ve *PowerBIEmbedded_AppOwnsData.sln* dosyasını çalıştırın.
+
+**Embed for your organization** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* klasörünü açın ve *pbi-saas-embed-report.sln* dosyasını çalıştırın.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Kayıtlı uygulamamı nasıl düzenleyebilirim?
+
+AAD kayıtlı uygulamalarını düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bulabilirsiniz.
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI kullanıcı profilimi veya verilerimi nasıl düzenleyebilirim?
+
+Power BI verilerinizi düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) bulabilirsiniz.
 
 Daha fazla bilgi için lütfen bkz. [Ekli uygulamanızın sorunlarını giderme](embedded-troubleshoot.md).
 

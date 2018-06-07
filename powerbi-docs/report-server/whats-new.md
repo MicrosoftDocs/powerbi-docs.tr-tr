@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295434"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481979"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir.
@@ -32,6 +32,12 @@ Ayrıca, Power BI Rapor Sunucusu'ndaki yeni özelliklerden sürekli olarak haber
 * [Power BI hizmetindeki yenilikler](../service-whats-new.md)
 * [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Mayıs 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Uzaktan rapor sunucuları için Power BI iOS mobil uygulamalarını yapılandırma
+
+BT yöneticisi olarak artık kuruluşunuzun MDM aracını kullanarak bir rapor sunucusuna Power BI iOS mobil uygulama erişimini uzaktan yapılandırabilirsiniz. Ayrıntılı bilgi için bkz. [Uzaktan bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma](configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="march-2018-release"></a>Mart 2018 yayını
 
@@ -101,7 +107,7 @@ Bir görselde belirtilen bir kategoride detaya gittiğinizde, sayfadaki tüm gö
 - [Biçimlendirme ve analiz bölmelerinde arama](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Alan özellikleri bölmesi ve alan açıklamaları](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analiz
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() ve UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Özel tarih tablosu işaretleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -204,7 +210,7 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 * Yorumlar eklenerek raporlardaki işbirliği özellikleri geliştirildi
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Kullanıcı el kitabı](user-handbook-overview.md)  
+[Power BI Rapor Sunucusu nedir?](get-started.md) 
 [Yönetici el kitabı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

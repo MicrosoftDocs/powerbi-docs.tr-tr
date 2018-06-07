@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561828"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
 Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konulan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki bir kişi için başvuru noktası oluşturur.
@@ -49,7 +50,7 @@ Power BI Rapor Sunucusu dağıtımında aşağıdaki sanal makineler yer almış
 Topolojide kullanılan her bir sanal makinenin yapılandırmasını ayrıntılı bir şekilde görmek için Ek 1.1 Power BI Rapor Sunucusu Topolojisi ve Ek 1.2 Power BI Sunucusu Sanal Makine Yapılandırması bölümlerine bakın.
 
 ### <a name="tests"></a>Testler
-Yük testi çalıştırmalarında kullanılan testlere, Reporting Services LoadTest olarak adlandırılan GitHub projesinden ulaşılabilir   (Bkz. https://github.com/Microsoft/Reporting-Services-LoadTest). Bu araç, kullanıcıların, SQL Server Reporting Services ve Power BI Rapor Sunucusu'na ilişkin performans, güvenilirlik, ölçeklenebilirlik ve kurtarılabilme özelliklerini incelemesine olanak sağlar. Bu proje, dört test çalışması grubundan oluşur:
+Yük testi çalıştırmalarında kullanılan testlere, [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) olarak adlandırılan GitHub projesinden ulaşılabilir. Bu araç, kullanıcıların, SQL Server Reporting Services ve Power BI Rapor Sunucusu'na ilişkin performans, güvenilirlik, ölçeklenebilirlik ve kurtarılabilme özelliklerini incelemesine olanak sağlar. Bu proje, dört test çalışması grubundan oluşur:
 
 * Power BI raporu işleme işleminin benzetiminin yapıldığı testler,
 * Mobil raporların işlenmesinin benzetiminin yapıldığı testler,

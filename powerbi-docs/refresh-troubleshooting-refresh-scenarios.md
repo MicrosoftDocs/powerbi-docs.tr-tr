@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721582"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 Burada Power BI hizmetindeki verileri yenilerken karşılaşabileceğiniz farklı senaryolarla ilgili bilgilere yer verilmiştir.
@@ -56,6 +57,14 @@ Ayrıca yenileme işleminin düzgün çalışmasını sağlamak üzere, AAD OAut
 
 ## <a name="scheduled-refresh-timeout"></a>Zamanlanmış yenileme zaman aşımı
 İçerik aktarılan veri kümeleri için zamanlanmış yenileme iki saatin ardından zaman aşımına uğrar. Bu zaman aşımı **Premium** çalışma alanlarındaki veri kümeleri için beş saate yükseltilmiştir. Bu sınırdan etkileniyorsanız veri kümenizin boyutunu veya karmaşıklık düzeyini azaltabilir ya da veri kümesini daha küçük parçalara bölebilirsiniz.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Kaynağa erişim yasak  
+Bu hata, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle oluşabilir. Power BI'da oturum açıp https://app.powerbi.com?alwaysPromptForContentProviderCreds=true sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Parola değişikliği veya süresi dolan kimlik bilgileri nedeniyle veri yenileme hatası 
+Veri yenileme işlemi, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle de başarısız olabilir. Power BI'da oturum açıp https://app.powerbi.com?alwaysPromptForContentProviderCreds=true sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri Yenileme](refresh-data.md)  
