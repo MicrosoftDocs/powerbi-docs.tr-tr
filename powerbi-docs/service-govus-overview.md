@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722703"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -55,9 +56,10 @@ Genel bulutta IP alanları kullanılabilir ancak kamu bulutunda, yukarıda liste
 
 * **SharePoint Online'da ekleme** - Power BI web bölümünü kullanarak SharePoint Online’a içerik eklemek mümkün değildir.
 * **Power BI US Government**, yalnızca **Pro** lisans olarak kullanılabilir. Bir yönetim portalında (veya kullanıcılar olarak) Power BI (Ücretsiz) lisanslarına yapılan tüm başvurular, ticari bir Power BI hizmet bulutunda çalışmaktadır.
-* **Denetim** - Denetim, Office 365 Güvenlik ve Uyumluluk portalı aracılığıyla kullanılamaz.
+* **Denetim** - Denetim, Haziran 2018’den itibaren Office 365 Güvenlik ve Uyumluluk portalı aracılığıyla kullanılabilir.
 * **Cortana'da Power BI içeriği**: Cortana arama sonuçlarında Power BI sonuçları gösterilmez. Buna, Power BI içeriğinizin (panolar, raporlar, uygulamalar) yanı sıra belirli anahtar sözcüklere göre, Cortana için en iyi duruma getirilmiş rapor sayfalarına ilişkin sonuçlar da dahildir.
-* **Dış kullanıcı paylaşımı** - Yalnızca bir Power BI kiracısı içinde paylaşıma izin verilir; Power BI kiracınız dışındaki kullanıcılarla paylaşım yapamazsınız.
+* **Dış kullanıcı paylaşımı** - Bir Power BI kiracısı içinde paylaşıma izin verilir; Haziran 2018 itibarıyla Power BI kiracınız dışındaki kullanıcılarla da paylaşım yapılabilir.
+* **Panolar ve raporlar için kullanım ölçümleri** - Kullanım ölçümleri, raporlar ve panolar için kullanılamaz. Müşteriler, kuruluşlarındaki içeriğe ait kullanım bilgilerini almak için denetim günlüğü verilerini kullanabilir.
 
 Hesabınıza atanmış Ücretsiz **Power BI** lisansları varsa bu lisanslar, **Power BI** hizmetinin ticari bir sürümünde çalıştırılmaktadır ve **Power BI US Government** teklifinin bir parçası değildir. Bu Ücretsiz hesaplar ile ilgili olarak aşağıdaki sorunlarla karşılaşabilirsiniz:
 

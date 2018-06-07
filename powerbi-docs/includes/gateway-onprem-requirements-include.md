@@ -13,6 +13,7 @@
 **İlgili Önemli Noktalar:**
 
 * Ağ geçidi, bir etki alanı denetleyicisine yüklenemez
+* Windows kimlik doğrulaması kullanmayı planlıyorsanız, ağ geçidini veri kaynakları ile aynı Active Directory ortamına üye olan bir bilgisayara yüklediğinizden emin olun.
 * Kapatılmış veya uykuda olabilen ya da İnternet'e bağlı olmayabilen dizüstü bilgisayar gibi bir bilgisayara ağ geçidi yüklememeniz gerekir; bu koşullarda ağ geçidi çalıştırılamaz. Ayrıca kablosuz ağ üzerinde ağ geçidi performansı düşebilir.
 * Ağ geçidini kullanmak için Analysis Services gerekli değildir. Ağ geçidini bir Analysis Services veri kaynağına bağlanmak için kullanabilirsiniz.
 

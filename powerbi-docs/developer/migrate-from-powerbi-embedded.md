@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689795"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
@@ -26,9 +27,14 @@ Geçerli Power BI Çalışma Alanı Koleksiyonu sınırlı bir süre için kulla
 > [!IMPORTANT]
 > Geçiş Power BI Embedded hizmetine bağlı olsa da **ekleme belirteci** kullandığınız zaman uygulamanızın kullanıcıları açısından Power BI bağımlılığı söz konusu değildir. Kullanıcıların uygulamanıza eklenmiş içeriği görüntülemek için Power BI'a kaydolması gerekmez. Power BI Embedded harici kullanıcılara hizmet sunmak için bu ekleme yaklaşımını kullanabilirsiniz.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+Yeni Power BI Embedded sürümüne geçiş yapmaya başlamadan önce, [Katılım deneyimi aracı](https://aka.ms/embedsetup)’nı kullanarak yeni Power BI Embedded ortamınızı ayarlamanıza yardımcı olan bir kılavuzu hızlıca inceleyebilirsiniz.
+
+Size uygun olan çözümü seçin:
+* **Embed for your customers** - Bir [verilerin sahibi uygulamadır](https://aka.ms/embedsetup/AppOwnsData) çözümü ile ilgilendiğinizde. [Embedding for your customers](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. 
+* **Embed for your organization** - Bir [verilerin sahibi kullanıcıdır](https://aka.ms/embedsetup/UserOwnsData) çözümü ile ilgilendiğinizde. [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır.
 
 ## <a name="prepare-for-the-migration"></a>Geçiş için hazırlama
 Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçişe hazırlanmak için yapmanız gereken birkaç işlem vardır. Bir kiracıya ve Power BI Pro lisansına sahip bir kullanıcıya ihtiyacınız vardır.
@@ -63,10 +69,6 @@ Aşağıdaki hesapların kiracınızda bulunması gerekir.
    
 > [!NOTE]
 > Bu, kuruluşunuzda bulunan normal bir kullanıcı hesabıdır ve ekleme amacıyla kullanılacaktır.
->
-
-> [!NOTE]
-> Uygulamanız için Yalnızca Uygulama Belirteci Kimlik Doğrulaması gerekiyorsa, lütfen bize ulaşmak için [buraya](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) tıklayın.
 >
 
 ## <a name="app-registration-and-permissions"></a>Uygulama kaydı ve izinler

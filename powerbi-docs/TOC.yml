@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Power BI Birleşik Bildirim Merkezi
                   href: service-notification-center.md
+                - name: Pano temaları
+                  href: service-dashboard-themes.md
             - name: Raporlar
               items:
                 - name: Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Genel arabirimleri kullanarak verilere bağlanma
               href: desktop-connect-using-generic-interfaces.md
+            - name: Adobe Analytics’e bağlan
+              href: desktop-connect-adobe-analytics.md
             - name: Oracle veritabanlarına bağlanma
               href: desktop-connect-oracle-database.md
             - name: Power BI Desktop'ta R betikleri çalıştırma
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Power BI Desktop'taki Bilgi tutarlılığı varsay ayarı
               href: desktop-assume-referential-integrity.md
-            - name: Oracle ve Teradata veritabanları için DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Power BI Desktop'ta SAP BW bağlayıcısını kullanma (Önizleme)
               href: desktop-sap-bw-connector.md
             - name: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI raporlarında erişilebilirlik
           href: desktop-accessibility.md
+        - name: Power BI Desktop oturum açma formunu yönetme
+          href: desktop-admin-sign-in-form.md
 - name: Power BI mobil uygulamaları
   items:
     - name: Genel Bakış

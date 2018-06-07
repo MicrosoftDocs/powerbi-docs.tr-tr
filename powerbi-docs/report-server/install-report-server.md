@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721743"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -130,8 +131,8 @@ Web Hizmeti URL'niz ve Web Portalı URL'niz için yapılandırmış olduğunuz T
 * Web portalını, raporları görüntülemek ve yönetmek için bir rapor bilgisayarından erişilebilecek şekilde yapılandırmak isterseniz bkz. [Configure a firewall for report server access (Rapor sunucusu erişimi için güvenlik duvarını yapılandırma)](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) ve [Configure a report server for remote administration (Rapor sunucusunu uzaktan yönetim için yapılandırma)](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Yönetici el kitabı](admin-handbook-overview.md)  
-[How to find your report server product key (Rapor sunucusu ürün anahtarınızı bulma)](find-product-key.md)  
+[Yönetici genel bakışı](admin-handbook-overview.md)  
+[Rapor sunucusu ürün anahtarınızı bulma](find-product-key.md)  
 [Install Power BI Desktop optimized for Power BI Report Server (Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme)](install-powerbi-desktop.md)  
 [Verify a reporting services installation (Bir raporlama hizmeti yüklemesini doğrulama)](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

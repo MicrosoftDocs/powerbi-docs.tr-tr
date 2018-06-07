@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584174"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI'da görüntüleyebilir](service-reports-show-data.md) veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -31,7 +32,7 @@ Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, .
 2. **Verileri dışarı aktar** simgesini seçin.
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. Veriler bir .csv dosyasına aktarılır. Görsel filtrelenmişse, indirilen veriler de filtrelenmiş olur.
+3. Veriler bir .csv dosyasına aktarılır. Görsel filtrelenmişse, indirilen veriler de filtrelenmiş olur.    
 4. Tarayıcınız sizi dosyayı kaydetmeye yönlendirir.  Kaydedilen .csv dosyasını Excel'de açın.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](sample-procur
 * Power BI yalnızca basit toplama işlemlerinin kullanıldığı görsellerde dışarı aktarmayı destekler. Dışarı aktarma işlemi model veya rapor ölçülerinin kullanıldığı görseller için kullanılamaz.
 * Şu anda özel görseller ve R görselleri desteklenmemektedir.
 * Verileri dışarı aktarma özelliği, kendileriyle paylaşılan bir panoyu kullanmakta olan, kuruluşunuzun dışındaki kullanıcılar tarafından kullanılamaz. 
+* Power BI’da alana çift tıklanıp yeni bir ad yazılarak alan (sütun) yeniden adlandırılabilir.  Bu yeni ad, *diğer ad* olarak adlandırılır. Bir Power BI raporunun yinelenen alan adları içermesi mümkündür ancak Excel yinelenen adlara izin vermez.  Bu nedenle, veriler Excel'e gönderildiğinde alan diğer adları özgün alan (sütun) adlarına geri döner.  
 * .csv dosyasında bir unicode karakter varsa metin Excel'de düzgün bir şekilde görüntülenmeyebilir. Ancak dosyayı Not Defteri'nde açmak yeterli olacaktır. Para birimi simgeleri ve yabancı kelimeler unicode karakterlere örnek olarak verilebilir. Bu soruna yönelik bir geçici çözüm olarak, CSV dosyasını doğrudan açmak yerine Excel'e aktarabilirsiniz. Bunu gerçekleştirmek için:
   
   1. Excel'i açın

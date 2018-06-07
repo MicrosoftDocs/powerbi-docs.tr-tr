@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722555"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
 Power BI Desktop uygulamasında bir raporu kaydedip **Yayımla**'yı seçerek Power BI hizmetine aktarabilirsiniz (*indirme* olarak da adlandırılır). Ayrıca, bu dışarı aktarma işleminin yönünü değiştirip Power BI hizmetinde bulunan bir raporu Desktop uygulamasına indirebilirsiniz. Herhangi bir yönde dışarı aktarılan dosyaların uzantısı *.pbix* olur.
@@ -57,6 +58,7 @@ Power BI hizmetinden *.pbix* dosyası indirirken (dışarı aktarırken) dikkat 
 * Bu özelik, içerik paketleri de dahil olmak üzere **Power BI hizmetinde** oluşturulmuş olan raporlarla kullanılamaz.
 * İndirilen dosyaları açarken mutlaka **Power BI Desktop** uygulamasının son sürümünü kullanmanız gerekir. İndirilen *.pbix* dosyaları **Power BI Desktop** uygulamasının eski sürümlerinde açılmayabilir.
 * Yöneticiniz verileri dışarı aktarma özelliğini devre dışı bıraktıysa bu özellik **Power BI hizmetinde** görüntülenmez.
+* Artımlı yenileme ile veri kümesi bir *.pbix* dosyasına indirilemez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Bu özellik hakkındaki bir dakikalık **Guy in a Cube** videosunu izleyin:

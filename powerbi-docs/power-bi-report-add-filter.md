@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561713"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Bir Power BI hizmet raporuna filtre ekleme (Düzenleme görünümünde)
 > [!TIP]
@@ -28,7 +29,7 @@ Bu makaledeki örneklerde, Power BI hizmeti gösterilmektedir. Ancak adımlar, P
 Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma Görünümü](service-reading-view-and-editing-view.md) ve [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
 
 * Düzenleme Görünümü'nde rapor ve sayfa filtrelerinin yanı sıra görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde filtreler de birlikte kaydedilir. Okuma Görünümü'nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir.
-* Okuma Görünümü'nde, önceden raporda bulunan tüm rapor, detaylandırma, sayfa ve görsel filtreler ile etkileşim kurabilirsiniz ancak yeni filtreler ekleyemezsiniz. Raporu mobil uygulamada görüntüleseniz bile, Filtreler bölmesinde yaptığınız değişiklikler rapora kaydedilir.  
+* Okuma Görünümü'nde, önceden raporda bulunan tüm rapor, detaylandırma, sayfa ve görsel filtreler ile etkileşim kurabilirsiniz ancak yeni filtreler ekleyemezsiniz. Ancak, raporu mobil uygulamada görüntüleseniz ve rapordan çıkıp daha sonra geri dönseniz bile, Filtreler bölmesinde yaptığınız değişiklikler rapora kaydedilir.  
 
 > [!NOTE]
 > Bu makalede rapor **Düzenleme Görünümü**'nde nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma Görünümü'ndeki filtreler hakkında daha fazla bilgi için [rapor Okuma Görünümü'nde filtrelerle etkileşim kurma](service-reading-view-and-editing-view.md) başlıklı makaleye bakın.
@@ -44,7 +45,11 @@ Dört tür filtre vardır.
 - **Detaylandırma filtresi**, bir rapordaki tek bir varlığa uygulanır    
 - **Rapor filtresi**, rapordaki tüm sayfalara uygulanır    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![Okuma görünümünde filtre bölmesi](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Filtreler *kalıcı* olduğu için, rapordan çıktığınızda Power BI yaptığınız filtre, dilimleyici ve diğer veri görünümü değişikliklerini tutar. Bu nedenle, rapora geri döndüğünüzde kaldığınız yerden devam edebilirsiniz. Filtre değişikliklerinizin kalıcı olmasını istemiyorsanız üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
+
+![kalıcı filtre düğmesi](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Belirli bir görselleştirmeye filtre ekleme (başka bir deyişle, görsel filtresi)
 Bunu yapmanın 2 yolu vardır: 
@@ -135,12 +140,13 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 1. Önceki rapor sayfasına geri dönmek için geri okunu seçin.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Görsel düzeyi ve sayfa düzeyi filtrenizin farklı sonuçlar göstermesi neden mümkündür?
-Bir görsel düzeyi filtresi eklediğinizde Power BI, toplanan sonuçlarda filtre uygular.  Varsayılan toplama, Toplam'dır ancak [toplama türünü değiştirebilirsiniz](service-aggregates.md).  
 
-Bir görsel düzeyi filtresi eklediğinizde ise Power BI, toplama yapmadan filtre uygular.  Bir sayfada her biri farklı toplama türlerini kullanabilen pek çok görsel olduğu için bunu yapar.  Bu nedenle filtre, her bir veri satırına uygulanır.
+- Görsel düzeyi ve sayfa düzeyi filtrenizin farklı sonuçlar döndürebileceği durumlar vardır.  Örneğin, bir görsel düzeyi filtresi eklediğinizde Power BI, toplanan sonuçlarda filtre uygular.  Varsayılan toplama, Toplam'dır ancak [toplama türünü değiştirebilirsiniz](service-aggregates.md).  
 
-Alanlar bölmesini görmüyorsanız rapor [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde bulunduğunuzdan emin olun.
+    Sonra bir görsel düzeyi filtresi eklediğinizde ise Power BI, toplama yapmadan filtre uygular.  Bir sayfada her biri farklı toplama türlerini kullanabilen pek çok görsel olduğu için bunu yapar.  Bu nedenle filtre, her bir veri satırına uygulanır.
+
+- Alanlar bölmesini görmüyorsanız rapor [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde bulunduğunuzdan emin olun.    
+- Filtrelerde çok fazla değişiklik yaptıysanız ve rapor yazarı varsayılan ayarlarına geri dönmek istiyorsanız, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
  [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)

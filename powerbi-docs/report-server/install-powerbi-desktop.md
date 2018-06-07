@@ -1,28 +1,20 @@
 ---
 title: Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 description: Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: b67cfbcb495fef45ec3f44ceab77b794a9110617
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813703"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481843"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin.
@@ -111,8 +103,7 @@ Rapor sunucunuz önceki bir sürümse, ilgili Power BI Desktop sürümü gerekir
 Power BI Desktop uygulamasını yüklediğinizde göre Power BI raporu oluşturmaya başlayabilirsiniz.
 
 [Power BI Rapor Sunucusu için Power BI raporu oluşturma](quickstart-create-powerbi-report.md)  
-[Power BI Desktop ile çalışmaya başlama](../desktop-getting-started.md)  
-[Power BI Rapor Sunucusu'na yönelik kullanıcı el kitabına genel bakış](user-handbook-overview.md)
+[Power BI Rapor Sunucusu nedir?](get-started.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

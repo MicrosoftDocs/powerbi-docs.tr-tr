@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 09322a1ead6ae4c3a00dc42e2b4a642dcc2d6181
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291754"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584151"
 ---
 # <a name="basic-area-chart"></a>Basit Alan grafiği
 Basit alan grafiği (katmanlı alan grafiği olarak da bilinir) çizgi grafiğini temel alır. Eksen ve çizgi arasındaki alan, hacmi gösteren renklerle doldurulur. 
@@ -62,7 +62,9 @@ FİLTRELER bölmesinin kullanımı hakkında bilgi için bkz. [Bir rapora filtre
 
 Grafiğinizdeki belirli bir alanı vurgulamak için ilgili alanı veya üst kenarlığını seçin.  Diğer görselleştirme türlerinin aksine, sayfada başka görselleştirmeler varken basit alan grafiklerini vurguladığınızda rapor sayfasındaki diğer görselleştirmeler için çapraz filtre uygulanmaz. Ancak alan grafikleri, rapor sayfasındaki diğer görselleştirmeler tarafından tetiklenen çapraz filtrelemelerden etkilenir. Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](service-reports-visual-interactions.md)
 
-## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme   
+* [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](desktop-accessibility.md)
 * Basit alan grafikleri, katmanlı alanlardaki kapatma nedeniyle değer karşılaştırmaları için kullanışlı değildir. Power BI, alanlardaki çakışmaları göstermek için saydamlıktan yararlanır. Ancak, bu özellik yalnızca iki veya üç farklı alanda düzgün bir şekilde çalışır. Eğilimi üçten fazla ölçüyle karşılaştırmak için çizgi grafikleri kullanmayı deneyin. Hacmi üçten fazla ölçüyle karşılaştırmak için ise ağaç haritası kullanmayı deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481797"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ Yukarıdaki yapılandırma tamamlandıktan sonra raporunuzun doğru şekilde gö
 Bu yapılandırma Kerberos kullanılan çoğu durumda çalışır ancak ortamınıza bağlı olarak farklı yapılandırmalara ihtiyaç duyulabilir. Rapor yine de yüklenmiyorsa etki alanı yöneticinizle iletişime geçerek daha ayrıntılı bir araştırma yapabilir veya destek ekibine başvurabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Yönetici el kitabı](admin-handbook-overview.md)  
+[Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/22/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 0debedc6e768fb3158ebe5cb4bf820ed3dc14a58
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310501"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481429"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com)) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -131,6 +131,6 @@ Power BI Desktop'ta rapor oluşturmak için faydalanabileceğiniz birçok harika
 
 ### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
-* [Power BI Rapor Sunucusu kullanıcı el kitabı](user-handbook-overview.md)  
+* [Power BI Rapor Sunucusu nedir?](get-started.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

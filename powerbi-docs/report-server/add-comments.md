@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721973"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Rapor sunucularındaki raporlara açıklama ekleme
 Bir rapor sunucusunun web portalından raporlara (Power BI raporları dahil) açıklama ekleyebilirsiniz. Açıklamalar raporların üzerinde kalır ve gerekli izinlere sahip olan kullanıcılar rapordaki açıklamaları görebilir. Ayrıntılar için aşağıdaki [İzinler](#permissions) bölümünü inceleyin.
@@ -44,7 +45,7 @@ Bir rapor sunucusunun web portalından raporlara (Power BI raporları dahil) aç
 * Tüm açıklamaları görebilir, kendi açıklamanızı gönderebilir, düzenleyebilir, silebilir ve diğer kişilerin açıklamalarını silebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI Rapor Sunucusu kullanıcı el kitabı](user-handbook-overview.md)  
+* [Power BI Rapor Sunucusu nedir?](get-started.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297366"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721513"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini ancak aynı zamanda tek Bölge Yöneticileri ve farklı zaman aralıkları için performansı vurgulayabilmesini istiyorsunuz. Ayrı raporlar veya karşılaştırmalı grafikler oluşturabilir ya da dilimleyicileri kullanabilirsiniz. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir. 
@@ -43,6 +43,13 @@ Power BI dilimleyicileri aşağıdaki sınırlamalara sahiptir:
 ## <a name="create-slicers"></a>Dilimleyici oluşturma
 
 Yeni bir dilimleyici oluşturmak için dilimleyici simgesini ve veri alanını seçebilir (veya **Görselleştirmeler** bölmesindeki **Alanlar** kutusuna sürükleyebilir) ya da ilk olarak bir görselleştirme oluşturmak üzere veri alanını seçebilir ya da sürükleyebilir ve ardından dilimleyici simgesini seçerek görselleştirmeyi bir dilimleyiciye dönüştürebilirsiniz. Farklı veri türleri, farklı etki ve seçeneklere sahip farklı türlerde dilimleyiciler oluşturur. 
+
+Bir raporu ilk kez değiştirdiğinizde **Varsayılana sıfırla** düğmesinin ışığı yanar. Bu, özgün rapor ayarlarında değişiklik yaptığınıza yönelik bir anımsatıcıdır. Rapordan çıkarsanız bu değişiklik kaydedilir (kalıcı hale gelir). Rapora geri döndüğünüzde raporu yeniden dilimlemeniz gerekmez.  Ancak, raporu yazarın varsayılan ayarlarına sıfırlamak isterseniz üst menü çubuğundan **Varsayılana sıfırla** düğmesini seçin.
+
+![Varsayılana geri dön düğmesi](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> **Varsayılana sıfırla** düğmeniz devre dışı kalırsa, rapor yazarının rapor için bu özelliği devre dışı bıraktığı veya raporun özel bir görsel içerdiği anlamına gelir. Bir açıklama için araç ipucunu okumak üzere düğmenin üzerine gelmeniz yeterlidir. 
 
 **Verileri Bölge Yöneticisine göre filtrelemek için yeni bir dilimleyici oluşturma**
 

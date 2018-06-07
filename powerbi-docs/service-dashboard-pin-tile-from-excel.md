@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584082"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  
@@ -65,14 +66,14 @@ Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin yollarından bir
     ![Panoya sabitlendi iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. **Panoya git**'i seçin. Burada, sabitlenmiş görselleştirmeyi [yeniden adlandırabilir, yeniden boyutlandırabilir, bağlantılı hale getirebilir ve taşıyabilirsiniz](service-dashboard-edit-tile.md). Varsayılan olarak, sabitlenen kutucuk seçildiğinde çalışma kitabı Power BI'da açılır.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Bir tablonun veya özet grafiğin tamamını panoya sabitleme
-Yukarıdaki adımları uygulayın ancak bu kez, bir hücre aralığı seçmek yerine tablonun veya özet tablonun tamamını seçin.
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Tam bir tabloyu veya PivotTable’ı panoya sabitleme
+Yukarıdaki adımları uygulayın ancak bu kez, bir hücre aralığı seçmek yerine tablonun veya PivotTable’ın tamamını seçin.
 
-Bir tabloyu sabitlemek için, tablonun tüm aralığını seçin ve başlıkları da eklediğinizden emin olun.  Bir özet tabloyu sabitlemek için özet tablonun görünür her bir parçasını (kullanıldıysa filtreler de dahil) seçtiğinizden emin olun.
+Bir tabloyu sabitlemek için, tablonun tüm aralığını seçin ve başlıkları da eklediğinizden emin olun.  Bir PivotTable’ı sabitlemek için PivotTable’ın görünür her bir parçasını (kullanıldıysa filtreler de dahil) seçtiğinizden emin olun.
 
  ![hücreleri seçme](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
-Tablodan veya özet tablodan oluşturulan bir kutucuk tablonun tamamını gösterir.  Özgün çalışma kitabında satır veya sütun ekler, kaldırır veya filtrelerseniz söz konusu satır ve sütunlar kutucukta da eklenir, kaldırılır ya da filtrelenir.
+Tablodan veya PivotTable’dan oluşturulan bir kutucuk tablonun tamamını gösterir.  Özgün çalışma kitabında satır veya sütun ekler, kaldırır veya filtrelerseniz söz konusu satır ve sütunlar kutucukta da eklenir, kaldırılır ya da filtrelenir.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Kutucukla bağlantılı çalışma kitabını görüntüleme
 Bir çalışma kitabı kutucuğu seçildiğinde bağlantılı çalışma kitabı Power BI'da açılır. Çalışma kitabı dosyası, dosya sahibinin OneDrive İş hesabında bulunduğundan çalışma kitabını görüntüleyebilmeniz için Okuma izinlerinizin olması gerekir. İzne sahip değilseniz bir hata iletisiyle karşılaşırsınız.  

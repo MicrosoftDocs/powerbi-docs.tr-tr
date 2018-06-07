@@ -24,3 +24,6 @@ Ağ geçidinin Azure Service Bus ile doğrudan TCP yerine HTTPS kullanarak ileti
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Hata: Kullanıcı gruba eklenemedi.  (-2147463168   PBIEgwService   Performance Log Users   )
 Ağ geçidini bir etki alanı denetleyicisine yüklemeye çalışıyorsanız bu hatayı alabilirsiniz. Etki alanı denetleyicisinde dağıtım desteklenmemektedir. Ağ geçidini etki alanı denetleyicileri dışındaki bir makineye dağıtmanız gerekir.
 
+### <a name="installation-fails"></a>Yükleme başarısız oldu
+Yükleme makinesindeki virüsten koruma yazılımı eskiyse yükleme hatalarıyla karşılaşabilirsiniz. Virüsten koruma yazılımını güncelleştirebilir veya yalnızca ağ geçidi yüklemesi tamamlanana kadar virüsten koruma yazılımını devre dışı bırakıp daha sonra yeniden etkinleştirebilirsiniz.
+

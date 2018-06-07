@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721398"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Bu bölmeyi [Power BI hizmeti Düzenleme Görünümü ve Okuma Görünümü](service-reading-view-and-editing-view.md) ile [Power BI Desktop Rapor görünümü](desktop-report-view.md) içinde görürsünüz.
@@ -22,7 +23,7 @@ Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış
 Power BI'da verileri filtrelemenin birçok yolu vardır ancak öncelikle [Filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md) başlıklı makaleyi okumanızı öneririz.
 
 ## <a name="working-with-the-report-filters-pane"></a>Raporun Filtreler bölmesiyle çalışma
-Power BI Desktop'ta raporlar, Rapor görünümünde açılır. Power BI hizmetinde raporlar, [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme görünümünde ve Masaüstü Raporu görünümünde rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümünde görüntüleyen kişiler filtrelerle etkileşime geçebilir, ancak rapora yeni filtreler ekleyemez.
+Power BI Desktop'ta raporlar, Rapor görünümünde açılır. Power BI hizmetinde raporlar, [Düzenleme görünümü veya Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılabilir. Düzenleme görünümünde ve Masaüstü Raporu görünümünde rapor sahipleri [raporlara filtreler ekleyebilir](power-bi-report-add-filter.md) ve eklenen filtreler raporla birlikte kaydedilir. Raporu Okuma görünümünde görüntüleyen kişiler filtrelerle etkileşime geçebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtreler ekleyemez.
 
 Power BI hizmetinde raporlar, Filtreler bölmesinde yaptığınız tüm değişiklikleri korur ve bu değişiklikler, raporun mobil sürümüne taşınır. Filtre bölmesini oluşturanın varsayılanlarına geri döndürmek için en üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçin.     
 

@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722463"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI ile Salesforce'a bağlanma
 Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyı oluşturduğunuzda verileriniz çekilerek otomatik olarak bir pano ve ilgili raporlar oluşturulur.
@@ -74,6 +75,11 @@ Bu panoyu, verilerinizi istediğiniz herhangi bir biçimde görüntüleyecek şe
 
 ## <a name="troubleshooting"></a>Sorun giderme
 Herhangi bir hatayla karşılaşırsanız lütfen yukarıdaki gereksinimleri inceleyin. Ayrıca, şu an için özel veya korumalı etki alanında oturum açmanın desteklenmediğini unutmayın.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>"Uzak sunucuya bağlanılamıyor" iletisi
+
+Salesforce hesabınıza bağlanmaya çalışırken "Uzak sunucuya bağlanılamıyor" iletisi alırsanız, Outsystems forumunda şu çözüme bakın: [Salesforce Bağlayıcısı Oturum Açma Hata İletisi: Uzak sunucuya bağlanılamıyor](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)

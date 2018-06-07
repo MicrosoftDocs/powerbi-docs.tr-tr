@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293250"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721720"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web portalında içeriği yönetme 
 Power BI Rapor Sunucusu web portalı, Power BI, mobil ve sayfalandırılmış raporlarınızın yanı sıra KPI'lerinizi yönetebileceğiniz şirket içi bir konumdur.
@@ -67,9 +67,7 @@ Power BI Rapor Sunucusu, web portalında depoladığınız öğeler üzerinde ay
 [Working with subscriptions in the web portal (Web portalında aboneliklerle çalışma)](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Kullanıcı el kitabı](user-handbook-overview.md)  
-[Sayfalandırılmış raporlar](quickstart-create-paginated-report.md)  
-[Power BI raporları](quickstart-create-powerbi-report.md)
+[Power BI Rapor Sunucusu nedir?](get-started.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

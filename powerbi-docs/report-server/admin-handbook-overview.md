@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296400"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721927"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Yönetici genel bakışı, Power BI Rapor Sunucusu
 Bu makalede Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz şirket içi bir konum olan Power BI Rapor Sunucusu'na yönelik yönetici genel bakışı sunulmaktadır. Bu makale, daha fazla bilgi içeren bağlantılarla birlikte Power BI Rapor Sunucunuzu planlama, dağıtma ve yönetme kavramlarını açıklamaktadır.
@@ -24,7 +24,7 @@ Bu makalede Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabil
 
 
 ## <a name="installing-and-migration"></a>Yükleme ve geçiş
-Power BI Rapor Sunucusu'nu kullanmaya başlamak için yüklemeniz gerekir. Bu görevi gerçekleştirmenizi sağlayacak bilgileri sizinle paylaşacağız.
+Power BI Rapor Sunucusu'nu kullanmaya başlamak için yüklemeniz gerekir. Bu görevi nasıl gerçekleştireceğinizi açıklayan makaleler mevcuttur.
 
 Power BI Rapor Sunucusu'na yönelik yükleme, yükseltme veya geçiş işlemlerine başlamadan önce rapor sunucusunun [sistem gereksinimlerine](system-requirements.md) göz atın.
 
@@ -34,7 +34,7 @@ Yeni bir Power BI Rapor Sunucusu dağıtıyorsanız aşağıdaki belgeden faydal
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)
 
 ### <a name="migration"></a>Geçiş
-SQL Server Reporting Services için yerinde yükseltme seçeneği mevcut değildir. Power BI Rapor Sunucusu'na dönüştürmek istediğiniz bir SQL Server Reporting Services örneğiniz varsa geçiş yapmanız gerekir. Geçiş yapmak istemenizi sağlayacak başka nedenler de mevcuttur. Daha ayrıntılı bilgi için geçiş belgesini inceleyin.
+SQL Server Reporting Services için yerinde yükseltme seçeneği mevcut değildir. Power BI Rapor Sunucusu'na dönüştürmek istediğiniz bir SQL Server Reporting Services örneğiniz varsa geçiş yapmanız gerekir. Geçiş yapmak istemenizi sağlayacak başka nedenler de olabilir. Daha ayrıntılı bilgi için geçiş belgesini inceleyin.
 
 [Rapor sunucusu yüklemesini geçirme](migrate-report-server.md)
 

@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293594"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584289"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -105,6 +105,7 @@ Bu noktada aşağıdakileri yapmak isteyebilirsiniz:
 
 * [Birleşik haritayı pano kutucuğu olarak ekleme](service-dashboard-tiles.md).
 * [Raporu kaydedin](service-report-save.md).
+* [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Çapraz vurgulama ve çapraz filtreleme
 

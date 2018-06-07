@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293272"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584243"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarında tablolarla çalışma
 Tablo, mantıksal satır ve sütun dizilerinde ilgili verileri içeren bir kılavuzdur. Tabloda başlık ve toplam satırı da bulunabilir. Tablolar, tek bir kategoriye ait birden fazla değeri incelediğiniz nicelik karşılaştırmaları için idealdir. Örneğin bu tabloda **Category** için 5 farklı ölçü gösterilmektedir.
@@ -119,6 +119,9 @@ Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dah
 Bazen Power BI bir rapordaki veya bir panodaki sütun başlığını kısaltabilir. Sütun adının tamamını göstermek için başlığın sağ tarafındaki boşluğa giderek ikili okun görünmesini bekleyin, ardından seçin ve sürükleyin.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+* Sütun biçimlendirmesi uygularken her sütun için yalnızca bir hizalama seçeneği belirleyebilirsiniz: Otomatik, Sol, Orta, Sağ. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Ancak, bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.   
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

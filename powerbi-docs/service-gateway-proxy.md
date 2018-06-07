@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722670"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma
 Çalışma ortamınızda İnternet'e erişmek için ara sunucu kullanmanız gerekebilir. Bu da Şirket içi veri ağ geçidinin hizmete bağlanmasını engelleyebilir.
@@ -50,6 +51,19 @@ Varsayılan ara sunucu yapılandırması aşağıda verilmiştir.
     </system.net>
 
 Varsayılan yapılandırma Windows kimlik doğrulamasını kullanır. Ara sunucunuz başka bir kimlik doğrulaması türü kullanıyorsa ayarları değiştirmeniz gerekir. Emin değilseniz ağ yöneticinize başvurabilirsiniz.
+
+Varsayılan kimlik bilgilerini kullanmaya ek olarak, ara sunucu ayarlarını daha ayrıntılı bir şekilde tanımlamak için bir <proxy> öğesi ekleyebilirsiniz. Örneğin, bypassonlocal değerini false olarak ayarlayarak şirket içi veri ağ geçidinizin yerel kaynaklar için bile her zaman ara sunucu kullanması gerektiğini belirtebilirsiniz. Bunun yapılması, ara sunucu günlük dosyalarındaki bir Şirket içi veri ağ geçidinden kaynaklanan tüm https isteklerini takip etmek istemeni durumunda yararlı olabilir. Aşağıdaki örnek yapılandırma, tüm isteklerin 192.168.1.10 IP adresi ile belirli bir ara sunucudan geçmesi gerektiğini belirtir.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 .NET yapılandırma dosyalarının ara sunucu öğelerinin yapılandırılması hakkında daha fazla bilgi için bkz. [defaultProxy Öğesi (Ağ Ayarları)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 
