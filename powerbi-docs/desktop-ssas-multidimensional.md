@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799591"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
@@ -97,3 +98,7 @@ Aşağıdaki SSAS MD özellikleri Power BI Desktop uygulamasında desteklenmekte
   * ImageUrls
   * Boyut güvenliği
 
+## <a name="troubleshooting"></a>Sorun giderme 
+Aşağıdaki listede SQL Server Analysis Services’a (SSAS) bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır. 
+
+* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/küpe erişimi olmadığında gerçekleşir.

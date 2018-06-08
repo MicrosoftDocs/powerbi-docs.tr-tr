@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253105"
+ms.locfileid: "34755059"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI nedir?
-[Power BI](https://powerbi.microsoft.com/), herkesin verileri daha yüksek hız, verimlilik ve kavrayış ile görselleştirebilmesini ve çözümleyebimesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler sayesinde kullanıcıların çok çeşitli veriler ile bağlantı kurmasını sağlar.
+Power BI, herkesin verileri daha yüksek hız, verimlilik ve kavrayış ile görselleştirebilmesini ve çözümleyebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler sayesinde kullanıcıların çok çeşitli veriler ile bağlantı kurmasını sağlar. [Power BI Nedir](power-bi-overview.md) sorusuyla ilgili daha fazla bilgi edinin.
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI ile Power BI Pro arasındaki fark nedir?
 Power BI, yepyeni bir yöntemle verileri araştırmaya başlamanıza yardımcı olmak üzere her türlü özelliği içerir. Power BI Pro ise Power BI'daki muhteşem özelliklere ek olarak daha fazla depolama kapasitesi, bir günden daha kısa aralıklarla veri yenilemeyi zamanlama, tam etkileşimli canlı veri kaynakları, gruplar ve çok daha fazlasını sağlar. [Power BI Pro ve ücretsiz Power BI arasındaki farklar](https://powerbi.microsoft.com/pricing) hakkında daha fazla bilgi edinin.
@@ -33,36 +33,20 @@ Power BI Desktop ücretsizdir. Power BI Pro'nun 60 günlük ücretsiz deneme sü
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium hakkında sorularım olduğunda ne yapmalıyım?
 Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkında SSS](service-premium-faq.md).
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>3 Mayıs 2017 tarihinden sonra kaydolan kullanıcılar Uzatılmış Pro Deneme Sürümünü kullanabilir mi?
-3 Mayıs 2017 tarihinde veya sonrasında Power BI'a (ücretsiz) kaydolan kullanıcılar Uzatılmış Pro Deneme Sürümünden faydalanamaz. Ancak, standart 60 günlük Pro deneme sürümünü kullanabilirler.
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>Kuruluşumda kimlerin Uzatılmış Pro Deneme Sürümünü kullanmaya uygun olduğunu nasıl öğrenebilirim?
-Bunu herhangi bir şekilde doğrudan öğrenemeseniz de kuruluşunuzdaki etkin kullanıcıları görüntülemek için Power BI için Azure Active Directory Integrated Applications raporunu inceleyebilirsiniz. Uygunluk döneminde olan ve ücretsiz lisansı olan aktif kullanıcılara açılır bildirim gönderilecektir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md).
-
-> [!NOTE]
-> Azure AD raporu bir kullanıcının Power BI'da Ücretsiz Pro kullanıcı olup olmadığını göstermez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Bir kullanıcının bu raporda yer alması, Uzatılmış Pro Deneme Sürümü için uygun olduğu anlamına gelmez.
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Kuruluşumda kimin bir Power BI hesabının olduğunu nasıl öğrenebilirim?
+Power BI için Azure Active Directory Integrated Applications raporunu inceleyerek kuruluşunuzdaki etkin kullanıcıları görüntüleyebilirsiniz. Azure AD raporu bir kullanıcının Power BI'da Ücretsiz Pro kullanıcı olup olmadığını göstermez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md).
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
-[Power BI Desktop](https://powerbi.microsoft.com/designer) kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir masaüstü uygulamasıdır. Power BI Desktop yüksek düzeyde etkileşimli görselleştirmeler ile gelişmiş veri keşfi, şekillendirme, modelleme ve rapor oluşturma olanağı sağlayarak Power BI ile uyumlu şekilde çalışır. Çalışmanızı bir dosyaya kaydedebilir ve verilerinizi ve raporlarınızı Power BI sitenizde yayımlayarak diğer kişilerle paylaşabilirsiniz.
+Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir masaüstü uygulamasıdır. Power BI Desktop yüksek düzeyde etkileşimli görselleştirmeler ile gelişmiş veri keşfi, şekillendirme, modelleme ve rapor oluşturma olanağı sağlayarak Power BI ile uyumlu şekilde çalışır. Çalışmanızı bir dosyaya kaydedebilir ve verilerinizi ve raporlarınızı Power BI sitenizde yayımlayarak diğer kişilerle paylaşabilirsiniz. [Power BI Desktop Nedir](desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>Power BI kullanmak için neler gerekir?
-Yalnızca bir Web tarayıcısı ve iş e-posta adresi.
-
->[!NOTE]
->Sonu .gov ve .mil olan iş e-posta adresleri şu anda desteklenmiyor.
+Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .gov ve .mil e-posta adresiyle kaydolabilirsiniz. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](service-govus-signup.md) 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Neden iş e-posta adresimle kaydolmam gerekiyor?
 Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. [Power BI self servis kayıt işlemi](service-self-service-signup-for-power-bi.md) hakkında daha fazla bilgi edinin.
 
-## <a name="which-work-email-addresses-are-supported"></a>Hangi iş e-posta adresleri desteklenir?
-Sonu **.edu** ve **.org** olan iş e-posta adresleri desteklenir.
-
-Sonu **.gov** ve **.mil** olanlar şu anda desteklenmiyor.
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
-Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) (Microsoft Bağış Programı) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. Power BI henüz ABD Kamu Topluluk Bulutu (GCC) için kullanılamamaktadır.
+Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) (Microsoft Bağış Programı) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI şirket içi kullanılabilir mi?
 Power BI hizmeti [https://powerbi.com](https://powerbi.com) özel, dahili bir bulut hizmeti olarak kullanılamaz. Ancak, şirket içi verileri görüntülemek ve bu veriler ile çalışmak üzere diğer üç seçenekten yararlanabilirsiniz. 

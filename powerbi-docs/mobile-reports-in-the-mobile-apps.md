@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799430"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -80,25 +81,30 @@ Görseldeki bir değeri seçtiğinizde diğer görseller filtrelenmez. Diğer g�
    ![Bir görseli sıralama](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Sıralama düzenini ters çevirmek için üç nokta (**...**) simgesine tekrar dokunun ve aynı alan adını yeniden seçin.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>iPad'de veya tablette detaya gitme
-Rapor yazarı görsele detaya gitme özelliği eklemişse iPad'de veya tablette, görselin bir parçasını oluşturan değerleri görmek için detaya gidebilirsiniz. Power BI Desktop'ta veya Power BI hizmetinde [bir görsele detaya gitme özelliği ekleyin](power-bi-visualization-drill-down.md). 
+## <a name="drill-down-and-up-in-a-visual"></a>Bir görselde detaya gitme ve detaydan çıkma
+Rapor yazarı görsele detaya gitme özelliği eklemişse, görselin bir parçasını oluşturan değerleri görmek için detaya gidebilirsiniz. Power BI Desktop'ta veya Power BI hizmetinde [bir görsele detaya gitme özelliği ekleyin](power-bi-visualization-drill-down.md). 
 
-> [!NOTE]
-> iPad'de veya tablette detaya gitme özelliği şu anda haritalar üzerinde çalışmamaktadır.
-> 
-> 
+* Görseldeki bir veri noktasına tıklayarak bunun araç ipucunu görüntüleyebilirsiniz. Detaya gitme seçeneği varsa araç ipucunun en altında dokunabileceğiniz oklar olur. 
+  
+  ![Bir görselde detaya gitme](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Bir görsele dokunun. Üst köşesinde yukarı ve aşağı oklar bulunuyorsa ![Detaydan çıkma ve detaya gitme simgeleri](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)detaya gidebilirsiniz. Bir değerde detaya gitmek için sağ üst köşedeki oka ve ardından görseldeki bir değere dokunun (bu örnekte, koyu mavi FD-04 kabarcığı).
+* Detaydan çıkmak için araç ipucundaki yukarı oka dokunun.
   
-  ![Bir görselde detaya gitme](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Detaydan çıkmak için sol üst köşedeki yukarı oka dokunun.
-  
-  ![Detaydan çıkma](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Detaydan çıkma](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Çalışma Alanım bölümüne geri dönme
-* Rapor adının yanındaki oka ve ardından **Çalışma Alanım** seçeneğine dokunun.
-  
-  ![Üst menüye geri dönme](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Ayrıca bir görseldeki tüm veri noktalarının detayına gidebilirsiniz. Odak modunda açın, Araştır simgesine dokunup sonraki düzeyde hepsini gösteri seçin veya geçerli ve bir sonraki düzeyi göstermek için genişletin.
+
+   ![Power BI tümünün detayına gitme](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Bir sayfadan diğerinin detaylarına gitme
+
+*Detaylandırma* sayesinde, bir görselin belirli bir bölümüne dokunduğunuzda Power BI sizi raprodaki farklı, dokunduğunuz değere göre filtrelenmiş bir sayfaya götürür. Raporun yazarı, her biri sizi farklı bir sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Bu durumda, hangi sayfayı detaylandırmak istediğinizi seçebilirsiniz. Aşağıdaki örnekte, ölçerdeki değere dokunduğunuzda detaylandırmak üzere ister **iş alanına göre harcama** sayfasını ister **iş alanına göre planlama** sayfasını seçebilirsiniz.
+
+![Power BI mobil raporu detaylandırma](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Detaylandırma gerçekleştirdiğinizde geri düğmesini kullanarak bir önceki rapor sayfasına dönebilirsiniz.
+
+[Power BI Desktop’ta detaylandırma ekleme](desktop-drillthrough.md) hakkında bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)

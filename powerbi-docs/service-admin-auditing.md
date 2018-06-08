@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297090"
+ms.locfileid: "34755036"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
 Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
 
-Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir.
+Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Power BI denetim özelliğini kullanarak kullanıcılar tarafından gerçekleştirilen "Raporu Görüntüleme" ve "Panoyu Görüntüleme" gibi eylemleri denetleyebilirsiniz. Denetimi izinleri denetlemek için kullanamazsınız. 
 
 Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri kümesine ve etkinlik türüne göre filtreleyebilirsiniz. İsterseniz etkinlikleri csv (virgülle ayrılmış değer) dosyası halinde indirerek çevrimdışı analiz gerçekleştirebilirsiniz.
 
@@ -29,18 +29,18 @@ Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri küme
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
 
 - Office 365 Güvenlik ve Uyumluluk Merkezi'nin denetim bölümüne erişmek için Exchange Online lisansına (Office 365 Enterprise E3 ve E5 aboneliklerine dahildir) sahip olmanız gerekir.
-- Genel yönetici veya denetim günlüğüne erişim sağlayan bir Exchange yöneticisi rolüne sahip olmanız gerekir. 
 
-  Exchange yöneticisi rolleri, Exchange yönetim merkezinden denetlenir. Daha fazla bilgi için bkz. [Permissions in Exchange Online (Exchange Online'da izinler)](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+- Genel yönetici veya denetim günlüğüne erişim sağlayan bir Exchange yöneticisi rolüne sahip olmanız gerekir. Exchange yöneticisi rolleri, Exchange yönetim merkezinden denetlenir. Daha fazla bilgi için bkz. [Permissions in Exchange Online (Exchange Online'da izinler)](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
 
 - Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan Office 365 Güvenlik ve Uyumluluk Merkezi bağlantısına sahip olmanız gerekir.
 
-> [!NOTE]
-> Kiracınızda Power BI denetim günlüklerini görüntülemek için en az bir Exchange posta kutusu lisansına ihtiyacınız vardır.
+- Kiracınızda Power BI denetim günlüklerini görüntülemek için en az bir Exchange posta kutusu lisansına ihtiyacınız vardır.
 
 ## <a name="accessing-your-audit-logs"></a>Denetim günlüklerinize erişme
 
-Power BI günlüklerinizi denetlemek için O365 Güvenlik ve Uyumluluk Merkezi'ni ziyaret etmeniz gerekir.
+Power BI günlüklerinizi denetlemek için O365 Güvenlik ve Uyumluluk Merkezi'ni ziyaret edin.
+
+Denetimin etkinleştirilmesi ile denetim verilerinin görüntülenebilmesi arasında 48 saate kadar gecikme olabilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
 
 1. Sağ üst köşedeki **dişli simgesini** seçin.
 
@@ -56,8 +56,7 @@ Power BI günlüklerinizi denetlemek için O365 Güvenlik ve Uyumluluk Merkezi'n
 
 Alternatif olarak [Office 365 | Güvenlik ve Uyumluluk](https://protection.office.com/#/unifiedauditlog) sayfasına da göz atabilirsiniz.
 
-> [!NOTE]
-> Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için Exchange Online Yönetim Merkezi'nden izin atamanız gerekir. Örneğin, bir kullanıcıyı Kuruluş Yönetimi gibi mevcut bir rol grubuna atayabilir veya Denetim Günlükleri rolüne sahip yeni bir rol grubu oluşturabilirsiniz. Daha fazla bilgi için bkz. [Permissions in Exchange Online (Exchange Online'da izinler)](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
+Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için Exchange Online Yönetim Merkezi'nden izin atamanız gerekir. Örneğin, bir kullanıcıyı Kuruluş Yönetimi gibi mevcut bir rol grubuna atayabilir veya Denetim Günlükleri rolüne sahip yeni bir rol grubu oluşturabilirsiniz. Daha fazla bilgi için bkz. [Permissions in Exchange Online (Exchange Online'da izinler)](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
 
 ## <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 

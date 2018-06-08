@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584335"
+ms.locfileid: "34755266"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Panolar ve raporlar için kullanım ölçümleri
 Kullanım ölçümleri, oluşturduğunuz panoların ve raporların etkilerini anlamanıza yardımcı olabilir. Pano kullanım ölçümü veya rapor kullanım ölçümü çalıştırdığınızda kullanılan öğeler, kullanıcılar ve kullanım amaçları dahil olmak üzere ilgili pano ve raporların kuruluşunuzda nasıl kullanıldığını görebilirsiniz.  
 
-SharePoint Online'a eklenmiş raporların kullanımı, kullanım ölçümleriyle izlenir. Kullanım ölçümleri, panolara ve raporlara ilişkin olarak hem "kimlik bilgilerinin kullanıcıya ait olduğu" hem de "kimlik bilgilerinin uygulamaya ait olduğu" akışlar aracılığıyla gerçekleştirilen ekleme işlemlerini de izler. [Web'de yayımla](service-publish-to-web.md) aracılığıyla eklenen raporların kullanımı, kullanım ölçümleriyle izlenmez.
+  > **NOT**: SharePoint Online'a eklenmiş raporların kullanımı, kullanım ölçümleriyle izlenir. Bununla birlikte, kullanım ölçümleri "kimlik bilgilerinin kullanıcıya ait olduğu" veya "kimlik bilgilerinin uygulamaya ait olduğu" akışlar aracılığıyla gerçekleştirilen ekleme işlemlerini izlemez. [Web'de yayımla](service-publish-to-web.md) aracılığıyla eklenen raporların kullanımı da kullanım ölçümleriyle izlenmez.
 
 Bu kullanım ölçümleri raporları salt okunur biçimdedir. Ancak "Farklı kaydet" özelliğini kullanarak kullanım ölçümleri raporlarını kişiselleştirebilirsiniz. Bunu yaptığınızda yeni bir veri kümesi oluşturulur ve salt okunur rapor, düzenleyebileceğiniz tam özellikli bir Power BI raporuna dönüştürülür. Kişiselleştirilmiş raporda yalnızca seçilen pano veya rapora ilişkin ölçümler yer almaz. Varsayılan filtreyi kaldırdığınızda, seçilen çalışma alanındaki tüm pano veya raporlara ilişkin kullanım ölçümlerine erişebilirsiniz.
 

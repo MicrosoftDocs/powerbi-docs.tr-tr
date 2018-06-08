@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723012"
+ms.locfileid: "34755082"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabileceğiniz bazı yaygın sorunlar ele alınmıştır.
@@ -149,6 +149,9 @@ Etki alanları arasındaki güven ilişkisini doğrulamak için etki alanı yön
 **Power BI hizmetinde Analysis Services'e yönelik "Veri Al" deneyiminde veri ağ geçidi veri kaynakları görüntülenmiyor**
 
 Hesabınızın, ağ geçidi yapılandırmasındaki veri kaynağının **Kullanıcılar** sekmesinde listelendiğinden emin olun. Ağ geçidine erişiminiz yoksa ağ geçidi yöneticisiyle iletişime geçerek bu bilgiyi doğrulamasını isteyin. Analysis Services listesinde görüntülenen veri kaynağını yalnızca **Kullanıcılar** listesinde bulunan hesaplar görebilir.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Hata: Bu veri kümesindeki veri kaynakları için yüklü veya yapılandırılmış ağ geçidiniz yok
+Ağ geçidine [Veri kaynağı ekleme](service-gateway-manage.md#add-a-data-source) bölümünde açıklandığı gibi bir veya daha fazla veri kaynağı eklediğinizden emin olun. **Ağ geçitlerini yönet** bölümünde ağ geçidi görünmüyorsa tarayıcınızın önbelleğini temizlemeyi veya hizmette oturumunuzu kapatıp yeniden oturum açmayı deneyin.
 
 ## <a name="datasets"></a>Veri kümeleri
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Hata: Bu satır için yeterli alan yok.

@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297895"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34754921"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI ağ geçitleri nelerdir?
 
 Power BI ağ geçidi, şirket içi ağı içine yüklediğiniz bir yazılımdır ve bu ağda verilere erişimi kolaylaştırır. Bağlantı isteklerini dinleyen ve yalnızca belirli ölçütlere uygun olan kullanıcı isteklerini onaylayan bir bekçi gibidir. Böylece kuruluşlar veritabanlarını ve diğer veri kaynaklarını şirket içi ağlarında tutabilir, diğer yandan da bu şirket içi verileri Power BI rapor ve panolarında güvenli bir şekilde kullanabilir.
 
-Aşağıdaki diyagramda, üç şirket içi bilgisayar için buluttan istekleri işleyen ağ geçidi ile birlikte temel bir görünüm gösterilmektedir. Makalenin sonraki bölümlerinde bu konuyu daha ayrıntılı ele alacağız.
+Bir ağ geçidi tek bir veri kaynağı ya da birden çok veri kaynağı için kullanılabilir. Aşağıdaki diyagramda, üç şirket içi bilgisayar için buluttan istekleri işleyen ağ geçidi ile birlikte temel bir görünüm gösterilmektedir. Makalenin sonraki bölümlerinde bu konuyu daha ayrıntılı ele alacağız.
 
 ![Ağ geçidine genel bakış](media/service-gateway-getting-started/gateway-overview.png)
 

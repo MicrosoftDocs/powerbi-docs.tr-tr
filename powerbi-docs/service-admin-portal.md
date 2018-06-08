@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d6ad3cea224de097d5ebc81d33dbffa52b33378
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755151"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -91,7 +92,7 @@ Yönetici portalındaki ikinci sekme **Kullanıcıları Yönet**'tir. Power BI i
 
 ## <a name="audit-logs"></a>Denetim günlükleri
 
-Yönetici portalındaki üçüncü sekme **Denetim günlükleri**'dir. Günlükler Office 365 Güvenlik ve Uyumluluk Merkezi'nde yer alır. Bu bölüm, Office 365'te bu alana hızlıca erişmenizi sağlar. 
+Yönetici portalındaki üçüncü sekme **Denetim günlükleri**'dir. Günlükler Office 365 Güvenlik ve Uyumluluk Merkezi'nde yer alır. Bu bölüm, Office 365'te bu alana hızlıca erişmenizi sağlar.
 
 Denetim günlükleri hakkında daha fazla bilgi için bkz. [Kuruluşunuzda Power BI'ı denetleme](service-admin-auditing.md)
 
@@ -209,7 +210,7 @@ Ayarı **Etkin** hale getirebilir ve sonra bu özelliği kimlerin (tüm kuruluş
 Kuruluştaki kullanıcılar Cortana'yı kullanarak verileri hakkında sorular sorabilir.
 
 > [!NOTE]
-> Bu ayarlar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle Excel'de Çözümle özelliğini kullanma
 Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. [Daha fazla bilgi ](service-analyze-in-excel.md)
@@ -226,8 +227,6 @@ Kuruluştaki kullanıcılar Esri tarafından sağlanan ArcGIS Maps for Power BI'
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Kuruluşun tamamı için özel görsel öğeleri etkinleştirme
 Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](power-bi-custom-visuals.md)
 
-![Özel görsel ayarları](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
@@ -238,7 +237,7 @@ Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve b
 Kuruluştaki kullanıcılar R betikleri ile oluşturulan görsellerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](service-r-visuals.md)
 
 > [!NOTE]
-> Bu ayarlar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
 ## <a name="audit-settings"></a>Denetim ayarları
 
@@ -246,10 +245,10 @@ Kuruluştaki kullanıcılar R betikleri ile oluşturulan görsellerle etkileşim
 
 Kuruluştaki kullanıcılar, Power BI'da kuruluştaki diğer kullanıcılar tarafından gerçekleştirilen eylemleri izlemek için denetim özelliğini kullanabilir. [Daha fazla bilgi](service-admin-auditing.md)
 
-Denetim günlüğü girişlerinin kaydedilmesi için bu ayarın etkinleştirilmesi gerekir.
+Denetim günlüğü girişlerinin kaydedilmesi için bu ayarın etkinleştirilmesi gerekir. Denetimin etkinleştirilmesi ile denetim verilerinin görüntülenebilmesi arasında 48 saate kadar gecikme olabilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
 
 > [!NOTE]
-> Bu ayarlar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
 ## <a name="dashboard-settings"></a>Pano ayarları
 
@@ -258,7 +257,7 @@ Denetim günlüğü girişlerinin kaydedilmesi için bu ayarın etkinleştirilme
 Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırmalarla panoları etiketleyebilir. [Daha fazla bilgi](service-data-classification.md)
 
 > [!NOTE]
-> Bu ayarlar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
 ## <a name="developer-settings"></a>Geliştirici ayarları
 

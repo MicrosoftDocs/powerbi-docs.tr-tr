@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799499"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -84,4 +85,10 @@ Canlı keşfetme bağlantısıyla bir Power BI Desktop dosyası oluşturduktan s
 2. Yeni sunucu adını girin.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>Sorun giderme 
+Aşağıdaki listede SQL Server Analysis Services (SSAS) veya Azure Analysis Services’a bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır. 
+
+* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/modele erişimi olmadığında gerçekleşir.
 

@@ -1,25 +1,25 @@
 ---
 title: Karma Gerçeklik için Power BI uygulaması (Önizleme)
-description: Karma Gerçeklik için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde veya ortamınız bağlamında görüntüleyin.
+description: Karma Gerçeklik için Power BI uygulamasında (Önizleme) panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde veya ortamınız bağlamında görüntüleyin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721444"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799338"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
-Karma Gerçeklik için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 
+Karma Gerçeklik için Power BI uygulamasında (Önizleme) panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 
 
-Panolarınızı ve raporlarınızı görüntülemek için Windows mağazasından Karma Gerçeklik için Power BI uygulamasının önizleme sürümünü indirin. Bunlarla sanal dünyada etkileşim kurun ve yerleştirmek istediklerinizi seçin. 
+Windows mağazasından [Karma Gerçeklik için Power BI](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) uygulamasını ("Power BI Mobile" olarak adlandırılır) indirin. Pano ve raporlarınızla sanal dünyada etkileşim kurun ve yerleştirmek istediklerinizi seçin. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>İki görünüm: Windows klasik ve holografik
 
