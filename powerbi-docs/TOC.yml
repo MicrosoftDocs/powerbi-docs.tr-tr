@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Çoklu oturum açma (SSO) için Kerberos'u kullanma
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Ara sunucu ayarlarını yapılandırma
