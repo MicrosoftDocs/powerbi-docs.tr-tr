@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722805"
+ms.locfileid: "34755105"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar, böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
@@ -61,9 +61,8 @@ Varsayılan olarak, çalışma alanınız paylaşılan kapasitede yer alır. Bu,
 ### <a name="premium-capacity-nodes"></a>Premium kapasite düğümleri
 Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılandırmalarıyla kullanılabilir. SKU teklifleri ve maliyet hakkında daha fazla bilgi için bkz. [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/). Ayrıca bir [maliyet hesaplayıcı](https://powerbi.microsoft.com/calculator/) da kullanımınıza sunulmuştur. Katıştırılmış analiz kapasite planlamasıyla ilgili bilgiler için bkz. [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy).
 
-* P düğümleri, katıştırılmış dağıtımlar ve hizmet dağıtımları için kullanılabilir
-* EM düğümleri ise yalnızca katıştırılmış dağıtımlar için kullanılabilir
-* EM1 ve EM2 
+* P düğümleri, tümleşik dağıtımlar veya hizmet dağıtımları için kullanılabilir.
+* EM düğümleri ise yalnızca tümleşik dağıtımlar için kullanılabilir. EM düğümlerinin, Power BI Pro lisansına sahip olan kullanıcılarla uygulamaları paylaşma gibi üst düzey özelliklere erişimi yoktur.
 
 >[!NOTE]
 >Bu tablodaki bağlantılar yalnızca Office 365 genel yöneticisi olan kullanıcılar için düzgün bir şekilde görüntülenir, diğer kullanıcılar ise bir 404 hatasıyla karşılaşır. 

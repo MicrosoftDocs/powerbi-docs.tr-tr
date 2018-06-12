@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722670"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799568"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma
 Çalışma ortamınızda İnternet'e erişmek için ara sunucu kullanmanız gerekebilir. Bu da Şirket içi veri ağ geçidinin hizmete bağlanmasını engelleyebilir.
@@ -50,7 +50,7 @@ Varsayılan ara sunucu yapılandırması aşağıda verilmiştir.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-Varsayılan yapılandırma Windows kimlik doğrulamasını kullanır. Ara sunucunuz başka bir kimlik doğrulaması türü kullanıyorsa ayarları değiştirmeniz gerekir. Emin değilseniz ağ yöneticinize başvurabilirsiniz.
+Varsayılan yapılandırma Windows kimlik doğrulamasını kullanır. Ara sunucunuz başka bir kimlik doğrulaması türü kullanıyorsa ayarları değiştirmeniz gerekir. Emin değilseniz ağ yöneticinize başvurabilirsiniz. Temel ara sunucu kimlik doğrulaması önerilmez ve temel ara sunucu kimlik doğrulamasını kullanma girişimi, ağ geçidinin düzgün şekilde yapılandırılmamasıyla sonuçlanan ara sunucu kimlik doğrulaması hatalarına neden olabilir. Çözümlemek için daha güçlü bir kimlik doğrulaması mekanizması kullanın.
 
 Varsayılan kimlik bilgilerini kullanmaya ek olarak, ara sunucu ayarlarını daha ayrıntılı bir şekilde tanımlamak için bir <proxy> öğesi ekleyebilirsiniz. Örneğin, bypassonlocal değerini false olarak ayarlayarak şirket içi veri ağ geçidinizin yerel kaynaklar için bile her zaman ara sunucu kullanması gerektiğini belirtebilirsiniz. Bunun yapılması, ara sunucu günlük dosyalarındaki bir Şirket içi veri ağ geçidinden kaynaklanan tüm https isteklerini takip etmek istemeni durumunda yararlı olabilir. Aşağıdaki örnek yapılandırma, tüm isteklerin 192.168.1.10 IP adresi ile belirli bir ara sunucudan geçmesi gerektiğini belirtir.
 
@@ -93,6 +93,10 @@ Ara sunucu ayarlarını yukarıda belirtildiği gibi varsayılan kimlik bilgiler
 5. Kurtarma anahtarınızı kullanarak ağ geçidini geri yükleyin.
    
     Bu şekilde yeni hizmet hesabı, depolanan veri kaynağı kimlik bilgilerinin şifresini çözebilir.
+    
+> [!NOTE]
+> Hizmetler Denetim masasını kullanarak hizmet hesabını doğrudan değiştirdiğinizde, ACL’ler otomatik olarak güncelleştirilmez. Yeni hizmet hesabının yükleme dosyalarına ve klasöre erişimi olduğundan emin olmanız gerekir. Ağ Geçidi Yükleme klasörünü C:\Program Files\Şirket içi veri ağ geçidi dizininde bulabilirsiniz. 
+> 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-personal-mode.md)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482188"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799637"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -25,9 +25,26 @@ ms.locfileid: "34482188"
 
 ## <a name="may-2018"></a>Mayıs 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Uzaktan rapor sunucuları için Power BI iOS mobil uygulamalarını yapılandırma
+### <a name="mobile-drill-through-all-mobile-apps"></a>Mobil detaylandırma: tüm mobil uygulamalar
+
+Rapor yazarı söz konusu eylemi tanımladıysa, seçilen bir veri noktasından, mobil uygulamalardaki başka bir rapor sayfasına detaylandırma yapabilirsiniz. 
+
+### <a name="back-button-all-mobile-apps"></a>Geri düğmesi: tüm mobil uygulamalar
+
+Artık çekme hareketi yaparak, eylem çubuğunda bir rapor sayfası seçerek veya detaylandırma işlevini kullanarak gezindiğinizde geri düğmesi, baktığınız önceki sayfaya geri gitmenizi sağlar. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Pano temaları: tüm mobil uygulamalar
+
+Rapor yazarları, Power BI hizmetinde pano temalarını özelleştirdiğinde panonun görünümü mobil uygulamada da değişir. Ancak arka plan görüntülerini görmezsiniz.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 
 BT yöneticiniz artık bir MDM aracı kullanarak rapor sunucusuna erişmek için Power BI iOS mobil uygulamasını yapılandırabilir. Ayrıntılı bilgi için bkz. [Uzaktan bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma](report-server/configure-powerbi-mobile-apps-remote.md).
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
+
+Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [Hololens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) ile ilgili makaleyi okuyun.
+
 
 ## <a name="april-2018"></a>Nisan 2018
 

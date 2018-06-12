@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722601"
+ms.locfileid: "34755174"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI ağ geçidi yönetme
 
-[Power BI veri ağ geçidini yükledikten](service-gateway-install.md) sonra, Power BI hizmetinin **Ağ geçitlerini yönet** alanı üzerinden, yerel bilgisayarınızdaki ağ geçidi uygulamanızdan ve PowerShell betikleri ile yönetebilirsiniz. Bu makalede Power BI hizmetine odaklanılmaktadır. Kısa süre önce bir ağ geçidi yüklediyseniz, bundan sonra [bir veri kaynağı eklemeniz](#add-a-data-source), sonra da veri kaynağına erişebilmeleri için [kullanıcı eklemeniz](#add-users-to-a-data-source) önerilir.
+[Bir Power BI veri ağ geçidi yükledikten](service-gateway-install.md) sonra, gereksinimlerinize göre bunu yönetebilirsiniz. Bu konuda, şunların nasıl yapılacağını öğrenirsiniz: veri kaynakları ekleme ve kaldırma, ağ geçidini yeniden başlatma ve ağ geçidini geçirme, geri yükleme, devralma ve kaldırma. 
+
+Power BI hizmetinin **Ağ geçitlerini yönet** alanı üzerinden, yerel bilgisayarınızdaki ağ geçidi uygulamanızdan ve PowerShell betikleri ile ağ geçidini yönetebilirsiniz. Bu makalede Power BI hizmetine odaklanılmaktadır. 
+
+Kısa süre önce bir ağ geçidi yüklediyseniz, bundan sonra [bir veri kaynağı eklemeniz](#add-a-data-source), sonra da veri kaynağına erişebilmeleri için [kullanıcı eklemeniz](#add-users-to-a-data-source) önerilir.
 
 
 ## <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
-Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını destekler. Bu örnekte SQL Server’ı veri kaynağı olarak ekleme işlemi gösterilecektir ancak adımlar diğer veri kaynakları için de benzerdir.
+Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını destekler. Bir ağ geçidi tek bir veri kaynağı ya da birden çok veri kaynağı için kullanılabilir. Bu örnekte SQL Server’ı veri kaynağı olarak ekleme işlemi gösterilecektir ancak adımlar diğer veri kaynakları için de benzerdir.
 
 
 ### <a name="add-a-data-source"></a>Veri kaynağı ekleme
@@ -113,6 +117,14 @@ Yöneticiler **Power BI hizmetinde** dişli simgesi altında bulunan **Ağ geçi
 
 Tüm yeni **Zamanlanan Yenileme** istekleri ve DirectQuery işlemleri otomatik olarak belirli bir ağ geçidi kümesinin birincil örneğine yönlendirilir. Birincil ağ geçidi örneği çevrimiçi değilse, istek kümedeki başka bir ağ geçidi örneğine yönlendirilir.
 
+
+## <a name="share-a-gateway"></a>Ağ geçidini paylaşma
+
+Bir ağ geçidini *paylaşamazsınız*, ancak ağ geçidine yöneticiler ekleyebilir ve ağ geçidinin veri kaynaklarına kullanıcılar ekleyebilirsiniz. 
+
+Bir ağ geçidini yükledikten sonra varsayılan olarak o ağ geçidinin yöneticisi olursunuz. Daha önce gösterildiği gibi başka kişileri yönetici olarak ekleyebilirsiniz. Bu yöneticiler, veri kaynakları ekleyebilir, ağ geçidini yapılandırabilir ve kaldırabilir.
+
+Ağ geçitlerinizin her biri altında oluşturduğunuz veri kaynaklarına kullanıcılar da atayabilirsiniz. Kullanıcılar daha sonra Power BI raporlarını yenilemek için bu veri kaynaklarını kullanabilir. Ancak herhangi bir veri kaynağı veya ağ geçidi ayarını değiştiremez.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Ağ geçidi geçirme, geri yükleme veya devralma
 
