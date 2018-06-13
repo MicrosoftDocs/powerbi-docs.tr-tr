@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301861"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -23,7 +24,7 @@ ms.lasthandoff: 05/17/2018
 - [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 - [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
-- Dynamics 365’ten [Business Applications Spring ‘18 sürüm notları](https://aka.ms/bagspring2018releasenotes_internal): İş uygulamalarımıza yapılan son güncelleştirmelerin yanı sıra platformumuzda uygulama ve uzantılarınızı oluşturmaya yönelik yeni özellikler. 
+- Dynamics 365’ten [Business Applications Spring ‘18 sürüm notları](http://aka.ms/businessappsreleasenotes): İş uygulamalarımıza yapılan son güncelleştirmelerin yanı sıra platformumuzda uygulama ve uzantılarınızı oluşturmaya yönelik yeni özellikler. 
 
 "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanallarını da inceleyebilirsiniz.
 

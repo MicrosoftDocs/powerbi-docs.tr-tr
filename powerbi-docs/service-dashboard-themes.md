@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722532"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813814"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI hizmetinde Pano Temaları kullanma
 **Pano Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) panonuzun tamamına uygulayabilirsiniz. Bir **Pano Teması** uyguladığınızda panonuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
 
 ![tema içeren örnek pano](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Panodaki rapor görsellerinin renklerini değiştirmek, rapordaki görselleri etkilemez. Ayrıca, bir raporun [rapor teması uygulanmış](/desktop-report-themes.md) kutucuklarını sabitlediğinizde geçerli temayı tutma veya pano temasını kullanma seçeneği sunulur.
+Panodaki rapor görsellerinin renklerini değiştirmek, rapordaki görselleri etkilemez. Ayrıca, bir raporun [rapor teması uygulanmış](desktop-report-themes.md) kutucuklarını sabitlediğinizde geçerli temayı tutma veya pano temasını kullanma seçeneği sunulur.
 
 
 ## <a name="prerequisites"></a>Önkoşullar

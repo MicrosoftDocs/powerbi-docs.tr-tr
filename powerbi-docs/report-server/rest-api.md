@@ -1,5 +1,5 @@
 ---
-title: Power BI Rapor Sunucusu sürüm notları
+title: Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 description: REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılığıyla erişim sağlar.
 author: markingmyname
 manager: kfile
@@ -9,14 +9,15 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721766"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250442"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
+
 Power BI Rapor Sunucusu, Temsili Durum Aktarımı (REST) API'leri destekler. REST API'ler, bir rapor sunucusu içindeki kaynaklar için oluşturma, alma, güncelleştirme veya silme erişimi sunan bir dizi HTTP işlemini (yöntemini) destekleyen hizmet uç noktalarıdır.
 
 REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılığıyla erişim sağlar. Nesnelere örnek olarak klasörler, raporlar, KPI'ler, veri kaynakları, veri kümeleri, yenileme planları, abonelikler ve diğerleri verilebilir. Örneğin REST API'yi kullanarak klasör hiyerarşisinde gezinebilir, bir klasörün içeriğini keşfedebilir veya bir rapor tanımını indirebilirsiniz. Ayrıca nesne oluşturabilir, güncelleştirebilir ve silebilirsiniz. Nesnelerle çalışmaya örnek olarak rapor yükleme, yenileme planı çalıştırma, klasör silme gibi işlevler verilebilir.
@@ -24,6 +25,7 @@ REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılı
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API istek/yanıt bileşenleri
+
 REST API istek/yanıt çifti beş bileşene ayrılabilir:
 
 * **İstek URI'si**, şu şekildedir: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. İstek URI'si istek iletisi üst bilgilerinde yer alsa da birçok dil veya çerçeve için bunu istek iletisinden ayrı bir şekilde iletmeniz gerektiğinden burada ayrı ele alıyoruz.
@@ -46,15 +48,17 @@ REST API istek/yanıt çifti beş bileşene ayrılabilir:
   * Veri döndüren GET yöntemi yanıtı gibi MIME kodlamalı yanıt nesneleri, HTTP yanıt gövdesinde döndürülür. Bu nesneler genellikle JSON veya XML gibi yapılandırılmış biçimde döndürülür ve bu durum `Content-type` yanıt üst bilgisi ile belirtilir.
 
 ## <a name="api-documentation"></a>API belgeleri
+
 Modern bir REST API'si için modern API belgeleri gerekir. REST API'si, OpenAPI belirtimi (başka bir deyişle swagger belirtimi) üzerine kurulmuştur ve belgelere [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) sayfasından ulaşmanız mümkündür. SwaggerHub, API belgelerini barındırmanın yanı sıra istediğiniz dilde bir istemci kitaplığı oluşturmanıza yardımcı olur: JavaScript, TypeScript, C#, Java, Python, Ruby ve diğerleri.
 
 ## <a name="testing-api-calls"></a>API çağrılarını test etme
+
 HTTP istek/yanıt iletilerini test etmek için kullanabileceğiniz araçlardan biri [Fiddler](http://www.telerik.com/fiddler) aracıdır. Fiddler, REST isteklerinizi keserek HTTP istek/yanıt iletilerini tanılamayı kolaylaştıran ücretsiz bir web tabanlı hata ayıklama ara sunucusudur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)'daki API'leri inceleyin.
 
 [GitHub](https://github.com/Microsoft/Reporting-Services)'da örnekler mevcuttur. TypeScript, React ve web paketi üzerinde kurulmuş bir örnek HTML5 uygulamasının yanı sıra PowerShell örneğini de inceleyebilirsiniz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

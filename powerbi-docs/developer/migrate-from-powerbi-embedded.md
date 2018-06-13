@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689795"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813515"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
@@ -159,7 +159,7 @@ Power BI Çalışma Alanı Koleksiyonu hizmetinden geçirdiğiniz içeriğe ek o
 
 ## <a name="rebuild-your-application"></a>Uygulamanızı yeniden oluşturma
 1. Uygulamanızı Power BI REST API'lerini ve powerbi.com içindeki rapor konumunu kullanacak şekilde değiştirmeniz gerekir.
-2. Uygulamanızın *ana* hesabını kullanarak AuthN/AuthZ kimlik doğrulamanızı yeniden oluşturun. Bu kullanıcının diğer kullanıcıların adına hareket etmesine izin vermek için [ekleme belirteci](https://msdn.microsoft.com/library/mt784614.aspx) kullanabilirsiniz.
+2. Uygulamanızın *ana* hesabını kullanarak AuthN/AuthZ kimlik doğrulamanızı yeniden oluşturun. Bu kullanıcının diğer kullanıcıların adına hareket etmesine izin vermek için [ekleme belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken) kullanabilirsiniz.
 3. powerbi.com'daki raporlarınızı uygulamanıza ekleyin.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Kullanıcılarınızı bir Power BI kullanıcısıyla eşleme

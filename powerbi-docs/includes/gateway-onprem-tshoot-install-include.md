@@ -4,8 +4,6 @@ Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir.  
 ## <a name="common-issues"></a>Sık karşılaşılan sorunlar
 Aşağıda, İnternet erişiminin kısıtlandığı ortamlarda yaygın olarak karşılaşılan birkaç sorun ve birçok müşteriye yardımcı olmuş çözümler verilmiştir.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Ara sunucu kimlik doğrulaması
 Ara sunucunuz bir etki alanı kullanıcı hesabında kimlik doğrulaması gerektirebilir. Varsayılan olarak ağ geçidi, Windows hizmeti oturum açma kullanıcısı için bir Hizmet SID'si kullanır. Oturum açma kullanıcısının bir etki alanı kullanıcısı olarak değiştirilmesi bu konuda yardımcı olabilir. Daha fazla bilgi için bkz. [Ağ geçidi hizmet hesabını etki alanı kullanıcısı olarak değiştirme](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user).
 

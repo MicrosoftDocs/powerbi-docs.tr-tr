@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721743"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250396"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -23,10 +23,6 @@ Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
  **İndir** ![indir](media/install-report-server/download.png "indir")
 
 Power BI Rapor Sunucusu'nu indirmek için [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasına gidin ve **Ücretsiz deneme sürümünü indirin**’i seçin. 
-
-## <a name="video-install-power-bi-report-server"></a>Video: Power BI Rapor Sunucusu'nu yükleme
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Başlamadan önce
 Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım Gereksinimleri](system-requirements.md) sayfasını incelemenizi öneririz.

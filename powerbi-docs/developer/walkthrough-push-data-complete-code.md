@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813101"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
 Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişkin adım adım kılavuzun bir parçasıdır.
@@ -227,7 +228,7 @@ Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişki
 [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
 [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  
 [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)  
-[Power BI Rest API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 
 
