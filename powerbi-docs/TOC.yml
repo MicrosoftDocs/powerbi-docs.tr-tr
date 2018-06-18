@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: Kavramlar
       items:
-        - name: Power BI API ile neler yapabilirim?
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Power BI REST API’leriyle çalışma
+          items:
+            - name: Power BI API ile neler yapabilirim?
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Power BI REST API sınırlamaları
+              href: developer/api-rest-api-limitations.md
+            - name: Veri kümesi özellikleri
+              href: developer/api-dataset-properties.md
+            - name: Veri modeli sürümü oluşturma
+              href: developer/api-data-model-versioning.md
+        - name: Geliştirici Araçları ile özel görsel oluşturma
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI izinleri
           href: developer/power-bi-permissions.md
         - name: Satır düzeyi güvenlik (RLS)
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: Tam kod listesi
               href: developer/walkthrough-push-data-complete-code.md
+            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: İçerik Paketi Sertifikası
           items:
             - name: İçerik Paketi Sertifika Programı
