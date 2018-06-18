@@ -7,33 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/04/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264dc3ee1daafd077a6e9a56f62eb86c6a3f528a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813745"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri Görünümü
-**Veri Görünümü**, Power BI Desktop modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri **Sorgu Düzenleyicisi**'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten *sonraki* halini incelersiniz.
+**Veri Görünümü**, **Power BI Desktop** modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri **Sorgu Düzenleyicisi**'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten *sonraki* halini incelersiniz.
 
-Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo veya sütundaki verileri satır düzeyinde görmek istersiniz. Bu durum özellikle ölçü ve hesaplanmış sütun oluşturduğunuzda veya bir veri türü ya da veri kategorisi tanımlamanız gerektiğinde ortaya çıkar.
+Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo veya sütundaki verileri satır düzeyinde görmek istersiniz. Bu, özellikle ölçü ve hesaplanmış sütun oluşturduğunuzda veya bir veri türü ya da veri kategorisi tanımlamanız gerektiğinde yararlıdır.
 
-Şimdi bu öğelere daha yakından bakalım.
+**Veri Görünümü**’nde bulunan öğelerden bazılarına daha yakından bakalım.
 
-![](media/desktop-data-view/dataview_fullscreen.png)
+![Power BI Desktop'taki veri görünümü](media/desktop-data-view/dataview_fullscreen.png)
 
-**1.** Veri Görünümü simgesi: Veri Görünümüne geçmek için tıklayın.
+1. **Veri Görünümü simgesi**: Veri Görünümü’ne girmek için bu simgeyi seçin.
 
-**2.** Veri Kılavuzu: Seçilen tabloyu ve içindeki tüm sütunlarla satırları gösterir. Rapor Görünümünde gizlenen sütunlar gri renkte görünür. Sütunlara sağ tıklayarak seçeneklere ulaşabilirsiniz.
+2. **Veri Kılavuzu**: Seçilen tabloyu ve içindeki tüm sütunlarla satırları gösterir. **Rapor Görünümü**’nde gizlenen sütunlar gri renkte görünür. Bir sütuna sağ tıklayarak seçeneklere ulaşabilirsiniz.
 
-**3.** Modelleme şeridi: İlişkileri yönetebilir, hesaplama oluşturabilir, bir sütunun veri türünü, biçimini ve veri kategorisini değiştirebilirsiniz.
+3. **Modelleme şeridi**: Buradan ilişkileri yönetebilir, hesaplama oluşturabilir, bir sütunun veri türünü, biçimini ve veri kategorisini değiştirebilirsiniz.
 
-**4.** Formül çubuğu: Ölçüler ve Hesaplanmış sütunlar için DAX formülleri girebilirsiniz.
+4. **Formül çubuğu**: Ölçüler ve Hesaplanmış sütunlar için DAX formülleri girebilirsiniz.
 
-**5.** Ara: Modelinizdeki bir tabloyu veya sütunu arayabilirsiniz.
+5. **Ara**: Modelinizdeki bir tabloyu veya sütunu arayabilirsiniz.
 
-**6.** Alanlar listesi: Veri kılavuzunda görüntülemek istediğiniz tabloyu veya sütunu seçebilirsiniz.
+6. **Alanlar listesi**: Veri kılavuzunda görüntülemek istediğiniz tabloyu veya sütunu seçebilirsiniz.
+
+## <a name="filtering-in-data-view"></a>Veri Görünümünde Filtreleme
+
+**Veri Görünümü**’nde ayrıca verileri filtreleyebilir ve sıralayabilirsiniz. Her sütunda sıralama yönünü (uygulanması durumunda) belirleyen bir simge gösterilir.
+
+![Power BI Desktop'taki Veri görünümünde sıralama ve filtreleme](media/desktop-data-view/dataview_sort-and-filter.png)
+
+Değerleri tek tek filtreleyebilir veya sütundaki verileri temel alarak gelişmiş filtrelemeyi kullanabilirsiniz. 
+
 

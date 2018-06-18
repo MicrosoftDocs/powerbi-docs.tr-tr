@@ -7,16 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 851e9747aa7f38e908ef89fcc3983fa605174033
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812365"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI Rest API başvurusu
 Power BI, özel pano uygulamaları derlemek için kullanabileceğiniz bulut tabanlı hizmettir. Power BI REST API'si, Power BI'daki **Veri kümeleri**, **Tablolar** ve **Satırlar** gibi **Pano** kaynaklarına programlı erişim sağlayan REST tabanlı bir API'dir.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 Power BI REST API'sinde aşağıdaki işlemler bulunur:
 
@@ -25,7 +28,7 @@ Power BI REST API'sinde aşağıdaki işlemler bulunur:
 * Satır işlemleri: Satır Ekle ve Satırları Sil.
 * Grup işlemleri: Grupları Al.
 
-Power BI REST API'si hakkında daha fazla bilgi edinmek için bkz. [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://msdn.microsoft.com/library/dn877544.aspx).
+Power BI REST API'si hakkında daha fazla bilgi edinmek için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

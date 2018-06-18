@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "34456008"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813193"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini çözümleme
 
@@ -31,6 +31,8 @@ Uzun süreli bir futbol sever olarak, yıllara göre UEFA Avrupa Kupası (Euro C
 UEFA kupası sahiplerine ait verileri, http://en.wikipedia.org/wiki/UEFA_European_Football_Championship adresindeki UEFA Avrupa Futbol Şampiyonası Wikipedia sayfasında bulunan Sonuçlar tablosundan alabilirsiniz. 
 
 ![Wikipedia Sonuçlar tablosu](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+Web bağlantılarının yalnızca temel kimlik doğrulaması kullanılarak kurulduğunu unutmayın. Kimlik doğrulaması gerektiren web siteleri, Web bağlayıcısı ile düzgün çalışmayabilir.
 
 Verileri içeri aktarmak için:
 

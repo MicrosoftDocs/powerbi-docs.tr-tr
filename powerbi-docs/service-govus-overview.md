@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722703"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813653"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -92,6 +92,11 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 | Ticari sürüm URL'si | US Government sürümü URL'si |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**Soru:** Hesabıma birden fazla bağımsız bulut sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
+
+**Yanıt:** **Power BI Desktop** Temmuz 2018 yayınından itibaren, **Power BI Desktop**’ta oturum açarken kullanmak istediğiniz bulutu seçebilirsiniz.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete nasıl kaydolacağınızı açıklayan bir makaleyi de içeren aşağıdaki kaynaklara başvurun:

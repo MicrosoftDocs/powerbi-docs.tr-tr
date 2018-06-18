@@ -9,18 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813261"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. Adım: Bir Power BI tablosuna satır eklemek için veri kümesi alma
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
 
-Bir veri kümesine veri gönderme işleminin **3. adımında** ([Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)), Power BI'da bir veri kümesi oluşturmak için [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemini gerçekleştirdiniz. Bu adımda, bir veri kümesi kimliği almak için [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini ve Newtonsoft.Json'u kullanacaksınız. Bir veri kümesine satır eklemek için 4. adımdaki veri kümesi kimliğini kullanın. 
+Bir veri kümesine veri gönderme işleminin **3. adımında** ([Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)), Power BI'da bir veri kümesi oluşturmak için [Veri Kümesi Oluştur](https://docs.microsoft.com/rest/api/power-bi/datasets) işlemini gerçekleştirdiniz. Bu adımda, bir veri kümesi kimliği almak için [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/getdatasets) işlemini ve Newtonsoft.Json'u kullanacaksınız. Bir veri kümesine satır eklemek için 4. adımdaki veri kümesi kimliğini kullanın. 
 
-Bir Power BI veri kümesine veri göndermek için veri kümesindeki tabloya başvurmanız gerekir. Veri kümesindeki bir tabloya başvurmak için öncelikle bir **Veri Kümesi Kimliği** almanız gerekir. [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini kullanarak bir **Veri Kümesi Kimliği** edinin. **Veri Kümelerini Al** işlemi, Power BI'daki tüm veri kümelerinin listesini içeren bir JSON dizesi döndürür. Bir JSON dizesini seri durumdan çıkarmak için önerilen yöntem, [Newtonsoft.Json](http://www.newtonsoft.com/json) kullanmaktır.
+Bir Power BI veri kümesine veri göndermek için veri kümesindeki tabloya başvurmanız gerekir. Veri kümesindeki bir tabloya başvurmak için öncelikle bir **Veri Kümesi Kimliği** almanız gerekir. [Kimliğe Göre Veri Kümesi Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) işlemini kullanarak bir **Veri Kümesi Kimliği** edinin. **Kimliğe Göre Veri Kümesi Al** işlemi, Power BI'daki tüm veri kümelerinin listesini içeren bir JSON dizesi döndürür. Bir JSON dizesini seri durumdan çıkarmak için önerilen yöntem, [Newtonsoft.Json](http://www.newtonsoft.com/json) kullanmaktır.
 
 Bir veri kümesinin nasıl alınacağı aşağıda açıklanmıştır.
 
@@ -266,10 +267,10 @@ Sonraki adımda [bir Power BI tablosuna satır ekleme](walkthrough-push-data-add
 ## <a name="next-steps"></a>Sonraki adımlar
 [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Get Datasets (Veri Kümelerini Al)](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Get Datasets (Veri Kümelerini Al)](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Power BI'a veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[Power BI REST API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

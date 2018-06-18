@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813676"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve Otomatik Algıla özelliği sizin yerinize bunları yapar. Ancak, bazı durumlarda ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -35,6 +36,16 @@ Aynı anda iki veya daha fazla tablo sorgularsanız veriler yüklendiğinde Powe
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Varsayılan olarak, Power BI Desktop Kardinaliteyi (yön), Çapraz filtre yönünü ve yeni ilişkiniz için Etkin özellikleri otomatik olarak yapılandırır. Ancak, gerekirse bunları değiştirebilirsiniz. Daha fazla bilgi edinmek için, bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
+
+İlişki için seçilen tabloların hiçbiri benzersiz değerlere sahip değilse *Sütunlardan biri benzersiz değerlere sahip olmalıdır* şeklinde bir hata iletisi görürsünüz. İlişkideki tablolardan en az biri, tüm ilişkisel veritabanı teknolojilerinde ortak bir gereksinim olarak farklı ve benzersiz bir anahtar değerleri listesi *içermelidir*. 
+
+Bu hatayla karşılaşırsanız, sorunu düzeltmenin birkaç yolu vardır:
+
+* Benzersiz değerler içeren bir sütun oluşturmak için "Yinelenen Satırları Kaldır" seçeneğini kullanın. Bu yaklaşımın bir dezavantajı, yinelenen satırlar kaldırıldığında bilgilerin kaybedilmesi ve genellikle bir anahtarın (satırın) iyi bir nedenle yinelenmesidir.
+* Modele, daha sonra ilişkideki her iki özgün sütuna bağlanacak farklı anahtar değerlerinin listesinden oluşan bir ara tablo ekleyin.
+
+Daha ayrıntılı bilgi için, bu konuyu ayrıntılı olarak ele alan [blog gönderisine](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) bakın.
+
 
 ## <a name="edit-a-relationship"></a>Bir ilişkiyi düzenleme
 1. **Giriş** sekmesinde **İlişkileri Yönet**'e tıklayın.

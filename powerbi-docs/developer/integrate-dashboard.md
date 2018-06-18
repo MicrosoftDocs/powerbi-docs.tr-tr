@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812963"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Kuruluşunuz için bir panoyu uygulamayla tümleştirme
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -27,9 +28,9 @@ Bu adım adım kılavuza başlamak için **Power BI** hesabınız olması gereki
 > 
 > 
 
-Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
+Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
 
-## <a name="download-the-sample"></a>Örneği indirin
+## <a name="download-the-sample"></a>Örneği indirme
 Bu makalede GitHub üzerindeki [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) uygulamasında kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
@@ -43,12 +44,12 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydet
 Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için önce Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>3. Adım: Pano alma
-Bir **Power BI** panosu almak için **Power BI** panolarının listesini alan [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemini kullanabilirsiniz. Pano listesinden panoların kimliğini öğrenebilirsiniz.
+Bir **Power BI** panosu almak için **Power BI** panolarının listesini alan [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) işlemini kullanabilirsiniz. Pano listesinden panoların kimliğini öğrenebilirsiniz.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Erişim belirteci kullanarak pano alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi çağrısını yapabilirsiniz. [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) işlemi pano listesini döndürür. Pano listesinden tek bir pano alabilirsiniz. Aşağıda pano almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) işlemi çağrısını yapabilirsiniz. [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) işlemi pano listesini döndürür. Pano listesinden tek bir pano alabilirsiniz. Aşağıda pano almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 
@@ -257,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Gruplarla (uygulama çalışma alanlarıyla) çalışma
-Bir gruptaki (uygulama çalışma alanındaki) panoyu eklemek için aşağıdaki REST API çağrısını kullanarak grup içindeki kullanılabilir tüm panoların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
+Bir gruptaki (uygulama çalışma alanındaki) panoyu eklemek için aşağıdaki REST API çağrısını kullanarak grup içindeki kullanılabilir tüm panoların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

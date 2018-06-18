@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301746"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için satır düzeyi güvenlik (RLS) kullanılabilir. Birçok farklı kullanıcı, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
@@ -75,9 +76,9 @@ Buradaki gibi filtreyi uyguladığımızda **District**, **Store** ve **Sales** 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Ekleme belirtecine kullanıcı ve rol uygulama
 Power BI Desktop rollerini yapılandırdınız ancak uygulamanızın rollerden faydalanabilmesi için yapmanız gereken birkaç işlem daha bulunmaktadır.
 
-Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından gerçekleştirilir ve kullanıcıya belirli bir Power BI Embedded raporuna erişim izni vermek için ekleme belirteçleri kullanılır. Power BI Embedded, kullanıcıyla ilgili belirli bilgilere sahip değildir. RLS'nin çalışması için ekleme belirtecinin bir parçası olarak kimlik biçiminde iletmeniz gereken ek bağlam vardır. Bu işlem [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API'si tarafından gerçekleştirilir.
+Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından gerçekleştirilir ve kullanıcıya belirli bir Power BI Embedded raporuna erişim izni vermek için ekleme belirteçleri kullanılır. Power BI Embedded, kullanıcıyla ilgili belirli bilgilere sahip değildir. RLS'nin çalışması için ekleme belirtecinin bir parçası olarak kimlik biçiminde iletmeniz gereken ek bağlam vardır. Bu işlem [ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API'si ile gerçekleştirilir.
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API'si, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdakileri kimlikle birlikte iletmeniz gerekir.
+API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdakileri kimlikle birlikte iletmeniz gerekir.
 
 * **username (zorunlu)**: Bu dize RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilir. Yalnızca tek bir kullanıcı listelenebilir.
 * **roles (zorunlu)**: Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
@@ -177,7 +178,7 @@ REST API’sini çağırıyorsanız aşağıdaki gibi her kimliğin içine özel
 * Power BI hizmetinde kullanıcıların rollere atanması, ekleme belirteci kullanıldığında RLS'yi etkilemez.
 * Power BI hizmeti RLS ayarını yöneticilere veya düzenleme izni olan üyelere uygulamaz ancak ekleme belirteciyle ilettiğiniz kimlikler verilere uygulanır.
 * Analysis Services canlı bağlantıları şirket içi sunucular için desteklenmektedir.
-* Azure Analysis Services canlı bağlantılarında role göre filtreleme özelliği desteklenir ancak kullanıcı adına göre dinamik filtreleme yapılamaz.
+* Azure Analysis Services canlı bağlantılarında role göre filtreleme özelliği desteklenir ancak kullanıcı adına göre dinamik filtreleme yapılamaz. CustomData kullanılarak dinamik filtreleme yapılabilir.
 * Temel alınan veri kümesi RLS gerektirmiyorsa GenerateToken isteğinin etkin kimlik **içermemesi** gerekir.
 * Temel alınan veri kümesi bir bulut modeliyse (önbelleğe alınmış model veya DirectQuery) etkin kimliğin en az bir rol içermesi gerekir. Aksi halde, rol ataması gerçekleşmez.
 * Kimlik listesi sayesinde, pano ekleme işlemi için birden çok kimlik belirteci kullanılabilir. Diğer tüm yapıtlar için liste tek bir kimlik içerir.

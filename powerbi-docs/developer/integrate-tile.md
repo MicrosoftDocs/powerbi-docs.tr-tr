@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288326"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813791"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Kutucukları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir kutucuğu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -28,7 +28,7 @@ Bu adım adım kılavuza başlamak için **Power BI** hesabınız olması gereki
 > 
 > 
 
-Bir kutucuğu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sını ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak kutucuğa ulaşmanız gerekir. Ardından kutucuğu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
+Bir kutucuğu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sını ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak kutucuğa ulaşmanız gerekir. Ardından kutucuğu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Örneği indirme
 Bu makalede GitHub üzerindeki [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) uygulamasında kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
@@ -44,12 +44,12 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydet
 Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için önce Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-tile"></a>3. Adım: Kutucuk alma
-Bir **Power BI** kutucuğu almak için belirli bir panodaki **Power BI** kutucuklarının listesini alan [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemini kullanabilirsiniz. Kutucuk listesinde kutucuk kimlikleri ve ekleme URL'si yer alır.
+Bir **Power BI** kutucuğu almak için belirli bir panodaki **Power BI** kutucuklarının listesini alan [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) işlemini kullanabilirsiniz. Kutucuk listesinde kutucuk kimlikleri ve ekleme URL'si yer alır.
 
 Kutucuğu alabilmek için öncelikle pano kimliğini almanız gerekir. Pano alma hakkında bilgi için bkz. [Panoları uygulamalarla tümleştirme (veriler kullanıcıya aittir)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Erişim belirteci kullanarak kutucuk alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi çağrısını yapabilirsiniz. [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) işlemi kutucuk listesini döndürür. Kutucuk listesindeki kutucuklardan birini alabilirsiniz. Aşağıda kutucuk almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) işlemi çağrısını yapabilirsiniz. [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) işlemi kutucuk listesini döndürür. Kutucuk listesindeki kutucuklardan birini alabilirsiniz. Aşağıda kutucuk almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![Web uygulamasına eklenmiş kutucuk](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Gruplarla (uygulama çalışma alanlarıyla) çalışma
-Bir gruptaki (uygulama çalışma alanındaki) kutucuğu eklemek için REST API çağrısını kullanarak grup panosu içindeki kullanılabilir tüm kutucukların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
+Bir gruptaki (uygulama çalışma alanındaki) kutucuğu eklemek için REST API çağrısını kullanarak grup panosu içindeki kullanılabilir tüm kutucukların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

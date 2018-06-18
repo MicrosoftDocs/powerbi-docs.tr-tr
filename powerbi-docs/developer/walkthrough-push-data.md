@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289476"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813124"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 Power BI API ile bir Power BI veri kümesine veri gönderebilirsiniz. Veri kümenize anahtar verileri göndermek için mevcut bir iş akışını genişletmek istediğinizi varsayalım. Bu örnekte, bir veri kümesine, Ürün tablosu içeren bir Satış Pazarlama veri kümesi göndermeniz gerekiyor.
@@ -31,14 +31,14 @@ Bir veri kümesine veri göndermeye başlamadan önce Azure Active Directory (Az
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Veri göndermeye yönelik için Power BI API işlemleri
-Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama, veri kümesine satırlar eklediğinde panodaki kutucuklar, güncelleştirilen verilerle otomatik olarak güncelleştirilir. Veri göndermek için [Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx) işlemiyle birlikte [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işlemi kullanılır. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini kullanmanız gerekir. Bu işlemlerden herhangi biri için bir grupla çalışmak üzere grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için [Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx) işlemini kullanın.
+Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama, veri kümesine satırlar eklediğinde panodaki kutucuklar, güncelleştirilen verilerle otomatik olarak güncelleştirilir. Veri göndermek için [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle birlikte [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemi kullanılır. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini kullanmanız gerekir. Bu işlemlerden herhangi biri için bir grupla çalışmak üzere grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için [Grupları Al](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) işlemini kullanın.
 
 Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
 
-* [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Get Datasets (Veri Kümelerini Al)](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Grupları Al](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Bir JavaScript Nesne Gösterimi (JSON) dizesini Power BI hizmetine geçirerek veri kümesi oluşturabilirsiniz. JSON hakkında daha fazla bilgi edinmek için bkz. [Introducing JSON (JSON'a giriş)](http://json.org/).
 
@@ -113,10 +113,6 @@ Bir veri kümesine veri göndermeye başlamak için sol gezinti bölmesindeki [1
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'a kaydolma](create-an-azure-active-directory-tenant.md)  
-[Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Grupları Al](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Introducing JSON (JSON'a giriş)](http://json.org/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

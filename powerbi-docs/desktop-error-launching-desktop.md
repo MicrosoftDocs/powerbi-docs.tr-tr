@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286561"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813469"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop'ın çalışmamasına neden olan sorunları giderme
 **Power BI Desktop**’ta eski **Power BI şirket içi veri ağ geçidi** sürümlerini yüklemiş ve çalıştırıyor olan kullanıcılar, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimsel ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını çalıştıramayabilir. 
@@ -33,6 +33,13 @@ Power BI şirket içi veri ağ geçidine ihtiyacınız kalmadıysa yüklemesini 
 Alternatif olarak, Power BI Desktop uygulamasını yönetici olarak çalıştırabilir, başarıyla açılmasını sağlayabilirsiniz. Bu makalenin başlarında açıklandığı gibi, yine de Power BI şirket içi veri ağ geçidinin en son sürümünü yüklemeniz önerilir.
 
 Power BI Desktop’un çok işlemli bir mimari olarak tasarlandığını ve bu işlemlerden birkaçının Windows adlandırılmış kanalları kullanarak iletişim kurduğunu unutmamanız gerekir. Bu adlandırılmış kanalları engelleyen başka işlemler de olabilir. Virüsten koruma yazılımının ya da güvenlik duvarlarının kanalları engellediği veya trafiği belirli bir bağlantı noktasına yeniden yönlendirdiği durumların dahil olduğu bir güvenlik nedeniyle böyle bir engel oluşuyor olabilir. Power BI Desktop’ı yönetici ayrıcalığıyla başlatmak bu sorunu çözülebilir. Yönetici ayrıcalığıyla başlatmak mümkün değilse, uygulanan hangi güvenlik kurallarının adlandırılmış kanalların düzgün bir şekilde iletişim kurmasını engellediğini belirlemesi ve Power BI Desktop’ı ve ilgili alt işlemlerini izin verilenler listesine eklemesi için yöneticinize başvurun.
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>SQL Server'a bağlanma sorunlarını giderme
+Bir SQL Server veritabanına bağlanırken aşağıdakine benzer bir hata iletisi ile karşılaşırsanız, genellikle **Power BI Desktop**’ı yönetici olarak başlatıp SQL Server bağlantısını oluşturarak sorunu çözebilirsiniz:
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+Yönetici olarak başlatıp bağlantıyı kurduktan sonra, gerekli DLL’ler uygun şekilde kaydedilir. Bundan sonra, Power BI Desktop’ın yönetici olarak başlatılması gerekmez.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Diğer Power BI Desktop başlatma sorunlarıyla ilgili yardım
 **Power BI Desktop** ile ilgili mümkün olduğu kadar çok sayıda sorunu ele almak için elimizden geleni yapıyoruz. Birçok müşteriyi etkileyebilecek sorunları düzenli olarak kontrol edip makalelerimizde bu sorunlara yer veriyoruz.

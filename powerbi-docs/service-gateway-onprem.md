@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722828"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812825"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -47,7 +47,9 @@ Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidini indirme ve yükleme
-Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin.
+Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin. 
+
+Şirket içi veri ağ geçidi, bu bölümde açıklanan şekilde ağ geçidi yeniden yüklenerek güncelleştirilebilir. Ağ geçidi güncelleştirilirken (yeniden yüklenerek), mevcut ağ geçidi ayarlarınız korunur.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin.
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Ağ geçidini kişisel modda yükleme
 > [!NOTE]
-> Kişisel ağ geçidi yalnızca Power BI ile çalışır.
-> 
-> 
+> Ağ geçidinin Kişisel sürümü yalnızca Power BI ile birlikte çalışır.
+
 
 Kişisel ağ geçidi yüklendikten sonra **Power BI Gateway - Personal Yapılandırma Sihirbazı**'nı başlatmalısınız.
 

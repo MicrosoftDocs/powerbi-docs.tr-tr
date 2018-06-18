@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812641"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2. Adım: Kimlik doğrulaması erişim belirteci alma
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
@@ -103,7 +104,7 @@ Bu kodu Program {...}'e ekleyin.
        #endregion
 ```
 
-Bir kimlik doğrulama belirteci aldıktan sonra herhangi bir Power BI işlemini çağırabilirsiniz. Sonraki adım bir panoya veri göndermek amacıyla bir veri kümesi oluşturmak için [Veri Kümesi Oluştur](https://msdn.microsoft.com/library/mt203562.aspx) işleminin nasıl çağrılacağını gösterir.
+Bir kimlik doğrulama belirteci aldıktan sonra herhangi bir Power BI işlemini çağırabilirsiniz. Sonraki adım bir panoya veri göndermek amacıyla bir veri kümesi oluşturmak için [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işleminin nasıl çağrılacağını gösterir.
 
 Sonraki adım, [Power BI'da veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)yı gösterir.
 
@@ -180,6 +181,6 @@ Sonraki adım, [Power BI'da veri kümesi oluşturma](walkthrough-push-data-creat
 [.NET NuGet paketi için Azure AD Kimlik Doğrulama Kitaplığı](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[Power BI REST API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

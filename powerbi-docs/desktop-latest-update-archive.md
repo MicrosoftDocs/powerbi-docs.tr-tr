@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291178"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813860"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -34,10 +34,67 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
+
+## <a name="may-2018-update-2585103281"></a>Mayıs 2018 Güncelleştirmesi (2.58.5103.281)
+
+Mayıs güncelleştirmeleri, raporlarınızdaki ışıltıyı yaymasını ve güzel içgörülerle gelişmesini umduğumuz bir özellik ve iyileştirme koleksiyonuydu.
+
+Mayıs ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
+
+### <a name="reporting"></a>Raporlama
+
+* Farklı bir alan ile koşullu biçimlendirme [[video]](https://youtu.be/-_GMCE1TLvQ?t=55s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#conditionalFormatting) 
+* Gelişmiş dilimleyici eşitleme [[video]](https://youtu.be/-_GMCE1TLvQ?t=3m40s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#slicerSync) 
+* Günlük ekseni iyileştirmeleri [[video]](https://youtu.be/-_GMCE1TLvQ?t=5m47s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#logAxis) 
+* Huni grafiği için veri etiketi seçenekleri [[video]](https://youtu.be/-_GMCE1TLvQ?t=6m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
+* Çizgi darbe genişliğini sıfıra ayarlama [[video]](https://youtu.be/-_GMCE1TLvQ?t=6m49s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
+
+### <a name="analytics"></a>Analytics
+
+* Ölçü detaylandırma [[video]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[makale]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+
+### <a name="power-bi-premium"></a>Power BI Premium
+
+* Artımlı yenileme (önizleme) [[video]](https://youtu.be/-_GMCE1TLvQ?t=7m42s)  [[makale]](service-premium-incremental-refresh.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
+
+### <a name="custom-visuals"></a>Özel görseller
+
+* Çok sayıda yeni özel görsel  [[video]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+
+* Yeni **Web’den** bağlayıcısı - örneğe göre veri ayıklama (önizleme) [[video]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[makale]](desktop-connect-to-web-by-example.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
+* Uygulamalar için Common Data Service bağlayıcısı (beta)  [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
+* Azure KustoDB bağlayıcısı (beta) [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
+* Google BigQuery ve Azure HDInsight Spark bağlayıcıları artık genel olarak kullanılabilir [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
+* Adobe Analytics bağlayıcı güncelleştirmesi - birden fazla etki alanı girişi için destek (önizleme) [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
+* Visual Studio Team Services bağlayıcı güncelleştirmesi - analiz görünümleri desteği [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
+* OLE DB bağlayıcı güncelleştirmesi - alternatif Windows kimlik bilgileri desteği [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
+* SAP BW DirectQuery bağlayıcı güncelleştirmesi - geliştirilmiş teknik ad desteği [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
+
+### <a name="data-preparation"></a>Veri hazırlama
+
+* Örneklerden Sütun Ekle iyileştirmeleri [[video]](https://youtu.be/-_GMCE1TLvQ?t=12m57s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#addColumnFromExamples) 
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+
+
 ## <a name="april-2018-update-2575068501"></a>Nisan 2018 Güncelleştirmesi (2.57.5068.501)
 
 Nisan ayındaki **Power BI Desktop** güncelleştirmelerinden duyduğumuz konusunda şaka yapmıyoruz. Birkaç bölgeye çok sayıda güncelleştirme sunduk ve bunların gelecekteki raporlarınızı harika ve güzel görsellerle geliştirmenize yardımcı olmasını umuyoruz. 
 
+Nisan ayında yapılan yeni **Power BI Desktop** güncelleştirmeleri aşağıda verilmiştir:
 
 ### <a name="reporting"></a>Raporlama
 

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/20/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813262"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 Power BI, gerçek zamanlı olarak pek çok farklı veri kaynağından oluşturulabilen ve güncelleştirilebilen etkileşimli panolar görüntüler. REST çağrılarını destekleyen herhangi bir programlama dilini kullanarak, Power BI panosuyla gerçek zamanlı olarak tümleşebilen uygulamalar oluşturabilirsiniz. Ayrıca, Power BI kutucuklarını ve raporlarını da uygulamalara tümleştirebilirsiniz.
@@ -26,7 +27,6 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 | --- | --- |
 | Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için (uygulama veriye sahiptir) panolar, raporlar ve kutucuklar ekleme |[Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md) |
 | Power BI panosuna anahtar veri göndermek için mevcut iş akışını genişletme. |[Bir panoya veri gönderme](walkthrough-push-data.md) |
-| Bir Power BI Desktop dosyasını içeri aktarma |[PBIX Dosyasını içeri aktarma](https://msdn.microsoft.com/library/mt243837.aspx) |
 | Power BI'da kimlik doğrulaması yapma. |[Power BI'da kimlik doğrulaması yapma](get-azuread-access-token.md) |
 | Özel görsel oluşturma. |[Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
@@ -51,12 +51,17 @@ Power BI Geliştirici örnekleri pano, rapor ve kutucuk eklemek için öğeler i
 ## <a name="developer-tools"></a>Geliştirici araçları
 Aşağıda Power BI öğeleri geliştirmede yardımcı olacak araçlar verilmiştir.
 
-* [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo)
+Hızlıca çalışmaya başlamak ve Power BI içeriği eklemeye ilişkin bir örnek uygulama indirmek için [Ekleme deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
+
+Size uygun olan çözümü seçin:
+* [Embedding for your customers](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. [Embed for your customers](https://aka.ms/embedsetup/AppOwnsData) çözümünü çalıştırın.
+* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü çalıştırın.
+
+JavaScript API kullanan tam bir örnek için [Playground aracı](https://microsoft.github.io/PowerBI-JavaScript/demo)'nı kullanabilirsiniz. Bunu yapmak, farklı türde Power BI Embedded örnekleri ile yürütmenin hızlı bir yoludur. Ayrıca [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) sayfasını ziyaret ederek JavaScript API’si hakkında daha fazla bilgi alabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Bir veri kümesine veri gönderme](walkthrough-push-data.md)  
 [Özel görseller geliştirici araçları ile çalışmaya başlama](../service-custom-visuals-getting-started-with-developer-tools.md) 
-[Power BI REST API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

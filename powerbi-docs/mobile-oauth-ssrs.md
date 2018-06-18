@@ -1,26 +1,27 @@
 ---
-title: OAuth kullanarak Reporting Services'e bağlanma
-description: Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
+title: OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
+description: SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852222"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>OAuth kullanarak Reporting Services'e bağlanma
-Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
+Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Power BI mobil uygulaması daha önce, Mobil Raporların veya KPI'lerin görüntülenmesi için Reporting Services'te yalnızca HTTPS üzerinden temel kimlik doğrulamasını destekliyordu. Birçok kuruluş güvenlikle ilgili nedenlerle bu yapılandırma türüne izin vermemektedir. Power BI mobil uygulamasına yönelik bir güncelleştirme ile artık OAuth kimlik doğrulamasını kullanarak Reporting Services'e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na yönelik bazı iyileştirmeler sağlar.
+Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar. Bu yapılandırma, Power BI raporlarını Power BI mobil uygulamalarında görüntülemeyi desteklemez. Ancak, raporları bir mobil cihazdaki tarayıcıdan görüntüleyebilirsiniz. Mobil uygulamada Power BI Raporlarını görüntülemek için Windows kimlik doğrulaması kullanmanız gerekir.
 
 ## <a name="requirements"></a>Gereksinimler
 Web Uygulaması Ara Sunucusu (WAP) ve Active Directory Federasyon Hizmetleri (ADFS) sunucuları için Windows Server 2016 gerekir. Windows 2016 işlev düzeyi etki alanına sahip olmanız gerekmez.
@@ -202,7 +203,8 @@ Power BI mobil uygulamasında Reporting Services örneğinize bağlanmak istiyor
 Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğrulamasını etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Sorun giderme
-**Şu hatayı alırsınız: SSRS Sunucusunda oturum açılamadı. Lütfen sunucu yapılandırmasını doğrulayın.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Şu hatayı alırsınız: SSRS Sunucusunda oturum açılamadı. Lütfen sunucu yapılandırmasını doğrulayın.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

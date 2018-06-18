@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290764"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812940"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 **Power BI Desktop**'ta, engelli kullanıcıların **Power BI Desktop** raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -66,6 +66,23 @@ Aşağıdaki ipuçları, daha erişilebilir **Power BI Desktop** raporları olu�
 * Raporlarınızdaki metinler ve arka plan renkleri arasında yeterli düzeyde karşıtlık bulunduğundan emin olun.
 * Kolay okunabilir metin boyutları ve yazı tipleri kullanın. Okunması zor olabilecek kadar küçük boyutlu metinler ve yazı tipleri erişilebilirlik açısından kullanışsızdır.
 * Tüm görsellere başlık, eksen etiketleri ve veri etiketleri ekleyin.
+
+## <a name="high-contrast-support-for-reports"></a>Raporlar için yüksek karşıtlık desteği
+
+Windows’ta yüksek karşıtlık modlarını kullandığınızda, seçtiğini ayarlar ve palet aynı zamanda **Power BI Desktop**’taki raporlara uygulanır. 
+
+![Yüksek karşıtlık pencere ayarları](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop**, Windows’ta hangi yüksek karşıtlık temasının kullanıldığını otomatik olarak algılar ve bu ayarları raporlarınıza uygular. Bu yüksek karşıtlık renkleri, Power BI hizmetinde veya başka bir yerde yayımlandığında raporu izler.
+
+![Yüksek karşıtlık pencere ayarları](media/desktop-accessibility/accessibility_05b.png)
+
+Power BI hizmeti ayrıca Windows için seçilen yüksek karşıtlık ayarlarını algılamaya çalışır, ancak bu algılamanın ne kadar etkili ve doğru olduğu Power BI hizmeti için kullanılan tarayıcıya bağlıdır. Power BI hizmetinde temayı el ile ayarlamak isterseniz, **Görünüm > Yüksek karşıtlık renkleri**’ni ve sonra rapora uygulamak istediğiniz temayı seçebilirsiniz.
+
+![Power BI hizmetinde yüksek karşıtlık ayarlama](media/desktop-accessibility/accessibility_06.png)
+
+**Power BI Desktop**’ta **Görselleştirmeler** ve **Alanlar** gibi bazı alanların yüksek karşıtlıklı Windows renk düzenlerini yansıtmadığına dikkat edin.
+
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 Erişilebilirlik özelliklerine ilişkin sınırlamalar ve bilinen birkaç sorun aşağıdaki listede açıklanmıştır:

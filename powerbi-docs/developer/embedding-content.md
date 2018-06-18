@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813055"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
 
@@ -21,7 +22,7 @@ Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken iş
 
 Microsoft kullanıcılara içerikle ilgili erişme, paylaşma ve dağıtma konularında daha fazla esneklik sunan yeni bir kapasite tabanlı lisanslama modeli olan [Power BI Premium'u duyurdu](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/). Bu teklif ayrıca Power BI hizmeti için ek ölçeklenebilirlik ve performansı da beraberinde getirdi. Microsoft Azure'da kapasite oluşturmaya olanak sağlayan Power BI Embedded da duyuruldu. Power BI Embedded, uygulamanıza ve müşterilerinize odaklanmış bir çözümdür. 
 
-Bu makalede Power BI içeriğini hem kuruluşunuz hem de müşterileriniz için ekleme seçenekleri ele alınmıştır. İki senaryonun adımları birbirine benzerdir. Müşterileriniz için içerik eklemeye özgü adımlar özellikle belirtilecektir.
+Bu makalede Power BI içeriğini hem kuruluşunuz hem de müşterileriniz için ekleme seçenekleri ele alınmıştır. İki senaryonun adımları birbirine benzerdir. Müşterileriniz için içerik eklemeye özgü adımlar için açıklama balonları eklenmiştir.
 
 Bunu mümkün hale getirmek için uygulamanızda yapmanız gereken birkaç işlem vardır. Katıştırılmış içerik oluşturmanız ve bu içeriği uygulamanızda kullanmanız için gerekli adımlar konusunda size rehberlik edeceğiz.
 
@@ -34,14 +35,21 @@ Panoları ve raporları uygulamanıza eklemeye başlamadan önce ortamınızın 
 
 * [Azure Active Directory kiracısına sahip olduğunuzdan emin olun](embedding-content.md#azureadtenant)
 * [Power BI Pro hesabınızı oluşturun](embedding-content.md#proaccount)
-* [Azure Active Directory uygulamanızı ve izinlerini kaydedin](embedding-content.md#appreg)
+
+Hızlıca çalışmaya başlamak ve bir örnek uygulama indirmek için [Ekleme deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
+
+Size uygun olan çözümü seçin:
+* [Embedding for your customers](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. [Embed for your customers](https://aka.ms/embedsetup/AppOwnsData) çözümünü çalıştırın.
+* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü çalıştırın.
+
+Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz. 
 
 > [!NOTE]
-> Uygulamanızın geliştirilmesi için Power BI kapasitesine ihtiyaç yoktur. Uygulama geliştiricilerinin Power BI Pro lisansına sahip olması gerekir.
+> Uygulamanızın geliştirilmesi için ayrılmış kapasite gerekli değildir. Uygulama geliştiricilerinin Power BI Pro lisansına sahip olması gerekir.
 
 ### <a name="azureadtenant"></a>Azure Active Directory kiracısı
 
-Power BI öğelerinizi ekleyebilmek için bir Azure Active Directory (Azure AD) kiracınız olması gerekir. Bu kiracıda en az bir Power BI Pro kullanıcısı bulunmalıdır. Ayrıca kiracı içinde bir Azure AD uygulaması da tanımlamanız gerekir. Var olan Azure AD kiracısını kullanabilir veya ekleme için kullanmak üzere yeni bir kiracı oluşturabilirsiniz.
+Power BI’den öğe eklemek için bir Azure Active Directory (Azure AD) kiracınızın olması gerekir. Bu kiracıda en az bir Power BI Pro kullanıcısı bulunmalıdır. Ayrıca kiracı içinde bir Azure AD uygulaması da tanımlamanız gerekir. Var olan Azure AD kiracısını kullanabilir veya ekleme için kullanmak üzere yeni bir kiracı oluşturabilirsiniz.
 
 Müşterileriniz için içerik ekliyorsanız hangi kiracıyı kullanacağınızı belirlemeniz gerekir.
 
@@ -59,25 +67,25 @@ Aşağıdaki hesapların kiracınızda bulunması ve hepsine birer Power BI Pro 
 
 #### <a name="an-organizationtenant-admin-user"></a>Kuruluş/kiracı yönetici kullanıcısı
 
-Müşterileriniz için ekleme yapıyorsanız kuruluş/kiracı Genel Yönetici kullanıcınızın, uygulamanızın kullandığı hesap olarak kullanılmaması önerilir. Bunun nedeni uygulama hesabının kiracınız içindeki erişimini en aza indirmektir. Yönetici kullanıcının eklemek üzere oluşturulan tüm uygulama çalışma alanlarının yöneticisi olması önerilir.
+Müşterileriniz için ekleme yapıyorsanız kuruluş/kiracı Genel Yönetici kullanıcınızın, uygulamanızın kullandığı hesap olarak kullanılmaması önerilir. Bunun nedeni uygulama hesabının kiracınız içindeki erişimini en aza indirmektir. Yönetici kullanıcının, ekleme için oluşturulan tüm uygulama çalışma alanlarında yönetici olması önerilir.
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>İçeriği oluşturacak analistlerin hesapları
+#### <a name="accounts-for-analysts-that-create-content"></a>İçerik oluşturan çözümleyicilerin hesapları
 
-Power BI'da içerik oluşturacak birden fazla kullanıcı bulunabilir. Power BI'da içerik oluşturan ve dağıtan her analist için bir Power BI Pro hesabı olması gerekir.
+Power BI'da içerik oluşturacak birden fazla kullanıcı bulunabilir. Power BI'da içerik oluşturan ve dağıtan her çözümleyici için bir Power BI Pro hesabı olması gerekir.
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>Müşterileriniz için içerik ekleme amacıya kullanılacak uygulama *ana* kullanıcı hesabı
 
-Ana hesap, uygulamanızın müşterileriniz için içerik eklerken kullanacağı hesaptır. Bu senaryo genelde ISV uygulamalarında kullanılır. Ana hesap, kuruluşunuzda gerekli olan tek hesaptır. Yönetici ve analist hesabı olarak da kullanılabilir ancak bu kullanım önerilmez. Bu hesabın kimlik bilgileri, uygulamanızın arka ucunda depolanır ve Power BI API'ler ile kullanılacak Azure AD kimlik doğrulama belirteçlerini almak için kullanılır. Bu hesap müşterileriniz için içerik ekleme amacıyla kullanılacak uygulamanın ekleme belirtecini oluşturmak için kullanılır.
+Ana hesap, uygulamanızın müşterileriniz için içerik eklerken kullandığı hesaptır. Bu senaryo genelde ISV uygulamalarında kullanılır. Ana hesap, kuruluşunuzda gerekli olan tek hesaptır. Yönetici ve analist hesabı olarak da kullanılabilir ancak bu kullanım önerilmez. Bu hesabın kimlik bilgileri, uygulamanızın arka ucunda depolanır ve Power BI API'ler ile kullanılacak Azure AD kimlik doğrulama belirteçlerini almak için kullanılır. Bu hesap müşterileriniz için içerik ekleme amacıyla kullanılacak uygulamanın ekleme belirtecini oluşturur.
 
 Ana hesap, uygulamanızda kullandığınız ve Power BI Pro lisansına sahip olan normal bir kullanıcıdır. Hesabın, içerik ekleme için kullanılan uygulama çalışma alanının yöneticisi olması gerekir.
 
 ### <a name="appreg"></a> Uygulama kaydı ve izinler
 
-REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
+REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
 
 ### <a name="create-app-workspaces"></a>Uygulama çalışma alanları oluşturma
 
-Pano ve raporları müşteriniz için ekliyorsanız bu pano ve raporların bir uygulama çalışma alanına eklenmesi gerekir. Yukarıda bahsedilen *ana* hesabın, ilgili uygulama çalışma alanının yöneticisi olması gerekir.
+Pano ve raporları müşteriniz için ekliyorsanız bu pano ve raporların bir uygulama çalışma alanına eklenmesi gerekir. Yukarıda bahsedilen *ana* hesabın, uygulama çalışma alanında yönetici olması gerekir.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
@@ -105,7 +113,7 @@ Tipik bir ISV senaryosu olan **müşterileriniz için içerik ekleme** hakkında
 
 * [Uygulamanıza bir pano, kutucuk veya rapor tümleştirme](embed-sample-for-customers.md)
 
-Müşterileriniz için içerik eklerken bir ekleme belirteci kullanmanız gerekir. Daha fazla bilgi edinmek için bkz. [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Müşterileriniz için içerik eklerken bir ekleme belirteci kullanmanız gerekir. Daha fazla bilgi edinmek için bkz. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="step-3-promote-your-solution-to-production"></a>3. Adım: Çözümünüzü üretime yükseltme
 
@@ -115,7 +123,7 @@ Müşterileriniz için içerik eklerken bir ekleme belirteci kullanmanız gereki
 
 Kuruluşunuz için içerik ekliyorsanız kullanıcıları uygulamanıza yönlendirmeniz yeterlidir. 
 
-Ücretsiz kullanıcılar, kapasite ile desteklenen bir uygulama çalışma alanından (gruptan) eklenmiş olan içeriği kullanabilir. Ücretsiz kullanıcıyı uygulama çalışma alanına (gruba) üye olarak ekleyin, aksi halde 401 yetkisiz erişim hatası alırsınız. Aşağıdaki tabloda Office 365'te kullanılabilecek olan Power BI Premium SKU'ları yer almaktadır.
+Ücretsiz kullanıcılar, ayrılmış kapasite ile desteklenen bir uygulama çalışma alanından (gruptan) eklenmiş olan içeriği kullanabilir. Ücretsiz kullanıcıyı uygulama çalışma alanına (gruba) üye olarak ekleyin, aksi halde 401 yetkisiz erişim hatası alırsınız. Aşağıdaki tabloda Office 365'te kullanılabilecek olan Power BI Premium SKU'ları yer almaktadır.
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +135,10 @@ Kuruluşunuz için içerik ekliyorsanız kullanıcıları uygulamanıza yönlend
 > [!NOTE]
 > Power BI Premium lisansını satın alabilmek için kiracınızda Genel Yönetici veya Faturalama Yöneticisi olmanız gerekir. Power BI Premium'u satın alma hakkında bilgi için bkz. [Power BI Premium'u satın alma](../service-admin-premium-purchase.md).
 
+>[!Note]
+>[Kuruluşunuz için tümleşik analiz ortamınızı ayarlayın.](#step-1-setup-your-embedded-analytics-development-environment)
+>
+
 ### <a name="embedding-for-your-customers"></a>Müşterileriniz için içerik ekleme
 
 Müşterileriniz için ekliyorsanız aşağıdaki işlemleri yapın.
@@ -135,7 +147,7 @@ Müşterileriniz için ekliyorsanız aşağıdaki işlemleri yapın.
 * İhtiyaçlarınıza uygun bir kapasite satın alın. İhtiyacınız olan Power BI Embedded kapasitesi SKU seviyesini belirlemek için aşağıdaki tabloyu kullanabilirsiniz. Daha ayrıntılı bilgi için bkz. [Embedded analytics capacity planning (Katıştırılmış analiz kapasite planlama) teknik incelemesi](https://aka.ms/pbiewhitepaper). Satın almaya hazır olduğunuzda [Microsoft Azure portalını](https://portal.azure.com) ziyaret edebilirsiniz. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Create Power BI Embedded capacity in the Azure portal (Azure portalında Power BI Embedded kapasitesi oluşturma)](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 
 > [!IMPORTANT]
-> Ekleme belirteçleri yalnızca geliştirmeye yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur. Kaç tane ekleme belirtecinin kullanılıp kullanılmadığını kontrol etmek için [Kullanılabilir Özellikleri Alın](https://msdn.microsoft.com/en-us/library/mt846473.aspx) bölümüne gidin.
+> Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Ayrılmış bir kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur. Kaç tane ekleme belirtecinin kullanılıp kullanılmadığını kontrol etmek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) bölümüne gidin.
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ Müşterileriniz için ekliyorsanız aşağıdaki işlemleri yapın.
 | A5 |16 sanal çekirdek |8 çekirdek, 50 GB RAM |8 çekirdek |saniyede 60 |2401-4800 |
 | A6 |32 sanal çekirdek |16 çekirdek, 100 GB RAM |16 çekirdek |saniyede 120 |4801-9600 |
 
-* Uygulama çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir kapasiteye atayın.
+* Uygulama çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir ayrılmış kapasiteye atayın.
 
     ![Kapasiteye uygulama çalışma alanı atama](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Güncelleştirilen uygulamanızı üretim ortamında dağıtın ve Power BI panoları ile raporlarını eklemeye başlayın.
 
-
+>[!Note]
+>[Müşterileriniz için tümleşik analiz ortamınızı ayarlayın.](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>Yönetici ayarları
 
@@ -171,4 +185,3 @@ Genel Yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST A
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

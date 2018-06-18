@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813378"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Kuruluşunuz için bir raporu uygulamayla tümleştirme
 Kuruluşunuz için REST API çağrılarını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
@@ -27,10 +28,14 @@ Bu adım adım kılavuza başlamak için **Power BI** hesabınız olması gereki
 > 
 > 
 
-Bir raporu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sını ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak rapora ulaşmanız gerekir. Ardından raporu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
+Bir raporu web uygulamasıyla tümleştirmek için **Power BI** REST API'sini veya Power BI C# SDK'sını ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak rapora ulaşmanız gerekir. Ardından raporu aynı erişim belirteciyle yükleyebilirsiniz. **Power BI** API'si belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Örneği indirme
 Bu makalede GitHub üzerindeki [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) uygulamasında kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
+
+Hızlıca çalışmaya başlamak ve bir örnek uygulama indirmek için [Ekleme deneyimi aracını](https://aka.ms/embedsetup/UserOwnsData) da inceleyebilirsiniz.
+
+Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
 REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
@@ -43,10 +48,10 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydet
 Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için önce Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-report"></a>3. Adım: Rapor alma
-Bir **Power BI** raporu almak için **Power BI** raporlarının listesini alan [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemini kullanabilirsiniz. Rapor listesindeki rapor kimliklerinden birini seçebilirsiniz.
+Bir **Power BI** raporu almak için **Power BI** raporlarının listesini alan [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) işlemini kullanabilirsiniz. Rapor listesindeki rapor kimliklerinden birini seçebilirsiniz.
 
 ### <a name="get-reports-using-an-access-token"></a>Erişim belirteci kullanarak rapor alma
-[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi çağrısını yapabilirsiniz. [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) işlemi rapor listesini döndürür. Rapor listesindeki raporlardan birini alabilirsiniz. Aşağıda rapor almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
+[2. Adım](#step-2-get-an-access-token-from-azure-ad)'da aldığınız **erişim belirteci** ile [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) işlemi çağrısını yapabilirsiniz. [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) işlemi rapor listesini döndürür. Rapor listesindeki raporlardan birini alabilirsiniz. Aşağıda rapor almak için kullanabileceğiniz ayrıntılı bir C# yöntemi verilmiştir. 
 
 REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
 
@@ -213,7 +218,7 @@ function updateEmbedReport() {
 ![Ekli rapor örneği](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Gruplarla (uygulama çalışma alanlarıyla) çalışma
-Bir gruptaki (uygulama çalışma alanındaki) raporu eklemek için REST API çağrısını kullanarak grup panosu içindeki kullanılabilir tüm raporların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
+Bir gruptaki (uygulama çalışma alanındaki) raporu eklemek için REST API çağrısını kullanarak grup panosu içindeki kullanılabilir tüm raporların listesini almanız gerekir. Bu REST API çağrısı hakkında daha fazla bilgi için bkz. [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). İsteğin sonuç döndürmesi için grupta gerekli izinlere sahip olmanız gerekir.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

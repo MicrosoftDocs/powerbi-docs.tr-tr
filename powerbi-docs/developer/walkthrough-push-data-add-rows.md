@@ -9,18 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812549"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5. Adım: Bir Power BI tablosuna satır ekleme
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
 
-Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](https://msdn.microsoft.com/library/mt203567.aspx) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx) işlemiyle kullanacaksınız. 
+Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle kullanacaksınız. 
 
-[Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx) işlemini çağırdığınızda, bir veri kümesine satırlar eklersiniz.
+[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemini çağırdığınızda, bir veri kümesine satırlar eklersiniz.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -307,9 +308,8 @@ Bu kodu Program.cs'ye ekleyin.
     }
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Satır Ekle](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[Power BI REST API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

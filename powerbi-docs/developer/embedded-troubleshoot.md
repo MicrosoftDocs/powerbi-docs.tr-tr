@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720823"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813170"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -108,7 +108,7 @@ GenerateToken, etkin kimlik sağlandığında birkaç nedenden dolayı başarıs
 
 Hangisi olduğunu doğrulamak için aşağıdakileri deneyin.
 
-* [Veri kümesi al](https://msdn.microsoft.com/library/mt784653.aspx) komutunu yürütün. IsEffectiveIdentityRequired özelliği doğru mu?
+* [Veri kümesi al](https://docs.microsoft.com/rest/api/power-bi/datasets) komutunu yürütün. IsEffectiveIdentityRequired özelliği doğru mu?
 * Kullanıcı adı her EffectiveIdentity için zorunludur.
 * IsEffectiveIdentityRolesRequired doğruysa Rol gereklidir.
 * DatasetId her EffectiveIdentity için zorunludur.
