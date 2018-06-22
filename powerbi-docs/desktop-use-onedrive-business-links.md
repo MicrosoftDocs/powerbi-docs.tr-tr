@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290718"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 Pek çok kullanıcının OneDrive İş sürücüsünde Excel çalışma kitapları bulunur, bunlar Power BI Desktop'ta kullanmak için harika bir seçimdir. **Power BI Desktop** ile rapor ve görsel oluşturmak için **OneDrive İş**'te kayıtlı **Excel** dosyalarına ilişkin çevrimiçi bağlantıları kullanabilirsiniz. Bir **OneDrive İş** grup hesabını veya bireysel **OneDrive İş** hesabınızı kullanabilirsiniz.

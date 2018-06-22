@@ -11,10 +11,11 @@ ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
 ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34254867"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 

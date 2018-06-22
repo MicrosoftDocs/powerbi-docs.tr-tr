@@ -11,10 +11,11 @@ ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289844"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma
 **Power BI Desktop** rapor tuvali, görselleri rapor sayfasında düzgünce hizalamanızı sağlayan kılavuz çizgileri sunar ve raporunuzdaki görsellerin temiz, hizalı ve eşit aralıklı görünmesi için kılavuza yaslama özelliğini kullanır.

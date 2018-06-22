@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291109"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Verileri doğrudan Power BI Desktop'a girme
 Power BI Desktop ile verileri doğrudan girebilir ve bunları raporlarınızın yanı sıra görselleştirmelerinizde kullanabilirsiniz. Örneğin, bir çalışma kitabının veya web sayfasının bölümlerini kopyalayıp Power BI Desktop'a yapıştırabilirsiniz.

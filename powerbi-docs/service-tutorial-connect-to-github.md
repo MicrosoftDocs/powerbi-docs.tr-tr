@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310119"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Öğretici: Power BI ile bir GitHub örneğine bağlanma
 Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şu bilgileri görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer soruların yanıtları. 
@@ -33,7 +34,7 @@ Bu öğreticide aşağıdaki adımları tamamlarsınız:
 > * GitHub verileriyle panoyu ve raporu görüntüleme
 > * Uygulamayı silerek kaynakları temizleme
 
-PowerApps’e kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Önkoşullar
 

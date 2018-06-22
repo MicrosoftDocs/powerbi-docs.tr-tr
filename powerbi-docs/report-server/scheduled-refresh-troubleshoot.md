@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
 ms.openlocfilehash: a90f22c262a314b50981be94121e2573f9fe525a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296377"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.

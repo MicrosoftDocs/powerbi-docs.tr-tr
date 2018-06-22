@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290672"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 

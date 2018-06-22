@@ -11,17 +11,17 @@ ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 936e794b187366e91cf550c16379216ddf1fbf36
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298562"
 ---
 # <a name="install-a-gateway-for-power-bi"></a>Power BI için ağ geçidi yükleme
 
 Power BI ağ geçidi, şirket içi ağı içine yüklediğiniz bir yazılımdır ve bu ağda verilere erişimi kolaylaştırır. [Genel bakış](service-gateway-getting-started.md) bölümünde açıklandığı gibi, kişisel modda veya standart modda (önerilen) ağ geçidi yükleyebilirsiniz. Standart modda tek başına ağ geçidi yükleyebilir veya yüksek kullanılabilirlik için önerilen bir yöntem olarak bir ağ geçidini *kümeye* ekleyebilirsiniz. Bu makalede, standart bir ağ geçidi yükleme ve sonra başka bir ağ geçidi ekleyerek küme oluşturma işlemi gösterilmektedir.
 
-PowerApps’e kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 
 ## <a name="download-and-install-a-gateway"></a>Bir ağ geçidi indirme ve yükleme

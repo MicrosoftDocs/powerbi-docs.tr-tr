@@ -11,10 +11,10 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298976"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Öğretici: SQL Server’da şirket içi verilere bağlanma
@@ -28,7 +28,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 > * SQL Server’ı ağ geçidi veri kaynağı olarak ekleme
 > * Rapordaki verileri yenileme
 
-PowerApps’e kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 
 ## <a name="prerequisites"></a>Önkoşullar

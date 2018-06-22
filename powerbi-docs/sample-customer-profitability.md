@@ -11,10 +11,11 @@ ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
 ms.openlocfilehash: f20fe4595236381106b6cb2a676ffd3d3baa3971
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471790"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Customer Profitability Sample: Tura katılın
 

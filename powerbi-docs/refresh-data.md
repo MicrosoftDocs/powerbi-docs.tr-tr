@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253631"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.

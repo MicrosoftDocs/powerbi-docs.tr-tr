@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239234"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Ek tanılama bilgilerini yakalama
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Power BI için Ek Tanılama Bilgilerini Yakalama

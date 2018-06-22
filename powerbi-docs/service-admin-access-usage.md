@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722213"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
@@ -60,7 +61,7 @@ Etkinlik ekranında araç çubuğunda yer alan **İndir**'i seçebilirsiniz. Bun
 Oturum açma verilerini dışarı aktarmak için PowerShell kullanabilirsiniz. Azure AD belgelerinde bununla ilgili bir [örnek](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) mevcuttur.
 
 > [!NOTE]
-> PowerShell örneğinin çalışması için [prerequisites to access the Azure AD reporting API (Azure AD raporlama API'sine erişmek için önkoşullar)](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites) sayfasını incelediğinizden emin olun.
+> PowerShell örneğinin çalışması için [prerequisites to access the Azure AD reporting API (Azure AD raporlama API'sine erişmek için önkoşullar)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites) sayfasını incelediğinizden emin olun.
 > 
 > 
 

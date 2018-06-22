@@ -11,10 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298585"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.

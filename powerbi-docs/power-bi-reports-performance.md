@@ -11,10 +11,11 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310556"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  

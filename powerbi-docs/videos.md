@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: f9aa2a0d18e53c661b4639001bacdef6a508a7a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471813"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.

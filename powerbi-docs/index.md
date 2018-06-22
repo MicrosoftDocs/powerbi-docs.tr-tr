@@ -8,6 +8,7 @@ ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945676"
 ---
 <div id="main" class="v2">
     <div class="container">

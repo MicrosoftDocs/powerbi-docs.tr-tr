@@ -10,10 +10,10 @@ ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
 ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34293709"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Hızlı Başlangıç: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme

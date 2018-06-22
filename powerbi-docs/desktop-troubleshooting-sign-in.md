@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226725"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop'ta oturum açma sorunlarını giderme
 **Power BI Desktop**’ta oturum açmaya çalıştığınız, ancak hatalarla karşılaştığınız zamanlar olabilir. Oturum açma sorununun iki birincil nedeni vardır: **Ara Sunucu Kimlik Doğrulaması hataları** ve **HTTPS olmayan URL yeniden yönlendirme hataları**. 

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293433"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Raporları Surface Hub'da ve Windows 10'da sunu modunda görüntüleme - Power BI
 Windows 10 cihazlarında raporları Surface Hub sunu modunda açabilirsiniz. Ayrıca panoları, raporları ve kutucukları tam ekran modunda görüntüleyebilirsiniz. 

@@ -11,10 +11,10 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: cd4a849a010d4ece6cd91a220d617ac3098a77ea
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34295388"
 ---
 # <a name="quickstart-assign-power-bi-pro-licenses-in-office-365"></a>Hızlı Başlangıç: Office 365’te Power BI Pro lisansları atama
