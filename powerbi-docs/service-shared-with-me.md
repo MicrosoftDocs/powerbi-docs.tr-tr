@@ -12,10 +12,11 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b95ca140322c207c6c352597e42d50d18a48e52e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298723"
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Sizinle paylaşılan Power BI panolarını görüntüleme
 ## <a name="shared-with-me"></a>Benimle paylaşılan

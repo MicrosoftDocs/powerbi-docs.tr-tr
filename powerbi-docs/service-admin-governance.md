@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293502"
 ---
 # <a name="governance-and-deployment-approaches"></a>Yönetim ve dağıtım yaklaşımları
 Son yıllarda şirketler, pazar fırsatlarından yararlanmak için veri varlıklarını stratejik bir şekilde kullanmanın önemini her geçen gün daha iyi anlıyor. İster rekabet analizi gerçekleştirerek ister faaliyet biçimlerini anlayarak olsun kuruluşların birçoğu artık rakiplerinin önüne geçmenin bir yolu olarak bir veri stratejisine sahip olmanın avantajlarından yararlanabileceklerinin farkındadır.  
