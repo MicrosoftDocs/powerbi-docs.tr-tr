@@ -95,7 +95,7 @@ Kimlik bilgileriniz Webtrends'de oturum açmak için kullandıklarınızla aynı
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Sorun giderme
-Kimlik bilgilerinizi sağladıktan sonra içerik paketi yüklenirken bir sorunla karşılaşabilirsiniz. Yükleme sırasında "Hata" iletisini görürseniz, lütfen aşağıdaki sorun giderme önerilerini gözden geçirin. Sorun yaşamaya devam ediyorsanız lütfen https://support.powerbi.com'da bir destek bileti oluşturun
+Kimlik bilgilerinizi sağladıktan sonra içerik paketi yüklenirken bir sorunla karşılaşabilirsiniz. Yükleme sırasında "Hata" iletisini görürseniz, lütfen aşağıdaki sorun giderme önerilerini gözden geçirin. Sorun yaşamaya devam ediyorsanız lütfen https://support.powerbi.com 'da bir destek bileti oluşturun
 
 1. Doğru profil kimliğinin kullanıldığından emin olun, daha fazla ayrıntı için [Parametreleri bulma](#FindingParams) bölümüne bakın.
 2. Kullanıcının ["Neleri kapsar?"](#Included) bölümünde listelenen raporlara erişiminin bulunduğundan emin olun.
