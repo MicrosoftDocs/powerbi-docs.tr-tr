@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34813515"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
