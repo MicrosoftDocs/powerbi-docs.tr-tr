@@ -11,10 +11,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 205df68a380c9c8b33ce11fae5509c555ec506cb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34237478"
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Power BI'daki bir raporda bulunan sayfaları yeniden sıralama

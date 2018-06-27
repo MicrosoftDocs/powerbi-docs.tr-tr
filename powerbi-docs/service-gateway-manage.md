@@ -11,10 +11,10 @@ ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34755174"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI ağ geçidi yönetme
