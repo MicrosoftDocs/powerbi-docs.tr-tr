@@ -11,10 +11,10 @@ ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
 ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298194"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme

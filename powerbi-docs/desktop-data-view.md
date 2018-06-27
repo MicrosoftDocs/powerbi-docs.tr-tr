@@ -11,10 +11,10 @@ ms.date: 06/04/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813745"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri Görünümü

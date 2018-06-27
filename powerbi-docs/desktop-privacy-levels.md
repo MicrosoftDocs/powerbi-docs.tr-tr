@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c5679105cb37bc2f3198d6cb7bd33c22e34b77d1
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34455985"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
 ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813308"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme

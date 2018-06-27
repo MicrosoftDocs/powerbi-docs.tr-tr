@@ -11,10 +11,10 @@ ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34755036"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
