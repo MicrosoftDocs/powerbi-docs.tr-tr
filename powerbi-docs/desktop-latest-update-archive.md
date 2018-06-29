@@ -1360,7 +1360,7 @@ Bu ay çok daha fazla güncelleştirme ile karşınızdayız! Şubat'ın 29 gün
 -   Şerit düzeni iyileştirmeleri: **Rapor Araçları** için bağlamsal şerit sekmesi
 -   Yeni KPI görseli
 -   Raporların, kaydetme işlemi sırasında görünür olan sayfa ile açılmasını sağlama
--   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği (**Rapor** ve **Veri** görünümleri)
+-   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği (**Rapor** & **Veri** görünümleri)
 -   Şeritte bulunan **Sayfayı Yinele** seçeneği
 
 
