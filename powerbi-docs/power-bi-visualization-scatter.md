@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584128"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964780"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI'daki dağılım grafikleri ve kabarcık grafikleri
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
@@ -116,9 +116,9 @@ Verilerinizde bu bilgiler yoksa X ve Y değerlerinizden her noktada benzersiz ve
 Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullanarak veri kümenize bir Dizin Sütunu ekleyin](desktop-add-custom-column.md).  Ardından bu sütunu görselleştirmenizin **Ayrıntılar** bölümüne ekleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
- [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Ücretsiz deneyin!](https://powerbi.com/)  
+[Ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/get-started/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

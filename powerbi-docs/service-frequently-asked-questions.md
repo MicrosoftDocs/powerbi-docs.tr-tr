@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755059"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964826"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -24,8 +24,10 @@ ms.locfileid: "34755059"
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI nedir?
 Power BI, herkesin verileri daha yüksek hız, verimlilik ve kavrayış ile görselleştirebilmesini ve çözümleyebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler sayesinde kullanıcıların çok çeşitli veriler ile bağlantı kurmasını sağlar. [Power BI Nedir](power-bi-overview.md) sorusuyla ilgili daha fazla bilgi edinin.
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI ile Power BI Pro arasındaki fark nedir?
-Power BI, yepyeni bir yöntemle verileri araştırmaya başlamanıza yardımcı olmak üzere her türlü özelliği içerir. Power BI Pro ise Power BI'daki muhteşem özelliklere ek olarak daha fazla depolama kapasitesi, bir günden daha kısa aralıklarla veri yenilemeyi zamanlama, tam etkileşimli canlı veri kaynakları, gruplar ve çok daha fazlasını sağlar. [Power BI Pro ve ücretsiz Power BI arasındaki farklar](https://powerbi.microsoft.com/pricing) hakkında daha fazla bilgi edinin.
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro ile Power BI Premium arasındaki fark nedir?
+Power BI Pro, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim izni veren bireysel bir lisanstır. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
+
+Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite ve daha büyük hacimli veriler için destek sunar. Premium ayrıca bireysel kullanıcılar için içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcılar tarafından geniş ölçekte dağıtılmasını sağlar.
 
 ## <a name="how-much-does-power-bi-cost"></a>Power BI'ın maliyeti nedir?
 Power BI Desktop ücretsizdir. Power BI Pro'nun 60 günlük ücretsiz deneme sürümü vardır. [Power BI fiyatlandırma](https://powerbi.microsoft.com/pricing) bölümünde fiyatlar hakkında bilgi edinin.
@@ -34,7 +36,7 @@ Power BI Desktop ücretsizdir. Power BI Pro'nun 60 günlük ücretsiz deneme sü
 Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkında SSS](service-premium-faq.md).
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Kuruluşumda kimin bir Power BI hesabının olduğunu nasıl öğrenebilirim?
-Power BI için Azure Active Directory Integrated Applications raporunu inceleyerek kuruluşunuzdaki etkin kullanıcıları görüntüleyebilirsiniz. Azure AD raporu bir kullanıcının Power BI'da Ücretsiz Pro kullanıcı olup olmadığını göstermez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md).
+Power BI için Azure Active Directory Integrated Applications raporunu inceleyerek kuruluşunuzdaki etkin kullanıcıları görüntüleyebilirsiniz. Azure AD raporu kullanıcıların sahip olduğu lisans türlerini belirtmez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md).
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir masaüstü uygulamasıdır. Power BI Desktop yüksek düzeyde etkileşimli görselleştirmeler ile gelişmiş veri keşfi, şekillendirme, modelleme ve rapor oluşturma olanağı sağlayarak Power BI ile uyumlu şekilde çalışır. Çalışmanızı bir dosyaya kaydedebilir ve verilerinizi ve raporlarınızı Power BI sitenizde yayımlayarak diğer kişilerle paylaşabilirsiniz. [Power BI Desktop Nedir](desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964849"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına SSO (çoklu oturum açma) ile bağlanmak için Kerberos'u kullanma
 Şirket içi veri ağ geçidinizi Kerberos ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi, çoklu oturum açma (SSO) bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery’den yararlanarak kurar.
 
-Şu anda, tümü [Kerberos Kısıtlanmış Temsil](https://technet.microsoft.com/library/jj553400.aspx)'i temel alan, SQL Server, SAP HANA ve Teradata veri kaynakları desteklenmektedir.
+Şu anda, aşağıda belirtilen ve tümü [Kerberos Kısıtlanmış Temsil](https://technet.microsoft.com/library/jj553400.aspx)’i temel alan veri kaynakları desteklenmektedir:
 
 * SQL Server
 * SAP HANA
-* SAP BW
 * Teradata
 
 Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında canlı olarak sorgu yürütülmesine neden olabilir.  Veri kaynağı için çoklu oturum açma yapılandırıldığında, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her bir kullanıcı tam olarak, temel alınan veri kaynağında ilgili izinlere sahip olduğu verileri görür. Çoklu oturum açma yapılandırılmış olduğunda, paylaşılan verilerin farklı kullanıcılar için önbelleğe alınması söz konusu değildir.
