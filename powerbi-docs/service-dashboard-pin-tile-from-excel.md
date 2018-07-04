@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584082"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599606"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  
@@ -60,7 +60,7 @@ Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin yollarından bir
    * Var olan pano: Açılan listeden panonun adını seçin.
    * Yeni pano: Yeni panonun adını yazın.
    
-    ![Panoya sabitle iletişim kutusu](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Panoya sabitle iletişim kutusu](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. **Sabitle**'yi seçin. Sağ üst köşeye yakın bir noktada çıkan Başarılı iletisi, aralığın bir kutucuk olarak panonuza eklendiğini bildirir. 
    
     ![Panoya sabitlendi iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)

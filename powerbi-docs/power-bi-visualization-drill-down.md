@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584220"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600932"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI’daki görselleştirmelerde ayrıntı modu
 
@@ -179,11 +179,11 @@ Bu örnekte, [Perakende Analizi örneğiyle](sample-datasets.md) birlikte ilerle
 
 Eksen veri alanı **Ay** olsa da **Eksen** kutusunda yine de bir **Yıl** kategorisi oluşturur. Bunun nedeni Power BI’ın, okuduğu tüm değerler için tam DateTime yapısını sağlamasıdır. Hiyerarşinin üst tarafında yıla ait veriler gösterilir.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 Detaya Gitme modu açık olduğunda, hiyerarşide bir düzey kadar detaya gitmek için grafikteki çubuğa tıklayın. Üç aylık dönemlere ait kullanılabilir verilere ilişkin üç çubuk görürsünüz. Daha sonra sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini belirleyin. Daha sonra hiyerarşinin, her ayın sonuçlarını gösteren en düşük düzeyine inmek için bu işlemi tekrarlayın.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 Görselleştirmenin dışında, hiyerarşinin her rapor için oluşturulan verilere yansıdığını görebiliriz. Aşağıdaki tablo, tek bir ayın veya tüm ayların detayına giden bir raporda **Verileri Göster** seçeneğinin sonuçlarını gösterir. 
 
@@ -192,8 +192,8 @@ Verilerin üç aylık ve yıllık raporlar için aynı olduğunu, ancak **Değer
 
 |Genişletme modu|Yıl|Çeyrek|Ay|Gün|
 | ---|:---:|:---:|:---:|---|
-|Tek|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Tümü|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Tek|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Tümü|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Hiyerarşik kategori verileri
@@ -201,20 +201,20 @@ Koleksiyonlardan ve alt koleksiyonlardan modeli oluşturulan veriler hiyerarşik
 
 Bu örnekte, [Perakende Analizi örneğiyle](sample-datasets.md) birlikte ilerleyin. **Total Units This Year** (Bu Yıla Ait Birimlerin Toplamı) (Değerler) özelliğini **Bölge**, **Şehir**, **Posta Kodu** ve **Ad**’a (Grup) göre gösteren yığılmış bir sütun grafik görselleştirmesi oluşturun.  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 Detaya Gitme modu açıkken, sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini üç kez belirleyin.
 Hiyerarşinin Bölge, Şehir ve Posta Kodu sonuçlarını gösteren en düşük düzeyinde olmanız gerekir.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 Görselleştirmenin dışında, hiyerarşinin her rapor için oluşturulan verilere yansıdığını görebiliriz. Aşağıdaki tablo, tek bölge veya tüm bölgeler için detaya giden bir raporda **Verileri Göster** seçeneğinin sonuçlarını gösterir. Detaya gittikçe, tek bir raporun daha ayrıntılı hale geldiğini ve "tüm bölgeler" raporunun daha fazla veri içerdiğini görebilirsiniz.
 
 
 | Genişletme modu|Bölge|Şehir|Posta Kodu|Ad|
 | ---|:---:|:---:|:---:|---|
-|Tek|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Tümü|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Tek|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Tümü|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
