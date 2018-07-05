@@ -2,12 +2,12 @@
 title: Microsoft Power BI Destekli Öğrenme
 description: Sıralı olarak sunulan bu kursların yardımıyla öğrenme sürecinizi başlatın ve Microsoft Power BI'ın kapsamlı ve güçlü özelliklerini anlayın.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310165"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600688"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,7 +272,7 @@ Verileri araştırma </h3>
                                 <span style="margin-left: 32px; align-self: center;">9 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Özel Soru-Cevap önerileri oluşturma</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Özel Soru&amp;Cevap önerileri oluşturma</a>
                                 <span style="margin-left: 32px; align-self: center;">4 dk</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287682"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136606"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop'taki Analiz Bölmesini Kullanma
 **Power BI Desktop**'taki **Analiz** bölmesini kullanarak görsellere *dinamik başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. **Analiz** bölmesi, Power BI Desktop’ın **Görselleştirmeler** alanında bulunur.
@@ -114,7 +114,7 @@ Power BI Desktop ile yapabileceğiniz çok şey var. Sunulan özellikler hakkın
 
 * [Power BI Desktop'taki Yenilikler](desktop-latest-update.md)
 * [Power BI Desktop'ı İndirme](desktop-get-the-desktop.md)
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'taki Veri Türleri](desktop-data-types.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
