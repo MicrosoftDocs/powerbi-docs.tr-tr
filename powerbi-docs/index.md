@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Power BI Belgeleri
 description: Power BI Belgeleri
-ms.openlocfilehash: da81bbbac4b4e92cf5e22580e27087e9e0cc54e1
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "33945676"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597359"
 ---
 <div id="main" class="v2">
     <div class="container">

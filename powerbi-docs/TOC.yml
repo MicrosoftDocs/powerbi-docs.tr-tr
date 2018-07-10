@@ -12,6 +12,8 @@
       items:
         - name: GitHub örneğine bağlanma
           href: service-tutorial-connect-to-github.md
+        - name: Power BI ile çalışmaya başlama
+          href: service-get-started.md
     - name: Kavramlar
       items:
         - name: Power BI hizmetindeki yenilikler
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Power BI Desktop dosyalarından veri alma
                   href: service-desktop-files.md
+                - name: Veri kümeleri için parametre ayarları
+                  href: service-parameters.md
                 - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
                   href: service-comma-separated-value-files.md
                 - name: Power BI'da gerçek zamanlı akış (Önizleme)
@@ -860,16 +864,12 @@
           items:
             - name: iOS uygulaması ile çalışmaya başlama
               href: mobile-iphone-app-get-started.md
-            - name: iPad uygulamasını kullanmaya başlama
-              href: mobile-ipad-app-get-started.md
             - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch uygulaması
               href: mobile-apple-watch.md
             - name: iPhone’unuzdaki uygulamadan barkod tarama
               href: mobile-apps-scan-barcode-iphone.md
-            - name: iOS için Power BI uygulamaları
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS ve Android
           items:
             - name: Mobil uygulamalarda not ekleme ve paylaşma
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: Power BI raporlarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
               href: developer/integrate-report.md
-            - name: İçeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
-              href: developer/embed-sample-for-customers.md
             - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Özel düzenleri uygulamaya ekleme
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: service-admin-mobile-intune.md
+    - name: Başvuru
+      items:
+        - name: 'PowerShell, REST API’ler ve .NET SDK'
+          href: service-admin-reference.md
+        - name: PowerShell için Power BI cmdlet’leri
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Kaynaklar
       items:
         - name: Power BI yönetim ve dağıtım yaklaşımları
