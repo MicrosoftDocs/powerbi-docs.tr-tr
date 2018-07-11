@@ -11,11 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 2c52dd30a2b0dc911adbf706ec5007bb553f2717
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092311"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925294"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'da depolanan veri kümelerini yenileme
 OneDrive veya SharePoint Online gibi bulut depolama alanlarından Power BI hizmetine dosya aktarmak, **Power BI Desktop** uygulamasında yaptığınız çalışmaların Power BI hizmeti ile eşitlenmiş durumda kalmasını sağlamak için mükemmel bir yöntemdir.

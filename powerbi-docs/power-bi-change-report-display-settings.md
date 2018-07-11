@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244573"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598767"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Bir rapor sayfasının boyutunu değiştirme
 [Önceki makalede ve videoda](power-bi-report-display-settings.md), Power BI raporlarındaki sayfaların nasıl görüntüleneceğini denetlemeye ilişkin iki farklı yöntem öğrendiniz: **Görünüm** ve **Sayfa Boyutu**. Sayfa görünümü ve Sayfa Boyutu hem Power BI hizmetinde hem de Power BI Desktop'ta kullanılabilir. Görünüm ve işlevler de hemen hemen aynıdır ancak bu eğitimde biz Power BI hizmetini kullanacağız.
@@ -31,19 +31,19 @@ ms.locfileid: "34244573"
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Tuvalde herhangi bir görselleştirmenin seçili olmadığından emin olun. **Görünüm**'ü seçin ve görüntüleme seçeneklerini gözden geçirin.
 
-    * Okuma görünümünde, aşağıdaki seçenekleri görürsünüz.
+   * Okuma görünümünde, aşağıdaki seçenekleri görürsünüz.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Düzenleme görünümü'nde ise aşağıdaki gibi bir menüyle karşılaşırsınız.
+   * Düzenleme görünümü'nde ise aşağıdaki gibi bir menüyle karşılaşırsınız.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. **Gerçek boyut** ayarını kullanarak sayfanın nasıl göründüğüne bakalım.
+3. **Gerçek boyut** ayarını kullanarak sayfanın nasıl göründüğüne bakalım.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Pek iyi göründüğü söylenemez. Panoda artık iki kaydırma çubuğu bulunmaktadır.
-2. **Genişliğe uydur**'u seçin.
+4. **Genişliğe uydur**'u seçin.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

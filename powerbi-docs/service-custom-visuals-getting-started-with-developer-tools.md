@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296322"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600391"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Özel görseller oluşturmak için geliştirici araçları kullanma
 Özel görseller, kullanıcılarınızın ihtiyaçlarını karşılamanıza ve uygulamanızın tasarımını uyumlu hale getirmenize olanak sağlar. Geliştirme araçlarını kullanarak Power BI için özel görsel oluşturmayı öğrenin.
@@ -32,14 +32,14 @@ ms.locfileid: "34296322"
 
 1. [NodeJS](https://nodejs.org)'yi indirin ve yükleyin. 4.0 veya sonraki bir sürüm gereklidir ancak 5.0 veya sonraki bir sürümünün kullanılması önerilir.
 2. Komut satırı araçlarını yükleyin. Bir komut isteminde aşağıdaki komutu çalıştırın.
-   
+
         npm install -g powerbi-visuals-tools
 3. Herhangi bir parametre olmadan aşağıdaki komutu çalıştırarak araçların yüklendiğini doğrulayabilirsiniz.
-   
+
         pbiviz
-   
+
     Yardım çıktısını görmeniz gerekir.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296322"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ Bir sertifika *oluşturmak* için aşağıdaki komutu çalıştırın.
 Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > PFX sertifikasını yüklemek için yeni oluşturulan Parolanızı kullanmanızı söyleyen bir ileti görürsünüz.
 > 
@@ -112,20 +112,20 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 **Windows İşletim Sistemi**
 
 1. **Sertifika Yükle...** seçeneğini belirleyin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. **Geçerli Kullanıcı**'yı ve ardından **İleri**'yi seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. **Tüm sertifikaları aşağıdaki depolama alanına yerleştir** ve **Gözat...** seçeneklerini belirleyin.
 4. **Güvenilen Kök Sertifika Yetkilileri**'ni ve ardından **Tamam**'ı seçin. **İleri**'yi seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. **Son**'u seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Güvenlik uyarısı iletişim kutusundaki **Evet** seçeneğini belirleyin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Açık tüm tarayıcıları kapatın.
 
@@ -137,13 +137,13 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 **OSX**
 
 1. Sol üstteki kilit kapalıysa açmak için kilidi seçin. *localhost* sertifikasını bulup bu sertifikaya çift tıklayın.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. **Her Zaman Güven** seçeneğini belirleyip pencereyi kapatın.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Kullanıcı adınızı ve parolanızı girin. **Ayarları Güncelle**'yi seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Açık tüm tarayıcıları kapatın.
 
@@ -157,15 +157,15 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
 1. [app.powerbi.com](https://app.powerbi.com) adresine gidip burada oturum açın.
 2. **Dişli simgesini**ve ardından **Ayarlar**'ı seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. **Geliştirici**'yi seçin ve ardından **Geliştirici görselini test amacıyla etkinleştir** seçeneğini belirleyin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. **Görsel Öğeler** bölmesinde **Geliştirici Görseli**'ni seçin.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Bunun için, geliştirme yaptığınız makinedeki görsel klasöründe `pbiviz start` komutunu çalıştırmanız gerekir. Görselinizi oluşturma ile ilgili daha fazla bilgi için bu makaledeki [Yeni görsel oluşturma](#create-a-new-visual) bölümüne bakın.
    > 
@@ -196,11 +196,11 @@ Aşağıdakileri gerçekleştirerek görselinizi çalıştırabilirsiniz.
 1. Bir istem açın.
 2. Dizininizi görsel klasörünüz olarak ayarlayın. Bu, `pbiviz.json` dosyasını içeren klasördür.
 3. Aşağıdaki komutu çalıştırın.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Yanlış konumdaysanız aşağıdakine benzer bir hata ile karşılaşırsınız.
@@ -249,7 +249,7 @@ Aşağıdakileri gerçekleştirerek görselinizi paketleyebilirsiniz.
 1. Bir istem açın.
 2. Dizininizi görsel klasörünüz olarak ayarlayın. Bu, `pbiviz.json` dosyasını içeren klasördür.
 3. Aşağıdaki komutu çalıştırın.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ Böylece görselinizin API sürümü 1.2.0 olarak güncelleştirilir. `1.2.0` s�
 Görsel projeniz, `pbiviz new` komutunu çalıştırdığınızda oluşturulan klasördür. 
 
 ### <a name="file-structure"></a>Dosya yapısı
+
 | Öğe | Açıklama |
 | --- | --- |
 | assets/ |Görsel varlıkları (simge, ekran görüntüsü vb.) depolamak için kullanılır. |

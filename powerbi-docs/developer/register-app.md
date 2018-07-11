@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599503"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925013"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme
 Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye (Azure AD) nasıl kaydedeceğinizi öğrenin.
@@ -23,7 +23,6 @@ Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure AD'ye 
 
 > [!IMPORTANT]
 > Bir Power BI uygulamasını kaydedebilmek için [Azure Active Directory kiracısına ve kuruluş kullanıcısına](create-an-azure-active-directory-tenant.md) sahip olmanız gerekir. Power BI'a kiracınızdaki bir kullanıcıyla kaydolmadıysanız uygulama kaydı başarıyla tamamlanmaz.
-> 
 > 
 
 Uygulamanızı kaydetmek için kullanabileceğiniz iki yöntem vardır. Kayıt için [Power BI Uygulama Kayıt Aracı](https://dev.powerbi.com/apps/)'nı kullanabilir veya kaydı doğrudan Azure portalından gerçekleştirebilirsiniz. Doldurulacak yalnızca birkaç alan olduğu için Power BI Uygulama Kayıt Aracı en kolay seçenektir. Uygulamanızda değişiklik yapmak istiyorsanız Azure portalını kullanın.
@@ -45,7 +44,7 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
    
     **Giriş Sayfası URL**'si yalnızca uygulama türü olarak **Sunucu tarafı Web uygulaması**'nı seçerseniz kullanılabilir.
    
-    *Müşterileriniz için içerik ekleme* ve *integrate-dashboard-web-app* örnekleri için yeniden yönlendirme URL'si `http://localhost:13526/redirect` şeklindedir. Rapor ve kutucuk örneği için yeniden yönlendirme URL'si `http://localhost:13526/` şeklindedir.
+    *Müşterileriniz için içerik ekleme* ve *integrate-dashboard-web-app* örnekleri için **yeniden yönlendirme URL'si** şeklindedir`http://localhost:13526/Redirect`. Rapor ve kutucuk örneği için yeniden **yönlendirme URL'si** şeklindedir`http://localhost:13526/`.
 6. Erişimi olan uygulamanın API'lerini seçin. Power BI erişim izinleri hakkında daha fazla bilgi için bkz. [Power BI İzinleri](power-bi-permissions.md).
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Uygulamanızı kaydetmek için kullanabileceğiniz diğer seçenek Azure portal�
 5. Talimatları izleyerek yeni bir uygulama oluşturun.
    
    * Web Uygulamaları için kullanıcıların oturum açacağı uygulamanızın temel URL'si olan Oturum Açma URL'sini girin, örneğin: `http://localhost:13526`.
-   * Yerel Uygulamalar için Azure AD'nin belirteç yanıtlarını döndürmek için kullanacağı Yeniden Yönlendirme URI'sini girin. Uygulamanıza özgü bir değer girin, örneğin: `http://myapplication/redirect`
+   * Yerel Uygulamalar için Azure AD'nin belirteç yanıtlarını döndürmek için kullanacağı **Yeniden Yönlendirme URI'sini** girin. Uygulamanıza özgü bir değer girin, örneğin: `http://myapplication/Redirect`
 
 Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Integrating applications with Azure Active Directory (Uygulamaları Azure Active Directory ile tümleştirme)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

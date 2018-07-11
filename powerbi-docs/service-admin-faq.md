@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297251"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926608"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -41,14 +41,13 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 * [Kayıtlı kullanıcıların Power BI lisansını nasıl kaldırabilirim?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Kiracıma yeni kullanıcıların katıldığını nasıl anlarım?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Hazırlıklı olmam gereken başka şeyler var mı?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [Bu ücretsiz olarak mı sunuluyor? Bu lisanslar için ücret ödemem gerekir mi?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Power BI kiracım nerede bulunur?](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) nedir?](#what-is-the-power-bi-sla)
 
 **Power BI'da Güvenlik**
 
 * [Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI'da güvenlik nasıl sağlanır?](#how-does-security-work-in-power-bi?)
+* [Power BI'da güvenlik nasıl sağlanır?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Power BI'a kaydolma
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Kullanıcılar Power BI'a nasıl kaydolur?
@@ -232,9 +231,6 @@ Parola sıfırlama isteklerinde bir artış ile karşılaşabilirsiniz. Bu işle
 
 Office 365 yönetim merkezinde standart işlemi uygulayarak kiracınızdan kullanıcı kaldırabilirsiniz. Ancak, kullanıcı kuruluşunuzun etkin bir e-posta adresine sahipse siz tüm kullanıcıların katılımını engellemediğiniz sürece tekrar katılabilir.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Bu ücretsiz olarak mı sunuluyor? Bu lisanslar için ücret ödemem gerekir mi?
-**Power BI (ücretsiz)** lisansları Power BI'ın ücretsiz olan sürümü içindir. Ek özelliklerle ilgileniyorsanız [Power BI Pro sürümüne](service-premium.md) göz atın.
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 Power BI kiracınızın konumunu (veri bölgesi olarak da bilinir) nasıl bulacağınız hakkında bilgi edinmek için bkz. [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md)
 
@@ -252,7 +248,6 @@ Power BI, Office 365 temel alınarak oluşturulmuştur. Office 365'in altyapıs�
 [Power BI yönetici portalı](service-admin-portal.md)  
 [Power BI yönetici rolünü anlama](service-admin-role.md)  
 [Power BI için self servis kayıt](service-self-service-signup-for-power-bi.md)  
-[Kuruluşunuz için Power BI (ücretsiz)](service-admin-service-free-in-your-organization.md)  
 [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium nedir?](service-premium.md)  
 [Power BI Premium'u satın alma](service-admin-premium-purchase.md)  

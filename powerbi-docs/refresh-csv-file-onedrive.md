@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 42f5353c49d562f4fefeec81867fd9e9ff4831c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5f64c32b2e4756d8815316cc45ddfd96a2167d71
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239037"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092288"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'daki bir .CSV dosyasından oluşturulan veri kümelerini yenileme
 ## <a name="what-are-the-advantages"></a>Avantajları nelerdir?
@@ -31,7 +31,7 @@ Virgülle ayrılmış değer dosyaları basit metin dosyalarıdır, bu nedenle d
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive veya OneDrive İş. Aralarındaki fark nedir?
 Hem kişisel OneDrive hem de OneDrive İş kullanıyorsanız Power BI'da bağlanmak istediğiniz dosyaları OneDrive İş hesabınızda tutmanız önerilir. Bunun nedeni, büyük olasılıkla bu hesaplarda oturum açmak için farklı hesaplar kullanıyor olmanızdır.
 
-Power BI'da oturum açmak için kullandığınız hesap, OneDrive İş'te oturum açmak için kullandığınız hesapla genellikle aynı olduğundan, Power BI'da OneDrive İş'e kesintisiz bir şekilde bağlanabilirsiniz. Ancak kişisel OneDrive hesabınızda oturum açmak için muhtemelen farklı bir [Microsoft hesabı](http://www.microsoft.com/account/default.aspx) kullanıyorsunuzdur.
+Power BI'da oturum açmak için kullandığınız hesap, OneDrive İş'te oturum açmak için kullandığınız hesapla genellikle aynı olduğundan, Power BI'da OneDrive İş'e kesintisiz bir şekilde bağlanabilirsiniz. Ancak kişisel OneDrive hesabınızda oturum açmak için muhtemelen farklı bir [Microsoft hesabı](https://account.microsoft.com) kullanıyorsunuzdur.
 
 Microsoft hesabınızda oturum açtığınızda Oturumumu açık bırak'ı seçmeyi unutmayın. Bu sayede Power BI, veri kümelerinde gerekli güncelleştirmeleri gerçekleştirebilir
 

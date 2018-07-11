@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298976"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926525"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Öğretici: SQL Server’da şirket içi verilere bağlanma
 
@@ -128,7 +128,7 @@ Birlikte çalışacağınız örnek verileri elde ettikten sonra, Power BI Deskt
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server’ı ağ geçidi veri kaynağı olarak ekleme
 
-Power BI Desktop’ta doğrudan SQL Server’a bağlanabilirsiniz ancak Power BI hizmetinin köprü olarak görev yapması için bir ağ geçidi gerekir. Şimdi, önceki bir makalede oluşturduğunuz ağ geçidi için veri kaynağı olarak SQL Server örneğinizi ekleyin ([Önkoşullar](#prereqisites) altında listelenmiştir). 
+Power BI Desktop’ta doğrudan SQL Server’a bağlanabilirsiniz ancak Power BI hizmetinin köprü olarak görev yapması için bir ağ geçidi gerekir. Şimdi, önceki bir makalede oluşturduğunuz ağ geçidi için veri kaynağı olarak SQL Server örneğinizi ekleyin ([Önkoşullar](#prerequisites) altında listelenmiştir). 
 
 1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-sql-tutorial/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
 
@@ -142,15 +142,17 @@ Power BI Desktop’ta doğrudan SQL Server’a bağlanabilirsiniz ancak Power BI
 
     ![Veri kaynağı ayarlarını girme](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Seçenek | Değer |
-    | ---    | ---   |
-    | **Veri Kaynağı Adı**       | test-sql-source      |
-    | **Veri Kaynağı Türü**       | SQL Server      |
-    | **Sunucu**       |  SQL Server örneğinizin adı (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır)    |
-    | **Veritabanı**       | TestGatewayDocs      |
-    | **Kimlik Doğrulama Yöntemi**       | Windows      |
-    | **Kullanıcı adı**        |  SQL Server'a bağlanmak için kullandığınız michael@contoso.com gibi hesap     |
-    | **Parola**       |  SQL Server’a bağlanmak için kullandığınız hesabın parolası    |
+
+   |          Seçenek           |                                               Değer                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Veri Kaynağı Adı**    |                                          test-sql-source                                           |
+   |   **Veri Kaynağı Türü**    |                                             SQL Server                                             |
+   |        **Sunucu**         | SQL Server örneğinizin adı (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır) |
+   |       **Veritabanı**        |                                          TestGatewayDocs                                           |
+   | **Kimlik Doğrulama Yöntemi** |                                              Windows                                               |
+   |       **Kullanıcı adı**        |             SQL Server'a bağlanmak için kullandığınız michael@contoso.com gibi hesap             |
+   |       **Parola**        |                   SQL Server’a bağlanmak için kullandığınız hesabın parolası                    |
+
 
 4. **Ekle**'yi seçin. İşlem başarılı olduğunda *Bağlantı Başarılı* ifadesini görürsünüz.
 

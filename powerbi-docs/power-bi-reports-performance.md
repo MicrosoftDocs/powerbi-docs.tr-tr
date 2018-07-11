@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310556"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598899"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -115,7 +115,7 @@ Yönergeler aşağıda verilmiştir:
    [msmdsrv.exe] 
 
    msmdsrv.exe tarafından kullanılan bağlantı noktasını bulun ve daha sonra kullanmak üzere not alın. Bu örnekte, 55786 numaralı bağlantı noktasını kullanabilirsiniz. 
-3.  **SQL Server Profiler’ı Power BI Desktop’a bağlayın** 
+3. **SQL Server Profiler’ı Power BI Desktop’a bağlayın** 
 
    - **Başlangıç** menüsünden SQL Server Profiler’ı başlatın 
    - **Dosya** > **Yeni İzleme** 

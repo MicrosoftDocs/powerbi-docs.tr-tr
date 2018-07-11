@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251610"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937274"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI ile Microsoft Dynamics CRM'e bağlanma
 Power BI için Microsoft Dynamics CRM Online, verilerinize kolayca erişmenize ve verilerinizi çözümlemenize olanak sağlar. Power BI; Hesaplar, Etkinlikler, Fırsatlar, Ürün, Müşteri Adayları, Kullanıcılar ve daha fazlası gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle açıklayıcı bir model oluşturmak için OData akışını kullanır. Uygulamayı yükledikten sonra panoyu ve raporları Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve Power BI mobil uygulamalarında görüntüleyebilirsiniz. 

@@ -11,11 +11,11 @@ ms.date: 05/03/2018
 ms.author: maghan
 LocalizationGroup: Create reports
 ms.openlocfilehash: 022668737f6bcce987b2923ba7a4416f4a08460a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287084"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38876000"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop ile satır düzeyi güvenlik (RLS)
 Power BI Desktop ile satır düzeyi güvenlik (RLS), belirli kullanıcıların veri erişimini kısıtlar. Filtreler verileri satır düzeyinde kısıtlar. Rollerde filtre tanımlayabilirsiniz.

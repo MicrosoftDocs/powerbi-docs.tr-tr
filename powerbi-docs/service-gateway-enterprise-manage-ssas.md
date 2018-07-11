@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297159"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599193"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
@@ -52,7 +52,7 @@ Bir ağ geçidini kaldırmak, söz konusu ağ geçidi altındaki tüm veri kayna
 
 1. Sağ üst köşedeki dişli simgesi ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **Ağ geçitlerini yönet**'i seçin.
 2. Ağ geçidi > **Kaldır**'ı seçin
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Veri kaynağı ekleme
@@ -119,15 +119,13 @@ UPN Eşleme ekranına gitmek için aşağıdakileri yapın.
 2. Analysis Services veri kaynağını içeren ağ geçidini genişletin. Alternatif olarak, Analysis Services veri kaynağını oluşturmadıysanız bu işlemi bu noktada gerçekleştirebilirsiniz.
 3. Veri kaynağını seçin ve ardından **Kullanıcılar** sekmesini seçin.
 4. **Kullanıcı adlarını eşle** seçeneğini belirleyin.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 Ardından, kural eklemenin yanı sıra belirli bir kullanıcı için test gerçekleştirmeye yönelik seçenekler görürsünüz.
 
 > [!NOTE]
-> Bir kullanıcıyı yanlışlıkla değiştirebilirsiniz. Örneğin, **Değiştir (Özgün ad)** değeriniz *@contoso.com*, **Şununla (Yeni ad)** değeriniz de *@contoso.local* ise *@contoso.com* içeren oturum açma bilgilerine sahip tüm kullanıcılar *@contoso.local* ile değiştirilir. Ayrıca **Değiştir (Özgün ad)** değeriniz *dave@contoso.com*, **Şununla (Yeni ad)** değeriniz de *dave@contoso.local* ise v-dave@contoso.com oturum açma bilgisine sahip bir kullanıcı v-dave*@contoso.local* olarak gönderilir.
-> 
-> 
+> Bir kullanıcıyı yanlışlıkla değiştirebilirsiniz. Örneğin, **Değiştir (Özgün ad)** değeriniz <em>@contoso.com</em>, **Şununla (Yeni ad)** değeriniz de <em>@contoso.local</em> ise <em>@contoso.com</em> içeren oturum açma bilgilerine sahip tüm kullanıcılar <em>@contoso.local</em> ile değiştirilir. Ayrıca **Değiştir (Özgün ad)** değeriniz <em>dave@contoso.com</em>, **Şununla (Yeni ad)** değeriniz de <em>dave@contoso.local</em> ise v-dave@contoso.com oturum açma bilgisine sahip bir kullanıcı v-dave<em>@contoso.local</em> olarak gönderilir.
 
 ### <a name="ad-lookup-mapping"></a>AD arama eşlemesi
 AAD UPN'lerini Active Directory kullanıcılarıyla yeniden eşlemek için şirket içi AD özellik arama işlemi gerçekleştirmek üzere bu bölümdeki adımları uygulayın. Başlangıç olarak bunun nasıl çalıştığını gözden geçirelim.
@@ -147,17 +145,17 @@ Yapılandırılabilir Özel Kullanıcı Eşlemesi’ne sahip Şirket içi veri a
 2. **Power BI hizmetinden** gelen UPN dizesine ("firstName.lastName@contoso.com") bağlı olarak AD Kullanıcısının özniteliğini (*E-posta* gibi) arayın.
 3. AD Arama başarısız olursa SSAS'ye EffectiveUser olarak geçirilen UPN'yi kullanmayı dener.
 4. AD Arama başarılı olursa söz konusu AD Kullanıcısı'na ilişkin *UserPrincipalName* e-postasını alır. 
-5. *UserPrincipalName* e-postasını SSAS'ye *Alias@corp.on-prem.contoso* gibi *EffectiveUser* olarak geçirir
+5. *UserPrincipalName* e-postasını SSAS'ye <em>Alias@corp.on-prem.contoso</em> gibi *EffectiveUser* olarak geçirir
 
 AD Arama gerçekleştirmek için ağ geçidinizi yapılandırma:
 
 1. En yeni ağ geçidini indirme ve yükleme
 2. Ağ geçidinde **Şirket içi veri ağ geçidi hizmetini** yerel hizmet hesabı yerine bir etki alanı hesabıyla çalışacak şekilde değiştirmeniz gerekir (Aksi halde AD arama, çalışma zamanında düzgün şekilde çalışmaz). Değişikliğin geçerli olması için ağ geçidi hizmetini yeniden başlatmanız gerekir.  Makinenizde ağ geçidi uygulamasına gidin. ("On-premises data gateway" (Şirket içi veri ağ geçidi) araması yapın). Bunu yapmak için **Service settings > Change service account** (Hizmet ayarları > Hizmet hesabını değiştir) seçeneğine gidin. Yeni bir ağ geçidi oluşturmak istemiyorsanız bu ağ geçidini aynı makinede geri yüklemeniz gerekeceğinden ağ geçidine ilişkin kurtarma anahtarını bildiğinizden emin olun. 
 3. Yazma izinlerine sahip olduğunuzdan emin olmak ve şu dosyayı düzenlemek için ağ geçidinin yüklendiği klasöre (*C:\Program Files\On-premises data gateway*) yönetici olarak gidin:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. AD kullanıcılarınıza ilişkin Active Directory özniteliği *yapılandırmalarınıza* göre aşağıdaki iki yapılandırma değerini düzenleyin. Aşağıda gösterilen yapılandırma değerleri yalnızca örnek amaçlıdır, Active Directory yapılandırmanıza göre değer belirtmeniz gerekir. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. Yapılandırma değişikliğinin geçerli olması için **Şirket içi veri ağ geçidi** hizmetini yeniden başlatın.
 

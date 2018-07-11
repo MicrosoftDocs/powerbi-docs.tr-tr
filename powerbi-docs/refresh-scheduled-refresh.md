@@ -11,11 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145468"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925226"
 ---
 # <a name="configuring-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 

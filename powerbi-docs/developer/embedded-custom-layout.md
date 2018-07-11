@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: fc684ebdf6b1ccb53bdd7794b19c1120ece635a3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288142"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597924"
 ---
 # <a name="custom-layouts"></a>Özel düzenler
 
@@ -125,7 +125,7 @@ updateSettings yöntemini kullanarak rapor düzenini rapor yüklendikten sonra h
 ```javascript
 // Get models. models contains enums that can be used.
 var models = window['powerbi-client'].models;
-    
+
 var embedConfiguration = {
     type: 'report',
     id: '5dac7a4a-4452-46b3-99f6-a25915e0fe55',
@@ -165,13 +165,12 @@ var embedConfiguration = {
         }
     }
 };
-     
+
 // Get a reference to the embedded report HTML element
 var embedContainer = document.getElementById('embedContainer');
- 
+
 // Embed the report and display it within the div container.
 var report = powerbi.embed(embedContainer, embedConfiguration);
-
 ```
 
 

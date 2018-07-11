@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248354"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598990"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 
@@ -35,12 +35,12 @@ Bu makalede aşağıdaki noktalar ele alınmaktadır.
 * [Kutucukları farklı bir panoya sabitleme](#different)
 * [Kutucukları silme](#delete)
   
- > [!TIP]
- > Kutucuğun üzerinde gösterilen görselleştirmeyi değiştirmek için kutucuğu silip yeni bir [pano kutucuğu](service-dashboard-tiles.md) ekleyin.
- > 
+  > [!TIP]
+  > Kutucuğun üzerinde gösterilen görselleştirmeyi değiştirmek için kutucuğu silip yeni bir [pano kutucuğu](service-dashboard-tiles.md) ekleyin.
 
- ### <a name="prerequisites"></a>Önkoşullar
- 1. Birlikte ilerlemek için Power BI hizmetini (Power BI Desktop'ı değil) açın ve [BT Harcama Analizi örneğini indirin](sample-it-spend.md). "Başarılı" iletisi göründüğünde **Panoya git**'i seçin.
+  
+## <a name="prerequisites"></a>Önkoşullar
+Birlikte ilerlemek için Power BI hizmetini (Power BI Desktop'ı değil) açın ve [BT Harcama Analizi örneğini indirin](sample-it-spend.md). "Başarılı" iletisi göründüğünde **Panoya git**'i seçin.
 
 - - -
 <a name="create"></a>

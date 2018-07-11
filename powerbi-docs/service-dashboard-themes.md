@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813814"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944664"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI hizmetinde Pano Temaları kullanma
 **Pano Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) panonuzun tamamına uygulayabilirsiniz. Bir **Pano Teması** uyguladığınızda panonuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
@@ -89,7 +89,6 @@ Yerleşik ve özel seçeneklerde olduğu gibi, tema karşıya yüklendiğinde re
 
     ![Hedef temayı kullan](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Pano temaları şu anda REST API kullanılarak eklenen panolar mobil cihazlarda veya dış kullanıcılar tarafından görüntülenmesi sırasında desteklenmemektedir.    
 * Pano temaları; sabitlenmiş canlı rapor sayfaları, iframe kutucukları, SSRS kutucukları, çalışma kitabı kutucukları ya da görüntülere uygulanamaz.
 * Pano temaları, mobil cihazlar üzerinde görüntülenebilir ancak bir pano teması yalnızca Power BI hizmetinde oluşturulabilir. 
 * Pano özel temaları yalnızca raporlardan sabitlenmiş kutucuklarla çalışır. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250327"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926663"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 Office 365 şirketlere, Office 365'i kendi çözümleriyle paketlenmiş ve tümleştirilmiş biçimde yeniden satma olanağı sunar ve son kullanıcılara satın alma, fatura ve destek için tek bir irtibat noktası sağlar.
@@ -33,7 +33,7 @@ Power BI'ı doğrudan satın alamamanız halinde, ne tür bir Power BI aboneliğ
 
 [Power BI (ücretsiz)](#power-bi-free)
 
-[Power BI Pro ve Premium](#power-bi-pro)
+[Power BI Pro ve Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (ücretsiz)
 Ücretsiz Power BI teklifinden memnunsanız ücretsiz hizmete kaydolabilirsiniz. Özel abonelikler olarak da bilinen bireysel kaydolma işlemleri varsayılan olarak devre dışıdır. Power BI'a kaydolmayı denediğinizde BT departmanınızın Microsoft Power BI'a kaydolmayı devre dışı bıraktığını belirten bir ileti ile karşılaşırsınız.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137503"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877343"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -38,7 +38,7 @@ Bu görevleri tamamlamak için birkaç veri bağlantısından yararlanacağız. 
 Bu veri kaynaklarından her ikisine de bağlanmak için gerekli adımlar, sık kullanılan Sorgu görevlerinin başlangıcı niteliğindedir.
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
-Power BI Desktop'ta verilere bağlanmak için, şeritteki **Giriş** sekmesinde bulunan **Veri Al** seçeneğini belirleyin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün alt kısmında bulunan **Diğer...** düğmesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki Veri Kaynakları](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Power BI Desktop'ta verilere bağlanmak için, şeritteki **Giriş** sekmesinde bulunan **Veri Al** seçeneğini belirleyin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün alt kısmında bulunan **Diğer...** düğmesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki Veri Kaynakları](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Web sayfasının URL'sini girebileceğiniz **Web'den** penceresi görüntülenir
 
 Diğer veri bağlantıları da benzer şekilde kurulur. Bir veri bağlantısını gerçekleştirmek için kimlik doğrulaması gerekiyorsa Power BI Desktop, geçerli kimlik bilgilerini girmenizi ister.
 
-Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Verileri şekillendirme ve birleştirme
-Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünden alınan) Sorgu Düzenleyicisi’ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
 

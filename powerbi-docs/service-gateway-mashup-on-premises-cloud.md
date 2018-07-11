@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250690"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600079"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Şirket içinde ve bulutta veri kaynakları birleştirme ya da ekleme
 
@@ -38,17 +38,17 @@ ms.locfileid: "35250690"
 
 4. Bu ağ geçidi kümesi altında, sorgularınızda kullanılan herhangi bir [şirket içi veri kaynağını](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source) ekleyin. Burada bulut veri kaynaklarını eklemenize gerek yoktur.
 
-4. Şirket içi ve bulut veri kaynaklarını birleştiren sorgularla birlikte Power BI Desktop dosyanızı Power BI hizmetine yükleyin.
+5. Şirket içi ve bulut veri kaynaklarını birleştiren sorgularla birlikte Power BI Desktop dosyanızı Power BI hizmetine yükleyin.
 
-5. Yeni veri kümesinin **Veri kümesi ayarları** sayfasında:
+6. Yeni veri kümesinin **Veri kümesi ayarları** sayfasında:
 
-    - Şirket içi kaynak için bu veri kaynağı ile ilişkili ağ geçidini seçin.
+   - Şirket içi kaynak için bu veri kaynağı ile ilişkili ağ geçidini seçin.
 
-    - **Veri kaynağı kimlik bilgileri** altında, bulut veri kaynağı kimlik bilgilerini gerektiği gibi düzenleyin.
+   - **Veri kaynağı kimlik bilgileri** altında, bulut veri kaynağı kimlik bilgilerini gerektiği gibi düzenleyin.
 
-    ![Veri kümesi ayarları](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![Veri kümesi ayarları](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. Bulut kimlik bilgileri ayarlandıktan sonra **Şimdi yenile** seçeneğini kullanarak veri kümesini yenileyebilir veya düzenli aralıklarla yenilenecek şekilde zamanlayabilirsiniz.
+7. Bulut kimlik bilgileri ayarlandıktan sonra **Şimdi yenile** seçeneğini kullanarak veri kümesini yenileyebilir veya düzenli aralıklarla yenilenecek şekilde zamanlayabilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481061"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599170"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için destek zaman çizelgesi
 Power BI Rapor Sunucusu yılda birkaç kez yayımlanacaktır. Bir sonraki sürüm genel kullanıma sunulana kadar güvenlik güncelleştirmeleri ve kritik güncelleştirmeler sağlanır. Sonraki sürümün yayımlanmasının ardından önceki sürüm, 12 aylık kullanım süresinin geri kalan dönemi boyunca güvenlik güncelleştirmeleri almaya devam eder.
@@ -27,6 +27,7 @@ Bu destek politikası sayesinde müşterilerimize hızlı bir şekilde yenilikle
     ![Destek zaman dilimini gösteren graf](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>Sürüm geçmişi
+
 | **Sürüm** | **Kullanıma sunulma tarihi** | **Destek bitiş tarihi** |
 | --- | --- | --- |
 | Haziran 2017 |12 Haziran 2017 |12 Haziran 2018 |
