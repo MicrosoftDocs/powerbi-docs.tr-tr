@@ -11,11 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092219"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924343"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme
 Yerel makinenizde veya OneDrive İş ya da SharePoint Online gibi bulut depolama alanlarında depolanan Excel çalışma kitaplarını içeri aktarabilirsiniz. Bu makalede, Excel dosyalarınız için bulut depolama alanı kullanımının avantajları anlatılmaktadır. Excel dosyalarını Power BI'a aktarma hakkında daha fazla bilgi için bkz. [Excel çalışma kitabı dosyalarından veri alma](service-excel-workbook-files.md).
