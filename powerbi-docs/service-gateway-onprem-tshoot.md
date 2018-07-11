@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755082"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926617"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabileceğiniz bazı yaygın sorunlar ele alınmıştır.
@@ -31,10 +31,10 @@ Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabilece
 Ağ geçidi bir Windows hizmeti olarak çalıştırılır, böylece onu birçok şekilde başlatıp durdurabilirsiniz. Örneğin, ağ geçidinin çalıştırıldığı makinede, yükseltilmiş izinlerle bir komut istemi açabilir ve ardından bu komutlardan birini çalıştırabilirsiniz:
 
 * Hizmeti durdurmak için şu komutu çalıştırın:
-  
+
     '''   net stop PBIEgwService   '''
 * Hizmeti başlatmak için şu komutu çalıştırın:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Hata: Ağ geçidi oluşturulamadı. Lütfen yeniden deneyin.
@@ -70,7 +70,7 @@ Bu sorunu gidermek için aşağıdakileri yapın.
 
 1. Ağ geçidini kaldırın.
 2. Aşağıdaki klasörü silin.
-   
+
         c:\Program Files\On-premises data gateway
 3. Ağ geçidini yeniden yükleyin.
 4. İsterseniz mevcut bir ağ geçidini geri yüklemek için kurtarma anahtarını kullanabilirsiniz.
@@ -129,11 +129,11 @@ Bunu doğrulamak için aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
 1. SQL Server Management Studio'daki Analysis Services makinesine bağlanın. Gelişmiş bağlantı özellikleri bölümünde, söz konusu kullanıcı için EffectiveUserName özelliğini ekleyip hatanın yeniden oluşturulup oluşturulmadığına bakın.
 2. Özniteliğin listelenip listelenmediğini doğrulamak için dsacls Active Directory aracını kullanabilirsiniz. Bu araç normalde bir etki alanı denetleyicisinde bulunur. Hesaba ilişkin ayırt edici etki alanı adının ne olduğunu bilmeniz ve bu bilgiyi araca iletmeniz gerekir.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     Aşağıdakine benzer bir sonuç elde etmelisiniz.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Bunu doğrulamak için aşağıdaki işlemleri gerçekleştirin.
 
 1. [Ağ geçidi günlüklerinde](#logs) etkin kullanıcı adını bulun.
 2. Değeriniz iletilirken değerin doğru olduğunu onaylayın. Değer, kullanıcınıza aitse bir komut isteminde aşağıdaki komutu kullanarak kullanıcı asıl adının nasıl olması gerektiğini görebilirsiniz. Kullanıcı asıl adı bir e-posta adresi gibi görünür.
-   
+
         whoami /upn
 
 İsterseniz Power BI'ın Azure Active Directory'den alacağı değeri görebilirsiniz.
 
-1. [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) adresine göz atın.
+1. [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer) adresine göz atın.
 2. Sağ üst köşedeki **Sign in** (Oturum aç) seçeneğini belirleyin.
 3. Aşağıdaki sorguyu çalıştırın. Daha kapsamlı bir JSON yanıtı alırsınız.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. **userPrincipalName** değerini bulun.
 
@@ -206,7 +206,7 @@ Hangi veri merkezi bölgesinde yer aldığınızı bulmak için aşağıdaki iş
 1. Power BI hizmetinin sağ üst köşesindeki **?** seçeneğini belirleyin.
 2. **Power BI Hakkında**'yı seçin.
 3. **Verilerinizin depolandığı yer** bölümünde, veri bölgenizi görebilirsiniz.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Herhangi bir ilerleme kaydedemediyseniz [fiddler](#fiddler) veya netsh gibi araçları kullanarak bir ağ izlemesi gerçekleştirmeyi deneyebilirsiniz ancak bunlar gelişmiş veri toplama yöntemleridir ve toplanan verileri çözümlemek için yardıma ihtiyacınız olabilir. Yardım almak için [destek](https://support.microsoft.com) bölümüyle iletişime geçebilirsiniz.
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Etkinlik Türleri
+
 | Etkinlik Türü | Açıklama |
 | --- | --- |
 | MGEQ |ADO.NET üzerinden yürütülen sorgular. Buna DirectQuery veri kaynakları dahildir. |
@@ -342,9 +343,9 @@ Veri kaynağını sorgulama işleminin ne kadar sürdüğünü belirlemek için 
 2. Sorguyu bulmak için bir [Etkinlik Türünü](#activities) arayın. MGEQ, buna örnek olarak verilebilir.
 3. İkinci GUID değerini not edin; bu, istek kimliğidir.
 4. Süre bilgisini içeren FireActivityCompletedSuccessfullyEvent girişini bulmak için MGEQ etkinliğini aramaya devam edin. Girişin, aynı istek kimliğine sahip olduğunu doğrulayabilirsiniz. Süre, milisaniye cinsinden belirtilir.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent ayrıntılı bir giriştir. TraceVerbosity düzeyi 5 değilse bu giriş günlüğe kaydedilmez.
    > 
@@ -423,12 +424,12 @@ AD’de temsilciniz düzgün şekilde yapılandırılmadıysa -10709 Bağlantı 
 Zamanlanmış yenileme için ağ geçidini kullandığınız sırada **Yenileme Geçmişi** seçeneği, oluşan hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerekmesi halinde size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi**'ne ulaşmak için aşağıdaki adımları uygulayın.
 
 1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünde bir veri kümesi seçin ve ardından&gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Yenileme geçmişi** seçeneğini belirleyin.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Yenileme senaryoları ile ilgili sorunları giderme hakkında ek bilgi için [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md) başlıklı makaleye göz atın.

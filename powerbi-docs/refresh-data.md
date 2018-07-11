@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253631"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599760"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.
@@ -101,6 +101,7 @@ Veri yenileme, dış çevrimiçi veya şirket içi veri kaynaklarına bağlanan 
 Dosyalarınızı OneDrive veya SharePoint Online'da tutmanız ve bunları Power BI hizmetinden bağlamanız büyük bir esneklik sağlar. Ancak bu esneklik aynı zamanda anlaşılmasını çok güç hale getirir. OneDrive veya SharePoint Online'da depolanan dosyalar için zamanlanmış yenileme paket yenilemeden farklıdır. [Yenileme türleri](#types-of-refresh) bölümünden daha fazla bilgi edinebilirsiniz.
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop dosyası
+
 | **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
 | --- | --- | --- | --- |
 | Veri Al (şerittedir) listelenen tüm çevrimiçi veri kaynaklarına bağlanmak ve bunlardan veri sorgulamak üzere kullanılır. |Hayır |Evet |Hayır (aşağıya bakın) |
@@ -117,6 +118,7 @@ Dosyalarınızı OneDrive veya SharePoint Online'da tutmanız ve bunları Power 
 Ayrıntılar için bkz. [OneDrive'daki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Excel çalışma kitabı
+
 | **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
 | --- | --- | --- | --- |
 | Excel veri modeline yüklenmeyen çalışma sayfasındaki veri tabloları. |Evet, saatlik *(yalnızca OneDrive/SharePoint Online)* |Yalnızca el ile *(yalnızca OneDrive/SharePoint Online)* |Hayır |
@@ -131,6 +133,7 @@ Ayrıntılar için bkz. [OneDrive'daki bir Power BI Desktop dosyasından oluştu
 Daha ayrıntılı bilgi için bkz. [OneDrive'daki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'da virgülle ayrılmış değer (.csv) dosyası
+
 | **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
 | --- | --- | --- | --- |
 | Basit virgülle ayrılmış değer |Evet, saatlik |Yalnızca el ile |Hayır |
@@ -145,6 +148,7 @@ Power BI'da iki tür içerik paketi vardır:
 **Kurumsal içerik paketleri**: Kuruluşunuzdaki kullanıcılar tarafından oluşturulur ve paylaşılır. İçerik paketi tüketicileri bir yenileme zamanlaması oluşturamaz veya el ile yenileme yapamaz. Yalnızca içerik paketini oluşturan kişi içerik paketindeki veri kümeleri için yenileme ayarlayabilir. Yenileme ayarları veri kümesi ile birlikte devralınır.
 
 ### <a name="content-packs-from-online-services"></a>Çevrimiçi hizmetlerden içerik paketleri
+
 | **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
 | --- | --- | --- | --- |
 | Veri Al &gt; Hizmetler yolundaki çevrimiçi hizmetler |Evet |Evet |Hayır |
@@ -237,7 +241,7 @@ Bu durumda, SalesReport.xlsx veri kümesindeki verileri el ile yenileyebilir vey
 > 
 > 
 
-Daha fazla bilgi için bkz. [Power BI'daki Excel verileri](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [Şirket içi veri ağ geçidi](service-gateway-onprem.md), [Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)](refresh-excel-file-local-drive.md).
+Daha fazla bilgi için bkz. [Power BI'daki Excel verileri](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [Şirket içi veri ağ geçidi](service-gateway-onprem.md), [Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Bir OData akışından alınan veriler ile Power BI Desktop dosyası
 Bu durumda, bir OData akışına bağlanmak ve bu akıştan sayım verilerini içeri aktarmak üzere Power BI Desktop'ta Veri Al işlevini kullanırsınız.  Power BI Desktop'ta birden fazla rapor oluşturur, ardından dosyayı WACensus olarak adlandırır ve şirketinizde ortak bir konuma kaydedersiniz. Daha sonra dosyayı Power BI hizmetine yayımlarsınız.
@@ -270,7 +274,7 @@ Sorun giderme hakkında daha fazla bilgi için bkz. [Yenileme ile ilgili sorun g
 ## <a name="next-steps"></a>Sonraki adımlar
 [Yenileme ile ilgili sorun giderme araçları](service-gateway-onprem-tshoot.md)  
 [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

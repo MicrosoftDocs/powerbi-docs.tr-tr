@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f42efcb833c723e7af9132f7e039c8ff8805d17d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288211"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137388"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
@@ -193,8 +193,8 @@ Azure Portal'daki ayrıntı sütunları ve adları API ve bağlayıcıda benzerd
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

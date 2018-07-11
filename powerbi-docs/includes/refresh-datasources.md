@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
+
 | **Veri kaynağı** |
 | --- |
 | Analysis Services - Tablo |

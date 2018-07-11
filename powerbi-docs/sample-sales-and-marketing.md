@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f03a8615f4ea679b1778e7612a2d6fc4449f457
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722259"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944503"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI için Satış ve Pazarlama örneği: Tura katılın
 
@@ -30,7 +30,7 @@ Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kulla
 
 ## <a name="prerequisites"></a>Önkoşullar
 
- Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529785) olarak indirmeniz gerekir.
+ Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529785) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 

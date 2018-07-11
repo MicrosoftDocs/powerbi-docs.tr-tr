@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290672"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137503"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -218,7 +218,7 @@ Sorgu Düzenleyicisi'ne ilişkin formül kategorileri aşağıda verilmiştir:
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291040"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600786"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -83,33 +83,33 @@ Basit bir formül oluşturalım. Bu görev, formül söz dizimini ve formül çu
 ### <a name="task-create-a-measure-formula"></a>Görev: Ölçü formülü oluşturma
 Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını açmanız gerekir.
     
-1.  Rapor görünümündeki alan listesinde, **Sales** tablosuna sağ tıklayın ve ardından **Yeni Ölçü**'ye tıklayın.
+1. Rapor görünümündeki alan listesinde, **Sales** tablosuna sağ tıklayın ve ardından **Yeni Ölçü**'ye tıklayın.
     
-2.  Formül çubuğundaki **Ölçü**'yü, yeni bir ölçü adı (**Previous Quarter Sales**) yazarak değiştirin.
+2. Formül çubuğundaki **Ölçü**'yü, yeni bir ölçü adı (**Previous Quarter Sales**) yazarak değiştirin.
     
-3.  Eşittir işaretinden sonra **SUM** yazın ve hemen ardına bir sol ayraç ekleyin.
+3. Eşittir işaretinden sonra **SUM** yazın ve hemen ardına bir sol ayraç ekleyin.
     
-    Hemen toplamak için bir sütun adı yazmak yerine başka bir işlev girerek, toplamak istediğimiz verileri *filtreleyeceğiz*.
+   Hemen toplamak için bir sütun adı yazmak yerine başka bir işlev girerek, toplamak istediğimiz verileri *filtreleyeceğiz*.
     
-4.  Ayraçlar arasına **CALCULATE** yazın ve hemen ardına bir sol ayraç ekleyin.
+4. Ayraçlar arasına **CALCULATE** yazın ve hemen ardına bir sol ayraç ekleyin.
     
-    CALCULATE işlevine geçirdiğimiz bir bağımsız değişkenle toplamak istediğimiz tutarları filtrelemek için CALCULATE işlevini kullanırsınız. Bunlar, iç içe geçen işlevler olarak adlandırılır. CALCULATE işlevinin en az iki bağımsız değişkeni vardır. Bunlardan ilki değerlendirilecek ifade, ikincisi ise bir filtredir.
+   CALCULATE işlevine geçirdiğimiz bir bağımsız değişkenle toplamak istediğimiz tutarları filtrelemek için CALCULATE işlevini kullanırsınız. Bunlar, iç içe geçen işlevler olarak adlandırılır. CALCULATE işlevinin en az iki bağımsız değişkeni vardır. Bunlardan ilki değerlendirilecek ifade, ikincisi ise bir filtredir.
    
-5.  **CALCULATE** işlevine ilişkin ayraçların **()** arasına **Sales[SalesAmount]** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
+5. **CALCULATE** işlevine ilişkin ayraçların **()** arasına **Sales[SalesAmount]** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
     
-6.  Birinci filtreyi belirtmek için bir virgülden (**,**) sonra **PREVIOUSQUARTER** yazın ve hemen ardına bir sol ayraç ekleyin.
+6. Birinci filtreyi belirtmek için bir virgülden (**,**) sonra **PREVIOUSQUARTER** yazın ve hemen ardına bir sol ayraç ekleyin.
     
-    SUM sonuçlarımızı önceki üç aylık döneme göre filtrelemek için PREVIOUSQUARTER akıllı zaman gösterimi işlevini kullanırsınız.
+   SUM sonuçlarımızı önceki üç aylık döneme göre filtrelemek için PREVIOUSQUARTER akıllı zaman gösterimi işlevini kullanırsınız.
     
-7.  PREVIOUSQUARTER işlevine ilişkin ayraçların **()** arasına **Calendar[DateKey]** yazın.
+7. PREVIOUSQUARTER işlevine ilişkin ayraçların **()** arasına **Calendar[DateKey]** yazın.
     
-    PREVIOUSQUARTER işlevi, bitişik tarih aralığı içeren bir sütun olan tek bir bağımsız değişkene sahiptir.
+   PREVIOUSQUARTER işlevi, bitişik tarih aralığı içeren bir sütun olan tek bir bağımsız değişkene sahiptir.
     
-8.  Biri PREVIOUSQUARTER işlevine, diğeri ise CALCULATE işlevine geçirilen her iki bağımsız değişkenin de hemen ardına iki sağ ayraç **))** eklediğinizden emin olun.
+8. Biri PREVIOUSQUARTER işlevine, diğeri ise CALCULATE işlevine geçirilen her iki bağımsız değişkenin de hemen ardına iki sağ ayraç **))** eklediğinizden emin olun.
     
    Formülünüzün aşağıdaki gibi görünmesi gerekir:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. Formülü doğrulayıp modele eklemek için formül çubuğundaki onay işaretine ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) tıklayın veya Enter tuşuna basın.
 

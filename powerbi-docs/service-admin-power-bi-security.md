@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296239"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598880"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini indirin](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -48,7 +48,7 @@ Yukarıdaki **Arka Uç** kümesi resminde yer alan kesik çizgi, kullanıcılar 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 Power BI, oturum açan kullanıcıların kimliğini doğrulamak için Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) hizmetini; kullanıcının, kimlik doğrulaması gerektiren kaynaklara erişmek istemesi halinde ise Power BI oturum açma kimlik bilgilerini kullanır. Power BI hizmetinde, Power BI hesabını oluşturmak için kullandığı e-posta adresiyle oturum açan kullanıcılar için Power BI, ilgili e-posta adresini *etkin kullanıcı adı* olarak kullanır ve kullanıcı verilere bağlanmaya çalıştığında kaynaklara bu bilgiyi iletir. Ardından *etkin kullanıcı adı* bir *Kullanıcı Asıl Adı* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) ile eşlenerek ilişkili Windows etki alanı hesabı çözümlenir ve kimlik doğrulaması bu hesaba uygulanır.
 
-Power BI oturumu açmak için iş e-postalarını kullanan kuruluşlarda (*david@contoso.com* gibi) *etkin kullanıcı adı* doğrudan UPN ile eşlenir. Power BI oturumu açmak için iş e-postalarını kullanmayan kuruluşlarda (*david@contoso.onmicrosoft.com* gibi) AAD ve şirket içi kimlik bilgileri arasında eşleme yapılabilmesi için [dizin eşitleme](https://technet.microsoft.com/library/jj573653.aspx) hizmetinin düzgün çalışması gerekir.
+Power BI oturumu açmak için iş e-postalarını kullanan kuruluşlarda (<em>david@contoso.com</em> gibi) *etkin kullanıcı adı* doğrudan UPN ile eşlenir. Power BI oturumu açmak için iş e-postalarını kullanmayan kuruluşlarda (<em>david@contoso.onmicrosoft.com</em> gibi) AAD ve şirket içi kimlik bilgileri arasında eşleme yapılabilmesi için [dizin eşitleme](https://technet.microsoft.com/library/jj573653.aspx) hizmetinin düzgün çalışması gerekir.
 
 Power BI için platform güvenliği aynı zamanda çok kiracılı ortam güvenliğini, ağ güvenliğini ve AAD tabanlı ek güvenlik önlemleri ekleme olanağını da kapsar.
 

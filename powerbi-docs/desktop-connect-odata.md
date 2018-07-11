@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b744676deecbd84890057af84e331d6e7a15e90
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6edc34a8ac9c4a891814a7dea5b5863e4cb8998
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290948"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135318"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Power BI Desktop'ta OData akışlarına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **OData akışına** bağlanabilir ve temel alınan verileri kullanabilirsiniz.
@@ -49,8 +49,8 @@ Artık görsel ve rapor oluşturmak veya diğer Excel çalışma kitapları, ver
 ### <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

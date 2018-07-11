@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297274"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945147"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Ağaç haritaları hakkında daha fazla bilgi için aşağıdaki bağlantıları
 Burada pasta grafiklerinin yararlı olabileceği tek noktanın parça-bütün ilişkilerini karşılaştırmak olduğunu açıklamıştır. Ancak, bu grafiğin %100 yığılmış çubuk grafikten daha iyi olduğu zamanlar yok denecek kadar azdır.
 
 Pasta grafikler hakkında başka bir eğlenceli makale (ve animasyon) için [Darkhorse Analytics sitesini](http://www.darkhorseanalytics.com/blog/salvaging-the-pie) ziyaret edebilirsiniz.
-
-Dilerseniz olaya diğer taraftan bakmak için [Why Tufte is flat-out wrong about pie charts (Tufte'ın pasta grafikler hakkında doğru bildikleri)](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) yazısını okuyabilirsiniz
 
 #### <a name="radial-gauges--kpis"></a>Radyal Ölçekler ve KPI'ler
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

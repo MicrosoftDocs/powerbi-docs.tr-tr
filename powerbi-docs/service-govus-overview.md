@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 94f4bf71f0b97b202ce05f1caadee43ccea6a733
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813653"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135939"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -105,5 +105,5 @@ Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demosu</a>
 * [Power BI için Destekli Öğrenme](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 

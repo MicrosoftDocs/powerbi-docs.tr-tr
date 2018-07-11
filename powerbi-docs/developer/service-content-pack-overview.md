@@ -1,19 +1,20 @@
 ---
 title: Power BI hizmeti içerik paketi programına genel bakış
 description: İçerik Paketi Sertifika Programı
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/20/2018
-ms.author: maghan
-ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 6697c820ff5aac30f12794cd28ca403faec4761f
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290933"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI hizmeti içerik paketi programına genel bakış
 İçerik paketleri, kullanıcıların bir kaynaktan hemen öngörü edinmesine olanak sağlayan bir hazır içerik dizisidir. İçerik paketleri genellikle belirli bir iş senaryosuna odaklanarak bir rol, etki alanı veya iş akışına yönelik öngörüler sağlar.

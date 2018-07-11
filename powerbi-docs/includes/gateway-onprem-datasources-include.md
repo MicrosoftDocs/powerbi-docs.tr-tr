@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Kullanılabilir veri kaynağı türlerinin listesi
+
 | **Veri kaynağı** | **Canlı/DirectQuery** | **Kullanıcı tarafından yapılandırılan, elle yenileme veya zamanlanmış yenileme** |
 | --- | --- | --- | --- |
 | Analysis Services - Tablo |Evet |Evet |

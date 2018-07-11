@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 7feb562c5d2d96c4d726b93393a0b4a26c658415
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301769"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134766"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Impala veritabanına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Impala** veritabanına bağlanabilir ve temel alınan verileri kullanabilirsiniz.
@@ -50,8 +50,8 @@ Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve s
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

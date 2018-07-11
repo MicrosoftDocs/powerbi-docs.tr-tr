@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813308"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599503"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme
 Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye (Azure AD) nasıl kaydedeceğinizi öğrenin.
@@ -54,9 +54,8 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
     Bundan sonra size bir **İstemci Kimliği** verilir ve **Sunucu tarafı Web uygulaması** seçerseniz bir **İstemci Gizli Dizisi** alırsınız. İleride ihtiyaç duymanız halinde **İstemci kimliğine** Azure portalından ulaşabilirsiniz. **İstemci Gizli Dizisi**'ni kaybederseniz Azure portalından yeni bir tane oluşturmanız gerekir.
 
 8. **İzin ver**’i seçmek için Azure’a gitmeniz gerekir.
-> [!Note]
-    > Bu işlemi tamamlaması için Azure kiracısında genel yönetici olması gerekir
->
+   > [!Note]
+   > Bu işlemi tamamlaması için Azure kiracısında genel yönetici olması gerekir
 
 * Azure'a gidin.
 * **Uygulama kayıtları**’nı arayıp seçin.
@@ -83,8 +82,8 @@ Uygulamanızı kaydetmek için kullanabileceğiniz diğer seçenek Azure portal�
     ![](media/register-app/azuread-new-app-registration.png)
 5. Talimatları izleyerek yeni bir uygulama oluşturun.
    
-   * Web Uygulamaları için kullanıcıların oturum açacağı uygulamanızın temel URL'si olan Oturum Açma URL'sini girin, örneğin: http://localhost:13526.
-   * Yerel Uygulamalar için Azure AD'nin belirteç yanıtlarını döndürmek için kullanacağı Yeniden Yönlendirme URI'sini girin. Uygulamanıza özgü bir değer girin, örneğin: http://myapplication/redirect
+   * Web Uygulamaları için kullanıcıların oturum açacağı uygulamanızın temel URL'si olan Oturum Açma URL'sini girin, örneğin: `http://localhost:13526`.
+   * Yerel Uygulamalar için Azure AD'nin belirteç yanıtlarını döndürmek için kullanacağı Yeniden Yönlendirme URI'sini girin. Uygulamanıza özgü bir değer girin, örneğin: `http://myapplication/redirect`
 
 Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Integrating applications with Azure Active Directory (Uygulamaları Azure Active Directory ile tümleştirme)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ Ekleme için kullanılan *ana* hesapla veya Genel yönetici hesabıyla oturum a�
    * **AllPrincipals**, kiracıdaki tüm kullanıcılar adına izin vermek için yalnızca bir kiracı yöneticisi tarafından kullanılabilir.
    * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}*.
     
-    Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemi gereklidir.
+     Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemi gereklidir.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  Azure Active Directory’ye (AAD) Uygulama İzinleri Verme
+5. Azure Active Directory’ye (AAD) Uygulama İzinleri Verme
    
-    **consentType** değeri, **AllPrincipals** veya **Principal** parametresini belirtebilir.
+   **consentType** değeri, **AllPrincipals** veya **Principal** parametresini belirtebilir.
 
-    * **AllPrincipals**, kiracıdaki tüm kullanıcılar adına izin vermek için yalnızca bir kiracı yöneticisi tarafından kullanılabilir.
-    * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}*.
+   * **AllPrincipals**, kiracıdaki tüm kullanıcılar adına izin vermek için yalnızca bir kiracı yöneticisi tarafından kullanılabilir.
+   * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}*.
     
-    Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemi gereklidir.
+   Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemi gereklidir.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Uygulamanızı Azure AD'ye kaydettikten sonra uygulamanızdaki kullanıcıların kimliğini doğrulamanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241959"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965217"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-install-use-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
@@ -33,7 +33,7 @@ Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-insta
 * Grup e-posta adresini görebilirsiniz.
 * Grubu silebilirsiniz.
 
-Uygulama çalışma alanının yöneticisi veya üyesi olabilmek için [Power BI Pro](service-free-vs-pro.md) lisansınız olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Bu durumda iş kullanıcıları, uygulamanıza Power BI ücretsiz lisansıyla da erişebilir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+Uygulama çalışma alanının yöneticisi veya üyesi olabilmek için [Power BI Pro](service-free-vs-pro.md) lisansınız olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI'da uygulama çalışma alanınızı düzenleme
 1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Çalışma alanını düzenle**'yi seçin. 

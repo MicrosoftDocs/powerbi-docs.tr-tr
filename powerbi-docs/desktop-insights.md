@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286095"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134697"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Power BI Desktop'taki öngörüleri kullanma (Önizleme)
 **Power BI Desktop**'tan grafiklerdeki artışları veya düşüşleri açıklamasını isteyerek verileriniz hakkında hızlı, otomatik ve öngörü sunan analizlere ulaşabilirsiniz. Tek yapmanız gereken bir veri noktasına sağ tıklayıp **Analiz > Düşüşü açıkla**'yı (veya önceki değer daha düşükse artışı) seçmek. Öngörü, kullanışlı bir pencerede gösterilir.
@@ -72,7 +72,7 @@ Ayrıca aşağıdaki model türleri ve veri kaynakları da öngörüler için de
 ## <a name="next-steps"></a>Sonraki adımlar
 **Power BI Desktop** ve Power BI Desktop'la çalışmaya başlama hakkında daha fazla bilgi için aşağıdaki makalelere başvurun.
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)

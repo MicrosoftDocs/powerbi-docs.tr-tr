@@ -1,26 +1,27 @@
 ---
 title: Power BI'daki şablon içerik paketi deneyimleri
 description: Şablon İçerik Paketi Deneyimleri
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 08ef57499c53c084b3b738e8f847d4b7742aae70
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290589"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI'daki şablon içerik paketi deneyimleri
 Bu bölümde, bir ISV [içerik paketine](../service-connect-to-services.md) bağlanan kullanıcıların edineceği genel deneyim açıklanmaktadır. 
 
 https://app.powerbi.com/getdata/services adresindeki içerik paketine bağlanarak (aşağıda açıklanan [GitHub içerik paketi](https://app.powerbi.com/getdata/services/github) gibi) bağlantı deneyimini kendiniz de edinebilirsiniz.
 
-## <a name="connect"></a>Bağlan:
+## <a name="connect"></a>Bağlan
 Kullanıcı başlangıç olarak içerik paketi galerisine göz atar ve bağlanmak istediği içerik paketini seçer. İçerik paketi girişinde ad, simge ve kullanıcıyı bilgilendiren bir açıklama metni bulunur.
 
 ![Bağlanma](media/template-content-pack-experience/github_data.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290879"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601001"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** seçeneğini kullanarak, verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede, aşağıdaki konu başlıkları da dahil olmak üzere **DirectQuery** ve özellikleri anlatılmaktadır:
@@ -152,7 +152,7 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
     
     Bunun nedeni, çok sayıda öğe bulunması durumunda bu ölçünün düşük bir performansa neden olabileceğidir.
 * **Hesaplanmış tabloların desteklenmemesi:** DAX ifadesi kullanarak hesaplanmış tablo tanımlama özelliği, DirectQuery modunda desteklenmez.
-* **İlişki filtrelemenin tek bir yönle sınırlı olması:** DirectQuery kullanılırken bir ilişkideki Çapraz Filtre yönü "Her İkisi De" olarak ayarlanamaz. Örneğin, aşağıdaki üç tablo ile her bir Customer[Gender] verisini ve her müşterinin satın aldığı Product[Category] sayısını gösteren bir görsel oluşturulamaz. Bu türde iki yönlü filtreleme kullanımı [bu teknik incelemede ayrıntılı şekilde](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
+* **İlişki filtrelemenin tek bir yönle sınırlı olması:** DirectQuery kullanılırken bir ilişkideki Çapraz Filtre yönü "Her İkisi De" olarak ayarlanamaz. Örneğin, aşağıdaki üç tablo ile her bir Customer[Gender] verisini ve her müşterinin satın aldığı Product[Category] sayısını gösteren bir görsel oluşturulamaz. Bu türde iki yönlü filtreleme kullanımı [bu teknik incelemede ayrıntılı şekilde](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

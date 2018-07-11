@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286394"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137365"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 **Power BI Desktop** ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
@@ -137,8 +137,8 @@ Sorgunuz istediğiniz gibi olduğunda veya çalışmanızın kaydedildiğinden e
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   

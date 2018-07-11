@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297113"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599013"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme
 Bu eğitimde, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz.   Görselleştirmelerinizi özelleştirmeye yönelik pek çok seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu, Biçimlendirme bölmesini keşfetmektir (boya rulosu simgesini seçerek).  Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.  
@@ -41,26 +41,26 @@ Amanda raporundaki görselleştirmeleri özelleştirirken ona eşlik edin. (Vide
 
 1. Raporun "New Stores" sayfasına gidin ve "Open Month ve Chain ölçütlerine göre Open Store Count" sütun grafiğini seçin.
 2. Görsel Öğeler bölmesinde, biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.  Ardından **Başlık** seçeneğini belirleyerek bu bölümü genişletin.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. Açık (veya Kapalı) kaydırıcısını seçerek **Başlık**'ı etkinleştirebilir ve devre dışı bırakabilirsiniz. Şimdilik **Açık** durumunda bırakın.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. Metin alanına **Store count by month opened** yazarak **Başlık Metni**'ni değiştirin.  
 5. **Yazı tipi rengi**'ni turuncu, **Arka Plan Rengi**'ni ise sarı olarak değiştirin.
-   
+
    * Açılan menüyü seçin ve **Tema Renkleri**, **Son Kullanılan Renkler** veya **Özel renk**'ten bir renk seçin.
    * Renk penceresini kapatmak için, açılan menüyü seçin.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    Renk penceresindeki **Varsayılana geri dön** seçeneğini belirleyerek dilediğiniz zaman varsayılan renklere dönebilirsiniz.
 6. Metin boyutunu 12'ye yükseltin.
 7. Grafik başlığı için gerçekleştireceğimiz son özelleştirme olarak, başlığı görselleştirmenin ortasına gelecek şekilde hizalayacağız. Başlık konumu varsayılan olarak sola hizalıdır.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     Eğitimin bu noktasında, sütun grafiğinizin **başlığının** aşağıdaki gibi görünmesi gerekir:  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     Bu ana kadar gerçekleştirdiğimiz tüm başlık özelleştirmelerini geri almak için, **Başlık** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Aynı sütun grafiği seçili durumdayken Arka Plan seçeneklerini genişletin.
 
 1. Açık (veya Kapalı) kaydırıcısını seçerek arka planı etkinleştirebilir ya da devre dışı bırakabilirsiniz. Şimdilik **Açık** durumunda bırakın.
 2. Arka plan rengini %74 gri olarak değiştirin.
-   
+
    * Açılan menüyü seçin ve **Tema Renkleri**, **Son Kullanılan Renkler** veya **Özel renk**'ten bir gri tonu belirleyin.
    * Saydamlık ayarını %74 olarak değiştirin.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    Bu ana kadar gerçekleştirdiğimiz tüm özelleştirmeleri geri almak için **Arka Plan** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.
 
 ## <a name="customize-visualization-legends"></a>Görselleştirme açıklamalarını özelleştirme
 1. **Overview** adlı rapor sayfasını açın "FiscalMonth ve District Manager ölçütlerine göre Total Sales Variance" grafiğini seçin.
 2. Görsel Öğeler sekmesinde, biçimlendirme bölmesini açmak için boya fırçası simgesini seçin.  
 3. **Açıklama** seçeneklerini genişletin.
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. Açık (veya Kapalı) kaydırıcısını seçerek açıklamayı etkinleştirin ya da devre dışı bırakın. Şimdilik **Açık** durumunda bırakın.
 5. Açıklamayı görselleştirmenin sol tarafına taşıyın.    
 6. **Başlık** seçeneğini **Açık** olarak değiştirip **Gösterge adı** alanına **Managers** yazarak bir açıklama başlığı ekleyin.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    Bu ana kadar gerçekleştirdiğimiz tüm özelleştirmeleri geri almak için **Açıklama** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>Özelleştirilebilen görselleştirme türleri
+
 | Görselleştirme | Başlık | Arka Plan | Açıklama |
 |:--- |:--- |:--- |:--- |
 | alan |evet |evet |evet |

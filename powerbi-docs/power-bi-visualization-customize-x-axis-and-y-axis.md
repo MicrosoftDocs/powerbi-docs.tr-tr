@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295718"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600531"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 Bu eğitimde görsellerinizin x eksenini ve y eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerde eksenler bulunmaz ve tüm görseller özelleştirilemez; örneğin Pasta grafiklerde eksen bulunmaz. Özelleştirme seçenekleri görsellere göre farklılık gösterir. Tek bir makalede ele alınamayacak kadar çok seçenek vardır. Bu nedenle en sık kullanılan bazı eksenlere ilişkin özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel biçimlendirme sekmesini rahatlıkla kullanmanızı sağlayacağız.  
@@ -86,9 +86,9 @@ Mağaza sayısının satış üzerindeki etkisini gösteren bir Birleşik harita
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
-2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (0M% kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
+> 2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (0M% kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve Yığılmış Sütun grafiğine dönüştürün.

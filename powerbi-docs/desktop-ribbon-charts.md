@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285543"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136767"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI'daki şerit grafikleri kullanma
 **Power BI**'da verileri görselleştirmek ve en yüksek dereceli (en yüksek değer) veri kategorisini hızla belirlemek için şerit grafikleri kullanabilirsiniz. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir. **Power BI Desktop**'ta şerit grafikler, Eylül 2017 sürümünden başlayarak ve **Power BI hizmetinde** gerçekleştirilen sonraki güncelleştirmelerle kullanıma sunulmuştur.
@@ -44,7 +44,7 @@ Bir şerit grafik oluşturduğunuzda **Görsel Öğeler** bölmesinin **Biçim**
 ## <a name="next-steps"></a>Sonraki adımlar
 **Power BI Desktop** ve Power BI Desktop'la çalışmaya başlama hakkında daha fazla bilgi için aşağıdaki makalelere başvurun.
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)

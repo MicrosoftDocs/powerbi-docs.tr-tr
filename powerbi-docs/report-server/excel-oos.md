@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481912"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092679"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
 Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir. Rapor sunucunuz, self servis Microsoft BI içeriklerini yayımlayacak ve görüntüleyecek tek bir konum haline gelir.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametreler**
 
-* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun tam etki alanı adıdır (FQDN), örneğin: http://servername.contoso.com.
+* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun tam etki alanı adıdır (FQDN), örneğin: `http://servername.contoso.com`.
 * **–ExternalURL**: İnternet'ten erişilebilen FQDN bilgisidir.
 * **–CertificateName**: Sertifikanın kolay adıdır.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parametreler**
 
-* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun adıdır, örneğin: http://servername.
+* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun adıdır, örneğin: `http://servername`.
 * **–AllowHttp**: Grubu HTTP kullanacak şekilde yapılandırır.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server grubunun başarıyla oluşturulduğunu doğrulama

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286348"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599662"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 **Power BI Desktop** ile verilerinizi görselleştirmek için **R** programlama dilini kullanabilirsiniz.
@@ -81,9 +81,9 @@ R yüklemenizi belirttiğinizde R görselleri oluşturmaya başlayabilirsiniz.
    * **R betik düzenleyicisi** başlık çubuğunda **Çalıştır** seçeneğini belirlediğinizde
    * Veri yenileme, filtreleme veya vurgulama işlemi nedeniyle her veri değişikliği gerçekleştiğinde
 
-    Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
+     Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. Görselleştirmelerin daha büyük bir görünümünü elde etmek için **R betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz. **Power BI Desktop**'taki diğer görsellerde olduğu gibi, halka görselinde (yukarıdaki örnek görüntüsünde, sağdaki yuvarlak görsel) yalnızca spor otomobilleri seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
 

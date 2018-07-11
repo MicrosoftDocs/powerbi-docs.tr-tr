@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309935"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599881"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
@@ -313,7 +313,7 @@ Dosya yüklendikten sonra, Power BI hizmetinin sol bölmesindeki **Raporlar** b�
 
 Rapor tuvalinin üst kısmındaki **Raporu Düzenle**'yi seçerek **Power BI** hizmetindeki bir raporda değişiklik yapabilirsiniz.
 
-Raporunuzu kaydetmek için hizmette **Dosya \> Farklı Kaydet**'i seçin. **Power BI** hizmetinde raporunuzu kullanarak birçok ilgi çekici görsel oluşturabilir ve bu görselleri *panolara* sabitleyebilirsiniz. **Power BI** hizmetindeki panolar hakkında daha fazla bilgi için bkz. **[Harika bir pano oluşturmaya yönelik ipuçları](service-dashboards-design-tips.md)**.
+Raporunuzu kaydetmek için hizmette **Dosya \> Farklı Kaydet**'i seçin. **Power BI** hizmetinde raporunuzu kullanarak birçok ilgi çekici görsel oluşturabilir ve bu görselleri *panolara* sabitleyebilirsiniz. **Power BI** hizmetindeki panolar hakkında daha fazla bilgi için bkz. <strong>[Harika bir pano oluşturmaya yönelik ipuçları](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721398"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598954"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makalede, raporlardaki Filtreler bölmesine ilişkin ayrıntılı bir bakış sunulmuştur. Bu bölmeyi [Power BI hizmeti Düzenleme Görünümü ve Okuma Görünümü](service-reading-view-and-editing-view.md) ile [Power BI Desktop Rapor görünümü](desktop-report-view.md) içinde görürsünüz.
@@ -77,7 +77,7 @@ Belirli bir filtreye yönelik seçenekleri görüntülemek için filtre adının
 ## <a name="add-a-filter"></a>Filtre ekleme
 * Masaüstünde veya Power BI hizmetinin Düzenleme görünümünde bir görsele, sayfaya, detaylandırmaya ya da rapora filtre eklemek için Alanlar bölmesindeki bir alanı seçin ve **Alanları buraya sürükleyin** ifadesiyle gösterilen uygun filtre kutusuna sürükleyin. Bir alan filtre olarak eklendikten sonra, Temel filtreleme ve Gelişmiş filtreleme denetimlerini kullanarak (aşağıda açıklanmıştır) hassas ayarlamalar yapabilirsiniz.
 
-- **Görsel düzeyi filtresi alanına yeni bir alan sürüklemek söz konusu alanın görsele eklenmesini sağlamaz** ancak görseli bu yeni alanla filtrelemenize olanak tanır. Aşağıdaki örnekte, **Chain** alanı görsele yeni bir filtre olarak eklenmiştir. Yalnızca **Chain** alanının bir filtre olarak eklenmesinin, siz Temel veya Gelişmiş filtreleme denetimlerini kullanana kadar görselin değişmesine neden olmadığına dikkat edin.
+* **Görsel düzeyi filtresi alanına yeni bir alan sürüklemek söz konusu alanın görsele eklenmesini sağlamaz** ancak görseli bu yeni alanla filtrelemenize olanak tanır. Aşağıdaki örnekte, **Chain** alanı görsele yeni bir filtre olarak eklenmiştir. Yalnızca **Chain** alanının bir filtre olarak eklenmesinin, siz Temel veya Gelişmiş filtreleme denetimlerini kullanana kadar görselin değişmesine neden olmadığına dikkat edin.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

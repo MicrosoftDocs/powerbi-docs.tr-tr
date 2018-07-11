@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813124"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598561"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 Power BI API ile bir Power BI veri kümesine veri gönderebilirsiniz. Veri kümenize anahtar verileri göndermek için mevcut bir iş akışını genişletmek istediğinizi varsayalım. Bu örnekte, bir veri kümesine, Ürün tablosu içeren bir Satış Pazarlama veri kümesi göndermeniz gerekiyor.
@@ -98,6 +98,7 @@ Satış Pazarlama veri kümesi örneğimize geri dönecek olursak, aşağıdaki 
 Bir Power BI tablo şeması için aşağıdaki veri türlerini kullanabilirsiniz.
 
 ## <a name="power-bi-table-data-types"></a>Power BI tablosu veri türleri
+
 | **Veri türü** | **Kısıtlamalar** |
 | --- | --- |
 | Int64 |Int64.MaxValue ve Int64.MinValue değerlerine izin verilmez. |

@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301792"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092127"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
-Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin. Office
+Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
 
 Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md).
 
@@ -36,7 +36,7 @@ AppSource nedir? Basit bir şekilde açıklamak gerekirse bu platform, Microsoft
 | Ekran görüntüleri |Evet |En az bir ekran görüntüsü eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) olmalıdır. Dosya boyutu 1024 KB'tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.* |
 | Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. URL'niz https:// veya http:// ile başlamalıdır. |
 | Gizlilik belgesi bağlantısı |Evet |Görselinizi kullanmak isteyen müşterilerin inceleyebileceği gizlilik ilkesinin bağlantısını girin. Bağlantınız http:// veya https:// ile başlamalıdır. |
-| Son kullanıcı lisans sözleşmesi (EULA) |Evet |EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI özel görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyası yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Son kullanıcı lisans sözleşmesi (EULA) |Evet |EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI özel görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyası yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Video bağlantısı |Hayır |Kullanıcıların dikkatini özel görselinize çekmek için görselinizle ilgili bir videonun bağlantısını eklemeniz önerilir. URL'niz https:// veya http:// ile başlamalıdır. |
 | GitHub deposu |Hayır |Geliştiricilerin kodunuzla ilgili geri bildirim sağlamasını ve geliştirme önermesini sağlamak için görselinizin kaynağının ve örnek verilerin bulunduğu geçerli ve herkese açık [GitHub](https://www.github.com) deposu bağlantısına sahip olmanız önerilir. |
 
@@ -97,7 +97,7 @@ Gönderim işlemini tamamlamak için aşağıdaki adımları uygulayın.
    * Video bağlantısı
    * Son Kullanıcı Lisans Sözleşmesi (EULA)
      
-       EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI özel görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyası yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI özel görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyası yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. **Next**'i (İleri) seçerek **Details** (Ayrıntılar) sayfasına gidin.
 9. **Language**'ı (Dil) seçip listeden bir dil belirleyin.
    

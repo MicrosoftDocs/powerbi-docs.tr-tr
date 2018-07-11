@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285566"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136399"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop'taki verilere bağlanma
 Power BI Desktop ile durmadan büyüyen veri dünyasına kolayca bağlanabilirsiniz. Power BI Desktop'ı [indirebilir](http://go.microsoft.com/fwlink/?LinkID=521662) ve yükleyebilirsiniz (henüz yapmadıysanız).
@@ -67,7 +67,7 @@ Bunun tek veri bağlantısı bulunan basit bir model olduğunun farkındayız. �
 ### <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248147"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145468"
 ---
 # <a name="configuring-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248147"
 
 Veri kümeniz Şimdi Yenile ve Yenilemeyi Zamanla seçenekleri kullanılarak, zamanlanmış yenileme işlemi gerçekleştirilmesini destekliyorsa yenilemenin başarılı olması için dikkat edilmesi gereken birkaç gereksinim ve ayar vardır. Bunlar **Ağ geçidi bağlantısı**, **Veri Kaynağı Kimlik Bilgileri** ve **Yenilemeyi Zamanlama**'dır. Şimdi her birine daha yakından bakalım.
 
-Burada hem [Power BI Gateway – Personal](personal-gateway.md) hem de [şirket içi veri ağ geçidi](service-gateway-onprem.md) için mevcut olan seçenekler açıklanmıştır.
+Burada hem [Power BI Gateway – Personal](service-gateway-personal-mode.md) hem de [şirket içi veri ağ geçidi](service-gateway-onprem.md) için mevcut olan seçenekler açıklanmıştır.
 
 Yenileme zamanlama ekranına gitmek için aşağıdakileri yapabilirsiniz.
 
@@ -123,7 +123,7 @@ Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Bu, genellikle a�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'da veri yenileme](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)  

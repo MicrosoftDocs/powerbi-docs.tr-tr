@@ -1,19 +1,20 @@
 ---
 title: Power BI şablon içerik paketlerini test etme
 description: Şablon İçerik Paketi Testi
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: 3658a569a0bd15822cd50fefb73e706d771b6c80
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 8b1f29a0b7eab4420997de5b9879c25addff04f1
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290795"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI şablon içerik paketlerini test etme
 İçerik paketinizi yayımlanmak üzere göndermeden önce test edebileceğiniz birden fazla yöntem vardır.  

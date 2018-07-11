@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ade1e9377ddcb014cc71909c7256533a0e74d606
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286877"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136471"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -203,7 +203,7 @@ Power BI Desktop'ta veri kaynaklarına bağlanmak için tüm yapmanız gereken b
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
 * [Power BI Desktop'taki Veri Türleri](desktop-data-types.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)

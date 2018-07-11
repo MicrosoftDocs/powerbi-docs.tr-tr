@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799568"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599347"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma
 Çalışma ortamınızda İnternet'e erişmek için ara sunucu kullanmanız gerekebilir. Bu da Şirket içi veri ağ geçidinin hizmete bağlanmasını engelleyebilir.
@@ -77,23 +77,23 @@ Ara sunucu ayarlarını yukarıda belirtildiği gibi varsayılan kimlik bilgiler
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Şirket içi veri ağ geçidi hizmet hesabını değiştirme
 1. **Şirket içi veri ağ geçidi hizmetinin** Windows hizmet hesabını değiştirin.
-   
+
     Bu hizmet için varsayılan hesap *NT SERVICE\PBIEgwService* olarak yapılandırılmıştır. Bu hesabı Active Directory etki alanınızdaki bir etki alanı kullanıcı hesabıyla değiştirmek isteyebilirsiniz. Alternatif olarak parola sıfırlama gereksinimiyle karşılaşmamak için yönetilen hizmet hesabı da kullanabilirsiniz.
-   
+
     Hesabı Windows hesabının özellikler sayfasının **Oturum Açma** sekmesinden değiştirebilirsiniz.
 2. **Şirket içi veri ağ geçidi hizmetini** yeniden başlatın.
-   
+
     Yönetici komut isteminden aşağıdaki komutları çalıştırın.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. **Şirket içi veri ağ geçidi yapılandırıcısını** başlatın. Windows başlat düğmesini seçip *Şirket içi veri ağ geçidi* için arama yapabilirsiniz.
 4. Power BI'da oturum açın.
 5. Kurtarma anahtarınızı kullanarak ağ geçidini geri yükleyin.
-   
+
     Bu şekilde yeni hizmet hesabı, depolanan veri kaynağı kimlik bilgilerinin şifresini çözebilir.
-    
+
 > [!NOTE]
 > Hizmetler Denetim masasını kullanarak hizmet hesabını doğrudan değiştirdiğinizde, ACL’ler otomatik olarak güncelleştirilmez. Yeni hizmet hesabının yükleme dosyalarına ve klasöre erişimi olduğundan emin olmanız gerekir. Ağ Geçidi Yükleme klasörünü C:\Program Files\Şirket içi veri ağ geçidi dizininde bulabilirsiniz. 
 > 

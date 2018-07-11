@@ -1,5 +1,5 @@
 ---
-title: Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım gereksinimleri
+title: Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 description: Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
 author: markingmyname
 manager: kfile
@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481765"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780606"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>İşlemci, Bellek ve İşletim Sistemi Gereksinimleri
+
 | Bileşen | Gereksinim |
 | --- | --- |
 | .NET Framework |4.6<br><br>.NET Framework'ü [Windows için Microsoft .NET Framework 4.6 (Web Yükleyicisi)](http://support.microsoft.com/kb/3045560) sayfasından elle yükleyebilirsiniz.<br/><br/> NET Framework 4.6 ile ilgili daha fazla bilgi, öneri ve yardım için bkz. [Geliştiriciler için .NET Framework Dağıtım Kılavuzu](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 ve Windows Server 2012 R2 için .NET Framework 4.6 yüklemesinden önce [KB2919355](http://support.microsoft.com/kb/2919355) güncelleştirmesinin yapılması gerekir. |
@@ -41,8 +42,6 @@ Rapor sunucusu veritabanlarını barındırmak için SQL Server kullanılır. SQ
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 Rapor sunucusu veritabanını uzak bir bilgisayarda oluşturmak için bağlantıyı, ağ erişimi olan bir hizmet hesabı veya bir etki alanı kullanıcısı hesabı kullanacak şekilde yapılandırmanız gerekir. Uzak bir SQL Server örneği kullanacaksanız rapor sunucusunun, SQL Server örneğine bağlanmak için hangi kimlik bilgilerini kullanması gerektiğini dikkatli bir şekilde değerlendirin. Daha fazla bilgi için bkz. [Rapor Sunucusu Veritabanı Bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

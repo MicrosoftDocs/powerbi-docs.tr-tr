@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d889787b6ae7e6331522bbef1a6f1c748d4533d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287866"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136353"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop’ta dosyaları (ikili değerleri) birleştirme
 Aynı şemaya sahip birden fazla dosyayı tek bir mantıksal tablo olarak birleştirmek, **Power BI Desktop**'a veri aktarmaya yönelik güçlü bir yaklaşımdır. Bu kullanışlı ve popüler yaklaşım, **Power BI Desktop**'ın Kasım 2016 sürümü (ve sonraki sürümler) ile birlikte çok daha kullanışlı ve kapsamlı hale geldi. Ayrıntıları bu makalede bulabilirsiniz.
@@ -58,8 +58,8 @@ Ayrıca, otomatik olarak oluşturulan *örnek sorguyu* değiştirerek başka dö
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta CSV dosyalarına bağlanma](desktop-connect-csv.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

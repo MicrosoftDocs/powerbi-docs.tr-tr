@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721720"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598151"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web portalında içeriği yönetme 
 Power BI Rapor Sunucusu web portalı, Power BI, mobil ve sayfalandırılmış raporlarınızın yanı sıra KPI'lerinizi yönetebileceğiniz şirket içi bir konumdur.
@@ -38,9 +38,9 @@ Web portalı uygulaması bir tarayıcıda çalışır. Web portalını başlatt�
     [Desteklenen web tarayıcıları ve sürümleri](browser-support.md) listesine göz atın.
 2. Adres çubuğuna web portalı URL'sini yazın.
    
-    Varsayılan olarak, URL*http://[BilgisayarAdı]/reports* şeklindedir.
+    Varsayılan olarak, URL<em>http://[BilgisayarAdı]/reports</em> şeklindedir.
    
-    Rapor sunucusu belirli bir bağlantı noktasını kullanacak şekilde yapılandırılmış olabilir. Örneğin, *http://[BilgisayarAdı]:80/reports* veya *http://[BilgisayarAdı]:8080/reports*
+    Rapor sunucusu belirli bir bağlantı noktasını kullanacak şekilde yapılandırılmış olabilir. Örneğin, <em>http://[BilgisayarAdı]:80/reports</em> veya <em>http://[BilgisayarAdı]:8080/reports</em>
    
     Web portalının, öğeleri şu kategorilerde gruplandırdığını görürsünüz:
    

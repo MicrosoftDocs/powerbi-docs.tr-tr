@@ -8,15 +8,15 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 321ff4ec528ef9b72324758417e0f72d67258ac3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0d5ac058a734bb5a4526a2af3d8130f84661d46d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295227"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944526"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Harita görselleştirmelerine ilişkin İpuçları ve Püf Noktaları
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmak için Bing Haritalar'dan yararlanır. 

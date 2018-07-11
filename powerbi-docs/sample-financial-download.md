@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: sample
-ms.date: 05/21/2018
+ms.date: 06/23/2018
 ms.author: amac
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1fcc91020c8ec12572c090bad4f6c9b2a5963dcd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34456077"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944940"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI için Financial Sample çalışma kitabını indirme
 Power BI hizmetini denemek için veriye mi ihtiyacınız var? Sizin için hazırladığımız, örnek finansal veriler içeren basit bir Excel çalışma kitabını indirebilirsiniz.  Nasıl indireceğiniz aşağıda açıklanmıştır:

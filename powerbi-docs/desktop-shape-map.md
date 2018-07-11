@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290971"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600763"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.
@@ -40,23 +40,23 @@ Power BI Desktop, boş bir **Şekil Haritası** görsel tasarım tuvali oluştur
 Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 
 1. **Alanlar** bölmesinde, bölge adlarını (veya kısaltmalarını) içeren bir veri alanını **Konum** demetine, bir veri ölçüsü alanını ise **Renk doygunluğu** demetine sürükleyin (Henüz bir harita görmezsiniz).
-   
+
    > [!NOTE]
-> **Şekil Haritası**'nı test etmek üzere hızlıca harita verileri alma hakkında bilgi için aşağıdaki **Harita Verileri Alma** başlıklı bölüme bakabilirsiniz.
+   > **Şekil Haritası**'nı test etmek üzere hızlıca harita verileri alma hakkında bilgi için aşağıdaki **Harita Verileri Alma** başlıklı bölüme bakabilirsiniz.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. **Biçim** ayarları bölmesinde, **Şekil**'i genişletin ve **Standart Haritalar** açılan menüsünden seçim yaparak verilerinizi gösterin. Bu noktada, aşağıdaki görüntüde olduğu gibi işleme görüntülenir.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> Bu makalenin sonundaki **Bölge Anahtarları** bölümünde, **Şekil Haritası** görselini test etmek için kullanabileceğiniz harita bölge anahtarlarını içeren bir tablo koleksiyonu bulunur.
+   > Bu makalenin sonundaki **Bölge Anahtarları** bölümünde, **Şekil Haritası** görselini test etmek için kullanabileceğiniz harita bölge anahtarlarını içeren bir tablo koleksiyonu bulunur.
    > 
    > 
 3. Ardından, **Biçim** ayarları bölmesini kullanarak, veri noktası renklerinin yanı sıra harita izdüşümü ve yakınlaştırma ayarlarını değiştirebilirsiniz. Yakınlaştırma ayarlarını da değiştirebilirsiniz. Örneğin, renkleri değiştirebilir, maksimum ve minimum değerleri belirleyebilir ve daha fazlasını yapabilirsiniz.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. Ayrıca **Açıklama** demetine bir kategori veri sütunu ekleyebilir ve harita bölgelerini kategorilere göre sınıflandırabilirsiniz.
 
@@ -114,6 +114,7 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki **Bölge Anahtarları**'nı kullanın.
 
 ### <a name="australia-states"></a>Avustralya: eyaletler
+
 | id | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
@@ -126,6 +127,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
 ### <a name="austria-states"></a>Avusturya: eyaletler
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
@@ -139,6 +141,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brezilya: eyaletler
+
 | id |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>Kanada: bölgeler
+
 | id | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>Fransa: bölgeler
+
 | id | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
@@ -217,6 +222,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Aquitaine |Aquitaine |Aquitaine |
 
 ### <a name="germany-states"></a>Almanya: eyaletler
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
@@ -237,6 +243,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
 ### <a name="ireland-counties"></a>İrlanda: yerel idare bölgeleri
+
 | id |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Carlow |
 
 ### <a name="italy-regions"></a>İtalya: bölgeler
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
@@ -291,6 +299,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
 ### <a name="mexico-states"></a>Meksika: eyaletler
+
 | id | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Hollanda: bölgeler
+
 | id | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
@@ -343,6 +353,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>Birleşik Krallık: Ülkeler
+
 | id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galler |
@@ -351,6 +362,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | gb-eng |GB-ENG |England |
 
 ### <a name="usa-states"></a>ABD: eyaletler
+
 | id | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

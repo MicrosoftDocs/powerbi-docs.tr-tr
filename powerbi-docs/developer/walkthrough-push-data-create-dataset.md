@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812434"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092541"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. Adım: Power BI'da veri kümesi oluşturma
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
@@ -228,8 +228,8 @@ Sonraki adımda [bir Power BI tablosuna satır eklemek için veri kümesi alma](
 ## <a name="next-steps"></a>Sonraki adımlar
 [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  
 [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
