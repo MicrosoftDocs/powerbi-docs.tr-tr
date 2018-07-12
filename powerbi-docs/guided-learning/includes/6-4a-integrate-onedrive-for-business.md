@@ -4,7 +4,7 @@ Power BI içeriğiniz için kaynak olarak OneDrive İş'i kullandığınızda s�
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_1.png)
 
-OneDrive İş'teki bir PBIX (Power BI Desktop) dosyasına bağlanmak için Power BI hizmetinde oturum açın ve **Veri Al**'ı seçin. Verileri İçeri Aktarın veya Bağlayın bölümündeki **Dosyalar**'ı seçin ve ardından **OneDrive - İş** seçeneğini belirleyin. İstediğiniz dosyayı seçin ve **Bağlan** seçeneğini belirleyin.
+OneDrive İş’teki bir PBIX (Power BI Desktop) dosyasına bağlanmak için Power BI hizmetinde oturum açın ve **Veri Al**’ı seçin. Verileri İçeri Aktarın veya Bağlayın bölümündeki **Dosyalar**'ı seçin ve ardından **OneDrive - İş** seçeneğini belirleyin. İstediğiniz dosyayı seçin ve **Bağlan** seçeneğini belirleyin.
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_2.png)
 
