@@ -1,4 +1,4 @@
-Bazen bir toplantıya yazdırılmış bir rapor veya pano getirerek bunları başkalarıyla paylaşmak isteyebilirsiniz. Power BI'da görsellerinizin çıktısını almak için kullanabileceğiniz birkaç yöntem mevcuttur.
+Bazen bir toplantıya yazdırılmış bir rapor veya pano getirerek bunları başkalarıyla paylaşmak isteyebilirsiniz. Power BI’da görsellerinizin çıktısını almak için kullanabileceğiniz birkaç yöntem mevcuttur.
 
 Power BI hizmetinde, ekranın sağ üst tarafındaki üç noktayı seçin ve **Panoyu yazdır** seçeneğini belirleyin.
 
