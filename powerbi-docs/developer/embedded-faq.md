@@ -3,18 +3,18 @@ title: Power BI Embedded hakkında sık sorulan sorular
 description: Power BI Embedded hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812756"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599962"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -76,7 +76,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma     |Azure portalı |Office |Office |
-|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, Ekipler) ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, Ekipler) ekleme<br>* PowerBI.com aracılığıyla ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma  |
+|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, Ekipler) ekleme<br>* PowerBI.com aracılığıyla ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
@@ -95,6 +95,58 @@ Yakın zamanda Azure üzerinden izleyebileceksiniz. Azure kaynağı, Power BI Em
 
 Şu anda otomatik ölçekleme olanağı olmasa da tüm API'leri kullanarak dilediğiniz zaman ölçekleme yapabilirsiniz.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Kapasite oluşturma/ölçeklendirme/serbest bırakma işlemi neden kapasitenin askıya alınma durumuna geçmesine neden oluyor?
+
+Kapasite sağlama (ölçeklendirme/serbert bırakma/oluşturma) işlemi başarısız olabilir. Sağlama çağrısını yapan Ayrıntıları Alma API'sini kullanarak kapasitenin ProvisioningState değerini denetlemelidir: [Kapasiteler - Ayrıntıları Alma](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>PBIE'yi neden yalnızca belirli bir bölgede oluşturabiliyorum?
+
+PBIE kapasitelerini yalnızca PBI kiracı bölgenizde oluşturabilirsiniz.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>PBI kiracı bölgemin ne olduğunu nasıl bulabilirim?
+
+PBI Kiracı bölgenizin ne olduğunu anlamak için PBI portalını kullanabilirsiniz.
+
+https://app.powerbi.com/ > ? > Power BI Hakkında
+
+![Power BI Hakkında](media/embedded-faq/about-01.png)
+![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Sıralı işlemler iletişimi (CSP) kanalıyla ne desteklenir?
+
+* CSP abonelik türüyle kiracınız için PBIE oluşturabilirsiniz
+* İş ortağı hesabı müşteri kiracısında oturum açabilir ve müşteri kiracısı için PBIE satın alabilir. Power BI kapasite yöneticisi olarak müşteri kiracısı kullanıcısını belirtin
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Neden desteklenmeyen hesap iletisi alıyorum?
+
+Power BI için kuruluş hesabıyla kaydolmanız gerekir. MSA (Microsoft hesabı) kullanarak Power BI'a kaydolma denemesi desteklenmez.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Azure kapasitelerini oluşturmak ve yönetmek için API'leri kullanabilir miyim?
+
+Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Powershell cmdlet'leri ve ARM API'leri vardır.
+
+* Rest API'leri - https://docs.microsoft.com/rest/api/power-bi-embedded/
+* PowerShell cmdlet'leri - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
+
+[Çözümünüzü üretime yükseltmek](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) için Power BI içeriğinin (uygulamanızda kullandığınız uygulama çalışma alanı) adanmış kapasiteye atanmasına ihtiyacınız vardır.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded çözümünde hangi Azure bölgeleri kullanılabilir?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) - bkz. Ürün kullanılabilirlik yöneticisi
+
+Kullanılabilir bölgeler (16 - Power BI ile aynı bölgeler)
+* ABD (6) - Doğu ABD, Doğu ABD 2, Orta Kuzey ABD, Orta Güney ABD, Batı ABD, Batı ABD 2
+* Avrupa (2) - Kuzey Avrupa, Batı Avrupa
+* Asya Pasifik (2) - Güneydoğu Asya, Doğu Asya
+* Brezilya (1) - Brezilya Güney
+* Japonya (1) - Japonya Doğu
+* Avustralya (1) - Avustralya Güneydoğu
+* Hindistan (1) - Batı Hindistan
+* Kanada (1) - Kanada Orta
+* Birleşik Krallık (1) - UK Güney
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded kimlik doğrulama modeli nedir?
 
 Power BI Embedded, Power BI'da uygulama kimliğini doğrulayarak ana kullanıcının (belirli bir Power BI Pro lisanslı kullanıcısı) kimliğini doğrulamak için Azure AD'den yararlanmaya devam edecektir.
@@ -104,6 +156,17 @@ Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemler
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilir veya katıştırılmış uygulama içeriğinizin güvenliği için yeni bir Azure AD kiracısı oluşturabilirsiniz.
 
 Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplıkları - https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries içinden birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz? 
+
+Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde yapılandırılmalıdır (gerekli kapsamlarla) ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak PowerBI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded hangi açıdan diğer Azure hizmetlerinden farklıdır?
 
@@ -181,8 +244,8 @@ Kâr amacı gütmeyen kuruluşlar ve eğitim kurumları Azure'ı satın alabilir
 
 3. Üretime hazır olduğunuzda **Power BI Embedded** ayrılmış kapasitesi satın alın ve Power BI içeriğinizi (çalışma alanı) bu kapasiteye atayın.
 
->[!Note]
-Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu**’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
+> [!Note]
+> Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu**’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
 
 Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded'e geçirme](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) bölümüne başvurun.
 

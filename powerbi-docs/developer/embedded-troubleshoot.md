@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813170"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926571"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -96,6 +96,44 @@ GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Kimlik Doğrulama
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
+
+**(AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız)**
+
+Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** iletilerini alıyorsanız, bunun nedeni doğrudan kimlik doğrulamasının 14/6/2018 tarihinden itibaren kapatılmış olmasıdır.
+
+Eski kimlik doğrulamasını engellemek için [Azure AD Koşullu Erişim](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) desteğinin kullanılmasını veya [Azure AD Dizin Doğrudan Kimlik Doğrulama](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) kullanılmasını öneririz.
+
+Öte yandan, kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bunu geri geçirmenin bir yolu vardır.
+
+**_Bunu yalnızca uygulama başına veya geçici bir çözüm olarak gerekli olduğunda etkinleştirmenizi öneririz._**
+
+Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin **Genel Yöneticisi** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
+
+1. [Azure AD Preview PowerShell Modülü](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
+
+2. Aşağıdaki Powershell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda 1'den çok uygulama olmadığından emin olun).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+İlkeyi atadıktan sonra, test etmeden önce yayılması için lütfen 15-20 saniye kadar bekleyin.
+
 **Etkin kimlik sağlanırken belirteç oluşturulamıyor**
 
 GenerateToken, etkin kimlik sağlandığında birkaç nedenden dolayı başarısız olabilir.
@@ -113,6 +151,30 @@ Hangisi olduğunu doğrulamak için aşağıdakileri deneyin.
 * IsEffectiveIdentityRolesRequired doğruysa Rol gereklidir.
 * DatasetId her EffectiveIdentity için zorunludur.
 * Analysis Services için ana kullanıcı bir ağ geçidi yöneticisi olmak zorundadır.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Verme işlemi için yönetici izni gerekiyor
+
+**_Belirtiler:_**</br>
+Yönetici olmayan bir kullanıcı uygulamada ilk kez oturum açmayı ve izin vermeyi denediğinde şu hatayı alır:
+* Onay Testi'nin, kuruluşunuzdaki kaynaklara erişim için yalnızca yöneticinin verebileceği izne ihtiyacı vardır. Kullanabilmek için önce lütfen yöneticiden bu uygulamaya izin vermesini isteyin.
+* AADSTS90094: Verme işlemi için yönetici izni gerekiyor.
+
+    ![Onay Testi](media/embedded-troubleshoot/consent-test-01.png)
+
+Bir yönetici oturum açabilir ve başarılı bir şekilde onay verebilir.
+
+**_Kök nedeni:_**</br>
+Kiracı için kullanıcı onayı devre dışı bırakıldı.
+
+**_Çeşitli düzeltmeler yapılabilir:_**
+
+*Kiracının tamamı için kullanıcı onayını etkinleştir (tüm kullanıcılar, tüm uygulamalar)*
+1. Azure Portalı'nda "Azure Active Directory" => "Kullanıcılar ve gruplar" => "Kullanıcı ayarları" bölümüne gidin
+2. "Kullanıcılar, uygulamalara kendileri adına şirket verilerine erişme izni verebilir" ayarını etkinleştirin ve değişiklikleri kaydedin
+
+    ![Onay Testi Düzeltmesi](media/embedded-troubleshoot/consent-test-02.png)
+
+*Yönetici tarafından izin verme* Kiracının tamamı için veya belirli bir kullanıcı için bir yönetici tarafından uygulamaya izin verme.
 
 ## <a name="data-sources"></a>Veri kaynakları
 
@@ -175,7 +237,7 @@ Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Bunun nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak *http://localhost:13526/* kullanın.
+Bunun nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak `http://localhost:13526/` kullanın.
 
 Kayıtlı uygulamayı düzenlemek istiyorsanız, uygulamanın web API’lerine erişim sağlayabilmesi için [AAD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) düzenleme hakkında bilgi edinin.
 
