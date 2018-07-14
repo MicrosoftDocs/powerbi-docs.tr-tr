@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252474"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135272"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
@@ -86,7 +86,7 @@ Power BI'ın Marketo için gerçekleştirdiği API çağrılarının miktarı Ma
 | **Toplam API Çağrıları** | |**2.200** |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)
+[Power BI nedir?](power-bi-overview.md)
 
 [Power BI için veri alma](service-get-data.md)
 

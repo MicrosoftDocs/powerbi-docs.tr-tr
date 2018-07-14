@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722371"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137457"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 DirectQuery ile Azure SQL Veri Ambarı, Azure SQL Veri Ambarı'ndaki hazır verilerinizi ve ölçümlerinizi temel alan dinamik raporlar oluşturmanızı sağlar. DirectQuery ile, siz verileri keşfederken sorgular Azure SQL Veri Ambarı'nıza gerçek zamanlı olarak geri gönderilir. Bu özellik SQL Veri Ambarı'nın ölçeğiyle birleştirildiğinde kullanıcıların terabaytlarca veriden birkaç dakika içinde dinamik rapor oluşturmasını sağlar. Ayrıca, **Power BI'da aç** düğmesi sayesinde kullanıcılar el ile bilgi girmek zorunda kalmadan Power BI'ı doğrudan SQL Veri Ambarı hizmetlerine bağlayabilir.
@@ -32,6 +32,11 @@ SQL Veri Ambarı bağlayıcısını kullanırken:
 Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Bağlanma adımları aşağıda ayrıntılı şekilde verilmiştir.
 
 ## <a name="using-the-open-in-power-bi-button"></a>"Power BI'da aç" düğmesini kullanma
+
+> [!Important]
+> Azure SQL Veri Ambarı ile bağlantımızı geliştirdik.  Azure SQL Veri Ambarı veri kaynağınıza en iyi bağlanma deneyimi için Power BI Desktop kullanın.  Modelinizi ve raporunuzu oluşturduktan sonra, bunu Power BI hizmetine yayımlayabilirsiniz.  Power BI hizmetindeki Azure SQL Veri Ambarı doğrudan bağlayıcısı artık kullanım dışı bırakılmıştır.
+>
+
 SQL Veri Ambarı'nızla Power BI arasında veri alışverişi yapmanın en kolay yolu Azure Preview Portal'daki **Power BI'da aç** düğmesidir. Bu düğme, sorunsuz bir şekilde Power BI'da yeni panolar oluşturmaya başlamanızı sağlar.
 
 1. Başlamak için Azure Preview Portal'daki SQL Veri Ambarı örneğinize gidin. SQL Veri Ambarı'nın şu an için yalnızca Azure Preview Portal'da bulunduğunu lütfen unutmayın.
@@ -82,7 +87,7 @@ Tam sunucu adınız ve veritabanınızın adı Azure Preview Portal'da bulunabil
 >
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)  
+[Power BI nedir?](power-bi-overview.md)  
 [Power BI için veri alma](service-get-data.md)  
 [Azure SQL Veri Ambarı](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

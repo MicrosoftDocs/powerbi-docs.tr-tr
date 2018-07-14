@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813055"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945364"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
 
@@ -35,6 +35,9 @@ Panoları ve raporları uygulamanıza eklemeye başlamadan önce ortamınızın 
 
 * [Azure Active Directory kiracısına sahip olduğunuzdan emin olun](embedding-content.md#azureadtenant)
 * [Power BI Pro hesabınızı oluşturun](embedding-content.md#proaccount)
+* [Uygulama kaydı ve izinler](embedding-content.md#appreg)
+* [Uygulama çalışma alanları oluşturma](embedding-content.md#appws)
+* [Raporlarınızı oluşturma ve karşıya yükleme](embedding-content.md#createreports)
 
 Hızlıca çalışmaya başlamak ve bir örnek uygulama indirmek için [Ekleme deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 
@@ -67,7 +70,7 @@ Aşağıdaki hesapların kiracınızda bulunması ve hepsine birer Power BI Pro 
 
 #### <a name="an-organizationtenant-admin-user"></a>Kuruluş/kiracı yönetici kullanıcısı
 
-Müşterileriniz için ekleme yapıyorsanız kuruluş/kiracı Genel Yönetici kullanıcınızın, uygulamanızın kullandığı hesap olarak kullanılmaması önerilir. Bunun nedeni uygulama hesabının kiracınız içindeki erişimini en aza indirmektir. Yönetici kullanıcının, ekleme için oluşturulan tüm uygulama çalışma alanlarında yönetici olması önerilir.
+Müşterileriniz için ekleme yapıyorsanız kuruluş/kiracı Genel Yönetici kullanıcınızın, uygulamanızın kullandığı hesap olarak kullanılmaması önerilir. Bunun nedeni uygulama hesabının kiracınız içindeki erişimini en aza indirmektir. Yönetici kullanıcının, ekleme için oluşturulan tüm uygulama çalışma alanlarında yönetici olması gerekir.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>İçerik oluşturan çözümleyicilerin hesapları
 
@@ -83,7 +86,7 @@ Ana hesap, uygulamanızda kullandığınız ve Power BI Pro lisansına sahip ola
 
 REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
 
-### <a name="create-app-workspaces"></a>Uygulama çalışma alanları oluşturma
+### <a name="appws"></a>Uygulama çalışma alanları oluşturma
 
 Pano ve raporları müşteriniz için ekliyorsanız bu pano ve raporların bir uygulama çalışma alanına eklenmesi gerekir. Yukarıda bahsedilen *ana* hesabın, uygulama çalışma alanında yönetici olması gerekir.
 
@@ -93,13 +96,17 @@ Pano ve raporları müşteriniz için ekliyorsanız bu pano ve raporların bir u
 > Yönetici olmayan bir kullanıcı en fazla yalnızca 250 uygulama çalışma alanı oluşturabilir. Daha fazla uygulama çalışma alanı oluşturmak için bir kiracı yönetici hesabı kullanmanız gerekir.
 >
 
-### <a name="create-and-upload-your-reports"></a>Raporlarınızı oluşturma ve karşıya yükleme
+### <a name="createreports"></a>Raporlarınızı oluşturma ve karşıya yükleme
 
 Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturabilir, ardından bu raporları uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
 
 ## <a name="step-2-embed-your-content"></a>2. Adım: İçeriğinizi ekleme
 
-Uygulamanızın içinde Power BI kimlik doğrulaması gerçekleştirmeniz gerekir. Müşterileriniz için içerik ekliyorsanız *ana* hesabın kimlik bilgilerini uygulamanızda depolamanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
+Uygulamanızın içinde Power BI kimlik doğrulaması gerçekleştirmeniz gerekir. Müşterileriniz için içerik ekliyorsanız *ana* hesabın kimlik bilgilerini uygulamanızda depolamanız gerekir.
+
+> [!NOTE]
+> Müşterileriniz için eklerken kullanıcıların kimliğini doğrulama hakkında daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
+>
 
 Uygulamanız içinde kimlik doğrulamasını geçtikten sonra panoları ve raporları uygulamanıza eklemek için Power BI REST API'lerini ve JavaScript API'lerini kullanabilirsiniz. 
 
@@ -123,7 +130,7 @@ Müşterileriniz için içerik eklerken bir ekleme belirteci kullanmanız gereki
 
 Kuruluşunuz için içerik ekliyorsanız kullanıcıları uygulamanıza yönlendirmeniz yeterlidir. 
 
-Ücretsiz kullanıcılar, ayrılmış kapasite ile desteklenen bir uygulama çalışma alanından (gruptan) eklenmiş olan içeriği kullanabilir. Ücretsiz kullanıcıyı uygulama çalışma alanına (gruba) üye olarak ekleyin, aksi halde 401 yetkisiz erişim hatası alırsınız. Aşağıdaki tabloda Office 365'te kullanılabilecek olan Power BI Premium SKU'ları yer almaktadır.
+Atanan lisanslarından bağımsız olarak tüm kullanıcılar, ayrılmış kapasite ile desteklenen bir uygulama çalışma alanından (gruptan) eklenmiş olan içeriği kullanabilir. Bununla birlikte, Power BI Pro lisansı olmayan kullanıcıları uygulama çalışma alanına açıkça eklemeniz gerekir; bunu yapmazsanız, 401 yetkisiz hatasını alırsınız. Aşağıdaki tabloda Office 365'te kullanılabilecek olan Power BI Premium SKU'ları yer almaktadır.
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
 | --- | --- | --- | --- | --- | --- |

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db201098d6bd7207164b2ff08acb363563211f72
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295889"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137273"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -195,6 +195,6 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Google Play'den [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

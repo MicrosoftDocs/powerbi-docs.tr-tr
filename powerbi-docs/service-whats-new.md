@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301861"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137480"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -31,11 +31,19 @@ ms.locfileid: "35301861"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>Nisan 2018
+## <a name="may-2018"></a>Mayıs 2018
+* Power BI hizmetinde [tema panoları](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes).
+* Premium ile [artımlı yenileme](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh).
+* [Power BI Uygulamaları](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) için erişim iş akışı isteme.
+* Kullanıcıların [Power BI Uygulamalarını](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) bulmasını kolaylaştırmak için Veri güncelleştirmelerini alma.
+* Power BI hizmetinde [Kalıcı filtreler](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)'i açma ve kapatma ayarları.
+* Raporlar için Azure B2B davet iş akışı geliştirmeleri.
+
+## <a name="previous-months-2018"></a>Önceki aylar (2018)
+### <a name="april-2018"></a>Nisan 2018
 * [Power BI GDPR Teknik İncelemesi](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Office 365 kiracısı için Power BI Service [denetim günlükleri](https://docs.microsoft.com/power-bi/service-admin-auditing) varsayılan olarak açıktır.
 
-## <a name="previous-months-2018"></a>Önceki aylar (2018)
 ### <a name="march-2018"></a>Mart 2018
 * Power BI hizmetindeki [kalıcı filtreler](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/).
 * Kullanıcıların kişisel e-posta hesaplarını kullanarak onlarla içerik paylaşın. [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) uzantısı.
@@ -63,7 +71,7 @@ ms.locfileid: "35301861"
 * [Web'de yayımlama](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
 
 ## <a name="september-2017"></a>Eylül 2017
-* Premium ile ücretsiz sürüm kullanıcılarıyla pano paylaşımında bulunma.
+* Premium kapasitede, panoları Power BI Pro lisansı olmayan kullanıcılara paylaştırma.
 * Sanal çekirdek havuzu ile işletme ihtiyaçlarınıza uygun kapasite ayrımı yapma.
 * Kapasiteleri tek tıkla anında yükseltme veya düşürme.
 * REST API'lerine kolayca veri iletmek için [PubNub bloğu](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)
@@ -222,7 +230,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 ***Excel'de Çözümle***
 
-* [Excel'de Çözümle](service-analyze-in-excel.md) tüm kullanıcıların kullanımına açıldı: Power BI veri modellerine Excel'den erişme seçeneği ücretsiz ve Pro sürüm kullanıcılarının tamamının kullanımına açıldı.
+* [Excel'de Çözümle](service-analyze-in-excel.md) tüm kullanıcıların kullanımına açıldı: Power BI veri modellerine Excel'den erişme seçeneği, atanan lisanslarından bağımsız olarak tüm kullanıcıların kullanımına açıldı.
 * Geliştirilmiş çoklu kullanıcı hesabı deneyimi: Birden fazla Power BI kullanıcı hesabınız varsa oturum açmak artık daha kolay.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
@@ -567,7 +575,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **24 Temmuz 2015**
 
-* Power BI'ın "genel kullanım" (GA) sürümünü duyurmaktan mutluluk duyuyoruz. Ücretsiz Power BI sürümünü kullanmaya devam edebilir veya [Power BI Pro](service-self-service-signup-for-power-bi.md)'ya kaydolabilirsiniz. GA sürümüyle birlikte sunduğumuz heyecan verici yeni özellikler:
+* Power BI'ın "genel kullanım" (GA) sürümünü duyurmaktan mutluluk duyuyoruz. [Power BI Pro](service-self-service-signup-for-power-bi.md)'ya bugün kaydolun. GA sürümüyle birlikte sunduğumuz heyecan verici yeni özellikler:
 * Yeni görselleştirme ve rapor oluşturma deneyimi: Yeni rapor tuvali daha fazla görselleştirme seçeneğinin yanı sıra başlık, açıklama, eksen, renk, arka plan ve diğer öğelerin biçimlendirmesi konusunda denetim sunuyor.
 * [Power BI grupları](service-create-distribute-apps.md): Office 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
 * [Kurumsal içerik paketleri](service-organizational-content-pack-introduction.md): Power BI, pano ve rapor oluşturmayı çok kolay hale getiriyor. Kullanıcılar artık bu içeriği kurumsal içerik galerisine yayımlama hakkına da sahip.
@@ -661,7 +669,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 * OneDrive ile yenileme özelliğinin güvenilirliği artırıldı.  Çalışma kitaplarının OneDrive'dan yenilenmediği bazı durumlar çözüldü.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)  
+[Power BI nedir?](power-bi-overview.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

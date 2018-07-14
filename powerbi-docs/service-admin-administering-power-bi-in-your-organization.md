@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297435"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944319"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -73,12 +73,12 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç ara
 
 | **Araç** | **Tipik görevler** |
 | --- | --- |
-| Power BI Yönetim portalı |<ul><li>Kullanıcıların Power BI’ya erişmesini engelleme<br><li>Premium kapasite edinme ve birlikte çalışma<br><li>Hizmet kalitesi sağlama<br><li>İş verilerinin sınıflandırılmasını yönetme<br><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma<br><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama<br><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama<br><li>Veri erişimi ve diğer sorunları giderme</ul>|
-| Office 365 Yönetim Merkezi |<ul><li>Kullanıcı kaydını yönetme<br><li>Pro lisansları satın alma ve atama</ul>|
-| Office 365 Güvenlik ve Uyumluluk Merkezi |<ul><li>Olayların denetimini gözden geçirme ve yönetme</ul>|
-| Azure portalında Azure Active Directory (AAD) |<ul><li>AAD aracılığıyla Power BI kaynaklarına koşullu erişimi yapılandırma<br><li>Power BI Embedded kapasitesi sağlama</ul>|
-| PowerShell cmdlet'leri |<ul><li>Betikler aracılığıyla çalışma alanlarını ve Power BI’ın diğer yönlerini yönetme</ul>|
-| Yönetim API’leri |<ul><li>Bir Power BI yöneticisinin çalışmasını kolaylaştırmak için özel yönetim görevleri oluşturun. Örneğin, Power BI Desktop bu API’leri kullanarak yönetimle ilgili verileri temel alan raporlar oluşturabilir</ul>|
+| Power BI Yönetim portalı |<ul><li>Premium kapasite edinme ve birlikte çalışma</li><li>Hizmet kalitesi sağlama</li><li>İş verilerinin sınıflandırılmasını yönetme</li><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</li><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama</li><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama</li><li>Veri erişimi ve diğer sorunları giderme</li></ul>|
+| Office 365 Yönetim Merkezi |<ul><li>Kullanıcı kaydını yönetme</li><li>Pro lisansları satın alma ve atama</li><li>Kullanıcıların Power BI’ya erişmesini engelleme</li></ul>|
+| Office 365 Güvenlik ve Uyumluluk Merkezi |<ul><li>Olayların denetimini gözden geçirme ve yönetme</li></ul>|
+| Azure portalında Azure Active Directory (AAD) |<ul><li>AAD aracılığıyla Power BI kaynaklarına koşullu erişimi yapılandırma</li><li>Power BI Embedded kapasitesi sağlama</li></ul>|
+| PowerShell cmdlet'leri |<ul><li>Betikler aracılığıyla çalışma alanlarını ve Power BI’ın diğer yönlerini yönetme</li></ul>|
+| Yönetim API’leri ve SDK'sı |<ul><li>Bir Power BI yöneticisinin çalışmasını kolaylaştırmak için özel yönetim görevleri oluşturun. Örneğin, Power BI Desktop bu API’leri kullanarak yönetimle ilgili verileri temel alan raporlar oluşturabilir</li></ul>|
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

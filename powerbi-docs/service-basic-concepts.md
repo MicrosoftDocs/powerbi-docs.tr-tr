@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253312"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137434"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI hizmeti için temel kavramlar
 
@@ -231,7 +231,7 @@ Ekranın bu bölümünde içerikle (bu durumda pano) etkileşim kurmak için kul
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)  
+[Power BI nedir?](power-bi-overview.md)  
 [Gezinti: Power BI hizmetinde dolaşma](service-the-new-power-bi-experience.md)
 [Power BI videoları](videos.md)  
 [Rapor düzenleyicisi: tura katılın](service-the-report-editor-take-a-tour.md)

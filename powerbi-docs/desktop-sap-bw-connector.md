@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813446"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900066"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
 
 SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği hakkında bilgi için bkz. [Power BI ve SAP BW teknik incelemesi](https://aka.ms/powerbiandsapbw).
 
-**Power BI Desktop**’ın Haziran 2018 sürümünden itibaren, SAP BW bağlayıcısını performans ve özellikler bakımından önemli iyileştirmeler içeren bir uygulama ile birlikte kullanabilirsiniz. SAP BW bağlayıcısının bu güncelleştirilmiş sürümü Microsoft tarafından geliştirilmiştir ve **Uygulama 2.0** olarak adlandırılır. Standart **SAP BW Bağlayıcısı**’nı veya **Uygulama 2.0 SAP Bağlayıcısı**’nı seçebilirsiniz. Aşağıdaki bölümlerde, her bir sürümün yüklenmesi sırayla açıklanmaktadır. Power BI Desktop’tan SAP BW’ye bağlanırken bağlayıcılardan birini seçebilirsiniz.
+**Power BI Desktop**’ın Haziran 2018 sürümünden itibaren, SAP BW bağlayıcısını performans ve özellikler bakımından önemli iyileştirmeler içeren bir uygulama ile birlikte kullanabilirsiniz. SAP BW bağlayıcısının bu güncelleştirilmiş sürümü Microsoft tarafından geliştirilmiştir ve **Uygulama 2.0** olarak adlandırılır. **SAP BW Bağlayıcısı**’nın 1. sürümünü (v1) veya **Uygulama 2.0 SAP Bağlayıcısı**’nı seçebilirsiniz. Aşağıdaki bölümlerde, her bir sürümün yüklenmesi sırayla açıklanmaktadır. Power BI Desktop’tan SAP BW’ye bağlanırken bağlayıcılardan birini seçebilirsiniz.
 
 Mümkün olduğunda **Uygulama 2.0 SAP Bağlayıcısı**’nı seçmeniz önerilir.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>Standart SAP BW Bağlayıcısı'nı yükleme
-Mümkün olduğunda Uygulama 2.0 SAP Bağlayıcısı’nın kullanılması önerilir (aşağıdaki bölümde verilen yönergelere bakın). Bu bölümde, aşağıdaki yükleme adımları uygulanarak gerçekleştirebileceğiniz standart **SAP BW Bağlayıcısı**’nı yükleme işlemi açıklanmaktadır:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>SAP BW Bağlayıcısı'nın 1. sürümünü yükleme
+Mümkün olduğunda Uygulama 2.0 SAP Bağlayıcısı’nın kullanılması önerilir (aşağıdaki bölümde verilen yönergelere bakın). Bu bölümde, aşağıdaki yükleme adımları uygulanarak gerçekleştirebileceğiniz **SAP BW Bağlayıcısı**’nın 1. sürümünü yükleme işlemi açıklanmaktadır:
 
 1. Yerel makinenize **SAP NetWeaver** kitaplığını yükleyin. **SAP Netweaver** kitaplığını SAP yöneticinizden veya doğrudan [SAP Software Download Center](https://support.sap.com/swdc) sayfasından edinebilirsiniz. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz. **SAP NetWeaver** kitaplığı genelde SAP Client Tools yüklemesine de dahil edilir.
    
@@ -54,11 +54,11 @@ Yükleme sırasında, **İsteğe bağlı kurulum adımları** penceresinde aşa�
 ![SAP isteğe bağlı kurulum adımları](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> Standart SAP BW uygulaması için Netweaver DLL’leri gerekiyordu. SAP Bağlayıcısı Uygulama 2.0 kullanıyorsanız ve standart sürümü kullanmıyorsanız, Netweaver DLL’leri gerekli değildir.
+> SAP BW birinci sürümünün uygulaması için Netweaver DLL’leri gerekiyordu. SAP Bağlayıcısı Uygulama 2.0 kullanıyorsanız ve birinci sürümü kullanmıyorsanız, Netweaver DLL’leri gerekli değildir.
 
 
-## <a name="standard-sap-bw-connector-features"></a>Standart SAP BW Bağlayıcısı'nın özellikleri
-Power BI Desktop’taki standart **SAP BW Bağlayıcısı**, **SAP Business Warehouse Sunucusu** küplerinden verileri içeri aktarmanıza veya DirectQuery’yi kullanmanıza olanak tanır. 
+## <a name="version-1-sap-bw-connector-features"></a>Sürüm 1 SAP BW Bağlayıcısı'nın özellikleri
+Power BI Desktop’taki sürüm 1 **SAP BW Bağlayıcısı**, **SAP Business Warehouse Sunucusu** küplerinden verileri içeri aktarmanıza veya DirectQuery’yi kullanmanıza olanak tanır. 
 
 **SAP BW bağlayıcısı** ve bunun DirectQuery ile kullanımı hakkında daha fazla bilgi edinmek için [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) makalesine göz atın.
 
@@ -101,7 +101,7 @@ SAP BW Bağlayıcısı Uygulama 2.0’ı kullanmak için yeni bir bağlantı olu
 
     ![SAP bağlantısı iletişim kutusu](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. **Tamam**’ı seçtikten sonra **Gezgin** deneyimi, standart SAP BW Bağlayıcısına ilişkin önceki bölümde açıklanan deneyimle aynıdır. 
+3. **Tamam**’ı seçtikten sonra **Gezgin** deneyimi, sürüm 1 SAP BW Bağlayıcısına ilişkin önceki bölümde açıklanan deneyimle aynıdır. 
 
 ### <a name="new-options-for-implementation-20"></a>Uygulama 2.0 için yeni seçenekler 
 
@@ -163,7 +163,7 @@ Var olan raporların **Uygulama 2.0** kullanacak şekilde değiştirilmesi yaln�
 
     ![sorgu kod parçacığı](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. SAP BW Bağlayıcısı Uygulama 2.0’ı standart SAP BW Bağlayıcısı ile uyumlu hale getirmek için her türlü çaba gösterilmiştir. Ancak, kullanılmakta olan farklı SAP BW MDX yürütme modları nedeniyle bazı farklılıklar olabilir. Tutarsızlıkları gidermek için yürütme modları arasında geçiş yapmayı deneyin.
+4. SAP BW Bağlayıcısı Uygulama 2.0’ı SAP BW Bağlayıcısı'nın 1. sürümüyle uyumlu hale getirmek için her türlü çaba gösterilmiştir. Ancak, kullanılmakta olan farklı SAP BW MDX yürütme modları nedeniyle bazı farklılıklar olabilir. Tutarsızlıkları gidermek için yürütme modları arasında geçiş yapmayı deneyin.
 
 ## <a name="troubleshooting"></a>Sorun giderme
 Bu bölümde **SAP BW** bağlayıcısıyla çalışırken karşılaşabileceğiniz sorunlara (ve çözümlerine) yer verilmiştir.

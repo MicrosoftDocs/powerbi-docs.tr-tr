@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297458"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136537"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -23,7 +23,7 @@ Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor S
 
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
-* [Raporlarınızı Power BI hizmetinde yayımlayın](service-get-started.md) ve panolar oluşturun.
+* [Raporlarınızı Power BI hizmetinde yayımlayın](power-bi-overview.md) ve panolar oluşturun.
 * [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
 
 Daha sonra Android için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
@@ -136,7 +136,7 @@ Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yan
 
 ### <a name="see-also"></a>Ayrıca bkz.
 * Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 
 

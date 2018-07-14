@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248689"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136813"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI hizmetindeki panolar
 
@@ -84,7 +84,7 @@ Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power B
 > 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)  
+[Power BI nedir?](power-bi-overview.md)  
 [Power BI - Temel Kavramlar](service-basic-concepts.md)  
 [Power BI Premium nedir?](service-premium.md)  
 

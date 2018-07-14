@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Güvenlik Duvarı veya Ara Sunucu
 Ağ geçidinize ara sunucu bilgilerini girme hakkında daha fazla bilgi için bkz. [Power BI ağ geçitleri için ara sunucu ayarlarını yapılandırma](../service-gateway-proxy.md).
 
-Güvenlik duvarınızın veya ara sunucunuzun bağlantıları engelleyip engellemediğini test etmek için PowerShell isteminden [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) komutunu çalıştırabilirsiniz. Bu komut, Azure Service Bus bağlantısını test eder. Bu yalnızca ağ bağlantısını test eder ve bulut sunucusu hizmeti veya ağ geçidi ile ilgili değildir. Makinenizin gerçekten İnternet'e bağlanıp bağlanamadığını belirlemenize yardımcı olur.
+Güvenlik duvarınızın veya ara sunucunuzun bağlantıları engelleyip engellemediğini test etmek için PowerShell isteminden [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) komutunu çalıştırabilirsiniz. Bu komut, Azure Service Bus bağlantısını test eder. Bu yalnızca ağ bağlantısını test eder ve bulut sunucusu hizmeti veya ağ geçidi ile ilgili değildir. Makinenizin gerçekten İnternet'e bağlanıp bağlanamadığını belirlemenize yardımcı olur.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

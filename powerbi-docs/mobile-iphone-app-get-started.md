@@ -1,48 +1,46 @@
 ---
-title: iPhone'da Power BI mobil uygulaması ile çalışmaya başlama
-description: iPhone'daki iOS için Microsoft Power BI uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
+title: iOS için Power BI mobil uygulaması ile çalışmaya başlama
+description: iOS uygulaması için Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294422"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136574"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>iPhone veya iPod touch'ta Power BI mobil uygulaması ile çalışmaya başlama
-iPhone veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyip bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
+iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
 
-![iPhone'daki Power BI mobil uygulaması panosu](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
+![iPhone veya iPad üzerinde Power BI mobil uygulaması](media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
 * [Raporlarınızı Power BI hizmetinde yayımlayın](service-get-started.md) ve panolar oluşturun.
 * [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](report-server/quickstart-create-powerbi-report.md).
 
-Ardından, iPhone için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
+Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
 
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="download-the-app"></a>Uygulamayı indirme
-App Store'a giderek iPhone veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
+App Store'a giderek iPhone, iPad veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indirin").
 
-> [!NOTE]
-> iOS için Power BI uygulamasını, iOS 10 veya sonraki bir sürümün yüklü olduğu iPhone 5 ve sonraki modellerde çalıştırabilirsiniz. Uygulamayı iOS 10 veya sonraki bir sürümün yüklü olduğu iPod Touch'ta da çalıştırabilirsiniz.
-> 
-> 
+iOS için Power BI uygulamasını, iOS 10 veya sonraki bir sürümün yüklü olduğu iPhone 5 ve sonraki modellerde çalıştırabilirsiniz. Uygulamayı iOS 10 veya sonraki bir sürümün yüklü olduğu iPad veya iPod Touch'ta da çalıştırabilirsiniz. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI hizmetine kaydolma
-Henüz yapmadıysanız hizmet için Power BI web sitesine (https://powerbi.com)) gidin. Ücretsiz kaydolabilirsiniz.
+Henüz kaydolmadıysanız, [powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Bulut işbirliği ve paylaşımı** bölümünde **Ücretsiz olarak deneyin**’i seçin.
+
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI uygulaması ile çalışmaya başlama
-1. iPhone'da Power BI uygulamasını açın.
+1. iOS cihazınızda Power BI uygulamasını açın.
 2. Power BI panolarınızı görüntülemek için **Power BI** seçeneğine dokunun.  
    Reporting Services mobil raporlarınızı ve KPI'lerinizi görüntülemek içinse **SQL Server Reporting Services** seçeneğine dokunun.
    
@@ -72,7 +70,7 @@ Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebili
 2. Sağ üstteki dişli simgesine ![Dişli simgesi](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) ve ardından **Reporting Services örnekleri** seçeneğine dokunun.
 3. Retail Reports veya Sales Reports klasörünü açarak ilgili KPI'leri ve mobil raporları araştırın.
    
-   ![Power BI mobil uygulamasındaki Reporting Services örnekleri](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
+   ![Power BI mobil uygulamasındaki Reporting Services örnekleri](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
 Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-find-content-mobile-devices.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz her şeyi dilediğiniz zaman arayabilirsiniz. 
@@ -104,34 +102,14 @@ Kuruluşlar, Android ve iOS için Power BI mobil uygulamaları da dahil olmak ü
 Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygulama tarafından nasıl işlendiğini denetleme ve hatta uygulama kullanılmadığı sırada uygulama verilerini şifreleme gibi işlemler gerçekleştirerek öğeleri denetlemesine olanak sağlar.
 
 > [!NOTE]
-> iPhone'unuzda Power BI mobil uygulamasını kullanıyorsanız ve kuruluşunuzda Microsoft Intune MAM yapılandırıldıysa arka planda veri yenileme devre dışıdır. Uygulamaya bir sonraki girişinizde Power BI, web üzerindeki Power BI hizmetinden verileri yeniler.
-> 
+> iOS cihazınızda Power BI mobil uygulamasını kullanıyorsanız ve kuruluşunuzda Microsoft Intune MAM yapılandırıldıysa arka planda veri yenileme devre dışıdır. Uygulamaya bir sonraki girişinizde Power BI, web üzerindeki Power BI hizmetinden verileri yeniler.
 > 
 
 [Microsoft Intune ile Power BI mobil uygulamalarını yapılandırma](service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-iPhone uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra Power BI Rapor Sunucusu veya Reporting Services web portalındaki raporlar ve KPI'ler ile gerçekleştirebileceğiniz diğer işlemlerden bazıları aşağıda verilmiştir.
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları
-* [Uygulamalarınızı](service-install-use-apps.md) görüntüleme.
-* [Power BI panolarınızı](mobile-apps-view-dashboard.md) görüntüleme.
-* Soru-Cevap özelliğini kullanarak kendi kelimelerinizle [verileriniz hakkında soru sorma](mobile-apps-ios-qna.md).
-* Power BI kutucuklarınızı [Apple Watch](mobile-apple-watch.md)'unuzda görüntüleme.
-* Verileriniz için [veri uyarıları](mobile-set-data-alerts-in-the-mobile-apps.md) ayarlama.
-* [Power BI panoları](mobile-share-dashboard-from-the-mobile-apps.md) paylaşma.
-* Kutucuklara, raporlara veya görselleştirmelere [not ekleme ve bunları paylaşma](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
-* [Power BI QR kodlarını tarayarak](mobile-apps-qr-code.md) ilişkili pano kutucuklarını veya raporları açma.
-* iPhone uygulamasıyla [resim kutucukları oluşturma](mobile-iphone-app-get-started.md).
-* İş arkadaşlarınızın sizinle paylaştığı panolar gibi, [Power BI hesabınızdaki güncelleştirmelere yönelik bildirimleri](mobile-apps-notification-center.md) görüntüleme.
-
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Rapor Sunucusu web portallarındaki raporlar ve KPI'ler
-* iOS cihazlarındaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
-* [Web portalında KPI'ler](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
-* [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
-
-### <a name="see-also"></a>Ayıca bkz.
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 
 

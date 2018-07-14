@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301746"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864365"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için satır düzeyi güvenlik (RLS) kullanılabilir. Birçok farklı kullanıcı, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
@@ -65,11 +65,11 @@ Aşağıdaki adımları uygulayın:
 3. **District** tablosuna aşağıdaki DAX deyimini girin: **[District Manager] = USERNAME()**.
    
     ![RLS kuralı için DAX deyimi](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Kuralların çalıştığından emin olmak için **Modelleme** sekmesinde **Rol olarak görüntüle**'yi ve ardından az önce oluşturduğunuz **Manager** rolünü ve **Other user** öğesini seçin. Kullanıcı olarak **Andrew Ma** girin.
+4. Kuralların çalıştığından emin olmak için **Modelleme** sekmesinde **Rol olarak görüntüle**'yi ve ardından az önce oluşturduğunuz **Manager** rolünü ve **Other users** öğesini seçin. Kullanıcı olarak **AndrewMa** girin.
    
     ![Rol olarak görüntüle iletişim kutusu](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    Raporlarda **Andrew Ma** olarak oturum açıldığında görüntülenecek veriler gösterilir.
+    Raporlarda **AndrewMa** olarak oturum açıldığında görüntülenecek veriler gösterilir.
 
 Buradaki gibi filtreyi uyguladığımızda **District**, **Store** ve **Sales** tablolarındaki tüm kayıtlar filtrelenir. Ancak **Sales** ile **Time**, **Sales** ile **Item** ve **Item** ile **Time** tabloları arasındaki ilişkilerdeki filtre yönü nedeniyle tablolarda filtreleme yapılmaz. İki yönlü çapraz filtreleme hakkında daha fazla bilgi edinmek için [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (SQL Server Analysis Services 2016 ve Power BI Desktop'ta iki yönlü çapraz filtreleme)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) teknik incelemesini indirin.
 

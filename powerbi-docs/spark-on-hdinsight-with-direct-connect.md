@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34256760"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136514"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery ile HDInsight Spark
 DirectQuery ile Azure HDInsight'taki Spark hizmeti, Spark kümenizde bulunan verilere ve ölçümlere dayalı dinamik raporlar oluşturmanıza olanak sağlar. DirectQuery ile, siz verileri rapor görünümünde araştırırken Azure HDInsight Spark kümenize sorgular gönderilir. Bu deneyim, bağlandıkları varlıkları nasıl kullanacakları konusunda yeterli bilgi sahibi olan kullanıcılar için önerilir.
@@ -26,6 +26,10 @@ DirectQuery ile Azure HDInsight'taki Spark hizmeti, Spark kümenizde bulunan ver
 > 
 
 Power BI hizmetinde DirectQuery'yi kullanarak Azure HDInsight'taki Spark veri kaynağınıza bağlanmak için aşağıdaki adımları uygulayabilirsiniz.
+
+> [!Important]
+> Spark ile bağlantımızı geliştirdik.  Spark veri kaynağınıza en iyi bağlanma deneyimi için Power BI Desktop kullanın.  Modelinizi ve raporunuzu oluşturduktan sonra, bunu Power BI hizmetine yayımlayabilirsiniz.  Power BI hizmetindeki Spark doğrudan bağlayıcısı artık kullanım dışı bırakılmıştır.
+>
 
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
@@ -71,7 +75,7 @@ Ayrıca Azure portalında **Yapılandırma** > **Kümeyi Ölçeklendirin** böl�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Başlangıç: HDInsight Linux'te Apache Spark kümesi oluşturma ve Spark SQL'i kullanarak etkileşimli sorgular çalıştırma](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Power BI ile çalışmaya başlama](service-get-started.md)  
+[Power BI nedir?](power-bi-overview.md)  
 [Power BI için veri alma](service-get-data.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

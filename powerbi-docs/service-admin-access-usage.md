@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722213"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926548"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
@@ -25,9 +25,7 @@ Kiracı yöneticisiyseniz ve Power BI oturumu açmış olan kullanıcıları gö
 Etkinlik raporuna [yeni](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) ve [klasik](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure Active Directory (Azure AD) portallarından erişebilirsiniz. Yukarıdaki videoda klasik portal kullanılmıştır ancak bu makalede yeni portal üzerinden gidilecektir.
 
 > [!NOTE]
-> Bu etkinlik raporu hem Power BI (Ücretsiz) hem de Pro sürüm kullanıcılarını içerir ancak bu kullanıcıları sahip oldukları lisanslara göre ayırmaz.
-> 
-> 
+> Bu etkinlik raporu her kullanıcının sahip olduğu lisans türünü tanımlamaz.
 
 ## <a name="requirements"></a>Gereksinimler
 Oturum açma etkinliği raporunu görüntüleme gereksinimleri aşağıda belirtilmiştir.
@@ -70,7 +68,7 @@ Oturum açma verileri 30 güne kadar saklanabilir. Daha fazla bilgi için bkz. [
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Azure Active Directory portalındaki oturum açma etkinliği raporları (Yeni Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Erişim ve kullanım raporlarınızı görüntüleme (Klasik Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Erişim ve kullanım raporlarınızı görüntüleme (Klasik Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [Oturum açma örnek PowerShell betiği](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Azure Active Directory report retention policies (Azure Active Directory rapor saklama ilkeleri)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Kuruluşunuzda denetim özelliğini kullanma](service-admin-auditing.md)  

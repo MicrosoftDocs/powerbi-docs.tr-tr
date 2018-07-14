@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd129d898f7ac958a3441754e87366aa1a9dddca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34238259"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137296"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI ile GitHub'a bağlanma
 Power BI için GitHub içerik paketi; yapılan katkılar, sorunlar, çekme istekleri ve etkin kullanıcılar ile ilgili veriler içeren bir GitHub deposuna (depo olarak da bilinir) ilişkin öngörüler edinmenize olanak tanır.
@@ -97,5 +97,5 @@ Gerekirse GitHub kimlik bilgilerinizi doğrulayabilirsiniz.
 3. Power BI'da GitHub'a bağlanmayı deneyin. GitHub Yapılandırma iletişim kutusunda, deponun ve sahibinin adını kullanın.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 * [Veri alma](service-get-data.md)

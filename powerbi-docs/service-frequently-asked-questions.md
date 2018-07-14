@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964826"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145399"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen 
 Power BI hizmeti [https://powerbi.com](https://powerbi.com) özel, dahili bir bulut hizmeti olarak kullanılamaz. Ancak, şirket içi verileri görüntülemek ve bu veriler ile çalışmak üzere diğer üç seçenekten yararlanabilirsiniz. 
 
 ### <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
-Power BI ve Power BI Desktop ile şirket içi veri kaynaklarınıza güvenli bir şekilde bağlanabilirsiniz. [Şirket içi veri ağ geçidi](service-gateway-onprem.md) ile şirket içi SQL Server Analysis Services sunucunuza ve diğer veri kaynaklarına canlı bağlantı kurabilirsiniz. Aynı zamanda merkezi bir ağ geçidi ile yenileme zamanlayabilirsiniz. Bir ağ geçidi kullanılamıyorsa [Power BI Gateway - Personal](personal-gateway.md) kullanarak verilerinizi şirket içi veri kaynaklarından yenileyebilirsiniz.
+Power BI ve Power BI Desktop ile şirket içi veri kaynaklarınıza güvenli bir şekilde bağlanabilirsiniz. [Şirket içi veri ağ geçidi](service-gateway-onprem.md) ile şirket içi SQL Server Analysis Services sunucunuza ve diğer veri kaynaklarına canlı bağlantı kurabilirsiniz. Aynı zamanda merkezi bir ağ geçidi ile yenileme zamanlayabilirsiniz. Bir ağ geçidi kullanılamıyorsa [Power BI Gateway - Personal](service-gateway-personal-mode.md) kullanarak verilerinizi şirket içi veri kaynaklarından yenileyebilirsiniz.
 
 ### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 Power BI Rapor Sunucusu, raporları oluşturmak, yayımlamak, yönetmek ve ardından farklı şekillerde (bir Web tarayıcısında, mobil cihazlarında ya da posta kutularında e-posta olarak) farklı kullanıcılara iletmek üzere şirketinizde kullandığınız bir çözümdür. [Power BI Rapor Sunucusu](report-server/get-started.md) hakkında daha fazla bilgi edinin.
@@ -138,6 +138,7 @@ Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da girdiğiniz son
 * Son işleminizi veya son birkaç işleminizi **geri almak** için CTRL+Z tuşuna basın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+* [Power BI nedir?](power-bi-overview.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin
 

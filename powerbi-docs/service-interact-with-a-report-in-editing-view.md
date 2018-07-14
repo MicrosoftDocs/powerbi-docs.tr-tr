@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240442"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965608"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop'ta raporlar oluşturulup düzenlenebilir. Power BI hizmetinde raporlar, **Düzenleme görünümü**'nde oluşturulup düzenlenebilir. Power BI Desktop’ta ise raporlar [**Rapor görünümü**](desktop-report-view.md)'nde oluşturulup düzenlenebilir. Bu makalede Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
 
-Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](service-reading-view-and-editing-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Power BI ücretsiz sürümünü kullanıyorsanız yine de rapor oluşturabilirsiniz ancak [paylaşma](service-share-reports.md) özelliğini kullanamazsınız.    
+Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](service-reading-view-and-editing-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa, yine de rapor oluşturabilirsiniz ama [bunları paylaşmanız](service-share-reports.md) mümkün olmaz.    
 
 Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](service-reading-view-and-editing-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](service-create-distribute-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
 
@@ -39,7 +39,7 @@ Sol taraftaki İçindekiler bölümündeki **Raporlar** başlığının altında
 * Bir rapor sayfasını yineleme
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Başkaları tarafından oluşturulan raporları düzenlemek ve raporlarınızı başkalarıyla paylaşmak için bir Power BI Pro lisansı gereklidir.  Power BI ücretsiz sürümünü kullanıyorsanız yine de rapor oluşturabilirsiniz ancak [paylaşma](service-share-reports.md) özelliğini kullanamazsınız.
+Başkaları tarafından oluşturulan raporları düzenlemek ve raporlarınızı başkalarıyla paylaşmak için bir Power BI Pro lisansı gereklidir.  Pro lisansınız yoksa, yine de rapor oluşturabilirsiniz ama [bunları paylaşmanız](service-share-reports.md) mümkün olmaz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

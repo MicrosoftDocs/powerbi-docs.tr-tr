@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245374"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944756"
 ---
 # <a name="manage-your-data-storage"></a>Veri depolama alanınızı yönetme
 Rapor ve veri kümesi yayımlamaya devam edebilmek için bireysel veya uygulama çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
 
 Kullanıcı ve uygulama çalışma alanları farklı veri kapasitelerine sahiptir
 
-* Ücretsiz ve Pro sürüm kullanıcıları en fazla 10 GB veri depolama alanına sahip olur.
-* Pro sürüm kullanıcıları her biri en fazla 10 GB veri depolama alanına sahip uygulama çalışma alanları oluşturabilir.
+* Tüm kullanıcılar en fazla 10 GB veri depolama alanına sahip olur.
+* Power BI Pro lisansı olan kullanıcılar, her biri en fazla 10 GB veri depolama alanına sahip uygulama çalışma alanları oluşturabilir.
 
 Kiracı düzeyinde toplam kullanım, tüm Pro sürüm kullanıcıları ve kiracıdaki tüm uygulama çalışma alanları için Pro sürüm kullanıcısı başına 10 GB'ı aşamaz.
 

@@ -6,14 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965309"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama
 
@@ -21,17 +22,15 @@ Power BI'da, ilişkili pano ve raporları bir araya getirip kuruluşunuzda kalab
 
 ![Power BI uygulamaları](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-İş kullanıcılarınız işlerini yürütmek için sıklıkla birden fazla Power BI panosu ve raporuna ihtiyaç duyar. Uygulamalar bu parçaları bir araya getirir. Böylece tüm bu panoların adını ve konumunu hatırlamalarına gerek kalmaz.  
-
-Şimdi önizlemede olan Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu uygulamaları ister bütün kuruluşunuza, ister belirli kişi ve gruplara yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, pano koleksiyonlarında izin yönetimini kolaylaştırır.
+İş kullanıcılarınız işlerini yürütmek için sıklıkla birden fazla Power BI panosu ve raporuna ihtiyaç duyar. Uygulamalar bu parçaları bir araya getirir. Böylece tüm bu panoların adını ve konumunu hatırlamalarına gerek kalmaz. Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu uygulamaları ister bütün kuruluşunuza, ister belirli kişi ve gruplara yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, pano koleksiyonlarında izin yönetimini kolaylaştırır.
 
 İş kullanıcıları, uygulamalarınızı birkaç farklı yöntemle alabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamalarınızı Microsoft AppSource'tan yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Hepsi tek bir yerde olduğu için içeriğinizi kolayca bulabilir ve içeriğinize geri dönebilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](service-install-use-apps.md) ilgili daha fazla bilgi edinin.
 
 ### <a name="licenses-for-apps"></a>Uygulamalar için lisanslar
-Bir uygulama oluşturucusu olarak Power BI Pro lisansına ihtiyacınız vardır. Uygulama kullanıcılarınız için iki seçenek vardır.
+Bir uygulama oluşturucusu olarak Power BI Pro lisansına ihtiyacınız vardır. Uygulama kullanıcılarınız için, uygulamanızı görüntülemeye yönelik iki seçenek vardır.
 
-* 1. Seçenek: Tüm iş kullanıcılarının uygulamanızı görüntülemek için **Power BI Pro** lisansına ihtiyacı vardır. 
-* 2. Seçenek: Kuruluşunuzdaki ücretsiz sürüm kullanıcıları, uygulamanız Power BI Premium kapasitesinde yer alıyorsa uygulama içeriğini görüntüleyebilir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+* 1. Seçenek: Bir uygulama kullanıcısına **Power BI Pro** lisansı atanmıştır. 
+* 2. Seçenek: Bir uygulama kullanıcısına **Power BI Pro** lisansı atanmıştır, ama uygulama Power BI Premium kapasitesinde durur. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ### <a name="apps-and-organizational-content-packs"></a>Uygulamalar ve kurumsal içerik paketleri
 Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal içerik paketleriniz varsa bu paketler, uygulamalarla yan yana çalışmaya devam ederler.

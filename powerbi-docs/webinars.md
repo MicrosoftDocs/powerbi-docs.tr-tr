@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34299298"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137651"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,25 +22,9 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun
+Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
 
-**Power BI ve Visio ile doğru içgörüleri alma**
-<br>Hazırlayan: Shakun Grover
-<br>*22 Mayıs 2018 10:00 PST, 13:00 EST*
-
-Güçlü görsel içgörüler oluşturmak üzere Power BI panoları ile Microsoft Visio diyagramlarını birleştirme hakkında bilgi edinmek için bu web seminerinde bize katılın. Visio ve Power BI yüksek oranda görsel ve doğal olarak tamamlayıcı özelliktedir. Visio’yu kullanarak birbirine bağlı iş akışları ve gerçek dünya düzenleri gibi örnekleyici diyagramlar oluşturabilirsiniz. Power BI, temel performans göstergelerini ölçmek ve hedefleri izlemek amacıyla grafik ve haritaları kullanarak sezgisel panolar oluşturmanıza yardımcı olur.
-
-[22 Mayıs’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**20 dakika içinde Power BI Embedded hakkında bilgi edinin**
-<br>Hazırlayan: Megan Asarrane ve Colin Murphy
-<br>*23 Mayıs 2018 10:00 PST, 13:00 EST*
-
-Bu web semineri, Power BI Embedded hakkında giriş bilgileri vermek için sunulmaktadır. Bu web seminerinin sonunda kullanıcılar Power BI Embedded’in ne olduğunu, ürünü kullanmaya başlamak için uygulanacak adımları ve yardım/kaynaklar için nereye gidileceğini öğrenecektir.
-
-[23 Mayıs’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
@@ -78,15 +62,27 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**20 dakika içinde Power BI Embedded hakkında bilgi edinin**
+<br>Hazırlayan: Megan Asarrane ve Colin Murphy
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **Elektronik Tablonun ötesinde**
 <br>Hazırlayan: Gohul Shanmugalingam
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Power BI ve Visio ile doğru içgörüleri alma**
+<br>Hazırlayan: Shakun Grover
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Transforming A Report From Good to GREAT! (İyi bir Raporu HARİKA bir Rapora Dönüştürme)**
 <br>Sağlayan: Reid Havens
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>İş Ortakları ###
+
+**Konum Zekası ile İş Zekanızı Artırın**
+<br>Scott Ball, Microsoft'tan Esri ve Enrique Plaza
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **Sağlık Hizmetinde Karlılığı Artırma**
 <br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
@@ -172,7 +168,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 - [Microsoft Data Insights Zirvesi 2017 isteğe bağlı oturumları](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Power BI ile çalışmaya başlama](service-get-started.md)
+- [Power BI nedir?](power-bi-overview.md)
 
 - [Twitter'da @MSPowerBI hesabını takip edin](https://twitter.com/mspowerbi)
 

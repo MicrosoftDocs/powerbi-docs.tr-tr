@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561759"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944112"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI ile ekleme
 Power BI, panolarınızı ve raporlarınızı uygulamalara eklemek için kullanabileceğiniz API'ler sunar. Power BI API'leri, içerik eklerken kullanabileceğiniz bir dizi özelliğin yanı sıra en yeni Power BI özeliklerine (panolar, ağ geçitleri ve uygulama çalışma alanları gibi) erişim sunar.
@@ -29,7 +29,7 @@ Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve rapo
 ## <a name="embedding-for-your-organization"></a>Kuruluşunuz için içerik ekleme
 Kuruluşunuz için içerik ekleyerek Power BI hizmetinin kapsamını genişletebilirsiniz. Bunun için uygulamanızın kullanıcılarının, içeriklerini görüntülemek istediklerinde Power BI hizmetinde oturum açmaları gerekir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca, sahip olduğu veya Power BI hizmetinde kendisiyle paylaşılmış olan panolara ve raporlara erişebilir. 
 
-*Kuruluşunuz için içerik ekleme örnekleri arasında şirket içi web uygulaması, SharePoint Online web bölümü ve Microsoft Teams tümleştirmesi bulunur.*
+*Kuruluşunuz için içerik ekleme örnekleri arasında şirket içi web uygulaması, SharePoint Online web bölümü ve [Microsoft Teams tümleştirmesi bulunur (Yönetici haklarına sahip olmanız gerekir)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Kuruluşunuz için içerik ekleme konusunda bilgiye aşağıdaki sayfalardan ulaşabilirsiniz:
 

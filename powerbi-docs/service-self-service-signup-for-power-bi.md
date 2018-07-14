@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299505"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926502"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
 Power BI'a kaydolmayı ve Power BI'ı kişisel rapor ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
@@ -32,8 +32,7 @@ Bireysel olarak Power BI'a kaydolmak ve hizmeti kullanmaya başlamak için birka
 Office 365 kullanan bir kuruluşa bağlıysanız yine de ücretsiz hesaba kaydolabilirsiniz. BT Yöneticinizin de Power BI Pro'yu satın almaya ve lisansları atamaya yönelik birkaç seçeneği bulunmaktadır. BT Yöneticilerine sunulan seçenekler ile ilgili daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md).
 
 > [!NOTE]
-> Bir kuruluşa bağlıysanız bireysel kayıt devre dışı bırakılmış olabilir. Bu seçeneğin devre dışı bırakılmış olduğunu belirten bir hata alırsanız daha fazla bilgi için [Bireysel kayıt devre dışı bırakılmış](#individual-sign-up-has-been-turned-off) bölümüne bakın.
->
+> Bir kuruluşa bağlıysanız bireysel kayıt devre dışı bırakılmış olabilir. Kaydın devre dışı bırakıldığını belirten bir hata alırsanız, daha fazla bilgi için BT bölümünüze başvurun.
 
 ## <a name="what-you-need-to-sign-up"></a>Kaydolmak için ne yapmanız gerekiyor?
 
@@ -69,16 +68,16 @@ Power BI'a kaydolmak için şunları yapabilirsiniz.
 
 1. [powerbi.com](https://powerbi.microsoft.com) adresine gidin.
 2. **Start Free** (Ücretsiz Olarak Başla) veya **Sign up free** (Ücretsiz kaydolun) seçeneklerinden birini belirleyin.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. Başlangıç sayfasında Power BI altındaki **Try Free >** (Ücretsiz olarak deneyin) seçeneğini belirleyin.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. Kaydolacağınız e-posta adresini girin ve **Sign up**'ı (Kaydol) seçin. E-posta adresinizin, kayıt işlemi için uygun olduğundan emin olun. Kullanabileceğiniz e-posta adresleri hakkında daha fazla bilgi için bkz. [Power BI ile hangi e-posta adresi kullanılabilir?](#what-email-address-can-be-used-with-power-bi).
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. E-postanızı kontrol etmenizi bildiren bir ileti alırsınız.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. E-posta adresinizi doğrulamak için e-posta içindeki bağlantıyı seçin. Bu seçim sizi kayıt işlemi akışına geri yönlendirir. Kendinizle ilgili bazı ek bilgiler vermeniz gerekebilir.
 7. Ardından, https://app.powerbi.com adresine yönlendirilirsiniz. Böylece, Power BI'ı ücretsiz sürüm kullanıcısı olarak kullanmaya başlayabilirsiniz.
@@ -123,7 +122,7 @@ Daha sonra **Deneme sürümünü başlat**'ı seçin.
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>Bunu hizmette nasıl görürsünüz?
-Bir Pro deneme sürümü hesabına sahip olup olmadığınızı, hizmetteyken **dişli* simgesine gidip **Kişisel depolama alanını yönet** seçeneğini belirleyerek doğrulayabilirsiniz.
+Bir Pro deneme sürümü hesabına sahip olup olmadığınızı, hizmetteyken <strong>dişli* simgesine gidip Kişisel depolama alanını yönet seçeneğini belirleyerek**</strong> doğrulayabilirsiniz.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ Power BI Pro lisansını bireysel olarak kullanmanın bir yolu yoktur. Lisansı 
 ## <a name="troubleshooting"></a>Sorun giderme
 Çoğu durumda, Power BI'a kaydolma işlemi, yukarıda verilen self servis kayıt süreci uygulanarak tamamlanabilir. Ancak, self servis kayıt işleminin çeşitli nedenlerle tamamlanamadığı durumlar olabilir.  Aşağıdaki tabloda, kayıt işlemini tamamlama konusunda en çok karşılaşılan sorunların nedenleri ve bu sorunlara yönelik geçici çözümler açıklanmıştır.
 
-| **Belirti / Hata İletisi** | **Neden ve Geçici Çözüm** |
-| --- | --- |
-| **Kişisel e-posta adresi (ör. nancy@gmail.com)** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Kullanıcı hesabının [Azure B2B konuğu](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) olarak davet edilmesini sağlayın. |
-| **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydolmayı tamamlamak için BT yöneticinize başvurun ve sayfanın aşağısında verilen yönergeleri izleyerek mevcut kullanıcıların Power BI'a kaydolmasına ve yeni kullanıcıların mevcut kiracınıza katılmasına izin vermesini isteyin. <br/><br/> Office 365'e bir iş ortağı aracılığıyla kaydolduysanız da bu sorunla karşılaşabilirsiniz. [Daha fazla bilgi](service-admin-syndication-partner.md) <br /><br /> [Kuruluşunuzda Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.* |Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapabiliyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+
+|                                                                                                                                                                                                                          **Belirti / Hata İletisi**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Neden ve Geçici Çözüm**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>Kişisel e-posta adresi (ör. nancy@gmail.com)</strong> Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |                          Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Kullanıcı hesabının [Azure B2B konuğu](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) olarak davet edilmesini sağlayın.                           |
+|            **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.*             |                             Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydolmayı tamamlamak için BT yöneticinize başvurun ve sayfanın aşağısında verilen yönergeleri izleyerek mevcut kullanıcıların Power BI'a kaydolmasına ve yeni kullanıcıların mevcut kiracınıza katılmasına izin vermesini isteyin. <br/><br/> Office 365'e bir iş ortağı aracılığıyla kaydolduysanız da bu sorunla karşılaşabilirsiniz. [Daha fazla bilgi](service-admin-syndication-partner.md) <br /><br /> [Kuruluşunuzda Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.*                                                                                           | Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapabiliyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kuruluşunuz için Power BI (ücretsiz)](service-admin-service-free-in-your-organization.md)  

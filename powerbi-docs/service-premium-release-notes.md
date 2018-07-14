@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298332"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944365"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium sürüm notları
 Bunlar, kuruluşunuz veya ekibiniz için daha güvenilir performans, daha büyük veri hacmi ve görüntüleyenler için kullanıcı başına lisansa ihtiyaç duymadan içerik dağıtma özelliği sunan bir ayrılmış kapasite olan Power BI Premium uygulamasının sürüm notlarıdır.
 
-* Power BI Ücretsiz lisanslarına sahip olan kullanıcılar artık Premium çalışma alanlarından kendileriyle paylaşılmış olan panoları Power BI hizmetinde görüntüleyebilir.
+* Atanan lisanslarından bağımsız olarak tüm kullanıcılar artık Premium çalışma alanlarından kendileriyle paylaşılmış olan panoları Power BI hizmetinde görüntüleyebilir.
 * Kapasite yöneticileri artık kapasite atama izinlerini otomatik olarak edinir.
 * Dinamik satır düzeyi güvenlik (RLS), artık katıştırılmış kullanım durumları için kullanılabilir. Daha fazla bilgi için bkz. [Katıştırılmış analiz ile satır düzeyi güvenlik (RLS)](developer/embedded-row-level-security.md).
 * powerbi.com'u kullanarak Power BI uygulamalarını başka AAD kiracılarındaki kullanıcılara dağıtma özelliği henüz desteklenmemektedir. Bu özellik üzerinde çalışıyoruz.

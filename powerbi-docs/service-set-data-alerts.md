@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689726"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137650"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI hizmetindeki veri uyarıları
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. 
@@ -104,6 +104,6 @@ Uyarıları yönetmek için kullanabileceğiniz birçok farklı yöntem vardır:
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri uyarısı içeren bir Microsoft Flow akışı oluşturma](service-flow-integration.md)    
 [Mobil cihazınızda veri uyarısı oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Power BI ile çalışmaya başlama](service-get-started.md)    
+[Power BI nedir?](power-bi-overview.md)    
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 143d3c2a48ca6dbe6ca39f4a097e45654accaa04
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 701dbeb60ea93e2df1bbfe886373919ae97a39c8
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721260"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134904"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>"Android System Webview'un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi
 Microsoft Power BI için Android mobil uygulamasında oturum açtığınız sırada, Android System Webview'u güncelleştirmeniz gerektiğini belirten bir ileti ile karşılaşabilirsiniz. 
@@ -30,6 +30,6 @@ Görünüşe göre Chrome uygulamanızı yükseltmeniz gerekiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

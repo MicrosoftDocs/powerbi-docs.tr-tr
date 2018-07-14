@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248423"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136974"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?
@@ -76,7 +76,7 @@ Rolünüze göre, başlamanıza yardımcı olacak bazı konu başlıkları aşa�
 > 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md) 
+[Power BI nedir?](power-bi-overview.md) 
 
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 

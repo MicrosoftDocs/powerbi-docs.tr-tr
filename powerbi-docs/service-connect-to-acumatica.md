@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243857"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092656"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI ile Acumatica'ya Bağlanma
 Power BI Acumatica içerik paketi, fırsat verilerinizle ilgili hızla öngörü elde etmenize olanak sağlar. Power BI; fırsatlar, hesaplar ve müşteriler de dahil olmak üzere verilerinizi alır ve bu verilere dayalı olarak, varsayılan bir pano ve ilgili raporları oluşturur.
@@ -66,7 +66,7 @@ Acumatica OData uç noktası aşağıdaki gibi biçimlendirilir ve HTTPS ifadesi
 
     https://[sitedomain]/odata/[companyname]
 
-Acumatica'da oturum açtığınızda, Uygulama Site Etki Alanı bilgisini tarayıcınızdaki adres çubuğunda görebilirsiniz. Aşağıdaki örnekte site etki alanı adı “https://pbi.acumatica.com” olduğundan, sağlanacak OData uç noktası “https://pbi.acumatica.com/odata” olur.
+Acumatica'da oturum açtığınızda, Uygulama Site Etki Alanı bilgisini tarayıcınızdaki adres çubuğunda görebilirsiniz. Aşağıdaki örnekte site etki alanı adı `https://pbi.acumatica.com` olduğundan, sağlanacak OData uç noktası `https://pbi.acumatica.com/odata` olur.
 
  ![](media/service-connect-to-acumatica/url.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245594"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092196"
 ---
 # <a name="enable-qa-for-live-connections"></a>Canlı bağlantılar için Soru-Cevap özelliğini etkinleştirme
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Şirket içi veri ağ geçidi nedir?  Canlı bağlantı nedir?
@@ -56,6 +56,7 @@ Bu özelliğin Önizleme aşamasında bazı sınırlamalar söz konusudur:
 
 * Özellik şimdilik yalnızca SQL Server 2016 Analysis Services Tablolu veri kaynakları için kullanılabilir. Özellik tablo verileriyle çalışacak şekilde en iyi duruma getirilmiştir. Bazı işlevler çok boyutlu veri kaynakları için kullanılabilir ancak Soru-Cevap deneyiminin tamamı henüz çok boyutlu veri kaynakları için desteklememektedir. Zamanla, şirket içi veri ağ geçidi tarafından desteklenen daha fazla veri kaynağı kullanıma sunulacaktır.
 * Genel önizlemede başlangıç olarak SQL Server Analysis Services'de tanımlanan satır düzeyi güvenlik için tam destek mevcut değildir. Soru-Cevap'ta soru sorarken soruların "otomatik tamamlanması", bir kullanıcının erişim sahibi olmadığı dize değerlerini gösterebilir. Ancak rapor ve grafik görselleri için modelde tanımlanan RLS dikkate alınır, bu nedenle temel alınan hiçbir sayısal veri açığa çıkmaz. Bu davranışının denetlenmesine yönelik seçenekler ileride gerçekleştirilecek güncelleştirmelerde kullanıma sunulacaktır.
+* Nesne düzeyi güvenlik (OLS) desteklenmez. Soru-Cevap nesne düzeyi güvenliğe uymaz ve tablo veya sütun adlarını bunlara erişimi olmayan kullanıcılara açıklayabilir. Veri değerlerinin de uygun bir şekilde güvenlik altına alındığından emin olmak için RLS'yi etkinleştirmelisiniz. 
 * Canlı bağlantılar yalnızca şirket içi veri ağ geçidi ile desteklenir. Sonuç olarak bu, kişisel ağ geçidi ile kullanılamaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar

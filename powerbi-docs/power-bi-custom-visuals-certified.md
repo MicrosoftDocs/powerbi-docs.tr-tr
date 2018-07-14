@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813607"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600370"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
@@ -39,7 +39,7 @@ Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunl
 Bir özel görseli sertifikasyona göndermek için:
 
 1. Power BI Özel Görseller Destek (pbicvsupport@microsoft.com) birimine bir e-posta gönderin. E-postada aşağıdaki bilgileri verin:    
-   
+
    * Başlık: Görsel Sertifikasyon Talebi    
    * Görsel kaynak kodunun bulunduğu GitHub deposu bağlantısı    
    * Gereksinimlere uygunluk bilgisi (yukarıya bakın)    
@@ -51,6 +51,7 @@ Bir özel görseli sertifikasyona göndermek için:
 Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden kaldırabilir.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Sertifikalı özel görseller listesi
+
 | AppSource bağlantısı | Video bağlantısı |
 | --- | --- |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Bilgi Grafiği Tasarımcısı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Akvelon KPI Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [MAQ Software KPI Sütunu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Video](https://youtu.be/rU0xoOlIq1U) |
+| [MAQ Software KPI Kılavuzu](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Video](https://youtu.be/dM4PvZh71V0) |
 | [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [MAQ Software KPI Bandı](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
 | [MAQ Software Linear Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Metin Filtresi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [MAQ Software Text Wrapper](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [MAQ Software Termometre](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Video](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush Dilimleyici](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Zaman Çizelgesi Dilimleyici](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
+| [CloudScope Zaman Çizelgesi](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Video](https://youtu.be/szNi9YgXFJc) |
 | [Tornado chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [MAQ Software Trading Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Video](https://youtu.be/pDYF8iZxERs) |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c0090cb81ebaebc6b4cec70163374be4f1f37980
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456123"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135824"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Office 365 için Power BI kullanımdan kaldırıldı
 Power BI'ın önceki bir sürümü olan Office 365 için Power BI'dan [Power BI](https://powerbi.microsoft.com)'ın güncel sürümüne geçiş yapıldı. Daha önce **Office 365 için Power BI**'ı kullanan kullanıcılar Power BI'ın güncel sürümünü kullanabilir. [Power BI hakkında daha fazla bilgi edinebilirsiniz](service-get-started.md).
@@ -28,8 +28,8 @@ Power BI'ın önceki bir sürümü olan Office 365 için Power BI'dan [Power BI]
 Daha fazla bilgi için bkz. [Power BI yönetici portalı](service-admin-portal.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)
+[Power BI nedir?](power-bi-overview.md)
 
-[Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
+[Power BI Desktop nedir?](desktop-what-is-desktop.md)
 
 [Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)

@@ -1,6 +1,6 @@
 ---
-title: Power BI hizmeti ile çalışmaya başlama
-description: Power BI hizmeti ile çalışmaya başlama
+title: Power BI hizmeti (Power BI çevrimiçi) ile çalışmaya başlama
+description: Power BI çevrimiçi (app.powerbi.com) ile çalışmaya başlama
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310142"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598679"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Power BI hizmeti (app.powerbi.com) ile çalışmaya başlama
-Bu eğitim, ***Power BI hizmeti*** ile çalışmaya başlamanıza yardımcı olur. Power BI hizmetinin, diğer Power BI teklifleri ile nasıl bir uyum içinde çalıştığını anlamanız için ilk olarak [Power BI nedir?](guided-learning/gettingstarted.yml?tutorial-step=1) makalesini okumanızı öneririz.
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Öğretici: Power BI hizmeti (app.powerbi.com) ile çalışmaya başlama
+Bu eğitim, ***Power BI hizmeti*** ile çalışmaya başlamanıza yardımcı olur. Power BI hizmetinin, diğer Power BI teklifleri ile nasıl bir uyum içinde çalıştığını anlamanız için ilk olarak [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
 
-![Masaüstü, hizmet, mobil arasındaki ilişkiyi gösteren resim](media/service-get-started/power-bi-components.png)
+![Desktop, hizmet, mobil arasındaki ilişkiyi gösteren resim](media/service-get-started/power-bi-components.png)
 
-Power BI hizmetinin ücretsiz ve Pro sürümleri mevcuttur. Hangi sürümü kullanıyor olursanız olun *hesabınız varsa* tarayıcı penceresi açıp app.powerbi.com adresini girerek Power BI hizmetini açın. Yeni kullanıcıysanız www.powerbi.com adresinden başlamanızı öneririz. Bu sayfadan hizmette oturum açmadan önce Power BI hakkında daha fazla bilgi edinebilirsiniz.  Denemeye hazır olduğunuzda sağ üst köşedeki **Sign up free** (Ücretsiz kaydolun) bağlantısına tıklayın. Yöneticiniz Power BI hizmetini sizin için etkinleştirdiyse Sign up free düğmesini kullanmadan doğrudan app.powerbi.com adresine gidin. 
+Bu öğreticide aşağıdaki adımları tamamlarsınız:
+
+> [!div class="checklist"]
+> * Power BI hizmetine yönelik diğer başlangıç içeriğini bulun
+> * Power BI çevrimiçi hesabınızda oturum açma veya Power BI hesabınız yoksa, Power BI hesabına kaydolma
+> * Power BI hizmetini açma
+> * Bazı verileri alma ve rapor görünümünde açma
+> * Bu verileri kullanarak görselleştirmeler oluşturma ve bunları rapor olarak kaydetme
+> * Rapordan kutucukları sabitleyerek bir pano oluşturma
+> * Soru-Cevap doğal dil aracını kullanarak panonuza başka görselleştirmeler ekleme
+> * Veri kümesini, raporu ve panoyu silerek kaynakları temizleme
+
+## <a name="sign-up-for-power-bi-service"></a>Power BI hizmetine kaydolma
+Power BI'a kaydolmadıysanız başlamadan önce [ücretsiz Power BI Pro denemesine](https://app.powerbi.com/signupredirect?pbi_source=web) kaydolun.
+
+Zaten hesabınız varsa, tarayıcı penceresi açıp app.powerbi.com adresini girerek Power BI hizmetini açın. 
 
 ![Oturum açma veya ücretsiz kaydolma](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Power BI Desktop ile ilgili yardım almak isterseniz bkz. [Desktop ile çalışm
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Microsoft Power BI, önem verdiğiniz bilgileri edinmenize ve her zaman en güncel bilgilere sahip olmanıza yardımcı olur.  Power BI hizmetindeki ***panolar***, işletmenizin nabzını tutmanıza yardımcı olur.  Panolarınızda görüntülenen ***kutucuklara*** tıkladığınızda ***raporlar*** açılır ve böylece daha fazla araştırma yapabilirsiniz.  Birden çok ***veri kümesine*** bağlanarak tüm ilgili verileri bir yerde toplayın. Power BI'ı oluşturan yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  Bkz. [Power BI - Temel Kavramlar](service-basic-concepts.md).
+## <a name="what-is-power-bi-service"></a>Power BI hizmeti nedir?
+Microsoft Power BI hizmeti bazen Power BI çevrimiçi veya app.powerbi.com olarak da adlandırılır. Power BI, önem verdiğiniz bilgileri edinmenize ve her zaman en güncel bilgilere sahip olmanıza yardımcı olur.  Power BI hizmetindeki ***panolar***, işletmenizin nabzını tutmanıza yardımcı olur.  Panolarınızda görüntülenen ***kutucuklara*** tıkladığınızda ***raporlar*** açılır ve böylece daha fazla araştırma yapabilirsiniz.  Birden çok ***veri kümesine*** bağlanarak tüm ilgili verileri bir yerde toplayın. Power BI'ı oluşturan yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  Bkz. [Power BI - Temel Kavramlar](service-basic-concepts.md).
 
 Excel veya CSV dosyalarında önemli verileriniz varsa, bilgilere her yerden erişmek ve öngörülerinizi başkalarıyla paylaşmak için bir Power BI panosu oluşturabilirsiniz.  Salesforce gibi bir SaaS uygulaması aboneliğiniz var mı?  Salesforce'a bağlanıp ilgili verilerden otomatik olarak bir pano oluşturarak başlayın veya bağlanabileceğiniz [diğer tüm SaaS uygulamalarına göz atın](service-get-data.md). Bir kuruluşa bağlıysanız sizin için yayımlanan herhangi bir [uygulama](service-create-distribute-apps.md) olup olmadığına bakın.
 
@@ -48,7 +62,7 @@ Excel veya CSV dosyalarında önemli verileriniz varsa, bilgilere her yerden eri
 ## <a name="step-1-get-data"></a>1. Adım: Veri alma
 Aşağıda, CSV dosyasından veri almaya ilişkin bir örnek verilmiştir. Bu eğitimle birlikte ilerlemek ister misiniz? [Bu örnek CSV dosyasını indirin](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Power BI'da oturum açın](http://www.powerbi.com/). Hesabınız yok mu? Endişelenmeyin, ücretsiz kaydolabilirsiniz.
+1. [Power BI'da oturum açın](http://www.powerbi.com/). Hesabınız yok mu? Endişelenmeyin, ücretsiz denemeye kaydolabilirsiniz.
 2. Power BI, tarayıcınızda açılır. Sol gezinti çubuğunun alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![veri al](media/service-get-started/getdata3.png)
@@ -94,23 +108,23 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
    
    ![raptiye simgesi](media/service-get-started/pinnew.png)
 
-5. Bu yeni bir rapor olduğundan, görselleştirmeyi panoya sabitleyebilmeniz için öncelikle raporu kaydetmeniz istenir. Raporunuza bir ad verin (ör. *Sales over time*), ardından **Kaydet ve Devam Et**'i seçin. 
+4. Bu yeni bir rapor olduğundan, görselleştirmeyi panoya sabitleyebilmeniz için öncelikle raporu kaydetmeniz istenir. Raporunuza bir ad verin (ör. *Sales over time*), ardından **Kaydet ve Devam Et**'i seçin. 
    
    ![Raporu kaydet iletişim kutusu](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. Şimdi çizgi grafiği yeni panoya sabitleyip "Financial sample for tutorial" adını verelim. 
+5. Şimdi çizgi grafiği yeni panoya sabitleyip "Financial sample for tutorial" adını verelim. 
    
    ![raporu adlandırma](media/service-get-started/power-bi-pin.png)
    
- 1. **Sabitle**'yi seçin.
+1. **Sabitle**'yi seçin.
    
     Sağ üst köşeye yakın bir noktada çıkan Başarılı iletisi, görselleştirmenin bir kutucuk olarak panonuza eklendiğini bildirir.
    
     ![Panoya sabitlendi iletişim kutusu](media/service-get-started/power-bi-pin-success.png)
 
-8. **Panoya git**'i seçtiğinizde çizgi grafiğin yeni panonuza kutucuk olarak sabitlendiğini görebilirsiniz. Daha fazla görselleştirme kutucuğu ekleyip [kutucukları yeniden adlandırma, yeniden boyutlandırma, bağlantılı hale getirme ve yeniden konumlandırma](service-dashboard-edit-tile.md) yoluyla panonuzu iyileştirin.
+6. **Panoya git**'i seçtiğinizde çizgi grafiğin yeni panonuza kutucuk olarak sabitlendiğini görebilirsiniz. Daha fazla görselleştirme kutucuğu ekleyip [kutucukları yeniden adlandırma, yeniden boyutlandırma, bağlantılı hale getirme ve yeniden konumlandırma](service-dashboard-edit-tile.md) yoluyla panonuzu iyileştirin.
    
-   ![görselleştirmenin sabitlendiği pano](media/service-get-started/power-bi-new-dashboard.png)
+   ![Görselleştirmenin sabitlendiği pano](media/service-get-started/power-bi-new-dashboard.png)
    
    İstediğiniz zaman rapora geri dönmek için panonuzdaki yeni kutucuğu seçin. Power BI rapor düzenleyicisi Okuma görünümü'nde açılır. Düzenleme görünümü'ne geçmek için üst menü çubuğundan **Raporu düzenle**'yi seçin. Düzenleme görünümü'ne geçtikten sonra kutucukları keşfetmeye ve sabitlemeye devam edin. 
 
@@ -128,26 +142,21 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
 
    ![grafiğin sabitlendiği pano](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>Kaynakları temizleme
+Öğreticiyi bitirdiğinize göre şimdi veri kümesini, raporu ve panoyu silebilirsiniz. 
+
+1. Sol gezinti çubuğundan **Çalışma Alanım**’ı seçin.
+2. **Veri Kümeleri** sekmesini seçin ve bu öğretici için içeri aktardığınız veri kümesini bulun.  
+3. Üç noktayı (...) > **Sil**'i seçin.
+
+    ![Veri kümesini silme](media/service-get-started/power-bi-delete.jpg)
+
+    Veri kümesinin silinmesiyle, rapor ve pano da silinir. 
+
+
 ## <a name="next-steps"></a>Sonraki adımlar
 Daha fazlasını denemeye hazır mısınız?  Power BI ile ilgili keşif yapmak için uygulayabileceğiniz bazı harika yöntemler.
 
-* [Başka bir veri kümesine bağlanın](service-get-data.md).
-* İş arkadaşlarınızla [panonuzu paylaşın](service-share-dashboards.md).
-* [Pano tasarlamaya ilişkin ipuçlarını](service-dashboards-design-tips.md) okuyun.
-* Panolarınızı [mobil cihazdaki bir Power BI uygulamasında](mobile-apps-for-mobile-devices.md) görüntüleyin.
-
-Henüz hazır değil misiniz? Power BI ile kolayca çalışmanıza yardımcı olmak için tasarlanan şu konu başlıklarına göz atın:
-
-* [Raporların, veri kümelerinin, panoların ve kutucukların nasıl bir uyum içinde çalıştığı hakkında bilgi edinin](service-basic-concepts.md)
-* [Power BI Destekli Öğrenim](guided-learning/index.md) sitesini ziyaret edin ve birkaç (çok kısa) derse katılın
-* Bazı [Power BI videolarını](videos.md) izleyin
-* [Kullanımınıza sunulan örnek verilere bakın](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>Power BI ile bağlantıda kalın
-* [Twitter'da @MSPowerBI hesabını takip edin](https://twitter.com/mspowerbi)
-* [YouTube video kanalımıza](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg) abone olun
-* İsteğe bağlı olarak sunulan, [Power BI ile Çalışmaya Başlama web seminerlerimizi](webinars.md) izleyin
-* Yardım için nereye başvuracağınızdan emin değil misiniz? [Yardım almaya yönelik 10 ipucu ](service-tips-for-finding-help.md) sayfamıza başvurun
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [Kullandığınız çevrimiçi hizmetlere bağlanma](./service-connect-to-services.md)
 

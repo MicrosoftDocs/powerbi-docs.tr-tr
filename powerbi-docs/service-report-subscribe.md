@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d166dec82aa56fec1512e3d859e60142afcccd6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755289"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092702"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde bir rapora veya panoya abone olma (app.powerbi.com)
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Kendinizi ve iş arkadaşlarınızı en fazla önem verdiğiniz rapor sayfalarına ve panolara abone yaptığınızda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. 
@@ -81,10 +81,12 @@ Görüntülenecek abonelikler o sırada etkin olan çalışma alanına bağlıd�
 Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse veya aboneliğin oluşturulması için kullanılan kullanıcı hesabı silinirse abonelik sona erer.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+* Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir
 * E-posta abonelikleri ve canlı bağlantı veri kümeleri için yalnızca veri değişikliği olduğunda e-posta alırsınız. Bu nedenle, bir yenileme gerçekleşir ancak veri değişikliği olmazsa Power BI size e-posta göndermez.
 * E-posta abonelikleri çoğu [özel görseli](power-bi-custom-visuals.md) desteklemez.  Bu konudaki tek istisna, [sertifikalı](power-bi-custom-visuals-certified.md) özel görsellerdir.  
-* Satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.
+* Pano kutucuklarına satır düzeyi güvenlik (RLS) uygulandıysa, söz konusu kutucuklar görüntülenmez.
+* Diğer kullanıcıları satır düzeyi güvenlik (RLS) uygulanmış olan bir rapora abone yapamazsınız.
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.    
 * E-posta abonelikleri, Power BI Desktop hizmete canlı bağlanma özelliği ile oluşturulmuş rapor sayfalarında henüz desteklenmemektedir.    
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     

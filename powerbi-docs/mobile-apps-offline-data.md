@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292858"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136491"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -55,7 +55,8 @@ Power BI'ı mobil cihazınızda çevrimdışı bir şekilde kullanırken şu sı
 * Power BI, 250 MB'a kadar veriyi çevrimdışı olarak önbelleğe alabilir.
 * Bazı kutucuk türleri için etkin sunucu bağlantısı gerektiğinden bunlar (örneğin, Bing harita kutucukları ve bazı özel kutucuklar) çevrimdışı olarak kullanılamaz.
 * Power BI'da bütün halde bulunan Excel çalışma kitapları, çevrimdışı olarak kullanılamaz.
-* Bağlantınız varken görüntülediğiniz Reporting Services mobil raporlarını ve KPI'leri çevrimdışı olarak görebilirsiniz. Bunlar, arka planda yenilenmez. Açılışta yenilenirler. 
+* Bağlantınız varken görüntülediğiniz Reporting Services mobil raporlarını ve KPI'leri çevrimdışı olarak görebilirsiniz. Bunlar, arka planda yenilenmez. Açılışta yenilenirler.
+* Power BI mobil uygulamalarında, Power BI Rapor Sunucusu'na kaydedilmiş Power BI Desktop (.pbix) dosyalarını göremezsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 
@@ -63,5 +64,5 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 * [Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)
 * Bizi Twitter'da takip edin: @MSPowerBI
 * [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
-* [Power BI ile çalışmaya başlama](service-get-started.md)
+* [Power BI nedir?](power-bi-overview.md)
 

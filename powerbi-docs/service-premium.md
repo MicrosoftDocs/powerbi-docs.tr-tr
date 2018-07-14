@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755105"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944572"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar, böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
@@ -36,11 +36,11 @@ Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premi
 | **Yenileme sıklığı** |Günde 8 kez |Kısıtlı değil |
 | **Ayrılmış donanımla yalıtım** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
 | ***Tüm kullanıcılara*** yönelik **Kurumsal Dağıtım** | | |
-| Uygulamalar |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>1</sup> |
+| Uygulamalar ve paylaşım |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>1</sup> |
 | Katıştırılmış API ve denetimler |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>2</sup> |
 | **Power BI raporlarını şirket içinde yayımlama** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
 
-*<sup>1</sup> Uygulamalarda kullanıcılara ücretsiz olarak sağlanan kullanımlar web üzerinde ve mobil cihazlarda içerik görüntülemeyi; Soru-Cevap, Hızlı Öngörüler ve Cortana kullanımını ve CSV, Excel ve PowerPoint'e aktarma işlemlerini kapsar. Paylaşılan veri kümeleri üzerine rapor oluşturma ve Excel'de Çözümle gibi listede yer almayan diğer etkinlikler için Pro lisansı gerekir. [Power BI Ücretsiz ile Pro’yu karşılaştırarak](service-free-vs-pro.md) işlevsel farklılıklar konusunda daha fazla bilgi edinin.*  
+*<sup>1</sup> Daha fazla bilgi için bkz. [Power BI Pro ve Power BI Premium işlevselliğiyle kullanıcı özellikleri](service-free-vs-pro.md).*  
 *<sup>2</sup> Power BI Premium'un genel kullanıma sunulmasından sonra daha fazla geliştirme sunulacaktır.*
 
 ### <a name="premium-capacity"></a>Premium kapasite
@@ -51,7 +51,7 @@ Bir çalışma alanı premium kapasiteyle desteklendiğinde Power BI Premium'un 
 * Zamanlanmış yenilemeler: Daha önceki kullanıcılar için içeri aktarılan modellerle yenileme zamanlama, günde 8 kez ile sınırlıydı. Premium çalışma alanlarındaki veri kümeleri için bu sınırlama kaldırılır. Söz konusu sınırlama, DirectQuery'ye yönelik zamanlanmış önbellek yenileme ayarları için geçerli değildir. Bu ayarlar Premium ve Paylaşılan kapasitelerde aynı kalır.
 * Ayrılmış donanımla yalıtım: Paylaşılan kapasitenin yapısı gereği, raporlarınızın ve panolarınızın performansı, kapasitedeki diğer iş yüklerinin isteklerinden etkilenebilir (bu duruma karşı aldığımız önlemlere rağmen). Buna karşılık, Premium, iş yükleriniz için daha tutarlı ve güvenilir bir performans sunmak üzere bunları ilgisiz iş yüklerinden yalıtır.
 
-Bir uygulama, premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir. Bu, Ücretsiz Power BI kullanıcılarının bile yayımlanan bu uygulamaları kullanabileceği anlamına gelir.
+Bir uygulama, premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir.
 
 ### <a name="shared-capacity"></a>Paylaşılan kapasite
 Varsayılan olarak, çalışma alanınız paylaşılan kapasitede yer alır. Bu, Uygulama çalışma alanlarının yanı sıra kişisel *Çalışma alanınızı* içerir. İş yüklerinizin diğer müşteriler tarafından paylaşılan hesaplama kaynaklarında çalıştırıldığı paylaşılan kapasite, Power BI'da alışkın olduğunuz deneyimdir.

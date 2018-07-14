@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250838"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092173"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI ile UserVoice'e bağlanma
 Power BI ve UserVoice içerik paketi ile UserVoice verilerinizi izlemek ve araştırmak çok kolay. Power BI; biletler, öneriler ve memnuniyet derecelendirmeleri de dahil olmak üzere verilerinizi alıp bu verilere dayalı, kullanıma hazır pano ve raporlar oluşturur.
@@ -35,7 +35,7 @@ Power BI için [UserVoice içerik paketine](https://app.powerbi.com/getdata/serv
 3. **UserVoice** ve ardından **Al** seçeneğini belirleyin.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. İstendiğinde UserVoice URL'nizi girin. URL tam olarak şu desende olmalıdır: https://fabrikam.uservoice.com; "fabrikam" yerine ürün veya hizmetinizin adı gelecektir.
+4. İstendiğinde UserVoice URL'nizi girin. URL tam olarak şu desende olmalıdır: `https://fabrikam.uservoice.com`; "fabrikam" yerine ürün veya hizmetinizin adı gelecektir.
    
    >[!NOTE]
    >Sonda eğik çizgi yoktur ve bağlantı http**s** biçimindedir.
@@ -63,7 +63,7 @@ Power BI için [UserVoice içerik paketine](https://app.powerbi.com/getdata/serv
 
 UserVoice URL'nizi girdikten sonra bu hatayla karşılaşırsanız Aşağıdaki gereksinimlerin yerine getirildiğinden emin olun:
 
-* URL tam olarak "https://fabrikam.uservoice.com" deseninde olmalı ve "fabrikam" yerine doğru UserVoice URL'si ön eki gelmelidir.
+* URL tam olarak `https://fabrikam.uservoice.com` deseninde olmalı ve "fabrikam" yerine doğru UserVoice URL'si ön eki gelmelidir.
 * Tüm harfler küçük olmalıdır.
 * URL "http**s**" biçiminde olmalıdır.
 * URL'nin sonunda eğik çizgi olmamalıdır.

@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f056ccb9e8fca4122aa4417a50f1fbd6993a9c2a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293065"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944595"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
 
-![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![ABD haritası](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Bing'e neler gönderilir?
 Power BI, varsayılan harita koordinatlarını sağlamak için Bing ile tümleşir (coğrafi kodlama adlı bir işlem). Power BI hizmetinde veya Power BI Desktop'ta bir harita görselleştirmesi oluşturduğunuzda **Konum**, **Enlem** ve **Boylam** demetlerindeki veriler (söz konusu görselleştirmenin oluşturulması için kullanılan) Bing'e gönderilir.
 
 Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama için kullandığı URL'lere erişim izni verilecek şekilde güncelleştirmesi gerekebilir.  Bu URL'ler şunlardır:
-* https://dev.virtualearth.net/REST/V1/Locations
-* https://platform.bing.com/geo/spatial/v1/public/Geodata
-* https://www.bing.com/api/maps/mapcontrol
+    * https://dev.virtualearth.net/REST/V1/Locations
+    * https://platform.bing.com/geo/spatial/v1/public/Geodata
+    * https://www.bing.com/api/maps/mapcontrol
 
 Bing'e gönderilen tüm veriler hakkında daha fazla bilgi ve coğrafi kodlama başarınızı artırmaya yönelik ipuçları için bkz. [Harita görselleştirmeleri için ipuçları ve püf noktaları](power-bi-map-tips-and-tricks.md).
 
@@ -58,30 +58,30 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
 1. Kendi kartogramınızı oluşturmak için Power BI'da oturum açıp **Veri Al \> Örnekler \> Satış ve Pazarlama \> Bağlan** seçeneklerini belirleyerek [Satış ve Pazarlama örneğini indirin](sample-datasets.md).
 2. Başarılı iletisi göründüğünde **Veri kümesini görüntüle**'yi seçin.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
+   ![Başarılı iletisi](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Power BI, [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md)'nde boş bir rapor tuvali açar.
 
-    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
+    ![Yeni rapor](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
+   ![State alanının yanındaki sarı onay işareti](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Grafiği](power-bi-report-change-visualization-type.md) kartograma dönüştürün. **State** alanının artık **Konum** kutusunda olduğunu görebilirsiniz. Bing Haritalar, haritayı oluşturmak için **Konum** kutusundaki alanı kullanır.  Konum kutusunda çok sayıda geçerli konum bulunabilir: ülkeler, eyaletler, iller, ilçeler, şehirler, posta kodları vb. Bing Haritalar, dünya genelindeki konumlar için kartogram gölgeleri sağlar. Konum kutusunda geçerli bir giriş olmadan Power BI, kartogramı oluşturamaz.  
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![kartogram simgesinin vurgulandığı şablonlar](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Haritayı, yalnızca Kıtasal Amerika Birleşik Devletleri görüntülenecek şekilde filtreleyin.
 
    a.  Görsel Öğeler bölmesinin alt tarafında **Filtreler** alanını bulun.
 
    b.  **State** seçeneğinin üzerine gelin ve genişlet köşeli çift ayracına tıklayın  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![State(All) gösteren görsel düzeyi filtreleri](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  **Tümü** seçeneğine onay işareti koyun ve **AK** seçeneğinin yanındaki onay işaretini kaldırın.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Tümü ve AK'nin seçili olmadığı State açılan listesi](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. **SalesFact** \> **Sentiment** seçeneğini belirleyerek **Renk doygunluğu** kutusuna ekleyin. **Renk doygunluğu** kutusundaki alan, harita gölgelendirmesini denetler.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
+   ![Renk doygunluğu alanındaki Sentiment iyi](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
 8. Kartogram yeşille gölgelendirilir; açık yeşil daha düşük yaklaşım sayılarını, koyu yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Burada Wyoming (WY) eyaletini vurguladım ve Sentiment (Yaklaşım) düzeyinin oldukça iyi (74) olduğunu görüyorum.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![state ve sentiment'i gösteren siyah iletişim kutusu](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Raporu kaydedin](service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
@@ -92,13 +92,13 @@ Bir Kartogram'da Konum'un vurgulanması rapor sayfasındaki diğer görselleşti
 Birlikte ilerlemek için Kartogramınızı kopyalayıp *Satış ve Pazarlama* raporunun **Sentiment** sayfasına yapıştırın.
 
 1. Kartogramda bir eyalet seçin.  Bu işlem, sayfadaki diğer görselleştirmeleri vurgular. Örneğin, **Texas** seçildiğinde Sentiment düzeyinin 74 olduğunu, Texas'ın Central District \#23'te olduğunu ve satış hacminin büyük bir kısmının Moderation ve Convenience segmentlerinden geldiğini görüyorum.   
-   ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
+   ![Texas seçili](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. Çizgi grafikte, **No** ve **Yes** arasında geçiş yapın. Bu, VanArsdel ve VanArsdel'in rakibi için Sentiment değerlerinin gösterilmesine yönelik olarak Kartogramı filtreler.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+   ![geçişi gösteren video](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, bir Paris, Fransa mevcuttur ancak Paris, Texas da bulunmaktadır. Coğrafi verileriniz büyük olasılıkla ayrı sütunlarda (şehir adları için bir sütun, eyalet veya il adları için ayrı bir sütun vb.) depolanır, bu nedenle Bing Paris'leri ayırt edemeyebilir. Veri kümeniz zaten enlem ve boylam verileri içeriyorsa Power BI, harita verilerinin anlaşılır hale getirilmesine yardımcı olacak özel alanlara sahiptir. Enlem verilerinizi içeren alanı Görsel Öğeler \> Enlem alanına sürüklemeniz yeterlidir.  Boylam verileriniz için de aynı işlemi yapın.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, bir Paris, Fransa mevcuttur ancak Paris, Texas da bulunmaktadır. Coğrafi verileriniz büyük olasılıkla ayrı sütunlarda (şehir adları için bir sütun, eyalet veya il adları için ayrı bir sütun vb.) depolanır, bu nedenle Bing Paris'leri ayırt edemeyebilir. Veri kümeniz zaten enlem ve boylam verileri içeriyorsa Power BI, harita verilerinin anlaşılır hale getirilmesine yardımcı olacak özel alanlara sahiptir. Enlem verilerinizi içeren alanı Görsel Öğeler \> Enlem alanına sürüklemeniz yeterlidir.  Aynı işlemi boylam verileriniz için de gerçekleştirin.  
+![Görsel Öğeler ve Filtreler bölmeleri](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Power BI Desktop'ta veri kümesini düzenleme izniniz varsa haritalarla ilgili kafa karıştırıcı durumların ele alınmasına yardımcı olabilecek şu videoyu izleyin.
 

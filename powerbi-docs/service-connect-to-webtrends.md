@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243036"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135249"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI ile Webtrends'e Bağlanma
 Power BI için Webtrends içerik paketi, toplam sayfa görüntüleme sayısı ve trafik kaynağına göre ziyaretler gibi kullanıma hazır ölçümler içerir. Webtrends verilerinizi Power BI'da görselleştirmeye başlamak için, Webtrends hesabınıza bağlanmanız gerekir. Sağlanan panoyu ve raporları kullanabilir veya bunları, en çok önem verdiğiniz bilgileri öne çıkaracak şekilde özelleştirebilirsiniz.  Veriler günde bir kez otomatik olarak yenilenir.
@@ -101,7 +101,7 @@ Kimlik bilgilerinizi sağladıktan sonra içerik paketi yüklenirken bir sorunla
 2. Kullanıcının ["Neleri kapsar?"](#Included) bölümünde listelenen raporlara erişiminin bulunduğundan emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI ile çalışmaya başlama](service-get-started.md)
+[Power BI nedir?](power-bi-overview.md)
 
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 

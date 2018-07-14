@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292582"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965033"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler için geçerlidir:
@@ -25,7 +25,7 @@ Aşağıdakiler için geçerlidir:
 
 Power BI mobil uygulamalarında ve Power BI hizmetinde panolarda uyarılar ayarlayabilirsiniz. Bir kutucuktaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde uyarılar sizi bilgilendirir. Uyarılar, kartlar ve ölçekler gibi tek bir sayı içeren kutucuklarla birlikte çalışır, akış verileri için kullanılamaz. Mobil cihazınızdan ayarladığınız veri uyarılarını Power BI hizmetinde, burada ayarladıklarınızı da mobil uygulamada görebilirsiniz. Bir panoyu veya kutucuğun anlık görüntüsünü paylaşsanız dahi ayarladığınız veri uyarılarını yalnızca siz görebilirsiniz.
 
-Power BI Pro lisansınız varsa veya ücretsiz Power BI lisansına sahipken paylaşılan pano Premium kapasitedeyse kutucuklarda uyarı ayarlayabilirsiniz. 
+Power BI Pro lisansınız varsa veya paylaşılan pano Premium kapasitedeyse kutucuklarda uyarı ayarlayabilirsiniz. 
 
 > [!WARNING]
 > Veri tabanlı uyarı bildirimleri, verileriniz hakkında bilgi verir. Cihazınız çalınırsa, Power BI hizmetine giderek veri tabanlı uyarı kurallarının tümünü kapatmanızı öneririz. 

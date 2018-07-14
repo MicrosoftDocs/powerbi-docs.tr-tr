@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4641fc0c36ad7fb64cc5da08ee8eda180f4ccc31
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240501"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137411"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI ile Planview Enterprise'a bağlanma
 Planview Enterprise içerik paketi, kaynağınızı ve iş yönetim verilerinizi doğrudan Power BI'da yepyeni yöntemlerle görselleştirmenizi sağlar. Planview Enterprise oturum açma kimlik bilgilerinizi kullanarak portföy yatırım harcamalarınızı etkileşimli olarak görün, hangi noktalarda bütçeyi aştığınızı veya bütçenin altında kaldığınızı anlayın ve projelerinizin kurumsal stratejik önceliklerinizle ne kadar uyumlu olduğunu öğrenin. Ayrıca sizin için en önemli olan öngörüleri almak için kullanıma hazır panoları ve raporları genişletebilirsiniz.
@@ -52,10 +52,10 @@ Planview Enterprise içerik paketi, kaynağınızı ve iş yönetim verilerinizi
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 Planview Enterprise verilerinizi Power BI'a aktarmak için rolünde Reporting Portal Viewer (Raporlama Portalı Görüntüleyicisi) özelliği etkin olan bir Planview Enterprise kullanıcısı olmanız gerekir. Ek gereksinimler için aşağıya bakın.
 
-Bu yordamda, bir Power BI hesabıyla Microsoft Power BI giriş sayfasında oturum açtığınız varsayılmaktadır. Power BI hesabınız yoksa Power BI giriş sayfasında yeni bir ücretsiz Power BI hesabı oluşturun ve Veri Al'a tıklayın.
+Bu yordamda, bir Power BI hesabıyla Microsoft Power BI giriş sayfasında oturum açtığınız varsayılmaktadır. Power BI hesabınız yoksa [powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Bulut işbirliği ve paylaşımı** bölümünde **Ücretsiz olarak deneyin**’i seçin. Ardından **Veri Al**’a tıklayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar:
 
-[Power BI ile çalışmaya başlama](service-get-started.md)
+[Power BI nedir?](power-bi-overview.md)
 
-[Power BI için Veri Alma](service-get-data.md)
+[Power BI için veri alma](service-get-data.md)
