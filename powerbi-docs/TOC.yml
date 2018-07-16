@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Öğreticiler
       items:
-        - name: Müşteriler için içerik ekleme
+        - name: Müşterileriniz için içerik ekleme
           href: developer/embed-sample-for-customers.md
+        - name: Kuruluşunuz için içerik ekleme
+          href: developer/embed-sample-for-your-organization.md
     - name: Kavramlar
       items:
         - name: Power BI REST API’leriyle çalışma
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: İçeriğinizi ekleme
               href: developer/embedding-content.md
-            - name: Panoları uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-              href: developer/integrate-dashboard.md
-            - name: Power BI kutucuklarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-              href: developer/integrate-tile.md
-            - name: Power BI raporlarını uygulamalarla tümleştirme (veriler kullanıcıya aittir)
-              href: developer/integrate-report.md
+            - name: Bir uygulamadan ekleme
+              href: developer/embed-from-apps.md
             - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Özel düzenleri uygulamaya ekleme

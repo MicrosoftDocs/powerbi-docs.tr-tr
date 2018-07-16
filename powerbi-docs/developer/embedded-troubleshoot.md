@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926571"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877036"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -102,13 +102,11 @@ GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması
 
 **(AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız)**
 
-Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** iletilerini alıyorsanız, bunun nedeni doğrudan kimlik doğrulamasının 14/6/2018 tarihinden itibaren kapatılmış olmasıdır.
+Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız***. Bunun nedeni, doğrudan kimlik doğrulamasının varsayılan olarak 14.06.2018 tarihinden itibaren kapatılmış olmasıdır.
 
-Eski kimlik doğrulamasını engellemek için [Azure AD Koşullu Erişim](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) desteğinin kullanılmasını veya [Azure AD Dizin Doğrudan Kimlik Doğrulama](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) kullanılmasını öneririz.
+Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
 
-Öte yandan, kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bunu geri geçirmenin bir yolu vardır.
-
-**_Bunu yalnızca uygulama başına veya geçici bir çözüm olarak gerekli olduğunda etkinleştirmenizi öneririz._**
+Bunu yalnızca uygulama başına etkinleştirmenizi öneririz.
 
 Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin **Genel Yöneticisi** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
 

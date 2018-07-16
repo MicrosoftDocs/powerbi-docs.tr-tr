@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945055"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924805"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.
@@ -33,6 +33,16 @@ Kapasite son kullanıcılarınız için tamamen şeffaftır. Power BI'ı veya uy
 
 Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md).
 
+### <a name="capacity-admins"></a>Kapasite yöneticileri
+> [!NOTE]
+> Power BI Embedded kapasitesine ilişkin kapasite yöneticileri Microsoft Azure portalında tanımlanır.
+
+Bir kapasiteye kapasite yöneticisi olarak atandığınızda kapasite üzerinde tam kontrole ve kapasitenin yönetim özelliklerine sahip olursunuz. Power BI yönetici portalından daha fazla kapasite yöneticisi (yalnızca Power BI Premium) ekleyebilir veya kullanıcılara kapasite atama izinleri verebilirsiniz. Bir kapasiteye çalışma alanlarını toplu olarak atayabilir ve kapasitedeki kullanım ölçümlerini görüntüleyebilirsiniz.
+
+Her kapasitenin kendisine ait yöneticileri vardır. Bir kapasiteye kapasite yöneticisi tanımlamak bu yöneticilere kuruluşunuzdaki tüm kapasitelere erişim yetkisi vermez. Kapasite yöneticileri; kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetici alanlarına varsayılan olarak erişim sahibi olmaz. Ayrıca kapasite yöneticileri, yeni kapasite ayarlama veya mevcut kapasitelerin SKU'sunu değiştirme iznine de sahip değildir. Yalnızca Genel yöneticiler veya Power BI hizmet yöneticileri bu öğelere erişebilir.
+
+Tüm Office 365 Genel yöneticileri ve Power BI yöneticileri otomatik olarak hem Power BI Premium hem de Power BI Embedded kapasitesinin kapasite yöneticileridir.
+
 ## <a name="purchase-capacity"></a>Kapasite satın alma
 Ayrılmış kapasiteden yararlanmak için Office 365 yönetim merkezinde Power BI Premium aboneliği satın almanız veya Microsoft Azure portalında Power BI Embedded kaynağı oluşturmanız gerekir. Daha fazla bilgi için aşağıdaki başlıklara bakın:
 
@@ -43,21 +53,9 @@ Power BI Premium SKU satın aldığınızda, kiracınız çalışan kapasitelerd
 
 > [!NOTE]
 > Aboneliğinizin sona ermesinin ardından 30 gün boyunca tam erişiminiz sürer, ancak bu süre dolduğunda içeriğiniz paylaşılan kapasiteye döner. 1 GB’tan küçük olan modeller normal bir paylaşılan lisansla desteklenmez.
->
 
-## <a name="capacity-admins"></a>Kapasite yöneticileri
-> [!NOTE]
-> Power BI Embedded kapasitesine ilişkin kapasite yöneticileri Microsoft Azure portalında tanımlanır.
->
->
 
-Bir kapasiteye kapasite yöneticisi olarak atandığınızda kapasite üzerinde tam kontrole ve kapasitenin yönetim özelliklerine sahip olursunuz. Power BI yönetici portalından daha fazla kapasite yöneticisi (yalnızca Power BI Premium) ekleyebilir veya kullanıcılara kapasite atama izinleri verebilirsiniz. Bir kapasiteye çalışma alanlarını toplu olarak atayabilir ve kapasitedeki kullanım ölçümlerini görüntüleyebilirsiniz.
-
-Her kapasitenin kendisine ait yöneticileri vardır. Bir kapasiteye kapasite yöneticisi tanımlamak bu yöneticilere kuruluşunuzdaki tüm kapasitelere erişim yetkisi vermez. Kapasite yöneticileri; kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetici alanlarına varsayılan olarak erişim sahibi olmaz. Ayrıca kapasite yöneticileri, yeni kapasite ayarlama veya mevcut kapasitelerin SKU'sunu değiştirme iznine de sahip değildir. Yalnızca Genel yöneticiler veya Power BI hizmet yöneticileri bu öğelere erişebilir.
-
-Tüm Office 365 Genel yöneticileri ve Power BI yöneticileri otomatik olarak hem Power BI Premium hem de Power BI Embedded kapasitesinin kapasite yöneticileridir.
-
-## <a name="managing-capacity"></a>Kapasite yönetme
+## <a name="manage-capacity"></a>Kapasiteyi yönetme
 Office 365'te kapasite düğümleri satın aldıktan sonra yeni bir kapasite ayarlamanız gerekir. Bu işlem [Power BI yönetici portalı](service-admin-portal.md) aracılığıyla gerçekleştirilir. Yönetici portalında **Kapasite ayarları** adlı bir bölüm bulunur. Bu, kuruluşunuz için Power BI Premium kapasitelerini yöneteceğiniz yerdir.
 
 ![Yönetici portalındaki kapasite ayarları](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ Premium kapasite yönetimi ekranında, eylemler bölümündeki **dişli simgesin
 
 > [!NOTE]
 > Power BI Embedded kapasite ayarları Microsoft Azure portalında yönetilir.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Kapasite boyutunu değiştirme (Power BI Premium)
 Power BI yöneticileri ve Office 365 Genel yöneticileri Power BI Premium kapasite boyutunu **Kapasite boyutunu değiştirme** seçeneğini belirleyerek değiştirir. Power BI yöneticisi veya Office 365 Genel yöneticisi olmayan kapasite yöneticileri bu seçeneğe sahip olmaz.
@@ -128,35 +124,6 @@ Power BI Premium kapasiteleri için ek **Kapasite yöneticileri** atayabilirsini
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>Kullanım ölçümleri (Power BI Premium)
-Her kapasiteye yönelik olarak, CPU, Bellek Temizleme ve Direct Query için kullanım ölçümlerini kullanabilirsiniz. Kullanıcılarınızın, kapasiteniz üzerinde iyi performans deneyimine sahip olmasını sağlamak için bu ölçümlerin izlenmesini öneririz:
-
-![Son yedi güne ait kullanım](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded kapasite kullanımı Azure portalında izlenir.
-
-| Ölçüm | Açıklama |
-| --- | --- |
-| CPU |CPU’nun %80 kullanımı aşma sayısı. |
-| Bellek Temizleme |Arka uç çekirdeklerinizdeki bellek baskısını gösterir. Bu, özellikle birden çok veri kümesinin kullanılmasından kaynaklanan bellek baskısı nedeniyle veri kümelerinin bellekten ne sıklıkta çıkarıldığına ilişkin bir ölçümdür. |
-| Memory Usage |Gigabayt (GB) olarak temsil edilen ortalama bellek kullanımı. |
-| DQ/s | Direct Query ve Canlı Bağlantı sayısının, sınırın %80’ini aşma sayısı. <br> <br> * Saniye başına toplam DirectQuery ve canlı bağlantı sorgusu sayısını sınırlarız.<br><br>* Sınırlar şu şekildedir: P1 için 30/s, P2 için 60/s ve P3 için 120/s.<br><br> * Direct Query ve canlı bağlantı sorguları sayısı yukarıdaki kısıtlamaya yönelik olarak birlikte hesaplanır. Örneğin, saniyede 15 DirectQuery bağlantısı ve 15 canlı bağlantıya sahipseniz kısıtlama noktanıza varmış olursunuz.<br/><br>* Bu, şirket içi ve bulut bağlantıları için aynı ölçüde geçerlidir. |
-
-Ölçümler, geçen hafta içindeki kullanımı yansıtır.  Ölçümlerin daha ayrıntılı bir görünümünü görmek istiyorsanız, özet kutucuklarının herhangi birine tıklayarak bunu yapabilirsiniz.  Böylece, premium kapasitenize yönelik her bir ölçüm için ayrıntılı grafiklere gidersiniz.  Bu grafikler, geçen hafta için saatlik olarak özetlenir ve premium kapasitenizde performansla ilgili belirli olaylar olduğunda sorunu ayrıştırmanıza yardımcı olabilir.  
-
-![CPU için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Bellek Boyutu için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Herhangi bir ölçüme yönelik temel verileri bir csv dosyasına da dışarı aktarabilirsiniz.  Bu dışarı aktarma, geçen haftanın her günü için üçer dakikalık aralıklarla size ayrıntılı bilgi sunar.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
 Bir kapasiteye çalışma alanı atayabilmenin birkaç yolu vardır.
@@ -193,6 +160,36 @@ Bir çalışma alanını kapasiteye taşımak için söz konusu çalışma alan�
 5. **Kaydet**'i seçin.
 
 Kaydedildikten sonra çalışma alanı ve tüm içerikleri, son kullanıcılar için herhangi bir deneyim kesintisi olmaksızın Premium kapasiteye taşınır.
+
+
+## <a name="monitor-capacity-usage"></a>Kapasite kullanımı izleme
+Her kapasiteye yönelik olarak, CPU, Bellek Temizleme ve Direct Query için kullanım ölçümlerini kullanabilirsiniz. Kullanıcılarınızın, kapasiteniz üzerinde iyi performans deneyimine sahip olmasını sağlamak için bu ölçümlerin izlenmesini öneririz:
+
+![Son yedi güne ait kullanım](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Power BI Embedded kapasite kullanımı Azure portalında izlenir.
+
+| Ölçüm | Açıklama |
+| --- | --- |
+| CPU |CPU’nun %80 kullanımı aşma sayısı. |
+| Bellek Temizleme |Arka uç çekirdeklerinizdeki bellek baskısını gösterir. Bu, özellikle birden çok veri kümesinin kullanılmasından kaynaklanan bellek baskısı nedeniyle veri kümelerinin bellekten ne sıklıkta çıkarıldığına ilişkin bir ölçümdür. |
+| Memory Usage |Gigabayt (GB) olarak temsil edilen ortalama bellek kullanımı. |
+| DQ/s | Direct Query ve Canlı Bağlantı sayısının, sınırın %80’ini aşma sayısı. <br> <br> * Saniye başına toplam DirectQuery ve canlı bağlantı sorgusu sayısını sınırlarız.<br><br>* Sınırlar şu şekildedir: P1 için 30/s, P2 için 60/s ve P3 için 120/s.<br><br> * Direct Query ve canlı bağlantı sorguları sayısı yukarıdaki kısıtlamaya yönelik olarak birlikte hesaplanır. Örneğin, saniyede 15 DirectQuery bağlantısı ve 15 canlı bağlantıya sahipseniz kısıtlama noktanıza varmış olursunuz.<br/><br>* Bu, şirket içi ve bulut bağlantıları için aynı ölçüde geçerlidir. |
+
+Ölçümler, geçen hafta içindeki kullanımı yansıtır.  Ölçümlerin daha ayrıntılı bir görünümünü görmek istiyorsanız, özet kutucuklarının herhangi birine tıklayarak bunu yapabilirsiniz.  Böylece, premium kapasitenize yönelik her bir ölçüm için ayrıntılı grafiklere gidersiniz.  Bu grafikler, geçen hafta için saatlik olarak özetlenir ve premium kapasitenizde performansla ilgili belirli olaylar olduğunda sorunu ayrıştırmanıza yardımcı olabilir.  
+
+![CPU için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Bellek Boyutu için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Herhangi bir ölçüme yönelik temel verileri bir csv dosyasına da dışarı aktarabilirsiniz.  Bu dışarı aktarma, geçen haftanın her günü için üçer dakikalık aralıklarla size ayrıntılı bilgi sunar.
 
 ## <a name="what-premium-looks-like-for-users"></a>Premium, kullanıcılara nasıl görünür?
 Çoğunlukla kullanıcıların Premium kapasitede olduklarını bilmelerine bile gerek yoktur. Panoları ve raporları normal şekilde çalışmaya devam eder. Görsel bir ipucu olarak, Premium kapasitedeki çalışma alanlarının yanında bir baklava simgesi görürsünüz.
