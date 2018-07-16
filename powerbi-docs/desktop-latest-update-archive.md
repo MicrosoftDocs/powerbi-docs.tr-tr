@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813860"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601649"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -28,7 +28,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 * Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
 * Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
 * Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
-* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı gerektirmez.
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
@@ -255,7 +255,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 * Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
 * Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
 * Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
--   Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
 
 İlk olarak bu makalede yer alan, bu aya ait **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
@@ -1844,15 +1844,15 @@ Bu güncelleştirmede eklenen veya iyileştirilen özellikleri aşağıda bulabi
     -   Çok boyutlu kaynaklar için (Analysis Services ve SAP BusinessObjects) daha iyi önizleme deneyimi
     -   Seçili Öğeleri Göster seçeneği
     -   Gezgin ağacında Arama özellikleri iyileştirildi
--   Yeni Dönüştürme Seçenekleri
-    -   Tarih/Saat sütunları için Yaş Hesaplama ve Çıkarma işlemleri
-    -   Toplama Sütunları: Yeni sütunların ön eklerini devre dışı bırakmaya yönelik seçenek
--   Alan Listesi iyileştirmeleri
-    -   Tabloları Genişletme/Daraltma
-    -   Alanları Gizleme/Gösterme
-    -   İyileştirilmiş düzen (aralıklar, kenar boşlukları ve yazı tipleri)
--   Rapor Sayfalarında Gezinti - Klavye desteği
--   Çok sayıda hata düzeltmesi
+- Yeni Dönüştürme Seçenekleri
+  -   Tarih/Saat sütunları için Yaş Hesaplama ve Çıkarma işlemleri
+  -   Toplama Sütunları: Yeni sütunların ön eklerini devre dışı bırakmaya yönelik seçenek
+- Alan Listesi iyileştirmeleri
+  -   Tabloları Genişletme/Daraltma
+  -   Alanları Gizleme/Gösterme
+  -   İyileştirilmiş düzen (aralıklar, kenar boşlukları ve yazı tipleri)
+- Rapor Sayfalarında Gezinti - Klavye desteği
+- Çok sayıda hata düzeltmesi
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 
