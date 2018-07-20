@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599962"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032083"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -76,7 +76,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma     |Azure portalı |Office |Office |
-|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) ekleme |* Kendi uygulamanıza içerik ekleme<br>* PowerBI.com dışında ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma ve diğer SaaS uygulamalarına (SharePoint, Ekipler) ekleme<br>* PowerBI.com aracılığıyla ÜCRETSİZ Power BI kullanıcıları ile içerik paylaşma  |
+|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer SaaS uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer SaaS uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme<br>* [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |

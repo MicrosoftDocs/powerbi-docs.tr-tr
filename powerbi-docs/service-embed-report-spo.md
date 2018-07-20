@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553577"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032060"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -84,7 +84,7 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, Power BI hizmetindeki uygulama çalışma alanının bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
+Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
 Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek için aşağıdaki yöntemleri kullanabilirsiniz.
 
@@ -129,7 +129,7 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
-* **Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token"** (Hata: Bir hata oluştu, lütfen oturumunuzu kapatıp açtıktan sonra bu sayfayı yeniden ziyaret etmeyi deneyin. Bağıntı kimliği: tanımsız, http yanıtı durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik)
+* Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token" (Hata: Bir hata oluştu, lütfen oturumunuzu kapatıp açtıktan sonra bu sayfayı yeniden ziyaret etmeyi deneyin. Bağıntı kimliği: tanımsız, http yanıtı durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik)
   
   Bu hatayla karşılaşırsanız lütfen aşağıdakilerden birini yapmayı deneyin.
   
@@ -154,5 +154,4 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md)  
 [Power BI Premium nedir?](service-premium.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/) 
-
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
