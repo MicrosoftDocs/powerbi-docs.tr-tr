@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: Power BI ve Office 365'teki grubunuzu yönetme
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: OneDrive İş'teki Excel çalışma kitaplarına bağlı panoları paylaşma
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: İçerik Paketleri
+              items:
                 - name: 'Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme'
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme'
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: Kurumsal içerik paketi bağlantılarını kaldırma
                   href: service-organizational-content-pack-disconnect.md
-                - name: OneDrive İş'teki Excel çalışma kitaplarına bağlı panoları paylaşma
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: Sertifika
+                  items:
+                    - name: İçerik Paketi Sertifika Programı
+                      href: service-content-pack-overview.md
+                    - name: Şablon İçerik Paketi yazma
+                      href: template-content-pack-authoring.md
+                    - name: Şablon İçerik Paketi testi
+                      href: template-content-pack-testing.md
+                    - name: Şablon İçerik Paketi deneyimleri
+                      href: template-content-pack-experience.md
             - name: Raporlar
               items:
                 - name: Mevcut bir rapordan yeni rapor oluşturma
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: Geliştiriciler için Power BI
   items:
-    - name: Genel Bakış
+    - name: Tümleşik Analiz
       items:
-        - name: Geliştiriciler Power BI ile neler yapabilir?
-          href: developer/what-can-you-do.md
-    - name: Öğreticiler
-      items:
-        - name: Müşterileriniz için içerik ekleme
-          href: developer/embed-sample-for-customers.md
-        - name: Kuruluşunuz için içerik ekleme
-          href: developer/embed-sample-for-your-organization.md
-    - name: Kavramlar
-      items:
-        - name: Power BI REST API’leriyle çalışma
-          items:
-            - name: Power BI API ile neler yapabilirim?
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: Power BI REST API sınırlamaları
-              href: developer/api-rest-api-limitations.md
-            - name: Veri kümesi özellikleri
-              href: developer/api-dataset-properties.md
-            - name: Veri modeli sürümü oluşturma
-              href: developer/api-data-model-versioning.md
-        - name: Geliştirici Araçları ile özel görsel oluşturma
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Power BI izinleri
-          href: developer/power-bi-permissions.md
-        - name: Satır düzeyi güvenlik (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: SSS
-          href: developer/embedded-faq.md
-    - name: Nasıl yapılır?
-      items:
-        - name: Özel görsel oluşturma
-          items:
-            - name: Geliştirici Araçları ile özel görsel oluşturma
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Özel görselleri sertifikalatma
-              href: power-bi-custom-visuals-certified.md
-            - name: AppSource'ta özel görsel yayımlama
-              href: developer/office-store.md
-        - name: Ekleme
+        - name: Genel Bakış
           items:
             - name: Power BI ile ekleme
               href: developer/embedding.md
+        - name: Öğreticiler
+          items:
+            - name: Müşteriler için içerik ekleme
+              href: developer/embed-sample-for-customers.md
+            - name: Kuruluşunuz için içerik ekleme
+              href: developer/embed-sample-for-your-organization.md
+        - name: Kavramlar
+          items:
+            - name: Satır düzeyi güvenlik (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: SSS
+              href: developer/embedded-faq.md
+            - name: Power BI izinleri
+              href: developer/power-bi-permissions.md
+        - name: Nasıl yapılır?
+          items:
             - name: İçeriğinizi ekleme
               href: developer/embedding-content.md
             - name: Bir uygulamadan ekleme
               href: developer/embed-from-apps.md
             - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: Özel düzenleri uygulamaya ekleme
-              href: developer/embedded-custom-layout.md
             - name: Azure Active Directory kiracısı oluşturma
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Uygulamaları kaydetme
@@ -952,15 +940,103 @@
               href: developer/qanda.md
             - name: Power BI Embedded'i geçirme
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Power BI Embedded geçiş aracı
-              href: developer/migrate-tool.md
-            - name: Geçiş kodu parçacıkları
-              href: developer/migrate-code-snippets.md
             - name: Katıştırılmış uygulamanızla ilgili sorunları giderme
               href: developer/embedded-troubleshoot.md
-        - name: Verileri gönderme
+        - name: Başvuru
           items:
-            - name: Bir panoya veri gönderme
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Özel düzenleri uygulamaya ekleme
+              href: developer/embedded-custom-layout.md
+            - name: Geçiş kodu parçacıkları
+              href: developer/migrate-code-snippets.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Ekleme için Katılım Deneyimi Aracı
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground Örneği
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Örnekler
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI Embedded geçiş aracı
+              href: developer/migrate-tool.md
+            - name: Power BI topluluğu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Özel Görseller Geliştirme
+      items:
+        - name: Genel Bakış
+          items:
+            - name: Power BI’a Özel Görseller Ekleme
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: Öğreticiler
+          items:
+            - name: Power BI Özel Görseli Geliştirme
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: Kavramlar
+          items:
+            - name: Özellikleri Kullanma
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: Veri Görünümü Eşlemeleri
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: Nesneler ve Özellikler
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: Gelişmiş Düzenleme Modu
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: Sürümü oluşturulan API’ye geçirme kılavuzu
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: Nasıl yapılır?
+          items:
+            - name: Özel görselleri sertifikalatma
+              href: power-bi-custom-visuals-certified.md
+            - name: AppSource'ta özel görsel yayımlama
+              href: developer/office-store.md
+        - name: Başvuru
+          items:
+            - name: API'ler
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Geliştirici Araçları ile özel görsel oluşturma
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Örnekler
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Özel Görseller Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Otomasyon
+      items:
+        - name: Genel Bakış
+          items:
+            - name: Power BI API ile neler yapabilirim?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Öğreticiler
+          items: null
+        - name: Kavramlar
+          items:
+            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Verileri gönderme
+              items:
+                - name: Power BI REST API sınırlamaları
+                  href: developer/api-rest-api-limitations.md
+                - name: Veri kümesi özellikleri
+                  href: developer/api-dataset-properties.md
+                - name: Veri modeli sürümü oluşturma
+                  href: developer/api-data-model-versioning.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Bir veri kümesine veri gönderme
               href: developer/walkthrough-push-data.md
             - name: Bir uygulamayı Azure AD'ye kaydetme
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: Tabloya satır ekleme
               href: developer/walkthrough-push-data-add-rows.md
+        - name: Başvuru
+          items:
+            - name: REST API'leri
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI Rest API başvurusu
+              href: developer/rest-api-reference.md
             - name: Tam kod listesi
               href: developer/walkthrough-push-data-complete-code.md
-            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: İçerik Paketi Sertifikası
+        - name: Kaynaklar
           items:
-            - name: İçerik Paketi Sertifika Programı
-              href: developer/service-content-pack-overview.md
-            - name: Şablon İçerik Paketi yazma
-              href: developer/template-content-pack-authoring.md
-            - name: Şablon İçerik Paketi testi
-              href: developer/template-content-pack-testing.md
-            - name: Şablon İçerik Paketi deneyimleri
-              href: developer/template-content-pack-experience.md
-    - name: Başvuru
-      items:
-        - name: REST API'leri
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Power BI C# Git Deposu'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: .NET SDK İndirme
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: JavaScript Git Deposu
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Özel Görseller Git Deposu
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Kaynaklar
-      items:
-        - name: Ekleme için Katılım Deneyimi Aracı
-          href: 'https://aka.ms/embedsetup'
-        - name: JavaScript Playground Örneği
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Örnekler
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Power BI topluluğu
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Rapor Sunucusu
   items:
     - name: Genel Bakış
