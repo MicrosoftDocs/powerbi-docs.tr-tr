@@ -11,10 +11,10 @@ ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
 ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/20/2018
 ms.locfileid: "37067113"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
