@@ -1021,7 +1021,9 @@
             - name: Power BI API ile neler yapabilirim?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Öğreticiler
-          items: null
+          items:
+            - name: Bir veri kümesine veri gönderme
+              href: developer/walkthrough-push-data.md
         - name: Kavramlar
           items:
             - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Nasıl yapılır?
           items:
-            - name: Bir veri kümesine veri gönderme
-              href: developer/walkthrough-push-data.md
             - name: Bir uygulamayı Azure AD'ye kaydetme
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Kimlik doğrulaması erişim belirteci alma
