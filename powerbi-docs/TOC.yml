@@ -530,6 +530,12 @@
       items:
         - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
           href: desktop-latest-update.md
+        - name: Power BI Desktop’ta bileşik modeller (Önizleme)
+          href: desktop-composite-models.md
+        - name: Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
+          href: desktop-many-to-many-relationships.md
+        - name: Power BI Desktop’ta depolama modu (Önizleme)
+          href: desktop-storage-mode.md
         - name: Power BI Desktop'ta çift yönlü çapraz filtreleme (Önizleme)
           href: desktop-bidirectional-filtering.md
         - name: Power BI ve DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Rapor oluşturma
           items:
+            - name: Raporlar için görsel öğeler
+              href: desktop-visual-elements-for-reports.md
             - name: Power BI Desktop’ta Soru-Cevap
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop'taki Analiz bölmesi
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Artımlı yenileme
               href: service-premium-incremental-refresh.md
+            - name: Multi-Geo desteği (Önizleme)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium hakkında SSS
               href: service-premium-faq.md
             - name: Power BI Premium sürüm notları
