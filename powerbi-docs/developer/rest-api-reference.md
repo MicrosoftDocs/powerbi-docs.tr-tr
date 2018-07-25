@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812365"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157160"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI Rest API başvurusu
 Power BI, özel pano uygulamaları derlemek için kullanabileceğiniz bulut tabanlı hizmettir. Power BI REST API'si, Power BI'daki **Veri kümeleri**, **Tablolar** ve **Satırlar** gibi **Pano** kaynaklarına programlı erişim sağlayan REST tabanlı bir API'dir.
@@ -31,4 +31,3 @@ Power BI REST API'sinde aşağıdaki işlemler bulunur:
 Power BI REST API'si hakkında daha fazla bilgi edinmek için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-
