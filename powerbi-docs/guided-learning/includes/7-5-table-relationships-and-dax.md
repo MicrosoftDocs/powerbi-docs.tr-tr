@@ -15,7 +15,7 @@ DAX işlevlerini kullanarak bir sütunun değerini veya bir ilişkideki tüm sat
 
 Birden çok tabloda değerler içeren ifadeler oluşturmak için ilişkisel işlevleri kullanabilirsiniz. DAX, ilişki zincirinin uzunluğu fark etmeksizin bu işlevlerle bir sonuç döndürür.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

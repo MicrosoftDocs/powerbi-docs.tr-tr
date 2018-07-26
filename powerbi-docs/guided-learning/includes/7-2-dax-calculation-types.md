@@ -57,7 +57,7 @@ Hesaplanmış ölçüler ve hesaplanmış sütunlar için gerekli öğeler aynı
 * yeni bir ölçü adı
 * en az bir işlev veya ifade
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

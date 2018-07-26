@@ -34,7 +34,7 @@ Bu, önünüzde bir tablo görüntüleniyorken yanıtlanması kolay bir soru ola
 
 Ayrıca DAX işlevlerini kullanarak tamamen hesaplanmış tablolar da oluşturabilirsiniz. DAX kullanılarak oluşturulmuş tablolarda **NAME** ve **TABLE** işlevleri gereklidir. Hesaplanmış tablolar, ilişki oluşturma da dahil olmak üzere diğer tüm tablolar gibi kullanılabilir.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

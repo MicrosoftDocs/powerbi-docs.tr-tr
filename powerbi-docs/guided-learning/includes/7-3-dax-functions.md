@@ -89,7 +89,7 @@ DAX şu **Tarih** işlevlerini içerir:
 
 Bu işlevler *tarih* değerlerindeki bilgileri hesaplamak ve ayıklamak için kullanılabilir ancak bir veri tablosunun kullanıldığı akıllı zaman gösterimi için geçerli değildir.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

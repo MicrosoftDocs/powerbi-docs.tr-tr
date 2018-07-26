@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244445"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255998"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 **Azure** hizmetlerini ve **Power BI** uygulamasını bir arada kullanarak veri işleme çalışmalarınızı işletmenizle ilgili gerçek zamanlı öngörüler sağlayan analizlere ve raporlara dönüştürebilirsiniz. Veri işleme süreçlerinizin bulut tabanlı veya şirket içi, basit veya karmaşık, tek kaynaklı veya çok büyük ölçekli, ambar tabanlı veya gerçek zamanlı olma durumundan bağımsız olarak Azure ve Power BI'da iş zekası çalışmalarınızdan sonuç almanızı sağlayacak yerleşik bağlantı ve tümleştirme çözümleri mevcuttur.
@@ -52,7 +52,7 @@ Azure ve Power BI sayesinde istediğiniz ölçekte çalışma yapabilirsiniz. Ç
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>Power BI API'lerini kullanarak uygulama verilerinize bağlanma
 Power BI'ı, var olan uygulamalarınız hakkında öngörü sağlamak için de kullanabilirsiniz. Uygulama geliştiricileri Power BI API'si sayesinde veri kümelerinin tamamını, programlama yoluyla Power BI'a gönderebilir. Sürekli güncelleştirme yapmanız mı gerekiyor? Geliştiriciler, Power BI API'leri sayesinde gerçek zamanlı veri güncelleştirmeleri göndererek hızla çalışmaya başlayabilir ve ölçek gereksinimleri doğrultusunda Azure Stream Analytics'i kullanarak ölçek büyütebilir.
 
-[Power BI Geliştirici Portalı](http://dev.powerbi.com)'nda Power BI API'leri hakkında oldukça fazla bilgi mevcuttur. [Power BI geliştirici blogunda](http://blogs.msdn.com/powerbidev) diğer kullanıcıların programlama yoluyla Power BI'da gerçekleştirdiği işlemler hakkında da bilgi edinebilirsiniz. [Power BI ile geliştirmeye başlamanızı sağlamaya](https://msdn.microsoft.com/library/dn889824.aspx) yönelik bir sayfa da vardır.
+[Power BI Geliştirici Portalı](http://dev.powerbi.com)'nda Power BI API'leri hakkında oldukça fazla bilgi mevcuttur. 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure ve Power BI ile neler yapabilirsiniz?
 **Azure** ve **Power BI**'ın birlikte kullanılabileceği farklı türde birçok senaryo vardır. Olasılıklar ve fırsatlar işletmeniz kadar benzersizdir. **Azure hizmetleri** hakkında daha fazla bilgi için bu [genel bakış sayfasını](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409) inceleyin. Bu sayfada **Azure'ın kullanıldığı Veri Analizi Senaryolarının** yanı sıra veri kaynaklarınızı işletmenize avantaj sağlayacak iş zekasına dönüştürme yöntemlerine yer verilmiştir.

@@ -3,7 +3,7 @@ Size **DAX**'ı tanıtmak için tasarlanan Power BI **Destekli Öğrenme** böl�
 **Veri Çözümleme İfadeleri** anlamına gelen **DAX**, Power BI genelinde kullanılan (arka planda Power BI tarafından da kullanılır) formül dilidir. DAX, Power Pivot ve SSAS Tablosu gibi diğer Microsoft tekliflerinde de yer alır ancak bu Destekli Öğrenme konusu koleksiyonunda, DAX dilinin nasıl kullanıldığına ve Power BI'da sizin tarafınızdan nasıl kullanılabileceğine odaklanılmıştır.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX ve Destekli Öğrenme video serisi
-Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
+Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](http://www.sqlbi.com/learning-dax) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
 
 ![Alberto Ferrari'nin portresi](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
