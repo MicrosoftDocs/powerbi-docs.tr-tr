@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: Power BI Desktop gizlilik düzeyleri
           href: desktop-privacy-levels.md
+        - name: Power BI’da bağlayıcı genişletilebilirliği
+          href: desktop-connector-extensibility.md
     - name: Kaynaklar
       items:
         - name: Power BI Desktop videoları

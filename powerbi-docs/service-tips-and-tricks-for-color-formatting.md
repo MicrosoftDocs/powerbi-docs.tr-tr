@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298401"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256021"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
@@ -97,7 +97,7 @@ Değerlerin bu renklerle nasıl eşleneceğini de değiştirebilirsiniz. Aşağ�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Şimdi, **Minimum** ve **Maksimum** renk seçicileri altında bulunan **Minimum** ve **Maksimum** değer kutularına (aşağıda gösterilmiştir) sayısal değer girdiğimizde ne olacağını görelim. **Minimum**'u 20.000.000 ve **Maksimum**'u 20.000.000 olarak ayarlayalım.
+Şimdi, **Minimum** ve **Maksimum** renk seçicileri altında bulunan **Minimum** ve **Maksimum** değer kutularına (aşağıda gösterilmiştir) sayısal değer girdiğimizde ne olacağını görelim. **Minimum**’u 20.000.000 ve **Maksimum**’u 20.000.001 olarak ayarlayalım.
 
 Bu değerler ayarlandığında, grafikte **Minimum**'un altında veya **Maksimum**'un üzerindeki değerler için artık gradyan uygulanmaz. **Maksimum** değerin üzerinde bir değere sahip tüm çubuklar yeşil, **Minimum** değerin altında bir değere sahip tüm çubuklar ise kırmızı renkte gösterilir.
 
