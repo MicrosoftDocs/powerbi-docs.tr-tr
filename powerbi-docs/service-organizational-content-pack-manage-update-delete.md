@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852314"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182806"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
@@ -52,7 +52,7 @@ Bir içerik paketine eklediğiniz panoda değişiklik yapıp kaydettiğinizde Po
 4. **İçerik Paketini Güncelleştir** penceresinde tüm gerekli değişiklikleri yapın ve **Güncelleştir** seçeneğini belirleyin. **Başarılı** iletisi görüntülenir.
    
    * İçerik paketini özelleştirmemiş grup üyeleri için güncelleştirme otomatik olarak uygulanır.
-   * İçerik paketini özelleştirmiş olan grup üyeleri yeni bir sürüm olduğuna ilişkin bir bildirim alır.  Bu üyeler AppSource'a giderek, kendi kişiselleştirilmiş sürümlerini kaybetmeden güncelleştirilmiş içerik paketini alabilir.  Artık 2 sürüme sahip olurlar: kişiselleştirilmiş sürüm ve güncelleştirilmiş içerik paketi.  Kişiselleştirilmiş sürümde özgün içerik paketine ait tüm kutucuklar kaybolur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder.    
+   * İçerik paketini özelleştirmiş olan grup üyeleri yeni bir sürüm olduğuna ilişkin bir bildirim alır.  Bu üyeler AppSource'a giderek, kendi kişiselleştirilmiş sürümlerini kaybetmeden güncelleştirilmiş içerik paketini alabilir.  Artık 2 sürüme sahip olurlar: kişiselleştirilmiş sürüm ve güncelleştirilmiş içerik paketi.  Kişiselleştirilmiş sürümde özgün içerik paketine ait tüm kutucuklar kaybolur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder. Öte yanda, içerik paketi sahibi içerik paketinde temel alınan veri kümesini silerse, raporun tamamı gidecektir.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Hedef kitleyi güncelleştirme: genişletme veya erişimi kısıtlama
 İçerik paketi oluşturucularının gerçekleştirebileceği diğer bir değiştirme işlemi de içerik paketine erişimi genişletmek ve kısıtlamaktır.  Bir içerik paketini geniş bir hedef kitleye yönelik olarak yayımlamış ancak daha sonra erişimi daha küçük bir grupla kısıtlamaya karar vermiş olabilirsiniz.  

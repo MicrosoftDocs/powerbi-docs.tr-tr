@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 6a19478e561edfb4398f9a128e284d3a7e43e9b6
+ms.sourcegitcommit: efe6747614ff66b5a86af9677632c1fb535448b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924725"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39137956"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme
 
@@ -110,15 +110,13 @@ Uygulamanızın içinde Power BI kimlik doğrulaması gerçekleştirmeniz gereki
 
 Uygulamanız içinde kimlik doğrulamasını geçtikten sonra panoları ve raporları uygulamanıza eklemek için Power BI REST API'lerini ve JavaScript API'lerini kullanabilirsiniz. 
 
-**Kuruluşunuz için içerik ekleme** konusunda bilgi almak için aşağıdaki adım adım kılavuzları inceleyin:
+**Kuruluşunuz için içerik ekleme** konusunda bilgi almak için aşağıdaki adım adım yönergeleri inceleyin:
 
-* [Panoları uygulamalarla tümleştirme](integrate-dashboard.md)
-* [Kutucukları uygulamalarla tümleştirme](integrate-tile.md)
-* [Raporları uygulamalarla tümleştirme](integrate-report.md)
+* [Raporları uygulamalarla tümleştirme](embed-sample-for-your-organization.md)
 
 Tipik bir ISV senaryosu olan **müşterileriniz için içerik ekleme** hakkında bilgi almak için aşağıdakileri inceleyin:
 
-* [Uygulamanıza bir pano, kutucuk veya rapor tümleştirme](embed-sample-for-customers.md)
+* [Uygulamanıza bir rapor tümleştirme](embed-sample-for-customers.md)
 
 Müşterileriniz için içerik eklerken bir ekleme belirteci kullanmanız gerekir. Daha fazla bilgi edinmek için bkz. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 

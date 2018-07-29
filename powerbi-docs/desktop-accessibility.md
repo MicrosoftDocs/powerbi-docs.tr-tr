@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032014"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210296"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -47,8 +47,12 @@ Görseller arasında gezinirken daha fazla etkileşim kurmak isterseniz **Alt+Sh
 
 > [!NOTE]
 > Veri göster özelliğine yalnızca bu klavye kısayolu aracılığıyla ekran okuyucu tarafından erişim sağlanabilir. Verileri göster sayfasını görsel üst bilgisindeki seçenekten açarsanız ekran okuyucu buna erişemez.
-> 
-> 
+
+Temmuz 2018'de **Power BI Desktop**'ın kullanıma sunulmasından başlayarak, dilimleyicilere de yerleşik erişilebilirlik işlevselliği eklendi. Dilimleyici seçtiğinizde, dilimleyicinin değerini ayarlamak için CTRL+sağ ok tuşlarını (Control tuşu artı sağ ok tuşu) kullanarak dilimleyici içindeki çeşitli denetimler arasında ilerleyin. Örneğin, başlangıçta CTRL+sağ ok tuşlarına bastığınızda odak silgidedir ve ARA ÇUBUĞU'na basmak silgi düğmesine tıklamayla eşdeğerdir ve dilimleyicideki tüm değerleri siler. 
+
+SEKME tuşuna basarak dilimleyicideki denetimler arasında ilerleyebilirsiniz. Silginin üzerindeyken SEKME tuşuna basıldığında aşağı açılan düğmeye gidilir; bir kez daha SEKME tuşuna basıldığında ilk dilimleyici değerine gidilir (dilimleyicide bir aralık gibi birden çok değer varsa). 
+
+![Power BI Desktop'ta dilimleyicideki öğeyi veya değerleri ayarlamak için CTRL+(sağ ok) tuşlarına basın, öğeyi seçmek ve değeri ayarlamak için ARA ÇUBUĞU'na basın](media/desktop-accessibility/accessibility_07.png)
 
 Bu erişilebilirlik eklemeleri, kullanıcıların ekran okuyucu ve klavye gezintisi aracılığıyla Power BI raporlarını tam olarak kullanabilmesine olanak sağlamak için oluşturulmuştur.
 

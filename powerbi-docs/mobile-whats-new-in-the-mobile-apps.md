@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864411"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182737"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,19 @@ ms.locfileid: "37864411"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](service-whats-new.md)  
+
+## <a name="july-2018"></a>Temmuz 2018
+
+### <a name="ios-and-android-only"></a>Yalnızca iOS ve Android
+
+**Paylaşılan filtreler**
+
+Artık paylaşılan filtreler ve dilimleyicilerle rapor alabilirsiniz.
+
+**Arka plan resmi desteği**
+
+Mobil cihazınızda yatay modda bir rapor görüntülediğinizde, web üzerinde Power BI'da gördüğünüz arka plan görüntülerinin aynılarını görürsünüz.
+
 
 ## <a name="june-2018"></a>Haziran 2018
 
