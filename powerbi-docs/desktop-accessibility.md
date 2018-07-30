@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210296"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256044"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -40,6 +40,8 @@ Erişilebilirlik iyileştirmeleri sayesinde, aşağıdaki teknikleri uygulayarak
 * Odak bir *rapor sayfası* üzerinde olduğunda, odağı sayfadaki her bir nesneye (tüm metin kutuları, resimler, şekiller ve grafikler dahil) yöneltmek için *Sekme* tuşunu kullanın. Ekran okuyucu nesnenin türünü, varsa nesnenin başlığını ve rapor yazarı tarafından sağlanmışsa nesnenin açıklamasını okur. 
 
 Görseller arasında gezinirken daha fazla etkileşim kurmak isterseniz **Alt+Shift+F10** tuşlarına basarak odağı sıralama, grafiğin temel aldığı verileri dışarı aktarma ve Odak modu gibi seçeneklerin yer aldığı görsel üst bilgisine geçirebilirsiniz. 
+
+![Power BI Desktop’ta odağı görsel başlığa taşımak için Alt+Shift+F10 tuşlarına basın](media/desktop-accessibility/accessibility_08.png)
 
 *Verileri göster* penceresinin erişilebilir bir sürümünün sunulması için **Alt+Shift+F11** tuşlarına basabilirsiniz. Bu sayede ekran okuyucunuzda her zaman kullandığınız klavye kısayollarını kullanarak görselde kullanılan verileri bir HTML tablosunda inceleyebilirsiniz. 
 
