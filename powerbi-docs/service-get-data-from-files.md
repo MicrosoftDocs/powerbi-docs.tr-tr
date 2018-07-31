@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2c23043840e750cf4e8ef7a06a613f750bfddcf2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82afd38611252486196c580da35e6d04d58a2479
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242701"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327810"
 ---
 # <a name="get-data-from-files"></a>Dosyalardan veri alma
 ![](media/service-get-data-from-files/file_icons.png)

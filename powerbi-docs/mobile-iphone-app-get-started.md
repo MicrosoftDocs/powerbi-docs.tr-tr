@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136574"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280260"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -73,11 +73,11 @@ Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebili
    ![Power BI mobil uygulamasındaki Reporting Services örnekleri](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
-Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-find-content-mobile-devices.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz her şeyi dilediğiniz zaman arayabilirsiniz. 
+Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz her şeyi dilediğiniz zaman arayabilirsiniz. 
 
 ![Sol gezinti bölmesi](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-[Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-find-content-mobile-devices.md) hakkında daha fazla bilgi edinin.
+[Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Sık kullandığınız panoları, KPI'leri ve raporları görüntüleme
 Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu ve Reporting Services KPI'lerinin ve raporlarının yanı sıra sık kullandığınız Power BI panolarının tümünü görebilirsiniz. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak eklediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 

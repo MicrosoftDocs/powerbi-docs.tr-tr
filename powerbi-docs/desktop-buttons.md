@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228772"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330501"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI’da düğmeleri kullanma
 Power BI **düğmeleri**, uygulamalar gibi davranan raporlar ve panolar oluşturmanızı, böylece kullanıcıların Power BI içeriklerinin üzerine gelip tıklayıp etkileşime gireceği ilgi çekici bir ortam elde etmenizi sağlar. **Power BI Desktop**’ta rapor düğmeleri ekleyebilir ve kullanıcılar için uygulama gibi davranan panolar oluşturmak amacıyla bu raporları Power BI hizmetinde paylaşabilir veya yayımlayabilirsiniz.

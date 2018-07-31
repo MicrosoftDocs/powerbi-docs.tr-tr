@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182737"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280789"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -185,7 +185,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 
 **Yeni menü: Uygulamalar** Uygulamalar, veri temelli kararlar almayı daha da hızlı ve kolay hale getirmeye yönelik önemli ölçümler sunmak için kuruluşunuz tarafından oluşturulan panolardan ve raporlardan oluşan koleksiyonlardır.
 
-[Power BI içeriğinizin nasıl düzenlendiği](mobile-apps-find-content-mobile-devices.md) hakkında daha fazla bilgi edinin.
+[Power BI içeriğinizin nasıl düzenlendiği](mobile-apps-quickstart-view-dashboard-report.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="ios-and-android-devices"></a>iOS cihazları ve Android cihazlar
 **Power BI Rapor Sunucusu önizlemesi** Power BI raporları oluşturun ve raporlarınızı şirket içinde yayımlayın. Ardından [iOS veya Android mobil cihazınızda bu raporları görüntüleyin ve raporlarla etkileşim kurun](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ Soru-Cevap özelliğiyle kendi sözcüklerinizi kullanarak verileriniz hakkında
 Artık, aynı anda beş adede kadar SQL Server Reporting Services (SSRS) sunucusuna bağlanabilirsiniz.
 
 #### <a name="android-tablets"></a>Android tabletler
-Android tabletler için **Power BI mobil uygulaması** genel kullanıma sunuldu. [Android tabletinizde Power BI](mobile-android-tablet-app-get-started.md) ile çalışmaya başlayın.
+Android tabletler için **Power BI mobil uygulaması** genel kullanıma sunuldu. [Android tabletinizde Power BI](mobile-android-app-get-started.md) ile çalışmaya başlayın.
 
 #### <a name="ios-and-android-devices"></a>iOS cihazları ve Android cihazlar
 **Pano kutucukları için yeni menü** Bağlantılı rapora gitme, kutucuğu genişletme veya uyarıları yönetme işlemlerinin tamamını doğrudan, panolardaki kutucuklarda bulunan bir menüden gerçekleştirebilirsiniz. 
@@ -304,7 +304,7 @@ Resim kutucuğunda pano sahibi tarafından tanımlanmış özel bir URL varsa ku
 #### <a name="android-tablets"></a>Android tabletler
 **Android tabletler için Power BI mobil uygulaması** Önizleme kullanıma sunuldu.
 
-* [Android tabletinizde Power BI](mobile-android-tablet-app-get-started.md)'ı deneyin
+* [Android tabletinizde Power BI](mobile-android-app-get-started.md)'ı deneyin
 * [Android tabletinizde Reporting Services mobil raporlarını ve KPI'lerini](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) inceleyin
 
 #### <a name="android-devices"></a>Android cihazlar
@@ -498,7 +498,7 @@ Ocak ayında yapılan iyileştirmelerin tümü, Aralık 2015'te kullanıma sunul
 
 **R kutucukları ve web pencere öğeleri** Mobil cihazınızdaki panolarda bu yeni kutucuk türlerini görüntüleyin.
 
-**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](service-connect-to-bing.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
+**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](service-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
 
 **Panolara kutucuk olarak sabitlenen rapor sayfaları** Rapor sayfalarının tamamını Power BI hizmetindeki panolara sabitleyebilir ve rapor sayfalarını iPhone'unuzda veya Android telefonunuzda Power BI uygulamasında görüntüleyebilirsiniz.
 

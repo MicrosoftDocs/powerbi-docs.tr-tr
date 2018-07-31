@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 954264018babcf8a2a95ec5686ac7688cd52fe24
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250020"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328431"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Raporları Power BI'dan PowerPoint'e aktarma (Önizleme)
 Power BI sayesinde artık raporunuzu **Microsoft PowerPoint**'te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. **PowerPoint'e aktardığınızda**, aşağıdakiler gerçekleşir:

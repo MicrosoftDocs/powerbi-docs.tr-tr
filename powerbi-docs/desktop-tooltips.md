@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210342"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280766"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop’ta (önizleme) rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -124,6 +124,7 @@ Rapor **araç ipuçlarının** bu önizleme sürümünde dikkat etmeniz gereken 
 * Rapor araç ipuçları, özel görseller için desteklenmemektedir. 
 * Kümeler şu an için rapor ipuçlarında gösterilebilen alanlar olarak desteklenmemektedir. 
 * Bir alan-kategori karşılaştırması kullanılırken, rapor araç ipuçları için bir alanın gösterilmesi seçildiğinde söz konusu alanı içeren görseller yalnızca özetleme, seçili alanla eşleştiğinde belirtilen araç ipucunu gösterir. 
+
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

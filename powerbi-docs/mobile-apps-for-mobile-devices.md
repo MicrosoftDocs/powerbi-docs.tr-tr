@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294721"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280053"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?
 Power BI; iOS, Android ve Windows 10 mobil cihazlar için bir dizi mobil uygulama sunar. Mobil uygulamalarda bulut ve şirket içi verilerinize bağlanıp etkileşimde bulunabilirsiniz. 
@@ -42,6 +42,6 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 [Microsoft Intune ile Android ve iOS için Power BI mobil uygulamalarını yapılandırma](service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Mobil uygulamalarda pano görüntüleme](mobile-apps-find-content-mobile-devices.md)
+[Mobil uygulamalarda pano görüntüleme](mobile-apps-quickstart-view-dashboard-report.md)
 
 

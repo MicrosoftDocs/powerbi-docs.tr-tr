@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295273"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279861"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma
 Aşağıdakiler için geçerlidir:
@@ -31,7 +31,7 @@ Artık kutucuklara, raporlara veya görsellere not ekleyebilir ve anlık görün
 
 Kutucuk, rapor ya da görsele ait anlık görüntü içeren e-posta ayrıca Power BI hizmetindeki ([https://powerbi.com](https://powerbi.com)) gerçek nesneye yönelik bağlantıyı da içerir. Siz ve karşı taraf Power BI Pro lisansına sahipseniz ya da içerik [Premium kapasite](service-premium.md) kapsamındaysa ve bu öğeyi paylaştıysanız alıcılar bu bağlantıya tıklayarak doğrudan bu kutucuğa, rapora ya da görsele gidebilir. 
 
-Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da paylaşabilirsiniz](mobile-share-tile-windows-10-phone-app.md) ancak not ekleyemezsiniz.
+Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md) ancak not ekleyemezsiniz.
 
 ## <a name="open-a-tile-for-annotating"></a>Not eklemek için bir kutucuk açma
 1. Odak modunda açmak için kutucuğa dokunun.

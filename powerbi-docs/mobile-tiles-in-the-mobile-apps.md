@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598654"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280145"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler için geçerlidir:
@@ -92,7 +92,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Kutucuğun anlık görüntüsünü paylaşabilirsiniz](mobile-share-tile-windows-10-phone-app.md).
+    [Kutucuğun anlık görüntüsünü paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md).
    
     **Rapor Aç**'a ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) dokunarak [bağlantılı raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Anlık Görüntü Paylaş simgesine ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) dokunarak [bir kutucuğu başkalarıyla paylaşabilirsiniz](mobile-share-tile-windows-10-phone-app.md).   
+   Anlık Görüntü Paylaş simgesine ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) dokunarak [bir kutucuğu başkalarıyla paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md).   
    
    Rapor Aç simgesine ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) dokunarak kutucuğun bağlı olduğu [raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md). 
 4. Kutucuğu kapatıp panoya dönmek için geri okuna veya geri düğmesine dokunabilirsiniz.
