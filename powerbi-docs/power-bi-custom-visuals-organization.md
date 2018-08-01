@@ -11,10 +11,10 @@ ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc4dcc26ac2007e482b396139d572018c8a3acd3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34291915"
 ---
 # <a name="using-organization-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görsellerini kullanma

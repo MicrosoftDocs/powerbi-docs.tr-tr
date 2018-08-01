@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34456068"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Eğitim: Power BI Desktop ile Facebook analizi
@@ -39,7 +39,7 @@ Bu öğreticide, [Microsoft Power BI Facebook sayfasındaki](https://www.faceboo
    
 4. **Kullanıcı Adı** metin kutusuna **microsoftbi** sayfa adını yazın veya yapıştırın, **Bağlantı** açılır kutusundan **Gönderiler**’i seçin ve sonra **Tamam** seçeneğini belirleyin.
    
-   ![Bağlan:](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Bağlan](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Kimlik bilgileri istendiğinde kendi Facebook hesabınızda oturum açın ve Power BI’ın hesabınız üzerinden erişim kurmasına izin verin.
    
