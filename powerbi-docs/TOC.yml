@@ -918,14 +918,18 @@
       items:
         - name: Genel Bakış
           items:
-            - name: Power BI ile ekleme
+            - name: Power BI ile ekleme nedir?
               href: developer/embedding.md
+            - name: Azure'da Power BI Embedded nedir?
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Öğreticiler
           items:
             - name: Müşteriler için içerik ekleme
               href: developer/embed-sample-for-customers.md
             - name: Kuruluşunuz için içerik ekleme
               href: developer/embed-sample-for-your-organization.md
+            - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Kavramlar
           items:
             - name: Satır düzeyi güvenlik (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Nasıl yapılır?
           items:
-            - name: İçeriğinizi ekleme
-              href: developer/embedding-content.md
             - name: Bir uygulamadan ekleme
               href: developer/embed-from-apps.md
-            - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme (veriler uygulamaya aittir)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Azure Active Directory kiracısı oluşturma
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Uygulamaları kaydetme
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Soru-Cevap ekleme
               href: developer/qanda.md
-            - name: Power BI Embedded'i geçirme
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Katıştırılmış uygulamanızla ilgili sorunları giderme
               href: developer/embedded-troubleshoot.md
+            - name: Azure'da kapasiteleri yönetme
+              items:
+                - name: Azure'da kapasite oluşturma
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Azure'da kapasiteyi ölçeklendirme
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Azure'da kapasiteyi duraklatma ve başlatma
+                  href: developer/azure-pbie-pause-start.md
+            - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
+              items:
+                - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Geçiş aracı
+                  href: developer/migrate-tool.md
+                - name: Geçiş kodu parçacıkları
+                  href: developer/migrate-code-snippets.md
         - name: Başvuru
           items:
+            - name: API'ler
+              items:
+                - name: Azure Kaynak Yönetimi REST API'leri
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API'leri
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK İndirme
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Özel düzenleri uygulamaya ekleme
               href: developer/embedded-custom-layout.md
-            - name: Geçiş kodu parçacıkları
-              href: developer/migrate-code-snippets.md
         - name: Kaynaklar
           items:
             - name: Geliştirme Merkezi
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Örnekler
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded geçiş aracı
-              href: developer/migrate-tool.md
             - name: Power BI topluluğu
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API'leri
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI Rest API başvurusu
-              href: developer/rest-api-reference.md
             - name: Tam kod listesi
               href: developer/walkthrough-push-data-complete-code.md
         - name: Kaynaklar
