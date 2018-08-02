@@ -11,10 +11,10 @@ ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "37926608"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)

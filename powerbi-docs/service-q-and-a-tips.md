@@ -11,10 +11,10 @@ ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "34247082"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları

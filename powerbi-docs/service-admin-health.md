@@ -11,10 +11,10 @@ ms.date: 05/09/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: fdef5ce49836fcd4b65b98f5eb92c2b565ce69f1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "34292053"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365'te Power BI hizmet durumunu izleme

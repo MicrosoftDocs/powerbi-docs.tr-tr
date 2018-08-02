@@ -11,10 +11,10 @@ ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
 ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "37067253"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın

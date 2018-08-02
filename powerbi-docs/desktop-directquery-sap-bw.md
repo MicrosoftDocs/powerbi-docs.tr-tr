@@ -11,10 +11,10 @@ ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3f6373db938f92f86c0f438162de4454f5f12e00
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "39280099"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery ve SAP Business Warehouse (BW)

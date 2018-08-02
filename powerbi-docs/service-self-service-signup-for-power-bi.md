@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "37926502"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma

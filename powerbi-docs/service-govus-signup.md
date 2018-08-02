@@ -11,10 +11,10 @@ ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 6e03cdcad86bf82e72b0d15773fc71952d164c1d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "39327949"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme

@@ -11,10 +11,10 @@ ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 33541b99d28bd95acb9cc923e0531cdbc2e25d63
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "39327143"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop'taki İlişki Görünümü

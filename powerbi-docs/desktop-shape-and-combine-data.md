@@ -11,10 +11,10 @@ ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: e3204cbaba31cd2e58c78c2dc5eff3b4de7e8c9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "39329368"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme

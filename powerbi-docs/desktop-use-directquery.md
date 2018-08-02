@@ -11,10 +11,10 @@ ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 7f938e881e71d241025ddc44aeb1a21daa61dcd9
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "39327899"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma

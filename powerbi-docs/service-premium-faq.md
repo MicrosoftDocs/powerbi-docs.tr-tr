@@ -11,10 +11,10 @@ ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "34298861"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
