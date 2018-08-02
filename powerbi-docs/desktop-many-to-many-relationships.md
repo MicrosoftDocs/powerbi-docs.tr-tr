@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211779"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388767"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
 
@@ -110,7 +110,7 @@ Bu geçici çözüm tablosu görünür durumda bırakılabilir veya alan listesi
 
 Bu geçici çözümde *CityData* tablosundan eyalet değerinin kullanılmasıyla, yalnızca söz konusu tablodaki *State* değerlerinin listelendiğine (ve dolayısıyla TX eyaletinin hariç tutulduğuna) dikkat edin. Aynı zamanda, **Çoka Bir** ilişkilerinden farklı olarak, toplam satırı tüm *Sales* değerlerini (TX eyaletininkiler de dahil) içerirken ayrıntılar bu tür eşleşmeyen satırları kapsayan boş satırı içermez. Benzer biçimde, *State* için null değeri olan herhangi bir *Sales* değerini kapsayacak boş bir satır yoktur.
 
-Bu görsele *City* de eklenirse, *City* başına nüfusun bilinmesi durumunda *City* için gösterilen *Sales* değeri, aşağıdaki görüntüde gösterildiği gibi yalnızca ilgili *State* için *Sales* değerini tekrarlayabilir (zaten herhangi bir toplama ölçüsüyle ilişkili olmayan bir sütunda gruplandırma yapıldığında da bu durum geçerlidir).
+Bu görsele *City* de eklenirse ve *City* başına nüfus biliniyorsa, *City* için gösterilen *Sales* değeri, aşağıdaki görüntüde gösterildiği gibi yalnızca ilgili *State* için *Sales* değerini tekrarlayabilir (zaten herhangi bir toplama ölçüsüyle ilişkili olmayan bir sütunda gruplandırma yapıldığında da bu durum geçerlidir).
 
 ![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
