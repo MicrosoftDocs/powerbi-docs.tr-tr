@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900066"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280214"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
 
-SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği hakkında bilgi için bkz. [Power BI ve SAP BW teknik incelemesi](https://aka.ms/powerbiandsapbw).
+SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği hakkında bilgi için bkz. [Power BI ve SAP BW teknik incelemesi](https://aka.ms/powerbiandsapbw). SAP BW ile DirectQuery kullanma hakkında ayrıntılı bilgi için [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) makalesine bakın.
 
 **Power BI Desktop**’ın Haziran 2018 sürümünden itibaren, SAP BW bağlayıcısını performans ve özellikler bakımından önemli iyileştirmeler içeren bir uygulama ile birlikte kullanabilirsiniz. SAP BW bağlayıcısının bu güncelleştirilmiş sürümü Microsoft tarafından geliştirilmiştir ve **Uygulama 2.0** olarak adlandırılır. **SAP BW Bağlayıcısı**’nın 1. sürümünü (v1) veya **Uygulama 2.0 SAP Bağlayıcısı**’nı seçebilirsiniz. Aşağıdaki bölümlerde, her bir sürümün yüklenmesi sırayla açıklanmaktadır. Power BI Desktop’tan SAP BW’ye bağlanırken bağlayıcılardan birini seçebilirsiniz.
 
@@ -38,9 +38,9 @@ Mümkün olduğunda Uygulama 2.0 SAP Bağlayıcısı’nın kullanılması öner
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Uygulama 2.0 SAP Bağlayıcısı’nı yükleme
 
-SAP Bağlayıcısı **Uygulama 2.0**, SAP .NET Bağlayıcısı 3.0 gerektirir. Aşağıdaki bağlantıyı kullanarak [SAP .NET Bağlayıcısı 3.0](https://go.microsoft.com/fwlink/?linkid=872300)’ı SAP’nin web sitesinden indirebilirsiniz:
+SAP Bağlayıcısı **Uygulama 2.0**, SAP .NET Bağlayıcısı 3.0 gerektirir. Aşağıdaki bağlantıyı kullanarak [SAP .NET Bağlayıcısı 3.0](https://support.sap.com/en/product/connectors/msnet.html)’ı SAP’nin web sitesinden indirebilirsiniz:
 
-* [SAP .NET Bağlayıcısı 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Bağlayıcısı 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 İndirme bağlantısına erişmek için geçerli bir S kullanıcı gerekir. Müşterilerin SAP .NET Bağlayıcısı 3.0’ı edinmek için SAP Basis ekibi ile iletişim kurması önerilir. 
 
@@ -207,6 +207,7 @@ Bu bölümde **SAP BW** bağlayıcısıyla çalışırken karşılaşabileceğin
 SAP ve DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen Veri Kaynakları](desktop-directquery-data-sources.md)
 * [Power BI ve SAP BW teknik incelemesi](https://aka.ms/powerbiandsapbw)

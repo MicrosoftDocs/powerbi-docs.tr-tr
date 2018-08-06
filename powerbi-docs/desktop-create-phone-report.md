@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721076"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280674"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
 [Power BI Desktop'ta bir rapor oluşturduğunuzda](desktop-report-view.md) raporun telefona özgü bir sürümünü oluşturarak telefonlardaki mobil uygulamalarda daha iyi bir kullanım deneyimi sunmasını sağlayabilirsiniz. Raporunuzu telefon için uyarlamak üzere görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
@@ -72,7 +72,7 @@ Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görseller
   
    ![Görselleri kaldırma](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Dilimleyicileri telefon raporlarında iyi çalışacak şekilde geliştirme
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Dilimleyicileri telefon raporlarında iyi çalışacak şekilde geliştirme
 Dilimleyiciler, rapor verilerinizin tuval üzerinde filtrelenmesini sağlar. Dilimleyicileri normal rapor oluşturma modunda tasarlarken telefon raporlarında daha kullanışlı hale getirmek için bazı dilimleyici ayarlarını değiştirebilirsiniz:
 
 * Raporu okuyanların bir veya daha fazla öğeyi seçip seçemeyeceğine karar verin.

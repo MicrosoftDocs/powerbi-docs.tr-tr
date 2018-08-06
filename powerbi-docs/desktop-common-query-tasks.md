@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877343"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39330225"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -31,7 +31,7 @@ Burada gösterilen, sık kullanılan sorgu görevleri aşağıda verilmiştir:
 
 Bu görevleri tamamlamak için birkaç veri bağlantısından yararlanacağız. Bu görevlere ilişkin adımları kendi başınıza uygulamak isterseniz ilgili verileri indirebilir veya verilere bağlanabilirsiniz.
 
-İlk veri bağlantısı bir Excel çalışma kitabıdır. Diğeri ise (başka bir Power BI Desktop yardım içeriğinde de kullanılmıştır) şu sayfadan erişilebilen bir Web kaynağıdır:
+İlk veri bağlantısı bir Excel çalışma kitabına yapılmaktadır ve dosyayı [bu bağlantıdan](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) indirebilirsiniz. Diğeri ise (başka bir Power BI Desktop yardım içeriğinde de kullanılmıştır) şu sayfadan erişilebilen bir Web kaynağıdır:
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 

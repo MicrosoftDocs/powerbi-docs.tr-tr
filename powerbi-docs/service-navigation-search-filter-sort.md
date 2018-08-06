@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b55f9854d129c4ff7a70117b8382fbdbaff80ce8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722851"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280283"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Gezinme: Power BI hizmetinde içerik arama, bulma ve sıralama
 Power BI hizmetindeki içeriğinizde gezinmek için kullanabileceğiniz birçok farklı yöntem vardır. Çalışma alanındaki içerik türe göre düzenlenmiştir: panolar, raporlar, çalışma kitapları ve veri kümeleri.  İçerik ayrıca kullanıma göre de düzenlenmiştir: sık kullanılanlar, son görüntülenenler, benimle paylaşılanlar ve öne çıkan. Bu farklı yollardan faydalanarak Power BI hizmetinde aradığınızı kolayca bulabilirsiniz.  

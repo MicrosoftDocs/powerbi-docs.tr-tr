@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456215"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280122"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Eğitim: Excel’deki ve OData akışındaki satış verilerini birleştirme
 

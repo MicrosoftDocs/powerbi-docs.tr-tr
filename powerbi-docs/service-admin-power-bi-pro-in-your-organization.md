@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0df9fc81c5e65f74fb7eba8b6699cb579e652b62
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250355"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280743"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Kuruluşunuzda Power BI Pro
 

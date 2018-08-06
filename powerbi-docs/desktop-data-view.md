@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813745"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280352"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri Görünümü
 **Veri Görünümü**, **Power BI Desktop** modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri **Sorgu Düzenleyicisi**'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten *sonraki* halini incelersiniz.
@@ -46,4 +46,5 @@ Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo v
 
 Değerleri tek tek filtreleyebilir veya sütundaki verileri temel alarak gelişmiş filtrelemeyi kullanabilirsiniz. 
 
-
+> [!NOTE]
+> Bir Power BI modeli geçerli kullanıcı arabiriminizden farklı bir kültürde oluşturulduğunda (örneğin İngilizce-ABD dilinde oluşturulmuş modeli İspanyolca görüntülediğinizde) arama kutusu metin alanları dışındaki Veri Görünümü kullanıcı arabirimi bölümlerinde görünmez.
