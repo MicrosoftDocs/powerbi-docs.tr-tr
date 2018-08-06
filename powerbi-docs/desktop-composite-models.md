@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2eb69896de8226fdf0033f980a8b4b5164c68c3d
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280168"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388859"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modeller (Önizleme)
 
@@ -33,7 +33,7 @@ Daha önce **Power BI Desktop**'ta raporda bir DirectQuery kullandığınızda, 
 
 * **Bileşik modeller**, bu makalede ayrıntılı olarak açıklanıyor.
 * **Çoka çok ilişkiler** kendi makalesinde ([Power BI Desktop'ta çoka çok ilişkiler (Önizleme)](desktop-many-to-many-relationships.md)) açıklanıyor.
-* **Depolama modu** kendi makalesinde ([Power BI Desktop'ta depolama modu (Önizleme)](desktop-storage-mode.md)) açıklanıyor.
+* **Depolama modu** kendi makalesinde ([Power BI Desktop'ta depolama modu (Önizleme)](desktop-storage-mode.md)) açıklanır.
 
 ## <a name="enabling-the-composite-models-preview-feature"></a>Bileşik modeller önizleme özelliğini etkinleştirme
 
