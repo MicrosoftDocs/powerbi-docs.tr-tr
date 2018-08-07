@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598899"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582583"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -24,8 +24,8 @@ Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik 
 
 Bir görsel öğenin görüntülemesi gereken veri arttıkça yüklenme hızı düşer. Bu ilke açık olsa da sık sık unutulur. Örneğin, büyük bir veri kümeniz olduğunu varsayalım. Bunun üzerine, tablonun tablosunu içeren bir rapor oluşturuyorsunuz. Çoğu birkaç düzine satırla ilgilenen son kullanıcılar, sayfadaki dilimleyicileri kullanarak istedikleri satırlara gidebiliyor.
 
-Sık yapılan bir hata, tablonun varsayılan görünümünün filtrelenmemiş (100 milyondan fazla satır) olmasıdır. Her yenilemede bu satırlara ait verilerin belleğe yüklenmesi ve sıkıştırmasının açılması gerekir. Bu, çok büyük bellek yüklerine yol açar. Çözüm: “İlk N” filtresini kullanarak tablonun görüntülediği en fazla öğe sayısını azaltın. En fazla öğe sayısı, kullanıcılar için gerekenden çok daha fazla (örneğin 10.000) olabilir. Bunun sonucunda, son kullanıcı deneyimi değişmez ancak raporun bellek kullanımı birkaç kat azalır ve performans da buna göre artar. 
- 
+Sık yapılan bir hata, tablonun varsayılan görünümünün filtrelenmemiş (100 milyondan fazla satır) olmasıdır. Her yenilemede bu satırlara ait verilerin belleğe yüklenmesi ve sıkıştırmasının açılması gerekir. Bu, çok büyük bellek yüklerine yol açar. Çözüm: “İlk N” filtresini kullanarak tablonun görüntülediği en fazla öğe sayısını azaltın. En fazla öğe sayısı, kullanıcılar için gerekenden çok daha fazla (örneğin 10.000) olabilir. Bunun sonucunda, son kullanıcı deneyimi değişmez ancak raporun bellek kullanımı birkaç kat azalır ve performans da buna göre artar.
+
 Raporlarınızdaki tüm görsel öğeler için yukarıdakine benzer bir yaklaşım kesinlikle önerilir. Kendinize bir görsel öğedeki tüm verilerin gerekli olup olmadığını sorun. Son kullanıcı deneyimini olabildiğince az etkileyecek şekilde filtre uygulayarak görsel öğede gösterilen veri miktarını azaltmanın bir yolu var mı? Özellikle de tabloların çok pahalı olabileceğini unutmayın. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Rapor sayfalarındaki görsel öğeleri sınırlama 
