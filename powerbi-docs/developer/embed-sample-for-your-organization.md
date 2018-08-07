@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105281"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359743"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için bir Power BI raporunu, panosunu veya kutucuğunu bir uygulamaya ekleme
 Bu öğretici, **Power BI**'ı kuruluşunuz için bir uygulamaya eklerken **Power BI JavaScript API’si** ile birlikte **Power BI .NET SDK’sı** kullanarak bir raporu bir uygulama ile tümleştirme işlemini göstermektedir. **Power BI** ile raporları, panoları veya kutucukları **verilerin sahibi kullanıcıdır** yapısını kullanarak bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, uygulamanızın Power BI hizmetinin kapsamını genişletmesini sağlar.
@@ -413,11 +413,28 @@ function updateEmbedReport() {
 Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile uygulamanızın çalışma alanını destekleme işlemine geçmelisiniz.
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Adanmış kapasite atanmamış çalışma alanları, paylaşılan kapasite olarak kabul edilir. [Power BI Premium](../service-admin-premium-purchase.md)'u kullanarak adanmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. [Power BI Premium](../service-premium.md)'u kullanarak adanmış kapasite oluşturabilirsiniz.
+
+Aşağıdaki tabloda [Office 365](../service-admin-premium-purchase.md)'te kullanılabilecek olan Power BI Premium SKU'ları yer almaktadır.
+
+| Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç + Ön uç)* | Arka uç sanal çekirdek sayısı | Ön uç sanal çekirdek sayısı | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 sanal çekirdek |0,5 sanal çekirdek, 10 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |150-300 |
+| EM2 |2 sanal çekirdek |1 sanal çekirdek, 10 GB RAM |1 sanal çekirdek |Saniyede 7,5 |301-600 |
+| EM3 |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek |saniyede 15 |601-1200 |
+| P1 |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 |1201-2400 |
+| P2 |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 |2401-4800 |
+| P3 |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 |4801-9600 |
+| P4 |64 sanal çekirdek |32 sanal çekirdek, 200 GB RAM |32 sanal çekirdek |saniyede 240 |9601-19200
+| P5 |128 sanal çekirdek |64 sanal çekirdek, 400 GB RAM |64 sanal çekirdek |saniyede 480 |19201-38400
+
+***_EM SKUS_** ile, **_MS Office uygulamalarına_** eklemeye çalışırken ÜCRETSİZ Power BI lisansıyla içeriğe **erişebilirsiniz** ama **_Powerbi.com_** veya **_Power BI mobile_** kullanırken ÜCRETSİZ Power BI lisansıyla içeriğe **erişemezsiniz**.*
+
+***_P SKU'larla_**, **_Powerbi.com_** ya da **_Power BI mobile_** kullanarak **_MS Office uygulamalarına_** eklemeye çalışırken ÜCRETSİZ Power BI lisansıyla içeriğe **erişebilirsiniz**.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye uygulama çalışma alanı atama
 
-Adanmış kapasite oluşturulduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bunu yapmak için aşağıdaki adımları uygulayın.
+Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bunu yapmak için aşağıdaki adımları uygulayın.
 
 1. **Power BI hizmetinde**, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanına yönelik olan üç noktayı seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
 
@@ -431,13 +448,17 @@ Adanmış kapasite oluşturulduktan sonra, uygulama çalışma alanınızı bu a
 
     ![kapasite atanmış uygulama çalışma alanı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Yönetici ayarları
+
+Genel Yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST API'lerini kullanma seçeneğini etkinleştirebilir veya devre dışı bırakabilir. Power BI yöneticileri bu ayarı kuruluşun tamamı veya yalnızca belirli güvenlik grupları için değiştirebilir. Varsayılan olarak kuruluşun tamamı için etkindir. Bu işlemi [Power BI yönetici portalı](../service-admin-portal.md) aracılığıyla gerçekleştirebilirsiniz.
+
 ## <a name="next-steps"></a>Sonraki adımlar
-Bu öğreticide **Power BI kuruluş hesabınızı** kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz.  Üçüncü taraf müşteriler için de Power BI içeriği ekleme denemeleri yapabilirsiniz.
+Bu öğreticide **Power BI kuruluş hesabınızı** kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz.  Müşterileriniz için de Power BI içeriği ekleme denemeleri yapabilirsiniz.
 
 > [!div class="nextstepaction"]
 > [Uygulamalardan ekleme](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Üçüncü taraf müşteriler için ekleme](embed-sample-for-customers.md)
+>[Müşterileriniz için ekleme](embed-sample-for-customers.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
