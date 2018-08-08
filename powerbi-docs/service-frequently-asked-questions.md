@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145399"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582695"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .gov ve .mil e-posta 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Neden iş e-posta adresimle kaydolmam gerekiyor?
 Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. [Power BI self servis kayıt işlemi](service-self-service-signup-for-power-bi.md) hakkında daha fazla bilgi edinin.
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
-Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) (Microsoft Bağış Programı) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
+Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Kar Amacı Gütmeyen Kuruluşlar](https://www.microsoft.com/en-us/nonprofits/power-bi) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI şirket içi kullanılabilir mi?
 Power BI hizmeti [https://powerbi.com](https://powerbi.com) özel, dahili bir bulut hizmeti olarak kullanılamaz. Ancak, şirket içi verileri görüntülemek ve bu veriler ile çalışmak üzere diğer üç seçenekten yararlanabilirsiniz. 

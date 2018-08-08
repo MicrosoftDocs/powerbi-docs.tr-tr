@@ -2,19 +2,19 @@
 title: Tabloya satır ekleme
 description: Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablosuna satır ekleme
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 08/01/2018
+ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812549"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475672"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5. Adım: Bir Power BI tablosuna satır ekleme
 Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
@@ -307,9 +307,10 @@ Bu kodu Program.cs'ye ekleyin.
         }
     }
 
+Yukarıdaki kodda **_//İlk kimliği alın_** belirtimini eklemiş olsak da, en doğrusu ada göre veri kümesini aramaktır.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

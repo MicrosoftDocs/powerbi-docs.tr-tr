@@ -1,4 +1,4 @@
-1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin.
+1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin. 
    
      ![Uygulama çalışma alanı oluşturma](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

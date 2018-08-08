@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135456"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616017"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Tüm mobil platformlardaki (iOS, Android cihazlar ve Windows 10) Power BI mobil uygulamalarında belirli bir konumun bağlantısına (*ayrıntılı bağlantı*) yönelik bir tekdüzen kaynak tanımlayıcısı (URI) oluşturup kullanabilirsiniz.
@@ -36,7 +36,7 @@ Bu URI, Power BI mobil uygulamasını belirli bir pano ile açar:
 
 36 karakterden oluşan pano nesnesi kimliğini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 Pano, Çalışma Alanım dışındaki bir gruptaysa pano kimliğinin önüne veya sonuna `&GroupObjectId=<36-character-group-id>` ekleyin. Örneğin, 
 
@@ -51,7 +51,7 @@ Bu URI, Power BI mobil uygulamasını odak modunda belirli bir pano ile açar:
 
 36 karakterden oluşan pano ve kutucuk nesnesi kimliklerini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin ve kutucuğu odak modunda açın. Örneğin, şu URL'nin vurgulanan bölümlerine bakın:
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 Bu kutucuk için URI şu şekilde olur:
 

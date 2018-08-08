@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329650"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475741"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Doğal dil sorguları için Power BI Desktop'taki Soru-Cevap özelliğini kullanın
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte **Power BI Desktop**’taki Soru-Cevap ile bunu yapabilirsiniz.
@@ -24,6 +24,11 @@ Yanıtlayabileceği büyük soru koleksiyonunu başarıyla yorumlayabileceği ş
 
 > [!NOTE]
 > Soru-Cevap yalnızca **içeri aktarılan** verileri içeren bir modelle çalışılırken kullanılabilir. SSAS ve DirectQuery modelleri ile canlı bağlantılar desteklenmez.
+>
+>
+
+> [!NOTE]
+> Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 
