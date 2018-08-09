@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Kurumsal içerik paketleri bulma ve bunlara bağlanma
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Panoları ve raporları paylaşma
-                  href: service-share-dashboards.md
                 - name: Power BI Soru-Cevap’ı kullanmaya başlama
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Hizmetlere bağlanma
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Çalışmanızı paylaşma
               items:
-                - name: Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?
+                - name: Nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Panolar ve raporlarla birlikte uygulama oluşturma ve dağıtma
+                - name: Panoları ve raporları paylaşma
+                  href: service-share-dashboards.md
+                - name: Uygulama çalışma alanları oluşturma
+                  href: service-create-workspaces.md
+                - name: Yeni çalışma alanları oluşturma (önizleme)
+                  href: service-create-the-new-workspaces.md
+                - name: Panolar ve raporlar içeren uygulamalar yayımlama
                   href: service-create-distribute-apps.md
                 - name: Filtrelenmiş rapor paylaşma
                   href: service-share-reports.md
