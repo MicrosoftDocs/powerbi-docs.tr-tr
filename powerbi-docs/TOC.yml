@@ -682,6 +682,8 @@
           items:
             - name: Raporlar için görsel öğeler
               href: desktop-visual-elements-for-reports.md
+            - name: PDF’ye dışarı aktarma ve raporları yazdırma
+              href: desktop-export-to-pdf.md
             - name: Power BI Desktop’ta Soru-Cevap
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop'taki Analiz bölmesi
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: Şirket içi veri ağ geçidi (kişisel mod)
           href: service-gateway-personal-mode.md
+        - name: Özel Bağlayıcılar
+          href: service-gateway-custom-connectors.md
         - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
           href: service-gateway-onprem-tshoot.md
 - name: Yönetim
