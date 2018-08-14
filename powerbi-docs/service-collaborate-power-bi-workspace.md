@@ -3,24 +3,25 @@ title: Power BI uygulama çalışma alanınızda işbirliği yapma
 description: Office 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak uygulama çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245466"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623942"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
-Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. Çalışma alanları tam olarak işbirliği yapabilmeniz için tasarlanmıştır. İş arkadaşlarınızla birlikte pano ve raporlarınızda işbirliği yaptıktan sonra çalışma alanını bir uygulama olarak paket haline getirip dağıtabilirsiniz. [Power BI'da uygulama ve uygulama çalışma alanları oluşturma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin. 
+Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. İşbirliği Power BI'daki çalışma alanları ile sınırlı değildir. Office 365, gruplar için OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, paylaşılan takvim ve görevler gibi başka hizmetler de sunar. [Office 365'teki gruplar](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) hakkında daha fazla bilgi edinin.
 
-İşbirliği Power BI'daki çalışma alanları ile sınırlı değildir. Office 365, gruplar için OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, paylaşılan takvim ve görevler gibi başka hizmetler de sunar. [Office 365'teki gruplar](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) hakkında daha fazla bilgi edinin.
+> [!NOTE]
+> Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
 
 Uygulama çalışma alanları yalnızca [Power BI Pro](service-free-vs-pro.md) ile kullanılabilir.
 

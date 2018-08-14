@@ -3,33 +3,30 @@ title: Kurumsal içerik paketi oluşturma ve yayımlama - Power BI
 description: Bu eğitim kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, erişimi belirli bir grup ile sınırlayacak ve içerik paketini, kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598629"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624264"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI kurumsal içerik paketi oluşturma ve yayımlama (eğitim)
-> [!NOTE]
-> Yeni *uygulamalardan* haberiniz var mı? Uygulamalar, Power BI'da geniş kitlelere içerik dağıtmak için kullanılan yeni yöntemdir. Kurumsal içerik paketlerini kullanımdan kaldırmayı planladığımız için, bunlar yerine uygulamaları kullanmanız önerilir. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
-> 
-> 
 
 Bu eğitim kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, belirli bir gruba erişim izni sağlayacak ve içerik paketini kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız.
 
 İçerik paketi oluşturma, pano paylaşmaktan veya bir grupta panolar üzerinde işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) bölümünü okuyun.
 
+Kurumsal içerik paketleri oluşturabilmek için bir [Power BI Pro hesabına](https://powerbi.microsoft.com/pricing) sahip olunması gerekir. 
+
 > [!NOTE]
-> Kurumsal içerik paketleri oluşturabilmek için bir [Power BI Pro hesabına](https://powerbi.microsoft.com/pricing) sahip olunması gerekir.
-> 
+> Yeni çalışma alanı deneyimi önizlemesinde kurumsal içerik paketleri oluşturamaz veya yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
 > 
 
 Contoso'da Yayın Yöneticisi olduğunuzu ve yeni bir ürün lansmanı için hazırlandığınızı hayal edin.  Raporlar içeren bir pano oluşturuyor ve bu panoyu, ürün lansmanını yöneten diğer çalışanlarla paylaşmak istiyorsunuz. Panoyu ve raporları iş arkadaşlarınıza paket halinde bir çözüm olarak sunmak istiyorsunuz. 

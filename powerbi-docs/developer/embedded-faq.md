@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032083"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415404"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -63,29 +63,32 @@ Power BI Embedded ise bir Hizmet olarak Platform teklifinde katıştırılmış 
 
 Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir liste sunulmaktadır.
 
-|Öne çıkan özelliği  |Power BI Embedded<br>(A SKU'lar) |Power BI Premium Kapasitesi<br>(EM SKU'lar)  | 
-|---------|---------|---------|
-|Power BI Uygulaması çalışma alanlarından yapıtları ekleme     |Azure kapasitesi |Office 365 kapasitesi |
-|Raporların kullanılabilmesi için Power BI lisansı gereklidir |Hayır  |Evet |
-|Katıştırılmış uygulamada Power BI raporlarını kullanma |Evet  |Evet |
-|Power BI raporlarını SharePoint'te kullanma |Hayır |Evet |
-|Power BI raporlarını Teams'de kullanma |Hayır |Evet |
+| Öne çıkan özelliği | Power BI Embedded | Power BI Premium Kapasitesi | Power BI Premium Kapasitesi |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A SKU'lar) | (EM SKU'lar) | (P SKU'lar) |
+| Power BI Uygulaması çalışma alanlarından yapıtları ekleme | Azure kapasitesi | Office 365 kapasitesi | Office 365 kapasitesi |
+| Katıştırılmış uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
+| Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
+| Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
+| Power BI raporlarını Teams'de kullanma | Hayır | Evet | Evet |
+| ÜCRETSİZ Power BI lisansıyla içeriklere Powerbi.com ve Power BI mobilden erişme | Hayır | Hayır | Evet |
+| MS Office uygulamalarına eklenmiş ÜCRETSİZ Power BI lisansıyla içeriklere erişme | Hayır | Evet | Evet |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI artık katıştırma için üç SKU sunar: A SKU, EM SKU ve P SKU. Benim durumumda hangisini satın almalıyım?
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma     |Azure portalı |Office |Office |
-|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer SaaS uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer SaaS uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme<br>* [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
+|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme<br>* [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
 
-- Kuruluş dizininizde oturum açmanız gerekir (MSA hesapları desteklenmez).
-- Bir Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’ye kaydolmuş olması gerekir. 
-- Kuruluş dizininizde bir Azure aboneliğinizin olması gerekir.
+* Kuruluş dizininizde oturum açmanız gerekir (MSA hesapları desteklenmez).
+* Bir Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’ye kaydolmuş olması gerekir. 
+* Kuruluş dizininizde bir Azure aboneliğinizin olması gerekir.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Kapasite tüketimini nasıl izleyebilirim?
 
@@ -213,6 +216,8 @@ Power BI Embedded dağıtılan düğüm türlerine dayalı tahmini bir saatlik �
 Bir Power BI çalışma alanına rapor eklemesi gereken tüm analistlerin, REST API'leri kullanılmasını gerektiren tüm geliştiricilerin, Power BI kiracısını ve kapasitesini yönetmesi gereken tüm kiracı yöneticilerinin bir Power BI Pro lisansı alması gerekir.
 
 Power BI Embedded katıştırılan içeriği yönetmek ve doğrulamak için Power BI kullanılmasına olanak tanıdığından doğru depolarda raporlara erişmek üzere PowerBI.com'da Uygulama kimliğini doğrulamak için Power BI Pro lisansı gereklidir.
+
+Bununla birlikte, kendi uygulamasının içinde [ekli raporlar oluşturmak/düzenlemek](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) için, son kullanıcının bir Pro lisansına ihtiyacı yoktur, hatta bir Power BI kullanıcısı bile olması gerekmez.
 
 ### <a name="can-i-get-started-for-free"></a>Ücretsiz olarak başlayabilir miyim?
 

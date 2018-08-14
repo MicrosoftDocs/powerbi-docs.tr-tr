@@ -3,24 +3,23 @@ title: 'Kurumsal içerik paketleri: Yönetme ve güncelleştirme'
 description: Power BI'da kurumsal içerik paketlerini yönetme, güncelleştirme ve silme hakkında bilgi edinin.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182806"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624333"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
-> Yeni *uygulamalardan* haberiniz var mı? Uygulamalar, Power BI'da geniş kitlelere içerik dağıtmak için kullanılan yeni yöntemdir. Kurumsal içerik paketlerini kullanımdan kaldırmayı planladığımız için, bunlar yerine uygulamaları kullanmanız önerilir. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
-> 
+> Yeni çalışma alanı deneyimi önizlemesinde kurumsal içerik paketleri oluşturamaz veya bunları yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
 > 
 
 Panolarınızı, raporlarınızı, Excel çalışma kitaplarınızı ve veri kümelerinizi [kurumsal içerik paketleri](service-organizational-content-pack-introduction.md) olarak paketleyip iş arkadaşlarınızla paylaşabilirsiniz. İş arkadaşlarınız bunları olduğu gibi kullanabilir veya kendi kopyalarını oluşturabilir.

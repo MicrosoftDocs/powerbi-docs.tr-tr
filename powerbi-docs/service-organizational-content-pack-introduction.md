@@ -3,24 +3,23 @@ title: Power BI'da kurumsal içerik paketlerine giriş
 description: Panolarınızı, raporlarınızı, Excel çalışma kitaplarınızı ve veri kümelerinizi, iş arkadaşlarınızla paylaşabileceğiniz kurumsal içerik paketleri haline getirme hakkında bilgi edinin.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852360"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624310"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
-> Yeni *uygulamalardan* haberiniz var mı? Uygulamalar, Power BI'da geniş kitlelere içerik dağıtmak için kullanılan yeni yöntemdir. Kurumsal içerik paketlerini kullanımdan kaldırmayı planladığımız için, bunlar yerine uygulamaları kullanmanız önerilir. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
-> 
+> Yeni çalışma alanı deneyimi önizlemesinde kurumsal içerik paketleri oluşturamaz veya bunları yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
 > 
 
 Raporları ekibinize düzenli olarak dağıtmak için e-postaları mı kullanırsınız? E-posta yerine şunu deneyin: Panolarınızı, raporlarınızı, Excel çalışma kitaplarınızı ve veri kümelerinizi paketleyip bunları *kurumsal içerik paketi* olarak ekibinize yayımlayın. Ekibiniz, oluşturduğunuz içerik paketlerini kolaylıkla bulabilir &#151; paketlerin tümü AppSource'ta bulunur. Power BI'ın parçası olduklarından etkileşimli veri araştırma, yeni görseller, Soru-Cevap, diğer veri kaynaklarıyla tümleştirme, veri yenileme ve daha fazlası dahil olmak üzere tüm Power BI özelliklerinden yararlanırlar.

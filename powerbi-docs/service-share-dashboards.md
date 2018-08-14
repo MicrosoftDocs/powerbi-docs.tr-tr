@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299068"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624404"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ Yalnızca pano veya rapor sahibi, yeniden paylaşımı etkinleştirebilir veya d
 
 4. **Erişimi kaldır** iletişim kutusunda, ilgili içeriğe (raporlar ve veri kümeleri gibi) erişimi kaldırmak isteyip istemediğinize karar verin. Uyarı simgesine ![Power BI uyarı simgesi](media/service-share-dashboards/power-bi-warning-icon.png) sahip bir öğeyi kaldırmanız durumunda ilgili içerik düzgün bir şekilde görüntülenmeyeceğinden bu içeriği silmenizde yarar vardır.
 
+    ![Power BI paylaşım uyarısı iletişim kutusu](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Bir panoyu veya raporu kuruluşunuz dışındaki kişilerle paylaşma
 Kuruluşunuz dışındaki kişilerle bir paylaşımda bulunduğunuzda bu kişiler, paylaşılan panonun veya raporun bağlantısını içeren bir e-posta alır ve bu kişilerden panoyu veya raporu görmek için Power BI'da oturum açmaları istenir. Power BI Pro lisansları yoksa bağlantıya tıkladıktan sonra bir lisansa kaydolabilirler.
 
@@ -145,6 +147,8 @@ Bu durumda bu kişilere, temel alınan veri kümesine yönelik erişim izni verm
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Bir pano veya raporu paylaşamıyorum
 
 Bir panoyu veya raporu paylaşmak için, temel alınan içeriği (ilgili tüm raporlar ve veri kümeleri) yeniden paylaşma iznine sahip olmanız gerekir. Paylaşım yapamayacağınızı belirten bir iletiyle karşılaşırsanız raporun yazarından size söz konusu raporlar ve veri kümeleri için yeniden paylaşma izni vermesini isteyin.
+
+!["Paylaşılamadı" iletisi](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -3,22 +3,25 @@ title: Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 description: Power BI'daki uygulama çalışma alanları, Office 365 grupları temel alınarak oluşturulmuş bir işbirliği deneyimi sunar. Uygulama çalışma alanlarınızı hem Power BI'da hem de Office 365'te yönetebilirsiniz.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965217"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624356"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-install-use-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
+
+> [!NOTE]
+> Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
 
 **Power BI'da** gerçekleştirebileceğiniz işlemler:
 
@@ -38,7 +41,7 @@ Uygulama çalışma alanının yöneticisi veya üyesi olabilmek için [Power BI
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI'da uygulama çalışma alanınızı düzenleme
 1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Çalışma alanını düzenle**'yi seçin. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > **Çalışma alanını düzenle** seçeneğini yalnızca uygulama çalışma alanı yöneticileri görebilir.
@@ -46,34 +49,34 @@ Uygulama çalışma alanının yöneticisi veya üyesi olabilmek için [Power BI
    > 
 2. Buradan üyelerle ilgili yeniden adlandırma, ekleme veya kaldırma işlemlerini gerçekleştirebilir ya da uygulama çalışma alanını silebilirsiniz. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![Çalışma alanını düzenle iletişim kutusu](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. **Kaydet**'i veya **İptal**'i seçin.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Office 365'te Power BI uygulama çalışma alanı özelliklerini düzenleme
 1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Üyeler**'i seçin. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Uygulama çalışma alanınıza ait Office 365 için Outlook grup görünümü açılır.
    
    Kurumsal hesabınızda oturum açmanız gerekebilir.
 2. Yönetici yapmak veya uygulama çalışma alanından silmek istediğiniz üyenin adının yanındaki üç nokta (**…**) simgesine dokunun. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Office 365'te grubu düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>Office 365 grubunda resim ekleme ve diğer çalışma alanı özelliklerini ayarlama
-Uygulamanızı, uygulama çalışma alanından dağıttığınızda burada eklediğiniz resim, uygulamanın resmi olur. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) makalesinin [Add an image to your app (Uygulamanıza resim ekleme)](service-create-distribute-apps.md#add-an-image-to-your-app-optional) bölümünü inceleyin.
+Uygulamanızı, uygulama çalışma alanından dağıttığınızda burada eklediğiniz resim, uygulamanın resmi olur. [Yeni çalışma alanları oluşturma](service-create-workspaces.md) makalesinin [Uygulamanıza resim ekleme](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) bölümüne bakın.
 
 1. Uygulama çalışma alanınızın Office 365 için Outlook görünümünde, grup çalışma alanı özelliklerini düzenlemek için grup resmini seçin.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![Grubu düzenle düğmesi](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. Burada adı, açıklamayı ve dili düzenleyebilir, resim ekleyebilir ve diğer özellikleri ayarlayabilirsiniz.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![Grubu düzenle iletişim kutusu](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. **Kaydet**'i veya **At**'ı seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI uygulamaları nelerdir?](service-install-use-apps.md)
-* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
+* [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

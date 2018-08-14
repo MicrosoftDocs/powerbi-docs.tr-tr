@@ -3,29 +3,29 @@ title: Kurumsal içerik paketleri bulma ve bunlara bağlanma - Power BI
 description: Power BI'da kurumsal içerik paketi bulma ve açma
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280237"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624287"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Kurumsal içerik paketleri bulma ve bunlara bağlanma
-> [!NOTE]
-> Yeni *uygulamalardan* haberiniz var mı? Uygulamalar, Power BI'da geniş kitlelere içerik dağıtmak için kullanılan yeni yöntemdir. Kurumsal içerik paketlerini kullanımdan kaldırmayı planladığımız için, bunlar yerine uygulamaları kullanmanız önerilir. [Uygulamalar hakkında daha fazla bilgi](service-install-use-apps.md) edinin.
-> 
-> 
 
 Kuruluşunuzda herhangi birisi, dahil olduğunuz dağıtım veya güvenlik gruplarında ya da [Office 365 gruplarında](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) kurumsal içerik paketi yayımladığında bu paket AppSource'ta görünür.  Kurumsal içerik paketlerini bulmak ve açmak için AppSource'a göz atın veya burada arama yapın.
 
-İçerik paketi oluşturma, pano paylaşmaktan veya bir grupta bunlar üzerinde işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) bölümünü okuyun.
+İçerik paketi oluşturma, pano paylaşmaktan veya bir grupta bunlar üzerinde işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) makalesini okuyun.
+
+> [!NOTE]
+> Yeni çalışma alanı deneyimi önizlemesinde kurumsal içerik paketleri oluşturamaz veya yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Kurumsal içerik paketi bulma
 [Power BI Pro](https://powerbi.microsoft.com/pricing) kullanıcılarının tümü AppSource'a gidebilir; AppSource tüm kuruluşla, dahil oldukları dağıtım veya güvenlik gruplarıyla ve Office 365 gruplarıyla paylaşılan içerik paketlerini görüntüler.  

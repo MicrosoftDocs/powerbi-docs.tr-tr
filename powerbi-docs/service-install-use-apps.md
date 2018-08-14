@@ -3,29 +3,30 @@ title: Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları 
 description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242747"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624380"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](service-connect-to-services.md) de Power BI uygulamaları sunar. 
 
 ![Power BI'daki uygulamalar](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.
+Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.
 
 Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz. 
 
-Bir uygulama yazmayı mı planlıyorsunuz? Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve yayımlama](service-create-distribute-apps.md).
+Bir uygulama yazmayı mı planlıyorsunuz? Daha fazla bilgi için bkz. [Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Yeni bir uygulama alma
 Uygulamaları birkaç farklı yolla alabilirsiniz. Uygulama yazarı Power BI hesabınıza uygulamayı otomatik olarak yükleyebilir veya size bir uygulamanın doğrudan bağlantısını gönderebilir, alternatif olarak erişiminiz olan tüm uygulamaları gördüğünüz AppSource'ta uygulamayı arayabilirsiniz. Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
@@ -41,7 +42,7 @@ E-postadaki bağlantıya tıkladığınız zaman Power BI hizmeti ([https://powe
 
 **iOS veya Android mobil cihazınızda** 
 
-Mobil cihazınızda e-postadaki bağlantıya tıkladığınız zaman uygulama otomatik olarak yüklenir ve uygulama içerik listesini açar. 
+Mobil cihazınızda e-postadaki bağlantıya tıkladığınız zaman uygulama otomatik olarak yüklenir ve mobil uygulamada uygulama içerik listesini açar. 
 
 ![Mobil cihazda uygulama içerik listesi](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ Ayrıca, erişiminiz olan tüm uygulamaları Microsoft AppSource'ta bulabilir ve
 3. Uygulamalar sayfanıza eklemek için **Şimdi edinin**'i seçin. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Uygulamadaki panolarla ve raporlarla etkileşim kurma
-Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. [Power BI'da raporlarla etkileşim kurma](service-reading-view-and-editing-view.md) ile ilgili bilgi edinin. 
-
-Yaptığınız değişiklikleri kaydedemezsiniz ancak her zaman bir rapordaki tablodan veya diğer bir görselden [verileri Excel'e aktarabilirsiniz](power-bi-visualization-export-data.md).
+Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. Ayrıca rapordaki tablodan veya başka bir görselden [verileri Excel'e aktarabilirsiniz](power-bi-visualization-export-data.md). [Power BI'da raporlarla etkileşim kurma](service-reading-view-and-editing-view.md) ile ilgili bilgi edinin. 
 
 ![Bir Power BI görselinden verileri dışarı aktarma](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulama oluşturma ve yayımlama](service-create-distribute-apps.md)
