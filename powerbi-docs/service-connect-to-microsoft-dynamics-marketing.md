@@ -54,7 +54,7 @@ Power BI için [Dynamics Marketing içerik paketine](https://app.powerbi.com/get
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 * Dynamics Marketing örneği için geçerli bir OData URL'si belirtmeniz gerekir (İçerik paketi şirket içi CRM sürümü ile çalışmaz).  
-* Bir yöneticinin, site ayarları bölümünde OData uç noktasını etkinleştirmesi gerekir. OData uç noktası adresini, **Giriş Sayfası \> Ayarlar \> Site Ayarları** sayfasının **Kuruluş Veri Servisi** bölümünde bulabilirsiniz.  OData URL'si şu biçimdedir: https:// [örnek\_adı].marketing.dynamics.com/analytics  
+* Bir yöneticinin, site ayarları bölümünde OData uç noktasını etkinleştirmesi gerekir. OData uç noktası adresini, **Giriş Sayfası \> Ayarlar \> Site Ayarları** sayfasının **Kuruluş Veri Servisi** bölümünde bulabilirsiniz.  OData URL'si şu biçimdedir: https://[örnek\_adı].marketing.dynamics.com/analytics  
 * Microsoft Dynamics Marketing'e erişmek için kullandığınız kullanıcı hesabı/kimliği, Power BI'a kaydolduğunuz kullanıcı adıyla aynı olmalıdır. Microsoft Dynamics Marketing oturumunuz, otomatik olarak, Power BI için kullandığınız kimlikle açılır. Microsoft Dynamics Marketing'de farklı bir hesapla oturum açmak istiyorsanız lütfen Power BI'a söz konusu hesapla kaydolun. Gelecek sürümde bu sorunun çözüleceğini umuyoruz.   
 
 ## <a name="troubleshooting"></a>Sorun giderme
