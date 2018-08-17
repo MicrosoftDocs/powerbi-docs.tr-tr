@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327833"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657978"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -113,6 +113,33 @@ Bir nesneye yer işareti atamak için nesneyi seçin, ardından aşağıdaki gö
 Nesne bağlantılı yer işaretlemesi ile pek çok ilgi çekici işlem yapabilirsiniz. Sadece bir nesneye tıklayarak rapor sayfanızdaki görsellere ilişkin bir içindekiler tablosu oluşturabilir veya aynı bilgilerle farklı görünümler (görsel türleri gibi) sağlayabilirsiniz.
 
 Bağlantıyı açmak için, düzenleme modundayken CTRL tuşuna basıp bağlantıya tıklayabilirsiniz; düzenleme modunda değilseniz açmak için bağlantıya tıklamanız yeterlidir. 
+
+## <a name="bookmark-groups"></a>Yer işareti grupları
+
+**Power BI Desktop** uygulamasının Ağustos 2018 sürümünden itibaren yer işareti grupları oluşturabilir ve kullanabilirsiniz. Yer işareti grubu belirttiğiniz yer işaretlerinden oluşan ve grup halinde gösterilip düzenlenebilen bir koleksiyondur. 
+
+Yer işareti grubu oluşturmak için CTRL tuşunu basılı tutarken gruba dahil etmek istediğiniz yer işaretlerini seçin ve ardından seçtiğiniz yer işaretlerinden birinin yanındaki üç noktaya tıklayıp açılan menüden **Grup** seçeneğini belirtin.
+
+![Yer işareti grubu oluşturma](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop**, gruba otomatik olarak *Grup 1* adını verir. Elbette ada çift tıklayarak istediğiniz gibi değiştirebilirsiniz.
+
+![Yer işareti grubunu yeniden adlandırma](media/desktop-bookmarks/bookmarks_16.png)
+
+Herhangi bir yer işareti grubunun adına tıkladığınızda grup genişletilir veya daraltılır ve tek bir yer işareti gösterilmez. 
+
+Yer işaretlerinin **Görüntüle** özelliğini kullandığınızda aşağıdaki işlemler gerçekleşir:
+
+* Seçilen yer işareti bir grubun içindeyse **Görüntüle** seçeneğini belirlediğinizde görüntüleme oturumunda yalnızca *bu gruptaki* yer işaretleri gösterilir. 
+
+* Seçilen yer işareti bir grup değilse veya en üst düzeydeyse (yer işareti grubunun adı gibi) gruptaki yer işaretleri dahil olmak üzere rapordaki tüm yer işaretleri oynatılır. 
+
+Yer işaretleri grubunu çözmek için gruptaki yer işaretlerinden birini seçin, üç noktaya tıklayın ve açılan menüden **Grubu çöz**'ü seçin. 
+
+![Yer işareti grubunu çözme](media/desktop-bookmarks/bookmarks_17.png)
+
+Gruptaki bir yer işaretinden **Grubu çöz**'ü seçtiğinizde tüm yer işaretlerinin gruptan çıkarılacağını unutmayın (grup silinir ancak yer işaretleri silinmez). Gruptaki yer işaretlerinden birini kaldırmak isterseniz grup üyelerinden birinden **Grubu çöz**'ü seçerek grubu silmeniz ve ardından grupta olmasını istediğiniz üyeleri seçip (CTRL tuşuna basılı tutup tıklayarak) tekrar **Grup** öğesini seçmeniz gerekir. 
+
 
 ## <a name="using-spotlight"></a>Spotlight'ı kullanma
 Yer işaretleri ile gelen bir diğer özellik de **Spotlight**'tır. Örneğin, **Görünüm** modunda yer işaretlerinizin sunumunu yaparken **Spotlight** ile ilgiyi belirli bir grafiğe çekebilirsiniz.

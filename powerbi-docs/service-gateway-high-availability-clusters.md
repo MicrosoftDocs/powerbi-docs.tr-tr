@@ -2,26 +2,26 @@
 title: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
 description: Kuruluşunuz için yüksek kullanılabilirlik sağlamak üzere Şirket içi veri ağ geçidi kümeleri oluşturabilirsiniz.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/05/2017
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032037"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658001"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
+
 Kuruluşunuzun Power BI raporlarında ve panolarında kullanılan şirket içi veri kaynaklarına erişebildiğinden emin olmak için **Şirket içi veri ağ geçidi** yüklemelerinin **yüksek kullanılabilirlik kümelerini** oluşturabilirsiniz. Bu tür kümeler, yöneticilerin şirket içi veri kaynaklarına erişirken tek hata noktalarından kaçınmak için ağ geçitlerini gruplandırmasına olanak sağlar. Power BI hizmeti, kümedeki birincil ağ geçidi kullanım dışı olmadığı sürece bunu kullanır. Kullanım dışı olduğunda kümedeki bir sonraki ağ geçidine geçer ve bu düzende ilerler.
 
 Bu makalede, Şirket içi veri ağ geçitlerinin yüksek kullanılabilirlik kümelerini oluşturmak için izleyebileceğiniz adımlar ve bunları ayarlamaya yönelik en iyi uygulamalar açıklanmaktadır. Yüksek kullanılabilirlik ağ geçidi kümeleri, Şirket içi veri ağ geçidinin Kasım 2017 güncelleştirmesine veya üzerine sahip olmasını gerektirir.
-
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Ağ geçitlerinin yüksek kullanılabilirlik kümelerini ayarlama
 
@@ -31,14 +31,19 @@ Bu makalede, Şirket içi veri ağ geçitlerinin yüksek kullanılabilirlik küm
 
 Ağ geçidini mevcut bir kümeye eklemek için, yeni ağ geçidini eklemek istediğiniz kümenin birincil ağ geçidi örneğine yönelik *Kurtarma anahtarını* sağlamanız gerekir. Kümenin birincil ağ geçidinin Kasım 2017 ağ geçidi güncelleştirmesini veya üzerini çalıştırıyor olması gerekir. 
 
-
 ## <a name="managing-a-gateway-cluster"></a>Ağ geçidi kümesini yönetme
 
-Bir ağ geçidi kümesi iki veya daha fazla ağ geçidinden oluştuğunda, veri kaynağı ekleme veya bir ağ geçidine yönetici izinleri verme gibi tüm ağ geçidi yönetimi işlemleri kümenin parçası olan tüm ağ geçitlerine uygulanır. 
+Bir ağ geçidi kümesi iki veya daha fazla ağ geçidinden oluştuğunda, veri kaynağı ekleme veya bir ağ geçidine yönetici izinleri verme gibi tüm ağ geçidi yönetimi işlemleri kümenin parçası olan tüm ağ geçitlerine uygulanır.
 
 Yöneticiler **Power BI hizmetinde** dişli simgesi altında bulunan **Ağ geçitlerini yönet** menü öğesini kullandığında, kayıtlı kümelerin veya ayrı ağ geçitlerinin bir listesini görür ancak kümenin üyesi olan ağ geçidi örneklerini tek tek görmez.
 
 Tüm yeni **Zamanlanan Yenileme** istekleri ve DirectQuery işlemleri otomatik olarak belirli bir ağ geçidi kümesinin birincil örneğine yönlendirilir. Birincil ağ geçidi örneği çevrimiçi değilse, istek kümedeki başka bir ağ geçidi örneğine yönlendirilir.
+
+## <a name="distribute-requests-traffic-across-all-gateways-in-a-cluster"></a>İstek trafiğini bir kümedeki tüm ağ geçitlerine dağıtma
+
+Trafiğin bir kümedeki tüm ağ geçitlerine dağıtılmasını tercih edebilirsiniz. **Power BI hizmetindeki** **Ağ geçitlerini yönet** sayfasının sol tarafındaki listede bulunan ağ geçidi kümelerinden birine tıklayarak "İstekleri bu kümedeki tüm etkin ağ geçitlerine dağıtın." seçeneğini etkinleştirebilirsiniz.
+
+![Yük dengeleme](media/service-gateway-high-availability-clusters/gateway-onprem-loadbalance.png)
 
 ## <a name="powershell-support-for-gateway-clusters"></a>Ağ geçidi kümeleri için PowerShell desteği
 
@@ -64,17 +69,16 @@ Tabloda PowerShell komutlarını çalıştırmak için, önce aşağıdaki adım
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 
-Bu adımlar tamamlandığında, ağ geçidi kümelerinizi yönetmek için aşağıdaki tablodaki komutları kullanabilirsiniz
+Bu adımlar tamamlandığında, ağ geçidi kümelerinizi yönetmek için aşağıdaki tablodaki komutları kullanabilirsiniz.
 
 | **Komut** | **Açıklama** | **Parametreler** |
 | --- | --- | --- |
 | *Login-OnPremisesDataGateway* |Bu komut, kullanıcının Şirket içi veri ağ geçidi kümelerini yönetmek için oturum açmasına olanak sağlar.  Diğer yüksek kullanılabilirlik komutlarının düzgün çalışması için *önce* bu komutu çalıştırarak oturum açmanız gerekir. Not: Oturum açma çağrısının parçası olarak alınan AAD kimlik doğrulama belirteci 1 saat boyunca geçerlidir ve daha sonra süresi dolar. Yeni bir belirteç almak için Login komutunu yeniden çalıştırabilirsiniz.| AAD kullanıcı adı ve parolası (ilk çağırmanın değil komut yürütmenin parçası olarak sağlanır)|
-| *Get-OnPremisesDataGatewayClusters* | Oturum açan kullanıcı için ağ geçidi kümelerinin listesini alır. | İsteğe bağlı olarak, daha iyi okunabilirlik için bu komuta *Format-Table -AutoSize -Wrap* gibi biçimlendirme parametreleri geçirebilirsiniz |
+| *Get-OnPremisesDataGatewayClusters* | Oturum açan kullanıcı için ağ geçidi kümelerinin listesini alır. | İsteğe bağlı olarak, daha iyi okunabilirlik için bu komuta *Format-Table -AutoSize -Wrap* gibi biçimlendirme parametreleri geçirebilirsiniz. |
 | *Get-OnPremisesDataClusterGateways* | Belirtilen küme içindeki ağ geçitlerinin listesini ve her bir ağ geçidi için ek bilgileri (çevrimiçi/çevrimdışı olma durumu, makine adı vb.) alır | *-ClusterObjectID xyz*  (burada *xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilir)|
-| *Set-OnPremisesDataGateway* | Bir küme içindeki belirli bir ağ geçidi için, belirli ağ geçidi örneğini Etkinleştirme/Devre Dışı Bırakma dahil, özellik değerlerini ayarlamanıza olanak sağlar  | *-ClusterObjectID xyz* (*xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilmelidir) *-GatewayObjectID abc*  (*abc*, belirli bir küme nesnesi kimliği için *Get-OnPremisesDataClusterGateways* komutu kullanılarak alınabilen gerçek bir ağ geçidi nesnesi kimliği değeriyle değiştirilmelidir) |
+| *Set-OnPremisesDataGateway* | Bir küme içindeki belirli bir ağ geçidi için, belirli ağ geçidi örneğini Etkinleştirme/Devre Dışı Bırakma dahil, özellik değerlerini ayarlamanıza olanak sağlar  | *-ClusterObjectID xyz* (*xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilmelidir) *-GatewayObjectID abc* (*abc*, belirli bir küme nesnesi kimliği için *Get-OnPremisesDataClusterGateways* komutu kullanılarak alınabilen gerçek bir ağ geçidi nesnesi kimliği değeriyle değiştirilmelidir) |
 | *Get-OnPremisesDataGatewayStatus* | Bir küme içindeki belirli bir ağ geçidi örneğinin durumunu almanıza olanak sağlar  | *-ClusterObjectID xyz* (*xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilmelidir) *-GatewayObjectID abc*  (*abc*, belirli bir küme nesnesi kimliği için *Get-OnPremisesDataClusterGateways* komutu kullanılarak alınabilen gerçek bir ağ geçidi nesnesi kimliği değeriyle değiştirilmelidir) |
 | *Remove-OnPremisesDataGateway*  | Bir kümeden bir ağ geçidi örneğini kaldırmanıza olanak sağlar. Kümedeki diğer tüm ağ geçitleri kaldırılmadan kümedeki birincil ağ geçidinin kaldırılamayacağına dikkat edin.| *-ClusterObjectID xyz* (*xyz*, *Get-OnPremisesDataGatewayClusters* komutu kullanılarak alınabilen gerçek bir küme nesnesi kimliği değeriyle değiştirilmelidir) *-GatewayObjectID abc*  (*abc*, belirli bir küme nesnesi kimliği için *Get-OnPremisesDataClusterGateways* komutu kullanılarak alınabilen gerçek bir ağ geçidi nesnesi kimliği değeriyle değiştirilmelidir) |
-
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

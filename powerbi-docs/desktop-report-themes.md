@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
+title: Power BI Desktop'ta Rapor Temalarını Kullanma
 description: Power BI Desktop'ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721191"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657955"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Bir **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. D
 
 **Power BI Desktop**'ın Eylül 2017 sürümüyle birlikte bir JSON dosyası kullanarak daha da fazla rapor teması öğesi tanımlayabilir ve **Biçimlendirme** bölmesinde el ile ayarlayabileceğiniz JSON dosyasını kullanarak neredeyse tüm öğeleri özelleştirebilir ve standart hale getirebilirsiniz. Eylül 2017 ve sonrasında kullanıma sunulan sürümlerin amacı, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
 
-### <a name="enable-report-themes-in-preview"></a>Önizlemedeki Rapor Temaları Özelliğini Etkinleştirme
-**Power BI Desktop**'ın **Mart 2017** sürümünden itibaren yeni **Rapor Temaları** özelliğini deneyebilirsiniz. Bu önizleme özelliğini etkinleştirmek için **Dosya > Seçenekler ve ayarlar > Seçenekler > Önizleme özellikleri**'ni ve ardından **Özel rapor temaları**'nın yanındaki onay kutusunu seçin. Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerekir.
+### <a name="enable-report-themes"></a>Rapor Temalarını Etkinleştirme
+**Power BI Desktop** uygulamasının Ağustos 2018 sürümüyle rapor temaları genel kullanıma açılmıştır ve etkinleştirilmesi gerekmez. 
+
+**Power BI Desktop** uygulamasının eski sürümlerinden birini kullanıyorsanız **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** yolunu izleyip **Özel Rapor Temaları**'nı seçerek etkinleştirebilirsiniz. Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerekir.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
 
 ## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
 Bir Power BI Desktop raporuna Rapor Teması uygulamak için **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin, ardından açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.

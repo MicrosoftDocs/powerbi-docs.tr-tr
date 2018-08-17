@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329627"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658049"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
 **Power BI**'da veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca, panolarınızın ve raporlarınızın görünümünü denetlemenize olanak sağlayan x ve y eksenlerinin görünümünü de değiştirebilirsiniz.
 
 Başlamak için **Çalışma Alanım** bölmesinden bir **Rapor** seçin. Ardından, üstteki menü alanından **Raporu düzenle** seçeneğini belirleyin.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Raporları düzenlerken bir görselleştirme seçtiğinizde, görselleştirme eklemenize veya değiştirmenize olanak sağlayan **Görsel Öğeler** bölmesi görünür. Kullanılabilir görselleştirmelerin hemen altında üç simge bulunur: **Alanlar** simgesi (üst üste iki çubuk), **Biçim** simgesi (rulo fırça) ve **Analiz** simgesi (büyüteç). Aşağıdaki görüntüde **Alanlar** simgesi seçilidir ve bu seçim, simgenin altında sarı bir çizgi ile gösterilir.
@@ -28,6 +29,7 @@ Raporları düzenlerken bir görselleştirme seçtiğinizde, görselleştirme ek
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 **Biçim**'i seçtiğinizde simgenin altındaki alanda, geçerli durumda seçili olan görselleştirme için kullanılabilir renk ve eksen özelleştirmeleri görüntülenir.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 Her bir görselleştirme için birden çok öğeyi özelleştirebilirsiniz:
@@ -47,14 +49,13 @@ Her bir görselleştirme için birden çok öğeyi özelleştirebilirsiniz:
 > [!NOTE]
 >  
 > Bu öğelerin hepsini her görselleştirme türünde göremezsiniz. Kullanabileceğiniz özelleştirme türleri, seçtiğiniz görselleştirmeye göre değişir; örneğin, pasta grafiklerinde X ekseni bulunmadığı için pasta grafiği seçtiğinizde X ekseni öğesini göremezsiniz.
-> 
-> 
 
 Ayrıca, seçili bir görselleştirmeniz yoksa simgelerin yerinde, sayfadaki tüm görselleştirmelere filtre uygulamanıza olanak sağlayan **Filtreler** bölümü görünür.
 
 Şimdi, renklerle çalışma ve eksenlerin özelliklerini değiştirme ile ilgili iki örnek inceleyelim. Bu makaleyi okumayı bitirdiğinizde renkler, eksenler ve etiketleri istediğiniz ölçüde özelleştirebileceksiniz.
 
 ## <a name="working-with-colors"></a>Renklerle çalışma
+
 Bir grafikteki renkleri özelleştirmek için gerekli adımlara göz atalım.
 
 1. Rapor tuvalinden bir **Kümelenmiş Sütun Grafik** seçiyoruz.
@@ -76,6 +77,7 @@ Değişiklikler yandaki görüntüde gösterilmektedir. İşte size çok renkli 
 Yaptığınız değişikliği sevmediniz mi? Zaten alışkın olduğunuz bir yöntem olan **CTRL+Z** ile değişikliğinizi geri alabilirsiniz.
 
 ## <a name="changing-axis-properties"></a>Eksen özelliklerini değiştirme
+
 X ekseni ve Y eksenini değiştirmek genellikle kullanışlı bir işlemdir. Renkleri değiştirirken yaptığınız gibi bir ekseni de, aşağıdaki görüntüde gösterilen şekilde eksenin solundaki aşağı ok simgesini seçerek değiştirebilirsiniz.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ Geniş renk yelpazesinin yanı sıra Power BI raporlarına ve panolarına uygula
 > [!NOTE]
 >  
 > **Biçim** simgesi seçiliyken kullanılabilen bu renkler, eksenler ve ilgili özelleştirmeler Power BI Desktop'ta da kullanılabilir.
-> 
-> 
 
-## <a name="next-step"></a>Sonraki adım
+## <a name="setting-color-from-text-values"></a>Metin değerleriyle renk ayarlama
+
+**Power BI Desktop** uygulamasının Ağustos 2018 güncelleştirmesinden itibaren belirli bir rapor öğesinin rengini metin değeri veya onaltılık kod kullanarak ayarlayabilirsiniz. Daha fazla bilgi için lütfen [tablolarda koşullu biçimlendirme](desktop-conditional-table-formatting.md) sayfasına bakın.
+
+
+## <a name="next-steps"></a>Sonraki adımlar
 Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  
 
 * [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md)  
+* [Tablolarda koşullu biçimlendirme](desktop-conditional-table-formatting.md)
 

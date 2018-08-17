@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480900"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657817"
 ---
 # <a name="conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme 
 Tablolar için koşullu biçimlendirme sayesinde hücre değerlerine göre (veya başka değerlere ya da alanlara göre) özel hücre renkleri belirtebilir ve gradyan renklerini kullanabilirsiniz. Ayrıca, veri çubukları ile hücre değerlerini gösterebilirsiniz. 
@@ -24,7 +24,7 @@ Koşullu biçimlendirme seçeneklerine erişmek için Power BI Desktop'ın **Gö
 
 ![Koşullu biçimlendirme menüsü](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-Aşağıdaki bölümlerde bu üç koşullu biçimlendirme seçeneğinin her biri açıklanmaktadır. Tek bir tablo sütununda bir veya daha fazla seçenek birleştirilebilir.
+Aşağıdaki bölümlerde bu koşullu biçimlendirme seçeneklerinin her biri açıklanmaktadır. Tek bir tablo sütununda bir veya daha fazla seçenek birleştirilebilir.
 
 > [!NOTE]
 > Koşullu biçimlendirme bir tabloya uygulandığında, koşullu biçimlendirilmiş hücrelere uygulanmış olan özel tablo stillerini geçersiz kılar.
@@ -95,3 +95,43 @@ Varsayılan olarak, **Yalnızca çubuğu göster** seçeneği işaretli değildi
 **Yalnızca çubuğu göster** seçeneği işaretliyse tablo hücresi yalnızca çubuğu gösterir.
 
 ![Yalnızca veri çubukları içeren örnek tablo](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>Alan değerine göre renk biçimlendirme
+
+Metin değeri veya onaltılık kod kullanarak bir renk belirten bir ölçü veya sütun kullanabilir, bu rengi bir tablo veya matris görselinin arka planına veya yazı tipi rengine uygulayabilirsiniz. Ayrıca belirli bir alan için özel mantık oluşturabilir, bu mantığın yazı tipine veya arka plana istenen rengi uygulamasını sağlayabilirsiniz.
+
+Örneğin aşağıdaki tabloda her ürün modeliyle ilişkilendirilmiş bir renk vardır. 
+
+![Renk adına sahip ProductName alanı](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+Hücreyi alan değerine göre biçimlendirmek için görselin *Color* sütununa sağ tıklayıp **Koşullu biçimlendirme** iletişim kutusunu seçin ve bu örnek için menüden **Arka plan rengi**'ni seçin. 
+
+![Menüden arka plan rengini seçme](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+Aşağıdaki görüntüde gösterilen şekilde açılan iletişim kutusunun **Şuna göre biçimlendir** açılan menüsünden **Alan değeri**'ni seçin.
+
+![Alan değerine göre biçimlendirme](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+Bu işlemi yazı tipi rengi için tekrarlayabilirsiniz. Tamamladığınızda görselin **color** sütunu aşağıdaki ekran görüntüsünde gösterilen şekilde düz renk olur.
+
+![Alan değerine göre biçimlendirme](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+Tercih ettiğiniz koşullara göre farklı onaltılık kodlar oluşturan bir iş mantığını kullanan bir DAX hesaplaması da oluşturabilirsiniz. Bu durum genellikle koşullu biçimlendirme iletişim kutusundan birden fazla kural oluşturmaktan daha kolaydır. Aşağıdaki örnek görüntüde *ColorKPI* alanını inceleyin.
+
+![DAX hesaplamaları](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+Ardından **Arka plan rengi** değerini aşağıda gösterilen şekilde ayarlayabilirsiniz.
+
+![Alan rengini KPI değeri kullanarak ayarlama](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+Bunu yaptığınızda aşağıdaki matrise benzer sonuçlar elde edebilirsiniz.
+
+![KPI değerine göre renklendirilen matris görseli](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+Yalnızca hayal gücünüzü ve DAX bilginizi kullanarak birçok farklı kullanım oluşturabilirsiniz.
+
+## <a name="next-steps"></a>Sonraki adımlar
+Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  
+
+* [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md)  
+

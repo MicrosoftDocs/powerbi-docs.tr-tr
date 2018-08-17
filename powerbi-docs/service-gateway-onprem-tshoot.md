@@ -2,23 +2,24 @@
 title: Şirket içi veri ağ geçidi sorunlarını giderme
 description: Bu makalede, Şirket içi veri ağ geçidi ile ilgili sorunları gidermeye yönelik yöntemler açıklanmaktadır. Bilinen sorunlara ilişkin olası geçici çözümlerin yanı sıra bu işlemlerde size yardımcı olabilecek araçlara da yer verilmiştir.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/02/2018
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926617"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658024"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
-Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabileceğiniz bazı yaygın sorunlar ele alınmıştır.
+
+Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşılan bazı yaygın sorunlar ele alınmıştır.
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -27,46 +28,54 @@ Bu makalede, **Şirket içi veri ağ geçidini** kullanırken karşılaşabilece
 [!INCLUDE [gateway-onprem-tshoot-install-include](./includes/gateway-onprem-tshoot-install-include.md)]
 
 ## <a name="configuration"></a>Yapılandırma
+
 ### <a name="how-to-restart-the-gateway"></a>Ağ geçidini yeniden başlatma
-Ağ geçidi bir Windows hizmeti olarak çalıştırılır, böylece onu birçok şekilde başlatıp durdurabilirsiniz. Örneğin, ağ geçidinin çalıştırıldığı makinede, yükseltilmiş izinlerle bir komut istemi açabilir ve ardından bu komutlardan birini çalıştırabilirsiniz:
+
+Ağ geçidi bir Windows hizmeti olarak çalıştırılır, böylece onu birkaç farklı şekilde başlatıp durdurabilirsiniz. Örneğin, ağ geçidinin çalıştırıldığı makinede, yükseltilmiş izinlerle bir komut istemi açabilir ve ardından bu komutlardan birini çalıştırabilirsiniz:
 
 * Hizmeti durdurmak için şu komutu çalıştırın:
 
     '''   net stop PBIEgwService   '''
+
 * Hizmeti başlatmak için şu komutu çalıştırın:
 
     '''   net start PBIEgwService   '''
 
-### <a name="error-failed-to-create-gateway-please-try-again"></a>Hata: Ağ geçidi oluşturulamadı. Lütfen yeniden deneyin.
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Hata: Ağ geçidi oluşturulamadı. Tekrar deneyin
+
 Tüm ayrıntılar mevcut olmasına rağmen Power BI hizmetine yönelik çağrı bir hata döndürmüştür. Hata ile birlikte bir etkinlik kimliği görüntülenir. Bu farklı nedenlerden kaynaklanıyor olabilir. Daha ayrıntılı bilgi edinmek için, aşağıda açıklandığı üzere günlükleri toplayabilir ve gözden geçirebilirsiniz.
 
 Bu, ara sunucu yapılandırma sorunlarından kaynaklanıyor da olabilir. Kullanıcı arabirimi artık ara sunucu yapılandırmasına izin vermemektedir. [Ara sunucu yapılandırma işlemleri gerçekleştirme](service-gateway-proxy.md) hakkında daha fazla bilgi edinebilirsiniz
 
-### <a name="error-failed-to-update-gateway-details--please-try-again"></a>Hata: Ağ geçidi ayrıntıları güncelleştirilemedi.  Lütfen tekrar deneyin.
-Bilgiler Power BI hizmetinden alınıp ağ geçidine iletilmiştir. Bilgiler yerel Windows hizmetine iletilmiş ancak döndürülememiştir. Alternatif olarak, simetrik anahtar oluşturma işlemi başarısız olmuş olabilir. İç hata, **Ayrıntıları Göster** bölümünde görüntülenir. Daha ayrıntılı bilgi edinmek için, aşağıda açıklandığı üzere günlükleri toplayabilir ve gözden geçirebilirsiniz.
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Hata: Ağ geçidi ayrıntıları güncelleştirilemedi. Lütfen tekrar deneyin
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>Hata: Power BI hizmeti yerel ağ geçidine erişilemediğini bildirdi. Lütfen ağ geçidini yeniden başlatıp tekrar deneyin.
+Bilgiler Power BI hizmetinden alınıp ağ geçidine iletilmiştir. Bilgiler yerel Windows hizmetine iletilmiş ancak döndürülememiştir. Alternatif olarak, simetrik anahtar oluşturma işlemi başarısız olmuş olabilir. İç hata, **Ayrıntıları göster** bölümünde görüntülenir. Daha ayrıntılı bilgi edinmek için aşağıda açıklana şekilde günlükleri toplayabilir ve gözden geçirebilirsiniz.
+
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Hata: Power BI hizmeti yerel ağ geçidine erişilemediğini bildirdi. Ağ geçidini yeniden başlatıp tekrar deneyin
+
 Yapılandırma işleminin sonunda Power BI hizmeti, ağ geçidini doğrulamak için tekrar çağrılır. Power BI hizmeti, ağ geçidinin durumunu *canlı* olarak bildirmez. Windows hizmetinin yeniden başlatılması, iletişimin başarılı olmasını sağlayabilir. Daha ayrıntılı bilgi edinmek için, aşağıda açıklandığı üzere günlükleri toplayabilir ve gözden geçirebilirsiniz.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Power BI'da oturum açma sırasında karşılaşılan betik hatası
-Şirket içi veri ağ geçidi yapılandırması sırasında Power BI’da oturum açmak istediğinizde bir betik hatası ile karşılaşabilirsiniz. Aşağıdaki güvenlik güncelleştirmesini yüklediğinizde sorun çözülebilir. Bu, Windows Güncelleştirmesi aracılığıyla yüklenebilir.
+
+Şirket içi veri ağ geçidi yapılandırması sırasında Power BI’da oturum açmak istediğinizde bir betik hatası ile karşılaşabilirsiniz. Aşağıdaki güvenlik güncelleştirmesini yüklediğinizde sorun çözülecektir. Bu, Windows Güncelleştirmesi aracılığıyla yüklenebilir.
 
 [MS16-051: Internet Explorer için güvenlik güncelleştirmesi: 10 Mayıs 2016 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>Null başvuru özel durumu ile başarısız olan ağ geçidi yapılandırması
+
 Aşağıdakine benzer bir hata ile karşılaşabilirsiniz.
 
         Failed to update gateway details.  Please try again.
         Error updating gateway configuration.
 
-Buna bir yığın izlemesi de dahildir ve bu yığın izlemesi aşağıdakileri içerebilir.
+Buna bir yığın izlemesi de dahildir ve bu yığın izlemesi aşağıdaki iletiyi içerebilir.
 
         Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.CouldNotUpdateGatewayConfigurationException: Error updating gateway configuration. ----> System.ArgumentNullException: Value cannot be null.
         Parameter name: serviceSection
 
-Eski bir ağ geçidi sürümünden yükseltme yapmanız durumunda, yapılandırma dosyanızı saklarız. Eksik bir bölüm olabilir. Ağ geçidi, bu yapılandırma dosyasını okumaya çalıştığında yukarıdaki null başvuru özel durumu ile karşılaşırız.
+Eski bir ağ geçidi sürümünden yükseltme yapmanız durumunda, yapılandırma dosyanızı saklarız. Eksik bir bölüm olabilir. Ağ geçidi, bu yapılandırma dosyasını okumaya çalıştığında yukarıdaki null başvuru özel durumu ile karşılaşabiliriz.
 
-Bu sorunu gidermek için aşağıdakileri yapın.
+Bu sorunu gidermek için aşağıdaki adımları izleyin.
 
 1. Ağ geçidini kaldırın.
 2. Aşağıdaki klasörü silin.
@@ -76,44 +85,51 @@ Bu sorunu gidermek için aşağıdakileri yapın.
 4. İsterseniz mevcut bir ağ geçidini geri yüklemek için kurtarma anahtarını kullanabilirsiniz.
 
 ### <a name="support-for-tls-1112"></a>TLS 1.1/1.2 desteği
-Ağustos 2017 güncelleştirmesinden bu yana şirket içi veri ağ geçidinde, **Power BI hizmeti** ile iletişim kurmak için varsayılan olarak Aktarım Katmanı Güvenliği (TLS) 1.1 veya 1.2 sürümü kullanılmaktadır. Şirket içi veri ağ geçidinin önceki sürümlerinde varsayılan olarak TLS 1.0 sürümü kullanılır. 1 Kasım 2017’de TLS 1.0 desteği sona ereceğinden, ağ geçitlerinizin çalışmaya devam etmesini sağlamak üzere bu tarihe kadar Şirket içi veri ağ geçidi yüklemelerinizi Ağustos 2017 veya sonraki bir sürümüne yükseltmeniz gerekmektedir.
 
-TLS 1.0 sürümünün, şirket içi veri ağ geçidi tarafından 1 Kasım’a kadar desteklendiği ve ağ geçidi tarafından bir geri dönme mekanizması olarak kullanıldığı göz önünde bulundurulmalıdır. Tüm ağ geçidi trafiği için TLS 1.1 veya 1.2 sürümünün kullanılmasını (ve ağ geçidinizde TLS 1.0 sürümünün kullanılmasını önlemeyi) sağlamak üzere, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekmektedir:
+Ağustos 2017 güncelleştirmesinden bu yana şirket içi veri ağ geçidinde, **Power BI hizmeti** ile iletişim kurmak için varsayılan olarak Aktarım Katmanı Güvenliği (TLS) 1.1 veya 1.2 sürümü kullanılmaktadır. Şirket içi veri ağ geçidinin önceki sürümlerinde varsayılan olarak TLS 1.0 sürümü kullanılır. Ağ geçitlerinizin çalışmaya devam etmesini sağlamak üzere Şirket içi veri ağ geçidi yüklemelerinizi Ağustos 2017 veya sonraki bir sürümüne yükseltmeniz gerekmektedir.
+
+>[!NOTE]
+>TLS 1.0 desteği 1 Kasım 2017'de sona ermiştir.
+
+TLS 1.0 sürümünün, şirket içi veri ağ geçidi tarafından 1 Kasım 2017'ye kadar desteklendiği ve ağ geçidi tarafından bir geri dönme mekanizması olarak kullanıldığı göz önünde bulundurulmalıdır. Tüm ağ geçidi trafiği için TLS 1.1 veya 1.2 sürümünün kullanılmasını (ve ağ geçidinizde TLS 1.0 sürümünün kullanılmasını önlemeyi) sağlamak üzere, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekmektedir:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
 
 > [!NOTE]
 > Bu kayıt defteri anahtarları eklendiğinde veya değiştirildiğinde değişiklikler tüm .NET uygulamalarında geçerli olur. Diğer uygulamalar için TLS'yi etkileyen kayıt defteri değişiklikleri hakkında bilgi edinmek için bkz. [Transport Layer Security (TLS) registry settings (Aktarım Katmanı Güvenliği (TLS) kayıt defteri ayarları)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-> 
-> 
 
 ## <a name="data-sources"></a>Veri kaynakları
+
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Hata: Bağlanılamıyor. Ayrıntılar: "Bağlantı kimlik bilgileri geçersiz"
-**Ayrıntıları Göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız.
+
+**Ayrıntıları göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız.
 
     Login failed for user 'username'.
 
 Doğru kullanıcı adına ve parolaya sahip olduğunuzdan emin olun. Ayrıca, bu kimlik bilgileriyle veri kaynağına başarılı bir şekilde bağlanabildiğinizi de doğrulayın. Kullanılmakta olan hesabın, **Kimlik Doğrulama Yöntemi** ile eşleştiğinden emin olun.
 
 ### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Hata: Bağlanılamıyor. Ayrıntılar: "Veritabanına bağlanılamıyor"
+
 Sunucuya bağlanabildiğimizi ancak, belirtilen veritabanına bağlanamadığımızı gösterir. Veritabanının adını ve kullanıcı kimlik bilgilerinin söz konusu veritabanına erişmek için uygun izinlere sahip olduğunu doğrulayın.
 
-**Ayrıntıları Göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız.
+**Ayrıntıları göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız.
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Hata: Bağlanılamıyor. Ayrıntılar: "Veri ağ geçidinde bilinmeyen hata"
+
 Bu hata farklı nedenlerden kaynaklanıyor olabilir. Söz konusu veri kaynağına, ağ geçidini barındıran makineden bağlanabildiğinizi doğruladığınızdan emin olun. Bu, sunucuya erişilememesinden kaynaklanıyor olabilir.
 
-**Ayrıntıları Göster** bölümünde şu hata kodunu görürsünüz: **DM_GWPipeline_UnknownError**.
+**Ayrıntıları Göster** bölümünde şu hata kodunu görebilirsiniz: **DM_GWPipeline_UnknownError**.
 
 Daha ayrıntılı bilgi için Olay Günlükleri > **Uygulama ve Hizmet Günlükleri** > **Şirket içi veri ağ geçidi hizmeti** bölümüne de göz atabilirsiniz.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Hata: <server> öğesine bağlanmaya çalışırken bir hata ile karşılaştık. Ayrıntılar: "data gateway hizmetine eriştik ancak ağ geçidi, şirket içi veri kaynağına erişemiyor."
+
 Belirtilen veri kaynağına bağlanamadığımızı gösterir. Söz konusu veri kaynağı için sağlanan bilgileri doğruladığınızdan emin olun.
 
-**Ayrıntıları Göster** bölümünde şu hata kodunu görürsünüz: **DM_GWPipeline_Gateway_DataSourceAccessError**.
+**Ayrıntıları Göster** bölümünde şu hata kodunu görebilirsiniz: **DM_GWPipeline_Gateway_DataSourceAccessError**.
 
 Temel alınan hata iletisi aşağıdakine benzerse bu, veri kaynağı için kullandığınız hesabın, ilgili Analysis Services örneği için bir sunucu yöneticisi olmadığı anlamına gelir. [Daha fazla bilgi](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)
 
@@ -121,14 +137,14 @@ Temel alınan hata iletisi aşağıdakine benzerse bu, veri kaynağı için kull
 
 Temel alınan hata iletisi aşağıdakine benzerse bu, Analysis Services'e ilişkin hizmet hesabında [token-groups-global-and-universal](https://msdn.microsoft.com/library/windows/desktop/ms680300.aspx) (TGGAU) dizin özniteliğinin eksik olduğu anlamına gelebilir.
 
-    The user name or password is incorrect.
+    The username or password is incorrect.
 
 Windows 2000 öncesi uyumluluk erişimine sahip etki alanlarında TGGAU özniteliği etkindir. Ancak, yeni oluşturulan etki alanlarının çoğunda bu öznitelik varsayılan olarak etkin değildir. Daha fazla bilgi edinmek için [bu sayfaya](https://support.microsoft.com/kb/331951) göz atabilirsiniz.
 
 Bunu doğrulamak için aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
 1. SQL Server Management Studio'daki Analysis Services makinesine bağlanın. Gelişmiş bağlantı özellikleri bölümünde, söz konusu kullanıcı için EffectiveUserName özelliğini ekleyip hatanın yeniden oluşturulup oluşturulmadığına bakın.
-2. Özniteliğin listelenip listelenmediğini doğrulamak için dsacls Active Directory aracını kullanabilirsiniz. Bu araç normalde bir etki alanı denetleyicisinde bulunur. Hesaba ilişkin ayırt edici etki alanı adının ne olduğunu bilmeniz ve bu bilgiyi araca iletmeniz gerekir.
+2. Özniteliğin listelenip listelenmediğini doğrulamak için dsacls Active Directory aracını kullanabilirsiniz. Bu araç bir etki alanı denetleyicisinde bulunur. Hesaba ilişkin ayırt edici etki alanı adının ne olduğunu bilmeniz ve bu bilgiyi araca iletmeniz gerekir.
 
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
 
@@ -140,50 +156,59 @@ Bunu doğrulamak için aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
 Bu sorunu gidermek üzere, Analysis Services Windows hizmeti için kullanılan hesapta TGGAU özniteliğini etkinleştirmeniz gerekir.
 
-**Kullanıcı adı veya parola yanlış olabilir**
+#### <a name="another-possibility-for-username-or-password-incorrect"></a>Kullanıcı adı veya parola yanlış olabilir
 
 Bu hata, Analysis Services sunucusunun kullanıcılardan farklı bir etki alanında olması ve iki yönlü bir güven ilişkisinin kurulmamış olmasından kaynaklanıyor olabilir.
 
 Etki alanları arasındaki güven ilişkisini doğrulamak için etki alanı yöneticilerinizle iletişim kurmanız gerekir.
 
-**Power BI hizmetinde Analysis Services'e yönelik "Veri Al" deneyiminde veri ağ geçidi veri kaynakları görüntülenmiyor**
+#### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>Power BI hizmetinde Analysis Services'e yönelik "Veri Al" deneyiminde veri ağ geçidi veri kaynakları görüntülenmiyor
 
 Hesabınızın, ağ geçidi yapılandırmasındaki veri kaynağının **Kullanıcılar** sekmesinde listelendiğinden emin olun. Ağ geçidine erişiminiz yoksa ağ geçidi yöneticisiyle iletişime geçerek bu bilgiyi doğrulamasını isteyin. Analysis Services listesinde görüntülenen veri kaynağını yalnızca **Kullanıcılar** listesinde bulunan hesaplar görebilir.
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Hata: Bu veri kümesindeki veri kaynakları için yüklü veya yapılandırılmış ağ geçidiniz yok
+
 Ağ geçidine [Veri kaynağı ekleme](service-gateway-manage.md#add-a-data-source) bölümünde açıklandığı gibi bir veya daha fazla veri kaynağı eklediğinizden emin olun. **Ağ geçitlerini yönet** bölümünde ağ geçidi görünmüyorsa tarayıcınızın önbelleğini temizlemeyi veya hizmette oturumunuzu kapatıp yeniden oturum açmayı deneyin.
 
 ## <a name="datasets"></a>Veri kümeleri
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Hata: Bu satır için yeterli alan yok.
+
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Hata: Bu satır için yeterli alan yok
+
 Satırlarınızdan birinin boyutu 4 MB'tan fazlaysa bu hatayla karşılaşırsınız. Veri kaynağınızda söz konusu satırı belirleyip filtrelemeniz veya satırın boyutunu azaltmanız gerekir.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Hata: Sağlanan sunucu adı SQL Server SSL sertifikasındaki sunucu adından farklı.
-Sertifika genel adı olarak sunucunun tam etki alanı adı (FQDN) yerine yalnızca sunucunun NetBIOS adını sağladığınızda bu hata iletisiyle karşılaşabilirsiniz. Bu sertifikanın eşleşmemesine neden olabilir. Bu sorunu gidermek için ağ geçidi veri kaynağındaki ve PBIX dosyasındaki sunucu adını, sunucunun FQDN'sini kullanacak şekilde ayarlamanız gerekir.
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Hata: Sağlanan sunucu adı SQL Server SSL sertifikasındaki sunucu adından farklı
 
-### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Zamanlanmış yenilemeyi yapılandırırken Şirket içi veri ağ geçidi seçeneğini görmüyorum.
+Sertifika genel adı olarak sunucunun tam etki alanı adı (FQDN) yerine yalnızca sunucunun NetBIOS adını sağladığınızda bu hata iletisiyle karşılaşabilirsiniz. Bu durum sertifikanın eşleşmemesine neden olur. Bu sorunu gidermek için ağ geçidi veri kaynağındaki ve PBIX dosyasındaki sunucu adını, sunucunun FQDN'sini kullanacak şekilde ayarlamanız gerekir.
+
+### <a name="i-dont-see-the-on-premises-data-gateway-present-when-configuring-scheduled-refresh"></a>Zamanlanmış yenilemeyi yapılandırırken Şirket içi veri ağ geçidi seçeneğini görmüyorum
+
 Bunun farklı nedenleri olabilir.
 
 1. Power BI Desktop'ta ve ağ geçidi için yapılandırılan veri kaynağında girilen sunucu ve veritabanı adları eşleşmiyor olabilir. Bu değerlerin aynı olması gerekir. Bunlar büyük/küçük harfe duyarlı değildir.
 2. Hesabınız, ağ geçidi yapılandırmasındaki veri kaynağının **Kullanıcılar** sekmesinde yer almıyor olabilir. Hesabınızın bu listeye eklenmesi için söz konusu ağ geçidinin yöneticisi ile iletişime geçmeniz gerekir.
 3. Power BI Desktop dosyanızda birden fazla veri kaynağı vardır ve bu veri kaynaklarının tümü ağ geçidiyle yapılandırılmamış olabilir. Ağ geçidinin Zamanlanmış Yenileme'de görünmesi için veri kaynaklarından her birinin söz konusu ağ geçidiyle tanımlanmış olması gerekir.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Hata: Ağ geçidi istemcisindeki alınan sıkıştırılmamış veri, sınırı aştı.
-Tablo başına sıkıştırılmamış veri sınırı tam olarak 10 GB'tır. Bu sorunla karşılaşmanız halinde, iyileştirme yapmak ve sorunu gidermek için tercih edebileceğiniz bazı iyi seçenekler vardır. Özel olarak belirtmek gerekirse, sık sık tekrarlanan, uzun dize değerlerini azaltıp normalleştirilmiş bir anahtar kullanmak veya sütunu kaldırmak (kullanılmıyorsa) sorunu gidermenize yardımcı olabilir.
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Hata: Ağ geçidi istemcisindeki alınan sıkıştırılmamış veri, sınırı aştı
+
+Tablo başına sıkıştırılmamış veri sınırı tam olarak 10 GB'tır. Bu sorunla karşılaşmanız halinde, iyileştirme yapmak ve sorunu gidermek için tercih edebileceğiniz bazı iyi seçenekler vardır. Özel olarak belirtmek gerekirse, çoğunlukla sabit, uzun dize değerlerini azaltıp normalleştirilmiş bir anahtar kullanmak veya sütunu kaldırmak (kullanılmıyorsa) sorunu gidermenize yardımcı olabilir.
 
 ## <a name="reports"></a>Raporlar
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Raporlar, Şirket içi veri ağ geçidi üzerinden veri kaynağımıza erişiminiz olmadığı için veri kaynağına erişemeyebilir.
+
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Raporlar, Şirket içi veri ağ geçidi üzerinden veri kaynağımıza erişiminiz olmadığı için veri kaynağına erişemeyebilir
+
 Bu soruna genellikle aşağıdakilerden biri neden olur.
 
 1. Veri kaynağı bilgileri, temel alınan veri kümesindeki bilgilerle eşleşmiyordur. Şirket içi veri ağ geçidi için tanımlanan veri kaynağındaki sunucu ve veritabanı adı bilgileriyle Power BI Desktop’ta sağlanan bilgilerin eşleşmesi gerekir. Power BI Desktop’ta bir IP Adresi kullanıyorsanız Şirket içi veri ağ geçidine ilişkin veri kaynağında da bir IP Adresi kullanılmalıdır.
 2. Kuruluşunuzdaki herhangi bir ağ geçidinde veri kaynağı yoktur. Veri kaynağını yeni veya var olan bir ağ geçidinde ya da Şirket içi veri ağ geçidinde yapılandırabilirsiniz.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Hata: Veri kaynağı erişim hatası. Lütfen ağ geçidi yöneticisiyle iletişime geçin.
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Hata: Veri kaynağı erişim hatası. Lütfen ağ geçidi yöneticisiyle iletişime geçin
+
 Bu raporda canlı bir Analysis Services bağlantısı kullanılıyorsa sorun, EffectiveUserName özelliğine iletilen bir değerin geçerli olmamasından veya Analysis Services makinesinde izinlere sahip olmamasından kaynaklanıyor olabilir. Genellikle kimlik doğrulama sorunları, EffectiveUserName özelliğine iletilen değerin yerel bir kullanıcı asıl adı (UPN) ile eşleşmemesinden kaynaklanır.
 
 Bunu doğrulamak için aşağıdaki işlemleri gerçekleştirin.
 
 1. [Ağ geçidi günlüklerinde](#logs) etkin kullanıcı adını bulun.
-2. Değeriniz iletilirken değerin doğru olduğunu onaylayın. Değer, kullanıcınıza aitse bir komut isteminde aşağıdaki komutu kullanarak kullanıcı asıl adının nasıl olması gerektiğini görebilirsiniz. Kullanıcı asıl adı bir e-posta adresi gibi görünür.
+2. Değeriniz iletilirken değerin doğru olduğunu onaylayın. Değer, kullanıcınıza aitse bir komut isteminde aşağıdaki komutu kullanarak kullanıcı asıl adını görebilirsiniz. UPN bir e-posta adresine benzer.
 
         whoami /upn
 
@@ -207,14 +232,16 @@ Hangi veri merkezi bölgesinde yer aldığınızı bulmak için aşağıdaki iş
 2. **Power BI Hakkında**'yı seçin.
 3. **Verilerinizin depolandığı yer** bölümünde, veri bölgenizi görebilirsiniz.
 
-    ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
+    ![Veri bölgesi](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Herhangi bir ilerleme kaydedemediyseniz [fiddler](#fiddler) veya netsh gibi araçları kullanarak bir ağ izlemesi gerçekleştirmeyi deneyebilirsiniz ancak bunlar gelişmiş veri toplama yöntemleridir ve toplanan verileri çözümlemek için yardıma ihtiyacınız olabilir. Yardım almak için [destek](https://support.microsoft.com) bölümüyle iletişime geçebilirsiniz.
 
 ## <a name="performance"></a>Performans
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ_DJ30VNk4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="performance-counters"></a>Performans Sayaçları
+
 Ağ geçidine ilişkin etkinlikleri ölçer için kullanılabilecek çok sayıda performans sayacı vardır. Bunlar, etkinlik yükünüzün çok fazla olup olmadığını ve yeni bir ağ geçidine ihtiyaç duyup duymayacağınızı anlamanıza yardımcı olur. Bu sayaçlar işlemlerin ne kadar sürdüğünü göstermez.
 
 Bu sayaçlara Windows Performans İzleyicisi aracı üzerinden erişilebilir.
@@ -227,7 +254,7 @@ Bu sayaçlara ilişkin genel gruplandırmalar yapılmıştır.
 | --- | --- |
 | ADO.NET |Bu, herhangi bir DirectQuery bağlantısı için kullanılır. |
 | ADOMD |Bu, Analysis Services 2014 ve önceki sürümleri için kullanılır. |
-| OLEDB |Bu, belirli veri kaynakları için kullanılır. Buna SAP HANA ve Analysis Services 2016 veya sonraki sürümleri dahildir. |
+| OLEDB |Belirli veri kaynakları bu seçeneği kullanır. Buna SAP HANA ve Analysis Services 2016 veya sonraki sürümleri dahildir. |
 | Mashup |Bu, içeri aktarılan tüm veri kaynaklarını içerir. Yenileme zamanlıyorsanız veya isteğe bağlı yenileme işlemi gerçekleştiriyorsanız Mashup altyapısı kullanılır. |
 
 Performans sayaçlarının bir listesini aşağıda bulabilirsiniz.
@@ -252,28 +279,28 @@ Performans sayaçlarının bir listesini aşağıda bulabilirsiniz.
 | # of Mashup open connection failed / sec |Saniye başına başarısız olan Mashup bağlantı açma işlemlerinin sayısı. |
 | # of Mashup queries executed / sec |Saniye başına yürütülen Mashup sorgularının (başarılı veya başarısız) sayısı. |
 | # of Mashup queries failed / sec |Saniye başına yürütülen başarısız Mashup sorgularının sayısı |
-| # of multiple result set OLEDB queries failed / sec |Saniye başına yürütülen başarısız OLEDB çoklu sonuç kümesi sorgularının sayısı. |
-| # of OLEDB multiple resultset queries executed / sec |Saniye başına yürütülen OLEDB çoklu sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
+| # of multiple result sets of OLEDB queries failed / sec |Saniye başına yürütülen başarısız OLEDB çoklu sonuç kümesi sorgularının sayısı. |
+| # of OLEDB multiple result sets of queries executed / sec |Saniye başına yürütülen OLEDB çoklu sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
 | # of OLEDB open connection executed / sec |Saniye başına yürütülen OLEDB bağlantı açma işlemlerinin (başarılı veya başarısız) sayısı. |
 | # of OLEDB open connection failed / sec |Saniye başına başarısız olan OLEDB bağlantı açma işlemlerinin sayısı. |
 | # of OLEDB queries executed / sec |Saniye başına yürütülen OLEDB çoklu sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
 | # of OLEDB queries failed / sec |Saniye başına yürütülen başarısız OLEDB çoklu sonuç kümesi sorgularının sayısı. |
-| # of OLEDB single resultset queries executed / sec |Saniye başına yürütülen OLEDB tekli sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
+| # of OLEDB single result set queries executed / sec |Saniye başına yürütülen OLEDB tekli sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
 | # of queries failed / sec |Saniye başına yürütülen başarısız sorgu sayısı. |
 | # of single result set OLEDB queries failed / sec |Saniye başına yürütülen başarısız OLEDB tekli sonuç kümesi sorgularının sayısı. |
 
 ## <a name="reviewing-slow-performing-queries"></a>Yavaş performans sergileyen sorguları gözden geçirme
+
 Ağ geçidinin yavaş olduğu sonucuna varabilirsiniz. Bu, DirectQuery sorguları veya içeri aktarılan veri kümelerinizi yenileme işlemleri için geçerli olabilir. Yavaş çalışan sorguyu tespit etmenize yardımcı olması için, sorguları ve bunlara ilişkin zamanlamaları kaydeden ek günlükler etkinleştirebilirsiniz. Uzun süre çalışan bir sorgu bulduğunuzda sorgu performansını ayarlamak için veri kaynağınızda ek değişiklikler yapmanız gerekebilir. Örneğin, bir SQL Server sorgusu için dizinleri ayarlama.
 
 Bir sorgunun çalışma süresini belirlemek için iki yapılandırma dosyasını değiştirmeniz gerekir.
 
 ### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+
 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dosyasında `False` olan `EmitQueryTraces` değerini `True` olarak değiştirmeniz gerekir. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur. `EmitQueryTraces` etkinleştirildiğinde, ağ geçidinden bir veri kaynağına gönderilen sorgular günlüğe kaydedilir.
 
 > [!IMPORTANT]
-> EmitQueryTraces'in etkinleştirilmesi, ağ geçidi kullanımına bağlı olarak günlük boyutunu önemli ölçüde artırabilir. Günlükleri gözden geçirmeyi tamamladığınızda EmitQueryTraces değerini False olarak ayarlamanız gerekir. Bu ayarın uzun bir süre boyunca etkin halde bırakılması önerilmez.
-> 
-> 
+> EmitQueryTraces'in etkinleştirilmesi, ağ geçidi kullanımına bağlı olarak günlük boyutunu önemli ölçüde artırabilir. Günlükleri gözden geçirmeyi tamamladığınızda EmitQueryTraces değerini False olarak ayarlamanız gerekebilir. Bu ayarın uzun bir süre boyunca etkin halde bırakılması önerilmez.
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -311,14 +338,13 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
 ### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+
 *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* dosyasında `4` olan `TracingVerbosity` değerini `5` olarak değiştirmeniz gerekir. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur. Bu ayar değiştirildiğinde, ağ geçidi günlüğüne ayrıntılı girişler kaydedilmeye başlanır. Buna, süreyi gösteren girişler de dahildir. Şirket İçi Ağ Geçidi uygulamasında "Ek Günlükler" düğmesini etkinleştirerek de ayrıntılı girişleri etkinleştirebilirsiniz.
 
    ![ek günlükler](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
 > TraceVerbosity’nin `5` olarak ayarlanması, ağ geçidi kullanımına bağlı olarak günlük boyutunu önemli ölçüde artırabilir. Günlükleri gözden geçirmeyi tamamladığınızda TraceVerbosity değerini `4` olarak ayarlamanız gerekir. Bu ayarın uzun bir süre boyunca etkin halde bırakılması önerilmez.
-> 
-> 
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">
@@ -348,8 +374,56 @@ Veri kaynağını sorgulama işleminin ne kadar sürdüğünü belirlemek için 
 
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent ayrıntılı bir giriştir. TraceVerbosity düzeyi 5 değilse bu giriş günlüğe kaydedilmez.
-   > 
-   > 
+
+## <a name="firewall-or-proxy"></a>Güvenlik Duvarı veya Ara Sunucu
+
+Ağ geçidinize ara sunucu bilgilerini girme hakkında daha fazla bilgi için bkz. [Power BI ağ geçitleri için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md).
+
+Güvenlik duvarınızın veya ara sunucunuzun bağlantıları engelleyip engellemediğini test etmek için PowerShell isteminden [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) komutunu çalıştırabilirsiniz. Bu komut, Azure Service Bus bağlantısını test eder. Bu yalnızca ağ bağlantısını test eder ve bulut sunucusu hizmeti veya ağ geçidi ile ilgili değildir. Makinenizin gerçekten İnternet'e bağlanıp bağlanamadığını belirlemenize yardımcı olur.
+
+    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+
+> [!NOTE]
+> Test-NetConnection komutu yalnızca Windows Server 2012 R2 ve üzerinde kullanılabilir. Windows 8.1 ve üzeri sürümlerde de kullanılabilir. Daha eski işletim sistemi sürümlerinde bağlantı noktalarının durumunu kontrol etmek için Telnet uygulamasını kullanabilirsiniz.
+
+Sonuçlar aşağıdakine benzer olacaktır. Fark TcpTestSucceeded bölümünde olacaktır. **TcpTestSucceeded** değeri *true* değilse bir güvenlik duvarı sizi engelliyor olabilir.
+
+    ComputerName           : watchdog.servicebus.windows.net
+    RemoteAddress          : 70.37.104.240
+    RemotePort             : 5672
+    InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
+    SourceAddress          : 10.120.60.105
+    PingSucceeded          : False
+    PingReplyDetails (RTT) : 0 ms
+    TcpTestSucceeded       : True
+
+Testin daha kapsamlı olmasını istiyorsanız **ComputerName** ve **Port** değerlerini [bağlantı noktaları](https://docs.microsoft.com/power-bi/service-gateway-onprem#ports) bölümünde listelenen değerlerle değiştirin.
+
+Güvenlik duvarı, Azure Service Bus'ın Azure veri merkezleriyle bağlantısını da engelliyor olabilir. Bu durumda, söz konusu veri merkezleri için bölgenize yönelik IP adreslerini beyaz listeye almak (engellemesini kaldırmak) istersiniz. [Buradan](https://www.microsoft.com/download/details.aspx?id=41653) Azure IP adreslerinin listesine ulaşabilirsiniz.
+
+### <a name="network-ports-test"></a>Ağ Bağlantı Noktaları Sınaması
+
+Ağ bağlantı noktaları sınaması, ağ geçidinizin veri aktarmak için ihtiyaç duyduğu tüm uzak sunucuların doğru bağlantı noktalarına erişip erişemediğini kontrol etmenizi sağlayan bir araçtır. Ağ bağlantı noktaları sınaması sonucunda bağlantı noktalarından herhangi biriyle bağlantı kurulamazsa ağ geçidiniz ağ sorunlarıyla karşılaşabilir. Ağ geçidinizle ilgili ağ sorunları yaşıyorsanız en uygun ağ ortamına sahip olduğunuzdan emin olmak için ağ bağlantı noktaları sınaması gerçekleştirin.  
+
+#### <a name="start-a-new-test"></a>Yeni sınama başlat
+
+Şirket içi veri ağ geçidi kullanıcı arabiriminde yeni bir ağ bağlantı noktaları sınaması başlatmanızı sağlar.
+
+![Bağlantı Noktası Sınamasını Başlat](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-starttest.png)
+
+Ağ bağlantı noktaları sınaması yürütüldüğünde ağ geçidiniz Azure Service Bus'tan bağlantı noktalarının ve sunucuların bir listesini aldıktan sonra tüm sunuculara ve tüm bağlantı noktalarına bağlanmaya çalışır. Yeni sınama başlat bağlantısının yeniden görünmesi, ağ bağlantı noktaları sınamasının tamamlandığını gösterir.  
+
+#### <a name="test-results"></a>Sınama sonuçları
+
+Yeni sınama başlat bağlantısının altındaki Son sınama sonuçları bölümünden sınama özetine ulaşabilirsiniz. Tamamlandı (Başarılı) ve Tamamlandı (Başarısız oldu; en son sınama sonuçlarına bakın) olmak üzere iki farklı sonuç görüntülenir. Sınamanın başarılı olması, ağ geçidinizin gerekli tüm bağlantı noktalarına başarıyla bağlandığını gösterir. Sınamanın başarısız olması, ağ ortamınızın gerekli bağlantı noktalarını ve sunucuları engellediği anlamına gelebilir. 
+
+![Bağlantı noktası sınama sonuçları](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result.png)
+
+Tamamlanan son sınamanın sonuçlarını görüntülemek için aşağıda gösterilen şekilde Tamamlanan son sınamanın sonuçlarını aç bağlantısını seçin. Sınama sonuçları Windows’un varsayılan metin düzenleyicisinde açılır.  
+
+Sınama sonuçları, ağ geçidinizin ihtiyaç duyduğu tüm sunucuları, bağlantı noktalarını ve IP adreslerini listeler. Sınama sonuçları aşağıda gösterilen şekilde herhangi bir bağlantı noktasının Kapalı olduğunu gösteriyorsa ağ ortamınızın bağlantıyı engellemediğinden emin olun. Gerekli bağlantı noktalarının açılması için ağ yöneticinizle iletişime geçmeniz gerekebilir.
+
+![Bağlantı noktası sınama sonuçları dosyası](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result-file.png)
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -374,23 +448,25 @@ Sorunu çözmek için şu adımları izleyin:
 Başka bir kullanıcı adına kimliğe bürünemiyorsanız FailedToImpersonateUserException oluşur. Kimliğine bürünmeye çalıştığınız hesap, ağ geçidi hizmeti etki alanının bulunduğu etki alanından başka bir etki alanından geliyorsa (bu bir sınırlamadır) bu durum oluşabilir.
 
 **Çözüm**
+
 * Yapılandırmanın, yukarıdaki ImpersonationLevel bölümünde yer alan adımlara göre doğru olduğundan emin olun
 * Kimliğine bürünmeye çalıştığı kullanıcı kimliğinin geçerli bir AD Hesabı olduğundan emin olun
 
-### <a name="general-error-1033-error-while-parsing-protocol"></a>Genel hata; Protokol ayrıştırılırken 1033 hatası oluştu
+### <a name="general-error-1033-error-while-parsing-the-protocol"></a>Genel hata; Protokol ayrıştırılırken 1033 hatası oluştu
 
 UPN (alias@domain.com) kullanılarak kullanıcının kimliğine bürünüldüyse, SAP HANA’da yapılandırılan dış kimliğiniz oturum açma adıyla eşleşmezse 1033 hatasını alırsınız. Günlüklerde, “'alias@domain.com' olan Özgün UPN’nin, aşağıda görüldüğü gibi hata günlüklerinin üst kısmında yeni 'alias@domain.com' UPN’si ile değiştirildiğini” görürsünüz.
 
 ```
-[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com.'
 ```
 
 **Çözüm**
+
 * SAP HANA, kimliğine bürünülen kullanıcının kullanıcı diğer adında sAMAccountName özniteliğini kullanmasını gerektirir. Bu doğru değilse, 1033 hatasını görürsünüz.
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
-* Günlüklerde, etki alanının takip ettiği diğer ad (alias@doimain.com) olan UPN’yi değil, sAMAccountName (diğer ad) adını görmeniz gerekir
+* Günlüklerde, etki alanının takip ettiği diğer ad (alias@doimain.com) olan UPN’yi değil, sAMAccountName (diğer ad) adını görürsünüz.
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
@@ -413,6 +489,7 @@ UPN (alias@domain.com) kullanılarak kullanıcının kimliğine bürünüldüyse
 AD’de temsilciniz düzgün şekilde yapılandırılmadıysa -10709 Bağlantı başarısız oldu hata iletisini alırsınız.
 
 **Çözüm**
+
 * Ağ geçidi hizmet hesabı için AD’de temsilci sekmesinde SAP Hana sunucunuzun olduğundan emin olun
 
    ![temsilci sekmesi](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
@@ -421,6 +498,7 @@ AD’de temsilciniz düzgün şekilde yapılandırılmadıysa -10709 Bağlantı 
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
 ### <a name="refresh-history"></a>Yenileme Geçmişi
+
 Zamanlanmış yenileme için ağ geçidini kullandığınız sırada **Yenileme Geçmişi** seçeneği, oluşan hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerekmesi halinde size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi**'ne ulaşmak için aşağıdaki adımları uygulayın.
 
 1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünde bir veri kümesi seçin ve ardından&gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
