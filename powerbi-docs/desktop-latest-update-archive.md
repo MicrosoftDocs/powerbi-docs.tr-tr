@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210388"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658162"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -34,10 +34,66 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
+## <a name="july-2018-update-26051693201"></a>Temmuz 2018 Güncelleştirmesi (2.60.5169.3201)
+
+Temmuz ayının büyük güncelleştirmeleri, uzun süredir istenen ve görsellerinizi doruğa çıkaran, renkli içgörü görüntüleriyle parlayan veri ve raporlama özellikleriyle müthiş kutlamaları hak ediyor.
+
+Temmuz ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
+
+### <a name="modeling"></a>Modelleme
+
+* Bileşik modelleri (Önizleme)  [[video]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[makale]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Çoktan çoğa ilişkiler (Önizleme) (bileşik modellere ilişkili)  [[video]](https://youtu.be/Mtig3rmIUe0?t=4m53s)  [[makale]](desktop-many-to-many-relationships.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Depolama modu (Önizleme) (bileşik modellerle ilişkili)  [[video]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[makale]](desktop-storage-mode.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>Raporlama
+
+* Daha fazla esneklik ve biçimlendirmeyle yeni görsel üst bilgi  [[video]](https://youtu.be/Mtig3rmIUe0?t=8m26s)  [[makale]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Duvar kağıdı biçimlendirmesi  [[video]](https://youtu.be/Mtig3rmIUe0?t=14m19s)  [[makale]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Tema güncelleştirmesi - daha fazla görsel ve sayfa denetimi (Önizleme)  [[video]](https://youtu.be/Mtig3rmIUe0?t=19m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* Tablo ve matrisle ilgili araç ipuçları  [[video]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Görsellerde araç ipuçlarını kapatma  [[video]](https://youtu.be/Mtig3rmIUe0?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Dilimleyici erişilebilirliği  [[video]](https://youtu.be/Mtig3rmIUe0?t=27m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Biçimlendirme bölmesi geliştirmeleri  [[video]](https://youtu.be/Mtig3rmIUe0?t=30m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Çizgi grafikler ve bileşik haritalar için basamaklı çizgi desteği  [[video]](https://youtu.be/Mtig3rmIUe0?t=32m46s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Tek tek seriler için birleşik harita veri etiketlerini kapatma  [[video]](https://youtu.be/Mtig3rmIUe0?t=34m19s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Sıralama deneyimi geliştirmesi  [[video]](https://youtu.be/Mtig3rmIUe0?t=35m44s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>Analytics
+
+* Dağıtım faktörü içgörüleri  [[video]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>Özel görseller
+
+* Power BI sertifikalı kategori  [[video]](https://youtu.be/Mtig3rmIUe0?t=41m13s)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Belirli kurumsal görselleri devre dışı bırakma   [[video]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Dört yeni özel görsel  [[video]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+
+* IBM DB2 DirectQuery bağlayıcısı (Önizleme)  [[video]](https://youtu.be/Mtig3rmIUe0?t=54m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Örneğe Göre Web bağlayıcısı  [[video]](https://youtu.be/Mtig3rmIUe0?t=54m53s)  [[makale]](desktop-connect-to-web-by-example.md)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA - Değişken Giriş deneyiminde varsayılan değişkenler [[video]](https://youtu.be/Mtig3rmIUe0?t=56m19s)  [[makale]](desktop-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="june-2018-update-2595135101"></a>Haziran 2018 Güncelleştirmesi (2.59.5135.101)
 
-Bu ayın güncelleştirmeleri, raporlarınızı canlandıracak ve sağladıkları içgörülerden yararlanmanızı sağlayacak özellik ve iyileştirmelerle ön plana çıktı.
+Haziran ayının güncelleştirmeleri, raporlarınızı canlandıracak ve sağladıkları içgörülerden yararlanmanızı sağlayacak özellik ve iyileştirmelerle ön plana çıktı.
 
 Haziran ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
 
@@ -1407,7 +1463,7 @@ Bu ay çok daha fazla güncelleştirme ile karşınızdayız! Şubat'ın 29 gün
 -   Şerit düzeni iyileştirmeleri: **Rapor Araçları** için bağlamsal şerit sekmesi
 -   Yeni KPI görseli
 -   Raporların, kaydetme işlemi sırasında görünür olan sayfa ile açılmasını sağlama
--   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği (**Rapor** ve **Veri** görünümleri)
+-   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği (**Rapor** & **Veri** görünümleri)
 -   Şeritte bulunan **Sayfayı Yinele** seçeneği
 
 
