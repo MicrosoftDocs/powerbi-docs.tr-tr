@@ -5,16 +5,16 @@ ms.date: 04/30/2018
 ms.topic: conceptual
 ms.service: powerbi
 ms.component: powerbi-admin
-ms.author: susuresh
-ms.reviewer: susuresh
-author: suds001
+ms.author: mblythe
+ms.reviewer: mblythe
+author: mgblythe
 manager: kfile
-ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: aee7fb94f1e132783fc2b7791f7e634c903f7aa6
+ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298470"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257353"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
 

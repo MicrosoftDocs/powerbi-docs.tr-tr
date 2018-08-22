@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/18/2018
-ms.author: jastru
+ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
+ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34247082"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257245"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Soru-Cevap tarafından tanınan sözcükler ve terminoloji

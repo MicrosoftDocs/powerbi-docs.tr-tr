@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582583"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257222"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -46,10 +46,10 @@ DirectQuery için veri kaynaklarını iyileştirme hakkında daha fazla yönerge
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery ve canlı bağlantı: temel veri kaynağının performansını anlama 
 
-DirectQuery veya canlı bağlantı örneğinde, kullanıcılar bir Power BI raporunu ziyaret ettiğinde Power BI tarafından temel veri kaynağına gerçek zamanlı olarak sorgular gönderilir. Veri kaynağı sorgu verilerini döndürdüğünde rapor işlenir. Bunun sonucunda, bu durumlarda raporunuzun performansı büyük oranda temel veri kaynağına bağlıdır. 
- 
-Böyle durumlarda temel veri kaynağınızın performansını anlamanız önemli olur. Sorgu performansının anlaşılması için her veri kaynağının farklı araçları vardır. Örneğin, SQL Server ve Azure SQL tarafından sorguların geçmişini ve çalışma zamanı istatistiklerini yakalayan Query Store sağlanır. 
- 
+DirectQuery veya canlı bağlantı örneğinde, kullanıcılar bir Power BI raporunu ziyaret ettiğinde Power BI tarafından temel veri kaynağına gerçek zamanlı olarak sorgular gönderilir. Veri kaynağı sorgu verilerini döndürdüğünde rapor işlenir. Bunun sonucunda, bu durumlarda raporunuzun performansı büyük oranda temel veri kaynağına bağlıdır.
+
+Böyle durumlarda temel veri kaynağınızın performansını anlamanız önemli olur. Sorgu performansının anlaşılması için her veri kaynağının farklı araçları vardır. Örneğin, SQL Server ve Azure SQL tarafından sorguların geçmişini ve çalışma zamanı istatistiklerini yakalayan Query Store sağlanır.
+
 Genel bir kural olarak DirectQuery ve canlı bağlantı üzerinde oluşturulmuş Power BI raporlarını dağıtırken son kullanıcılarınızın Power BI Desktop’ta yapacağı işlemleri deneyin. Power BI Desktop’ta rapor yavaş yükleniyorsa, son kullanıcılarınız için hizmette de yavaş yükleneceği neredeyse kesindir. 
  
 ## <a name="directquery-best-practices"></a>En iyi DirectQuery yöntemleri 

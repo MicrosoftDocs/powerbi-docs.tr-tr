@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/14/2018
-ms.author: willt
+ms.author: willthom
 LocalizationGroup: Learn more
-ms.openlocfilehash: 61ff03f4f17561208bbbadc9ee7dfade61322ae2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fe77d15634ce14d083884b09a7157f79e315f196
+ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34227300"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256918"
 ---
 # <a name="power-bi-desktop-privacy"></a>Power BI Desktop Gizliliği
 
