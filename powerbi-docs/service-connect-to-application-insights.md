@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244261"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40256857"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI ile Application Insights'a Bağlanma
 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) telemetrisiyle güçlü, özel panolar oluşturmak için Power BI'ı kullanın. Uygulama telemetrinizi yeni yöntemlerle tasarlayın. Birden çok uygulama veya bileşen hizmetinden alınan ölçümleri tek bir panoda birleştirin. Power BI için Application Insights içerik paketinin ilk sürümünde kullanım ile ilgili yaygın ölçümlere (etkin kullanıcılar, sayfa görünümü, oturumlar, tarayıcı, ve işletim sistemi sürümü, kullanıcıların harita üzerindeki coğrafi dağılımı gibi) ilişkin pencere öğeleri bulunmaktadır.
@@ -23,7 +23,7 @@ ms.locfileid: "34244261"
 [Power BI için Application Insights içerik paketine](https://app.powerbi.com/getdata/services/application-insights) bağlanın.
 
 >[!NOTE]
->Bağlanabilmeniz için, Azure Preview Portal'daki uygulamanıza ilişkin Application Insights genel bakış dikey penceresine erişim gereklidir. Aşağıda, gereksinimlerle ilgili daha ayrıntılı bilgi verilmiştir.
+>Bu tümleştirme yöntemi **kullanım dışıdır**. Application Insights ile Power BI bağlantısı için tercih edilen yöntem hakkında daha fazla bilgi için [analitik sorguyu dışarı aktarma işlevini](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries) kullanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
 1. Sol gezinti bölmesinin alt kısmındaki **Veri Al**'ı seçin.

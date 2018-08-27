@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624824"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257123"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma (önizleme)
 
@@ -112,8 +112,8 @@ Yeni çalışma alanları üç rol sunar: yöneticiler, üyeler ve katkıda bulu
 **Üyeler şunları yapabilir:** 
 
 - Üyeleri ve düşük izinlere sahip diğer kişileri ekleyebilir.
-- Uygulamaları yayımlayabilir ve güncelleştirebilir.
-- Öğeleri paylaşabilir ve uygulamaları paylaşabilir.
+- Uygulama yayımlayabilir ve güncelleştirebilir.
+- Öğe veya uygulama paylaşabilir.
 - Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir.
 - Katkıda bulunanların yapabildiği her şeyi yapabilir.
 
@@ -129,7 +129,7 @@ Erişimi olmayan kullanıcıların erişim isteyebilmesi için hizmet genelinde 
 
 ## <a name="distribute-an-app"></a>Uygulamayı dağıtma
 
-İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. İş arkadaşlarınız uygulamalarınızı birkaç farklı yolla alabilir. Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamalarınızı Microsoft AppSource'tan bulabilir ve yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıntılar için bkz. [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md).
+İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamanızı Microsoft AppSource'tan bulabilir ve yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıntılar için bkz. [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Eski uygulama çalışma alanlarını yeni uygulama çalışma alanlarına dönüştürme
 
@@ -161,7 +161,7 @@ Yeni uygulama çalışma alanı önizlemesi özelliklerinden bazıları hala gel
 Yeni uygulama çalışma alanlarındaki bazı özellikler geçerli uygulama çalışma alanlarından farklı çalışır. Bu farklılıklar, müşterilerden aldığınız geri bildirimler temelinde isteyerek yapılmıştır ve çalışma alanlarıyla işbirliğine daha esnek bir yaklaşım getirecektir:
 
 - Üyeler yeniden paylaşabilir veya paylaşamaz: bunun yerini Katkıda Bulunan rolü almıştır
-- Salt okunur çalışma alanları: bunun yerini, çalışma alanındaki içeriğe salt okuma erişimi izni veren ve hazırlanmakta olan Görüntüleyici rolü almıştır.
+- Salt okunur çalışma alanları: Kullanıcılara bir çalışma alanı için salt okunur erişim vermek yerine çalışma alanındaki içeriğe benzer salt okunur erişim sunan ve hazırlanmakta olan Görüntüleyici rolünü atarsınız.
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 

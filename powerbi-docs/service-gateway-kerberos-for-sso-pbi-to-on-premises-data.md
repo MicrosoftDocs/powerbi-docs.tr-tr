@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964849"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256923"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına SSO (çoklu oturum açma) ile bağlanmak için Kerberos'u kullanma
 Şirket içi veri ağ geçidinizi Kerberos ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi, çoklu oturum açma (SSO) bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery’den yararlanarak kurar.
@@ -51,9 +51,7 @@ Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
    - Kullanıcının kimliğine bürünme işlemi ve bağlantı yalnızca ağ geçidi hizmet hesabının bir etki alanı hesabı (veya hizmet SID'si) olması halinde ve veritabanı için Kerberos kısıtlanmış temsilin, ağ geçidi hizmet hesabından gelen Kerberos biletleri kabul edilecek şekilde yapılandırılmış olması koşuluyla başarılı olur.  
    
    > [!NOTE]
-   > Hizmet SID'sine ilişkin olarak; AAD DirSync/Connect yapılandırılmış ve kullanıcı hesapları eşitlenmişse ağ geçidi hizmetinin çalışma zamanında yerel AD aramaları gerçekleştirmesi gerekmez ve ağ geçidi hizmeti için yerel Hizmet SID'sini (etki alanı hesabı gerekmeden) kullanabilirsiniz.  Bu belgede açıklanan Kerberos kısıtlanmış temsil yapılandırmasına ilişkin adımlar aynıdır. (Tek değişiklik, etki alanı hesabı yerine hizmet SID'sine uygulanmış olmasıdır.)
-   > 
-   > 
+   > Hizmet SID'sine ilişkin olarak: AAD DirSync/Connect yapılandırılmış ve kullanıcı hesapları eşitlenmişse ağ geçidi hizmetinin çalışma zamanında yerel AD aramaları gerçekleştirmesi gerekmez ve ağ geçidi hizmeti için yerel Hizmet SID'sini (etki alanı hesabı gerekmeden) kullanabilirsiniz. Bu belgede açıklanan Kerberos Kısıtlanmış Temsil yapılandırmasına ilişkin adımlar söz konusu yapılandırmaya yönelik olanlarla aynıdır. (Tek değişiklik, etki alanı hesabı yerine Active Directory içindeki ağ geçidi bilgisayar nesnesine uygulanmış olmasıdır).
 
 
 > [!NOTE]

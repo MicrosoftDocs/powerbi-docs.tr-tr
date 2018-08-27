@@ -2,21 +2,21 @@
 title: SharePoint Online'da rapor web bölümüyle ekleme
 description: Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032060"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257268"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -28,6 +28,7 @@ Yeni **SharePoint Online'a ekle** seçeneğini kullandığınızda, eklenen rapo
 
 **SharePoint Online'a ekle** seçeneği kullanılarak eklenen raporlarının çalışması için birkaç gereksinim vardır.
 
+* Power BI Pro lisansına veya Power BI lisansı ile [Power BI Premium kapasitesine (EM veya P SKU)](service-premium.md#premium-capacity-nodes) sahip olmanız gerekir.
 * SharePoint Online'a yönelik Power BI web bölümü için [Modern Sayfalar](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) gereklidir.
 
 ## <a name="embed-your-report"></a>Raporunuzu ekleme
@@ -110,7 +111,7 @@ Aşağıda, SharePoint Online'a yönelik Power BI web bölümü için yapılabil
 Power BI ortamınızda oturum açmak için çok faktörlü kimlik doğrulaması kullanmanız gerekiyorsa kimliğinizi doğrulamak için bir güvenlik cihazıyla oturum açmanız istenebilir. Bu durum SharePoint Online oturumunuzu çok faktörlü kimlik doğrulaması kullanmadan açmış olmanız ancak Power BI ortamınızın, güvenlik cihazıyla doğrulanmış bir hesap istemesi durumunda ortaya çıkar.
 
 > [!NOTE]
-> Çok faktörlü kimlik doğrulaması henüz Azure Active Directory 2.0 sürümünde desteklenmemektedir. Kullanıcılar *hata* ifadesini içeren bir iletiyle karşılaşacaktır. Kullanıcı, güvenlik cihazını kullanarak SharePoint Online oturumu açması halinde raporu görüntüleyebilir.
+> Çok faktörlü kimlik doğrulaması henüz Azure Active Directory 2.0 sürümünde desteklenmemektedir. Kullanıcılar *hata* ifadesini içeren bir iletiyle karşılaşır. Kullanıcı, güvenlik cihazını kullanarak SharePoint Online oturumu açması halinde raporu görüntüleyebilir.
 
 ## <a name="reports-that-do-not-load"></a>Yüklenmeyen raporlar
 

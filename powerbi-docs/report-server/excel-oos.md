@@ -2,63 +2,69 @@
 title: Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırma - Power BI Rapor Sunucusu
 description: Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/23/2018
-ms.author: maghan
-ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.date: 08/21/2018
+ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
+ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092679"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "40257929"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
+
 Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir. Rapor sunucunuz, self servis Microsoft BI içeriklerini yayımlayacak ve görüntüleyecek tek bir konum haline gelir.
 
 ![Rapor sunucusu web portalından görüntülenen Excel raporları](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Sunucuyu Office Online Server uygulamasını çalıştırmak üzere hazırlama
+
 Bu yordamları Office Online Server uygulamasının çalıştırılacağı sunucuda gerçekleştirin. Bu sunucunun Windows Server 2012 R2 veya Windows Server 2016 olması gerekir. Windows Server 2016 için Office Online Server Nisan 2017 veya sonraki bir sürüm gerekir.
 
 ### <a name="install-prerequisite-software-for-office-online-server"></a>Office Online Server için önkoşul yazılımlarını yükleme
+
 1. Gerekli rolleri ve hizmetleri yüklemek için Windows PowerShell istemini yönetici olarak açıp bu komutu çalıştırın.
-   
+
     **Windows Server 2012 R2:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
-   
+
     **Windows Server 2016:**
    
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
-   
+
     İstenirse sunucuyu yeniden başlatın.
 2. Aşağıdaki yazılımları yükleyin:
-   
+
    * [.NET Framework 4.5.2](https://go.microsoft.com/fwlink/p/?LinkId=510096)
    * [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/download/details.aspx?id=40784)
    * [Visual C++ Redistributable for Visual Studio 2015](https://go.microsoft.com/fwlink/p/?LinkId=620071)
    * [Microsoft.IdentityModel.Extention.dll](https://go.microsoft.com/fwlink/p/?LinkId=620072)
 
 ### <a name="install-office-online-server"></a>Office Online Server'ı yükleme
+
 Dış veri erişimi kullanan Excel Online özelliklerini kullanmayı planlıyorsanız (Power Pivot gibi) Office Online Server'ın kullanıcılarla ve Windows tabanlı kimlik doğrulaması kullanarak erişmeyi planladığınız dış veri kaynaklarıyla aynı Active Directory ormanında olması gerektiğini unutmayın.
 
 1. Office Online Server'ı [Toplu Lisanslama Hizmeti Merkezi (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) sayfasından indirin. İndirilecek dosya VLSC portalında Office ürünlerinin altında bulunur. Geliştirme amacıyla OOS uygulamasını MSDN aboneliği indirme sayfasından indirebilirsiniz.
 2. Setup.exe dosyasını çalıştırın.
 3. **Microsoft Yazılım Lisansı Koşulları'nı okuyun** sayfasında **Bu sözleşmenin koşullarını kabul ediyorum**'u ve ardından **Devam**'ı seçin.
 4. **Dosya konumu seçin** sayfasında Office Online Server dosyalarının yüklenmesini istediğiniz klasörü belirleyin (örneğin,*C:\Program Files\Microsoft Office Web Apps*) ve ardından **Şimdi Yükle**'yi seçin. Belirttiğiniz klasör yoksa Kurulum sırasında oluşturulur.
-   
-    Office Online Server uygulamasını sistem sürücüsüne yüklemenizi öneririz.
+
+    **_Office Online Server uygulamasını sistem sürücüsüne yüklemenizi öneririz._**
+
 5. Kurulum Office Online Server yüklemesini tamamladıktan sonra **Kapat**'ı seçin.
 
 ### <a name="install-language-packs-for-office-web-apps-server-optional"></a>Office Web Apps Sunucusu dil paketlerini yükleme (isteğe bağlı)
+
 Office Online Server Dil Paketleri, kullanıcıların web tabanlı Office dosyalarını birden fazla dilde görüntülemesini sağlar.
 
 Dil paketlerini yüklemek için bu adımları uygulayın.
@@ -69,7 +75,9 @@ Dil paketlerini yüklemek için bu adımları uygulayın.
 4. Kurulum Office Online Server yüklemesini tamamladıktan sonra **Kapat**'ı seçin.
 
 ## <a name="deploy-office-online-server"></a>Office Online Server'ı dağıtma
+
 ### <a name="create-the-office-online-server-farm-https"></a>Office Online Server grubunu oluşturma (HTTPS)
+
 Aşağıdaki örnekte gösterilen şekilde tek bir sunucudan oluşan yeni bir Office Online Server grubu oluşturmak için New-OfficeWebAppsFarm komutunu kullanın.
 
 ```
@@ -83,6 +91,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 * **–CertificateName**: Sertifikanın kolay adıdır.
 
 ### <a name="create-the-office-online-server-farm-http"></a>Office Online Server grubunu oluşturma (HTTP)
+
 Aşağıdaki örnekte gösterilen şekilde tek bir sunucudan oluşan yeni bir Office Online Server grubu oluşturmak için New-OfficeWebAppsFarm komutunu kullanın.
 
 ```
@@ -95,6 +104,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 * **–AllowHttp**: Grubu HTTP kullanacak şekilde yapılandırır.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server grubunun başarıyla oluşturulduğunu doğrulama
+
 Grup oluşturulduktan sonra grupla ilgili ayrıntılar Windows PowerShell isteminde görüntülenir. Office Online Server'ın doğru şekilde yüklendiğini ve yapılandırıldığını doğrulamak için aşağıdaki örnekte gösterilen şekilde bir web tarayıcısı kullanarak Office Online Server keşif URL'sine erişin. Keşif URL'si, Office Online Server grubunuzu yapılandırırken belirlediğiniz *InternalUrl* parametresine */hosting/discovery* eklenerek elde edilir, örneğin:
 
 ```
@@ -115,6 +125,7 @@ Office Online Server beklenen şekilde çalışıyorsa web tarayıcınızda bir 
 ```
 
 ### <a name="configure-excel-workbook-maximum-size"></a>Excel çalışma kitabı maksimum boyutunu yapılandırma
+
 Power BI Rapor Sunucusu'ndaki tüm dosyalar için maksimum dosya boyutu 100 MB olarak belirlenmiştir. Bu sınıra uymak için bu ayarı OOS içinde el ile ayarlamanız gerekir.
 
 ```
@@ -122,6 +133,7 @@ Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 ```
 
 ## <a name="using-effectiveusername-with-analysis-services"></a>EffectiveUserName özelliğini Analysis Services ile birlikte kullanma
+
 Analysis Services canlı bağlantılarına olanak sağlamak amacıyla, bir Excel çalışma kitabı içinde EffectiveUserName kullanan bağlantılar için. OOS uygulamasının EffectiveUserName özelliğini kullanabilmesi için OOS sunucusunun makine hesabını Analysis Services örneğine yönetici olarak eklemeniz gerekir. Bunu yapmak için Management Studio for SQL Server 2016 veya sonraki bir sürüm gereklidir.
 
 Şu an için Excel çalışma kitaplarında yalnızca ekli Analysis Services bağlantıları desteklenmektedir. Kullanıcı vekilliğini yapmak mümkün olmadığı için kullanıcı hesabının Analysis Services'e bağlanma iznine sahip olması gerekir.
@@ -135,6 +147,7 @@ Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
 ```
 
 ## <a name="configure-a-power-pivot-instance-for-data-models"></a>Veri modelleri için Power Pivot örneği yapılandırma
+
 Analysis Services Power Pivot modu örneği yükleyerek Power Pivot kullanan Excel çalışma kitaplarıyla çalışabilirsiniz. Örneğin adının *POWERPIVOT* olduğundan emin olun. Analysis Services Power Pivot modu örneği için OOS sunucusunun makine hesabını yönetici olarak ekleyin. Bunu yapmak için Management Studio for SQL Server 2016 veya sonraki bir sürüm gereklidir.
 
 OOS uygulamasının Power Pivot modu örneğini kullanabilmesi için aşağıdaki komutu çalıştırın.
@@ -150,9 +163,11 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 ```
 
 ### <a name="firewall-considerations"></a>Güvenlik duvarı ile ilgili önemli noktalar
+
 Güvenlik duvarı sorunlarıyla karşılaşmamak için 2382 ve 2383 numaralı bağlantı noktalarını açmanız gerekebilir. Ayrıca Power Pivot örneği için *msmdsrv.exe* dosyasını uygulama güvenlik duvarı ilkesi olarak ekleyebilirsiniz.
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>Power BI Rapor Sunucusu'nu OOS sunucusunu kullanacak şekilde yapılandırma
+
 **Site ayarları**'nın **Genel** sayfasına OOS bulma URL'sini girin. OOS keşif URL'si, OOS sunucusu dağıtılırken kullanılan *InternalUrl* parametresine */hosting/discovery* eklenerek elde edilir. Örneğin, HTTP için `http://servername/hosting/discovery`. HTTPS içinse `https://server.contoso.com/hosting/discovery`.
 
 **Site ayarları** sayfasına ulaşmak için sağ üst köşedeki **dişli simgesini** ve ardından **Site ayarları**'nı seçin.
@@ -164,14 +179,14 @@ Yalnızca **Sistem Yöneticisi** rolüne sahip kullanıcılar Office Online Serv
 Keşif URL'sini girip **Uygula**'yı belirledikten ve web portalında bir Excel çalışma kitabını seçtikten sonra çalışma kitabının web portalında görüntülenmesi gerekir.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-* Power BI Rapor Sunucusu'nda Excel çalışma kitaplarını görüntüleme özelliği şu anda önizleme sürümündedir.
+
 * Çalışma kitaplarında salt okunur erişime sahip olursunuz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

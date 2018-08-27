@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799430"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257074"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -84,7 +84,7 @@ Görseldeki bir değeri seçtiğinizde diğer görseller filtrelenmez. Diğer g�
 ## <a name="drill-down-and-up-in-a-visual"></a>Bir görselde detaya gitme ve detaydan çıkma
 Rapor yazarı görsele detaya gitme özelliği eklemişse, görselin bir parçasını oluşturan değerleri görmek için detaya gidebilirsiniz. Power BI Desktop'ta veya Power BI hizmetinde [bir görsele detaya gitme özelliği ekleyin](power-bi-visualization-drill-down.md). 
 
-* Görseldeki bir veri noktasına tıklayarak bunun araç ipucunu görüntüleyebilirsiniz. Detaya gitme seçeneği varsa araç ipucunun en altında dokunabileceğiniz oklar olur. 
+* Araç ipucunu göstermek için görseldeki belirli bir çubuğa veya noktaya dokunun ve tutun. Detaya gitme seçeneği varsa araç ipucunun en altında dokunabileceğiniz oklar olur. 
   
   ![Bir görselde detaya gitme](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

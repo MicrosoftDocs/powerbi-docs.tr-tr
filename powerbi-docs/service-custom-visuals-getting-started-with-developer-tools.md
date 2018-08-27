@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600391"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256915"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Özel görseller oluşturmak için geliştirici araçları kullanma
 Özel görseller, kullanıcılarınızın ihtiyaçlarını karşılamanıza ve uygulamanızın tasarımını uyumlu hale getirmenize olanak sağlar. Geliştirme araçlarını kullanarak Power BI için özel görsel oluşturmayı öğrenin.
@@ -178,10 +178,10 @@ Artık görselinizi geliştirmeye başlayabilirsiniz.
 Aşağıdaki komutu çalıştırarak yeni bir görsel projesi oluşturabilirsiniz.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-*My Visual Name* ifadesini görsele vermek istediğiniz adla değiştirebilirsiniz. Bu, oluşturulan `pbiviz.json` dosyasındaki `name` ve `displayName` alanları düzenlenerek daha sonra değiştirilebilir.
+*MyVisualName* ifadesini görsele vermek istediğiniz adla değiştirebilirsiniz. Bu, oluşturulan `pbiviz.json` dosyasındaki `name` ve `displayName` alanları düzenlenerek daha sonra değiştirilebilir.
 
 Bu komut, çalıştırıldığı dizinde yeni bir klasör oluşturur. Görseliniz için basit bir başangıç şablonu ortaya çıkarır. Komut çalışmayı tamamladığında dizini açabilir ve yeni görseliniz üzerinde çalışmaya başlamak üzere, sık kullandığınız düzenleyicinizi kullanabilirsiniz.
 

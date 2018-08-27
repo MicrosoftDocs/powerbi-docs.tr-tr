@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329323"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256963"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -24,7 +24,9 @@ Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize
 
 **Canlı bağlantı kullanarak keşfetme**: Canlı bağlantı kullandığınızda Tablo modelinizdeki veya perspektifinizdeki tablolar, sütunlar ve ölçüler gibi öğeler Power BI Desktop uygulamasının Alanlar listesinde görünür. Power BI Desktop'ın gelişmiş görselleştirme ve rapor araçlarını kullanarak Tablo modelinizi yeni ve oldukça etkileşimli şekillerde keşfedebilirsiniz.
 
-Canlı bağlantı sırasında Tablo modelinizdeki veriler Power BI Desktop'a aktarılmaz. Görselleştirmelerle etkileşim kurduğunuzda Power BI Desktop, Tablo modelini sorgular ve gördüğünüz sonuçları hesaplar. Her zaman en güncel verileri görürsünüz. Unutmayın, Tablo modelleri oldukça güvenlidir. Power BI Desktop'ta görünen öğeler bağlantı kurduğunuz Tablo modelindeki izinlere göre değişiklik gösterir.
+Canlı bağlantı sırasında Tablo modelinizdeki veriler Power BI Desktop'a aktarılmaz. Görselleştirmelerle etkileşim kurduğunuzda Power BI Desktop, Tablo modelini sorgular ve gördüğünüz sonuçları hesaplar. Son işleme zamanına göre veya Tablo Modelindeki Doğrudan Sorgu tablolarından her zaman Tablo modelindeki en güncel verilere bakıyor olursunuz. 
+
+Unutmayın, Tablo modelleri oldukça güvenlidir. Power BI Desktop'ta görünen öğeler bağlantı kurduğunuz Tablo modelindeki izinlere göre değişiklik gösterir.
 
 Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayımlayarak paylaşabilirsiniz. Tablo modeline canlı bağlantı içeren bir Power BI Desktop dosyasını Power BI sitenizde yayımladığınızda bir yönetici tarafından şirket içi veri ağ geçidi yüklenmesi ve yapılandırılması gerekir. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi](service-gateway-onprem.md).
 

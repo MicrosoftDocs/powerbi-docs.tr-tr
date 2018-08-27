@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925448"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256814"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
-Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar, böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
+Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
 
 Çalışma alanlarını bir Premium kapasiteye atayarak Power BI Premium'dan yararlanabilirsiniz. *Premium kapasite*, kuruluşunuz için ayrılmış bir kaynaktır. Premium kapasiteye atanmamış çalışma alanları, paylaşılan kapasitede bulunur.
 
-İş yüklerinizin diğer müşteriler tarafından paylaşılan hesaplama kaynaklarında çalıştırıldığı *paylaşılan kapasite*, Power BI'da alışkın olduğunuz deneyimdir. Paylaşılan kapasitede, tüm kullanıcılar için kaliteli bir deneyim sağlamak üzere her bir kullanıcıya ilişkin olarak daha fazla sınırlama getirilir.
+*Paylaşılan kapasite* ile iş yükleriniz diğer müşterilerle paylaşılan hesaplama kaynaklarında çalışır. Paylaşılan kapasitede, tüm kullanıcılar için kaliteli bir deneyim sağlamak üzere her bir kullanıcıya ilişkin olarak daha fazla sınırlama getirilir.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -33,7 +33,7 @@ Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premi
 
 |  | Paylaşılan kapasite | Power BI Premium kapasitesi |
 | --- | --- | --- |
-| **Yenileme sıklığı** |Günde 8 kez |Kısıtlı değil |
+| **Yenileme sıklığı** |Günde 8 kez |48/gün |
 | **Ayrılmış donanımla yalıtım** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
 | ***Tüm kullanıcılara*** yönelik **Kurumsal Dağıtım** | | |
 | Uygulamalar ve paylaşım |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>1</sup> |
@@ -48,8 +48,8 @@ Power BI Premium kapasitesini kullanmaya başlamak için bir kapasiteye çalış
 
 Bir çalışma alanı premium kapasiteyle desteklendiğinde Power BI Premium'un sunduğu avantajlardan yararlanırsınız.
 
-* Zamanlanmış yenilemeler: Daha önceki kullanıcılar için içeri aktarılan modellerle yenileme zamanlama, günde 8 kez ile sınırlıydı. Premium çalışma alanlarındaki veri kümeleri için bu sınırlama kaldırılır. Söz konusu sınırlama, DirectQuery'ye yönelik zamanlanmış önbellek yenileme ayarları için geçerli değildir. Bu ayarlar Premium ve Paylaşılan kapasitelerde aynı kalır.
-* Ayrılmış donanımla yalıtım: Paylaşılan kapasitenin yapısı gereği, raporlarınızın ve panolarınızın performansı, kapasitedeki diğer iş yüklerinin isteklerinden etkilenebilir (bu duruma karşı aldığımız önlemlere rağmen). Buna karşılık, Premium, iş yükleriniz için daha tutarlı ve güvenilir bir performans sunmak üzere bunları ilgisiz iş yüklerinden yalıtır.
+* **Zamanlanmış yenilemeler**: Paylaşılan kapasite ile içeri aktarılan modeller için zamanlanmış yenilemeler günde 8 kez ile sınırlıdır. Yenileme sayısı, Premium çalışma alanlarındaki veri kümeleri için günde 48 kez olur. Söz konusu sınırlama, DirectQuery'ye yönelik zamanlanmış önbellek yenileme ayarları için geçerli değildir. Bu ayarlar Premium ve Paylaşılan kapasitelerde aynı kalır.
+* **Ayrılmış donanımla yalıtım**: Paylaşılan kapasitenin yapısı gereği, raporlarınızın ve panolarınızın performansı, kapasitedeki diğer iş yüklerinin isteklerinden etkilenebilir (bu duruma karşı aldığımız önlemlere rağmen). Buna karşılık, Premium, iş yükleriniz için daha tutarlı ve güvenilir bir performans sunmak üzere bunları ilgisiz iş yüklerinden yalıtır.
 
 Bir uygulama, premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir.
 
