@@ -9,15 +9,15 @@ metadata:
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
-  ms.topic: get-started-article
+  ms.topic: conceptual
   ms.date: 07/24/2018
   ms.author: davidi
-  ms.openlocfilehash: 40dee0a681a65c842560791cefdfb18c31b6a30b
-  ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+  ms.openlocfilehash: 09d9ad1037e9a55d36b738211fc4e75d8895af9b
+  ms.sourcegitcommit: 16404388afce6045744c3f2dcb501305e34fb256
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 07/26/2018
-  ms.locfileid: "39256435"
+  ms.lasthandoff: 08/27/2018
+  ms.locfileid: "43114073"
 items:
 - durationInMinutes: 1
   content: >

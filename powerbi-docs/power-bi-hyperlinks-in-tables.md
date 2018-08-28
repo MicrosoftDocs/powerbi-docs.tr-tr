@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310188"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799057"
 ---
 # <a name="hyperlinks-in-tables"></a>Tablolardaki köprüler
 Bu konu başlığı altında, Power BI Desktop'ın köprü oluşturmak için nasıl kullanılacağı açıklanmaktadır. Ardından, oluşturduktan sonra bu köprü bağlantılarını rapor tablolarınıza ve matrislerinize eklemek için Desktop'ı veya Power BI hizmetini kullanabilirsiniz. 
@@ -39,8 +39,10 @@ Köprü ekleme yordamı, verileri içeri aktararak mı yoksa DirectQuery bağlan
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. **Web URL'si** seçeneğini belirleyin.
 4. Rapor görünümüne geçin ve Web URL'si olarak kategorilendirilen alanı kullanarak bir tablo veya matris oluşturun. Köprüler mavi renkte ve altı çizili olarak görünür.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **NOT**: URL'ler **http://, https://** veya **www** ile başlamalıdır.
+> 
+>   
 5. Tabloda uzun bir URL'nin görünmesini istemiyorsanız bunun yerine köprü ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) simgesini gösterebilirsiniz. Matrislerde simge gösteremezsiniz.
    
    * Grafiği seçip etkin duruma getirin.
