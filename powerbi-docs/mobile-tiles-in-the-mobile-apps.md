@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280145"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151964"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler için geçerlidir:
@@ -28,10 +28,6 @@ Kutucuklar verilerinize ilişkin, panoya sabitlenmiş canlı ve anlık veri gör
 Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak onlarla etkileşime geçersiniz. Bing ve R tabanlı kutucuklar dahil olmak üzere her türden görsel öğe içeren kutucukları açabilirsiniz.
 
 ## <a name="tiles-in-the-ios-apps"></a>iOS uygulamalarında kutucuklar
-> [!NOTE]
-> [iPhone uygulamanızda resim kutucukları oluşturabilir](mobile-iphone-app-get-started.md) ve bunları panolarınıza kaydedebilirsiniz.
-> 
-> 
 
 1. [iOS mobil uygulamasında bir pano](mobile-apps-view-dashboard.md) açın.
 2. Kutucuklardan birine dokunun. Kutucuk verilerini daha kolay görüntülemenizi ve araştırmanızı sağlayan odak modu açılır. Odak modunda şunları yapabilirsiniz:
@@ -40,7 +36,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Örneğin bu çizgi grafikte **This Year Sales</em>* ve **Last Year Sales** için **August** dönemindeki değerler seçilmiştir.*  
+   *Örneğin bu çizgi grafikte **This Year Sales** ve **Last Year Sales** için **August** dönemindeki değerler seçilmiştir.*  
    
    Pasta grafiğinde pasta dilimlerinden birine dokunarak dilimin değerinin pastanın en üstünde gösterilmesini sağlayabilirsiniz.  
    
@@ -107,7 +103,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>Bu çubuk grafikte **Decor</em>* çubuğunun değerleri grafiğin en üstünde gösterilmektedir.*
+   *Bu çubuk grafikte **Decor** çubuğunun değerleri grafiğin en üstünde gösterilmektedir.*
    
    **Tam ekran** simgesine ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) dokunarak kutucuğu, gezinti ve menü çubuklarının görünmediği tam ekran modunda açabilirsiniz.
    
