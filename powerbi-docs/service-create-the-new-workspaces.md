@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257123"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914531"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma (önizleme)
 
@@ -29,12 +29,13 @@ Yeni çalışma alanları önizlemesiyle şimdi şunları yapabilirsiniz:
 - Office 365 grubu oluşturmadan Power BI'da bir çalışma alanı oluşturabilirsiniz.
 - Çalışma alanında daha esnek bir izin yönetimi için daha ayrıntılı çalışma alanı rolleri kullanabilirsiniz.
  
-Yeni çalışma alanlarından birini oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olmazsınız. Çalışma alanı yönetiminin tamamı Office 365'te değil Power BI'dadır. Yine çalışma alanına Office 365 grubu ekleyebilir ve içeriğe kullanıcı erişimini Office 365 grupları aracılığıyla yönetmeye devam edebilirsiniz. Öte yandan, ek olarak güvenlik gruplarını, dağıtım listelerini kullanabilir ve doğrudan Power BI'ın içinden kişileri ekleyebilirsiniz. Bu özellik, çalışma alanı erişimini yönetmek için daha esnek bir yol sağlar
+Yeni çalışma alanlarından birini oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olmazsınız. Çalışma alanı yönetiminin tamamı Office 365'te değil Power BI'dadır. Yine çalışma alanına Office 365 grubu ekleyebilir ve içeriğe kullanıcı erişimini Office 365 grupları aracılığıyla yönetmeye devam edebilirsiniz. Öte yandan, ek olarak güvenlik gruplarını, dağıtım listelerini kullanabilir ve doğrudan Power BI'ın içinden kişileri ekleyebilirsiniz. Bu özellik, çalışma alanı erişimini yönetmek için daha esnek bir yol sağlar. Artık çalışma alanı yönetimi Power BI'da olduğundan, kuruluşta çalışma alanlarını kimlerin oluşturabileceğine Power BI yöneticileri karar verir. Ayrıntılar için [Power BI yönetim portalı makalesi, Çalışma alanları bölümüne](service-admin-portal.md#workspace-settings) bakın. 
 
 Yeni çalışma alanlarına kullanıcı gruplarını ve kişileri üye, katkıda bulunan veya yönetici olarak eklersiniz. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birden çok kullanıcı grubunda yer alıyorsa, rol tarafından sağlanan en yüksek izin düzeyine sahip olur.  Farklı rollerin açıklamaları için bu makalenin devamındaki [Yeni çalışma alanlarındaki roller](#roles-in-the-new-workspaces) bölümüne bakın.
 
-Bir uygulama çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. Kuruluşunuzun içindeki diğer kişilere içerik dağıtmak istiyorsanız, söz konusu kullanıcılara Power BI Pro lisansları atayabilir veya çalışma alanını Power BI Premium Kapasitesine getirebilirsiniz.
-Bu bir önizleme özelliği olduğundan, bilmeniz gereken bazı sınırlamalar vardır. Geçerli sınırlamaların açıklaması için bu makalenin devamındaki <section link> bölümüne bakın. Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Önizlemeyle birlikte kalıcı olmasını bekleyebileceğiniz değişikliklerin açıklaması için bu makalenin devamındaki <bölüm bağlantısı> bölümüne bakın.
+Bir uygulama çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. Kuruluşunuzun içindeki diğer kişilere içerik dağıtmak istiyorsanız, söz konusu kullanıcılara Power BI Pro lisansları atayabilir veya çalışma alanını Power BI Premium kapasitesine getirebilirsiniz.
+
+Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Önizlemeyle birlikte kalıcı olmasını bekleyebileceğiniz değişikliklerin açıklaması için bu makalenin devamındaki [Farklı çalışan uygulama çalışma alanı özellikleri](#app-workspace-features-that-work-differently) bölümüne bakın. Bu bir önizleme özelliği olduğundan, bilmeniz gereken bazı sınırlamalar vardır. Geçerli sınırlamaların açıklaması için bu makalenin devamındaki [Bilinen sorunlar](#known-issues) bölümüne bakın. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Yeni uygulama çalışma alanlarının dağıtımı
 

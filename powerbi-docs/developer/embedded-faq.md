@@ -2,30 +2,30 @@
 title: Power BI Embedded hakkında sık sorulan sorular
 description: Power BI Embedded hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702972"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
-* Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
+* Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 
 ## <a name="general"></a>Genel
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded nedir?
 
-Microsoft Power BI Embedded uygulama geliştiricilerin, kendi veri görselleştirmelerini ve kontrollerini sıfırdan oluşturmak için zaman ve para harcamadan nefes kesen, tam etkileşimli raporları, panoları ve kutucukları uygulamalarına ekleyebilmelerini sağlar.
+Microsoft Power BI Embedded (PBIE) uygulama geliştiricilerin, kendi veri görselleştirmelerini ve kontrollerini sıfırdan oluşturmak için zaman ve para harcamadan nefes kesen, tam etkileşimli raporları uygulamalarına ekleyebilmelerini sağlar.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded kimler içindir?
 
@@ -70,7 +70,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 | Katıştırılmış uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
 | Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
-| Power BI raporlarını Teams'de kullanma | Hayır | Evet | Evet |
+| Power BI raporlarını Teams'de kullanma (yalnızca masaüstü uygulaması) | Hayır | Evet | Evet |
 | ÜCRETSİZ Power BI lisansıyla içeriklere Powerbi.com ve Power BI mobilden erişme | Hayır | Hayır | Evet |
 | MS Office uygulamalarına eklenmiş ÜCRETSİZ Power BI lisansıyla içeriklere erişme | Hayır | Evet | Evet |
 
@@ -79,10 +79,10 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma     |Azure portalı |Office |Office |
-|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme<br>* [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
+|Kullanım örnekleri |* Kendi uygulamanıza içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (yalnızca masaüstü uygulaması)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme |* Kendi uygulamanıza içerik ekleme<br>* Diğer MS Office uygulamalarına ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (yalnızca masaüstü uygulaması)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) içerik ekleme<br>* [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
-|Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
+|Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir (yalnızca masaüstü uygulaması) |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
 
@@ -126,7 +126,7 @@ Power BI için kuruluş hesabıyla kaydolmanız gerekir. MSA (Microsoft hesabı)
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Azure kapasitelerini oluşturmak ve yönetmek için API'leri kullanabilir miyim?
 
-Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Powershell cmdlet'leri ve ARM API'leri vardır.
+Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Powershell cmdlet'leri ve Azure Resource Manager (ARM) API'leri vardır.
 
 * Rest API'leri - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell cmdlet'leri - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
@@ -162,7 +162,7 @@ Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplık
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz? 
 
-Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde yapılandırılmalıdır (gerekli kapsamlarla) ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak PowerBI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
+Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde (gerekli kapsamlarla) yapılandırılmalıdır ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak Power BI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -239,7 +239,7 @@ Kâr amacı gütmeyen kuruluşlar ve eğitim kurumları Azure'ı satın alabilir
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu nedir?
 
-**Power BI Çalışma Alanı Koleksiyonu** (**Power BI Embedded** Sürüm 1), **Power BI Çalışma Alanı Koleksiyonu** Azure kaynağını temel alan bir çözümdür. Bu çözüm, **Power BI Çalışma Alanı Koleksiyonu** çözümü altındaki Power BI içeriğini, özel API’leri ve power BI’da uygulama kimliğini doğrulamak amacıyla çalışma alanı koleksiyonu anahtarlarını kullanarak müşterileriniz için **Power BI Embedded** uygulamaları oluşturmanıza olanak tanır.
+**Power BI Çalışma Alanı Koleksiyonu** (**Power BI Embedded** Sürüm 1), **Power BI Çalışma Alanı Koleksiyonu** Azure kaynağını temel alan bir çözümdür. Bu çözüm, **Power BI Çalışma Alanı Koleksiyonu** çözümü altındaki Power BI içeriğini, özel API’leri ve Power BI’da uygulama kimliğini doğrulamak amacıyla çalışma alanı koleksiyonu anahtarlarını kullanarak müşterileriniz için **Power BI Embedded** uygulamaları oluşturmanıza olanak tanır.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e geçiş yapabilir miyim?
 
@@ -273,7 +273,7 @@ Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya
 
 Özelliklerden bazıları şunlardır:
 * **Power BI Çalışma Alanı Koleksiyonu** ile desteklenen 2 veri kaynağı karşısında tüm PBI veri kaynakları desteklenmektedir. 
-* Soru-cevap, Yenileme, yer işaretleri, pano ve kutucuk ekleme, özel menü vb. yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
+* Soru-cevap, yenileme, yer işaretleri, pano ve kutucuk ve pano ekleme ve özel menü gibi yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
 * Kapasite faturalama modeli.
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için Katılım Deneyimi Aracı
