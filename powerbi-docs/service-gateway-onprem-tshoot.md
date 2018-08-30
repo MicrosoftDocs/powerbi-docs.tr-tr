@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658024"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151918"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 
@@ -279,7 +279,7 @@ Performans sayaçlarının bir listesini aşağıda bulabilirsiniz.
 | # of Mashup open connection failed / sec |Saniye başına başarısız olan Mashup bağlantı açma işlemlerinin sayısı. |
 | # of Mashup queries executed / sec |Saniye başına yürütülen Mashup sorgularının (başarılı veya başarısız) sayısı. |
 | # of Mashup queries failed / sec |Saniye başına yürütülen başarısız Mashup sorgularının sayısı |
-| # of multiple result sets of OLEDB queries failed / sec |Saniye başına yürütülen başarısız OLEDB çoklu sonuç kümesi sorgularının sayısı. |
+| Saniye başına başarısız olan OLEDB çoklu sonuç kümesi sayısı |Saniye başına yürütülen başarısız OLEDB çoklu sonuç kümesi sorgularının sayısı. |
 | # of OLEDB multiple result sets of queries executed / sec |Saniye başına yürütülen OLEDB çoklu sonuç kümesi sorgularının (başarılı veya başarısız) sayısı. |
 | # of OLEDB open connection executed / sec |Saniye başına yürütülen OLEDB bağlantı açma işlemlerinin (başarılı veya başarısız) sayısı. |
 | # of OLEDB open connection failed / sec |Saniye başına başarısız olan OLEDB bağlantı açma işlemlerinin sayısı. |
