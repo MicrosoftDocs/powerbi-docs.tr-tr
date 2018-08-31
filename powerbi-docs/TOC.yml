@@ -965,6 +965,8 @@ items:
         items:
         - name: Azure'da kapasite oluşturma
           href: developer/azure-pbie-create-capacity.md
+        - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
+          href: developer/embedded-multi-geo.md
         - name: Azure'da kapasiteyi ölçeklendirme
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure'da kapasiteyi duraklatma ve başlatma
@@ -1340,9 +1342,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: d3eb5219dfe13811015cd957384a13be8d52a31d
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 2ea64e210867bb1f2ddf8f68a6a36c114ca7b5e1
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250716"
+ms.locfileid: "43300012"
