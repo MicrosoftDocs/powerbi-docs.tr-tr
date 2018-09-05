@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137041"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695122"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI ile Microsoft Dynamics Marketing'e bağlanma
 Power BI için Microsoft Dynamics Marketing içerik paketi ile Dynamics Marketing'deki verilerinize kolayca erişir ve verilerinizi zahmetsizce çözümlersiniz. İçerik paketi; Programlar, Kampanyalar, Pazarlama Kişileri ve Şirketleri, Müşteri Adayları, Müşteri Adayı Etkileşimleri ve Puanlaması, E-posta Pazarlama İletileri ve Web Siteleri, davranış gözlemleri, bütçeler, finansal işlemler, performans KPI'leri gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle OData akışına ilişkin açıklayıcı bir model kullanır. 
@@ -35,7 +35,7 @@ Power BI için [Dynamics Marketing içerik paketine](https://app.powerbi.com/get
 3. **Microsoft Dynamics Marketing** \> **Al** seçeneğini belirleyin.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Hesabınızla ilişkili OData URL'sini girin.  Bu URL, "https:// [örnek\_adı].marketing.dynamics.com/analytics" biçiminde olacaktır.
+4. Hesabınızla ilişkili OData URL'sini girin.  Bu, “`https://[instance\_name].marketing.dynamics.com/analytics.`” biçiminde olur
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. İstendiğinde kimlik bilgilerinizi sağlayın (Tarayıcınızda zaten oturum açtıysanız bu adım atlanabilir). Kimlik Doğrulama Yöntemi için **OAuth2** seçeneğini belirleyin ve **Oturum aç** düğmesine tıklayın:
