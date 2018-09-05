@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616017"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695145"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Tüm mobil platformlardaki (iOS, Android cihazlar ve Windows 10) Power BI mobil uygulamalarında belirli bir konumun bağlantısına (*ayrıntılı bağlantı*) yönelik bir tekdüzen kaynak tanımlayıcısı (URI) oluşturup kullanabilirsiniz.
@@ -68,7 +68,7 @@ Bu URI, Power BI mobil uygulamasında belirli bir raporu açar:
 
 36 karakterden oluşan rapor nesnesi kimliğini bulmak için Power BI hizmetindeki (https://powerbi.com)) söz konusu rapora gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>Belirli bir rapor sayfası ile açma
 Bu URI, Power BI mobil uygulamasında belirli bir rapor sayfasını açar:
@@ -79,7 +79,7 @@ Rapor sayfası, ardından gelecek bir sayıyla birlikte "ReportSection" olarak a
 
 Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>Tam ekran modunda açma
 Belirli bir rapor ile tam ekran modunda açmak için, kalın yazılmış parametreyi ekleyin:
@@ -95,7 +95,7 @@ Ayrıca dizeye bağlam da ekleyebilirsiniz. Ardından bize ulaşmanız gerekirse
 
 Örneğin, şu URL'nin vurgulanan bölümüne bakın: 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 
