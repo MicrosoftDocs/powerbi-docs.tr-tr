@@ -987,6 +987,8 @@ items:
           href: https://docs.microsoft.com/rest/api/power-bi-embedded/
         - name: Power BI REST API'leri
           href: https://msdn.microsoft.com/library/mt147898.aspx
+        - name: Power BI Rest API başvurusu
+          href: developer/rest-api-reference.md
       - name: .NET SDK İndirme
         href: https://go.microsoft.com/fwlink/?linkid=848274
       - name: Özel düzenleri uygulamaya ekleme
@@ -1091,6 +1093,8 @@ items:
       items:
       - name: REST API'leri
         href: https://docs.microsoft.com/rest/api/power-bi
+      - name: Power BI Rest API başvurusu
+        href: developer/rest-api-reference.md
       - name: Tam kod listesi
         href: developer/walkthrough-push-data-complete-code.md
     - name: Kaynaklar
@@ -1342,9 +1346,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 2ea64e210867bb1f2ddf8f68a6a36c114ca7b5e1
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 55614628ef823534357fa7e1700e21417e821ca6
+ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300012"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "43821743"
