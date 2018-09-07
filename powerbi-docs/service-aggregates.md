@@ -2,20 +2,20 @@
 title: Görselleştirmelerdeki toplama işlemleri (toplam, ortalama, maksimum vb.)
 description: Power BI'da bulunan bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirme
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247608"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241557"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?
@@ -43,7 +43,7 @@ Power BI'da görselleştirme oluşturulurken, sayısal alanlar bazı kategorik a
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Toplama işlemleri neden istediğim şekilde gerçekleştirilmiyor?
 Power BI hizmetinde toplama işlemleri gerçekleştirmek karmaşık gelebilir. Bir sayısal alanın söz konusu olması durumunda Power BI toplama işleminin değiştirilmesine izin vermiyor olabilir. Yıl gibi bir alanı ele alırken bu alanı toplamak değil, yalnızca oluşumları saymak istiyor da olabilirsiniz.
 
-Çoğunlukla, sorun alanın veri kümesinde tanımlanma biçiminden kaynaklanır. Alan metin olarak tanımlanmış olabilir ve bu, alanın toplanamamasına veya ortalamasının alınamamasına bir açıklama getirebilir. Ne yazık ki, [bir alanın kategorisi yalnızca veri kümesi sahibi tarafından değiştirilebilir](desktop-measures.md). Bu, veri kümesine yönelik sahip izinlerinizin bulunması halinde, Desktop'ta veya veri kümesinin oluşturulması için kullanılan programda (ör. Excel) bu sorunu çözebileceğiniz anlamına gelir. Aksi halde, yardım almak için veri kümesinin sahibine ulaşmanız gerekir.  
+Çoğunlukla, sorun alanın veri kümesinde tanımlanma biçiminden kaynaklanır. Alan metin olarak tanımlanmış olabilir ve bu, alanın toplanamamasına veya ortalamasının alınamamasına bir açıklama getirebilir. Ne yazık ki, [bir alanın kategorisi yalnızca veri kümesi sahibi tarafından değiştirilebilir](desktop-measures.md). Bu, veri kümesine yönelik sahip izinlerinizin bulunması halinde, Desktop'ta veya veri kümesinin oluşturulması için kullanılan programda (örneğin, Excel) bu sorunu çözebileceğiniz anlamına gelir. Aksi halde, yardım almak için veri kümesinin sahibine ulaşmanız gerekir.  
 
 Sorunu belirlemenize yardımcı olmak için, bu makalenin sonunda **Önemli noktalar ve sorun giderme** adlı özel bir bölüme yer verdik.  Cevabı bu bölümde bulamamanız halinde, doğrudan Power BI ekibinden hızlı bir cevap almak için sorunuzu [Power BI Topluluğu forumunda](http://community.powerbi.com) yayınlayın.
 
@@ -78,7 +78,7 @@ Bir alanı toplamak için kullanılabilen seçeneklerden bazıları şunlardır:
 * **Sayı (Benzersiz).** Bu, alandaki farklı değerleri sayar.
 * **Standart sapma.**
 * **Varyans**.
-* **Ortanca**.  Ortanca (ortadaki) değeri gösterir. Bu, üstünde ve altında aynı sayıda öğe bulunan değerdir.  2 ortancanın bulunması halinde Power BI, bu değerlerin ortalamasını alır.
+* **Ortanca**.  Ortanca (ortadaki) değeri gösterir. Bu, üstünde ve altında aynı sayıda öğe bulunan değerdir.  İki ortancanın bulunması halinde Power BI, bu değerlerin ortalamasını alır.
 
 Örneğin, aşağıdaki veriler kullanıldığında,
 
@@ -129,7 +129,7 @@ C: Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop
 
 S:  Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
 
-C1: Bu, veri kümesi sahibinin, alanı sayı olarak *sınıflandırmamış* olmasıyla (yanlışlıkla veya kasıtlı bir şekilde) açıklanabilir. Örneğin, bir veri kümesinde **yıl** alanı yer alıyorsa veri kümesi sahibi, **yıl** alanının sayılması (ör. 1974'te doğan kişi sayısı) daha olası bir durum olduğundan (toplanmak veya ortalaması alınmak yerine) bu alanı metin kategorisine dahil etmiş olabilir. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.  
+C1: Bu, veri kümesi sahibinin, alanı sayı olarak *sınıflandırmamış* olmasıyla (yanlışlıkla veya kasıtlı bir şekilde) açıklanabilir. Örneğin, bir veri kümesinde **yıl** alanı yer alıyorsa veri kümesi sahibi, **yıl** alanının sayılması (örneğin, 1974'te doğan kişi sayısı) daha olası bir durum olduğundan (toplanmak veya ortalaması alınmak yerine) bu alanı metin kategorisine dahil etmiş olabilir. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.  
 
 C2: Alanda bir hesap makinesi simgesi bulunuyorsa bu, alanın *hesaplanmış ölçü* olduğunu gösterir ve her bir hesaplanmış ölçü, yalnızca veri kümesi sahibi tarafından değiştirilebilen kendi sabit kodlanmış formülüne sahiptir. Kullanılan hesaplama ortalama veya toplam gibi basit bir toplama işlemi olabilirken, "üst kategoriye katkıda bulunma yüzdesi" ya da "yılın başlangıcından itibaren değişen toplam" gibi daha karmaşık bir işlem de olabilir. Power BI, sonuçları toplamaz veya bunların ortalamasını almaz ancak bunun yerine, her bir veri noktası için yeniden hesaplama yapar (sabit kodlanmış formülü kullanarak).
 
@@ -139,6 +139,10 @@ C4: Bir eksen alanı kullanıyor olmanız da üçüncü bir olasılıktır. Örn
 
 >[!NOTE]
 >X ve Y eksenleri için değerlerin toplanmasını *gerektiren* dağılım grafikleri bu konuda bir istisna oluşturur.
+
+S: SSAS veri kaynaklarının metin alanlarını neden toplayamıyorum?
+
+Y: Canlı SSAS MD bağlantıları, istemci tarafında toplama işlemlerine izin vermez. Buna ilk, son, ortalama, minimum, maksimum ve toplam işlemleri dahildir.
 
 S: Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Bunu nasıl yaparım?
 

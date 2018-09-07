@@ -2,35 +2,35 @@
 title: Katıştırılmış uygulamanızla ilgili sorunları giderme
 description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877036"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241580"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
-Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
+Bu makalede, Power BI'dan içerik ekleme sırasında sıkça karşılaşılan bazı sorunlar açıklanmaktadır.
 
 ## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
 
 ### <a name="fiddler-trace"></a>Fiddler ile İzleme
 
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinden Power BI API'lerindeki gelen ve giden trafiği görebilirsiniz. Bu sayede hataları ve diğer ilgili bilgileri görüntüleyebilirsiniz.
+[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinde Power BI API'lerini kullanarak trafiği görebilirsiniz. Bu araç hataları ve diğer ilgili bilgileri gösterebilir.
 
-![Fiddler ile İzleme](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+![Fiddler ile izleme](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>Ön uç hata ayıklama için Tarayıcıda F12
 
-F12 tarayıcınızda geliştirici penceresini açar. Bu, ağ trafiğini ve diğer bilgileri görüntüleme olanağı sağlar.
+F12 tarayıcınızda geliştirici penceresini açar. Bu araç, ağ trafiğini ve diğer bilgileri görüntüleme olanağı sağlar.
 
 ![F12 Tarayıcı hata ayıklama](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ F12 tarayıcınızda geliştirici penceresini açar. Bu, ağ trafiğini ve diğe
 
 Bu kod parçacığı, HTTP özel durumundan hata ayrıntılarını ayıklama işleminin nasıl yapılacağını göstermektedir:
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,16 +52,17 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-Sorun giderme işlemi için istek kimliklerinin ve hata ayrıntılarının günlüğe kaydedilmesini öneriyoruz.
-Lütfen Microsoft destek bölümüyle iletişime geçerken istek kimliğini belirtin.
+
+Sorun giderme işlemi için İstek Kimliklerinin ve hata ayrıntılarının günlüğe kaydedilmesini öneriyoruz.
+Microsoft destek bölümüyle iletişime geçerken İstek Kimliğini belirtin.
 
 ## <a name="app-registration"></a>Uygulama kaydı
 
 **Uygulama kaydı hatası**
 
-Azure portalı veya Power BI uygulaması kayıt sayfasındaki hata iletileri, yetersiz ayrıcalıktan bahsedecektir. Bir uygulama kaydı için Azure AD kiracısında yönetici olmanız ya da yönetici olmayan kullanıcılar için uygulama kayıtlarının etkinleştirilmiş olması gerekir.
+Azure portal veya Power BI uygulaması kayıt sayfasındaki hata iletileri, yetersiz ayrıcalıktan bahsedecektir. Bir uygulama kaydı için Azure AD kiracısında yönetici olmanız ya da yönetici olmayan kullanıcılar için uygulama kayıtlarının etkinleştirilmiş olması gerekir.
 
-**Power BI Hizmeti yeni bir Uygulama kaydı sırasında Azure portalında görünmüyor**
+**Power BI Hizmeti yeni bir Uygulama kaydı sırasında Azure portalda görünmüyor**
 
 En az bir kullanıcının Power BI'a kaydolmuş olması gerekir. API listesinde **Power BI Hizmetini** görmüyorsanız hiçbir kullanıcı Power BI'a kaydolmamış demektir.
 
@@ -73,9 +74,9 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Azure AD'de kay�
 
 **403 kodunu döndüren API çağrısı**
 
-Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Bir 403 hatasının birkaç nedeni olabilir.
+Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının birkaç nedeni olabilir.
 
-* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aştı. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın almanız ve çalışma alanını bu kapasiteye atamanız gerekir. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aşmıştır. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın almanız ve çalışma alanını bu kapasiteye atamanız gerekir. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) bir yöneticisi değildir.
@@ -100,9 +101,9 @@ GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
-**(AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız)**
+**(AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)**
 
-Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir kullanıcı kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız***. Bunun nedeni, doğrudan kimlik doğrulamasının varsayılan olarak 14.06.2018 tarihinden itibaren kapatılmış olmasıdır.
+Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının varsayılan olarak 14.06.2018 tarihinden itibaren kapatılmış olmasıdır.
 
 Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
 
@@ -112,7 +113,7 @@ Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin *
 
 1. [Azure AD Preview PowerShell Modülü](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
 
-2. Aşağıdaki Powershell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda 1'den çok uygulama olmadığından emin olun).
+2. Aşağıdaki PowerShell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda 1'den çok uygulama olmadığından emin olun).
 
 ```powershell
 Connect-AzureAD
@@ -167,7 +168,7 @@ Kiracı için kullanıcı onayı devre dışı bırakıldı.
 **_Çeşitli düzeltmeler yapılabilir:_**
 
 *Kiracının tamamı için kullanıcı onayını etkinleştir (tüm kullanıcılar, tüm uygulamalar)*
-1. Azure Portalı'nda "Azure Active Directory" => "Kullanıcılar ve gruplar" => "Kullanıcı ayarları" bölümüne gidin
+1. Azure portalda "Azure Active Directory" => "Kullanıcılar ve gruplar" => "Kullanıcı ayarları" bölümüne gidin
 2. "Kullanıcılar, uygulamalara kendileri adına şirket verilerine erişme izni verebilir" ayarını etkinleştirin ve değişiklikleri kaydedin
 
     ![Onay Testi Düzeltmesi](media/embedded-troubleshoot/consent-test-02.png)
@@ -193,6 +194,40 @@ Kullanıcı raporu veya panoyu göremiyorsa rapor ya da panonun powerbi.com'a do
 **Rapor veya Pano yavaş çalışıyor**
 
 Power BI Desktop'tan veya powerbi.com'da dosyayı açın ve uygulamanızla veya API'leri eklemeyle ilgili sorunları elemek için performansın kabul edilebilir olduğunu doğrulayın.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>IError nesnesini kullanarak katıştırılmış uygulamanızla ilgili sorunları giderme
+
+Uygulamanızda hata ayıklamak ve hatalarınızın nedenini daha iyi anlamak için [**JavaScript SDK** tarafından *error* olayı ile döndürülen **IError nesnesini**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) kullanabilirsiniz.
+
+IError nesnesine ulaştıktan sonra kullandığınız ekleme türüne uygun olan sık karşılaşılan hataları incelemeniz gerekir. **IError özelliklerini** aşağıdaki tabloda bulunan değerlerle karşılaştırarak arızanın olası nedenlerini bulabilirsiniz.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Power BI kullanıcıları için sık karşılaşılan ekleme hataları
+
+| İleti | Ayrıntılı İleti | Hata Kodu | Olası nedenler |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | Erişim belirtecinin süresi doldu, yeni bir erişim belirteciyle yeniden gönderin | 403 | Belirtecin süresi doldu  |
+| PowerBIEntityNotFound | Rapor alma işlemi başarısız oldu | 404 | <li> Rapor kimliği yanlış <li> Rapor mevcut değil  |
+| Parametreler geçersiz | powerbiToken parametresi belirtilmedi | YOK | <li> Erişim belirteci sağlanmadı <li> Rapor Kimliği sağlanmadı |
+| LoadReportFailed | Başlatılamadı - Küme çözümlenemedi | 403 | * Hatalı erişim belirteci * Ekleme türü belirteç türüyle eşleşmiyor |
+| PowerBINotAuthorizedException | Rapor alma işlemi başarısız oldu | 401 | <li> Grup kimliği yanlış <li> Yetkisiz grup |
+| TokenExpired | Erişim belirtecinin süresi doldu, yeni bir erişim belirteciyle yeniden gönderin. Şu başlığa sahip rapor görseli işlenemedi: <visual title> | YOK | Sorgu verisi belirtecinin süresi doldu |
+| OpenConnectionError | Görsel görüntülenemiyor. Şu başlığa sahip rapor görseli işlenemedi: <visual title> | YOK | Kapasiteyle ilgili bir rapor oturumda açıkken kapasite duraklatıldı veya silindi |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Bu raporla ilişkili model şeması yüklenemedi. Sunucuya bağlı olduğunuzdan emin olun ve yeniden deneyin. | YOK | <li> Kapasite duraklatıldı <li> Kapasite silindi |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Power BI kullanıcısı olmayanlar (Erişim Belirteci kullananlar) için ekleme sırasında karşılaşılan hatalar
+
+| İleti | Ayrıntılı İleti | Hata Kodu | Nedenler |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | Erişim belirtecinin süresi doldu, yeni bir erişim belirteciyle yeniden gönderin | 403 | Belirtecin süresi doldu  |
+| LoadReportFailed | Rapor alma işlemi başarısız oldu | 404 | <li> Rapor kimliği yanlış <li> Rapor mevcut değil  |
+| LoadReportFailed | Rapor alma işlemi başarısız oldu | 403 | Rapor Kimliği belirteçle eşleşmiyor |
+| LoadReportFailed | Rapor alma işlemi başarısız oldu | 500 | Belirtilen Rapor Kimliği GUID değil |
+| Parametreler geçersiz | powerbiToken parametresi belirtilmedi | YOK | <li> Erişim belirteci sağlanmadı <li> Rapor Kimliği sağlanmadı |
+| LoadReportFailed | Başlatılamadı - Küme çözümlenemedi | 403 | Belirteç türü yanlış, Hatalı Belirteç |
+| PowerBINotAuthorizedException | Rapor alma işlemi başarısız oldu | 401 | Yanlış/yetkisiz grup kimliği |
+| TokenExpired | Erişim belirtecinin süresi doldu, yeni bir erişim belirteciyle yeniden gönderin. Şu başlığa sahip rapor görseli işlenemedi: <visual title> | YOK | Sorgu verisi belirtecinin süresi doldu |
+| OpenConnectionError | Görsel görüntülenemiyor. Şu başlığa sahip rapor görseli işlenemedi: <visual title> | YOK | Kapasiteyle ilgili bir rapor oturumda açıkken kapasite duraklatıldı veya silindi |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Bu raporla ilişkili model şeması yüklenemedi. Sunucuya bağlı olduğunuzdan emin olun ve yeniden deneyin. | YOK | <li> Kapasite duraklatıldı <li> Kapasite silindi |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için katılım deneyimi aracı
 
@@ -244,3 +279,5 @@ Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [P
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+
+Daha fazla yardıma ihtiyacınız varsa lütfen [destek ekibine ulaşın](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) veya [Azure portal aracılığıyla bir destek bileti oluşturun](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) ve karşılaştığınız hata iletilerini belirtin.

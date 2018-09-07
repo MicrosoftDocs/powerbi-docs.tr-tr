@@ -2,20 +2,20 @@
 title: Power BI'daki pano kutucukları
 description: Power BI'daki pano kutucukları hakkında tüm bilmeniz gerekenler. SQL Server Reporting Services (SSRS) ile oluşturulan kutucuklar da ele alınmaktadır.
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249080"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241603"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
 Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Pano kutucuklarını Power BI Mobil'de oluşturamaz veya sabitleyemezsiniz ancak [görüntüleyip paylaşabilirsiniz](mobile-tiles-in-the-mobile-apps.md). Ayrıca Power BI Mobil'de, [iPhone uygulamanızı kullanarak panonuza resim ekleyebilirsiniz](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Bir kutucuğu alın ve [panonun farklı yerlerinde taşıyın](service-dashboard
    
    * [Bu kutucuğu oluşturmak için kullanılan çalışma sayfasını açma ](service-reports.md) ![çalışma sayfası simgesi](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Odak modunda görüntüleme ](service-focus-mode.md) ![odak simgesi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Odak modunda görüntüleme ](service-focus-mode.md) ![odak simgesi](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Kutucukta kullanılan verileri dışarı aktarma](power-bi-visualization-export-data.md) ![verileri dışarı aktarma simgesi](media/service-dashboard-tiles/export-icon.png)
-     * [Başlığı ve alt başlığı düzenleme, köprü ekleme, son yenileme zamanını görüntüleme](service-dashboard-edit-tile.md) ![düzenleme simgesi](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Başlığı ve alt başlığı düzenleme, köprü ekleme](service-dashboard-edit-tile.md) ![düzenleme simgesi](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Öngörüleri çalıştırma ](service-insights.md) ![öngörüler simgesi](media/service-dashboard-tiles/power-bi-insights.png)
      * [Kutucuğu başka bir panoya sabitleme ](service-pin-tile-to-another-dashboard.md)
        ![raptiye simgesi](media/service-dashboard-tiles/pin-icon.jpg)

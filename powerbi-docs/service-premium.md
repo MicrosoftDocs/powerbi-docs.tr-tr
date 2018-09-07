@@ -2,20 +2,20 @@
 title: Power BI Premium nedir?
 description: Power BI Premium, kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri sunan, kuruluşunuz veya ekibiniz için ayrılmış kapasitedir.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2018
-ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256814"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250762"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
@@ -29,6 +29,7 @@ Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalışt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="capacity-tiers"></a>Kapasite katmanları
+
 Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premium kapasitesi. Aşağıda, bunlar arasındaki farklara ilişkin bir bakış edinebilirsiniz.
 
 |  | Paylaşılan kapasite | Power BI Premium kapasitesi |
@@ -44,6 +45,7 @@ Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premi
 *<sup>2</sup> Power BI Premium'un genel kullanıma sunulmasından sonra daha fazla geliştirme sunulacaktır.*
 
 ### <a name="premium-capacity"></a>Premium kapasite
+
 Power BI Premium kapasitesini kullanmaya başlamak için bir kapasiteye çalışma alanı atamanız gerekir. Bir çalışma alanını premium kapasiteye atama ile ilgili daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
 
 Bir çalışma alanı premium kapasiteyle desteklendiğinde Power BI Premium'un sunduğu avantajlardan yararlanırsınız.
@@ -54,18 +56,20 @@ Bir çalışma alanı premium kapasiteyle desteklendiğinde Power BI Premium'un 
 Bir uygulama, premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir.
 
 ### <a name="shared-capacity"></a>Paylaşılan kapasite
+
 Varsayılan olarak, çalışma alanınız paylaşılan kapasitede yer alır. Bu, Uygulama çalışma alanlarının yanı sıra kişisel *Çalışma alanınızı* içerir. İş yüklerinizin diğer müşteriler tarafından paylaşılan hesaplama kaynaklarında çalıştırıldığı paylaşılan kapasite, Power BI'da alışkın olduğunuz deneyimdir.
 
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Premium kapasite düğümleri
+
 Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılandırmalarıyla kullanılabilir. SKU teklifleri ve maliyet hakkında daha fazla bilgi için bkz. [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/). Ayrıca bir [maliyet hesaplayıcı](https://powerbi.microsoft.com/calculator/) da kullanımınıza sunulmuştur. Katıştırılmış analiz kapasite planlamasıyla ilgili bilgiler için bkz. [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy).
 
 * P düğümleri, tümleşik dağıtımlar veya hizmet dağıtımları için kullanılabilir.
 * EM düğümleri ise yalnızca tümleşik dağıtımlar için kullanılabilir. EM düğümlerinin, Power BI Pro lisansına sahip olan kullanıcılarla uygulamaları paylaşma gibi üst düzey özelliklere erişimi yoktur.
 
 >[!NOTE]
->Bu tablodaki bağlantılar yalnızca Office 365 genel yöneticisi olan kullanıcılar için düzgün bir şekilde görüntülenir, diğer kullanıcılar ise bir 404 hatasıyla karşılaşır. 
+>Bu tablodaki bağlantılar yalnızca Office 365 genel yöneticisi olan kullanıcılar için düzgün bir şekilde görüntülenir, diğer kullanıcılar ise bir 404 hatasıyla karşılaşır.
 
 | Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç + ön uç)* | Arka uç sanal çekirdek sayısı | Ön uç sanal çekirdek sayısı | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı | Kullanılabilirlik |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -92,4 +96,3 @@ Power BI Premium, Power BI Rapor Sunucusu'nu şirket içinde çalıştırma hakk
 [Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

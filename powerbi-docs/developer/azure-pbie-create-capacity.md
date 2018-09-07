@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360473"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300058"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -54,7 +54,7 @@ Bu hızlı başlangıcı tamamlamak için aşağıdakilere ihtiyacınız vardır
     |**Abonelik**|Kapasiteyi oluşturmak istediğiniz abonelik.|
     |**Kaynak grubu**|Bu yeni kapasiteyi içeren kaynak grubu. Var olan kaynak gruplarından birini seçebilir veya yeni bir tane oluşturabilirsiniz. Daha fazla bilgi için bkz. [Azure Resource Manager'a genel bakış](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Power BI kapasite yöneticisi**|Power BI kapasite yöneticileri Power BI yönetici portalında kapasiteyi görüntüleyebilir ve başka kullanıcılara atama izni verebilir. Kapasite yöneticisi varsayılan olarak sizin hesabınızdır. Kapasite yöneticisinin Power BI kiracınızda olması gerekir.|
-    |**Konum**|Kiracınız içinde Power BI hizmetinin barındırıldığı konum. Bu ayar otomatik olarak belirlenir ve farklı bir konum seçilemez.|
+    |**Konum**|Kiracınız içinde Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](embedded-multi-geo.md) konumu değiştirebilirsiniz.
     |**Fiyatlandırma katmanı**|İhtiyaçlarınıza uygun SKU (sanal çekirdek sayısı ve bellek boyutu) değerini seçin.  Ayrıntılar için bkz. [Power BI Embedded fiyatlandırması](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
 6. **Oluştur**'u seçin.

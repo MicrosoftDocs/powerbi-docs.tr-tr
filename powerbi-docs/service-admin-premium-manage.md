@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924805"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250785"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.
@@ -163,33 +163,8 @@ Kaydedildikten sonra çalışma alanı ve tüm içerikleri, son kullanıcılar i
 
 
 ## <a name="monitor-capacity-usage"></a>Kapasite kullanımı izleme
-Her kapasiteye yönelik olarak, CPU, Bellek Temizleme ve Direct Query için kullanım ölçümlerini kullanabilirsiniz. Kullanıcılarınızın, kapasiteniz üzerinde iyi performans deneyimine sahip olmasını sağlamak için bu ölçümlerin izlenmesini öneririz:
 
-![Son yedi güne ait kullanım](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded kapasite kullanımı Azure portalında izlenir.
-
-| Ölçüm | Açıklama |
-| --- | --- |
-| CPU |CPU’nun %80 kullanımı aşma sayısı. |
-| Bellek Temizleme |Arka uç çekirdeklerinizdeki bellek baskısını gösterir. Bu, özellikle birden çok veri kümesinin kullanılmasından kaynaklanan bellek baskısı nedeniyle veri kümelerinin bellekten ne sıklıkta çıkarıldığına ilişkin bir ölçümdür. |
-| Memory Usage |Gigabayt (GB) olarak temsil edilen ortalama bellek kullanımı. |
-| DQ/s | Direct Query ve Canlı Bağlantı sayısının, sınırın %80’ini aşma sayısı. <br> <br> * Saniye başına toplam DirectQuery ve canlı bağlantı sorgusu sayısını sınırlarız.<br><br>* Sınırlar şu şekildedir: P1 için 30/s, P2 için 60/s ve P3 için 120/s.<br><br> * Direct Query ve canlı bağlantı sorguları sayısı yukarıdaki kısıtlamaya yönelik olarak birlikte hesaplanır. Örneğin, saniyede 15 DirectQuery bağlantısı ve 15 canlı bağlantıya sahipseniz kısıtlama noktanıza varmış olursunuz.<br/><br>* Bu, şirket içi ve bulut bağlantıları için aynı ölçüde geçerlidir. |
-
-Ölçümler, geçen hafta içindeki kullanımı yansıtır.  Ölçümlerin daha ayrıntılı bir görünümünü görmek istiyorsanız, özet kutucuklarının herhangi birine tıklayarak bunu yapabilirsiniz.  Böylece, premium kapasitenize yönelik her bir ölçüm için ayrıntılı grafiklere gidersiniz.  Bu grafikler, geçen hafta için saatlik olarak özetlenir ve premium kapasitenizde performansla ilgili belirli olaylar olduğunda sorunu ayrıştırmanıza yardımcı olabilir.  
-
-![CPU için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Bellek Boyutu için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Bellek Temizleme için ayrıntılı kullanım grafiği](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Herhangi bir ölçüme yönelik temel verileri bir csv dosyasına da dışarı aktarabilirsiniz.  Bu dışarı aktarma, geçen haftanın her günü için üçer dakikalık aralıklarla size ayrıntılı bilgi sunar.
+Power BI, kapasite kullanımını izlemek için bir uygulama sunmaktadır. Daha fazla bilgi için bkz. [Kuruluşunuzdaki Power BI Premium kapasitelerini izleme](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>Premium, kullanıcılara nasıl görünür?
 Çoğunlukla kullanıcıların Premium kapasitede olduklarını bilmelerine bile gerek yoktur. Panoları ve raporları normal şekilde çalışmaya devam eder. Görsel bir ipucu olarak, Premium kapasitedeki çalışma alanlarının yanında bir baklava simgesi görürsünüz.

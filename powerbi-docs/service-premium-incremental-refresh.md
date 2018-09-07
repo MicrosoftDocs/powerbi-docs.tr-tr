@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298194"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300150"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 
@@ -43,6 +43,12 @@ Power BI Desktop normalde kullanıcının masaüstü bilgisayarında kullanılab
 
 Power BI hizmetinde artımlı yenilemeyi kullanmak için filtrelemenin ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlarıyla Power Query tarih/saat parametreleri kullanılarak yapılması gerekir.
 
+Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Hizmetteki veri kümesi ayarlarında bunların ayarlanması gerekmez.
+ 
+Yenileme işlemleri için sorgu gönderildiğinde filtrenin kaynağa gönderilmesi önemlidir. Bu da veri kaynağının "sorgu katlama" özelliğini desteklemesi gerektiği anlamına gelir. Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğini doğrulamanız önerilir. Bu işlem gerçekleştirilmediğinde her sorgu kaynaktaki tüm verileri ister ve bu da nesnenin artımlı yenileme özelliğini kullanamamasına neden olur.
+ 
+Filtre, Power BI hizmetindeki verilerini aralıklara bölmek için kullanılır. Filtrelenmiş tarih sütununun güncelleştirilmesini destekleyecek şekilde tasarlanmamıştır. Güncelleştirme, ekleme ve silme olarak (güncelleştirme değil) yorumlanır. Artımlı aralıkta değil geçmiş aralıkta gerçekleştirilen silme işlemleri seçilmez.
+
 Power Query Düzenleyicisi’nde **Parametreleri Yönet**’i seçerek varsayılan değerlerle parametreleri tanımlayın.
 
 ![Parametreleri yönet](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Sütun değerinin **RangeStart** değerinden *sonra veya eşit* olduğu ve **Ran
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Power Query Düzenleyicisi’nden **Kapat ve Uygula**’yı seçin. Power BI Desktop’ta veri kümesinin bir alt kümesi bulunmalıdır.
-
-> [!NOTE]
-> Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Veri kümesi ayarlarında bunların ayarlanması gerekmez.
 
 ### <a name="define-the-refresh-policy"></a>Yenileme ilkesini tanımlama
 
@@ -102,9 +105,11 @@ Power BI hizmetindeki ilk yenilemede 5 yılın tamamının içeri aktarılması 
 
 **Bu aralıkların tanımı tüm ihtiyaçlarınıza yanıt verebilir; bu durumda doğrudan aşağıdaki yayımlama adımına gidebilirsiniz. Ek açılır pencereler, gelişmiş özellikler içindir.**
 
+### <a name="advanced-policy-options"></a>Gelişmiş ilke seçenekleri
+
 #### <a name="detect-data-changes"></a>Veri değişikliklerini algılama
 
-10 günlük artımlı yenileme, 5 yıllık tam yenilemeden çok daha verimlidir. Ancak bunu daha da iyi yapabiliriz. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını 10’dan 2’ye de düşürebilir.
+10 günlük artımlı yenileme, 5 yıllık tam yenilemeden çok daha verimlidir. Ancak bunu daha da iyi yapabiliriz. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. **Bu sütun, RangeStart/RangeEnd parametreleriyle verileri bölmek için kullanılan sütun olmamalıdır.** Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını 10’dan 2’ye de düşürebilir.
 
 ![Değişiklikleri algılama](media/service-premium-incremental-refresh/detect-changes.png)
 

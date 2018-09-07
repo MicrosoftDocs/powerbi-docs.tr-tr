@@ -2,20 +2,20 @@
 title: Power BI'dan Web'de yayımlama
 description: Power BI'daki Web'de yayımla özelliği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092357"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380348"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -28,7 +28,7 @@ Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştire
 
 ## <a name="how-to-use-publish-to-web"></a>Web'de yayımla özelliğini kullanma
 
-**Web'de yayımla** özelliğini, kişisel veya grup çalışma alanlarında bulunan ve düzenleme izinlerine sahip olduğunuz raporlarda kullanabilirsiniz.  Web'de yayımla özelliğini sizinle paylaşılan raporlarda veya verilerin güvenliğini satır düzeyi güvenlik ile sağlayan raporlarda kullanamazsınız. Web'de yayımla özelliğinin desteklenmediği tüm durumların listesi için aşağıdaki **Sınırlamalar** bölümüne bakın. Lütfen Web'de yayımla özelliğini kullanmadan önce bu makalenin üst kısmındaki **Uyarı** bölümünü inceleyin.
+**Web'de yayımla** özelliğini, kişisel veya grup çalışma alanlarında bulunan ve düzenleme izinlerine sahip olduğunuz raporlarda kullanabilirsiniz.  Web'de yayımla özelliğini sizinle paylaşılan raporlarda veya verilerin güvenliğini satır düzeyi güvenlik ile sağlayan raporlarda kullanamazsınız. Web'de yayımla özelliğinin desteklenmediği tüm durumların listesi için aşağıdaki **Sınırlamalar** bölümüne bakın. Web'de yayımla özelliğini kullanmadan önce bu makalenin üst kısmındaki **Uyarı** bölümünü inceleyin.
 
 Bu özelliğin nasıl çalıştığını görmek için aşağıdaki *kısa videoyu* izleyebilirsiniz. Ardından, adımları takip ederek kendiniz yapmayı deneyebilirsiniz.
 
@@ -128,15 +128,16 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 
 **Web’de yayımla** özelliği Power BI hizmetindeki veri kaynaklarının ve raporların çoğu için desteklenmektedir ancak aşağıdaki öğeler **şu anda Web’de yayımla işlevinde desteklenmez ve kullanılamaz**:
 
-1. Satır düzeyi güvenlik kullanan raporlar.
-2. Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
-3. Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
-4. Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
-5. "R" Görselleri şu an için Web'de yayımla özelliği tarafından desteklenmemektedir.
-6. Web’de yayımlanan bir rapordaki görsellerden Verileri dışarı aktarma
-7. ArcGIS Maps for Power BI görselleri
-8. Rapor düzeyi DAX ölçüleri içeren raporlar
-9. [Gizli veya özel bilgilerin güvenliğini sağlama](#publish-to-web-from-power-bi)
+- Satır düzeyi güvenlik kullanan raporlar.
+- Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
+- Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
+- Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
+- "R" Görselleri şu an için Web'de yayımla özelliği tarafından desteklenmemektedir.
+- Web’de yayımlanan bir rapordaki görsellerden Verileri dışarı aktarma
+- ArcGIS Maps for Power BI görselleri
+- Rapor düzeyi DAX ölçüleri içeren raporlar
+- Çoklu oturum açma veri sorgulama modelleri
+- [Gizli veya özel bilgilerin güvenliğini sağlama](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Kiracı ayarı
 
@@ -144,7 +145,7 @@ Power BI yöneticileri web'de yayımlama özelliğini etkinleştirebilir veya de
 
 |Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
-|Rapora ilişkin **Dosya** menüsündeki **Web'de yayımla** seçeneği.|Tüm kullanıcılar için etkindir|Hiçbir kullanıcı için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
+|Rapora ilişkin **Dosya** menüsündeki **Web'de yayımla** seçeneği.|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
 |Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum olarak **Devre dışı** görüntülenir|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
