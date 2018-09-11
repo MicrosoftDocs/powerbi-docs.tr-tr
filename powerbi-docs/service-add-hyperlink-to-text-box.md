@@ -2,21 +2,21 @@
 title: Bir rapordaki metin kutusuna köprü ekleme
 description: Power BI hizmetinde ve Desktop'ta Metin Kutusuna köprü ekleme
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 09/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e8a03cdd666f84b788d3bd90b8ebf2a84fc12a9b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: da3c67a62cf32bdbc0413f23f21fd169ea1809cc
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294077"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168032"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
 Metin kutuları raporlara eklenebilir, raporlardan panolara sabitlenebilir ve doğrudan panolara eklenebilir. Köprüler, bulunduğu yer fark etmeksizin bir metin kutusuna eklenebilir.  
