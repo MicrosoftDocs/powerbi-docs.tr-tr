@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257222"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343335"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
@@ -59,7 +59,7 @@ Aşağıdaki bölümde, DirectQuery aracılığıyla bağlanmak için genel olar
 - Mümkün oldukça hesaplanmış sütunları ve ölçüleri kaynağa gönderin; bunlar kaynağa ne kadar yakın olursa performans olasılığı o kadar artar. 
 - En iyi duruma getirin! Sorgularınız için yürütme planlarını anlayın, sık filtrelenen sütunlar için dizin ekleyin, vs. 
 
-### <a name="modelling-guidance"></a>Modelleme kılavuzu 
+### <a name="modeling-guidance"></a>Modelleme kılavuzu 
 - Çalışmaya Power BI Desktop'ta başlayın. 
 - Sorgu Düzenleyicisi'nde karmaşık sorgular kullanmayın. 
 - Sorgu Düzenleyicisi'nde göreli veri filtreleme kullanmayın.  
@@ -110,7 +110,7 @@ Yönergeler aşağıda verilmiştir:
 
    Çıktı, uygulamaların ve bunların açık bağlantı noktalarının listesi şeklinde olur. Örneğin,  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
