@@ -178,7 +178,7 @@ items:
     - name: Windows 10 cihazları için Power BI uygulaması
       items:
       - name: Windows 10’a yönelik mobil uygulama ile çalışmaya başlama
-        href: ../../mobile-windows-10-phone-app-get-started.md
+        href: ../../consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: Panoyu Başlangıç ekranına sabitleme
         href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
       - name: Windows 10’a yönelik uygulamada Reporting Services mobil raporlarını ve KPI'lerini görüntüleme
@@ -189,9 +189,9 @@ items:
     items:
     - name: Mobil uygulamalarda desteklenen diller
       href: ../../mobile-apps-supported-languages.md
-ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
-ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.openlocfilehash: 26018ef2bd80f8ac73c88e147dd950114ed1453f
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "44343611"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726444"
