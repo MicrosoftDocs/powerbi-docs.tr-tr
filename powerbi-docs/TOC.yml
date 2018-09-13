@@ -68,7 +68,7 @@ items:
       - name: 'Rapor düzenleyicisi: Tura katılın'
         href: service-the-report-editor-take-a-tour.md
       - name: Power BI'daki görselleştirmeler
-        href: power-bi-report-visualizations.md
+        href: visuals/power-bi-report-visualizations.md
       - name: Power BI için veri kaynakları
         href: service-get-data.md
       - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
@@ -300,7 +300,7 @@ items:
         - name: Power BI Soru-Cevap için öne çıkan sorular oluşturma
           href: service-q-and-a-create-featured-questions.md
         - name: Power BI'daki görselleştirme türleri
-          href: power-bi-visualization-types-for-reports-and-q-and-a.md
+          href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: Power BI Desktop'ta dil şeması ile çalışma
           href: power-bi-q-and-a-linguistic-schema.md
       - name: Çalışmanızı paylaşma
@@ -392,7 +392,7 @@ items:
         - name: Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
           href: power-bi-reports-performance.md
         - name: Power BI'da ArcGIS haritaları ile etkileşim kurma
-          href: power-bi-visualizations-arcgis.md
+          href: visuals/power-bi-visualizations-arcgis.md
       - name: Dosyalardaki veriler
         items:
         - name: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
@@ -580,15 +580,15 @@ items:
     - name: Power BI’da kuruluşlara yönelik özel görseller
       href: power-bi-custom-visuals-organization.md
     - name: 1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-      href: power-bi-report-add-visualizations-i.md
+      href: visuals/power-bi-report-add-visualizations-i.md
     - name: 2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-      href: power-bi-report-add-visualizations-ii.md
+      href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Basit alan grafiği
-      href: power-bi-visualization-basic-area-chart.md
+      href: visuals/power-bi-visualization-basic-area-chart.md
     - name: Power BI'da birleşik harita
-      href: power-bi-visualization-combo-chart.md
+      href: visuals/power-bi-visualization-combo-chart.md
     - name: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
-      href: power-bi-visualization-customize-title-background-and-legend.md
+      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
     - name: Power BI'da ArcGIS
       href: power-bi-visualization-arcgis.md
     - name: Verilere bağlanma
@@ -664,7 +664,7 @@ items:
     - name: Verileri dönüştürme ve şekillendirme
       items:
       - name: Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)
-        href: desktop-shape-map.md
+        href: visuals/desktop-shape-map.md
       - name: İkili değerleri birleştirme
         href: desktop-combine-binaries.md
     - name: Verilerinizi modelleme
@@ -710,13 +710,13 @@ items:
       - name: Detaylandırmayı kullanma
         href: desktop-drillthrough.md
       - name: Göreli tarih dilimleyici ve filtre kullanma
-        href: desktop-slicer-filter-date-range.md
+        href: visuals/desktop-slicer-filter-date-range.md
       - name: Gruplandırma ve gruplamayı kullanma
         href: desktop-grouping-and-binning.md
       - name: Şerit grafikler
-        href: desktop-ribbon-charts.md
+        href: visuals/desktop-ribbon-charts.md
       - name: Yeni matris görselini kullanma
-        href: desktop-matrix-visual.md
+        href: visuals/desktop-matrix-visual.md
       - name: R programlama dilini kullanarak Power BI görselleri oluşturma
         href: desktop-r-visuals.md
       - name: R tarafından sağlanan özel görselleri kullanma
@@ -732,7 +732,7 @@ items:
       - name: Özel sütun ekleme
         href: desktop-add-custom-column.md
       - name: Power BI'da yanıt veren görseller oluşturma
-        href: desktop-create-responsive-visuals.md
+        href: visuals/desktop-create-responsive-visuals.md
       - name: Power BI Desktop'taki (Önizleme) satır içi hiyerarşi etiketlerini kullanma
         href: desktop-inline-hierarchy-labels.md
       - name: Sayısal aralık dilimleyiciyi kullanma
@@ -756,19 +756,19 @@ items:
     - name: Görselleştirmeler
       items:
       - name: Görselleştirmelere ilişkin en iyi uygulamalar
-        href: power-bi-visualization-best-practices.md
+        href: visuals/power-bi-visualization-best-practices.md
       - name: Görseli oluşturmak için kullanılan verilere bakma
         href: service-reports-show-data.md
       - name: Bir Power BI raporundaki görselleştirmenin türünü değiştirme
-        href: power-bi-report-change-visualization-type.md
+        href: visuals/power-bi-report-change-visualization-type.md
       - name: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
-        href: service-getting-started-with-color-formatting-and-axis-properties.md
+        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
-        href: service-tips-and-tricks-for-color-formatting.md
+        href: visuals/service-tips-and-tricks-for-color-formatting.md
       - name: Power BI'da görselleştirmeleri kopyalayıp yapıştırma
-        href: power-bi-visualization-copy-paste.md
+        href: visuals/power-bi-visualization-copy-paste.md
       - name: Power BI raporlarındaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma
-        href: power-bi-visualization-move-and-resize.md
+        href: visuals/power-bi-visualization-move-and-resize.md
       - name: Power BI'daki görselleştirmelerde detaya gitme
         href: power-bi-visualization-drill-down.md
       - name: Tablolardaki köprüler
@@ -776,37 +776,37 @@ items:
       - name: Bir Power BI raporundaki Metin Kutusuna köprü ekleme
         href: service-add-hyperlink-to-text-box.md
       - name: Histogramlar
-        href: service-histograms.md
+        href: visuals/service-histograms.md
       - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
-        href: power-bi-map-tips-and-tricks.md
+        href: visuals/power-bi-map-tips-and-tricks.md
       - name: Power BI raporlarındaki metin kutuları
         href: power-bi-reports-add-text-and-shapes.md
       - name: X ve Y ekseni özelliklerini özelleştirme
-        href: power-bi-visualization-customize-x-axis-and-y-axis.md
+        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Power BI'da halka grafikler
-        href: power-bi-visualization-doughnut-charts.md
+        href: visuals/power-bi-visualization-doughnut-charts.md
       - name: Power BI'da kartogramlar (Koroplet haritalar)
-        href: power-bi-visualization-filled-maps-choropleths.md
+        href: visuals/power-bi-visualization-filled-maps-choropleths.md
       - name: Power BI'da huni grafikleri
-        href: power-bi-visualization-funnel-charts.md
+        href: visuals/power-bi-visualization-funnel-charts.md
       - name: KPI Görselleri
-        href: power-bi-visualization-kpi.md
+        href: visuals/power-bi-visualization-kpi.md
       - name: Power BI'da radyal ölçer grafikleri
-        href: power-bi-visualization-radial-gauge-charts.md
+        href: visuals/power-bi-visualization-radial-gauge-charts.md
       - name: Power BI'da dağılım grafikleri
-        href: power-bi-visualization-scatter.md
+        href: visuals/power-bi-visualization-scatter.md
       - name: Power BI'da dilimleyiciler
-        href: power-bi-visualization-slicers.md
+        href: visuals/power-bi-visualization-slicers.md
       - name: Tablolarla çalışma
-        href: power-bi-visualization-tables.md
+        href: visuals/power-bi-visualization-tables.md
       - name: Power BI'da ağaç haritaları
-        href: power-bi-visualization-treemaps.md
+        href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI'da şelale grafikler
-        href: power-bi-visualization-waterfall-charts.md
+        href: visuals/power-bi-visualization-waterfall-charts.md
       - name: Power BI'da kartlar (büyük sayı kutucukları)
-        href: power-bi-visualization-card.md
+        href: visuals/power-bi-visualization-card.md
       - name: Power BI'da R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
-        href: service-r-visuals.md
+        href: visuals/service-r-visuals.md
     - name: Sorun giderme
       items:
       - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
@@ -838,93 +838,93 @@ items:
   - name: Genel Bakış
     items:
     - name: Mobil uygulamalar nedir?
-      href: mobile-apps-for-mobile-devices.md
+      href: consumer/mobile/mobile-apps-for-mobile-devices.md
   - name: Hızlı Başlangıçlar
     items:
     - name: Panoları ve raporları keşfedin
-      href: mobile-apps-quickstart-view-dashboard-report.md
+      href: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
   - name: Öğreticiler
     items:
     - name: iOS mobil uygulamalarında soru sorun
-      href: tutorial-mobile-apps-ios-qna.md
+      href: consumer/mobile/tutorial-mobile-apps-ios-qna.md
   - name: Kavramlar
     items:
     - name: Mobil uygulamalardaki yenilikler
-      href: mobile-whats-new-in-the-mobile-apps.md
+      href: consumer/mobile/mobile-whats-new-in-the-mobile-apps.md
     - name: Mobil uygulamalar ile gerçek dünya verilerini alma
-      href: mobile-apps-data-in-real-world-context.md
+      href: consumer/mobile/mobile-apps-data-in-real-world-context.md
     - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
-      href: mobile-apps-offline-data.md
+      href: consumer/mobile/mobile-apps-offline-data.md
     - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
-      href: mobile-mixed-reality-app.md
+      href: consumer/mobile/mobile-mixed-reality-app.md
   - name: Nasıl yapılır?
     items:
     - name: Tüm mobil uygulamalar
       items:
       - name: Mobil uygulamalarda şirket içi raporları görüntüleme
-        href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+        href: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Power BI mobil uygulamalarından pano paylaşma
-        href: mobile-share-dashboard-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md
       - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
-        href: mobile-tiles-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Mobil uygulamalarda sık kullanılanlar
-        href: mobile-apps-favorites.md
+        href: consumer/mobile/mobile-apps-favorites.md
       - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
-        href: mobile-set-data-alerts-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Power BI mobil uygulamalarında bildirim alma
-        href: mobile-apps-notification-center.md
+        href: consumer/mobile/mobile-apps-notification-center.md
       - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
-        href: mobile-apps-deep-link-specific-location.md
+        href: consumer/mobile/mobile-apps-deep-link-specific-location.md
       - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
-        href: mobile-apps-geographic-filtering.md
+        href: consumer/mobile/mobile-apps-geographic-filtering.md
       - name: Telefonunuzdan bir Power BI QR kodunu tarama
-        href: mobile-apps-qr-code.md
+        href: consumer/mobile/mobile-apps-qr-code.md
       - name: Power BI mobil uygulamaları için panolar
-        href: mobile-apps-view-dashboard.md
+        href: consumer/mobile/mobile-apps-view-dashboard.md
       - name: Telefonunuz için iyileştirilmiş raporları görüntüleme
-        href: mobile-apps-view-phone-report.md
+        href: consumer/mobile/mobile-apps-view-phone-report.md
       - name: Mobil uygulamalarda raporlar
-        href: mobile-reports-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-reports-in-the-mobile-apps.md
       - name: OAuth kullanarak Reporting Services'e bağlanma
-        href: mobile-oauth-ssrs.md
+        href: consumer/mobile/mobile-oauth-ssrs.md
       - name: Intune ile mobil uygulamaları yapılandırma
         href: service-admin-mobile-intune.md
     - name: Android cihazlar
       items:
       - name: Android uygulaması ile çalışmaya başlama
-        href: mobile-android-app-get-started.md
+        href: consumer/mobile/mobile-android-app-get-started.md
       - name: "\"Kurumsal SSL sertifikanıza güvenilmiyor\" hatalarını giderme"
-        href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+        href: consumer/mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
       - name: "\"Android System Webview'un güncelleştirilmesi gerekiyor\" hatasının düzeltilmesi"
-        href: mobile-android-error-update-android-system-webview.md
+        href: consumer/mobile/mobile-android-error-update-android-system-webview.md
     - name: iOS
       items:
       - name: iOS uygulaması ile çalışmaya başlama
-        href: mobile-iphone-app-get-started.md
+        href: consumer/mobile/mobile-iphone-app-get-started.md
       - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
-        href: mobile-apps-ios-qna.md
+        href: consumer/mobile/mobile-apps-ios-qna.md
       - name: Power BI Apple Watch uygulaması
-        href: mobile-apple-watch.md
+        href: consumer/mobile/mobile-apple-watch.md
       - name: iPhone’unuzdaki uygulamadan barkod tarama
-        href: mobile-apps-scan-barcode-iphone.md
+        href: consumer/mobile/mobile-apps-scan-barcode-iphone.md
     - name: iOS ve Android
       items:
       - name: Mobil uygulamalarda not ekleme ve paylaşma
-        href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
     - name: Windows 10 cihazları için Power BI uygulaması
       items:
       - name: Windows 10’a yönelik mobil uygulama ile çalışmaya başlama
-        href: mobile-windows-10-phone-app-get-started.md
+        href: consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: Panoyu Başlangıç ekranına sabitleme
-        href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+        href: consumer/mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
       - name: Windows 10’a yönelik uygulamada Reporting Services mobil raporlarını ve KPI'lerini görüntüleme
-        href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+        href: consumer/mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
       - name: Power BI’yı Surface Hub’da görüntüleme
-        href: mobile-windows-10-app-presentation-mode.md
+        href: consumer/mobile/mobile-windows-10-app-presentation-mode.md
   - name: Kaynaklar
     items:
     - name: Mobil uygulamalarda desteklenen diller
-      href: mobile-apps-supported-languages.md
+      href: consumer/mobile/mobile-apps-supported-languages.md
 - name: Geliştiriciler için Power BI
   items:
   - name: Tümleşik Analiz
@@ -1352,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: da2d6e5f1eb433434024e67dc314c159ea0ff818
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512214"
+ms.locfileid: "44728307"
