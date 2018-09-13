@@ -535,6 +535,8 @@ items:
     items:
     - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
       href: desktop-latest-update.md
+    - name: Power BI Desktop'ta Toplamalar (Önizleme)
+      href: desktop-aggregations.md
     - name: Power BI Desktop’ta bileşik modeller (Önizleme)
       href: desktop-composite-models.md
     - name: Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
@@ -601,6 +603,8 @@ items:
         href: desktop-import-excel-workbooks.md
       - name: Genel arabirimleri kullanarak verilere bağlanma
         href: desktop-connect-using-generic-interfaces.md
+      - name: PDF dosyasına bağlanma
+        href: desktop-connect-pdf.md
       - name: Adobe Analytics’e bağlan
         href: desktop-connect-adobe-analytics.md
       - name: Oracle veritabanlarına bağlanma
@@ -683,6 +687,8 @@ items:
       items:
       - name: Raporlar için görsel öğeler
         href: desktop-visual-elements-for-reports.md
+      - name: Rapor sayfalarını temel alan araç ipuçları oluşturma
+        href: desktop-tooltips.md
       - name: PDF’ye dışarı aktarma ve raporları yazdırma
         href: desktop-export-to-pdf.md
       - name: Power BI Desktop’ta Soru-Cevap
@@ -1346,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 55614628ef823534357fa7e1700e21417e821ca6
-ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
+ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821743"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512214"
