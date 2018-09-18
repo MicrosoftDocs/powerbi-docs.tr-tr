@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241580"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558597"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -105,13 +105,13 @@ GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması
 
 Power BI Embedded'i ve Azure AD Doğrudan Kimlik Doğrulaması'nı kullanıyorsanız ve oturum açarken ***error:unauthorized_client,error_description:AADSTS70002: Kimlik bilgilerini doğrulama hatası. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının varsayılan olarak 14.06.2018 tarihinden itibaren kapatılmış olmasıdır.
 
-Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
+Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlenebileceği bir [Azure AD İlkesi](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
 
 Bunu yalnızca uygulama başına etkinleştirmenizi öneririz.
 
 Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin **Genel Yöneticisi** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
 
-1. [Azure AD Preview PowerShell Modülü](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
+1. [Azure AD Preview PowerShell Modülü](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
 
 2. Aşağıdaki PowerShell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda 1'den çok uygulama olmadığından emin olun).
 
@@ -274,7 +274,7 @@ Bunun nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL
 
 Kayıtlı uygulamayı düzenlemek istiyorsanız, uygulamanın web API’lerine erişim sağlayabilmesi için [AAD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) düzenleme hakkında bilgi edinin.
 
-Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
+Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
 
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 

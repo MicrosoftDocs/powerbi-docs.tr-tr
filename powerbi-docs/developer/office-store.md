@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092127"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558505"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
@@ -32,7 +32,7 @@ AppSource nedir? Basit bir şekilde açıklamak gerekirse bu platform, Microsoft
 | --- | --- | --- |
 | Pbiviz paketi gerekli tüm meta verileri içeriyor |Evet |Görsel adı<br>Görünen ad<br>GUID<br>Sürüm<br>Açıklama<br>Yazarın adı ve e-posta adresi |
 | Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya kattığı değere odaklanmanız ve kullanım, biçimlendirme seçenekleri gibi alanlarda örnekler vermeniz gerekir. En sona ekleyeceğiniz *"ipuçları"* sayfasına püf noktalarını, dikkat edilmesi gerekenleri ve benzer bilgileri girebilirsiniz.<br>Örnek .pbix rapor dosyası, herhangi bir dış bağlantı olmadan çevrimdışı çalıştırılmalıdır |
-| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) olmalıdır. **Önemli!** Lütfen Simgeyi göndermeden önce [kısa kılavuzu](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) gözden geçirin. |
+| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) olmalıdır. **Önemli!** Lütfen Simgeyi göndermeden önce [kısa kılavuzu](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) gözden geçirin. |
 | Ekran görüntüleri |Evet |En az bir ekran görüntüsü eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutu tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) olmalıdır. Dosya boyutu 1024 KB'tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.* |
 | Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. URL'niz https:// veya http:// ile başlamalıdır. |
 | Gizlilik belgesi bağlantısı |Evet |Görselinizi kullanmak isteyen müşterilerin inceleyebileceği gizlilik ilkesinin bağlantısını girin. Bağlantınız http:// veya https:// ile başlamalıdır. |
@@ -130,7 +130,7 @@ Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikal
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Power BI'daki görselleştirmeler](../power-bi-report-visualizations.md)  
+[Power BI'daki görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](../power-bi-custom-visuals.md)  
 [Özel görselleri *sertifikalatma*](../power-bi-custom-visuals-certified.md)
 

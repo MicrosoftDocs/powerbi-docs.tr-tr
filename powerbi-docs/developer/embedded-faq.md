@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241534"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558591"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -79,7 +79,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma  |Azure portalı |Office |Office |
-|Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
+|Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir (mobil uygulama hariç) |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
@@ -133,7 +133,7 @@ Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Pow
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
 
-[Çözümünüzü üretime yükseltmek](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) için Power BI içeriğinin (uygulamanızda kullandığınız uygulama çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atanmasına ihtiyacınız vardır.
+[Çözümünüzü üretime yükseltmek](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) için Power BI içeriğinin (uygulamanızda kullandığınız uygulama çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atanmasına ihtiyacınız vardır.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded çözümünde hangi Azure bölgeleri kullanılabilir?
 
@@ -158,11 +158,11 @@ Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemler
 
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilir veya katıştırılmış uygulama içeriğinizin güvenliği için yeni bir Azure AD kiracısı oluşturabilirsiniz.
 
-Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplıkları - https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries içinden birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
+Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplıkları - https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries içinden birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz? 
 
-Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde (gerekli kapsamlarla) yapılandırılmalıdır ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak Power BI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
+Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde (gerekli kapsamlarla) yapılandırılmalıdır ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak Power BI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ AAD kayıtlı uygulamalarını düzenleme hakkında bilgiyi [burada](https://doc
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI kullanıcı profilimi veya verilerimi nasıl düzenleyebilirim?
 
-Power BI verilerinizi düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) bulabilirsiniz.
+Power BI verilerinizi düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/power-bi/service-basic-concepts) bulabilirsiniz.
 
 Daha fazla bilgi için lütfen bkz. [Ekli uygulamanızın sorunlarını giderme](embedded-troubleshoot.md).
 

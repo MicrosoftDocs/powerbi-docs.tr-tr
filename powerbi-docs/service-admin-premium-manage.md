@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250785"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558482"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.
@@ -47,7 +47,7 @@ Tüm Office 365 Genel yöneticileri ve Power BI yöneticileri otomatik olarak he
 Ayrılmış kapasiteden yararlanmak için Office 365 yönetim merkezinde Power BI Premium aboneliği satın almanız veya Microsoft Azure portalında Power BI Embedded kaynağı oluşturmanız gerekir. Daha fazla bilgi için aşağıdaki başlıklara bakın:
 
 * **Power BI Premium:** [Power BI Premium'u satın alma](service-admin-premium-purchase.md)
-* **Power BI Embedded:** [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:** [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 Power BI Premium SKU satın aldığınızda, kiracınız çalışan kapasitelerde kullanmak için uygun sayıda sanal çekirdek edinir. Örneğin, Power BI Premium P3 SKU satın almak kiracıya 32 sanal çekirdek sağlar.
 

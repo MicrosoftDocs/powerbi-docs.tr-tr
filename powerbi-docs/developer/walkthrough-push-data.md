@@ -2,26 +2,28 @@
 title: Bir veri kümesine veri gönderme
 description: Power BI veri kümelerine veri gönderme
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598561"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974196"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
+
 Power BI API ile bir Power BI veri kümesine veri gönderebilirsiniz. Veri kümenize anahtar verileri göndermek için mevcut bir iş akışını genişletmek istediğinizi varsayalım. Bu örnekte, bir veri kümesine, Ürün tablosu içeren bir Satış Pazarlama veri kümesi göndermeniz gerekiyor.
 
 Bir veri kümesine veri göndermeye başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın](create-an-azure-active-directory-tenant.md) olması gerekir.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Bir veri kümesine veri göndermeye ilişkin adımlar
+
 * 1. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
 * 2. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
 * 3. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Bir veri kümesine veri göndermeye başlamadan önce Azure Active Directory (Az
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Veri göndermeye yönelik için Power BI API işlemleri
+
 Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama, veri kümesine satırlar eklediğinde panodaki kutucuklar, güncelleştirilen verilerle otomatik olarak güncelleştirilir. Veri göndermek için [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle birlikte [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemi kullanılır. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini kullanmanız gerekir. Bu işlemlerden herhangi biri için bir grupla çalışmak üzere grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için [Grupları Al](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) işlemini kullanın.
 
 Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
@@ -108,13 +111,14 @@ Bir Power BI tablo şeması için aşağıdaki veri türlerini kullanabilirsiniz
 | Dize |Şu anda en fazla 128.000 karaktere izin verilir. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI'a veri gönderme hakkında daha fazla bilgi edinin
+
 Bir veri kümesine veri göndermeye başlamak için sol gezinti bölmesindeki [1. Adım: Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md) bağlantısına bakın.
 
 [Sonraki Adım >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI'a kaydolma](create-an-azure-active-directory-tenant.md)  
 [Introducing JSON (JSON'a giriş)](http://json.org/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-
