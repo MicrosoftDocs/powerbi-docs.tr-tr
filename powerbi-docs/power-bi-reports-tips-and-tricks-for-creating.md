@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254890"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726812"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop ve Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop, Power BI hizmeti *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik.
@@ -167,7 +167,7 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir.  BI analizi için en iyi
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI hizmeti *ve* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Teknik incelemeyi okuyun: [Power BI rapor tasarım ilkeleri](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Teknik incelemeyi okuyun: [Power BI rapor tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md)
 Bu incelemede, Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler sunulmaktadır. Planlama ile başlayan incelemede, raporlarınıza ve raporu oluşturan sayfalar ile görsellere uygulayabileceğiniz tasarım ilkelerine yer verilmektedir. Bu en iyi uygulamaların çoğu pano tasarımı için de geçerlidir.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI'da görsel olarak etkileyici raporlar (ve panolar) oluşturma" başlıklı makaleyi okuyun ve/veya videoyu izleyin
@@ -209,7 +209,7 @@ Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak iç
 * [Grafiklerin sıralanma şekline](power-bi-report-change-sort.md) dikkat edin.  En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın.  Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
 * Pasta grafikleri, sekizden az kategori bulunuyorsa idealdir. Yan yana göremediğiniz için pasta grafiğindeki değerleri karşılaştırmak çubuk grafiklerdeki ve sütun grafiklerindeki değerlere kıyasla daha zordur. Pasta grafikleri, parçaları karşılaştırmak yerine parçalarla bütün arasındaki ilişkiyi görmek için kullanılabilir. Ölçek grafikleri, bir hedef bağlamında geçerli durumu görüntülemek için idealdir.    
 
-Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Pano Tasarımındaki En İyi Uygulamalar hakkında daha fazla bilgi edinin
 Favori kitaplarımızdan bazıları:

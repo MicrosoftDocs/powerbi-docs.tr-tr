@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256915"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726697"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Özel görseller oluşturmak için geliştirici araçları kullanma
 Özel görseller, kullanıcılarınızın ihtiyaçlarını karşılamanıza ve uygulamanızın tasarımını uyumlu hale getirmenize olanak sağlar. Geliştirme araçlarını kullanarak Power BI için özel görsel oluşturmayı öğrenin.
@@ -388,7 +388,7 @@ Görsel projenizin kökünde, terminalinize/komut satırınıza `pbiviz start` k
 Daha fazla bilgi için [Görselinizi çalıştırma](#running-your-visual) veya [Sunucu sertifikası kurulumu](#ssl-setup) başlıklı bölümlere bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki görselleştirmeler](power-bi-report-visualizations.md)  
+[Power BI'daki görselleştirmeler](visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  
 [Publish custom visuals to the Office store (Office Mağazası'nda özel görseller yayımlama)](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624404"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727318"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -27,7 +27,7 @@ Paylaşım ile kuruluşunuz içindeki veya dışındaki içeriği paylaşırken 
 
 Power BI hizmetinin birçok yerinden pano ve raporları paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir pano veya raporu paylaştığınızda, paylaştığınız kişiler panoyu görüntüleyebilir ve panoyla etkileşim kurabilir ancak panoyu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece bu kişiler, panoda veya raporlarda sizinle aynı verileri görür. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla da paylaşabilir. Kuruluşunuz dışındaki kişiler de panoyu ya da raporu görüntüleyebilir ve bunlarla etkileşim kurabilir ancak paylaşamaz. 
 
-Ayrıca, [Power BI mobil uygulamalarından da pano paylaşabilirsiniz](mobile-share-dashboard-from-the-mobile-apps.md). Panoları Power BI hizmetinden ve Power BI mobil uygulamalarından paylaşabilir ancak Power BI Desktop'tan paylaşamazsınız.
+Ayrıca, [Power BI mobil uygulamalarından da pano paylaşabilirsiniz](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Panoları Power BI hizmetinden ve Power BI mobil uygulamalarından paylaşabilir ancak Power BI Desktop'tan paylaşamazsınız.
 
 ## <a name="video-share-a-dashboard"></a>Video: Bir panoyu paylaşma
 Amanda'nın, panosunu şirket içindeki ve dışındaki kişilerle paylaşma videosunu izleyin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.

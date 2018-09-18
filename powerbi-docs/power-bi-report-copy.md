@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247815"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725639"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Mevcut bir rapordan yeni rapor oluşturma (rapor kopyalama)
 Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek isteyebileceğiniz bir raporunuzun bulunması da olasıdır.  Böyle bir durumda yeni bir rapor için temel oluşturmak üzere söz konusu raporu kopyalamanız yeterlidir.  Bunu gerçekleştirmek için:
@@ -37,7 +37,7 @@ Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek istey
 5. Yeni raporunuzu güncelleştirmenin ve düzenlemenin tadını çıkarın.
 
 ## <a name="next-steps"></a>Sonraki Adımlar:
-[Yeni görselleştirmeler oluşturma](power-bi-report-add-visualizations-ii.md)
+[Yeni görselleştirmeler oluşturma](visuals/power-bi-report-add-visualizations-ii.md)
 
 İhtiyacınız olmayan [görselleştirmeleri silme](service-delete.md)
 

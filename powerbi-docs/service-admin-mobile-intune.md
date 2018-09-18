@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250557"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728008"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 Microsoft Intune, kuruluşların cihazları ve uygulamaları yönetmesine olanak sağlar. iOS ve Android için Power BI mobil uygulamaları Intune ile tümleşik bir biçimde çalışarak cihazlarınızda uygulamayı yönetmenizi ve güvenliği denetlemenizi sağlar. Yapılandırma ilkeleri aracılığıyla, erişim PIN'i gerektirme, verilerin uygulama tarafından nasıl işlendiğini denetleme ve hatta uygulama kullanılmadığı sırada uygulama verilerini şifreleme gibi öğeleri denetleyebilirsiniz.
@@ -163,7 +163,7 @@ Yükleme gerçekleştikten sonra, bunun **Şirketiniz tarafından yönetilen** b
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Configure and deploy mobile application management policies in the Microsoft Intune console (Microsoft Intune konsolunda mobil uygulama yönetimi ilkelerini yapılandırma ve dağıtma)](https://technet.microsoft.com/library/dn878026.aspx)  
-[Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)  
+[Mobil cihazlar için Power BI uygulamaları](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

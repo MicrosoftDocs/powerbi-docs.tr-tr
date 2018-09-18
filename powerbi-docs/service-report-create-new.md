@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599540"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726421"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde yeni bir rapor oluşturma
 [Power BI'daki raporlar](service-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın birçok farklı yolu vardır. Biz bu makalede ilk olarak Power BI hizmetini kullanarak bir Excel veri kümesinden çok basit bir rapor oluşturacağız. Rapor oluşturma işlemiyle ilgili temel bilgileri kavradığınızda, sayfanın en altında bulunan **Sonraki adımlar** bölümündeki bağlantıları kullanarak raporlarla ilgili daha ileri düzey konulara göz atabilirsiniz.  
@@ -53,7 +53,7 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Rapora Radyal Ölçer ekleme
-Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başlayalım.  Pazarlama Müdürümüz (CMO) bu yılki satış hedeflerimize ne kadar yaklaştığımızı öğrenmek istiyor. Bu tür bilgilerin görüntülenmesi için Ölçer, [iyi bir görselleştirme seçimi](power-bi-report-visualizations.md) olacaktır.
+Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başlayalım.  Pazarlama Müdürümüz (CMO) bu yılki satış hedeflerimize ne kadar yaklaştığımızı öğrenmek istiyor. Bu tür bilgilerin görüntülenmesi için Ölçer, [iyi bir görselleştirme seçimi](visuals/power-bi-report-visualizations.md) olacaktır.
 
 1. Alanlar bölmesinde **Sales** > **This Year Sales** > **Değer** seçeneğini belirleyin.
    

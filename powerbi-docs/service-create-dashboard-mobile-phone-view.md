@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238433"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727249"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Cep telefonları için en iyi duruma getirilmiş Power BI panosu görünümü oluşturma
 Telefon kullanırken Power BI Mobil uygulamasında panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlara özel olarak, sahip olduğunuz herhangi bir panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz.
@@ -58,6 +58,6 @@ Telefonu yan çevirdiğinizde panoyu telefon için tasarladığınız gibi deği
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](desktop-create-phone-report.md)
-* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](desktop-create-responsive-visuals.md)
+* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](visuals/desktop-create-responsive-visuals.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

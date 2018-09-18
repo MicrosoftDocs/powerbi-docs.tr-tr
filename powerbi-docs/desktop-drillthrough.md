@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329374"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725869"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
 **Power BI Desktop**'ta **detaylandırma** özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Odaklanmış bu rapor sayfası sayesinde kullanıcılar, diğer rapor sayfalarındaki bir veri noktasına sağ tıklayıp ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için, odaklanmış sayfaya geçebilirler.
@@ -79,5 +79,5 @@ Raporlarınızda **detaylandırma** özelliğini kullanmak için yapmanız gerek
 
 Aşağıdaki makaleler de ilginizi çekebilir:
 
-* [Power BI Desktop’ta dilimleyicileri kullanma](desktop-slicers.md)
+* [Power BI Desktop’ta dilimleyicileri kullanma](visuals/desktop-slicers.md)
 

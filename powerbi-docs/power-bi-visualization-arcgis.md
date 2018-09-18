@@ -2,28 +2,28 @@
 title: Power BI'da ESRI tarafından sunulan ArcGIS haritalarını oluşturma
 description: "Power BI'da ESRI tarafından sunulan ArcGIS haritalarını oluşturma "
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168078"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728261"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları
-Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](power-bi-visualizations-arcgis.md).
+Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
 
 ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için altlık haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları arasından seçiminizi yapın. Haritalarda yetkilendirmeli veri katmanlarıyla uzamsal çözümlemenin bir arada kullanılması, görselleştirmenizdeki verilerin daha kapsamlı şekilde anlaşılmasını sağlar.
 
- Mobil cihazlarda ArcGIS haritaları oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. Bkz. [ArcGIS haritaları ile etkileşim kurma](power-bi-visualizations-arcgis.md).
+ Mobil cihazlarda ArcGIS haritaları oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. Bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS, Coğrafi Bilgi Bilimi anlamına gelir.
@@ -329,7 +329,7 @@ Bu hata üzerinde çalışılmaktadır.  Bu arada, önbelleğinizi temizlemek i�
 
 **ArcGIS Maps for Power BI, Esri Şekil Dosyalarını destekliyor mu?**
 
-ArcGIS Maps for Power BI ülke/bölge, eyalet/il ve posta kodları gibi standart sınırları otomatik olarak algılar. Kendi şekillerinizi sağlamanız gerekiyorsa [Power BI Desktop (Önizleme) için Şekil Haritalarını](desktop-shape-map.md) kullanarak yapabilirsiniz.
+ArcGIS Maps for Power BI ülke/bölge, eyalet/il ve posta kodları gibi standart sınırları otomatik olarak algılar. Kendi şekillerinizi sağlamanız gerekiyorsa [Power BI Desktop (Önizleme) için Şekil Haritalarını](visuals/desktop-shape-map.md) kullanarak yapabilirsiniz.
 
 **ArcGIS haritalarımı çevrimdışı görüntüleyebilir miyim?**
 
@@ -340,7 +340,7 @@ Hayır, Power BI'ın haritaları görüntülemesi için ağ bağlantısı gereki
 Henüz bağlanamazsınız. [Bu fikri oylayın](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), ilgili özellik üzerinde çalışmaya başladığımızda size bir e-posta gönderelim.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](power-bi-visualizations-arcgis.md)
+[Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](visuals/power-bi-visualizations-arcgis.md)
 
 [ArcGIS Maps for Power BI'ın kullanıma sunulduğunu duyuran blog gönderisi](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

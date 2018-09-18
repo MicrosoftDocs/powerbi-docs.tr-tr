@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 0debedc6e768fb3158ebe5cb4bf820ed3dc14a58
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481429"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726743"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com)) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -108,7 +108,7 @@ Power BI Rapor Sunucusu raporları aşağıdakileri desteklemez:
 * Power BI Desktop önizleme özellikleri
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında
-Power BI Rapor Sunucusu raporları, [Power BI mobil uygulamalarında](../mobile-apps-for-mobile-devices.md) aşağıdakiler de dahil olmak üzere tüm temel işlevleri destekler:
+Power BI Rapor Sunucusu raporları, [Power BI mobil uygulamalarında](../consumer/mobile/mobile-apps-for-mobile-devices.md) aşağıdakiler de dahil olmak üzere tüm temel işlevleri destekler:
 
 * [Telefon rapor düzeni](../desktop-create-phone-report.md): Bir raporu Power BI mobil uygulamaları için en iyi duruma getirebilirsiniz. En iyi duruma getirilmiş raporlar cep telefonunuzda özel bir simge (![Telefon rapor düzeni simgesi](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png)) ve düzenle gösterilir.
   

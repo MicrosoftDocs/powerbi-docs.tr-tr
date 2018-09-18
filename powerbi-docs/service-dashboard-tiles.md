@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241603"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726145"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
-Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Pano kutucuklarını Power BI Mobil'de oluşturamaz veya sabitleyemezsiniz ancak [görüntüleyip paylaşabilirsiniz](mobile-tiles-in-the-mobile-apps.md). Ayrıca Power BI Mobil'de, [iPhone uygulamanızı kullanarak panonuza resim ekleyebilirsiniz](mobile-iphone-app-get-started.md).
+Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Pano kutucuklarını Power BI Mobil'de oluşturamaz veya sabitleyemezsiniz ancak [görüntüleyip paylaşabilirsiniz](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). Ayrıca Power BI Mobil'de, [iPhone uygulamanızı kullanarak panonuza resim ekleyebilirsiniz](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Pano kutucukları
 ![Power BI panosu](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ Bir kutucuğu seçtiğinizde sonraki adım, kutucuğun nasıl oluşturulduğuna 
 * Kutucuğu oluşturmak için kullanılan özgün görselleştirmenin değişmesi halinde kutucuk değişmez.  Örneğin, bir rapordan çizgi grafik sabitler ve ardından çizgi grafiği çubuk grafik olarak değiştirirseniz pano kutucuğunda bir çizgi grafik gösterilmeye devam eder. Veriler yenilenir ancak görselleştirme türü yenilenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Panonuz için Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md)
+[Panonuz için Kart (büyük sayı kutucuğu) oluşturma](visuals/power-bi-visualization-card.md)
 
 [Power BI'daki panolar](service-dashboards.md)  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300127"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726927"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -244,7 +244,7 @@ Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve b
 
 ### <a name="interact-with-and-share-r-visuals"></a>R görselleriyle etkileşim kur ve bunları paylaş
 
-Kuruluştaki kullanıcılar R betikleri ile oluşturulan görsellerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](service-r-visuals.md)
+Kuruluştaki kullanıcılar R betikleri ile oluşturulan görsellerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](visuals/service-r-visuals.md)
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.

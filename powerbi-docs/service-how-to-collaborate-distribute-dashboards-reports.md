@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623965"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726674"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
 
@@ -83,9 +83,9 @@ iOS cihazları ve Android cihazlar için Power BI mobil uygulamalarında bir kut
 
 Kutucuk, rapor veya görselin bir anlık görüntüsünü paylaşırsınız ve alıcılarınız bunu, tam olarak e-postayı gönderirken olduğu şekilde görür. E-posta aynı zamanda panonun veya raporun bir bağlantısını da içerir. Alıcıların nesneyi açabilmesi için Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitede](service-premium.md) olması ve nesneyi alıcılarınızla paylaşmış olmanız gerekir. Kutucukların anlık görüntülerini yalnızca aynı etki alanında olduğunuz iş arkadaşlarınıza değil, dilediğiniz kişiye gönderebilirsiniz.
 
-iOS ve Android mobil uygulamalarında [kutucuk, rapor ve görsellere not ekleme ve bunları paylaşma](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin.
+iOS ve Android mobil uygulamalarında [kutucuk, rapor ve görsellere not ekleme ve bunları paylaşma](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin.
 
-Ayrıca, Windows 10 için Power BI uygulamasında [bir kutucuk anlık görüntüsü paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md).
+Ayrıca, Windows 10 için Power BI uygulamasında [bir kutucuk anlık görüntüsü paylaşabilirsiniz](consumer/mobile/mobile-windows-10-phone-app-get-started.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF veya başka türde bir statik dosya olarak yazdırma ya da kaydetme
 Power BI hizmetindeki bir panonun, pano kutucuğunun, rapor sayfasının veya görselleştirmenin tamamını PDF (ya da başka bir statik dosya biçiminde) olarak yazdırabilir veya kaydedebilirsiniz. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız. [Statik dosya olarak yazdırma veya kaydetme](service-print.md) hakkında daha fazla bilgi edinin.

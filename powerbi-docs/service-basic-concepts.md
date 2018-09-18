@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280628"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728169"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI hizmeti için temel kavramlar
 
@@ -111,10 +111,10 @@ Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçti
 
 ### <a name="dig-deeper"></a>Derinlemesine
 * [Power BI hizmetinde ve Power BI Desktop'ta raporlar](service-reports.md)
-* [Power BI mobil uygulamalarında raporlar](mobile-reports-in-the-mobile-apps.md)
+* [Power BI mobil uygulamalarında raporlar](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Panolar
-*Pano*, **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](power-bi-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](service-dashboard-tiles.md). 
+*Pano*, **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](power-bi-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](visuals/power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](service-dashboard-tiles.md). 
 
 Panolar neden oluşturulur?  Nedenlerden bazıları şunlardır:
 

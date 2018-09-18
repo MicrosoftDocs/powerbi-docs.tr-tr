@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256182"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727042"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI hizmetindeki R paketleri
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
 
-Aşağıdaki bölümde, Power BI'da desteklenen ve desteklenmeyen R paketlerinin alfabetik bir tablosu bulunmaktadır. Power BI'da R hakkında daha fazla bilgi için [R görselleri](service-r-visuals.md) makalesine bakın.
+Aşağıdaki bölümde, Power BI'da desteklenen ve desteklenmeyen R paketlerinin alfabetik bir tablosu bulunmaktadır. Power BI'da R hakkında daha fazla bilgi için [R görselleri](visuals/service-r-visuals.md) makalesine bakın.
 
 ## <a name="request-support-for-a-new-r-package"></a>Yeni bir R paketi için destek isteme
 **Power BI hizmetinde** desteklenen R paketleri, **Desteklenen Paketler** adlı bir sonraki bölümde yer almaktadır. Söz konusu listede bulunmayan bir R paketi için destek isteğinde bulunmak isterseniz [Power BI'da R Geri Bildirim Ekibi](mailto:rinpbifb@microsoft.com)'ne isteğinizi e-posta olarak gönderebilirsiniz.
@@ -940,7 +940,7 @@ Aşağıdaki tabloda Power BI hizmetinde **desteklenmeyen** paketler gösterilme
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI'da R hakkında daha fazla bilgi edinmek için şu makalelere göz atın:
 
-* [Power BI hizmetinde R görselleri oluşturma](service-r-visuals.md)
+* [Power BI hizmetinde R görselleri oluşturma](visuals/service-r-visuals.md)
 * [R programlama dilini kullanarak Power BI görselleri oluşturma](desktop-r-visuals.md)
 * [Power BI Desktop'ta R betikleri çalıştırma](desktop-r-scripts.md)
 * [Sorgu Düzenleyicisi'nde R programlama dilini kullanma](desktop-r-in-query-editor.md)

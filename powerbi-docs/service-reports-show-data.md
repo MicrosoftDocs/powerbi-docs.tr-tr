@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a86e9f93023e317ba665ec04bb3a67ebfbdfe8a1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298953"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727456"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 ## <a name="show-data"></a>Verileri Göster
@@ -48,7 +48,7 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md)    
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)    
+[Power BI raporlarındaki görselleştirmeler](visuals/power-bi-report-visualizations.md)    
 [Power BI raporları](service-reports.md)    
 [Power BI - Temel Kavramlar](service-basic-concepts.md)    
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257025"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728192"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Power BI ve Power BI Desktop ile şirket içi veri kaynaklarınıza güvenli bir
 Power BI Rapor Sunucusu, raporları oluşturmak, yayımlamak, yönetmek ve ardından farklı şekillerde (bir Web tarayıcısında, mobil cihazlarında ya da posta kutularında e-posta olarak) farklı kullanıcılara iletmek üzere şirketinizde kullandığınız bir çözümdür. [Power BI Rapor Sunucusu](report-server/get-started.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="power-bi-mobile-apps"></a>Power BI mobil uygulamaları
-Ayrıca, [Power BI mobil uygulamaları ile şirket içi Power BI raporlarını, Reporting Services mobil raporlarını ve KPI'leri görüntüleyebilirsiniz](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+Ayrıca, [Power BI mobil uygulamaları ile şirket içi Power BI raporlarını, Reporting Services mobil raporlarını ve KPI'leri görüntüleyebilirsiniz](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI mobil cihazları destekliyor mu?
 Evet. Power BI Android telefonlar ve tabletler, iOS cihazları ve Windows 10 cihazları için yerel uygulamalar içerir. İlgili mağazadan [Power BI mobil uygulamalarından](https://powerbi.microsoft.com/mobile) birini indirin:  

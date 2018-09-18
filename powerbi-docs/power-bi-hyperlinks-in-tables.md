@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799057"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727571"
 ---
 # <a name="hyperlinks-in-tables"></a>Tablolardaki köprüler
 Bu konu başlığı altında, Power BI Desktop'ın köprü oluşturmak için nasıl kullanılacağı açıklanmaktadır. Ardından, oluşturduktan sonra bu köprü bağlantılarını rapor tablolarınıza ve matrislerinize eklemek için Desktop'ı veya Power BI hizmetini kullanabilirsiniz. 
@@ -87,7 +87,7 @@ C: Hayır. Bir bağlantı simgesi kullanabilirsiniz. Köprü bağlantılarınız
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
+[Power BI raporlarındaki görselleştirmeler](visuals/power-bi-report-visualizations.md)
 
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 

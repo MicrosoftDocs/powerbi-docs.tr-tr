@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296804"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727272"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -40,7 +40,7 @@ Power BI Rapor Sunucusu ile Power BI hizmeti, çok sayıda benzerliğe ve bazı 
 | Hızlı içgörüler | Hayır | Evet | [Power BI ile otomatik olarak veri içgörüleri oluşturma](../service-insights.md) 
 | Excel'de Analiz Et | Hayır | Evet | [Excel'de Çözümle](../service-analyze-in-excel.md) 
 | Sayfalandırılmış raporlar | Evet | Hayır | Sayfalandırılmış raporlar Power BI hizmetinde kullanılamaz ancak [sayfalandırılmış rapor öğelerini Power BI panolarına sabitleyebilirsiniz](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
-| Power BI mobil uygulamaları | Evet | Evet | [Power BI mobil uygulamalarına genel bakış](../mobile-apps-for-mobile-devices.md) 
+| Power BI mobil uygulamaları | Evet | Evet | [Power BI mobil uygulamalarına genel bakış](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS haritaları | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları](../power-bi-visualization-arcgis.md)
 | Power BI raporları için e-posta abonelikleri | Hayır | Evet | Power BI hizmetinde [bir rapora veya panoya abone olma](../service-report-subscribe.md) 
 | Sayfalandırılmış raporlar için e-posta abonelikleri | Evet | Hayır | [Raporlama Hizmetleri'nde e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,7 +48,7 @@ Power BI Rapor Sunucusu ile Power BI hizmeti, çok sayıda benzerliğe ve bazı 
 | Satır düzeyi güvenlik | DirectQuery modunda yalnızca veri kaynağı üzerinden | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir | Power BI ile [satır düzeyi güvenlik (RLS)](../service-admin-rls.md) 
 | Tam ekran modu | Hayır | Evet | Power BI hizmetinde [tam ekran modu](../service-fullscreen-mode.md) 
 | Gelişmiş Office 365 işbirliği | Hayır | Evet | Office 365 ile [bir uygulama çalışma alanında işbirliği](../service-collaborate-power-bi-workspace.md) 
-| R görselleri | Hayır | Evet | Power BI hizmetinde [R görselleri oluşturma](../service-r-visuals.md)  
+| R görselleri | Hayır | Evet | Power BI hizmetinde [R görselleri oluşturma](../visuals/service-r-visuals.md)  
 | Önizleme özellikleri | Hayır | Evet | [Power BI hizmetinin önizleme özelliklerini kullanma](../service-preview-features.md) 
 | Özel görseller | Evet | Evet | [Power BI'daki özel görseller](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Rapor Sunucusu için en iyi duruma getirilmiş sürüm, Rapor Sunucusu ile birlikte indirilebilir | Power BI Hizmeti için en iyi duruma getirilmiş sürüm, Microsoft Store’dan indirilebilir | [Rapor sunucusu için Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI hizmeti için Power BI Desktop](http://aka.ms/pbidesktopstore)

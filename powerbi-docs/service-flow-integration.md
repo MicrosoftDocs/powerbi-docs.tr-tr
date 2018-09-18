@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246839"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726835"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
 
@@ -110,7 +110,7 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Get started with Microsoft Flow (Microsoft Flow ile çalışmaya başlama)](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Set data alerts in Power BI service (Power BI hizmetinde veri uyarısı oluşturma)](service-set-data-alerts.md)
-* [iPhone'unuzda veri uyarısı oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone'unuzda veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

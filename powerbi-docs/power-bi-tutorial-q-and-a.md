@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599242"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727962"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Eğitim: Görselleştirmeler ve raporlar oluşturmak için Soru-Cevap özelliğini kullanma
-[Soru-Cevap özelliğine genel bakış](power-bi-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.
+[Soru-Cevap özelliğine genel bakış](power-bi-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.
 
 Soru-Cevap, etkileşimli ve eğlenceli bir özelliktir. Bir soruyla başlayıp devamını getirerek görselleştirmelerin ilgi çekici dünyasında kısa bir seyahate çıkabilirsiniz. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
 
@@ -44,7 +44,7 @@ Sorunuzun cevabı etkileşimli görselleştirme olarak görüntülenir ve soruyu
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. Siz bir soru yazarken Soru-Cevap özelliği, cevabınızı görüntülemek için en iyi [görselleştirmeyi](power-bi-visualization-types-for-reports-and-q-and-a.md) seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir.
+3. Siz bir soru yazarken Soru-Cevap özelliği, cevabınızı görüntülemek için en iyi [görselleştirmeyi](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve t
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. Siz bir soru yazarken Soru-Cevap özelliği, cevabınızı görüntülemek için en iyi [görselleştirmeyi](power-bi-visualization-types-for-reports-and-q-and-a.md) seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir.
+4. Siz bir soru yazarken Soru-Cevap özelliği, cevabınızı görüntülemek için en iyi [görselleştirmeyi](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

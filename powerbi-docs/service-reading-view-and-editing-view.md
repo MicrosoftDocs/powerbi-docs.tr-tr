@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251679"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726766"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI hizmeti raporlarındaki Okuma görünümü ve Düzenleme görünümü
 Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: Okuma görünümü ve Düzenleme görünümü. Okuma görünümü, özellikle veri *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir.
@@ -59,13 +59,13 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 | [Bir rapor sayfasını yineleme](power-bi-report-copy-paste-page.md) | Hayır  | Evet |
 | [Bir rapor sayfasını silme](service-delete.md) | hayır | evet |
 |**Rapor görselleştirmeleri ile çalışma**|
-| [Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md) | Hayır  | Evet |
+| [Bir rapora görselleştirme ekleme](visuals/power-bi-report-add-visualizations-i.md) | Hayır  | Evet |
 | [Bir rapora metin kutusu ve şekil ekleme](power-bi-reports-add-text-and-shapes.md) | Hayır  | Evet |
 | [Rapordaki Biçimlendirme bölmesini kullanma](service-the-report-editor-take-a-tour.md) | Hayır | Evet |
 | [Görsel etkileşimler ayarlama](service-reports-visual-interactions.md) | Hayır  | Evet |
 | [Görselleştirmeyi oluşturmak için kullanılan verileri gösterme](service-reports-show-data.md) | Hayır  | Evet |
 | [Detaylandırmayı yapılandırma](power-bi-visualization-drill-down.md) | Hayır  | Evet |
-| [Kullanılmakta olan görselleştirmeyi değiştirme](power-bi-report-change-visualization-type.md) | Hayır | Evet|
+| [Kullanılmakta olan görselleştirmeyi değiştirme](visuals/power-bi-report-change-visualization-type.md) | Hayır | Evet|
 | [Bir görselleştirmeyi, metin kutusunu veya şekli silme](service-delete.md)| Hayır | Evet |
 
 

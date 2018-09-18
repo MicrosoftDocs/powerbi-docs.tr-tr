@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34256714"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728123"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -191,7 +191,7 @@ Yardım belgeleri şu 10 dilde kullanıma sunulmuştur:
 * İspanyolca - español
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Power BI mobil uygulamalarından birini kullanıyor musunuz? Ayrıntılı bilgi için bkz. [Power BI mobil uygulamalarında desteklenen diller](mobile-apps-supported-languages.md).
+* Power BI mobil uygulamalarından birini kullanıyor musunuz? Ayrıntılı bilgi için bkz. [Power BI mobil uygulamalarında desteklenen diller](consumer/mobile/mobile-apps-supported-languages.md).
 * Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 

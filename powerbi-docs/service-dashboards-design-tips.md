@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944986"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726071"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel göründüğü kadar işlevsel hale getirmeye geldi. Genel olarak yapmanız gereken, en önemli bilgileri öne çıkarıp panoyu temiz ve sade bir hale getirmektir.
@@ -23,7 +23,7 @@ Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel g
 Burada birkaç ipucu verilmiştir.
 
 > [!TIP]
-> Bunların çoğu raporlara ilişkin tasarım ilkeleridir ancak panolar için de geçerlidir.  [Raporlar ve görselleştirmeler için en iyi tasarım ilkeleri](power-bi-visualization-best-practices.md) teknik incelememizi okuyun.
+> Bunların çoğu raporlara ilişkin tasarım ilkeleridir ancak panolar için de geçerlidir.  [Raporlar ve görselleştirmeler için en iyi tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md) teknik incelememizi okuyun.
 >
 >
 
@@ -51,7 +51,7 @@ Panonuzdaki tüm metinler ve görselleştirmeler aynı boyutta olursa kullanıc�
 
 Ancak bağlam sunduğunuzdan emin olun.  
 
-[Yalnızca sayı içeren bir kutucuk oluşturma](power-bi-visualization-card.md) hakkında bilgi edinin.
+[Yalnızca sayı içeren bir kutucuk oluşturma](visuals/power-bi-visualization-card.md) hakkında bilgi edinin.
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>En önemli bilgileri üst köşeye yerleştirin
 Çoğu kişi içeriği yukarıdan aşağıya doğru okuduğu için en yüksek ayrıntıya sahip olan öğeyi en üste yerleştirin ve hedef kitlenizin okuma yönüne göre (soldan sağa, sağdan sola) verileri ayrıntılandırın.
@@ -68,7 +68,7 @@ Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak iç
 * [Grafiklerin sıralanma şekline](power-bi-report-change-sort.md) dikkat edin.  En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın.  Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
 * Pasta grafikleri, sekizden az kategori bulunuyorsa idealdir. Yan yana göremediğiniz için pasta grafiğindeki değerleri karşılaştırmak çubuk grafiklerdeki ve sütun grafiklerindeki değerlere kıyasla daha zordur. Pasta grafikleri, parçaları karşılaştırmak yerine parçalarla bütün arasındaki ilişkiyi görmek için kullanılabilir. Ölçek grafikleri, bir hedef bağlamında geçerli durumu görüntülemek için idealdir.
 
-Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Pano Tasarımındaki En İyi Uygulamalar Hakkında Daha Fazla Bilgi Edinin
 Pano tasarımı konusunda uzmanlaşmak için bağlam içinde eyleme dönüştürülebilecek bilgileri net bir şekilde vermeyi ve temel Gestalt görsel algı ilkelerini öğrenin. Neyse ki bu konuda genel kullanıma açık ve blog gönderilerimizde de yer verdiğimiz birçok kaynak mevcut. Favori kitaplarımızdan bazıları:

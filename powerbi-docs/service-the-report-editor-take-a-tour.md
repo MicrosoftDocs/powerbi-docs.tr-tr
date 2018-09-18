@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299482"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726651"
 ---
 # <a name="the-report-editortake-a-tour"></a>Rapor düzenleyicisi: Tura katılın
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleme
@@ -65,7 +65,7 @@ Görselleştirmedeki bir alanı kaldırmak için alan adının sağ tarafında b
 
 ![StoreType öğesini Açıklama’dan kaldırma](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Daha fazla bilgi için bkz. [Bir Power BI raporuna görselleştirme ekleme](power-bi-report-add-visualizations-i.md)
+Daha fazla bilgi için bkz. [Bir Power BI raporuna görselleştirme ekleme](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>Görsellerinizi biçimlendirme
 Biçimlendirme bölmesini açmak için boya rulosu simgesini seçin. Kullanılabilir seçenekler, seçtiğiniz görselleştirme türüne göre değişiklik gösterir.
@@ -74,9 +74,9 @@ Biçimlendirme bölmesini açmak için boya rulosu simgesini seçin. Kullanılab
 
 Biçimlendirme seçenekleri neredeyse sonsuzdur.  Daha fazla bilgi edinmek için kendiniz keşfedin veya şu makaleleri ziyaret edin:
 
-* [Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme](power-bi-visualization-customize-title-background-and-legend.md)
-* [Renk biçimlendirme](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [X ve Y ekseni özelliklerini özelleştirme](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Renk biçimlendirme](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [X ve Y ekseni özelliklerini özelleştirme](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Görselleştirmelerinize analiz ekleme
 Analiz bölmesini görüntülemek için büyüteç simgesini seçin. Kullanılabilir seçenekler, seçtiğiniz görselleştirme türüne göre değişiklik gösterir.
@@ -126,7 +126,7 @@ Rapor tuvali, çalışmanızın görüntülendiği yerdir. Alanlar, Filtreler ve
 ## <a name="next-steps"></a>Sonraki Adımlar:
 [Rapor oluşturma](service-report-create-new.md)
 
-[Power BI hizmeti](service-reports.md), [Power BI Desktop](desktop-report-view.md) ve [Power BI mobil](mobile-apps-view-phone-report.md)’de raporlar hakkında daha fazla bilgi edinin.
+[Power BI hizmeti](service-reports.md), [Power BI Desktop](desktop-report-view.md) ve [Power BI mobil](consumer/mobile/mobile-apps-view-phone-report.md)’de raporlar hakkında daha fazla bilgi edinin.
 
 [Power BI - Temel Kavramlar](service-basic-concepts.md)
 

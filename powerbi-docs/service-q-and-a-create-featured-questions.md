@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242399"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726329"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
 Bir veri kümeniz varsa kendi öne çıkan sorularınızı bu veri kümesine ekleyebilirsiniz.  Böylece Power BI Soru-Cevap bu soruları, veri kümenizi *kullanan* iş arkadaşlarınıza gösterir.  Öne çıkan sorular, iş arkadaşlarınıza bir veri kümesi ile ilgili sorabilecekleri soru türleri hakkında fikirler verir. Ne tür öne çıkan sorular ekleyeceğiniz size bağlıdır; sık kullanılan sorular, ilgi çekici sonuçlar görüntüleyen sorular veya uygun şekilde ifade etmesi zor olabilecek sorular sorabilirsiniz.
@@ -26,7 +26,7 @@ Will'in Power BI Soru-Cevap bölümünde bazı öne çıkan sorular sorduğu ve 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Soru-Cevap öne çıkan soruları, [iPad, iPhone ve iPod touch cihazlarında iOS için Microsoft Power BI uygulamasında](mobile-apps-ios-qna.md) ve Power BI Desktop Soru-Cevap Önizlemesinde kullanılabilir. Ancak soru oluşturma seçeneği yalnızca Power BI hizmetinde (app.powerbi.com) mevcuttur.
+> Soru-Cevap öne çıkan soruları, [iPad, iPhone ve iPod touch cihazlarında iOS için Microsoft Power BI uygulamasında](consumer/mobile/mobile-apps-ios-qna.md) ve Power BI Desktop Soru-Cevap Önizlemesinde kullanılabilir. Ancak soru oluşturma seçeneği yalnızca Power BI hizmetinde (app.powerbi.com) mevcuttur.
 > 
 
 Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır.

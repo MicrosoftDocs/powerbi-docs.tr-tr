@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136974"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728054"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?
@@ -27,7 +27,7 @@ Bu raporda 3 sayfa (veya sekme) bulunuyor ve biz şu anda Store Sales Overview s
 
 Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](service-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz
 
-Raporlar, Power BI hizmetinin ve Power BI Desktop'ın bir özelliğidir. Raporlarla çalışma deneyimi her ikisinde de neredeyse aynıdır. Mobilde ise rapor oluşturamazsınız ancak [raporları görüntüleyebilir, paylaşabilir ve raporlara not ekleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
+Raporlar, Power BI hizmetinin ve Power BI Desktop'ın bir özelliğidir. Raporlarla çalışma deneyimi her ikisinde de neredeyse aynıdır. Mobilde ise rapor oluşturamazsınız ancak [raporları görüntüleyebilir, paylaşabilir ve raporlara not ekleyebilirsiniz](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Raporların avantajları
 Raporlar tek bir veri kümesini temel alır. Bir raporda bulunan her görselleştirme önemli bir bilgi parçasını temsil eder. Ayrıca görselleştirmeler statik olmadığından, öngörüler keşfetmek ve sorularınıza yanıt aramak üzere verilerinizi ayrıntılı olarak incelemek için veri ekleyebilir veya kaldırabilir, görselleştirme türlerini değiştirebilir, filtreler ve dilimleyiciler ekleyebilirsiniz. Bir rapor bir panoya benzer şekilde, ancak panodan daha yüksek oranda etkileşimlidir, yüksek derecede özelleştirilebilir ve temel alınan veriler değiştikçe görselleştirmeler de güncelleştirilir.

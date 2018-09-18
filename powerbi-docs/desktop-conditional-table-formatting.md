@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657817"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728100"
 ---
 # <a name="conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme 
 Tablolar için koşullu biçimlendirme sayesinde hücre değerlerine göre (veya başka değerlere ya da alanlara göre) özel hücre renkleri belirtebilir ve gradyan renklerini kullanabilirsiniz. Ayrıca, veri çubukları ile hücre değerlerini gösterebilirsiniz. 
@@ -133,5 +133,5 @@ Yalnızca hayal gücünüzü ve DAX bilginizi kullanarak birçok farklı kullan�
 ## <a name="next-steps"></a>Sonraki adımlar
 Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  
 
-* [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md)  
+* [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

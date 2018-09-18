@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249951"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727180"
 ---
 # <a name="power-bi-notifications"></a>Power BI Bildirimleri
 Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır. Sizinle paylaşılan yeni panolar, Grup alanınızda yapılan değişiklikler, Power BI etkinliklerine ve toplantılarına ilişkin bilgiler, ayarladığınız uyarılar ve daha fazlası hakkındaki iletileri görmek için Bildirim Merkezi'ni açın. Power BI hizmetinin yanı sıra Power BI Mobil uygulamalarında da [uyarılar ayarlayabilirsiniz](service-set-data-alerts.md).
@@ -40,7 +40,7 @@ Amanda'nın aldığı bildirimleri gözden geçirmesini, bildirimlerini yönetme
 ### <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki veri uyarıları](service-set-data-alerts.md)
 * [Power BI veri uyarısıyla tetiklenen bir Microsoft Flow oluşturma](service-flow-integration.md)
-* [iPhone uygulamasında (iOS için Power BI) veri uyarıları ayarlama](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 için Power BI mobil uygulamasında veri uyarıları ayarlama](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [iPhone uygulamasında (iOS için Power BI) veri uyarıları ayarlama](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 için Power BI mobil uygulamasında veri uyarıları ayarlama](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
