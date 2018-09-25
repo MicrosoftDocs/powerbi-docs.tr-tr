@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242143"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545464"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunun bilincindeyiz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğinizden bu, zaman zaman güç olabilir. 
@@ -39,7 +39,7 @@ Power BI hizmetinde bir rapor açın ve sol üst menü çubuğundan **Görünüm
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde kullanılabilir. Düzenleme Görünümü'nde, rapor sahibi her bir rapor sayfasına birer sayfa görünümü ayarı atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler.  İş arkadaşlarınız Okuma görünümü'nde Sayfa görünümü ayarlarının *bazılarını* değiştirebilir ancak bu değişiklikler raporu kapattıklarında kaydedilmez.
+Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde kullanılabilir. Düzenleme Görünümü'nde, rapor sahibi her bir rapor sayfasına birer sayfa görünümü ayarı atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler.  İş arkadaşlarınız Okuma görünümü'nde Sayfa görünümü ayarlarının *bazılarını* değiştirebilir ancak bu değişiklikler raporu kapattıklarında kaydedilmez.
 
 ##    <a name="page-view-settings"></a>Sayfa görünümü ayarları
 *Sayfa görünümü* ayarlarının ilk bölümü, rapor sayfanızın tarayıcı penceresiyle görüntülenme biçimini denetler.  Şunlardan birini seçin:
@@ -62,7 +62,7 @@ Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](ser
 ## <a name="page-size-settings"></a>Sayfa Boyutu ayarları
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-*Sayfa Boyutu* ayarları yalnızca rapor sahipleri tarafından kullanılabilir. Bunun için Power BI hizmetinde (app.powerbi.com) raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açabiliyor olmanız gerekir. Bu ayarlar rapor tuvalinin ekran oranını ve gerçek boyutunu (piksel cinsinden) denetler.   
+*Sayfa Boyutu* ayarları yalnızca rapor sahipleri tarafından kullanılabilir. Bunun için Power BI hizmetinde (app.powerbi.com) raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açabiliyor olmanız gerekir. Bu ayarlar rapor tuvalinin ekran oranını ve gerçek boyutunu (piksel cinsinden) denetler.   
 
 * 4:3 oranı
 * 16:9 oranı (varsayılan)
@@ -71,11 +71,11 @@ Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](ser
 * Özel (piksel cinsinden yükseklik ve genişlik)
 
 ## <a name="next-steps"></a>Sonraki Adımlar
-[Sahip olduğunuz Power BI raporlarında Sayfa görünümü ve Sayfa boyutu ayarlarını nasıl kullanacağınızı öğrenin](power-bi-change-report-display-settings.md).
+[Sahip olduğunuz Power BI raporlarında Sayfa görünümü ve Sayfa boyutu ayarlarını nasıl kullanacağınızı öğrenin](consumer/end-user-report-view.md).
 
-[Power BI'daki raporlar](service-reports.md) hakkında daha fazla bilgi edinin
+[Power BI'daki raporlar](consumer/end-user-reports.md) hakkında daha fazla bilgi edinin
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

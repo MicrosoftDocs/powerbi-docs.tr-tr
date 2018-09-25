@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745073"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565096"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini ancak aynı zamanda tek Bölge Yöneticileri ve farklı zaman aralıkları için performansı vurgulayabilmesini istiyorsunuz. Ayrı raporlar veya karşılaştırmalı grafikler oluşturabilir ya da dilimleyicileri kullanabilirsiniz. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir. 
@@ -98,7 +98,7 @@ Bazı sayfa görselleştirmelerini diğerlerinden etkilenmemesi için hariç tut
 2. Dilimleyicinin filtrelemesini durdurmak için **FiscalMonth ve Bölge Yöneticisine Göre Toplam Satış Değişimi** grafiğinin üzerindeki **Hiçbiri** simgesini seçin. 
 3. Bu dilimleyicinin filtrelemesini durdurmak için **Ay** dilimleyicisini seçin ve yine **FiscalMonth ve Bölge Yöneticisine Göre Toplam Satış Değişimi** grafiğinin üzerindeki **Hiçbiri** simgesini seçin. Şimdi dilimleyicilerde ad ve tarih aralıklarını seçtiğinizde, FiscalMonth ve Bölge Yöneticisine Göre Toplam Satış Değişimi grafiği değişmez. 
 
-Etkileşimleri düzenleme hakkında daha fazla bilgi için bkz. [Power BI raporlarındaki görsel etkileşimler](../service-reports-visual-interactions.md).
+Etkileşimleri düzenleme hakkında daha fazla bilgi için bkz. [Power BI raporlarındaki görsel etkileşimler](../consumer/end-user-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Diğer sayfalardaki dilimleyicileri eşitleme ve kullanma
 Şubat 2018 tarihinde yapılan Power BI güncelleştirmesinden itibaren bir dilimleyiciyi eşitleyebilir ve bir rapordaki tüm sayfalarda kullanabilirsiniz. 
@@ -193,5 +193,5 @@ Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.p
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924547"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544636"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI ile Adobe Analytics'e bağlanma
 Power BI aracılığıyla Adobe Analytics'e bağlanmak için öncelikle Adobe Analytics Marketing Cloud hesabınızı bağlamanız gerekir. Site trafiğinize ve kullanıcılarınıza ilişkin boyutlar hakkında öngörü sağlayan bir Power BI panosu ve bir dizi Power BI raporu içeren bir uygulamaya sahip olursunuz. Veriler günde bir kez otomatik olarak yenilenir. Pano ve raporlar ile etkileşim kurabilirsiniz, ancak değişiklikleri kaydedemezsiniz.
@@ -94,7 +94,7 @@ Kimlik bilgilerinizi girdikten sonra gerekli izinlere sahip olmadığınızı be
 Kimlik bilgileri ekranını hata almadan geçtiyseniz raporların tamamlanması çok uzun sürüyor olabilir. Sık karşılaşılan hatalardan biri *"Adobe Analytics raporundan veri alınamadı. Dahil edilen içerik &quot; başvuran, sayfa &quot;, yaklaşık süre xx saniyeydi"* şeklindedir. Lütfen "Neleri kapsar" bölümünü inceleyin ve Adobe örneğinizin boyutunu karşılaştırın. Maalesef bu zaman aşımı için bilinen bir geçici çözüm mevcut değildir. Ancak daha büyük örnekler için daha fazla destek sunma amacıyla güncelleştirme yapmayı düşünüyoruz. Lütfen geri bildiriminizi https://ideas.powerbi.com adresine giderek Power BI ekibiyle paylaşın
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257241"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545656"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Filtre uygulanmış bir Power BI raporunu iş arkadaşlarınızla paylaşın
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve raporlarınızı dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ Sizinle aynı e-posta etki alanında bulunan iş arkadaşlarınızla, Power BI h
 ## <a name="filter-and-share-a-report"></a>Rapor filtreleme ve paylaşma
 Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Bunun için bir özel URL oluşturmanız gerekir.
 
-1. Raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın, filtreyi uygulayın ve raporu kaydedin.
+1. Raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın, filtreyi uygulayın ve raporu kaydedin.
    
    Bu örnekte yalnızca **Territory**'nin **NC**'ye eşit olduğu değerleri göstermek için [Perakende Analizi örneği](sample-tutorial-connect-to-the-samples.md)'ni filtreliyoruz.
    

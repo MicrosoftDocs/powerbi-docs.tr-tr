@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247723"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545879"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve başka öğeler ekleme
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ Bir kutucukta değişiklik yapmak için...
 * Bir web sitesinde yer alan içeriği eklemek istiyorsanız ancak web sitesi kopyalayıp yapıştırabileceğiniz bir kod parçası sağlamıyorsa ekleme kodu oluşturma konusunda yardım almak için embed.ly sitesine bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Pano kutucukları](service-dashboard-tiles.md)
+[Pano kutucukları](consumer/end-user-tiles.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

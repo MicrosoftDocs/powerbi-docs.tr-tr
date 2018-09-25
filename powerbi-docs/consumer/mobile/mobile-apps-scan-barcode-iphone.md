@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744746"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543325"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>iPhone'unuzla Power BI mobil uygulamasında barkod tarama
 Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
@@ -67,6 +67,6 @@ Filtrelemeyi seçtiğiniz rapor bu barkod değerini içermeyen bir veri modelini
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI Desktop'ta bir barkod alanı etiketleme](../../desktop-mobile-barcodes.md)
-* [Power BI'daki pano kutucukları](../../service-dashboard-tiles.md)
-* [Power BI'daki panolar](../../service-dashboards.md)
+* [Power BI'daki pano kutucukları](../end-user-tiles.md)
+* [Power BI'daki panolar](../end-user-dashboards.md)
 

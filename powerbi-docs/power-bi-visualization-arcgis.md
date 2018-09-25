@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728261"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548040"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları
 Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
@@ -61,7 +61,7 @@ Bu eğitimde [Perakende Analizi örneği](sample-retail-analysis.md) kullanılm�
 2. **ArcGIS Maps for Power BI**  onay kutusunu seçin. Seçiminizi yaptıktan sonra Power BI'ı yeniden başlatmanız gerekir.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Bir raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın ve Görsel Öğeler bölmesinde ArcGIS Maps for Power BI simgesini seçin.
+3. Bir raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın ve Görsel Öğeler bölmesinde ArcGIS Maps for Power BI simgesini seçin.
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI, rapor tuvaline boş bir ArcGIS harita şablonu ekler.

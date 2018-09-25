@@ -1,21 +1,21 @@
 ---
 title: Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 description: Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c134592cabda6148d0bc50ee22f7501e60aef919
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744978"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565671"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.

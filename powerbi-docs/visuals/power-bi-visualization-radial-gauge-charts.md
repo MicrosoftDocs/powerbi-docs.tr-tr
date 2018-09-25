@@ -2,7 +2,7 @@
 title: Power BI'da radyal ölçer grafikleri
 description: Power BI'da Radyal Ölçer grafikleri
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744857"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565579"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe/KPI'ye yönelik ilerlemeyi ölçen tek bir değer görüntüler.  Hedef veya hedef değer çizgi (iğne) ile gösterilir. Hedefe yönelik ilerleme gölgelendirme ile gösterilir.  İlerlemeyi gösteren değer ise yayın içinde kalın olarak gösterilir. Olası tüm değerler, minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağılır.
@@ -92,7 +92,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
 
 ### <a name="step-5-save-your-report"></a>5. Adım: Raporunuzu kaydetme
 1. [Raporu kaydedin](../service-report-save.md).
-2. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../service-dashboard-tiles.md). 
+2. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../consumer/end-user-tiles.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Minimum, Maksimum ve Hedef değerleri belirlemek için biçimlendirme seçeneklerini kullanma
 1. **Max of Gross Sales** alanını **Maksimum değer** kutusundan kaldırın.
@@ -117,7 +117,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
 
 [Panoya görselleştirme sabitleme](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

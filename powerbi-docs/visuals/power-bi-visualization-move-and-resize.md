@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744985"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544384"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporlardaki görselleştirmeleri taşıma ve yeniden boyutlandırma
-Yalnızca raporu oluşturanlar ve rapor sahipleri görselleştirmeleri taşıma ve yeniden boyutlandırma yetkisine sahiptir. Power BI hizmetinde (app.powerbi.com) raporu [Düzenleme görünümü](../service-reading-view-and-editing-view.md)'nde açmanız gerekir.
+Yalnızca raporu oluşturanlar ve rapor sahipleri görselleştirmeleri taşıma ve yeniden boyutlandırma yetkisine sahiptir. Power BI hizmetinde (app.powerbi.com) raporu [Düzenleme görünümü](../consumer/end-user-reading-view.md)'nde açmanız gerekir.
 
 ## <a name="open-the-report"></a>Raporu açma
 Power BI'da en az bir görselleştirme içeren bir rapor açın veya [yeni bir görselleştirme oluşturun](power-bi-report-add-visualizations-i.md). 

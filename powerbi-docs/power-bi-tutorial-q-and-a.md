@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727962"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543602"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Eğitim: Görselleştirmeler ve raporlar oluşturmak için Soru-Cevap özelliğini kullanma
-[Soru-Cevap özelliğine genel bakış](power-bi-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.
+[Soru-Cevap özelliğine genel bakış](consumer/end-user-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.
 
 Soru-Cevap, etkileşimli ve eğlenceli bir özelliktir. Bir soruyla başlayıp devamını getirerek görselleştirmelerin ilgi çekici dünyasında kısa bir seyahate çıkabilirsiniz. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
 
@@ -64,7 +64,7 @@ Soru-Cevap özelliğini kullanarak veri kümenizi keşfetmenin yanı sıra rapor
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve temel alınan veri kümesine ilişkin düzenleme izinlerine sahip olmanız gerekir. [Soru-Cevap Özelliğine Genel Bakış konu başlığında](power-bi-q-and-a.md) bu durumu bir *oluşturucu* senaryosu olarak ele aldık. Ancak, sizinle paylaşılan bir raporu *kullanıyorsanız* Soru-Cevap özelliğini kullanamazsınız.
+Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve temel alınan veri kümesine ilişkin düzenleme izinlerine sahip olmanız gerekir. [Soru-Cevap Özelliğine Genel Bakış konu başlığında](consumer/end-user-q-and-a.md) bu durumu bir *oluşturucu* senaryosu olarak ele aldık. Ancak, sizinle paylaşılan bir raporu *kullanıyorsanız* Soru-Cevap özelliğini kullanamazsınız.
 
 1. Bir raporu Düzenleme görünümü'nde (Power BI hizmeti) veya Rapor görünümü'nde (Power BI Desktop) açın ve menü çubuğundan **Soru sorun**'u seçin.
 
@@ -98,14 +98,14 @@ Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve t
 Soru-Cevap ile verileriniz hakkında bilgi edinmekle kalmaz Power BI'ın cevabı nasıl görüntüleyeceğini de belirtebilirsiniz. Sorunuzun yanına "as a <visualization type>" eklemeniz yeterlidir.  Örneğin "show inventory volume by plant as a map" ve "show total inventory as a card".  Kendiniz deneyin.
 
 ##  <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-- Bir veri kümesine canlı bağlantı veya ağ geçidi ile bağlandıysanız Soru-Cevap özelliğinin [söz konusu veri kümesi için etkinleştirilmesi gerekir](service-q-and-a-direct-query.md).
+- Bir veri kümesine canlı bağlantı veya ağ geçidi ile bağlandıysanız Soru-Cevap özelliğinin [söz konusu veri kümesi için etkinleştirilmesi gerekir](consumer/end-user-q-and-a-direct-query.md).
 
 - Bir raporu açtınız ve Soru-Cevap seçeneğini görmüyorsunuz. Power BI hizmetini kullanıyorsanız raporun Düzenleme görünümü'nde açıldığından emin olun. Düzenleme görünümü'nü açamıyorsanız bu, söz konusu rapor için düzenleme izinlerine sahip olmadığınız ve bu raporla Soru-Cevap özelliğini kullanamayacağınız anlamına gelir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki Soru-Cevap](power-bi-q-and-a.md)  konusuna tekrar göz atın  
+[Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md)  konusuna tekrar göz atın  
 [Eğitim: Perakende Analizi örneğiyle Soru-Cevap özelliğini kullanma](power-bi-visualization-introduction-to-q-and-a.md)   
-[Soru-Cevap'ta soru sormaya yönelik ipuçları](service-q-and-a-tips.md)   
+[Soru-Cevap'ta soru sormaya yönelik ipuçları](consumer/end-user-q-and-a-tips.md)   
 [Bir çalışma kitabını Soru-Cevap için hazırlama](service-prepare-data-for-q-and-a.md)  
-[Soru-Cevap için şirket içi veri kümesi hazırlama](service-q-and-a-direct-query.md)
+[Soru-Cevap için şirket içi veri kümesi hazırlama](consumer/end-user-q-and-a-direct-query.md)
 [Soru-Cevap bölümünden panoya bir kutucuk sabitleme](service-dashboard-pin-tile-from-q-and-a.md)

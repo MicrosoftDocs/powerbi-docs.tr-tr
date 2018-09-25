@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727318"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549949"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -110,7 +110,7 @@ Kuruluşunuz dışındaki kişilere bir Power BI mobil uygulamasından bağlant�
 Pano ve rapor paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 
 * Genel olarak iş arkadaşlarınızla panoda veya raporlarda aynı verileri görürsünüz. Bu nedenle, iş arkadaşlarınıza kıyasla daha fazla veri görme iznine sahipseniz iş arkadaşlarınız, panonuzda veya raporunuzda sizin gördüğünüz tüm verileri görebilir. Ancak, bir panonun veya raporun bağlantılı veri kümesinde [satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanırsa kullanıcıların hangi verilere erişebileceği kimlik bilgilerine göre belirlenir.
-* Paylaştığınız herkes panonuzu görebilir ve [Okuma Görünümü](service-reading-view-and-editing-view.md)'nde ilgili raporlarla etkileşimde bulunabilir. Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
+* Paylaştığınız herkes panonuzu görebilir ve [Okuma Görünümü](consumer/end-user-reading-view.md)'nde ilgili raporlarla etkileşimde bulunabilir. Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
 * Hiç kimse veri kümesini göremez veya indiremez.
 * Herkes el ile [verileri yenileyebilir](refresh-data.md).
 * E-posta için Office 365 hizmetini kullanıyorsanız bir dağıtım grubu ile ilişkili e-posta adresini girerek dağıtım grubu üyeleri ile paylaşımda bulunabilirsiniz.

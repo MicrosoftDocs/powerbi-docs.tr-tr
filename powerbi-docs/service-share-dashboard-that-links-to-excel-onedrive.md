@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79912ad58a177999ae6d02e083d1d5f0df46c49c
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624471"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548776"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive'daki bir Excel dosyasıyla bağlantılı bir Power BI panosunu paylaşma
 Power BI'da,[OneDrive İş'teki Excel çalışma kitaplarına bağlanabilir](service-excel-workbook-files.md) ve söz konusu çalışma kitabındaki kutucukları bir panoya sabitleyebilirsiniz. Söz konusu panoyu paylaştığınızda veya panonun bulunduğu bir içerik paketi oluşturduğunuzda:
@@ -56,6 +56,6 @@ Power BI çalışma alanından pano paylaşma, dosyaların özel OneDrive İş'i
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Excel'deki kutucukları Power BI panolarına sabitleme](service-dashboard-pin-tile-from-excel.md)
-* [Power BI Temel Kavramları](service-basic-concepts.md)
+* [Power BI Temel Kavramları](consumer/end-user-basic-concepts.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

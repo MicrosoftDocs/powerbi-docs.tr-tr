@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726881"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546269"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
-*Sertifikalı özel görsel*, bir dizi kod gereksinimini karşılaşmış ve katı güvenlik testlerini geçmiş görsel demektir.  Bir özel görsel sertifikalandığında, [PowerPoint'e aktarılabilir](service-publish-to-powerpoint.md) ve kullanıcı [Rapor sayfalarına abone olduğunda](service-report-subscribe.md) alınan e-postalarda görüntülenir. Elbette, Power BI hizmeti ve Power BI Desktop raporlarına eklenen ve Power BI mobilde görüntülenip eklenen [standart özel görseller](power-bi-custom-visuals.md) gibi de kullanılabilir.
+*Sertifikalı özel görsel*, bir dizi kod gereksinimini karşılaşmış ve katı güvenlik testlerini geçmiş görsel demektir.  Bir özel görsel sertifikalandığında, [PowerPoint'e aktarılabilir](consumer/end-user-powerpoint.md) ve kullanıcı [Rapor sayfalarına abone olduğunda](consumer/end-user-subscribe.md) alınan e-postalarda görüntülenir. Elbette, Power BI hizmeti ve Power BI Desktop raporlarına eklenen ve Power BI mobilde görüntülenip eklenen [standart özel görseller](power-bi-custom-visuals.md) gibi de kullanılabilir.
 
 Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları [Microsoft AppSource](https://appsource.microsoft.com)'a eklemek mi istiyorsunuz? Nasıl yapacağınızı öğrenmek için bkz.[Geliştirici Araçlarıyla çalışmaya başlama](service-custom-visuals-getting-started-with-developer-tools.md).
 

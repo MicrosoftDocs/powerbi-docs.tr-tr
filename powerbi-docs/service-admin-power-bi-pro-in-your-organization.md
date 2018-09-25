@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280743"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548316"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Kuruluşunuzda Power BI Pro
 
@@ -35,7 +35,7 @@ Bu özellikler için Power BI Pro lisansı gerekir:
 
 Ücretsiz hesaba kaydolduktan sonra Pro'yu 60 gün süreyle ücretsiz denemeyi seçebilirsiniz. Deneme süresi boyunca Pro'nun tüm özelliklerine erişebilirsiniz. Power BI Pro, Power BI ücretsiz sürümünün tüm özelliklerinin yanı sıra ek paylaşım ve işbirliği özellikleri içermektedir. Daha fazla bilgi için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/en-us/pricing/). Power BI Pro'nun 60 günlük ücretsiz deneme sürümü için Power BI'da oturum açın ve aşağıdaki Power BI Pro özelliklerinden birini deneyin.
 
-* [Çalışma alanı oluşturma](service-create-distribute-apps.md)
+* [Çalışma alanı oluşturma](consumer/end-user-create-apps.md)
 * [Bir panoyu paylaşma](service-share-dashboards.md)
 
 Bu özelliklerden herhangi birini denediğinizde, ücretsiz denemenizi başlatmanız istenir. Ayrıca, dişli simgesine gidip Kişisel depolama alanını yönet'i seçerek de ücretsiz denemenizi başlatabilirsiniz. Ardından, sağdaki Pro'yu ücretsiz dene seçeneğini belirleyin.

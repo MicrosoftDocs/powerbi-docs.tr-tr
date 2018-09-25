@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944618"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543808"
 ---
 # <a name="the-power-bi-samples"></a>Power BI örnekleri
 
@@ -79,7 +79,7 @@ Bu öğreticide aşağıdaki işlemler hakkında bilgi edinirsiniz:
     ![eşleşen görselin vurgulandığı rapor sayfası](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Kutucuk eğer [Power BI Soru-Cevap](power-bi-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı. Kutucuk [Excel'den sabitlenmişse](service-dashboard-pin-tile-from-excel.md), Power BI içinde Excel Online açılır.
+   > Kutucuk eğer [Power BI Soru-Cevap](consumer/end-user-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı. Kutucuk [Excel'den sabitlenmişse](service-dashboard-pin-tile-from-excel.md), Power BI içinde Excel Online açılır.
    > 
    > 
 1. **Veri Kümeleri** sekmenizde, veri kümenizi araştırmanıza yönelik çeşitli seçenekleriniz vardır.  Açıp tüm satırları ve sütunları (Power BI Desktop veya Excel'de görebildiğiniz gibi) görmeniz mümkün olmayacaktır.  Birisi iş arkadaşlarıyla bir içerik paketi paylaştığında, normalde sadece öngörüleri paylaşmak isterler, iş arkadaşlarına doğrudan veriye erişim vermek istemezler. Ancak bu, veri kümesini araştıramayacağınız anlamına gelmez.  
@@ -89,7 +89,7 @@ Bu öğreticide aşağıdaki işlemler hakkında bilgi edinirsiniz:
    * Veri kümesini keşfetmenin bir yolu, sıfırdan kendi görselleştirmelerinizi ve raporlarınızı oluşturmaktır.  Grafik simgesini ![rapor simgesi](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) seçerek veri kümesini rapor düzenleme modunda açın.
      
        ![yepyeni bir rapor](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Veri kümesini keşfetmenin bir başka yolu [Hızlı Öngörüler](service-insights.md) çalıştırmaktır. Üç nokta (...) simgesini ve ardından **Öngörü al**'ı seçin. Öngörüler hazır olduğunda **Öngörüleri görüntüle** seçeneğini belirleyin.
+   * Veri kümesini keşfetmenin bir başka yolu [Hızlı Öngörüler](consumer/end-user-insights.md) çalıştırmaktır. Üç nokta (...) simgesini ve ardından **Öngörü al**'ı seçin. Öngörüler hazır olduğunda **Öngörüleri görüntüle** seçeneğini belirleyin.
      
        ![İçgörüler raporu](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Desktop’ta örnek PBIX dosyasını ilk kez açtığınızda, Power BI aslında
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI temel kavramları](service-basic-concepts.md)
+[Power BI temel kavramları](consumer/end-user-basic-concepts.md)
 
 [Power BI hizmeti için örnekler](sample-datasets.md)
 

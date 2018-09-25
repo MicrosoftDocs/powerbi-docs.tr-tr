@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748913"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549857"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
@@ -109,7 +109,7 @@ Enlem ve boylam verilerine erişiminiz yoksa [veri kümenizi güncelleştirmek i
 Harita görselleştirmeleri hakkında daha fazla yardım için bkz. [Harita görselleştirmeleri için ipuçları ve püf noktaları](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Kartogramı pano kutucuğu olarak ekleme (görseli sabitleme)](../service-dashboard-tiles.md)    
+[Kartogramı pano kutucuğu olarak ekleme (görseli sabitleme)](../consumer/end-user-tiles.md)    
  [Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md)  
  [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Kullanılan görselleştirme türünü değiştirme](power-bi-report-change-visualization-type.md)      

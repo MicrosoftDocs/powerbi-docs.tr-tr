@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748873"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548523"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Harita görselleştirmelerine ilişkin İpuçları ve Püf Noktaları
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmak için Bing Haritalar'dan yararlanır. 
@@ -89,7 +89,7 @@ Coğrafi hiyerarşilerle ayrıntılandırma yaparken, her bir ayrıntılandırma
 * İkinci seçenek olan ![haritalarda detaya gitme,](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) Detaya Git özelliğine benzer ancak bu seçenek için haritaya tıklamanız gerekmez.  Geçerli düzeyin bağlamı hatırlanarak hiyerarşinin bir sonraki düzeyine genişletilir. Örneğin, ülkelere göz attığınız sırada bu simgeyi seçerseniz hiyerarşideki bir sonraki düzeye (eyaletler) inersiniz. Coğrafi kodlama için, Power BI, coğrafi kodlamayı daha tutarlı bir şekilde gerçekleştirmesini sağlamak üzere, her bir eyalete ve ilgili ülkeye ilişkin verileri Bing Haritalar'a gönderir. Çoğu haritada, doğru konum bilgilerini almak üzere Bing'e mümkün olduğunca fazla bilgi gönderebilmek için bu seçeneği veya en sağdaki Detaya Git seçeneğini kullanırsınız. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI görselleştirmelerinde detaya gitme](../power-bi-visualization-drill-down.md)
+[Power BI görselleştirmelerinde detaya gitme](../consumer/end-user-drill.md)
 
 [Power BI görselleştirmeleri](power-bi-report-visualizations.md)
 

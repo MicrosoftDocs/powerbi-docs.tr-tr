@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330501"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546768"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI’da düğmeleri kullanma
 Power BI **düğmeleri**, uygulamalar gibi davranan raporlar ve panolar oluşturmanızı, böylece kullanıcıların Power BI içeriklerinin üzerine gelip tıklayıp etkileşime gireceği ilgi çekici bir ortam elde etmenizi sağlar. **Power BI Desktop**’ta rapor düğmeleri ekleyebilir ve kullanıcılar için uygulama gibi davranan panolar oluşturmak amacıyla bu raporları Power BI hizmetinde paylaşabilir veya yayımlayabilirsiniz.
@@ -75,6 +75,6 @@ Kullanmak istediğiniz düğme üzerinde *CTRL+CLICK* tuşlarını kullanarak ra
 Düğmelere benzeyen veya düğmelerle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:
 
 * [Power BI Desktop'ta detaylandırma özelliğini kullanma](desktop-drillthrough.md)
-* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](service-focus-mode.md)
+* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](consumer/end-user-focus.md)
 * [Power BI’da içgörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](desktop-bookmarks.md)
 

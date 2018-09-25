@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249126"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545911"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
-Yeni [pano kutucuğu](service-dashboard-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 
+Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 
 
 > [!NOTE]
 > Paylaşılan panolardan kutucuk sabitleyemezsiniz.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Bir kutucuğu başka bir panoya sabitleme
 1. [Veri alın](service-get-data.md). Bu örnekte [BT Harcama Analizi Örneği](sample-it-spend.md) kullanılmaktadır.
-2. Bir [pano](service-dashboards.md) açın.
+2. Bir [pano](consumer/end-user-dashboards.md) açın.
 3. Sabitlemek istediğiniz kutucuğun üzerine gelip üç nokta (...) simgesini ve ardından **Kutucuğu sabitle**'yi seçin.  
    
    ![üç nokta menüsü](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ Yeni [pano kutucuğu](service-dashboard-tiles.md) eklemenin bir yolu da kutucuğ
 6. Sabitlenmiş kutucuğu görmek için **Panoya git**'i seçin. Burada, sabitlenmiş görselleştirmeyi [yeniden adlandırabilir, yeniden boyutlandırabilir, bağlantılı hale getirebilir ve taşıyabilirsiniz](service-dashboard-edit-tile.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki kutucuklar](service-dashboard-tiles.md)  
-[Power BI'daki panolar](service-dashboards.md)  
+[Power BI'daki kutucuklar](consumer/end-user-tiles.md)  
+[Power BI'daki panolar](consumer/end-user-dashboards.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

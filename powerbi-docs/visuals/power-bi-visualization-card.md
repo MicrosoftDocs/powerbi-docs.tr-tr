@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744850"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548339"
 ---
 # <a name="card-visualizations"></a>Kart görselleştirmeleri
 Bazen Power BI panonuzda veya raporunuzda izlemek istediğiniz en önemli şey (örneğin, toplam satış, yıldan yıla pazar payı veya toplam fırsat) tek bir sayı olabilir. Bu görselleştirme türüne *Kart* adı verilir. Diğer tüm yerel Power BI görselleştirmelerinde olduğu gibi Kartlar da rapor düzenleyicisi veya Soru-Cevap kullanılarak oluşturulabilir.
@@ -51,13 +51,13 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
 ## <a name="create-a-card-from-the-qa-question-box"></a>Soru-Cevap soru kutusundan kart oluşturma
 Soru-Cevap soru kutusu, Kart oluşturmanın en kolay yoludur. Soru-Cevap soru kutusuna Power BI hizmetinde (app.powerbi.com) bir panodan veya rapordan erişebilirsiniz. Aşağıdaki adımlar Power BI hizmeti panosundan Kart oluşturmayı anlatmaktadır. Power BI Desktop'taki Soru-Cevap özelliğini kullanarak kart oluşturmak isterseniz Desktop raporları için Soru-Cevap önizlemesi [yönergelerini izleyin](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA).
 
-1. Bir [pano](../service-dashboards.md) oluşturun ve [veri alın](../service-get-data.md). Bu örnekte [Fırsat Analizi Örneği](../sample-opportunity-analysis.md) kullanılmaktadır.
+1. Bir [pano](../consumer/end-user-dashboards.md) oluşturun ve [veri alın](../service-get-data.md). Bu örnekte [Fırsat Analizi Örneği](../sample-opportunity-analysis.md) kullanılmaktadır.
 
 1. Panonuzun en üstündeki soru kutusuna verilerinizle ilgili olarak öğrenmek istediklerinizi yazmaya başlayın. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**İPUCU**: Power BI hizmeti raporunun [Düzenleme görünümü](../service-reading-view-and-editing-view.md)'nde üstteki menü çubuğundan **Bir soru sorun**'u seçin. Power BI Desktop raporunda boş alan bulun ve çift tıklayarak soru kutusu açın.
+>**İPUCU**: Power BI hizmeti raporunun [Düzenleme görünümü](../consumer/end-user-reading-view.md)'nde üstteki menü çubuğundan **Bir soru sorun**'u seçin. Power BI Desktop raporunda boş alan bulun ve çift tıklayarak soru kutusu açın.
 
 3. Örneğin soru kutusuna "number of opportunities" yazın.
 
@@ -105,10 +105,10 @@ Etiketler, metin, renk ve daha fazlasını değiştirmek için çok sayıda seç
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki pano kutucukları](../service-dashboard-tiles.md)
+[Power BI'daki pano kutucukları](../consumer/end-user-tiles.md)
 
-[Power BI'daki panolar](../service-dashboards.md)
+[Power BI'daki panolar](../consumer/end-user-dashboards.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

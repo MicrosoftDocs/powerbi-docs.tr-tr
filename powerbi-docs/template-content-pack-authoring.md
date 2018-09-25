@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157581"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545934"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Power BI'da şablon içerik paketi yazma
 Şablon içerik paketleri yazmak için Power BI Desktop ve PowerBI.com kullanılır. İçerik paketiniz dört bileşenden oluşur:
@@ -22,7 +22,7 @@ ms.locfileid: "39157581"
 * Verilere [bağlanmanıza](desktop-connect-to-data.md), verileri [dönüştürmenize](desktop-query-overview.md) ve [parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) tanımlamanıza olanak sağlayan sorgular  
 * [İlişkiler](desktop-create-and-manage-relationships.md), [ölçüler](desktop-measures.md) ve Soru-Cevap iyileştirmeleri oluşturmak için kullanılan veri modeli  
 * Verilerinize yönelik öngörüler sağlamaya ilişkin görselleri ve filtreleri içeren rapor [sayfaları](desktop-report-view.md)  
-* Sağlanan öngörülere ilişkin bir genel bakış sunan [pano](service-dashboards.md) ve [kutucuklar](service-dashboard-create.md)  
+* Sağlanan öngörülere ilişkin bir genel bakış sunan [pano](consumer/end-user-dashboards.md) ve [kutucuklar](service-dashboard-create.md)  
 
 Belirtilen bileşenler birer Power BI özelliği olarak tanıdık gelebilir. İçerik paketi oluşturma söz konusuysa bunlardan her biri için göz önünde bulundurulması gereken daha fazla unsur vardır.
 

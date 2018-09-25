@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944549"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550087"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
@@ -165,5 +165,5 @@ Power BI panolarının, Soru-Cevap özelliğinin ve raporların perakende verile
 * [Tüm örnek dosyaları bir zip dosyasında indirme](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Bu Power BI örneğine ilişkin Excel çalışma kitabını indirme](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Power BI için veri alma](service-get-data.md)    
-* [Power BI - Temel Kavramlar](service-basic-concepts.md)    
+* [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)    
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

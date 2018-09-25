@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 8ea0ad288a12e5e08d4e52ff9c27242d5d169cab
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748883"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547157"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Öğretici: iOS uygulamalarındaki Soru-Cevap sanal çözümleyicisini kullanarak verileriniz hakkında sorular sorma - Power BI
 
@@ -132,5 +132,5 @@ Eğitimin ilk adımı, Power BI hizmetindeki Fırsat Analizi örneklerini indirm
 
 iOS için Power BI mobil uygulamalarında Soru-Cevap sanal yardımcısını denediniz. Power BI hizmetinde Soru-Cevap hakkında daha fazla bilgi edinin.
 > [!div class="nextstepaction"]
-> [Q&A in the Power BI service (Power BI hizmetindeki Soru-Cevap özelliği)](../../power-bi-q-and-a.md)
+> [Q&A in the Power BI service (Power BI hizmetindeki Soru-Cevap özelliği)](../end-user-q-and-a.md)
 

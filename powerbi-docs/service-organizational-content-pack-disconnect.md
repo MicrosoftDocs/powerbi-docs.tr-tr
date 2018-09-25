@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624172"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549535"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 
@@ -35,7 +35,7 @@ Veri kümesi kaldırıldığında, ilişkili olduğu tüm raporlar ve panolar da
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md) 
-* [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
-* [Power BI temel kavramları](service-basic-concepts.md)  
+* [Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md) 
+* [Power BI temel kavramları](consumer/end-user-basic-concepts.md)  
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

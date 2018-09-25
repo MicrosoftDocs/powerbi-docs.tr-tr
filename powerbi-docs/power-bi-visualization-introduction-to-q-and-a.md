@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240997"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547971"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI Soru-Cevap’ı kullanmaya başlama
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Perakende Analizi örneğiyle Power BI Soru-Cevap özelliğini kullanmaya başlama
@@ -57,7 +57,7 @@ Soru-Cevap özelliğini kullanarak aynı çizgi grafiği nasıl oluşturabiliriz
 4. Grafiği panonuza sabitlemek için raptiye simgesini ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki Soru-Cevap](power-bi-q-and-a.md)
+[Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md)
 
 [Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama](service-prepare-data-for-q-and-a.md)
 

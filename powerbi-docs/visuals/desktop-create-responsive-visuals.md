@@ -1,21 +1,21 @@
 ---
 title: Power BI görselini tüm boyutlar için en iyi duruma getirme
 description: Power BI Desktop ve Power BI hizmetinde var olan raporlardaki görselleri Power BI telefon uygulamaları için en iyi duruma getirmeyi öğrenin.
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748703"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566338"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI görselini tüm boyutlar için en iyi duruma getirme
 Varsayılan olarak, yeni bir rapor oluşturduğunuzda görseller *duyarlıdır*: Ekran boyutu ne olursa olsun, en fazla miktarda veri ve içgörü görüntülemek üzere dinamik olarak değişirler. Eski raporlar için görselleri de dinamik olarak yeniden boyutlandırılacak şekilde ayarlayabilirsiniz.

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "34251656"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550110"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI için Cortana'yı kullanarak Power BI verilerinizi hızla bulma ve görüntüleme
 Windows 10 cihazlarınızda Cortana'yı kullanarak işletmenizle ilgili önemli sorulara anında cevap alabilirsiniz. Cortana, Power BI ile tümleştirildiğinde Power BI panolarındaki ve raporlarındaki önemli bilgilere doğrudan ulaşabilir. İhtiyacınız olanlar Windows 10 Kasım 2015 veya sonrası sürümü, Cortana, Power BI ve en az bir veri kümesine erişimdir.
@@ -67,7 +67,7 @@ Panonuzun başlığı birden fazla kelimeden oluşuyorsa Cortana ilgili panoyu y
 ### <a name="cortana-and-reports"></a>Cortana ve Raporlar
  Cortana, [Cortana tarafından görüntülenmek üzere tasarlanmış özel sayfalara](service-cortana-answer-cards.md) sahip olan raporlarda cevap bulabilir. Bu özel rapor sayfalarının başlığını veya içinde geçen anahtar sözcükleri kullanarak soru sorabilirsiniz.  
 
-Raporlar için kullanılan teknoloji, [Microsoft Power BI Soru-Cevap](power-bi-q-and-a.md) hizmetinden faydalanır.
+Raporlar için kullanılan teknoloji, [Microsoft Power BI Soru-Cevap](consumer/end-user-q-and-a.md) hizmetinden faydalanır.
 
 Cortana'ya bir soru sorduğunuzda Power BI, Cortana için özel olarak hazırlanmış olan rapor sayfalarını kullanarak cevap verir. Olası cevaplar Cortana tarafından Power BI'da önceden oluşturulmuş olan Cortana *yanıt kartları* kullanılarak belirlenir.  Bir cevap hakkında daha fazla bilgi edinmek için sonucu Power BI'da açabilirsiniz.
 

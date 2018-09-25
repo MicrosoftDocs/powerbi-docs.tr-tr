@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944411"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545395"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verilerinizin basit bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarlarından oluşan bir koleksiyon olması fark etmeksizin **Power BI**, veri kaynaklarınıza kolayca bağlanmanıza, önemli verileri görselleştirmenize (veya araştırmanıza) ve bunları istediğiniz herkesle paylaşmanıza olanak sağlar.
@@ -57,5 +57,5 @@ Power BI Rapor Sunucusu'nun sunduğu, kullanıma hazır çok sayıda araç ve hi
 Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız ve sonra raporlarınızı bir web tarayıcısında, mobil cihazda veya e-posta olarak görüntülemeyi içeren farklı yöntemlerle doğru kullanıcılara ilettiğiniz bir çözümdür. Power BI Rapor Sunucusu bulutta Power BI ile uyumlu olduğundan, hazır olduğunuzda buluta taşıyabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI hizmetinde oturum açma, bazı verileri alma ve kullanmayı öğrenme](service-the-new-power-bi-experience.md)   
+[Power BI hizmetinde oturum açma, bazı verileri alma ve kullanmayı öğrenme](consumer/end-user-experience.md)   
 [Öğretici: Power BI hizmetini kullanmaya başlama](service-get-started.md)

@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726651"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546085"
 ---
 # <a name="the-report-editortake-a-tour"></a>Rapor düzenleyicisi: Tura katılın
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta raporları düzenleme
 Power BI hizmetindeki rapor düzenleyicisi ile Power BI Desktop uygulamasındaki rapor düzenleyicisi benzer özelliklere sahiptir. Videoda Power BI Desktop uygulamasındaki rapor düzenleyicisine, bu makalede ise Power BI hizmetindeki rapor düzenleyicisine yer verilmiştir. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Rapor *oluşturucuları* ile rapor *kullanıcıları* arasındaki fark
-Bir rapor yalnızca rapor sahipleri (diğer adıyla *oluşturucular*) tarafından oluşturulabilir ve düzenlenebilir. Sizinle paylaşılan bir raporu *kullanıyorsanız*, raporu Power BI hizmetinin yalnızca [Okuma görünümünde](service-reading-view-and-editing-view.md) açıp raporla etkileşimde bulunabilirsiniz ancak rapor oluşturucunun kullanabildiği tüm güçlü ve kapsamlı özelliklere sahip olmazsınız.  
+Bir rapor yalnızca rapor sahipleri (diğer adıyla *oluşturucular*) tarafından oluşturulabilir ve düzenlenebilir. Sizinle paylaşılan bir raporu *kullanıyorsanız*, raporu Power BI hizmetinin yalnızca [Okuma görünümünde](consumer/end-user-reading-view.md) açıp raporla etkileşimde bulunabilirsiniz ancak rapor oluşturucunun kullanabildiği tüm güçlü ve kapsamlı özelliklere sahip olmazsınız.  
 
-Rapor Okuma görünümü hakkında daha fazla bilgi almak için bkz. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) 
+Rapor Okuma görünümü hakkında daha fazla bilgi almak için bkz. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Power BI hizmetinde *rapor düzenleyicisi* yalnızca [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde kullanılabilir. Bir raporu Düzenleme görünümünde açabilmek için raporun sahibi veya oluşturucusu olmanız gerekir.
+Power BI hizmetinde *rapor düzenleyicisi* yalnızca [Düzenleme Görünümü](consumer/end-user-reading-view.md)'nde kullanılabilir. Bir raporu Düzenleme görünümünde açabilmek için raporun sahibi veya oluşturucusu olmanız gerekir.
 
 Power BI rapor düzenleyicisi 3 bölümden oluşur:  
 
@@ -126,9 +126,9 @@ Rapor tuvali, çalışmanızın görüntülendiği yerdir. Alanlar, Filtreler ve
 ## <a name="next-steps"></a>Sonraki Adımlar:
 [Rapor oluşturma](service-report-create-new.md)
 
-[Power BI hizmeti](service-reports.md), [Power BI Desktop](desktop-report-view.md) ve [Power BI mobil](consumer/mobile/mobile-apps-view-phone-report.md)’de raporlar hakkında daha fazla bilgi edinin.
+[Power BI hizmeti](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) ve [Power BI mobil](consumer/mobile/mobile-apps-view-phone-report.md)’de raporlar hakkında daha fazla bilgi edinin.
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726812"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549972"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop ve Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop, Power BI hizmeti *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik.
@@ -206,7 +206,7 @@ Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak iç
 * Duyarlık ve süre düzeylerini karıştırmaktan kaçının. Zaman dilimlerinin iyi anlaşıldığından emin olun.  Yılın belirli bir ayındaki verileri gösteren filtrelenmiş grafiklerin yanına önceki ayın verilerini içeren bir grafik yerleştirmeyin.    
 * Ayrıca, çizgi veya çubuk grafik gibi büyük ve küçük ölçümleri aynı ölçekte karıştırmamaya dikkat edin.  Örneğin, bir ölçeğin milyon, diğerinin ise bin seviyesinde olmaması gerekir.  Bu büyüklükteki bir ölçekte bin seviyesindeki ölçüde gözlemlenen farkları algılamak zor olacaktır.  Karıştırmanız gerekiyorsa, açılır kutu gibi ikinci bir eksen kullanımına izin veren bir görselleştirme seçin.    
 * Gerekli olmayan veri etiketleriyle grafiklerinizi karmaşık hale getirmekten kaçının. Çubuk grafiklerdeki değerler, ***yeterince genişse***, genellikle gerçek sayı görüntülenmeden de anlaşılabilir.   
-* [Grafiklerin sıralanma şekline](power-bi-report-change-sort.md) dikkat edin.  En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın.  Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
+* [Grafiklerin sıralanma şekline](consumer/end-user-change-sort.md) dikkat edin.  En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın.  Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
 * Pasta grafikleri, sekizden az kategori bulunuyorsa idealdir. Yan yana göremediğiniz için pasta grafiğindeki değerleri karşılaştırmak çubuk grafiklerdeki ve sütun grafiklerindeki değerlere kıyasla daha zordur. Pasta grafikleri, parçaları karşılaştırmak yerine parçalarla bütün arasındaki ilişkiyi görmek için kullanılabilir. Ölçek grafikleri, bir hedef bağlamında geçerli durumu görüntülemek için idealdir.    
 
 Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -222,8 +222,8 @@ Favori kitaplarımızdan bazıları:
 * *Gelişmiş Sunumlar*, Andrew Abela   
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
-[Power BI'daki raporlar](service-reports.md)
+[Power BI'daki raporlar](consumer/end-user-reports.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

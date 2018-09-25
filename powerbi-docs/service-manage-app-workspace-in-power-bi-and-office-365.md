@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624356"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547580"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
-Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-install-use-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
+Office 365 veya [Power BI'daki bir uygulama çalışma alanının](consumer/end-user-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
 
 > [!NOTE]
 > Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
@@ -76,7 +76,7 @@ Uygulamanızı, uygulama çalışma alanından dağıttığınızda burada ekled
 3. **Kaydet**'i veya **At**'ı seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
-* [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
+* [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](consumer/end-user-create-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

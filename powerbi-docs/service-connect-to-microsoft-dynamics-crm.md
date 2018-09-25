@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937274"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547074"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI ile Microsoft Dynamics CRM'e bağlanma
 Power BI için Microsoft Dynamics CRM Online, verilerinize kolayca erişmenize ve verilerinizi çözümlemenize olanak sağlar. Power BI; Hesaplar, Etkinlikler, Fırsatlar, Ürün, Müşteri Adayları, Kullanıcılar ve daha fazlası gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle açıklayıcı bir model oluşturmak için OData akışını kullanır. Uygulamayı yükledikten sonra panoyu ve raporları Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve Power BI mobil uygulamalarında görüntüleyebilirsiniz. 
@@ -154,7 +154,7 @@ CRM Online 2016 veya sonraki bir sürümüne sahip değilseniz doğrudan hesabı
 "Data refresh failed as query exceeded the maximum limit of 100000 records," (Sorgu maksimum 100.000 kayıt sınırını aştığı için veri yenileme işlemi başarısız oldu) şeklinde bir hata alırsanız doğrudan Power BI Desktop'tan bağlanmayı veya CRM çözüm şablonundan yararlanmayı deneyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

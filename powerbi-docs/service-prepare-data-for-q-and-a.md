@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727479"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547902"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama
 Veri modelleri veya Power BI ile kullanılacak Excel çalışma kitapları oluşturuyorsanız bu makaleyi okumaya devam edin.
@@ -27,7 +27,7 @@ Soru-Cevap; tablo, aralıklar veya PowerPivot modeli içeren, karşıya yüklenm
 ### <a name="how-qa-works-with-excel"></a>Soru-Cevap özelliği Excel ile nasıl kullanılır?
 Soru-Cevap, verileriniz üzerinde kullanılan, bir dizi temel doğal dil anlama becerisine sahiptir. Excel tablo ve sütun adlarınızın yanı sıra hesaplanmış alan adlarınız için bağlama bağlı anahtar sözcük arama özelliği içerir. Ayrıca verileri filtreleme, sıralama, toplama, gruplandırma ve görüntülemeye yönelik yerleşik bilgilerle donatılmıştır. 
 
-Örneğin, "Product" (Ürün), "Month" (Ay), "Units Sold" (Satılan Birim Sayısı), "Gross Sales" (Brüt Satışlar) ve "Profit" (Kâr) sütunlarının bulunduğu "Sales" (Satışlar) adlı bir Excel tablosunda, söz konusu varlıklardan herhangi biriyle ilgili sorular sorabilirsiniz.  Satışların ve aylık toplam kârın gösterilmesi, ürünlerin satılan birim sayısına göre sıralanması ve daha nicesi gibi işlemlerin gerçekleştirilmesini isteyebilirsiniz. [Sorabileceğiniz soru türleri](power-bi-q-and-a.md) ve [bir Soru-Cevap sorgusunda belirtebileceğiniz görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) hakkında daha fazla bilgi edinin.
+Örneğin, "Product" (Ürün), "Month" (Ay), "Units Sold" (Satılan Birim Sayısı), "Gross Sales" (Brüt Satışlar) ve "Profit" (Kâr) sütunlarının bulunduğu "Sales" (Satışlar) adlı bir Excel tablosunda, söz konusu varlıklardan herhangi biriyle ilgili sorular sorabilirsiniz.  Satışların ve aylık toplam kârın gösterilmesi, ürünlerin satılan birim sayısına göre sıralanması ve daha nicesi gibi işlemlerin gerçekleştirilmesini isteyebilirsiniz. [Sorabileceğiniz soru türleri](consumer/end-user-q-and-a.md) ve [bir Soru-Cevap sorgusunda belirtebileceğiniz görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Bir Excel veri kümesini Soru-Cevap için hazır hale getirme
 Soru-Cevap, verilere özgü soruları cevaplamak için tablo, sütun ve hesaplanmış alan adlarını kullanır; bu nedenle çalışma kitabınızda varlıklara verdiğiniz adlar konusunda dikkatli olmanız gerekir.
@@ -44,8 +44,8 @@ Aşağıda, çalışma kitabınızda Soru-Cevap'tan en iyi şekilde yararlanman�
 * Veri kümesini Power BI Desktop'ta açın, yeni sütunlar ve hesaplanmış ölçüler oluşturun, benzersiz değerler elde etmek için alanları birleştirin, verileri türe göre (ör. tarihler, dizeler, coğrafya, görüntüler, URL'ler) sınıflandırın ve daha pek çok işlem gerçekleştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki Soru-Cevap](power-bi-q-and-a.md) özelliğine geri dönün  
-[Şirket içi veri kümelerini Soru-Cevap için hazır hale getirme](service-q-and-a-direct-query.md)   
+[Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md) özelliğine geri dönün  
+[Şirket içi veri kümelerini Soru-Cevap için hazır hale getirme](consumer/end-user-q-and-a-direct-query.md)   
 [Hızlı Başlangıç: Soru-Cevap](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI için veri alma](service-get-data.md)  
 

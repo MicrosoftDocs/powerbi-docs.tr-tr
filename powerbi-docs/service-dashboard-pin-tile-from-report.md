@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240222"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550064"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Raporlardan Power BI panolarına kutucuk sabitleme
 ## <a name="pinning-tiles-from-a-report"></a>Bir rapordan kutucuk sabitleme
-Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin yollarından biri, bu işlemi bir [Power BI raporundan](service-reports.md) gerçekleştirmektir. Bir rapordan birçok yeni kutucuk ekleyebilirsiniz.  Tıklandığında, bu kutucukların her biri rapora yönelik bir bağlantı işlevi görür.
+Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin yollarından biri, bu işlemi bir [Power BI raporundan](consumer/end-user-reports.md) gerçekleştirmektir. Bir rapordan birçok yeni kutucuk ekleyebilirsiniz.  Tıklandığında, bu kutucukların her biri rapora yönelik bir bağlantı işlevi görür.
 
 Ayrıca, rapor sayfalarının tamamı bir panoya sabitlenebilir.  Bu işlem aynı zamanda *canlı* kutucuk sabitleme olarak da bilinir.  *Canlı* olarak adlandırılmasının nedeni, panodaki kutucukla etkileşime geçebilecek olmanız ve ayrı görselleştirme kutucuklarının aksine, raporda yapılan değişikliklerin panoyla eşitlenmesidir. Aşağıda bununla ilgili daha fazla bilgi edinebilirsiniz.
 
@@ -58,15 +58,15 @@ Başka bir seçenek ise bir rapor sayfasının tamamını bir panoya sabitlemekt
 Daha fazla bilgi için bkz. [Bir rapor sayfasının tamamını sabitleme](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki panolar](service-dashboards.md)
+[Power BI'daki panolar](consumer/end-user-dashboards.md)
 
-[Power BI'daki pano kutucukları](service-dashboard-tiles.md)
+[Power BI'daki pano kutucukları](consumer/end-user-tiles.md)
 
-[Power BI'daki raporlar](service-reports.md)
+[Power BI'daki raporlar](consumer/end-user-reports.md)
 
 [Power BI'da veri yenileme](refresh-data.md)
 
-[Power BI Temel Kavramları](service-basic-concepts.md)
+[Power BI Temel Kavramları](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

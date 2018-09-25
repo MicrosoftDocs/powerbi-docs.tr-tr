@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624310"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547649"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -42,7 +42,7 @@ Bir kurumsal içerik paketi yayımlandığında AppSource'a eklenir.  Bu merkezi
 
 * AppSource'u görüntülemek için **Veri Al** > **Kuruluşum** > **Al** seçeneklerini belirleyin.
 
-[Kurumsal içerik paketleri bulma ve açma](service-organizational-content-pack-find-and-open.md) ile ilgili daha fazla bilgi edinin.
+[Kurumsal içerik paketleri bulma ve açma](consumer/end-user-content-pack.md) ile ilgili daha fazla bilgi edinin.
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Kurumsal içerik paketinin yaşam döngüsü
 Tüm Power BI Pro kullanıcıları kurumsal içerik paketleri oluşturabilir, yayımlayabilir ve bunlara erişebilir. Yalnızca içerik paketi oluşturucusu çalışma kitabını ve veri kümesini değiştirebilir, yenilemeyi zamanlayabilir ve silebilir.
@@ -52,7 +52,7 @@ Yaşam döngüsü aşağıdaki gibidir:
 1. Nate, Power BI Pro'da bir içerik paketi oluşturur ve bunu Pazarlama dağıtım grubunda yayımlar. Yenileme ayarları, veri kümesi ile devralınır ve yalnızca Nate tarafından değiştirilebilir.
    
    > [!NOTE]
-   > İçerik paketini üyesi olduğu bir [Power BI uygulama çalışma alanından](service-create-distribute-apps.md) oluşturması halinde, Nate çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
+   > İçerik paketini üyesi olduğu bir [Power BI uygulama çalışma alanından](consumer/end-user-create-apps.md) oluşturması halinde, Nate çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
    > 
    > 
 2. Nate, dağıtım grubuna posta gönderir ve gruptakilere yeni içerik paketinden bahseder.
@@ -76,7 +76,7 @@ Dağıtım grup üyelerinin tümü, verilere yönelik olarak içerik paketi olu�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketi oluşturma ve yayımlama](service-organizational-content-pack-create-and-publish.md)
-* [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
-* [Power BI - Temel Kavramlar](service-basic-concepts.md)
+* [Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md) 
+* [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

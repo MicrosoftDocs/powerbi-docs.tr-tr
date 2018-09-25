@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 1fbb49f55c4139845f806d590ffb4956abfe0dcd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624218"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543501"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme
 
@@ -51,6 +51,6 @@ Bkz. [Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme](service-
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md)
-* [Power BI'da bir grup oluşturma](service-create-distribute-apps.md)
+* [Power BI'da bir grup oluşturma](consumer/end-user-create-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

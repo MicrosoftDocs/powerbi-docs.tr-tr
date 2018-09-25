@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252152"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545740"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI hizmetinde hemen hemen her şeyi yeniden adlandırabilirsiniz
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalışma kitabını, veri kümesini, uygulamayı ve çalışma alanını yeniden adlandırma ile ilgili bilgiler sunulmaktadır.
@@ -71,7 +71,7 @@ Yönetici izinlerine sahip olan herkes bir uygulama çalışma alanını adland�
 ## <a name="rename-a-page-in-a-report"></a>Rapordaki bir sayfayı yeniden adlandırma
 Power BI raporunuzdaki bir sayfanın adını sevmiyor musunuz?  Yeni bir ad yalnızca tek tık kadar uzağınızda. [Rapor Düzenleme görünümü'nde](service-interact-with-a-report-in-editing-view.md) sayfalar yeniden adlandırılabilir.
 
-1. [Düzenleme Görünümü](service-reading-view-and-editing-view.md)'nde raporu açın.
+1. [Düzenleme Görünümü](consumer/end-user-reading-view.md)'nde raporu açın.
 2. Power BI penceresinin alt tarafında rapor sayfa sekmelerini bulun.
    
     ![sekmelerin vurgulandığı rapor](media/service-rename/report-page-tabs-new.png)

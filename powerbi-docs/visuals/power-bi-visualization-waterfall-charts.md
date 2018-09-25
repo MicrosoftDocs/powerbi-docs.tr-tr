@@ -2,7 +2,7 @@
 title: Power BI'da şelale grafikler
 description: Power BI'da şelale grafikler
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744753"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565832"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 Şelale grafikler, değerler eklenirken veya çıkarılırken değişen toplamı gösterir. Bir başlangıç değerinin (örneğin, net gelir) bir dizi pozitif ve negatif değişiklikten nasıl etkilendiğini anlamak için faydalıdır.
@@ -74,13 +74,13 @@ Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekle
 Bir şelale grafikte sütunların vurgulanması, rapor sayfasındaki diğer görselleştirmelerde çapraz filtre uygular. (Vurgulamayı değiştirerek farklı sonuçlar elde edebilirsiniz.) Ancak, Total sütunu vurgulamayı tetiklemez veya çapraz filtrelemeye yanıt vermez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki raporlar](../service-reports.md)
+[Power BI'daki raporlar](../consumer/end-user-reports.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

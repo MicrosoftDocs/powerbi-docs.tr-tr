@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598990"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546108"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 
@@ -36,7 +36,7 @@ Bu makalede aşağıdaki noktalar ele alınmaktadır.
 * [Kutucukları silme](#delete)
   
   > [!TIP]
-  > Kutucuğun üzerinde gösterilen görselleştirmeyi değiştirmek için kutucuğu silip yeni bir [pano kutucuğu](service-dashboard-tiles.md) ekleyin.
+  > Kutucuğun üzerinde gösterilen görselleştirmeyi değiştirmek için kutucuğu silip yeni bir [pano kutucuğu](consumer/end-user-tiles.md) ekleyin.
 
   
 ## <a name="prerequisites"></a>Önkoşullar
@@ -142,11 +142,11 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 
 - - -
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki pano kutucukları](service-dashboard-tiles.md)
+[Power BI'daki pano kutucukları](consumer/end-user-tiles.md)
 
-[Power BI'daki panolar](service-dashboards.md)
+[Power BI'daki panolar](consumer/end-user-dashboards.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

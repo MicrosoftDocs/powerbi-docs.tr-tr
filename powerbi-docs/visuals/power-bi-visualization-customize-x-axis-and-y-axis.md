@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744993"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545957"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 Bu eğitimde görsellerinizin x eksenini ve y eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerde eksenler bulunmaz ve tüm görseller özelleştirilemez; örneğin Pasta grafiklerde eksen bulunmaz. Özelleştirme seçenekleri görsellere göre farklılık gösterir. Tek bir makalede ele alınamayacak kadar çok seçenek vardır. Bu nedenle en sık kullanılan bazı eksenlere ilişkin özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel biçimlendirme sekmesini rahatlıkla kullanmanızı sağlayacağız.  
@@ -86,7 +86,7 @@ Mağaza sayısının satış üzerindeki etkisini gösteren bir Birleşik harita
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
 > 2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (0M% kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.      
 
@@ -137,6 +137,6 @@ X ekseni rapor sahibi tarafından tarih türü olarak kategorize edilirse **Tür
 
 [Renkleri ve eksen özelliklerini özelleştirme](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

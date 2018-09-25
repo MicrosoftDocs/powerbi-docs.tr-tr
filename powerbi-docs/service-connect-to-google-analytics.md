@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876894"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548707"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Power BI ile Google Analytics'e bağlanma
 Power BI aracılığıyla Google Analytics'e bağlanmak için ilk olarak Google Analytics hesabınıza bağlanırsınız. Site trafiğiniz ve kullanıcılarınıza ilişkin ölçülerle ilgili öngörüler sağlayan bir Power BI panosu ile bir dizi Power BI raporu edinirsiniz. Pano ve raporlarla etkileşim kurabilir ancak değişiklikleri kaydedemezsiniz. Veriler günde bir kez otomatik olarak yenilenir.
@@ -69,7 +69,7 @@ Sorun hâlâ çözülmedi mi? Power BI ekibine ulaşmak için bir destek bileti 
 * Bu makaleyi okuduğunuz Power BI Destek sitesinde sayfanın sağ tarafında bulunan **Contact Support**'u (Destek Ekibine Başvur) seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

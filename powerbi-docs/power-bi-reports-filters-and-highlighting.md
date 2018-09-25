@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dd80776690e1fd45144c99570be8aa787a2938c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561460"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544512"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Power BI raporlarındaki filtreler ve vurgulama hakkında
 ***Filtreler***, odaklanmak istedikleriniz dışındaki tüm verileri kaldırır.  Verilerin kaldırılması söz konusu olmadığından ***vurgulama***, filtreleme değildir; bunun yerine görünen verilerin bir alt kümesini vurgular. Vurgulanmayan veriler görünür kalır ancak gridir.
@@ -24,9 +24,9 @@ Power BI'da raporları çok çeşitli yollarla filtreleyebilir ve vurgulayabilir
 
 * Filtrelere ve vurgulamaya giriş (şu anda okuduğunuz makale)
 * [Sahip olduğunuz raporlarda/Düzenleme Görünümü'nde filtre ve vurgulama oluşturup kullanmak](power-bi-report-add-filter.md) için izleyebileceğiniz yollar. Düzenleme izinlerine sahip olmanız halinde raporlarda filtre ve vurgulama oluşturabilir, bunları değiştirebilir ve silebilirsiniz.
-* [Sizinle paylaşılan bir raporda veya rapor Okuma Görünümü'nde filtreleri ve vurgulamayı kullanmanızın](service-reading-view-and-editing-view.md) yolları. Yapabilecekleriniz daha sınırlıdır ancak Power BI size yine de çok çeşitli filtreleme ve vurgulama seçenekleri sunar.  
-* Filtre türleri (örneğin, tarih ve saat, sayısal, metin) ile temel ve gelişmiş seçenekler arasındaki farka ayrıntılı bakışın da dahil olduğu, [Düzenleme Görünümü'nde kullanılabilen filtre ve vurgulama denetimlerine ilişkin ayrıntılı bir tur](power-bi-how-to-report-filter.md).
-* Filtrelerin ve vurgulamanın varsayılan olarak nasıl çalıştığını öğrendiğinize göre artık [bir sayfadaki görselleştirmelerin birbirini filtreleme ve vurgulama şeklini nasıl değiştireceğinizi öğrenebilirsiniz](service-reports-visual-interactions.md)
+* [Sizinle paylaşılan bir raporda veya rapor Okuma Görünümü'nde filtreleri ve vurgulamayı kullanmanızın](consumer/end-user-reading-view.md) yolları. Yapabilecekleriniz daha sınırlıdır ancak Power BI size yine de çok çeşitli filtreleme ve vurgulama seçenekleri sunar.  
+* Filtre türleri (örneğin, tarih ve saat, sayısal, metin) ile temel ve gelişmiş seçenekler arasındaki farka ayrıntılı bakışın da dahil olduğu, [Düzenleme Görünümü'nde kullanılabilen filtre ve vurgulama denetimlerine ilişkin ayrıntılı bir tur](consumer/end-user-report-filter.md).
+* Filtrelerin ve vurgulamanın varsayılan olarak nasıl çalıştığını öğrendiğinize göre artık [bir sayfadaki görselleştirmelerin birbirini filtreleme ve vurgulama şeklini nasıl değiştireceğinizi öğrenebilirsiniz](consumer/end-user-interactions.md)
 
 > [!TIP]
 > Power BI, veriler arasındaki ilişkileri nasıl bilir?  Rapor sayfasındaki öğelerin birbiriyle etkileşim kurmasını sağlamak için ilgili [veri modelinde](https://support.office.com/article/Create-a-Data-Model-in-Excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b?ui=en-US&rs=en-US&ad=US) bulunan farklı tablolar ve alanlar arasındaki ilişkileri kullanır.
@@ -46,7 +46,7 @@ Filtreler ve vurgulama, **Filtreler** bölmesi kullanılarak veya doğrudan rapo
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Okuma görünümündeki ve Düzenleme görünümündeki filtrelerin karşılaştırması
-Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
+Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
 
 * Düzenleme Görünümü’nde, rapor, sayfa, detaylandırma ve görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde, mobil uygulamada açsanız bile filtreler raporla birlikte kaydedilir. Okuma Görünümü’nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir ancak yeni filtreler ekleyemez.
 * Okuma Görünümü’nde önceden raporda bulunan filtrelerle etkileşim kurabilir ve yaptığınız seçimi kaydedebilirsiniz.  Ancak yeni filtreler ekleyemezsiniz.
@@ -62,7 +62,7 @@ Herhangi bir görsel düzeyi filtresinin mevcut olup olmadığını görmek içi
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Okuma Görünümü'nde, mevcut filtreleri değiştirerek verileri araştırın. Raporu mobil uygulamada açsanız bile, yaptığınız değişiklikler rapora kaydedilir. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) başlıklı makaleden bu konuda bilgi alabilirsiniz
+Okuma Görünümü'nde, mevcut filtreleri değiştirerek verileri araştırın. Raporu mobil uygulamada açsanız bile, yaptığınız değişiklikler rapora kaydedilir. [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md) başlıklı makaleden bu konuda bilgi alabilirsiniz
 
 ### <a name="the-filters-pane-in-editing-view"></a>Düzenleme Görünümü'nde Filtreler bölmesi
 Bir rapor için sahip izinleriniz olduğunda ve raporu Düzenleme Görünümü'nde açtığınızda **Filtreler**'in, kullanılabilir birkaç düzenleme bölmesinden yalnızca biri olduğunu görürsünüz.
@@ -74,7 +74,7 @@ Okuma Görünümü'nde olduğu gibi (yukarıda), raporun bu sayfasında 6 sayfa 
 Ancak Düzenleme Görünümü'nde, filtrelerle ve vurgulamayla yapabileceğimiz çok daha fazla işlem vardır. Temel fark, yeni filtreler ekleyebilmemizdir. [Bir rapora filtre ekleme](power-bi-report-add-filter.md) makalesinde bunun nasıl yapıldığını ve çok daha fazlasını öğrenebilirsiniz
 
 ## <a name="ad-hoc-filtering-and-highlighting"></a>Geçici filtreleme ve vurgulama
-Sayfanın geri kalanını filtrelemek ve vurgulamak için rapor tuvalinde bir alan seçin. Filtreleme ve vurgulamayı kaldırmak için aynı görselde boş bir alan seçin. Bu türdeki filtreleme ve vurgulama işlemleri, veri etkilerini hızla keşfetmenin eğlenceli bir yoludur. [Görsel etkileşimler](service-reports-visual-interactions.md) makalesine giderek bu türdeki çapraz filtreleme ve çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz.
+Sayfanın geri kalanını filtrelemek ve vurgulamak için rapor tuvalinde bir alan seçin. Filtreleme ve vurgulamayı kaldırmak için aynı görselde boş bir alan seçin. Bu türdeki filtreleme ve vurgulama işlemleri, veri etkilerini hızla keşfetmenin eğlenceli bir yoludur. [Görsel etkileşimler](consumer/end-user-interactions.md) makalesine giderek bu türdeki çapraz filtreleme ve çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
@@ -83,15 +83,15 @@ Rapordan çıktığınızda değişiklikleriniz kaydedilir. Filtreleme işlemini
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Filtreler ve vurgulama ile etkileşim kurma (Okuma Görünümü'nde)](service-reading-view-and-editing-view.md)
+[Filtreler ve vurgulama ile etkileşim kurma (Okuma Görünümü'nde)](consumer/end-user-reading-view.md)
 
 [Bir rapora filtre ekleme (Düzenleme Görünümü'nde)](power-bi-report-add-filter.md)
 
-[Rapor filtrelerine ilişkin bir tura katılın](power-bi-how-to-report-filter.md)
+[Rapor filtrelerine ilişkin bir tura katılın](consumer/end-user-report-filter.md)
 
-[Rapor görsellerinin birbirini çapraz filtreleme ve çapraz vurgulama şeklini değiştirme](service-reports-visual-interactions.md)
+[Rapor görsellerinin birbirini çapraz filtreleme ve çapraz vurgulama şeklini değiştirme](consumer/end-user-interactions.md)
 
-[Power BI'daki raporlar](service-reports.md) ile ilgili daha fazla bilgi edinin
+[Power BI'daki raporlar](consumer/end-user-reports.md) ile ilgili daha fazla bilgi edinin
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

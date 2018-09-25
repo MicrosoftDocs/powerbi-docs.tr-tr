@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330179"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550133"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** seçeneğini kullanarak, verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede, aşağıdaki konu başlıkları da dahil olmak üzere **DirectQuery** ve özellikleri anlatılmaktadır:
@@ -277,7 +277,7 @@ DirectQuery bağlantısı kullanarak bir rapor oluştururken aşağıdaki yöner
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  DirectQuery'de bu tür çapraz filtreleme ve çapraz vurgulama işlemleri için, temel alınan kaynağa sorgu gönderilmesi gerekir. Bu nedenle, kullanıcıların seçimlerine yanıt verilmesi normalden uzun sürerse etkileşim devre dışı bırakılmalıdır. Ancak, bu etkileşim raporun tamamı için (yukarıda *sorgu azaltma seçenekleri* için açıklandığı gibi) veya [bu makalede](service-reports-visual-interactions.md) açıklandığı gibi tek tek olay temelinde kapatılabilir.
+  DirectQuery'de bu tür çapraz filtreleme ve çapraz vurgulama işlemleri için, temel alınan kaynağa sorgu gönderilmesi gerekir. Bu nedenle, kullanıcıların seçimlerine yanıt verilmesi normalden uzun sürerse etkileşim devre dışı bırakılmalıdır. Ancak, bu etkileşim raporun tamamı için (yukarıda *sorgu azaltma seçenekleri* için açıklandığı gibi) veya [bu makalede](consumer/end-user-interactions.md) açıklandığı gibi tek tek olay temelinde kapatılabilir.
 
 Yukarıdaki öneri listesine ek olarak, aşağıdaki raporlama özelliklerinin her birinin performans sorunlarına neden olabileceğini unutmayın:
 

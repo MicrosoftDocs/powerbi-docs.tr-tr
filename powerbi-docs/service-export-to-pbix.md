@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722555"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547051"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
 Power BI Desktop uygulamasında bir raporu kaydedip **Yayımla**'yı seçerek Power BI hizmetine aktarabilirsiniz (*indirme* olarak da adlandırılır). Ayrıca, bu dışarı aktarma işleminin yönünü değiştirip Power BI hizmetinde bulunan bir raporu Desktop uygulamasına indirebilirsiniz. Herhangi bir yönde dışarı aktarılan dosyaların uzantısı *.pbix* olur.
@@ -27,7 +27,7 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin son
 ## <a name="download-the-report-as-a-pbix"></a>Raporu .pbix olarak indirme
 .pbix dosyasını indirmek için şu adımları uygulayın:
 
-1. **Power BI hizmetinde** indirmek istediğiniz raporu [Düzenleme görünümü](service-reading-view-and-editing-view.md)'nde açın.
+1. **Power BI hizmetinde** indirmek istediğiniz raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın.
 2. Menü çubuğundan **Dosya > Raporu indir**'i seçin.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Bu özellik hakkındaki bir dakikalık **Guy in a Cube** videosunu izleyin:
 
 **Power BI hizmetini** kullanmayı öğrenmenize yardımcı olabilecek farklı makaleleri de inceleyebilirsiniz:
 
-* [Power BI'daki raporlar](service-reports.md)
-* [Power BI - Temel Kavramlar](service-basic-concepts.md)
+* [Power BI'daki raporlar](consumer/end-user-reports.md)
+* [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
 **Power BI Desktop** uygulamasını yükledikten sonra aşağıdaki makaleler hızlı bir şekilde çalışmaya başlamanızı sağlayabilir:
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745042"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548822"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Hızlı Başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme
 Bu hızlı başlangıçta, bir Android telefon üzerinde çalışan Power BI mobil uygulamalarındaki örnek bir pano ve raporu keşfedeceksiniz. Diğer mobil uygulamaları da takip edebilirsiniz. 
@@ -153,5 +153,5 @@ Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örne
 Bu hızlı başlangıçta, Android cihazınızda örnek bir pano ve raporu keşfettiniz. Power BI hizmetinde çalışma hakkında daha fazla bilgi edinin. 
 
 > [!div class="nextstepaction"]
-> [Hızlı Başlangıç: Power BI hizmetinde dolaşma](../../service-the-new-power-bi-experience.md)
+> [Hızlı Başlangıç: Power BI hizmetinde dolaşma](../end-user-experience.md)
 

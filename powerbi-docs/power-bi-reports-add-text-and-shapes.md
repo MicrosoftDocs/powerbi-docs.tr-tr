@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310303"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544984"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI raporlarındaki statik içerik
 Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller eklenebilir. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Power BI hizmetinde bir rapor sizinle paylaşıldıysa, düzenleme izinlerine sahip olmazsınız. 
@@ -65,6 +65,6 @@ Power BI Desktop kullanarak [rapora statik görüntüler ekleyin](guided-learnin
 ### <a name="next-steps"></a>Sonraki adımlar
 [Metin kutularına köprü ekleme](service-add-hyperlink-to-text-box.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

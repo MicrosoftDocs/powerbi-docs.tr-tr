@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582512"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546499"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Bir veri kümeniz olsa da (henüz) Power BI'ın nasıl çalıştığını bilmediğinizden veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
@@ -191,7 +191,7 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 4. Power BI Desktop'ta açmak için .pbix dosyasını seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI temel kavramları](service-basic-concepts.md)
+[Power BI temel kavramları](consumer/end-user-basic-concepts.md)
 
 [Eğitim: Power BI örneklerine bağlanma](sample-tutorial-connect-to-the-samples.md)
 

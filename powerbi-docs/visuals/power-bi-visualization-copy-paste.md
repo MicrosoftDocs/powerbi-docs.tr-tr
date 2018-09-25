@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3ca95f8a00bdf0eeb54351154d95f30ae77b558
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0336a89c5dcb1414607721dfc5f84ef835acd615
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748553"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545088"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta görselleştirmeleri kopyalayıp yapıştırma
-Bir görselleştirmeyi kopyalamak ve yapıştırmak için raporda düzenleme iznine sahip olmanız gerekir. Power BI hizmetinde raporu [Düzenleme Görünümü](../service-reading-view-and-editing-view.md)'nde açmanız gerekir.
+Bir görselleştirmeyi kopyalamak ve yapıştırmak için raporda düzenleme iznine sahip olmanız gerekir. Power BI hizmetinde raporu [Düzenleme Görünümü](../consumer/end-user-reading-view.md)'nde açmanız gerekir.
 
 1. En az bir görselleştirmeye sahip bir rapor açın.  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561713"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545980"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Bir Power BI hizmet raporuna filtre ekleme (Düzenleme görünümünde)
 > [!TIP]
@@ -26,13 +26,13 @@ Bu makaledeki örneklerde, Power BI hizmeti gösterilmektedir. Ancak adımlar, P
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Düzenleme Görünümü'ndeki ve Okuma Görünümü'ndeki rapor filtreleri arasındaki fark nedir?
-Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma Görünümü](service-reading-view-and-editing-view.md) ve [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
+Raporlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma Görünümü](consumer/end-user-reading-view.md) ve [Düzenleme Görünümü](service-interact-with-a-report-in-editing-view.md).  Kullanabileceğiniz filtreleme özellikleri hangi modda olduğunuza bağlıdır.
 
 * Düzenleme Görünümü'nde rapor ve sayfa filtrelerinin yanı sıra görsel filtreler ekleyebilirsiniz. Raporu kaydettiğinizde filtreler de birlikte kaydedilir. Okuma Görünümü'nde rapora göz atan kişiler eklediğiniz filtrelerle etkileşim kurabilir.
 * Okuma Görünümü'nde, önceden raporda bulunan tüm rapor, detaylandırma, sayfa ve görsel filtreler ile etkileşim kurabilirsiniz ancak yeni filtreler ekleyemezsiniz. Ancak, raporu mobil uygulamada görüntüleseniz ve rapordan çıkıp daha sonra geri dönseniz bile, Filtreler bölmesinde yaptığınız değişiklikler rapora kaydedilir.  
 
 > [!NOTE]
-> Bu makalede rapor **Düzenleme Görünümü**'nde nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma Görünümü'ndeki filtreler hakkında daha fazla bilgi için [rapor Okuma Görünümü'nde filtrelerle etkileşim kurma](service-reading-view-and-editing-view.md) başlıklı makaleye bakın.
+> Bu makalede rapor **Düzenleme Görünümü**'nde nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma Görünümü'ndeki filtreler hakkında daha fazla bilgi için [rapor Okuma Görünümü'nde filtrelerle etkileşim kurma](consumer/end-user-reading-view.md) başlıklı makaleye bakın.
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI'ın *Filtreler* bölmesinde filtreler mevcuttur
@@ -58,7 +58,7 @@ Bunu yapmanın 2 yolu vardır:
 * görselleştirme tarafından kullanılmayan bir alan belirleyip söz konusu alanı doğrudan **Görsel düzeyi filtreleri** demetine ekleme.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>Görselleştirmede bulunan alanları filtreleme
-1. [Raporunuzu Düzenleme Görünümü'nde](service-reading-view-and-editing-view.md) açın.
+1. [Raporunuzu Düzenleme Görünümü'nde](consumer/end-user-reading-view.md) açın.
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
@@ -72,7 +72,7 @@ Bunu yapmanın 2 yolu vardır:
    * **Görsel düzeyi filtreleri** alanına gidin ve filtrelemek istediğiniz alanı genişletmek için oku seçin. Bu örnekte, **StoreNumberName** alanını filtreleyeceğiz
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * **Temel**, **Gelişmiş** veya **Üst N** filtreleme denetimlerinden birini ayarlayın (bkz. [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)). Bu örnekte, Temel filtrelemeyi seçip 10, 11, 15 ve 18 sayılarının yanına onay işaretleri koyacağız.
+   * **Temel**, **Gelişmiş** veya **Üst N** filtreleme denetimlerinden birini ayarlayın (bkz. [Rapor filtrelerini kullanma](consumer/end-user-report-filter.md)). Bu örnekte, Temel filtrelemeyi seçip 10, 11, 15 ve 18 sayılarının yanına onay işaretleri koyacağız.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * Görsel, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma Görünümü'nde filtre ile etkileşim kurabilir.
@@ -91,10 +91,10 @@ Bunu yapmanın 2 yolu vardır:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Tüm sayfaya filtre ekleme (başka bir deyişle, sayfa görünümü filtresi)
-1. [Raporunuzu Düzenleme Görünümü'nde](service-reading-view-and-editing-view.md) açın.
+1. [Raporunuzu Düzenleme Görünümü'nde](consumer/end-user-reading-view.md) açın.
 2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
 3. Alanlar bölmesinden yeni sayfa düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Sayfa düzeyi filtreleri** alanına sürükleyin.  
-4. Filtrelemek istediğiniz değerleri seçip **Temel** veya **Gelişmiş** filtreleme denetimlerini belirleyin (bkz. [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)).
+4. Filtrelemek istediğiniz değerleri seçip **Temel** veya **Gelişmiş** filtreleme denetimlerini belirleyin (bkz. [Rapor filtrelerini kullanma](consumer/end-user-report-filter.md)).
    
    Sayfada bu filtreden etkilenen tüm görselleştirmeler, yapılan değişikliği yansıtacak şekilde yeniden çizilir. 
    
@@ -130,10 +130,10 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Tüm rapora filtre ekleme (başka bir deyişle, Rapor filtresi)
-1. [Raporunuzu Düzenleme Görünümü'nde](service-reading-view-and-editing-view.md) açın.
+1. [Raporunuzu Düzenleme Görünümü'nde](consumer/end-user-reading-view.md) açın.
 2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
 3. Alanlar bölmesinden yeni rapor düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Rapor düzeyi filtreleri** alanına sürükleyin.  
-4. Filtrelemek istediğiniz değerleri seçin (bkz. [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)).
+4. Filtrelemek istediğiniz değerleri seçin (bkz. [Rapor filtrelerini kullanma](consumer/end-user-report-filter.md)).
 
     Etkin sayfadaki ve raporda bulunan tüm sayfalardaki görseller, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma Görünümü'nde filtre ile etkileşim kurabilir.
 
@@ -149,13 +149,13 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 - Filtrelerde çok fazla değişiklik yaptıysanız ve rapor yazarı varsayılan ayarlarına geri dönmek istiyorsanız, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
- [Rapor filtrelerini kullanma](power-bi-how-to-report-filter.md)
+ [Rapor filtrelerini kullanma](consumer/end-user-report-filter.md)
 
   [Raporlarda filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)
 
-[Okuma Görünümü'nde filtreler ve vurgulama ile etkileşim kurma](service-reading-view-and-editing-view.md)
+[Okuma Görünümü'nde filtreler ve vurgulama ile etkileşim kurma](consumer/end-user-reading-view.md)
 
-[Rapor görsellerinin birbirini çapraz filtreleme ve çapraz vurgulama şeklini değiştirme](service-reports-visual-interactions.md)
+[Rapor görsellerinin birbirini çapraz filtreleme ve çapraz vurgulama şeklini değiştirme](consumer/end-user-interactions.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

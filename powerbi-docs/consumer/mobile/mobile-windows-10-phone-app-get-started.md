@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6ec1c7d1e3417336e24e324ff12c3e10a84a8525
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744882"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547304"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı tabletinize veya telefonunuza getirir. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyin ve etkileşime geçin.
@@ -108,7 +108,7 @@ Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Reporting Services KPI'le
 Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra Reporting Services mobil raporları ve Reporting Services web portalındaki raporlar ve KPI'ler ile gerçekleştirebileceğiniz diğer işlemlerden bazıları aşağıda verilmiştir.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları
-* [Uygulamalarınızı](../../service-install-use-apps.md) görüntüleme.
+* [Uygulamalarınızı](../end-user-apps.md) görüntüleme.
 * [Panolarınızı](mobile-apps-view-dashboard.md) görüntüleme.
 * [Power BI kutucuklarını ve panolarını sabitleyerek](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) cihazınızın Başlangıç ekranında canlı kutucuk olarak kullanma.
 * [Kutucukları paylaşma](mobile-windows-10-phone-app-get-started.md).

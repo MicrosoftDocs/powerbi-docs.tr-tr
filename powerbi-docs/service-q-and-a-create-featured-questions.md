@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726329"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548247"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
 Bir veri kümeniz varsa kendi öne çıkan sorularınızı bu veri kümesine ekleyebilirsiniz.  Böylece Power BI Soru-Cevap bu soruları, veri kümenizi *kullanan* iş arkadaşlarınıza gösterir.  Öne çıkan sorular, iş arkadaşlarınıza bir veri kümesi ile ilgili sorabilecekleri soru türleri hakkında fikirler verir. Ne tür öne çıkan sorular ekleyeceğiniz size bağlıdır; sık kullanılan sorular, ilgi çekici sonuçlar görüntüleyen sorular veya uygun şekilde ifade etmesi zor olabilecek sorular sorabilirsiniz.
@@ -47,8 +47,8 @@ Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır.
    ![harita görselleştirmesi](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki Soru-Cevap](power-bi-q-and-a.md)  
+[Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md)  
 [Eğitim: Power BI Soru-Cevap'a Giriş](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - Temel Kavramlar](service-basic-concepts.md)  
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

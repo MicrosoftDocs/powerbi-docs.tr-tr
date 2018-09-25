@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475741"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546964"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Doğal dil sorguları için Power BI Desktop'taki Soru-Cevap özelliğini kullanın
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte **Power BI Desktop**’taki Soru-Cevap ile bunu yapabilirsiniz.
@@ -198,5 +198,5 @@ Bu çok önemli bir adım olabilir. Tablo ve sütun adları kolay olsa bile Soru
 Power BI Desktop’taki özellikler hakkında daha fazla bilgi edinmek için şu makalelere göz atın:
 
 * [Power BI Desktop'ta detaylandırma özelliğini kullanma](desktop-drillthrough.md)
-* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](service-focus-mode.md)
+* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](consumer/end-user-focus.md)
 

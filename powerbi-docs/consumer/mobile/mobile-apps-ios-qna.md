@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744881"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548132"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -137,11 +137,11 @@ Apple iOS Geliştirici Kılavuzlarındaki [What's New in iOS (iOS'teki Yenilikle
 Bir veri kümesi ile ilgili olarak siz ve müşterilerinizin Soru-Cevap sanal analistini kullandığında aldığı cevapları iyileştirmek için daha hedefe yönelik sorular sorabilir veya veri kümesini geliştirebilirsiniz.
 
 ### <a name="how-to-ask-questions"></a>Soru sorma
-* iOS mobil uygulamanızdaki Soru-Cevap sanal analisti veya Power BI hizmetindeki [Soru-Cevap özelliği ile soru sormaya ilişkin bu ipuçlarını](../../service-q-and-a-tips.md) uygulayın.
+* iOS mobil uygulamanızdaki Soru-Cevap sanal analisti veya Power BI hizmetindeki [Soru-Cevap özelliği ile soru sormaya ilişkin bu ipuçlarını](../end-user-q-and-a-tips.md) uygulayın.
 
 ### <a name="how-to-enhance-the-dataset"></a>Veri kümesini geliştirme
 * Power BI Desktop veya Power BI hizmetindeki veri kümesini, [verilerinizin Soru-Cevap özelliği ve Soru-Cevap sanal analisti ile düzgün çalışabileceği şekilde](../../service-prepare-data-for-q-and-a.md) geliştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Q&A in the Power BI service (Power BI hizmetindeki Soru-Cevap özelliği)](../../power-bi-q-and-a.md)
+* [Q&A in the Power BI service (Power BI hizmetindeki Soru-Cevap özelliği)](../end-user-q-and-a.md)
 * Sorularınız mı var? [Power BI Topluluğu'nun Mobil uygulamalar bölümüne](https://go.microsoft.com/fwlink/?linkid=839277) göz atın

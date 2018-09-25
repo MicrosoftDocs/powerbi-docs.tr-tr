@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 7640c9f49205de97556af9cfa51c641a93d9d69c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965608"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547442"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop'ta raporlar oluşturulup düzenlenebilir. Power BI hizmetinde raporlar, **Düzenleme görünümü**'nde oluşturulup düzenlenebilir. Power BI Desktop’ta ise raporlar [**Rapor görünümü**](desktop-report-view.md)'nde oluşturulup düzenlenebilir. Bu makalede Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
 
-Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](service-reading-view-and-editing-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa, yine de rapor oluşturabilirsiniz ama [bunları paylaşmanız](service-share-reports.md) mümkün olmaz.    
+Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](consumer/end-user-reading-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa, yine de rapor oluşturabilirsiniz ama [bunları paylaşmanız](service-share-reports.md) mümkün olmaz.    
 
-Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](service-reading-view-and-editing-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](service-create-distribute-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
+Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](consumer/end-user-reading-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](consumer/end-user-create-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
 
 ## <a name="functionality-only-available-in-editing-view"></a>Yalnızca Düzenleme görünümü'nde kullanılabilen işlevler
 Sol taraftaki İçindekiler bölümündeki **Raporlar** başlığının altında yer alan konu başlığı listesine göz atın. Bu uzun bir listedir ve konu başlıklarının çoğunda *yalnızca rapor için düzenleme iznine sahip olduğunuzda kullanabileceğiniz* işlevlerden bahsedilmektedir.  İçindekiler bölümünde gezinmenize yardımcı olmak için, Düzenleme görünümü'nün gerekli olduğu işlemler aşağıda belirtilmiştir:
@@ -43,7 +43,7 @@ Başkaları tarafından oluşturulan raporları düzenlemek ve raporlarınızı 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) sayfasına dönün
+[Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md) sayfasına dönün
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

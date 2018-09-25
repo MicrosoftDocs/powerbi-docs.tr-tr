@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599606"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548063"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  
@@ -49,7 +49,7 @@ Will bize Excel çalışma kitaplarındaki verileri içeri aktarmak ve bu verile
     ![Power BI'da Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Bir hücre aralığını panoya sabitleme
-Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin yollarından biri, bu işlemi Power BI'daki Excel çalışma kitabında gerçekleştirmektir. OneDrive İş hesabınıza veya grup tarafından paylaşılan başka bir belge kitaplığına kaydedilen Excel çalışma kitaplarından aralık sabitleyebilirsiniz. Bu aralıklar veri, grafik, tablo, PivotTable, PivotChart ve Excel'in diğer öğelerini içerebilir.
+Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin yollarından biri, bu işlemi Power BI'daki Excel çalışma kitabında gerçekleştirmektir. OneDrive İş hesabınıza veya grup tarafından paylaşılan başka bir belge kitaplığına kaydedilen Excel çalışma kitaplarından aralık sabitleyebilirsiniz. Bu aralıklar veri, grafik, tablo, PivotTable, PivotChart ve Excel'in diğer öğelerini içerebilir.
 
 1. Bir panoya sabitlemek istediğiniz hücreleri vurgulayın.
    

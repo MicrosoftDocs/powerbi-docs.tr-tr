@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745001"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544015"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -103,13 +103,13 @@ Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
 Bu noktada aşağıdakileri yapmak isteyebilirsiniz:
 
-* [Birleşik haritayı pano kutucuğu olarak ekleme](../service-dashboard-tiles.md).
+* [Birleşik haritayı pano kutucuğu olarak ekleme](../consumer/end-user-tiles.md).
 * [Raporu kaydedin](../service-report-save.md).
 * [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Çapraz vurgulama ve çapraz filtreleme
 
-Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../service-reports-visual-interactions.md) yararlanın.
+Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../consumer/end-user-interactions.md) yararlanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -117,6 +117,6 @@ Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasın
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

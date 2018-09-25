@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726674"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545763"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
 
@@ -57,7 +57,7 @@ Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşl
 
 ![Uygulamayı yayımla simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin. 
+Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](consumer/end-user-create-apps.md) hakkında daha fazla bilgi edinin. 
 
 Kullanıcılar uygulamayı yükledikten sonra tarayıcılarında veya mobil cihazlarında görüntüleyebilir.
 
@@ -88,7 +88,7 @@ iOS ve Android mobil uygulamalarında [kutucuk, rapor ve görsellere not ekleme 
 Ayrıca, Windows 10 için Power BI uygulamasında [bir kutucuk anlık görüntüsü paylaşabilirsiniz](consumer/mobile/mobile-windows-10-phone-app-get-started.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF veya başka türde bir statik dosya olarak yazdırma ya da kaydetme
-Power BI hizmetindeki bir panonun, pano kutucuğunun, rapor sayfasının veya görselleştirmenin tamamını PDF (ya da başka bir statik dosya biçiminde) olarak yazdırabilir veya kaydedebilirsiniz. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız. [Statik dosya olarak yazdırma veya kaydetme](service-print.md) hakkında daha fazla bilgi edinin.
+Power BI hizmetindeki bir panonun, pano kutucuğunun, rapor sayfasının veya görselleştirmenin tamamını PDF (ya da başka bir statik dosya biçiminde) olarak yazdırabilir veya kaydedebilirsiniz. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız. [Statik dosya olarak yazdırma veya kaydetme](consumer/end-user-print.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="publish-to-the-web"></a>Web'de yayımlama
 
@@ -99,7 +99,7 @@ Blog gönderileri, web siteleri, sosyal medya ve herhangi bir cihazdan gerçekle
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [İş arkadaşlarınızla ve diğer kullanıcılarla pano paylaşma](service-share-dashboards.md)
-* [Power BI'da uygulama oluşturma ve yayımlama](service-create-distribute-apps.md)
+* [Power BI'da uygulama oluşturma ve yayımlama](consumer/end-user-create-apps.md)
 * Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

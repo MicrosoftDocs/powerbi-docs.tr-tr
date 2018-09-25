@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744842"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545048"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI'da halka grafikler
 Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gösterir. Tek fark ortasının boş ve bir etiket veya simge yerleştirmeye müsait olmasıdır.
@@ -43,13 +43,13 @@ Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde g�
 * Halka grafikler, bölümleri birbirleriyle karşılaştırmaktan çok belirli bir bölümü bütünle karşılaştırma durumlarında kullanışlıdır. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki raporlar](../service-reports.md)
+[Power BI'daki raporlar](../consumer/end-user-reports.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726858"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545101"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Öğretici: Power BI hizmeti (app.powerbi.com) ile çalışmaya başlama
 Bu eğitim, ***Power BI hizmeti*** ile çalışmaya başlamanıza yardımcı olur. Power BI hizmetinin, diğer Power BI teklifleri ile nasıl bir uyum içinde çalıştığını anlamanız için ilk olarak [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
@@ -53,9 +53,9 @@ Power BI Desktop ile ilgili yardım almak isterseniz bkz. [Desktop ile çalışm
 > 
 
 ## <a name="what-is-power-bi-service"></a>Power BI hizmeti nedir?
-Microsoft Power BI hizmeti bazen Power BI çevrimiçi veya app.powerbi.com olarak da adlandırılır. Power BI, önem verdiğiniz bilgileri edinmenize ve her zaman en güncel bilgilere sahip olmanıza yardımcı olur.  Power BI hizmetindeki ***panolar***, işletmenizin nabzını tutmanıza yardımcı olur.  Panolarınızda görüntülenen ***kutucuklara*** tıkladığınızda ***raporlar*** açılır ve böylece daha fazla araştırma yapabilirsiniz.  Birden çok ***veri kümesine*** bağlanarak tüm ilgili verileri bir yerde toplayın. Power BI'ı oluşturan yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  Bkz. [Power BI - Temel Kavramlar](service-basic-concepts.md).
+Microsoft Power BI hizmeti bazen Power BI çevrimiçi veya app.powerbi.com olarak da adlandırılır. Power BI, önem verdiğiniz bilgileri edinmenize ve her zaman en güncel bilgilere sahip olmanıza yardımcı olur.  Power BI hizmetindeki ***panolar***, işletmenizin nabzını tutmanıza yardımcı olur.  Panolarınızda görüntülenen ***kutucuklara*** tıkladığınızda ***raporlar*** açılır ve böylece daha fazla araştırma yapabilirsiniz.  Birden çok ***veri kümesine*** bağlanarak tüm ilgili verileri bir yerde toplayın. Power BI'ı oluşturan yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  Bkz. [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md).
 
-Excel veya CSV dosyalarında önemli verileriniz varsa, bilgilere her yerden erişmek ve öngörülerinizi başkalarıyla paylaşmak için bir Power BI panosu oluşturabilirsiniz.  Salesforce gibi bir SaaS uygulaması aboneliğiniz var mı?  Salesforce'a bağlanıp ilgili verilerden otomatik olarak bir pano oluşturarak başlayın veya bağlanabileceğiniz [diğer tüm SaaS uygulamalarına göz atın](service-get-data.md). Bir kuruluşa bağlıysanız sizin için yayımlanan herhangi bir [uygulama](service-create-distribute-apps.md) olup olmadığına bakın.
+Excel veya CSV dosyalarında önemli verileriniz varsa, bilgilere her yerden erişmek ve öngörülerinizi başkalarıyla paylaşmak için bir Power BI panosu oluşturabilirsiniz.  Salesforce gibi bir SaaS uygulaması aboneliğiniz var mı?  Salesforce'a bağlanıp ilgili verilerden otomatik olarak bir pano oluşturarak başlayın veya bağlanabileceğiniz [diğer tüm SaaS uygulamalarına göz atın](service-get-data.md). Bir kuruluşa bağlıysanız sizin için yayımlanan herhangi bir [uygulama](consumer/end-user-create-apps.md) olup olmadığına bakın.
 
 [Power BI'a veri almak](service-get-data.md) için kullanabileceğiniz diğer tüm yöntemlerle ilgili bilgi edinin.
 
@@ -87,7 +87,7 @@ Aşağıda, CSV dosyasından veri almaya ilişkin bir örnek verilmiştir. Bu e�
 
     ![Okuma görünümü seçeneği](media/service-get-started/power-bi-editing-view.png)
 
-    Düzenleme görünümü'nde raporun *sahibi*, içerik *oluşturan* olduğunuz için rapor oluşturabilir ve değiştirebilirsiniz. Raporunuzu paylaştığınızda iş arkadaşlarınız *tüketici* olarak raporla yalnızca Okuma görünümü'nde etkileşim kurabilir. [Okuma görünümü ve Düzenleme görünümü](service-reading-view-and-editing-view.md) hakkında daha fazla bilgi edinin.
+    Düzenleme görünümü'nde raporun *sahibi*, içerik *oluşturan* olduğunuz için rapor oluşturabilir ve değiştirebilirsiniz. Raporunuzu paylaştığınızda iş arkadaşlarınız *tüketici* olarak raporla yalnızca Okuma görünümü'nde etkileşim kurabilir. [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md) hakkında daha fazla bilgi edinin.
     
     Rapor düzenleyicisi ile ilgili bilgi edinmenin en iyi yollarından biri de [tura katılmaktır](service-the-report-editor-take-a-tour.md)
    > 
@@ -158,5 +158,5 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
 Daha fazlasını denemeye hazır mısınız?  Power BI ile ilgili keşif yapmak için uygulayabileceğiniz bazı harika yöntemler.
 
 > [!div class="nextstepaction"]
-> [Kullandığınız çevrimiçi hizmetlere bağlanma](./service-connect-to-services.md)
+> [Kullandığınız çevrimiçi hizmetlere bağlanma](consumer/end-user-connect-to-services.md)
 

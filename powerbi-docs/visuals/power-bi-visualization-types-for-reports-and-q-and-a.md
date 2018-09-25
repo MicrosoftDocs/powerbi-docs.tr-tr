@@ -2,7 +2,7 @@
 title: Power BI'daki görselleştirme türleri
 description: Power BI'daki görselleştirme türleri
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744913"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566062"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -176,9 +176,9 @@ Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken s
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)    
 [Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Power BI'daki raporlar](../service-reports.md)
+[Power BI'daki raporlar](../consumer/end-user-reports.md)
 
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748673"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548086"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI'da ağaç haritaları
 Ağaç haritaları, hiyerarşik verileri iç içe geçmiş dikdörtgenler kümesi şeklinde görüntüler.  Hiyerarşinin her düzeyi başka dikdörtgenler ("yapraklar") içeren renkli bir dikdörtgen (çoğunlukla "dal" olarak adlandırılır) ile gösterilir.  Her dikdörtgenin içindeki alan ölçülen nicel değere göre belirlenir ve dikdörtgenler, boyutları dikkate alınarak sol üstten (en büyük) sağ alta (en küçük) doğru düzenlenir.
@@ -62,7 +62,7 @@ Alternatif olarak kendi ağaç haritanızı da oluşturabilirsiniz. Bu yönergel
    > 
 5. **Category**'nin bu kısmı için araç ipucunu göstermek üzere bir **Chain** alanının üzerine gelin.  Örneğin, **040-Juniors** dikdörtgeninde **Lindseys**'in üzerine geldiğinizde Juniors kategorisinin Lindseys kısmına ilişkin araç ipucu görünür.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Ağaç haritasını bir pano kutucuğu olarak ekleyin (görseli sabitleyin)](../service-dashboard-tiles.md). 
+6. [Ağaç haritasını bir pano kutucuğu olarak ekleyin (görseli sabitleyin)](../consumer/end-user-tiles.md). 
 7. [Raporu kaydedin](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
@@ -76,11 +76,11 @@ Ağaç haritasında Category veya Ayrıntılar vurgulandığında rapor sayfası
 2. **Zincire göre Geçen Yılın Satışları** pasta grafiğinde, **Fashions Direct** dilimini seçtiğinizde ağaç haritası filtrelenir.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](../service-reports-visual-interactions.md)
+3. Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](../consumer/end-user-interactions.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Görsel öğeyi panoya sabitleme](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - Temel Kavramlar](../service-basic-concepts.md)  
+[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)  
 
