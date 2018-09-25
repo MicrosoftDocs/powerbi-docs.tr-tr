@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34298861"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546621"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
@@ -102,7 +102,7 @@ Power BI Rapor Sunucusu hakkında daha fazla bilgi için bkz. [Power BI Rapor Su
 **Power BI uygulamaları nelerdir?**  
 Kullanıcıların kurumsal ölçekte öngörüleri keşfetmesi amacıyla içerik paketlerini Power BI uygulamalarına dönüştürüyoruz. Kullanımda olan Power BI uygulamaları, panoları veya raporları belirli kullanıcılara, gruplara veya kuruluşun tamamına dağıtmak için kolaylaştırılmış bir yöntem sunmaktadır. İşletme kullanıcıları bu uygulamaları kolayca yükleyip içinde gezinebilir, içeriği tek bir merkeze toplayabilir ve otomatik olarak güncelleştirilmesini sağlayabilir. 
 
-Uygulamalar hakkında daha fazla bilgi için bkz. [Power BI'da uygulamalar ne anlama gelir?](service-install-use-apps.md)
+Uygulamalar hakkında daha fazla bilgi için bkz. [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
 
 **Power Premium ile birlikte Power BI Pro, Ücretsiz Power BI, Power BI Desktop sürümlerinde de değişiklik yapıyor musunuz?**  
 Bugün ayrıca Power BI Pro ile ücretsiz hizmet arasındaki ayrımı daha belirgin hale getiriyoruz. Ücretsiz hizmetin kişisel kullanıma, Power BI Pro'nun ise işbirliğine yönelik olmasına rağmen iki sürüm arasındaki işlev farklarının kullanıcılarda kafa karışıklığına neden olduğuyla ilgili geri bildirim aldık. İleride ücretsiz hizmeti Power BI Pro ile aynı işlevlere sahip olacak şekilde geliştirecek ancak paylaşım ve işbirliği özelliklerini Power BI Pro kullanıcılarıyla sınırlandıracağız.

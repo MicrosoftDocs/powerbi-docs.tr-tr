@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744898"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549812"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler için geçerlidir:
@@ -23,7 +23,7 @@ Aşağıdakiler için geçerlidir:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
-Kutucuklar verilerinize ilişkin, panoya sabitlenmiş canlı ve anlık veri görüntüleridir. Veriler değiştikçe değerler de değişir. **[Kutucuklar Power BI hizmetindeki panolara eklenir](../../service-dashboard-tiles.md).** 
+Kutucuklar verilerinize ilişkin, panoya sabitlenmiş canlı ve anlık veri görüntüleridir. Veriler değiştikçe değerler de değişir. **[Kutucuklar Power BI hizmetindeki panolara eklenir](../end-user-tiles.md).** 
 
 Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak onlarla etkileşime geçersiniz. Bing ve R tabanlı kutucuklar dahil olmak üzere her türden görsel öğe içeren kutucukları açabilirsiniz.
 

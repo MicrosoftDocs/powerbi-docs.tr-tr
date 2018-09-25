@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249882"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546384"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Rapor sayfasının tamamını bir Power BI panosuna canlı kutucuk olarak sabitleme
-Yeni bir [pano kutucuğu](service-dashboard-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
+Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
 
 Canlı kutucukların raporlardan panolara sabitlenmesi yalnızca Power BI hizmetinde (app.powerbi.com) mümkündür.
 
@@ -53,7 +53,7 @@ Canlı rapor sayfasını bir panoya sabitleyen Amanda'yı izledikten sonra kendi
     ![canlı kutucuğun bulunduğu panolar](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki panolar](service-dashboards.md)
+[Power BI'daki panolar](consumer/end-user-dashboards.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

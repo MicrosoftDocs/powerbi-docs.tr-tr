@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623942"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543961"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
 Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. İşbirliği Power BI'daki çalışma alanları ile sınırlı değildir. Office 365, gruplar için OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, paylaşılan takvim ve görevler gibi başka hizmetler de sunar. [Office 365'teki gruplar](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) hakkında daha fazla bilgi edinin.
@@ -38,7 +38,7 @@ Bir Power BI Desktop dosyası oluşturduktan sonra dosyanızı Power BI uygulama
    
     ![Raporlar sekmesi](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Buradan sonra, Power BI'daki herhangi bir raporda olduğu gibi ilerleriz. Uygulama çalışma alanınızdaki kişilerle birlikte [raporu değiştirip](service-reports.md) kutucukları, seçtiğiniz bir panoya kaydedebilirsiniz.
+    Buradan sonra, Power BI'daki herhangi bir raporda olduğu gibi ilerleriz. Uygulama çalışma alanınızdaki kişilerle birlikte [raporu değiştirip](consumer/end-user-reports.md) kutucukları, seçtiğiniz bir panoya kaydedebilirsiniz.
 
 ## <a name="collaborate-in-office-365"></a>Office 365'te işbirliği
 Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki uygulama çalışma alanıdır.
@@ -77,7 +77,7 @@ Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki uygu
 Bir uygulama çalışma alanının sahibi veya yöneticisiyseniz çalışma alanı üyesi ekleyip kaldırma seçeneğiniz de olur. [Power BI uygulama çalışma alanınızı yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
+* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](consumer/end-user-create-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 * Geri bildirimde bulunmak ister misiniz? [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin
 
