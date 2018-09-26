@@ -1,21 +1,21 @@
 ---
 title: Cortana için özel Power BI yanıt sayfaları oluşturma
 description: Power BI'da Cortana için özel yanıt sayfaları oluşturma
-author: yaron
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755335"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187341"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI hizmetini veya Power BI Desktop'ı kullanarak Cortana için özel bir Yanıt Sayfası oluşturma
 Power BI'ı kullanarak *Cortana yanıt sayfaları* (ve bazı durumlarda *Cortana yanıt kartları*) adı verilen ve Cortana sorularını cevaplamak için tasarlanmış özel rapor sayfaları oluşturun.

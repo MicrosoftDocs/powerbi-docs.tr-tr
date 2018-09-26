@@ -1,21 +1,21 @@
 ---
 title: Görselleştirmelerdeki toplama işlemleri (toplam, ortalama, maksimum vb.)
 description: Power BI'da bulunan bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirme
-author: mihart
+author: mgblythe
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Reports
-ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241557"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187295"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?

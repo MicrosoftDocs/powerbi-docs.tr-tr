@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566338"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187249"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI görselini tüm boyutlar için en iyi duruma getirme
 Varsayılan olarak, yeni bir rapor oluşturduğunuzda görseller *duyarlıdır*: Ekran boyutu ne olursa olsun, en fazla miktarda veri ve içgörü görüntülemek üzere dinamik olarak değişirler. Eski raporlar için görselleri de dinamik olarak yeniden boyutlandırılacak şekilde ayarlayabilirsiniz.
 
 Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. Örneğin görselin küçülse dahi bilgilendirici olması için otomatik olarak boşluğu kaldırır ve açıklamayı görselin üst tarafına taşır. Yanıt verme özellikle telefonlarda kullanılan Power BI mobil uygulamalarındaki görseller için faydalıdır.
 
-![Yanıt veren görsel yeniden boyutlandırma](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![Yanıt veren görsel yeniden boyutlandırma](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 X ve Y eksenlerine ve dilimleyicilere sahip herhangi bir görsel, duyarlı bir şekilde yeniden boyutlandırılabilir.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Power BI Desktop'ta yanıt verme özelliğini etkinleştirme
 1. Power BI Desktop'taki eski bir raporun **Görünüm** sekmesinden **Masaüstü Düzeni**'nde olduğunuzdan emin olun.
    
-    ![Masaüstü Düzeni simgesi](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![Masaüstü Düzeni simgesi](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Bir görsel seçtikten sonra **Görsel Öğeler** bölmesinin **Biçim** bölümünü seçin.
 3. **Genel** bölümünü genişletip **Yanıt veriyor** ayarını **Açık** olarak belirleyin.
    
-    ![Yanıt veriyor ayarı açık](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Yanıt veriyor ayarı açık](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      [Telefon için en iyi duruma getirilmiş bir rapor oluşturup](../desktop-create-phone-report.md) bu görseli eklediğinizde yanıt veren boyutlandırma gerçekleşecektir.
 
@@ -44,7 +44,7 @@ Power BI hizmetindeki eski bir raporda bulunan bir görsel için yanıt verme ö
 2. Bir görsel seçtikten sonra **Görsel Öğeler** bölmesinin **Biçim** bölümünü seçin.
 3. **Genel** bölümünü genişletip **Yanıt veriyor** ayarını **Açık** olarak belirleyin.
    
-    ![Yanıt veriyor ayarı açık](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Yanıt veriyor ayarı açık](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      [Bu raporun telefon görünümünü oluşturup](../desktop-create-phone-report.md) bu görseli eklediğinizde esnek boyutlandırma gerçekleşecektir.
 

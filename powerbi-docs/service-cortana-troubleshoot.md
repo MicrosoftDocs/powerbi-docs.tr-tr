@@ -1,7 +1,7 @@
 ---
 title: Power BI için Cortana ile ilgili sorunları giderme
 description: Cortana'yı Power BI ile kullanma konusunda sorun yaşıyorsanız bu önerileri uygulamayı deneyin.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: d15dfa17280a8c289f223719961cd48a97cb92bc
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964872"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187548"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
 Bu makale bir serinin parçasıdır. Henüz yapmadıysanız aşağıdaki üç makaleyi okumanızı öneririz.
