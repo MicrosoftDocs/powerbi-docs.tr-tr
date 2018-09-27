@@ -267,8 +267,6 @@ items:
         href: ../service-interact-with-a-report-in-editing-view.md
       - name: Excel'de Analiz Et
         href: ../service-analyze-in-excel.md
-      - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
-        href: ../service-reports-visual-interactions.md
       - name: Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
         href: ../power-bi-reports-tips-and-tricks-for-creating.md
       - name: Analiz bölmesi
@@ -1144,9 +1142,9 @@ items:
       href: ../service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: ../service-admin-o365portal-retired.md
-ms.openlocfilehash: d25fd05dc0ddd28498dec3b55f67404a10106047
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 16e6b6c2bceadf78acd5b16b2ef8bd81a0116f35
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728284"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238181"
