@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044337"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545809"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI hizmetinde tam ekran modu
 ## <a name="what-is-full-screen-mode"></a>Tam ekran modu nedir?
@@ -24,7 +24,7 @@ ms.locfileid: "44044337"
 
 Power BI içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görselleştirmeler) menüler ve gezinti düğmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır. Tam ekran modunda kullanılabilen işlevler içeriğe göre değişiklik gösterir. 
 
-Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](mobile-windows-10-app-presentation-mode.md). Power BI Desktop, raporlar veya görselleştirmeler için tam ekran moduna sahip değildir ancak [İlişki görünümü ve Rapor görünümü](desktop-report-view.md) ile [rapor görselleri için odak moduna](service-focus-mode.md) yönelik Sayfaya sığdır özelliğine sahiptir.
+Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop, raporlar veya görselleştirmeler için tam ekran moduna sahip değildir ancak [İlişki görünümü ve Rapor görünümü](desktop-report-view.md) ile [rapor görselleri için odak moduna](consumer/end-user-focus.md) yönelik Sayfaya sığdır özelliğine sahiptir.
 
  
 
@@ -35,7 +35,7 @@ Tam ekran modunun kullanım alanlarına ilişkin bazı örnekler aşağıda veri
 * küçük bir ekranda görüntüleme
 * kilitli modda gözden geçirme (bağlantılı raporu veya panoyu açmaya gerek kalmadan, ekrana dokunabilir veya fareyle kutucukların üzerine gelebilirsiniz)
 
-> **NOT**: Tam ekran modu [Odak (büyütme) modundan](service-focus-mode.md) farklıdır.
+> **NOT**: Tam ekran modu [Odak (büyütme) modundan](consumer/end-user-focus.md) farklıdır.
 > 
 > 
 
@@ -78,7 +78,7 @@ Aşağıdaki videoda, tam ekran modunda açtığı panosunda gezinen ve varsayı
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Görselleştirmeler ve pano kutucukları için tam ekran modu
-1. Pano kutucuklarınızı ve rapor görselleştirmelerinizi tam ekran modunda görüntülemek için söz konusu kutucuğu veya görselleştirmeyi öncelikle [Odak modunda](service-focus-mode.md) açmış olmanız gerekir. 
+1. Pano kutucuklarınızı ve rapor görselleştirmelerinizi tam ekran modunda görüntülemek için söz konusu kutucuğu veya görselleştirmeyi öncelikle [Odak modunda](consumer/end-user-focus.md) açmış olmanız gerekir. 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Ardından, kutucuk veya görsel için Tam Ekran simgesini ![tam ekran simgesi](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  seçin. Bu işlemin ardından kutucuk veya görsel, menüler ya da gezinti çubukları olmadan tam ekran modunda görüntülenir.
@@ -86,8 +86,8 @@ Aşağıdaki videoda, tam ekran modunda açtığı panosunda gezinen ve varsayı
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki panolar](service-dashboards.md)  
-[Odak modu](service-focus-mode.md)    
+[Power BI'daki panolar](consumer/end-user-dashboards.md)  
+[Odak modu](consumer/end-user-focus.md)    
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: Rapordan Power BI hizmeti panosu oluşturma
+title: Rapordan Power BI panosu oluşturma
 description: Rapordan Power BI panosu oluşturma
 author: mihart
 manager: kfile
@@ -8,24 +8,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168101"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544407"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir Power BI panosu oluşturma
-[Power BI'daki panolar](service-dashboards.md) başlıklı makaleyi okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Bir pano oluşturmanın birçok farklı yolu vardır. Bir rapordan, sıfırdan, bir veri kümesinden, mevcut bir pano yinelenerek veya başka yollarla oluşturulabilirler.  
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
+[Power BI'daki panolar](consumer/end-user-dashboards.md) başlıklı makaleyi okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Bir pano oluşturmanın birçok farklı yolu vardır. Bir rapordan, sıfırdan, bir veri kümesinden, mevcut bir pano yinelenerek veya başka yollarla oluşturulabilirler.  
 
 İlk kez kullanmaya başladığınızda zor görünebilir; bu nedenle, öncelikle daha önce oluşturulmuş bir raporun görsellerini sabitleyerek hızlı ve kolay bir pano oluşturacağız. Bu hızlı başlangıcı tamamladıktan sonra, panolar ile raporlar arasındaki ilişki, rapor düzenleyicisinde Düzenleme görünümünü açma, kutucukları sabitleme ve bir pano ile rapor arasında gezinme hakkında bilgi sahibi olacaksınız. Sonra sol tarafta bulunan İçindekiler bölümündeki bağlantıları veya alt kısımdaki **Sonraki adımlar**’ı kullanarak daha gelişmiş konulara geçebilirsiniz.
 
 ## <a name="who-can-create-a-dashboard"></a>Kimler pano oluşturabilir?
-Pano oluşturmak bir **oluşturan** özelliğidir ve rapor üzerinde düzenleme izinleri gerektirir. Düzenleme izinleri, rapor oluşturanlar ve oluşturanın erişim verdiği iş arkadaşları tarafından kullanılabilir. Örneğin, David workspaceABC içinde bir rapor oluşturur ve sonra sizi o çalışma alanının bir üyesi olarak eklerse, hem siz hem de David düzenleme izinlerine sahip olursunuz. Diğer yandan, bir rapor sizinle doğrudan veya bir [Power BI uygulamasının](service-install-use-apps.md) parçası olarak (raporu **kullanıyor** olursunuz) paylaşılırsa, bir panoya kutucukları sabitleyemezsiniz.
+Pano oluşturmak bir **oluşturan** özelliğidir ve rapor üzerinde düzenleme izinleri gerektirir. Düzenleme izinleri, rapor oluşturanlar ve oluşturanın erişim verdiği iş arkadaşları tarafından kullanılabilir. Örneğin, David workspaceABC içinde bir rapor oluşturur ve sonra sizi o çalışma alanının bir üyesi olarak eklerse, hem siz hem de David düzenleme izinlerine sahip olursunuz. Diğer yandan, bir rapor sizinle doğrudan veya bir [Power BI uygulamasının](consumer/end-user-apps.md) parçası olarak (raporu **kullanıyor** olursunuz) paylaşılırsa, bir panoya kutucukları sabitleyemezsiniz.
 
-> **NOT:** Panolar Power BI Desktop'ın değil, Power BI hizmetinin sunduğu bir özelliktir. Panoları Power BI mobil uygulamasında oluşturamaz ancak [görüntüleyip paylaşabilirsiniz](mobile-apps-view-dashboard.md).
+> **NOT:** Panolar Power BI Desktop'ın değil, Power BI hizmetinin sunduğu bir özelliktir. Panoları Power BI mobil uygulamasında oluşturamaz ancak [görüntüleyip paylaşabilirsiniz](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
@@ -65,7 +65,7 @@ Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluştur
 1. Aynı çalışma alanında, **Raporlar** sekmesini seçin. Yeni içeri aktarılan rapor sarı yıldız işaretiyle görüntülenir. Rapor adını seçerek raporu açın.
 
     ![raporlar sekmesi](media/service-dashboard-create/power-bi-reports.png)
-2. Rapor, [Okuma görünümü](service-reading-view-and-editing-view.md)'nde açılır. Raporun alt kısmındaki iki sekmeye dikkat edin: Discount Analysis ve Spend Overview. Her sekme raporun bir sayfasını temsil eder.
+2. Rapor, [Okuma görünümü](consumer/end-user-reading-view.md)'nde açılır. Raporun alt kısmındaki iki sekmeye dikkat edin: Discount Analysis ve Spend Overview. Her sekme raporun bir sayfasını temsil eder.
     **Raporu düzenle**'yi seçerek raporu Düzenleme görünümünde açın.
 
     ![Okuma görünümü’nde rapor](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Tebrikler, ilk panonuzu oluşturdunuz! Artık bir panonuz olduğuna göre, onunl
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kutucukları yeniden boyutlandırma ve taşıma](service-dashboard-edit-tile.md)
-* [Pano kutucukları hakkında tüm bilmeniz gerekenler](service-dashboard-tiles.md)
-* [Uygulama oluşturarak panonuzu paylaşma](service-create-distribute-apps.md)
-* [Power BI - Temel Kavramlar](service-basic-concepts.md)
+* [Pano kutucukları hakkında tüm bilmeniz gerekenler](consumer/end-user-tiles.md)
+* [Uygulama oluşturarak panonuzu paylaşma](consumer/end-user-create-apps.md)
+* [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 * [Harika bir pano oluşturmaya yönelik ipuçları](service-dashboards-design-tips.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

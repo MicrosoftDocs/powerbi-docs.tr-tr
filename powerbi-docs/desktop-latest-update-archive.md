@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: e7eadadede8f342b25ea59dcd2053f53d654ffff
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512260"
+ms.locfileid: "44728330"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -137,7 +137,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="june-2018-update-2595135101"></a>Haziran 2018 Güncelleştirmesi (2.59.5135.101)
 
@@ -184,7 +184,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="may-2018-update-2585103281"></a>Mayıs 2018 Güncelleştirmesi (2.58.5103.281)
 
@@ -238,7 +238,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="april-2018-update-2575068501"></a>Nisan 2018 Güncelleştirmesi (2.57.5068.501)
@@ -284,7 +284,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -330,7 +330,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -352,7 +352,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 ### <a name="reporting"></a>Raporlama
 
 * Birden çok sayfada çoklu seçim noktaları  [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[makale]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Bir raporun birden çok sayfasında dilimleyicileri eşitleme  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[makale]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Bir raporun birden çok sayfasında dilimleyicileri eşitleme  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[makale]](visuals/desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * Sayısal aralık dilimleyici geliştirildi - tam sayıya yaslama (Önizleme)  [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[makale]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * Bing için daha hızlı coğrafi kodlama eşlemeleri (web Önizlemesi) - 6 kata kadar daha hızlı [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * Çubuk ve sütun grafik görselleri için taşma veri etiketleri [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +394,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="january-2018-update-2544970761"></a>Ocak 2018 Güncelleştirmesi (2.54.4970.761)
@@ -443,7 +443,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -499,7 +499,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="november-2017-update-2524921202"></a>Kasım 2017 Güncelleştirmesi (2.52.4921.202)
@@ -555,7 +555,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -613,7 +613,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="september-2017-update-2504859502"></a>Eylül 2017 Güncelleştirmesi (2.50.4859.502)
@@ -623,7 +623,7 @@ Eylül ayında yapılan **Power BI Desktop** güncelleştirmelerini aşağıda b
 ### <a name="report-view"></a>Rapor Görünümü:
 
 -   Başka bir rapor sayfasında detaylandırma [[video]](https://youtu.be/moTQJlnClJw?t=19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[makale]](desktop-drillthrough.md)
--   Şerit grafik  [[video]](https://youtu.be/moTQJlnClJw?t=8m57s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[makale]](desktop-ribbon-charts.md)
+-   Şerit grafik  [[video]](https://youtu.be/moTQJlnClJw?t=8m57s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[makale]](visuals/desktop-ribbon-charts.md)
 -   Artışı açıkla/Düşüşü açıkla öngörüleri  [[video]](https://youtu.be/moTQJlnClJw?t=13m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[makale]](desktop-insights.md)
 -   Tema oluşturma önizleme güncelleştirmesi - grafik stili denetimleri [[video]](https://youtu.be/moTQJlnClJw?t=19m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[makale]](desktop-report-themes.md)
 -   Erişilebilirlik iyileştirmeleri  [[video]](https://youtu.be/moTQJlnClJw?t=27m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[makale]](desktop-accessibility.md)
@@ -653,7 +653,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="august-2017-update-2494831222"></a>Ağustos 2017 Güncelleştirmesi (2.49.4831.222)
@@ -698,7 +698,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="july-2017-update-2484792321"></a>Temmuz 2017 Güncelleştirmesi (2.48.4792.321)
@@ -748,7 +748,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="june-2017-update-2474766542"></a>Haziran 2017 Güncelleştirmesi (2.47.4766.542)
@@ -762,7 +762,7 @@ Haziran ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağ
 -   Görsellere yönelik yazı tipi ailesi ayarı [[video]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   Yatay görüntü dilimleyici [[video]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   Birleşik harita biçimlendirme güncelleştirmeleri [[video]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Bing haritalarına yönelik iyileştirmeler [[video]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[makale]](power-bi-map-tips-and-tricks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Bing haritalarına yönelik iyileştirmeler [[video]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[makale]](visuals/power-bi-map-tips-and-tricks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   Yüksek yoğunluklu çizgi grafik örneklemesi [[video]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[makale]](desktop-high-density-sampling.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   Raporlara erişim [[video]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +793,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -840,7 +840,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -852,7 +852,7 @@ Nisan 2017'de yapılan yeni Power BI Desktop güncelleştirmelerini aşağıda b
 ### <a name="report-view"></a>Rapor Görünümü:
 
 -   Eksen başlıklarını yeniden adlandırma [[video]](https://youtu.be/AWMaIaI8G2Y?t=25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   Matris görsellerine yönelik yeni iyileştirmeler: sütunları sıralama, sütunları yeniden boyutlandırma ve sözcük kaydırma (Önizleme) [[video]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[makale]](desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   Matris görsellerine yönelik yeni iyileştirmeler: sütunları sıralama, sütunları yeniden boyutlandırma ve sözcük kaydırma (Önizleme) [[video]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[makale]](visuals/desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>Analiz:
 
@@ -885,7 +885,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="march-2017-update-2444675422"></a>Mart 2017 Güncelleştirmesi (2.44.4675.422)
@@ -894,7 +894,7 @@ Mart 2017'de yapılan yeni Power BI Desktop güncelleştirmelerini aşağıda bu
 
 ### <a name="report-view"></a>Rapor Görünümü:
 
--   Yeni matris görseli (Önizleme) [[video]](https://youtu.be/CaRTON3lJqw?t=18s) [[makale]](desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   Yeni matris görseli (Önizleme) [[video]](https://youtu.be/CaRTON3lJqw?t=18s) [[makale]](visuals/desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   Sayısal aralık dilimleyici (Önizleme) [[video]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[makale]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   Pasta grafiği ve halka grafik görsellerindeki veri etiketleri - toplam yüzde [[video]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   Birden fazla seriyi kullanarak çapraz vurgulama [[video]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +928,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -976,7 +976,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="january-2017-update-2424611482"></a>Ocak 2017 Güncelleştirmesi (2.42.4611.482)
@@ -1012,7 +1012,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -1065,7 +1065,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="october-2016-update-2404554361"></a>Ekim 2016 Güncelleştirmesi (2.40.4554.361)
@@ -1118,7 +1118,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="september-2016-update-2394526362"></a>Eylül 2016 Güncelleştirmesi (2.39.4526.362)
@@ -1176,7 +1176,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -1237,7 +1237,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="july-2016-update-2374464321"></a>Temmuz 2016 Güncelleştirmesi (2.37.4464.321)
@@ -1249,7 +1249,7 @@ Temmuz ayı ile birlikte Power BI Desktop'ta yepyeni özelliklerin yanı sıra m
 ### <a name="report-view"></a>Rapor Görünümü:
 
 -   Önceden tanımlanmış tablo stilleri [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[video]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   Şekil Haritaları güncelleştirmesi - özel haritalar kullanma [[makale]](desktop-shape-map.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)  [[video]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   Şekil Haritaları güncelleştirmesi - özel haritalar kullanma [[makale]](visuals/desktop-shape-map.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)  [[video]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>Veri Bağlayıcıları:
 
@@ -1280,7 +1280,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="june-2016-update-2364434362"></a>Haziran 2016 Güncelleştirmesi (2.36.4434.362)
 
@@ -1290,7 +1290,7 @@ Haziran ayında Power BI Desktop'a yönelik bir dizi ilgi çekici güncelleştir
 
 ### <a name="report-view"></a>Rapor Görünümü:
 
--   Yeni görsel - Şekil Haritaları [[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[makale]](desktop-shape-map.md)
+-   Yeni görsel - Şekil Haritaları [[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[makale]](visuals/desktop-shape-map.md)
 -   Dilimleyicilerde arama yapma olanağı [[video]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Çizgi grafik etiketlerini yapılandırma olanağı [[video]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Yeni oturum açma noktaları [[video]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1334,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -1390,7 +1390,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="april-2016-update-2344372322"></a>Nisan 2016 Güncelleştirmesi (2.34.4372.322)
 
@@ -1439,7 +1439,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="march-2016-update-2334337281"></a>Mart 2016 Güncelleştirmesi (2.33.4337.281)
@@ -1491,7 +1491,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -1549,7 +1549,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 
 > [!NOTE]
-> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="january-2016-update-2314280361"></a>Ocak 2016 Güncelleştirmesi (2.31.4280.361)

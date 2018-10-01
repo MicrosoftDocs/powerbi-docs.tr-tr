@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513325"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974219"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Toplamalar (Önizleme)
 
@@ -243,7 +243,7 @@ Aşağıdaki model **Sales Agg** tablosundaki *Month*, *Quarter*, *Semester* ve 
 
 Aşağıdaki tabloda **Sales Agg** tablosunun **Toplamaları yönet** iletişim kutusundaki girişler gösterilmiştir. Ayrıntı tablosunun **Date** olduğu GroupBy girişleri, Date özniteliklerine göre gruplandırma yapan sorguların toplamalara isabet etmesi için zorunludur. Önceki örnekte olduğu gibi ilişkilerin mevcut olması nedeniyle CustomerKey ve ProductSubcategoryKey için GroupBy girişleri toplama isabetlerini etkilemez (yine DISTINCTCOUNT hariç olmak üzere).
 
-![Sales Agg toplama tablosu](media/desktop-aggregations/aggregations-table_03.jpg)
+![Sales Agg toplama tablosu](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Not: Bu modelde **Date** tablosu bir ayrıntı tablosu olduğundan Toplamaları yönet iletişim kutusunun doldurulabilmesi için DirectQuery modunda olması gerekir. Bu bir Önizleme sürümü sınırlamasıdır ve Genel Kullanım sürümünde kaldırılması planlanmaktadır.
 
