@@ -2,21 +2,21 @@
 title: Power BI hizmetinde veri uyarısı oluşturma
 description: Panolarınızdaki veriler Microsoft Power BI hizmetinde belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlamayı öğrenin.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137650"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167940"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI hizmetindeki veri uyarıları
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. 
@@ -42,15 +42,15 @@ Bu örnekte Perakende Analizi örneği panosu kullanılmıştır.
 1. İşleme bir panodan başlayın. Panodaki bir ölçek, KPI veya kart kutucuğundaki üç nokta simgesini seçin.
    
    ![Toplam Mağaza Sayısı kutucuğu](media/service-set-data-alerts/powerbi-card.png)
-2. Zil simgesini ![Uyarı simgesi](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Toplam mağaza sayısı** için bir veya daha fazla uyarı ekleyin.
+2. Zil simgesini ![Uyarı simgesi](media/service-set-data-alerts/power-bi-bell-icon.png) veya **Uyarıları yönet**'i seçerek **Toplam mağaza sayısı** için bir veya daha fazla uyarı ekleyin.
    
-1. Başlamak için **+ Uyarı kuralı ekle**'yi seçin kaydırıcının **Açık** konumda olduğundan emin olun ve uyarınıza bir ad verin. Başlıklar, uyarılarınızı kolayca ayırt etmenizi sağlar.
+1. **Uyarıları yönet** bölmesinde **+ Uyarı kuralı ekle**'yi seçin.  Kaydırıcının **Açık** konumda olduğundan emin olun ve uyarınıza bir ad verin. Başlıklar, uyarılarınızı kolayca ayırt etmenizi sağlar.
    
    ![Uyarıları yönetme penceresi](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Sayfayı aşağı kaydırıp uyarıyla ilgili ayrıntıları girin.  Bu örnekte toplam mağaza sayısı 100'ün üzerine çıktığında bizi günde bir kez bilgilendiren bir uyarı oluşturacağız. Uyarılar, Bildirim merkezinde görüntülenecek. Ayrıca Power BI bize bir e-posta da gönderecek.
    
    ![Uyarıları yönetme penceresi, Eşiği ayarlama](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. **Kaydet**'i seçin.
+5. **Kaydet ve kapat**’ı seçin.
 
 ## <a name="receiving-alerts"></a>Uyarı alma
 Takip edilen veriler belirlediğiniz eşiklerden birine ulaşırsa birden fazla işlem gerçekleşir. Öncelikle Power BI son uyarının gönderilmesinin üzerinden bir saat veya 24 saat (belirlediğiniz seçeneğe bağlı olarak) geçip geçmediğini kontrol eder. Veriler eşiği geçtiği sürece uyarı gönderilir.
@@ -104,6 +104,4 @@ Uyarıları yönetmek için kullanabileceğiniz birçok farklı yöntem vardır:
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri uyarısı içeren bir Microsoft Flow akışı oluşturma](service-flow-integration.md)    
 [Mobil cihazınızda veri uyarısı oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Power BI nedir?](power-bi-overview.md)    
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

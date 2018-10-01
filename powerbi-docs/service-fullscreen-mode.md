@@ -2,29 +2,29 @@
 title: Panoları, kutucukları, rapor sayfalarını ve görselleştirmelerini tam ekran modunda görüntüleme
 description: Panoları, pano kutucuklarını, rapor görsellerini ve rapor sayfalarını tam ekran modunda (*TV modu* olarak da bilinir) görüntüleyin.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244123"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044337"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI hizmetinde tam ekran modu
 ## <a name="what-is-full-screen-mode"></a>Tam ekran modu nedir?
 ![panonun tam ekran modundan önceki ve sonraki hali](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Power BI içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görselleştirmeler) menüler ve gezinti düğmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV Modu olarak adlandırılır. Tam ekran modunda kullanılabilen işlevler içeriğe göre değişiklik gösterir. 
+Power BI içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görselleştirmeler) menüler ve gezinti düğmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır. Tam ekran modunda kullanılabilen işlevler içeriğe göre değişiklik gösterir. 
 
-Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](mobile-windows-10-app-presentation-mode.md). Power BI Desktop, raporlar veya görselleştirmeler için tam ekran moduna sahip değildir ancak [İlişki görünümü](desktop-report-view.md) ve [rapor görselleri için odak modu](service-focus-mode.md)’na yönelik Sayfaya sığdır özelliğine sahiptir.
+Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](mobile-windows-10-app-presentation-mode.md). Power BI Desktop, raporlar veya görselleştirmeler için tam ekran moduna sahip değildir ancak [İlişki görünümü ve Rapor görünümü](desktop-report-view.md) ile [rapor görselleri için odak moduna](service-focus-mode.md) yönelik Sayfaya sığdır özelliğine sahiptir.
 
  
 
@@ -44,7 +44,7 @@ Aşağıdaki videoda, tam ekran modunda açtığı panosunda gezinen ve varsayı
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>Panolar ve rapor sayfaları için tam ekran modu
-1. Panonuzun veya raporunuzun üst kısmındaki Power BI menü çubuğundan **tam ekran** simgesini ![tam ekran simgesi](media/service-fullscreen-mode/power-bi-full-screen-icon.png) seçin. Bu işlemin ardından pano tuvaliniz veya rapor sayfanız ekranın tamamını kaplar. Aşağıdaki örnekte bir pano gösterilmektedir.
+1. Panonuzun veya raporunuzun üst kısmındaki Power BI hizmeti menü çubuğundan **tam ekran** simgesini ![tam ekran simgesi](media/service-fullscreen-mode/power-bi-full-screen-icon.png) seçin. Bu işlemin ardından pano tuvaliniz veya rapor sayfanız ekranın tamamını kaplar. Aşağıdaki örnekte bir pano gösterilmektedir.
    
       ![Tam ekran modunda görüntülenen bir pano](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. Tam ekran modunda birçok menü seçeneği mevcuttur.  Menüyü görüntülemek için farenizi veya imlecinizi hareket ettirmeniz yeterlidir. 

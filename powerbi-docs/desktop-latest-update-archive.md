@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658162"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512260"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -34,11 +34,59 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
+## <a name="august-2018-update-2615192321"></a>Ağustos 2018 Güncelleştirmesi (2.61.5192.321)
+
+Ağustos güncelleştirmeleri koca bir ayı doldurmak için yeterliydi ve Temmuz ayında kullanıma sunduğumuz büyük yenilikleri bir adım ileri taşıyordu. Umarız bu güncelleştirmeler kumsalda uzanırken içinize damlayan güneş gibi sizi mutlu etmiş ve beklediğiniz özellikleri size getirmiştir. 
+
+Ağustos ayında yapılan **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
+
+### <a name="modeling"></a>Modelleme
+
+* Ölçüler için veri kategorileri  [[video]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[makale]](desktop-measures.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
+* İstatistiksel DAX işlevleri  [[video]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
+
+
+### <a name="reporting"></a>Raporlama
+
+* Raporlarınızı PDF'ye dışarı aktarma ve yazdırma  [[video]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[makale]](desktop-export-to-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
+* Yer işareti grupları oluşturma [[video]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[makale]](desktop-bookmarks.md#bookmark-groups)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
+* Temalar genel kullanıma sunuldu [[video]](https://youtu.be/dgv5HhHxxe8?t=7m9s)   [[makale]](desktop-report-themes.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
+* Dilimleyiciyi yeniden belirleme [[video]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+
+### <a name="analytics"></a>Analytics
+
+* Değerlere göre koşullu biçimlendirme  [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[makale]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Python tümleştirmesi  [[video]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
+* Soru-Cevap geliştirmeleri  [[video]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+
+### <a name="custom-visuals"></a>Özel görseller
+
+* Beş yeni özel görsel  [[video]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+
+* Spark bağlayıcısı genel kullanıma sunuldu  [[video]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+
+
 ## <a name="july-2018-update-26051693201"></a>Temmuz 2018 Güncelleştirmesi (2.60.5169.3201)
 
 Temmuz ayının büyük güncelleştirmeleri, uzun süredir istenen ve görsellerinizi doruğa çıkaran, renkli içgörü görüntüleriyle parlayan veri ve raporlama özellikleriyle müthiş kutlamaları hak ediyor.
 
-Temmuz ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
+Temmuz ayında yapılan **Power BI Desktop** güncelleştirmelerini aşağıda bulabilirsiniz:
 
 ### <a name="modeling"></a>Modelleme
 

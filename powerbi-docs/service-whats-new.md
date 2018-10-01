@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137480"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044360"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -31,27 +31,37 @@ ms.locfileid: "37137480"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>Mayıs 2018
-* Power BI hizmetinde [tema panoları](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes).
-* Premium ile [artımlı yenileme](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh).
-* [Power BI Uygulamaları](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) için erişim iş akışı isteme.
-* Kullanıcıların [Power BI Uygulamalarını](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) bulmasını kolaylaştırmak için Veri güncelleştirmelerini alma.
-* Power BI hizmetinde [Kalıcı filtreler](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)'i açma ve kapatma ayarları.
-* Raporlar için Azure B2B davet iş akışı geliştirmeleri.
+## <a name="august-2018"></a>Ağustos 2018
+* Power BI [Rapor URL filtresi](service-url-filters.md) geliştirmeleri.
 
 ## <a name="previous-months-2018"></a>Önceki aylar (2018)
+### <a name="july-2018"></a>Temmuz 2018
+* Power BI yöneticileri için [API'ler ve PowerShell cmdlet'leri](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/).
+
+### <a name="june-2018"></a>Haziran 2018
+* Raporları filtreler ve dilimleyicilerle paylaşma.
+* [Ağ geçidi bağlantıları](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) ve veri kümesi ayarları için yeni ve geliştirilmiş kullanıcı arabirimi.
+
+### <a name="may-2018"></a>Mayıs 2018
+* Power BI hizmetinde [tema panoları](https://docs.microsoft.com/power-bi/service-dashboard-themes).
+* Premium ile [artımlı yenileme](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh).
+* [Power BI Uygulamaları](https://docs.microsoft.com/power-bi/service-create-distribute-apps) için erişim iş akışı isteme.
+* Kullanıcıların [Power BI Uygulamalarını](https://docs.microsoft.com/power-bi/service-create-distribute-apps) bulmasını kolaylaştırmak için Veri güncelleştirmelerini alma.
+* Power BI hizmetinde [Kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)'i açma ve kapatma ayarları.
+* Raporlar için Azure B2B davet iş akışı geliştirmeleri.
+
 ### <a name="april-2018"></a>Nisan 2018
-* [Power BI GDPR Teknik İncelemesi](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [Power BI veri koruması teknik incelemesi](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Office 365 kiracısı için Power BI Service [denetim günlükleri](https://docs.microsoft.com/power-bi/service-admin-auditing) varsayılan olarak açıktır.
 
 ### <a name="march-2018"></a>Mart 2018
-* Power BI hizmetindeki [kalıcı filtreler](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/).
-* Kullanıcıların kişisel e-posta hesaplarını kullanarak onlarla içerik paylaşın. [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) uzantısı.
+* Power BI hizmetindeki [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+* Kullanıcıların kişisel e-posta hesaplarını kullanarak onlarla içerik paylaşın. [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) uzantısı.
 
 ### <a name="february-2018"></a>Şubat 2018
-* Son kullanıcılar için [Power BI Uygulamalarını](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) otomatik olarak yükleyin.
+* Son kullanıcılar için [Power BI Uygulamalarını](https://docs.microsoft.com/power-bi/service-create-distribute-apps) otomatik olarak yükleyin.
 * Power BI Premium’da P4 ve P5 kapasiteleri
-* [Özel kuruluş görsellerinin](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization) önizlemesi.
+* [Özel kuruluş görsellerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization) önizlemesi.
 
 ### <a name="january-2018"></a>Ocak 2018
 *   Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
@@ -63,12 +73,12 @@ ms.locfileid: "37137480"
 
 ## <a name="previous-months-2017"></a>Önceki aylar (2017)
 ## <a name="october-and-november-2017"></a>Ekim ve Kasım 2017
-*   [Power BI Uygulamaları](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) ile seçmeli içerik yayımlama.
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
+*   [Power BI Uygulamaları](https://docs.microsoft.com/power-bi/service-create-distribute-apps) ile seçmeli içerik yayımlama.
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
 * Yapay zeka destekli uygulama önerileri.
 * Pano kutucuğu üzerinde UI güncelleştirmeleri.
 * Uygulamalar için e-posta abonelikleri desteği. 
-* [Web'de yayımlama](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
+* [Web'de yayımlama](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
 
 ## <a name="september-2017"></a>Eylül 2017
 * Premium kapasitede, panoları Power BI Pro lisansı olmayan kullanıcılara paylaştırma.

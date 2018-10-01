@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657886"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512076"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -53,6 +53,7 @@ Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
 * XML
 * JSON
 * Klasör
+* PDF (Beta)
 * SharePoint Klasörü
 
 Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -79,7 +80,8 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (Beta)
+* Jethro (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
@@ -93,6 +95,7 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 **Power BI** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
 * Power BI veri kümeleri
+* Power BI veri akışları (Beta)
 
 Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -108,7 +111,7 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu (Beta)
 * Azure KustoDB (beta)
 
@@ -169,6 +172,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Hadoop Dosyası (HDFS)
 * Spark
 * R Betiği
+* Python betiği
 * ODBC
 * OLE DB
 * Boş Sorgu

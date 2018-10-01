@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657955"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512191"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
@@ -36,7 +36,17 @@ Bir **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. D
 Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
 
 ## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
-Bir Power BI Desktop raporuna Rapor Teması uygulamak için **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin, ardından açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.
+Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir veya özel bir temayı içeri aktarabilirsiniz.
+
+Kullanılabilir durumdaki yerleşik rapor temalarından seçim yapmak için **Giriş** şeridinden **Temayı Değiştir** düğmesini ve ardından açılan menüdeki temalardan birini seçin.
+
+![Rapor teması seçme](media/desktop-report-themes/report-themes_2a.png)
+
+Rapor temanız rapora uygulanır ve kullanılmaya hazır duruma gelir.
+
+### <a name="importing-report-themes"></a>Rapor Temalarını İçeri Aktarma
+
+Özel bir Rapor Temasını içeri aktarmak için **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin, ardından açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

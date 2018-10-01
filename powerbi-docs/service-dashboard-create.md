@@ -1,5 +1,5 @@
 ---
-title: Rapordan Power BI panosu oluşturma
+title: Rapordan Power BI hizmeti panosu oluşturma
 description: Rapordan Power BI panosu oluşturma
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248942"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168101"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir Power BI panosu oluşturma
 [Power BI'daki panolar](service-dashboards.md) başlıklı makaleyi okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Bir pano oluşturmanın birçok farklı yolu vardır. Bir rapordan, sıfırdan, bir veri kümesinden, mevcut bir pano yinelenerek veya başka yollarla oluşturulabilirler.  
 
 İlk kez kullanmaya başladığınızda zor görünebilir; bu nedenle, öncelikle daha önce oluşturulmuş bir raporun görsellerini sabitleyerek hızlı ve kolay bir pano oluşturacağız. Bu hızlı başlangıcı tamamladıktan sonra, panolar ile raporlar arasındaki ilişki, rapor düzenleyicisinde Düzenleme görünümünü açma, kutucukları sabitleme ve bir pano ile rapor arasında gezinme hakkında bilgi sahibi olacaksınız. Sonra sol tarafta bulunan İçindekiler bölümündeki bağlantıları veya alt kısımdaki **Sonraki adımlar**’ı kullanarak daha gelişmiş konulara geçebilirsiniz.

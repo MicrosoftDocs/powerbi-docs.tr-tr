@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280766"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512168"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Power BI Desktop’ta (önizleme) rapor sayfalarına dayalı olarak araç ipuçları oluşturma
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
 
 ![Power BI Desktop için rapor araç ipuçları](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280766"
 Rapor araç ipuçları ile pek çok ilgi çekici işlem yapabilirsiniz. Araç ipuçlarının nasıl oluşturulduğuna ve bunları yapılandırmak için yapmanız gerekenlere bir göz atalım.
 
 ### <a name="enable-the-tooltips-preview"></a>Araç ipuçları önizlemesini etkinleştirme 
-Rapor araç ipuçları şu anda önizleme aşamasında olduğundan, rapor araç ipuçları oluşturabilmek için bunları etkinleştirmeniz gerekir. Rapor araç ipuçları önizleme özelliğini etkinleştirmek için Power BI Desktop’ta **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** seçeneğini belirleyin ve ardından **Rapor sayfası araç ipuçları**’nın yanındaki onay kutusunu seçin. 
+**Power BI Desktop** uygulamasının Eylül 2018 sürümüyle araç ipuçları kullanıma açılmıştır ve etkinleştirilmesi gerekmez. 
+
+**Power BI Desktop** uygulamasının eski sürümlerinden birini kullanıyorsanız Power BI Desktop'ta **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** yolunu izleyip **Rapor sayfası ipuçları**'nın yanındaki onay kutusunu seçerek bu önizleme özelliğini etkinleştirebilirsiniz. 
 
 ![Rapor araç ipuçlarının önizleme özelliğini etkinleştirme](media/desktop-tooltips/desktop-tooltips_01.png)
 
 Rapor araç ipuçlarının önizleme sürümünü etkinleştirmeyi seçtikten sonra **Power BI Desktop**’ı yeniden başlatmanız gerekir.
+
+Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
 
 ## <a name="create-a-report-tooltip-page"></a>Bir rapor araç ipucu sayfası oluşturma
 Başlamak için, sayfa sekmeleri alanında **Power BI Desktop** tuvalinin alt taraflarındaki **+** düğmesine tıklayarak yeni bir rapor sayfası oluşturun. Düğme, raporun son sayfasının yanında bulunur. 
@@ -117,8 +121,9 @@ Raporda bir görsel çapraz vurgulandığında, veri noktasının soluk bölüm�
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-Rapor **araç ipuçlarının** bu önizleme sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
+**Araç ipuçları** için dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 
+* **Power BI Desktop**'ın araç ipuçlarının genel kullanıma sunulduğu Eylül 2018 sürümünden itibaren Kart görselleri de araç ipuçları için destek sunmaktadır.
 * Temmuz 2018 tarihli **Power BI Desktop** sürümünde, Tablo ve Matris görsellerinde araç ipuçları desteklenir. 
 * Rapor araç ipuçları, raporlar mobil uygulamalarda veya ekli ortamlarda (Web’de yayımlama da dahil) görüntülendiğinde desteklenmez. 
 * Rapor araç ipuçları, özel görseller için desteklenmemektedir. 

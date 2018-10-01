@@ -8,21 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2018
+ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250762"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512145"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium nedir?
 Power BI Premium, kuruluşunuz veya ekibiniz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, görüntüleyenler için kullanıcı başına lisans satın almanız gerekmeden içeriğin geniş bir şekilde dağıtımına da olanak sağlar.
 
-Çalışma alanlarını bir Premium kapasiteye atayarak Power BI Premium'dan yararlanabilirsiniz. *Premium kapasite*, kuruluşunuz için ayrılmış bir kaynaktır. Premium kapasiteye atanmamış çalışma alanları, paylaşılan kapasitede bulunur.
-
-*Paylaşılan kapasite* ile iş yükleriniz diğer müşterilerle paylaşılan hesaplama kaynaklarında çalışır. Paylaşılan kapasitede, tüm kullanıcılar için kaliteli bir deneyim sağlamak üzere her bir kullanıcıya ilişkin olarak daha fazla sınırlama getirilir.
+Çalışma alanlarını bir *Premium kapasiteye* atayarak Power BI Premium'dan yararlanabilirsiniz. Premium kapasite, kuruluşunuz için ayrılmış bir kaynaktır. Premium kapasiteye atanmamış çalışma alanları, *paylaşılan kapasitede* bulunur. Paylaşılan kapasitede iş yükleriniz diğer müşterilerle paylaşılan hesaplama kaynaklarında çalışır. Paylaşılan kapasitede, tüm kullanıcılar için kaliteli bir deneyim sağlamak üzere her bir kullanıcıya ilişkin olarak daha fazla sınırlama getirilir.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -42,18 +40,18 @@ Power BI'da iki kapasite türü vardır. Paylaşılan kapasite ve Power BI Premi
 | **Power BI raporlarını şirket içinde yayımlama** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
 
 *<sup>1</sup> Daha fazla bilgi için bkz. [Power BI Pro ve Power BI Premium işlevselliğiyle kullanıcı özellikleri](service-free-vs-pro.md).*  
-*<sup>2</sup> Power BI Premium'un genel kullanıma sunulmasından sonra daha fazla geliştirme sunulacaktır.*
+*<sup>2</sup> Power BI Premium'da daha fazla geliştirme sunulacaktır.*
 
 ### <a name="premium-capacity"></a>Premium kapasite
 
-Power BI Premium kapasitesini kullanmaya başlamak için bir kapasiteye çalışma alanı atamanız gerekir. Bir çalışma alanını premium kapasiteye atama ile ilgili daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
+Power BI Premium kapasitesini kullanmaya başlamak için bir kapasiteye çalışma alanı atamanız gerekir. Premium kapasiteden faydalanan bir çalışma alanında aşağıdaki özelliklere sahip olursunuz:
 
-Bir çalışma alanı premium kapasiteyle desteklendiğinde Power BI Premium'un sunduğu avantajlardan yararlanırsınız.
+* **Zamanlanmış yenilemeler**: Paylaşılan kapasite ile içeri aktarılan model veri kümeleri için zamanlanmış yenilemeler günde 8 kez ile sınırlıdır. Premium çalışma alanlarındaki veri kümeleri için günde 48 kez yenileme zamanlayabilirsiniz. Zamanlanmış yenileme sayısındaki artış, DirectQuery için zamanlanmış önbellek yenileme ayarları için geçerli değildir. Bu değer Premium ve Paylaşılan kapasitelerinde aynıdır.
+* **Ayrılmış donanımla yalıtım**: Paylaşılan kapasitenin yapısı gereği, raporlarınızın ve panolarınızın performansı, kapasitedeki diğer iş yüklerinin isteklerinden etkilenebilir (bu duruma karşı aldığımız önlemlere rağmen). Premium kapasitede ise iş yükleriniz için daha tutarlı ve güvenilir bir performans sunmak üzere bunları ilgisiz iş yüklerinden yalıtır.
 
-* **Zamanlanmış yenilemeler**: Paylaşılan kapasite ile içeri aktarılan modeller için zamanlanmış yenilemeler günde 8 kez ile sınırlıdır. Yenileme sayısı, Premium çalışma alanlarındaki veri kümeleri için günde 48 kez olur. Söz konusu sınırlama, DirectQuery'ye yönelik zamanlanmış önbellek yenileme ayarları için geçerli değildir. Bu ayarlar Premium ve Paylaşılan kapasitelerde aynı kalır.
-* **Ayrılmış donanımla yalıtım**: Paylaşılan kapasitenin yapısı gereği, raporlarınızın ve panolarınızın performansı, kapasitedeki diğer iş yüklerinin isteklerinden etkilenebilir (bu duruma karşı aldığımız önlemlere rağmen). Buna karşılık, Premium, iş yükleriniz için daha tutarlı ve güvenilir bir performans sunmak üzere bunları ilgisiz iş yüklerinden yalıtır.
+Bir uygulama, Premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir.
 
-Bir uygulama, premium kapasite ile destekleniyorsa (Premium'a atanmış olan bir uygulama çalışma alanından yayımlandıysa) yayımlanmış uygulama ve atanmış oldukları lisans fark etmeksizin kuruluşunuzdaki tüm kullanıcılar tarafından kullanılabilir.
+Çalışma alanlarını premium kapasiteye atama hakkında daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
 
 ### <a name="shared-capacity"></a>Paylaşılan kapasite
 
@@ -84,7 +82,7 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 * Arka uç sanal çekirdekleri ise işin zor bölümünden sorumludur: sorgu işleme, önbellek yönetimi, R sunucularını çalıştırma, veri yenileme, doğal dil işleme, gerçek zamanlı akışlar ve raporlar ile resimlerin sunucu tarafında işlenmesi. Arka uç sanal çekirdekleriyle, belirli miktarda bellek de ayrılır. Büyük veri modelleriyle veya çok sayıda etkin veri kümesiyle çalışırken, yeterli belleğe sahip olmak özellikle önemli bir gereksinim haline gelir.
 
 ## <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
-Power BI Premium, Power BI Rapor Sunucusu'nu şirket içinde çalıştırma hakkı sağlar. Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](report-server/get-started.md).
+Power BI Premium ile ayrıca kuruluşunuzun şirket içindeki Power BI Rapor Sunucusu'nu da çalıştırabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](report-server/get-started.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Premium hakkında SSS](service-premium-faq.md)  
