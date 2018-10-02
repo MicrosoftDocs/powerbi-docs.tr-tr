@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329696"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417384"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.
@@ -211,8 +211,6 @@ Gerçek zamanlı panolar, verilerin güncel olduğundan emin olmak için Microso
 | **Veri kaynağı** | **Otomatik** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
 | --- | --- | --- | --- |
 | Power BI Rest API'si veya Microsoft Stream Analytics ile geliştirilmiş özel uygulamalar |Evet, canlı akış |Hayır |Hayır |
-
-Daha fazla bilgi için bkz. [Power BI'da gerçek zamanlı bir pano oluşturma](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 Zamanlanmış yenileme yapılandırma konusunda bilgi edinmek için bkz. [Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md)
