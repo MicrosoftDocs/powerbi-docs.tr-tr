@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388813"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974242"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop’ta depolama modu (Önizleme)
 
@@ -171,12 +171,13 @@ Veri kümesindeki tablolardan en az birinin **depolama modu** İçeri Aktarma ve
 
 **Depolama modu**'nun bu sürümünde ve bunun **bileşik modellerle** bağıntısında birkaç sınırlama vardır.
 
-Aşağıdaki çok boyutlu kaynaklar **bileşik modellerle** kullanılamaz:
+Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI veri kümeleri
+* Azure Analysis Services
 
 Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
 

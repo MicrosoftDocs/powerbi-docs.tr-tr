@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388859"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974058"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modeller (Önizleme)
 
@@ -164,12 +164,13 @@ Bunlara ek olarak, **çoka çok** ilişkilerinin kullanılması ayrıntılı de�
 
 **Bileşik modellerin** bu sürümünde birkaç sınırlama vardır.
 
-Aşağıdaki çok boyutlu kaynaklar **bileşik modellerle** kullanılamaz:
+Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI veri kümeleri
+* Azure Analysis Services
 
 Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
 
