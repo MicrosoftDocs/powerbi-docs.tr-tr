@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565855"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798943"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -38,7 +38,7 @@ Power BI hizmeti turumuzda kullanılacak bazı örnek verileri elde edeceğiz. K
 
     ![örneği seçin](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Power BI hizmeti, örneği içeri aktarır ve panoyu görüntüler. Power BI hizmetini Power BI Desktop’tan ayıran şey panolardır. Örnekte, daha sonra ziyaret edeceğimiz bir rapor ve veri kümesi de yer alır.
+    Power BI hizmeti, örneği içeri aktarır ve panoyu görüntüler. Power BI hizmeti panolarla Power BI Desktop'tan ayrılır. Örnekte, daha sonra ziyaret edeceğimiz bir rapor ve veri kümesi de yer alır.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 

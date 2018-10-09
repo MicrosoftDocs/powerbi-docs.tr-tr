@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545763"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271742"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
 
@@ -29,7 +29,7 @@ Bu makalede, Power BI'da işbirliği yapmaya ve paylaşmaya yönelik seçenekler
 - Raporları yazdırma.
 * Dünyadaki herkesin görebileceği ve etkileşimli çalışabileceği şekilde genel web siteleri için web'de yayımlama.
 
-Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-free-vs-pro.md) bulunmalı veya içerik, [Premium kapasitede](service-premium.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
+Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-features-license-type.md) bulunmalı veya içerik, [Premium kapasitede](service-premium.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
 
 ![Power BI hizmetindeki uygulamalar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

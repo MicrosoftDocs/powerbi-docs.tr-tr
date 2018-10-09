@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548293"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271889"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
 [Power BI'da bir uygulama çalışma alanı oluşturduktan](consumer/end-user-create-apps.md) sonra Power BI uygulama çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz ve bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
@@ -29,7 +29,7 @@ Uygulama çalışma alanınıza dosya ekleme iki adımlı bir işlemdir:
 2. Ardından [Power BI'da bu dosyalara bağlanırsınız](service-connect-to-files-in-app-workspace-onedrive-for-business.md#2-import-excel-files-as-datasets-or-as-excel-online-workbooks).
 
 > [!NOTE]
-> Uygulama çalışma alanları yalnızca [Power BI Pro](service-free-vs-pro.md) ile kullanılabilir.
+> Uygulama çalışma alanları yalnızca [Power BI Pro](service-features-license-type.md) ile kullanılabilir.
 > 
 > 
 

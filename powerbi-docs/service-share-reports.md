@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545656"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271521"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Filtre uygulanmış bir Power BI raporunu iş arkadaşlarınızla paylaşın
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve raporlarınızı dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-free-vs-pro.md) gereklidir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. Önerileriniz mi var? Power BI ekibi geri bildirimlerinize her zaman önem verir. [Power BI Topluluğu sitesine](https://community.powerbi.com/) gitmeye ne dersiniz?
+Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-features-license-type.md) gereklidir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. Önerileriniz mi var? Power BI ekibi geri bildirimlerinize her zaman önem verir. [Power BI Topluluğu sitesine](https://community.powerbi.com/) gitmeye ne dersiniz?
 
 Sizinle aynı e-posta etki alanında bulunan iş arkadaşlarınızla, Power BI hizmetinin birçok yerinden bir raporu paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir raporu paylaştığınızda, paylaştığınız kişiler raporu görüntüleyebilir ve raporla etkileşim kurabilir ancak raporu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece raporda sizin gördüğünüz verilerin aynılarını görürler. 
 

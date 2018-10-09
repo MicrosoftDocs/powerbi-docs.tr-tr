@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926608"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271912"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -120,7 +120,7 @@ Aşağıdaki adımları uygulamak için [Windows PowerShell için Azure Active D
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Mevcut kullanıcılarımın Power BI'ı kullanmaya başlamasını nasıl önleyebilirim?
-Bir yönetici olarak, kullanıcıların Power BI'a kaydolmasını önlemek için uygulayabileceğiniz yöntemler vardır. Katılımı engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcılar, kuruluşlarının yöneticisiyle iletişim kurmaya yönlendirilir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur. [Daha fazla bilgi](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+Bir yönetici olarak, kullanıcıların Power BI'a kaydolmasını önlemek için uygulayabileceğiniz yöntemler vardır. Katılımı engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcılar, kuruluşlarının yöneticisiyle iletişim kurmaya yönlendirilir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur. [Daha fazla bilgi](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 Denetim **AllowAdHocSubscriptions** AAD ayarı tarafından gerçekleştirilir. Çoğu kiracıda bu ayar true olarak ayarlanmış, diğer bir deyişle etkinleştirilmiştir. Power BI uygulamasını bir iş ortağı aracılığıyla edindiyseniz varsayılan olarak false, diğer bir deyişle devre dışı olabilir.
 

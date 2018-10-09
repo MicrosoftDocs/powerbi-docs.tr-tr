@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549949"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271775"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Sık kullanılan panolar listesindeki Paylaş simgesi](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Paylaşım ile kuruluşunuz içindeki veya dışındaki içeriği paylaşırken [Power BI Pro lisansı](service-free-vs-pro.md) gerekir. Alıcılarınızın da Power BI Pro lisansı olması gerekir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. 
+Paylaşım ile kuruluşunuz içindeki veya dışındaki içeriği paylaşırken [Power BI Pro lisansı](service-features-license-type.md) gerekir. Alıcılarınızın da Power BI Pro lisansı olması gerekir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. 
 
 Power BI hizmetinin birçok yerinden pano ve raporları paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir pano veya raporu paylaştığınızda, paylaştığınız kişiler panoyu görüntüleyebilir ve panoyla etkileşim kurabilir ancak panoyu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece bu kişiler, panoda veya raporlarda sizinle aynı verileri görür. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla da paylaşabilir. Kuruluşunuz dışındaki kişiler de panoyu ya da raporu görüntüleyebilir ve bunlarla etkileşim kurabilir ancak paylaşamaz. 
 
