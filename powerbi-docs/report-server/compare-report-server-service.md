@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548500"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908543"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -33,7 +33,7 @@ Power BI Rapor Sunucusu ile Power BI hizmeti, çok sayıda benzerliğe ve bazı 
 | Ağ geçidi gerekli | Hayır | Şirket içi veri kaynakları için evet |  
 | Gerçek zamanlı akış | Hayır | Evet | [Power BI'da gerçek zamanlı akış](../service-real-time-streaming.md)
 | Panolar | Hayır | Evet | [Power BI hizmetindeki panolar](../consumer/end-user-dashboards.md) 
-| Uygulamaları kullanarak rapor grupları dağıtma | Hayır | Evet | [Panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama](../consumer/end-user-create-apps.md) 
+| Uygulamaları kullanarak rapor grupları dağıtma | Hayır | Evet | [Panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama](../service-create-distribute-apps.md) 
 | İçerik paketleri | Hayır | Evet | [Kurumsal içerik paketleri: Giriş](../service-organizational-content-pack-introduction.md) 
 | Salesforce gibi hizmetlere bağlanma | Hayır | Evet | Power BI hizmeti ile [kullandığınız hizmetlere bağlanma](../consumer/end-user-connect-to-services.md)
 | Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../consumer/end-user-q-and-a.md) 

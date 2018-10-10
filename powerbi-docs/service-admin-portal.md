@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546131"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909050"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -205,7 +205,7 @@ Ayarı **Etkin** hale getirebilir ve sonra bu özelliği kimlerin (tüm kuruluş
 > [!NOTE]
 > Kiracı ayarı değişikliklerinin geçerli hale gelmesi için biraz beklemeniz gerekebileceğini unutmayın.
 
-[Uygulama gönderme](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users) hakkında daha fazla bilgi edinmek için bu makaleye gidin.
+[Uygulama gönderme](service-create-distribute-apps.md) hakkında daha fazla bilgi edinmek için bu makaleye gidin.
 
 ## <a name="integration-settings"></a>Tümleştirme ayarları
 

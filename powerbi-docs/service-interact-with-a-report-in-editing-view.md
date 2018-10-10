@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186665"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908319"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop'ta raporlar oluşturulup düzenlenebilir. Power BI hizmetinde raporlar, **Düzenleme görünümü**'nde oluşturulup düzenlenebilir. Power BI Desktop’ta ise raporlar [**Rapor görünümü**](desktop-report-view.md)'nde oluşturulup düzenlenebilir. Bu makalede Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
 
 Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](consumer/end-user-reading-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa, yine de rapor oluşturabilirsiniz ama [bunları paylaşmanız](service-share-reports.md) mümkün olmaz.    
 
-Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](consumer/end-user-reading-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](consumer/end-user-create-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
+Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](consumer/end-user-reading-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](service-create-distribute-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
 
 ## <a name="functionality-only-available-in-editing-view"></a>Yalnızca Düzenleme görünümü'nde kullanılabilen işlevler
 Sol taraftaki İçindekiler bölümündeki **Raporlar** başlığının altında yer alan konu başlığı listesine göz atın. Bu uzun bir listedir ve konu başlıklarının çoğunda *yalnızca rapor için düzenleme iznine sahip olduğunuzda kullanabileceğiniz* işlevlerden bahsedilmektedir.  İçindekiler bölümünde gezinmenize yardımcı olmak için, Düzenleme görünümü'nün gerekli olduğu işlemler aşağıda belirtilmiştir:

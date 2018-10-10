@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 51d023aafc04ad60d3cb9acde3057bed7255fa0f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548799"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908055"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Mevcut bir rapordan yeni rapor oluşturma (rapor kopyalama)
 Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek isteyebileceğiniz bir raporunuzun bulunması da olasıdır.  Böyle bir durumda yeni bir rapor için temel oluşturmak üzere söz konusu raporu kopyalamanız yeterlidir.  Bunu gerçekleştirmek için:
@@ -39,6 +39,6 @@ Veri kümenizle bağlantılı olan ve yeniden kullanmak veya değiştirmek istey
 ## <a name="next-steps"></a>Sonraki Adımlar:
 [Yeni görselleştirmeler oluşturma](visuals/power-bi-report-add-visualizations-ii.md)
 
-İhtiyacınız olmayan [görselleştirmeleri silme](consumer/end-user-delete.md)
+İhtiyacınız olmayan [görselleştirmeleri silme](service-delete.md)
 
 [Power BI Desktop kullanarak rapor oluşturma](desktop-report-view.md)

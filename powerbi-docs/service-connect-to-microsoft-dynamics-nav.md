@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546729"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908912"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI ile Microsoft Dynamics NAV'a bağlanma
 Power BI ile Microsoft Dynamics NAV verilerinize ilişkin öngörüler edinmek oldukça kolaydır. Power BI, verilerinizi (Satış ve Finansal) alır ve bu verilere dayalı bir pano ve raporlar oluşturur. Power BI, verilerin (bu örnekte satış ve finans verileri) alındığı tablolara erişmek için sizden izin ister. Aşağıda, gereksinimlerle ilgili daha ayrıntılı bilgi verilmiştir. Uygulamayı yükledikten sonra panoyu ve raporları Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve Power BI mobil uygulamalarında görüntüleyebilirsiniz. 
@@ -25,9 +25,9 @@ Power BI ile Microsoft Dynamics NAV verilerinize ilişkin öngörüler edinmek o
 ## <a name="how-to-connect"></a>Bağlanma
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. **Microsoft Dynamics NAV**'ı ve ardından **Al**'ı seçin.  
+3. **Microsoft Dynamics NAV**'ı ve ardından **Al**'ı seçin.  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. İstendiğinde Microsoft Dynamics NAV OData URL'nizi girin. URL'nin aşağıdaki desenle eşleşmesi gerekir:
+4. İstendiğinde Microsoft Dynamics NAV OData URL'nizi girin. URL'nin aşağıdaki desenle eşleşmesi gerekir:
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ Power BI ile Microsoft Dynamics NAV verilerinize ilişkin öngörüler edinmek o
      
      Bu URL'yi edinmenin kolay bir yolu da Dynamics NAV'ın Web Hizmetleri sayfasında powerbifinance web hizmetini bulup OData URL'sini kopyalamak ve "/powerbifinance" kısmını URL dizesinden çıkarmaktır.  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. **Temel**'i seçin ve Microsoft Dynamics NAV kimlik bilgilerinizi girin.
+5. **Temel**'i seçin ve Microsoft Dynamics NAV kimlik bilgilerinizi girin.
    
     Microsoft Dynamics NAV hesabınız için yönetici kimlik bilgilerine (veya satış ve finans verilerine yönelik izinlere) sahip olmanız gerekir.  Yalnızca Temel (Kullanıcı adı ve Parola) kimlik doğrulama yöntemi desteklenmektedir.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Power BI, Microsoft Dynamics NAV verilerinizi alır ve sizin için kullanıma hazır bir pano ve rapor oluşturur.   
+6. Power BI, Microsoft Dynamics NAV verilerinizi alır ve sizin için kullanıma hazır bir pano ve rapor oluşturur.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Panoyu ve raporları görüntüleme
@@ -99,7 +99,7 @@ Kimlik doğrulaması iletişim kutusunun ardından "Hata" ifadesini içeren bir 
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](service-create-distribute-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

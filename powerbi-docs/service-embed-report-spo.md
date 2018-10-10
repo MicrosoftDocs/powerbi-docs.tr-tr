@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549903"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908383"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -85,7 +85,7 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md).
+Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
 Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek için aşağıdaki yöntemleri kullanabilirsiniz.
 
@@ -151,7 +151,7 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Son kullanıcıların modern site oluşturmasına izin verme veya bunu engelleme](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md)  
+[Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md)  
 [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md)  
 [Power BI Premium nedir?](service-premium.md)  
 

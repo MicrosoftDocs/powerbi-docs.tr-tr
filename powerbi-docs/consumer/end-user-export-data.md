@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565993"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908866"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI'da görüntüleyebilir](end-user-show-data.md) veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -55,7 +55,7 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
 4. Görselleştirmenin sağ üst köşesinde bulunan üç nokta simgesini seçin. **Verileri dışarı aktar** seçeneğini belirleyin.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. Power BI Online'da, görselleştirmeniz bir toplama işlemi içeriyorsa (*ortalama*, **toplam** veya *minimum* olarak değiştirdiğiniz **Sayı** gibi), iki seçeneğe sahip olursunuz: **Özetlenmiş veriler** ve **Temel alınan veriler**. Power BI Desktop'ta, yalnızca **Özetlenmiş veriler** seçeneğiniz olur. Toplamaları anlamanıza yardımcı olması için bkz. [Power BI'da toplamalar](../service-aggregates.md).
+5. Power BI Online'da, görselleştirmeniz bir toplama işlemi içeriyorsa (*ortalama*, *toplam* veya *minimum* olarak değiştirdiğiniz **Sayı** gibi), iki seçeneğe sahip olursunuz: **Özetlenmiş veriler** ve **Temel alınan veriler**. Power BI Desktop'ta, yalnızca **Özetlenmiş veriler** seçeneğiniz olur. Toplamaları anlamanıza yardımcı olması için bkz. [Power BI'da toplamalar](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. **Özetlenmiş veriler** > **Dışarı Aktar**'ı seçin ve .xlsx veya .csv seçeneğini belirleyin. Power BI, verileri dışarı aktarır.  Görselleştirmeye filtreler uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.

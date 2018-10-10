@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564855"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908636"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 ## <a name="what-is-a-power-bi-report"></a>Bir Power BI raporu nedir?
@@ -67,7 +67,7 @@ Rolünüze göre, başlamanıza yardımcı olacak bazı konu başlıkları aşa�
 * Raporları ve rapor araçlarını nerede bulacağınızı öğrenmek için [Power BI hizmeti turu](end-user-basic-concepts.md) ile başlayın.
 * [Okuma görünümü](end-user-reading-view.md)'nde [bir raporu açmayı](end-user-report-open.md) ve kullanabileceğiniz tüm etkileşimleri öğrenin.
 * Raporları daha rahat kullanmak için [örneklerimizden](../sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
-* Rapora ihtiyacınız kalmadı mı? Raporu [kaldırabilirsiniz](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Raporun hangi veri kümesini kullandığını ve hangi panolarda rapordan sabitlenmiş kutucuklar bulunduğunu görmek için [ilişkili içeriği görüntüleyin](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Rolünüze göre, başlamanıza yardımcı olacak bazı konu başlıkları aşa�
 [Power BI nedir?](../power-bi-overview.md) 
 
 [Power BI - Temel Kavramlar](end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546581"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908889"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 İçeriğiniz için ayrılmış kaynaklar sağlayan Power BI Premium ve Power BI Embedded kapasitelerini nasıl yönetebileceğinizi öğrenin.
@@ -183,6 +183,6 @@ Power BI yönetici portalının **Kapasite ayarları** sekmesinde Power BI Rapor
 Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'nu yükleme](report-server/install-report-server.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Yayımlanan uygulamaları kullanıcılarla paylaşma. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md).
+Yayımlanan uygulamaları kullanıcılarla paylaşma. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

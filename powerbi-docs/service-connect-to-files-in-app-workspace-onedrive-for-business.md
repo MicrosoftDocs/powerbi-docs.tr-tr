@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271889"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908709"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
-[Power BI'da bir uygulama çalışma alanı oluşturduktan](consumer/end-user-create-apps.md) sonra Power BI uygulama çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz ve bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
+[Power BI'da bir uygulama çalışma alanı oluşturduktan](service-create-distribute-apps.md) sonra Power BI uygulama çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz ve bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
 
 > [!NOTE]
 > Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
@@ -79,7 +79,7 @@ Dosyalarınız artık uygulama çalışma alanınız için OneDrive İş'te oldu
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](consumer/end-user-create-apps.md)
+* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
 * [Excel çalışma kitaplarındaki verileri içeri aktarma](service-get-data-from-files.md)
 * [Excel çalışma kitaplarının tamamına bağlanma](service-excel-workbook-files.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

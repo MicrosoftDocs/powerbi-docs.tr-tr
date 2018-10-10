@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271742"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908981"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
 
@@ -57,7 +57,7 @@ Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşl
 
 ![Uygulamayı yayımla simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](consumer/end-user-create-apps.md) hakkında daha fazla bilgi edinin. 
+Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları kolayca bulabilir ve yükleyebilirsiniz. İş kullanıcılarınıza uygulamaya ait bir doğrudan bağlantı gönderebilirsiniz veya kullanıcılar söz konusu uygulamayı AppSource'ta arayabilir. Power BI yöneticinizin izin vermesi durumunda bir uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. [Uygulamalarınızı yayımlama](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin. 
 
 Kullanıcılar uygulamayı yükledikten sonra tarayıcılarında veya mobil cihazlarında görüntüleyebilir.
 
@@ -99,7 +99,7 @@ Blog gönderileri, web siteleri, sosyal medya ve herhangi bir cihazdan gerçekle
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [İş arkadaşlarınızla ve diğer kullanıcılarla pano paylaşma](service-share-dashboards.md)
-* [Power BI'da uygulama oluşturma ve yayımlama](consumer/end-user-create-apps.md)
+* [Power BI'da uygulama oluşturma ve yayımlama](service-create-distribute-apps.md)
 * Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

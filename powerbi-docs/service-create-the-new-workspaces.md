@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548845"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909027"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma (önizleme)
 
@@ -130,7 +130,7 @@ Erişimi olmayan kullanıcıların erişim isteyebilmesi için hizmet genelinde 
 
 ## <a name="distribute-an-app"></a>Uygulamayı dağıtma
 
-İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamanızı Microsoft AppSource'tan bulabilir ve yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıntılar için bkz. [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](consumer/end-user-create-apps.md).
+İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamanızı Microsoft AppSource'tan bulabilir ve yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıntılar için bkz. [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Eski uygulama çalışma alanlarını yeni uygulama çalışma alanlarına dönüştürme
 
@@ -172,7 +172,6 @@ Aşağıdaki sorunlar bilinmektedir ve bunların düzeltmeleri geliştirme aşam
 - Çalışma alanı Premium kapasiteden paylaşılan kapasiteye taşındığında, bazı durumlarda ücretsiz kullanıcılar ve kullanıcı grupları, almamaları gerekirken e-postaları almaya devam edecektir. Aboneliği oluşturan kullanıcıya ait Çalışma Alanım Premium kapasitede olduğunda, bu sorunla karşılaşılıyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-
-- [Geçerli çalışma alanlarını oluşturma](service-create-workspaces.md)
-* [Power BI'da uygulamaları yükleme ve kullanma](consumer/end-user-apps.md)
+* [Geçerli çalışma alanlarını oluşturma](service-create-workspaces.md)
+* [Power BI'da uygulamaları yükleme ve kullanma](service-create-distribute-apps.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
