@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244468"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548640"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI ile Insightly'ye Bağlanma
 Insightly içerik paketi ile Power BI'da Insightly CRM verilerinizi görselleştirin ve paylaşın. CRM verilerinizden raporlar ve panolar oluşturup bunları görüntülemek için Insightly API anahtarınızı kullanarak Power BI'a bağlanın. Power BI ile verileri yeni yöntemlerle çözümleyebilir, etkileyici graflar ve grafikler oluşturabilir, ayrıca kişileri, müşteri adaylarını ve kuruluşları harita üzerinde görüntüleyebilirsiniz.
@@ -41,10 +41,10 @@ Power BI için [Insightly içerik paketine](https://app.powerbi.com/getdata/serv
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 İçerik paketi, aşağıdaki tablolarla birlikte ilgili kayıtları gösterir:

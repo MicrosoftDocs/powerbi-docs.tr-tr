@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250066"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545441"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Power BI ile Windows Dev Center'a bağlanma
 Power BI içerik paketi ile Power BI'daki Windows Dev Center uygulama analizi verilerini araştırın ve izleyin. Veriler, günde bir kez otomatik olarak yenilenir.
@@ -48,10 +48,10 @@ Power BI için [Windows Dev Center içerik paketine](https://app.powerbi.com/get
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Dev Center Power BI içerik paketi, uygulamanızın yanı sıra IAP edinimlerine, derecelendirmelere, incelemelere ve uygulama durumuna yönelik analiz verileri içerir. Veriler son 3 ayla sınırlıdır. Bu değişken bir aralık olduğundan, dahil edilen tarihler veri kümesi yenilendikçe güncelleştirilir.

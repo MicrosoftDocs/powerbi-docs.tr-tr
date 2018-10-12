@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744921"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547810"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -24,7 +24,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |
 | iPhone'lar |Android telefonlar |
 
-Power BI Desktop'ta bir Power BI raporu oluştururken, [söz konusu raporun telefonlardaki Power BI uygulamasında görüntülenmesi için en iyi duruma getirilmiş bir sürümünü de](../../desktop-create-phone-report.md) oluşturabilirsiniz.
+Power BI Desktop'ta veya  Power BI hizmetinde bir Power BI raporu oluştururken, [söz konusu raporun telefonlardaki Power BI uygulamasında görüntülenmesi için en iyi duruma getirilmiş bir sürümünü de](../../desktop-create-phone-report.md) oluşturabilirsiniz.
 
 Daha sonra telefonda bir Power BI raporunu açtığınızda Power BI raporun telefonlar için en iyi duruma getirilmiş olup olmadığını algılar ve otomatik olarak en iyi duruma getirilmiş raporu dikey görünümde açar.
 
@@ -79,7 +79,7 @@ Bazı eylemler ekran boyutu kısıtlamaları nedeniyle yalnızca odak modunda ge
     Geri döndürme işlemi tüm görsellerdeki araştırma düzeylerini silmek için rapor düzeyinde veya seçili görseldeki keşif düzeyini silmek için belirli bir görselde kullanılabilir.   
 
 ## <a name="drill-down-in-a-visual"></a>Bir görselde detaya gitme
-Hiyerarşi düzeyleri tanımlanmış olan görsellerde bilgilerin detayına gidebilir, ardından normal görünüme dönebilirsiniz. [Görselde detaya gitme özelliğini](../../power-bi-visualization-drill-down.md) Power BI hizmetinde veya Power BI Desktop uygulamasında kullanabilirsiniz. Detaya gitme özelliği yalnızca telefon için en iyi duruma getirilmiş Power BI raporlarını telefonda görüntülediğinizde kullanılabilir. 
+Hiyerarşi düzeyleri tanımlanmış olan görsellerde bilgilerin detayına gidebilir, ardından normal görünüme dönebilirsiniz. [Görselde detaya gitme özelliğini](../end-user-drill.md) Power BI hizmetinde veya Power BI Desktop uygulamasında kullanabilirsiniz. Detaya gitme özelliği yalnızca telefon için en iyi duruma getirilmiş Power BI raporlarını telefonda görüntülediğinizde kullanılabilir. 
 
 1. Telefondaki raporda sağ üst köşedeki üç nokta (**...**) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
    

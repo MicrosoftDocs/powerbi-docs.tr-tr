@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566045"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417338"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
-Power BI Desktop'ta, bir harita üzerindeki bölgelerin göreli karşılaştırmalarını göstermek için farklı bölgelere farklı renkler uygulayarak bir **Şekil Haritası** oluşturursunuz. **Harita** görselinin aksine, **Şekil Haritası** bir harita üzerindeki veri noktalarının kesin coğrafi konumlarını gösteremez. Asıl amacı, harita üzerindeki bölgeleri farklı şekilde renklendirerek bunlara ilişkin göreli karşılaştırmalar göstermektir.
+Haritadaki bölgeleri renk kullanarak karşılaştırmak için bir **Şekil Haritası** görseli oluşturun. **Harita** görselinin aksine, **Şekil Haritası** veri noktalarının kesin coğrafi konumlarını bir haritada gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
 
-**Şekil Haritası** görselleri, ESRI/TopoJSON haritalarını temel alır. Bu haritaların etkileyici özelliği, kendi oluşturabildiğiniz; coğrafi harita, oturma düzeni ve kat planı gibi özel haritaları kullanabilmenize olanak sağlamasıdır. **Şekli Eşlemesi**’nin bu Önizleme sürümünde özel haritalar kullanılamaz.
+**Şekil Haritası** görselleri, ESRI/TopoJSON haritalarını temel alır. Bu haritaların etkileyici özelliği, kendi oluşturabildiğiniz özel haritaları kullanabilmenize olanak sağlamasıdır. Özel harita örnekleri şunlardır: Coğrafi, oturma düzenleri, kat planları ve diğerleri. **Şekli Eşlemesi**’nin bu Önizleme sürümünde özel haritalar kullanılamaz.
 
 ## <a name="creating-shape-maps"></a>Şekil Haritası Oluşturma
 **Şekil Haritası** denetimini, bu Önizleme sürümüyle birlikte sunulan haritalarla test edebilir veya aşağıdaki **Özel Harita Kullanma** adlı bölümde açıklanmış gereksinimleri karşılaması koşuluyla kendi özel haritanızı kullanabilirsiniz.
@@ -68,7 +68,7 @@ Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 ![](media/desktop-shape-map/shape-map_6.png)
 
 ## <a name="sample-custom-map"></a>Örnek Özel Eşleme
-*ABD Savcılar Bürosu*, dava ve dosya yükü verileriyle ilgili yıllık mali rapor yayınlar.  Tüm raporlarına aşağıdaki bağlantıdan erişilebilir,
+*Birleşik Devletler Savcılar Bürosu*, dava ve dosya yükü verileriyle ilgili yıllık mali rapor yayınlar.  Tüm raporlarına aşağıdaki bağlantıdan erişilebilir,
 
 https://www.justice.gov/usao/resources/annual-statistical-reports
 
@@ -115,7 +115,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="australia-states"></a>Avustralya: eyaletler
 
-| id | abbr | iso | name | postal |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="austria-states"></a>Avusturya: eyaletler
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="brazil-states"></a>Brezilya: eyaletler
 
-| id |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="canada-provinces"></a>Kanada: bölgeler
 
-| id | iso | name | postal |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,7 +196,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="france-regions"></a>Fransa: bölgeler
 
-| id | name | name-en |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -223,7 +223,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="germany-states"></a>Almanya: eyaletler
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -244,7 +244,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="ireland-counties"></a>İrlanda: yerel idare bölgeleri
 
-| id |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="italy-regions"></a>İtalya: bölgeler
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -300,7 +300,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="mexico-states"></a>Meksika: eyaletler
 
-| id | abreviatura | iso | name | name-en | postal |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -337,7 +337,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="netherlands-provinces"></a>Hollanda: bölgeler
 
-| id | iso | name | name-en |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -354,7 +354,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="uk-countries"></a>Birleşik Krallık: Ülkeler
 
-| id | iso | name |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galler |
 | gb-sct |GB-SCT |Scotland |
@@ -363,7 +363,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 
 ### <a name="usa-states"></a>ABD: eyaletler
 
-| id | name | postal |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Sonraki adımlar
+[Power BI Desktop'taki matris görseli](desktop-matrix-visual.md)
+
+[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

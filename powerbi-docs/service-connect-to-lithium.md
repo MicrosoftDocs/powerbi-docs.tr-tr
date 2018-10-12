@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136307"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548569"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI ile Lithium'a bağlanma
 Lithium, kullanıcıların, sorularına ilişkin cevaplar almasına ve deneyimlerini paylaşmasına yardımcı olarak dünyanın en iyi markaları ile müşterileri arasında güvenilir ilişkiler inşa eder. Lithium içerik paketini Power BI'a ekleyerek satışların ve müşteri bağlılığının artırılmasına ve hizmet maliyetlerinin azaltılmasına yardımcı olmak üzere çevrimiçi topluluğunuza ilişkin ana ölçümler gerçekleştirebilirsiniz. 
@@ -49,10 +49,10 @@ Power BI için [Lithium içerik paketine](https://app.powerbi.com/getdata/servic
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 Lithium içerik paketi için Lithium Community v15.9 veya sonraki bir sürümü gerekir. Doğrulamak için lütfen Lithium yöneticinize danışın.
@@ -60,5 +60,5 @@ Lithium içerik paketi için Lithium Community v15.9 veya sonraki bir sürümü 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 

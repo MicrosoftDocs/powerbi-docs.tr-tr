@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092173"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544458"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Power BI ile UserVoice'e bağlanma
 Power BI ve UserVoice içerik paketi ile UserVoice verilerinizi izlemek ve araştırmak çok kolay. Power BI; biletler, öneriler ve memnuniyet derecelendirmeleri de dahil olmak üzere verilerinizi alıp bu verilere dayalı, kullanıma hazır pano ve raporlar oluşturur.
@@ -53,10 +53,10 @@ Power BI için [UserVoice içerik paketine](https://app.powerbi.com/getdata/serv
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="troubleshooting"></a>Sorun giderme
 **"Parametre doğrulaması başarısız oldu. Lütfen tüm parametrelerin geçerli olduğundan emin olun"**

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565947"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416833"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Power BI Desktop'ta Matris görselini kullanma
 **Matris** görsel özelliğini kullanarak **Power BI Desktop** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.
@@ -56,7 +56,7 @@ Görsel, **Satırlar** bölümünde oluşturulmuş bir gruplama içeriyorsa sol 
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Category*'den *SubCategory*'ye gidebiliriz.
+Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Kategori*'den *Alt Kategori*'ye gidebiliriz.
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
@@ -66,7 +66,7 @@ Bu simgeleri kullanmanın yanı sıra ilgili satır başlıklarına sağ tıklay
 
 Açılan menüde farklı sonuçlar elde etmenizi sağlayan birkaç seçenek bulunmaktadır:
 
-**Detaya Git** seçeneğini belirlediğinizde *ilgili* satır düzeyine yönelik matris genişletilir ve sağ tıklanan satır başlığı dışındaki tüm diğer satır başlıkları *dışlanır*. Aşağıdaki görüntüde, *Computers*'a sağ tıklanmış ve **Detaya Git** seçeneği belirlenmiştir. En üst düzeydeki diğer satırların matriste artık görünmediğine dikkat edin. Bu faydalı bir özelliktir ve **çapraz vurgulama** bölümüne gittiğimizde özellikle kullanışlı hale gelir.
+**Detaya Git** seçeneğini belirlediğinizde *ilgili* satır düzeyine yönelik matris genişletilir ve sağ tıklanan satır başlığı dışındaki tüm diğer satır başlıkları *dışlanır*. Aşağıdaki görüntüde, *Computers*'a sağ tıklanmış ve **Detaya Git** seçeneği belirlenmiştir. En üst düzeydeki diğer satırların matriste artık görünmediğine dikkat edin. Bu detaya gitme yöntemi faydalı bir özelliktir ve **çapraz vurgulama** bölümüne gittiğimizde özellikle kullanışlı hale gelir.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,7 +74,7 @@ Açılan menüde farklı sonuçlar elde etmenizi sağlayan birkaç seçenek bulu
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Matrisin tüm en üst düzey kategorilerini göstermesi için sol üst köşedeki **Detaydan çık** simgesine tıkladıktan sonra bu simgeye tekrar sağ tıklayıp **Bir sonraki düzeye genişlet**'i seçtiğinizde aşağıdakini görürsünüz:
+Matrisin tüm en üst düzey kategorilerini göstermesi için sol üst köşedeki **Detaydan çık** simgesine tıkladıktan sonra bu simgeye tekrar sağ tıklayıp **Bir sonraki düzeye genişlet**'i seçtiğinizde aşağıdaki görseli görürsünüz.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -93,7 +93,7 @@ Satırlarda detaya gitme özelliğine benzer şekilde **Sütunlarda** da detaya 
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın.) Satırlarda olduğu gibi sütunlarınızda da **Sonraki Düzeyi Göster**, **Bir sonraki düzeye genişlet**, **Ekle** veya **Dışla** seçeneklerini kullanabilirsiniz.
+Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın). Satırlarda olduğu gibi sütunlarınızda da **Sonraki Düzeyi Göster**, **Bir sonraki düzeye genişlet**, **Ekle** veya **Dışla** seçeneklerini kullanabilirsiniz.
 
 > [!NOTE]
 > Matris görselinin sol üstündeki detaya git ve detaydan çık simgeleri, yalnızca satırlar için kullanılabilir. Sütunlarda detaya gitmek için sağ tıklama menüsünü kullanmanız gerekir.
@@ -103,7 +103,7 @@ Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Matris görselleriyle basamaklı düzen
 **Matris** görseli, bir hiyerarşide her bir üst öğenin altındaki alt kategorileri otomatik olarak girintiler ve bu işleme **Basamaklı düzen** adı verilir.
 
-Matris görselinin *özgün* halinde alt kategoriler tamamen farklı bir sütunda gösterilir ve bu durum, görselde daha fazla alan kullanılmasına neden olur. Aşağıdaki görüntüde, özgün **Matris** görselindeki tablo gösterilmektedir; buradan alt kategorilerin tamamen ayrı bir sütunda bulunduğunu görebilirsiniz.
+Matris görselinin *özgün* halinde alt kategoriler tamamen farklı bir sütunda gösterilir ve bu durum, görselde daha fazla alan kullanılmasına neden olur. Aşağıdaki görüntüde, özgün **Matris** görselindeki tablo gösterilmektedir; buradan alt kategorilerin ayrı bir sütunda bulunduğunu görebilirsiniz.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
@@ -129,7 +129,7 @@ Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etk
 Aynı işlem sütun alt toplamları için de geçerlidir.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Matris görselleri ile çapraz vurgulama
-**Matris** görseliyle matristeki herhangi bir öğeyi, çapraz vurgulamada temel alınacak şekilde seçebilirsiniz. **Matriste** bir sütun seçtiğinizde, rapor sayfasındaki diğer görsellerde olduğu gibi bu sütun da vurgulanır. Bu, diğer görseller ve bir veri noktası seçimleri için ortak bir özellik olduğundan artık **Matris** görseli de aynı işlevi sunar.
+**Matris** görseliyle matristeki herhangi bir öğeyi, çapraz vurgulamada temel alınacak şekilde seçebilirsiniz. **Matriste** bir sütun seçtiğinizde, rapor sayfasındaki diğer görsellerde olduğu gibi bu sütun da vurgulanır. Bu çapraz vurgulama türü, diğer görseller ve bir veri noktası seçimleri için ortak bir özellik olduğundan artık **Matris** görseli de aynı işlevi sunar.
 
 Ayrıca, çapraz vurgulama için Ctrl+Tıklama seçeneği de kullanılabilir. Örneğin, aşağıdaki görüntüde **Matris** görselindeki bir alt kategori koleksiyonu seçilmiştir. Görseldeki seçili olmayan öğelerin gri renkte göründüğünü ve sayfadaki diğer görsellerin, **Matris** görselinde yapılan seçimleri yansıttığını görebilirsiniz.
 
@@ -153,10 +153,6 @@ Her iki yöntemle de aynı sonuç elde edilir. *Gelişmiş denetimler* seçildi�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Aşağıdaki makaleler de ilginizi çekebilir:
+[Power BI'daki dağılım ve kabarcık grafikleri](power-bi-visualization-scatter.md)
 
-* [Power BI Desktop raporlarında kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma](../desktop-gridlines-snap-to-grid.md)
-* [Power BI Desktop'ta veri kaynakları](../desktop-data-sources.md)
-* [Power BI Desktop'taki veri türleri](../desktop-data-types.md)
-
- 
+[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

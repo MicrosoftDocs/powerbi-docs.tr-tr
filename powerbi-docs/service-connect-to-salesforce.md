@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136790"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548270"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI ile Salesforce'a bağlanma
 Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyı oluşturduğunuzda verileriniz çekilerek otomatik olarak bir pano ve ilgili raporlar oluşturulur.
@@ -56,14 +56,16 @@ Power BI için [Salesforce içerik paketine](https://app.powerbi.com/getdata/ser
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-Bu panoyu, verilerinizi istediğiniz herhangi bir biçimde görüntüleyecek şekilde değiştirebilirsiniz. Soru-Cevap ile sorular sorabilir veya herhangi bir kutucuğa tıklayarak [bağlantılı raporu açabilir](service-dashboard-tiles.md) ve panodaki [kutucukları değiştirebilirsiniz](service-dashboard-edit-tile.md).
+Bu panoyu, verilerinizi istediğiniz herhangi bir biçimde görüntüleyecek şekilde değiştirebilirsiniz. Soru-Cevap ile sorular sorabilir veya herhangi bir kutucuğa tıklayarak [bağlantılı raporu açabilir](consumer/end-user-tiles.md) ve panodaki [kutucukları değiştirebilirsiniz](service-dashboard-edit-tile.md).
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
-* Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md)
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
+* Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md) <<<<<<< HEAD
+* Temel alınan raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md) =======
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md)
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="system-requirements-and-considerations"></a>Sistem gereksinimleri ve önemli noktalar
 - API erişimi etkinleştirilmiş ve etkin olarak kullanılan bir Salesforce hesabına bağlantı

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329213"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417131"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -87,25 +87,23 @@ Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını a�
     
 2. Formül çubuğundaki **Ölçü**'yü, yeni bir ölçü adı (**Previous Quarter Sales**) yazarak değiştirin.
     
-3. Eşittir işaretinden sonra **SUM** yazın ve hemen ardına bir sol ayraç ekleyin.
-    
-   Hemen toplamak için bir sütun adı yazmak yerine başka bir işlev girerek, toplamak istediğimiz verileri *filtreleyeceğiz*.
-    
-4. Ayraçlar arasına **CALCULATE** yazın ve hemen ardına bir sol ayraç ekleyin.
-    
+3. Eşittir işaretinden sonra, ilk birkaç harf olan **CAL**’yi yazın ve kullanmak istediğiniz işleve çift tıklayın. Bu formülde, **CALCULATE** işlevini kullanmak istiyorsunuz.
+
    CALCULATE işlevine geçirdiğimiz bir bağımsız değişkenle toplamak istediğimiz tutarları filtrelemek için CALCULATE işlevini kullanırsınız. Bunlar, iç içe geçen işlevler olarak adlandırılır. CALCULATE işlevinin en az iki bağımsız değişkeni vardır. Bunlardan ilki değerlendirilecek ifade, ikincisi ise bir filtredir.
    
-5. **CALCULATE** işlevine ilişkin ayraçların **()** arasına **Sales[SalesAmount]** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
+4. **CALCULATE** işlevi için, açma parantezinden **(** sonra **SUM** yazın ve daha sonra başka bir açma parantezi **(** daha yazın. Şimdi SUM işlevine bir bağımsız değişken iletmemiz gerek.
+
+5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount]** 'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
     
-6. Birinci filtreyi belirtmek için bir virgülden (**,**) sonra **PREVIOUSQUARTER** yazın ve hemen ardına bir sol ayraç ekleyin.
+6. Birinci filtreyi belirtmek için virgül (**,**) yazın, daha sonra bir boşluk bırakın ve ardından **PREVIOUSQUARTER** yazın. Bu, filtremiz olacaktır.
     
-   SUM sonuçlarımızı önceki üç aylık döneme göre filtrelemek için PREVIOUSQUARTER akıllı zaman gösterimi işlevini kullanırsınız.
+   SUM sonuçlarını önceki üç aylık döneme göre filtrelemek için PREVIOUSQUARTER akıllı zaman gösterimi işlevini kullanırsınız.
     
-7. PREVIOUSQUARTER işlevine ilişkin ayraçların **()** arasına **Calendar[DateKey]** yazın.
+7. PREVIOUSQUARTER işlevinin açma parantezinden **(** sonra **Calendar[DateKey]** yazın.
     
-   PREVIOUSQUARTER işlevi, bitişik tarih aralığı içeren bir sütun olan tek bir bağımsız değişkene sahiptir.
+   PREVIOUSQUARTER işlevi, bitişik tarih aralığı içeren bir sütun olan tek bir bağımsız değişkene sahiptir. Bizim durumumuzda bu, Takvim tablosundaki DateKey sütunudur.
     
-8. Biri PREVIOUSQUARTER işlevine, diğeri ise CALCULATE işlevine geçirilen her iki bağımsız değişkenin de hemen ardına iki sağ ayraç **))** eklediğinizden emin olun.
+8. PREVIOUSQUARTER işlevine ve CALCULATE işlevine geçirilen her iki bağımsız değişkenin de iki kapatma parantezi **))** ile kapatıldığından emin olun.
     
    Formülünüzün aşağıdaki gibi görünmesi gerekir:
     

@@ -2,30 +2,30 @@
 title: Power BI Güvenliği
 description: Power BI Güvenliği. Power BI ile Azure Active Directory ve diğer Azure hizmetleri arasındaki ilişki. Bu konu başlığı altında, daha ayrıntılı bir teknik incelemenin bağlantısı da verilmiştir.
 author: davidiseminger
-manager: erikri
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598880"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417108"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini indirin](http://go.microsoft.com/fwlink/?LinkId=829185):
 
 [![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
 
-Power BI hizmetinin temelini, Microsoft'un bulut bilgi işlem altyapısı ve platformu olan **Azure** oluşturmaktadır. Power BI hizmeti mimarisi, Web Ön Ucu (**WFE**) kümesi ve **Arka Uç** kümesi olmak üzere iki kümeyi temel alır. WFE kümesi, Power BI hizmetine yönelik ilk bağlantıdan ve kimlik doğrulamasından sorumludur. Kimlik doğrulaması yapıldıktan sonraki tüm kullanıcı etkileşimlerini Arka Uç üstlenir. Power BI, kullanıcı kimliklerini depolamak ve yönetmek için Azure Active Directory (AAD) hizmetini, verileri ve meta verileri depolamak ve yönetmek içinse Azure BLOB ve Azure SQL Veritabanı hizmetlerini kullanır.
+Power BI hizmetinin temelini, Microsoft'un bulut bilgi işlem altyapısı ve platformu olan **Azure** oluşturmaktadır. Power BI hizmet mimarisi iki kümeye dayanır: Web Ön Uç (**WFE**) kümesi ve **Arka Uç** kümesi. WFE kümesi, Power BI hizmetine yönelik ilk bağlantıyı ve kimlik doğrulamasını yönetir. Kimlik doğrulaması yapıldıktan sonraki tüm kullanıcı etkileşimlerini Arka Uç üstlenir. Power BI, kullanıcı kimliklerini depolamak ve yönetmek için Azure Active Directory (AAD) hizmetini, verileri ve meta verileri depolamak ve yönetmek içinse Azure BLOB ve Azure SQL Veritabanı hizmetlerini kullanır.
 
 ## <a name="power-bi-architecture"></a>Power BI Mimarisi
-Her Power BI dağıtımında iki küme (Web Ön Ucu (**WFE**) kümesi ve **Arka Uç** kümesi olmak üzere) bulunur.
+Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümesi ve bir **Arka Uç** kümesi.
 
 **WFE** kümesi Power BI için ilk bağlantı ve kimlik doğrulaması işlemlerini yönetir. Bu küme, AAD hizmetini kullanarak istemcilerin kimliklerini doğrular ve Power BI hizmetiyle kurulacak sonraki istemci bağlantıları için belirteçler sağlar. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI, statik içeriği ve dosyaları coğrafi yerel ayara göre kullanıcılara verimli bir şekilde dağıtmak için **Azure Content Delivery Network** (CDN) hizmetini kullanır.
 
@@ -46,7 +46,7 @@ Power BI hizmetinin veri depolamak ve yönetmek için kullandığı iki ana depo
 Yukarıdaki **Arka Uç** kümesi resminde yer alan kesik çizgi, kullanıcılar tarafından erişilebilen iki bileşen (kesik çizginin sol tarafı) ile yalnızca sistem tarafından erişilebilen roller arasındaki ayrımı göstermektedir. Kimliği doğrulanmış bir kullanıcı Power BI hizmetine bağlandığında bağlantı ve istemci istekleri **Ağ Geçidi Rolü** tarafından kabul edilip yönetilir (sonrasında **Azure API Management** tarafından işlenmek üzere) ve bu rol, Power BI hizmetinin geri kalan kısmında kullanıcının adına etkileşimde bulunur. Örneğin, bir istemci bir panoyu görüntülemek istediğinde **Ağ Geçidi Rolü** bu isteği kabul eder ve tarayıcının panoyu oluşturması için gerekli olan verileri almak için **Sunum Rolü**'ne ayrı bir istek gönderir.
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
-Power BI, oturum açan kullanıcıların kimliğini doğrulamak için Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) hizmetini; kullanıcının, kimlik doğrulaması gerektiren kaynaklara erişmek istemesi halinde ise Power BI oturum açma kimlik bilgilerini kullanır. Power BI hizmetinde, Power BI hesabını oluşturmak için kullandığı e-posta adresiyle oturum açan kullanıcılar için Power BI, ilgili e-posta adresini *etkin kullanıcı adı* olarak kullanır ve kullanıcı verilere bağlanmaya çalıştığında kaynaklara bu bilgiyi iletir. Ardından *etkin kullanıcı adı* bir *Kullanıcı Asıl Adı* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) ile eşlenerek ilişkili Windows etki alanı hesabı çözümlenir ve kimlik doğrulaması bu hesaba uygulanır.
+Power BI, oturum açan kullanıcıların kimliğini doğrulamak için Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) hizmetini; kullanıcının, kimlik doğrulaması gerektiren kaynaklara erişmeye çalışması halinde ise Power BI oturum açma kimlik bilgilerini kullanır. Power BI hizmetinde, Power BI hesabını oluşturmak için kullandığı e-posta adresiyle oturum açan kullanıcılar için Power BI, ilgili e-posta adresini *etkin kullanıcı adı* olarak kullanır ve kullanıcı verilere bağlanmaya çalıştığında kaynaklara bu bilgiyi iletir. Ardından *etkin kullanıcı adı* bir *Kullanıcı Asıl Adı* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) ile eşlenerek ilişkili Windows etki alanı hesabı çözümlenir ve kimlik doğrulaması bu hesaba uygulanır.
 
 Power BI oturumu açmak için iş e-postalarını kullanan kuruluşlarda (<em>david@contoso.com</em> gibi) *etkin kullanıcı adı* doğrudan UPN ile eşlenir. Power BI oturumu açmak için iş e-postalarını kullanmayan kuruluşlarda (<em>david@contoso.onmicrosoft.com</em> gibi) AAD ve şirket içi kimlik bilgileri arasında eşleme yapılabilmesi için [dizin eşitleme](https://technet.microsoft.com/library/jj573653.aspx) hizmetinin düzgün çalışması gerekir.
 

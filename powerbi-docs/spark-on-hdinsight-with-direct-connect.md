@@ -2,55 +2,54 @@
 title: DirectQuery ile HDInsight Spark
 description: DirectQuery ile HDInsight Spark
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
-ms.author: maghan
+ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
+ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136514"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48016181"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery ile HDInsight Spark
+
 DirectQuery ile Azure HDInsight'taki Spark hizmeti, Spark kümenizde bulunan verilere ve ölçümlere dayalı dinamik raporlar oluşturmanıza olanak sağlar. DirectQuery ile, siz verileri rapor görünümünde araştırırken Azure HDInsight Spark kümenize sorgular gönderilir. Bu deneyim, bağlandıkları varlıkları nasıl kullanacakları konusunda yeterli bilgi sahibi olan kullanıcılar için önerilir.
 
 > [!WARNING]
 > Spark'ı temel alan veri kümelerinde oluşturulan pano kutucukları için otomatik kutucuk yenileme özelliği devre dışı bırakıldı. Yenileme işlemini elle gerçekleştirmek için **Pano Kutucuklarını Yenile**'yi seçebilirsiniz. Raporlar bu işlemden etkilenmez ve güncel kalır. 
-> 
-> 
 
 Power BI hizmetinde DirectQuery'yi kullanarak Azure HDInsight'taki Spark veri kaynağınıza bağlanmak için aşağıdaki adımları uygulayabilirsiniz.
 
 > [!Important]
 > Spark ile bağlantımızı geliştirdik.  Spark veri kaynağınıza en iyi bağlanma deneyimi için Power BI Desktop kullanın.  Modelinizi ve raporunuzu oluşturduktan sonra, bunu Power BI hizmetine yayımlayabilirsiniz.  Power BI hizmetindeki Spark doğrudan bağlayıcısı artık kullanım dışı bırakılmıştır.
->
 
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata.png)
 2. **Veritabanları ve Daha Fazlası**'nı seçin.
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata-databases.png)
 3. **Spark on Azure HDInsight** bağlayıcısını ve ardından **Bağlan**'ı seçin.
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata-databases-connect.png)
 4. Bağlanmak istediğiniz **sunucunun** adını, **kullanıcı adınızı** ve **parolanızı** girin. Sunucu adı her zaman \<kümeadı\>.azurehdinsight.net biçimindedir. Bu değerleri nasıl bulacağınız hakkında daha ayrıntılı bilgi aşağıda yer almaktadır.
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-server-name.png)
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-username.png)
 5. Bağlantı gerçekleştikten sonra "SparkDataset" adlı yeni bir veri kümesi görürsünüz. Veri kümesine, oluşturulan yer tutucu kutucuğu aracılığıyla da erişebilirsiniz.
-   
+
      ![](media/spark-on-hdinsight-with-direct-connect/spark-dataset.png)
 6. Veri kümesini ayrıntılı olarak incelediğinizde veritabanınızdaki tüm tablo ve sütunları keşfedebilirsiniz. Bir sütunu seçtiğinizde kaynağa bir sorgu gönderilir ve görseliniz dinamik olarak oluşturulur. Bu görseller yeni bir rapora kaydedilerek panonuza sabitlenebilir.
 
 ## <a name="finding-your-spark-on-hdinsight-parameters"></a>Spark on HDInsight parametrelerinizi bulma
+
 Sunucu her zaman \<kümeadı\>.azurehdinsight.net biçimindedir ve Azure portalında bulunabilir.
 
 ![](media/spark-on-hdinsight-with-direct-connect/spark-server-name-parameter.png)
@@ -58,6 +57,7 @@ Sunucu her zaman \<kümeadı\>.azurehdinsight.net biçimindedir ve Azure portal�
 Kullanıcı adı ve parola bilgileri de Azure portalında bulunabilir.
 
 ## <a name="limitations"></a>Sınırlamalar
+
 Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Ek belgeler [Azure HDInsight'taki Apache Spark ile BI araçlarını kullanma](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/) sayfasında mevcuttur
 
 * Power BI hizmeti yalnızca Spark 2.0 ve HDInsight 3.5 yapılandırmalarını destekler.
@@ -67,6 +67,7 @@ Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe deği
 * Power BI, bir veri kümesindeki **tüm tablolarda** 16.000'e kadar sütunu destekler. Ayrıca Power BI her tablo için dahili bir satır numarası sütunu ekler. Bu da veri kümesinde 100 tablonuz olması halinde kullanabileceğiniz sütun sayısının 15.900 olacağı anlamına gelir. Spark veri kaynağınızda bulunan veri miktarına bağlı olarak bu sınırlama ile karşılaşabilirsiniz.
 
 ## <a name="troubleshooting"></a>Sorun giderme
+
 Kümenizde sorgu yürütme ile ilgili sorunlarla karşılaşıyorsanız uygulamanın çalışmakta olduğunu doğrulayın ve gerekirse uygulamayı yeniden başlatın.
 
 Ayrıca Azure portalında **Yapılandırma** > **Kümeyi Ölçeklendirin** bölümünde ek kaynak ayırabilirsiniz:
@@ -74,8 +75,10 @@ Ayrıca Azure portalında **Yapılandırma** > **Kümeyi Ölçeklendirin** böl�
 ![](media/spark-on-hdinsight-with-direct-connect/spark-scale.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Başlangıç: HDInsight Linux'te Apache Spark kümesi oluşturma ve Spark SQL'i kullanarak etkileşimli sorgular çalıştırma](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
 [Power BI nedir?](power-bi-overview.md)  
-[Power BI için veri alma](service-get-data.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+[Power BI için Veri Alma](service-get-data.md)
+[SSO için Şirket içi ağ geçidinde Kerberos kullanma](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
 
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

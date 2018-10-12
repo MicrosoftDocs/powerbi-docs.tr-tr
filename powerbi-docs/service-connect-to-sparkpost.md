@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247907"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547626"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Power BI ile SparkPost'a bağlanma
 Power BI'daki SparkPost içerik paketi sayesinde SparkPost hesabınızdaki tüm değerli veri kümelerini öngörüler sunan tek bir panoya ayıklayabilirsiniz. SparkPost içerik paketini kullanarak, ISS'lere göre etki alanlarını, kampanyaları ve etkileşimi içeren genel e-posta istatistiklerinizi görselleştirebilirsiniz.
@@ -41,10 +41,10 @@ Power BI'daki SparkPost içerik paketi sayesinde SparkPost hesabınızdaki tüm 
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Power BI için SparkPost içerik paketinde; benzersiz tıklamaları, iletilme oranlarını, geri dönüş oranlarını, gecikme oranlarını, ret oranlarını ve daha fazlasını içeren bilgiler bulunur.

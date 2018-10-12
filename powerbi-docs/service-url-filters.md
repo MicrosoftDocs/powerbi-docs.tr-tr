@@ -1,22 +1,22 @@
 ---
 title: URL'yi kullanarak Power BI rapor parametreleri ekleme
 description: URL sorgu dizesi parametrelerini kullanarak bir raporu ve hatta birden fazla alanı filtreleyebilirsiniz.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626043"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232938"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -106,7 +106,7 @@ Power BI, **and** haricinde birçok işleci de destekler. Aşağıdaki tabloda b
 |**gt**     | büyüktür        |hayır | evet | evet  | product/price gt 20
 |**le**     |   küçüktür veya eşittir      | hayır | evet | evet  | product/price le 100
 |**lt**     |  küçüktür       | hayır | evet | evet |  product/price lt 20
-|**in****     |  dahil       | hayır | hayır |  evet | Student/Age in (27, 29)
+|**in****     |  dahil       | evet | evet |  evet | Student/Age in (27, 29)
 
 
 \** **in** işlecini kullanırken **in** ifadesinin sağ tarafındaki değerler parantez içinde virgülle ayrılmış liste veya koleksiyon döndüren tek bir ifade olabilir.
@@ -131,14 +131,14 @@ Bu ayrım neden önemlidir? **Table/Date gt 2018-08-03** şeklinde bir sorgu diz
 
 ## <a name="special-characters-in-url-filters"></a>URL filtrelerindeki özel karakterler
 
-Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuzda boşluk, kısa çizgi veya ASCII olmayan karakterler varsa bu özel karakterlerin önüne *kaçış kodu* (**_x**) ve 4 basamaklı **Unicode** değerini ekleyin. Unicode 4 karakterden kısaysa sıfır ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
+Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X (**_x**) ile başlayan, ardından 4 haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode 4 karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
 
 |Tanımlayıcı  |Unicode  | Power BI için kodlama  |
 |---------|---------|---------|
-|**Tablo Adı**     | Boşluk: 0x20        |  Tablo_x0020_Adı       |
-|**Sütun**@**Numarası**     |   @: 0x40     |  Sütun_x0040_Numarası       |
-|**[Sütun]**     |  [:0x005B ]:0x0050       |  _x0058_Sütun_x0050       |
-|**Sütun+Artı**     | +:0x2B        |  Sütun_x002B_Artı       |
+|**Tablo Adı**     | Boşluk 0x20        |  Tablo_x0020_Adı       |
+|**Sütun**@**Numarası**     |   @ 0x40     |  Sütun_x0040_Numarası       |
+|**[Sütun]**     |  [ is 0x0058 ] 0x0050       |  _x0058_Sütun_x0050       |
+|**Sütun+Artı**     | + 0x2B        |  Sütun_x002B_Artı       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,9 +159,9 @@ Raporu Power BI hizmetinde yayımlayın ve ardından yalnızca NC'deki Lindseys 
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Filtrelenen bir rapordan kutucuk sabitleme
 
-Sorgu dizesi parametrelerini kullanarak raporu filtreledikten sonra bu rapordaki görselleştirmeleri panonuza sabitleyebilirsiniz.  Pano üzerindeki kutucuk filtrelenmiş verileri gösterir ve bu pano kutucuğunu seçtiğinizde, kutucuğu oluşturmak için kullanılan rapor açılır.  Ancak, URL'yi kullanarak yaptığınız filtreleme raporla kaydedilmez ve pano kutucuğu seçildiği zaman, rapor filtrelenmemiş durumda açılır.  Bu, pano kutucuğunda görüntülenen verilerin, rapor görselleştirmesinde görüntülenen verilerle eşleşmeyeceği anlamına gelir.
+Sorgu dizesi parametrelerini kullanarak raporu filtreledikten sonra bu rapordaki görselleştirmeleri panonuza sabitleyebilirsiniz.  Pano üzerindeki kutucuk filtrelenmiş verileri görüntüler ve bu pano kutucuğunu seçtiğinizde, kutucuğu oluşturmak için kullanılan rapor açılır.  Ancak, URL'yi kullanarak yaptığınız filtreleme raporla kaydedilmez ve pano kutucuğu seçildiği zaman, rapor filtrelenmemiş durumda açılır.  Bu, pano kutucuğunda görüntülenen verilerin, rapor görselleştirmesinde görüntülenen verilerle eşleşmeyeceği anlamına gelir.
 
-Bu durum panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görmek istediğinizde yararlı olabilir.
+Bu durum panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görmek istediğinizde yararlıdır.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
@@ -171,6 +171,7 @@ Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar
 * Power BI Rapor Sunucusu’nda, rapor URL’sine eklediğiniz [rapor parametrelerini geçirebilirsiniz](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md). Bu URL parametreleri doğrudan rapor işleme altyapısına geçirildiğinden ön ek almaz.
 * Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) seçeneği veya Power BI Embedded ile kullanılamaz.   
 * Javascript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
+* Rapor URL filtrelerinin 10 ifade sınırı vardır (AND ile bağlanan 10 filtre).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

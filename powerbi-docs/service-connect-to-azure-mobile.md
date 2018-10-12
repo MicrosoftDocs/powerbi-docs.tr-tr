@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600424"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546706"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Power BI ile Azure Mobile Engagement'a bağlanma
 Power BI Azure Mobile Engagement içerik paketi sayesinde uygulama verileriniz konusunda hızla öngörü edinirsiniz.
@@ -44,10 +44,10 @@ Power BI için [Azure Mobile Engagement içerik paketine](https://app.powerbi.co
 
 ## <a name="what-now"></a>Şimdi ne yapmalıyım?
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI ile çalışmaya başlama](service-get-started.md)

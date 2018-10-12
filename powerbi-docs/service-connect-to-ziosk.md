@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c5fc1f8763b8360d7cd5a6f6605d6b4f3d5df3c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135663"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546577"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI ile Ziosk Survey Analytics'e bağlanma
 Power BI için Ziosk Survey Analytics içerik paketi, Ziosk tabletli restoranlar için gün, konum, çalışan ve daha fazlasına göre segmentasyon dahil olmak üzere Ziosk anket verileri ile sağlanan öngörülere rakipsiz erişim fırsatı sunar.
@@ -43,10 +43,10 @@ Power BI için [Ziosk Survey Analytics içerik paketine](https://app.powerbi.com
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 İçerik paketi şu tablolardaki verileri içerir:  
@@ -73,5 +73,5 @@ Bu içerik paketinin bir örneğini oluşturmak için yukarıdaki tabloların iz
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 

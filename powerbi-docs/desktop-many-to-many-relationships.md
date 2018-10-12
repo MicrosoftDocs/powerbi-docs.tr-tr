@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388767"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974012"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
 
@@ -158,12 +158,13 @@ Bu nedenle, *genel toplamın yüzdesi* gibi *ALL(\<Tablo>)* kullanılarak yapıl
 
 **Çoka çok ilişkileri** ile **bileşik modellerin** bu sürümünde birkaç sınırlama vardır.
 
-Aşağıdaki çok boyutlu kaynaklar **bileşik modellerle** kullanılamaz:
+Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI veri kümeleri
+* Azure Analysis Services
 
 Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
 

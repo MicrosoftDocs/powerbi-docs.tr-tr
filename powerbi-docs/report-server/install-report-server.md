@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250396"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565924"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -34,7 +34,7 @@ Power BI Premium'u satın aldıysanız Power BI yönetici portalının **Premium
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı")
 
-**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayabilir ve yükleme sırasında kullanabilirsiniz.
+**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI Rapor Sunucusu ürün anahtarı")
 

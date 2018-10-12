@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136008"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549719"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Power BI ile Circuit ID'ye bağlanma
 Power BI ile iletişim verilerinizi Circuit ID'den kolayca çözümleyebilirsiniz. Power BI, verilerinizi alır ve ardından varsayılan bir pano ve bu verilere dayalı raporlar oluşturur. Bağlantıyı oluşturduktan sonra, verilerinizi araştırabilir ve panoyu gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz. Veriler her gün otomatik olarak yenilenir.
@@ -41,10 +41,10 @@ Power BI için [Circuit ID içerik paketine](https://app.powerbi.com/getdata/ser
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)

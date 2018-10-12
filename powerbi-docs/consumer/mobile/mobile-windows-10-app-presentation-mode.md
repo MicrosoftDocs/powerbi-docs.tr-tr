@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 363bcae5a1bcc70d90cdb71f8a1ac2e2372b93e2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744897"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973644"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Raporları Surface Hub'da ve Windows 10'da sunu modunda görüntüleme - Power BI
 Windows 10 cihazlarında raporları Surface Hub sunu modunda açabilirsiniz. Ayrıca panoları, raporları ve kutucukları tam ekran modunda görüntüleyebilirsiniz. 

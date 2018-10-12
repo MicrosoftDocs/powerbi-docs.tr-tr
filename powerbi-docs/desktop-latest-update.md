@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7fa3e2e63ef5f43206a398f58d9e8f13bdf8067a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a664ff5aeab7de4f98c176dddc5063ef2cfef72e
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728146"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417062"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler
 
@@ -23,7 +23,7 @@ ms.locfileid: "44728146"
 
 Eylül güncelleştirmelerimiz yeni ve heyecan verici bir sınıfa yerleşmek, öğrenecek yeni şeylerle karşılaşmak, önceki deneyimlerden faydalanmak ve eskiye göre daha yetenekli ve olgun hale gelmek gibi. Bu güncelleştirmeleri bir deste ucu yeni açılmış No. 2 kalem gibi faydalı bulacağınızı umuyoruz. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**'ı nasıl yüklediğinizden bağımsız olarak aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 

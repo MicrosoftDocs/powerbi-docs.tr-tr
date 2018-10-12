@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548477"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416947"
 ---
 # <a name="funnel-charts"></a>Huni grafikler
 Huni grafik, birbirine bağlı sıralı aşamalara sahip doğrusal süreçleri görselleştirmenize yardımcı olur. Örneğin bir satış hunisi, müşterileri şu aşamalarda takip eder: Aday Müşteri \> Nitelikli Aday Müşteri \> Potansiyel Müşteri \> Sözleşme \> Sonuçlandırma.  Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
 
 Huninin her aşaması, toplamın belirli bir yüzdesini temsil eder. Bu nedenle çoğu durumda huni grafik bir huniye benzer. İlk aşama en büyüktür ve sonraki her aşama da bir öncekinden küçüktür.  Armut şeklindeki huni de kullanışlıdır. Süreçte bir sorun olduğunu belirtebilir.  Ancak genellikle ilk aşama olan "giriş" aşaması en büyük olandır.
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![örnek mavi huni](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>Huni grafik kullanım alanları
 Huni grafikler aşağıdaki durumlarda harika bir seçimdir:
@@ -57,11 +57,11 @@ Bu yönergelerde Fırsat Analizi Örneği kullanılmaktadır. Yönergeleri takip
 
 1. [Boş rapor sayfasıyla](../power-bi-report-add-page.md) başlayın ve **SalesStage** \> **Sales Stage** alanını seçin. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![Satış Aşaması’nı seç](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Grafiği huniye dönüştürün](power-bi-report-change-visualization-type.md). **Sales Stage** öğesinin **Grup** kutusunda olduğuna dikkat edin. 
 3. **Alanlar** bölmesinde **Fact** \> **Opportunity Count** seçimini yapın.
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![huni grafik oluşturma](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Çubuklardan birinin üzerine geldiğinizde bilgiler görüntülenir.
    
    * Aşamanın adı
@@ -69,8 +69,8 @@ Bu yönergelerde Fırsat Analizi Örneği kullanılmaktadır. Yönergeleri takip
    * Genel dönüşüm oranı (Aday Müşteri Yüzdesi) 
    * Önceki aşamaya göre (bu örnekte Proposal Stage/Solution Stage) % cinsinden aşamalar arası karşılaştırma (Düşme Oranı olarak da bilinir)
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Huniyi bir pano kutucuğu olarak ekleyin](../consumer/end-user-tiles.md). 
+     ![Teklif çubuğunun ayrıntıları](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [Huniyi bir pano kutucuğu olarak ekleyin](../service-dashboard-tiles.md). 
 6. [Raporu kaydedin](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
@@ -80,24 +80,20 @@ Hunideki bir çubuğun vurgulanması rapor sayfasındaki diğer görselleştirme
 
 1. Hunide **Proposal** çubuğunu seçin. Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır. Birden fazla seçim yapmak için CTRL tuşunu kullanın.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Görsellerin birbirini çapraz vurgulaması ve çapraz filtrelemesiyle ilgili tercihleri ayarlamak için bkz. [Power BI'daki görsel etkileşimleri](../consumer/end-user-interactions.md)
+   ![görsel etkileşimleri gösteren kısa video](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. Görsellerin birbirini çapraz vurgulaması ve çapraz filtrelemesiyle ilgili tercihleri ayarlamak için bkz. [Power BI'daki görsel etkileşimleri](../service-reports-visual-interactions.md)
 
-## <a name="create-a-funnel-chart-in-qa"></a>Soru-Cevap'ta huni grafik oluşturma
-Opportunity Analysis Sample panosunu veya Opportunity Analysis Sample veri kümesinden sabitlenmiş olan en az bir görselleştirmeye sahip olan başka bir panoyu seçin.  Soru-Cevap'ta bir soru yazdığınızda Power BI, seçilen panoyla ilişkilendirilmiş olan (kutucukların sabitlenmiş olduğu) tüm veri kümelerinde yanıt arar. Daha fazla bilgi için bkz. [Power BI - temel kavramlar](../consumer/end-user-basic-concepts.md).
+## <a name="create-a-funnel-chart-using-qa"></a>Soru-Cevap'ta huni grafik oluşturma
+Opportunity Analysis Sample panosunu veya Opportunity Analysis Sample veri kümesinden sabitlenmiş olan en az bir görselleştirmeye sahip olan başka bir panoyu seçin.  Soru-Cevap'ta bir soru yazdığınızda Power BI, seçilen panoyla ilişkilendirilmiş olan (kutucukların sabitlenmiş olduğu) tüm veri kümelerinde yanıt arar. Daha fazla bilgi için bkz. [Power BI - temel kavramlar](../service-basic-concepts.md).
 
 1. Opportunity Analysis Sample panosunda Soru-Cevap soru kutusuna sorunuzu yazmaya başlayın.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![soru kutusu ve huni](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. Power BI'ın tercih ettiğiniz görselleştirme türünü anlaması için "as funnel" (huni olarak) eklemeyi unutmayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI'da ölçerler](power-bi-visualization-radial-gauge-charts.md)
+
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Panoya görselleştirme sabitleme](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

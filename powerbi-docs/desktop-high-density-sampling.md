@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328156"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973943"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI'da yüksek yoğunluklu çizgi örnekleme
 **Power BI Desktop**'ın Haziran 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmeler itibarıyla, yüksek yoğunluklu verileri örnekleyen görselleri geliştiren yeni bir örnekleme algoritması kullanıma sunulmuştur. Örneğin, perakende mağazalarınızın satış sonuçlarından oluşan ve her mağazanın yılda on binden fazla satış makbuzuna sahip olduğu bir çizgi grafik oluşturabilirsiniz. Bu tür satış bilgilerini içeren bir çizgi grafik, her mağaza için alınan verileri (satışların zamana göre nasıl değiştiğini göstermek için ilgili verilerin anlamlı bir temsilini seçin) örnekler ve temel alınan verileri temsil eden çok serili bir çizgi grafik oluşturur. Bu, yüksek yoğunluklu verileri görselleştirmede sık kullanılan bir yöntemdir. Power BI Desktop, ayrıntıları bu makalede açıklanan yüksek yoğunluklu veri örnekleme özelliğini geliştirmiştir.
@@ -24,8 +24,6 @@ ms.locfileid: "39328156"
 
 > [!NOTE]
 > Bu makalede tanımlanan **Yüksek Yoğunluklu Örnekleme** algoritması, hem **Power BI Desktop** hem de **Power BI hizmeti** ile kullanılabilir.
-> 
-> 
 
 ## <a name="how-high-density-line-sampling-works"></a>Yüksek yoğunluklu çizgi örnekleme nasıl çalışır?
 **Power BI** daha önceden, belirleyici bir yaklaşım kullanarak, temel alınan verilerin tam aralığında bulunan bir örnek veri noktası koleksiyonu seçiyordu. Örneğin, bir takvim yılına yayılan yüksek yoğunluklu veriler için görselde görüntülenen 350 örnek veri noktası olabilirdi ve bunların her biri, verilerin tam aralığının (temel alınan verilerin genel serisi) görselde sunulacağı şekilde seçilirdi. Bunu daha iyi anlamanıza yardımcı olması için bir yıllık döneme ait hisse senedi fiyatı çizimi ve çizgi grafik görseli oluşturmak için 365 veri noktası (diğer bir deyişle, her gün için bir veri noktası) seçimi yaptığınızı hayal edin.
@@ -42,17 +40,25 @@ Bir yüksek yoğunluklu görsel için **Power BI**, verilerinizi yüksek çözü
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Yüksek yoğunluklu çizgi görselleri için minimum ve maksimum değerler
 Tüm görselleştirmeler için aşağıdaki görsel sınırları geçerlidir:
 
-* **3.500**, temel alınan veri noktalarından veya serilerinden bağımsız olarak görselde *görüntülenen* maksimum veri noktası sayısıdır. Bu nedenle, her birinde 350 veri noktası bulunan 10 seriniz varsa görsel, maksimum toplam veri noktası sınırına ulaşmıştır. Bir seriniz varsa yeni algoritmanın temel alınan veriler için en iyi örneklemeyi uygun görmesi durumunda bu seri en fazla 3.500 veri noktası içerebilir.
+* **3.500**, temel alınan veri noktalarından veya serilerinden bağımsız olarak (bkz. aşağıdaki madde işaretli listede yer alan *istisnalar*) çoğu görselde *görüntülenen* en yüksek veri noktası sayısıdır. Bu nedenle, her birinde 350 veri noktası bulunan 10 seriniz varsa görsel, maksimum toplam veri noktası sınırına ulaşmıştır. Bir seriniz varsa yeni algoritmanın temel alınan veriler için en iyi örneklemeyi uygun görmesi durumunda bu seri en fazla 3.500 veri noktası içerebilir.
+
 * Herhangi bir görselde maksimum **60 seri** bulunabilir. 60'tan fazla seriniz varsa verileri bölün ve her biri 60 veya daha az seri içeren birden çok görsel oluşturun. Yalnızca veri segmentlerini (sadece belirli serileri) göstermek için bir **dilimleyici** kullanmak faydalı bir uygulamadır. Örneğin, açıklamadaki tüm alt kategorileri görüntülüyorsanız aynı rapor sayfasındaki toplam kategoriye göre filtreleme yapmak için bir dilimleyici kullanabilirsiniz.
+
+En yüksek veri sınırı sayısı, aşağıdaki görsel türleri için daha yüksektir; ve bunlar 3.500 veri noktası sınırının *istisnalardır*.
+
+* R görselleri için en yüksek **150.000** veri noktası.
+* Özel görseller için **30.000** veri noktası.
+* Dağılım grafikleri için **10.000** veri noktası (dağılım grafiklerinin varsayılanım 3.500’dür)
+* Diğer tüm görseller için **3.500**
 
 Bu parametreler, Power BI Desktop’taki görsellerin çok hızlı işleme yapmasını, kullanıcılarla etkileşime yanıt vermesini ve görseli işleyen bilgisayarda çok fazla hesaplama ek yüküne neden olmamasını sağlar.
 
 ### <a name="evaluating-representative-data-points-for-high-density-line-visuals"></a>Yüksek yoğunluklu çizgi görselleri için temsilci veri noktalarını değerlendirme
-Temel alınan veri noktası sayısı, görselde temsil edilebilecek en fazla veri noktası sayısını (3.500) aştığında, temel alınan verileri *bölme* adlı gruplara bölen, ardından bu grupları yinelemeli olarak iyileştiren ve *gruplama* olarak adlandırılan bir işlem başlar.
+Temel alınan veri noktası sayısı, görselde temsil edilebilecek en fazla veri noktası sayısını aştığında, temel alınan verileri *bölme* adlı gruplara bölen, ardından bu grupları yinelemeli olarak iyileştiren ve *gruplama* olarak adlandırılan bir işlem başlar.
 
 Algoritma, görsel için en geniş ayrıntı düzeyini elde etmek üzere mümkün olduğu kadar çok bölme oluşturur. Algoritma, her bir bölmede önemli ve belirleyici değerlerin (örneğin, aykırı değerler) yakalanıp görselde görüntülenmesini sağlamak için minimum ve maksimum veri değerini bulur. Gruplama sonuçlarına ve ardından Power BI tarafından gerçekleştirilen değerlendirmeye göre görselin x ekseni için minimum çözünürlük, görsel için maksimum ayrıntı düzeyinin elde edileceği şekilde belirlenir.
 
-Yukarıda da belirtildiği gibi her bir seri için minimum ayrıntı düzeyi 350 nokta, maksimum ayrıntı düzeyi ise 3.500 noktadır.
+Daha önce de bahsedildiği üzere, her bir seri için en az parçalı yapı 350, çoğu görsel için, önceki paragraflarda listelenen *istisnalarla* birlikte en fazla 3.500’dür.
 
 Her bir bölme, iki veri noktasıyla temsil edilir ve bu veri noktaları, bölmenin görseldeki temsilci veri noktaları olur. Veri noktaları, ilgili bölmenin yüksek ve düşük değeridir. Gruplama işleminde, yüksek ve düşük değer seçilerek herhangi bir önemli yüksek değerin veya belirleyici düşük değerin yakalanması ve görselde işlenmesi sağlanır.
 

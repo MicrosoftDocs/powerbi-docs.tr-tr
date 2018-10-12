@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599193"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238112"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.
@@ -150,13 +150,38 @@ Yapılandırılabilir Özel Kullanıcı Eşlemesi’ne sahip Şirket içi veri a
 AD Arama gerçekleştirmek için ağ geçidinizi yapılandırma:
 
 1. En yeni ağ geçidini indirme ve yükleme
+
 2. Ağ geçidinde **Şirket içi veri ağ geçidi hizmetini** yerel hizmet hesabı yerine bir etki alanı hesabıyla çalışacak şekilde değiştirmeniz gerekir (Aksi halde AD arama, çalışma zamanında düzgün şekilde çalışmaz). Değişikliğin geçerli olması için ağ geçidi hizmetini yeniden başlatmanız gerekir.  Makinenizde ağ geçidi uygulamasına gidin. ("On-premises data gateway" (Şirket içi veri ağ geçidi) araması yapın). Bunu yapmak için **Service settings > Change service account** (Hizmet ayarları > Hizmet hesabını değiştir) seçeneğine gidin. Yeni bir ağ geçidi oluşturmak istemiyorsanız bu ağ geçidini aynı makinede geri yüklemeniz gerekeceğinden ağ geçidine ilişkin kurtarma anahtarını bildiğinizden emin olun. 
-3. Yazma izinlerine sahip olduğunuzdan emin olmak ve şu dosyayı düzenlemek için ağ geçidinin yüklendiği klasöre (*C:\Program Files\On-premises data gateway*) yönetici olarak gidin:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. AD kullanıcılarınıza ilişkin Active Directory özniteliği *yapılandırmalarınıza* göre aşağıdaki iki yapılandırma değerini düzenleyin. Aşağıda gösterilen yapılandırma değerleri yalnızca örnek amaçlıdır, Active Directory yapılandırmanıza göre değer belirtmeniz gerekir. 
+3. Yazma izinlerine sahip olduğunuzdan emin olmak ve şu dosyayı düzenlemek için ağ geçidinin yüklendiği klasöre (*C:\Program Files\On-premises data gateway*) yönetici olarak gidin: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. AD kullanıcılarınıza ilişkin Active Directory özniteliği *yapılandırmalarınıza* göre aşağıdaki iki yapılandırma değerini düzenleyin. Aşağıda gösterilen yapılandırma değerleri yalnızca örnek amaçlıdır, Active Directory yapılandırmanıza göre değer belirtmeniz gerekir. Bu yapılandırmalar büyük/küçük harfe duyarlıdır, bu nedenle Active Directory'deki değerlerle eşleştiğinden emin olun.
+
+    ![Azure Active Directory ayarları](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    ADServerPath yapılandırması için değer verilmemişse, ağ geçidi varsayılan Genel Kataloğu kullanır. Ayrıca, ADServerPath için birden çok değer belirtebilirsiniz. Her değer, aşağıdaki örnekte gösterildiği gibi noktalı virgülle ayrılmalıdır.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    Ağ geçidi, ADServerPath değerlerini bir eşleşme bulana kadar soldan sağa ayrıştırır. Eşleşme bulunmazsa orijinal UPN kullanılır. Ağ geçidi hizmetini (PBIEgwService) çalıştıran hesabın, ADServerPath’te belirttiğiniz tüm AD sunucularına yönelik sorgu izinlerine sahip olduğundan emin olun.
+
+    Ağ geçidi, aşağıdaki örneklerde gösterildiği üzere, iki tür ADServerPath'ı destekler.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. Yapılandırma değişikliğinin geçerli olması için **Şirket içi veri ağ geçidi** hizmetini yeniden başlatın.
 
 ### <a name="working-with-mapping-rules"></a>Eşleme kuralları ile çalışma

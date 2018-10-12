@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695122"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549765"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Power BI ile Microsoft Dynamics Marketing'e bağlanma
 Power BI için Microsoft Dynamics Marketing içerik paketi ile Dynamics Marketing'deki verilerinize kolayca erişir ve verilerinizi zahmetsizce çözümlersiniz. İçerik paketi; Programlar, Kampanyalar, Pazarlama Kişileri ve Şirketleri, Müşteri Adayları, Müşteri Adayı Etkileşimleri ve Puanlaması, E-posta Pazarlama İletileri ve Web Siteleri, davranış gözlemleri, bütçeler, finansal işlemler, performans KPI'leri gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle OData akışına ilişkin açıklayıcı bir model kullanır. 
@@ -47,10 +47,10 @@ Power BI için [Dynamics Marketing içerik paketine](https://app.powerbi.com/get
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 * Dynamics Marketing örneği için geçerli bir OData URL'si belirtmeniz gerekir (İçerik paketi şirket içi CRM sürümü ile çalışmaz).  

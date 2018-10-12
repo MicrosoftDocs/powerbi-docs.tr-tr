@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565579"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416878"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe/KPI'ye yönelik ilerlemeyi ölçen tek bir değer görüntüler.  Hedef veya hedef değer çizgi (iğne) ile gösterilir. Hedefe yönelik ilerleme gölgelendirme ile gösterilir.  İlerlemeyi gösteren değer ise yayın içinde kalın olarak gösterilir. Olası tüm değerler, minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağılır.
@@ -92,7 +92,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
 
 ### <a name="step-5-save-your-report"></a>5. Adım: Raporunuzu kaydetme
 1. [Raporu kaydedin](../service-report-save.md).
-2. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../consumer/end-user-tiles.md). 
+2. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Minimum, Maksimum ve Hedef değerleri belirlemek için biçimlendirme seçeneklerini kullanma
 1. **Max of Gross Sales** alanını **Maksimum değer** kutusundan kaldırın.
@@ -110,14 +110,8 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. İsteğe bağlı olarak, ölçer grafiğinizi biçimlendirmeye devam edebilirsiniz.
 
-## <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-step"></a>Sonraki adım
+
+[Power BI’daki ölçerler](power-bi-visualization-kpi.md)
+
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Bir rapora görselleştirme ekleme](power-bi-report-add-visualizations-i.md)
-
-[Panoya görselleştirme sabitleme](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

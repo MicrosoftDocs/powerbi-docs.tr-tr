@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657978"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549926"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -182,5 +182,5 @@ Yer işaretleri arasında gezinmek için gri renkli yer işareti başlık çubu�
 Yer işaretlerine benzeyen veya yer işaretleriyle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:
 
 * [Power BI Desktop'ta detaylandırma özelliğini kullanma](desktop-drillthrough.md)
-* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](service-focus-mode.md)
+* [Bir pano kutucuğunu veya rapor görselini Odak modunda görüntüleme](consumer/end-user-focus.md)
 

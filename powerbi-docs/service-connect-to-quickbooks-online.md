@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4cd8974316119978749db4f3996db76d907ab38
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 26caf128828ec67ce7a6f2af62560869e261ee8b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136077"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543532"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Power BI ile QuickBooks Online'a bağlanma
 Power BI'dan QuickBooks Online verilerine bağlandığınızda işletmenizin nakit akışına, kârlılığına, müşterilerine ve daha fazlasına yönelik öngörüler içeren bir Power BI panosu ve Power BI raporları alırsınız. Panoyu ve raporları olduğu gibi kullanabilir ya da en çok değer verdiğiniz bilgiler vurgulanacak şekilde özelleştirebilirsiniz. Veriler günde bir kez otomatik olarak yenilenir.
@@ -55,10 +55,10 @@ Power BI için [QuickBooks Online içerik paketine](https://dxt.powerbi.com/getd
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="troubleshooting"></a>Sorun giderme
 **"Oops! An error has occurred"** ("Hata! Bir hata oluştu")
@@ -82,5 +82,5 @@ Power BI şu anda yalnızca QuickBooks Online'ın ABD sürümlerini desteklemekt
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 

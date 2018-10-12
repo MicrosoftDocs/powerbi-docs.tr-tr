@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616063"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238135"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için bir Power BI raporunu, panosunu veya kutucuğunu bir uygulamaya ekleme
+
 **Azure’da Power BI Embedded** ile raporları, panoları veya kutucukları **verilerin sahibi uygulamadır** örneğini kullanarak bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi uygulamadır** örneği, eklenmiş analiz platformu olarak Power BI’ı kullanan bir uygulamanız olması durumunda kullanılır. **Verilerin sahibi uygulama**, genellikle bir **ISV geliştiricisi** senaryosudur. Bir **ISV geliştiricisi** olarak, tamamen tümleşik ve etkileşimli bir uygulamada raporlar, panolar veya kutucuklar görüntüleyen **Power BI** içeriği oluşturabilirsiniz. Üstelik uygulama kullanıcılarının Power BI lisansı olması gerekmez. Bu öğretici, **verilerin sahibi uygulamadır** yapısını kullanan müşterileriniz için **Azure’da Power BI Embedded** kullanırken **Power BI** JavaScript API’si ile birlikte **Power BI** .NET SDK’sı kullanarak bir raporu bir uygulama ile tümleştirme işlemini göstermektedir.
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
@@ -25,6 +26,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 >* Bir uygulamaya Power BI raporu ekleme.
 
 ## <a name="prerequisites"></a>Önkoşullar
+
 Başlamak için bir **Power BI Pro** hesabı (bu hesap, **ana hesabınızdır**) ve **Microsoft Azure** aboneliği gerekir.
 
 * **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
@@ -36,9 +38,10 @@ Başlamak için bir **Power BI Pro** hesabı (bu hesap, **ana hesabınızdır**)
 
 Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın ekleme işlevlerine izin verecek şekilde ayarlanmış olduğundan emin olmanız gerekir. Kurulumun bir parçası olarak aşağıdaki işlemleri yapmanız gerekir.
 
-Hızla kullanmaya başlamak ve bir ortam oluşturma ve rapor ekleme adımlarını gösteren örnek bir uygulama indirmek için [Katılım deneyimi aracını](https://aka.ms/embedsetup/AppOwnsData) inceleyebilirsiniz.
+Ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı hızlı şekilde kullanmak ve indirmek için [katıştırma kurulum aracı](https://aka.ms/embedsetup/AppOwnsData) bölümünün üzerinden geçebilirsiniz.
 
 Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory'de (Azure AD) bir uygulamayı kaydetme
 
 Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active Directory'ye kaydetmeniz gerekir. Kayıt işlemi sayesinde uygulamanız için bir kimlik oluşturabilir ve Power BI REST kaynaklarıyla ilgili izinleri belirleyebilirsiniz.
@@ -46,11 +49,11 @@ Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active
 1. [Microsoft Power BI API Koşulları](https://powerbi.microsoft.com/api-terms)'nı kabul edin.
 
 2. [Azure portalında](https://portal.azure.com) oturum açın.
- 
+
     ![Azure Portalı Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. Sol taraftaki gezinti bölmesinde **Tüm Hizmetler**'i, **Uygulama Kayıtları**'nı ve sonra **Yeni uygulama kaydı**'nı seçin.
-   
+
     ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Yeni Uygulama kaydı](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,11 +68,11 @@ Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinle
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory portalını kullanma
 
 1. Azure portalındaki [Uygulama kayıtları](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) sayfasına gidip ekleme için kullandığınız uygulamayı seçin.
-   
+
     ![Uygulama Seçme](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. **Ayarlar**’ı ve sonra **API Erişimi** altında **Gerekli izinler**'i seçin.
-   
+
     ![Gerekli İzinler](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. **Windows Azure Active Directory**'yi seçin ve **Oturum açmış kullanıcı olarak dizine erişin** seçeneğinin belirlenmiş olduğundan emin olun. **Kaydet**'i seçin.
@@ -170,7 +173,9 @@ Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturab
 
     Sol gezinti bölmesinde **Tüm Hizmetler**'i ve **Uygulama Kayıtları**'nı seçin.
 
-    ![Uygulama kayıt araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png) **clientId** değerini almak istediğiniz uygulamayı seçin.
+    ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    **clientId** değerini almak istediğiniz uygulamayı seçin.
 
     ![Uygulama Seçme](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturab
     ![Uygulamayı görüntüleme](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>İçeriğinizi uygulamanın içine ekleme
+
 İçeriğinizi ekleme adımları [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/) ile yapılabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanır.
 
 Uygulamanıza müşterileriniz için içerik ekleme işlemi, **Azure AD**’den ana hesabınız için bir **erişim belirteci** alınmasını gerektirir. [Power BI REST API’lerine](https://docs.microsoft.com/rest/api/power-bi/) çağrı yapmadan önce, **verilerin sahibi uygulamadır** örneği kullanılarak Power BI uygulamanız için [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) alınması gerekir.
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Eklemek istediğiniz içerik öğesini alma
+
 Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci nesnesini kullanabilirsiniz.
 
 Burada belirli bir çalışma alanının ilk raporunu nasıl alacağınızı gösteren bir kod örneği vardır.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
+
 JavaScript API'sinden kullanılabilecek bir ekleme belirtecinin oluşturulması gerekir. Ekleme belirteci, eklediğiniz öğeye özeldir. Dolayısıyla, eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerekir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx).
 
 Burada rapor için uygulamanıza bir ekleme belirteci yerleştirme örneği verilmiştir.
@@ -323,6 +331,7 @@ Burada, **EmbedConfig** modeliyle **TileEmbedConfig** modelinin yanı sıra rapo
 Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile uygulamanızın çalışma alanını destekleme işlemine geçmelisiniz. Üretime geçmek için adanmış kapasite gerekir.
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
+
 Adanmış kapasite oluşturduğunuzda, müşteriniz için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. [Microsoft Azure portalının](https://portal.azure.com) içinden adanmış kapasite satın alabilirsiniz. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
 Gereksinimlerinize en uygun Power BI Embedded kapasitesini saptamak için aşağıdaki tabloyu kullanın.
@@ -359,6 +368,7 @@ Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu ada
     ![kapasite atanmış uygulama çalışma alanı](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 Bu öğreticide müşterileriniz için bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Kuruluşunuz için de Power BI içeriği ekleme denemeleri yapabilirsiniz.
 
 > [!div class="nextstepaction"]

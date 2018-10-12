@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134651"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548155"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
@@ -47,9 +47,9 @@ Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan 
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
@@ -70,5 +70,5 @@ Bir kimlik bilgileri hatası veya geçeriz kimlik bilgileri nedeniyle yenileme h
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)  
-[Power BI - Temel Kavramlar](service-basic-concepts.md)  
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)  
 

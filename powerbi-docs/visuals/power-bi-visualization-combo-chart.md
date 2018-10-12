@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544015"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448972"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -55,9 +55,9 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
     c.  **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Görselleştirmenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyin. Artan veya azalan düzende sıralama yapmak için bu seçeneği iki kez belirlemeniz gerekebilir.
+5. Görselleştirmenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
 
-6. Sütun grafiğini bir birleşik haritaya dönüştürün. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
+6. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik grafik vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. **Alanlar** bölmesinden **Sales** \> **Last Year Sales** alanını **Çizgi Değerleri** demetine sürükleyin.
@@ -71,7 +71,8 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
 ## <a name="create-a-combo-chart-with-two-axes"></a>İki eksenli birleşik harita oluşturma
 Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
-1. **Gross Margin Last Year %** verilerini **Month** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun.  Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
+1. **Gross Margin Last Year %** verilerini **Month** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
+Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. **Gross Margin Last Year %** alanının ölçeği, **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır.      
@@ -80,7 +81,7 @@ Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 3. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve Yığılmış Sütun grafiğine dönüştürün.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. Power BI iki eksen oluşturarak veri kümelerinin farklı şekilde ölçeklenmesine olanak sağlar; sol eksende dolar cinsinden satış değeri gösterilirken sağ eksende yüzde ölçülür.
+4. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. Power BI iki eksen oluşturarak veri kümelerinin farklı şekilde ölçeklenmesine olanak sağlar; sol eksende dolar cinsinden satış değeri gösterilirken sağ eksende yüzde ölçülür. Ve sorumuzun cevabını görüyoruz; evet, benzer bir desen görüyoruz.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
 Bu noktada aşağıdakileri yapmak isteyebilirsiniz:
 
-* [Birleşik haritayı pano kutucuğu olarak ekleme](../consumer/end-user-tiles.md).
+* [Birleşik haritayı pano kutucuğu olarak ekleme](../service-dashboard-tiles.md).
 * [Raporu kaydedin](../service-report-save.md).
-* [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](../desktop-accessibility.md)
+* [Raporu engelli kişiler için daha kolay erişilebilir hale getirin](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Çapraz vurgulama ve çapraz filtreleme
 
-Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../consumer/end-user-interactions.md) yararlanın.
+Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../service-reports-visual-interactions.md) yararlanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI raporlarındaki görselleştirmelere genel bakış](power-bi-report-visualizations.md)
+[Power BI'daki halka grafikler](power-bi-visualization-doughnut-charts.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

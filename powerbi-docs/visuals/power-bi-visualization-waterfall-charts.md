@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565832"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448926"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 Şelale grafikler, değerler eklenirken veya çıkarılırken değişen toplamı gösterir. Bir başlangıç değerinin (örneğin, net gelir) bir dizi pozitif ve negatif değişiklikten nasıl etkilendiğini anlamak için faydalıdır.
@@ -39,32 +39,32 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
 
 1. **Veri Kümeleri** sekmesini seçin ve yeni "Retail Analysis Sample" veri kümesine gidin.  Veri kümesini rapor düzenleme görünümünde açmak için **Rapor oluştur** simgesini seçin. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. **Alanlar** bölmesinde, **Sales \> Total Sales Variance** seçeneğini belirleyin. **Total Sales Variance** **Y Ekseni**'nde değilse bu eksene sürükleyin.
-3. Grafiği bir **Şelale**'ye dönüştürün. 
+    ![Vurgulanan veri kümeleri sekmesi](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. **Alanlar** bölmesinde, **Sales \> Total Sales Variance** seçeneğini belirleyin. 
+3. Grafiği bir **Şelale**'ye dönüştürün. **Total Sales Variance** **Y Ekseni**'nde değilse bu eksene sürükleyin.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Görsel öğe şablonları](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. **Kategori** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![şelale](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Şelale grafiği kronolojik olarak sıralayın. Grafiğin sağ üst köşesinden üç nokta (...) simgesini seçin ve **FiscalMonth** seçeneğini belirleyin.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![sıralama ölçütü: FiscalMonth seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![Yeni artan düzende sıralama sonucu](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Aydan aya değişikliklere en çok katkıda bulunan öğeleri görmek için biraz daha ayrıntıya inin. **Store** > **Territory** alanını **Kırılım** demetine sürükleyin.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Varsayılan olarak, Power BI aya göre artış ve azalışa en çok katkıda bulunan 5 öğeyi ekler. Ancak biz yalnızca en çok katkıda bulunan 2 öğeyle ilgileniyoruz.  Biçimlendirme bölmesinde **Kırılım**'ı seçin ve **En yüksek çözümlemeler** ayarını 2 olarak belirleyin.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Biçimlendirme > Çözümleme](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     Hızlı bir gözden geçirmeyle şelale grafiğimizde negatif ve pozitif olarak harekete en çok katkıda bulunan bölgelerin Ohio ve Pennsylvania olduğunu görüyoruz. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Bu ilgi çekici bir bulgu. Ohio ve Pennsylvania, bu 2 bölgedeki satışlar diğer bölgelere göre çok daha yüksek olduğu için mi böyle büyük bir etkiye sahip?  Bunu kontrol edebiliriz. Bölgeye göre satışları inceleyen bir harita oluşturun.  
+    ![Şelale grafiği](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Bu ilgi çekici bir bulgu. Ohio ve Pennsylvania, bu 2 bölgedeki satışlar diğer bölgelere göre çok daha yüksek olduğu için mi böyle büyük bir etkiye sahip?  Bunu kontrol edebiliriz. Bu yılki satış değerini ve geçen yılki satışları bölgeye göre inceleyen bir harita oluşturun.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![PA ve Ohio’nun haritada yakın gösterimi](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     Haritamız teorimizi destekler niteliktedir.  Harita, bu 2 bölgenin, geçen yıl (kabarcık boyutu) ve bu yılın en yüksek satış değerlerine sahip olduğunu göstermektedir.
 
@@ -74,13 +74,7 @@ Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekle
 Bir şelale grafikte sütunların vurgulanması, rapor sayfasındaki diğer görselleştirmelerde çapraz filtre uygular. (Vurgulamayı değiştirerek farklı sonuçlar elde edebilirsiniz.) Ancak, Total sütunu vurgulamayı tetiklemez veya çapraz filtrelemeye yanıt vermez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki raporlar](../consumer/end-user-reports.md)
+
+[Görsel etkileşimler](../service-reports-visual-interactions.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
-
-[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

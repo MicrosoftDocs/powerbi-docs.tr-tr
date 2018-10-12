@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599059"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548454"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Power BI ile tyGraph'e bağlanma
 Power BI içerik paketiyle tyGraph verilerinizi Power BI'da görselleştirin ve araştırın. tyGraph hesabınıza bağlanıp panoyu, raporları ve veri kümesini yükleyerek başlayın. Kullanıma hazır olarak sunulan içerik paketinde, MAE puanı olarak da bilinen Measure of Active Engagement (Etkin Katılım Ölçeği) ve En Çok Katkıda Bulunanlar gibi öngörüler yer alır. En çok önem verdiğiniz bilgileri vurgulamak için daha fazla özelleştirme gerçekleştirin.  Veriler, ayarladığınız bir zamanlamaya göre otomatik olarak yenilenir.
@@ -51,10 +51,10 @@ Power BI içerik paketiyle tyGraph verilerinizi Power BI'da görselleştirin ve 
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 <a name="FindingParams"></a>
 

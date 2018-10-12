@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: fad623b9472e2992ddb0a6d43cb8d669a1f14cf7
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658139"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550018"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop'taki ölçüler
 

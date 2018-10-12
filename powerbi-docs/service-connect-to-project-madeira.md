@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 49902e5f7705bf17b8343aa09af6d2fcf43f7ee5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599796"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550156"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Power BI ile Project "Madeira"ya bağlanın
 Power BI ve Project "Madeira" içerik paketi sayesinde Project "Madeira" verileriniz için kolayca öngörüler elde edebilirsiniz. Power BI hem Satış hem de Finansal verilerinizi alıp bu verilere dayalı, kullanıma hazır bir pano ve raporlar oluşturur.
@@ -48,9 +48,9 @@ Power BI için [Project "Madeira" Analytics içerik paketine](https://app.powerb
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 <a name="Requirements"></a>
@@ -115,5 +115,5 @@ Belirli bir web hizmeti için tam URL'nin belirtilmesi sıklıkla yapılan bir h
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 

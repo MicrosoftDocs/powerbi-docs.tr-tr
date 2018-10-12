@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329397"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417177"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -65,7 +65,7 @@ Aşağıdaki tabloda (veya matriste), gerçek zamanlı akış için kullanılabi
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu MSDN makalesini](https://msdn.microsoft.com/library/dn950053.aspx) okuyun.
+> Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu makaleyi](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) okuyun.
 > 
 > 
 
@@ -83,14 +83,12 @@ Sırayla bu yaklaşımların her birine göz atalım.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Veri göndermek için Power BI REST API'lerini kullanma
 **Power BI REST API'leri**, **gönderim** veri kümelerinde ve **akış** veri kümelerinde veri oluşturmak ve bu veri kümelerine veri göndermek için kullanılabilir. Power BI REST API'lerini kullanarak bir veri kümesi oluşturduğunuzda, *defaultMode* bayrağı, veri kümesinin gönderim veya akış olup olmadığını belirtir. *defaultMode* bayrağı ayarlanmamışsa veri kümesi, varsayılan olarak **gönderim** veri kümesi biçimindedir.
 
-*defaultMode* değeri *pushStreaming* olarak ayarlanmışsa veri kümesi, hem **gönderim** *hem de* **akış** veri kümesidir; bu nedenle iki veri kümesi türünün de sağladığı avantajlardan yararlanabilirsiniz. [**Veri kümesi oluşturma**](https://msdn.microsoft.com/library/mt203562.aspx) ile ilgili REST API makalesinde, akış veri kümesi oluşturma işlemi ve *defaultMode* bayrağının çalışma şekli açıklanmaktadır.
+*defaultMode* değeri *pushStreaming* olarak ayarlanmışsa veri kümesi, hem **gönderim** *hem de* **akış** veri kümesidir; bu nedenle iki veri kümesi türünün de sağladığı avantajlardan yararlanabilirsiniz. 
 
 > [!NOTE]
 > *defaultMode* bayrağı *pushStreaming* olarak ayarlanmış şekilde veri kümeleri kullanılırken, bir isteğin **akış** veri kümelerine yönelik 15 KB'lık boyut kısıtlamasını aşması ancak **gönderim** veri kümelerine yönelik 16MB'lık boyut kısıtlamasını ihlal etmemesi halinde, istek başarılı olur ve veriler gönderim veri kümesinde güncelleştirilir. Ancak, tüm akış kutucukları geçici olarak başarısız olur.
-> 
-> 
 
-Bir veri kümesi oluşturulduktan sonra, [**Add Rows** API](https://msdn.microsoft.com/library/mt203561.aspx)'sini kullanarak veri göndermek için REST API'lerini kullanın. ([Bu makalede gösterilmiştir](https://msdn.microsoft.com/library/mt203561.aspx).)
+Bir veri kümesi oluşturulduktan sonra, [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)'sini kullanarak veri göndermek için REST API'lerini kullanın.
 
 REST API'lere yönelik tüm istekler **Azure AD OAuth** kullanılarak güvence altına alınır.
 
@@ -159,7 +157,7 @@ Sonraki bölümlerde sırayla her iki seçenek de incelenmektedir.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Power BI'ın bu veri akışı yoluyla gönderilen verileri depolamasını istiyorsanız *Geçmiş veri çözümlemesi*'ni etkinleştirin; böylece, toplanan veri akışı üzerinde raporlama ve analiz işlemleri gerçekleştirebilirsiniz. Ayrıca [API hakkında daha fazla bilgi edinebilirsiniz](https://msdn.microsoft.com/library/dn877544.aspx).
+Power BI'ın bu veri akışı yoluyla gönderilen verileri depolamasını istiyorsanız *Geçmiş veri çözümlemesi*'ni etkinleştirin; böylece, toplanan veri akışı üzerinde raporlama ve analiz işlemleri gerçekleştirebilirsiniz. Ayrıca [API hakkında daha fazla bilgi edinebilirsiniz](https://docs.microsoft.com/rest/api/power-bi/).
 
 Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API URL uç noktası edinirsiniz. Böylece uygulamanız, oluşturduğunuz Power BI **akış verileri** veri kümesine verilerinizi göndermek üzere *POST* isteklerini kullanarak bu uç noktayı çağırabilir.
 
@@ -223,10 +221,10 @@ Akış veri kümeleri, en son verileri görüntülemek için tasarlanmıştır. 
 Ne yazık ki şu anda böyle bir özellik sunulmamaktadır.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Önceki soruyu göz önünde bulundurduğumuzda, gerçek zamanlı veri kümeleri üzerinde nasıl modelleme yapabilirim?
-Veriler kalıcı olarak depolanmadığı için akış veri kümesi üzerinde modelleme yapmak mümkün değildir. Bir gönderim veri kümesine ölçü ve ilişki eklemek için veri kümesini/tablo REST API'lerini güncelleştirme özelliğini kullanabilirsiniz. [Tablo Şemasını Güncelleştirme makalesi](https://msdn.microsoft.com/library/mt203560.aspx) ve [Veri kümesi özellikleri makalesinden](https://msdn.microsoft.com/library/mt742155.aspx) daha fazla bilgi edinebilirsiniz.
+Veriler kalıcı olarak depolanmadığı için akış veri kümesi üzerinde modelleme yapmak mümkün değildir. Bir gönderim veri kümesine ölçü ve ilişki eklemek için veri kümesini/tablo REST API'lerini güncelleştirme özelliğini kullanabilirsiniz. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümesindeki tüm değerleri nasıl temizleyebilirim? Peki ya akış veri kümelerindeki?
-Gönderim veri kümesinde Delete Rows REST API çağrısını kullanabilirsiniz. REST API'ler etrafında bir sarmalayıcı görevi gören bu kullanışlı aracı, söz konusu işlemlerden bağımsız olarak da kullanabilirsiniz. Şu anda, akış kümelerindeki verileri silmek mümkün değildir, ancak veriler, bir saatin ardından kendi kendine silinir.
+Gönderim veri kümesinde Delete Rows REST API çağrısını kullanabilirsiniz. Şu anda, akış kümelerindeki verileri silmek mümkün değildir, ancak veriler, bir saatin ardından kendi kendine silinir.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI'a yönelik olarak ayarladığım Azure Akış Analizi çıkışı Power BI'da görünmüyor. Bunun nedeni nedir?
 Sorunu gidermek için kullanabileceğiniz bir denetim listesi aşağıda verilmiştir:
@@ -241,9 +239,6 @@ Sorunu gidermek için kullanabileceğiniz bir denetim listesi aşağıda verilmi
 ## <a name="next-steps"></a>Sonraki adımlar
 Burada, Power BI'da gerçek zamanlı akış kullanırken faydalı bulabileceğiniz birkaç bağlantı yer almaktadır:
 
-* [Gerçek zamanlı verilerle Power BI REST API'sine genel bakış](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API Limitations (Power BI REST API Sınırlamaları)](https://msdn.microsoft.com/library/dn950053.aspx)
-* [**Create Dataset**'e yönelik REST API makalesi](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**Add Rows** Power BI REST API'si](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Gerçek zamanlı verilerle Power BI REST API'sine genel bakış](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Akış Analizi](https://azure.microsoft.com/services/stream-analytics/)
 

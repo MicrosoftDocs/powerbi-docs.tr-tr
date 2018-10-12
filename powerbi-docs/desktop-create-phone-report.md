@@ -1,38 +1,39 @@
 ---
 title: Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-description: Power BI Desktop'ta rapor sayfalarını Power BI telefon uygulamaları için en iyi duruma getirmeyi öğrenin.
+description: Raporun telefona özgü bir sürümünü oluşturarak, Power BI telefon uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 09/14/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726467"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973966"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-[Power BI Desktop'ta bir rapor oluşturduğunuzda](desktop-report-view.md) raporun telefona özgü bir sürümünü oluşturarak telefonlardaki mobil uygulamalarda daha iyi bir kullanım deneyimi sunmasını sağlayabilirsiniz. Raporunuzu telefon için uyarlamak üzere görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
+Raporun telefona özgü bir sürümünü oluşturarak, telefondaki raporlarınızı mobil uygulamalarda görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop’ta ve Power BI hizmetinde raporunuzu telefon için uyarlamak amacıyla görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
 
 ![Telefonda en iyi duruma getirilmiş rapor](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Power BI Desktop'ta bir rapor sayfasını telefona göre düzenleme
-[Power BI Desktop'ta bir rapor oluşturduktan sonra](desktop-report-view.md) telefonlar için en iyi duruma getirebilirsiniz.
+## <a name="lay-out-a-report-page-for-the-phone"></a>Bir rapor sayfasını telefon için düzenleme
 
-1. Power BI Desktop'ta sol gezinti çubuğundaki **Rapor Görünümü**'nü seçin.
-   
-    ![Rapor Görünümü simgesi](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
-2. **Görünüm** sekmesinde **Telefon Düzeni**'ni seçin.  
+Bir rapor oluşturduktan sonra, telefonlar için iyileştirebilirsiniz.
+
+1. Power BI Desktop’ın Rapor Görünümü’nde, **Görünüm** sekmesinde **Telefon Düzeni**’ni seçin.  
    
     ![Telefon Düzeni simgesi](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
+    Power BI hizmetinde, **Raporu Düzenle** > **Mobil Düzen**’i seçin.
+
     Boş bir telefon tuvali göreceksiniz. Özgün rapor sayfanızdaki tüm görseller sağ taraftaki Görsel Öğeler bölmesinde listelenir.
+
 3. Telefon düzenine eklemek istediğiniz görselleri Görsel Öğeler bölmesinden telefon tuvaline sürükleyin.
    
     Telefon raporları kılavuz düzeni kullanır. Mobil tuvale sürüklediğiniz görseller bu kılavuza yapışır.
@@ -40,12 +41,10 @@ ms.locfileid: "44726467"
     ![Görseli sürükleyip bırakma](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     Ana rapor sayfasındaki görsellerin bazılarını veya tümünü telefon rapor sayfasına ekleyebilirsiniz. Her görseli yalnızca bir kez ekleyebilirsiniz.
+
 4. Kılavuz üzerindeki görselleri panolardaki ve mobil panolardaki kutucuklar gibi yeniden boyutlandırabilirsiniz.
    
-   > [!NOTE]
-   > Telefon raporu kılavuzu farklı boyutlardaki telefonlara göre değişir. Bu sayede raporunuz hem küçük hem de büyük ekranlı telefonlarda güzel görünür.
-   > 
-   > 
+   Telefon raporu kılavuzu farklı boyutlardaki telefonlara göre değişir. Bu sayede raporunuz hem küçük hem de büyük ekranlı telefonlarda güzel görünür.
    
    ![Görsel boyutunu değiştirme](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 

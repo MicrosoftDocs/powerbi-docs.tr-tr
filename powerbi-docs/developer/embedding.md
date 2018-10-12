@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616040"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973782"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI ile ekleme
 
-Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Başka bir deyişle içeriğinizi eklerken kullanabileceğiniz bir özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olursunuz.
+Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken kullanabileceğiniz bir özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacağınız anlamına gelir.
 
-Hızlıca çalışmaya başlamak ve bir örnek uygulama indirmek için [Ekleme deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
+Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Katıştırma kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 
 Size uygun olan çözümü seçin:
 
@@ -49,7 +49,7 @@ Kuruluşunuz için içerik ekleme konusunda bilgiye aşağıdaki sayfalardan ula
 
 Düzenleme ve kaydetme gibi self servis özellikleri Power BI kullanıcıları için ekleme yaparken [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)'si aracılığıyla kullanılabilir.
 
-Hızla kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için kuruluşunuzda eklemeye yönelik [ekleme deneyimi aracını](https://aka.ms/embedsetup/UserOwnsData) inceleyebilirsiniz.
+Hızlı kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için kuruluşunuzda eklemeye yönelik [katıştırma kurulum aracını](https://aka.ms/embedsetup/UserOwnsData) inceleyebilirsiniz.
 
 ## <a name="embedding-for-your-customers"></a>Müşterileriniz için içerik ekleme
 

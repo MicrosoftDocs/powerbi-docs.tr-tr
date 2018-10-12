@@ -9,40 +9,40 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2817ccb25fc9aa6d3e8150c776558366dcf0ccb6
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088851"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237997"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Uygulamalardan rapor veya pano ekleme
 
-**Power BI**'da, ilişkili **pano** ve **raporları** bir araya getirip kuruluşunuzda kalabalık gruplara yayımlamak için uygulamalar oluşturabilirsiniz. Bu uygulamaları, tüm kullanıcılarınız Power BI kullandığında ve onlarla Power BI uygulamalarını kullanarak içerik paylaşma imkanınız olduğunda kullanabilirsiniz. Yayımlanmış bir Power BI uygulamasından üçüncü taraf uygulamasına içerik ekleme konusunda birkaç pratik adım paylaşmak istiyoruz.
+Power BI'da ilişkili panoları ve raporları tek bir yerde bir araya getirmek için uygulama oluşturabilirsiniz. Ardından, uygulamaları kuruluşunuzdaki büyük kullanıcı gruplarına yayımlarsınız. Bu uygulamaların kullanımı, tüm kulanıcılarınız Power BI kullanıcısı olduğunda geçerlidir. Yani Power BI uygulamalarını kullanarak bunlarla içerik paylaşabilirsiniz. Bu makalede, yayımlanmış bir Power BI uygulamasından üçüncü taraf uygulamasına içerik ekleme hakkında birkaç pratik adım yer almaktadır.
 
-## <a name="how-to-grab-report-embed-url-for-embedding"></a>Ekleme için rapor ekleme URL'si alma
+## <a name="grab-a-report-embedurl-for-embedding"></a>Ekleme için rapor embedURL edinme
 
-1. Kendinizle paylaşarak veya başka bir kullanıcının bu akışı izlemesini sağlayarak uygulamayı bir kullanıcı çalışma alanında ("Çalışma Alanım") başlatın.
+1. Bir kullanıcı çalışma alanında (**My Workspace**) uygulamanın örneğini oluşturun. Kendinizle paylaşın veya başka bir kullanıcıya bu süreçte kılavuzluk edin.
 
 2. İstediğiniz raporu Power BI hizmetinde açın.
 
-3. SharePoint Online'da Dosya->Ekle yolunu izleyin ve rapor ekleme URL'sini oradan alın (aşağıdaki ekran görüntüsüne bakın) veya GetReports/GetReport REST API'sine çağrı yaparak yanıttan ilgili rapor embedURL alanını ayıklayın (uygulama, kullanıcının çalışma alanında başlatıldığından REST çağrısında URL'nin içinde çalışma alanı tanımlayıcısı olmadığından emin olun).
+3. **Dosya** > **SharePoint Online’a Ekle** öğesine gidin ve buradan rapor embedURL’yi edinin. Aşağıdaki anlık görüntüde gösterilmektedir. Alternatif olarak GetReports/GetReport REST API’sine çağrı yapın ve ilgili rapor embedURL alanını yanıttan ayıklayın. Uygulamanın örneği kullanıcının çalışma alanında oluşturulduğundan, REST çağrısında URL’nin parçası olarak bir çalışma sayfası tanımlayıcısı olmamalıdır.
 
-4. 3. adımda aldığınız ekleme URL'sini JS SDK'sı ile birlikte kullanın.
+4. JavaScript SDK'sı ile 3. adımda alınan embedURL’yi kullanın.
 
     ![Uygulamalardan ekleme](media/embed-from-apps/embed-from-app.png)
 
-## <a name="how-to-grab-dashboard-embed-url-for-embedding"></a>Ekleme için pano ekleme URL'si alma
+## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Ekleme için pano embedURL edinme
 
-1. Kendinizle paylaşarak veya başka bir kullanıcının bu akışı izlemesini sağlayarak uygulamayı bir kullanıcı çalışma alanında ("Çalışma Alanım") başlatın.
+1. Bir kullanıcı çalışma alanında (**My Workspace**) uygulamanın örneğini oluşturun. Kendinizle paylaşın veya başka bir kullanıcıya bu süreçte kılavuzluk edin.
 
-2. GetDashboards REST API'sine çağrı yaparak yanıttan ilgili pano embedURL alanını ayıklayın (uygulama, kullanıcının çalışma alanında başlatıldığından REST çağrısında URL'nin içinde çalışma alanı tanımlayıcısı olmadığından emin olun).
+2. GetDashboards REST API’sine çağrı yapın ve ilgili pano embedURL alanını yanıttan ayıklayın. Uygulamanın örneği kullanıcının çalışma alanında oluşturulduğundan, REST çağrısında URL’nin parçası olarak bir çalışma sayfası tanımlayıcısı olmamalıdır.
 
-3. 4. adımda aldığınız ekleme URL'sini JS SDK'sı ile birlikte kullanın.
+3. JavaScript SDK'sı ile 2. adımda alınan embedURL’yi kullanın.
 
-## <a name="next-steps"></a>Sonraki Adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 
-Üçüncü taraf müşterileriniz ve kuruluşunuz için uygulama çalışma alanlarından içerik ekleme konularına da göz atın.
+Üçüncü taraf müşterileriniz ve kuruluşunuz için uygulama çalışma alanlarından içerik ekleme konularına göz atın:
 
 > [!div class="nextstepaction"]
 >[Üçüncü taraf müşteriler için ekleme](embed-sample-for-customers.md)

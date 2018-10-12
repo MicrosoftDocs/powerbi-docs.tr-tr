@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558597"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474058"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Katıştırılmış uygulamanızla ilgili sorunları giderme
 
@@ -84,18 +84,18 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının 
 
 GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması belirtecini yenilemesi gerekebilir.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Kimlik Doğrulama
 
@@ -229,13 +229,13 @@ IError nesnesine ulaştıktan sonra kullandığınız ekleme türüne uygun olan
 | OpenConnectionError | Görsel görüntülenemiyor. Şu başlığa sahip rapor görseli işlenemedi: <visual title> | YOK | Kapasiteyle ilgili bir rapor oturumda açıkken kapasite duraklatıldı veya silindi |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Bu raporla ilişkili model şeması yüklenemedi. Sunucuya bağlı olduğunuzdan emin olun ve yeniden deneyin. | YOK | <li> Kapasite duraklatıldı <li> Kapasite silindi |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için katılım deneyimi aracı
+## <a name="embedding-setup-tool"></a>Katıştırma kurulum aracı
 
-Bir örnek uygulamayı hızlıca indirmek için [Katılım deneyimi aracını](https://aka.ms/embedsetup) inceleyebilirsiniz. Daha sonra uygulamanızı örnekle karşılaştırabilirsiniz.
+Bir örnek uygulamayı hızlıca indirmek için [Katıştırma kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz. Daha sonra uygulamanızı örnekle karşılaştırabilirsiniz.
 
 ### <a name="prerequisites"></a>Önkoşullar
 
-Katılım deneyimi aracını kullanmadan önce tüm uygun önkoşulları yerine getirdiğinizi doğrulayın. Bir **Power BI Pro** hesabı ve bir **Microsoft Azure** aboneliği gerekir.
+Katıştırma kurulum aracını kullanmadan önce tüm uygun önkoşulları yerine getirdiğinizi doğrulayın. Bir **Power BI Pro** hesabı ve bir **Microsoft Azure** aboneliği gerekir.
 
 * **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
 * Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
@@ -244,7 +244,7 @@ Katılım deneyimi aracını kullanmadan önce tüm uygun önkoşulları yerine 
 
 ### <a name="common-issues"></a>Sık Karşılaşılan Sorunlar
 
-Katılım deneyimi aracı ile test etme sırasında karşılaşabileceğiniz bazı yaygın sorunlar şunlardır:
+Katıştırma kurulum aracını ile test etme sırasında karşılaşabileceğiniz bazı yaygın sorunlar şunlardır:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Embed for your customers örnek uygulamasını kullanma
 
@@ -262,6 +262,10 @@ Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar
 
 Örnek uygulamaya eklenmeyen tek değer kullanıcı parolanız olduğundan bu hata oluşur. Çözümde Web.config dosyasını açın ve pbiPassword alanını kullanıcınızın parolasıyla doldurun.
 
+AADSTS50079 hatasını alırsanız: Kullanıcının çok faktörlü kimlik doğrulaması kullanması gereklidir.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Embed for your organization örnek uygulamasını kullanma
 
 **Embed for your organization** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* klasörünü açın ve *pbi-saas-embed-report.sln* dosyasını çalıştırın.
@@ -275,6 +279,10 @@ Bunun nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL
 Kayıtlı uygulamayı düzenlemek istiyorsanız, uygulamanın web API’lerine erişim sağlayabilmesi için [AAD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) düzenleme hakkında bilgi edinin.
 
 Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
+
+AADSTS50079 hatasını alırsanız: Kullanıcının çok faktörlü kimlik doğrulaması kullanması gereklidir.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 

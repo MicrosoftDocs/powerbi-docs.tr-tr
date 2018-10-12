@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249448"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544889"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Power BI ile Twilio'ya bağlanma
 Power BI için Microsoft Twilio içerik paketi, verilerinizi Power BI'a çekmenize olanak sağlar ve verilerinize ilişkin öngörüleri gösteren, kullanıma hazır bir [Twilio panosu](https://powerbi.microsoft.com/integrations/twilio) ile bir rapor oluşturur. Ayrıca, Power BI'ın oluşturduğu veri kümesinde özel raporlar ve pano oluşturabilirsiniz. Veriler günde bir kez yenilenir ve sürekli güncel kalır.
@@ -41,10 +41,10 @@ Power BI için [Twilio içerik paketine](https://app.powerbi.com/getdata/service
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Son 30 gün boyunca yapılan tüm çağrı ve mesaj işlemleri ile ilgili ayrıntılı bilgiler. Bu veriler üzerinde her türlü analiz ve toplama işlemi gerçekleştirebilirsiniz.

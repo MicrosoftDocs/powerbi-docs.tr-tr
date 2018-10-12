@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748942"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546918"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,25 @@ ms.locfileid: "44748942"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>Eylül 2018
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>Tarayıcıda telefon raporu düzenleme (tüm cihazlar)
+
+Artık yalnızca Power BI Desktop'ta değil Power BI hizmetinde daha önce yayımlanmış bir raporun düzenini oluşturabilirsiniz. Bunu tarayıcınızda Düzenleme modunda oluşturursunuz.
+
+### <a name="dashboard-commenting-ios-and-android"></a>Pano yorumları (iOS ve Android) 
+
+Verilerinizi tartışmak için panolara ve belirli kutucuklara doğrudan yorum ekleyebilirsiniz; panoları görenler yorumlarınızı da görür. Ayrıca kuruluşunuzdaki başkalarını da bu kişilere @mentioning (değinme) yoluyla söyleşiye çekebilirsiniz. @mentioned (değindiğiniz) kişiler mobil telefonlarına iletiniz ile birlikte bir anında iletme bildirimi de alır.
+
+Şu anda iOS ve Android cihazlarda bulunmaktadır. Windows desteği yakında gelecektir.
+
+Power BI [pano yorumlarıyla ilgili blog yazısını](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) okuyun.
+
+### <a name="single-sign-on-windows"></a>Çoklu Oturum Açma (Windows)
+
+Çoklu Oturum Açma (SSO), Windows için Power BI Mobil'de en çok istenen özelliklerinden biridir. Artık birincil kuruluş hesabınızı yalnızca etki alanına katılmış Windows mobil cihazlarınızda değil sorunsuz bir şekilde Power BI hizmetinde de oturma açmak için kullanabilirsiniz. [SSO ve Windows mobil uygulamaları](mobile-windows-10-app-single-sign-on-sso.md) hakkında daha fazla bilgi edinin.
+
 
 ## <a name="july-2018"></a>Temmuz 2018
 
@@ -177,7 +196,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 
 ### <a name="june-2107"></a>Haziran 2107
 #### <a name="all-devices"></a>Tüm cihazlar
-**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../../service-install-use-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
+**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../end-user-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
 
 ### <a name="may-2017"></a>Mayıs 2017
 #### <a name="all-devices"></a>Tüm cihazlar
@@ -498,7 +517,7 @@ Ocak ayında yapılan iyileştirmelerin tümü, Aralık 2015'te kullanıma sunul
 
 **R kutucukları ve web pencere öğeleri** Mobil cihazınızdaki panolarda bu yeni kutucuk türlerini görüntüleyin.
 
-**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../../service-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
+**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../end-user-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
 
 **Panolara kutucuk olarak sabitlenen rapor sayfaları** Rapor sayfalarının tamamını Power BI hizmetindeki panolara sabitleyebilir ve rapor sayfalarını iPhone'unuzda veya Android telefonunuzda Power BI uygulamasında görüntüleyebilirsiniz.
 

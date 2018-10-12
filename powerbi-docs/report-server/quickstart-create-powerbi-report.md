@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726743"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564935"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com)) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -31,7 +31,7 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 
     ![Web portalından Power BI Desktop'ı indirme](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (Power BI Rapor Sunucusu için en iyi duruma getirilmiş - Mart 2018) sayfasına da gidebilirsiniz.
+    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (Power BI Rapor Sunucusu için en iyi duruma getirilmiş - Ağustos 2018) sayfasına da gidebilirsiniz.
 
 2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
 
@@ -41,13 +41,13 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 
     - **PBIDesktopRS_x64.msi** (64 bit sürümü).
 
-4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Mart 2018) Kurulum Sihirbazını çalıştırın.
+4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ağustos 2018) Kurulum Sihirbazını çalıştırın.
 
 2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
    
-    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki "Power BI Desktop (Mart 2018)" ifadesi, doğru sürüme sahip olduğunuzu gösterir.
+    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki "Power BI Desktop (Ağustos 2018)" ifadesi, doğru sürüme sahip olduğunuzu gösterir.
 
-    ![Power BI Desktop Mart 2018 sürümü](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop Ağustos 2018 sürümü](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Power BI Desktop uygulamasını daha önceden kullanmadıysanız karşılama ekranındaki videoları izlemek isteyebilirsiniz.
    
@@ -91,36 +91,6 @@ Hazırladığınız raporu, 2. Adımda seçtiğiniz Power BI Rapor Sunucusu'na k
 2. Artık bu raporu web portalında görüntüleyebilirsiniz.
    
     ![Raporu web portalında görüntüleme](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-Power BI Rapor Sunucusu ve Power BI hizmetindeki (http://powerbi.com)) raporlar, birkaç farklı özellik dışında neredeyse aynıdır.
-
-### <a name="in-a-browser"></a>Tarayıcıda
-Power BI Rapor Sunucusu raporları aşağıdakiler de dahil olmak üzere tüm görselleştirmeleri destekler:
-
-* Özel görseller
-
-Power BI Rapor Sunucusu raporları aşağıdakileri desteklemez:
-
-* R görselleri
-* ArcGIS haritaları
-* İçerik haritaları
-* Power BI Desktop önizleme özellikleri
-
-### <a name="in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında
-Power BI Rapor Sunucusu raporları, [Power BI mobil uygulamalarında](../consumer/mobile/mobile-apps-for-mobile-devices.md) aşağıdakiler de dahil olmak üzere tüm temel işlevleri destekler:
-
-* [Telefon rapor düzeni](../desktop-create-phone-report.md): Bir raporu Power BI mobil uygulamaları için en iyi duruma getirebilirsiniz. En iyi duruma getirilmiş raporlar cep telefonunuzda özel bir simge (![Telefon rapor düzeni simgesi](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png)) ve düzenle gösterilir.
-  
-    ![Telefonlar için en iyi duruma getirilmiş rapor](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Power BI Rapor Sunucusu, Power BI mobil uygulamalarında şu özellikleri desteklemez:
-
-* R görselleri
-* ArcGIS haritaları
-* Özel görseller
-* İçerik haritaları
-* Coğrafi filtreleme veya barkodlar
 
 ## <a name="next-steps"></a>Sonraki adımlar
 ### <a name="power-bi-desktop"></a>Power BI Desktop

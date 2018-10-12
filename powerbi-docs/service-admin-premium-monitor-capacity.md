@@ -8,27 +8,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 069a7d6c6d1503dd207eea9208f90d70e9ca1264
+ms.sourcegitcommit: 8138220c42606069e2f5f97c6e4d29888dbdd036
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300173"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47420712"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Kuruluşunuzdaki Power BI Premium kapasitelerini izleme
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium ve Power BI Embedded kapasitelerini izleme
 
-Bu makalede, Power BI Premium kapasitelerinizin ölçümlerini izlemeyle ilgili genel bakış bilgilerine yer verilmiştir. Kapasite kullanımını izleyerek kapasitelerinizi yönetme konusunda bilgiye dayalı bir yaklaşım sergileyebilirsiniz. 
+Bu makalede, Power BI Premium kapasitelerinizin ölçümlerini izlemeyle ilgili genel bakış bilgilerine yer verilmiştir. Kapasite kullanımını izleyerek kapasitelerinizi yönetme konusunda bilgiye dayalı bir yaklaşım sergileyebilirsiniz.
 
 Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız.
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Premium Capacity Metrics uygulamasını yükleme
 
 Doğrudan [Premium Capacity Metrics uygulamasına](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gidebilir veya Power BI'daki diğer uygulamalar gibi yükleyebilirsiniz.
-
-> [!IMPORTANT]
-> Bu uygulamayı yüklemek ve kullanmak için en az bir kapasitede kapasite yöneticisi olmanız gerekir. Power BI yöneticisi olmanız yeterli değildir. 
 
 1. Power BI'da **Uygulamalar**'a tıklayın.
 
@@ -42,47 +39,66 @@ Doğrudan [Premium Capacity Metrics uygulamasına](https://app.powerbi.com/group
 
 Uygulamayı yükledikten sonra kuruluşunuzdaki kapasitelere ait ölçümleri görebilirsiniz. Şimdi kullanılabilir durumdaki bazı önemli ölçümlere göz atalım.
 
-## <a name="use-the-metrics-app"></a>Ölçümler uygulamasını kullanma 
+## <a name="use-the-metrics-app"></a>Ölçümler uygulamasını kullanma
+
 Uygulamayı ilk açtığınızda yönetici haklarına sahip olduğunuz tüm kapasitelerin özetini kapsayan bir pano gösterilir.
 
-![Premium raporuna genel bakış](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Ölçüm uygulama panosu](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filtreleme
+Raporda üç sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı olarak açıklanmaktadır.
 
-**Filters applied to all pages** (Tüm sayfalara uygulanmış olan filtreler) sekmesinden kapasite, veri kümesi ve/veya son yedi gün içindeki bir tarih aralığını seçebilirsiniz. Seçtiğiniz filtreler bu raporla ilgili tüm sayfalara ve kutucuklara uygulanır. Seçim yapılmadığında rapor, varsayılan olarak sahip olduğunuz tüm kapasiteler için son haftanın ölçümlerini gösterir.
+* **Tüm sayfalara uygulanan filtreler**: rapordaki diğer sayfaları belirli bir kapasiteye filtrelemenize olanak tanır.
+* **Veri kümeleri**: kapasitelerinizdeki veri kümelerinin durumu hakkında ayrıntılı ölçümler sağlar.
+* **Sistem**: bellek ve CPU yüksek kullanımı gibi genel kapasite ölçümlerini sağlar. 
 
-![Premium raporuna genel bakış](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Tüm sayfalara uygulanan filtreler
 
-### <a name="summary-tab"></a>Summary (Özet) sekmesi
+**Tüm sayfalara uygulanmış olan filtreler** sekmesinden kapasite, veri kümesi ve son yedi gün içindeki bir tarih aralığını seçebilirsiniz. Filtreler daha sonra rapordaki tüm ilgili sayfalara ve kutucuklara uygulanır. Hiçbir filtre seçilmezse, rapor varsayılan olarak sahip olduğunuz tüm kapasiteler için son haftanın ölçümlerini gösterir.
 
-**Summary** (Özet) sekmesinde varlıklar, sistem ve veri kümelerine göre kapasiteler gösterilir.
+![Filtreler sekmesi](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Tüm sayfalara uygulanan filtreler](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Veri Kümeleri sekmesi
 
-| **Area** (Alan) | **Metrics** (Ölçümler) |
+**Veri kümeleri** sekmesi uygulamadaki toplu ölçümleri sağlar. Farklı alanlara gitmek için sekmenin üstündeki dört düğmeyi kullanın: **Özet**, **Yenilemeler**, **Sorgular** ve **Veri Kümeleri**.
+
+![Veri Kümeleri sekmesi](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Özet bölgesi
+
+![Özet düğmesi](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+**Özet** alanında varlıklara, sistem kaynaklarına ve veri kümesi iş yüklerine göre kapasitelerinizin bir görünümü gösterilir.
+
+| | **Metrics** (Ölçümler) |
 | --- | --- |
 | **Entities** (Varlıklar) | * Sahip olduğunuz kapasite sayısı<br> * Kapasitenizdeki benzersiz veri kümesi sayısı<br> * Kapasitenizdeki benzersiz çalışma alanı sayısı |
 | **System** (Sistem) | * GB cinsinden son yedi gün içindeki ortalama bellek kullanımı<br> * GB cinsinden son yedi gün içindeki en yüksek bellek tüketimi ve gerçekleştiği yerel saat<br> * Son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde CPU kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir |
 | **Veri Kümesi İş Yükleri** | * Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız yenileme sayısı<br> * Yetersiz bellek nedeniyle başarısız olan toplam yenileme sayısı<br> * Dakika cinsinden ortalama yenileme süresi, işlemin tamamlanması için geçen süre<br> * Dakika cinsinden ortalama yenileme bekleme süresi, planlanan zamanla işlemin başlatılması arasındaki ortalama gecikme<br> * Son yedi gün içinde çalıştırılan toplam sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız sorgu sayısı<br> * Dakika cinsinden ortalama sorgu süresi, işlemin tamamlanması için geçen süre<br> * Bellek baskısı nedeniyle çıkarılan toplam model sayısı |
 |  |  |
 
-### <a name="refreshes-tab"></a>Refreshes (Yenilemeler) sekmesi
+#### <a name="refreshes-area"></a>Yenilemeler alanı
 
-**Refreshes** (Yenilemeler) sekmesinde son yedi gün içindeki toplam yenileme sayısı, başarılı ölçümler, ortalama/maksimum yenileme bekleme süresi ve ortalama/maksimum yenileme süresi veri kümelerine ayrılmış şekilde gösterilir. En alttaki iki grafikte yenilemelerle GB cinsinden bellek tüketiminin karşılaştırması gösterilir. Ortalama bekleme süreleri bir saatlik parçalara ayrılır ve yerel saate göre belirtilir. Üstteki çubukta veri kümesinin yenilenmesinin tamamlanması için geçen maksimum süre (yenileme süresi) ve maksimum yenileme bekleme süresi toplamına göre ilk beş veri kümesi listelenir. Birden çok yüksek yenileme bekleme süresi artışı kapasiteye sık erişildiğini gösterir.
+![Yenilemeler düğmesi](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Premium yenileme raporu](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+**Yenilemeler** alanında son yedi gün içindeki toplam yenileme sayısı, başarılı ölçümler, ortalama/maksimum yenileme bekleme süresi ve ortalama/maksimum yenileme süresi veri kümelerine ayrılmış şekilde gösterilir. En alttaki iki grafikte yenilemelerle GB cinsinden bellek tüketiminin karşılaştırması gösterilir. Ortalama bekleme süreleri bir saatlik parçalara ayrılır ve yerel saate göre belirtilir. Üstteki çubukta veri kümesinin yenilenmesinin tamamlanması için geçen ortalama süre (yenileme süresi) ve ortalama yenileme bekleme süresine göre ilk beş veri kümesi listelenir. Birden çok yüksek yenileme bekleme süresi artışı kapasiteye sık erişildiğini gösterir.
 
-### <a name="datasets-tab"></a>Veri Kümeleri sekmesi
+#### <a name="queries-area"></a>Sorgular alanı
 
-**Datasets** (Veri kümeleri) sekmesinde saatlere göre bellek baskısı nedeniyle çıkarılan tam veri kümeleri gösterilir.
+![Sorgular düğmesi](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Premium veri kümesi raporu](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+**Sorgular** alanında toplam çalışan sorgu sayısı, Canlı sorgu/Doğrudan sorgu için toplam sorgu bekleme sayısı, ortalama/maksimum süre, veritabanları tarafından dilimlere ayrılan bildirilmiş ortalama/maksimum bekleme süresi (milisaniye), çalışma alanı ve son yedi gün içindeki saatlik aralıklar listelenir. Alt grafiklerde sorgu sayıları, ortalama süre (milisaniye) ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir. İki sağ üst grafikte, ortalama sorgu süresine ve sorguların tamamlanması için geçen bekleme süresine göre ilk beş veri kümesi listelenir. Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir.
+
+#### <a name="datasets-area"></a>Veri kümeleri alanı
+
+![Veri kümeleri düğmesi](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+**Veri kümeleri** alanında saatlere göre bellek baskısı nedeniyle çıkarılan tam veri kümeleri gösterilir.
 
 ### <a name="system-tab"></a>System (Sistem) sekmesi
 
-**System** (Sistem) sekmesi yüksek CPU kullanımını (%80 kullanımın aşıldığı durumların sayısını), yüksek Doğrudan Sorgu/Canlı bağlantı kullanımını ve Bellek Tüketimini gösterir.
+**Sistem** sekmesinde, yüksek CPU kullanım süreleri (%80 kullanımın aşıldığı durumların sayısını), yüksek doğrudan sorgu/canlı bağlantı kullanımı ve bellek tüketimi gösterilir.
 
-![Premium sistem raporu](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Premium sistem raporu](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded kapasitesini izleme
 

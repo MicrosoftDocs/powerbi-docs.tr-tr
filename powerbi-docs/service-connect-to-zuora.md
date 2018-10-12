@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 48246d61789a0b1e160109c1f2fb0e81838b3965
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280329"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546982"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI ile Zuora'ya bağlanma
 Power BI için Zuora; önemli gelir, faturalandırma ve abonelik verilerini görselleştirmenizi sağlar. Kullanım eğilimlerini çözümlemek, fatura ve ödemeleri takip etmek ve yinelenen geliri izlemek için varsayılan pano ve raporları kullanın veya bunları kendi benzersiz pano ve raporlama ihtiyaçlarınızı karşılayacak şekilde özelleştirin.
@@ -44,10 +44,10 @@ Power BI için [Zuora](https://app.powerbi.com/getdata/services/Zuora)'ya bağla
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 İçerik paketi, Zuora AQUA API'sini kullanarak şu tabloları çeker:

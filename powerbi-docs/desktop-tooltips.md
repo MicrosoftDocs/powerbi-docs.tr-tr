@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547156"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416809"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -125,7 +125,7 @@ Raporda bir görsel çapraz vurgulandığında, veri noktasının soluk bölüm�
 
 * **Power BI Desktop**'ın araç ipuçlarının genel kullanıma sunulduğu Eylül 2018 sürümünden itibaren Kart görselleri de araç ipuçları için destek sunmaktadır.
 * Temmuz 2018 tarihli **Power BI Desktop** sürümünde, Tablo ve Matris görsellerinde araç ipuçları desteklenir. 
-* Rapor araç ipuçları, raporlar mobil uygulamalarda veya ekli ortamlarda (Web’de yayımlama da dahil) görüntülendiğinde desteklenmez. 
+* Rapor araç ipuçları, mobil uygulamalarda raporlar görüntülenirken desteklenmez. 
 * Rapor araç ipuçları, özel görseller için desteklenmemektedir. 
 * Kümeler şu an için rapor ipuçlarında gösterilebilen alanlar olarak desteklenmemektedir. 
 * Bir alan-kategori karşılaştırması kullanılırken, rapor araç ipuçları için bir alanın gösterilmesi seçildiğinde söz konusu alanı içeren görseller yalnızca özetleme, seçili alanla eşleştiğinde belirtilen araç ipucunu gösterir. 

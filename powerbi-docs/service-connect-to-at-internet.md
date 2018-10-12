@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136376"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549431"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Power BI ile AT Internet Bridge'e bağlanma
 AT Internet, sahip olduğu birleşik dijital analiz platformu Analytics Suite'i kullanarak verilerinizden anında faydalanabilmenize yardımcı olur. Power BI için AT Internet Bridge içerik paketinde siteniz için ziyaretler, kaynaklar, yerelleştirme ve cihazlar ile ilgili veriler bulunur.
@@ -44,10 +44,10 @@ Power BI için [AT Internet Bridge içerik paketine](https://app.powerbi.com/get
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Bu içerik paketinde, aşağıdaki tablolarda yer alan veriler (son 45 güne ait) bulunur:  
@@ -61,5 +61,5 @@ Bu içerik paketinde, aşağıdaki tablolarda yer alan veriler (son 45 güne ait
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Power BI - Temel Kavramlar](service-basic-concepts.md)
+[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 

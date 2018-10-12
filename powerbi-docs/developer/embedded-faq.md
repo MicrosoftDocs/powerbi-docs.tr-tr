@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558591"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506811"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -84,15 +84,19 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir (mobil uygulama hariç) |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
 
 * Kuruluş dizininizde oturum açmanız gerekir (MSA hesapları desteklenmez).
 * Bir Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’ye kaydolmuş olması gerekir. 
 * Kuruluş dizininizde bir Azure aboneliğinizin olması gerekir.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Kapasite tüketimini nasıl izleyebilirim?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded kapasite tüketimini nasıl izleyebilirim?
 
-Yakın zamanda Azure üzerinden izleyebileceksiniz. Azure kaynağı, Power BI Embedded, sistem durumu ve kullanımı gösterecek şekilde KPI'leri izleme olanağı sağlayacaktır.
+* [Power BI Yönetim portalını](../service-admin-portal.md#power-bi-embedded-settings) kullanarak.
+
+* Power BI’daki [ölçüm uygulamasını](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) indirerek.
+
+* [Azure tanılama günlüğüne kaydetmeyi](azure-pbie-diag-logs.md) kullanarak.
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Kapasitem, uygulamamın kullanımına göre otomatik olarak ölçekleme sağlayacak mı?
 
@@ -276,11 +280,11 @@ Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya
 * Soru-cevap, yenileme, yer işaretleri, pano ve kutucuk ve pano ekleme ve özel menü gibi yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
 * Kapasite faturalama modeli.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Ekleme için Katılım Deneyimi Aracı
+## <a name="embedding-setup-tool-for-embedding"></a>Katıştırma kurulum aracını katıştırma
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Katılım deneyimi aracı nedir?
+### <a name="what-is-the-embedding-setup-tool"></a>Katıştırma kurulum aracı nedir?
 
-[Katılım deneyimi aracı](https://aka.ms/embedsetup), hızlıca kullanmaya başlamanıza ve bir örnek uygulama indirerek Power BI ile eklemeye başlamanıza olanak tanır.
+[Katıştırma kurulum aracı](https://aka.ms/embedsetup), hızlıca kullanmaya başlamanıza ve bir örnek uygulama indirerek Power BI ile katıştırmaya başlamanıza olanak tanır.
 
 ### <a name="which-solution-should-i-choose"></a>Hangi çözümü seçmem gerekir?
 

@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748902"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448857"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI'daki dağılım grafikleri ve kabarcık grafikleri
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
 
 Kabarcık grafiğinde veri noktaları yerine kabarcıklar kullanılır ve kabarcık *boyutu* verilerin farklı bir boyutunu gösterir.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![kabarcık grafiği oluşturma](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-Veri noktalarının sayısını ayarlayabilirsiniz  
+Veri noktalarının sayısını en fazla 10.000 olarak ayarlayabilirsiniz.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Dağılım grafiğinin ve kabarcık grafiğinin kullanım alanları
 ### <a name="scatter-charts-are-a-great-choice"></a>Dağılım grafikleri aşağıdaki durumlarda harika bir seçimdir:
@@ -50,7 +50,7 @@ Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki ad
 
 Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri takip etmek için Power BI hizmeti (app.powerbi.com) veya Power BI Desktop [örneğini indirin](../sample-datasets.md).   
 
-1. [Boş rapor sayfası](../power-bi-report-add-page.md) oluşturmak için sarı artı simgesini seçin.
+1. [Boş bir rapor sayfası](../power-bi-report-add-page.md) oluşturmak için, raporu Düzenleme görünümünde açın ve sarı artı simgesini seçin.
  
 2. Alanlar bölmesinden aşağıdaki alanları seçin:
    - **Satış** > **Fit Kare Başına Satış**
@@ -81,20 +81,20 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel** kartını genişletin ve **Veri Hacmi**'ni ayarlayın. Veri hacmi üst sınırını 10.000’e kadar herhangi bir sayıya ayarlayabilirsiniz. Daha yüksek sayıya ulaştıkça iyi performanstan emin olmak için öncelikle test etmeniz önerilir. 
+3. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçimlendirme** bölümünde **Genel** kartını genişletin ve **Veri Hacmi**'ni ayarlayın. Veri hacmi üst sınırını 10.000’e kadar herhangi bir sayıya ayarlayabilirsiniz. Daha yüksek sayıya ulaştıkça iyi performanstan emin olmak için öncelikle test etmeniz önerilir. 
 
-    ![Veri Hacmi](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Veri Hacmi](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Veri noktası sayısı arttığında yükleme süresi de uzayacağından, raporları ölçeğin uç sınırlarıyla yayımlamayı seçerseniz performansın kullanıcı beklentilerini karşılamasını sağlamak için raporlarınızı hem web üzerinde hem de mobil cihazlarda test ettiğinizden emin olun. Daha fazla sayıda veri noktası için, iyi performans sağlamak amacıyla sonuçları farklı form faktörleri üzerinde test etmeniz gerektiğini unutmayın.
 
 4. [Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha pek çok özelliğini biçimlendirebilirsiniz](service-getting-started-with-color-formatting-and-axis-properties.md). [Erişilebilirliği artırmak](../desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. Her çizgi için farklı bir İşaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar. İşaretçi şeklini seçmek için **Şekiller** kartını genişletin ve bir işaretçi şekli belirleyin.
 
-      ![İşaretçi şekli](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![İşaretçi şekli](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    İşaretçi şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz:
 
-   ![Kare işaretçi](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Kare işaretçi](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli Noktalar ve Sorun Giderme
@@ -104,8 +104,7 @@ Dağılım grafiğinizde X ve Y eksenindeki tüm değerleri toplayan yalnızca b
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-**Ayrıntılar** bölümüne bir alan ekleyerek Power BI'a değerleri nasıl gruplandırması gerektiğini anlatın. Alanın, çizmek istediğiniz her nokta için benzersiz olması gerekir.  
-Basit bir satır numarası ve kimlik alanı kullanabilirsiniz:
+**Ayrıntılar** bölümüne bir alan ekleyerek Power BI'a değerleri nasıl gruplandırması gerektiğini anlatın. Alan, çizmek istediğiniz her nokta için benzersiz olmalıdır; basit bir satır numarası veya kimlik alanı gibi.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ Verilerinizde bu bilgiler yoksa X ve Y değerlerinizden her noktada benzersiz ve
 Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullanarak veri kümenize bir Dizin Sütunu ekleyin](../desktop-add-custom-column.md).  Ardından bu sütunu görselleştirmenizin **Ayrıntılar** bölümüne ekleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Yüksek yoğunluklu dağılım grafikleri](desktop-high-density-scatter-charts.md)
+
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/get-started/)  
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

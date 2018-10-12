@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135272"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545701"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
@@ -48,10 +48,10 @@ Power BI için [Marketo içerik paketi](https://app.powerbi.com/getdata/services
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](power-bi-q-and-a.md) deneyin
+* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="whats-included"></a>Neleri kapsar?
 Power BI'da, Marketo'nun sunduğu, günümüzle bir yıl öncesi arasındaki dönemde gerçekleşen etkinliklere ilişkin aşağıdaki verilere erişilebilir:
