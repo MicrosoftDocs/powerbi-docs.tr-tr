@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73a3188256b754517beb9f83a382c4005de6e7e7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416993"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798920"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verilerinizin basit bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarlarından oluşan bir koleksiyon olması fark etmeksizin **Power BI**, veri kaynaklarınıza kolayca bağlanmanıza, önemli verileri görselleştirmenize (veya araştırmanıza) ve bunları istediğiniz herkesle paylaşmanıza olanak sağlar.
@@ -43,7 +43,7 @@ Bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim
 
 Rolünüzle ilgili belgeleri keşfetmek için:
 - [***Tasarımcılar***](desktop-what-is-desktop.md) için Power BI
-- [***Tüketiciler***](consumer/end-user-consuming.md) için Power BI
+- [***Tüketiciler***](consumer/end-user-consumer.md) için Power BI
 - [***Geliştiriciler***](developer/what-can-you-do.md) için Power BI
 - [***Yöneticileri***](service-admin-administering-power-bi-in-your-organization.md) için Power BI
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546918"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909257"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -196,7 +196,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 
 ### <a name="june-2107"></a>Haziran 2107
 #### <a name="all-devices"></a>Tüm cihazlar
-**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../end-user-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
+**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../../service-create-distribute-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
 
 ### <a name="may-2017"></a>Mayıs 2017
 #### <a name="all-devices"></a>Tüm cihazlar

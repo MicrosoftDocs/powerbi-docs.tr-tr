@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 1472646d1a4dc338740583ab759c2fc71aa1e56d
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059105"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909188"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -593,7 +593,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 * Power BI'ın "genel kullanım" (GA) sürümünü duyurmaktan mutluluk duyuyoruz. [Power BI Pro](service-self-service-signup-for-power-bi.md)'ya bugün kaydolun. GA sürümüyle birlikte sunduğumuz heyecan verici yeni özellikler:
 * Yeni görselleştirme ve rapor oluşturma deneyimi: Yeni rapor tuvali daha fazla görselleştirme seçeneğinin yanı sıra başlık, açıklama, eksen, renk, arka plan ve diğer öğelerin biçimlendirmesi konusunda denetim sunuyor.
-* [Power BI grupları](consumer/end-user-create-apps.md): Office 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
+* [Power BI grupları](service-create-distribute-apps.md): Office 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
 * [Kurumsal içerik paketleri](service-organizational-content-pack-introduction.md): Power BI, pano ve rapor oluşturmayı çok kolay hale getiriyor. Kullanıcılar artık bu içeriği kurumsal içerik galerisine yayımlama hakkına da sahip.
 * [Excel dosyalarının tamamını alma](service-excel-workbook-files.md): Artık OneDrive İş üzerinde depolanan herhangi bir Excel çalışma kitabını Power BI'a alarak Excel Online'daki gibi çalışma kitabının tamamını görüntüleyebilirsiniz.
 * [CSV dosyalarını alma](service-get-data-from-files.md): Excel veya Power BI Desktop dosyası gibi virgülle ayrılmış değerler (CSV) dosyası da Power BI panolarınızda ve raporlarınızda veri kümesi olarak kullanılabilir.
