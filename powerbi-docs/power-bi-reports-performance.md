@@ -11,10 +11,10 @@ ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
 ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
-ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 10/12/2018
 ms.locfileid: "44343335"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans Açısından En İyi Power BI Yöntemleri 

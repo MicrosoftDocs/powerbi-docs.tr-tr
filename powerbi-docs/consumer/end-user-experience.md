@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798943"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112165"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -125,7 +125,7 @@ Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz.
 
 ![içeriği sıralama](./media/end-user-experience/power-bi-sort.png)
 
-Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama, sıralama, filtreleme](end-user-search-filter-sort.md)
+Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama, sıralama, filtreleme](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
 Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örneği panosunu, raporu ve veri kümesini silebilirsiniz.
