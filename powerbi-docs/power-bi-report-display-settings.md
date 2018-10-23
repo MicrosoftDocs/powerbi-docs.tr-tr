@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/24/2017
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 733b45e856f2f3c3c2d31576ac884e4a4cd4a8cd
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: f52231d5df04367a1fe58e8575cd364899ff8eae
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187203"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396739"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunun bilincindeyiz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğinizden bu, zaman zaman güç olabilir. 

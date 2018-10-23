@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547902"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396509"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama
 Veri modelleri veya Power BI ile kullanılacak Excel çalışma kitapları oluşturuyorsanız bu makaleyi okumaya devam edin.
@@ -45,7 +45,7 @@ Aşağıda, çalışma kitabınızda Soru-Cevap'tan en iyi şekilde yararlanman�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md) özelliğine geri dönün  
-[Şirket içi veri kümelerini Soru-Cevap için hazır hale getirme](consumer/end-user-q-and-a-direct-query.md)   
+[Şirket içi veri kümelerini Soru-Cevap için hazır hale getirme](service-q-and-a-direct-query.md)   
 [Hızlı Başlangıç: Soru-Cevap](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI için veri alma](service-get-data.md)  
 

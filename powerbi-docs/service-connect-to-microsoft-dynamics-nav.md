@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908912"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641402"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Power BI ile Microsoft Dynamics NAV'a bağlanma
 Power BI ile Microsoft Dynamics NAV verilerinize ilişkin öngörüler edinmek oldukça kolaydır. Power BI, verilerinizi (Satış ve Finansal) alır ve bu verilere dayalı bir pano ve raporlar oluşturur. Power BI, verilerin (bu örnekte satış ve finans verileri) alındığı tablolara erişmek için sizden izin ister. Aşağıda, gereksinimlerle ilgili daha ayrıntılı bilgi verilmiştir. Uygulamayı yükledikten sonra panoyu ve raporları Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve Power BI mobil uygulamalarında görüntüleyebilirsiniz. 
@@ -29,7 +29,7 @@ Power BI ile Microsoft Dynamics NAV verilerinize ilişkin öngörüler edinmek o
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. İstendiğinde Microsoft Dynamics NAV OData URL'nizi girin. URL'nin aşağıdaki desenle eşleşmesi gerekir:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * "örnek.navsunucusu.com" (kendi NAV Sunucunuzun adı)
    * "DynamicsNAV90\_Örnek1" (kendi NAV Sunucu Örneğinizin adı)
@@ -72,7 +72,7 @@ Microsoft Dynamics NAV URL'nizi yazarken bu hatayla karşılaşırsanız aşağ�
 
 * URL tam olarak şu desene uygun olmalıdır:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * "örnek.navsunucusu.com" (kendi NAV Sunucunuzun adı)
   * "DynamicsNAV90\_Örnek1" (kendi NAV Sunucu Örneğinizin adı)
@@ -92,11 +92,11 @@ Kimlik doğrulaması iletişim kutusunun ardından "Hata" ifadesini içeren bir 
 
 * URL'nin yukarıda belirtilen desene uygun olduğundan emin olun. URL'yi aşağıdaki gibi belirtmek sıkça yapılan hatalardan biridir:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     'Şirket('CRONUS%20International%20Ltd.')' bölümünü de kendi NAV Şirketinizin adını yazarak eklemeniz gerekir:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulamalar ne anlama gelir?](service-create-distribute-apps.md)

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545786"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396822"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
 Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde *kullanan* bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](../power-bi-visualization-arcgis.md) başvurabilirsiniz.
@@ -57,7 +57,7 @@ ArcGIS Maps for Power BI üç seçim modu sunar. Aynı anda en fazla 250 veri no
 ## <a name="interacting-with-an-arcgis-map"></a>Bir ArcGIS haritasıyla etkileşim kurma
 Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluşturan kişi) ya da *kullanıcısı* (ArcGIS haritası sizinle paylaşıldığında) olmanıza göre farklılık gösterebilir. Bir ArcGIS haritası ile kullanıcı olarak etkileşim kuruyorsanız (bir başka deyişle [Okuma görünümü](../consumer/end-user-reading-view.md)) aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
-* Diğer görselleştirme türleri için geçerli olduğu üzere [panoya sabitle](../service-dashboard-pin-tile-from-report.md), [görüntüle](../consumer/end-user-show-data.md) ve/veya [temel alınan verileri dışarı aktar](../consumer/end-user-export-data.md) özelliklerinden faydalanabilir ve haritayı [Odak modu](../consumer/end-user-focus.md) ve [Tam ekran](../service-fullscreen-mode.md) modunda görüntüleyebilirsiniz.    
+* Diğer görselleştirme türleri için geçerli olduğu üzere [panoya sabitle](../service-dashboard-pin-tile-from-report.md), [görüntüle](../consumer/end-user-show-data.md) ve/veya [temel alınan verileri dışarı aktar](power-bi-visualization-export-data.md) özelliklerinden faydalanabilir ve haritayı [Odak modu](../consumer/end-user-focus.md) ve [Tam ekran](../service-fullscreen-mode.md) modunda görüntüleyebilirsiniz.    
 * Filtre kullanarak haritada gezmek için **Filtreler** bölmesini genişletin. Raporu kapattığınızda, uygulamış olduğunuz filtreler kaydedilmez.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Haritada başvuru katmanı olması durumunda bir araç ipucunda ayrıntıları görüntülemek için konumları seçin. Bu örnekte Adams County'yi seçtik ve haritayı oluşturan tarafından haritaya eklenen ortalama hane halkı geliri başvuru katmanı verilerini görüntüledik.

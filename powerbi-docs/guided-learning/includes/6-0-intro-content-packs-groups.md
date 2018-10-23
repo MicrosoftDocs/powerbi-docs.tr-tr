@@ -2,8 +2,6 @@ Power BI **Destekli Öğrenme** kursunun **Yayımlama ve Paylaşma** bölümüne
 
 Excel'in ve Power BI'ın nasıl birlikte sorunsuz bir şekilde çalıştığınızı öğrendiniz. Raporlarda ve panolarda oluşturabileceğiniz görsellerle ilgili tüm bilgileri edindiğinize göre bunları ekibinizle ve arkadaşlarınızla paylaşabilirsiniz. Power BI ile **yayımlamak ve paylaşmak** kolaydır.
 
-Bu bölümde, Excel çalışma kitaplarını Power BI'a aktarmanın kolaylığı ve Power BI ile Excel arasındaki mükemmel ortaklık anlatılmaktadır.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Power BI'da iş arkadaşlarınızla paylaşımda bulunma ve işbirliği yapma
 *Power BI ile paylaşımı ve işbirliğini kolaylaştıran araçlarla tanışın*
 

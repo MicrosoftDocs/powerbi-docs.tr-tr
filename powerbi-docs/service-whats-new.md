@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909188"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396762"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -212,7 +212,7 @@ Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.mi
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [SQL Server 2016 Analysis Services tablolu modelleri için Power BI Soru-Cevap desteği](consumer/end-user-q-and-a-direct-query.md): Power BI Soru-Cevap kullanıcı deneyiminde yaptığımız geliştirmeleri ve kurumsal ağ geçidine bağlı veri kaynakları için Power BI Soru-Cevap özelliğini SQL Server 2016 Analysis Services tablolu model desteğiyle başlayarak genel önizlemeye açtığımızı duyurmaktan mutluluk duyuyoruz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [SQL Server 2016 Analysis Services tablolu modelleri için Power BI Soru-Cevap desteği](service-q-and-a-direct-query.md): Power BI Soru-Cevap kullanıcı deneyiminde yaptığımız geliştirmeleri ve kurumsal ağ geçidine bağlı veri kaynakları için Power BI Soru-Cevap özelliğini SQL Server 2016 Analysis Services tablolu model desteğiyle başlayarak genel önizlemeye açtığımızı duyurmaktan mutluluk duyuyoruz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [Excel Raporları için Yerel Dosya Desteği](service-excel-workbook-files.md#local-excel-workbooks): Artık yerel sürücünüzdeki veya diğer depolama hizmetlerindeki Excel dosyalarını karşıya yükleyebilir ve bu Excel Raporunu Power BI'ın avantajlarıyla Excel Online'daki gibi kullanabilirsiniz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 Nisan 2016**
