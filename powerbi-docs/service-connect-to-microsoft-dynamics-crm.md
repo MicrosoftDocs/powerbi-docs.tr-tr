@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547074"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908843"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Power BI ile Microsoft Dynamics CRM'e bağlanma
 Power BI için Microsoft Dynamics CRM Online, verilerinize kolayca erişmenize ve verilerinizi çözümlemenize olanak sağlar. Power BI; Hesaplar, Etkinlikler, Fırsatlar, Ürün, Müşteri Adayları, Kullanıcılar ve daha fazlası gibi ihtiyaç duyulan tüm varlıklar ve ölçülerle açıklayıcı bir model oluşturmak için OData akışını kullanır. Uygulamayı yükledikten sonra panoyu ve raporları Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve Power BI mobil uygulamalarında görüntüleyebilirsiniz. 
@@ -26,17 +26,16 @@ Bu bağlantı için **Microsoft Dynamics CRM Online 2016 veya sonraki bir sürü
 
 ## <a name="how-to-connect"></a>Bağlanma
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. **Microsoft Dynamics CRM Sales Manager** veya **Microsoft Dynamics CRM Service Manager**'ı seçip **Bağlan**'a tıklayın.
+3. **Microsoft Dynamics CRM Sales Manager** veya **Microsoft Dynamics CRM Service Manager**'ı seçip **Bağlan**'a tıklayın.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Hesabınızla ilişkili Hizmet URL'sini girin.  Hizmet URL'si `https://company.crm.dynamics.com` biçimindedir, daha fazla ayrıntı için [aşağıya](#FindingParams) bakın.
+4. Hesabınızla ilişkili Hizmet URL'sini girin.  Hizmet URL'si `https://company.crm.dynamics.com` biçimindedir, daha fazla ayrıntı için [aşağıya](#FindingParams) bakın.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. İstendiğinde kimlik bilgilerinizi girin. (Tarayıcınızda zaten oturum açtıysanız bu adım atlanabilir.) Kimlik Doğrulama Yöntemi için **OAuth2** seçeneğini belirleyin ve **Oturum aç** düğmesine tıklayın:
+5. İstendiğinde kimlik bilgilerinizi sağlayın. (Tarayıcınızda zaten oturum açtıysanız bu adım atlanabilir.) Kimlik Doğrulama Yöntemi için **OAuth2** seçeneğini belirleyin ve **Oturum aç** düğmesine tıklayın:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Bağlandıktan sonra bir Satış Yöneticisi veya Servis Yöneticisi için özelleştirilmiş ve verilerinizle doldurulmuş bir pano görürsünüz:
+6. Bağlandıktan sonra bir Satış Yöneticisi veya Servis Yöneticisi için özelleştirilmiş ve verilerinizle doldurulmuş bir pano görürsünüz:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,9 +47,9 @@ Bu bağlantı için **Microsoft Dynamics CRM Online 2016 veya sonraki bir sürü
 ## <a name="whats-included"></a>Neleri kapsar?
 Aşağıdaki bölümlerde, [Sales Manager](#Sales) ve [Service Manager](#Service) kişiliklerine yönelik içerikler açıklanmıştır.
 
-Ayrıca, verilerin Dynamics CRM Online kullanıcısına atanan güvenlik rolüne bağlı olarak sınırlandırıldığını da göz önünde bulundurun.
+Veriler Dynamics CRM Online kullanıcısına atanan güvenlik rolüne bağlı olarak sınırlandırılır.
 
-Pano ve raporların bir ekibe veya gruba odaklanarak kısa vadeli verilere ilişkin operasyonel raporlama sağlaması amaçlanmaktadır. Her sorgu ile Dynamics CRM Online'dan maksimum 100.000 kayıt alınabilir. Bu sınır, kuruluşunuzdaki yüksek hacimli verilere bağlı olarak aşılırsa Dynamics CRM Online için veri yenilemesi sonlandırılacağı için kayıtlar sağlanamaz. Hesabınız çok büyükse özel bir çözüm oluşturmak için Power BI Desktop aracılığıyla bağlanmayı düşünebilirsiniz.
+Pano ve raporların bir ekibe veya gruba odaklanarak kısa vadeli verilere ilişkin operasyonel raporlama sağlaması amaçlanmaktadır. Her sorgu ile Dynamics CRM Online'dan maksimum 100.000 kayıt alınabilir. Bu sınır, kuruluşunuzda veri hacminin yüksek olması nedeniyle aşılırsa Dynamics CRM Online için veri yenilemesi sonlandırılacağı için kaynak sağlama başarısız olur. Hesabınız çok büyükse özel bir çözüm oluşturmak için Power BI Desktop aracılığıyla bağlanmayı düşünebilirsiniz.
 
 <a name="Sales"></a>
 
@@ -74,13 +73,13 @@ Ayrıca, aşağıdakiler gibi temel grafikler de yer alır:
 
 Bu ölçüm ve grafikler, kuruluşunuzun satış performansını anlamanıza ve satış ekibinize yönelik olarak satış kanalını çözümlemenize yardımcı olur.
 
-Aşağıdaki tabloda, bu hizmet için kullanılabilir CRM varlıkları listelenmiş ve her bir varlık kaydına uygulanan filtrelere ilişkin ayrıntılara yer verilmiştir.
+Aşağıdaki tabloda bu hizmet için bulunan CRM varlıkları listelenmiş ve her bir varlık kaydına uygulanan filtrelere ilişkin ayrıntılara yer verilmiştir.
 
 | CRM Varlığı | Uygulanan filtreler |
 | --- | --- |
-| Account |Son 365 günde değiştirilmiş ilgili fırsatları bulunan tüm firmalar. |
-| Activity |Son 90 günde değiştirilmiş tüm etkinlikler <br> [modifiedon] > içinde bulunulan gün - 90 gün |
-| Business Unit |Devre dışı bırakılmamış tüm departmanlar <br> [isdisabled] = false |
+| Hesap |Son 365 günde değiştirilmiş ilgili fırsatları bulunan tüm hesaplar. |
+| Etkinlik |Son 90 günde değiştirilmiş tüm etkinlikler <br> [modifiedon] > içinde bulunulan gün - 90 gün |
+| Business Unit |Devre dışı bırakılmamış tüm iş birimleri <br> [isdisabled] = false |
 | Lead |Son 180 günde değiştirilmiş tüm müşteri adayları <br> [modifiedon] > içinde bulunulan gün - 180 gün |
 | Opportunity |Son 365 günde değiştirilmiş tüm fırsatlar <br> [modifiedon] > içinde bulunulan gün - 365 gün |
 | Opportunity Product |Son 365 günde değiştirilmiş tüm fırsat ürünleri <br> [modifiedon] > içinde bulunulan gün - 365 gün |
@@ -101,7 +100,7 @@ Bu pano ve raporlar, aşağıdaki gibi ana ölçümler içerir:
 * Total Active Cases  
 * Number of Times KB Article Used in cases ve daha fazlası.    
 
-Ayrıca, aşağıdakiler gibi anahtar grafikleri de kapsar:   
+Ayrıca, aşağıdakiler gibi temel grafikler de yer alır:   
 
 * Incoming Cases, Resolved Cases ve Escalated Cases için Case Volume Trend   
 * Origin, Location, Priority ve Type gibi çeşitli boyutlara göre Case Volume  
@@ -117,11 +116,11 @@ Aşağıdaki tabloda, bu hizmet için kullanılabilir CRM varlıklarının yanı
 | Activity |Son 90 günde değiştirilmiş tüm etkinlikler <br> [modifiedon] > içinde bulunulan gün - 90 gün |
 | Case |Son 90 günde değiştirilen tüm servis talepleri <br> [modifiedon] > içinde bulunulan gün - 90 gün |
 | Case Resolution Activity |Son 90 günde değiştirilmiş tüm servis talebi çözümü etkinlikleri <br> [modifiedon] > içinde bulunulan gün - 90 gün |
-| Contact |Son 90 günde değiştirilmiş ilgili servis taleplerini içeren tüm kişiler. |
+| Contact |Son 90 günde değiştirilmiş ilgili servis talepleri olan tüm kişiler. |
 | Knowledge Article |Tüm bilgi bankası makalelerinin en son sürümleri  <br> [islatestversion] = true |
 | Knowledge Article Incident |Son 90 günde değiştirilmiş tüm bilgi bankası makalesi olayları <br> [modifiedon] > içinde bulunulan gün - 90 gün |
 | Queue |Tüm etkin kuyruklar  <br> [statecode] = 0 |
-| Queue Item |Son 365 günde oluşturulmuş, tüm servis taleplerine ilişkin kuyruk öğeleri  <br> [createdon] > içinde bulunulan gün - 365 gün ve <br> [objecttypecode] = 112 |
+| Queue Item |Son 365 günde oluşturulmuş, servis talepleriyle ilgili tüm kuyruk öğeleri  <br> [createdon] > içinde bulunulan gün - 365 gün ve <br> [objecttypecode] = 112 |
 | User |Tüm etkin kullanıcılar <br>  [isdisabled] = false |
 
 <a name="Requirements"></a>
@@ -154,7 +153,7 @@ CRM Online 2016 veya sonraki bir sürümüne sahip değilseniz doğrudan hesabı
 "Data refresh failed as query exceeded the maximum limit of 100000 records," (Sorgu maksimum 100.000 kayıt sınırını aştığı için veri yenileme işlemi başarısız oldu) şeklinde bir hata alırsanız doğrudan Power BI Desktop'tan bağlanmayı veya CRM çözüm şablonundan yararlanmayı deneyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
+* [Power BI'da uygulamalar ne anlama gelir?](service-create-distribute-apps.md)
 * [Power BI'da veri alma](service-get-data.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

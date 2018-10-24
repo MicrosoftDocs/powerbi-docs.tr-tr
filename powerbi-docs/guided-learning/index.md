@@ -2,12 +2,13 @@
 title: Microsoft Power BI Destekli Öğrenme
 description: Sıralı olarak sunulan bu kursların yardımıyla öğrenme sürecinizi başlatın ve Microsoft Power BI'ın kapsamlı ve güçlü özelliklerini anlayın.
 layout: LandingPage
-ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.service: powerbi
+ms.openlocfilehash: 8e9c26e48f50eb5b95a23f98329dbaea578e01d3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600688"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799081"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -32,25 +33,9 @@ ms.locfileid: "37600688"
 Başlangıç </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Power BI ile tanışın</a>
-                                <span style="margin-left: 32px; align-self: center;">5 dk</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">Power BI uygulamasını kullanma</a>
-                                <span style="margin-left: 32px; align-self: center;">4 dk</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">Power BI uygulamasının yapı taşları</a>
-                                <span style="margin-left: 32px; align-self: center;">6 dk</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">Power BI hizmetine hızlı bakış</a>
-                                <span style="margin-left: 32px; align-self: center;">9 dk</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Gözden geçirme ve sıradakiler</a>
-                                <span style="margin-left: 32px; align-self: center;">5 dk</span>
-                              </li>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/">Microsoft Learn kullanarak Power BI ile çalışmaya başlama</a>
+                                <span style="margin-left: 32px; align-self: center;">47m</span>
+                              </li>                              
                           </ul>
                       </div>
                     </div>

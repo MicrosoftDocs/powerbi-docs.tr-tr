@@ -3,18 +3,18 @@ title: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 description: Müşterileriniz için Power BI API'leri kullanarak bir raporu, panoyu veya kutucuğu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238135"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827445"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için bir Power BI raporunu, panosunu veya kutucuğunu bir uygulamaya ekleme
 
@@ -57,7 +57,7 @@ Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active
     ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Yeni Uygulama kaydı](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Talimatları izleyerek yeni bir uygulama oluşturun. Verilerin sahibi uygulamadır yapısı için **Yerel** uygulama türünü kullanmanız gerekir. Ayrıca, **Azure AD**'nin belirteç yanıtlarını döndürmek için kullanacağı bir **Yeniden Yönlendirme URI'si** belirtmeniz gerekir. Uygulamanıza özgü bir değer girin (örneğin: `http://localhost:13526/Redirect`).
+4. Talimatları izleyerek yeni bir uygulama oluşturun. Veri sahibi uygulamadır yapısı için **Yerel** uygulama türünü kullanmanız gerekir. Ayrıca, **Azure AD**'nin belirteç yanıtlarını döndürmek için kullanacağı bir **Yeniden Yönlendirme URI'si** belirtmeniz gerekir. Uygulamanıza özgü bir değer girin (örneğin: `http://localhost:13526/Redirect`).
 
     ![Uygulama Oluşturma](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
@@ -76,7 +76,7 @@ Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinle
     ![Gerekli İzinler](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. **Windows Azure Active Directory**'yi seçin ve **Oturum açmış kullanıcı olarak dizine erişin** seçeneğinin belirlenmiş olduğundan emin olun. **Kaydet**'i seçin.
-   
+
     ![Windows Azure AD İzinleri](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. **Ekle**'yi seçin.
@@ -92,13 +92,13 @@ Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinle
     ![PBI Hizmetleri Seçme](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. **Temsilci İzinleri** bölümündeki tüm izinleri seçin. Seçimlerin kaydedilmesi için teker teker seçmeniz gerekir. Tümünü seçtikten sonra **Kaydet**'i seçin.
-   
+
     ![Temsilci izinleri seçme](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. **Gerekli izinler** bölümünde **İzin Ver**'i seçin.
-   
+
     **İzin Ver** eylemi Azure AD tarafından onay istenmesini önlemek için *ana hesabı* gerektirir. Bu eylemi gerçekleştiren hesap Genel Yönetici ise kuruluşunuzdaki tüm kullanıcılara bu uygulama için izin vermeniz gerekir. Bu eylemi gerçekleştiren hesap *ana hesap* ise ve Genel Yönetici değilse bu uygulama için yalnızca *ana hesaba* izin vermelisiniz.
-   
+
     ![Gerekli izinler iletişim kutusundaki izin ver seçeneği](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
@@ -171,7 +171,7 @@ Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturab
 
     ![Azure Portalı Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    Sol gezinti bölmesinde **Tüm Hizmetler**'i ve **Uygulama Kayıtları**'nı seçin.
+    Sol gezinti bölmesinde **Tüm Hizmetler**'i, sonra da **Uygulama Kayıtları**'nı seçin.
 
     ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -277,6 +277,7 @@ var embedConfig = new EmbedConfig()
 Bu örnekte **EmbedConfig** ve **TileEmbedConfig** için bir sınıf oluşturulduğu kabul edilmektedir. Bu örnek **Models\EmbedConfig.cs** dosyasında ve **Models\TileEmbedConfig.cs** dosyasında sağlanır.
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript kullanarak öğe yükleme
+
 JavaScript kullanarak web sayfanızdaki bir div öğesine rapor yükleyebilirsiniz.
 
 JavaScript API kullanan tam bir örnek için [Playground aracı](https://microsoft.github.io/PowerBI-JavaScript/demo)'nı kullanabilirsiniz. Bunu yapmak, farklı türde Power BI Embedded örnekleri ile yürütmenin hızlı bir yoludur. Ayrıca [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) sayfasını ziyaret ederek JavaScript API’si hakkında daha fazla bilgi alabilirsiniz.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543961"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908252"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
 Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. İşbirliği Power BI'daki çalışma alanları ile sınırlı değildir. Office 365, gruplar için OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, paylaşılan takvim ve görevler gibi başka hizmetler de sunar. [Office 365'teki gruplar](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) hakkında daha fazla bilgi edinin.
@@ -23,7 +23,7 @@ Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzer
 > [!NOTE]
 > Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
 
-Uygulama çalışma alanları yalnızca [Power BI Pro](service-free-vs-pro.md) ile kullanılabilir.
+Uygulama çalışma alanları yalnızca bir [Power BI Pro lisansı](service-features-license-type.md) ile kullanılabilir.
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Uygulama çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma
 Bir Power BI Desktop dosyası oluşturduktan sonra dosyanızı Power BI uygulama alanında yayımlarsanız çalışma alanınızdaki herkes dosya üzerinde birlikte çalışabilir.
@@ -77,7 +77,7 @@ Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki uygu
 Bir uygulama çalışma alanının sahibi veya yöneticisiyseniz çalışma alanı üyesi ekleyip kaldırma seçeneğiniz de olur. [Power BI uygulama çalışma alanınızı yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](consumer/end-user-create-apps.md)
+* [Power BI'da uygulama ve uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 * Geri bildirimde bulunmak ister misiniz? [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin
 

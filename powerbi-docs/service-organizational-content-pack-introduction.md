@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547649"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908171"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -33,7 +33,7 @@ AppSource'ta kuruluşun tamamında, dağıtım veya güvenlik gruplarında ve [a
 Panolar, raporlar ve Excel çalışma kitapları salt okunurdur ancak içerik paketinin size ait kişiselleştirilmiş sürümünü oluşturmak için bir başlangıç noktası olarak panoları ve raporları kopyalayıp kullanabilirsiniz.
 
 > [!NOTE]
-> Kurumsal içerik paketleri yalnızca iş arkadaşlarınızla birlikte [Power BI Pro](service-free-vs-pro.md)'ya olmanız halinde kullanılabilir.
+> Kurumsal içerik paketleri yalnızca sizin ve iş arkadaşlarınızın [Power BI Pro lisanslarınız](service-features-license-type.md) olması halinde kullanılabilir.
 > 
 > 
 
@@ -52,7 +52,7 @@ Yaşam döngüsü aşağıdaki gibidir:
 1. Nate, Power BI Pro'da bir içerik paketi oluşturur ve bunu Pazarlama dağıtım grubunda yayımlar. Yenileme ayarları, veri kümesi ile devralınır ve yalnızca Nate tarafından değiştirilebilir.
    
    > [!NOTE]
-   > İçerik paketini üyesi olduğu bir [Power BI uygulama çalışma alanından](consumer/end-user-create-apps.md) oluşturması halinde, Nate çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
+   > İçerik paketini üyesi olduğu bir [Power BI uygulama çalışma alanından](service-create-distribute-apps.md) oluşturması halinde, Nate çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
    > 
    > 
 2. Nate, dağıtım grubuna posta gönderir ve gruptakilere yeni içerik paketinden bahseder.
@@ -76,7 +76,7 @@ Dağıtım grup üyelerinin tümü, verilere yönelik olarak içerik paketi olu�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketi oluşturma ve yayımlama](service-organizational-content-pack-create-and-publish.md)
-* [Power BI'da uygulama oluşturma ve dağıtma](consumer/end-user-create-apps.md) 
+* [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
 * [Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

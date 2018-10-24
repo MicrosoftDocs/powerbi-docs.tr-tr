@@ -1,18 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Power BI Belgeleri
-description: Power BI Belgeleri
-ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+title: Power BI belgeleri
+description: Power BI belgeleri
+ms.service: powerbi
+ms.openlocfilehash: 7dbc0270fcfdd7dc83a41cbe45399dc05a2ccfe8
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597359"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798989"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Power BI Belgeleri</h1>
+        <h1>Power BI belgeleri</h1>
         <p style="font-size: 1.12rem;margin-bottom: 1rem;">Power BI, hem öngörülerinizi hem de verilerinizin değerini artırır. Power BI belgeleriyle, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgilere ve yanıtlara ulaşabilirsiniz.</p>
         <ul class="pivots">
             <li>
@@ -22,18 +23,18 @@ ms.locfileid: "37597359"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsA">
                             <li>
-                                <a href="power-bi-overview.md">
+                                <a href="consumer/power-bi-consumer-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="" />
+                                                        <img src="./media/index/powerbi-4x_ea1e-01-resized-with-ratio.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI hizmeti</h3>
-                                                    <p>Power BI hizmeti, panoların, uygulamaların ve yayımlanmış raporların bulunduğu çevrimiçi hizmettir.</p>
+                                                    <h3>Rapor tüketicileri için Power BI</h3>
+                                                    <p>Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI ile sunulan farklı ürün ve hizmetleri keşfedip bunlarla yapabileceklerinize göz atın.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -41,18 +42,18 @@ ms.locfileid: "37597359"
                                 </a>
                             </li>
                             <li>
-                                <a href="desktop-what-is-desktop.md">
+                                <a href="power-bi-creator-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-desktop.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Design_E771.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Desktop</h3>
-                                                    <p>Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar.</p>
+                                                    <h3>Rapor tasarımcıları için Power BI</h3>
+                                                    <p>Power BI rapor tasarımcısı mısınız? Verilere bağlanmayı, ve sorguları tasarlamayı ve raporlar ve panolar oluşturmayı öğrenin.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,18 +61,18 @@ ms.locfileid: "37597359"
                                 </a>
                             </li>
                             <li>
-                                <a href="mobile-apps-for-mobile-devices.md">
+                                <a href="service-admin-administering-power-bi-in-your-organization.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-mobile-apps.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Admin_F286.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI mobil uygulamaları</h3>
-                                                    <p>Mobil cihazınızda Power BI panolarını ve raporlarını görüntülemenin yanı sıra bunlarla etkileşim kurun.</p>
+                                                    <h3>Yöneticiler için Power BI</h3>
+                                                    <p>İlkeleri yapılandırma, kullanımı izleme, lisans ve kapasite sağlama dahil olmak üzere bir Power BI kiracısını yönetmeyi öğrenin.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,12 +86,12 @@ ms.locfileid: "37597359"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-developer.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI geliştirici</h3>
-                                                    <p>Power BI, geliştiriciler için çok çeşitli seçenekler sunar. Ekleme, özel görseller ve akış veri kümeleri bu seçenekler arasında yer almaktadır.</p>
+                                                    <h3>Geliştiriciler için Power BI</h3>
+                                                    <p>Power BI geliştiriciler için, özel görseller eklemekten veri kümelerinin akışını yapmaya kadar değişen çok çeşitli seçenekler sunar.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,18 +99,18 @@ ms.locfileid: "37597359"
                                 </a>
                             </li>
                             <li>
-                                <a href="report-server/get-started.md">
+                                <a href="https://powerbi.microsoft.com/blog/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-report-server.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Blog_E1D7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Rapor Sunucusu</h3>
-                                                    <p>Şirket içinde Power BI ile mobil ve sayfalandırılmış raporlar oluşturun, bunları dağıtın ve yönetin.</p>
+                                                    <h3>Power BI blogu</h3>
+                                                    <p>Power BI'daki son gelişmelerden haberdar olun.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -123,7 +124,7 @@ ms.locfileid: "37597359"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-guided-learning.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-GuidedLearning_E736.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

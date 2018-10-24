@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565119"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908102"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI hizmeti raporlarındaki Okuma görünümü ve Düzenleme görünümü
 Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: Okuma görünümü ve Düzenleme görünümü. Okuma görünümü, özellikle veri *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir.
@@ -26,11 +26,12 @@ Power BI hizmetinde (Power BI Desktop uygulamasında değil) raporları görünt
 
  Raporu araştırmak ve raporla etkileşime geçmek için Okuma görünümü'nü kullanırsınız. Bu görünümü kullanarak eğlenceli ve güvenli bir şekilde verilerinizle denemeler yapabilir ve verilerinizi daha yakından tanıyabilirsiniz. Okuma görünümü rapor *kullanıcıları* için tasarlanmıştır ve bu kişiler, raporları Uygulamalardan veya [kendileriyle yapılan paylaşımlardan](../service-share-dashboards.md) açan kullanıcılardır. Okuma görünümü, belirli bir raporu görüntüleyen herkesin aynı raporu ve aynı görselleştirmeleri, isteğe bağlı olarak aynı filtreler uygulanmış halde görmesini sağlar.  Tüketiciler, raporlarla etkileşim kurabilir, mevcut filtreleri değiştirebilir (ve bu değişiklikler rapora kaydedilir), ancak yeni filtreler ekleyemez.
 
->**NOT**: Belirli durumlarda satır düzeyi güvenlik ve veri izinleri nedeniyle rapor tüketicilerinin görüntülediği veriler farklı olabilir.
+> [!NOTE]
+> Belirli durumlarda satır düzeyi güvenlik ve veri izinleri nedeniyle rapor tüketicilerinin görüntülediği veriler farklı olabilir.
 
 ## <a name="report-editing-view"></a>Rapor Düzenleme görünümü
 
-Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](end-user-create-apps.md) kişiler tarafından kullanılabilir.
+Düzenleme görünümü yalnızca raporu oluşturan veya [uygulama çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](../service-create-distribute-apps.md) kişiler tarafından kullanılabilir.
 
 Düzenleme görünümü rapor *oluşturucuları* için tasarlanmıştır. Oluşturucular bu görünümde veri kümelerini içeri aktarabilir, bunlara bağlanabilir, verileri araştırabilir ve raporlar ile panolar oluşturabilir. *Oluşturucular* Düzenleme görünümü'nde alan ekleyip kaldırmanın, görselleştirme türünü değiştirmenin ve yeni görselleştirmeler oluşturmanın yanı sıra rapora görselleştirmeler ile sayfalar ekleyip bunları silerek verilerini çok daha derinlemesine inceleyebilir. Ardından, söz konusu raporları iş arkadaşlarıyla paylaşabilirler.
 
@@ -53,11 +54,11 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 | [Kullanım ölçümlerini görüntüleme](../service-usage-metrics.md) | Evet, rapor tuvalinde kullanılabilir. | Evet, rapor listesinde (içerik görünümü) kullanılabilir. |
 | [İlişkilileri görüntüleme](end-user-related.md) | Evet, rapor tuvalinde kullanılabilir. | Evet, rapor listesinde (içerik görünümü) kullanılabilir. |
 | [Bir raporu kaydetme](../service-report-save.md) | Evet, ancak yalnızca **Farklı kaydet** seçeneği ile kullanılabilir. | Evet |
-| [Bir raporu silme](end-user-delete.md) | Hayır  | Evet |
+| [Bir raporu silme](../service-delete.md) | Hayır  | Evet |
 |**Rapor sayfaları** |
 | [Bir rapor sayfası ekleme veya sayfayı yeniden adlandırma](../power-bi-report-add-page.md)  | Hayır  | Evet  |
 | [Bir rapor sayfasını yineleme](../power-bi-report-copy-paste-page.md) | Hayır  | Evet |
-| [Bir rapor sayfasını silme](end-user-delete.md) | hayır | evet |
+| [Bir rapor sayfasını silme](../service-delete.md) | hayır | evet |
 |**Rapor görselleştirmeleri ile çalışma**|
 | [Bir rapora görselleştirme ekleme](../visuals/power-bi-report-add-visualizations-i.md) | Hayır  | Evet |
 | [Bir rapora metin kutusu ve şekil ekleme](../power-bi-reports-add-text-and-shapes.md) | Hayır  | Evet |
@@ -66,7 +67,7 @@ Bu grafikte Power BI hizmetinin sunduğu rapor özelliklerinin tamamı yer almam
 | [Görselleştirmeyi oluşturmak için kullanılan verileri gösterme](end-user-show-data.md) | Hayır  | Evet |
 | [Detaylandırmayı yapılandırma](end-user-drill.md) | Hayır  | Evet |
 | [Kullanılmakta olan görselleştirmeyi değiştirme](../visuals/power-bi-report-change-visualization-type.md) | Hayır | Evet|
-| [Bir görselleştirmeyi, metin kutusunu veya şekli silme](end-user-delete.md)| Hayır | Evet |
+| [Bir görselleştirmeyi, metin kutusunu veya şekli silme](../service-delete.md)| Hayır | Evet |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Düzenleme görünümü ile Okuma görünümü arasında geçiş yapma
@@ -88,7 +89,6 @@ Raporları yalnızca rapor oluşturucularının ve rapor sahiplerinin Düzenleme
 
 
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 Okuma görünümü'nde raporunuzla etkileşim kurmanın, öngörüler keşfetmek ve sorularınıza cevap bulmak için verilerinizi ayrıntılı olarak incelemenin çok çeşitli yolları vardır.  Bir sonraki konuda ([Okuma görünümü'nde bir raporla etkileşim kurma](../service-interact-with-a-report-in-editing-view.md)), bunlardan bazıları ayrıntılı bir şekilde açıklanmaktadır.    
-[Power BI'daki raporlar](end-user-reports.md)   bölümüne dönün  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+[Power BI'daki raporlar](end-user-reports.md) bölümüne dönün    

@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564751"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909142"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI hizmetindeki panolar
 
 Power BI ***panosu***, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi tasarlanmış bir panoda yalnızca hikayenin en önemli parçaları yer alır.
 
-![pano](./media/end-user-dashboards/power-bi-dashboard2.png)
+![pano](media/end-user-dashboards/power-bi-dashboard2.png)
 
 Panoda gördüğünüz görselleştirmeler, *kutucuk* olarak adlandırılır ve panolara raporlardan *sabitlenir*. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](end-user-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
 
 > [!NOTE]
-> Panolar Power BI hizmetinin özelliklerinden biridir ve Power BI Desktop ile kullanılamaz. Panolar mobil cihazlarda oluşturulamaz ancak [görüntülenebilir ve paylaşılabilir](mobile/mobile-apps-view-dashboard.md).
+> Panolar Power BI hizmetinin özelliklerinden biridir ve Power BI Desktop ile kullanılamaz. Panolar mobil cihazlarda oluşturulamaz ancak [görüntülenebilir ve paylaşılabilir](/mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 
 Panodaki görselleştirmeler raporlardan gelir ve her rapor bir veri kümesini temel alır. Panoları, bağlantılı raporlara ve temel alınan veri kümelerine giriş noktası olarak düşünebilirsiniz. Görselleştirmelerden birini seçtiğinizde bunu oluşturmak için kullanılan rapor (ve veri kümesi) açılır.
 
-![panolar, raporlar, veri kümeleri arasındaki ilişkiyi gösteren diyagram](./media/end-user-dashboards/power-bi-diagram.png)
+![panolar, raporlar, veri kümeleri arasındaki ilişkiyi gösteren diyagram](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Panoların avantajları
 Panolar işlerinizi izlemek, yanıtlar aramak ve en önemli ölçümlerinizi bir bakışta görmek için harikadır. Panolardaki görselleştirmeler, bir veya daha fazla temel alınan veri kümesinden ve bağlantılı rapordan oluşabilir. Bir panoda şirket içi ve bulut kaynaklı veriler bir arada kullanılarak verilerin konumundan bağımsız tümleşik bir görünüm oluşturulabilir.
@@ -40,7 +40,7 @@ Panolar işlerinizi izlemek, yanıtlar aramak ve en önemli ölçümlerinizi bir
 Panolar yalnızca güzel görünen resimlerden ibaret değildir. Bu nesneler büyük ölçüde etkileşimli ve özelleştirilebilirdir. Ayrıca temel alınan veriler değiştikçe kutucuklar da güncelleştirilir.
 
 ## <a name="dashboards-versus-reports"></a>Panolarla raporları karşılaştırma
-[Raporlar](end-user-reports.md) da görselleştirmelerle dolu tuvaller olduklarından genellikle panolarla karıştırılır. Ancak bazı önemli farklılıklar bulunur.
+Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarla karıştırılır. Ancak bazı önemli farklılıklar bulunur.
 
 | **Özellik** | **Panolar** | **Raporlar** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Rolünüze göre, başlamanıza yardımcı olacak bazı konu başlıkları aşa�
 
 Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power BI Pro gerekir.
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>Panoları oluşturacak ve paylaşacaksanız
-* Örneklerimizden birini kullanarak [rapordan pano oluşturun](../service-dashboard-create.md).
-* [Pano kutucukları](end-user-tiles.md) ve bunları panoya sabitleme yöntemleri hakkında bilgi edinin.
-* [Soru-Cevap doğal dil sorgularıyla iyi çalışan](../service-prepare-data-for-q-and-a.md) ve [Hızlı Öngörüler](../service-insights-optimize.md) içeren panolar oluşturarak, panolarınızın kullanıcılarına yardımcı olun.
-* [Bir panoyu iş arkadaşlarınızla paylaşmak](../service-how-to-collaborate-distribute-dashboards-reports.md) için izleyebileceğiniz tüm farklı yolları keşfedin.
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Pano alacak ve kullanacaksanız
 * Panoları daha rahat kullanmak için [örnek panolarımızdan](../sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.
-* Bir panonun görünümünü beğenmediniz mi?  [Kutucukları yeniden boyutlandırabilir, taşıyabilir ve yeniden adlandırabilirsiniz](../service-dashboard-edit-tile.md).
-* Tek bir pano kutucuğunu izlemek ve belirli bir eşiğe ulaştığında e-posta almak mı istiyorsunuz? [Kutucuklar için uyarılar oluşturun](../service-set-data-alerts.md).
-* Panolarınıza sorular sormanın keyfini çıkarın. Verileriniz hakkında soru sormak ve görselleştirme şeklinde yanıt almak için [Power BI Soru-Cevap](../power-bi-tutorial-q-and-a.md) özelliğini kullanmayı öğrenin.
+* Tek bir pano kutucuğunu izlemek ve belirli bir eşiğe ulaştığında e-posta almak mı istiyorsunuz? [Kutucuklar için uyarılar oluşturun](end-user-alerts.md).
+* Panolarınıza sorular sormanın keyfini çıkarın. Verileriniz hakkında soru sormak ve görselleştirme şeklinde yanıt almak için [Power BI Soru-Cevap](end-user-q-and-a.md) özelliğini kullanmayı öğrenin.
 
 > [!TIP]
 > Aradığınızı burada bulamadıysanız sol taraftaki İçindekiler bölümünü kullanın.
-> 
 > 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](../power-bi-overview.md)  
 [Power BI - Temel Kavramlar](end-user-basic-concepts.md)  
-[Power BI Premium nedir?](../service-premium.md)  
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

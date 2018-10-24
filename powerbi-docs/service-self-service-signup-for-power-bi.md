@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549995"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909073"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
 Power BI'a kaydolmayı ve Power BI'ı kişisel rapor ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
@@ -24,7 +24,7 @@ Power BI'a kaydolmayı ve Power BI'ı kişisel rapor ve görselleştirme ihtiya�
 
 Power BI, kişisel rapor ve görselleştirme aracınız olabileceği gibi grup projeleri, departmanlar veya tüm şirket için analiz ve karar mekanizması olarak da kullanılabilir.
 
-Bu makalede, Power BI hizmetine kaydolmaya ve hizmeti kullanmaya başlamaya yönelik seçenekleriniz ele alınmaktadır. Ücretsiz Power BI ile Power BI Pro arasındaki farklar hakkında daha fazla bilgi için bkz. [Ücretsiz Power BI ve Power BI Pro](service-free-vs-pro.md).
+Bu makalede, Power BI hizmetine kaydolmaya ve hizmeti kullanmaya başlamaya yönelik seçenekleriniz ele alınmaktadır. Power BI lisans türleri arasındaki işlevsellik farkları hakkında daha fazla bilgi edinmek için [Lisans türüne göre Power BI özellikleri](service-features-license-type.md)'ne bakın.
 
 ## <a name="you-have-a-few-options"></a>Birkaç seçeneğiniz vardır
 Bireysel olarak Power BI'a kaydolmak ve hizmeti kullanmaya başlamak için birkaç farklı seçeneğiniz bulunmaktadır. Ücretsiz kaydolmayı seçebilir veya bir Power BI Pro aboneliği satın alabilirsiniz. Ücretsiz hesaba kaydolursanız hizmette 60 günlük Power BI Pro ücretsiz deneme sürümünden yararlanabilirsiniz.
@@ -99,7 +99,7 @@ Daha sonra, **Başlat**'ı seçmenizi isteyen bir ileti görürsünüz.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Hizmet içi Power BI Pro 60 günlük deneme sürümü
 Ücretsiz hesaba kaydolduktan sonra Pro'yu 60 gün süreyle ücretsiz denemeyi seçebilirsiniz. Deneme süresi boyunca Pro'nun tüm özelliklerine erişebilirsiniz. Power BI Pro, Power BI ücretsiz sürümünün tüm özelliklerinin yanı sıra ek paylaşım ve işbirliği özellikleri içermektedir. Daha fazla bilgi için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/pricing). Power BI Pro'nun 60 günlük ücretsiz deneme sürümü için Power BI'da oturum açın ve şu Power BI Pro özelliklerinden birini deneyin:
 
-* [Uygulama çalışma alanı oluşturma](consumer/end-user-create-apps.md)
+* [Uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
 * [Bir panoyu paylaşma](service-share-dashboards.md)
 
 Bu özelliklerden herhangi birini denediğinizde, ücretsiz denemenizi başlatmanız istenir. Ayrıca, dişli simgesine gidip **Kişisel depolama alanını yönet**'i seçerek de ücretsiz denemenizi başlatabilirsiniz. Ardından, sağdaki **Pro'yu ücretsiz dene** seçeneğini belirleyin.
@@ -139,8 +139,7 @@ Power BI Pro lisansını bireysel olarak kullanmanın bir yolu yoktur. Lisansı 
 |            **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.*             |                             Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydolmayı tamamlamak için BT yöneticinize başvurun ve sayfanın aşağısında verilen yönergeleri izleyerek mevcut kullanıcıların Power BI'a kaydolmasına ve yeni kullanıcıların mevcut kiracınıza katılmasına izin vermesini isteyin. <br/><br/> Office 365'e bir iş ortağı aracılığıyla kaydolduysanız da bu sorunla karşılaşabilirsiniz. [Daha fazla bilgi](service-admin-syndication-partner.md) <br /><br /> [Kuruluşunuzda Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.*                                                                                           | Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapabiliyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Sonraki adımlar
-[Kuruluşunuz için Power BI (ücretsiz)](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>Sonraki adımlar  
 [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md)  
 [Bireysel kullanıcılar için Power BI Hizmet sözleşmesi](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium nedir?](service-premium.md)  

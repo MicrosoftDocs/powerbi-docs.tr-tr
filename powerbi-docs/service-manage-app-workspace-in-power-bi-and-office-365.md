@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547580"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908820"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
-Office 365 veya [Power BI'daki bir uygulama çalışma alanının](consumer/end-user-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
+Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-create-distribute-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
 
 > [!NOTE]
 > Yeni çalışma alanı deneyimi önizlemesi Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştirecek. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmayacaksınız. [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) hakkındaki yazıyı okuyun
@@ -36,7 +36,7 @@ Office 365 veya [Power BI'daki bir uygulama çalışma alanının](consumer/end-
 * Grup e-posta adresini görebilirsiniz.
 * Grubu silebilirsiniz.
 
-Uygulama çalışma alanının yöneticisi veya üyesi olabilmek için [Power BI Pro](service-free-vs-pro.md) lisansınız olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+Uygulama çalışma alanı yöneticisi veya üyesi olabilmeniz için bir [Power BI Pro lisansınız](service-features-license-type.md) olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI'da uygulama çalışma alanınızı düzenleme
 1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Çalışma alanını düzenle**'yi seçin. 
@@ -76,7 +76,6 @@ Uygulamanızı, uygulama çalışma alanından dağıttığınızda burada ekled
 3. **Kaydet**'i veya **At**'ı seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI'da uygulamalar ne anlama gelir?](consumer/end-user-apps.md)
-* [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](consumer/end-user-create-apps.md)
+* [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
