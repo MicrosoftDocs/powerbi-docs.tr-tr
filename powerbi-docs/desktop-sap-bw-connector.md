@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280214"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336933"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
 
 SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği hakkında bilgi için bkz. [Power BI ve SAP BW teknik incelemesi](https://aka.ms/powerbiandsapbw). SAP BW ile DirectQuery kullanma hakkında ayrıntılı bilgi için [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) makalesine bakın.
 
-**Power BI Desktop**’ın Haziran 2018 sürümünden itibaren, SAP BW bağlayıcısını performans ve özellikler bakımından önemli iyileştirmeler içeren bir uygulama ile birlikte kullanabilirsiniz. SAP BW bağlayıcısının bu güncelleştirilmiş sürümü Microsoft tarafından geliştirilmiştir ve **Uygulama 2.0** olarak adlandırılır. **SAP BW Bağlayıcısı**’nın 1. sürümünü (v1) veya **Uygulama 2.0 SAP Bağlayıcısı**’nı seçebilirsiniz. Aşağıdaki bölümlerde, her bir sürümün yüklenmesi sırayla açıklanmaktadır. Power BI Desktop’tan SAP BW’ye bağlanırken bağlayıcılardan birini seçebilirsiniz.
+**Power BI Desktop**’ın Haziran 2018 sürümünden itibaren (ve Ekim 2018 sürümüyle genel kullanıma açık bir şekilde), SAP BW bağlayıcısını performans ve özellikler bakımından önemli iyileştirmeler içeren bir uygulama ile birlikte kullanabilirsiniz. SAP BW bağlayıcısının bu güncelleştirilmiş sürümü Microsoft tarafından geliştirilmiştir ve **Uygulama 2.0** olarak adlandırılır. **SAP BW Bağlayıcısı**’nın 1. sürümünü (v1) veya **Uygulama 2.0 SAP Bağlayıcısı**’nı seçebilirsiniz. Aşağıdaki bölümlerde, her bir sürümün yüklenmesi sırayla açıklanmaktadır. Power BI Desktop’tan SAP BW’ye bağlanırken bağlayıcılardan birini seçebilirsiniz.
 
 Mümkün olduğunda **Uygulama 2.0 SAP Bağlayıcısı**’nı seçmeniz önerilir.
 

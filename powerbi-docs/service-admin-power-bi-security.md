@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417108"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336749"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini indirin](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -58,4 +58,14 @@ Daha fazla bilgi için lütfen [Microsoft Güven Merkezi](https://www.microsoft.
 Bu makalenin yukarıdaki bölümlerinde açıklandığı üzere kullanıcının Power BI oturum açma bilgileri, şirket içi Active Directory sunucuları tarafından kullanılarak kimlik bilgilerine ilişkin bir UPN ile eşlenir. Ancak, kullanıcıların, paylaştıkları verilerin sorumluluğunu alması gerektiğini **unutmayın**. Bir kullanıcının kendi kimlik bilgilerini kullanarak bağlandığı veri kaynağındaki verileri kullanan bir raporu (veya panoyu ya da veri kümesini) paylaşması halinde, ilgili öğenin paylaşıldığı kullanıcıların kimliği, özgün veri kaynağı için doğrulanmaz ve bu kullanıcılara, rapora yönelik erişim izni verilir.
 
 Bu durum, **şirket içi veri ağ geçidi** kullanılarak **SQL Server Analysis Services** ile kurulan bağlantılar için geçerli değildir. Panolar Power BI hizmetinde önbelleğe alınır ancak bağlantılı raporlara veya veri kümelerine erişim için rapora (veya veri kümesine) erişmek isteyen kullanıcıya yönelik olarak kimlik doğrulaması başlatılır ve yalnızca kullanıcının ilgili verilere erişmek için yeterli kimlik bilgilerine sahip olması durumunda erişim izni verilir. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidine yakından bakış](service-gateway-onprem-indepth.md).
+
+## <a name="enforcing-tls-version-usage"></a>TLS sürümü kullanımını zorlama
+
+Ağ ve BT yöneticileri, ağ üzerinden gerçekleştirilen güvenli iletişimler için geçerli TLS (Aktarım Katmanı Güvenliği) kullanımını zorunlu kılabilir. Windows, [TLS Schannel SSP makalesinde açıklandığı gibi](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-) Microsoft Schannel Provider üzerinden TLS sürümlerini destekler.
+
+Bu zorlama kayıt defteri anahtarlarının ayarlanmasıyla sağlanabilir. Zorlama adımları [AD FS SSL Protokollerini Yönetme makalesinde](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) anlatılmıştır. 
+
+**Power BI Desktop**, bu makalelerde anlatılan kayıt defteri anahtarı ayarlarını dikkate alır ve bu kayıt defteri ayarları mevcut olduğunda yalnızca izin verilen TLS sürümü kullanılarak oluşturulan bağlantılara izin verilir.
+
+Bu kayıt defteri anahtarlarını oluşturma hakkında daha fazla bilgi için [TLS Kayıt Defteri Ayarları](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) makalesini inceleyin.
 

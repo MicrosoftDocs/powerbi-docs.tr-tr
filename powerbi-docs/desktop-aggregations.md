@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974219"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359735"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Toplamalar (Önizleme)
 
@@ -191,9 +191,9 @@ Ardından **Toplamaları yönet** iletişim kutusunda toplama eşlemelerini tan�
 
 ![Driver Activity Agg tablosu için Toplamaları yönet iletişim kutusu](media/desktop-aggregations/aggregations_11.jpg)
 
-Aşağıdaki tabloda **Sales Agg** tablosunun toplamaları gösterilmiştir.
+Aşağıdaki tabloda **Driver Activity Agg** tablosunun toplamaları gösterilmiştir.
 
-![Sales Agg toplama tablosu](media/desktop-aggregations/aggregations-table_02.jpg)
+![Driver Activity Agg toplama tablosu](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Gruplandırma ölçütü sütunları
 
@@ -229,9 +229,9 @@ Zincirleme toplamalara izin verilmediğinden **Ayrıntı Tablosu** sütununda **
 
 ![Toplamaları yönetme iletişim kutusu](media/desktop-aggregations/aggregations_14.jpg)
 
-Aşağıdaki tabloda **Sales Agg** tablosunun toplamaları gösterilmiştir.
+Aşağıdaki tabloda **Driver Activity Agg2** tablosunun toplamaları gösterilmiştir.
 
-![Sales Agg toplama tablosu](media/desktop-aggregations/aggregations-table_03.jpg)
+![Driver Activity Agg2 toplama tablosu](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>İlişkilerle bağlanmış gruplandırma ölçütü sütunlarını temel alan toplamalar
 

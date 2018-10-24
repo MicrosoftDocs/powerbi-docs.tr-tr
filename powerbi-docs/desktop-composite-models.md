@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974058"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49337002"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modeller (Önizleme)
 
@@ -58,7 +58,7 @@ DirectQuery **bileşik modellerle** kullanıldığında, aşağıdakileri gerçe
 Örneğin, **bileşik modellerle** bir kurumsal veri ambarındaki satış verilerini departman SQL Server veritabanındaki satış hedefi verileriyle birleştiren, ayrıca bir elektronik tablodan bazı verileri içeri aktaran bir model oluşturmak mümkün olur. Birden çok DirectQuery kaynağından verileri birleştiren veya DirectQuery'yi içeri aktarılan verilerle birleştiren modeller, *bileşik model* olarak adlandırılır.
 
 > [!NOTE]
-> Bileşik modeller Önizleme aşamasındayken, bileşik modelleri Power BI hizmetine yayımlamak mümkün değildir. 
+> **Power BI Desktop**'ın Ekim 2018 sürümünden itibaren bileşik modelleri Power BI hizmetine *yayımlayabilirsiniz*. Zamanlanmış yenileme ve pano kutucuğu yenileme için Power BI hizmetindeki bileşik modeller İçeri Aktarma modelleri ile aynı şekilde hareket eder. 
 
 Tablolar farklı kaynaklardan geliyor olsa bile, her zaman yaptığınız gibi tablolar arasında ilişkiler oluşturabilirsiniz; ama şu kısıtlamalar söz konusudur: kaynaklar arası kurulan tüm ilişkiler, gerçek kardinalitesi ne olursa olsun **Çoka Çok** kardinalitesi olacak şekilde tanımlanır. Bu tür ilişkilerin davranışı da [Power BI Desktop'ta çoka çok ilişkileri (Önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklandığı gibi normal **Çoka Çok**  ilişkileriyle aynıdır. Bileşik modeller bağlamında, gerçekte içeri aktarıldıkları temel veri kaynağından bağımsız olarak tüm içeri aktarılan tabloların aslında tek bir kaynak olduğunu unutmayın.   
 

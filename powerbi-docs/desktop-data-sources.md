@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512076"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336910"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -75,13 +75,15 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Teradata Veritabanı
 * SAP HANA Veritabanı
 * SAP Business Warehouse Uygulama Sunucusu
-* SAP Business Warehouse İleti Sunucusu (Beta)
+* SAP Business Warehouse İleti Sunucusu
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio (Beta)
 * Exasol (Beta)
 * Jethro (Beta)
+* Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
@@ -112,7 +114,7 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* HDInsight Etkileşimli Sorgu (Beta)
+* HDInsight Etkileşimli Sorgu
 * Azure KustoDB (beta)
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -124,10 +126,10 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * SharePoint Online Listesi
 * Microsoft Exchange Online
 * Dynamics 365 (çevrimiçi)
-* Dynamics NAV (Beta)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central (şirket içi)
 * Uygulamalar için Common Data Service (Beta)
-* Common Data Service (Beta)
 * Microsoft Azure Tüketim Öngörüleri (Beta)
 * Visual Studio Team Services (Beta)
 * Salesforce Nesneleri
@@ -163,7 +165,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 
 **Diğer** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
-* Vertica (Beta)
+* Vertica
 * Web
 * SharePoint Listesi
 * OData Akışı
@@ -175,6 +177,8 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
+* Denado
+* Paxata (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.

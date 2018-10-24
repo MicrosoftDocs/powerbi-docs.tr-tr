@@ -1,84 +1,99 @@
 ---
-title: Power BI hizmetinde bir raporu Okuma görünümü veya Düzenleme görünümü'nde açma
-description: Power BI raporunu Okuma görünümü veya Düzenleme görünümünde açma
+title: Power BI hizmetinde rapor görüntüleme
+description: Bir Power BI raporunu Okuma görünümünde açma.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/10/2018
 ms.author: mihart
-ms.openlocfilehash: fe1916b2b287dffd59bf4535cc07e13d10d01321
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565809"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112027"
 ---
-# <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com) bir raporu açma
-Raporlar Power BI hizmeti, Power BI Desktop, Power BI Mobil ve hatta Power BI Embedded'da kullanılabilir. Bu makalede, raporları ***Power BI hizmetinde*** açma konusu ele alınmıştır.
+# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com) rapor görüntüleme
+Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *rapor tasarımcıları* tarafından oluşturulur ve sizinle [doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
 
-Power BI hizmetinde raporları görüntülemek ve onlarla etkileşim kurmak için kullanabileceğiniz iki mod vardır: [Okuma görünümü ve Düzenleme görünümü](end-user-reading-view.md). Okuma görünümü, özellikle rapor *kullanıcıları* için tasarlanmıştır ve tüm kullanıcılar tarafından kullanılabilir; Düzenleme görünümü ise yalnızca rapor *oluşturucuları* ve rapor sahipleri tarafından kullanılabilir. 
+Bir raporu açmanın birçok farklı yolu vardır. Burada Giriş sayfasından açma ve panodan açma olmak üzere iki farklı yöntem gösterilmektedir. 
 
-## <a name="open-a-report-from-a-workspace-via-the-reports-content-view-list"></a>Bir raporu çalışma alanından açma (**Raporlar** içerik görünümü listesi aracılığıyla)
+<!-- add art-->
 
-1. İşleme bir çalışma alanında başlayın ve tüm raporları görüntülemek için **Raporlar** sekmesini seçin.  
+
+## <a name="open-a-report-from-your-home-page"></a>Giriş sayfanızdan rapor açma
+Önce doğrudan sizinle paylaşılan bir raporu, ardından da bir uygulama aracılığıyla paylaşılan bir raporu açalım.
+
+   ![Giriş sayfası](./media/end-user-report-open/power-bi-home.png)
+
+### <a name="open-a-report-that-has-been-shared-with-you"></a>Sizinle paylaşılmış olan bir raporu açma
+Power BI *tasarımcıları* oluşturdukları raporu üst menü çubuğundaki **Paylaş** düğmesine tıklayarak doğrudan sizinle paylaşabilir. Bu durumda paylaşılan içerik sol gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş sayfanızın **Benimle paylaşılan** bölümünde gösterilir.
+
+1. Power BI hizmetini (app.powerbi.com) açın.
+
+2. Sol gezinti çubuğunda **Giriş (Önizleme)** öğesini seçerek Giriş sayfanızı açın.  
+
+   ![Giriş sayfası](./media/end-user-report-open/power-bi-select-home.png)
    
-   ![Bir çalışma alanının raporlar sekmesi](./media/end-user-report-open/power-bi-open-report.png)
-2. Rapor adını seçerek söz konusu raporu Okuma görünümü'nde açın.  
+3. **Benimle paylaşılan** bölümünü görene kadar aşağı kaydırın. Rapor simgesini ![rapor simgesi](./media/end-user-report-open/power-bi-report-icon.png) bulun. Bu ekran görüntüsünde iki rapor var: *Financial* ve *Northwind*. 
    
-    ![Okuma görünümü’nde rapor](./media/end-user-report-open/power-bi-reading-view.png)
-3. [Okuma Görünümü'nde yapabileceğiniz çok şey vardır](end-user-reading-view.md).  Bu örnek raporda birden fazla sayfa vardır. Bu nedenle rapor tuvalinin en altındaki sekmeleri keşfederek başlayabilirsiniz. 
+   ![Giriş sayfasının Benimle paylaşılan bölümü](./media/end-user-report-open/power-bi-shared.png)
+
+4. Raporu açmak için rapor kartlarından birini seçmeniz yeterlidir.
+
+   ![rapor sayfası](./media/end-user-report-open/power-bi-report1.png)
+
+5. Sayfanın alt tarafındaki sekmelere dikkat edin. Bu sekmelerin her biri raporunuzun bir *sayfasını* temsil eder. Şu anda *IT Spend Trend* sayfası açık. Farklı bir sekmeyi seçerek ilgili rapor sayfasını açın. 
+
+   ![rapor sayfası sekmeleri](./media/end-user-report-open/power-bi-tabs.png)
+
+6. Şu an rapor sayfasının yalnızca bir bölümünü görebiliyoruz. Sayfanın görünümünü (yakınlaştırma) değiştirmek için **Görünüm** > **Sayfaya sığdır**'ı seçin.
+
+   ![yakınlaştırmayı değiştirme](./media/end-user-report-open/power-bi-fit.png)
+
+   ![sayfaya sığdır](./media/end-user-report-open/power-bi-report2.png)
+
+### <a name="open-a-report-that-is-part-of-an-app"></a>Bir uygulamanın parçası olan bir raporu açma
+İş arkadaşlarınızdan veya AppSource'tan aldığınız uygulamalar Giriş sayfanızda ve sol gezinti çubuğundaki **Uygulamalar** kapsayıcısında yer alır. [Uygulama](end-user-apps.md), panolardan ve raporlardan oluşan bir pakettir.
+
+1. Sol gezinti çubuğundan **Giriş (Önizleme)** öğesini seçerek Giriş sayfanıza dönün.
+
+7. **Uygulamalarım** bölümünü görene kadar aşağı kaydırın.
+
+   ![Giriş sayfası](./media/end-user-report-open/power-bi-my-apps.png)
+
+8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano veya rapor ile açılır. Uygulamayı seçtiğinizde:
+    - rapor açılırsa başka bir işlem yapmanıza gerek yoktur.
+    - pano açılırsa aşağıdaki [Bir raporu panodan açma](#Open-a-report-from-a-dashboard) bölümüne bakın.
+
+
 
 ## <a name="open-a-report-from-a-dashboard"></a>Bir raporu panodan açma
-Raporu açmak için kullanabileceğiniz birçok yöntem vardır. Örneğin bir panodan başlayabilir ve rapordan oluşturulan bir kutucuğu seçebilirsiniz.  Bir kutucuğu seçtiğinizde rapor Okuma Görünümü'nde açılır. Birlikte ilerleyebilmek için, [Sales and Marketing Sample panosunu açın](../sample-datasets.md).
+Raporlar panodan açılabilir. Çoğu pano kutucuğu, raporlardan *sabitlenmiştir*. Bir kutucuğu seçtiğinizde panoyu oluşturmak için kullanılan rapor açılır. 
 
-1. Bir pano açın ve kutucuk seçin.
-
-   [Soru-Cevap ile oluşturulan](../service-dashboard-pin-tile-from-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk ekle** pencere öğesi kullanılarak oluşturulan](../service-dashboard-add-widget.md) bir kutucuğu seçerseniz söz konusu pencere öğesini düzenleyebileceğiniz sihirbaz açılır.  
-
-2.  Bu örnekte, "Total Units YTD..." sütun grafiği kutucuğunu seçmeyi tercih ettik.
+1. Panodan bir kutucuk seçin. Bu örnekte, "Total Units YTD..." sütun grafiği kutucuğunu seçmeyi tercih ettik.
 
     ![kutucuğun seçili olduğu pano](./media/end-user-report-open/power-bi-dashboard.png)
 
-3.  İlişkili rapor Okuma görünümü'nde açılır. "YTD Category" adlı sayfada olduğumuza dikkat edin. Bu, panodan seçtiğimiz sütun grafiğinin yer aldığı rapor sayfasıdır.
+2.  İlişkili rapor açılır. "YTD Category" adlı sayfada olduğumuza dikkat edin. Bu, panodan seçtiğimiz sütun grafiğinin yer aldığı rapor sayfasıdır.
 
-    ![Okuma görünümü’nde açık rapor](./media/end-user-report-open/power-bi-report.png)
+    ![Okuma görünümü’nde açık rapor](./media/end-user-report-open/power-bi-report-new.png)
 
-4. Okuma görünümü'nde kalın veya raporu Düzenleme görünümü'nde açmak için **Raporu düzenle** seçeneğini belirleyin. Raporun yalnızca düzenleme izinlerine sahip olan kullanıcılar tarafından Düzenleme görünümü'nde açılabileceğini unutmayın.
+> [!NOTE]
+> Tüm kutucuklar rapor açmaz. [Soru-Cevap ile oluşturulan](../service-dashboard-pin-tile-from-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk ekle** pencere öğesi kullanılarak oluşturulan](../service-dashboard-add-widget.md) bir kutucuğu seçerseniz **Kutucuğu düzenle** sihirbazı açılır.  
 
-    ![Raporu düzenle simgesini gösteren rapor düzenleyicisi](./media/end-user-report-open/power-bi-edit-report.png)
-
-## <a name="create-a-brand-new-report-from-a-dataset"></a>Bir veri kümesinden yepyeni bir rapor oluşturma
-Bir raporu açmanın diğer bir yolu da bu işlem için veri kümelerini kullanmaktır. İşleme bir veri kümesinden başladığınızda boş bir rapor tuvali ile karşılaşırsınız. Bu nedenle bu yöntem, sahip oldukları veri kümesini temel alan yeni bir rapor oluşturmak isteyen rapor *oluşturucuları* için önerilir. Yukarıdaki örnekte olduğu gibi, birlikte ilerleyebilmek için [Sales and Marketing Sample uygulamasını](../sample-datasets.md) indirin.
-
-1. İşleme bir raporun temelini oluşturacak şekilde kullanmak istediğiniz veri kümesini içeren çalışma alanından başlayın.
-
-   ![Uygulama çalışma alanlarını görüntüleyen sol gezinti bölmesi](./media/end-user-report-open/power-bi-workspace.png)
-
-2. Bu çalışma alanındaki tüm veri kümelerinin listesini görüntülemek için **Veri kümeleri** sekmesini seçin. Bu, **Veri kümeleri** içerik görünümü listesi olarak adlandırılır.
-   
-   ![veri kümeleri listesi](./media/end-user-report-open/power-bi-dataset.png)
-
-1. Veri kümesini bulun ve veri kümesini Düzenleme görünümü'nde açmak için **Rapor oluştur** simgesini seçin. Bir veri kümesi için düzenleme izinlerine sahip değilseniz veri kümesini açamazsınız. 
-   
-    ![Rapor oluştur simgesinin bulunduğu veri kümesi](./media/end-user-report-open/power-bi-create-report.png)
-
-3. Veri kümesi, rapor düzenleyicisinde açılır. Araştırmaya başlamanız ve görselleştirmeler oluşturmanız için kullanımınıza hazır olan veri alanları sağ tarafta görüntülenir. 
-
-   ![rapor tuvali](./media/end-user-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Raporları açmak için kullanabileceğiniz yöntemler bunlarla sınırlı değildir
 Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en uygun iş akışlarını keşfedeceksiniz. Raporlara erişmek için kullanabileceğiniz diğer yöntemlerden bazıları aşağıda verilmiştir:
-- Sol gezinti bölmesindeki **Sık Kullanılanlar**, **Son görüntülenen**, **Uygulamalar** ve **Benimle paylaşılan** sekmelerini kullanma. 
-- [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma
-- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](../service-set-data-alerts.md) aldığınız e-postayı kullanma    
-- [Bildirim merkezinizi](end-user-notification-center.md) kullanma    
+- Sol gezinti bölmesinde bulunan **Sık Kullanılanlar** ve **Son Görüntülenen** seçeneklerinden    
+- [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma    
+- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](../service-set-data-alerts.md) aldığınız e-postadan    
+- [Bildirim merkezinizden]    (end-user-notification-center.md)    
 - ve daha fazlası
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki raporlar](end-user-reports.md) hakkında daha fazla bilgi edinin
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)  
+[Bir rapor ile etkileşimde bulunmanın birçok yolu](end-user-reading-view.md) vardır.  Rapor tuvalinin en altındaki sekmeleri keşfederek başlayabilirsiniz.
 

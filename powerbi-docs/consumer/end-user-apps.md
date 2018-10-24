@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907866"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112211"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](end-user-connect-to-services.md) de Power BI uygulamaları sunar. 
@@ -34,13 +34,13 @@ Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama yazarından bir doğr
 
 **Bilgisayarınızda** 
 
-E-postadaki bağlantıya tıkladığınız zaman Power BI hizmeti ([https://powerbi.com](https://powerbi.com)) bir tarayıcıda açılır. Uygulamayı yüklemek istediğinizi onayladıktan sonra uygulama giriş sayfası açılır.
+E-postadaki bağlantıyı seçerek Power BI hizmetini ([https://powerbi.com](https://powerbi.com)) bir tarayıcıda açın. Uygulamayı yüklemek istediğinizi onayladığınızda uygulama giriş sayfası açılır.
 
 ![Power BI hizmetinde uygulama giriş sayfası](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **iOS veya Android mobil cihazınızda** 
 
-Mobil cihazınızda e-postadaki bağlantıya tıkladığınız zaman uygulama otomatik olarak yüklenir ve mobil uygulamada uygulama içerik listesini açar. 
+Mobil cihazınızda e-postadaki bağlantıyı seçtiğiniz zaman uygulama otomatik olarak yüklenir ve mobil uygulamada uygulama içerik listesini açar. 
 
 ![Mobil cihazda uygulama içerik listesi](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 

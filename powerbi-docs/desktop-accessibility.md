@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256044"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336887"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -61,6 +61,8 @@ Bu erişilebilirlik eklemeleri, kullanıcıların ekran okuyucu ve klavye gezint
 ## <a name="tips-for-creating-accessible-reports"></a>Erişilebilir raporlar oluşturmaya yönelik ipuçları
 Aşağıdaki ipuçları, daha erişilebilir **Power BI Desktop** raporları oluşturmanıza yardımcı olabilir.
 
+### <a name="general-tips-for-accessible-reports"></a>Erişilebilir raporlar için genel ipuçları
+
 * **Çizgi**, **Alan** ve **Birleşik** görsellerin yanı sıra **Dağılım** ve **Kabarcık** görselleri için işaretçileri açın ve her bir çizgi için farklı *İşaretçi şekilleri* kullanın.
   
   * *İşaretçileri* etkinleştirmek için, **Görsel Öğeler** bölmesindeki **Biçim** bölümünü açın, **Şekiller** bölümünü genişletin ve ardından **İşaretçiler**'e ilişkin geçiş tuşuna gidip *Açık* seçeneğini belirleyin.
@@ -80,6 +82,13 @@ Aşağıdaki ipuçları, daha erişilebilir **Power BI Desktop** raporları olu�
 * Tüm görsellere başlık, eksen etiketleri ve veri etiketleri ekleyin.
 * Tüm rapor sayfaları için anlamlı başlıklar kullanın.
 * Raporunuzdaki dekoratif şekiller ve görüntüler raporun sekme sıralamasına dahil edildiğinden, bunları kullanmaktan mümkün olduğunca kaçının. Raporunuzda dekoratif nesneler kullanmanız gerekiyorsa nesnenin alternatif metnini güncelleştirerek ekran okuyucu kullanıcılarının dekoratif amaçlı olduğunu anlamalarını sağlayın.
+
+### <a name="arranging-items-in-field-buckets"></a>Alan demetlerindeki öğeleri düzenleme
+**Power BI Desktop**'ın Ekim 2018 sürümünden itibaren kullanıcılar **Alanlar** içinde klavyeyle ile gezinebilir ve bu bölümde ekran okuyucuları ile etkileşim kurabilir. 
+
+Ekran okuyucularla rapor oluşturma sürecini geliştirmek için **Alanlar** listesindeki alanları kutu içinde yukarı veya aşağı hareket ettirmeyi sağlamak veya **Açıklama** ya da **Değer** gibi diğer kutulara taşımak için bir bağlam menüsü sunulmuştur.
+
+![Alanlar bağlam menüsü alanları yukarı, aşağı veya başka bir alana taşımanızı sağlar](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Raporlar için yüksek karşıtlık desteği
 

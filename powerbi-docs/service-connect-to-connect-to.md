@@ -64,7 +64,7 @@ comScore parametrelerinizin her birini nasıl bulacağınıza ilişkin ayrıntı
 
 Bağlandığınız veri merkezi comScore'da gittiğiniz URL tarafından belirlenir.
 
-https://dax.comscore.com kullanıyorsanız “US”, https://dax.comscore.eu kullanıyorsanız “EU” değerini girin.
+[http://dax.comscore.com](https://dax.comscore.com) kullanıyorsanız “US”, https://dax.comscore.eu kullanıyorsanız “EU” değerini girin.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

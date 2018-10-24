@@ -56,29 +56,29 @@ Power BI için [Xero içerik paketine](https://app.powerbi.com/getdata/services/
 
 | Alan | Pano Kutucukları | Rapor |
 | --- | --- | --- |
-| Cash |Daily cash flow <br>Cash in <br>Cash out <br>Closing balance by account <br>Closing balance today |Bank Accounts |
-| Customer |Invoiced sales <br>Invoiced sales by customer <br>Invoiced sales growth trend <br>Invoices due <br>Outstanding receivables <br>Overdue receivables |Customer <br>Inventory |
-| Supplier |Billed purchases <br>Billed purchases by supplier <br>Billed purchases growth trend <br> Bills due <br>Outstanding payables <br>Overdue payables |Suppliers <br>Inventory |
-| Inventory |Monthly sales amount by product |Inventory |
-| Profit and loss |Monthly profit and loss <br>Net profit this fiscal year <br>Net profit this month <br>Top expense accounts |Profit and Loss |
-| Balance sheet |Total assets <br>Total liabilities <br>Equity |Balance Sheet |
-| Health |Current ratio <br>Gross profit percentage <br> Return on total assets <br>Total liabilities to equity ratio |Health <br>Glossary and Technical Notes |
+| Nakit |Günlük nakit akışı <br>Nakit girişi <br>Nakit çıkışı <br>Hesaba göre kapanış bakiyesi <br>Bugün kapanış bakiyesi |Banka hesabı |
+| Müşteri |Faturalanan Satışlar <br>Müşteri tarafından Faturalanan Satışlar <br>Faturalanan Satış artışı eğilimi <br>Son faturalar <br>Bekleyen Alacaklar <br>Vadesi dolmuş Alacaklar |Müşteri <br>Sayım |
+| Sağlayıcı |Faturalandırılan satın alma işlemleri <br>Sağlayıcı tarafından faturalanan satın alma <br>Faturalandırılan satın alma işlemleri büyüme eğilimi <br> Son faturalar <br>Ödenmemiş Borçlar <br>Vadesi geçmiş Borçlar |Üreticiler <br>Sayım |
+| Sayım |Aylık, ürüne göre satış miktarı |Sayım |
+| Kar ve zarar |Aylık kar ve zarar <br>NET kar Bu mali yıl <br>NET kar bu ay <br>En çok harcama hesapları |Kar ve zarar |
+| Bilanço |Toplam varlıklar <br>Toplam Borçlar <br>Hisse senedi |Bilanço |
+| Sistem durumu |Cari Oran <br>Brüt kâr yüzdesi <br> Toplam varlıklar üzerinde döndürür <br>Toplam Borçlar hisse senedi/oranı |Sistem durumu <br>Sözlük ve teknik notlar |
 
 Veri kümesi, raporlarınızı ve panolarınızı özelleştirmek için şu tabloları da içerir:  
 
-* Addresses  
-* Alerts  
-* Bank Statement Daily Balance  
-* Bank Statements  
-* Contacts  
-* Expense Claims  
-* Invoice Line Items  
-* Invoices  
-* Items  
-* Month End  
-* Organisation  
-* Trial Balance  
-* Xero Accounts
+* Adresleri  
+* Uyarıları  
+* Banka deyimi günlük bakiyesi  
+* Banka deyimleri  
+* Kişiler  
+* Harcama talepleri  
+* Fatura Satır öğeleri  
+* Faturalar  
+* Öğeleri  
+* Ay sonu  
+* Kurum  
+* Deneme bakiyesi  
+* Xero hesapları
 
 ## <a name="system-requirements"></a>Sistem Gereksinimleri
 Xero içerik paketine erişmek için şu roller gereklidir: "Standard + Reports" (Standart + Raporlar) veya "Advisor" (Danışman).

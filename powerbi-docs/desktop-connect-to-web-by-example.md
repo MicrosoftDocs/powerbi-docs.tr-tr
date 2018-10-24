@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta örneğe göre bir web sayfasından veri ayıklama (Önizleme)
+title: Power BI Desktop’ta örneğe göre bir web sayfasından veri ayıklama
 description: Çekmek istediklerinizle ilgili bir örnek vererek web sayfasından veri ayıklama
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290994"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336818"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Bir örnek vererek web sayfasından veri alma (Önizleme)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Bir örnek vererek web sayfasından veri alma
 
 Bir web sayfasından veri almak, kullanıcıların web sayfalarından kolayca veri ayıklamasına ve bu verileri **Power BI Desktop**’a aktarmasına olanak tanır. Ancak çoğu zaman, web sayfalarındaki veriler kolayca ayıklanabilen düzenli tablolar halinde olmaz. Bu nedenle, yapılandırılmış ve tutarlı olsa bile bu tür sayfalardan veri almak zor olabilir. 
 
@@ -26,13 +26,6 @@ Bunun bir çözümü vardır. **Örneğe göre web’den veri alma** özelliği 
 ![Örneğe göre web’den veri alma](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Örneğe göre Web'den Veri Alma önizleme özelliğini etkinleştirme
-
-**Örneğe göre Web’den Veri Alma** Önizleme aşamasındadır ve **Power BI Desktop**'ta etkinleştirilmesi gerekir. Bu özelliği etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **Web deneyiminden yeni** onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
-
-![önizleme özelliğini etkinleştirme](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Önizleme özelliği etkinleştirildikten sonra kullanmaya başlayabilirsiniz. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Örneğe göre Web’den Veri Alma özelliğini kullanma
 

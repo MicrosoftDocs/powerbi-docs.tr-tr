@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2cc7691e81f5edab9d9f7a2a6d878420ca1c82f4
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418732"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112280"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz söz konusu verileri Power BI’da görüntüleyebilir veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
@@ -55,8 +55,7 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
 4. Görselleştirmenin sağ üst köşesinde bulunan üç nokta simgesini seçin. **Verileri dışarı aktar** seçeneğini belirleyin.
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. Power BI Online'da, görselleştirmeniz bir toplama işlemi içeriyorsa (*ortalama*, *toplam* veya *minimum* olarak değiştirdiğiniz **Sayı** gibi), iki seçeneğe sahip olursunuz: **Özetlenmiş veriler** ve **Temel alınan veriler**. Power BI Desktop'ta, yalnızca **Özetlenmiş veriler** seçeneğiniz olur. Toplamaları anlamanıza yardımcı olması için bkz. [Power BI'da toplamalar](../service-aggregates.md).
-
+5. Power BI Online'da, görselleştirmeniz bir toplama işlemi içeriyorsa (*ortalama*, *toplam* veya *minimum* olarak değiştirdiğiniz **Sayı** gibi), iki seçeneğe sahip olursunuz: **Özetlenmiş veriler** ve **Temel alınan veriler**. Power BI Desktop'ta yalnızca **Özetlenmiş veriler** seçeneği bulunur. Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. **Özetlenmiş veriler** > **Dışarı Aktar**'ı seçin ve .xlsx veya .csv seçeneğini belirleyin. Power BI, verileri dışarı aktarır.  Görselleştirmeye filtreler uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
 
@@ -90,6 +89,26 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
 |    Ölçüler     |                                      Bir \*:1 veya 1:1 zinciri yoluyla ölçüleri içeren tabloyla ilgili olan tüm tablolardaki tüm veriler                                      |
 |  Yalnızca ölçüler  |                                                   Tüm ilgili tablolardaki tüm gizli olmayan sütunlar (ölçüyü genişletmek için)                                                   |
 |  Yalnızca ölçüler  |                                                             Model ölçüleri için tüm yinelenen satırların özetlenmiş verileri.                                                              |
+
+### <a name="set-the-export-options"></a>Dışarı aktarma seçeneklerini ayarlama
+Power BI rapor tasarımcıları, tüketicilerine sunulacak veri dışarı aktarma seçeneklerini denetleyebilir. Seçenekler şunlardır:
+- Yalnızca özetlenmiş verilerin dışarı aktarılmasına izin ver (bu raporlar için varsayılan ayardır) 
+- Özetlenmiş ve temel alınan verilerin dışarı aktarılmasına izin ver  
+- Verilerin dışarı aktarılmasına izin verme  
+
+1. Bu seçenekleri ayarlamak için Power BI Desktop'ı başlatın.
+
+2. Sol üst köşeden **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** yolunu izleyin. 
+
+3. **Geçerli dosya** bölümünde **Rapor ayarları**'nı seçin.
+
+    ![desktop rapor ayarları](media/power-bi-visualization-export-data/desktop-report-settings.png)
+
+4. **Verileri dışarı aktar** açılan menüsünden seçiminizi yapın.
+
+Bu ayarı Power BI hizmetinden de güncelleştirebilirsiniz.  
+
+Power BI yönetici portalındaki ayarlarla raporun dışarı aktarma ayarları farklı olduğunda yönetici ayarları, veri dışarı aktarma ayarlarını geçersiz kılacaktır. 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 * **Power BI Desktop** ve **Power BI hizmetinden** bir .csv dosyasına aktarılabilen maksimum satır sayısı 30.000'dir.
