@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/01/2018
+ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 55c379c784c70d77a1b37500900b2d974047a735
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271739"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641287"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro lisanslarını satın alma ve atama
 

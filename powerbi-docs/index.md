@@ -4,12 +4,15 @@ hide_bc: true
 title: Power BI belgeleri
 description: Power BI belgeleri
 ms.service: powerbi
-ms.openlocfilehash: 7dbc0270fcfdd7dc83a41cbe45399dc05a2ccfe8
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.author: maggiesMSFT
+ms.topic: hub-page
+ms:date: 10/01/2018
+ms.openlocfilehash: 2fe6cb8e6bc713d9f660bf11dafeb492f2c75561
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798989"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473463"
 ---
 <div id="main" class="v2">
     <div class="container">
