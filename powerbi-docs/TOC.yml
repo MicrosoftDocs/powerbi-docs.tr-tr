@@ -194,9 +194,9 @@ items:
       items:
       - name: Power BI Desktop'ta verileri kategorilere ayırma
         href: desktop-data-categorization.md
-      - name: Power BI mobil uygulamaları için Power BI Desktop'taki bir barkod alanını etiketleme
+      - name: Mobil uygulamalar için bir barkod alanı etiketleme
         href: desktop-mobile-barcodes.md
-      - name: Power BI mobil uygulamaları için Power BI Desktop'ta coğrafi filtreler ayarlama
+      - name: Mobil uygulamalar için coğrafi filtreleme ayarlama
         href: desktop-mobile-geofiltering.md
       - name: Power BI Desktop'taki hesaplanmış sütunlar
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Power BI Desktop'taki ölçüler
         href: desktop-measures.md
+      - name: Soru-Cevap dil şemasını düzenleme
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: KPI'leri içeri aktarma ve görüntüleme (Önizleme)
         href: desktop-import-and-display-kpis.md
     - name: Rapor oluşturma
@@ -346,6 +348,8 @@ items:
     items:
     - name: Power BI Desktop'taki veri türleri
       href: desktop-data-types.md
+    - name: Power BI Desktop için formül düzenleyicisi kısayolları
+      href: desktop-formula-editor.md
     - name: Power BI Desktop gizlilik düzeyleri
       href: desktop-privacy-levels.md
     - name: Power BI’da bağlayıcı genişletilebilirliği
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure ve Power BI
         href: service-azure-and-power-bi.md
+      - name: Power BI ve Azure çıkışı
+        href: service-azure-egress-power-bi.md
     - name: Veri yenileme
       items:
       - name: Zamanlanmış yenileme yapılandırma
@@ -630,19 +636,19 @@ items:
       items:
       - name: Mevcut bir rapordan yeni rapor oluşturma
         href: power-bi-report-copy.md
-      - name: Power BI raporlarına sayfa ekleme
+      - name: Rapora sayfa ekleme
         href: power-bi-report-add-page.md
-      - name: Power BI'daki raporlara filtre ekleme
+      - name: Rapora filtre ekleme
         href: power-bi-report-add-filter.md
       - name: Power BI'da bir raporu kaydetme
         href: service-report-save.md
       - name: Bir veri kümesinden yeni bir rapor oluşturma
         href: service-report-create-new.md
-      - name: Power BI'daki Düzenleme Görünümü'nde bir raporla etkileşim kurma
+      - name: Düzenleme Görünümü’nde bir raporla etkileşim kurma
         href: service-interact-with-a-report-in-editing-view.md
       - name: Excel'de Analiz Et
         href: service-analyze-in-excel.md
-      - name: Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
+      - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: Analiz bölmesi
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: Rapor için QR kodu oluşturma
         href: service-create-qr-code-for-report.md
-      - name: Power BI'daki bir raporda bulunan sayfaları yeniden sıralama
+      - name: Bir raporda bulunan sayfaları yeniden sıralama
         href: service-report-reorder-pages.md
-      - name: Power BI'da bir rapor sayfasını yineleme
+      - name: Bir rapor sayfasını yineleme
         href: power-bi-report-copy-paste-page.md
-      - name: Bir raporu Power BI hizmetinden Power BI Desktop'a aktarma (Önizleme)
+      - name: Bir raporu hizmetten Power BI Desktop’a aktarma (Önizleme)
         href: service-export-to-pbix.md
-      - name: URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
+      - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
         href: service-url-filters.md
-      - name: Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
+      - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
         href: power-bi-reports-performance.md
-      - name: Power BI'da ArcGIS haritaları ile etkileşim kurma
+      - name: ArcGIS haritaları ile etkileşim kurma
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Verileriniz hakkında soru sorma
       items:
       - name: Görselleştirmeler ve derleme raporları oluşturmak için Soru-Cevap’ı kullanma
         href: power-bi-tutorial-q-and-a.md
-      - name: Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
+      - name: Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
         href: service-prepare-data-for-q-and-a.md
       - name: Power BI için Cortana'yı etkinleştirme
         href: service-cortana-enable.md
-      - name: Power BI Soru-Cevap için öne çıkan sorular oluşturma
+      - name: Soru-Cevap için öne çıkan sorular oluşturma
         href: service-q-and-a-create-featured-questions.md
       - name: Power BI'daki görselleştirme türleri
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Power BI Desktop'ta dil şeması ile çalışma
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
+        href: service-q-and-a-direct-query.md
     - name: Çalışmanızı paylaşma
       items:
       - name: Nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: Uygulama oluşturma ve paylaşma
         href: service-create-distribute-apps.md
-      - name: Uygulama yükleme ve kullanma
-        href: service-install-use-apps.md
       - name: Uygulama çalışma alanları oluşturma
         href: service-create-workspaces.md
       - name: Yeni çalışma alanları oluşturma (önizleme)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Çoklu oturum açma (SSO) için Kerberos'u kullanma
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: Çoklu oturum açmayı etkinleştir (SSO)
+      items:
+      - name: Çoklu oturum açma (SSO) - genel bakış
+        href: service-gateway-sso-overview.md
+      - name: Çoklu oturum açma (SSO) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: Çoklu oturum açma (SSO) - SAML
+        href: service-gateway-sso-saml.md
     - name: Ara sunucu ayarlarını yapılandırma
       href: service-gateway-proxy.md
     - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium hakkında SSS
         href: service-premium-faq.md
-      - name: Power BI Premium sürüm notları
-        href: service-premium-release-notes.md
     - name: Office 365'teki yönetim rolü
       href: service-admin-role.md
     - name: Sık sorulan sorular (SSS)
@@ -1185,6 +1193,8 @@ items:
     - name: PowerShell için Power BI cmdlet’leri
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: Hizmet URL’si başvurusu
+      href: power-bi-whitelist-urls.md
   - name: Kaynaklar
     items:
     - name: Power BI yönetim ve dağıtım yaklaşımları
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112270"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642000"

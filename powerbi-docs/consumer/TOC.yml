@@ -1,7 +1,7 @@
 items:
 - name: Kullanıcılar için Power BI
   href: power-bi-consumer-landing.md
-- name: Power BI hizmeti
+- name: Kullanıcılar için Power BI hizmeti
   items:
   - name: Genel Bakış
     items:
@@ -13,6 +13,8 @@ items:
     items:
     - name: Power BI kullanma yollarını öğrenin
       href: end-user-experience.md
+    - name: Power BI ile neler yapabilirim?
+      href: end-user-reading-view.md
   - name: Öğreticiler
     items:
     - name: Pano uyarısı oluşturma
@@ -23,6 +25,8 @@ items:
       items:
       - name: Panolar
         href: end-user-dashboards.md
+      - name: Pano görüntüleme
+        href: end-user-dashboard-open.md
       - name: Tanıtılan panolar
         href: end-user-featured.md
       - name: Pano kutucukları
@@ -43,10 +47,10 @@ items:
       items:
       - name: Görselleştirmeler ile ne yapabilirim?
         href: end-user-visualizations.md
+      - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
+        href: end-user-show-data.md
       - name: Power BI'daki görselleştirmelerde detaya gitme
         href: end-user-drill.md
-      - name: Bir görselleştirmedeki verileri dışarı aktarma
-        href: end-user-export-data.md
     - name: Genel görevler
       items:
       - name: Odak ve Tam ekran modlarını kullanarak içeriği yakınlaştırmanın farklı yolları
@@ -181,9 +185,9 @@ items:
     items:
     - name: Mobil uygulamalarda desteklenen diller
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 5a696c51a72320bc53a12a913c1785fb5ba742c8
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112142"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473917"
