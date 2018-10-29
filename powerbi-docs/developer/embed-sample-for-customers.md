@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827445"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435500"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için bir Power BI raporunu, panosunu veya kutucuğunu bir uygulamaya ekleme
 
@@ -36,7 +36,7 @@ Başlamak için bir **Power BI Pro** hesabı (bu hesap, **ana hesabınızdır**)
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Eklediğiniz analiz geliştirme ortamını ayarlama
 
-Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın ekleme işlevlerine izin verecek şekilde ayarlanmış olduğundan emin olmanız gerekir. Kurulumun bir parçası olarak aşağıdaki işlemleri yapmanız gerekir.
+Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
 
 Ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı hızlı şekilde kullanmak ve indirmek için [katıştırma kurulum aracı](https://aka.ms/embedsetup/AppOwnsData) bölümünün üzerinden geçebilirsiniz.
 
@@ -44,13 +44,13 @@ Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebi
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory'de (Azure AD) bir uygulamayı kaydetme
 
-Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active Directory'ye kaydetmeniz gerekir. Kayıt işlemi sayesinde uygulamanız için bir kimlik oluşturabilir ve Power BI REST kaynaklarıyla ilgili izinleri belirleyebilirsiniz.
+Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active Directory'ye kaydetmeniz gerekir. Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve Power BI REST kaynaklarıyla ilgili izinleri belirleyebilirsiniz.
 
 1. [Microsoft Power BI API Koşulları](https://powerbi.microsoft.com/api-terms)'nı kabul edin.
 
 2. [Azure portalında](https://portal.azure.com) oturum açın.
 
-    ![Azure Portalı Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Azure portal Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. Sol taraftaki gezinti bölmesinde **Tüm Hizmetler**'i, **Uygulama Kayıtları**'nı ve sonra **Yeni uygulama kaydı**'nı seçin.
 
@@ -63,7 +63,7 @@ Power BI REST API'lerine erişmesini sağlamak için uygulamanızı Azure Active
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory'de uygulamanıza izinler uygulama
 
-Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinleştirmeniz gerekir. Ekleme için kullanılan ve bir genel yönetici hesabı olması gereken *ana* hesapla oturum açmanız gerekir.
+Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinleri etkinleştirin. Ekleme için kullandığınız *ana* hesapla oturum açın. Ana hesabın genel yönetici hesabı olması gerekir.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory portalını kullanma
 
@@ -91,7 +91,7 @@ Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinle
 
     ![PBI Hizmetleri Seçme](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. **Temsilci İzinleri** bölümündeki tüm izinleri seçin. Seçimlerin kaydedilmesi için teker teker seçmeniz gerekir. Tümünü seçtikten sonra **Kaydet**'i seçin.
+7. **Temsilci İzinleri** bölümündeki tüm izinleri seçin. Tümünü seçtikten sonra **Kaydet**'i seçin.
 
     ![Temsilci izinleri seçme](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ Uygulamanız için uygulama kayıt sayfasında belirtilenlere ek izinler etkinle
 
 Müşterileriniz için rapor, pano veya kutucuklar ekliyorsanız, içeriğinizi bir uygulama çalışma alanına yerleştirmeniz gerekir. *Ana* hesabın, ilgili uygulama çalışma alanının yöneticisi olması gerekir.
 
-1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin. Burası, uygulamanızın erişmesi gereken içerikleri yerleştirdiğiniz yerdir.
+1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin. Uygulama çalışma alanı oluştur sayfasına uygulamanızın erişmesi gereken içeriği yerleştirin.
 
     ![Çalışma Alanı Oluşturma](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Çalışma alanına bir ad verin. Karşılık gelen **Çalışma Alanı Kimliği** kullanılamıyorsa düzenleyerek benzersiz bir kimlik belirleyin. Bu kimlik uygulamanın da adı olmalıdır.
+2. Çalışma alanına bir ad verin. Karşılık gelen **Çalışma Alanı Kimliği** kullanılamıyorsa düzenleyerek benzersiz bir kimlik belirleyin.
 
     ![Çalışma Alanını Adlandırma](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturab
 
     ![Verilerin Sahibi Uygulamadır uygulama örneği](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Örnek uygulamada Web.config dosyasını açın. Uygulamayı başarıyla çalıştırmak için doldurmanız gereken 5 alan vardır: **clientId**, **groupId**, **reportId**, **pbiUsername** ve **pbiPassword**.
+2. Örnek uygulamada Web.config dosyasını açın. Uygulamayı başarıyla çalıştırmak için doldurmanız gereken beş alan vardır. **applicationId**, **workspaceId**, **reportId**, **pbiUsername** ve **pbiPassword**.
 
     ![Web Config dosyası](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    **clientId** bilgilerini **Azure**’daki **Uygulama Kimliği** ile doldurun. **clientId**, izin istediğiniz kullanıcılara kendini tanıtmak için uygulama tarafından kullanılır. **clientId** değerini almak için aşağıdaki adımları izleyin:
+    **applicationId** bilgilerini **Azure**’daki **Uygulama Kimliği** ile doldurun. Uygulama, izin istediğiniz kullanıcılara kendini tanıtmak için **applicationId** değerini kullanır. **applicationId** değerini almak için aşağıdaki adımları izleyin:
 
     [Azure portalında](https://portal.azure.com) oturum açın.
 
-    ![Azure Portalı Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![Azure portal Ana Sayfası](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
     Sol gezinti bölmesinde **Tüm Hizmetler**'i, sonra da **Uygulama Kayıtları**'nı seçin.
 
     ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    **clientId** değerini almak istediğiniz uygulamayı seçin.
+    **applicationId** değerini almak istediğiniz uygulamayı seçin.
 
     ![Uygulama Seçme](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **clientId** değeri olarak kullanın.
+    GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **applicationId** değeri olarak kullanın.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    **groupId** bilgilerini Power BI’daki **uygulama çalışma alanı GUID’si** ile doldurun.
+    **workspaceId** bilgilerini Power BI’daki **uygulama çalışma alanı GUID’si** ile doldurun.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     **reportId** bilgilerini Power BI’daki **rapor GUID’si** ile doldurun.
 
@@ -242,8 +242,8 @@ Burada belirli bir çalışma alanının ilk raporunu nasıl alacağınızı gö
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ Gereksinimlerinize en uygun Power BI Embedded kapasitesini saptamak için aşağ
 
 | Kapasite Düğümü | Toplam çekirdek<br/>*(Arka uç + ön uç)* | Arka Uç Çekirdekleri | Ön Uç Çekirdekleri | DirectQuery/canlı bağlantı sınırları | Yoğun saatlerde işlenen maksimum sayfa sayısı |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 sanal çekirdek |0,5 çekirdek, 3 GB RAM |0,5 çekirdek | saniyede 5 |1-300 |
+| A1 |1 sanal çekirdek |0,5 çekirdek, 3 GB RAM |0,5 çekirdek |saniyede 0 5 |1-300 |
 | A2 |2 sanal çekirdek |1 çekirdek, 5 GB RAM |1 çekirdek | saniyede 10 |301-600 |
 | A3 |4 sanal çekirdek |2 çekirdek, 10 GB RAM |2 çekirdek | saniyede 15 |601-1200 |
 | A4 |8 sanal çekirdek |4 çekirdek, 25 GB RAM |4 çekirdek |saniyede 30 |1201-2400 |
@@ -364,7 +364,7 @@ Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu ada
 
     ![Adanmış kapasite atama](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. **Kaydet**'i seçtikten sonra uygulama çalışma alanının yanında bir **elmas** simgesi görünmelidir.
+3. **Kaydet**’i seçtikten sonra, uygulama çalışma alanının yanında bir **baklava** işareti görmeniz gerekir.
 
     ![kapasite atanmış uygulama çalışma alanı](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

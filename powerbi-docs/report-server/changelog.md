@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380325"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641954"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -40,7 +40,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - Özel görseller sunucu API'sinin geçerli sürümüyle uyumlu eski bir sürüme döner (varsa)
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
-    - *Sürüm: 2.61.5192.64 (Ağustos 2018), Yayın Tarihi: 15 Ağustos 2018*
+    - *Sürüm: 2.61.5192.641 (Ağustos 2018), Yayın Tarihi: 15 Ağustos 2018*
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Ağustos 2018)         
         
 ## <a name="march-2018"></a>Mart 2018

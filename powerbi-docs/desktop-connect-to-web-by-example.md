@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336818"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952223"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Bir örnek vererek web sayfasından veri alma
 
@@ -51,6 +51,8 @@ Takip etmek isterseniz bu makalede kullandığımız [Microsoft Store URL'sini](
 Bu örnekte, sayfadaki her bir oyunun *Ad* ve *Fiyat* verilerini ayıklayacağız. Aşağıdaki görüntüde gösterildiği gibi, her bir sütunun sayfasından birkaç örnek belirterek bunu yapabiliriz. Bu örnekler girildikçe, **Power Query** (Web sayfasından verileri ayıklayan temel teknoloji) akıllı veri ayıklama algoritmalarını kullanarak örnek girişlerinin düzenine uyan verileri ayıklayabilir.
 
 ![örneğe göre veriler](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Not: Değer önerileri yalnızca uzunluğu 128 karakter veya altında olan değerleri içerir.
 
 Web sayfasından ayıklanan verilerden memnun kaldığımızda, daha fazla dönüşüm uygulamak veya bu verileri diğer veri kaynaklarımızla birleştirme gibi veri şekillendirme işlemleri yapmak üzere **Tamam**’ı seçerek **Sorgu Düzenleyicisi**’ne gideriz.
 

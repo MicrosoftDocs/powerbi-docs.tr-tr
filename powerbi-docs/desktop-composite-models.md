@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta Bileşik Modelleri (Önizleme) Kullanma
+title: Power BI Desktop’ta bileşik modelleri kullanma (önizleme)
 description: Power BI Desktop'ta birden çok veri bağlantısı ve çoka çok ilişkileriyle veri modelleri oluşturun
 author: davidiseminger
 manager: kfile
@@ -10,161 +10,179 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337002"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435408"
 ---
-# <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modeller (Önizleme)
+# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modelleri kullanma (önizleme)
 
-Daha önce **Power BI Desktop**'ta raporda bir DirectQuery kullandığınızda, bu rapor için ister DirectQuery ister Import olsun başka hiçbir veri bağlantısına izin verilmiyordu. **Karma modellerle** bu kısıtlama kalktı. Bir rapor birden çok DirectQuery veya içeri aktarma veri bağlantısından ya da sizin seçtiğiniz herhangi bir bileşimde veri bağlantıları içerebilir.
+Daha önce Power BI Desktop'ta raporda bir DirectQuery kullandığınızda, bu rapor için &mdash;ister DirectQuery ister İçeri aktarma olsun&mdash; başka hiçbir veri bağlantısına izin verilmiyordu. Bileşik modellerle bu kısıtlama kaldırılmıştır. Bir rapor birden çok DirectQuery veya içeri aktarma veri bağlantısından ya da sizin seçtiğiniz herhangi bir bileşimde veri bağlantıları içerebilir.
 
-![Power BI Desktop’ta bileşik modeller](media/desktop-composite-models/composite-models_01.png)
+![Power BI Desktop’taki bileşik modeller](media/desktop-composite-models/composite-models_01.png)
 
-**Power BI Desktop**'taki **bileşik modeller** özelliği birbiriyle ilgili üç özellikten oluştur:
+Power BI Desktop'taki bileşik modeller özelliği birbiriyle ilgili üç özellikten oluştur:
 
-* **Bileşik modeller** - raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde birden çok veri bağlantısına izin verir.
-* **Çoka çok ilişkiler** - **bileşik modellerle** tablolar arasında **çoka çok ilişkiler** kurabilir, tablolarda benzersiz değer gereksinimlerini kaldırabilir ve yalnızca ilişkileri kurmak için yeni tablolar ekleme gibi önceden yapılacak geçici düzeltmelerden kurtulabilirsiniz. 
-* **Depolama modu** - DirectQuery temelinde olsa bile arka uç veri kaynaklarını sorgulama gerektiren ve gerektirmeyen hangi görsellerin içeri aktarılacağını belirtebilir, böylelikle performansı geliştirir ve arka uç yükünü azaltırsınız. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. 
+* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde birden çok veri bağlantısına izin verir. Bileşik modeller bu makalede ayrıntılı bir şekilde açıklanmaktadır.
 
-**Bileşik modeller** için birbiriyle ilgili bu özellik koleksiyonundaki üç özelliğin her biri ayrı makalelerde ele alınıyor:
+* **Çok-çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çok-çok ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
 
-* **Bileşik modeller**, bu makalede ayrıntılı olarak açıklanıyor.
-* **Çoka çok ilişkiler** kendi makalesinde ([Power BI Desktop'ta çoka çok ilişkiler (Önizleme)](desktop-many-to-many-relationships.md)) açıklanıyor.
-* **Depolama modu** kendi makalesinde ([Power BI Desktop'ta depolama modu (Önizleme)](desktop-storage-mode.md)) açıklanır.
+* **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md).
 
-## <a name="enabling-the-composite-models-preview-feature"></a>Bileşik modeller önizleme özelliğini etkinleştirme
+## <a name="enable-the-composite-models-preview-feature"></a>Bileşik modeller önizleme özelliğini etkinleştirme
 
-**Bileşik modeller** özelliği Önizleme aşamasındadır ve **Power BI Desktop**'ta etkinleştirilmesi gerekir. **Bileşik modeller** özelliğini etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **bileşik modeller** onay kutusunu işaretleyin. 
+Bileşik modeller özelliği önizleme aşamasındadır ve Power BI Desktop'ta etkinleştirilmesi gerekir. Bileşik modelleri etkinleştirmek için, **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**’ni seçin ve ardından **Bileşik Modeller** onay kutusunu işaretleyin. 
 
-![önizleme özelliklerini etkinleştirme](media/desktop-composite-models/composite-models_02.png)
+!["Önizleme özellikleri" bölmesi](media/desktop-composite-models/composite-models_02.png)
 
-Özelliğin etkinleştirilmesi için **Power BI Desktop**'ı yeniden başlatmanız gerekir.
+Özelliği etkinleştirmek için Power BI Desktop'ı yeniden başlatmanız gerekir.
 
-![değişikliklerin geçerlilik kazanması için yeniden başlatma gerekiyor](media/desktop-composite-models/composite-models_03.png)
+!["Özellik yeniden başlatma gerektirmektedir" penceresi](media/desktop-composite-models/composite-models_03.png)
 
 
-## <a name="using-composite-models"></a>Bileşik modelleri kullanma
+## <a name="use-composite-models"></a>Bileşik modelleri kullanma
 
-**Bileşik modellerle** **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı şekillerde gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan içeri aktarma seçeneğini kullanarak Power BI'a veri aktarabilir veya DirectQuery'yi kullanarak verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. DirectQuery'yle ilgili ayrıntılar hakkında daha fazla bilgiyi [Power BI'da DirectQuery kullanma](desktop-directquery-about.md) makalesinde bulabilirsiniz.
+Bileşik modeller sayesinde Power BI Desktop'ı veya Power BI hizmetini kullanırken çeşitli veri kaynaklarına bağlanabilirsiniz. Bu veri bağlantılarını birkaç farklı şekilde kurabilirsiniz:
 
-DirectQuery **bileşik modellerle** kullanıldığında, aşağıdakileri gerçekleştiren bir Power BI modeli (tek bir .pbix Power BI Desktop dosyası gibi) oluşturmak mümkündür:
+* Veri almak için en sık kullanılan yöntemden faydalanarak verileri Power BI'a aktarma.
+* DirectQuery'yi kullanarak özgün kaynak deposundaki verilere bağlanma. DirectQuery hakkında daha fazla bilgi edinmek için bkz. [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md).
 
-* bir veya birden çok DirectQuery kaynağından verileri birleştirme ve/veya
-* DirectQuery kaynaklarından verileri birleştirme ve verileri içeri aktarma
+DirectQuery'yi kullandığınızda *bileşik modeller* aşağıdakilerden birini veya ikisini birden gerçekleştiren bir Power BI modeli (tek bir *.pbix* Power BI Desktop dosyası gibi) oluşturmak mümkündür:
 
-Örneğin, **bileşik modellerle** bir kurumsal veri ambarındaki satış verilerini departman SQL Server veritabanındaki satış hedefi verileriyle birleştiren, ayrıca bir elektronik tablodan bazı verileri içeri aktaran bir model oluşturmak mümkün olur. Birden çok DirectQuery kaynağından verileri birleştiren veya DirectQuery'yi içeri aktarılan verilerle birleştiren modeller, *bileşik model* olarak adlandırılır.
+* Bir veya birden çok DirectQuery kaynağından verileri birleştirir.
+* DirectQuery kaynaklarından verileri birleştirir ve verileri içeri aktarır.
+
+Örneğin bileşik modelleri kullanarak şu veri türlerini birleştiren bir model oluşturabilirsiniz:
+
+* Kurumsal veri ambarından alınan satış verileri.
+* Departman SQL Server veritabanından alınan satış hedefi verileri.
+* Bir elektronik tablosundan içeri aktarılan veriler. 
+
+Birden çok DirectQuery kaynağından alınan verileri birleştiren veya DirectQuery'yi içeri aktarılan verilerle birleştiren modeller, *bileşik model* olarak adlandırılır.
 
 > [!NOTE]
-> **Power BI Desktop**'ın Ekim 2018 sürümünden itibaren bileşik modelleri Power BI hizmetine *yayımlayabilirsiniz*. Zamanlanmış yenileme ve pano kutucuğu yenileme için Power BI hizmetindeki bileşik modeller İçeri Aktarma modelleri ile aynı şekilde hareket eder. 
+> *Power BI Desktop*'ın Ekim 2018 sürümünden itibaren bileşik modelleri Power BI hizmetine yayımlayabilirsiniz. Zamanlanmış yenileme ve pano kutucuğu yenileme için Power BI hizmetindeki bileşik modeller İçeri Aktarma modelleri ile aynı şekilde hareket eder. 
 
-Tablolar farklı kaynaklardan geliyor olsa bile, her zaman yaptığınız gibi tablolar arasında ilişkiler oluşturabilirsiniz; ama şu kısıtlamalar söz konusudur: kaynaklar arası kurulan tüm ilişkiler, gerçek kardinalitesi ne olursa olsun **Çoka Çok** kardinalitesi olacak şekilde tanımlanır. Bu tür ilişkilerin davranışı da [Power BI Desktop'ta çoka çok ilişkileri (Önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklandığı gibi normal **Çoka Çok**  ilişkileriyle aynıdır. Bileşik modeller bağlamında, gerçekte içeri aktarıldıkları temel veri kaynağından bağımsız olarak tüm içeri aktarılan tabloların aslında tek bir kaynak olduğunu unutmayın.   
+Tablolar farklı kaynaklardan geliyor olsa bile, her zaman yaptığınız gibi tablolar arasında ilişkiler oluşturabilirsiniz; ama şu kısıtlamalar söz konusudur: kaynaklar arası kurulan tüm ilişkiler, gerçek kardinalitesi ne olursa olsun *çok-çok* kardinalitesi olacak şekilde tanımlanır. Bu tür ilişkilerin davranışı da [Power BI Desktop'ta çok-çok ilişkileri (önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklandığı gibi normal *çok-çok* ilişkileriyle aynıdır. 
 
-## <a name="example-of-using-composite-models"></a>Bileşik modelleri kullanma örnekleri
+> [!NOTE]
+> Bileşik modeller bağlamında, gerçekte içeri aktarıldıkları temel veri kaynağından bağımsız olarak tüm içeri aktarılan tablolar aslında tek bir kaynaktır.   
 
-**Bileşik model** örneği olarak, DirectQuery kullanarak bir şirket veri ambarına (SQL Server'da) bağlanan bir rapor düşünün ve veri ambarı da aşağıdaki resimde gösterildiği gibi *Sales by Country*, *Quarter* ve *Bike (Product)* verilerini içeriyor olsun.
+## <a name="example-of-a-composite-model"></a>Bileşik model örneği
 
-![bileşik modeller için ilişki görünümü](media/desktop-composite-models/composite-models_04.png)
+*Bileşik modele* örnek olarak DirectQuery kullanılarak SQL Server'da bulunan bir kurumsal veri ambarına bağlanmış olan bir raporu düşünebilirsiniz. Bu örnekte veri ambarında aşağıdaki görüntüde gösterildiği gibi *Sales by Country*, *Quarter* ve *Bike (Product)* verileri bulunur:
 
-Bu noktada, bu kaynaktan alanları kullanarak basit görseller oluşturabilirsiniz. Örneğin, aşağıdaki görselde seçili üç aylık dönemde *ProductName* alanına göre toplam satış tutarı gösterilir. 
+![Bileşik modeller için ilişki görünümü](media/desktop-composite-models/composite-models_04.png)
 
-![verilere dayanan görsel](media/desktop-composite-models/composite-models_05.png)
+Bu noktada, bu kaynaktan alanları kullanarak basit görseller oluşturabilirsiniz. Örneğin, aşağıdaki görüntüde seçili üç aylık dönemde *ProductName* alanına göre toplam satış miktarı gösterilir. 
 
-Ama, her ürüne atanmış olan Ürün Yöneticisi (Product Manager) ile pazarlama önceliği hakkında ve bu verilerin Excel elektronik tablosunun neresinde tutulduğu hakkında bilginiz olsa nasıl olurdu? Ürün Yöneticisi'ne (*Product Manager*) göre Satış Tutarı'nı (*Sales Amount*) görmek isteyebilirsiniz, ancak bu yerel verilerin şirket veri ambarına eklenmesi mümkün olmayabilir veya en iyi olasılıkla aylar sürebilir. Bu satış verilerinin veri ambarından içeri aktarılması (DirectQuery kullanmak yerine) mümkün olabilir; bu noktada bu veriler elektronik tabloda içeri aktarılan verilerle birleştirilebilir. Bu yaklaşım, temel kaynakta zorunlu tutulan güvenlik kurallarının herhangi bir bileşimi, en son verileri görebilme gereği ve verilerin çok büyük ölçekli olması gibi en başta DirectQuery'nin kullanılmasına yol açan nedenlerden dolayı mantıklı değildir. 
+![Verilere dayanan görsel](media/desktop-composite-models/composite-models_05.png)
 
-İşte bu noktada **bileşik modeller** devreye girer. Bileşik modeller size DirectQuery kullanarak veri ambarına bağlanma ve ardından ek kaynaklar için GetData kullanma seçeneği getirir. Bu durumda, şirket veri ambarına DirectQuery bağlantısı kurarız, ardından GetData kullanıp Excel'i seçeriz, yerel verilerimizi içeren elektronik tabloya gideriz ve *ProductNames*, atanan *SalesManager* ve *Priority* verilerini içeren sayfayı içeri aktarabiliriz.  
+Peki bir her bir ürüne atanmış olan ürün yöneticilerini ve pazarlama önceliğini içeren bir Office Excel elektronik tablonuz varsa ne yapabilirsiniz? *Sales Amount* değerini *Product Manager* ölçütüne göre görüntülemek istiyorsanız bu yerel verileri kurumsal veri ambarına eklemek mümkün olmayabilir. Veya en iyi ihtimalle aylar sürebilir. 
+
+DirectQuery kullanmak yerine satış verilerini veri ambarından içeri aktarmak mümkün olabilir. Ardından satış verilerini elektronik tablodan içeri aktardığınız verilerle birleştirebilirsiniz. Ancak ilk etapta DirectQuery'nin kullanılmasını gerektirdiğinden bu yaklaşım makul değildir. Nedenler şunlar olabilir:
+
+* Bağlı kaynakta uygulanan güvenlik kurallarının birleşimi.
+* En son verileri görüntüleme gereksinimi.
+* Verilerin ölçeğinin büyük olması. 
+
+Bu noktada bileşik modeller devreye girer. Bileşik modeller size DirectQuery kullanarak veri ambarına bağlanma ve ardından ek kaynaklar için GetData işlevini kullanma imkanı sunar. Bu örnekte ilk olarak kurumsal veri ambarıyla DirectQuery bağlantısı kurduk. Ardından GetData işlevini kullanarak Excel'i seçip yerel verilerimizi içeren elektronik tabloyu gösterdik. Son olarak *Product Names*, atanan *Sales Manager* ve *Priority* değerlerini içeren elektronik tabloyu içeri aktardık.  
 
 ![Gezgin penceresi](media/desktop-composite-models/composite-models_06.png)
 
-Şimdi, **Alanlar** listesinde özgün *Bike* tablosunu (SQL Server'dan) ve yeni *Product Managers* tablosunu (Excel'den içeri aktarılmış verilerle) görürüz. 
+**Alanlar** listesinde iki tablo görebilirsiniz: SQL Server'dan alınan *Bike* tablosu ve yeni bir **ProductManagers** tablosu. Yeni tablo, Excel'den içeri aktarılan verileri içerir. 
 
 ![Tabloların Alanlar görünümü](media/desktop-composite-models/composite-models_07.png)
 
-Benzer biçimde, **Power BI Desktop**'ta **İlişki Görünümü**'ne baktığımızda artık *Product Managers* adlı ek tabloyu görürüz. 
+Benzer biçimde, Power BI Desktop'ta **İlişki** görünümüne baktığımızda artık **ProductManagers** adlı ek tabloyu görürüz. 
 
-![tabloların ilişki görünümü](media/desktop-composite-models/composite-models_08.png)
+![Tabloların ilişki görünümü](media/desktop-composite-models/composite-models_08.png)
 
-Şimdi bunları modeldeki diğer tablolarla ilişkilendirmemiz gerekir ve bu işlemi her zaman yaptığımız gibi, *Bike* tablosuyla (SQL Server'da) *Product Managers* tablosu (içeri aktarılan) arasında ilişki oluşturarak (*Bike[ProductName]* ile *ProductManagers[ProductName]* arasında olduğu gibi) yaparız. Bu makalenin başlarında açıklandığı gibi, kaynaktan geçen tüm ilişkilerin kardinalitesi **Çoka Çok** olmalıdır ve bu seçilen varsayılan kardinalitedir. 
+Şimdi bu tabloları modeldeki diğer tablolarla ilişkilendirmemiz gerekiyor. Her zamanki gibi SQL Server'dan alınan **Bike** tablosu ile içeri aktarılan **ProductManagers** tablosu arasında bir ilişki oluşturacağız. Başka bir deyişle bu ilişkiyi *Bike[ProductName]* ile *ProductManagers[ProductName]* arasında kurmuş olacağız. Önceden belirtildiği üzere kaynaklar arasındaki tüm ilişkilerin varsayılan *çok-çok* kardinalitesini kullanması gerekir. 
 
-![ilişki oluşturma iletişim kutusu](media/desktop-composite-models/composite-models_09.png)
+!["İlişki oluştur" penceresi](media/desktop-composite-models/composite-models_09.png)
 
-Bu ilişki oluşturulduktan sonra, tahmin edebileceğimiz gibi ilişki **Power BI Desktop**'ta **İlişki Görünümü**'nde gösterilir.
+Oluşturduğumuz ilişki, Power BI Desktop'taki **İlişki** görünümünde gösterilir.
 
-![yeni ilişki görünümü](media/desktop-composite-models/composite-models_10.png)
+![Yeni İlişki görünümü](media/desktop-composite-models/composite-models_10.png)
 
-Bu tablo ilişkileri kurulunca, artık **Alanlar** listesindeki alanlardan herhangi birini kullanarak görseller oluşturabilir, birden çok kaynaktan gelen verileri sorun yaşamadan karıştırabiliriz. Örneğin, aşağıdaki görselde her *Product Manager* için *Sales Amount* değerleri gösterilir. 
+Artık **Alanlar** listesindeki alanlardan birini kullanarak görsel oluşturabiliriz. Bu yaklaşım, birden fazla veri kaynağından alınan verileri sorunsuz bir şekilde birleştirir. Örneğin her bir *Product Manager* için toplam *SalesAmount* miktarı aşağıdaki görüntüde gösterilmiştir: 
 
-![Alanlar bölmesinin gösterildiği görsel](media/desktop-composite-models/composite-models_11.png)
+![Alanlar bölmesi](media/desktop-composite-models/composite-models_11.png)
 
-Bu örnekte bir *boyut* tablosunun (*Product* veya *Customer* gibi) başka bir yerden içeri aktarılmış bazı ek verilerle genişletildiği yaygın bir durum gösterilir ve tabloların farklı kaynaklara bağlantıyla DirectQuery kullanması da mümkündür. Dolayısıyla, örneğimizi genişletmek için *Country* (Ülke) ve *Period* (Dönem) başına *SalesTargets* (Satış Hedefleri) değerlerinin ayrı bir departman veritabanında depolandığını düşünelim. Aşağıdaki görüntüde de gösterildiği şekilde, her zaman yapabileceğiniz gibi bu verilere bağlanmak için **GetData** kullanabilirsiniz. 
+Aşağıdaki örnekte *Product* veya *Customer* gibi bir başka bir yerden içeri aktarılmış ek verilerle genişletilmiş bir *boyut* tablosu gösterilmektedir. Tablolar, farklı kaynaklara bağlanmak için DirectQuery'yi de kullanabilir. Örneğimize devam edecek olursak *Country* ve *Period* başına *SalesTargets* değerlerinin ayrı bir departman veritabanında depolandığını düşünelim. Aşağıdaki görüntüde de gösterildiği şekilde, her zaman yapabileceğiniz gibi bu verilere bağlanmak için *GetData* kullanabilirsiniz: 
 
-![Gezgin iletişim kutusu](media/desktop-composite-models/composite-models_12.png)
+![Gezgin penceresi](media/desktop-composite-models/composite-models_12.png)
 
-Ardından, bu örnekte daha önce yaptığımıza benzer şekilde, yeni tabloyla modeldeki diğer tablolar arasında ilişkiler oluşturabilir ve bunların verilerini birleştiren görseller oluşturabiliriz. Şimdi genişletilmiş örnek senaryomuzda yeni ilişkiler kurduğumuz **İlişkiler Görünümü**'ne yeniden bakalım.
+Daha önce yaptığımıza benzer şekilde, yeni tabloyla modeldeki diğer tablolar arasında ilişkiler oluşturabilir ve tablo verilerini birleştiren görseller oluşturabiliriz. Şimdi yeni ilişkiler kurduğumuz **İlişkiler** görünümüne yeniden bakalım:
 
-![birçok tablosu olan ilişki görünümü](media/desktop-composite-models/composite-models_13.png)
+![Birçok tablosu olan ilişki görünümü](media/desktop-composite-models/composite-models_13.png)
 
-Yeni verilere ve az önce oluşturduğumuz ilişkilere dayanan aşağıdaki görüntüde gösterildiği gibi, sol alt köşedeki görselde *Target* (Hedef) değerine göre *Sales Amount* (Satış Tutarı) gösterilir, farkı gösteren varyans hesaplaması vardır ve buradaki *Sales Amount* ile *Target* iki farklı SQL Server veritabanlarından gelir. 
+Aşağıdaki görüntüde, yeni veriler ve oluşturduğumuz ilişkiler kullanılmıştır. Sol alttaki görselde *Sales Amount* ile *Target* karşılaştırması gösterilmiştir ve fark hesaplaması, farkı göstermektedir. *Sales Amount* ve *Target* verileri iki farklı SQL Server veritabanından alınmaktadır. 
 
-![daha fazla veri gösteren görsel](media/desktop-composite-models/composite-models_14.png)
+![Daha fazla veri gösteren görüntü](media/desktop-composite-models/composite-models_14.png)
 
-## <a name="setting-storage-mode"></a>Depolama modunu ayarlama
+## <a name="set-the-storage-mode"></a>Depolama modunu ayarlama
 
-**Bileşik modeldeki** her tablo, tablonun DirectQuery'ye veya içeri aktarmaya dayanıp dayanmadığını gösteren bir **depolama moduna** sahiptir. **Depolama modu**, **Özellik** bölmesinde görüntülenebilir ve değiştirilebilir. Oraya ulaşmak için, **Alanlar** listesinin sağ tıklama bağlam menüsünden **Özellikler**'i seçin. Aşağıdaki görüntüde **depolama modu** gösterilir (bölmenin genişliğinden dolayı görüntüde **Storage ...** olarak kısaltılmıştır).
+Bileşik modeldeki her tablo, tablonun DirectQuery'ye veya İçeri aktarmaya dayanıp dayanmadığını gösteren bir depolama moduna sahiptir. Depolama modu, **Özellik** bölmesinde görüntülenebilir ve değiştirilebilir. Depolama modunu görüntülemek için **Alanlar** listesindeki bir tabloya sağ tıklayın ve **Özellikler**'i seçin. Aşağıdaki görüntüde **SalesTargets** tablosunun depolama modu gösterilmiştir.
 
 ![Depolama modu ayarı](media/desktop-composite-models/composite-models_15.png)
 
-**Depolama modu** her tablonun araç ipucunda da görülebilir.
+Depolama modu her tablonun araç ipucunda da görüntülenebilir.
 
-![depolama modunun bulunduğu araç ipucu](media/desktop-composite-models/composite-models_16.png)
+![Depolama modunun görüntülendiği araç ipucu](media/desktop-composite-models/composite-models_16.png)
 
-DirectQuery'den bazı dosyalar ve bazı içeri aktarma tabloları içeren herhangi bir **Power BI Desktop** dosyası (.pbix dosyası) için, durum çubuğunda **depolama modu** olarak **Karma** terimi gösterilir. Durum çubuğunda bu terime tıklayabilir ve tüm tabloları kolayca içeri aktarmaya geçirebilirsiniz.
+DirectQuery'den bazı dosyalar ve bazı içeri aktarma tabloları içeren herhangi bir Power BI Desktop dosyası (*.pbix* dosyası) için, durum çubuğunda **Karma** olarak adlandırılan depolama modu görüntülenir. Durum çubuğunda bu terime tıklayabilir ve tüm tabloları kolayca İçeri aktarmaya geçirebilirsiniz.
 
-**Depolama modu** hakkındaki ayrıntılar, [Power BI Desktop'ta depolama modu (Önizleme)](desktop-storage-mode.md) makalesinde tümüyle açıklanmıştır.  
+Depolama modu hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md).  
 
 ## <a name="calculated-tables"></a>Hesaplanan tablolar
 
-Hesaplanan tablolar DirectQuery kullanan bir modele eklenebilir ve hesaplanan tabloyu tanımlayan DAX içeri aktarılan veya DirectQuery tablolarına veya her ikisinin bir bileşimine başvurabilir. 
+DirectQuery kullanan bir modele hesaplanan tablolar ekleyebilirsiniz. Hesaplanan tabloyu tanımlayan Veri Çözümleme İfadeleri (DAX), içeri aktarılan tablolara veya DirectQuery tablolarına veya ikisinin birleşimine başvurabilir. 
 
-Hesaplanan tablolar her zaman içeri aktarılır ve söz konusu tablolardaki veriler tablo yenilendiğinde yenilenir. Bu nedenle, hesaplanan tablolar bir DirectQuery tablosuna başvurursa, DirectQuery tablosuna başvuran görseller her zaman temel tablodaki en son değerleri gösterir, ama hesaplanan tabloya başvuran görseller hesaplanan tablonun son yenilenme zamanındaki verileri gösterir.
+Hesaplanan tablolar her zaman içeri aktarılır ve tabloları yenilediğinizde verileri yenilenir. Hesaplanan tablo bir DirectQuery tablosuna başvuruyorsa, DirectQuery tablosuna başvuran görsellerde her zaman bağlı kaynaktaki en son değerler gösterilir. Alternatif olarak hesaplanan tabloya başvuran görseller, hesaplanan tablo son yenilendiğinde alınan değerleri gösterir.
 
-## <a name="security-implications"></a>Güvenlik Üzerindeki Etkileri 
+## <a name="security-implications"></a>Güvenlik üzerindeki etkileri 
 
-Bileşik modellerin güvenlik üzerinde bazı etkileri vardır. Bir veri kaynağına gönderilen sorgu başka bir kaynaktan alınmış olan veri değerlerini içerebilir. Bu makalede daha önce açıklanan örnek için, *Product Manager*'a göre *Sales Amount* değerini gösteren görsel **Sales** ilişkisel veritabanına bir SQL sorgusunun gönderilmesine neden olur ve bu SQL sorgusu *Product Managers* adlarını ve bunlarla ilişkilendirilmiş *Products* değerlerini içerebilir. 
+Bileşik modellerin güvenlik üzerinde bazı etkileri vardır. Bir veri kaynağına gönderilen sorgu başka bir kaynaktan alınmış olan veri değerlerini içerebilir. Yukarıdaki örnekte *Product Manager* ölçütüne göre *Sales Amount* miktarını gösteren görsel, **Sales** ilişkisel veritabanına bir SQL sorgusu göndermektedir. SQL sorgusu *Product Manager* ve ilişkili *Products* adlarını içerebilir. 
 
-![güvenlik etkilerini gösteren betik](media/desktop-composite-models/composite-models_17.png)
+![Güvenlik üzerindeki etkilerini gösteren betik](media/desktop-composite-models/composite-models_17.png)
 
-Bu nedenle, elektronik tabloda depolanan bilgiler şimdi ilişkisel veritabanına gönderilen sorguya eklenir. Bu bilgiler gizliyse, bunun güvenlik üzerindeki etkileri dikkate alınmalıdır. Özellikle aşağıdaki etkileri dikkate almanız gerekir:
+Sonuç olarak elektronik tabloda depolanan bilgiler şimdi ilişkisel veritabanına gönderilen sorguya eklenir. Bu bilgiler gizliyse, bunun güvenlik üzerindeki etkileri dikkate alınmalıdır. Özellikle aşağıdaki noktaları dikkate almanız gerekir:
 
-* Veritabanının izleme veya denetim günlüklerini görebilen yöneticiler, özgün kaynağındaki veriler üzerinde izinlere (bu örnekte Excel dosyası izinleri) sahip olmasalar bile bu bilgileri de görebilir.
+* Özgün kaynaktaki verilere erişim izni olmayan ancak izlemeleri veya denetim günlüklerini görüntüleyebilen veritabanı yöneticileri bu bilgileri görüntüleyebilir. Bu örnekte yöneticinin Excel dosyası için gerekli izinlere sahip olması gerekmektedir.
 
-* Bir kaynaktan bilgileri şifreli bağlantıyla alma ama sonra yanlışlıkla bu bilgileri şifrelenmemiş bağlantı kullanarak başka bir kaynağa gönderilen sorguya ekleme gibi bir durumdan kaçınmak için her kaynağın şifreleme ayarları dikkate alınmalıdır. 
+* Kaynaklarla ilgili şifreleme ayarlarının dikkate alınması gerekir. Bir kaynaktan şifreli bağlantı aracılığıyla aldığınız bilgileri yanlışlıkla başka bir kaynağa şifrelenmemiş bağlantı üzerinden gönderilen bir sorguya dahil etmekten kaçınmak istersiniz. 
 
-Tüm güvenlik etkilerinin dikkate alınmasını sağlamak için, bileşik model oluşturmaya yönelik bir eylem gerçekleştirildiğinde **Power BI Desktop** uyarı iletisi görüntüler.  
+Tüm güvenlik etkilerinin dikkate alınmasını sağlamak için, bileşik model oluşturduğunuzda Power BI Desktop'ta uyarı iletisi görüntülenir.  
 
-Benzer nedenlerle, güvenilmeyen bir kaynaktan gönderilen **Power BI Desktop** dosyaları açılırken de dikkat edilmelidir. Söz konusu dosya bileşik modeller içeriyorsa, bu bir kaynaktan alınan bilgilerin (dosyayı açan kullanıcının kimlik bilgileri kullanılarak) sorgunun parçası olarak başka bir veri kaynağına gönderilebileceği (burada Power BI Desktop dosyasının kötü amaçlı yazarı tarafından görülebilir) anlamına gelir. Bu nedenle, Power BI Desktop dosyasını ilk kez açarken, dosya birden çok kaynak içeriyorsa uyarı görüntülenir. Bu uyarı, yerel SQL sorguları içeren bir dosya açılırken görüntülenen uyarıya benzer.  
+Benzer nedenlerle, güvenilmeyen bir kaynaktan gönderilen Power BI Desktop dosyalarını açarken de dikkatli olmanız gerekir. Dosyada bileşik modeller varsa bir kişinin bir kaynaktan dosyayı açan kullanıcının kimlik bilgilerini kullanarak aldığı bilgiler, sorgunun bir parçası olarak başka bir veri kaynağına gönderilecektir. Power BI Desktop dosyasının yazarının kötü niyetli olması durumunda bu bilgiler görüntülenebilir. Bu nedenle birden fazla kaynak içeren bir Power BI Desktop dosyasını ilk kez açtığınızda Power BI Desktop'ta bir uyarı görüntülenir. Bu uyarı, yerel SQL sorgularını içeren bir dosyayı açtığınızda görüntülenen uyarılara benzer.  
 
-## <a name="performance-implications"></a>Performans Üzerindeki Etkileri  
+## <a name="performance-implications"></a>Performans üzerindeki etkileri  
 
-DirectQuery kullanılırken, öncelikle arka uç kaynağının kullanıcılara iyi bir deneyim sağlamaya yetecek kaynakları olduğundan emin olmak için performans konusu dikkate alınmalıdır. İyi bir deneyim görsellerin 5 saniyede veya daha hızlı yenilenebilmesi anlamına gelir. Ayrıca, [Power BI'da DirectQuery kullanma](desktop-directquery-about.md) makalesindeki performans önerisine de uymalısınız. Bileşik modellerin kullanımı performansla ilgili olarak dikkate alınması gereken ek noktalar getirir, çünkü çoğunlukla bir sorgunun sonuçlarını ikinci bir kaynağa geçirme yoluyla tek bir görsel birden çok kaynağa sorgu gönderilmesi sonucunu verebilir. Bu durum sonucunda aşağıdaki olası yürütme biçimleri söz konusu olabilir:
+DirectQuery kullanılırken, öncelikle arka uç kaynağının kullanıcılara iyi bir deneyim sağlamaya yetecek kaynakları olduğundan emin olmak için performans konusunu dikkate almanız gerekir. İyi deneyim, görsellerin en fazla beş saniyede yenilenmesi anlamına gelir. Ayrıca, [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md) makalesindeki performans önerilerini de izlemeniz gerekir. 
 
-* **Çok fazla sayıda hazır değer içeren bir SQL sorgusu** - örneğin, bir dizi seçili *Product Managers* için (elektronik tablodan içeri aktarılmış olan ilişkili tablodan) toplam *Sales Amount* (SQL veritabanından) değerini isteyen bir görselin, *WHERE* yan tümcesinde tüm ürün kimliklerini içeren bir SQL sorgusu göndermeden önce söz konusu Ürün Yöneticileri (Product Managers) tarafından yönetilmiş *Products* (Ürünler) değerlerini bulması gerekebilir.
+Bileşik modellerin kullanılması da performansı etkileyen etmenlerden biridir. Tek bir görsel, birden fazla kaynağa sorgu gönderir ve genellikle bir sorgunun sonuçları ikinci bir kaynağa iletilir. Bu durum sonucunda aşağıdaki yürütme biçimleri söz konusu olabilir:
 
-* **Daha düşük bir ayrıntı düzeyinde, o sırada yerel olarak toplanmış verilerle sorgulayan bir SQL sorgusu** - bu listenin önceki madde işaretli öğesiyle aynı örnek kullanıldığında, *Product Manager* filtresine uyan *Products* sayısının çok fazla artmasıyla, belirli bir noktada bunların tümünü *WHERE* yan tümcesine eklemek verimsiz veya imkansız hale gelir. Bunun yerine, ilişkisel kaynağı daha düşük bir *Product* düzeyinde sorgulamak ve ardından sonuçları yerel olarak toplamak gerekir. *Products*'ın kardinalitesi 1 milyon sınırını aşarsa, sorgu başarısız olacaktır.
+* **Çok fazla sayıda hazır değer içeren bir SQL sorgusu**: Örneğin, bir dizi seçili *Product Managers* için toplam *Sales Amount* değerini isteyen bir görselin önce söz konusu ürün yöneticileri tarafından yönetilen *Products* değerlerini bulması gerekebilir. Bu işlemin görsel *WHERE* yan tümcesinde tüm ürün kimliklerini içeren bir SQL sorgusu göndermeden önce gerçekleştirilmesi gerekir.
 
-* **Değere göre grup başına bir sorgu olmak üzere birden çok SQL sorgusu** - toplamada başka bir kaynaktan bir sütuna göre gruplandırılmış **DistinctCount** (Ayrı Sayım) kullanıldığında, dış kaynak gruplandırmayı tanımlayan birçok hazır değerin verimli bir şekilde geçirilmesini desteklemiyorsa, değere göre grup başına bir SQL sorgusu göndermek gerekebilir. Örneğin, *Product Manager*'a (elektronik tablodan içeri aktarılmış ilişkili tabloda) göre *CustomerAccountNumber* (SQL Server tablosundan) ayrı sayımını isteyen bir görselin, SQL Server'a gönderilen sorgudaki *Product Managers* tablosundan ayrıntıları geçirmesi gerekebilir. Diğer kaynaklar, örneğin Redshift üzerinde bu mümkün değildir ve bunun yerine *Sales Manager* başına bir SQL sorgusu olabilir (belirli bir uygulama sınırına kadar; bu sınırdan sonra sorgu başarısız olacaktır). 
+* **Daha düşük bir ayrıntı düzeyinde, o sırada yerel olarak toplanmış verilerle sorgulayan bir SQL sorgusu**: *Product Manager* filtre ölçütüne uyan *Products* sayısının çok fazla artmasıyla, belirli bir noktada bunların tümünü *WHERE* yan tümcesine eklemek verimsiz veya imkansız hale gelebilir. Bunun yerine, ilişkisel kaynağı daha düşük bir *Product* düzeyinde sorgulayabilir ve ardından sonuçları yerel olarak toplayabilirsiniz. *Products* değerinin kardinalitesi 1 milyon sınırını aşarsa, sorgu başarısız olur.
 
-Bu durumlardan her birinin performans üzerinde kendi etkileri vardır ve tam ayrıntılar her veri kaynağında değişiklik gösterir. İki kaynağı birleştiren ilişkide kullanılan sütunların kardinalitesinin düşük kalması (birkaç bin) iyi bir kuraldır çünkü böylelikle performans üzerinde önemli bir etkisi olmaz. Kardinalite arttıkça, sonuçta elde edilecek performans üzerindeki etkinin daha fazla dikkate alınması gerekir. 
+* **Değere göre grup başına bir sorgu olmak üzere birden çok SQL sorgusu**: Toplamada başka bir kaynaktan bir sütuna göre gruplandırılmış **DistinctCount** kullanıldığında, dış kaynak gruplandırmayı tanımlayan birçok hazır değerin verimli bir şekilde geçirilmesini desteklemiyorsa, değere göre grup başına bir SQL sorgusu göndermek gerekebilir. 
 
-Bunlara ek olarak, **çoka çok** ilişkilerinin kullanılması ayrıntılı değerleri yerel olarak toplamak yerine her toplam/alt toplam düzeyi için temel kaynağa ayrı sorguların gönderilmesi gerektiği anlamına gelir. Bu nedenle, toplamları olan basit bir tablo görseli bir yerine iki SQL sorgusu gönderir. 
+   Örneğin, *Product Manager*'a (elektronik tablodan içeri aktarılmış) göre *CustomerAccountNumber* (SQL Server tablosundan) ayrı sayımını isteyen bir görselin, SQL Server'a gönderilen sorgudaki *Product Managers* tablosundan ayrıntıları geçirmesi gerekebilir. Diğer kaynaklar, örneğin Redshift üzerinde bu mümkün değildir. Bunun yerine *Sales Manager* başına bir SQL sorgusu olabilir (belirli bir uygulama sınırına kadar; bu sınırdan sonra sorgu başarısız olacaktır). 
+
+Bu durumlardan her birinin performans üzerinde kendi etkileri vardır ve tam ayrıntılar her veri kaynağında değişiklik gösterir. İki kaynağı birleştiren ilişkide kullanılan sütunların kardinalitesi düşük kalmasına rağmen (birkaç bin) performans üzerinde önemli bir etkisi olmaz. Kardinalite arttıkça, sonuçta elde edilecek performans üzerindeki etkiyi daha fazla dikkate almanız gerekir. Bu kuralı kılavuzu olarak kullanabilirsiniz. 
+
+Bunlara ek olarak, *çok-çok* ilişkilerinin kullanılması ayrıntılı değerleri yerel olarak toplamak yerine her toplam veya alt toplam düzeyi için temel kaynağa ayrı sorguların gönderilmesi gerektiği anlamına gelir. Toplamları olan basit bir tablo görseli bir yerine iki SQL sorgusu gönderir. 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-**Bileşik modellerin** bu sürümünde birkaç sınırlama vardır.
+Bileşik modellerin bu sürümünde birkaç sınırlama vardır.
 
-Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kullanılamaz:
+Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse
@@ -172,19 +190,15 @@ Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kulla
 * Power BI veri kümeleri
 * Azure Analysis Services
 
-Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
+Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya İçeri aktarılan verilerle birleştiremezsiniz.
 
-DirectQuery kullanımının mevcut sınırlamaları **bileşik modelleri** kullanırken de geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun **depolama moduna** bağlı olarak tablo başına uygulanır. Örneğin, içeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütunun başvurabileceği sütunlar yine aynı tablodaki sütunlarla sınırlıdır. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin **depolama modu** DirectQuery olduğunda, modelde **QuickInsights** ve **Soru ve Yanıt** özellikleri kullanılamaz. 
+DirectQuery'nin mevcut sınırlamaları bileşik modelleri kullanırken de geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun depolama moduna bağlı olarak tablo başına uygulanır. Örneğin, İçeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütun yine aynı tablodaki sütunlara başvurabilir. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin depolama modu DirectQuery olduğunda, modelde QuickInsights ve Soru ve Yanıt özellikleri kullanılamaz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Aşağıdaki makalelerde bileşik modellerle ilgili daha fazla açıklama ve DirectQuery'nin ayrıntılı açıklaması bulunabilir.
-
-* [Power BI Desktop’ta çoka çok ilişkiler (Önizleme)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop’ta depolama Modu (Önizleme)](desktop-storage-mode.md)
-
-DirectQuery makaleleri:
-
-* [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)
+Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
+* [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md)
+* [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 

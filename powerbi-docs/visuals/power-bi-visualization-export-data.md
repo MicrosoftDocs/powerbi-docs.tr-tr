@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112280"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396831"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
-Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz söz konusu verileri Power BI’da görüntüleyebilir veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz.   
+Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz söz konusu verileri Power BI’da görüntüleyebilir veya bir .xlsx ya da .csv dosyası olarak Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği Pro veya Premium lisansına ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. 
 
 Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, .xlsx dosyası olarak kaydedip dosyayı Excel'de açarken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
 
@@ -92,9 +92,12 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
 
 ### <a name="set-the-export-options"></a>Dışarı aktarma seçeneklerini ayarlama
 Power BI rapor tasarımcıları, tüketicilerine sunulacak veri dışarı aktarma seçeneklerini denetleyebilir. Seçenekler şunlardır:
-- Yalnızca özetlenmiş verilerin dışarı aktarılmasına izin ver (bu raporlar için varsayılan ayardır) 
-- Özetlenmiş ve temel alınan verilerin dışarı aktarılmasına izin ver  
+- Yalnızca özetlenmiş verilerin dışarı aktarılmasına izin ver (bu yeni raporlar için varsayılan ayardır) 
+- Özetlenmiş ve temel alınan verilerin dışarı aktarılmasına izin ver (Ekim 2018 öncesi varsayılan ayar) 
 - Verilerin dışarı aktarılmasına izin verme  
+
+    > [!IMPORTANT]
+    > Rapor tasarımcılarının eski raporları yeniden ziyaret ederek dışarı aktarma seçeneğini el ile sıfırlamasını öneririz.
 
 1. Bu seçenekleri ayarlamak için Power BI Desktop'ı başlatın.
 

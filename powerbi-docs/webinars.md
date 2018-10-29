@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137651"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473969"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,9 +22,7 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
-
->[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerlerini katılın](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
@@ -34,21 +32,29 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**PowerBI.Tips sahiplerinden Power BI Püf Noktaları, İpuçları ve Araçları**
-<br>Mike Carlo ve Seth Bauer tarafından hazırlandı
-<br>[Hemen izleyin](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **20 Dakika İçinde Bir Power BI Panosunda Aradıklarınızı Bulmayı Öğrenin**
 <br>Sağlayan: Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Microsoft, Power BI kullanıyor – Finansal Planlama ve Analiz Artık Çok Kolay**
+<br>Sağlayan: Cory Hrncirik ve Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI Verilerinizden Görsel Oluşturun: Temel Grafik Türleri ve Kullanma Yöntemleri**
+<br>Sağlayan: Miranda Li
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI, Excel ve Office 365: Kurumsal Verilerinizi İyileştirin**
+<br>Sağlayan: Olaf Hubel ve Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **Tek Kelimeyle Etkileyici – Daha İyi Görselleştirme Tasarımı için İpuçları**
 <br>Sağlayan: Miranda Li
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI (Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj)**
-<br>Sağlayan: Carlos Otero ve Miguel Martinez
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**PowerBI.Tips sahiplerinden Power BI Püf Noktaları, İpuçları ve Araçları**
+<br>Mike Carlo ve Seth Bauer tarafından hazırlandı
+<br>[Hemen izleyin](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[Topluluk uzmanlarımız tarafından sunulan, isteğe bağlı Power BI web seminerlerinin bulunduğu kitaplıkta gezinin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 **How to Design Visually Stunning Power BI Reports (Görsel Olarak Etkileyici Power BI Raporları Tasarlama)**
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI (Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj)**
+<br>Sağlayan: Carlos Otero ve Miguel Martinez
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **20 dakika içinde Power BI Embedded hakkında bilgi edinin**
 <br>Hazırlayan: Megan Asarrane ve Colin Murphy

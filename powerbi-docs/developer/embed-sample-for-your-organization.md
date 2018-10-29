@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827468"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396877"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için bir uygulamaya Power BI raporu, pano veya kutucuk ekleme
 
@@ -158,13 +158,13 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
 
     ![Verilerin Sahibi Kullanıcıdır uygulama örneği](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Örnek uygulamada **Cloud.config** dosyasını açın. Uygulamayı başarıyla çalıştırmak için doldurmanız gereken birkaç alan vardır: **ClientID** ve **ClientSecret**.
+2. Örnek uygulamada **Cloud.config** dosyasını açın. Uygulamayı başarıyla çalıştırmak için doldurmanız gereken birkaç alan vardır: **ApplicationID** ve **ApplicationSecret**.
 
     ![Cloud.config dosyası](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    **ClientID** bilgilerini Azure’daki **Uygulama Kimliği** ile doldurun. Uygulama, izin istediğiniz kullanıcılara kendini tanıtmak için **ClientID** değerini kullanır.
+    **ApplicationID** bilgilerini Azure’daki **Uygulama Kimliği** ile doldurun. Uygulama, izin istediğiniz kullanıcılara kendini tanıtmak için **ApplicationID** değerini kullanır.
 
-    **ClientID** değerini almak için aşağıdaki adımları izleyin:
+    **ApplicationID** değerini almak için aşağıdaki adımları izleyin:
 
     1. [Azure portalında](https://portal.azure.com) oturum açın.
 
@@ -174,17 +174,17 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
 
         ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. **ClientID** değerini kullanması gereken uygulamayı seçin.
+    1. **ApplicationID** değerini kullanması gereken uygulamayı seçin.
 
         ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **ClientID** değeri olarak kullanın.
+    1. GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **ApplicationID** değeri olarak kullanın.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. **ClientSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.
+    1. **ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.
 
-    1. **ClientSecret** değerini almak için aşağıdaki adımları izleyin:
+    1. **ApplicationSecret** değerini almak için aşağıdaki adımları izleyin:
 
         1. [Azure portalında](https://portal.azure.com) oturum açın.
 
@@ -194,7 +194,7 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
 
             ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. **ClientSecret** değerini kullanması gereken uygulamayı seçin.
+        1. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
 
             ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

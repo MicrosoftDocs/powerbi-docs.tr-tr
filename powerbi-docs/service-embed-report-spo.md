@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908383"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641218"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -87,7 +87,7 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 
 Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
-Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek için aşağıdaki yöntemleri kullanabilirsiniz.
+Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek için aşağıdaki adımları da izleyebilirsiniz.
 
 1. Rapordan panoya bir kutucuk ekleme.
 
@@ -126,7 +126,7 @@ Bu iletinin iki olası nedeni vardır.
 1. Rapora erişiminiz yoktur.
 2. Rapor silinmiştir.
 
-Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahibiyle iletişime geçmeniz gerekir.
+Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahibiyle iletişime geçin.
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
@@ -147,6 +147,8 @@ Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahib
 * Power BI web bölümü [bağımsız bulutlar](https://powerbi.microsoft.com/en-us/clouds/) için kullanılamaz.
 
 * Klasik SharePoint Sunucusu bu web bölümü ile desteklenmez.
+
+* [URL filtreleri](service-url-filters.md), SPO web bölümü ile desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

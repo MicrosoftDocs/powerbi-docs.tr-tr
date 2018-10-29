@@ -1,5 +1,5 @@
 ---
-title: Soru-cevap dil şemasını düzenleme ve ifadeler ekleme
+title: Soru-Cevap dil şemasını düzenleme ve ifade ekleme - Power BI
 description: Power BI Soru-Cevap tarafından kullanılan dil şemasını düzenlemek için Power BI Desktop’ı kullanma.
 author: willthom
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 10/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d57ab76b97ea6b810169710553597e2e8a5d55f
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945216"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435431"
 ---
-# <a name="language-modeling-and-the-linguistic-schema"></a>Dil modelleme ve dil şeması 
+# <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap ile bunu yapabilirsiniz. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. 
 
 Ancak daha da iyi Soru-Cevap etkileşimleri için, yanıtları iyileştirmenin yolları vardır. Bu yollardan biri, dil şemasının düzenlenmesidir. 
@@ -31,7 +31,7 @@ Büyük ihtimalle sözcük türlerini biliyorsunuzdur (bilmiyorsanız, aşağıy
 
 Bu ifadeler çeşitli şekil ve boyutlarda gelir. Bazıları doğrudan veri modelindeki ilişkilere karşılık gelir. Bazıları, kapsayıcı tablolarla sütunları ilişkilendirir. Bazıları karmaşık ilişkilerde birden fazla tabloyu ve sütunu ilişkilendirir. Her durumda bunlar, gündelik terimleri kullanarak öğelerin nasıl ilişkilendirildiğini açıklar.
 
-Dil şemaları YAML biçiminde kaydedilir. Bu biçim, popüler JSON biçimiyle ilişkilidir, ancak daha esnek ve daha kolay okunabilir bir sözdizimi sağlar. Dil şemaları düzenlenebilir, Power BI Desktop’a dışarı ve içeri aktarılabilir.
+Dil şemaları YAML biçiminde kaydedilir. Bu biçim, popüler JSON biçimiyle ilişkilidir ancak daha esnek ve daha kolay okunabilir bir söz dizimi sağlar. Dil şemaları düzenlenebilir, Power BI Desktop’a dışarı ve içeri aktarılabilir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 - [Soru-Cevap için veri modelinizi geliştirme](desktop-qna-in-reports.md) ile ilgili makaleyi henüz okumadıysanız önce bu makaleyi okumak isteyebilirsiniz. Bu, veri modelinizi tasarlama ve geliştirmeye yönelik birçok ipucunu ve eş anlamlı ekleme ile ilgili önemli bir bölümü içerir.  
@@ -62,23 +62,23 @@ Dil şeması YAML dosyalarını düzenlemek için Visual Studio Code kullanılma
 
 
 ## <a name="working-with-linguistic-schemas"></a>Dil şemalarıyla çalışma
-Dil şemaları, Power BI Desktop’ta [İlişki görünümünde](desktop-relationship-view.md) düzenlenebilir, içeri ve dışarı aktarılabilir. Dil şemasını düzenlemenin bir yolu, [eş anlamlıların **Eş Anlamlılar** bölmesine eklenmesidir](desktop-qna-in-reports.md). Bu, YAML dosyasının açılmasını kapsamaz.
+Dil şemaları, Power BI Desktop’ta [İlişki görünümünde](desktop-relationship-view.md) düzenlenebilir, içeri ve dışarı aktarılabilir. Dil şemasını düzenlemenin bir yolu, [eş anlamlıların **Eş Anlamlılar** bölmesine eklenmesidir](desktop-qna-in-reports.md). YAML dosyasını açmanız gerekmez.
 
 ![Eş anlamlılar bölmesi](media/power-bi-q-and-a-linguistic-schema/power-bi-synonyms-pane.png)
 
 
- Dil şemasını düzenlemenin başka bir yolu da YAML dosyasının dışarı aktarılıp doğrudan düzenlenmesidir.  Bir dil şeması YAML dosyasını düzenlediğinizde, tablodaki sütunları farklı dilbilgisi öğeleri olarak etiketler ve bir iş arkadaşınızın soruyu oluşturmak için kullanabileceği sözcükleri tanımlarsınız. Örneğin, fiilin öznesi ve nesnesi olan sütunları belirtir ve iş arkadaşlarınızın modelinizdeki tabloları, sütunları ve ölçüleri ifade etmek için kullanabileceği alternatif sözcükleri eklersiniz. 
+ Dil şemasını düzenlemenin başka bir yolu da YAML dosyasının dışarı aktarılıp doğrudan düzenlenmesidir.  Bir dil şeması YAML dosyasını düzenlediğinizde, tablodaki sütunları farklı dilbilgisi öğeleri olarak etiketler ve bir iş arkadaşınızın soruyu oluşturmak için kullanabileceği sözcükleri tanımlarsınız. Örneğin, fiilin öznesi ve nesnesi olan sütunları belirtirsiniz. İş arkadaşlarınızın modelinizdeki tabloları, sütunları ve ölçüleri ifade etmek için kullanabileceği alternatif sözcükleri eklersiniz. 
 
 ![örnek dil şeması yaml dosyası](media/power-bi-q-and-a-linguistic-schema/power-bi-linguistic-schema.png)
 
-Dil şemasını düzenleyebilmeniz için önce dil şemasını Masaüstünden açmanız (dışarı aktarmanız) gerekir. YAML dosyasını aynı konuma geri kaydettiğinizde buna içeri aktarma denir.  Ancak bunun yerine diğer YAML dosyalarını da içeri aktarabilirsiniz.  Örneğin, benzer bir veri kümeniz varsa ve önceden birçok sözcük türleri ekleme, ilişkileri tanımlama, ifadeler oluşturma ve eş anlamlılar oluşturma çalışması yaptıysanız. 
+Dil şemasını düzenleyebilmeniz için önce dil şemasını Power BI Desktop'tan açmanız (dışarı aktarmanız) gerekir. YAML dosyasını aynı konuma geri kaydettiğinizde içeri aktarmış olursunuz.  Ancak bunun yerine diğer YAML dosyalarını da içeri aktarabilirsiniz.  Örneğin, benzer bir veri kümeniz varsa ve önceden birçok sözcük türleri ekleme, ilişkileri tanımlama, ifadeler oluşturma ve eş anlamlılar oluşturma çalışması yaptıysanız. 
 
 Soru-Cevap, daha iyi yanıt sağlamak, otomatik tamamlama işlevini ve soruların özetini sunmak için yaptığınız tüm geliştirmelerle birlikte bu bilgileri kullanır.
 
 
 
 ## <a name="edit-a-linguistic-schema"></a>Dil şemasını düzenleme
-Dil şemanızı Masaüstünden ilk dışarı aktardığınızda, dosyadaki içeriklerin çoğu veya tümü otomatik olarak Soru-Cevap motoru tarafından oluşturulur. Bu oluşturulan varlıklara, sözcüklere (eş anlamlılar), ilişkilere ve ifadelere bir **Durum: Oluşturuldu** etiketi atanır ve daha çok bilgi amaçlı olarak dosyaya eklenir, ancak kendi değişiklikleriniz için faydalı bir başlangıç noktası olabilir. 
+Dil şemanızı Power BI Desktop'tan ilk dışarı aktardığınızda, dosyadaki içeriklerin çoğu veya tümü otomatik olarak Soru-Cevap motoru tarafından oluşturulur. Bu oluşturulan varlıklara, sözcüklere (eş anlamlılar), ilişkilere ve ifadelere bir **Durum: Oluşturuldu** etiketi atanır ve daha çok bilgi amaçlı olarak dosyaya eklenir, ancak kendi değişiklikleriniz için faydalı bir başlangıç noktası olabilir. 
 
 > [!NOTE]
 > Bu öğreticide yer alan YAML dosyası özel olarak bu öğretici için hazırlanmış olduğundan, **Durum: Oluşturuldu** veya **Durum: Silindi** etiketlerini içermez. Bu etiketleri görmek için, düzenlenmemiş bir .pbix dosyasını İlişki görünümünde açın ve dil şemasını dışarı aktarın.
@@ -86,13 +86,13 @@ Dil şemanızı Masaüstünden ilk dışarı aktardığınızda, dosyadaki içer
 ![Oluşturuldu:Durumunu gösteren YAML](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Dil şeması dosyanızı Power BI Desktop’a geri içeri aktardığınızda, **Durum: Oluşturuldu** olarak işaretlenen her şey gerçekten yoksayılır (ve daha sonra yeniden oluşturulur), bu nedenle oluşturulan bir içerik üzerinde değişiklik yapmak istiyorsanız ilgili **Durum: Oluşturuldu** etiketini de kaldırdığınızdan emin olun. Benzer şekilde, bazı oluşturulan içerikleri kaldırmak istiyorsanız, dil şeması dosyanızı içeri aktardığınızda bu içeriklerin yeniden oluşturulmaması için **Durum: Oluşturuldu** etiketini **Durum: Silindi** olarak değiştirmeniz gerekir.
+Dil şeması dosyanızı Power BI Desktop’a geri içeri aktardığınızda, **Durum: Oluşturuldu** olarak işaretlenen her şey yoksayılır (ve daha sonra yeniden oluşturulur), bu nedenle oluşturulan bir içerik üzerinde değişiklik yapmak istiyorsanız ilgili **Durum: Oluşturuldu** etiketini de kaldırdığınızdan emin olun. Benzer şekilde, bazı oluşturulan içerikleri kaldırmak istiyorsanız, dil şeması dosyanızı içeri aktardığınızda bu içeriklerin yeniden oluşturulmaması için **Durum: Oluşturuldu** etiketini **Durum: Silindi** olarak değiştirmeniz gerekir.
 
 1. Power BI Desktop *İlişki görünümünde* veri kümesini açın. 
 2. **Modelleme** sekmesini ve sonra **Dil şemasını dışarı aktar**’ı seçin.
 3. Visual Code’u (veya başka bir düzenleyici) seçin.
 4. Düzenlemelerinizi yapın ve YAML dosyasını kaydedin.
-5. Masaüstünden **İlişki görünümü > Modelleme sekmesi > Dil Şeması > Dil şemasını içeri aktar** seçeneğini belirleyin.
+5. Power BI Desktop'tan **İlişki görünümü > Modelleme sekmesi > Dil Şeması > Dil şemasını içeri aktar** seçeneğini belirleyin.
 6. Düzenlenen YAML dosyasını kaydettiğiniz konuma gidip dosyayı seçin. Başarılı iletisi, dil şeması YAML dosyasının başarıyla içeri aktarıldığını size bildirir.
 
     ![Başarılı iletisi](media/power-bi-q-and-a-linguistic-schema/power-bi-success.png)
@@ -103,18 +103,18 @@ Dil şeması dosyanızı Power BI Desktop’a geri içeri aktardığınızda, **
 Bu ifadeler çeşitli şekil ve boyutlarda gelir. Bazıları doğrudan semantik modeldeki ilişkilere karşılık gelir. Bazıları, kapsayıcı tablolarla sütunları ilişkilendirir. Bazıları karmaşık ilişkilerde birden fazla tabloyu ve sütunu ilişkilendirir. Her durumda bunlar, gündelik terimleri kullanarak öğelerin nasıl ilişkilendirildiğini açıklar.
 
 ## <a name="where-do-phrasings-come-from"></a>İfadeler nereden gelir?
-Modelin yapısına dayalı olarak dil şemasına otomatik olarak birçok basit ifade ve sütun adlarına dayalı olarak da bazı tahminler eklenir. Örnek:
+Power BI, modelin yapısına dayalı olarak dil şemasına otomatik olarak birçok basit ifade ve sütun adlarına dayalı olarak da bazı tahminler ekler. Örnek:
 - Çoğu sütun, “ürünlerin açıklamaları olur” gibi basit bir ifadeyle kapsayıcı tablosuyla ilişkilendirilir.
 - Model ilişkileri, “siparişlerin ürünleri olur” ve “ürünlerin siparişleri olur” gibi her iki ilişki yönü için varsayılan ifadelerle sonuçlanır.
 - Bazı model ilişkileri, sütun adlarına dayalı olarak “siparişler şehirlere sevk edilir” gibi daha karmaşık bir varsayılan ifade alır.
 
-Ancak kullanıcılarınız, Soru-Cevap uygulamasının tahmin edemeyeceği şeyler hakkında birçok farklı şekilde konuşabilir. Bunlar için el ile kendi ifadelerinizi eklemek isteyebilirsiniz.
+Ancak kullanıcılarınız, Soru-Cevap uygulamasının tahmin edemeyeceği şeyler hakkında birçok farklı şekilde konuşabilir. Bu ifadeler için el ile kendi ifadelerinizi eklemek isteyebilirsiniz.
 
 
 ## <a name="why-should-i-add-phrasings"></a>Neden ifadeler eklemeliyim?
 İfade eklemenin birinci nedeni yeni bir terimi tanımlamaktır. Örneğin, "en eski müşterilerin listelenmesini” isteyebilmek istiyorsanız önce “eski” ile ne demek istediğinizi Soru-Cevap uygulamasına öğretmeniz gerekir. “Eski, bir şeyin ne kadar zaman öncesine ait olduğunu belirtir” gibi bir ifade ekleyerek bunu yaparsınız.
 
-İfade eklemenin ikinci nedeni, belirsizliği çözümlemektir. Sözcüklerin birden çok anlamı olduğunda temel anahtar sözcük araması yalnızca belirli bir yere kadar ilerler. Örneğin, “İzmir’e uçuşlar” ifadesi, “İzmir’den uçuşlar” ifadesinden oldukça farklı bir anlama gelir; ancak “uçuşlar kalkış şehrinden olur” ve uçuşlar varış şehrine olur” ifadelerini eklemezseniz Soru-Cevap hangisini demek istediğinizi bilmez. Benzer şekilde, “Can’ın Meryem’e sattığı arabalar” ve “Can’ın Meryem’den satın aldığı arabalar” arasındaki ayrım da yalnızca “müşteriler çalışanlardan araba satın alır” ve “çalışanlar müşterilere araba satar” ifadelerini eklediğinizde anlaşılır.
+İfade eklemenin ikinci nedeni, belirsizliği çözümlemektir. Sözcüklerin birden çok anlamı olduğunda temel anahtar sözcük araması yalnızca belirli bir yere kadar ilerler. Örneğin, “İzmir’e uçuşlar” ifadesi, “İzmir’den uçuşlar” ifadesinden oldukça farklı bir anlama gelir. Ancak “uçuşlar kalkış şehrinden olur” ve “uçuşlar varış şehrine olur” ifadelerini eklemezseniz Soru-Cevap hangisini demek istediğinizi bilmez. Benzer şekilde, Soru-Cevap “Can’ın Meryem’e sattığı arabalar” ve “Can’ın Meryem’den satın aldığı arabalar” arasındaki ayrımı da yalnızca “müşteriler çalışanlardan araba satın alır” ve “çalışanlar müşterilere araba satar” ifadelerini eklediğinizde anlar.
 
 İfade eklemenin son nedeni de farklı bir şekilde ifade etmeyi geliştirmektir. Soru-Cevap uygulamasının size “Müşterileri ve ürünlerini göster” ifadesini çağrıştırması yerine, sorunun nasıl anlaşıldığına bağlı olarak, “Müşterileri ve satın aldıkları ürünleri göster” veya “Müşterileri ve gözden geçirdikleri ürünleri göster” denmesi daha net anlaşılacaktır. Özel ifadeler eklenmesi, farklı bir şekilde ifade etmenin daha belirtik ve anlaşılır olmasını sağlar.
 
@@ -134,7 +134,7 @@ Farklı türlerdeki ifadeleri anlamak için ilk olarak birkaç temel dilbilgisi 
 
 
 ## <a name="attribute-phrasings"></a>Niteleyici ifadeler
-Niteleyici ifadeler, Soru-Cevap uygulamasının lokomotifidir. Bir şey, başka bir şeyin niteleyicisi olarak hareket ettiğinde kullanılır. Basittir ve nettir. Daha incelikli ve daha ayrıntılı bir ifade tanımlanmadığında iş yükünün çoğunu gerçekleştirir. Niteleyici ifadeler, temel “sahip olmak, içermek, bulunmak, var” fiilleri kullanılarak açıklanır (“ürünlerin kategorileri vardır” ve “ev sahibi ülkelerde, ev sahibi şehirler bulunur”) ve “-ın”, “için” edatı (“ürünlerin kategorileri”, “ürünler için siparişler”) ve iyelik ekleri (“Can’ın siparişleri) kullanılarak sorular sorulmasına olanak sağlar. Niteleyici ifadeler aşağıdaki gibi sorularda kullanılır:
+Niteleyici ifadeler, Soru-Cevap uygulamasının lokomotifidir. Bir şey, başka bir şeyin niteleyicisi olarak hareket ettiğinde kullanılır. Bunlar basittir ve nettir. Daha incelikli ve daha ayrıntılı bir ifade tanımlamadığınızda iş yükünün çoğunu gerçekleştirir. Niteleyici ifadeler, temel “sahip olmak, içermek, bulunmak, var” fiilleri kullanılarak açıklanır (“ürünlerin kategorileri vardır” ve “ev sahibi ülkelerde, ev sahibi şehirler bulunur”). “-ın”, “için” edatı (“ürünlerin kategorileri”, “ürünler için siparişler”) ve iyelik ekleri (“Can’ın siparişleri) kullanılarak sorular sorulmasına olanak sağlar. Niteleyici ifadeler şu tür sorularda kullanılır:
 - Hangi müşterilerin siparişleri var?
 - Ev sahibi şehirleri, ülkeye göre artan düzende sırala
 - Çay içeren siparişleri göster
@@ -142,7 +142,7 @@ Niteleyici ifadeler, Soru-Cevap uygulamasının lokomotifidir. Bir şey, başka 
 - Her bir ürünün kategorisi nedir?
 - Recep Korhan’ın siparişlerini say    
 
-Modelinizde gereken niteleyici ifadelerin büyük çoğunluğu, tablo/sütun kapsamına ve model ilişkilerine dayalı olarak otomatik şekilde oluşturulur; dolayısıyla çoğu zaman bunu sizin oluşturmanız gerekmez.
+Power BI, tablo/sütun bağımlılıklarına ve model ilişkilerine göre modelinizde gereken isim ifadelerinin çoğunu otomatik olarak oluşturur. Genellikle bunları sizin oluşturmanız gerekmez.
 Aşağıda, bir niteleyici ifadenin dil şemasında nasıl göründüğüne dair bir örnek verilmiştir:
 
 ```json
@@ -153,14 +153,14 @@ product_has_category:
 ```
  
 ## <a name="name-phrasings"></a>İsim İfadeleri
-Veri modelinizde, atlet isimleri ve müşteri isimleri gibi adlandırılmış nesneler içeren bir tablo bulunuyorsa isim ifadeleri faydalı olur. Örneğin, “ürün adları, ürünlerin adlarıdır” ifadesi, sorularda ürün adlarını kullanabilmek için temel bir ifadedir. İsim ifadesi, “adlı” sözcüğünün de fiil olmasını sağlar (örn. “Can Aydın adlı müşterileri listele), öte yandan, bir isim değerinin belirli bir tablo satırını ifade etmek için kullanılmasına olanak sağlamak amacıyla başka ifadelerle birlikte kullanıldığında bu en çok önemlidir. Örneğin, “Çay satın alan müşteriler” ifadesinde Soru-Cevap uygulaması, “çay” değerinin yalnızca ürün adı sütunundaki bir değeri değil, ürün tablosunun tüm satırını ifade ettiğini söyleyebilir. İsim ifadeleri aşağıdaki gibi sorularda kullanılır:    
+Veri modelinizde, atlet isimleri ve müşteri isimleri gibi adlandırılmış nesneler içeren bir tablo bulunuyorsa isim ifadeleri faydalı olur. Örneğin, “ürün adları, ürünlerin adlarıdır” ifadesi, sorularda ürün adlarını kullanabilmek için temel bir ifadedir. İsim ifadesi, “adlı” sözcüğünün de fiil olmasını sağlar (örn."Can Aydın adlı müşterileri listele"). Öte yandan, bir isim değerinin belirli bir tablo satırını ifade etmek için kullanılmasına olanak sağlamak amacıyla başka ifadelerle birlikte kullanıldığında bu en çok önemlidir. Örneğin, “Çay satın alan müşteriler” ifadesinde Soru-Cevap uygulaması, “çay” değerinin yalnızca ürün adı sütunundaki bir değeri değil, ürün tablosunun tüm satırını ifade ettiğini söyleyebilir. İsim ifadeleri şu tür sorularda kullanılır:    
 - Hangi çalışanların adı Recep Korhan’dır?
 - Kimin adı Enes Hanzade’dir?
 - Ferit Numan’ın sporu
 - Meryem adlı atletlerin sayısı
 - Recep Korhan ne satın aldı?
 
-Modelinizdeki isim sütunları için duyarlı bir adlandırma kuralı kullandığınız varsayıldığında (örn. “Ürnİsm” yerine “İsim” veya “Ürünİsmi”), modelinizde gereken isim ifadelerinin çoğu otomatik olarak oluşturulur, genellikle sizin oluşturmanız gerekmez.
+Modelinizdeki isim sütunları için duyarlı bir adlandırma kuralı kullandığınız varsayıldığında (örn. “Ürnİsm” yerine “İsim” veya “Ürünİsmi”), Power BI modelinizde gereken isim ifadelerinin çoğunu otomatik olarak oluşturur, genellikle sizin oluşturmanız gerekmez.
 
 Aşağıda, bir isim ifadesinin dil şemasında nasıl göründüğüne dair bir örnek verilmiştir:
 
@@ -177,7 +177,7 @@ employee_has_name:
 ## <a name="adjective-phrasings"></a>Sıfat İfadeleri
 Sıfat ifadeleri, modelinizdeki şeyleri açıklamak için kullanılan yeni sıfatları tanımlar. Örneğin, “İstanbul’daki mutlu müşterileri listele” gibi sorular sormak için “mutlu müşteriler, derecelendirmesi 6’dan yüksek olan müşterilerdir” ifadesi gerekir. Farklı durumlarda kullanılacak farklı biçimlerde sıfat ifadeleri vardır.
 
-*Basit sıfat ifadeleri*, “Üretimden kalkan ürünler, durumu = D olan ürünlerdir” gibi bir koşula dayalı olan yeni bir sıfatı tanımlar. Basit sıfat ifadeleri aşağıdaki gibi sorularda kullanılır:
+*Basit sıfat ifadeleri*, “Üretimden kalkan ürünler, durumu = D olan ürünlerdir” gibi bir koşula dayalı olan yeni bir sıfatı tanımlar. Basit sıfat ifadeleri şu tür sorularda kullanılır:
 - Üretimden kalkan ürünler hangileridir?
 - Üretimden kalkan ürünleri listele
 - Altın madalya sahiplerini listele
@@ -197,7 +197,7 @@ Binding: {Table: Products}
       Adjectives: [discontinued]
 ```
 
-*Ölçüm sıfatı ifadeleri*, sıfatın ne kadar geçerli olduğuna dair bir sayısal değere dayalı yeni bir sıfatı tanımlar; örn. “uzunluklar, nehirlerin ne kadar uzun olduğunu belirtir” ve “küçük ülke bölgeleri, küçük arazi alanlarına sahiptir”. Ölçüm sıfatı ifadeleri aşağıdaki gibi sorularda kullanılır:
+*Ölçüm sıfatı ifadeleri*, sıfatın ne kadar geçerli olduğuna dair bir sayısal değere dayalı yeni bir sıfatı tanımlar; örn. “uzunluklar, nehirlerin ne kadar uzun olduğunu belirtir” ve “küçük ülke bölgeleri, küçük arazi alanlarına sahiptir”. Ölçüm sıfatı ifadeleri şu tür sorularda kullanılır:
 - Uzun nehirleri listele
 - En uzun nehirler hangileridir?
 - Basketbolda altın madalya kazanan en küçük ülke bölgelerini listele
@@ -215,7 +215,7 @@ Binding: {Table: Rivers}
       Measurement: river.length
 ```
 
-*Dinamik sıfat ifadeleri*, “renkler, ürünleri açıklar” ve “etkinlikler, etkinlik cinslerine sahiptir” gibi, modeldeki bir sütunda yer alan değerlere dayalı olarak yeni sıfatlardan oluşan bir kümeyi tanımlar. Dinamik sıfat ifadeleri aşağıdaki gibi sorularda kullanılır:
+*Dinamik sıfat ifadeleri*, “renkler, ürünleri açıklar” ve “etkinlikler, etkinlik cinslerine sahiptir” gibi, modeldeki bir sütunda yer alan değerlere dayalı olarak yeni sıfatlardan oluşan bir kümeyi tanımlar. Dinamik sıfat ifadeleri şu tür sorularda kullanılır:
 - Kırmızı ürünleri listele
 - Hangi ürünler yeşildir?
 - Kadınlar için buz pateni etkinliklerini göster
@@ -234,7 +234,7 @@ Binding: {Table: Products}
 ## <a name="noun-phrasings"></a>İsim ifadeleri
 İsim ifadeleri, modelinizdeki şeylerin alt kümelerini açıklayan yeni isimleri tanımlar. Genellikle modele özgü bir ölçüm veya koşul türünü içerir. Örneğin, Olimpiyatlar modelimiz için madalya sahiplerinden şampiyonları, su sporlarından top sporlarını, bireysel sporlardan takım sporlarını, atletlerin yaş kategorilerini (genç, yetişkin, kıdemli) vb. ayırt eden ifadeler eklemek isteyebiliriz. “Yıla göre batanları say” gibi sorular sorabilmemiz için, film veritabanımıza yönelik, “batanlar, net kârı 0’dan düşük olan filmlerdir” isim ifadelerini eklemek isteyebiliriz. Farklı durumlarda kullanılacak iki biçimde isim ifadesi vardır.
 
-*Basit isim ifadesi*, “yükleniciler, tam zamanlı = false olan çalışanlardır” ve ”şampiyon, madalya sayısı >5 olan atlettir” gibi, bir koşula dayalı yeni bir isim tanımlar. Basit isim ifadeleri aşağıdaki gibi sorularda kullanılır:
+*Basit isim ifadesi*, “yükleniciler, tam zamanlı = false olan çalışanlardır” ve ”şampiyon, madalya sayısı >5 olan atlettir” gibi, bir koşula dayalı yeni bir isim tanımlar. Basit isim ifadeleri şu tür sorularda kullanılır:
 
 - Hangi çalışanlar yüklenicidir?
 - İstanbul’daki yüklenicileri say
@@ -254,7 +254,7 @@ Binding: {Table: Employees}
       Nouns: [contractor]
 ```
 
-*Dinamik isim ifadesi*, “işler, çalışanların alt kümesini tanımlar” gibi, modeldeki bir sütunda yer alan değerlere dayalı yeni isimlerden oluşan bir kümeyi tanımlar. Dinamik isim ifadeleri aşağıdaki gibi sorularda kullanılır:
+*Dinamik isim ifadesi*, “işler, çalışanların alt kümesini tanımlar” gibi, modeldeki bir sütunda yer alan değerlere dayalı yeni isimlerden oluşan bir kümeyi tanımlar. Dinamik isim ifadeleri şu tür sorularda kullanılır:
 
 - İzmir’deki kasiyerleri listele
 - Hangi çalışanlar baristadır?
@@ -271,7 +271,7 @@ Binding: {Table: Employees}
 ```
 
 ## <a name="preposition-phrasings"></a>Edat ifadeleri
-Edat ifadeleri, modelinizdeki şeylerin edatlar kullanılarak nasıl ilişkilendirildiğini açıklamak için kullanılır. Örneğin, “şehirler, ülkelerde bulunu” ifadesi, “Ankara’daki ilçeleri say” gibi soruların anlaşılmasını kolaylaştırır. Bir sütun, coğrafi varlık olarak tanındığında otomatik olarak bazı edat ifadeleri oluşturulur. Edat ifadeleri aşağıdaki gibi sorularda kullanılır:
+Edat ifadeleri, modelinizdeki şeylerin edatlar kullanılarak nasıl ilişkilendirildiğini açıklamak için kullanılır. Örneğin, “şehirler, ülkelerde bulunu” ifadesi, “Ankara’daki ilçeleri say” gibi soruların anlaşılmasını kolaylaştırır. Bir sütun, coğrafi varlık olarak tanındığında otomatik olarak bazı edat ifadeleri oluşturulur. Edat ifadeleri şu tür sorularda kullanılır:
 
 - Antalya'daki müşterileri say
 - Dilbilimciler hakkındaki kitapları listele
@@ -291,7 +291,7 @@ Binding: {Table: Customers}
 
  
 ## <a name="verb-phrasings"></a>Fiil İfadeleri
-Fiil ifadeleri, modelinizdeki şeylerin fiiller kullanılarak nasıl ilişkilendirildiğini açıklamak için kullanılır. Örneğin, “müşteriler, ürünleri satın alır” ifadesi, “kim peynir satın aldı?” ve “Can ne satın aldı?” gibi soruların anlaşılmasını kolaylaştırır. Fiil ifadeleri, tüm ifade türleri arasında en esnek olanıdır, çoğu zaman ikiden fazla şeyi birbiriyle ilişkilendirir; örneğin, “çalışanlar, müşterilere ürünler satar”. Fiil ifadeleri aşağıdaki gibi sorularda kullanılır:
+Fiil ifadeleri, modelinizdeki şeylerin fiiller kullanılarak nasıl ilişkilendirildiğini açıklamak için kullanılır. Örneğin, “müşteriler, ürünleri satın alır” ifadesi, “kim peynir satın aldı?” ve “Can ne satın aldı?” gibi soruların anlaşılmasını kolaylaştırır. Fiil ifadeleri, tüm ifade türleri arasında en esnek olanıdır, çoğu zaman ikiden fazla şeyi birbiriyle ilişkilendirir; örneğin, “çalışanlar, müşterilere ürünler satar”. Fiil ifadeleri şu tür sorularda kullanılır:
 
 - Kim, kime, ne sattı?
 - Can’a hangi çalışan çay sattı?
@@ -338,7 +338,7 @@ Binding: {Table: Customers}
 Başka bir örnek de, “müşteriler, çalışanlardan ürünler satın alır” ilişkisine alternatif “çalışanlar, müşterilere ürünler satar” ifadesinin eklenmesi olacaktır. Öznenin -e hali ve “tarafından” edatı, Soru-Cevap uygulaması tarafından otomatik olarak çıkarsandığından, “çalışanlar, **müşterilere** ürünler satar” veya “ürünler, **çalışanlar tarafından** müşterilere satılır” gibi varyasyonlar eklemeniz gerekmediğini unutmayın.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Artık .lsdl.yaml dosyasında, dil şeması biçimine uymayan bir değişiklik yaparsanız, sorunları belirtmek için şuna benzer doğrulama dalgalı çizgileri görürsünüz: 
+Artık .lsdl.yaml dosyasında, dil şeması biçimine uymayan bir değişiklik yaparsanız, sorunları belirtmek için doğrulama dalgalı çizgileri görürsünüz: 
 
 ![hataları gösteren yaml dosyası](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 

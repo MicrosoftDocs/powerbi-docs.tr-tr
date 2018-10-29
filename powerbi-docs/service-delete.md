@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910303"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435349"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -129,7 +129,7 @@ Uygulama listesi sayfanızdan sildiğiniz uygulamalar diğer üyeler için silin
 
    ![Uygulama seçme](media/service-delete/power-bi-delete-app.png)
 
-   Yanlışlıkla kaldırdığınız uygulamaları geri almak için kullanabileceğiniz birçok seçenek vardır.  Uygulama oluşturucusunun uygulamayı yeniden göndermesini isteyebilir, uygulama bağlantısını içeren özgün e-postayı bulabilir, [Bildirim merkezinizde](service-notification-center.md) uygulamayla ilgili bildirimin mevcut olup olmadığına bakabilir veya kuruluşunuzun [AppSource](service-install-use-apps.md) sayfasını kontrol edebilirsiniz.
+   Yanlışlıkla kaldırdığınız uygulamaları geri almak için kullanabileceğiniz birçok seçenek vardır.  Uygulama oluşturucusunun uygulamayı yeniden göndermesini isteyebilir, uygulama bağlantısını içeren özgün e-postayı bulabilir, [Bildirim merkezinizde](service-notification-center.md) uygulamayla ilgili bildirimin mevcut olup olmadığına bakabilir veya kuruluşunuzun [AppSource](consumer/end-user-apps.md) sayfasını kontrol edebilirsiniz.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 Bu makalede Power BI hizmetinin başlıca yapı taşlarını silme yöntemleri ele alınmıştır. Ancak Power BI'da silebileceğiniz başka öğeler de vardır.  

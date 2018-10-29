@@ -1,5 +1,5 @@
 ---
-title: Bir Power BI panosu nedir?
+title: Bir pano Power BI hizmeti kullanıcıları için neyi ifade eder?
 description: Panolar, Power BI hizmetinin temel özelliklerinden biridir.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909142"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473946"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Power BI hizmetindeki panolar
+# <a name="dashboards-for-power-bi-service-consumers"></a>Panoların Power BI hizmeti tüketicileri için anlamı
 
 Power BI ***panosu***, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi tasarlanmış bir panoda yalnızca hikayenin en önemli parçaları yer alır.
 

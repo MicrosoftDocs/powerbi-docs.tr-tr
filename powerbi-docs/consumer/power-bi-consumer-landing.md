@@ -1,25 +1,24 @@
 ---
 title: Rapor tüketicileri için Power BI
 description: Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI ile sunulan farklı ürün ve hizmetleri keşfedip bunlarla yapabileceklerinize göz atın.
-author: maggiesMSFT
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/01/2018
-ms.author: maggies
+ms.date: 10/11/2018
+ms.author: mihart
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e6b68a073dc8ad2a7827da55ce61821d4b93b40
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232915"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396608"
 ---
-# <a name="power-bi-for-report-consumers"></a>Rapor tüketicileri için Power BI
-
-Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI ile sunulan farklı ürün ve hizmetleri keşfedip bunlarla yapabileceklerinize göz atın. Hoş geldiniz!
+# <a name="power-bi-for-consumers"></a>Kullanıcılar için Power BI
+Bir *son kullanıcı* veya *tüketici* olarak iş arkadaşlarınızdan pano, rapor ve uygulama alan kişi olursunuz. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşmek için ***Power BI hizmetinde*** çalışırsınız.
 
 Daha ziyade Power BI tasarımcısı, geliştiricisi veya yöneticisi misiniz? Siz de hoş geldiniz. [Tasarımcılar için Power BI](../power-bi-creator-landing.md) ile başlamanızı öneririz.
 
@@ -29,12 +28,13 @@ Daha ziyade Power BI tasarımcısı, geliştiricisi veya yöneticisi misiniz? Si
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>Power BI ile çalışmaya başlama</h3> 
+                                                                                      <h3>Power BI'ı kullanmaya başlama</h3> 
                                                                                       <p></p>
                                                                                             <a href="end-user-consumer.md">Bir Power BI tüketicisi olarak ne yapabilirim?</a><br/> 
-                                                                                            <a href="end-user-experience.md">Power BI hizmetinde dolaşma</a><br/> 
-                                                                                            <a href="end-user-basic-concepts.md">Temel kavramlar</a><br/>
                                                                                             <a href="../service-get-started.md">Öğreticiye başlama</a><br/>
+<a href="end-user-report-open.md">Rapor</a> | <a href="end-user-dashboard-open.md">pano</a> | <a href="end-user-apps.md">uygulama</a> görüntüleme<br/> 
+                                                                                            <!--<a href="end-user-collaborate.md">Collaborate</a><br/> -->
+                                                                                            <a href="end-user-subscribe.md">Bir rapora veya panoya abone olma</a><br/> 
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -45,11 +45,12 @@ Daha ziyade Power BI tasarımcısı, geliştiricisi veya yöneticisi misiniz? Si
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>İçeriğinizi keşfetme</h3> 
+                                                                                      <h3>Power BI ile tanışın</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-related.md">Farklı içerik türleri hakkında bilgi edinme</a><br/> 
-                                                                                            <a href="end-user-q-and-a.md">Soru-cevap özelliğiyle verileriniz hakkında sorular sorme</a><br/> 
-                                                                                            <a href="end-user-report-filter.md">İçeriğinizi filtreleme</a> 
+                                                                                            <a href="end-user-basic-concepts.md">Temel kavramlar</a><br/>
+                                                                                            <a href="end-user-experience.md">Power BI hizmetinde dolaşma</a><br/> 
+                                                                                            <a href="../power-bi-overview.md">Farklı Power BI araçları hakkında bilgi edinin</a><br/> 
+                                                                                            <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -60,11 +61,12 @@ Daha ziyade Power BI tasarımcısı, geliştiricisi veya yöneticisi misiniz? Si
                                            <div class="cardPadding"> 
                                                           <div class="card"> 
                                                                         <div class="cardText"> 
-                                                                                      <h3>İçeriğinizi kişiselleştirme</h3> 
+                                                                                      <h3>Gelişmiş görevler</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-shared-with-me.md">Panoları ve raporları paylaşma</a><br/> 
-                                                                                            <a href="end-user-focus.md">Bir kutucuğu veya görseli odak modunda görüntüleme</a><br/> 
-                                                                                            <a href="end-user-subscribe.md">İçeriğe abone olma</a>
+                                                                                            <a href="end-user-q-and-a.md">Soru-Cevap doğal dil arama kutusu</a><br/> 
+                                                                                            <a href="end-user-focus.md">Görüntüleme ayarlarını değiştirme</a><br/> 
+                                                                                            <a href="end-user-report-filter.md">Rapor filtrelerini kullanmayı öğrenin</a><br> 
+                                                                                            <a href="end-user-insights.md">Otomatik içgörü oluşturma</a><br/> 
                                                                         </div> 
                                                           </div> 
                                            </div> 

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151918"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474038"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 
@@ -40,6 +40,25 @@ Ağ geçidi bir Windows hizmeti olarak çalıştırılır, böylece onu birkaç 
 * Hizmeti başlatmak için şu komutu çalıştırın:
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>Günlük kuralı Yapılandırması
+
+Ağ geçidi hizmeti günlükleri üç demete ayrılmıştır: bilgi, hata ve ağ. Bu kategoriler, hataya bağlı olarak belirli bir alana odaklanmanızı sağlayarak daha iyi bir sorun giderme deneyimi yaşamanızı sağlar. Ağ geçidi yapılandırma dosyasından alınan şu kod parçacığında bu üç kategoriyi görebilirsiniz: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`.
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+Bu dosya varsayılan olarak şu konumda bulunur: *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Tutulacak günlük dosyası sayısını yapılandırmak için ilk sayıyı değiştirin (bu örnekte 20): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>Hata: Ağ geçidi oluşturulamadı. Tekrar deneyin
 

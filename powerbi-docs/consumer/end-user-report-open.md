@@ -1,23 +1,23 @@
 ---
-title: Power BI hizmetinde rapor görüntüleme
-description: Bir Power BI raporunu Okuma görünümünde açma.
+title: Tüketiciler için Power BI hizmetinde rapor görüntüleme.
+description: Bu konuda Power BI tüketicilerine ve son kullanıcılarına bir Power BI raporunu açma ve görüntüleme adımları gösterilmektedir.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112027"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396946"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com) rapor görüntüleme
-Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *rapor tasarımcıları* tarafından oluşturulur ve sizinle [doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
+Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *rapor tasarımcıları* tarafından oluşturulur ve [*tüketicilerle* doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
 
 Bir raporu açmanın birçok farklı yolu vardır. Burada Giriş sayfasından açma ve panodan açma olmak üzere iki farklı yöntem gösterilmektedir. 
 
@@ -42,7 +42,7 @@ Power BI *tasarımcıları* oluşturdukları raporu üst menü çubuğundaki **P
    
    ![Giriş sayfasının Benimle paylaşılan bölümü](./media/end-user-report-open/power-bi-shared.png)
 
-4. Raporu açmak için rapor kartlarından birini seçmeniz yeterlidir.
+4. Raporu açmak için rapor *kartlarından* birini seçmeniz yeterlidir.
 
    ![rapor sayfası](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Power BI *tasarımcıları* oluşturdukları raporu üst menü çubuğundaki **P
 
    ![Giriş sayfası](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano veya rapor ile açılır. Uygulamayı seçtiğinizde:
+8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano, rapor veya uygulama içerik listesi ile açılır. Uygulamayı seçtiğinizde:
     - rapor açılırsa başka bir işlem yapmanıza gerek yoktur.
     - pano açılırsa aşağıdaki [Bir raporu panodan açma](#Open-a-report-from-a-dashboard) bölümüne bakın.
-
+    - uygulama içerik listesi açılırsa **Raporlar** bölümünden raporu seçerek açın.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Bir raporu panodan açma
@@ -83,15 +83,15 @@ Raporlar panodan açılabilir. Çoğu pano kutucuğu, raporlardan *sabitlenmişt
     ![Okuma görünümü’nde açık rapor](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Tüm kutucuklar rapor açmaz. [Soru-Cevap ile oluşturulan](../service-dashboard-pin-tile-from-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk ekle** pencere öğesi kullanılarak oluşturulan](../service-dashboard-add-widget.md) bir kutucuğu seçerseniz **Kutucuğu düzenle** sihirbazı açılır.  
+> Tüm kutucuklar rapor açmaz. [Soru-Cevap ile oluşturulan](end-user-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk ekle** pencere öğesi kullanılarak oluşturulan](../service-dashboard-add-widget.md) bir kutucuğu seçerseniz farklı işlemler gerçekleşebilir.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Raporları açmak için kullanabileceğiniz yöntemler bunlarla sınırlı değildir
 Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en uygun iş akışlarını keşfedeceksiniz. Raporlara erişmek için kullanabileceğiniz diğer yöntemlerden bazıları aşağıda verilmiştir:
 - Sol gezinti bölmesinde bulunan **Sık Kullanılanlar** ve **Son Görüntülenen** seçeneklerinden    
 - [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma    
-- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](../service-set-data-alerts.md) aldığınız e-postadan    
-- [Bildirim merkezinizden]    (end-user-notification-center.md)    
+- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](end-user-alerts.md) aldığınız e-postadan    
+- [Bildirim merkezinizi](end-user-notification-center.md) kullanma    
 - ve daha fazlası
 
 ## <a name="next-steps"></a>Sonraki adımlar

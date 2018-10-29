@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium için Multi-Geo desteği (Önizleme)
 description: İçeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300196"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641684"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium için Multi-Geo desteği (Önizleme)
 
@@ -40,7 +40,7 @@ Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi içi
 Yeni kapasiteler için, açılan listeden varsayılan bölgenin dışında bir bölge seçerek Multi-Geo'yu etkinleştirin.  Kullanılabilir her kapasite, şu anda bulunduğu bölgeyi (**Orta Batı ABD**) gösterir.
 
 ![Kapasite boyutu: bölge seçin. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Siz kapasiteyi oluşturduktan sonra kapasite o bölgede kalır ve oluşturulan tüm çalışma alanlarının içeriği o bölgede depolanır. Çalışma alanı ayarları ekranındaki açılan liste aracılığıyla çalışma alanlarını bir bölgeden diğerine geçirebilirsiniz.
 
 ![Çalışma alanını düzenleme: Kullanılabilir bir kapasite seçin. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -91,11 +91,8 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 - Veri aktarımını başlatmadan önce bölgeler arasında başlattığınız her taşıma işleminin tüm kurumsal ve resmi uyumluluk gereksinimlerini karşıladığını onaylayın.
-
 - Uzak bölgede depolanan ve önbelleğe alınan bir sorgu, o bölgede bekletilir. Öte yandan, taşınan diğer veriler birden çok coğrafya arasında ileri ve geri gidebilir.
-
 - Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca son kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
-
 - Multi-Geo genel olarak daha iyi bir performans sonucu vermez. Raporları ve panoları yükleme işlemi yine de meta veriler için ana bölgeye istekler göndermeyi içerir.
 
 ## <a name="next-steps"></a>Sonraki adımlar

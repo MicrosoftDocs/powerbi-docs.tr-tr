@@ -1,21 +1,21 @@
 ---
-title: Tüketiciler için Power BI Filtreler bölmesine genel bakış
-description: Power BI hizmetindeki Rapor Filtreleri bölmesine genel bakış
+title: Rapor filtresi ekleme
+description: Tüketiciler için Power BI hizmetindeki bir rapora filtre ekleme
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908291"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473819"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makale Power BI hizmetindeki Rapor Filtreleri bölmesine bir bakış sunmaktadır.
@@ -29,7 +29,7 @@ Bir iş arkadaşı sizinle bir rapor paylaştığında **Filtreler** bölmesine 
 
 ![tarayıcıda rapor](media/end-user-report-filter/power-bi-expanded.png)
 
-Filtreler bölmesi, rapor *tasarımcısı* tarafından eklenen filtreler içerir. Sizin gibi *tüketiciler* filtrelerle etkileşebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtre ekleyemez.
+Filtreler bölmesi, rapor *tasarımcısı* tarafından eklenen filtreler içerir. Sizin gibi *tüketiciler* filtrelerle etkileşebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtre ekleyemez. Örneğin yukarıdaki ekran görüntüsünde tasarımcı iki sayfa düzeyi filtre eklemiştir: Segment ve Year. Bu filtrelerle etkileşim kurabilir ve bunları değiştirebilirsiniz ancak üçüncü bir sayfa düzeyi filtre ekleyemezsiniz.
 
 Power BI hizmetinde raporlar, Filtreler bölmesinde yaptığınız tüm değişiklikleri korur ve bu değişiklikler, raporun mobil sürümüne taşınır. Filtre bölmesini tasarımcının varsayılanlarına geri döndürmek için en üstteki menü çubuğundan **Varsayılana sıfırla**'yı seçin.     
 
@@ -40,11 +40,15 @@ Bu örnekte, 6 filtresi bulunan bir görsel seçtik. Rapor sayfasında da filtre
 
 ![filtre listesi](media/end-user-report-filter/power-bi-filter-list.png)
 
-Bazı filtrelerin yanında **Tümü** ifadesi bulunur ve bu, tüm değerlerin söz konusu filtreye dahil edildiği anlamına gelir.  Örneğin, aşağıdaki ekran görüntüsünde **Chain (Tümü)**, bize bu rapor sayfasının tüm mağaza zincirleriyle ilgili verileri içerdiğini gösterir.  Diğer yandan, **FiscalYear 2013 veya 2014 değeridir** rapor düzeyi filtresi, bize raporun yalnızca 2013 ve 2014 mali yıllarına ilişkin verileri içerdiğini gösterir.
+Bazı filtrelerin yanında **Tümü** ifadesi bulunur ve bu, tüm değerlerin söz konusu filtreye dahil edildiği anlamına gelir.  Örneğin, yukarıdaki ekran görüntüsünde **Chain(All)**, bize bu rapor sayfasının tüm mağaza zincirleriyle ilgili verileri içerdiğini gösterir.  Diğer yandan, **FiscalYear 2013 veya 2014 değeridir** rapor düzeyi filtresi, bize raporun yalnızca 2013 ve 2014 mali yıllarına ilişkin verileri içerdiğini gösterir.
 
 Bu raporu görüntüleyen tüm kullanıcılar filtrelerle etkileşime geçebilir.
 
-* Filtrenin üzerine gelip yanındaki oku seçerek ayrıntılarını görüntüleyebilir.
+- İstediğiniz değeri bulmak ve seçmek için sayfa, görsel, rapor ve detaylandırma filtrelerinde arama yapın. 
+
+    ![Filtrede arama yapma](media/end-user-report-filter/power-bi-filter-search.png)
+
+- Filtrenin üzerine gelip yanındaki oku seçerek ayrıntılarını görüntüleyebilir.
   
    ![seçilen Lindsey'leri gösterir](media/end-user-report-filter/power-bi-expan-filter.png)
 * Filtreyi değiştirebilir (örneğin, **Lindseys** filtresini **Fashions Direct** ile değiştirme).
@@ -56,9 +60,11 @@ Bu raporu görüntüleyen tüm kullanıcılar filtrelerle etkileşime geçebilir
     
 * Filtre adının yanındaki **x** işaretini seçerek filtreyi silebilir.
   
-  Bir filtre silindiğinde listeden kaldırılır ancak rapordan silinmez.  Örneğin, **FiscalYear 2013 veya 2014 değeridir** filtresini silerseniz mali yıl verileri raporda kalmaya devam eder ancak artık yalnızca 2013 ve 2014 yıllarını gösterecek şekilde filtrelenmek yerine verilerin kapsadığı tüm mali yılları gösterir.  Ancak sildiğiniz filtreler listeden kaldırılacağından bu filtreleri artık değiştiremezsiniz. Silgi simgesini ![silgi simgesi](media/end-user-report-filter/power-bi-eraser-icon.png) seçerek filtreyi temizlemek daha kullanışlı bir seçenektir.
+    ![vurgulanmış halde x](media/end-user-report-filter/power-bi-delete-filter.png)
+
+  Bir filtre silindiğinde listeden kaldırılır ancak rapordan silinmez.  Örneğin, **FiscalYear 2013 veya 2014 değeridir** filtresini silerseniz mali yıl verileri raporda kalmaya devam eder ancak artık yalnızca 2013 ve 2014 yıllarını gösterecek şekilde filtrelenmek yerine verilerin kapsadığı tüm mali yılları gösterir.  Ancak sildiğiniz filtreler listeden kaldırılacağından bu filtreleri artık değiştiremezsiniz. Silgi simgesini ![ silgi simgesi ](media/end-user-report-filter/power-bi-eraser-icon.png) seçerek filtreyi temizlemek daha kullanışlı bir seçenektir.
   
-  ![vurgulanmış halde x](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ Bu raporu görüntüleyen tüm kullanıcılar filtrelerle etkileşime geçebilir
 ### <a name="list-mode"></a>Liste modu
 Bir onay kutusunun işaretlenmesi ilgili değerin seçilmesini veya seçiminin kaldırılmasını sağlar. Tüm onay kutularının durumunu açık veya kapalı olarak değiştirmek için **Tümü** onay kutusu kullanılabilir. Onay kutuları, söz konusu alan için kullanılabilen tüm değerleri temsil eder.  Siz filtreyi ayarlarken, ifade, seçimlerinizi yansıtacak şekilde güncelleştirilir. 
 
-![liste modu filtresi](media/end-user-report-filter/pbi_restatement.png)
+![liste modu filtresi](media/end-user-report-filter/power-bi-restatement-new.png)
 
-İfadenin artık "Amarilla veya Carretera değeridir" olarak göründüğüne dikkat edin
+İfadenin artık "Mar, Apr veya May değeridir" olarak göründüğüne dikkat edin.
 
 ### <a name="advanced-mode"></a>Gelişmiş mod
 Gelişmiş moda geçmek için **Gelişmiş Filtreleme** seçeneğini belirleyin. Hangi alanların dahil edileceğini belirlemek için açılan menü denetimlerini ve metin kutularını kullanın. **Ve** ile **Veya** arasında seçim yaparak karmaşık filtre ifadeleri oluşturabilirsiniz. İstediğiniz değerleri belirledikten sonra **Filtre Uygula** düğmesini seçin.  
 
-![gelişmiş mod](media/end-user-report-filter/aboutfilters.png)
+![gelişmiş mod](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>Filtre türleri: sayısal alan filtreleri
 ### <a name="list-mode"></a>Liste modu
@@ -86,7 +92,7 @@ Değerler sınırlıysa, alanı seçtiğinizde bir liste görüntülenir.  Onay 
 ### <a name="advanced-mode"></a>Gelişmiş mod
 Değerler sınırsızsa veya bir aralığı temsil ediyorsa alanı seçtiğinizde gelişmiş filtreleme modu açılır. Görmek istediğiniz değer aralığını belirtmek için, açılan menüyü ve metin kutularını kullanın. 
 
-![gelişmiş filtre](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![gelişmiş filtre](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 **Ve** ile **Veya** arasında seçim yaparak karmaşık filtre ifadeleri oluşturabilirsiniz. İstediğiniz değerleri belirledikten sonra **Filtre Uygula** düğmesini seçin.
 

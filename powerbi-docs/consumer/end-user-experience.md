@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112165"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473877"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
-Power BI ile ilgili temel bilgileri öğrendiğinize göre şimdi de **Power BI hizmetine** göz atalım. Daha önce belirtildiği gibi, ekibinizdeki bir kişi verileri birleştirip başkaları için raporlar oluşturarak tüm zamanını **Power BI Desktop**’ta geçirebilir. Öte yandan siz de başkaları tarafından oluşturulan içerikleri görüntüleyip bu içeriklerle etkileşim kurarak (**kullanma** deneyimi) veya verileri alıp kendi rapor ve panolarınızı oluşturarak (**oluşturma** deneyimi) zamanınızı geçirebilirsiniz. Bu hızlı başlangıçta, örnek verileri içeri aktaracak ve Power BI hizmetinden nasıl yararlanacağınızı öğrenmek için bu verileri kullanacaksınız. 
+Power BI ile ilgili temel bilgileri öğrendiğinize göre şimdi de **Power BI hizmetine** göz atalım. Daha önce belirtildiği gibi, ekibinizdeki bir kişi verileri birleştirip başkaları için raporlar oluşturarak tüm zamanını **Power BI Desktop**’ta geçirebilir. Öte yandan siz de Power BI hizmetinde başkaları tarafından oluşturulan içerikleri görüntüleyip bu içeriklerle etkileşim kurarak (**kullanma** deneyimi) zamanınızı geçirebilirsiniz. Bu hızlı başlangıçta, örnek verileri içeri aktaracak ve Power BI hizmetinden nasıl yararlanacağınızı öğrenmek için bu verileri kullanacaksınız. 
  
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -48,9 +48,11 @@ Amanda’nın Power BI hizmeti gezinme deneyimindeki turunu izleyin.  Ardından 
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>İçerik (panolar, raporlar, çalışma kitapları, veri kümeleri, çalışma alanları, uygulamalar) görüntüleme
-Temel içeriğin (panolar, raporlar, veri kümeleri ve çalışma kitapları) nasıl düzenlendiğine göz atarak başlayalım. İçerik bir çalışma alanı bağlamında görüntülenir. Bu noktada, **Çalışma Alanım** adında yalnızca bir çalışma alanınız vardır. Çalışma Alanım, size ait tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. İş arkadaşlarınızla Çalışma Alanım'dan içerik paylaşabilirsiniz. Çalışma Alanım'da içeriğiniz 4 sekmede düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
+Temel içeriğin (panolar, raporlar, veri kümeleri ve çalışma kitapları) nasıl düzenlendiğine göz atarak başlayalım. İçerik bir çalışma alanı bağlamında görüntülenir. Bu noktada, **Çalışma Alanım** adında yalnızca bir çalışma alanınız vardır. Tüketicilerin genellikle başka bir çalışma alanı kullanması gerekmez. Çalışma Alanım, size ait tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. Çalışma alanım, az önce indirdiğiniz Perakende Analizi örneğinin kaydedildiği yerdir. 
 
-![Çalışma Alanım ekranı](./media/end-user-experience/power-bi-my-workspace2.png)
+Çalışma Alanım'da içeriğiniz 4 sekmede düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
+
+![Çalışma Alanım ekranı](./media/end-user-experience/power-bi-my-workspace.png)
 
 Sol gezinti bölmesinden bir çalışma alanı seçtiğinizde, ilişkili içerik (panolar, raporlar, çalışma kitapları ve veri kümeleri) için sekmeler Power BI tuvalinin sağ tarafını doldurur.
 
@@ -58,7 +60,7 @@ Yeni bir kullanıcıysanız yalnızca bir çalışma alanı görürsünüz: **Ç
 
 ![çalışma alanının kısa videosu](./media/end-user-experience/nav.gif)
 
-Bu sekmelerde (diğer adıyla *içerik görünümleri*), içerikle ilgili bilgileri ve söz konusu içerikle uygulayabileceğiniz işlemleri görürsünüz.  Örneğin, Panolar sekmesinden bir pano açabilir, paylaşabilir, silebilir, arama yapabilir, yeni içerik oluşturabilir, sıralama yapabilir ve daha fazlasını yapabilirsiniz.
+Bu sekmelerde (diğer adıyla *içerik görünümleri*), içerikle ilgili bilgileri ve söz konusu içerikle uygulayabileceğiniz işlemleri görürsünüz.  Örneğin, Panolar sekmesinden bir pano açabilir, arama yapabilir, sıralama yapabilir ve daha fazlasını yapabilirsiniz.
 
 ![Panolar sekmesi](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ Pano adını seçerek panoyu açın.
    
     Şu ana kadar yalnızca bir sık kullanılan öğemiz var. Sık kullanılanlar; panolar, raporlar ve uygulamalar olabilir.  
 
-1. Bir pano veya raporu sık kullanılanlara eklemenin başka bir yolu ise **Panolar** veya **Raporlar** çalışma sekmesini kullanmaktır.  **Raporlar** sekmesini açın ve rapor adının sol tarafındaki yıldız simgesini seçin.
+1. Bir pano veya raporu sık kullanılanlara eklemenin başka bir yolu ise **Panolar** veya **Raporlar** içerik görüntüleme sekmesini kullanmaktır.  **Raporlar** sekmesini açın ve rapor adının sol tarafındaki yıldız simgesini seçin.
    
    ![sık kullanılan olarak işaretleme](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Daha fazla bilgi edinmek için bkz. [Sık Kullanılanlar](end-user-favorite.md)
 
     Açılan menüden içeriği seçip açın.
 
-2. Bazen son içeriği açmak istemezsiniz, ancak bilgileri görüntülemek veya paylaşma, Insights’ı çalıştırma veya Excel’e dışarı aktarma gibi başka bir işlem uygulamak istersiniz. Bu tür durumlarda **En son** seçeneğini belirleyerek veya sol gezinti bölmesinden simgesini seçerek **En son** bölmesini açın. Birden fazla çalışma alanınız varsa, tüm alanlarınızdaki içerikler bu listede yer alır.
+2. Bazen son içeriği açmak istemezsiniz ancak içgörüleri görüntüleme veya Excel’e dışarı aktarma gibi bilgi görüntülemek veya başka bir işlem uygulamak istersiniz. Bu tür durumlarda **En son** seçeneğini belirleyerek veya sol gezinti bölmesinden simgesini seçerek **En son** bölmesini açın. Birden fazla çalışma alanınız varsa, tüm alanlarınızdaki içerikler bu listede yer alır.
 
    ![Son görüntülenen bölmesi](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ Daha fazla bilgi için bkz. [Power BI'da son görüntülenenler](end-user-recent
 
 Yalnızca bir örneğiniz olduğundan, arama ve sıralama gerekli değildir.  Ancak panolar, raporlar, çalışma kitapları ve veri kümelerinden oluşan uzun listeleriniz olduğunda, arama ve sıralamayı son derece faydalı bulursunuz.
 
-![pano arama](./media/end-user-experience/power-bi-search-sort.png)
+![rapor arama](./media/end-user-experience/power-bi-search.png)
 
-Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz.  
+Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz. **Ad** alanının sağ tarafındaki yukarı oka dikkat edin. Şu anda 83 öğeyi ada göre ve artan düzende sıralıyoruz. Sıralama düzenini azalan olarak değiştirmek için **Ad**'ı seçin. Yukarı ok, aşağı oka döner.
 
-![içeriği sıralama](./media/end-user-experience/power-bi-sort.png)
+![içeriği sıralama](./media/end-user-experience/power-bi-sort-new.png)
 
-Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama, sıralama, filtreleme](end-user-search-sort.md)
+Her sütun sıralanamaz. Sıralanabilecek sütunları bulmak için sütun başlığına gidin.
+
+Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama ve sıralama](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
 Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örneği panosunu, raporu ve veri kümesini silebilirsiniz.
@@ -143,4 +147,4 @@ Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örne
 ## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
-> [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](end-user-reading-view.md)
+> [Power BI hizmetinde Okuma görünümü](end-user-reading-view.md)

@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
+title: Power BI Desktop’ta çok-çok ilişkiler (önizleme)
 description: Power BI Desktop’ta çoka çok ilişkileri (Önizleme) kullanma
 author: davidiseminger
 manager: kfile
@@ -10,155 +10,152 @@ ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974012"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473786"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
+# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop’ta çok-çok ilişkiler (önizleme)
 
-**Power BI Desktop**'taki **Çoka çok ilişkisi** özelliğinde, **Çoka çok** kardinalitesini kullanarak tabloları birleştirebilir ve birden çok veri kaynağı içeren veri kaynaklarını daha kolay ve sezgisel bir şekilde oluşturabilirsiniz. **Çoka çok ilişkisi** özelliği, **Power BI Desktop**'taki daha kapsamlı **bileşik modeller** özelliğinin bir parçasıdır.
+Power BI Desktop'daki *çok-çok ilişkiler* özelliğiyle *Çok-Çok* kardinalitesini kullanan tabloları birleştirebilirsiniz. Kolayca ve sezgisel bir şekilde iki veya daha fazla veri kaynağı içeren veri modelleri oluşturabilirsiniz. *Çok-çok ilişkisi* özelliği, Power BI Desktop'taki daha kapsamlı *bileşik modeller* özelliğinin bir parçasıdır.
 
-![İlişkiyi düzenle iletişim kutusunda çoka çok](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+!["İlişkiyi düzenle" bölmesindeki bir çok-çok ilişkisi](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-**Power BI Desktop**'taki **çoka çok ilişkileri** özelliği, birbiriyle ilişkili üç özelliğin koleksiyonudur:
+Power BI Desktop'taki *çok-çok ilişkileri* özelliği, birbiriyle ilişkili üç özelliğin koleksiyonudur:
 
-* **Bileşik modeller** - raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde birden çok veri bağlantısına izin verir.
-* **Çoka çok ilişkiler** - **bileşik modellerle** tablolar arasında **çoka çok ilişkiler** kurabilir, tablolarda benzersiz değer gereksinimlerini kaldırabilir ve yalnızca ilişkileri kurmak için yeni tablolar ekleme gibi önceden yapılacak geçici düzeltmelerden kurtulabilirsiniz. 
-* **Depolama modu** - DirectQuery temelinde olsa bile arka uç veri kaynaklarını sorgulama gerektiren ve gerektirmeyen hangi görsellerin içeri aktarılacağını belirtebilir, böylelikle performansı geliştirir ve arka uç yükünü azaltırsınız. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. 
+* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md).
 
-**Bileşik modeller** için birbiriyle ilgili bu özellik koleksiyonundaki üç özelliğin her biri ayrı makalelerde ele alınıyor:
+* **Çok-çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çok-çok ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Bu özellik bu makalede ayrıntılı olarak açıklanmaktadır.
 
-* **Bileşik modeller**, [Power BI Desktop’ta bileşik modeller (Önizleme)](desktop-composite-models.md) makalesinde ayrıntılarıyla açıklanır.
-* Bu makalede ise **Çoka çok ilişkileri** açıklanır.
-* **Depolama modu** kendi makalesinde ([Power BI Desktop'ta depolama modu (Önizleme)](desktop-storage-mode.md)) açıklanır.
+* **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (Önizleme)](desktop-storage-mode.md).
 
-## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Çoka çok ilişkileri önizleme özelliğini etkinleştirme
+## <a name="enable-the-many-to-many-relationships-preview-feature"></a>*Çok-çok ilişkiler* önizleme özelliğini etkinleştirme
 
-**Çoka çok ilişkileri** özelliği **bileşik modeller** özelliklerinin bir parçasıdır, Önizleme aşamasındadır ve **Power BI Desktop**'ta etkinleştirilmesi gerekir. **Bileşik modeller** özelliğini etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **bileşik modeller** onay kutusunu işaretleyin.
+*Çok-çok ilişkiler* özelliğinin Power BI Desktop'ta etkinleştirilmesi gerekir. Bileşik modelleri etkinleştirmek için, **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**’ni seçin ve ardından **Bileşik Modeller** onay kutusunu işaretleyin.
 
-![önizleme özelliklerini etkinleştirme](media/desktop-composite-models/composite-models_02.png)
+!["Önizleme özellikleri" bölmesi](media/desktop-composite-models/composite-models_02.png)
 
-Özelliğin etkinleştirilmesi için **Power BI Desktop**'ı yeniden başlatmanız gerekir.
+Özelliği etkinleştirmek için Power BI Desktop'ı yeniden başlatmanız gerekir.
 
-![değişikliklerin geçerlilik kazanması için yeniden başlatma gerekiyor](media/desktop-composite-models/composite-models_03.png)
+!["Özellik yeniden başlatma gerektirmektedir" penceresi](media/desktop-composite-models/composite-models_03.png)
 
+## <a name="what-many-to-many-relationships-solves"></a>*Çok-çok ilişkileri* nelere çözüm getirir?
 
-## <a name="what-many-to-many-relationships-solves"></a>Çoka çok ilişkileri nelere çözüm getirir?
+*Çok-çok ilişkileri* özelliği kullanıma sunulmadan önce Power BI'da iki tablo arasındaki ilişkinin tanımlanması gerekiyordu. İlişkideki tablo sütunlarından en az birinde benzersiz değerlerin bulunması şarttı. Ancak genellikle benzersiz değer içeren sütun bulunmuyordu. 
 
-**Çoka çok ilişkileri** kullanıma sunulmadan önce, Power BI'da iki tablo arasındaki ilişki tanımlanırken ilişkiye katılan sütunlardan en az birinin benzersiz değerler içermesi gerekiyordu. Öte yandan birçok durumda, tablodaki hiçbir sütun benzersiz değerler içermiyordu. 
+Örneğin, iki tabloda da *Ülke* etiketine sahip bir sütun bulunabiliyor ama *Ülke* değerleri iki tabloda da benzersiz olmuyordu. Bu tabloları birleştirmek için geçici bir çözüme ihtiyaç duyuluyordu. Geçici çözümlerin biri, modele gerekli benzersiz değerlerin bulunduğu ek tablolar eklemekti. *Çok-çok ilişkiler* özelliği sayesinde bu tür tabloları **Çok-Çok** kardinalitesine sahip bir ilişki kullanarak doğrudan birleştirmeniz mümkün.  
 
-Örneğin, iki tabloda da *Ülke* sütunu bulunabiliyor ama *Ülke* değerleri iki tabloda da benzersiz olmuyordu. Bu tür tabloları birleştirmek için, modele gerekli benzersiz değerleri içeren tablolar ekleme gibi geçici bir çözüm bulmak gerekiyordu. **Çoka çok ilişkileri** özelliği alternatif bir yaklaşım getirerek, bu tür tabloların **Çoka çok** kardinalitesi kullanılarak doğrudan birleştirilebilmesine olanak tanır.  
+## <a name="use-many-to-many-relationships"></a>*Çok-çok ilişkileri* kullanma
 
-## <a name="using-many-to-many-relationships"></a>Çoka çok ilişkilerini kullanma
+Power BI'da iki tablo arasındaki ilişkiyi tanımlarken, ilişkinin kardinalitesini tanımlamanız gerekir. Örneğin *ProductSales* ve *Product* arasında *ProductSales[ProductCode]* ve *Product[ProductCode]* sütunları kullanılarak kurulan ilişkinin kardinalitesi *Çok-1* olacaktır. Her ürün için birden fazla satış olduğundan ve *Product* tablosundaki *(ProductCode)* sütunu benzersiz olduğundan ilişki bu şekilde tanımlanır. Bir ilişkinin kardinalitesini *Çok-1*, *1-Çok* veya *1-1* olarak tanımladığınızda Power BI doğrulama gerçekleştirerek seçtiğiniz kardinalitenin gerçek verilerle eşleştiğinden emin olmanızı sağlar.
 
-Power BI'da iki tablo arasındaki ilişkiyi tanımlarken, ilişkinin kardinalitesini tanımlamanız gerekir. Örneğin, *ProductSales* ile *Product* arasındaki ilişki (*ProductSales[ProductCode]* ve *Product[ProductCode]* sütunları kullanılarak) **Çoka Bir** olarak tanımlanabilir çünkü her ürün için birçok satış vardır ve *Product* tablosundaki sütun *(ProductCode)* benzersizdir. İlişki kardinalitesini **Çoka Bir**, **Bire Çok** veya **Bire Bir** olarak tanımlarken, Power BI seçilen kardinalitenin gerçek verilerle eşleştiğinden emin olmak için doğrulama gerçekleştirir.
+Örneğin, aşağıdaki görüntüde yer alan basit modele göz atalım:
 
-Örneğin, aşağıdaki görüntüde yer alan basit modele göz atalım.
+![İlişki görünümü](media/desktop-many-to-many-relationships/many-to-many-relationships_02.png)
 
-![ilişki görünümü](media/desktop-many-to-many-relationships/many-to-many-relationships_02.png)
+Şimdi *Product* tablosunda aşağıdaki gibi yalnızca iki satır görüntülendiğini düşünelim:
 
-Sonra *Product* tablosunun yalnızca iki satır içerdiğini varsayalım.
+![İki satırlı Product tablosu görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
 
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
+Aynı zamanda *Sales* tablosunda C ürünü için bir satırın da bulunduğu yalnızca dört satır olduğunu düşünelim. Bilgi tutarlılığı hatası nedeniyle C ürününün satırı *Product* tablosunda mevcut değildir.
 
-Ayrıca *Sales* tablosunun, *Product* tablosunda yer almayan (bilgi tutarlılığı hatası nedeniyle) **C** ürünün *Sales* değeriyle birlikte yalnızca dört satırı olduğunu da varsayalım.
+![Dört satır içeren Sales tablosu](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
+*ProductName* ve *Price* (*Product* tablosundan) ile her ürün için toplam *Qty* değeri (*ProductSales* tablosundan) şu şekilde gösterilecektir: 
 
-*ProductName* ve *Price* (*Product* tablosundan) değerleriyle her ürünün toplam *Qty* değerini (*ProductSales* tablosundan) görüntüleyen görsel, aşağıdaki görüntüde gösterilene benzer olabilir: 
+![Ürün adını, fiyatını ve miktarını gösteren görsel](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
+Yukarıdaki görüntüde gördüğünüz gibi C ürünüyle ilişkilendirilmiş boş bir *ProductName* satırı vardır. Bu boş satır aşağıdakileri gösterir:
 
-Önceki görüntüde de görebileceğiniz gibi, görselde *C* ürününün satışlarıyla ilişkilendirilmiş boş bir *ProductName* satırı olur. Bu boş satırın nedeni şunlardır:
+* *Product* tablosunda karşılık gelen satırları bulunmayan *ProductSales* tablosu satırları. Bu örnekte *C* ürünü için gördüğümüz gibi bir bilgi tutarlılığı sorunu vardır.
 
-* Bu örnekteki *C* ürünü için gördüğümüz gibi, *ProductSales* tablosundaki satırlardan herhangi birinin *Product* tablosunda ona karşılık gelen satırı yoksa; bu durumda bilgi tutarlılığı sorunu ortaya çıkar.
-
-* *ProductSales* tablosunda, yabancı anahtar sütunu Null olan herhangi bir satır. 
+* *ProductSales* tablosunda, yabancı anahtar sütunu null olan herhangi bir satır. 
 
 Bu nedenlerden dolayı, her iki durumda da boş satır *ProductName* ve *Price* değerlerinin bilinmediği satışları gösterir.
 
-Öte yandan, bazı durumlarda tablolar iki sütunla birleştirilebilir ama sütunlardan hiçbiri benzersiz değildir. Örneğin, aşağıdaki iki tabloyu inceleyin:
+Bazen tablolar iki sütunla birleştirilebilir ama sütunlardan hiçbiri benzersiz değildir. Örneğin, aşağıdaki iki tabloyu inceleyin:
 
-* *Sales* tablosu *State* temelinde satış verilerini içerir ve her satır o eyaletin (CA, WA ve TX eyaletleri) satış türüne ilişkin satış tutarını gösterir 
+* *Sales* tablosu *State* temelinde satış verilerini gösterir ve her satır o eyaletin satış türüne ilişkin satış tutarını gösterir. Eyaletler CA, WA ve TX olarak belirlenmiştir. 
 
-    ![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
+    ![Eyalete göre satışları gösteren satış tablosu](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
 
-* *CityData* tablosu, şehirlerin nüfus ve eyalet (CA, WA ve New York eyaletleri) verilerini içerir
+* *CityData* tablosu, şehirlerin nüfus ve eyalet (CA, WA ve New York dahil) verilerini gösterir.
 
-    ![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
+    ![Şehir, eyalet ve nüfus bilgilerini gösteren satış tablosu](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
 
-Her iki tabloda da *State* sütunu bulunur ve her Eyaletin toplam nüfusuyla birlikte *State* temelinde *Sales* toplamını raporlamak isteyebilirsiniz ama bir sorun vardır: *State* sütunu iki tabloda da benzersiz değildir. 
+Her iki tabloda da *State* sütunu bulunur ve her Eyaletin toplam nüfusuyla birlikte eyalet temelinde satış toplamını raporlamak isteyebilirsiniz ama bir sorun vardır: *State* sütunu iki tabloda da benzersiz değildir. 
 
-## <a name="the-prior-workaround"></a>Önceki geçici çözüm
+## <a name="the-previous-workaround"></a>Eski geçici çözüm
 
-**Power BI Desktop**'ın Temmuz 2018 öncesi sürümlerinde, doğrudan bu iki tablo arasında ilişki oluşturmak mümkün değildi. Bu soruna yaygın bir geçici çözüm olarak aşağıdakiler yapılırdı:
+Temmuz 2018 öncesi Power BI Desktop sürümlerinde kullanıcıların bu tablolar arasında doğrudan ilişki oluşturması mümkün değildi. Yaygın bir geçici çözüm olarak aşağıdakiler yapılırdı:
 
-* Yalnızca benzersiz *State* kimliklerini içeren üçüncü bir tablo oluşturulur. Bu hesaplanan bir tablo (DAX kullanılarak tanımlanır) olabileceği gibi, **Sorgu Düzenleyicisi**'nde tanımlanmış bir sorgu kullanılarak tanımlanan ve tablolardan birinden alınmış benzersiz kimlikleri veya birleştirilmiş tam kümeyi içeren bir tabloda da olabilir.
+* Yalnızca benzersiz *State* kimliklerini içeren üçüncü bir tablo oluşturulurdu. Tablo aşağıdakilerden biri veya hepsi olabilir:
+  * Hesaplanan tablo (Veri Çözümleme İfadeleri [DAX] kullanılarak tanımlanmış).
+  * Tabloların birinden çekilen benzersiz kimlikleri görüntüleyebilecek ve Sorgu Düzenleyicisinde tanımlanan bir sorguyu temel alan bir tablo.
+  * Birleştirilmiş tam küme.
 
-* İki özgün tablo, yaygın **Çoka Bir* ilişkileri kullanılarak yeni tabloyla ilişkilendirilir.
+* İki özgün tablo, yaygın *Çok-1* ilişkileri kullanılarak yeni tabloyla ilişkilendirilirdi.
 
-Bu geçici çözüm tablosu görünür durumda bırakılabilir veya alan listesinde gösterilmeyecek şekilde gizlenebilir. İkinci durumda, **Çoka Bir** ilişkileri her iki yönden de filtrelenecek şekilde ayarlanabilir; şöyle ki, her iki tablonun *State* alanı kullanılabilir ve izleyen karşılıklı filtreleme diğer tabloya yayılır. Bu geçici çözüm yaklaşımı aşağıdaki **İlişki görünümü** görüntüsünde gösterilmiştir.
+Geçici çözüm tablosunu görünür şekilde bırakabilir veya gizleyerek **Alanlar** listesinde görünmemesini sağlayabilirdiniz. Tabloyu gizlediğinizde *Çok-1* ilişkileri genellikle iki yönde de filtreleme yapacak şekilde ayarlanırdı ve iki tablodaki *State* alanını da kullanmanız mümkün olurdu. Sonraki çapraz filtreleme işlemleri diğer tabloya da yayılırdı. Bu yaklaşım aşağıdaki görüntüde gösterilmiştir:
 
-![ilişki görünümü](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
+![İlişki görünümü](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-*State* (*CityData* tablosundan) ile toplam *Population* ve toplam *Sales* değerlerini gösteren bir görsel aşağıdaki gibi olacaktır.
+*State* (*CityData* tablosundan) ile toplam *Population* ve toplam *Sales* değerlerini gösteren bir görsel aşağıdaki gibi olacaktır:
 
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
-
-Bu geçici çözümde *CityData* tablosundan eyalet değerinin kullanılmasıyla, yalnızca söz konusu tablodaki *State* değerlerinin listelendiğine (ve dolayısıyla TX eyaletinin hariç tutulduğuna) dikkat edin. Aynı zamanda, **Çoka Bir** ilişkilerinden farklı olarak, toplam satırı tüm *Sales* değerlerini (TX eyaletininkiler de dahil) içerirken ayrıntılar bu tür eşleşmeyen satırları kapsayan boş satırı içermez. Benzer biçimde, *State* için null değeri olan herhangi bir *Sales* değerini kapsayacak boş bir satır yoktur.
-
-Bu görsele *City* de eklenirse ve *City* başına nüfus biliniyorsa, *City* için gösterilen *Sales* değeri, aşağıdaki görüntüde gösterildiği gibi yalnızca ilgili *State* için *Sales* değerini tekrarlayabilir (zaten herhangi bir toplama ölçüsüyle ilişkili olmayan bir sütunda gruplandırma yapıldığında da bu durum geçerlidir).
-
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
-
-Yeni *Sales* tablosu bu geçici çözümdeki tüm *States* değerlerinin birleşimi olarak tanımlandıysa ve alan listesinde görünür durumdaysa, *State* ile (yeni tablodaki) toplam *Population* ve toplam *Sales* değerlerini gösteren aynı görsel aşağıdaki gibi olacaktır.
-
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
-
-Bu durumda görselde gösterildiği gibi, *TX* (*Sales* değeri olan ama nüfusu bilinmeyen) ve *New York* (nüfusu bilinen ama *Sales* değeri olmayan) eyaletleri de eklenir. 
-
-Sizin de görebileceğiniz gibi, bu geçici çözüm optimum değildir ve birçok sorunu vardır. **Çoka çok ilişkisinin** oluşturulmasıyla, aşağıdaki bölümde açıklandığı gibi bu sorunlara çözüm getirilmiştir.
-
-## <a name="using-many-to-many-relationships-instead-of-the-workaround"></a>Geçici çözüm yerine çoka çok ilişkilerini kullanma
-
-**Power BI Desktop**'ın Temmuz 2018'le başlayan sürümlerinde, önceki bölümde açıklanan türdeki tabloları bu tür geçici çözümlere başvurmak zorunda kalmadan doğrudan ilişkilendirebilirsiniz. Artık ilişkinin kardinalitesini hiçbir tablonun benzersiz değer içermediğini gösterecek şekilde **Çoka Çok** olarak ayarlayabilirsiniz. Bu tür ilişkiler için, hangi tablonun diğer tabloyu filtrelediğini denetleyebilir veya her iki tablo da birbirini filtrelediğinde iki yönlü filtreleme olmasını sağlayabilirsiniz.  
+![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
-> **Çoka Çok** ilişkiler oluşturabilme özelliği Önizleme aşamasındadır ve Önizleme sırasında Power BI hizmetine **Çoka Çok** ilişkilerin kullanıldığı modeller yayımlamak mümkün değildir. 
+> Bu geçici çözümde *CityData* tablosundan eyalet değerinin kullanılmasıyla, yalnızca söz konusu tablodaki eyaletlerin listelendiğine (ve dolayısıyla TX eyaletinin hariç tutulduğuna) dikkat edin. Aynı zamanda, *Çok-1* ilişkilerinden farklı olarak, toplam satırı tüm *Sales* değerlerini (TX eyaletininkiler de dahil) içerirken ayrıntılar bu tür eşleşmeyen satırları kapsayan boş satırı içermez. Benzer biçimde, *State* için null değeri olan bir *Sales* değerini kapsayacak boş bir satır yoktur.
 
-**Power BI Desktop**'ta, hiçbir tablonun ilişkideki sütunlar için benzersiz değerler içermediği saptandığında kardinalite varsayılan olarak **Çoka Çok** olarak ayarlanır. Bu tür durumlarda ilişki ayarının beklediğiniz davranışa uyduğunu, veri sorununa yol açan beklenmedik bir etkisi olmadığını onaylamak için bir uyarı görüntülenir. 
+Bu görsele *City* verilerini de eklerseniz *City* başına nüfus değeri biliniyor olsa da *City* için gösterilen *Sales* değeri yalnızca ilgili *State* için gösterilen *Sales* değerini tekrarlar. Bu, aşağıdaki görüntüde gösterildiği gibi bir sütunda gruplandırma, belirli toplu ölçü ile ilgisiz olduğunda karşılaşılan bir durumdur:
 
-Örneğin, doğrudan *CityData* ile *Sales* arasında Filtrelerin *CityData*'dan*Sales* tablosuna geçeceği bir ilişki oluştururken, aşağıdaki görüntüde gösterilen ilişki iletişim kutusu görüntülenir.
+![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
-![İlişkiyi düzenle iletişim kutusu](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+Bu geçici çözümde yeni *Sales* tablosunu tüm *States* değerlerinin birleşimi olarak tanımlarsak ve **Fields** listesinde görünür hale getirirsek aşağıdaki görüntüde olduğu gibi aynı görselde hem *State* (yeni tabloda) hem de toplam *Population* ve toplam *Sales* değerleri gösterilir:
 
-Sonuçta elde edilen **İlişki Görünümü** iki tablo arasında doğrudan **Çoka Çok** ilişkisini içerebilir. **Alanlar** listesinin görünümü ve görseller oluşturulduğunda bunu izleyen davranış, önceki bölümde açıklanan ve fazladan tablonun (içinde ayrı *States* değerlerinin bulunduğu tablo) görünür olmadığı geçici çözümü kullanmakla aynıdır. Örneğin, geçici çözümün açıklandığı önceki bölümde olduğu gibi, *States* ile toplam nüfus ve satışların gösterildiği görsel şöyle olabilir.
+![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
+Gördüğünüz gibi *Sales* verileri bilinen ancak *Population* verileri bilinmeyen *TX* ve *Population* verileri bilinen ancak *Sales* verileri bilinmeyen *New York* dahil edilecektir. Bu geçici çözüm çok uygun bir çözüm değildir ve birçok sorun barındırmaktadır. Çok-çok ilişkilerin oluşturulmasıyla, aşağıdaki bölümde açıklandığı gibi bu sorunlara çözüm getirilmiştir.
 
-Dolayısıyla **Çoka Çok** ilişkileri ile daha tipik olan **Çoka Bir** ilişkileri arasındaki en büyük farklar şunlardır.
+## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Geçici çözüm yerine *çok-çok ilişkilerini* kullanma
 
-* Gösterilen değerler, diğer tablodaki eşleşmeyen satırlara ve ilişkide kullanılan sütunun diğer tabloda null olan satırlarına karşılık gelen boş satırı içermez.
-* *RELATED()* işlevini kullanmak mümkün değildir (çünkü birden çok satır ilişkili olabilir)
-* Tabloda *ALL()* işlevinin kullanılması, bu tabloyla **Çoka Çok** ilişkisi olan diğer tablolara uygulanan filtreleri kaldırmaz. Örneğin, önceki örnekte aşağıdaki gibi tanımlanmış bir ölçü, ilişkili *CityData* tablosundaki sütunlarda bulunan filtreleri kaldırmaz:
+Power BI Desktop'ın Temmuz 2018 sürümünden başlayarak yukarıda bahsedilenler gibi tabloları benzer geçici çözümler aramadan doğrudan birbirine bağlayabilirsiniz. Artık ilişki kardinalitesini *Çok-Çok* olarak ayarlamak mümkündür. Bu ayar, iki tabloda da benzersiz değerler olmadığını belirtir. Bu tür ilişkiler için, hangi tablonun diğer tabloyu filtrelediğini denetleyebilir veya her iki tablo da birbirini filtrelediğinde iki yönlü filtreleme olmasını sağlayabilirsiniz.  
 
-    ![betik örneği](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
+> [!NOTE]
+> *Çok-çok ilişki* oluşturma özelliği önizleme aşamasındadır. Önizleme aşamasında *çok-çok ilişkilerini* kullanan Power BI hizmeti modellerini yayımlamak mümkün değildir. 
 
-    Dolayısıyla *State*, *Sales* ve *Sales total* değerlerini gösteren bir görsel aşağıdaki gibi olacaktır:
+*Power BI Desktop*'ta, hiçbir tablonun ilişkideki sütunlar için benzersiz değerler içermediği saptandığında kardinalite varsayılan olarak Çok-Çok olarak ayarlanır. Bu tür durumlarda ilişki ayarının beklediğiniz davranışa uyduğunu, veri sorununa yol açan beklenmedik bir etkisi olmadığını onaylamak için bir uyarı görüntülenir. 
 
-    ![tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
+Örneğin *CityData* ile *Sales* arasında filtrelerin *CityData* alanından *Sales* alanına akış gerçekleştireceği bir ilişki oluşturduğunuzda Power BI Desktop'ta görüntülenen **İlişkiyi düzenle** penceresi aşağıdaki gibi olacaktır:
 
-Bu nedenle, *genel toplamın yüzdesi* gibi *ALL(\<Tablo>)* kullanılarak yapılan hesaplamaların beklenen sonuçları döndürdüğünden emin olmak için özen gösterilmelidir. 
+!["İlişkiyi düzenle" penceresi](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+
+Sonuçta elde edilen **İlişki** görünümü, iki tablo arasında doğrudan çok-çok ilişkisini gösterecektir. Tabloların **Alanlar** listesindeki görünümü ve görseller oluşturulduktan sonraki davranışları, geçici çözümün uygulandığı örneğe benzer olacaktır. Geçici çözümde ayrı *State* verilerini gösteren tablo görünür durumda getirilmemişti. Örneğin önceki bölümde anlatıldığı şekilde *State*, *Population* ve *Sales* verilerini içeren bir görsel şu şekilde görüntülenecektir:
+
+![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
+
+Dolayısıyla *çok-çok ilişkileri* ile daha tipik olan *Çok-1* ilişkileri arasındaki en büyük farklar şunlardır:
+
+* Gösterilen değerlerde diğer tablodaki eşleşmeyen satırları gösteren boş satır bulunmaz. Değerler, ilişkideki diğer tabloda kullanılan sütunlarda null değerler bulunan satırları dikkate almaz.
+* Birden fazla satır arasında ilişki bulunabileceğinden `RELATED()` işlevi kullanılamaz.
+* Tabloda `ALL()` işlevinin kullanılması çok-çok ilişkisiyle ilgili diğer tablolara uygulanan filtreleri kaldırmaz. Önceki örnekte aşağıdaki betikte gösterildiği gibi tanımlanmış bir ölçü, ilişkili *CityData* tablosundaki sütunlarda bulunan filtreleri kaldırmaz:
+
+    ![Betik örneği](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
+
+    *State*, *Sales* ve *Sales total* değerlerini gösteren bir görsel aşağıdaki gibi olacaktır:
+
+    ![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
+
+Yukarıda anlatılan farklılıkları göz önünde bulundurarak *genel toplamın %* gibi `ALL(\<Table>)` kullanan hesaplamaların istenen sonuçları döndürdüğünden emin olun. 
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-**Çoka çok ilişkileri** ile **bileşik modellerin** bu sürümünde birkaç sınırlama vardır.
+*Çok-çok ilişkileri* ile bileşik modellerin bu sürümünde birkaç sınırlama vardır.
 
-Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kullanılamaz:
+Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse
@@ -168,17 +165,12 @@ Aşağıdaki Live Connect (çok boyutlu) kaynaklar **bileşik modellerle** kulla
 
 Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
 
-DirectQuery kullanımının mevcut sınırlamaları **çoka çok ilişkilerini** kullanırken de geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun **depolama moduna** bağlı olarak tablo başına uygulanır. Örneğin, içeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütunun başvurabileceği sütunlar yine aynı tablodaki sütunlarla sınırlıdır. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin **depolama modu** DirectQuery olduğunda, modelde **QuickInsights** ve **Soru ve Yanıt** özellikleri kullanılamaz. 
+DirectQuery kullanımının mevcut sınırlamaları *çok-çok ilişkilerini* kullanırken de geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun depolama moduna bağlı olarak tablo başına uygulanır. Örneğin, içeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütun yine aynı tablodaki sütunlara başvurabilir. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin depolama modu DirectQuery olduğunda, modelde QuickInsights ve Soru ve Yanıt özellikleri kullanılamaz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Aşağıdaki makalelerde bileşik modellerle ilgili daha fazla açıklama ve DirectQuery'nin ayrıntılı açıklaması bulunabilir.
-
-* [Power BI Desktop’ta Bileşik Modeller (Önizleme)](desktop-composite-models.md)
-* [Power BI Desktop’ta depolama Modu (Önizleme)](desktop-storage-mode.md)
-
-DirectQuery makaleleri:
-
-* [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)
-* [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
-
+Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
+* [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md)
+* [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md)
+* [Power BI Desktop'ta DirectQuery'yi kullanma](desktop-directquery-about.md)
+* [Power BI Desktop'ta da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)

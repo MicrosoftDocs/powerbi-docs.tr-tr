@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232938"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396969"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -169,7 +169,8 @@ Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar
 
 * *in* işlecini kullanırken *in* ifadesinin sağındaki değerlerin parantez içinde virgülle ayrılmış değerler listesi olması gerekir.    
 * Power BI Rapor Sunucusu’nda, rapor URL’sine eklediğiniz [rapor parametrelerini geçirebilirsiniz](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md). Bu URL parametreleri doğrudan rapor işleme altyapısına geçirildiğinden ön ek almaz.
-* Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) seçeneği veya Power BI Embedded ile kullanılamaz.   
+* Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) özelliği ile çalışmaz.
+* [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md), URL filtrelerini desteklemez.
 * Javascript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
 * Rapor URL filtrelerinin 10 ifade sınırı vardır (AND ile bağlanan 10 filtre).
 

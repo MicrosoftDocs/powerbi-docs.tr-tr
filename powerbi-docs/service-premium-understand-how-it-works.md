@@ -1,7 +1,7 @@
 ---
 title: Power BI Premium kapasite bellek kullanımı ve en iyi duruma getirme
 description: Power BI Premium kapasite bellek kullanımını ve en iyi duruma getirmeyi anlayın.
-ms.date: 04/30/2018
+ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
 ms.component: powerbi-admin
@@ -9,46 +9,44 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: aee7fb94f1e132783fc2b7791f7e634c903f7aa6
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257353"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641761"
 ---
-# <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
+# <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
 
-Bu makalede, Power BI premium hizmetinin kaynakları nasıl yönettiği ve çözümünüzü planlama ve en iyi duruma getirme konusunda verdiği ipuçları açıklanmaktadır.
+Bu makalede Power BI Premium'un kaynakları nasıl yönettiği açıklanmakta, örnekler ve sorun giderme önerileri sunulmaktadır. Genel bakış için bkz. [Power BI Premium nedir?](service-premium.md).
 
 ## <a name="premium-capacity-memory-management"></a>Premium kapasite bellek yönetimi
 
  Premium kapasite bellek, şunlar tarafından kullanılır:
 
-* Yüklü veri kümeleri tarafından kullanılan bellek
-* Veri kümesi yenileme (hem zamanlanmış hem de talep üzerine) işlemi tarafından kullanılan bellek
-* Rapor sorguları tarafından kullanılan bellek
+* Belleğe yüklenen veri kümeleri
+* Veri kümesi yenileme (hem zamanlanmış hem de talep üzerine)
+* Rapor sorguları
 
 Kapasitenizdeki yayımlanmış bir veri kümesi için istek yapıldığında, bu veri kümesi kalıcı depolama alanından belleğe yüklenir (bu durum görüntü yükü olarak adlandırılır). Veri kümesinin bellekte yüklü olarak tutulması, bu veri kümesine yönelik gelecek sorgulara hızlı yanıt vermeye yardımcı olur. Veri kümesini bellekte yüklü olarak tutmak için gereken belleğe ek olarak, rapor sorguları ve veri kümesi de ek bellek tüketir.
 
 ### <a name="dataset-memory-estimation"></a>Veri kümesi bellek tahmini
 
-Belleğe bir veri kümesi yüklemeyi denediğinizde Power BI, veri kümesinin istenen komutu tamamlaması için gerekecek bellek miktarını tahmin eder. Bellekteki veri kümelerinin boyutu, diske kaydedildiğinde olan boyuttan daha büyük olma eğilimindedir. Bir veri kümesinin yenilenmesi sırasında, bellek kapasitesi bellek boş olduğunda gerekenden en az iki kat fazla miktarda bellek gerektirir.
+Belleğe bir veri kümesi yüklemeyi denediğinizde Power BI, veri kümesinin istenen komutu tamamlaması için gerekecek bellek miktarını tahmin eder. Bellekteki veri kümelerinin boyutu, diske kaydedildiğinde olan boyuttan daha büyük olma eğilimindedir. Bir veri kümesinin yenilenmesi sırasında, Power BI için veri kümesi boşta olduğunda gerekenden en az iki kat fazla miktarda bellek gerekir.
 
 ### <a name="overcommitting-capacity-eviction-and-reloading-of-datasets"></a>Fazla işleme kapasitesi, çıkarma ve veri kümelerini yeniden yükleme
 
-Power BI Premium, kapasitenizi aşırı işleme avantajını sunar. Örneğin, kapasite belleğinin tutabileceğinden daha fazla veri kümesi yayımlayabilirsiniz. Kapasitenizdeki yayımlanmış veri kümeleri kapasiteye sığabilenden daha fazla belleğe gereksinim duyuyorsa, veri kümelerinin bazıları kalıcı bir depolama alanında ayrıca depolanır. Kalıcı depolama alanı, kapasitelerinizin her biri ile ilişkili 100 TB depolama alanının bir parçasıdır.
+Power BI Premium, kapasitenizi *aşırı işleme* avantajını sunar. Örneğin, kapasitenizin tutabileceğinden daha fazla veri kümesi yayımlayabilirsiniz. Yayımlanmış veri kümeleri kapasitede bulunandan daha fazla belleğe gereksinim duyuyorsa, veri kümelerinin bazıları kalıcı bir depolama alanında ayrıca depolanır. Kalıcı depolama alanı, kapasitelerinizin her biri ile ilişkili 100 TB depolama alanının bir parçasıdır.
 
-Öyleyse hangi veri kümeleri bellekte kalır ve diğer veri kümelerine ne olur? Daha önce açıklandığı gibi, bir veri kümesine yönelik istek yapıldığında istek belleğe yüklenir (görüntü yükü). İstek bir rapor sorgusu ya da yenileme işlemi olabilir.
+Öyleyse hangi veri kümeleri bellekte kalır ve diğer veri kümelerine ne olur? Daha önce açıklandığı gibi, bir veri kümesine yönelik istek yapıldığında istek belleğe yüklenir (görüntü yükü). İstek bir rapor sorgusu ya da yenileme işlemi olabilir. Kapasitenizi fazla işleme olasılığı mevcut olduğundan kapasite de bellek baskısı ile karşılaşabilir. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten *çıkarır*. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir. Çıkarılan veri kümesine yeni komutlar verilirse, hizmet muhtemelen diğer veri kümelerini çıkararak bunu belleğe yeniden yüklemeyi dener. Bu davranış, kapasitenin kendi belleğinin tutabileceğinden çok daha fazla veri kümesine hizmet vermesine olanak tanıyarak daha verimli bir kullanım sağlar.
 
-Kapasitenizi fazla işlediğinizde kapasiteniz de bellek baskısı ile karşılaşabilir. Kapasite bellek baskısıyla karşılaştığında (yeni bir veri kümesinin yüklenmesi gerektiğinden veya bazı yüklü veri kümelerinin üzerindeki sorguların bellek gereksinimini artırdığından) düğüm, kapasite belleğini kullanan *bir veya daha fazla veri kümesini çıkarır*. Etkin olmayan veri kümeleri (halihazırda yürütülmekte olan bir sorgu/yenileme işlemi olmayanlar) ilk önce çıkarılır ve çıkarma sırası 'en önce kullanılan' (LRU) düzenine göredir. Çıkarılan veri kümesine yeni komutlar verilirse, hizmet muhtemelen diğer veri kümelerini çıkararak bunu belleğe yeniden yüklemeyi dener. Bu davranış, kapasitenin kendi belleğinin tutabileceğinden çok daha fazla veri kümesine hizmet vermesine olanak tanıyarak daha verimli bir kullanım sağlar.
+Bir veri kümesinin belleğe yüklenmesi oldukça pahalı bir işlemdir. Veri kümesi boyutuna bağlı olarak, bu işlem küçük veri kümeleri için birkaç saniye ile yaklaşık 10 GB’lik veri kümeleri gibi önemli veri kümeleri için onlarca saniye veya dakika arasında sürebilir. Premium kapasite, en önce kullanılan veri kümelerini bellekte mümkün olduğunca uzun süre tutarak kapasitenin yeniden yüklenmesi gereken sayıyı en aza indirmeye çalışır. Ek bellek gerektiğinde, bazı veri kümelerinin çıkarılması gerekir ve sistem, kullanıcı deneyimini en az etkileyen veri kümesini seçmeye çalışır. Ek bellek gerektiğinde, bazı veri kümelerinin çıkarılması gerekir ve sistem, kullanıcı deneyimini en az etkileyen veri kümesini seçmeye çalışır. Örneğin sistem, son birkaç dakika içinde etkin olarak kullanılan veri kümelerini çıkarmaktan kaçınır. Bu veri kümelerinin kısa süre içinde yeniden sorgulanması olasıdır.
 
-Bir veri kümesinin belleğe yüklenmesi oldukça pahalı bir işlemdir. Veri kümesi boyutuna bağlı olarak, bu işlem küçük veri kümeleri için birkaç saniye ile yaklaşık 10 GB’lik veri kümeleri gibi büyük veri kümeleri için onlarca saniye veya dakika arasında sürebilir. Premium kapasite, en önce kullanılan veri kümelerini bellekte mümkün olduğunca uzun süre tutarak kapasitenin yeniden yüklenmesi gereken sayıyı en aza indirmeye çalışır. Ek bellek gerektiğinde, bazı veri kümelerinin çıkarılması gerekir ve sistem, kullanıcı deneyimini en az etkileyen veri kümesini seçmeye çalışır. Ek bellek gerektiğinde, bazı veri kümelerinin çıkarılması gerekir ve sistem, kullanıcı deneyimini en az etkileyen veri kümesini seçmeye çalışır. Örneğin, sistem son birkaç dakika içinde etkin bir şekilde kullanılmış veri kümelerini, çok kısa süre içinde tekrar sorgulanma olasılıkları yüksek olduğu için çıkarmaktan kaçınır.
-
-Çıkarma işlemi hızlı bir işlemdir. Veri kümesi çıkarma sırasında etkin bir şekilde kullanılmıyorsa, kullanıcı çıkarma işleminden çok fazla etki belirleyemez. Ancak, çok fazla veri kümesi aynı anda etkin olarak kullanılıyorsa ve hepsini tutmak için yeterli bellek yoksa, çok sayıda çıkarma gerçekleşebilir. Bu durum, veri kümelerinin sürekli olarak çıkarılıp yeniden yüklendiği bir ‘taşma’ durumuna yol açabilir ve kullanıcılar, yanıt sürelerinde ve performansta belirgin bir düşüş görebilir.
+Çıkarma işlemi hızlı bir işlemdir. Veri kümesi çıkarma sırasında etkin bir şekilde kullanılmıyorsa, kullanıcı çıkarma işleminden çok fazla etki belirleyemez. Ancak, çok fazla veri kümesi aynı anda etkin olarak kullanılıyorsa ve hepsini tutmak için yeterli bellek yoksa, çok sayıda çıkarma gerçekleşebilir. Çok fazla veri kümesinin etkin olması, veri kümelerinin sürekli olarak çıkarılıp yeniden yüklendiği bir ‘taşma’ durumuna yol açabilir ve kullanıcılar, yanıt sürelerinde ve performansta belirgin bir düşüş görebilir.
 
 ### <a name="dataset-refresh-memory-requirement-competing-with-an-active-dataset-memory-requirement"></a>Etkin bir veri kümesi bellek gereksinimi ile çakışan veri kümesi yenileme bellek gereksinimi
 
-Veri kümeleri, kullanıcılar tarafından bir zamanlamaya göre ya da talep üzerine yenilenebilir. Daha önce açıklandığı gibi, tam yenilemeler için gereken bellek, yüklü ve boştaki veri kümelerinin bellek boyutunun en az iki katıdır. Yenileme başlamadan önce bir yenileme bellek gereksinimi tahmin edilir. Toplam bellek gereksinimi kapasitedeki kullanılabilir bellekten daha fazla ise bazı veri kümeleri çıkarılır. Çıkarma adayları, en eski kullanılan veri kümeleri sırasına göre seçilir. Diğer bir deyişle hizmet, bellekte mümkün olduğunca en son kullanılan veri kümelerini tutmaya çalışır.
+Veri kümeleri, kullanıcılar tarafından bir zamanlamaya göre ya da talep üzerine yenilenebilir. Daha önce açıklandığı gibi, tam yenilemeler için gereken bellek, yüklü ve boştaki veri kümelerinin bellek boyutunun en az iki katıdır. Yenileme başlamadan önce bir yenileme bellek gereksinimi tahmin edilir. Toplam bellek gereksinimi kapasitedeki kullanılabilir bellekten daha fazla ise bazı veri kümeleri çıkarılır. Burada da çıkarma LRU ölçütüne göre belirlenir.
 
 Çıkarmaya rağmen gerekli bellek mevcut değilse, yenileme tekrar denenmek üzere sıraya alınır. Hizmet başarılı olana veya yeni bir yenileme eylemi başlayana kadar yeniden deneme yapar.
 
@@ -58,18 +56,18 @@ Kapasitedeki herhangi bir veri kümesine yönelik etkileşimli bir sorgu düzenl
 
 CPU kaynaklarının iki adet birincil tüketicisi vardır:
 
-- Raporlardan sorgular
-- Yenileme (işleme)
+* Raporlardan sorgular
+* Yenileme (işleme)
 
 ### <a name="queries-from-reports"></a>Raporlardan sorgular
 
-Rapor sorguları, kapasitenizin CPU kaynaklarını tüketir. Raporunuzda bazı verimsiz sorgular varsa ya da çok sayıda eşzamanlı kullanıcınız varsa, rapor çok fazla CPU kaynağı tüketebilir ve mevcut kapasiteniz yükü işlemek için yeterli olmayabilir.
+Rapor sorguları, kapasitenizin CPU kaynaklarını tüketir. Verimsiz sorgulara veya çok fazla eşzamanlı kullanıcıya sahip olan raporlar çok fazla CPU kaynağı kullanabilir. Var olan kapasiteniz, yükü işlemek için yeterli olmayabilir.
 
 ### <a name="refresh-parallelization-policy"></a>Yenileme paralelleştirme ilkesi
 
 Bellek, veri kümelerinin yenilenmesini kısıtlayabilen tek kaynak değildir. Bir sunucudaki sanal çekirdeklerin sayısı da bir faktör olabilir. Her yenileme işlemi belirli bir sayıda sanal çekirdek gerektirdiği için, birbirine paralel olarak çalışabilecek yenileme işlemlerinin sayısı sınırlıdır. SKU başına sınır, aşağıdaki tabloda ayrıntılı olarak gösterilmiştir. Bu sınırların dışına çıkan ek yenileme işlemleri sıraya alınır.
 
- | SKU  | Arka uç sanal çekirdek sayısı  | Model yenileme paralelliği   |
+ | SKU | Arka uç sanal çekirdek sayısı | Model yenileme paralelliği |
  | --- | --- | --- |
  | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
@@ -91,24 +89,28 @@ Bellek, veri kümelerinin yenilenmesini kısıtlayabilen tek kaynak değildir. B
 
 ## <a name="example-scenarios"></a>Örnek senaryolar
 
-Bazı yaygın senaryolar ve hizmet tarafından gerçekleştirilen eylemler aşağıda açıklanmıştır:
+Bazı yaygın senaryolar ve hizmet tarafından gerçekleştirilen eylemler aşağıda verilmiştir:
 
- **Zamanlanmış yirmi yenileme işleminin tamamının aynı anda gönderilmesi** – Power BI ilk *x* yenilemeyi aynı anda başlatmayı dener. *x* değeri, bu SKU’nun yenileme paralelleştirme ilkesi ile belirlenir. Power BI etkin olmayan veri kümelerini (yakın zamanda kullanılmayan veri kümeleri) çıkararak yeterli bellek elde edemiyorsa, *x* yenilemenin tümü aynı anda başlatılmaz. Başlatılamayan yenileme işlemleri, başlayabilene kadar sıraya alınır.
+**Tümü aynı anda gönderilen yirmi zamanlanmış yenileme**. Power BI, ilk *x* yenileme işlemini aynı anda başlatmaya çalışır. *x* değeri, bu SKU’nun yenileme paralelleştirme ilkesi ile belirlenir. Power BI etkin olmayan veri kümelerini (yakın zamanda kullanılmayan veri kümeleri) çıkararak yeterli bellek elde edemiyorsa, *x* yenilemenin tümü aynı anda başlatılmaz. Başlatılamayan yenileme işlemleri, başlayabilene kadar sıraya alınır.
 
- **Aynı anda çalışan iki yenileme ve yalnızca birini tamamlamak için yeterli bellek olması** – Tamamlanabilen yenileme başlatılır. Diğeri daha sonra tekrar denenir.
+**Aynı anda çalışan iki yenileme ve yalnızca birini tamamlamak için yeterli bellek olması**. Tamamlanabilen yenileme başlatılır. Diğeri daha sonra tekrar denenir.
 
- **Birkaç veri kümesi yenilenirken çok sayıda veri kümesinin sorgulanması** – Yeterli bellek yoksa, Power BI etkileşimli sorgulara öncelik vermek üzere etkin yenilemeleri durdurmaya çalışır. Bunun yapılması, yenileme performansını düşürür.
+**Birkaç veri kümesi yenilenirken çok sayıda veri kümesinin sorgulanması**. Yeterli bellek yoksa, Power BI etkileşimli sorgulara öncelik vermek üzere etkin yenilemeleri durdurmaya çalışır. Bunun yapılması, yenileme performansını düşürür.
 
- **Veri kümesinin mevcut kapasite boyutunda yenilenmesi için çok fazla bellek gerekmesi** – Yenileme başarısız olur. Çıkarma yoluyla daha fazla bellek elde etmek için bir deneme yapılmaz.
+**Veri kümesinin mevcut kapasite boyutunda yenilenmesi için çok fazla bellek gerekmesi**. Yenileme başarısız olur. Çıkarma yoluyla daha fazla bellek elde etmek için bir deneme yapılmaz.
 
- **Bellekte büyük bir ani artışı olan tek bir veri kümesinin olması** – Ani artış etkin olmayan veri kümeleri çıkarılarak elde edilebilecek bellek miktarından büyükse, ani artışı işlemeye yetecek bellek oluncaya kadar yenileme tekrar denenir.
+**Bellekte büyük bir ani artışı olan tek bir veri kümesinin olması**. Ani artış etkin olmayan veri kümeleri çıkarılarak elde edilebilecek bellek miktarından büyükse, ani artışı işlemeye yetecek bellek oluncaya kadar yenileme tekrar denenir.
 
- **Tüm etkin olmayan veri kümeleri ve yenilemeler çıkarılarak yeterli bellek elde edemeyen bir veri kümesi için sorgu yürütülmesi** - Bu sorgular başarısız olur. Bu tür iş yükü gereksinimleri için daha yüksek kapasite satın alınabilir.
+**Tüm etkin olmayan veri kümeleri ve yenilemeler çıkarılarak yeterli bellek elde edemeyen bir veri kümesi için sorgu yürütülmesi**. Bu sorgular başarısız olur. Bu tür iş yükü gereksinimleri için daha yüksek kapasite satın alınabilir.
 
 ## <a name="troubleshooting-and-testing"></a>Sorun giderme ve test etme
 
-Raporlar yavaşsa veya yanıt vermiyorsa, raporunuzda yalnızca bir kullanıcı için test ederek başlayın. Ardından, limiti bulmak için eş zamanlı kullanıcı yükünü artırmaya başlayın. Çoğu durumda, DAX (rapor sorguları) değerinin ayarlanması raporlarınızın performansını çarpıcı biçimde değiştirebilir (ve kapasiteniz tarafından desteklenen eş zamanlı kullanıcı sayısını artırabilir).
+Raporlar yavaşsa veya yanıt vermiyorsa, raporunuzda yalnızca bir kullanıcı için test ederek başlayın. Ardından, limiti bulmak için eş zamanlı kullanıcı yükünü artırmaya başlayın. Çoğu durumda DAX sorgularınızı ayarlamak raporlarınızın performansını önemli ölçüde değiştirebilir. Sorgu ayarlama, kapasitenizin desteklediği eşzamanlı kullanıcı sayısını da artırır. Olası performans sorunlarını tanımlamak için [kapasitenizi izleyin](service-admin-premium-monitor-capacity.md).
 
 Farklı SKU’ları test etmek ve beklenen iş yükünüz için en iyi Premium SKU’yu belirlemek üzere Azure’daki Power BI Embedded kapasitesini kullanın. Power BI Embedded A4 SKU’su P1, A5 = P2 ve A6 = P3’e eşittir. Azure’da, Azure portalından ölçeği artırıp azaltarak SKU’lar arasında kolayca geçiş yapabilirsiniz. İş yükünüz için en çok işe yarayan SKU’yu bulup testi tamamladığınızda, SKU’yu silebilirsiniz.
 
-Bazı durumlarda, bilgisayarınızdaki modelin PBIX dosyasını açmak ve bellek ile CPU tüketimini denetlemek, sorun hakkında çok fazla bilgi verir. Bu işlem çok büyük modellerde işe yaramaz ancak daha küçük olan bazı modeller için modeli bilgisayarınızdan açmayı, yenilemeyi ve sorgulamayı deneyin. Modeli açtığınızda model boyutunu, belleği ve CPU’yu kontrol edin. Yenilemeyi ve sorgulamayı deneyin. Görev yöneticisini kullanarak yerel PBIX dosyası için CPU ve Bellek tüketimini denetleyin). Bazı durumlarda, bilgisayarınızdaki ölçümler P1/ P2 gibi daha düşük bir premium kapasitenin çözümünüz için işe yaramayabileceğini belirtebilir.
+Bazı durumlarda, bilgisayarınızdaki modelin Power BI Desktop (.pbix) dosyasını açmak ve bellek ile CPU tüketimini denetlemek, sorun hakkında çok fazla bilgi verir. Bu işlem çok büyük modellerde işe yaramaz ancak daha küçük olan bazı modeller için modeli bilgisayarınızdan açmayı, yenilemeyi ve sorgulamayı deneyin. Modeli açtığınızda model boyutunu, belleği ve CPU’yu kontrol edin. Yenilemeyi ve sorgulamayı deneyin. Görev yöneticisini kullanarak yerel dosya için CPU ve bellek tüketimini denetleyin. Bazı durumlarda, bilgisayarınızdaki ölçümler P1/ P2 gibi daha düşük bir premium kapasitenin çözümünüz için işe yaramayabileceğini belirtebilir.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme](service-admin-premium-manage.md)

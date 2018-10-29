@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2018
+ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300150"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641793"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 
 Artımlı yenileme, aşağıdaki avantajlarla Power BI Premium hizmetindeki çok büyük veri kümelerini etkinleştirir:
 
-- **Yenileme daha hızlıdır.** Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, 10 yıllık bir veri kümesinin yalnızca son 5 gününü yenileyin.
+- **Yenileme daha hızlıdır.** Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, 10 yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
 
 - **Yenileme daha güvenilirdir.** Örneğin, geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
 
@@ -44,10 +44,10 @@ Power BI Desktop normalde kullanıcının masaüstü bilgisayarında kullanılab
 Power BI hizmetinde artımlı yenilemeyi kullanmak için filtrelemenin ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlarıyla Power Query tarih/saat parametreleri kullanılarak yapılması gerekir.
 
 Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Hizmetteki veri kümesi ayarlarında bunların ayarlanması gerekmez.
- 
-Yenileme işlemleri için sorgu gönderildiğinde filtrenin kaynağa gönderilmesi önemlidir. Bu da veri kaynağının "sorgu katlama" özelliğini desteklemesi gerektiği anlamına gelir. Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğini doğrulamanız önerilir. Bu işlem gerçekleştirilmediğinde her sorgu kaynaktaki tüm verileri ister ve bu da nesnenin artımlı yenileme özelliğini kullanamamasına neden olur.
- 
-Filtre, Power BI hizmetindeki verilerini aralıklara bölmek için kullanılır. Filtrelenmiş tarih sütununun güncelleştirilmesini destekleyecek şekilde tasarlanmamıştır. Güncelleştirme, ekleme ve silme olarak (güncelleştirme değil) yorumlanır. Artımlı aralıkta değil geçmiş aralıkta gerçekleştirilen silme işlemleri seçilmez.
+
+Yenileme işlemleri için sorgu gönderildiğinde filtrenin kaynağa gönderilmesi önemlidir. Filtrelemenin gönderilmesi, veri kaynağının "sorgu katlama" özelliğini desteklemesi gerektiği anlamına gelir. SQL sorgularını destekleyen veri kaynaklarının çoğu sorgu katlamayı da destekler. Düz dosyalar, bloblar, web ve OData akışları genellikle desteklemez. Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğini doğrulamanız önerilir. Veri kaynağı arka ucu tarafından desteklenmediği durumlarda filtre gönderilemez. Böyle durumları karma altyapısı telafi eder ve filtreyi yerel olarak uygular. Bunun için veri kaynağından tam veri kümesinin alınması gerekebilir. Bu da artımlı yenilemenin çok yavaş olmasına neden olabilir ve bu durumda işlem Power BI hizmetinde veya kullanılması durumunda şirket içi veri ağ geçidinde kaynakları tüketebilir.
+
+Filtre, Power BI hizmetindeki verilerini aralıklara bölmek için kullanılır. Filtrelenmiş tarih sütununun güncelleştirilmesini destekleyecek şekilde tasarlanmamıştır. Güncelleştirme, ekleme ve silme olarak (güncelleştirme değil) yorumlanır. Artımlı aralıkta değil geçmiş aralıkta gerçekleştirilen silme işlemleri seçilmez. Bu durum bölüm anahtarı çakışmaları nedeniyle veri yenileme hatalarına neden olabilir.
 
 Power Query Düzenleyicisi’nde **Parametreleri Yönet**’i seçerek varsayılan değerlerle parametreleri tanımlayın.
 
@@ -85,21 +85,21 @@ Artımlı yenileme iletişim kutusu görüntülenir. İletişim durumunu etkinle
 
 Üst bilgi metni aşağıdakileri açıklar:
 
--   Artımlı yenileme yalnızca Premium kapasitede çalışma alanları için desteklenir. Yenileme ilkeleri, Power BI Desktop’ta tanımlanır; hizmetteki yenileme işlemleri tarafından uygulanır.
+- Artımlı yenileme yalnızca Premium kapasitede çalışma alanları için desteklenir. Yenileme ilkeleri, Power BI Desktop’ta tanımlanır; hizmetteki yenileme işlemleri tarafından uygulanır.
 
--   Power BI hizmetinden artımlı yenileme ilkesi içeren PBIX dosyasını indiremiyorsanız bu dosya Power BI Desktop’ta açılmaz. Daha sonra hiç indiremezsiniz. Bu, gelecekte desteklenebilse de, bu veri kümelerinin çok büyüyeceğini ve tipik bir masaüstü bilgisayarda indirilip açılmasının elverişsiz hale gelebileceğini unutmayın.
+- Power BI hizmetinden artımlı yenileme ilkesi içeren PBIX dosyasını indiremiyorsanız bu dosya Power BI Desktop’ta açılmaz. Daha sonra hiç indiremezsiniz. Bu, gelecekte desteklenebilse de, bu veri kümelerinin çok büyüyeceğini ve tipik bir masaüstü bilgisayarda indirilip açılmasının elverişsiz hale gelebileceğini unutmayın.
 
 #### <a name="refresh-ranges"></a>Yenileme aralıkları
 
-Aşağıdaki örnekte, toplam 5 yıllık veriyi depolanacak ve 10 günlük veri artımlı olarak yenilenecek şekilde bir yenileme ilkesi tanımlanmaktadır. Veri kümesi günlük olarak yenilenirse, her yenileme işlemi için aşağıdaki adımlar gerçekleştirilir.
+Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tarihe kadar mevcut yılın verilerini depolayacak ve 10 günlük verileri artımlı olarak yenileyecek bir yenileme ilkesi tanımlanmaktadır. Birinci yenileme işlemi, geçmiş verileri yükleyecektir. Sonraki yenileme işlemleri artımlı olacak ve (günlük çalışacak şekilde zamanlanmışsa) aşağıdaki işlemleri gerçekleştirecektir.
 
--   Veriler için yeni bir gün ekleme.
+- Veriler için yeni bir gün ekleme.
 
--   Güncel tarihe kadarki 10 günü yenileme.
+- Güncel tarihe kadarki 10 günü yenileme.
 
--   Güncel tarihten 5 yıl öncesinden daha eski zamana ait takvim yıllarını kaldırma. Örneğin, güncel tarih 1 Ocak 2019 ise, 2013 yılı kaldırılır.
+- Güncel tarihten beş yıl öncesinden daha eski zamana ait takvim yıllarını kaldırma. Örneğin, güncel tarih 1 Ocak 2019 ise, 2013 yılı kaldırılır.
 
-Power BI hizmetindeki ilk yenilemede 5 yılın tamamının içeri aktarılması uzun sürebilir. Sonraki yenilemeler hızlı şekilde tamamlanabilir.
+Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri aktarılması uzun sürebilir. Sonraki yenilemeler hızlı şekilde tamamlanabilir.
 
 ![Yenileme aralıkları](media/service-premium-incremental-refresh/refresh-ranges.png)
 
@@ -109,7 +109,7 @@ Power BI hizmetindeki ilk yenilemede 5 yılın tamamının içeri aktarılması 
 
 #### <a name="detect-data-changes"></a>Veri değişikliklerini algılama
 
-10 günlük artımlı yenileme, 5 yıllık tam yenilemeden çok daha verimlidir. Ancak bunu daha da iyi yapabiliriz. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. **Bu sütun, RangeStart/RangeEnd parametreleriyle verileri bölmek için kullanılan sütun olmamalıdır.** Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını 10’dan 2’ye de düşürebilir.
+10 günlük artımlı yenileme, beş yıllık tam yenilemeden çok daha verimlidir. Ancak bunu daha da iyi yapabiliriz. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. **Bu sütun, RangeStart/RangeEnd parametreleriyle verileri bölmek için kullanılan sütun olmamalıdır.** Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını 10’dan 2’ye de düşürebilir.
 
 ![Değişiklikleri algılama](media/service-premium-incremental-refresh/detect-changes.png)
 

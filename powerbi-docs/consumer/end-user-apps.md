@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112211"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473440"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
-Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturabilir ve dağıtabilir. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](end-user-connect-to-services.md) de Power BI uygulamaları sunar. 
+Power BI'da *uygulamalar*, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Kuruluşunuzdaki kişiler önemli iş bilgileri içeren uygulamalar oluşturur ve dağıtır. Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz [dış hizmetler](end-user-connect-to-services.md) de Power BI uygulamaları sunar. 
 
-![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps-navbar.png)
 
-Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.
+Power BI hizmetinde ([app.powerbi.com](https:app.powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.
 
 Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz. 
 
@@ -36,7 +36,7 @@ Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama yazarından bir doğr
 
 E-postadaki bağlantıyı seçerek Power BI hizmetini ([https://powerbi.com](https://powerbi.com)) bir tarayıcıda açın. Uygulamayı yüklemek istediğinizi onayladığınızda uygulama giriş sayfası açılır.
 
-![Power BI hizmetinde uygulama giriş sayfası](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Power BI hizmetinde uygulama giriş sayfası](./media/end-user-apps/power-bi-get-app.png)
 
 **iOS veya Android mobil cihazınızda** 
 
@@ -56,12 +56,12 @@ Ayrıca, erişiminiz olan tüm uygulamaları Microsoft AppSource'ta bulabilir ve
 3. Uygulamalar sayfanıza eklemek için **Şimdi edinin**'i seçin. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Uygulamadaki panolarla ve raporlarla etkileşim kurma
-Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. Ayrıca rapordaki tablodan veya başka bir görselden [verileri Excel'e aktarabilirsiniz](end-user-export-data.md). [Power BI'da raporlarla etkileşim kurma](end-user-reading-view.md) ile ilgili bilgi edinin. 
+Artık uygulamadaki panolar ve raporlarda bulunan verileri araştırabilirsiniz. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişebilirsiniz. [Power BI'da raporlarla etkileşim kurma](end-user-reading-view.md) ile ilgili bilgi edinin. 
 
 ![Bir Power BI görselinden verileri dışarı aktarma](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Dış hizmetler için Power BI uygulamaları](end-user-connect-to-services.md)
+[Dış hizmetler için Power BI uygulamaları](end-user-connect-to-services.md)
 

@@ -9,19 +9,22 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a03870fd0443a00803edceb5d4821161ccb7693a
+ms.sourcegitcommit: d8109b605052096fc0eb613f2a1340570b99b2f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44747682"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49651046"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar. WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işleminin şu anda resmi olarak desteklenmediğini aklınızda bulundurun.
+Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar.
+
+   > [!NOTE]
+   > WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işleminin şu anda resmi olarak desteklenmemektedir.
 
 ## <a name="requirements"></a>Gereksinimler
 Web Uygulaması Ara Sunucusu (WAP) ve Active Directory Federasyon Hizmetleri (ADFS) sunucuları için Windows Server 2016 gerekir. Windows 2016 işlev düzeyi etki alanına sahip olmanız gerekmez.
