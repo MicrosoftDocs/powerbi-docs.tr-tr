@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921519"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101520"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
@@ -52,7 +52,7 @@ Kullanıcının model verileri için sorgulama ve görüntüleme gerçekleştiri
 Modellerde rol ve dinamik satır düzeyi güvenlik uygulaması, bu makalede ele alınmamıştır.  MSDN'deki [Roles (SSAS Tabular) (Roller (SSAS Tablosu))](https://msdn.microsoft.com/library/hh213165.aspx) ve [Security Roles (Analysis Services - Multidimensional Data) (Güvenlik Rolleri (Analysis Services - Çok Boyutlu Veriler))](https://msdn.microsoft.com/library/ms174840.aspx) sayfalarını inceleyerek daha fazla bilgi edinebilirsiniz. Tablolu model güvenliğini en ayrıntılı şekilde kavramak için [Securing the Tabular BI Semantic Model (Tablolu BI Anlam Modelinin güvenliğini sağlama) teknik incelemesini](https://msdn.microsoft.com/library/jj127437.aspx) indirin ve okuyun.
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory hakkında
-Microsoft bulut hizmetleri, kullanıcıların kimliklerini doğrulamak için [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/)'yi kullanır. Azure Active Directory, kullanıcı adlarının ve güvenlik gruplarının bulunduğu kiracıdır. Genellikle, kullanıcının oturum açmak için kullandığı e-posta adresi hesabın UPN'si ile aynıdır.
+Microsoft bulut hizmetleri, kullanıcıların kimliklerini doğrulamak için [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)'yi kullanır. Azure Active Directory, kullanıcı adlarının ve güvenlik gruplarının bulunduğu kiracıdır. Genellikle, kullanıcının oturum açmak için kullandığı e-posta adresi hesabın UPN'si ile aynıdır.
 
 Yerel Active Directory etki alanımın rolü nedir?
 
@@ -78,7 +78,7 @@ Bulut hizmetleri yalnızca Azure Active Directory'deki hesapları tanır. Yerel 
 1. Hesapları Azure Active Directory'ye el ile ekleyebilirsiniz.
    
    Azure portalı veya Office 365 Yönetim Portalı'nda bir hesap oluşturabilirsiniz. Böylece hesap adı, yerel Active Directory hesabının UPN'si ile eşleşir.
-2. Yerel hesapları Azure Active Directory kiracınız ile eşitlemek için [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) aracını kullanabilirsiniz.
+2. Yerel hesapları Azure Active Directory kiracınız ile eşitlemek için [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) aracını kullanabilirsiniz.
    
    Azure AD Connect aracı, parola karma eşitlemesi, geçişli kimlik doğrulama ve federasyon gibi dizin eşitleme ve kimlik doğrulaması ayarlamaya yönelik seçenekler sağlar. Bir kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz bu yapılandırmayı gerçekleştirmesi için BT yöneticinizle iletişime geçmeniz gerekir.
 
@@ -90,7 +90,7 @@ Azure AD Connect, UPN'nin AAD ile yerel Active Directory etki alanınız arasın
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Bu noktada ağ geçidi devreye girer
-Ağ geçidi, bulut ile şirket içi sunucunuz arasında bir köprü işlevi görür. Bulut ile ağ geçidi arasındaki veri aktarımının güvenliği [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/) tarafından sağlanır. Service Bus, ağ geçidinde bir giden bağlantı yoluyla bulut ile şirket içi sunucunuz arasında güvenli bir kanal oluşturur.  Şirket içi güvenlik duvarınızda açmanız gereken herhangi bir gelen bağlantı yoktur.
+Ağ geçidi, bulut ile şirket içi sunucunuz arasında bir köprü işlevi görür. Bulut ile ağ geçidi arasındaki veri aktarımının güvenliği [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) tarafından sağlanır. Service Bus, ağ geçidinde bir giden bağlantı yoluyla bulut ile şirket içi sunucunuz arasında güvenli bir kanal oluşturur.  Şirket içi güvenlik duvarınızda açmanız gereken herhangi bir gelen bağlantı yoktur.
 
 Bir Analysis Services veri kaynağınız varsa ağ geçidini, Analysis Services sunucunuz ile aynı ormana/etki alanına katılmış bir bilgisayara yüklemeniz gerekir.
 
@@ -116,8 +116,10 @@ Ağ geçidiyle ilgili sorunları gidermeye yönelik adımlar bu makalede değil,
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

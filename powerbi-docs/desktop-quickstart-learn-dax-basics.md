@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417131"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003306"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -142,7 +142,7 @@ DAX, şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.c
 * DAX, pek çok akıllı zaman gösterimi işlevi içerir. Bu işlevler, tarih aralıklarını tanımlamanıza veya seçmenize ve bunlara bağlı olarak dinamik hesaplamalar gerçekleştirmenize olanak sağlar. Örneğin, paralel dönemler için toplamları karşılaştırabilirsiniz.
 * Excel, oldukça popüler bir işlev olan DÜŞEYARA işlevini içerir. DAX işlevleri, Excel'deki DÜŞEYARA işlevinde olduğu gibi başvuru olarak bir hücreyi veya hücre aralığını almaz. DAX işlevleri, başvuru olarak bir sütunu veya tabloyu alır. Power BI Desktop'ta ilişkisel bir veri modeli ile çalıştığınızı unutmayın. Başka bir tablodaki değerlere bakmak gerçekten de oldukça kolaydır ve çoğu durumda formül oluşturmanız bile gerekmez.
   
-  Gördüğünüz gibi DAX'taki işlevler, oldukça etkili formüller oluşturmanıza yardımcı olabilir. Aslında yalnızca işlevler ile ilgili temel bilgilere değindik. DAX becerileriniz geliştikçe çok çeşitli işlevleri kullanarak formüller oluşturabileceksiniz. DAX işlevlerinin her biri hakkında daha fazla bilgi edinmek için kullanabileceğiniz en iyi yerlerden biri de [DAX İşlev Başvurusu](https://msdn.microsoft.com/library/ee634396.aspx)'dur.
+  Gördüğünüz gibi DAX'taki işlevler, oldukça etkili formüller oluşturmanıza yardımcı olabilir. Aslında yalnızca işlevler ile ilgili temel bilgilere değindik. DAX becerileriniz geliştikçe çok çeşitli işlevleri kullanarak formüller oluşturabileceksiniz. DAX işlevlerinin her biri hakkında daha fazla bilgi edinmek için kullanabileceğiniz en iyi yerlerden biri de [DAX İşlev Başvurusu](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)'dur.
 
 ### <a name="functions-quickquiz"></a>İşlevlere ilişkin Hızlı Test
 1. Bir işlev her zaman neye başvurur?

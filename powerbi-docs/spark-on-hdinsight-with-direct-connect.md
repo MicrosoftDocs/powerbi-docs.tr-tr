@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016181"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100761"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>DirectQuery ile HDInsight Spark
 
@@ -58,7 +58,7 @@ Kullanıcı adı ve parola bilgileri de Azure portalında bulunabilir.
 
 ## <a name="limitations"></a>Sınırlamalar
 
-Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Ek belgeler [Azure HDInsight'taki Apache Spark ile BI araçlarını kullanma](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/) sayfasında mevcuttur
+Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Ek belgeler [Azure HDInsight'taki Apache Spark ile BI araçlarını kullanma](/azure/hdinsight/spark/apache-spark-use-bi-tools/) sayfasında mevcuttur
 
 * Power BI hizmeti yalnızca Spark 2.0 ve HDInsight 3.5 yapılandırmalarını destekler.
 * Sütun seçme veya filtre ekleme gibi her eylemin ardından veritabanına bir sorgu gönderilir. Çok büyük alanları seçmeden önce uygun bir görsel türü belirlemeyi göz önünde bulundurun.
@@ -76,9 +76,9 @@ Ayrıca Azure portalında **Yapılandırma** > **Kümeyi Ölçeklendirin** böl�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Başlangıç: HDInsight Linux'te Apache Spark kümesi oluşturma ve Spark SQL'i kullanarak etkileşimli sorgular çalıştırma](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Başlangıç: HDInsight Linux'te Apache Spark kümesi oluşturma ve Spark SQL'i kullanarak etkileşimli sorgular çalıştırma](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Power BI nedir?](power-bi-overview.md)  
 [Power BI için Veri Alma](service-get-data.md)
-[SSO için Şirket içi ağ geçidinde Kerberos kullanma](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[SSO için Şirket içi ağ geçidinde Kerberos kullanma](service-gateway-sso-kerberos.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

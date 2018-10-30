@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641977"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222117"
 ---
 # <a name="power-bi-urls"></a>Power BI URL'leri
 
@@ -70,7 +70,7 @@ OneDrive gibi belirli veri kaynaklarından veri almak için aşağıdaki tabloda
 | --- | --- | --- | --- |
 | 1 | **Gerekli:** AppSource (Power BI'ın içindeki veya dışındaki uygulamalar) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Gerekli:** Oturum açma ve içerik paketleri için veri alma | *.github.com  | TCP 443 |
-| 3 | **İsteğe bağlı:** Kişisel OneDrive hesabınızdaki dosyaları içeri aktarma | [OneDrive sitesindeki gerekli URL'ler ve bağlantı noktalarına](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) bakın | YOK |
+| 3 | **İsteğe bağlı:** Kişisel OneDrive hesabınızdaki dosyaları içeri aktarma | [OneDrive sitesindeki gerekli URL'ler ve bağlantı noktalarına](https://docs.microsoft.com/onedrive/required-urls-and-ports) bakın | YOK |
 | 4 | **İsteğe bağlı:** 60 saniyede Power BI eğitim videosu | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **İsteğe bağlı:** PubNub akış verisi kaynakları | [PubNub belgelerine](https://support.pubnub.com/support/solutions/articles/14000043522) bakın | YOK |
 | | | |
@@ -93,7 +93,7 @@ Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için be
 | 1 | **Gerekli:** Market arabiriminden veya dosyadan özel görsel içeri aktarma | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **İsteğe bağlı:** Bing Haritalar | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **İsteğe bağlı:** PowerApps | PowerApps sistem gereksinimleri sitesinin [Gerekli hizmetler bölümüne](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) bakın | YOK |
-| 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
+| 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
 | | | |
 
 ## <a name="related-external-sites"></a>İlgili dış siteler

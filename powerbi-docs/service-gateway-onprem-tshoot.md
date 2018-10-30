@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474038"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101658"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 
@@ -446,7 +446,7 @@ Sınama sonuçları, ağ geçidinizin ihtiyaç duyduğu tüm sunucuları, bağla
 
 ## <a name="kerberos"></a>Kerberos
 
-Temel alınan veritabanı sunucusu ve Şirket içi veri ağ geçidi, [Kerberos Sınırlı Temsil](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) için düzgün şekilde yapılandırılmadıysa, ağ geçidinde [ayrıntılı günlük kaydını](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) etkinleştirin ve sorun giderme için başlangıç noktası olarak ağ geçidinin günlük dosyalarındaki hatalara/izlere dayalı araştırma yapın.
+Temel alınan veritabanı sunucusu ve Şirket içi veri ağ geçidi, [Kerberos Sınırlı Temsil](service-gateway-sso-kerberos.md) için düzgün şekilde yapılandırılmadıysa, ağ geçidinde [ayrıntılı günlük kaydını](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) etkinleştirin ve sorun giderme için başlangıç noktası olarak ağ geçidinin günlük dosyalarındaki hatalara/izlere dayalı araştırma yapın.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
