@@ -498,8 +498,6 @@ items:
         href: service-connect-to-prevedere.md
       - name: Project Online
         href: service-connect-to-project-online.md
-      - name: Project Madeira
-        href: service-connect-to-project-madeira.md
       - name: Projectplace
         href: service-connect-to-projectplace.md
       - name: QuickBooks Online
@@ -792,7 +790,7 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: Kuruluşunuz için içerik ekleme
         href: developer/embed-sample-for-your-organization.md
-      - name: Bağımsız bulutlar için içeriği uygulamanızla tümleştirme
+      - name: Bağımsız bulutlara içerik ekleme
         href: developer/embed-sample-for-customers-sovereign-clouds.md
     - name: Kavramlar
       items:
@@ -1138,7 +1136,7 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI Premium'u yönetme
         href: service-admin-premium-manage.md
-      - name: Power BI Premium izleme kapasitesi raporu
+      - name: Power BI Premium’u izleme
         href: service-admin-premium-monitor-capacity.md
       - name: Büyük veri kümelerine yönelik destek
         href: service-premium-large-datasets.md
@@ -1203,9 +1201,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642000"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003076"
