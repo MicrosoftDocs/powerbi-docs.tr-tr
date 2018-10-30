@@ -1,6 +1,6 @@
 ---
-title: Power BI hizmeti - temel kavramlar
-description: Power BI hizmeti çalışma alanları, panoları, raporları, veri kümeleri ve çalışma kitapları.
+title: Power BI hizmeti - tüketiciler için temel kavramlar
+description: Power BI hizmeti uygulamaları, çalışma alanları, panoları, raporları, veri kümeleri ve çalışma kitapları.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,115 +8,129 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 6b7ada4e342f37b23200a71b4c15a933960631c5
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566154"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641770"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI hizmeti için temel kavramlar
+# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Power BI hizmeti ***tüketicileri*** için temel kavramlar
 
-Bu makalede, [Power BI hizmetine kayıtlı ](../service-self-service-signup-for-power-bi.md) ve [veri eklemiş](../service-get-data.md) olduğunuz varsayılır.
+## <a name="power-bi-consumers-and-designers"></a>Power BI *tüketicileri* ve *tasarımcıları*
+Bu makalede [Power BI genel bakış](../power-bi-overview.md) sayfasını okuduğunuz ve bir Power BI ***tüketicisi*** olduğunuza karar verdiğiniz kabul edilmektedir. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır. 
 
-Power BI hizmetini açtığınızda, bir ***pano*** görüntülenir. Power BI hizmeti panolarla Power BI Desktop'tan ayrılır.
+Muhtemelen "Power BI Desktop" veya yalnızca "Desktop" terimini daha önceden duymuşsunuzdur. Bu terim, pano ve rapor oluşturup dizinle paylaşan *tasarımcılar* tarafından kullanılan bağımsız bir aracı nitelemek için kullanılmaktadır. Tüketici olarak yalnızca Power BI hizmetiyle çalışacak olsanız da başka Power BI araçlarının da mevcut olduğunu bilmenizde fayda vardır. Bu makale yalnızca Power BI hizmeti için geçerlidir. 
 
-![](media/end-user-basic-concepts/completenewest.png)
+## <a name="terminology-and-concepts"></a>Terimler ve kavramlar
+Bu makale Power BI için görsel tur veya uygulamalı öğretici niteliğinde değildir. Yalnızca Power BI terimlerine ve kavramlarına aşina olmanıza yardımcı olacağını umduğumuz bir genel bakış makalesidir. Hizmeti kullanırken kendinizi yabancı hissetmemenizi sağlayacak bilgilere yer verilmiştir. Power BI hizmeti ve gezinti özellikleri hakkında genel bilgi için [Tura katılın](end-user-experience.md).
 
-Power BI hizmetindeki kullanıcı arabiriminizde bulunan temel özellikler şunlardır:
+## <a name="open-power-bi-service-for-the-first-time"></a>Power BI hizmetini ilk kez açma
+Power BI tüketicilerinin çoğu, Power BI hizmetine 1) şirketleri lisans satın aldığı için ve 2) bir yönetici bu lisansları sizin gibi çalışanlara atadığı için sahip olur. 
 
-1. gezinti bölmesi (sol gezinti bölmesi)
-2. tuval (burada kutucuk içeren pano)
-3. Soru-Cevap soru kutusu
-4. simge düğmeleri, yardım ve geri bildirim dahil
-5. pano başlığı (gezinti yolu, içerik haritaları)
-6. Office 365 uygulama başlatıcısı
-7. Power BI giriş düğmesi
-8. Etiketli simge düğmeleri
+Başlamak için bir tarayıcı penceresi açın ve **app.powerbi.com** adresine gidin. Power BI hizmetini ilk kez açtığınızda aşağıdakine benzer bir ekranla karşılaşırsınız.
 
-Daha sonra bu konunun ayrıntısına ineceğiz ancak şimdi bazı Power BI kavramlarını inceleyelim.
+![](media/end-user-basic-concepts/power-bi-open.png)
 
-Alternatif olarak, bu makalenin geri kalanını okumadan önce bu videoyu da izleyebilirsiniz.  Videoda, Will temel kavramları inceler ve sizi Power BI hizmetinde bir tura çıkarır.
+Power BI hizmetini kullandıkça web sitesini açtığınızda gösterilecek öğeleri kişiselleştirmiş olursunuz.  Örneğin bazı kullanıcılar Power BI hizmetinin Giriş sayfasıyla açılmasını isterken bazıları ilk sayfada sık kullandıkları bir panoyu görmek ister. Endişelenmeyin, bunu nasıl yapacağınızı size göstereceğiz. 
+- [Giriş önizlemesi](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [İçeriği **öne çıkanlar** olarak ayarlama](end-user-featured.md) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
+![](media/end-user-basic-concepts/power-bi-first.png)
+
+Ayrıntılara girmeden önce Power BI hizmetini oluşturan temel yapılardan bahsedelim.
+
+## <a name="power-bi-content"></a>Power BI ***içeriği***
+### <a name="introduction-to-building-blocks"></a>Yapı taşlarına giriş
+Bir Power BI tüketicisi için 5 yapı taşı şunlardır: ***görselleştirmeler***, ***panolar***, ***raporlar***, ***uygulamalar*** ve ***veri kümeleri***. Bunlar bazen *Power BI* ***içeriği*** olarak da anılır. *İçerik*, ***çalışma alanlarında*** bulunur. Tipik bir iş akışı şu yapı taşlarının tümünü içerir: Bir Power BI *tasarımcısı* (aşağıdaki diyagramda sarı ile gösterilmiştir) *veri kümelerinden* veri toplar, analiz etmek üzere Power BI'a getirir, ilgi çekici olguları ve içgörüleri vurgulayan *görselleştirmelerle* dolu *raporlar* oluşturur, raporlardaki görselleştirmeleri bir panoya sabitler ve raporlarla görselleştirmeleri sizin gibi *tüketicilerle* (aşağıdaki diyagramda siyah ile gösterilmiştir) *uygulamalar* veya diğer paylaşılan içerikler şeklinde paylaşır. 
+
+![](media/end-user-basic-concepts/power-bi-workflow.png)
+
+En basit anlamıyla 
+* ![görselleştirme simgesi](media/end-user-basic-concepts/visual.png) ***görselleştirme*** (veya *görsel*), Power BI *tasarımcılarının* *raporlardaki* ve *veri kümelerindeki* verileri kullanarak oluşturdukları bir grafik türüdür. *Tasarımcılar* görselleri genellikle Power BI Desktop'ta oluşturur. 
+
+    Daha fazla bilgi için bkz. [Power BI *tüketicileri* için görselleştirmeler](end-user-visualizations.md)
+
+* ![veritabanı simgesi](media/end-user-basic-concepts/power-bi-dataset-icon.png) *Veri kümesi*, veri içeren bir kapsayıcıdır. Bu Dünya Sağlık Örgütü ile ilgili verileri içeren bir Excel dosyası, bir şirketin müşterilerinin bulunduğu veritabanı veya bir Salesforce dosyası olabilir.  
+
+* ![pano simgesi](media/end-user-basic-concepts/dashboard.png) *Pano* etkileşimli görsellerin, metinlerin ve grafiklerin bulunduğu tek bir ekrandır. Pano, bir hikaye anlatmak veya bir soruyu yanıtlamak için en önemli ölçümlerinizi tek bir ekranda toplar. Pano içeriği bir veya daha fazla rapordan ve bir veya daha fazla veri kümesinden alınır.
+
+    Daha fazla bilgi için bkz. [Power BI *tüketicileri* için panolar](end-user-dashboards.md)
+
+* ![rapor simgesi](media/end-user-basic-concepts/report.png) *Rapor* görsel, metin ve grafik içeren bir veya daha fazla sayfadan meydana gelen bir belgedir. Bir rapor, tek bir veri kümesini temel alır. Raporlar genellikle belirli bir ilgi alanına hitap edecek veya tek bir soruyu yanıtlayacak şekilde düzenlenir.
+
+    Daha fazla bilgi için bkz. [Power BI *tüketicileri* için raporlar](end-user-reports.md)
+
+* ![uygulama simgesi](media/end-user-basic-concepts/app.png) *Uygulama*, *tasarımcıların* ilgili panoları ve raporları paket haline getirip paylaşmasını sağlayan bir yöntemdir. *Tüketiciler* bazı uygulamaları otomatik olarak alır ancak iş arkadaşları veya topluluk tarafından oluşturulan diğer uygulamalar için arama yapabilir. Örneğin Google Analytics ve Microsoft Dynamics CRM gibi zaten kullanıyor olabileceğiniz dış hizmetler Power BI uygulamaları sunar.
+
+Yeni bir kullanıcıysanız ve Power BI'da ilk kez oturum açıyorsanız herhangi bir pano, uygulama veya rapora sahip olmazsınız. 
+_______________________________________________________
 
 
-## <a name="power-bi-concepts"></a>Power BI kavramları
-Power BI'ın başlıca 4 yapı taşı şunlardır: ***panolar***, ***raporlar***, ***çalışma kitapları*** ve ***veri kümeleri***. Bunların tamamı ***çalışma alanları*** halinde düzenlenmiştir. 4 yapı taşını ayrıntılı olarak incelemeden önce çalışma alanlarını anlamanız önemli olduğundan bu kavramla başlayacağız. 
-
-## <a name="workspaces"></a>Çalışma alanları
-Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve *uygulama çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuza ilişkin ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ancak düzenlenemez. 
-
-- *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir uygulama çalışma alanında çalışmak istersiniz.      
--  *Uygulama çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Uygulama çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm uygulama çalışma alanı üyelerinin Power BI Pro lisansına sahip olması gerekir ancak uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur.  
-
-Daha fazla bilgi edinmek için İçindekiler bölümünün **Çalışmanızı paylaşma** kısmının [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](../service-how-to-collaborate-distribute-dashboards-reports.md) ile başlayan bölümüne bakın
-
-
-Şimdi Power BI'ın yapı taşlarına geçelim. Veriler olmadan panonuz veya raporunuz bulunamayacağından (boş panolarınız veya raporlarınız olabilir ancak bunlar veri içerene kadar kullanışlı değildir) **veri kümeleriyle** başlayalım.
 
 ## <a name="datasets"></a>Veri kümeleri
-Bir *veri kümesi*, *içeri aktardığınız* veya *bağlandığınız* bir veri koleksiyonudur. Power BI, her türden veri kaynağına bağlanmanın ve bunları içeri aktarmanın yanı sıra hepsini tek bir yerde toplamanızı sağlar.  
+*Veri kümesi*, *tasarımcıların* içeri aktardıktan veya bağlantı kurduktan sonra rapor ve pano oluşturmak için kullandığı veri koleksiyonudur. Tüketici olarak veri kümeleriyle doğrudan etkileşim kurmazsınız ancak büyük resimdeki yerlerini anlamanız faydalı olacaktır.  
 
-Veri kümeleri, *çalışma alanlarıyla* ilişkilendirilmiştir ve tek bir veri kümesi, birden fazla çalışma alanına ait olabilir. Bir çalışma alanını açtığınızda ilişkilendirilmiş veri kümeleri, **Veri kümeleri** sekmesinde listelenir. Listelenen her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı veya tablosal bir şirket içi SSAS veri kümesi). Desteklenen birçok veri kaynağı olmakla birlikte yenilerini eklemeye de hiç ara vermiyoruz. [Power BI ile kullanılabilen veri kümesi türlerinin listesine göz atın](../service-get-data.md).
+Her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı, tablosal bir şirket içi SSAS veri kümesi veya bir Salesforce veri kümesi) temsil eder. Desteklenen birçok farklı veri kaynağı vardır.
 
-Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Veri kümeleri** sekmesine tıkladım.
+Bir tasarımcı sizinle bir uygulama paylaştığında bu uygulamaya dahil edilen veri kümelerini görebilirsiniz. 
 
-![](media/end-user-basic-concepts/power-bi-datasets.png)
+![](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **BİR** veri kümesi...
 
-* bir veya daha fazla çalışma alanında tekrar tekrar kullanılabilir.
-* birçok farklı raporda kullanılabilir.
-* Söz konusu veri kümesindeki görselleştirmeler farklı birçok panoda görüntülenebilir.
+* tekrar tekrar kullanılabilir
+* birçok farklı raporda kullanılabilir
+* Söz konusu veri kümesindeki görselleştirmeler farklı birçok panoda görüntülenebilir
   
-  ![](media/end-user-basic-concepts/drawing2.png)
+  ![veri kümesi çok-1 ilişkileri](media/end-user-basic-concepts/drawing2.png)
 
-[Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](../service-get-data.md) için **Veri Al**'ı (sol gezinti bölmesinin en altında) veya **+ Oluştur > Veri kümesi**'ni (sağ üst köşede) seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar temel alınan veri kümesinde değişikliğe neden olmaz.
+Bir sonraki yapı taşı, görselleştirmelerdir.
+__________________________________________________________
 
-Bir [***uygulama çalışma alanının*** parçasıysanız](../service-collaborate-power-bi-workspace.md) çalışma alanının bir üyesi tarafından eklenen veri kümeleri, çalışma alanının diğer üyeleri tarafından da kullanılabilir.
+## <a name="visualizations"></a>Görselleştirmeler
+Görselleştirmeler (başka bir deyişle görseller) verilerden elde edilen öngörüleri görüntüler. Görselleştirmeler, içgörüyü daha kolay yorumlamamızı sağlar. Bunun nedeni, beynimizin bir resmi sayılarla dolu bir sayfadan daha hızlı kavrayabilmesidir.
 
-Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve kaldırılabilir. Veri kümesi kullanarak sıfırdan rapor oluşturabilir veya [hızlı öngörülerden](end-user-insights.md) faydalanabilirsiniz.  Veri kümesi kullanan raporları ve panoları görmek için **İlişkilileri görüntüle**'yi seçin. Araştırmak için veri kümesini seçmeniz gerekir. Aslında burada yaptığınız, veri kümesini, verilerinizin detaylarına gitmeye ve görselleştirmeler oluşturmaya başlayabileceğiniz rapor düzenleyicisinde açmaktır. Öyleyse, yeni konumuz olan raporlara geçelim.
+Power BI'da karşılaşacağınız görsellerin bazıları şunlardır: şelale, şerit, ağaç haritası, pasta, huni, kart, dağılım ve ölçer. Bkz. [Power BI'da bulunan görselleştirmelerin tam listesi](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-### <a name="dig-deeper"></a>Derinlemesine
-* [Power BI Premium nedir?](../service-premium.md)
-* [Power BI için veri alma](../service-get-data.md)
-* [Power BI için örnek veri kümeleri](../sample-datasets.md)
 
+   ![8 örnek görsel](media/end-user-basic-concepts/power-bi-visuals.png)
+
+Görselleştirmeler, topluluk tarafından da sağlanır ve bunlar *özel görseller* olarak adlandırılır. Raporda tanımadığınız bir görsel varsa bu muhtemelen özel bir görseldir. Özel görseli yorumlama konusunda yardıma ihtiyacınız varsa <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->rapor veya pano *tasarımcısının* adını bulun ve kendisiyle iletişime geçin.
+
+Bir raporda yer alan **BİR** görselleştirme...
+
+* kopyala/yapıştır yöntemiyle aynı raporda tekrar tekrar kullanılabilir.
+* birçok farklı panoda kullanılabilir
+__________________________________________________
 ## <a name="reports"></a>Raporlar
-Bir Power BI raporu bir veya daha fazla sayfaya yayılmış görselleştirmelerden oluşur (çizgi grafikler, pasta grafikleri, ağaç haritaları ve çok daha fazlası gibi grafikler ve graflar). Görselleştirmelere ***görseller*** adı da verilir. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. Raporlar Power BI'da sıfırdan oluşturulabilir, çalışma arkadaşlarınızın sizinle paylaştığı panolarla içeri aktarılabilir veya Excel, Power BI Desktop, veritabanları, SaaS uygulamaları ve [uygulamalara](../service-get-data.md) bağlanılarak oluşturulabilir.  Örneğin, Power View sayfaları içeren bir Excel çalışma kitabına bağlandığınızda Power BI, söz konusu sayfaları temel alan bir rapor oluşturur. Bir SaaS uygulamasına bağlandığınızda ise Power BI, önceden oluşturulmuş bir raporu içeri aktarır.
+Power BI raporu görselleştirme, grafik ve metin içeren bir veya birden fazla sayfadan oluşur. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. *Tasarımcılar*, raporları *tüketiciler* ile paylaşır ve onlar da [raporlarla *Okuma görünümünde* etkileşim kurar](end-user-reading-view.md).
 
-Raporlarla etkileşime girmeye yönelik 2 mod bulunur: [Okuma görünümü ve Düzenleme görünümü](end-user-reading-view.md).  Yalnızca raporu oluşturan kişi, ikincil sahipler ve izin verilen kişiler söz konusu rapor için ***Düzenleme Görünümü***'ndeki tüm araştırma, tasarım, oluşturma ve paylaşma özelliklerine erişebilir. Yukarıdakiler tarafından raporun paylaşıldığı kişiler ***Okuma Görünümü***'nü kullanarak söz konusu raporu araştırabilir ve bununla etkileşime geçebilir.   
-
-Bir çalışma alanını açtığınızda ilişkilendirilmiş raporlar, **Raporlar** sekmesinde listelenir. Listelenen her bir rapor, temel alınan veri kümelerinden yalnızca birine dayalı bir veya daha fazla görselleştirme sayfasını temsil eder. Bir raporu açmak için seçmeniz yeterlidir. 
-
-Bir uygulamayı açtığınızda bir pano görüntülenir.  Rapordan sabitlenmiş pano kutucuklarını (ilerleyen bölümlerde ayrıntılı bir şekilde anlatılmaktadır) seçerek kaynak raporlara erişebilirsiniz. Tüm kutucukların raporlardan sabitlenmediğini, bir rapora ulaşmak için birden fazla kutucuğa tıklamanız gerekebileceğini unutmayın. 
-
-Raporlar varsayılan olarak Okuma Görünümü'nde açılır.  Raporu, Düzenleme Görünümü'nde açmak için **Raporu düzenle**'yi seçmeniz yeterlidir (gerekli izinlere sahipseniz). 
-
-Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Raporlar** sekmesine tıkladım.
-
-![](media/end-user-basic-concepts/power-bi-reports.png)
+![sekmelere sahip bir rapor](media/end-user-basic-concepts/power-bi-report2.png)
 
 **BİR** rapor...
 
-* tek bir çalışma alanında yer alır
-* ilgili çalışma alanı içindeki birden fazla panoyla ilişkilendirilebilir (söz konusu rapordan sabitlenen kutucuklar birden fazla panoda görünebilir).
-* bir veri kümesindeki veriler kullanılarak oluşturulabilir. (Power BI Desktop'ın 1'den fazla veri kümesini tek bir raporda birleştirebilmesi ve bu raporun Power BI'a aktarılabilmesi bu duruma yönelik küçük bir istisna oluşturur)
+* birden fazla panoyla ilişkilendirilebilir (söz konusu rapordan sabitlenen kutucuklar birden fazla panoda görünebilir).
+* yalnızca bir veri kümesindeki veriler kullanılarak oluşturulur.  
+* birden fazla uygulamaya ait olabilir
   
-  ![](media/end-user-basic-concepts/drawing3new.png)
+  ![](media/end-user-basic-concepts/drawing5.png)
 
-### <a name="dig-deeper"></a>Derinlemesine
-* [Power BI hizmetinde ve Power BI Desktop'ta raporlar](end-user-reports.md)
-* [Power BI mobil uygulamalarında raporlar](mobile/mobile-reports-in-the-mobile-apps.md)
+________________________________________________
 
 ## <a name="dashboards"></a>Panolar
-*Pano*, **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](end-user-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](../visuals/power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](end-user-tiles.md). 
+Bir pano, temel alınan veri kümelerinin belirli bir alt kümesine ilişkin özelleştirilmiş bir görünümü temsil eder. *Tasarımcılar* oluşturdukları panoları tek başına veya bir uygulama kapsamında *tüketicilerle* paylaşır. Pano *kutucuk*, grafik ve metin içeren tek bir tuvaldir. 
 
-Panolar neden oluşturulur?  Nedenlerden bazıları şunlardır:
+  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+
+Kutucuk, bir *tasarımcının* *sabitlediği* bir görseldir. Örnek olarak bir raporda bulunan görsel bir panoya sabitlenebilir.  Sabitlenen her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş bir [görselleştirme](end-user-visualizations.md) görüntüler. Bir kutucuk, bir rapor sayfasının tamamını da içerebilir. Bir kutucukta ayrıca canlı akış verileri veya video da bulunabilir. *Tasarımcılar*, panonuza bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuk ekleyebilir. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](end-user-tiles.md). 
+
+Tüketici olarak panoları düzenleyemezsiniz. Ancak yorum ekleyebilir, ilgili verileri görüntüleyebilir, sık kullanılanlara ekleyebilir, abone olabilir ve daha birçok işlem gerçekleştirebilirsiniz. 
+
+Panoların kullanım amaçlarından bazıları nelerdir?  Birkaç tanesi aşağıda verilmiştir:
 
 * karar vermek için gereken tüm bilgileri tek bir bakışta görmek
 * işinizle ilgili en önemli bilgileri izlemek
@@ -124,117 +138,37 @@ Panolar neden oluşturulur?  Nedenlerden bazıları şunlardır:
 * bir işletme, ürün, iş birimi veya pazarlama kampanyası vb. için durumu izlemesi yapmak
 * geniş bir panonun kişiselleştirilmiş bir görünümünü (sizin için önemli olan tüm ölçümleri içeren) oluşturmak
 
-Bir çalışma alanını açtığınızda ilişkilendirilmiş panolar, **Panolar** sekmesinde listelenir. Bir panoyu açmak için seçmeniz yeterlidir. Bir uygulamayı açtığınızda bir pano görüntülenir.  Her bir pano, temel alınan veri kümelerinin belirli bir alt kümesine ilişkin özelleştirilmiş bir görünümü temsil eder.  Pano size aitse temel alınan veri kümelerinde de düzenleme erişimi sahibi olursunuz.  Pano sizinle paylaşıldıysa panoyla ve temel alınan raporlarla etkileşim kurabilirsiniz ancak yaptığınız değişiklikleri kaydedemezsiniz.
-
-[Pano paylaşmak](../service-share-dashboards.md) için kullanabileceğiniz birçok farklı yöntem vardır. Pano paylaşmak için Power BI Pro gerekir ve bu uygulama paylaşılan bir panoyu görüntülemek için de gerekli olabilir.
-
-
-> [!NOTE]
-> Sabitleme ve kutucuklar, "Kutucuklar içeren pano" başlığı altında daha ayrıntılı bir şekilde ele alınmıştır.
-> 
-
 **BİR** pano...
 
-* tek bir çalışma alanıyla ilişkilendirilir
 * birçok farklı veri kümesindeki görselleştirmeleri görüntüleyebilir
 * birçok farklı rapordaki görselleştirmeleri görüntüleyebilir
 * diğer araçlardan (ör. Excel) sabitlenen görselleştirmeleri görüntüleyebilir
   
   ![](media/end-user-basic-concepts/drawing1.png)
 
-### <a name="dig-deeper"></a>Derinlemesine
-* [Yeni bir boş pano oluşturma ve veri alma](../service-dashboard-create.md).
-* [Bir panoyu yineleme](../service-dashboard-copy.md) 
-* [Bir panonun telefon görünümünü oluşturma](../service-create-dashboard-mobile-phone-view.md)
+________________________________________________
 
+## <a name="apps"></a>Uygulamalar
+Bu pano ve rapor koleksiyonları, ilgili içeriği tek bir paket halinde düzenler. Power BI *tasarımcıları* uygulamaları oluşturur ve kişiler, gruplar, kuruluşun tamamı veya herkes ile paylaşır. Tüketici olarak iş arkadaşlarınızla birlikte aynı veriler üzerinde çalıştığınızdan ve verilerde çelişki olmadığından emin olmuş olursunuz. 
 
-## <a name="workbooks"></a>Çalışma kitapları
-Çalışma kitapları özel bir veri kümesi türüdür. Yukarıdaki **Veri kümeleri** bölümünü okuduysanız, çalışma kitapları hakkında da bilmeniz gereken hemen her şeyi biliyorsunuzdur. Ancak Excel çalışma kitaplarının Power BI'da neden bazen **Veri kümesi**, bazen de **Çalışma kitabı** olarak sınıflandırıldığını merak ediyor olabilirsiniz. 
+![](media/end-user-basic-concepts/power-bi-app.png)
 
-Excel dosyalarını **Veri al** komutuyla kullandığınızda dosyada *İçeri Aktar* veya *Bağlan* seçeneklerine sahip olursunuz. Bağlan'ı seçtiğinizde çalışma kitabınız, Power BI'da tıpkı Excel Online'daki gibi görünecektir. Ancak, Excel Online'dan farklı olarak çalışma sayfalarınızdaki öğeleri doğrudan panolarınıza sabitlemenize yardımcı olacak harika özellikler edineceksiniz.
+Power BI hizmetinde (https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız. 
 
-Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak, bazı değişiklikler yapmanız gerekirse Düzenle'ye tıklayıp çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel'de açmayı tercih edebilirsiniz. Yaptığınız değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
+Bu uygulama üç ilgili pano ve üç ilgili rapordan oluşmaktadır.
 
-### <a name="dig-deeper"></a>Derinlemesine
-* [Excel çalışma kitabı dosyalarından veri alma](../service-excel-workbook-files.md)
-* [Excel'deki içeriği Power BI'da yayımlama](../service-publish-from-excel.md)
+![](media/end-user-basic-concepts/power-bi-app-list.png)
 
+Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz.
 
-## <a name="my-workspace"></a>Çalışma Alanım
-Çalışma alanlarını ve yapı taşlarını inceledik. Şimdi Power BI arabirimine farklı bir açıdan göz atalım ve Power BI hizmetinin giriş sayfasını oluşturan öğelere daha yakından bakalım.
+Uygulamaları birkaç farklı yolla alabilirsiniz. Uygulama tasarımcısı Power BI hesabınıza uygulamayı otomatik olarak yükleyebilir veya size bir uygulamanın doğrudan bağlantısını gönderebilir, alternatif olarak erişiminiz olan tüm uygulamaları gördüğünüz Microsoft AppSource'ta uygulamayı arayabilirsiniz. Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama tasarımcısı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
 
-![](media/end-user-basic-concepts/completenewest.png)
+Uygulama yüklendikten sonra Uygulamalar listenizden seçebilir ve ilk olarak açmak istediğiniz panoyu veya raporu belirleyebilirsiniz.   
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Gezinti bölmesi** (sol gezinti bölmesi)
-Gezinti bölmesini kullanarak çalışma alanlarınızı ve Power BI yapı taşlarını (panolar, raporlar, çalışma kitapları ve veri kümeleri) bulup aralarında geçiş yapabilirsiniz.  
-
-  ![](media/end-user-basic-concepts/power-bi-navigation.png)
-
-* [Power BI'a veri kümesi, rapor ve pano eklemek için](../service-get-data.md) **Veri Al**'ı seçin.
-* Gezinti çubuğunu ![](media/end-user-basic-concepts/expand-icon.png) simgesini kullanarak genişletip daraltabilirsiniz.
-* **Sık Kullanılanlar**'ı seçerek sık kullandığınız içerikleri açabilir veya yönetebilirsiniz.
-* **Son görüntülenen**'i seçerek en son incelediğiniz içeriği görüntüleyebilir ve açabilirsiniz
-* **Uygulamalar**'ı seçerek bir uygulamayı görüntüleyebilir, açabilir veya silebilirsiniz.
-* İş arkadaşlarınızdan biri sizinle bir içerik mi paylaştı? Aradığınız içeriği bulmak ve sıralamak için **Benimle paylaşılan**'ı seçebilirsiniz.
-* **Çalışma alanları**'nı seçerek çalışma alanlarınızı görüntüleyebilir ve açabilirsiniz.
-
-Tek tıklama ile
-
-* bir simgeyi veya başlığı içerik görünümünde açabilirsiniz
-* sağ ok simgesinden (>) Sık Kullanılanlar, Son Görüntülenen ve Çalışma Alanları menülerini açabilirsiniz. 
-* köşeli çift ayraç simgesinden () **Çalışma Alanım**'daki kaydırılabilir pano, rapor, çalışma kitabı ve veri kümesi listesini görüntüleyebilirsiniz.
-* bir veri kümesini araştırabilirsiniz
-
-### <a name="2-canvas"></a>2. **Tuval** 
-Bir pano açtığımız için tuval alanında görselleştirme kutucukları görüntülenir. Rapor düzenleyicisini açmış olsaydık tuval alanında bir rapor sayfası görüntülenecekti. 
-
-Panolar [kutucuklardan](end-user-tiles.md) oluşur.  Kutucuklar Düzenleme görünümü'nde, Soru-Cevap'ta ve başka panolarda oluşturulur; ayrıca Excel'den, SSRS'den ve daha fazlasından sabitlenebilir. Doğrudan panoya eklenen özel kutucuk türüne [pencere öğesi](../service-dashboard-add-widget.md) adı verilir. Bir panoda görünen kutucuklar buraya rapor oluşturucusu/sahibi tarafından özel olarak yerleştirilmiştir.  Bir panoya kutucuk ekleme eylemi *sabitleme* olarak adlandırılır.
-
-![Power BI pano tuvali](./media/end-user-basic-concepts/canvas.png)
-
-Daha fazla bilgi için bkz. **Panolar** (yukarıda).
-
-### <a name="3-qa-question-box"></a>3. **Soru-Cevap soru kutusu**
-Verilerinizi araştırmanın bir yolu da soru sormak ve Power BI'dan görselleştirme biçiminde bir cevap almaktır. Soru-Cevap, bir panoya veya rapora içerik eklemek için kullanılabilir.
-
-Soru-Cevap, panoya bağlı veri kümelerinde sorunuza cevap arar.  Söz konusu panoya sabitlenmiş en az bir kutucuğu bulunan veri kümelerine, bağlı veri kümeleri denir.
-
-![Soru-Cevap soru kutusu](./media/end-user-basic-concepts/power-bi-qna.png)
-
-Siz sorunuzu yazmaya başlar başlamaz Soru-Cevap sizi Soru-Cevap sayfasına götürür. Yazdığınız sırada Soru-Cevap, başka bir şekilde ifade etme, otomatik doldurma, öneriler ve daha fazlasıyla doğru soruyu sormanıza ve en iyi cevabı almanıza yardımcı olur. Memnun olduğunuz bir görselleştirme (cevap) bulunduğunda bunu panonuza sabitleyin. Daha fazla bilgi için bkz. [Power BI'daki Soru-Cevap](end-user-q-and-a.md).
-
-### <a name="4-icon-buttons"></a>4. **Simge düğmeleri** 
-Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma ve Power BI ekibine geri bildirim sağlamaya yönelik kaynaklarınızdır. Panoyu **Tam ekran** modunda açmak için çift oku seçin.  
-
-![simge düğmeleri](./media/end-user-basic-concepts/power-bi-icons.png)
-
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Pano başlığı** (gezinti yolu, içerik haritaları)
-Etkin olan çalışma alanını ve panoyu belirlemek her zaman kolay olmayabileceğinden Power BI sizin için bir gezinti yolu oluşturur.  Bu örnekte çalışma alanını (Çalışma alanım) ve pano başlığını (Retail Analysis Sample) görüyoruz.  Bir rapor açmış olsaydık raporun adı gezinti yolunun sonuna eklenmiş olacaktı.  Yolun her bölümü etkin bir köprüdür.  
-
-Pano başlığından sonra bir "C" simgesi olduğuna dikkat edin. Bu panonun [veri sınıflandırma etiketi](../service-data-classification.md) "gizli" olarak belirlenmiştir. Bu etiket, verilerin hassasiyet ve güvenlik düzeyini tanımlar. Yöneticiniz veri sınıflandırma özelliğini etkinleştirdiyse her panoda varsayılan bir etiket kümesi bulunur. Pano sahiplerinin etiketi panonun güvenlik düzeyine göre değiştirmeleri gerekir.
-
-![](media/end-user-basic-concepts/power-bi-title.png)
-
-### <a name="6-office-365-app-launcher"></a>6. **Office 365 uygulama başlatıcısı**
-Uygulama başlatıcısını kullanarak tüm Office 365 uygulamalarınıza tek tıkla ulaşabilirsiniz. Buradan e-posta, belgeler, takvim ve diğer uygulamaları hızlıca başlatabilirsiniz. 
-
-![Office uygulama başlatıcısı](./media/end-user-basic-concepts/power-bi-waffle.png)
-
-### <a name="7-power-bi-home"></a>7. **Power BI giriş**
-Bunu seçtiğinizde [öne çıkan panonuz](end-user-featured.md) (belirlediyseniz) veya görüntülediğiniz son pano açılır.
-
-   ![](media/end-user-basic-concepts/version-new.png)
-
-### <a name="8-labeled-icon-buttons"></a>8. **Etiketli simge düğmeleri**
-Ekranın bu bölümünde içerikle (bu durumda pano) etkileşim kurmak için kullanabileceğiniz ek seçenekler bulunur.  Etiketli simgelerin yanı sıra, üç noktanın seçilmesi halinde panoyu yineleme, yazdırma ve yenileme gibi seçeneklerle de karşılaşılır.
-
-   ![](media/end-user-basic-concepts/power-bi-labeled-icons.png)
+Bu makalenin tüketiciler için Power BI hizmetini oluşturan yapı taşları konusunda bilgi sahibi olmanızı sağladığını umuyoruz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](../power-bi-overview.md)  
-[Gezinti: Power BI hizmetinde dolaşma](end-user-experience.md)
-[Power BI videoları](../videos.md)  
-[Rapor düzenleyicisi: tura katılın](../service-the-report-editor-take-a-tour.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-
+- [Sözlüğü](end-user-glossary.md) inceleyin ve yer işaretlerinize ekleyin    
+- [Power BI hizmeti turuna](end-user-experience.md) katılın
+- [Tüketiciler için yazılmış olan Power BI genel bakışını](end-user-consumer.md) inceleyin    
+- Will'in temel kavramları incelediği ve Power BI hizmetinde bir tura çıkardığı videoyu izleyin. <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
