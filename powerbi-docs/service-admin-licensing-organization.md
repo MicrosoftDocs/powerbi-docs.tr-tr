@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4fa28e828df2765bb128ad5fb6e8eee73b6eb2a2
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bdd43c820f87bb9308478b4e2100514349644d11
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272564"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252388"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
