@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473969"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952246"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
 Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı oturumlarımızı izleyin.
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
+
+**Power BI: Doğru Analiz**
+<br>Hazırlayan: Gohul Shanmugalingam
+<br>*8 Kasım, 2018 13.00 - 14.00 EST*
+
+Tüm Analytics ve Excel meraklılarına sesleniyoruz: Herkesin kullanmak isteyeceği harika raporlar hazırlamayı öğrenin, içgörüleri kolayca anlaşılabilen ve güzel görünen bir biçimde paylaşın, karmaşık verilerden oluşan siloları güvenli bir şekilde parçalara ayırarak bunlara daha kolay erişilmesini sağlayın.
+
+Ürünlerle ilgili yeniliklerin yanı sıra modern kurumsal BI ve self servis BI konusundaki vizyonumuzu paylaşarak kurumunuzun veri odaklı bir kültür oluşturmasını sağlayabiliriz.
+
+[8 Kasım’da izlemek üzere kaydolun](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI ile Veri Modelleme Becerilerinizi Güçlendirin**
+<br>Sağlayan: Kasper de Jonge
+<br>*20 Kasım 2018 11.00 – 12.00 PST*
+
+Power BI modelleme becerilerinizi bir üst düzeye taşımak için bu web seminerine kaydolun. Power BI bellek içi analiz altyapısı, veri ilişkilerini oluşturma ve yönetme, Veri Analizi İfadelerini (DAX) kullanarak bağlamı filtreleme hakkında bilgi edinin. Power BI veya Azure Analysis Services ile tüm modelleme zorluklarının üstesinden gelmeyi öğrenin.
+
+[20 Kasım’da izlemek üzere kaydolun](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

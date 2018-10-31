@@ -70,6 +70,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Power BI veri kaynağı önkoşulları
       href: desktop-data-source-prerequisites.md
+    - name: Özel görseller hakkında SSS
+      href: power-bi-custom-visuals-faq.md
   - name: Nasıl yapılır?
     items:
     - name: Power BI Desktop uygulamasını edinme
@@ -798,7 +800,7 @@ items:
         href: developer/embedded-row-level-security.md
       - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
         href: developer/azure-pbie-diag-logs.md
-      - name: SSS
+      - name: Ekleme hakkında SSS
         href: developer/embedded-faq.md
       - name: Power BI izinleri
         href: developer/power-bi-permissions.md
@@ -877,7 +879,9 @@ items:
     - name: Öğreticiler
       items:
       - name: Power BI özel görseli geliştirme
-        href: https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/
+        href: developer/custom-visual-develop-tutorial.md
+      - name: Biçimlendirme seçenekleri ekleme
+        href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Kavramlar
       items:
       - name: Özellikleri Kullanma
@@ -1189,7 +1193,7 @@ items:
     - name: PowerShell, REST API’ler ve .NET SDK
       href: service-admin-reference.md
     - name: PowerShell için Power BI cmdlet’leri
-      href: https://docs.microsoft.com/en-us/powershell/power-bi/
+      href: https://docs.microsoft.com/powershell/power-bi/
       maintainContext: true
     - name: Hizmet URL’si başvurusu
       href: power-bi-whitelist-urls.md
@@ -1201,9 +1205,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Office 365 için Power BI'dan Power BI'a geçiş yapıldı
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 5ce694f906a9c637407e6cfd0b47504ac7112bc1
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003076"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222140"
