@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: fa68657d10de961a6c3a6c3491b0c17fb6d84051
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: da529c860037afe0d83f42209bda86d49222b83f
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641333"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252457"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -49,7 +49,7 @@ Power BI Premium kapasite tabanlı bir lisans, Power BI Pro ise kullanıcı taba
 Evet. Power BI Pro; raporlar yayımlamak, panolar paylaşmak, çalışma alanlarında iş arkadaşlarıyla işbirliği yapmak ve ilişkili diğer etkinlikler ile ilgilenmek için gereklidir. Premium kapasitedeki içeriği kullanmak için Power BI Pro şart değildir.
 
 **Power BI Pro ve Power BI Premium'un Modern BI gereksinimlerini karşılama amacıyla birlikte çalıştığı bir senaryo örneği verebilir misiniz?**  
-Aşağıdaki örnekler müşterilerin Power BI Pro ve Power BI Premium'u kullanarak BI ihtiyaçlarını nasıl karşıladığını göstermektedir.
+Aşağıdaki örnekler müşterilerin Power BI Pro ve Power BI Premium’u kullanarak BI ihtiyaçlarını nasıl karşıladığını gösterir.
 
 | 1. Senaryo | 2. Senaryo | 3. Senaryo | 4. Senaryo |
 | --- | --- | --- | --- |

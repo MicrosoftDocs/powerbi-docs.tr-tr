@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396923"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252503"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
-Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
+Yönetici portalı kuruluşunuz için bir Power BI *kiracısını* yönetmenize olanak sağlar. Portalda kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeler yer alır.
 
-Şirketiniz için Power BI kiracı yönetimi, Power BI yönetici portalı üzerinden gerçekleştirilir. Yönetim portalı, Office 365'te Genel Yönetici olan veya kendilerine Power BI hizmet yöneticisi rolü atanmış tüm kullanıcılar için erişilebilir durumdadır. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md).
-
-Tüm kullanıcılar dişli simgesinin altında **Yönetici portalını** görür. Yönetici değillerse yalnızca **Premium ayarları** bölümünü ve yönetme hakkına sahip oldukları kapasiteleri görebilirler.
+Tam yönetici portalı, Office 365’te Genel Yönetici olan veya kendilerine Power BI hizmeti yöneticisi rolü atanmış tüm kullanıcılar için erişilebilir durumdadır. Bu rollerden birinde değilseniz portalda yalnızca **Kapasite ayarlarını** görürsünüz. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Yönetici portalına ulaşma
 
 Power BI yönetici portalına erişim elde etmek için hesabınızın Office 365 veya Azure Active Directory'de **Genel Yönetici** olarak işaretlenmesi veya size Power BI hizmet yöneticisi rolünün atanması gerekir. Power BI hizmet yöneticisi rolü hakkında daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md). Power BI yönetici portalına ulaşmak için aşağıdakileri yapın.
 
 1. Power BI hizmetinin sağ üst tarafındaki ayarlar dişli simgesini seçin.
-2. **Yönetici portalı**'nı seçin.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. **Yönetici portalı**’nı seçin.
 
-Portalda altı sekme bulunur. Bunlar aşağıda açıklanmıştır.
+    ![Yönetici portalı ayarları](media/service-admin-portal/powerbi-admin-settings.png)
+
+Portalda yedi sekme vardır. Bu makalenin kalan bölümünde bu sekmelerden her biriyle ilgili bilgiler sağlanır.
+
+![Yönetici portalı gezintisi](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [Kullanım ölçümleri](#usage-metrics)
 * [Kullanıcılar](#users)
@@ -42,95 +43,91 @@ Portalda altı sekme bulunur. Bunlar aşağıda açıklanmıştır.
 * [Kiracı ayarları](#tenant-settings)
 * [Premium ayarları](#premium-settings)
 * [Ekleme kodları](#embed-codes)
-* [Kuruluş görselleri](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [Kuruluş görselleri](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Kullanım ölçümleri
-Yönetici portalındaki ilk sekme **Kullanım ölçümleri**'dir. Kullanım ölçümleri raporu, kuruluşunuz için Power BI'daki kullanımı izleyebilmenizi sağlar. Ayrıca kuruluşunuz için Power BI'da en etkin olan kullanıcıları ve grupları görme olanağı da sunar.
+
+**Kullanım ölçümleri** kuruluşunuz için Power BI kullanımını izlemenizi sağlar. Ayrıca kuruluşunuz için Power BI'da en etkin olan kullanıcıları ve grupları görme olanağı da sunar.
 
 > [!NOTE]
 > Panoya ilk kez eriştiğinizde veya panoyu görüntülemeniz üzerinden uzun bir süre geçtikten sonra panoyu tekrar ziyaret ettiğinizde, biz panoyu yüklerken büyük olasılıkla bir yükleme ekranıyla karşılaşırsınız.
 
-Pano yüklendikten sonra iki kutucuk bölümü görebilirsiniz. İlk bölüm, farklı kullanıcılar hakkındaki kullanım verilerini, ikinci bölüm ise kuruluşunuzdaki gruplara yönelik benzer bilgileri içerir.
+Pano yüklendikten sonra iki kutucuk bölümü görürsünüz. İlk bölüm, farklı kullanıcılar hakkındaki kullanım verilerini, ikinci bölüm ise kuruluşunuzdaki gruplara yönelik benzer bilgileri içerir.
 
 Aşağıda, her kutucukta görebileceklerinize ilişkin bir döküm verilmiştir:
 
 * Kullanıcı çalışma alanındaki tüm panoların, raporların ve veri kümelerinin ayrı sayımı
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![Panoların, raporların, veri kümelerinin ayrı sayımı](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Erişebilen kullanıcıların sayısına göre en fazla kullanılan pano. Örneğin, 3 kullanıcıyla paylaştığınız bir pano varsa ve bu panoyu iki farklı kullanıcının bağlı olduğu bir içerik paketine de eklediyseniz panonun sayımı 6 (1 + 3 + 2) şeklinde olur
+* Erişebilen kullanıcıların sayısına göre en fazla kullanılan pano. Örneğin, 3 kullanıcıyla paylaştığınız bir pano varsa ve bu panoyu iki farklı kullanıcının bağlı olduğu bir içerik paketine de eklediyseniz, panonun sayımı 6 (1 + 3 + 2) şeklinde olur
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![En çok kullanılan panolar](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * Kullanıcıların bağlı olduğu en popüler içerikler. Bu, kullanıcıların Veri Al işlemiyle ulaşabileceği herhangi bir şey (SaaS içerik paketleri, Kurumsal içerik paketleri, dosyalar veya veritabanları) olabilir.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![En çok kullanılan paketler](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * En fazla panoya sahip (hem kendi oluşturdukları hem de kendileriyle paylaşılan panolar) kullanıcılarınızın bir görünümü.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![En etkin kullanıcılar - panolar](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * En fazla rapora sahip kullanıcılarınızın bir görünümü
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![En etkin kullanıcılar - raporlar](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-İkinci bölüm aynı türde bilgileri grup temelinde gösterir. Bu, kuruluşunuzdaki en etkin grupları ve bu grupların kullandığı bilgi türünü öğrenmenize olanak tanır.
+İkinci bölüm aynı türde bilgileri grup temelinde gösterir. Bu, kuruluşunuzdaki en etkin grupları ve bu grupların kullandığı içerik türünü öğrenmenize olanak tanır.
 
-Bu bilgilerle kişilerin kuruluşunuzdaki Power BI'ı nasıl kullandığına ilişkin gerçek öngörüler elde edebilir ve kuruluşunuzda oldukça etkin olan bu kullanıcıları ve grupları tanıyabilirsiniz.
+Bu bilgilerle kişilerin kuruluşunuzdaki Power BI’ı nasıl kullandığına ilişkin gerçek içgörüler elde edebilir ve kuruluşunuzda oldukça etkin olan bu kullanıcıları ve grupları tanıyabilirsiniz.
 
 ## <a name="users"></a>Kullanıcılar
 
-Yönetici portalındaki ikinci sekme **Kullanıcıları Yönet**'tir. Power BI için kullanıcı yönetimi Office 365 yönetim merkezinde gerçekleştirilir; bu nedenle bu bölüm, Office 365'te kullanıcıları, yöneticileri ve grupları yönetme alanına hızlıca ulaşmanıza olanak tanır.
+Power BI kullanıcılarını, gruplarını ve yöneticilerini Office 365 yönetim merkezinde yönetirsiniz. **Kullanıcılar** sekmesi, kiracınız için yönetim merkezine bağlantı sağlar.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-**O365 Yönetim Merkezi'ne git** seçeneğine tıkladığınızda, doğrudan kiracınızın kullanıcılarını yönetebileceğiniz Office 365 yönetim merkezi giriş sayfasına yönlendirilirsiniz.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![O365 Yönetim Merkezi'ne git](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Denetim günlükleri
 
-Yönetici portalındaki üçüncü sekme **Denetim günlükleri**'dir. Günlükler Office 365 Güvenlik ve Uyumluluk Merkezi'nde yer alır. Bu bölüm, Office 365'te bu alana hızlıca erişmenizi sağlar.
-
-Denetim günlükleri hakkında daha fazla bilgi için bkz. [Kuruluşunuzda Power BI'ı denetleme](service-admin-auditing.md)
+Power BI denetim günlüklerini Office 365 Güvenlik ve Uyumluluk merkezinde yönetirsiniz. **Denetim günlükleri** sekmesi, kiracınız için Güvenlik ve Uyumluluk merkezine bağlantı sağlar. [Daha fazla bilgi](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>Kiracı ayarları
 
-Yönetici portalındaki üçüncü sekme **Kiracı ayarları**'dır. Kiracı ayarları, kuruluşunuzda hangi özelliklerin kullanılabildiğiyle ilgili olarak size daha fazla denetim verir. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz bazı özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz. Bu durumda, söz konusu seçeneği kiracınızda kapatabilirsiniz.
+**Kiracı ayarları** sekmesi, kuruluşunuzun kullanımına sunulan özellikler üzerinde çok ayrıntılı bir denetime olanak tanır. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz belirli özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+Aşağıdaki resimde **Kiracı ayarları** sekmesinin ilk iki bölümü gösterilir.
+
+![Kiracı ayarları](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Ayarın kiracınızdaki herkes için geçerli olması 10 dakika kadar sürebilir.
+> Ayar değişikliğinin kiracınızdaki herkes için geçerlilik kazanması 10 dakika kadar sürebilir.
 
 Ayarlar üç duruma sahip olabilir:
 
-* **Tüm kuruluş için devre dışı bırakıldı**: Bir özelliği devre dışı bırakabilir ve kullanıcıların kullanamayacağı hale getirebilirsiniz.
+* **Tüm kuruluş için devre dışı bırakıldı**: Kuruluşunuzdaki kimse bu özelliği kullanamaz.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![Tümü devre dışı ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Tüm kuruluş için etkinleştirildi**: Bir özelliği kuruluşun tamamı için etkinleştirebilirsiniz; bu, tüm kullanıcıların bu özelliğe erişmesine olanak tanır.
+* **Tüm kuruluş için etkinleştirildi**: Kuruluşunuzdaki herkes bu özelliği kullanabilir.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![Tümü etkin ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Kuruluşun bir alt kümesi için etkinleştirildi**: Bir özelliği kuruluşunuzun belirli bir kısmı için de etkinleştirebilirsiniz. Bu, birkaç farklı şekilde gerçekleşebilir. Özelliği, belirli bir kullanıcı grubunu hariç tutarak tüm kuruluşunuz için etkinleştirebilirsiniz.
+* **Kuruluşun bir alt kümesi için etkinleştirildi**: Kuruluşunuzdaki kullanıcıların veya grupların belirli bir alt kümesi bu özelliği kullanabilir.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    Özelliği, belirli bir kullanıcı grubunu hariç tutarak tüm kuruluşunuz için etkinleştirebilirsiniz.
 
-    Ayrıca özelliği yalnızca belirli bir kullanıcı grubu için etkinleştirip başka bir kullanıcı grubu için devre dışı bırakabilirsiniz. Bu, izin verilen grupta olsalar dahi belirli kullanıcıların özelliğe erişmemesini sağlar.
+    ![Alt küme etkin ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    Ayrıca özelliği yalnızca belirli bir kullanıcı grubu için etkinleştirip başka bir kullanıcı grubu için devre dışı bırakabilirsiniz. Bu yaklaşımın kullanılması, izin verilen grupta olsalar bile belirli kullanıcıların özelliğe erişmemesini sağlar.
+
+    ![Hariç tutarak etkinleştirme ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bakışa yer verilmiştir.
 
 ## <a name="workspace-settings"></a>Çalışma alanı ayarları
 
 ### <a name="create-workspaces-preview"></a>Çalışma alanı oluşturma (önizleme)
-Kuruluştaki kullanıcılar uygulama çalışma alanı oluşturarak pano, rapor ve diğer içerikler üzerinde işbirliği yapabilir.
 
-Daha fazla bilgi için bkz. [Yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md).
+Kuruluştaki kullanıcılar uygulama çalışma alanı oluşturarak pano, rapor ve diğer içerikler üzerinde işbirliği yapabilir. [Daha fazla bilgi](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>Dışarı aktarma ve paylaşım ayarları
 
@@ -138,19 +135,21 @@ Daha fazla bilgi için bkz. [Yeni çalışma alanları oluşturma](service-creat
 
 Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla pano paylaşabilir.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Dış kullanıcılar ayarı](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Bir dış kullanıcıyla paylaştığınızda görünen ileti aşağıdaki gibidir.
+Aşağıdaki resimde bir dış kullanıcıyla paylaştığınızda görünen ileti gösterilir.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Dış kullanıcıyla paylaşma](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
 Kuruluştaki kullanıcılar web'de rapor yayımlayabilir. [Daha fazla bilgi](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+Aşağıdaki resimde **Web’de yayımla** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
 
-Kullanıcılar, web'de yayımlama ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşabilir.
+![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
 |Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Kullanıcılar, web'de yayımlama ayarına göre kullanıcı arabiriminde farkl�
 
 Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. [Daha fazla bilgi](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+Aşağıdaki resimde kutucuktaki verileri dışarı aktarma seçeneği gösterilir.
+
+![Bir kutucuktaki verileri dışarı aktarma](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > **Verileri dışarı aktar** seçeneğinin devre dışı bırakılması, kullanıcıların **Excel'de Çözümle** özelliğini ve Power BI hizmeti canlı bağlantısını kullanmasını da önler.
@@ -172,7 +173,9 @@ Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri 
 
 Kuruluştaki kullanıcılar Power BI raporlarını PowerPoint dosyaları olarak dışarı aktarabilir. [Daha fazla bilgi](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+Aşağıdaki resimde **Raporları PowerPoint sunuları olarak dışarı aktar** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
+
+![Raporları PowerPoint sunumları olarak dışarı aktarma](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Panoları ve raporları paylaşma
 

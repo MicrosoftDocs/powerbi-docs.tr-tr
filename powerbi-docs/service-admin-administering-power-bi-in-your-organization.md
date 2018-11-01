@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: overview
-ms.date: 05/01/2018
+ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fcc7563ef1c1196a7e00e107bb1dadd6b10075d3
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944319"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252480"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -30,7 +30,6 @@ Power BI, self servis iş zekası için tasarlanmıştır ve yönetici, Power BI
 - Bir Power BI dağıtımının benimsenmesini ve yatırım getirisini artırma
 
 Görev, iş kullanıcılarını üretken hale getirmek ve güvenliğin yanı sıra kanun ile yönetmeliklere uyumu sağlamaktır. Sorumluluklar arasında yardım ve desteğin yanı sıra birçok durumda iş kullanıcılarına doğru hamleyi yapmalarında yardımcı olmak sayılabilir.
-
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI ile ilgili yönetici rolleri
 
@@ -50,7 +49,6 @@ Power BI Hizmet Yöneticileri işlevsellik, güvenlik ve izlemeyle ilgili kirac�
 
 Power BI Hizmet Yöneticisi rolü, kullanıcılara lisans atama veya günlükleri Office 365'te görüntüleme yeteneği vermez. Bu nedenle, Power BI'yı yönetme görevi şu anda yalnızca Power BI Hizmet Yöneticisi rolünün üyeleri olan kullanıcılar tarafından gerçekleştirilemez.
 
-
 ## <a name="administrative-tasks"></a>Yönetimsel görevler
 
 Yöneticiler, kuruluşları için Power BI kiracısını desteklemek üzere aşağıdaki tabloda ele alınan birçok görev gerçekleştirir.
@@ -65,7 +63,6 @@ Yöneticiler, kuruluşları için Power BI kiracısını desteklemek üzere aşa
 | Power BI kaynaklarını yönetme |<ul><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama<br><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama|
 | Kiracı kullanıcılarına yardım ve destek sağlama |<ul><li>Veri erişimi ve diğer sorunları giderme</ul>|
 | Diğer görevler |<ul><li>Örneğin System Center Configuration Manager kullanarak Power BI Desktop’ı dağıtma<br><li>Intune ile Power BI mobil uygulama dağıtımını yönetme<br><li>Kaynak veri güvenliği gibi veri gizliliği ve güvenliğini yönetme</ul>|
-
 
 ## <a name="administrative-tools"></a>Yönetim araçları
 
@@ -82,11 +79,12 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç ara
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu makalede Power BI yöneticisinin işi ve onunla ilgili belirli roller, görevler ve araçlara ilişkin bazı hızlı içgörüler bulduğunuzu umuyoruz. Öğrendiklerinizi pekiştirmek için aşağıdaki iki konuyu da okumanız önerilir.
+Bu makalede Power BI yöneticisinin işi ve onunla ilgili belirli roller, görevler ve araçlara ilişkin bazı hızlı içgörüler bulduğunuzu umuyoruz. Öğrendiklerinizi pekiştirmek için aşağıdaki makaleleri okumanızı öneririz.
 
 [Power BI yönetim portalını kullanma](service-admin-portal.md)
+
+[PowerShell cmdlet’lerini kullanma](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
 
 [Power BI yönetimi SSS](service-admin-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-
