@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435454"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100830"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yayımlama
 
@@ -63,7 +63,7 @@ Uygulama çalışma alanının her üyesinin Power BI Pro lisansına ihtiyacı v
    
      ![Uygulama içeriği](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz. Bu ayarı [Power BI Yönetim Portalı](#how-to-enable-pushing-apps)’nda etkinleştirebilirsiniz. [Bir uygulama göndermeye](#how-to-enable-pushing-apps) ilişkin dikkate alınması gereken diğer noktalarla ilgili daha fazla bilgi edinebilirsiniz.
+5. **Erişim** bölümünde uygulamaya kimin erişebileceğine (kuruluşunuzdaki herkes, belirli kişiler veya Active Directory güvenlik grupları) karar verin. İzinleriniz varsa uygulamanın alıcılara otomatik olarak yüklenmesine karar verebilirsiniz. Bu ayar bir Power BI yöneticisi tarafından Power BI Yönetim Portalı’ndan etkinleştirilebilir. Daha fazla bilgi için bkz. [bir uygulamayı otomatik olarak yükleme](#how-to-install-an-app-automatically-for-end-users).
 
     ![Uygulama erişimi](media/service-create-distribute-apps/power-bi-apps-access.png)
 

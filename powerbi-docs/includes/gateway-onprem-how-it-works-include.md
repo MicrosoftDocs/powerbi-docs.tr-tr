@@ -5,12 +5,10 @@
 
 > [!NOTE]
 > Power BI'da ağ geçidi için bir veri kaynağı yapılandırmanız gerekir.
-> 
-> 
 
 1. Bulut hizmeti tarafından bir sorgu oluşturulur ve şirket içi veri kaynağı için şifrelenmiş kimlik bilgileriyle birlikte ağ geçidinin işlemesi için kuyruğa gönderilir.
-2. Ağ geçidi bulut hizmeti, sorguyu çözümler ve isteği [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)'a gönderir.
-3. Şirket içi veri ağ geçidi, [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)’ta bekleyen istekler olup olmadığını yoklar.
+2. Ağ geçidi bulut hizmeti, sorguyu çözümler ve isteği [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)'a gönderir.
+3. Şirket içi veri ağ geçidi, Azure Service Bus’ta bekleyen istekler olup olmadığını yoklar.
 4. Ağ geçidi sorguyu alır, kimlik bilgilerinin şifresini çözer ve bu kimlik bilgileriyle veri kaynaklarına bağlanır.
 5. Ağ geçidi, yürütme için sorguyu veri kaynağına gönderir.
 6. Sonuçlar, veri kaynağından ağ geçidine ve ardından bulut hizmetine geri gönderilir. Ardından, hizmet bu sonuçları kullanır.

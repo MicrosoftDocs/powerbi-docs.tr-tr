@@ -1,6 +1,6 @@
 ---
-title: Power BI'da dağılım grafikleri
-description: Power BI'da Dağılım Grafikleri
+title: Power BI’daki dağılım, kabarcık ve noktalı çizim grafikleri
+description: Power BI’daki dağılım grafiği, noktalı çizim grafikleri ve kabarcık grafikleri
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448857"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003191"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI'daki dağılım grafikleri ve kabarcık grafikleri
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
 
 Kabarcık grafiğinde veri noktaları yerine kabarcıklar kullanılır ve kabarcık *boyutu* verilerin farklı bir boyutunu gösterir.
 
 ![kabarcık grafiği oluşturma](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Noktalı çizim grafiği, kabarcık grafiğine ve dağılım grafiğine benzer ancak onlardan farklı olarak X ekseninde sayısal veya kategorik veriler çizmenize imkan tanır. 
+
+![kabarcık grafiği oluşturma](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 Veri noktalarının sayısını en fazla 10.000 olarak ayarlayabilirsiniz.  
 
@@ -41,6 +45,9 @@ Veri noktalarının sayısını en fazla 10.000 olarak ayarlayabilirsiniz.
 * verilerinizde her biri değer kümesi içeren 3 veri dizisi varsa.
 * finansal verileri sunmak için.  Farklı kabarcık boyutları, belirli değerleri vurgulama açısından kullanışlıdır.
 * çeyrek dairelerle birlikte kullanmak için.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>Noktalı çizim grafikleri şu durumlarda dağılım veya kabarcık yerine harika bir seçimdir:
+* X ekseni üzerinde kategorik veriler dahil etmek istiyorsanız
 
 ## <a name="create-a-scatter-chart"></a>Dağılım grafiği oluşturma
 Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki adımları kullanarak kendiniz bir dağılım grafiği oluşturun.
@@ -63,11 +70,11 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
 
 3. Sonucu dağılım grafiğine dönüştürün. Görsel Öğeler bölmesinde Dağılım grafiği simgesini seçin.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. **District** öğesini **Ayrıntılar** bölmesinden **Açıklama**'ya sürükleyin. Burada, Y ekseninde **Toplam Satış Varyansı %** verisini, X ekseninde ise **Fit Kare Başına Satış** verisi gösteren bir dağılım grafiği görüntülenir. Veri noktası renkleri bölgeleri göstermektedir:
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Şimdi üçüncü boyutu ekleyelim.
 
@@ -75,18 +82,17 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
 
 1. **Alanlar** bölmesinden, **Satış** > **Bu Yılın Satışları** > **Değer** öğesini **Boyut** alanına sürükleyin. Veri noktaları, satış değeriyle orantılı bir şekilde hacimlere genişler.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![noktalar, kabarcıklar haline gelir](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. Bir kabarcığın üzerine gelin. Kabarcığın boyutu **This Year Sales** değerini yansıtır.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![araç ipuçlarını görüntüleme](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçimlendirme** bölümünde **Genel** kartını genişletin ve **Veri Hacmi**'ni ayarlayın. Veri hacmi üst sınırını 10.000’e kadar herhangi bir sayıya ayarlayabilirsiniz. Daha yüksek sayıya ulaştıkça iyi performanstan emin olmak için öncelikle test etmeniz önerilir. 
 
     ![Veri Hacmi](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > Veri noktası sayısı arttığında yükleme süresi de uzayacağından, raporları ölçeğin uç sınırlarıyla yayımlamayı seçerseniz performansın kullanıcı beklentilerini karşılamasını sağlamak için raporlarınızı hem web üzerinde hem de mobil cihazlarda test ettiğinizden emin olun. Daha fazla sayıda veri noktası için, iyi performans sağlamak amacıyla sonuçları farklı form faktörleri üzerinde test etmeniz gerektiğini unutmayın.
+   Veri noktası sayısı arttığında yükleme süresi de uzayacağından, raporları ölçeğin uç sınırlarıyla yayımlamayı seçerseniz performansın kullanıcı beklentilerini karşılamasını sağlamak için raporlarınızı hem web üzerinde hem de mobil cihazlarda test ettiğinizden emin olun. 
 
 4. [Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha pek çok özelliğini biçimlendirebilirsiniz](service-getting-started-with-color-formatting-and-axis-properties.md). [Erişilebilirliği artırmak](../desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. Her çizgi için farklı bir İşaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar. İşaretçi şeklini seçmek için **Şekiller** kartını genişletin ve bir işaretçi şekli belirleyin.
 
@@ -95,6 +101,13 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
    İşaretçi şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz:
 
    ![Kare işaretçi](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>Noktalı grafik oluşturma
+Noktalı grafik oluşturmak için sayısal X ekseni alanını kategorik bir alanla değiştirin.
+
+**X Ekseni** bölmesinden **Fit kare başına satış** girişini kaldırıp **Bölge > DM** ile değiştirin.
+   
+![yeni noktalı çizim](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli Noktalar ve Sorun Giderme

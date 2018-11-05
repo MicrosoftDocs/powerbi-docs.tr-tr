@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909234"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003214"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium ve Power BI Embedded kapasitelerini izleme
 
@@ -61,13 +61,11 @@ Raporda üç sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı
 
 ### <a name="datasets-tab"></a>Veri Kümeleri sekmesi
 
-**Veri kümeleri** sekmesi uygulamadaki toplu ölçümleri sağlar. Farklı alanlara gitmek için sekmenin üstündeki dört düğmeyi kullanın: **Özet**, **Yenilemeler**, **Sorgular** ve **Veri Kümeleri**.
+**Veri kümeleri** sekmesi uygulamadaki toplu ölçümleri sağlar. Farklı alanlara gitmek için sekmenin üstündeki düğmeleri kullanın: **Özet**, **Yenilemeler**, **Sorgu Süreleri**, **Sorgu Beklemeleri** ve **Veri Kümeleri**.
 
 ![Veri Kümeleri sekmesi](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Özet bölgesi
-
-![Özet düğmesi](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 **Özet** alanında varlıklara, sistem kaynaklarına ve veri kümesi iş yüklerine göre kapasitelerinizin bir görünümü gösterilir.
 
@@ -80,19 +78,27 @@ Raporda üç sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı
 
 #### <a name="refreshes-area"></a>Yenilemeler alanı
 
-![Yenilemeler düğmesi](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 **Yenilemeler** alanında son yedi gün içindeki toplam yenileme sayısı, başarılı ölçümler, ortalama/maksimum yenileme bekleme süresi ve ortalama/maksimum yenileme süresi veri kümelerine ayrılmış şekilde gösterilir. En alttaki iki grafikte yenilemelerle GB cinsinden bellek tüketiminin karşılaştırması gösterilir. Ortalama bekleme süreleri bir saatlik parçalara ayrılır ve yerel saate göre belirtilir. Üstteki çubukta veri kümesinin yenilenmesinin tamamlanması için geçen ortalama süre (yenileme süresi) ve ortalama yenileme bekleme süresine göre ilk beş veri kümesi listelenir. Birden çok yüksek yenileme bekleme süresi artışı kapasiteye sık erişildiğini gösterir.
 
-#### <a name="queries-area"></a>Sorgular alanı
+#### <a name="query-durations-area"></a>Sorgu Süreleri alanı
 
-![Sorgular düğmesi](media/service-admin-premium-monitor-capacity/queries-button.png)
+**Sorgu Süreleri** alanında toplam sorgu çalıştırma sayısına ek olarak milisaniye cinsinden ortalama/maksimum süre bilgileri listelenir. Bu veriler veri kümeleri, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır. Alt grafiklerde sorgu sayıları ve ortalama süre (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir.
 
-**Sorgular** alanında toplam çalışan sorgu sayısı, Canlı sorgu/Doğrudan sorgu için toplam sorgu bekleme sayısı, ortalama/maksimum süre, veritabanları tarafından dilimlere ayrılan bildirilmiş ortalama/maksimum bekleme süresi (milisaniye), çalışma alanı ve son yedi gün içindeki saatlik aralıklar listelenir. Alt grafiklerde sorgu sayıları, ortalama süre (milisaniye) ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir. İki sağ üst grafikte, ortalama sorgu süresine ve sorguların tamamlanması için geçen bekleme süresine göre ilk beş veri kümesi listelenir. Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir.
+Sağ üstteki grafikte sorgu süresi dağıtım histogramı görüntülenir. Histogramda bildirilen sorgu süreleri milisaniye cinsinden ve şu kategorilere göre ayrılmış şekilde gösterilir: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sn, 1 sn-3 sn, 3 sn-10 sn, 10 sn-30 sn ve > 30 saniyelik aralıklar.
+
+Sağ alttaki grafikte, sorguların tamamlanması için geçen ortalama sorgu süresine göre ilk beş veri kümesi listelenir.
+
+Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir.
+
+#### <a name="query-waits-area"></a>Sorgu Beklemeleri alanı
+
+**Sorgu Beklemeleri** alanında toplam çalışan sorgu sayısı, Canlı sorgu/Doğrudan sorgu için toplam sorgu bekleme sayısı ve milisaniye cinsinden ortalama/maksimum bekleme süresi listelenir. Bu veriler veri kümeleri, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır. Alt grafiklerde sorgu bekleme sayıları ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir.
+
+Sağ üstteki grafikte sorgu bekleme süresi dağıtım histogramı görüntülenir. Histogramda bildirilen sorgu süreleri milisaniye cinsinden ve şu kategorilere göre ayrılmış şekilde gösterilir: <= 50 ms , 50-100 ms , 100-200 ms , 200-400 ms 400 ms-1 sn, 1 sn-5 sn ve > 5 saniyelik aralıklar.
+
+Sağ alttaki grafikte, sorguların başlatılması için geçen ortalama bekleme süresine göre ilk beş veri kümesi listelenir.
 
 #### <a name="datasets-area"></a>Veri kümeleri alanı
-
-![Veri kümeleri düğmesi](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 **Veri kümeleri** alanında saatlere göre bellek baskısı nedeniyle çıkarılan tam veri kümeleri gösterilir.
 

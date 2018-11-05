@@ -1,5 +1,5 @@
 ---
-title: Bağımsız bulut müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
+title: Kamu bulutu ve bağımsız bulut müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 description: Müşterileriniz için Power BI API'leri kullanarak bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
 author: markingmyname
 ms.author: maghan
@@ -7,16 +7,17 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 07/26/2018
-ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
-ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
+ms.date: 10/25/2018
+ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48039451"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003168"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Öğretici: Bir Power BI panosunu, kutucuğunu veya raporunu bağımsız bulut uygulamanıza ekleme
-Müşterileriniz için Power BI .NET SDK'sını ve Power BI JavaScript API'sini kullanarak ekleme yaparken bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin. Bu tipik bir ISV senaryosudur.
+
+Müşterileriniz için Power BI .NET SDK’sını ve Power BI JavaScript API’sini kullanarak veri tümleştirmesi yaparken bir panoyu, kutucuğu veya raporu web uygulamalarınıza eklemeyi öğrenin.
 
 Power BI, bağımsız (özel) bulutları da destekler.
 
@@ -38,17 +39,21 @@ Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gereki
 
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](integrate-dashboard.md).
->
 
-Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** API'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu ekleme belirteciyle yükleyebilirsiniz. **Power BI API'si** belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET SDK'sı](https://github.com/Microsoft/PowerBI-CSharp) ve [Power BI JavaScript API'si](https://github.com/Microsoft/PowerBI-JavaScript).
+Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** API'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu ekleme belirteciyle yükleyebilirsiniz. **Power BI API'si** belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), Power BI .NET SDK’sı ve [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Örneği indirme
-Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) kullanılan kod gösterilmektedir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
+
+Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Microsoft/PowerBI-Developer-Samples) kullanılan kodlar gösterilmiştir. Bu adım adım kılavuzla birlikte ilerlemek için örneği indirebilirsiniz.
+
+![App Owns Data örneği](media/embed-sample-for-customers-sovereign-clouds/embed-sample-for-customers-026.png)
 
 * Kamu Topluluk Bulutu (GCC):
-    1. GCCCloud.config içeriğiyle Cloud.config dosyasının üzerine yazın.
-    2. Web.config dosyasında clientid (yerel uygulama istemci kimliği), groupid, kullanıcı (ana kullanıcınız) ve parolayı güncelleştirin.
-    3. GCC parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
+1. GCCCloud.config içeriğiyle Cloud.config dosyasının üzerine yazın.
+
+2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
+
+3. GCC parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -58,9 +63,11 @@ Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.c
 ```
 
 * Askeri Yükleniciler (DoDCON):
-    1. TBCloud.config içeriğini Cloud.config dosyasının üzerine yazın.
-    2. Web.config dosyasında clientid (yerel uygulama istemci kimliği), groupid, kullanıcı (ana kullanıcınız) ve parolayı güncelleştirin.
-    3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
+1. TBCloud.config içeriğini Cloud.config dosyasının üzerine yazın.
+
+2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
+
+3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -70,9 +77,11 @@ Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.c
 ```
 
 * Askeri (DoD):
-    1. PFCloud.config içeriğini Cloud.config dosyasının üzerine yazın.
-    2. Web.config dosyasında clientid (yerel uygulama istemci kimliği), groupid, kullanıcı (ana kullanıcınız) ve parolayı güncelleştirin.
-    3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
+1. PFCloud.config içeriğini Cloud.config dosyasının üzerine yazın.
+
+2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
+
+3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -82,9 +91,11 @@ Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.c
 ```
 
 * Almanya için Power BI bulutu parametreleri
-    1. Almanya için Power BI bulutu içeriğini Cloud.config dosyasının üzerine yazın.
-    2. Web.config dosyasında clientid (yerel uygulama istemci kimliği), groupid, kullanıcı (ana kullanıcınız) ve parolayı güncelleştirin.
-    3. Almanya için Power BI bulutu parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
+1. Almanya için Power BI bulutu içeriğini Cloud.config dosyasının üzerine yazın.
+
+2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
+
+3. Almanya için Power BI bulutu parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
@@ -94,9 +105,11 @@ Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.c
 ```
 
 * Çin için Power BI bulutu parametreleri
-    1. [Çin için Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) bulutu içeriğini Cloud.config dosyasının üzerine yazın.
-    2. Web.config dosyasında clientid (yerel uygulama istemci kimliği), groupid, kullanıcı (ana kullanıcınız) ve parolayı güncelleştirin.
-    3. Çin için Power BI bulutu parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
+1. [Çin için Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) bulutu içeriğini Cloud.config dosyasının üzerine yazın.
+
+2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
+
+3. Çin için Power BI bulutu parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
 <add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
@@ -106,7 +119,8 @@ Bu makalede GitHub'daki [Müşteriniz için ekleme örneğinde](https://github.c
 ```
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
-REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md). Farklı bağımsız bulut ilişkileri olduğundan, uygulamanızı kaydetmek için farklı URL’ler vardır.
+
+REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD’ye kaydedin. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md). Farklı bağımsız bulut ilişkileri olduğundan, uygulamanızı kaydetmek için farklı URL’ler vardır.
 
 * Kamu Topluluk Bulutu (GCC) - https://app.powerbigov.us/apps 
 
@@ -118,10 +132,10 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydet
 
 * Çin için Power BI bulutu - https://app.powerbi.cn/apps
 
-[Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz kayıt sonrasında aldığınız **İstemci kimliğini** kullanarak örneğin Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **clientId** değerini değiştirin.
-
+[Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz kayıt sonrasında aldığınız **uygulama kimliğini** kullanarak örneğin Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2. Adım: Azure AD'den erişim belirteci alma
+
 Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md). Farklı bağımsız bulut ilişkileri olduğundan, uygulamanıza yönelik bir erişim belirteci almak için farklı URL’ler vardır.
 
 * Kamu Topluluk Bulutu (GCC) - https://login.microsoftonline.com
@@ -132,15 +146,17 @@ Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure
 
 * Almanya için Power BI bulutu - https://login.microsoftonline.de
 
-* Çin için Power BI bulutu - https://login.microsoftonline.cn
+* Çin için Power BI bulutu - https://login.chinacloudapi.cn
 
-**Controllers\HomeController.cs** içindeki her bir içerik öğesi görevinde ilgili örnekleri bulabilirsiniz.
+**Controllers\HomeController.cs** dosyasındaki her bir içerik öğesi görevinde bu erişim belirteçleriyle ilgili örnekleri bulabilirsiniz.
 
 ## <a name="step-3---get-a-content-item"></a>3. Adım: İçerik öğesi alma
+
 Power BI içeriğinizi doğru şekilde eklemek için yapmanız gereken birkaç şey vardır. Bu adımların tümü doğrudan REST API ile gerçekleştirilebilir ancak örnek uygulama ve buradaki örneklerde .NET SDK kullanılmıştır.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Power BI İstemcisini erişim belirtecinizle oluşturma
-Erişim belirtecinizi kullanarak Power BI API'lerle etkileşim kurmanızı sağlayacak Power BI istemci nesnenizi oluşturmanız gerekir. Bunun için erişim belirtecini *Microsoft.Rest.TokenCredentials* nesnesine sarmanız gerekir.
+
+Erişim belirtecinizi kullanarak Power BI API’lerle etkileşim kurmanızı sağlayacak Power BI istemci nesnenizi oluşturmanız gerekir. Power BI istemci nesnenizi oluşturmak için AccessToken öğesini *Microsoft.Rest.TokenCredentials* nesnesine sarmanız gerekir.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -157,24 +173,38 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Eklemek istediğiniz içerik öğesini alma
+
 Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci nesnesini kullanın. Panoları, kutucukları veya raporları ekleyebilirsiniz. Bu örnekte belirli bir çalışma alanının ilk panosunu, kutucuğunu veya raporunu nasıl alacağınız gösterilmiştir.
 
-Bu örnek [App Owns Data örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında mevcuttur.
+[App Owns Data örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
-**Panolar**
+#### <a name="reports"></a>Raporlar
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+#### <a name="dashboards"></a>Panolar
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 ```
 
-**Kutucuk**
+#### <a name="tiles"></a>Kutucuklar
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -182,43 +212,31 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 // Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(workspaceId, dashboard.Id);
 
 // Get the first tile in the group.
 Tile tile = tiles.Value.FirstOrDefault();
 ```
 
-**Rapor**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
-
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
-
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
-JavaScript API'sinden kullanılabilecek bir ekleme belirtecinin oluşturulması gerekir. Ekleme belirteci, eklediğiniz öğeye özeldir. Bu da eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerektiği anlamına gelir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+
+JavaScript API’sini kullanarak bir ekleme belirteci oluşturabilirsiniz. Ekleme belirteci, eklediğiniz öğeye özeldir. Eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerekir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
 
-Bu örnek [Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında mevcuttur.
+[Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
-Bu örnekte **EmbedConfig** ve **TileEmbedConfig** için bir sınıf oluşturulduğu kabul edilmektedir. Bu örnek **Models\EmbedConfig.cs** ve **Models\TileEmbedConfig.cs** içinde mevcuttur.
+Bu örnekte **EmbedConfig** ve **TileEmbedConfig** için bir sınıf oluşturulduğu kabul edilmektedir. **Models\EmbedConfig.cs** ve **Models\TileEmbedConfig.cs** içinde bir örnek mevcuttur.
 
-**Pano**
+#### <a name="reports"></a>Raporlar
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -226,7 +244,26 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+#### <a name="dashboards"></a>Panolar
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(workspaceId, dashboard.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -237,7 +274,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**Kutucuk**
+#### <a name="tiles"></a>Kutucuklar
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -245,7 +282,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token for a tile.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(workspaceId, dashboard.Id, tile.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new TileEmbedConfig()
@@ -257,30 +294,13 @@ var embedConfig = new TileEmbedConfig()
 };
 ```
 
-**Rapor**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
 ## <a name="step-4---load-an-item-using-javascript"></a>4. Adım: JavaScript kullanarak öğe yükleme
+
 JavaScript kullanarak web sayfanızdaki bir div öğesine pano yükleyebilirsiniz. Bu örnekte EmbedConfig/TileEmbedConfig modelinin yanı sıra pano, kutucuk veya rapor görünümleri kullanılmaktadır. JavaScript API kullanan tam bir örnek için [Microsoft Power BI Embedded Örneği](https://microsoft.github.io/PowerBI-JavaScript/demo)'ni kullanabilirsiniz.
 
 Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) içinde mevcuttur.
 
-**Views\Home\EmbedDashboard.cshtml**
+### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -318,7 +338,7 @@ Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mic
 </script>
 ```
 
-**Views\Home\EmbedTile.cshtml**
+### <a name="viewshomeembedtilecshtml"></a>Views\Home\EmbedTile.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -360,7 +380,7 @@ Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mic
 </script>
 ```
 
-**Views\Home\EmbedReport.cshtml**
+### <a name="viewshomeembedreportcshtml"></a>Views\Home\EmbedReport.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -406,12 +426,15 @@ Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mic
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * GitHub üzerindeki örnek uygulamayı gözden geçirebilirsiniz. Yukarıdaki örnekler de bu örneği temel almaktadır. Daha fazla bilgi için bkz. [Kuruluşunuz için ekleme örneği](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
-* JavaScript API’si hakkında daha fazla bilgi için lütfen [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) bölümüne bakın.
-* Almanya için Power BI bulutu hakkında daha fazla bilgi için lütfen [Almanya için Power BI bulutu ile ilgili SSS](https://docs.microsoft.com/power-bi/service-govde-faq) bölümüne bakın.
+
+* JavaScript API’si hakkında daha fazla bilgi için [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) bölümüne bakın.
+
+* Almanya için Power BI bulutu hakkında daha fazla bilgi için [Almanya için Power BI bulutu ile ilgili SSS](https://docs.microsoft.com/power-bi/service-govde-faq) bölümüne bakın.
+
 * [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme](migrate-from-powerbi-embedded.md)
 
 Sınırlamalar ve Önemli Noktalar
+
 * GCC hesapları şu an için yalnızca P ve EM kapasitelerini desteklemektedir
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

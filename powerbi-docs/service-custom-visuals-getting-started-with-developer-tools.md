@@ -2,32 +2,33 @@
 title: Özel görseller oluşturmak için geliştirici araçları kullanma
 description: Özel görseller, kullanıcılarınızın ihtiyaçlarını karşılamanıza ve uygulamanızın tasarımını uyumlu hale getirmenize olanak sağlar. Geliştirme araçlarını kullanarak Power BI için özel görsel oluşturmayı öğrenin.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726697"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153714"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Özel görseller oluşturmak için geliştirici araçları kullanma
+
 Özel görseller, kullanıcılarınızın ihtiyaçlarını karşılamanıza ve uygulamanızın tasarımını uyumlu hale getirmenize olanak sağlar. Geliştirme araçlarını kullanarak Power BI için özel görsel oluşturmayı öğrenin.
 
 > [!NOTE]
 > Çalışmaya başlamak için bu belgeyi kullanın. Daha ayrıntılı bilgi için [Power BI Visuals adlı git deposundaki](https://github.com/Microsoft/PowerBI-visuals) başvuru bilgilerine bakın.
-> 
-> 
 
 ## <a name="requirements"></a>Gereksinimler
+
 * NodeJS 4.0 veya sonraki bir sürümü gerekir (5.0 ya da sonraki bir sürümü önerilir) [NodeJS'yi indirin](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>NodeJS'yi ve Power BI araçlarını yükleme
+
 Özel bir görsel oluşturmak için NodeJS'yi yüklemeniz gerekir. NodeJS, komut satırı araçlarını çalıştırmak için gereklidir.
 
 1. [NodeJS](https://nodejs.org)'yi indirin ve yükleyin. 4.0 veya sonraki bir sürüm gereklidir ancak 5.0 veya sonraki bir sürümünün kullanılması önerilir.
@@ -83,12 +84,11 @@ ms.locfileid: "44726697"
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Sunucusu Sertifikası kurulumu
-Görselinizin canlı olarak önizlenebilmesini sağlamak için, güvenilen bir HTTPS sunucusu gerekir. Başlayabilmek için, görsel varlıkların tarayıcınızda yüklenmesine olanak sağlayan bir SSL sertifikası yüklemeniz gerekir. 
+
+Görselinizin canlı olarak önizlenebilmesini sağlamak için, güvenilen bir HTTPS sunucusu gerekir. Başlamadan önce, görsel varlıkların web tarayıcınızda yüklenmesine olanak sağlayan bir SSL sertifikasını yüklemeniz gerekir. 
 
 > [!NOTE]
 > Bu kurulum, geliştirici çalışma alanınız için bir kez gerçekleştirilir.
-> 
-> 
 
 Bir sertifika *oluşturmak* için aşağıdaki komutu çalıştırın.
 
@@ -96,9 +96,6 @@ Bir sertifika *oluşturmak* için aşağıdaki komutu çalıştırın.
 
 > [!NOTE]
 > Sertifikanın konum yolunu ve yeni oluşturulmuş bir Parola bulabileceğiniz bir ileti görürsünüz.
-> 
-> 
-
 
 Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
@@ -106,8 +103,6 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
 > [!NOTE]
 > PFX sertifikasını yüklemek için yeni oluşturulan Parolanızı kullanmanızı söyleyen bir ileti görürsünüz.
-> 
-> 
 
 **Windows İşletim Sistemi**
 
@@ -131,12 +126,10 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
 > [!NOTE]
 > Sertifika tanınmıyorsa bilgisayarınızı yeniden başlatmanız gerekebilir.
-> 
-> 
 
 **OSX**
 
-1. Sol üstteki kilit kapalıysa açmak için kilidi seçin. *localhost* sertifikasını bulup bu sertifikaya çift tıklayın.
+1. Sol üstteki kilit kapalıysa açmak için kilidi seçin. *localhost*’u arayın ve sertifikaya çift tıklayın.
 
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. **Her Zaman Güven** seçeneğini belirleyip pencereyi kapatın.
@@ -149,10 +142,9 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
 > [!NOTE]
 > Sertifika tanınmıyorsa bilgisayarınızı yeniden başlatmanız gerekebilir.
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>Geliştirici görselinin canlı olarak önizlenebilmesini sağlama
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>Geliştirici görselinin canlı olarak önizlenebilmesini sağlama
+
 Özel görselinizin canlı olarak önizlenebilmesini sağlamak için bu adımları uygulayın. Bu, görselin Power BI hizmetinde rapor düzenlerken kullanılabilmesini sağlar.
 
 1. [app.powerbi.com](https://app.powerbi.com) adresine gidip burada oturum açın.
@@ -168,16 +160,16 @@ Sertifikayı *yüklemek* için aşağıdaki komutu çalıştırın.
 
    > [!NOTE]
    > Bunun için, geliştirme yaptığınız makinedeki görsel klasöründe `pbiviz start` komutunu çalıştırmanız gerekir. Görselinizi oluşturma ile ilgili daha fazla bilgi için bu makaledeki [Yeni görsel oluşturma](#create-a-new-visual) bölümüne bakın.
-   > 
-   > 
+
 5. Rapor tuvalinde görseli seçin. Verileri, tıpkı diğer görseller için yaptığınız gibi bağlayabilirsiniz.
 
 Artık görselinizi geliştirmeye başlayabilirsiniz.
 
 ## <a name="create-a-new-visual"></a>Yeni görsel oluşturma
+
 Aşağıdaki komutu çalıştırarak yeni bir görsel projesi oluşturabilirsiniz.
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ pbiviz new MyVisualName
 Bu komut, çalıştırıldığı dizinde yeni bir klasör oluşturur. Görseliniz için basit bir başangıç şablonu ortaya çıkarır. Komut çalışmayı tamamladığında dizini açabilir ve yeni görseliniz üzerinde çalışmaya başlamak üzere, sık kullandığınız düzenleyicinizi kullanabilirsiniz.
 
 ## <a name="testing-your-visual-in-power-bi"></a>Power BI'da görselinizi test etme
+
 Görselinizi Power BI hizmetindeki raporlarda ve panolarda test edebilirsiniz.
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>Görselinizi çalıştırma
+
 Aşağıdakileri gerçekleştirerek görselinizi çalıştırabilirsiniz.
 
 1. Bir istem açın.
 2. Dizininizi görsel klasörünüz olarak ayarlayın. Bu, `pbiviz.json` dosyasını içeren klasördür.
 3. Aşağıdaki komutu çalıştırın.
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ Aşağıdakileri gerçekleştirerek görselinizi çalıştırabilirsiniz.
 
 Yanlış konumdaysanız aşağıdakine benzer bir hata ile karşılaşırsınız.
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ Yanlış konumdaysanız aşağıdakine benzer bir hata ile karşılaşırsınız
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Power BI'da görselinizi görüntüleme
+
 Görselinizi bir raporda görüntülemek için söz konusu rapora gidin ve **Görsel Öğeler** bölmesinden görseli seçin.
 
 > [!NOTE]
 > Bunu gerçekleştirmeden önce, [Görselinizi çalıştırma](#running-your-visual) bölümünde açıklandığı gibi `pbiviz start` komutunu çalıştırmanız gerekir.
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Power BI geliştirici görseli seçimi](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 Bu işlemin ardından görsele yönelik başlangıç şablonunu görürsünüz.
 
@@ -237,11 +230,12 @@ Bu işlemin ardından görsele yönelik başlangıç şablonunu görürsünüz.
 | --- | --- |
 | Görseli yenile |Otomatik yeniden yükleme devre dışıysa görseli elle yenileyin. |
 | Otomatik yeniden yüklemeyi aç/kapat |Etkinleştirildiğinde, görsel dosyanızı her kaydettiğinizde görsel otomatik olarak güncelleştirilir. |
-| Veri görünümünü göster |Hata ayıklama için görselin temel alınan veri görünümünü gösterir |
+| Veriler görünümünü gösterme |Hata ayıklama için görselin temel alınan veri görünümünü gösterir |
 | Yardım alın |GitHub'daki belgeler |
 | Geri bildirim gönder |Deneyimi nasıl iyileştirebileceğimizi bildirin. (GitHub hesabı gerekir) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Görselinizi Power BI Desktop'ta ve dağıtımda kullanım için paketleme
+
 Görselinizi [Power BI Desktop](https://powerbi.microsoft.com/desktop/)'a yükleyebilmek veya [Power BI görsel galerisinde](https://visuals.powerbi.com) toplulukla paylaşabilmek için bir `pbiviz` dosyası oluşturmanız gerekir.
 
 Aşağıdakileri gerçekleştirerek görselinizi paketleyebilirsiniz.
@@ -250,19 +244,21 @@ Aşağıdakileri gerçekleştirerek görselinizi paketleyebilirsiniz.
 2. Dizininizi görsel klasörünüz olarak ayarlayın. Bu, `pbiviz.json` dosyasını içeren klasördür.
 3. Aşağıdaki komutu çalıştırın.
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 Bu komut, görsel projenizin `dist/` dizininde bir `pbiviz` oluşturur. Bir `pbiviz` dosyası zaten varsa bunun üzerine yazılır.
 
 ## <a name="updating-the-visuals-api-version"></a>Görsellerin API sürümlerini güncelleştirme
+
 `pbiviz new` kullanarak bir görsel oluşturduğunuzda, uygun API türü tanımlarının ve JSON şemalarının bir kopyası, görselinizin dizinine kopyalanır. Gerektiğinde, bu dosyaları güncelleştirmek için `pbiviz update` komutunu kullanabilirsiniz. Bu, geçmiş bir API sürümüne yönelik bir düzeltme yayımlamamız veya en yeni API sürümüne güncelleştirme yapmak istemeniz halinde kullanışlı olabilir.
 
 ### <a name="updating-your-existing-api-version"></a>Mevcut API sürümünüzü güncelleştirme
+
 Mevcut bir API'ye ilişkin bir güncelleştirme yayımlamamız halinde aşağıdaki komutu çalıştırarak en son sürümü edinebilirsiniz.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 Böylece, güncelleştirilmiş tür tanımlarını ve şemaları içeren npm'deki en son araçlar indirilir. `pbiviz update` komutunun kullanılmasıyla, *pbiviz.json* dosyanızdaki `apiVersion` özelliğinin üzerine yazılarak bu özellik en son sürümle değiştirilir.
 
 ### <a name="upgrading-to-a-different-api-version"></a>Farklı bir API sürümüne yükseltme yapma
+
 Yukarıda bahsedilenlerle aynı adımları uygulayarak farklı bir API sürümüne güncelleştirme yapabilirsiniz. Kullanmak istediğiniz API sürümünü açık bir şekilde belirtebilirsiniz.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ Böylece görselinizin API sürümü 1.2.0 olarak güncelleştirilir. `1.2.0` s�
 
 > [!WARNING]
 > Araçlar, varsayılan API sürümü olarak API'nin kararlı sürümünü kullanılır. Varsayılan API sürümünden sonraki tüm sürümler kararsızdır ve değiştirilebilir. Bu sürümler beklenmedik davranışlar gösterebilir ve Power BI hizmeti ile Power BI Desktop'ta farklı davranışlara neden olabilir. Geçerli olarak sunulan kararlı API sürümü için [değişiklik günlüğüne](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md) bakın. Yayım öncesi sürümler ile ilgili daha fazla bilgi için [yol haritasına](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md) bakın.
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>Görsel projesinin iç yapısı
+
 Görsel projeniz, `pbiviz new` komutunu çalıştırdığınızda oluşturulan klasördür. 
 
 ### <a name="file-structure"></a>Dosya yapısı
@@ -308,6 +304,7 @@ Görsel projeniz, `pbiviz new` komutunu çalıştırdığınızda oluşturulan k
 | tsconfig.json |TypeScript derleyicisi ayarları. [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) hakkında daha fazla bilgi edinin. |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 Bu dosya, görselinize ilişkin ana yapılandırma dosyasıdır. Görselinizin oluşturulması için gereken meta verilerin yanı sıra dosyalarınızla ilgili bilgileri içerir.
 
 ```
@@ -336,6 +333,7 @@ Bu dosya, görselinize ilişkin ana yapılandırma dosyasıdır. Görselinizin o
 ```
 
 ### <a name="visual-source-typescript"></a>Görsel kaynağı (TypeScript)
+
 Görsel kodunun, daha gelişmiş özellikleri ve ES6/ES7 işlevlerine erken erişimi destekleyen TypeScript (JavaScript'in bir üst kümesi) dilinde yazılması gerekir.
 
 Tüm TypeScript dosyalarının `src/` dizininde depolanması ve `tsconfig.json` dosyasındaki `files` dizisine eklenmesi gerekir. Bu, TypeScript derleyicisinin dosyaları doğru sırayla yüklemesini sağlar.
@@ -347,6 +345,7 @@ Görselinizi oluşturmak için gerektiği kadar dosya ve sınıf oluşturabilirs
 [TypeScript](http://www.typescriptlang.org/) hakkında daha fazla bilgi edinin.
 
 ### <a name="visual-style-less"></a>Görsel stili (LESS)
+
 Görsel stili, basamaklı biçim tabloları (CSS) kullanılarak işlenir. Size kolaylık sağlamak adına, iç içe geçme, değişkenler, mixin'ler, koşullar ve döngüler gibi bazı gelişmiş özellikleri destekleyen LESS ön derleyicisini kullanıyoruz. Bu özelliklerden hiçbirini kullanmak istemiyorsanız LESS dosyasında yalın CSS yazmayı da tercih edebilirsiniz.
 
 Tüm LESS dosyalarının `style/` dizininde depolanması gerekir. `pbiviz.json` dosyanızdaki `style` alanında belirtilen dosya yüklenir. Tüm ek dosyaların `@import` komutu kullanılarak yüklenmesi gerekir.
@@ -354,12 +353,15 @@ Tüm LESS dosyalarının `style/` dizininde depolanması gerekir. `pbiviz.json` 
 [LESS](http://lesscss.org/) hakkında daha fazla bilgi edinin.
 
 ## <a name="debugging"></a>Hata ayıklama
+
 Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md) giderek göz atabilirsiniz.
 
 ## <a name="submit-your-visual-to-appsource"></a>Görselinizi AppSource'a gönderme
+
 Görselinizi AppSource'a göndererek başka kullanıcıların kullanımına sunabilirsiniz. Bu işlem ile ilgili daha fazla bilgi için bkz. [Publish custom visuals to the AppSource (AppSource'ta özel görseller yayımlama)](developer/office-store.md).
 
 ## <a name="troubleshooting"></a>Sorun giderme
+
 **Pbiviz komutunun bulanamaması (veya benzer hatalar)**
 
 Terminalinizde/komut satırınızda `pbiviz` komutunu çalıştırdığınızda yardım ekranını görmeniz gerekir. Aksi halde bu, yüklemenin düzgün bir şekilde gerçekleştirilmediği anlamına gelir. NodeJS 4.0 veya sonraki bir sürümünün yüklendiğinden emin olun.
@@ -376,8 +378,6 @@ Bu simgeyi görmüyorsanız görselin Power BI ayarlarında etkinleştirildiğin
 
 > [!NOTE]
 > Hata ayıklama görseli şu anda yalnızca Power BI hizmetinde kullanılabilir ve Power BI Desktop'ta veya mobil uygulamada kullanılamaz. Paketlenmiş görsel yine de her yerde çalışır.
-> 
-> 
 
 Daha fazla bilgi için bkz. [Geliştirici görselinin canlı olarak önizlenebilmesini sağlama](#enable-live-preview-of-developer-visual).
 
@@ -388,11 +388,11 @@ Görsel projenizin kökünde, terminalinize/komut satırınıza `pbiviz start` k
 Daha fazla bilgi için [Görselinizi çalıştırma](#running-your-visual) veya [Sunucu sertifikası kurulumu](#ssl-setup) başlıklı bölümlere bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI'daki görselleştirmeler](visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  
 [Publish custom visuals to the Office store (Office Mağazası'nda özel görseller yayımlama)](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [LESS CSS](http://lesscss.org/)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/) 

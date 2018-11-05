@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558459"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101497"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -47,9 +47,9 @@ Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidini indirme ve yükleme
 
-Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin. 
+Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin.
 
-Şirket içi veri ağ geçidi, bu bölümde açıklanan şekilde ağ geçidi yeniden yüklenerek güncelleştirilebilir. Ağ geçidi güncelleştirilirken (yeniden yüklenerek), mevcut ağ geçidi ayarlarınız korunur.
+Şirket içi veri ağ geçidini bu bölümde anlatılan şekilde yeniden yükleyerek güncelleştirebilirsiniz. Ağ geçidinin daha yeni bir sürümünü yüklediğiniz sürece mevcut ayarlarınız korunur. Aynı sürümü yüklerseniz, bu işlem tam bir yeniden yükleme olarak değerlendirilir ve ayarlarınız korunmaz.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

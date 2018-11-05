@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548155"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101221"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
@@ -50,10 +50,10 @@ Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan 
 * Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
 * Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
 * Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
-## <a name="system-requirements"></a>Sistem gereksinimleri
-Azure Audit Logs içerik paketi için Azure Portal'da Denetim Günlükleri erişimi gerekir. [Burada](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/) daha ayrıntılı bilgilere ulaşabilirsiniz.
+## <a name="system-requirements"></a>Sistem Gereksinimleri
+Azure Audit Logs içerik paketi için Azure portalda Denetim Günlükleri erişimi gerekir. [Burada](/azure/azure-resource-manager/resource-group-audit/) daha ayrıntılı bilgilere ulaşabilirsiniz.
 
 <a name="FindingParams"></a>
 
@@ -66,7 +66,7 @@ Abonelik kimliğinizi bulmanın iki kolay yolu vardır.
 Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer şekilde sayılardan ve karakterlerden oluşan uzun bir dizidir. 
 
 ## <a name="troubleshooting"></a>Sorun giderme
-Bir kimlik bilgileri hatası veya geçeriz kimlik bilgileri nedeniyle yenileme hatasıyla karşılaşırsanız lütfen Azure Audit Logs içerik paketinin tüm örneklerini silin ve yeniden bağlanmayı deneyin.
+Bir kimlik bilgileri hatası veya geçeriz kimlik bilgileri nedeniyle yenileme hatasıyla karşılaşırsanız Azure Audit Logs içerik paketinin tüm örneklerini silin ve yeniden bağlanmayı deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)  

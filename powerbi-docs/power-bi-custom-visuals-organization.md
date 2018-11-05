@@ -2,22 +2,22 @@
 title: Power BI’da özel kuruluş görsellerini kullanma
 description: Power BI'da özel kuruluş görsellerini kullanma, yönetme ve oluşturma
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/06/2018
-ms.author: maghan
+ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc4dcc26ac2007e482b396139d572018c8a3acd3
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34291915"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222094"
 ---
-# <a name="using-organization-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görsellerini kullanma
+# <a name="use-organizational-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görsellerini kullanma
 
 Power BI'da özel görselleri kullanarak size veya aktarmaya çalıştığınız veri bilgilerine göre uyarlanmış, benzersiz türde bir görsel oluşturabilirsiniz. Bu özel görseller genellikle geliştiriciler tarafından, Power BI’daki birçok görselin gereksinimlerini tam olarak karşılamadığı durumlarda oluşturulur. 
 
@@ -25,34 +25,33 @@ Bazı kuruluşlarda özel görseller daha da önemlidir ve bunlar kuruluşa özg
 
 Aşağıdaki resimde, Power BI’daki özel kuruluş görsellerinin yöneticiden başlayıp geliştirme ve bakım aşamalarından geçerek veri analistinde sonlanan akış süreci gösterilmektedir.
 
-![](media/power-bi-custom-visuals-organizational/custom-visual-org-01.jpg)
+![Özel görsel resmi](media/power-bi-custom-visuals-organizational/custom-visual-org-01.jpg)
 
 Kuruluş görselleri, Power BI yöneticisi tarafından Yönetim portalından dağıtılır ve yönetilir. Görsel kuruluş deposuna dağıtıldıktan sonra kuruluştaki kullanıcılar bunları doğrudan Power BI Desktop’tan kolayca keşfedebilir ve özel kuruluş görsellerini raporlarında içeri aktarabilir.
 
-## <a name="using-organizational-custom-visuals"></a>Özel kuruluş görsellerini kullanma
-
 Oluşturduğunuz raporlarda özel kuruluş görsellerini kullanma hakkında daha fazla bilgi için şu makaleye bakın: [Kuruluş görsellerini raporlarınızda içeri aktarma hakkında daha fazla bilgi edinin](power-bi-custom-visuals.md).
- 
-## <a name="administering-organizational-custom-visuals"></a>Özel kuruluş görsellerini yönetme
+
+## <a name="administer-organizational-custom-visuals"></a>Özel kuruluş görsellerini yönetme
 
 Kuruluşunuzda özel kuruluş görsellerini yönetme, dağıtma ve yönetme hakkında daha fazla bilgi edinmek için şu makaleye bakın: [Özel kuruluş görsellerinin dağıtımı ve yönetimi hakkında daha fazla bilgi edinin](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Özel bir görsel, güvenlik veya gizlilik riski taşıyan kod içerebilir. Bir özel görseli kuruluş deposuna dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun. 
-> 
+> Özel bir görsel, güvenlik veya gizlilik riski taşıyan kod içerebilir. Bir özel görseli kuruluş deposuna dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
- 
+
 Bilmeniz gereken birçok önemli nokta ve sınırlama vardır.
- 
+
 Yönetici:
 
 * Eski özel görseller (sürümü tutulan yeni API'leri temel almayan özel görseller gibi) desteklenmez
 
 * Özel bir görsel depodan silinirse, silinen görseli kullanan tüm mevcut raporlar işlenmeyi durdurur. Depodan silme işlemi geri alınamaz. Özel bir görseli geçici olarak devre dışı bırakmak için "Devre dışı bırak" özelliğini kullanın.
- 
+
 Son kullanıcı:
 
-* Kuruluş görselleri için Power BI Çalışma Alanı Koleksiyonu desteklenmez
+* Özel kuruluş görselleri, kuruluş deposundan içeri aktarılan özel görsellerdir. Tüm özel görsellerde olduğu gibi [PowerPoint’e aktarılamaz](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) veya kullanıcı [rapor sayfalarına abone olduğunda](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe) gönderilen e-postalarda görüntülenmez. Bu özellikler yalnızca doğrudan marketten içeri aktarılmış olan [sertifikalı özel görseller](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified) için kullanılabilir.
 
-* AppSource marketten edinilen Visio görseli, PowerApps görseli ve GlobeMap görseli kuruluş deposu aracılığıyla dağıtılırsa gösterilmez
+* AppSource marketten edinilen Visio görseli, PowerApps görseli, Harita kutusu görseli ve GlobeMap görseli kuruluş deposu aracılığıyla dağıtılırsa gösterilmez.
+
+Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için bkz. [sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-custom-visuals).

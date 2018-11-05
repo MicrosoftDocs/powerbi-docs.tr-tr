@@ -4,18 +4,18 @@ description: SQL Server Reporting Services (SSRS) ve Power BI hizmetinin geri ka
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294583"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101411"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
@@ -28,6 +28,9 @@ Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevri
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Rapor Sunucusunu lisanslama
 Power BI Rapor Sunucusu iki farklı lisansla kullanılabilir: [Power BI Premium](../service-premium.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
+
+> [!NOTE]
+> Power BI Premium için Power BI Rapor Sunucusu yalnızca P SKU’ları ile birlikte sunulur. EM SKU’larına dahil değildir.
 
 ## <a name="web-portal"></a>Web portalı
 Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görüntüleyebileceğiniz güvenli bir web portalıdır. Buradan tüm raporlarınıza ve KPI'larınıza erişebilirsiniz. Web portalındaki içerik, geleneksel bir klasör hiyerarşisi halinde düzenlenir. Klasörlerinizdeki içerik, türe göre gruplandırılır: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar, KPI'lar ve Excel çalışma kitapları, paylaşılan veri kümeleri ve raporlarınız için yapı taşı olarak kullanılabilecek paylaşılan veri kaynakları. Sık kullanılanları tek bir klasörde görüntülemek üzere etiketleyebilirsiniz. Ayrıca doğrudan web portalında KPI'ler oluşturabilirsiniz. 
@@ -66,7 +69,7 @@ Diğer [Rapor Sunucusu geliştirici belgeleri](https://docs.microsoft.com/sql/re
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
-[Install Report Builder (Rapor Oluşturucusu'nu yükleme)](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

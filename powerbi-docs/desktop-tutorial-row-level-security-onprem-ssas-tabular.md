@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456146"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101589"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.
@@ -72,6 +72,9 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     Bu formülde **LOOKUPVALUE** işlevi **DimUserSecurity[SalesTerritoryID]** sütunu için tüm değerleri döndürür ve burada **DimUserSecurity[UserName]**, oturum açmış olan Windows kullanıcı adıyla, **DimUserSecurity[SalesTerritoryID]** ise **DimSalesTerritory[SalesTerritoryKey]** değeriyle aynıdır.
    
+    > [!IMPORTANT]
+    > Satır düzeyi güvenlik kullanıldığında [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) DAX işlevinin desteklenmediğine dikkat edin.
+
    **DimSalesTerritory** içinde gösterilen satırları kısıtlamak için **LOOKUPVALUE** tarafından döndürülen Sales SalesTerritoryKey değerleri kullanılır. Yalnızca satırın **SalesTerritoryKey** değerinin **LOOKUPVALUE** işlevi tarafından döndürülen kümede bulunduğu satırlar görüntülenir.
 8. **DimUserSecurity** tablosu için **DAX Filtresi** sütununa aşağıdaki formülü yazın:
    

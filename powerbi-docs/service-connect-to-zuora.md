@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546982"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003237"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI ile Zuora'ya bağlanma
 Power BI için Zuora; önemli gelir, faturalandırma ve abonelik verilerini görselleştirmenizi sağlar. Kullanım eğilimlerini çözümlemek, fatura ve ödemeleri takip etmek ve yinelenen geliri izlemek için varsayılan pano ve raporları kullanın veya bunları kendi benzersiz pano ve raporlama ihtiyaçlarınızı karşılayacak şekilde özelleştirin.
@@ -32,13 +32,13 @@ Power BI için [Zuora](https://app.powerbi.com/getdata/services/Zuora)'ya bağla
 3. **Zuora** \> **Al** seçeneğini belirleyin.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Zuora URL'nizi belirtin. Bu genellikle "<https://www.zuora.com>" olur; [bu parametreleri bulma](#FindingParams) konusundaki ayrıntılı bilgileri aşağıda bulabilirsiniz.
+4. Zuora URL'nizi belirtin. Bu URL genellikle "<https://www.zuora.com>" olur; [bu parametreleri bulma](#FindingParams) konusundaki ayrıntılı bilgileri aşağıda bulabilirsiniz.
 
    ![](media/service-connect-to-zuora/params.png)
 5. **Kimlik doğrulama yöntemi** için **Temel** seçeneğini belirleyin ve kullanıcı adınızı ve parolanızı sağlayın (büyük/küçük harfe duyarlıdır), ardından **Oturum aç**'ı seçin.
 
     ![](media/service-connect-to-zuora/creds.png)
-6. Onaylamanızın ardından, içeri aktarma işlemi otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
+6. Onay vermenizin ardından, içeri aktarma işlemi otomatik olarak başlar. İşlem tamamlandığında Gezinti Bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
 
      ![](media/service-connect-to-zuora/dashboard.png)
 
@@ -95,7 +95,6 @@ Zuora API erişimi gereklidir.
 Genellikle Zuora verilerinize erişmek için kullandığınız oturum açma URL'sini sağlayın. Geçerli seçenekler şunlardır:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * Hizmet örneğinize ilişkin URL  
 
 ## <a name="troubleshooting"></a>Sorun giderme

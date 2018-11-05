@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641218"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100784"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -42,41 +42,38 @@ Raporunuzu SharePoint Online'a eklemek için öncelikle raporun URL'sini alıp b
 2. **Dosya** menü öğesini seçin.
 
 3. **SharePoint Online'a ekle**'yi seçin.
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![Dosya menüsü](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. İletişim kutusundaki URL'yi kopyalayın.
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > Raporları görüntülerken web tarayıcınızın adres çubuğunda görüntülenen URL'leri de kullanabilirsiniz. Bu URL, görüntülemekte olduğunuz rapor sayfasını içerir. Farklı bir sayfayı kullanmak istiyorsanız URL'deki rapor bölümünü kaldırmanız gerekir.
+    ![Ekleme bağlantısı](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Power BI raporunu bir SharePoint Online sayfasına ekleme
 
 1. SharePoint Online'da raporu eklemek istediğiniz sayfayı açıp **Düzenle**'yi seçin.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![SP düzenleme sayfası](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     Alternatif olarak, SharePoint Online'da **+ Yeni**'yi seçerek yeni bir modern site oluşturabilirsiniz.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![SP yeni sayfa](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. **+** öğesini ve **Power BI** web bölümünü seçin.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![SP yeni web bölümü](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. **Rapor ekle**'yi seçin.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![SP yeni rapor](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Rapor URL'sini özellik bölmesine yapıştırın. Bu, yukarıdaki adımlarda kopyaladığınız URL'dir. Rapor otomatik olarak yüklenir.
+4. Rapor URL'sini özellik bölmesine yapıştırın. Bu rapor URL’si, yukarıdaki adımlarda kopyaladığınız URL’dir. Rapor otomatik olarak yüklenir.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![SP yeni web bölümü özellikleri](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. SharePoint Online kullanıcılarınızın bu değişikliği görebilmesi için **Yayımla**'yı seçin.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![SP rapor yüklendi](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>Raporlara yönelik erişim izni verme
 
@@ -87,24 +84,12 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 
 Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
 
-Alternatif olarak, kullanıcılarınıza rapora yönelik erişim izni vermek için aşağıdaki adımları da izleyebilirsiniz.
+Alternatif olarak raporu bir uygulamaya ekleyerek kullanıcılarla doğrudan paylaşabilirsiniz. Raporun eklenmesi için uygulamanın önceden yüklenmiş olması gerekir. **Uygulamayı otomatik olarak yükleme** özelliğini kullanarak önceden yüklenecek uygulamayı belirleyebilirsiniz.
 
-1. Rapordan panoya bir kutucuk ekleme.
+   ![Uygulamayı otomatik olarak yükle](media/service-embed-report-spo/install-app-automatically.png)
 
-2. Panoyu, rapora erişmesi gereken kullanıcılarla paylaşma. Daha fazla bilgi için bkz. [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md).
-
-## <a name="web-part-settings"></a>Web bölümü ayarları
-
-Aşağıda, SharePoint Online'a yönelik Power BI web bölümü için yapılabilecek ayarların açıklamalarına yer verilmiştir.
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| Özellik | Açıklama |
-| --- | --- |
-| Sayfa adı |Web bölümü tarafından gösterilen varsayılan sayfayı ayarlar. Açılan listeden bir değer seçin. Herhangi bir sayfa görüntülenmiyorsa raporunuzda tek sayfa vardır veya yapıştırdığınız URL bir sayfa adı içeriyordur. Belirli bir sayfayı seçmek için URL'deki rapor bölümünü kaldırın. |
-| Görüntüle |Bu seçenek, raporun SharePoint Online sayfasına nasıl yerleştirileceğini ayarlamanızı sağlar. |
-| Gezinti Bölmesini Göster |Gezinti bölmesini gösterir veya gizler. |
-| Filtre Bölmesini Göster |Filtre bölmesini gösterir veya gizler. |
+> [!NOTE]
+> **Kullanıcının SharePoint sayfasındaki raporu görebilmesi için hem SharePoint sayfasına hem de rapora erişim sahibi olması gerekir.**
 
 ## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 
@@ -113,13 +98,26 @@ Power BI ortamınızda oturum açmak için çok faktörlü kimlik doğrulaması 
 > [!NOTE]
 > Çok faktörlü kimlik doğrulaması henüz Azure Active Directory 2.0 sürümünde desteklenmemektedir. Kullanıcılar *hata* ifadesini içeren bir iletiyle karşılaşır. Kullanıcı, güvenlik cihazını kullanarak SharePoint Online oturumu açması halinde raporu görüntüleyebilir.
 
+## <a name="web-part-settings"></a>Web bölümü ayarları
+
+Aşağıda, SharePoint Online'a yönelik Power BI web bölümü için yapılabilecek ayarların açıklamalarına yer verilmiştir.
+
+![SP web bölümü özellikleri](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| Özellik | Açıklama |
+| --- | --- |
+| Sayfa adı |Web bölümü tarafından gösterilen varsayılan sayfayı ayarlar. Açılan listeden bir değer seçin. Herhangi bir sayfa görüntülenmiyorsa raporunuzda tek sayfa vardır veya yapıştırdığınız URL bir sayfa adı içeriyordur. Belirli bir sayfayı seçmek için URL'deki rapor bölümünü kaldırın. |
+| Görüntüle |Bu seçenek, raporun SharePoint Online sayfasına nasıl yerleştirileceğini ayarlamanızı sağlar. |
+| Gezinti Bölmesini Göster |Gezinti bölmesini gösterir veya gizler. |
+| Filtre Bölmesini Göster |Filtre bölmesini gösterir veya gizler. |
+
 ## <a name="reports-that-do-not-load"></a>Yüklenmeyen raporlar
 
 Raporunuz, Power BI web bölümünde yüklenmeyebilir ve aşağıdaki ileti görüntülenebilir.
 
 *Bu içerik kullanılamıyor.*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Rapor bulunamadı iletisi](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Bu iletinin iki olası nedeni vardır.
 
@@ -128,11 +126,15 @@ Bu iletinin iki olası nedeni vardır.
 
 Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahibiyle iletişime geçin.
 
+## <a name="licensing"></a>Lisanslama
+
+SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisansına** sahip olması veya içeriğin bir **[Power BI Premium kapasitesinde (EM veya P SKU)](service-admin-premium-purchase.md)** bulunması gerekir.
+
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
-* Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token" (Hata: Bir hata oluştu, lütfen oturumunuzu kapatıp açtıktan sonra bu sayfayı yeniden ziyaret etmeyi deneyin. Bağıntı kimliği: tanımsız, http yanıtı durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik)
+* Error: "An error occurred, please try logging out and back in and then revisiting this page. Bağıntı kimliği: tanımsız, http yanıtı durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik"
   
-  Bu hatayla karşılaşırsanız lütfen aşağıdakilerden birini yapmayı deneyin.
+  Bu hatayı almaya devam ederseniz aşağıdaki sorun giderme adımlarından birini deneyin.
   
   1. SharePoint oturumunuzu kapatıp tekrar açın. Tekrar oturum açmadan önce tüm tarayıcı pencerelerini kapattığınızdan emin olun.
 
