@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
-ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
+ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46506811"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736976"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -92,7 +92,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded kapasite tüketimini nasıl izleyebilirim?
 
-* [Power BI Yönetim portalını](../service-admin-portal.md#power-bi-embedded-settings) kullanarak.
+* [Power BI Yönetim portalını](../service-admin-portal.md#power-bi-embedded) kullanarak.
 
 * Power BI’daki [ölçüm uygulamasını](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) indirerek.
 
