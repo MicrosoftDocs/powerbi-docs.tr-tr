@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973598"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223180"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 
@@ -29,7 +29,7 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 | Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için (uygulama veriye sahiptir) panolar, raporlar ve kutucuklar ekleme |[Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md) |
 | Power BI panosuna anahtar veri göndermek için mevcut iş akışını genişletme. |[Bir panoya veri gönderme](walkthrough-push-data.md) |
 | Power BI'da kimlik doğrulaması yapma. |[Power BI'da kimlik doğrulaması yapma](get-azuread-access-token.md) |
-| Özel görsel oluşturma. |[Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Özel görsel oluşturma. |[Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > Power BI API'lerde uygulama çalışma alanları hâlâ gruplar olarak adlandırılmaktadır. Gruplara yapılan başvurular, uygulama çalışma alanlarıyla çalıştığınızı gösterir.
@@ -72,7 +72,7 @@ Veri kümesine veri göndermek için Power BI API'yi kullanabilirsiniz. Bu özel
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Bir veri kümesine veri gönderme](walkthrough-push-data.md)  
-[Özel görseller geliştirici araçları ile çalışmaya başlama](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)  
 [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
