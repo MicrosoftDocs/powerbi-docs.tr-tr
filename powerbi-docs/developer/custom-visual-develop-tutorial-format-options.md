@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161038"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223272"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görsellerine biçimlendirme seçenekleri ekleme
 
@@ -254,6 +254,10 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 8. **Daire Kartı** simgesinin üzerine geldiğinizde açılan araç ipucunu inceleyin.
 
-## <a name="next-steps"></a>Sonraki Adımlar
+## <a name="debugging"></a>Hata ayıklama
 
-Yeni geliştirdiğiniz görseli başkaları tarafından kullanılacak şekilde yayımlama hakkında daha fazla bilgi edinmek için bkz. [AppSource’ta özel görsel yayımlama](office-store.md).
+Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/) giderek göz atabilirsiniz.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Yeni geliştirilen görselinizi **AppSource**'a göndererek başka kullanıcıların kullanımına sunmak üzere listeleyebilirsiniz. Bu işlemle ilgili daha fazla bilgi için lütfen [AppSource'ta özel görseller yayımlama](office-store.md) konusuna başvurun.

@@ -2,6 +2,7 @@
 title: Sertifikalı Power BI özel görselleştirmeleri
 description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri. Önceden sertifikalanan özel görseller listesi.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252411"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223456"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Özel görselleri *sertifikalatma*
+
 ## <a name="what-is-meant-by-certified"></a>*Sertifikalı* ile belirtilmek istenen nedir?
+
 *Sertifikalı özel görsel*, bir dizi kod gereksinimini karşılaşmış ve katı güvenlik testlerini geçmiş görsel demektir.  Bir özel görsel sertifikalandığında, [PowerPoint'e aktarılabilir](consumer/end-user-powerpoint.md) ve kullanıcı [Rapor sayfalarına abone olduğunda](consumer/end-user-subscribe.md) alınan e-postalarda görüntülenir. Elbette, Power BI hizmeti ve Power BI Desktop raporlarına eklenen ve Power BI mobilde görüntülenip eklenen [standart özel görseller](power-bi-custom-visuals.md) gibi de kullanılabilir.
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları [Microsoft AppSource](https://appsource.microsoft.com)'a eklemek mi istiyorsunuz? Nasıl yapacağınızı öğrenmek için bkz.[Geliştirici Araçlarıyla çalışmaya başlama](service-custom-visuals-getting-started-with-developer-tools.md).
-
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları [Microsoft AppSource](https://appsource.microsoft.com)'a eklemek mi istiyorsunuz? Nasıl yapıldığını öğrenmek için [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md) konusuna bakın.
 
 ## <a name="certification-requirements"></a>Sertifikasyon gereksinimleri
-* Microsoft AppSource onaylı    
-* Özel görsel, API 1.2 veya sonraki bir sürümle yazılmıştır    
-* Kod deposu gözden geçirme için kullanılabilir (örneğin, Görsel Kod GitHub aracılığıyla kullanımımıza açıktır)    
-* Sadece genel kullanıma açık olarak gözden geçirilebilen OSS bileşenlerini kullanır    
-* Dış hizmetlere ya da kaynaklara erişimi yoktur    
+
+* Microsoft AppSource onaylı
+* Özel görsel, API 1.2 veya sonraki bir sürümle yazılmıştır
+* Kod deposu gözden geçirme için kullanılabilir (örneğin, Görsel Kod GitHub aracılığıyla kullanımımıza açıktır)
+* Sadece genel kullanıma açık olarak gözden geçirilebilen OSS bileşenlerini kullanır
+* Dış hizmetlere ya da kaynaklara erişimi yoktur
 
 > **İPUCU**: Göndermeden önce kodunuzu doğrulamak için varsayılan güvenlik kural setiyle EsLint'i kullanmanızı öneririz.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Sertifikasyon için özel görsel gönderme işlemi
+
 Bir özel görseli sertifikasyona göndermek için:
 
 1. Power BI Özel Görseller Destek (pbicvsupport@microsoft.com) birimine bir e-posta gönderin. E-postada aşağıdaki bilgileri verin:    
 
-   * Başlık: Görsel Sertifikasyon Talebi    
-   * Görsel kaynak kodunun bulunduğu GitHub deposu bağlantısı    
-   * Gereksinimlere uygunluk bilgisi (yukarıya bakın)    
-   * Kod ve güvenlik incelemesini geçtiği bilgisi    
+   * Başlık: Görsel Sertifikasyon Talebi
+   * Görsel kaynak kodunun bulunduğu GitHub deposu bağlantısı
+   * Gereksinimlere uygunluk bilgisi (yukarıya bakın)
+   * Kod ve güvenlik incelemesini geçtiği bilgisi
 
 2. Microsoft Özel Görseller ekibi, özel görseliniz sertifikalandığında ve Sertifikalı listesine (aşağıda) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve Sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI Sertifikalı özel görsellerinin kaldırılması
+
 Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden kaldırabilir.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Sertifikalı özel görseller listesi
@@ -142,10 +144,11 @@ Microsoft, kendi takdirine bağlı olarak, bir görseli Sertifikalı listesinden
 | [Word Cloud](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Video](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Özel görseller geliştirici araçları ile çalışmaya başlama (Önizleme)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[Microsoft'un YouTube'daki özel görsel oynatma listesi](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI'daki Görselleştirmeler](visuals/power-bi-report-visualizations.md)  
-[Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  
-[Microsoft AppSource'ta özel görseller yayımlama](developer/office-store.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
+* [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md)
+* [Microsoft'un YouTube'daki özel görsel oynatma listesi](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Power BI'daki Görselleştirmeler](visuals/power-bi-report-visualizations.md)  
+* [Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  
+* [Microsoft AppSource'ta özel görseller yayımlama](developer/office-store.md)  
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

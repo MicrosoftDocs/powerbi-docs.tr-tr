@@ -1,5 +1,5 @@
 ---
-title: URL'yi kullanarak Power BI rapor parametreleri ekleme
+title: URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 description: URL sorgu dizesi parametrelerini kullanarak bir raporu ve hatta birden fazla alanı filtreleyebilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,24 +9,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396969"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973385"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
-Power BI hizmetinde bir raporu açtığınızda, rapordaki her sayfanın kendine ait bir URL'si bulunur. Bu rapor sayfasının filtrelemek için rapor tuvalindeki Filtreler bölmesini kullanabilirsiniz.  Alternatif olarak URL'ye sorgu dizesi parametreleri ekleyerek rapora ön filtreleme uygulayabilirsiniz. İş arkadaşlarınıza göstermek istediğiniz bir raporunuz olabilir ve bu raporu onlar için önceden filtrelemek isteyebilirsiniz. Bunu yapmanın bir yolu raporun varsayılan URL'si ile başlamak, filtre parametrelerini URL'ye eklemek ve ardından iş arkadaşlarınıza yeni URL'nin tamamını e-posta ile göndermektir.
+Power BI hizmetinde bir raporu açtığınızda, rapordaki her sayfanın kendine ait bir URL'si bulunur. Bu rapor sayfasının filtrelemek için rapor tuvalindeki Filtreler bölmesini kullanabilirsiniz.  Alternatif olarak URL'ye sorgu dizesi parametreleri ekleyerek rapora ön filtreleme uygulayabilirsiniz. İş arkadaşlarınıza göstermek istediğiniz bir raporunuz olabilir ve bu raporu onlar için önceden filtrelemek isteyebilirsiniz. Filtre uygulamanın bir yolu raporun varsayılan URL'si ile başlamak, filtre parametrelerini URL'ye eklemek ve ardından iş arkadaşlarınıza yeni URL'nin tamamını e-posta ile göndermektir.
 
 ![Hizmette Power BI raporu](media/service-url-filters/power-bi-report2.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Sorgu dizisi parametrelerinin kullanımları
 
-Power BI Desktop'ta çalıştığınızı ve diğer Power BI raporlarına bağlantılı bir rapor oluşturmak istediğinizi ancak diğer raporlardaki bilgilerin yalnızca bir bölümünü göstermek istediğinizi düşünelim. İlk olarak sorgu dizesi parametrelerini kullanarak raporları filtrelemeniz ve URL'leri kaydetmeniz gerekir. Ardından bu rapor URL'leriyle Desktop uygulamasında yeni bir tablo oluşturabilirsiniz.  Son adımda da bu raporu yayımlayıp paylaşabilirsiniz.
+Power BI Desktop'ta çalıştığınızı düşünelim. Diğer Power BI raporlarına bağlantılı bir rapor oluşturmak istiyorsunuz ancak diğer raporlardaki bilgilerin yalnızca bir bölümünü göstermeyi tercih ediyorsunuz. İlk olarak sorgu dizesi parametrelerini kullanarak raporları filtrelemeniz ve URL'leri kaydetmeniz gerekir. Ardından bu rapor URL'leriyle Desktop uygulamasında yeni bir tablo oluşturabilirsiniz.  Son adımda da bu raporu yayımlayıp paylaşabilirsiniz.
 
 Sorgu dizesi parametrelerinin başka bir kullanımı da gelişmiş Power BI çözümü oluşturmaktır.  DAX kullanarak dinamik olarak müşterisinin geçerli raporda yaptığı seçimleri temel alan filtrelenmiş rapor URL'si üreten bir rapor oluşturur. Müşteriler URL'yi seçtiğinde yalnızca istenen bilgileri görür. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tablo***/***Alan*** eq '***değer***'
 
 ### <a name="field-types"></a>Alan türleri
 
-Alan türü sayı, tarih saat veya dize olabilir ve kullanılan türün veri kümesindeki tür kümesiyle eşleşmesi gerekir.  Örneğin tarih olarak belirlenmiş bir veri kümesi sütununda (örneğin, Table/StringColumn eq 1) bir tarih saat veya sayısal değer arıyorsanız tablo sütununun "dize" türünde belirtilmesi uygun olmayacaktır.
+Alan türü sayı, tarih saat veya dize olabilir ve kullanılan türün veri kümesindeki tür kümesiyle eşleşmesi gerekir.  Örneğin tarih olarak belirlenmiş bir veri kümesi sütununda (Table/StringColumn eq 1 gibi) bir tarih saat veya sayısal değer arıyorsanız tablo sütununun "dize" türünde belirtilmesi uygun olmayacaktır.
 
 * **Dizelerin** tek tırnak içine alınması gerekir: 'yönetici adı'.
 * **Sayılar** için özel biçimlendirmeye gerek yoktur
@@ -85,7 +85,7 @@ Ayrıca URL'nize ek parametreler ekleyerek birden çok alanda filtreleme yapabil
 ?filter=Store/Territory eq 'NC'
 ```
 
-Ek alanlarda filtreleme yapmak için bir **and** ve yukarıdaki biçimde başka bir alan ekleyin. Bu işlemin bir örneği aşağıdadır.
+Ek alanlarda filtreleme yapmak için bir '**and**' ve yukarıdaki biçimde başka bir alan ekleyin. Bu işlemin bir örneği aşağıdadır.
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,7 +95,7 @@ Ek alanlarda filtreleme yapmak için bir **and** ve yukarıdaki biçimde başka 
 
 ## <a name="operators"></a>İşleçler
 
-Power BI, **and** haricinde birçok işleci de destekler. Aşağıdaki tabloda bu işleçler ve destekledikleri içerik türleri listelenmiştir.
+Power BI, '**and**' haricinde birçok işleci de destekler. Aşağıdaki tabloda bu işleçler ve destekledikleri içerik türleri listelenmiştir.
 
 |işleç  | tanım | dize  | sayı | Tarih |  Örnek|
 |---------|---------|---------|---------|---------|---------|
@@ -125,13 +125,13 @@ Power BI URL filtresi aşağıdaki biçimlerde sayı içerebilir.
 
 ### <a name="date-data-types"></a>Tarih veri türleri
 
-Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar.  Tarihler EDM biçiminde (2019-02-12T00:00:00) gösterilir. Bu da YYYY-AA-GG biçiminde bir tarih belirttiğinizde Power BI'ın bunu YYYY-AA-GGT00:00:00 şeklinde yorumlayacağı anlamına gelir.
+Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar.  Tarihler EDM biçimi (2019-02-12T00:00:00) kullanılarak gösterilir. Bu nedenle YYYY-AA-GG biçiminde bir tarih belirttiğinizde Power BI bunu YYYY-AA-GGT00:00:00 olarak yorumlar.
 
 Bu ayrım neden önemlidir? **Table/Date gt 2018-08-03** şeklinde bir sorgu dizesi parametresi oluşturduğunuzu düşünelim.  Sonuçlar 3 Ağustos 2018'i kapsayacak mı yoksa 4 Ağustos 2018'den mi başlayacak? Power BI sorgunuzu**Table/Date gt 2018-08-03T00:00:00** şekline dönüştürdüğünden sonuçlarınız saat bölümü sıfır olmayan tarihleri **2018-08-03T00:00:00** tarihinden büyük olacağından kapsayacaktır.
 
 ## <a name="special-characters-in-url-filters"></a>URL filtrelerindeki özel karakterler
 
-Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X (**_x**) ile başlayan, ardından 4 haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode 4 karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
+Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X (**_x**) ile başlayan, ardından dört haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode dört karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
 
 |Tanımlayıcı  |Unicode  | Power BI için kodlama  |
 |---------|---------|---------|
@@ -159,9 +159,9 @@ Raporu Power BI hizmetinde yayımlayın ve ardından yalnızca NC'deki Lindseys 
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Filtrelenen bir rapordan kutucuk sabitleme
 
-Sorgu dizesi parametrelerini kullanarak raporu filtreledikten sonra bu rapordaki görselleştirmeleri panonuza sabitleyebilirsiniz.  Pano üzerindeki kutucuk filtrelenmiş verileri görüntüler ve bu pano kutucuğunu seçtiğinizde, kutucuğu oluşturmak için kullanılan rapor açılır.  Ancak, URL'yi kullanarak yaptığınız filtreleme raporla kaydedilmez ve pano kutucuğu seçildiği zaman, rapor filtrelenmemiş durumda açılır.  Bu, pano kutucuğunda görüntülenen verilerin, rapor görselleştirmesinde görüntülenen verilerle eşleşmeyeceği anlamına gelir.
+Sorgu dizesi parametrelerini kullanarak raporu filtreledikten sonra bu rapordaki görselleştirmeleri panonuza sabitleyebilirsiniz.  Pano üzerindeki kutucuk filtrelenmiş verileri görüntüler ve bu pano kutucuğunu seçtiğinizde, kutucuğu oluşturmak için kullanılan rapor açılır.  Ancak URL ile uyguladığınız filtre, rapora kaydedilmez. Pano kutucuğunu seçtiğinizde rapor filtrelenmemiş bir şekilde açılır.  Bu da pano kutucuğunda görüntülenen verilerin, rapor görselleştirmesinde görüntülenen verilerle eşleşmeyeceği anlamına gelir.
 
-Bu durum panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görmek istediğinizde yararlıdır.
+Bu uyuşmazlık panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik sonuçlar görmek istediğinizde yararlıdır.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 

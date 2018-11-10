@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137342"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909606"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -101,11 +101,35 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 
+Power BI Desktop ile her zaman harika bir deneyim yaşamanızı istiyoruz. Power BI Desktop'ta sorunlarla karşılaştığınız noktalar olabilir. Bu bölümde ortaya çıkabilecek sorunlarla ilgili çözümlere veya önerilere yer verilmiştir. 
+
+### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop'ın önceki sürümlerini kullanırken ortaya çıkan sorunlar
+
 Bazı kullanıcılar, **Power BI Desktop**’ın eski bir sürümü kullanıldığında aşağıdakine benzer bir hata ile karşılaşır: 
 
     "We weren't able to restore the saved database to the model" 
 
 Power BI Desktop’ın geçerli sürümüne güncelleştirme yapıldığında sorun genellikle çözülür.
+
+### <a name="disabling-notifications"></a>Bildirimleri devre dışı bırakma
+Özellik, performans, kararlılık alanlarındaki ve diğer konulardaki gelişmelerden faydalanabilmeniz için Power BI Desktop'ı en son sürümüne güncelleştirmenizi öneririz. Bazı kuruluşlar kullanıcıların yeni bir sürüm çıktığında güncelleştirme yapmasını istemeyebilir. Aşağıdaki adımları izleyerek kayıt defterinde yapacağınız bir değişiklikle bildirimleri devre dışı bırakabilirsiniz:
+
+1. Kayıt Defteri Düzenleyicisi'ni kullanarak şu konuma gidin: *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
+2. Şu ayarlarla yeni bir giriş oluşturun: *REG_DWORD : DisableUpdateNotification*
+3. Yeni girişin değerini **1** olarak belirleyin.
+
+Değişikliğin etkili olabilmesi için bilgisayarınızı yeniden başlatmanız gerekir.
+
+### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop ekranı tam olarak yüklenmiyor
+
+Belirli ekran çözünürlüğü yapılandırmalarında bazı kullanıcılar Power BI Desktop'ta büyük siyah alanların görüntülendiğini görebilir. Bu durum genellikle doğrudan Power BI Desktop'ın içerik sunmasıyla ilgili değil yapılan son işletim sistemi güncelleştirmelerinin öğelerin işlenme şeklini etkilemesiyle ilgilidir. Nedeni her ne olursa olsun büyük siyah alanların göze hoş görünmediğini biliyoruz. Bu sorunu gidermek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Başlat tuşuna basın ve açılan arama çubuğuna *bulanık* yazın.
+2. Açılan iletişim kutusunda şu seçeneği belirleyin: *Uygulamaların bulanık olmaması için Windows'un uygulamaları düzeltmeye çalışmasına izin ver*.
+3. Power BI Desktop'ı yeniden başlatın.
+
+Bu sorun sonraki Windows güncelleştirmeleriyle birlikte giderilebilir. 
+ 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Power BI Desktop** uygulamasını yükledikten sonra aşağıdaki makaleler hızlı bir şekilde çalışmaya başlamanızı sağlayabilir:

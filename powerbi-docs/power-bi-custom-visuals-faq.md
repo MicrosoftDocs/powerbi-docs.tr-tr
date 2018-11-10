@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2e43d205b9e4f3085652ac3603ee68f67b2b33c
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222178"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223088"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -58,3 +58,7 @@ Evet, yöneticinin özel görselleri yönetim portalından devre dışı bırakm
 **Sertifikalı özel görseller nedir?**
 
 Sertifikalı özel görseller, [markette](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunan ve Power BI ekibi tarafından oluşturulan [belirli](power-bi-custom-visuals-certified.md) kod gereksinimlerini karşılayan ve belirli testlerden geçmiş olan görsellerdir.  Gerçekleştirilen testler, görselin dış hizmetlere veya kaynaklara erişmediğinden emin olmak için gerçekleştirilir. Ancak üçüncü taraf özel görseller Microsoft tarafından oluşturulmadığından müşterilerin ilgili görsellerin işlevini doğrulama amacıyla doğrudan yazarla iletişime geçmesini öneririz.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Sorun giderme hakkında bilgi için [Power BI özel görsellerinizin sorunlarını giderme](power-bi-custom-visuals-troubleshoot.md) bağlantısını ziyaret edin.

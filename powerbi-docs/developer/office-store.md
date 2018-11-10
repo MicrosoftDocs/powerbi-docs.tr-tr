@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153760"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223157"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 
 Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
 
-Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md).
+Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI Özel Görseli Geliştirme](custom-visual-develop-tutorial.md).
 
    ![Office Mağazası](media/office-store/AppSource_01.jpg)
 
@@ -147,8 +147,8 @@ Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikal
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Özel görseller oluşturmak için geliştirici araçları kullanma](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Power BI'daki görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
+[Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)  
+[Power BI'daki Görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](../power-bi-custom-visuals.md)  
 [Özel görselleri *sertifikalatma*](../power-bi-custom-visuals-certified.md)
 

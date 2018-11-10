@@ -7,59 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/08/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5013c70e4d3998eb39e0de2a92f890417175fd62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 41b3a0b1032616045b854e4a4776ba82bffffe47
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240918"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909443"
 ---
 # <a name="using-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
-Varsayılan olarak Power BI'daki etkinliğinizle ilgili güncelleştirmeler, Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.  Örneğin size gönderilen paylaşım davetiyeleri bu adrese yönlendirilir.
 
-Bazen bu e-postaların Power BI'a kaydolurken kullandığınız e-posta adresinin yerine alternatif bir e-posta adresine teslim edilmesini isteyebilirsiniz.
+Power BI'a kaydolurken bir e-posta adresi belirtirsiniz. Power BI, hizmet etkinlikleriyle ilgili güncelleştirmeleri göndermek için varsayılan olarak bu adresi kullanır. Örneğin size gönderilen paylaşım davetiyeleri bu adrese yönlendirilir.
 
-## <a name="updating-through-office-365-personal-info-page"></a>Office 365 kişisel bilgiler sayfasından güncelleştirme
-1. [Office 365 kişisel bilgiler sayfanıza](https://portal.office.com/account/#personalinfo) gidin.  Gerekirse Power BI için kullandığınız e-posta adresini ve parolayı kullanarak oturum açın.
-2. Kişi ayrıntıları bölümündeki düzenle bağlantısına tıklayın.  
-   
-   > [!NOTE]
-   > Düzenle bağlantısının görünmemesi e-posta adresinizin Office 365 yöneticiniz tarafından yönetildiği anlamına gelir. Bu durumda e-posta adresinizi güncelleştirmek için yöneticinizle irtibata geçmeniz gerekir.
-   > 
-   > 
-   
-   ![](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
-3. Alternatif e-posta alanına Power BI güncelleştirmelerinin gönderilmesini istediğiniz e-posta adresini gidin.
+Bazı durumlarda bu e-postaların kayıt sırasında kullandığınızdan farklı bir e-posta adresine teslim edilmesini isteyebilirsiniz. Bu makalede Office 365 ve PowerShell'de alternatif e-posta adresi belirtme adımları anlatılmaktadır. Makalede ayrıca e-posta adreslerinin Azure Active Directory'de (Azure AD) nasıl çözümlendiği de gösterilmektedir.
 
 > [!NOTE]
-> Bu ayarı değiştirdiğinizde hizmet güncelleştirmeleri, bültenler ve diğer tanıtım amaçlı gönderiler için kullanılan e-posta adresi değişmez.  Bunlar her zaman Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.
-> 
-> 
+> Alternatif bir e-posta adresi belirtmek, Power BI'ın hizmet güncelleştirmeleri, bültenler ve diğer tanıtım amaçlı yazışmalar için kullandığı e-posta adresini etkilemez.  Bu yazışmalar her zaman Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.
 
-## <a name="updating-through-azure-active-directory"></a>Azure Active Directory aracılığıyla güncelleştirme
-Power BI için bir Azure Active Directory (AAD) ekleme belirtecini yakalarken üç farklı e-posta türü kullanabilirsiniz. Bu üç farklı tür aşağıda verilmiştir:
+## <a name="use-office-365"></a>Office 365'i kullanma
 
-* bir kullanıcının AAD hesabıyla ilişkili ana e-posta adresi
-* UserPrincipalName (UPN) e-posta adresi
-* “diğer” e-posta adresi dizisi özniteliği
+Office 365'te alternatif adres belirtmek için aşağıdaki adımları izleyin.
 
-Power BI, kullanılacak e-posta adresini şu ölçütlere göre seçer:
-1.  AAD kiracısının kullanıcı nesnesindeki posta özniteliği mevcutsa Power BI, e-posta adresi için söz konusu posta özniteliğini kullanır
-2.  UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi (“\@” simgesinden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır
-3.  AAD kullanıcı nesnesinde "diğer" e-posta dizisi özniteliği mevcutsa söz konusu listedeki ilk e-posta adresi (bu öznitelikte e-postalardan oluşan bir liste olabileceği için) kullanılır
-4. Yukarıdaki koşulların hiçbiri mevcut değilse UPN adresi kullanılır
+1. [Office 365 kişisel bilgiler sayfasını](https://portal.office.com/account/#personalinfo) açın. Gerekirse Power BI için kullandığınız e-posta adresini ve parolayı kullanarak oturum açın.
 
-## <a name="updating-with-powershell"></a>PowerShell ile güncelleştirme
-Alternatif e-posta adresini Azure Active Directory için PowerShell aracılığıyla da güncelleştirebilirsiniz. Bunun için [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) komutunu kullanmanız gerekir.
+1. Soldaki menüden **Kişisel bilgiler**'i seçin.
 
-```
+1. **Kişi ayrıntıları** bölümünde **Düzenle**'yi seçin.
+
+    Bilgilerinizi düzenleyemiyorsanız e-posta adresiniz Office 365 yöneticiniz tarafından yönetiliyor demektir. E-posta adresinizi güncelleştirmek için yöneticinize başvurun.
+
+    ![Kişi ayrıntıları](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+
+1. **Alternatif e-posta** alanına Power BI güncelleştirmelerinin gönderilmesini istediğiniz e-posta adresini gidin.
+
+## <a name="use-powershell"></a>PowerShell'i kullanma
+
+PowerShell'de alternatif adres belirtmek için [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) komutunu kullanın.
+
+```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
 ```
 
-Daha fazla bilgi için bkz. [Azure Active Directory PowerShell Sürüm 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+## <a name="email-address-resolution-in-azure-ad"></a>Azure AD'de e-posta adresi çözümlemesi
+
+Power BI için bir Azure AD ekleme belirtecini yakalarken üç farklı e-posta türü kullanabilirsiniz:
+
+* Bir kullanıcının Azure AD hesabıyla ilişkili ana e-posta adresi
+
+* UserPrincipalName (UPN) e-posta adresi
+
+* *Diğer e-posta adresi* dizisi özniteliği
+
+Power BI, kullanılacak e-posta adresini şu sıralamaya göre seçer:
+
+1. Azure AD kiracısının kullanıcı nesnesindeki posta özniteliği mevcutsa Power BI, e-posta adresi için söz konusu posta özniteliğini kullanır.
+
+1. UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi (“\@” simgesinden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır.
+
+1. Azure AD kullanıcı nesnesinde *diğer e-posta adresi* dizisi özniteliği mevcutsa söz konusu listedeki ilk e-posta adresi (bu öznitelikte e-postalardan oluşan bir liste olabileceği için) kullanılır.
+
+1. Yukarıdaki koşulların hiçbiri mevcut değilse UPN adresi kullanılır.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

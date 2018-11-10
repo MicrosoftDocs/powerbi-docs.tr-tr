@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100784"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973339"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -82,14 +82,34 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Bu sayede kullanıcılar söz konusu grubun içeriğini görüntüleyebilir. Daha fazla bilgi için bkz. [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md).
+Power BI hizmetinde rapora yönelik erişim izni vermek için kullanabileceğiniz iki yöntem vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklersiniz. Daha fazla bilgi için bkz. [Bir uygulama çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-Alternatif olarak raporu bir uygulamaya ekleyerek kullanıcılarla doğrudan paylaşabilirsiniz. Raporun eklenmesi için uygulamanın önceden yüklenmiş olması gerekir. **Uygulamayı otomatik olarak yükleme** özelliğini kullanarak önceden yüklenecek uygulamayı belirleyebilirsiniz.
+Alternatif olarak raporu bir uygulamaya ekleyerek kullanıcılarla doğrudan paylaşabilirsiniz. Uygulamaya rapor eklemek için izlemeniz gereken birkaç adım vardır.  
+
+1. Uygulamanın yazarının bir Pro kullanıcı olması gerekir.
+
+2. Yazar, uygulama çalışma alanında bir rapor oluşturur. ***Power BI ücretsiz kullanıcılarıyla** paylaşım yapabilmek için uygulama çalışma alanının **Premium çalışma alanı** olarak ayarlanması gerekir.*
+
+3. Yazar uygulamayı yayımlar ve yükler. *Yazarın SharePoint Online'a eklemek için kullanılacak rapor URL'sine erişebilmek için uygulamayı yüklediğinden emin olması gerekir.*
+
+4. Artık tüm kullanıcılar da uygulamayı yükleyebilir. Ancak [Power BI yönetici portalından](service-admin-portal.md) **Uygulamayı otomatik olarak yükle** seçeneğini etkinleştirerek uygulamanın son kullanıcılar için önceden yüklenmesini sağlayabilirsiniz.
 
    ![Uygulamayı otomatik olarak yükle](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **Kullanıcının SharePoint sayfasındaki raporu görebilmesi için hem SharePoint sayfasına hem de rapora erişim sahibi olması gerekir.**
+5. Yazar uygulamayı açar ve rapora gider.
+
+6. Yazar, uygulama tarafından yüklenen raporun ekleme URL'sini kopyalar. *Uygulama çalışma alanında bulunan özgün rapor URL'sini kullanmayın.*
+
+7. SharePoint Online'da yeni bir ekip sitesi oluşturun.
+
+8. 6. adımda kopyaladığınız rapor URL'sini Power BI web bölümüne ekleyin.
+
+9. Verilerden faydalanacak olan tüm son kullanıcıları ve/veya grupları SharePoint Online sayfasına ve oluşturduğunuz Power BI uygulamasına ekleyin.
+
+    > [!NOTE]
+    > **Kullanıcıların veya grupların SharePoint sayfasındaki raporu görebilmeleri için hem SharePoint Online sayfasına hem de Power BI uygulamasındaki rapora erişebiliyor olmaları gerekir.**
+
+10. Artık son kullanıcılar SharePoint Online'daki ekip sitesine giderek sayfadaki raporları görüntüleyebilir.
 
 ## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 

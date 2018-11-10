@@ -7,62 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641195"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909330"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
+
 Office 365 şirketlere, Office 365'i kendi çözümleriyle paketlenmiş ve tümleştirilmiş biçimde yeniden satma olanağı sunar ve son kullanıcılara satın alma, fatura ve destek için tek bir irtibat noktası sağlar.
 
-Office 365 aboneliğinizin yanında Power BI'ı da edinmek istiyorsanız iş ortağınızla iletişime geçmenizi öneririz. İş ortağınız Power BI'ı sunmuyorsa farklı seçenekleri göz önünde bulundurabilirsiniz.
+Office 365 aboneliğinizin yanında Power BI'ı da edinmek istiyorsanız iş ortağınızla iletişime geçmenizi öneririz. İş ortağınız şu an için Power BI'ı sunmuyorsa farklı seçeneklere başvurabilirsiniz.
 
-1. Hizmeti farklı bir kanaldan veya doğrudan Microsoft'tan ya da başka bir iş ortağından satın alabilirsiniz. Bu seçenek, iş ortaklarıyla olan ilişkilerine bağlı olarak tüm müşterilere sunulmayabilir. Bunu **Office 365 Yönetim Portalı** > **Fatura** > **Abonelikler** sayfasına giderek kontrol edebilirsiniz. **Abonelikler**'i görüyorsanız hizmeti doğrudan Microsoft'tan edinebilir veya Power BI'ı sunan bir iş ortağıyla da iletişime geçebilirsiniz.
-   
-    ![](media/service-admin-syndication-partner/billingsub.png)
-2. **Fatura** bölümünde **Abonelikler**'i görmüyorsanız hizmeti doğrudan Microsoft'tan veya başka bir iş ortağından satın alamazsınız. 
-   
-   ![](media/service-admin-syndication-partner/billing.png)
+# <a name="work-with-your-partner-to-purchase-power-bi"></a>Power BI'ı satın almak için iş ortağınızla birlikte çalışma
 
-Power BI'ı doğrudan satın alamamanız halinde, ne tür bir Power BI aboneliği edinmek istediğinize de bağlı olarak bazı seçenekleriniz mevcuttur.
-
-[Power BI (ücretsiz)](#power-bi-free)
-
-[Power BI Pro ve Premium](#power-bi-pro-and-premium)
-
-## <a name="power-bi-free"></a>Power BI (ücretsiz)
-Ücretsiz Power BI teklifinden memnunsanız ücretsiz hizmete kaydolabilirsiniz. Özel abonelikler olarak da bilinen bireysel kaydolma işlemleri varsayılan olarak devre dışıdır. Power BI'a kaydolmayı denediğinizde BT departmanınızın Microsoft Power BI'a kaydolmayı devre dışı bıraktığını belirten bir ileti ile karşılaşırsınız.
-
-    Your IT department has turned off signup for Microsoft Power BI.
-
-![](media/service-admin-syndication-partner/sorry.png)
-
-Özel abonelikleri etkinleştirmek için, iş ortağınızla iletişime geçip bu seçeneği kullanımınıza sunmasını isteyebilirsiniz. Kiracınızda Yöneticiyseniz ve Azure Active Directory PowerShell komutlarından nasıl yararlanacağınızı biliyorsanız özel abonelikleri kendiniz de etkinleştirebilirsiniz. [Daha fazla bilgi](https://technet.microsoft.com/library/jj151815.aspx)
-
-1. Öncelikle Office 365 kimlik bilgilerinizi kullanarak Azure Active Directory'de oturum açmanız gerekir. İlk satırda kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
-   
-        $msolcred = get-credential
-        connect-msolservice -credential $msolcred
-   
-    ![](media/service-admin-syndication-partner/aad-signin.png)
-2. Oturum açtıktan sonra ücretsiz kaydolma işlemlerini etkinleştirmek için aşağıdaki komutu kullanabilirsiniz.
-   
-        Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-## <a name="power-bi-pro-and-premium"></a>Power BI Pro ve Premium
-Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sahip olduğunuz seçenekleri değerlendirmek için iş ortağınızla iletişim kurmanız gerekir.
+Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sahip olduğunuz seçenekleri değerlendirmek için iş ortağınızla iletişim kurabilirsiniz:
 
 * İş ortağınız, hizmeti kendisinden satın alabilmeniz için Power BI'ı portföyüne ekleyebilir.
+
 * İş ortağınız sizi, Power BI'ı doğrudan Microsoft'tan veya Power BI'ı sunan başka bir iş ortağından satın alabileceğiniz bir modele geçirebilir.
 
+# <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft'tan veya başka bir kanaldan satın alma
+
+İş ortağınızla aranızdaki ilişkiye bağlı olarak Power BI'ı doğrudan Microsoft'tan veya başka bir iş ortağından satın alma seçeneğine sahip olabilirsiniz. Office 365 yönetim portalından Power BI aboneliği ekleyip ekleyemediğinizi doğrulayabilirsiniz (Genel Yönetici veya Faturalama Yöneticisi rolüne sahip olmanız gerekir).
+
+1. [Office 365 yönetim portalına](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
+
+1. Sol taraftaki menüden **Faturalama**'yı açın:
+
+    * **Abonelikler**'i görüyorsanız hizmeti doğrudan Microsoft'tan edinebilir veya Power BI'ı hizmetini sunan başka bir iş ortağıyla iletişime geçebilirsiniz.
+
+        ![Abonelikler seçeneğinin bulunduğu Faturalama sayfası](media/service-admin-syndication-partner/billingsub.png)
+
+    * **Abonelikler** seçeneği yoksa doğrudan Microsoft'tan veya başka bir iş ortağından satın alma imkanınız yoktur.
+
+İş ortağınız Power BI hizmetini sunmuyorsa ve doğrudan Microsoft'tan veya başka bir iş ortağından satın alma seçeneğiniz de yoksa ücretsiz deneme için kaydolabilirsiniz.
+
+## <a name="sign-up-for-a-free-trial"></a>Ücretsiz deneme için kaydolma
+
+Power BI Pro için ücretsiz denemeye kaydolabilirsiniz. Deneme süresinin sonunda Power BI Pro'yu satın almasanız da birçok Power BI özelliğini sunan ücretsiz bir lisansa sahip olursunuz. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI özellikleri](service-features-license-type.md).
+
+### <a name="enable-ad-hoc-subscriptions"></a>Özel abonelikleri etkinleştirme
+
+Özel abonelikler olarak da bilinen bireysel kaydolma işlemleri varsayılan olarak devre dışıdır. Bu durumda kaydolmaya çalıştığınızda şu iletiyle karşılaşırsınız: *Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış*.
+
+![Üzgünüz görüntüsü](media/service-admin-syndication-partner/sorry.png)
+
+Özel abonelikleri etkinleştirmek için, iş ortağınızla iletişime geçip bu seçeneği kullanımınıza sunmasını isteyebilirsiniz. Kiracınızda yöneticiyseniz ve Azure Active Directory PowerShell komutlarını kullanmayı biliyorsanız özel abonelikleri kendiniz de etkinleştirebilirsiniz. [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2/)
+
+1. Office 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki betiğin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
+
+    ```powershell
+    $msolcred = get-credential
+    connect-msolservice -credential $msolcred
+    ```
+
+    ![Kimlik bilgilerinizi girin](media/service-admin-syndication-partner/aad-signin.png)
+
+1. Oturum açtıktan sonra geçerli `AllowAdHocSubscriptions` ayarını denetlemek için aşağıdaki komutu çalıştırın.
+
+    ```powershell
+    Get-MsolCompanyInformation
+    ```
+
+1. Ücretsiz kaydolma seçeneğini etkinleştirmek için aşağıdaki komutu çalıştırın.
+
+    ```powershell
+    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
+    ```
+
 ## <a name="next-steps"></a>Sonraki adımlar
-[Windows PowerShell'i kullanarak Azure AD'yi yönetme](https://technet.microsoft.com/library/jj151815.aspx)  
-[Power BI Premium nedir?](service-premium.md)
+
+[Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

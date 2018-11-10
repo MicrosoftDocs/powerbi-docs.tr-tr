@@ -7,43 +7,48 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 29e2e5b029208783a8776e8282ec3ca774308d26
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296147"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909468"
 ---
 # <a name="closing-your-power-bi-account"></a>Power BI hesabınızı kapatma
-Power BI'ı artık kullanmak istemiyorsanız bizden Power BI hesabınızı kapatmamızı isteyebilirsiniz.  Hesabınız kapatıldıktan sonra Power BI'da oturum açamazsınız.  Ayrıca, Power BI'a yüklediğiniz veya burada oluşturduğunuz tüm müşteri verileri, Power BI Hizmet Kullanım Koşulları'ndaki veri saklama ilkesine göre silinir.
+
+Power BI'ı artık kullanmak istemiyorsanız Power BI hesabınızı kapatabilirsiniz.  Hesabınız kapatıldıktan sonra Power BI'da oturum açamazsınız. Power BI'a yüklediğiniz veya burada oluşturduğunuz tüm müşteri verileri, Power BI Hizmet Kullanım Koşulları'ndaki veri saklama ilkesine göre silinir.
 
 ## <a name="individual-power-bi-users"></a>Bireysel Power BI kullanıcıları
-Hesabınızı ayarlar ekranından kapatabilirsiniz.
 
-1. Sağ üstteki dişli ![](media/service-admin-closing-your-account/gear.png) simgesini seçin.
-2. **Ayarlar** seçeneğini belirleyin.
-   
-    ![](media/service-admin-closing-your-account/closeaccount-settings.png)
-3. **Genel** > **Hesabı Kapat**
-   
-    ![](media/service-admin-closing-your-account/closeaccount-settings2.png)
-4. **Hesabınızı neden kapatıyorsunuz?** (1) açılan menüsünden bir neden seçin.  İsteğe bağlı olarak daha fazla bilgi sağlayabilirsiniz (2). Ardından **Hesabı kapat** seçeneğini belirleyin.
-   
-    ![](media/service-admin-closing-your-account/closeaccount-settings3.png)
-5. Hesabınızı kapatmak istediğinizi onaylayın.
-   
-    ![](media/service-admin-closing-your-account/closeaccount-settings4.png)
-6. Hesabınızın kapatıldığına ilişkin bir onay göreceksiniz. Ayrıca, hesabınızı yeniden açmak için kullanabileceğiniz bir bağlantı da verilecektir.
-   
-    ![](media/service-admin-closing-your-account/closeaccount-settings5.png)
+Power BI'a bireysel olarak kaydolduysanız **Ayarlar** ekranından hesabınızı kapatabilirsiniz.
+
+1. Power BI'da sağ üst köşedeki dişli simgesini ve ardından **Ayarlar**'ı seçin.
+
+    ![Ayarlar](media/service-admin-closing-your-account/closeaccount-settings.png)
+
+1. **Genel** sekmesinde **Hesabı Kapat**'ı seçin.
+
+    ![Hesabı kapat](media/service-admin-closing-your-account/closeaccount-settings2.png)
+
+1. Hesabınızı kapatma nedeninizi seçin (1). Dilerseniz daha fazla bilgi sağlayabilirsiniz (2). Ardından **Hesabı kapat** seçeneğini belirleyin.
+
+    ![Bir neden seçin](media/service-admin-closing-your-account/closeaccount-settings3.png)
+
+1. Hesabınızı kapatmak istediğinizi onaylayın.
+
+    ![Kapatma işlemini onaylayın](media/service-admin-closing-your-account/closeaccount-settings4.png)
+
+    Hesabınızın kapatıldığına ilişkin bir onay göreceksiniz. Gerekirse buradan hesabınızı yeniden açabilirsiniz.
+
+    ![Hesap onayı](media/service-admin-closing-your-account/closeaccount-settings5.png)
 
 ## <a name="managed-tenant-users"></a>Yönetilen kiracı kullanıcıları
-Kiracı yöneticinizle iletişime geçerek hesabınızdaki lisansın atamasını kaldırmasını istemeniz gerekir.
 
-![](media/service-admin-closing-your-account/closeaccountmanaged.png)
+Power BI kaydınız kuruluşunuz tarafından oluşturulduysa kiracınızın yöneticisiyle iletişim geçin. Yöneticiden hesabınızdaki lisansı kaldırmasını isteyin.
+
+![Yönetilen hesabı kapatma](media/service-admin-closing-your-account/closeaccountmanaged.png)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

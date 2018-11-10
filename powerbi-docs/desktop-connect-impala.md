@@ -10,49 +10,52 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 781e9f6813fee63b7c5d83a2e7e60e1ed1eeedc0
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1b512a3e6ef3ead8d93e1b554fbab3aaed8a2a5a
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327005"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027403"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Impala veritabanına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Impala** veritabanına bağlanabilir ve temel alınan verileri kullanabilirsiniz.
 
 ## <a name="connect-to-an-impala-database"></a>Impala veritabanlarına bağlanma
-Bir **Impala** veritabanına bağlanmak için Power BI Desktop'ın **Giriş** şeridindeki **Veri Al**'ı seçin. Soldaki kategorilerden **Veritabanı**'nı seçtiğinizde **Impala**'yı görebilirsiniz.
+Bir **Impala** veritabanına bağlanmak için aşağıdaki adımları izleyin: 
 
-![](media/desktop-connect-impala/connect_impala_2.png)
+1. Power BI Desktop'taki **Giriş** şeridinde bulunan **Veri Al** seçeneğini belirleyin. 
 
-Açılan **Impala** penceresindeki kutuya Impala sunucunuzun adını yazın veya yapıştırın ve **Tamam**'ı seçin. Ayrıca, **İçeri aktar** seçeneğini belirleyerek verileri doğrudan Power BI'a aktarmayı tercih edebilir veya **DirectQuery**'yi kullanabilirsiniz. [DirectQuery'yi kullanma](desktop-use-directquery.md) hakkında daha fazla bilgi edinebilirsiniz.
+2. Soldaki kategorilerden **Veritabanı**'nı seçin. Açılan sayfada **Impala**'yı göreceksiniz.
 
-![](media/desktop-connect-impala/connect_impala_3a.png)
+    ![Veri Al](media/desktop-connect-impala/connect_impala_2.png)
 
-İstendiğinde, kimlik bilgilerinizi girin veya anonim olarak bağlanın. Impala bağlayıcısı Anonim, Temel (kullanıcı adı + parola) ve Windows kimlik doğrulamasını destekler.
+3. Açılan **Impala** penceresindeki kutuya Impala sunucunuzun adını yazın veya yapıştırın. Ardından **Tamam**'ı seçin. **İçeri aktar** seçeneğini belirleyerek verileri doğrudan Power BI'a aktarabilir veya **DirectQuery**'yi kullanabilirsiniz. [DirectQuery'yi kullanma](desktop-use-directquery.md) hakkında daha fazla bilgi edinin.
 
-![](media/desktop-connect-impala/connect_impala_4.png)
+    ![Impala penceresi](media/desktop-connect-impala/connect_impala_3a.png)
 
-> [!NOTE]
-> Belirli bir **Impala** sunucusu için kullanıcı adı ve parolanızı girdiğinizde Power BI Desktop, sonraki bağlantı denemelerinde de aynı kimlik bilgilerini kullanır. **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'na giderek bu kimlik bilgilerini değiştirebilirsiniz.
-> 
-> 
+4. İstendiğinde, kimlik bilgilerinizi girin veya anonim olarak bağlanın. Impala bağlayıcısı Anonim, Temel (kullanıcı adı + parola) ve Windows kimlik doğrulamasını destekler.
 
-Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya daha fazla öğe seçebilirsiniz.
+    ![Impala bağlayıcısı](media/desktop-connect-impala/connect_impala_4.png)
 
-![](media/desktop-connect-impala/connect_impala_5.png)
+    > [!NOTE]
+    > Belirli bir **Impala** sunucusu için kullanıcı adı ve parolanızı girdiğinizde Power BI Desktop, sonraki bağlantı denemelerinde de aynı kimlik bilgilerini kullanır. **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'na giderek bu kimlik bilgilerini değiştirebilirsiniz.
 
-## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
-**Impala** bağlayıcısı ile ilgili olarak göz önünde bulundurmanız gereken bazı sınırlar ve önemli noktalar vardır:
 
-* Impala Bağlayıcısı, desteklenen üç kimlik doğrulama mekanizmasından biri kullanılarak Şirket İçi veri ağ geçidi üzerinde desteklenir.
+5. Bağlantı kurulduktan sonra sunucudaki verileri gösteren bir **Gezgin** penceresi açılır. Bu verilerden içeri aktarmak ve **Power BI Desktop**'ta kullanmak istediklerinizi seçin.
+
+    ![Gezgin penceresi](media/desktop-connect-impala/connect_impala_5.png)
+
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+**Impala** bağlayıcısı ile ilgili olarak göz önünde bulundurmanız gereken bazı sınırlamalar ve önemli noktalar vardır:
+
+* Impala bağlayıcısı, desteklenen üç kimlik doğrulama mekanizmasından biri kullanılarak şirket içi veri ağ geçidi üzerinde desteklenir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+Power BI Desktop'ı kullanarak bağlanabileceğiniz çok çeşitli türlerde veri kaynağı mevcuttur. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
-* [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   
 

@@ -2,20 +2,20 @@
 title: Power BI yönetici portalı
 description: Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252503"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973270"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -90,6 +90,8 @@ Power BI kullanıcılarını, gruplarını ve yöneticilerini Office 365 yöneti
 
 Power BI denetim günlüklerini Office 365 Güvenlik ve Uyumluluk merkezinde yönetirsiniz. **Denetim günlükleri** sekmesi, kiracınız için Güvenlik ve Uyumluluk merkezine bağlantı sağlar. [Daha fazla bilgi](service-admin-auditing.md)
 
+Denetim günlüklerini kullanmak için [**İç etkinlik denetimi ve uyumluluk için denetim günlükleri oluşturun**](#create-audit-logs-for-internal-activity-auditing-and-compliance) ayarının etkinleştirilmiş olduğundan emin olun.
+
 ## <a name="tenant-settings"></a>Kiracı ayarları
 
 **Kiracı ayarları** sekmesi, kuruluşunuzun kullanımına sunulan özellikler üzerinde çok ayrıntılı bir denetime olanak tanır. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz belirli özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz.
@@ -133,7 +135,7 @@ Kuruluştaki kullanıcılar uygulama çalışma alanı oluşturarak pano, rapor 
 
 ### <a name="share-content-to-external-users"></a>Dış kullanıcılarla içerik paylaşma
 
-Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla pano paylaşabilir.
+Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla pano paylaşabilir. [Daha fazla bilgi](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
 ![Dış kullanıcılar ayarı](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -181,40 +183,37 @@ Aşağıdaki resimde **Raporları PowerPoint sunuları olarak dışarı aktar** 
 
 Kuruluştaki kullanıcılar panoları ve raporları yazdırabilir. [Daha fazla bilgi](consumer/end-user-print.md)
 
-![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
+Aşağıdaki görüntüde panoya yazdırma seçeneği gösterilmiştir.
 
-![](media/service-admin-portal/powerbi-admin-print-report.png)
+![Panoyu yazdır](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-## <a name="content-pack-settings"></a>İçerik paketi ayarları
+Aşağıdaki görüntüde **Panoları ve raporları yazdırın** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilmiştir.
 
-### <a name="publish-content-packs-to-the-entire-organization"></a>İçerik paketlerini kuruluş genelinde yayımlama
+![Rapor yazdırma](media/service-admin-portal/powerbi-admin-print-report.png)
 
-Kuruluştaki kullanıcılar içerik paketlerini kuruluşun tamamında yayımlayabilir.
+## <a name="content-pack-and-app-settings"></a>İçerik paketi ve uygulama ayarları
 
-![](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Kuruluşun tamamına içerik paketi ve uygulama yayımlanması devre dışı bırakıldı
 
-### <a name="create-template-organizational-content-packs"></a>Kurumsal içerik paketi şablonu oluşturma
+Kuruluştaki kullanıcılar, belirli gruplar yerine kuruluşun tamamına içerik paketleri ve uygulamalar yayımlayabilir. [Daha fazla bilgi](service-organizational-content-pack-manage-update-delete.md)
 
-Kuruluştaki kullanıcılar Power BI Desktop'taki bir veri kaynağı üzerinde oluşturulan veri kümelerini kullanan içerik paketi şablonları oluşturabilir.
+Aşağıdaki görüntüde içerik paketi oluşturma sırasında **Tüm kuruluşum** seçeneği gösterilmiştir.
+
+![Kuruluşa içerik paketi yayımlama](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+
+### <a name="create-template-organizational-content-packs-and-apps"></a>Kuruluş için şablon içerik paketleri ve uygulamalar oluşturun
+
+Kuruluştaki kullanıcılar Power BI Desktop'ta oluşturulan veri kümelerini kullanan içerik paketi şablonları oluşturabilir. [Daha fazla bilgi](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>Son kullanıcılara uygulama gönderme
 
-Kiracı yöneticiniz **Kiracı ayarları**’nda uygulama gönderme özelliğini etkinleştirir.
-
-   ![Uygulama göndermeyi etkinleştirme](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
-
-Ayarı **Etkin** hale getirebilir ve sonra bu özelliği kimlerin (tüm kuruluş veya belirli güvenlik grupları) alacağını belirtebilirsiniz.
-
-> [!NOTE]
-> Kiracı ayarı değişikliklerinin geçerli hale gelmesi için biraz beklemeniz gerekebileceğini unutmayın.
-
-[Uygulama gönderme](service-create-distribute-apps.md) hakkında daha fazla bilgi edinmek için bu makaleye gidin.
+Kullanıcılar AppSource'tan yüklemeye gerek kalmadan uygulamaları son kullanıcılarla doğrudan paylaşabilir. [Daha fazla bilgi](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>Tümleştirme ayarları
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Cortana'yı kullanarak veriler hakkında soru sorma
 
-Kuruluştaki kullanıcılar Cortana'yı kullanarak verileri hakkında sorular sorabilir.
+Kuruluştaki kullanıcılar Cortana'yı kullanarak verileri hakkında sorular sorabilir. [Daha fazla bilgi](service-cortana-enable.md)
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
@@ -264,23 +263,14 @@ Denetim günlüğü girişlerinin kaydedilmesi için bu ayarın etkinleştirilme
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
 ### <a name="usage-metrics-for-content-creators"></a>İçerik oluşturucuları için kullanım ölçümleri
-Kuruluştaki kullanıcılar oluşturdukları pano ve raporlar için kullanım ölçümlerini görebilir. [Daha fazla bilgi edinin](service-usage-metrics.md).
 
-Ayarı **Etkin** hale getirebilir ve sonra kullanım ölçümlerini kimlerin (tüm kuruluş veya belirli güvenlik grupları) görebileceğini belirtebilirsiniz.
-
-> [!NOTE]
-> Kiracı ayarı değişikliklerinin geçerli hale gelmesi için biraz beklemeniz gerekebileceğini unutmayın.
+Kuruluştaki kullanıcılar oluşturdukları pano ve raporlar için kullanım ölçümlerini görebilir. [Daha fazla bilgi](service-usage-metrics.md)
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>İçerik oluşturucuları için kullanım ölçümlerinde kullanıcı başına veriler
-İçerik oluşturucuları için kullanım ölçümleri, içeriğe erişen kullanıcıların görünen adlarını ve e-posta adreslerini açığa çıkarır. [Daha fazla bilgi edinin](service-usage-metrics.md).
 
-Ayarı **Etkin** hale getirebilir ve sonra kullanım ölçümlerindeki görünen adların ve e-posta adreslerini kimlerin (tüm kuruluş veya belirli güvenlik grupları) görebileceğini belirtebilirsiniz.
+İçerik oluşturucuları için kullanım ölçümleri, içeriğe erişen kullanıcıların görünen adlarını ve e-posta adreslerini açığa çıkarır. [Daha fazla bilgi](service-usage-metrics.md)
 
 Varsayılan olarak, kullanım ölçümleri için kullanıcı başına veriler etkinleştirilir ve içerik oluşturucunun hesap bilgileri ölçüm raporuna eklenir. Kullanıcılardan bazıları veya tümü için bu bilgilerin eklenmesini istemezsiniz, belirtilen güvenlik grupları veya kuruluşun tamamı için özelliği devre dışı bırakın. Bu durumda hesap bilgileri raporda *Adsız* olarak gösterilir.
-
-> [!NOTE]
-> Kiracı ayarı değişikliklerinin geçerli hale gelmesi için biraz beklemeniz gerekebileceğini unutmayın.
-
 
 ## <a name="dashboard-settings"></a>Pano ayarları
 
@@ -295,69 +285,79 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="embed-content-in-apps"></a>Uygulamalara içerik ekleme
 
-Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power BI panoları ve raporları ekleyebilir. Bu ayarın devre dışı bırakılması; kullanıcıların, uygulamalarına Power BI içeriği eklemek için REST API'lerini kullanabilmesini önler.
+Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power BI panoları ve raporları ekleyebilir. Bu ayarın devre dışı bırakılması; kullanıcıların, uygulamalarına Power BI içeriği eklemek için REST API'lerini kullanabilmesini önler. [Daha fazla bilgi](developer/embedding.md)
+
+## <a name="workspaces-and-import-settings"></a>Çalışma alanları ve içeri aktarma ayarları
+
+### <a name="author-content-in-workspaces"></a>Çalışma alanlarında yazar içeriği
+
+Kuruluştaki kullanıcılar veri ve yazar içeriğine bağlanmak için çalışma alanlarına erişebilir. [Daha fazla bilgi](service-create-the-new-workspaces.md)
+
+### <a name="import-data-into-power-bi"></a>Power BI'a veri aktarma
+
+Kuruluştaki kullanıcılar Power BI Desktop'tan rapor yayımlama, Power BI rapor dosyalarını karşıya yükleme ve doğrudan hizmetten verilere bağlanma gibi hizmete veri aktarma işlemleri gerçekleştirebilir. [Daha fazla bilgi](desktop-upload-desktop-files.md)
 
 ## <a name="capacity-settings"></a>Kapasite Ayarları
 
-### <a name="premium-settings"></a>Premium ayarları
+### <a name="power-bi-premium"></a>Power BI Premium
 
-Premium ayarları sekmesi, kuruluşunuz için satın alınan Power BI Premium (Em veya P SKU) kapasitelerini yönetmenize olanak tanır. Kuruluşunuzdaki tüm kullanıcılar Premium ayarları sekmesini görebilir ancak yalnızca **Kapasite yöneticisi** olarak atanan veya atama izinlerine sahip kullanıcılar sekme içeriğini görebilir. Bir kullanıcı, izinlerden herhangi birine sahip olmaması durumunda aşağıdaki ileti görüntülenir.
+**Power BI Premium** sekmesi, kuruluşunuz için satın alınan Power BI Premium kapasitelerini (EM veya P SKU) yönetmenize olanak tanır. Kuruluşunuzdaki tüm kullanıcılar **Power BI Premium** sekmesini görebilir ancak yalnızca *Kapasite yöneticisi* olarak atanan veya atama izinlerine sahip kullanıcılar sekme içeriğini görebilir. Bir kullanıcı, izinlerden herhangi birine sahip olmaması durumunda aşağıdaki ileti görüntülenir.
 
-![Power BI Premium yönetici ayarları](media/service-admin-portal/premium-settings-no-access.png "Premium ayarlarına erişiminiz yok")
+![Premium ayarlarına erişim yok](media/service-admin-portal/premium-settings-no-access.png)
 
 Premium ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
 
-### <a name="power-bi-embedded-settings"></a>Power BI Embedded ayarları
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Power BI Embedded ayarları sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU'ları yalnızca Azure'dan satın alabileceğiniz için [Power BI Embedded kapasitelerini yönetmek için](developer/azure-pbie-create-capacity.md) **Azure portalı** kullanabilirsiniz.
-
-![Power BI Embedded yönetici ayarları](media/service-admin-portal/manage-pbie-capacities-01.png)
-
-![Power BI Embedded yönetici ayarları ayrıntıları](media/service-admin-portal/manage-pbie-capacities-02.png)
+**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU'ları yalnızca Azure'dan satın alabileceğiniz için [Power BI Embedded kapasitelerini yönetmek için](developer/azure-pbie-create-capacity.md) **Azure portalı** kullanabilirsiniz.
 
 Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Embedded nedir?](developer/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-codes"></a>Ekleme kodları
 
-![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
+Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görüntüleyebilirsiniz. Ayrıca kodları iptal edebilir veya silebilirsiniz. [Daha fazla bilgi](service-publish-to-web.md)
 
-Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görüntüleyebilirsiniz. Raporu görüntüleme ve ekleme kodunu silerek söz konusu kodu iptal etme eylemlerini gerçekleştirebilirsiniz.
+![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
 
 ## <a name="organization-visuals"></a>Kuruluş görselleri
 
-Kuruluş görselleri sekmesi, rapor yazarlarının şirkete ait özel görselleri kolayca keşfedebilmesi ve doğrudan Power BI Desktop’tan bunları raporlarında içeri aktarabilmesi için bu görselleri kuruluşta kolayca dağıtabilmek üzere özel görselleri kuruluşunuz içinde dağıtmanıza ve yönetmenize imkan sağlar.
+**Kuruluş görselleri** sekmesi, kuruluşunuzda özel görseller dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](power-bi-custom-visuals-organization.md)
 
-Sayfada, o an kuruluş deposunda dağıtılmış olan tüm özel görseller gösterilir.
+> [!WARNING]
+> Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
+
+Aşağıdaki görüntüde, bir kuruluş deposunda dağıtılmış olan tüm özel görseller gösterilmiştir.
 
 ![Kuruluş yöneticisi görseli](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Yeni özel görsel ekleme
 
-Listeye yeni bir özel görsel eklemek için **Özel görsel ekle**’yi seçin
+Listeye yeni bir özel görsel eklemek için aşağıdaki adımları izleyin. 
 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+1. Sağ taraftaki bölmede **Özel görsel ekle**'yi seçin.
 
-> [!WARNING]
-> Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
+    ![Özel görsel formu](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
-Alanları doldurun:
+1. **Özel görsel ekle** formunu doldurun:
 
-* Bir .pbiviz dosyası seçin (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API özel görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
+    * **Bir .pbiviz dosyası seçin** (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API özel görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
 
-Bir özel görseli karşıya yüklemeden önce görselin kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir. Özel görsel güvenliği hakkında daha fazla bilgi edinin.
+    Bir özel görseli karşıya yüklemeden önce görselin kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir.
 
-* Özel görsellerinizi adlandırın (gerekli): Power BI Desktop kullanıcılarının görselin ne işe yaradığını anlayabilmesi için görsele kısa bir başlık verin
+    * **Özel görselinizi adlandırın** (gerekli): Power BI Desktop kullanıcılarının görselin ne işe yaradığını anlayabilmesi için görsele kısa bir başlık verin
 
-* Simge (gerekli): Power BI Desktop kullanıcı arabiriminde gösterilen simge dosyası.
+    * **Simge**: Power BI Desktop kullanıcı arabiriminde gösterilen simge dosyası.
 
-* Açıklama: Kullanıcıya daha fazla bağlam bilgisi ve eğitim sağlanması için görselin kısa bir açıklaması
+    * **Açıklama**: Kullanıcıya daha fazla bağlam bilgisi ve eğitim sağlanması için görselin kısa bir açıklaması
 
-Karşıya yükleme isteğini başlatmak için "Uygula"yı seçin. İşlem başarılı olursa yeni öğeyi listede görürsünüz. Başarısız olursa, uygun bir hata iletisi alabilirsiniz
+1. Karşıya yükleme isteğini başlatmak için **Ekle**'yi seçin. İşlem başarılı olursa yeni öğeyi listede görürsünüz. Başarısız olursa, uygun bir hata iletisi alabilirsiniz
 
 ### <a name="delete-a-custom-visual-from-the-list"></a>Özel bir görseli listeden silme
 
-Görseli depodan kalıcı olarak silmek için çöp kutusu simgesini seçin.
-Önemli: Silme işlemi geri alınamaz. Görsel silindikten hemen sonra mevcut raporlarda gösterilmemeye başlar. Aynı görseli yeniden karşıya yükleseniz bile silinen bir önceki görselin yerini almaz ve kullanıcıların yeni görseli tekrar içeri aktararak raporlarındaki örnekle değiştirmesi gerekir.
+Bir görseli kalıcı olarak silmek için depoda görsele ait çöp kutusu simgesini seçin.
+
+> [!IMPORTANT]
+> Silme işlemi geri alınamaz. Görsel silindikten hemen sonra mevcut raporlarda gösterilmemeye başlar. Aynı görseli yeniden yükleseniz dahi silinmiş olanın yerini almaz. Ancak kullanıcılar yeni görseli yeniden içeri aktararak raporlarındaki örneği yenisiyle değiştirebilir.
 
 ### <a name="disable-a-custom-visual-in-the-list"></a>Özel bir görseli listeden devre dışı bırakma
 
@@ -371,15 +371,16 @@ Ancak yer işaretlerine eklenmiş olan görseller çalışmaya devam eder.
 
 Güncelleştirmeler veya yönetici tarafından gerçekleştirilen değişikliklerden sonra Power BI Desktop kullanıcılarının güncelleştirmeleri görmek için uygulamayı yeniden başlatması veya Power BI hizmeti için tarayıcıyı yenilemesi gerekir.
 
-### <a name="how-to-update-a-visual"></a>Karşıya görsel yükleme
+### <a name="update-a-visual"></a>Karşıya görsel yükleme
 
-Görselin yeni bir sürümü bulunduğundan, depodaki bir görseli (örn. hata düzeltmeleri, yeni işlevler vb.) güncelleştirmek istiyorsanız **Güncelleştir** simgesini seçin ve yeni dosyayı karşıya yükleyin. Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
+Kuruluş deposundaki bir görseli güncelleştirmek için dişli simgesini seçin. Görselin yeni sürümüne göz atın ve karşıya yükleyin.
+
+Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI yönetici rolünü anlama](service-admin-role.md)  
+[Kuruluşunuzda BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  [Power BI yönetici rolünü anlama](service-admin-role.md)  
 [Kuruluşunuzda Power BI'ı denetleme](service-admin-auditing.md)  
 [Power BI Premium'u yönetme](service-admin-premium-manage.md)  
-[Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222094"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223111"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görsellerini kullanma
 
@@ -54,4 +54,12 @@ Son kullanıcı:
 
 * AppSource marketten edinilen Visio görseli, PowerApps görseli, Harita kutusu görseli ve GlobeMap görseli kuruluş deposu aracılığıyla dağıtılırsa gösterilmez.
 
-Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için bkz. [sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+## <a name="troubleshoot"></a>Sorun giderme
+
+Sorun giderme hakkında bilgi için [Power BI özel görsellerinizin sorunlarını giderme](power-bi-custom-visuals-troubleshoot.md) bağlantısını ziyaret edin.
+
+## <a name="faq"></a>SSS
+
+Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI özel görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-custom-visuals) bağlantısını ziyaret edin.
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).

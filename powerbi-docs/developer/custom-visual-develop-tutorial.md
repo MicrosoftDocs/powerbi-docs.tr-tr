@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161052"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223433"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görseli geliştirme
 
@@ -39,6 +39,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 * **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
 * [Visual Studio Code](https://www.visualstudio.com/) uygulamasını yüklemiş olmanız gerekir.
+* Windows kullanıcıları için [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) gerekir.
 
 ## <a name="setting-up-the-developer-environment"></a>Geliştirici ortamını ayarlama
 
@@ -69,6 +70,8 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>Sertifika oluşturma ve yükleme
+
+#### <a name="windows"></a>Windows
 
 1. Sertifika oluşturmak için aşağıdaki komutu girin.
 
@@ -117,13 +120,32 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 > [!Important]
 > Windows PowerShell oturumunu kapatmayın.
 
+#### <a name="osx"></a>OSX
+
+1. Sol üstteki kilit kapalıysa açmak için kilidi seçin. *localhost*’u arayın ve sertifikaya çift tıklayın.
+
+    ![OSX üzerine SSL sertifikası 1'i yükleme](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. **Her Zaman Güven** seçeneğini belirleyip pencereyi kapatın.
+
+    ![OSX üzerine SSL sertifikası 2'yi yükleme](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. Kullanıcı adınızı ve parolanızı girin. **Ayarları Güncelle**'yi seçin.
+
+    ![OSX üzerine SSL sertifikası 3'ü yükleme](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. Açık tüm tarayıcıları kapatın.
+
+> [!NOTE]
+> Sertifika tanınmıyorsa bilgisayarınızı yeniden başlatmanız gerekebilir.
+
 ## <a name="creating-a-custom-visual"></a>Özel görsel oluşturma
 
 Ortamınızı ayarladığınıza göre özel görselinizi oluşturmaya başlayabilirsiniz.
 
 Bu öğreticinin kaynak kodun tamamını [indirebilirsiniz](https://github.com/Microsoft/PowerBI-visuals-circlecard).
 
-1. Windows PowerShell’de Power BI Görsel Araçlar paketinin yüklü olduğunu doğrulayın.
+1. Power BI Görsel Araçlar paketinin yüklü olduğunu doğrulayın.
 
     ```powershell
     pbiviz
@@ -556,7 +578,11 @@ Veri rollerini yapılandırdınız ve görseli veri görünümüne bağladınız
 
 Bir sonraki öğreticide özel görsele biçimlendirme seçenekleri eklemeyi öğreneceksiniz.
 
-## <a name="next-steps"></a>Sonraki Adımlar
+## <a name="debugging"></a>Hata ayıklama
+
+Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/) giderek göz atabilirsiniz.
+
+## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
 > [Biçimlendirme seçenekleri ekleme](custom-visual-develop-tutorial-format-options.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336887"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223387"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -34,6 +34,8 @@ Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şe
 
 Erişilebilirlik iyileştirmeleri sayesinde, aşağıdaki teknikleri uygulayarak bir klavye veya ekran okuyucu ile Power BI raporlarını kullanabilirsiniz:
 
+Rapor görüntülerken genellikle tarama modunu kapatmış olmanız gerekir.
+
 **Ctrl+F6** tuş birleşimini kullanarak bir rapordaki rapor sayfası sekmeleri veya nesneler arasında odağı çevirebilirsiniz.
 
 * Odak *rapor sayfası sekmeleri* üzerindeyken, odağı bir rapor sayfasından sıradaki rapor sayfasına çevirmek için *Sekme* veya *Ok* tuşlarını kullanın. Rapor sayfasının başlığı ve sayfanın seçili olup olmadığı ekran okuyucusu tarafından sesli bir şekilde okunur. Odaklanılmış olan rapor sayfasını yüklemek için *Enter* veya *Boşluk* tuşunu kullanın.
@@ -48,7 +50,7 @@ Görseller arasında gezinirken daha fazla etkileşim kurmak isterseniz **Alt+Sh
 ![Power BI Desktop'ta bir görsele yönelik erişilebilir bir Verileri Gör penceresinin görüntülenmesi için Alt+Shift+F11 tuşlarına basma](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> Veri göster özelliğine yalnızca bu klavye kısayolu aracılığıyla ekran okuyucu tarafından erişim sağlanabilir. Verileri göster sayfasını görsel üst bilgisindeki seçenekten açarsanız ekran okuyucu buna erişemez.
+> Veri göster özelliğine yalnızca bu klavye kısayolu aracılığıyla ekran okuyucu tarafından erişim sağlanabilir. Verileri göster sayfasını görsel üst bilgisindeki seçenekten açarsanız ekran okuyucu buna erişemez. Verileri göster özelliğini kullanırken, ekran okuyucunuzun sağladığı tüm kısayol tuşlarından yararlanmak için tarama modunu açın.
 
 Temmuz 2018'de **Power BI Desktop**'ın kullanıma sunulmasından başlayarak, dilimleyicilere de yerleşik erişilebilirlik işlevselliği eklendi. Dilimleyici seçtiğinizde, dilimleyicinin değerini ayarlamak için CTRL+sağ ok tuşlarını (Control tuşu artı sağ ok tuşu) kullanarak dilimleyici içindeki çeşitli denetimler arasında ilerleyin. Örneğin, başlangıçta CTRL+sağ ok tuşlarına bastığınızda odak silgidedir ve ARA ÇUBUĞU'na basmak silgi düğmesine tıklamayla eşdeğerdir ve dilimleyicideki tüm değerleri siler. 
 
@@ -112,6 +114,55 @@ Erişilebilirlik özelliklerine ilişkin sınırlamalar ve bilinen birkaç sorun
 
 * **Power BI Desktop** ile ekran okuyucu kullanırken en iyi deneyimi elde etmek için, Power BI Desktop'ta dosya açmadan önce tercih ettiğiniz ekran okuyucuyu başlatmanız önerilir.
 * Ekran okuyucusu uygulamasını kullanıyorsanız, Verileri göster seçeneğiyle ulaştığınız HTML tablosunda gezinme konusunda belirli sınırlamalarla karşılaşabilirsiniz.
+
+## <a name="keyboard-shortcuts"></a>Klavye Kısayolları
+### <a name="frequently-used-shortcuts"></a>Sık kullanılan kısayollar
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Odağı bölümler arasında taşıma  | Ctrl + F6 |
+| Bölüm içinde odağı ileri doğru taşıma | Sekme         |
+| Bölüm içinde odağı geriye doğru taşıma | Shift + Sekme |
+
+### <a name="on-visual"></a>Görselde
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Odağı görsel menüye taşıma | Alt + Shift + F10 |
+| Verileri göster | Alt + Shift +F11  |
+
+### <a name="pane-navigation"></a>Bölme Gezintisi
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Bağlam menüsünü açma | <ul><li>Windows klavyesi: Windows bağlam tuşu + F10.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: Shift + F10</li></ul> |
+
+### <a name="slicer"></a>Dilimleyici
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Dilimleyiciyle etkileşim kurma | Ctrl + Sağ ok tuşu |
+
+### <a name="selection-pane"></a>Seçim Bölmesi
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Seçim bölmesini etkinleştirme | F6 |
+| Nesneyi katman içinde yukarı taşıma | Ctrl + Shift + F |
+| Nesneyi katman içinde aşağı taşıma | Ctrl + Shift + B |
+| Nesneyi gizleme / gösterme (iki durumlu) | Ctrl + Shift + S |
+
+### <a name="dax-editor"></a>DAX Editor
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Satırı yukarı / aşağı taşıma | Alt + Yukarı ok tuşu / Aşağı ok tuşu |
+| Üstteki /alttaki satırı kopyalama | Shift + Alt + Yukarı ok tuşu / Aşağı ok tuşu |
+| Altına satır ekleme | Ctrl + Enter |
+| Üstüne satır ekleme | Ctrl + Shift + Enter |
+| Eşleşen köşeli ayraca atlama | Ctrl + Shift + \ |
+| Satır girintisini artırma / azaltma | Ctrl + ] / [ |
+| İmleç ekleme | Alt + Tıklama |
+| Geçerli satırı seçme | Ctrl + I |
+| Geçerli seçimin tüm oluşumlarını seçme | Ctrl + Shift + L |
+| Kelimenin tüm oluşumlarını seçme | Ctrl + F2 |
+
+
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI Desktop'ta Rapor Temalarını Kullanma (Önizleme)](desktop-report-themes.md)
