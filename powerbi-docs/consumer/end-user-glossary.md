@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799258"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508026"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -317,4 +317,4 @@ Power BI panolarında rapor kutucukları yer alır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI hizmeti müşterilerine yönelik temel kavramlar](/consumers/end-user-basic-concepts.md)
+[Power BI hizmeti müşterilerine yönelik temel kavramlar](end-user-basic-concepts.md)

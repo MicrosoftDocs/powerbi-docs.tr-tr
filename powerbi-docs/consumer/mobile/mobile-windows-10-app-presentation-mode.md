@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973644"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507945"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Raporları Surface Hub'da ve Windows 10'da sunu modunda görüntüleme - Power BI
 Windows 10 cihazlarında raporları Surface Hub sunu modunda açabilirsiniz. Ayrıca panoları, raporları ve kutucukları tam ekran modunda görüntüleyebilirsiniz. 
@@ -27,7 +27,7 @@ Power BI mobil uygulamasını tam ekran moduna aldığınızda sayfa sekmeleri v
 
 Bir raporu Surface Hub'da sunu modunda görüntülediğinizde sayfalar üzerinde farklı renklerde çizimler yapabilir ve raporunuzun sayfaları arasında gezinebilirsiniz.
 
-Ayrıca web üzerindeki [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleyebilirsiniz](../../service-fullscreen-mode.md).
+Ayrıca web üzerindeki [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleyebilirsiniz](../end-user-focus.md).
 
 > [!NOTE]
 > Sunu modu, [kutucukların odak modundan](mobile-tiles-in-the-mobile-apps.md) farklıdır.
@@ -74,6 +74,6 @@ Sunu modu varsayılan olarak Surface Hub'da açıktır ancak kapalıysa tekrar a
 7. Tam ekran modundan çıkmak için yukarıdan aşağı doğru kaydırıp üzerinde içeri doğru iki ok bulunan simgeye ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png) dokunun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleme](../../service-fullscreen-mode.md)
+* [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleme](../end-user-focus.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

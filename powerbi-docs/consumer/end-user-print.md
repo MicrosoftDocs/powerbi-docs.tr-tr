@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565004"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507681"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI hizmetinden yazdırma
 Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
@@ -47,7 +47,7 @@ Amanda'nın panosundan ve raporundan yazdırma işlemi gerçekleştirmesini izle
 1. [Kutucuğu Odak modunda açmak için](end-user-focus.md) üç noktayı ve Odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçin.
    
     ![üç nokta menüsü](./media/end-user-print/menu-options.png)
-2. Kutucuğu [tam ekran modunda](../service-fullscreen-mode.md) açmak için üst taraftaki gezinti çubuğundan tam ekran simgesini ![tam ekran simgesi](./media/end-user-print/power-bi-full-screen-icon.png) seçin.
+2. Kutucuğu [tam ekran modunda](end-user-focus.md) açmak için üst taraftaki gezinti çubuğundan tam ekran simgesini ![tam ekran simgesi](./media/end-user-print/power-bi-full-screen-icon.png) seçin.
 3. Seçenekler menüsünün gösterilmesi için kutucuğun üzerine gelin.
    
     ![tam ekran seçenekler menüsü](./media/end-user-print/menu-options-new.png)

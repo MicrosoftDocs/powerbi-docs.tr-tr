@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545004"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507865"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel göründüğü kadar işlevsel hale getirmeye geldi. Genel olarak yapmanız gereken, en önemli bilgileri öne çıkarıp panoyu temiz ve sade bir hale getirmektir.
@@ -43,7 +43,7 @@ Panoların amacı önemli bilgileri bir bakışta sunmak olduğundan tüm kutucu
 Panonuz çok mu kalabalık?  Kolay okunup yorumlanacak temel bilgiler dışındakileri kaldırın.
 
 ## <a name="make-use-of-full-screen-mode"></a>Tam ekran modunu kullanın
-Panonuzu [tam ekran](service-fullscreen-mode.md) modunda, dikkati dağıtacak öğeler olmadan görüntüleyin.
+Panonuzu [tam ekran](consumer/end-user-focus.md) modunda, dikkati dağıtacak öğeler olmadan görüntüleyin.
 
 ## <a name="make-the-most-important-information-biggest"></a>En önemli bilgiler için en büyük boyutları kullanın
 Panonuzdaki tüm metinler ve görselleştirmeler aynı boyutta olursa kullanıcılarınız önemli olan bilgilere odaklanma konusunda sorun yaşayabilir. Örneğin, kart görselleştirmeleri, önemli sayıları belirgin bir şekilde görüntülemenin iyi bir yoludur:  

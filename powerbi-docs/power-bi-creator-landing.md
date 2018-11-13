@@ -6,16 +6,16 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 09/24/2018
+ms.date: 10/26/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: abc57a90f2ae70dcbbbd4ab284418476b071afae
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 32c09de10a9a9dd4b5c315377745afde9fd9175a
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223364"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507842"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 

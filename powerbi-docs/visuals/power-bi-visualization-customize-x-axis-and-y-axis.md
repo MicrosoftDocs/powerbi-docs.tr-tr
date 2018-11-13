@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545957"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265921"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 Bu eğitimde görsellerinizin x eksenini ve y eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerde eksenler bulunmaz ve tüm görseller özelleştirilemez; örneğin Pasta grafiklerde eksen bulunmaz. Özelleştirme seçenekleri görsellere göre farklılık gösterir. Tek bir makalede ele alınamayacak kadar çok seçenek vardır. Bu nedenle en sık kullanılan bazı eksenlere ilişkin özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel biçimlendirme sekmesini rahatlıkla kullanmanızı sağlayacağız.  
@@ -86,30 +86,33 @@ Mağaza sayısının satış üzerindeki etkisini gösteren bir Birleşik harita
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
-> 2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (0M% kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
+     
+3. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (0M% kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve Yığılmış Sütun grafiğine dönüştürün.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. Artık yukarıda oluşturduğumuz yığılmış sütun grafiğimiz ***ve*** bir çizgi grafiğimiz vardır.  (İsteğe bağlı olarak, eksen yazı tipi rengini ve boyutunu biçimlendirmek üzere yukarıda öğrendiklerinizi uygulayın.)
    
-
    Power BI iki eksen oluşturarak veri kümelerinin farklı şekilde ölçeklenmesini sağlar; sol eksende dolar cinsinden para değeri gösterilirken sağ eksende yüzde ölçülür.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>İkincil y eksenini biçimlendirme
-1. **Görsel Öğeler** bölmesinde, biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.
-2. Aşağı oku seçerek Y Ekseni seçeneklerini genişletin.
-3. **Sonrakini göster** seçeneklerini bulana dek listeyi kaydırın. **Sonrakini Göster** seçeneğini **Kapalı** yerine **Açık** olarak ayarlayın.
+1. **Görsel Öğeler** bölmesinde, biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.    
+2. Aşağı oku seçerek Y Ekseni seçeneklerini genişletin.    
+3. **Sonrakini göster** seçeneklerini bulana dek listeyi kaydırın. **Sonrakini Göster** seçeneğini **Kapalı** yerine **Açık** olarak ayarlayın.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (İsteğe bağlı) İki ekseni özelleştirin. Sütun ekseni veya çizgi ekseni için **Konum** değerini değiştirirseniz iki eksen yer değiştirir.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Bu düzeyde karmaşık olan görselleştirmelerde eksen başlıklarının eklenm
 1. **Y Ekseni (Sütun)** ve **Y Ekseni (Satır)** için **Başlık** değerini **Açık** olarak ayarlayın.
 2. **Stil** seçeneğini **Yalnızca başlığı göster** olarak ayarlayın.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. Artık Birleşik haritanız başlıkları olan iki eksen görüntüler.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

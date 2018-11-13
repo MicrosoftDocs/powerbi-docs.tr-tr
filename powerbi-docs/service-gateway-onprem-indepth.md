@@ -11,10 +11,10 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/09/2018
 ms.locfileid: "50101520"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)

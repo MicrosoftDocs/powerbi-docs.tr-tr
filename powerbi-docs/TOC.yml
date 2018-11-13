@@ -428,8 +428,6 @@ items:
       items:
       - name: Power BI'daki içerikleri yeniden adlandırma
         href: service-rename.md
-      - name: Panoları ve raporları Tam Ekran modunda (TV modu) görüntüleme
-        href: service-fullscreen-mode.md
       - name: Power BI'daki Hızlı Öngörüler
         href: service-insights.md
       - name: ABD Kamu kuruluşunuzu kaydetme
@@ -766,6 +764,24 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
         href: service-refresh-xero-credentials.md
+    - name: Self servis veri hazırlığı
+      items:
+      - name: Veri akışları ile self servis veri hazırlığı (önizleme)
+        href: service-dataflows-overview.md
+      - name: Veri akışları oluşturma ve kullanma
+        href: service-dataflows-create-use.md
+      - name: Power BI Premium ile hesaplanan varlıklar
+        href: service-dataflows-computed-entities-premium.md
+      - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
+        href: service-dataflows-on-premises-gateways.md
+      - name: Veri akışları arasındaki varlıkları ilişkilendirme (önizleme)
+        href: service-dataflows-linked-entities.md
+      - name: Veri akışları ile artımlı yenilemeyi kullanma (önizleme)
+        href: service-dataflows-incremental-refresh.md
+      - name: Veri akışları için geliştirici kaynakları
+        href: service-dataflows-developer-resources.md
+      - name: Power BI Desktop’taki veri akışlarına bağlanma
+        href: desktop-connect-dataflows.md
   - name: Kaynaklar
     items:
     - name: Videolar
@@ -776,6 +792,36 @@ items:
       href: supported-languages-countries-regions.md
     - name: Teknik incelemeler
       href: whitepapers.md
+- name: Power BI’daki sayfalandırılmış raporlar
+  items:
+  - name: Genel Bakış
+    items:
+    - name: Sayfalandırılmış raporlar nedir? (Önizleme)
+      href: paginated-reports-report-builder-power-bi.md
+  - name: Öğreticiler
+    items:
+    - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
+      href: paginated-reports-quickstart-aw.md
+  - name: Kavramlar
+    items:
+    - name: Rapor Tasarım Görünümünde gezinme
+      href: paginated-reports-report-design-view.md
+    - name: Sayfalandırılmış raporlar hakkında SSS
+      href: paginated-reports-faq.md
+  - name: Nasıl yapılır?
+    items:
+    - name: Eklenmiş veri kaynağı oluşturma
+      href: paginated-reports-embedded-data-source.md
+    - name: Eklenmiş veri kümesi oluşturma
+      href: paginated-reports-create-embedded-dataset.md
+    - name: Parametreler oluşturma
+      href: paginated-reports-parameters.md
+    - name: Sayfalandırılmış rapor yayımlama
+      href: paginated-reports-save-to-power-bi-service.md
+    - name: Sayfalandırılmış rapor görüntüleme
+      href: paginated-reports-view-power-bi-service.md
+    - name: Parametrelerle etkileşim kurma
+      href: paginated-reports-view-parameters.md
 - name: Geliştiriciler için Power BI
   items:
   - name: Geliştiriciler Power BI ile neler yapabilir?
@@ -1203,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a0d2f9e2fcf26f3eca516a1204c9d25a9225010f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223203"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508072"
