@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta bileşik modelleri kullanma (önizleme)
+title: Power BI Desktop’ta bileşik modeller kullanma
 description: Power BI Desktop'ta birden çok veri bağlantısı ve çoka çok ilişkileriyle veri modelleri oluşturun
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435408"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619713"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop’ta bileşik modelleri kullanma (önizleme)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop’ta bileşik modeller kullanma
 
 Daha önce Power BI Desktop'ta raporda bir DirectQuery kullandığınızda, bu rapor için &mdash;ister DirectQuery ister İçeri aktarma olsun&mdash; başka hiçbir veri bağlantısına izin verilmiyordu. Bileşik modellerle bu kısıtlama kaldırılmıştır. Bir rapor birden çok DirectQuery veya içeri aktarma veri bağlantısından ya da sizin seçtiğiniz herhangi bir bileşimde veri bağlantıları içerebilir.
 
@@ -30,16 +30,6 @@ Power BI Desktop'taki bileşik modeller özelliği birbiriyle ilgili üç özell
 * **Çok-çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çok-çok ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
 
 * **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md).
-
-## <a name="enable-the-composite-models-preview-feature"></a>Bileşik modeller önizleme özelliğini etkinleştirme
-
-Bileşik modeller özelliği önizleme aşamasındadır ve Power BI Desktop'ta etkinleştirilmesi gerekir. Bileşik modelleri etkinleştirmek için, **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**’ni seçin ve ardından **Bileşik Modeller** onay kutusunu işaretleyin. 
-
-!["Önizleme özellikleri" bölmesi](media/desktop-composite-models/composite-models_02.png)
-
-Özelliği etkinleştirmek için Power BI Desktop'ı yeniden başlatmanız gerekir.
-
-!["Özellik yeniden başlatma gerektirmektedir" penceresi](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>Bileşik modelleri kullanma

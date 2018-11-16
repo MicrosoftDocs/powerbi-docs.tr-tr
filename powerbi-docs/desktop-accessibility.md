@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223387"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619644"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
 
 ![Erişilebilirliği iyileştirmek üzere çizgi grafikler ve alan grafikleri için farklı işaretçiler kullanma](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Bu erişilebilirlik özellikleri Haziran 2017'de kullanıma sunulan **Power BI Desktop** sürümüyle ve sonraki sürümlerle kullanılabilir. Gelecek sürümlerle birlikte daha fazla erişilebilirlik özelliğini kullanıma sunmayı planlıyoruz.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Klavye veya ekran okuyucu ile Power BI Desktop raporlarını kullanma
 **Power BI Desktop**'ın Eylül 2017 sürümünden itibaren, **?** tuşuna basarak, **Power BI Desktop**'ta kullanılabilen, erişilebilirliğe yönelik klavye kısayollarının açıklandığı bir pencerenin gösterilmesini sağlayabilirsiniz.
@@ -116,12 +111,26 @@ Erişilebilirlik özelliklerine ilişkin sınırlamalar ve bilinen birkaç sorun
 * Ekran okuyucusu uygulamasını kullanıyorsanız, Verileri göster seçeneğiyle ulaştığınız HTML tablosunda gezinme konusunda belirli sınırlamalarla karşılaşabilirsiniz.
 
 ## <a name="keyboard-shortcuts"></a>Klavye Kısayolları
+Power BI raporları arasında klavyeyle dolaşırken klavye kısayolları yararlı olur. Aşağıdaki tablolarda, Power BI raporunda kullanılabilen kısayollar açıklanır. Bu klavye kısayollarını, Power BI Desktop’ın yanı sıra şu deneyimlerde de kullanabilirsiniz:
+
+* Soru-Cevap Gezgini iletişim kutusu
+* Başlarken iletişim kutusu
+* Dosya menüsü ve Hakkında iletişim kutusu
+* Uyarı çubuğu
+* Dosya Geri Yükleme iletişim kutusu
+* Kaş Çatmalar iletişim kutusu
+
+Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında, listelenen önceki deneyimler ekran okuyucu ve yüksek karşıtlık ayarlarını da destekler.
+
+
 ### <a name="frequently-used-shortcuts"></a>Sık kullanılan kısayollar
 | Bunu yapmak için           | Buna basın                |
 | :------------------- | :------------------- |
 | Odağı bölümler arasında taşıma  | Ctrl + F6 |
 | Bölüm içinde odağı ileri doğru taşıma | Sekme         |
 | Bölüm içinde odağı geriye doğru taşıma | Shift + Sekme |
+| Nesneyi seçme veya seçimini kaldırma | Enter veya Ara Çubuğu |
+| Nesneleri çoklu seçme | Ctrl + Ara Çubuğu |
 
 ### <a name="on-visual"></a>Görselde
 | Bunu yapmak için           | Buna basın                |
@@ -152,14 +161,14 @@ Erişilebilirlik özelliklerine ilişkin sınırlamalar ve bilinen birkaç sorun
 | :------------------- | :------------------- |
 | Satırı yukarı / aşağı taşıma | Alt + Yukarı ok tuşu / Aşağı ok tuşu |
 | Üstteki /alttaki satırı kopyalama | Shift + Alt + Yukarı ok tuşu / Aşağı ok tuşu |
-| Altına satır ekleme | Ctrl + Enter |
-| Üstüne satır ekleme | Ctrl + Shift + Enter |
-| Eşleşen köşeli ayraca atlama | Ctrl + Shift + \ |
+| Altına satır ekle | Ctrl + Enter |
+| Üstüne satır ekle | Ctrl + Shift + Enter |
+| Eşleşen köşeli ayraca atla | Ctrl + Shift + \ |
 | Satır girintisini artırma / azaltma | Ctrl + ] / [ |
-| İmleç ekleme | Alt + Tıklama |
-| Geçerli satırı seçme | Ctrl + I |
-| Geçerli seçimin tüm oluşumlarını seçme | Ctrl + Shift + L |
-| Kelimenin tüm oluşumlarını seçme | Ctrl + F2 |
+| İmleç ekle | Alt + Tıklama |
+| Geçerli satırı seç | Ctrl + I |
+| Geçerli seçimin tüm oluşumlarını seç | Ctrl + Shift + L |
+| Kelimenin tüm oluşumlarını seç | Ctrl + F2 |
 
 
 

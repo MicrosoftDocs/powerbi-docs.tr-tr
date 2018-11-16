@@ -492,8 +492,6 @@ items:
         href: service-connect-to-microsoft-dynamics-ax.md
       - name: Microsoft Dynamics CRM
         href: service-connect-to-microsoft-dynamics-crm.md
-      - name: Microsoft Dynamics Marketing
-        href: service-connect-to-microsoft-dynamics-marketing.md
       - name: Microsoft Dynamics NAV
         href: service-connect-to-microsoft-dynamics-nav.md
       - name: Office365Mon
@@ -1253,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 1fdc2ca3ea80f8f975d0b2dac6a3cee70f194ef6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619685"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718103"

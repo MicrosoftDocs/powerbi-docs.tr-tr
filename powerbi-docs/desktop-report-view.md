@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327741"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619784"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop'taki Rapor Görünümü
 Power BI'a aşinaysanız, verilerinize dinamik bakış açıları ve öngörüler kazandıran raporlar oluşturmanın ne kadar kolay olduğunu biliyorsunuz demektir. Power BI, Power BI Desktop'ta daha gelişmiş özelliklere de sahiptir. Power BI Desktop ile gelişmiş sorgular oluşturabilir, birden fazla kaynaktaki verileri birleştirebilir, tablolar arasında ilişkiler oluşturabilir ve daha fazlasını yapabilirsiniz.
@@ -27,35 +27,46 @@ Aralarındaki fark şudur: Power BI Desktop'ı kullanırken sorgularla çalışa
 ## <a name="lets-take-a-look"></a>Şimdi bir göz atalım!
 Power BI Desktop'a veri yüklediğinizde ilk olarak boş bir tuval içeren **Rapor Görünümü** ile karşılaşırsınız.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
 Sol taraftaki gezinti çubuğunda bulunan simgeleri seçerek **Rapor Görünümü**, **Veri Görünümü** ve **İlişki Görünümü** arasında geçiş yapabilirsiniz:
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
+![Rapor görünümü simgesi](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
 Veri ekledikten sonra tuvaldeki yeni bir görselleştirmeye alanlar ekleyebilirsiniz.
 
-![](media/desktop-report-view/pbid_reportview_addvis.gif)
+![Alanlar bölmesinden sürükleyerek görsel ekleme](media/desktop-report-view/pbid_reportview_addvis.gif)
 
 Görselleştirmenin türünü değiştirmek için şeritteki **Görselleştirme** grubundan seçim yapabilir veya görselleştirmeye sağ tıklayıp **Görselleştirme türünü değiştir** simgesinden farklı bir tür seçebilirsiniz.
 
-![](media/desktop-report-view/pbid_reportview_changevis.gif)
+![Yeni bir görsel seçerek görseli değiştirme](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > Farklı görselleştirme türleriyle deneme yapmayı ihmal etmeyin. Görselleştirmenizin verilerinizdeki bilgileri açık bir şekilde ifade etmesi önemlidir.
-> 
-> 
 
 Bir rapor başlangıç olarak en az bir boş sayfa içerir. Sayfalar, tuvalin solundaki gezinti bölmesinde görünür. Bir sayfaya istediğiniz türden görselleştirmeler ekleyebilirsiniz ancak aşırıya kaçmamakta yarar vardır. Bir sayfada çok fazla görselleştirmenin bulunması sayfanın karmaşık görünmesine ve aranan bilgilerin bulunmasının zorlaşmasına neden olur. Raporunuza yeni sayfalar ekleyebilirsiniz. Şeritteki **Yeni Sayfa**’ya tıklayın.
 
-![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
+![Yeni sayfa simgesi](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
 Bir sayfayı silmek için, Rapor Görünümü'nde altta sayfanın sekmesinde bulunan **X** işaretini tıklayın.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
+![Rapora sayfa ekleme](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
 > Raporlar ve görselleştirmeler Power BI Desktop'tan bir panoya sabitlenemez. Bunu gerçekleştirmek için, kutucuğu Power BI sitenizde [Power BI Desktop'tan yayımlamanız](desktop-upload-desktop-files.md) gerekir.
+
+## <a name="copy-and-paste-between-reports"></a>Raporlar arasında kopyalama ve yapıştırma
+
+Bir Power BI Desktop raporundaki görseli kolayca alabilir ve başka bir rapora yapıştırabilirsiniz. Rapor görselinizi **CTRL+C** klavye kısayolunu kullanarak kopyalamanız ve ardından diğer Power BI Desktop raporunda görseli yapıştırmak için **CTRL+V** kısayolunu kullanmanız yeterlidir. Görselleri birer birer veya toplu olarak seçip kopyalayabilir ve hedef Power BI Desktop raporuna yapıştırabilirsiniz. 
+
+Görselleri kopyalayıp yapıştırabilme olanağı birden çok raporu sık sık derleyen ve güncelleştiren kişiler için kullanışlıdır. Dosyalar arasında kopyalarken; biçimlendirme bölmesinde açıkça ayarlanan ayarlar ve biçimlendirme iletilir. Öte yandan bir temayı veya varsayılan ayarları temel alan görsel öğeler, hedef raporun temasına uyacak şekilde otomatik olarak güncelleştirilir. Dolayısıyla görselin tam istediğiniz gibi biçimlendirilmesini ve görünmesini sağladığınızda, o görseli kopyalayıp yeni rapora yapıştırabilir ve tüm biçimlendirme çalışmasını koruyabilirsiniz.
+
+![Görsel kopyalama/yapıştırma hatası - veri alanı yok](media/desktop-report-view/report-view_05.png)
+
+Modelinizdeki alanlar farklıysa, görselde hata gösterilir ve hangi alanların mevcut olmadığına ilişkin bir uyarı görürsünüz. Hata, modelde görselin kullandığı bir alanı sildiğinizde karşılaştığınız deneyime benzer. Hatayı düzeltmek için, bozuk alanları görseli yapıştırdığınız rapordaki modelin kullanmak istediğiniz alanlarıyla değiştirin. Özel bir görsel kullanıyorsanız bu özel görseli de hedef raporun içine aktarmalısınız.
+
+
+
 
 ## <a name="hide-report-pages"></a>Rapor sayfalarını gizleme
 
@@ -63,13 +74,13 @@ Bir rapor oluştururken raporda belirli sayfaları gizleme imkanınız da vardı
 
 Bir rapor sayfasını gizlemek kolaydır. Basitçe rapor sayfasının sekmesine sağ tıklayın ve açılan menüden **Gizle**’yi seçin.
 
-![](media/desktop-report-view/report-view_05.png)
+![Sayfayı gizle seçeneği](media/desktop-report-view/report-view_05.png)
 
 Rapor sayfası gizleme konusunda dikkat etmeniz gereken bazı noktalar vardır:
 
 * Gizlenen bir rapor görünümünü başlığı gri olmasına rağmen **Power BI Desktop**’ta görmeye devam edersiniz. Aşağıdaki resimde, 4. sayfa gizlidir.
 
-    ![](media/desktop-report-view/report-view_06.png)
+    ![gri gösterilen gizli sayfa](media/desktop-report-view/report-view_06.png)
 
 * Raporu **Power BI hizmetinde** görüntülerken gizli rapor sayfalarını *göremezsiniz*.
 

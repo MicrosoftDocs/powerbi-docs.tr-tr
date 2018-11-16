@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336910"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619828"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -30,8 +30,6 @@ Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belir
 
 > [!NOTE]
 > Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır.
-> 
-> 
 
 ## <a name="data-sources"></a>Veri Kaynakları
 Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
@@ -80,15 +78,14 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Impala
 * Google BigQuery
 * Snowflake
+* BI Bağlayıcısı
+* Exasol
 * Dremio (Beta)
-* Exasol (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
-> 
-> 
 
 Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -111,11 +108,11 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu
-* Azure KustoDB (beta)
+* Azure Veri Gezgini (Beta)
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -131,7 +128,8 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Dynamics 365 Business Central (şirket içi)
 * Uygulamalar için Common Data Service (Beta)
 * Microsoft Azure Tüketim Öngörüleri (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Salesforce Nesneleri
 * Salesforce Raporları
 * Google Analytics
@@ -187,8 +185,6 @@ Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmekt
 
 > [!NOTE]
 > Şu anda, güvenliği Azure Active Directory ile sağlanan özel veri kaynaklarına bağlanılamamaktadır.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Veri Kaynaklarına Bağlanma
 Bir veri kaynağına bağlanmak için **Veri Al** penceresinde söz konusu veri kaynağını seçin ve ardından **Bağlan** seçeneğini belirleyin. Aşağıdaki görüntüde, **Diğer** veri bağlantısı kategorisinde yer alan **Web** seçeneği belirlenmiştir.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359735"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619736"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Toplamalar (Önizleme)
 
@@ -25,15 +25,15 @@ Power BI'da **toplamaları** kullanarak büyük verilerde önceden mümkün olma
 
 **Toplamaları** kullanmanın avantajları aşağıda listelenmiştir:
 
-* **Büyük veri kümelerinde sorgu performansı**: Kullanıcılar Power BI raporlarındaki görsellerle etkileşimli çalışırken, veri kümesine DAX sorguları gönderilir. Toplama düzeyinde verileri önbelleğe alarak ayrıntı düzeyinde gereken kaynakların küçük bir bölümünü kullanıp sorgu düzeylerini artırın. Büyük verilerden eskiden mümkün olmayan bir şekilde faydalanın.
+* **Büyük veriler üzerinde sorgu performansı**: Kullanıcılar Power BI raporlarındaki görsellerle etkileşimli çalışırken, veri kümesine DAX sorguları gönderilir. Toplama düzeyinde verileri önbelleğe alarak ayrıntı düzeyinde gereken kaynakların küçük bir bölümünü kullanıp sorgu düzeylerini artırın. Büyük verilerden eskiden mümkün olmayan bir şekilde yararlanın.
 * **Veri yenileme iyileştirmesi**: Verileri toplama düzeyinde önbelleğe alarak önbellek boyutlarını ve yenileme sürelerini azaltın. Verilerin kullanıcılara sunulması sürecini hızlandırın.
 * **Dengeli mimariler elde edin**: Toplu sorguların etkili bir şekilde işlenmesi için işi Power BI'ın bellek içi önbelleğine bırakın. Veri kaynağına gönderilen sorguları DirectQuery moduyla sınırlayın ve eşzamanlılık sınırlarında kalın. Geçen sorgular genellikle veri ambarı ve büyük veri sistemlerinin iyi bir şekilde işlediği filtrelenmiş ve işlem düzeyindeki sorgular olur.
 
 ### <a name="table-level-storage"></a>Tablo düzeyi depolama
-Toplamalar özelliği ile normalde tablo düzeyi depolama kullanılır. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (Önizleme)](desktop-storage-mode.md).
+Toplamalar özelliği ile normalde tablo düzeyi depolama kullanılır. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Veri kaynağı türleri
-Toplamalar veri ambarları ve veri reyonları gibi boyutlu modelleri temsil eden veri kaynaklarının yanı sıra Hadoop tabanlı büyük veri kaynakları için kullanılır. Bu makalede her veri kaynağı türü için Power BI'daki tipik modelleme farkları açıklanmaktadır.
+Toplamalar veri ambarları, veri reyonları ve Hadoop tabanlı büyük veri kaynakları gibi boyutlu modelleri temsil eden veri kaynaklarıyla kullanılır. Bu makalede her veri kaynağı türü için Power BI'daki tipik modelleme farkları açıklanmaktadır.
 
 Tüm Power BI İçeri Aktarma ve (çok boyutlu olmayan) DirectQuery kaynakları toplamalarla çalışır.
 
@@ -55,12 +55,12 @@ Aşağıdaki tek bir veri kaynağından oluşan modeli inceleyin. Başlangıç i
 
 ![Modeldeki tablolar](media/desktop-aggregations/aggregations_02.jpg)
 
-Bunun yerine bir toplama tablosu olan **Sales Agg** tablosunu oluşturuyoruz. Ayrıntı düzeyi **Sales** tablosundan daha yüksek olduğundan satır sayıcı çok daha az olacaktır. Satır sayısı **CustomerKey**, **DateKey** ve **ProductSubcategoryKey** ölçütlerine göre gruplandırılmış **SalesAmount** toplamıyla eşit olmalıdır. Satır sayısı milyar yerine milyon seviyesine inerek yönetilmesi daha kolay bir tablo sunabilir.
+Bunun yerine bir toplama tablosu olan **Sales Agg** tablosunu oluşturuyoruz. Ayrıntı düzeyi **Sales** tablosundan daha yüksek olduğundan çok daha az satır içerecektir. Satır sayısı **CustomerKey**, **DateKey** ve **ProductSubcategoryKey** ölçütlerine göre gruplandırılmış **SalesAmount** toplamıyla eşit olmalıdır. Satır sayısı milyar yerine milyon seviyesine inerek yönetilmesi daha kolay bir tablo sunabilir.
 
-Şimdi aşağıdaki boyut tablolarının sorgular için en çok kullanılan ve en yüksek iş değerine sahip tablolar olduğunu düşünelim. Bunlar **Sales Agg** tablosunu *bir-çok* (veya *çok-bir*) ilişkilerini kullanarak filtreleyecek tablolardır. *Çok-çok* veya *çok kaynaklı* gibi diğer ilişki türleri toplamalarda kullanılmaz.
+Şimdi aşağıdaki boyut tablolarının sorgular için en çok kullanılan ve en yüksek iş değerine sahip tablolar olduğunu düşünelim. Bunlar **Sales Agg** tablosunu *bir-çok* (veya *çok-bir*) ilişkilerini kullanarak filtreleyecek tablolardır.
 
 * Coğrafya
-* Customer
+* Müşteri
 * Tarih
 * Ürün Alt Kategorisi
 * Ürün Kategorisi
@@ -77,7 +77,7 @@ Kullandığımız örnek üzerinden devam edelim. Sorguları hızlandırmak içi
 
 ![Depolama modunu ayarlama](media/desktop-aggregations/aggregations_04.jpg)
 
-Bunu yaptığımızda aşağıdaki iletişim kutusu açılır ve ilgili boyut tablolarının **İkili** depolama moduna ayarlanacağını bildirir. 
+Bunu yaptığımızda aşağıdaki iletişim kutusu açılır ve ilgili boyut tablolarının **İkili** depolama moduna ayarlanabileceğini bildirir. 
 
 ![Depolama modu iletişim kutusu](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ Boyut tablolarının **İkili** olarak ayarlanması alt sorguya bağlı olarak �
 
 **İkili** depolama modu hakkında daha fazla bilgi için [depolama modu](desktop-storage-mode.md) makalesini inceleyin.
 
-> Not: **Sales Agg** tablosu gizlidir. Toplama tablolarının veri kümesi kullanıcılarından gizlenmesi gerekir. Kullanıcılar ve sorgular toplama tablosuna değil ayrıntı tablosuna başvurur. Toplama tablosunun var olduğundan dahi haberleri olmasına gerek yoktur.
+### <a name="strong-vs-weak-relationships"></a>Güçlü ve zayıf ilişkiler
+Toplamalarda ilişkileri temel alan isabetler için güçlü ilişkiler gerekir.
+
+Güçlü ilişkiler, her iki tablonun da *tek bir kaynaktan* geldiği aşağıdaki bileşimleri içerir.
+
+| *Çok tarafındaki tablo | *1* tarafındaki tablo |
+| ------------- |----------------------| 
+| İkili          | İkili                 | 
+| İçeri Aktar        | İçeri Aktarma veya İkili       | 
+| DirectQuery   | DirectQuery veya İkili  | 
+
+*Çapraz kaynak* ilişkisinin güçlü kabul edildiği tek durum, her iki tablonun da İçeri Aktarma olmasıdır. Çoka çok ilişkiler her zaman zayıf olarak kabul edilir.
+
+*Çapraz kaynak* toplamasında ilişkilere dayanmayan isabetler için, aşağıda gruplandırma ölçütü sütunlarına dayanan toplamalarla ilgili bölüme bakın.
+
+### <a name="aggregation-table-is-hidden"></a>Toplama tablosu gizli
+**Sales Agg** tablosu gizlenmiştir. Toplama tablolarının her zaman veri kümesi kullanıcılarından gizlenmesi gerekir. Kullanıcılar ve sorgular toplama tablosuna değil ayrıntı tablosuna başvurur. Toplama tablosunun var olduğundan dahi haberleri olmasına gerek yoktur.
 
 ### <a name="manage-aggregations-dialog"></a>Toplamaları yönetme iletişim kutusu
 Şimdi toplamaları tanımlayacağız. **Sales Agg** tablosuna sağ tıklayın ve açılan bağlam menüsünden **Toplamaları yönet**'i seçin.
@@ -155,23 +171,23 @@ Aşağıdaki JSON kod parçacığında, toplama kullanıldığında elde edilen 
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_02.jpg)
 
-Aşağıdaki sorgu toplamaya isabet etmeyecektir. **SalesAmount** tablosunun toplamını istemesine rağmen toplamaya isabet edebilecek ayrıntı düzeyinde olmayan **Product** tablosundaki bir sütunla gruplandırma işlemi gerçekleştirmektedir. Modeldeki ilişkileri incelerseniz bir ürün alt kategorisinde birden fazla **Product** satırı olabileceğini görürsünüz. Sorgu, toplama yapılacak ürünü belirleyemeyecektir. Sorgu bu durumda DirectQuery modeline döner ve veri kaynağına bir SQL sorgusu gönderir.
+Aşağıdaki sorgu toplamaya isabet etmez. **SalesAmount** tablosunun toplamını istemesine rağmen toplamaya isabet edebilecek ayrıntı düzeyinde olmayan **Product** tablosundaki bir sütunla gruplandırma işlemi gerçekleştirmektedir. Modeldeki ilişkileri incelerseniz bir ürün alt kategorisinde birden fazla **Product** satırı olabileceğini görürsünüz. Sorgu, toplama yapılacak ürünü belirleyemeyecektir. Sorgu bu durumda DirectQuery modeline döner ve veri kaynağına bir SQL sorgusu gönderir.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_03.jpg)
 
-Toplamalar, yalnızca bir toplama işlemi gerçekleştiren basit hesaplama adımları değildir. Karmaşık hesaplamalar da toplamalardan faydalanabilir. Kavramsal açıdan karmaşık bir hesaplama işlemi SUM, MIN, MAX ve COUNT alt sorgularına ayrılır ve her alt sorgu toplama isabeti açısından değerlendirilir. Bu mantık sorgu planı uygulaması nedeniyle her durumda geçerli olmayabilir ancak genellikle uygulanır. Aşağıdaki örnek toplamaya isabet edecektir:
+Toplamalar, yalnızca bir toplama işlemi gerçekleştiren basit hesaplama adımları değildir. Karmaşık hesaplamalar da toplamalardan faydalanabilir. Kavramsal açıdan karmaşık bir hesaplama işlemi SUM, MIN, MAX ve COUNT alt sorgularına ayrılır ve her alt sorgu toplama isabeti açısından değerlendirilir. Bu mantık sorgu planı uygulaması nedeniyle her durumda geçerli olmayabilir ancak genellikle uygulanır. Aşağıdaki örnek toplamaya isabet eder:
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_04.jpg)
 
-COUNTROWS işlevi toplamalardan yararlanabilir. **Sales** tablosu için tanımlanmış bir **Count** tablo satırı toplaması bulunduğundan aşağıdaki sorgu toplamaya isabet edecektir.
+COUNTROWS işlevi toplamalardan yararlanabilir. **Sales** tablosu için tanımlanmış bir **Count** tablo satırı toplaması bulunduğundan aşağıdaki sorgu toplamaya isabet eder.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_05.jpg)
 
-AVERAGE işlevi toplamalardan yararlanabilir. AVERAGE, COUNT ile bölünen bir SUM sorgusuna dönüştürüldüğünden aşağıdaki sorgu toplamaya isabet edecektir. **UnitPrice** sütununda hem SUM hem de COUNT için tanımlanmış toplamalar bulunduğundan toplamaya isabet eder.
+AVERAGE işlevi toplamalardan yararlanabilir. AVERAGE, COUNT ile bölünen bir SUM sorgusuna dönüştürüldüğünden aşağıdaki sorgu toplamaya isabet eder. **UnitPrice** sütununda hem SUM hem de COUNT için tanımlanmış toplamalar bulunduğundan toplamaya isabet eder.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_06.jpg)
 
-Bazı durumlarda DISTINCTCOUNT işlevi de toplamaları kullanabilir. Toplama tablosundaki **CustomerKey** sütununun benzersizliğini koruyan **CustomerKey** GroupBy girişi olduğundan aşağıdaki sorgu toplamaya isabet edecektir. İki ile beş milyon arasındaki benzersiz değerlerin aşılması sorgu performansını etkileyebileceğinden bu teknik de performans eşiğine tabi olacaktır. Ancak ayrıntı tablosunda milyarlarca satır ve sütunda iki ile beş milyon arasında benzersiz değer bulunan senaryolarda faydalı olabilir. Bu durumda benzersiz sayı, önbelleğe alınmış olsa dahi milyarlarca satıra sahip bir tabloyu taramaktan daha hızlı bir performans sergileyebilir.
+Bazı durumlarda DISTINCTCOUNT işlevi de toplamaları kullanabilir. Toplama tablosundaki **CustomerKey** sütununun benzersizliğini koruyan **CustomerKey** GroupBy girişi olduğundan aşağıdaki sorgu toplamaya isabet eder. İki ile beş milyon arasındaki benzersiz değerlerin aşılması sorgu performansını etkileyebileceğinden bu teknik de performans eşiğine tabi olacaktır. Ancak ayrıntı tablosunda milyarlarca satır ve sütunda iki ile beş milyon arasında benzersiz değer bulunan senaryolarda faydalı olabilir. Bu durumda benzersiz sayı, önbelleğe alınmış olsa dahi milyarlarca satıra sahip bir tabloyu taramaktan daha hızlı bir performans sergileyebilir.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_07.jpg)
 
@@ -201,7 +217,7 @@ Bu örnekte **GroupBy** girişleri **isteğe bağlı değildir**. Onlar olmadan 
 
 ### <a name="query-examples"></a>Sorgu örnekleri
 
-**Activity Date** sütunu toplama tablosunun kapsamında olduğundan aşağıdaki sorgu toplamaya isabet edecektir. Tablo satırlarını say toplaması COUNTROWS işlevi tarafından kullanılmıştır.
+**Activity Date** sütunu toplama tablosunun kapsamında olduğundan aşağıdaki sorgu toplamaya isabet eder. Tablo satırlarını say toplaması COUNTROWS işlevi tarafından kullanılmıştır.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_08.jpg)
 
@@ -253,7 +269,7 @@ Aşağıdaki sorguda CalendarMonth toplama tablosunun kapsamında olduğundan ve
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_09.jpg)
 
-CalendarDay toplama tablosunun kapsamında olmadığından aşağıdaki sorgu toplamaya isabet etmeyecektir.
+CalendarDay toplama tablosunun kapsamında olmadığından aşağıdaki sorgu toplamaya isabet etmez.
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -277,4 +293,3 @@ DirectQuery makaleleri:
 
 * [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
-

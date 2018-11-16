@@ -61,14 +61,14 @@ Daha sonra gerçekleştireceğiniz işlemler için, *ağ geçidi Windows hizmeti
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>TLS 1.1/1.2 desteği
+## <a name="support-for-tls-12"></a>TLS 1.2 Desteği
 
-Şirket içi veri ağ geçidinde, **Power BI hizmeti** ile iletişim kurmak için varsayılan olarak Aktarım Katmanı Güvenliği (TLS) 1.1 veya 1.2 sürümü kullanılmaktadır. Şirket içi veri ağ geçidinin önceki sürümlerinde varsayılan olarak TLS 1.0 sürümü kullanılır. 15 Mart 2018 tarihinde, ağ geçidinin TLS 1.0 üzerinden **Power BI hizmeti** ile etkileşim kurma seçeneği dahil olmak üzere TLS 1.0 desteği sonlandırılmıştır. Ağ geçitlerinizin çalışmaya devam etmesini sağlamak üzere Şirket içi veri ağ geçidi yüklemelerinizi yükseltmeniz gerekmektedir.
+Varsayılan olarak Şirket içi veri ağ geçidinde, Power BI hizmeti ile iletişim kurmak için Aktarım Katmanı Güvenliği (TLS) 1.2 sürümü kullanılmaktadır. Tüm ağ geçidi trafiğinin TLS 1.2 kullanmasını sağlamak için, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekebilir:
 
-TLS 1.0 sürümünün, şirket içi veri ağ geçidi tarafından 1 Kasım tarihine kadar desteklendiği ve ağ geçidi tarafından bir geri dönme mekanizması olarak kullanıldığı göz önünde bulundurulmalıdır. Tüm ağ geçidi trafiği için TLS 1.1 veya 1.2 sürümünün kullanılmasını (ve ağ geçidinizde TLS 1.0 sürümünün kullanılmasını önlemeyi) sağlamak üzere, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekmektedir:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Bu kayıt defteri anahtarları eklendiğinde veya değiştirildiğinde değişiklikler tüm .NET uygulamalarında geçerli olur. Diğer uygulamalar için TLS'yi etkileyen kayıt defteri değişiklikleri hakkında bilgi edinmek için bkz. [Transport Layer Security (TLS) registry settings (Aktarım Güvenliği Katmanı (TLS) kayıt defteri ayarları)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359758"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619506"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop’ta depolama modu (önizleme)
 
@@ -43,16 +43,6 @@ Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikte
 
 * **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Depolama modu bu makalede ayrıntılı olarak açıklanmaktadır.
 
-## <a name="enable-the-storage-mode-preview-feature"></a>Depolama modu önizleme özelliğini etkinleştirme
-
-Depolama modu özelliği önizleme aşamasındadır ve Power BI Desktop'ta etkinleştirilmesi gerekir. Depolama modunu etkinleştirmek için, **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**’ni seçin ve ardından **Bileşik Modeller** onay kutusunu işaretleyin. 
-
-!["Önizleme özellikleri" bölmesi](media/desktop-composite-models/composite-models_02.png)
-
-Özelliği etkinleştirmek için Power BI Desktop'ı yeniden başlatın.
-
-!["Özellik yeniden başlatma gerektirmektedir" penceresi](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>Depolama modu özelliğini kullanma
 
 Depolama modu, modelinizdeki her tablo için ayarlayabileceğiniz bir özelliktir. Depolama modunu ayarlamak için **Alanlar** bölmesinde özelliklerini ayarlamak istediğiniz tabloya sağ tıklayın ve **Özellikler**'i seçin.
@@ -75,19 +65,7 @@ Bir tablonun ayarını **İçeri Aktarma** olarak değiştirme işlemi *geri al�
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery ve İkili tabloların kısıtlamaları
 
-İkili tablolar, DirectQuery tablolarıyla aynı kısıtlamalara sahiptir. Bu kısıtlamalar, sınırlı M dönüştürmeleri ve hesaplanan sütunlarda kısıtlanmış DAX işlevleridir. Daha fazla bilgi için bkz. [DirectQuery kullanmanın etkileri](desktop-directquery-about.md#implications-of-using-directquery).
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Farklı depolama modlarına sahip tablolarda ilişki kuralları
-
-İlişkiler, ilgili tabloların depolama modu temelinde belirlenen kurallara uymalıdır. Bu bölümde, geçerli birleşim örnekleri sağlanır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
-
-Tek bir veri kaynağı olan bir veri kümesinde, aşağıdaki *Bire Çok* ilişki birleşimleri geçerlidir:
-
-| *Çok* tarafındaki tablo | *1* tarafındaki tablo |
-| ------------- |----------------------| 
-| İkili          | İkili                 | 
-| İçeri Aktar        | İçeri Aktarma veya İkili       | 
-| DirectQuery   | DirectQuery veya İkili  | 
+İkili tablolar, DirectQuery tablolarıyla aynı işlevsel kısıtlamalara sahiptir. Bu kısıtlamalar, sınırlı M dönüştürmeleri ve hesaplanan sütunlarda kısıtlanmış DAX işlevleridir. Daha fazla bilgi için bkz. [DirectQuery kullanmanın etkileri](desktop-directquery-about.md#implications-of-using-directquery).
 
 ## <a name="propagation-of-dual"></a>İkili'nin Yayılması
 Tüm tabloların İçeri Aktar ve DirectQuery desteği olan tek kaynaktan geldiği aşağıdaki basit modeli düşünün.
@@ -98,14 +76,11 @@ Başlangıç olarak bu modeldeki tüm tabloların DirectQuery olduğunu varsayal
 
 ![Depolama modu uyarı penceresi](media/desktop-storage-mode/storage-mode_05.png)
 
-Daha önce açıklanan ilişki kurallarına uyması için, boyut tablolarının (*Customer*, *Date* ve *Geography*) **İkili** olarak ayarlanması gerekir. Bu tabloları önceden **İkili** olarak değiştirmek yerine tek bir işlemde ayarlayabilirsiniz.
+Boyut tabloları (*Customer*, *Geography* ve *Date*), veri kümesindeki zayıf ilişki sayısını azaltmak ve performansı artırmak için **Çift** olarak ayarlanabilir. Zayıf ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. **Çift** tablolar, DirectQuery ya da İçeri Aktarma işlevi üstlenebildiği için bunu önlemeye yardımcı olur.
 
 Yayma mantığı, birçok tablo içeren modellerde yardımcı olmak için tasarlanmıştır. 50 tablo içeren bir modeliniz olduğunu ve yalnızca bazı olgu (işlem) tablolarının önbelleğe alınması gerektiğini varsayalım. Power BI Desktop'ın mantığı **İkili** olarak ayarlanması gereken en küçük boyut tablosu kümesini hesaplayabildiğinden, bunu sizin yapmanız gerekmez.
 
 Yayma mantığı **Bire Çok** ilişkilerinin yalnızca bir tarafından geçer.
-
-* *Sales* ve *SurveyResponse* DirectQuery tablolarıyla ilişkileri nedeniyle *Customer* tablosunun **İçeri Aktarma**'ya dönüştürülmesine (*SurveyResponse* tablosunu değiştirmek yerine) izin verilmez.
-* *Customer* tablosunun **İkili**'ye dönüştürülmesine (*SurveyResponse* tablosunu değiştirmek yerine) izin verilir. Yayma mantığı da *Geography* tablosunu **İkili** olarak ayarlar.
 
 ## <a name="storage-mode-usage-example"></a>Depolama modu kullanım örneği
 Şimdi önceki bölümde verilen örnekle devam edelim ve aşağıdaki depolama modu özellik ayarlarını uyguladığınızı varsayalım:
@@ -191,4 +166,3 @@ Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki m
 * [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md)
 * [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
-

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545062"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619851"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Panolar ve raporlar için kullanım ölçümleri
 
@@ -69,7 +69,7 @@ Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı
     > [!NOTE]
     > Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlemeniz halinde ilgili pano bir uygulamaya veya içerik paketine eklenemez.
 
-## <a name="what-metrics-are-reported"></a>Raporda hangi ölçümler yer alır?
+## <a name="which-metrics-are-reported"></a>Hangi ölçümler raporda yer alır?
 
 | Ölçüm | Pano | Rapor | Açıklama |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Yöneticiler kullanım ölçümlerini kuruluşun tamamı için devre dışı bı
 Power BI, ayrı ayrı ulusal bulutlarda kullanılabilir. Bu bulutlar hizmet teslimi, veri dayanıklılığı, erişim ve denetimle ilgili yerel yasal düzenlemelere yönelik benzersiz bir modelle birlikte, Power BI'ın küresel sürümüyle aynı güvenlik, gizlilik, uyumluluk ve saydamlık düzeyleri sunar. Yerel yasal düzenlemelere yönelik bu benzersiz modelden dolayı, ulusal bulutlarda kullanım ölçümleri sağlanmaz. Daha fazla bilgi için [ulusal bulutlar](https://powerbi.microsoft.com/en-us/clouds/) konusuna bakın.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+
+Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklılıklar olabileceğini ve bunların nedenlerini anlamak önemlidir. *Denetim günlükleri* Power BI hizmetinin verileri kullanılarak toplanırken, *Kullanım ölçümleri* istemcide toplanır. Bu farklılıktan dolayı denetim günlüklerindeki etkinliklerin toplam sayısı her zaman kullanım ölçümleriyle uyuşmaz. Nedenleri şunlardır:
+
+* Kullanım ölçümleri bazen ağ bağlantılarındaki tutarsızlıklar, reklam engelleyiciler veya istemciden etkinlikleri göndermeyi aksatan diğer sorunlar nedeniyle etkinlikleri eksik sayabilir.
+* Bu makalede daha önce açıklandığı gibi belirli görünüm türleri kullanım ölçümlerine dahil edilmez.
+* Kullanım ölçümleri istemcinin isteği Power BI hizmetine geri göndermesine gerek olmadan yenilemesi durumlarında, bazen etkinlikleri fazla sayabilir.
+
+
+Kullanım ölçümleriyle denetim günlükleri arasındaki farklılıklara ek olarak, kullanım ölçümleri hakkında aşağıda yer alan soru ve yanıtlar kullanıcılara ve yöneticilere yararlı olabilir:
 
 S: Bir panoda veya raporda kullanım ölçümlerini çalıştıramıyorum C: Kullanım ölçümlerini yalnızca sahip olduğunuz veya düzenleme izniniz olan içeriklerde görürsünüz.
 

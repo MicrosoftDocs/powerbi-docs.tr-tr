@@ -1,25 +1,27 @@
 ---
-title: Power BI'da görsele, sayfaya, detaylandırmaya veya rapora filtre ekleme
-description: Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi, rapor filtresi veya detaylandırma filtresi ekleme
+title: Power BI raporuna filtre ekleme
+description: Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi veya rapor filtresi ekleme
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973293"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611164"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Bir Power BI hizmet raporuna filtre ekleme (Düzenleme görünümünde)
 
 Bu makalede Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi, rapor filtresi veya detaylandırma filtresi ekleme adımları anlatılmaktadır. Bu makaledeki örneklerde Power BI hizmeti kullanılmıştır. Adımlar Power BI Desktop ile neredeyse aynıdır.
+
+**Biliyor muydunuz?** Power BI, şu an önizleme aşamasında olan yeni bir filtre deneyimine sahiptir. [Power BI raporlarında yeni filtre deneyimi](power-bi-report-filter-preview.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Düzenleme görünümündeki ve Okuma görünümündeki filtrelerin karşılaştırması
 Raporlarla etkileşim kurmak için kullanabileceğiniz iki görünüm vardır: Okuma görünümü ve Düzenleme görünümü. Kullanabileceğiniz filtreleme özellikleri hangi görünümde olduğunuza bağlıdır. Ayrıntılar için bkz. [Power BI raporlarındaki filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md).
@@ -57,7 +59,7 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
 3. Bir görseli seçerek etkin hale getirin. Görsel tarafından kullanılmakta olan tüm alanlar, **Alanlar** bölmesinde yer alır. Bunlar ayrıca **Görsel düzeyi filtreleri** başlığı altındaki **Filtreler** bölmesinde de listelenir.
    
    ![](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
-4. Bu noktada, görselleştirme tarafından kullanılmakta olan bir alana filtre ekleyeceğiz. 
+4. Bu noktada, görselleştirme tarafından zaten kullanılmakta olan bir alana filtre ekleyeceğiz. 
    
     **Görsel düzeyi filtreleri** alanına gidin ve filtrelemek istediğiniz alanı genişletmek için oku seçin. Bu örnekte **StoreNumberName** alanını filtreleyeceğiz.
      
@@ -109,7 +111,7 @@ Power BI hizmetinde ve Power BI Desktop'ta tedarikçi, müşteri veya üretici g
 ### <a name="create-a-drillthrough-filter"></a>Detaylandırma filtresi oluşturma
 Birlikte ilerlemek için, Müşteri Kârlılığı örneğini Düzenleme görünümü'nde açın. İdari işletme alanlarına odaklanan bir sayfa istediğinizi düşünelim.   
 
-1. Rapora yeni bir sayfa ekleyip sayfayı **Team Executive** olarak adlandırın. Bu, detaylandırmanın *hedef* sayfası olacaktır.
+1. Rapora yeni bir sayfa ekleyip sayfayı **Team Executive** olarak adlandırın. Bu sayfa, detaylandırmanın *hedef* sayfası olacaktır.
 2. İdari ekibin işletme alanlarına yönelik ana ölçümleri takip eden görselleştirmeleri ekleyin.    
 3. Detaylandırma filtreleri bölmesine **Executive > Executive Name** seçeneğini ekleyin.    
    
@@ -144,7 +146,7 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 
 - Görsel düzeyi ve sayfa düzeyi filtrenizin farklı sonuçlar döndürebileceği durumlar vardır.  Örneğin, bir görsel düzeyi filtresi eklediğinizde Power BI, toplanan sonuçlarda filtre uygular.  Varsayılan toplama, Toplam'dır ancak [toplama türünü değiştirebilirsiniz](service-aggregates.md).  
 
-    Sonra bir görsel düzeyi filtresi eklediğinizde ise Power BI, toplama yapmadan filtre uygular.  Bir sayfada her biri farklı toplama türlerini kullanabilen pek çok görsel olduğu için bunu yapar.  Bu nedenle filtre, her bir veri satırına uygulanır.
+    Sonra bir görsel düzeyi filtresi eklediğinizde ise Power BI, toplama yapmadan filtre uygular.  Bu toplama yapmaz çünkü bir sayfada her biri farklı toplama türlerini kullanabilen pek çok görsel olabilir.  Bu nedenle filtre, her bir veri satırına uygulanır.
 
 - Alanlar bölmesini görmüyorsanız rapor [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde bulunduğunuzdan emin olun.    
 - Filtrelerde çok fazla değişiklik yaptıysanız ve rapor yazarı varsayılan ayarlarına geri dönmek istiyorsanız, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
