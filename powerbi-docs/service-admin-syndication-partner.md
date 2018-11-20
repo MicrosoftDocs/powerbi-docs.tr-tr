@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909330"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157414"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 
@@ -23,7 +23,7 @@ Office 365 şirketlere, Office 365'i kendi çözümleriyle paketlenmiş ve tüml
 
 Office 365 aboneliğinizin yanında Power BI'ı da edinmek istiyorsanız iş ortağınızla iletişime geçmenizi öneririz. İş ortağınız şu an için Power BI'ı sunmuyorsa farklı seçeneklere başvurabilirsiniz.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Power BI'ı satın almak için iş ortağınızla birlikte çalışma
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Power BI'ı satın almak için iş ortağınızla birlikte çalışma
 
 Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sahip olduğunuz seçenekleri değerlendirmek için iş ortağınızla iletişim kurabilirsiniz:
 
@@ -31,7 +31,7 @@ Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sa
 
 * İş ortağınız sizi, Power BI'ı doğrudan Microsoft'tan veya Power BI'ı sunan başka bir iş ortağından satın alabileceğiniz bir modele geçirebilir.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft'tan veya başka bir kanaldan satın alma
+## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft'tan veya başka bir kanaldan satın alma
 
 İş ortağınızla aranızdaki ilişkiye bağlı olarak Power BI'ı doğrudan Microsoft'tan veya başka bir iş ortağından satın alma seçeneğine sahip olabilirsiniz. Office 365 yönetim portalından Power BI aboneliği ekleyip ekleyemediğinizi doğrulayabilirsiniz (Genel Yönetici veya Faturalama Yöneticisi rolüne sahip olmanız gerekir).
 

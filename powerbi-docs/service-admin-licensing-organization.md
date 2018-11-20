@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 11ad100bce2e13d5622676f43573dee411a93221
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973316"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679329"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -49,7 +49,7 @@ Kaydolma adımlarını izlemeden önce aşağıdakileri aklınızda bulundurun:
 
 * Kaydolmak için, Office 365’te [**Genel yönetici** veya **Faturalama yöneticisi**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) rolünün üyesi olmanız gerekir.
 
-* Kiracı başına bir kuruluş deneme sürümü sınırı vardır. Bu, Power BI Pro Deneme Sürümünün kiracınıza daha önce uygulanmış olması halinde bunu bir daha yapamayacağınız anlamına gelir. Bu konuda yardıma ihtiyacınız varsa [Office 365 Faturalama destek ekibiyle](https://support.office.microsoft.com/en-us/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US) iletişim kurun.
+* Kiracı başına bir kuruluş deneme sürümü sınırı vardır. Bu, Power BI Pro Deneme Sürümünün kiracınıza daha önce uygulanmış olması halinde bunu bir daha yapamayacağınız anlamına gelir. Bu konuda yardıma ihtiyacınız varsa [Office 365 Faturalama destek ekibiyle](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US) iletişim kurun.
 
 1. [Office 365 yönetim merkezine](https://portal.office.com/adminportal/home#/homepage) gidin.
 

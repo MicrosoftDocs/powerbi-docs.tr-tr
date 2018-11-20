@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548776"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679099"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive'daki bir Excel dosyasıyla bağlantılı bir Power BI panosunu paylaşma
 Power BI'da,[OneDrive İş'teki Excel çalışma kitaplarına bağlanabilir](service-excel-workbook-files.md) ve söz konusu çalışma kitabındaki kutucukları bir panoya sabitleyebilirsiniz. Söz konusu panoyu paylaştığınızda veya panonun bulunduğu bir içerik paketi oluşturduğunuzda:
 
 * İş arkadaşlarınız çalışma kitabının izinlerine ihtiyaç duymadan kutucukları görüntüleyebilir. Böylece, bir içerik paketi oluşturabilir ve iş arkadaşlarınızın, OneDrive'daki Excel çalışma kitabında oluşturulmuş kutucukları görebildiğinden emin olabilirsiniz.
-* Kutucuğa dokunulduğunda çalışma kitabı Power BI'da açılır. Çalışma kitabı, yalnızca iş arkadaşlarınızın OneDrive İş'teki çalışma kitabına yönelik [okuma izinlerine](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) sahip olması halinde açılır.
+* Kutucuğa dokunulduğunda çalışma kitabı Power BI'da açılır. Çalışma kitabı, yalnızca iş arkadaşlarınızın OneDrive İş'teki çalışma kitabına yönelik [okuma izinlerine](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) sahip olması halinde açılır.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Çalışma kitabı kutucukları içeren bir panoyu paylaşma
 OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu paylaşmak için bkz. [Pano paylaşma](service-share-dashboards.md). Buradaki fark, bağlantılı Excel çalışma kitabına yönelik izinleri, paylaşımı gerçekleştirmeden önce değiştirme seçeneğine sahip olmanızdır.
@@ -30,7 +30,7 @@ OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu payl
 
 1. İş arkadaşlarınızın e-posta adreslerini girin.
 2. İş arkadaşlarınızın Power BI'da Excel çalışma kitabını görüntüleyebilmesini sağlamak için **Go to OneDrive for Business to set workbook permissions** (Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin) seçeneğini belirleyin.
-3. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+3. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 4. **Paylaş**'ı seçin.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu payl
    
     ![Bir içerik paketindeki Excel çalışma kitabı](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. **Go to OneDrive for Business to set workbook permissions** (Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin) seçeneğini belirleyin.
-4. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+4. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 5. **Yayımla** seçeneğini belirleyin.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI çalışma alanınızdan pano paylaşma

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952223"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679306"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Bir örnek vererek web sayfasından veri alma
 
@@ -35,9 +35,9 @@ Bunun bir çözümü vardır. **Örneğe göre web’den veri alma** özelliği 
 
 Burada, verileri ayıklamak istediğiniz Web sayfasının URL’sini girin. Bu makalede biz Microsoft Store Web sayfasını kullanacağız ve bu bağlayıcının nasıl çalıştığını göstereceğiz. 
 
-Takip etmek isterseniz bu makalede kullandığımız [Microsoft Store URL'sini](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics) kullanabilirsiniz:
+Takip etmek isterseniz bu makalede kullandığımız [Microsoft Store URL'sini](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) kullanabilirsiniz:
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![Web iletişim kutusu](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 

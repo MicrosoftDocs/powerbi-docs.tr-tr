@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908475"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679053"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI kurumsal içerik paketi oluşturma ve yayımlama (eğitim)
 
@@ -71,7 +71,7 @@ Birlikte ilerlemek ister misiniz? [Power BI hizmetinde](https://powerbi.com) **V
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > Grup üyeleri, Excel çalışma kitabını görüntüleyemezse [OneDrive İş'te çalışma kitabını söz konusu kullanıcılarla paylaşmanız](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) gerekebilir.
+      > Grup üyeleri, Excel çalışma kitabını görüntüleyemezse [OneDrive İş'te çalışma kitabını söz konusu kullanıcılarla paylaşmanız](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) gerekebilir.
       > 
       > 
 4. İçerik paketini grubun kurumsal içerik paketi kitaplığına eklemek için **Yayımla**'yı seçin.  
@@ -93,6 +93,6 @@ Birlikte ilerlemek ister misiniz? [Power BI hizmetinde](https://powerbi.com) **V
 * [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md)  
 * [Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme](service-organizational-content-pack-manage-update-delete.md)  
 * [Power BI'da grup oluşturma](service-create-distribute-apps.md)  
-* [OneDrive İş nedir?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [OneDrive İş nedir?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

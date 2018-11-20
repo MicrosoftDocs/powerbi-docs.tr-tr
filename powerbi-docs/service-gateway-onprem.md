@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297148"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679030"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -100,7 +100,7 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 ## <a name="enabling-outbound-azure-connections"></a>Giden Azure bağlantılarını etkinleştirme
 
 Şirket içi veri ağ geçidi, bulut bağlantısı için Azure Service Bus kullanır ve buna bağlı olarak, ilişkili Azure bölgesine giden bağlantılar oluşturur. Varsayılan olarak, burası Power BI kiracınızın konumudur. Bkz. [Power BI kiracım nerede bulunur?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Giden bağlantıları engelleyen bir güvenlik duvarı varsa, güvenlik duvarını Şirket içi veri ağ geçidinden ilişkili Azure bölgesine giden bağlantılara izin verecek şekilde yapılandırmanız gerekir. Her bir Azure veri merkezinin IP adresi aralıkları hakkında ayrıntılı bilgi için bkz. [Microsoft Azure Datacenter IP Aralıkları](https://www.microsoft.com/en-us/download/details.aspx?id=41653).
+Giden bağlantıları engelleyen bir güvenlik duvarı varsa, güvenlik duvarını Şirket içi veri ağ geçidinden ilişkili Azure bölgesine giden bağlantılara izin verecek şekilde yapılandırmanız gerekir. Her bir Azure veri merkezinin IP adresi aralıkları hakkında ayrıntılı bilgi için bkz. [Microsoft Azure Datacenter IP Aralıkları](https://www.microsoft.com/download/details.aspx?id=41653).
 > [!NOTE]
 > IP adresi aralıkları zaman içinde değişebilir; bu nedenle, düzenli olarak en son bilgileri indirdiğinizden emin olun. 
 

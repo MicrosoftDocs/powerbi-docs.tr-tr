@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39330225"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679405"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -146,7 +146,7 @@ Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımları
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop, kapsamlı bir formül kategorisi kümesi sunar. Daha fazla bilgi ve tüm Sorgu Düzenleyicisi formüllerine ilişkin eksiksiz bir başvuru için [Power Query Formül Kategorileri](https://support.office.com/en-in/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819) sayfasını ziyaret edin.
+Power BI Desktop, kapsamlı bir formül kategorisi kümesi sunar. Daha fazla bilgi ve tüm Sorgu Düzenleyicisi formüllerine ilişkin eksiksiz bir başvuru için [Power Query Formül Kategorileri](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819) sayfasını ziyaret edin.
 
 Sorgu Düzenleyicisi'ne ilişkin formül kategorileri aşağıda verilmiştir:
 

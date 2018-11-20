@@ -1,21 +1,21 @@
 ---
 title: Power BI örneklerini kullanma
 description: Power BI örneklerini kullanma
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543808"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718034"
 ---
 # <a name="the-power-bi-samples"></a>Power BI örnekleri
 

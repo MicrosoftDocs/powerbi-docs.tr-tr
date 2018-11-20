@@ -1,7 +1,7 @@
 ---
 title: Raporlardan Power BI panolarına kutucuk sabitleme
 description: Bir rapordan bir kutucuğu Power BI panosuna sabitleyin.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8ee878efe78e0f266e27b7404aa645dc8a0fd3bf
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550064"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717735"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Raporlardan Power BI panolarına kutucuk sabitleme
 ## <a name="pinning-tiles-from-a-report"></a>Bir rapordan kutucuk sabitleme

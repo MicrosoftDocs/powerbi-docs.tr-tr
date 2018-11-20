@@ -1,21 +1,21 @@
 ---
 title: Power BI hızlı öngörüleri için verilerinizi en iyi duruma getirme
 description: Power BI hızlı öngörüleri için verilerinizi en iyi duruma getirin. Power BI, verilerinizde öngörüler bulamıyorsa yapabileceğiniz birkaç işlemi burada bulabilirsiniz
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546973"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850580"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI Hızlı Öngörüler için verilerinizi en iyi duruma getirme
 Hızlı öngörüler için sonuçları iyileştirmek mi istiyorsunuz?  Bir veri kümesi sahibiyseniz şunları deneyin:

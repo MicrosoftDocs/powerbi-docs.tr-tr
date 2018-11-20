@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561828"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679304"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
 Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konulan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki bir kişi için başvuru noktası oluşturur.
@@ -114,7 +114,7 @@ Bu makalede ortaya konulan sonuçlar, belirli veriler kullanılarak özel bir ra
 ### <a name="1-topology"></a>1 Topoloji
 **1.1 Power BI Rapor Sunucusu Topolojisi**
 
-Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine Türü | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranı
 
 **1.2 Power BI Rapor Sunucusu Sanal Makine Yapılandırması** 
 
-Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |

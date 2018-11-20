@@ -1,21 +1,21 @@
 ---
 title: 'İnsan Kaynakları örneği: Tura katılın'
 description: 'Power BI için İnsan Kaynakları örneği: Tura katılın'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37067253"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717884"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın
 

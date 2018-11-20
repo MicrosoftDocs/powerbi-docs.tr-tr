@@ -1,21 +1,21 @@
 ---
 title: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
 description: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 86e896caa8cbeaf50c56c4bf126fead8f603c640
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945078"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717482"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için BT Harcama Analizi örneği: Tura katılın
 
