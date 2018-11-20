@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909257"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297240"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,26 @@ ms.locfileid: "48909257"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>Ekim 2018
+
+### <a name="paginated-report-preview-all-devices"></a>Sayfalandırılmış rapor önizlemesi (tüm cihazlar)
+
+Sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Power BI Hizmetinde sayfalandırılmış raporlara erişimi olan kullanıcılar, bu raporları mobil uygulamalarından da erişebilir. 
+
+[Mobilde sayfalandırılmış raporlar hakkındaki Power BI blog gönderisini](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) okuyun.
+
+### <a name="shared-credentials-ios"></a>Paylaşılan kimlik bilgileri (iOS)
+
+Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Office 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
+
+### <a name="in-app-urls-ios"></a>Uygulama içi URL'ler (iOS) 
+
+Diğer Power BI yapıtlarını işaret eden raporlardaki bağlantılar artık doğrudan uygulamanın içinde açılmaktadır. Bu özellik sayesinde, bir raporu panoya bağlama gibi özel gezinti akışları oluşturabilirsiniz.
+
+### <a name="ios12-and-watchos-5-support"></a>iOS12 ve watchOS 5 desteği 
+
+iOS için Power BI uygulamasını, mobil cihazlarda ve saatte yeni işletim sistemiyle sorunsuz çalışacak şekilde güncelleştirdik.
 
 ## <a name="september-2018"></a>Eylül 2018
 
@@ -41,10 +61,11 @@ Power BI [pano yorumlarıyla ilgili blog yazısını](https://powerbi.microsoft.
 
 Çoklu Oturum Açma (SSO), Windows için Power BI Mobil'de en çok istenen özelliklerinden biridir. Artık birincil kuruluş hesabınızı yalnızca etki alanına katılmış Windows mobil cihazlarınızda değil sorunsuz bir şekilde Power BI hizmetinde de oturma açmak için kullanabilirsiniz. [SSO ve Windows mobil uygulamaları](mobile-windows-10-app-single-sign-on-sso.md) hakkında daha fazla bilgi edinin.
 
+## <a name="previous-months"></a>Önceki aylar
 
-## <a name="july-2018"></a>Temmuz 2018
+### <a name="july-2018"></a>Temmuz 2018
 
-### <a name="ios-and-android-only"></a>Yalnızca iOS ve Android
+#### <a name="ios-and-android-only"></a>Yalnızca iOS ve Android
 
 **Paylaşılan filtreler**
 
@@ -55,127 +76,125 @@ Artık paylaşılan filtreler ve dilimleyicilerle rapor alabilirsiniz.
 Mobil cihazınızda yatay modda bir rapor görüntülediğinizde, web üzerinde Power BI'da gördüğünüz arka plan görüntülerinin aynılarını görürsünüz.
 
 
-## <a name="june-2018"></a>Haziran 2018
+### <a name="june-2018"></a>Haziran 2018
 
-### <a name="full-canvas-reports"></a>Tam tuval raporlar
+#### <a name="full-canvas-reports"></a>Tam tuval raporlar
 
 Tek bakışta raporunuzun daha büyük bir kısmını görebilmeniz için, raporunuzun yüklenmesinin ardından kısa bir süre sonra üstteki ve alttaki eylem çubukları kaybolur.
 
-### <a name="increased-phone-report-canvas-size"></a>Artırılmış telefon raporu tuval boyutu
+#### <a name="increased-phone-report-canvas-size"></a>Artırılmış telefon raporu tuval boyutu
 
 Telefon raporu tuval boyutunu, öncekinden daha fazla görsele yer açmak için artırdık.
 
-## <a name="may-2018"></a>Mayıs 2018
+### <a name="may-2018"></a>Mayıs 2018
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>Mobil detaylandırma: tüm mobil uygulamalar
+#### <a name="mobile-drill-through-all-mobile-apps"></a>Mobil detaylandırma: tüm mobil uygulamalar
 
 Rapor yazarı söz konusu eylemi tanımladıysa, seçilen bir veri noktasından, mobil uygulamalardaki başka bir rapor sayfasına detaylandırma yapabilirsiniz. 
 
-### <a name="back-button-all-mobile-apps"></a>Geri düğmesi: tüm mobil uygulamalar
+#### <a name="back-button-all-mobile-apps"></a>Geri düğmesi: tüm mobil uygulamalar
 
 Artık çekme hareketi yaparak, eylem çubuğunda bir rapor sayfası seçerek veya detaylandırma işlevini kullanarak gezindiğinizde geri düğmesi, baktığınız önceki sayfaya geri gitmenizi sağlar. 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>Pano temaları: tüm mobil uygulamalar
+#### <a name="dashboard-themes-all-mobile-apps"></a>Pano temaları: tüm mobil uygulamalar
 
 Rapor yazarları, Power BI hizmetinde pano temalarını özelleştirdiğinde panonun görünümü mobil uygulamada da değişir. Ancak arka plan görüntülerini görmezsiniz.
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 
 BT yöneticiniz artık bir MDM aracı kullanarak rapor sunucusuna erişmek için Power BI iOS mobil uygulamasını yapılandırabilir. Ayrıntılı bilgi için bkz. [Uzaktan bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
 Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [Hololens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) ile ilgili makaleyi okuyun.
 
 
-## <a name="april-2018"></a>Nisan 2018
+### <a name="april-2018"></a>Nisan 2018
 
-### <a name="mobile-drill-down-and-drill-up"></a>Mobil detaya gitme veya detaydan çıkma
+#### <a name="mobile-drill-down-and-drill-up"></a>Mobil detaya gitme veya detaydan çıkma
 
 Artık mobil cihazınızdaki rapor görsellerinde detaya gidebilir ve detaydan çıkabilirsiniz. Bu yeni özelliğe erişmek için bir rapor görselinde araç ipucu menüsünü basılı tutarak açın ve sonra detaylandırma düğmelerine dokunarak verilerinizi derinlemesine inceleyin. [Mobil uygulamalarda ayrıntı artırma ve azaltma](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/) hakkında daha fazla bilgi.
 
-### <a name="persistent-filters"></a>Kalıcı filtreler
+#### <a name="persistent-filters"></a>Kalıcı filtreler
 
 Kısa süre önce rapor filtrelerini ve dilimleyicileri güncelleştirdiğimiz için web üzerinde Power BI'dan Power BI mobil uygulamasına otomatik olarak kaydedilmiştir. Bundan böyle, mobil uygulamada ayarladığınız filtreler ve dilimleyiciler web üzerinde Power BI’ya otomatik olarak kaydedilir.
 
 
-## <a name="march-2018"></a>Mart 2018
+### <a name="march-2018"></a>Mart 2018
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
 Bulunduğunuz yere verileri getirme çalışmamızda son adım olarak, Karma Gerçeklik için Power BI uygulamasını oluşturduk. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. Yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) hakkında daha fazla bilgi edinin.
 
-### <a name="share-reports-and-dashboards-externally"></a>Raporları ve panoları harici olarak paylaşın
+#### <a name="share-reports-and-dashboards-externally"></a>Raporları ve panoları harici olarak paylaşın
 
 Panoları ve raporları, kuruluşunuzun dışındaki kullanıcılarla doğrudan uygulama üzerinden paylaşın. Hem kuruluş hesaplanır hem de sosyal hesaplar için harici paylaşım etkindir. 
 
-### <a name="persistent-filters"></a>Kalıcı filtreler
+#### <a name="persistent-filters"></a>Kalıcı filtreler
 
 Web üzerinde Power BI’da filtreleri ve dilimleyicileri ayarladığınızda, kaldığınız yerden devam edebilmeniz için tüm filtre tercihleriniz mobil uygulamanıza da kaydedilir.
 
-### <a name="refresh-reports-on-the-ipad"></a>iPad’de raporları yenileme
+#### <a name="refresh-reports-on-the-ipad"></a>iPad’de raporları yenileme
 
 Power BI raporları, artık iPad uygulamasında yenileme düğmesine sahip.
 
-## <a name="february-2018"></a>Şubat 2018
+### <a name="february-2018"></a>Şubat 2018
 
-### <a name="share-reports"></a>Rapor paylaşma
+#### <a name="share-reports"></a>Rapor paylaşma
 
 Artık bir raporu doğrudan mobil uygulamalardan paylaşabilirsiniz. [Mobil uygulamalardan pano ve rapor paylaşma](mobile-share-dashboard-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin
 
-### <a name="improved-tooltips"></a>Gelişmiş araç ipuçları
+#### <a name="improved-tooltips"></a>Gelişmiş araç ipuçları
 
 Araç ipuçlarına erişmek için bir rapor görselinin üzerine dokunup basılı tuttuğunuzda artık yol boyunca her bir veri noktasıyla ilgili ayrıntıları keşfetmek için görsel boyunca parmağınızı sürükleyebilirsiniz.
 
-## <a name="january-2018"></a>Ocak 2018
+### <a name="january-2018"></a>Ocak 2018
 
-### <a name="report-favorites"></a>Rapor sık kullanılanları
+#### <a name="report-favorites"></a>Rapor sık kullanılanları
 
 Raporları sık kullanılanlara ekleyerek **Sık Kullanılanlar** sayfasında görünmesini sağlayın. [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
-### <a name="view-shared-reports"></a>Paylaşılan raporları görüntüleme
+#### <a name="view-shared-reports"></a>Paylaşılan raporları görüntüleme
 
 Bir kişi sizinle rapor paylaştığında, bu rapor **Benimle paylaşılan** sayfasındaki panolarla birlikte listelenir.
 
-### <a name="improved-hyperlink-support"></a>Geliştirilmiş köprü desteği
+#### <a name="improved-hyperlink-support"></a>Geliştirilmiş köprü desteği
 
 Artık özel görsellerdeki bağlantılara dokunarak bunları mobil tarayıcınızda açabilirsiniz.
 
-### <a name="intune-integration-android"></a>Intune tümleştirmesi (Android)
+#### <a name="intune-integration-android"></a>Intune tümleştirmesi (Android)
 
 Intune mobil cihaz yönetimini kullanarak koşullu erişim desteği.
 
-## <a name="december-2017"></a>Aralık 2017
+### <a name="december-2017"></a>Aralık 2017
 
-### <a name="improved-security-management"></a>Güvenlik yönetimi iyileştirildi 
+#### <a name="improved-security-management"></a>Güvenlik yönetimi iyileştirildi 
 
 Kuruluşunuzun verilerini daha iyi korumak için Android cihazlarda koşullu erişim (CA) ve Microsoft Intune mobil aygıt yönetimi (MDM) için destek ekledik. Bu destek iOS’ta zaten mevcuttur.
 
-### <a name="improved-permission-management"></a>Geliştirilmiş izin yönetimi
+#### <a name="improved-permission-management"></a>Geliştirilmiş izin yönetimi
 
 Veri kümeleri, panolar ve raporlar için kullanıcı izinlerine yönelik daha kapsamlı yönetime olanak sağlamak üzere bazı değişiklikler yaptık.
 
-### <a name="auto-installed-apps"></a>Otomatik olarak yüklenen uygulamalar
+#### <a name="auto-installed-apps"></a>Otomatik olarak yüklenen uygulamalar
 
 Power BI'daki bazı uygulamaları herhangi bir şekilde yüklemeniz gerekmez. Kuruluşunuzdaki uygulama oluşturucuları, bir dizi pano ve rapor içeren *uygulamalar* oluşturabilir. Ardından, uygulamayı yayımlayabilir ve Power BI hizmeti ile Power BI mobil uygulamalarında otomatik olarak yüklenecek şekilde ayarlayabilirler. Siz herhangi bir işlem yapmadan yüklenecek şekilde ayarlanan uygulamalar otomatik olarak **Uygulamalar** menünüzde görünür:
 
 ![Power BI mobil uygulamasındaki uygulamalar](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>Kasım 2017
-### <a name="iphone-x-optimization"></a>iPhone X için en iyi duruma getirme
+### <a name="november-2017"></a>Kasım 2017
+#### <a name="iphone-x-optimization"></a>iPhone X için en iyi duruma getirme
 
 Uygulama düzenini iPhone X için en iyi duruma getirdik. Böylece, verilerinizi her cihazda güzelce araştırabilirsiniz.
 
-## <a name="october-2017"></a>Ekim 2017
-### <a name="filters-for-phone-reports-in-android"></a>Android cihazlardaki telefon raporlarına yönelik filtreler
+### <a name="october-2017"></a>Ekim 2017
+#### <a name="filters-for-phone-reports-in-android"></a>Android cihazlardaki telefon raporlarına yönelik filtreler
 
 Power BI Desktop'ta telefonlar için en iyi duruma getirilmiş sayfalar içeren bir rapor oluşturursanız ve raporda filtreler varsa artık bu filtreleri Android cihazınızdaki telefon raporunda da uygulayabilirsiniz. Android cihazlardaki Power BI raporlarına yönelik filtreler hakkında daha fazla bilgi edinin.
 
-### <a name="show-data-in-reports"></a>Raporlarda bulunan Verileri göster seçeneği
+#### <a name="show-data-in-reports"></a>Raporlarda bulunan Verileri göster seçeneği
 
 Artık, verilerinizin temel aldığı sayıları görmek için raporlarınızdaki görselleri tablo görünümüne geçirebilirsiniz. Bu özelliğe erişmek için raporunuzdaki görselin ... menüsündeki "Verileri göster" seçeneğine veya genişletilmiş görsel eylem menüsündeki yeni simgeye dokunun.
-
-## <a name="previous-months"></a>Önceki aylar
 
 ### <a name="september-2017"></a>Eylül 2017
 #### <a name="filters-for-phone-reports-in-iphones"></a>iPhone cihazlarındaki telefon raporlarına yönelik filtreler

@@ -7,17 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: b3b461bedc9eb60607f56c82c5af8de0ed690c06
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101147"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507629"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI için SQL Database Auditing içerik paketi
+
+> [!IMPORTANT]
+> SQL Database Auditing içerik paketi kullanım dışı bırakılmıştır ve artık mevcut değildir.
+ 
 Power BI için Azure [SQL Database Auditing](/azure/sql-database/sql-database-auditing/) içerik paketi, veritabanınızdaki etkinlikleri anlamanıza, işle ilgili endişeleri ifade eden tutarsızlıklar ve anomaliler veya şüphe duyulan güvenlik ihlalleri hakkında daha fazla bilgi almanıza olanak sağlar. 
 
 Power BI için [SQL Database Auditing içerik](https://app.powerbi.com/getdata/services/sql-db-auditing) paketine bağlanın.

@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973270"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266128"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -297,7 +297,16 @@ Kuruluştaki kullanıcılar veri ve yazar içeriğine bağlanmak için çalışm
 
 Kuruluştaki kullanıcılar Power BI Desktop'tan rapor yayımlama, Power BI rapor dosyalarını karşıya yükleme ve doğrudan hizmetten verilere bağlanma gibi hizmete veri aktarma işlemleri gerçekleştirebilir. [Daha fazla bilgi](desktop-upload-desktop-files.md)
 
-## <a name="capacity-settings"></a>Kapasite Ayarları
+## <a name="dataflow-settings-preview"></a>Veri akışı ayarları (önizleme)
+
+### <a name="create-and-use-dataflows-preview"></a>Veri akışları oluşturma ve kullanma (önizleme)
+
+Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. [Daha fazla bilgi](service-dataflows-overview.md)
+
+> [!NOTE]
+> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+
+## <a name="capacity-settings"></a>Güvenlik ayarları
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 

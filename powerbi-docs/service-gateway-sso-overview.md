@@ -1,5 +1,5 @@
 ---
-title: Power BI’dan şirket içi veri kaynaklarına çoklu oturum açma (SSO) işlevini kullanma
+title: Şirket içi veri kaynaklarında çoklu oturum açmayı (SSO) kullanma
 description: Power BI'dan şirket içi veri kaynaklarına çoklu oturum açmayı (SSO) etkinleştirmek için ağ geçidinizi yapılandırın.
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: c489ff0e1b764a6ee3dc026e8294132dc8f49025
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474758"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580506"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 
@@ -25,8 +25,10 @@ ms.locfileid: "49474758"
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) ve [SAML](service-gateway-sso-saml.md))
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
+* Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
 Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında canlı olarak sorgu yürütülmesine neden olabilir.  Veri kaynağı için SSO yapılandırıldığında, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her bir kullanıcı tam olarak, temel alınan veri kaynağında ilgili izinlere sahip olduğu verileri görür. Çoklu oturum açma yapılandırılmış olduğunda, paylaşılan verilerin farklı kullanıcılar için önbelleğe alınması söz konusu değildir.
 

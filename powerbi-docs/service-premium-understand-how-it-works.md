@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641761"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266082"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
 
@@ -26,6 +26,7 @@ Bu makalede Power BI Premium'un kaynakları nasıl yönettiği açıklanmakta, �
 
 * Belleğe yüklenen veri kümeleri
 * Veri kümesi yenileme (hem zamanlanmış hem de talep üzerine)
+* Kapasitenin desteklediği iş yükleri
 * Rapor sorguları
 
 Kapasitenizdeki yayımlanmış bir veri kümesi için istek yapıldığında, bu veri kümesi kalıcı depolama alanından belleğe yüklenir (bu durum görüntü yükü olarak adlandırılır). Veri kümesinin bellekte yüklü olarak tutulması, bu veri kümesine yönelik gelecek sorgulara hızlı yanıt vermeye yardımcı olur. Veri kümesini bellekte yüklü olarak tutmak için gereken belleğe ek olarak, rapor sorguları ve veri kümesi de ek bellek tüketir.
@@ -51,6 +52,10 @@ Veri kümeleri, kullanıcılar tarafından bir zamanlamaya göre ya da talep üz
 Çıkarmaya rağmen gerekli bellek mevcut değilse, yenileme tekrar denenmek üzere sıraya alınır. Hizmet başarılı olana veya yeni bir yenileme eylemi başlayana kadar yeniden deneme yapar.
 
 Kapasitedeki herhangi bir veri kümesine yönelik etkileşimli bir sorgu düzenlenirse ve devam eden bir yenileme nedeniyle yeterli bellek yoksa, bu istek başarısız olur ve kullanıcı tarafından yeniden denenmesi gerekir.
+
+### <a name="workloads"></a>İş Yükleri
+
+Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Şimdi iki iş yükü için daha önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Etkinleştirilmesi durumunda bu iş yükleri kapasitenizdeki bellek kullanımını etkileyebilir. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium kapasitede CPU kaynak yönetimi
 

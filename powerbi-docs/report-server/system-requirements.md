@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101336"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507918"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
@@ -43,18 +43,19 @@ Rapor sunucusu veritabanlarını barındırmak için SQL Server kullanılır. SQ
 * SQL Server 2014
 * SQL Server 2012
 
-Rapor sunucusu veritabanını uzak bir bilgisayarda oluşturmak için bağlantıyı, ağ erişimi olan bir hizmet hesabı veya bir etki alanı kullanıcısı hesabı kullanacak şekilde yapılandırmanız gerekir. Uzak bir SQL Server örneği kullanacaksanız rapor sunucusunun, SQL Server örneğine bağlanmak için hangi kimlik bilgilerini kullanması gerektiğini dikkatli bir şekilde değerlendirin. Daha fazla bilgi için bkz. [Rapor Sunucusu Veritabanı Bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
+Rapor sunucusu veritabanını uzak bir bilgisayarda oluşturduğunuzda, bir etki alanı kullanıcı hesabı ya da ağ erişimi olan bir hizmet hesabı kullanacak şekilde yapılandırmanız gerekir. Uzak bir SQL Server örneği kullanacaksanız rapor sunucusunun, SQL Server örneğine bağlanmak için hangi kimlik bilgilerini kullanması gerektiğini dikkatli bir şekilde değerlendirin. Daha fazla bilgi için bkz. [Rapor Sunucusu Veritabanı Bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Önemli noktalar
 Power BI Rapor Sunucusu, bir rapor sunucusunu işlevsel hale getirmek için gereken temel ayarları yapılandırmak üzere varsayılan değerleri yükler. Aşağıdaki gereksinimler yerine getirilmelidir:
 
 * Kurulumdan sonra, veritabanını rapor sunucusu için yapılandırmadan önce bir SQL Server Veritabanı Altyapısı kullanılabilir durumda olmalıdır. Veritabanı Altyapısı örneği, Reporting Services Yapılandırma Yöneticisi'nin oluşturacağı rapor sunucusu veritabanını barındırmalıdır. Veritabanı Altyapısı, asıl kurulum işlemi için gerekli değildir.
-* Kurulumu çalıştırmak için kullanılan kullanıcı hesabı, yerel Yöneticiler grubunun bir üyesi olmalıdır.
-* Reporting Services Yapılandırma Yöneticisi için kullanılan kullanıcı hesabı, rapor sunucusu veritabanlarını barındıran Veritabanı Altyapısındaki veritabanlarına erişme ve burada veritabanı oluşturma iznine sahip olmalıdır.
+- [SQL Server Sürümleri Tarafından Desteklenen Reporting Services Özellikleri](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) makalesinde, SQL Server sürümleri arasındaki farklılıklar özetlenmektedir.
+* Kurulumu çalıştıran kullanıcı hesabı, yerel Yöneticiler grubunun bir üyesi olmalıdır.
+* Reporting Services Yapılandırma Yöneticisi’ni çalıştıran kullanıcı hesabı, rapor sunucusu veritabanlarını barındıran Veritabanı Altyapısındaki veritabanlarına erişme ve burada veritabanı oluşturma iznine sahip olmalıdır.
 * Kurulumda, rapor sunucusuna ve web portalına erişim sağlayan URL'leri ayırmak için varsayılan değerler kullanılabilmelidir. Bu değerler; 80 numaralı bağlantı noktası, güçlü bir joker karakter ve **ReportServer** ile **Reports** biçimindeki sanal dizin adlarıdır.
 
 ## <a name="read-only-domain-controller-rodc"></a>Salt okunur etki alanı denetleyicisi (RODC)
- Rapor sunucusu, Salt Okunur Etki Alanı Denetleyicisine (RODC) sahip bir ortama yüklenebilse de Reporting Services, düzgün şekilde çalışmak için bir Okuma-Yazma Etki Alanı Denetleyicisi erişimine ihtiyaç duyar. Reporting Services yalnızca RODC erişimine sahipse hizmeti yönetmeye çalışırken hatalarla karşılaşabilirsiniz.
+ Rapor sunucusunu Salt Okunur Etki Alanı Denetleyicisi (RODC) olan bir ortama yükleyebilirsiniz. Ancak, Reporting Services’in düzgün çalışması için bir Okuma-Yazma Etki Alanı Denetleyicisine erişimi olmalıdır. Reporting Services yalnızca RODC erişimine sahipse hizmeti yönetmeye çalışırken hatalarla karşılaşabilirsiniz.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI raporları ve Analysis Services canlı bağlantıları
 Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz. Analysis Services sunucunuzun düzgün şekilde çalışması için doğru sürümünün yüklü olması gerekir.

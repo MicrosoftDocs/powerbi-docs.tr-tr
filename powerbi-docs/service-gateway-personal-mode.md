@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298217"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273345"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidi (kişisel mod)
 Bir ağ geçidiyle şirket içi veri kaynaklarını kullanabilir ve Power BI raporları ve panoları oluşturabilirsiniz. Bir **ağ geçidi,** özel, şirket içi ağda depolanan verilere erişimi kolaylaştıran ve ardından bu verileri **Power BI hizmeti** gibi çevrimiçi hizmetlerde kullanabilmenizi sağlayan bir yazılımdı. **Şirket içi veri ağ geçidi (kişisel mod)** kısa süre önce kullanıma sunulan bir Power BI ağ geçidi güncelleştirmesidir ve kullanıcıların kendi bilgisayarlarına bir ağ geçidi yüklemesine ve şirket içi verilere erişim sağlayabilmesine olanak tanır.
@@ -132,7 +132,7 @@ Spark desteğinin 2017 takvim yılının ikinci yarısında sunulması planlanma
   * **Cevap**: Raporlarınızı geçerli ağ geçidi ile yeniliyorsanız yenilemeleriniz durur. Yeni bir yenileme zamanlamasını, yalnızca yeni ağ geçidini yükleyip yapılandırarak ayarlayabilirsiniz.
 * R betiği kullanıyorum. Bu destekleniyor mu?
   
-  * **Cevap**: R betikleri için yakın zamanda destek eklemeyi düşünüyoruz.
+  * **Yanıt**: R betikleri kişisel mod için desteklenir.
 * Neden **Power BI hizmetinde** ağ geçidimi güncelleştirme mesajını göremiyorum?
   
   * **Cevap**: Büyük olasılıkla henüz desteklenmeyen bir veri kaynağı içeren bir veya daha fazla veri kümeniz olduğu içindir.

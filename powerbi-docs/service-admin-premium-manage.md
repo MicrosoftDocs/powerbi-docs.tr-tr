@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641655"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266013"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 
@@ -53,6 +53,44 @@ Power BI Premium veya Embedded SKU'ları satın aldığınızda, kiracınız ça
 Çoğunlukla kullanıcıların Premium kapasitede olduklarını bilmelerine gerek yoktur. Panoları ve raporları normal şekilde çalışmaya devam eder. Görsel bir ipucu olarak, Premium kapasitedeki çalışma alanlarının yanında bir baklava simgesi bulunur.
 
 ![Baklava simgesi görünen çalışma alanı Premium kapasite tarafından yedeklenir](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>İş yüklerini yapılandırma
+
+Power BI’da iş yükünü kullanıcılarınızın kullanımına sunabileceğiniz çok sayıda hizmetten biri olarak düşünün. Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler.
+
+Şimdi iki iş yükü için daha önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz.
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Power BI yönetici portalında iş yüklerini etkinleştirme
+
+İş yüklerini etkinleştirmek için aşağıdaki adımları izleyin.
+
+1. **Kapasite ayarları** altında bir kapasite seçin.
+
+1. **DİĞER SEÇENEKLER** altında **İş Yükleri**’ni genişletin.
+
+1. Bir veya daha fazla iş yükünü etkinleştirin ve **En Büyük Bellek** için bir değer belirleyin.
+
+    ![Yönetici portalında iş yüklerini yapılandırma](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. **Apply** (Uygula) seçeneğini belirleyin.
+
+### <a name="default-memory-settings"></a>Varsayılan bellek ayarları
+
+Aşağıdaki tabloda, kullanılabilir farklı [kapasite düğümlerine](service-premium.md#premium-capacity-nodes) göre varsayılan ve en küçük bellek değerleri gösterilmektedir. Bellek, dinamik olarak veri akışlarına ayrılsa da istatistiksel olarak sayfalandırılmış raporlara ayrılır. Daha fazla bilgi için, [Sayfalandırılmış raporlar ile ilgili önemli noktalar](#considerations-for-paginated-reports) başlıklı sonraki bölüme bakın.
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Sayfalandırılmış raporlar | YOK | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
+| Veri akışları | %15 varsayılan; %8 en küçük  | %15 varsayılan; %4 en küçük  | %15 varsayılan; %2 en küçük | %15 varsayılan; %1 en küçük  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>Sayfalandırılmış raporlar ile ilgili önemli noktalar
+
+Sayfalandırılmış raporlar iş yükünü kullanıyorsanız, aşağıdaki noktaları göz önünde bulundurun.
+
+* **Sayfalandırılmış raporlarda bellek ayırma**: Sayfalandırılmış raporlar bir raporu işlerken (örneğin, içeriğe göre metin rengini dinamik olarak değiştirme) kendi kodunuzu çalıştırmanıza olanak tanır. Bu durum göz önünde bulundurulduğunda, sayfalandırılmış raporları kapasite dahilindeki sınırlı bir alanda çalıştırarak Power BI Premium kapasitesinin güvenliğini sağlarız. İş yükünün etkin olup olmadığına bakılmaksızın, bu alanı belirtmek için en büyük belleği atarız. Power BI raporlarını veya veri akışlarını aynı kapasitede kullanıyorsanız, sayfalandırılmış raporlar için diğer iş yüklerini olumsuz yönde etkilemeyecek kadar düşük bellek ayarladığınızdan emin olun.
+
+* **Sayfalandırılmış raporlar kullanılamıyor**: Nadir durumlarda sayfalandırılmış raporlar kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
 
 ## <a name="monitor-capacity-usage"></a>Kapasite kullanımı izleme
 

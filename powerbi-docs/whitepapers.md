@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223065"
+ms.locfileid: "51266105"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -22,6 +22,7 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 
 | Teknik inceleme | Açıklama | Tarih |
 | --- | --- | --- |
+| [Power BI ve Veri Akışları](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Bu teknik incelemede veri akışları teknik ayrıntılarıyla açıklanmakta ve veri akışı özellikleri ile işlevlerinin ardındaki yetenekler ve girişimler açıklanmaktadır. | Kasım 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
 | [Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Kasım 2017 |
 | [Plan capacity for embedded analytics with Power BI Premium (Power BI Premium ile katıştırılmış analize yönelik plan kapasitesi)](https://aka.ms/pbiewhitepaper) |Bu makalede, işine en uygun kapasiteyi belirlemesi için uygulama geliştiriciye/ISV'ye yönelik rehberlik sunulmaktadır. | Ekim 2017 |

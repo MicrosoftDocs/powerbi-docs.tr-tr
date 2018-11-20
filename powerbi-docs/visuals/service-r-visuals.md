@@ -1,5 +1,5 @@
 ---
-title: Power BI'da R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
+title: R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
 description: Gelişmiş analizler ve görselleştirmeler oluşturmak için Power BI'da R betiklerini kullanma
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566361"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297125"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI hizmetinde R görselleri oluşturma
 Power BI hizmeti, R betikleriyle oluşturulan görselleri görüntülemeyi ve bu görsellerle etkileşim kurmayı destekler. R betikleriyle oluşturulan ve genellikle *R görselleri* olarak adlandırılan görseller, R'ın zengin analizlerini ve görselleştirme gücünü kullanarak tahmin etme özelliği gibi gelişmiş veri şekillendirme özellikleri ve analizler sunabilir.
 
 > [!NOTE]
-> [R programlama dili](https://www.r-project.org/); istatistikçiler, veri bilimciler ve iş analistleri arasında en yaygın kullanılan programlama dilleri arasındadır. R dili, yaygın olarak kullanılan [R Kullanıcı Grupları](http://msdsug.microsoft.com/)'nın yanı sıra 7.000'den fazla eklenti paketi sunan bir açık kaynak topluluğuna sahiptir. Power BI hizmetinde dağıtılan R sürümü *Revolution R Open 3.2.2.* sürümüdür.
+> [R programlama dili](https://www.r-project.org/); istatistikçiler, veri bilimciler ve iş analistleri arasında en yaygın kullanılan programlama dilleri arasındadır. R dili, yaygın olarak kullanılan R Kullanıcı Grupları'nın yanı sıra 7.000'den fazla eklenti paketi sunan bir açık kaynak topluluğuna sahiptir. Power BI hizmetinde dağıtılan R sürümü *Revolution R Open 3.2.2.* sürümüdür.
 > 
 > 
 

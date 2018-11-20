@@ -4,19 +4,18 @@ description: Power BI rapor tüketicisi olarak okuma görünümünde ArcGis hari
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003283"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266036"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
 Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde *kullanan* bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](../power-bi-visualization-arcgis.md) başvurabilirsiniz.
@@ -24,7 +23,7 @@ Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil s�
 ArcGIS haritaları ile Power BI'ın birleşimi, eşlemeyi haritada belirli noktaları göstermekten öteye götürüp yepyeni bir düzeye çıkarıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için kullanabileceğiniz seçenekler arasında temel haritalar, konum türleri, temalar, simge stilleri ve başvuru katmanları bulunur. Uzamsal analiz içeren bir haritadaki yetkili veri katmanlarının (nüfus sayımı verileri gibi) birleşimi, görselleştirmenizdeki verilerin daha derinlemesine anlaşılmasını sağlar.
 
 > [!TIP]
-> GIS, Coğrafi Bilgi Bilimi anlamına gelir.
+> GIS, Coğrafi Bilgi Sistemi anlamına gelir.
 > 
 
 Kullanmakta olduğumuz örnek [Esri tarafından sunulan ArcGIS haritaları eğitimi](../power-bi-visualization-arcgis.md) kapsamında oluşturulan aynı ArcGIS haritasıdır. Geçen senenin satışlarını şehre göre inceler ve boyutu ifade etmek için bir sokak temel haritası ve kabarcık sembolleri, ortalama hane halkı geliri içinse bir başvuru katmanı kullanır. Harita, 3 raptiye ve bir sürüş süresi yarıçapı (mor renkte) içerir.

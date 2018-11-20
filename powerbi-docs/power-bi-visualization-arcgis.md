@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548040"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266059"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları
 Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
@@ -26,7 +26,7 @@ ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, h
  Mobil cihazlarda ArcGIS haritaları oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. Bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
-> GIS, Coğrafi Bilgi Bilimi anlamına gelir.
+> GIS, Coğrafi Bilgi Sistemleri anlamına gelir.
 
 
 Aşağıdaki örnekte, 2016 yılına ait ortanca harcanabilir gelir demografik katmanındaki bölgesel satışların yoğunluk haritası yoluyla gösterilmesi için koyu gri bir tuval kullanılmıştır. Okumaya devam ettikçe fark edeceğiniz üzere, ArcGIS haritalarını kullandığınızda hikayenizi en iyi şekilde anlatabilmeniz için neredeyse sınırsız sayıda gelişmiş eşleme özelliği, demografik veriler ve çok daha ilgili çekici harita görselleştirmeleri elde edersiniz.

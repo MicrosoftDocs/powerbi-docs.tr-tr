@@ -1,5 +1,5 @@
 ---
-title: Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
+title: Azure AD B2B ile içerikleri dış konuk kullanıcılara dağıtma
 description: Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümleşerek Power BI içeriklerinin kuruluş dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dded0f38ccc4c871bf402240aba25b11106bac09
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973224"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507773"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101497"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297148"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -118,7 +118,7 @@ Ara sunucu sorunlarıyla karşılaştığınızı düşünüyorsanız bkz. [Powe
 [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
 [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
-[Şirket içi veri ağ geçidi (kişisel mod) - kişisel ağ geçidinin yeni sürümü](service-gateway-personal-mode.md)
+[Şirket içi veri ağ geçidi (kişisel mod) - yeni sürüm kişisel ağ geçidi](service-gateway-personal-mode.md)  
 [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

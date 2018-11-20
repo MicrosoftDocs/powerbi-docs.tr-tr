@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101658"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580552"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 
@@ -103,17 +103,14 @@ Bu sorunu gidermek için aşağıdaki adımları izleyin.
 3. Ağ geçidini yeniden yükleyin.
 4. İsterseniz mevcut bir ağ geçidini geri yüklemek için kurtarma anahtarını kullanabilirsiniz.
 
-### <a name="support-for-tls-1112"></a>TLS 1.1/1.2 desteği
+## <a name="support-for-tls-12"></a>TLS 1.2 Desteği
 
-Ağustos 2017 güncelleştirmesinden bu yana şirket içi veri ağ geçidinde, **Power BI hizmeti** ile iletişim kurmak için varsayılan olarak Aktarım Katmanı Güvenliği (TLS) 1.1 veya 1.2 sürümü kullanılmaktadır. Şirket içi veri ağ geçidinin önceki sürümlerinde varsayılan olarak TLS 1.0 sürümü kullanılır. Ağ geçitlerinizin çalışmaya devam etmesini sağlamak üzere Şirket içi veri ağ geçidi yüklemelerinizi Ağustos 2017 veya sonraki bir sürümüne yükseltmeniz gerekmektedir.
+Varsayılan olarak Şirket içi veri ağ geçidinde, Power BI hizmeti ile iletişim kurmak için Aktarım Katmanı Güvenliği (TLS) 1.2 sürümü kullanılmaktadır. Tüm ağ geçidi trafiğinin TLS 1.2 kullanmasını sağlamak için, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekebilir:
 
->[!NOTE]
->TLS 1.0 desteği 1 Kasım 2017'de sona ermiştir.
-
-TLS 1.0 sürümünün, şirket içi veri ağ geçidi tarafından 1 Kasım 2017'ye kadar desteklendiği ve ağ geçidi tarafından bir geri dönme mekanizması olarak kullanıldığı göz önünde bulundurulmalıdır. Tüm ağ geçidi trafiği için TLS 1.1 veya 1.2 sürümünün kullanılmasını (ve ağ geçidinizde TLS 1.0 sürümünün kullanılmasını önlemeyi) sağlamak üzere, ağ geçidi hizmetinin çalıştırıldığı makinede şu kayıt defteri anahtarlarını eklemeniz veya değiştirmeniz gerekmektedir:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Bu kayıt defteri anahtarları eklendiğinde veya değiştirildiğinde değişiklikler tüm .NET uygulamalarında geçerli olur. Diğer uygulamalar için TLS'yi etkileyen kayıt defteri değişiklikleri hakkında bilgi edinmek için bkz. [Transport Layer Security (TLS) registry settings (Aktarım Katmanı Güvenliği (TLS) kayıt defteri ayarları)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

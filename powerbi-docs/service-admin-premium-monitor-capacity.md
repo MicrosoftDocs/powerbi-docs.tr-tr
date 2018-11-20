@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003214"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266220"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium ve Power BI Embedded kapasitelerini izleme
 
 Bu makalede, Power BI Premium kapasitelerinizin ölçümlerini izlemeyle ilgili genel bakış bilgilerine yer verilmiştir. Kapasite kullanımını izleyerek kapasitelerinizi yönetme konusunda bilgiye dayalı bir yaklaşım sergileyebilirsiniz.
 
-Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız.
+Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız. **Uygulamanın geçerli sürümü 1.8’dir (7 Kasım 2018 tarihinde yayımlandı).**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -33,11 +33,11 @@ Doğrudan [Premium Capacity Metrics uygulamasına](https://app.powerbi.com/group
 
     ![Uygulamalar bölümüne gidin](media/service-admin-premium-monitor-capacity/apps.png)
 
-2. Sağ taraftaki **Uygulama edinin**'e tıklayın.
+1. Sağ taraftaki **Uygulama edinin**'e tıklayın.
 
-3. **Uygulamalar** kategorisinde **Power BI Premium Capacity Metrics uygulamasını** arayın.
+1. **Uygulamalar** kategorisinde **Power BI Premium Capacity Metrics uygulamasını** arayın.
 
-4. Uygulamayı yüklemek için abone olun.
+1. Uygulamayı yüklemek için abone olun.
 
 Uygulamayı yükledikten sonra kuruluşunuzdaki kapasitelere ait ölçümleri görebilirsiniz. Şimdi kullanılabilir durumdaki bazı önemli ölçümlere göz atalım.
 
@@ -47,29 +47,43 @@ Uygulamayı ilk açtığınızda yönetici haklarına sahip olduğunuz tüm kapa
 
 ![Ölçüm uygulama panosu](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Raporda üç sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı olarak açıklanmaktadır.
+Temel alınan rapora dönmek için panoya tıklayın. Raporda altı sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı olarak açıklanmaktadır.
 
-* **Tüm sayfalara uygulanan filtreler**: rapordaki diğer sayfaları belirli bir kapasiteye filtrelemenize olanak tanır.
-* **Veri kümeleri**: kapasitelerinizdeki veri kümelerinin durumu hakkında ayrıntılı ölçümler sağlar.
-* **Sistem**: bellek ve CPU yüksek kullanımı gibi genel kapasite ölçümlerini sağlar. 
+* **Filtreler**: Rapordaki diğer sayfaları belirli bir kapasiteye filtrelemenize olanak tanır.
 
-### <a name="filters-applied-to-all-pages-tab"></a>Tüm sayfalara uygulanan filtreler
+* **Veri kümeleri**: kapasitelerinizdeki Power BI veri kümelerinin durumu hakkında ayrıntılı ölçümler.
 
-**Tüm sayfalara uygulanmış olan filtreler** sekmesinden kapasite, veri kümesi ve son yedi gün içindeki bir tarih aralığını seçebilirsiniz. Filtreler daha sonra rapordaki tüm ilgili sayfalara ve kutucuklara uygulanır. Hiçbir filtre seçilmezse, rapor varsayılan olarak sahip olduğunuz tüm kapasiteler için son haftanın ölçümlerini gösterir.
+* **Sayfalandırılmış raporlar**: kapasitelerinizdeki sayfalandırılmış raporların durumu hakkında ayrıntılı ölçümler.
+
+* **Veri akışları**: kapasitelerinizdeki veri akışlarının ayrıntılı yenileme ölçümleri.
+
+* **Sistem**: bellek ve CPU yüksek kullanımı gibi genel kapasite ölçümleri.
+
+* **Görünen Adlar ve Kimlikler**: kapasiteler, çalışma alanları ve iş yüklerinin adları, kimlikleri ve sahipleri.
+
+### <a name="filters-tab"></a>Filtreler sekmesi
+
+**Filtreler** sekmesi kapasite, tarih aralığı ve diğer seçenekleri belirtmenizi sağlar. Filtreler daha sonra rapordaki tüm ilgili sayfalara ve kutucuklara uygulanır. Hiçbir filtre seçilmezse, rapor varsayılan olarak sahip olduğunuz tüm kapasiteler için son haftanın ölçümlerini gösterir.
 
 ![Filtreler sekmesi](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
+* **(A)** Her iş yüküne filtre ayarlamak için **Veri Kümeleri**, **Sayfalandırılmış Raporlar** veya **Veri Akışları**’nı seçin.
+
+* **(A)** altındaki seçiminize bağlı olarak **(B)** ad ve **(C)** bilgiler güncelleştirilir; böylelikle iş yükünü ada göre filtrelemenize olanak tanınır. Örneğin yukarıdaki görüntüde **Veri Akışları Adı** ve **Veri Akışları Bilgileri**’ni gösteren **Veri Akışları** seçilidir.
+
+* **(D)** Kapasite için veri kümeleri, sayfalandırılmış raporlar veya veri akışlarını gösteren kapasite bilgileri etkinleştirilir.
+
 ### <a name="datasets-tab"></a>Veri Kümeleri sekmesi
 
-**Veri kümeleri** sekmesi uygulamadaki toplu ölçümleri sağlar. Farklı alanlara gitmek için sekmenin üstündeki düğmeleri kullanın: **Özet**, **Yenilemeler**, **Sorgu Süreleri**, **Sorgu Beklemeleri** ve **Veri Kümeleri**.
+Farklı alanlara gitmek için **Veri Kümeleri** sekmesinin üstündeki düğmeleri kullanın: **Özet**, **Yenilemeler**, **Sorgu Süreleri**, **Sorgu Beklemeleri** ve **Veri Kümeleri**.
 
 ![Veri Kümeleri sekmesi](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Özet bölgesi
 
-**Özet** alanında varlıklara, sistem kaynaklarına ve veri kümesi iş yüklerine göre kapasitelerinizin bir görünümü gösterilir.
+**Özet** alanında varlıklara, sistem kaynaklarına ve veri kümesi iş yüklerine göre kapasitelerinizin bir görünümü gösterilir. Aşağıdaki ölçümleri gösterir.
 
-| | **Metrics** (Ölçümler) |
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
 | --- | --- |
 | **Entities** (Varlıklar) | * Sahip olduğunuz kapasite sayısı<br> * Kapasitenizdeki benzersiz veri kümesi sayısı<br> * Kapasitenizdeki benzersiz çalışma alanı sayısı |
 | **System** (Sistem) | * GB cinsinden son yedi gün içindeki ortalama bellek kullanımı<br> * GB cinsinden son yedi gün içindeki en yüksek bellek tüketimi ve gerçekleştiği yerel saat<br> * Son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde CPU kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir |
@@ -78,41 +92,110 @@ Raporda üç sekme vardır ve bunlar aşağıdaki bölümlerde daha ayrıntılı
 
 #### <a name="refreshes-area"></a>Yenilemeler alanı
 
-**Yenilemeler** alanında son yedi gün içindeki toplam yenileme sayısı, başarılı ölçümler, ortalama/maksimum yenileme bekleme süresi ve ortalama/maksimum yenileme süresi veri kümelerine ayrılmış şekilde gösterilir. En alttaki iki grafikte yenilemelerle GB cinsinden bellek tüketiminin karşılaştırması gösterilir. Ortalama bekleme süreleri bir saatlik parçalara ayrılır ve yerel saate göre belirtilir. Üstteki çubukta veri kümesinin yenilenmesinin tamamlanması için geçen ortalama süre (yenileme süresi) ve ortalama yenileme bekleme süresine göre ilk beş veri kümesi listelenir. Birden çok yüksek yenileme bekleme süresi artışı kapasiteye sık erişildiğini gösterir.
+**Yenilemeler** alanı aşağıdaki ölçümleri içerir.
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Yenileme güvenilirliği** | * Toplam Sayı: Her veri kümesi için toplam yenileme sayısı<br> * Güvenilirlik: Her veri kümesi için tamamlanan yenilemelerin yüzdesi<br> * Ortalama Bekleme Süresi: Dakika cinsinden zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme<br> * En Uzun Bekleme Süresi: Dakika cinsinden veri kümesinin en uzun bekleme süresi <br> * Ortalama Süre: Dakika cinsinden veri kümesi yenilemesinin ortalama süresi<br> * En Uzun Süre: Dakika cinsinden veri kümesinin en uzun çalışan yenilemesinin süresi |
+| **Ortalama Yenileme Süresine Göre En İyi 5 Veri Kümesi** | * Dakika cinsinden en uzun ortalama yenileme süresine sahip beş veri kümesi |
+| **Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi** | * Dakika cinsinden en uzun ortalama yenileme bekleme süresine sahip beş veri kümesi |
+| **Saatlik Ortalama Yenileme Bekleme Süreleri** | * Bir saatlik demetlere ayrılmış ve yerel saatle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
+| **Saatlik Yenileme Sayısı ve Bellek Tüketimi** | * Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi |
+|  |  |
 
 #### <a name="query-durations-area"></a>Sorgu Süreleri alanı
 
-**Sorgu Süreleri** alanında toplam sorgu çalıştırma sayısına ek olarak milisaniye cinsinden ortalama/maksimum süre bilgileri listelenir. Bu veriler veri kümeleri, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır. Alt grafiklerde sorgu sayıları ve ortalama süre (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir.
+**Sorgu Süreleri** alanı aşağıdaki ölçümleri içerir.
 
-Sağ üstteki grafikte sorgu süresi dağıtım histogramı görüntülenir. Histogramda bildirilen sorgu süreleri milisaniye cinsinden ve şu kategorilere göre ayrılmış şekilde gösterilir: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sn, 1 sn-3 sn, 3 sn-10 sn, 10 sn-30 sn ve > 30 saniyelik aralıklar.
-
-Sağ alttaki grafikte, sorguların tamamlanması için geçen ortalama sorgu süresine göre ilk beş veri kümesi listelenir.
-
-Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir.
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Sorgu Süreleri** | * Bu bölümdeki veriler, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır<br> * Toplam: Veri kümesi için çalıştırılan sorguların toplam sayısı<br> * Ortalama: Veri kümesi için milisaniye cinsinden ortalama sorgu süresi<br> * Maksimum: Milisaniye cinsinden, veri kümesinde en uzun süre çalışan sorgunun süresi|
+| **Sorgu Süresi Dağılımı** | * Sorgu süresi histogramında sorgu süreleri şu kategorilere göre ayrılmış şekilde (milisaniye cinsinden) gösterilir: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sn, 1 sn-3 sn, 3 sn-10 sn, 10 sn-30 sn ve > 30 saniyelik aralıklar. Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir. |
+| **Ortalama Süreye Göre En İyi 5 Veri Kümesi** | * Milisaniye cinsinden en uzun ortalama sorgu süresine sahip beş veri kümesi |
+| **Doğrudan Sorgu / Canlı Bağlantılar (> %80 Kullanım)** | * Doğrudan sorgunun veya canlı bağlantının %80 CPU kullanımını kaç kez aştığı (yerel saatte bir saatlik aralıklara bölünmüş olarak) |
+| **Saatlik Sorgu Süresi Dağılımları** | * Sorgu sayıları ve ortalama süre (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (yerel saatte bir saatlik aralıklara bölünmüş olarak) |
+|  |  |
 
 #### <a name="query-waits-area"></a>Sorgu Beklemeleri alanı
 
-**Sorgu Beklemeleri** alanında toplam çalışan sorgu sayısı, Canlı sorgu/Doğrudan sorgu için toplam sorgu bekleme sayısı ve milisaniye cinsinden ortalama/maksimum bekleme süresi listelenir. Bu veriler veri kümeleri, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır. Alt grafiklerde sorgu bekleme sayıları ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma, yerel saatte bir saatlik aralıklara bölünmüş halde gösterilir.
+**Sorgu Beklemeleri** alanı aşağıdaki ölçümleri içerir.
 
-Sağ üstteki grafikte sorgu bekleme süresi dağıtım histogramı görüntülenir. Histogramda bildirilen sorgu süreleri milisaniye cinsinden ve şu kategorilere göre ayrılmış şekilde gösterilir: <= 50 ms , 50-100 ms , 100-200 ms , 200-400 ms 400 ms-1 sn, 1 sn-5 sn ve > 5 saniyelik aralıklar.
-
-Sağ alttaki grafikte, sorguların başlatılması için geçen ortalama bekleme süresine göre ilk beş veri kümesi listelenir.
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Sorgu Bekleme Süreleri** | * Bu bölümdeki veriler, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır<br> * Toplam: Veri kümesi için çalıştırılan sorguların toplam sayısı<br> * Bekleme sayısı: Veri kümesinde yürütülmeye başlamadan önce sistem kaynaklarında bekletilen sorguların sayısı <br> * Ortalama: Veri kümesi için milisaniye cinsinden ortalama sorgu bekleme süresi<br> * Maksimum: Milisaniye cinsinden, veri kümesinde en uzun süre bekleyen sorgunun süresi|
+| **Bekleme Süresi Dağılımı** | * Sorgu süresi histogramında sorgu süreleri şu kategorilere göre ayrılmış şekilde (milisaniye cinsinden) gösterilir: <= 50 ms , 50-100 ms , 100-200 ms , 200-400 ms 400 ms-1 sn, 1 sn-5 sn ve > 5 saniyelik aralıklar |
+| **Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi** | * Sorgunun yürütülmesi için ortalama bekleme süresi (milisaniye cinsinden) en uzun olan beş veri kümesi |
+| **Saatlik Sorgu Bekleme Süresi Sayıları ve Süreleri** | * Sorgu bekleme sayıları ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (yerel saatte bir saatlik aralıklara bölünmüş olarak) |
+|  |  |
 
 #### <a name="datasets-area"></a>Veri kümeleri alanı
 
-**Veri kümeleri** alanında saatlere göre bellek baskısı nedeniyle çıkarılan tam veri kümeleri gösterilir.
+**Veri kümeleri** alanı aşağıdaki ölçümleri içerir.
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Veri Kümesi Çıkarma Sayıları** | * Toplam: Her kapasite için veri kümesi*çıkarmalarının* toplam sayısı. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten çıkarır. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir.|
+| **Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi** | * Bir saatlik demetlere ayrılan ve yerel saatle raporlanan veri kümesi çıkarmaları ile GB cinsinden bellek tüketimi karşılaştırması |
+|  |  |
+
+### <a name="paginated-reports-tab"></a>Sayfalandırılmış raporlar sekmesi
+
+**Sayfalandırılmış raporlar** sekmesinde, kapasitelerinizdeki sayfalandırılmış raporların durumu hakkında ayrıntılı ölçümler gösterilir.
+
+![Sayfalandırılmış raporlar sekmesi](media/service-admin-premium-monitor-capacity/paginated-reports-tab.png)
+
+**Sayfalandırılmış raporlar** sekmesi aşağıdaki ölçümleri içerir.
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Genel kullanım** | * Toplam Görüntüleme Sayısı: Raporun bir kullanıcı tarafından toplamda kaç kez görüntülendiği<br> * Satır Sayısı: Rapordaki veri satırlarının sayısı<br> * Alma (ortalama): Raporun verilerini almak için gereken milisaniye cinsinden ortalama süre. Uzun süreler yavaş çalışan sorgulara veya başka veri kaynağı sorunlarına işaret ediyor olabilir. <br> * İşlem yapma (ortalama): Raporun verileri üzerinde işlem yapmak için gereken milisaniye cinsinden ortalama süre<br>* İşleme (ortalama): Raporu tarayıcıda işlemek için gereken milisaniye cinsinden ortalama süre<br> * Toplam süre: Raporun tüm aşamaları için milisaniye cinsinden gereken süre|
+| **Ortalama Veri Alma Süresine Göre İlk 5 Rapor** | * Milisaniye cinsinden ortalama veri alma süresi en uzun olan beş rapor |
+| **Ortalama Rapor İşlem Yapma Süresine Göre İlk 5 Rapor** | * Milisaniye cinsinden ortalama raporda işlem yapma süresi en uzun olan beş rapor |
+| **Saatlik Süreler** | * Bir saatlik demetlere ayrılmış olarak ve yerel saatle bildirilen veri alma süresiyle işlem yapma ve işleme sürelerinin karşılaştırması |
+| **Saatlik Sonuçlar** | * Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi |
+|  |  |
+
+### <a name="dataflows-tab"></a>Veri Akışları sekmesi
+
+**Veri Akışları** sekmesinde, kapasitelerinizdeki veri akışlarının ayrıntılı yenileme ölçümleri gösterilir.
+
+![Veri Akışları sekmesi](media/service-admin-premium-monitor-capacity/dataflows-tab.png)
+
+**Veri Akışları** sekmesi aşağıdaki ölçümleri içerir.
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **Yenile** | * Toplam: Her veri akışı için toplam yenileme sayısı<br> * Güvenilirlik: Her veri akışı için tamamlanan yenilemelerin yüzdesi<br> * Ortalama Bekleme Süresi: Dakika cinsinden zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme<br> * En Uzun Bekleme Süresi: Dakika cinsinden veri akışının en uzun bekleme süresi <br> * Ortalama Süre: Dakika cinsinden veri akışı yenilemesinin ortalama süresi<br> * En Uzun Süre: Dakika cinsinden veri akışının en uzun çalışan yenilemesinin süresi |
+| **Ortalama Yenileme Süresine Göre En İyi 5 Veri Akışı** | * Dakika cinsinden ortalama yenileme süresi en uzun olan beş veri akışı |
+| **Ortalama Bekleme Süresine Göre En iyi 5 Veri Akışı** | * Dakika cinsinden ortalama yenileme bekleme süresi en uzun olan beş veri akışı |
+| **Saatlik Ortalama Yenileme Bekleme Süreleri** | * Bir saatlik demetlere ayrılmış ve yerel saatle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
+| **Saatlik Yenileme Sayısı ve Bellek Tüketimi** | * Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi |
+|  |  |
 
 ### <a name="system-tab"></a>System (Sistem) sekmesi
 
-**Sistem** sekmesinde, yüksek CPU kullanım süreleri (%80 kullanımın aşıldığı durumların sayısını), yüksek doğrudan sorgu/canlı bağlantı kullanımı ve bellek tüketimi gösterilir.
+**Sistem** sekmesi tüm kapasiteler ve iş yükleri arasında CPU ve bellek tüketimi gösterir.
 
-![Premium sistem raporu](media/service-admin-premium-monitor-capacity/system-tab.png)
+![System (Sistem) sekmesi](media/service-admin-premium-monitor-capacity/system-tab.png)
+
+**System** sekmesi aşağıdaki ölçümleri içerir.
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| **CPU Ölçümleri (> %80 Kullanım)** | * Son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır |
+| **Bellek tüketimi** | * Son yedi günün üç dakikalık demetlere ayrılmış bellek tüketimi |
+|  |  |
+
+### <a name="display-names-and-ids-tab"></a>Görünen Adlar ve Kimlikler sekmesi
+
+**Görünen Adlar ve Kimlikler** sekmesinde kapasitelerin, çalışma alanlarının ve iş yüklerinin adları, kimlikleri ve sahipleri yer alır.
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Power BI Embedded kapasitesini izleme
 
 Power BI Premium Capacity Metrics uygulamasını kullanarak Power BI Embedded içindeki *A SKU* kapasitelerini de izleyebilirsiniz. Yöneticisi olduğunuz kapasiteler raporda gösterilir. Ancak Power BI'a A SKU'larınız üzerinde belirli izinleri vermediğiniz sürece raporun yenilenmesi başarısız olur:
 
 1. Azure portalda kapasitenizi açın.
+
 1. **Erişim denetimi (IAM)** öğesine tıklayın ve “Power BI Premium” uygulamasını okuyucu rolüne ekleyin. Uygulamayı adıyla bulamazsanız istemci kimliğini kullanın: cb4dc29f-0bf4-402a-8b30-7511498ed654.
 
     ![Power BI Embedded izinleri](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
