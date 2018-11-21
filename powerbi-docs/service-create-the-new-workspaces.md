@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909027"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717907"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma (önizleme)
 
@@ -168,7 +168,7 @@ Yeni uygulama çalışma alanlarındaki bazı özellikler geçerli uygulama çal
 
 Aşağıdaki sorunlar bilinmektedir ve bunların düzeltmeleri geliştirme aşamasındadır:
 
-- E-postalara aboneliklerin alıcısı olarak eklenen ücretsiz kullanıcılar veya kullanıcı grupları, almaları gerekirken e-postaları alamıyor. Yeni çalışma alanları deneyiminin çalışma alanı Premium kapasitedeyken, aboneliği oluşturan kullanıcıya ait Çalışma Alanım Premium kapasitede olmadığında, bu sorunla karşılaşılıyor. Çalışma Alanım Premium kapasiteyse, ücretsiz kullanıcılar ve kullanıcı grupları e-postaları alacaktır.
+- E-postalara aboneliklerin alıcısı olarak eklenen ücretsiz kullanıcılar veya kullanıcı grupları, almaları gerekirken e-postaları alamıyor. Yeni çalışma alanlarından biri Premium kapasitedeyken, aboneliği oluşturan kullanıcıya ait Çalışma Alanım Premium kapasitede olmadığında, bu sorunla karşılaşılıyor. Çalışma Alanım Premium kapasiteyse, ücretsiz kullanıcılar ve kullanıcı grupları e-postaları alacaktır.
 - Çalışma alanı Premium kapasiteden paylaşılan kapasiteye taşındığında, bazı durumlarda ücretsiz kullanıcılar ve kullanıcı grupları, almamaları gerekirken e-postaları almaya devam edecektir. Aboneliği oluşturan kullanıcıya ait Çalışma Alanım Premium kapasitede olduğunda, bu sorunla karşılaşılıyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar

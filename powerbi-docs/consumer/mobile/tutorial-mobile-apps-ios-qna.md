@@ -1,5 +1,5 @@
 ---
-title: 'Öğretici: iOS uygulamalarında Soru-Cevap sanal çözümleyicisi ile soru sorma - Power BI'
+title: 'Öğretici: iOS uygulamalarında Soru-Cevap sanal analisti ile soru sorma'
 description: Bu öğreticide, iOS cihazınızdaki Power BI mobil uygulamasında yer alan Soru-Cevap sanal analistini kullanarak kendi kelimelerinizle örnek verilerle ilgili sorular soracaksınız.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547157"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157161"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Öğretici: iOS uygulamalarındaki Soru-Cevap sanal çözümleyicisini kullanarak verileriniz hakkında sorular sorma - Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Öğretici: Power BI iOS uygulamalarındaki Soru-Cevap sanal analistini kullanarak verileriniz hakkında sorular sorma
 
 Verileriniz hakkında bilgi edinmenin en kolay yolu, bunlarla ilgili soruları kendi kelimelerinizle sormaktır. Bu öğreticide iPad, iPhone ve iPod Touch cihazınızda Microsoft Power BI mobil uygulamasındaki Soru-Cevap sanal çözümleyicisi ile örnek veriler hakkında sorular soracak ve öne çıkan içgörüleri görüntüleyeceksiniz. 
 

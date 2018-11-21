@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266220"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688408"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Power BI Premium ve Power BI Embedded kapasitelerini izleme
 
 Bu makalede, Power BI Premium kapasitelerinizin ölçümlerini izlemeyle ilgili genel bakış bilgilerine yer verilmiştir. Kapasite kullanımını izleyerek kapasitelerinizi yönetme konusunda bilgiye dayalı bir yaklaşım sergileyebilirsiniz.
 
-Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız. **Uygulamanın geçerli sürümü 1.8’dir (7 Kasım 2018 tarihinde yayımlandı).**
+Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız.
+
+**Uygulamanın geçerli sürümü 1.9’dur (14 Kasım 2018 tarihinde yayımlandı).**
+
+geçin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ Farklı alanlara gitmek için **Veri Kümeleri** sekmesinin üstündeki düğmel
 | --- | --- |
 | **Entities** (Varlıklar) | * Sahip olduğunuz kapasite sayısı<br> * Kapasitenizdeki benzersiz veri kümesi sayısı<br> * Kapasitenizdeki benzersiz çalışma alanı sayısı |
 | **System** (Sistem) | * GB cinsinden son yedi gün içindeki ortalama bellek kullanımı<br> * GB cinsinden son yedi gün içindeki en yüksek bellek tüketimi ve gerçekleştiği yerel saat<br> * Son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde CPU kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının eşik değerlerin %80'ini aşma sayısı, üç dakikalık parçalara ayrılmıştır<br> * Son yedi gün içinde Doğrudan sorgu/Canlı bağlantı kullanımının %80'ini en çok aştığı zaman, bir saatlik parçalara ayrılmıştır ve yerel saatte gösterilir |
-| **Veri Kümesi İş Yükleri** | * Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız yenileme sayısı<br> * Yetersiz bellek nedeniyle başarısız olan toplam yenileme sayısı<br> * Dakika cinsinden ortalama yenileme süresi, işlemin tamamlanması için geçen süre<br> * Dakika cinsinden ortalama yenileme bekleme süresi, planlanan zamanla işlemin başlatılması arasındaki ortalama gecikme<br> * Son yedi gün içinde çalıştırılan toplam sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız sorgu sayısı<br> * Dakika cinsinden ortalama sorgu süresi, işlemin tamamlanması için geçen süre<br> * Bellek baskısı nedeniyle çıkarılan toplam model sayısı |
+| **Veri Kümesi İş Yükleri** | * Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız yenileme sayısı<br> * Yetersiz bellek nedeniyle başarısız olan toplam yenileme sayısı<br> * Dakika cinsinden ortalama yenileme süresi, işlemin tamamlanması için geçen süre<br> * Dakika cinsinden ortalama yenileme bekleme süresi, planlanan zamanla işlemin başlatılması arasındaki ortalama gecikme<br> * Son yedi gün içinde çalıştırılan toplam sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarılı sorgu sayısı<br> * Son yedi gün içinde gerçekleştirilen toplam başarısız sorgu sayısı<br> * Dakika cinsinden ortalama sorgu süresi, işlemin tamamlanması için geçen süre<br> * Bellek baskısı nedeniyle çıkarılan toplam model sayısı<br> * Veri kümelerinin ortalama boyutu <br> * Belleğe yüklenen veri kümelerinin ortalama sayısı |
 |  |  |
 
 #### <a name="refreshes-area"></a>Yenilemeler alanı
@@ -136,6 +140,8 @@ Farklı alanlara gitmek için **Veri Kümeleri** sekmesinin üstündeki düğmel
 | --- | --- |
 | **Veri Kümesi Çıkarma Sayıları** | * Toplam: Her kapasite için veri kümesi*çıkarmalarının* toplam sayısı. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten çıkarır. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir.|
 | **Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi** | * Bir saatlik demetlere ayrılan ve yerel saatle raporlanan veri kümesi çıkarmaları ile GB cinsinden bellek tüketimi karşılaştırması |
+| **Saatlik Yüklenen Veri Kümesi Sayısı** | * Bir saatlik demetlere ayrılan ve yerel saat cinsinden raporlanan, belleğe yüklenen veri kümesi sayısı ile GB cinsinden bellek tüketimi karşılaştırması |
+| **Veri Boyutları**  | * En büyük boyut: Gösterilen zaman aralığındaki MB cinsinden en büyük veri kümesi boyutu |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Sayfalandırılmış raporlar sekmesi

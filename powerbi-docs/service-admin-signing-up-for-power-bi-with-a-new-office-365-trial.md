@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736861"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850396"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
@@ -27,7 +27,7 @@ Bu makalede Power BI'a kaydolmanın alternatif yollarından biri olan Office 365
 
 1. Kayıt işlemini tanımlamanızın ardından, you@yourcompany.onmicrosoft.com gibi görünen yeni bir oturum açma adı edinirsiniz. Bu bilgilerle Power BI'da oturum açabilirsiniz.
 
-1. [Bu bağlantıyı kullanarak](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1) Power BI'a kaydolun. İstenirse, önceki adımda Office 365 için seçtiğiniz oturum açma adını ve parolayı kullanarak oturum açın.
+1. [Bu bağlantıyı kullanarak](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI'a kaydolun. İstenirse, önceki adımda Office 365 için seçtiğiniz oturum açma adını ve parolayı kullanarak oturum açın.
 
 1. İşte bu kadar! İşlem tamamlandığında yeniden Power BI'a yönlendirilirsiniz. Yeni hesapla oturum açma sırasında sorun yaşıyorsanız gizli bir tarayıcı oturumu kullanmayı deneyin.
 

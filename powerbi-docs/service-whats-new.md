@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396762"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718080"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -655,7 +655,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **23 Nisan 2015**
 
-* Yeni içerik paketimiz sayesinde artık **Microsoft Dynamics Marketing** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Daha fazla bilgi için [blog gönderimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx) ve [belgeleri](service-connect-to-microsoft-dynamics-marketing.md) inceleyebilirsiniz.
+* Yeni içerik paketimiz sayesinde artık **Microsoft Dynamics Marketing** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Daha fazla bilgi için [blog gönderimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx) okuyabilirsiniz.
 
 **15 Nisan 2015**
 

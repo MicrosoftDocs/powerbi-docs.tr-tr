@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetindeki Analiz bölmesi
+title: Görseller için dinamik başvuru çizgileri oluşturma
 description: Power BI hizmetinde görseller için dinamik başvuru çizgileri oluşturma
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244533"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717712"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Power BI hizmetindeki Analiz bölmesi
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI hizmetinde görseller için dinamik başvuru çizgileri oluşturma
+
 **Power BI hizmetindeki** **Analiz** bölmesini kullanarak görselleştirmelere dinamik *başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244533"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Analiz bölmesini kullanma
+## <a name="use-the-analytics-pane"></a>Analiz bölmesini kullanma
 **Analiz** bölmesi ile aşağıdaki türlerde dinamik başvuru çizgileri (kullanılabilen çizgiler görsel türüne göre değişiklik gösterir) oluşturabilirsiniz:
 
 * X Ekseni sabit çizgisi

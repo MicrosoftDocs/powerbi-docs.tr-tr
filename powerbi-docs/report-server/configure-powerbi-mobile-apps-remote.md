@@ -1,5 +1,5 @@
 ---
-title: Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
+title: Bir rapor sunucusuna yönelik uzaktan iOS mobil uygulama erişimini yapılandırma
 description: Rapor sunucunuz için uzaktan iOS mobil uygulamaları yapılandırmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722190"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157437"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 
-Bu makalede, kuruluşunuzun MDM aracını kullanarak bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma hakkında bilgi edineceksiniz. Bunu ayarlamak için IT yöneticileri, uygulamaya gönderilecek gerekli bilgilerle birlikte bir uygulama yapılandırma ilkesi oluşturur. 
+Bu makalede, kuruluşunuzun MDM aracını kullanarak bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma hakkında bilgi edineceksiniz. IT yöneticileri, bunu yapılandırmak için uygulamaya gönderilecek gerekli bilgilerle birlikte bir uygulama yapılandırma ilkesi oluşturur. 
 
- Daha sonra, rapor sunucusu bağlantısı zaten yapılandırıldığı için Power BI iOS mobil uygulama kullanıcıları kuruluşlarının rapor sunucusuna daha kolay bir şekilde bağlanabilir. 
-
+ Rapor sunucusu bağlantısı zaten yapılandırıldığından Power BI iOS mobil uygulama kullanıcıları kuruluşlarının rapor sunucusuna daha kolay bir şekilde bağlanabilir. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>MDM aracında uygulama yapılandırma ilkesi oluşturma 
 
@@ -39,7 +38,7 @@ Aşağıdaki tabloda çiftler açıklanmıştır.
 | com.microsoft.powerbi.mobile.ServerURL | Dize | Rapor Sunucusu URL'si </br> Http/https ile başlamalıdır |
 | com.microsoft.powerbi.mobile.ServerUsername | Dize | [isteğe bağlı] </br> Sunucuya bağlanmak için kullanılacak kullanıcı adı. </br> Bir tane yoksa, uygulama kullanıcıdan bağlantı için kullanıcı adı girmesini ister.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı] </br> Varsayılan değer “Rapor sunucusu” şeklindedir </br> Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | True varsayılan değerdir </br> “True” olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar (zaten yapılandırılmış mevcut sunucular silinir). </br> Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller. </br> “False” olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. </br> Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır ve kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | True varsayılan değerdir </br>“True” olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar. Önceden yapılandırılmış olan sunucular silinir. </br> Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller. </br> “False” olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. </br> Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır. Uygulama, kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
 
 Intune kullanarak yapılandırma ilkesini ayarlama örneği aşağıda verilmiştir.
 
@@ -47,7 +46,7 @@ Intune kullanarak yapılandırma ilkesini ayarlama örneği aşağıda verilmiş
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Bir rapor sunucusuna bağlanan son kullanıcılar
 
-Uygulama yapılandırma ilkesini yayımladıktan sonra, bu ilke için tanımlanmış dağıtım listesine ait olan kullanıcılar ve cihazlar, Power BI iOS mobil uygulamasını başlattıklarında aşağıdaki deneyimi yaşarlar. 
+ Uygulama yapılandırma ilkesini bir dağıtım listesi için yayımladığınızı düşünelim. Bu dağıtım listesine ait olan kullanıcılar ve cihazlar, iOS mobil uygulamasını başlattıklarında aşağıdaki deneyimi yaşarlar. 
 
 1. Mobil uygulamalarının bir rapor sunucusu ile yapılandırıldığına dair bir ileti görürler ve **Oturum aç**’a dokunurlar.
 

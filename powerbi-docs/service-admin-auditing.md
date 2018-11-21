@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973362"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850488"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
@@ -139,83 +139,100 @@ Denetim günlükleriyle PowerShell kullanımı üzerine başka bir örnek için 
 
 Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir.
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* İçeri Aktar
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| Kolay ad                                     | İşlem adı                              | Notlar                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Power BI ağ geçidine veri kaynağı eklendi             | AddDatasourceToGateway                      |                                          |
+| Power BI klasörüne erişim eklendi                      | AddFolderAccess                             | Şu anda kullanılmıyor                       |
+| Power BI grup üyeleri eklendi                      | AddGroupMembers                             |                                          |
+| Yönetici, veri akışı depolama hesabını kiracıya ekledi | AdminAttachedDataflowStorageAccountToTenant | Şu anda kullanılmıyor                       |
+| Power BI veri kümesi çözümleme                         | AnalyzedByExternalApplication               |                                          |
+| Power BI raporu analiz edildi                          | AnalyzeInExcel                              |                                          |
+| Ağ geçidine bağlanmış Power BI veri kümesi                | BindToGateway                               |                                          |
+| Kapasite durumu değiştirildi                            | ChangeCapacityState                         |                                          |
+| Kapasite kullanıcı ataması değiştirildi                  | UpdateCapacityUsersAssignment               |                                          |
+| Power BI veri kümesi bağlantıları değiştirildi              | SetAllConnections                           |                                          |
+| Power BI ağ geçidi yöneticilerinin değiştirilmesi                   | ChangeGatewayAdministrators                 |                                          |
+| Değiştirilen Power BI ağ geçidi veri kaynağı kullanıcıları        | ChangeGatewayDatasourceUsers                |                                          |
+| Kurumsal Power BI içerik paketi oluşturuldu      | CreateOrgApp                                |                                          |
+| Power BI uygulaması oluşturuldu                              | CreateApp                                   |                                          |
+| Power BI panosu oluşturuldu                        | CreateDashboard                             |                                          |
+| Power BI veri akışı oluşturuldu                         | CreateDataflow                              |                                          |
+| Power BI veri kümesi oluşturuldu                          | CreateDataset                               |                                          |
+| Power BI e-posta aboneliği oluşturuldu               | CreateEmailSubscription                     |                                          |
+| Power BI klasörü oluşturuldu                           | CreateFolder                                |                                          |
+| Power BI ağ geçidi oluşturma                          | CreateGateway                               |                                          |
+| Power BI grubu oluşturuldu                            | CreateGroup                                 |                                          |
+| Power BI raporu oluşturuldu                           | CreateReport                                |                                          |
+| Veri akışı dış depolama hesabına geçirildi     | DataflowMigratedToExternalStorageAccount    | Şu anda kullanılmıyor                       |
+| Veri akışı izinleri eklendi                        | DataflowPermissionsAdded                    | Şu anda kullanılmıyor                       |
+| Veri akışı izinleri kaldırıldı                      | DataflowPermissionsRemoved                  | Şu anda kullanılmıyor                       |
+| Kurumsal Power BI içerik paketi silindi      | DeleteOrgApp                                |                                          |
+| Power BI açıklaması silindi                          | DeleteComment                               |                                          |
+| Power BI panosu silindi                        | DeleteDashboard                             | Şu anda kullanılmıyor                       |
+| Power BI veri akışı silindi                         | DeleteDataflow                              | Şu anda kullanılmıyor                       |
+| Power BI veri kümesi silindi                          | DeleteDataset                               |                                          |
+| Power BI e-posta aboneliği silindi               | DeleteEmailSubscription                     |                                          |
+| Power BI klasörü silindi                           | DeleteFolder                                |                                          |
+| Power BI klasörüne erişim silindi                    | DeleteFolderAccess                          | Şu anda kullanılmıyor                       |
+| Power BI ağ geçidi silme                          | DeleteGateway                               |                                          |
+| Power BI grubu silindi                            | DeleteGroup                                 |                                          |
+| Power BI raporu silindi                           | DeleteReport                                |                                          |
+| Power BI veri kümesi veri kaynakları keşfedildi          | GetDatasources                              |                                          |
+| Power BI raporu indirme                        | DownloadReport                              |                                          |
+| Power BI sertifika izni düzenlendi          | EditCertificationPermission                 | Şu anda kullanılmıyor                       |
+| Power BI panosu düzenlendi                         | EditDashboard                               | Şu anda kullanılmıyor                       |
+| Power BI veri kümesi düzenlendi                           | EditDataset                                 |                                          |
+| Power BI veri kümesi özellikleri düzenlendi                | EditDatasetProperties                       | Şu anda kullanılmıyor                       |
+| Power BI raporu düzenlendi                            | EditReport                                  |                                          |
+| Power BI veri akışı dışarı aktarıldı                        | ExportDataflow                              |                                          |
+| Power BI raporu görsel verileri dışarı aktarıldı              | ExportReport                                |                                          |
+| Power BI kutucuk verileri dışarı aktarıldı                       | ExportTile                                  |                                          |
+| Veri akışı izinleri eklenemedi                | FailedToAddDataflowPermissions              | Şu anda kullanılmıyor                       |
+| Veri akışı izinleri kaldırılamadı             | FailedToRemoveDataflowPermissions           | Şu anda kullanılmıyor                       |
+| Power BI veri akışı SAS belirteci oluşturuldu             | GenerateDataflowSasToken                    |                                          |
+| Power BI Ekleme Belirteci oluşturuldu                    | GenerateEmbedToken                          |                                          |
+| Dosya Power BI'a aktarıldı                         | İçeri Aktar                                      |                                          |
+| Power BI uygulaması yüklendi                            | InstallApp                                  |                                          |
+| Çalışma alanı bir kapasiteye geçirildi                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Power BI açıklaması gönderildi                           | PostComment                                 |                                          |
+| Power BI panosu yazdırıldı                        | PrintDashboard                              |                                          |
+| Power BI rapor sayfası yazdırıldı                      | PrintReport                                 |                                          |
+| Power BI raporu web'de yayımlandı                  | PublishToWebReport                          |                                          |
+| Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           | Şu anda kullanılmıyor                       |
+| Veri kaynağını Power BI ağ geçidinden kaldırma         | RemoveDatasourceFromGateway                 |                                          |
+| Power BI grup üyeleri kaldırıldı                    | DeleteGroupMembers                          |                                          |
+| Çalışma alanı kapasiteden kaldırıldı                 | RemoveWorkspacesFromCapacity                |                                          |
+| Power BI panosu yeniden adlandırıldı                        | RenameDashboard                             |                                          |
+| Power BI veri akışı yenileme isteği gönderildi               | RequestDataflowRefresh                      | Şu anda kullanılmıyor                       |
+| Power BI veri kümesi yenileme isteği gönderildi                | RefreshDataset                              |                                          |
+| Power BI çalışma alanları alındı                     | GetWorkspaces                               |                                          |
+| Power BI veri akışı üzerinde zamanlanmış yenileme ayarlandı        | SetScheduledRefreshOnDataflow               |                                          |
+| Power BI veri kümesi üzerinde zamanlanmış yenileme ayarlandı         | SetScheduledRefresh                         |                                          |
+| Power BI panosu paylaşıldı                         | ShareDashboard                              |                                          |
+| Power BI raporu paylaşıldı                            | ShareReport                                 |                                          |
+| Power BI uzatılmış deneme sürümünü başlatma                   | OptInForExtendedProTrial                    | Şu anda kullanılmıyor                       |
+| Power BI deneme sürümü başlatıldı                            | OptInForProTrial                            |                                          |
+| Power BI veri kaynağı devralındı                   | TakeOverDatasource                          |                                          |
+| Power BI veri kümesi devralındı                        | TakeOverDataset                             |                                          |
+| Power BI uygulaması yayımdan kaldırıldı                          | UnpublishApp                                |                                          |
+| Kapasite kaynağı idare ayarları güncelleştirildi      | UpdateCapacityResourceGovernanceSettings    | Şu anda Office 365 yönetim portalında mevcut değil |
+| Kapasite yöneticisi güncelleştirildi                            | UpdateCapacityAdmins                        |                                          |
+| Kapasitenin görünen adı güncelleştirildi                     | UpdateCapacityDisplayName                   |                                          |
+| Kuruluşun Power BI ayarları güncelleştirildi          | UpdatedAdminFeatureSwitch                   |                                          |
+| Power BI uygulaması güncelleştirildi                              | UpdateApp                                   |                                          |
+| Power BI veri akışı güncelleştirildi                         | UpdateDataflow                              |                                          |
+| Power BI veri kümesi veri kaynakları güncelleştirildi             | UpdateDatasources                           |                                          |
+| Power BI veri kümesi parametreleri güncelleştirildi               | UpdateDatasetParameters                     |                                          |
+| Power BI e-posta aboneliği güncelleştirildi               | UpdateEmailSubscription                     |                                          |
+| Power BI klasörü güncelleştirildi                           | UpdateFolder                                |                                          |
+| Power BI klasörüne erişim güncelleştirildi                    | UpdateFolderAccess                          |                                          |
+| Power BI ağ geçidi veri kaynağı kimlik bilgileri güncelleştirildi  | UpdateDatasourceCredentials                 |                                          |
+| Power BI panosu görüntülendi                         | ViewDashboard                               |                                          |
+| Power BI veri akışı görüntülendi                          | ViewDataflow                                |                                          |
+| Power BI raporu görüntülendi                            | ViewReport                                  |                                          |
+| Power BI kutucuğu görüntülendi                              | ViewTile                                    |                                          |
+| Power BI kullanım ölçümleri görüntülendi                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

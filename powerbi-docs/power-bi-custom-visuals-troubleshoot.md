@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223590"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679278"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI özel görselleriyle ilgili sorunları giderme
 
@@ -37,7 +37,7 @@ Bu simgeyi görmüyorsanız görselin Power BI ayarlarında etkinleştirildiğin
 
 **Görsel sunucuyla bağlantı kurulamıyor**
 
-Görsel projenizin kökünde, terminalinizin komut satırına `pbiviz start` komutunu girerek görsel sunucuyu çalıştırın. Sunucu çalışıyorsa SSL sertifikaları düzgün bir şekilde yüklenmemiş olabilir.
+Görsel projenizin kökünde, terminalinizin komut satırına `pbiviz start` komutunu girerek görsel sunucuyu çalıştırın. Sunucu çalışmıyorsa SSL sertifikaları düzgün bir şekilde yüklenmemiş olabilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

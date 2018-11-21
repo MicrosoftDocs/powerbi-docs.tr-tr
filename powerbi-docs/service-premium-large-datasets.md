@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641264"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679409"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Büyük veri kümelerine yönelik Power BI Premium desteği
 
-Power BI Premium, boyutu 10 GB’a kadar olan Power BI Desktop (.pbix) dosyalarının karşıya yüklenmesini destekler. Bir veri kümesi karşıya yüklendiğinde, boyutu 12 GB’a kadar çıkacak şekilde yenilenebilir. Büyük bir veri kümesini kullanmak için Premium kapasiteye atanmış bir çalışma alanında yayımlayın. Bu makalede büyük veri kümeleriyle çalışma sırasında dikkat edilmesi gereken noktalar ve en iyi yöntemler anlatılmaktadır.
+Power BI Premium, boyutu 10 GB’a kadar olan Power BI Desktop (.pbix) dosyalarının karşıya yüklenmesini destekler. Bir veri kümesi karşıya yüklendiğinde, boyutu 12 GB’a kadar çıkacak şekilde yenilenebilir. Büyük bir veri kümesini kullanmak için Premium kapasiteye atanmış bir çalışma alanında yayımlayın.
+ 
+## <a name="best-practices"></a>En iyi yöntemler
 
-**Büyük modeller çok fazla veri kullanarak** kapasitenizi etkileyebilir. 1 GB üzerindeki modeller için en az P1 SKU kullanmanızı öneririz. Aşağıdaki tabloda çeşitli .pbix boyutları için önerilen SKU'lar açıklanmıştır:
+Bu bölümde, büyük veri kümeleriyle çalışmaya yönelik en iyi yöntemler açıklanmıştır.
+
+**Büyük modeller çok fazla veri kullanarak** kapasitenizi etkileyebilir. 1 GB üzerindeki modeller için en az P1 SKU kullanmanızı öneririz. Büyük modelleri A3 düzeyine kadar olan A SKU'larını kullanan çalışma alanlarında yayımlama işlemi başarılı sonuç verse de bu modelleri yenileme işlemi yapılamaz.
+
+Aşağıdaki tabloda çeşitli .pbix boyutları için önerilen SKU'lar açıklanmıştır:
 
    |SKU  |.pbix dosyasının boyutu   |
    |---------|---------|
    |P1    | 3 GB’tan küçük        |
    |P2    | 6 GB’tan küçük        |
-   |P3, P4, P5    | 10 GB'a kadar |
+   |P3, P4, P5    | 10 GB'a kadar   |
+
+Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir. A ve EM SKU'larında büyük modellerin yayımlanması durumunda, paylaşılan kapasitedeki model boyutu sınırlamasına özgü olmayan hatalar döndürülebilir. A ve EM SKU'larında büyük modellerin yenilenmesi muhtemelen zaman aşımı hatalarına neden olacaktır. Bu senaryolardaki hata iletilerini geliştirmek için çalışıyoruz.
 
 **.pbix dosyalarınız, verileri yüksek oranda sıkıştırılmış bir şekilde temsil eder**. Muhtemelen veriler belleğe yüklenirken birkaç kez genişletilir ve veri yenileme sırasında birkaç kez daha genişletilebilir.
 

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973385"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850603"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -47,7 +47,7 @@ Alan türü sayı, tarih saat veya dize olabilir ve kullanılan türün veri kü
 
 * **Dizelerin** tek tırnak içine alınması gerekir: 'yönetici adı'.
 * **Sayılar** için özel biçimlendirmeye gerek yoktur
-* **Tarih ve saatlerin** tek tırnak içine alınması ve önüne **DateTime** sözcüğünün yazılması gerekir.
+* **Tarih ve saatlerin** tek tırnak içine alınması gerekir. OData v3 sürümünde önüne "datetime" sözcüğünün getirilmesi gerekir ancak OData v4 sürümünde bu sözcüğe gerek yoktur.
 
 Yine de karmaşık geliyorsa ayrıntıları görmek için okumaya devam edin.  
 

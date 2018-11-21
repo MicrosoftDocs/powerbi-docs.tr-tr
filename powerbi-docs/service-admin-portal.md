@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266128"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268378"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
 
@@ -301,7 +301,7 @@ Kuruluştaki kullanıcılar Power BI Desktop'tan rapor yayımlama, Power BI rapo
 
 ### <a name="create-and-use-dataflows-preview"></a>Veri akışları oluşturma ve kullanma (önizleme)
 
-Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. [Daha fazla bilgi](service-dataflows-overview.md)
+Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Veri akışlarına yönelik bir genel bakış için bkz. [Power BI’da self servis veri hazırlığı (Önizleme)](service-dataflows-overview.md). Premium kapasitede veri akışlarını etkinleştirmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
