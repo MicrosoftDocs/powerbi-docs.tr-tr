@@ -812,6 +812,8 @@ items:
       href: paginated-reports-faq.md
   - name: Nasıl yapılır?
     items:
+    - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+      href: paginated-reports-enter-data.md
     - name: Eklenmiş veri kaynağı oluşturma
       href: paginated-reports-embedded-data-source.md
     - name: Eklenmiş veri kümesi oluşturma
@@ -1074,6 +1076,8 @@ items:
         href: report-server/getting-around.md
       - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
         href: report-server/quickstart-create-paginated-report.md
+      - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+        href: paginated-reports-enter-data.md
       - name: KPI’lerle çalışma
         href: https://go.microsoft.com/fwlink/?linkid=849021
       - name: 'Paylaşılan veri kümelerine OData akışı olarak erişme '
@@ -1251,9 +1255,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1fdc2ca3ea80f8f975d0b2dac6a3cee70f194ef6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718103"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289301"
