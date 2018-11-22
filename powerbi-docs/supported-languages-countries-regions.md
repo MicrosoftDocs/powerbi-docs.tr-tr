@@ -70,7 +70,7 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Tay dili - ไทย
 * Türkçe
 * Ukrayna dili - українська
-* Vietnam dili - Tiếng Việt
+* Vietnamca - Tiếng Việt
 
 ### <a name="whats-translated"></a>Neler çevrilir?
 Menüler, düğmeler, iletiler ve deneyiminiz sırasında karşılaşacağınız diğer öğeler dilinize çevrilir. Böylece Power BI'da kolayca gezinebilir ve hizmetle etkileşime geçebilirsiniz.

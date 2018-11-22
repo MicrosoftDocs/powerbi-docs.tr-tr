@@ -52,7 +52,7 @@ Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
 * Tay dili - ไทย
 * Türkçe
 * Ukrayna dili - українська
-* Vietnam dili - Tiếng Việt
+* Vietnamca - Tiếng Việt
 
 ## <a name="notes"></a>Notlar
 * Power BI, mobil cihazın yerel ayarına karşılık gelen dili kullanır. Farklı bir dil ayarlayamazsınız.
