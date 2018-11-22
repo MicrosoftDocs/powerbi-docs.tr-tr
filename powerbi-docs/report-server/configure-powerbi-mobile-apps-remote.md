@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157437"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268332"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 
