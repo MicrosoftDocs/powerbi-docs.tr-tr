@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850396"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289117"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Bu makalede Power BI'a kaydolmanın alternatif yollarından biri olan Office 365 deneme sürümü kullanımı hakkında bilgi verilmektedir. Power BI'a iş e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi) olduğundan emin olun. Kayıt işlemi başarılı olmazsa önce bir Office 365 deneme sürümüne kaydolup ardından Power BI'a kaydolmayı deneyebilirsiniz. Office 365 deneme sürümünün süresi dolsa bile Power BI'ı kullanmaya devam edebilirsiniz.
+Bu makalede Power BI'a kaydolmanın alternatif yollarından biri olan Office 365 deneme sürümü kullanımı hakkında bilgi verilmektedir. Power BI'a iş e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](service-self-service-signup-for-power-bi.md#supported-email-addresses) olduğundan emin olun. Kayıt işlemi başarılı olmazsa önce bir Office 365 deneme sürümüne kaydolup ardından Power BI'a kaydolmayı deneyebilirsiniz. Office 365 deneme sürümünün süresi dolsa bile Power BI'ı kullanmaya devam edebilirsiniz.
 
 1. [Office 365 web sitesine](https://go.microsoft.com/fwlink/p/?LinkID=403802) giderek bir Office 365 deneme sürümüne kaydolun.
 

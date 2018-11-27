@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34721835"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289140"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma
 Adından da anlaşılacağı gibi sayfalandırılmış raporlar birçok sayfayı çalıştırabilir. Bunlar, sabit bir biçimde düzenlenmiştir ve tam özelleştirme sunar. Sayfalandırılmış raporlar .rdl dosyalarıdır.
