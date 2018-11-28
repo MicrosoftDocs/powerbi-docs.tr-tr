@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 1f60c24a244b05aca93b312921b943e261d4d266
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850580"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452695"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI Hızlı Öngörüler için verilerinizi en iyi duruma getirme
 Hızlı öngörüler için sonuçları iyileştirmek mi istiyorsunuz?  Bir veri kümesi sahibiyseniz şunları deneyin:
@@ -23,7 +23,7 @@ Hızlı öngörüler için sonuçları iyileştirmek mi istiyorsunuz?  Bir veri 
 * Veri kümenizde sütunları gizleyin veya gösterin. Power BI hızlı öngörüleri için gizli sütunlarda arama yapılmaz.  Bu nedenle, yinelenen veya gereksiz sütunları gizleyin ve ilgi çekici sütunları gösterin.
 * Ad, saat, tarih ve sayı gibi veri türlerini karışık halde kullanın.
 * Yinelenen bilgilerin yer aldığı sütunlardan kaçının (veya bunları gizleyin).  Bu, anlamlı desenler bulma konusunda önemli ölçüde zaman kazandırır.  Örnek olarak, il adları içeren bir sütun ve il adlarının kısaltmalarını içeren başka bir sütun verilebilir.
-* Verilerinizin istatistiksel olarak önemli olmadığını belirten bir hata iletisi mi alıyorsunuz?  Bu, çok basit olan veya fazla veri içermeyen ya da tarih veya sayı sütunları bulunmayan modellerde gerçekleşebilir. Öngörü oluşturulabilmesi için veri kümenizin en az bir boyuta ve bir ölçüye sahip olması gerekir.
+* Verilerinizin istatistiksel olarak önemli olmadığını belirten bir hata iletisi mi alıyorsunuz?  Bu, çok basit olan veya fazla veri içermeyen ya da tarih veya sayı sütunları bulunmayan modellerde gerçekleşebilir.
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Power BI hızlı öngörüleri](consumer/end-user-insights.md)

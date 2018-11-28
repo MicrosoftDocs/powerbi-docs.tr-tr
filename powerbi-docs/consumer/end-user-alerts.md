@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223226"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452603"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Öğretici: Power BI hizmetinde veri uyarısı oluşturma
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. 
@@ -75,7 +75,7 @@ Ardından, Power BI, bildirim merkezinize ve isteğe bağlı olarak gelen kutunu
    ![Power BI hizmetinde bildirim simgesi](media/end-user-alerts/powerbi-alert-notifications.png)
 3. Uyarıyla ilgili ayrıntılı bilgileri görmek için Bildirim merkezinizi açın.
    
-    ![Uyarıyı okuma](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![Uyarıyı okuma](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Uyarılar yalnızca yenilenen verilerde çalışır. Veriler yenilendiğinde Power BI bu veriler için bir uyarı ayarlanıp ayarlanmadığını kontrol eder. Veriler bir uyarı eşiğine ulaştığında bir uyarı tetiklenir.

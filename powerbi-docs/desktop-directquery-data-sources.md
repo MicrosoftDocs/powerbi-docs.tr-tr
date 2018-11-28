@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223410"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452557"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 **Power BI Desktop** ve **Power BI hizmeti**, bağlanıp verilere erişebileceğiniz pek çok veri kaynağına sahiptir. Bu makalede hangi Power BI kaynaklarının **DirectQuery** olarak bilinen bağlantı yöntemini desteklediği açıklanmaktadır. DirectQuery hakkında daha fazla bilgi için [**Power BI'da DirectQuery**](desktop-directquery-about.md) başlıklı makaleye bakın.
@@ -62,7 +62,7 @@ Aşağıdaki tabloda, **Power BI hizmetinde** bir rapor yayımladıktan sonra, b
 | Amazon Redshift |Hayır |
 | Impala (2.x sürümü) |Evet |
 | Snowflake |Evet |
-| Spark (Beta), 0.9 ve sonraki sürümler |**Power BI hizmetinde** henüz desteklenmiyor |
+| Spark (Beta), 0.9 ve sonraki sürümler |Evet |
 | Azure HDInsight Spark (Beta) |Hayır |
 | IBM Netezza |Evet |
 | SAP Business Warehouse Uygulama Sunucusu |Evet |

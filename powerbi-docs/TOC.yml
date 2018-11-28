@@ -390,42 +390,54 @@ items:
     items:
     - name: Power BI hizmetindeki yenilikler
       href: service-whats-new.md
-    - name: Temel kavramlar
+    - name: Tasarımcılar için temel kavramlar
       href: service-basic-concepts.md
-    - name: Self servise kaydolma
-      href: service-self-service-signup-for-power-bi.md
-    - name: Power BI için Cortana'ya giriş
-      href: service-cortana-intro.md
-    - name: Power BI'da veri yenileme
-      href: refresh-data.md
-    - name: Power BI for US Government
-      href: service-govus-overview.md
-    - name: Lisans türüne göre özellikler
-      href: service-features-license-type.md
     - name: Yardım almaya yönelik 10 ipucu
       href: service-tips-for-finding-help.md
-    - name: Power BI raporlarındaki filtreler ve vurgulama hakkında
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: Dosyalardan veri alma
-      href: service-get-data-from-files.md
-    - name: 'Rapor düzenleyicisi: Tura katılın'
-      href: service-the-report-editor-take-a-tour.md
-    - name: Power BI'daki görselleştirmeler
-      href: visuals/power-bi-report-visualizations.md
-    - name: Power BI için veri kaynakları
-      href: service-get-data.md
-    - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow ve Power BI
-      href: service-flow-integration.md
-    - name: Almanya'daki Cloud müşterileri için Power BI uygulaması hakkında SSS
-      href: service-govde-faq.md
-    - name: Power BI - üçüncü taraf uygulamalarla çalışmaya başlama
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Power BI'da toplama işlemleri (toplam, ortalama, maksimum vb.)
-      href: service-aggregates.md
-    - name: Power BI raporlarında sayfa görüntüleme ayarları
-      href: power-bi-report-display-settings.md
+    - name: Lisanslama
+      items:
+      - name: Self servise kaydolma
+        href: service-self-service-signup-for-power-bi.md
+      - name: Lisans türüne göre özellikler
+        href: service-features-license-type.md
+      - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
+        href: service-extended-pro-trial.md
+      - name: Power BI for US Government
+        href: service-govus-overview.md
+      - name: Almanya'daki Cloud müşterileri için SSS
+        href: service-govde-faq.md
+    - name: Veri
+      items:
+      - name: Power BI için veri kaynakları
+        href: service-get-data.md
+      - name: Dosyalardan veri alma
+        href: service-get-data-from-files.md
+      - name: Toplama işlemleri (toplam, ortalama, maksimum vb.)
+        href: service-aggregates.md
+      - name: Power BI'da veri yenileme
+        href: refresh-data.md
+      - name: Azure ve Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI ve Azure çıkışı
+        href: service-azure-egress-power-bi.md
+    - name: Rapor tasarımı
+      items:
+      - name: 'Rapor düzenleyicisi: Tura katılın'
+        href: service-the-report-editor-take-a-tour.md
+      - name: Power BI'daki görselleştirmeler
+        href: visuals/power-bi-report-visualizations.md
+      - name: Raporlarda filtreleme ve vurgulama hakkında
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Power BI raporlarında sayfa görüntüleme ayarları
+        href: power-bi-report-display-settings.md
+      - name: Power BI için Cortana'ya giriş
+        href: service-cortana-intro.md
+    - name: Diğer
+      items:
+      - name: Microsoft Flow ve Power BI
+        href: service-flow-integration.md
+      - name: Üçüncü taraf uygulamalarla çalışmaya başlama
+        href: service-power-bi-get-started-third-party-apps.md
   - name: Nasıl yapılır?
     items:
     - name: Genel görevler
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: Dosyalardaki veriler
       items:
-      - name: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
+      - name: Excel'den büyüleyici raporlara
         href: service-from-excel-to-stunning-report.md
       - name: Excel çalışma kitabı dosyalarından veri alma
         href: service-excel-workbook-files.md
       - name: Power BI Desktop dosyalarından veri alma
         href: service-desktop-files.md
-      - name: Veri kümeleri için parametre ayarları
+      - name: Parametreleri düzenleme
         href: service-parameters.md
       - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: Excel 2016'daki içeriği Power BI'da yayımlama
         href: service-publish-from-excel.md
-      - name: Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
+      - name: Excel çalışma kitabının boyutunu azaltma
         href: reduce-the-size-of-an-excel-workbook.md
     - name: Veritabanlarındaki veriler
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI'da SQL Server Analysis Services canlı verileri
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure ve Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI ve Azure çıkışı
-        href: service-azure-egress-power-bi.md
     - name: Veri yenileme
       items:
       - name: Zamanlanmış yenileme yapılandırma
         href: refresh-scheduled-refresh.md
-      - name: Yerel bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
+      - name: Yerel bir Power BI Desktop dosyasından veri kümelerini yenileme
         href: refresh-desktop-file-local-drive.md
-      - name: Buluttaki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
+      - name: Buluttaki bir Power BI Desktop dosyasından veri kümelerini yenileme
         href: refresh-desktop-file-onedrive.md
-      - name: Yerel bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme
+      - name: Yerel bir Excel çalışma kitabı dosyasından veri kümelerini yenileme
         href: refresh-excel-file-local-drive.md
-      - name: Buluttaki bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme
+      - name: Buluttaki bir Excel çalışma kitabı dosyasından veri kümelerini yenileme
         href: refresh-excel-file-onedrive.md
-      - name: OneDrive'daki bir virgülle ayrılmış değer (.csv) dosyasından oluşturulan veri kümelerini yenileme
+      - name: OneDrive'daki bir .csv dosyasından oluşturulan veri kümelerini yenileme
         href: refresh-csv-file-onedrive.md
       - name: Yenileme ile ilgili sorun giderme senaryoları
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: Panonuzun kopyasını oluşturma
         href: service-dashboard-copy.md
-      - name: Raporlardan Power BI panolarına kutucuk sabitleme
+      - name: Rapordan kutucukları panolara sabitleme
         href: service-dashboard-pin-tile-from-report.md
-      - name: Panolardaki kutucukları başka panolara sabitleme
+      - name: Bir panodaki kutucukları diğer panoya sabitleme
         href: service-pin-tile-to-another-dashboard.md
-      - name: Excel'deki kutucukları Power BI panolarına sabitleme
+      - name: Excel'den kutucukları panolara sabitleme
         href: service-dashboard-pin-tile-from-excel.md
-      - name: Soru-Cevap soru kutusundaki kutucukları Power BI panolarına sabitleme
+      - name: Soru-Cevap'tan kutucukları panolara sabitleme
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Rapor sayfalarının tamamını Power BI panolarına sabitleme
+      - name: Rapor sayfasının tamamını panoya sabitleme
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Panolar için kullanım ölçümleri
         href: service-usage-metrics.md
-      - name: Panonuza resim, metin kutusu, video veya web kodu ekleme
+      - name: Panoya resim, metin kutusu, video veya kod ekleme
         href: service-dashboard-add-widget.md
-      - name: Kutucukları düzenleme (yeniden boyutlandırma, taşıma, yeniden adlandırma, sabitleme, silme ve köprü ekleme)
+      - name: Kutucukları düzenleme
         href: service-dashboard-edit-tile.md
-      - name: Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
+      - name: Harika bir pano oluşturmaya yönelik ipuçları
         href: service-dashboards-design-tips.md
-      - name: Power BI Hızlı Öngörüler için verilerinizi en iyi duruma getirme
+      - name: Hızlı İçgörüler için verilerinizi en iyi duruma getirin
         href: service-insights-optimize.md
       - name: Bir panonun telefon görünümünü oluşturma
         href: service-create-dashboard-mobile-phone-view.md
@@ -672,7 +680,7 @@ items:
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Verileriniz hakkında soru sorma
       items:
-      - name: Görselleştirmeler ve derleme raporları oluşturmak için Soru-Cevap’ı kullanma
+      - name: Görselleştirmeleri ve raporları oluşturmak için Soru-Cevap’ı kullanma
         href: power-bi-tutorial-q-and-a.md
       - name: Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
         href: service-prepare-data-for-q-and-a.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: Power BI ve Office 365'teki grubunuzu yönetme
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: OneDrive İş'teki Excel çalışma kitaplarına bağlı panoları paylaşma
+      - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: İçerik Paketleri
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Kavramlar
       items:
+      - name: Power BI görselleri için yönergeler
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Özellikleri Kullanma
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: Veri Görünümü Eşlemeleri
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289301"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331862"

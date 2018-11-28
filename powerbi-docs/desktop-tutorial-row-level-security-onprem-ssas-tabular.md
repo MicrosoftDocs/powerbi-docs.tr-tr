@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101589"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452764"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.
@@ -50,7 +50,7 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
    Sonraki görevlerde bu kullanıcılara geri döneceğiz.
 4. Sonraki adımda kullanıcıyla ilişkilendirilmiş bölgelerin ayrıntılarının yer aldığı **DimSalesTerritory** tablosunda bir *iç birleşim* gerçekleştireceğiz. Aşağıdaki kod *iç birleşim* işlemini gerçekleştirir ve *iç birleşim* başarılı olduğunda tablo altındaki resimde olduğu gibi gösterilir.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Yukarıdaki görüntüde kullanıcılar ve sorumlu oldukları satış bölgeleri gibi bilgilerin gösterildiğine dikkat edin. Bu verilerin görüntülenme nedeni, **2. Adım**'da oluşturduğumuz ilişkidir. Ayrıca **Jon Doe kullanıcısının Avustralya satış bölgesine dahil olduğuna** dikkat edin. John Doe adlı kullanıcıya sonraki adımlarda ve görevlerde geri döneceğiz.
