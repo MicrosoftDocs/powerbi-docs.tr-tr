@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813354"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452810"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
@@ -81,6 +81,7 @@ Kullanıcı hiyerarşilerinin hesaplanan üyeleri Power BI'da gösterilmez. Bunu
 * Power BI Desktop SSAS MD bağlayıcısının düzgün çalışması için sunucuların SQL Server 2012 SP1 CU4 veya üzeri Analysis Services sürümüne sahip olması gerekir
 * *Eylemler* ve *Adlandırılmış Kümeler* Power BI için açık değildir ancak *Eylemleri* veya *Adlandırılmış kümeleri* de içeren küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
 * Power BI’ın bir SSAS modeline ait meta verileri gösterdiği ancak modelden veri alamadığınız bir sorunla karşılaşabilirsiniz. Sisteminiz MSOLAP sağlayıcısının 32 bit sürümü yüklü olduğunda ve 64 bit sürümü mevcut olmadığında bu sorun oluşabilir. 64 bit sürümün yüklenmesi sorunu çözebilir.
+* SSAS çok boyutlu modeline canlı bağlantısı olan bir rapor yazarken 'rapro düzeyi' ölçümleri oluşturamazsınız. Sağlanan ölçüler yalnızca MD modelinde tanımlanmış olanlardır.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop Uygulamasında Desteklenen SSAS MD Özellikleri
 Aşağıdaki SSAS MD özellikleri Power BI Desktop uygulamasında desteklenmektedir:

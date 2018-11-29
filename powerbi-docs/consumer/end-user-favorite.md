@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565073"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452511"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar, raporlar ve uygulamalar
 Bir içeriği *sık kullanılanlara* eklediğinizde panoya tüm çalışma alanlarınızdan erişebilirsiniz.  Sık kullanılanlar, genelde en çok ziyaret ettiğiniz içeriklerdir.

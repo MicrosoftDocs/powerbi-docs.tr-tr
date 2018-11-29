@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a22889da87af91f3b5ea996961ec9e9538fe31b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909119"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452649"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma
 

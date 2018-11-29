@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336933"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452879"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
@@ -197,11 +197,28 @@ Bu bölümde **SAP BW** bağlayıcısıyla çalışırken karşılaşabileceğin
            </item>
    
    Bu hatayı çözmek için kullanıcıların SAP yöneticilerinden Power BI'da kullanılan SAPBW kullanıcısına *BAPI_USER_GET_DETAIL* yürütme iznini vermelerini istemesi gerekmektedir. Ayrıca bu sorun giderme adımının önceki bölümlerinde anlatıldığı üzere kullanıcının gerekli *DCPFM* değerini alıp almadığının doğrulanmasında da fayda vardır.
+   
 2. **SAP BEx sorguları için bağlantı**
    
    Aşağıdaki görüntüde gösterildiği üzere belirli bir özelliği etkinleştirerek Power BI Desktop'ta **BEx** sorguları gerçekleştirebilirsiniz:
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. **Gezgin** penceresinde veri önizlemesi görüntülenmez ve bunun yerine *nesne başvurusu nesnenin bir örneğine ayarlanmadı* hata iletisi sağlanır.
+   
+   SAP kullanıcılarının, meta verileri elde etmek ve SAP BW InfoProviders'dan verileri almak için belirli BAPI işlev modüllerine erişmesi gerekir. Bu modüller şunlardır:
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   Bu sorunu çözmek için, kullanıcının hem çeşitli *MDPROVIDER* modüllerine hem de *BAPI_IOBJ_GETDETAIL* modülüne erişimi olduğunu doğrulayın. Bunu ve buna benzer sorunları gidermeye yönelik daha fazla işlem yapmak için, Power BI Desktop'ın *Seçenekler* bölümündeki *Tanılama* penceresinde *İzlemeyi etkinleştir*'i seçin. İzleme etkin durumdayken SAP BW'den verileri almayı deneyin ve diğer ayrıntılar için izleme dosyasını inceleyin.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 SAP ve DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

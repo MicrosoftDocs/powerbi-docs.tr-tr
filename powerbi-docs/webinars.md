@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952246"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452672"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,23 +22,13 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-**Power BI: Doğru Analiz**
-<br>Hazırlayan: Gohul Shanmugalingam
-<br>*8 Kasım, 2018 13.00 - 14.00 EST*
+**Hem Hasta Sonuçlarını hem de Kârlılığı Geliştirmek İçin Başarısı Kanıtlanmış Sağlık Çözümleri**
+<br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
+<br>*28 Kasım 2018 11:00 – 12:00 PST*
 
-Tüm Analytics ve Excel meraklılarına sesleniyoruz: Herkesin kullanmak isteyeceği harika raporlar hazırlamayı öğrenin, içgörüleri kolayca anlaşılabilen ve güzel görünen bir biçimde paylaşın, karmaşık verilerden oluşan siloları güvenli bir şekilde parçalara ayırarak bunlara daha kolay erişilmesini sağlayın.
+Sağlık kuruluşları muazzam miktarlardaki verileri hasta içgörülerine ve bu içgörüleri de eyleme dönüştürme güçlüğüyle karşı karşıya kalır. Bu web seminerine kaydolun ve kuruluşunuzun verileri kullanışlı hasta içgörülerine dönüştürmesine yardımcı olacak anlamlı sağlık raporları tasarlamayı öğrenin. US Medical IT'nin kurucusu ve CEO'su Stephen Cracknell, Healthcare IT Direktörü Stuart Macanliss ve Teksas'da çalışan romatolog Dr. John P. Lavery'den uzman stratejileri ve önerileri alın.
 
-Ürünlerle ilgili yeniliklerin yanı sıra modern kurumsal BI ve self servis BI konusundaki vizyonumuzu paylaşarak kurumunuzun veri odaklı bir kültür oluşturmasını sağlayabiliriz.
-
-[8 Kasım’da izlemek üzere kaydolun](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Power BI ile Veri Modelleme Becerilerinizi Güçlendirin**
-<br>Sağlayan: Kasper de Jonge
-<br>*20 Kasım 2018 11.00 – 12.00 PST*
-
-Power BI modelleme becerilerinizi bir üst düzeye taşımak için bu web seminerine kaydolun. Power BI bellek içi analiz altyapısı, veri ilişkilerini oluşturma ve yönetme, Veri Analizi İfadelerini (DAX) kullanarak bağlamı filtreleme hakkında bilgi edinin. Power BI veya Azure Analysis Services ile tüm modelleme zorluklarının üstesinden gelmeyi öğrenin.
-
-[20 Kasım’da izlemek üzere kaydolun](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[28 Kasım'da izlemek üzere kaydolun](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Power BI ile Veri Modelleme Becerilerinizi Güçlendirin**
+<br>Sağlayan: Kasper de Jonge
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Microsoft, Power BI kullanıyor – Finansal Planlama ve Analiz Artık Çok Kolay**
 <br>Sağlayan: Cory Hrncirik ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: Doğru Analiz**
+<br>Hazırlayan: Gohul Shanmugalingam
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Power BI Verilerinizden Görsel Oluşturun: Temel Grafik Türleri ve Kullanma Yöntemleri**
 <br>Sağlayan: Miranda Li
@@ -70,9 +68,9 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Miranda Li
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**PowerBI.Tips sahiplerinden Power BI Püf Noktaları, İpuçları ve Araçları**
-<br>Mike Carlo ve Seth Bauer tarafından hazırlandı
-<br>[Hemen izleyin](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**Microsoft Flow ile PowerApps'in Toplam Ekonomik Etkisi**
+<br>Jonathan Lipsitz ve Enrique Plaza Garcia
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[Topluluk uzmanlarımız tarafından sunulan, isteğe bağlı Power BI web seminerlerinin bulunduğu kitaplıkta gezinin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Scott Ball, Microsoft'tan Esri ve Enrique Plaza
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**Sağlık Hizmetinde Karlılığı Artırma**
-<br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **Satış ve Hizmetler için Uygulamalı Zeka**
 <br>Sağlayan: Ed Bobrin, Avanade
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>Topluluk ###
+
+**PowerBI.Tips sahiplerinden Power BI Püf Noktaları, İpuçları ve Araçları**
+<br>Mike Carlo ve Seth Bauer tarafından hazırlandı
+<br>[Hemen izleyin](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Verileriniz ve Power BI ile hikaye anlatma**
 <br>Tristan Malherbe tarafından hazırlandı
