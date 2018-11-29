@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetindeki veri kümesi parametrelerinin ayarlarını görüntüleme ve düzenleme
+title: Power BI hizmetinde parametre ayarlarını düzenleme
 description: Sorgu parametreleri Power BI Desktop'ta oluşturulur ama Power BI hizmetinde gözden geçirilebilir ve güncelleştirilebilir
 author: mihart
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 11/21/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac271e8013bce5824931153351a651644a716a2f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965171"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331885"
 ---
-# <a name="what-is-a-query-parameter"></a>Sorgu parametresi nedir?
-Sorgu parametreleri, Power BI Desktop'ta rapor oluşturucular tarafından eklenir. Parametreler, raporların bölümlerini bir veya birden çok parametre *değerine* bağımlı hale getirmeye olanak sağlar. Örneğin, rapor oluşturucu verileri tek bir countryregion'la kısıtlayan bir parametre veya tarih, saat ve metin gibi alanlara kabul edilebilir biçimler tanımlayan bir parametre oluşturabilir.
+# <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI hizmetinde parametre ayarlarını düzenleme
+Rapor oluşturucular raporlara Power BI Desktop’ta sorgu parametreleri ekler. Parametreler, raporların bölümlerini bir veya birden çok parametre *değerine* bağımlı hale getirmeye olanak sağlar. Örneğin, rapor oluşturucu verileri tek bir ülke/bölge ile kısıtlayan bir parametre veya tarih, saat ve metin gibi alanlara kabul edilebilir biçimler tanımlayan bir parametre oluşturabilir.
 
 ![Desktop'ta Parametreleri Yönet seçeneğinin gösterildiği Giriş sekmesi](media/service-parameters/power-bi-manage-parameters.png)
 
-
 ## <a name="review-and-edit-parameters-in-power-bi-service"></a>Power BI hizmetinde parametreleri gözden geçirme ve düzenleme
 
-Parametreler Desktop'ta tanımlandıktan sonra, [rapor Power BI hizmetinde yayımlandığında](desktop-upload-desktop-files.md), parametre ayarlarıyla seçimleri söz konusu raporla birlikte gezinir. Bazı parametre ayarları Power BI hizmetinde gözden geçirilebilir ve düzenlenebilir; bunlar kullanılabilir verileri kısıtlayan parametreler değil, kabul edilebilir değerleri tanımlayan ve açıklayan parametrelerdir.
+Rapor oluşturucusu olarak Desktop'ta parametreleri siz belirlersiniz. [Bu raporu Power BI hizmetinde yayımladığınızda](desktop-upload-desktop-files.md), parametre ayarları ve seçimleri de birlikte gelir. Bazı parametre ayarlarını Power BI hizmetinde gözden geçirebilir ve düzenleyebilirsiniz; bunlar kullanılabilir verileri kısıtlayan parametreler değil, kabul edilebilir değerleri tanımlayan ve açıklayan parametrelerdir.
 
 1. Power BI hizmetinde, dişli simgesini ![dişli simgesi](media/service-parameters/power-bi-cog.png) seçerek **Ayarlar**'ı açın.
 

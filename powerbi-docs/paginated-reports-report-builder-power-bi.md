@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/08/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 15ec21a0b86977173c16071980d7527f27db74ef
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297056"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289232"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir? (Önizleme)
-SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Sayfalandırılmış raporlar, yazdırılmak veya paylaşılmak üzere tasarlanmış raporlardır. Bunlar bir sayfaya iyi sığacak şekilde biçimlendirildikleri ve örneğin tablo birden fazla sayfaya yayıldığında bile tablodaki tüm verileri gösterdiği için "sayfalandırılmış" olarak adlandırılır. Rapor sayfası düzenini tam olarak denetleyebileceğiniz için bazı durumlarda "piksel düzeyinde hassas" olarak anılırlar. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. 
+SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Sayfalandırılmış raporlar, yazdırılmak veya paylaşılmak üzere tasarlanmış raporlardır. "Sayfalandırılmış" olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğiniz için bazı durumlarda "piksel düzeyinde hassas" olarak anılırlar. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. 
 
-Sayfalandırılmış raporlar birçok sayfadan oluşabilir. Aşağıdaki örnekte verilen raporda, her faturada bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde her biri tam olarak düzenlenmiş 563 sayfa vardır.
+Sayfalandırılmış raporlar birçok sayfadan oluşabilir. Örneğin bu raporun 563 sayfası vardır. Her biri tam olarak her fatura için bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde düzenlenmiştir.
 
 ![Power BI hizmetinde sayfalandırılmış rapor](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -27,11 +27,11 @@ Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından http://a
 
 ## <a name="create-reports-in-report-builder"></a>Rapor Oluşturucusu'nda rapor oluşturma
 
-Sayfalandırılmış raporlar, Rapor Oluşturucusu adlı kendi tasarım aracına sahiptir. Power BI Rapor Sunucusu veya SQL Server Reporting Services (SSRS) için sayfalandırılmış raporlar oluşturduysanız, aynı aracı ve aynı sürümü kullanabilirsiniz. Şirket içinde SSRS 2016 ve 2017 veya Power BI Rapor Sunucusu için oluşturduğunuz sayfalandırılmış raporlar, Power BI hizmeti ile uyumludur. Power BI hizmeti geriye dönük uyumluluğa sahip olduğu için raporlarınızı ileriye taşıyabilir ve önceki sürümlerdeki sayfalandırılmış raporları yükseltebilirsiniz. Başlangıçta tüm rapor özellikleri mevcut değildir; ayrıntılar için bu makaledeki [Sınırlamalar ve önemli noktalar](#limitations-and-considerations) bölümüne bakın.
+Sayfalandırılmış raporlar, Rapor Oluşturucusu adlı kendi tasarım aracına sahiptir. Power BI Rapor Sunucusu veya SQL Server Reporting Services (SSRS) için sayfalandırılmış raporlar oluştururken aynı aracı ve aynı sürümü kullanırsınız. Şirket içinde SSRS 2016 ve 2017 veya Power BI Rapor Sunucusu için oluşturduğunuz sayfalandırılmış raporlar, Power BI hizmeti ile uyumludur. Power BI hizmeti geriye dönük uyumluluğa sahip olduğu için raporlarınızı ileriye taşıyabilir ve önceki sürümlerdeki sayfalandırılmış raporları yükseltebilirsiniz. Rapor özelliklerinin tamamı başlatma sırasında kullanılamaz. Ayrıntılar için bu makaledeki [Sınırlamalar ve önemli noktalar](#limitations-and-considerations) bölümüne bakın.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Çeşitli veri kaynaklarından rapor
 
-Tek bir sayfalandırılmış raporun birkaç farklı veri kaynağı olabilir. Power BI raporlarının aksine, temel alınan bir veri modeli yoktur. Power BI hizmetindeki sayfalandırılmış raporların ilk sürümünde, bir sunucu üzerindeki paylaşılan veri kaynaklarına veya veri kümelerine bağlanmak yerine raporun içinde yerleşik veri kaynakları ve veri kümeleri oluşturursunuz. Yerel bilgisayarınızdaki Rapor Oluşturucusu'nda raporları oluşturursunuz. Bir rapor şirket içi verilere bağlanıyorsa raporu Power BI hizmetine yükledikten sonra bir ağ geçidi oluşturmanız ve veri bağlantısını yönlendirmeniz gerekir. İlk sürümde bağlanabileceğiniz veri kaynakları şunlardır:
+Tek bir sayfalandırılmış raporun birkaç farklı veri kaynağı olabilir. Power BI raporlarının aksine, temel alınan bir veri modeli yoktur. Power BI hizmetindeki sayfalandırılmış raporların ilk sürümünde, raporun içinde yerleşik veri kaynakları ve veri kümeleri oluşturursunuz. Şimdilik paylaşılan veri kaynaklarını veya paylaşılan veri kümelerini kullanamazsınız. Yerel bilgisayarınızdaki Rapor Oluşturucusu'nda raporları oluşturursunuz. Bir rapor şirket içi verilere bağlanıyorsa raporu Power BI hizmetine yükledikten sonra bir ağ geçidi oluşturmanız ve veri bağlantısını yönlendirmeniz gerekir. İlk sürümde bağlanabileceğiniz veri kaynakları şunlardır:
 
 - Azure SQL Veritabanı ve Veri Ambarı
 - Ağ geçidi üzerinden SQL Server
@@ -60,7 +60,7 @@ Raporun kendisinden her metin kutusu, görüntü, tablo ve grafiğe kadar bir sa
 Sayfalandırılmış rapor tasarlarken aslında bir *rapor tanımı* oluşturursunuz. Bu rapor tanımı, verileri içermez. Verilerin nereden alınacağını, hangi verilerin alınacağını ve verilerin nasıl görüntüleneceğini belirtir. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor tanımını http://app.powerbi.com Power BI hizmetine, Çalışma Alanım bölümünüze veya iş arkadaşlarınızla paylaşılan bir çalışma alanına yükleyin. Rapor veri kaynağı şirket içindeyse, raporu karşıya yükledikten sonra veri kaynağı bağlantısını bir ağ geçidinden geçecek şekilde yeniden yönlendirin. 
 
 ## <a name="view-your-paginated-report"></a>Sayfalandırılmış raporunuzu görüntüleme
-Power BI hizmetindeki sayfalandırılmış raporunuzu bir tarayıcıda ve aynı zamanda Power BI mobil uygulamalarında görüntüleyebilirsiniz. Power BI hizmetinde, raporu HTML, MHTML, PDF, XML, CSV, TIFF, Word ve Excel gibi web tabanlı, sayfa yönelimli ve masaüstü uygulama biçimlerinde dışarı aktarabilirsiniz. Ayrıca, diğer kişilerle paylaşabilirsiniz.  
+Power BI hizmetindeki sayfalandırılmış raporunuzu bir tarayıcıda ve aynı zamanda Power BI mobil uygulamalarında görüntülersiniz. Power BI hizmetinde raporu HTML, MHTML, PDF, XML, CSV, TIFF, Word ve Excel gibi biçimlerde dışarı aktarabilirsiniz. Ayrıca, diğer kişilerle paylaşabilirsiniz.  
   
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
@@ -78,7 +78,8 @@ Power BI hizmetindeki sayfalandırılmış raporunuzu bir tarayıcıda ve aynı 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](http://go.microsoft.com/fwlink/?LinkID=734968)
-
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
+- [Verileri doğrudan sayfalandırılmış bir rapora girme](paginated-reports-enter-data.md)
+
   
 

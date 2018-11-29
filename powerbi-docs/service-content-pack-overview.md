@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157560"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289209"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI hizmeti içerik paketi programına genel bakış
 İçerik paketleri, kullanıcıların bir kaynaktan hemen öngörü edinmesine olanak sağlayan bir hazır içerik dizisidir. İçerik paketleri genellikle belirli bir iş senaryosuna odaklanarak bir rol, etki alanı veya iş akışına yönelik öngörüler sağlar.
@@ -24,7 +24,7 @@ ISV'ler, müşterilerin kendi hesaplarıyla bağlanmasına ve örnek oluşturmas
 ISV tarafından oluşturulan bu şablon içerik paketleri, Power BI içerik paketi galerisi (app.powerbi.com/getdata/services) ve Microsoft AppSource (appsource.microsoft.com) üzerinden genel kullanıma sunulmak üzere Power BI ekibine gönderilebilir. Genel kullanıma açık içerik paketi deneyimine ilişkin bir örneğe [buradan](template-content-pack-experience.md) ulaşabilirsiniz.
 
 ## <a name="overview"></a>Genel Bakış
-Bir şablon içerik paketi geliştirmeye ve göndermeye yönelik genel işlem birden çok adımda tamamlanır.
+Şablon içerik paketi geliştirmeye ve göndermeye yönelik genel işlem birden çok adımda tamamlanır.
 
  ![İşlem](media/service-content-pack-overview/developer-content-pack-overview.png)
 
@@ -41,11 +41,11 @@ Bir içerik paketi oluşturmak ve paketi Power BI hizmetinde ve AppSource'ta yay
 
 * İşletme kullanıcıları tarafından kullanılan bir SaaS uygulamanız olmalıdır.
 * SaaS uygulamanız, Power BI'da görselleştirilebilen kullanıcı verileri içermelidir.
-* SaaS uygulamanız, genel İnternet üzerinden erişilebilen bir API'ye sahip olmalıdır. İdeal olarak API, API veya bir OData akışı temelli bir REST'tir. Power BI içerik paketleri; Temel Kimlik Doğrulaması, OAuth 2.0 ve API Anahtarı gibi birden çok kimlik doğrulaması türünü destekler. 
+* SaaS uygulamanız, genel İnternet üzerinden erişilebilen bir API'ye sahip olmalıdır. İdeal olarak API, REST temelli bir API veya bir OData akışıdır. Power BI içerik paketleri; Temel Kimlik Doğrulaması, OAuth 2.0 ve API Anahtarı gibi birden çok kimlik doğrulaması türünü destekler. 
 * SaaS uygulamanızın içerik paketi yayımlamak için onaylanmış olması gerekir. İsteklerinizi pbiservicesapps@microsoft.com adresine gönderin. Her bir gönderi uygunluğa ve kullanım beklentisine göre değerlendirilmektedir. 
 * İş ortağı sözleşmesi imzalanmalıdır. Bu, paketi [gönderme adımında](template-content-pack-testing.md#submission) yapılır.
 
-Teknik gereksinimler hakkında daha fazla ayrıntı için lütfen [yazma](template-content-pack-authoring.md) bölümünü inceleyin.
+Teknik gereksinimlerle ilgili diğer ayrıntılar için [yazma](template-content-pack-authoring.md) bölümünü inceleyin.
 
 ## <a name="business-scenario"></a>İş senaryosu
 İçerik paketleri, belirli bir iş senaryosuna odaklanan öngörüler ve ölçümler sağlar. Hedef kitlenizi ve içerik paketinden elde edecekleri faydayı anlamak, kullanıcılarınızın, sunduğunuz içeriği başarıyla kullanmalarını sağlamanızı kolaylaştırır.
@@ -78,7 +78,7 @@ Yayımlanan içerik paketleri ayda bir kez güncelleştirilebilir. Geçerli ayı
 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) adresinden e-posta ile sorularınızı bize gönderebilirsiniz
 
 ## <a name="support"></a>Destek
-Geliştirme sırasında destek almak için lütfen [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) adresine gidin. Bu sayfa etkin şekilde izlenmekte ve yönetilmektedir. Müşteri olayları hızla ilgili ekibe aktarılmaktadır.
+Geliştirme sırasında destek almak için [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) adresine gidin. Müşteri olayları hızla ilgili ekibe aktarılmaktadır.
 
 ## <a name="next-step"></a>Sonraki adım
 [Yazma](template-content-pack-authoring.md)

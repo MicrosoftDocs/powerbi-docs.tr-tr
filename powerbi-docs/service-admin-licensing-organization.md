@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679329"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52332000"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
 Power BI hizmetinde, kullanıcıların iki tür lisans temelinde tanımlanmış özellikleri vardır:
 
-* **Kullanıcı başına** - *ücretsiz lisans ve Power BI Pro lisansı*. Ücretsiz lisans, Power BI hizmetinin bazı özelliklerine erişim olanağı sağlar. Pro lisansı, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim olanağı sağlar. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
+* **Kullanıcı başına** - *Power BI Pro lisansı ve ücretsiz lisans*. Power BI Pro lisansı, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim olanağı sağlar. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Ücretsiz lisans, Power BI hizmetinin bazı özelliklerine erişim olanağı sağlar. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
 
 * **Kapasite tabanlı** - *Power BI Premium lisansı*. Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite ve daha büyük hacimli veriler için destek sunar. Premium ayrıca bireysel kullanıcılar için içeriği görüntüleyen alıcılarda Pro lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md).
 
@@ -73,17 +73,11 @@ Artık [Office 365'te lisans atayabilirsiniz](https://support.office.com/article
 
 ## <a name="manage-power-bi-free-licenses"></a>Power BI ücretsiz lisanslarını yönetme
 
-Kuruluşunuzdaki kullanıcılar Power BI ücretsiz lisanslarına iki farklı yolla erişim elde edebilir. Kullanıcılar Power BI'a bireysel olarak kaydolabilir veya Office 365 yönetim portalını kullanarak kullanıcılarınıza bir Power BI lisansı atayabilirsiniz.
+Kuruluşunuzdaki kullanıcılar Power BI ücretsiz lisanslarına iki farklı yolla erişim elde edebilir:
 
-Power BI ile ilgilenen kullanıcıların ücretsiz kaydolmasını sağlayan bireysel kayıt süreci kuruluş yöneticilerinin üzerindeki yükü azaltır.
+* Office 365 yönetim portalından bu kullanıcılara birer Power BI lisansı atayabilirsiniz.
 
-Öte yandan, bireysel kullanıcının kaydını devre dışı bırakarak daha fazla denetim sahibi olabilirsiniz ve hizmet kullanımını denetlemek istediğinizde bu çok yararlı bir seçenektir.
-
-### <a name="power-bi-free-for-individuals"></a>Bireyler için ücretsiz Power BI
-
-Varsayılan olarak, kuruluşunuzdaki bireyler Power BI ücretsiz lisansına kaydolabilir. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md).
-
-Bireysel kaydı engellemek için, bu makalenin devamındaki [Azure Active Directory'de bireysel kullanıcı kaydını etkinleştirme veya devre dışı bırakma](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory) bölümüne bakın.
+* [Power BI Pro deneme sürümüne kaydolan](service-self-service-signup-for-power-bi.md) bir kullanıcının denemenin süresi dolarsa, ona ücretsiz lisans atanır.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Ücretsiz lisansları isteme ve atama
 

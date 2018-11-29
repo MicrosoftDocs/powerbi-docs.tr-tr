@@ -7,143 +7,86 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 11/21/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: bfd3c1242ff5eb0d00078dbeb376dba8b0b6aa20
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 9792ccf04d31d0a5d97ac050639f17f5364be2bd
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641724"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289255"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
-Power BI'a kaydolmayı ve Power BI'ı kişisel rapor ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
 
-![](media/service-self-service-signup-for-power-bi/dashboard-report.png "Power BI panosu ve raporu")
+Power BI, kişisel rapor ve görselleştirme aracınız olabileceği gibi grup projeleri, departmanlar veya tüm şirket için analiz ve karar mekanizması olarak da kullanılabilir. Bu makalede bireysel olarak Power BI deneme sürümüne nasıl kaydolacağınız açıklanır. Power BI yöneticisiyseniz, bkz. [Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md).
 
-Power BI, kişisel rapor ve görselleştirme aracınız olabileceği gibi grup projeleri, departmanlar veya tüm şirket için analiz ve karar mekanizması olarak da kullanılabilir.
+![Power BI panosu](media/service-self-service-signup-for-power-bi/dashboard.png)
 
-Bu makalede, Power BI hizmetine kaydolmaya ve hizmeti kullanmaya başlamaya yönelik seçenekleriniz ele alınmaktadır. Power BI lisans türleri arasındaki işlevsellik farkları hakkında daha fazla bilgi edinmek için [Lisans türüne göre Power BI özellikleri](service-features-license-type.md)'ne bakın.
+## <a name="supported-email-addresses"></a>Desteklenen e-posta adresleri
 
-## <a name="you-have-a-few-options"></a>Birkaç seçeneğiniz vardır
-Bireysel olarak Power BI'a kaydolmak ve hizmeti kullanmaya başlamak için birkaç farklı seçeneğiniz bulunmaktadır. Ücretsiz kaydolmayı seçebilir veya bir Power BI Pro aboneliği satın alabilirsiniz. Ücretsiz hesaba kaydolursanız hizmette 60 günlük Power BI Pro ücretsiz deneme sürümünden yararlanabilirsiniz.
+Kayıt işlemine başlamadan önce, Power BI'da kullanabileceğiniz e-posta adresi türlerini anlamanız önemlidir:
 
-Office 365 kullanan bir kuruluşa bağlıysanız yine de ücretsiz hesaba kaydolabilirsiniz. BT Yöneticinizin de Power BI Pro'yu satın almaya ve lisansları atamaya yönelik birkaç seçeneği bulunmaktadır. BT Yöneticilerine sunulan seçenekler ile ilgili daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md).
+* Power BI'a kaydolmak için bir iş veya okul e-posta adresi kullanmanız gerekir. Tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini kullanarak kaydolamazsınız. Bunlar outlook.com, hotmail.com, gmail.com ve diğer adreslerdir.
 
-> [!NOTE]
-> Bir kuruluşa bağlıysanız bireysel kayıt devre dışı bırakılmış olabilir. Kaydın devre dışı bırakıldığını belirten bir hata alırsanız, daha fazla bilgi için BT bölümünüze başvurun.
+* Kaydolduktan sonra, kişisel hesaplarınız dahil herhangi bir e-posta adresini kullanarak Power BI içeriğinizi görmeleri için [konuk kullanıcıları davet edebilirsiniz](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
-## <a name="what-you-need-to-sign-up"></a>Kaydolmak için ne yapmanız gerekiyor?
+* Power BI'a kaydolurken .gov veya .mil adreslerini kullanabilirsiniz ama bunun için farklı bir işlem gerekir. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](service-govus-signup.md).
 
-Power BI'a kaydolmak için çalışan bir e-posta adresiniz olmalıdır. Kişisel e-posta adresi Power BI'a kaydolurken çalışmaz.
+## <a name="sign-up-for-a-trial"></a>Deneme için kaydolma
 
-### <a name="what-email-address-can-be-used-with-power-bi"></a>Power BI ile hangi e-posta adresi kullanılabilir?
-Power BI'a kaydolmak için bir iş veya okul e-posta adresi kullanmanız gerekir. Tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini kullanarak Power BI'a kaydolamazsınız. Bunlar outlook.com, hotmail.com, gmail.com ve diğer adreslerdir.
+Power BI Pro denemesine kaydolmak için şu adımları izleyin. Bu denemenin süresi dolduğunda size sağlanan seçenekleri anlamak için sonraki bölüme ([Deneme süresi sonu](#trial-expiration)) bakın.
 
-Kişisel bir e-posta adresiyle kaydolmaya çalışırsanız iş veya okul e-posta adresinizi kullanmanız gerektiğini belirten bir ileti alırsınız.
+1. Power BI'da [kayıt sayfasına](https://app.powerbi.com/signupredirect?pbi_source=web) gidin.
 
-> [!NOTE]
-> Power BI'a .gov veya .mil adresleriyle kaydolabilirsiniz. Bilgi edinmek için, [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](https://docs.microsoft.com/power-bi/service-govus-signup) konusunu gözden geçirin.
->
+1. E-posta adresinizi girin, sonra da **Kaydol**'u seçin.
 
-> [!NOTE]
-> Kaydolduktan sonra, kişisel hesaplarınız dahil herhangi bir e-posta adresini kullanarak Power BI kiracınızdaki içeriği görmeleri için [konuk kullanıcıları davet edebilirsiniz](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
->
+    ![Başlangıç](media/service-self-service-signup-for-power-bi/get-started.png)
 
-## <a name="which-one-do-you-need"></a>Hangisine ihtiyacınız var?
-Her bir lisans türünün sunduğu imkanları gözden geçirerek ihtiyacınızı belirleyebilirsiniz. Ücretsiz sürüm kullanıcıları, paylaşım ve işbirliği özellikleri hariç olmak üzere işlevlerin çoğuna erişebilir. Power BI Pro kullanıcıları hizmetteki tüm özellikleri kullanabilir ancak bunlar ücretsiz olarak sunulmaz. Herhangi bir içerik paylaşımı yapmanız gerekmiyorsa Ücretsiz sürüm sizin için uygun olabilir. [Power BI Fiyatlandırma sayfasında](https://powerbi.microsoft.com//pricing/) daha fazla bilgi edinebilirsiniz.
+1. Aşağıdakine benzer bir ileti alırsanız, bir seçenek belirterek doğrulama kodunu alın ve ardından bu yordamın sonraki adımından devam edin.
 
-Bu makalenin geri kalanında her bir seçenek için nasıl kaydolunacağı anlatılmaktadır.
+    ![Robot olmadığınızı kanıtlayın](media/service-self-service-signup-for-power-bi/prove-robot.png)
 
-## <a name="signing-up-for-power-bi-free-as-an-individual"></a>Power BI'a (ücretsiz) bireysel olarak kaydolma
-Power BI'a kaydolmanın en hızlı yolu, bir Power BI (ücretsiz) hesabı edinmektir. Bu hesap ücretsiz olup hizmette bulunan özelliklerin birçoğunu kullanmanıza olanak sağlar.
+    Aşağıdakine benzer bir ileti alırsanız, adımları tamamlayarak oturum açın ve Power BI'ı kullanın.
 
-> [!NOTE]
-> Sizi zaten tanıdığımızı belirten bir ileti alırsanız https://app.powerbi.com adresine giderek oturum açmayı deneyin.
-> 
-> 
+    ![Mevcut hesap](media/service-self-service-signup-for-power-bi/existing-account.png)
 
-Power BI'a kaydolmak için şunları yapabilirsiniz.
+1. Aldığınız kodu girin, sonra da **Kaydol**'u seçin.
 
-1. [powerbi.com](https://powerbi.microsoft.com) adresine gidin.
-2. **Start Free** (Ücretsiz Olarak Başla) veya **Sign up free** (Ücretsiz kaydolun) seçeneklerinden birini belirleyin.
+    ![Kaydol](media/service-self-service-signup-for-power-bi/sign-up.png)
 
-    ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
-3. Başlangıç sayfasında Power BI altındaki **Try Free >** (Ücretsiz olarak deneyin) seçeneğini belirleyin.
+1. E-postanızı denetleyip aşağıdaki gibi bir ileti alıp almadığınıza bakın.
 
-    ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
-4. Kaydolacağınız e-posta adresini girin ve **Sign up**'ı (Kaydol) seçin. E-posta adresinizin, kayıt işlemi için uygun olduğundan emin olun. Kullanabileceğiniz e-posta adresleri hakkında daha fazla bilgi için bkz. [Power BI ile hangi e-posta adresi kullanılabilir?](#what-email-address-can-be-used-with-power-bi).
+    ![E-posta doğrulama](media/service-self-service-signup-for-power-bi/email-verification.png)
 
-    ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
-5. E-postanızı kontrol etmenizi bildiren bir ileti alırsınız.
+1. Sonraki ekranda, bilgilerinizi ve e-postadaki doğrulama kodunu girin. Bölge seçin, bu ekranda bağlantısı verilen ilkeleri gözden geçirin, sonra da **Başlat**'ı seçin.
 
-    ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
-6. E-posta adresinizi doğrulamak için e-posta içindeki bağlantıyı seçin. Bu seçim sizi kayıt işlemi akışına geri yönlendirir. Kendinizle ilgili bazı ek bilgiler vermeniz gerekebilir.
-7. Ardından, https://app.powerbi.com adresine yönlendirilirsiniz. Böylece, Power BI'ı ücretsiz sürüm kullanıcısı olarak kullanmaya başlayabilirsiniz.
+    ![Hesap oluşturma](media/service-self-service-signup-for-power-bi/create-account.png)
 
-### <a name="what-this-looks-like-within-the-service"></a>Bunu hizmette nasıl görürsünüz?
-Bir ücretsiz hesaba sahip olduğunuzu, hizmetteyken **dişli** simgesine gidip **Kişisel depolama alanını yönet** seçeneğini belirleyerek doğrulayabilirsiniz.
+1. Bundan sonra https://app.powerbi.com konumuna gidersiniz ve Power BI'ı kullanmaya başlayabilirsiniz.
 
-![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
+    ![Mevcut hesap](media/service-self-service-signup-for-power-bi/welcome-screen.png)
 
-### <a name="what-if-youre-already-part-of-an-existing-organization"></a>Zaten kaydolmuş bir kuruluşa bağlıysanız ne olur?
-Hesabınız mevcut bir kuruluşa bağlıysa bu hesapla oturum açmanızı isteyen bir ileti alırsınız. **Devam** seçeneğini belirleyin ve Office 365 oturumunuzu açın.
+## <a name="trial-expiration"></a>Deneme süresi sonu
 
-![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
+Power BI Pro denemenizin süresi dolduğunda, lisansınız Power BI (ücretsiz) lisansına dönüştürülür. Bu gerçekleştiğinde, artık Power BI Pro lisansı gerektiren özelliklere erişemezsiniz. Daha fazla bilgi için bkz. [Lisans türüne göre özellikler](service-features-license-type.md).
 
-Daha sonra, **Başlat**'ı seçmenizi isteyen bir ileti görürsünüz.
+Power BI (ücretsiz) lisansı yeterliyse, başka hiçbir eylem yapmanız gerekmez. Power BI Pro özelliklerinden yararlanmak istiyorsanız, Power BI Pro lisansı satın alma konusunu görüşmek için BT yöneticinize başvurun.
 
-![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
+## <a name="troubleshooting-the-sign-up-process"></a>Kayıt işleminin sorunlarını giderme
 
-## <a name="in-service-power-bi-pro-60-day-trial"></a>Hizmet içi Power BI Pro 60 günlük deneme sürümü
-Ücretsiz hesaba kaydolduktan sonra Pro'yu 60 gün süreyle ücretsiz denemeyi seçebilirsiniz. Deneme süresi boyunca Pro'nun tüm özelliklerine erişebilirsiniz. Power BI Pro, Power BI ücretsiz sürümünün tüm özelliklerinin yanı sıra ek paylaşım ve işbirliği özellikleri içermektedir. Daha fazla bilgi için bkz. [Power BI Fiyatlandırması](https://powerbi.microsoft.com/pricing). Power BI Pro'nun 60 günlük ücretsiz deneme sürümü için Power BI'da oturum açın ve şu Power BI Pro özelliklerinden birini deneyin:
-
-* [Uygulama çalışma alanı oluşturma](service-create-distribute-apps.md)
-* [Bir panoyu paylaşma](service-share-dashboards.md)
-
-Bu özelliklerden herhangi birini denediğinizde, ücretsiz denemenizi başlatmanız istenir. Ayrıca, dişli simgesine gidip **Kişisel depolama alanını yönet**'i seçerek de ücretsiz denemenizi başlatabilirsiniz. Ardından, sağdaki **Pro'yu ücretsiz dene** seçeneğini belirleyin.
-
-![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial1.png)
-
-Daha sonra **Deneme sürümünü başlat**'ı seçin.
-
-![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial2.png)
-
->[!NOTE]
->Bu ürün içi Power BI Pro deneme sürümü avantajından faydalanan kullanıcılar, Office 365 yönetim portalında Power BI Pro Deneme Sürümü kullanıcıları olarak değil, Power BI ücretsiz sürüm kullanıcıları olarak görünür. Ancak, Power BI'daki **depolama alanını yönet** bölümünde Power BI Pro Deneme Sürümü kullanıcıları olarak görünürler.
-
->[!NOTE]
->Bir BT Yöneticisi olarak, Power BI deneme sürümü lisansları edinip kuruluşunuzdaki kullanıcıların deneme sürümü koşullarını ayrı ayrı kabul etmesine gerek kalmadan bunları kuruluşunuzdaki birden çok kullanıcıya dağıtmak istiyorsanız [Power BI Pro aboneliği deneme sürümüne](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO) kaydolabilirsiniz. Yönetici deneme sürümüne kaydolmak isterseniz Office 365 Genel veya Faturalama Yöneticisi olmanız ya da yeni bir kiracı oluşturmanız gerekir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md).
-> 
-> [!NOTE]
-> Power BI Premium kullanılabilirliği ve 1 Haziran 2017 tarihli Ücretsiz Power BI teklifine ilişkin değişikliklerle, Uzatılmış Pro Deneme Sürümü için uygun bir aday haline gelebilirsiniz. Daha fazla bilgi için bkz. [Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md).
-> 
-> 
-
-### <a name="what-this-looks-like-within-the-service"></a>Bunu hizmette nasıl görürsünüz?
-Bir Pro deneme sürümü hesabına sahip olup olmadığınızı, hizmetteyken <strong>dişli* simgesine gidip Kişisel depolama alanını yönet seçeneğini belirleyerek**</strong> doğrulayabilirsiniz.
-
-![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
-
-## <a name="what-if-you-want-the-full-power-bi-pro"></a>Tam Power BI Pro aboneliği mi istiyorsunuz?
-Power BI Pro lisansını bireysel olarak kullanmanın bir yolu yoktur. Lisansı satın almak ve hesabınıza atamak için BT Yöneticinize danışmanız gerekir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md).
-
-## <a name="troubleshooting"></a>Sorun giderme
-Çoğu durumda, Power BI'a kaydolma işlemi, yukarıda verilen self servis kayıt süreci uygulanarak tamamlanabilir. Ancak, self servis kayıt işleminin çeşitli nedenlerle tamamlanamadığı durumlar olabilir.  Aşağıdaki tabloda, kayıt işlemini tamamlama konusunda en çok karşılaşılan sorunların nedenleri ve bu sorunlara yönelik geçici çözümler açıklanmıştır.
-
+Çoğu durumda, az önce açıklanan işlemi yaparak Power BI'a kaydolabilirsiniz. Bununla birlikte, kaydolmanızı engelleyebilecek bazı sorunlar vardır. Aşağıdaki tabloda bu sorunları ve geçici çözümlerini açıkladık.
 
 |                                                                                                                                                                                                                          **Belirti / Hata İletisi**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Neden ve Geçici Çözüm**                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>Kişisel e-posta adresi (ör. nancy@gmail.com)</strong> Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |                          Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Kullanıcı hesabının [Azure B2B konuğu](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) olarak davet edilmesini sağlayın.                           |
-|            **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.*             |                             Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydolmayı tamamlamak için BT yöneticinize başvurun ve sayfanın aşağısında verilen yönergeleri izleyerek mevcut kullanıcıların Power BI'a kaydolmasına ve yeni kullanıcıların mevcut kiracınıza katılmasına izin vermesini isteyin. <br/><br/> Office 365'e bir iş ortağı aracılığıyla kaydolduysanız da bu sorunla karşılaşabilirsiniz. [Daha fazla bilgi](service-admin-syndication-partner.md) <br /><br /> [Kuruluşunuzda Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
-|                                                                                          **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.*                                                                                           | Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapabiliyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| <strong>Kişisel e-posta adresi (ör. nancy@gmail.com)</strong> Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kişisel bir e-posta adresi girdiniz: Şirket verilerinizi güvenli bir şekilde depolayabilmemiz için lütfen iş e-posta adresinizi girin.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.* |                          Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. <br /><br /> Kaydolmayı tamamlamak için iş yeriniz veya okulunuz tarafından atanmış bir e-posta adresini kullanarak yeniden deneyin. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Ayrıca, mevcut bir kullanıcının [sizi konuk olarak davet etmesini](service-admin-azure-ad-b2b.md) de sağlayabilirsiniz.                           |
+|            **Self servis kayıt işlemi devre dışı** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *Kayıt işleminizi tamamlayamadık. Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış. Kayıt işleminizi tamamlamak için BT departmanınız ile iletişim kurun.* <br /><br /> ya da <br /><br /> *Bu, kişisel bir e-posta adresi gibi görünüyor. Şirketinizdeki diğer kişilerle bağlantı kurmanızı sağlayabilmemiz için iş e-posta adresinizi girin. Endişelenmeyin. Adresinizi kimseyle paylaşmayacağız.*             |                             Kuruluşunuzun BT yöneticisi Power BI için self servis kaydolma özelliğini devre dışı bırakmıştır. <br /><br /> Kaydı tamamlamak için, BT yöneticinize başvurun ve ondan [kaydı etkinleştirmek için yönergeleri izlemesini](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory) isteyin. <br/><br/> [Office 365'e bir iş ortağı aracılığıyla kaydolmanız](service-admin-syndication-partner.md) durumunda da bu sorunla karşılaşabilirsiniz. |
+|                                                                                          **E-posta adresiniz bir Office 365 kimliği değil** Kayıt sırasında aşağıdaki gibi bir ileti alırsınız: <br /><br /> *contoso.com adresinizi bulamadık.  İşte veya okulda farklı bir kimlik mi kullanıyorsunuz? <br /><br /> Bu kimlikle oturum açmayı deneyin, işe yaramazsa BT departmanınızla iletişime geçin.*                                                                                           | Kuruluşunuz Office 365 ve diğer Microsoft hizmetlerinde oturum açmak için sizin e-posta adresinizden farklı kimlikler kullanıyor.  Örneğin, e-posta adresiniz Nancy.Smith@contoso.com, kimliğiniz ise nancys@contoso.com olabilir. <br /><br /> Kaydolmayı tamamlamak için kuruluşunuzun Office 365 veya diğer Microsoft hizmetlerinde oturum açmak üzere atadığı kimliği kullanın.  Bunun ne olduğunu bilmiyorsanız BT yöneticinize başvurun. <br /><br /> Hâlâ kaydolamadıysanız ve daha ileri düzey bir kurulum işlemi yapmak istiyorsanız [yeni bir Office 365 deneme sürümü aboneliğine kaydolup söz konusu e-posta adresini buraya kaydolmak için kullanabilirsiniz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+|  |  |
 
-## <a name="next-steps"></a>Sonraki adımlar  
+## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md)  
 [Bireysel kullanıcılar için Power BI Hizmet sözleşmesi](https://powerbi.microsoft.com/terms-of-service/)  
-[Power BI Premium nedir?](service-premium.md)  
-[Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

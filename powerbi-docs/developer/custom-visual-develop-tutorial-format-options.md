@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223272"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289186"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görsellerine biçimlendirme seçenekleri ekleme
 
-Bu öğreticide görsellere ortak özellikler ekleme adımları açıklanmaktadır.
+Bu öğreticide görsellere ortak özellikler ekleme adımları açıklanır.
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 > [!div class="checklist"]
@@ -32,7 +32,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
     *Biçimlendirme seçenekleri bu görsel için mevcut değil* iletisini görmeniz gerekir.
 
-    ![Biçimlendirme fırçası](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Biçimlendirme fırçası](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. **Visual Studio Code**’da *capabilities.json* dosyasını açın.
 
@@ -41,7 +41,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
     ```json
     "objects": {},
     ```
-    ![Nesneleri ekleme](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Nesneleri ekleme](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. **capabilities.json** dosyasını kaydedin.
 
@@ -50,13 +50,13 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
     > [!Note]
     > Biçimlendirme seçenekleri değişmediyse **Özel Görseli Yeniden Yükle**’yi seçin.
 
-    ![Biçimlendirme seçeneklerini görüntüleme](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Biçimlendirme seçeneklerini görüntüleme](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. **Başlık** seçeneğini *Kapalı* olarak ayarlayın. Görselin sol üst köşesinde ölçü adının artık görüntülenmediğini göreceksiniz.
 
-    ![Kutucuk seçeneği kapalı](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Kutucuk seçeneği kapalı](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Ad kutucuğu yok](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Ad kutucuğu yok](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Özel biçimlendirme seçenekleri ekleme
 
@@ -64,7 +64,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
 1. PowerShell’de özel görseli durdurun.
 
-2. Visual Studio Code’da **capabilities.json** dosyasının **objects** nesnesine aşağıdaki JSON parçasını ekleyin.
+2. Visual Studio Code’da **capabilities.json** dosyasının **objects** etiketli nesnesine aşağıdaki JSON parçasını ekleyin.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
                  }
              }
          }
-     }
+     },
     ```
 
     JSON parçası circleColor ve circleThickness adlı iki seçenek içeren circle adlı bir grup tanımlar.
 
-   ![Daire kalınlığı kodu](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Daire kalınlığı kodu](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. **capabilities.json** dosyasını kaydedin.
 
@@ -112,7 +112,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     }
     ```
 
-    ![Modül sınıfları](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Modül sınıfları](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Bu modül iki sınıf tanımlar. **CircleSettings** sınıfı, adı **capabilities.json** dosyasında tanımlanan nesnelerle (**circleColor** ve **circleThickness**) eşleşen iki özellik tanımlar ve varsayılan değerleri ayarlar. **VisualSettings** sınıfı, **DataViewObjectParser** sınıfını devralır ve **circle** adlı bir özellik ekler. Bu özellik *capabilities.json* dosyasında tanımlanan nesneyle eşleşir ve **CircleSettings** örneği döndürür.
 
@@ -127,7 +127,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     ```
     Bu özellik **VisualSettings** nesnesinde görsel ayarlarını tanımlayan bir başvuru depolar.
 
-    ![Visual sınıfını ekleme](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Visual sınıfını ekleme](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. **Visual** sınıfında **update** yönteminin öncesine aşağıdaki yöntemi ekleyin. Bu yöntem, biçimlendirme seçeneklerini doldurmak için kullanılır.
 
@@ -140,7 +140,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     ```
     Bu yöntem, biçimlendirme seçeneklerini doldurmak için kullanılır.
 
-    ![Görsel ayarları nesnesi](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Görsel ayarları nesnesi](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. **update** yönteminde **radius** değişkeni bildiriminin sonrasına aşağıdaki kodu ekleyin.
 
@@ -150,7 +150,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     ```
     Bu kod, biçimlendirme seçeneklerini alır. **circleThickness** özelliğine geçirilen değerleri alır, eksi değerleri 0’a, 10 üzerindeki değerleri de 10’a dönüştürür.
 
-    ![Radius değişkeni](media/custom-visual-develop-tutorial/radius.png)
+    ![Radius değişkeni](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. **circle element** için **fill style** hedefine geçirilen değeri aşağıdaki ifadeyle değiştirin.
 
@@ -158,7 +158,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     this.visualSettings.circle.circleColor
     ```
 
-    ![Daire öğesini doldurur](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Daire öğesini doldurur](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. **circle element** için **stroke-width-style** hedefine geçirilen değeri aşağıdaki ifadeyle değiştirin.
 
@@ -166,7 +166,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Daire vuruş genişliği](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Daire vuruş genişliği](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. visual.ts dosyasını kaydedin.
 
@@ -180,7 +180,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
 16. **Görsel biçimlendirme** seçeneklerinde **Daire** öğesini genişletin.
 
-    ![Daire biçimi](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Daire biçimi](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     **Renk** ve **kalınlık** seçeneklerini değiştirin.
 
@@ -198,7 +198,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
     **Görsel Öğeler** bölmesinde simgenin üzerine geldiğinizde görünen ad görüntülenir.
 
-    ![Görünen Ad görseli](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Görünen Ad görseli](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. **description** özelliği için aşağıdaki metni girin.
 
@@ -216,7 +216,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
 10. Simgeyi gözden geçirin.
 
-    ![Görsel Öğeler bölmesi görüntüsü](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Görsel Öğeler bölmesi görüntüsü](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. Visual Studio Code’da tüm dosyaların kaydedildiğinden emin olun.
 
@@ -226,7 +226,7 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
     pbiviz package
     ```
 
-    ![Dist klasörü](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Dist klasörü](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI hizmetine veya bir Power BI Desktop raporuna aktarmak için gerekli olan her şey bulunur. Özel görseli paketleyip kullanıma hazır hale getirdiniz.
 
@@ -238,7 +238,7 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 2. **_Görsel Öğeler_** bölmesinde **üç noktayı** ve ardından **Dosyadan içeri aktar**’ı seçin.
 
-    ![Desktop raporuna özel görselleştirme ekleme](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Desktop raporuna özel görselleştirme ekleme](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. **İçeri aktarma penceresinde**, **İçeri Aktar**’ı seçin.
 
@@ -250,7 +250,7 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 7. Görselin **_Görsel Öğeler_** bölmesine eklendiğini doğrulayın.
 
-    ![PBI Desktop görsel öğeler bölmesinde görüntüleme](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![PBI Desktop görsel öğeler bölmesinde görüntüleme](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. **Daire Kartı** simgesinin üzerine geldiğinizde açılan araç ipucunu inceleyin.
 
@@ -260,4 +260,4 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Yeni geliştirilen görselinizi **AppSource**'a göndererek başka kullanıcıların kullanımına sunmak üzere listeleyebilirsiniz. Bu işlemle ilgili daha fazla bilgi için lütfen [AppSource'ta özel görseller yayımlama](office-store.md) konusuna başvurun.
+Yeni geliştirilen görselinizi **AppSource**'a göndererek başka kullanıcıların kullanımına sunmak üzere listeleyebilirsiniz. Bu işlemle ilgili daha fazla bilgi için [AppSource'ta özel görseller yayımlama](office-store.md) konusuna bakın.
