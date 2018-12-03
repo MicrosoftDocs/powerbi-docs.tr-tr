@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: overview
-ms.date: 07/10/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 57d5158098f6ba7b2754ae25afaca524723255f5
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: a083512a1d280044b30f07c46d201def33fa66fa
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39031914"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578532"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 

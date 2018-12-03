@@ -12,14 +12,14 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: conceptual
-  ms.date: 07/24/2018
+  ms.date: 11/28/2018
   ms.author: davidi
-  ms.openlocfilehash: 5c7ea4ad88b32f6e6dbea9d3f063a53f8135bdad
-  ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+  ms.openlocfilehash: f0ede1bbcc9eda0d31afaa6246e56f1c7ce7b58a
+  ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 09/07/2018
-  ms.locfileid: "43113982"
+  ms.lasthandoff: 11/30/2018
+  ms.locfileid: "52668980"
 items:
 - durationInMinutes: 1
   content: >

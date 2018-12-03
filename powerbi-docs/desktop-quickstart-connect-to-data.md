@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: quickstart
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: f7266691573c0d02bafa7120b5d4a28ff0c03076
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 01f36c65c63527256ce11c63f66c3ce4bc0a76c5
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327673"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670820"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı Başlangıç: Power BI Desktop’ta verilere bağlanma
 

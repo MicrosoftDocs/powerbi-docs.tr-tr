@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850419"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578440"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
-Power BI ile satır düzeyi güvenlik (RLS), belirli kullanıcıların veri erişimini kısıtlamak için kullanılabilir. Filtreler, veri erişimini satır düzeyinde sınırlar ve rollerin içinde filtre tanımlayabilirsiniz. Power BI hizmetinde bir çalışma alanının üyelerinin o çalışma alanındaki veri kümelerine erişebildiğini unutmayın. RLS bu veri erişimini kısıtlamaz. 
+
+Power BI ile satır düzeyi güvenlik (RLS), belirli kullanıcıların veri erişimini kısıtlamak için kullanılabilir. Filtreler, veri erişimini satır düzeyinde sınırlar ve rollerin içinde filtre tanımlayabilirsiniz. Power BI hizmetinde bir çalışma alanının üyelerinin o çalışma alanındaki veri kümelerine erişebildiğini unutmayın. RLS bu veri erişimini kısıtlamaz.
 
 Power BI Desktop ile Power BI'a aktarılan veri modelleri için RLS'yi yapılandırabilirsiniz. Ayrıca DirectQuery'yi kullanan SQL Server gibi veri kümelerinde de RLS'yi yapılandırabilirsiniz. Önceden RLS'yi yalnızca Power BI dışındaki şirket içi Analysis Services modellerinde uygulayabiliyordunuz. Analysis Services canlı bağlantıları için Satır düzeyi güvenliği şirket içi model üzerinde yapılandırırsınız. Güvenlik seçeneği, canlı bağlantı veri kümeleri için gösterilmez.
 
@@ -34,6 +35,7 @@ Daha fazla bilgi için [Power BI Desktop'ta DirectQuery'yi kullanarak çift yön
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>Modelinizde güvenliği yönetme
+
 Veri modelinizde güvenliği yönetmek için aşağıdakileri gerçekleştirmeniz gerekir.
 
 1. Bir veri kümesine ilişkin **üç nokta (…)** simgesini seçin.
@@ -46,7 +48,9 @@ Bu, Power BI Desktop'ta oluşturduğunuz bir role üye eklemeniz için sizi RLS 
 Power BI Desktop'ta yalnızca rol oluşturabilir veya rolleri değiştirebilirsiniz.
 
 ## <a name="working-with-members"></a>Üyelerle çalışma
+
 ### <a name="add-members"></a>Üye ekleme
+
 Eklemek istediğiniz kullanıcının, güvenlik grubunun veya dağıtım listesinin e-posta adresini ya da adını yazarak role üye ekleyebilirsiniz. Bu üyenin kuruluşunuzda olması gerekir. Power BI'da oluşturulan Grupları ekleyemezsiniz.
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Rol adının veya Üyeler'in yanında parantez içinde gösterilen sayıya bakar
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Üyeleri kaldırma
+
 Üye adlarının yanındaki X işaretlerini seçerek üyeleri kaldırabilirsiniz. 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI hizmetinde rolü doğrulama
+
 Tanımladığınız rolü test ederek rolün doğru şekilde çalışıp çalışmadığını doğrulayabilirsiniz. 
 
 1. Rolün yanındaki **üç nokta (...)** simgesini seçin.
@@ -83,12 +89,11 @@ Normal görüntülemeye geri dönmek için **Satır Düzeyi Güvenliğe Geri Dö
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI'da uygulama çalışma alanlarıyla RLS'yi kullanma
+
 Power BI Desktop raporunuzu Power BI hizmetindeki bir uygulama çalışma alanında yayımlarsanız roller salt okunur üyeler için geçerli olur. Uygulama çalışma alanı ayarlarında üyelerin Power BI içeriğini yalnızca görüntüleyebileceklerini belirtmeniz gerekir.
 
 > [!WARNING]
 > Uygulama çalışma alanını yapılandırırken üyelerin, düzenleme izinlerine sahip olacağını belirtirseniz RLS rolleri söz konusu üyeler için geçerli olmaz. Bu durumda, kullanıcılar tüm verileri görebilir.
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Power BI Desktop raporunuzu Power BI hizmetindeki bir uygulama çalışma alanı
 [Row-level security (RLS) with Power BI Desktop (Power BI Desktop ile satır düzeyi güvenlik (RLS))](desktop-rls.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

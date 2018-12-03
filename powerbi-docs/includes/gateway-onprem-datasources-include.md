@@ -20,6 +20,7 @@
 | SAP HANA |Evet |Evet |
 | SharePoint listesi (şirket içi) |Hayır |Evet |
 | Snowflake |Evet |Evet |
+| Spark |Evet |Evet |
 | SQL Server |Evet |Evet |
 | Sybase |Hayır |Evet |
 | Teradata |Evet |Evet |

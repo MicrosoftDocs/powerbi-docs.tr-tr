@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452672"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670429"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,13 +22,7 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-**Hem Hasta Sonuçlarını hem de Kârlılığı Geliştirmek İçin Başarısı Kanıtlanmış Sağlık Çözümleri**
-<br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
-<br>*28 Kasım 2018 11:00 – 12:00 PST*
-
-Sağlık kuruluşları muazzam miktarlardaki verileri hasta içgörülerine ve bu içgörüleri de eyleme dönüştürme güçlüğüyle karşı karşıya kalır. Bu web seminerine kaydolun ve kuruluşunuzun verileri kullanışlı hasta içgörülerine dönüştürmesine yardımcı olacak anlamlı sağlık raporları tasarlamayı öğrenin. US Medical IT'nin kurucusu ve CEO'su Stephen Cracknell, Healthcare IT Direktörü Stuart Macanliss ve Teksas'da çalışan romatolog Dr. John P. Lavery'den uzman stratejileri ve önerileri alın.
-
-[28 Kasım'da izlemek üzere kaydolun](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>İş Ortakları ###
+
+**Hem Hasta Sonuçlarını hem de Kârlılığı Geliştirmek İçin Başarısı Kanıtlanmış Sağlık Çözümleri**
+<br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **Konum Zekası ile İş Zekanızı Artırın**
 <br>Scott Ball, Microsoft'tan Esri ve Enrique Plaza

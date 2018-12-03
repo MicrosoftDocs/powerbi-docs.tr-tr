@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e6053ff1cf1ceedc056b0fb2083f3e9a1047a383
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8b39e0341c75781d3cf272cad0a577ee61d707e9
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330156"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669601"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop'ta Adobe Analytics'e bağlanma 
 Tıpkı Power BI Desktop’taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop**’ta da **Adobe Analytics**’e bağlanabilir ve temel alınan verileri kullanabilirsiniz. 

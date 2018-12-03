@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acb84fe00ac53fd60a4fab0bb152e589aaa238e7
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c41dde1102cc8a55b3577c0d98f43b5f82986c72
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329834"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669946"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop videoları
 [Power BI için bir YouTube kanalımız](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p) var!

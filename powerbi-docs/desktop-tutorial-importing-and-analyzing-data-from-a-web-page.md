@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34813193"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578854"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini çözümleme
 
