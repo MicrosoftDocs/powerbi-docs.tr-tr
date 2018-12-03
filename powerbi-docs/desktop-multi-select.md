@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3c33836275e2de61efcee2da2a8b1e8917de34d5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 3f3ea50ec31ec3a3ca746bb433509e520ef3fc5e
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327396"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669302"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Power BI Desktop kullanılırken görsellerde çoklu seçim veri öğeleri
 
