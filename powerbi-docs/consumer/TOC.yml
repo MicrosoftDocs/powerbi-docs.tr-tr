@@ -51,6 +51,8 @@ items:
         href: end-user-show-data.md
       - name: Power BI'daki görselleştirmelerde detaya gitme
         href: end-user-drill.md
+      - name: ArcGIS haritaları ile etkileşim kurma
+        href: ../power-bi-visualizations-arcgis.md
     - name: Genel görevler
       items:
       - name: Odak ve Tam ekran modlarını kullanarak içeriği yakınlaştırmanın farklı yolları
@@ -185,9 +187,9 @@ items:
     items:
     - name: Mobil uygulamalarda desteklenen diller
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 5a696c51a72320bc53a12a913c1785fb5ba742c8
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: f3f9e579a85ae880b28c6f846c5cb362dc49e9a2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473917"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829861"
