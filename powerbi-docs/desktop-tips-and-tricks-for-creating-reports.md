@@ -1,7 +1,7 @@
 ---
 title: Power BI'da rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 description: Power BI hizmetinde ve Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
-ms.openlocfilehash: 13324ca27ae1c77f6ea735bb71b1081587cc413d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670400"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830298"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 

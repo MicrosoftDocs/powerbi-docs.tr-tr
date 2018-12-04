@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718057"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830205"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde yeni bir rapor oluşturma
 [Power BI'daki raporlar](consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın birçok farklı yolu vardır. Biz bu makalede ilk olarak Power BI hizmetini kullanarak bir Excel veri kümesinden çok basit bir rapor oluşturacağız. Rapor oluşturma işlemiyle ilgili temel bilgileri kavradığınızda, sayfanın en altında bulunan **Sonraki adımlar** bölümündeki bağlantıları kullanarak raporlarla ilgili daha ileri düzey konulara göz atabilirsiniz.  
 
-> **İPUCU**: Mevcut bir raporu kopyalayarak rapor oluşturmak için bkz. [Bir raporu kopyalama](power-bi-report-copy.md)
-> 
-> ### <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Önkoşullar
 > - Power BI hizmeti (Power BI Desktop kullanarak raporları oluşturmak için bkz. [Masaüstü rapor görünümü](desktop-report-view.md))  
 > - Perakende Analizi örnek veri kümesi
 
@@ -93,7 +91,7 @@ Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Paz
 Verilerinizi keşfetmeye ve görsel öğeleri eklemeye devam edin. Özellikle ilgi çekici bilgiler bulduğunuzda [panoya sabitleyin](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Rapora yeni bir sayfa ekleme](power-bi-report-add-page.md)  
+
 * [Görselleştirmeleri bir panoya sabitlemeyi](service-dashboard-pin-tile-from-report.md) öğrenin   
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

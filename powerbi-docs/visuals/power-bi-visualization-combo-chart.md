@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448972"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830390"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -45,7 +45,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
 
 1. "Retail Analysis Sample" panosunda, **Total Stores** kutucuğunu seçerek "Retail Analysis Sample" raporunu açın.
 2. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.
-3. [Yeni bir rapor sayfası ekleyin](../power-bi-report-add-page.md).
+3. Yeni bir rapor sayfası ekleyin.
 4. Bu yılın satış verilerini ve aya göre brüt kârı görüntüleyen bir sütun grafiği oluşturun.
 
     a.  Alanlar bölmesinde **Sales** \> **This Year Sales** > **Değer** seçeneğini belirleyin.
