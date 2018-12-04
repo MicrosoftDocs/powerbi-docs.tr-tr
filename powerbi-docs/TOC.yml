@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini kullanma
         href: desktop-see-data-see-records.md
+      - name: Rapor oluşturmaya yönelik ipuçları
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Görselleştirmeler
       items:
       - name: Görselleştirmelere ilişkin en iyi uygulamalar
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: X ve Y ekseni özelliklerini özelleştirme
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI'da ArcGIS
+      - name: Power BI’da ArcGIS haritaları
         href: power-bi-visualization-arcgis.md
       - name: Basit alan grafiği
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI'da şelale grafikler
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: Dinamik başvuru çizgileri oluşturma
+        href: service-analytics-pane.md
     - name: Sorun giderme
       items:
       - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: Öğreticiler
     items:
-    - name: GitHub örneğine bağlanma
-      href: service-tutorial-connect-to-github.md
     - name: Power BI ile çalışmaya başlama
       href: service-get-started.md
+    - name: GitHub örneğine bağlanma
+      href: service-tutorial-connect-to-github.md
   - name: Kavramlar
     items:
     - name: Power BI hizmetindeki yenilikler
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: Raporlar
       items:
-      - name: Mevcut bir rapordan yeni rapor oluşturma
-        href: power-bi-report-copy.md
-      - name: Rapora sayfa ekleme
-        href: power-bi-report-add-page.md
+      - name: Bir veri kümesinden yeni bir rapor oluşturma
+        href: service-report-create-new.md
       - name: Rapora filtre ekleme
         href: power-bi-report-add-filter.md
       - name: Power BI'da bir raporu kaydetme
         href: service-report-save.md
-      - name: Bir veri kümesinden yeni bir rapor oluşturma
-        href: service-report-create-new.md
       - name: Düzenleme Görünümü’nde bir raporla etkileşim kurma
         href: service-interact-with-a-report-in-editing-view.md
       - name: Excel'de Analiz Et
         href: service-analyze-in-excel.md
       - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Analiz bölmesi
-        href: service-analytics-pane.md
       - name: Raporlar için kullanım ölçümleri
         href: service-usage-metrics.md
       - name: Rapor için QR kodu oluşturma
         href: service-create-qr-code-for-report.md
-      - name: Bir raporda bulunan sayfaları yeniden sıralama
-        href: service-report-reorder-pages.md
-      - name: Bir rapor sayfasını yineleme
-        href: power-bi-report-copy-paste-page.md
       - name: Bir raporu hizmetten Power BI Desktop’a aktarma (Önizleme)
         href: service-export-to-pbix.md
       - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
         href: service-url-filters.md
       - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
         href: power-bi-reports-performance.md
-      - name: ArcGIS haritaları ile etkileşim kurma
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: Verileriniz hakkında soru sorma
       items:
       - name: Görselleştirmeleri ve raporları oluşturmak için Soru-Cevap’ı kullanma
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop’taki veri akışlarına bağlanma
         href: desktop-connect-dataflows.md
+    - name: Power BI’daki sayfalandırılmış raporlar
+      items:
+      - name: Sayfalandırılmış raporlar nedir? (Önizleme)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: Sayfalandırılmış raporlar hakkında SSS
+        href: paginated-reports-faq.md
+      - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
+        href: paginated-reports-quickstart-aw.md
+      - name: Rapor Tasarım Görünümünde gezinme
+        href: paginated-reports-report-design-view.md
+      - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+        href: paginated-reports-enter-data.md
+      - name: Eklenmiş veri kaynağı oluşturma
+        href: paginated-reports-embedded-data-source.md
+      - name: Eklenmiş veri kümesi oluşturma
+        href: paginated-reports-create-embedded-dataset.md
+      - name: Parametreler oluşturma
+        href: paginated-reports-parameters.md
+      - name: Sayfalandırılmış rapor yayımlama
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: Sayfalandırılmış rapor görüntüleme
+        href: paginated-reports-view-power-bi-service.md
+      - name: Parametrelerle etkileşim kurma
+        href: paginated-reports-view-parameters.md
   - name: Kaynaklar
     items:
     - name: Videolar
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: Teknik incelemeler
       href: whitepapers.md
-- name: Power BI’daki sayfalandırılmış raporlar
-  items:
-  - name: Genel Bakış
-    items:
-    - name: Sayfalandırılmış raporlar nedir? (Önizleme)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: Öğreticiler
-    items:
-    - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
-      href: paginated-reports-quickstart-aw.md
-  - name: Kavramlar
-    items:
-    - name: Rapor Tasarım Görünümünde gezinme
-      href: paginated-reports-report-design-view.md
-    - name: Sayfalandırılmış raporlar hakkında SSS
-      href: paginated-reports-faq.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Verileri doğrudan sayfalandırılmış bir rapora girme
-      href: paginated-reports-enter-data.md
-    - name: Eklenmiş veri kaynağı oluşturma
-      href: paginated-reports-embedded-data-source.md
-    - name: Eklenmiş veri kümesi oluşturma
-      href: paginated-reports-create-embedded-dataset.md
-    - name: Parametreler oluşturma
-      href: paginated-reports-parameters.md
-    - name: Sayfalandırılmış rapor yayımlama
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: Sayfalandırılmış rapor görüntüleme
-      href: paginated-reports-view-power-bi-service.md
-    - name: Parametrelerle etkileşim kurma
-      href: paginated-reports-view-parameters.md
 - name: Geliştiriciler için Power BI
   items:
   - name: Geliştiriciler Power BI ile neler yapabilir?
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331862"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830413"
