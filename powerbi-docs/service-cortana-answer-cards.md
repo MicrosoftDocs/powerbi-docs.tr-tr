@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187341"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829907"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI hizmetini veya Power BI Desktop'ı kullanarak Cortana için özel bir Yanıt Sayfası oluşturma
 Power BI'ı kullanarak *Cortana yanıt sayfaları* (ve bazı durumlarda *Cortana yanıt kartları*) adı verilen ve Cortana sorularını cevaplamak için tasarlanmış özel rapor sayfaları oluşturun.
@@ -41,7 +41,7 @@ Power BI için Cortana'yı kurma ve kullanma konularında size rehberlik edecek 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Cortana için tasarlanmış bir Cortana yanıt sayfası oluşturma
 Bir rapordaki *Cortana yanıt sayfası*, Cortana için özel olarak boyutlandırılır; böylece, Cortana bu sayfayı bir sorunun cevabı olarak ekranda görüntüleyebilir. Cortana'ya ilişkin bir yanıt sayfası oluşturmak için:
 
-1. [Boş rapor sayfası](power-bi-report-add-page.md) ile başlamanızı öneririz.
+1. Boş rapor sayfası ile başlamanızı öneririz.
 2. **Görsel Öğeler** bölmesinde boya rulosu simgesini seçip **Sayfa Boyutu** > **Tür** > **Cortana** seçeneğini belirleyin.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

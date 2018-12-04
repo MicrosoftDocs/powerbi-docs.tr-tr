@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157092"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830321"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -174,11 +174,15 @@ Power BI yönetici portalına erişebilmeniz için hesabınızın, Office 365 ve
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Kullanıcılarım için Microsoft tarafından oluşturulan bir kiracıyı yönetme süreci nasıldır?
 
-Microsoft tarafından bir kiracı oluşturulduğunda aşağıdaki adımları uygulayarak söz konusu kiracıyı üstlenip yönetebilirsiniz:
+Bir kullanıcı Azure AD kullanan bir bulut hizmetine kendi kendine kaydolduğunda, e-posta etki alanı temelinde yönetilmeyen bir Azure AD dizinine eklenir. *Yönetici devralma* olarak bilinen işlem kullanılarak oluşturulmuş kiracıyı alabilir ve yönetebiliriz. Gerçekleştirdiğiniz devralma işleminin türü, etki alanınızla ilişkilendirilmiş bir yönetilen kiracının var olup olmadığına bağlıdır:
 
-1. Yönetmek istediğiniz kiracı etki alanıyla eşleşen bir e-posta adresi etki alanıyla Power BI'a kaydolarak söz konusu kiracıya katılın. Örneğin, Microsoft contoso.com kiracısını oluşturduysa kiracıya @contoso.com ile biten bir e-posta adresiyle katılmanız gerekir.
+* Etki alanına yeni bir yönetilen kiracı oluşturmak için *dahili devralma* kullanın.
 
-1. Etki alanı sahipliğini doğrulayarak yönetici denetimini üstlenin: Kiracıya katıldıktan sonra etki alanı sahipliğini doğrulayarak kendinizi *Genel Yönetici* rolüne yükseltebilirsiniz. Bunu yapmak için [Office 365 belgelerindeki](/office365/admin/misc/become-the-admin) adımları izleyin.
+* Etki alanını mevcut yönetilen kiracıya taşımak için *harici devralma* kullanın.
+
+Daha fazla bilgi için bkz. [Azure Active Directory'de yönetilmeyen bir dizini yönetici olarak devralma](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+
+Harici devralma gerçekleştirdiğinizde, devralma öncesinde oluşturulmuş olan Power BI içeriği [Power BI Arşivlenmiş Çalışma Alanı](service-admin-power-bi-archived-workspace.md)'na yerleştirilir. Yeni kiracıda kullanmak istediğiniz tüm içeriği el ile geçirmeniz gerekir.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?
 

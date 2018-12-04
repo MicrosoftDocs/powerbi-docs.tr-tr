@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545280"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829815"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 Bu makalede, Power BI hizmeti veya Power BI Desktop kullanarak bir raporda görselleştirme oluşturma hakkında özet bilgiler verilmektedir.  Daha ayrıntılı içerik için lütfen [2. Bölüm](power-bi-report-add-visualizations-ii.md)'e bakın. Rapor tuvali üzerinde farklı görsel oluşturma, düzenleme ve biçimlendirme yöntemlerini gösteren Amanda'yı izleyin. Ardından [Satış ve Pazarlama örneğini](../sample-datasets.md) kullanarak kendi raporunuzu oluşturun.
@@ -29,7 +29,7 @@ Bu makalede, Power BI hizmeti veya Power BI Desktop kullanarak bir raporda görs
 2. Alanlar bölmesi görünmüyorsa ok simgesini seçerek açın. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [Rapora boş bir sayfa ekleyin](../power-bi-report-add-page.md).
+3. Rapora boş bir sayfa ekleyin.
 
 ## <a name="add-visualizations-to-the-report"></a>Rapora görselleştirme ekleme
 1. **Alanlar** bölmesindeki alanlardan birini seçerek bir görselleştirme oluşturun.  

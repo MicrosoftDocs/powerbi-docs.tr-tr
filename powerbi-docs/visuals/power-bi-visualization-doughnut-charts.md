@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 5720e52b61332aeca82d0b23b776f590634e622f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416763"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829631"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI'da halka grafikler
 Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gösterir. Tek fark ortasının boş ve bir etiket veya simge yerleştirmeye müsait olmasıdır.
@@ -23,7 +23,7 @@ Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gös
 ## <a name="create-a-doughnut-chart"></a>Halka grafik oluşturma
 Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde gösteren bir Halka grafik oluşturmak üzere Retail Analysis Sample kullanılmaktadır. Yönergeleri takip etmek için Power BI hizmeti veya Power BI Desktop [örneğini indirin](../sample-datasets.md).
 
-1. [Boş bir rapor sayfasında](../power-bi-report-add-page.md) başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
+1. Boş bir rapor sayfasında başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
 
 2. Alanlar bölmesinde **Sales** \> **Last Year Sales** seçeneğini belirleyin.  
    
