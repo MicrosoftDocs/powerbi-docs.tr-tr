@@ -444,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: Nasıl yapılır?
     items:
-    - name: Genel görevler
-      items:
-      - name: Power BI'daki içerikleri yeniden adlandırma
-        href: service-rename.md
-      - name: Power BI'daki Hızlı Öngörüler
-        href: service-insights.md
-      - name: ABD Kamu kuruluşunuzu kaydetme
-        href: service-govus-signup.md
-      - name: Power BI hizmetindeki veri uyarıları
-        href: service-set-data-alerts.md
-      - name: Power BI Soru-Cevap’ı kullanmaya başlama
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Power BI'da neredeyse her şeyi silme
-        href: service-delete.md
     - name: Hizmetlere bağlanma
       items:
+      - name: Hizmetlere bağlanma
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
         href: service-comma-separated-value-files.md
-      - name: Power BI'da gerçek zamanlı akış (Önizleme)
+      - name: Power BI'da gerçek zamanlı akış
         href: service-real-time-streaming.md
       - name: Excel 2016'daki içeriği Power BI'da yayımlama
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: Rapor sayfasının tamamını panoya sabitleme
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Power BI hizmetindeki veri uyarıları
+        href: service-set-data-alerts.md
       - name: Panolar için kullanım ölçümleri
         href: service-usage-metrics.md
       - name: Panoya resim, metin kutusu, video veya kod ekleme
@@ -634,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: Harika bir pano oluşturmaya yönelik ipuçları
         href: service-dashboards-design-tips.md
-      - name: Hızlı İçgörüler için verilerinizi en iyi duruma getirin
-        href: service-insights-optimize.md
       - name: Bir panonun telefon görünümünü oluşturma
         href: service-create-dashboard-mobile-phone-view.md
       - name: Kutucuklar için QR kodu oluşturma
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: Raporlar
       items:
-      - name: Bir veri kümesinden yeni bir rapor oluşturma
+      - name: Bir veri kümesinden rapor oluşturma
         href: service-report-create-new.md
       - name: Rapora filtre ekleme
         href: power-bi-report-add-filter.md
@@ -664,7 +652,7 @@ items:
         href: service-usage-metrics.md
       - name: Rapor için QR kodu oluşturma
         href: service-create-qr-code-for-report.md
-      - name: Bir raporu hizmetten Power BI Desktop’a aktarma (Önizleme)
+      - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
         href: service-export-to-pbix.md
       - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: Verileriniz hakkında soru sorma
       items:
+      - name: Power BI Soru-Cevap’ı kullanmaya başlama
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: Görselleştirmeleri ve raporları oluşturmak için Soru-Cevap’ı kullanma
         href: power-bi-tutorial-q-and-a.md
       - name: Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
         href: service-prepare-data-for-q-and-a.md
-      - name: Power BI için Cortana'yı etkinleştirme
-        href: service-cortana-enable.md
       - name: Soru-Cevap için öne çıkan sorular oluşturma
         href: service-q-and-a-create-featured-questions.md
-      - name: Power BI'daki görselleştirme türleri
+      - name: Soru-Cevap’taki görselleştirme türleri
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
         href: service-q-and-a-direct-query.md
+      - name: Power BI için Cortana'yı etkinleştirme
+        href: service-cortana-enable.md
+      - name: Power BI'daki Hızlı Öngörüler
+        href: service-insights.md
+      - name: Hızlı İçgörüler için verilerinizi en iyi duruma getirin
+        href: service-insights-optimize.md
     - name: Çalışmanızı paylaşma
       items:
       - name: Nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
@@ -710,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: İçerik Paketleri
-      items:
-      - name: Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: 'Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme'
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: 'Kurumsal içerik paketleri: Giriş'
-        href: service-organizational-content-pack-introduction.md
-      - name: Kurumsal içerik paketi oluşturma ve yayımlama
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: Kurumsal içerik paketi bağlantılarını kaldırma
-        href: service-organizational-content-pack-disconnect.md
-      - name: Sertifika
-        items:
-        - name: İçerik Paketi Sertifika Programı
-          href: service-content-pack-overview.md
-        - name: Şablon İçerik Paketi yazma
-          href: template-content-pack-authoring.md
-        - name: Şablon İçerik Paketi testi
-          href: template-content-pack-testing.md
-        - name: Şablon İçerik Paketi deneyimleri
-          href: template-content-pack-experience.md
     - name: Yayımla
       items:
       - name: Excel için Power BI Publisher
@@ -788,26 +760,56 @@ items:
       items:
       - name: Sayfalandırılmış raporlar nedir? (Önizleme)
         href: paginated-reports-report-builder-power-bi.md
-      - name: Sayfalandırılmış raporlar hakkında SSS
+      - name: Sayfalandırılmış raporlar hakkında SSS (Önizleme)
         href: paginated-reports-faq.md
-      - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
+      - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme (Önizleme)
         href: paginated-reports-quickstart-aw.md
-      - name: Rapor Tasarım Görünümünde gezinme
+      - name: Rapor Tasarım Görünümünde gezinme (Önizleme)
         href: paginated-reports-report-design-view.md
-      - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+      - name: Verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
         href: paginated-reports-enter-data.md
-      - name: Eklenmiş veri kaynağı oluşturma
+      - name: Eklenmiş veri kaynağı oluşturma (Önizleme)
         href: paginated-reports-embedded-data-source.md
-      - name: Eklenmiş veri kümesi oluşturma
+      - name: Eklenmiş veri kümesi oluşturma (Önizleme)
         href: paginated-reports-create-embedded-dataset.md
-      - name: Parametreler oluşturma
+      - name: Parametreler oluşturma (Önizleme)
         href: paginated-reports-parameters.md
-      - name: Sayfalandırılmış rapor yayımlama
+      - name: Sayfalandırılmış rapor yayımlama (Önizleme)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: Sayfalandırılmış rapor görüntüleme
+      - name: Sayfalandırılmış raporları görüntüleme (Önizleme)
         href: paginated-reports-view-power-bi-service.md
-      - name: Parametrelerle etkileşim kurma
+      - name: Parametrelerle etkileşim kurma (Önizleme)
         href: paginated-reports-view-parameters.md
+    - name: Diğer görevler
+      items:
+      - name: Power BI'daki içerikleri yeniden adlandırma
+        href: service-rename.md
+      - name: ABD Kamu kuruluşunuzu kaydetme
+        href: service-govus-signup.md
+      - name: Power BI'da neredeyse her şeyi silme
+        href: service-delete.md
+      - name: İçerik Paketleri
+        items:
+        - name: Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: 'Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: 'Kurumsal içerik paketleri: Giriş'
+          href: service-organizational-content-pack-introduction.md
+        - name: Kurumsal içerik paketi oluşturma ve yayımlama
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: Kurumsal içerik paketi bağlantılarını kaldırma
+          href: service-organizational-content-pack-disconnect.md
+        - name: Sertifika
+          items:
+          - name: İçerik Paketi Sertifika Programı
+            href: service-content-pack-overview.md
+          - name: Şablon İçerik Paketi yazma
+            href: template-content-pack-authoring.md
+          - name: Şablon İçerik Paketi testi
+            href: template-content-pack-testing.md
+          - name: Şablon İçerik Paketi deneyimleri
+            href: template-content-pack-experience.md
   - name: Kaynaklar
     items:
     - name: Videolar
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830413"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900394"
