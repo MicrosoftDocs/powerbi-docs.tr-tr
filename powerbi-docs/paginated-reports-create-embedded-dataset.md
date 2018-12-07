@@ -1,5 +1,5 @@
 ---
-title: Power BI sayfalandırılmış raporu için tümleşik veri kümesi oluşturma | Microsoft Docs
+title: Power BI sayfalandırılmış raporu için tümleşik veri kümesi oluşturma (Önizleme)
 description: Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağını temel alan tümleşik bir veri kümesi oluşturma işlemini öğreneceksiniz.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268846"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900440"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma (Önizleme)
 Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağını temel alan tümleşik bir veri kümesi oluşturma işlemini öğreneceksiniz. Tümleşik veri kümeleri tek bir sayfalandırılmış raporda kullanılmak üzere o raporda yer alır. Şu anda, Power BI hizmetinde yayımlanan sayfalandırılmış raporlar için tümleşik veri kümeleri ve tümleşik veri kaynakları gereklidir. Tümleşik veri kaynağını ve veri kümesini, raporunuzu oluştururken Rapor Oluşturucusu’nde oluşturursunuz. 
 
 Veri kümesini oluşturabilmeniz için bir veri kaynağı oluşturmak gerekir. Nasıl yapıldığını öğrenmek için Power BI hizmetinde [Sayfalandırılmış raporlar için tümleşik veri kaynakları](paginated-reports-embedded-data-source.md) bölümüne bakın.

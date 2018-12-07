@@ -1,5 +1,5 @@
 ---
-title: 'Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme | Microsoft Docs'
+title: 'Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme (Önizleme)'
 description: Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Rapor Oluşturucusu'ndaki sihirbazı kullanarak sayfalandırılmış bir rapor oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452836"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900624"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme (Önizleme)
 
 Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Rapor Oluşturucusu'ndaki sihirbazı kullanarak birden çok sayfaya yayılmış bir tablosu olan sayfalandırılmış raporu oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz. Power BI hizmetinde sayfalandırılmış raporlar şu anda önizleme aşamasındadır.
 

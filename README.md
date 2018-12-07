@@ -1,8 +1,13 @@
-# powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+# <a name="microsoft-power-bi-documentation"></a>Microsoft Power BI Belgeleri
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+Bu, **Power BI** için teknik ürün belgelerini içeren GitHub deposudur. Bu belgeler [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi) konumunda yayımlanır.
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## <a name="how-to-contribute"></a>Nasıl katkı sağlanır?
 
+Microsoft ürün ve hizmetleri için teknik içeriğin tutulduğu [Docs.microsoft.com](https://docs.microsoft.com/)'a katkı sağlama konusuyla ilgilendiğiniz için teşekkür ederiz.
+
+Bu depodaki içeriğe nasıl katkıda bulunabileceğinizi öğrenmek için, [Docs katkıda bulunma kılavuzumuzla](https://docs.microsoft.com/contribute) başlayın. Bir Microsoft çalışanıysanız, lütfen bu kılavuzun [iç sürümünü](https://aka.ms/docsguidescontribute) ziyaret edin.
+
+## <a name="code-of-conduct"></a>Kullanım kuralları
+
+Bu proje [Microsoft Açık Kaynak Kullanım Kuralları](https://opensource.microsoft.com/codeofconduct/)'nı benimsemiştir. Daha fazla bilgi için [Kullanım Kuralları SSS](https://opensource.microsoft.com/codeofconduct/faq/) bölümüne bakın ya da ek sorular veya açıklamalar için [opencode@microsoft.com](mailto:opencode@microsoft.com) ile iletişim kurun.

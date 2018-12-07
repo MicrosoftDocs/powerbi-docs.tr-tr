@@ -1,5 +1,5 @@
 ---
-title: Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme
+title: Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
 description: Bu makalede, Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış rapora nasıl girebileceğiniz gösterilir.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290080"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900417"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme) - Power BI
 
 Bu makalede, SQL Server 2016 Rapor Oluşturucusu'nun yeni sürümünde sağlanan ve verileri doğrudan RDL raporuna eklenmiş bir veri kümesi olarak girmenize olanak tanıyan özelliği öğreneceksiniz.  Bu özellik, Power BI Desktop'a benzer. Verileri doğrudan raporunuzdaki veri kümesine yazabilir veya Microsoft Excel gibi başka bir programdan yapıştırabilirsiniz. Verileri girerek veri kümesini oluşturduktan sonra, bunu aynı oluşturduğunuz diğer eklenmiş veri kümeleri gibi kullanabilirsiniz. Ayrıca, birden çok tablo ekleyebilir ve bir tabloyu diğeri için filtre olarak kullanabilirsiniz. Bu özellik rapor parametreleri gibi raporunuzda kullanmanız gerekebilecek küçük, statik veri kümelerinde özellikle kullanışlıdır.
  

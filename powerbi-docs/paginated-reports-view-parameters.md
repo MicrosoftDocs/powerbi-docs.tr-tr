@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme | Microsoft Docs
+title: Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme (Önizleme)
 description: Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametrelerle etkileşimde bulunma hakkında bilgi edineceksiniz.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d144030db1d35e103a476af8e96fa4b2b8b1dfaa
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268858"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900164"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme (Önizleme)
 
 Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametrelerle etkileşimde bulunma hakkında bilgi edineceksiniz.  Rapor parametresi, rapor verilerini filtrelemek için bir yol sağlar. Parametreler kullanılabilir değerlerin bir listesini sunar ve bir veya birden çok değer seçebilirsiniz. Bazen parametreler varsayılan bir değere sahip olur, bazı durumlarda ise raporu görebilmek için bir değer seçmeniz gerekir.  
 

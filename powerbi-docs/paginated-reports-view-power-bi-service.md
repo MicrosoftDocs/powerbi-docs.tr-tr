@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde sayfalandırılmış rapor görüntüleme | Microsoft Docs
+title: Power BI hizmetinde sayfalandırılmış rapor görüntüleme (Önizleme)
 description: Bu öğreticide, Power BI hizmetinde sayfalandırılmış raporları görüntüleme hakkında bilgi edineceksiniz.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268821"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900325"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor görüntüleme
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor görüntüleme (Önizleme)
 
 Bu makalede, Power BI hizmetinde sayfalandırılmış bir raporu görüntüleme hakkında bilgi edineceksiniz. Sayfalandırılmış raporlar, Rapor Oluşturucusu'nda oluşturulan ve Premium kapasitedeki herhangi bir çalışma alanına yüklenen raporlardır. Çalışma alanı adının yanında ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) elmas simgesini arayın. 
 

@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde sayfalandırılmış rapor yayımlama | Microsoft Docs
+title: Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 description: Bu öğreticide, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlamayı öğreneceksiniz.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268857"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900279"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 
 Bu makalede, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlama hakkında bilgi edineceksiniz. Sayfalandırılmış raporları Çalışma Alanım’a veya Premium kapasitede olan başka bir çalışma alanına yükleyebilirsiniz. Çalışma alanı adının yanında ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) elmas simgesini arayın. 
 
