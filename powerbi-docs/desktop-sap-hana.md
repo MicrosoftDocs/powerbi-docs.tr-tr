@@ -4,18 +4,19 @@ description: Power BI Desktop'ta SAP HANA'yı kullanma
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ba49fc09fb7b5a3885dbbcdf61086026e822ae03
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7f4ff77522f083c103210dce4cdc3a7cd2325ec5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669624"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025162"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA'yı kullanma
 Power BI Desktop'ta artık **SAP HANA** veritabanlarına erişebilirsiniz. **SAP HANA**'yı kullanabilmek için Power BI Desktop **SAP HANA** veri bağlantısının düzgün çalışabilmesi amacıyla yerel istemci bilgisayara SAP HANA ODBC sürücüsünün yüklenmesi gerekir. SAP HANA ODBC sürücüsünü [SAP Software Download Center](https://support.sap.com/swdc) sayfasından indirebilirsiniz. Bu sayfada Windows bilgisayarlar için SAP HANA CLIENT uygulamasını arayın. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz.
@@ -30,7 +31,7 @@ SAP HANA veritabanına bağlanırken sunucu adını ve bağlantı noktasını *s
 
 Bu sürümde Power BI Desktop ve Power BI hizmetinde **SAP HANA**, [DirectQuery](desktop-directquery-sap-hana.md) modunda desteklenmektedir ve **SAP HANA** kullanan raporları DirectQuery modunda Power BI hizmetine yükleyip orada yayımlayabilirsiniz. Ayrıca, **SAP HANA**'yı DirectQuery modunda kullanmadığınızda da raporları Power BI hizmetine yükleyip orada yayımlayabilirsiniz.
 
-### <a name="supported-features-for-sap-hana"></a>SAP HANA için desteklenen özellikler
+## <a name="supported-features-for-sap-hana"></a>SAP HANA için desteklenen özellikler
 Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** özelliği desteklenmektedir:
 
 * **SAP HANA** için Power BI bağlayıcısı, en iyi kullanıcı deneyimini sunmak için SAP ODBC sürücüsünü kullanır
@@ -40,8 +41,7 @@ Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** ö
 * HANA Modelleri için En İyi Duruma Getirilmiş Gezinti özelliklerine sahiptir
 * Power BI, **SAP HANA** Değişkenlerini ve giriş parametrelerini destekler
 
-### <a name="installing-the-sap-hana-odbc-driver"></a>SAP HANA ODBC sürücüsünü yükleme
-### <a name="limitations-of-sap-hana"></a>SAP HANA ile ilgili sınırlamalar
+## <a name="limitations-of-sap-hana"></a>SAP HANA ile ilgili sınırlamalar
 **SAP HANA** ile ilgili sınırlamalar aşağıda gösterilmiştir:
 
 * NVARCHAR dizeleri 4000 Unicode karakter olan maksimum uzunluğa göre kısaltılır

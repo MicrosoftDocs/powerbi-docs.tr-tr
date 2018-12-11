@@ -4,18 +4,19 @@ description: Power BI Desktop'a doğrudan kolayca veri ekleme
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0518350e3dd9fa9d0e7bf94c5d37621a308c37d1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669417"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025592"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Verileri doğrudan Power BI Desktop'a girme
 Power BI Desktop ile verileri doğrudan girebilir ve bunları raporlarınızın yanı sıra görselleştirmelerinizde kullanabilirsiniz. Örneğin, bir çalışma kitabının veya web sayfasının bölümlerini kopyalayıp Power BI Desktop'a yapıştırabilirsiniz.
@@ -38,7 +39,7 @@ Gördüğünüz gibi Power BI Desktop'a veri girmek bu kadar kolaydır.
 
 Artık görsel ve rapor oluşturmak veya diğer Excel çalışma kitapları, veritabanları ya da başka bir veri kaynağı gibi, bağlanmak veya içeri aktarmak isteyebileceğiniz verilerle etkileşime geçmek için Power BI Desktop'taki verileri kullanmaya hazırsınız.
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)

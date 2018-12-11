@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31cf660a969e1779625c205c6834ceaca92325d1
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 82cc459bcfd33d2aa576529899b7f893b0854c37
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268870"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180312"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources-preview"></a>Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)
 

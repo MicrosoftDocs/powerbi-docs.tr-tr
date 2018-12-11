@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547603"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979502"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -31,7 +31,7 @@ Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı port
 Panoları ve raporları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
 
 1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesaba kaydolun](../../service-self-service-signup-for-power-bi.md).
-2. [Kendi Power BI pano ve raporunuzu oluşturun](../../service-get-started.md) veya [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) ve [Adobe Analytics](../../service-connect-to-adobe-analytics.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../end-user-connect-to-services.md) bağlanın.
+2. [Kendi Power BI pano ve raporunuzu oluşturun](../../service-get-started.md) veya [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) ve [Adobe Analytics](../../service-connect-to-adobe-analytics.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../../service-connect-to-services.md) bağlanın.
 
 Power BI hizmetinde Power BI panoları şu şekilde görünür:
 

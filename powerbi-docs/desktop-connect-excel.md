@@ -4,18 +4,19 @@ description: Power BI Desktop'ta Excel çalışma kitabı verilerine kolayca ba�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669072"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025270"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Power BI Desktop'ta Excel'e bağlanma
 Power BI Desktop'tan bir Excel çalışma kitabına bağlanmak kolaydır ve bu makalede, söz konusu işlemi nasıl gerçekleştireceğiniz adım adım gösterilmektedir.
@@ -45,7 +46,7 @@ Yükleme tamamlandığında Power BI Desktop, ekranın sağ tarafındaki **Alanl
 
 Artık görsel ve rapor oluşturmak veya diğer Excel çalışma kitapları, veritabanları ya da başka bir veri kaynağı gibi bağlanmak veya içeri aktarmak isteyebileceğiniz verilerle etkileşime geçmek için Power BI Desktop'a Excel çalışma kitabınızdan aktardığınız verileri kullanmaya hazırsınız.
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
