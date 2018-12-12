@@ -32,7 +32,7 @@ items:
       href: sample-datasets.md
     - name: Örnek içerik paketlerini kullanma
       href: sample-tutorial-connect-to-the-samples.md
-    - name: 'Müşteri Karlılığı örneği: Tura katılın'
+    - name: 'Müşteri Kârlılığı örneği: Tura katılın'
       href: sample-customer-profitability.md
     - name: 'BT Harcama Analizi örneği: Tura katılın'
       href: sample-it-spend.md
@@ -40,7 +40,7 @@ items:
       href: sample-human-resources.md
     - name: 'Fırsat Analizi örneği: Tura katılın'
       href: sample-opportunity-analysis.md
-    - name: 'Procurement Analysis Sample: Tura katılın'
+    - name: 'Tedarik Analizi örneği: Tura katılın'
       href: sample-procurement.md
     - name: 'Perakende Analizi örneği: Tura katılın'
       href: sample-retail-analysis.md
@@ -184,9 +184,9 @@ items:
         href: desktop-sap-bw-connector.md
       - name: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
         href: desktop-use-onedrive-business-links.md
-      - name: 'Üçüncü taraf hizmet: Power BI Desktop için Facebook bağlayıcısı'
+      - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Facebook bağlayıcısı'
         href: service-facebook-connector.md
-      - name: 'Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı'
+      - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Google Analytics bağlayıcısı'
         href: service-google-analytics-connector.md
       - name: 'Project Online: Power BI Desktop aracılığıyla verilere bağlanma'
         href: desktop-project-online-connect-to-data.md
@@ -758,6 +758,14 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop’taki veri akışlarına bağlanma
         href: desktop-connect-dataflows.md
+      - name: Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
+        href: service-dataflows-azure-data-lake-integration.md
+      - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
+        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+      - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
+        href: service-dataflows-configure-workspace-storage-settings.md
+      - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
+        href: service-dataflows-add-cdm-folder.md
     - name: Power BI’daki sayfalandırılmış raporlar
       items:
       - name: Sayfalandırılmış raporlar nedir? (Önizleme)
@@ -794,7 +802,7 @@ items:
         items:
         - name: Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
           href: service-organizational-content-pack-manage-update-delete.md
-        - name: 'Kurumsal içerik paketleri: kopyalama, yenileme ve erişim elde etme'
+        - name: 'Kurumsal içerik paketleri: Kopyalama, yenileme ve erişim kazanma'
           href: service-organizational-content-pack-copy-refresh-access.md
         - name: 'Kurumsal içerik paketleri: Giriş'
           href: service-organizational-content-pack-introduction.md
@@ -1253,9 +1261,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979686"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181025"
