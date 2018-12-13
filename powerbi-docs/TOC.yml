@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Sayısal aralık dilimleyiciyi kullanma
         href: desktop-slicer-numeric-range.md
-      - name: Yeniden boyutlandırabileceğiniz, yanıt veren bir dilimleyici oluşturma
+      - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
         href: power-bi-slicer-filter-responsive.md
-      - name: Cortana için özel Power BI yanıt kartları oluşturma
+      - name: Cortana için özel yanıt kartları oluşturma
         href: service-cortana-answer-cards.md
       - name: Satır düzeyi güvenlik
         href: desktop-rls.md
-      - name: Power BI Desktop'taki ipuçlarını özelleştirme
+      - name: Araç ipuçlarını özelleştirme
         href: desktop-custom-tooltips.md
-      - name: Power BI Desktop'ta koşullu tablo biçimlendirme
+      - name: Koşullu tablo biçimlendirmesi
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop'ta sütuna göre sıralama
         href: desktop-sort-by-column.md
-      - name: Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
+      - name: Mobil uygulamalar için en iyi duruma getirilmiş raporlar oluşturma
         href: desktop-create-phone-report.md
       - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini kullanma
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Görselleştirmelere ilişkin en iyi uygulamalar
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Bir Power BI raporundaki görselleştirmenin türünü değiştirme
+      - name: Bir rapordaki görselleştirmenin türünü değiştirme
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Görsel türüne göre veri noktası sınırları
         href: visuals/power-bi-data-points.md
       - name: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
+      - name: Renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Power BI'da görselleştirmeleri kopyalayıp yapıştırma
+      - name: Görselleştirmeleri kopyalayıp yapıştırma
         href: visuals/power-bi-visualization-copy-paste.md
       - name: Görselleştirmeyi oluşturmak için kullanılan verileri dışarı aktarma
         href: visuals/power-bi-visualization-export-data.md
-      - name: Power BI raporlarındaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma
+      - name: Raporlardaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Tablolardaki köprüler
         href: power-bi-hyperlinks-in-tables.md
-      - name: Bir Power BI raporundaki Metin Kutusuna köprü ekleme
+      - name: Bir rapordaki metin kutusuna köprü ekleme
         href: service-add-hyperlink-to-text-box.md
       - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Panolar
       items:
-      - name: Power BI Panosu
+      - name: Panolara giriş
         href: service-dashboards.md
       - name: Pano kutucukları
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: Yeni çalışma alanları oluşturma (önizleme)
         href: service-create-the-new-workspaces.md
+      - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Filtrelenmiş rapor paylaşma
         href: service-share-reports.md
       - name: Power BI'dan web'de yayımlama
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181025"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280998"
