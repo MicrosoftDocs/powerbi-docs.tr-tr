@@ -854,6 +854,8 @@ items:
         href: developer/embed-sample-for-customers-sovereign-clouds.md
     - name: Kavramlar
       items:
+      - name: Performans açısından en iyi yöntemleri
+        href: developer/embedded-performance-best-practices.md
       - name: Satır düzeyi güvenlik (RLS)
         href: developer/embedded-row-level-security.md
       - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
@@ -1263,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8d672463e0f7ce1fb9f9a2fc938ae73cdd492a42
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280998"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329821"
