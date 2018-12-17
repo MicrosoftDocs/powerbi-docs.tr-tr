@@ -6,16 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 11/07/2018
+ms.date: 12/10/2018
 ms.author: mihart
-layout: LandingPage
+layout: landingpage
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: c3a506b8693560406b6fa961f4341b77f2745690
-ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
+ms.openlocfilehash: bd4592a8ba28277356f251c81906ac265c1759a2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53111529"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280892"
 ---
 # <a name="power-bi-for-consumers"></a>Kullanıcılar için Power BI
 Bir *son kullanıcı* veya *tüketici* olarak iş arkadaşlarınızdan pano, rapor ve uygulama alan kişi olursunuz. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşmek için ***Power BI hizmetinde*** çalışırsınız.

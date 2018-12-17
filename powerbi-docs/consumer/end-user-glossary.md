@@ -2,17 +2,18 @@
 title: Power BI kullanıcıları için sözlük
 description: Power BI ile birçok yeni terim ve tanıdık terimlerin yeni kullanımları ortaya çıktı. Power BI terminolojisine alışmak için sözlüğümüzü kullanabilirsiniz.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026369"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280800"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -42,7 +43,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 İndirilecek panolara, raporlara, veri kümelerine ve uygulamalara göz atıp bunları keşfedebileceğiniz **AppSource** Merkezi çevrimiçi deposu.
 
-**ArcGIS Maps for Power BI** ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı, ArcGIS for Power BI’dır.
+**ArcGIS for Power BI** ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı ArcGIS for Power BI'dır.
 
 **atamak** [Power BI Premium] Çalışma alanını ayrılmış bir kapasitenin içine veya dışına taşımayı açıklayan fiil. Çalışma alanını ayrılmış bir kapasiteye taşıma işlemi için yükseltme fiilini kullanmayın çünkü bu fiil ayrılmış kapasitenin paylaşılan kapasiteden üstün olduğuna ilişkin bir çağrışım yaratır.  
 
