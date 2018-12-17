@@ -1,21 +1,22 @@
 ---
-title: OneDrive'daki virgülle ayrılmış değer (.csv) dosyalarından oluşturulan veri kümelerini yenileme
+title: OneDrive'daki bir .csv dosyasından oluşturulan veri kümelerini yenileme
 description: OneDrive'daki virgülle ayrılmış değer (.csv) dosyalarından oluşturulan veri kümelerini yenileme
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670402"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025546"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'daki bir .CSV dosyasından oluşturulan veri kümelerini yenileme
 ## <a name="what-are-the-advantages"></a>Avantajları nelerdir?
@@ -29,7 +30,7 @@ Birçok kuruluş her gün veritabanlarının otomatik olarak sorgulandığı ve 
 Virgülle ayrılmış değer dosyaları basit metin dosyalarıdır, bu nedenle dış veri kaynaklarına ve raporlara yönelik bağlantılar desteklenmez. Virgülle ayrılmış değer dosyasından oluşturulan veri kümelerinde yenileme zamanlayamazsınız. Ancak dosya OneDrive veya SharePoint Online'da bulunduğunda Power BI, dosyada yapılan tüm değişiklikleri yaklaşık bir saatlik aralıklarla otomatik olarak eşitler.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive veya OneDrive İş. Aralarındaki fark nedir?
-Hem kişisel OneDrive hem de OneDrive İş kullanıyorsanız Power BI'da bağlanmak istediğiniz dosyaları OneDrive İş hesabınızda tutmanız önerilir. Bunun nedeni, büyük olasılıkla bu hesaplarda oturum açmak için farklı hesaplar kullanıyor olmanızdır.
+Hem kişisel OneDrive hem de OneDrive İş kullanıyorsanız Power BI'da bağlanmak istediğiniz dosyaları OneDrive İş hesabınızda tutmanız önerilir. Nedeni bu hesaplarda oturum açmak için muhtemelen farklı hesaplar kullanıyor olmanızdır.
 
 Power BI'da oturum açmak için kullandığınız hesap, OneDrive İş'te oturum açmak için kullandığınız hesapla genellikle aynı olduğundan, Power BI'da OneDrive İş'e kesintisiz bir şekilde bağlanabilirsiniz. Ancak kişisel OneDrive hesabınızda oturum açmak için muhtemelen farklı bir [Microsoft hesabı](https://account.microsoft.com) kullanıyorsunuzdur.
 

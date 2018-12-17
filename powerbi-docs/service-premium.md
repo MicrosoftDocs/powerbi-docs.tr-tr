@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717643"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025454"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 
@@ -45,11 +46,11 @@ Aşağıdaki tabloda paylaşılan kapasite ve Premium kapasite arasındaki farkl
 |  | Paylaşılan kapasite | Power BI Premium kapasitesi |
 | --- | --- | --- |
 | **Yenileme sıklığı** |Günde 8 kez |48/gün |
-| **Ayrılmış donanımla yalıtım** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
+| **Ayrılmış donanımla yalıtım** |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
 | _**Tüm kullanıcılara**_ **yönelik Kurumsal Dağıtım** | | |
-| Uygulamalar ve paylaşım |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>1</sup> |
-| Katıştırılmış API ve denetimler |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir")<sup>2</sup> |
-| **Power BI raporlarını şirket içinde yayımlama** |![](media/service-premium/not-available.png "Kullanılamaz") |![](media/service-premium/available.png "Kullanılabilir") |
+| Uygulamalar ve paylaşım |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
+| Katıştırılmış API ve denetimler |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png)<sup>2</sup> |
+| **Power BI raporlarını şirket içinde yayımlama** |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> Daha fazla bilgi için bkz. [Lisans türüne göre özellikler](service-features-license-type.md).*  
@@ -88,7 +89,7 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 Power BI’da iş yükünü kullanıcılarınızın kullanımına sunabileceğiniz çok sayıda hizmetten biri olarak düşünün. Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler.
 
-Şimdi iki iş yükü için daha önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
+Şimdi iki ek iş yükü için önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
 
 ### <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
@@ -115,7 +116,7 @@ Sayfalandırılmış raporlar iş yükünü kullanıyorsanız, aşağıdaki nokt
 
 * **Sayfalandırılmış raporlarda bellek ayırma**: Sayfalandırılmış raporlar bir raporu işlerken (örneğin, içeriğe göre metin rengini dinamik olarak değiştirme) kendi kodunuzu çalıştırmanıza olanak tanır. Bu durum göz önünde bulundurulduğunda, sayfalandırılmış raporları kapasite dahilindeki sınırlı bir alanda çalıştırarak Power BI Premium kapasitesinin güvenliğini sağlarız. İş yükünün etkin olup olmadığına bakılmaksızın, bu alanı belirtmek için en büyük belleği atarız. Power BI raporlarını veya veri akışlarını aynı kapasitede kullanıyorsanız, sayfalandırılmış raporlar için diğer iş yüklerini olumsuz yönde etkilemeyecek kadar düşük bellek ayarladığınızdan emin olun.
 
-* **Sayfalandırılmış raporlar kullanılamıyor**: Nadir durumlarda sayfalandırılmış raporlar kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
+* **Sayfalandırılmış raporlar kullanılamıyor**: Nadir durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
 
 ## <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 

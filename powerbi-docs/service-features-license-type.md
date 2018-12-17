@@ -1,44 +1,42 @@
 ---
-title: Power BI Ücretsiz ve Pro
-description: Power BI kullanıcıları, Ücretsiz sürümü veya Pro sürümünü kullananlar olarak ikiye ayrılır. Bu iki kullanıcı türü arasındaki farkları bilmeniz önemlidir.
+title: Lisans türüne göre Power BI hizmeti özellikleri
+description: 'Power BI hizmetinde, kullanıcıların iki tür lisans temelinde tanımlanmış özellikleri vardır: kullanıcı başına (ücretsiz ve Pro) ve kapasite temelli.'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641310"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025889"
 ---
-# <a name="power-bi-free-vs-pro"></a>Power BI Ücretsiz ve Pro
+# <a name="power-bi-service-features-by-license-type"></a>Lisans türüne göre Power BI hizmeti özellikleri
 
-Power BI kullanıcıları, Ücretsiz sürümü veya Pro sürümünü kullananlar olarak ikiye ayrılır. Bu iki kullanıcı türü arasındaki farkları bilmeniz önemlidir.
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-Hizmetteki *tüm kullanıcılar* Ücretsiz sürümü veya Pro sürümünü kullanır. Ücretsiz sürümü veya Pro sürümünü kullanan kullanıcılar arasındaki temel fark, paylaşma ve işbirliği konusunda aynı olanaklara sahip olmamalarıdır. Uygulama çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma olanaklarından yalnızca Pro sürümüne sahip kullanıcılar faydalanabilir. Ücretsiz sürüme sahip kullanıcılar artık DirectQuery, canlı bağlantı ve ağ geçidi kullanımı gibi her bağlantı seçeneğini kullanarak tüm veri kaynaklarına erişebilir.
+## <a name="per-user-license-type-comparison"></a>Kullanıcı başına lisans türü karşılaştırması
 
-Bir uygulama yayımlanır ve ilişkili olduğu uygulama çalışma alanı Premium kapasiteye atanırsa Ücretsiz sürüme sahip kullanıcılar bu uygulamaları kullanabilir.
-
-## <a name="free-vs-pro-comparison"></a>Ücretsiz ve Pro sürümü karşılaştırması
-Aşağıda, kullanıcı türüne göre desteklenen özelliklerin bir listesi yer almaktadır.
+Aşağıda, kullanıcı başına lisans türü tarafından desteklenen özelliklerin bir listesi yer almaktadır.
 
 |  | Ücretsiz | Pro |
 | --- | --- | --- |
 | **70'ten fazla veri kaynağına bağlanma** |![Özellik kullanılabilir](media/features-license-type/available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | **Web'de yayımlama** |![Özellik kullanılabilir](media/features-license-type/available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
-| **Eşler arası paylaşma** |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | **PowerPoint, Excel ve CSV'ye aktarma** |![Özellik kullanılabilir](media/features-license-type/available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | **Kurumsal dağıtım** | | |
 | Uygulamalar |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | E-posta abonelikleri |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | API ve denetim ekleme |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | **İşbirliği** | | |
+| Eşler arası paylaşma |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | Uygulama çalışma alanları |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | Excel'de çözümleme, Power BI Desktop'ta çözümleme |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 

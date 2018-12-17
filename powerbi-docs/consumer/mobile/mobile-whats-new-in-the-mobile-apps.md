@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297240"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979571"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -300,7 +300,7 @@ Bu menü, iOS işletim sistemi ve Android tabletler için ilk kez kullanıma sun
 #### <a name="android"></a>Android
 **Active Directory Federasyon Hizmetleri (AD FS) Önizlemesini kullanarak SSRS Kimlik Doğrulaması** Artık kuruluş hesabınız ile mobil cihazınızı kullanarak şirket içi SQL Server Reporting Services sunucularında oturum açabilirsiniz. [SSRS sunucularına bağlanmak için OAuth yöntemini kullanma](mobile-oauth-ssrs.md) hakkında daha fazla bilgi edinin.
 
-**Yeni ve iyileştirildi: Öngörülere not ekleme ve öngörüleri hızla paylaşma** Paylaşma ve not ekleme özellikleri artık Android cihazlarda tamamen kullanılabilir durumda. İyileştirilen menü sayesinde öngörülere not eklemek ve bunları paylaşmak çok daha kolay ve hızlı hale geldi. Ayrıca artık, not eklenen raporları doğrudan Power BI uygulamasından paylaşabilirsiniz.
+**Yeni ve iyileştirildi: İçgörülere not ekleme ve içgörüleri hızla paylaşma** Paylaşma ve not ekleme özellikleri artık Android cihazlarda tamamen kullanılabilir durumda. İyileştirilen menü sayesinde öngörülere not eklemek ve bunları paylaşmak çok daha kolay ve hızlı hale geldi. Ayrıca artık, not eklenen raporları doğrudan Power BI uygulamasından paylaşabilirsiniz.
 
 ### <a name="december-2016"></a>Aralık 2016
 [Aralık 2016 güncelleştirmesi ile kullanıma sunulan mobil uygulama özelliklerine ilişkin özete](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016) göz atın.
@@ -346,7 +346,7 @@ Resim kutucuğunda pano sahibi tarafından tanımlanmış özel bir URL varsa ku
 * [Android tabletinizde Reporting Services mobil raporlarını ve KPI'lerini](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) inceleyin
 
 #### <a name="android-devices"></a>Android cihazlar
-**Önizleme: Intune Mobil Uygulama Yönetimi** Microsoft Intune Mobil Uygulama Yönetimi'ne (MAM) yönelik Power BI desteği artık, Android cihaz kullanan Power BI Pro kullanıcıları için önizlemede. 
+**Önizleme: Intune Mobil Uygulama Yönetimi** Microsoft Intune Mobil Uygulama Yöneticisi’ne (MAM) yönelik Power BI desteği artık, Android cihaz kullanan Power BI Pro kullanıcıları için önizlemede. 
 
 **Sık kullanılanlar** Android cihazınızda sık kullandığınız panolarınızı etiketleyerek [sık kullanılan Power BI panolarınızın, Reporting Services mobil raporlarınızın ve KPI'lerinizin](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) tamamını tek bir yerde görebilirsiniz. 
 
@@ -458,8 +458,8 @@ Power BI mobil uygulamanızdaki bildirim merkezinde, sizinle paylaşılan yeni v
 ### <a name="may-2016"></a>Mayıs 2016
 #### <a name="ios-devices-and-android-phones"></a>iOS cihazları ve Android telefonlar
 * **QR kodları** artık **raporlar** için de kullanılabilir. Power BI uygulamanızda kodu taradığınızda, gezinmenize veya arama yapmanıza gerek kalmadan doğrudan ilgili bir rapora yönlendirilirsiniz.
-* SQL Server 2016 Reporting Services için **iyileştirilmiş veri yönetimi**: Cihazınızdaki yükleme süreleri ve veri kullanımı azaltıldı.
-* **SQL Server 2016 temalı mobil raporlar**: Cihazınızda mobil raporlar için kullanıma sunulan temalara göz atın.
+* SQL Server 2016 Reporting Services için **gelişmiş veri yönetimi**: Cihazınızda veri tüketimi azaltıldı ve yükleme süreleri kısaltıldı.
+* **SQL Server 2016 temalı mobil raporlar**: Cihazınızdaki mobil raporlar için temalara bakın.
 * **Coğrafi filtreleme**: Raporları, bulunduğunuz konuma göre filtreleyin.
 
 ### <a name="april-2016"></a>Nisan 2016
@@ -523,7 +523,7 @@ Panoları [Windows 10 telefonlarında yatay modda](mobile-apps-view-dashboard.md
 
 [Raporları Windows 10 telefonunuzda görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
 
-[Windows 10 mobil panolarınızda öngörü elde etme](mobile-tiles-in-the-mobile-apps.md) süresi kısaldı: Doğrudan panodan kutucuk anlık görüntüleri paylaşabilir veya raporları açabilirsiniz.
+[Windows 10 mobil panolarınızda daha hızlı içgörü](mobile-tiles-in-the-mobile-apps.md) elde etme: Doğrudan panodan bir raporu açın veya bir kutucuk anlık görüntüsünü paylaşın.
 
 ### <a name="january-2016"></a>Ocak 2016
 Ocak ayında yapılan iyileştirmelerin tümü, Aralık 2015'te kullanıma sunulan yeni [Windows 10 telefonları için Power BI uygulamasında](mobile-windows-10-phone-app-get-started.md) zaten mevcuttu. Artık bu iyileştirmeleri, mobil cihazlara yönelik diğer Power BI uygulamalarında da sunuyoruz. Bu iyileştirmeler ile ilgili blog gönderisine göz atın.
@@ -536,7 +536,7 @@ Ocak ayında yapılan iyileştirmelerin tümü, Aralık 2015'te kullanıma sunul
 
 **R kutucukları ve web pencere öğeleri** Mobil cihazınızdaki panolarda bu yeni kutucuk türlerini görüntüleyin.
 
-**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../end-user-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
+**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../../service-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
 
 **Panolara kutucuk olarak sabitlenen rapor sayfaları** Rapor sayfalarının tamamını Power BI hizmetindeki panolara sabitleyebilir ve rapor sayfalarını iPhone'unuzda veya Android telefonunuzda Power BI uygulamasında görüntüleyebilirsiniz.
 
@@ -600,8 +600,8 @@ Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Aralık ayınd
 Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik Power BI mobil uygulamalarında iyileştirmeler yapıldı. [Power BI mobil uygulamaları için Eylül ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) göz atın.
 
 #### <a name="android"></a>Android
-* Grup çalışma alanları desteği: Grup çalışma alanlarında iş arkadaşlarınızla işbirliği yapabilirsiniz. 
-* Kimliği doğrulanmamış kullanıcılar için destek: Kullanıcıların uygulamada oturum açamadığı birkaç senaryo için, destek ekibi ile iletişim kurmaya ve geri bildirim göndermeye yönelik hızlı, kullanışlı bir yöntem geliştirdik.
+* Grup çalışma alanları desteği: Grup çalışma alanlarında iş arkadaşlarınızla işbirliği yapın. 
+* Kimliği doğrulanmamış kullanıcılar için destek:  Kullanıcıların uygulamada oturum açamadığı birkaç senaryo için, destek ekibi ile iletişim kurmaya ve geri bildirim göndermeye yönelik hızlı, kullanışlı bir yöntem geliştirdik.
 * Rol tabanlı güvenlik yöntemi ile panolara erişim sırasında sunulan kullanıcı deneyimi iyileştirildi.          
 * Grafiklerin veri biçimlendirmesi ve tüm pano kutucuklarının hizalaması iyileştirildi. 
 

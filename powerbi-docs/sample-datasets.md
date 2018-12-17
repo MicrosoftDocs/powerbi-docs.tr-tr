@@ -4,25 +4,26 @@ description: Power BI için örnek içerik paketleri, PBIX dosyaları ve Excel v
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717804"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180910"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Bir veri kümeniz olsa da (henüz) Power BI'ın nasıl çalıştığını bilmediğinizden veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
 
 Paniğe kapılmayın! obviEnce ([www.obvience.com](http://www.obvience.com/)) ve Microsoft, Power BI kullanımıyla ilgili olarak kendinizi daha rahat hissedene kadar kullanabileceğiniz örnekler oluşturmuştur.  Veriler anonimleştirilmiştir ve farklı sektörleri temsil eder: finans, İK, satış ve daha fazlası. Ayrıca çevrimiçi belgelerimizi okudukça aynı örneklerin kullanıldığı eğitimler ve durumlarla karşılaşırsınız. Bu, sizin de aynı adımları uygulayabileceğiniz anlamına gelir.      
 
-   ![](media/sample-datasets/power-bi-samples.png)
+   ![Kullanılabilir örnekler](media/sample-datasets/power-bi-samples.png)
 
 Bu örneklerden her biri çeşitli biçimlerde kullanılabilir: içerik paketi, tek bir Excel çalışma kitabı ve .pbix dosyası. Bunların ne olduğunu veya nasıl kullanıldıklarını bilmiyorsanız endişelenmeyin. Bu makalenin ilerleyen bölümlerinde buna değineceğiz. Ayrıca her örnek için, örneğin arka planındaki hikayeyi anlatacak ve farklı senaryolarla size yol gösterecek bir makale türü olan *turları* oluşturduk. Senaryolardan biri, yöneticinizin sorularını cevaplamak; diğeri ise rekabete dayalı öngörüler aramak veya paylaşılacak raporlar ve panolar oluşturmak ya da işle ilgili bir değişimi açıklamak olabilir.   
 
@@ -48,42 +49,42 @@ Excel çalışma kitabı dosyalarını veya .pbix dosyalarını indirmek için a
 ## <a name="available-samples"></a>Kullanılabilir örnekler
 Kullanabileceğiniz sekiz örnek mevcuttur.  Her biri farklı bir sektörü temsil eder.
 
-### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>Müşteri Kârlılığı örneği  ![](media/sample-datasets/power-bi-cp2.png)
+### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Müşteri Kârlılığı örneği  ![Müşteri Kârlılığı örneği](media/sample-datasets/power-bi-cp2.png)
 [Müşteri Kârlılığı örneğine ilişkin tura katılın](sample-customer-profitability.md)
 
 Bu sektör örneğinde, bir CFO'nun, yöneticilerine, ürünlerine ve müşterilerine ilişkin ana ölçümleri çözümlenmektedir. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz.
 
-### <a name="human-resources-sample--mediasample-datasetspower-bi-hrpng"></a>İnsan Kaynakları örneği  ![](media/sample-datasets/power-bi-hr.png)
+### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>İnsan Kaynakları örneği  ![İnsan Kaynakları örneği](media/sample-datasets/power-bi-hr.png)
 [İK örneğine ilişkin tura katılın](sample-human-resources.md)
 
 Bu sektör örneğinde, yeni işe alımlar, etkin çalışanlar ve işten ayrılan çalışanlar çözümlenerek bir şirkete yönelik işe alım stratejisine odaklanılır.  Verileri araştırarak, gönüllü ayrılık eğilimlerine ve işe alım stratejisinde gözlemlenen önyargılara ulaşabilirsiniz.
 
-### <a name="it-spend-analysis-sample-mediasample-datasetspower-bi-itpng"></a>BT Harcama Analizi örneği ![](media/sample-datasets/power-bi-it.png)
+### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>BT Harcama Analizi örneği ![BT Harcama Analizi örneği](media/sample-datasets/power-bi-it.png)
 [BT Harcama Analizi örneğine ilişkin tura katılın](sample-it-spend.md)
 
 Bu sektör örneğinde, bir şirketin BT departmanının planlanmış maliyetleriyle gerçek maliyetlerini karşılaştırmalı olarak çözümleriz. Bu karşılaştırma şirketin yıl için ne kadar iyi planlama yaptığını anlamamıza yardımcı olur ve plana göre büyük sapmalar görülen alanları araştırmamıza olanak tanır. Bu örnekteki şirket yıllık bir planlama döngüsünden geçer ve ardından finansal yılda BT'ye yapılan harcamalardaki değişiklikleri çözümlemelerine yardımcı olması için üç ayda bir yeni En Yeni Tahmin (LE) oluşturur.
 
-### <a name="opportunity-analysis-sample--mediasample-datasetspower-bi-oapng"></a>Fırsat Analizi örneği  ![](media/sample-datasets/power-bi-oa.png)
+### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Fırsat Analizi örneği  ![Fırsat Analizi örneği](media/sample-datasets/power-bi-oa.png)
 [Fırsat Analizi örneğine ilişkin tura katılın](sample-opportunity-analysis.md)
 
 Bu sektör örneği bir yazılım şirketinin satış kanalını araştırır. Satış yöneticileri, fırsatları ve geliri bölgeye, anlaşma boyutuna ve kanala göre izleyerek doğrudan ve iş ortağı satış kanallarını izler.
 
-### <a name="procurement-analysis-sample--mediasample-datasetspower-bi-papng"></a>Tedarik Analizi örneği ![](media/sample-datasets/power-bi-pa.png)
+### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Tedarik Analizi örneği  ![Tedarik Analizi örneği](media/sample-datasets/power-bi-pa.png)
 [Tedarik Analizi örneğine ilişkin tura katılın](sample-procurement.md)
 
 Bu sektör örneğinde, bir CFO'nun, yöneticilerine, ürünlerine ve müşterilerine ilişkin ana ölçümleri çözümlenmektedir. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz
 
-### <a name="retail-analysis-sample--mediasample-datasetspower-bi-rspng"></a>Perakende Analizi örneği ![](media/sample-datasets/power-bi-rs.png)
+### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Perakende Analizi örneği  ![Perakende Analizi örneği](media/sample-datasets/power-bi-rs.png)
 [Perakende Analizi örneğine ilişkin tura katılın](sample-retail-analysis.md)
 
 Bu sektör örneğinde, birden fazla mağazada ve bölgede satışı yapılan ürünlere ilişkin perakende satış verileri çözümlenir. Ölçümler şu alanlarda bu yılın performansını geçtiğimiz yılın performansıyla karşılaştırır: yeni mağaza analizinin yanı sıra satış, birimler, brüt marj ve varyans.
 
-### <a name="sales-and-marketing-sample--mediasample-datasetspower-bi-smpng"></a>Satış ve Pazarlama örneği ![](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Satış ve Pazarlama örneği  ![Satış ve Pazarlama örneği](media/sample-datasets/power-bi-sm.png)
 [Satış ve Pazarlama örneğine ilişkin tura katılın](sample-sales-and-marketing.md)
 
 Bu sektör örneğinde, VanArsdel Ltd. adlı bir üretim şirketi çözümlenir. Pazarlama Müdürünün VanArsdel için sektörü ve pazar payını izlemesine olanak tanır.  Örneği araştırarak şirketin pazar payına, ürün hacmine, satışlarına ve yaklaşım bilgilerine ulaşabilirsiniz.
 
-### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>Tedarikçi Kalitesi örneği ![](media/sample-datasets/power-bi-sq.png)
+### <a name="supplier-quality-sample--supplier-quality-samplemediasample-datasetspower-bi-sqpng"></a>Tedarikçi Kalitesi örneği  ![Tedarikçi Kalitesi örneği](media/sample-datasets/power-bi-sq.png)
 [Tedarikçi Kalitesi örneğine ilişkin tura katılın](sample-supplier-quality.md)
 
 Bu sektör örneğinde, genel olarak karşılaşılan tedarik zinciri zorluklarından biri olan tedarikçi kalite analizine odaklanılır. Bu analizde iki birincil ölçüm ön plandadır: toplam hata sayısı ve bu hataların neden olduğu toplam çalışmama süresi. Bu örneğin iki ana hedefi vardır: kalite açısından en iyi ve en kötü tedarikçileri belirlemek ve çalışmama süresini en aza indirmek için hataları bulma ve reddetme konusunda hangi tesislerin daha iyi bir iş çıkardığını öğrenmek.
@@ -100,16 +101,16 @@ Yukarıda da belirtildiği gibi, örnekler çeşitli biçimlerde kullanılabilir
 1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![Veri Al simgesi](media/sample-datasets/power-bi-get-data.png)
 3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![Örnekler simgesi](media/sample-datasets/power-bi-samples-icon.png)
 4. Açıklamasını görmek üzere örneklerden birini açın. Ardından, **Bağlan** seçeneğini belirleyin.  
 
-   ![](media/sample-datasets/power-bi-connect.png)
+   ![Bir örnek seçin > Bağlan’ı seçin](media/sample-datasets/power-bi-connect.png)
 5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. Power BI'da test çalıştırması gerçekleştirmek için örnekleri kullanın.  
 
-   ![](media/sample-datasets/power-bi-asterisk.png)
+   ![Yeni içerik yıldız işareti *](media/sample-datasets/power-bi-asterisk.png)
 
 Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketlerini kullanarak eğitimlerimizden bazılarını deneyin veya Power BI hizmetini açıp dilediğiniz gibi araştırma yapın.
 
@@ -128,10 +129,10 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
    * [Satış ve Pazarlama Örneği](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. İndirdiğiniz dosyayı kaydedin. Dosyayı kaydettiğiniz yer önemlidir.
 
-   * ![](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI'ı kullanarak dosyanızı Power BI'a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen asıl işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - İş**: OneDrive İş kullanıyorsanız ve OneDrive İş'te oturum açarken, Power BI'a bağlandığınız hesabı kullanıyorsanız bu, Excel'deki, Power BI'daki veya bir .CSV dosyasındaki çalışmanızı veri kümeniz, raporlarınız ve panolarınız ile Power BI'da eşitlenmiş durumda tutmanın açık ara en etkili yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş'te sahip olduğunuz avantajların pek çoğundan yararlanabilirsiniz. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel adımlarını kullanarak) OneDrive oturumunuzu Microsoft hesabınızla açmanız gerekir. Bu hesap genellikle, Power BI'da oturum açarken kullandığınızdan farklı bir hesaptır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
-   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Ekip Siteleri**: Power BI dosyalarınızı SharePoint - Ekip Siteleri'ne kaydetme, OneDrive İş'e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
+   * ![Yerel](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI’ı kullanarak dosyanızı Power BI’a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen asıl işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
+   * ![OneDrive İş](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - İş**: OneDrive İş kullanıyorsanız ve OneDrive İş'te oturum açarken, Power BI'a bağlandığınız hesabı kullanıyorsanız bu, Excel'deki, Power BI'daki veya bir .CSV dosyasındaki çalışmanızı veri kümeniz, raporlarınız ve panolarınız ile Power BI'da eşitlenmiş durumda tutmanın açık ara en etkili yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
+   * ![OneDrive Bireysel](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş ile ilgili olarak elde ettiğiniz avantajların pek çoğundan yararlanırsınız. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel yolunu izleyerek) OneDrive'da Microsoft hesabınızla oturum açmanız gerekir. Bu genellikle, Power BI'da oturum açarken kullandığınız hesaptan farklıdır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
+   * ![SharePoint Ekip Siteleri](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint Ekip Siteleri**    Power BI dosyalarınızı SharePoint - Ekip Siteleri’ne kaydetme, OneDrive İş’e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
 3. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 
    > [!TIP]
@@ -140,23 +141,23 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
    >
 4. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![Veri Al simgesi](media/sample-datasets/power-bi-get-data.png)
 5. Görünen Veri Al sayfasında **Dosyalar > Al** seçeneğini belirleyin.
 
-     ![](media/sample-datasets/power-bi-files.png)
+     ![Dosyalar > Al](media/sample-datasets/power-bi-files.png)
 6. Örneği indirip kaydettiğiniz konuma gidin.
 
-   ![](media/sample-datasets/power-bi-files3.png)
+   ![Örneği kaydettiğiniz konum](media/sample-datasets/power-bi-files3.png)
 7. OneDrive İş'e kaydedilen dosyayı (bu örnekte **Procurement Analysis Sample.xlsx**) seçin ve **Bağlan** seçeneğini belirleyin.
 
-   ![](media/sample-datasets/power-bi-connect2.png)
+   ![One Drive İş > Bağlan](media/sample-datasets/power-bi-connect2.png)
 8. Verileri içeri aktarma ile çalışma kitabını Power BI'a aktarıp tam olarak Excel Online'da göründüğü şekilde görüntüleme arasında bir seçim yapın.
 
-    ![](media/sample-datasets/power-bi-import.png)
+    ![İçeri Aktar veya Bağlan](media/sample-datasets/power-bi-import.png)
 9. **İçeri aktar** seçeneğini belirlemeniz durumunda Power BI, örnek çalışma kitabını içeri aktarır **Tedarik Analizi Örneği** adında yeni bir veri kümesi olarak ekler.  Çalışma kitabında herhangi bir Power View sayfası, tablo veya aralık ya da veri modeli varsa Power BI bir rapor (aynı ada sahip) da oluşturur. Ayrıca, açık bir panoya sahip olmamanız halinde Power BI tarafından yeni bir pano oluşturulur. (**Veri Al** seçeneğine tıkladığınız sırada bir panonuz açıksa bu panoda yeni bir boş kutucuk görürsünüz.  Bu kutucuğa tıkladığınızda, yeni eklediğiniz veri kümesine ilişkin rapora yönlendirilirsiniz.) Yeni içerik örneğin adını alır ve sarı yıldızla işaretlenir.
 10. **Veri kümeniz hazır!** ekranı göründüğünde, **Veri kümesini görüntüle** veya **Hızlı Öngörüler Alın** seçeneğini belirleyin ya da Power BI'daki sol gezinti çubuğunuzu kullanarak ilişkili raporu ya da panoyu bulup açın.  
 
-     ![](media/sample-datasets/power-bi-ready.png)
+     ![Veri kümesini görüntüle](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(İsteğe bağlı) Doğrudan Excel üzerinden Excel örneklerine göz atın
 Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporlarına nasıl dönüştürüldüğünü öğrenmek mi istiyorsunuz? Excel örneklerinin ***Excel'de*** açılması ve çalışma sayfalarının incelenmesi sizi bazı cevaplara ulaştıracaktır.
@@ -187,13 +188,13 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 
 1. Power BI Desktop'ta **Dosya > Aç** seçeneğini belirleyin ve örnek .pbix dosyasını kaydettiğiniz konuma gidin.
 
-   ![](media/sample-datasets/power-bi-desktop-open.png)
+   ![Dosya > Power BI Desktop’ta Aç](media/sample-datasets/power-bi-desktop-open.png)
 4. Power BI Desktop'ta açmak için .pbix dosyasını seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI temel kavramları](consumer/end-user-basic-concepts.md)
 
-[Eğitim: Power BI örneklerine bağlanma](sample-tutorial-connect-to-the-samples.md)
+[Öğretici: Power BI örneklerine bağlanma](sample-tutorial-connect-to-the-samples.md)
 
 [Power BI için veri kaynakları](service-get-data.md)
 

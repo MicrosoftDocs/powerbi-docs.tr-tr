@@ -1,31 +1,32 @@
 ---
-title: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
-description: Kuruluşunuz için Power BI API’lerini kullanarak bir raporun, panonun veya kutucuğun bir web uygulamasına nasıl tümleştirileceğini veya ekleneceğini öğrenin.
+title: Kuruluşunuz için uygulamanıza Power BI içeriği eklemek için tümleşik analiz
+description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396877"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180772"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için bir uygulamaya Power BI raporu, pano veya kutucuk ekleme
 
-Bu öğreticide, bir raporun bir uygulamayla nasıl tümleştirileceği gösterilmektedir. Kuruluşunuz için bir uygulamaya Power BI yerleştirmek için Power BI JavaScript API’si ile birlikte Power BI .NET SDK’sını kullanırsınız. Power BI’da, **verilerin sahibi kullanıcıdır** yapısını kullanarak bir uygulamaya raporlar, panolar veya kutucuklar ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, uygulamanızın Power BI hizmetinin kapsamını genişletmesini sağlar.
+**Power BI**’da, verilerin sahibi kullanıcıdır yapısını kullanarak bir uygulamaya raporlar, panolar veya kutucuklar ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, tümleşik analizi kullanmak için uygulamanızın Power BI hizmetinin kapsamını genişletmesini sağlar. Bu öğreticide, bir raporun bir uygulamayla nasıl tümleştirileceği gösterilmektedir. Kuruluşunuz için bir uygulamaya Power BI eklemek için Power BI JavaScript API’si ile birlikte Power BI .NET SDK’sını kullanırsınız.
 
 ![Power BI Rapor Ekleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 Bu öğreticide, aşağıdaki görevleri öğreneceksiniz:
->[!div class="checklist"]
->* Azure’da bir uygulama kaydetme.
->* Bir uygulamaya Power BI raporu ekleme.
+> [!div class="checklist"]
+> * Azure’da bir uygulama kaydetme.
+> * Bir uygulamaya Power BI raporu ekleme.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -40,9 +41,9 @@ Başlamak için bir Power BI Pro hesabı ve bir Microsoft Azure aboneliği gerek
 
 Uygulamanıza raporlar, panolar ve kutucuklar eklemeye başlamadan önce, ortamınızın eklemeye izin verecek şekilde ayarlandığından emin olun. Kurulumun parçası olarak şu eylemlerden birini uygulayın:
 
-- Ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı hızlı şekilde kullanmak ve indirmek için [kurulum aracı ekleme](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz.
+* Ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı hızlı şekilde kullanmak ve indirmek için [kurulum aracı ekleme](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz.
 
-- Ortamı kendiniz ayarlamayı seçerseniz aşağıdaki bölümlerde yer alan adımları uygulayın.
+* Ortamı kendiniz ayarlamayı seçerseniz aşağıdaki bölümlerde yer alan adımları uygulayın.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Bir uygulamayı Azure Active Directory’ye kaydetme
 
@@ -60,13 +61,13 @@ Uygulamanızın Power BI REST API’lerine erişmesini sağlamak için uygulaman
 
     ![Yeni uygulama kaydı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Talimatları izleyerek yeni bir uygulama oluşturun. **Verilerin sahibi kullanıcıdır** bölümünde **Uygulama türü** için **Web uygulaması / API** seçeneğini kullanın. Azure AD’nin belirteç yanıtlarını döndürmek için kullandığı bir **Oturum açma URL’si** de sağlamanız gerekir. Uygulamanıza özgü bir değer girin. Örnek: `http://localhost:13526/`.
+4. Talimatları izleyerek yeni bir uygulama oluşturun. **Verilerin sahibi kullanıcıdır** bölümünde **Uygulama türü** için **Web uygulaması / API** seçeneğini kullanın. Azure AD’nin belirteç yanıtlarını döndürmek için kullandığı bir **Oturum açma URL’si** sağlayın. Uygulamanıza özgü bir değer girin. Örnek: `http://localhost:13526/`.
 
     ![Uygulama oluşturma](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Azure Active Directory'de uygulamanıza izinler uygulama
 
-Uygulama kayıt sayfasında sağlananlara ek olarak uygulamanız için izinleri etkinleştirmeniz gerekir. İzinleri etkinleştirmek için bir genel yönetici hesabıyla oturum açın.
+Uygulama kayıt sayfasında sağlananlara ek olarak uygulamanız için izinleri etkinleştirin. İzinleri etkinleştirmek için bir genel yönetici hesabıyla oturum açın.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Azure Active Directory portalını kullanma
 
@@ -168,69 +169,69 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
 
     1. [Azure portalında](https://portal.azure.com) oturum açın.
 
-        ![Azure portalı panosu](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure portalı panosu](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. Sol gezinti bölmesinde **Tüm hizmetler**’i ve sonra **Uygulama kayıtları**’nı seçin.
+    2. Sol gezinti bölmesinde **Tüm hizmetler**’i ve sonra **Uygulama kayıtları**’nı seçin.
 
-        ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. **ApplicationID** değerini kullanması gereken uygulamayı seçin.
+    3. **ApplicationID** değerini kullanması gereken uygulamayı seçin.
 
-        ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **ApplicationID** değeri olarak kullanın.
+    4. GUID olarak listelenen bir **Uygulama Kimliği** görmeniz gerekir. Bu **Uygulama Kimliği**’ni uygulamanın **ApplicationID** değeri olarak kullanın.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. **ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.
+    **ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.
 
-    1. **ApplicationSecret** değerini almak için aşağıdaki adımları izleyin:
+    **ApplicationSecret** değerini almak için aşağıdaki adımları izleyin:
 
-        1. [Azure portalında](https://portal.azure.com) oturum açın.
+    1. [Azure portalında](https://portal.azure.com) oturum açın.
 
-            ![Azure portalı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure portalı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. Sol gezinti bölmesinde **Tüm hizmetler**’i ve sonra **Uygulama kayıtları**’nı seçin.
+    2. Sol gezinti bölmesinde **Tüm hizmetler**’i ve sonra **Uygulama kayıtları**’nı seçin.
 
-            ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
+    3. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
 
-            ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. **Ayarlar** seçeneğini belirleyin.
+    4. **Ayarlar** seçeneğini belirleyin.
 
-            ![Ayarlar seçeneğini belirleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![Ayarlar seçeneğini belirleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. **Anahtarlar**'ı seçin.
+    5. **Anahtarlar**'ı seçin.
 
-            ![Anahtarlar'ı seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![Anahtarlar'ı seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. **Açıklama** kutusuna bir ad girin ve bir süre seçin. Ardından **Kaydet**’i seçerek uygulamanız için **Değer**’i alın. Anahtar değerini kaydettikten sonra **Anahtarlar** bölmesini kapattığınızda değer alanı yalnızca gizlenmiş olarak gösterilir. Bu aşamada anahtar değerini alamazsınız. Anahtar değerini kaybederseniz Azure portalında yeni bir anahtar değeri oluşturun.
+    6. **Açıklama** kutusuna bir ad girin ve bir süre seçin. Ardından **Kaydet**’i seçerek uygulamanız için **Değer**’i alın. Anahtar değerini kaydettikten sonra **Anahtarlar** bölmesini kapattığınızda değer alanı yalnızca gizlenmiş olarak gösterilir. Bu aşamada anahtar değerini alamazsınız. Anahtar değerini kaybederseniz Azure portalında yeni bir anahtar değeri oluşturun.
 
-        ![Anahtar değeri](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Anahtar değeri](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. **groupId** için, Power BI’daki uygulama çalışma alanı GUID’sini girin.
+    7. **groupId** için, Power BI’daki uygulama çalışma alanı GUID’sini girin.
 
-        ![groupId girme](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![groupId girme](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. **reportId** için, Power BI’daki rapor GUID’sini girin.
+    8. **reportId** için, Power BI’daki rapor GUID’sini girin.
 
-        ![reportId girme](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![reportId girme](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Uygulamayı çalıştırma:
 
-    1. İlk olarak **Visual Studio**’da **Çalıştır**’ı seçin.
+    **Visual Studio**’da **Çalıştır**’ı seçin.
 
-        ![Uygulamayı çalıştırma](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![Uygulamayı çalıştırma](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. Ardından **Rapor Al**'ı seçin.
+    Ardından **Rapor Al**'ı seçin.
 
-        ![İçerik seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![İçerik seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. Artık raporu örnek uygulamada görüntüleyebilirsiniz.
+    Artık raporu örnek uygulamada görüntüleyebilirsiniz.
 
-        ![Raporu uygulamada görüntüleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Raporu uygulamada görüntüleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>İçeriğinizi uygulamanın içine ekleme
 

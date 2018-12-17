@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187295"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026489"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?
@@ -32,11 +33,11 @@ Aşağıdaki örnekte:
 - **Units Sold** ve **Manufacturing Price** sayısal veriler içeren sütunlardır
 -  **Segment**, **Country**, **Product**, **Month** ve **Month Name** sütunları ise kategorik veriler içerir
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Örnek veri kümesi](media/service-aggregates/power-bi-aggregate-chart.png)
 
 Power BI'da görselleştirme oluşturulurken, sayısal alanlar bazı kategorik alanlarla ilişkili olarak toplanır. (Varsayılan olarak *toplam* kullanılır.)  Örneğin, "Units Sold ***by Product***, "Units Sold ***by Month***" ve "Manufacturing Price ***by Segment***. Bazı sayısal alanlara **ölçü** adı verilir. Power BI rapor düzenleyicisinde ölçüleri kolayca tanıyabilirsiniz: Ölçüler, Alanlar listesinde ∑ sembolü ile gösterilir. Daha fazla bilgi için bkz. [The report editor... take a tour (Rapor düzenleyicisi için tura katılın)](service-the-report-editor-take-a-tour.md).
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![Alanlar listesi](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Farklı ürünler için satılan birim sayısının toplandığı bir grafiğe s
 
 1. Bir kategori ve ölçünün kullanıldığı bir grafik oluşturun. Bu örnekte, Units Sold by Product grafiğini kullanmayı tercih ettik.  Varsayılan olarak Power BI, her bir ürün (Eksen kutusundaki kategori) için satılan birim sayısının (Değer kutusundaki ölçü) toplamını veren bir grafik oluşturur.
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Toplam toplama](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. Görsel Öğeler bölmesinde, ölçüye sağ tıklayın ve ihtiyaç duyduğunuz toplama türünü seçin. Bu örnekte, Ortalama seçeneğini belirliyoruz. İhtiyaç duyduğunuz toplama seçeneğini görmüyorsanız aşağıdaki "Önemli noktalar ve sorun giderme" bölümüne bakın.  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Ortalama toplama](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > Açılan menüde yer alan seçenekler şu iki unsura göre değişiklik gösterir: 1) seçilen alan ve 2) alanın veri kümesi sahibi tarafından kategoriye ayrılma şekli.
    > 
 3. Görselleştirmeniz artık ortalama işlemiyle toplanmaktadır.
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![Satılan birim ortalaması](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>Verilerinizi toplamak için izleyebileceğiniz yollar
 
@@ -97,54 +98,54 @@ Bir alanı toplamak için kullanılabilen seçeneklerden bazıları şunlardır:
 * **Özetleme**: Her değer ayrı bir şekilde gösterilir
 * **Toplam**: 750
 * **Ortalama**: 125
-* **Maksimum**: 150
+* **Maksimum**:  150
 * **Minimum**: 100
 * **Sayı (Boş Olanları Değil):** 6
 * **Sayı (Benzersiz):** 4
 * **Standart sapma:** 20,4124145...
 * **Varyans:** 416,666...
-* **Ortanca:** 125
+* **Ortanca Değer:** 125
 
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Bir kategori (metin) alanı kullanarak toplam oluşturma
 Sayısal olmayan bir alanı da toplayabilirsiniz. Örneğin, bir ürün adı alanına sahipseniz bu alanı bir değer olarak ekleyebilir ve **Sayı**, **Ayrı sayım**, **İlk** veya **Son** olarak ayarlayabilirsiniz. 
 
 1. Bu örnekte, **Product** alanını Değerler kutusuna sürüklemeyi tercih ettik. Değerler kutusu genellikle sayısal alanlar için kullanılır. Power BI bunun bir metin alanı olduğunu anlar ve toplama işlemini **Özetleme** olarak ayarlayıp tek sütunlu bir tablo sunar.
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Değerler kutusundaki ürün alanı](media/service-aggregates/power-bi-aggregate-value.png)
 2. **Özetleme** olan varsayılan toplama işlemini **Sayı (Benzersiz)** olarak değiştirirseniz Power BI, farklı ürünleri sayar. Bu örnekte, 4 farklı ürün bulunur.
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![Ürünlerin farklı sayımı](media/service-aggregates/power-bi-aggregates-count.png)
 3. Toplama işlemini **Sayı** olarak değiştirmemiz durumunda ise Power BI, toplam sayıyı verir. Bu örnekte, **Product** için 7 giriş vardır. 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![Ürün sayısı](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. Aynı alanı (bu örnekte, **Product**) Değerler kutusuna sürükleyip varsayılan toplamayı **Özetleme** olarak bıraktığımızda Power BI, sayımın ürünlere göre dağılımını verir.
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Ürün ve ürün sayısı](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli Noktalar ve Sorun Giderme
 S:  **Özetleme** seçeneğini neden görmüyorum?
 
-C: Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop-measures.md)'ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Kullanılan toplama işlemini değiştiremezsiniz.  Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. Alanlar listesinde, *hesaplanmış ölçüler* hesap makinesi sembolüyle gösterilir.
+C:  Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop-measures.md)’ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Kullanılan toplama işlemini değiştiremezsiniz.  Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. Alanlar listesinde, *hesaplanmış ölçüler* hesap makinesi sembolüyle gösterilir.
 
 S:  Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
 
-C1: Bu, veri kümesi sahibinin, alanı sayı olarak *sınıflandırmamış* olmasıyla (yanlışlıkla veya kasıtlı bir şekilde) açıklanabilir. Örneğin, bir veri kümesinde **yıl** alanı yer alıyorsa veri kümesi sahibi, **yıl** alanının sayılması (örneğin, 1974'te doğan kişi sayısı) daha olası bir durum olduğundan (toplanmak veya ortalaması alınmak yerine) bu alanı metin kategorisine dahil etmiş olabilir. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.  
+C1:  Bu, büyük olasılıkla veri sahibinin kasıtlı olarak veya yanlışlıkla, alanı bir sayı olarak *sınıflandırmamasından* kaynaklanır. Örneğin, bir veri kümesinde **yıl** alanı yer alıyorsa veri kümesi sahibi, **yıl** alanının sayılması (örneğin, 1974'te doğan kişi sayısı) daha olası bir durum olduğundan (toplanmak veya ortalaması alınmak yerine) bu alanı metin kategorisine dahil etmiş olabilir. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.  
 
 C2: Alanda bir hesap makinesi simgesi bulunuyorsa bu, alanın *hesaplanmış ölçü* olduğunu gösterir ve her bir hesaplanmış ölçü, yalnızca veri kümesi sahibi tarafından değiştirilebilen kendi sabit kodlanmış formülüne sahiptir. Kullanılan hesaplama ortalama veya toplam gibi basit bir toplama işlemi olabilirken, "üst kategoriye katkıda bulunma yüzdesi" ya da "yılın başlangıcından itibaren değişen toplam" gibi daha karmaşık bir işlem de olabilir. Power BI, sonuçları toplamaz veya bunların ortalamasını almaz ancak bunun yerine, her bir veri noktası için yeniden hesaplama yapar (sabit kodlanmış formülü kullanarak).
 
-C3: Alanı yalnızca kategorik değerlere izin veren bir *demete* de yerleştirmiş olabilirsiniz.  Bu durumda, yalnızca sayı ve ayrı sayım seçeneklerine sahip olursunuz.
+C3:  Alanı yalnızca kategorik değerlere izin veren bir *demete* de yerleştirmiş olabilirsiniz.  Bu durumda, yalnızca sayı ve ayrı sayım seçeneklerine sahip olursunuz.
 
-C4: Bir eksen alanı kullanıyor olmanız da üçüncü bir olasılıktır. Örneğin; Power BI, bir çubuk grafik ekseninde her benzersiz değer için tek bir çubuk gösterir; alan değerlerine yönelik olarak toplama gerçekleştirmez. 
+C4:  Bir eksen alanı kullanıyor olmanız da üçüncü bir olasılıktır. Örneğin; Power BI, bir çubuk grafik ekseninde her benzersiz değer için tek bir çubuk gösterir; alan değerlerine yönelik olarak toplama gerçekleştirmez. 
 
 >[!NOTE]
 >X ve Y eksenleri için değerlerin toplanmasını *gerektiren* dağılım grafikleri bu konuda bir istisna oluşturur.
 
-S: SSAS veri kaynaklarının metin alanlarını neden toplayamıyorum?
+S:  SSAS veri kaynaklarının metin alanlarını neden toplayamıyorum?
 
-Y: Canlı SSAS MD bağlantıları, istemci tarafında toplama işlemlerine izin vermez. Buna ilk, son, ortalama, minimum, maksimum ve toplam işlemleri dahildir.
+C:  Canlı SSAS MD bağlantıları, istemci tarafında toplama işlemlerine izin vermez. Buna ilk, son, ortalama, minimum, maksimum ve toplam işlemleri dahildir.
 
-S: Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Bunu nasıl yaparım?
+S:  Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Bunu nasıl yaparım?
 
 C:  Alanı, X veya Y ekseni demetlerine değil, **Ayrıntılar** demetine ekleyin.
 

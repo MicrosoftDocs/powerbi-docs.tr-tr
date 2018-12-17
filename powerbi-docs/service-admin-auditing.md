@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850488"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026834"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
@@ -73,13 +74,13 @@ Aramalarınız artık yalnızca Power BI etkinliklerini kapsayacak şekilde filt
 
 Seçilen tarih aralığı 90 günden fazlaysa hata görüntülenir. 90 gün olan maksimum tarih aralığını kullanıyorsanız **Başlangıç tarihi** için içinde bulunduğunuz saati seçin. Bunu yapmamanız halinde başlangıç tarihinin bitiş tarihinden daha erken olduğunu belirten bir hata alırsınız. Denetimi son 90 gün içinde etkinleştirdiyseniz tarih aralığının başlangıç tarihi, denetimin etkinleştirildiği tarihten önceki bir gün olamaz.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![Tarihe göre arama](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Denetim günlüklerinde kullanıcılara göre arama yapma
 
 Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli kullanıcılara göre arama yapabilirsiniz. Bunun için **Kullanıcılar** alanına bir veya daha fazla kullanıcı adı girin. Kullanıcı adını e-posta adresi biçiminde girmeniz gerekir. Bu adres, kullanıcıların Power BI'da oturum açmak için kullandıkları hesaptır. Kuruluşunuzdaki tüm kullanıcılara (ve hizmet hesaplarına) ait girişleri döndürmek için bu kutuyu boş bırakın.
 
-![Tarihe göre arama](media/service-admin-auditing/search-audit-log-by-user.png)
+![Kullanıcılara göre arama](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 

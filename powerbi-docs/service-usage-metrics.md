@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830344"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111554"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Panolar ve raporlar için kullanım ölçümleri
 
@@ -84,8 +84,8 @@ Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı
 | Total viewers |evet |evet |Son 90 gün içindeki benzersiz görüntüleyen sayısı. |
 | Total shares |evet |hayır |Panonun veya raporun son 90 gün içinde paylaşılma sayısı. |
 | Total in organization |evet |evet |Kuruluşun tamamında son 90 gün içinde en az bir kez görüntülenen tüm panoların veya raporların sayısı.  Sıralamayı hesaplamak için kullanılır. |
-| Sıralama: Total views |evet |evet |Kuruluştaki tüm panoların veya raporların son 90 gün içindeki toplam görüntülenme sayısı değerlendirildiğinde bu panonun veya raporun sırası. |
-| Sıralama: Total shares |evet |hayır |Kuruluştaki tüm panoların son 90 gün içindeki toplam paylaşılma sayısı değerlendirildiğinde bu panonun veya raporun sırası. |
+| Derece: Toplam görüntüleme sayısı |evet |evet |Kuruluştaki tüm panoların veya raporların son 90 gün içindeki toplam görüntülenme sayısı değerlendirildiğinde bu panonun veya raporun sırası. |
+| Derece: Toplam paylaşım sayısı |evet |hayır |Kuruluştaki tüm panoların son 90 gün içindeki toplam paylaşılma sayısı değerlendirildiğinde bu panonun veya raporun sırası. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Dashboard Usage Metrics raporu
 
@@ -172,19 +172,19 @@ Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklıl�
 
 Kullanım ölçümleriyle denetim günlükleri arasındaki farklılıklara ek olarak, kullanım ölçümleri hakkında aşağıda yer alan soru ve yanıtlar kullanıcılara ve yöneticilere yararlı olabilir:
 
-S: Bir panoda veya raporda kullanım ölçümlerini çalıştıramıyorum C: Kullanım ölçümlerini yalnızca sahip olduğunuz veya düzenleme izniniz olan içeriklerde görürsünüz.
+S:    Bir pano veya raporda kullanım ölçümleri çalıştıramıyorum C:    Kullanım ölçümlerimi yalnızca sahip olduğunuz veya düzenleme izniniz olan içeriklerde görürsünüz.
 
-S: Kullanım ölçümleri, eklenen pano ve raporlara ilişkin görüntülenme verilerini kaydeder mi?
-Kullanım ölçümleri şu anda katıştırılmış pano, raporlar ve [web'de yayınlamak için](service-publish-to-web.md) akışının kullanımını yakalamayı desteklememektedir.          Bu gibi durumlarda mevcut web analizi platformlarını kullanarak içeriği barındıran uygulamaya veya portala ilişkin kullanımı takip etmenizi öneririz.
+S:    Kullanım ölçümleri, eklenen pano ve raporlara ilişkin görüntülenme verilerini kaydeder mi?
+C:    Kullanım ölçümleri şu anda tümleşik panolar, raporlar ve [web’de yayınlama](service-publish-to-web.md) akışının kullanımını yakalamayı desteklememektedir.          Bu gibi durumlarda mevcut web analizi platformlarını kullanarak içeriği barındıran uygulamaya veya portala ilişkin kullanımı takip etmenizi öneririz.
 
-S: Hiçbir içerikte kullanım ölçümleri çalıştıramıyorum.
-C1: Yöneticiler bu özelliği kuruluş çapında devre dışı bırakabilir.  Böyle bir durumun söz konusu olup olmadığını görmek için yöneticinizle iletişime geçin.
-C2: Kullanım ölçümleri Power BI Pro özelliğidir.
+S:    Hiçbir içerikte kullanım ölçümleri çalıştıramıyorum.
+C1:    Yöneticiler bu özelliği kuruluş çapında devre dışı bırakabilir.  Böyle bir durumun söz konusu olup olmadığını görmek için yöneticinizle iletişime geçin.
+C2:    Kullanım ölçümleri Power BI Pro özelliğidir.
 
-S: Veriler güncel değil gibi görünüyor. Örneğin, dağıtım yöntemleri görünmüyor, rapor sayfaları eksik vs. C: Verilerin güncelleştirilmesi 24 saat sürebilir.
+S:    Veriler güncel değil gibi görünüyor. Örneğin, dağıtım yöntemleri görünmüyor, rapor sayfaları eksik vs. C:    Verilerin güncelleştirilmesi 24 saat sürebilir.
 
-S: Çalışma alanında dört rapor var ancak kullanım ölçümleri yalnızca 3 tanesini gösteriyor.
-C: Kullanım ölçümleri raporu, yalnızca son 90 gün içinde erişilmiş olan raporları (veya panoları) kapsar.  Bir rapor (veya pano) gösterilmiyorsa en son 90 günden daha uzun bir süre önce kullanılmıştır.
+S:    Çalışma alanında dört rapor var ancak kullanım ölçümleri yalnızca 3 tanesini gösteriyor.
+C:    Kullanım ölçümleri raporu, yalnızca son 90 gün içinde erişilmiş olan raporları (veya panoları) kapsar.  Bir rapor (veya pano) gösterilmiyorsa en son 90 günden daha uzun bir süre önce kullanılmıştır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

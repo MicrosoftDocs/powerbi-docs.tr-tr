@@ -1,21 +1,22 @@
 ---
-title: Power BI Desktop'ta Azure Tüketim Öngörüleri verilerine bağlanma (Beta)
+title: Azure Consumption Insights verilerine bağlanma (Beta)
 description: Power BI Desktop'ı kullanarak Azure'a kolayca bağlanın ve hem tüketim hem de kullanım ile ilgili öngörüler edinin
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619621"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026811"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
@@ -50,7 +51,7 @@ Bağlanmak için *Erişim anahtarınızı* girin.
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 *Erişim anahtarınızı* girip **Bağlan**'ı seçtiğinizde bir **Gezgin** penceresi açılır. Bu pencerede, kullanımınıza sunulan dokuz tablo gösterilir: 
-* **Budget**: Mevcut bütçe hedeflerine göre gerçek maliyetleri ve kullanımı görüntülemek için bütçe ayrıntılarını sağlar. 
+* **Budgets**: Mevcut bütçe hedeflerine göre gerçek maliyetleri ve kullanımı görüntülemek için bütçe ayrıntılarını sağlar. 
 * **MarketPlace**: Kullanım tabanlı Azure Market ücretlerini sağlar.
 * **PriceSheets**: Kayıt işlemi için ölçüme göre uygun oranları sağlar.
 * **RICharges**: Son 24 ayda Ayrılmış Örneklerinizle ilişkili ücretleri sağlar.
@@ -108,7 +109,7 @@ Bazı müşterilerin, kullanımdan kaldırılarak **Azure Tüketim Öngörüleri
 
 Müşterilerin yeni **Azure Tüketim Öngörüleri** bağlayıcısına geçiş yapmalarına yardımcı olmak ve özel panolar veya raporlar oluşturarak ortaya koydukları çalışmaları korumak için aşağıdaki adımlarda, yeni bağlayıcıya nasıl geçiş yapılacağı gösterilmektedir.
 
-### <a name="step-1-connect-to-azure-using-the-new-connector"></a>1. Adım: Yeni bağlayıcıyı kullanarak Azure'a bağlanma
+### <a name="step-1-connect-to-azure-using-the-new-connector"></a>1. Adım: Yeni bağlayıcıyı kullanarak Azure’a bağlanma
 İlk adım, **Azure Tüketim Öngörüleri** bağlayıcısını kullanarak Azure'a bağlanmaktır. Bu işlemi nasıl gerçekleştireceğiniz, makalenin önceki kısımlarında ayrıntılı olarak açıklanmıştır. Bu adımda **Power BI Desktop**'taki **Giriş** şeridinde **Veri Al > Boş Sorgu** seçeneğini belirleyin.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>2. Adım: Gelişmiş Düzenleyici'yi kullanarak bir sorgu oluşturma
@@ -144,7 +145,7 @@ Pek çok panoda, arama veya filtreleme için kullanılan ek tablolar (tarih tabl
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5. Adım: Görsellerinizi doğrulama ve alan biçimlendirmesini gereken şekilde ayarlama
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5 Adım: Görsellerinizi doğrulama ve alan biçimlendirmesini gereken şekilde ayarlama
 Bu aşamaya kadar geldiğinize göre görselleriniz, tablolarınız ve detaylandırma özelliklerinizin çoğu beklendiği şekilde çalışır. Ancak, her şeyin istediğiniz gibi görünmesini sağlamak üzere biçimlendirme için bazı ince ayarlar yapmanız gerekebilir. Her bir panonuzu ve görselinizi hızlıca inceleyerek istediğiniz gibi göründüğünden emin olun.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Kullanım verilerini almak için Azure Tüketim Öngörüleri (ACI) API'sini kullanma

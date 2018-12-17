@@ -4,26 +4,27 @@ description: 'Project Online: Power BI Desktop aracılığıyla verilere bağlan
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3773f1cb13eb967c511245f57cf59c7159d68fba
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0888c09a9d92123ba08c8cbc27ff8614b8c142a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669900"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025641"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: Power BI Desktop aracılığıyla verilere bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
 
-### <a name="step-1-download-power-bi-desktop"></a>1. Adım: Power BI Desktop'ı indirme
+## <a name="step-1-download-power-bi-desktop"></a>1. Adım: Power BI Desktop'ı indirme
 1. [Power BI Desktop'ı indirip](http://go.microsoft.com/fwlink/?LinkID=521662) yükleyiciyi çalıştırarak **Power BI Desktop** uygulamasını bilgisayarınıza yükleyin.
 
-### <a name="step-2-connect-to-project-online-with-odata"></a>2. Adım: OData ile Project Online'a bağlanma
+## <a name="step-2-connect-to-project-online-with-odata"></a>2. Adım: OData ile Project Online’a bağlanma
 1. **Power BI Desktop**'ı açın.
 2. *Hoş Geldiniz* ekranında **Veri Al**'ı seçin.
 3. **OData akışı**'nı ve ardından **Bağlan**'ı seçin.

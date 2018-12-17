@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a8ec433a6ebb620593648cdb222df0f60b2f21e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239234"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025178"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Ek tanılama bilgilerini yakalama
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Power BI için Ek Tanılama Bilgilerini Yakalama
@@ -26,17 +27,17 @@ Bu yönergelerde, Power BI web istemcisinden el ile ek tanılama bilgisi toplama
 2. F12'ye basarak Edge geliştirici araçlarını açın.
 3. Geliştirici Araçları penceresi açılır: 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Geliştirici araçları](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 4. Ağ sekmesine gidin. Önceden yakalanmış olan trafik listelenir. 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Edge ağ sekmesi](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 5. Pencereye göz atabilir ve karşılaştığınız sorunu tekrarlayabilirsiniz. Oturum sırasında dilediğiniz zaman F12'ye basarak geliştirici araçları penceresini gizleyebilir ve gösterebilirsiniz.
 6. Yakalamayı durdurmak için geliştirici araçları bölümünün ağ sekmesindeki kırmızı kareyi seçebilirsiniz.
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Yakalamayı durdurma](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 7. Disket simgesini seçip **HAR olarak dışarı aktar**'a tıklayın
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Dosyayı dışarı aktarma](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 8. Bir dosya adı girin ve HAR dosyasını kaydedin.
    
     HAR dosyası, tarayıcı penceresi ile Power BI arasındaki tüm ağ istekleri hakkındaki bilgileri içerir.  Bunlar arasında her bir isteğin etkinlik kimliği, tam zaman damgası ve istemciye döndürülen hata bilgileri bulunur.  Bu izlemede, ekranda gösterilen görselleri doldurmak için kullanılan veriler de yer alır.

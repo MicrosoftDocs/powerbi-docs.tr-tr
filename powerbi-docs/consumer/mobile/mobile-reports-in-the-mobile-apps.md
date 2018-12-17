@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547258"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181002"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -105,6 +105,16 @@ Rapor yazarı görsele detaya gitme özelliği eklemişse, görselin bir parças
 Detaylandırma gerçekleştirdiğinizde geri düğmesini kullanarak bir önceki rapor sayfasına dönebilirsiniz.
 
 [Power BI Desktop’ta detaylandırma ekleme](../../desktop-drillthrough.md) hakkında bilgi edinin.
+
+## <a name="show-data-and-copy-values"></a>Verileri gösterme ve değerleri kopyalama
+
+Bir telefon raporundaki görselleştirmenin sağ üst köşesinde yer alan Menü seçenekleri üç nokta (**...**) işaretini seçip daha sonra **Verileri göster**’i seçerek bir görselleştirmenin temelini oluşturan verileri görebilirsiniz.
+
+![Power BI mobil verileri göster menü seçeneği](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Sunulan tablodaki bir hücreye uzun süre dokunulduğunda, yerel seçme ve kopyalama menüsü açılır; böylece tablodan (veya tablonun tamamından) veri kopyalamayı seçebilirsiniz.
+
+![Power BI mobil raporu detaylandırma](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)

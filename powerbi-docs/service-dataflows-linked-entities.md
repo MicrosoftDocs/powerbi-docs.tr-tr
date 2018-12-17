@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268881"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180657"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme (Önizleme)
 
@@ -32,6 +32,12 @@ Bağlantılı varlıklar **salt okunur** özelliktedir. Bağlantılı bir varlı
 Bağlantılı varlıkların yenilenmesi için bir [Power BI Premium](service-premium.md) aboneliği gerekir. Bağlantılı varlıklar, Power BI Premium kapasitesinde barındırılan bir çalışma alanı üzerindeki herhangi bir veri akışında kullanılabilir. Kaynak veri akışı ile ilgili bir sınırlama yoktur.
 
 Bağlantılı varlıklar yalnızca yeni Power BI çalışma alanlarında düzgün çalışır. [Yeni Power BI çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinebilirsiniz. Tüm bağlı veri akışlarının düzgün çalışması için yeni çalışma alanlarına yerleştirilmesi gerekir.
+
+> [!NOTE]
+> Varlıklar, standart varlıklar mı hesaplanan varlıklar mı olduğuna göre farklılık gösterir. Standart varlıklar (genellikle yalnızca varlıklar olarak adlandırılır), SQL veritabanı gibi bir dış veri kaynağını sorgular. Hesaplanan varlıklar, Power BI’da Premium kapasite gerektirir ve Power BI depolamada bulunmakta olan veriler üzerinde dönüştürmeler çalıştırır. 
+>
+>Veri akışınız Premium kapasite çalışma alanında değilse, yine de tek bir sorguya başvurabilir veya depolama dönüştürmelerinde dönüştürmeler tanımlanmadığı sürece iki ya da daha fazla sorguyu birleştirebilirsiniz. Böyle başvurular standart varlıklar olarak değerlendirilir. Bunu yapmak için **Yüklemeyi etkinleştir** seçeneğini kapatarak, başvurulan sorguların verilerin gerçekleştirilmesini ve depolama alanına alınmasını engellemesini sağlayın. Buradan, **Yüklemeyi etkinleştir = false** sorgularına başvurabilir ve yalnızca gerçekleştirmek istediğiniz sonuçta elde edilen sorgular için **Yüklemeyi etkinleştir** seçeneğini **Açık** olarak ayarlayın.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Veri akışları arasındaki varlıkları ilişkilendirme
 

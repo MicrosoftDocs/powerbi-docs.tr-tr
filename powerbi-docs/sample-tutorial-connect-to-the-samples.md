@@ -1,37 +1,36 @@
 ---
-title: Power BI örneklerini kullanma
-description: Power BI örneklerini kullanma
+title: Power BI hizmetindeki örneklere bağlanma
+description: Power BI hizmetindeki örnekleri yüklemeyi ve keşfetmeyi öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718034"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180979"
 ---
-# <a name="the-power-bi-samples"></a>Power BI örnekleri
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 
-[Power BI için örnek veri kümeleri](sample-datasets.md) makalesiyle başlamanızı öneririz. Söz konusu makalede örnekler hakkında her şeyi, nasıl alındıklarını, nereye kaydedildiklerini ve örneklerin sunduğu içeriklerden bazılarını öğrenebilirsiniz. Temel konuları kavradıktan sonra bu eğitime geri dönebilirsiniz.   
+Bu öğreticide aşağıdaki işlemlerin nasıl yapılacağı öğretilmektedir: 
+- Örnek içerik paketini içeri aktarma, Power BI hizmetine ekleme ve içeriği açma. *İçerik paketleri*, veri kümesinin bir pano ve raporla birlikte sunulduğu bir örnek türüdür. 
+- Power BI Desktop'ta örnek bir .pbix dosyası açma.
 
-### <a name="prerequisites"></a>Önkoşullar
+İlk olarak daha fazla arka plan istiyorsanız [Power BI için örnek veri kümeleri](sample-datasets.md) makalesiyle başlamanızı öneririz. Söz konusu makalede örnekler hakkında her şeyi, nasıl alındıklarını, nereye kaydedildiklerini ve örneklerin sunduğu içeriklerden bazılarını öğrenebilirsiniz. Temel konuları kavradıktan sonra bu eğitime geri dönebilirsiniz.   
+
+## <a name="prerequisites"></a>Önkoşullar
 Örnekler, Power BI hizmetinde ve Power BI Desktop'ta kullanılabilir. Örneği takip etmek için Perakende analizi örneğini kullanacağız.
 
 Bu eğitimde kullanılan *Perakende Analizi* örnek içerik paketi, bir pano, rapor ve veri kümesinden oluşur.
 Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Perakende Analizi örneğine ilişkin tura katılabilirsiniz](sample-retail-analysis.md).
-
-## <a name="about-this-tutorial"></a>Bu eğitim hakkında
-Bu öğreticide aşağıdaki işlemler hakkında bilgi edinirsiniz: 
-- Örnek içerik paketini içeri aktarma, Power BI hizmetine ekleme ve içeriği açma. *İçerik paketleri*, veri kümesinin bir pano ve raporla birlikte sunulduğu bir örnek türüdür. 
--  Power BI Desktop'ta bir örnek .pbix dosyası açma.
-
 
 ## <a name="samples-and-power-bi-service"></a>Örnekler ve Power BI hizmeti
 

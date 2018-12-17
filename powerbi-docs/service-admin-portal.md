@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268378"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026719"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI yönetici portalı
+# <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
 Yönetici portalı kuruluşunuz için bir Power BI *kiracısını* yönetmenize olanak sağlar. Portalda kullanım ölçümleri, Office 365 yönetim merkezine erişim ve ayarlar gibi öğeler yer alır.
 
@@ -105,7 +106,7 @@ Aşağıdaki resimde **Kiracı ayarları** sekmesinin ilk iki bölümü gösteri
 
 Ayarlar üç duruma sahip olabilir:
 
-* **Tüm kuruluş için devre dışı bırakıldı**: Kuruluşunuzdaki kimse bu özelliği kullanamaz.
+* **Tüm kuruluş için devre dışı bırakıldı**: Kuruluşunuzda kimse bu özelliği kullanamaz.
 
     ![Tümü devre dışı ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 

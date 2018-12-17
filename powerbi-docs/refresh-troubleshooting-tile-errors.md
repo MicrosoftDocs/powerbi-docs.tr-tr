@@ -1,21 +1,22 @@
 ---
 title: Kutucuk hatalarıyla ilgili sorunları giderme
-description: Kutucuklar yenileme yapmaya çalıştığında karşılaşabilecek genel hatalar
+description: Power BI’da kutucuklar yenileme yapmaya çalıştığında karşılaşılabilecek genel hatalar
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1341caa1f67d01a03128344acd67261abf450f90
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669877"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025044"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.

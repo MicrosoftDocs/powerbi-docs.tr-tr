@@ -1,5 +1,5 @@
 ---
-title: Power BI URL'leri
+title: Beyaz listeye ekleme için Power BI URL’si
 description: Bu makalede Power BI hizmetini kullanan müşteriler için erişilebilir durumda olması gereken uç noktalar anlatılmaktadır.
 author: mgblythe
 ms.author: mblythe
@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.custom: seodec18
+ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157138"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026650"
 ---
-# <a name="power-bi-urls"></a>Power BI URL'leri
+# <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
 
 Power BI SaaS (Hizmet Olarak Yazılım) uygulaması olarak da bilinen **Power BI çevrimiçi hizmeti** için internet bağlantısı gerekir. Power BI çevrimiçi hizmetini kullanan müşterilerin aşağıdaki uç noktalara erişebiliyor olması gerekir.
 
@@ -37,7 +38,7 @@ Power BI, Office 365 kimlik doğrulama ve kimlik bölümündeki gerekli uç nokt
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Kimlik doğrulama ve kimlik | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın.  | YOK |
+| 1 | **Gerekli:** Kimlik doğrulaması ve kimlik | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın.  | YOK |
 
 ## <a name="general-site-usage"></a>Genel site kullanımı
 
@@ -45,7 +46,7 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Arka uç API'leri | *.analysis.windows.net | TCP 443 |
+| 1 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
 | 2 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
 | 3 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
 | 4 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
@@ -68,10 +69,10 @@ OneDrive gibi belirli veri kaynaklarından veri almak için aşağıdaki tabloda
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** AppSource (Power BI'ın içindeki veya dışındaki uygulamalar) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **Gerekli:** AppSource (Power BI’ın içindeki veya dışındaki uygulamalar) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **İsteğe bağlı:** Oturum açma ve içerik paketleri için veri alma | Kullanılan içerik paketlerine bağlıdır | Kullanılan içerik paketlerine bağlıdır |
 | 3 | **İsteğe bağlı:** Kişisel OneDrive hesabınızdaki dosyaları içeri aktarma | [OneDrive sitesindeki gerekli URL'ler ve bağlantı noktalarına](https://docs.microsoft.com/onedrive/required-urls-and-ports) bakın | YOK |
-| 4 | **İsteğe bağlı:** 60 saniyede Power BI eğitim videosu | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **İsteğe bağlı:** 60 saniyede Power BI öğretici videosu | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **İsteğe bağlı:** PubNub akış verisi kaynakları | [PubNub belgelerine](https://support.pubnub.com/support/solutions/articles/14000043522) bakın | YOK |
 | | | |
 
@@ -91,7 +92,7 @@ Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için be
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
 | 1 | **Gerekli:** Market arabiriminden veya dosyadan özel görsel içeri aktarma | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **İsteğe bağlı:** Bing Haritalar | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **İsteğe bağlı:** Bing Haritalar | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **İsteğe bağlı:** PowerApps | PowerApps sistem gereksinimleri sitesinin [Gerekli hizmetler bölümüne](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) bakın | YOK |
 | 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
 | | | |
@@ -103,8 +104,8 @@ Diğer ilgili siteler için Power BI bağlantıları. Bu siteler belgeleri, dest
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
 | 1 | **İsteğe bağlı:** Topluluk sitesi | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **İsteğe bağlı:** Belgeler sitesi | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
-| 3 | **İsteğe bağlı:** İndirme sitesi (Power BI Desktop vb.) | download.microsoft.com | TCP 443 |
+| 2 | **İsteğe bağlı:** Belgeler sitesi | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 3 | **İsteğe bağlı:** İndirme sitesi (Power BI Desktop vb. için) | download.microsoft.com | TCP 443 |
 | 4 | **İsteğe bağlı:** Dış yönlendirme siteleri | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **İsteğe bağlı:** Fikir geri bildirim sitesi| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
 | 6 | **İsteğe bağlı:** Power BI sitesi - giriş sayfası, daha fazla bilgi edinme bağlantıları, destek sitesi, indirme bağlantıları, iş ortağı gösterimi vb. | powerbi.microsoft.com | TCP 443 |

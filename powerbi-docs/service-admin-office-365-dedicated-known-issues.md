@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238157"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026512"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 Dedicated müşterileri - bilinen sorunlar
 Artık Office 365 Dedicated müşterileri için Power BI desteği sunulmaktadır.  O365 Dedicated müşterisiyseniz kiracınıza ait bir hesaptan oturum açabilir ve Power BI'ı kullanabilirsiniz. Şu anda bilinen iki sorun vardır.
@@ -23,7 +24,7 @@ Artık Office 365 Dedicated müşterileri için Power BI desteği sunulmaktadır
 ## <a name="groups"></a>Gruplar
 Grup bağlam menüsünde **Üyeler** veya **Takvim** seçeneğini belirlediğinizde Posta uygulamasına yönlendirilirsiniz.  **Dosyalar** ve **Konuşmalar** beklenen şekilde çalışır.
 
-![](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
+![Power BI’daki grup](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 
 ## <a name="iphone-app---sign-in-with-vanity-domain-leads-to-error"></a>iPhone Uygulaması - Özel etki alanıyla oturum açtığınızda hata oluşur
 iPhone uygulamasında özel etki alanına sahip bir kullanıcı adıyla oturum açtığınızda hatayla karşılaşabilirsiniz.
@@ -33,7 +34,7 @@ iPhone uygulamasında özel etki alanına sahip bir kullanıcı adıyla oturum a
 
 Bu sorunu geçici olarak çözmek için; özel etki alanı yerin,e Power BI hizmetindeki kullanıcı simgesine tıkladığınızda açılan e-posta adresiyle oturum açın.
 
-![](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
+![Oturum açma e-postası](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

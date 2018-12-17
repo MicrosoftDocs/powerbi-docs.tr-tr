@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578440"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025143"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
 
@@ -41,7 +42,7 @@ Veri modelinizde güvenliği yönetmek için aşağıdakileri gerçekleştirmeni
 1. Bir veri kümesine ilişkin **üç nokta (…)** simgesini seçin.
 2. **Güvenlik** seçeneğini belirleyin.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Güvenlik filtrelerini her iki yönde de uygula](media/service-admin-rls/rls-security.png)
 
 Bu, Power BI Desktop'ta oluşturduğunuz bir role üye eklemeniz için sizi RLS sayfasına yönlendirir. Yalnızca veri kümesinin sahipleri Güvenlik seçeneğini görür. Veri kümesi bir Grupta yer alıyorsa yalnızca grup Yöneticileri güvenlik seçeneğini görür. 
 
@@ -53,17 +54,17 @@ Power BI Desktop'ta yalnızca rol oluşturabilir veya rolleri değiştirebilirsi
 
 Eklemek istediğiniz kullanıcının, güvenlik grubunun veya dağıtım listesinin e-posta adresini ya da adını yazarak role üye ekleyebilirsiniz. Bu üyenin kuruluşunuzda olması gerekir. Power BI'da oluşturulan Grupları ekleyemezsiniz.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Üye ekleme](media/service-admin-rls/rls-add-member.png)
 
 Rol adının veya Üyeler'in yanında parantez içinde gösterilen sayıya bakarak role kaç üyenin dahil olduğunu da görebilirsiniz.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Roldeki üyeler](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Üyeleri kaldırma
 
 Üye adlarının yanındaki X işaretlerini seçerek üyeleri kaldırabilirsiniz. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Üyeyi kaldırma](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI hizmetinde rolü doğrulama
 
@@ -72,15 +73,15 @@ Tanımladığınız rolü test ederek rolün doğru şekilde çalışıp çalı�
 1. Rolün yanındaki **üç nokta (...)** simgesini seçin.
 2. **Verileri role göre test et** seçeneğini belirleyin
 
-![](media/service-admin-rls/rls-test-role.png)
+![Role göre test et](media/service-admin-rls/rls-test-role.png)
 
 Ardından, bu rol için kullanılabilen raporları görürsünüz. Panolar bu görünümde sunulmaz. Yukarıdaki mavi çubuk, hangi rolün filtrelendiğini gösterir.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Artık <rol> olarak görüntüleniyor](media/service-admin-rls/rls-test-role2.png)
 
 **Şu anda şu kişi olarak görüntülüyorsunuz** seçeneğini belirleyerek diğer rolleri veya rol birleşimlerini test edebilirsiniz.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Diğer rolleri test etme](media/service-admin-rls/rls-test-role3.png)
 
 Verileri belirli bir kullanıcı olarak görüntülemeyi tercih edebilir veya kullanılabilir rollerin bir birleşimini seçerek çalışıp çalışmadıklarını doğrulayabilirsiniz. 
 
@@ -95,7 +96,7 @@ Power BI Desktop raporunuzu Power BI hizmetindeki bir uygulama çalışma alanı
 > [!WARNING]
 > Uygulama çalışma alanını yapılandırırken üyelerin, düzenleme izinlerine sahip olacağını belirtirseniz RLS rolleri söz konusu üyeler için geçerli olmaz. Bu durumda, kullanıcılar tüm verileri görebilir.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Grup ayarları](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

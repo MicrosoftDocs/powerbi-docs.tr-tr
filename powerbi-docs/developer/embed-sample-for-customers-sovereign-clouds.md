@@ -1,23 +1,25 @@
 ---
-title: Kamu bulutu ve bağımsız bulut müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
-description: Müşterileriniz için Power BI API'leri kullanarak bir panoyu, kutucuğu veya raporu web uygulamasıyla tümleştirmeyi veya web uygulamasına eklemeyi öğrenin.
+title: Kamu bulutu ve bağımsız bulut için uygulamanızda Power BI içeriğini tümleştirmeye yönelik tümleşik analiz
+description: Müşterileriniz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003168"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180634"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Öğretici: Bir Power BI panosunu, kutucuğunu veya raporunu bağımsız bulut uygulamanıza ekleme
 
-Müşterileriniz için Power BI .NET SDK’sını ve Power BI JavaScript API’sini kullanarak veri tümleştirmesi yaparken bir panoyu, kutucuğu veya raporu web uygulamalarınıza eklemeyi öğrenin.
+Bağımsız bulut için iş süreci uygulamalarınıza analiz içeriğinin nasıl ekleneceğini öğrenin. Web uygulamalarınıza bir raporu, panoyu veya kutucuğu eklemek için Power BI JavaScript API’si ile Power BI .NET SDK’sını kullanabilirsiniz.
 
 Power BI, bağımsız (özel) bulutları da destekler.
 
@@ -132,7 +134,7 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD’ye kayd
 
 * Çin için Power BI bulutu - https://app.powerbi.cn/apps
 
-[Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz kayıt sonrasında aldığınız **uygulama kimliğini** kullanarak örneğin Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
+[Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz aldığınız **uygulama kimliğini** kullanarak örneğin, Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2. Adım: Azure AD'den erişim belirteci alma
 

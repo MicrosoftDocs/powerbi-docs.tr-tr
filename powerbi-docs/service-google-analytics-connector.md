@@ -1,27 +1,26 @@
 ---
-title: 'Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı'
-description: 'Üçüncü taraf hizmet: Power BI Desktop için Google Analytics bağlayıcısı'
+title: 'Üçüncü taraf hizmeti: Google Analytics bağlayıcısı'
+description: 'Üçüncü taraf hizmeti: Power BI Desktop için Google Analytics bağlayıcısı'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669440"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025615"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop için Google Analytics bağlayıcısı
 > [!NOTE]
 > Power BI Desktop'taki Google Analytics içerik paketi ve bağlayıcı, Google Analytics Core Reporting API'sini kullanır. Bu nedenle, özellikler ve kullanılabilirlik zaman içinde değişebilir.
-> 
-> 
 
 **Google Analytics** bağlayıcısını kullanarak Google Analytics verilerine bağlanabilirsiniz. Bağlanmak için şu adımları uygulayın:
 

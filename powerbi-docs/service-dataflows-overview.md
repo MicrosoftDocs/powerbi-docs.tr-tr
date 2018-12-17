@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268869"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180841"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI’da self servis veri hazırlığı (Önizleme)
 
@@ -25,7 +25,7 @@ Veri hacmi artmaya devam ettikçe, bu verileri düzgün biçimlendirilmiş, eyle
 
 Power BI **veri akışlarını**, kuruluşların dağınık kaynaklardan gelen verileri birleştirmesine ve modellemeye hazırlamasına yardımcı olmak için kullanıma sunmuştur. Analistler tanıdık, self servis araçları kullanarak veri akışlarını kolayca oluşturabilir. Veri akışları, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha birçok öğeyi tanımlayarak büyük verileri almak, dönüştürmek, tümleştirmek ve zenginleştirmek için kullanılır. Buna ek olarak, veri akışlarının bir parçası olan yeni model odaklı hesaplama altyapısı veri hazırlığı işleminin hem veri analistleri hem de rapor oluşturucuları için daha yönetilebilir, daha belirleyici ve daha az külfetli olmasını sağlar. Elektronik tabloların tüm etkilenen formüller için yeniden hesaplamaları işlemesine benzer şekilde, veri akışları da varlık veya veri öğesinin değişikliklerini sizin adınıza yönetir, güncelleştirmeleri otomatik hale getirir ve temel bir veri yenilemesi için bile bıktırıcı ve zaman alıcı olan mantık denetimlerini azaltır. Veri akışlarıyla, daha önce veri bilimcilerinin gözetiminde yapılması gereken (ve tamamlanması saatlerce veya günlerce süren) görevler artık analistler veya rapor oluşturucuları tarafından birkaç tıklamayla gerçekleştirilebilir. 
 
-Veriler Azure Data Lake Storage 2. Nesil'de[ **Ortak Veri Modeli**'nde ](https://docs.microsoft.com/powerapps/common-data-model/overview) varlıklar olarak depolanır. Veri akışları Power BI hizmeti kullanılarak uygulama çalışma alanlarında oluşturulur ve yönetilir.  
+Veriler, Azure Data Lake Storage 2. Nesil'de [**Ortak Veri Modeli**](https://docs.microsoft.com/powerapps/common-data-model/overview)'nde varlıklar olarak depolanır. Veri akışları Power BI hizmeti kullanılarak uygulama çalışma alanlarında oluşturulur ve yönetilir.  
 
 > [!NOTE]
 > Veri akışları işlevselliği önizleme aşamasındadır ve genel kullanıma sunulmadan önce değiştirilip güncelleştirilebilir.
@@ -68,6 +68,7 @@ Power BI, veri akışı verilerini kuruluşunuzun Azure Data Lake Storage 2. Nes
 
 Power BI, kuruluşunuzun Azure Data Lake Storage hesabında depolanan ve Ortak Veri Modeli biçiminde şema verileri içeren klasörlere de bağlanabilir. Bu klasörler, Azure veri hizmetleri gibi hizmetler tarafından oluşturulabilir. Analistler bu klasörlere bağlanarak, Power BI'da bu verilerle rahatça çalışabilir. 
 
+Azure Data Lake Storage 2. Nesil ve kuruluşunuzun Azure Data Lake hesabında bulunan veri akışları oluşturma da dahil olmak üzere veri akışı tümleştirmesi hakkında daha fazla bilgi için bkz. [veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md).
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium'da veri akışı özellikleri
 
@@ -105,9 +106,6 @@ Bu makalede daha önce belirtildiği gibi, **veri akışlarının** iş verileri
 * Geliştiriciler için veri akışlarıyla çalışmaya başlama
 
 
-
-
-
 ## <a name="next-steps"></a>Sonraki Adımlar
 
 Bu makalede, Power BI'da büyük veriler için self servis veri hazırlığına ve bunu kullanmanın birçok yoluna genel bir bakış sağlanır. Aşağıdaki makalelerde, veri akışlarının yaygın kullanım senaryoları daha ayrıntılı olarak ele alınır. 
@@ -116,6 +114,7 @@ Bu makalede, Power BI'da büyük veriler için self servis veri hazırlığına 
 * [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
 * [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)

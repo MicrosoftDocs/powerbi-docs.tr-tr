@@ -1,23 +1,24 @@
 ---
-title: Dosyalardan veri alma
+title: Power BI için dosyalardan veri alma
 description: Excel, Power BI Desktop ve CSV dosyalarından Power BI'a veri almayı öğrenin
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10f609f5b531b5ce08e254e96219600c2a3e497e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 644d863f98c7c7099a9bdda7ac714372499b0614
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669647"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026443"
 ---
-# <a name="get-data-from-files"></a>Dosyalardan veri alma
+# <a name="get-data-from-files-for-power-bi"></a>Power BI için dosyalardan veri alma
 ![](media/service-get-data-from-files/file_icons.png)
 
 Power BI'da bağlanabileceğiniz ve verilerini içeri aktarabileceğiniz üç dosya türü vardır.

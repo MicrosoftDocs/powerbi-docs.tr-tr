@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a44630f8c5ad7f521ad7f3e8794486cd1b758358
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a410871263316b4aa811ca39116acf69331f7bc5
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336795"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979456"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. 
@@ -64,7 +64,7 @@ Aşağıdaki tabloda, ne sıklıkla e-posta alacağınız açıklanmaktadır. Bu
 |  | **DirectQuery** | **Live Connect** | **Zamanlanmış yenileme (içeri aktarma)** | **OneDrive'daki/SharePoint Online'daki Excel dosyası** |
 | --- | --- | --- | --- | --- |
 | **Rapor/pano ne sıklıkla yenilenir?** |15 dakikada bir |Power BI her 15 dakikada bir değişiklikleri denetler ve veri kümesi değiştiyse rapor yenilenir. |Kullanıcı hiçbiri, günlük veya haftalık seçeneğini belirleyebilir. Günlük olarak en fazla 8 yenileme gerçekleştirilebilir. Haftalık seçeneği, aslında kullanıcının yenilemeyi haftada bir kadar az ve günlük ayarı sıklığında olacak şekilde oluşturup ayarladığı haftalık bir zamanlamadır. |Saatte bir |
-| **Kullanıcı, abonelik e-posta zamanlaması üzerinde ne kadar denetim sahibidir?** |Seçenekler şunlardır: günlük veya haftalık |Seçenek yok: Raporun yenilenmesi durumunda günde en fazla bir kez olmak üzere kullanıcılara e-posta gönderilir. |Yenileme zamanlaması günlükse seçenekler günlük ve haftalıktır.  Yenileme zamanlaması haftalıksa tek seçenek haftalıktır. |Seçenek yok: Veri kümesi her güncelleştirildiğinde kullanıcıya günde en fazla bir kez olmak üzere e-posta gönderilir. |
+| **Kullanıcı, abonelik e-posta zamanlaması üzerinde ne kadar denetim sahibidir?** |Seçenekler şunlardır: günlük veya haftalık |Seçenek yok: Raporun yenilenmesi durumunda günde en fazla bir kez olmak üzere kullanıcıya e-posta gönderilir. |Yenileme zamanlaması günlükse seçenekler günlük ve haftalıktır.  Yenileme zamanlaması haftalıksa tek seçenek haftalıktır. |Seçenek yok: Veri kümesi her güncelleştirildiğinde kullanıcıya günde en fazla bir kez olmak üzere e-posta gönderilir. |
 
 ## <a name="manage-your-subscriptions"></a>Aboneliklerinizi yönetme
 Aboneliklerinizi yalnızca kendiniz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından **Tüm abonelikleri yönet**'i seçin (yukarıda 4. adımda bulunan ekran görüntüsüne bakın). 
@@ -82,7 +82,6 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.  
 * Pano kutucuklarına satır düzeyi güvenlik (RLS) uygulandıysa, söz konusu kutucuklar görüntülenmez.
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.    
-* E-posta abonelikleri, Power BI Desktop hizmete canlı bağlanma özelliği ile oluşturulmuş rapor sayfalarında henüz desteklenmemektedir.  
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
 * E-posta boyutu sınırları nedeniyle, çok büyük resimler içeren panolarda veya raporlarda abonelikler başarısız olabilir.    
 * Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır.  Ancak bir panoya veya rapora abonelik eklerseniz bu abonelik ziyaret edilmese bile duraklatılmaz.    

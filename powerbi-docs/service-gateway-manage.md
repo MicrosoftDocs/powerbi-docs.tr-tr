@@ -1,5 +1,5 @@
 ---
-title: Power BI için ağ geçidi yönetme
+title: Power BI şirket içi ağ geçidini yönetme
 description: Power BI’da şirket içi verilere bağlanabilmeniz için bir ağ geçidini nasıl yöneteceğinizi öğrenin.
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755174"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026397"
 ---
-# <a name="manage-a-power-bi-gateway"></a>Power BI ağ geçidi yönetme
+# <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI şirket içi ağ geçidini yönetme
 
 [Bir Power BI veri ağ geçidi yükledikten](service-gateway-install.md) sonra, gereksinimlerinize göre bunu yönetebilirsiniz. Bu konuda, şunların nasıl yapılacağını öğrenirsiniz: veri kaynakları ekleme ve kaldırma, ağ geçidini yeniden başlatma ve ağ geçidini geçirme, geri yükleme, devralma ve kaldırma. 
 

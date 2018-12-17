@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611372"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026259"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI raporlarında yeni filtre deneyimi (Önizleme)
 
-Bu makalede yeni filtre deneyimi ayrıntılarıyla açıklanır: Power BI'daki filtrelere yeni işlevsellik ve yeni bir tasarım sağlanıyor. Power BI Desktop'ta veya Power BI hizmetinde rapor tasarlarken, Filtreler bölmesinin raporun tamamına benzemesini ve böyle çalışmasını sağlayabilirsiniz. Yeni deneyimde, eski Filtreler bölmesi filtre düzenleme bölmesi gibi çalışır ve rapor kullanıcılarınız yalnızca yeni Filtre bölmesini görür. 
+Bu makalede yeni filtre deneyimi açıklanmaktadır: Power BI'daki filtrelere yeni işlevsellik ve yeni bir tasarım sağlanıyor. Power BI Desktop'ta veya Power BI hizmetinde rapor tasarlarken, Filtreler bölmesinin raporun tamamına benzemesini ve böyle çalışmasını sağlayabilirsiniz. Yeni deneyimde, eski Filtreler bölmesi filtre düzenleme bölmesi gibi çalışır ve rapor kullanıcılarınız yalnızca yeni Filtre bölmesini görür. 
  
 ![Varsayılan görünüm (ek özelleştirme uygulanmamış)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 
     ![Biçim simgesini seçin](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Arka plan, yazı tipi, simge ve sol kenarlık rengini rapor sayfasını tamamlayacak şekilde ayarlamak için **Filtre bölmesini** genişletin.
+1. Arka plan, simge ve sol kenarlık rengini rapor sayfasını tamamlayacak şekilde ayarlamak için **Filtre bölmesini** genişletin.
 
     ![Filtre bölmesini genişletme](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

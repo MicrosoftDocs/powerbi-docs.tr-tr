@@ -1,21 +1,21 @@
 ---
 title: Power BI Desktop’ta Soru-Cevap Kullanma
 description: Artık Power BI Desktop’ta Soru-Cevap özelliğiyle doğal dil sorguları kullanabilirsiniz
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670774"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026742"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Doğal dil sorguları için Power BI Desktop'taki Soru-Cevap özelliğini kullanın
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte **Power BI Desktop**’taki Soru-Cevap ile bunu yapabilirsiniz.
@@ -25,9 +25,6 @@ Yanıtlayabileceği büyük soru koleksiyonunu başarıyla yorumlayabileceği ş
 > [!NOTE]
 > Soru-Cevap yalnızca **içeri aktarılan** verileri içeren bir modelle çalışılırken kullanılabilir. SSAS ve DirectQuery modelleri ile canlı bağlantılar desteklenmez.
 >
->
-
-> [!NOTE]
 > Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Modelinizde tablolar arası ilişkiler eksikse ve bunlar hakkında soru sorarsan
 
 ## <a name="rename-tables-and-columns"></a>Tabloları ve sütunları yeniden adlandırma
 
-Soru-Cevap için tablo ve sütun seçimi çok önemlidir. Örneğin, müşterilerinizin listesini içeren *MüşteriÖzeti* adlı bir tablonuz varsa “Chicago’daki müşterileri listele” yerine “Chicago’daki müşterilerin özetlerini listele” gibi sorular sormanız gerekir. 
+Soru-Cevap için tablo ve sütun seçimi önemlidir. Örneğin, müşterilerinizin listesini içeren, *Müşteri Özeti* adlı bir tablonuz olduğunu varsayalım. “Chicago’daki müşterileri listele” yerine “Chicago’daki müşteri özetlerini listele” gibi sorular sormanız gerekir. 
 
 Soru-Cevap, bazı temel sözcük bölme ve çoğul algılama işlemlerini gerçekleştirebilse de tablo ve sütun adlarınızın içeriği doğru bir şekilde yansıttığını varsayar.
 
-Başka bir örnek verelim. Çalışanların ad, soyad ve numaralarını içeren *Çalışan Sayısı* adlı bir tablonun yanı sıra, çalışan numaralarını, iş numaralarını ve başlangıç tarihlerini içeren *Çalışanlar* adlı bir tablonuz olduğunu varsayın. Modeli tanıyan kişiler için bu adlar anlaşılabilir olsa da başka birisi “çalışanların sayısını” sorduğunda, istediği cevap yerine her çalışanın daha önce yaptığı tüm işlerin sayısını ifade eden “Çalışanlar” tablosundaki satırların sayısı sunulur. Bu tabloların içeriği doğru yansıtacak şekilde yeniden adlandırılması çok daha iyi olur.
+Başka bir örnek verelim. Çalışanların adlarını ve soyadlarını ve çalışan numaralarını içeren *Çalışan Sayısı* adlı bir tablonuz olduğunu varsayın. Çalışan numaralarını, iş numaralarını ve başlangıç tarihlerini içeren *Çalışanlar* adlı başka bir tablonuz vardır. Modeli bilen kişiler bu yapıyı anlayabilir. “Çalışanların sayısını” soran birisi, “Çalışanlar” tablosundaki satır sayısını alacaktır. Bu sonuç, her bir çalışanın çalıştığı her bir işin sayısı olduğundan tam aklındaki şey olmayabilir. Bu tabloların içeriği doğru yansıtacak şekilde yeniden adlandırılması çok daha iyi olur.
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -65,7 +62,7 @@ Başka bir örnek verelim. Çalışanların ad, soyad ve numaralarını içeren 
 
 ## <a name="fix-incorrect-data-types"></a>Hatalı veri türlerini düzeltin
 
-İçeri aktarılan veriler hatalı veri türleri içerebilir. Özellikle de *dize* olarak içeri aktarılan *tarih* and *sayı* sütunları, Soru-Cevap tarafından tarih ve sayı olarak yorumlanmaz. Power BI modelinizde doğru veri türünü seçtiğinizden emin olmalısınız.
+İçeri aktarılan veriler hatalı veri türleri içerebilir. Özellikle de *dize* olarak içeri aktarılan *tarih* and *sayı* sütunları, Soru-Cevap tarafından tarih ve sayı olarak yorumlanmaz. Power BI modelinizde doğru veri türünü seçtiğinizden emin olun.
 
 ![Soru-Cevap’ta kullanılabildiğinden emin olmak için doğru veri türünü seçin](media/desktop-qna-in-reports/desktop-qna_05.png)
 
@@ -94,15 +91,15 @@ Power BI, varsayılan olarak sayısal sütunları agresif bir şekilde topladı�
 
 ## <a name="normalize-your-model"></a>Modelinizi normalleştirin
 
-Tabii ki modelinizi tamamen yeniden şekillendirmeniz gerektiğini söylemiyoruz. Bununla birlikte, Soru-Cevap’ın başa çıkamayacağı kadar zor olan belirli yapılar vardır. Modelinizin yapısında bazı temel normalleştirme işlemleri gerçekleştirirseniz, hem Power BI raporlarının kullanılabilirliği hem de Soru-Cevap sonuçlarının doğruluğu önemli ölçüde artar.
+Tabii ki modelinizi tamamen yeniden şekillendirmeniz gerektiğini söylemiyoruz. Ancak belirli yapılar çok zor olduğundan Soru-Cevap tarafından düzgün işlenmez. Modelinizin yapısında bazı temel normalleştirme işlemleri gerçekleştirirseniz, hem Power BI raporlarının kullanılabilirliği hem de Soru-Cevap sonuçlarının doğruluğu önemli ölçüde artar.
 
-Şu genel kuralı izlemelisiniz: Kullanıcının bahsettiği her benzersiz “şey”, tam olarak bir model nesnesiyle (tablo veya sütun) temsil edilmelidir. Kullanıcılarınız müşterilerden bahsediyorsa bir *müşteri* nesnesi olmalıdır. Kullanıcılarınız satıştan bahsediyorsa bir *satış* nesnesi olmalıdır. Kulağa basit geliyor, değil mi? Başlangıçta sahip olduğunuz verilerin durumuna bağlı olarak basit olabilir. Gerekirse **Sorgu Düzenleyicisi**’ndeki zengin veri biçimlendirme özelliklerinden yararlanabilirsiniz, ancak daha basit olan çoğu işlem yalnızca Power BI modelindeki hesaplamalar kullanılarak gerçekleştirilebilir.
+Bu genel kuralı izleyin: Kullanıcının bahsettiği her benzersiz “şey”, tam olarak bir model nesnesiyle (tablo veya sütun) temsil edilmelidir. Kullanıcılarınız müşterilerden bahsediyorsa bir *müşteri* nesnesi olmalıdır. Kullanıcılarınız satıştan bahsediyorsa bir *satış* nesnesi olmalıdır. Kulağa basit geliyor, değil mi? Başlangıçta sahip olduğunuz verilerin durumuna bağlı olarak basit olabilir. Gerekirse **Sorgu Düzenleyicisi**’ndeki zengin veri biçimlendirme özelliklerinden yararlanabilirsiniz, ancak daha basit olan çoğu işlem yalnızca Power BI modelindeki hesaplamalar kullanılarak gerçekleştirilebilir.
 
 Aşağıdaki bölümler, gerçekleştirmeniz gerekebilecek bazı yaygın dönüşümleri içermektedir.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Çok sütunlu varlıklar için yeni tablolar oluşturun
 
-Daha büyük bir tablo içinde tek başına ayrı bir birim görevi gören birden çok sütununuz varsa, bu sütunlar bir tablo olarak ayrılmalıdır. Örneğin, *Şirketler* tablonuzda İlgili Kişi Adı, İlgili Kişinin Unvanı ve İlgili Kişinin Telefonu sütunları varsa, Ad, Unvan ve Telefon’un yanı sıra *Şirketler* tablosunun bir bağlantısını içeren ayrı bir *İlgili Kişiler* tablosunun olması daha iyi bir tasarım olur. Bu, hangi şirkette çalıştıkları fark etmeksizin ilgili kişiler hakkında şirketlerden bağımsız olarak sorular sormayı önemli ölçüde kolaylaştırır ve görüntüleme esnekliğini geliştirir.
+Daha büyük bir tablo içinde tek başına ayrı bir birim görevi gören birden çok sütununuz varsa, bu sütunlar bir tablo olarak ayrılmalıdır. Örneğin, *Şirketler* tablonuzda bir Kişi Adı, Kişi Unvanı ve Kişi Telefonu sütununuz olduğunu varsayın. Ad, Unvan, Telefon ve *Şirketler* tablosunun geri bağlantısını içerecek ayrı bir *Kişiler* tablosu olması daha iyi bir tasarımdır. Bu, hangi şirkette çalıştıkları fark etmeksizin ilgili kişiler hakkında şirketlerden bağımsız olarak sorular sormayı kolaylaştırır ve görüntüleme esnekliğini geliştirir.
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -128,9 +125,9 @@ Modelinizde özellik paketleri varsa bunlar özellik başına tek bir sütun iç
 
 ### <a name="union-to-eliminate-partitioning"></a>Bölümlemeyi ortadan kaldırmak için birleştirme
 
-Verilerinizi birden çok tabloya böldüyseniz veya birden çok sütundaki değerleri özetlediyseniz, kullanıcılarınızın belirli yaygın işlemleri gerçekleştirmesi zor veya imkansız olabilir. İlk olarak tipik bir tablo bölümlemeyi göz önünde bulundurun: bir *Satış2000-2010* tablosu ile bir *Satış2011-2020* tablosu. Tüm önemli raporlarınız belirli bir on yıllık dönemle sınırlanmışsa Power BI raporları için değişiklik yapmanız gerekmeyebilir. Ne var ki, Soru-Cevap’ın esnekliği sayesinde kullanıcılarınız “yıla göre toplam satış” gibi soruların cevaplarını bekler. Bunun olabilmesi için verileri tek bir Power BI model tablosunda birleştirmeniz gerekir.
+Verilerinizi birden çok tabloya böldüyseniz veya birden çok sütundaki değerleri özetlediyseniz, kullanıcılarınızın belirli yaygın işlemleri gerçekleştirmesi zor veya imkansız olabilir. İlk olarak tipik bir tablo bölümlemeyi göz önünde bulundurun: bir *Satış2000-2010* tablosu ile bir *Satış2011-2020* tablosu. Tüm önemli raporlarınız belirli bir on yıllık dönemle sınırlanmışsa Power BI raporları için değişiklik yapmanız gerekmeyebilir. Ne var ki, Soru-Cevap’ın esnekliği sayesinde kullanıcılarınız “yıla göre toplam satış” gibi soruların cevaplarını bekler. Bu sorgunun çalışması için verileri tek bir Power BI model tablosunda birleştirmeniz gerekir.
 
-Benzer şekilde, normal bir özetlenmiş değer sütununu ele alalım: Yazar, Kitap, Şehir1, Şehir2 ve Şehir3 sütunlarını içeren *KitapTuru* tablosu. Böyle bir yapıda, "şehre göre kitap sayısı" gibi basit sorular bile doğru yorumlanamaz. Bunun işe yaraması için şehir değerlerini tek bir sütunda birleştiren *KitapTuruŞehirleri* tablosu oluşturmanız gerekir.
+Benzer şekilde, normal bir özetlenmiş değer sütununu ele alalım: Yazar, Kitap, Şehir1, Şehir2 ve Şehir3 sütunlarını içeren *KitapTuru* tablosu. Böyle bir yapıda, "şehre göre kitap sayısı" gibi basit sorular bile doğru yorumlanamaz. Bu sorgunun işe yaraması için şehir değerlerini tek bir sütunda birleştiren ayrı bir *Kitap Turu Şehirleri* tablosu oluşturun.
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -142,7 +139,7 @@ Benzer şekilde, normal bir özetlenmiş değer sütununu ele alalım: Yazar, Ki
 
 ### <a name="split-formatted-columns"></a>Biçimlendirilmiş sütunları bölme
 
-Verilerinizi içeri aktardığınız kaynak biçimlendirilmiş sütunlar içeriyorsa Power BI raporları (ve Soru-Cevap) sütunun içine ulaşarak içeriği ayıklamaz. Bu nedenle, örneğin adres, şehir ve ülkeyi içeren bir **Açık Adres** sütununuz varsa, kullanıcılarınızın her birini tek tek sorgulayabilmesi için bunu Adres, Şehir ve Ülke sütunlarına bölmeniz gerekir.
+Verilerinizi içeri aktardığınız kaynak biçimlendirilmiş sütunlar içeriyorsa Power BI raporları (ve Soru-Cevap) sütunun içine ulaşarak içeriği ayıklamaz. Bu nedenle, örneğin, adres, şehir ve ülkeyi içeren bir **Tam Adres** sütununuz varsa, kullanıcılarınızın her birini tek tek sorgulayabilmesi için bunu Adres, Şehir ve Ülke sütunlarına bölmeniz gerekir.
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -169,7 +166,7 @@ Yine benzer şekilde, vVerilerinizi içeri aktardığınız kaynak çok değerli
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Etkin olmayan ilişkileri ortadan kaldırmak için normalleştirmeyi geri alın
 
-“Normalleştirme daha iyidir” kuralının tek istisnası, bir tablodan diğerine ulaşmak için birden çok yol olduğunda görülür. Örneğin, her biri *Şehirler* tablosuyla ilişkili olacak şekilde hem KaynakŞehirKimliği hem de HedefŞehirKimliği sütununu içeren bir *Uçuşlar* tablonuz varsa, bu ilişkilerden biri etkin değil olarak işaretlenmelidir. Soru-Cevap yalnızca etkin ilişkileri kullanabildiğinden, hangisini seçtiğinize bağlı olarak kaynak veya hedef hakkında soru soramazsınız. Bunun yerine, *Uçuşlar* tablosunda şehir adı sütunlarının normalleştirmesini kaldırırsanız şöyle sorular sorabilirsiniz: “yarınki kaynak şehri Seattle, hedef şehri San Francisco olan uçuşları listele.”
+“Normalleştirme daha iyidir” kuralının tek istisnası, bir tablodan diğerine ulaşmak için birden çok yol olduğunda görülür. Örneğin, her biri *Şehirler* tablosuyla ilişkili olacak şekilde hem Kaynak Şehir Kimliği hem de Hedef Şehir Kimliği sütununu içeren bir *Uçuşlar* tablonuz olduğunu varsayın. Bu ilişkilerden birinin etkin değil olarak işaretlenmesi gerekir. Soru-Cevap yalnızca etkin ilişkileri kullanabildiğinden, hangisini seçtiğinize bağlı olarak kaynak veya hedef hakkında soru soramazsınız. Bunun yerine, *Uçuşlar* tablosunda şehir adı sütunlarının normalleştirmesini kaldırırsanız şöyle sorular sorabilirsiniz: “yarınki kaynak şehri Seattle, hedef şehri San Francisco olan uçuşları listele.”
 
 **Üzerinde çalışılması gerekiyor**
 
@@ -183,7 +180,7 @@ Yine benzer şekilde, vVerilerinizi içeri aktardığınız kaynak çok değerli
 
 Bu adım, genel olarak Power BI raporları için değil özel olarak Soru-Cevap için geçerlidir. Kullanıcılar genellikle aynı şeyden bahsederken çeşitli terimler (toplam satış, net satış, toplam net satış gibi) kullanır. Power BI modeli, bu eş anlamlıların model içindeki tablo ve sütunlara eklenmesine olanak sağlar. 
 
-Bu çok önemli bir adım olabilir. Tablo ve sütun adları kolay olsa bile Soru-Cevap kullanıcıları, önceden tanımlanmış bir sütun listesinden seçim yaparak değil akıllarına ilk gelen sözcükleri kullanarak soru sorar. Ne kadar çok mantıklı eş anlamlı eklerseniz kullanıcılarınızın raporla ilgili deneyimi o kadar iyi olur. Eş Anlamlılar eklemek için **İlişkiler** görünümünde, aşağıdaki resimde gösterildiği gibi şeritten Eş anlamlılar düğmesini seçin.
+Bu adım önemli olabilir. Tablo ve sütun adları kolay olsa bile Soru-Cevap kullanıcıları, önceden tanımlanmış bir sütun listesinden seçim yaparak değil akıllarına ilk gelen sözcükleri kullanarak soru sorar. Ne kadar çok mantıklı eş anlamlı eklerseniz kullanıcılarınızın raporla ilgili deneyimi o kadar iyi olur. Eş Anlamlılar eklemek için **İlişkiler** görünümünde, aşağıdaki resimde gösterildiği gibi şeritten Eş anlamlılar düğmesini seçin.
 
 ![Soru-Cevap için eş anlamlı sözcüklere ekleyin](media/desktop-qna-in-reports/desktop-qna_21.png)
 

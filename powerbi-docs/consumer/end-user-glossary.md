@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508026"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026369"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -23,7 +23,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **hesap** Farklı türde Power BI hesapları vardır.  Power BI Pro hesabı ücretli aylık bir aboneliktir.  Power BI Ücretsiz hesabı, Power BI Premium kapasitede barındırılan içeriğin görüntülenmesine olanak sağlar.  
 
-**yönetici portalı** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Office 365, Azure ve PowerApps yönetim merkezini kullanır.)
+**yönetici portalı** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Office 365, Azure ve PowerApps, yönetim merkezini kullanır.)
 
 **toplamlar** Birden çok satırdaki değerlerin daha kayda değer bir anlam veya ölçümün tek değerini oluşturmak için belirli ölçütlerde giriş olarak bir araya getirilmesi.
 
@@ -40,9 +40,9 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
  
 **uygulama çalışma alanı** Çalışma alanım dışında Power BI'daki tüm çalışma alanları şimdi uygulama çalışma alanıdır. İçerikler bir Power BI uygulamasında paketlenebilir. Premium kapasitede depolananlar Ücretsiz kullanıcılarla paylaşılabilir. Kişisel çalışma alanları (Çalışma alanım'ın altındaki) Premium kapasitede barındırılabilir.  
 
-**AppSource**
+İndirilecek panolara, raporlara, veri kümelerine ve uygulamalara göz atıp bunları keşfedebileceğiniz **AppSource** Merkezi çevrimiçi deposu.
 
-**ArcGIS for Power BI** ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı ArcGIS for Power BI'dır.
+**ArcGIS Maps for Power BI** ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı, ArcGIS for Power BI’dır.
 
 **atamak** [Power BI Premium] Çalışma alanını ayrılmış bir kapasitenin içine veya dışına taşımayı açıklayan fiil. Çalışma alanını ayrılmış bir kapasiteye taşıma işlemi için yükseltme fiilini kullanmayın çünkü bu fiil ayrılmış kapasitenin paylaşılan kapasiteden üstün olduğuna ilişkin bir çağrışım yaratır.  
 
@@ -69,7 +69,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **içerik listesi** Bir uygulamanın içerik dizini.
 
-**içerik paketi**
+**içerik paketi** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) bilgi edinin. 
 
 **içerik görünümü**
 
@@ -92,11 +92,11 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 **veri modeli, Excel Veri Modeli**
 
 
-**veri kümesi** - **veri kaynağı**
+**veri kümesi** ve **veri kaynağı** karşılaştırması **Veri kümesi**, görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
 
 **ayrılmış kapasite** [Power BI Premium] Her ölçekte tutarlı bir performans sağlamaya yardımcı olmak için Microsoft bulut veri merkezlerindeki ayrılmış donanımlarda çalıştırılan veri modelleri. BI çözümleri, Power BI lisansına bakılmaksızın kuruluşun tamamına sunulur.
 
-**Desktop** İlk örnek: Power BI Desktop Daha sonra adı geçtiğinde: Desktop
+**Masaüstü** Birinci örnek: Power BI Desktop Sonraki bahsetmeler: Masaüstü
 
 
 **baklava** Power BI Premium. Çalışma alanının Premium kapasitede bir çalışma alanı olduğunu belirten simgenin şekli.
@@ -110,6 +110,8 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 **üç nokta** ...
 
 **ekleme kodu** İnternet genelinde ortak bir standart. Power BI'da, müşteri bir ekleme kodu oluşturabilir ve bir web sitesi veya bloga rapor görseli gibi içerik yerleştirmek için kopyalayabilir.
+
+**Embedded** Bkz. Power BI Embedded. 
 
 **ekleme** Power BI geliştirici teklifinde, Power BI REST API'lerini ve Power BI SDK'sını kullanarak analitiği uygulamalara tümleştirme sürecidir.
 
@@ -133,7 +135,7 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 ## <a name="g"></a>G
 
-**ağ geçitleri** veya **şirket içi veri ağ geçitleri** Temel veri kaynaklarına kurulan köprü. Power BI hizmetiyle yenileme özelliğini destekleyen şirket içi veri kaynakları arasında hızlı ve güvenli veri aktarımı sağlar. Genellikle BT tarafından yönetilir. şirket içi veri ağ geçitleri
+**ağ geçitleri** veya **şirket içi veri ağ geçitleri** Temel veri kaynaklarına kurulan köprü. Power BI hizmetiyle yenileme özelliğini destekleyen şirket içi veri kaynakları arasında hızlı ve güvenli veri aktarımı sağlar. Genellikle BT tarafından yönetilir. 
 
 ## <a name="h"></a>H
 **yüksek yoğunluklu görseller** Power BI'ın işleyebileceğinden daha fazla veri noktası içeren görseller. Power BI şekli ve aykırı değerleri göstermek için verilerden örnekleme yapar.
@@ -160,7 +162,7 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 ## <a name="m"></a>M
 
-**ölçüler** DAX kodu veya hızlı ölçüler kullanılarak Power BI Desktop'a yazılan özel hesaplamalar.
+**Mobil uygulama** iOS, Android ve Windows cihazlarında Power BI çalıştırmanıza olanak sağlayan uygulamalar.
 
 **modelleme** [Power BI Desktop] Bağlandığınız verileri Power BI'da kullanıma hazır duruma getirme. Birden çok veri kaynağındaki tablolar arasında ilişkileri oluşturma, ölçüleri oluşturma ve ölçümleri atama işlemlerini içerir.
 
@@ -180,6 +182,9 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 ## <a name="o"></a>O
 
 **OneDrive İş** - **OneDrive** OneDrive bir kişisel hesaptır ve OneDrive İş de iş hesaplarına yöneliktir.  
+
+**Şirket içi veri ağ geçidi**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 **Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**, Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
-**Power BI Desktop** *Desktop* olarak da anılır.
+**Power BI Desktop** *Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../power-bi-overview.md)
 
 **Power BI Embedded** Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
@@ -210,8 +215,9 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 **Power BI Pro lisansı** Panolar oluşturma, paylaşılan veriler üzerinde işbirliği yapmaya, otomatik olarak verilerin güncelliğini korumaya, verilere erişimi denetlemeye ve yönetmeye, içeriği dağıtım için paketlemeye (Power BI uygulamaları) olanak sağlayan aylık kullanıcı lisansı.
 
-**Power BI Rapor Sunucusu** Kuruluşların dağıtılmış, hibrit BI sistemleri (bulut ve şirket içi dağıtımların bir bileşimi) oluşturabilmesi için Power BI Premium ile birlikte tanıtılan yeni bir SSRS teklifi markası.
-Zengin, sayfalanmış raporlama işleviyle SQL Server Reporting Services'i, Power BI Desktop kullanılarak yazılmış raporları sunma becerisiyle birlikte mobil raporları ve bunları Power BI mobil uygulamalarında teslim etme özelliğine dayanır. Klasik SSRS'nin satışı devam etmektedir.
+**Power BI Rapor Sunucusu** Kuruluşların dağıtılmış, hibrit BI sistemleri (bulut ve şirket içi dağıtımların bir bileşimi) oluşturabilmesi için Power BI Premium ile birlikte tanıtılan yeni bir SSRS teklifi markası. Embedded, Power BI raporlarını depolayıp yönetmenin yerelleştirilmiş bir yolunu sağlar.
+
+**Power BI hizmeti** Çevrimiçi bir SaaS (Hizmet olarak yazılım) hizmeti. Daha fazla bilgi için bkz. [Power BI nedir?](../power-bi-overview.md)
 
 **Power BI hizmet bağlayıcısı** Bu bağlayıcı Power BI Desktop kullanıcılarının Desktop'tan Power BI hizmetindeki veri kümelerine bağlanmasını sağlar. Bir kereliğine bir model oluşturup bu modeli birçok raporda ve panoda kullanabilirler.
 

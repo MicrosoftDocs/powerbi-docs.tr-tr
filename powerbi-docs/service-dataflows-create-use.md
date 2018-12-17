@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268942"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180588"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI'da veri akışlarını oluşturma ve kullanma (Önizleme)
 
@@ -143,6 +143,10 @@ Ayrıca, veri akışınızın adını ve diğer birçok veri akışı varlığı
 
 Varlığı ve ardından **Yükle** düğmesini seçtiğinizde, varlıklar **Power BI Desktop**'taki **Alanlar** bölmesinde gösterilir ve bunlar diğer herhangi bir veri kümesindeki **tablolarla** aynı şekilde görünür ve davranır.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage 2. Nesil’de depolanan veri akışlarını kullanma
+
+Bazı kuruluşlar, veri akışlarının oluşturma ve yönetimi için kendi depolama alanını kullanmayı isteyebilir. Gereksinimleri izleyip izinleri düzgün şekilde yönetirseniz Azure Data Lake Storage 2. Nesil ile veri akışlarını tümleştirebilirsiniz. Bu yaklaşımın tüm gereksinimlerinin belgelerine, [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md) adlı genel bakış belgesinden itibaren erişilebilir.
+
 
 ## <a name="troubleshooting-data-connections"></a>Veri bağlantısı sorunlarını giderme
 
@@ -160,6 +164,7 @@ Bu makalede kendi **veri akışınızı** oluşturma ve bundan yararlanmak için
 * [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
 * [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
 * [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)

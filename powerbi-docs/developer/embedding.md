@@ -1,6 +1,6 @@
 ---
-title: Power BI ile ekleme
-description: Power BI, panolarınızı ve raporlarınızı uygulamalara eklemek için kullanabileceğiniz API'ler sunar.
+title: Power BI ile tümleşik analiz
+description: Power BI, panolarınıza ve raporlarınıza yönelik tümleşik analizi uygulamalara eklemek için API’ler sunar. Tümleşik analiz yazılımlarını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak hem PaaS ortamında hem de SaaS ortamında Power BI ile ekleme hakkında daha fazla bilgi edinin.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,19 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973782"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180343"
 ---
-# <a name="embedding-with-power-bi"></a>Power BI ile ekleme
+# <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
 Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken kullanabileceğiniz bir özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacağınız anlamına gelir.
 
-Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Katıştırma kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
+Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 
 Size uygun olan çözümü seçin:
 
@@ -39,15 +40,15 @@ Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve rapo
 
 ## <a name="embedding-for-your-organization"></a>Kuruluşunuz için içerik ekleme
 
-**Embedding for your organization** seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Kuruluşunuza ekleme işlemi için uygulamanızın kullanıcılarının, içeriklerini görüntülemek istediklerinde Power BI hizmetinde oturum açmaları gerekir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca, sahip olduğu veya Power BI hizmetinde kendisiyle paylaşılmış olan panolara ve raporlara erişebilir.
+**Embedding for your organization** seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Kuruluşunuz için içerik ekleme işlemi için uygulamanızın kullanıcılarının, içeriklerini görüntülemek istediklerinde Power BI hizmetinde oturum açmaları gerekir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca, sahip olduğu veya Power BI hizmetinde kendisiyle paylaşılmış olan panolara ve raporlara erişebilir.
 
 *Kuruluşunuz için içerik ekleme örnekleri arasında [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams tümleştirmesi (Yönetici haklarına sahip olmanız gerekir)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) ve [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) gibi şirket içi uygulamalar bulunur.*
 
-Kuruluşunuz için içerik ekleme konusunda bilgiye aşağıdaki sayfalardan ulaşabilirsiniz:
+Kuruluşunuz için içerik ekleme konusunda bilgiye aşağıdaki sayfalara bakın:
 
 * [Raporları uygulamalarla tümleştirme](embed-sample-for-your-organization.md)
 
-Düzenleme ve kaydetme gibi self servis özellikleri Power BI kullanıcıları için ekleme yaparken [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)'si aracılığıyla kullanılabilir.
+Düzenleme ve kaydetme gibi self servis özellikleri Power BI kullanıcıları için ekleme yaparken [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)’si aracılığıyla kullanılabilir.
 
 Hızlı kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için kuruluşunuzda eklemeye yönelik [katıştırma kurulum aracını](https://aka.ms/embedsetup/UserOwnsData) inceleyebilirsiniz.
 
@@ -61,7 +62,7 @@ Hızlı kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adı
 
 Power BI Embedded'in ISV'lere, onların geliştiricilerine ve müşterilerine yönelik avantajları vardır. Örneğin, bir ISV Power BI Desktop ile ücretsiz olarak görseller oluşturmaya başlayabilir. ISV'ler görsel analiz geliştirme çabalarını en aza indirerek pazara sunma sürecini hızlandırabilir ve fark yaratan veri deneyimleriyle rakipleri arasında öne çıkabilir. Ayrıca ISV'ler eklenen analitik sayesinde oluşturulan ek değer için bir ücret almayı tercih edebilir.
 
-Power BI Embedded ile müşterilerinizin Power BI ile ilgili bilgi sahibi olmalarına gerek yoktur. Ekli uygulama oluşturmak için tek bir Power BI Pro hesabınız olması yeterlidir. Power BI Pro hesabı, uygulamanız için ana hesap olarak kullanılır (bunu ara sunucu hesabı olarak düşünün). Power BI Pro hesabı ile Power BI hizmetindeki, uygulamanıza ait veya uygulamanız tarafından yönetilen pano ve raporlara erişim sağlayan ekleme belirteçleri de oluşturabilirsiniz.
+Power BI Embedded ile müşterilerinizin Power BI ile ilgili bilgi sahibi olmalarına gerek yoktur. Ekli uygulama oluşturmak için tek bir Power BI Pro hesabınız olması yeterlidir. Power BI Pro hesabı, uygulamanız için ana hesap olarak kullanılır (bu ana hesabı ara sunucu hesabı olarak düşünün). Power BI Pro hesabı ile Power BI hizmetindeki, uygulamanıza ait veya uygulamanız tarafından yönetilen pano ve raporlara erişim sağlayan ekleme belirteçleri de oluşturabilirsiniz.
 
 Geliştiriciler Power BI Embedded kullanarak görselleri ve analitiği geliştirmeye zaman harcamak yerine uygulamalarının temel yetkinliğini oluşturmaya zaman ayırabilir. Geliştiriciler müşterilerin rapor ve pano taleplerini hızla karşılayabilir ve tümüyle belgelenmiş API'leri ve SDK'ları kolayca ekleyebilir. ISV'ler uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin her cihazdan bağlam içinde hızlı ve veri odaklı kararlar vermesini sağlar.
 
