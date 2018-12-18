@@ -1,24 +1,25 @@
 ---
-title: Power BI ile otomatik olarak veri öngörüleri oluşturma
-description: Veri kümeleriniz ve pano kutucuklarınız hakkındaki öngörüleri nasıl edineceğinizi öğrenin.
+title: Pano kutucuklarında içgörüleri çalıştırma ve görüntüleme
+description: Power BI son kullanıcısı olarak, pano kutucuklarınız hakkındaki öngörüleri nasıl edineceğinizi öğrenin.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112050"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180542"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Power BI ile otomatik olarak veri öngörüleri oluşturma
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 Panonuzdaki her görselleştirme kutucuğu, veri keşif dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
 
 Verilerinizi temel alan ilgi çekici ve etkileşimli görselleştirmeler oluşturmak için hızlı öngörüler çalıştırın. Belirli bir pano kutucuğunda hızlı içgörüler çalıştırabilir ve hatta bir içgörü üzerinde içgörü çalıştırabilirsiniz!
@@ -40,7 +41,9 @@ Bir pano kutucuğunda içgörü çalıştırdığınızda Power BI yalnızca o p
 4. Öngörülerden biri ilginizi mi çekti? İlgili öngörü kartını seçerek detaylandırabilirsiniz. Seçilen öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni öngörü kartları da sağ tarafta görüntülenir.    
 
  ## <a name="interact-with-the-insight-cards"></a>Öngörü kartlarıyla etkileşim kurma
-   * Görselleştirmeleri filtreleyebilirsiniz.  Filtreleri görüntülemek için sağ üst köşedeki oku seçerek Filtreler bölmesini genişletin.
+Açık bir içgörünüz olduğunda keşfetmeye devam edin.
+
+   * Tuval üzerinde görseli filtreleyin.  Filtreleri görüntülemek için sağ üst köşedeki oku seçerek Filtreler bölmesini genişletin.
 
      ![genişletilmiş içgörü ve Filtreler menüsü](./media/end-user-insights/power-bi-insights-on-insights.png)
    
