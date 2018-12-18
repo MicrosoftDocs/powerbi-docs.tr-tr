@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026259"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280639"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI raporlarında yeni filtre deneyimi (Önizleme)
 
@@ -34,11 +34,11 @@ Rapor tasarımcısı olarak, yeni filtrelerle şunları yapabilirsiniz:
 
 ## <a name="turn-on-the-new-filter-experience"></a>Yeni filtre deneyimini açma 
 
-Yeni deneyimi Power BI Desktop'ta etkinleştirirsiniz. Ardından filtreleri orada veya Power BI hizmetinde (https://app.powerbi.com) değiştirebilirsiniz. Bu yeni filtre deneyimi Önizleme aşamasında olduğundan, önce bu deneyimi Power BI Desktop'ta etkinleştirmeniz gerekir. 
+Yeni deneyimi Power BI Desktop'ta etkinleştirirsiniz. Ardından filtreleri orada veya Power BI hizmetinde (https://app.powerbi.com) değiştirebilirsiniz. Bu yeni filtre deneyimi Önizleme aşamasında olduğundan, önce bu deneyimi Power BI Desktop'ta etkinleştirmeniz gerekir. Raporu Power BI hizmetinde oluşturarak işe başlarsanız, rapor yeni filtreleri içeremez.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>Tüm yeni raporlar için yeni filtreleri açma
 
-1. **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**'ni seçin ve sonra da **Yeni filtre deneyimi** onay kutusunu seçin. 
+1. Power BI Desktop'ta **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**'ni seçin ve sonra da **Yeni filtre deneyimi** onay kutusunu seçin. 
 2. Tüm yeni raporlarda yeni filtre deneyimini görmek için Power BI Desktop'ı yeniden başlatın.
 
 Power BI Desktop'ı yeniden başlattıktan sonra, oluşturduğunuz tüm yeni raporlarda varsayılan olarak etkinleştirilir.  
@@ -47,7 +47,7 @@ Power BI Desktop'ı yeniden başlattıktan sonra, oluşturduğunuz tüm yeni rap
 
 Yeni filtreleri mevcut raporlar için de etkinleştirebilirsiniz.
 
-1. Mevcut raporda **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler**'i seçin
+1. Power BI Desktop'ta, mevcut raporda **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler**'i seçin
 2. **Rapor ayarları**'nın altında, **Güncelleştirilmiş filtre bölmesini etkinleştirin ve bu rapor için görsel üst bilgisinde filtreleri gösterin** öğesini seçin.
 
 ## <a name="build-the-new-filter-pane"></a>Yeni filtre bölmesini oluşturma

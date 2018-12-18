@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026811"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281046"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
@@ -70,7 +70,7 @@ Bağlanmak için *Erişim anahtarınızı* girin.
 > 
 > 
 
-**Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.
+**Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.  Bağlayıcı, tablonun varsayılan süresine göre verileri yükleyecektir.  Süreyi özelleştirmeniz gerekirse, [özel bir sorgu ayarlayabilirsiniz](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

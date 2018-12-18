@@ -1,33 +1,34 @@
 ---
-title: Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
+title: Raporlarda grafiklerin sıralanma biçimini değiştirme
 description: Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979358"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280018"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre sıralanmıştır.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürebilirsiniz.
 
 1. Üç nokta (...) simgesini seçin ve ardından **Sıralama ölçütü: Sales Per Sq Ft** seçeneğini belirleyin.
 2. Gerekirse, üç nokta simgesini yeniden seçin ve **Azalan düzene göre sırala** seçeneğini belirleyin.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![sıralamanın ve ardından artan, azalan ayarının seçilmesini gösteren video](media/end-user-change-sort/sort.gif)
 
    **NOT**: Her görsel sıralanamaz.  Örneğin, aşağıdaki görseller sıralanamaz: Ağaç Haritası, Harita, Kartogram, Dağılım, Gösterge, Kart, Çok Satırlı Kart, Şelale.
 

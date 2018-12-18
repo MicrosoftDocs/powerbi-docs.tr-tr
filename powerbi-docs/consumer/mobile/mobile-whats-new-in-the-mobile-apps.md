@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979571"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280938"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,36 @@ ms.locfileid: "52979571"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>Kasım 2018
+
+### <a name="modern-visual-header"></a>Modern görsel üst bilgi 
+
+Yeni ‘modern görsel üst bilginin’ kullanıldığı raporlarda artık üst bilgiler için yer ayrılmaz ve bu sayede daha az boş alan bırakılarak görselleştirmelerinize daha fazla yer kalır.
+
+### <a name="enhance-presentation-mode-windows"></a>Gelişmiş sunu modu (Windows)
+
+Surface Hub ve Windows 10 cihazları için gelişmiş sunu modu.  Geliştirilmiş sunu ve işbirliği araçlarıyla, ayrıca verilerinize odaklanabilmenizi sağlayan kenarlıksız, geniş ekran için iyileştirilmiş görünümle gelişmiş Surface Hub toplantı odası deneyiminden yararlanın. Sunu modu, verilerinizi etkili bir şekilde sunmak ve bunlar üzerinde tartışmak için mürekkep gibi araçlar da sağlar. [Burada](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) sunu modu hakkında daha fazla bilgi bulabilirsiniz.
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Tabletlerde dikey rapor düzeni (iOS ve Android)
+
+Tablette dikey mod yönlendirmesinde rapor görüntülemek için artık mevcut olduğunda telefon raporu düzenini kullanıyoruz. [Power BI Hizmetinde veya Power BI Desktop'ta telefon düzeni oluşturma](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/) hakkındaki diğer yazıları okuyun.
+
+### <a name="supporting-report-query-string"></a>Rapor sorgu dizesi desteği 
+
+Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulamada açılıyor ve sorgu dizesinde tanımlanan koşullar temelinde önceden filtreleniyor. [Sorgu dizesiyle rapor url'si oluşturma](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) hakkında daha fazla bilgi edinin.  
+
+### <a name="shared-credentials-now-in-android"></a>Paylaşılan kimlik bilgileri (artık Android'de)
+
+Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Office 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
+
+### <a name="in-app-urls-now-in-android"></a>Uygulama içi URL'ler (artık Android'de) 
+
+Diğer Power BI yapıtlarını işaret eden raporlardaki bağlantılar artık doğrudan uygulamanın içinde açılmaktadır. Bu özellik sayesinde, bir raporu panoya bağlama gibi özel gezinti akışları oluşturabilirsiniz.
+
+### <a name="show-data-and-copy-values"></a>Verileri gösterme ve değerleri kopyalama
+
+Rapor görsel eylem menüsünde (...) şimdi temel alınan verileri tablo biçiminde gösteren bir seçenek sağlanıyor. Tabloya girdikten sonra, o tablodaki verileri uzun süre dokunarak seçebilir ve kopyalayabilirsiniz (kopyalamayı kısıtlayan bir Intune ilkesinin olmadığı varsayımıyla).
 
 ## <a name="october-2018"></a>Ekim 2018
 
