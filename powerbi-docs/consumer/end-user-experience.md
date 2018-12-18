@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473877"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280823"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -40,7 +41,7 @@ Power BI hizmeti turumuzda kullanılacak bazı örnek verileri elde edeceğiz. K
 
     Power BI hizmeti, örneği içeri aktarır ve panoyu görüntüler. Power BI hizmeti panolarla Power BI Desktop'tan ayrılır. Örnekte, daha sonra ziyaret edeceğimiz bir rapor ve veri kümesi de yer alır.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![pano görüntüleri](media/end-user-experience/power-bi-dashboard.png)
 
 Amanda’nın Power BI hizmeti gezinme deneyimindeki turunu izleyin.  Ardından kendi başınıza keşfetmek için videonun altında bulunan adım adım yönergeleri uygulayın.
 
@@ -50,7 +51,7 @@ Amanda’nın Power BI hizmeti gezinme deneyimindeki turunu izleyin.  Ardından 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>İçerik (panolar, raporlar, çalışma kitapları, veri kümeleri, çalışma alanları, uygulamalar) görüntüleme
 Temel içeriğin (panolar, raporlar, veri kümeleri ve çalışma kitapları) nasıl düzenlendiğine göz atarak başlayalım. İçerik bir çalışma alanı bağlamında görüntülenir. Bu noktada, **Çalışma Alanım** adında yalnızca bir çalışma alanınız vardır. Tüketicilerin genellikle başka bir çalışma alanı kullanması gerekmez. Çalışma Alanım, size ait tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. Çalışma alanım, az önce indirdiğiniz Perakende Analizi örneğinin kaydedildiği yerdir. 
 
-Çalışma Alanım'da içeriğiniz 4 sekmede düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
+Çalışma Alanım'da, içeriğiniz 4 sekme halinde düzenlenmiştir: Panolar, Raporlar, Çalışma Kitapları ve Veri Kümeleri.
 
 ![Çalışma Alanım ekranı](./media/end-user-experience/power-bi-my-workspace.png)
 

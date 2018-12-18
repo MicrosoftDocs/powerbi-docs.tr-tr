@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56f25730730a6f218f2dbaa678abdf182470f177
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: eea68f0a17deff3aaa5a39558ffc2165b4c2b6f6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670268"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280364"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop'a Excel çalışma kitabı aktarma
 **Power BI Desktop**’ı kullanarak, Power Query sorguları, Power Pivot modelleri ve Power View çalışma sayfaları içeren Excel çalışma kitaplarını, Power BI Desktop’a kolayca aktarabilirsiniz. Raporlar ve görselleştirmeler, Excel çalışma kitabı temel alınarak otomatik olarak oluşturulur ve içeri aktarma işlemini gerçekleştirdikten sonra Power BI Desktop'ı kullanarak, hem var olan özellikler hem de her bir Power BI Desktop aylık güncelleştirmesi ile sunulan yeni özellikler sayesinde bu raporları geliştirmeye ve iyileştirmeye devam edebilirsiniz.
@@ -42,7 +42,7 @@ Bir çalışma kitabı seçildiğinde Power BI Desktop çalışma kitabını ç�
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
-**Kapat**'ı seçtiğinizde rapor Power BI Desktop'a yüklenir. Aşağıdaki görüntüde, Power BI Desktop'ın bir Excel çalışma kitabı içeri aktarıldıktan sonraki durumu gösterilmektedir: Power BI Desktop, çalışma kitabı içeriklerini temel alan raporu otomatik olarak yüklemiştir.
+**Kapat**'ı seçtiğinizde rapor Power BI Desktop'a yüklenir. Aşağıdaki resimde, Excel çalışma kitabı içeri aktarıldıktan sonra Power BI Desktop gösteriliyor: Power BI Desktop, çalışma kitabının içeriği temelinde raporu otomatik olarak yükler.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_4.png)
 
@@ -55,16 +55,16 @@ Power BI Desktop, Excel'de bulunan ve genellikle *nesneler* olarak adlandırıla
 | --- | --- |
 | Power Query sorguları |Excel'den yapılan tüm Power Query sorguları, Power BI Desktop sorgularına dönüştürülür. Excel Çalışma Kitabında tanımlı Sorgu Grupları varsa aynı kuruluş Power BI Desktop'ta çoğaltılır. Excel'de "Yalnızca Bağlantı Oluştur" ayarı yapılmadığı sürece tüm sorgular yüklenir. Yükleme davranışı, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nin **Giriş** sekmesinde bulunan **Özellikler** iletişim kutusundan özelleştirilebilir. |
 | Power Pivot Dış Veri Bağlantıları |Tüm Power Pivot Dış Veri Bağlantıları, Power BI Desktop'ta sorgulara dönüştürülür. |
-| Bağlantılı Tablolar veya Geçerli Çalışma Kitabı tabloları |Excel’de Veri Modeli veya bir sorgu ile bağlantılı bir çalışma sayfası tablosu varsa (M’de *From Table* veya *Excel.CurrentWorkbook()* işlevi kullanılarak) aşağıdaki seçenekler sunulur: 1. Tabloyu Power BI Desktop dosyasına aktarın. Bu tablo, verilerin bir defalık anlık görüntüsüdür. Bu işlemden sonra Power BI Desktop’taki tabloda bulunan verileri düzenleyemezsiniz. Bu seçenek kullanılarak oluşturulan tablolar için 1 milyon karakterlik (tüm sütun başlıklarının ve hücrelerin birleşiminden elde edilen toplam) bir boyut sınırlaması vardır. 2. Özgün çalışma kitabıyla bağlantıyı koruyun. Alternatif olarak, özgün Excel Çalışma Kitabı ile bağlantıyı koruyabilirsiniz. Böylece Power BI Desktop, tıpkı Power BI Desktop'taki bir Excel çalışma kitabı için oluşturulan diğer sorgular gibi her yenilemeyle birlikte bu tablodaki en son içeriği alır. |
+| Bağlantılı Tablolar veya Geçerli Çalışma Kitabı tabloları |Excel’de Veri Modeli veya bir sorgu ile bağlantılı bir çalışma kitabı varsa (M’de *From Table* veya *Excel.CurrentWorkbook()* işlevi kullanılarak) aşağıdaki seçenekler sunulur: <ol><li>Tabloyu Power BI Desktop dosyasına aktarın. Bu tablo, verilerin bir defalık anlık görüntüsüdür. Bu işlemden sonra Power BI Desktop’taki tabloda bulunan verileri düzenleyemezsiniz. Bu seçenek kullanılarak oluşturulan tablolar için 1 milyon karakterlik (tüm sütun başlıklarının ve hücrelerin birleşiminden elde edilen toplam) bir boyut sınırlaması vardır.</li><li>Özgün çalışma kitabıyla bağlantıyı koruyun. Alternatif olarak, özgün Excel Çalışma Kitabı ile bağlantıyı koruyabilirsiniz. Böylece Power BI Desktop, tıpkı Power BI Desktop'taki bir Excel çalışma kitabı için oluşturulan diğer sorgular gibi her yenilemeyle birlikte bu tablodaki en son içeriği alır.</li></ul> |
 | Veri Modelindeki Hesaplanmış Sütunlar, Ölçüler, KPI’ler, Veri Kategorileri ve İlişkiler |Bu Veri Modeli nesneleri, Power BI Desktop'ta eşdeğer nesnelere dönüştürülür. Power BI Desktop’ta **Resim** gibi belirli Veri Kategorilerinin henüz kullanıma sunulmadığını göz önünde bulundurun. Böyle durumlarda Veri Kategorisi bilgileri, söz konusu sütunlar için sıfırlanır. |
 | Power View Çalışma Sayfaları |Excel'deki her bir Power View çalışma sayfası için yeni bir rapor sayfası oluşturulur. Bu rapor sayfalarının adı ve sırası, özgün Excel çalışma kitabı ile eşleşir. |
 
 ## <a name="are-there-any-limitations-to-importing-a-workbook"></a>Bir çalışma kitabını içeri aktarmaya ilişkin herhangi bir sınırlama var mıdır?
 Bir çalışma kitabını Power BI Desktop’a aktarmaya ilişkin birkaç sınırlama bulunur ve bu sınırlamalar aşağıdaki listede verilmiştir:
 
-* **Analysis Services Tablolu Modellere yönelik Dış Bağlantılar:** Excel 2013'te SQL Server Analysis Services Tablolu modellere yönelik bağlantı oluşturmak ve verileri içeri aktarmadan bu modellerin üzerinde Power View raporları oluşturmak mümkündür. Bu tür bağlantılar şu anda Excel Çalışma Kitaplarını Power BI Desktop'a aktarma özelliğinin bir parçası olarak desteklenmemektedir. Geçici bir çözüm olarak, söz konusu dış bağlantıları Power BI Desktop'ta yeniden oluşturmanız gerekir.
+* **Analysis Services Tablosal Modellerine Dış Bağlantılar:** Excel 2013'te SQL Server Analysis Services Tablosal modellerine yönelik bağlantı oluşturmak ve verileri içeri aktarmadan bu modellerin üzerinde Power View raporları oluşturmak mümkündür. Bu tür bağlantılar şu anda Excel Çalışma Kitaplarını Power BI Desktop'a aktarma özelliğinin bir parçası olarak desteklenmemektedir. Geçici bir çözüm olarak, söz konusu dış bağlantıları Power BI Desktop'ta yeniden oluşturmanız gerekir.
 * **Hiyerarşiler:** Bu Veri Modeli nesnesi türü şu anda Power BI Desktop'ta desteklenmemektedir. Bu nedenle, bir Excel Çalışma Kitabını Power BI Desktop'a aktarma işleminin bir parçası olarak hiyerarşiler atlanır.
-* **İkili veri sütunları:** Bu Veri Modeli sütunu türü şu anda Power BI Desktop'ta desteklenmemektedir. İkili Veri sütunları, Power BI Desktop'ta sonuç olarak elde edilen tabloda bulunmaz.
+* **İkili veri sütunları:** Bu tür bir Veri Modeli sütunu şu anda Power BI Desktop'ta desteklenmemektedir. İkili Veri sütunları, Power BI Desktop'ta sonuç olarak elde edilen tabloda bulunmaz.
 * **Desteklenmeyen Power View öğeleri:** Temalar veya belirli görselleştirme türleri (Yürütme Eksenli Dağılım Grafiği, Detaya Git davranışları vb.) gibi Power BI Desktop'ta henüz kullanılabilir olmayan bazı Power View özellikleri bulunmaktadır. Desteklenmeyen görselleştirmeler, Power BI Desktop raporundaki ilgili konumlarında *Desteklenmeyen Görselleştirme* benzer iletilerin bulunmasına neden olur, bu görselleştirmeleri silebilir veya gerektiği şekilde yeniden yapılandırabilirsiniz.
 * **Power Query'de** ***From Table*** **kullanan veya M'de**  ***Excel.CurrentWorkbook***  **kullanan Adlandırılmış Aralıklar:** Bu adlandırılmış aralık verilerini Power BI Desktop'a aktarma işlemi şu anda desteklenmese de Power BI Desktop için planlanmış bir güncelleştirmedir. Bu adlandırılmış aralıklar şu anda Power BI Desktop'a bir dış Excel çalışma kitabı bağlantısı olarak yüklenir.
 * **PowerPivot ile SSRS bağlantısı:** İlgili veriler şu anda Power BI Desktop'ta kullanılabilir olmadığından SQL Server Reporting Services'e (SSRS) yönelik PowerPivot dış bağlantıları şu anda desteklenmemektedir.

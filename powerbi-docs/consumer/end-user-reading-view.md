@@ -5,21 +5,21 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396532"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280134"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: ***Tüketiciler*** için Power BI özellikleri hakkında bilgi edinin
@@ -175,7 +175,7 @@ Görselin üzerine gelip **Odak modu** simgesini ![](media/end-user-reading-view
 
 ![odak modu](media/end-user-reading-view/powerbi-focus-mode.png)
 
-Aynı görselleştirmeyi menü çubukları, filtre bölmesi ve diğer görselleştirmeler olmadan görüntülemek için üst menü çubuğundaki **Tam Ekran** simgesini ![](media/end-user-reading-view/power-bi-focus-icon.png) seçin.
+Aynı görselleştirmeyi menü çubukları, filtre bölmesi ve diğer görselleştirmeler olmadan görüntülemek için üst menü çubuğundaki **Tam Ekran** simgesini ![tam ekran simgesi](media/end-user-reading-view/power-bi-focus-icon.png) seçin.
 
 ![tam ekran modu](media/end-user-reading-view/power-bi-full-screen.png)
 

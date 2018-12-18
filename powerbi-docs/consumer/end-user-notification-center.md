@@ -1,24 +1,25 @@
 ---
-title: Power BI Bildirim Merkezi
+title: Bildirim Merkezi'ndeki iletileri görüntüleme
 description: Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565740"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280064"
 ---
-# <a name="power-bi-notifications"></a>Power BI Bildirimleri
+# <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır. Sizinle paylaşılan yeni panolar, Grup alanınızda yapılan değişiklikler, Power BI etkinliklerine ve toplantılarına ilişkin bilgiler, ayarladığınız uyarılar ve daha fazlası hakkındaki iletileri görmek için Bildirim Merkezi'ni açın. Power BI hizmetinin yanı sıra Power BI Mobil uygulamalarında da [uyarılar ayarlayabilirsiniz](../service-set-data-alerts.md).
 
 Amanda'nın aldığı bildirimleri gözden geçirmesini, bildirimlerini yönetmesini ve bunlar için işlem yapmasını izleyin. Ardından kendiniz denemek için videonun altındaki yönergeleri uygulayın.

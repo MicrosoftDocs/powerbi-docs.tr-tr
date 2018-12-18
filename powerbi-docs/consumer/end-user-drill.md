@@ -1,22 +1,23 @@
 ---
-title: Power BI’daki görselleştirmelerde ayrıntı modu
+title: Görselleştirmede detaya gitme ve detaydan çıkma
 description: Bu belgede, Microsoft Power BI hizmetinde ve Power BI Desktop'ta bir görselleştirmenin detayına nasıl gidileceği gösterilmektedir.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679513"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281027"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI’daki görselleştirmelerde ayrıntı modu
 
@@ -26,8 +27,8 @@ Bir görselde hiyerarşi varsa ek ayrıntıları açığa çıkarmak için detay
 Size ait raporlara hiyerarşiler ekleyebilirsiniz ancak sizinle paylaşılan raporlara ekleyemezsiniz.
 Hangi Power BI görselleştirmelerinin bir hiyerarşi içerdiğinden emin değil misiniz?  Bir görselleştirmenin üzerine geldiğinizde üst köşelerde bu detay denetimlerini görüyorsanız görselleştirmenizde hiyerarşi bulunuyor demektir.
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![bir düzey detaya gitme](./media/end-user-drill/power-bi-drill-icon4.png)  ![detaya gitmeyi açma ve kapatma](./media/end-user-drill/power-bi-drill-icon2.png)  ![bir kerede tüm alanlarda detaya gitme simgesi](./media/end-user-drill/power-bi-drill-icon3.png)
+![detaydan çıkma simgesi](./media/end-user-drill/power-bi-drill-icon5.png) ![aşağı genişletme simgesi](./media/end-user-drill/power-bi-drill-icon6.png)  
 
 Tarih, benzersiz bir hiyerarşi türüdür. Görselleştirmeye bir tarih alanı eklediğinizde Power BI otomatik olarak yıl, üç ay, ay ve gün içeren bir zaman hiyerarşisi ekler. Daha fazla bilgi için [Görsel hiyerarşiler ve detaya gitme davranışı](../guided-learning/visualizations.yml?tutorial-step=18) makalesine bakın veya aşağıdaki videoyu izleyin.
 
@@ -42,15 +43,15 @@ Tarih, benzersiz bir hiyerarşi türüdür. Görselleştirmeye bir tarih alanı 
 
 1. Power BI hizmeti veya Desktop’ta detay için hiyerarşiye sahip bir görselleştirme gerekir. 
    
-2. Birlikte ilerlemek için [Perakende Analizi örneğini açın](../sample-datasets.md) ve **Total Units This Year** (Değerler) özelliğine **Territory**, **City**, **PostalCode** ve **Name** (Grup) açısından bakan bir ağaç haritası oluşturun.  Ağaç haritasında bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu bulunur ve bu şekilde devam eder. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
+2. Birlikte ilerlemek için [Perakende Analizi örneğini açın](../sample-datasets.md) ve **Total Units This Year** (Bu Yıla Ait Birimlerin Toplamı) (Değerler) özelliğine **Territory** (Bölge), **City** (Şehir), **Postal Code** (Posta Kodu) ve **Name** (Ad) (Grup) açısından bakan bir ağaç haritası oluşturun.  Ağaç haritasında bölge, şehir, posta kodu ve şehir adından oluşan bir hiyerarşi bulunur. Her bölgede bir veya daha fazla şehir, her şehirde bir veya daha fazla posta kodu bulunur ve bu şekilde devam eder. Varsayılan olarak, listede ilk sırada *Territory* göründüğü için görselleştirme yalnızca bölge verilerini görüntüler.
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   !["Territory" öğesini seçin](media/end-user-drill/power-bi-hierarcy-list.png)
 
-2. Çeşitli detay simgelerinin birlikte nasıl çalıştığını anlamak kafa karıştırıcı olabilir. Bu nedenle ağaç haritasını küçük bölgelerin yalnızca 2 tanesini gösterecek şekilde filtreleyelim: **KY** ve **TN**. Ağaç haritasını seçin ve **Görsel düzeyi filtreleri** altında **Bölge**’yi genişletip **KY** ve **TN**’yi seçin.
+2. Çeşitli detay simgelerinin birlikte nasıl çalıştığını anlamak kafa karıştırıcı olabilir. Bu nedenle ağaç haritasını küçük bölgelerin yalnızca 2 tanesini gösterecek şekilde filtreleyelim: **KY** ve **TN**. Ağaç haritasını seçin ve **Görsel düzeyi filtreleri** altında **Territory**’yi genişletip **KY** ve **TN**’yi seçin.
 
     ![KY ve TN filtresi](./media/end-user-drill/power-bi-filter.png)    
 
-   Şimdi harita ağacında yalnızca iki bölge gösterilir.
+   Şimdi ağaç haritasında yalnızca iki bölge gösterilir.
 
    ![çift detay simgesi](./media/end-user-drill/power-bi-territories.png)
 
@@ -67,17 +68,17 @@ Hiyerarşisi olan görselleştirmeler için detaya gitme, detaydan çıkma ve ge
 
 - Power BI menü çubuğundan **Araştır** düğmesini seçin.
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![Araştır seçildiğinde detay simgeleri ve seçenekleri görüntülenir](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>Detay yolları
 ### <a name="drill-down"></a>Detaya gitme
-Görselleştirmenizi detaylandırmanın birkaç yolu vardır. ***Detaya gitme***, sizi hiyerarşide sonraki düzeye götürür. Bu nedenle, **Bölge** düzeyine bakıyorsanız şehir düzeyine, sonra posta kodu ve son olarak ad düzeyine gidebilirsiniz. Yoldaki her bir adım size yeni bilgiler gösterir.
+Görselleştirmenizi detaylandırmanın birkaç yolu vardır. ***Detaya gitme***, sizi hiyerarşide sonraki düzeye götürür. Bu nedenle, **Territory** düzeyine bakıyorsanız şehir düzeyine, sonra posta kodu ve son olarak ad düzeyine gidebilirsiniz. Yoldaki her bir adım size yeni bilgiler gösterir.
 
 ![detay yolu](./media/end-user-drill/power-bi-drill-path.png)
 
 ### <a name="expand"></a>Genişlet
 
-***Genişletme***, geçerli görünüme ilave bir hiyerarşi düzeyi ekler. Bu nedenle, **Bölge** düzeyine bakıyorsanız ağaç haritanızı genişletip şehir, posta kodu ve ad ayrıntısını ekleyebilirsiniz. Yoldaki her adım size aynı bilgileri gösterir ve bir düzey yeni bilgi ekler.
+***Genişletme***, geçerli görünüme ilave bir hiyerarşi düzeyi ekler. Bu nedenle, **Territory** düzeyine bakıyorsanız ağaç haritanızı genişletip şehir, posta kodu ve ad ayrıntısını ekleyebilirsiniz. Yoldaki her adım size aynı bilgileri gösterir ve bir düzey yeni bilgi ekler.
 
 ![genişletme yolu](./media/end-user-drill/power-bi-expand-path.png)
 
@@ -87,7 +88,7 @@ Ayrıca tek seferde bir alanda veya aynı anda tüm alanlarda detaya gitmeyi ya 
 
 1. Ağaç haritasının KY ve TN verilerini gösteren en üst düzeyinden başlayın. Tanıtıcılardan birini seçip sağa sürükleyerek ağaç haritanızı genişletin. 
 
-    ![2 durumu gösteren ağaç haritası](./media/end-user-drill/power-bi-drill-down.png) geçin.
+    ![iki durumu gösteren ağaç haritası](./media/end-user-drill/power-bi-drill-down.png) geçin.
 
 2. ***Tüm alanlarda aynı anda*** detaya gitmek için görselleştirmenin sol üst köşesindeki çift oku ![çift detaya gitme simgesi](./media/end-user-drill/power-bi-drill-icon3.png) seçin. Ağaç haritanızda şimdi Kentucky ve Tennessee şehir verileri gösterilir. 
 
@@ -97,45 +98,45 @@ Ayrıca tek seferde bir alanda veya aynı anda tüm alanlarda detaya gitmeyi ya 
 
     ![çift detay simgesi](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. Yeniden detaydan çıkmak için görselleştirmenin sol üst köşesindeki yukarı oku ![](./media/end-user-drill/power-bi-drill-icon5.png) seçin.
+3. Yeniden detaydan çıkmak için görselleştirmenin sol üst köşesindeki yukarı oku seçin ![bir düzey yukarı detaydan çıkma simgesi](./media/end-user-drill/power-bi-drill-icon5.png)geçin.
 
 
-## <a name="drill-down-one-field-at-a-time"></a>Aynı anda tek bir alanda detaya gitme
+## <a name="drill-down-one-field-at-a-time"></a>Bir kerede tek bir alanda detaya gitme
 Bu yöntemde görselleştirmenin sağ üst köşesinde görünen detaya gitme simgesi kullanılır. 
 
-1. Detaya gitme simgesini seçerek açın ![detaya gitme açın](./media/end-user-drill/power-bi-drill-icon2.png). Şimdi ***aynı anda tek alanda*** detaya gitme seçeneği sunulur. 
+1. Detaya gitme simgesini seçerek açın ![detaya gitme açık](./media/end-user-drill/power-bi-drill-icon2.png). Şimdi ***aynı anda tek alanda*** detaya gitme seçeneği sunulur. 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![detaya gitme açık/kapalı simgesine işaret eden ok](media/end-user-drill/power-bi-drill-icon-new.png)
 
-   Detaya gitmeyi açmazsanız bir görsel öğe (çubuk veya kabarcık ya da yaprak gibi) seçildiğinde detaya gidilmez, bunun yerine rapor sayfasındaki diğer grafiklere çapraz filtreleme uygulanır.
+   Detaya gitmeyi açmazsanız bir görsel öğe (çubuk, kabarcık ya da yaprak gibi) seçildiğinde detaya gidilmez, bunun yerine rapor sayfasındaki diğer grafiklere çapraz filtreleme uygulanır.
 
-2. **TN** için *yaprak* öğesini seçin. Ağaç haritanızda şimdi Tennessee’de mağazası olan tüm şehirler gösterilir. 
+2. **TN** için *yaprak* öğesini seçin. Ağaç haritanızda şimdi Tennessee’de bulunan ve bir mağaza olan tüm şehirler gösterilir. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![ağaç haritası yalnızca Tennesee için verileri gösteriyor](media/end-user-drill/power-bi-drill-down-one1.png)
 
 2. Bu noktada Tennesee için detaya gitmeye devam edebilir veya belirli bir Tennesee şehri için detaya gidebilir ya da bunun yerine genişletebilirsiniz (aşağıdaki **Aynı anda tüm alanları genişletme** bölümüne bakın). Aynı anda tek bir alanda detaya gitme konusuna devam edelim.  **Knoxville, TN** öğesini seçin. Ağaç haritanız şimdi Knoxville’deki mağazanızın posta kodunu gösterir. 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![ağaç haritası 37919 değerini gösteriyor](media/end-user-drill/power-bi-drill-down-one2.png)
 
     Detaya gittiğinizde ve detaydan çıktığınızda başlığın değiştiğine dikkat edin.  
 
 ## <a name="expand-all-and-expand-one-field-at-a-time"></a>Aynı anda tüm alanları ve tek bir alanı genişletme
-Yalnızca posta kodu gösteren bir ağaç haritası çok fazla bilgi vermez.  Bu nedenle hiyerarşide bir düzey aşağıya genişletelim.  
+Yalnızca posta kodu gösteren bir ağaç haritası pek bilgi vermez.  Bu nedenle hiyerarşide bir düzey aşağıya genişletelim.  
 
-1. Ağaç haritası etkinken *aşağıya genişlet* simgesini ![aşağıya genişlet simgesi](./media/end-user-drill/power-bi-drill-icon6.png) seçin. Ağaç haritanız şimdi hiyerarşimizin 2 düzeyini gösterir: posta kodu ve mağaza adı. 
+1. Ağaç haritası etkinken *aşağıya genişletme* simgesini ![aşağıya genişletme simgesi](./media/end-user-drill/power-bi-drill-icon6.png) seçin. Ağaç haritanız şimdi hiyerarşimizin iki düzeyini gösterir: posta kodu ve mağaza adı. 
 
     ![posta kodu ve mağaza adı gösteriliyor](./media/end-user-drill/power-bi-expand1.png)
 
-2. Tennesee’nin 4 hiyerarşi düzeyinin tamamını görmek için ikinci düzeye ulaşana kadar ağaç haritanızın detaydan çıkma okunu seçin (**Bölge ve şehre göre bu yılki toplam birim sayısı**). 
+2. Tennesee’nin dört hiyerarşi düzeyinin tamamını görmek için ikinci düzeye ulaşana kadar ağaç haritanızın detaydan çıkma okunu seçin (**Bölge ve şehre göre bu yılki toplam birim sayısı**). 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Tennesee için tüm verileri gösteren ağaç haritası](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
-3. Detaya gitme seçeneğinin hala etkin olduğundan ![detaya gitme açık](./media/end-user-drill/power-bi-drill-icon2.png) emin olun ve *aşağıya genişlet* simgesini ![aşağıya genişlet simgesi](./media/end-user-drill/power-bi-drill-icon6.png) seçin. Ağaç haritasında şimdi bazı ek ayrıntılar gösterilir; yalnızca şehir ve eyalet yerine posta kodu da gösterilir. 
+3. Detaya gitme seçeneğinin hala etkin olduğundan ![detaya gitme açık](./media/end-user-drill/power-bi-drill-icon2.png) emin olun ve *aşağıya genişletme* simgesini ![aşağıya genişletme simgesi](./media/end-user-drill/power-bi-drill-icon6.png) seçin. Ağaç haritasında şimdi bazı ek ayrıntılar gösterilir; yalnızca şehir ve eyalet yerine posta kodu da gösterilir. 
 
     ![çift detay simgesi](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Ağaç haritanızda Tennesee’nin 4 hiyerarşi düzeyinin tamamını görüntülemek için *aşağıya genişlet* simgesini bir kez daha seçin. Daha fazla ayrıntı görmek için bir yaprağın üzerine gelin.
+4. Ağaç haritanızda Tennesee’nin dört hiyerarşi düzeyinin tamamını görüntülemek için *aşağıya genişletme* simgesini bir kez daha seçin. Daha fazla ayrıntı görmek için bir yaprağın üzerine gelin.
 
    ![Tennesee verilerini gösteren ağaç haritası](./media/end-user-drill/power-bi-expand-all.png)
 
@@ -179,11 +180,11 @@ Bu örnekte, [Perakende Analizi örneğiyle](../sample-datasets.md) birlikte ile
 
 Eksen veri alanı **Ay** olsa da **Eksen** kutusunda yine de bir **Yıl** kategorisi oluşturur. Bunun nedeni Power BI’ın, okuduğu tüm değerler için tam DateTime yapısını sağlamasıdır. Hiyerarşinin üst tarafında yıla ait veriler gösterilir.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![Yıla göre gruplandırılmış verileri gösteren tek çubuk](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
-Detaya Gitme modu açık olduğunda, hiyerarşide bir düzey kadar detaya gitmek için grafikteki çubuğa tıklayın. Üç aylık dönemlere ait kullanılabilir verilere ilişkin üç çubuk görürsünüz. Daha sonra sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini belirleyin. Daha sonra hiyerarşinin, her ayın sonuçlarını gösteren en düşük düzeyine inmek için bu işlemi tekrarlayın.
+Detaya gitme modu açık olduğunda, hiyerarşide bir düzey kadar detaya gitmek için grafikteki çubuğa tıklayın. Üç aylık dönemlere ait kullanılabilir verilere ilişkin üç çubuk görürsünüz. Daha sonra sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini belirleyin. Daha sonra hiyerarşinin, her ayın sonuçlarını gösteren en düşük düzeyine inmek için bu işlemi tekrarlayın.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![aya göre çubuğu görmek için çubuk grafik](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 Görselleştirmenin dışında, hiyerarşinin her rapor için oluşturulan verilere yansıdığını görebiliriz. Aşağıdaki tablo, tek bir ayın veya tüm ayların detayına giden bir raporda **Verileri Göster** seçeneğinin sonuçlarını gösterir. 
 
@@ -192,35 +193,35 @@ Verilerin üç aylık ve yıllık raporlar için aynı olduğunu, ancak **Değer
 
 |Genişletme modu|Yıl|Çeyrek|Ay|Gün|
 | ---|:---:|:---:|:---:|---|
-|Tek|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Tümü|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Tek|![tek yıl](./media/end-user-drill/power-bi-hierarchical-year.png)|![tek çeyrek](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tek ay](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![tek gün](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|Tümü|![tüm yıllar](./media/end-user-drill/power-bi-hierarchical-year.png)|![tüm çeyrekler](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tüm aylar](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tüm günler](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Hiyerarşik kategori verileri
 Koleksiyonlardan ve alt koleksiyonlardan modeli oluşturulan veriler hiyerarşiktir. Konum verileri bunun iyi bir örneğidir. Bir veri kaynağında sütunları Ülke, Bölge, Şehir ve Posta Kutusu olan bir tablo düşünün. Aynı Ülkenin, Bölgenin ve Şehrin bulunduğu veriler hiyerarşiktir.
 
-Bu örnekte, [Perakende Analizi örneğiyle](../sample-datasets.md) birlikte ilerleyin. **Total Units This Year** (Bu Yıla Ait Birimlerin Toplamı) (Değerler) özelliğini **Bölge**, **Şehir**, **Posta Kodu** ve **Ad**’a (Grup) göre gösteren yığılmış bir sütun grafik görselleştirmesi oluşturun.  
+Bu örnekte, [Perakende Analizi örneğiyle](../sample-datasets.md) birlikte ilerleyin. **Total Units This Year** (Bu Yıla Ait Birimlerin Toplamı) (Değerler) özelliğini **Territory** (Bölge), **City** (Şehir), **Postal Code** (Posta Kodu) ve **Name** (Ad) (Grup) ölçütüne göre gösteren yığılmış bir sütun grafik görselleştirmesi oluşturun.  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![bölgeye göre bu yıla ait birimlerin toplamını gösteren çubuk grafik](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
-Detaya Gitme modu açıkken, sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini üç kez belirleyin.
+Detaya gitme modu açıkken, sol üst taraftaki simgelerden **Expand all down one level of the hierarchy** (Tümünde hiyerarşinin bir düzeyi kadar detaya git) seçeneğini üç kez belirleyin.
 Hiyerarşinin Bölge, Şehir ve Posta Kodu sonuçlarını gösteren en düşük düzeyinde olmanız gerekir.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![en düşük hiyerarşi düzeyini, en fazla ayrıntıyı gösteren çubuk grafik](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
 Görselleştirmenin dışında, hiyerarşinin her rapor için oluşturulan verilere yansıdığını görebiliriz. Aşağıdaki tablo, tek bölge veya tüm bölgeler için detaya giden bir raporda **Verileri Göster** seçeneğinin sonuçlarını gösterir. Detaya gittikçe, tek bir raporun daha ayrıntılı hale geldiğini ve "tüm bölgeler" raporunun daha fazla veri içerdiğini görebilirsiniz.
 
 
 | Genişletme modu|Bölge|Şehir|Posta Kodu|Ad|
 | ---|:---:|:---:|:---:|---|
-|Tek|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Tümü|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Tek|![tek bölge](./media/end-user-drill/power-bi-hierarchical-territory.png)|![tek şehir](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![tek posta kodu](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![tek ad](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Tümü|![tüm bölgeler](./media/end-user-drill/power-bi-hierarchical-territory.png)|![tüm şehirler](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![tüm posta kodları](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![tüm adlar](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 * Bir görselleştirmeye tarih alanı eklenmesi bir hiyerarşi oluşturmuyorsa "tarih" alanı aslında bir tarih olarak kaydedilmemiş olabilir. Veri kümesi size aitse bunu Power BI Desktop'ta *Veri* görünümünde açın, tarihi içeren sütunu seçin ve Modelleme sekmesinde **Veri Türü**'nü **Tarih** veya **Tarih/Saat** olarak değiştirin. Rapor sizinle paylaşıldıysa değişikliği yapmasını istemek için raporun sahibi ile iletişime geçin.  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![veri görünümünü seçin ve sağ üst kısımda Veri Türü'ne bakın](media/end-user-drill/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](../visuals/power-bi-report-visualizations.md)

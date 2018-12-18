@@ -1,21 +1,22 @@
 ---
-title: Power BI panosu nedir?
-description: Panolar, Power BI hizmetinin temel özelliklerinden biridir.
+title: Power BI panosunu görüntüleme
+description: Panolar Power BI hizmetinin başlıca özelliklerinden biridir; panoya açmayı ve görüntülemeyi öğrenin.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396693"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279765"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 Power BI tüketicileri pano görüntülemeye oldukça çok vakit harcamaktadır. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI tüketicileri de bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.

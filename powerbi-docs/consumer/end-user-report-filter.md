@@ -1,21 +1,22 @@
 ---
-title: Rapor filtresi ekleme
+title: Rapora filtre ekleme
 description: Tüketiciler için Power BI hizmetindeki bir rapora filtre ekleme
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473819"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280777"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makale Power BI hizmetindeki Rapor Filtreleri bölmesine bir bakış sunmaktadır.
@@ -36,7 +37,7 @@ Power BI hizmetinde raporlar, Filtreler bölmesinde yaptığınız tüm değişi
 ## <a name="open-the-filters-pane"></a>Filtreler bölmesini açma
 Bir rapor açıldığında, rapor tuvalinin sağ tarafında Filtreler bölmesi görüntülenir. Bölmeyi görmüyorsanız genişletmek için sağ üst köşedeki oku seçin.  
 
-Bu örnekte, 6 filtresi bulunan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Sayfa düzeyi filtreleri** başlığı altında yer alır. Bir [Detaylandırma filtresinin](../power-bi-report-add-filter.md) yanı sıra raporun tamamına uygulanmış bir filtre daha bulunur: **FiscalYear** 2013 veya 2014 değeridir.
+Bu örnekte, 6 filtresi bulunan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Sayfa düzeyi filtreleri** başlığı altında yer alır. Bir [Detaylandırma filtresinin](../power-bi-report-add-filter.md) yanı sıra raporun tamamına uygulanmış bir filtre daha bulunur:  **FiscalYear** 2013 veya 2014 değeridir.
 
 ![filtre listesi](media/end-user-report-filter/power-bi-filter-list.png)
 

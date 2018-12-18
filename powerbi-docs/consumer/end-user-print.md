@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507681"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280754"
 ---
 # <a name="printing-from-power-bi-service"></a>Power BI hizmetinden yazdırma
 Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
@@ -78,11 +79,11 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * S: **Yazdır** düğmesini bulamıyorum.    
-* C: Power BI Desktop sürümünde yazdırma desteklenmez.  Yazdırma yalnızca Power BI hizmetinde çalışır.
+* Y: Power BI Desktop sürümünde yazdırma desteklenmez.  Yazdırma yalnızca Power BI hizmetinde çalışır.
 * S: Tüm rapor sayfalarını tek seferde yazdıramıyorum.    
-* C: Doğru. Rapor sayfaları yalnızca tek tek yazdırılabilir.
+* Y: Doğru. Rapor sayfaları yalnızca tek tek yazdırılabilir.
 * S: PDF olarak yazdıramıyorum.    
-* Y: Bu seçeneği yalnızca tarayıcınızda PDF sürücüsünü yapılandırmış olmanız halinde görürsünüz.    
+* Y: Bu seçeneği yalnızca tarayıcınızda PDF sürücüsünü yapılandırmış olmanız durumunda görürsünüz.    
 * S: **Yazdır** seçeneğini belirlediğimde görüntülediğim ekran burada gösterilen ile aynı değil.    
 * Y: Yazdır ekranları, tarayıcı ve yazılım sürümüne göre değişiklik gösterir.
 * S: Çıktım doğru ölçeklendirilmemiş.  Panom sayfaya sığmıyor. Ölçeklendirme ve yönlendirme ile ilgili diğer sorular.    

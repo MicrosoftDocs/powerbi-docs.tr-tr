@@ -1,21 +1,22 @@
 ---
-title: Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliğine genel bakış
+title: Power BI hizmetinde Soru-Cevap özelliğine genel bakış
 description: Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396371"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279592"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap
 ## <a name="what-is-qa"></a>Soru-Cevap nedir?
@@ -64,7 +65,7 @@ Sorunuza görselleştirme türünü ekleyerek Soru-Cevap özelliğinin o türü 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 **Soru**: Panoda Soru-Cevap özelliğini göremiyorum.    
-**Yanıt 1**: Soru kutusu görmüyorsanız öncelikle ayarlarınızı kontrol edin. Bunun için Power BI araç çubuğunuzun sağ üst köşesindeki dişli simgesini seçin.   
+**Yanıt 1:** Soru kutusu görmüyorsanız öncelikle ayarlarınızı kontrol edin. Bunun için Power BI araç çubuğunuzun sağ üst köşesindeki dişli simgesini seçin.   
 ![dişli simgesi](media/end-user-q-and-a/power-bi-settings.png)
 
 Ardından **Ayarlar** > **Panolar**'ı seçin. **Soru-Cevap arama kutusunu bu panoda göster** seçeneğinin yanında onay işareti bulunduğundan emin olun.

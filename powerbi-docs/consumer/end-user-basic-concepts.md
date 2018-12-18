@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641770"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280547"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Power BI hizmeti ***tüketicileri*** için temel kavramlar
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI hizmeti ***müşterilerine*** yönelik temel kavramlar
 
 ## <a name="power-bi-consumers-and-designers"></a>Power BI *tüketicileri* ve *tasarımcıları*
 Bu makalede [Power BI genel bakış](../power-bi-overview.md) sayfasını okuduğunuz ve bir Power BI ***tüketicisi*** olduğunuza karar verdiğiniz kabul edilmektedir. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır. 
@@ -33,21 +34,21 @@ Power BI tüketicilerinin çoğu, Power BI hizmetine 1) şirketleri lisans satı
 
 Başlamak için bir tarayıcı penceresi açın ve **app.powerbi.com** adresine gidin. Power BI hizmetini ilk kez açtığınızda aşağıdakine benzer bir ekranla karşılaşırsınız.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI hizmetinin Hoş Geldiniz ekranı](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI hizmetini kullandıkça web sitesini açtığınızda gösterilecek öğeleri kişiselleştirmiş olursunuz.  Örneğin bazı kullanıcılar Power BI hizmetinin Giriş sayfasıyla açılmasını isterken bazıları ilk sayfada sık kullandıkları bir panoyu görmek ister. Endişelenmeyin, bunu nasıl yapacağınızı size göstereceğiz. 
 - [Giriş önizlemesi](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [İçeriği **öne çıkanlar** olarak ayarlama](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![Giriş sayfası görünümü ve pano görünümü gösteriliyor](media/end-user-basic-concepts/power-bi-first.png)
 
 Ayrıntılara girmeden önce Power BI hizmetini oluşturan temel yapılardan bahsedelim.
 
 ## <a name="power-bi-content"></a>Power BI ***içeriği***
 ### <a name="introduction-to-building-blocks"></a>Yapı taşlarına giriş
-Bir Power BI tüketicisi için 5 yapı taşı şunlardır: ***görselleştirmeler***, ***panolar***, ***raporlar***, ***uygulamalar*** ve ***veri kümeleri***. Bunlar bazen *Power BI* ***içeriği*** olarak da anılır. *İçerik*, ***çalışma alanlarında*** bulunur. Tipik bir iş akışı şu yapı taşlarının tümünü içerir: Bir Power BI *tasarımcısı* (aşağıdaki diyagramda sarı ile gösterilmiştir) *veri kümelerinden* veri toplar, analiz etmek üzere Power BI'a getirir, ilgi çekici olguları ve içgörüleri vurgulayan *görselleştirmelerle* dolu *raporlar* oluşturur, raporlardaki görselleştirmeleri bir panoya sabitler ve raporlarla görselleştirmeleri sizin gibi *tüketicilerle* (aşağıdaki diyagramda siyah ile gösterilmiştir) *uygulamalar* veya diğer paylaşılan içerikler şeklinde paylaşır. 
+Bir Power BI tüketicisi için 5 yapı taşı şunlardır: ***görselleştirmeler***, ***panolar***, ***raporlar***, ***uygulamalar*** ve ***veri kümeleri***. Bunlar bazen *Power BI* ***içeriği*** olarak da anılır. *İçerik*, ***çalışma alanlarında*** bulunur. Tipik bir iş akışı şu yapı taşlarının hepsini içerir:  Power BI *tasarımcısı* (aşağıdaki diyagramda sarı ile gösterilmiştir) *veri kümelerinden* veri toplar, analiz etmek üzere Power BI'a getirir, ilgi çekici olguları ve içgörüleri vurgulayan *görselleştirmelerle* dolu *raporlar* oluşturur, raporlardaki görselleştirmeleri bir panoya sabitler ve raporlarla görselleştirmeleri sizin gibi *tüketicilerle* (aşağıdaki diyagramda siyah ile gösterilmiştir) *uygulamalar* veya diğer paylaşılan içerikler şeklinde paylaşır. 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![akış çizelgesi, temel](media/end-user-basic-concepts/power-bi-workflow.png)
 
 En basit anlamıyla 
 * ![görselleştirme simgesi](media/end-user-basic-concepts/visual.png) ***görselleştirme*** (veya *görsel*), Power BI *tasarımcılarının* *raporlardaki* ve *veri kümelerindeki* verileri kullanarak oluşturdukları bir grafik türüdür. *Tasarımcılar* görselleri genellikle Power BI Desktop'ta oluşturur. 
@@ -78,7 +79,7 @@ Her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Exc
 
 Bir tasarımcı sizinle bir uygulama paylaştığında bu uygulamaya dahil edilen veri kümelerini görebilirsiniz. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Uygulamalar seçili ve tuvalde Veri Kümelerine işaret eden bir ok](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **BİR** veri kümesi...
 
@@ -117,14 +118,14 @@ Power BI raporu görselleştirme, grafik ve metin içeren bir veya birden fazla 
 * yalnızca bir veri kümesindeki veriler kullanılarak oluşturulur.  
 * birden fazla uygulamaya ait olabilir
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![raporun ilişki çizimi](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Panolar
 Bir pano, temel alınan veri kümelerinin belirli bir alt kümesine ilişkin özelleştirilmiş bir görünümü temsil eder. *Tasarımcılar* oluşturdukları panoları tek başına veya bir uygulama kapsamında *tüketicilerle* paylaşır. Pano *kutucuk*, grafik ve metin içeren tek bir tuvaldir. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![örnek pano](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 Kutucuk, bir *tasarımcının* *sabitlediği* bir görseldir. Örnek olarak bir raporda bulunan görsel bir panoya sabitlenebilir.  Sabitlenen her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş bir [görselleştirme](end-user-visualizations.md) görüntüler. Bir kutucuk, bir rapor sayfasının tamamını da içerebilir. Bir kutucukta ayrıca canlı akış verileri veya video da bulunabilir. *Tasarımcılar*, panonuza bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuk ekleyebilir. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](end-user-tiles.md). 
 
@@ -144,20 +145,20 @@ Panoların kullanım amaçlarından bazıları nelerdir?  Birkaç tanesi aşağ�
 * birçok farklı rapordaki görselleştirmeleri görüntüleyebilir
 * diğer araçlardan (ör. Excel) sabitlenen görselleştirmeleri görüntüleyebilir
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![panonun ilişki çizimi](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>Uygulamalar
 Bu pano ve rapor koleksiyonları, ilgili içeriği tek bir paket halinde düzenler. Power BI *tasarımcıları* uygulamaları oluşturur ve kişiler, gruplar, kuruluşun tamamı veya herkes ile paylaşır. Tüketici olarak iş arkadaşlarınızla birlikte aynı veriler üzerinde çalıştığınızdan ve verilerde çelişki olmadığından emin olmuş olursunuz. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![Sol gezintide Uygulamalar seçili](media/end-user-basic-concepts/power-bi-app.png)
 
 Power BI hizmetinde (https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız. 
 
 Bu uygulama üç ilgili pano ve üç ilgili rapordan oluşmaktadır.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![seçili uygulama için ilişkili içerik](media/end-user-basic-concepts/power-bi-app-list.png)
 
 Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz.
 

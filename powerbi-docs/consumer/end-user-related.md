@@ -1,27 +1,28 @@
 ---
-title: Power BI hizmetinde ilişkili içeriği görüntüleme
+title: Panolar, raporlar ve veri kümelerinden ilgili içeriği görüntüleme
 description: Gezinme artık daha kolay; panolardaki, raporlardaki ve veri kümelerindeki ilişkili içeriği görüntüleyin
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7bb46bbed79be32b45fe4e5dbd2ecb07acc5d673
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566407"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280738"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
-**İlişkili içerik** bölmesi, Power BI hizmet içeriğinizin (panolar, raporlar ve veri kümeleri) birbirine nasıl bağlı olduğunu gösterir.  Ayrıca, bu bölmeden yenileme, yeniden adlandırma, öngörü oluşturma gibi ortak görevleri ve çok daha fazlasını yapabilirsiniz. Bir ilgili rapor veya pano seçin, ardından seçiminiz Power BI çalışma alanınızda açılır.   
+**İlişkili içerik** bölmesi, Power BI hizmet içeriğinizin (panolar, raporlar ve veri kümeleri) birbirine nasıl bağlı olduğunu gösterir. İlgili içerik panosu da eylem gerçekleştirmek için bir fırlatma rampasıdır. Burada içgörüleri yenileyebilir, yeniden adlandırabilir, oluşturabilir ve daha birçok şey yapabilirsiniz. Bir ilgili rapor veya pano seçin, ardından seçiminiz Power BI çalışma alanınızda açılır.   
 
-Büyük olasılıkla keşfettiğiniz üzere raporlar veri kümeleri temelinde oluşturulmuştur, rapor görselleştirmeleri daha sonra panolara sabitlenir ve pano görselleri raporlara geri bağlanır. Peki hangi panoların Pazarlama raporunuzdaki görselleştirmeleri barındırdığını nasıl bilebilirsiniz? Bu panoları nasıl bulabilirsiniz? Tedarik panonuz birden fazla veri kümesine ait görselleştirmeleri mi kullanıyor? Öyleyse bunların adları nedir ve bunları nasıl açabilir ve düzenleyebilirsiniz? İK veri kümeniz herhangi bir raporda veya panoda kullanılıyor mu ya da herhangi bir bozuk bağlantıya neden olmadan taşınabilir mi? Bu ve benzeri tüm soruların cevapları **İlişkili içerik** bölmesinde verilebilir.  Bölme, ilişkili içeriği görüntülemenin yanı sıra içerik üzerinde işlem yapmanıza ve ilişkili içerik arasında kolayca gezinmenize olanak tanır.
+Power BI'da raporlar veri kümeleri temelinde oluşturulur, rapor görselleri panolara sabitlenir ve pano görselleri raporlara geri bağlanır. Peki hangi panoların Pazarlama raporunuzdaki görselleri barındırdığını nasıl bilebilirsiniz? Bu panoları nasıl bulabilirsiniz? Tedarik panonuz birden fazla veri kümesine ait görselleri mi kullanıyor? Öyleyse bunların adları nedir ve bunları nasıl açabilir ve düzenleyebilirsiniz? İK veri kümeniz herhangi bir rapor veya panoda kullanılıyor mu? Veya, herhangi bir bağlantı kesintisine neden olmadan taşınabilir mi? Bu ve benzeri tüm soruların cevapları **İlişkili içerik** bölmesinde verilebilir.  Bölme, ilişkili içeriği görüntülemenin yanı sıra içerik üzerinde işlem yapmanıza ve ilişkili içerik arasında kolayca gezinmenize olanak tanır.
 
 ![ilişkili içerik](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -50,7 +51,7 @@ Bir çalışma alanında **Panolar** sekmesini ve sonra **İlişkilileri görün
 
 Pano açıkken, üstteki menü çubuğundan   ![İlişkilileri görüntüle simgesini](./media/end-user-related/power-bi-view-related-new.png) seçin.
 
-**İlişkili içerik** bölmesi açılır. Panoya sabitlenmiş görselleştirmeleri bulunan tüm raporları ve bunların ilişkili veri kümelerini gösterir. Bu panoda, 3 farklı rapordan sabitlenmiş görselleştirmeler bulunur ve bu raporlar 3 farklı veri kümesine dayanır.
+**İlişkili içerik** bölmesi açılır. Panoya sabitlenmiş görselleştirmeleri bulunan tüm raporları ve bunların ilişkili veri kümelerini gösterir. Bu panoda, üç farklı rapordan sabitlenmiş görselleştirmeler bulunur ve bu raporlar üç farklı veri kümesine dayanır.
 
 ![İlişkili içerik bölmesi](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -86,14 +87,13 @@ Bir çalışma alanında **Veri kümeleri** sekmesini seçin ve **İlişkilileri
 
 **İlişkili içerik** bölmesini açmak için simgeyi seçin.
 
-![](media/end-user-related/power-bi-datasets.png)
+![Power BI içerik görünümünün üst kısmında ilgili içerik bölmesi açılır](media/end-user-related/power-bi-datasets.png)
 
-Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz.  Örneğin, açmak için bir pano veya rapor adı seçin.  Listedeki bir panoda [panoyu başkalarıyla paylaşmak](../service-share-dashboards.md) için bir simge seçin veya panonun **Ayarlar** penceresini açın. Bir raporda [Excel'de çözümleme](../service-analyze-in-excel.md), [yeniden adlandırma](../service-rename.md) veya [öngörüler alma](end-user-insights.md) işlemleri için bir simge seçin.  
+Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz. Örneğin, açmak için bir pano veya rapor adı seçin.  Listedeki bir panoda [panoyu başkalarıyla paylaşmak](../service-share-dashboards.md) için bir simge seçin veya panonun **Ayarlar** penceresini açın. Bir raporda [Excel'de çözümleme](../service-analyze-in-excel.md), [yeniden adlandırma](../service-rename.md) veya [içgörüler alma](end-user-insights.md) işlemleri için bir simge seçin.  
 
 ## <a name="limitations-and-troubleshooting"></a>Sınırlamalar ve sorun giderme
-* Tarayıcınız yeterli alana sahip değilse **İlişkilileri görüntüle** seçeneğini görmezsiniz ancak İlişkilileri görüntüle simgesini ![İlişkilileri görüntüle simgesi](./media/end-user-related/power-bi-view-related-icon-new.png) yine de görürsünüz. **İlişkili içerik** bölmesini açmak için simgeyi seçin.
+* "İlişkilileri görüntüle" simgesini görmüyorsanız, onun yerine ![İlişkilileri görüntüle simgesi](./media/end-user-related/power-bi-view-related-icon-new.png) simgesini bulun. **İlişkili içerik** bölmesini açmak için simgeyi seçin.
 * Bir raporun İlişkili içeriğini görmek için [Okuma görünümü](end-user-reading-view.md)'nde olmanız gerekir.
-* İlişkili içerik Power BI Desktop'ta kullanılamaz.
 * İlişkili içerik özelliği, akış veri kümeleri için çalışmaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar

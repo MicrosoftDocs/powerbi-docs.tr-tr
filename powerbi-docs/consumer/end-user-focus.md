@@ -1,22 +1,23 @@
 ---
-title: Odak modu ve tam ekran modu - daha fazla ayrıntı için yakınlaştırın.
+title: Odak modu ve tam ekran modu - daha fazla ayrıntı için yakınlaştırma
 description: Bir Power BI panosunu, pano kutucuğunu, raporu veya rapor görselleştirmesini odak modunda veya tam ekran modunda görüntülemeye ilişkin belgeler
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507973"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279972"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 
@@ -83,7 +84,7 @@ Rapor sayfaları için menü
     Tam ekran modundaki raporlarda bu okları kullanarak sayfalar arasında gezinebilirsiniz.    
   * Tam ekran modundan çıkmak için **Tam ekrandan çık** simgesini seçin.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![tam ekrandan çıkma simgesi](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Odak modunda çalışma
 Odak modunu açmanın iki yolu vardır: biri pano kutucukları, diğeri ise rapor görselleştirmeleri içindir.

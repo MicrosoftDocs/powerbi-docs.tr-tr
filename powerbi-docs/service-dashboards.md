@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331954"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280593"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI tasarımcıları için panolara giriş
 
@@ -48,15 +48,15 @@ Panolar yalnızca güzel görünen resimlerden ibaret değildir. Bunlar son dere
 | --- | --- | --- |
 | Sayfalar |Bir sayfa |Bir veya daha fazla sayfa |
 | Veri kaynakları |Pano başına bir veya daha fazla rapor ve bir veya daha fazla veri kümesi |Rapor başına tek bir veri kümesi |
-| Power BI Desktop'ta kullanılabilirlik |Hayır |Evet, ***içerik oluşturanlar*** Desktop uygulamasında rapor oluşturabilir ve görüntüleyebilir |
+| Power BI Desktop'ta kullanılabilirlik |Hayır | Power BI Desktop'ta rapor oluşturabilir ve görüntüleyebilirsiniz |
 | Abonelik |Bir panoya abone olabilirsiniz |Rapor sayfalarına abone olabilirsiniz |
 | Filtreleme |Filtreleme veya dilimleme yapamazsınız |Filtreleme, vurgulama ve dilimleme için birçok farklı yol vardır |
 | Öne çıkanlar |Bir panoyu "öne çıkan" panonuz olarak ayarlayabilirsiniz |Öne çıkan bir rapor oluşturamazsınız |
 | Sık Kullanılan | Panoları *sık kullanılanlara* ekleyebilirsiniz | Raporları *sık kullanılanlara* ekleyebilirsiniz
 | Uyarı ayarlama |Bazı durumlarda pano kutucukları için kullanılabilir |Raporlardan kullanılamaz |
-| Doğal dil sorguları |Panodan kullanılabilir |Raporlardan kullanılamaz |
+| Doğal dil sorguları (Soru-Cevap) |Panolarda kullanılabilir | Raporlarda kullanılabilir |
 | Temel alınan veri kümesi tablolarını ve alanlarını görme |Hayır. Verileri dışarı aktarabilir ancak tabloları ve alanları panonun kendisinde göremezsiniz. |Evet. Veri kümesi tablolarını, alanlarını ve değerlerini görebilirsiniz. |
-| Özelleştirme |Hayır |Okuma görünümü'nde yayımlama, ekleme, filtreleme, dışarı aktarma, .pbix olarak indirme, ilişkili içeriği görüntüleme, QR kodları oluşturma, Excel'de çözümleme ve daha fazla işlemi yapabilirsiniz.  |
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Panoları daha rahat kullanmak için [örnek panolarımızdan](sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.

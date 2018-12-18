@@ -1,30 +1,30 @@
 ---
-title: Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-description: Raporun telefona özgü bir sürümünü oluşturarak, Power BI telefon uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
+title: Mobil uygulamalar için en iyi duruma getirilmiş raporlar oluşturma
+description: Raporun telefon ve tabletlere özgü bir dikey sürümünü oluşturarak, Power BI mobil uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973966"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280915"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-Raporun telefona özgü bir sürümünü oluşturarak, telefondaki raporlarınızı mobil uygulamalarda görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop’ta ve Power BI hizmetinde raporunuzu telefon için uyarlamak amacıyla görsellerin yerini ve boyutunu değiştirmeniz ve en iyi deneyim için bazılarını hariç tutmanız gerekebilir. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler telefon raporunda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
+# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
+Telefon veya tabletteki mobil uygulamalarda raporlarınızı görüntüleme deneyimini geliştirebilirsiniz. Özel olarak telefonlar ve tabletler için raporun dikey bir düzenini oluşturun. Power BI Desktop’ta ve Power BI hizmetinde en iyi deneyimi elde etmek için görselleri dikey bir düzende yeniden yerleştirip yeniden boyutlandırarak raporunuzu uyarlarsınız. Tümünü eklemek zorunda değilsiniz. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler en iyi duruma getirilmiş raporda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
 
 ![Telefonda en iyi duruma getirilmiş rapor](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone"></a>Bir rapor sayfasını telefon için düzenleme
+## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Rapor sayfasının dikey sürümünü düzenleme
 
-Bir rapor oluşturduktan sonra, telefonlar için iyileştirebilirsiniz.
+Bir rapor oluşturduktan sonra, telefonlar ve tabletler için bunu iyileştirebilirsiniz.
 
 1. Power BI Desktop’ın Rapor Görünümü’nde, **Görünüm** sekmesinde **Telefon Düzeni**’ni seçin.  
    
@@ -32,7 +32,7 @@ Bir rapor oluşturduktan sonra, telefonlar için iyileştirebilirsiniz.
    
     Power BI hizmetinde, **Raporu Düzenle** > **Mobil Düzen**’i seçin.
 
-    Boş bir telefon tuvali göreceksiniz. Özgün rapor sayfanızdaki tüm görseller sağ taraftaki Görsel Öğeler bölmesinde listelenir.
+    Şekli telefona benzeyen boş bir tuval görürsünüz. Özgün rapor sayfanızdaki tüm görseller sağ taraftaki Görsel Öğeler bölmesinde listelenir.
 
 3. Telefon düzenine eklemek istediğiniz görselleri Görsel Öğeler bölmesinden telefon tuvaline sürükleyin.
    
@@ -49,11 +49,11 @@ Bir rapor oluşturduktan sonra, telefonlar için iyileştirebilirsiniz.
    ![Görsel boyutunu değiştirme](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Görseli tüm boyutlar için en iyi duruma getirme
-Pano veya raporunuzdaki görsellerin *esnek* hale gelip ekran boyutu ne olursa olsun maksimum sayıda veri ve öngörü görüntüleyecek şekilde dinamik olarak değişmesini sağlayabilirsiniz. 
+Panonuzdaki veya raporunuzdaki görselleri *değişken* olacak şekilde ayarlayabilirsiniz. Ekran boyutu ne olursa olsun maksimum sayıda veri ve içgörü görüntüleyecek şekilde dinamik olarak değişebilirler. 
 
-Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. Örneğin görselin küçülse dahi bilgilendirici olması için otomatik olarak boşluğu kaldırır ve açıklamayı görselin üst tarafına taşır.
+Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. Örneğin görselin küçülse dahi bilgilendirici olması için otomatik olarak boşluğu kaldırabilir ve açıklamayı görselin üst tarafına taşıyabilir.
 
-![Esnek görsel yeniden boyutlandırma](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
+![Yanıt veren görsel yeniden boyutlandırma](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görselleri en iyi duruma getirme](visuals/desktop-create-responsive-visuals.md) hakkında daha fazla bilgi edinin.
 
@@ -89,7 +89,7 @@ Dilimleyiciyi esnek hale getirirseniz boyutunu veya şeklini değiştirdiğinizd
   
     [Power BI'da paylaşım ve izinler](service-how-to-collaborate-distribute-dashboards-reports.md) hakkında daha fazla bilgi edinin.
 
-## <a name="view-optimized-and-unoptimized-reports-on-a-phone"></a>En iyi duruma getirilmiş ve getirilmemiş raporları telefonda görüntüleme
+## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>En iyi duruma getirilmiş ve getirilmemiş raporları telefonda veya tablette görüntüleme
 Telefonlardaki mobil uygulamalarda Power BI en iyi duruma getirilmiş ve getirilmemiş telefon raporlarını otomatik olarak algılar. Telefon için en iyi duruma getirilmiş rapor varsa Power BI telefon uygulaması ilgili raporu otomatik olarak telefon raporu modunda açar.
 
 Telefon için en iyi duruma getirilmiş rapor yoksa rapor en iyi duruma getirilmemiş, yatay görünümde açılır.  
@@ -100,7 +100,7 @@ Yalnızca sayfaların bazılarını en iyi duruma getirdiyseniz okuyucular dikey
 
 ![Telefon sayfası en iyi duruma getirilmemiş](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Raporu okuyanlar sayfayı yatay modda görmek için telefonlarını döndürebilir. [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarıyla etkileşim kurma](consumer/mobile/mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
+Raporu okuyanlar sayfayı yatay modda görmek için telefonlarını veya tabletlerini döndürebilir. [Dikey mod için en iyi duruma getirilmiş Power BI raporlarıyla etkileşimli çalışma](consumer/mobile/mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da bir panonun telefon görünümünü oluşturma](service-create-dashboard-mobile-phone-view.md)
