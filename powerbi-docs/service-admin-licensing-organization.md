@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332000"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900486"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
-Power BI hizmetinde, kullanıcıların iki tür lisans temelinde tanımlanmış özellikleri vardır:
-
-* **Kullanıcı başına** - *Power BI Pro lisansı ve ücretsiz lisans*. Power BI Pro lisansı, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim olanağı sağlar. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Ücretsiz lisans, Power BI hizmetinin bazı özelliklerine erişim olanağı sağlar. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
-
-* **Kapasite tabanlı** - *Power BI Premium lisansı*. Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite ve daha büyük hacimli veriler için destek sunar. Premium ayrıca bireysel kullanıcılar için içeriği görüntüleyen alıcılarda Pro lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Bu makale, yönetim açısından kullanıcı başına lisanslamaya odaklanır.
 

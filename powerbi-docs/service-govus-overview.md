@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2e3ad8528108e63a5573a3df502f90fee6d4c55
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670176"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900118"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -37,7 +37,7 @@ Lütfen **Power BI US Government** hizmetinin yalnızca **Pro lisansı** olarak 
 * Excel, CSV ve Power BI Desktop dosyalarından rapor ve [veri aktarma](service-get-data.md)
 * Veri Yönetimi Ağ Geçidi
 * Tüm veriler hem Azure SQL hem de Blob Depolama Alanı'nda şifrelenir
-* [İçerik paketleri](consumer/end-user-connect-to-services.md) ile hizmetlere bağlanma
+* [İçerik paketleri](service-connect-to-services.md) ile hizmetlere bağlanma
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Kamuya ve Genel kullanıma sunulan Azure Bulut hizmetleri arasında bağlantı 
 
