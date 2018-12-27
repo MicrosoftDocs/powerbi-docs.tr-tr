@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908765"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900564"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Öğretici: Power BI hizmeti (app.powerbi.com) ile çalışmaya başlama
 Bu eğitim, ***Power BI hizmeti*** ile çalışmaya başlamanıza yardımcı olur. Power BI hizmetinin, diğer Power BI teklifleri ile nasıl bir uyum içinde çalıştığını anlamanız için ilk olarak [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
@@ -158,5 +158,5 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
 Daha fazlasını denemeye hazır mısınız?  Power BI ile ilgili keşif yapmak için uygulayabileceğiniz bazı harika yöntemler.
 
 > [!div class="nextstepaction"]
-> [Kullandığınız çevrimiçi hizmetlere bağlanma](consumer/end-user-connect-to-services.md)
+> [Kullandığınız çevrimiçi hizmetlere bağlanma](service-connect-to-services.md)
 

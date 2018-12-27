@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670406"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900256"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Verileri araştırırken, grafik ve pano oluştururken veya Soru-Cevap özelliğini kullanarak sorularınızı sorarken gördüğünüz görselleştirmelerin ve yanıtların tümüne ilişkin bağlantılı veriler veri kümelerinden alınır. Peki bu veri kümelerinin kaynağı nedir? Veri kaynakları.
@@ -44,7 +44,7 @@ Dosyalarınızın nerede depolandığı da çok önemlidir. OneDrive İş, Power
 
 İhtiyacınız olan tüm veriler ve raporlar, içerik paketlerinde hazır olarak bulunur. Power BI'da iki tür içerik paketi vardır: Google Analytics, Marketo veya Salesforce gibi hizmetlerden alınanlar ve kuruluşunuzdaki diğer kullanıcılar tarafından oluşturulup paylaşılanlar.
 
-**Hizmetler**: Power BI için içerik paketi sunan onlarca hizmet mevcuttur ve bunlara sürekli olarak yenileri eklenmektedir. Çoğu hizmet için bir hesabınız olmasına gerek yoktur. Daha fazla bilgi edinmek için bkz. [Hizmetlere bağlanma](consumer/end-user-connect-to-services.md).
+**Hizmetler**: Power BI için içerik paketi sunan onlarca hizmet mevcuttur ve bunlara sürekli olarak yenileri eklenmektedir. Çoğu hizmet için bir hesabınız olmasına gerek yoktur. Daha fazla bilgi edinmek için bkz. [Hizmetlere bağlanma](service-connect-to-services.md).
 
 **Kuruluş**: Kuruluşunuzdaki diğer kullanıcılarla birlikte bir Power BI Pro hesabına sahipseniz içerik paketleri oluşturabilir, paylaşabilir ve kullanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Kurumsal içerik paketleri](service-organizational-content-pack-introduction.md).
 
