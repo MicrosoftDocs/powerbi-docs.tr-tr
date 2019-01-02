@@ -8,15 +8,15 @@ ms.component: powerbi-service
 ms.topic: landing-page
 ms.date: 12/10/2018
 ms.author: mihart
-layout: landingpage
+layout: LandingPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: bd4592a8ba28277356f251c81906ac265c1759a2
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e9a59703ff76d0d1f9401d80c6702d69eec5d049
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280892"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735535"
 ---
 # <a name="power-bi-for-consumers"></a>Kullanıcılar için Power BI
 Bir *son kullanıcı* veya *tüketici* olarak iş arkadaşlarınızdan pano, rapor ve uygulama alan kişi olursunuz. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşmek için ***Power BI hizmetinde*** çalışırsınız.

@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280685"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748548"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -29,6 +29,10 @@ Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekild
 Power BI Pro, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim izni veren bireysel bir lisanstır. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
 
 Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite ve daha büyük hacimli veriler için destek sunar. Premium ayrıca bireysel kullanıcılar için içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcılar tarafından geniş ölçekte dağıtılmasını sağlar.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
+Power BI Pro lisansının süresi dolduktan sonra 30 günlük yetkisiz kullanım süresi vardır.
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium hakkında sorularım olduğunda ne yapmalıyım?
 Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkında SSS](../service-premium-faq.md).

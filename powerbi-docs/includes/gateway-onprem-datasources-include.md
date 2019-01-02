@@ -6,7 +6,7 @@
 | Analysis Services - Çok Boyutlu |Evet |Evet |
 | Dosya |Hayır |Evet |
 | Klasör |Hayır |Evet |
-| IBM DB2 |Hayır |Evet |
+| IBM DB2 |Evet |Evet |
 | IBM Informix Veritabanı |Hayır |Evet |
 | IBM Netezza |Evet |Evet |
 | Impala |Evet |Evet |

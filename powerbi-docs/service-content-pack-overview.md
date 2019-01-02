@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289209"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451364"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI hizmeti içerik paketi programına genel bakış
 İçerik paketleri, kullanıcıların bir kaynaktan hemen öngörü edinmesine olanak sağlayan bir hazır içerik dizisidir. İçerik paketleri genellikle belirli bir iş senaryosuna odaklanarak bir rol, etki alanı veya iş akışına yönelik öngörüler sağlar.

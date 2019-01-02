@@ -11,10 +11,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
 ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2018
+ms.lasthandoff: 12/12/2018
 ms.locfileid: "52268355"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
