@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452649"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451433"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma
 

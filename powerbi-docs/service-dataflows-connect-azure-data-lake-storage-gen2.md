@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200661"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649057"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -76,7 +76,7 @@ Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rol�
 
 Depolama hesabınızın Power BI’a eklenebilmesi için önce *powerbi* adlı bir dosya sistemi oluşturmanız gerekir. Azure Databricks, HDInsight, AZCopy veya Azure Depolama Gezgini kullanımı da dahil olmak üzere, böyle bir dosya sistemi oluşturmanın birçok yolu vardır. Bu bölümde, Azure Depolama Gezgini kullanılarak dosya sistemi oluşturmanın basit bir yolu gösterilmektedir.
 
-Bu adım, Azure Depolama Gezgini’ni yüklemenizi gerektirir. Windows, Macintosh veya Linux için Azure Depolama Gezgini’ni yükleme ile ilgili bkz. [Azure Depolama Gezgini](https://azure.microsoft.com/features/storage-explorer/).
+Bu adım, Azure Depolama Gezgini sürüm 1.6.1'i veya üstünü yüklemenizi gerektirir. Windows, Macintosh veya Linux için Azure Depolama Gezgini’ni yükleme ile ilgili bkz. [Azure Depolama Gezgini](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Azure Depolama Gezgini’ni başarıyla yüklemenizin ardından ilk başlatmanızda Microsoft Azure Depolama Gezgini - Bağlan penceresi gösterilir. Depolama Gezgini, depolama hesaplarına bağlanmanın birçok yolunu sağlarken, gerekli kurulum için şu anda yalnızca bir yol desteklenmektedir. 
 
@@ -108,11 +108,11 @@ Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
     ![AAD Kurumsal uygulamaları](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Arama çubuğuna *Power* yazın; böylece Power BI ve Power Query uygulamaları için Nesne Kimliklerinin koleksiyonu görüntülenir.
+4. Arama çubuğuna *Power* yazın; böylece Power BI ve Power Query uygulamaları için Nesne Kimliklerinin koleksiyonu görüntülenir. Sonraki adımlarda üç değere de ihtiyacınız olacaktır.  
 
     ![Power uygulamalarını arama](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Aramanızın sonuçlarından Power BI hizmeti için Nesne Kimliğini seçip kopyalayın. Sonraki adımlarda bu değeri yapıştırmaya hazır olun.
+5. Aramanızın sonuçlarından hem Power BI hizmeti hem de Power BI Premium için Nesne Kimliklerini seçip kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
 
 7. Daha sonra, önceki bölümde oluşturduğunuz *powerbi* dosya sistemine gitmek için **Azure Depolama Gezgini**’ni kullanın. [Azure Depolama gezginini kullanarak dosya ve dizin düzeyinde izinleri ayarlama](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) makalesinin [Erişimi yönetme](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) bölümündeki yönergeleri izleyin.
 
@@ -120,7 +120,7 @@ Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
    ![her ikisi için de üçünü atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 5. adımda toplanan Power Query Çevrimiçi Nesne Kimliği için, *powerbi* dosya sisteminize **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
+9. Dördüncü adımda toplanan Power Query Çevrimiçi Nesne Kimliği için, *powerbi* dosya sisteminize **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
 
    ![ardından, yazma ve yürütme erişimi atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

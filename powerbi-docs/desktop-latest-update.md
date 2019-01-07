@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3b2d751a174aa87a9c0c134d2579f15b084322a2
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 0883d3fdd9d57b04b839fb9062b12e8bfcc17c45
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619554"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329683"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler 
 
-## <a name="november-2018-update-2645285461"></a>Kasım 2018 Güncelleştirmesi (2.64.5285.461)
+## <a name="december-2018-update-2655313501"></a>Aralık 2018 Güncelleştirmesi (2.65.5313.501)
 
-Kasım güncelleştirmelerimiz yeni özellik ve işlevlerden oluşan verimli bir güncelleştirme çalışmasıdır. Veri ve analiz meraklısı ailenizle oturun, patates cipslerini hazırlayın ve güncelleştirme ziyafetimize katılın. 
+Aralık güncelleştirmelerimizin aklınızı uçurması gayet mümkün veya en azından cazip veri odaklı görsellere bayılacaksınız. Şöminenin önünde toplanın ve bir fincan sıcak çayınızı yudumlarken Aralık güncelleştirmelerimizi açın. 
 
 Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
@@ -38,44 +38,56 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 ### <a name="reporting"></a>Raporlama
 
-* Matris satır üst bilgilerini genişletme ve daraltma [[video]](https://youtu.be/1xsXXoyTxfk?t=16)  [[makale]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
-* Masaüstü dosyaları arasında kopyalama ve yapıştırma [[video]](https://youtu.be/1xsXXoyTxfk?t=199)  [[makale]](desktop-report-view.md#copy-and-paste-between-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
-* Güncelleştirilen filtreleme deneyimi (önizleme) [[video]](https://youtu.be/1xsXXoyTxfk?t=410)   [[makale]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
-* Rapor erişilebilirliği geliştirmeleri [[video]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+* Sayfada nesneleri hizalamak için akıllı kılavuzlar   [[video]](https://youtu.be/AHNlkjRFdYI?t=11)  [[makale]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
+* ArcGIS Maps for Power BI güncelleştirmeleri  [[video]](https://youtu.be/AHNlkjRFdYI?t=84)  [[makale]](power-bi-visualization-arcgis.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Alanlar listesi erişilebilirlik desteği [[video]](https://youtu.be/AHNlkjRFdYI?t=464)  [[makale]](desktop-report-view.md#copy-and-paste-between-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
+* Sayfadaki nesneler için sekme sırasını ayarlama [[video]](https://youtu.be/AHNlkjRFdYI?t=643)   [[makale]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
+* Düğme görselleri için araç ipuçları [[video]](https://youtu.be/AHNlkjRFdYI?t=884)  [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
+* *Görsel etkileşimler* için güncelleştirilmiş simgeler  [[video]](https://youtu.be/AHNlkjRFdYI?t=974)  [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
 
-### <a name="analytics"></a>Analytics
 
-* Görsellerde renk doygunluğu, koşullu biçimlendirme kullanmak üzere yükseltildi [[video]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
-* Soru-Cevap gezgininde takip soruları [[video]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+### <a name="analytics"></a>Analiz
+
+* Soru-Cevap için canlı bağlantı desteği (önizleme) [[video]](https://youtu.be/AHNlkjRFdYI?t=1037)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
 ### <a name="modeling"></a>Modelleme
 
-* Yeni modelleme görünümü (önizleme) [[video]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[makale]](desktop-modeling-view.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
-* Bileşik modeller artık genel kullanıma sunuldu [[video]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[makale]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
-* Modelleme erişilebilirliği geliştirmeleri [[video]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
-* Yeni DAX işlevleri [[video]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+* DAX formül çubuğu güncelleştirmeleri [[video]](https://youtu.be/AHNlkjRFdYI?t=1132)  [[makale]](desktop-modeling-view.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
+* Veri görünümü erişilebilirlik desteği [[video]](https://youtu.be/AHNlkjRFdYI?t=1253)  [[makale]](desktop-composite-models.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
+
 
 ### <a name="custom-visuals"></a>Özel görseller
 
-* Beş yeni özel görsel  [[video]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* Yeni bir özel görsel  [[video]](https://youtu.be/AHNlkjRFdYI?t=1370)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
 
-* Azure DevOps Server bağlayıcısı [[video]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
-* Başlangıç Sayfası ve Son Sayfa parametreleri için PDF Bağlayıcısı desteği [[video]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[makale]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
-* Geliştirilmiş Azure Consumption Insights bağlayıcısı [[video]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[makale]](desktop-connect-azure-consumption-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+* AtScale bağlayıcısı (Beta) [[video]](https://youtu.be/AHNlkjRFdYI?t=1449) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#atScale) 
+* Oracle Essbase bağlayıcısı (Beta)  [[video]](https://youtu.be/AHNlkjRFdYI?t=1449)   [[makale]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#essbase) 
+
+
+### <a name="data-preparation"></a>Veri hazırlama
+
+* Benzer öğe birleştirme, En İyi N eşleştirme [[video]](https://youtu.be/AHNlkjRFdYI?t=1480)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
+
+
+### <a name="other"></a>Diğer
+* Tüm bölmeler ve rapor alt bilgisi için yüksek karşıtlık desteği  [[video]](https://youtu.be/AHNlkjRFdYI?t=1631)   [[makale]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
+* Güncelleştirilmiş klavye kısayolu iletişim kutusu [[video]](https://youtu.be/AHNlkjRFdYI?t=1654)   [[makale]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
+
 
 
 > [!NOTE]
 > Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
 
-Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
 
 
 Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videolara blog gönderisinden de ulaşabilirsiniz.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.

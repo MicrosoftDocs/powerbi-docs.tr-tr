@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452879"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451456"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
@@ -66,7 +66,7 @@ Bağlantıyı kurmak için bir *Sunucu*, *Sistem Numarası* ve *İstemci Kimliğ
 
 ![SAP sunucusu bağlantı ayarları](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-Ayrıca belirtebileceğiniz iki ek **Gelişmiş seçenek** de vardır: Dil kodu ve belirtilen sunucuda çalıştırılacak özel MDX deyimi.
+Ayrıca fazladan iki **Gelişmiş seçenek** belirtebilirsiniz: Dil kodu ve belirtilen sunucuda çalıştırılacak özel bir MDX deyimi.
 
 ![ek bağlantı bilgileri](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,7 +78,7 @@ Sunucudan bir veya daha fazla öğe seçtiğinizde yaptığınız seçime bağl�
 
 **Gezgin** penceresinde ayrıca aşağıdakileri yapmanızı sağlayan birkaç **Görüntüleme Seçeneği** de bulunur:
 
-* ***Yalnızca Seçilen Öğeler* veya *Tüm Öğeler* (varsayılan görünüm) arasında seçim yapma:** Bu seçenek, seçilen son öğe kümesini doğrulama açısından yararlıdır. Bu görünüme alternatif olarak *Önizleme* alanında *Sütun Adları*'nı seçerek de ulaşabilirsiniz.
+* ***Tüm Öğeler* (varsayılan görünüm) yerine *Yalnızca Seçilen Öğeler*'i görüntüleyin:** Bu seçenek, seçilen son özellik kümesini doğrulamak için kullanışlıdır. Bu görünüme alternatif olarak *Önizleme* alanında *Sütun Adları*'nı seçerek de ulaşabilirsiniz.
 * **Veri Önizlemelerini Etkinleştir (varsayılan davranış):** Veri önizlemelerinin bu iletişim kutusunda görüntülenip görüntülenmeyeceğini de denetleyebilirsiniz. Veri önizlemelerini devre dışı bıraktığınızda, önizleme için veri isteği gönderilmediğinden sunucu çağrısı sayısı da azalır.
 * **Teknik Adlar:** SAP BW, bir küp içindeki nesneler için *teknik adlar* kavramının kullanılmasını destekler. Teknik adlar, küp sahibinin küp içindeki nesnelerin yalnızca *fiziksel adlarını* değil, küp nesnelerinin *kolay adlarını* da görüntülemesini sağlar.
 

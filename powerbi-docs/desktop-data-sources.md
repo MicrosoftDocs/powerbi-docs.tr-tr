@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619828"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329752"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -78,6 +78,7 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (Beta)
 * BI Bağlayıcısı
 * Exasol
 * Dremio (Beta)
@@ -127,7 +128,7 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (şirket içi)
 * Uygulamalar için Common Data Service (Beta)
-* Microsoft Azure Tüketim Öngörüleri (Beta)
+* Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
 * Salesforce Nesneleri
@@ -136,14 +137,14 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
-* Customer Insights için Dynamics 365 (Beta)
+* Dynamics 365 for Customer Insights (Beta)
 * Data.World - Veri Kümesi Al (Beta)
 * Facebook
 * GitHub (Beta)
 * MailChimp (Beta)
 * Marketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
+* Planview Enterprise One - PRM (Beta)
 * Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet

@@ -1,31 +1,29 @@
 ---
 title: Surface Hub'da sunu modunda görüntüleme, Windows 10 - Power BI
 description: Power BI raporlarını Surface Hub'da görüntüleme ve Power BI panolarını, raporlarını ve kutucuklarını Windows 10 cihazlarda tam ekran modunda görüntüleme hakkında bilgi edinin.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507945"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301770"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Raporları Surface Hub'da ve Windows 10'da sunu modunda görüntüleme - Power BI
-Windows 10 cihazlarında raporları Surface Hub sunu modunda açabilirsiniz. Ayrıca panoları, raporları ve kutucukları tam ekran modunda görüntüleyebilirsiniz. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
+Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. 
 
 ![Tam ekran modundaki rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-Sunu ve tam ekran modları Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır. 
+Sunu modu Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır. 
 
-Power BI mobil uygulamasını tam ekran moduna aldığınızda sayfa sekmeleri ve raporlardaki filtre bölmesi haricindeki gezinti ve menü çubukları gibi "kenarlıklar" kaldırılır.
-
-Bir raporu Surface Hub'da sunu modunda görüntülediğinizde sayfalar üzerinde farklı renklerde çizimler yapabilir ve raporunuzun sayfaları arasında gezinebilirsiniz.
+Windows 10 için Power BI mobil uygulamasının sunu modunda, sizin ve takım üyelerinizin rapordaki verilere odaklanmanızı sağlamak için gezinti ve menü çubukları gibi tüm "grafik öğeler" kaldırılır. Eylemleri içeren bir araç çubuğu sağlanır ve bu araç çubuğu sunu modundayken verilerinizle etkileşim kurmanıza ve işbirliği yapmanıza olanak tanır.
 
 Ayrıca web üzerindeki [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleyebilirsiniz](../end-user-focus.md).
 
@@ -34,44 +32,24 @@ Ayrıca web üzerindeki [Power BI hizmetindeki panoları ve raporları tam ekran
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>Panoları, raporları ve kutucukları tam ekran modunda görüntüleme
-1. Power BI mobil uygulamasında bir pano, rapor veya kutucuk üzerindeki **Tam ekran** simgesine ![Tam ekran simgesi](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) dokunarak tam ekran moduna geçebilirsiniz.
-2. Sonu modunda raporu filtreleyebilir veya diğer panolar ve raporlar için arama yapabilirsiniz.
-   
-    Filtreleri ayarlamak veya kaldırmak için Filtreler bölmesini genişletin.
-   
-    ![Filtreler bölmesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     Diğer panoları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
-   
-    ![Arama sonuçları](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. Tam ekran modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun veya yukarıdan aşağı doğru kaydırıp üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)dokunun.
+## <a name="use-presentation-mode"></a>Sunu modunu kullanma
+Power BI mobil uygulamasında, **Tam ekran** simgesine dokunarak tam ekran moduna geçin.
+![Tam ekran simgesi](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) Uygulamanın grafik öğeleri görüntüden kaldırılır ve ekranın alt kısmında veya sağ ve sol kenarlarında (ekranınızın boyutuna bağlı olarak) bir araç çubuğu gösterilir.
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Surface Hub için sunu modunu açma
-Sunu modu varsayılan olarak Surface Hub'da açıktır ancak kapalıysa tekrar açabilirsiniz.
+![Kenar araç çubuklarıyla tam ekran modunda rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. Sol gezinti çubuğu altındaki Ayarlar simgesine ![Ayarlar simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) dokunun.
-2. **Seçenekler**'e dokunun ve ardından **Microsoft Surface Hub sunum modunu etkinleştirin** kaydırıcısını **Açık** konuma getirin.
-   
-    ![Sunu modunu açma](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+Araç çubuğundan aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Surface Hub'da raporları görüntüleme ve üzerinde çizim yapma
-1. Surface Hub sunu moduna geçmek için herhangi bir rapor açıkken **Tam ekran** simgesine ![Tam ekran simgesi](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) dokunun.
-   
-    Ekranın iki tarafında da daraltılabilir eylem çubuğu göreceksiniz. 
-   
-   * Açmak için içeri doğru kaydırın veya tutamaca dokunun.
-   * Kapatmak için dışarı doğru kaydırın veya en üstteki X simgesine dokunun.
-2. Kalem ile yazma desteği sunan cihazlarda doğrudan yazmaya başlayabilirsiniz. 
-3. Mürekkep rengini değiştirmek için sol veya sağ eylem çubuğundaki kalem simgesine dokunun.
-   
-    ![Surface Hub mürekkebi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. Çizimin bir kısmını veya tamamını silmek için silgiye veya geri al okuna dokunun.
-5. Raporun içeriğini yenilemek için yuvarlak ok işaretine dokunun.
-6. Raporun diğer sayfalarına gitmek için yön oklarına dokunun.
-   
-    ![Diğer sayfalara giden yön okları](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. Tam ekran modundan çıkmak için yukarıdan aşağı doğru kaydırıp üzerinde içeri doğru iki ok bulunan simgeye ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png) dokunun.
+1. Önceki sayfanıza gitmek için geri simgesine ![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) dokunun. Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır ve raporunuzu veya panonuzu içeren klasöre gidebilmeniz sağlanır.
+2. Mürekkep simgesi ![mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken bir renk seçmenizi sağlar. 
+3. Sunmakta olduğunuz rapor sayfasını değiştirmek için sayfalar simgesini ![sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) kullanın.
+4. Power BI'daki diğer yapıları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
+5. Sunu modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun.
+
+Araç çubuğunu yerinden çıkarabilir ve sürükleyerek ekranın herhangi bir yerine yerleştirebilirsiniz. Büyük ekranlarda, raporunuzun belirli bir alanına odaklanmayı tercih ettiğinizde ve araçları bu alanın yanında kullanabilmek istediğinizde bu yararlı olacaktır. Parmağınızı araç çubuğunun üzerine koyup rapor tuvaline doğru çekmeniz yeterlidir.
+
+![Sunu modunda rapor ve yerinden çıkarılmış araç çubuğu](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleme](../end-user-focus.md)
