@@ -87,7 +87,7 @@ Sertifikasyon işlemi isteğe bağlıdır. Ücretsiz görsellerde olduğu gibi, 
 
 IAP özel görsellerini markete gönderim işlemi, ücretsiz görselleri gönderim işlemiyle aynıdır. Satıcı panosu aracılığıyla yapılır.  Gönderim işlemindeki tek değişiklik, geliştiricilerin satıcı panosundaki geliştirici notlarında şunu belirtmesinin gerekli olmasıdır: “Uygulama içi satın alması olan görsel”. Ücretli/gelişmiş özellikleri doğrulamak için gerekliyse bir lisans anahtarı/belirteci sağlamanız da istenecektir.  
 
-Satıcı panosunda yeni seçenek olmayacaktır. *Uygulama için satın almalar içeren ücretsiz uygulama* olduğunda IAP görsellerinizi *ücretsiz* olarak göndermeniz gerekecektir.
+Satıcı panosunda yeni seçenek olmayacaktır. *Uygulama içi satın almalar içeren ücretsiz uygulama* olduğunda IAP görsellerinizi *ücretsiz* olarak göndermeniz gerekecektir.
 
 Bunun yanı sıra, mağazanızda hangi özelliklerin ücretsiz olduğu ve hangilerinin çalışması için ek satın almalar gerektirdiği konusunda ayrıntılı bir açıklama sağlayarak kullanıcılara neler bekleyebileceklerini bildirin.  
 

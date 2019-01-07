@@ -62,7 +62,7 @@ Microsoft destek bölümüyle iletişime geçerken İstek Kimliğini belirtin.
 
 Azure portal veya Power BI uygulaması kayıt sayfasındaki hata iletileri, yetersiz ayrıcalıktan bahsedecektir. Bir uygulama kaydı için Azure AD kiracısında yönetici olmanız ya da yönetici olmayan kullanıcılar için uygulama kayıtlarının etkinleştirilmiş olması gerekir.
 
-### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>Power BI Hizmeti yeni bir Uygulama kaydı sırasında Azure portalda görünmüyor
+### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>Power BI Hizmeti yeni bir Uygulama kaydı sırasında Azure portalında görünmüyor
 
 En az bir kullanıcının Power BI'a kaydolmuş olması gerekir. API listesinde **Power BI Hizmetini** görmüyorsanız hiçbir kullanıcı Power BI'a kaydolmamış demektir.
 

@@ -23,7 +23,7 @@ Bu makalede, Power BI Premium kapasitelerinizin ölçümlerini izlemeyle ilgili 
 
 Kapasiteyi izlemek için Power BI Premium Capacity Metrics uygulamasını veya yönetici portalını kullanabilirsiniz. Daha fazla ayrıntı sunduğu için uygulamayı kullanmanızı öneririz ancak bu makalede iki seçeneğe de bakacağız.
 
-**Uygulamanın geçerli sürümü, 13 Kasım 2018 tarihinde yayımlanan 1.10’dur.**
+**Uygulamanın geçerli sürümü, 13 Aralık 2018 tarihinde yayımlanan 1.10’dur.**
 
 geçin.
 
