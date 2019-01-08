@@ -8,14 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: c17f9b9841335420db67abb62c92603bf804f275
-ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
+ms.openlocfilehash: 66ab9dee3bd200cf3c81fc2add41af29726a91db
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53553916"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54055892"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f125edf58ab80da68a236d671495fc48e475c212
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548546"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008040"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Power BI ile comScore Digital Analytix'e bağlanma
 Power BI içerik paketi ile Power BI'da comScore Digital Analytix verilerinizi görselleştirin ve araştırın. Veriler, günde bir kez otomatik olarak yenilenir.
@@ -52,7 +52,7 @@ Power BI içerik paketi ile Power BI'da comScore Digital Analytix verilerinizi g
 
 <a name="Requirements"></a>
 
-## <a name="system-requirements"></a>Sistem gereksinimleri
+## <a name="system-requirements"></a>Sistem Gereksinimleri
 Bağlanmak için comScore DAx kullanıcı hesabı ve comScore DAx API erişimi gerekir. Hesabınızı doğrulamak için lütfen comScore DAx yöneticinizle iletişime geçin.
 
 <a name="FindingParams"></a>

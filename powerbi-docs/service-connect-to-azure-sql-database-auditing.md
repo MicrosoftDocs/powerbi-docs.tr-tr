@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b3b461bedc9eb60607f56c82c5af8de0ed690c06
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 0d212510fd2856fd509077f35e0f10bb7c5dd4c5
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507629"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008777"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Power BI için SQL Database Auditing içerik paketi
 

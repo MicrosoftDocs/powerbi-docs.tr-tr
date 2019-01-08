@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670245"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056076"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -102,7 +102,7 @@ Kiracınızda hem Ücretsiz hem de ABD Kamu Pro lisanslarınız varsa hem Ücret
 
 Bir ABD Kamu kiracısında Ücretsiz ve Pro lisanslar birlikte kullanıldığında *beyaz listeye ekleme* işlemi gerçekleştirilirken aşağıdaki durumlar ortaya çıkabilir:
 
-**Beyaz listeye *eklenmeden önce***:
+**_Beyaz listeye eklenmeden_ önce**:
 
 * Ücretsiz lisansa sahip kullanıcılar ticari bulutta çalışır
 * Pro ABD Kamu lisansları portalda görünür ve yönetici bu lisansları kullanıcılara atayabilir. Pro ABD Kamu kullanıcıları, yöneticiler tarafından ABD Kamu Pro lisansı atandığında Ücretsiz lisanslarındaki verileri kaybetmez. Lisans atanan kullanıcılar, ABD Kamu müşterileri için Power BI Pro özelliklerine erişim sahibi olur ancak kiracı başarıyla *beyaz listeye eklenene* kadar aşağıdaki işlev eksiklikleri yaşanır:
@@ -112,7 +112,7 @@ Bir ABD Kamu kiracısında Ücretsiz ve Pro lisanslar birlikte kullanıldığın
   * PBIX dosyaları, ticari Power BI hizmetinden el ile karşıya yüklenmelidir
   * Power BI mobil uygulamaları kullanılamaz
 
-**Beyaz listeye *eklendikten sonra***:
+**_Beyaz listeye eklendikten_ sonra**:
 
 * Ticari Power BI hizmetinde çalışan ücretsiz sürüm kullanıcıları çalışmaya devam edebilir ancak beklendiği şekilde kimlik doğrulaması gerçekleştiremeyecektir.
 * ABD Kamu bulutunda çalışan Pro sürüm kullanıcıları **ABD Kamu müşterileri için Power BI** hizmetini beklenen şekilde kullanabilir.

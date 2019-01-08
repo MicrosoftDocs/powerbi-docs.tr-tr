@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e90692443f434300aceb783f0a77b44e71f86682
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548592"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008937"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Power BI ile SQL Sentry'ye bağlanma
 SQL Sentry tarafından toplanan performans verilerinizi Power BI ile çözümlemek kolaydır. Power BI, verilerinizi alır ve ardından bu verilere dayalı varsayılan bir pano ve raporlar oluşturur.
