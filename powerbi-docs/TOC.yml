@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Power BI Desktop'tan yayımlama
       href: desktop-upload-desktop-files.md
-    - name: Power BI'daki özel görselleştirmeler
-      href: power-bi-custom-visuals.md
-    - name: Power BI’da kuruluşlara yönelik özel görseller
-      href: power-bi-custom-visuals-organization.md
     - name: 1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: 2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Özel görsellerle ilgili sorunları giderme
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: Verilere bağlanma
       items:
       - name: Power BI Desktop'taki veri kaynakları
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: Nasıl yapılır?
       items:
-      - name: Bir uygulamadan ekleme
+      - name: Uygulamadan ekleme
         href: developer/embed-from-apps.md
       - name: Azure Active Directory kiracısı oluşturma
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Ekleme Hakkında Soru-Cevap
         href: developer/qanda.md
-      - name: Katıştırılmış uygulamanızla ilgili sorunları giderme
-        href: developer/embedded-troubleshoot.md
       - name: Azure'da kapasiteleri yönetme
         items:
         - name: Azure'da kapasite oluşturma
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure'da kapasiteyi duraklatma ve başlatma
           href: developer/azure-pbie-pause-start.md
+      - name: Sorun giderme
+        items:
+        - name: Ekli uygulamanızla ilgili sorunları giderme
+          href: developer/embedded-troubleshoot.md
       - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
         items:
         - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Özel Görseller Geliştirme
+  - name: Özel Görseller
     items:
     - name: Genel Bakış
       items:
-      - name: Power BI’a Özel Görseller Ekleme
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Power BI'daki özel görseller
+        href: power-bi-custom-visuals.md
     - name: Öğreticiler
       items:
       - name: Power BI özel görseli geliştirme
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Kavramlar
       items:
+      - name: Power BI’da kuruluşlara yönelik özel görseller
+        href: power-bi-custom-visuals-organization.md
       - name: Power BI görselleri için yönergeler
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Özel görseller hakkında SSS
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: AppSource'ta özel görsel yayımlama
         href: developer/office-store.md
-      - name: Özel görsellerle ilgili sorunları giderme
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
+        href: desktop-r-powered-custom-visuals.md
+      - name: Sorun giderme
+        items:
+        - name: Özel görsel geliştirme sorunlarını giderme
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: Başvuru
       items:
       - name: API'ler
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008891"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072348"
