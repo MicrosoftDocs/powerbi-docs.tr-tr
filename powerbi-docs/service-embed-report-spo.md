@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973339"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136611"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -75,7 +75,7 @@ Raporunuzu SharePoint Online'a eklemek için öncelikle raporun URL'sini alıp b
 
     ![SP rapor yüklendi](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Raporlara yönelik erişim izni verme
+## <a name="grant-access-to-reports"></a>Raporlara erişim verme
 
 Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntüleme izni otomatik olarak verilmez. Raporu görüntüleme izinleri Power BI hizmetinde ayarlanır.
 
@@ -90,7 +90,7 @@ Alternatif olarak raporu bir uygulamaya ekleyerek kullanıcılarla doğrudan pay
 
 2. Yazar, uygulama çalışma alanında bir rapor oluşturur. ***Power BI ücretsiz kullanıcılarıyla** paylaşım yapabilmek için uygulama çalışma alanının **Premium çalışma alanı** olarak ayarlanması gerekir.*
 
-3. Yazar uygulamayı yayımlar ve yükler. *Yazarın SharePoint Online'a eklemek için kullanılacak rapor URL'sine erişebilmek için uygulamayı yüklediğinden emin olması gerekir.*
+3. Yazar uygulamayı yayımlar ve yükler. *Yazarın SharePoint Online'a eklemek için kullanılacak rapor URL'sine erişebilmesi için uygulamayı yüklediğinden emin olması gerekir.*
 
 4. Artık tüm kullanıcılar da uygulamayı yükleyebilir. Ancak [Power BI yönetici portalından](service-admin-portal.md) **Uygulamayı otomatik olarak yükle** seçeneğini etkinleştirerek uygulamanın son kullanıcılar için önceden yüklenmesini sağlayabilirsiniz.
 
@@ -152,7 +152,7 @@ SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisan
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
-* Error: "An error occurred, please try logging out and back in and then revisiting this page. Bağıntı kimliği: tanımsız, http yanıtı durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik"
+* Hata: "Hata oluştu, lütfen oturumu kapatıp yeniden açmayı ve bu sayfayı yeniden ziyaret etmeyi deneyin. Bağıntı Kimliği: undefined, http yanıt durumu: 400, sunucu hata kodu 10001, ileti: Yenileme belirteci eksik"
   
   Bu hatayı almaya devam ederseniz aşağıdaki sorun giderme adımlarından birini deneyin.
   
@@ -174,9 +174,10 @@ SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisan
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Son kullanıcıların modern site oluşturmasına izin verme veya bunu engelleme](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md)  
-[Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md)  
-[Power BI Premium nedir?](service-premium.md)  
+* [Son kullanıcıların modern site oluşturmasına izin verme veya bunu engelleme](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md)  
+* [Panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](service-share-dashboards.md)  
+* [Power BI Premium nedir?](service-premium.md)
+* [Raporu güvenli bir portala veya web sitesine ekleme](service-embed-secure.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

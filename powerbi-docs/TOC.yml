@@ -604,10 +604,12 @@ items:
         href: service-share-dashboards.md
       - name: Filtrelenmiş rapor paylaşma
         href: service-share-reports.md
-      - name: Power BI'dan web'de yayımlama
-        href: service-publish-to-web.md
       - name: SharePoint Online'a rapor ekleme
         href: service-embed-report-spo.md
+      - name: Raporu güvenli bir portala veya web sitesine ekleme
+        href: service-embed-secure.md
+      - name: Power BI'dan web'de yayımlama
+        href: service-publish-to-web.md
       - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
         href: service-share-dashboard-that-links-to-excel-onedrive.md
       - name: Excel için Power BI Publisher
@@ -1285,9 +1287,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: ba984e4e4f948f0cc2772dbe632c450bd77eb6b2
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072348"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136588"

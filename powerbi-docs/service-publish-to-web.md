@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558551"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136634"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -26,6 +26,9 @@ Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştire
 > [!WARNING]
 > **Web'de yayımla** işlevini kullanarak yayımladığınız rapor veya görseller, İnternet üzerindeki herkes tarafından görüntülenebilir. Bu raporları görüntülemek için herhangi bir kimlik doğrulaması kullanılmaz. Web'de yayımla özelliğini yalnızca İnternet üzerindeki herkesin (kimliği doğrulanmamış genel kullanıcılar) görmesi için uygun olan raporlar ve veriler için kullanın. Buna raporlarınızda toplam şeklinde gösterilen ayrıntı düzeyindeki veriler de dahildir. Bu raporu yayımlamadan önce verileri ve görselleştirmeleri herkesle paylaşma izniniz olduğundan emin olun. Gizli veya özel bilgileri yayımlamayın. Bu konuda şüpheleriniz varsa yayımlamadan önce kuruluşunuzun ilkelerini inceleyin.
 
+>[!Note]
+>İçeriğinizi dahili bir portala veya web sitesine güvenle eklemek için [Ekle](service-embed-secure.md) veya [SharePoint Online'da Ekle](service-embed-report-spo.md) seçeneğini kullanın. Bu seçenekler, kullanıcılarınız dahili verilerinizi görüntülerken tüm izinlerin ve güvenliğin zorunlu tutulmasını sağlar.
+
 ## <a name="how-to-use-publish-to-web"></a>Web'de yayımla özelliğini kullanma
 
 **Web'de yayımla** özelliğini, kişisel veya grup çalışma alanlarında bulunan ve düzenleme izinlerine sahip olduğunuz raporlarda kullanabilirsiniz.  Web'de yayımla özelliğini sizinle paylaşılan raporlarda veya verilerin güvenliğini satır düzeyi güvenlik ile sağlayan raporlarda kullanamazsınız. Web'de yayımla özelliğinin desteklenmediği tüm durumların listesi için aşağıdaki **Sınırlamalar** bölümüne bakın. Web'de yayımla özelliğini kullanmadan önce bu makalenin üst kısmındaki **Uyarı** bölümünü inceleyin.
@@ -34,48 +37,47 @@ Bu özelliğin nasıl çalıştığını görmek için aşağıdaki *kısa video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağını açıklamaktadır.
 
 1. Çalışma alanınızda bulunan ve düzenleme yetkisine sahip olduğunuz bir raporda **Dosya > Web'de yayımla**'yı seçin.
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. İletişim kutusundaki içeriği gözden geçirin ve aşağıdaki iletişim kutusunda gösterildiği şekilde **Ekleme kodu oluştur**'u seçin.
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. Sonraki iletişim kutusunda gösterilen uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. Sonraki iletişim kutusunda verilen bağlantıyı e-posta ile gönderebilir, kod içine ekleyebilir (iFrame gibi) veya doğrudan web ya da blog sayfanıza yapıştırabilirsiniz.
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. Rapor için önceden bir ekleme kodu oluşturduysanız ekleme kodu hemen görünür. Her rapor için yalnızca bir ekleme kodu oluşturabilirsiniz.
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>Görüntüleme modlarına ilişkin ipuçları ve püf noktaları
 
 İçeriği bir blog gönderisine eklediğinizde genelde belirli bir ekran boyutuna sığdırmanız gerekir.  iFrame etiketindeki yükseklik ve genişlik ayarlarını da istediğiniz şekilde düzenleyebilirsiniz ancak raporunuzun iFrame içindeki alana sığdığından da emin olmanız gerekir. Bu nedenle, raporu düzenlerken uygun Görünüm Modunu ayarlamanız gerekir.
 
-Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüneceği hakkında bilgiler verilmiştir. 
+Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüneceği hakkında bilgiler verilmiştir.
 
 | Görünüm Modu | Eklendiğinde nasıl görüneceği |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır**, raporunuzun yüksekliğini ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi "Dinamik" oranlara ayarladıysanız içeriğiniz belirlediğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame'e eklendiğinde **sinemaskop** etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame yükseklik/genişlik ayarını uygun şekilde değiştirin. |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur**, içeriğin iFrame içindeki yatay alana uydurulmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır**, raporunuzun yüksekliğini ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi "Dinamik" oranlara ayarladıysanız içeriğiniz belirlediğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame'e eklendiğinde **sinemaskop** etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame yükseklik/genişlik ayarını uygun şekilde değiştirin. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur**, içeriğin iFrame içindeki yatay alana uydurulmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları ve püf noktaları
 
 Web'de yayımla özelliğini kullanarak elde ettiğiniz ekleme kodu aşağıdakine benzer olacaktır:
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
-Genişlik ve yükseklik değerlerini el ile değiştirerek eklediğiniz sayfada nasıl görüneceğini tam olarak belirleyebilirsiniz.
+Genişlik ve yükseklik değerlerini el ile değiştirerek, eklediğiniz sayfada nasıl görüneceğini tam olarak belirleyebilirsiniz.
 
 Daha iyi bir yerleşim sağlamak için iFrame'in yükseklik değerine 56 piksel ekleyebilirsiniz. Bu değer, alt çubuğun geçerli boyutunu karşılar. Rapor sayfanızda Dinamik boyut kullanılıyorsa aşağıdaki tabloda verilen değerleri kullanarak sinemaskop etkisine maruz kalmadan düzgün bir yerleşim sağlayabilirsiniz.
 
@@ -93,20 +95,20 @@ Daha iyi bir yerleşim sağlamak için iFrame'in yükseklik değerine 56 piksel 
 **Web'de yayımla** özelliğini kullanarak oluşturduğunuz ekleme kodlarını Power BI hizmetinin **Ayarlar** menüsünden yönetebilirsiniz. Ekleme kodlarını yöneterek belirli bir kodun içindeki hedef görseli veya raporu kaldırabilir (ekleme kodunu geçersiz kılabilir) veya ekleme kodunu tekrar alabilirsiniz.
 
 1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet**'i seçin.
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. Aşağıdaki resimde olduğu gibi oluşturmuş olduğunuz ekleme kodlarının listesi açılır.
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. Listedeki her **Web'de yayımla** ekleme kodu girişi için ekleme kodunu alabilir veya ekleme kodunu silebilirsiniz. Bu durumda, ilgili rapor veya görsel bağlantıları artık çalışmaz.
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. **Sil**'i seçerseniz ekleme kodunu silmek istediğinizden emin olup olmadığınız sorulur.
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Raporları güncelleştirme ve veri yenileme
 
@@ -138,6 +140,7 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 - Rapor düzeyi DAX ölçüleri içeren raporlar
 - Çoklu oturum açma veri sorgulama modelleri
 - [Gizli veya özel bilgilerin güvenliğini sağlama](#publish-to-web-from-power-bi)
+- **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) yaklaşımını kullanın. [Verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="tenant-setting"></a>Kiracı ayarı
 
@@ -167,7 +170,7 @@ Bir web sitesine eklenmiş olan **Web'de yayımla** içeriğiyle ilgili bir soru
 
 Sorun bildirmek için gördüğünüz Web'de yayımla raporunun alt çubuğundaki **bayrak** simgesini seçin.
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>Lisanslama ve Fiyatlandırma
 
@@ -178,5 +181,11 @@ Sorun bildirmek için gördüğünüz Web'de yayımla raporunun alt çubuğundak
 **Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet üzerindeki kullanıcılara açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu yaklaşım sayesinde rapor binlerce kullanıcı tarafından aynı anda görüntülenebilir ve herhangi bir performans kaybı yaşanmaz.
 
 Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılar tarafından kullanılan sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web'de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+- [SharePoint Online rapor web bölümü](service-embed-report-spo.md) 
+
+- [Raporu güvenli bir portala veya web sitesine ekleme](service-embed-secure.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
