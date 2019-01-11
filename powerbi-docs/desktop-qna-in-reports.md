@@ -25,7 +25,7 @@ Yanıtlayabileceği büyük soru koleksiyonunu başarıyla yorumlayabileceği ş
 > [!NOTE]
 > Soru-Cevap yalnızca **içeri aktarılan** verileri içeren bir modelle çalışılırken kullanılabilir. SSAS ve DirectQuery modelleri ile canlı bağlantılar desteklenmez.
 >
-> Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
