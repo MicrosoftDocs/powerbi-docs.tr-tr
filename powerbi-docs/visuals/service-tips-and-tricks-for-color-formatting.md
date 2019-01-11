@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565671"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983382"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
@@ -29,38 +29,35 @@ Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok fark
 * Ayrılan renk ölçeklerini kullanma
 * Power BI'da yapılan bir işlemi geri alma
 
-Herhangi bir değişiklik yapmak için, bir raporu düzenliyor olmanız gerekir: **Çalışma Alanım** bölmesinden **Raporunuzu** seçin. Ardından, aşağıda gösterildiği şekilde üst menü alanında **Raporu Düzenle** seçeneğini belirleyin.
+Herhangi bir değişiklik yapmak için, bir raporu düzenliyor olmanız gerekir: **Çalışma Alanım** bölmesinden **Raporunuzu** seçin. Ardından, aşağıda gösterildiği şekilde üst menü alanında **Raporu Düzenle** seçeneğini belirleyin. Burada **İnsan Kaynakları örneği** kullanılır.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![Raporu düzenle seçeneğinin vurgulandığı rapor tuvali](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 **Rapor** tuvalinin sağ tarafında **Görsel Öğeler** bölmesi göründüğünde özelleştirme işlemine başlayabilirsiniz.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![Biçimlendirme bölmesinin gösterildiği rapor](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Tek bir veri noktasının rengini değiştirme
-Bazen belirli bir veri noktasını vurgulamak istersiniz. Örneğin, yeni bir ürünün lansmanı için satış rakamları veya yeni bir programın tanıtımından sonra kalite puanlarındaki artış ile ilgili bir noktanın vurgulanması gerekebilir. Power BI ile rengini değiştirerek belirli bir veri noktasını vurgulayabilirsiniz.
+Bazen belirli bir veri noktasını vurgulamak istersiniz. Örneğin, yeni bir ürünün lansmanı için satış rakamları veya yeni bir programın tanıtımından sonra kalite puanlarındaki artış ile ilgili bir noktanın vurgulanması gerekebilir. Power BI ile, görsel türlerinin çoğunda rengini değiştirerek belirli bir veri noktasını vurgulayabilirsiniz.
 
-Aşağıdaki görselleştirmede eyaletler, yaşam maliyetine göre sıralanmıştır. 
+Aşağıdaki görselleştirmede, varsayılan renkler kullanılarak çalışana göre satış getirileri görüntülenir. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![alan grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-Şimdi renk kullanarak, Washington'ın bu sıralı listenin neresinde bulunduğunu hızlıca göstermek istediğinizi düşünün. Uygulamanız gereken adımlar:
+Annelie'nin alanını görmek zor oluyor, bunun yerine dikkati çekecek bir renk kullanalım. Uygulamanız gereken adımlar:
 
 **Veri Renkleri** bölümünü genişletin. Aşağıdaki seçeneklerle karşılaşırsınız.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![Biçimlendirme'nin altındaki Veri Renkleri seçim alanı](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-**Tümünü Göster**'i **Açık** olarak ayarlayın. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Veri noktalarının üzerine geldiğinizde herhangi bir veri noktası üzerinde değişiklik yapabilmeniz için kaydırma etkinleştirilir.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+Burada, Valery için kullanılan rengin benzeri olmayan, koyu ama parlak bir renk seçelim. Annelie'nin renk kutusunun içindeki aşağı oku seçtikten sonra, **Özel Renk**'i ve parlak maviyi seçin.
 
-Bu örnekte, **Washington**'ın rengini yeşil olarak değiştirelim. Sayfayı aşağıya kaydırarak **Washington**'ı bulup renk kutusundaki aşağı oku seçtiğimizde renk seçimi penceresi görüntülenir.
+![renk seçimleri](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Bu seçildikten sonra, Annelie'nin alanını diğer çalışanlarınkinden ayırt etmek çok daha kolaylaştı. 
 
-Seçtiğinizde, **Washington** veri noktası yeşilin güzel bir tonunda vurgulanır ve belirgin bir şekilde öne çıkar.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![alan grafiği, Annelie'nin alanı artık parlak mavi](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 Görselleştirme türlerini değiştirip geri dönseniz bile Power BI seçiminizi hatırlar ve **Washington**'ın yeşil renkte kalmasını sağlar.
 

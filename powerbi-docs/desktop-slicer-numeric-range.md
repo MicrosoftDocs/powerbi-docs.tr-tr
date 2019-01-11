@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669854"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983635"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop uygulamasındaki sayısal aralık dilimleyiciyi kullanma
 **Sayısal aralık dilimleyici** ile veri modelinizdeki sayısal sütunlara her türlü filtreyi uygulayabilirsiniz. Belirli sayılar **arasında**, belirli bir sayıdan **küçük veya ona eşit** ya da belirli bir sayıdan **büyük veya ona eşit** filtrelerini kullanabilirsiniz. Bu işlemler kulağa basit gelse de verilerinizi filtrelemek için kullanabileceğiniz önemli yöntemlerdir.
@@ -54,6 +54,14 @@ Son olarak **Büyük veya eşittir**'iş seçtiğinizde aşağıdaki görüntüd
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Sayısal aralık dilimleyicide tam sayılara yaslama
 
 Temel alınan alanın veri türü **Tam Sayı** ise sayısal aralık dilimleyici tam sayılara yaslanır. Bu, dilimleyicinizin tam sayılara düzgün bir şekilde hizalanmasına olanak tanır. **Ondalık Sayı** türündeki alanlar, ondalık değerler girmenizi veya seçmenizi sağlar. Metin kutusunda uygulanan biçimlendirme alanın biçimlendirme kümesiyle eşleşir ancak isterseniz daha hassas sayılar girebilir veya seçebilirsiniz.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Tarih aralığı dilimleyicisiyle biçimlendirmeyi görüntüleme
+
+Tarih aralığını görüntülemek veya ayarlamak için dilimleyici kullanıldığında, tarih her zaman kullanıcının tarayıcı veya işletim sistemi yerel ayarı temelinde **Kısa Tarih** biçimi kullanılarak görüntülenir. Temel verilerin veya modelin veri türü ayarları ne olursa olsun, görüntü biçimi budur. 
+
+Örneğin, temel veri türü için uzun tarih biçimi ayarlanmış olabilir (diğer görsellerde veya durumlarda tarihi *14 Mart 2001, Çarşamba* olarak biçimlendirecek *g AAAA yyyy, gggg* biçimi gibi), ama tarih aralığı dilimleyicisinde bu tarih *14/03/2001* olarak görüntülenir.
+
+Dilimleyicide **Kısa Tarih** biçiminin görüntülenmesi, dilimleyicinin içinde dize uzunluğunun tutarlı ve kısa tutulmasını sağlar. 
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar

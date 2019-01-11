@@ -1,6 +1,6 @@
 ---
-title: Power BI raporlarını filtreleme ve iş arkadaşları ile paylaşma
-description: Filtre uygulanmış bir Power BI raporunu kuruluşunuzdaki iş arkadaşlarınızla nasıl paylaşacağınızı öğrenin.
+title: Filtre uygulanmış bir Power BI raporunu iş arkadaşlarıyla paylaşma
+description: Power BI raporuna filtre uygulamayı ve bu raporu kuruluşunuzdaki iş arkadaşlarınızla paylaşmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,36 +8,37 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: d5e05775d310af37b2c96c6e9e255de25fe5effe
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51678984"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983451"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Filtre uygulanmış bir Power BI raporunu iş arkadaşlarınızla paylaşın
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve raporlarınızı dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-features-license-type.md) gereklidir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. Önerileriniz mi var? Power BI ekibi geri bildirimlerinize her zaman önem verir. [Power BI Topluluğu sitesine](https://community.powerbi.com/) gitmeye ne dersiniz?
+Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-features-license-type.md) gereklidir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. 
 
-Sizinle aynı e-posta etki alanında bulunan iş arkadaşlarınızla, Power BI hizmetinin birçok yerinden bir raporu paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir raporu paylaştığınızda, paylaştığınız kişiler raporu görüntüleyebilir ve raporla etkileşim kurabilir ancak raporu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece raporda sizin gördüğünüz verilerin aynılarını görürler. 
+Sizinle aynı e-posta etki alanında bulunan iş arkadaşlarınızla, Power BI hizmetinin birçok yerinden bir raporu paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir raporu paylaştığınızda, paylaştığınız iş arkadaşlarınız raporu görüntüleyebilir ve raporla etkileşim kurabilir ancak raporu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece raporda sizin gördüğünüz verilerin aynılarını görürler. 
+
+Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Özel URL oluşturmayı deneyin. Alıcılar bunu ilk kez açtığında rapor filtrelenecektir. URL'yi değiştirerek filtreyi kaldırabilirler.
 
 ## <a name="filter-and-share-a-report"></a>Rapor filtreleme ve paylaşma
-Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Bunun için bir özel URL oluşturmanız gerekir.
 
 1. Raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın, filtreyi uygulayın ve raporu kaydedin.
    
-   Bu örnekte yalnızca **Territory**'nin **NC**'ye eşit olduğu değerleri göstermek için [Perakende Analizi örneği](sample-tutorial-connect-to-the-samples.md)'ni filtreliyoruz.
+   Bu örnekte, yalnızca **Territory**'nin **NC**'ye eşit olduğu değerleri göstermek için [Perakende Analizi örneği](sample-tutorial-connect-to-the-samples.md)'ni filtreliyoruz.
    
    ![Rapor filtresi bölmesi](media/service-share-reports/power-bi-filter-report2.png)
 2. Aşağıdakini rapor sayfası URL'sinin sonuna ekleyin:
    
    ?filter=*tabloadı*/*alanadı* eq *değer*
    
-    Alan **dize** türünde olmalıdır ve *tabloadı* veya *alanadı* boşluk içeremez.
+    Alan **dize** türünde olmalıdır. *tabloadı* veya *alanadı* değerleri boşluk içeremez.
    
    Bizim örneğimizde, tablonun adı **Store**, alanın adı **Territory** ve filtrelemek istediğimiz değer **NC**'dir:
    

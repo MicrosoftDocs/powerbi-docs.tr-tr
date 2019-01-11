@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: d0f4ca29e30e5f6e6176f036dc535601eb580471
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: e28801a15cf50351d737af63bc48f655ca85d28f
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329890"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008178"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
@@ -71,6 +71,6 @@ Araçların ve SDK paketlerinin güncel kalmasını sağlayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Rapor performansı](../power-bi-reports-performance.md)
+* [Rapor performans açısından en iyi Power BI yöntemleri](../power-bi-reports-performance.md)
 * [Power BI Embedded sorunlarını giderme](embedded-troubleshoot.md)
 * [Power BI Embedded SSS](embedded-faq.md)

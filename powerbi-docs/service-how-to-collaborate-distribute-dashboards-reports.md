@@ -1,5 +1,5 @@
 ---
-title: Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
+title: Çalışmanızı paylaşmanın yolları
 description: Power BI'da panolar, raporlar, kutucuklar ve uygulamalar üzerinde farklı yollarla işbirliği yapabilir ve bunları paylaşabilirsiniz. Her biri farklı bir avantaj sunar.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908981"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983543"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Power BI’de nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
 
-Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlarınızla işbirliği yapıyor da olabilirsiniz. Daha sonra başkalarının da bu panolara ve raporlara erişmesini istiyorsunuz. Bunları dağıtmanın en iyi yolu nedir?
+Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlarınızla işbirliği yapmış da olabilirsiniz. Şimdi başkalarının da bu panolara ve raporlara erişmesini istiyorsunuz. Bunları dağıtmanın en iyi yolu nedir?
 
 Bu makalede, Power BI'da işbirliği yapmaya ve paylaşmaya yönelik seçenekleri karşılaştıracağız: 
 
-* *Uygulama çalışma alanlarında* anlamlı raporlar ve panolar oluşturmak üzere iş arkadaşlarınızla işbirliği yapma.
+* *Çalışma alanlarında* anlamlı raporlar ve panolar oluşturmak üzere iş arkadaşlarınızla işbirliği yapma.
 * Bu panoları ve raporları *uygulamalarda* gruplama ve bunları daha büyük bir grupta ya da kuruluş genelinde yayımlama.
 * Panoları veya raporları hizmetten ya da Power BI mobil uygulamalarından birkaç kişiyle paylaşma.
 - Raporları yazdırma.
@@ -35,25 +35,25 @@ Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansın
 
 *Power BI hizmetindeki uygulamalar*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Uygulama çalışma alanında iş arkadaşlarınızla işbirliği yapma
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Çalışma alanında iş arkadaşlarınızla işbirliği yapma
 
-Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgelere erişmesi gerekir. Power BI'daki uygulama çalışma alanları ekiplerin bir araya gelip kendileri için önemli panoların, raporların, veri kümelerinin ve çalışma kitaplarının sahipliğini ve yönetimini paylaştıkları bir yer sağlar. Bazen Power BI kullanıcıları çalışma alanlarını kurumsal yapılara göre düzenler, bazen de belirli projeler için çalışma alanı oluşturur. Diğer bazı kuruluşlar da, kullandıkları raporların veya panoların farklı sürümlerini depolamak üzere çeşitli çalışma alanları kullanır. 
+Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgelere erişmesi gerekir. Power BI'daki çalışma alanları ekiplerin bir araya gelip kendileri için önemli panoların, raporların, veri kümelerinin ve çalışma kitaplarının sahipliğini ve yönetimini paylaştıkları bir yer sağlar. Bazen Power BI kullanıcıları çalışma alanlarını kurumsal yapılara göre düzenler, bazen de belirli projeler için çalışma alanı oluşturur. Diğer bazı kuruluşlar da, kullandıkları raporların veya panoların farklı sürümlerini depolamak üzere çeşitli çalışma alanları kullanır. 
 
-Uygulama çalışma alanları, iş arkadaşlarınızın sahip olacağı izinleri belirleyen roller sağlar. Bu rolleri kullanarak çalışma alanının tamamını kimin yönetebileceğini veya yalnızca buraya içerik sağlayabileceğini belirleyebilirsiniz.
+Çalışma alanları, iş arkadaşlarınızın sahip olacağı izinleri belirleyen roller sağlar. Bu rolleri kullanarak çalışma alanının tamamını kimin yönetebileceğini veya yalnızca buraya içerik sağlayabileceğini belirleyebilirsiniz.
 
-![Uygulama çalışma alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Çalışma alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Bazı kullanıcılar doğal olarak içeriği kendi Çalışma Alanım içine yerleştirir ve oradan paylaşır. Uygulama çalışma alanları işbirliği açısından Çalışma Alanım'dan daha iyidir çünkü içerik üzerinde ortak sahiplik sağlar. Siz ve tüm ekibiniz kolayca güncelleştirmeler yapabilir ve diğer kişilere erişim verebilir. Çalışma Alanım en iyi şekilde tek tek kişiler tarafından özel veya kişisel içerik için kullanılır.
+Bazı kullanıcılar doğal olarak içeriği kendi Çalışma Alanım içine yerleştirir ve oradan paylaşır. Çalışma alanları işbirliği açısından Çalışma Alanım'dan daha iyidir çünkü içerik üzerinde ortak sahiplik sağlar. Siz ve tüm ekibiniz kolayca güncelleştirmeler yapabilir ve diğer kişilere erişim verebilir. Çalışma Alanım en iyi şekilde tek tek kişiler tarafından özel veya kişisel içerik için kullanılır.
 
-Şimdi diğer iş arkadaşlarınızla paylaşmanız gereken tamamlanmış bir panonuzun olduğunu düşünün. Onlara panoya erişim vermenin en iyi yolu hangisidir? Yanıt, bir dizi faktöre bağlıdır. Belirli bir çalışma arkadaşınızın panoya sahip olması ve panonun güncelliğini koruması veya uygulama çalışma alanındaki tüm içeriğe erişmesi gerekiyorsa, en iyisi onu çalışma alanına eklemek olabilir. Çalışma arkadaşınızın o panoyu görmesi ama çalışma alanındaki tüm içeriği görmemesi gerekiyorsa, yine bir dizi alternatiften birini seçebilirsiniz. Pano, birçok çalışma arkadaşınıza dağıtmanız gereken daha büyük bir içeriğin parçasıysa, bu durumda en iyi seçenek bir uygulama yayımlamak olabilir. Öte yandan, iş arkadaşınızın yalnızca bu tek panoya ihtiyacı varsa, izlenecek en iyi yol panoyu paylaşmak olabilir. 
+Şimdi diğer iş arkadaşlarınızla paylaşmanız gereken tamamlanmış bir panonuzun olduğunu düşünün. Onlara panoya erişim vermenin en iyi yolu hangisidir? Yanıt, bir dizi faktöre bağlıdır. Belirli bir çalışma arkadaşınızın panoya sahip olması ve panonun güncelliğini koruması veya çalışma alanındaki tüm içeriğe erişmesi gerekiyorsa, en iyisi onu çalışma alanına eklemek olabilir. Çalışma arkadaşınızın o panoyu görmesi ama çalışma alanındaki tüm içeriği görmemesi gerekiyorsa, yine bir dizi alternatiften birini seçebilirsiniz. Pano, birçok çalışma arkadaşınıza dağıtmanız gereken daha büyük bir içeriğin parçasıysa, bu durumda en iyi seçenek bir uygulama yayımlamak olabilir. Öte yandan, iş arkadaşınızın yalnızca bu tek panoya ihtiyacı varsa, izlenecek en iyi yol panoyu paylaşmak olabilir. 
 
-[Uygulama çalışma alanları oluşturma](service-create-workspaces.md) hakkında daha fazla bilgi edinin.
+[Çalışma alanları oluşturma](service-create-workspaces.md) hakkında daha fazla bilgi edinin.
 
 **Biliyor muydunuz?** Power BI yeni bir çalışma alanı deneyiminin önizlemesini sunuyor. Çalışma alanlarının gelecekte nasıl bir değişim geçireceğini görmek için [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) konusunu okuyun. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Uygulama oluşturarak verileri ve içgörüleri dağıtma
 
-Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşlarınızla birlikte bir *uygulama çalışma alanı* oluşturdunuz ve daha sonra bu uygulama çalışma alanında panolar, raporlar ve veri kümeleri oluşturup geliştirdiniz. Şimdi de istediğiniz panoları ve raporları seçip bir gruba veya tüm kuruluşa bir uygulama olarak yayımlayacaksınız. 
+Panonuzu geniş bir kitleye dağıtmak istediğinizi varsayalım. İş arkadaşlarınızla birlikte bir *çalışma alanı* oluşturdunuz ve daha sonra bu çalışma alanında panolar, raporlar ve veri kümeleri oluşturup geliştirdiniz. Şimdi de istediğiniz panoları ve raporları seçip bir gruba veya tüm kuruluşa bir uygulama olarak yayımlayacaksınız. 
 
 ![Uygulamayı yayımla simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Kullanıcılarınızın uygulamanızı görüntülemesi için bir Power BI Pro l
 Uygulamaları kuruluşunuzun dışındakilere de yayımlayabilirsiniz. Onlar uygulama içeriğini görüntüleyebilir, bunlarla etkileşimli çalışabilir ancak başkalarıyla paylaşamaz.
 
 ## <a name="share-dashboards-and-reports"></a>Panoları ve raporları paylaşma
-Çalışma Alanım bölümünde veya uygulama çalışma alanında bir panoyu ve raporu son haline getirdiğinizi ve birkaç başka kişinin de bunlara erişmesini istediğinizi düşünelim. Bunu yapmanın bir yolu, söz konusu panoyu ve raporu *paylaşmaktır*. 
+Çalışma Alanım bölümünde veya çalışma alanında bir panoyu ve raporu son haline getirdiğinizi ve birkaç başka kişinin de bunlara erişmesini istediğinizi düşünelim. Bunu yapmanın bir yolu, söz konusu panoyu ve raporu *paylaşmaktır*. 
 
 ![Paylaş simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

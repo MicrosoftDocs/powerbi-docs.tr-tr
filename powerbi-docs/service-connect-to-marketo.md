@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545701"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008638"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
@@ -59,7 +59,7 @@ Power BI'da, Marketo'nun sunduğu, günümüzle bir yıl öncesi arasındaki dö
 | Tablo adı | Açıklama |
 | --- | --- |
 | EmailActivities |Cihazlar, kategoriler, geri dönme sayısı ve yüzdesi, tıklama sayısı ve yüzdesi, açma sayısı ve yüzdesi ve program adı hakkındaki ayrıntılı bilgileri içeren, müşteri adaylarına/kişilere gönderilen e-postalarla ilgili veriler. Power BI'da gösterildiği şekilde Email Activities, yalnızca bir e-posta teslimat raporudur ve verilere ek bir mantık uygulamaz. Bu nedenle, Marketo istemcisi ile Power BI'da farklı sonuçlar görmeniz mümkündür. |
-| ProgramActivites |Durumu değişen programlar hakkındaki veriler. Neden, Başarı, Program alma sayısı ve yüzdesi ile program başarı sayısı ve yüzdesi gibi ayrıntılı bilgileri içerir. |
+| ProgramActivites |Durumu değişen programlar hakkındaki veriler. Bu, şöyle ayrıntılar içerir: Neden, Başarı, Program alma sayısı ve yüzdesi ile Program başarı sayısı ve yüzdesi. |
 | WebPageActivities |Arama aracısı, kullanıcı aracısı, web sayfası ve günün saati de dahil olmak üzere kullanıcının web sayfasına yaptığı ziyaretlerden alınan veriler. |
 | Datetable |Güncel ve geçmiş yıla ilişkin tarihler.  Marketo verilerinizi tarihe göre çözümlemenizi sağlar. |
 | Leads |Şirket, gelir boyutu, çalışan sayısı, ülke, sektör, müşteri adayı puanı ve müşteri durumu gibi müşteri adayı bilgileri. Müşteri adayları; e-posta, program ve web sayfası etkinlik verilerindeki varlıklarına göre alınır. |

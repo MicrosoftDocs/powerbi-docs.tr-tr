@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40256815"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983428"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI’da bağlayıcı genişletilebilirliği
 
@@ -42,7 +42,7 @@ Veri uzantısı güvenlik ayarlarını değiştirmek için **Power BI Desktop** 
 * (Önerilir) Yalnızca sertifikalı uzantıların yüklenmesine izin ver
 * (Önerilmez) Uzantıların uyarı olmadan yüklenmesine izin ver
 
-**Özel Bağlayıcıları** veya üçüncü taraf geliştiricilerin geliştirip dağıttığı bağlayıcıları kullanmayı planlıyorsanız **"(Önerilmez) Uzantıların uyarı olmadan yüklenmesine izin ver"** seçeneğini belirlemeniz gerekir. **Özel Bağlayıcılar** çalıştırmayı planlamıyorsanız bu güvenlik ayarını kullanmanız önerilmez.
+**Özel Bağlayıcıları** veya üçüncü taraf geliştiricilerin geliştirip dağıttığı bağlayıcıları kullanmayı planlıyorsanız **"(Önerilmez) Uzantıların uyarı olmadan yüklenmesine izin ver"** seçeneğini belirlemeniz gerekir. Özel Bağlayıcılarınızın kesinlikle güvenilir olduğunu düşünmüyorsanız bu güvenlik ayarını kullanmanız önerilmez, çünkü buradaki kod kimlik bilgilerini işleyebilir (bu bilgileri HTTP üzerinden göndermek de dahil) ve gizlilik düzeylerini yoksayabilir.
 
 **"(Önerilir)"** güvenlik ayarında sisteminizde özel bağlayıcıların bulunması durumunda bu bağlayıcıların güvenlik nedeniyle yüklenemediğini belirten bir hata görüntülenir.
 

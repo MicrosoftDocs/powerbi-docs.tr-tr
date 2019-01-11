@@ -1,5 +1,5 @@
 ---
-title: Power BI'daki özel görselleştirmeler
+title: Power BI'daki özel görseller
 description: Power BI'daki özel görselleştirmeler
 author: markingmyname
 ms.author: maghan
@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056053"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072256"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 
-Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, Power BI Desktop'ı indirdiğinizde veya Power BI hizmetini (app.powerbi.com) açtığınızda hazır olarak sunulur.
+Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)'ı indirdiğinizde veya [Power BI hizmetini](https://app.powerbi.com) açtığınızda "önceden paketlenmiş" olarak sunulur.
 
 ![görselleştirmeler](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -41,7 +40,7 @@ Geliştiriciler, iş kullanıcılarının verilerini işletme için en uygun şe
 > [!WARNING]
 > Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebilir. Özel görseli raporunuzda içeri aktarmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
 
-## <a name="organization-visuals"></a>Kuruluş görselleri
+## <a name="organizational-visuals"></a>Kuruluş görselleri
 
 Power BI yöneticileri, kuruluş içinde kullanılmasına onay verdikleri özel görselleri rapor yazarlarının kolayca keşfedip kullanabilmesi için kuruluşlarına özel görseller dağıtabilir. Bu sayede, yönetici kuruluşta dağıtmak üzere belirli özel görselleri seçme konusunda denetimin yanı sıra bu görselleri yönetmenin (örneğin sürümü güncelleştirme, devre dışı bırakma/etkinleştirme) kolay bir yoluna sahip olur. Rapor yazarı için kuruluşa özgü görselleri keşfetme ve bu görsellerin güncelleştirilmesi için sorunsuz destek almanın kolay bir yolunu sağlar.
 
@@ -74,7 +73,7 @@ Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunl
 
     ![içeri aktarılan cv](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Kuruluş görsellerini içeri aktarma
+### <a name="import-organizational-visuals"></a>Kuruluş görsellerini içeri aktarma
 
 1. Görsel Öğeler bölmesinin alt kısmındaki üç nokta simgesini seçin.
 
@@ -132,7 +131,7 @@ Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirme
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource'tan özel görsel indirme ve içeri aktarma
 
-1. [Microsoft AppSource](https://appsource.microsoft.com)'a gidin ve **Uygulamalar** sekmesini seçin. 
+1. [Microsoft AppSource](https://appsource.microsoft.com)'a gidin ve **Uygulamalar** sekmesini seçin.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Sorun giderme hakkında bilgi için [Power BI özel görsellerinizin sorunların
 ## <a name="faq"></a>SSS
 
 Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI özel görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-custom-visuals) bağlantısını ziyaret edin.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+* [Power BI'daki Görselleştirmeler](visuals/power-bi-report-visualizations.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).

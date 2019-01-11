@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180841"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072233"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI’da self servis veri hazırlığı (Önizleme)
 
@@ -92,7 +92,7 @@ Aşağıdaki tabloda, Power BI Pro hesabı kullanıldığında veri akışı öz
 |Veri akışı bağlantılı varlıklar| |        +|
 |Standartlaştırılmış Şema / Ortak Veri Modeli için Yerleşik Destek|  +|  +|
 
-
+Premium kapasitede veri akışı iş yüklerini etkinleştirme hakkında daha fazla bilgi için, Power BI Premium'un [iş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads) makalesine bakın.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI'da büyük veriler için self servis veri hazırlığının özeti
 Bu makalede daha önce belirtildiği gibi, **veri akışlarının** iş verilerinizden daha iyi denetim ve daha hızlı içgörü elde etmenize olanak tanıdığı birçok senaryo ve örnek vardır. Ortak Veri Modeli tarafından tanımlanan standart veri modelini (şema) kullanarak, veri akışları değerli iş verilerinizi içeri aktarabilir ve verilerin eskiden oluşturması aylarca hatta daha da uzun süren BI içgörülerini çok kısa bir sürede modellemeye ve oluşturmaya hazır olmasını sağlar. 

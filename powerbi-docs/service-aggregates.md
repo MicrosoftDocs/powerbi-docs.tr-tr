@@ -1,24 +1,24 @@
 ---
-title: Görselleştirmelerdeki toplama işlemleri (toplam, ortalama, maksimum vb.)
-description: Power BI'da bulunan bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirme
+title: Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
+description: Power BI hizmetinde bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirmeyi öğrenin.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026489"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983727"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Power BI görselleştirmelerindeki toplama işlemleri
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 ## <a name="what-is-an-aggregate"></a>Toplam neye denir?
 Bazı durumlarda verilerinizdeki değerleri matematiksel olarak birleştirmek istersiniz. Bu matematiksel işlem toplam, ortalama, maksimum, sayı vb. olabilir. Verilerinizdeki değerleri birleştirmek için gerçekleştirdiğiniz işleme *toplama* adı verilir. Bu matematik işleminin sonucu *toplam* olarak adlandırılır. 
 
@@ -70,16 +70,16 @@ Farklı ürünler için satılan birim sayısının toplandığı bir grafiğe s
 
 Bir alanı toplamak için kullanılabilen seçeneklerden bazıları şunlardır:
 
-* **Özetleme**. Bu seçenek belirlendiğinde, alandaki her bir alan ayrı bir şekilde ele alınır ve özetlenmez. Genellikle bu seçenek, toplanmaması gereken bir sayısal kimlik sütunu bulunduğunda kullanılır.
-* **Toplam**. Bu, alandaki tüm değerleri toplar.
+* **Özetleme**. Bu seçenek belirlendiğinde, alandaki her bir alan ayrı bir şekilde ele alınır ve özetlenmez. Toplanmaması gereken bir sayısal kimlik sütununuz olduğunda bu seçeneği kullanın.
+* **Toplam**. Bu alandaki tüm değerleri toplar.
 * **Ortalama**. Değerlerin aritmetik ortalamasını alır.
 * **Minimum**. En küçük değeri gösterir.
 * **Maksimum**. En büyük değeri gösterir.
-* **Sayı (Boş Olanları Değil).** Bu, alandaki boş olmayan değerleri sayar.
-* **Sayı (Benzersiz).** Bu, alandaki farklı değerleri sayar.
+* **Sayı (Boş Olanları Değil).** Bu alandaki boş olmayan değerleri sayar.
+* **Sayı (Benzersiz).** Bu alandaki farklı değerleri sayar.
 * **Standart sapma.**
 * **Varyans**.
-* **Ortanca**.  Ortanca (ortadaki) değeri gösterir. Bu, üstünde ve altında aynı sayıda öğe bulunan değerdir.  İki ortancanın bulunması halinde Power BI, bu değerlerin ortalamasını alır.
+* **Ortanca**.  Ortanca (ortadaki) değeri gösterir. Bu değerin üstünde ve altında aynı sayıda öğe vardır.  İki ortancanın bulunması halinde Power BI, bu değerlerin ortalamasını alır.
 
 Örneğin, aşağıdaki veriler kullanıldığında,
 
@@ -109,7 +109,7 @@ Bir alanı toplamak için kullanılabilen seçeneklerden bazıları şunlardır:
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Bir kategori (metin) alanı kullanarak toplam oluşturma
 Sayısal olmayan bir alanı da toplayabilirsiniz. Örneğin, bir ürün adı alanına sahipseniz bu alanı bir değer olarak ekleyebilir ve **Sayı**, **Ayrı sayım**, **İlk** veya **Son** olarak ayarlayabilirsiniz. 
 
-1. Bu örnekte, **Product** alanını Değerler kutusuna sürüklemeyi tercih ettik. Değerler kutusu genellikle sayısal alanlar için kullanılır. Power BI bunun bir metin alanı olduğunu anlar ve toplama işlemini **Özetleme** olarak ayarlayıp tek sütunlu bir tablo sunar.
+1. Bu örnekte, **Product** alanını Değerler kutusuna sürüklemeyi tercih ettik. Değerler kutusu genellikle sayısal alanlar için kullanılır. Power BI bu alanın bir metin alanı olduğunu anlar ve toplama işlemini **Özetleme** olarak ayarlayıp tek sütunlu bir tablo sunar.
    
    ![Değerler kutusundaki ürün alanı](media/service-aggregates/power-bi-aggregate-value.png)
 2. **Özetleme** olan varsayılan toplama işlemini **Sayı (Benzersiz)** olarak değiştirirseniz Power BI, farklı ürünleri sayar. Bu örnekte, 4 farklı ürün bulunur.
@@ -141,13 +141,13 @@ C4:  Bir eksen alanı kullanıyor olmanız da üçüncü bir olasılıktır. Ör
 >[!NOTE]
 >X ve Y eksenleri için değerlerin toplanmasını *gerektiren* dağılım grafikleri bu konuda bir istisna oluşturur.
 
-S:  SSAS veri kaynaklarının metin alanlarını neden toplayamıyorum?
+S:  SQL Server Analysis Services (SSAS) veri kaynaklarının metin alanlarını neden toplayamıyorum?
 
-C:  Canlı SSAS MD bağlantıları, istemci tarafında toplama işlemlerine izin vermez. Buna ilk, son, ortalama, minimum, maksimum ve toplam işlemleri dahildir.
+Y:  SSAS çok boyutlu modelleriyle kurulan canlı bağlantılar ilk, son, maksimum, minimum ve toplam gibi istemci tarafı toplama işlemlerine izin vermez.
 
-S:  Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Bunu nasıl yaparım?
+S:  Bir dağılım grafiğine sahibim ve alanımın *toplanmamasını* sağlamak istiyorum.  Nasıl yapabilirim?
 
-C:  Alanı, X veya Y ekseni demetlerine değil, **Ayrıntılar** demetine ekleyin.
+Y:  Alanı, X veya Y ekseni demetlerine değil, **Ayrıntılar** demetine ekleyin.
 
 S:  Bir görselleştirmeye sayısal alan eklediğimde, alanların çoğu için varsayılan işlem toplam işlemi olarak ayarlanırken bazıları için de sayı veya başka bir toplama işlemi olarak belirleniyor.  Varsayılan toplama işlemi neden aynı kalmıyor?
 

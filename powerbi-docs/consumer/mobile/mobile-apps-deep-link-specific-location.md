@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748023"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983589"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Tüm mobil platformlardaki (iOS, Android cihazlar ve Windows 10) Power BI mobil uygulamalarında belirli bir konumun bağlantısına (*ayrıntılı bağlantı*) yönelik bir tekdüzen kaynak tanımlayıcısı (URI) oluşturup kullanabilirsiniz.
@@ -69,6 +69,12 @@ Bu URI, Power BI mobil uygulamasında belirli bir raporu açar:
 36 karakterden oluşan rapor nesnesi kimliğini bulmak için Power BI hizmetindeki (https://powerbi.com)) söz konusu rapora gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+Rapor, Çalışma Alanım dışındaki bir gruptaysa rapor kimliğinin başına veya sonuna `&GroupObjectId=<36-character-group-id>` ekleyin. Örneğin, 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+İkisi arasındaki ve işaretine (&) dikkat edin.
 
 ## <a name="open-to-a-specific-report-page"></a>Belirli bir rapor sayfası ile açma
 Bu URI, Power BI mobil uygulamasında belirli bir rapor sayfasını açar:
