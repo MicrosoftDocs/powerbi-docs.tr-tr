@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: db782cea1d47dc31abf2908b82a756404fda513d
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008454"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136542"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -219,6 +219,10 @@ IError nesnesine ulaştıktan sonra kullandığınız ekleme türüne uygun olan
 
 ## <a name="content-rendering"></a>İçerik işleme
 
+### <a name="performance"></a>Performans
+
+[Power BI Embedded performansı](embedded-performance-best-practices.md)
+
 ### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>Ekli içeriği işleme veya kullanma girişimi başarısız oldu veya zaman aşımına uğradı
 
 Ekleme belirtecinin son kullanma tarihinin geçmediğinden emin olun. Ekleme belirtecinin son kullanma tarihini kontrol ettiğinizden ve yenilediğinizden emin olun. Daha fazla bilgi için bkz. [JavaScript SDK kullanarak belirteci yenileme](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
@@ -292,6 +296,8 @@ Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.p
 
 Daha fazla yardıma ihtiyacınız varsa [destek ekibine ulaşın](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) veya [Azure portal aracılığıyla bir destek bileti oluşturun](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) ve karşılaştığınız hata iletilerini belirtin.
 
-## <a name="performance"></a>Performans
+## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Embedded performansı](embedded-performance-best-practices.md)
+Daha fazla bilgi için bkz. [SSS](embedded-faq.md).
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
