@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: 6d50bde03a3b2aa7583f39336d874cd8e9075388
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 39942e0ef2bd068d2d87709bbbc6b53bf7c81f44
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026099"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284719"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.

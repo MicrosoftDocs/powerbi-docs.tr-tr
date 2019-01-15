@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136657"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284070"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 

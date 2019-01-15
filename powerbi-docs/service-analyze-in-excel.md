@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: b33fafee2ef1f217a99b870e77c3823c6783a11d
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 20faef99f710ebbc3eacebe15b5101726b895688
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025960"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279301"
 ---
 # <a name="analyze-in-excel"></a>Excel'de Çözümle
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.

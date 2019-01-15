@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4a8d04f87959c5a746fc2ac490bb63afb98607cc
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: d5e4148af774dc542ef5730c0d8a5fa0245698f7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565050"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274962"
 ---
 # <a name="histograms"></a>Histogramlar
 Power BI'da histogram oluşturmanın birkaç yolu vardır. En basitiyle başlayacağız.

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329867"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278228"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 

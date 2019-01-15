@@ -2,20 +2,20 @@
 title: "\"Kurumsal SSL sertifikasına güvenilmiyor\" hatalarını giderme"
 description: 'Power BI Android uygulamasında oturum açarken şu iletiyi görebilirsiniz: "Kurumsal SSL sertifikanıza güvenilmediği için kimlik doğrulaması yapılamadı'
 .": ''
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748162"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280804"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>"Kurumsal SSL sertifikanıza güvenilmiyor" hatasını düzeltme - Power BI
 Microsoft Power BI Android uygulamasında oturum açarken şu iletiyi görebilirsiniz: "Bu cihaz, kurumsal SSL sertifikanıza güvenmediği için kimlik doğrulaması yapılamadı. Lütfen şirketinizin BT yöneticisiyle iletişime geçin." 

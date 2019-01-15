@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 44f5c8c708becf8fc50b7cc5bc17d16241826415
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 422ff75c7f9ef569f73ffde2b75bccc5bfd89215
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669509"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296283"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
 

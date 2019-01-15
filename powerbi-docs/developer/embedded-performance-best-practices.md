@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-embedded
+ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: e28801a15cf50351d737af63bc48f655ca85d28f
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008178"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277170"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 

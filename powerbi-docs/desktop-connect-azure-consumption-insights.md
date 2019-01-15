@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281046"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282552"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
 **Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.

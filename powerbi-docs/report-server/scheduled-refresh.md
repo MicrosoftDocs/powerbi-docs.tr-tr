@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: d4eeebca1505d376a403bf18f125782efb0d656d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799545"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283886"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 Power BI raporları için zamanlanmış yenileme, bir rapora ilişkin verilerin güncel kalmasını sağlar.

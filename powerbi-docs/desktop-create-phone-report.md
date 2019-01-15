@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280915"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275330"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
 Telefon veya tabletteki mobil uygulamalarda raporlarınızı görüntüleme deneyimini geliştirebilirsiniz. Özel olarak telefonlar ve tabletler için raporun dikey bir düzenini oluşturun. Power BI Desktop’ta ve Power BI hizmetinde en iyi deneyimi elde etmek için görselleri dikey bir düzende yeniden yerleştirip yeniden boyutlandırarak raporunuzu uyarlarsınız. Tümünü eklemek zorunda değilsiniz. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler en iyi duruma getirilmiş raporda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.

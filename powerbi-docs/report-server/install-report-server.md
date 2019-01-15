@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 78d4db9d5a6b4752005bd43b31b2ca0dbaa0c1da
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180956"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292402"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 

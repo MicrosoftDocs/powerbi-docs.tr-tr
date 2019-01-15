@@ -6,17 +6,17 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53301816"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281977"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 

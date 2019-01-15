@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6b94fc6677df4725c8ea8059dbc7460f1e7d1c7
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8173e78428af5392c2a359df20a1df65b1b8b988
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670404"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275675"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop dosyalarından veri alma
 ![](media/service-desktop-files/pbid_file_icon.png)

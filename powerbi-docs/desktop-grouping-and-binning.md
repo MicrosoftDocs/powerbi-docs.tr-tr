@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: b4aeb04958ef6f4c8454a022198232d94c14b7b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025254"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284254"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop'ta gruplandırma ve gruplama özelliklerini kullanma
 **Power BI Desktop** görsel oluştururken, temel alınan verilerde bulunan değerlere bağlı olarak verilerinizi öbekler (veya gruplar) halinde toplar. Genellikle sorun çıkmaz ancak bu öbeklerin sunulma biçimini geliştirmek istediğiniz zamanlar olabilir. Örneğin, üç ürün kategorisini daha büyük bir kategoriye (bir *gruba*) yerleştirmek isteyebilirsiniz. Başka bir örnek vermek gerekirse, satış rakamlarını eşit olarak bölünmüş 923.983 dolarlık gruplar yerine 1.000.000 dolarlık gruplar halinde görmek isteyebilirsiniz.

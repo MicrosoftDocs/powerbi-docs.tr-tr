@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: b333ed96fe14ed7bbc91869e507a8e76504b6a5f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180343"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288141"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 

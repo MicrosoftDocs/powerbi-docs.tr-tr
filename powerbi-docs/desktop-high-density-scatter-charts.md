@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0f2e978713491c9042fbbae986d7ef2c943d7baa
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ec8ce2596858bb63d965ef3ec8f7465024f60f72
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670659"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290230"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme
 **Power BI Desktop**’ın Eylül 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmelerle birlikte yeni bir örnekleme algoritması kullanıma sunuldu. Bu algoritma ile yüksek yoğunluklu verilerin, dağılım grafiklerindeki gösterimi iyileştirildi.

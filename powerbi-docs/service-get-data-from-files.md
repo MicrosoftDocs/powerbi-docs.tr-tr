@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 644d863f98c7c7099a9bdda7ac714372499b0614
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: cbf0550c12fad37af528622b35584898b3a697f4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026443"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282345"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Power BI için dosyalardan veri alma
 ![](media/service-get-data-from-files/file_icons.png)

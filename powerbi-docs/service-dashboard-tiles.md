@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c4601ea54d2e55e55f0b94f4bd4c69673bb00e53
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: 4c6016119bfa41f1b6c91fff7f814474f0f806b2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649138"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294415"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 

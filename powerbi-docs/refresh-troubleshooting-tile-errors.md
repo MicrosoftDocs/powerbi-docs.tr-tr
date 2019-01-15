@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025044"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289797"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979569"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279838"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Power BI’da Matris görselini kullanma
 **Matris** görsel özelliğini kullanarak **Power BI Desktop** ve **Power BI hizmeti** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Tek veya birden fazla hücre seçimi kopyalanarak diğer uygulamalara yapıştırılabilir. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.

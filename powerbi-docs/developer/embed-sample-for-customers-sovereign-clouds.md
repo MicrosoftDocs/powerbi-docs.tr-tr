@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0a5bcd470756d27f6528684cc351bd60590385df
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180634"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296398"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Öğretici: Bir Power BI panosunu, kutucuğunu veya raporunu bağımsız bulut uygulamanıza ekleme
 

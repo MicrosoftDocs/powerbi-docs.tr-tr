@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726835"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289820"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
 

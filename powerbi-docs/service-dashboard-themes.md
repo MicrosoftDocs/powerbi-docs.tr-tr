@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3e1c08e2dd9515ea49279cbd5c331d358b3b9ed4
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452580"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282912"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI hizmetinde Pano Temaları kullanma
 **Pano Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) panonuzun tamamına uygulayabilirsiniz. Bir **Pano Teması** uyguladığınızda panonuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f98d4c5e7b7cc02c9a08d982edb88b2e129f51e6
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186882"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283978"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta rapor kaydetme
 Bir Power BI raporunda değişiklik yaptıktan sonra raporu kaydedebilir, yeni bir adla kaydedebilir veya değişikliklerinizi kaydetmeden kapatabilirsiniz. Raporu açtığınızı, bir görselleştirme oluşturduğunuzu ve panonuza sabitlediğinizi düşünelim. Değişikliklerinizi kaydetmeden kapatırsanız kutucuk panoda kalır ancak görselleştirme rapora kaydedilmez. Panodaki kutucuğa tıkladığınızda rapor açılır ancak görselleştirme raporda bulunmaz.

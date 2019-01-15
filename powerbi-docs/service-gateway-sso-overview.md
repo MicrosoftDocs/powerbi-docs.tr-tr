@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580506"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274226"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 

@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281074"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296605"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *rapor tasarımcıları* tarafından oluşturulur ve [*tüketicilerle* doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 

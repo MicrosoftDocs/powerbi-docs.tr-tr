@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619690"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275123"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop’ta PDF dosyalarına bağlanma (Önizleme)
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **PDF dosyasına** bağlanabilir ve dosyadaki verileri kullanabilirsiniz.

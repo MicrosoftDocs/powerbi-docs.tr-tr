@@ -7,16 +7,15 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-developer
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056191"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280229"
 ---
 # <a name="certified-custom-visuals"></a>Sertifikalı özel görseller
 

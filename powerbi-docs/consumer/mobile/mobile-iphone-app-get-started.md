@@ -1,20 +1,20 @@
 ---
 title: iOS için Power BI mobil uygulaması ile çalışmaya başlama
 description: iOS uygulaması için Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748882"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281793"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  

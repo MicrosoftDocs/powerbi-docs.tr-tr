@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 9d1e326e9b2481c4b5dc4ab61a0bd49d477fc592
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025592"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274893"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Verileri doğrudan Power BI Desktop'a girme
 Power BI Desktop ile verileri doğrudan girebilir ve bunları raporlarınızın yanı sıra görselleştirmelerinizde kullanabilirsiniz. Örneğin, bir çalışma kitabının veya web sayfasının bölümlerini kopyalayıp Power BI Desktop'a yapıştırabilirsiniz.

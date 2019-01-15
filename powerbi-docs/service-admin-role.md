@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a7d8fc977cdacd8f0409c1ac0fa3c78e66282b67
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736907"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287598"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI hizmet yöneticisi rolünü anlama
 

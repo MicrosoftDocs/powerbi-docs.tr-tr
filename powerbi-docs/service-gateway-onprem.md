@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "52268355"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287911"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 

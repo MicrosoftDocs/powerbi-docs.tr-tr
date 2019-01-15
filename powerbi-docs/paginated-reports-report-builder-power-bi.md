@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282852"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir? (Önizleme)
 SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Bu raporlar yazdırılabilir veya paylaşılabilir. "Sayfalandırılmış" olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğiniz için bazı durumlarda "piksel düzeyinde hassas" olarak anılırlar. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. 

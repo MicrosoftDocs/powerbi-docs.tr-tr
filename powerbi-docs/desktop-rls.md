@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/03/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: a6d5e768cfb2f42f6abbcf21ee75529ac74f0a62
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 7cdbb86bafa2d5a532a4ceeeef9f28f5ba22e204
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578118"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280160"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop ile satır düzeyi güvenlik (RLS)
 

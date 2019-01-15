@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180979"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275560"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 

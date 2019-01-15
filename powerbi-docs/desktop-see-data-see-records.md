@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: df4a77550de49f74e863ed07321525b1acdf2d86
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 495a33cbb8359a366008b7401988a5f2a24d09ee
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669785"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289038"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop görsellerinde Verileri Görüntüle ve Kayıtları Görüntüle özelliklerini kullanma
 **Power BI Desktop**'ta bir görselleştirmenin detayına gidebilir ve seçilen görsel için temel alınan verilerin metinsel temsilini veya tek tek veri öğelerini görebilirsiniz. Bu özellikler bazen *geçişli tıklama*, *detaylandırma* veya *ayrıntıları görüntüleme* olarak adlandırılır.

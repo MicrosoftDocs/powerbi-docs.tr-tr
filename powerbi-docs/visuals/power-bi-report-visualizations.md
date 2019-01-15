@@ -7,16 +7,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 73350a579096e4126ea2f65654a7d1ed7a4980c1
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072279"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292879"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 

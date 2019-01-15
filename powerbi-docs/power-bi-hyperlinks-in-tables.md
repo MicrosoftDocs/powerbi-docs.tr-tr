@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180565"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279907"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Tabloya köprü ekleme
 Bu konu başlığı altında, Power BI Desktop'ın köprü oluşturmak için nasıl kullanılacağı açıklanmaktadır. Daha sonra bu köprüleri rapor tablolarınıza ve matrislerinize eklemek için Desktop’ı veya Power BI hizmetini kullanabilirsiniz. 

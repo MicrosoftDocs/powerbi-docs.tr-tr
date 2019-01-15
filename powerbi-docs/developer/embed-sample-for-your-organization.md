@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53301862"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283656"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için bir uygulamaya Power BI raporu, pano veya kutucuk ekleme
 

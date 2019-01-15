@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 43d15529353f17733923d2b2a73b336d7d4ee6e0
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f813822b269a51e55947d73c5107675cbe428d96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52981526"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293822"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Kendinizi ve iş arkadaşlarınızı en fazla önem verdiğiniz rapor sayfalarına ve panolara abone yaptığınızda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla (günde bir ila haftada bir) almak istediğinizi seçebilirsiniz. 

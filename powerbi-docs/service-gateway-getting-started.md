@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34754921"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274732"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI ağ geçitleri nelerdir?
 

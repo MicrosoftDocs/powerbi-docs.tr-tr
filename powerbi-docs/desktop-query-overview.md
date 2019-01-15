@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e856a1e0b8fd164aa8e4224eca3fc7370e3ff8aa
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 85429f76159854bf5eb4e2dc671b2d2bc1521dbf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670452"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277055"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 **Power BI Desktop** ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.

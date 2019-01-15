@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: Conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280018"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280114"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre sıralanmıştır.

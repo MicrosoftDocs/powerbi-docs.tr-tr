@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 543a2bafe884a313e4ab392f617ed91026c97207
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180657"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277745"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme (Önizleme)
 

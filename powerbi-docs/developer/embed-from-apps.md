@@ -5,16 +5,16 @@ author: markingmyname
 ms.author: maghan
 ms.topic: how-to
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 4125f44165fbbc063b782290b7c67da9993d5157
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452534"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286324"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Uygulamalardan rapor veya pano ekleme
 

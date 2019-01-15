@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b76a0910a18c3239dc6c35597ebea8b085afcd48
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983865"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296697"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
@@ -118,7 +118,7 @@ Panolar neden oluşturulur?  Nedenlerden bazıları şunlardır:
 * karar vermek için gereken tüm bilgileri tek bir bakışta görmek.
 * işinizle ilgili en önemli bilgileri izlemek.
 * tüm iş arkadaşlarının aynı doğrultuda ilerlediğinden, aynı bilgileri görüntülediğinden ve kullandığından emin olmak.
-* bir işletme, ürün, iş birimi veya pazarlama kampanyası vb. için durumu izlemesi yapmak.
+* bir işletme, ürün, iş birimi veya pazarlama kampanyası vb. için durumu izlemesi yapmak
 * geniş bir panonun kişiselleştirilmiş (sizin için önemli olan tüm ölçümleri içeren) bir görünümünü oluşturmak.
 
 Bir çalışma alanını açtığınızda ilişkilendirilmiş panolar, **Panolar** sekmesinde listelenir. Bir panoyu açmak için seçin. Bir uygulamayı açtığınızda bir pano görüntülenir.  Her bir pano, temel alınan veri kümelerinin belirli bir alt kümesine ilişkin özelleştirilmiş bir görünümü temsil eder.  Pano size aitse temel alınan veri kümelerinde de düzenleme erişimi sahibi olursunuz.  Pano sizinle paylaşıldıysa panoyla ve temel alınan raporlarla etkileşim kurabilirsiniz ancak yaptığınız değişiklikleri kaydedemezsiniz.
@@ -172,8 +172,8 @@ Gezinti bölmesini kullanarak çalışma alanlarınızı ve Power BI yapı taşl
 
 Şu öğelere tek tıklayın:
 
-* içerik görünümde açmak için bir simge veya başlık
-* Sık Kullanılanlar, Son Görüntülenen ve Çalışma Alanları menüsünü açmak için sağ ok simgesi (>).
+* bir simgeyi veya başlığı içerik görünümünde açabilirsiniz
+* sağ ok simgesinden (>) Sık Kullanılanlar, Son Görüntülenen ve Çalışma Alanları menülerini açabilirsiniz.
 * **Çalışma Alanım**'daki kaydırılabilir pano, rapor, çalışma kitabı ve veri kümesi listesini görüntülemek için köşeli çift ayraç simgesi.
 
 ### <a name="2-canvas"></a>2. **Tuval**

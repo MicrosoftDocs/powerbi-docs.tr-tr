@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0150e4e62fffd116b144880ab4aecc81de0b2c49
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 528d31a72d2c78b0a00f853d2df82f3a4eb04eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435584"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295355"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI ve Azure çıkışı
 

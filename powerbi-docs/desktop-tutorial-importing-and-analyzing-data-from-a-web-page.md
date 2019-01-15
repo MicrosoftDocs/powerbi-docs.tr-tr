@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0c712807ad5fd855986c3929a760c2542b33f01f
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 35bbb9e7360aa0dee6c16423977e5118625bf7b9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026648"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276756"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
 

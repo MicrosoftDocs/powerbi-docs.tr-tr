@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072256"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289306"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 

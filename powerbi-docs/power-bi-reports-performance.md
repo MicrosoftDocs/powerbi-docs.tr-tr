@@ -6,16 +6,16 @@ ms.author: kfile
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2e667f6a6b037e2bb0f4b7543f2e7d90617050
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329775"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287796"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans açısından en iyi Power BI yöntemleri
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dda67ad247696e9a0dcc8a92f59d4902cabaf7e1
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: d5c6acfb069e026e96dd9944e8001002548b83f8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578900"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275521"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop'taki Analiz Bölmesini Kullanma
 **Power BI Desktop**'taki **Analiz** bölmesini kullanarak görsellere *dinamik başvuru çizgileri* ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. **Analiz** bölmesi, Power BI Desktop’ın **Görselleştirmeler** alanında bulunur.

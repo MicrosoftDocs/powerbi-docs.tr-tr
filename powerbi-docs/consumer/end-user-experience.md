@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: c9f03e9b54387a1e0454a8f236734133e154b09a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280823"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292557"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 

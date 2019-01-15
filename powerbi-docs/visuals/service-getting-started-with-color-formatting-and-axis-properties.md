@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: baa09e190bc33dfd99bcd80d8705ed6ec71d3a1d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564896"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274525"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
 **Power BI**'da veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca, panolarınızın ve raporlarınızın görünümünü denetlemenize olanak sağlayan x ve y eksenlerinin görünümünü de değiştirebilirsiniz.

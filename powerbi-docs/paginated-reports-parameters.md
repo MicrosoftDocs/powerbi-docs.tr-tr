@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: cd8a98a9c07b1dfb349a82ffaceb2f5ee9492adc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900302"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286278"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma (Önizleme)
 

@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 732e3fcc05ee48135fb0b62d462ef8abcfae96be
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: f0dad05569bdebcd83a57a396d0edead5a741353
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280524"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279884"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panoların Power BI hizmeti tüketicileri için anlamı
 

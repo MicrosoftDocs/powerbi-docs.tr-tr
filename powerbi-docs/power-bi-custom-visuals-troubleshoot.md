@@ -6,16 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: 264794346a046ceb85c67f77d2fe6d80556d342d
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 252b980b3a10bbafc29c36ad249b23166fb514f1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056007"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286577"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI özel görselleriyle ilgili sorunları giderme
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266105"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295848"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -26,7 +26,7 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
 | [Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Kasım 2017 |
 | [Plan capacity for embedded analytics with Power BI Premium (Power BI Premium ile katıştırılmış analize yönelik plan kapasitesi)](https://aka.ms/pbiewhitepaper) |Bu makalede, işine en uygun kapasiteyi belirlemesi için uygulama geliştiriciye/ISV'ye yönelik rehberlik sunulmaktadır. | Ekim 2017 |
-| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://aka.ms/pbienterprisedeploy) |Bu, iyi performans gösteren ve güvenli bir Power BI kuruluş dağıtımına yönelik önemli noktaları açıklayan bir teknik incelemedir. | Temmuz 2018 |
+| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://go.microsoft.com/fwlink/?linkid=2057861) |Bu, iyi performans gösteren ve güvenli bir Power BI kuruluş dağıtımına yönelik önemli noktaları açıklayan bir teknik incelemedir. | Temmuz 2018 |
 | [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. | Mart 2018 |
 | [Security (Güvenlik)](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. | Temmuz 2018 |
 | [Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)](https://aka.ms/powerbi-b2b-whitepaper)|Bu makalede, İşletmeler Arası Azure Active Directory (AAD B2B) tümleştirmesi kullanılarak kuruluş dışındaki kullanıcılara nasıl içerik dağıtılacağı açıklanmaktadır.| Mart 2018 |

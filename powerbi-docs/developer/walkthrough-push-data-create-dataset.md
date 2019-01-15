@@ -5,19 +5,19 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 004f1b16474f738f8354585c83cd7707799e6dbb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092541"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288601"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. Adım: Power BI'da veri kümesi oluşturma
-Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
+Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Bir veri kümesine veri gönderme kılavuzunun [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) başlıklı **2. Adım**'ında, **Azure AD**'de kimlik doğrulaması gerçekleştirmek için bir belirteç alırsınız. Bu adımda, [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırmak için belirteci kullanırsınız.
 

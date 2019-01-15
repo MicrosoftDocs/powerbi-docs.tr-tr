@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 87783b928fdec1cadf5318ae184858c37daa4acc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331829"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279263"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Power BI Soru-Cevap’ı kullanmaya başlama
 

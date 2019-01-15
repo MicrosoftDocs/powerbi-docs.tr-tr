@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: 19a45a1cf61ae3286f66528d38d830b3649b1d00
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136634"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280022"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 

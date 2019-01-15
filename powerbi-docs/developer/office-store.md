@@ -6,16 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: edc79ec9d8703b44332fb4fdfb583031275bfc3f
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056145"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281517"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 

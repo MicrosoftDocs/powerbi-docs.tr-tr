@@ -6,17 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7bf7b5ae6fc68977d98660f69a02e38c6a8750d2
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072210"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290487"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI'da R tarafından sağlanan özel görselleri kullanma
 

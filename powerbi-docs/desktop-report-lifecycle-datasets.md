@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3679a2f3ab98e1f54ead364e4ef4bf65d382a9d5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578601"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275583"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.

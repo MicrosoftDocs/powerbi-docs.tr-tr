@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3070f18afcf66c79bdad71d2b1a912d24891f773
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: f1e2e5a863f1fa4c663cc4614b9a674ccd96f312
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279742"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279079"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar
 Power BI şu tarayıcılarda çalıştırılabilir:

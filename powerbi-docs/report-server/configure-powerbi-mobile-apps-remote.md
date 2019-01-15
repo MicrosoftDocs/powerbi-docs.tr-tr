@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451387"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293592"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 

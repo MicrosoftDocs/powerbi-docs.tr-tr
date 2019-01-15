@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f855ff38d7c3f82fe4fa0456deb8a22ce6379e0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 178f3cd9015af503ff12875548822ba1ab5365c3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669923"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54272778"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop'taki İlişki Görünümü
 **İlişki Görünümü**, modelinizdeki tüm tabloları, sütunları ve ilişkileri gösterir. Bu görünüm özellikle birçok tablo arasında karmaşık ilişkiler bulunduğunda kullanışlı olabilir.

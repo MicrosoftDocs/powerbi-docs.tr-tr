@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ffcf75e6aed34ca93d7f55b29aa4dd343786bad3
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984799"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292812"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 ## <a name="show-data"></a>Verileri göster

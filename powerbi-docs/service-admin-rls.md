@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296168"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 624ae3c62c4a69886da5a190ac6580e526e50f14
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900325"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274571"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor görüntüleme (Önizleme)
 

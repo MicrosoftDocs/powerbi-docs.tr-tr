@@ -5,23 +5,22 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 8006e3ff2849e98aed8b25e667d430af9407ede2
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008569"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54238980"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI öncelikle kimlik bilgilerinizi kullanarak hizmete bağlanır, ardından, verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir pano ve Power BI raporları içeren bir Power BI uygulaması oluşturur.
 
 
-[Bağlantı kurabileceğiniz tüm hizmetleri](https://app.powerbi.com/getdata/services) görüntülemek için Power BI'da oturum açın. Power BI ekibi düzenli olarak yeni hizmetler eklemektedir.
+[Bağlantı kurabileceğiniz tüm hizmetleri](https://app.powerbi.com/getdata/services) görüntülemek için Power BI'da oturum açın. 
 
 ![AppSource uygulamaları](media/service-connect-to-services/overview.png)
 

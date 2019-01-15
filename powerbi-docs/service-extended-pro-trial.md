@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2616db7825fd45254df4ac1fbcced1b2f58c8351
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: b524f1b995a3eb67147a16617f3451f5e2cae44b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900601"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289544"
 ---
 # <a name="extended-pro-trial-activation"></a>Uzatılmış Pro Deneme Sürümünü etkinleştirme
 

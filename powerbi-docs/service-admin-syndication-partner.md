@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "52157414"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296493"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 

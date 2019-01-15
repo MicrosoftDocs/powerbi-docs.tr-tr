@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8ad0798b6979c2647b47f15aea572c2f3f4130e9
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984800"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284116"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop ile Power BI hizmetini karşılaştırma
 

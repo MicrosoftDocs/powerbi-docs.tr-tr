@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546016"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289613"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme
 Bu eğitimde, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz.   Görselleştirmelerinizi özelleştirmeye yönelik pek çok seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu, Biçimlendirme bölmesini keşfetmektir (boya rulosu simgesini seçerek).  Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.  

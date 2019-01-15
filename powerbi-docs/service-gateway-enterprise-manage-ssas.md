@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238112"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285059"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Analysis Services veri kaynağını zamanlanmış yenileme veya canlı bağlantılar için kullanabilirsiniz.

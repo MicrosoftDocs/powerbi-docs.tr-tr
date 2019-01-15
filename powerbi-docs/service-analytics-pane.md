@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f3653404bb89674ce838cc326daefbaeaab4c8b8
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 842d29978fa6a4a714b42b1665112661e0704357
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830206"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293753"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI hizmetinde görseller için dinamik başvuru çizgileri oluşturma
 

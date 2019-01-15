@@ -1,20 +1,20 @@
 ---
 title: Windows 10 için Power BI mobil uygulamasında SSRS mobil raporlarını ve KPI'lerini görüntüleme
 description: Windows 10 için Power BI mobil uygulaması, önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 12a2816937c9883ca5fe4d64367c439ef897cd2d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748723"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289383"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI mobil uygulamasında Reporting Services (SSRS) mobil raporlarını ve KPI'lerini görüntüleme
 Windows 10 için Power BI mobil uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 

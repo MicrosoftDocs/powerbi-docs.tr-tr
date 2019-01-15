@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451456"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290349"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.

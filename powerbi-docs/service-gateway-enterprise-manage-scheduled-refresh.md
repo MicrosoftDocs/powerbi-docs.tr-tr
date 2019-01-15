@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 8f45fbed0b2c4e5de62f8ef18ee9a552bf05486b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937339"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293798"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, DirectQuery veya canlı bağlantılardan farklı olarak, zamanlanmış yenileme için kullanılan veri kaynakları ve ağ geçitleri ile nasıl çalışılacağı incelenecektir.

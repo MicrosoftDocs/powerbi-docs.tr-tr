@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3f3ea50ec31ec3a3ca746bb433509e520ef3fc5e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 408009ad87f02808edac6f382f708f336dff02be
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669302"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287474"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Power BI Desktop kullanılırken görsellerde çoklu seçim veri öğeleri
 

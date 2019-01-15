@@ -4,18 +4,18 @@ description: Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar v
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 11/19/2018
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e585c573e9df1e0189eebb67914b2fa168b9b45
-ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
+ms.openlocfilehash: e9d1d1b40116d05e4a6ecb72e6efcd6a0bd27209
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53111531"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277515"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 

@@ -6,17 +6,17 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 175e4409022192b7e34c4670b2738fc56166a122
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180703"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288992"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded nedir?
 

@@ -5,17 +5,17 @@ author: cpopell
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: a5774fe6979516a0fe70364fea5dd91b7a2a48ae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983428"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275744"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI’da bağlayıcı genişletilebilirliği
 

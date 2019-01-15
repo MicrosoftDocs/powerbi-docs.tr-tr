@@ -4,17 +4,17 @@ description: Power BI Premium kapasite bellek kullanımını ve en iyi duruma ge
 ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: efb0f1dfd340c0defcba8a67e0e46051d0d9be25
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266082"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293868"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
 
@@ -55,7 +55,7 @@ Kapasitedeki herhangi bir veri kümesine yönelik etkileşimli bir sorgu düzenl
 
 ### <a name="workloads"></a>İş Yükleri
 
-Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Şimdi iki iş yükü için daha önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Etkinleştirilmesi durumunda bu iş yükleri kapasitenizdeki bellek kullanımını etkileyebilir. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
+Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Şimdi iki ek iş yükü için önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Etkinleştirilmesi durumunda bu iş yükleri kapasitenizdeki bellek kullanımını etkileyebilir. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium kapasitede CPU kaynak yönetimi
 

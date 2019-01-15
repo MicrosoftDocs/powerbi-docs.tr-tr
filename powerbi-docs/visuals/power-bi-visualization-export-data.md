@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8d79d92577da25a316eba8e789a1b7b004a9967a
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 06ff1326c902c723614b3b89c0b5c1217fa06ea3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983773"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295705"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 Bir görselleştirmenin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilir](service-reports-show-data.md) ya da bir .xlsx veya .csv dosyası olarak Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği Pro veya Premium lisansına ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. 

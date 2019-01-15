@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0d614b6028fa4d7e11ac5bf82e05d44a95e4f234
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 83032e97d9d6b2628d7adfefa95996cff469c4f5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280869"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277862"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Öğretici: Power BI hizmetinde veri uyarısı oluşturma
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. 

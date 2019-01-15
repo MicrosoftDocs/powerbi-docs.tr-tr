@@ -5,17 +5,17 @@ author: MI77
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/14/2018
 ms.author: willthom
 LocalizationGroup: Learn more
-ms.openlocfilehash: fe77d15634ce14d083884b09a7157f79e315f196
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 9051ec4ea5bb9f60637e389bd77defb5590604c6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256918"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281287"
 ---
 # <a name="power-bi-desktop-privacy"></a>Power BI Desktop Gizliliği
 

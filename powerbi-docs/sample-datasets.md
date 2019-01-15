@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ae1aa4bb5a345d72a33d3d859a6a47de6c27b0ed
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180910"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291545"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Bir veri kümeniz olsa da (henüz) Power BI'ın nasıl çalıştığını bilmediğinizden veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.

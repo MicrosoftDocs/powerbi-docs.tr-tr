@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657909"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280321"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Görsel öğeler kullanarak Power BI raporlarını geliştirme
 
