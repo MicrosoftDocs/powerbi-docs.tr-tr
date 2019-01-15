@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
 LocalizationGroup: Embedded
-ms.openlocfilehash: 5dbbd8b14dcd473335e2ad5293e66ab6a16b73e7
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252365"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280436"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded için Multi-Geo desteği (Önizleme)
 

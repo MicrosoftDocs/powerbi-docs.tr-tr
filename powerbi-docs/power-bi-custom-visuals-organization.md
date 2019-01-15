@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6622625f27f62d9d8ffc35ecfddf4550f2a7e16e
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 49761008ca4f5c62d0f5b7745fb2971e5b9608d6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072164"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279309"
 ---
 # <a name="organizational-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görselleri
 

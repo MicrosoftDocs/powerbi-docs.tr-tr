@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180680"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277814"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)
 

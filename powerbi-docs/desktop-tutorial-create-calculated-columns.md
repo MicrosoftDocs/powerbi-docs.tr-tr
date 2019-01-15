@@ -1,23 +1,23 @@
 ---
-title: "Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
-description: "Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
+title: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
+description: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 296281f3077d805140b6759ab818be1daaca8a85
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: bfd892864b624bc992f77afa3b5ba887344d2eea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578693"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287773"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta, hesaplanmış sütun oluşturma
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
 
 Bazen çözümlediğiniz veriler, istediğiniz sonuçlar için ihtiyaç duyduğunuz bir alanı içermeyebilir. *Hesaplanmış sütunlar* bunun için vardır. Hesaplanmış sütunlar bir sütunun değerlerini tanımlamak, birkaç farklı sütundan metin değerlerini bir araya getirmek veya diğer değerlerden bir sayısal değer hesaplamak gibi her türlü işlem için Veri Çözümleme İfadeleri (DAX) formüllerini kullanır. Örneğin, verilerinizde **City** ve **State** alanları var ancak "Miami, FL" gibi her iki alanı da içeren tek bir **Location** alanınızın olmasını istiyorsunuz. Bu tam olarak hesaplanmış sütunların işidir.
 

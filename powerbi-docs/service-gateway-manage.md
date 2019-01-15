@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026397"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277009"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI şirket içi ağ geçidini yönetme
 

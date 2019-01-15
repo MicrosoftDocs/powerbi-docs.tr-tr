@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 637005f8783dd5f839081f7ad63e25bc5d2f395d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336864"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282414"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Power BI Desktop'ta dilimleyicileri kullanma
 

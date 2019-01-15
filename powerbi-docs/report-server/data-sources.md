@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310464"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291775"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -164,7 +164,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | Azure HDInsight Spark (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Common Data Service (Beta) |Hayır |Hayır |Hayır |Hayır |
 | comScore Digital Analytix (Beta) |Hayır |Hayır |Hayır |Hayır |
-| Customer Insights için Dynamics 365 (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Dynamics 365 for Customer Insights (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Dynamics 365 for Financials (Beta) |Hayır |Hayır |Hayır |Hayır |
 | GitHub (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Google BigQuery (Beta) |Hayır |Hayır |Hayır |Hayır |
@@ -172,7 +172,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | IBM Netezza (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Kusto (Beta) |Hayır |Hayır |Hayır |Hayır |
 | MailChimp (Beta) |Hayır |Hayır |Hayır |Hayır |
-| Microsoft Azure Tüketim Öngörüleri (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Microsoft Azure Consumption Insights (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Mixpanel (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Planview Enterprise (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Projectplace (Beta) |Hayır |Hayır |Hayır |Hayır |

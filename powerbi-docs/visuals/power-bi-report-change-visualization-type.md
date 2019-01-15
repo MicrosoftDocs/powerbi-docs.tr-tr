@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 201e4e75c9a1ce0d05c85112457191a8d306c596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547050"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287037"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Bir Power BI raporundaki görselleştirmenin türünü değiştirme
 Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI hizmetindeki ve Power BI Desktop'taki farklı görselleştirme türlerini deneyin. 

@@ -72,6 +72,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Power BI veri kaynağı önkoşulları
       href: desktop-data-source-prerequisites.md
+    - name: Power BI’da çok boyutlu modellerde varsayılan üye
+      href: desktop-default-member-multidimensional-models.md
     - name: Özel görseller hakkında SSS
       href: power-bi-custom-visuals-faq.md
   - name: Nasıl yapılır?
@@ -104,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Power BI'da öğeleri veri olmadan gösterme
+      href: desktop-show-items-no-data.md
     - name: Verilere bağlanma
       items:
       - name: Power BI Desktop'taki veri kaynakları
@@ -864,8 +868,10 @@ items:
       items:
       - name: Performans açısından en iyi yöntemleri
         href: developer/embedded-performance-best-practices.md
-      - name: Satır düzeyi güvenlik (RLS)
+      - name: Satır düzeyi güvenlik
         href: developer/embedded-row-level-security.md
+      - name: Birden çok kiracıyı yönetme
+        href: developer/embed-multi-tenancy.md
       - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
         href: developer/azure-pbie-diag-logs.md
       - name: Ekleme hakkında SSS
@@ -1287,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
-ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
+ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54211379"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54239302"

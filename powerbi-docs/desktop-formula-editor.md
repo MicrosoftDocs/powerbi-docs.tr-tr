@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: db5ae6779c0c843070df030c9c225a316b35df00
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f25693bb7ceb7a27207cc6a57c973b2c502f829a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337270"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276173"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop’ta formül düzenleyicisi
 

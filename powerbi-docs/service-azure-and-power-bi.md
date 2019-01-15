@@ -6,16 +6,16 @@ ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 3eca6d1ae7aaef507d1ee51889c0c617ff33f9e9
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101198"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277722"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 

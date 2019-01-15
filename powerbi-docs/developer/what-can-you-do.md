@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: a32bdceb317f2d6a2f5945dc3911f683a306605e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223156"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282483"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
 

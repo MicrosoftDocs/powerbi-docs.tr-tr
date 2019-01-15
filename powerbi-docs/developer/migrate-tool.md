@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388652"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290434"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 Power BI Embedded Azure hizmetindeki (PaaS) raporlarınızı Power BI hizmetine (SaaS) kopyalamak için bu geçiş aracından faydalanabilirsiniz.
@@ -137,7 +137,7 @@ Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için ku
 > 
 > 
 
-## <a name="step-2-download"></a>2. Adım: İndirme
+## <a name="step-2-download"></a>2. Adım: İndir
 **Download** (İndir) sekmesinde rapor listesini ve ilgili meta verileri göreceksiniz. Geçerli dışarı aktarma durumunu ve önceki dışarı aktarmanın sonucunu da görebilirsiniz.
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için ku
 
 İndirme işlemi tamamlandıktan sonra **Create Groups** (Grup Oluştur) sekmesini seçin.
 
-## <a name="step-3-create-groups"></a>3. Adım: Grup Oluşturma
+## <a name="step-3-create-groups"></a>3. Adım: Grup Oluştur
 Kullanılabilir raporları indirdikten sonra **Create Groups** (Grup Oluştur) sekmesine gidebilirsiniz. Bu sekme oluşturduğunuz geçiş planına bağlı olarak Power BI hizmetinde uygulama çalışma alanları oluşturur. Uygulama çalışma alanını **Analyze & Plan Migration** (Analiz Etme ve Geçişi Planlama) sekmesindeki **Upload** (Yükle) sekmesinde belirlediğiniz adla oluşturur.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ Uygulama çalışma alanının oluşturulduğunu doğrulamak için Power BI otur
 
 Çalışma alanı oluşturulduktan sonra **Upload** (Yükleme) sekmesine geçebilirsiniz.
 
-## <a name="step-4-upload"></a>4. Adım: Yükleme
+## <a name="step-4-upload"></a>4. Adım: Karşıya Yükle
 **Upload** (Yükleme) sekmesi raporları Power BI hizmetine yükler. Download (İndirme) sekmesinde indirilen raporların yanı sıra geçiş planınıza göre hedef grup adlarını görürsünüz.
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

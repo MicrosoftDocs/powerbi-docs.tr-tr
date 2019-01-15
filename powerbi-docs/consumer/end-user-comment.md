@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 96c4014dbb38b84fb7e682dafaa0fab3338d6669
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 45ea01fb575ae7134177fe548279d36b7792b27a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280156"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289199"
 ---
 # <a name="add-comments-to-a-visualization"></a>Görselleştirmeye açıklama ekleme
 Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla görselleştirme hakkında bir konuşma başlatın. **Açıklama** özelliği, *tüketicinin* görselleştirmeyle etkileşimli çalışma yollarından yalnızca biridir. 
