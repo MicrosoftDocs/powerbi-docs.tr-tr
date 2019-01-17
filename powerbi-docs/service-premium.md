@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281977"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324032"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 
-Microsoft Power BI Premium, kuruluşunuz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, içerik tüketicileri için kullanıcı başına Pro lisans satın almanız gerekmeden içeriğin geniş kapsamlı dağıtımına da olanak sağlar. Satın alma hakkında daha fazla bilgi için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md).
+Microsoft Power BI Premium, kuruluşunuz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, içerik tüketicileri için kullanıcı başına Pro lisans satın almanız gerekmeden içeriğin geniş kapsamlı dağıtımına da olanak sağlar. Satın alma hakkında daha fazla bilgi için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md).   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,24 +41,21 @@ Aşağıdaki görüntüde Contoso kuruluşu örneğiyle Premium kapasite ile pay
 
 Paylaşılan kapasitede, Power BI tüm kullanıcılar için kaliteli bir deneyim sağlamak üzere her kullanıcıya daha fazla sınırlama getirir. Varsayılan olarak *Çalışma alanım* ve Uygulama çalışma alanlarının da bulunduğu çalışma alanınız, paylaşılan kapasitede yer alır.
 
-Aşağıdaki tabloda paylaşılan kapasite ve Premium kapasite arasındaki farkların bir özeti verilmiştir.
+Aşağıdaki tabloda paylaşılan kapasite ve Premium kapasite arasındaki farkların bir özeti verilmiştir:
 
 |  | Paylaşılan kapasite | Power BI Premium kapasitesi |
 | --- | --- | --- |
 | **Yenileme sıklığı** |Günde 8 kez |48/gün |
-| **Ayrılmış donanımla yalıtım** |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
-| _**Tüm kullanıcılara**_ **yönelik Kurumsal Dağıtım** | | |
-| Uygulamalar ve paylaşım |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
-| Katıştırılmış API ve denetimler |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png)<sup>2</sup> |
-| **Power BI raporlarını şirket içinde yayımlama** |![Kullanılamaz](media/service-premium/not-available.png) |![Kullanılabilir](media/service-premium/available.png) |
+| Ayrılmış donanımla yalıtım |![Kullanılamaz](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| *Tüm kullanıcılara* yönelik Kurumsal Dağıtım | | |
+| Uygulamalar ve paylaşım |![Kullanılamaz](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| Katıştırılmış API ve denetimler |![Kullanılamaz](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| Power BI raporlarını şirket içinde yayımlama |![Kullanılamaz](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> Daha fazla bilgi için bkz. [Lisans türüne göre özellikler](service-features-license-type.md).*  
-*<sup>2</sup> Power BI Premium'da daha fazla geliştirme sunulacaktır.*
+<a name="fnt1">1</a> Power BI Premium'da daha fazla geliştirme sunulacaktır.
 
-Çalışma alanlarını premium kapasiteye atama hakkında daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Premium kapasite düğümleri
 
@@ -68,22 +65,19 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 * EM düğümleri ise yalnızca tümleşik dağıtımlar için kullanılabilir. EM düğümlerinin, Power BI Pro lisansına sahip olan kullanıcılarla uygulamaları paylaşma gibi üst düzey özelliklere erişimi yoktur.
 
->[!NOTE]
->Bu tablodaki bağlantılar yalnızca Office 365 Genel Yöneticisi rolüne sahip olan kullanıcılar için düzgün çalışır. Diğer kullanıcılar 404 hatasıyla karşılaşır.
-
-| Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç + ön uç)* | Arka uç sanal çekirdek sayısı | Ön uç sanal çekirdek sayısı | DirectQuery/canlı bağlantı sınırları | Kullanılabilirlik |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 sanal çekirdek |0,5 sanal çekirdek, 2,5 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |Kullanılabilir |
-| [EM2 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 sanal çekirdek |1 sanal çekirdek, 5 GB RAM |1 sanal çekirdek |Saniyede 7,5 |Kullanılabilir |
-| [EM3 (aylık)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek | |Kullanılabilir |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 |Kullanılabilir ([aylık](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) olarak da sunulur) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 |Kullanılabilir |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 |Kullanılabilir |
+| Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç+ön uç)*  | Arka Uç Sanal Çekirdek Sayısı <sup>[1](#fn1)</sup> | Ön Uç Sanal Çekirdek Sayısı <sup>[2](#fn2)</sup> | DirectQuery/canlı bağlantı sınırları | Maksimum eş zamanlı yenileme sayısı |  Kullanılabilirlik
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1 (aylık) |1 sanal çekirdek |0,5 sanal çekirdek, 2,5 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |  1 | Kullanılabilir |
+| EM2 (aylık) |2 sanal çekirdek |1 sanal çekirdek, 5 GB RAM |1 sanal çekirdek |Saniyede 7,5 |  2 | Kullanılabilir |
+| EM3 (aylık) |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek | | 3 |  Kullanılabilir |
+| P1 |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 | 6 | Kullanılabilir (aylık olarak da sunulur) |
+| P2 |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 | 12 | Kullanılabilir |
+| P3 |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 | 24 | Kullanılabilir |
 | | | | | | | |
 
-* Ön uç sanal çekirdekleri; web hizmetinden, pano ve rapor belge yönetiminden, erişim hakları yönetiminden, zamanlamadan, API'lerden, karşıya yüklemelerden ve indirmelerden, kısacası kullanıcı deneyimiyle ilgili her şeyden sorumludur.
+<a name="fn1">1</a>: Ön uç sanal çekirdekler, web hizmetinden sorumludur. Örneğin pano ve rapor belge yönetimi, erişim hakları yönetimi, zamanlama, API'ler, karşıya yüklemeler ve indirmeler, kısacası kullanıcı deneyimiyle ilgili her şey bunların sorumluluğundadır. 
 
-* Arka uç sanal çekirdekleri ise işin zor bölümünden sorumludur: sorgu işleme, önbellek yönetimi, R sunucularını çalıştırma, veri yenileme, doğal dil işleme, gerçek zamanlı akışlar ve raporlar ile resimlerin sunucu tarafında işlenmesi. Arka uç sanal çekirdekleriyle, belirli miktarda bellek de ayrılır. Büyük veri modelleriyle veya çok sayıda etkin veri kümesiyle çalışırken, yeterli belleğe sahip olmak özellikle önemli bir gereksinim haline gelir.
+<a name="fn2">2</a>: Arka uç sanal çekirdekleri ise, sorgu işleme, önbellek yönetimi, R sunucularını çalıştırma, veri yenileme, doğal dil işleme, gerçek zamanlı akışlar ve raporlar ile resimlerin sunucu tarafında işlenmesi gibi işin zor bölümlerinden sorumludur. Arka uç sanal çekirdekleriyle, belirli miktarda bellek de ayrılır. Büyük veri modelleriyle veya çok sayıda etkin veri kümesiyle çalışırken, yeterli belleğe sahip olmak özellikle önemli bir gereksinim haline gelir.
 
 ## <a name="workloads-in-premium-capacity"></a>Premium kapasitedeki iş yükleri
 
@@ -112,11 +106,9 @@ Aşağıdaki tablolarda, kullanılabilen farklı [kapasite düğümlerine](#prem
 
 ### <a name="considerations-for-paginated-reports"></a>Sayfalandırılmış raporlar ile ilgili önemli noktalar
 
-Sayfalandırılmış raporlar iş yükünü kullanıyorsanız, aşağıdaki noktaları göz önünde bulundurun.
+Sayfalandırılmış raporlar iş yükünü kullanıyorsanız, sayfalandırılmış raporların bir raporu işlerken (örneğin, içeriğe göre metin rengini dinamik olarak değiştirme) kendi kodunuzu çalıştırmanıza olanak tanıdığını unutmayın. Bu durum göz önünde bulundurulduğunda, sayfalandırılmış raporları kapasite dahilindeki sınırlı bir alanda çalıştırarak Power BI Premium kapasitesinin güvenliğini sağlarız. İş yükünün etkin olup olmadığına bakılmaksızın, bu alanı belirtmek için en büyük belleği atarız. Power BI raporlarını veya veri akışlarını aynı kapasitede kullanıyorsanız, sayfalandırılmış raporlar için diğer iş yüklerini olumsuz yönde etkilemeyecek kadar düşük bellek ayarladığınızdan emin olun.
 
-* **Sayfalandırılmış raporlarda bellek ayırma**: Sayfalandırılmış raporlar bir raporu işlerken (örneğin, içeriğe göre metin rengini dinamik olarak değiştirme) kendi kodunuzu çalıştırmanıza olanak tanır. Bu durum göz önünde bulundurulduğunda, sayfalandırılmış raporları kapasite dahilindeki sınırlı bir alanda çalıştırarak Power BI Premium kapasitesinin güvenliğini sağlarız. İş yükünün etkin olup olmadığına bakılmaksızın, bu alanı belirtmek için en büyük belleği atarız. Power BI raporlarını veya veri akışlarını aynı kapasitede kullanıyorsanız, sayfalandırılmış raporlar için diğer iş yüklerini olumsuz yönde etkilemeyecek kadar düşük bellek ayarladığınızdan emin olun.
-
-* **Sayfalandırılmış raporlar kullanılamıyor**: Nadir durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
+Nadir durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
 
 ## <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 
@@ -128,7 +120,6 @@ Power BI Premium ile kuruluşunuzun şirket içindeki Power BI Rapor Sunucusu'nu
 [Power BI Premium'u satın alma](service-admin-premium-purchase.md)
 [Power BI Premium'u yönetme](service-admin-premium-manage.md)
 [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
-[Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
-[Kuruluşunuzda Power BI uygulamasını yönetme](service-admin-administering-power-bi-in-your-organization.md)
+[Power BI Kuruluş Dağıtımını Planlama teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

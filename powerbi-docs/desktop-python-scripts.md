@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286947"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323963"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta Python Betikleri Çalıştırma
 **Power BI Desktop**'ta Python betiklerini doğrudan çalıştırabilir ve elde edilen veri kümelerini bir Power BI Desktop veri modeline aktarabilirsiniz.
 
 ## <a name="install-python"></a>Python'ı Yükleme
 Power BI Desktop'ta Python betikleri çalıştırabilmek için yerel makinenize **Python** yüklemeniz gerekir. **Python**’ı [Resmi Python indirme sayfası](https://www.python.org/) ve [Anaconda](https://anaconda.org/anaconda/python/) da dahil olmak üzere birçok konumdan ücretsiz olarak indirim yükleyebilirsiniz. Python betiklerinin Power BI Desktop'taki güncel sürümü, yükleme yolunda Unicode karakterlerin yanı sıra boşlukların (boş karakterler) olmasını da destekler.
+
+### <a name="install-required-python-packages"></a>Gerekli Python Paketlerini Yükleme
+Power BI Python tümleştirmesi için iki Python paketinin yüklenmesi gerekir (Pandas ve Matplotlib).  Aşağıdaki iki paketi yüklemek için pip komut satırı aracını kullanın.
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>Python betiklerini çalıştırma
 Power BI Desktop’ta yalnızca birkaç basit adım uygulayarak Python betikleri çalıştırabilir ve bir veri modeli oluşturabilirsiniz. Bu modeli kullanarak raporlar oluşturabilir ve raporları Power BI hizmetinde paylaşabilirsiniz.
