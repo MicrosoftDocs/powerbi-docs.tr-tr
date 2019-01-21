@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: Araç ipuçlarını özelleştirme
         href: desktop-custom-tooltips.md
+      - name: Raporlardaki şekiller ve metin kutuları
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: Metin kutularına köprü ekleme
+        href: service-add-hyperlink-to-text-box.md
+      - name: Tablolardaki köprüler
+        href: power-bi-hyperlinks-in-tables.md
       - name: Koşullu tablo biçimlendirmesi
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop'ta sütuna göre sıralama
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: Raporlardaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Tablolardaki köprüler
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Bir rapordaki metin kutusuna köprü ekleme
-        href: service-add-hyperlink-to-text-box.md
       - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
         href: service-reports-visual-interactions.md
       - name: Histogramlar
         href: visuals/service-histograms.md
       - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Power BI raporlarındaki metin kutuları
-        href: power-bi-reports-add-text-and-shapes.md
       - name: X ve Y ekseni özelliklerini özelleştirme
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Power BI’da ArcGIS haritaları
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239302"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406742"
