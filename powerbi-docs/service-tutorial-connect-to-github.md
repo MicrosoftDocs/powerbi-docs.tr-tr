@@ -5,18 +5,18 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548125"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295713"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Öğretici: Power BI ile bir GitHub örneğine bağlanma
 Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şu bilgileri görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer soruların yanıtları. 
@@ -125,6 +125,6 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 Bu öğreticide, bir GitHub genel deposuna bağlandınız ve Power BI’ın biçimlendirdiği verileri bir panoda ve raporda aldınız. Pano ve raporu keşfederek veriler hakkında bazı soruları yanıtladınız. Şimdi Salesforce, Microsoft Dynamics ve Google Analytics gibi diğer hizmetlere bağlanma hakkında daha fazla bilgi edinebilirsiniz. 
  
 > [!div class="nextstepaction"]
-> [Kullandığınız çevrimiçi hizmetlere bağlanma](consumer/end-user-connect-to-services.md)
+> [Kullandığınız çevrimiçi hizmetlere bağlanma](service-connect-to-services.md)
 
 

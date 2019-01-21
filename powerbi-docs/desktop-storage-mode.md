@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619506"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279194"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop’ta depolama modu (önizleme)
 
@@ -29,7 +29,7 @@ Depolama modunun ayarlanması birçok avantaj sağlar. Modelinizdeki her tablonu
 
 * **Büyük veri kümeleri**: Önbelleğe alınmamış tablolar, önbelleğe alma amacıyla bellek kullanmaz. Tümüyle önbelleğe alınamayacak kadar büyük olan veya bunu çok pahalıya çıkacağı büyük veri kümelerinde etkileşimli analizi etkinleştirebilirsiniz. Hangi tabloların önbelleğe alınmaya değeceğini, hangilerinin değmeyeceğini seçebilirsiniz.
 
-* **Veri yenileme optimizasyonu**: Önbelleğe alınmayan tabloların yenilenmesi gerekmez. Hizmet düzeyi anlaşmalarınıza ve iş gereksinimlerinize uygun olarak, yalnızca gerekli olan verileri önbelleğe alıp yenileme sürelerini kısaltabilirsiniz.
+* **Veri yenilemeyi en iyi duruma getirme**: Önbelleğe alınmayan tabloların yenilenmesi gerekmez. Hizmet düzeyi anlaşmalarınıza ve iş gereksinimlerinize uygun olarak, yalnızca gerekli olan verileri önbelleğe alıp yenileme sürelerini kısaltabilirsiniz.
 
 * **Neredeyse gerçek zamanlı olma gereksinimleri**: Neredeyse gerçek zamanlı olma gereksinimleri olan tablolar, veri gecikme sürelerini kısaltmak için önbelleğe almama yönteminden yararlanabilir.
 
@@ -39,7 +39,7 @@ Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikte
 
 * **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md).
 
-* **Çok-çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çok-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
+* **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
 
 * **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Depolama modu bu makalede ayrıntılı olarak açıklanmaktadır.
 
@@ -55,7 +55,7 @@ Tablonun **Alan özellikleri** bölmesindeki **Depolama modu** açılan listesin
 
 Depolama modu üç değerden biri olabilir:
 
-* **İçeri Aktarma**: Değer, **İçeri Aktarma** olarak ayarlandığında içeri aktarılan tablolar önbelleğe alınır. Power BI veri kümesine gönderilen ve İçeri Aktarma tablolarından veri döndüren sorgular, yalnızca önbelleğe alınmış verilerle yanıtlanır.
+* **İçeri Aktarma**: Değer **İçeri Aktarma** olarak ayarlandığında içeri aktarılan tablolar önbelleğe alınır. Power BI veri kümesine gönderilen ve İçeri Aktarma tablolarından veri döndüren sorgular, yalnızca önbelleğe alınmış verilerle yanıtlanır.
 
 * **DirectQuery**: Bu ayarla, DirectQuery tabloları önbelleğe alınmaz. Veri Çözümleme İfadeleri (DAX) sorguları gibi Power BI veri kümesine gönderdiğiniz ve DirectQuery tablolarından veri döndüren sorgular yalnızca veri kaynağında isteğe bağlı sorgular yürütülerek yanıtlanır. Veri kaynağına gönderdiğiniz sorgular, o veri kaynağına ilişkin sorgu dilini (örneğin, SQL) kullanır.
 

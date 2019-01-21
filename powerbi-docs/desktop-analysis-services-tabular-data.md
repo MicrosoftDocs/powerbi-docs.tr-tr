@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578302"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280275"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -60,7 +60,7 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
 
 **Soru:** Power BI hizmetinden bir Tablo modeline canlı bağlantı kurmayla Power BI Desktop'tan canlı bağlantı kurma arasındaki fark nedir?
 
-**Cevap:** Power BI hizmetindeki sitenizde bulunan bir Tablo modelinden kuruluşunuzda şirket içi Analysis Services veritabanına canlı bağlantı kurduğunuzda bu iki nokta arasındaki iletişimin güvenliğini sağlamak için şirket içi ağ geçidine ihtiyaç duyulur. Power BI Desktop'tan bir Tablo modeline canlı bağlantı kurduğunuzda hem Power BI Desktop hem de bağlandığınız Analysis Services sunucusu şirket içi ortamda çalıştığından ağ geçidine ihtiyaç yoktur. Ancak Power BI Desktop dosyanızı Power BI sitenizde yayımlamak için bir ağ geçidi kullanmanız gerekir.
+**Cevap:** Power BI hizmetindeki sitenizde bulunan bir Tablo modelinden kuruluşunuzdaki şirket içi Analysis Services veritabanına canlı bağlantı kurduğunuzda, bu iki nokta arasındaki iletişimin güvenliğini sağlamak için şirket içi ağ geçidine ihtiyaç duyulur. Power BI Desktop'tan bir Tablo modeline canlı bağlantı kurduğunuzda hem Power BI Desktop hem de bağlandığınız Analysis Services sunucusu şirket içi ortamda çalıştığından ağ geçidine ihtiyaç yoktur. Ancak Power BI Desktop dosyanızı Power BI sitenizde yayımlamak için bir ağ geçidi kullanmanız gerekir.
 
 **Soru:** Canlı bağlantı oluşturduktan sonra aynı Power BI Desktop dosyasındaki başka bir veri kaynağına bağlanabilir miyim?
 
@@ -74,7 +74,7 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
 
 **Cevap:** Evet. Analysis Services sunucusuna bağlanmak için geçerli Windows kimlik bilgileriniz kullanılır. Canlı keşfetme sırasında Power BI hizmetinde veya Power BI Desktop uygulamasında Temel ya da kayıtlı kimlik bilgileri kullanamazsınız.
 
-**Soru:** Gezgin'de bir model ve bir perspektif görüyorum. Aralarındaki fark nedir?
+**Soru:** Gezgin'de bir model ve bir perspektif görüyorum. Fark nedir?
 
 **Cevap:** Perspektif, bir Tablo modelinin belirli bir görünümüdür. Veri analiz ihtiyaçlarına göre yalnızca belirli tabloları, sütunları veya ölçüleri kapsıyor olabilir. Tablo modelinde her zaman en az bir perspektif bulunabilir ve bu modeldeki her şeyi içerebilir. Hangisini seçeceğinizden emin değilseniz yöneticinizle iletişime geçmeniz gerekir.
 
@@ -92,5 +92,5 @@ Canlı keşfetme bağlantısıyla bir Power BI Desktop dosyası oluşturduktan s
 ## <a name="troubleshooting"></a>Sorun giderme 
 Aşağıdaki listede SQL Server Analysis Services (SSAS) veya Azure Analysis Services’a bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır. 
 
-* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/modele erişimi olmadığında gerçekleşir.
+* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/modele erişimi olmadığında oluşur.
 

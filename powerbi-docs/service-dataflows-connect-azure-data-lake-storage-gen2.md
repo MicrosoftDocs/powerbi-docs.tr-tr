@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649057"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277285"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -76,7 +76,7 @@ Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rol�
 
 Depolama hesabınızın Power BI’a eklenebilmesi için önce *powerbi* adlı bir dosya sistemi oluşturmanız gerekir. Azure Databricks, HDInsight, AZCopy veya Azure Depolama Gezgini kullanımı da dahil olmak üzere, böyle bir dosya sistemi oluşturmanın birçok yolu vardır. Bu bölümde, Azure Depolama Gezgini kullanılarak dosya sistemi oluşturmanın basit bir yolu gösterilmektedir.
 
-Bu adım, Azure Depolama Gezgini sürüm 1.6.1'i veya üstünü yüklemenizi gerektirir. Windows, Macintosh veya Linux için Azure Depolama Gezgini’ni yükleme ile ilgili bkz. [Azure Depolama Gezgini](https://azure.microsoft.com/features/storage-explorer/).
+Bu adım, Azure Depolama Gezgini sürüm 1.6.2'yi veya üstünü yüklemenizi gerektirir. Windows, Macintosh veya Linux için Azure Depolama Gezgini’ni yükleme ile ilgili bkz. [Azure Depolama Gezgini](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Azure Depolama Gezgini’ni başarıyla yüklemenizin ardından ilk başlatmanızda Microsoft Azure Depolama Gezgini - Bağlan penceresi gösterilir. Depolama Gezgini, depolama hesaplarına bağlanmanın birçok yolunu sağlarken, gerekli kurulum için şu anda yalnızca bir yol desteklenmektedir. 
 

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296032"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279861"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
 
@@ -40,7 +40,7 @@ Tüm kullanıcılar belirli bir rapora her gün aynı anda erişiyorsa ağ geçi
 **Power BI**'da *rapor* başına yalnızca *bir* ağ geçidine izin veren bir kısıtlama söz konusudur, bu nedenle bir rapor birden çok veri kaynağını temel alıyor olsa bile tüm bu veri kaynaklarının tek bir ağ geçidinden geçmesi gerekir. Ancak, bir pano *birden çok* rapora dayanıyorsa katkı sağlayan her rapor için, ayrılmış bir ağ geçidi kullanabilirsiniz. Böylece ağ geçidi yükünü, tek bir panoya katkı sağlayan birden çok rapor arasında dağıtmış olursunuz.
 
 ### <a name="connection-type"></a>Bağlantı türü
-**Power BI**, **DirectQuery** ve **İçeri Aktar** olmak üzere iki tür bağlantı sunar. Tüm veri kaynakları her iki bağlantı türünü de desteklemeyebilir ve güvenlik gereksinimleri, performans, veri sınırları ve veri modeli boyutları gibi birçok nedenden, biri diğerine tercih edilebilir. [Şirket içi veri ağ geçidi makalesindeki](service-gateway-onprem.md) *kullanılabilir veri kaynağı türlerinin listesi* bölümünde, bağlantı türü ve desteklenen veri kaynakları ile ilgili daha fazla bilgiye ulaşabilirsiniz.
+**Power BI** iki tür bağlantı sunar: **DirectQuery** ve **İçeri Aktarma**. Tüm veri kaynakları her iki bağlantı türünü de desteklemeyebilir ve güvenlik gereksinimleri, performans, veri sınırları ve veri modeli boyutları gibi birçok nedenden, biri diğerine tercih edilebilir. [Şirket içi veri ağ geçidi makalesindeki](service-gateway-onprem.md) *kullanılabilir veri kaynağı türlerinin listesi* bölümünde, bağlantı türü ve desteklenen veri kaynakları ile ilgili daha fazla bilgiye ulaşabilirsiniz.
 
 Ağ geçidi kullanımı, kullanılmakta olan bağlantı türüne göre değişiklik gösterebilir. Örneğin, mümkün olduğunda **DirectQuery** veri kaynaklarını **Zamanlanmış Yenileme** veri kaynaklarından ayırmanız gerekir (veri kaynaklarının farklı raporlarda olduğu ve ayrılabileceği varsayılmıştır). Bunu gerçekleştirerek, tam da şirketin ana panosu için kullanılan büyük boyutlu bir veri modeli için sabah gerçekleştirilecek zamanlanmış yenilemeyle aynı sırada, ağ geçidinde binlerce DirectQuery isteğinin birikmesinin önüne geçersiniz. Her biri için şu noktaları aklınızda bulundurmanız gerekir:
 

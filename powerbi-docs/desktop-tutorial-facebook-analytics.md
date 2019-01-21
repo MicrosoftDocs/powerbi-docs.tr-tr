@@ -1,23 +1,23 @@
 ---
-title: 'Eğitim: Power BI Desktop ile Facebook analizi'
-description: 'Eğitim: Power BI Desktop ile Facebook analizi'
+title: 'Öğretici: Power BI Desktop ile Facebook analizi'
+description: 'Öğretici: Power BI Desktop ile Facebook analizi'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578509"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276986"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Eğitim: Power BI Desktop ile Facebook analizi
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Öğretici: Power BI Desktop ile Facebook analizi
 
 Bu öğreticide, Facebook’tan verileri içeri aktarmayı ve Power BI Desktop’ta bunları kullanmayı öğreneceksiniz. Bağlanıp Power BI Facebook sayfasından verileri içeri aktaracak, içeri aktarılan verilere dönüştürmeler uygulayacak ve rapor görselleştirmelerinde bu verileri kullanacaksınız.
 
@@ -187,7 +187,7 @@ Bu daha iyi, ancak **Gönderi sayısı** değerinin bir tamsayı olması gerekti
 2. Power Query Editor’da **Açıklama sayısı** sütununu seçin ve aşağıdakilerden birini yaparak veri türünü **Tam Sayı** olarak değiştirin: 
    - **Açıklama sayısı** sütun üst bilgisinin yanındaki **1.2** simgesini seçip açılır listeden **Tam sayı**’yı seçerek veya
    - Sütun üst bilgisine sağ tıklayıp **Türü değiştir > Tam Sayı** seçeneklerini belirleyerek veya
-   - Giriş sekmesinin **Dönüştür** grubunda **Veri türü: Ondalık Sayı** seçeneğini belirleyerek veya **Dönüştür** sekmesinin **Herhangi Bir Sütun** grubunda **Tam Sayı**’yı seçerek.
+   - Giriş sekmesinin **Dönüştür**  grubunda veya **Dönüştür** sekmesinin **Herhangi Bir Sütun** grubunda **Veri türü: Ondalık Sayı** ve sonra da **Tam Sayı**'yı seçerek.
    
    Sütun üst bilgisindeki simge, **123**’e dönüşerek Tam Sayı veri türünü belirtir.
    

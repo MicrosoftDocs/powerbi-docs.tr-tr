@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: b1c74968365db59d51f7c0a7bdb356552cc75596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273322"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283794"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Şirket içi veri ağ geçidi hakkında SSS
 <!-- Shared FAQ shared Include -->
@@ -31,7 +31,7 @@ ms.locfileid: "51273322"
 **Soru:** Ağ geçidini, Windows kimlik doğrulaması kullanan şirket içi sunucumdan farklı etki alanındaki bir bilgisayara yüklersem ne olur?  
 **Cevap:** Bununla ilgili kesin bir cevap verilemez. Bu tamamen iki etki alanı arasındaki güven ilişkisine dayalıdır. İki farklı etki alanı bir güvenilir etki alanı modelindeyse ağ geçidi, Analysis Services sunucusuna bağlanabilir ve etkin kullanıcı adı çözümlenebilir. Aksi halde oturum açma hatasıyla karşılaşabilirsiniz.
 
-**Soru:** Şirket içi Analysis Services sunucuma geçirilen etkin kullanıcı adını nasıl bulabilirim?  
+**Soru:** Şirket içi Analysis Services sunucuma geçirilen etkili kullanıcı adını nasıl bulabilirim?  
 **Cevap:** Bu sorunun cevabı [sorun giderme makalesinde](service-gateway-onprem-tshoot.md) verilmiştir.
 
 **Soru:** Analysis Services'de 25 veritabanım var, bunların hepsini ağ geçidi için tek seferde etkinleştirmenin bir yolu var mı?  
@@ -41,13 +41,13 @@ ms.locfileid: "51273322"
 **Soru:** Bir ağ geçidinin birden çok yöneticisi olabilir mi?  
 **Cevap:** Evet! Bir ağ geçidini yönetirken yönetici sekmesine giderek başka yöneticiler ekleyebilirsiniz.
 
-**Soru:** Ağ geçidi yöneticisi, ağ geçidinin yüklü olduğu makinede de yönetici olmalı mıdır?  
+**Soru:** Ağ geçidi yöneticisinin, ağ geçidinin yüklü olduğu makinede de yönetici olması gerekir mi?  
 **Cevap:** Hayır. Ağ geçidi yöneticisi, ağ geçidini hizmetten yönetmek için kullanılır.
 
 **Soru:** Kuruluşumdaki kullanıcıların bir ağ geçidi oluşturmasını engelleyebilir miyim?  
 **Cevap:** Hayır. Yol haritasında buna yer verilmiştir ancak henüz bir zaman aralığı belirlenmemiştir.
 
-**Soru:** Kuruluşumdaki ağ geçitlerinin kullanım ve istatistik bilgilerini edinebilir miyim?  
+**Soru:** Kuruluşumdaki ağ geçitlerinin kullanım ve istatistik bilgilerini alabilir miyim?  
 **Cevap:** Hayır. Yol haritasında buna yer verilmiştir ancak henüz bir zaman aralığı belirlenmemiştir.
 
 ## <a name="power-bi"></a>Power BI
@@ -64,7 +64,7 @@ ms.locfileid: "51273322"
 **Cevap:** Analysis Services'e bağlı bir pano ile ilgili olarak kullanıcılar, yalnızca erişim sahibi oldukları verileri görebilir. Kullanıcılar aynı izinlere sahip değilse herhangi bir veri göremez. Diğer veri kaynaklarında ise tüm kullanıcılar, veri kaynağı için yönetici tarafından girilen kimlik bilgilerini paylaşır.
 
 **Soru:** Oracle sunucuma neden bağlanamıyorum?  
-**Cevap:** Oracle sunucunuza bağlanmak için Oracle istemcisini yüklemeniz ve tnsnames.ora dosyasını doğru sunucu bilgileriyle yapılandırmanız gerekebilir. Bu, ağ geçidinin dışında ayrı bir yüklemedir. Daha fazla bilgi için bkz. [Installing the Oracle Client (Oracle İstemcisini yükleme)](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Cevap:** Oracle sunucunuza bağlanmak için Oracle istemcisini yüklemeniz ve tnsnames.ora dosyasını doğru sunucu bilgileriyle yapılandırmanız gerekebilir. Bu, ağ geçidinin dışında ayrı bir yüklemedir. Daha fazla bilgi için bkz. [Oracle İstemcisini Yükleme](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
 
 **Soru:** Ağ geçidi ExpressRoute ile çalışır mı?  
 **Cevap:** Evet. ExpressRoute ve Power BI hakkında daha fazla bilgi için bkz. [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md).

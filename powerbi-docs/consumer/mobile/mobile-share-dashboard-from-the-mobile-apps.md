@@ -1,20 +1,20 @@
 ---
 title: Power BI mobil uygulamalarından pano veya rapor paylaşma
 description: Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edin. Nasıl yapıldığını öğrenin.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271659"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283679"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -52,7 +52,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    Bu panoyu veya raporu paylaştığınız iş arkadaşlarınızın listesini ve şu ifadeleri görürsünüz:
    
    * **Görüntüleyebilir**: Bu kişiler paylaşımı görüntüleyebilir ancak paylaşamaz.
-   * **Görüntüleyebilir ve Davet Edebilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarınızla paylaşabilir.
+   * **Görüntüleyebilir ve Davet Edebilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarıyla paylaşabilir.
 1. **Düzenle**'ye dokunun.
    
     ![Düzenle simgesi](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
@@ -81,7 +81,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    Bu panoyu veya raporu paylaştığınız iş arkadaşlarınızın listesini ve şu ifadeleri görürsünüz:
    
    * **Görüntüleyebilir**: Bu kişiler paylaşımı görüntüleyebilir ancak paylaşamaz.
-   * **Görüntüleyebilir ve Davet Edebilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarınızla paylaşabilir.
+   * **Görüntüleyebilir ve Davet Edebilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarıyla paylaşabilir.
 2. **Düzenle**'ye dokunun.
 3. Paylaşımı kaldırmak için herhangi bir adın yanında bulunan kırmızı daireye dokunup **Sil**'i seçin.
 
@@ -94,7 +94,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
     Panonun sahibi sizseniz bu panoyu veya raporu paylaştığınız iş arkadaşlarınızın listesini ve şu notları görürsünüz:
 
     -   **Görüntüleyebilir**: Bu kişiler paylaşımı görüntüleyebilir ancak paylaşamaz.
-    -   **Görüntüleyebilir ve yeniden paylaşabilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarınızla paylaşabilir.
+    -   **Görüntüleyebilir ve yeniden paylaşabilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarıyla paylaşabilir.
 
 1. E-posta adreslerini ve pano davetinizle birlikte gönderilecek iletinizi yazın. İleti yazmazsanız Power BI varsayılan metni gönderir.
 2. Yeniden paylaşıma izin vermek için **Alıcıların bu panoyu paylaşmasına izin verin**'i seçili durumda bırakın.
@@ -128,7 +128,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    
    **Görüntüleyebilir**: Bu kişiler paylaşımı görüntüleyebilir ancak paylaşamaz.
    
-   **Görüntüleyebilir ve yeniden paylaşabilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarınızla paylaşabilir.
+   **Görüntüleyebilir ve yeniden paylaşabilir**: Bu kişiler paylaşımı görüntüleyebilir ve diğer iş arkadaşlarıyla paylaşabilir.
 2. E-posta adreslerini ve davetinizle birlikte gönderilecek iletinizi yazın. İleti yazmazsanız Power BI varsayılan metni gönderir.
    
    ![Davet et iletişim kutusu](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

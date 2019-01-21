@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417338"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290901"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Haritadaki bölgeleri renk kullanarak karşılaştırmak için bir **Şekil Haritası** görseli oluşturun. **Harita** görselinin aksine, **Şekil Haritası** veri noktalarının kesin coğrafi konumlarını bir haritada gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
@@ -113,7 +113,7 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 ## <a name="region-keys"></a>Bölge anahtarları
 Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki **Bölge Anahtarları**'nı kullanın.
 
-### <a name="australia-states"></a>Avustralya: eyaletler
+### <a name="australia-states"></a>Avustralya: Eyaletler
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Avusturya: eyaletler
+### <a name="austria-states"></a>Avusturya: Eyaletler
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brezilya: eyaletler
+### <a name="brazil-states"></a>Brezilya: Eyaletler
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Kanada: bölgeler
+### <a name="canada-provinces"></a>Kanada: Bölgeler
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Fransa: bölgeler
+### <a name="france-regions"></a>Fransa: Bölgeler
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -221,7 +221,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Auvergne |Auvergne |Auvergne |
 | Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>Almanya: eyaletler
+### <a name="germany-states"></a>Almanya: Eyaletler
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>İrlanda: yerel idare bölgeleri
+### <a name="ireland-counties"></a>İrlanda: İlçeler
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>İtalya: bölgeler
+### <a name="italy-regions"></a>İtalya: Bölgeler
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Meksika: eyaletler
+### <a name="mexico-states"></a>Meksika: Eyaletler
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Hollanda: bölgeler
+### <a name="netherlands-provinces"></a>Hollanda: Bölgeler
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -361,7 +361,7 @@ Bu Önizleme sürümünde **Şekil Haritası**'nı test etmek için aşağıdaki
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>ABD: eyaletler
+### <a name="usa-states"></a>ABD: Eyaletler
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

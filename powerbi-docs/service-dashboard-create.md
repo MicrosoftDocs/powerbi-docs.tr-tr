@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717436"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294293"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
 [Power BI'daki panolar](service-dashboards.md) başlıklı makaleyi okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Bir pano oluşturmanın birçok farklı yolu vardır. Bir rapordan, sıfırdan, bir veri kümesinden, mevcut bir pano yinelenerek veya başka yollarla oluşturulabilirler.  
@@ -25,13 +25,13 @@ ms.locfileid: "51717436"
 ## <a name="who-can-create-a-dashboard"></a>Kimler pano oluşturabilir?
 Pano oluşturmak bir **oluşturan** özelliğidir ve rapor üzerinde düzenleme izinleri gerektirir. Düzenleme izinleri, rapor oluşturanlar ve oluşturanın erişim verdiği iş arkadaşları tarafından kullanılabilir. Örneğin, David workspaceABC içinde bir rapor oluşturur ve sonra sizi o çalışma alanının bir üyesi olarak eklerse, hem siz hem de David düzenleme izinlerine sahip olursunuz. Diğer yandan, bir rapor sizinle doğrudan veya bir [Power BI uygulamasının](service-create-distribute-apps.md) parçası olarak (raporu **kullanıyor** olursunuz) paylaşılırsa, bir panoya kutucukları sabitleyemezsiniz.
 
-> **NOT:** Panolar Power BI Desktop'ın değil, Power BI hizmetinin sunduğu bir özelliktir. Panoları Power BI mobil uygulamasında oluşturamaz ancak [görüntüleyip paylaşabilirsiniz](consumer/mobile/mobile-apps-view-dashboard.md).
+> **NOT**: Panolar Power BI Desktop'ın değil, Power BI hizmetinin sunduğu bir özelliktir. Panoları Power BI mobil uygulamasında oluşturamaz ancak [görüntüleyip paylaşabilirsiniz](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ![pano](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Bir rapordaki görselleri ve resimleri sabitleyerek pano oluşturma
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Rapordaki görselleri ve resimleri sabitleyerek pano oluşturma
 Amanda'nın bir rapordaki görselleştirmeleri sabitleyerek yeni bir pano oluşturmasını izleyin. Sonra, Tedarik Analizi örneğini kullanarak kendiniz denemek için videonun altında bulunan adımları izleyin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluştur
 1. Aynı çalışma alanında, **Raporlar** sekmesini seçin. Yeni içeri aktarılan rapor sarı yıldız işaretiyle görüntülenir. Rapor adını seçerek raporu açın.
 
     ![raporlar sekmesi](media/service-dashboard-create/power-bi-reports.png)
-2. Rapor Okuma görünümü'nde açılır. Raporun alt kısmındaki iki sekmeye dikkat edin: Discount Analysis ve Spend Overview. Her sekme raporun bir sayfasını temsil eder.
+2. Rapor Okuma görünümü'nde açılır. Alt kısımda iki sekmesi olduğuna dikkat edin: İndirim Analizi ve Harcamaya Genel Bakış. Her sekme raporun bir sayfasını temsil eder.
     **Raporu düzenle**'yi seçerek raporu Düzenleme görünümünde açın.
 
     ![Okuma görünümü’nde rapor](media/service-dashboard-create/power-bi-reading-view.png)

@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101267"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292465"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -120,7 +120,7 @@ Power BI Raporlarında artık Kerberos ile SAP HANA SSO Doğrudan Sorgu desteği
 - [Dilimleyici yeniden belirleme](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
 - [Rapor sayfası araç ipuçları](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiz
 
 - [Yeni DAX işlevi: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Ölçü detaylandırma](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
@@ -209,14 +209,14 @@ Bir görselde belirtilen bir kategoride detaya gittiğinizde, sayfadaki tüm gö
 - [Biçimlendirme ve analiz bölmelerinde arama](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Alan özellikleri bölmesi ve alan açıklamaları](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analiz
 
 - [UTCNOW() ve UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Özel tarih tablosu işaretleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 - [Detaya gidildiğinde diğer görselleri de filtreleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [Çok satırlı kart için çok boyutlu AS modellerini hücre düzeyinde biçimlendirme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>Performansı’na bağlan
+### <a name="performance"></a>Performans
 
 - [Filtrelemeye ilişkin performans iyileştirmeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery’ye ilişkin performans iyileştirmeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -269,10 +269,10 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 * EnableCustomVisuals: True/False
 * EnablePowerBIReportEmbeddedModels: True/False
 * EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: Varsayılan değer 1000'dir
-* ModelCleanupCycleMinutes: Bellekteki modelleri çıkarmak için denetim sıklığı
+* MaxFileSizeMb: Varsayılan değer şimdi 1000'dir
+* ModelCleanupCycleMinutes: Bellekteki modelleri çıkarmak için denetleme sıklığı
 * ModelExpirationMinutes: Son kullanılma zamanına bağlı olarak modelin süresinin dolması ve çıkarılması için beklenecek süre
-* ScheduleRefreshTimeoutMinutes: Model başına izin verilen veri yenileme işlemi süresi. Bu süre varsayılan olarak iki saattir.  Kesin bir üst sınır yoktur.
+* ScheduleRefreshTimeoutMinutes: Modelde veri yenilemenin ne kadar sürebileceği. Bu süre varsayılan olarak iki saattir.  Kesin bir üst sınır yoktur.
 
 **rsreportserver.config yapılandırma dosyası**
 

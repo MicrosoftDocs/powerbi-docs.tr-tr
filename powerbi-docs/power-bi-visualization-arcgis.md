@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266059"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293929"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları
 Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](visuals/power-bi-visualizations-arcgis.md).
@@ -58,7 +58,7 @@ Bu eğitimde [Perakende Analizi örneği](sample-retail-analysis.md) kullanılm�
 1. Menü çubuğunun sağ üst kısmındaki dişli simgesini seçin ve **Ayarlar**'ı açın
    
     ![](media/power-bi-visualization-arcgis/power-bi-settings.png)
-2. **ArcGIS Maps for Power BI**  onay kutusunu seçin. Seçiminizi yaptıktan sonra Power BI'ı yeniden başlatmanız gerekir.
+2. **ArcGIS Maps for Power BI ** onay kutusunu seçin. Seçiminizi yaptıktan sonra Power BI'ı yeniden başlatmanız gerekir.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
 3. Bir raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın ve Görsel Öğeler bölmesinde ArcGIS Maps for Power BI simgesini seçin.
@@ -112,7 +112,7 @@ Will'in birkaç ArcGIS harita görselleştirmesi oluşturduğu videoyu izledikte
 
 ## <a name="features-overview"></a>Özelliklere genel bakış
 ### <a name="base-maps"></a>Altlık Harita
-Dört altlık harita sağlanmıştır: Koyu Gri Kanvas, Açık Gri Kanvas, OpenStreetMap ve Sokaklar.  Sokaklar, ArcGIS'in standart altlık haritasıdır.
+Dört altlık harita sağlanmıştır: Koyu Gri Tuval, Açık Gri Tuval, OpenStreetMap ve Sokaklar.  Sokaklar, ArcGIS'in standart altlık haritasıdır.
 
 Bir altlık haritayı uygulamak için görev bölmesinde haritayı seçin.
 
@@ -207,7 +207,7 @@ ArcGIS Online, kuruluşların genel web haritaları yayımlamasına olanak sağl
 2. Arama terimleri girin ve ardından bir harita katmanını seçin. Bu örnekte USA Congressional Districts katmanını seçtik.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. Ayrıntıları görmek için *Referans katmanından seçin* seçeneğini açmak üzere gölgeli bir alanı seçin: Referans katmanındaki sınırları veya nesneleri seçmek için referans katmanı seçim aracını kullanın.
+3. Ayrıntıları görmek için, gölgeli bir alanı seçerek *Başvuru katmanından seç*'i açın: Başvuru katmanında sınırları veya nesneleri seçmek için başvuru katmanı seçim aracını kullanın.
 
 <br/>
 
@@ -325,7 +325,7 @@ Tüm Power BI kullanıcıları, ArcGIS Maps for Power BI'ı hiçbir ek ücret ö
 
 **Power BI Desktop'ta önbelleğimin dolu olduğu hakkında bir hata iletisi alıyorum**
 
-Bu hata üzerinde çalışılmaktadır.  Bu arada, önbelleğinizi temizlemek için lütfen C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF konumundaki dosyaları silin ve Power BI'ı yeniden başlatın.
+Bu hata üzerinde çalışılmaktadır.  Bu arada, önbelleğinizi temizlemek için lütfen şu konumdaki dosyaları silmeyi deneyin: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF ve ardından Power BI'ı yeniden başlatın.
 
 **ArcGIS Maps for Power BI, Esri Şekil Dosyalarını destekliyor mu?**
 

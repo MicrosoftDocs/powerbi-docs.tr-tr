@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830321"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296835"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -70,7 +70,7 @@ Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 * **1. Senaryo**: Kuruluşunuzda zaten bir Office 365 ortamı vardır ve Power BI'a kaydolacak kullanıcı bir Office 365 hesabına sahiptir.
     Bu senaryoda, kullanıcının kiracıda (örneğin, contoso.com) bir iş veya okul hesabı var ancak Power BI hesabı yoksa Microsoft'un, mevcut planı söz konusu hesap için etkinleştirmesi yeterlidir. Daha sonra kullanıcı, Power BI hizmetinin nasıl kullanılacağı konusunda otomatik olarak bilgilendirilir.
 
-* **2. Senaryo**: Kuruluşunuzda zaten bir Office 365 ortamı vardır ancak Power BI'a kaydolacak kullanıcının bir Office 365 hesabı yoktur.
+* **2. Senaryo**: Kuruluşunuzda zaten bir Office 365 ortamı vardır ancak Power BI'a kaydolacak kullanıcının Office 365 hesabı yoktur.
     Bu senaryoda, kullanıcının kuruluşunuzun etki alanında (örneğin, contoso.com) bir e-posta adresi vardır ancak henüz Office 365 hesabı yoktur. Bu durumda, kullanıcı Power BI'a kaydolabilir ve otomatik olarak bir hesap edinir. Böylece kullanıcı Power BI hizmetine erişebilir. Örneğin, Nancy adlı bir çalışan iş e-posta adresiyle (örneğin, nancy@contoso.com) kaydolursa Microsoft otomatik olarak Nancy'yi Contoso'nun Office 365 ortamına bir kullanıcı olarak ekler ve hesabı için Power BI'ı etkinleştirir.
 
 * **3. Senaryo**: Kuruluşunuzun e-posta etki alanınıza bağlı bir Office 365 ortamı yoktur.
@@ -156,13 +156,13 @@ Mevcut kullanıcılarınızın Power BI'a kaydolmasına izin vermek için, yukar
 
 Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
-* **1. Senaryo**:Kuruluşunuzun bir Office 365 ortamı mevcutsa ve kuruluşunuzdaki tüm kullanıcıların Office 365 hesabı varsa kimlik yönetimi değişmez.
+* **1. Senaryo**: Kuruluşunuzun bir Office 365 ortamı varsa ve kuruluşunuzdaki tüm kullanıcıların Office 365 hesabı varsa kimlik yönetimi değişmez.
 
-* **2. Senaryo**: Kuruluşunuzun bir Office 365 ortamı var ancak kuruluşunuzdaki her kullanıcının Office 365 hesabı yoksa kiracıda bir kullanıcı oluşturup kullanıcının iş veya okul e-posta adresine göre lisans atarız.
+* **2. Senaryo**: Kuruluşunuzun bir Office 365 ortamı varsa ancak kuruluşunuzdaki her kullanıcının Office 365 hesabı yoksa kiracıda bir kullanıcı oluşturup kullanıcının iş veya okul e-posta adresine göre lisans atarız.
 
     Bu, kuruluşunuzdaki kullanıcılar hizmete kaydoldukça, belirli herhangi bir zamanda yönettiğiniz kullanıcı sayısının artacağı anlamına gelir.
 
-* **3. Senaryo**: Kuruluşunuzda e-posta etki alanınıza bağlı bir Office 365 ortamı yoksa, kimlik yönetme yönteminizde bir değişiklik olmaz.
+* **3. Senaryo**: Kuruluşunuzda e-posta etki alanınıza bağlı bir Office 365 ortamı yoksa, kimlik yönetme yönteminizde değişiklik olmaz.
 
     Kullanıcılar yalnızca bulut kullanımına yönelik yeni bir kullanıcı dizinine eklenir, siz de kiracı yönetimini devralıp onları yönetme seçeneğine sahip olursunuz.
 

@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285980"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296375"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
-Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişkin adım adım kılavuzun bir parçasıdır.
+Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Power BI veri kümelerine veri gönderebilmek için ilk olarak uygulamanızı Azure AD'ye kaydetmeniz gerekir. Bunun nedeni, Azure AD'de uygulamanızı tanımlayan bir **İstemci Kimliği** edinecek olmanızdır. Azure AD, **İstemci Kimliği** olmadan uygulamanızın kimliğini doğrulayamaz.
 
-> **Not**: Bir uygulamayı Power BI'a kaydedebilmeniz için öncelikle [Power BI'a kaydolmanız](create-an-azure-active-directory-tenant.md) gerekir.
+> **NOT**: Bir uygulamayı Power BI'a kaydedebilmeniz için öncelikle [Power BI'a kaydolmanız](create-an-azure-active-directory-tenant.md) gerekir.
 > 
 > 
 
@@ -47,7 +47,7 @@ Sonraki adımda, [kimlik doğrulaması erişim belirteci alma](walkthrough-push-
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'a kaydolma](create-an-azure-active-directory-tenant.md)  
 [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
-[İzlenecek yol: Veri kümelerine veri gönderme](walkthrough-push-data.md)  
+[İzlenecek yol: Bir veri kümesine veri gönderme](walkthrough-push-data.md)  
 [Uygulamaları kaydetme](register-app.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 

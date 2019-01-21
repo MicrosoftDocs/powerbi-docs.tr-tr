@@ -1,29 +1,29 @@
 ---
-title: "Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
-description: "Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
+title: "Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
+description: "Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578648"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287613"
 ---
-# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma
+# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma
 Power BI Desktop’taki en güçlü veri analizi çözümlerinin bazılarını ölçüler kullanarak oluşturabilirsiniz. Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur. Bu öğretici, Power BI Desktop’ta temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.
 
 ### <a name="prerequisites"></a>Önkoşullar
 - Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden çok ilişkili tabloyla çalışmak ve Rapor Tuvali'ne alan eklemek için Veri Al ve Sorgu Düzenleyicisi özelliklerini kullanmaya alışmış olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
   
-- Contoso, Inc. adlı kurgusal şirketin çevrimiçi satış verilerini içeren [Power BI Desktop için Contoso Satış Örneği](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirin. Bu veriler bir veritabanından içeri aktarıldığından veri kaynağına bağlanamaz veya verileri Sorgu Düzenleyicisi’nde görüntüleyemezsiniz. Dosyayı bilgisayarınızda ayıklayıp Power BI Desktop’ta açın.
+- Kurgusal Contoso, Inc. şirketinin çevrimiçi satış verilerini içeren [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirin. Bu veriler veritabanından içeri aktarılmıştır; dolayısıyla veri kaynağına bağlanamaz veya bunu Sorgu Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı bilgisayarınızda ayıklayıp Power BI Desktop’ta açın.
 
 ## <a name="understand-measures"></a>Ölçüleri anlama
 
@@ -85,7 +85,7 @@ Toplam satış miktarından indirimleri ve iadeleri çıkararak net satışını
     
     ![Sütun seçin](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    İfadeler her zaman bir açma ayracı ve kapatma ayracı arasında görüntülenir. İfadeniz, SUM işlevine geçirilecek tek bir bağımsız değişken içerir: SalesAmount sütunu. Listede yalnızca Sales(SalesAmount) değeri kalıncaya kadar "SalesAmount" yazmaya başlayın. Başında tablo adı bulunan sütun adına, sütunun *tam adı* denir. Tam nitelikli sütun adları, formüllerinizin okunmasını kolaylaştırır. 
+    İfadeler her zaman bir açma ayracı ve kapatma ayracı arasında görüntülenir. İfadeniz, SUM işlevine geçirilecek tek bir bağımsız değişken içerir: SalesAmount sütunu. Listede yalnızca şu değer kalıncaya kadar "SalesAmount" yazmaya başlayın: Sales(SalesAmount). Başında tablo adı bulunan sütun adına, sütunun *tam adı* denir. Tam nitelikli sütun adları, formüllerinizin okunmasını kolaylaştırır. 
     
     ![SalesAmount seçin](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
@@ -128,7 +128,7 @@ Artık Net Satış ölçünüzü rapor tuvaline ekleyebilir ve rapora eklediğin
 
 ![Ülkeye Göre Net Satış ve Satış Miktarı](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-Grafik şimdi iki ölçü kullanır: otomatik olarak toplanan SalesAmount ve oluşturduğunuz Net Satış ölçüsü. Her ölçü, başka bir alan (RegionCountryName) bağlamında hesaplanmıştır.
+Grafik şimdi iki ölçü kullanır: Otomatik olarak toplanmış olan SalesAmount ölçüsü ve sizin oluşturduğunuz Net Sales ölçüsü. Her ölçü, başka bir alan (RegionCountryName) bağlamında hesaplanmıştır.
     
 ### <a name="use-your-measure-with-a-slicer"></a>Dilimleyici ile ölçünüzü kullanma
 

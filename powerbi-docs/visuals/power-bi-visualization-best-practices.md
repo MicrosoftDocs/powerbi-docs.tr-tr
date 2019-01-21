@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548615"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296744"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ Bu makalede, üzerinde çok çalışılması gereken bir rapor örneğiyle başl
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**Şekil 1: Bu çirkin rapor sayfasında yapılacak çok iş var**
+**Şekil 1:    Bu çirkin rapor sayfasında yapılacak çok iş var**
 
 Yukarıdaki örnekte aşağıda ele alacağımız birçok alan (düzen) sorunu mevcut:
 
@@ -95,19 +95,19 @@ Aşağıdaki güncelleştirilmiş raporda bileşenlerin sol ve sağ kenarlara hi
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Şekil 2: Yukarıdaki çirkin raporun düzen değişiklikleriyle geliştirilmiş hali**
+**Şekil 2:    Yukarıdaki çirkin raporun düzen değişiklikleriyle geliştirilmiş hali**
 
 Power BI, görsellerinizi hizalamanıza yardımcı olacak araçlara sahiptir. Power BI Desktop'ta birden fazla görsel seçiliyken, görsellerin konumunu ayarlamak için **Görsel araçlar** şerit sekmesindeki **Hizala ve Dağıt** seçeneklerini kullanabilirsiniz.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Şekil 3: Power BI Desktop'taki görselleri hizalama**
+**Şekil 3:    Power BI Desktop'ta görselleri hizalama**
 
 Power BI çevrimiçi hizmetinde ve Power BI Desktop'ta tüm görsellere yönelik biçimlendirme bölmesindeki **Genel** sekmesinden görsellerin boyutunu ve konumunu tam olarak denetleyebilirsiniz:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Şekil 4: Görselinizin tam konumunu belirleme**
+**Şekil 4:    Görselinizin tam konumunu ayarlama**
 
 Örnek rapor sayfamızda (Şekil 2) 2 kartın ve geniş kenarlığın **X Konumu** 200 olarak ayarlanmıştır.
 
@@ -121,11 +121,11 @@ Burada önce 4:3, ardından da 16:9 boyutunu kullanan bir rapor sayfası göster
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Şekil 5a: Sayfa boyutu oranı 4:3 olan rapor**
+**Şekil 5a:    Sayfa boyutu oranı 4:3 olan rapor**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Şekil 5b: Sayfa boyutu oranı 16:9 olan rapor**
+**Şekil 5b:    Sayfa boyutu oranı 16:9 olan rapor**
 
 Raporunuz 4:3 mü 16:9 mu yoksa başka bir oranda mı görüntülenecek? Küçük ekran mı yoksa büyük ekran mı kullanılacak? Yoksa mümkün olan tüm oranlar ve boyutlar kullanılsın mı?  Tasarım sırasında bu noktaya dikkat edin.
 
@@ -133,7 +133,7 @@ Raporunuz 4:3 mü 16:9 mu yoksa başka bir oranda mı görüntülenecek? Küçü
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**Şekil 6: Sayfa yüksekliğini artırma**
+**Şekil 6:    Sayfa yüksekliğini artırma**
 
 #### <a name="reduce-clutter"></a>Dağınıklığı azaltma
 Sayfadaki öğelerin dağınık olması durumunda rapor ilk bakışta anlaşılamayacak ve kullanıcıların gözünü korkutarak ilgilerini dağıtabilecektir.  Gerekli olmayan tüm öğeleri rapordan kaldırın. Kavrama veya gezinti konusunda yardımcı olmayacak gereksiz öğeler eklemeyin. Bilgiyi mümkün olduğunda açık, hızlı ve anlaşılır bir şekilde sunmanız gerekir.
@@ -146,7 +146,7 @@ Gördüğünüz gibi örneğimiz şimdiden daha iyi görünüyor. Dağınıklık
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Şekil 7: Çirkin raporumuzun dağınıklığı giderildi**
+**Şekil 7:    Çirkin raporumuzun dağınıklığı giderildi**
 
 ### <a name="tell-a-story-at-a-glance"></a>Hikayeyi tek seferde anlatın
 Kilit nokta, önceden bilgi sahibi olmayan birinin, başka bir kişinin anlatmasına gerek kalmadan raporu hızla anlayıp anlamaması olacaktır. Okuyucuların tek bakışta sayfanın ne anlattığını ve her bir grafiğin/tablonun içeriğini hızla kavraması gerekir.   
@@ -160,13 +160,13 @@ Power BI hizmetinde üst menü çubuğundaki **Metin Kutusu**'nu seçin. (Power 
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**Şekil 8: Metin kutusu ekleme**
+**Şekil 8:    Metin kutusu ekleme**
 
 Boş kutuya metin girin ve alttaki denetimleri kullanarak yazı tipini, boyutu, hizalamayı ve diğer ayarları yapılandırın. Kutuyu yeniden boyutlandırmak için tutamaçları kullanın.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Şekil 9: Metin kutusunu biçimlendirme**
+**Şekil 9:    Metin kutusunu biçimlendirme**
 
 Aşırıya kaçmayın! Raporda çok fazla metin olması, kullanıcının dikkatini dağıtarak kullanıcıyı görsellerden ayıracaktır. Rapor sayfanızı anlaşılır hale getirmek için çok fazla metin eklemeniz gerektiğini düşünüyorsanız baştan başlayın.  Hikayeyi tek başına anlatan farklı bir görsel seçme olanağınız var mı? Kendi başlığını değiştirerek görseli daha anlaşılır hale getirmeniz mümkün mü?   
 
@@ -178,23 +178,23 @@ Metin stil kılavuzu oluşturun ve raporunuzun tüm sayfalarında aynı stili ku
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**Şekil 10a: Power BI hizmetindeki şekiller**
+**Şekil 10a:    Power BI hizmetinde şekiller**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**Şekil 10b: Power BI Desktop'taki şekiller**
+**Şekil 10b:    Power BI Desktop'ta şekiller**
 
 Örnek sayfamız şimdi nasıl görünüyor?  Şekil 11'de metin biçimlerinin, yazı tiplerinin ve renklerin tutarlı bir şekilde kullanıldığı daha derli toplu bir sayfa gösterilmektedir.  Sol üst köşedeki sayfa başlığı sayfanın içeriği hakkında bilgi vermektedir.
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Şekil 11: Metin kılavuzları uygulanmış ve başlık eklenmiş rapor örneği**
+**Şekil 11:    Metin kılavuzları uygulanmış ve başlık eklenmiş rapor örneği**
 
 Örnekte okuyucuların ilk baktığı nokta olan sol üst köşeye rapor sayfası başlığı eklenmiştir. Başlığın sayfanın geri kalanından ayrılması için yazı tipi boyutu 28, yazı tipi ise Segoe Bold olarak belirlenmiştir.  Metin stil kılavuzumuzda arka plan, siyah kutucuk, açıklama ve etiket kullanılmaması gerektiği belirtilmiştir ve bu stil mümkün olan (Birleşik harita eksenleri ve etiketleri düzenlenemez) tüm sayfa görsellerine uygulanmıştır.  Ayrıca:
 
 * Kartlar: **Kategori etiketi** Kapalı, **Başlık** Açık olarak belirlenmiş ve 12 punto, siyah, ortalanmış olarak ayarlanmıştır.
 * Görsel başlıkları: Açık ise 12 punto ve sola hizalıdır.
-* Dilimleyiciler: **Üst Bilgi** Kapalı, **Başlık** Açık durumdadır. **Öğeler** > **Metin** seçeneğini gri ve 10 punto olarak bırakın.
+* Dilimleyiciler: **Üst Bilgi** Kapalı, **Başlık** Açık olarak ayarlanmıştır. **Öğeler** > **Metin** seçeneğini gri ve 10 punto olarak bırakın.
 * Dağılım ve sütun grafikleri: X ve Y eksenleri ile kullanılıyorsa X ve Y ekseni başlıkları için siyah yazı tipi kullanılmıştır.
 
 #### <a name="color"></a>Renk
@@ -271,11 +271,11 @@ Rapor sayfasındaki diğer görsellere beyaz arka plan ekleyin. Biçimlendirme b
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Şekil 20: En iyi renk yöntemlerinin uygulanmış olduğu rapor örneği (siyah arka plan)**
+**Şekil 20: En iyi renk yöntemlerinin uygulandığı rapor örneği (siyah arka plan)**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Şekil 21: En iyi renk yöntemlerinin uygulanmış olduğu rapor örneği (beyaz arka plan)**
+**Şekil 21:    En iyi renk yöntemlerinin uygulandığı rapor örneği (beyaz arka plan)**
  
 
 ### <a name="aesthetics"></a>Estetik
@@ -319,13 +319,13 @@ Bu nedenle, gerçeği kasıtlı olarak çarpıtmayan ve anlatmak istediğiniz hi
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Şekil 22: Çarpıtılmış gerçeklik grafiği**
+**Şekil 22:    Çarpıtılmış gerçeklik grafiği**
 
 Bu örnekte 4 şirket arasında çok büyük bir fark varmış ve CorpB şirketi diğer 3 şirketten daha başarılıymış gibi görünüyor.  Ancak X ekseninin sıfırdan başlamadığına ve şirketler arasındaki farkın muhtemelen hata marjı içinde olduğuna dikkat edin.  Aynı veriler sıfırdan başlayan bir X eksenine yerleştirildiğinde aşağıdaki gibi görünür.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Şekil 23: Gerçekçi grafik**
+**Şekil 23:    Gerçekçi grafik**
 
 Okuyucular genelde X ekseninin sıfırdan başladığını kabul eder. Ekseni sıfırdan başlatmamaya karar verirseniz bunu sonuçları çarpıtmayacak şekilde yapın ve normların dışındaki kullanımı belirtmek için görsel ipucu veya metin kutusu ekleyin.  
 
@@ -347,11 +347,11 @@ Vurgulamak istediğiniz belirli dönemler varsa grafiklerin arkasından çizgile
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Şekil 24: Önce**
+**Şekil 24:    Önce**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Şekil 25: Sonra**
+**Şekil 25:    Sonra**
 
 **Eksen başlıklarını açmak ve kapatmak için**
 
@@ -359,7 +359,7 @@ Görseli seçerek etkin hale getirdikten sonra Biçimlendirme bölmesini açın.
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Şekil 26: Eksen başlıklarını açma ve kapatma**
+**Şekil 26:    Eksen başlıklarını açma ve kapatma**
 
 **Eksen etiketlerini açmak ve kapatmak için**
 
@@ -380,7 +380,7 @@ Görseli seçerek etkin hale getirdikten sonra Biçimlendirme bölmesini açın.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Şekil 28: Görsel başlıklarını kaldırma**
+**Şekil 28:    Görsel başlıklarını kaldırma**
 
 Okuyucularınızın raporu nasıl görüntüleyeceğini aklınızda bulundurarak görsellerin ve metnin okunabilecek büyüklükte ve renkte olduğundan emin olun. Sayfadaki görsellerden biri diğerlerine göre daha büyükse okuyucular bunun en önemli görsel olduğunu düşünebilir. Raporunuzun dağınık ve karışık görünmemesi için görseller arasında yeterli boşluk bırakın.  Okuyucularınızın gözlerini yönlendirmeye yardımcı olması için görsellerinizi hizalayın.
 
@@ -398,7 +398,7 @@ Görseli seçip etkin duruma getirin. Görselin üst orta kısmındaki kavrama �
 
 ![](media/power-bi-visualization-best-practices/power-bi-move.png)
 
-**Şekil 30: Bir görseli taşıma**
+**Şekil 30: Görseli taşıma**
 
 #### <a name="titles-and-labels-that-are-part-of-the-visualizations"></a>Görselleştirmelerin parçası olan başlıklar ve etiketler
 Başlıkların ve etiketlerin okunaklı ve anlamlı olduğundan emin olun. Başlıklardaki ve etiketlerdeki metinlerin ayırt edici renklerde ve en uygun boyutta olması gerekir (varsayılan gri yerine siyah gibi). Stil kılavuzunu hatırlıyor musunuz (yukarıdaki "Metin" bölümüne bakın)? Renk sayısını ve boyutları sınırlandırın. Çok farklı yazı tipi boyutu ve rengi kullandığınızda sayfanız karışık görünür.  Rapor sayfasındaki tüm görsellerin başlığında aynı yazı tipi rengini ve boyutunu; rapor sayfasındaki tüm başlıklar için de aynı hizalama şeklini kullanın.  
@@ -411,11 +411,11 @@ Aşağıdaki biçimlendirme ayarlarının her biri için boya rulosu simgesini s
 
 **Şekil 31: Biçimlendirme bölmesini açma**
 
-Ardından, ayarlanacak görsel öğeyi seçin ve Açık ayarının seçildiğinden emin olun. Görsel öğe örnekleri: **X Ekseni**, **Y Ekseni**, **Başlık**, **Veri etiketleri** ve **Açıklama**. Aşağıdaki örnekte **Başlık** öğesi gösterilmektedir.
+Ardından, ayarlanacak görsel öğeyi seçin ve Açık ayarının seçildiğinden emin olun. Görsel öğe örnekleri: **X Ekseni**, **Y Ekseni**, **Başlık**, **Veri etiketleri** ve **Gösterge**. Aşağıdaki örnekte **Başlık** öğesi gösterilmektedir.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
-**Şekil 32: Bir görsel başlığını biçimlendirme**
+**Şekil 32: Görsel başlığını biçimlendirme**
 
 **Metin boyutunu ayarlama**
 
@@ -485,7 +485,7 @@ Renk kullanmanın en kolay yolu, dikkat çekmek istediğiniz bir veya daha fazla
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Şekil 35: Renkleri hikaye anlatma amacıyla kullanma**
+**Şekil 35:    Renkleri hikaye anlatmak için kullanma**
 
 Veri noktası renklerini, biçimlendirme bölmesinin **Veri renkleri** sekmesinden değiştirebilirsiniz. Veri noktalarını birbirinden bağımsız olarak özelleştirmek için **Tümünü göster** ayarının Açık olduğundan emin olun.
 
@@ -506,7 +506,7 @@ Power BI Desktop'ta ikinci bir seri kullanarak bir çizginin aykırı değerleri
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Şekil 38: Desktop uygulamasında aykırı değerleri çizme**
+**Şekil 38:    Desktop uygulamasını kullanarak aykırı değerleri çizme**
 
 Burada "Aykırı değerler" serisindeki değerler yalnızca Ağustos ayındaki ortalama sıcaklık 60 derecenin altına indiğinde mevcuttur. Bu sonucu elde etmek için şu formülü kullanan bir DAX hesaplanmış sütunu oluşturulmuştur:
 
@@ -557,7 +557,7 @@ Renkler, merkezdeki değerin etrafındaki sapmayı vurgulamak için de kullanıl
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Şekil 44: Merkezdeki değerin etrafındaki sapmayı vurgulama amacıyla renk kullanımı**
+**Şekil 44:    Merkezdeki değerin etrafındaki sapmayı vurgulamak amacıyla renk kullanımı**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Görsel tasarım ilkeleri: örnek rapor sayfasına uygulama
@@ -567,7 +567,7 @@ Renkler, merkezdeki değerin etrafındaki sapmayı vurgulamak için de kullanıl
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Şekil 45: Örnek raporumuz (önce)**
+**Şekil 45:    Örnek raporumuz (önce)**
 
 Sonra
 
@@ -595,7 +595,7 @@ Aşağıdaki örnekte verilen madalya sayısındaki ve bu madalyaları kazanan a
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Şekil 47: Çizgi grafikler**
+**Şekil 47:    Çizgi grafikler**
 
 #### <a name="best-practices"></a>En iyi yöntemler
 * Çizgi grafiklere bakan kullanıcıların ilk gördüğü şey, eğrinin şeklidir.  Bu da zaman veya dağıtım kategorileri gibi eğriyi mantıklı hale getiren bir X ekseniniz olması gerektiği anlamına gelir.  X eksenine ürün veya coğrafya gibi kategorik alanları yerleştirdiğinizde eğrinin şekli anlamlı bilgiler vermeyeceği için çizgi grafik ilgi çekici olmayacaktır.
@@ -604,7 +604,7 @@ Aşağıdaki örnekte verilen madalya sayısındaki ve bu madalyaları kazanan a
   
   ![](media/power-bi-visualization-best-practices/power-bi-start-end.png)
   
-  **Şekil 48: Başlangıç ve bitiş noktalarını belirleme**
+  **Şekil 48: Başlangıç ve bitiş noktalarını ayarlama**
 * Başlat ve Son noktalarını açıkça belirtmenin bir başka nedeni de aynı sayfadaki aynı Y ekseni alanını kullanan iki veya daha fazla grafiği karşılaştırabilmenizdir.  Örneğin, toplam olay sayılarına bakıyorsanız ve Birleşik Krallık rakamları 1 ile 70 arasındayken Avustralya rakamları 1-12 arasındaysa 2 çizgi grafikte çok farklı Y eksenleri (Şekil x) görüntülenecektir. Bu da ilk bakışta karşılaştırma yapmayı zorlaştırır. Bunun yerine grafikleri aynı Y ekseni aralığını (Şekil x) kullanacak şekilde ayarlayın.
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart2.png)
@@ -649,8 +649,8 @@ Daha fazla bilgi için bkz.
 Çubuk ve Sütun grafikler hakkında daha fazla bilgi için:
 
 * [Bar charts 101 (Çubuk grafikler 101)](http://blog.newscred.com/article/data-visualization-101-bar-charts)
-* [Data Visualization Catalogue: Bar Chart (Veri Görselleştirme Kataloğu: Çubuk Grafik)](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
-* [Data Visualization Catalogue: Multi-set Bar Chart (Veri Görselleştirme Kataloğu: Çok Kümeli Çubuk Grafik)](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
+* [Data Visualization Catalogue: Tree maps (Veri Görselleştirme Kataloğu: Ağaç haritalar)](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
+* [Data Visualization Catalogue: Multi-set Bar Chart (Veri Görselleştirme Kataloğu: Birden Çok Kümeli Çubuk Grafik)](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-barcolumn-charts"></a>Yığılmış Çubuk/Sütun Grafikler
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -709,7 +709,7 @@ Eksenlerinizi izleyin! Birleşik haritanızı okumak ve yorumlamak kolay mı?  Y
 
    ![](media/power-bi-visualization-best-practices/power-bi-dual-line.png)
 
-   **Şekil 59: Başarısız çizgi grafik**
+   **Şekil 59: Başarısız bir çizgi grafik**
 
 Aynı şekilde sütun grafiğinizde ve çizgi grafiğinizde 2 farklı ölçü kullanılıyorsa ve iki eksen oluşturmazsanız birleşik haritanız anlamlı olmayacaktır.  Örnek olarak dolarla yüzde değerlerini karşılaştırmak düşünülebilir. Okuyucunun grafiği anlamasına yardımcı olmak için iki eksen eklemeniz ve eksenlere etiket uygulamanız önerilir.
 
@@ -721,7 +721,7 @@ Bunu yapmak için Biçimlendirme bölmesini açın, **Y Ekseni**'ni genişletin 
 
 ![](media/power-bi-visualization-best-practices/power-bi-combo-chart.png)
 
-**Şekil 61: Yerine geçecek birleşik harita oluşturma**
+**Şekil 61: Yerine geçecek birleşik haritayı oluşturma**
 
 * Çift eksenden faydalanın. Çift eksen farklı değer aralıklarına sahip birden fazla ölçüyü karşılaştırmak için harika bir yoldur. Aynı zamanda iki ölçü arasındaki bağıntıyı tek bir görselde göstermek için de idealdir.
 
@@ -741,7 +741,7 @@ Aşağıdaki kabarcık grafiği Güney Amerika'yı ele alıp kişi başına GDP 
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble.png)
 
-**Şekil 62: Güney Amerika GDP ve nüfus kabarcık grafiği**
+**Şekil 62: Güney Amerika GDP ve nüfusu kabarcık grafiği**
 
 Yürütme ekseni eklerseniz Hans Rosling rolüne bürünebilir ve hikayenizi zaman içinde anlatabilirsiniz (https://www.youtube.com/watch?v=PbaDBJWCeD4). Yürütme ekseni eklemek için **Yürütme Ekseni** kutusuna bir tarih saat alanı sürükleyin.
 
@@ -809,7 +809,7 @@ Daha fazla bilgi için bkz.
 Şimdi burada öğrendiğiniz en iyi yöntemleri test edebilirsiniz.  İletişim halinde kalın ve kendi en iyi yöntemlerinizi paylaşın. Önerilerimizden farklı fikirleriniz veya "kuralları yıkmak" için iyi bir nedeniniz mi var?  Bunları da öğrenmek isteriz.  
 
 ### <a name="book-recommendations"></a>Kitap önerileri
-Ekiplerin görsel tasarım teknikleri üzerinde hakimiyet kurmasına yardımcı olacak birçok iyi kitap mevcuttur. Stephen Few'ın *Information Dashboard Design* (Bilgi Panosu Tasarımı) mutlaka okunması gereken kitaplardandır. Aynı yazarın *Show Me the Numbers* (Bana Sayıları Göster) ve *Now You See It* (Şimdi Görüyorsunuz) kitaplarında daha fazla ayrıntıya yer verilmiştir. Few ve birkaç farklı yazar, söz konusu alanda klasik olarak kabul edilen *The Visual Display of Quantitative Information* (Nicelik Bilgilerinin Görsel Gösterimi) kitabından ilham almıştır. Tufte, *Visual Explanations* (Görsel Açıklamalar), *Envisioning Information* (Bilgileri Görselleştirme) ve *Beautiful Evidence* (Güzel Kanıt) kitaplarının da yazarıdır. Andy Kirk'ün yeni kitabı *Data Visualization: A Handbook for Data Driven Design* (Veri Görselleştirme: Veri tasarımlı tasarım için el kitabı). Önerilen diğer yazarların bazıları: Lachlan James, William McKnight ve Boris Evelson (Forrester), Darkhorse Analytics.
+Ekiplerin görsel tasarım teknikleri üzerinde hakimiyet kurmasına yardımcı olacak birçok iyi kitap mevcuttur. Stephen Few'ın *Information Dashboard Design* (Bilgi Panosu Tasarımı) mutlaka okunması gereken kitaplardandır. Aynı yazarın *Show Me the Numbers* (Bana Sayıları Göster) ve *Now You See It* (Şimdi Görüyorsunuz) kitaplarında daha fazla ayrıntıya yer verilmiştir. Few ve birkaç farklı yazar, söz konusu alanda klasik olarak kabul edilen *The Visual Display of Quantitative Information* (Nicelik Bilgilerinin Görsel Gösterimi) kitabından ilham almıştır. Tufte, *Visual Explanations* (Görsel Açıklamalar), *Envisioning Information* (Bilgileri Görselleştirme) ve *Beautiful Evidence* (Güzel Kanıt) kitaplarının da yazarıdır. Bir diğer harika seçenek de Andy Kirk’ün yeni kitabı *Data Visualization: A Handbook for Data Driven Design*'dır. Önerilen diğer bazı yazarlar: Lachlan James, William McKnight ve Boris Evelson (Forrester), Darkhorse Analytics.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

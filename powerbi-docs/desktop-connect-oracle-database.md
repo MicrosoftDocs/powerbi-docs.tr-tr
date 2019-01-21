@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5b5dc41ee3f4d41f2e38053470054a8f453e4fb3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670313"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284507"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 **Power BI Desktop**'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklü Power BI Desktop sürümüne göre değişiklik gösterir: **32 bit** sürüm veya **64 bit** sürüm.
@@ -42,7 +42,7 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
 1. Veri Al penceresinde **Veritabanı > Oracle Veritabanı**'nı seçin
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Açılan **Oracle Veritabanı** iletişim kutusuna sunucu adını girip **Bağlan**'ı seçin. SID gerekiyorsa şu biçimi kullanarak belirtebilirsiniz: *SunucuAdı/SID*, SID burada veritabanının benzersiz adıdır. *SunucuAdı/SID* biçimi işe yaramıyorsa, HizmetAdı’nın bağlanırken kullanılan diğer ad olduğu *SunucuAdı/HizmetAdı*’nı kullanmayı deneyin.
+2. Açılan **Oracle Veritabanı** iletişim kutusuna sunucu adını girip **Bağlan**'ı seçin. SID gerekiyorsa şu biçimi kullanarak belirtebilirsiniz: *SunucuAdı/SID*, burada SID veritabanının benzersiz adıdır. *SunucuAdı/SID* biçimi işe yaramıyorsa, HizmetAdı’nın bağlanırken kullanılan diğer ad olduğu *SunucuAdı/HizmetAdı*’nı kullanmayı deneyin.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. Yerel veritabanı sorgusu kullanarak veri içeri aktarmak istiyorsanız sorgunuzu **SQL Deyimi** kutusuna girebilirsiniz. Bu kutuya ulaşmak için **Oracle Veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.

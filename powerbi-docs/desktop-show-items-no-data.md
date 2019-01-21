@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072900"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279999"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI'da öğeleri veri olmadan gösterme
 
@@ -65,7 +65,7 @@ Böylelikle Power BI Product tablosunda girdileri olan bileşimleri görüntüle
 
 **4. Farklı ve birbiriyle ilişkisiz tablolardaki gruplar**
 
-Örnek modelde bu bileşim yoktur, ancak farklı ve birbiriyle ilişkisiz tablolardan gruplar olsaydı Power BI iki sütunu ilişkilendiremeyecek ve sonuç her sütundaki tüm değerlerin çapraz birleşimi olacaktı. Böyle bir durumda veritabanında bu tür çapraz birleşimlerin hesaplanması pahalıya geleceğinden ve kullanıcıya pek fazla bilgi sağlanmayacağından Power BI *sınırlanmamış birleşim* türünde bir hata verir. 
+Örnek modelde bu bileşim yoktur, ancak farklı ve birbiriyle ilişkisiz tablolardan gruplar olsaydı Power BI iki sütunu ilişkilendiremeyecekti. Sonuç, her sütundaki tüm değerlerin çapraz birleşimi olacaktı. Böyle bir durumda veritabanında bu tür çapraz birleşimlerin hesaplanması pahalıya geleceğinden ve kullanıcıya pek fazla bilgi sağlanmayacağından Power BI *sınırlanmamış birleşim* türünde bir hata verir. 
 
 ![Sınırlanmamış birleşim için gösterilen hata](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ Böylelikle Power BI Product tablosunda girdileri olan bileşimleri görüntüle
 
 **Öğeleri veri olmadan göster** özelliği tam olarak bunu yapmanızı, yani ölçü verileri içermeyen (boş ölçü değerleri) veri satırlarını ve sütunlarını eklemenizi sağlar.
 
-**Öğeleri veri olmadan göster** özelliğini etkinleştirmek için bir görsel seçin, sonra da **Alanlar**'da alana sağ tıklayın ve aşağıdaki görüntüde gösterildiği gibi, açılan menüde **Öğeleri veri olmadan göster**'i seçin.
+**Öğeleri veri olmadan göster** özelliğini etkinleştirmek için bir görsel seçin, sonra da **Alanlar**'da alana sağ tıklayın ve aşağıdaki görüntüde gösterildiği gibi, açılan menüde **Öğeleri veri olmadan göster**'i seçin:
 
 ![Öğeleri veri olmadan göster özelliğini etkinleştirme](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -193,6 +193,6 @@ Bu bölümde, bu makaledeki örneklerde kullanılan örnek veri modeli gösteril
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu makalede, Power BI'da **Öğeleri veri olmadan göster** özelliğini nasıl etkinleştirebileceğiniz açıklanmıştır. Aşağıdaki makaleler de ilginizi çekebilir. 
+Bu makalede, Power BI'da **Öğeleri veri olmadan göster** özelliğini nasıl etkinleştirebileceğiniz açıklanmıştır. Aşağıdaki makaleler de ilginizi çekebilir: 
 
-* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI’da çok boyutlu modellerde varsayılan üye](desktop-default-member-multidimensional-models.md)

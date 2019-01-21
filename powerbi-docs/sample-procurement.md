@@ -1,23 +1,23 @@
 ---
-title: 'Procurement Analysis Sample: Tura katılın'
-description: 'Power BI için Procurement Analysis Sample: Tura katılın'
+title: 'Tedarik Analizi örneği: Tura katılın'
+description: 'Power BI için Tedarik Analizi örneği: Tura katılın'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717160"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287360"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Procurement Analysis Sample: Tura katılın
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarik Analizi örneği: Tura katılın
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Tedarik Analizi örneğine genel bakış
 Bu sektör örneği panosunda ve bağlantılı raporda, bir üretim şirketinin kategori ve konuma göre satıcılar için yaptığı harcamalar çözümlenmiştir. Bu örnekte şu alanları araştıracağız:
@@ -71,10 +71,10 @@ Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı)
 
 Aşağıdaki birkaç noktaya dikkat edin:
 
-* **Month ve Category tarafından düzenlenen Total Invoice** adlı çizgi grafiğinde: **Direct** kategorisinde oldukça tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
-* **Country/Region tarafından düzenlenen Total Invoice** adlı haritada: Harcamalarımızın çoğunu ABD'de yaptığımızı görüyoruz.
-* **Sub Category tarafından düzenlenen Total Invoice** adlı sütun grafiğinde: **Hardware** ve **Indirect Goods & Services** kategorilerinin, en fazla harcama yapılan kategoriler olduğu görülüyor.
-* Tier tarafından düzenlenen Total Invoice adlı çubuk grafiğinde: Büyük çoğunlukla, Katman 1'de (ilk 10) yer alan satıcılarımızla çalıştığımızı görüyoruz. Bu, satıcı ilişkilerinin daha iyi yönetilmesine yardımcı olur.
+* **Total Invoice by Month and Category** çizgi grafiğinde: **Direct** kategorisinde oldukça tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
+* **Total Invoice by Country/Region** haritasında: Harcamalarımızın çoğu ABD'dedir.
+* **Total Invoice by Sub Category** sütun grafiğinde: **Hardware** ve **Indirect Goods & Services** en yüksek harcama kategorileridir.
+* Total Invoice by Tier çubuk grafiğinde: İşlerimizin çoğu Tier 1 (ilk 10) satıcıyla yapılmıştır. Bu, satıcı ilişkilerinin daha iyi yönetilmesine yardımcı olur.
 
 ## <a name="spending-in-mexico"></a>Meksika'da yapılan harcamalar
 Şimdi de Meksika'daki harcama alanlarını araştıralım.

@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670130"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282276"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
 Power BI'a boyutu 1 GB'ın altındaki herhangi bir Excel çalışma kitabını yükleyebilirsiniz. Bir Excel çalışma kitabı iki bölümden oluşabilir: Veri Modeli ve raporun geri kalanını oluşturan temel çalışma sayfası içeriği. Aşağıdaki boyut sınırlarına uygunsa, raporu **OneDrive İş**'e kaydedebilir, Excel Online'da görüntüleyebilir veya Power BI'dan rapora bağlanabilirsiniz:
 
 * Çalışma kitabının tamamı en fazla 1 GB olabilir.
-* Temel çalışma sayfası içeriği en fazla 10 MB olabilir.
+* Temel çalışma sayfası içeriği en fazla 30 MB olabilir.
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>Temel çalışma sayfası içeriğinin 10 MB üzerine çıkmasına neden olan öğeler
-Temel çalışma sayfası içeriğinin 10 MB üzerine çıkmasına neden olabilecek bazı öğeler şunlardır:
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>Temel çalışma sayfası içeriğinin 30 MB'ın üzerine çıkmasına neden olan öğeler
+Temel çalışma sayfası içeriğinin 30 MB'ın üzerine çıkmasına neden olabilecek bazı öğeler şunlardır:
 
 * Görüntüler.
 * Gölgeli hücreler. [Hücre gölgelendirme biçimini kaldırma](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
@@ -44,14 +44,14 @@ Bu değişikliklerin herhangi birini yapmak için çalışma kitabını Excel'de
 [SharePoint Online'daki Excel çalışma kitapları için dosya boyutu sınırları](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e) hakkında daha fazla bilgi edinin.
 
 ## <a name="remove-data-from-worksheets"></a>Çalışma sayfalarındaki verileri kaldırma
-Excel'e Power Query sekmesinden veya Excel Veri sekmesinden veri aktarırsanız, çalışma kitabı, hem Excel tablosunda hem de Veri Modelinde aynı verileri içerebilir. Excel çalışma sayfalarındaki büyük tablolar temel çalışma sayfası içeriğinin 10 MB'nin üzerinde olmasına neden olabilir. Tabloyu Excel'den kaldırıp verileri Veri Modelinde tutmak raporun temel çalışma sayfası içeriğini önemli ölçüde azaltabilir. 
+Excel'e Power Query sekmesinden veya Excel Veri sekmesinden veri aktarırsanız, çalışma kitabı, hem Excel tablosunda hem de Veri Modelinde aynı verileri içerebilir. Excel çalışma sayfalarındaki büyük tablolar temel çalışma sayfası içeriğinin 30 MB'ın üzerinde olmasına neden olabilir. Tabloyu Excel'den kaldırıp verileri Veri Modelinde tutmak raporun temel çalışma sayfası içeriğini önemli ölçüde azaltabilir. 
 
 Excel'e veri aktarırken şu ipuçlarını aklınızda bulundurun:
 
 * **Power Query'de**: **Çalışma sayfasına yükle** kutusunun işaretini kaldırın.
   
   Veriler yalnızca Veri Modeline aktarılır; Excel çalışma sayfalarında veri bulunmaz.
-* **Excel Veri sekmesinde**: İçeri aktarma sihirbazında daha önceden **Tablo**'yu işaretlediyseniz, **Varolan Bağlantılar** \> bölümüne gidin ve \> **Yalnızca Bağlantı Oluştur**'a tıklayın. Özgün tabloyu veya ilk içeri aktarma işlemi sırasında oluşturulmuş olan tabloları silin.
+* **Excel Verileri sekmesinde**, daha önce içeri aktarma sihirbazında **Tablo**'yu işaretlediyseniz: **Varolan Bağlantılar**'a gidin \> bağlantıya tıklayın \> **Yalnızca bağlantı oluştur**'a tıklayın. Özgün tabloyu veya ilk içeri aktarma işlemi sırasında oluşturulmuş olan tabloları silin.
 * **Excel Veri sekmesinde**: **Verileri İçeri Aktar** kutusundaki **Tablo** seçeneğini işaretlemeyin.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer

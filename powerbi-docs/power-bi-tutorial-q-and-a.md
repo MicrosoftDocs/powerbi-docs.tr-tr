@@ -4,19 +4,19 @@ description: Pano ve raporlarda yeni görselleştirmeler oluşturmak için Power
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830022"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277377"
 ---
-# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Eğitim: Görselleştirmeler ve raporlar oluşturmak için Soru-Cevap özelliğini kullanma
+# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Öğretici: Görselleştirmeler oluşturmak ve raporları derlemek için Soru-Cevap’ı kullanma
 [Soru-Cevap özelliğine genel bakış](consumer/end-user-q-and-a.md) konulu makalede Power BI Soru-Cevap özelliğiyle tanışmanın yanı sıra *kullanıcılar* (kendileriyle paylaşılan panolara ve raporlara sahip olanlar) ile *oluşturucular* (bağlantılı raporlara ve veri kümelerine sahip olanlar) arasındaki farkı öğrendiniz. Bu eğitimin ilk kısmı öncelikli olarak, Power BI hizmeti aracılığıyla panoları kullanan kullanıcılar için tasarlanmıştır. İkinci kısım ise Power BI hizmeti veya Power BI Desktop'ı kullanarak rapor oluşturan kişiler için tasarlanmıştır. [Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded'da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır.
 
 Soru-Cevap, etkileşimli ve eğlenceli bir özelliktir. Bir soruyla başlayıp devamını getirerek görselleştirmelerin ilgi çekici dünyasında kısa bir seyahate çıkabilirsiniz. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
@@ -104,7 +104,7 @@ Soru-Cevap ile verileriniz hakkında bilgi edinmekle kalmaz Power BI'ın cevabı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki Soru-Cevap](consumer/end-user-q-and-a.md)  konusuna tekrar göz atın  
-[Eğitim: Perakende Analizi örneğiyle Soru-Cevap özelliğini kullanma](power-bi-visualization-introduction-to-q-and-a.md)   
+[Öğretici: Perakende Analizi örneğiyle Soru-Cevap özelliğini kullanma](power-bi-visualization-introduction-to-q-and-a.md)   
 [Soru-Cevap'ta soru sormaya yönelik ipuçları](consumer/end-user-q-and-a-tips.md)   
 [Bir çalışma kitabını Soru-Cevap için hazırlama](service-prepare-data-for-q-and-a.md)  
 [Soru-Cevap için şirket içi veri kümesi hazırlama](service-q-and-a-direct-query.md)

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679467"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282598"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -33,10 +33,10 @@ Hesaplamalarda, özellikle de ölçülerde ve hesaplanmış sütunlarda kullanı
 
 **Örnek Çalışma Kitabı**
 
-DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde Power BI Desktop için Contoso Sales örneği Önizleme dosyası kullanılmaktadır. Bu örnek dosya, [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) başlıklı makalede de kullanılmıştır. [Örnek dosyayı](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) buradan indirebilirsiniz.
+DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde Power BI Desktop için Contoso Sales örneği Önizleme dosyası kullanılmaktadır. Bu, [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) makalesinde kullanılan örnek dosyanın aynısıdır. [Örnek dosyayı](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) buradan indirebilirsiniz.
 
 ## <a name="lets-begin"></a>Haydi başlayalım!
-DAX'a ilişkin kavrayışımızı *Söz dizimi*, *İşlevler* ve *Bağlam* olmak üzere üç temel kavram etrafında şekillendireceğiz. Elbette, DAX'ta başka önemli kavramlar da bulunmaktadır ancak bu üç kavramı anlamak, DAX becerilerinizi oluşturmak için en iyi temeli sağlayacaktır.
+DAX'a ilişkin kavrayışımızı üç temel kavram etrafında şekillendireceğiz: *Söz dizimi*, *İşlevler* ve *Bağlam*. Elbette, DAX'ta başka önemli kavramlar da bulunmaktadır ancak bu üç kavramı anlamak, DAX becerilerinizi oluşturmak için en iyi temeli sağlayacaktır.
 
 ### <a name="syntax"></a>Söz dizimi
 Kendi formüllerinizi oluşturmadan önce DAX formül söz dizimine bir göz atalım. Söz dizimi, bir formülü oluşturan veya daha basit bir şekilde açıklamak gerekirse, formülün nasıl yazıldığına ilişkin çeşitli öğeleri içerir. Örneğin, bir ölçüye yönelik basit bir DAX formülüne bakalım.
@@ -93,7 +93,7 @@ Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını a�
    
 4. **CALCULATE** işlevi için, açma parantezinden **(** sonra **SUM** yazın ve daha sonra başka bir açma parantezi **(** daha yazın. Şimdi SUM işlevine bir bağımsız değişken iletmemiz gerek.
 
-5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount]** 'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
+5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount] **'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
     
 6. Birinci filtreyi belirtmek için virgül (**,**) yazın, daha sonra bir boşluk bırakın ve ardından **PREVIOUSQUARTER** yazın. Bu, filtremiz olacaktır.
     
@@ -134,7 +134,7 @@ Yanıtlara bu makalenin sonunda ulaşabilirsiniz.
 ### <a name="functions"></a>İşlevler
 İşlevler, bağımsız değişken olarak adlandırılan belirli değerleri özel bir sırada veya yapıda kullanarak hesaplamalar gerçekleştiren, önceden tanımlanmış formüllerdir. Diğer işlevler, farklı bir formül, ifade, sütun başvurular, sayılar, metinler, TRUE veya FALSE gibi mantıksal değerler ya da sabitler birer bağımsız değişken olabilir.
 
-DAX, şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.com/library/ee634786.aspx), [Akıllı Zaman Gösterimi](https://msdn.microsoft.com/library/ee634763.aspx),[Bilgi](https://msdn.microsoft.com/library/ee634552.aspx), [Mantıksal](https://msdn.microsoft.com/library/ee634365.aspx),[Matematiksel](https://msdn.microsoft.com/library/ee634241.aspx), [İstatistiksel](https://msdn.microsoft.com/library/ee634822.aspx), [Metin](https://msdn.microsoft.com/library/ee634938.aspx), [Üst/Alt Öğe](https://msdn.microsoft.com/library/mt150102.aspx) ve [Diğer](https://msdn.microsoft.com/library/mt150101.aspx) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
+DAX şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.com/library/ee634786.aspx), [Akıllı Zaman Gösterimi](https://msdn.microsoft.com/library/ee634763.aspx),[Bilgi](https://msdn.microsoft.com/library/ee634552.aspx), [Mantıksal](https://msdn.microsoft.com/library/ee634365.aspx),[Matematiksel](https://msdn.microsoft.com/library/ee634241.aspx), [İstatistiksel](https://msdn.microsoft.com/library/ee634822.aspx), [Metin](https://msdn.microsoft.com/library/ee634938.aspx), [Üst/Alt Öğe](https://msdn.microsoft.com/library/mt150102.aspx) ve [Diğer](https://msdn.microsoft.com/library/mt150101.aspx) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
 
 * Bir DAX işlevi, her zaman sütunun veya tablonun tamamına başvurur. Bir tablo veya sütundaki belirli değerleri kullanmak istiyorsanız formüle filtre ekleyebilirsiniz.
 * Hesaplamaları satır bazında özelleştirmeniz gerekiyorsa DAX, bağlama göre değişiklik gösteren hesaplamalar gerçekleştirmek için geçerli satır değerini veya ilgili bir değeri bağımsız değişken türü olarak kullanmanıza olanak sağlayan işlevler sunar. İlerleyen bölümlerde bağlam hakkında daha fazla bilgi edineceksiniz.
@@ -160,7 +160,7 @@ Satır bağlamı, en basit ifadeyle geçerli satır olarak düşünülebilir. Fo
 
 **Filtre bağlamı**
 
-Filtre bağlamını anlamak, satır bağlamını anlamaktan biraz daha zordur. En basit ifadeyle filtre bağlamını, bir sonucu veya değeri belirleyen hesaplamalarda uygulanan bir veya daha fazla filtre olarak düşünebilirsiniz.
+Filtre bağlamını anlamak, satır bağlamını anlamaktan biraz daha zordur. En basit ifadesiyle filtre kavramını şöyle düşünebilirsiniz: Bir sonucu veya değeri belirleyen hesaplamalarda uygulanan bir veya birden çok filtre.
 
 Filtre bağlamı, satır bağlamının yerine değil, satır bağlamına ek olarak uygulanır. Örneğin, bir hesaplamaya dahil edilecek değerlerin kapsamını daha fazla daraltmak için, yalnızca satır bağlamını değil, bu satır bağlamındaki belirli bir değeri (filtre) de belirten bir filtre bağlamı uygulayabilirsiniz.
 
@@ -186,7 +186,7 @@ Bu formül, aşağıdaki söz dizimi öğelerini içerir:
 
 **F.** Virgül (**,**), ilk ifade bağımsız değişkenini filtre bağımsız değişkeninden ayırır.
 
-**G.** Başvurulan sütunun tam adı: **Channel[ChannelName]**. Bu, bizim satır bağlamımızdır. Bu sütundaki her bir satır; Mağaza, Çevrimiçi gibi bir kanalı belirtir.
+**G.** Başvurulan sütunun tam adı: **Channel[ChannelName]**. Bu, bizim satır bağlamımızdır. Bu sütundaki her satır bir kanalı belirtir: Mağaza, Çevrimiçi, vb.
 
 **H.** Filtre olarak kullanılan belirli değer: **Store**. Bu, bizim filtre bağlamımızdır.
 

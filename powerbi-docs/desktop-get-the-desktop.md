@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909606"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281931"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -94,7 +94,7 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 * Windows 7/Windows Server 2008 R2 veya sonraki sürümler
 * .NET 4.5
 * Internet Explorer 9 veya sonraki sürümler
-* **Bellek (RAM):** En az 1 GB kullanılabilir bellek. (1.5 GB veya daha fazla bellek önerilir.)
+* **Bellek (RAM):** En az 1 GB kullanılabilir bellek. (1,5 GB veya daha fazla bellek önerilir.)
 * **Ekran:** En az 1440x900 veya 1600x900 (16:9) ekran önerilir. Belirli denetimler (başlangıç ekranını kapatma gibi) bu çözünürlükleri aşacağı için 1024x768 veya 1280x800 gibi daha düşük çözünürlükler önerilmez.
 * **Windows Görüntü ayarları:** Görüntü ayarlarınız metin, uygulama ve diğer öğelerin boyutunu %100'den fazla değiştirecek şekilde belirlendiyse **Power BI Desktop**'ı kullanmaya devam etmek için kapatılması veya yanıt verilmesi gereken bazı iletişim kutularını göremeyebilirsiniz. Bu sorunla karşılaşırsanız Windows'da **Ayarlar > Sistem > Görüntü** yolunu izleyerek **Görüntü ayarları**'nı denetleyin ve kaydırıcıyı kullanarak görüntü ayarlarını %100'e döndürün.
 * **CPU:** 1 gigahertz (GHz) veya daha hızlı x86 veya x64 bit işlemci önerilir.
@@ -115,7 +115,7 @@ Power BI Desktop’ın geçerli sürümüne güncelleştirme yapıldığında so
 Özellik, performans, kararlılık alanlarındaki ve diğer konulardaki gelişmelerden faydalanabilmeniz için Power BI Desktop'ı en son sürümüne güncelleştirmenizi öneririz. Bazı kuruluşlar kullanıcıların yeni bir sürüm çıktığında güncelleştirme yapmasını istemeyebilir. Aşağıdaki adımları izleyerek kayıt defterinde yapacağınız bir değişiklikle bildirimleri devre dışı bırakabilirsiniz:
 
 1. Kayıt Defteri Düzenleyicisi'ni kullanarak şu konuma gidin: *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
-2. Şu ayarlarla yeni bir giriş oluşturun: *REG_DWORD : DisableUpdateNotification*
+2. Orada aşağıdaki ayarlarla yeni girdi oluşturun: *REG_DWORD : DisableUpdateNotification*
 3. Yeni girişin değerini **1** olarak belirleyin.
 
 Değişikliğin etkili olabilmesi için bilgisayarınızı yeniden başlatmanız gerekir.
@@ -125,7 +125,7 @@ Değişikliğin etkili olabilmesi için bilgisayarınızı yeniden başlatmanız
 Belirli ekran çözünürlüğü yapılandırmalarında bazı kullanıcılar Power BI Desktop'ta büyük siyah alanların görüntülendiğini görebilir. Bu durum genellikle doğrudan Power BI Desktop'ın içerik sunmasıyla ilgili değil yapılan son işletim sistemi güncelleştirmelerinin öğelerin işlenme şeklini etkilemesiyle ilgilidir. Nedeni her ne olursa olsun büyük siyah alanların göze hoş görünmediğini biliyoruz. Bu sorunu gidermek için aşağıdaki adımları izleyebilirsiniz:
 
 1. Başlat tuşuna basın ve açılan arama çubuğuna *bulanık* yazın.
-2. Açılan iletişim kutusunda şu seçeneği belirleyin: *Uygulamaların bulanık olmaması için Windows'un uygulamaları düzeltmeye çalışmasına izin ver*.
+2. Açılan iletişim kutusunda şu seçeneği belirtin: *Bulanık uygulamaları Windows'un düzeltmesine izin ver.*
 3. Power BI Desktop'ı yeniden başlatın.
 
 Bu sorun sonraki Windows güncelleştirmeleriyle birlikte giderilebilir. 

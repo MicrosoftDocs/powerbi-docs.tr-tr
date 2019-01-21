@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829907"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273099"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI hizmetini veya Power BI Desktop'ı kullanarak Cortana için özel bir Yanıt Sayfası oluşturma
 Power BI'ı kullanarak *Cortana yanıt sayfaları* (ve bazı durumlarda *Cortana yanıt kartları*) adı verilen ve Cortana sorularını cevaplamak için tasarlanmış özel rapor sayfaları oluşturun.
@@ -32,7 +32,7 @@ Power BI için Cortana'yı kurma ve kullanma konularında size rehberlik edecek 
 
 **1. Makale**: [Cortana ve Power BI'ın birlikte nasıl çalıştığını öğrenin](service-cortana-intro.md)
 
-**2. Makale**: [Power BI raporlarında arama yapmak için: Cortana'yı etkinleştirme, Power BI - Windows tümleştirmesi](service-cortana-enable.md)
+**2. Makale**: [Power BI raporlarını aramak için: Cortana - Power BI - Windows tümleştirmesini etkinleştirme](service-cortana-enable.md)
 
 **3. Makale**: Bu makale
 

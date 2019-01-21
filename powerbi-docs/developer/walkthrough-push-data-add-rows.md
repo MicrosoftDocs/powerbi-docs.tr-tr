@@ -6,18 +6,18 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475672"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275307"
 ---
-# <a name="step-5-add-rows-to-a-power-bi-table"></a>5. Adım: Bir Power BI tablosuna satır ekleme
-Bu makale [bir veri kümesine veri gönderme](walkthrough-push-data.md) adım adım kılavuzunun bir parçasıdır.
+# <a name="step-5-add-rows-to-a-power-bi-table"></a>5 Adım: Bir Power BI tablosuna satır ekleme
+Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle kullanacaksınız. 
 
@@ -33,7 +33,7 @@ Power BI API kullanarak veri kümesine satırlar eklemek için aşağıdaki adı
 > 
 > 
 
-1. 2. Adım: Veri göndermeye ilişkin adım adım kılavuz, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) kapsamında oluşturduğunuz Konsol Uygulaması projesine aşağıdaki kodu ekleyin.
+1. 2. Adım: Veri göndermeye ilişkin adım adım kılavuz, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) bölümünde oluşturduğunuz Konsol Uygulaması projesinde, aşağıdaki kodu ekleyin.
 2. Konsol Uygulaması'nı çalıştırın ve Power BI hesabınızda oturum açın. Konsol Penceresinde **Rows Added** ifadesini görmeniz gerekir. Ayrıca Power BI'da oturum açarak da veri kümesine eklenen satırları görebilirsiniz.
 
 **Veri kümesine veri gönderme örneği**

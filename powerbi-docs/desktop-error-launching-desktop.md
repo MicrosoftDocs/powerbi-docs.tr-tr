@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578233"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277147"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Power BI Desktop'ın çalışmamasına neden olan sorunları giderme
 **Power BI Desktop**’ta eski **Power BI şirket içi veri ağ geçidi** sürümlerini yüklemiş ve çalıştırıyor olan kullanıcılar, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimsel ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını çalıştıramayabilir. 
@@ -23,13 +23,13 @@ ms.locfileid: "52578233"
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Şirket içi veri ağ geçidi ve Power BI Desktop ile ilgili sorunları giderme
 Şirket içi veri ağ geçidiyle ilgili sorunları gidermek ve Power BI Desktop’ın açılmasını sağlamak için kullanabileceğiniz üç seçenek vardır:
 
-### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>1. Çözüm: Power BI şirket içi veri ağ geçidinin en son sürümünü yükleyin
+### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>1. Çözüm: Power BI Şirket içi veri ağ geçidinin en son sürümünü yükleyin
 Power BI şirket içi veri ağ geçidinin en son sürümü yerel makinede adlandırılmış kanal kısıtlaması gerçekleştirmez ve Power BI Desktop uygulamasının düzgün şekilde çalışmasını sağlar. Power BI şirket içi veri ağ geçidini kullanmaya devam etmeniz gerekiyorsa sizin için önerilen çözüm budur. Power BI şirket içi veri ağ geçidinin en son sürümünü [buradan](https://go.microsoft.com/fwlink/?LinkId=698863) indirebilirsiniz. Bunun yükleme dosyasının doğrudan bağlantısı olduğunu unutmayın.
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>2. Çözüm: Power BI şirket içi veri ağ geçidi Windows hizmetini kaldırın ve ya durdurun
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>2. Çözüm: Power BI Şirket içi veri ağ geçidi Windows hizmetini kaldırın ve ya durdurun
 Power BI şirket içi veri ağ geçidine ihtiyacınız kalmadıysa yüklemesini kaldırabilir veya Power BI şirket içi veri ağ geçidi Windows hizmetini durdurabilirsiniz. Bu durumda ilke kısıtlaması kaldırılır ve Power BI Desktop uygulaması çalıştırılabilir.
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>3. Çözüm: Power BI Desktop uygulamasını yönetici ayrıcalıklarıyla çalıştırın
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>3. Çözüm: Power BI Desktop uygulamasını yönetici ayrıcalığıyla çalıştırın
 Alternatif olarak, Power BI Desktop uygulamasını yönetici olarak çalıştırabilir, başarıyla açılmasını sağlayabilirsiniz. Bu makalenin başlarında açıklandığı gibi, yine de Power BI şirket içi veri ağ geçidinin en son sürümünü yüklemeniz önerilir.
 
 Power BI Desktop’un çok işlemli bir mimari olarak tasarlandığını ve bu işlemlerden birkaçının Windows adlandırılmış kanalları kullanarak iletişim kurduğunu unutmamanız gerekir. Bu adlandırılmış kanalları engelleyen başka işlemler de olabilir. Virüsten koruma yazılımının ya da güvenlik duvarlarının kanalları engellediği veya trafiği belirli bir bağlantı noktasına yeniden yönlendirdiği durumların dahil olduğu bir güvenlik nedeniyle böyle bir engel oluşuyor olabilir. Power BI Desktop’ı yönetici ayrıcalığıyla başlatmak bu sorunu çözülebilir. Yönetici ayrıcalığıyla başlatmak mümkün değilse, uygulanan hangi güvenlik kurallarının adlandırılmış kanalların düzgün bir şekilde iletişim kurmasını engellediğini belirlemesi ve Power BI Desktop’ı ve ilgili alt işlemlerini izin verilenler listesine eklemesi için yöneticinize başvurun.

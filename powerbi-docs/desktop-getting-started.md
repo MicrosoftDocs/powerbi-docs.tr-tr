@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670942"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291660"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
@@ -69,7 +69,7 @@ Doğrudan *Hoş Geldiniz* ekranının sol bölmesindeki bağlantıları kullanar
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop'ta üç görünüm bulunur: **Rapor** görünümü, **Veri** görünümü ve **İlişkiler** görünümü. Power BI Desktop'ta, ayrı bir pencerede açılan **Sorgu Düzenleyicisi** de bulunur. **Sorgu Düzenleyicisi**'nde sorgular oluşturup verileri dönüştürebilir, ardından daraltılmış veri modelini Power BI Desktop'a yükleyebilir ve raporlar oluşturabilirsiniz.
+Power BI Desktop'ta üç görünüm vardır: **Rapor** görünümü, **Veri** görünümü ve **İlişkiler** görünümü. Power BI Desktop'ta, ayrı bir pencerede açılan **Sorgu Düzenleyicisi** de bulunur. **Sorgu Düzenleyicisi**'nde sorgular oluşturup verileri dönüştürebilir, ardından daraltılmış veri modelini Power BI Desktop'a yükleyebilir ve raporlar oluşturabilirsiniz.
 
 Aşağıdaki ekranda Power BI Desktop'ın sol tarafındaki üç görünüm simgesi gösterilmektedir: yukarıdan aşağıya **Rapor**, **Veri** ve **İlişkiler**. Sol tarafta bulunan sarı çubuk, görüntülenmekte olan görünümü belirtir. Bu örnekte şu anda **Rapor** görünümü görüntülenmektedir. Bu üç simgeden birini seçerek görünümleri değiştirebilirsiniz.
 

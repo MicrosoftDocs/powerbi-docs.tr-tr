@@ -5,23 +5,23 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 538d7d67c1a29a18333d998a79b599510cb89f88
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331931"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285404"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro lisanslarını satın alma ve atama
 
 Power BI Pro, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılarıyla işbirliği yapma dahil tüm içerik ve özelliklerine erişim izni veren bireysel bir lisanstır. Uygulama çalışma alanlarına içerik yayımlama ve uygulama çalışma alanlarından içerik kullanma, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI özellikleri](service-features-license-type.md).
 
-Bu makalede önce Office 365'te Power BI Pro lisansları satın alma işlemi açıklanır. Makale ardından bu lisansları bireysel kullanıcılara atamak için kullanabileceğiniz iki seçeneği açıklar: Office 365 ve Azure (yalnızca birini seçin).
+Bu makalede önce Office 365'te Power BI Pro lisansları satın alma işlemi açıklanır. Makalede bundan sonra bu lisansları bireysel kullanıcılara atamak için kullanabileceğiniz iki seçenek açıklanır: Office 365 ve Azure (yalnızca birini seçin).
 
 ## <a name="prerequisites"></a>Önkoşullar
 

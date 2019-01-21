@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670429"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283151"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -50,11 +50,11 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Hazırlayan: Gohul Shanmugalingam
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Power BI Verilerinizden Görsel Oluşturun: Temel Grafik Türleri ve Kullanma Yöntemleri**
+**Power BI Verilerinizden Görsel Oluşturun:  Temel Grafik Türleri ve Kullanma Yöntemleri**
 <br>Sağlayan: Miranda Li
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
-**Power BI, Excel ve Office 365: Kurumsal Verilerinizi İyileştirin**
+**Power BI, Excel ve Office 365: Kurumsal Verilerinizi En İyi Duruma Getirme**
 <br>Sağlayan: Olaf Hubel ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -78,7 +78,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI (Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj)**
+**Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj**
 <br>Sağlayan: Carlos Otero ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -142,7 +142,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Kasper de Jonge
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Ask a Partner: Developing Custom Visuals for Power BI (Bir İş Ortağınıza Sorun: Power BI için Özel Görseller Geliştirme)**
+**Ask a Partner: Developing Custom Visuals for Power BI (Bir İş Ortağına Sorun: Power BI için Özel Görseller Geliştirme)**
 <br>Sağlayan: Ted Pattison
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 **[Power BI benimseme çerçevesi web semineri serisi](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>Manu Kanwarpal ve Paul Henwood tarafından hazırlandı
-<br>[Hemen kaydolun ve izleyin - Bölüm 1 - Benimseme: Veri temelli bir kültür benimseme](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 2 - İdare: Power BI kullanımınızı yönetme](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 3 - Hizmet Yönetimi: Power BI Hizmet Yönetimi İçgörüleri](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 4 - Power BI ile verilerinizin güvenliğini koruma](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Hemen kaydolun ve izleyin - Bölüm 5 - Kullanıma Sunma: Power BI’ı başarıyla kullanıma sunma](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 1 - Adoption: Adopt a data-driven culture (Benimseme: Veri odaklı kültürü benimseme)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 2 - Governance: Govern your Power BI usage (Yönetim: Power BI kullanımınızı yönetme)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 3 - Service Management: Power BI Service Management Insights (Hizmet Yönetimi: Power BI Hizmet Yönetimi İçgörüleri)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 4 - Security: Keeping your data secure with Power BI (Güvenlik: Power BI ile verilerinizin güvenliğini koruma)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Hemen kaydolun ve izleyin - Bölüm 5 - Rollout: Successfully rolling out Power BI (Dağıtım: Power BI'ı başarılı bir şekilde dağıtma)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 Finans Uzmanları Web Semineri Serisi**
 <br>Hazırlayan: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky ve Miguel Martinez

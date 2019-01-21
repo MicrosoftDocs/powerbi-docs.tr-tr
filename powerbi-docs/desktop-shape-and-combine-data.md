@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670912"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285681"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme
 
@@ -81,7 +81,7 @@ Bu sorguyla çalışabilmek için, ilgili verileri istediğimiz hale getirmek ü
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-_Yeni Derece_ değerlerinin değişmediğine dikkat edin; bu, adımların sıralanmasından kaynaklanır. Adımlar Sorgu Düzenleyicisi tarafından sırasıyla, ancak birbirinden bağımsız olarak kaydedildiğinden her bir **Uygulanan Adım**'ı sıranın yukarısına veya aşağısına taşıyabilirsiniz. Sorgu Düzenleyicisi'nin şu seçenekleri belirlemenize olanak sağlayan menüyü sunması için herhangi bir adıma sağ tıklamanız yeterlidir: **Yeniden Adlandır**, **Sil**, **Sona** **Kadar Sil** (geçerli adımla birlikte sonraki tüm adımları kaldırma), **Yukarı Taşı** veya **Aşağı Taşı**. Devam edin ve _Özel Eklendi_ adımın hemen yukarısındaki son adım olan _Kaldırılan Sütunlar_ adımına geçin.
+_Yeni Derece_ değerlerinin değişmediğine dikkat edin; bu, adımların sıralanmasından kaynaklanır. Adımlar Sorgu Düzenleyicisi tarafından sırasıyla, ancak birbirinden bağımsız olarak kaydedildiğinden her bir **Uygulanan Adım**'ı sıranın yukarısına veya aşağısına taşıyabilirsiniz. Herhangi bir adımda sağ tıklarsanız, Sorgu Düzenleyicisi aşağıdakileri yapmanızı sağlayan bir menü görüntüler: **Yeniden Adlandır**, **Sil**, **Sona Kadar** **Sil** (geçerli adımı ve onu izleyen tüm adımları kaldır), **Yukarı Taşı** veya **Aşağı Taşı**. Devam edin ve _Özel Eklendi_ adımın hemen yukarısındaki son adım olan _Kaldırılan Sütunlar_ adımına geçin.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Kaldırmak istediğiniz sütun sayısını belirtmenizi sağlayan **Üst Satırl
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Birkaç gereksiz sütunu kaldırma: Yalnızca eyaletleri iki harfli resmi kısaltmalarıyla eşlememiz gerekiyor, bu nedenle şu sütunları kaldırabiliriz: **Sütun1**, **Sütun3**, **Sütun4** sütunlarının yanı sıra **Sütun6** ila **Sütun11** arasındaki satırlar. İlk olarak **Sütun1**’i seçin ve ardından **CTRL** tuşunu basılı tutarak (bitişik olmayan birden çok sütunu seçmenizi sağlar), kaldırılacak diğer sütunları seçin. Şeritteki Giriş sekmesinde, **Sütunları Kaldır \> Sütunları Kaldır** seçeneğini belirleyin.
+* Gereksiz sütunları kaldırma: Yalnızca eyaletleri iki harfli resmi kısaltmalarıyla eşlememiz gerekiyor, bu nedenle aşağıdaki sütunları kaldırabiliriz: **Sütun1**, **Sütun3**, **Sütun4** ve ardından **Sütun6** ile **Sütun11** arası. İlk olarak **Sütun1**’i seçin ve ardından **CTRL** tuşunu basılı tutarak (bitişik olmayan birden çok sütunu seçmenizi sağlar), kaldırılacak diğer sütunları seçin. Şeritteki Giriş sekmesinde, **Sütunları Kaldır \> Sütunları Kaldır** seçeneğini belirleyin.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

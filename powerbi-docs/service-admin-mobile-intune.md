@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 428ea77de2151f4ec3417f62819b3d6481c17ae2
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909698"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296237"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 
@@ -56,7 +56,7 @@ iOS için uygulama URL'sini iTunes'dan almamız gerekir.
 
 [Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>2. Adım: Mobil uygulama yönetim ilkeleri oluşturma
+## <a name="step-2-create-a-mobile-application-management-policy"></a>2. Adım: Mobil uygulama yönetim ilkesi oluşturma
 
 Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu tutabilirsiniz. Intune portalında bir ilke oluşturabilirsiniz.
 
@@ -96,7 +96,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 1. **Karşıya Yükle**'yi seçin.
 
-1. Uygulama listede yoksa sayfayı yenileyin: **Genel bakış**'a gidin ve yeniden **Uygulamalar**'ı seçin.
+1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
 
     ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -112,7 +112,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 1. **Karşıya Yükle**'yi seçin.
 
-1. Uygulama listede yoksa sayfayı yenileyin: **Genel bakış**'a gidin ve yeniden **Uygulamalar**'ı seçin.
+1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
 
     ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -159,7 +159,7 @@ Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölü
 
 Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölümünde **Evet** seçeneğinin gösterilmesi gerekir.
 
-## <a name="step-5-install-the-application-on-a-device"></a>5. Adım: Uygulamayı bir cihaza yükleme
+## <a name="step-5-install-the-application-on-a-device"></a>5 Adım: Uygulamayı bir cihaza yükleme
 
 Uygulamayı, *Şirket Portalı* uygulaması aracılığıyla yüklersiniz. Şirket Portalı uygulamasını henüz yüklemediyseniz iOS veya Android platformundaki uygulama mağazasını kullanarak edinebilirsiniz. Şirket Portalı'nda oturum açmak için kurumsal oturum açma bilgilerinizi kullanırsınız.
 

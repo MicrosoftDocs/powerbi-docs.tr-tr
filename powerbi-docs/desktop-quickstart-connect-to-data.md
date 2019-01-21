@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 01f36c65c63527256ce11c63f66c3ce4bc0a76c5
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670820"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279217"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı Başlangıç: Power BI Desktop’ta verilere bağlanma
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma
 
 Bu hızlı başlangıçta, veri modelleri derleme ve raporlar oluşturma işleminin ilk adımı olarak **Power BI Desktop** kullanarak verilere bağlanacaksınız.
 

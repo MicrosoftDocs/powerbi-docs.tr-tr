@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416878"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282575"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe/KPI'ye yönelik ilerlemeyi ölçen tek bir değer görüntüler.  Hedef veya hedef değer çizgi (iğne) ile gösterilir. Hedefe yönelik ilerleme gölgelendirme ile gösterilir.  İlerlemeyi gösteren değer ise yayın içinde kalın olarak gösterilir. Olası tüm değerler, minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağılır.
@@ -44,7 +44,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>1. Adım: Financial Sample adlı Excel dosyasını açın.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>1. Adım: Financial Sample adlı Excel dosyasını açma
 1. Henüz indirmediyseniz [Financial Sample adlı örnek Excel dosyasını indirin](../sample-financial-download.md). Dosyayı kaydettiğiniz yeri unutmayın.
 
 2. **Veri Al\> Dosyalar** seçeneğini belirleyip, dosyayı kaydettiğiniz konuma giderek dosyayı ***Power BI hizmetinde*** açın. **İçeri aktar**'ı seçin. Financial Sample, çalışma alanınıza bir veri kümesi olarak eklenir.
@@ -53,7 +53,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2. Adım: Brüt Satışı izlemeye yönelik bir ölçer oluşturma
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2. Adım: Gross Sales (Brüt Satış) değerini izlemeye yönelik bir ölçer oluşturma
 1. **Alanlar** bölmesinde, **Gross Sales** seçeneğini belirleyin.
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
@@ -66,7 +66,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
    
    ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
 
-### <a name="step-3-set-a-target-value"></a>3. Adım: Hedef değer belirleme
+### <a name="step-3-set-a-target-value"></a>3. Adım: Hedef değer ayarlama
 1. **COGS**'yi **Hedef değer** kutusuna sürükleyin.
 2. Toplama işlemini **Ortalama** olarak değiştirin.
    Power BI **$145.48K** olan hedef değerimizi gösteren bir iğne ekler. Hedefimize ulaştığımıza dikkat edin.
@@ -78,7 +78,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>4. Adım: Maksimum değer belirleme
+### <a name="step-4-set-a-maximum-value"></a>4. Adım: Maksimum değer ayarlama
 2. Adımda, Power BI, minimum (başlangıç) ve maksimum (bitiş) değerlerini otomatik olarak belirlemek için Değer alanını kullanmıştır.  Peki ya maksimum değeri kendiniz belirlemek isterseniz?  Mümkün olan maksimum değer olarak geçerli değerin iki katı yerine veri kümenizdeki en yüksek Brüt Satış değerini belirlemek istediğinizi varsayalım. 
 
 1. **Alanlar** listesindeki **Gross Sales** alanını **Maksimum Değer** kutusuna sürükleyin.
@@ -90,7 +90,7 @@ Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>5. Adım: Raporunuzu kaydetme
+### <a name="step-5-save-your-report"></a>5 Adım: Raporunuzu kaydedin
 1. [Raporu kaydedin](../service-report-save.md).
 2. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../service-dashboard-pin-tile-from-report.md). 
 

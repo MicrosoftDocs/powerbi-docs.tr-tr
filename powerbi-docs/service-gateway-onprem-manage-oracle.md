@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298355"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275928"
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 Şirket içi veri ağ geçidini yükledikten sonra, ilgili ağ geçidi ile kullanılabilecek veri kaynaklarını eklemeniz gerekir. Bu makalede, ağ geçitleriyle ve veri kaynaklarıyla nasıl çalışıldığı anlatılmaktadır. Oracle veri kaynağını, zamanlanmış yenileme veya DirectQuery için kullanabilirsiniz.
@@ -159,7 +159,7 @@ Adlandırma söz dizimi yanlış olduğunda veya doğru yapılandırılmadığı
 
 * ORA-12154: TNS: could not resolve the connect identifier specified (TNS: Belirtilen bağlantı tanımlayıcısı çözümlenemiyor)  
 * ORA-12514: TNS listener does not currently know of service requested in connect descriptor (TNS dinleyicisi, bağlantı tanımlayıcıda istenen hizmeti şu anda tanımıyor)  
-* ORA-12541: TNS: no listener (TNS: Dinleyici yok)  
+* ORA-12541: TNS: no listener (TNS: dinleyici yok)  
 * ORA-12170: TNS:Connect timeout occurred (TNS: Bağlantı zaman aşımı oluştu)  
 * ORA-12504: TNS listener was not given the SERVICE_NAME in CONNECT_DATA (CONNECT_DATA konumunda TNS dinleyicisine SERVICE_NAME verilmedi)  
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417384"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277676"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.
@@ -221,7 +221,7 @@ Bazen Power BI'da veri yenileme ile ilgili bilgi edinmenin en iyi yolu örnekler
 ### <a name="excel-workbook-with-tables-of-data"></a>Veri tabloları içeren Excel çalışma kitabı
 Birden fazla veri tablosu içeren bir Excel çalışma kitabınız var ancak bunların hiçbiri Excel veri modeline yüklü değil. Veri Al işlevini kullanarak çalışma kitabını yerel sürücünüzden Power BI'a yükleyip bir pano oluşturuyorsunuz. Daha sonra yerel sürücünüzdeki çalışma kitabı tablolarının bazıları üzerinde değişiklik yapıyorsunuz ve Power BI'daki panonuzu yeni veriler ile güncelleştirmek istiyorsunuz.
 
-Ne yazık ki bu senaryoda yenileme desteklenmez. Panonuzdaki veri kümesini yenilemek için çalışma kitabını yeniden yüklemeniz gerekecektir. Yine de harika bir çözüm yolu var: Çalışma kitabınızı OneDrive veya SharePoint Online'da tutun!
+Ne yazık ki bu senaryoda yenileme desteklenmez. Panonuzdaki veri kümesini yenilemek için çalışma kitabını yeniden yüklemeniz gerekecektir. Öte yandan, gerçekten harika bir çözüm vardır: Çalışma kitabı dosyanızı OneDrive'a veya SharePoint Online'a koyun!
 
 OneDrive veya SharePoint Online'daki bir dosyaya bağlandığınızda raporlarınız ve panolarınız, verileri dosyadaki şekilde gösterir. Bu durumda, Excel çalışma kitabınızda olduğu şekilde gösterir. Power BI otomatik olarak bir saatlik aralıklarla dosyayı denetler. Çalışma kitabında (OneDrive veya SharePoint Online'daki) değişiklik yaparsanız bu değişiklikler bir saat içinde panonuzda ve raporlarınızda yansıtılır. Hiçbir yenileme ayarlamanız gerekmez. Ancak, güncelleştirmelerinizi Power BI'da hemen görmeniz gerekiyorsa Şimdi Yenile işlevini kullanarak veri kümesini el ile yenileyebilirsiniz.
 

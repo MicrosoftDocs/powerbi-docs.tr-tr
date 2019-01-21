@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670751"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278090"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery ve SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:
@@ -32,19 +32,19 @@ Ayrıca, SAP BW'nun Power BI'da desteklenmeyen birçok özelliğinin olduğunu, 
 ## <a name="additional-modeling-restrictions"></a>Modellemeye İlişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca modelleme kısıtlamaları aşağıdaki gibidir:
 
-* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışıdır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
+* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışı bırakılmıştır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
 * **Ölçüler için ek sınırlamalar:** Ölçülerde kullanılan DAX ifadelerinde, SAP BW tarafından sunulan destek düzeyini yansıtan ek sınırlamalar söz konusudur.
 * **İlişki tanımlama desteklenmez:** İlişkiler dış SAP kaynağında belirlidir ve modelde bunlara ek olarak yeni ilişkiler tanımlanamaz.
 * **Veri Görünümü yoktur:** **Veri Görünümü** normalde tabloda ayrıntı düzeyindeki verileri gösterir. SAP BW gibi OLAP kaynakların yapısı gereği bu görünüm, SAP BW üzerinde kullanılamaz.
-* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görülebilen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
-* **DAX'taki ek sınırlamalar:** Ölçü tanımlamalarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
+* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görünen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
+* **DAX'taki ek sınırlamalar:** Ölçü tanımlarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
 
 ## <a name="additional-visualization-restrictions"></a>Görselleştirmelere ilişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca ek görselleştirme kısıtlamaları aşağıdaki gibidir:
 
-* **Sütunlarda toplama yoktur:** Bir görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
+* **Sütunlarda toplama yoktur:** Görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
 * **Ölçü filtreleme devre dışıdır:** SAP BW tarafından sunulan desteği yansıtması için ölçü filtreleme devre dışı bırakılmıştır.
-* **Çoklu seçim ve ekle/dışla:** Bir görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
+* **Çoklu seçim ve ekleme/dışlama:** Görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW özellikleri için destek
 Aşağıdaki tabloda, tam olarak desteklenmeyen veya Power BI kullanıldığında davranışı farklılık gösterecek olan tüm SAP BW özellikleri listelenmiştir.   

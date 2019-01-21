@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3bee2d5a4bbb470ed85d2ec0ae501d3dcc875e7f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135916"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286301"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 Azure SQL Veritabanı'na doğrudan nasıl bağlanacağınızı ve canlı verilerin kullanıldığı raporları nasıl oluşturacağınızı öğrenin. Verilerinizi Power BI yerine kaynakta tutabilirsiniz.
@@ -51,6 +51,10 @@ SSO özelliğini etkinleştirmek için veri kümesinin ayarlarına gidip **Veri 
 SSO seçeneği etkin olduğunda ve kullanıcılarınız bu veri kaynağını kullanan raporlara eriştiğinde, Power BI kimlik doğrulamasından geçen Azure AD kimlik bilgilerini Azure SQL veritabanı sorgularında gönderir. Bu sayede Power BI, veri kaynağı seviyesinde yapılandırılmış olan güvenlik ayarlarını uygular.
 
 SSO seçeneği bu veri kaynağını kullanan tüm veri kümelerinde geçerli olur. İçeri aktarma senaryoları için kullanılan kimlik doğrulama yöntemini etkilemez.
+
+> [!Note]
+> Azure Multi-Factor Authentication (MFA) desteklenmiyor. Azure SQL DirectQuery ile SSO kullanmak isteyen kullanıcıların MFA'dan muaf tutulması gerekir.
+>
 
 ## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
 Tam sunucu adınız ve veritabanınızın adı Azure Portal'da bulunabilir.

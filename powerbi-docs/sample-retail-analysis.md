@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717689"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291476"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
@@ -86,7 +86,7 @@ Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı)
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI Soru-Cevap ile oluşturulmuş olan bir kutucuğu gözden geçirme
 Biraz daha ayrıntıya inelim.
 
-1. Soruya "this year sales **by district**" yazın. Sonucu inceleyin: Yanıtı otomatik olarak bir çubuk grafiğe yerleştirir ve başka ifadeler önerir:
+1. Soruya "this year sales **by district**" yazın. Sonucu inceleyin: Yanıtı otomatik olarak bir çubuk grafiğe yerleştirir ve başka tümcecikler önerir:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Şimdi soruyu "this year sales **by zip and chain**" olarak değiştirelim.

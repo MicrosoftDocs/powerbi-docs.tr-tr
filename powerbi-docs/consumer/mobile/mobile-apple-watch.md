@@ -1,20 +1,20 @@
 ---
 title: Apple Watch'unuzdaki mobil uygulamada Power BI verilerini araştırma
 description: Power BI Apple Watch uygulaması
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: bb5257b801ddb8ff2269a102e4f6c299b1291df4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44747992"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278918"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
 Power BI Apple Watch uygulamasıyla, Power BI panolarınızdaki KPI'leri ve kart kutucuklarını doğrudan saatinizde görüntüleyebilirsiniz. KPI'ler ve kart kutucukları küçük ekranda bir kalp atışı ölçümü sunmak üzere en iyi şekilde yerleştirilir. iPhone'dan veya doğrudan Apple Watch'tan bir panoyu yenileyebilirsiniz.
@@ -32,7 +32,7 @@ Power BI Apple Watch uygulaması iki bölümden oluşur.
 * **Dizin ekranı**, eşitlenmiş panodan tüm KPI'lere ve kart kutucuklarına yönelik hızlı bir genel bakış sağlar.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* **Odak kutucuğu**: Dizin ekranında belirli bir kutucuğa ait kapsamlı bir görünüm için bir kutucuğa tıklayın.
+* **Odak kutucuğu**: Dizin ekranında belirli bir kutucuğun kapsamlı görünümü için kutucuğa tıklayın.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 

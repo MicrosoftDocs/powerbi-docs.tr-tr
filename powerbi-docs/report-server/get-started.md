@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289163"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291998"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
@@ -27,13 +27,13 @@ Power BI Rapor Sunucusu, içinde rapor ve KPI’ları görüntüleyip yönettiğ
 Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI Rapor Sunucusu, Power BI hizmeti gibi Power BI raporlarını (.PBIX) ve Excel dosyalarını barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir ve sayfalandırılmış raporları (.RDL) barındırır. Power BI Rapor Sunucusu, Reporting Services’in bir üst kümesidir: Reporting Services'de yapabileceğiniz her şeyi ve Power BI raporları desteğiyle birlikte daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Rapor Sunucusunu lisanslama
-Power BI Rapor Sunucusu iki farklı lisansla kullanılabilir: [Power BI Premium](../service-premium.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
+Power BI Rapor Sunucusu iki farklı lisansla sağlanır: [Power BI Premium](../service-premium.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
 
 > [!NOTE]
 > Power BI Premium için Power BI Rapor Sunucusu yalnızca P SKU’ları ile birlikte sunulur. EM SKU’larına dahil değildir.
 
 ## <a name="web-portal"></a>Web portalı
-Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görüntüleyebileceğiniz güvenli bir web portalıdır. Buradan tüm raporlarınıza ve KPI'larınıza erişirsiniz. Web portalındaki içerik, geleneksel bir klasör hiyerarşisi halinde düzenlenir. Klasörlerinizde içerikler biçimlerine göre gruplandırılır: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar, KPI’lar ve Excel çalışma kitapları. Paylaşılan veri kümeleri ve paylaşılan veri kaynakları raporlarınızın yapı taşı olarak kullanılmak üzere kendi klasörlerinde yer alır. Sık kullanılanları tek bir klasörde görüntülemek üzere etiketlersiniz. Ayrıca doğrudan web portalında KPI'lar oluşturursunuz. 
+Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görüntüleyebileceğiniz güvenli bir web portalıdır. Buradan tüm raporlarınıza ve KPI'larınıza erişirsiniz. Web portalındaki içerik, geleneksel bir klasör hiyerarşisi halinde düzenlenir. Klasörlerinizde, içerik türe göre gruplandırılır: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar, KPI’lar ve Excel çalışma kitapları. Paylaşılan veri kümeleri ve paylaşılan veri kaynakları raporlarınızın yapı taşı olarak kullanılmak üzere kendi klasörlerinde yer alır. Sık kullanılanları tek bir klasörde görüntülemek üzere etiketlersiniz. Ayrıca doğrudan web portalında KPI'lar oluşturursunuz. 
 
 ![Power BI Rapor Sunucusu web portalı](media/get-started/web-portal.png)
 

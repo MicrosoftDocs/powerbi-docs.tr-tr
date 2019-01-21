@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072233"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287658"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI’da self servis veri hazırlığı (Önizleme)
 
@@ -92,7 +92,7 @@ Aşağıdaki tabloda, Power BI Pro hesabı kullanıldığında veri akışı öz
 |Veri akışı bağlantılı varlıklar| |        +|
 |Standartlaştırılmış Şema / Ortak Veri Modeli için Yerleşik Destek|  +|  +|
 
-Premium kapasitede veri akışı iş yüklerini etkinleştirme hakkında daha fazla bilgi için, Power BI Premium'un [iş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads) makalesine bakın.
+Premium kapasitede veri akışı iş yüklerini etkinleştirme hakkında daha fazla bilgi için, Power BI Premium'un [iş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads) makalesine bakın. Veri akışı iş yükleri şu anda Multi-Geo kapasitelerinde sağlanmaz.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI'da büyük veriler için self servis veri hazırlığının özeti
 Bu makalede daha önce belirtildiği gibi, **veri akışlarının** iş verilerinizden daha iyi denetim ve daha hızlı içgörü elde etmenize olanak tanıdığı birçok senaryo ve örnek vardır. Ortak Veri Modeli tarafından tanımlanan standart veri modelini (şema) kullanarak, veri akışları değerli iş verilerinizi içeri aktarabilir ve verilerin eskiden oluşturması aylarca hatta daha da uzun süren BI içgörülerini çok kısa bir sürede modellemeye ve oluşturmaya hazır olmasını sağlar. 

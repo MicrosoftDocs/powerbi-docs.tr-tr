@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027472"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277446"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri veya diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
@@ -249,8 +249,8 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 | **cardName** |
 | --- |
 | axis: Ölçer ekseni |
-| breakdown: Kırılım |
-| bubbles: Kabarcıklar |
+| breakdown: Çözümleme |
+| bubbles: Balonlar |
 | calloutValue: Açıklama Balonu Değeri |
 | card: Kart |
 | cardTitle: Kart Başlığı |
@@ -259,18 +259,18 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 | columnFormatting: Alan biçimlendirme |
 | columnHeaders: Sütun başlıkları |
 | dataLabels: Veri etiketleri |
-| fill: Dolgu |
+| fill: Doldur |
 | fillPoint: Doldurma noktası |
 | forecast: Tahmin |
 | general: Genel |
 | goals: Hedefler |
 | grid: Kılavuz |
-| header: Başlık |
+| header: Üst bilgi |
 | imageScaling: Ölçeklendirme |
 | indicator: Gösterge |
-| items: Öğeler |
+| items: Öğeleri |
 | labels: Veri etiketleri |
-| legend: Açıklama |
+| legend: Gösterge |
 | lineStyles: Şekiller |
 | mapControls: Eşleme denetimleri |
 | mapStyles: Eşleme stilleri |
@@ -284,7 +284,7 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 | rotation: Döndürme |
 | rowHeaders: Satır başlıkları |
 | selection: Seçim Denetimleri |
-| sentimentColors: Yorum renkleri |
+| sentimentColors: Yaklaşım renkleri |
 | shape: Şekil |
 | slider: Kaydırıcı |
 | status: Renk kodlaması |

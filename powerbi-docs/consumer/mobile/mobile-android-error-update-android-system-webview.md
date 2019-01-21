@@ -1,20 +1,20 @@
 ---
 title: "\"Android System Webview'un güncelleştirilmesi gerekiyor\" hatasının düzeltilmesi - Power BI"
 description: Android mobil uygulamasında oturum açmaya çalıştığınız sırada, Android System Webview'u güncelleştirmeniz gerektiğini belirten bir ileti alabilirsiniz.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: cf976e87acd2d131b99322446ff80a4e376d0985
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744745"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274939"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>"Android System Webview'un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi
 Microsoft Power BI için Android mobil uygulamasında oturum açtığınız sırada, Android System Webview'u güncelleştirmeniz gerektiğini belirten bir ileti ile karşılaşabilirsiniz. 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728123"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281195"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -28,7 +28,7 @@ Power BI'ın kullanılabildiği ülkelerin ve bölgelerin bir listesi için [ulu
 Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 
 * Arapça
-* Bask dili - Basque
+* Baskça - Basque
 * Bulgarca - Български
 * Katalanca - català
 * Çince (Basitleştirilmiş) - 中文(简体)
@@ -36,7 +36,7 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Hırvatça - hrvatski
 * Çekçe - čeština
 * Danca - dansk
-* Hollanda dili - Nederlands
+* Felemenkçe - Nederlands
 * İngilizce - English
 * Estonca - eesti
 * Fince - suomi
@@ -47,14 +47,14 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * İbranice
 * Hintçe - हिंदी
 * Macarca - magyar
-* Endonezya dili - Bahasa Indonesia
+* Endonezce - Bahasa Indonesia
 * İtalyanca - italiano
 * Japonca - 日本語
 * Kazakça - Қазақ
-* Kore dili - 한국어
+* Korece - 한국어
 * Letonca - latviešu
 * Litvanca - lietuvių
-* Malay dili - Bahasa Melayu
+* Malayca - Bahasa Melayu
 * Norveççe (Bokmål) - norsk (bokmål)
 * Lehçe - Polski
 * Portekizce (Brezilya) - Português
@@ -66,10 +66,10 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Slovakça - slovenčina
 * Slovence - slovenski
 * İspanyolca - español
-* İsveç dili - svenska
-* Tay dili - ไทย
+* İsveççe - svenska
+* Tayca - ไทย
 * Türkçe
-* Ukrayna dili - українська
+* Ukraynaca - українська
 * Vietnamca - Tiếng Việt
 
 ### <a name="whats-translated"></a>Neler çevrilir?
@@ -116,7 +116,7 @@ Power BI, bilgisayarınızdaki dil tercihlerine göre dilinizi algılar. Bu terc
    Değişikliğin uygulanması için tarayıcınızı kapatıp yeniden açmanız gerekebilir.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Power BI Desktop'ta dili veya yerel ayarı seçme
-Power BI Desktop'ı edinmenin iki yolu vardır: İndirebilir veya Windows Mağazası'ndan yükleyebilirsiniz.
+Power BI Desktop'ı almanızın iki yolu vardır: Uygulamayı indirebilir veya Windows Store'dan yükleyebilirsiniz.
 
 * [Power BI Desktop'ı Windows Mağazası'ndan yükleyecekseniz](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store) tüm diller yüklenir ve Windows işletim sisteminizdeki varsayılan dile karşılık gelen dil gösterilir.
 * [Power BI Desktop'ı indirecekseniz](#choose-a-language-when-you-download-power-bi-desktop) dili, indirme işleminden önce seçersiniz. 
@@ -185,7 +185,7 @@ Yardım belgeleri şu 10 dilde kullanıma sunulmuştur:
 * Almanca - Deutsch
 * İtalyanca - italiano
 * Japonca - 日本語
-* Kore dili - 한국어
+* Korece - 한국어
 * Portekizce (Brezilya) - Português
 * Rusça - Русский
 * İspanyolca - español

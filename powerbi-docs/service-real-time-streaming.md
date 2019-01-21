@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417177"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296513"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -44,7 +44,7 @@ Gönderim veri kümesinden alınan sabitlenmiş kutucuklar hakkında göz önün
 * Bir panoya görsel sabitledikten sonra, doğal dilde gönderim veri kümesi hakkında soru sormak için **Soru-Cevap**'ı kullanabilirsiniz. **Soru-Cevap** sorgusu yaptığınızda, elde edilen görseli panoya tekrar sabitleyebilirsiniz, böylece bu pano *da* gerçek zamanlı olarak güncelleştirilir.
 
 ### <a name="streaming-dataset"></a>Akış veri kümesi
-Bir **akış veri kümesi** kullanıldığında, veriler Power BI hizmetine de gönderilir ancak arada önemli bir fark vardır: Power BI, verileri yalnızca kısa süre içinde süresi dolan geçici bir önbellekte depolar. Geçici önbellek, yalnızca kısa süreli bir zaman algısına sahip görsellerin (bir saatlik zaman penceresi bulunan çizgi grafiği gibi) görüntülenmesinde kullanılır.
+**Akış veri kümesiyle**, yine veriler Power BI hizmetine gönderilir ama önemli bir fark vardır: Power BI verileri yalnızca geçici bir önbellekte depolar ve bunun süresi hızla dolar. Geçici önbellek, yalnızca kısa süreli bir zaman algısına sahip görsellerin (bir saatlik zaman penceresi bulunan çizgi grafiği gibi) görüntülenmesinde kullanılır.
 
 **Akış veri kümesi** kullanırken, temel alınan veritabanı *bulunmadığı* için, akıştan gelen verileri kullanarak rapor görselleri *oluşturamazsınız*. Bu nedenle, filtreleme, özel görseller ve diğer rapor işlevleri gibi rapor özelliklerinden yararlanamazsınız.
 
@@ -138,7 +138,7 @@ Bu sayfada, önceden oluşturduğunuz bir akış veri kümesinin bulunması hali
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
-**+** simgesine tıkladığınızda, iki seçenek görürsünüz:
+** + ** simgesine tıkladığınızda, iki seçenek görürsünüz:
 
 ![](media/service-real-time-streaming/real-time-streaming_4a.png)
 

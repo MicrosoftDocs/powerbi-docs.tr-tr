@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900548"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296812"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -42,10 +42,10 @@ Daha fazla bilgi için bkz. [Temel Alan grafiği](power-bi-visualization-basic-a
 >[!TIP]
 >Belirli bir değere farklı kategorilerde bakmak için standart olarak çubuk grafikler kullanılır.
 
-### <a name="cards-multi-row"></a>Kartlar: Çok satırlı kart
+### <a name="cards-multi-row"></a>Kartlar: Çok satırlı
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>Kartlar: Tek sayı içeren kart
+### <a name="cards-single-number"></a>Kartlar: Tek sayı
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md).
@@ -96,7 +96,7 @@ Daha fazla bilgi için bkz. [Power BI'daki KPI’lar](power-bi-visualization-kpi
 >[!TIP]
 >Değerler dizisinin tümünün, genellikle zaman içindeki genel şeklini vurgular.
 
-### <a name="maps-basic-maps"></a>Haritalar: Basit haritalar
+### <a name="maps-basic-maps"></a>Haritalar: Temel haritalar
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -109,7 +109,7 @@ Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktala
 
 Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](../power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Haritalar: Doldurulmuş haritalar (Koroplet haritalar)
+### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]

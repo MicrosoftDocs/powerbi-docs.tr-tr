@@ -5,16 +5,16 @@ author: jtarquino
 manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101543"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292073"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -95,23 +95,23 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - Paylaşılan veri kümesini var olan Sayfalandırılmış Raporlara (RDL) ayarlama için düzeltme
             - Raporu farklı parametre değerleri ile PDF'e aktarırken ExecutionNotFoundException hatası için düzeltme
 
-    - *Sürüm: 1.1.6551.5155 (Derleme: 14.0.600.438), Yayımlanma Tarihi: 11 Aralık 2017*
+    - *Sürüm 1.1.6551.5155 (Derleme 14.0.600.438), Yayın Tarihi: 11 Aralık 2017*
         - Hata Düzeltmeleri
             - Belirli Power BI Desktop raporlarında yenilemeden sonra verilerin yenilenememesi.
 
-    - *Sürüm: 1.1.6530.30789 (Derleme: 14.0.600.437), Yayımlanma Tarihi: 17 Kasım 2017*
+    - *Sürüm 1.1.6530.30789 (Derleme 14.0.600.437), Yayın Tarihi: 17 Kasım 2017*
         - Hata Düzeltmeleri
             - Temel Kimlik Doğrulaması Senaryolarına yönelik düzeltme 
             - Portal'daki Abonelikler, Önbellek Yenileme Planları ve Geçmiş Anlık Görüntüleri'ne ilişkin zamanlama sayfasında haftanın günlerinin seçilememesine yönelik düzeltme
             - Sayfalandırılmış Raporlar (RDL) için, TextBox sınıfında CanGrow özelliğinin false olarak ayarlandığı ifadelerin bulunması halinde değerlerin renklerinin ve yazı tiplerinin düzgün görüntülenmemesine yönelik düzeltme
             - Power BI Raporları için (PBIX), çizgi grafiğe Açıklamalar eklendiğinde boş bir görselin görüntülenmesine yönelik düzeltme
 
-    - *Sürüm: 1.1.6514.9163 (Derleme: 14.0.600.434), Yayımlanma Tarihi: 1 Kasım 2017*
+    - *Sürüm 1.1.6514.9163 (Derleme 14.0.600.434), Yayın Tarihi: 1 Kasım 2017*
         - Hata Düzeltmeleri
             - Boyutu 500 MB'ı aşan PBIX raporlarına ilişkin karşıya yükleme güvenilirliği sorunlarına yönelik düzeltme
             - Boyutu 1 GB'ı aşan PBIX raporlarına ilişkin yükleme sorununa yönelik düzeltme
 
-    - *Sürüm: 1.1.6513.3500 (Derleme: 14.0.600.433), Yayımlanma Tarihi: 31 Ekim 2017*
+    - *Sürüm 1.1.6513.3500 (Derleme 14.0.600.433), Yayın Tarihi: 31 Ekim 2017*
         - Özellikler
             - Katıştırılmış Veri Modeli Desteği
             - Excel Çalışma Kitabı Görüntüleme (Office Online Server tümleştirmesi etkin durumdayken)
@@ -130,13 +130,13 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
     - *Sürüm: 2.51.4885.2501 (Ekim 2017), Yayın Tarihi: 10 Ocak 2018*
         - Güvenlik Güncelleştirmeleri
 
-    - *Sürüm: 2.51.4885.1423 (Ekim 2017), Yayımlanma Tarihi: 17 Kasım 2017*
+    - *Sürüm: 2.51.4885.1423 (Ekim 2017), Yayın Tarihi: 17 Kasım 2017*
         - Hata Düzeltmeleri
             - x86 işletim sistemlerinde çalıştırılamayan 32 bit Power BI Desktop'a yönelik düzeltme
             - Power BI Raporları (PBIX) için, x ekseni kılavuz çizgilerini göstermeye yönelik düzeltme
             - Diğer küçük hata düzeltmeleri
 
-    - *Sürüm: 2.51.4885.1041 (Ekim 2017), Yayımlanma Tarihi: 31 Ekim 2017*
+    - *Sürüm: 2.51.4885.1041 (Ekim 2017), Yayın Tarihi: 31 Ekim 2017*
         - Özellikler
             - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Ekim 2017)
 
@@ -146,18 +146,18 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
     - *Derleme 14.0.600.309, Yayın Tarihi: 10 Ocak 2018*
         - Güvenlik Güncelleştirmeleri
 
-    - *Derleme: 14.0.600.305, Yayımlanma Tarihi: 19 Eylül 2017*  
+    - *Derleme 14.0.600.305, Yayın Tarihi: 19 Eylül 2017*  
         - Hata Düzeltmeleri
             - En son [Bing Haritalar Web Denetimi](https://msdn.microsoft.com/library/mt712542.aspx) sürümüne yönelik güncelleştirme
 
-    - *Derleme: 14.0.600.301, Yayımlanma Tarihi: July 11, 2017*
+    - *Derleme 14.0.600.301, Yayın Tarihi: 11 Temmuz 2017*
         - Hata Düzeltmeleri
             - `{{UserId}}` etiketinin, Power BI Raporlarında raporu yürüten kullanıcı yerine, depolanan kimlik bilgilerini çözümlemesi
             - Bazı görüntülerin Power BI Rapor Sunucusu'nda görüntülenememesi
             - Power BI Rapor Sunucusu'ndaki bir Power BI Raporunun adının değiştirilememesi
             - Power BI mobil uygulamasında Özel Görsellerin yüklenememesi (yerel önbelleğin temizlenmesi için mobil uygulamanın yeniden yüklenmesinin gerekmesi)
 
-    - *Derleme: 14.0.600.271, Yayımlanma Tarihi: 12 Haziran 2017*
+    - *Derleme 14.0.600.271, Yayın Tarihi: 12 Haziran 2017*
         - Power BI Rapor Sunucusu ilk sürümü
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**

@@ -1,20 +1,20 @@
 ---
 title: Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 description: Power BI telefon uygulamalarında görüntülemek için en iyi duruma getirilmiş rapor sayfalarıyla etkileşim kurma hakkında bilgi edinin.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547810"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276918"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -48,7 +48,7 @@ Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, s
     ![Phone BI telefon raporunda gelişmiş filtreleme](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Görsellerde çapraz vurgulama
-Telefon raporlarında görsellerde çapraz vurgulama, Power BI hizmetinde ve yatay görünümde telefonlardaki raporlarda olduğu şekilde çalışmaya devam eder. Bir görselde veri seçtiğinizde, o sayfada bulunan diğer görsellerdeki ilgili verileri vurgular.
+Telefon raporlarında görselleri çapraz vurgulama, Power BI hizmetiyle aynı şekilde çalışır ve telefonlardaki raporlarda yatay görünümde: Bir görseldeki verileri seçtiğinizde, aynı sayfada yer alan diğer görsellerin ilgili verilerini vurgular.
 
 [Power BI'da filtreleme ve vurgulama](../../power-bi-reports-filters-and-highlighting.md) hakkında daha fazla bilgi edinin.
 

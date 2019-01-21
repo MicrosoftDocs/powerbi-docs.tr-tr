@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983382"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285611"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
@@ -29,41 +29,38 @@ Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok fark
 * Ayrılan renk ölçeklerini kullanma
 * Power BI'da yapılan bir işlemi geri alma
 
-Herhangi bir değişiklik yapmak için, bir raporu düzenliyor olmanız gerekir: **Çalışma Alanım** bölmesinden **Raporunuzu** seçin. Ardından, aşağıda gösterildiği şekilde üst menü alanında **Raporu Düzenle** seçeneğini belirleyin. Burada **İnsan Kaynakları örneği** kullanılır.
+Değişiklik yapmak için raporu düzenliyor olmalısınız. Raporu açın ve aşağıdaki görüntüde gösterildiği gibi üst menü alanından **Raporu Düzenle**'yi seçin.
 
-![Raporu düzenle seçeneğinin vurgulandığı rapor tuvali](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-**Rapor** tuvalinin sağ tarafında **Görsel Öğeler** bölmesi göründüğünde özelleştirme işlemine başlayabilirsiniz.
+**Rapor** tuvalinin sağ tarafında **Görsel Öğeler** bölmesi göründüğünde özelleştirme işlemine başlayabilirsiniz. Bölme gösterilmiyorsa, açmak için sağ üst köşeden oku seçin.
 
-![Biçimlendirme bölmesinin gösterildiği rapor](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Tek bir veri noktasının rengini değiştirme
-Bazen belirli bir veri noktasını vurgulamak istersiniz. Örneğin, yeni bir ürünün lansmanı için satış rakamları veya yeni bir programın tanıtımından sonra kalite puanlarındaki artış ile ilgili bir noktanın vurgulanması gerekebilir. Power BI ile, görsel türlerinin çoğunda rengini değiştirerek belirli bir veri noktasını vurgulayabilirsiniz.
+Bazen belirli bir veri noktasını vurgulamak istersiniz. Örneğin, yeni bir ürünün lansmanı için satış rakamları veya yeni bir programın tanıtımından sonra kalite puanlarındaki artış ile ilgili bir noktanın vurgulanması gerekebilir. Power BI ile rengini değiştirerek belirli bir veri noktasını vurgulayabilirsiniz.
 
-Aşağıdaki görselleştirmede, varsayılan renkler kullanılarak çalışana göre satış getirileri görüntülenir. 
+Aşağıdaki görselleştirme satılan birimleri ürün segmentine göre derecelendirir. 
 
-![alan grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Annelie'nin alanını görmek zor oluyor, bunun yerine dikkati çekecek bir renk kullanalım. Uygulamanız gereken adımlar:
+Şimdi, renkleri kullanarak bu yeni segmentin nasıl performans gösterdiğini ortaya koymak için **Convenience** segmentine dikkat çekmek istediğinizi düşünün. Uygulamanız gereken adımlar:
 
-**Veri Renkleri** bölümünü genişletin. Aşağıdaki seçeneklerle karşılaşırsınız.
+**Veri Renkleri** bölümünü genişletin ve **Tümünü göster** için kaydırıcıyı Açık konuma getirin. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Veri noktalarının üzerine geldiğinizde herhangi bir veri noktası üzerinde değişiklik yapabilmeniz için kaydırma etkinleştirilir.
 
-![Biçimlendirme'nin altındaki Veri Renkleri seçim alanı](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+**Convenience** veri noktasını turuncu olarak ayarlayın. 
 
-Burada, Valery için kullanılan rengin benzeri olmayan, koyu ama parlak bir renk seçelim. Annelie'nin renk kutusunun içindeki aşağı oku seçtikten sonra, **Özel Renk**'i ve parlak maviyi seçin.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![renk seçimleri](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Seçtiğinizde, **Convenience** veri noktası turuncunun güzel bir tonunda vurgulanır ve belirgin bir şekilde öne çıkar.
 
-Bu seçildikten sonra, Annelie'nin alanını diğer çalışanlarınkinden ayırt etmek çok daha kolaylaştı. 
+Görselleştirme türlerini değiştirip geri dönseniz bile Power BI seçiminizi hatırlar ve **Convenience**'ın turuncu kalmasını sağlar.
 
-![alan grafiği, Annelie'nin alanı artık parlak mavi](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+Görselleştirmede bir veya birkaç veri öğesi ya da veri öğelerinin tümü için veri noktasının rengini değiştirebilirsiniz. Görselinizin, şirketinizin renklerini yansıtmasını da istiyor olabilirsiniz. 
 
-Görselleştirme türlerini değiştirip geri dönseniz bile Power BI seçiminizi hatırlar ve **Washington**'ın yeşil renkte kalmasını sağlar.
-
-Birden fazla veri öğesine ilişkin bir veri noktasının rengini de değiştirebilirsiniz. Aşağıdaki görüntüde **Arizona** kırmızı, **Washington** ise hâlâ yeşil renktedir.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 Renkleri kullanarak her türlü işlemi gerçekleştirebilirsiniz. Sonraki bölümde, gradyanlara bakacağız.
 
@@ -73,16 +70,27 @@ Grafiklerde genellikle renkleri, bir alanın sayısal değerine göre dinamik ol
 Aşağıdaki bölümlerde, renk için bir sayısal değeri temel almaya ilişkin farklı yöntemler gösterilmiştir.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>Veri noktalarının rengi için bir değeri temel alma
-Rengi bir değere göre değiştirmek için, renk için temel alınmasını istediğiniz alanı **Alanlar** bölmesindeki **Renk Doygunluğu** alanına sürükleyin. Aşağıdaki görüntüde, **Profit before tax** alanı **Renk Doygunluğu** alanına sürüklenmiştir. Göreceğiniz üzere **Velo**'nun **Gross Sales** değeri daha yüksek olsa da (sütunu daha yüksekte), **Amarilla**'nın **Profit before tax** değeri daha fazladır (sütunundaki renk doygunluğu daha fazla).
+Rengi bir değere göre değiştirmek için, renk için temel alınmasını istediğiniz alanı **Alanlar** bölmesindeki **Renk Doygunluğu** alanına sürükleyin. Aşağıdaki görüntüde, **%Market Share SPLY YTD** alanı **Renk Doygunluğu** alanına sürüklenmiştir. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+Biçimlendirme bölmesinde, **Veri renkleri**'nin altında **%Market Share SPLY YTD** değerinin sütun grafiğinizdeki rengi ve gölgelendirmeyi nasıl değiştireceğini belirleyin. Bu örnekte, %Market Share için düşük değerler açık mavi ve yüksek değerler de koyu maviyle gösterilir.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+Sizin de görebileceğiniz gibi, hem **Productivity** hem de **Extreme** için daha fazla birim satmış olsak da (sütunları daha yüksektir), **Moderation** segmentinin **%Market Share SPLY YTD** değeri daha büyüktür (sütununun renk doygunluğu daha fazladır).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>Renk ölçeğinde kullanılan renkleri özelleştirme
-Renk ölçeğinde kullanılan renkleri de özelleştirebilirsiniz. **Veri Renkleri**'ni genişlettiğinizde, verilerinizi görselleştirmek için kullanılan bir renk gradyanı görürsünüz. Varsayılan olarak, verilerinizdeki en düşük değer en az doygun renkle, en yüksek değer ise en doygun renkle eşlenir.
+Renk ölçeğinde kullanılan renkleri de özelleştirebilirsiniz. Varsayılan olarak, verilerinizdeki en düşük değer en az doygun renkle, en yüksek değer ise en doygun renkle eşlenir. Yukarıdaki görüntüde mavi gradyan kullandık. 
 
-Renk aralığı, **Minimum** ve **Maksimum** renk değerleri arasındaki renk yelpazesini görüntüleyen bir gradyan çubukta gösterilir. **Minimum** değer rengi solda, **Maksimum** değer rengi ise sağdadır.
+**Veri Renkleri**'ni genişlettiğinizde, verilerinizi görselleştirmek için kullanılan bir renk gradyanı görürsünüz. Renk aralığı, **Minimum** ve **Maksimum** renk değerleri arasındaki renk yelpazesini görüntüleyen bir gradyan çubukta gösterilir. **Minimum** değer rengi solda, **Maksimum** değer rengi ise sağdadır.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 Ölçeği, farklı bir renk aralığı kullanmak üzere değiştirmek için **Minimum** veya **Maksimum** seçeneklerinin yanındaki renk açılan listesini seçip bir renk belirleyin. Aşağıdaki görüntüde, **Maksimum** seçeneğine ilişkin renk siyah olarak değiştirilmiştir. Gradyan çubukta ise **Minimum** ve **Maksimum** arasındaki yeni renk yelpazesi gösterilmektedir.
 

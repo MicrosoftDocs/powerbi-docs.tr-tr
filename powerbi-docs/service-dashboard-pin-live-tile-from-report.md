@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717183"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285818"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Rapor sayfasının tamamını bir Power BI panosuna canlı kutucuk olarak sabitleme
 Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
@@ -40,7 +40,7 @@ Canlı rapor sayfasını bir panoya sabitleyen Amanda'yı izledikten sonra kendi
    ![Canlı Sabitleme Sayfası simgesi](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
 3. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. Vurgulanan metne dikkat edin: *Canlı sabitleme sayfası, sayfa yenilendiğinde rapor üzerinde yapılan değişikliklerin pano kutucuğunda görüntülenmesini sağlar.*
    
-   * Var olan pano: Açılan listeden pano adını seçin. Sizinle paylaşılan panolar açılan listede görünmez.
+   * Var olan pano: Açılan listeden panonun adını seçin. Sizinle paylaşılan panolar açılan listede görünmez.
    * Yeni pano: Yeni panonun adını yazın.
      
      ![Panoya sabitle iletişim kutusu](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)

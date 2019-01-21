@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900624"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296495"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme (Önizleme)
 
@@ -74,7 +74,7 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
 
     ![Veri kaynağı özellikleri - Oluştur](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **Azure'da:** Azure portala gidin ve **SQL veritabanları**'nı seçin.
+9. **Azure'da:** Azure portalına gidin ve **SQL veritabanları**'nı seçin.
 
 1. Bu makalenin **Önkoşullar** bölümünde, "Azure portalda Azure SQL veritabanı örneği oluşturma" hızlı başlangıcında oluşturduğunuz Azure SQL veritabanını seçin.
 

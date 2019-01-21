@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284530"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal ile ilgili sorunları giderme
 Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşılaşılabilen sorunlar ele alınmıştır.
@@ -45,7 +45,7 @@ Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir.  
  **Ara sunucu yapılandırması**: Ortamınız için bir ara sunucu kullanılması gerekiyorsa kişisel ağ geçidini yapılandırma ile ilgili sorunlarla karşılaşabilirsiniz. Ara sunucu yapılandırması hakkında daha fazla bilgi edinmek için bkz. [Power BI Gateway'ler için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)
 
 ## <a name="schedule-refresh"></a>Yenileme zamanlama
-**Hata: The credential stored in the cloud is missing.** (Bulutta depolanan kimlik bilgileri eksik.)
+**Hata: Bulutta depolanan kimlik bilgileri eksik.**
 
 Bir yenileme zamanladıktan sonra kişisel ağ geçidini kaldırıp yeniden yüklediyseniz \<veri kümesi\> için Ayarlar bölümünde bu hatayla karşılaşabilirsiniz. Bir kişisel ağ geçidini kaldırdığınızda, yenileme için yapılandırılmış bir veri kümesine ilişkin veri kaynağı kimlik bilgileri de Power BI hizmetinden kaldırılır.
 
@@ -53,16 +53,16 @@ Bir yenileme zamanladıktan sonra kişisel ağ geçidini kaldırıp yeniden yük
 
 **Hata: Veri kümesi için sağlanan kimlik bilgileri geçerli değil. Devam etmek için lütfen sayfayı yenileyerek veya Veri Kaynağı Ayarları iletişim kutusunda kimlik bilgilerini güncelleştirin.**
 
-**Çözüm**: Kimlik bilgileri ile ilgili bir ileti alıyorsanız bu, aşağıdaki anlamlara gelebilir:
+**Çözüm**: Kimlik bilgileri ile ilgili bir ileti alıyorsanız bu aşağıdaki anlamlara gelebilir:
 
 * Veri kaynaklarında oturum açmak için kullanılan kullanıcı adları ve parolaların güncel olduğundan emin olun. Power BI'da ilgili veri kümesinin yenileme ayarlarına gidin. Veri kaynağı kimlik bilgilerini güncelleştirmek için Veri Kaynaklarını Yönet bölümündeki Kimlik bilgilerini düzenle seçeneğine tıklayın.
 * Kaynaklardan birinde kimlik doğrulaması için OAuth kullanılıyorsa tek bir sorguda yer alan, bulut kaynağı ile şirket içi kaynak arasındaki karmalar, kişisel ağ geçidinde yenilenemez. CRM Online ile yerel SQL Server arasındaki bir karma bu duruma örnek olarak verilebilir. CRM Online için OAuth gerektiğinden yenileme başarısız olur.
   
   Bu bilinen bir sorundur ve araştırılmaktadır. Soruna yönelik geçici çözüm olarak bulut kaynağı ile şirket içi kaynak için ayrı bir sorgu bulundurun ve bunları birleştirmek üzere birleştirme veya ekleme sorgusu kullanın.
 
-**Hata: Unsupported data source.** (Desteklenmeyen veri kaynağı.)
+**Hata: Desteklenmeyen veri kaynağı.**
 
-**Çözüm:** Yenilemeyi Zamanla ayarlarında bir desteklenmeyen veri kaynağı iletisi alırsanız bu, aşağıdaki anlamlara gelebilir: 
+**Çözüm:** Yenilemeyi Zamanla ayarlarında desteklenmeyen veri kaynağı iletisi alırsanız bu aşağıdaki anlamlara gelebilir: 
 
 * Power BI'da veri kaynağı yenileme işlemi o anda desteklenmiyordur. 
 * Excel çalışma kitabı bir veri modelini değil, yalnızca çalışma sayfası verilerini içeriyordur. Power BI şu anda yalnızca, karşıya yüklenen Excel çalışma kitabının bir veri modeli içermesi halinde yenilemeyi destekler. Verileri Excel'deki Power Query ile içeri aktarıyorsanız veri modeline veri Yükle seçeneğini belirlediğinizden emin olun. Böylece veriler bir veri modeline aktarılır. 
@@ -75,9 +75,9 @@ Bir yenileme zamanladıktan sonra kişisel ağ geçidini kaldırıp yeniden yük
 
 **Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır.
 
-**Hata: There is not enough space for this row.** (Bu satır için yeterli alan yok.)
+**Hata: Bu satır için yeterli alan yok.**
 
-Boyut olarak 4 MB'tan büyük tek bir satırınız varsa bu hatayı alırsınız. Veri kaynağınızdan hangi satır olduğunu belirlemeniz ve bu satırı filtrelemeyi ya da satırın boyutunu azaltmayı denemeniz gerekir.
+Satırlarınızdan birinin boyutu 4 MB'tan fazlaysa bu hatayla karşılaşırsınız. Veri kaynağınızdan hangi satır olduğunu belirlemeniz ve bu satırı filtrelemeyi ya da satırın boyutunu azaltmayı denemeniz gerekir.
 
 ## <a name="data-sources"></a>Veri kaynakları
 **Eksik veri sağlayıcısı**: Kişisel ağ geçidi yalnızca 64 bit sürümlerde kullanılabilir. Kişisel ağ geçidinin yüklendiği bilgisayarda veri sağlayıcılarının 64 bit sürümünün yüklü olması gerekir. Örneğin, veri kümesindeki veri kaynağı Microsoft Access ise kişisel ağ geçidini yüklediğiniz bilgisayara 64 bit ACE sağlayıcısını yüklemeniz gerekir.  
@@ -91,7 +91,7 @@ Boyut olarak 4 MB'tan büyük tek bir satırınız varsa bu hatayı alırsınız
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
-**ACE OLEDB kullanılan bir veri kaynağı için Windows kimlik doğrulaması seçildiğinde meydana gelen oturum açma hatası**: ACE OLEDB sağlayıcısı kullanılan bir veri kaynağı için veri kaynağı kimlik bilgilerini girdiğinizde bu hatayı alırsanız:
+**Hata: ACE OLEDB kullanılan bir veri kaynağı için Windows kimlik doğrulaması seçildiğinde karşılaşılan oturum açma hatası**: ACE OLEDB sağlayıcısı kullanılan bir veri kaynağı için veri kaynağı kimlik bilgilerini girdiğinizde bu hatayı alırsanız:
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/aceoledberror.png)
 

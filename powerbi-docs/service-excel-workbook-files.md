@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670220"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285634"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Bir dış veri kaynağına bağlanmak için Excel kullanırsanız çalışma kit
 PowerView sayfalarınız, PivotTable'larınız ve grafiklerinizin Power BI'da nasıl görüneceği veya görünmeyeceği, çalışma kitabı dosyanızın kaydedildiği konuma ve çalışma kitabını Power BI'a almak için seçtiğiniz yönteme bağlıdır. Bu konu, aşağıda daha ayrıntılı şekilde açıklanmaktadır.
 
 ## <a name="data-types"></a>Veri türleri
-Power BI, şu veri türlerini destekler: Tam Sayı, Ondalık Sayı, Para Birimi, Tarih, Doğru/Yanlış, Metin. Verileri Excel'de belirli veri türleri olarak işaretlemek, daha iyi bir Power BI deneyimi elde edilmesini sağlar.
+Power BI şu veri türlerini destekler: Tam Sayı, Ondalık Sayı, Para Birimi, Tarih, Doğru/Yanlış, Metin. Verileri Excel'de belirli veri türleri olarak işaretlemek, daha iyi bir Power BI deneyimi elde edilmesini sağlar.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Çalışma kitabınızı Power BI için hazırlama
 Excel çalışma kitaplarınızın Power BI için hazır olmasını nasıl sağlayacağınız hakkında daha fazla bilgi edinmek için bu faydalı videoyu izleyin.

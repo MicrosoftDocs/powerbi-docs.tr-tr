@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137181"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285381"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -30,7 +30,7 @@ Power BI sorularına cevap bulmak isteyen uzmanlar genellikle İnternet'te arama
 Power BI belgeleri ve eğitimleri, Power BI ekibi tarafından sürekli olarak güncelleştirilmekte ve geliştirilmektedir. Web semineri kayıtları, teknik incelemeler, destekli öğrenme ve tüm yeni özelliklere ilişkin blog gönderisi bağlantıları da dahil olmak üzere çok faydalı içerikler bulabilirsiniz.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 En son haberler için Power BI blogunu okuyun
-Power BI ekibi, düzenli olarak yayımladıkları [Power BI blog gönderilerinde](https://powerbi.microsoft.com/blog/) tüm yeni özellikleri açıklamaktadır. Power BI Desktop'tan Power BI mobil uygulamalarına kadar tüm konulardaki yeniliklerden haberdar olun. Yenilikleri görmek için blogları sık sık kontrol etme alışkanlığı edinin: Her hafta blogları incelemek için birkaç dakikanızı ayırın. Aylar önce öğrendiğiniz küçücük bir bilginin ne zaman işinize yarayacağını asla bilemezsiniz.
+Power BI ekibi, düzenli olarak yayımladıkları [Power BI blog gönderilerinde](https://powerbi.microsoft.com/blog/) tüm yeni özellikleri açıklamaktadır. Power BI Desktop'tan Power BI mobil uygulamalarına kadar tüm konulardaki yeniliklerden haberdar olun. Yenilikleri görmek için sık sık dönüp bakmayı alışkanlık haline getirin: Her hafta birkaç dakika ayırıp blogları tarayın. Aylar önce öğrendiğiniz küçücük bir bilginin ne zaman işinize yarayacağını asla bilemezsiniz.
 
 ## <a name="4-try-twitter"></a>4 Twitter kullanmayı deneyin
 Birçok Power BI müşterisi ve uzmanı Twitter'ı aktif olarak kullanıyor. Sorunuzu bir tweet ile sorun. Tweet'inizin sorularınızı cevaplayabilecek kişiler tarafından görülebilmesi için #powerbi ve #powerbihelp hashtag'lerini kullanın.

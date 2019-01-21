@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452741"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289935"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap ile bunu yapabilirsiniz. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. 
@@ -78,7 +78,7 @@ Soru-Cevap, daha iyi yanıt sağlamak, otomatik tamamlama işlevini ve soruları
 
 
 ## <a name="edit-a-linguistic-schema"></a>Dil şemasını düzenleme
-Dil şemanızı Power BI Desktop'tan ilk dışarı aktardığınızda, dosyadaki içeriklerin çoğu veya tümü otomatik olarak Soru-Cevap motoru tarafından oluşturulur. Bu oluşturulan varlıklara, sözcüklere (eş anlamlılar), ilişkilere ve ifadelere bir **Durum: Oluşturuldu** etiketi atanır ve daha çok bilgi amaçlı olarak dosyaya eklenir, ancak kendi değişiklikleriniz için faydalı bir başlangıç noktası olabilir. 
+Dil şemanızı Power BI Desktop'tan ilk dışarı aktardığınızda, dosyadaki içeriklerin çoğu veya tümü otomatik olarak Soru-Cevap motoru tarafından oluşturulur. Bu oluşturulan varlıklar, sözcükler (eş anlamlılar), ilişkiler ve tümcecikler bir **Durum: Oluşturuldu** etiketiyle belirtilir ve çoğunlukla bilgilendirme amacıyla dosyaya eklenir ama kendi değişiklikleriniz için kullanışlı bir başlangıç noktası da olabilir. 
 
 > [!NOTE]
 > Bu öğreticide yer alan YAML dosyası özel olarak bu öğretici için hazırlanmış olduğundan, **Durum: Oluşturuldu** veya **Durum: Silindi** etiketlerini içermez. Bu etiketleri görmek için, düzenlenmemiş bir .pbix dosyasını İlişki görünümünde açın ve dil şemasını dışarı aktarın.
@@ -86,7 +86,7 @@ Dil şemanızı Power BI Desktop'tan ilk dışarı aktardığınızda, dosyadaki
 ![Oluşturuldu:Durumunu gösteren YAML](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Dil şeması dosyanızı Power BI Desktop’a geri içeri aktardığınızda, **Durum: Oluşturuldu** olarak işaretlenen her şey yoksayılır (ve daha sonra yeniden oluşturulur), bu nedenle oluşturulan bir içerik üzerinde değişiklik yapmak istiyorsanız ilgili **Durum: Oluşturuldu** etiketini de kaldırdığınızdan emin olun. Benzer şekilde, bazı oluşturulan içerikleri kaldırmak istiyorsanız, dil şeması dosyanızı içeri aktardığınızda bu içeriklerin yeniden oluşturulmaması için **Durum: Oluşturuldu** etiketini **Durum: Silindi** olarak değiştirmeniz gerekir.
+Dil şeması dosyanızı Power BI Desktop'a geri aktardığınızda, **Durum: Oluşturuldu** olarak işaretlenmiş her şey yok sayılır (ve daha sonra yeniden oluşturulur); dolayısıyla oluşturulan içerikte değişiklik yapmak isterseniz ilgili **Durum: Oluşturuldu** etiketini de kaldırdığınızdan emin olun. Benzer biçimde, oluşturulan herhangi bir içeriği kaldırmak isterseniz, **Durum: Oluşturuldu** etiketini de **Durum: Silindi** olarak değiştirmeniz gerekir. Böylece, dil şeması dosyanızı içeri aktardığınızda bu içerik yeniden oluşturulmaz.
 
 1. Power BI Desktop *İlişki görünümünde* veri kümesini açın. 
 2. **Modelleme** sekmesini ve sonra **Dil şemasını dışarı aktar**’ı seçin.

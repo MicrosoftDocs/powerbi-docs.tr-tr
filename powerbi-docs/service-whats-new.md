@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900670"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295850"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -24,7 +24,7 @@ ms.locfileid: "52900670"
 - [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 - [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
-- Dynamics 365’ten [Business Applications Spring ‘18 sürüm notları](http://aka.ms/businessappsreleasenotes): İş uygulamalarımıza yapılan son güncelleştirmelerin yanı sıra platformumuzda uygulama ve uzantılarınızı oluşturmaya yönelik yeni özellikler. 
+- Dynamics 365'ten [Business Applications Bahar 2018 sürüm notları](http://aka.ms/businessappsreleasenotes): İş uygulamalarımızdaki en son güncelleştirmelerin yanı sıra platformumuzda kendi uygulamalarınızı ve uzantılarınızı oluşturmaya yönelik yeni olanaklar. 
 
 "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanallarını da inceleyebilirsiniz.
 
@@ -119,7 +119,7 @@ ms.locfileid: "52900670"
 * Power BI SharePoint Web Bölümü tüm kullanıcıların kullanımına açıldı.
 * [Veri Bağlayıcısı SDK'sını](https://powerbi.microsoft.com/blog/data-connectors-developer-preview/) kullanarak Power BI'ı istediğiniz veri kaynağına bağlama.
 * Çoklu URL filtresi parametreleriyle raporlarda gezinme.
-* Önizleme: Panolarınızı ve raporlarınızı geniş hedef kitlelerine dağıtmak için [Power BI uygulamalarını kullanma](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/).
+* Önizleme: Panolarınızı ve raporlarınızı geniş hedef kitlelere dağıtmak için [Power BI uygulamalarını kullanma](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/).
 
 ### <a name="march-2017"></a>Mart 2017
 * [Ayrıntılı yönetici denetimleriyle](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/) Power BI'ın kuruluşunuzda nasıl kullanıldığını keşfedin.
@@ -134,7 +134,7 @@ ms.locfileid: "52900670"
 ### <a name="february-2017"></a>Şubat 2017
 * [Gezinti Önizleme geliştirmeleri](https://powerbi.microsoft.com/blog/power-bi-service-february-feature-summary/): Çalışma alanları arasında daha kolay geçiş yapma ve geçerli çalışma alanındaki içerik üzerinde eylem gerçekleştirme. 
 * [Power BI panolarını ekleyerek](https://powerbi.microsoft.com/blog/embed-dashboard/) özel uygulamanızda kullanma.
-* Önizleme: [Power BI raporlarını SharePoint Online'a ekleme](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/). 
+* Önizleme: [Power BI raporlarını SharePoint Online'la tümleştirme](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/). 
 
 ### <a name="january-2017"></a>Ocak 2017
 * [Power BI yönetici rolünü](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole) kullanarak Power BI'ı yönetme.
@@ -149,7 +149,7 @@ ms.locfileid: "52900670"
 ### <a name="november-2016"></a>Kasım 2016
 * Önizleme: [Power BI hizmeti, powerbi.com için yeni gezinti özelliklerini](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/) keşfetme.
 * Önizleme: [Power BI raporlarını PowerPoint'e aktarma](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
-* Önizleme: Power BI Desktop uygulamasında düzenlemek üzere Power BI hizmetinden [Power BI raporlarını (PBIX dosyalarını) indirme](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/).
+* Önizleme: Power BI Desktop uygulamasında düzenlemek üzere Power BI hizmetinden [Power BI raporlarını (PBIX dosyaları) indirme](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/).
 * Yüzde değerini animasyonlu sıvı dalgalarıyla gösteren daire şeklinde bir ölçek olan [sıvı doldurma ölçeği](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) oluşturma.
 * Bu Power BI içerik paketiyle [Jira proje yönetim verilerinizi](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) keşfetme
 * Bu Power BI içerik paketiyle [Insightcentr verilerinizi](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) keşfetme
@@ -184,21 +184,21 @@ Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.mi
 ### <a name="june-2016"></a>Haziran 2016
 ***Hızlı Öngörüler***
 
-* Hızlı Öngörüler Karmaşık Filtrelerle birlikte çalışıyor: Tek bir kutucukla sınırlandırılmış olan Hızlı Öngörülerin artık karmaşık filtreleri anladığını duyurmaktan mutluluk duyuyoruz.
+* Hızlı İçgörüler Karmaşık Filtrelerle birlikte çalışıyor: Tek bir kutucukla sınırlandırılmış olan Hızlı İçgörüler'in artık karmaşık filtreleri anladığını duyurmaktan mutluluk duyuyoruz.
 
-Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
+Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
 ### <a name="may-2016"></a>Mayıs 2016
-***Veri Al***
+***Veri Alma***
 
-* Dosya boyutu sınırını 1 GB'a çıkardık: Hem Excel çalışma kitapları hem de Power BI Desktop dosyaları için dosya boyutu sınırını 1 GB seviyesine yükselttik.
+* Dosya boyutu sınırını 1 GB'a çıkardık: Hem Excel çalışma kitapları hem de Power BI Desktop dosyaları için dosya boyutu sınırını 1 GB düzeyine yükselttik.
 * Kurumsal ağ geçidi ve diğer ağ geçidi güncelleştirmeleriyle SSAS sunucularını bulma ayarı: Artık bir Kurumsal ağ geçidi oluşturduğunuzda şirketinizdeki kullanıcılar bu sunuculara Power BI hizmetindeki Veri Al sayfasından erişebilecek. Ayrıca ağ geçidi kullanılarak, SAP Business Warehouse Server'dan alınan verileri içeren veri kümelerini yenileme ve ağ geçidi ile Analysis Services kullanılırken UPN eşleme kuralları oluşturma desteği de ekledik.
 
 ***Satır düzeyi güvenlik (RLS)***
 
 * Azure Active Directory (AAD) grubu desteği: Kullanıcılar artık AAD gruplarına (güvenlik grupları ve dağıtım listeleri) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
-* [RLS rollerinizi RLS'nin geçerli olduğu verileri kullanan raporlarda deneyin](service-admin-rls.md#validating-the-role-within-power-bi-desktop): RLS önizleme sürümüne veri kümenizi belirli bir rolle sınamanızı sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
-* Doğrudan sorgu tabanlı bulut modelleri için RLS tanımlama ve uygulama: Artık doğrudan sorgu veri kaynakları için RLS kuralları oluşturabilir ve uygulayabilirsiniz.
+* [RLS kullanımdayken verilerle desteklenen raporlarla RLS rollerinizi test edin](service-admin-rls.md#validating-the-role-within-power-bi-desktop): RLS önizlememize belirli bir rolle veri kümenizi test etmenizi sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
+* Doğrudan sorguları temel alarak bulut modellerinde RLS tanımlayın ve uygulayın: Şimdi doğrudan sorgunun veri kaynakları için RLS kuralları oluşturabilir ve uygulayabilirsiniz.
 
 ***Panolar***
 
@@ -212,18 +212,18 @@ Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.mi
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [SQL Server 2016 Analysis Services tablolu modelleri için Power BI Soru-Cevap desteği](service-q-and-a-direct-query.md): Power BI Soru-Cevap kullanıcı deneyiminde yaptığımız geliştirmeleri ve kurumsal ağ geçidine bağlı veri kaynakları için Power BI Soru-Cevap özelliğini SQL Server 2016 Analysis Services tablolu model desteğiyle başlayarak genel önizlemeye açtığımızı duyurmaktan mutluluk duyuyoruz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [SQL Server 2016 Analysis Services tablolu modelleri için Power BI Soru-Cevap desteği:](service-q-and-a-direct-query.md): Power BI Soru-Cevap kullanıcı deneyiminde yaptığımız geliştirmeleri ve kurumsal ağ geçidine bağlı veri kaynakları için Power BI Soru-Cevap özelliğini SQL Server 2016 Analysis Services tablolu model desteğiyle başlayarak genel önizlemeye açtığımızı duyurmaktan mutluluk duyuyoruz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [Excel Raporları için Yerel Dosya Desteği](service-excel-workbook-files.md#local-excel-workbooks): Artık yerel sürücünüzdeki veya diğer depolama hizmetlerindeki Excel dosyalarını karşıya yükleyebilir ve bu Excel Raporunu Power BI'ın avantajlarıyla Excel Online'daki gibi kullanabilirsiniz. Tüm ayrıntılar için [blog gönderisine bakın](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 Nisan 2016**
 
-* [Pano Kutucuklarında Hızlı Öngörüler](consumer/end-user-insights.md): Kutucukları Odak modunda görüntülerken Öngörü Al'a tıklayarak kutucukta ve bağlantılı verilerde saniyeler içinde otomatik olarak bağıntı, aykırı değer, eğilim, mevsimsellik, eğilimlerdeki değişim noktaları ve ana etkenler araması gerçekleştirebilirsiniz.
+* [Pano Kutucuklarında Hızlı İçgörüler](consumer/end-user-insights.md): Kutucukları Odak modunda görüntülerken İçgörü Al'a tıklayarak kutucukta ve bağlantılı verilerde saniyeler içinde otomatik olarak bağıntı, aykırı değer, eğilim, mevsimsellik, eğilimlerdeki değişim noktaları ve ana etkenler araması gerçekleştirebilirsiniz.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
 **26 Nisan 2016**
 
-* Power BI için Anlatımlar: Verilerinizle ve görselleştirmelerinizle etkileşim kurarken bu özel görsel, tıpkı bir analistin yazacağı gibi dinamik olarak anlatım biçiminde öngörüler sunar. Bu görsel [Narrative Science Quill](https://www.narrativescience.com/quill) desteklidir.
+* Power BI için Anlatımlar: Verilerinizle ve görselleştirmelerinizle etkileşim kurarken bu özel görsel, tıpkı bir analistin yazacağı gibi dinamik olarak anlatım biçiminde içgörüler sunar. Bu görsel [Narrative Science Quill](https://www.narrativescience.com/quill) desteklidir.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/get-natural-language-narratives-in-power-bi-reports/)
 
@@ -242,7 +242,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 ***Panolar***
 
-* [Vimeo video kutucuğu](service-dashboard-add-widget.md): Panodan katıştırılmış Vimeo oynatıcısı içeren bir kutucuk ekleyebilirsiniz.
+* [Vimeo video kutucuğu](service-dashboard-add-widget.md):  Panodan eklenmiş Vimeo oynatıcısını içeren bir kutucuk yerleştirebilirsiniz.
 
 ***Excel'de Çözümle***
 
@@ -421,9 +421,9 @@ Bu hafta çok sayıda güncelleştirme yapıldı, çoğu Power BI Desktop uygula
   1. SSAS Çoklu boyut desteği - Hiyerarşi desteği (Önizleme Özelliği)
   2. Stripe Bağlayıcısı
   3. Smartsheet Bağlayıcısı
-  4. "Verileri Girin": Tablo oluşturmak için veri yapıştırma veya girme
-  5. DirectQuery Geliştirmeleri: Tüm T-SQL ve SAP HANA veri türleri için sunulan destek sayesinde artırılmış Performans.
-  6. ODBC Bağlayıcısı: Kullanıcı/Sistem DSN seçimi desteği
+  4. “Verileri Girin”: Tablo oluşturmak için verileri yapıştırın veya girin
+  5. DirectQuery Geliştirmeleri:  Tüm T-SQL ve SAP HANA veri türlerine yönelik destek sonucunda performans geliştirmeleri.
+  6. DB2 Bağlayıcısı: Kullanıcı/Sistem DSN'si seçme desteği
   7. CSV Bağlayıcısı: Kaynak iletişim kutusunda Sütun Sınırlayıcı belirtme seçeneği
 
 Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI Blogunu](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) ziyaret edin.
@@ -447,8 +447,8 @@ Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI B
 * [VMob verilerinizi Power BI'da görselleştirme](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI ile Cortana tümleştirmesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Kuruluşlar için Power BI ağ geçidi önizlemesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Yeni içerik paketi: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* Geliştirici odaklı yeni geliştirmeler: [İki yeni API ve kolaylaştırılmış uygulama kaydı](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* Yeni içerik paketi tanıtımı: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* Yeni Geliştirici odaklı geliştirmeler: [İki yeni API ve daha kolay uygulama kaydı](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 Kasım 2015**
 
@@ -541,7 +541,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 * 1x1 ile 5x5 arasındaki yeni kutucuk boyutlarından seçim yaparak panonuzu daha esnek bir şekilde özelleştirebilirsiniz.
 * Artık kendi alanınızda olduğu gibi [grup alanınızda da pano paylaşabilirsiniz (ve paylaşımını kaldırabilirsiniz)](service-collaborate-power-bi-workspace.md). İş arkadaşlarınız paylaşım davetiyenizi kabul ettikten sonra paylaşılan pano (ve ilgili raporlar) salt okunur izinle kendi alanlarına eklenir.
-* Power BI'a 5 yeni [sektörle ilgili örnek](sample-datasets.md) ekledik: Müşteri Kârlılığı, İnsan Kaynakları, Fırsat Analizi, Tedarik Analizi ve Satış ve Pazarlama Örneği.
+* Power BI'a 5 tane daha [sektörle ilgili örnek](sample-datasets.md) ekledik: Müşteri Kârlılığı, İnsan Kaynakları, Fırsat Analizi, Tedarik Analizi ve Satış ve Pazarlama Örneği.
 * Stripe, çevrimiçi işletmeler için tasarlanmış olan gelişmiş ödeme platformudur. Yeni kurulanlardan Fortune 500 şirketlerine kadar binlerce işletme, dünyanın her yerindeki müşterilerden 130'dan fazla para biriminde ödeme kabul etmek için Stripe kullanıyor. Power BI ile mevcut Stripe hesabınız arasında bağlantı kurarak [Power BI Stripe içerik paketi sayesinde Stripe etkinliğinizi izleyebilir, keşfedebilir ve görselleştirebilirsiniz](service-connect-to-stripe.md).
 
 [Daha fazla bilgi için blog sayfamıza bakın](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
@@ -596,7 +596,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 * [Power BI grupları](service-create-distribute-apps.md): Office 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
 * [Kurumsal içerik paketleri](service-organizational-content-pack-introduction.md): Power BI, pano ve rapor oluşturmayı çok kolay hale getiriyor. Kullanıcılar artık bu içeriği kurumsal içerik galerisine yayımlama hakkına da sahip.
 * [Excel dosyalarının tamamını alma](service-excel-workbook-files.md): Artık OneDrive İş üzerinde depolanan herhangi bir Excel çalışma kitabını Power BI'a alarak Excel Online'daki gibi çalışma kitabının tamamını görüntüleyebilirsiniz.
-* [CSV dosyalarını alma](service-get-data-from-files.md): Excel veya Power BI Desktop dosyası gibi virgülle ayrılmış değerler (CSV) dosyası da Power BI panolarınızda ve raporlarınızda veri kümesi olarak kullanılabilir.
+* [CSV dosyalarını alma](service-get-data-from-files.md): Excel veya Power BI Desktop dosyası gibi virgülle ayrılmış değerler (CSV) metin dosyası da Power BI panolarınızda ve raporlarınızda veri kümesi olarak kullanılabilir.
 * Excel, Power BI Desktop ve CSV dosyalarını değiştirme: Dosyanın güncelleştirilmiş sürümünü Power BI'a yükleyerek var olan veri kümesinin yerine kullanabilirsiniz. Bu veri kümesine bağlı olan tüm raporlar ve panolar otomatik olarak yeni sürümü kullanmaya başlar.
 * Bu haftaki Power BI güncelleştirmesinin [Visual Studio Online içerik paketi](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx) ile iş öğesi izleme olanağı sunduğunu duyurmaktan mutluluk duyuyoruz. Bu güncelleştirme iş öğelerinizde öngörüler sunan yeni bir pano, rapor ve güncelleştirilmiş veri kümesinin yanı sıra Git deponuz, çekme istekleri ve ilk sürüme dahil olan sürüm denetim içeriği hakkında önemli ölçümler sunmaktadır. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen [Power BI için Visual Studio Online içerik paketi yardım sayfasına](service-connect-to-quickbooks-online.md) bakın.
 

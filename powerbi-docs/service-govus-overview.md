@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900118"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292089"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -75,17 +75,17 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 
 **Soru:** Ticari **Power BI** verilerimi ABD Kamu müşterileri için **Power BI hizmetine** nasıl aktarabilirim?
 
-**Cevap:** Yöneticinizin US Government'a özel ayrı bir abonelik altında yeni bir **Power BI** örneği oluşturması gerekir. Ardından, ticari verilerinizi ABD Kamu müşterileri için **Power BI hizmetinde** çoğaltabilir, ticari lisansınızı kaldırabilir ve mevcut etki alanınızı US Government'a özel yeni hizmet ile ilişkilendirebilirsiniz.
+**Cevap:** Yöneticinizin ABD Kamu'ya özel ayrı bir abonelik altında yeni bir **Power BI** örneği oluşturması gerekir. Ardından, ticari verilerinizi ABD Kamu müşterileri için **Power BI hizmetinde** çoğaltabilir, ticari lisansınızı kaldırabilir ve mevcut etki alanınızı US Government'a özel yeni hizmet ile ilişkilendirebilirsiniz.
 
 **Soru:** Belirli bir içerik paketine neden bağlanamıyorum?
 
-**Cevap:** Bir içerik paketine bağlanmadan önce ilgili içerik paketine ilişkin aboneliğinizin etkinleştirildiğinden emin olmalısınız.
+**Cevap:** İçerik paketine bağlanmadan önce bu içerik paketine ilişkin aboneliğinizin etkinleştirildiğinden emin olmalısınız.
 
 **Soru:** ABD Kamu kuruluşum için **Power BI** hizmeti almakla ilgileniyorum. Nereden başlamalıyım?
 
 **Cevap:** Kaydolma (genellikle *ekleme* olarak adlandırılır) işlemi, mevcut lisansınıza ve aboneliğinize göre farklılık gösterebilir. Daha fazla bilgi için [Power BI US Government'a kaydolma](service-govus-signup.md) makalesine bakın.
 
-**Soru:** **Power BI** US Government'a bağlanmak için kullanılan URL ticari **Power BI** URL'sinden farklı mı?
+**Soru:** **Power BI** for US Government'a bağlanmak için kullanılan URL ticari **Power BI** URL'sinden farklı mı?
 
 **Cevap:** Evet, URL'ler farklıdır. URL'ler aşağıdaki tabloda gösterilmiştir:
 
@@ -93,9 +93,9 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Soru:** Hesabıma birden fazla bağımsız bulut sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
+**Soru:** Hesabım birden fazla bağımsız bulutta sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
 
-**Yanıt:** **Power BI Desktop** Temmuz 2018 yayınından itibaren, **Power BI Desktop**’ta oturum açarken kullanmak istediğiniz bulutu seçebilirsiniz.
+**Cevap:** **Power BI Desktop**'ın Temmuz 2018 sürümünde itibaren **Power BI Desktop**’ta oturum açarken kullanmak istediğiniz bulutu seçebilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829849"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290510"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop ve Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop, Power BI hizmeti *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik.
@@ -30,7 +30,7 @@ Daha fazla bilgi için [Power Query Kaynak Merkezi](https://support.office.com/a
 Ayrıca [Formül Başvurusu](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)'nu da görüntüleyebilirsiniz.
 
 ### <a name="data-types-in-query-editor"></a>Sorgu Düzenleyicisi'ndeki veri türleri
-Veri yüklemek için Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullandığınızda veri türünü tahmin etmeye çalışırız.  Bazen formül kullanıldığında sütunların veri türü ayarları korunmaz. Şu işlemleri gerçekleştirdikten sonra sütunların veri türlerinin doğru olup olmadığını kontrol etmeniz gerekir: Sorgu sekmesine ilk veri yükleme işlemi, İlk Satır Üst Bilgi içeriyor, Sütun ekleme, Gruplandırma, Birleştirme, Ekleme ve ilk kez veri yükleme işlemini başlatmadan önce.
+Veri yüklemek için Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullandığınızda veri türünü tahmin etmeye çalışırız.  Bazen formül kullanıldığında sütunların veri türü ayarları korunmaz. Şu işlemleri gerçekleştirdikten sonra sütunların veri türlerinin doğru olup olmadığını kontrol etmeniz gerekir:  Sorgu sekmesine ilk veri yükleme işlemi, İlk Satır Üst Bilgi içeriyor, Sütun ekleme, Gruplandırma, Birleştirme, Ekleme ve ilk kez veri yükleme işlemini başlatmadan önce.
 
 Aklınızda tutmanız gereken noktalardan biri, veri kılavuzundaki italik metinlerin veri türünün doğru ayarlanmadığını değil yalnızca Metin olarak kabul edilmediğini göstermesidir.
 
@@ -167,7 +167,7 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir.  BI analizi için en iyi
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI hizmeti *ve* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Teknik incelemeyi okuyun: [Power BI rapor tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Teknik incelemeyi okuyun: [Power BI raporlarının tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md)
 Bu incelemede, Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler sunulmaktadır. Planlama ile başlayan incelemede, raporlarınıza ve raporu oluşturan sayfalar ile görsellere uygulayabileceğiniz tasarım ilkelerine yer verilmektedir. Bu en iyi uygulamaların çoğu pano tasarımı için de geçerlidir.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI'da görsel olarak etkileyici raporlar (ve panolar) oluşturma" başlıklı makaleyi okuyun ve/veya videoyu izleyin

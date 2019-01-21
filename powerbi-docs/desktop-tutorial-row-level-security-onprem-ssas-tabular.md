@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452764"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292649"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 Bu eğitimde **Analysis Services Tablolu Modelinizde** **satır düzeyi güvenlik** uygulamak için gerekli olan adımların yanı sıra bunu Power BI raporunda nasıl kullanacağınız gösterilmektedir. Bu eğitimdeki adımlar örnek bir veri kümesini tamamlayarak takip etmenizi ve gerekli adımları öğrenmenizi sağlayacak şekilde tasarlanmıştır.
@@ -91,7 +91,7 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. Önceki adımı tamamladığınızda ağ geçidi yapılandırılmış ve şirket içi **Analysis Services** veri kaynağınızla etkileşim kurmaya hazır hale gelmiş olur.
 
-## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>4. Görev: Power BI Desktop uygulamasını kullanarak Analysis Services tablolu modeli tabanlı rapor oluşturma
+## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>4. Görev: Power BI Desktop'ı kullanarak Analysis Services tablolu modeli tabanlı rapor oluşturma
 1. **Power BI Desktop** uygulamasını başlatıp **Veri Al > Veritabanı**'nı seçin.
 2. Veri kaynakları listesinden **SQL Server Analysis Services Veritabanı**'nı ve ardından **Bağlan**'ı seçin.
    
@@ -112,7 +112,7 @@ Bu eğitimdeki adımları takip edebilmek için ihtiyacınız olan **Adventurewo
 ## <a name="task-5-creating-and-sharing-a-dashboard"></a>5. Görev: Pano oluşturma ve paylaşma
 1. Raporu oluşturduktan sonra **Power BI Desktop** uygulamasında **Yayımla**'ya tıklayarak **Power BI** hizmetinde yayımladınız. Rapor hizmette olduğuna göre önceki adımlarda oluşturduğumuz örneği kullanarak model güvenlik senaryomuzu inceleyebiliriz.
    
-   **Sumit, Sales Manager**  rolünde farklı bölgelerdeki tüm satış verilerini görebilir. Bu kullanıcı, raporu oluşturarak (önceki görev adımlarında oluşturulan rapor) Power BI hizmetinde yayımlar.
+   **Sumit, Sales Manager ** rolünde farklı bölgelerdeki tüm satış verilerini görebilir. Bu kullanıcı, raporu oluşturarak (önceki görev adımlarında oluşturulan rapor) Power BI hizmetinde yayımlar.
    
    Raporu yayımlandıktan sonra Power BI hizmetinde bu raporu temel alan **TabularDynamicSec** adlı bir pano oluşturur. Aşağıdaki resimde Sales Manager (Sumit) rolünün tüm satış bölgelerine ait verileri görebildiğine dikkat edin.
    

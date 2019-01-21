@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984809"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279026"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Power BI'da yeni çalışma alanlarında çalışmayı düzenleme (önizleme)
 
@@ -43,7 +43,7 @@ Yeni çalışma alanlarından birini oluşturduğunuzda, temel, ilişkili bir Of
 
 ## <a name="roles-in-the-new-workspaces"></a>Yeni çalışma alanlarındaki roller
 
-Yeni çalışma alanlarına kullanıcı gruplarını ve kişileri üye, katkıda bulunan veya yönetici olarak eklersiniz. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birkaç kullanıcı grubunda yer alıyorsa, rol tarafından sağlanan en yüksek izin düzeyine sahip olur.  Farklı rollerin açıklamaları için bu makalenin devamındaki [Yeni çalışma alanlarındaki roller](#roles-in-the-new-workspaces) bölümüne bakın.
+Yeni çalışma alanlarına kullanıcı gruplarını ve kişileri üye, katkıda bulunan veya yönetici olarak eklersiniz. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birkaç kullanıcı grubunda yer alıyorsa, rol tarafından sağlanan en yüksek izin düzeyine sahip olur.
 
 Bir çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. Kuruluşunuzun içindeki diğer kişilere içerik dağıtmak istiyorsanız, söz konusu kullanıcılara Power BI Pro lisansları atayabilir veya çalışma alanını Power BI Premium kapasitesine getirebilirsiniz.
 
@@ -83,9 +83,7 @@ Erişimi olmayan kullanıcıların erişim isteyebilmesi için hizmet genelinde 
 
 Yeni çalışma alanları genel kullanıma sunulduğunda, eskilerin otomatik olarak geçirilmesini tercih edebilirsiniz. Genel kullanıma sunulduktan sonra, bir noktada bunları geçirmeniz gerekecektir.
 
-## <a name="power-bi-apps-faq"></a>Power BI uygulamaları hakkında SSS
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Yeni çalışma alanlarıyla geçerli çalışma alanları arasında ne fark vardır?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Yeni çalışma alanlarıyla geçerli çalışma alanları arasında ne fark vardır?
 
 Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Önizlemeyle birlikte kalıcı hale getirilmesini bekleyebileceğiniz değişiklikler şunlardır. 
 
@@ -94,6 +92,13 @@ Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Önizlem
 - Geçerli çalışma alandan bir kurumsal içerik paketi oluşturabilirsiniz. Yeni çalışma alanlarından oluşturamazsınız.
 - Geçerli çalışma alanından kurumsal içerik paketini kullanabilirsiniz. Yeni çalışma alanlarından kullanamazsınız.
 - Önizleme döneminde, yeni çalışma alanları için bazı özellikler henüz etkinleştirilmemiştir. Ayrıntılar için sonraki bölüme ([Planlanan yeni çalışma alanı özellikleri](service-new-workspaces.md#planned-new-workspace-preview-features)) bakın.
+
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+
+Dikkat edilmesi gereken sınırlamalar:
+
+- Çalışma alanları en çok 1.000 veri kümesi veya veri kümesi başına 1.000 rapor içerebilir. 
+- Power BI Pro lisansı olan biri, en çok 250 çalışma alanına üye olabilir.
 
 ## <a name="planned-new-workspace-preview-features"></a>Planlanan yeni çalışma alanı önizleme özellikleri
 

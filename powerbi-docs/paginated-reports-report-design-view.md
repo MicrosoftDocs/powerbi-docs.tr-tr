@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900463"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283541"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma (Önizleme)
 
@@ -88,14 +88,14 @@ Tasarım yüzeyi boyutu, raporu yazdırmak için belirttiğiniz sayfa boyutu yaz
  Özelliği bağlı olarak, açılan listeden bir özellik değeri ayarlayabilir, değeri yazabilir veya ifade oluşturmak için `<Expression>` öğesini seçebilirsiniz.  
   
 ### <a name="changing-the-properties-pane-view"></a>Özellikler Bölmesi Görünümünü Değiştirme  
- Varsayılan olarak, Özellikler bölmesinde görüntülenen özellikler Eylem, Kenarlık, Dolgu, Yazı Tipi ve Genel gibi geniş kategoriler halinde düzenlenmiştir. Her kategoriyle ilişkilendirilmiş bir özellik kümesi vardır. Örneğin, Yazı Tipi kategorisinde şu özellikler listelenir: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight ve TextDecoration. Bölmede listelenen tüm özellikleri alfabetik olarak sıralamayı tercih edebilirsiniz. Bu sıralama kategorileri kaldırır ve kategorisine bakılmaksızın tüm özellikleri alfabetik olarak sıralar.  
+ Varsayılan olarak, Özellikler bölmesinde görüntülenen özellikler Eylem, Kenarlık, Dolgu, Yazı Tipi ve Genel gibi geniş kategoriler halinde düzenlenmiştir. Her kategoriyle ilişkilendirilmiş bir özellik kümesi vardır. Örneğin, aşağıdaki özellikler Yazı Tipi kategorisinde listelenmiştir: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight ve TextDecoration. Bölmede listelenen tüm özellikleri alfabetik olarak sıralamayı tercih edebilirsiniz. Bu sıralama kategorileri kaldırır ve kategorisine bakılmaksızın tüm özellikleri alfabetik olarak sıralar.  
   
- Özellikler bölmesinin üç kısmında üç düğme vardır: **Kategori**, **Alfabetik** ve **Özellik Sayfası**. Özellikler bölmesinin görünümleri arasında geçiş yapmak için Kategori ve Alfabetik düğmelerini seçin. Seçili rapor öğesinin özellikler iletişim kutusunu açmak için **Özellik Sayfaları** düğmesini seçin.  
+ Özellikler bölmesinin üst kısmında üç düğme vardır: **Kategori**, **Alfabetik Yap** ve **Özellik Sayfası**. Özellikler bölmesinin görünümleri arasında geçiş yapmak için Kategori ve Alfabetik düğmelerini seçin. Seçili rapor öğesinin özellikler iletişim kutusunu açmak için **Özellik Sayfaları** düğmesini seçin.  
   
   
 ## <a name="5-grouping-pane"></a>5 Gruplandırma bölmesi
 
- Gruplar, rapor verilerinizi görsel bir hiyerarşide düzenlemek ve toplamları hesaplamak için kullanılır. Veri bölgesindeki satır ve sütun gruplarını hem tasarım yüzeyinde hem de Gruplandırma bölmesine görüntüleyebilirsiniz. Gruplandırma bölmesinde iki bölme vardır: Satır Grupları ve Sütun Grupları. Bir veri bölgesi seçtiğinizde, Gruplandırma bölmesinde söz konusu veri bölgesinin tüm grupları hiyerarşik bir liste şeklinde görüntülenir: Alt gruplar, kendi üst gruplarının altında girintili olarak görünür.  
+ Gruplar, rapor verilerinizi görsel bir hiyerarşide düzenlemek ve toplamları hesaplamak için kullanılır. Veri bölgesindeki satır ve sütun gruplarını hem tasarım yüzeyinde hem de Gruplandırma bölmesine görüntüleyebilirsiniz. Gruplandırma bölmesinde iki bölme vardır: Satır Grupları ve Sütun Grupları. Bir veri bölgesi seçtiğinizde, Gruplandırma bölmesinde söz konusu veri bölgesinin tüm grupları hiyerarşik bir liste şeklinde görüntülenir: Alt gruplar kendi üst gruplarının altında girintili olarak gösterilir.  
   
  Rapor Verileri bölmesindeki alanları sürükleyip tasarım yüzeyine veya Gruplandırma bölmesine bırakarak gruplar oluşturabilirsiniz. Gruplandırma bölmesinde üst, bitişik ve alt gruplar ekleyebilir, grup özelliklerini değiştirebilir ve grupları silebilirsiniz.  
   
