@@ -1,7 +1,7 @@
 ---
 title: Power BI hizmetindeki yenilikler
 description: Power BI hizmetindeki yenilikler
-author: mihart
+author: NikhilGaekwad-MSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295850"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406765"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
