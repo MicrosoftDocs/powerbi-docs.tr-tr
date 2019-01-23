@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406765"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488926"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -197,7 +197,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 ***Satır düzeyi güvenlik (RLS)***
 
 * Azure Active Directory (AAD) grubu desteği: Kullanıcılar artık AAD gruplarına (güvenlik grupları ve dağıtım listeleri) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
-* [RLS kullanımdayken verilerle desteklenen raporlarla RLS rollerinizi test edin](service-admin-rls.md#validating-the-role-within-power-bi-desktop): RLS önizlememize belirli bir rolle veri kümenizi test etmenizi sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
+* [RLS kullanımdayken verilerle desteklenen raporlarla RLS rollerinizi test edin](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): RLS önizlememize belirli bir rolle veri kümenizi test etmenizi sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
 * Doğrudan sorguları temel alarak bulut modellerinde RLS tanımlayın ve uygulayın: Şimdi doğrudan sorgunun veri kaynakları için RLS kuralları oluşturabilir ve uygulayabilirsiniz.
 
 ***Panolar***
