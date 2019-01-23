@@ -1,7 +1,7 @@
 ---
 title: Microsoft Flow ile Power BI tümleştirmesi
 description: Power BI veri uyarıları ile tetiklenen Akışlar oluşturmayı öğrenin.
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289820"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406627"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
 
@@ -60,7 +60,7 @@ Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat mada
    
    ![E-posta gönderme ekranı](media/service-flow-integration/power-bi-flow-email.png)
 
-3. Akış, tutabileceğiniz veya değiştirebileceğiniz bir başlık ve ileti oluşturur. Power BI'de uyarı oluştururken ayarladığınız tüm değerleri kullanabilirsiniz; imleci yerleştirmeniz ve gri ile vurgulanan alanı seçmeniz yeterlidir. 
+3. Akış, tutabileceğiniz veya değiştirebileceğiniz bir başlık ve ileti oluşturur. Power BI'da uyarı oluştururken ayarladığınız tüm değerleri kullanabilirsiniz; imleci yerleştirmeniz ve gri ile vurgulanan alanı seçmeniz yeterlidir. 
 
    ![E-posta gönderme ekranı](media/service-flow-integration/power-bi-flow-email-default.png)
 

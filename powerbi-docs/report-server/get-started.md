@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291998"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394820"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 

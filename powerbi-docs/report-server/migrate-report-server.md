@@ -1,23 +1,24 @@
 ---
-title: Rapor sunucusu yüklemesini geçirme
+title: Bir rapor sunucusu yüklemesini geçirme
 description: Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services örneğinizi geçirmeyi öğrenin.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/05/2017
-ms.author: maghan
-ms.openlocfilehash: 5093541f37e48469ab1b1f3f9d835788d6fcff3a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2019
+ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278389"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420775"
 ---
 # <a name="migrate-a-report-server-installation"></a>Bir rapor sunucusu yüklemesini geçirme
-Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services (SSRS) örneğinizi nasıl geçireceğinizi öğrenin.
+
+Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services (SSRS) örneğinizi geçirmeyi öğrenin.
 
 Geçiş, uygulama verisi dosyalarını yeni bir Power BI Rapor Sunucusu örneğine taşımak olarak tanımlanır. Şu nedenlerden yüklemenizi geçirmek isteyebilirsiniz:
 
@@ -25,21 +26,19 @@ Geçiş, uygulama verisi dosyalarını yeni bir Power BI Rapor Sunucusu örneği
   
   > [!NOTE]
   > SQL Server Reporting Services'den Power BI Rapor Sunucusu'na geçiş için yerleşik bir yükseltme seçeneği mevcut değildir. Geçiş gereklidir.
-  > 
-  > 
+
 * Büyük bir ölçek dağıtımına veya güncelleştirmeye ilişkin gereksinimleriniz var
 * Yüklemenizin donanımını veya topolojisini değiştiriyorsunuz
 * Yükseltmeyi engelleyen bir sorunla karşılaşıyorsunuz
 
 ## <a name="migrating-to-power-bi-report-server-from-ssrs-native-mode"></a>SSRS'den (Yerel mod) Power BI Rapor Sunucusu'na geçiş
+
 Bir SSRS (Yerel mod) örneğinden Power BI Rapor Sunucusu'na geçiş birkaç adımdan oluşur.
 
-![](media/migrate-report-server/migrate-from-ssrs-native.png "SSRS yerel modundan Power BI Rapor Sunucusu'na geçme")
+![SSRS yerel modundan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-ssrs-native.png "SSRS yerel modundan Power BI Rapor Sunucusu’na geçiş")
 
 > [!NOTE]
 > SQL Server 2008 Reporting Services ve sonraki sürümleri geçiş için desteklenmektedir.
-> 
-> 
 
 * Veritabanı, uygulama ve yapılandırma dosyalarını yedekleme
 * Şifreleme anahtarını yedekleme
@@ -48,27 +47,25 @@ Bir SSRS (Yerel mod) örneğinden Power BI Rapor Sunucusu'na geçiş birkaç ad�
 
 > [!NOTE]
 > Power BI Rapor Sunucusu örneği *PBIRS* olarak adlandırılır.
-> 
-> 
 
 * Rapor Sunucusu Yapılandırma Yöneticisi'ni kullanarak rapor sunucusunu yapılandırın ve kopyalanan veritabanına bağlanın.
 * SSRS (Yerel mod) örneği için gereken tüm temizleme işlemlerini gerçekleştirme
 
 ## <a name="migration-to-power-bi-report-server-from-ssrs-sharepoint-integrated-mode"></a>SSRS'den (SharePoint ile tümleşik modu) Power BI Rapor Sunucusu'na geçiş
+
 Bir SSRS'den (SharePoint ile tümleşik modu) Power BI Rapor Sunucusu'na geçiş yerel moddaki kadar basit değildir. Bu adımlar bazı konularda yol gösterici olsa da SharePoint'te bu adımların dışında yönetilmesi gereken başka dosyalarınız ve varlıklarınız olabilir.
 
-![](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "SSRS SharePoint ile tümleşik modundan Power BI Rapor Sunucusu'na geçiş")
+![SSRS SharePoint tümleşik modundan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "SSRS SharePoint tümleşik modundan Power BI Rapor Sunucusu’na geçiş")
 
-SharePoint'teki belirli rapor sunucusu içeriklerinizi Power BI Rapor Sunucunuza geçirmeniz gerekir. Bu, Power BI Rapor Sunucusu'nun ortamınızdaki herhangi bir konumda zaten yüklü olduğunu varsayar. Power BI Rapor Sunucusu'nu yükleme hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md).
+SharePoint'teki belirli rapor sunucusu içeriklerinizi Power BI Rapor Sunucunuza geçirmeniz gerekir. Power BI Rapor Sunucusu'nun ortamınızdaki herhangi bir konumda zaten yüklü olması gerekir. Power BI Rapor Sunucusu'nu yükleme hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md).
 
 SharePoint ortamınızdaki rapor sunucusu içeriğini Power BI Rapor Sunucusu'na kopyalamak istiyorsanız içeriği kopyalamak için **rs.exe** gibi araçları kullanmanız gerekir. Aşağıda, SharePoint'teki rapor sunucusu içeriğini Power BI Rapor Sunucusu'na kopyalamaya yönelik betiğin nasıl görüneceğine ilişkin bir örnek verilmiştir.
 
 > [!NOTE]
 > Örnek betik, SharePoint 2010 ve sonraki sürümlerine ve SQL Server 2008 Reporting Services ve sonraki sürümlerine yönelik olarak çalışır.
-> 
-> 
 
 ### <a name="sample-script"></a>Örnek betik
+
 ```
 Sample Script
 rs.exe
@@ -80,10 +77,11 @@ rs.exe
 -v tu="Domain\User" -v tp="Password"
 ```
 
-## <a name="migrateing-from-one-power-bi-report-server-to-another"></a>Bir Power BI Rapor Sunucusu'ndan başka bir Power BI Rapor Sunucusu'na geçiş
+## <a name="migrating-from-one-power-bi-report-server-to-another"></a>Bir Power BI Rapor Sunucusu'ndan başka bir Power BI Rapor Sunucusu'na geçiş
+
 Bir Power BI Rapor Sunucusu'ndan geçiş yaparken izlenen süreç, SSRS'den (yerel mod) geçiş yapılırken izlenen süreçle aynıdır.
 
-![](media/migrate-report-server/migrate-from-pbirs.png "Power BI Rapor Sunucusu'ndan Power BI Rapor Sunucusu'na geçiş")
+![Power BI Rapor Sunucusu’ndan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-pbirs.png "Power BI Rapor Sunucusu’ndan Power BI Rapor Sunucusu’na geçiş")
 
 * Veritabanı, uygulama ve yapılandırma dosyalarını yedekleme
 * Şifreleme anahtarını yedekleme
@@ -92,16 +90,14 @@ Bir Power BI Rapor Sunucusu'ndan geçiş yaparken izlenen süreç, SSRS'den (yer
 
 > [!NOTE]
 > Power BI Rapor Sunucusu örneği *PBIRS* olarak adlandırılır.
-> 
-> 
 
 * Rapor Sunucusu Yapılandırma Yöneticisi'ni kullanarak rapor sunucusunu yapılandırın ve kopyalanan veritabanına bağlanın.
 * Eski Power BI Rapor Sunucusu yüklemesi için gerekli tüm temizleme işlemlerini gerçekleştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Script with the rs.exe Utility and the Web Service (rs.exe Yardımcı Programı ve Web Hizmeti ile kullanılan betik)](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

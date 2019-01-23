@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279217"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420798"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma
 
@@ -39,13 +39,13 @@ Bu makaledeki adımları tamamlamak için aşağıdakiler gerekir:
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
 
-**Power BI Desktop** ile birçok farklı türde veriye bağlanabilirsiniz. Bir Microsoft Excel dosyası gibi temel veri kaynaklarına ve her türlü veriyi içeren Salesforce, Microsoft Dynamics, Azure Blob Depolama ve daha birçok çevrimiçi hizmete bağlanabilirsiniz. 
+**Power BI Desktop** ile birçok farklı türde veriye bağlanabilirsiniz. Bir Microsoft Excel dosyası gibi temel veri kaynaklarına ve her türlü veriyi içeren Salesforce, Microsoft Dynamics, Azure Blob Depolama ve daha birçok çevrimiçi hizmete bağlanabilirsiniz.
 
 Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belirleyin.
 
 ![Veri Al](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-**Power BI Desktop**’ın bağlanabileceği çok sayıda farklı veri kaynağı arasından seçim yapabileceğiniz **Veri Al** penceresi görüntülenir. Bu hızlı başlangıçta, bu makalenin başındaki *Önkoşullar* bölümünde açıklandığı gibi indirdiğiniz Excel çalışma kitabını kullanacağız. 
+**Power BI Desktop**’ın bağlanabileceği çok sayıda farklı veri kaynağı arasından seçim yapabileceğiniz **Veri Al** penceresi görüntülenir. Bu hızlı başlangıçta, bu makalenin başındaki *Önkoşullar* bölümünde açıklandığı gibi indirdiğiniz Excel çalışma kitabını kullanacağız.
 
 ![Veri Al](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Tabloları yükledikten sonra **Alanlar** bölmesi size verileri gösterir. Bir 
 
 İşte bu kadar! **Power BI Desktop**’taki verilere bağlandınız, verileri yüklediniz ve artık bu tablolardaki tüm kullanılabilir alanları görebilirsiniz.
 
-
 ## <a name="next-steps"></a>Sonraki adımlar
+
 Verilere bağlandıktan sonra, **Power BI Desktop** ile yapabileceğiniz görseller ve raporlar oluşturma gibi çok çeşitli işlemler vardır. Başlamak için aşağıdaki kaynağa göz atın:
 
 * [Power BI Desktop ile Çalışmaya Başlama Kılavuzu](desktop-getting-started.md)
-
-

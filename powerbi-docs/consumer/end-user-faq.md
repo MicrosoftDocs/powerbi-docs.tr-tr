@@ -1,6 +1,6 @@
 ---
-title: Power BI kullanıcıları için sık sorulan sorular
-description: Power BI SSS
+title: Power BI'da sık sorulan son kullanıcı soruları
+description: Power BI hizmeti ve Power BI mobil uygulamaları hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: mihart
 manager: kvivek
 ms.custom: seodec18
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287605"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394770"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -41,7 +41,7 @@ Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkınd
 Power BI için Azure Active Directory Integrated Applications raporunu inceleyerek kuruluşunuzdaki etkin kullanıcıları görüntüleyebilirsiniz. Azure AD raporu kullanıcıların sahip olduğu lisans türlerini belirtmez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](../service-admin-access-usage.md).
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
-Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir masaüstü uygulamasıdır. Power BI Desktop yüksek düzeyde etkileşimli görselleştirmeler ile gelişmiş veri keşfi, şekillendirme, modelleme ve rapor oluşturma olanağı sağlayarak Power BI ile uyumlu şekilde çalışır. Çalışmanızı bir dosyaya kaydedebilir ve verilerinizi ve raporlarınızı Power BI sitenizde yayımlayarak diğer kişilerle paylaşabilirsiniz. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
+Power BI Desktop kullanıcıların kendi bilgisayarlarına yükleyebileceği ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri uzmanları, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları Power BI hizmeti kullanıcılarına sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>Power BI hizmetini kullanmak için neler gerekir?
 Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .gov ve .mil e-posta adresiyle kaydolabilirsiniz. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](../service-govus-signup.md) 
@@ -49,14 +49,8 @@ Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .gov ve .mil e-posta 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Neden iş e-posta adresimle kaydolmam gerekiyor?
 Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. [Power BI self servis kayıt işlemi](../service-self-service-signup-for-power-bi.md) hakkında daha fazla bilgi edinin.
 
-## <a name="is-power-bi-available-on-premises"></a>Power BI şirket içi kullanılabilir mi?
-Power BI hizmeti [https://powerbi.com](https://powerbi.com) özel, dahili bir bulut hizmeti olarak kullanılamaz. Ancak, şirket içi verileri görüntülemek ve bu veriler ile çalışmak üzere diğer üç seçenekten yararlanabilirsiniz. 
-
-### <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
-Power BI ve Power BI Desktop ile şirket içi veri kaynaklarınıza güvenli bir şekilde bağlanabilirsiniz. [Şirket içi veri ağ geçidi](../service-gateway-onprem.md) ile şirket içi SQL Server Analysis Services sunucunuza ve diğer veri kaynaklarına canlı bağlantı kurabilirsiniz. Aynı zamanda merkezi bir ağ geçidi ile yenileme zamanlayabilirsiniz. Bir ağ geçidi kullanılamıyorsa [Power BI Gateway - Personal](../service-gateway-personal-mode.md) kullanarak verilerinizi şirket içi veri kaynaklarından yenileyebilirsiniz.
-
-### <a name="power-bi-mobile-apps"></a>Power BI mobil uygulamaları
-Ayrıca, [Power BI mobil uygulamaları ile şirket içi Power BI raporlarını, Reporting Services mobil raporlarını ve KPI'leri görüntüleyebilirsiniz](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
+Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Kar Amacı Gütmeyen Kuruluşlar](https://www.microsoft.com/en-us/nonprofits/power-bi) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI mobil cihazları destekliyor mu?
 Evet. Power BI Android telefonlar ve tabletler, iOS cihazları ve Windows 10 cihazları için yerel uygulamalar içerir. İlgili mağazadan [Power BI mobil uygulamalarından](https://powerbi.microsoft.com/mobile) birini indirin:  
@@ -96,6 +90,11 @@ Başlangıç konusunda yardım almak için aşağıdaki kaynakları kullanabilir
 Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](http://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
 
 Ayrıca Power BI uygulamanızla ilgili yardımcı olması için bir [Microsoft İş Ortağı](https://partner.microsoft.com/) bulabilirsiniz.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
+Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
+
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
 [Microsoft Güven Merkezi](http://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.

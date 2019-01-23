@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284070"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394729"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -47,7 +47,7 @@ Power BI Embedded, uygulama oluşturan ve bu uygulamalara görseller eklemek ist
 
 Microsoft, kuruluşların kurumsal sınıf, self servis bulut İş Zekası çözümü olarak Power BI Premium satın almasını ve ISV'lerin bulut destekli katıştırılmış analiz bileşenleri olarak Power BI Embedded satın almasını önerir. Ancak, müşterilerin satın alabileceği ürünlere ilişkin herhangi bir sınırlama yoktur.
 
-Bir ISV (tipik olarak büyük), kuruluşunda önceden paketlenmiş Power BI hizmetinin ek avantajlarından yararlanmak ve uygulamalarına eklemek üzere P SKU kullanmak isteyebilir. Bazı kuruluşlar kullanmaya karar verebilir. Yalnızca iş uygulamaları oluşturmak ve bunlara analiz eklemek istediklerinde ve önceden paketlenmiş Power BI hizmetini kullanmak istemediklerinde Azure'da A SKU'lar kullanabilir.
+Bir ISV (tipik olarak büyük), kuruluşunda önceden paketlenmiş Power BI hizmetinin ek avantajlarından yararlanmak ve uygulamalarına eklemek üzere P SKU kullanmak isteyebilir. Bazı Kuruluşlar, yalnızca iş uygulamaları oluşturmak ve bunlara analiz eklemek istediklerinde ve önceden paketlenmiş Power BI hizmetini kullanmak istemediklerinde Azure'da A SKU kullanabilir.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Kaç tane ekleme belirteci oluşturabilirim?
 
@@ -59,7 +59,7 @@ PRO lisansına sahip ekleme belirteçleri, geliştirmeye testlerine yöneliktir;
 
 PowerBI.com bir Hizmet olarak Yazılım teklifinde sosyal iş birliği, e-posta aboneliği ve benzeri pek çok özelliği içeren kurumsal bir çözümdür
 
-Power BI Embedded ise bir Hizmet olarak Platform teklifinde katıştırılmış analiz çözümü oluşturmak üzere geliştiriciler tarafından kullanılabilen bir dizi API'dir. Katıştırılmış analiz senaryosunda PowerBI.com, ISV'lerin ve geliştiricilerin analiz çözümü içeriklerini ve kiracı düzeyi ayarlarını yönetmesine yardımcı olmak üzere kullanılmalıdır.
+Power BI Embedded ise bir Hizmet olarak Platform teklifinde katıştırılmış analiz çözümü oluşturmak üzere geliştiriciler tarafından kullanılabilen bir dizi API'dir. Katıştırılmış analiz senaryosunda PowerBI.com, ISV'lerin ve geliştiricilerin analiz çözümü içeriklerini ve kiracı düzeyi ayarlarını yönetmesine yardımcı olur.
 
 Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir liste sunulmaktadır.
 
@@ -106,9 +106,9 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 
 Kapasite sağlama (ölçeklendirme/serbert bırakma/oluşturma) işlemi başarısız olabilir. Sağlama çağrısını yapan kişi, Ayrıntıları Alma API'sini kullanarak kapasitenin ProvisioningState değerini denetlemelidir: [Kapasiteler - Ayrıntıları Alma](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>PBIE'yi neden yalnızca belirli bir bölgede oluşturabiliyorum?
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Yalnızca belirli bir bölgede mi Power BI Embedded kapasiteleri oluşturabilirim?
 
-PBIE kapasitelerini yalnızca PBI kiracı bölgenizde oluşturabilirsiniz.
+[Çoklu coğrafya (Önizleme)](embedded-multi-geo.md) özelliği ile, Power BI ana kiracı konumunuzdan farklı bir bölgede [Power BI Embedded kapasitesi](azure-pbie-create-capacity.md) satın alabilirsiniz
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>PBI kiracı bölgemin ne olduğunu nasıl bulabilirim?
 
@@ -157,9 +157,9 @@ Kullanılabilir bölgeler (16 - Power BI ile aynı bölgeler)
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded kimlik doğrulama modeli nedir?
 
-Power BI Embedded, Power BI'da uygulama kimliğini doğrulayarak ana kullanıcının (belirli bir Power BI Pro lisanslı kullanıcısı) kimliğini doğrulamak için Azure AD'den yararlanmaya devam edecektir.
+Power BI Embedded, Power BI'da uygulama kimliğini doğrulayarak ana kullanıcının (belirli bir Power BI Pro lisanslı kullanıcısı) kimliğini doğrulamak için Azure AD'den yararlanmaya devam eder.
 
-Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemleri, ISV tarafından gerçekleştirilecektir ve ISV, uygulamaları için kendi kimlik doğrulama modelini uygulayabilir.
+Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemleri, ISV tarafından gerçekleştirilir ve ISV, uygulamaları için kendi kimlik doğrulama modelini uygulayabilir.
 
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilir veya katıştırılmış uygulama içeriğinizin güvenliği için yeni bir Azure AD kiracısı oluşturabilirsiniz.
 
@@ -216,7 +216,7 @@ Power BI Embedded Azure üzerinden sunulmaktadır.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Power BI Premium'u satın aldıysam ve Azure'da Power BI Embedded avantajlarının bazılarından yararlanmak istiyorsam ne yapmalıyım?
 
-Müşteriler, geçerli sözleşme döneminin sonuna dek tüm mevcut Power BI Premium satın alma işlemleri için ödemelerine devam edecektir. Daha sonra gerektiği şekilde Power BI Premium ürünlerinde değişiklik yapabilirler.
+Müşteriler, geçerli sözleşme döneminin sonuna dek tüm mevcut Power BI Premium satın alma işlemleri için ödemelerine devam eder. Daha sonra gerektiği şekilde Power BI Premium ürünlerinde değişiklik yapabilirler.
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Power BI Embedded'a erişmek için yine de Power BI Premium satın almam gerekiyor mu?
 
@@ -232,7 +232,7 @@ Power BI Embedded dağıtılan düğüm türlerine dayalı tahmini bir saatlik �
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded için kimlerin Power BI Pro lisansı alması gerekir ve bunun nedeni nedir?
 
-Bir Power BI çalışma alanına rapor eklemesi gereken tüm analistlerin, REST API'leri kullanılmasını gerektiren tüm geliştiricilerin, Power BI kiracısını ve kapasitesini yönetmesi gereken tüm kiracı yöneticilerinin bir Power BI Pro lisansı alması gerekir.
+Bir Power BI çalışma alanına rapor ekleyen tüm analistlerin bir Power BI lisansı olması gerekir. REST API’leri kullanması gereken tüm geliştiricilerin bir Power BI Pro lisansı olması gerekir. Power BI kiracısını ve kapasitesini yöneten tüm kiracı yöneticilerini bir Power BI Pro lisansı olması gerekir.
 
 Power BI Embedded katıştırılan içeriği yönetmek ve doğrulamak için Power BI kullanılmasına olanak tanıdığından doğru depolarda raporlara erişmek üzere PowerBI.com'da Uygulama kimliğini doğrulamak için Power BI Pro lisansı gereklidir.
 
@@ -277,9 +277,9 @@ Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriği
 
 Evet. Ancak halihazırda **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanan müşteriler kullanımdan kaldırılmasına kadar kullanmaya devam edebilir. Müşteriler ayrıca yeni çalışma alanı koleksiyonları ve hala **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanan herhangi bir **Power BI Embedded** uygulaması oluşturabilir.
 
-Ancak, bu durum aynı zamanda hiçbir **Power BI Çalışma Alanı Koleksiyonu** çözümüne yeni özelliklerin eklenmeyeceği anlamına gelir ve bu müşterilerin yeni **Power BI Embedded** çözümüne geçişlerini planlamaları önerilir.
+Ancak, bu durum aynı zamanda hiçbir **Power BI Çalışma Alanı Koleksiyonu** çözümüne yeni özelliklerin eklenmeyeceği anlamına gelir ve müşterilerin yeni **Power BI Embedded** çözümüne geçişlerini planlamaları önerilir.
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Power BI Çalışma Alanı Koleksiyonu desteği ne zaman sona erecek?
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Power BI Çalışma Alanı Koleksiyonu desteği ne zaman sona erecek?
 
 Halihazırda **Power BI Çalışma Alanı Koleksiyonları** çözümünü kullanan müşteriler, çözümü Haziran 2018 sonuna ya da destek sözleşmelerinin sonuna kadar kullanmaya devam edebilir.
 
