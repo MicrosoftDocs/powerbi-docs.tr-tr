@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286393"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838474"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -41,8 +41,6 @@ Panolar, raporlar ve Excel çalışma kitapları salt okunurdur ancak içerik pa
 Bir kurumsal içerik paketi yayımlandığında AppSource'a eklenir.  Bu merkezi depo, üyelerin kendileri için yayımlanan panolara, raporlara ve veri kümelerine göz atıp bunları keşfetmesini kolaylaştırır.  
 
 * AppSource'u görüntülemek için **Veri Al** > **Kuruluşum** > **Al** seçeneklerini belirleyin.
-
-[Kurumsal içerik paketleri bulma ve açma](consumer/end-user-content-pack.md) ile ilgili daha fazla bilgi edinin.
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Kurumsal içerik paketinin yaşam döngüsü
 Tüm Power BI Pro kullanıcıları kurumsal içerik paketleri oluşturabilir, yayımlayabilir ve bunlara erişebilir. Yalnızca içerik paketi oluşturucusu çalışma kitabını ve veri kümesini değiştirebilir, yenilemeyi zamanlayabilir ve silebilir.
