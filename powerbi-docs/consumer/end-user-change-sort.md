@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394678"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838290"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre sıralanmıştır.
@@ -26,11 +26,12 @@ Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik 
 Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürebilirsiniz.
 
 1. Üç nokta (...) simgesini seçin ve ardından **Sıralama ölçütü: Sales Per Sq Ft** seçeneğini belirleyin.
-2. Gerekirse, üç nokta simgesini yeniden seçin ve **Azalan düzene göre sırala** seçeneğini belirleyin.
+2. Gerekirse, üç nokta simgesini yeniden seçin ve **Azalan düzende sırala** seçeneğini belirleyin.
 
    ![sıralamanın ve ardından artan, azalan ayarının seçilmesini gösteren video](media/end-user-change-sort/sort.gif)
 
-   **NOT**: Her görsel sıralanamaz.  Örneğin, aşağıdaki görseller sıralanamaz: Ağaç Haritası, Harita, Kartogram, Dağılım, Gösterge, Kart, Çok Satırlı Kart, Şelale.
+> [!NOTE]
+> Her görsel sıralanamaz. Örneğin, aşağıdaki görseller sıralanamaz: Ağaç Haritası, Harita, Kartogram, Dağılım, Gösterge, Kart, Çok Satırlı Kart, Şelale.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Sıralama düzeninde yaptığınız değişiklikleri kaydetme
 Power BI raporları, yaptığınız filtre, dilimleyici, sıralama ve diğer veri görünümü değişikliklerini korur. Bu nedenle, bir rapordan çıkış yapıp daha sonra geri dönerseniz değişiklikleriniz kaydedilir.  Değişikliklerinizi rapor tasarımcısının ayarlarına geri almak isterseniz üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçin. 

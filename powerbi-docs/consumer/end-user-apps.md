@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394789"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838336"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 ## <a name="what-is-a-power-bi-app"></a>Power BI uygulamaları nedir?
@@ -26,12 +26,14 @@ Uygulamalarınız **Uygulamalar** içerik listesinde düzenlenir.
 
 ![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> Uygulamalar özelliğini kullanmak için Power BI Pro lisansı gerekir. <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>Uygulama ***tasarımcıları*** ve uygulama ***tüketicileri***
 İş rolünüze bağlı olarak, kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için uygulama oluşturan biri (tasarımcı) olabilirsiniz. Alternatif olarak, başkaları tarafından oluşturulan uygulamaları alan ve indiren biri (tüketici) olabilirsiniz. Bu makale uygulama *tüketicileri* içindir.
 
 ## <a name="advantages-of-apps"></a>Uygulamaların avantajları
 Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.
-
 
 Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz. 
 
