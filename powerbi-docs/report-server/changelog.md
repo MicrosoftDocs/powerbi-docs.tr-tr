@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292073"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488880"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
+
+## <a name="january-2019"></a>Ocak 2019
+- **Power BI Rapor Sunucusu**            
+    - *Sürüm 1.4.6960.38798 (Derleme 15.0.1102.222), Yayın Tarihi: 22 Ocak 2019*
+        - Özellikler
+            - Power BI Raporları 
+                - Satır düzeyi güvenlik desteği
+                - Matris satır üst bilgilerini genişletme ve daraltma
+                - .pbix dosyaları arasında kopyalama ve yapıştırma
+                - Akıllı hizalama kılavuzları
+                - SAP BW 2.0 Bağlayıcısı desteği
+            - Yöneticiler
+                - Rapor sunucusuna yüklenebilecek kaynakların uzantılarını kısıtlayabilme
+                - Desteklenen köprü şemalarını kısıtlayabilme
+        - Hata Düzeltmeleri
+            - HTML Eklemeye İlişkin Güvenlik Açığı
+            - PDF'ye dışarı aktarmada Euro simgesi gösterilmiyor
+            - Power BI raporlarında birden çok veri kaynağıyla bir parolanın kaydedilmesi, değiştirilmeyen parolaları geçersiz kılıyor
+            - Power BI Mobil Uygulaması boşta bırakıldıktan sonra görsellerde görüntüleme sorunları oluyor
+
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.65.5313.1421 (Ocak 2019), Yayın Tarihi: 22 Ocak 2019*
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2019)  
 
 ## <a name="august-2018"></a>Ağustos 2018
 - **Power BI Rapor Sunucusu**

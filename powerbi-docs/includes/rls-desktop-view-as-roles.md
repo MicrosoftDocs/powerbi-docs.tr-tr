@@ -1,20 +1,21 @@
-## <a name="validating-the-role-within-power-bi-desktop"></a>Power BI Desktop'ta rolü doğrulama
-Rolünüzü oluşturduktan sonra rol sonuçlarını Power BI Desktop'ta test edebilirsiniz. Bunu yapmak için **Rol Olarak Görüntüle**'yi seçin.
+## <a name="validate-the-roles-within-power-bi-desktop"></a>Power BI Desktop'ta rolleri doğrulama
+Rollerinizi oluşturduktan sonra rol sonuçlarını Power BI Desktop'ta test edin.
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+1.  **Rol Olarak Görüntüle**'yi seçin. 
 
-**Rol olarak görüntüle** iletişim kutusundan belirli bir kullanıcı veya rol için görünümü değiştirebilirsiniz. Oluşturduğunuz rolleri görebilirsiniz.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    **Rol olarak görüntüle**'nin altında, oluşturduğunuz rolleri görürsünüz.
 
-Oluşturduğunuz rolü seçtikten sonra bu rolü görüntülediğiniz içeriğe uygulamak için **Tamam**'ı seçin. Raporlar yalnızca seçilen rolle ilgili verileri oluşturur.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-**Diğer kullanıcı**’yı seçebilir ve bir kullanıcı belirtebilirsiniz. Power BI hizmetinin kullandığı Kullanıcı Asıl Adını (UPN) girmeniz önerilir. **Tamam**'ı seçtiğinizde raporlar kullanıcının görebileceği içerikle oluşturulur. 
+3. Oluşturduğunuz rollerden birini seçin > **Tamam** 'ı seçerek bu rolü uygulayın. Rapor seçilen rolle ilgili verileri işler. 
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. **Diğer kullanıcı**’yı seçebilir ve bir kullanıcı belirtebilirsiniz. En iyisi Kullanıcı Asıl Adını (UPN) sağlamaktır çünkü Power BI hizmeti ve Power BI Rapor Sunucusu bunu kullanır.
 
-> [!NOTE]
-> Power BI Desktop'ta yalnızca DAX deyimlerinize göre dinamik güvenlik kullandığınızda farklı sonuçlar gösterilir.
-> 
-> 
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+
+1.  **Tamam** 'ı seçtiğinizde raporlar kullanıcının görebileceği içerikle oluşturulur. 
+
+Power BI Desktop'ta, **Diğer kullanıcı** ancak DAX ifadelerinize göre dinamik güvenlik kullandığınızda farklı sonuçlar gösterir. 
 

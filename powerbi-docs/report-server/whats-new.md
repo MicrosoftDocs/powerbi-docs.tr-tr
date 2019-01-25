@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292465"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488949"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
 Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, yeni sürümlerle birlikte güncelleştirilmektedir.
 
-Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
-
-Ayrıca, Power BI Rapor Sunucusu'ndaki yeni özelliklerden sürekli olarak haberdar olmak için bu kaynakları kontrol edin.
-
-* [Microsoft Power BI Blog (Microsoft Power BI Blogu)](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services Team Blog (SQL Server Reporting Services Ekip Blogu)](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube YouTube kanalı](https://aka.ms/guyinacube)
+Power BI Rapor Sunucusu'nun en son sürümünü ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
 
 İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
 
 * [Power BI hizmetindeki yenilikler](../service-whats-new.md)
 * [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>Ocak 2019
+
+Power BI raporlarında bu özellikler için destek:
+
+[**Satır düzeyi güvenlik**](row-level-security-report-server.md) Power BI Rapor Sunucusu ile satır düzeyi güvenlik (RLS) ayarlandığında, belirli kullanıcıların veri erişimi kısıtlanabilir. Filtreler, veri erişimini satır düzeyinde sınırlar ve rollerin içinde filtre tanımlayabilirsiniz.
+
+[**Matris satır üst bilgilerini genişletme ve daraltma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Tek tek satır üst bilgilerini genişletebilme ve daraltabilme özelliği ekledik. Bu, en çok istenen görsel özelliklerden biriydi.
+
+[**.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
+
+[**Akıllı hizalama kılavuzları**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Rapor sayfanızdaki her şeyi hizalamanıza yardımcı olması için, sayfanızda nesneleri taşırken PowerPoint'teki gibi akıllı hizalama kılavuzları görürsünüz. Sayfanızdaki bir nesneyi her sürüklediğinizde veya yeniden boyutlandırdığınızda akıllı kılavuzları görürsünüz. Bir nesneyi başka bir nesnenin yakınına taşıdığınızda, taşınan nesne diğeriyle hizalı bir konuma yerleştirilir.
+
+**Erişilebilirlik özellikleri** Listelenemeyecek kadar çok erişilebilirlik özelliği var: örneğin, [alan listesi bölmesi erişilebilirlik desteği](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Alan listesi bölmesi tümüyle erişilebilirdir. Yalnızca klavyenizi ve ekran okuyucuyu kullanarak bölmede gezinebilir ve bağlam menüsünü kullanarak rapor sayfanıza alanlar ekleyebilirsiniz.
+
+### <a name="administrator-settings"></a>Yönetici ayarları
+
+Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıdaki ayarları yapabilir:
+
+**AllowedResourceExtensionsForUpload** Rapor sunucusuna yüklenebilecek kaynakların uzantılarını ayarlayın. Yerleşik dosya türlerinin uzantılarını (&ast;.rdl ve &ast;.pbix gibi) eklemek gerekmez. Varsayılan uzantılar “&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx” uzantılarıdır. 
+
+**SupportedHyperlinkSchemes** İşlenmesine izin verilen Köprü eylemlerinde tanımlanmasına izin verilen URI şemalarının virgülle ayrılmış listesini ayarlar veya tüm köprü şemalarına izin vermek için “&ast;” kullanılır. Örneğin, “http,https” ayarlandığında “https://www. contoso.com” köprülerine izin verilir ama “mailto:bill@contoso.com” veya “javascript:window.open(‘www.contoso.com’, ‘_blank’)” köprülerine izin verilmez. Varsayılan değer “&ast;” ayarıdır.
 
 ## <a name="august-2018"></a>Ağustos 2018
 
@@ -325,10 +341,10 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Rapor Sunucusu nedir?](get-started.md) 
-[Yönetici el kitabı](admin-handbook-overview.md)  
-[Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
-[Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
+Power BI Rapor Sunucusu'ndaki yeni özelliklerden sürekli olarak haberdar olmak için bu kaynakları kontrol edin.
+
+* [Microsoft Power BI Blog (Microsoft Power BI Blogu)](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services Team Blog (SQL Server Reporting Services Ekip Blogu)](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube YouTube kanalı](https://aka.ms/guyinacube)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

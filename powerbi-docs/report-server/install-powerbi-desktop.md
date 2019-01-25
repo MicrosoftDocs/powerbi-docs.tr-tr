@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295893"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488834"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin.
@@ -31,7 +31,7 @@ Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en 
 
     ![Web portalından Power BI Desktop'ı indirme](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (Power BI Rapor Sunucusu için en iyi duruma getirilmiş - Ağustos 2018) sayfasına da gidebilirsiniz.
+    Alternatif olarak, Microsoft İndirme Merkezi'nde doğrudan [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (Power BI Rapor Sunucusu için en iyi duruma getirilmiş - Ocak 2019) sayfasına da gidebilirsiniz.
 
 2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
 
@@ -41,14 +41,14 @@ Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en 
 
     - **PBIDesktopRS_x64.msi** (64 bit sürümü).
 
-1. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ağustos 2018) Kurulum Sihirbazını çalıştırın.
+1. Yükleyiciyi indirdikten sonra, Power BI Desktop (Ocak 2019) Kurulum Sihirbazını çalıştırın.
 
 2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
    
     Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>Doğru sürümü kullandığınızdan emin olma
-Power BI Desktop uygulamasının doğru sürümünü kullandığınızdan emin olmak için açılış ekranına veya Power BI Desktop'taki başlık çubuğuna bakabilirsiniz. Başlık çubuğunda sürüme ilişkin ay ve yıl bilgileri gösterilir.
+Power BI Desktop uygulamasının doğru sürümünü kullandığınızdan emin olmak için açılış ekranına veya Power BI Desktop'taki başlık çubuğuna bakabilirsiniz. Başlık çubuğunda sürümün ay ve yıl bilgileri gösterilir.
 
 ![Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop için başlık çubuğu](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
