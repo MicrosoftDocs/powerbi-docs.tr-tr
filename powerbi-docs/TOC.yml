@@ -64,7 +64,7 @@ items:
       href: desktop-many-to-many-relationships.md
     - name: Power BI Desktop’ta depolama modu (Önizleme)
       href: desktop-storage-mode.md
-    - name: Power BI Desktop'ta çift yönlü çapraz filtreleme (Önizleme)
+    - name: Power BI Desktop'ta çift yönlü çapraz filtreleme
       href: desktop-bidirectional-filtering.md
     - name: Power BI ve DirectQuery
       href: desktop-directquery-about.md
@@ -1110,13 +1110,15 @@ items:
         href: report-server/quickstart-create-powerbi-report.md
       - name: Rapor sunucusunda içeriği yönetme
         href: report-server/getting-around.md
+      - name: Rapor sunucusunda satır düzeyi güvenlik (RLS)
+        href: report-server/row-level-security-report-server.md
       - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
         href: report-server/quickstart-create-paginated-report.md
       - name: Verileri doğrudan sayfalandırılmış bir rapora girme
         href: paginated-reports-enter-data.md
       - name: KPI’lerle çalışma
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: 'Paylaşılan veri kümelerine OData akışı olarak erişme '
+      - name: Paylaşılan veri kümelerine OData akışı olarak erişme
         href: report-server/access-dataset-odata.md
       - name: Zamanlanmış yenileme yapılandırma
         href: report-server/configure-scheduled-refresh.md
@@ -1293,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406742"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488903"
