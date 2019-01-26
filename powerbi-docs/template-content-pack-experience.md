@@ -19,7 +19,7 @@ ms.locfileid: "54288279"
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI'daki şablon içerik paketi deneyimleri
 Bu bölümde, bir ISV [içerik paketine](service-connect-to-services.md) bağlanan kullanıcıların edineceği genel deneyim açıklanmaktadır.
 
-https://app.powerbi.com/getdata/servicesadresindeki içerik paketine bağlanarak (aşağıda açıklanan [GitHub içerik paketi](https://app.powerbi.com/getdata/services/github) gibi) bağlantı deneyimini kendiniz de edinebilirsiniz.
+[https://app.powerbi.com/getdata/services](https://app.powerbi.com/getdata/services) adresindeki içerik paketine bağlanarak (aşağıda açıklanan [GitHub içerik paketi](https://app.powerbi.com/getdata/services/github) gibi) bağlantı deneyimini kendiniz de edinebilirsiniz.
 
 ## <a name="connect"></a>Bağlan
 Kullanıcı başlangıç olarak içerik paketi galerisine göz atar ve bağlanmak istediği içerik paketini seçer. İçerik paketi girişinde ad, simge ve kullanıcıyı bilgilendiren bir açıklama metni bulunur.
