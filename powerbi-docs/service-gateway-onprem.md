@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287911"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899262"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -96,7 +96,9 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 
 ## <a name="tenant-level-administration"></a>Kiracı düzeyinde yönetim
 
-Şu anda kiracı yöneticilerinin, diğer kullanıcıların yükleyip yapılandırdığı tüm ağ geçitlerini yönetebileceği tek bir platform yoktur.  Kiracı yöneticisiyseniz, kuruluşunuzdaki kullanıcıların yükledikleri her ağ geçidine sizi yönetici olarak eklemesini istemenizi öneririz. Bu sayede, Ağ Geçidi Ayarları üzerinden veya [PowerShell komutları](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) ile kuruluşunuzdaki tüm ağ geçitlerini yönetebilirsiniz. 
+Kiracı yöneticisi olarak, kiracınızın içine yüklenen tüm Şirket içi veri ağ geçitlerini görebilir ve yönetebilirsiniz. Bu özellik şu anda genel önizlemede. Daha fazla bilgi için bkz. [Power Platformu Yönetim Merkezi belgeleri](/power-platform/admin/onpremises-data-gateway-management).
+
+Alternatif olarak, kiracı yöneticisiyseniz kuruluşunuzdaki kullanıcıların yükledikleri her ağ geçidine sizi yönetici olarak eklemesini istemenizi öneririz. Bu sayede, Ağ Geçidi Ayarları üzerinden veya [PowerShell komutları](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters) ile kuruluşunuzdaki tüm ağ geçitlerini yönetebilirsiniz. 
 
 ## <a name="enabling-outbound-azure-connections"></a>Giden Azure bağlantılarını etkinleştirme
 
