@@ -60,8 +60,8 @@ Azure Audit Logs içerik paketi için Azure portalda Denetim Günlükleri erişi
 ## <a name="finding-parameters"></a>Parametreleri bulma
 Abonelik kimliğinizi bulmanın iki kolay yolu vardır.
 
-1. https://portal.azure.com  -&gt; Gözat - &gt; Abonelikleri - &gt; Abonelik Kimliği bölümünden
-2. https://manage.windowsazure.com  -&gt; Ayarları  -&gt; Abonelik Kimliği bölümünden
+1. https://portal.azure.com -&gt;Gözat - &gt; Abonelikleri - &gt; Abonelik Kimliği bölümünden
+2. https://manage.windowsazure.com -&gt;Ayarları  -&gt; Abonelik Kimliği bölümünden
 
 Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer şekilde sayılardan ve karakterlerden oluşan uzun bir dizidir. 
 
