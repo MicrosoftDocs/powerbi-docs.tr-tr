@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295271"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147600"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -205,6 +205,9 @@ Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre 
 Bu kılavuz mümkün olduğunca kapsamlı olmaya çalışır. Bu adımlardan bazılarını önceden tamamladıysanız, atlayabilirsiniz: Örneğin BW sunucunuz için zaten bir Hizmet Kullanıcısı oluşturup kullanıcıya bir SPN eşlemiş veya gsskrb5 kitaplığını zaten yüklemiş olabilirsiniz.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>İstemci makinelerinde ve BW sunucusunda gsskrb5 kurulumu
+
+> [!NOTE]
+> gsskrb5 artık SAP tarafından etkin olarak desteklenmiyor. Daha fazla bilgi için bkz. [SAP Notu 352295](https://launchpad.support.sap.com/#/notes/352295). Ayrıca gsskrb5'in Veri Ağ Geçidi'nden BW İleti Sunucularına SSO bağlantılarına izin vermediğini de aklınızda bulundurun. Yalnızca BW Uygulama Sunucularıyla bağlantı kurulabilir.
 
 Ağ geçidi üzerinden bir SSO bağlantısını tamamlamak için gsskrb5’in hem istemci hem de sunucu tarafından kullanımda olması gerekir. Ortak Şifreleme Kitaplığı (sapcrypto) şu anda desteklenmemektedir.
 

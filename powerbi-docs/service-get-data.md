@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277239"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899308"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Verileri araştırırken, grafik ve pano oluştururken veya Soru-Cevap özelliğini kullanarak sorularınızı sorarken gördüğünüz görselleştirmelerin ve yanıtların tümüne ilişkin bağlantılı veriler veri kümelerinden alınır. Peki bu veri kümelerinin kaynağı nedir? Veri kaynakları.
@@ -29,7 +29,7 @@ Power BI'da **Çalışma Alanım** > **Veri Al**'a tıklayarak, aşağıdaki ver
 ## <a name="files"></a>Dosyalar
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (.xlsx, .xlxm): Excel, çalışma kitaplarının, hem çalışma sayfalarına girmiş olduğunuz verileri hem de Power Query (Excel 2016'daki Al ve Dönüştür) veya Power Pivot eklentisini kullanarak dış veri kaynaklarından sorgulayıp yüklediğiniz verileri içerebilmesi bakımından diğerlerinden farklı bir veri kaynağıdır. Çalışma sayfalarında bulunan tablolardaki (veriler bir tabloda *olmalıdır*) veya bir veri modeline yüklenmiş olan verileri içeri aktarabilirsiniz. Daha fazla bilgi edinmek için bkz. [Excel'den veri alma](service-get-data-from-files.md).
+**Excel** (.xlsx, .xlsm): Excel, çalışma kitaplarının, hem çalışma sayfalarına girmiş olduğunuz verileri hem de Power Query (Excel 2016'daki Al ve Dönüştür) veya Power Pivot eklentisini kullanarak dış veri kaynaklarından sorgulayıp yüklediğiniz verileri içerebilmesi bakımından diğerlerinden farklı bir veri kaynağıdır. Çalışma sayfalarında bulunan tablolardaki (veriler bir tabloda *olmalıdır*) veya bir veri modeline yüklenmiş olan verileri içeri aktarabilirsiniz. Daha fazla bilgi edinmek için bkz. [Excel'den veri alma](service-get-data-from-files.md).
 
 **Power BI Desktop** (.pbix): Harici veri kaynaklarından veri sorgulayıp yüklemek, ölçüler ve ilişkilerle veri modelinizi genişletmek ve rapor oluşturmak için Power BI Desktop'ı kullanabilirsiniz. Power BI Desktop dosyanızı Power BI sitenize aktarabilirsiniz. Sahip oldukları veri kaynaklarının yanı sıra veri sorgusu, veri dönüştürme ve veri modelleme kavramları konusunda bilgi sahibi olan daha ileri düzey kullanıcılar için Power BI Desktop en iyi seçenektir. Daha fazla bilgi için bkz. [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md).
 

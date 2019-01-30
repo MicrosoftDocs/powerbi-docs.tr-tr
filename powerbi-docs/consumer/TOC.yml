@@ -15,6 +15,8 @@ items:
       href: end-user-experience.md
     - name: Power BI ile neler yapabilirim?
       href: end-user-reading-view.md
+    - name: İlk kez oturum açma
+      href: end-user-sign-in.md
   - name: Öğreticiler
     items:
     - name: Pano uyarısı oluşturma
@@ -47,6 +49,8 @@ items:
       items:
       - name: Görselleştirmeler ile ne yapabilirim?
         href: end-user-visualizations.md
+      - name: Görselleştirme türleri
+        href: end-user-visual-type.md
       - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
         href: end-user-show-data.md
       - name: Power BI'daki görselleştirmelerde detaya gitme
@@ -185,9 +189,9 @@ items:
     items:
     - name: Mobil uygulamalarda desteklenen diller
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 9551f497f497939c78eb241ba28312410f2328c1
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: 623c45cf4522e7596dd1b83925b62d7957474548
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838428"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234336"

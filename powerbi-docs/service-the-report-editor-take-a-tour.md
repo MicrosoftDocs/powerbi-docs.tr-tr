@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284461"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147416"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
+# <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 
 Power BI hizmetindeki *rapor düzenleyicisi* ile Power BI Desktop uygulamasındaki rapor düzenleyicisi benzer özelliklere sahiptir. Videoda Power BI Desktop uygulamasındaki rapor düzenleyicisine, bu makalede ise Power BI hizmetindeki rapor düzenleyicisine yer verilmiştir. 
 
-Rapor oluşturan kişi olarak, panolar ve raporlar oluşturur ve bunları düzenlersiniz. Ardından, bunları rapor kullanıcılarınıza dağıtırsınız. Rapor kullanıcıları Power BI hizmetinin Okuma görünümünde panolarınız ve raporlarınızla etkileşimli çalışabilir ama bunları düzenleyemez. [Power BI hizmetinde raporun Okuma görünümü ile Düzenleme görünümü](consumer/end-user-reading-view.md) arasındaki farklar hakkında daha fazla bilgi edinin. 
+Rapor oluşturan kişi olarak, panolar ve raporlar oluşturur ve bunları düzenlersiniz. Ardından, bunları rapor kullanıcılarınıza dağıtırsınız. Rapor kullanıcıları Power BI hizmetinin Okuma görünümünde panolarınız ve raporlarınızla etkileşimli çalışabilir ama bunları düzenleyemez. [Power BI hizmetinde rapor kullanıcılarının yapabilecekleri](consumer/end-user-reading-view.md) hakkında daha fazla bilgi edinin 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -71,7 +71,7 @@ Biçimlendirme bölmesini açmak için boya rulosu simgesini seçin. Kullanılab
 
 Biçimlendirme seçenekleri neredeyse sonsuzdur.  Daha fazla bilgi edinmek için kendiniz keşfedin veya şu makaleleri ziyaret edin:
 
-* [Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Görselleştirme başlığını, arka planını ve göstergesini özelleştirme](visuals/power-bi-visualization-customize-title-background-and-legend.md)
 * [Renk biçimlendirme](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
 * [X ve Y ekseni özelliklerini özelleştirme](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
@@ -85,7 +85,7 @@ Power BI hizmetindeki Analiz bölmesini kullanarak görselleştirmelere dinamik 
 ## <a name="the-filters-pane"></a>Filtreler bölmesi
 Raporunuzda sayfa, rapor, detaylandırma ve görsel öğe düzeyinde kalıcı filtreler görüntülemek, ayarlamak ve değiştirmek için Filtreler bölmesini kullanın. Evet, görsellerin öğelerini seçerek ya da dilimleyici gibi araçlar kullanarak rapor sayfalarında ve görsel öğelerde geçici filtreleme yapabilirsiniz, ancak Filtreler bölmesi kullanıldığında filtrelerin durumu raporla birlikte kaydedilir. 
 
-Filtreler bölmesinin bir diğer güçlü özelliği: ***halihazırda raporunuzdaki görsel öğelerden biri tarafından kullanılmayan*** bir alan kullanarak filtreleme olanağı. Biraz açıklayayım. Bir rapor sayfası oluşturduğunuzda Power BI, görsel öğelerinizde kullandığınız tüm alanları, Filtreler bölmesinin Görsel düzey filtreleri alanına otomatik olarak ekler.  Ancak, o anda bir görsel öğede kullanılmayan bir alanı kullanarak görsel öğe, sayfa, detaylandırma veya rapor filtresi ayarlamak istiyorsanız, ilgili öğeyi Filtreler demetlerinden birine sürüklemeniz yeterlidir.   
+Filtreler bölmesinin bir diğer güçlü özelliği: ***Şu anda raporunuzda görsel öğelerden biri tarafından kullanılmayan*** bir alan kullanarak filtreleme olanağı. Biraz açıklayayım. Bir rapor sayfası oluşturduğunuzda Power BI, görsel öğelerinizde kullandığınız tüm alanları, Filtreler bölmesinin Görsel düzey filtreleri alanına otomatik olarak ekler.  Ancak, o anda bir görsel öğede kullanılmayan bir alanı kullanarak görsel öğe, sayfa, detaylandırma veya rapor filtresi ayarlamak istiyorsanız, ilgili öğeyi Filtreler demetlerinden birine sürüklemeniz yeterlidir.   
 
 ![Filtreler bölmesi](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 

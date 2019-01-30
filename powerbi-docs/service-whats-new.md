@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488926"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147577"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
-**Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. Bağlantılı "Yenilikler" bilgileri için bkz.:
+**Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
+- [İş zekası Ekim 2018'deki yenilikler](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) Microsoft Business Applications Grubu'nun sürüm notları: İş uygulamalarımızdaki en son güncelleştirmeler.
 - [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 - [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
-- Dynamics 365'ten [Business Applications Bahar 2018 sürüm notları](http://aka.ms/businessappsreleasenotes): İş uygulamalarımızdaki en son güncelleştirmelerin yanı sıra platformumuzda kendi uygulamalarınızı ve uzantılarınızı oluşturmaya yönelik yeni olanaklar. 
 
-"Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanallarını da inceleyebilirsiniz.
+Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanallarını da gözde geçirin.
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
