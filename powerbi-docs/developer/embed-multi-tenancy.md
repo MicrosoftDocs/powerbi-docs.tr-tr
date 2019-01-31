@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289222"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430729"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -29,7 +29,7 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 ## <a name="concepts-and-terminology"></a>Kavramlar ve terminoloji
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
 
 **AAD uygulaması**: AAD'de bir uygulama kimliği. Kimlik doğrulaması için bir AAD uygulaması gereklidir.
 
@@ -105,7 +105,7 @@ Power BI Embedded birden çok coğrafi konumda dağıtımı destekler (önizleme
 
 ### <a name="cost"></a>Maliyet
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her *ana* kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer [Power BI Pro lisansı](../service-admin-licensing-organization.md) gerekir.
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her *ana* kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer [Power BI Pro lisansı](../service-admin-licensing-organization.md) gerekir.
 
 Canlı ortamın ve kullanımın simülasyonunu yaparak ve kapasitede yük testi çalıştırarak kapasitenizde beklenen yükü test etmenizi ve ölçmenizi öneririz. Azure kapasitesinde veya [Premium kapasite ölçüm uygulamasında](../service-admin-premium-monitor-capacity.md) sağlanan çeşitli Ölçümlerle yükü ve performansı ölçebilirsiniz.
 
@@ -132,17 +132,17 @@ Kiracının verilerini yönetmek için iki ana yaklaşım vardır.
 
 SaaS uygulaması depolama alanında her kiracı için ayrı veritabanı bulunduruluyorsa, doğal seçim Power BI'da tek kiracılı veri kümeleri kullanmak ve her veri kümesi için eşleşen veritabanına işaret eden bir bağlantı dizesi sağlamaktır.
 
-SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup) [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)'yi kullanabilirsiniz.
+SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)'yi kullanabilirsiniz.
 
 ### <a name="data-isolation"></a>Veri yalıtımı
 
-Bu kiracı modelinde veriler çalışma alanı düzeyinde ayrılır. Çalışma alanıyla kiracı arasındaki basit bir eşleme, bir kiracıdaki kullanıcıların diğer kiracıdaki içeriği görmesini önler. Tek bir *ana* kullanıcı kullanmak için tüm farklı çalışma alanlarına erişiminizin olması gerekir. Son kullanıcının hangi verileri görüntüleyeceğini belirleyen yapılandırma, [ekleme belirtecini oluşturma](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken) sırasında tanımlanır. Bu, son kullanıcının göremediği veya değiştiremediği yalnızca arka uçta çalışan bir işlemdir.
+Bu kiracı modelinde veriler çalışma alanı düzeyinde ayrılır. Çalışma alanıyla kiracı arasındaki basit bir eşleme, bir kiracıdaki kullanıcıların diğer kiracıdaki içeriği görmesini önler. Tek bir *ana* kullanıcı kullanmak için tüm farklı çalışma alanlarına erişiminizin olması gerekir. Son kullanıcının hangi verileri görüntüleyeceğini belirleyen yapılandırma, [ekleme belirtecini oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken) sırasında tanımlanır. Bu, son kullanıcının göremediği veya değiştiremediği yalnızca arka uçta çalışan bir işlemdir.
 
 Daha fazla yalıtım eklemek için, uygulama geliştiricisi birden çok çalışma alanına erişimi olan tek bir *ana* kullanıcı veya uygulama yerine, her çalışma alanı için birer *ana* kullanıcı veya uygulama tanımlayabilir. Bu sayede, herhangi bir insan hatasının veya kimlik bilgileri sızıntısının birden çok müşterinin verilerinin ortaya çıkmasına neden olmayacağından emin olabilirsiniz.
 
 ### <a name="scalability"></a>Ölçeklenebilirlik
 
-Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, [kullanılmayan veri kümelerini çıkararak](../service-premium-understand-how-it-works.md) etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur. [Kapasitenin işleyişi hakkında daha fazla bilgi edinin](../service-admin-premium-manage.md).
+Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, [kullanılmayan veri kümelerini çıkararak](../service-premium-understand-how-it-works.md) etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur. [Kapasitenin işleyişi hakkında daha fazla bilgi edinin](../service-admin-premium-manage.md).
 
 Bu avantajlara rağmen, SaaS uygulamasının gelecekte ulaşabileceği ölçek göz önüne alınmalıdır. Örneğin, yönetilebilecek yapıt sayısıyla ilgili sınırlamalara ulaşılabilir. Daha fazla ayrıntı için bu makaledeki dağıtım [sınırlamalarına](#summary-comparison-of-the-different-approaches) bakın. Kullanılan kapasite SKU'su veri kümelerinin içine sığabilmesi gereken bellek boyutuna, [aynı anda çalıştırılabilecek yenileme sayısına](../service-premium-understand-how-it-works.md) ve maksimum veri yenileme sıklığına sınır getirir. Yüzlerce veya binlerce veri kümesi yönetilirken, test edilmesi önerilir. Ortalama ve en yüksek kullanım hacimlerinin, ayrıca büyük veri kümeleri veya farklı kullanım desenleri olup diğer kiracılardan farklı yönetilen belirli kiracıların da göz önüne alınması önerilir.
 

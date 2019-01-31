@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289306"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431143"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 
-Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)'ı indirdiğinizde veya [Power BI hizmetini](https://app.powerbi.com) açtığınızda "önceden paketlenmiş" olarak sunulur.
+Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, [Power BI Desktop](https://powerbi.microsoft.com/desktop/)'ı indirdiğinizde veya [Power BI hizmetini](https://app.powerbi.com) açtığınızda "önceden paketlenmiş" olarak sunulur.
 
 ![görselleştirmeler](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ Power BI yöneticileri, kuruluş içinde kullanılmasına onay verdikleri özel 
 
 ## <a name="marketplace-visuals"></a>Market görselleri
 
-Topluluk üyelerinin yanı sıra Microsoft tarafından genel kamu yararına yönelik olarak özel görsel katkısında bulunulmuş ve bu görseller [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) markette yayımlanmıştır. Bu görseller indirilerek Power BI raporlarına eklenebilir. Bu özel görsellerin tümü, Microsoft tarafından işlevsellik ve kalite testinden geçirilip onaylanmıştır.
+Topluluk üyelerinin yanı sıra Microsoft tarafından genel kamu yararına yönelik olarak özel görsel katkısında bulunulmuş ve bu görseller [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) markette yayımlanmıştır. Bu görseller indirilerek Power BI raporlarına eklenebilir. Bu özel görsellerin tümü, Microsoft tarafından işlevsellik ve kalite testinden geçirilip onaylanmıştır.
 
-[AppSource](developer/office-store.md) nedir? Şöyle açıklanabilir; Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/en-us/); Power BI, Office 365, Azure, Dynamics 365 ve Cortana gibi ürünlerin milyonlarca kullanıcısının, işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlanmasını sağlar.
+[AppSource](developer/office-store.md) nedir? Şöyle açıklanabilir; Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/); Power BI, Office 365, Azure, Dynamics 365 ve Cortana gibi ürünlerin milyonlarca kullanıcısının, işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlanmasını sağlar.
 
 ### <a name="certified-visuals"></a>Sertifikalı görseller
 
 Power BI sertifikalı görseller, kalite konusunda ek olarak sıkı testlerden geçirilmiş olan market görselleridir. Bu görsellerin, [e-posta abonelikleri](https://docs.microsoft.com/power-bi/service-report-subscribe) ve [PowerPoint'e aktarma](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint) gibi ek senaryolardaki kullanımları desteklenir.
 Sertifikalı özel görsellerin listesini görmek veya kendi özel görselinizi göndermek için bkz. [Sertifikalı özel görseller](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) öğrenin.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) öğrenin.
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Bir dosyadan özel bir görseli içeri aktarma
 
@@ -135,7 +135,7 @@ Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirme
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. *Power BI Uygulamaları* da dahil olmak üzere her kategoride sık kullanılan uygulamaları görüntüleyebileceğiniz [Uygulama sonuçları sayfasına](https://appsource.microsoft.com/en-us/marketplace/apps) gidin. Ancak, aradığımız şey özel görseller olduğu için sol gezinti listesinden **Power BI visuals** seçeneğini belirleyerek sonuçları daraltalım.
+2. *Power BI Uygulamaları* da dahil olmak üzere her kategoride sık kullanılan uygulamaları görüntüleyebileceğiniz [Uygulama sonuçları sayfasına](https://appsource.microsoft.com/marketplace/apps) gidin. Ancak, aradığımız şey özel görseller olduğu için sol gezinti listesinden **Power BI visuals** seçeneğini belirleyerek sonuçları daraltalım.
 
     ![AppSource görselleri](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

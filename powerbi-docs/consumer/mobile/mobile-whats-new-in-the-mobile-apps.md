@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324055"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431258"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -37,15 +37,15 @@ Yeni ‘modern görsel üst bilginin’ kullanıldığı raporlarda artık üst 
 
 ### <a name="enhance-presentation-mode-windows"></a>Gelişmiş sunu modu (Windows)
 
-Surface Hub ve Windows 10 cihazları için gelişmiş sunu modu.  Geliştirilmiş sunu ve işbirliği araçlarıyla, ayrıca verilerinize odaklanabilmenizi sağlayan kenarlıksız, geniş ekran için iyileştirilmiş görünümle gelişmiş Surface Hub toplantı odası deneyiminden yararlanın. Sunu modu, verilerinizi etkili bir şekilde sunmak ve bunlar üzerinde tartışmak için mürekkep gibi araçlar da sağlar. [Burada](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) sunu modu hakkında daha fazla bilgi bulabilirsiniz.
+Surface Hub ve Windows 10 cihazları için gelişmiş sunu modu.  Geliştirilmiş sunu ve işbirliği araçlarıyla, ayrıca verilerinize odaklanabilmenizi sağlayan kenarlıksız, geniş ekran için iyileştirilmiş görünümle gelişmiş Surface Hub toplantı odası deneyiminden yararlanın. Sunu modu, verilerinizi etkili bir şekilde sunmak ve bunlar üzerinde tartışmak için mürekkep gibi araçlar da sağlar. [Burada](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/) sunu modu hakkında daha fazla bilgi bulabilirsiniz.
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Tabletlerde dikey rapor düzeni (iOS ve Android)
 
-Tablette dikey mod yönlendirmesinde rapor görüntülemek için artık mevcut olduğunda telefon raporu düzenini kullanıyoruz. [Power BI Hizmetinde veya Power BI Desktop'ta telefon düzeni oluşturma](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/) hakkındaki diğer yazıları okuyun.
+Tablette dikey mod yönlendirmesinde rapor görüntülemek için artık mevcut olduğunda telefon raporu düzenini kullanıyoruz. [Power BI Hizmetinde veya Power BI Desktop'ta telefon düzeni oluşturma](https://docs.microsoft.com/power-bi/desktop-create-phone-report/) hakkındaki diğer yazıları okuyun.
 
 ### <a name="supporting-report-query-string"></a>Rapor sorgu dizesi desteği 
 
-Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulamada açılıyor ve sorgu dizesinde tanımlanan koşullar temelinde önceden filtreleniyor. [Sorgu dizesiyle rapor url'si oluşturma](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) hakkında daha fazla bilgi edinin.  
+Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulamada açılıyor ve sorgu dizesinde tanımlanan koşullar temelinde önceden filtreleniyor. [Sorgu dizesiyle rapor url'si oluşturma](https://docs.microsoft.com/power-bi/service-url-filters/) hakkında daha fazla bilgi edinin.  
 
 ### <a name="shared-credentials-now-in-android"></a>Paylaşılan kimlik bilgileri (artık Android'de)
 
@@ -65,7 +65,7 @@ Rapor görsel eylem menüsünde (...) şimdi temel alınan verileri tablo biçim
 
 Sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Power BI Hizmetinde sayfalandırılmış raporlara erişimi olan kullanıcılar, bu raporları mobil uygulamalarından da erişebilir. 
 
-[Mobilde sayfalandırılmış raporlar hakkındaki Power BI blog gönderisini](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) okuyun.
+[Mobilde sayfalandırılmış raporlar hakkındaki Power BI blog gönderisini](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) okuyun.
 
 ### <a name="shared-credentials-ios"></a>Paylaşılan kimlik bilgileri (iOS)
 

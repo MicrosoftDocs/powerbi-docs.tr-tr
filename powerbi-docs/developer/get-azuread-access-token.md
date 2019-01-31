@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: f97376477ff3938280bf00b14f4aa511b977d8c7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f585d5a48ab38124d17110049cd7dd7d5da45164
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286991"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55428774"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma
 Power BI uygulamalarınızda kullanıcıların kimliğini doğrulamayı ve REST API ile kullanmak üzere bir erişim belirteci almayı öğrenin.
@@ -86,7 +86,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.windows.net/common/oauth2/authorize/
+    // AADAuthorityUri = https://login.microsoftonline.net/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);

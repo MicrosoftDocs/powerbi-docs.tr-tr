@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d48384be3c581eb25cde7019882ad2f44995ca99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279976"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430752"
 ---
 # <a name="kpi-visuals"></a>KPI görselleri
 Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI'ler hakkında daha fazla bilgi için bkz. [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -24,7 +24,7 @@ Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi 
 Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Önkoşullar
-* [Power BI Desktop ücretsizdir.](https://powerbi.microsoft.com/en-us/get-started/)
+* [Power BI Desktop ücretsizdir.](https://powerbi.microsoft.com/get-started/)
 * [Perakende Analizi örneği PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>KPI'ler ne zaman kullanılır?

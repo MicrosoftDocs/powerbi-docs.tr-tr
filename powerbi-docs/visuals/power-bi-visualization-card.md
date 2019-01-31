@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275813"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430200"
 ---
 # <a name="card-visualizations"></a>Kart görselleştirmeleri
 Bazen Power BI panonuzda veya raporunuzda izlemek istediğiniz en önemli şey (örneğin, toplam satış, yıldan yıla pazar payı veya toplam fırsat) tek bir sayı olabilir. Bu görselleştirme türüne *Kart* adı verilir. Diğer tüm yerel Power BI görselleştirmelerinde olduğu gibi Kartlar da rapor düzenleyicisi veya Soru-Cevap kullanılarak oluşturulabilir.
@@ -49,7 +49,7 @@ Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Yönergeleri tak
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Soru-Cevap soru kutusundan kart oluşturma
-Soru-Cevap soru kutusu, Kart oluşturmanın en kolay yoludur. Soru-Cevap soru kutusuna Power BI hizmetinde, bir panodan, rapordan ve Masaüstü rapor görünümünden erişebilirsiniz. Aşağıdaki adımlar Power BI hizmeti panosundan Kart oluşturmayı anlatmaktadır. Power BI Desktop'taki Soru-Cevap özelliğini kullanarak kart oluşturmak isterseniz Desktop raporları için Soru-Cevap önizlemesi [yönergelerini izleyin](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA).
+Soru-Cevap soru kutusu, Kart oluşturmanın en kolay yoludur. Soru-Cevap soru kutusuna Power BI hizmetinde, bir panodan, rapordan ve Masaüstü rapor görünümünden erişebilirsiniz. Aşağıdaki adımlar Power BI hizmeti panosundan Kart oluşturmayı anlatmaktadır. Power BI Desktop'taki Soru-Cevap özelliğini kullanarak kart oluşturmak isterseniz Desktop raporları için Soru-Cevap önizlemesi [yönergelerini izleyin](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
 
 1. Bir [pano](../service-dashboards.md) oluşturun ve [veri alın](../service-get-data.md). Bu örnekte [Fırsat Analizi Örneği](../sample-opportunity-analysis.md) kullanılmaktadır.
 

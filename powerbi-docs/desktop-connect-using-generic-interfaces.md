@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296058"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430637"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop'ta genel arabirimleri kullanarak verilere bağlanma
 **Veri Al** penceresinde gösterildiği gibi, **Access veritabanlarından** **Zendesk** kaynaklarına kadar çeşitlilik gösteren yerleşik veri bağlayıcılarını kullanarak **Power BI Desktop**'ta çok sayıda veri kaynağına bağlanabilirsiniz. Ayrıca, **Power BI Desktop**’ta yerleşik olarak bulunan genel arabirimleri (**ODBC** veya **REST API’leri** gibi) kullanarak çok çeşitli *başka* veri kaynaklarına da bağlanabilir, bu sayede bağlantı seçeneklerinizi daha da genişletebilirsiniz.
@@ -49,7 +49,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **ODBC** arabirimini kulla
 | Power BI Desktop genel bağlayıcısı | Dış veri kaynağı | Daha fazla bilgi için bağlantı |
 | --- | --- | --- |
 | ODBC |Cassandra |[Cassandra ODBC sürücüsü](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase ve Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase ve Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[DynamoDB ODBC sürücüsü](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[BigQuery ODBC sürücüsü](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[Hbase ODBC sürücüsü](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **REST API'leri** arabirim
 
 | Power BI Desktop genel bağlayıcısı | Dış veri kaynağı | Daha fazla bilgi için bağlantı |
 | --- | --- | --- |
-| REST API'leri |Couchbase DB |[Couchbase REST API'si bilgileri](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API'leri |Couchbase DB |[Couchbase REST API'si bilgileri](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>R Betiği aracılığıyla erişilebilir veri kaynakları
 **R betiklerini** kullanarak veri kaynaklarına erişebilir ve bu verileri **Power BI Desktop**'ta kullanabilirsiniz.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277722"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430890"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 
@@ -55,7 +55,7 @@ Azure ve Power BI sayesinde istediğiniz ölçekte çalışma yapabilirsiniz. Ç
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Power BI Embedded analizleri ile bağlam içgörüleri
 
-İş verilerinizden faydalanmak için uygulamalara, web sitelerine, portallara ve çok daha fazlasına etkileyici ve etkileşimli veri görselleştirmeleri ekleyin. [Azure’da Power BI Embedded’ı kaynak olarak kullanarak](https://azure.microsoft.com/services/power-bi-embedded/) etkileşimli raporları ve panoları kolayca ekleyebilir, bu sayede kullanıcılarınıza farklı cihazlarda tutarlı ve yüksek güvenilirlikli deneyimler sunabilirsiniz.  Eklenen analizler sayesinde Power BI, Veri -> Bilgi -> İçgörüler -> Eylemler yolculuğunuzda size yardımcı olur.  Ayrıca analizleri [kuruluşunuzun şirket içi uygulamalarına ve portallarına](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/) ekleyerek Power BI ve Azure’dan daha fazla fayda elde edebilirsiniz.
+İş verilerinizden faydalanmak için uygulamalara, web sitelerine, portallara ve çok daha fazlasına etkileyici ve etkileşimli veri görselleştirmeleri ekleyin. [Azure’da Power BI Embedded’ı kaynak olarak kullanarak](https://azure.microsoft.com/services/power-bi-embedded/) etkileşimli raporları ve panoları kolayca ekleyebilir, bu sayede kullanıcılarınıza farklı cihazlarda tutarlı ve yüksek güvenilirlikli deneyimler sunabilirsiniz.  Eklenen analizler sayesinde Power BI, Veri -> Bilgi -> İçgörüler -> Eylemler yolculuğunuzda size yardımcı olur.  Ayrıca analizleri [kuruluşunuzun şirket içi uygulamalarına ve portallarına](https://powerbi.microsoft.com/developers/embedded-analytics/organization/) ekleyerek Power BI ve Azure’dan daha fazla fayda elde edebilirsiniz.
 
 [Power BI Geliştirici Portalı](http://dev.powerbi.com)'nda Power BI API'leri hakkında oldukça fazla bilgi mevcuttur.
 

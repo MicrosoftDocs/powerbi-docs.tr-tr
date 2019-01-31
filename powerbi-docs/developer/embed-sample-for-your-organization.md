@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283656"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431304"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için bir uygulamaya Power BI raporu, pano veya kutucuk ekleme
 
@@ -32,7 +32,7 @@ Bu öğreticide, aşağıdaki görevleri öğreneceksiniz:
 
 Başlamak için bir Power BI Pro hesabı ve bir Microsoft Azure aboneliği gerekir:
 
-* Power BI Pro’ya kaydolmadıysanız, başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
+* Power BI Pro’ya kaydolmadıysanız, başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 * Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
 * Kendi [Azure Active Directory (Azure AD) kiracınızı](create-an-azure-active-directory-tenant.md) ayarlayın.
 * [Visual Studio](https://www.visualstudio.com/) 2013 veya sonraki bir sürümü yükleyin.

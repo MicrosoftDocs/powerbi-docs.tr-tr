@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278918"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430913"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
 Power BI Apple Watch uygulamasıyla, Power BI panolarınızdaki KPI'leri ve kart kutucuklarını doğrudan saatinizde görüntüleyebilirsiniz. KPI'ler ve kart kutucukları küçük ekranda bir kalp atışı ölçümü sunmak üzere en iyi şekilde yerleştirilir. iPhone'dan veya doğrudan Apple Watch'tan bir panoyu yenileyebilirsiniz.
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch uygulamasını yükleme
-Power BI Apple Watch uygulaması iOS için Power BI uygulamasıyla birlikte sunulur, bu nedenle Apple App Store'dan [Power BI uygulamasını iPhone'unuza indirdiğinizde](http://go.microsoft.com/fwlink/?LinkId=522062 " iPhone uygulamasını indirin") Power BI Watch uygulamasını da otomatik olarak indirirsiniz. Apple tarafından sağlanan kılavuzda [Apple Watch uygulamalarının nasıl yükleneceği](https://support.apple.com/en-us/HT204784) açıklanmaktadır.
+Power BI Apple Watch uygulaması iOS için Power BI uygulamasıyla birlikte sunulur, bu nedenle Apple App Store'dan [Power BI uygulamasını iPhone'unuza indirdiğinizde](http://go.microsoft.com/fwlink/?LinkId=522062 " iPhone uygulamasını indirin") Power BI Watch uygulamasını da otomatik olarak indirirsiniz. Apple tarafından sağlanan kılavuzda [Apple Watch uygulamalarının nasıl yükleneceği](https://support.apple.com/HT204784) açıklanmaktadır.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch'ta Power BI uygulamasını kullanma
 Saatin duyuru panosundan veya doğrudan saat kadranındaki Power BI pencere öğesine tıklayarak (yapılandırılmışsa) Power BI Apple Watch uygulamasına gidin.
@@ -69,7 +69,7 @@ Belli bir Power BI kutucuğunu doğrudan Apple Watch kadranında da görüntüle
 Power BI Apple Watch pencere öğesi, verilerinizin güncelleştirileceği zamana yakın bir noktada güncelleştirilir. Böylece, ihtiyaç duyduğunuz bilgiler her zaman güncel kalır.
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>Saat kadranınıza bir Power BI pencere öğesi ekleme
-Apple tarafından sağlanan Kılavuzdaki [Apple Watch kadranınızı özelleştirme](https://support.apple.com/en-us/HT205536) bölümüne bakın.
+Apple tarafından sağlanan Kılavuzdaki [Apple Watch kadranınızı özelleştirme](https://support.apple.com/HT205536) bölümüne bakın.
 
 ### <a name="change-the-text-on-the-widget"></a>Pencere öğesindeki metni değiştirme
 Apple Watch kadranındaki alanın küçüklüğü nedeniyle Power BI Apple Watch uygulaması, pencere öğesinin başlığını bu küçük alana sığacak şekilde değiştirmenizi sağlar.

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282000"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430614"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI hizmeti ***müşterilerine*** yönelik temel kavramlar
 
@@ -37,7 +37,7 @@ Başlamak için bir tarayıcı penceresi açın ve **app.powerbi.com** adresine 
 ![Power BI hizmetinin Hoş Geldiniz ekranı](media/end-user-basic-concepts/power-bi-open.png)
 
 Power BI hizmetini kullandıkça web sitesini açtığınızda gösterilecek öğeleri kişiselleştirmiş olursunuz.  Örneğin bazı kullanıcılar Power BI hizmetinin Giriş sayfasıyla açılmasını isterken bazıları ilk sayfada sık kullandıkları bir panoyu görmek ister. Endişelenmeyin, bunu nasıl yapacağınızı size göstereceğiz. 
-- [Giriş önizlemesi](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Giriş önizlemesi](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [İçeriği **öne çıkanlar** olarak ayarlama](end-user-featured.md) 
 
 ![Giriş sayfası görünümü ve pano görünümü gösteriliyor](media/end-user-basic-concepts/power-bi-first.png)

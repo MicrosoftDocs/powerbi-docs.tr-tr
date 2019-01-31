@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280800"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431281"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -70,7 +70,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **içerik listesi** Bir uygulamanın içerik dizini.
 
-**içerik paketi** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) bilgi edinin. 
+**içerik paketi** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) bilgi edinin. 
 
 **içerik görünümü**
 

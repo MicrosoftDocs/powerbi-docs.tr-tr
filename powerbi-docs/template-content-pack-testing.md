@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281241"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430683"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Power BI şablon içerik paketlerini test etme
 İçerik paketinizi yayımlanmak üzere göndermeden önce test edebileceğiniz birden fazla yöntem vardır.  
@@ -68,7 +68,7 @@ Panonuzu, raporunuzu ve veri kümenizi içerik paketinin tamamında tutarlı bir
 <a name="submission"></a>
 
 ## <a name="submission"></a>Gönderme
-[Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) üzerinden gerçekleştirilen gönderme işlemi, şablon içerik paketinizin PowerBI.com üzerindeki hizmet içerik paketleri galerisinde yayımlanmasının yanı sıra içerik paketinizin [Microsoft AppSource](http://appsource.microsoft.com)'ta listelenmesini sağlayacaktır.
+[Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) üzerinden gerçekleştirilen gönderme işlemi, şablon içerik paketinizin PowerBI.com üzerindeki hizmet içerik paketleri galerisinde yayımlanmasının yanı sıra içerik paketinizin [Microsoft AppSource](http://appsource.microsoft.com)'ta listelenmesini sağlayacaktır.
 
 ### <a name="before-submission"></a>Göndermeden önce
 * İçerik paketi içindeki tüm öğelerle ilgili içerik oluşturma ipuçlarını gözden geçirin
@@ -77,7 +77,7 @@ Panonuzu, raporunuzu ve veri kümenizi içerik paketinin tamamında tutarlı bir
 * İçerik paketinin Soru-Cevap özelliğine düzgün cevaplar verdiğinden emin olun. Veri modelinde en az 30 farklı soruyu test etmenizi öneririz. (Kendi özel [Veri Bağlayıcınızı](https://aka.ms/DataConnectors) geliştirdiyseniz bu adımı atlayın)
 
 ### <a name="submission"></a>Gönderme
-Göndermeye hazır olduğunuzda AppSource'taki [Uygulama gönderme sayfasını](https://appsource.microsoft.com/en-us/partners/list-an-app) ziyaret edin ve bilgilerinizi gönderin. Kullanılabilir ürün listesinden Power BI'ı seçtiğinizden emin olun
+Göndermeye hazır olduğunuzda AppSource'taki [Uygulama gönderme sayfasını](https://appsource.microsoft.com/partners/list-an-app) ziyaret edin ve bilgilerinizi gönderin. Kullanılabilir ürün listesinden Power BI'ı seçtiğinizden emin olun
 
 Power BI ekibi gönderinizi inceleyecek ve tüm öğelerin gereksinimlere uygun olduğundan emin olmak için sizinle iletişime geçecektir. Paketin eksiksiz olmasının yanı sıra sağlanan panonun ve raporların kalite düzeyini de doğrulayarak uygulamada anlatılan iş senaryosuna uygun olduğundan emin olacağız.
 

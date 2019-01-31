@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394770"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429924"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .gov ve .mil e-posta 
 Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. [Power BI self servis kayıt işlemi](../service-self-service-signup-for-power-bi.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
-Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Kar Amacı Gütmeyen Kuruluşlar](https://www.microsoft.com/en-us/nonprofits/power-bi) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
+Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Kar Amacı Gütmeyen Kuruluşlar](https://www.microsoft.com/nonprofits/power-bi) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Kamu fiyatları ve akademik fiyatlar MOSP/Doğrudan, EA ve Açık lisans programları ile sunulur. Kamu fiyatları dağıtımda da kullanılabilir. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI mobil cihazları destekliyor mu?
 Evet. Power BI Android telefonlar ve tabletler, iOS cihazları ve Windows 10 cihazları için yerel uygulamalar içerir. İlgili mağazadan [Power BI mobil uygulamalarından](https://powerbi.microsoft.com/mobile) birini indirin:  

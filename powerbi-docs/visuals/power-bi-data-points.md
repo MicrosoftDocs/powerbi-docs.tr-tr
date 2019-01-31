@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295386"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430454"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları
 
@@ -40,7 +40,7 @@ Her bir strateji için, görselleştirilmekte olan verilerin şekline ve türün
 ## <a name="statistics"></a>İstatistik
 Belirli modeller, belirli sütunlar için değer sayısıyla ilgili istatistikler sağlayabilir. Bu tür bilgiler mevcut olduğunda, bir görselin bir strateji için değer sayısını açıkça geçersiz kılmaması durumunda birden çok hiyerarşi genelinde daha iyi dengeleme sağlamak için bu bilgilerden yararlanırız.
 
-Daha fazla bilgi için bkz. [Analysis Services’taki yenilikler](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+Daha fazla bilgi için bkz. [Analysis Services’taki yenilikler](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
 
 ## <a name="dynamic-limits"></a>Dinamik sınırlar
 Yukarıdaki stratejilere ek olarak, iki gruplandırma sütunu hiyerarşisi (eksen ve gösterge veya kategori ve seri) içeren görseller, *dinamik sınırlar* adı verilen ek bir strateji kullanır.  Dinamik sınırlar, veri noktalarını daha iyi dengelemek için tasarlanmıştır. 
@@ -128,7 +128,7 @@ Azaltma stratejisi yoktur
 - Değerler: Aynı anda 200 satırlık Pencere kullanılarak sanallaştırma
 
 ### <a name="scatter-chart-high-density"></a>Dağılım grafiği (yüksek yoğunluklu)
-Bkz. [Yüksek yoğunluklu dağılım](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+Bkz. [Yüksek yoğunluklu dağılım](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>Pasta
 - Maksimum nokta sayısı: 3.500

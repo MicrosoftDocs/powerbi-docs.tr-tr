@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/17/2018
-ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394729"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430591"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -79,7 +79,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Satın alma  |Azure portalı |Office |Office |
-|Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/en-us/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
+|Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br></br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
 |Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanılabilir (mobil uygulama hariç) |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |

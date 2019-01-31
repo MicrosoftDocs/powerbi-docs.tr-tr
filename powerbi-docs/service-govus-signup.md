@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e37f6f18b182851c3fc2afc2f67de0023bd46382
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276710"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430085"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -41,7 +41,7 @@ Kuruluşunuz yeni bir **Office Kamu Bulutu** müşterisiyse aşağıdaki adımla
 > Bu adımların portal yöneticisi tarafından gerçekleştirilmesi gerekir.
 >
 
-1. [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) adresine gidin.
+1. [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government) adresine gidin.
 
 >[!NOTE]
 >Bu adımda Office Kamu Bulutu'na kaydolmak istemiyorsanız lütfen satış temsilcinize ulaşın.
