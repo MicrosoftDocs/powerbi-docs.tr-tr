@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: Filtrelenmiş rapor paylaşma
         href: service-share-reports.md
+      - name: Kendinizin ve başkalarının abone olmasını sağlama
+        href: service-report-subscribe.md
       - name: SharePoint Online'a rapor ekleme
         href: service-embed-report-spo.md
       - name: Raporu güvenli bir portala veya web sitesine ekleme
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: Sık sorulan sorular (SSS)
       href: service-admin-faq.md
+    - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
+      href: service-admin-failover.md
   - name: Nasıl yapılır?
     items:
     - name: Lisanslama ve kaydolma
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234497"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431120"
