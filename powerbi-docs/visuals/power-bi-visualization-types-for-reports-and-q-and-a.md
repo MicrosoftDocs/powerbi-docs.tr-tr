@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296812"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234313"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -82,6 +82,11 @@ Daha fazla bilgi için bkz. [Power BI'daki huni grafikler](power-bi-visualizatio
 
 Daha fazla bilgi için bkz. [Power BI'daki ölçer grafikler](power-bi-visualization-radial-gauge-charts.md).
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI'ler
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktala
 ### <a name="maps-arcgis-maps"></a>Haritalar: ArcGIS haritaları
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](../power-bi-visualization-arcgis.md).
+Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ Daha fazla bilgi için bkz. [Power BI'daki matris görselleri](desktop-matrix-vi
 
 ### <a name="pie-charts"></a>Pasta grafikleri
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
+
+### <a name="ribbon-chart"></a>Şerit grafik
+![Şerit grafik](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+Şerit grafikleri hangi veri kategorisinin en yüksek derecelendirmeye (en büyük değer) sahip olduğunu gösterir. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir.
 
 ### <a name="scatter-and-bubble-charts"></a>Dağılım ve Kabarcık grafikleri
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

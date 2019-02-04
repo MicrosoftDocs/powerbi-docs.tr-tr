@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294142"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431235"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -99,6 +99,14 @@ GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması
 
 ## <a name="authentication"></a>Kimlik Doğrulama
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Kimlik doğrulaması şu hatayla başarısız oldu: AADSTS90002: Kiracı 'yetkilendirmesi' bulunamadı
+
+ İleti günlüğünde ***hata: invalid_request, error_description: AADSTS90002: Kiracı 'yetkilendirmesi' bulunamadı*** gibi iletiler alırsanız, bunun nedeni ADAL 4.x'in yetki url'si olarak "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" url'sini desteklememesidir.
+ 
+Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümünü kırpmalısınız. Bu konuda başvuru için [Power BI Geliştirici Örnekleri](https://github.com/Microsoft/PowerBI-Developer-Samples)'ne bakın.
+
+ ADAL 4.x sürüm notlarında [Daha İyi Yetkili doğrulaması](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) bölümünü gözden geçirin.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
 **_(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
@@ -243,7 +251,7 @@ Bir örnek uygulamayı hızlıca indirmek için [Katıştırma kurulum aracını
 
 Katıştırma kurulum aracını kullanmadan önce tüm uygun önkoşulları yerine getirdiğinizi doğrulayın. Bir **Power BI Pro** hesabı ve bir **Microsoft Azure** aboneliği gerekir.
 
-* **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/en-us/pricing/).
+* **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 * Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
 * [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
 * [Visual Studio](https://www.visualstudio.com/) yüklü olmalıdır (sürüm 2013 veya üzeri).
@@ -294,7 +302,7 @@ Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
-Daha fazla yardıma ihtiyacınız varsa [destek ekibine ulaşın](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) veya [Azure portal aracılığıyla bir destek bileti oluşturun](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) ve karşılaştığınız hata iletilerini belirtin.
+Daha fazla yardıma ihtiyacınız varsa [destek ekibine ulaşın](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) veya [Azure portal aracılığıyla bir destek bileti oluşturun](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) ve karşılaştığınız hata iletilerini belirtin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

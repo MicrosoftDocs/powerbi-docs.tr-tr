@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294296"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430545"
 ---
 # <a name="using-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
 
@@ -64,7 +64,7 @@ Power BI, kullanılacak e-posta adresini şu sıralamaya göre seçer:
 
 1. Azure AD kiracısının kullanıcı nesnesindeki posta özniteliği mevcutsa Power BI, e-posta adresi için söz konusu posta özniteliğini kullanır.
 
-1. UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi (“\@” simgesinden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır.
+1. UPN e-postası bir **\*.onmicrosoft.com** etki alanı e-posta adresi ("\@" sembolünden sonra gelen bilgiler) *değilse* Power BI, e-posta adresi için bu posta özniteliğini kullanır.
 
 1. Azure AD kullanıcı nesnesinde *diğer e-posta adresi* dizisi özniteliği mevcutsa söz konusu listedeki ilk e-posta adresi (bu öznitelikte e-postalardan oluşan bir liste olabileceği için) kullanılır.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284231"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234428"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
 
@@ -57,7 +57,7 @@ Dış veri erişimi kullanan Excel Online özelliklerini kullanmayı planlıyors
 1. Office Online Server'ı [Toplu Lisanslama Hizmeti Merkezi (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) sayfasından indirin. İndirilecek dosya VLSC portalında Office ürünlerinin altında bulunur. Geliştirme amacıyla OOS uygulamasını MSDN aboneliği indirme sayfasından indirebilirsiniz.
 2. Setup.exe dosyasını çalıştırın.
 3. **Microsoft Yazılım Lisansı Koşulları'nı okuyun** sayfasında **Bu sözleşmenin koşullarını kabul ediyorum**'u ve ardından **Devam**'ı seçin.
-4. **Dosya konumu seçin** sayfasında Office Online Server dosyalarının yüklenmesini istediğiniz klasörü belirleyin (örneğin,C:\Program Files\Microsoft Office Web Apps*) ve ardından **Şimdi Yükle**'yi seçin. Belirttiğiniz klasör yoksa Kurulum sırasında oluşturulur.
+4. **Dosya konumu seçin** sayfasında Office Online Server dosyalarının yüklenmesini istediğiniz klasörü belirleyin (örneğin,C:\Program Files\Microsoft Office Web Apps\*) ve ardından **Şimdi Yükle**'yi seçin. Belirttiğiniz klasör yoksa Kurulum sırasında oluşturulur.
 
     Office Online Server uygulamasını sistem sürücüsüne yüklemenizi öneririz.
 

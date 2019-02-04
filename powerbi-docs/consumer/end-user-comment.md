@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394668"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234543"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Panoya açıklama ekleme
 Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla pano hakkında bir konuşma başlatın. **Açıklama** özelliği, *tüketicinin* diğer kişilerle işbirliği yaparak çalışma yollarından yalnızca biridir. 
@@ -73,7 +73,7 @@ Açıklamalar bir panonun tamamına veya bir panodaki ayrı görsellere eklenebi
 5. Panoya veya rapora dönmek için **Kapat**’ı seçin.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ işaretini kullanarak iş arkadaşlarınızın dikkatini çekme
-Pano açıklaması oluştururken veya belirli bir görsele açıklama eklerken, “@” sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  “@” sembolünü yazdığınızda Power BI, kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne “@” sembolü eklenen doğrulanmış adlar mavi yazı tipi ile gösterilir. 
+Pano açıklaması oluştururken veya belirli bir görsele açıklama eklerken, "\@" sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  "\@" sembolünü yazdığınızda, Power BI kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne "\@" sembolü eklenen doğrulanmış adlar mavi yazı tipiyle gösterilir. 
 
 Burada görselleştirme *tasarımcısı* ile yaptığım konuşma gösteriliyor. Açıklamayı gördüğümden emin olmak için @ sembolünü kullanıyor. Bu açıklamanın benim için olduğunu biliyorum. Power BI'da bu uygulama panosunu açtığımda, üst bilgiden **Açıklamalar**'ı seçiyorum. **Açıklamalar** bölmesinde konuşmamız görüntüleniyor.
 

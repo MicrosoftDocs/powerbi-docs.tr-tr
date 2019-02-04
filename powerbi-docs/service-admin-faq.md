@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296835"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430298"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -45,6 +45,7 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 * [Hazırlıklı olmam gereken başka şeyler var mı?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Power BI kiracım nerede bulunur?](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) nedir?](#what-is-the-power-bi-sla)
+* [Power BI yüksek kullanılabilirliği ve yük devretmeyi nasıl işler?](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Power BI'da Güvenlik bölümü
 
@@ -241,11 +242,15 @@ Power BI kiracınızın bulunduğu veri bölgesi hakkında bilgi edinmek için b
 
 Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) hakkında bilgi edinmek için Microsoft Licensing web sitesinin **Licensing** (Lisanslama) bölümündeki [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Lisanslama ile ilgili Koşullar ve Belgeler) makalesine bakın.
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI yüksek kullanılabilirliği ve yük devretmeyi nasıl işler?
+
+Yüksek kullanılabilirlik ve yük devretme hakkında bilgi için bkz. [Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS](service-admin-failover.md).
+
 ## <a name="security-in-power-bi"></a>Power BI'da Güvenlik
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
 
-Power BI uyumluluğu hakkında daha fazla bilgi edinmek için bkz. [Microsoft Güven Merkezi](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx).
+Power BI uyumluluğu hakkında daha fazla bilgi edinmek için bkz. [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx).
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI'da güvenlik nasıl sağlanır?
 

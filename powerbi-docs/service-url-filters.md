@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283817"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234451"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -106,10 +106,10 @@ Power BI, '**and**' haricinde birçok işleci de destekler. Aşağıdaki tabloda
 |**gt**     | büyüktür        |hayır | evet | evet  | product/price gt 20
 |**le**     |   küçüktür veya eşittir      | hayır | evet | evet  | product/price le 100
 |**lt**     |  küçüktür       | hayır | evet | evet |  product/price lt 20
-|**in****     |  dahil       | evet | evet |  evet | Student/Age in (27, 29)
+|**in\*\***     |  dahil       | evet | evet |  evet | Student/Age in (27, 29)
 
 
-\** **in** işlecini kullanırken **in** ifadesinin sağ tarafındaki değerler parantez içinde virgülle ayrılmış liste veya koleksiyon döndüren tek bir ifade olabilir.
+\*\* **in** işlecini kullanırken **in** ifadesinin sağ tarafındaki değerler parantez içinde virgülle ayrılmış liste veya koleksiyon döndüren tek bir ifade olabilir.
 
 ### <a name="numeric-data-types"></a>Sayısal veri türleri
 

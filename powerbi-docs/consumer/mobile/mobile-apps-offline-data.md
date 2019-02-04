@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292419"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430568"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -57,6 +57,7 @@ Power BI'ı mobil cihazınızda çevrimdışı bir şekilde kullanırken şu sı
 * Power BI'da bütün halde bulunan Excel çalışma kitapları, çevrimdışı olarak kullanılamaz.
 * Bağlantınız varken görüntülediğiniz Reporting Services mobil raporlarını ve KPI'leri çevrimdışı olarak görebilirsiniz. Bunlar, arka planda yenilenmez. Açılışta yenilenirler.
 * Power BI mobil uygulamalarında, Power BI Rapor Sunucusu'na kaydedilmiş Power BI Desktop (.pbix) dosyalarını göremezsiniz. 
+* Ağ çevrimdışı olduğunda sayfalandırılmış raporlar (RDL) kullanılamaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 
