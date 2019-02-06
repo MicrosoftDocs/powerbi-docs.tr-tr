@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234451"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648709"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -40,6 +40,14 @@ URL?filter=***Tablo***/***Alan*** eq '***değer***'
 
 * **Tablo** ve **Alan** adları büyük/küçük harfe duyarlıdır, **değer** ise değildir.
 * Rapor görünümünden gizlenen alanlar yine de filtrelenebilir.
+
+### <a name="reports-in-apps"></a>Uygulamalardaki raporlar
+
+Uygulamadaki rapora URL filtresi eklemek isterseniz, biçimlendirme biraz farklıdır. Uygulamadaki raporlara yönelik bağlantıların, URL'ye eklenen bir sorgu parametresi (ctid) vardır. Sorgu parametrelerinin ve işaretiyle (&) birbirinden ayrılması gerekir. Bu nedenle sorguyu “?filter=” yerine “&filter=” (ctid parametresinden sonra) değeriyle eklemeniz gerekir. 
+
+Şu örnekteki gibi olmalıdır:
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>Alan türleri
 
@@ -118,10 +126,10 @@ Power BI URL filtresi aşağıdaki biçimlerde sayı içerebilir.
 |Sayı türü  |Örnek  |
 |---------|---------|
 |**integer**     |   5      |
-|**long**     |   5L veya 5l      |
+|**long**     |   5 L veya 5 l      |
 |**double**     |   5,5 veya 55e-1 veya 0,55e+1 veya 5D veya 5d veya 0,5e1D veya 0,5e1d veya 5,5D veya 5,5d veya 55e-1D veya 55e-1d     |
-|**decimal**     |   5M veya 5m veya 5,5M veya 5,5m      |
-|**float**     | 5F veya 5f veya 0,5e1F veya 0,5e-1d        |
+|**decimal**     |   5 M veya 5 m ya da 5,5 M veya 5,5 m      |
+|**float**     | 5 F veya 5 f ya da 0,5e1 F veya 0,5e-1 d        |
 
 ### <a name="date-data-types"></a>Tarih veri türleri
 

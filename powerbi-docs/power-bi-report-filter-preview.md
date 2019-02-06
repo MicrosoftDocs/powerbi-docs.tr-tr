@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290027"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482718"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI raporlarında yeni filtre deneyimi (Önizleme)
 
@@ -108,7 +108,7 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Okuma modunda bir görselin filtrelerini görüntüleme
 
-Okuma modunda, bir görselin üzerine gelebilir ve görseli etkileyen tüm filtreleri, dilimleyicileri, vb. içeren bir açılan liste görebilirsiniz. Açılan listenin biçimlendirmesi, filtre bölmesinin biçimlendirmesiyle aynıdır. 
+Okuma modunda, bir görselin filtre simgesi üzerine gelin ve görseli etkileyen tüm filtreleri, dilimleyicileri, vb. içeren açılan listeyi görüntüleyin. Açılan listenin biçimlendirmesi, filtre bölmesinin biçimlendirmesiyle aynıdır. 
 
 ![Görseli etkileyen filtreler](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 

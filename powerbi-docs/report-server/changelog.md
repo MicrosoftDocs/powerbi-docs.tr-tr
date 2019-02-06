@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488880"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482764"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -24,6 +24,17 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 
 ## <a name="january-2019"></a>Ocak 2019
 - **Power BI Rapor Sunucusu**            
+    - *Sürüm 1.4.6969.7395 (Derleme 15.0.1102.235), Yayın Tarihi: 30 Ocak 2019*
+        - Hata Düzeltmeleri
+            - Power BI Raporları
+                - Doğrudan sorgu kullanılırken temel kimlik bilgileriyle ilgili sorun düzeltildi
+                - Satır düzeyi güvenlik filtreleri uygulanmış durumdayken çift yönlü ilişkiler düzeltildi
+                - Ölçeği genişletilen bir ortamda model yenileme sonrasında eski veriler düzeltildi
+                - Firefox 63+ üzerinde tablo/matris için çift kaydırma çubuğu düzeltildi
+                - Internet Explorer'da +/- simge boyutu düzeltildi
+            - Sayfalandırılmış Raporlar
+                - Rapor için paylaşılan veri kaynağının kullanımını güncelleştirmeyle ilgili sorun düzeltildi
+
     - *Sürüm 1.4.6960.38798 (Derleme 15.0.1102.222), Yayın Tarihi: 22 Ocak 2019*
         - Özellikler
             - Power BI Raporları 
@@ -35,6 +46,10 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - Yöneticiler
                 - Rapor sunucusuna yüklenebilecek kaynakların uzantılarını kısıtlayabilme
                 - Desteklenen köprü şemalarını kısıtlayabilme
+            - Programlama
+                - Yeni Web API'si: /PowerBIReports({Id})/DataModelRoles (GET)
+                - Yeni Web API'si: /PowerBIReports({Id})/DataModelRoleAssignments (GET & PUT)
+                - Diğer ayrıntılar için bkz. [Power BI Rapor Sunucusu REST API'si](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)
         - Hata Düzeltmeleri
             - HTML Eklemeye İlişkin Güvenlik Açığı
             - PDF'ye dışarı aktarmada Euro simgesi gösterilmiyor
@@ -42,6 +57,10 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - Power BI Mobil Uygulaması boşta bırakıldıktan sonra görsellerde görüntüleme sorunları oluyor
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.65.5313.1562 (Ocak 2019), Yayın Tarihi: 30 Ocak 2019*
+        - Power BI Rapor Sunucusu kaldırıldıktan sonra kısayol ve sabitlenmiş simgeler kalıyor
+        - Power BI Rapor Sunucusu'nu başlatma menüsüne siyah simge üzerinde siyah metinle sabitleme sorunu düzeltildi
+
     - *Sürüm: 2.65.5313.1421 (Ocak 2019), Yayın Tarihi: 22 Ocak 2019*
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2019)  
 

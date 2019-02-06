@@ -1,20 +1,20 @@
 ---
-title: Cortana'yı kullanarak raporlarınızı ve panolarınızı hızla bulma ve görüntüleme
+title: Cortana'yı kullanarak raporları ve panoları hızla bulma ve görüntüleme
 description: Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Şu anda raporlar ve panolarla birlikte çalışmaktadır.
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292614"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482741"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI için Cortana'yı kullanarak Power BI verilerinizi hızla bulma ve görüntüleme
 Windows 10 cihazlarınızda Cortana'yı kullanarak işletmenizle ilgili önemli sorulara anında cevap alabilirsiniz. Cortana, Power BI ile tümleştirildiğinde Power BI panolarındaki ve raporlarındaki önemli bilgilere doğrudan ulaşabilir. İhtiyacınız olanlar Windows 10 Kasım 2015 veya sonrası sürümü, Cortana, Power BI ve en az bir veri kümesine erişimdir.
@@ -22,7 +22,7 @@ Windows 10 cihazlarınızda Cortana'yı kullanarak işletmenizle ilgili önemli 
 ![Cortana arama alanı](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Windows 10'daki yeni Cortana *pano* arama deneyimini önizleme
-Bir süredir [Cortana'yı kullanarak belirli türdeki rapor sayfalarını alma](service-cortana-answer-cards.md) özelliğini kullanıyordunuz. Eklediğimiz **yeni deneyim** sayesinde artık panoları da alma olanağı sunuyoruz. Lütfen bu yeni özelliği deneyin ve [bize geri bildirim gönderin](mailto:pbicortanasg@microsoft.com). İlerleyen zamanlarda *yeni deneyim* genişletilerek raporların da Cortana aramasına dahil edilmesi sağlanacak.  Yeni deneyimin başlıca avantajlarından biri, ayarlamak için herhangi bir işlem yapmanıza gerek olmamasıdır. Cortana’yı etkinleştirmenize veya Windows 10’u yapılandırmanıza gerek yoktur. Müdahale gerektirmeden çalışır.
+Bir süredir [Cortana'yı kullanarak belirli türdeki rapor sayfalarını alma](service-cortana-answer-cards.md) özelliğini kullanıyordunuz. Eklediğimiz **yeni deneyim** sayesinde artık panoları da alma olanağı sunuyoruz. Lütfen bu yeni özelliği deneyin ve [bize Power BI Fikirleri'ne geri bildirim gönderin](https://ideas.powerbi.com/forums/265200-power-bi). İlerleyen zamanlarda *yeni deneyim* genişletilerek raporların da Cortana aramasına dahil edilmesi sağlanacak.  Yeni deneyimin başlıca avantajlarından biri, ayarlamak için herhangi bir işlem yapmanıza gerek olmamasıdır. Cortana’yı etkinleştirmenize veya Windows 10’u yapılandırmanıza gerek yoktur. Müdahale gerektirmeden çalışır.
 
 > [!NOTE]
 > Çalışmazsa yardım almak için [Sorun giderme makalesini](service-cortana-troubleshoot.md) inceleyebilirsiniz.
@@ -127,7 +127,8 @@ Cortana'ya bir soru sorduğunuzda Power BI, Cortana için özel olarak hazırlan
 * Power BI için Cortana şu anda yalnızca İngilizce dilinde kullanılabilir.
 * Power BI için Cortana yalnızca Windows mobil cihazlarında kullanılabilir.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Geri bildirimde bulunmak ister misiniz? [Power BI Fikirleri'ne geri bildirim gönderin](https://ideas.powerbi.com/forums/265200-power-bi).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlar için Cortana - Power BI - Windows tümleştirmesini etkinleştirme](service-cortana-enable.md)
