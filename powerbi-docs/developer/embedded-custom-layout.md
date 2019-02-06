@@ -2,22 +2,21 @@
 title: Ekli Power BI içerikleriyle özel düzenler
 description: Power BI içeriğini uygulamanıza eklerken kullanabileceğiniz özel düzenler hakkında bilgi edinin.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288946"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762318"
 ---
 # <a name="custom-layouts"></a>Özel düzenler
-
 
 Özel düzenleri kullanarak raporları özgün rapordan farklı bir düzende ekleyebilirsiniz. Yeni bir düzen tanımlama sırasında tek bir sayfa boyutunu tanımlama, görsel boyutlarını veya konumunu ve görünürlüğünü denetleme işlemleri gerçekleştirilebilir.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, yükseklik: Görselin yeni boyutunu tanımlar.
 - `displayState`: Görselin görünürlüğünü tanımlar.
 
-
 ## <a name="update-layout"></a>Düzeni güncelleştirme
 
 updateSettings yöntemini kullanarak rapor düzenini rapor yüklendikten sonra herhangi bir zamanda güncelleştirebilirsiniz. Bkz. [Ayarları Güncelleştirme](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)   
 [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

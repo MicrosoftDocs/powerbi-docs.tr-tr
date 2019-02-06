@@ -9,13 +9,13 @@ editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
-ms.date: 07/31/2018
-ms.openlocfilehash: 08ba4113eb4988919c249052e883e8887295a028
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.date: 01/31/2019
+ms.openlocfilehash: 862e2dceb261e9f89480f50320bd0e1ce6a27931
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360363"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762295"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitenizi ölçeklendirme
 

@@ -2,21 +2,22 @@
 title: Power BI Embedded'da Soru-Cevap
 description: Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma olanağı vermenizi sağlayan bir yöntem sunar.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278020"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761927"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
+
 Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma ve tablo veya grafik gibi görsellerle anında cevap alma olanağı vermenizi sağlayan bir yöntem sunar.
 
 ![Ekli çerçevede Soru-Cevap ile etkileşimli soru](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>Belirlenmiş soru
+
 Belirlenmiş bir soru ile **sonuç modunu** kullandıysanız çerçeveye ek sorular dahil edebilir ve anında yanıtlanmasını sağlayarak önceki sonucu değiştirebilirsiniz. Yeni soruya uygun yeni bir görsel oluşturulur.
 
 Bu yönteme örnek olarak sık sorulan sorular listesi verilebilir. Kullanıcı aynı ekli bölümde bulunan soruları inceleyip yanıtlarını alabilir.
 
 **JS SDK kullanımı için kod parçacıkları:**  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>visualRendered olayı
+
 **Etkileşimli** modda uygulama, oluşturulan görsel her değiştirildiğinde bir veri değiştirme olayıyla bilgilendirilerek yazılmakta olan güncelleştirilmiş giriş sorgusuna göre sonuç getirmesi sağlanabilir.
 
 *visualRendered* olayını dinleyerek soruları daha sonra kullanılmak üzere kaydedebilirsiniz. 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Ekleme belirteci
+
 Soru-Cevap bölümü eklemek için bir veri kümesinden ekleme belirteci oluşturmanız gerekir. Daha fazla bilgi için bkz. [Belirteç oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 Soru-Cevap işlevini eklemeyi denemek için [JavaScript ekleme örneğini](https://microsoft.github.io/PowerBI-JavaScript/demo/) inceleyin.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

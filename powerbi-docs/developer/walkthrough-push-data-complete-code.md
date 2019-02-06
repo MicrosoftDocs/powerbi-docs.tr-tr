@@ -2,26 +2,28 @@
 title: Tam kod listesi
 description: Veri göndermeye ilişkin adım adım kılavuz - Tam kod listesi
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429948"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762249"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
+
 Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişkin adım adım kılavuzun bir parçasıdır.
 
 **Bir veri kümesine veri gönderme** makalesindeki 2. Adım ila 5. Adım arasındaki adımları uyguladıktan sonra tam kaynak kodunuzun aşağıdakine benzer olması gerekir.
 
 ## <a name="push-data-to-dataset-code"></a>Veri kümesine veri gönderme kodu
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişki
           }
       }
 
-
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md)  
 [Adım Adım Kılavuz - Power BI veri kümelerine veri gönderme](walkthrough-push-data.md)  
 [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişki
 [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 
-
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

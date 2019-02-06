@@ -4,19 +4,20 @@ description: Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablo
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430500"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761996"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5 Adım: Bir Power BI tablosuna satır ekleme
+
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle kullanacaksınız. 
@@ -28,10 +29,9 @@ Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosun
 Power BI API kullanarak veri kümesine satırlar eklemek için aşağıdaki adımları uygulayın.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Bir Power BI tablosuna satır ekleme
+
 > [!NOTE]
 > Başlamadan önce, [bir veri kümesine veri gönderme](walkthrough-push-data.md) kılavuzundaki adımları izlediğinizden emin olun.
-> 
-> 
 
 1. 2. Adım: Veri göndermeye ilişkin adım adım kılavuz, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) bölümünde oluşturduğunuz Konsol Uygulaması projesinde, aşağıdaki kodu ekleyin.
 2. Konsol Uygulaması'nı çalıştırın ve Power BI hesabınızda oturum açın. Konsol Penceresinde **Rows Added** ifadesini görmeniz gerekir. Ayrıca Power BI'da oturum açarak da veri kümesine eklenen satırları görebilirsiniz.
@@ -57,7 +57,8 @@ Bu kodu Program.cs'ye ekleyin.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * AddRows() yöntemi ekleyin:
 

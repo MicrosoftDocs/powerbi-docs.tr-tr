@@ -2,19 +2,19 @@
 title: Veri kümesi oluşturma
 description: Adım Adım Kılavuz - Bir veri kümesine veri gönderme - Power BI'da veri kümesi oluşturma
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b05a0182fd360fc407a0cc00ad31b94f70648749
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 9b4685752532a849405b8164fb2be0a8dd867411
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430339"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761950"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. Adım: Power BI'da veri kümesi oluşturma
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.

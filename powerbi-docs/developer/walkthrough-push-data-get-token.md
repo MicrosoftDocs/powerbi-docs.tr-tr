@@ -2,21 +2,22 @@
 title: Kimlik doğrulaması erişim belirteci alma
 description: Veri göndermeye ilişkin adım adım kılavuz - Kimlik doğrulaması erişim belirteci alma
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430867"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761973"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2. Adım: Kimlik doğrulaması erişim belirteci alma
+
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Bir veri kümesine veri göndermenin **1. adımı** [Uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md) kapsamında bir istemci uygulamasını Azure AD'ye kaydettiniz. Bu adımda bir kimlik doğrulaması erişim belirteci alırsınız. Power BI uygulamaları **Azure AD** ile tümleştirilerek güvenli oturum açmanız ve uygulamanız için yetkilendirme sağlanır. **Azure AD**'de kimlik doğrulaması ve Power BI kaynaklarına erişim için bir belirteç kullanılır.
@@ -24,15 +25,16 @@ Bir veri kümesine veri göndermenin **1. adımı** [Uygulamayı Azure AD'ye kay
 Bir kimlik doğrulaması erişim belirteci aşağıdaki gibi alınır.
 
 ## <a name="get-an-authentication-access-token"></a>Kimlik doğrulaması erişim belirteci alma
+
 > **NOT**: Başlamadan önce, [bir veri kümesine veri gönderme](walkthrough-push-data.md) kılavuzundaki adımları izlediğinizden emin olun.
 > 
 > 
 
 1. Visual Studio 2015'te bir **Konsol Uygulaması** projesi oluşturun.
 2. [.NET NuGet paketi için Azure AD Kimlik Doğrulama Kitaplığı](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)'nı yükleyin. Bir .NET uygulamasında kimlik doğrulaması güvenlik belirteci almak için bu paketi kullanın. Paket aşağıdaki gibi yüklenir:
-   
+
      a. Visual Studio 2015'te **Araçlar** > **NuGet Paket Yöneticisi** > **Paket Yöneticisi Konsolu**'nu seçin.
-   
+
      b. **Paket Yöneticisi Konsolu**'na şunu girin: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Program {...} sınıfına aşağıdaki kodu ekleyin.
 4. "{ClientID}" yerine uygulamayı kaydederken aldığınız **İstemci Kimliği**'ni girin. Bkz. [Uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md).
@@ -113,6 +115,7 @@ Sonraki adım, [Power BI'da veri kümesi oluşturma](walkthrough-push-data-creat
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Tam kod listesi
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ Sonraki adım, [Power BI'da veri kümesi oluşturma](walkthrough-push-data-creat
         }
     }
 
-
 [Sonraki Adım >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
 [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)  
 [.NET NuGet paketi için Azure AD Kimlik Doğrulama Kitaplığı](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ Sonraki adım, [Power BI'da veri kümesi oluşturma](walkthrough-push-data-creat
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

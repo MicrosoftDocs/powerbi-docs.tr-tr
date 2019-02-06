@@ -2,21 +2,22 @@
 title: Power BI Embedded'dan içerik geçişi için kod parçacıkları
 description: Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429985"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762525"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları
+
 Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI çalışma alanı koleksiyon içeriğini Power BI Embedded’e geçirme](migrate-from-powerbi-embedded.md#content-migration).
 
 Power BI Embedded (PaaS) içeriğinizi Power BI hizmetine (SaaS) kopyalama konusunda yardımcı olmak için bir **geçiş aracı** tasarlanmıştır. Bu araç özellikle çok fazla içeriğe sahip olan kullanıcılar için yararlıdır. Daha fazla bilgi için bkz. [Power BI Embedded geçiş aracı](migrate-tool.md).
@@ -25,7 +26,7 @@ Aşağıdaki kod örneklerinde C# ve [Power BI .NET SDK](https://www.nuget.org/p
 
 Aşağıdaki kod parçacıklarını yürütmek için aşağıda belirtilen ad alanlarını kullandığınızdan emin olun.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Raporu PaaS çalışma alanından dışarı aktarma
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Raporu SaaS çalışma alanına aktarma
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>PaaS raporundan DirectQuery bağlantı dizesini ayıklama
+
 Bu işlem SaaS geçişi sonrasında PBIX dosyasını güncelleştirmek için kullanılır.
 
 ```
@@ -105,6 +108,7 @@ Bu işlem SaaS geçişi sonrasında PBIX dosyasını güncelleştirmek için kul
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>SaaS çalışma alanında DirectQuery bağlantı dizesini güncelleştirme
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ Bu işlem SaaS geçişi sonrasında PBIX dosyasını güncelleştirmek için kul
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>SaaS çalışma alanında DirectQuery kimlik bilgilerini ayarlama
+
 Bu kod parçacığında kolaylık sağlaması açısından şifreli olmayan kimlik bilgileri kullanılmıştır ancak şifreli kimlik bilgileri için de destek sunulmaktadır.
 
 ```
@@ -159,6 +164,7 @@ Bu kod parçacığında kolaylık sağlaması açısından şifreli olmayan kiml
 ```
 
 ## <a name="push-dataset--report"></a>Gönderim veri kümesi ve rapor
+
 Oluşturulan veri kümesinin raporunu yeniden oluşturmanız gerekir.
 
 Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir uygulama çalışma alanında bulunduğunu kabul ediyoruz. Gönderim API'si hakkında bilgi için bkz. [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md).
@@ -223,6 +229,7 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir uy
 ```
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI Embedded geçiş aracı](migrate-tool.md)  
 [Power BI ile ekleme](embedding.md)  
 [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir uy
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-
