@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium için Multi-Geo desteği (Önizleme)
 description: İçeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
-author: mgblythe
-ms.author: mblythe
+author: minewiskan
+ms.author: owend
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/20/2018
+ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291729"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794674"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium için Multi-Geo desteği (Önizleme)
 

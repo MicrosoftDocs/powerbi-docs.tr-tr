@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI Premium nedir?
 description: Power BI Premium, kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri sunan, kuruluşunuz veya ekibiniz için ayrılmış kapasitedir.
-author: mgblythe
-ms.author: mblythe
+author: minewiskan
+ms.author: owend
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: b1a99279087f2d6557da9a70c1e02aae649dc9b4
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324032"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794546"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 

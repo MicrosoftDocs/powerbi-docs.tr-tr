@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 description: Power BI Premium'u nasıl yönetebileceğinizi ve kuruluşunuzun tamamı için içerik erişimini nasıl sağlayabileceğinizi öğrenin.
-author: mgblythe
-ms.author: mblythe
+author: minewiskan
+ms.author: owend
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/20/2018
+ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7b7940daa977c05080e5415ae5337a718ada4323
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762617"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794224"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme
 

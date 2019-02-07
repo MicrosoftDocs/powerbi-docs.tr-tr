@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 97ac445401554bf384bc1b61574534383fa2020f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 92bd4043e4cfa37bd8f712491ccbc2990dc0b6a9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292281"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794358"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 

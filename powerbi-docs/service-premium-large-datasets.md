@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 3aa8ef5ea7a51da226d48869bdf255900dee8d6d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 941d4bc3d66ce8e636f730d5757b7215c978d582
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284208"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794828"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Büyük veri kümelerine yönelik Power BI Premium desteği
 
