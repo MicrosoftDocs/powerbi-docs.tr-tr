@@ -7,6 +7,9 @@ items:
     tocHref: /power-bi/
     topicHref: /power-bi/
     items:
+    - name: Tüketiciler
+      tocHref: /power-bi/consumer/
+      topicHref: /power-bi/consumer/power-bi-consumer-landing
     - name: Geliştirici
       tocHref: /power-bi/developer/
       topicHref: /power-bi/developer/embedding
@@ -16,9 +19,9 @@ items:
     - name: Rapor Sunucusu
       tocHref: /power-bi/report-server/
       topicHref: /power-bi/report-server/get-started
-ms.openlocfilehash: 2f2c65a67a87a47a383a094b9df90d5d24f98a2c
-ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
+ms.openlocfilehash: 869315a08e509575a0f04e63a7bb94d42a668b8b
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42914508"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794260"

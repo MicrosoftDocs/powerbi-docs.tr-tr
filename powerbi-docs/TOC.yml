@@ -870,6 +870,8 @@ items:
       items:
       - name: Performans açısından en iyi yöntemleri
         href: developer/embedded-performance-best-practices.md
+      - name: Hizmet sorumlusu
+        href: developer/embed-service-principal.md
       - name: Satır düzeyi güvenlik
         href: developer/embedded-row-level-security.md
       - name: Birden çok kiracıyı yönetme
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: Uygulamaları kaydetme
         href: developer/register-app.md
-      - name: Power BI hizmetinde kimlik doğrulaması
+      - name: Azure AD erişim belirteci alma
         href: developer/get-azuread-access-token.md
       - name: Ekleme Hakkında Soru-Cevap
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Tabloya satır ekleme
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Kimlik bilgilerini şifreleme
+        href: developer/encrypt-credentials.md
     - name: Başvuru
       items:
       - name: REST API'leri
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Power BI Premium'u yönetme
         href: service-admin-premium-manage.md
-      - name: Uygulama ile Premium kapasiteleri izleme
+      - name: Uygulama ile kapasiteleri izleme
         href: service-admin-premium-monitor-capacity.md
-      - name: Yönetici portalında Premium kapasiteleri izleme
+      - name: Yönetici portalında kapasiteleri izleme
         href: service-admin-premium-monitor-portal.md
       - name: Premium kapasiteyi yeniden başlatma
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760407"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794492"
