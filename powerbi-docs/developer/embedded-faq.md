@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/17/2018
-ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 54d768e4d2ad1b2eab4559ee5d9db0705fb55542
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430591"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762663"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -25,15 +25,15 @@ ms.locfileid: "55430591"
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded nedir?
 
-Microsoft Power BI Embedded (PBIE) uygulama geliştiricilerin, kendi veri görselleştirmelerini ve kontrollerini sıfırdan oluşturmak için zaman ve para harcamadan nefes kesen, tam etkileşimli raporları uygulamalarına ekleyebilmelerini sağlar.
+[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) uygulama geliştiricilerin, kendi veri görselleştirmelerini ve denetimlerini sıfırdan oluşturmak için zaman ve para harcamadan uygulamalarına nefes kesen, tam etkileşimli raporlar ekleyebilmelerini sağlar.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded kimler içindir?
 
-Kendi uygulamalarını yapan, bağımsız yazılım satıcıları (ISV'ler) olarak bilinen yazılım şirketleri ve geliştiriciler içindir.
+Kendi uygulamalarını yapan ve bağımsız yazılım satıcıları (ISV) olarak bilinen yazılım şirketleri ve geliştiriciler içindir.
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded hangi açıdan Power BI hizmetinden farklıdır?
 
-Power BI Embedded, kendi uygulamalarını oluşturan ve sıfırdan bir analiz çözümü yaratmadan müşterilerinin karar almasını kolaylaştırmak üzere görsel öğeler eklemek isteyen geliştiriciler veya ISV'ler için tasarlanmıştır. Katıştırılmış analiz, iş kullanıcılarının iş verilerine erişebilmesini ve uygulama içerisinde bu verileri kullanarak öngörüler oluşturmak üzere sorgulama yapabilmesini sağlar.
+Power BI Embedded, kendi uygulamalarını oluşturan ve sıfırdan bir analiz çözümü yaratmadan müşterilerinin karar almasını kolaylaştırmak üzere görsel öğeler eklemek isteyen geliştiriciler veya ISV'ler için tasarlanmıştır. [Tümleşik analiz](embedding.md), iş kullanıcılarının iş verilerine erişebilmesini ve uygulama içerisinde bu verileri kullanarak içgörüler oluşturmak üzere sorgulama yapabilmesini sağlar.
 
 Power BI, kuruluşlara en kritik iş verilerini tek bir görünümde sunan hizmet olarak yazılım analiz çözümüdür.
 
@@ -45,19 +45,19 @@ Power BI Embedded, uygulama oluşturan ve bu uygulamalara görseller eklemek ist
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft bir müşterinin hangi durumlarda Power BI Premium ve hangi durumlarda Power BI Embedded satın almasını önerir?
 
-Microsoft, kuruluşların kurumsal sınıf, self servis bulut İş Zekası çözümü olarak Power BI Premium satın almasını ve ISV'lerin bulut destekli katıştırılmış analiz bileşenleri olarak Power BI Embedded satın almasını önerir. Ancak, müşterilerin satın alabileceği ürünlere ilişkin herhangi bir sınırlama yoktur.
+Microsoft kuruluşların kurumsal sınıf, self servis bulut İş Zekası çözümü olarak Power BI Premium satın almasını ve ISV'lerin bulut destekli katıştırılmış analiz bileşenleri olarak Power BI Embedded satın almasını önerir. Ancak, müşterilerin satın alabileceği ürünlere ilişkin herhangi bir sınırlama yoktur.
 
 Bir ISV (tipik olarak büyük), kuruluşunda önceden paketlenmiş Power BI hizmetinin ek avantajlarından yararlanmak ve uygulamalarına eklemek üzere P SKU kullanmak isteyebilir. Bazı Kuruluşlar, yalnızca iş uygulamaları oluşturmak ve bunlara analiz eklemek istediklerinde ve önceden paketlenmiş Power BI hizmetini kullanmak istemediklerinde Azure'da A SKU kullanabilir.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Kaç tane ekleme belirteci oluşturabilirim?
 
-PRO lisansına sahip ekleme belirteçleri, geliştirmeye testlerine yöneliktir; bu nedenle, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ortamında ekleme yapmak için [kapasite satın almanız](#technical) gerekir. Kapasite satın alındıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) bölümüne gidin.
+PRO lisansına sahip ekleme belirteçleri, geliştirme testlerine yöneliktir. Bu nedenle, bir Power BI ana hesabının veya [hizmet sorumlusunun](embed-service-principal.md) oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ortamında ekleme yapmak için [kapasite satın alın](#technical). Kapasite satın alındıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) bölümüne gidin.
 
 ## <a name="technical"></a>Teknik
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure’da A SKU ile Office 365’te EM SKU arasındaki fark nedir?
 
-PowerBI.com bir Hizmet olarak Yazılım teklifinde sosyal iş birliği, e-posta aboneliği ve benzeri pek çok özelliği içeren kurumsal bir çözümdür
+PowerBI.com bir Hizmet olarak Yazılım teklifinde sosyal işbirliği, e-posta aboneliği ve başka özellikler içeren kurumsal bir çözümdür
 
 Power BI Embedded ise bir Hizmet olarak Platform teklifinde katıştırılmış analiz çözümü oluşturmak üzere geliştiriciler tarafından kullanılabilen bir dizi API'dir. Katıştırılmış analiz senaryosunda PowerBI.com, ISV'lerin ve geliştiricilerin analiz çözümü içeriklerini ve kiracı düzeyi ayarlarını yönetmesine yardımcı olur.
 
@@ -66,7 +66,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 | Öne çıkan özelliği | Power BI Embedded | Power BI Premium Kapasitesi | Power BI Premium Kapasitesi |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | (A SKU'lar) | (EM SKU'lar) | (P SKU'lar) |
-| Power BI Uygulaması çalışma alanlarından yapıtları ekleme | Azure kapasitesi | Office 365 kapasitesi | Office 365 kapasitesi |
+| Power BI Uygulaması çalışma alanından yapıtları ekleme | Azure kapasitesi | Office 365 kapasitesi | Office 365 kapasitesi |
 | Katıştırılmış uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
 | Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
@@ -86,7 +86,7 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
 
-* Kuruluş dizininizde oturum açmanız gerekir (MSA hesapları desteklenmez).
+* Kuruluş dizininizde oturum açın (MSA hesapları desteklenmez).
 * Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’ye kaydolmuş olması gerekir. 
 * Kuruluş dizininizde bir Azure aboneliğinizin olması gerekir.
 
@@ -98,9 +98,9 @@ Her bir seçenek ile kullanabileceğiniz farklılıklara ilişkin kısmi bir lis
 
 * [Azure tanılama günlüğüne kaydetmeyi](azure-pbie-diag-logs.md) kullanarak.
 
-### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Kapasitem, uygulamamın kullanımına göre otomatik olarak ölçekleme sağlayacak mı?
+### <a name="can-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Kapasitem, uygulamamın kullanımına göre otomatik olarak ölçeklendirme sağlayabilir mi?
 
-Şu anda otomatik ölçekleme olanağı olmasa da tüm API'leri kullanarak dilediğiniz zaman ölçekleme yapabilirsiniz.
+Şu anda otomatik ölçeklendirme olanağı olmasa da tüm API'leri kullanarak dilediğiniz zaman ölçeklendirme yapabilirsiniz.
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Kapasite oluşturma/ölçeklendirme/serbest bırakma işlemi neden kapasitenin askıya alınma durumuna geçmesine neden oluyor?
 
@@ -119,7 +119,7 @@ PBI Kiracı bölgenizin ne olduğunu anlamak için PBI portalını kullanabilirs
 ![Power BI Hakkında](media/embedded-faq/about-01.png)
 ![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>Bulut Çözümü Sağlayıcısı (CSP) kanalıyla desteklenen özellikler nelerdir?
+### <a name="what-is-supported-by-the-cloud-solution-provider-csp-channel"></a>Bulut Çözümü Sağlayıcısı (CSP) kanalıyla desteklenen özellikler nelerdir?
 
 * CSP abonelik türüyle kiracınız için PBIE oluşturabilirsiniz
 * İş ortağı hesabı müşteri kiracısında oturum açabilir ve müşteri kiracısı için PBIE satın alabilir. Power BI kapasite yöneticisi olarak müşteri kiracısı kullanıcısını belirtin
@@ -157,15 +157,15 @@ Kullanılabilir bölgeler (16 - Power BI ile aynı bölgeler)
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded kimlik doğrulama modeli nedir?
 
-Power BI Embedded, Power BI'da uygulama kimliğini doğrulayarak ana kullanıcının (belirli bir Power BI Pro lisanslı kullanıcısı) kimliğini doğrulamak için Azure AD'den yararlanmaya devam eder.
+Power BI Embedded, Power BI'da uygulama kimliğini doğrulamak için Azure AD kullanarak ana kullanıcının (belirli bir Power BI Pro lisanslı kullanıcısı) veya [hizmet sorumlusunun](embed-service-principal.md) kimliğini doğrular.  
 
 Uygulama kullanıcılarının kimliklerini doğrulama ve yetkilendirme işlemleri, ISV tarafından gerçekleştirilir ve ISV, uygulamaları için kendi kimlik doğrulama modelini uygulayabilir.
 
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilir veya katıştırılmış uygulama içeriğinizin güvenliği için yeni bir Azure AD kiracısı oluşturabilirsiniz.
 
-Bir AAD belirteci almak için Azure Active Directory Kimlik Doğrulama Kitaplıkları - https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries içinden birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
+Bir AAD belirteci almak için [Azure Active Directory Kimlik Doğrulama Kitaplıkları](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)'ndan birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
 
-### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-an-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz?
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz?
 
 Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde (gerekli kapsamlarla) yapılandırılmalıdır ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak Power BI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
 
@@ -178,7 +178,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded hangi açıdan diğer Azure hizmetlerinden farklıdır?
 
-ISV/geliştiricinin, Azure'da Power BI Embedded'ı satın almadan önce bir Power BI hesabı olmalıdır. Power BI Embedded dağıtım bölgeniz, Power BI hesabınıza göre belirlenir. Azure'da Power BI Embedded kaynağınızı yöneterek:
+ISV/geliştiricinin, Azure'da Power BI Embedded'ı satın almadan önce bir Power BI hesabı olmalıdır. Power BI Embedded dağıtım bölgeniz, Power BI hesabınızı belirler. Azure'da Power BI Embedded kaynağınızı yöneterek:
 
 * Ölçeği artırın/azaltın
 * Kapasite yöneticileri ekleyin
@@ -203,6 +203,34 @@ RLS’de, ISV geliştiricisi model oluşturma ve ekleme belirteci oluşturmanın
 İstemci tarafı filtrelemede (JavaScript), ISV son kullanıcının ilk görünümde neler göreceğini belirleyebilir ancak kullanıcının görünümün kendisinde gerçekleştirdiği değişiklikleri denetleyemez. Veri filtreleme arka uçta gerçekleşebilir ancak JavaScript istemcisi kodu tarafından tetiklenir ve bu nedenle son kullanıcı tarafından değiştirilebildiği için güvenli kabul edilmez.
 
 Diğer ayrıntılar için bkz. [RLS ve JavaScript filtreleri](embedded-row-level-security.md#using-rls-vs-javascript-filters).
+
+### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>Power BI ile hizmet sorumlularının izinlerini nasıl yönetebilirim?
+
+[Hizmet sorumlusunun](embed-service-principal.md) Power BI ile kullanımını etkinleştirdikten sonra, uygulamanın AD izinleri artık geçerli olmaz. Bundan sonra uygulamanın izinleri Power BI yönetim portalı üzerinden yönetilir.
+
+Hizmet sorumluları tüm Power BI kiracı ayarları için izinleri kendi güvenlik grubundan devralır. İzinleri kısıtlamak için hizmet sorumlularına ayrılmış bir güvenlik grubu oluşturun ve bu grubu ilgili, etkin Power BI ayarlarının 'Belirli güvenlik grupları hariç' listesine ekleyin.
+
+Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak eklediğinizde önemlidir. Bu görevi [API'ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
+
+### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Uygulama kimliği ve hizmet sorumlusu nesne kimliği ne zaman kullanılır?
+
+**[Uygulama kimliği](embed-sample-for-customers.md#application-id)**, kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
+
+İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id)** kullanırsınız.
+
+### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>Şirket içi veri ağ geçidini hizmet sorumlusuyla yönetebilir misiniz?
+
+Şirket içi veri ağ geçidini, ana hesapla yaptığınız gibi [hizmet sorumlusunu](embed-service-principal.md) kullanarak yönetemezsiniz.
+
+Ana hesapla, veri ağ geçidini yükleyebilir, ağ geçidine kullanıcı ekleyebilir, veri kaynaklarına bağlanabilir ve diğer yönetim görevlerini yerine getirebilirsiniz.
+
+Hizmet sorumlusuyla, SQL Server Analysis Services (SSAS) şirket içi canlı bağlantı veri kaynağını kullanarak [satır düzeyi güvenliği (RLS)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview) yapılandırabilirsiniz. Bu şekilde, hizmet sorumlusu kullanarak **Power BI Embedded** ile tümleştirildiğinde SSAS'de kullanıcıları ve onların erişimini yönetebilirsiniz.
+
+### <a name="can-you-sign-into-the-power-bi-service-with-service-principal"></a>Hizmet sorumlusuyla Power BI hizmetinde oturum açabilir misiniz?
+
+Hayır; hizmet sorumlusunu kullanarak Power BI'da oturum açamazsınız.
+
+Ayrıca, yalnızca ekleme belirteci oluşturduğunuzda, dış uygulamalarda (SaaS embed) bir kullanıcı olarak içerik kullanamazsınız.
 
 ### <a name="what-are-the-best-practices-to-improve-performance"></a>Performansı artırmak için en iyi yöntemler nelerdir?
 
@@ -232,9 +260,9 @@ Power BI Embedded dağıtılan düğüm türlerine dayalı tahmini bir saatlik �
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Power BI Embedded için kimlerin Power BI Pro lisansı alması gerekir ve bunun nedeni nedir?
 
-Bir Power BI çalışma alanına rapor ekleyen tüm analistlerin bir Power BI lisansı olması gerekir. REST API’leri kullanması gereken tüm geliştiricilerin bir Power BI Pro lisansı olması gerekir. Power BI kiracısını ve kapasitesini yöneten tüm kiracı yöneticilerini bir Power BI Pro lisansı olması gerekir.
+REST API’leri kullanması gereken tüm geliştiricilerin bir Power BI Pro lisansı veya [hizmet sorumlusu](embed-service-principal.md) olması gerekir. Power BI çalışma alanına rapor eklemesi gereken tüm analistler bir Power BI lisansına sahip olabilir veya hizmet sorumlusu kullanabilir. Power BI kiracısını ve kapasitesini yöneten tüm kiracı yöneticilerini bir Power BI Pro lisansı olması gerekir.
 
-Power BI Embedded katıştırılan içeriği yönetmek ve doğrulamak için Power BI kullanılmasına olanak tanıdığından doğru depolarda raporlara erişmek üzere PowerBI.com'da Uygulama kimliğini doğrulamak için Power BI Pro lisansı gereklidir.
+Power BI Embedded eklenen içeriği yönetmek ve doğrulamak için Power BI kullanılmasına olanak tanıdığından doğru depolarda raporlara erişmek üzere PowerBI.com'da Uygulama kimliğini doğrulamak için Power BI Pro lisansı gereklidir.
 
 Bununla birlikte, kendi uygulamasının içinde [ekli raporlar oluşturmak/düzenlemek](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) için, son kullanıcının bir Pro lisansına ihtiyacı yoktur, hatta bir Power BI kullanıcısı olması bile gerekmez.
 
@@ -289,11 +317,11 @@ Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e neden geçiş yapmalıyım?
 
-**Power BI Embedded** çözümünde, **Power BI Çalışma Alanı Koleksiyonu** ile kullanamayacağınız yeni özellikler kullanıma sunulmuştur.
+**Power BI Embedded** çözümüne, **Power BI Çalışma Alanı Koleksiyonu** ile kullanamayacağınız bazı yeni özellikler ve beceriler eklenmiştir.
 
 Özelliklerden bazıları şunlardır:
 
-* **Power BI Çalışma Alanı Koleksiyonu** ile desteklenen iki veri kaynağı karşısında tüm PBI veri kaynakları desteklenmektedir. 
+* **Power BI Çalışma Alanı Koleksiyonu** ile desteklenen iki veri kaynağına karşılık, tüm PBI veri kaynakları desteklenmektedir. 
 * Soru-cevap, yenileme, yer işaretleri, pano ve kutucuk ve pano ekleme ve özel menü gibi yeni özellikler yalnızca **Power BI Embedded** çözümünde desteklenir.
 * Kapasite faturalama modeli.
 

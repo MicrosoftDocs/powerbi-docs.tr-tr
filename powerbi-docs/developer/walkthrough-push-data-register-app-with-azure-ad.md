@@ -2,32 +2,32 @@
 title: Bir uygulamayı Azure AD'ye kaydetme
 description: İzlenecek yol - Veri kümesine veri gönderme - Bir uygulamayı Azure AD'ye kaydetme
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: a3154a7b74d196f3c0aa2969e7c25bf56000a662
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296375"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762042"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
+
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 Power BI veri kümelerine veri gönderebilmek için ilk olarak uygulamanızı Azure AD'ye kaydetmeniz gerekir. Bunun nedeni, Azure AD'de uygulamanızı tanımlayan bir **İstemci Kimliği** edinecek olmanızdır. Azure AD, **İstemci Kimliği** olmadan uygulamanızın kimliğini doğrulayamaz.
 
 > **NOT**: Bir uygulamayı Power BI'a kaydedebilmeniz için öncelikle [Power BI'a kaydolmanız](create-an-azure-active-directory-tenant.md) gerekir.
-> 
-> 
 
 Bir uygulamayı Azure AD'ye kaydetmeye ilişkin adımlar aşağıda açıklanmıştır.
 
 ## <a name="register-an-app-in-azure-ad"></a>Bir Uygulamayı Azure AD'ye kaydetme
+
 1. dev.powerbi.com/apps adresine gidin.
 2. **Sign in with your existing account** (Mevcut hesabınızla oturum açın) seçeneğine tıklayın ve Power BI hesabınızda oturum açın.
 3. **App Name** (Uygulama Adı) alanına bir uygulama adı (örneğin, "Örnek veri gönderme uygulaması") girin.
@@ -38,13 +38,14 @@ Bir uygulamayı Azure AD'ye kaydetmeye ilişkin adımlar aşağıda açıklanmı
 
 **Power BI'a Uygulama Kaydetme** sayfanız aşağıdaki gibi görünür:
 
-![](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
+![Uygulamayı kaydetme](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
 
 Sonraki adımda, [kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) işlemini nasıl gerçekleştireceğiniz gösterilmiştir.
 
 [Sonraki Adım >](walkthrough-push-data-get-token.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 [Power BI'a kaydolma](create-an-azure-active-directory-tenant.md)  
 [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
 [İzlenecek yol: Bir veri kümesine veri gönderme](walkthrough-push-data.md)  
@@ -52,4 +53,3 @@ Sonraki adımda, [kimlik doğrulaması erişim belirteci alma](walkthrough-push-
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

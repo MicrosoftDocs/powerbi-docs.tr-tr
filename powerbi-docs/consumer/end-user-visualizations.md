@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234359"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794287"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Power BI **tüketicileri** için görselleştirmeler
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki Görselleştirmelerle etkileşimli çalışma
 
 En basit anlamıyla ***görselleştirme*** (veya *görsel*), Power BI *tasarımcılarının* *raporlardaki* ve *veri kümelerindeki* verileri kullanarak oluşturdukları bir grafik türüdür. 
 
@@ -27,13 +27,14 @@ En basit anlamıyla ***görselleştirme*** (veya *görsel*), Power BI *tasarımc
 
 ## <a name="what-can-i-do-with-visualizations"></a>Görselleştirmeler ile ne yapabilirim?
 
-Görselleştirmeler, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüketicilerle* paylaşılır. Tüketici olarak içgörülere ulaşmak ve veri temelli iş kararları almak üzere görselleştirmelerle etkileşim kurmak için birçok seçeneğiniz vardır. Bu seçeneklerin tümü aşağıda adım adım yönergelere bağlantılarla birlikte listelenmiştir.
+Görselleştirmeler, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüketicilerle* paylaşılır. Tüketici olarak içgörülere ulaşmak ve veri temelli iş kararları almak üzere görselleştirmelerle etkileşim kurmak için birçok seçeneğiniz vardır. Bu seçeneklerin tümü aşağıdaki tabloda, adım adım yönergelerin bağlantılarıyla birlikte listelenmiştir.
 
-Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu görselleştirme ile yanıtlar. Soru-Cevap, tüketicilerin kendi görselleştirmelerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görselleştirmeler kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
+> [!IMPORTANT]
+> Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu görselleştirme ile yanıtlar. Soru-Cevap, tüketicilerin kendi görselleştirmelerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görselleştirmeler kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
 
 
 
-|Sütun1  |Panoda  |Raporda  | Soru-Cevap özelliğinde
+|Görev  |Panoda  |Raporda  | Soru-Cevap özelliğinde
 |---------|---------|---------|--------|
 |[Görselleştirmeye kendi kullanımınız için açıklamalar ekleyin veya iş arkadaşlarınızla görselleştirme hakkında bir konuşma başlatın](end-user-comment.md).     |  evet       |   hayır      |  hayır  |
 |[Görselleştirmenin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  yok |

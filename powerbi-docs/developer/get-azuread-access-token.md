@@ -2,43 +2,46 @@
 title: Kullanıcıların kimliğini doğrulama ve uygulamanız için Azure AD erişim belirteci alma
 description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/11/2017
-ms.author: maghan
-ms.openlocfilehash: f585d5a48ab38124d17110049cd7dd7d5da45164
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55428774"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762548"
 ---
-# <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma
+# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
+
 Power BI uygulamalarınızda kullanıcıların kimliğini doğrulamayı ve REST API ile kullanmak üzere bir erişim belirteci almayı öğrenin.
 
-Power BI REST API'sine çağrı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** (erişim belirteci) almanız gerekir. **Erişim belirteci**, uygulamanıza **Power BI** panolarına, kutucuklarına ve raporlarına erişim izni vermek için kullanılır. Azure Active Directory **erişim belirteci** akışı hakkında daha fazla bilgi edinmek için bkz. [Azure AD Yetkilendirme Kodu Verme Akışı](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Power BI REST API'sine çağrı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** (erişim belirteci) almanız gerekir. **Erişim belirteci**, uygulamanızın **Power BI** panolarına, kutucuklarına ve raporlarına erişmesine izin vermek için kullanılır. Azure Active Directory **erişim belirteci** akışı hakkında daha fazla bilgi edinmek için bkz. [Azure AD Yetkilendirme Kodu Verme Akışı](https://msdn.microsoft.com/library/azure/dn645542.aspx).
 
 Erişim belirtecini alma yöntemi, içeriği ekleme şeklinize bağlı olarak değişiklik gösterir. Bu makalede iki farklı yaklaşım kullanılmaktadır.
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Power BI kullanıcıları için erişim belirteci (veriler kullanıcıya aittir)
-Bu örnek, kullanıcılarınızın kurumsal oturum açma bilgileri ile Azure AD'de oturum açtığı durumlar için geçerlidir. Bu yöntemi Power BI hizmetinde erişim sahibi oldukları içeriğe erişen Power BI kullanıcıları için içerik ekleyeceğinizde kullanabilirsiniz.
+
+Bu örnek, kullanıcılarınızın kurumsal oturum açma bilgilerini kullanarak Azure AD'de el ile oturum açtığı durumlar için geçerlidir. Bu görevi Power BI hizmetinde erişim sahibi oldukları içeriğe erişen Power BI kullanıcıları için içerik eklerken kullanırsınız.
 
 ### <a name="get-an-authorization-code-from-azure-ad"></a>Azure AD'den yetkilendirme kodu alma
-**Erişim belirteci** almanın ilk adımı, **Azure AD**'den bir yetkilendirme kodu almaktır. Bunu yapmak için aşağıdaki özelliklere sahip bir sorgu dizesi oluşturmanız ve bunu **Azure AD**'ye yönlendirmeniz gerekir.
 
-**Yetkilendirme kodu sorgu dizesi**
+**Erişim belirteci** almanın ilk adımı, **Azure AD**'den bir yetkilendirme kodu almaktır. Aşağıdaki özelliklere sahip bir sorgu dizesi oluşturun ve bunu **Azure AD**'ye yönlendirin.
 
-```
+#### <a name="authorization-code-query-string"></a>Yetkilendirme kodu sorgu dizesi
+
+```csharp
 var @params = new NameValueCollection
 {
     //Azure AD will return an authorization code. 
     //See the Redirect class to see how "code" is used to AcquireTokenByAuthorizationCode
     {"response_type", "code"},
 
-    //Client ID is used by the application to identify themselves to the users that they are requesting permissions from. 
+    //Client ID is used by the application to identify themselves to the users that they are requesting permissions from.
     //You get the client id when you register your Azure app.
     {"client_id", Properties.Settings.Default.ClientID},
 
@@ -53,11 +56,11 @@ var @params = new NameValueCollection
 
 Sorgu dizesi oluşturduktan sonra **Azure AD**'ye yönlendirerek **yetkilendirme kodu** alabilirsiniz.  Aşağıda **yetkilendirme kodu** sorgu dizesi oluşturmak ve **Azure AD**'ye yönlendirmek için kullanabileceğiniz tam kapsamlı bir C# yöntemi verilmiştir. Yetkilendirme kodunu aldıktan sonra **erişim belirtecini** almak için bu **yetkilendirme kodunu** kullanmanız gerekir.
 
-Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) çağrısı yaparak belirteci oluşturabilirsiniz.
+Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) çağrısı yaparak belirteç oluşturulur.
 
-**Yetkilendirme kodunu alma**
+#### <a name="get-authorization-code"></a>Yetkilendirme kodunu alma
 
-```
+```csharp
 protected void signInButton_Click(object sender, EventArgs e)
 {
     //Create a query string
@@ -94,17 +97,18 @@ protected void signInButton_Click(object sender, EventArgs e)
 ```
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Yetkilendirme kodundan erişim belirteci alma
+
 Azure AD'den bir yetkilendirme kodu aldınız. **Azure AD**, **yetkilendirme kodu** ile web uygulamanıza yönlendirme yaptığında **yetkilendirme kodunu** kullanarak erişim belirteci alabilirsiniz. Aşağıda yönlendirme sayfanızda ve default.aspx sayfanızın Page_Load olayında kullanabileceğiniz örnek C# kodu verilmiştir.
 
 **Microsoft.IdentityModel.Clients.ActiveDirectory** ad alanını [Active Directory Authentication Library](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet paketinden alabilirsiniz.
 
-```
+```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
 ```
 
-**Redirect.aspx.cs**
+#### <a name="redirectaspxcs"></a>Redirect.aspx.cs
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
 protected void Page_Load(object sender, EventArgs e)
@@ -134,9 +138,9 @@ protected void Page_Load(object sender, EventArgs e)
 }
 ```
 
-**Default.aspx**
+#### <a name="defaultaspx"></a>Default.aspx
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
 protected void Page_Load(object sender, EventArgs e)
@@ -160,36 +164,41 @@ protected void Page_Load(object sender, EventArgs e)
 ```
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>Power BI kullanıcısı olmayan kişiler için erişim belirteci (veriler uygulamaya aittir)
-Bu yaklaşım genelde verilere erişim izninin uygulamada olduğu ISV türü uygulamalarda kullanılır. Kullanıcıların Power BI kullanıcısı olması şartı yoktur ve son kullanıcılar için kimlik doğrulaması ve erişim denetimi uygulama tarafından gerçekleştirilir.
 
-Bu yaklaşım için Power BI Pro kullanıcısı olan tek bir *ana* hesap kullanmanız gerekir. Bu hesabın kimlik bilgileri uygulamada kayıtlıdır. Uygulama bu kayıtlı kimlik bilgilerini kullanarak Azure AD ile kimlik doğrulaması gerçekleştirir. Aşağıdaki örnek kod [App owns data örneğinden](https://github.com/guyinacube/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) alınmıştır
+Bu yaklaşım genelde verilere erişim izninin uygulamada olduğu ISV türü uygulamalarda kullanılır. Kullanıcıların Power BI kullanıcısı olması şartı değildir ve son kullanıcıların kimlik doğrulaması ile erişim denetimi uygulama tarafından gerçekleştirilir.
 
-**HomeController.cs**
+### <a name="access-token-with-a-master-account"></a>Ana hesapla erişim belirteci
 
-```
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
+Bu yaklaşım için Power BI Pro kullanıcısı olan tek bir *ana* hesap kullanırsınız. Bu hesabın kimlik bilgileri uygulamada kayıtlıdır. Uygulama bu kayıtlı kimlik bilgilerini kullanarak Azure AD ile kimlik doğrulaması gerçekleştirir. Aşağıdaki örnek kod [App owns data örneğinden](https://github.com/guyinacube/PowerBI-Developer-Samples) alınmıştır
 
-// Create a user password cradentials.
-var credential = new UserPasswordCredential(Username, Password);
+### <a name="access-token-with-service-principal"></a>Hizmet sorumlusuyla erişim belirteci
 
-// Authenticate using created credentials
+Bu yaklaşım için [yalnızca uygulama](embed-service-principal.md) belirteci olan bir **hizmet sorumlusu** kullanırsınız. Uygulama hizmet sorumlusunu kullanarak Azure AD ile kimlik doğrulaması gerçekleştirir. Aşağıdaki örnek kod [App owns data örneğinden](https://github.com/guyinacube/PowerBI-Developer-Samples) alınmıştır
+
+#### <a name="embedservicecs"></a>EmbedService.cs
+
+```csharp
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
-var authenticationResult = await authenticationContext.AcquireTokenAsync(ResourceUrl, ClientId, credential);
+       AuthenticationResult authenticationResult = null;
+       if (AuthenticationType.Equals("MasterUser"))
+       {
+              // Authentication using master user credentials
+              var credential = new UserPasswordCredential(Username, Password);
+              authenticationResult = authenticationContext.AcquireTokenAsync(ResourceUrl, ApplicationId, credential).Result;
+       }
+       else
+       {
+             // Authentication using app credentials
+             var credential = new ClientCredential(ApplicationId, ApplicationSecret);
+             authenticationResult = await authenticationContext.AcquireTokenAsync(ResourceUrl, credential);
+       }
 
-if (authenticationResult == null)
-{
-    return View(new EmbedConfig()
-    {
-        ErrorMessage = "Authentication Failed."
-    });
-}
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
-
-**await** işlevini kullanma hakkında bilgi almak için bkz. [await (C# Başvurusu)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Erişim belirtecini aldığınıza göre Power BI REST API'sini çağırarak içerik ekleyebilirsiniz. İçerik ekleme hakkında bilgi almak için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-customers.md#embed-your-content-within-your-application).
+
+Erişim belirtecini aldığınıza göre Power BI REST API'sini çağırarak içerik ekleyebilirsiniz. İçerik ekleme hakkında bilgi almak için bkz. [Power BI içeriğinizi ekleme](embed-sample-for-customers.md#embed-content-within-your-application).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284185"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762709"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
+# <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
 Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kısıtlamak için **satır düzeyi güvenlik (RLS)** kullanılabilir. Farklı kullanıcıların tümü, aynı yapıtlarla farklı veriler görerek çalışabilir. Ekleme işlemlerinde RLS desteklenir.
 
@@ -247,7 +247,7 @@ Verilerini **Azure SQL Veritabanı**'nda tutan müşteriler artık **Power BI Em
 
 Ekleme belirteci oluştururken Azure SQL'deki bir kullanıcının etkili kimliğini belirtebilirsiniz. Kullanıcının etkili kimliği belirtmek için AAD erişim belirtecini sunucuya geçirebilirsiniz. Erişim belirteci Azure SQL'den söz konusu kullanıcının yalnızca ilgili verilerini almak için kullanılır.
 
-Her kullanıcının Azure SQL'deki görünümünü yönetmek veya çok kiracılı bir veritabanındaki belirli bir kullanıcı olarak Azure SQL'de oturum açmak için kullanılabilir. Ayrıca Azure SQL'de bu oturuma satır düzeyi güvenlik uygulamak ve oturumun yalnızca ilgili verilerini alarak Power BI'da RLS'yi yönetme gereğini ortadan kaldırmak için de kullanılabilir.
+Her kullanıcının Azure SQL'deki görünümünü yönetmek veya çok kiracılı bir veritabanındaki belirli bir kullanıcı olarak Azure SQL'de oturum açmak için kullanılabilir. Ayrıca Azure SQL'de bu oturuma satır düzeyi güvenlik uygulayabilir ve oturumun yalnızca ilgili verilerini alarak Power BI'da RLS'yi yönetme gereğini ortadan kaldırır.
 
 Bu tür etkili kimlik sorunları Azure SQL Server'da RLS kurallarını doğrudan uygular. Power BI Embedded, Azure SQL Server'dan verileri sorgularken sağlanan erişim belirtecini kullanır. Kullanıcının UPN değerine (erişim belirtecinin sağlanma nedeni olan değer), USER_NAME() SQL işlevinin sonucundan erişilebilir.
 
@@ -307,6 +307,18 @@ Kimlik blobunda sağlanan değerin Azure SQL Server için geçerli bir erişim b
    > Azure SQL'e bir erişim belirteci oluşturmak için, uygulamanın Azure portalındaki AAD uygulama kaydı yapılandırmasında **Azure SQL Veritabanı** API'si üzerinde **Access Azure SQL DB ve Veri Ambarı** temsilci iznine sahip olması gerekir.
 
    ![Uygulama kaydı](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Hizmet sorumlusuyla şirket içi veri ağ geçidi (Önizleme)
+
+SQL Server Analysis Services (SSAS) şirket içi canlı bağlantı veri kaynağı kullanarak satır düzeyi güvenliği (RLS) yapılandıran müşteriler, **Power BI Embedded** ile tümleştirildiğinde kullanıcıları ve bu kullanıcıların SSAS'deki verilere erişimini yönetmek için yeni [hizmet sorumlusu](embed-service-principal.md) özelliğinden yararlanabilir.
+
+[Power BI REST API'lerinin](https://docs.microsoft.com/rest/api/power-bi/) kullanılması, [hizmet sorumlusu nesnesini](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) kullanarak ekleme belirteci için SSAS şirket içi canlı bağlantılarına etkin kimlik belirtmenize olanak tanır.
+
+Şimdiye kadar SSAS şirket içi canlı bağlantılarına etkin kimlik belirtebilmek için, ekleme belirtecini oluşturan ana kullanıcının bir ağ geçidi yöneticisi olması gerekiyordu. Artık kullanıcının ağ geçidi yöneticisi olması gerekmez; ağ geçidi yöneticisi kullanıcıya söz konusu veri kaynağı üzerinde ayrılmış izin verebilir ve bu izin kullanıcının ekleme belirtecini oluştururken etkin kimliği geçersiz kılmasını sağlar. Bu yeni özellik canlı SSAS bağlantısı için hizmet sorumlusuyla eklemeye olanak tanır.
+
+Bu senaryoyu etkinleştirmek için, ağ geçidi yöneticisi [Veri Kaynağı Kullanıcısı Ekleme REST API'sini](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) kullanarak hizmet sorumlusuna Power BI Embedded üzerinde *ReadOverrideEffectiveIdentity* iznini verir.
+
+Yönetim portalını kullanarak bu izni ayarlayamazsınız. Bu izin yalnızca API'yle ayarlanır. Yönetim portalında, bu tür izinleri olan kullanıcılar ve SPN'ler için bir gösterge görürsünüz.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

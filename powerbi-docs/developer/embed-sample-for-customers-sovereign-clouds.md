@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431166"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762686"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Öğretici: Bir Power BI panosunu, kutucuğunu veya raporunu bağımsız bulut uygulamanıza ekleme
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Öğretici: Bağımsız bulutlar için Power BI içeriğini uygulamanıza ekleme
 
 Bağımsız bulut için iş süreci uygulamalarınıza analiz içeriğinin nasıl ekleneceğini öğrenin. Web uygulamalarınıza bir raporu, panoyu veya kutucuğu eklemek için Power BI JavaScript API’si ile Power BI .NET SDK’sını kullanabilirsiniz.
 
@@ -37,7 +37,7 @@ Farklı bağımsız bulutlar şunlardır:
 
 ![Katıştırılmış pano](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, bağımsız bulut türüne bağlı olarak [ABD kamu Power BI hesabına](../service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](http://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
+Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, devlet veya ülke türüne bağlı olarak kendiniz için uygun bağımsız bulutu seçebilirsiniz. [ABD kamu Power BI hesabına](../service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](http://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
 
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](integrate-dashboard.md).
@@ -435,7 +435,7 @@ Bu uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mic
 
 * [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme](migrate-from-powerbi-embedded.md)
 
-Sınırlamalar ve Önemli Noktalar
+Önemli noktalar ve sınırlamalar
 
 * GCC hesapları şu an için yalnızca P ve EM kapasitelerini desteklemektedir
 

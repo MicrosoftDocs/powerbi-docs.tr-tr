@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291637"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794714"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik geliştirici el kitabına genel bakış
 Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz bir şirket içi konum olan Power BI Rapor Sunucusu'na yönelik geliştirici el kitabına hoş geldiniz.
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-Bu el kitabında bir geliştirici olarak Power BI Rapor Sunucusu üzerinde çalışırken sahip olduğunuz seçenekler vurgulanmaktadır.
+Bu el kitabında bir geliştirici olarak Power BI Rapor Sunucusu üzerinde çalışırken sahip olduğunuz seçenekler vurgulanır.
 
 ## <a name="embedding"></a>Ekleme
-Power BI Rapor Sunucusu'ndaki tüm raporları URL'ye sorgu dizesi parametresini `?rs:Embed=true` ekleyerek bir iFrame içine ekleyebilirsiniz. Bu işlev Power BI raporlarının yanı sıra diğer rapor türleriyle de kullanılabilir.
+Power BI Rapor Sunucusu'ndaki tüm raporları URL'ye sorgu dizesi parametresini `?rs:Embed=true` ekleyerek bir iFrame içine ekleyebilirsiniz. Bu teknik Power BI raporlarının yanı sıra diğer rapor türleriyle de kullanılabilir.
 
 ### <a name="report-viewer-control"></a>Rapor Görüntüleyicisi Denetimi
-Sayfalandırılmış raporlarda Rapor Görüntüleyicisi Denetimi özelliğinden faydalanabilirsiniz. Bu özellik, denetimi bir .NET Windows veya Web uygulamasına yerleştirmenizi sağlar. Daha fazla bilgi için bkz. [Rapor Görüntüleyicisi Denetimi ile çalışmaya başlama](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Sayfalandırılmış raporlarda Rapor Görüntüleyicisi Denetimi özelliğinden faydalanabilirsiniz. Bu özellikle, denetimi bir .NET Windows veya Web uygulamasına yerleştirebilirsiniz. Daha fazla bilgi için bkz. [Rapor Görüntüleyicisi Denetimi ile çalışmaya başlama](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>API'ler
-Power BI Rapor Sunucusu ile etkileşim kurmak için kullanabileceğiniz birçok API vardır. Bunlar aşağıda verilmiştir.
+Power BI Rapor Sunucusu ile etkileşim kurmak için kullanabileceğiniz birçok API vardır. B teknik aşağıdakileri içerir.
 
 * [REST API'leri](rest-api.md)
 * [URL Erişimi](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
@@ -39,7 +39,7 @@ Power BI Rapor Sunucusu ile etkileşim kurmak için kullanabileceğiniz birçok 
 Rapor sunucunuzu yönetmek için açık kaynak [PowerShell yardımcı programlarını](https://github.com/Microsoft/ReportingServicesTools) da kullanabilirsiniz.
 
 > [!NOTE]
-> PowerShell yardımcı programları şu an için Power BI Desktop dosyalarını (.pbix) desteklememektedir.
+> PowerShell yardımcı programları şu anda Power BI Desktop dosyalarını (.pbix) desteklememektedir.
 > 
 > 
 

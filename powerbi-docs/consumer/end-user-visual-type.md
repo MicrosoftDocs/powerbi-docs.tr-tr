@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234691"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794845"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 Görselleştirmeleri raporlar, panolar, uygulamalar ve soru-cevaplarda bulabilirsiniz. Bu görselleştirme türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve *rapor tasarımcılarının* Power BI raporlarına, panolarına ve uygulamalarına ekleyebilecekleri şekilde oluşturulur. 
@@ -26,7 +26,7 @@ Bu makale Power BI ile paketlenmiş görselleştirmelere genel bir bakış sunar
 > Özel görseller hakkında daha fazla bilgi edinmek için bunları [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’un **Power BI görselleri** bölümünde arayın. Her görsel için bir açıklama, oluşturucu bilgileri ve ekran görüntüsü veya video bulabilirsiniz. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI'da kullanılabilen görselleştirmelerin listesi
-Tüm bu görselleştirmeler Power BI uygulamaları, panoları, raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](#gna).
+Tüm bu görselleştirmeler Power BI uygulamaları, panoları, raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](#qna). Görselleştirmelerle etkileşimli çalışmayı öğrenmek için bkz. [Raporlarda, panolarda ve uygulamalardaki görselleştirmelerle etkileşimli çalışma](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Alan grafikleri: Basit (Katmanlı) ve Yığılmış
 ![alan grafiği](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken s
 ![soru-cevap oturumu](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI raporlarındaki görselleştirmeler](end-user-visualizations.md)    
+[Raporlarda, panolarda ve uygulamalardaki görselleştirmelerle etkileşimli çalışma](end-user-visualizations.md)    
 [Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
