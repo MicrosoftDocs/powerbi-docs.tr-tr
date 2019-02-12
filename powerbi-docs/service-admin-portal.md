@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430385"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888245"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -287,16 +287,6 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 ### <a name="embed-content-in-apps"></a>Uygulamalara içerik ekleme
 
 Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power BI panoları ve raporları ekleyebilir. Bu ayarın devre dışı bırakılması; kullanıcıların, uygulamalarına Power BI içeriği eklemek için REST API'lerini kullanabilmesini önler. [Daha fazla bilgi](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>Çalışma alanları ve içeri aktarma ayarları
-
-### <a name="author-content-in-workspaces"></a>Çalışma alanlarında yazar içeriği
-
-Kuruluştaki kullanıcılar veri ve yazar içeriğine bağlanmak için çalışma alanlarına erişebilir. [Daha fazla bilgi](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Power BI'a veri aktarma
-
-Kuruluştaki kullanıcılar Power BI Desktop'tan rapor yayımlama, Power BI rapor dosyalarını karşıya yükleme ve doğrudan hizmetten verilere bağlanma gibi hizmete veri aktarma işlemleri gerçekleştirebilir. [Daha fazla bilgi](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>Veri akışı ayarları (önizleme)
 
