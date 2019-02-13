@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147416"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971706"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 
-Power BI hizmetindeki *rapor düzenleyicisi* ile Power BI Desktop uygulamasındaki rapor düzenleyicisi benzer özelliklere sahiptir. Videoda Power BI Desktop uygulamasındaki rapor düzenleyicisine, bu makalede ise Power BI hizmetindeki rapor düzenleyicisine yer verilmiştir. 
+Power BI hizmetindeki *rapor düzenleyicisi* ile Power BI Desktop uygulamasındaki rapor düzenleyicisi benzer özelliklere sahiptir. Genellikle başlangıç olarak Power BI Desktop'ta raporları oluşturursunuz. Ardından bunları Power BI hizmetine yayımlarsınız ve burada raporlarda değişiklik yapmaya devam edebilirsiniz. Raporlarınızı temel alan panoları da Power BI hizmetinde oluşturursunuz.
 
-Rapor oluşturan kişi olarak, panolar ve raporlar oluşturur ve bunları düzenlersiniz. Ardından, bunları rapor kullanıcılarınıza dağıtırsınız. Rapor kullanıcıları Power BI hizmetinin Okuma görünümünde panolarınız ve raporlarınızla etkileşimli çalışabilir ama bunları düzenleyemez. [Power BI hizmetinde rapor kullanıcılarının yapabilecekleri](consumer/end-user-reading-view.md) hakkında daha fazla bilgi edinin 
+Panolarınızla raporlarınızı oluşturduktan sonra, bunları rapor tüketicilerinize dağıtırsınız. Nasıl paylaştığınıza bağlı olarak son kullanıcılarınız bunlarla Power BI hizmetinde Okuma görünümünde etkileşimli çalışabilir ama bunları düzenleyemez. [Power BI hizmetinde rapor kullanıcılarının yapabilecekleri](consumer/end-user-reading-view.md) hakkında daha fazla bilgi edinin. 
+
+Bu videoda, Power BI Desktop'taki rapor düzenleyicisi gösterilir. Bu makalede Power BI hizmetindeki rapor düzenleyicisi gösterilir. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ Biçimlendirme seçenekleri neredeyse sonsuzdur.  Daha fazla bilgi edinmek için
 Analiz bölmesini görüntülemek için büyüteç simgesini seçin. Kullanılabilir seçenekler, seçtiğiniz görselleştirme türüne göre değişiklik gösterir.
 
 ![Rapor düzenleyicisindeki Analiz bölmesi](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Power BI hizmetindeki Analiz bölmesini kullanarak görselleştirmelere dinamik başvuru çizgileri ekleyebilir ve önemli eğilimlere veya öngörülere odaklanılmasını sağlayabilirsiniz. Daha fazla bilgi için bkz. [Power BI hizmetindeki Analiz bölmesi](service-analytics-pane.md) veya [Power BI Desktop'taki Analiz bölmesi](desktop-analytics-pane.md).
+Power BI hizmetindeki Analiz bölmesini kullanarak görselleştirmelere dinamik başvuru çizgileri ekleyebilir ve önemli eğilimlere veya içgörülere odaklanılmasını sağlayabilirsiniz. Daha fazla bilgi için bkz. [Power BI hizmetindeki Analiz bölmesi](service-analytics-pane.md) veya [Power BI Desktop'taki Analiz bölmesi](desktop-analytics-pane.md).
 
 - - -
 ## <a name="the-filters-pane"></a>Filtreler bölmesi
@@ -90,6 +92,12 @@ Filtreler bölmesinin bir diğer güçlü özelliği: ***Şu anda raporunuzda g�
 ![Filtreler bölmesi](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Daha fazla bilgi için bkz. [Bir rapora filtre ekleme](power-bi-report-add-filter.md).
+
+Yeni bir filtre deneyimi şu an önizleme aşamasında kullanıma sunulmuştur. Yeni filtrelerde bunları raporun kendisine benzeyecek şekilde biçimlendirebilirsiniz. Ayrıca filtreleri kilitleyebilir veya rapor tüketicilerinden gizleyebilirsiniz. 
+
+![Yeni filtre deneyimi](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+[Yeni filtre deneyimi](power-bi-report-filter-preview.md) hakkında daha fazla bilgi edinin.
 
 - - -
 ## <a name="the-fields-pane"></a>Alanlar bölmesi

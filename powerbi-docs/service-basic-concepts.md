@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147462"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971729"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
-Bu makalede, [Power BI hizmetine kayıtlı olduğunuz](service-self-service-signup-for-power-bi.md) ve [veri eklediğiniz](service-get-data.md) varsayılır. Henüz hiç veriniz yoksa, [Power BI örnek içerik paketini](sample-datasets.md#the-power-bi-samples-as-content-packs) yüklemeyi deneyin.
+Bu makalenin amacı Power BI hizmetinde yolunuzu bulmanızı sağlamaktır: farklı öğeler nelerdir, birlikte nasıl çalışırlar ve bunlarla nasıl çalışabilirsiniz? Zaten [Power BI hizmetine kaydolduysanız](service-self-service-signup-for-power-bi.md) ve [veri eklediyseniz](service-get-data.md) bu makaleden daha iyi yararlanabilirsiniz. Bir tasarımcı olarak, normal iş akışınız genellikle Power BI Desktop'ta raporlar oluşturmakla başlar. Ardından bunları Power BI hizmetine yayımlarsınız ve burada raporlarda değişiklik yapmaya devam edebilirsiniz. Ayrıca Power BI hizmetinde raporlarınızı temel alan panolar da oluşturabilirsiniz. 
+
+Bu makale için, henüz kendi raporlarınız yoksa [Power BI örnek içerik paketini](sample-datasets.md#the-power-bi-samples-as-content-packs) yüklemeyi deneyin.
 
 ![Tarayıcıda Power BI hizmeti Giriş ekranı](media/service-basic-concepts/power-bi-home-screen.png)
 
-Power BI hizmetini tarayıcıda açtığınızda aşağıdaki öğeleri görürsünüz:
+Power BI hizmetini tarayıcıda açtığınızda kendi Giriş ekranınızdan başlarsınız. Burada görebileceğiniz öğeler şunlardır:
 
 1. Gezinti bölmesi (sol gezinti bölmesi)
 2. Office 365 uygulama başlatıcısı
@@ -34,9 +36,9 @@ Power BI hizmetini tarayıcıda açtığınızda aşağıdaki öğeleri görürs
 6. Sık kullanılan panonun kutucukları
 7. Sık kullanılan panolar ve raporlar
 
-Daha sonra bu özelliklerin ayrıntısına ineceğiz ancak şimdi bazı Power BI kavramlarını inceleyelim.
+Raporlarınızın ve panolarınızın son kullanıcıları tarayıcıdaki Power BI hizmeti deneyimine aynı şekilde başlar.
 
-Alternatif olarak, bu makalenin devamını okumadan önce bu videoyu da izleyebilirsiniz.  Videoda, Will temel kavramları inceler ve sizi Power BI hizmetinde bir tura çıkarır.
+Daha sonra bu özelliklerin ayrıntısına ineceğiz ancak şimdi bazı Power BI kavramlarını inceleyelim. Öte yandan önce bu videoyu izlemeniz de faydalı olabilir.  Videoda Will, temel kavramları inceliyor ve sizi Power BI hizmetinde bir tura çıkarıyor.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -45,13 +47,12 @@ Alternatif olarak, bu makalenin devamını okumadan önce bu videoyu da izleyebi
 Power BI'ın başlıca 4 yapı taşı şunlardır: **_panolar_**, **_raporlar_**, **_çalışma kitapları_** ve **_veri kümeleri_**. Bunların tamamı **_çalışma alanları_** halinde düzenlenmiştir. Dört yapı taşını ayrıntılı olarak incelemeden önce çalışma alanlarını anlamanız önemli olduğundan bu kavramla başlayacağız.
 
 ## <a name="workspaces"></a>Çalışma alanları
-Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve*uygulama çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuza ilişkin ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ancak düzenlenemez.
+Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve*uygulama çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuzun Power BI son kullanıcılarına ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ama son kullanıcılar bunları düzenleyemez.
 
 - *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir uygulama çalışma alanında çalışmak istersiniz.      
 -  *Uygulama çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Uygulama çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm uygulama çalışma alanı üyelerinin Power BI Pro lisansına sahip olması gerekir ancak uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur.  
 
-Daha fazla bilgi edinmek için İçindekiler bölümünün **Çalışmanızı paylaşma** kısmının [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) ile başlayan bölümüne bakın
-
+Daha fazla bilgi edinmek için [Çalışmanızın panolarını paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md) ile başlayın.
 
 Şimdi Power BI'ın yapı taşlarına geçelim. Veriler olmadan panonuz veya raporunuz olamayacağından (boş panolarınız veya raporlarınız olabilir ancak bunlar veri içerene kadar kullanışlı değildir) **veri kümeleriyle** başlayalım.
 
@@ -72,7 +73,7 @@ Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçti
 
   ![Veri kümesi diyagramı](media/service-basic-concepts/drawing2.png)
 
-[Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](service-get-data.md) için **Veri Al**'ı (sol gezinti bölmesinin en altında) veya **+ Oluştur > Veri kümesi**'ni (sağ üst köşede) seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar temel alınan veri kümesinde değişikliğe neden olmaz.
+[Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](service-get-data.md) için sol gezinti bölmesinin en altındaki **Veri Al**'ı seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar, temel alınan veri kümesinde değişikliğe neden olmaz.
 
 Bir [**_uygulama çalışma alanının_** parçasıysanız](service-collaborate-power-bi-workspace.md) çalışma alanının bir üyesi tarafından eklenen veri kümeleri, çalışma alanının diğer üyeleri tarafından da kullanılabilir.
 

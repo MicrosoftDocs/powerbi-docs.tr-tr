@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763162"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971683"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI ile hizmet sorumlusu (Önizleme)
 
@@ -108,9 +108,6 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > AAD güvenlik grupları yalnızca bir AAD genel yöneticisi tarafından oluşturulabilir.
-
 3. Power BI Yöneticisi olarak hizmet sorumlusunu Power BI yönetim portalının **Geliştirici ayarları**'nda etkinleştirmeniz gerekir. Azure AD'de oluşturduğunuz güvenlik grubunu **Geliştirici ayarları**'nın **Belirli bir güvenlik grubu** bölümüne ekleyin.
 
    > [!Important]
@@ -173,6 +170,7 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 * Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
 * Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
+* [Veri akışları](../service-dataflows-overview.md) yönetimi desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

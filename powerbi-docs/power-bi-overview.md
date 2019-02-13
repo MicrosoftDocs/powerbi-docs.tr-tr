@@ -1,57 +1,59 @@
 ---
 title: Power BI nedir?
 description: Power BI’ya ve farklı bölümlerin (Power BI Desktop, Power BI hizmeti, Power BI mobil, Rapor Sunucusu, Power BI Embedded) birbirine uyumuna genel bakış.
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 11/13/2018
-ms.author: davidi
+ms.date: 02/07/2019
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b1efe45d52b5a7a18a86407b41e8af287d3c8260
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293086"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971660"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
-**Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verilerinizin basit bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarlarından oluşan bir koleksiyon olması fark etmeksizin **Power BI**, veri kaynaklarınıza kolayca bağlanmanıza, önemli verileri görselleştirmenize (veya araştırmanıza) ve bunları istediğiniz herkesle paylaşmanıza olanak sağlar.
+**Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. **Power BI** veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
 
 ![Power BI için giriş kaynaklarını gösteren diyagram](media/power-bi-overview/power-bi-input-new.png)
 
-**Power BI**, Excel elektronik tablolarından veya yerel veritabanlarından hızlı öngörüler oluşturma özelliği ile işlemlerinizi basit ve hızlı şekilde gerçekleştirebilir. Ayrıca, **Power BI** özel geliştirmenin yanı sıra kapsamlı modelleme ve gerçek zamanlı analiz işlemlerinizi gerçekleştirmeye hazır, sağlam ve kurumsal sınıf bir hizmettir. Bu nedenle Power BI, kişisel rapor ve görselleştirme aracınız olabileceği gibi grup projeleri, departmanlar veya tüm şirket için analiz ve karar mekanizması olarak da kullanılabilir.
+**Power BI**, Excel elektronik tablolarından veya yerel veritabanlarından hızlı öngörüler oluşturma özelliği ile işlemlerinizi basit ve hızlı şekilde gerçekleştirebilir. Ayrıca, **Power BI** özel geliştirmenin yanı sıra kapsamlı modelleme ve gerçek zamanlı analiz işlemlerinizi gerçekleştirmeye hazır, sağlam ve kurumsal sınıf bir hizmettir. Dolayısıyla kişisel rapor ve görselleştirme aracınız olarak kullanabilirsiniz. Ayrıca grup projeleri, bölümler veya kuruluşların tamamı için analiz ve karar altyapısı işlevi de görebilir.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI'ın bileşenleri
-Power BI; **Power BI Desktop** adlı bir Windows masaüstü uygulamasını, **Power BI hizmeti** adlı bir çevrimiçi SaaS (*Hizmet olarak Yazılım*) hizmetini ve Windows işletim sistemi yüklü telefon ve tabletlerin yanı sıra iOS cihazlarında ve Android cihazlarda kullanılabilen Power BI mobil **uygulamalarını** içerir.
+Power BI’ın içinde **Power BI Desktop** adlı bir Windows masaüstü uygulaması, **Power BI hizmeti** adlı bir çevrimiçi SaaS (*Hizmet olarak Yazılım*) hizmeti, ayrıca Windows, iOS ve Android cihazları için Power BI **mobil uygulamaları** bulunur.
 
 ![Power BI Desktop, hizmet, mobil](media/power-bi-overview/power-bi-blocks.png)
 
-Bu üç bileşen (**Desktop**, **hizmet** ve **Mobil**) kullanıcıların ihtiyaçlarına veya sahip oldukları role uygun iş öngörüleri oluşturmasına, paylaşmasına ve kullanmasına olanak sağlamak için tasarlanmıştır.
+Bu üç bileşen (**Power BI Desktop**, **hizmet** ve **mobil uygulamalar**) kullanıcıların ihtiyaçlarına veya sahip oldukları role uygun iş içgörüleri oluşturmasına, paylaşmasına ve kullanmasına olanak sağlamak için tasarlanmıştır.
+
+Dördüncü bir öğe olarak **Power BI Rapor Sunucusu** Power BI raporlarını Power BI Desktop'ta oluşturduktan sonra şirket içi rapor sunucusuna yayımlamanıza olanak tanır. [Power BI Rapor Sunucusu](#on-premises-reporting-with-power-bi-report-server) hakkında daha fazla bilgi edinin.
 
 ## <a name="how-power-bi-matches-your-role"></a>Power BI, rolünüzle nasıl eşleşir?
-Power BI'ı nasıl kullandığınız bir projedeki veya ekipteki rolünüze bağlıdır. Başka rollerdeki kullanıcılar Power BI'ı farklı şekillerde kullanabilir ve bu oldukça normaldir.
+Power BI'ı nasıl kullandığınız bir projedeki veya ekipteki rolünüze bağlıdır. Başka rollerdeki kullanıcılar Power BI'ı farklı şekillerde kullanabilir ve bu normaldir.
 
-Örneğin, siz en çok **Power BI hizmetini** kullanırken, sürekli hesaplama yapan ve rapor oluşturan (ardından, Desktop raporlarını sizin de daha sonra görüntüleyebileceğiniz Power BI hizmetinde yayımlayan) iş arkadaşınız **Power BI Desktop**'ı çok daha fazla kullanabilir. Satış departmanındaki başka bir iş arkadaşınız ise satış kotalarındaki ilerlemeyi izlemek ve yeni satış fırsatları hakkında ayrıntılı bilgi edinmek için Power BI telefon uygulamasını daha çok kullanabilir.
+Örneğin, öncelikli olarak **Power BI hizmetini** kullanabilirsiniz. Ancak sürekli hesaplama yapan, iş raporları oluşturan iş arkadaşınız raporları oluşturmak ve sonra da bunları görüntüleyebileceğiniz Power BI hizmetine yayımlamak için **Power BI Desktop**'ı yoğun olarak kullanabilir. Satış departmanındaki başka biri, satış kotalarındaki ilerleme durumu izlemek ve yeni olası müşteri bilgilerinde detaya gitmek için asıl olarak Power BI telefon uygulamasını kullanabilir.
 
 Geliştiriciyseniz, Power BI API’lerini kullanarak veri kümelerine veri gönderebilir veya pano ve raporları kendi özel uygulamalarınıza ekleyebilirsiniz. Yeni bir görsel için fikriniz mi var? Kendi başınıza oluşturun ve başkalarıyla paylaşın.  
 
-Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip olduğunuz role bağlı olarak farklı dönemlerde **Power BI**'ın her bir bileşenini kullanabilirsiniz.
+Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip olduğunuz role bağlı olarak farklı dönemlerde **Power BI**'ın her bileşenini kullanabilirsiniz.
 
-Bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim sürecini izlerken diğer yandan kendi ekibiniz için müşteri ilişkilerine yönelik istatistiklerle ilgili raporlar oluşturmak üzere **Power BI Desktop**'ı kullanabilirsiniz. Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin durumunuz için en uygun araç olduğuna göre değişiklik gösterebilir. Ancak, Power BI'ın her bir bileşenini kullanabilirsiniz; onu bu kadar esnek ve etkileyici yapan da budur.
+Kendi takımınıza müşteri etkileşimi istatistikleri hakkında raporlar oluşturmak için **Power BI Desktop**'ı kullanıyor olabilirsiniz. Belki de hizmette gerçek zamanlı bir panoda envanter ve üretimin ilerleme durumunu görüntülüyorsunuz. Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin sizin durumunuza en uygun araç olduğuna bağlı olabilir. Power BI'ın her bölümü kullanılabilir ve onu bu kadar esnek ve cazip yapan da budur.
 
-Rolünüzle ilgili belgeleri keşfetmek için:
+Rolünüzle ilgili belgeleri keşfetme:
 - [***Tasarımcılar***](desktop-what-is-desktop.md) için Power BI
 - [***Tüketiciler***](consumer/end-user-consumer.md) için Power BI
 - [***Geliştiriciler***](developer/what-can-you-do.md) için Power BI
 - [***Yöneticileri***](service-admin-administering-power-bi-in-your-organization.md) için Power BI
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI'daki iş akışı
-Power BI’da ortak bir iş akışı, veri kaynaklarına bağlanarak ve **Power BI Desktop**’ta rapor oluşturarak başlar. Bu rapor daha sonra **Desktop**’tan **Power BI hizmetine** yayımlanır ve **hizmet** ve **mobil** kullanıcılarının raporu *tüketebilmesi* (görüntüleme ve etkileşimde bulunma) için paylaşılır.
-Bazı durumlarda, iş arkadaşlarınızın **hizmeti** rapor düzenlemek, pano oluşturmak ve kendi çalışmalarını da paylaşmak için kullanabilmesi amacıyla onlara kendinizinkine benzer izinler vermek isteyebilirsiniz (*creator* izinleri).
+Power BI’da ortak bir iş akışı, veri kaynaklarına bağlanarak ve **Power BI Desktop**’ta rapor oluşturarak başlar. Ardından bu raporu **Power BI Desktop**'tan **Power BI hizmetine** yayımlar ve paylaşırsınız. Bu sayede **hizmette** ve **mobil cihazlarda** son kullanıcılar raporu görüntüleyebilir ve raporla etkileşimli çalışabilir.
+Bu yaygın bir iş akışıdır ve üç ana Power BI öğesinin birbirini nasıl tamamladığını gösterir.
 
-Daha yaygın iş akışlarından biri olmasına rağmen her zaman bu yöntemle gerçekleşmez ve üç ana Power BI öğesinin birbirini nasıl tamamladığını gösterir.
+Burada ayrıntılı bir [Power BI Desktop ve Power BI hizmeti karşılaştırması](service-service-vs-desktop.md) bulabilirsiniz.
 
 Ancak buluta taşınmaya hazır değilseniz ve raporlarınızı bir kurumsal güvenlik duvarının arkasında tutmak istiyorsanız ne olur?  Okumaya devam edin.
 
@@ -60,8 +62,11 @@ Power BI Rapor Sunucusu'nun sunduğu, kullanıma hazır çok sayıda araç ve hi
 
 ![şirket içi diyagramı](media/power-bi-overview/power-bi-report-server2.png)
 
-Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız ve sonra raporlarınızı bir web tarayıcısında, mobil cihazda veya e-posta olarak görüntülemeyi içeren farklı yöntemlerle doğru kullanıcılara ilettiğiniz bir çözümdür. Power BI Rapor Sunucusu bulutta Power BI ile uyumlu olduğundan, hazır olduğunuzda buluta taşıyabilirsiniz.
+Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız ve sonra raporlarınızı bir web tarayıcısında, mobil cihazda veya e-posta olarak görüntülemeyi içeren farklı yöntemlerle doğru kullanıcılara ilettiğiniz bir çözümdür. Power BI Rapor Sunucusu bulutta Power BI ile uyumlu olduğundan, hazır olduğunuzda buluta taşıyabilirsiniz. 
+
+[Power BI Rapor Sunucusu](report-server/get-started.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI hizmetinde oturum açma, bazı verileri alma ve kullanmayı öğrenme](service-the-new-power-bi-experience.md)   
-[Öğretici: Power BI hizmetiyle çalışmaya başlama](service-get-started.md)
+[Öğretici: Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
+[Hızlı Başlangıç: Power BI Desktop'taki verilere bağlanma](desktop-quickstart-connect-to-data.md)
