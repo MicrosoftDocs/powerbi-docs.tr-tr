@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763173"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223525"
 ---
 # <a name="encrypt-credentials"></a>Kimlik bilgilerini şifreleme
 [Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak **kurumsal şirket içi ağ geçidinin** altında [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
@@ -24,28 +24,28 @@ ms.locfileid: "55763173"
 Aşağıdaki EncodeCredentials yöntemine sağlanan kimlik bilgileri, bu kimlik bilgilerinin türüne bağlı olarak şu biçimlerden birinde olmalıdır:
 
 **Temel / Windows kimlik bilgileri**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Anahtar kimlik bilgileri**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2 kimlik bilgileri**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **Anonim kimlik bilgileri**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Kimlik bilgilerini şifreleme**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296582"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223932"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi sorunlarını giderme
 
@@ -35,11 +35,15 @@ Ağ geçidi bir Windows hizmeti olarak çalıştırılır, böylece onu birkaç 
 
 * Hizmeti durdurmak için şu komutu çalıştırın:
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * Hizmeti başlatmak için şu komutu çalıştırın:
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>Günlük kuralı Yapılandırması
 
@@ -318,7 +322,7 @@ Bir sorgunun çalışma süresini belirlemek için iki yapılandırma dosyasın�
 > [!IMPORTANT]
 > EmitQueryTraces'in etkinleştirilmesi, ağ geçidi kullanımına bağlı olarak günlük boyutunu önemli ölçüde artırabilir. Günlükleri gözden geçirmeyi tamamladığınızda EmitQueryTraces değerini False olarak ayarlamanız gerekebilir. Bu ayarın uzun bir süre boyunca etkin halde bırakılması önerilmez.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > TraceVerbosity’nin `5` olarak ayarlanması, ağ geçidi kullanımına bağlı olarak günlük boyutunu önemli ölçüde artırabilir. Günlükleri gözden geçirmeyi tamamladığınızda TraceVerbosity değerini `4` olarak ayarlamanız gerekir. Bu ayarın uzun bir süre boyunca etkin halde bırakılması önerilmez.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ UPN (alias@domain.com) kullanılarak kullanıcının kimliğine bürünüldüyse
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

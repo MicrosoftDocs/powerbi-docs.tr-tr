@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 01815d2e5aa7dd7f05d3a9be33ca4e458deb78ec
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 4730bef0e7f1fc47a4a59a0129640760714fe2e0
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429786"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223341"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Hızlı başlangıç: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
@@ -87,7 +87,7 @@ URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfa
     ![iFrame kodu](media/quickstart-embed/quickstart_embed_12.png)
 
      Örnek:
-     ```
+     ```html
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 

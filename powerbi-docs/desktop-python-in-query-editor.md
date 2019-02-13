@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283334"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217057"
 ---
 # <a name="using-python-in-query-editor"></a>Sorgu Düzenleyicisi'nde Python Kullanma
 İstatistik uzmanları, veri bilimciler ve veri analistleri tarafından yaygın olarak kullanılan bir programlama dili olan **Python**, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanılabilir. Python programlama dilinin **Sorgu Düzenleyicisi** ile bu şekilde tümleştirilmesi, Python kullanarak veri temizlemenin yanı sıra veri kümelerinde eksik verilerin tamamlanması, tahminler ve kümeleme gibi gelişmiş veri şekillendirme ve analiz işlemleri gerçekleştirmenize olanak sağlar. **Python** güçlü bir dildir ve bu dili veri modelinizi hazırlamanın yanı sıra raporlar oluşturmak için **Sorgu Düzenleyicisi**'nde kullanabilirsiniz.
@@ -43,10 +43,12 @@ ms.locfileid: "54283334"
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Bu örnek için aşağıdaki betik kodunu gireceğiz:
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > Önceki betik kodunuzun düzgün bir şekilde çalışması için Python ortamınızda *pandas* kitaplığının yüklü olması gerekir. Pandas'ı yüklemek için Python yüklemenizde şu komutu çalıştırın: |      > pip install pandas
    > 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762111"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223847"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -161,7 +161,7 @@ Hangisi olduğunu belirlemek için aşağıdaki adımları deneyin.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Verme işlemi için yönetici izni gerekiyor
 
-**_Belirtiler:_**</br>
+**_Belirtiler:_**<br>
 Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum açmayı deniyorsa aşağıdaki hatalardan birini alır:
 
 * Onay Testi'nin, kuruluşunuzdaki kaynaklara erişim için yalnızca yöneticinin verebileceği izne ihtiyacı vardır. Kullanabilmek için önce yöneticiden bu uygulamaya izin vermesini isteyin.
@@ -171,7 +171,7 @@ Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum a�
 
 Yönetici oturum açabilir ve başarılı bir şekilde onay verebilir.
 
-**_Kök nedeni:_**</br>
+**_Kök nedeni:_**<br>
 Kiracı için kullanıcı onayı devre dışı bırakıldı.
 
 **_Çeşitli düzeltmeler yapılabilir:_**

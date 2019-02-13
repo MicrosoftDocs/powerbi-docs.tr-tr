@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277446"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215747"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri veya diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
@@ -101,6 +101,7 @@ Bir **tablo** veya **matris** görseline stil uygulamak için şu adımları izl
 
 Aşağıda verilen *St Patrick's Day.json* dosyasının metin içeriğini kullanarak kendi JSON dosyanızı oluşturabilirsiniz:
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Aşağıda verilen *St Patrick's Day.json* dosyasının metin içeriğini kullan
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 Daha sonra, seçtiğiniz renkler için kendi onaltılık renk kodlarınızı girebilirsiniz.
 
@@ -158,6 +160,7 @@ Ayrıca Rapor Temaları birçok **Özel Görsele** de uygulanmaz.
 
 Valentine's Day teması için indirme bağlantısı yerine JSON kodunu verdik:
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ Valentine's Day teması için indirme bağlantısı yerine JSON kodunu verdik:
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 **Rapor Temaları** sizi, kuruluşunuzu ve hatta geçerli mevsimi ya da tatili Power BI Desktop raporlarınızda renkli bir şekilde yansıtabilir. 
 
@@ -303,7 +307,8 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 ### <a name="properties-within-each-card"></a>Her bir karttaki özellikler
 Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır:
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>JSON dosyasındaki sabit listeleri
 Aşağıdaki bölümde, JSON dosyasında kullanabileceğiniz sabit listeleri tanımlanmıştır.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ Aşağıdaki bölümde, JSON dosyasında kullanabileceğiniz sabit listeleri tan
          ]
        }
     }
+```

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295759"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216827"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidi (kişisel mod)
 Bir ağ geçidiyle şirket içi veri kaynaklarını kullanabilir ve Power BI raporları ve panoları oluşturabilirsiniz. Bir **ağ geçidi,** özel, şirket içi ağda depolanan verilere erişimi kolaylaştıran ve ardından bu verileri **Power BI hizmeti** gibi çevrimiçi hizmetlerde kullanabilmenizi sağlayan bir yazılımdı. **Şirket içi veri ağ geçidi (kişisel mod)** kısa süre önce kullanıma sunulan bir Power BI ağ geçidi güncelleştirmesidir ve kullanıcıların kendi bilgisayarlarına bir ağ geçidi yüklemesine ve şirket içi verilere erişim sağlayabilmesine olanak tanır.
@@ -86,11 +86,11 @@ Kişisel ağ geçidinin hangi sürümünün yüklü olduğunu belirlemek için a
    ```
 2. Dosyanın alt kısmına aşağıdaki metni ekleyin:
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. Bu işlemin ardından ayar, yaklaşık bir dakika içinde etkinleşir. Düzgün çalışıp çalışmadığını kontrol etmek için **Hızlı Birleştirme** özelliğinin çalıştığını onaylamak üzere **Power BI hizmetinde** isteğe bağlı yenileme işlemi yapın.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar

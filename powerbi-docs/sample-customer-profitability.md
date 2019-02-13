@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280850"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216505"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 

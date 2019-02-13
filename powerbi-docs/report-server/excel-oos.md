@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234428"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216850"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
 
@@ -32,13 +32,13 @@ Bu yordamları Office Online Server uygulamasının çalıştırılacağı sunuc
 
     **Windows Server 2012 R2:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
     **Windows Server 2016:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
@@ -80,7 +80,7 @@ Dil paketlerini yüklemek için bu adımları uygulayın.
 
 Aşağıdaki örnekte gösterilen şekilde tek bir sunucudan oluşan yeni bir Office Online Server grubu oluşturmak için New-OfficeWebAppsFarm komutunu kullanın.
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -CertificateName "OfficeWebApps Certificate"
 ```
 
@@ -94,7 +94,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 Aşağıdaki örnekte gösterilen şekilde tek bir sunucudan oluşan yeni bir Office Online Server grubu oluşturmak için New-OfficeWebAppsFarm komutunu kullanın.
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 ```
 
@@ -113,11 +113,11 @@ Grup oluşturulduktan sonra grupla ilgili ayrıntılar Windows PowerShell istemi
 
 Office Online Server beklenen şekilde çalışıyorsa web tarayıcınızda bir Web Uygulaması Açık Platform Arabirim Protokolü (WOPI)-keşif XML dosyası görmeniz gerekir. Bu dosyanın ilk birkaç satırı aşağıdaki örneğe benzer olmalıdır:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-- <wopi-discovery>
-- <net-zone name="internal-http">
-- <app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
+<wopi-discovery>
+<net-zone name="internal-http">
+<app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
 <action name="view" ext="ods" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xls" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xlsb" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
@@ -128,7 +128,7 @@ Office Online Server beklenen şekilde çalışıyorsa web tarayıcınızda bir 
 
 Power BI Rapor Sunucusu'ndaki tüm dosyalar için maksimum dosya boyutu 100 MB olarak belirlenmiştir. Bu sınıra uymak için bu ayarı OOS içinde el ile ayarlamanız gerekir.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 ```
 
@@ -140,7 +140,7 @@ Analysis Services canlı bağlantılarına olanak sağlamak amacıyla, bir Excel
 
 OOS Sunucusunda aşağıdaki PowerShell komutlarını çalıştırın.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelUseEffectiveUserName:$true
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
@@ -152,13 +152,13 @@ Analysis Services Power Pivot modu örneği yükleyerek Power Pivot kullanan Exc
 
 OOS uygulamasının Power Pivot modu örneğini kullanabilmesi için aşağıdaki komutu çalıştırın.
 
-```
+```powershell
 New-OfficeWebAppsExcelBIServer -ServerId <server_name>\POWERPIVOT
 ```
 
 Dış verilere önceden izin vermediyseniz yukarıdaki Analysis Services adımında aşağıdaki komutu çalıştırın.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 ```
 

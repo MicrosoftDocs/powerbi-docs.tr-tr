@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68b392f4570d137fabdfe8f10e5b7035babc397b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272639"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215642"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
 Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 

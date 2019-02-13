@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287083"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215724"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve başka öğeler ekleme
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ Herhangi bir HTML içeriği yapıştırın veya yazın.  Power BI bu içeriği p
 ## <a name="tips-for-embedding-web-content"></a>Web içeriği ekleme ipuçları
 * iframe örnekleri için güvenli bir kaynak kullanın. iframe ekleme kodu girdiğinizde boş bir kutucukla karşılaşıyorsanız iframe kaynağında **http** kullanıp kullanmadığınızı kontrol edin.  http kullandıysanız bunu **https** olarak değiştirin.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Genişlik ve yükseklik bilgilerini düzenleyin. Bu ekleme kodu bir video ekleyip video oynatıcı boyutunu 560 x 315 piksel olarak ayarlar.  Kutucuğu yeniden boyutlandırdığınızda bu boyut değişmez.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ Herhangi bir HTML içeriği yapıştırın veya yazın.  Power BI bu içeriği p
   
   Oynatıcının kutucuk boyutuna uyacak şekilde yeniden boyutlandırılmasını istiyorsanız genişlik ve yükseklik değerini %100 olarak ayarlayın.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Bu kod bir tweet ekleyip **AFK** pod yayınını, **@GuyInACube Twitter sayfasını**, **Follow**, **#analytics**, **reply**, **retweet** ve **like** bağlantılarını pano üzerinde ayrı bağlantı olarak korur.  Kutucuğu seçtiğinizde Twitter üzerindeki pod yayını açılır.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276941"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215079"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
 
@@ -59,13 +59,13 @@ Tabloda PowerShell komutlarını çalıştırmak için, önce aşağıdaki adım
 1. Yönetici olarak bir PowerShell komut penceresi açın
 2. Aşağıdaki tek seferlik PowerShell komutunu çalıştırın (geçerli makinede daha önce hiç PowerShell komutu çalıştırmadığınız varsayılmaktadır):
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. Daha sonra, PowerShell penceresinde Şirket içi veri ağ geçidi yükleme klasörüne gidip aşağıdaki komutu kullanarak gerekli modülü içeri aktarın:
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

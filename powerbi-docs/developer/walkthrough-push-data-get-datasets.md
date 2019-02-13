@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: c3931cbc23a0b0b59cc4786fb66dd36406b88483
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762502"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216091"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. Adım: Power BI tablosuna satır eklemek için veri kümesi alma
 
@@ -45,7 +45,7 @@ Program.cs'ye aşağıdaki kodu ekleyin.
 
 * static void Main(string[] args) bölümüne:
   
-  ```
+  ```csharp
   static void Main(string[] args)
   {
   
@@ -61,7 +61,7 @@ Program.cs'ye aşağıdaki kodu ekleyin.
   ```
 * Bir GetDatset() yöntemi ekleyin:
   
-  ```
+  ```csharp
     #region Get a dataset to add rows into a Power BI table
     private static string GetDataset()
     {
@@ -111,157 +111,159 @@ Sonraki adımda [bir Power BI tablosuna satır ekleme](walkthrough-push-data-add
 
 ## <a name="complete-code-listing"></a>Tam kod listesi
 
-    using System;
-    using Microsoft.IdentityModel.Clients.ActiveDirectory;
-    using System.Net;
-    using System.IO;
-    using Newtonsoft.Json;
+```csharp
+using System;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using System.Net;
+using System.IO;
+using Newtonsoft.Json;
 
-    namespace walkthrough_push_data
+namespace walkthrough_push_data
+{
+    class Program
     {
-        class Program
+        private static string token = string.Empty;
+
+        static void Main(string[] args)
         {
-            private static string token = string.Empty;
 
-            static void Main(string[] args)
-            {
+            //Get an authentication access token
+            token = GetToken();
 
-                //Get an authentication access token
-                token = GetToken();
+            //Create a dataset in Power BI
+            CreateDataset();
 
-                //Create a dataset in Power BI
-                CreateDataset();
+            //Get a dataset to add rows into a Power BI table
+            string datasetId = GetDataset();
 
-                //Get a dataset to add rows into a Power BI table
-                string datasetId = GetDataset();
-
-            }
-
-            #region Get an authentication access token
-            private static string GetToken()
-            {
-                // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
-                // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
-
-                //The client id that Azure AD created when you registered your client app.
-                string clientID = "{Client_ID}";
-
-                //RedirectUri you used when you register your app.
-                //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
-                // You can use this redirect uri for your client app
-                string redirectUri = "https://login.live.com/oauth20_desktop.srf";
-
-                //Resource Uri for Power BI API
-                string resourceUri = "https://analysis.windows.net/powerbi/api";
-
-                //OAuth2 authority Uri
-                string authorityUri = "https://login.microsoftonline.net/common/";
-
-                //Get access token:
-                // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
-                // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
-                // To install the Active Directory Authentication Library NuGet package in Visual Studio,
-                //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
-
-                // AcquireToken will acquire an Azure access token
-                // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
-                AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-                string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
-
-                Console.WriteLine(token);
-                Console.ReadLine();
-
-                return token;
-            }
-
-            #endregion
-
-            #region Create a dataset in Power BI
-            private static void CreateDataset()
-            {
-                //TODO: Add using System.Net and using System.IO
-
-                string powerBIDatasetsApiUrl = "https://api.powerbi.com/v1.0/myorg/datasets";
-                //POST web request to create a dataset.
-                //To create a Dataset in a group, use the Groups uri: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets
-                HttpWebRequest request = System.Net.WebRequest.Create(powerBIDatasetsApiUrl) as System.Net.HttpWebRequest;
-                request.KeepAlive = true;
-                request.Method = "POST";
-                request.ContentLength = 0;
-                request.ContentType = "application/json";
-
-                //Add token to the request header
-                request.Headers.Add("Authorization", String.Format("Bearer {0}", token));
-
-                //Create dataset JSON for POST request
-                string datasetJson = "{\"name\": \"SalesMarketing\", \"tables\": " +
-                    "[{\"name\": \"Product\", \"columns\": " +
-                    "[{ \"name\": \"ProductID\", \"dataType\": \"Int64\"}, " +
-                    "{ \"name\": \"Name\", \"dataType\": \"string\"}, " +
-                    "{ \"name\": \"Category\", \"dataType\": \"string\"}," +
-                    "{ \"name\": \"IsCompete\", \"dataType\": \"bool\"}," +
-                    "{ \"name\": \"ManufacturedOn\", \"dataType\": \"DateTime\"}" +
-                    "]}]}";
-
-                //POST web request
-                byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(datasetJson);
-                request.ContentLength = byteArray.Length;
-
-                //Write JSON byte[] into a Stream
-                using (Stream writer = request.GetRequestStream())
-                {
-                    writer.Write(byteArray, 0, byteArray.Length);
-
-                    var response = (HttpWebResponse)request.GetResponse();
-
-                    Console.WriteLine(string.Format("Dataset {0}", response.StatusCode.ToString()));
-
-                    Console.ReadLine();
-                }
-            }
-            #endregion
-
-            #region Get a dataset to add rows into a Power BI table
-            private static string GetDataset()
-            {
-                string powerBIDatasetsApiUrl = "https://api.powerbi.com/v1.0/myorg/datasets";
-                //POST web request to create a dataset.
-                //To create a Dataset in a group, use the Groups uri: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets
-                HttpWebRequest request = System.Net.WebRequest.Create(powerBIDatasetsApiUrl) as System.Net.HttpWebRequest;
-                request.KeepAlive = true;
-                request.Method = "GET";
-                request.ContentLength = 0;
-                request.ContentType = "application/json";
-
-                //Add token to the request header
-                request.Headers.Add("Authorization", String.Format("Bearer {0}", token));
-
-                string datasetId = string.Empty;
-                //Get HttpWebResponse from GET request
-                using (HttpWebResponse httpResponse = request.GetResponse() as System.Net.HttpWebResponse)
-                {
-                    //Get StreamReader that holds the response stream
-                    using (StreamReader reader = new System.IO.StreamReader(httpResponse.GetResponseStream()))
-                    {
-                        string responseContent = reader.ReadToEnd();
-
-                        //TODO: Install NuGet Newtonsoft.Json package: Install-Package Newtonsoft.Json
-                        //and add using Newtonsoft.Json
-                        var results = JsonConvert.DeserializeObject<dynamic>(responseContent);
-
-                        //Get the first id
-                        datasetId = results["value"][0]["id"];
-
-                        Console.WriteLine(String.Format("Dataset ID: {0}", datasetId));
-                        Console.ReadLine();
-
-                        return datasetId;
-                    }
-                }
-            }
-            #endregion
         }
+
+        #region Get an authentication access token
+        private static string GetToken()
+        {
+            // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
+            // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
+
+            //The client id that Azure AD created when you registered your client app.
+            string clientID = "{Client_ID}";
+
+            //RedirectUri you used when you register your app.
+            //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
+            // You can use this redirect uri for your client app
+            string redirectUri = "https://login.live.com/oauth20_desktop.srf";
+
+            //Resource Uri for Power BI API
+            string resourceUri = "https://analysis.windows.net/powerbi/api";
+
+            //OAuth2 authority Uri
+            string authorityUri = "https://login.microsoftonline.net/common/";
+
+            //Get access token:
+            // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
+            // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
+            // To install the Active Directory Authentication Library NuGet package in Visual Studio,
+            //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
+
+            // AcquireToken will acquire an Azure access token
+            // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
+            AuthenticationContext authContext = new AuthenticationContext(authorityUri);
+            string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
+
+            Console.WriteLine(token);
+            Console.ReadLine();
+
+            return token;
+        }
+
+        #endregion
+
+        #region Create a dataset in Power BI
+        private static void CreateDataset()
+        {
+            //TODO: Add using System.Net and using System.IO
+
+            string powerBIDatasetsApiUrl = "https://api.powerbi.com/v1.0/myorg/datasets";
+            //POST web request to create a dataset.
+            //To create a Dataset in a group, use the Groups uri: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets
+            HttpWebRequest request = System.Net.WebRequest.Create(powerBIDatasetsApiUrl) as System.Net.HttpWebRequest;
+            request.KeepAlive = true;
+            request.Method = "POST";
+            request.ContentLength = 0;
+            request.ContentType = "application/json";
+
+            //Add token to the request header
+            request.Headers.Add("Authorization", String.Format("Bearer {0}", token));
+
+            //Create dataset JSON for POST request
+            string datasetJson = "{\"name\": \"SalesMarketing\", \"tables\": " +
+                "[{\"name\": \"Product\", \"columns\": " +
+                "[{ \"name\": \"ProductID\", \"dataType\": \"Int64\"}, " +
+                "{ \"name\": \"Name\", \"dataType\": \"string\"}, " +
+                "{ \"name\": \"Category\", \"dataType\": \"string\"}," +
+                "{ \"name\": \"IsCompete\", \"dataType\": \"bool\"}," +
+                "{ \"name\": \"ManufacturedOn\", \"dataType\": \"DateTime\"}" +
+                "]}]}";
+
+            //POST web request
+            byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(datasetJson);
+            request.ContentLength = byteArray.Length;
+
+            //Write JSON byte[] into a Stream
+            using (Stream writer = request.GetRequestStream())
+            {
+                writer.Write(byteArray, 0, byteArray.Length);
+
+                var response = (HttpWebResponse)request.GetResponse();
+
+                Console.WriteLine(string.Format("Dataset {0}", response.StatusCode.ToString()));
+
+                Console.ReadLine();
+            }
+        }
+        #endregion
+
+        #region Get a dataset to add rows into a Power BI table
+        private static string GetDataset()
+        {
+            string powerBIDatasetsApiUrl = "https://api.powerbi.com/v1.0/myorg/datasets";
+            //POST web request to create a dataset.
+            //To create a Dataset in a group, use the Groups uri: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets
+            HttpWebRequest request = System.Net.WebRequest.Create(powerBIDatasetsApiUrl) as System.Net.HttpWebRequest;
+            request.KeepAlive = true;
+            request.Method = "GET";
+            request.ContentLength = 0;
+            request.ContentType = "application/json";
+
+            //Add token to the request header
+            request.Headers.Add("Authorization", String.Format("Bearer {0}", token));
+
+            string datasetId = string.Empty;
+            //Get HttpWebResponse from GET request
+            using (HttpWebResponse httpResponse = request.GetResponse() as System.Net.HttpWebResponse)
+            {
+                //Get StreamReader that holds the response stream
+                using (StreamReader reader = new System.IO.StreamReader(httpResponse.GetResponseStream()))
+                {
+                    string responseContent = reader.ReadToEnd();
+
+                    //TODO: Install NuGet Newtonsoft.Json package: Install-Package Newtonsoft.Json
+                    //and add using Newtonsoft.Json
+                    var results = JsonConvert.DeserializeObject<dynamic>(responseContent);
+
+                    //Get the first id
+                    datasetId = results["value"][0]["id"];
+
+                    Console.WriteLine(String.Format("Dataset ID: {0}", datasetId));
+                    Console.ReadLine();
+
+                    return datasetId;
+                }
+            }
+        }
+        #endregion
     }
+}
+```
 
 [Sonraki Adım >](walkthrough-push-data-add-rows.md)
 
