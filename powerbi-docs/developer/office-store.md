@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bedf9092e48b0e28c14ec510f1f3b4431e81ea27
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281517"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086414"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 
@@ -30,7 +30,7 @@ ms.locfileid: "54281517"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
 
-Özel görselinizi kodlamayı ve test etmeyi tamamlayıp pbiviz dosyası şeklinde paketledikten sonra aşağıdaki gönderim için gerekli bilgilere sahip olmanız gerekir.
+[Özel görselinizi kodlamayı ve test etmeyi](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) tamamlayıp pbiviz dosyası şeklinde paketledikten sonra gönderim için aşağıdaki bilgilere sahip de olmanız gerekir.
 
 | Öğe | Gerekli | Açıklama |
 | --- | --- | --- |

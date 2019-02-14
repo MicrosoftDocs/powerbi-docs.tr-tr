@@ -11,12 +11,12 @@ ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: dec19bc01e2cec30c8f31c1362f0e6c31e632aa1
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 46c956b1db39c3887933b236e1222deef732c2d6
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794753"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086460"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -65,7 +65,6 @@ ms.locfileid: "55794753"
                                                 <p><a href="/power-bi/consumer/end-user-report-open" data-linktype="absolute-path">Rapor görüntüleme</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-dashboard-open" data-linktype="absolute-path">Pano görüntüleme</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-app-view" data-linktype="absolute-path">Uygulamayı görüntüleme</a></p>
-                                                <!-- <p><a href="" data-linktype="absolute-path">Is my content up-to-date?</a></p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -85,6 +84,7 @@ ms.locfileid: "55794753"
                                                 <p><a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">Paylaşılan uygulamalar hakkında bilgi edinin</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-subscribe" data-linktype="absolute-path">İçeriğe abone olma</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-comment" data-linktype="absolute-path">Panoya açıklama ekleme</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-fresh" data-linktype="absolute-path">İçeriğim güncel mi?</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -234,7 +234,7 @@ ms.locfileid: "55794753"
                                 </a>
                             </li>
                             <li>
-                                <a href="/power-bi/service-admin-licensing-organization" data-linktype="absolute-path">
+                                <a href="/power-bi/consumer/end-user-featured" data-linktype="absolute-path">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

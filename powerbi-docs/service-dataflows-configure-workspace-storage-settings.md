@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291959"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086437"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
 
 Power BI ve veri akışları ile, bir çalışma alanının veri akışı tanım dosyasını ve veri dosyalarını Azure Data Lake Storage 2. Nesil hesabınızda depolayabilirsiniz. Çalışma alanı yöneticileri, Power BI’ı bunu yapacak şekilde yapılandırabilir ve bu makalede, gerekli adımlar için size yol gösterilmektedir. 
 
-Bir çalışma alanının veri akışı depolama konumunu yapılandırabilmeniz için önce şirketinizin genel yöneticisinin, kuruluşunuzun depolama hesabını Power BI’a bağlaması ve o depolama hesabına yönelik depolama atama izinlerini etkinleştirmesi gerekir. * [Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+Bir çalışma alanının veri akışı depolama konumunu yapılandırabilmeniz için önce şirketinizin genel yöneticisinin, kuruluşunuzun depolama hesabını Power BI’a bağlaması ve o depolama hesabına yönelik depolama atama izinlerini etkinleştirmesi gerekir. *[Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 Çalışma alanı veri akışı depolama ayarlarını yapılandırmanın iki yolu vardır: 
 

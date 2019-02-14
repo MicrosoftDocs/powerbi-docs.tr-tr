@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234690"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086598"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları
-Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](../consumer/power-bi-visualizations-arcgis.md).
+Bu eğitim içeriği, ArcGIS haritası oluşturan bir kişinin bakış açısından yazılmıştır. ArcGIS haritasını oluşturan kişi haritayı bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir, ancak değişiklikleri kaydedemez. ArcGIS haritalarını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS haritaları ile etkileşim kurma](power-bi-visualizations-arcgis.md).
 
 ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için altlık haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları arasından seçiminizi yapın. Haritalarda yetkilendirmeli veri katmanlarıyla uzamsal çözümlemenin bir arada kullanılması, görselleştirmenizdeki verilerin daha kapsamlı şekilde anlaşılmasını sağlar.
 
- Mobil cihazlarda ArcGIS haritaları oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. Bkz. [ArcGIS haritaları ile etkileşim kurma](../consumer/power-bi-visualizations-arcgis.md).
+ Mobil cihazlarda ArcGIS haritaları oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. Bkz. [ArcGIS haritaları ile etkileşim kurma](power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS, Coğrafi Bilgi Sistemleri anlamına gelir.
@@ -175,7 +175,8 @@ Sürüş zamanı bölmesi, bir konum seçmenize ve belirtilen bir yarıçap veya
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. **Sürüş zamanı** sekmesini seçin ve ardından, tekli veya çoklu seçim aracını belirleyin. Tekli seçim aracını kullanarak Washington D.C. üzerinde bulunan raptiyeyi seçin.
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Harita üzerinde yakınlaştırma yapıldığında (+ simgesi ile) konum seçmek daha kolay hale gelir.
@@ -340,7 +341,7 @@ Hayır, Power BI'ın haritaları görüntülemesi için ağ bağlantısı gereki
 Henüz bağlanamazsınız. [Bu fikri oylayın](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), ilgili özellik üzerinde çalışmaya başladığımızda size bir e-posta gönderelim.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](../consumer/power-bi-visualizations-arcgis.md)
+[Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](power-bi-visualizations-arcgis.md)
 
 [ArcGIS Maps for Power BI'ın kullanıma sunulduğunu duyuran blog gönderisi](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
