@@ -43,7 +43,7 @@ Aşağıda, ağ geçidi tarafından kullanılan tam etki alanı adlarının bir 
 
 Ağ geçidinin Azure Service Bus ile doğrudan TCP yerine HTTPS kullanarak iletişim kurmasını zorunlu kılabilirsiniz. HTTPS kullanımı performansı etkileyebilir. Bu işlemi gerçekleştirmek için, bu paragrafın hemen altındaki kod parçacığında gösterilen şekilde, *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dosyasını düzenleyerek `AutoDetect` değerini `Https` olarak değiştirin. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur.
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
