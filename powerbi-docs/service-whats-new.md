@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431097"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216873"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -31,10 +31,41 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>Eylül 2018
-* Power BI hizmetinde [pano yorumlama](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
 
-## <a name="previous-months-2018"></a>Önceki aylar (2018)
+## <a name="february-2019"></a>Şubat 2019
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) iş yükleri ve etkin veri kümesi boyutu ölçümleri.
+* PDF’ye aktarma ve isteğe bağlı e-posta abonelikleri (service-report-subscribe.md).
+* Yönetim Portalı'nda toplu işlemler.
+
+## <a name="previous-months-2019"></a>Önceki aylar (2019)
+### <a name="january-2019"></a>Ocak 2019
+* İç portallara veya web sitelerine [güvenli Power BI raporları ekleme](service-embed-secure.md).
+* [Veri akışları](service-dataflows-overview.md) düzenleyicisinde yeni bağlayıcılarla güncelleştirmeler, ayrıca yerel SQL sorguları ve Power Query Online dönüştürmeleri için destek.
+* Power BI hizmetinde [kişisel yer işaretleri](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/).
+* E-posta abonelikleriyle zamana bağlı planlama.
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>Aralık 2018
+* Power BI Giriş’te yapay zeka destekli [önerilen uygulamalar](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/).
+* Yönetim Portalı’nda [çalışma alanı yönetimi](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/).
+* [Veri akışlarında](service-dataflows-overview.md) Power BI Veri Akışları ve Azure Data Lake Storage 2. Nesil Tümleştirmesi Önizlemesi.
+* Power BI çözüm şablonları açık kaynağa dönüştürüldü.
+
+### <a name="november-2018"></a>Kasım 2018
+* Power BI veri hazırlama, [veri akışları](service-dataflows-overview.md) genel önizlemesi ile sağlanıyor.
+* Power BI Premium’da [sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) genel önizlemesi.
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) veri boyutu ve bellekteki veri kümelerinin sayısı.
+
+### <a name="october-2018"></a>Ekim 2018
+* Power BI hizmetinde toplamalar [desktop-aggregations.md].
+* Power BI üç yeni bölgeye genişletildi: Orta Hindistan, Avustralya Doğu ve Orta ABD (Iowa). 
+* PowerPoint’a aktarma özelliği genel kullanıma sunuldu.
+
+### <a name="september-2018"></a>Eylül 2018
+* Power BI hizmetinde [pano yorumlama](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
+* [Power BI Giriş ve Genel Arama](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/) için genel önizleme.
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) [sorguları izleme](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) özelliği.
+
 ### <a name="august-2018"></a>Ağustos 2018
 * Power BI Premium için [Kapasite İzleme uygulaması](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 * Power BI [Rapor URL filtresi](service-url-filters.md) geliştirmeleri.
@@ -78,7 +109,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 *   Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
 
 ## <a name="previous-months-2017"></a>Önceki aylar (2017)
-## <a name="october-and-november-2017"></a>Ekim ve Kasım 2017
+### <a name="october-and-november-2017"></a>Ekim ve Kasım 2017
 *   [Power BI Uygulamaları](service-create-distribute-apps.md) ile seçmeli içerik yayımlama.
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
 * Yapay zeka destekli uygulama önerileri.
@@ -86,7 +117,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Uygulamalar için e-posta abonelikleri desteği. 
 * [Web'de yayımlama](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
 
-## <a name="september-2017"></a>Eylül 2017
+### <a name="september-2017"></a>Eylül 2017
 * Premium kapasitede, panoları Power BI Pro lisansı olmayan kullanıcılara paylaştırma.
 * Sanal çekirdek havuzu ile işletme ihtiyaçlarınıza uygun kapasite ayrımı yapma.
 * Kapasiteleri tek tıkla anında yükseltme veya düşürme.

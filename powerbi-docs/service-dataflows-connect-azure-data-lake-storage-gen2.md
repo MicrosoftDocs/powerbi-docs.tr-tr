@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277285"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216528"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -63,7 +63,7 @@ Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrın
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>Power BI hizmetine okuyucu rolü verme
 
-Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rolü vermeniz gerekir. Bu yerleşik bir roldür, bu nedenle adımlar anlaşılırdır. 
+Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rolü vermeniz gerekir. Bu yerleşik bir roldür, bu nedenle adımlar basittir. 
 
 [Güvenlik sorumlusuna rol atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal) makalesindeki adımları izleyin.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482764"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224054"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -94,7 +94,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
                 - Bir sunucu, özel kimlik doğrulaması kullanacak şekilde yapılandırıldığında raporlar yenilenebilir
                 - Bir raporun özelliklerini değiştirmek, veri kaynağı kimlik bilgilerini sıfırlamaz
             - Sayfalandırılmış Raporlar (RDL) için
-                - `Lookup()` veya `LookupSet()` ile `MultiLookup()` gibi türev işlevlerin RDL İfadelerinde kullanılması, artık `#Error` ile sonuçlanmıyor
+                - `Lookup()` veya `LookupSet()` ile `MultiLookup()` gibi türev işlevlerinin RDL İfadelerinde kullanılması, artık `#Error` ile sonuçlanmıyor
                 - Bağlantılı raporlar, yazdırma sırasında hedef raporun sayfa boyutuna uyuyor
                 - Basamaklı parametreler kullanan bağlantılı raporlar için abonelikler oluşturulabilir
                 - IE11 kullanılırken çok değerli parametre varsayılanları değiştirilebilir

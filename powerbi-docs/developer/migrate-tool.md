@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762364"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216390"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 
@@ -189,7 +189,7 @@ Uygulama çalışma alanının oluşturulduğunu doğrulamak için Power BI otur
 
 **Upload** (Yükleme) sekmesi raporları Power BI hizmetine yükler. Download (İndirme) sekmesinde indirilen raporların yanı sıra geçiş planınıza göre hedef grup adlarını görürsünüz.
 
-![Karşıya Yükle sekmesi](media/migrate-tool/migrate-tool-upload-tab.png)
+![Karşıya Yükle Sekmesi](media/migrate-tool/migrate-tool-upload-tab.png)
 
 Yalnızca seçilen raporları veya raporların tümünü yükleyebilirsiniz. Ayrıca öğeleri tekrar yüklemek için yükleme durumunu sıfırlayabilirsiniz.
 
@@ -207,7 +207,7 @@ Geçiş aracını kapatmanız, değişikliği yapmanız ve araçla geçiş plan�
 
 Yukarıdaki örnekte kopyalanan raporlardan biri aynı ada sahip bir rapor mevcut olduğundan başarısız olmuştur. Geçiş planı XML dosyasına baktığımızda aşağıdaki bilgileri görebiliriz.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ Yukarıdaki örnekte kopyalanan raporlardan biri aynı ada sahip bir rapor mevcu
 
 Başarısız olan öğenin SaaSTargetReportName değerini değiştirebiliriz.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Power BI'a geri döndüğünüzde uygulama çalışma alanına yüklenen raporla
 
 Power BI Desktop dosyasının yerel sürümünü de yükleyebilirsiniz. Bunun için aracı kapatmanız, XML dosyasını düzenlemeniz ve **PbixPath** özelliğine yerel PBIX dosyasının tam yolunu girmeniz gerekir.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ XML dosyasını düzenledikten sonra planı geçiş aracı içinden tekrar açı
 
 ### <a name="directquery-reports"></a>DirectQuery raporları
 
-DirectQuery raporları için bağlantı dizesini güncelleştirmeniz gerekir. Bu işlemi *powerbi.com* adresinden gerçekleştirebilir veya bağlantı dizesini Power BI Embedded (Paas) ile programla sorgulayabilirsiniz. Örnek için bkz. [PaaS raporundan DirectQuery bağlantı dizesini ayıklama](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+DirectQuery raporları için bağlantı dizesini güncelleştirmeniz gerekir. Bu işlemi *powerbi.com* adresinden gerçekleştirebilir veya bağlantı dizesini Power BI Embedded’den (PaaS) programla sorgulayabilirsiniz. Örnek için bkz. [PaaS raporundan DirectQuery bağlantı dizesini ayıklama](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
-Ardından veri kümesi bağlantı dizesini Power BI hizmetinden (Saas) güncelleştirebilir ve veri kaynağı kimlik bilgilerini belirleyebilirsiniz. Bunun nasıl yapılacağını görmek için aşağıdaki örneklere bakabilirsiniz.
+Ardından veri kümesi bağlantı dizesini Power BI hizmetinden (SaaS) güncelleştirebilir ve veri kaynağı kimlik bilgilerini belirleyebilirsiniz. Bunun nasıl yapılacağını görmek için aşağıdaki örneklere bakabilirsiniz.
 
 * [SaaS çalışma alanında DirectQuery bağlantı dizesini güncelleştirme](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [SaaS çalışma alanında DirectQuery kimlik bilgilerini ayarlama](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

@@ -1272,6 +1272,8 @@ items:
         href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
       - name: Bir Office 365 iş ortağı ile Power BI ekleme
         href: service-admin-syndication-partner.md
+    - name: Yönetici portalını kullanma
+      href: service-admin-portal.md
     - name: Kiracım nerede bulunur?
       href: service-admin-where-is-my-tenant-located.md
     - name: Oturum açan kullanıcıları bulma
@@ -1307,9 +1309,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 260f8eea522543804fc8b2b56eece82f91894659
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: d7cf2ab01727a120c5bac4b8dbc9e9eb9ccc483a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249310"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325232"

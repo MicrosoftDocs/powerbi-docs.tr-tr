@@ -5,55 +5,49 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 01/24/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 92bd4043e4cfa37bd8f712491ccbc2990dc0b6a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794358"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225995"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 
 Artımlı yenileme, aşağıdaki avantajlarla Power BI Premium hizmetindeki çok büyük veri kümelerini etkinleştirir:
 
-- **Yenileme daha hızlıdır.** Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, 10 yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
+- **Yenilemeler daha hızlıdır** - Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, on yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
 
-- **Yenileme daha güvenilirdir.** Örneğin, geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
+- **Yenilemeler daha güvenilir olur** - Artık geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
 
-- **Kaynak tüketimi azalır.** Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
+- **Kaynak tüketimi azaltılır** - Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
 
-## <a name="how-to-use-incremental-refresh"></a>Artımlı yenilemeyi kullanma
+## <a name="configure-incremental-refresh"></a>Artımlı yenilemeyi yapılandırma
 
 Artımlı yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve Power BI hizmetinde yayımlandıktan sonra uygulanır.
 
-Önizleme özelliklerinde artımlı yenilemeyi etkinleştirerek başlayın.
+Başlangıç olarak **Önizleme özellikleri** altında artımlı yenilemeyi etkinleştirin.
 
 ![Seçenekler - önizleme özellikleri](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Power BI Desktop’ta büyük veri kümelerini filtreleme
 
-Power BI Desktop normalde kullanıcının masaüstü bilgisayarında kullanılabilir olan kaynaklarla sınırlanmış olduğundan, milyarlarca satırdan oluşan büyük veri kümeleri, Power BI Desktop’a sığmayabilir. Bu nedenle genellikle bu tür veri kümeleri, Power BI Desktop’a sığması için içeri aktarmanın ardından filtrelenir. Artımlı yenileme kullanılsa da kullanılmasa da bu durum söz konusudur.
+Milyarlarca satır içerebilecek büyük veri modelleri Power BI Desktop modeline sığmayabilir çünkü PBIX dosyası masaüstü bilgisayarda kullanılabilir olan bellek kaynaklarıyla sınırlanmıştır. Bu nedenle genellikle bu tür veri kümeleri içeri aktarmanın ardından filtrelenir. Bu tür filtreleme artımlı yenileme kullanılıp kullanılmadığına göre uygulanır. Artımlı yenileme için Power Query tarih/saat parametreleri kullanılarak filtrelenir.
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart ve RangeEnd parametreleri
 
-Power BI hizmetinde artımlı yenilemeyi kullanmak için filtrelemenin ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlarıyla Power Query tarih/saat parametreleri kullanılarak yapılması gerekir.
+Artımlı yenileme için veri kümeleri ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlı Power Query tarih/saat parametreleri kullanılarak filtrelenir. Bu parametreler Power BI Desktop’a aktarılan verileri filtrelemek için ve aynı zamanda Power BI hizmetine yayımlandıktan sonra verileri dinamik olarak aralıklara bölmek için kullanılır. Her bölümü filtrelemek için parametre değerleri hizmet tarafından değiştirilir. Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Bunları hizmette veri kümesi ayarları içinde ayarlamak gerekmez. Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. 
 
-Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Hizmetteki veri kümesi ayarlarında bunların ayarlanması gerekmez.
-
-Yenileme işlemleri için sorgu gönderildiğinde filtrenin kaynağa gönderilmesi önemlidir. Filtrelemenin gönderilmesi, veri kaynağının "sorgu katlama" özelliğini desteklemesi gerektiği anlamına gelir. SQL sorgularını destekleyen veri kaynaklarının çoğu sorgu katlamayı da destekler. Düz dosyalar, bloblar, web ve OData akışları genellikle desteklemez. Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğini doğrulamanız önerilir. Veri kaynağı arka ucu tarafından desteklenmediği durumlarda filtre gönderilemez. Böyle durumları karma altyapısı telafi eder ve filtreyi yerel olarak uygular. Bunun için veri kaynağından tam veri kümesinin alınması gerekebilir. Bu da artımlı yenilemenin çok yavaş olmasına neden olabilir ve bu durumda işlem Power BI hizmetinde veya kullanılması durumunda şirket içi veri ağ geçidinde kaynakları tüketebilir.
-
-Filtre, Power BI hizmetindeki verilerini aralıklara bölmek için kullanılır. Filtrelenmiş tarih sütununun güncelleştirilmesini destekleyecek şekilde tasarlanmamıştır. Güncelleştirme, ekleme ve silme olarak (güncelleştirme değil) yorumlanır. Artımlı aralıkta değil geçmiş aralıkta gerçekleştirilen silme işlemleri seçilmez. Bu durum bölüm anahtarı çakışmaları nedeniyle veri yenileme hatalarına neden olabilir.
-
-Power Query Düzenleyicisi’nde **Parametreleri Yönet**’i seçerek varsayılan değerlerle parametreleri tanımlayın.
+Parametreleri varsayılan değerlerle tanımlamak için, Power Query Düzenleyicisi’nde **Parametreleri Yönet**’i seçin.
 
 ![Parametreleri yönet](media/service-premium-incremental-refresh/manage-parameters.png)
 
-Parametreler tanımlanmış şekilde, bir sütun için **Özel Filtre** menü seçeneğini belirleyerek filtreyi uygulayabilirsiniz.
+Parametreler tanımlandığında, bir sütun için **Özel Filtre** menü seçeneğini belirterek filtreyi uygulayabilirsiniz.
 
 ![Özel filtre](media/service-premium-incremental-refresh/custom-filter.png)
 
@@ -62,11 +56,23 @@ Sütun değerinin **RangeStart** değerinden *sonra veya eşit* olduğu ve **Ran
 ![Satırları filtreleme](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!TIP]
-> Parametrelerin veri türünün tarih/saat olması gerekse de parametreler, veri kaynağının gereksinimleriyle eşleşecek şekilde dönüştürülebilir. Örneğin, aşağıdaki Power Query işlevi bir tarih/saat değerini, veri ambarları için ortak olan *yyyyaagg* biçimindeki bir tamsayı vekil anahtarına benzeyecek şekilde dönüştürür. İşlev, filtre adımı tarafından çağrılabilir.
+> Parametrelerin veri türünün tarih/saat olması gerekse de, parametreler veri kaynağının gereksinimleriyle eşleşecek şekilde dönüştürülebilir. Örneğin, aşağıdaki Power Query işlevi bir tarih/saat değerini, veri ambarları için ortak olan *yyyyaagg* biçimindeki bir tamsayı vekil anahtarına benzeyecek şekilde dönüştürür. İşlev, filtre adımı tarafından çağrılabilir.
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Power Query Düzenleyicisi’nden **Kapat ve Uygula**’yı seçin. Power BI Desktop’ta veri kümesinin bir alt kümesi bulunmalıdır.
+
+#### <a name="filter-date-column-updates"></a>Tarihi sütunu filtre güncelleştirmeleri
+
+Tarih sütunundaki filtre Power BI hizmetinde verileri dinamik olarak aralıklara bölmek için kullanılır. Artımlı yenileme, filtrelenmiş tarih sütununun kaynak sistemde güncelleştirildiği durumları destekleyecek şekilde tasarlanmamıştır. Güncelleştirme, gerçek bir güncelleştirme olarak değil ekleme ve silme olarak yorumlanır. Artımlı aralıkta değil geçmiş aralıkta gerçekleştirilen silme işlemleri seçilmez. Bu durum bölüm anahtarı çakışmaları nedeniyle veri yenileme hatalarına neden olabilir.
+
+#### <a name="query-folding"></a>Sorgu katlama
+
+Yenileme işlemleri için sorgu gönderildiğinde bölüm filtresinin kaynağa gönderilmesi önemlidir. Filtrelemenin gönderilmesi, veri kaynağının sorgu katlama özelliğini desteklemesi gerektiği anlamına gelir. SQL sorgularını destekleyen veri kaynaklarının çoğu sorgu katlamayı da destekler. Öte yandan düz dosyalar, bloblar, web ve OData akışları genellikle desteklemez. Filtrenin veri kaynağı arka ucu tarafından desteklenmediği durumlarda filtre gönderilemez. Böyle durumları karma altyapısı telafi eder ve filtreyi yerel olarak uygular. Bunun için veri kaynağından tam veri kümesinin alınması gerekebilir. Bu da artımlı yenilemenin çok yavaş olmasına neden olabilir ve bu durumda işlem Power BI hizmetinde veya kullanılması durumunda şirket içi veri ağ geçidinde kaynakları tüketebilir.
+
+Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğinden emin olmak için bunu doğrulamanız önerilir. Bunu kolaylaştırmak için Power BI Desktop bu doğrulamayı sizin yerinize gerçekleştirmeyi dener. Doğrulanamazsa, artımlı yenileme ilkesi tanımlanırken artımlı yenileme iletişim kutusunda bir uyarı görüntülenir. SQL, Oracle ve Teradata gibi SQL tabanlı veri kaynakları bu uyarıya güvenebilir. Diğer veri kaynakları sorguları izlemeden doğrulama yapamayabilir. Power BI Desktop onaylayamazsa aşağıdaki uyarı görüntülenir.
+
+ ![Sorgu katlama](media/service-premium-incremental-refresh/query-folding.png)
 
 ### <a name="define-the-refresh-policy"></a>Yenileme ilkesini tanımlama
 
@@ -85,17 +91,17 @@ Artımlı yenileme iletişim kutusu görüntülenir. İletişim durumunu etkinle
 
 Üst bilgi metni aşağıdakileri açıklar:
 
-- Artımlı yenileme yalnızca Premium kapasitede çalışma alanları için desteklenir. Yenileme ilkeleri, Power BI Desktop’ta tanımlanır; hizmetteki yenileme işlemleri tarafından uygulanır.
+- Artımlı yenileme yalnızca Premium kapasitelerdeki çalışma alanları için desteklenir. Yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve hizmetteki yenileme işlemleri tarafından uygulanır.
 
-- Power BI hizmetinden artımlı yenileme ilkesi içeren PBIX dosyasını indiremiyorsanız bu dosya Power BI Desktop’ta açılmaz. Daha sonra hiç indiremezsiniz. Bu, gelecekte desteklenebilse de, bu veri kümelerinin çok büyüyeceğini ve tipik bir masaüstü bilgisayarda indirilip açılmasının elverişsiz hale gelebileceğini unutmayın.
+- Power BI hizmetinden artımlı yenileme ilkesini içeren PBIX dosyasını indiremezseniz, bu dosya Power BI Desktop’ta açılamaz. Bu gelecekte desteklenebilse de, söz konusu veri kümelerinin çok büyüyeceğini ve tipik bir masaüstü bilgisayarda indirilip açılmasının elverişsiz hale gelebileceğini unutmayın.
 
 #### <a name="refresh-ranges"></a>Yenileme aralıkları
 
-Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tarihe kadar mevcut yılın verilerini depolayacak ve 10 günlük verileri artımlı olarak yenileyecek bir yenileme ilkesi tanımlanmaktadır. Birinci yenileme işlemi, geçmiş verileri yükleyecektir. Sonraki yenileme işlemleri artımlı olacak ve (günlük çalışacak şekilde zamanlanmışsa) aşağıdaki işlemleri gerçekleştirecektir.
+Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tarihe kadar mevcut yılın verilerini depolayacak ve on günlük verileri artımlı olarak yenileyecek bir yenileme ilkesi tanımlanır. Birinci yenileme işlemi, geçmiş verileri yükler. Sonraki yenileme işlemleri artımlı olur ve (günlük olarak çalışacak şekilde zamanlanmışsa) aşağıdaki işlemleri gerçekleştirir:
 
 - Veriler için yeni bir gün ekleme.
 
-- Güncel tarihe kadarki 10 günü yenileme.
+- Güncel tarihe kadarki on günü yenileme.
 
 - Güncel tarihten beş yıl öncesinden daha eski zamana ait takvim yıllarını kaldırma. Örneğin, güncel tarih 1 Ocak 2019 ise, 2013 yılı kaldırılır.
 
@@ -103,13 +109,14 @@ Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri a
 
 ![Yenileme aralıkları](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-**Bu aralıkların tanımı tüm ihtiyaçlarınıza yanıt verebilir; bu durumda doğrudan aşağıdaki yayımlama adımına gidebilirsiniz. Ek açılır pencereler, gelişmiş özellikler içindir.**
+> [!NOTE]
+> Bu aralıkların tanımı tüm ihtiyaçlarınıza yanıt verebilir; bu durumda doğrudan aşağıdaki yayımlama adımına gidebilirsiniz. Ek açılır pencereler, gelişmiş özellikler içindir.
 
 ### <a name="advanced-policy-options"></a>Gelişmiş ilke seçenekleri
 
 #### <a name="detect-data-changes"></a>Veri değişikliklerini algılama
 
-10 günlük artımlı yenileme, beş yıllık tam yenilemeden çok daha verimlidir. Ancak bunu daha da iyi yapabiliriz. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. **Bu sütun, RangeStart/RangeEnd parametreleriyle verileri bölmek için kullanılan sütun olmamalıdır.** Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını 10’dan 2’ye de düşürebilir.
+On günlük artımlı yenileme, beş yılın tam yenilemesini yapmaktan çok daha verimlidir. Öte yandan bunu daha da iyi hale getirmek mümkündür. **Veri değişikliklerini algıla** onay kutusunu seçerseniz, yalnızca verilerin değiştiği günleri belirleyip o günleri yenilemek için kullanılan bir tarih/saat sütunu seçebilirsiniz. Bu, genellikle denetim amacıyla, kaynak sistemde bir sütunun var olduğunu varsayar. **Bu sütun, RangeStart/RangeEnd parametreleriyle verileri bölmek için kullanılan sütun olmamalıdır.** Artımlı aralıktaki dönemlerin her biri için bu sütunun maksimum değeri değerlendirilir. Son yenilemeden bu yana değişmemişse dönemin yenilenmesi gerekmez. Örnekte bu, artımlı olarak yenilenen gün sayısını ondan ikiye kadar düşürebilir.
 
 ![Değişiklikleri algılama](media/service-premium-incremental-refresh/detect-changes.png)
 

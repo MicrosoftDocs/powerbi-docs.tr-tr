@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 545e8f874cca18167ee260daa92eec3ef1c3e925
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291499"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223962"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -81,7 +81,7 @@ Daha sonra **Sayfa** açılan menüsünde, seçilen görsel için kullanmak iste
 
 ![El ile araç ipucu için bir araç ipucu sayfası seçme](media/desktop-tooltips/desktop-tooltips_10.png)
 
-El ile araç ipucu ayarlayabilme işlevinin birçok kullanımı vardır. Bir araç ipucu için boş bir sayfa ayarlayabilir, böylece varsayılan Power BI araç ipucu seçimini geçersiz kılabilirsiniz. Power BI tarafından otomatik olarak seçilen araç ipucunun, araç ipucu olmasını istememeniz durumunda da bu işlevden yararlanabilirsiniz. Örneğin, iki alan içeren bir görseliniz varsa ve bu alanların her ikisinde de ilişkili bir araç ipucu bulunuyorsa Power BI, gösterilmesi için yalnızca birini seçer. Bunun olmasını istemediğiniz durumlarda, görüntülenmesi gereken araç ipucunu el ile seçebilirsiniz.
+El ile araç ipucu ayarlayabilme işlevinin birçok kullanımı vardır. Bir araç ipucu için boş bir sayfa ayarlayabilir, böylece varsayılan Power BI araç ipucu seçimini geçersiz kılabilirsiniz. Power BI tarafından otomatik olarak seçilen araç ipucunun, araç ipucu olmasını istememeniz durumunda da bu işlevden yararlanabilirsiniz. Örneğin, iki alan içeren bir görseliniz varsa ve bu alanların her ikisinde de ilişkili bir araç ipucu bulunuyorsa, Power BI yalnızca birini seçip görüntüler. Bunun olmasını istemediğiniz durumlarda, görüntülenmesi gereken araç ipucunu el ile seçebilirsiniz.
 
 ## <a name="reverting-to-default-tooltips"></a>Varsayılan araç ipuçlarına geri alma
 

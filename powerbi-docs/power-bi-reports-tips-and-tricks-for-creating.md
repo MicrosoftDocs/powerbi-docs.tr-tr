@@ -1,7 +1,7 @@
 ---
 title: Etkileyici raporlar oluşturmaya ilişkin ipuçları
 description: Power BI hizmetinde ve Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290510"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223824"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop ve Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop, Power BI hizmeti *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik.
@@ -145,7 +145,7 @@ Böyle bir durumda ilişki oluşturmak için iki veri kümesindeki tüm Customer
 4. **CustomerNames** sorgusunda şeritteki **Ekle**'yi ve ardından **Temp** sorgusunu seçin.
 5. **CustomerNames** sorgusunda **Yinelenenleri Kaldır**'ı seçin.
 
-Artık CustomerIndicents ve WorkItems arasında ilişki kurmak için kullanabileceğiniz ve ikisindeki değerleri de içeren bir boyut tablonuz var.  
+Artık CustomerIncidents ve WorkItems arasında ilişki kurmak için kullanabileceğiniz ve ikisindeki değerleri de içeren bir boyut tablonuz vardır.  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Sorgu Düzenleyicisi'ne hızlı bir giriş yapmak için kullanabileceğiniz desenler
 Sorgu Düzenleyicisi, verileri şekillendirip temizleyerek görselleştirmeye veya modellemeye uygun hale getiren oldukça güçlü bir araçtır. Bilmeniz gereken birkaç desen vardır.

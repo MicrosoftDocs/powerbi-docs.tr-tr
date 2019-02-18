@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287014"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223318"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 Bu eğitimde görsellerinizin x eksenini ve y eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerde eksenler bulunmaz ve tüm görseller özelleştirilemez; örneğin Pasta grafiklerde eksen bulunmaz. Özelleştirme seçenekleri görsellere göre farklılık gösterir. Tek bir makalede ele alınamayacak kadar çok seçenek vardır. Bu nedenle en sık kullanılan bazı eksenlere ilişkin özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel biçimlendirme sekmesini rahatlıkla kullanmanızı sağlayacağız.  
@@ -70,7 +70,7 @@ Power BI hizmetinde oturum açın ve **Retail Analysis Sample** raporunu [Düzen
 3. Y Ekseni **Konumunu** sağ olarak ayarlayın.
 4. Metin rengini, boyutunu ve yazı tipini biçimlendirin. Bu örnekte **Renk** için siyah, **Metin Boyutu** için 14 ve **Yazı Tipi** için Arial Black seçeneğini belirledik.  
 5. **Görüntüleme birimleri** seçeneğini Milyon olarak ve **Değer ondalık basamakları** seçeneğini sıfır olarak bırakın.
-6. Bu görselleştirme için Y ekseni başlığının görüntülenmesi görseli geliştirmediğinden **Başlık** seçeneğini Kapalı olarak bırakın.  
+6. Bu görselleştirme için Y ekseni başlığının görüntülenmesi görseli geliştirmediğinden, **Başlık** seçeneğini Kapalı olarak bırakın.  
 7. **Renk** seçeneğini koyu gri olarak değiştirerek ve **Darbe genişliği** değerini 2'ye artırarak kılavuz çizgilerini belirginleştirin.
 
     Bu özelleştirmelerin ardından sütun grafiğiniz aşağıdakine benzer şekilde görünür:
@@ -136,7 +136,7 @@ X ekseni rapor sahibi tarafından tarih türü olarak kategorize edilirse **Tür
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi
 
-[B](power-bi-visualization-customize-title-background-and-legend.md)[aşlıkları, arka planları ve açıklamaları özelleştirme](power-bi-visualization-customize-title-background-and-legend.md)
+[Başlıkları, arka planları ve açıklamaları özelleştirme](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Renkleri ve eksen özelliklerini özelleştirme](service-getting-started-with-color-formatting-and-axis-properties.md)
 

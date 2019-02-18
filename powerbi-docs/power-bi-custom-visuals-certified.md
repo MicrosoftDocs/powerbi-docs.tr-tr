@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430430"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216367"
 ---
 # <a name="certified-custom-visuals"></a>Sertifikalı özel görseller
 
@@ -45,7 +45,7 @@ Microsoft kendi takdirine bağlı olarak, bir görseli [sertifikalı listesinden
 
 * Microsoft AppSource onaylı. Özel görselinizin [marketimizde](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunması gerekir.
 * Özel görsel, API 1.2 veya sonraki bir sürümle yazılmıştır.
-* Power BI ekibinin inceleyebileceği kod deposu (örneğin, GitHub üzerinden kullanabileceğimiz, insanlar tarafından okunabilir biçimde olan kaynak kod (JavaSCriptS veya TypeScript)).
+* Power BI ekibinin inceleyebileceği kod deposu (örneğin, GitHub üzerinden kullanabileceğimiz, insanlar tarafından okunabilir biçimde olan kaynak kod (JavaScript veya TypeScript)).
 
     >[!Note]
     > Kodunuzu Github'da genel paylaşıma açmanız gerekmez.

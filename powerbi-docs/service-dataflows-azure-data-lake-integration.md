@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296789"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215620"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
 
@@ -65,7 +65,7 @@ Power BI dosya sistemi içinde CDM klasörleri oluşturmak ve yönetmek için, d
 
 Active Directory OAuth Bearer belirteçleri ve POSIX ACL’leri sayesinde CDM klasörlerinin, verileri okuması gereken kullanıcılar veya hizmetler gibi veri tüketicileriyle paylaşılması kolaylaştırılmıştır. Böylece yöneticilerin CDM klasörüne kimin eriştiğini izleyebilmesi sağlanır. Gereken tek işlem, istediğiniz Active Directory nesnesine (örn. bir kullanıcı grubu veya hizmet) CDM Klasörüne erişme izni vermektir. Veri üreticisi dışındaki tüm kimlikler için CDM klasörüne yönelik tüm erişim izinlerinin salt okunur erişim izni olarak verilmesini öneririz. Böylece, üreticinin oluşturduğu verilerin bütünlüğü korunur.
 
-Power BI’a CDM klasörleri eklemek için, CDM Klasörünü ekleyen kullanıcının hem CDM klasörü üzerinde hem de onun içindeki tüm dosyalar ve klasörler üzerinde *Okuma* Erişimi ACL’lerine sahip olması gerekir. Ayrıca, hem CDM klasörü üzerinde hem de onun içindeki tüm klasörler üzerinde *Yürütme* Erişimi ACL’leri de gerekir. Daha fazla bilgi için hem [Dosyalarda ve dizinde erişim denetim listeleri](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) hem de [Azure Data Lake Storage 2. Nesil kullanımına yönelik en iyi uygulamalar](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) makalesini gözden geçirmeniz önerilir.
+Power BI’a CDM klasörleri eklemek için, CDM Klasörünü ekleyen kullanıcının hem CDM klasörü üzerinde hem de onun içindeki tüm dosyalar ve klasörler üzerinde *Okuma* Erişimi ACL’lerine sahip olması gerekir. Ayrıca, hem CDM klasörü üzerinde hem de onun içindeki tüm klasörler üzerinde *Yürütme* Erişimi ACL’leri de gerekir. Daha fazla bilgi için hem [Dosyalarda ve dizinde erişim denetim listeleri](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) hem de [Azure Data Lake Storage 2. Nesil kullanımına yönelik en iyi yöntemler](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) makalesini gözden geçirmeniz önerilir.
 
 
 ### <a name="alternative-forms-of-authorization"></a>Alternatif yetkilendirme biçimleri

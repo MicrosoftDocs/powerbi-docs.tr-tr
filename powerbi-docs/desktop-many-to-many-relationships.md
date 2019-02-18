@@ -1,53 +1,43 @@
 ---
-title: Power BI Desktop’ta çok-çok ilişkiler (önizleme)
-description: Power BI Desktop’ta çoka çok ilişkileri (Önizleme) kullanma
+title: Power BI Desktop’ta çoka çok ilişkileri
+description: Power BI Desktop’ta çoka çok kardinalitesine sahip ilişkileri kullanın
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291085"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225972"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop’ta çok-çok ilişkiler (önizleme)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop’ta çoka çok kardinalitesine sahip ilişkiler
 
-Power BI Desktop'daki *çok-çok ilişkiler* özelliğiyle *Çok-Çok* kardinalitesini kullanan tabloları birleştirebilirsiniz. Kolayca ve sezgisel bir şekilde iki veya daha fazla veri kaynağı içeren veri modelleri oluşturabilirsiniz. *Çok-çok ilişkisi* özelliği, Power BI Desktop'taki daha kapsamlı *bileşik modeller* özelliğinin bir parçasıdır.
+Power BI Desktop'daki *çoka çok kardinalitesine sahip ilişkiler* özelliğiyle *Çoka Çok* kardinalitesini kullanan tabloları birleştirebilirsiniz. Kolayca ve sezgisel bir şekilde iki veya daha fazla veri kaynağı içeren veri modelleri oluşturabilirsiniz. *Çoka çok kardinalitesine sahip ilişkiler* özelliği, Power BI Desktop'taki daha kapsamlı *bileşik modeller* özelliğinin bir parçasıdır.
 
 !["İlişkiyi düzenle" bölmesindeki bir çok-çok ilişkisi](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Power BI Desktop'taki *çok-çok ilişkileri* özelliği, birbiriyle ilişkili üç özelliğin koleksiyonudur:
+Power BI Desktop'taki *çoka çok kardinalitesine sahip ilişkiler* özelliği, birbiriyle ilişkili üç özellikten biridir:
 
 * **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md).
 
-* **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Bu özellik bu makalede ayrıntılı olarak açıklanmaktadır.
+* **Çoka çok kardinalitesine sahip ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka çok kardinalitesine sahip ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Bu özellik bu makalede ayrıntılı olarak açıklanmaktadır.
 
-* **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (Önizleme)](desktop-storage-mode.md).
+* **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md).
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>*Çok-çok ilişkiler* önizleme özelliğini etkinleştirme
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>*Çoka çok kardinalitesine sahip ilişkiler* neye çözüm getirir?
 
-*Çok-çok ilişkiler* özelliğinin Power BI Desktop'ta etkinleştirilmesi gerekir. Bileşik modelleri etkinleştirmek için, **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**’ni seçin ve ardından **Bileşik Modeller** onay kutusunu işaretleyin.
+*Çoka çok kardinalitesine sahip ilişkiler* özelliği kullanıma sunulmadan önce iki tablo arasındaki ilişki Power BI’da tanımlanıyordu. İlişkideki tablo sütunlarından en az birinde benzersiz değerlerin bulunması şarttı. Ancak genellikle benzersiz değer içeren sütun bulunmuyordu. 
 
-!["Önizleme özellikleri" bölmesi](media/desktop-composite-models/composite-models_02.png)
+Örneğin, iki tabloda da *Ülke* etiketine sahip bir sütun bulunabiliyor ama *Ülke* değerleri iki tabloda da benzersiz olmuyordu. Bu tabloları birleştirmek için geçici bir çözüme ihtiyaç duyuluyordu. Geçici çözümlerin biri, modele gerekli benzersiz değerlerin bulunduğu ek tablolar eklemekti. *Çoka çok kardinalitesine sahip ilişkiler* özelliği sayesinde bu tür tabloları **Çoka Çok** kardinalitesine sahip bir ilişki kullanarak doğrudan birleştirebilirsiniz.  
 
-Özelliği etkinleştirmek için Power BI Desktop'ı yeniden başlatmanız gerekir.
-
-!["Özellik yeniden başlatma gerektirmektedir" penceresi](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>*Çok-çok ilişkileri* nelere çözüm getirir?
-
-*Çok-çok ilişkileri* özelliği kullanıma sunulmadan önce Power BI'da iki tablo arasındaki ilişkinin tanımlanması gerekiyordu. İlişkideki tablo sütunlarından en az birinde benzersiz değerlerin bulunması şarttı. Ancak genellikle benzersiz değer içeren sütun bulunmuyordu. 
-
-Örneğin, iki tabloda da *Ülke* etiketine sahip bir sütun bulunabiliyor ama *Ülke* değerleri iki tabloda da benzersiz olmuyordu. Bu tabloları birleştirmek için geçici bir çözüme ihtiyaç duyuluyordu. Geçici çözümlerin biri, modele gerekli benzersiz değerlerin bulunduğu ek tablolar eklemekti. *Çok-çok ilişkiler* özelliği sayesinde bu tür tabloları **Çok-Çok** kardinalitesine sahip bir ilişki kullanarak doğrudan birleştirmeniz mümkün.  
-
-## <a name="use-many-to-many-relationships"></a>*Çok-çok ilişkileri* kullanma
+## <a name="use-relationships-with-a-many-many-cardinality"></a>*Çoka çok kardinalitesine sahip ilişkileri* kullanma
 
 Power BI'da iki tablo arasındaki ilişkiyi tanımlarken, ilişkinin kardinalitesini tanımlamanız gerekir. Örneğin *ProductSales* ve *Product* arasında *ProductSales[ProductCode]* ve *Product[ProductCode]* sütunları kullanılarak kurulan ilişkinin kardinalitesi *Çok-1* olacaktır. Her ürün için birden fazla satış olduğundan ve *Product* tablosundaki *(ProductCode)* sütunu benzersiz olduğundan ilişki bu şekilde tanımlanır. Bir ilişkinin kardinalitesini *Çok-1*, *1-Çok* veya *1-1* olarak tanımladığınızda Power BI doğrulama gerçekleştirerek seçtiğiniz kardinalitenin gerçek verilerle eşleştiğinden emin olmanızı sağlar.
 
@@ -117,14 +107,11 @@ Bu geçici çözümde yeni *Sales* tablosunu tüm *States* değerlerinin birleş
 
 ![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Gördüğünüz gibi *Sales* verileri bilinen ancak *Population* verileri bilinmeyen *TX* ve *Population* verileri bilinen ancak *Sales* verileri bilinmeyen *New York* dahil edilecektir. Bu geçici çözüm çok uygun bir çözüm değildir ve birçok sorun barındırmaktadır. Çok-çok ilişkilerin oluşturulmasıyla, aşağıdaki bölümde açıklandığı gibi bu sorunlara çözüm getirilmiştir.
+Gördüğünüz gibi *Sales* verileri bilinen ancak *Population* verileri bilinmeyen *TX* ve *Population* verileri bilinen ancak *Sales* verileri bilinmeyen *New York* dahil edilecektir. Bu geçici çözüm çok uygun bir çözüm değildir ve birçok sorun barındırmaktadır. Çoka çok kardinalitesiyle ilişkiler oluşturulduğunda, aşağıdaki bölümde açıklandığı gibi bu sorunlara çözüm getirilmiştir.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Geçici çözüm yerine *çok-çok ilişkilerini* kullanma
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>Geçici çözüm yerine *çoka çok kardinalitesine sahip ilişkileri* kullanın
 
 Power BI Desktop'ın Temmuz 2018 sürümünden başlayarak yukarıda bahsedilenler gibi tabloları benzer geçici çözümler aramadan doğrudan birbirine bağlayabilirsiniz. Artık ilişki kardinalitesini *Çok-Çok* olarak ayarlamak mümkündür. Bu ayar, iki tabloda da benzersiz değerler olmadığını belirtir. Bu tür ilişkiler için, hangi tablonun diğer tabloyu filtrelediğini denetleyebilir veya her iki tablo da birbirini filtrelediğinde iki yönlü filtreleme olmasını sağlayabilirsiniz.  
-
-> [!NOTE]
-> *Çok-çok ilişki* oluşturma özelliği önizleme aşamasındadır. Önizleme aşamasında *çok-çok ilişkilerini* kullanan Power BI hizmeti modellerini yayımlamak mümkün değildir. 
 
 *Power BI Desktop*'ta, hiçbir tablonun ilişkideki sütunlar için benzersiz değerler içermediği saptandığında kardinalite varsayılan olarak Çok-Çok olarak ayarlanır. Bu tür durumlarda ilişki ayarının beklediğiniz davranışa uyduğunu, veri sorununa yol açan beklenmedik bir etkisi olmadığını onaylamak için bir uyarı görüntülenir. 
 
@@ -136,7 +123,7 @@ Sonuçta elde edilen **İlişki** görünümü, iki tablo arasında doğrudan ç
 
 ![Tablo görseli](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Dolayısıyla *çok-çok ilişkileri* ile daha tipik olan *Çok-1* ilişkileri arasındaki en büyük farklar şunlardır:
+*Çoka çok kardinalite ilişkileri* ile daha tipik olan *Çoka bir* ilişkileri arasındaki en Önemli farklar şunlardır:
 
 * Gösterilen değerlerde diğer tablodaki eşleşmeyen satırları gösteren boş satır bulunmaz. Değerler, ilişkideki diğer tabloda kullanılan sütunlarda null değerler bulunan satırları dikkate almaz.
 * Birden fazla satır arasında ilişki bulunabileceğinden `RELATED()` işlevi kullanılamaz.
@@ -153,7 +140,7 @@ Yukarıda anlatılan farklılıkları göz önünde bulundurarak *genel toplamı
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-*Çok-çok ilişkileri* ile bileşik modellerin bu sürümünde birkaç sınırlama vardır.
+*Çoka çok kardinaliteye sahip ilişkiler* ile bileşik modellerin bu sürümünde birkaç sınırlama vardır.
 
 Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanılamaz:
 
@@ -165,7 +152,7 @@ Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanıl
 
 Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda, başka bir DirectQuery kaynağına bağlanamaz veya içeri aktarılan verilerle birleştiremezsiniz.
 
-DirectQuery kullanımının mevcut sınırlamaları *çok-çok ilişkilerini* kullanırken de geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun depolama moduna bağlı olarak tablo başına uygulanır. Örneğin, içeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütun yine aynı tablodaki sütunlara başvurabilir. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin depolama modu DirectQuery olduğunda, modelde QuickInsights ve Soru ve Yanıt özellikleri kullanılamaz. 
+*Çoka çok kardinalitesine sahip ilişkileri* kullanırken DirectQuery’yi kullanmakla ilgili mevcut sınırlamalar yine geçerlidir. Bu sınırlamaların birçoğu şimdi tablonun depolama moduna bağlı olarak tablo başına uygulanır. Örneğin, içeri aktarılan tablodaki hesaplanan sütun başka tablolara başvurabilir ama DirectQuery tablosundaki hesaplanan sütun yine aynı tablodaki sütunlara başvurabilir. Model içindeki tablolardan herhangi biri DirectQuery ise, diğer sınırlamalar modelin tamamına uygulanır. Örneğin, modelin içindeki tablolardan herhangi birinin depolama modu DirectQuery olduğunda, modelde QuickInsights ve Soru ve Yanıt özellikleri kullanılamaz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

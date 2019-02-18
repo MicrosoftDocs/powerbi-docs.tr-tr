@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282368"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216597"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI’daki görselleştirmelerde ayrıntı modu
 
@@ -112,9 +112,9 @@ Bu yöntemde görselleştirmenin sağ üst köşesinde görünen detaya gitme si
 
 2. **TN** için *yaprak* öğesini seçin. Ağaç haritanızda şimdi Tennessee’de bulunan ve bir mağaza olan tüm şehirler gösterilir. 
 
-    ![ağaç haritası yalnızca Tennesee için verileri gösteriyor](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![ağaç haritası yalnızca Tennessee için verileri gösteriyor](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. Bu noktada Tennesee için detaya gitmeye devam edebilir veya belirli bir Tennesee şehri için detaya gidebilir ya da bunun yerine genişletebilirsiniz (aşağıdaki **Aynı anda tüm alanları genişletme** bölümüne bakın). Aynı anda tek bir alanda detaya gitme konusuna devam edelim.  **Knoxville, TN** öğesini seçin. Ağaç haritanız şimdi Knoxville’deki mağazanızın posta kodunu gösterir. 
+2. Bu noktada Tennessee için detaya gitmeye devam edebilir veya belirli bir Tennessee şehri için detaya gidebilir ya da bunun yerine genişletebilirsiniz (aşağıdaki **Aynı anda tüm alanları genişletme** bölümüne bakın). Aynı anda tek bir alanda detaya gitme konusuna devam edelim.  **Knoxville, TN** öğesini seçin. Ağaç haritanız şimdi Knoxville’deki mağazanızın posta kodunu gösterir. 
 
    ![ağaç haritası 37919 değerini gösteriyor](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,18 +127,18 @@ Yalnızca posta kodu gösteren bir ağaç haritası pek bilgi vermez.  Bu nedenl
 
     ![posta kodu ve mağaza adı gösteriliyor](./media/end-user-drill/power-bi-expand1.png)
 
-2. Tennesee’nin dört hiyerarşi düzeyinin tamamını görmek için ikinci düzeye ulaşana kadar ağaç haritanızın detaydan çıkma okunu seçin (**Bölge ve şehre göre bu yılki toplam birim sayısı**). 
+2. Tennessee’nin dört hiyerarşi düzeyinin tamamını görmek için ikinci düzeye ulaşana kadar ağaç haritanızın detaydan çıkma okunu seçin (**Bölge ve şehre göre bu yılki toplam birim sayısı**). 
 
-    ![Tennesee için tüm verileri gösteren ağaç haritası](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Tennessee için tüm verileri gösteren ağaç haritası](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Detaya gitme seçeneğinin hala etkin olduğundan ![detaya gitme açık](./media/end-user-drill/power-bi-drill-icon2.png) emin olun ve *aşağıya genişletme* simgesini ![aşağıya genişletme simgesi](./media/end-user-drill/power-bi-drill-icon6.png) seçin. Ağaç haritasında şimdi bazı ek ayrıntılar gösterilir; yalnızca şehir ve eyalet yerine posta kodu da gösterilir. 
 
     ![çift detay simgesi](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Ağaç haritanızda Tennesee’nin dört hiyerarşi düzeyinin tamamını görüntülemek için *aşağıya genişletme* simgesini bir kez daha seçin. Daha fazla ayrıntı görmek için bir yaprağın üzerine gelin.
+4. Ağaç haritanızda Tennessee’nin dört hiyerarşi düzeyinin tamamını görüntülemek için *aşağıya genişletme* simgesini bir kez daha seçin. Daha fazla ayrıntı görmek için bir yaprağın üzerine gelin.
 
-   ![Tennesee verilerini gösteren ağaç haritası](./media/end-user-drill/power-bi-expand-all.png)
+   ![Tennessee verilerini gösteren ağaç haritası](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="drilling-filters-other-visuals"></a>Diğer görsel delme filtreleri
 Detay modunda çalışırken detaya gitme ve genişletme özelliklerinin sayfadaki diğer görselleştirmeleri nasıl etkilediğine karar verirsiniz. 

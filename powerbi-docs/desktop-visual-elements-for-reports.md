@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280321"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223272"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Görsel öğeler kullanarak Power BI raporlarını geliştirme
 
@@ -51,7 +51,7 @@ Rapor **sayfası** her zaman ön plandadır (duvar kağıdıyla karşılaştır�
 
 Tüm yeni raporlar için varsayılan ayarlar şöyledir:
 
-* Rapor **sayfası** **beyaz** renge ve saydamlığı da **%100**'e ayarlanır
+* Rapor **sayfası** **beyaz** ve saydamlığı da **%100** olarak ayarlanır
 * **Duvar kağıdı** **beyaz** renge ve saydamlığı da **%0**'a ayarlanır
 
 Sayfa arka planınızı %50'den yüksek bir saydamlığa ayarladığınızda, raporunuzu oluşturur veya düzenlerken size rapor tuvalinin sınırındaki kenarlığı göstermek için noktalı bir kenarlık görüntülenir. 

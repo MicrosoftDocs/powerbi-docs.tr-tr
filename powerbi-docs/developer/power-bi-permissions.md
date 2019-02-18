@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 70883adbc224f568e8a7a3a2843fb419d1c15308
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278997"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215470"
 ---
 # <a name="power-bi-permissions"></a>Power BI izinleri
 
@@ -37,7 +37,7 @@ Power BI izinleri, uygulamaya kullanıcı adına belirli eylemleri gerçekleşti
 | Tüm Kapasiteleri okuma ve yazma |Uygulama oturum açmış olan kullanıcının kapasitelerinin yanı sıra kullanıcının erişimi olan kapasiteleri görüntüleyebilir ve yazabilir. Bu izin yeni kapasite oluşturma hakkı vermez. |Capacities.ReadWrite.All |
 | Tüm kapasiteler okuma |Uygulama oturum açmış olan kullanıcının kapasitelerinin yanı sıra kullanıcının erişimi olan kapasiteleri görüntüleyebilir ve yazabilir. Bu izin yeni kapasite oluşturma hakkı vermez. |Capacities.Read.All |
 | Kiracıdaki tüm içeriği okuma ve yazma |Uygulama, Power BI’daki gruplar, raporlar, panolar ve veri kümeleri gibi tüm yapıları görüntüleyebilir ve bunlara yazabilir. Oturum açmış kullanıcının Power BI hizmet yöneticisi olması şartıyla. |Tenant.ReadWrite.All |
-| Kiracıdaki tüm içeriği görüntüleme |Uygulama, Power BI’daki gruplar, raporlar, panolar ve veri kümeleri gibi tüm yapıları görüntüleyebilir. Oturum açmış kullanıcının Power BI hizmet yöneticisi olması şartıyla. |Tenant.Read.All |
+| Kiracıdaki tüm içeriği görüntüleme |Uygulama, Power BI’daki gruplar, raporlar, panolar ve veri kümeleri gibi tüm yapıtları görüntüleyebilir. Oturum açmış kullanıcının Power BI hizmet yöneticisi olması şartıyla. |Tenant.Read.All |
 
 Uygulama, istenen izinleri çağrının kapsam parametresinde ileterek kullanıcı sayfasında ilk oturum açma girişiminde bulunduğunda izin isteyebilir. İzinler verildiğinde uygulamaya sonraki API çağrılarında kullanılabilecek bir erişim belirteci döndürülür. Erişim yalnızca belirli bir uygulama tarafından kullanılabilir.
 

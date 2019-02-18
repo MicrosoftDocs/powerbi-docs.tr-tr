@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296214"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223778"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Dağıtılmış bir ortam için rapor sunucunuzu, Power BI raporlarında kullanılan veri kaynaklarında Kerberos kimlik doğrulaması gerçekleştirecek şekilde yapılandırmayı öğrenin.
 
-Power BI Rapor Sunucusu, Power BI raporlarını barındırma özelliğine sahiptir. Rapor sunucunuz birçok farklı veri kaynağını desteklemektedir. Bu makalede SQL Server Analysis Services'e odaklanılmış olsa da burada ele alınan kavramları kullanarak SQL Server gibi diğer veri kaynaklarında uygulayabilirsiniz.
+Power BI Rapor Sunucusu, Power BI raporlarını barındırma özelliğine sahiptir. Rapor sunucunuz birçok farklı veri kaynağını desteklemektedir. Bu makale SQL Server Analysis Services'e odaklanmış olsa da, burada ele alınan kavramları kullanarak SQL Server gibi diğer veri kaynaklarında uygulayabilirsiniz.
 
 Power BI Rapor Sunucusu, SQL Server ve Analysis Services sunucularını tek bir makineye yükleyebilirsiniz. Ek yapılandırma gerçekleştirmenize gerek kalmadan her şey düzgün bir şekilde çalıştığını görürsünüz. Bu harika bir test ortamıdır. Bu hizmetlerin ayrı makinelerde yüklü olması halinde (dağıtılmış ortam olarak adlandırılır) hatalarla karşılaşabilirsiniz. Bu ortamda Kerberos kimlik doğrulamasını kullanmanız gerekir. Bunu uygulamak için belirli bir yapılandırma yoktur. 
 
@@ -63,7 +63,7 @@ rsreportserver.config dosyasında **Authentication/AuthenticationTypes** bölüm
 
 RSWindowsNegotiate öğesinin mevcut olduğundan ve kimlik doğrulaması türleri arasında ilk sırada olduğundan emin olun. Liste aşağıdakine benzer olmalıdır.
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

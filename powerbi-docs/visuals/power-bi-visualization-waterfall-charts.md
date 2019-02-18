@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c219a7ac9ce88d3dca9d01a09868835062fe93ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291913"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215056"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 Şelale grafikler, değerler eklenirken veya çıkarılırken değişen toplamı gösterir. Bir başlangıç değerinin (örneğin, net gelir) bir dizi pozitif ve negatif değişiklikten nasıl etkilendiğini anlamak için faydalıdır.
@@ -51,7 +51,7 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
    
     ![sıralama ölçütü: FiscalMonth seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![Yeni artan düzende sıralama sonucu](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![yeni artan düzende sıralama sonucu](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Aydan aya değişikliklere en çok katkıda bulunan öğeleri görmek için biraz daha ayrıntıya inin. **Store** > **Territory** alanını **Kırılım** demetine sürükleyin.
    
     ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281172"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225926"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -77,11 +77,14 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (Beta)
-* BI Bağlayıcısı
+* Dremio
 * Exasol
-* Dremio (Beta)
+* MarkLogic (Beta)
+* AtScale küpleri (Beta)
+* BI Bağlayıcısı
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
@@ -136,8 +139,6 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Google Analytics
 * Adobe Analytics
 * appFigures (Beta)
-* comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (Beta)
 * Data.World - Veri Kümesi Al (Beta)
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Webtrends (Beta)
 * Zendesk (Beta)
 * TeamDesk (Beta)
+* Emigo Data Source (Beta)
+* Microsoft Graph Güvenliği (Beta)
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -164,7 +167,6 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 
 **Diğer** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
-* Vertica
 * Web
 * SharePoint Listesi
 * OData Akışı
@@ -176,8 +178,12 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
+* Workforce Dimensions (Beta)
 * Denado
 * Paxata (Beta)
+* SurveyMonkey (Beta)
+* QubolePresto (Beta)
+* Quick Base (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -190,7 +196,7 @@ Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmekt
 ## <a name="connecting-to-a-data-source"></a>Veri Kaynaklarına Bağlanma
 Bir veri kaynağına bağlanmak için **Veri Al** penceresinde söz konusu veri kaynağını seçin ve ardından **Bağlan** seçeneğini belirleyin. Aşağıdaki görüntüde, **Diğer** veri bağlantısı kategorisinde yer alan **Web** seçeneği belirlenmiştir.
 
-![Web’e bağlanma](media/desktop-data-sources/data-sources_08a.png)
+![Web’e bağlanma](media/desktop-data-sources/data-sources_08.png)
 
 Veri bağlantısının türüne özel bir bağlantı penceresi görüntülenir. Gerekli olması halinde kimlik bilgilerinizi girmeniz istenir. Aşağıdaki görüntüde, bir Web veri kaynağına bağlanmak için girilen bir URL gösterilmektedir.
 

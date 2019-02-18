@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287819"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216712"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
@@ -25,7 +25,7 @@ Karşılaşılan yeni sorunlar bu makaleye eklenerek, size yardımcı olmaya yö
 Bir rapor için yenileme zamanlama sırasında daha yaygın olarak karşılaşabileceğiniz sorunlar aşağıda verilmiştir. 
 
 ### <a name="driver-related-problems"></a>Sürücüyle ilgili sorunlar
-Farklı veri kaynaklarıyla başarılı bir şekilde bağlantı kurabilmek için 3. taraf sürücülere ihtiyaç duyabilirsiniz. Bu sürücüleri yalnızca Power BI Desktop uygulamasını kullandığınız bilgisayara değil rapor sunucusuna da yüklemeniz gerekir.
+Farklı veri kaynaklarıyla başarılı bir şekilde bağlantı kurabilmek için üçüncü taraf sürücülere ihtiyaç duyabilirsiniz. Bu sürücüleri yalnızca Power BI Desktop uygulamasını kullandığınız bilgisayara değil rapor sunucusuna da yüklemeniz gerekir.
 
 Sürücü hem 32 bit hem de 64 bit biçiminde olabilir. Power BI Rapor Sunucusu 64 bit olduğundan yüklenen sürücünün de 64 bit olması gerekir.
 
@@ -60,7 +60,7 @@ Zamanlanmış yenilemeyi etkilemek için aşağıdaki ayarlar kullanılabilir. S
 
 **rsreportserver.config dosyasındaki ayarlar:**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>
