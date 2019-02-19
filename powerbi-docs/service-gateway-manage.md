@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277009"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324877"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI şirket içi ağ geçidini yönetme
 
-[Bir Power BI veri ağ geçidi yükledikten](service-gateway-install.md) sonra, gereksinimlerinize göre bunu yönetebilirsiniz. Bu konuda, şunların nasıl yapılacağını öğrenirsiniz: veri kaynakları ekleme ve kaldırma, ağ geçidini yeniden başlatma ve ağ geçidini geçirme, geri yükleme, devralma ve kaldırma. 
+[Bir Power BI veri ağ geçidi yükledikten](service-gateway-install.md) sonra, gereksinimlerinize göre bunu yönetebilirsiniz. Bu konuda, şunların nasıl yapılacağını öğrenirsiniz: veri kaynakları ekleme ve kaldırma, ağ geçidini yeniden başlatma ve ağ geçidini geçirme, geri yükleme, devralma ve kaldırma.
 
-Power BI hizmetinin **Ağ geçitlerini yönet** alanı üzerinden, yerel bilgisayarınızdaki ağ geçidi uygulamanızdan ve PowerShell betikleri ile ağ geçidini yönetebilirsiniz. Bu makalede Power BI hizmetine odaklanılmaktadır. 
+Power BI hizmetinin **Ağ geçitlerini yönet** alanı üzerinden, yerel bilgisayarınızdaki ağ geçidi uygulamanızdan ve PowerShell betikleri ile ağ geçidini yönetebilirsiniz. Bu makalede Power BI hizmetine odaklanılmaktadır.
 
 Kısa süre önce bir ağ geçidi yüklediyseniz, bundan sonra [bir veri kaynağı eklemeniz](#add-a-data-source), sonra da veri kaynağına erişebilmeleri için [kullanıcı eklemeniz](#add-users-to-a-data-source) önerilir.
 

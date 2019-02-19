@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280574"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324933"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI veri akışları için veri kaynaklarına bağlanma (Önizleme)
 
@@ -76,6 +76,7 @@ Veri akışlarının veri kaynakları, **Veri al** iletişim kutusunun üst kıs
 * SQL Server Veritabanı
 * Sybase Veritabanı
 * Teradata Veritabanı
+* Vertica
 
 **Power BI** kategorisi, veri akışları için aşağıdaki kullanılabilir veri bağlantılarını içerir:
 
@@ -91,6 +92,7 @@ Veri akışlarının veri kaynakları, **Veri al** iletişim kutusunun üst kıs
 
 **Çevrimiçi Hizmetler** kategorisi, veri akışları için aşağıdaki kullanılabilir veri bağlantılarını içerir:
 
+* Amazon Redshift
 * Uygulamalar için Common Data Service
 * Microsoft Exchange Online
 * Salesforce Nesneleri
@@ -154,12 +156,8 @@ Bundan sonra, betiğiniz belirttiğiniz veri kaynağına bağlanır.
 
 Aşağıdaki listede, şu anda M sorgusunu kopyalayıp boş sorguya yapıştırarak kullanabileceğiniz bağlayıcılar gösterilir:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ Aşağıdaki listede, şu anda M sorgusunu kopyalayıp boş sorguya yapıştıra
 * Azure HDInsight (HDFS)
 * Hadoop dosyası HDFS
 * Informix (beta)
-* Vertica
 
 Power BI veri akışlarında veri kaynaklarına bağlanmak için tüm yapmanız gereken bu.
 

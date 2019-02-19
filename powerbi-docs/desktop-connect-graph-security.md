@@ -1,7 +1,7 @@
 ---
 title: Power BI Desktop’ta Microsoft Graph Güvenliği’ne bağlanma
 description: Power BI Desktop’ta kolayca Microsoft Graph Güvenlik API’sine bağlanma
-author: cpopell
+author: preetikr
 manager: kfile
 ms.reviewer: ''
 ms.custom: seojan19
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2019
-ms.author: gepopell
+ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1594935d9dc156b03daff9e4447752bce2c0f06c
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 2187a24820ef8ea3db9fdd1b7a881dc9cfb6393f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086690"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298903"
 ---
 # <a name="connect-to-microsoft-graph-security-in-power-bi-desktop"></a>Power BI Desktop’ta Microsoft Graph Güvenliği’ne bağlanma
 

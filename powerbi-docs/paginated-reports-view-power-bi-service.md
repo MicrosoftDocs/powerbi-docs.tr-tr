@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetinde sayfalandırılmış rapor görüntüleme (Önizleme)
 description: Bu öğreticide, Power BI hizmetinde sayfalandırılmış raporları görüntüleme hakkında bilgi edineceksiniz.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 624ae3c62c4a69886da5a190ac6580e526e50f14
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 99ed2510703aaa442be2ce2ee4b4c7ed7f31e681
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274571"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324703"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor görüntüleme (Önizleme)
 

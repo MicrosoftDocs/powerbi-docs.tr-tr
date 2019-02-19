@@ -1,20 +1,20 @@
 ---
 title: Bir rapor sunucusuna yönelik uzaktan iOS mobil uygulama erişimini yapılandırma
 description: Rapor sunucunuz için uzaktan iOS mobil uygulamaları yapılandırmayı öğrenin.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293592"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324381"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 
@@ -35,10 +35,10 @@ Aşağıdaki tabloda çiftler açıklanmıştır.
 
 |Anahtar  |Tür  |Açıklama  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Dize | Rapor Sunucusu URL'si </br> Http/https ile başlamalıdır |
-| com.microsoft.powerbi.mobile.ServerUsername | Dize | [isteğe bağlı] </br> Sunucuya bağlanmak için kullanılacak kullanıcı adı. </br> Bir tane yoksa, uygulama kullanıcıdan bağlantı için kullanıcı adı girmesini ister.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı] </br> Varsayılan değer “Rapor sunucusu” şeklindedir </br> Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | True varsayılan değerdir </br>“True” olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar. Önceden yapılandırılmış olan sunucular silinir. </br> Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller. </br> “False” olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. </br> Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır. Uygulama, kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
+| com.microsoft.powerbi.mobile.ServerURL | Dize | Rapor Sunucusu URL'si <br> Http/https ile başlamalıdır |
+| com.microsoft.powerbi.mobile.ServerUsername | Dize | [isteğe bağlı] <br> Sunucuya bağlanmak için kullanılacak kullanıcı adı. <br> Bir tane yoksa, uygulama kullanıcıdan bağlantı için kullanıcı adı girmesini ister.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı] <br> Varsayılan değer “Rapor sunucusu” şeklindedir <br> Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | True varsayılan değerdir <br>“True” olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar. Önceden yapılandırılmış olan sunucular silinir. <br> Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller. <br> “False” olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. <br> Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır. Uygulama, kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
 
 Intune kullanarak yapılandırma ilkesini ayarlama örneği aşağıda verilmiştir.
 

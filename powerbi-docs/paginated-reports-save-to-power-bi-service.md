@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 description: Bu öğreticide, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlamayı öğreneceksiniz.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: e1d26271b557c0e2fbd20324ae6fb7630a459b03
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216022"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324727"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 

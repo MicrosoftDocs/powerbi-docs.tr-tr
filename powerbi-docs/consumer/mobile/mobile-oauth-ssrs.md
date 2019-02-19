@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 88d41750ef1cc32a17e1569b7104151e2f2407f1
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285795"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249103"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
@@ -58,7 +58,7 @@ Rapor sunucunuz için doğru Hizmet Asıl Adı'nı (SPN) yapılandırma hakkınd
 ### <a name="enabling-negotiate-authentication"></a>Anlaşma kimlik doğrulamasını etkinleştirme
 Kerberos kimlik doğrulamasını kullanmak üzere bir rapor sunucusunu etkinleştirmek için rapor sunucusunun Kimlik Doğrulaması Türü'nü RSWindowsNegotiate olacak şekilde yapılandırmanız gerekir. Bu, rsreportserver.config dosyasında gerçekleştirilir.
 
-```
+```xml
 <AuthenticationTypes>  
     <RSWindowsNegotiate />  
     <RSWindowsKerberos />  
@@ -161,7 +161,7 @@ Kısıtlanmış temsil yapılandırması gerçekleştirmek için şunları yapma
 ### <a name="add-wap-application"></a>WAP Uygulaması ekleme
 Report Access Management Console'dan (Rapor Erişimi Yönetim Konsolu) uygulama yayımlayabiliyor olsanız da uygulamayı PowerShell aracılığıyla oluşturmak istiyoruz. Uygulama ekleme komutu aşağıdaki gibidir.
 
-```
+```powershell
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
@@ -175,7 +175,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>WAP Uygulaması için Tümleşik Kimlik Doğrulaması ayarlama
 WAP Uygulaması'nı ekledikten sonra BackendServerAuthenticationMode ayarını IntegratedWindowsAuthentication'ı kullanabilecek şekilde yapmanız gerekir. Bunu ayarlamak için WAP Uygulaması'ndan kimlik bilgisini edinmeniz gerekir.
 
-```
+```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
@@ -183,7 +183,7 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 
 BackendServerAuthenticationMode'u ayarlamak için WAP Uygulaması Kimliği'ni kullanarak aşağıdaki komutu çalıştırın.
 
-```
+```powershell
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 

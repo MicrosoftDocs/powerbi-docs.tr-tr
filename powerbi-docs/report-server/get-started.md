@@ -2,20 +2,20 @@
 title: Power BI Rapor Sunucusu nedir?
 description: SQL Server Reporting Services (SSRS) ve Power BI hizmetinin geri kalanı ile uyumunu anlamak için Power BI Rapor Sunucusu’na genel bir bakış elde edin.
 keywords: ''
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: cd3dbc21c094c0db3f8d32d8d976339a1d1061f4
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394820"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325186"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
