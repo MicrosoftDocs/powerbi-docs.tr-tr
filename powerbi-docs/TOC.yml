@@ -310,8 +310,6 @@ items:
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
         href: service-reports-visual-interactions.md
-      - name: Histogramlar
-        href: visuals/service-histograms.md
       - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: X ve Y ekseni özelliklerini özelleştirme
@@ -1309,9 +1307,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d7cf2ab01727a120c5bac4b8dbc9e9eb9ccc483a
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: a4884b701b89ef0d92cacff12b6a75fda56c6e6e
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325232"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426827"
