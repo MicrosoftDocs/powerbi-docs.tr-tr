@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216449"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325052"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -61,7 +61,7 @@ Bir rapor sayfasını yer işaretinde görünmesini istediğiniz şekilde yapıl
 
 **Yer İşaretleri** bölmesindeki yer işaretine tıklayarak yer işaretinizi görüntüleyebilirsiniz. 
 
-Ayrıca her yer işaretinin, filtreler ve dilimleyiciler gibi *veri* özelliklerini, öne çıkanlar ve görünürlüğü gibi *görüntüleme* özelliklerini ve yer işareti eklendiğinde görünür olan sayfayı sunan sayfa değişikliklerini uygulayıp uygulamayacağını seçebilirsiniz. Bu özellikler, görsel türleri değiştirmek için yer işaretlerini kullanırken faydalıdır. Ancak bu durumda, filtrelerin kullanıcılar görsel türleri değiştirdikçe sıfırlanmaması için veri özelliklerini kapatmak isteyebilirsiniz. 
+Ayrıca her yer işaretinin, filtreler ve dilimleyiciler gibi *veri* özelliklerini, öne çıkanlar ve görünürlüğü gibi *görüntüleme* özelliklerini ve yer işareti eklendiğinde görünür olan sayfayı sunan sayfa değişikliklerini uygulayıp uygulamayacağını seçebilirsiniz. Bu özellikler, rapor görünümleriyle görsel seçimleri arasında geçiş yapmak için yer işaretlerini kullanırken faydalıdır. Ancak bu durumda, kullanıcılar görünümler arasında geçiş yaptıkça filtrelerin sıfırlanmaması için veri özelliklerini kapatmak isteyebilirsiniz. 
 
 Bunun gibi değişiklikler yapmak için, bir önceki resimdeki gösterildiği gibi yer işaretinin adının yanında bulunan üç noktayı seçin, ardından *Veriler*, *Görüntü* ve diğer denetimlerin yanındaki onay işaretlerini seçin ya da seçimi kaldırın. 
 

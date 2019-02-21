@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292085"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249356"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve Otomatik Algıla özelliği sizin yerinize bunları yapar. Ancak, bazı durumlarda ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -58,6 +58,8 @@ Daha ayrıntılı bilgi için, bu konuyu ayrıntılı olarak ele alan [blog gön
 **Çok - Tek (\*: 1):** En sık kullanılan varsayılan türdür. Bu, bir tablodaki sütunda bir değerin birden çok örneği olabileceği ve genellikle Arama tablosu olarak bilinen diğer ilişkili tabloda bir değerin yalnızca bir örneği olduğu anlamına gelir.
 
 **Tek - Tek (1:1):** Bu, bir tablodaki sütunda belirli bir değerin yalnızca bir örneği olduğu ve diğer ilişkili tabloda belirli bir değerin yalnızca bir örneği olduğu anlamına gelir.
+
+**Çoka çok ilişkiler**: Bileşik modeller sayesinde tablolar arasında çoka-çok ilişkiler kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha ayrıntılı bilgi için bkz. [Çoka çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Kardinalitenin ne zaman değiştirileceği hakkında daha ayrıntılı bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 

@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333999"
+---
 ## <a name="limitations"></a>Sınırlamalar
 
 Bulut modellerindeki satır düzeyi güvenlik hakkındaki geçerli sınırlamalar burada liste halinde verilmiştir.
@@ -8,7 +21,7 @@ Bulut modellerindeki satır düzeyi güvenlik hakkındaki geçerli sınırlamala
 
 * Yalnızca ETL ve DirectQuery bağlantıları desteklenir. Analysis Services canlı bağlantıları şirket içi modelde işlenir.
 
-* Soru-Cevap ve Cortana için RLS desteği henüz sunulmamaktadır. Tüm modellerde RLS yapılandırıldıysa panolar için Soru-Cevap giriş kutusu görünmez. Bu özellik yol haritasına eklenmiş durumdadır ancak kesin tarih mevcut değildir.
+* Cortana için RLS desteği henüz sunulmamaktadır.
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 

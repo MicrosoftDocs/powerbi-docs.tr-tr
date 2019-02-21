@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086782"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325163"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
 Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, istihdam değişimini (çalışan kaybı) nelerin etkilediğiyle ilgileniyor olabilirsiniz. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
@@ -71,7 +71,7 @@ Ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin ve aşa�
     - Role in Org (Kuruluştaki Rol) 
     - Subscription Type (Abonelik Türü) 
     - Company Size (Şirket Boyutu) 
-    - Theme (Tema)     
+    - Tema     
 4. Olumsuz derecelendirmelerle ilgilendiğimizden, **Rating değerini etkileyenler** açılan listesinde **Low** değerini seçin.  
 
     ![açılan listeden Low değerini seçin](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
@@ -167,11 +167,11 @@ Bu grupta, %74,3 düşük derecelendirme yapmıştır. Ortalama müşterinin dü
  
 Ana etmenler görseli şu anda genel önizleme aşamasındadır ve kullanıcıların bilmesi gereken bazı sınırlamaları vardır. Şu anda kullanılamayan işlevler: 
 - Toplamlardan/ölçülerden oluşan ölçümleri çözümleme 
-- Görseli Power BI Embedded'da kullanma 
-- Görseli Power BI Mobil'de kullanma 
+- Görseli Power BI Embedded’de kullanma
+- Görseli Power BI mobil uygulamalarında kullanma
 - SSL desteği 
 - Doğrudan Sorgu desteği 
-- Canlı Sorgu desteği 
+- Canlı Bağlantı desteği 
  
 **Hiçbir etmen/segment bulunamadığına ilişkin bir hata görüyorum. Bunun nedeni nedir?**  
 
@@ -247,15 +247,16 @@ Bunun ardındaki neden, görselleştirmenin etmenleri bulurken veri noktaların�
 
 **Ana etmenleri nasıl hesaplıyorsunuz?**
 
-AI görselleştirmesi ana etmenleri hesaplamak için arka planda bin lojistik regresyon çalıştırır. Lojistik regresyon, farklı grupları birbiriyle karşılaştıran istatistiksel bir modeldir. Düşük derecelendirmeye neyin yol açtığına bakıyor olsaydık, lojistik regresyon düşük puan veren müşterilerin yüksek puan verenlerden ne açıdan farklı olduğuna bakardı. Birden çok kategorimiz olsaydı (yüksek puan, nötr puan, düşük puan), düşük derecelendirme yapan müşterilerin diğerlerinden ne açıdan farklı olduğuna bakardık (bunlarla yüksek derecelendirme VEYA nötr derecelendirme yapanlar arasındaki fark). 
+AI görselleştirmesi ana etmenleri hesaplamak için [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kullanarak arka planda bir lojistik regresyon çalıştırır. Lojistik regresyon, farklı grupları birbiriyle karşılaştıran istatistiksel bir modeldir. Düşük derecelendirmeye neyin yol açtığına bakıyor olsaydık, lojistik regresyon düşük puan veren müşterilerin yüksek puan verenlerden ne açıdan farklı olduğuna bakardı. Birden çok kategorimiz olsaydı (yüksek puan, nötr puan, düşük puan), düşük derecelendirme yapan müşterilerin diğerlerinden ne açıdan farklı olduğuna bakardık (bunlarla yüksek derecelendirme VEYA nötr derecelendirme yapanlar arasındaki fark). 
  
 Lojistik regresyon verilerdeki desenleri arar; düşük derecelendirme yapan müşterilerin yüksek derecelendirme yapanlardan ne açıdan farklı olduğuna bakar. Örneğin, daha fazla destek bileti olan müşterilerin düşük derecelendirme yapma yüzdesinin destek bileti az olan veya hiç olmayanlardan çok daha yüksek olduğunu bulabilir.
  
 Lojistik regresyon kaç veri noktası olduğunu da göz önünde bulundurur. Örneğin yönetici rolü üstlenen müşteriler nispeten daha fazla olumsuz puan veriyorsa ama çok az yönetici varsa, bu bir etmen olarak göz önüne alınmaz. Çünkü bir desen çıkarmaya yetecek kadar veri noktası yoktur. Bir faktörün etmen olarak kabul edilip edilmeyeceğini saptamak için bir istatistik testi (Wald testi) kullanılır. Görsel, eşiği belirlemek için 0,05 p-değeri kullanır. 
- 
+
+
 **Segmentleri nasıl hesaplıyorsunuz?**
 
-AI Görselleştirmesi ilginç alt grupları bulmak için arka planda bir karar ağacı çalıştırır. Karar ağacının amacı ilgilendiğimiz ölçümde görece çok veri noktasından oluşan bir alt grup bulmaktır (örneğin, düşük derecelendirme yapan müşteriler). 
+AI Görselleştirmesi ilginç alt grupları bulmak için [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kullanarak arka planda bir karar ağacı çalıştırır. Karar ağacının amacı ilgilendiğimiz ölçümde görece çok veri noktasından oluşan bir alt grup bulmaktır (örneğin, düşük derecelendirme yapan müşteriler). 
 
 Karar ağacı açıklayıcı faktörlerin her birini alır ve hangi faktörün en iyi ‘bölünmeyi’ sağlayacağını gerekçelendirmeyi dener. Örneğin yalnızca büyük kurumsal müşterileri içerecek şekilde verileri filtrelersek, bizim için yüksek derecelendirme yapan müşterileri düşük derecelendirme yapanlardan ayırmış olur muyuz? Belki de yalnızca güvenlik hakkında yorum yapan müşterileri içerecek şekilde filtrelemek daha iyi sonuç verecektir. 
 

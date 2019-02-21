@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290349"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324780"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop'ta SAP BW Bağlayıcısı'nı kullanma
 Power BI Desktop ile **SAP Business Warehouse (BW)** verilerine erişebilirsiniz.
@@ -218,6 +218,29 @@ Bu bölümde **SAP BW** bağlayıcısıyla çalışırken karşılaşabileceğin
    * BAPI_IOBJ_GETDETAIL
 
    Bu sorunu çözmek için, kullanıcının hem çeşitli *MDPROVIDER* modüllerine hem de *BAPI_IOBJ_GETDETAIL* modülüne erişimi olduğunu doğrulayın. Bunu ve buna benzer sorunları gidermeye yönelik daha fazla işlem yapmak için, Power BI Desktop'ın *Seçenekler* bölümündeki *Tanılama* penceresinde *İzlemeyi etkinleştir*'i seçin. İzleme etkin durumdayken SAP BW'den verileri almayı deneyin ve diğer ayrıntılar için izleme dosyasını inceleyin.
+
+## <a name="sap-bw-connection-support"></a>SAP BW Bağlantı desteği
+
+Aşağıdaki tabloda SAP BW için geçerli desteğin ayrıntıları verilmiştir.
+
+
+
+|Ürün  |Mod  |Kimlik Doğrulama  |Bağlayıcı  |SNC Kitaplığı  |Destekleniyor  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |Herhangi biri         | Kullanıcı / parola  | Uygulama Sunucusu | YOK  | Evet  |
+|Power BI Desktop     |Herhangi biri         | Windows          | Uygulama Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Desktop     |Herhangi biri         | Kimliğe bürünme yoluyla Windows | Uygulama Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Desktop     |Herhangi biri         | Kullanıcı / parola        | İleti Sunucusu | YOK  | Evet  |
+|Power BI Desktop     |Herhangi biri         | Windows        | İleti Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Desktop     |Herhangi biri         | Kimliğe bürünme yoluyla Windows | İleti Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Ağ Geçidi     |İçeri Aktar      | Power BI Desktop ile aynı |         |   |   |
+|Power BI Ağ Geçidi     |DirectQuery | Kullanıcı / parola        | Uygulama Sunucusu | YOK  | Evet  |
+|Power BI Ağ Geçidi     |DirectQuery | Kimliğe bürünme yoluyla Windows (sabit kullanıcı, SSO yok) | Uygulama Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Ağ Geçidi     |DirectQuery | DirectQuery sorguları için Kerberos üzerinden SSO kullanın seçeneği | Uygulama Sunucusu | *yalnızca* gsskrb5/gx64krb5 ile   | Evet  |
+|Power BI Ağ Geçidi     |DirectQuery | Kullanıcı / parola        | İleti Sunucusu | YOK  | Evet  |
+|Power BI Ağ Geçidi     |DirectQuery | Kimliğe bürünme yoluyla Windows (sabit kullanıcı, SSO yok) | İleti Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Evet  |
+|Power BI Ağ Geçidi     |DirectQuery | DirectQuery sorguları için Kerberos üzerinden SSO kullanın seçeneği | İleti Sunucusu | sapcrypto + gsskrb5/gx64krb5  | Hayır  |
+
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

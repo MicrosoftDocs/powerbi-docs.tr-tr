@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274732"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324496"
 ---
 # <a name="what-are-power-bi-gateways"></a>Power BI ağ geçitleri nelerdir?
 
@@ -53,7 +53,7 @@ Yüklediğiniz ağ geçidi bir Windows hizmeti olan **Şirket içi veri ağ geç
 Sorgular ve veri akışı:
 
 1. Bulut hizmeti, şirket içi veri kaynağı için şifrelenmiş kimlik bilgileri ile bir sorgu oluşturur. Bu sorgu daha sonra işlenmek üzere ağ geçidi sırasına gönderilir.
-2. Ağ geçidi bulut hizmeti sorguyu çözümler ve isteği Azure Service Bus'a gönderir.
+2. Ağ geçidi bulut hizmeti sorguyu çözümler ve isteği Azure Service Bus'a gönderir. Power BI Service Bus’ı sizin için yönetir, dolayısıyla ek maliyet veya yapılandırma adımı gerekmez.
 3. Şirket içi veri ağ geçidi, Azure Service Bus’ta bekleyen istekler olup olmadığını yoklar.
 4. Ağ geçidi sorguyu alır, kimlik bilgilerinin şifresini çözer ve bu kimlik bilgileriyle veri kaynaklarına bağlanır.
 5. Ağ geçidi, yürütme için sorguyu veri kaynağına gönderir.

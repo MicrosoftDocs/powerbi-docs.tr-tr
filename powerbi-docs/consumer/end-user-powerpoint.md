@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281563"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298926"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
 Power BI sayesinde raporunuzu **Microsoft PowerPoint**’te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. **PowerPoint'e aktardığınızda**, aşağıdakiler gerçekleşir:
@@ -35,6 +35,10 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 PowerPoint’e aktarmak istediğiniz rapor tuvalde görüntülendiğinde, Power BI hizmetindeki menü çubuğundan **Dosya > PowerPoint’e aktar** seçeneğini belirleyin.
 
 ![Çalışma Alanım'ın seçili olduğu, Dosya açılan menüsünün seçildiği sol gezinti çubuğunun yakından görünüşü](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Bir açılan menü görüntülenir ve **Geçerli görünüm**’ü veya **Varsayılan görünüm**’ü kullanma seçeneği sağlanır.  **Geçerli görünüm** raporu geçerli durumda dışarı aktarır. Bu, dilimleyici ve filtre değerlerinde yaptığınız etkin değişiklikleri içerir.  Kullanıcıların çoğu bu seçeneği tercih eder.  Alternatif olarak, **Varsayılan görünüm** seçildiğinde rapor özgün durumda (yazarın bunu paylaştığı şekilde) dışarı aktarılır ve özgün durumda yaptığınız değişiklikleri yansıtmaz.
+    
+Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır.  Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz, bu kutuyu seçmeniz yeterlidir.  Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz, bu kutuyu işaretsiz bırakabilirsiniz.  Onay kutusu soluk görüntüleniyorsa, raporda hiç gizli sekme yoktur.  Seçimlerinizi yaptıktan sonra devam etmek için **Dışarı Aktar**’a tıklayın.
 
 Power BI hizmeti tarayıcı penceresinin sağ üst köşesinde, raporun PowerPoint'e aktarıldığını belirten bir bildirim başlığı görürsünüz. Bu işlem birkaç dakika sürebilir ve rapor dışarı aktarılırken Power BI'da çalışmaya devam edebilirsiniz.
 
@@ -74,7 +78,6 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 ## <a name="limitations"></a>Sınırlamalar
 **PowerPoint'e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
 
-* Vurgulama ve filtreleme, detaya gitme vb. gibi oturum içi etkileşim özellikleri, PowerPoint’e aktarma işlemi için henüz desteklenmiyor. Dışarı aktarılan PowerPoint, özgün görselleri raporda kaydedilen şekilde gösterir. Filtreler ve dilimleyiciler uyguladıysanız ve dışa aktarımda bunun korunmasını istiyorsanız raporu kaydedip dışa aktarımı gerçekleştirin.
 * **R görselleri** şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint'e boş bir görüntü olarak aktarılır.
 * **Sertifikalanmış** **özel görseller** desteklenir. Bir özel görseli nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı özel görseller hakkında daha fazla bilgi için bkz. [getting a custom visual certified (Özel görselleri sertifikalatma)](../power-bi-custom-visuals-certified.md). Sertifikalatılmamış özel görseller desteklenmez ve görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint'e boş bir görüntü olarak aktarılır.
 * 30'dan fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.

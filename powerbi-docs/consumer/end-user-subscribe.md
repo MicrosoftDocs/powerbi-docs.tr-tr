@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794315"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298857"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  
@@ -73,6 +73,7 @@ Aboneliklerinizi yalnızca kendiniz yönetebilirsiniz. Tekrar **Abone ol**'u ve 
 Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse veya aboneliğin oluşturulması için kullanılan kullanıcı hesabı silinirse abonelik sona erer.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya dört sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir. E-postanın düzgün işlenmesini sağlamak için sabitlenmiş kutucuk sayısını 25’in altına ve sabitlenmiş canlı rapor sayısını dördün altına düşürmenizi öneririz.  
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olduktan sonra sayfa yeniden adlandırılırsa aboneliğinizi yeniden oluşturmanız gerekir.
 * Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz, kimlik doğrulaması için veya başka nedenlerle bu özelliği devre dışı bırakmış olabilir.  

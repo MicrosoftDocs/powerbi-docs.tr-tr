@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068063"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249402"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 [Uygulamalar hakkında temel bilgileri](end-user-apps.md) öğrendiğinize göre, şimdi uygulamaları açmayı ve uygulamalarla etkileşim kurmayı öğrenelim. 
@@ -25,7 +25,7 @@ Yeni bir uygulama almanın birkaç yolu olduğunu unutmayın. Rapor tasarımcıs
 
 Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
 
-### <a name="install-an-app-from-a-direct-link"></a>Doğrudan bağlantı ile uygulama yükleme
+## <a name="install-an-app-from-a-direct-link"></a>Doğrudan bağlantı ile uygulama yükleme
 Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama yazarından e-posta ile bir doğrudan bağlantı almaktır.  
 
 **Bilgisayarınızda** 
@@ -40,8 +40,8 @@ Mobil cihazınızda e-postadaki bağlantıyı seçtiğiniz zaman uygulama otomat
 
 ![Mobil cihazda uygulama içerik listesi](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Uygulamayı Microsoft AppSource'tan alma
-Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yalnızca erişiminiz olan uygulamalar (yani uygulama yazarının size veya herkese izin verdiği y-uygulamalar) görüntülenir.
+## <a name="get-the-app-from-microsoft-appsource"></a>Uygulamayı Microsoft AppSource'tan alma
+Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yalnızca erişiminiz olan uygulamalar (yani uygulama yazarının size veya herkese izin verdiği uygulamalar) görüntülenir.
 
 1. **Uygulamalar** ![Sol gezinti çubuğundaki Uygulamalar](./media/end-user-apps/power-bi-apps-bar.png) > **Uygulama edinin**'i seçin. 
    

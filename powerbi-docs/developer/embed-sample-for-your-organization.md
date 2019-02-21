@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762479"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249448"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -57,7 +57,7 @@ Uygulamanızın Power BI REST API’lerine erişmesini sağlamak için uygulaman
 
 3. Sol gezinti bölmesinde **Tüm hizmetler**’i ve sonra **Uygulama kayıtları**’nı seçin. Daha sonra **Yeni uygulama kaydı**’nı seçin.
 
-    ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+    ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![Yeni uygulama kaydı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
@@ -367,7 +367,7 @@ window.onload = function () {
     // client side click to embed a selected report.
     var el = document.getElementById("bEmbedReportAction");
     if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReporte, false);
+        el.addEventListener("click", updateEmbedReport, false);
     } else {
         el.attachEvent('onclick', updateEmbedReport);
     }

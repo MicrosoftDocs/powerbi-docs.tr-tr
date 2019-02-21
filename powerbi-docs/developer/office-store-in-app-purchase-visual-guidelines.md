@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430016"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408081"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
 
@@ -22,6 +22,10 @@ Yakın zamana kadar, **Market (AppSource)** yalnızca ücretsiz olan Power BI g�
 
 > [!Note]
 > Görselin sertifikalanması için, dış hizmetlere veya kaynaklara erişmemesi gerekir.
+
+> [!Note]
+> Tüm ücretsiz görseller daha önce sunulan ücretsiz özellikleri korumalıdır. Eski ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Eski ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>Gönderim işleminde neler değişti?
 

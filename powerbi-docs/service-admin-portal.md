@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086483"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408196"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -172,11 +172,11 @@ Aşağıdaki resimde kutucuktaki verileri dışarı aktarma seçeneği gösteril
 > [!NOTE]
 > **Verileri dışarı aktar** seçeneğinin devre dışı bırakılması, kullanıcıların **Excel'de Çözümle** özelliğini ve Power BI hizmeti canlı bağlantısını kullanmasını da önler.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Raporları PowerPoint sunumları olarak dışarı aktarma
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktarma
 
-Kuruluştaki kullanıcılar Power BI raporlarını PowerPoint dosyaları olarak dışarı aktarabilir. [Daha fazla bilgi](consumer/end-user-powerpoint.md)
+Kuruluştaki kullanıcılar, Power BI raporlarını PowerPoint dosyaları veya PDF belgeleri olarak dışarı aktarabilir. [Daha fazla bilgi](consumer/end-user-powerpoint.md)
 
-Aşağıdaki resimde **Raporları PowerPoint sunuları olarak dışarı aktar** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
+Aşağıdaki resimde **Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktar** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
 
 ![Raporları PowerPoint sunumları olarak dışarı aktarma](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Aşağıdaki görüntüde içerik paketi oluşturma sırasında **Tüm kuruluşu
 
 ![Kuruluşa içerik paketi yayımlama](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Kuruluş için şablon içerik paketleri ve uygulamalar oluşturun
+### <a name="create-template-apps"></a>Şablon uygulamalar oluşturma
 
-Kuruluştaki kullanıcılar Power BI Desktop'ta oluşturulan veri kümelerini kullanan içerik paketi şablonları oluşturabilir. [Daha fazla bilgi](template-content-pack-authoring.md)
+Kuruluştaki kullanıcılar Power BI Desktop'ta oluşturulan veri kümelerini kullanan şablon uygulamaları oluşturabilir. [Şablon uygulamaları](template-content-pack-authoring.md) hakkında daha fazla bilgi edinin
 
 ### <a name="push-apps-to-end-users"></a>Son kullanıcılara uygulama gönderme
 
@@ -301,6 +301,18 @@ Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Ver
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
+
+## <a name="template-apps-settings-preview"></a>Şablon uygulaması ayarları (önizleme)
+
+Şablon uygulamaları iki ayarla denetlenir. 
+
+![Power BI yönetim portalı şablon uygulaması ayarları](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+İlk ayar olan **Şablon uygulamaları oluştur** ayarı kuruluşunuzda kimlerin şablon uygulaması oluşturabileceğini denetler. Şablon uygulaması oluşturanlar, daha sonra AppSource’u veya başka bir dağıtım yöntemini kullanarak bu uygulamaları kuruluşunuzun dışındaki istemcilere dağıtabilir.
+
+![Power BI yönetim portalı, Şablon uygulamaları oluştur ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+İkinci ayar olan **Şablon uygulamalarını yükle** ayarıyla, kuruluşunuzda kimlerin AppSource’tan veya başka bir kaynaktan şablon uygulaması indirip yükleyebileceğini denetlersiniz
 
 ## <a name="capacity-settings"></a>Güvenlik ayarları
 

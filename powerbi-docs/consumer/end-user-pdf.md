@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55795014"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298880"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 Power BI sayesinde raporunuzu PDF biçiminde yayımlayabilir ve kolayca Power BI raporunuzu temel alan bir belge oluşturabilirsiniz. **PDF'ye dışarı aktardığınızda** Power BI raporundaki her sayfa PDF belgesinde ayrı sayfalara dönüşür.
@@ -28,6 +28,10 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. Giriş 
 
     ![Menü çubuğundan Dosya'yı seçme, PDF’ye Aktar'a işaret eden bir ok](media/end-user-pdf/power-bi-export-pdf.png)
 
+    Bir açılan menü görüntülenir ve **Geçerli görünüm**’ü veya **Varsayılan görünüm**’ü kullanma seçeneği sağlanır.  **Geçerli görünüm** raporu geçerli durumda dışarı aktarır. Bu, dilimleyici ve filtre değerlerinde yaptığınız etkin değişiklikleri içerir.  Kullanıcıların çoğu bu seçeneği tercih eder.  Alternatif olarak, **Varsayılan görünüm** seçildiğinde rapor özgün durumunda (yazarın bunu paylaştığı şekilde) dışarı aktarılır ve bu özgün durumda yaptığınız değişiklikleri yansıtmaz.
+    
+    Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır.  Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz, bu kutuyu seçmeniz yeterlidir.  Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz, bu kutuyu işaretsiz bırakabilirsiniz.  Onay kutusu soluk görüntüleniyorsa, raporda hiç gizli sekme yoktur.  Seçimlerinizi yaptıktan sonra devam etmek için Dışarı Aktar düğmesine tıklayın.
+    
     Sağ üst köşede bir ilerleme çubuğu görüntülenir. Dışarı aktarma işlemi birkaç dakika sürebilir ve rapor dışarı aktarılırken Power BI'da çalışmaya devam edebilirsiniz.
 
     ![Dışarı aktarma ilerleme durumu iletisi](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. Giriş 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 **PDF’ye Aktar** özelliğiyle çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
-
-- Vurgulama ve filtreleme, detaya gitme gibi oturum içi etkileşim özellikleri, PDF’ye aktarma işleminde henüz desteklenmiyor. Dışarı aktarılan PDF, özgün görselleri raporda kaydedildiği şekilde gösterir. Filtreler ve dilimleyiciler uyguladıysanız ve bunların dışa aktarma işleminde korunmasını istiyorsanız raporu kaydedin ve dışa aktarma işlemini ondan sonra gerçekleştirin.
 
 * **R görselleri** şu anda desteklenmemektedir. PDF’de bu görseller boş olacak ve bir hata raporu görüntüleyecektir.  
 

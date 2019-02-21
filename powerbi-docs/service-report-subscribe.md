@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430959"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408127"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde bir rapora veya panoya abone yapma
 
@@ -60,12 +60,10 @@ Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kul
 7. **Kaydet ve kapat**’ı seçin. Abone olan kişiler seçtiğiniz sıklıkta ve saatlerde e-postayla pano veya rapor sayfasının anlık görüntüsünü alır. Toplamda rapor veya pano başına en fazla 24 abonelik oluşturabilirsiniz ve her abonelik için benzersiz alıcılar, saatler ve sıklıklar sağlayabilirsiniz.  Panonuz veya raporunuz için **Veri Yenilemesinden Sonra** olarak ayarlanan tüm abonelikler, yine de yalnızca zamanlanmış ilk yenilemeden sonra e-posta gönderir.   
       
    > [!TIP]
-   > E-postayı hemen görmek mi istiyorsunuz? Panoyla ilişkili veri kümelerinden birini veya raporla ilişkili veri kümesini yenileyerek bir e-posta tetikleyin. Veri kümesi üzerinde düzenleme izinleriniz yoksa, bu izinlere sahip birisinden sizin için yenilemesini isteyin. İlgili veri kümelerini görmek için, **İlişkilileri görüntüle** simgesini ![İlişkilileri görüntüle simgesi](media/service-report-subscribe/power-bi-view-related.png) seçerek **İlişkili içerik**'i açın ve ardından yenile simgesini ![yenile simgesi](media/service-report-subscribe/power-bi-refresh.png) seçin. 
+   > Abonelikten e-postayı hemen mi yoksa isteğe bağlı olarak herhangi bir zamanda mı göndermek istiyorsunuz? Göndermek istediğiniz panonun veya raporun abonelikleri için **Şimdi Çalıştır**’ı seçin. Bu abonelik için herkese e-posta gönderildiğine ilişkin bir bildirim görürsünüz.  Bunu istediğiniz sıklıkta yapabilirsiniz. Rapor veya pano başına günde 24 zamanlanmış abonelik çalıştırması sınırınızda bu hesaba katılmaz. Bunun, temel veri kümesinde bir veri yenilemesi tetiklemediğini unutmayın. 
    > 
    > 
    
-   ![İlişkili veri kümeleri](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>E-posta dilleri
 
 E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](supported-languages-countries-regions.md)). Dil tanımlanmazsa, Power BI geçerli tarayıcınızın yerel ayarına göre seçilen dili kullanır. Dil tercihinizi görmek veya belirlemek için sırasıyla dişli simgesini ![dişli simgesi](media/service-report-subscribe/power-bi-settings-icon.png) > **Ayarlar > Genel > Dil** seçeneklerini belirleyin. 
@@ -84,6 +82,7 @@ Görüntülenen abonelikler o sırada etkin olan çalışma alanına bağlıdır
 Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse veya aboneliğin oluşturulması için kullanılan kullanıcı hesabı silinirse abonelik sona erer.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdan fazla kutucuk içeren panoların abonelikleri engellenmez ama sorunlarla karşılaşırsanız desteklenmiyor olarak kabul edilir ve desteklenen aralıkta olacak şekilde değiştirilmeleri gerekir.
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 * Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir.  Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.

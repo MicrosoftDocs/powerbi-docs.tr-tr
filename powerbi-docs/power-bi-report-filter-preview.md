@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482718"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298834"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI raporlarında yeni filtre deneyimi (Önizleme)
 
 Bu makalede yeni filtre deneyimi açıklanmaktadır: Power BI'daki filtrelere yeni işlevsellik ve yeni bir tasarım sağlanıyor. Power BI Desktop'ta veya Power BI hizmetinde rapor tasarlarken, Filtreler bölmesinin raporun tamamına benzemesini ve böyle çalışmasını sağlayabilirsiniz. Yeni deneyimde, eski Filtreler bölmesi filtre düzenleme bölmesi gibi çalışır ve rapor kullanıcılarınız yalnızca yeni Filtre bölmesini görür. 
  
 ![Varsayılan görünüm (ek özelleştirme uygulanmamış)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> Yeni filtre deneyimi önizleme aşamasındadır. Yeni derlemeler daha önce ayarlamış olduğunuz biçimlendirmeyi geçersiz kılabilir.
 
 Rapor tasarımcısı olarak, yeni filtrelerle şunları yapabilirsiniz:
 
@@ -83,6 +86,7 @@ Bu yeni deneyimin önemli bir parçası, artık filtre bölmesini raporunuzun ge
 - Arka plan saydamlığı
 - Filtre bölmesi kenarlığını açma veya kapatma
 - Filtre bölmesi kenarlık rengi
+- Filtre bölmesi başlığı ve üst bilgisinin yazı tipi, rengi ve metin boyutu
 
 Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temizlenmiş) olup olmadıklarına bağlı olarak filtre kartları için de biçimlendirebilirsiniz: 
 
@@ -90,6 +94,8 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 - Arka plan saydamlığı
 - Kenarlık: açık veya kapalı
 - Kenarlık rengi
+- Yazı tipi, renk ve metin boyutu
+- Giriş kutusu rengi
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>Filtreler bölmesi ve kartları için biçimi ayarlama
 
@@ -100,11 +106,11 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 
 1. Arka plan, simge ve sol kenarlık rengini rapor sayfasını tamamlayacak şekilde ayarlamak için **Filtre bölmesini** genişletin.
 
-    ![Filtre bölmesini genişletme](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![Filtre bölmesini genişletme](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. **Kullanılabilir** ve **Uygulanmış** kart rengini ve kenarlığını ayarlamak için **Filtre kartlarını** genişletin. Kullanılabilir ve uygulanmış kartları farklı renklerde ayarlarsanız, hangi filtrelerin uygulandığı rahatça görülür. 
   
-    ![Filtre kartını genişletme](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![Filtre kartını genişletme](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Okuma modunda bir görselin filtrelerini görüntüleme
 

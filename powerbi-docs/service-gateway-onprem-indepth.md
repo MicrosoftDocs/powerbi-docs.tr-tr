@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279332"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325026"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
@@ -90,7 +90,7 @@ Azure AD Connect, UPN'nin AAD ile yerel Active Directory etki alanınız arasın
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Bu noktada ağ geçidi devreye girer
-Ağ geçidi, bulut ile şirket içi sunucunuz arasında bir köprü işlevi görür. Bulut ile ağ geçidi arasındaki veri aktarımının güvenliği [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) tarafından sağlanır. Service Bus, ağ geçidinde bir giden bağlantı yoluyla bulut ile şirket içi sunucunuz arasında güvenli bir kanal oluşturur.  Şirket içi güvenlik duvarınızda açmanız gereken herhangi bir gelen bağlantı yoktur.
+Ağ geçidi, bulut ile şirket içi sunucunuz arasında bir köprü işlevi görür. Bulut ile ağ geçidi arasındaki veri aktarımının güvenliği [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) tarafından sağlanır. Service Bus, ağ geçidinde bir giden bağlantı yoluyla bulut ile şirket içi sunucunuz arasında güvenli bir kanal oluşturur.  Şirket içi güvenlik duvarınızda açmanız gereken herhangi bir gelen bağlantı yoktur. Power BI Service Bus’ı sizin için yönetir, dolayısıyla ek maliyet veya yapılandırma adımı gerekmez.
 
 Bir Analysis Services veri kaynağınız varsa ağ geçidini, Analysis Services sunucunuz ile aynı ormana/etki alanına katılmış bir bilgisayara yüklemeniz gerekir.
 

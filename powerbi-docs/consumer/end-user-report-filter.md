@@ -1,5 +1,5 @@
 ---
-title: Rapora filtre ekleme
+title: Rapordaki Filtreler bölmesinde gezinti
 description: Tüketiciler için Power BI hizmetindeki bir rapora filtre ekleme
 author: mihart
 manager: kvivek
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1f1d3c410a74f7a015472deef79072fcefaf5e2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 161f699014fcc342ba238cad38d28103f9a63991
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281885"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298949"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 Bu makale Power BI hizmetindeki Rapor Filtreleri bölmesine bir bakış sunmaktadır.

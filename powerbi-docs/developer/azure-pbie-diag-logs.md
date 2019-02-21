@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126636"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249149"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded için tanılama günlüğüne kaydetme
 
@@ -114,8 +114,8 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 |    Audit Logout    |    İzleme başladıktan sonra gerçekleştirilen tüm sonlandırılan altyapı bağlantısı olaylarını kaydeder.    |
 |    Hata    |    İzleme başladıktan sonra gerçekleştirilen tüm altyapı hatası olaylarını kaydeder.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Özellik Adı | Vertipaq Query End Example | Özellik Açıklaması |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 | ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Nesne başvurusu. Tüm üst öğeler için XML olarak kodlanmıştır, nesneyi tanımlamak için etiketleri kullanır. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Olayın bitiş saati. |
 | Süre | 0 | Olayın süresi (milisaniye cinsinden). |
-| SessionType | User | Oturum türü (işleme neden olan varlık). |
+| SessionType | Kullanıcı | Oturum türü (işleme neden olan varlık). |
 | ProgressTotal | 0 | İlerleme toplamı. |
 | IntegerData | 0 | Tamsayı verileri. |
 | Önem | 0 | Bir özel durumun önem derecesi. |

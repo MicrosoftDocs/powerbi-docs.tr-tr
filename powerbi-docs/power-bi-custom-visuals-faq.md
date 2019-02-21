@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282115"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408150"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -98,6 +98,9 @@ Bir özel IAP görseli üzerinde çalışıyorsanız veya zaten böyle bir görs
 Özel görsel üzerinde bir logo varsa bunun logo yönergelerine (renk, konum, boyut ve eylem tetikleme) uygun olduğundan emin olun.
 
 Ayrıca yönergelerde en iyi yöntemler hakkında notlar da bulabilirsiniz.  
+> [!Note]
+> Tüm ücretsiz görseller daha önce sunulan ücretsiz özellikleri korumalıdır. Eski ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Eski ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP özel görselimin sertifikalı olmasını sağlayabilir miyim?
 
