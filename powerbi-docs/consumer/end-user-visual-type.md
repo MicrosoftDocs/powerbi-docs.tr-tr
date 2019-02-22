@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794845"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426781"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 Görselleştirmeleri raporlar, panolar, uygulamalar ve soru-cevaplarda bulabilirsiniz. Bu görselleştirme türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve *rapor tasarımcılarının* Power BI raporlarına, panolarına ve uygulamalarına ekleyebilecekleri şekilde oluşturulur. 
@@ -98,10 +98,12 @@ Radial ölçerler şunlar için harika bir seçimdir:
 - tek bir ölçünün durumunu göstermek
 - hızla taranabilen ve anlaşılabilen bilgiler görüntülemek
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Ana etmenler grafiği
+![ana etmen](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Ana etmenler grafiği, seçili bir sonuç veya değere en çok katkıda bulunanları gösterir.
+
+Bir ana ölçümü etkileyen faktörleri anlamak için ana etmenlerden faydalanabilirsiniz. Örneğin, *müşterilerin ikinci siparişi vermelerindeki etmenler *veya* satışların geçen Haziran ayında çok yüksek olmasının nedenleri*. 
 
 ### <a name="kpis"></a>KPI'ler
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

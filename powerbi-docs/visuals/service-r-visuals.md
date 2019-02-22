@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290234"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426620"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI hizmetinde R görselleri oluşturma
 Power BI hizmeti, R betikleriyle oluşturulan görselleri görüntülemeyi ve bu görsellerle etkileşim kurmayı destekler. R betikleriyle oluşturulan ve genellikle *R görselleri* olarak adlandırılan görseller, R'ın zengin analizlerini ve görselleştirme gücünü kullanarak tahmin etme özelliği gibi gelişmiş veri şekillendirme özellikleri ve analizler sunabilir.
@@ -33,7 +33,7 @@ R görselleri, aşağıdaki görüntüde gösterilen rapora benzer bir [Power BI
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-Rapor **Power BI Desktop**'ta oluşturulduktan sonra, bir veya daha fazla R görseli içeren raporunuzu Power BI hizmetinde yayımlayabilirsiniz. R görselleri şu anda yalnızca **Power BI Desktop**'ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [CR programlama dilini kullanarak Power BI görselleri oluşturma (Power BI Desktop)](../desktop-r-visuals.md).
+Rapor **Power BI Desktop**'ta oluşturulduktan sonra, bir veya daha fazla R görseli içeren raporunuzu Power BI hizmetinde yayımlayabilirsiniz. R görselleri şu anda yalnızca **Power BI Desktop**’ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [CR programlama dilini kullanarak Power BI görselleri oluşturma (Power BI Desktop)](../desktop-r-visuals.md).
 
 Hizmette R paketlerinin tümünün desteklenmediğini unutmayın. Şu anda Power BI hizmetinde desteklenen paketlerin listesi için, bu makalenin sonunda bulunan desteklenen paketler bölümüne bakın.
 
@@ -66,11 +66,19 @@ Başka bir örnek olarak, aşağıdaki görüntüde, Azure'da bir R paketinin ek
 ## <a name="licensing"></a>Lisanslama
 R görselleri için raporlarda işleme, yenileme, filtre uygulama ve çapraz filtre özelliklerine yönelik olarak [Power BI Pro](../service-self-service-signup-for-power-bi.md) lisansı gerekir. Power BI Pro lisansları ve bunların ücretsiz lisanslardan farkı hakkında daha fazla bilgi edinmek için bkz. [Power BI Pro içeriği nedir?](../service-premium.md)
 
-Power BI'ın ücretsiz kullanıcıları, yalnızca kendileriyle paylaşılan kutucukları kullanabilir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](../service-admin-purchasing-power-bi-pro.md).
+Power BI’ın ücretsiz kullanıcıları, Premium çalışma alanlarında yalnızca kendileriyle paylaşılan kutucukları kullanabilir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](../service-admin-purchasing-power-bi-pro.md).
 
 Aşağıdaki tabloda, lisanslama türüne göre R görseli özellikleri açıklanmaktadır.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Power BI Desktop’ta R görselleri oluşturma  | R görselleri ile PBI hizmet raporları oluşturma |Raporlarda R görsellerini görüntüleme  | Panolarda R kutucuklarını görüntüleme |
+|---------|---------|---------|---------|--------|
+|**Konuk** (Power BI embedded)     |  İlgili değil|  İlgili değil       | Desteklenmiyor  | İlgili değil |
+|**Yönetilmeyen kiracı** (etki alanı doğrulanmadı) | Destekleniyor | Desteklenmiyor |  Desteklenmiyor |Desteklenen (B2B senaryosu) |
+|Ücretsiz lisans ile **yönetilen kiracı**    |  Destekleniyor       |  Desteklenmiyor       |    Yalnızca Premium kapasitede desteklenir    | Destekleniyor |
+Pro lisansı ile **yönetilen kiracı**     |   Destekleniyor      | Destekleniyor      | Destekleniyor    |Destekleniyor|
+
+
 
 ## <a name="known-limitations"></a>Bilinen Sınırlamalar
 Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:

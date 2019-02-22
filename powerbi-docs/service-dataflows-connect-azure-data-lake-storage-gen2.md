@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216528"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426735"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -70,6 +70,8 @@ Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rol�
 **Rol ataması ekle** penceresinde, Power BI hizmetine atanacak **Okuyucu** rolünü seçin. Daha sonra **Power BI Hizmeti**’ni arayıp bulup. Aşağıdaki görüntüde, Power BI hizmetine atanan **Okuyucu** rolü gösterilmektedir.
 
 ![Okuyucu rolüne atanan Power BI hizmeti](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+Not: Portaldan Power BI’a yayma işlemi için lütfen en az 30 dakikalık süre tanıyın. Portaldaki izinleri her değiştirdiğinizde, yeniden denemek için aynısının Power BI’a yansıması için 30 dakikalık süre tanımalısınız. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Power BI için bir dosya sistemi oluşturma

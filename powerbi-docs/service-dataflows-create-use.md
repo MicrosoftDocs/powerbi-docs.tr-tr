@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279056"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426643"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI'da veri akışlarını oluşturma ve kullanma (Önizleme)
 
@@ -155,6 +155,10 @@ Bazı durumlarda veri akışlarının veri kaynaklarına bağlanırken sorunlarl
 * **Salesforce bağlayıcısı** - Veri akışlarıyla Salesforce için deneme hesabı kullanıldığında, bağlantı hatası oluşur ve hiçbir bilgi sağlanmaz. Bu sorunu çözmek için, test ederken üretim Salesforce hesabı veya geliştirici hesabı kullanın.
 
 * **SharePoint bağlayıcısı** - Alt klasör veya belge eklemeden SharePoint sitesinin kök adresini sağladığınızdan emin olun. Örneğin, şuna benzer bir bağlantı kullanın: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+
+* **JSON Dosya bağlayıcısı**: Şu anda bir JSON dosyasına yalnızca temel kimlik doğrulaması kullanarak bağlanabilirsiniz.  Bir JSON dosyasına URL içinden kimlik bilgileri sağlayarak bağlanma işlemi (ör. https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg... ) şu anda **desteklenmiyor**.  
+
+* **Azure SQL Veri Ambarı**: Veri akışları şu anda Azure SQL Veri Ambarı için Azure Active Directory (AAD) kimlik doğrulamasını desteklemiyor. Bu senaryoda Temel kimlik doğrulaması kullanın.
 
 ## <a name="next-steps"></a>Sonraki Adımlar
 

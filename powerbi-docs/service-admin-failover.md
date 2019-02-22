@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448233"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426574"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -29,7 +29,7 @@ Power BI, tam olarak yönetilen bir hizmet olarak yazılımdır (SaaS).  Microso
 
 Power BI, iş sürekliliğini garanti etmek için Azure veri merkezlerinde (bölgeler olarak da bilinir) her bileşenin birden çok örneğini bulundurur. Bir bölgede Power BI’ın erişilemez veya çalışamaz duruma gelmesine neden olan bir kesinti veya sorun oluşması durumunda Power BI o bölgedeki tüm bileşenlerinin yükünü yedek örneğine devreder. Yük devretme, kullanılabilirlik ve çalışabilirliği yeni bir bölgedeki ([Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)’nde belirtildiği gibi bu bölge genellikle aynı coğrafi konumdadır) Power BI hizmeti örneğine geri yükler.
 
-Yük devredilen bir Power BI hizmeti örneği yalnızca _okuma işlemlerini_ destekler. Bu da yük devretme sırasında şu işlemlerin desteklenmediği anlamına gelir: yenileme, rapor yayımlama işlemleri, pano veya rapor değişiklikleri ve Power BI meta verilerinde değişiklikler gerektiren diğer işlemler (örneğin bir rapora yorum ekleme).  Pano görüntüleme ve rapor görüntüleme gibi (Doğrudan Sorgu veya Canlı Bağlantı'yla şirket içi veri kaynaklarına dayalı olmayan) okuma işlemleri normal çalışmaya devam eder.
+Yük devredilen bir Power BI hizmeti örneği yalnızca _okuma işlemlerini_ destekler. Bu da yük devretme sırasında şu işlemlerin desteklenmediği anlamına gelir: yenileme, rapor yayımlama işlemleri, pano veya rapor değişiklikleri ve Power BI meta verilerinde değişiklikler gerektiren diğer işlemler (örneğin bir rapora yorum ekleme).  Pano görüntüleme ve rapor görüntüleme gibi (DirectQuery veya Canlı Bağlantı'yla şirket içi veri kaynaklarına dayalı olmayan) okuma işlemleri normal çalışmaya devam eder.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>Yedekleme örnekleri verilerimle nasıl eşitleniyor?
 
