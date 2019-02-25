@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408081"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426551"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
 
@@ -33,7 +33,10 @@ Geliştiriciler, ücretsiz görseller için yaptıkları gibi Satıcı Panosu ü
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP özelliklerine sahip Power BI görseli nedir?
 
-IAP görseli ücretsiz bir görseldir ve ücretsiz özellikler sunar, ama çalıştırmak için fazladan ücret ödemeyi gerektirebilecek ek özellikleri de vardır. Geliştiricilerin, görselin açıklamasında hangi özellikleri çalıştırmak için ek satın almalar gerektiğini kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel uygulama programı arabirimi (API) sağlamamaktadır. Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Mağaza [ilkemizi](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) gözden geçirin.
+IAP görseli ücretsiz bir görseldir ve ücretsiz özellikler sunar, ama çalıştırmak için fazladan ücret ödemeyi gerektirebilecek ek gelişmiş özellikleri de vardır. Geliştiricilerin, görselin açıklamasında hangi özellikleri çalıştırmak için ek satın almalar gerektiğini kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel uygulama programı arabirimi (API) sağlamamaktadır. Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Mağaza [ilkemizi](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) gözden geçirin.
+
+> [!NOTE]
+> Ücretsiz özelliklerde filigranlara izin verilmez. Geçerli bir lisans olmadan gelişmiş ücretli özellikler kullanılırsa geliştiriciler bir açılan pencere veya filigran görüntüleyebilir.  
 
 ## <a name="logo-guidelines"></a>Logo yönergeleri
 

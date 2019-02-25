@@ -3,19 +3,19 @@ title: Ana etmenler görselleştirmeleri öğreticisi
 description: Öğretici - Power BI'da ana etmenler görselleştirmesi oluşturma
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325163"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426804"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
 Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, istihdam değişimini (çalışan kaybı) nelerin etkilediğiyle ilgileniyor olabilirsiniz. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
@@ -46,7 +46,7 @@ Ana etmen görseli şunları yapmak için harika bir seçimdir:
 
 6. ***Sağ bölme*** - sağ bölme tek bir görsel içerir. Bu örnekteki sütun grafiğinde, sol bölmede seçilen **ana etmenin** (**Theme** [Tema]) tüm değerleri görüntüleniyor. Sol bölmede belirtilen değer (**Usability** [Kullanılabilirlik]) yeşil ve diğer tüm **Theme** değerleri siyah gösteriliyor.
 
-7. ***Ortalama çizgisi*** - **Theme** etmeninin **Usability** dışındaki tüm olası değerlerinin ortalaması hesaplanır. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Bu diğer **Theme** değerlerinin bize hangi oranda düşük derece verdiğini gösterir. Başka bir deyişle, müşteri düşük bir derecelendirme yaptığında bu derecelendirmenin nedenini veya **temasını** da açıklar. Kullanılabilirlik, hız ve güvenlik gibi temalar vardır. Sol bölmedeki görselimize göre düşük derecelendirmede **Usability** **Theme** değeri ikinci en yüksek ana etmendir. Diğer tüm temaların ortalamasını ve bunların **düşük** derecelendirmeye katkısını alırsak, burada kırmızıyla gösterilen sonucu elde ederiz. 
+7. ***Ortalama çizgisi*** - **Theme** etmeninin **Usability** dışındaki tüm olası değerlerinin ortalaması hesaplanır. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Bu diğer **Theme** değerlerinin bize hangi oranda düşük derece verdiğini gösterir. Başka bir deyişle, müşteri düşük bir derecelendirme yaptığında bu derecelendirmenin nedenini veya **temasını** da açıklar. Kullanılabilirlik, hız ve güvenlik gibi temalar vardır. Sol bölmedeki görselimize göre düşük derecelendirmede **Usability** **Theme** değeri ikinci en yüksek ana etmendir. Diğer tüm temaların ortalamasını ve bunların **düşük** derecelendirmeye katkısını alırsak, burada kırmızıyla gösterilen sonucu elde ederiz. Verilen tüm diğer temaların yalnızca %11,35'i **Usability** derecelendirmesinden yüksektir. 
 
 8. ***Onay kutusu*** - yalnızca etmen olan değerleri gösterin.
 
@@ -217,7 +217,7 @@ Daha kesin belirtmek gerekirse, hizmeti tarayıcıyla kullanmayan müşterilerin
 
 ![hata-çözüldü](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Ölçülerin çözümlememe dahil edilmediğine ilişkin bir uyarı görüyorum. Bunun nedeni nedir?** [2052261] 
+**Ölçülerin çözümlememe dahil edilmediğine ilişkin bir uyarı görüyorum. Bunun nedeni nedir?** 
 
 ![hata-ölçüler dahil değil](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
