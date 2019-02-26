@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288716"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663081"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 Power BI tüketicileri pano görüntülemeye oldukça çok vakit harcamaktadır. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI tüketicileri de bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: overview
 ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38c2161fe0d1bb02975caa405b8047799991d8c2
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838382"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663058"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Kullanıcılar için Power BI

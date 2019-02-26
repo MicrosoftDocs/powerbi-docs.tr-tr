@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: b6a78c14f08bd77fb90a2e271135174bd4073293
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794287"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662377"
 ---
 # <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki Görselleştirmelerle etkileşimli çalışma
 

@@ -4,19 +4,19 @@ description: Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI’ın �
 author: mihart
 manager: kvivek
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 12/10/2018
+ms.date: 02/21/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 46c956b1db39c3887933b236e1222deef732c2d6
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 958c8bb29e8b67c51b7b3b9b35bf94c62ed21865
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086460"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662446"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -135,7 +135,7 @@ ms.locfileid: "56086460"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="All Power BI consumer documentation" src="media/end-user-consumer/interact-analyze.svg" data-linktype="relative-path">
+                                                    <img alt="All Power BI consumer documentation" src="media/end-user-consumer/see-all.svg" data-linktype="relative-path">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -259,7 +259,7 @@ ms.locfileid: "56086460"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="" alt="All Power BI consumer documentation" data-linktype="relative-path">
+                                                        <img src="media/end-user-consumer/See_All_400x140.svg" alt="All Power BI consumer documentation" data-linktype="relative-path">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -364,7 +364,7 @@ ms.locfileid: "56086460"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="" alt="All Power BI consumer documentation" data-linktype="relative-path">
+                                                        <img src="media/end-user-consumer/See_All_400x140.svg" alt="All Power BI consumer documentation" data-linktype="relative-path">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

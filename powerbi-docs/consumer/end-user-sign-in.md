@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
-ms.openlocfilehash: f8c57e48fceb989a2a18ea8d9acbde375c8b08dc
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234677"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661451"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI hizmetinde oturum açma
 

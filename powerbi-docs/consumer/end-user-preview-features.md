@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1b0488d0cd0d8bccc5112622c51149318306b176
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9bfb3d00ace74707bf81ff518e9c1c31a016557a
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278872"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662216"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI hizmetinin önizleme özelliklerini kullanma
 ## <a name="what-are-preview-features"></a>*Önizleme özellikleri* nedir?

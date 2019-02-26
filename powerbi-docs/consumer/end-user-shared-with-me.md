@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f43f7f5c272a6020c74a3dd009a2f540fdfedd32
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6069368810fd89d8f8102b24fe220351e6e7e0ec
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296352"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661711"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Sizinle paylaşılan panoları ve raporları görüntüleme
 ## <a name="shared-with-me"></a>Benimle paylaşılan

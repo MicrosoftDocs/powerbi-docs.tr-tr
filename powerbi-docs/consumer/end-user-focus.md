@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9a9056e85e956b7bee88da15e011ecd846c69a9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: abc9671338e916671f243093bad455ed0cb4ef7e
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296076"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662055"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 
