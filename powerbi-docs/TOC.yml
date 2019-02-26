@@ -478,8 +478,6 @@ items:
         href: service-azure-sql-data-warehouse-with-direct-connect.md
       - name: DirectQuery ile Azure SQL Veritabanı
         href: service-azure-sql-database-with-direct-connect.md
-      - name: DirectQuery ile HDInsight Spark
-        href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI'da SQL Server Analysis Services canlı verileri
         href: sql-server-analysis-services-tabular-data.md
     - name: Verileri yenile
@@ -1307,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a4884b701b89ef0d92cacff12b6a75fda56c6e6e
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426827"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826710"

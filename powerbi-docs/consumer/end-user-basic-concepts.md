@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.custom: seodec18
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216206"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662273"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI hizmeti ***müşterilerine*** yönelik temel kavramlar
 

@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1edfa2d4eff5977ac1e517d9a3455e544fba5c72
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274594"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661572"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 Panonuzdaki her görselleştirme kutucuğu, veri keşif dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
