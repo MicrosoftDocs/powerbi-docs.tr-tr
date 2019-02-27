@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290487"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892195"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI'da R tarafından sağlanan özel görselleri kullanma
 
@@ -61,7 +61,7 @@ Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda 
 5. Aşağıdaki görüntüde gösterildiği gibi özel görseli içeri aktarırken dikkatli olmanız konusunda uyarı alırsınız:
 
    ![R görseli 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. Görsel dosyasının kaydedildiği konuma gidin ve dosyayı seçin. **Power BI Desktop** özel görselleştirmeleri .pbivisual uzantılı dosyalardır.
+6. Görsel dosyasının kaydedildiği konuma gidin ve dosyayı seçin. **Power BI Desktop** özel görselleştirmeleri .pbiviz uzantılıdır.
 
    ![R görseli 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Power BI Desktop'a döndüğünüzde yeni görsel türünü **Görsel Öğeler** bölmesinde bulabilirsiniz.
