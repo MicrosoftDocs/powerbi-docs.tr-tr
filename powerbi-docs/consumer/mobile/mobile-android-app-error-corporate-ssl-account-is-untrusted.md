@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280804"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662331"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>"Kurumsal SSL sertifikanıza güvenilmiyor" hatasını düzeltme - Power BI
 Microsoft Power BI Android uygulamasında oturum açarken şu iletiyi görebilirsiniz: "Bu cihaz, kurumsal SSL sertifikanıza güvenmediği için kimlik doğrulaması yapılamadı. Lütfen şirketinizin BT yöneticisiyle iletişime geçin." 
@@ -41,9 +41,9 @@ Cihazınızın saat dilimi ayarları hatalı olabilir.
 **Ayarlar** > **Sistem** > **Tarih ve saat** sayfasına gidip kontrol edin.
 
 ## <a name="custom-authentication-server"></a>Özel kimlik doğrulama sunucusu
-Özel kimlik doğrulama sunucusu kullanıyorsanız kurumsal kimlik doğrulama sunucusundaki SSL sertifikası geçersiz olabilir. Yardım için lütfen kuruluşunuzun BT yöneticisiyle iletişime geçin.
+Özel kimlik doğrulama sunucusu kullanıyorsanız kurumsal kimlik doğrulama sunucusundaki SSL sertifikası geçersiz olabilir. Lütfen kuruluşunuzun BT ekibiyle birlikte [bu makaledeki](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce) yönergeleri izleyerek kurumsal kimlik doğrulaması sunucusunun yapılandırmasını test edin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/) 
 

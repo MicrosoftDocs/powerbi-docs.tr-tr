@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325209"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662469"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -41,6 +41,10 @@ Power BI raporlarında bu özellikler için destek:
 [**Akıllı hizalama kılavuzları**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Rapor sayfanızdaki her şeyi hizalamanıza yardımcı olması için, sayfanızda nesneleri taşırken PowerPoint'teki gibi akıllı hizalama kılavuzları görürsünüz. Sayfanızdaki bir nesneyi her sürüklediğinizde veya yeniden boyutlandırdığınızda akıllı kılavuzları görürsünüz. Bir nesneyi başka bir nesnenin yakınına taşıdığınızda, taşınan nesne diğeriyle hizalı bir konuma yerleştirilir.
 
 **Erişilebilirlik özellikleri** Listelenemeyecek kadar çok erişilebilirlik özelliği var: örneğin, [alan listesi bölmesi erişilebilirlik desteği](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Alan listesi bölmesi tümüyle erişilebilirdir. Yalnızca klavyenizi ve ekran okuyucuyu kullanarak bölmede gezinebilir ve bağlam menüsünü kullanarak rapor sayfanıza alanlar ekleyebilirsiniz.
+
+#### <a name="custom-visuals"></a>Özel Görseller
+
+- Bu yayınla birlikte 2.3 API sürümü kullanılmıştır.
 
 ### <a name="administrator-settings"></a>Yönetici ayarları
 

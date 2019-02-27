@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431258"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826733"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,16 @@ ms.locfileid: "55431258"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>Ocak - Şubat 2019
+ 
+### <a name="visio-visuals"></a>Visio görselleri
+
+Visio görsellerinde çoklu oturum açma (SSO) etkinleştirilerek uygulamada Visio görseline sahip raporların görüntülenmesi sırasında ek oturum açma adımlarının tamamlanması gereksinimi ortadan kaldırıldı. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Power BI Mobil Windows uygulamasına panoda yorum yazma özelliği ekleniyor
+
+Verilerinizi tartışmak için panolara ve belirli kutucuklara doğrudan yorum ekleyebilirsiniz; panoları görenler yorumlarınızı da görür. 
 
 ## <a name="december-2018"></a>Aralık 2018
 
