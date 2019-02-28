@@ -843,7 +843,13 @@ items:
     - name: Desteklenen diller ve ülkeler/bölgeler
       href: supported-languages-countries-regions.md
     - name: Teknik incelemeler
-      href: whitepapers.md
+      items:
+      - name: Teknik incelemelere genel bakış
+        href: whitepapers.md
+      - name: Power BI güvenliği teknik incelemesi
+        href: whitepaper-powerbi-security.md
+      - name: Power BI premium dağıtımı
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Geliştiriciler için Power BI
   items:
   - name: Geliştiriciler Power BI ile neler yapabilir?
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Tabloya satır ekleme
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Kimlik bilgilerini yapılandırma
+        href: developer/configure-credentials.md
       - name: Kimlik bilgilerini şifreleme
         href: developer/encrypt-credentials.md
     - name: Başvuru
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826710"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892448"
