@@ -1242,12 +1242,12 @@ items:
         href: service-premium-understand-how-it-works.md
       - name: Power BI Premium'u satın alma
         href: service-admin-premium-purchase.md
-      - name: Power BI Premium'u yönetme
-        href: service-admin-premium-manage.md
       - name: Uygulama ile kapasiteleri izleme
         href: service-admin-premium-monitor-capacity.md
-      - name: Yönetici portalında kapasiteleri izleme
+      - name: Yönetim portalında kapasiteleri izleme
         href: service-admin-premium-monitor-portal.md
+      - name: İş yüklerini yapılandırma
+        href: service-admin-premium-workloads.md
       - name: Premium kapasiteyi yeniden başlatma
         href: service-admin-premium-restart.md
       - name: Büyük veri kümelerine yönelik destek
@@ -1313,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892448"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014335"
