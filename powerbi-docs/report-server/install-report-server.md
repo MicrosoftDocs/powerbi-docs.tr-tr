@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324910"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014450"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -37,11 +37,11 @@ Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklem
 
 Power BI Premium'u satın aldıysanız Power BI yönetici portalının **Premium ayarları** sekmesine giderek Power BI Rapor Sunucusu ürün anahtarınıza erişebilirsiniz. Bu yalnızca Power BI hizmeti yönetici rolüne atanan kullanıcılar veya Genel Yöneticiler tarafından kullanılabilir.
 
-![Premium ayarları](../media/service-admin-premium-manage/pbirs-product-key.png "Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı")
+![Premium ayarları](../report-server/media/install-report-server/pbirs-product-key.png "Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı")
 
 **Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
 
-![Ürün anahtarı](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI Rapor Sunucusu ürün anahtarı")
+![Ürün anahtarı](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI Rapor Sunucusu ürün anahtarı")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Yazılım Güvencesi (YG)
 

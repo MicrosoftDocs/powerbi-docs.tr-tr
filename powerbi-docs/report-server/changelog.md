@@ -1,6 +1,7 @@
 ---
 title: Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 description: Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224054"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327976"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -23,6 +23,7 @@ Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğeler
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
 
 ## <a name="january-2019"></a>Ocak 2019
+
 - **Power BI Rapor Sunucusu**            
     - *Sürüm 1.4.6969.7395 (Derleme 15.0.1102.235), Yayın Tarihi: 30 Ocak 2019*
         - Hata Düzeltmeleri
@@ -65,6 +66,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2019)  
 
 ## <a name="august-2018"></a>Ağustos 2018
+
 - **Power BI Rapor Sunucusu**
     - *Sürüm 1.3.6816.37243 (Derleme 15.0.2.557), Yayın Tarihi: 30 Ağustos 2018*
         - Hata düzeltmeleri
@@ -86,6 +88,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Ağustos 2018)         
         
 ## <a name="march-2018"></a>Mart 2018
+
 - **Power BI Rapor Sunucusu**
     - *Sürüm 1.2.6690.34729 (Derleme 15.0.2.402), Yayın Tarihi: 27 Nisan 2018*
         - Hata düzeltmeleri

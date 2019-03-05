@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408196"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014657"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -297,7 +297,7 @@ Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power
 
 ### <a name="create-and-use-dataflows-preview"></a>Veri akışları oluşturma ve kullanma (önizleme)
 
-Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Veri akışlarına yönelik bir genel bakış için bkz. [Power BI’da self servis veri hazırlığı (Önizleme)](service-dataflows-overview.md). Premium kapasitede veri akışlarını etkinleştirmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
+Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Veri akışlarına yönelik bir genel bakış için bkz. [Power BI’da self servis veri hazırlığı (Önizleme)](service-dataflows-overview.md). Premium kapasitede veri akışlarını etkinleştirmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
@@ -321,8 +321,6 @@ Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Ver
 **Power BI Premium** sekmesi, kuruluşunuz için satın alınan Power BI Premium kapasitelerini (EM veya P SKU) yönetmenize olanak tanır. Kuruluşunuzdaki tüm kullanıcılar **Power BI Premium** sekmesini görebilir ancak yalnızca *Kapasite yöneticisi* olarak atanan veya atama izinlerine sahip kullanıcılar sekme içeriğini görebilir. Bir kullanıcı, izinlerden herhangi birine sahip olmaması durumunda aşağıdaki ileti görüntülenir.
 
 ![Premium ayarlarına erişim yok](media/service-admin-portal/premium-settings-no-access.png)
-
-Premium ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Premium'u yönetme](service-admin-premium-manage.md).
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsi
 
 [Kuruluşunuzda BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  [Power BI yönetici rolünü anlama](service-admin-role.md)  
 [Kuruluşunuzda Power BI'ı denetleme](service-admin-auditing.md)  
-[Power BI Premium'u yönetme](service-admin-premium-manage.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

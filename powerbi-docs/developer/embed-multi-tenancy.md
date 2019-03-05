@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430729"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014266"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -142,7 +142,7 @@ Daha fazla yalıtım eklemek için, uygulama geliştiricisi birden çok çalış
 
 ### <a name="scalability"></a>Ölçeklenebilirlik
 
-Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, [kullanılmayan veri kümelerini çıkararak](../service-premium-understand-how-it-works.md) etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur. [Kapasitenin işleyişi hakkında daha fazla bilgi edinin](../service-admin-premium-manage.md).
+Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, [kullanılmayan veri kümelerini çıkararak](../service-premium-understand-how-it-works.md) etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur.
 
 Bu avantajlara rağmen, SaaS uygulamasının gelecekte ulaşabileceği ölçek göz önüne alınmalıdır. Örneğin, yönetilebilecek yapıt sayısıyla ilgili sınırlamalara ulaşılabilir. Daha fazla ayrıntı için bu makaledeki dağıtım [sınırlamalarına](#summary-comparison-of-the-different-approaches) bakın. Kullanılan kapasite SKU'su veri kümelerinin içine sığabilmesi gereken bellek boyutuna, [aynı anda çalıştırılabilecek yenileme sayısına](../service-premium-understand-how-it-works.md) ve maksimum veri yenileme sıklığına sınır getirir. Yüzlerce veya binlerce veri kümesi yönetilirken, test edilmesi önerilir. Ortalama ve en yüksek kullanım hacimlerinin, ayrıca büyük veri kümeleri veya farklı kullanım desenleri olup diğer kiracılardan farklı yönetilen belirli kiracıların da göz önüne alınması önerilir.
 

@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794862"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014588"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme
 
@@ -55,7 +55,7 @@ Kapasitedeki herhangi bir veri kümesine yönelik etkileşimli bir sorgu düzenl
 
 ### <a name="workloads"></a>İş Yükleri
 
-Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Şimdi iki ek iş yükü için önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Etkinleştirilmesi durumunda bu iş yükleri kapasitenizdeki bellek kullanımını etkileyebilir. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
+Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Şimdi iki ek iş yükü için önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Etkinleştirilmesi durumunda bu iş yükleri kapasitenizdeki bellek kullanımını etkileyebilir. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium kapasitede CPU kaynak yönetimi
 
@@ -116,6 +116,3 @@ Farklı SKU’ları test etmek ve beklenen iş yükünüz için en iyi Premium S
 
 Bazı durumlarda, bilgisayarınızdaki modelin Power BI Desktop (.pbix) dosyasını açmak ve bellek ile CPU tüketimini denetlemek, sorun hakkında çok fazla bilgi verir. Bu işlem çok büyük modellerde işe yaramaz ancak daha küçük olan bazı modeller için modeli bilgisayarınızdan açmayı, yenilemeyi ve sorgulamayı deneyin. Modeli açtığınızda model boyutunu, belleği ve CPU’yu kontrol edin. Yenilemeyi ve sorgulamayı deneyin. Görev yöneticisini kullanarak yerel dosya için CPU ve bellek tüketimini denetleyin. Bazı durumlarda, bilgisayarınızdaki ölçümler P1/ P2 gibi daha düşük bir premium kapasitenin çözümünüz için işe yaramayabileceğini belirtebilir.
 
-## <a name="next-steps"></a>Sonraki adımlar
-
-[Power BI Premium ve Power BI Embedded'da kapasiteleri yönetme](service-admin-premium-manage.md)

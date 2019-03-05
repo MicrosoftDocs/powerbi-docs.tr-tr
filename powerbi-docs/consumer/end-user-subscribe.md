@@ -2,20 +2,21 @@
 title: Raporlara ve panolara kendiniz abone olma
 description: Power BI raporunun veya panosunun e-postayla gönderilen anlık görüntüsüne kendinizi ve iş arkadaşlarınızı abone yapmayı öğrenin.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 02/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 99501c6acc54188e2e87f0ae93354cac8116273c
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661796"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327953"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en fazla önem taşıyan rapor sayfalarına ve panolara abone olduğunuzda Power BI, gelen kutunuza e-posta yoluyla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  
