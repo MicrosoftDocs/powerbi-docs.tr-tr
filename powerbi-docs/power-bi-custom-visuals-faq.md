@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408150"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892333"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -57,8 +57,44 @@ Evet, yöneticinin özel görselleri yönetim portalından devre dışı bırakm
 
 ### <a name="what-are-certified-custom-visuals"></a>Sertifikalı özel görseller nedir?
 
-Sertifikalı özel görseller, [markette](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunan ve Power BI ekibi tarafından oluşturulan [belirli](power-bi-custom-visuals-certified.md) kod gereksinimlerini karşılayan ve belirli testlerden geçmiş olan görsellerdir.  Gerçekleştirilen testler görselin dış hizmetlere veya kaynaklara erişmediğini denetleyecek şekilde tasarlanmıştır. Öte yandan, üçüncü taraf özel görsellerinin yazarı Microsoft değildir. Müşterilerin bu tür bir görselin işlevselliğini doğrulamak için doğrudan yazarına başvurmasını öneririz.
+Sertifikalı özel görseller, [markette](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunan ve Power BI ekibi tarafından oluşturulmuş [belirli](power-bi-custom-visuals-certified.md) kod gereksinimlerini karşılayan ve belirli testlerden geçmiş olan görsellerdir.  Gerçekleştirilen testler görselin dış hizmetlere veya kaynaklara erişmediğini denetleyecek şekilde tasarlanmıştır. Ancak, Microsoft üçüncü taraf özel görsellerinin yazarı değildir ve müşterilere bu tür bir görselin işlevselliğini doğrulamak için doğrudan yazarına başvurmasını öneririz.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>Sertifikasyon işlemi sırasında hangi testler yapılır?
+
+Sertifikasyon işlemi testlerinden bazıları şunlardır: Kod incelemeleri, statik kod analizi, veri sızıntısı, rastlantısal veri testi, sızma testi, XSS erişimi testi, kötü amaçlı veri ekleme, giriş doğrulama ve işlevsel test.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>Gönderilen her görseli sertifikalandırıyor musunuz?
+
+Evet. Sertifikalı görselin yeni bir sürümü Market’e her gönderildiğinde, görselin sürüm güncelleştirmesi de aynı sertifika denetimlerinden geçer.
+
+Geliştiriciler için not: Sertifikalı görsele yönelik bir sürüm güncelleştirilmesi gönderiyorsanız [ilk sertifikasyon isteği](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) olarak ayrı bir e-posta göndermeniz gerekmez. Sürüm güncelleştirmesinin sertifikasyonu otomatik olarak gerçekleşir ve reddedilmesine neden olan ihlaller için nelerin düzeltilmesi gerektiğini açıklayan bir e-posta gönderilir. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>Sertifikalı bir görselin yeni bir güncelleştirme ile sertifikalı olmayı bırakması mümkün müdür?
+
+Hayır, bu mümkün değildir. Sertifikalı bir görsel yeni bir güncelleştirme ile sertifikasız hale gelmez. Güncelleştirme reddedilir.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>Sertifikasyon işlemine gönderiyorsam, kodumu ortak depoda paylaşmam gerekiyor mu?
+
+Hayır, kodunuzu herkese açık şekilde paylaşmanıza gerek yoktur. Ancak, görselin kodunu denetlememiz için bize okuma izinleri vermeniz gerekir. Örn. GitHub’daki özel depo.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>Sertifikalanması için görseli [Market](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)’te [yayımlamamız](https://docs.microsoft.com/power-bi/developer/office-store) gerekiyor mu?
+
+Evet. Görselin ilk olarak Market’te yayımlanması, sertifikasyon işlemi için zorunlu bir gereksinimdir.
+Özel bir görselin sertifikalanması için sunucularımızda bulunması gerekir. Özel görselleri sertifikalandıramayız.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>Görselimin sertifikalanması ne kadar sürer?
+
+Güncelleştirilmiş sürüm için bu işlem 2 haftaya kadar sürebilir. Yeni bir gönderim için (ilk sertifikasyon) bu işlem 3 haftaya kadar sürebilir. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Sertifikasyon işlemi, veri sızıntısı yaşanmasını önler mi?
+
+Gerçekleştirilen testler, görselin dış hizmetlere veya kaynaklara erişmediğini denetleyecek şekilde tasarlanmıştır. Ancak, Microsoft üçüncü taraf özel görsellerinin yazarı değildir ve müşterilere bu tür bir görselin işlevselliğini doğrulamak için doğrudan yazarına başvurmasını öneririz.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>Sertifikalı olmayan özel görselleri kullanmak güvenli midir?
+
+Sertifikalı olmayan özel görsellerin, güvenli olmayan görseller olması şart değildir.
+Bazı görseller sertifikalanmamıştır çünkü [sertifikasyon gereksinimlerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) biriyle veya birden çoğuyla uyumlu değildir. Örneğin, harita görselleri gibi dış hizmetlere bağlanan veya ticari kitaplıkları kullanan görseller böyledir.
+ 
 ## <a name="visuals-with-additional-purchases"></a>Ek satın almaları olan görseller
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Ek satın almaları olan görsel nedir?
@@ -100,7 +136,6 @@ Bir özel IAP görseli üzerinde çalışıyorsanız veya zaten böyle bir görs
 Ayrıca yönergelerde en iyi yöntemler hakkında notlar da bulabilirsiniz.  
 > [!Note]
 > Tüm ücretsiz görseller daha önce sunulan ücretsiz özellikleri korumalıdır. Eski ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Eski ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP özel görselimin sertifikalı olmasını sağlayabilir miyim?
 

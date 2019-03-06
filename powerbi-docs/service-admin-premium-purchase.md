@@ -8,41 +8,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 02/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794384"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892402"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
-Bu makalede kuruluşunuz için Power BI Premium kapasitesini satın alma adımları anlatılmaktadır. Power BI Premium kapasitesini Office 365 yönetim merkezinden satın alabilir, Power BI yönetici portalında da [kapasitelerinizi yönetebilirsiniz](service-admin-premium-manage.md).
+Bu makalede kuruluşunuz için Power BI Premium kapasitesini (P1-P3) satın alma adımları anlatılmaktadır. Power BI Premium kapasitesini Office 365 yönetim merkezinden satın alabilir, Power BI yönetici portalında da [kapasitelerinizi yönetebilirsiniz](service-admin-premium-manage.md). Geçerli fiyatlandırma ve planlama bilgileri için bkz. [Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/) ve [Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/).
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Kuruluşunuzda Power BI Premium sürümü kullanılsa da içerik oluşturucularının Power BI Pro lisansına sahip olması gerekir. Kuruluşunuz için en az bir Power BI Pro lisansı satın aldığınızdan emin olun.
 
-Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md). Geçerli fiyatlandırma ve planlama bilgileri için bkz. [Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/) ve [Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/).
-
-> [!IMPORTANT]
-> Kuruluşunuzda Power BI Premium sürümü kullanılsa da içerik yazarlarının Power BI Pro lisansına sahip olması gerekir. Kuruluşunuz için en az bir Power BI Pro lisansı satın aldığınızdan emin olun.
->
->Premium aboneliğinizin süresi dolarsa kapasitenize 30 gün boyunca tam erişim sağlayabilirsiniz. Bu sürenin sonunda içeriğiniz paylaşılan kapasiteye dönüştürülür. 1 GB üzerindeki modeller paylaşılan kapasitede desteklenmez.
+Premium aboneliğinizin süresi dolarsa kapasitenize 30 gün boyunca tam erişim sağlayabilirsiniz. Bu sürenin sonunda içeriğiniz paylaşılan kapasiteye dönüştürülür. 1 GB üzerindeki modeller paylaşılan kapasitede desteklenmez.
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Power BI Premium P1 ile yeni kiracı oluşturma
 
-Mevcut kiracınız yoksa ve yeni bir kiracı oluşturmak istiyorsanız aynı anda Power BI Premium sürümünü de satın alabilirsiniz. Aşağıdaki bağlantı yeni bir kiracı oluşturma işlemi sırasında size yardımcı olacak ve Power BI Premium: [Power BI Premium P1 teklifini](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1) satın almanızı sağlayacaktır.
-
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
-
-Kiracınızı oluşturduğunuzda otomatik olarak kiracının Office 365 Genel Yönetici rolüne atanmış olursunuz.
+Mevcut kiracınız yoksa ve yeni bir kiracı oluşturmak istiyorsanız aynı anda Power BI Premium sürümünü de satın alabilirsiniz. Aşağıdaki bağlantı yeni bir kiracı oluşturma işlemi sırasında size yardımcı olacak ve Power BI Premium: [Power BI Premium P1 teklifini](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1) satın almanızı sağlayacaktır. Kiracınızı oluşturduğunuzda otomatik olarak kiracının Office 365 Genel Yönetici rolüne atanmış olursunuz.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Mevcut kuruluşlar için bir Power BI Premium kapasitesi satın alma
 
-Mevcut bir kuruluşunuz varsa abonelik ve lisans satın almak için Office 365 Genel Yönetici rolüne veya Faturalama Yöneticisi rolüne atanmış olmanız gerekir. Daha fazla bilgi için bkz. [Office 365 yönetici rolleri hakkında](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Mevcut bir kuruluşunuz (kiracı) varsa abonelik ve lisans satın almak için Office 365 Genel Yöneticisi veya Faturalama Yöneticisi rolünde olmanız gerekir. Daha fazla bilgi için bkz. [Office 365 yönetici rolleri hakkında](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-Premium kapasite satın almak için aşağıdaki adımları izleyin.
+Premium kapasite satın almak için bu adımları izleyin.
 
 1. Power BI hizmetinden Office 365 uygulama seçiciyi ve ardından **Yönetici**'yi seçin.
 
@@ -59,19 +50,6 @@ Premium kapasite satın almak için aşağıdaki adımları izleyin.
     ![Şimdi satın alın](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Satın alma işlemini tamamlamak için adımları uygulayın.
-
-İlgili SKU'nun satın alma sayfasına doğrudan gitmek için aşağıdaki bağlantıları da kullanabilirsiniz. Bu SKU'lar hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium.md#premium-capacity-nodes).
-
-> [!IMPORTANT]
-> Office 365 Genel Yönetici rolüne veya Faturalama Yöneticisi rolüne atanmadıysanız aşağıdaki bağlantılardan birini seçtiğinizde bir hatayla karşılaşırsınız.
-
-| Doğrudan satın alma bağlantıları |
-| --- |
-| [EM3 (aylık) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1 (aylık) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 Satın alma işlemini tamamladıktan sonra **Hizmetleri satın alın** sayfasında satın alınan ve etkinleştirilen öğeler gösterilir.
 
@@ -102,17 +80,13 @@ Ardından **Hizmet satın alın** sayfasında sahip olduğunuz örnek sayısı g
 
 Aboneliğinizi Office 365 yönetim merkezinden iptal edebilirsiniz. Premium aboneliğiniz iptal etmek için aşağıdaki işlemleri gerçekleştirin.
 
-![Aboneliği iptal et](media/service-admin-premium-purchase/premium-cancel-subscription.png)
-
 1. Office 365 yönetim merkezine gidin.
 
 1. **Faturalama** > **Abonelikler**'i seçin.
 
 1. Listeden Power BI Premium aboneliğinizi seçin.
 
-1. **Diğer eylemler** açılır menüsünden **Aboneliği iptal et**'i seçin.
-
-    ![Diğer eylemler](media/service-admin-premium-purchase/o365-more-actions.png)
+1. **Diğer eylemler** > **Aboneliği iptal et**’i seçin.
 
 1. **Aboneliği iptal et** sayfasında [erken sonlandırma ücreti](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3) ödemeniz gerekip gerekmediği belirtilir. Bu sayfada aboneliğe ait verilerin silineceği zamanı da görebilirsiniz.
 

@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224031"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892264"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop'ta görsellerde görünen artışları ve düşüşleri açıklamak için içgörüleri kullanma (Önizleme)
 
 Genellikle görsellerdeki değerlerde büyük bir artış ve ardından sert bir düşüş görürsünüz. Bu dalgalanmaların nedenini merak ediyor olabilirsiniz. **Power BI Desktop**'taki **içgörüler** sayesinde nedeni birkaç tıklamayla bulabilirsiniz.
 
-Örneğin aşağıdaki *Satış Tutarı* değerini *Yıl* ve *Ülke* ölçütlerine göre gösteren görseli ele alalım. 2014 yılında satışlarda büyük bir düşüş gerçekleşmiştir ve satış rakamları *1. Çeyrek* ile *2. Çeyrek* arasında sert bir düşüş yaşamıştır. Bu gibi durumlarda oluşan değişikliğin nedenini açıklamaya yardımcı olması için verileri keşfedebilirsiniz. 
+Örneğin, aşağıdaki *Satış Tutarı* değerini *Yıl* ve *Çeyrek* ölçütlerine göre gösteren görseli ele alalım. 2014 yılında satışlarda büyük bir düşüş gerçekleşmiştir ve satış rakamları *1. Çeyrek* ile *2. Çeyrek* arasında sert bir düşüş yaşamıştır. Bu gibi durumlarda oluşan değişikliğin nedenini açıklamaya yardımcı olması için verileri keşfedebilirsiniz. 
 
 ![Artışlar ve düşüşler içeren görsel](media/desktop-insights/insights_01a.png)
 

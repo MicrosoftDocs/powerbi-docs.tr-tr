@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325052"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892425"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Power BI’da **yer işaretlerini** kullanarak, filtreleme ve görsellerin durumu dahil olmak üzere bir rapor sayfasının geçerli olarak yapılandırılmış görünümünü yakalayabilir ve ardından, kaydedilmiş bu yer işaretini seçerek söz konusu duruma kolayca geri dönebilirsiniz. 
@@ -25,6 +25,9 @@ Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sır
 ![Power BI'da yer işaretleri](media/desktop-bookmarks/bookmarks_01.png)
 
 Yer işaretlemesine yönelik birçok kullanım vardır. Yer işaretlerini, rapor oluşturma konusundaki ilerleyişinizi izlemek için kullanabilirsiniz (yer işaretleri kolayca eklenebilir, silinebilir ve yeniden adlandırılabilir) ve yer işaretleri üzerinden sırayla ilerleyen PowerPoint benzeri bir sunum oluşturarak raporunuzla bir hikaye anlatmak için yer işaretlerinden yararlanabilirsiniz. Yer işaretleri, en iyi şekilde nasıl yararlanabileceğinize yönelik tercihlerinize bağlı olarak başka amaçlarla da kullanılabilir.
+
+> [!TIP]
+> Power BI hizmetinde Kişisel Yer İşaretleri’ni kullanma hakkında bilgi edinmek için Kişisel Yer İşaretleri özelliğinin [blog duyurusuna](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) göz atın. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Yer işaretleri önizlemesini (Mart 2018’den önceki sürümler) etkinleştirme
 Power BI Desktop’ın Mart 2018 sürümünden itibaren, yer işaretleri genel kullanıma sunulmuştur. 

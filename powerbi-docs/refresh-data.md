@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277676"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892494"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.
@@ -216,7 +216,7 @@ Gerçek zamanlı panolar, verilerin güncel olduğundan emin olmak için Microso
 Zamanlanmış yenileme yapılandırma konusunda bilgi edinmek için bkz. [Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md)
 
 ## <a name="common-data-refresh-scenarios"></a>Yaygın veri yenileme senaryoları
-Bazen Power BI'da veri yenileme ile ilgili bilgi edinmenin en iyi yolu örnekleri incelemektir. Yaygın olarak karşılaşılan veri yenileme senaryolarından bazıları şu şekildedir:
+Bazen Power BI’da veri yenileme ile ilgili bilgi edinmenin en iyi yolu örnekleri incelemektir. Yaygın olarak karşılaşılan veri yenileme senaryolarından bazıları şu şekildedir:
 
 ### <a name="excel-workbook-with-tables-of-data"></a>Veri tabloları içeren Excel çalışma kitabı
 Birden fazla veri tablosu içeren bir Excel çalışma kitabınız var ancak bunların hiçbiri Excel veri modeline yüklü değil. Veri Al işlevini kullanarak çalışma kitabını yerel sürücünüzden Power BI'a yükleyip bir pano oluşturuyorsunuz. Daha sonra yerel sürücünüzdeki çalışma kitabı tablolarının bazıları üzerinde değişiklik yapıyorsunuz ve Power BI'daki panonuzu yeni veriler ile güncelleştirmek istiyorsunuz.
