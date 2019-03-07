@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324956"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226216"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda satır düzeyi güvenlik (RLS)
 
@@ -48,7 +48,7 @@ Raporunuzu Power BI Rapor Sunucusu'nda kaydettikten sonra, güvenliği yönetir 
 1. Power BI Desktop'ta raporu Power BI Rapor Sunucusu'na kaydedin. Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü kullanmalısınız.
 2. Power BI Rapor Hizmeti'nde raporun yanındaki üç noktayı (**…**) seçin. 
 
-3.  **Yönet** > **Satır düzeyi güvenlik**'i seçin. 
+3. **Yönet** > **Satır düzeyi güvenlik** öğesini seçin. 
 
      ![Satır düzeyi güvenliği yönetme](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

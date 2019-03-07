@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286694"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014473"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Harita görselleştirmelerine ilişkin İpuçları ve Püf Noktaları
-Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmak için Bing Haritalar'dan yararlanır. 
+Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmayı dener ancak tek başına başarılı olmazsa, Bing Haritalar'dan yararlanır. 
 
 Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama için kullandığı URL'lere erişim izni verilecek şekilde güncelleştirmesi gerekebilir.  Bu URL'ler şunlardır:
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Doğru coğrafi kodlamayı edinme olasılığını artırmak için aşağıdaki 
 ## <a name="what-is-sent-to-bing-maps"></a>Bing Haritalar'a hangi veriler gönderilir?
 Power BI hizmeti ve Power BI Desktop, Bing'e harita görselleştirmesini oluşturması için ihtiyaç duyduğu coğrafi verileri gönderir. Bunlar, **Konum**, **Enlem** ve **Boylam** kutularının yanı sıra **Rapor düzeyi**, **Sayfa düzeyi** veya **Görsel düzeyi** filtre demetlerindeki coğrafi alanları içerebilir. Tam olarak nelerin gönderildiği ise harita türüne göre değişir. Daha fazla bilgi edinmek için bkz. [Bing Haritalar gizliliği](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Haritalarda (kabarcık haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, Konum (ve filtre) demetlerindeki tüm veriler Bing'e gönderilir.     
-* Kartogramlar, enlem ve boylam sağlanmış olsa bile Konum demetinde bir alan bulunmasını gerektirir. Konum, Enlem veya Boylam demetlerindeki tüm veriler Bing'e gönderilir.
+* Haritalarda (kabarcık haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, **Konum** (ve filtre) demetlerindeki tüm veriler Bing'e gönderilir.     
+* Kartogramlar, enlem ve boylam sağlanmış olsa bile **Konum** demetinde bir alan bulunmasını gerektirir. **Konum**, **Enlem** veya **Boylam** demetlerindeki tüm veriler Bing'e gönderilir.
   
     Aşağıdaki örnekte, coğrafi kodlama için **Vendor** alanı kullanılmaktadır, bu nedenle tüm satıcı verileri Bing'e gönderilir. **Boyut** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
   

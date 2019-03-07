@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296137"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196448"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Kurumsal içerik paketleri: Kopyalama, yenileme ve erişim kazanma
 
@@ -36,6 +36,12 @@ Bir kurumsal içerik paketi yayımlandığında, bütün alıcılar aynı panoyu
 2. **Kaydet**'i seçin.  
 
 Artık, değiştirebileceğiniz bir kopyanız var. Yaptığınız değişiklikleri sizden başka kimse göremez.
+
+> [!NOTE]
+> Daha önce, bir içerik paketini yüklediğinizde veya kopyasını oluşturduğunuzda, çalışma alanı içerik listesinde yeni bir veri kümesi görüntüleniyordu. Kısa bir süre önce yapılan bir güncelleştirme ile deneyim yeni başvurulan veri kümesi simgesi kullanılarak yalnızca bir tane görüntülemek için basitleştirildi:
+>
+> ![bağlantı simgesi ile veritabanı](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Yardım!  İçerik paketine artık erişemiyorum
 Bu durum çeşitli nedenlerle oluşabilir:

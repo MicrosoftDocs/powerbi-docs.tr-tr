@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725352"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226147"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 
-Microsoft Power BI Premium, kuruluşunuz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, içerik tüketicileri için kullanıcı başına Pro lisans satın almanız gerekmeden içeriğin geniş kapsamlı dağıtımına da olanak sağlar.  
+> [!NOTE]
+> Bu makale yeni özellikleri açıklamak, daha fazla ayrıntı sağlamak ve okunabilirliği iyileştirmek için şu anda güncelleştiriliyor. En son bilgiler için bkz. [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](whitepaper-powerbi-premium-deployment.md).
+
+Power BI Premium, kuruluşunuz için Power BI hizmetinin çalıştırılmasına yönelik olarak ayrılmış kaynaklar sunar. Böylece daha güvenilir performans ve daha yüksek veri hacimleri elde edersiniz. Premium, içerik tüketicileri için kullanıcı başına Pro lisans satın almanız gerekmeden içeriğin geniş kapsamlı dağıtımına da olanak sağlar.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium kapasite ve paylaşılan kapasite
 
@@ -79,9 +82,7 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 ## <a name="workloads-in-premium-capacity"></a>Premium kapasitedeki iş yükleri
 
-Power BI’da iş yükünü kullanıcılarınızın kullanımına sunabileceğiniz çok sayıda hizmetten biri olarak düşünün. Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler.
-
-Şimdi iki ek iş yükü için önizleme desteği sunuyoruz: **Sayfalandırılmış raporlar** ve **Veri akışları**. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads).
+Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Premium ayrıca **Yapay zeka**, **Veri akışları** ve **Sayfalandırılmış raporlar** için ek iş yüklerini destekler. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
 
 ### <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
@@ -114,10 +115,10 @@ Power BI Premium ile kuruluşunuzun şirket içindeki Power BI Rapor Sunucusu'nu
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Premium Hakkında SSSS](service-premium-faq.md)
-[Power BI Premium'u satın alma](service-admin-premium-purchase.md)
-[Power BI Premium'u yönetme](service-admin-premium-manage.md)
-[Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
-[Power BI Kuruluş Dağıtımını Planlama teknik incelemesi](https://aka.ms/pbienterprisedeploy)
+[Power BI Premium Kapasitelerini Dağıtma ve Yönetme](whitepaper-powerbi-premium-deployment.md)   
+[Power BI Premium'u satın alma](service-admin-premium-purchase.md)   
+[Power BI Premium hakkında SSS](service-premium-faq.md)   
+
+
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

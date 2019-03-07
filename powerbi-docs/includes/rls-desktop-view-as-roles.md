@@ -1,7 +1,7 @@
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>Power BI Desktop'ta rolleri doğrulama
 Rollerinizi oluşturduktan sonra rol sonuçlarını Power BI Desktop'ta test edin.
 
-1.  **Rol Olarak Görüntüle**'yi seçin. 
+1. **Rol Olarak Görüntüle**’yi seçin. 
 
     ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
@@ -9,13 +9,13 @@ Rollerinizi oluşturduktan sonra rol sonuçlarını Power BI Desktop'ta test edi
 
     ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-3. Oluşturduğunuz rollerden birini seçin > **Tamam** 'ı seçerek bu rolü uygulayın. Rapor seçilen rolle ilgili verileri işler. 
+3. Oluşturduğunuz rollerden birini seçin > **Tamam**'ı seçerek bu rolü uygulayın. Rapor seçilen rolle ilgili verileri işler. 
 
 4. **Diğer kullanıcı**’yı seçebilir ve bir kullanıcı belirtebilirsiniz. En iyisi Kullanıcı Asıl Adını (UPN) sağlamaktır çünkü Power BI hizmeti ve Power BI Rapor Sunucusu bunu kullanır.
 
     ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 
-1.  **Tamam** 'ı seçtiğinizde raporlar kullanıcının görebileceği içerikle oluşturulur. 
+1. **Tamam**'ı seçtiğinizde raporlar kullanıcının görebileceği içerikle oluşturulur. 
 
 Power BI Desktop'ta, **Diğer kullanıcı** ancak DAX ifadelerinize göre dinamik güvenlik kullandığınızda farklı sonuçlar gösterir. 
 

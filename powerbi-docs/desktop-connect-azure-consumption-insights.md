@@ -1,5 +1,5 @@
 ---
-title: Azure Consumption Insights verilerine bağlanma (Beta)
+title: Power BI Desktop’tan Azure maliyet ve kullanımına bağlanma
 description: Power BI Desktop'ı kullanarak Azure'a kolayca bağlanın ve hem tüketim hem de kullanım ile ilgili öngörüler edinin
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216068"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327999"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Power BI Desktop'ta Azure Tüketim Öngörüleri'ne bağlanma (Beta)
-**Azure Tüketim Öngörüleri** bağlayıcısı ile Azure'a bağlanıp kuruluşunuzun Azure hizmetleri kullanımı hakkında ayrıntılı veri ve bilgi edinmek için **Power BI Desktop** uygulamasını kullanabilirsiniz. Ayrıca, kuruluşunuzun Azure kullanımını raporlamak ve paylaşmak için ölçüler, özel sütunlar ve görseller oluşturabilirsiniz. **Azure Tüketim ve Öngörüleri** bağlayıcısının bu sürümü Beta sürümünde olup değişikliğe tabidir.
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop’tan Azure maliyet ve kullanım verilerini analiz etme
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI Desktop, Azure’a bağlanarak kuruluşunuzun Azure hizmet kullanımı hakkında ayrıntılı veriler alabilir. Bu verilerle, Azure harcamalarınızı daha iyi anlamak ve analiz etmek için özel raporlar ve ölçümler oluşturabilirsiniz.
 
-Bu makalede, **Azure Tüketim Öngörüleri** bağlayıcısını kullanarak bağlanıp ihtiyacınız olan verileri alma ve Azure Kurumsal Bağlayıcısından geçiş yapma hakkında bilgi edinmenin yanı sıra **ACI** (Azure Tüketim Öngörüleri) API'sinde bulunan *kullanım ayrıntıları sütunlarına* ilişkin bir eşleme bulacaksınız.
+Power BI şu anda Kurumsal Anlaşma ve Müşteri Sözleşmesi faturalama hesaplarına bağlanmayı destekler.
 
-## <a name="connect-to-azure-consumption-insights"></a>Azure Tüketim Öngörüleri'ne bağlanma
+Kurumsal Anlaşma kullanıcıları Azure Consumption Insights bağlayıcısı ile bağlanmalıdır. Müşteri Sözleşmesi hesabı kullanıcıları Azure Maliyet Yönetimi bağlayıcısı ile bağlanmalıdır.
+
+## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights ile bağlanma
+
+Azure Consumption Insights, Azure Kurumsal Anlaşma faturalama hesaplarınıza bağlanmanızı sağlar.
+
+Bu bölümde, bağlanıp ihtiyacınız olan verileri alma ve Azure Kurumsal Bağlayıcısından geçiş yapma hakkında bilgi edinmenin yanı sıra **ACI** (Azure Consumption Insights) API'sinde bulunan *kullanım ayrıntıları sütunlarına* ilişkin bir eşleme bulacaksınız.
+
 **Azure Tüketim Öngörüleri** bağlayıcısını kullanarak başarıyla bağlanmak için Azure portalında Kurumsal sürümünün özelliklerine erişiminizin olması gerekir.
 
 **Azure Tüketim Öngörüleri** bağlayıcısını kullanarak bağlanmak için **Power BI Desktop**'taki **Giriş** şeridinde **Veri Al**'ı seçin. Soldaki kategorilerden **Çevrimiçi Hizmetler**'i seçtiğinizde **Microsoft Azure Tüketim Öngörüleri (Beta)** seçeneğini görürsünüz. **Bağlan**'ı seçin.
@@ -70,7 +76,7 @@ Bağlanmak için *Erişim anahtarınızı* girin.
 > 
 > 
 
-**Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.  Bağlayıcı, tablonun varsayılan süresine göre verileri yükleyecektir.  Süreyi özelleştirmeniz gerekirse, [özel bir sorgu ayarlayabilirsiniz](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+**Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -201,6 +207,71 @@ Azure Portal'daki ayrıntı sütunları ve adları API ve bağlayıcıda benzerd
 | Yıl | |Yıl |Hayır |
 | SubscriptionId |subscriptionId |SubscriptionId |Evet |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Hayır |
+
+## <a name="connect-with-azure-cost-management"></a>Azure Maliyet Yönetimi ile bağlanma
+
+Bu bölümde, Müşteri Sözleşmesi faturalama hesabınıza bağlanmayı öğreneceksiniz.
+
+**Azure Maliyet Yönetimi** bağlayıcısını kullanarak bağlanmak için **Power BI Desktop**'taki **Giriş** şeridinde **Veri Al**'ı seçin.  Sol taraftaki kategorilerden **Azure**’u seçtiğinizde **Azure Maliyet Yönetimi (Beta)** seçeneğini görürsünüz. **Bağlan**'ı seçin.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+Görüntülenen iletişim kutusunda, *faturalama profili kimliğinizi* girin.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+Faturalama profili kimliğinizi [Azure portaldan](https://portal.azure.com) alabilirsiniz.  **Maliyet Yönetimi + Faturalama**’ya gidin, faturalama hesabınızı seçin ve ardından kenar çubuğunda **Faturalama profilleri**’ni seçin.  Faturalama profilinizi seçin ve kenar çubuğunda **Özellikler**’i seçin.  Faturalama profili kimliğinizi kopyalayın.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+Azure e-postanız ve parolanızla oturum açmanız istenir.  Kimliğinizi doğruladıktan sonra, kullanabileceğiniz on iki tabloyu içeren **Gezgin** penceresi görüntülenir:
+
+* **Faturalama olayları**: Yeni faturalar, kredi satın almaları ve daha fazlası için olay günlüğü sağlar.
+* **Budgets**: Mevcut bütçe hedeflerine göre gerçek maliyetleri ve kullanımı görüntülemek için bütçe ayrıntılarını sağlar. 
+* **Ücretler**: Azure kullanımı, Market ücretleri ve ayrı faturalanan ücretlerin ay düzeyinde özetini sağlar.
+* **Kredi lotları**: Belirtilen faturalama profili için Azure kredi lot satın alma ayrıntılarını sağlar.
+* **Kredi özeti**: Belirtilen faturalama profili için kredi özetini sağlar.
+* **Market**: Kullanım tabanlı Azure Market ücretlerini sağlar.
+* **Pricesheets**: Belirtilen faturalama profili için ölçüme göre geçerli ücretleri sağlar.
+* **RI ücretleri**: Son 24 ayda Ayrılmış Örneklerinizle ilişkili ücretleri sağlar.
+* **RI önerileri (tek)**: Son 7, 30 veya 60 günde tek bir abonelikteki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
+* **RI önerileri (paylaşılan)**: Son 7, 30 veya 60 günde tüm aboneliklerinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
+* **RI kullanımı**: Mevcut Ayrılmış Örneklerinizin geçen ayki tüketim ayrıntılarını sağlar.
+* **Kullanım ayrıntıları**: Belirtilen faturalama profili kimliğinin tüketilen miktar ve tahmini ücretlerinin dökümünü sağlar.
+
+Önizlemeyi görmek için herhangi bir tablonun yanındaki onay kutusunu seçebilirsiniz.  Tablo adlarının yanlarında bulunan kutuları işaretleyerek bir veya birden fazla tablo seçebilir ve ardından **Yükle** seçeneğini belirleyebilirsiniz.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+**Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+Belirlediğiniz veriler yüklendikten sonra, seçtiğiniz tabloları ve alanları **Alanlar** bölmesinde görebilirsiniz.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>Özel sorgu yazma
+
+Ay sayısını özelleştirmek, API sürümünü değiştirmek veya döndürülen verilere daha gelişmiş mantık uygulamak istiyorsanız, özel bir M sorgusu oluşturabilirsiniz.
+
+Bunun için **Power BI Desktop**'ın **Giriş** şeridindeki **Veri Al** düğmesinde bulunan açılır menüyü ve ardından **Boş Sorgu**'yu seçin.  Ayrıca bu işlemi **Sorgu Düzenleyicisi**'nin sol tarafındaki **Sorgular** bölmesinde sağ tıklayıp görünen menüde **Yeni Sorgu > Boş Menü** seçeneğini belirleyerek de yapabilirsiniz.
+
+**Formül çubuğunda**, aşağıdakileri yazın, `billingProfileId` değerini kendi kimliğinizle ve "charges" değerini geçerli bir tablo adıyla (yukarıdaki listeden) değiştirin.
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+`numberOfMonths` değerini 1 ile 36 arasında herhangi bir değerle değiştirmenin yanı sıra, şunları sağlayabilirsiniz:
+
+* `apiVersion` - Sorgunun çağıracağı API sürümünü değiştirmek için.
+* `lookbackWindow` - Önerilerin oluşturulacağı pencereyi değiştirmek için RI önerileri (tek veya paylaşılan) (geçerli seçenekler: 7, 30 veya 60 gün)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
