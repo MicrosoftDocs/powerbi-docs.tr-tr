@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892356"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226101"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI’da self servis veri hazırlığı (Önizleme)
 
@@ -75,9 +75,7 @@ Azure Data Lake Storage 2. Nesil ve kuruluşunuzun Azure Data Lake hesabında bu
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium'da veri akışı özellikleri
 
-Veri akışı özelliklerinin ve iş yüklerinin Power BI Premium aboneliğinde çalışması için, söz konusu Premium kapasitede veri akışı iş yükünün açılmış olması gerekir. [Power BI Premium nedir?](service-premium.md) makalesinde Power BI Premium hakkında daha fazla bilgi edinebilirsiniz. 
-
-Aşağıdaki tabloda, Power BI Pro hesabı kullanıldığında veri akışı özellikleri ve bunların kapasiteleri açıklanır, ayrıca bunlar Power BI Premium kullanımıyla karşılaştırılır.
+Veri akışı özelliklerinin ve iş yüklerinin Power BI Premium aboneliğinde çalışması için, söz konusu Premium kapasitede veri akışı iş yükünün açılmış olması gerekir. Aşağıdaki tabloda, Power BI Pro hesabı kullanıldığında veri akışı özellikleri ve bunların kapasiteleri açıklanır, ayrıca bunlar Power BI Premium kullanımıyla karşılaştırılır.
 
 
 |Veri akışı özelliği | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Aşağıdaki tabloda, Power BI Pro hesabı kullanıldığında veri akışı öz
 |Veri akışı bağlantılı varlıklar| |        +|
 |Standartlaştırılmış Şema / Ortak Veri Modeli için Yerleşik Destek|  +|  +|
 
-Premium kapasitede veri akışı iş yüklerini etkinleştirme hakkında daha fazla bilgi için, Power BI Premium'un [iş yüklerini yapılandırma](service-admin-premium-manage.md#configure-workloads) makalesine bakın. Veri akışı iş yükleri şu anda Multi-Geo kapasitelerinde sağlanmaz.
+Premium kapasitede veri akışı iş yüklerini etkinleştirme hakkında daha fazla bilgi için, [İş yüklerini Premium kapasitede yapılandırma](service-admin-premium-workloads.md) makalesine bakın. Veri akışı iş yükleri şu anda Multi-Geo kapasitelerinde sağlanmaz.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI'da büyük veriler için self servis veri hazırlığının özeti
 Bu makalede daha önce belirtildiği gibi, **veri akışlarının** iş verilerinizden daha iyi denetim ve daha hızlı içgörü elde etmenize olanak tanıdığı birçok senaryo ve örnek vardır. Ortak Veri Modeli tarafından tanımlanan standart veri modelini (şema) kullanarak, veri akışları değerli iş verilerinizi içeri aktarabilir ve verilerin eskiden oluşturması aylarca hatta daha da uzun süren BI içgörülerini çok kısa bir sürede modellemeye ve oluşturmaya hazır olmasını sağlar. 
