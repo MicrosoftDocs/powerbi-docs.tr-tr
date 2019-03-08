@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop'ta depolama modunu kullanma (önizleme)
+title: Power BI Desktop’ta depolama modunu kullanma
 description: Power BI Desktop'ta raporlara ilişkin verilerin bellek içinde önbelleğe alınıp alınmadığını denetlemek için depolama modunu kullanın
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279194"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555867"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop’ta depolama modu (önizleme)
+# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modu
 
 Microsoft Power BI Desktop'ta tabloların *depolama modunu* belirtebilirsiniz. *Depolama modu*, Power BI Desktop'ta raporlara ilişkin tablo verilerinin bellek içinde önbelleğe alınıp alınmadığını denetlemenizi sağlar. 
 
@@ -37,9 +37,9 @@ Depolama modunun ayarlanması birçok avantaj sağlar. Modelinizdeki her tablonu
 
 Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikten biridir:
 
-* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md).
+* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller](desktop-composite-models.md).
 
-* **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md).
+* **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md).
 
 * **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Depolama modu bu makalede ayrıntılı olarak açıklanmaktadır.
 
@@ -127,13 +127,13 @@ Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu
 ![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Bu davranış, önbelleğe alınmış ve alınmamış tabloların birleştirildiği [Power BI Desktop'ta çok-çok ilişkilerinden (önizleme)](desktop-many-to-many-relationships.md) farklıdır.
+> Bu davranış, önbelleğe alınmış ve alınmamış tabloların birleştirildiği [Power BI Desktop'ta çok-çok ilişkilerinden](desktop-many-to-many-relationships.md) farklıdır.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Önbellekler eşitlenmiş durumda tutulmalıdır
 
 Önceki bölümde gösterilen sorgular **İkili** tabloların bazen önbelleğe isabet ettiğini ve bazen de etmediğini gösterir. Sonuç olarak önbellek güncel değilse farklı değerler döndürülebilir. Sorgu yürütme, örneğin DirectQuery sonuçlarını önbelleğe alınmış değerlerle eşleşecek şekilde filtreleyerek veri sorunlarını maskeleme girişiminde bulunmaz. Veri akışlarınızı bilmek sizin sorumluluğunuzdadır ve buna uygun bir tasarım yapmanız gerekir. Gerekirse, kaynakta bu tür durumlarla başa çıkmak için yerleşik teknikler vardır.
 
-*İkili* depolama modu bir performans optimizasyonudur. Yalnızca iş gereksinimlerini karşılama becerisine zarar vermeyecek yollarla kullanılmalıdır. Alternatif bir davranış için [Power BI Desktop’ta çok-çok ilişkileri (önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklanan teknikleri kullanmayı göz önünde bulundurun.
+*İkili* depolama modu bir performans optimizasyonudur. Yalnızca iş gereksinimlerini karşılama becerisine zarar vermeyecek yollarla kullanılmalıdır. Alternatif bir davranış için [Power BI Desktop’ta çok-çok ilişkileri](desktop-many-to-many-relationships.md) makalesinde açıklanan teknikleri kullanmayı göz önünde bulundurun.
 
 ## <a name="data-view"></a>Veri görünümü
 Veri kümesindeki tablolardan en az birinin depolama modu **İçeri Aktarma** veya **İkili** olarak ayarlandıysa, **Veri görünümü** sekmesi görüntülenir.
@@ -162,7 +162,7 @@ DirectQuery kullanımının mevcut sınırlamaları bileşik modelleri kullanır
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
-* [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md)
-* [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop’taki bileşik modeller](desktop-composite-models.md)
+* [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md)
 * [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
