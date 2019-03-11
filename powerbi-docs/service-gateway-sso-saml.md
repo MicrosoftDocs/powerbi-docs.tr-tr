@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327746"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555659"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına çoklu oturum açma (SSO) ile erişmek için ağ geçidinizde Security Assertion Markup Language (SAML) protokolünü kullanma
 
@@ -38,6 +38,8 @@ SAML protokolünü kullanmak için öncelikle SAML kimlik sağlayıcısı için 
     ```
 
 1. SAP HANA Studio'da SAP HANA sunucunuza sağ tıklayıp **Güvenlik** > **Güvenlik Konsolunu Aç** > **SAML Kimlik Sağlayıcısı** > **OpenSSL Şifreleme Kitaplığı** yolunu izleyin.
+
+    Ayrıca, bu kurulum adımlarını tamamlamak için OpenSSL yerine SAP Şifreleme Kitaplığı'nı (CommonCryptoLib veya sapcrypto olarak da bilinir) kullanmak da mümkündür. Daha fazla bilgi için lütfen resmi SAP belgelerine bakın.
 
 1. **İçeri aktar**'ı seçin, samltest.crt dosyasını bulun ve içeri aktarın.
 
@@ -121,6 +123,37 @@ Son olarak aşağıdaki adımları izleyerek sertifika parmak izini ağ geçidi 
 Artık Power BI'daki **Ağ Geçidini Yönet** sayfasından veri kaynağını yapılandırabilir ve **Gelişmiş Ayarlar** sayfasından SSO özelliğini etkinleştirebilirsiniz. Ardından bu veri kaynağında raporları ve veri kümesi bağlamasını yayımlayabilirsiniz.
 
 ![Gelişmiş ayarlar](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>Sorun giderme
+
+SSO'yu yapılandırdıktan sonra Power BI portalında şu hatayı görebilirsiniz: "Sağlanan kimlik bilgileri SapHana kaynağı için kullanılamaz." Bu hata SAML kimlik bilgilerinin SAP HANA tarafından reddedildiğini gösterir.
+
+Kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme hakkında ayrıntılı bilgi sağlar. SAP HANA sunucunuzda izlemeyi yapılandırmak için bu adımları izleyin.
+
+1. SAP HANA sunucusunda aşağıdaki sorguyu çalıştırarak kimlik doğrulama izlemesini açın.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. Karşılaştığınız sorunu yeniden oluşturun.
+
+1. HANA Studio'da yönetim konsolunu açın ve **Diagnosis Files** (Tanılama Dosyaları) sekmesine gidin.
+
+1. En son indexserver izlemesini açın ve SAMLAuthenticator.cpp dosyasını arayın.
+
+    Aşağıdaki örnekte olduğu gibi kök nedeni gösteren ayrıntılı bir hata iletisi bulmalısınız.
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. Sorun giderme işlemi tamamlandıktan sonra, aşağıdaki sorguyu çalıştırarak kimlik doğrulama izlemesini kapatın.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
