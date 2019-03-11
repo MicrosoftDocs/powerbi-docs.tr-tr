@@ -850,6 +850,8 @@ items:
         href: whitepaper-powerbi-security.md
       - name: Power BI premium dağıtımı
         href: whitepaper-powerbi-premium-deployment.md
+      - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
+        href: whitepaper-azure-b2b-power-bi.md
 - name: Geliştiriciler için Power BI
   items:
   - name: Geliştiriciler Power BI ile neler yapabilir?
@@ -1254,7 +1256,7 @@ items:
         href: service-premium-large-datasets.md
       - name: Artımlı yenileme
         href: service-premium-incremental-refresh.md
-      - name: Multi-Geo desteği (Önizleme)
+      - name: Multi-Geo desteği
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium hakkında SSS
         href: service-premium-faq.md
@@ -1313,9 +1315,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014335"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580278"
