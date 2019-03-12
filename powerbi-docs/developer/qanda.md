@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: 4167915c8f8934db458e3aadb8531e9e117dee18
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 03a348a2b1078a731df37157b254df069ca79fa9
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217011"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757381"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
 
