@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277400"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580255"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -98,13 +98,15 @@ Kuruluşunuz dışındaki kişilerle bir paylaşımda bulunduğunuzda bu kişile
 
 Oturum açtıktan sonra, paylaşılan panoyu veya raporu normal Power BI portallarında değil, kendi tarayıcı pencerelerinde sol gezinti bölmesi olmadan görürler. Bu panoya veya rapora gelecekte de erişmek için bağlantıya yer işareti eklemeleri gerekir.
 
-Bu panoda veya raporda herhangi bir içerik düzenlemesi yapamazlar. Grafiklerle etkileşimde bulunabilir ve rapordaki filtreleri ya da dilimleyicileri değiştirebilirsiniz, ancak değişikliklerinizi kaydedemezsiniz.
+Bu panoda veya raporda herhangi bir içerik düzenlemesi yapamazlar. Grafiklerle etkileşimde bulunabilir ve rapordaki filtreleri ya da dilimleyicileri değiştirebilirsiniz, ancak değişikliklerinizi kaydedemezsiniz. 
 
 Paylaşılan panoyu veya raporu yalnızca doğrudan alıcılarınız görebilir. Örneğin, e-postayı Vicki@contoso.com adresine gönderdiyseniz panoyu yalnızca Vicki görebilir. Bağlantıya sahip olsa bile ilgili panoyu başka hiç kimse göremez ve Vicki'nin panoya erişmek için aynı e-posta adresini kullanması gerekir. Başka bir e-posta adresiyle kaydolursa Vicki de panoya erişemez.
 
 Şirket içi Analysis Services tablolu modellerde rol veya satır düzeyi güvenlik uygulanması durumunda kuruluşunuz dışındaki kişiler hiçbir veri göremez.
 
 Kuruluşunuz dışındaki kişilere bir Power BI mobil uygulamasından bağlantı gönderirseniz ilgili kişiler bu bağlantıya tıkladığında pano, Power BI mobil uygulaması yerine bir tarayıcıda açılır.
+
+Konuk kullanıcılar [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#export-and-sharing-settings) ayarı kullanılarak etkinleştirildiyse varsayılan yalnızca tüketim deneyimi onlara uygulanmaz. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Pano ve rapor paylaşma ile ilgili olarak dikkat edilmesi gerekenler:

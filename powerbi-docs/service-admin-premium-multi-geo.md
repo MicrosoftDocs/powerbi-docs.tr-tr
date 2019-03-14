@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium için Multi-Geo desteği (Önizleme)
+title: Power BI Premium için Multi-Geo desteği
 description: İçeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794674"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571991"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium için Multi-Geo desteği (Önizleme)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteği
 
 Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal veri yerleşimi gereksinimlerini karşılamasına yardımcı olan bir Power BI Premium özelliğidir. Bir Power BI Premium müşterisi olarak, içeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine dağıtabilirsiniz. Bir coğrafi bölge (coğrafya) birden çok bölge içerebilir. Örneğin, Birleşik Devletler bir coğrafi bölgedir ve Orta Batı ABD ile Orta Güney ABD de Birleşik Devletler'deki bölgelerdir. İçeriği aşağıdaki coğrafyalardan herhangi birine dağıtmayı seçebilirsiniz:
 
@@ -33,7 +33,7 @@ Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal ve
 
 Multi-Geo Power BI Almanya, 21Vianet tarafından sağlanan Power BI Çin veya ABD hükümeti için Power BI'da sağlanmaz.
 
-Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği (Önizleme)](developer/embedded-multi-geo.md).
+Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Multi-Geo'yu kullanma
 

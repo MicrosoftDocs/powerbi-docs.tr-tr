@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555932"
+---
 Power BI, tamamen farklı veri kaynaklarından gelen tablolar da dahil olmak üzere birden çok tablo arasında ilişkiler oluşturmanızı sağlar. Power BI Desktop'ın **İlişkiler** görünümünde herhangi bir veri modeli için bu ilişkileri görebilirsiniz.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ DAX, oluşturulmuş ilişkiler bulunan tablolarla etkileşime geçmenizi sağlay
 
 DAX işlevlerini kullanarak bir sütunun değerini veya bir ilişkideki tüm satırları döndürebilirsiniz.
 
-Örneğin, **TABLE** işlevi ilişkileri izleyip bir sütunun değerini, **RELATEDTABLE** işlevi ise ilişkileri izleyip yalnızca ilgili satırları içerecek şekilde filtrelenmiş bir tablonun tamamını döndürür.
+Örneğin, **RELATED** işlevi ilişkileri izleyip bir sütunun değerini, **RELATEDTABLE** işlevi ise ilişkileri izleyip yalnızca ilgili satırları içerecek şekilde filtrelenmiş bir tablonun tamamını döndürür.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

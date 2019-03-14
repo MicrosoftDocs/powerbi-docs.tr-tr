@@ -1,30 +1,34 @@
 ---
-title: Ek satın alma işlemleri gerekebilir - Power BI görselleri yönergeleri
+title: Power BI görsellerinin yönergeleri
 description: Özel görselinizi diğer kullanıcıların keşfetmesi ve satın alma yoluyla kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826595"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757312"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
+# <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 
-Yakın zamana kadar, Market (AppSource) yalnızca ücretsiz olan Power BI görsellerini kabul ediyordu. Bu ilke değiştirildi ve AppSource'a "ek satın alma işlemleri gerekebilir" fiyat etiketine sahip görseller de gönderebilmeniz mümkün hale getirildi. 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
+
+Yakın zamana kadar, Market (AppSource) yalnızca ücretsiz olan Power BI görsellerini kabul ediyordu. Bu ilke değiştirildi (18 Aralık) ve AppSource'a "ek satın alma işlemleri gerekebilir" fiyat etiketine sahip görseller de gönderebilmeniz mümkün hale getirildi. 
 
 "Ek satın alma işlemleri gerekebilir" etiketine sahip görseller, Office Mağazası'ndaki uygulama için satın alma (IAP) eklentilerine benzer. Geliştiriciler bu görselleri, AppSource ekibi onayladıktan ve sertifika gereksinimlerine uyduğundan emin olduktan sonra da sertifikasyon için gönderebilir. Gereksinimler hakkında daha fazla bilgi için bkz. [Sertifikalı özel görseller](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
-> * Görselin sertifikalanması için, dış hizmetlere veya kaynaklara erişmemesi gerekir.
-> * Tüm ücretsiz görseller daha önce sunulan ücretsiz özellikleri korumalıdır. Var olan ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Var olan ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
+> Görselin sertifikalanması için, dış hizmetlere veya kaynaklara erişmemesi gerekir.
+
+>[!IMPORTANT]  
+> Görselinizi ücretsizden "Ek satın alma işlemleri gerekebilir" düzeyine güncelleştirmek için kullanıcıların güncelleştirme öncesiyle aynı ücretsiz işlevsellik düzeyini elde etmesi gerekir. Var olan ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Var olan ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
 
 
 ## <a name="what-changed-in-the-submission-process"></a>Gönderim işleminde neler değişti?
@@ -33,19 +37,19 @@ Geliştiriciler, ücretsiz görseller için yaptıkları gibi Satıcı Panosu ü
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP özelliklerine sahip Power BI görseli nedir?
 
-IAP görseli, ücretsiz özelliklere sahip ücretsiz bir görseldir. Çalıştırmak için ek ücret gerektiren gelişmiş özelliklere de sahip olabilir. Geliştiricilerin, görselin açıklamasında çalıştırmak için ek satın almalar gereken özellikleri kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel API'ler sağlamamaktadır.
+IAP görseli, **ücretsiz özelliklere** sahip **ücretsiz** bir görseldir. Çalıştırmak için ek ücret gerektiren gelişmiş özelliklere de sahip olabilir. Geliştiricilerin, görselin açıklamasında çalıştırmak için ek satın almalar gereken özellikleri kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel API'ler sağlamamaktadır.
 
 Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Daha fazla bilgi için [mağaza ilkemize](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) bakın.
 
 > [!NOTE]
-> Ücretsiz özelliklerde filigranlara izin verilmez. Geçerli bir lisans olmadan gelişmiş ücretli özellikler kullanılırsa geliştiriciler bir açılan pencere veya filigran görüntüleyebilir.  
+> Ücretsiz özelliklerde veya ücretsiz görsellerde filigranlara izin verilmez. Filigranlar yalnızca geçerli bir lisans olmadan kullanılan ücretli özelliklerde kullanılabilir. Gelişmiş ücretli özellikler geçerli bir lisans olmadan kullanılıyorsa, lisansla ilgili tüm bilgileri içeren bir açılır pencere görüntülenmesini öneririz.  
 
 ## <a name="logo-guidelines"></a>Logo yönergeleri
 
 Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır.
 
-> [!NOTE]
-> Logolara yalnızca düzenleme modunda izin verilir. Logolar görüntüleme modunda gösterilemez.
+> [!IMPORTANT]
+> Logolara **yalnızca düzenleme modunda** izin verilir. Logolar görüntüleme modunda **gösterilemez**.
 
 ![Tanımlar](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 

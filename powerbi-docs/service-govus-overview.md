@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292089"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580048"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -54,7 +54,7 @@ Genel bulutta IP alanları kullanılabilir ancak kamu bulutunda, yukarıda liste
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI US Government hizmetine ilişkin sınırlamalar
 **Power BI hizmetinin** ticari sürümünde sunulan özelliklerden bazıları, ABD Kamu müşterilerine yönelik **Power BI hizmetinde** *sunulmamaktadır*. Power BI ekibi, söz konusu özelliklerin ABD Kamu müşterilerine de sunulması için aktif olarak çalışarak ilgili özellikler kullanılabilir olduğunda bu makaleyi güncelleştirecektir.
 
-* **SharePoint Online'da ekleme** - Power BI web bölümünü kullanarak SharePoint Online’a içerik eklemek mümkün değildir.
+* **SharePoint Online'da ekleme** - Power BI web bölümünü kullanarak SharePoint Online’a içerik eklemek mümkün değildir. Bununla birlikte, [*Ekleme* web bölümü](https://docs.microsoft.com/power-bi/service-embed-secure) kullanıldığında güvenli ekleme çalışır. Özel durum listesine *app.powerbigov.us*'i eklemelisiniz. Bu işlem, [SharePoint sayfalarına içerik eklemeye izin verme veya bunu kısıtlama](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) makalesinde verilen yönergeler izlenerek yapılabilir.
 * **Power BI US Government**, yalnızca **Pro** lisans olarak kullanılabilir. Bir yönetim portalında (veya kullanıcılar olarak) Power BI (Ücretsiz) lisanslarına yapılan tüm başvurular, ticari bir Power BI hizmet bulutunda çalışmaktadır.
 * **Denetim** - Denetim, Haziran 2018’den itibaren Office 365 Güvenlik ve Uyumluluk portalı aracılığıyla kullanılabilir.
 * **Cortana'da Power BI içeriği**: Cortana arama sonuçlarında Power BI sonuçları gösterilmez. Buna, Power BI içeriğinizin (panolar, raporlar, uygulamalar) yanı sıra belirli anahtar sözcüklere göre, Cortana için en iyi duruma getirilmiş rapor sayfalarına ilişkin sonuçlar da dahildir.

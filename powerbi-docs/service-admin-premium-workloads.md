@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226078"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757258"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -23,7 +23,7 @@ Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme v
 
 ## <a name="configure-workloads"></a>İş yüklerini yapılandırma
 
-[Veri akışları](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) ve [Sayfalandırılmış raporlar](paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirebilir ve yapılandırabilirsiniz. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. Belirtilen en yüksek değere kadar bellek, veri akışları için dinamik olarak ayrılır ancak sayfalandırılmış raporlar için statik olarak ayrılır. 
+AI, [Veri akışları](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) ve [Sayfalandırılmış raporlar](paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirebilir ve yapılandırabilirsiniz. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. Belirtilen en yüksek değere kadar bellek, AI ve veri akışları için dinamik olarak ayrılır ancak sayfalandırılmış raporlar için statik olarak ayrılır. 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Power BI yönetici portalında iş yüklerini yapılandırmak için
 

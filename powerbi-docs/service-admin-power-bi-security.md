@@ -7,20 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 03/11/2019
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 83273d42ed27523c618cf229c0c3a0bec7b82cb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e067ac55d606372c05da1e0ebff76e4d05f35e9c
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292856"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757519"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
-Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini indirin](http://go.microsoft.com/fwlink/?LinkId=829185):
-
-[![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
+Power BI güvenlik özelliklerine ilişkin ayrıntılı bir açıklama için lütfen [Power BI Güvenliği teknik incelemesini okuyun](whitepaper-powerbi-security.md).
 
 Power BI hizmetinin temelini, Microsoft'un bulut bilgi işlem altyapısı ve platformu olan **Azure** oluşturmaktadır. Power BI hizmet mimarisi iki kümeye dayanır: Web Ön Uç (**WFE**) kümesi ve **Arka Uç** kümesi. WFE kümesi, Power BI hizmetine yönelik ilk bağlantıyı ve kimlik doğrulamasını yönetir. Kimlik doğrulaması yapıldıktan sonraki tüm kullanıcı etkileşimlerini Arka Uç üstlenir. Power BI, kullanıcı kimliklerini depolamak ve yönetmek için Azure Active Directory (AAD) hizmetini, verileri ve meta verileri depolamak ve yönetmek içinse Azure BLOB ve Azure SQL Veritabanı hizmetlerini kullanır.
 

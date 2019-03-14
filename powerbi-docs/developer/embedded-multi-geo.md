@@ -1,5 +1,5 @@
 ---
-title: Power BI Embedded için Multi-Geo desteği (Önizleme)
+title: Power BI Embedded için Multi-Geo desteği
 description: İçeriği Power BI Embedded'ın ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762433"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572037"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded için Multi-Geo desteği (Önizleme)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded için Multi-Geo desteği
 
-**Power BI Embedded için Multi-Geo desteği (Önizleme)**, uygulamalarına analiz özelliklerini ekleme amacıyla Power BI Embedded hizmetini kullanarak uygulama derleyen ISV'lerin ve kuruluşların artık verilerini dünya üzerindeki farklı bölgelere dağıtabileceği anlamına gelmektedir.
+**Power BI Embedded için Multi-Geo desteği**, uygulamalarına analiz özelliklerini ekleme amacıyla Power BI Embedded hizmetini kullanarak uygulama derleyen ISV'lerin ve kuruluşların artık verilerini dünya üzerindeki farklı bölgelere dağıtabileceği anlamına gelir.
 
 Artık **Power BI Embedded** kullanan müşteriler [Power BI Premium'un Multi-Geo kullanımı konusunda](../service-admin-premium-Multi-Geo.md) desteklediği özelliklerden ve sınırlamalara tabi olarak **Multi-Geo** seçeneklerini kullanan bir **A kapasite** ayarlayabilir.
 

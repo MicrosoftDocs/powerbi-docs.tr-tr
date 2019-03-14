@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014657"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757358"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -192,6 +192,13 @@ Aşağıdaki görüntüde **Panoları ve raporları yazdırın** ayarı etkinle�
 
 ![Rapor yazdırma](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
+Azure B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
+
+Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin verme seçeneği gösterilir.
+
+![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>İçerik paketi ve uygulama ayarları
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Kuruluşun tamamına içerik paketi ve uygulama yayımlanması devre dışı bırakıldı
@@ -243,10 +250,45 @@ Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve b
 > [!NOTE]
 > Bu ayar kuruluş geneline uygulanabilir veya belirli gruplarla sınırlandırılabilir.
 
+
+Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarlarda özel görsellerin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
+
+<table>
+<tr><th>Öznitelik</th><th>Değer</th>
+</tr>
+<td>key</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+1 (ondalık) değeri Power BI'da özel görsel kullanımını etkinleştirir (Bu varsayılan değerdir).
+
+0 (ondalık) değeri Power BI'da özel görsel kullanımını devre dışı bırakır.
+
 ### <a name="allow-only-certified-visuals"></a>Yalnızca sertifikalı görsellere izin ver
 
 Kuruluş içindeki, “Özel görseller ekle ve kullan” ayarıyla özel görseller ekleme ve kullanma izni verilmiş kullanıcılar yalnızca [sertifikalı özel görselleri](https://go.microsoft.com/fwlink/?linkid=2002010) kullanabilir (sertifikalı olmayan görseller engellenir ve kullanıldıklarında bir hata iletisi görüntülenir). 
 
+
+Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarlarda sertifikasız özel görsellerin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
+
+<table>
+<tr><th>Öznitelik</th><th>Değer</th>
+</tr>
+<td>key</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+1 (ondalık) değeri Power BI'da sertifikasız özel görsel kullanımını etkinleştirir (Bu varsayılan değerdir).
+
+0 (ondalık) değeri Power BI'da sertifikasız özel görsel kullanımını devre dışı bırakır (Bu seçenek yalnızca [sertifikalı özel görsellerin](https://go.microsoft.com/fwlink/?linkid=2002010) kullanımını etkinleştirir).
 
 ## <a name="r-visuals-settings"></a>R görseli ayarları
 
