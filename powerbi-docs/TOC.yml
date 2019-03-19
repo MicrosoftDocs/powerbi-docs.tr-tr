@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: GitHub örneğine bağlanma
       href: service-tutorial-connect-to-github.md
+    - name: Power BI’da Bilişsel Hizmetler’i kullanma
+      href: service-tutorial-use-cognitive-services.md
+    - name: Power BI ile Machine Learning tümleştirmesi
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Kavramlar
     items:
     - name: Power BI hizmetindeki yenilikler
@@ -646,6 +650,10 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
         href: service-dataflows-add-cdm-folder.md
+      - name: Power BI’da Machine Learning’i tümleştirme
+        href: service-machine-learning-integration.md
+      - name: Power BI’da Bilişsel Hizmetler’i kullanma
+        href: service-cognitive-services.md
     - name: Power BI’daki sayfalandırılmış raporlar
       items:
       - name: Sayfalandırılmış raporlar nedir? (Önizleme)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Hizmetlere bağlanma
         items:
-        - name: Hizmetlere bağlanma
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757450"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964928"
