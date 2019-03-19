@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226262"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174994"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -60,7 +60,7 @@ Standart bir yüklemede, ağ geçidi bir makine yerel hizmet hesabı (özel olar
 
 ![Hizmet hesabı ekran görüntüsü](media/service-gateway-sso-kerberos/service-account.png)
 
-Azure Active Directory (Azure AD) örneğiniz (Azure AD DirSync/Connect kullanılarak) yerel Active Directory örneğiniz ile eşitlenmediği sürece, Kerberos kısıtlanmış temsilinin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Etki alanı hesabına geçmek için bu makalenin [Ağ geçidini bir etki alanı hesabına geçirme](#switching-the-gateway-to-a-domain-account) bölümüne bakın.
+Azure Active Directory (Azure AD) örneğiniz (Azure AD DirSync/Connect kullanılarak) yerel Active Directory örneğiniz ile eşitlenmediği sürece, Kerberos kısıtlanmış temsilinin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Etki alanı hesabına geçmek için bu makalenin [Ağ geçidini bir etki alanı hesabına geçirme](#switch-the-gateway-to-a-domain-account) bölümüne bakın.
 
 > [!NOTE]
 > Azure AD Connect yapılandırıldıysa ve kullanıcı hesapları eşitlendiyse, ağ geçidi hizmetinin çalışma zamanında yerel Azure AD aramaları yapması gerekmez. Ağ geçidi hizmeti için yerel hizmet SID'sini kullanabilirsiniz (etki alanı hesabı gerektirmek yerine). Bu belgede açıklanan Kerberos kısıtlanmış temsili yapılandırmasına ilişkin adımlar, söz konusu yapılandırmaya yönelik olanlarla aynıdır. Bunlar, etki alanı hesabının yerine Azure AD’deki ağ geçidinin bilgisayar nesnesine uygulanır.
@@ -188,7 +188,7 @@ Gerekirse, **Şirket içi veri ağ geçidi** kullanıcı arabirimini kullanarak 
 
 ## <a name="configure-sap-bw-for-sso"></a>SSO için SAP BW’yu Yapılandırma
 
-Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre artık SAP Business Warehouse (SAP BW) ortamınız için SSO yapılandırması gerçekleştirebilirsiniz. Aşağıdaki adımlarda bu makalenin önceki bölümlerinde anlatılan şekilde [Kerberos kısıtlanmış temsili için hazırlandığınız](#preparing-for-kerberos-constrained-delegation) kabul edilmektedir.
+Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre artık SAP Business Warehouse (SAP BW) ortamınız için SSO yapılandırması gerçekleştirebilirsiniz. Aşağıdaki adımlarda bu makalenin önceki bölümlerinde anlatılan şekilde [Kerberos kısıtlanmış temsili için hazırlandığınız](#prepare-for-kerberos-constrained-delegation) kabul edilmektedir.
 
 Bu kılavuz mümkün olduğunca kapsamlı olmaya çalışır. Bu adımlardan bazılarını önceden tamamladıysanız atlayabilirsiniz. Örneğin, SAP BW sunucunuz için zaten bir hizmet kullanıcısı oluşturmuş olabilir ve kullanıcıya bir SPN eşlemiş veya `gsskrb5` kitaplığını zaten yüklemiş olabilirsiniz.
 
@@ -356,7 +356,7 @@ Azure AD Connect yapılandırılmamışsa, bir Azure AD kullanıcısına eşleme
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Power BI hizmetine yeni bir SAP BW Application Server veri kaynağı ekleme
 
-Bu makalenin önceki bölümlerinde yer alan [rapor çalıştırma](#running-a-power-bi-report) yönergelerini izleyerek SAP BW veri kaynağını ağ geçidinize ekleyin.
+Bu makalenin önceki bölümlerinde yer alan [rapor çalıştırma](#run-a-power-bi-report) yönergelerini izleyerek SAP BW veri kaynağını ağ geçidinize ekleyin.
 
 1. Veri kaynağı yapılandırma penceresinde Application Server’ın **Ana bilgisayar adı**, **Sistem Numarası** ve **İstemci Kimliği** bilgilerini Power BI Desktop'tan SAP BW sunucusunda oturum açar gibi girin. **Kimlik Doğrulaması Yöntemi** olarak **Windows**'u seçin.
 

@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: 9edb234e36ee980e148482f0a86d390252404c1e
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.date: 03/15/2019
+ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695185"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174694"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görseli geliştirme
 
@@ -285,7 +285,7 @@ Bu bölümde bir Power BI Desktop raporunu karşıya yükleyip özel görseli g�
 Artık özel görseli daire ve metin görüntüleyecek şekilde geliştirebilirsiniz.
 
 > [!Note]
-> Bu öğreticideki birçok metin girişini [buradan](https://github.com/uve/circlecard) kopyalayabilirsiniz.
+> Bu öğreticideki birçok metin girişini [buradan](https://github.com/Microsoft/powerbi-visuals-circlecard) kopyalayabilirsiniz.
 
 1. **D3 kitaplığını** PowerShell’de yüklemek için aşağıdaki komutu girin.
 

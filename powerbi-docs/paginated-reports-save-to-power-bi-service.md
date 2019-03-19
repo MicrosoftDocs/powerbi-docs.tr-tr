@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324727"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174557"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 
 Bu makalede, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlama hakkında bilgi edineceksiniz. Sayfalandırılmış raporları Çalışma Alanım’a veya Premium kapasitede olan başka bir çalışma alanına yükleyebilirsiniz. Çalışma alanı adının yanında ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) elmas simgesini arayın. 
 
-Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra [bir ağ geçidi oluşturmanız](#create-a-gateway-to-an-on-premises-data-source) gerekir.
+Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra [bir ağ geçidi oluşturmanız](#create-a-gateway) gerekir.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Çalışma alanını Premium kapasiteye ekleme
 
