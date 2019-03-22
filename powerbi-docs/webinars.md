@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431005"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964721"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,13 +22,19 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
+**Tüketici Ürünleri Üreticileri ve Perakendecileri için İki Tarafında da Kazançlı Çıkacağı Bir Ortam Oluşturma**
+<br>Hazırlayan: Liz McCreesh
+<br>[Hemen kaydolun](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
+
+**Power BI ile Modern ve Kurumsal İş Zekasının Geleceği**
+<br>Hazırlayan: Arun Ulag ve Amir Netz
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Power BI ile çalışmaya başlama**
 <br>Sağlayan: Miguel Martinez
@@ -46,13 +52,9 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Cory Hrncirik ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: Doğru Analiz**
-<br>Hazırlayan: Gohul Shanmugalingam
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Power BI Verilerinizden Görsel Oluşturun:  Temel Grafik Türleri ve Kullanma Yöntemleri**
-<br>Sağlayan: Miranda Li
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Power BI JavaScript API’si ile Uygulamalarınızı Güçlendirme**
+<br>Hazırlayan: Nimrod Shalit
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel ve Office 365: Kurumsal Verilerinizi En İyi Duruma Getirme**
 <br>Sağlayan: Olaf Hubel ve Miguel Martinez
@@ -62,10 +64,6 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Miranda Li
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Microsoft Flow ile PowerApps'in Toplam Ekonomik Etkisi**
-<br>Jonathan Lipsitz ve Enrique Plaza Garcia
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[Topluluk uzmanlarımız tarafından sunulan, isteğe bağlı Power BI web seminerlerinin bulunduğu kitaplıkta gezinin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>İsteğe bağlı web seminerleri
@@ -74,9 +72,25 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 ### <a name="getting-started"></a>Başlarken
 
+**Power BI, PowerApps ve Microsoft Flow ile Günlük İşleri Otomatikleştirme**
+<br>Hazırlayan: Wim Coorevits ve Enrique Plaza Garcia
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: Doğru Analiz**
+<br>Hazırlayan: Gohul Shanmugalingam
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Power BI Verilerinizden Görsel Oluşturun:  Temel Grafik Türleri ve Kullanma Yöntemleri**
+<br>Sağlayan: Miranda Li
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **How to Design Visually Stunning Power BI Reports (Görsel Olarak Etkileyici Power BI Raporları Tasarlama)**
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Microsoft Flow ile PowerApps'in Toplam Ekonomik Etkisi**
+<br>Jonathan Lipsitz ve Enrique Plaza Garcia
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj**
 <br>Sağlayan: Carlos Otero ve Miguel Martinez
@@ -100,6 +114,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 ### <a name="partners"></a>İş Ortakları ###
 
+**Power BI ile Müşteri Verilerini Perakende Başarısına Dönüştürme**
+<br>Hazırlayan: Hitachi Solutions’dan Angad Soni
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **Hem Hasta Sonuçlarını hem de Kârlılığı Geliştirmek İçin Başarısı Kanıtlanmış Sağlık Çözümleri**
 <br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 **Satış ve Hizmetler için Uygulamalı Zeka**
 <br>Sağlayan: Ed Bobrin, Avanade
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**Başarılı Bir Trend Sorumlusunun 5 Alışkanlığı - Rohit Bhargava**
+<br>Hazırlayan: Non-Obvious’tan Rohit Bhargava
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun)**
 <br>Sağlayan: Jon Thompson, Blue Margin ve Jim Pastor, Elgin Fastener Group
