@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277814"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220966"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)
 
@@ -79,7 +79,9 @@ Bundan sonra, aşağıdaki görüntüde *EnrichedAccount* olarak gösterilen son
 
 Özellikle bir kuruluşun Azure Data Lake Storage 2. Nesil hesabında oluşturulan veri akışlarıyla çalışırken bağlantılı varlıklar ve hesaplanan varlıklar yalnızca varlıklar aynı depolama hesabında bulunduğunda düzgün şekilde çalışır. Daha fazla bilgi için bkz. [Azure Data Lake Storage 2. Nesil’i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
-Ayrıca CDM klasörlerinden oluşturulan veri akışları için bağlantılı varlıklar kullanılamaz. Bkz. [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md).
+Ortak Veri Modeli (CDM) klasörlerinden oluşturulan veri akışları için bağlantılı varlıklar kullanılamaz. Daha fazla bilgi için bkz. [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md).
+
+Şirket içi ve bulut verileri tarafından birleştirilen veriler üzerinde hesaplamalar gerçekleştirirken en iyi uygulama olarak, bu hesaplamaları gerçekleştirmek üzere yeni bir varlık oluşturun. Bu sayede, aynı zamanda her iki kaynakta bulunan verileri sorgulayan ve veri gölü içi dönüşümler gerçekleştiren mevcut bir varlığı hesaplamalar için kullanmaya göre daha iyi bir deneyim elde edersiniz.
 
 ## <a name="next-steps"></a>Sonraki Adımlar
 

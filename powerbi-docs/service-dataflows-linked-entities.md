@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223663"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220920"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme (Önizleme)
 
@@ -81,6 +81,7 @@ Bağlantılı varlıklarla çalışırken göz önünde bulundurulması gereken 
 * En fazla beş başvuran atlama vardır
 * Bağlantılı varlıkların döngüsel bağımlılıklarına izin verilmez
 * Veri akışı [yeni bir Power BI çalışma alanı](service-create-the-new-workspaces.md) içinde bulunmalıdır
+* Bağlantılı bir varlık, verilerinin şirket içi veri kaynağından alan normal bir varlıkla birleştirilemez
 
 
 ## <a name="next-steps"></a>Sonraki Adımlar
