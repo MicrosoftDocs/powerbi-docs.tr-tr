@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: f327cb95c10756f079778d20e62cba4871b95c02
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226147"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964951"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium nedir?
 
@@ -66,15 +66,15 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 * EM düğümleri ise yalnızca tümleşik dağıtımlar için kullanılabilir. EM düğümlerinin, Power BI Pro lisansına sahip olan kullanıcılarla uygulamaları paylaşma gibi üst düzey özelliklere erişimi yoktur.
 
-| Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç+ön uç)*  | Arka Uç Sanal Çekirdek Sayısı <sup>[1](#fn1)</sup> | Ön Uç Sanal Çekirdek Sayısı <sup>[2](#fn2)</sup> | DirectQuery/canlı bağlantı sınırları | Maksimum eş zamanlı yenileme sayısı |  Kullanılabilirlik
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (aylık) |1 sanal çekirdek |0,5 sanal çekirdek, 2,5 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |  1 | Kullanılabilir |
-| EM2 (aylık) |2 sanal çekirdek |1 sanal çekirdek, 5 GB RAM |1 sanal çekirdek |Saniyede 7,5 |  2 | Kullanılabilir |
-| EM3 (aylık) |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek | | 3 |  Kullanılabilir |
-| P1 |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 | 6 | Kullanılabilir (aylık olarak da sunulur) |
-| P2 |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 | 12 | Kullanılabilir |
-| P3 |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 | 24 | Kullanılabilir |
-| | | | | | | |
+| Kapasite Düğümü | Toplam sanal çekirdek sayısı<br/>*(Arka uç+ön uç)*  | Arka Uç Sanal Çekirdek Sayısı <sup>[1](#fn1)</sup> | Ön Uç Sanal Çekirdek Sayısı <sup>[2](#fn2)</sup> | DirectQuery/canlı bağlantı sınırları | Maksimum eş zamanlı yenileme sayısı |
+| --- | --- | --- | --- | --- | --- |
+| EM1 (aylık) |1 sanal çekirdek |0,5 sanal çekirdek, 2,5 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |  1 |
+| EM2 (aylık) |2 sanal çekirdek |1 sanal çekirdek, 5 GB RAM |1 sanal çekirdek |Saniyede 7,5 |  2 |
+| EM3 (aylık) |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek | 15 | 3 |
+| P1 |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 | 6 |
+| P2 |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 | 12 |
+| P3 |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 | 24 |
+| | | | | | |
 
 <a name="fn1">1</a>: Ön uç sanal çekirdekler, web hizmetinden sorumludur. Örneğin pano ve rapor belge yönetimi, erişim hakları yönetimi, zamanlama, API'ler, karşıya yüklemeler ve indirmeler, kısacası kullanıcı deneyimiyle ilgili her şey bunların sorumluluğundadır. 
 
@@ -82,32 +82,7 @@ Power BI Premium, farklı sanal çekirdek kapasitelerine sahip düğüm yapılan
 
 ## <a name="workloads-in-premium-capacity"></a>Premium kapasitedeki iş yükleri
 
-Varsayılan olarak, **Power BI Premium** ve **Power BI Embedded** kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Premium ayrıca **Yapay zeka**, **Veri akışları** ve **Sayfalandırılmış raporlar** için ek iş yüklerini destekler. Bu iş yüklerini Power BI yönetici portalından veya Power BI REST API aracılığıyla etkinleştirebilirsiniz. Ayrıca her iş yükünün tüketebileceği en büyük belleği ayarlayabilir, böylece farklı iş yüklerinin birbirini nasıl etkileyeceğini denetleyebilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
-
-### <a name="default-memory-settings"></a>Varsayılan bellek ayarları
-
-Aşağıdaki tablolarda, kullanılabilen farklı [kapasite düğümlerine](#premium-capacity-nodes) göre varsayılan ve en küçük bellek değerleri gösterilmektedir. Bellek, dinamik olarak veri akışlarına ayrılsa da istatistiksel olarak sayfalandırılmış raporlara ayrılır. Daha fazla bilgi için, [Sayfalandırılmış raporlar ile ilgili önemli noktalar](#considerations-for-paginated-reports) başlıklı sonraki bölüme bakın.
-
-#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Hizmet olarak yazılım (SaaS) senaryoları için Microsoft Office SKU'ları
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Sayfalandırılmış raporlar | YOK | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
-| Veri akışları | %20 varsayılan; %8 en küçük  | %20 varsayılan; %4 en küçük  | %20 varsayılan; %2 en küçük | %20 varsayılan; %1 en küçük  |
-| | | | | |
-
-#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Hizmet olarak platform (PaaS) senaryoları için Microsoft Azure SKU'ları
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Sayfalandırılmış raporlar | YOK                      | YOK                      | YOK                     | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
-| Veri akışları         | %27 varsayılan; %27 en küçük | %20 varsayılan; %16 en küçük | %20 varsayılan; %8 en küçük | %20 varsayılan; %4 en küçük  | %20 varsayılan; %2 en küçük | %20 varsayılan; %1 en küçük   |
-
-### <a name="considerations-for-paginated-reports"></a>Sayfalandırılmış raporlar ile ilgili önemli noktalar
-
-Sayfalandırılmış raporlar iş yükünü kullanıyorsanız, sayfalandırılmış raporların bir raporu işlerken (örneğin, içeriğe göre metin rengini dinamik olarak değiştirme) kendi kodunuzu çalıştırmanıza olanak tanıdığını unutmayın. Bu durum göz önünde bulundurulduğunda, sayfalandırılmış raporları kapasite dahilindeki sınırlı bir alanda çalıştırarak Power BI Premium kapasitesinin güvenliğini sağlarız. İş yükünün etkin olup olmadığına bakılmaksızın, bu alanı belirtmek için en büyük belleği atarız. Power BI raporlarını veya veri akışlarını aynı kapasitede kullanıyorsanız, sayfalandırılmış raporlar için diğer iş yüklerini olumsuz yönde etkilemeyecek kadar düşük bellek ayarladığınızdan emin olun.
-
-Nadir durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü, yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın, sonra yeniden etkinleştirin.
+Varsayılan olarak, Power BI Premium ve Power BI Embedded kapasiteleri yalnızca bulutta Power BI sorguları çalıştırmayla ilişkili iş yüklerini destekler. Premium ayrıca **Yapay zeka**, **Veri akışları** ve **Sayfalandırılmış raporlar** için ek iş yüklerini destekler. Bu iş yüklerinin kapasitenizin kaynaklarını kullanabilmesi için, önce Power BI yönetim portalında veya Power BI REST API aracılığıyla etkinleştirilmeleri gerekir. Her iş yükünün kullanabileceği bellek miktarı üst sınırını belirten varsayılan ayarları vardır. Bununla birlikte, iş yüklerinin birbirini nasıl etkileyeceğini ve kapasite kaynaklarınızı nasıl kullanacağını belirlemek için farklı bellek tüketim ayarları yapılandırabilirsiniz. Daha fazla bilgi için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430298"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980439"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -84,7 +84,7 @@ Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
 Bir yönetici olarak, kullanıcıların Office 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Erişimi engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcılar, kuruluşlarının yöneticisiyle iletişim kurmaya yönlendirilir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar aracılığıyla) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
 
-Yönetilen bir kiracıya yeni kullanıcıların katılmasını önlemek için aşağıdaki PowerShell komutunu kullanın. [PowerShell hakkında daha fazla bilgi edinin](#basic-powershell-information)
+Yönetilen bir kiracıya yeni kullanıcıların katılmasını önlemek için aşağıdaki PowerShell komutunu kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Kullanıcıların, var olan Office 365 kiracıma katılmalarına nasıl izin verebilirim?
 
-Yönetilen bir kiracıya yeni kullanıcıların katılmasını etkinleştirmek için aşağıdaki PowerShell komutunu kullanın. [PowerShell hakkında daha fazla bilgi edinin](#basic-powershell-information)
+Yönetilen bir kiracıya yeni kullanıcıların katılmasını etkinleştirmek için aşağıdaki PowerShell komutunu kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Kiracıda engelin etkin olduğunu nasıl doğrularım?
 
-Ayarları doğrulamak için aşağıdaki PowerShell betiğini çalıştırın. *AllowEmailVerifiedUsers*, false değerine sahip olmalıdır. [PowerShell hakkında daha fazla bilgi edinin](#basic-powershell-information)
+Ayarları doğrulamak için aşağıdaki PowerShell betiğini çalıştırın. *AllowEmailVerifiedUsers*, false değerine sahip olmalıdır. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 Denetim **AllowAdHocSubscriptions** Azure AD ayarı tarafından gerçekleştirilir. Çoğu kiracıda bu ayar true olarak ayarlanmış, diğer bir deyişle etkinleştirilmiştir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde false olabilir.
 
-Geçici abonelikleri devre dışı bırakmak için aşağıdaki PowerShell betiğini kullanın. [PowerShell hakkında daha fazla bilgi edinin](#basic-powershell-information)
+Geçici abonelikleri devre dışı bırakmak için aşağıdaki PowerShell betiğini kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 1. Office 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki PowerShell betiğinin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
 
@@ -270,3 +270,5 @@ Power BI, Office 365 temel alınarak oluşturulmuştur. Office 365'in altyapıs�
 [Office 365 grup yönetimi](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

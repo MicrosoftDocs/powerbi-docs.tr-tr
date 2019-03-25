@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580255"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964767"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -38,12 +38,18 @@ Amanda'nın, panosunu şirket içindeki ve dışındaki kişilerle paylaşma vid
 
 1. Pano veya rapor listesinde ya da açık bir pano veya raporda **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) öğesini seçin.
 
-1. Üstteki kutuya kişilerin, dağıtım gruplarının veya güvenlik gruplarının tam e-posta adreslerini girin. Dinamik dağıtım listeleri ile paylaşım yapamazsınız. 
+2. Üstteki kutuya kişilerin, dağıtım gruplarının veya güvenlik gruplarının tam e-posta adreslerini girin. Dinamik dağıtım listeleri ile paylaşım yapamazsınız. 
    
    Adresleri kuruluşunuz dışında olan kişilerle paylaşım yapabilirsiniz ancak bu durumda bir uyarıyla karşılaşırsınız.
    
    ![Harici paylaşım uyarısı](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >Giriş kutusu en çok 100 kullanıcı veya grubu destekler. Çok fazla sayıda kullanıcıyla paylaşmanız gerekiyorsa birden çok kez paylaşabileceğiniz gibi bir kullanıcı grubuyla da paylaşabilirsiniz.
+   > 
+   > 
+
+
 3. İsterseniz ileti ekleyebilirsiniz. İsteğe bağlıdır.
 4. İş arkadaşlarınızın içeriğinizi diğer kullanıcılarla paylaşmasına izin vermek için **Alıcıların panonuzu/raporunuzu paylaşmasına izin verin** onay kutusunu işaretleyin.
    
@@ -119,6 +125,7 @@ Pano ve rapor paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 * Sizinle aynı e-posta etki alanını kullanan iş arkadaşlarınız ve e-posta etki alanı sizinkinden farklı olan ancak aynı kiracıda kayıtlı kişiler, panoyu başka kullanıcılarla paylaşabilir. Örneğin, contoso.com ve contoso2.com etki alanlarının aynı kiracıda kayıtlı olduğunu varsayalım. E-posta adresiniz konrads@contoso.com ise paylaşım izni verdiğiniz sürece hem ravali@contoso.com hem de gustav@contoso2.com paylaşımda bulunabilir.
 * İş arkadaşlarınızın belirli bir pano veya rapora zaten erişimi varsa panodayken veya rapordayken URL'yi kopyalayarak doğrudan bir bağlantı gönderebilirsiniz. Örnek: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Aynı şekilde, iş arkadaşlarınızın belirli bir panoya zaten erişimi varsa [bağlantılı rapora yönelik doğrudan bir bağlantı gönderebilirsiniz](service-share-reports.md). 
+* Tek bir paylaşım eyleminde en çok 100 kullanıcı veya grupla paylaşabilirsiniz. Öte yandan, bir öğe için 500'den fazla kullanıcıya erişim verebilirsiniz. Bunu yapmak için, kullanıcıları tek tek belirtip birden çok kez paylaşabileceğiniz gibi tüm kullanıcıları içeren bir kullanıcı grubuyla da paylaşabilirsiniz.
 
 ## <a name="troubleshoot-sharing"></a>Paylaşım sorunlarını giderme
 

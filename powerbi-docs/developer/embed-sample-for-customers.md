@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757427"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174971"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -214,7 +214,7 @@ Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) Authentic
 
 Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) AuthenticationType ayarı için gereklidir.
 
-**tenant** bilgisini Azure kiracı kimliğinizle doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken [Azure AD portalından](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal) alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
+**tenant** bilgisini Azure kiracı kimliğinizle doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken [Azure AD yönetim merkezinden](/onedrive/find-your-office-365-tenant-id) alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
 
 ### <a name="run-the-application"></a>Uygulamayı çalıştırma
 
@@ -304,7 +304,7 @@ JavaScript API kullanan tam bir örnek için [Playground aracı](https://microso
 
 Burada, **EmbedConfig** modeliyle **TileEmbedConfig** modelinin yanı sıra rapor görünümünü de kullanan bir örnek verilmiştir.
 
-*Rapor, pano veya kutucuk görünümü ekleme örneği, [örnek uygulama](#embed-your-content-within-a-sample-application) içindeki Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml, veya Views\Home\Embedtile.cshtml dosyasında sağlanır.*
+*Rapor, pano veya kutucuk görünümü ekleme örneği, [örnek uygulama](#embed-content-using-the-sample-application) içindeki Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml veya Views\Home\Embedtile.cshtml dosyasında sağlanır.*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

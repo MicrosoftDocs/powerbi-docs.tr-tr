@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58051705"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop'ta rol ve kural tanımlama
 Power BI Desktop'ta rol ve kural tanımlayabilirsiniz. İçeriğinizi Power BI'da yayımladığınızda rol tanımları da yayımlanır.
 
@@ -21,7 +29,7 @@ Güvenlik rollerini tanımlamak için şu adımları izleyin.
 7. DAX ifadelerini girin. İfadenin true veya false değeri döndürmesi gerekir. Örneğin: [Entity ID] = "Değer".
    
    > [!NOTE]
-   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olduğunu unutmayın. Power BI hizmetinde ve Power BI Rapor Sunucusu'nda, kullanıcının Kullanıcı Asıl Adı (UPN) biçimindedir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde döndüren (*username@contoso.com*) *userprincipalname()* işlevini kullanabilirsiniz.
+   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olduğunu unutmayın. Power BI hizmetinde ve Power BI Rapor Sunucusu'nda, kullanıcının Kullanıcı Asıl Adı (UPN) biçimindedir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde (*kullanıcıadı\@contoso.com*) döndüren *userprincipalname()* işlevini kullanabilirsiniz.
    > 
    > 
    

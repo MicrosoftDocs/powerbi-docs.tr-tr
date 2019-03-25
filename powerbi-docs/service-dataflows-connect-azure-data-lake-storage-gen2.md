@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426735"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174764"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -65,7 +65,7 @@ Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrın
 
 Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rolü vermeniz gerekir. Bu yerleşik bir roldür, bu nedenle adımlar basittir. 
 
-[Güvenlik sorumlusuna rol atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal) makalesindeki adımları izleyin.
+[Yerleşik RBAC rolü atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) adımlarını izleyin.
 
 **Rol ataması ekle** penceresinde, Power BI hizmetine atanacak **Okuyucu** rolünü seçin. Daha sonra **Power BI Hizmeti**’ni arayıp bulup. Aşağıdaki görüntüde, Power BI hizmetine atanan **Okuyucu** rolü gösterilmektedir.
 
@@ -150,6 +150,9 @@ Aşağıdaki adımlarla **Azure Data Lake Storage 2. Nesil** hesabınızın bağ
 6. **Bağlan**'ı seçin.
 
 Bu adımlar başarıyla tamamlandıktan sonra Azure Data Lake Storage 2. Nesil hesabınız Power BI’a bağlanır. 
+
+> [!NOTE]
+> Power BI yönetim portalında Azure Data Lake Storage 2. Nesil'e bağlantı yapılandırmak için Genel Yönetici izinlerinizin olması gerekir. Öte yandan, Genel Yöneticiler yönetim portalında dış depolamaya bağlanamaz.  
 
 Daha sonra kuruluşunuzdaki kişilerin kendi çalışma alanlarını yapılandırmasını sağlamanız gerekir; böylece bu kişilerin veri akışı tanımı ve veri depolama alanı için bu depolama hesabını kullanmalarına olanak sağlarsınız. Sonraki bölümde bunu yapalım. 
 

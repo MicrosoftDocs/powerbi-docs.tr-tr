@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223755"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174902"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -137,7 +137,7 @@ Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Pow
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
 
-[Çözümünüzü üretime yükseltmek](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) için Power BI içeriğinin (uygulamanızda kullandığınız uygulama çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atanmasına ihtiyacınız vardır.
+[Çözümünüzü üretime yükseltmek](embed-sample-for-customers.md#move-to-production) için Power BI içeriğinin (uygulamanızda kullandığınız uygulama çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atanması gerekir.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded çözümünde hangi Azure bölgeleri kullanılabilir?
 
@@ -167,7 +167,7 @@ Bir AAD belirteci almak için [Azure Active Directory Kimlik Doğrulama Kitaplı
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz?
 
-Bu standart bir başkası adına OAuth akışıdır (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) Uygulama Power BI hizmetine izin gerektirecek şekilde (gerekli kapsamlarla) yapılandırılmalıdır ve uygulamanıza kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak doğrudan ADAL API AcquireTokenAsync'e çağrı yapar ve kaynak kimliği olarak Power BI kaynak URL'sini belirtirsiniz. Aşağıda, bunun nasıl yapılabileceğini gösteren kod parçacığına bakın:
+Bu standart OAuth kullanıcı adına akışıdır (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). Uygulamanın Power BI hizmetine (gerekli kapsamlarla) izinler gerektirecek şekilde yapılandırılması gerekir. Uygulamanıza yönelik bir kullanıcı belirteciniz olduğunda, kullanıcı erişim belirtecini kullanarak ADAL API AcquireTokenAsync çağrısı yapmanız ve kaynak kimliği olarak Power BI kaynak URL'sini belirtmeniz yeterlidir. Bunun nasıl yapılabileceğini gösteren aşağıdaki kod parçacığına bakın:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Kayıtlı uygulamamı nasıl düzenleyebilirim?
 
-AAD kayıtlı uygulamalarını düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bulabilirsiniz.
+Azure AD'ye kayıtlı uygulamaları düzenlemeyi öğrenmek için bkz. [Hızlı başlangıç: Azure Active Directory’de uygulamayı güncelleştirme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI kullanıcı profilimi veya verilerimi nasıl düzenleyebilirim?
 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/10/2019
-ms.openlocfilehash: 719ec49dd560461dfa3cec66e8f8f1a5b92b8951
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757404"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174810"
 ---
 # <a name="certified-custom-visuals"></a>Sertifikalı özel görseller
 
@@ -73,6 +73,7 @@ Bir özel görseli sertifikasyona göndermek için:
 
 | AppSource bağlantısı | Video bağlantısı |
 | --- | --- |
+| [3AG Systems - Bar Chart With Relative Variance](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912) | |
 | [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) | |
 | [Gelişmiş Halka Görsel](https://appsource.microsoft.com/product/power-bi-visuals/WA104381941) | |
 | [Gelişmiş Ağ Görselleştirmesi](https://appsource.microsoft.com/product/power-bi-visuals/WA104381942) | |

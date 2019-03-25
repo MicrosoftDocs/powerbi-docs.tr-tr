@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291177"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980416"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
@@ -56,7 +56,7 @@ Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Mer
 
 ## <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 
-Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle sınırlayabilirsiniz. Etkinlik listesi için bu makalenin [Power BI tarafından denetlenen etkinliklerin listesi](#list-of-activities-audited-by-power-bi) bölümüne bakın.
+Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle sınırlayabilirsiniz. Etkinlik listesi için bu makalenin devamındaki [Power BI tarafından denetlenen etkinlikler](#activities-audited-by-power-bi) listesine bakın.
 
 1. **Denetim günlüğü arama** sayfasının **Ara** bölümünde **Etkinlikler** açılan menüsünü seçin.
 

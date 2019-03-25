@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430316"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174948"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları için kullanım ölçümlerini izleme
 
@@ -47,7 +47,7 @@ Kullanım ölçümleri raporları oluşturma özelliği yalnızca Power BI hizme
 
 Kullanım ölçümleri raporları **Son görüntülenen**, **Çalışma Alanı**, **Sık Kullanılanlar** veya diğer içerik listelerinde gösterilmez. Bu raporlar uygulamaya eklenemez. Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlemeniz halinde ilgili pano bir uygulamaya veya içerik paketine eklenemez.
 
-Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı oluşturmak için **Farklı kaydet** (bkz. [Kullanım Ölçümleri raporunu tam özellikli bir Power BI raporu olarak kaydetme](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))) seçeneğini kullanın.
+Rapor verilerini yakından incelemek veya veri kümesiyle kendi raporlarınızı oluşturmak için **Farklı kaydet** seçeneğini kullanın (bkz. [Kullanım Ölçümleri raporunu tam özellikli bir Power BI raporu olarak kaydetme](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Bir pano veya rapora ilişkin Kullanım Ölçümleri raporunu açma
 

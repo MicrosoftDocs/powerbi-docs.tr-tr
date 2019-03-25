@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757335"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980370"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757335"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Yöneticiler, özel kuruluş görsellerini nasıl yönetebilir?
 
-Yöneticiler, Yönetim portalının "Özel kuruluş görselleri" sekmesinden [kuruluştaki tüm özel kuruluş görsellerini görebilir ve şu yönetim işlemlerini gerçekleştirebilir](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): ekleme, devre dışı bırakma, etkinleştirme ve silme.
+Yöneticiler, Yönetim portalının "Özel kuruluş görselleri" sekmesinden [kuruluştaki tüm özel kuruluş görsellerini görebilir ve şu yönetim işlemlerini gerçekleştirebilir](service-admin-portal.md#organizational-visuals): ekleme, devre dışı bırakma, etkinleştirme ve silme.
 Artık bu görselleri e-posta veya paylaşılan klasörle paylaşmaya gerek yoktur! Görseller kuruluş deposuna dağıtıldıktan sonra kuruluştaki kullanıcılar bunları kolayca bulabilir ve özel kuruluş görsellerini doğrudan Power BI Desktop’tan veya Power BI hizmetinden raporlarına aktarabilir. Özel kuruluş görsellerine *KURULUŞUM* sekmesindeki yerleşik mağazadan (Desktop ve hizmet) erişebilirsiniz. Yönetici özel bir görselin yeni sürümünü yüklediğinde kuruluştaki tüm kullanıcılar aynı güncel sürüme sahip olur. Rapor yazarlarının raporlardaki görselleri silerek yeni sürümünü eklemesine gerek yoktur. Bu görselin kullanıldığı tüm raporlar otomatik olarak güncelleştirilir! Market görsellerinin güncelleştirme mekanizması da benzerdir.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Yöneticinin genel marketten kuruluş deposuna yüklediği özel görsellerde satıcı tarafından yapılan güncelleştirmeler otomatik olarak uygulanır mı?

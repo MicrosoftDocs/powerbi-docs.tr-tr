@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/25/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 032fae40a7e2328879ba01b6d94c3c532369b3ab
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826687"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174925"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
@@ -97,7 +97,7 @@ Panoda aşağıdaki ölçümler bulunur:
 | DirectQuery/Canlı Yüksek Kullanım Sayısı| Son yedi gün içinde DirectQuery/Canlı bağlantı kullanımının eşik değerlerin %80'ini aşma sayısı (üç dakikalık demetlere ayrılmıştır). |
 | DirectQuery/Canlı Maksimum Kullanım Sayısı| Son yedi gün içinde DirectQuery/Canlı bağlantı kullanımının %80'i aştığı durumların maksimum sayısı (bir saatlik demetlere ayrılmıştır). |
 | DirectQuery/Canlı Maksimum Yüksek Kullanım | Son yedi gün içinde DirectQuery/Canlı bağlantı kullanımının eşik değerlerin %80'i aştığı durumların maksimum sayısı (üç dakikalık demetlere ayrılmıştır).|
-| DirectQuery/Canlı Maksimum Oluşma Süresi | DirectQuery/Canlı bağlantı kullanımının bir saat içinde %80'i aştığı durumların en sık gerçekleştiği yerel saat. |
+| DirectQuery/Canlı Maksimum Oluşma Süresi | DirectQuery/Canlı bağlantı kullanımının bir saat içinde %80'i aştığı durumların en sık gerçekleştiği UTC saati. |
 | Toplam Yenileme Sayısı | Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı. |
 | Yenileme Güvenilirliği (%) | Başarılı yenileme sayısının son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısına bölünmesiyle elde edilen sonuç. |
 | Ortalama Yenileme Süresi (Dakika) | Yenilemenin tamamlandığı ortalama süre. |
@@ -162,8 +162,8 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | Yenilemeler |  Toplam Sayı: Her veri kümesi için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri kümesi için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri kümesi için en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
 | Ortalama Süreye Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme süresine sahip beş veri kümesi. |
 | Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme bekleme süresine sahip beş veri kümesi. |
-| Saatlik Yenileme Sayısı ve Bellek Tüketimi (GB) |  Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
-| Saatlik Ortalama Yenileme Bekleme Süreleri (dakika) |  Bir saatlik demetlere ayrılmış ve yerel saatle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
+| Saatlik Yenileme Sayısı ve Bellek Tüketimi (GB) |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
+| Saatlik Ortalama Yenileme Bekleme Süreleri (dakika) |  Bir saatlik demetlere ayrılmış ve UTC saatiyle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
 |  |  |
 
 #### <a name="query-durations-area"></a>Sorgu Süreleri alanı
@@ -173,8 +173,8 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | Sorgu Süreleri |  Bu bölümdeki veriler, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır.<br>  Toplam: Veri kümesi için çalıştırılan sorguların toplam sayısı.<br>  Ortalama: Veri kümesi için ortalama sorgu süresi (milisaniye cinsinden)<br>  Maksimum: Veri kümesinde en uzun süre çalışan sorgunun süresi (milisaniye cinsinden).|
 | Sorgu Süresi Dağılımı |  Sorgu süresi histogramında sorgu süreleri şu kategorilere göre ayrılmış şekilde (milisaniye cinsinden) gösterilir: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sn, 1 sn-3 sn, 3 sn-10 sn, 10 sn-30 sn ve > 30 saniyelik aralıklar. Uzun sorgu ve bekleme süreleri, kapasitede az yer kaldığının göstergesidir. Tek bir veri kümesinin sorunlara yol açtığı ve daha fazla araştırma gerektiği anlamına da gelebilir. |
 | Ortalama Süreye Göre En İyi 5 Veri Kümesi |  Milisaniye cinsinden en uzun ortalama sorgu süresine sahip beş veri kümesi. |
-| Saatlik Sorgu Süresi Dağılımları |  Sorgu sayıları ve ortalama süre (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (yerel saatte bir saatlik aralıklara bölünmüş olarak). |
-| DirectQuery/Canlı Bağlantılar (> %80 Kullanım) |  DirectQuery'nin veya canlı bağlantının %80 CPU kullanımını kaç kez aştığı (yerel saatte bir saatlik aralıklara bölünmüş olarak). |
+| Saatlik Sorgu Süresi Dağılımları |  Sorgu sayıları ve ortalama süre (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (UTC saatiyle bir saatlik aralıklara bölünmüş olarak). |
+| DirectQuery/Canlı Bağlantılar (> %80 Kullanım) |  DirectQuery'nin veya canlı bağlantının %80 CPU kullanımını kaç kez aştığı (UTC saatiyle bir saatlik aralıklara bölünmüş olarak). |
 |  |  |
 
 #### <a name="query-waits-area"></a>Sorgu Beklemeleri alanı
@@ -184,7 +184,7 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | Sorgu Bekleme Süreleri |  Bu bölümdeki veriler, çalışma alanı ve son yedi gün içindeki saatlik demetlere göre ayrılmıştır.<br>  Toplam: Veri kümesi için çalıştırılan sorguların toplam sayısı.<br>  Bekleme sayısı: Veri kümesinde yürütülmeye başlamadan önce sistem kaynaklarında bekletilen sorguların sayısı.<br>  Ortalama: Veri kümesi için ortalama sorgu bekleme süresi (milisaniye cinsinden).<br>  Maksimum: Veri kümesinde en uzun süre bekleyen sorgunun süresi (milisaniye cinsinden).|
 | Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi |  Sorgunun yürütülmesi için ortalama bekleme süresi (milisaniye cinsinden) en uzun olan beş veri kümesi. |
 | Bekleme Süresi Dağılımı |  Sorgu süresi histogramında sorgu süreleri şu kategorilere göre ayrılmış şekilde (milisaniye cinsinden) gösterilir: <= 50 ms , 50-100 ms , 100-200 ms , 200-400 ms 400 ms-1 sn, 1 sn-5 sn ve > 5 saniyelik aralıklar. |
-| Saatlik Sorgu Bekleme Süresi Dağılımı |  Sorgu bekleme sayıları ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (yerel saatte bir saatlik aralıklara bölünmüş olarak). |
+| Saatlik Sorgu Bekleme Süresi Dağılımı |  Sorgu bekleme sayıları ve ortalama bekleme süresi (milisaniye) ile GB olarak bellek tüketimi arasındaki karşılaştırma (UTC saatiyle bir saatlik aralıklara bölünmüş olarak). |
 |  |  |
 
 #### <a name="datasets-area"></a>Veri kümeleri alanı
@@ -193,8 +193,8 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | --- | --- |
 | Veri Kümesi Boyutları  |  En büyük boyut: Gösterilen zaman aralığında en büyük veri kümesinin MB cinsinden boyutu. |
 | Veri Kümesi Çıkarma Sayıları |  Toplam: Her kapasite için veri kümesi *çıkarmalarının* toplam sayısı. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten çıkarır. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir.|
-| Saatlik Yüklenen Veri Kümesi Sayısı |  Bir saatlik demetlere ayrılan ve yerel saat cinsinden raporlanan, belleğe yüklenen veri kümesi sayısı ile GB cinsinden bellek tüketimi karşılaştırması. |
-| Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve yerel saatle raporlanan veri kümesi çıkarmaları ile GB cinsinden bellek tüketimi karşılaştırması. |
+| Saatlik Yüklenen Veri Kümesi Sayısı |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan, belleğe yüklenen veri kümesi sayısı ile GB cinsinden bellek tüketimi karşılaştırması. |
+| Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan veri kümesi çıkarmaları ile GB cinsinden bellek tüketimi karşılaştırması. |
 | Tüketilen Bellek Yüzdeleri |  Toplam belleğin yüzdesi olarak bellekteki etkin veri kümelerinin toplamı. Etkin ile Tümü arasındaki delta çıkarılabilen veri kümelerini tanımlar. Önceki yedi gün için saatlik olarak gösterilir. |
 |  |  |
 
@@ -205,8 +205,8 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | Genel kullanım |  Toplam Görüntüleme Sayısı: Raporun bir kullanıcı tarafından toplam görüntülenme sayısı.<br>  Satır Sayısı: Rapordaki veri satırlarının sayısı.<br>  Alma (ortalama): Raporun verilerini almak için gereken ortalama süre (milisaniye cinsinden). Uzun süreler yavaş çalışan sorgulara veya başka veri kaynağı sorunlarına işaret ediyor olabilir. <br>  İşlem yapma (ortalama): Raporun verileri üzerinde işlem yapmak için gereken ortalama süre (milisaniye cinsinden).<br> İşleme (ortalama): Raporu tarayıcıda işlemek için gereken ortalama süre (milisaniye cinsinden).<br>  Toplam süre: Raporun tüm aşamaları için gereken süre (milisaniye cinsinden). |
 | Ortalama Veri Alma Süresine Göre İlk 5 Rapor |  Milisaniye cinsinden ortalama veri alma süresi en uzun olan beş rapor. |
 | Ortalama Rapor İşlem Yapma Süresine Göre İlk 5 Rapor |  Milisaniye cinsinden ortalama raporda işlem yapma süresi en uzun olan beş rapor. |
-| Saatlik Sonuçlar |  Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
-| Saatlik Süreler |  Bir saatlik demetlere ayrılmış olarak ve yerel saatle bildirilen veri alma süresiyle işlem yapma ve işleme sürelerinin karşılaştırması. |
+| Saatlik Sonuçlar |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
+| Saatlik Süreler |  Bir saatlik demetlere ayrılmış olarak ve UTC saatiyle bildirilen veri alma süresiyle işlem yapma ve işleme sürelerinin karşılaştırması. |
 |  |  |
 
 ### <a name="dataflows"></a>Veri akışları
@@ -216,8 +216,8 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | Yenilemeler |  Toplam: Her veri akışı için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri akışı için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri akışının en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri akışı yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
 | Ortalama Yenileme Süresine Göre En İyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme süresi en uzun olan beş veri akışı. |
 | Ortalama Bekleme Süresine Göre En iyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme bekleme süresi en uzun olan beş veri akışı. |
-| Saatlik Ortalama Yenileme Bekleme Süreleri |  Bir saatlik demetlere ayrılmış ve yerel saatle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
-| Saatlik Yenileme Sayısı ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve yerel saatle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
+| Saatlik Ortalama Yenileme Bekleme Süreleri |  Bir saatlik demetlere ayrılmış ve UTC saatiyle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
+| Saatlik Yenileme Sayısı ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
 |  |  |
 
 ### <a name="resource-consumption"></a>Kaynak Tüketimi

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223847"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174833"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -290,7 +290,7 @@ Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar
 
 Bu hatanın nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak `http://localhost:13526/` kullanın.
 
-Kayıtlı uygulamayı düzenlemek istiyorsanız, uygulamanın web API’lerine erişim sağlayabilmesi için [AAD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) düzenleme hakkında bilgi edinin.
+Kayıtlı uygulamayı düzenlemek isterseniz, uygulamanın web API’lerine erişim sağlayabilmesi için [Azure AD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) güncelleştirme hakkında bilgi edinin.
 
 Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
 

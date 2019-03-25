@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284001"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964675"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma
 Çalışma ortamınızda İnternet'e erişmek için ara sunucu kullanmanız gerekebilir. Bu da Şirket içi veri ağ geçidinin hizmete bağlanmasını engelleyebilir.
@@ -46,24 +46,41 @@ Birincisi, ağ geçidini yapılandıran yapılandırma ekranlarına ilişkindir.
 ## <a name="configuring-proxy-settings"></a>Ara sunucu ayarlarını yapılandırma
 Varsayılan ara sunucu yapılandırması aşağıda verilmiştir.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 Varsayılan yapılandırma Windows kimlik doğrulamasını kullanır. Ara sunucunuz başka bir kimlik doğrulaması türü kullanıyorsa ayarları değiştirmeniz gerekir. Emin değilseniz ağ yöneticinize başvurabilirsiniz. Temel ara sunucu kimlik doğrulaması önerilmez ve temel ara sunucu kimlik doğrulamasını kullanma girişimi, ağ geçidinin düzgün şekilde yapılandırılmamasıyla sonuçlanan ara sunucu kimlik doğrulaması hatalarına neden olabilir. Çözümlemek için daha güçlü bir kimlik doğrulaması mekanizması kullanın.
 
 Varsayılan kimlik bilgilerini kullanmaya ek olarak, ara sunucu ayarlarını daha ayrıntılı bir şekilde tanımlamak için bir <proxy> öğesi ekleyebilirsiniz. Örneğin, bypassonlocal değerini false olarak ayarlayarak şirket içi veri ağ geçidinizin yerel kaynaklar için bile her zaman ara sunucu kullanması gerektiğini belirtebilirsiniz. Bunun yapılması, ara sunucu günlük dosyalarındaki bir Şirket içi veri ağ geçidinden kaynaklanan tüm https isteklerini takip etmek istemeni durumunda yararlı olabilir. Aşağıdaki örnek yapılandırma, tüm isteklerin 192.168.1.10 IP adresi ile belirli bir ara sunucudan geçmesi gerektiğini belirtir.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+Bunların yanı sıra, ağ geçidinin ara sunucu üzerinden bulut veri kaynaklarına bağlanması için şu dosyayı güncelleştirin: *C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe*. Dosyada `<configurations>` bölümünü genişletip aşağıdaki içeriği ekleyin ve `proxyaddress` özniteliğini ara sunucu bilgilerinizle güncelleştirin. Aşağıdaki örnekte tüm bulut istekleri IP adresi 192.168.1.10 olan belirli bir ara sunucu üzerinden yönlendirilir.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 .NET yapılandırma dosyalarının ara sunucu öğelerinin yapılandırılması hakkında daha fazla bilgi için bkz. [defaultProxy Öğesi (Ağ Ayarları)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

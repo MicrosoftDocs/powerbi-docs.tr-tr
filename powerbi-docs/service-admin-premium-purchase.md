@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014151"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964859"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
@@ -95,13 +95,15 @@ Aboneliğinizi Office 365 yönetim merkezinden iptal edebilirsiniz. Premium abon
 
 1. Bilgileri okuyun ve devam etmek istiyorsanız **Aboneliği iptal et**'i seçin.
 
+### <a name="when-canceling-or-your-license-expires"></a>İptal ettiğinizde veya lisansınızın süresi dolduğunda
+
+Premium aboneliğinizi iptal ettiğinizde veya kapasite lisansınızın süresi dolduğunda, iptal veya lisans süre sonu tarihini izleyen 30 günlük bir süre boyunca Premium kapasitelerinize erişmeye devam edebilirsiniz. Bu 30 günün sonunda artık Premium kapasitelerinize veya bunların içerdiği çalışma alanlarına erişemezsiniz.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/)
-[Power BI Premium nedir?](service-premium.md)
-[Power BI Premium Hakkında SSS](service-premium-faq.md)
-[Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
+[Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium hakkında SSS](service-premium-faq.md)   
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
