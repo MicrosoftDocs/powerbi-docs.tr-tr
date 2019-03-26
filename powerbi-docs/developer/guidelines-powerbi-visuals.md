@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175491"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430312"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 
@@ -29,7 +29,6 @@ Yakın zamana kadar, Market (AppSource) yalnızca ücretsiz olan Power BI görse
 
 >[!IMPORTANT]  
 > Görselinizi ücretsizden "Ek satın alma işlemleri gerekebilir" düzeyine güncelleştirmek için kullanıcıların güncelleştirme öncesiyle aynı ücretsiz işlevsellik düzeyini elde etmesi gerekir. Var olan ücretsiz özelliklerin üzerine isteğe bağlı olarak gelişmiş ücretli özellikler ekleyebilirsiniz. Var olan ücretsiz görselleri güncelleştirmek yerine, gelişmiş özellikler içeren IAP görsellerini yeni görseller olarak göndermenizi öneririz.
-
 
 ## <a name="what-changed-in-the-submission-process"></a>Gönderim işleminde neler değişti?
 
@@ -51,17 +50,17 @@ Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklan
 > [!IMPORTANT]
 > Logolara **yalnızca düzenleme modunda** izin verilir. Logolar görüntüleme modunda **gösterilemez**.
 
-![Tanımlar](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![Tanımlar](media/guidelines-powerbi-visuals/definitions.png)
 
-![Akılda tutulması gereken noktalar](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![Akılda tutulması gereken noktalar](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![Yapılmaması gerekenler](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![Yapılmaması gerekenler](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![Boyut ve biçim](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![Boyut ve biçim](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![Kenar boşlukları ve boyutlandırma](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![Kenar boşlukları ve boyutlandırma](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![Düzenleme modu](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![Düzenleme modu](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>En iyi yöntemler
 

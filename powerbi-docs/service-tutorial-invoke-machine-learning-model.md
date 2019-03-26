@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966422"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430335"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)
 
@@ -92,7 +92,7 @@ Sonraki ekranda veri kaynağına bağlanmanız istenir. Azure ML modelinizi olu�
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!Connect to data source](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Veri kaynağına bağlanma](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Power Query Düzenleyicisi CSV dosyasındaki verilerin önizlemesini gösterir. Komut şeridinde **Tabloyu Dönüştür**'ü seçin ve sonra da **İlk Satırı Üst Bilgi Olarak Kullan**'ı seçin.  Bu seçim sağ taraftaki _Uygulanan adımlar_ bölmesine **Yükseltilen üst bilgiler** sorgu adımını ekler. Sağ taraftaki bölmeyi kullanarak sorgunun adını _Otomobil Fiyatları_ gibi daha kolay bir adla değiştirebilirsiniz.
 
@@ -137,7 +137,7 @@ _Automobile Price Prediction_ Azure ML modeline erişmek için, tahmini fiyatı 
 
 Şeritte **AI Öngörüler** düğmesini seçin ve ardından sol gezinti menüsünden _Azure Machine Learning Modelleri_ klasörünü seçin.
 
-**Azure Machine Learning Modelleri** klasörünü seçin. Erişim verdiğiniz Azure ML modelleri, *AzureML.* ön ekiyle Power Query işlevleri olarak listelenir.  _AutomobilePricePrediction_ modeline karşılık gelen işleve tıkladığınızda, modelin web hizmetine ilişkin parametreler işlev parametreleri olarak listelenir.
+Erişim verdiğiniz Azure ML modelleri, *AzureML.* ön ekiyle Power Query işlevleri olarak listelenir.  _AutomobilePricePrediction_ modeline karşılık gelen işleve tıkladığınızda, modelin web hizmetine ilişkin parametreler işlev parametreleri olarak listelenir.
 
 Azure ML modelini çağırmak için, açılan listeden seçilen tüm varlık sütunlarını giriş olarak belirtebilirsiniz. Sütun simgesini giriş iletişim kutusunun sol tarafına doğru döndürerek giriş olarak bir sabitin kullanılmasını da belirtebilirsiniz. Bir sütun adı işlev parametre adlarından biriyle eşleştiğinde, sütun otomatik olarak bir giriş olması için önerilir.  Sütun adı eşleşmezse, bunu açılan listeden seçebilirsiniz.
 

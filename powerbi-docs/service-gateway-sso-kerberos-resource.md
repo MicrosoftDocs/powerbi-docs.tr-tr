@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226124"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383372"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar çoklu oturum açma (SSO) için kaynak tabanlı Kerberos’u kullanma
 
@@ -23,7 +23,7 @@ Windows Server 2012 ve sonraki sürümlerinde çoklu oturum açma bağlantısın
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Kaynak tabanlı Kerberos kısıtlanmış temsili için hazırlanma
 
-Kerberos Kısıtlanmış Temsil'in düzgün bir şekilde çalışması için, hizmet hesaplarındaki _Hizmet Asıl Adlarının_ (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğelerin yapılandırılması gerekir.
+Kerberos Kısıtlanmış Temsil'in düzgün bir şekilde çalışması için, hizmet hesaplarındaki _Hizmet Asıl Adlarının_ (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğelerin yapılandırılması gerekir. 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>1. Önkoşul: İşletim sistemi gereksinimleri
 
@@ -105,8 +105,8 @@ Bu örnek adlar ve ayarlar doğrultusunda aşağıdaki yapılandırma adımları
 1. Komut istemini açın ve **PBIEgwTestBack-end** etki alanının etki alanı denetleyicisinde aşağıdaki komutları çalıştırarak arka uç hizmet hesabının msDS-AllowedToActOnBehalfOfOtherIdentity özniteliğini güncelleştirin:
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. **Active Directory Kullanıcıları ve Bilgisayarları**'nda arka uç hizmet hesabının özelliklerindeki "Öznitelik Düzenleyicisi" sekmesinde güncelleştirmenin yansıtıldığını doğrulayabilirsiniz.
