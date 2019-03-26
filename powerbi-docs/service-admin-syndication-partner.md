@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296493"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382950"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 
@@ -33,9 +33,9 @@ Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sa
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Microsoft'tan veya başka bir kanaldan satın alma
 
-İş ortağınızla aranızdaki ilişkiye bağlı olarak Power BI'ı doğrudan Microsoft'tan veya başka bir iş ortağından satın alma seçeneğine sahip olabilirsiniz. Office 365 yönetim portalından Power BI aboneliği ekleyip ekleyemediğinizi doğrulayabilirsiniz (Genel Yönetici veya Faturalama Yöneticisi rolüne sahip olmanız gerekir).
+İş ortağınızla aranızdaki ilişkiye bağlı olarak Power BI'ı doğrudan Microsoft'tan veya başka bir iş ortağından satın alma seçeneğine sahip olabilirsiniz. Microsoft 365 yönetim merkezinden Power BI aboneliği ekleyip ekleyemediğinizi doğrulayabilirsiniz (Genel Yönetici veya Faturalama Yöneticisi rolüne sahip olmanız gerekir).
 
-1. [Office 365 yönetim portalına](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
+1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
 1. Sol taraftaki menüden **Faturalama**'yı açın:
 
