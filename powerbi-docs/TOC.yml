@@ -436,6 +436,8 @@ items:
       items:
       - name: Yardım almaya yönelik 10 ipucu
         href: service-tips-for-finding-help.md
+      - name: Power BI destek seçenekleri
+        href: service-support-options.md
       - name: Özel durumlarda lisanslama
         items:
         - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
@@ -1325,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 4bef8b089403856b84eafc59a00b31ad5f0c00c2
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
+ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430427"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473902"
