@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325026"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383428"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
 Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
@@ -77,7 +77,7 @@ Bulut hizmetleri yalnızca Azure Active Directory'deki hesapları tanır. Yerel 
 
 1. Hesapları Azure Active Directory'ye el ile ekleyebilirsiniz.
    
-   Azure portalı veya Office 365 Yönetim Portalı'nda bir hesap oluşturabilirsiniz. Böylece hesap adı, yerel Active Directory hesabının UPN'si ile eşleşir.
+   Azure portalı veya Microsoft 365 yönetim merkezinde bir hesap oluşturabilirsiniz. Böylece hesap adı, yerel Active Directory hesabının UPN’si ile eşleşir.
 2. Yerel hesapları Azure Active Directory kiracınız ile eşitlemek için [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) aracını kullanabilirsiniz.
    
    Azure AD Connect aracı, parola karma eşitlemesi, geçişli kimlik doğrulama ve federasyon gibi dizin eşitleme ve kimlik doğrulaması ayarlamaya yönelik seçenekler sağlar. Bir kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz bu yapılandırmayı gerçekleştirmesi için BT yöneticinizle iletişime geçmeniz gerekir.

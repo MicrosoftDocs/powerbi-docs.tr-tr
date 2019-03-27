@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580048"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430266"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -39,7 +39,7 @@ Lütfen **Power BI US Government** hizmetinin yalnızca **Pro lisansı** olarak 
 * Tüm veriler hem Azure SQL hem de Blob Depolama Alanı'nda şifrelenir
 * [İçerik paketleri](service-connect-to-services.md) ile hizmetlere bağlanma
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Kamuya ve Genel kullanıma sunulan Azure Bulut hizmetleri arasında bağlantı 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Kamuya ve genel kullanıma sunulan Azure Bulut hizmetleri arasında bağlantı 
 
 Azure birçok bulutta dağıtılmaktadır. Varsayılan olarak kiracıların, buluta özgü bir örnek için güvenlik duvarı kurallarını açmasına izin verilir ancak bulutlar arası ağlar farklıdır ve hizmetler arasında iletişim kurulabilmesi için belirli güvenlik duvarı kurallarının açılması gerekir. Power BI müşterisiyseniz ve genel bulutta erişmeniz gereken SQL örnekleriniz varsa aşağıdaki veri merkezleri için SQL'de Azure Kamu Bulutu IP alanı için belirli güvenlik duvarı kurallarını açmanız gerekir:
 
@@ -93,7 +93,7 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Soru:** Hesabım birden fazla bağımsız bulutta sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
+**Soru:** Hesabım birden fazla ulusal bulutta sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
 
 **Cevap:** **Power BI Desktop**'ın Temmuz 2018 sürümünde itibaren **Power BI Desktop**’ta oturum açarken kullanmak istediğiniz bulutu seçebilirsiniz.
 

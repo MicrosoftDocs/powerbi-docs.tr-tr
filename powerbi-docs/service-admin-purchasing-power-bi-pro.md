@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430706"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383098"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro lisanslarını satın alma ve atama
 
@@ -33,7 +33,7 @@ Azure’da lisans atamak için, Power BI'ın Active Directory aramalarında kull
 
 Power BI Pro lisansları satın almak için şu adımları izleyin:
 
-1. [Office 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
+1. [Microsoft 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
 
 2. Sol gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
 
@@ -71,7 +71,7 @@ Power BI Pro lisansları satın almak için şu adımları izleyin:
 
 Bireysel kullanıcı hesaplarına Power BI Pro lisansları atamak için şu adımları izleyin:
 
-1. [Office 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
+1. [Microsoft 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
 
 2. Sol gezinti bölmesinde **Kullanıcılar**’ı genişletin ve sonra **Etkin kullanıcılar**’ı seçin.
 

@@ -880,8 +880,8 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: Kuruluşunuz için içerik ekleme
         href: developer/embed-sample-for-your-organization.md
-      - name: Bağımsız bulutlara içerik ekleme
-        href: developer/embed-sample-for-customers-sovereign-clouds.md
+      - name: Ulusal bulutlar için içerik ekleme
+        href: developer/embed-sample-for-customers-national-clouds.md
     - name: Kavramlar
       items:
       - name: Performans açısından en iyi yöntemleri
@@ -983,7 +983,7 @@ items:
       - name: Power BI’da kuruluşlara yönelik özel görseller
         href: power-bi-custom-visuals-organization.md
       - name: Power BI görselleri için yönergeler
-        href: developer/office-store-in-app-purchase-visual-guidelines.md
+        href: developer/guidelines-powerbi-visuals.md
       - name: Özel görseller hakkında SSS
         href: power-bi-custom-visuals-faq.md
       - name: Özellikleri Kullanma
@@ -1325,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
-ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
+ms.openlocfilehash: 4bef8b089403856b84eafc59a00b31ad5f0c00c2
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57964928"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430427"

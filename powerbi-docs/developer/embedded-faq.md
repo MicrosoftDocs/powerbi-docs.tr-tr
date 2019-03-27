@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174902"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430450"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -274,9 +274,9 @@ Evet, Power BI Embedded için [Azure kredilerinizi](https://azure.microsoft.com/
 
 Power BI Embedded Azure kapsamında yer aldığından hizmeti [Azure'a kaydolurken tanınan 200 ABD Doları kredi](https://azure.microsoft.com/free/) ile kullanabilirsiniz.
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded, bağımsız bulutlarda (ABD, Almanya, Çin) kullanılabilir mi?
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Power BI Embedded, ulusal bulutlarda (ABD, Almanya, Çin) kullanılabilir mi?
 
-Power BI Embedded bazı [bağımsız bulutlarda](embed-sample-for-customers-sovereign-clouds.md) kullanılabilir. Bu hizmet Çin bulutunda henüz **kullanılamıyor**.
+Power BI Embedded [ulusal bulutlar](embed-sample-for-customers-national-clouds.md) için de kullanılabilir.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded kâr amacı gütmeyen ve eğitim kuruluşları için kullanılabilir mi?
 

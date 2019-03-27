@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964997"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430496"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -558,7 +558,7 @@ Haziran ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağ
 
 ### <a name="other"></a>Diğer
 
-* Bağımsız bulut seçici [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Ulusal bulut seçici [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2250,7 +2250,7 @@ Bu güncelleştirme hakkında daha ayrıntılı bilgi edinmek için aşağıdaki
 
 Bu güncelleştirmedeki özellikleri aşağıda bulabilirsiniz:
 
--   **Yeni Veri Bağlayıcıları**: appFigures, Quickbooks Online, Zendesk, Github, Twilio ve SweetIQ.
+-   **Yeni Veri Bağlayıcıları**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio ve SweetIQ.
 
 -   **Yeni Dönüştürme Seçenekleri**: Metin Sütunlarındaki İlk/Son karakterleri veya belirli karakter Aralıklarını ayıklama; Sorguları Birleştir iletişim kutusunda Birleştirme Türü belirtme seçeneği; Sütunu Sınırlayıcıya Göre Böl iletişim kutusunda Alıntı Stilini özelleştirme olanağı.
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430139"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383326"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -71,7 +71,7 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç ara
 | **Araç** | **Tipik görevler** |
 | --- | --- |
 | Power BI Yönetim portalı |<ul><li>Premium kapasite edinme ve birlikte çalışma</li><li>Hizmet kalitesi sağlama</li><li>İş verilerinin sınıflandırılmasını yönetme</li><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</li><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama</li><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama</li><li>Veri erişimi ve diğer sorunları giderme</li></ul>|
-| Office 365 Yönetim Merkezi |<ul><li>Kullanıcı kaydını yönetme</li><li>Pro lisansları satın alma ve atama</li><li>Kullanıcıların Power BI’ya erişmesini engelleme</li></ul>|
+| Microsoft 365 yönetim merkezi |<ul><li>Kullanıcı kaydını yönetme</li><li>Pro lisansları satın alma ve atama</li><li>Kullanıcıların Power BI’ya erişmesini engelleme</li></ul>|
 | Office 365 Güvenlik ve Uyumluluk Merkezi |<ul><li>Olayların denetimini gözden geçirme ve yönetme</li></ul>|
 | Azure portalında Azure Active Directory (AAD) |<ul><li>AAD aracılığıyla Power BI kaynaklarına koşullu erişimi yapılandırma</li><li>Power BI Embedded kapasitesi sağlama</li></ul>|
 | PowerShell cmdlet'leri |<ul><li>Betikler aracılığıyla çalışma alanlarını ve Power BI’ın diğer yönlerini yönetme</li></ul>|

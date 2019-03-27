@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287598"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382823"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI hizmet yöneticisi rolünü anlama
 
@@ -25,23 +25,23 @@ Kuruluşunuzda Power BI hizmet yöneticisi rolünü nasıl kullanabileceğinizi 
 
 Power BI hizmet yöneticisi rolü, Power BI Yönetici portalına erişmesi gereken kullanıcılara, Office 365 yönetici erişimi verilmeden atanabilir.
 
-Office 365 kullanıcı yöneticileri, Office 365 Yönetim merkezinden veya bir PowerShell betiği kullanarak Power BI hizmet yöneticisi rolüne kullanıcı atayabilir. Rol atandığında kullanıcı [Power BI yönetici portalına](service-admin-portal.md) erişebilir. Burada, kiracı genelinde kullanım ölçümlerine erişebilir ve Power BI özelliklerinin kiracı genelindeki kullanımını kontrol edebilirler.
+Office 365 kullanıcı yöneticileri, Microsoft 365 yönetim merkezinden veya bir PowerShell betiği kullanarak Power BI hizmet yöneticisi rolüne kullanıcı atayabilir. Rol atandığında kullanıcı [Power BI yönetici portalına](service-admin-portal.md) erişebilir. Burada, kiracı genelinde kullanım ölçümlerine erişebilir ve Power BI özelliklerinin kiracı genelindeki kullanımını kontrol edebilirler.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 Power BI hizmet yöneticisi rolü aşağıdaki özellikleri sunmaz:
 
-* Office 365 yönetim merkezinde kullanıcıları ve lisansları değiştirme olanağı,
+* Microsoft 365 yönetim merkezinde kullanıcıları ve lisansları değiştirme olanağı,
 
 * Denetim günlüklerine erişim. Daha fazla bilgi için bkz. [Kuruluşunuzda denetim özelliğini kullanma](service-admin-auditing.md).
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Kullanıcıları Office 365'te yönetici rolüne atama
 
-Kullanıcıları Office 365 yönetim merkezinden Power BI yöneticisi rolüne atamak için aşağıdaki adımları izleyin.
+Kullanıcıları Microsoft 365 yönetim merkezinden Power BI yöneticisi rolüne atamak için aşağıdaki adımları izleyin.
 
-1. Office 365 Yönetim merkezinde **Kullanıcılar** > **Etkin Kullanıcılar**'ı seçin.
+1. Microsoft 365 yönetim merkezinde **Kullanıcılar** > **Etkin Kullanıcılar**’ı seçin.
 
-    ![Office 365 Yönetim Merkezi](media/service-admin-role/powerbi-admin-users.png)
+    ![Microsoft 365 yönetim merkezi](media/service-admin-role/powerbi-admin-users.png)
 
 1. Rolü atamak istediğiniz kullanıcıyı seçin.
 

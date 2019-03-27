@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430233"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383250"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -35,7 +35,7 @@ Power BI Pro lisanslarını Microsoft Office 365 aracılığıyla veya sertifika
 
 Kuruluşunuzdaki bireyler Power BI Pro denemesine kaydolabilir. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md).
 
-Ürün içi Power BI Pro deneme sürümü avantajından yararlanan kullanıcılar, Office 365 yönetim portalında Power BI Pro Deneme Sürümü kullanıcıları olarak değil, Power BI ücretsiz sürüm kullanıcıları olarak görünür. Ancak, Power BI'daki depolama alanını yönet sayfasında Power BI Pro Deneme Sürümü kullanıcıları olarak görünürler.
+Ürün içi Power BI Pro deneme sürümü avantajından yararlanan kullanıcılar, Microsoft 365 yönetim merkezinde Power BI Pro Deneme Sürümü kullanıcıları olarak değil, Power BI ücretsiz sürüm kullanıcıları olarak görünür. Ancak, Power BI'daki depolama alanını yönet sayfasında Power BI Pro Deneme Sürümü kullanıcıları olarak görünürler.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Kuruluşlar için Power BI Pro denemesi
 
@@ -47,7 +47,7 @@ Kaydolma adımlarını izlemeden önce aşağıdakileri aklınızda bulundurun:
 
 * Kiracı başına bir kuruluş deneme sürümü sınırı vardır. Bu, Power BI Pro Deneme Sürümünün kiracınıza daha önce uygulanmış olması halinde bunu bir daha yapamayacağınız anlamına gelir. Bu konuda yardıma ihtiyacınız varsa [Office 365 Faturalama destek ekibiyle](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671) iletişim kurun.
 
-1. [Office 365 yönetim merkezine](https://portal.office.com/adminportal/home#/homepage) gidin.
+1. [Microsoft 365 yönetim merkezine](https://portal.office.com/adminportal/home#/homepage) gidin.
 
 1. Sol gezinti bölmesinde **Faturalama**'yı, sonra da **Abonelikler**'i seçin.
 
@@ -71,7 +71,7 @@ Artık [Office 365'te lisans atayabilirsiniz](https://support.office.com/article
 
 Kuruluşunuzdaki kullanıcılar Power BI ücretsiz lisanslarına iki farklı yolla erişim elde edebilir:
 
-* Office 365 yönetim portalından bu kullanıcılara birer Power BI lisansı atayabilirsiniz.
+* Microsoft 365 yönetim merkezinden bu kullanıcılara birer Power BI lisansı atayabilirsiniz.
 
 * [Power BI Pro deneme sürümüne kaydolan](service-self-service-signup-for-power-bi.md) bir kullanıcının denemenin süresi dolarsa, ona ücretsiz lisans atanır.
 
@@ -81,7 +81,7 @@ Lisans isteklerini ve atamalarını merkezi olarak yönetmeyi planlıyorsanız, 
 
 Bu lisans bloğu, kullanıcılardan biri bireysel Power BI kaydı oluşturduktan sonra kullanılabilir. İşlem sırasında bu lisans bloğu kuruluşunuza eklenir ve kaydolan kullanıcıya bir lisans atanır.
 
-1. Office 365 yönetim merkezinde, **Faturalandırma** > **Lisanslar**'ın altında **sınırsız** seçeneğini işaretleyin.
+1. Microsoft 365 yönetim merkezinde, **Faturalandırma** > **Lisanslar**’ın altında **sınırsız** seçeneğini işaretleyin.
 
     ![Sınırsız sayıda ücretsiz lisans bloğu](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Bu lisans bloğu, kullanıcılardan biri bireysel Power BI kaydı oluşturduktan
 
 Sınırsız Power BI (ücretsiz) lisans bloğu kullanılamıyorsa ve bireysel kayıt yaptırmak istemiyorsanız, bu yordamı izleyin.
 
-1. [Office 365 yönetim merkezine](https://portal.office.com/admin/default.aspx) gidin.
+1. [Microsoft 365 yönetim merkezine](https://portal.office.com/admin/default.aspx) gidin.
 
 1. Sol gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
 

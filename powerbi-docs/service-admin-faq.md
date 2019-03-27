@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980439"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383451"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -60,7 +60,7 @@ Bu bölümdeki yordamların bazılarında Windows PowerShell betiklerinin kullan
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Kullanıcılar Power BI'a nasıl kaydolur?
 
-Yönetici olarak Power BI'a [Power BI web sitesinden](https://powerbi.microsoft.com) veya Office 365 yönetim merkezinin [Hizmet satın al](https://admin.microsoft.com/AdminPortal/Home#/catalog) sayfasından kaydolabilirsiniz. Bir yönetici Power BI'a kaydolduğunda, erişimi olması gereken kullanıcılara kullanıcı lisansları atayabilir.
+Yönetici olarak Power BI’a [Power BI web sitesinden](https://powerbi.microsoft.com) veya Microsoft 365 yönetim merkezinin [Hizmet satın al](https://admin.microsoft.com/AdminPortal/Home#/catalog) sayfasından kaydolabilirsiniz. Bir yönetici Power BI'a kaydolduğunda, erişimi olması gereken kullanıcılara kullanıcı lisansları atayabilir.
 
 Ayrıca kuruluşunuzdaki bireysel kullanıcılar [Power BI web sitesine](https://powerbi.microsoft.com) giderek Power BI'a kaydolabilir. Kuruluşunuzdaki bir kullanıcı Power BI'e kaydolduğunda kullanıcıya otomatik olarak bir Power BI lisansı atanır. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md) ve [Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md).
 
@@ -169,7 +169,7 @@ Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI nasıl yönetilir?
 
-Power BI, kullanım istatistiklerini görüntüleyebileceğiniz bir yönetici portalı, kullanıcı ve grupları yönetmeniz için Office 365 yönetim merkezine yönelik bir bağlantı ve kiracı genelinde ayarları denetleme olanağı sağlar.
+Power BI, kullanım istatistiklerini görüntüleyebileceğiniz bir yönetici portalı, kullanıcı ve grupları yönetmeniz için Microsoft 365 yönetim merkezine yönelik bir bağlantı ve kiracı genelinde ayarları denetleme olanağı sağlar.
 
 Power BI yönetici portalına erişebilmeniz için hesabınızın, Office 365 veya Azure Active Directory'de **Genel Yönetici** olarak işaretlenmiş olması veya hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Daha fazla bilgi için bkz. [Power BI hizmet yöneticisi rolünü anlama](service-admin-role.md) ve [Power BI Yönetim Portalı](service-admin-portal.md).
 
@@ -196,7 +196,7 @@ Hiçbir şey yapmazsanız her kullanıcı e-posta etki alanı ve alt etki alanı
 
 Power BI'a kaydolmuş bir kullanıcının artık Power BI'a erişim sağlamasını istemiyorsanız kullanıcının Power BI lisansını kaldırabilirsiniz.
 
-1. [Office 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
+1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
 1. Sol gezinti çubuğunda **Kullanıcılar** > **Etkin Kullanıcılar**'ı seçin.
 
@@ -214,7 +214,7 @@ Power BI'a kaydolmuş bir kullanıcının artık Power BI'a erişim sağlamasın
 
 Kiracınıza bu programın bir parçası olarak katılan kullanıcılara benzersiz bir lisans atanır. Yönetici panonuzun etkin kullanıcı bölmesinde bu lisansa göre filtreleme yapabilirsiniz. Bu yeni görünümü oluşturmak için aşağıdaki adımları izleyin.
 
-1. [Office 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
+1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
 1. Sol gezinti çubuğunda **Kullanıcılar** > **Etkin Kullanıcılar**'ı seçin.
 
@@ -232,7 +232,7 @@ Kiracınıza bu programın bir parçası olarak katılan kullanıcılara benzers
 
 Parola sıfırlama isteklerinde bir artış ile karşılaşabilirsiniz. Bu işlem hakkında bilgi almak için bkz. [Bir kullanıcının parolasını sıfırlama](/office365/admin/add-users/reset-passwords).
 
-Office 365 yönetim merkezinde standart işlemi uygulayarak kiracınızdan kullanıcı kaldırabilirsiniz. Ancak, kullanıcı kuruluşunuzun etkin bir e-posta adresine sahipse siz tüm kullanıcıların katılımını engellemediğiniz sürece tekrar katılabilir.
+Microsoft 365 yönetim merkezinde standart işlemi uygulayarak kiracınızdan kullanıcı kaldırabilirsiniz. Ancak, kullanıcı kuruluşunuzun etkin bir e-posta adresine sahipse siz tüm kullanıcıların katılımını engellemediğiniz sürece tekrar katılabilir.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 

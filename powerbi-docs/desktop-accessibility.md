@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249126"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306309"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -137,6 +137,13 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | :------------------- | :------------------- |
 | Odağı görsel menüye taşıma | Alt + Shift + F10 |
 | Verileri göster | Alt + Shift +F11  |
+| Görsel girin | Ctrl + Sağ ok |
+| Katman girin | Gir |
+| Katman veya görselden çıkın | Esc |
+| Veri noktasını seçin veya seçimini kaldırın | Enter veya Ara Çubuğu |
+| Çoklu seçim | Ctrl + Enter veya Ctrl + Ara Çubuğu |
+| Sağ tıklayın | <ul><li>Windows klavyesi: Windows bağlam tuşu + F10.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: Shift + F10</li></ul> |
+| Seçimi temizle | Ctrl + Shift + C |
 
 ### <a name="pane-navigation"></a>Bölme Gezintisi
 | Bunu yapmak için           | Buna basın                |

@@ -2,20 +2,20 @@
 title: Power BI güvenliği teknik incelemesi
 description: Power BI'ın güvenlik mimarisi ve uygulamasının açıklandığı ve tartışıldığı teknik inceleme
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 957c6d5fe8797f1b03eaab3a54846e7110b302fb
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580301"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430404"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -125,7 +125,7 @@ Aşağıdaki bağlantılar Azure veri merkezleri hakkında ek bilgi sağlar.
 
 * [Power BI Veri Merkezleri](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
-Microsoft özerk bölgeler için de veri merkezleri sağlar. Bağımsız bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI bağımsız bulutları](https://powerbi.microsoft.com/clouds/).
+Microsoft özerk bölgeler için de veri merkezleri sağlar. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
 Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler [Microsoft Online Services Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)'nın **Bilgi İşlem Koşulları** bölümünde belirtilir.
 
@@ -151,11 +151,9 @@ Power BI hizmeti için kullanıcı kimlik doğrulaması işlemi aşağıdaki ad�
 
 3. WFE kümesi, kullanıcının Power BI hizmeti aboneliğinin kimliğini doğrulamak ve bir AAD güvenlik belirteci almak için **Azure Active Directory** (**AAD**) hizmetine danışır. AAD kullanıcının kimlik doğrulamasının başarılı olduğunu bildirir ve AAD güvenlik belirtecini döndürürse, WFE kümesi kiracıların ve Power BI Arka Uç kümesi konumlarının listesini yöneten ve kullanıcının kiracısını hangi Power BI hizmeti kümesinin içerdiğini belirleyen **Power BI**** Genel Hizmeti**’ne başvurur. Ardından WFE kümesi kullanıcıyı, kiracısının bulunduğu Power BI kümesine yönlendirir ve kullanıcının tarayıcısına öğelerin bir koleksiyonunu döndürür:
 
-
       - **AAD güvenlik belirteci**
       - **Oturum bilgileri**
       - Kullanıcının bağlantı kurup etkileşimde bulunabileceği **Arka Uç** kümesinin web adresi
-
 
 1. Kullanıcının tarayıcısı, tarayıcının Power BI hizmetiyle iletişimini etkinleştirmek için gereken belirli ortak dosyaların koleksiyonunu indirmek amacıyla belirtilen Azure CDN ile (veya bazı dosyalar için WFE ile) iletişime geçer. Tarayıcı sayfası, Power BI hizmeti tarayıcı oturumu süresince AAD belirtecini, oturum bilgilerini, ilişkili Arka Uç kümesinin konumunu ve Azure CDN ile WFE kümesinden indirilen dosya koleksiyonunu içerir.
 
@@ -182,9 +180,6 @@ Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açık
 |Ham veriler     |    X     |         |         |
 |Görsellerin veri önbelleği     |    X     |     X    |    X     |
 
-
-
-
 DirectQuery ile diğer sorgular arasındaki fark, Power BI hizmetinin bekleyen verileri nasıl işlediğini ve sorgunun şifrelenip şifrelenmediğini belirler. Aşağıdaki bölümlerde bekleyen ve taşınan veriler, ayrıca şifreleme, konum ve verilerin işlenme işlemi açıklanır.
 
 ### <a name="data-at-rest"></a>Bekleyen veriler
@@ -210,9 +205,9 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
 #### <a name="datasets"></a>Veri kümeleri
 
 1. Meta veriler (tablolar, sütunlar, ölçüler, hesaplamalar, bağlantı dizeleri vb.)
-      
+
     a. Analysis Services şirket içi için, Azure SQL'de şifrelenmiş olarak depolanan bu veritabanının başvurusu dışında hiçbir şey depolanmaz.
- 
+
     b. ETL, DirectQuery ve Veri Gönderimi'ne yönelik diğer tüm meta veriler Azure Blob depolama alanında şifrelenir ve depolanır.
 
 1. Özgün veri kaynaklarının kimlik bilgileri
@@ -255,7 +250,7 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
    a. Raporlar Office 365 için Excel raporları veya Power BI raporları olabilir. Aşağıdakiler, raporun türüne göre meta veriler için geçerlidir:
 
        a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-       
+
        b. Power BI reports are stored encrypted in Azure SQL database.
 
 2. Statik veriler
@@ -358,7 +353,7 @@ Aşağıdaki tabloda mobil cihazın platformuna göre Power BI Mobil için serti
 | **Power BI** (hizmette oturum açın) | destekleniyor | destekleniyor | Desteklenmiyor |
 | **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Destekleniyor | Desteklenmiyor |
 
-Power BI Mobil uygulamaları Power BI hizmetiyle etkin bir iletişim kurar. Mobil uygulamanın kullanım istatistiklerini ve benzer verileri toplamak için telemetri kullanılır. Bu telemetri kullanım ve etkinliği izlemek için kullanılan hizmetlere iletilir; telemetri verileriyle birlikte hiçbir kişisel bilgi (PII) gönderilmez.
+Power BI Mobil uygulamaları Power BI hizmetiyle etkin bir iletişim kurar. Mobil uygulamanın kullanım istatistiklerini ve benzer verileri toplamak için telemetri kullanılır. Bu telemetri kullanım ve etkinliği izlemek için kullanılan hizmetlere iletilir; telemetri verileriyle birlikte hiçbir kişisel veri gönderilmez.
 
 **Cihazdaki Power BI uygulaması**, cihazda uygulamanın kullanımını kolaylaştıran verileri depolar:
 
@@ -414,7 +409,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Power BI Grupları nasıl çalışır?**
 
-* Power BI Grupları kullanıcıların panoları, raporları ve veri modellerini oluştururken hazır takımlarla hızla ve kolayca işbirliği yapmasına olanak tanır. Örneğin, yakın çalıştığınız takımdaki herkesin üye olduğu bir Power BI Grubunuz varsa, Power BI'ın içinden Grubu seçerek takımınızdaki herkesle kolayca işbirliği yapabilirsiniz. Power BI Grupları Office 365 Evrensel Gruplarının eşdeğeridir (bu grupları [öğrenebilir](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1), [oluşturabilir](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) ve [yönetebilirsiniz](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)) ve verilerin güvenliğini sağlamak için Azure Active Directory'de kullanılan kimlik doğrulama mekanizmalarını kullanır. [Power BI'da grup oluşturabileceğiniz](https://support.powerbi.com/knowledgebase/articles/654250) gibi, Office 365 yönetim merkezinde de Evrensel Grup oluşturabilirsiniz; Power BI'da grup oluşturma açısından her ikisi de aynı sonucu verir.
+* Power BI Grupları kullanıcıların panoları, raporları ve veri modellerini oluştururken hazır takımlarla hızla ve kolayca işbirliği yapmasına olanak tanır. Örneğin, yakın çalıştığınız takımdaki herkesin üye olduğu bir Power BI Grubunuz varsa, Power BI'ın içinden Grubu seçerek takımınızdaki herkesle kolayca işbirliği yapabilirsiniz. Power BI Grupları Office 365 Evrensel Gruplarının eşdeğeridir (bu grupları [öğrenebilir](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1), [oluşturabilir](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) ve [yönetebilirsiniz](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)) ve verilerin güvenliğini sağlamak için Azure Active Directory'de kullanılan kimlik doğrulama mekanizmalarını kullanır. [Power BI'da grup oluşturabileceğiniz](https://support.powerbi.com/knowledgebase/articles/654250) gibi, Microsoft 365 yönetim merkezinde de Evrensel Grup oluşturabilirsiniz; Power BI'da grup oluşturma açısından her ikisi de aynı sonucu verir.
 
   Power BI Grupları ile paylaşılan verilerin güvenliğinde dikkate alınan noktaların Power BI'da paylaşılan tüm verilerle aynı olduğunu aklınızda bulundurun. **RLS özellikli olmayan** veri kaynaklarında Power BI verilerin özgün kaynağında kullanıcıların kimliğini yeniden **doğrulamaz**; veriler Power BI'a yüklendikten sonra başka hangi kullanıcıların ve grupların verileri görüntüleyebileceğini yönetme sorumluluğu kaynak verilerde kimliği doğrulanan kullanıcıya aittir. Daha fazla bilgi için bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın.
 
@@ -459,9 +454,9 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Veri hakimiyeti hakkında ne söylenebilir? Verilerin ülke sınırlarından çıkmadığından emin olmak için belirli coğrafi bölgelerde yer alan veri merkezlerinde kiracılar sağlayabilir miyiz?**
 
-* Belirli coğrafi bölgelerdeki müşterilerin bir bölümü bağımsız bulutta kiracı oluşturma seçeneğine sahiptir. Bu bulutta veri depolama ile işleme diğer tüm veri merkezlerinden ayrı tutulur. Bağımsız bulut Power BI hizmetini Microsoft adına ayrı bir veri şirketi çalıştırdığından, bağımsız bulutların güvenlik türü biraz farklıdır.
+* Belirli coğrafi bölgelerdeki müşterilerin bir bölümü ulusal bulutta kiracı oluşturma seçeneğine sahiptir. Bu bulutta veri depolama ile işleme diğer tüm veri merkezlerinden ayrı tutulur. Ulusal bulut Power BI hizmetini Microsoft adına ayrı bir veri şirketi çalıştırdığından, ulusal bulutların güvenlik türü biraz farklıdır.
 
-  Alternatif olarak müşteriler belirli bir bölgede kiracı ayarlayabilir ama bu tür kiracıların Microsoft'tan ayrı bir veri şirketi yoktur. Bağımsız bulutların fiyatlandırması genel kullanıma sunulan ticari Power BI hizmetinden farklıdır. Bağımsız bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI bağımsız bulutları](https://powerbi.microsoft.com/clouds/).
+  Alternatif olarak müşteriler belirli bir bölgede kiracı ayarlayabilir ama bu tür kiracıların Microsoft'tan ayrı bir veri şirketi yoktur. Ulusal bulutların fiyatlandırması genel kullanıma sunulan ticari Power BI hizmetinden farklıdır. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
 **Microsoft, Power BI Premium abonelikleri olan müşterilerin bağlantılarını nasıl işler? Bu bağlantıların Premium olmayan Power BI hizmeti için kurulan bağlantılardan farkı nedir?**
 
@@ -488,6 +483,6 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
 - [Şirket içi veri ağ geçidi](service-gateway-manage.md)
 - [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
-- [Power BI Bağımsız Bulutlar](https://powerbi.microsoft.com/clouds/)
+- [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI’dan şirket içi veri kaynaklarına SSO için Kerberos kullanma](service-gateway-sso-overview.md)

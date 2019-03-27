@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555659"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306516"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına çoklu oturum açma (SSO) ile erişmek için ağ geçidinizde Security Assertion Markup Language (SAML) protokolünü kullanma
 
@@ -27,23 +27,43 @@ Sorunsuz çoklu oturum açma deneyimi için [Security Assertion Markup Language 
 
 [Kerberos](service-gateway-sso-kerberos.md) ile ek veri kaynakları için destek sunuyoruz.
 
+HANA için şifrelemenin bir SAML SSO bağlantısı kurulmadan önce etkinleştirilmesinin **önemle** önerildiğine dikkat edin (yani, HANA sunucunuzu şifreli bağlantıları kabul etmek için yapılandırmanız ve ayrıca Ağ Geçidini HANA sunucunuzla iletişim kurarken şifreleme kullanmak için yapılandırmanız gerekir). HANA ODBC sürücüsü varsayılan olarak SAML onaylamalarını **şifreleyemez**. Şifreleme etkinleştirilmediğinde, imzalı SAML onaylaması Ağ Geçidinden HANA sunucusuna “açıktan” gönderilir ve üçüncü taraflarca durdurulup yeniden kullanılması mümkündür.
+
 ## <a name="configuring-the-gateway-and-data-source"></a>Ağ geçidini ve veri kaynağını yapılandırma
 
-SAML protokolünü kullanmak için öncelikle SAML kimlik sağlayıcısı için bir sertifika oluşturmanız, ardından bir Power BI kullanıcısını kimlikle eşlemeniz gerekir.
+SAML kullanmak için, SSO’yu etkinleştirmek istediğiniz HANA sunucuları ile bu senaryoda SAML Kimlik Sağlayıcısı (IdP) görevi gören Ağ Geçidi arasında bir güven ilişkisi kurmanız gerekir. Bu ilişkiyi kurmanın Ağ Geçidi IdP’sinin x509 sertifikasını HANA sunucularının güven merkezine aktarmak veya Ağ Geçidinin X509 sertifikasını HANA sunucuları tarafından güvenilen bir kök Sertifika Yetkilisine (CA) imzalatmak gibi çeşitli yolları vardır. İkinci yaklaşım bu kılavuzda açıklanmaktadır ancak sizin için daha kullanışlı olan başka bir yaklaşımı kullanabilirsiniz.
 
-1. Bir sertifika oluşturun. *Ortak adı* yazarken SAP HANA sunucusunun FQDN bilgisini kullandığınızdan emin olun. Sertifikanın süresi 365 gün sonra dolar.
+Ayrıca, bu kılavuzda HANA sunucusunun şifreleme sağlayıcısı olarak OpenSSL kullanılsa da, güven ilişkisi kurulurken kurulum adımlarını tamamlamak için OpenSSL yerine SAP Şifreleme Kitaplığı (CommonCryptoLib veya sapcrypto olarak da bilinir) kullanmanız da mümkündür. Daha fazla bilgi için resmi SAP belgelerine bakın.
 
-    ```
-    openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
-    ```
+Aşağıdaki adımlarda, HANA sunucusu tarafından güvenilen bir Kök CA ile Ağ Geçidi IdP’sinin X509 sertifikası imzalanarak bir HANA sunucusu ile Ağ Geçidi IdP’si arasında güven ilişkisi kurma açıklanmaktadır.
+
+1. Kök CA’nın X509 sertifikasını ve özel anahtarı oluşturun. Örneğin, Kök CA’nın X509 sertifikasını ve özel anahtarı .pem biçiminde oluşturmak için:
+
+```
+openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+```
+
+HANA sunucusunun oluşturduğunuz Kök CA tarafından imzalanan sertifikalara güvenmesi için sertifikayı (örneğin, CA_Cert.pem) HANA sunucusunun Güven Deposuna ekleyin. HANA sunucunuzun Güven Deposunun konumunu **ssltruststore** yapılandırma ayarını inceleyerek öğrenebilirsiniz. OpenSSL’yi yapılandırmayı kapsayan SAP belgelerini takip ettiyseniz, HANA sunucunuz zaten yeniden kullanabileceğiniz bir Kök CA’ya güveniyor olabilir. Ayrıntılar için bkz. [SAP HANA Studio’dan SAP HANA Sunucusuna Open SSL yapılandırma](https://archive.sap.com/documents/docs/DOC-39571). SAML SSO’yu etkinleştirmek istediğiniz birden çok HANA sunucusu varsa, sunucuların her birinin bu Kök CA’ya güvendiğinden emin olun.
+
+1. Ağ Geçidi IdP’sinin X509 sertifikasını oluşturun. Örneğin, bir yıl boyunca geçerli bir sertifika imzalama isteği (IdP_Req.pem) ve bir özel anahtar (IdP_Key.pem) oluşturmak için aşağıdaki komutu yürütün:
+
+```
+ openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+```
+
+
+HANA sunucularınızın güvenmesi için yapılandırdığınız Kök CA’yı kullanarak sertifika imzalama isteğini imzalayın. Örneğin, CA_Cert.pem ve CA_Key.pem dosyalarını (Kök CA sertifikası ve anahtarı) kullanarak IdP_Req.pem dosyasını imzalamak için, aşağıdaki komutu yürütün:
+
+  ```
+openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+```
+Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seçeneğine bakın). Şimdi, yeni bir SAML Kimlik Sağlayıcısı oluşturmak için HANA Studio’da IdP’nizin sertifikasını içeri aktarın.
 
 1. SAP HANA Studio'da SAP HANA sunucunuza sağ tıklayıp **Güvenlik** > **Güvenlik Konsolunu Aç** > **SAML Kimlik Sağlayıcısı** > **OpenSSL Şifreleme Kitaplığı** yolunu izleyin.
 
-    Ayrıca, bu kurulum adımlarını tamamlamak için OpenSSL yerine SAP Şifreleme Kitaplığı'nı (CommonCryptoLib veya sapcrypto olarak da bilinir) kullanmak da mümkündür. Daha fazla bilgi için lütfen resmi SAP belgelerine bakın.
-
-1. **İçeri aktar**'ı seçin, samltest.crt dosyasını bulun ve içeri aktarın.
-
     ![Kimlik sağlayıcıları](media/service-gateway-sso-saml/identity-providers.png)
+
+1. **İçeri aktar**’ı seçin, IdP_Cert.pem dosyasını bulun ve içeri aktarın.
 
 1. SAP HANA Studio'da **Güvenlik** klasörünü seçin.
 
@@ -61,10 +81,10 @@ SAML protokolünü kullanmak için öncelikle SAML kimlik sağlayıcısı için 
 
 Sertifikayı ve kimliği yapılandırdığınıza göre sertifikayı pfx biçimine dönüştürüp ağ geçidi makinesini sertifikayı kullanacak şekilde yapılandırmanız gerekir.
 
-1. Sertifikayı pfx biçimine dönüştürmek için aşağıdaki komutu çalıştırın.
+1. Sertifikayı pfx biçimine dönüştürmek için aşağıdaki komutu çalıştırın. Bu komutun pfx dosyasının parolası olarak "root" değerini ayarladığını unutmayın.
 
     ```
-    openssl pkcs12 -inkey samltest.key -in samltest.crt -export -out samltest.pfx
+    openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
 1. pfx dosyasını ağ geçidi makinesine kopyalayın:

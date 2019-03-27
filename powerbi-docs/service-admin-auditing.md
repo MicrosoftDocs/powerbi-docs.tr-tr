@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980416"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383497"
 ---
 # <a name="using-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
 
@@ -34,7 +34,7 @@ Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir
 
     Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için, kullanıcıyı söz konusu rol gruplarından birine üye olarak eklemelisiniz. Alternatif olarak, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 
-    Office 365 yönetim merkezinden Exchange yönetim merkezine erişemiyorsanız, https://outlook.office365.com/ecp adresine gidin ve kimlik bilgilerinizi kullanarak oturum açın.
+    Microsoft 365 yönetim merkezinden Exchange yönetim merkezine erişemiyorsanız, https://outlook.office365.com/ecp adresine gidin ve kimlik bilgilerinizi kullanarak oturum açın.
 
 * Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
 
@@ -50,9 +50,9 @@ Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Mer
 
 1. **Denetim günlükleri**'ni seçin.
 
-1. **O365 Yönetim Merkezi'ne git** seçeneğini belirleyin.
+1. **Microsoft 365 yönetim merkezine gidin**’i seçin.
 
-   ![O365 Yönetim Merkezi'ne git](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Microsoft 365 yönetim merkezine gidin](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 
@@ -214,7 +214,7 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir.
 | Power BI veri kaynağı devralındı                   | TakeOverDatasource                          |                                          |
 | Power BI veri kümesi devralındı                        | TakeOverDataset                             |                                          |
 | Power BI uygulaması yayımdan kaldırıldı                          | UnpublishApp                                |                                          |
-| Kapasite kaynağı idare ayarları güncelleştirildi      | UpdateCapacityResourceGovernanceSettings    | Şu anda Office 365 yönetim portalında mevcut değil |
+| Kapasite kaynağı idare ayarları güncelleştirildi      | UpdateCapacityResourceGovernanceSettings    | Şu anda Microsoft 365 yönetim merkezinde değil |
 | Kapasite yöneticisi güncelleştirildi                            | UpdateCapacityAdmins                        |                                          |
 | Kapasitenin görünen adı güncelleştirildi                     | UpdateCapacityDisplayName                   |                                          |
 | Kuruluşun Power BI ayarları güncelleştirildi          | UpdatedAdminFeatureSwitch                   |                                          |

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794937"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383349"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -66,7 +66,7 @@ Kapasite, Power BI Premium kapasite yönetim portalından bir yönetici tarafın
 Power BI Premium, yıllık taahhütle aylık olarak faturalandırılır.
 
 **Power BI Premium'u nasıl satın alabilirim?**  
-Power BI Premium, Office 365 yönetim merkezinden satın alınabilir. Daha fazla bilgi için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md). Daha fazla bilgi için Microsoft temsilcinizle de iletişime geçebilirsiniz.
+Power BI Premium, Microsoft 365 yönetim merkezinden satın alınabilir. Daha fazla bilgi için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md). Daha fazla bilgi için Microsoft temsilcinizle de iletişime geçebilirsiniz.
 
 **Satın almam gereken Power BI Premium kapasitesini nasıl belirleyebilirim?**  
 İhtiyacınız olan Power BI Premium kapasitesini belirlemek için bu maliyet [hesaplama aracını](https://powerbi.microsoft.com/calculator/) kullanın.
