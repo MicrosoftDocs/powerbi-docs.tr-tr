@@ -922,8 +922,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure'da kapasiteyi duraklatma ve başlatma
           href: developer/azure-pbie-pause-start.md
-      - name: Sorun giderme
-        items:
         - name: Ekli uygulamanızla ilgili sorunları giderme
           href: developer/embedded-troubleshoot.md
       - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
@@ -1270,6 +1268,8 @@ items:
         href: service-premium-incremental-refresh.md
       - name: Multi-Geo desteği
         href: service-admin-premium-multi-geo.md
+      - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
+        href: service-premium-connect-tools.md
       - name: Power BI Premium hakkında SSS
         href: service-premium-faq.md
     - name: Office 365'teki yönetim rolü
@@ -1327,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
+ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473902"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58563678"
