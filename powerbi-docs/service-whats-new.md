@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383727"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489603"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -32,12 +32,21 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>Şubat 2019
-* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) iş yükleri ve etkin veri kümesi boyutu ölçümleri.
-* PDF’ye aktarma ve isteğe bağlı e-posta abonelikleri (service-report-subscribe.md).
-* Yönetim Portalı'nda toplu işlemler.
+## <a name="march-2019"></a>Mart 2019
+* Power BI Premium için Multi-Geo Özelliğinin Genel Kullanıma Sunulması.
+* Azure B2B için Power BI içerik desteğini düzenleme ve yönetme.
 
 ## <a name="previous-months-2019"></a>Önceki aylar (2019)
+### <a name="february-2019"></a>Şubat 2019
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) iş yükleri ve etkin veri kümesi boyutu ölçümleri.
+* Power BI raporlarını PDF’ye aktarma.
+* [İsteğe bağlı e-posta abonelikleri](service-report-subscribe.md).
+* Yönetim Portalı'nda toplu işlemler.
+* PPT ve PDF için filtrelenmiş dışarı aktarma.
+* Yönetici Portalı’nda [Yardım ve destek ayarları](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/).
+* [Veri akışları](service-dataflows-overview.md) için veri kökeni deneyimi.
+* Yönetici Portalı’nda sertifikalı özel görseller ayarı.
+
 ### <a name="january-2019"></a>Ocak 2019
 * İç portallara veya web sitelerine [güvenli Power BI raporları ekleme](service-embed-secure.md).
 * [Veri akışları](service-dataflows-overview.md) düzenleyicisinde yeni bağlayıcılarla güncelleştirmeler, ayrıca yerel SQL sorguları ve Power Query Online dönüştürmeleri için destek.

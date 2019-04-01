@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306493"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473741"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 Power BI sayesinde raporunuzu PDF biçiminde yayımlayabilir ve kolayca Power BI raporunuzu temel alan bir belge oluşturabilirsiniz. **PDF'ye dışarı aktardığınızda** Power BI raporundaki her sayfa PDF belgesinde ayrı sayfalara dönüşür.
@@ -67,6 +67,8 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. Giriş 
 * Arka plan görüntüsü içeren raporlar PDF'ye aktarıldığında Sayfa Arka Planı için "Normal" veya "Doldur" seçeneğinin kullanılması durumunda dışarı aktarılan dosyada yer alan görüntü bozuk olabilir.  Dışarı aktarılan belgenizde sorun yaşamamak ve en iyi sonucu elde etmek için "Sığdır" seçeneğini kullanmanız önerilir.
 
 * Power BI hizmeti, PDF dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
+
+* Şu anda dışarı aktarma için “Geçerli Değerler” seçeneği belirlendiğinde URL filtreleri dikkate alınmaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor yazdırma](end-user-print.md)

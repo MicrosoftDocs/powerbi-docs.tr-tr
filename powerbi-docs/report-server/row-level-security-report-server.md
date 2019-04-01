@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226216"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489580"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda satır düzeyi güvenlik (RLS)
 
@@ -28,11 +28,11 @@ Power BI Desktop ile Power BI'a aktarılan raporlar için RLS'yi yapılandırır
 
 Varsayılan olarak, ilişkilerin tek yönlü veya çift yönlü olarak ayarlanmış olması fark etmeksizin satır düzeyi güvenlik filtrelemesi için tek yönlü filtreler kullanılır. Satır düzeyi güvenlikle çift yönlü çapraz filtreyi el ile etkinleştirebilirsiniz.
 
-- İlişkiyi seçin ve  **Güvenlik filtrelerini her iki yönde de uygula**  onay kutusunu işaretleyin. 
+- İlişkiyi seçin ve **Güvenlik filtrelerini her iki yönde de uygula** onay kutusunu işaretleyin. 
 
     ![Güvenlik filtresi uygula](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Kullanıcı adı veya oturum açma kimliği temelinde  [dinamik satır düzeyi güvenlik](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) uyguladığınızda bu kutuyu işaretleyin. 
+Kullanıcı adı veya oturum açma kimliğine dayalı [dinamik satır düzeyi güvenlik](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) uyguladığınızda bu kutuyu işaretleyin. 
 
 Daha fazla bilgi edinmek için [Power BI Desktop'ta DirectQuery'yi kullanarak çift yönlü çapraz filtreleme](../desktop-bidirectional-filtering.md) makalesine ve [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) başlıklı teknik incelemeye bakın.
 
@@ -46,7 +46,7 @@ Raporunuzu Power BI Rapor Sunucusu'nda kaydettikten sonra, güvenliği yönetir 
  Raporda gerekli roller yoksa raporu Power BI Desktop'ta açmanız, rolleri eklemeniz veya değiştirmeniz, sonra da yeniden Power BI Rapor Sunucusu'na kaydetmeniz gerekir. 
 
 1. Power BI Desktop'ta raporu Power BI Rapor Sunucusu'na kaydedin. Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü kullanmalısınız.
-2. Power BI Rapor Hizmeti'nde raporun yanındaki üç noktayı (**…**) seçin. 
+2. Power BI Rapor Hizmeti’nde raporun yanındaki üç noktayı (**…**) seçin. 
 
 3. **Yönet** > **Satır düzeyi güvenlik** öğesini seçin. 
 
@@ -85,7 +85,7 @@ Burada, Power BI modellerindeki satır düzeyi güvenlikle ilgili geçerli sın�
 
 username() DAX işlevinin kullanıldığı raporları olan kullanıcılar, tümleşik güvenlikle DirectQuery'nin kullanıldığı durumlar DIŞINDA Kullanıcı Asıl Adının (UPN) döndürülmesine neden olan yeni davranışı fark edeceklerdir.  Bu senaryoda RLS'ye uyulmadığından, senaryodaki davranış da değişmez.
 
-RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümelerinde etkinleştirmek için, önce dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Excel dosyalarını dönüştürme](../desktop-import-excel-workbooks.md) hakkında daha fazla bilgi edinin.
+RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümelerinde etkinleştirmek için, önce dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Excel dosyalarını dönüştürme](../desktop-import-excel-workbooks.md) hakkında daha fazla bilgi edinin.
 
 Yalnızca depolanmış kimlik bilgilerinin kullanıldığı Ayıklama, Dönüştürme, Yükleme (ETL) ve DirectQuery bağlantıları desteklenir. Analysis Services'e yönelik canlı bağlantılar ve tümleşik kimlik doğrulamasının kullanıldığı DirectQuery bağlantıları temel veri kaynağında işlenir. 
 

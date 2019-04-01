@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762157"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473856"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 
@@ -28,7 +28,7 @@ Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracıs�
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory kiracısı oluşturma
 
-Power BI'ı özel uygulamanızla tümleştirmek için Azure AD içinde bir uygulama tanımlamanız gerekir. Bunun için Azure AD içinde bir dizine ihtiyacınız vardır. Bu dizin sizin kiracınızdır. Kuruluşunuz Power BI veya Office 365 kullanmadığı için kiracıya sahip değilse [bir kiracı oluşturmanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da yeni bir kiracı oluşturmanız gerekebilir. Bu sayede kaynakları birbirinden ayırmış olursunuz.
+Power BI'ı özel uygulamanızla tümleştirmek için Azure AD içinde bir uygulama tanımlamanız gerekir. Bunun için Azure AD içinde bir dizine ihtiyacınız vardır. Bu dizin sizin kiracınızdır. Kuruluşunuz Power BI veya Office 365 kullanmadığı için henüz kiracıya sahip değilse [bir kiracı oluşturmanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da yeni bir kiracı oluşturmanız gerekebilir. Bu sayede kaynakları birbirinden ayırmış olursunuz.
 
 Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
 

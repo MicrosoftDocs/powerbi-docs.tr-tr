@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
+ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430266"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473879"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -60,6 +60,7 @@ Genel bulutta IP alanları kullanılabilir ancak kamu bulutunda, yukarıda liste
 * **Cortana'da Power BI içeriği**: Cortana arama sonuçlarında Power BI sonuçları gösterilmez. Buna, Power BI içeriğinizin (panolar, raporlar, uygulamalar) yanı sıra belirli anahtar sözcüklere göre, Cortana için en iyi duruma getirilmiş rapor sayfalarına ilişkin sonuçlar da dahildir.
 * **Dış kullanıcı paylaşımı** - Bir Power BI kiracısı içinde paylaşıma izin verilir; Haziran 2018 itibarıyla Power BI kiracınız dışındaki kullanıcılarla da paylaşım yapılabilir. Bkz. [Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma](service-admin-azure-ad-b2b.md).
 * **Panolar ve raporlar için kullanım ölçümleri** - Kullanım ölçümleri, raporlar ve panolar için kullanılamaz. Müşteriler, kuruluşlarındaki içeriğe ait kullanım bilgilerini almak için denetim günlüğü verilerini kullanabilir.
+* **Veri akışları** - Veri akışları kullanılamaz.
 
 Hesabınıza atanmış Ücretsiz **Power BI** lisansları varsa bu lisanslar, **Power BI** hizmetinin ticari bir sürümünde çalıştırılmaktadır ve **Power BI US Government** teklifinin bir parçası değildir. Bu Ücretsiz hesaplar ile ilgili olarak aşağıdaki sorunlarla karşılaşabilirsiniz:
 

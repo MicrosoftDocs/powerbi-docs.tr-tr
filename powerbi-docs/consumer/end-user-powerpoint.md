@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014312"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473810"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
 Power BI sayesinde raporunuzu **Microsoft PowerPoint**’te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. **PowerPoint'e aktardığınızda**, aşağıdakiler gerçekleşir:
 
 * Power BI raporundaki her sayfa, PowerPoint'te tek bir slayt olur
-* Power BI raporundaki her sayfa, PowerPoint’te yüksek çözünürlüklü tek bir görüntü olarak dışarı aktarılır <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Power BI raporundaki her sayfa, PowerPoint'e yüksek çözünürlüklü tek bir görüntü olarak aktarılır
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * PowerPoint'te Power BI raporuna bağlanan bir bağlantı oluşturulur 
 
 **Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulamanız yeterlidir.
@@ -91,6 +92,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 * Daha önce belirtildiği gibi, her rapor sayfası PowerPoint dosyasına tek bir görüntü olarak aktarılır.
 * Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya belirlemek için dişli simgesini ![dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) seçin ve **Ayarlar > Genel > Dil** seçeneğini belirleyin.
 * Dışa aktarılan PowerPoint dosyasının kapak slaydında görünen **İndirme saati**, bilgisayarınızın saat diliminde dışa aktarma işleminin saatine ayarlanır.
+* Şu anda dışarı aktarma için “Geçerli Değerler” seçeneği belirlendiğinde URL filtreleri dikkate alınmaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor yazdırma](end-user-print.md)
