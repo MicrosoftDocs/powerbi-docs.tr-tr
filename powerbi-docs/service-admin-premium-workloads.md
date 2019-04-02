@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/15/2019
+ms.date: 04/01/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e22b598b81f34e80431d0def93d52f7301c500d4
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: fbff4b744cf4a35f2fe1d0ae46f4676cd5f1db77
+ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964652"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58795257"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
