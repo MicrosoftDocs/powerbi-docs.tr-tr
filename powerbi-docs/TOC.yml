@@ -628,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: Self servis veri hazırlığı
       items:
-      - name: Veri akışları ile self servis veri hazırlığı (önizleme)
+      - name: Veri akışları ile self servis veri hazırlığı
         href: service-dataflows-overview.md
-      - name: Veri akışları oluşturma ve kullanma (önizleme)
+      - name: Veri akışları oluşturma ve kullanma
         href: service-dataflows-create-use.md
-      - name: Power BI Premium ile hesaplanan varlıklar (önizleme)
+      - name: Power BI Premium ile hesaplanan varlıklar
         href: service-dataflows-computed-entities-premium.md
-      - name: İş akışları ile veri kaynaklarına bağlanma (önizleme)
+      - name: İş akışları ile veri kaynaklarına bağlanma
         href: service-dataflows-data-sources.md
-      - name: Şirket içi veri kaynakları ile veri akışlarını kullanma (önizleme)
+      - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
         href: service-dataflows-on-premises-gateways.md
-      - name: Veri akışları arasındaki varlıkları ilişkilendirme (önizleme)
+      - name: Veri akışları arasındaki varlıkları ilişkilendirme
         href: service-dataflows-linked-entities.md
-      - name: Veri akışları ile artımlı yenilemeyi kullanma (önizleme)
+      - name: Veri akışları ile artımlı yenilemeyi kullanma
         href: service-dataflows-incremental-refresh.md
-      - name: Veri akışları için geliştirici kaynakları (önizleme)
+      - name: Veri akışları için geliştirici kaynakları
         href: service-dataflows-developer-resources.md
       - name: Power BI Desktop’taki veri akışlarına bağlanma
         href: desktop-connect-dataflows.md
@@ -654,9 +654,9 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
         href: service-dataflows-add-cdm-folder.md
-      - name: Power BI’da Machine Learning’i tümleştirme
+      - name: (Önizleme) Power BI’da Machine Learning’i tümleştirme
         href: service-machine-learning-integration.md
-      - name: Power BI’da Bilişsel Hizmetler’i kullanma
+      - name: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma
         href: service-cognitive-services.md
       - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
         href: service-machine-learning-automated.md
@@ -880,6 +880,18 @@ items:
         href: developer/embedding.md
       - name: Azure'da Power BI Embedded nedir?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: Hızlı Başlangıçlar
+      items:
+      - name: Azure'da kapasiteleri yönetme
+        items:
+        - name: Azure'da kapasite oluşturma
+          href: developer/azure-pbie-create-capacity.md
+        - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
+          href: developer/embedded-multi-geo.md
+        - name: Azure'da kapasiteyi ölçeklendirme
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Azure'da kapasiteyi duraklatma ve başlatma
+          href: developer/azure-pbie-pause-start.md
     - name: Öğreticiler
       items:
       - name: Müşteriler için içerik ekleme
@@ -1034,6 +1046,16 @@ items:
       items:
       - name: Bir veri kümesine veri gönderme
         href: developer/walkthrough-push-data.md
+      - name: Bir uygulamayı Azure AD'ye kaydetme
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: Kimlik doğrulaması erişim belirteci alma
+        href: developer/walkthrough-push-data-get-token.md
+      - name: Veri kümesi oluşturma
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: Satır eklemek için veri kümesi alma
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: Tabloya satır ekleme
+        href: developer/walkthrough-push-data-add-rows.md
     - name: Kavramlar
       items:
       - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
@@ -1048,16 +1070,6 @@ items:
           href: developer/api-data-model-versioning.md
     - name: Nasıl yapılır?
       items:
-      - name: Bir uygulamayı Azure AD'ye kaydetme
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-      - name: Kimlik doğrulaması erişim belirteci alma
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Veri kümesi oluşturma
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Satır eklemek için veri kümesi alma
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Tabloya satır ekleme
-        href: developer/walkthrough-push-data-add-rows.md
       - name: Kimlik bilgilerini yapılandırma
         href: developer/configure-credentials.md
       - name: Kimlik bilgilerini şifreleme
@@ -1331,9 +1343,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
-ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
+ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58639380"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872605"
