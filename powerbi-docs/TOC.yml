@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Power BI'da işbirliği
       items:
+      - name: Yeni çalışma alanları oluşturma
+        href: service-create-the-new-workspaces.md
       - name: Uygulama çalışma alanları oluşturma
         href: service-create-workspaces.md
-      - name: Yeni çalışma alanları oluşturma (önizleme)
-        href: service-create-the-new-workspaces.md
-      - name: Uygulama oluşturma ve paylaşma
+      - name: Çalışma alanlarındaki uygulamaları yayımlama
         href: service-create-distribute-apps.md
       - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Azure'da Power BI Embedded nedir?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Hızlı Başlangıçlar
-      items:
-      - name: Azure'da kapasiteleri yönetme
-        items:
-        - name: Azure'da kapasite oluşturma
-          href: developer/azure-pbie-create-capacity.md
-        - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
-          href: developer/embedded-multi-geo.md
-        - name: Azure'da kapasiteyi ölçeklendirme
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Azure'da kapasiteyi duraklatma ve başlatma
-          href: developer/azure-pbie-pause-start.md
     - name: Öğreticiler
       items:
       - name: Müşteriler için içerik ekleme
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Ekleme Hakkında Soru-Cevap
         href: developer/qanda.md
+      - name: Ekli uygulamanızla ilgili sorunları giderme
+        href: developer/embedded-troubleshoot.md
       - name: Azure'da kapasiteleri yönetme
         items:
         - name: Azure'da kapasite oluşturma
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Azure'da kapasiteyi duraklatma ve başlatma
           href: developer/azure-pbie-pause-start.md
-        - name: Ekli uygulamanızla ilgili sorunları giderme
-          href: developer/embedded-troubleshoot.md
       - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
         items:
         - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: Bir veri kümesine veri gönderme
         href: developer/walkthrough-push-data.md
-      - name: Bir uygulamayı Azure AD'ye kaydetme
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Kimlik doğrulaması erişim belirteci alma
         href: developer/walkthrough-push-data-get-token.md
       - name: Veri kümesi oluşturma
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914225"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053450"
