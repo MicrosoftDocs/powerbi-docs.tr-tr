@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826733"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872743"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
+* [Power BI Desktop'taki Yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>Mart 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Power BI uygulamalarında (iOS, Android) harici konuk kullanıcıları destekleme
+
+Başka bir kuruluştan sizinle paylaşılan Power BI içeriğine doğrudan uygulamadan (B2B olarak da bilinir) erişebilirsiniz. Power BI mobil uygulamaları B2B hakkında daha fazla bilgiyi [burada](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/) okuyun.
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Slayt gösterisiyle Windows sunum modunu geliştirme (Windows)
+
+[Slayt gösterisi](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) ile, Power BI raporlarını, rapor sayfaları arasında otomatik olarak dönecek şekilde tam ekranda çalıştırmak için ofisinizde bulunan herkese açık ekranları kullanabilirsiniz.  
 
 ## <a name="january---february-2019"></a>Ocak - Şubat 2019
  
@@ -305,7 +315,7 @@ Zaman dilimleyicileri için dokunma etkileşimini iyileştirdik.
 
 Artık, aynı anda beş adede kadar SQL Server Reporting Services (SSRS) sunucusuna bağlanabilirsiniz.
 
-**Panolar için erişim isteme** 
+**Panolara erişim isteme** 
 
 Artık, erişiminiz olmayan bir panonun QR kodunu tarayarak doğrudan mobil uygulamadan bir erişim isteği gönderebilirsiniz.
 
@@ -364,7 +374,7 @@ Artık kutucuklara, raporlara veya görselleştirmelere not ekleyebilir ve bunla
 * [iPhone'da](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [iPad'de](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Panolar için erişim isteme**
+**Panolara erişim isteme**
 
 Artık, erişiminiz olmayan bir panonun QR kodunu tarayarak doğrudan mobil uygulamadan bir erişim isteği gönderebilirsiniz.
 

@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014427"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872559"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI ile hizmet sorumlusu (Önizleme)
 
@@ -111,13 +111,15 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
 3. Power BI Yöneticisi olarak hizmet sorumlusunu Power BI yönetim portalının **Geliştirici ayarları**'nda etkinleştirmeniz gerekir. Azure AD'de oluşturduğunuz güvenlik grubunu **Geliştirici ayarları**'nın **Belirli bir güvenlik grubu** bölümüne ekleyin.
 
    > [!Important]
-   > Hizmet sorumluları tüm Power BI kiracı ayarları için izinleri kendi güvenlik grubundan devralır. İzinleri kısıtlamak için hizmet sorumlularına ayrılmış bir güvenlik grubu oluşturun ve bu grubu ilgili, etkin Power BI ayarlarının 'Belirli güvenlik grupları hariç' listesine ekleyin.
+   > Hizmet sorumlularının, tüm kuruluş için etkinleştirilmiş veya grubun parçası olarak hizmet sorumlularına sahip olan güvenlik grupları için etkinleştirilmiş tüm kiracı ayarlarına erişimi vardır. Belirli kiracı ayarlarına hizmet sorumlusu erişimini kısıtlamak için, yalnızca belirli güvenlik gruplarına erişime izin verin veya hizmet sorumluları için adanmış bir güvenlik grubu oluşturup hariç tutun.
 
     ![Yönetim portalı](media/embed-service-principal/admin-portal.png)
 
 4. [Power BI ortamınızı](embed-sample-for-customers.md#set-up-your-power-bi-environment) ayarlayın.
 
 5. Hizmet sorumlusunu oluşturduğunuz yeni çalışma alanına **yönetici** olarak ekleyin. Bu görevi [API’ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
+
+    ![Çalışma alanına hizmet sorumlusu ekleme](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Şimdi içeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine eklemeyi seçin.
 
@@ -171,9 +173,10 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 * Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../service-dataflows-overview.md) yönetimi desteklenmez.
+* Hizmet sorumlusu, yönetici API’lerini desteklemez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Uygulamayı kaydetme](register-app.md)
+* [Uygulama kaydetme](register-app.md)
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
