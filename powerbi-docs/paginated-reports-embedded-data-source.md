@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
+ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324404"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59070034"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma (Önizleme)
 
@@ -22,7 +22,8 @@ Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleş
 
 - Azure SQL Veritabanı ve Veri Ambarı
 - SQL Server
-- SQL Server Analysis Services 
+- SQL Server Analysis Services
+- Azure Analysis Services
 
 Sayfalandırılmış raporlar, bir ağ geçidi üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz. [Power BI ağ geçitleri](service-gateway-getting-started.md) hakkında daha fazla bilgi edinin. 
 

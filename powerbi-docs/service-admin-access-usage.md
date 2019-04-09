@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8186cebfce23ab5cb73862541213260a80182230
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 12a15360efbff62c40f5bd1098886ee046661e4f
+ms.sourcegitcommit: 5222bc6a8336acc77c8e22db57ea6a7bf7daea57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872490"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59290754"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 
