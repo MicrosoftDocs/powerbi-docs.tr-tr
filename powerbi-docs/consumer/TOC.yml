@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Genel görevler
       items:
+      - name: Excel’e verileri aktarma
+        href: end-user-export.md
       - name: İçerik sahibini ve son yenilenme tarihini arama
         href: end-user-fresh.md
       - name: Odak ve Tam ekran modlarını kullanarak içeriği yakınlaştırmanın farklı yolları
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Mobil uygulamalarda sık kullanılanlar
         href: mobile/mobile-apps-favorites.md
+      - name: Mobil uygulamalarda rapor etkileşimini yapılandırma (yalnızca telefon)
+        href: mobile/mobile-app-single-tap.md
       - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Power BI mobil uygulamalarında bildirim alma
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Telefonunuz için iyileştirilmiş raporları görüntüleme
         href: mobile/mobile-apps-view-phone-report.md
+      - name: Bir içeriğe dış kuruluştan erişme
+        href: mobile/mobile-apps-b2b.md
       - name: Telefonunuzdan bir Power BI QR kodunu tarama
         href: mobile/mobile-apps-qr-code.md
       - name: Mobil uygulamalarda not ekleme ve paylaşma
@@ -195,9 +201,9 @@ items:
     items:
     - name: Mobil uygulamalarda desteklenen diller
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248988"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430294"
