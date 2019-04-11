@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: Detaylandırmayı kullanma
         href: desktop-drillthrough.md
+      - name: Çapraz rapor detaylandırmayı kullanma
+        href: desktop-cross-report-drill-through.md
       - name: Göreli tarih dilimleyici ve filtre kullanma
         href: visuals/desktop-slicer-filter-date-range.md
       - name: Gruplandırma ve gruplamayı kullanma
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: Koşullu tablo biçimlendirmesi
         href: desktop-conditional-table-formatting.md
+      - name: Koşullu ifade temelli başlık biçimlendirme
+        href: desktop-conditional-format-visual-titles.md
       - name: Power BI Desktop'ta sütuna göre sıralama
         href: desktop-sort-by-column.md
       - name: Mobil uygulamalar için en iyi duruma getirilmiş raporlar oluşturma
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI güvenliği
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053450"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479300"
