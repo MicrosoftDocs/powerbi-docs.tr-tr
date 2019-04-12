@@ -23,169 +23,169 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 ## <a name="a"></a>A
 
-**hesap** Farklı türde Power BI hesapları vardır.  Power BI Pro hesabı ücretli aylık bir aboneliktir.  Power BI Ücretsiz hesabı, Power BI Premium kapasitede barındırılan içeriğin görüntülenmesine olanak sağlar.  
+**account (hesap)** Farklı türde Power BI hesapları vardır.  Power BI Pro hesabı ücretli aylık bir aboneliktir.  Power BI Ücretsiz hesabı, Power BI Premium kapasitede barındırılan içeriğin görüntülenmesine olanak sağlar.  
 
-**yönetici portalı** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Office 365, Azure ve PowerApps, yönetim merkezini kullanır.)
+**admin portal (yönetici portalı)** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Office 365, Azure ve PowerApps, yönetim merkezini kullanır.)
 
-**toplamlar** Birden çok satırdaki değerlerin daha kayda değer bir anlam veya ölçümün tek değerini oluşturmak için belirli ölçütlerde giriş olarak bir araya getirilmesi.
+**aggregates (toplamlar)** Birden çok satırdaki değerlerin daha kayda değer bir anlam veya ölçümün tek değerini oluşturmak için belirli ölçütlerde giriş olarak bir araya getirilmesi.
 
-**toplama** Temel veri kaynaklarındaki satırların bir modele uyacak şekilde azaltılması. Sonuçta toplam elde edilir.
+**aggregation (toplama)** Temel veri kaynaklarındaki satırların bir modele uyacak şekilde azaltılması. Sonuçta toplam elde edilir.
 
-**uyarı, uyarılar** Kullanıcılara ayarladıkları sınırlar temelinde verilerdeki değişiklikleri bildiren özellik. Uyarılar rapor görsellerinden sabitlenen kutucuklarda ayarlanabilir. Kullanıcılar hizmetle ve mobil uygulamalarıyla ilgili uyarılar alır.
+**alert, alerts (uyarı, uyarılar)** Kullanıcılara ayarladıkları sınırlar temelinde verilerdeki değişiklikleri bildiren özellik. Uyarılar rapor görsellerinden sabitlenen kutucuklarda ayarlanabilir. Kullanıcılar hizmetle ve mobil uygulamalarıyla ilgili uyarılar alır.
 
-**not ekleme** iOS ve Android cihazları için Power BI mobil uygulamasında kutucukların, raporların veya görsellerin bir anlık kopyasına satırlar, metinler veya damgalar ekleme.
+**annotate (not ekleme)** iOS ve Android cihazları için Power BI mobil uygulamasında kutucukların, raporların veya görsellerin bir anlık kopyasına satırlar, metinler veya damgalar ekleme.
 
-**yanıt kartı, yanıt sayfası** Bkz. Cortana yanıt kartı.
+**answer card, answer page (yanıt kartı, yanıt sayfası)** Bkz. Cortana yanıt kartı.
 
-**uygulama, uygulamalar**
+**app, apps (uygulama, uygulamalar)**
 
  
-**uygulama çalışma alanı** Çalışma alanım dışında Power BI'daki tüm çalışma alanları şimdi uygulama çalışma alanıdır. İçerikler bir Power BI uygulamasında paketlenebilir. Premium kapasitede depolananlar Ücretsiz kullanıcılarla paylaşılabilir. Kişisel çalışma alanları (Çalışma alanım'ın altındaki) Premium kapasitede barındırılabilir.  
+**app workspace (uygulama çalışma alanı)** Çalışma alanım dışında Power BI'daki tüm çalışma alanları şimdi uygulama çalışma alanıdır. İçerikler bir Power BI uygulamasında paketlenebilir. Premium kapasitede depolananlar Ücretsiz kullanıcılarla paylaşılabilir. Kişisel çalışma alanları (Çalışma alanım'ın altındaki) Premium kapasitede barındırılabilir.  
 
 İndirilecek panolara, raporlara, veri kümelerine ve uygulamalara göz atıp bunları keşfedebileceğiniz **AppSource** Merkezi çevrimiçi deposu.
 
 **ArcGIS for Power BI** ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı ArcGIS for Power BI'dır.
 
-**atamak** [Power BI Premium] Çalışma alanını ayrılmış bir kapasitenin içine veya dışına taşımayı açıklayan fiil. Çalışma alanını ayrılmış bir kapasiteye taşıma işlemi için yükseltme fiilini kullanmayın çünkü bu fiil ayrılmış kapasitenin paylaşılan kapasiteden üstün olduğuna ilişkin bir çağrışım yaratır.  
+**assign (atamak)** [Power BI Premium] Çalışma alanını ayrılmış bir kapasitenin içine veya dışına taşımayı açıklayan fiil. Çalışma alanını ayrılmış bir kapasiteye taşıma işlemi için yükseltme fiilini kullanmayın çünkü bu fiil ayrılmış kapasitenin paylaşılan kapasiteden üstün olduğuna ilişkin bir çağrışım yaratır.  
 
 ## <a name="b"></a>B
 
-**BI, iş zekası**
+**BI, business intelligence (BI, iş zekası)**
 
-**yer işareti** Power BI Desktop'ta veya hizmetinde bir raporun Yer İşaretleri bölmesinde yakalanan verilerin görünümü. Desktop'ta, yer işaretleri Power BI hizmetinde paylaşılmak üzere .pbix rapor dosyasında kaydedilir
+**bookmark (yer işareti)** Power BI Desktop'ta veya hizmetinde bir raporun Yer İşaretleri bölmesinde yakalanan verilerin görünümü. Desktop'ta, yer işaretleri Power BI hizmetinde paylaşılmak üzere .pbix rapor dosyasında kaydedilir
   
-**içerik haritaları** Uygulama çalışma alanları arasında hızla gezinmeyi sağlayan sol üst kısımdaki gezinti.
+**breadcrumbs (içerik haritaları)** Uygulama çalışma alanları arasında hızla gezinmeyi sağlayan sol üst kısımdaki gezinti.
 
 ## <a name="c"></a>C
 
-**hesaplama** Bir şeyin boyutunun veya sayısının matematiksel saptaması.
+**calculation (hesaplama)** Bir şeyin boyutunun veya sayısının matematiksel saptaması.
 
-**sertifikalı özel görsel** Gereksinimleri karşılamış ve sıkı güvenlik testlerinden geçmiş bir Power BI özel görseli.
+**certified custom visual (sertifikalı özel görsel)** Gereksinimleri karşılamış ve sıkı güvenlik testlerinden geçmiş bir Power BI özel görseli.
 
-**sınıflandırma** Veri sınıflandırma olarak da adlandırılır. Bu seçenek, Power BI yöneticileri tarafından bir pano için gereken güvenlik düzeyi farkındalığını artırmak için açılabilir. Sınıflandırma türleri kuruluş tarafından özelleştirilebilir.
+**classification (sınıflandırma)** Veri sınıflandırma olarak da adlandırılır. Bu seçenek, Power BI yöneticileri tarafından bir pano için gereken güvenlik düzeyi farkındalığını artırmak için açılabilir. Sınıflandırma türleri kuruluş tarafından özelleştirilebilir.
 
-**canlı bağlanma** SQL Server Analysis Services veri modellerine bağlanma yöntemi. Canlı bağlantı olarak da adlandırılır.
+**connect live (canlı bağlanma)** SQL Server Analysis Services veri modellerine bağlanma yöntemi. Canlı bağlantı olarak da adlandırılır.
 
-**içerik**
+**content (içerik)**
 
 
-**içerik listesi** Bir uygulamanın içerik dizini.
+**content list (içerik listesi)** Bir uygulamanın içerik dizini.
 
-**içerik paketi** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) bilgi edinin. 
+**content pack (içerik paketi)** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) bilgi edinin. 
 
-**içerik görünümü**
+**content view (içerik görünümü)**
 
-**Cortana yanıt kartı** Özel Cortana yanıtları oluşturabilmek için Power BI raporuna eklenmek üzere ayrılmış rapor sayfası.
+**Cortana answer card (Cortana yanıt kartı)** Özel Cortana yanıtları oluşturabilmek için Power BI raporuna eklenmek üzere ayrılmış rapor sayfası.
 
-**Cortana yanıt sayfası** Müşterilere gösterilen Cortana sayfasının adı.
+**Cortana answer page (Cortana yanıt sayfası)** Müşterilere gösterilen Cortana sayfasının adı.
 
-**çapraz filtre, çapraz vurgulama**
+**cross filter, cross highlight (çapraz filtre, çapraz vurgulama)**
 
-**özel görsel** Topluluk ve Microsoft tarafından oluşturulan görseller. Bunlar Power BI raporlarında kullanılmak üzere Office mağazasından indirilebilir.
+**custom visual (özel görsel)** Topluluk ve Microsoft tarafından oluşturulan görseller. Bunlar Power BI raporlarında kullanılmak üzere Office mağazasından indirilebilir.
 
 ## <a name="d"></a>D
 
-**pano** Durumu ve ölçümleri iletmek için seçilmiş görseller. Pano, verileri kolay anlaşılır bir yolla düzenler ve gösterir.
+**dashboard (pano)** Durumu ve ölçümleri iletmek için seçilmiş görseller. Pano, verileri kolay anlaşılır bir yolla düzenler ve gösterir.
 
-**veri sınıflandırma** Bkz. sınıflandırma
+**data classification (veri sınıflandırma)** Bkz. sınıflandırma
 
-**veri bağlayıcısı** Bkz. bağlayıcılar
+**data connector (veri bağlayıcısı)** Bkz. bağlayıcılar
 
-**veri modeli, Excel Veri Modeli**
-
-
-**veri kümesi** ve **veri kaynağı** karşılaştırması **Veri kümesi**, görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
-
-**ayrılmış kapasite** [Power BI Premium] Her ölçekte tutarlı bir performans sağlamaya yardımcı olmak için Microsoft bulut veri merkezlerindeki ayrılmış donanımlarda çalıştırılan veri modelleri. BI çözümleri, Power BI lisansına bakılmaksızın kuruluşun tamamına sunulur.
-
-**Masaüstü** Birinci örnek: Power BI Desktop Sonraki bahsetmeler: Masaüstü
+**data model, Excel Data Model (veri modeli, Excel Veri Modeli)**
 
 
-**baklava** Power BI Premium. Çalışma alanının Premium kapasitede bir çalışma alanı olduğunu belirten simgenin şekli.
+**dataset (veri kümesi)** ve **veri kaynağı** karşılaştırması **Veri kümesi**, görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
 
-**detaydan çıkma, detaya gitme, ayrıntılandırma**
+**dedicated capacity (ayrılmış kapasite)** [Power BI Premium] Her ölçekte tutarlı bir performans sağlamaya yardımcı olmak için Microsoft bulut veri merkezlerindeki ayrılmış donanımlarda çalıştırılan veri modelleri. BI çözümleri, Power BI lisansına bakılmaksızın kuruluşun tamamına sunulur.
+
+**Desktop (Masaüstü)** Birinci örnek: Power BI Desktop Sonraki bahsetmeler: Masaüstü
+
+
+**diamond (baklava)** Power BI Premium. Çalışma alanının Premium kapasitede bir çalışma alanı olduğunu belirten simgenin şekli.
+
+**drill up, drill down, drillthrough (detaydan çıkma, detaya gitme, ayrıntılandırma)**
 
 ## <a name="e"></a>E
 
-**Düzenleme Görünümü** Rapor *tasarımcılarının* raporu incelediği, tasarladığı, oluşturduğu ve paylaştığı mod.
+**Editing View (Düzenleme Görünümü)** Rapor *tasarımcılarının* raporu incelediği, tasarladığı, oluşturduğu ve paylaştığı mod.
 
-**üç nokta** ...
+**ellipsis (üç nokta)** ...
 
-**ekleme kodu** İnternet genelinde ortak bir standart. Power BI'da, müşteri bir ekleme kodu oluşturabilir ve bir web sitesi veya bloga rapor görseli gibi içerik yerleştirmek için kopyalayabilir.
+**embed code (ekleme kodu)** İnternet genelinde ortak bir standart. Power BI'da, müşteri bir ekleme kodu oluşturabilir ve bir web sitesi veya bloga rapor görseli gibi içerik yerleştirmek için kopyalayabilir.
 
 **Embedded** Bkz. Power BI Embedded. 
 
-**ekleme** Power BI geliştirici teklifinde, Power BI REST API'lerini ve Power BI SDK'sını kullanarak analitiği uygulamalara tümleştirme sürecidir.
+**embedding (ekleme)** Power BI geliştirici teklifinde, Power BI REST API'lerini ve Power BI SDK'sını kullanarak analitiği uygulamalara tümleştirme sürecidir.
 
 
-**ortam** [Power BI Desktop, Power BI Mobil, vb.] Power BI ortamını kullanın. Çok kiracılı müşteriler için, bu terimi bağlantı kurulacak kiracıyı seçmeye ilişkin olarak kullanın.
+**environment (ortam)** [Power BI Desktop, Power BI Mobil, vb.] Power BI ortamını kullanın. Çok kiracılı müşteriler için, bu terimi bağlantı kurulacak kiracıyı seçmeye ilişkin olarak kullanın.
 Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerinin ikisinin ayrı şey olduğunu anlamalarına yardımcı olmak için kullanılabilir.
 
 ## <a name="f"></a>F
 
-**sık kullanılanlara eklemek, sık kullanılanlardan çıkarmak** Power BI'da sık ziyaret edilen panolara ve raporlara hızlı erişim için Sık Kullanılanlar listesine eklemek. Artık sık kullanılanlar arasında yer almasını istemediğinizde, sık kullanılanlar listesinden çıkarırsınız.
+**favorite, unfavorite (sık kullanılanlara eklemek, sık kullanılanlardan çıkarmak)** Power BI'da sık ziyaret edilen panolara ve raporlara hızlı erişim için Sık Kullanılanlar listesine eklemek. Artık sık kullanılanlar arasında yer almasını istemediğinizde, sık kullanılanlar listesinden çıkarırsınız.
 
-**filtre**
+**filter (filtre)**
 
-**biçimlendirme**
+**formatting (biçimlendirme)**
 
-**odak modu** [Power BI hizmeti]
+**focus mode (odak modu)** [Power BI hizmeti]
 
-**Ücretsiz hesap** Bu terim koleksiyonunda hesap terimine bakın
+**Free account (Ücretsiz hesap)** Bu terim koleksiyonunda hesap terimine bakın
 
-**tam ekran, tam ekran modu** [Power BI hizmeti]
+**full screen, full-screen mode (tam ekran, tam ekran modu)** [Power BI hizmeti]
 
 ## <a name="g"></a>G
 
-**ağ geçitleri** veya **şirket içi veri ağ geçitleri** Temel veri kaynaklarına kurulan köprü. Power BI hizmetiyle yenileme özelliğini destekleyen şirket içi veri kaynakları arasında hızlı ve güvenli veri aktarımı sağlar. Genellikle BT tarafından yönetilir. 
+**gateways (ağ geçitleri)** veya **şirket içi veri ağ geçitleri** Temel veri kaynaklarına kurulan köprü. Power BI hizmetiyle yenileme özelliğini destekleyen şirket içi veri kaynakları arasında hızlı ve güvenli veri aktarımı sağlar. Genellikle BT tarafından yönetilir. 
 
 ## <a name="h"></a>H
-**yüksek yoğunluklu görseller** Power BI'ın işleyebileceğinden daha fazla veri noktası içeren görseller. Power BI şekli ve aykırı değerleri göstermek için verilerden örnekleme yapar.
+**high-density visuals (yüksek yoğunluklu görseller)** Power BI'ın işleyebileceğinden daha fazla veri noktası içeren görseller. Power BI şekli ve aykırı değerleri göstermek için verilerden örnekleme yapar.
 
 ## <a name="i"></a>I
 
-**içgörüler** İçgörü makine öğrenme algoritmalarımız çalıştırılarak gerçekleştirilen otomatik veri analizi.
+**insights (içgörüler)** İçgörü makine öğrenme algoritmalarımız çalıştırılarak gerçekleştirilen otomatik veri analizi.
 
 
 ## <a name="j"></a>J
 
 ## <a name="k"></a>K
 
-**KPI'ler** Temel performans göstergeleri. Bir görsel türü.
+**KPIs (KPI'ler)** Temel performans göstergeleri. Bir görsel türü.
 
 
 ## <a name="l"></a>L
 
-**sol gezinti** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
+**left navigation (left nav) (sol gezinti)** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 İlk örnek: sol gezinti çubuğu Daha sonra geçtiğinde veya dar alanlarda: sol gezinti
 
-**liste sayfası** veya **içerik listesi** Sol gezintideki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
+**list page (liste sayfası)** veya **içerik listesi** Sol gezintideki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
 
 ## <a name="m"></a>M
 
-**Mobil uygulama** iOS, Android ve Windows cihazlarında Power BI çalıştırmanıza olanak sağlayan uygulamalar.
+**Mobile app (Mobil uygulama)** iOS, Android ve Windows cihazlarında Power BI çalıştırmanıza olanak sağlayan uygulamalar.
 
-**modelleme** [Power BI Desktop] Bağlandığınız verileri Power BI'da kullanıma hazır duruma getirme. Birden çok veri kaynağındaki tablolar arasında ilişkileri oluşturma, ölçüleri oluşturma ve ölçümleri atama işlemlerini içerir.
+**modeling (modelleme)** [Power BI Desktop] Bağlandığınız verileri Power BI'da kullanıma hazır duruma getirme. Birden çok veri kaynağındaki tablolar arasında ilişkileri oluşturma, ölçüleri oluşturma ve ölçümleri atama işlemlerini içerir.
 
-**Çalışma alanım** Her Power BI müşterisinin içerik oluşturması için sağlanan çalışma alanı. Burada oluşturulan öğeleri bir uygulamaya paketlemek isterlerse ve *tasarımcı* izinleri varsa, bunları uygun uygulama çalışma alanına yükler veya yeni bir uygulama çalışma alanı oluştururlar.
+**My workspace (Çalışma alanım)** Her Power BI müşterisinin içerik oluşturması için sağlanan çalışma alanı. Burada oluşturulan öğeleri bir uygulamaya paketlemek isterlerse ve *tasarımcı* izinleri varsa, bunları uygun uygulama çalışma alanına yükler veya yeni bir uygulama çalışma alanı oluştururlar.
 
 ## <a name="n"></a>N
 
-**yerel** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ama başka türleri, örneğin özel görselleri de içeri aktarabilirsiniz.
+**native (yerel)** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ama başka türleri, örneğin özel görselleri de içeri aktarabilirsiniz.
 
-**gezinti bölmesi** Bkz. **Sol gezinti**
+**navigation pane (gezinti bölmesi)** Bkz. **Sol gezinti**
 
-**bildirim** Power BI Bildirim Merkezi tarafından veya bu bildirim merkezine gönderilen iletiler.  
+**notification (bildirim)** Power BI Bildirim Merkezi tarafından veya bu bildirim merkezine gönderilen iletiler.  
 
-**Bildirim Merkezi** Hizmette, belirli özelliklerin kullanımdan kaldırılması bildirimi gibi iletilerin kullanıcılara teslim edildiği konum.
+**Notification Center (Bildirim Merkezi)** Hizmette, belirli özelliklerin kullanımdan kaldırılması bildirimi gibi iletilerin kullanıcılara teslim edildiği konum.
 
 
 ## <a name="o"></a>O
 
-**OneDrive İş** - **OneDrive** OneDrive bir kişisel hesaptır ve OneDrive İş de iş hesaplarına yöneliktir.  
+**OneDrive for Business (OneDrive İş)** - **OneDrive** OneDrive bir kişisel hesaptır ve OneDrive İş de iş hesaplarına yöneliktir.  
 
-**Şirket içi veri ağ geçidi**
+**On-premises data gateway (Şirket içi veri ağ geçidi)**
 
 
 
@@ -193,19 +193,19 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 **PaaS** PaaS, hizmet olarak performansın kısaltmasıdır. Örneğin, Power BI Embedded.
 
-**sayfa** Raporların bir veya birden fazla sayfası olur. Rapor tuvalinin alt kısmındaki her sekme bir sayfaya karşılık gelir.
+**page (sayfa)** Raporların bir veya birden fazla sayfası olur. Rapor tuvalinin alt kısmındaki her sekme bir sayfaya karşılık gelir.
 
 **pbiviz** Power BI özel görsellerinin dosya uzantısı.
 
 **pbix** Power BI Desktop dosyalarının dosya uzantısı.
 
-**izinler** Kullanıcının Power BI'da neler yapabileceği ve yapamayacağı izinlere bağlıdır. *Tüketici* olarak, bir *tasarımcı*, yönetici veya geliştirici ile aynı izinlere sahip olmazsınız.
+**permissions (izinler)** Kullanıcının Power BI'da neler yapabileceği ve yapamayacağı izinlere bağlıdır. *Tüketici* olarak, bir *tasarımcı*, yönetici veya geliştirici ile aynı izinlere sahip olmazsınız.
 
-**telefon raporu** Telefonda görüntülenmek üzere biçimlendirilmiş Power BI raporunun adı.
+**phone report (telefon raporu)** Telefonda görüntülenmek üzere biçimlendirilmiş Power BI raporunun adı.
 
-**telefon görünümü** Power BI hizmetinde telefon raporunun düzenini belirlemek için kullanıcı arabirimi.
+**phone view (telefon görünümü)** Power BI hizmetinde telefon raporunun düzenini belirlemek için kullanıcı arabirimi.
 
-**sabitleme, kaldırma** Genellikle bir rapordaki görseli panoya yerleştirme eylemi.
+**pin, unpin (sabitleme, kaldırma)** Genellikle bir rapordaki görseli panoya yerleştirme eylemi.
 
 **Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**, Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
@@ -227,74 +227,74 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 
 ## <a name="q"></a>Q
-**Soru-Cevap** Bir veri kümesi hakkında doğal dilde sorular yazabilme ve görselleştirme biçiminde yanıtlar alabilme özelliği. Power BI hizmetinde ve Power BI Desktop'ta gösterilir.
+**Q&A (Soru-Cevap)** Bir veri kümesi hakkında doğal dilde sorular yazabilme ve görselleştirme biçiminde yanıtlar alabilme özelliği. Power BI hizmetinde ve Power BI Desktop'ta gösterilir.
 
-**Soru-Cevap sanal analisti**  
+**Q&A virtual analyst (Soru-Cevap sanal analisti)**  
 [Power BI Mobil] iOS için, Soru-Cevap özelliğine yönelik konuşma kullanıcı arabirimi.
 
 **QR kodları** [Power BI Mobil] Power BI hizmetinde ürünleri tanımlamak amacıyla panolar veya kutucuklar için oluşturulabilen matriks bar kodu. QR kodları doğrudan panoya veya kutucuğa bağlanmak için bir QR kod okuyucusuyla ya da iOS veya Android'de Power BI Mobil uygulamasıyla taranabilir.
 
-**sorgu dizesi parametresi**  
+**query string parameter (sorgu dizesi parametresi)**  
 Power BI raporunda görünen sonuçları önceden filtrelemek için URL'ye ekleyin. En geniş anlamıyla, sorgu dizesi bir veritabanındaki bilgileri alır.
 
-**Hızlı Öngörüler**
+**Quick Insights (Hızlı Öngörüler)**
 
 
-**hızlı ölçümler**
+**quick measures (hızlı ölçümler)**
 
 ## <a name="r"></a>R
 **R, Microsoft R**
 
-**Okuma Görünümü** Raporlar için salt okunur görünüm (Düzenleme Görünümünün tersine).
+**Reading View (Okuma Görünümü)** Raporlar için salt okunur görünüm (Düzenleme Görünümünün tersine).
 
-**gerçek zamanlı akış** Algılayıcılardan, sosyal medyadan, kullanım ölçümlerinden ve zamana duyarlı verilerin toplanabileceği veya iletilebileceği başka herhangi bir kaynaktan gelen verileri gerçek zamanlı olarak aktarabilme ve panoları güncelleştirebilme özelliği.  
+**real-time streaming (gerçek zamanlı akış)** Algılayıcılardan, sosyal medyadan, kullanım ölçümlerinden ve zamana duyarlı verilerin toplanabileceği veya iletilebileceği başka herhangi bir kaynaktan gelen verileri gerçek zamanlı olarak aktarabilme ve panoları güncelleştirebilme özelliği.  
 
-**Son görüntülenen** Sol gezintide yer alan ve son erişilen tek tek tüm yapıtları barındıran kapsayıcı.
+**Recent (Son görüntülenen)** Sol gezintide yer alan ve son erişilen tek tek tüm yapıtları barındıran kapsayıcı.
 
-**içerik** Geçerli içeriği oluşturan tek tek içerik parçalarını gösterir. Örneğin panolar için, panodaki verileri ve görselleştirmeleri sağlayan raporları ve veri kümelerini görebilirsiniz.   
+**related content (içerik)** Geçerli içeriği oluşturan tek tek içerik parçalarını gösterir. Örneğin panolar için, panodaki verileri ve görselleştirmeleri sağlayan raporları ve veri kümelerini görebilirsiniz.   
 
-**göreli bağlantılar** Pano kutucuklarından doğrudan paylaşılmış veya Power BI uygulaması aracılığıyla dağıtılmış diğer panolara veya raporlara giden bağlantılar. Bu, detaylandırmayı destekleyen daha zengin panolar sağlar.
+**relative links (göreli bağlantılar)** Pano kutucuklarından doğrudan paylaşılmış veya Power BI uygulaması aracılığıyla dağıtılmış diğer panolara veya raporlara giden bağlantılar. Bu, detaylandırmayı destekleyen daha zengin panolar sağlar.
 
-**rapor**  
+**report (rapor)**  
 Tek bir veri kümesinden elde edilen farklı bulguları ve içgörüleri temsil eden görselleştirmeler yardımıyla, bu veri kümesine ilişkin çok yönlü yaklaşım. Bir veya birden çok görselleştirme, bir veya birden çok sayfa içerebilir.  
 
-**rapor düzenleyicisi**
+**report editor (rapor düzenleyicisi)**
 
-**rapor ölçüleri** Özel hesaplamalar olarak da adlandırılır. Bunlar Excel'de hesaplanan alanlar olarak adlandırılır. Ayrıca bkz. *ölçüler*.   
-**rapor sunucusu** Rapor sunucusunun bir örneği.
+**report measures (rapor ölçüleri)** Özel hesaplamalar olarak da adlandırılır. Bunlar Excel'de hesaplanan alanlar olarak adlandırılır. Ayrıca bkz. *ölçüler*.   
+**report server (rapor sunucusu)** Rapor sunucusunun bir örneği.
 
-**değişken görseller** Ekran boyutu ne olursa olsun maksimum sayıda veri ve içgörü görüntüleyecek şekilde dinamik olarak değişen görseller.
+**responsive visuals (değişken görseller)** Ekran boyutu ne olursa olsun maksimum sayıda veri ve içgörü görüntüleyecek şekilde dinamik olarak değişen görseller.
 
 ## <a name="s"></a>S
 **SaaS**   
 
-**ekran görüntüsü** Ekran görüntüsü gönderme özelliği kullanılarak bir raporun basit ekran görüntüleri e-postayla gönderilebilir.
+**screenshot (ekran görüntüsü)** Ekran görüntüsü gönderme özelliği kullanılarak bir raporun basit ekran görüntüleri e-postayla gönderilebilir.
 
-**hizmet** Bkz. *Power BI hizmeti*
+**service (hizmet)** Bkz. *Power BI hizmeti*
 
-**Ayarlar** Power BI kullanıcılarının kendi genel ayarlarını yönetebilecekleri, örneğin yeni özelliklerin önizlemesinin gösterilip gösterilmeyeceğini belirleyebilecekleri, varsayılan dili ayarlayabilecekleri ve hesaplarını kapatabilecekleri korum. Aynı zamanda kullanıcılar içerik varlıkları, uyarılar ve aboneliklerle ilgili bireysel ayarları yönetebilirler. Dişli simgesiyle gösterilir.
+**Settings (Ayarlar)** Power BI kullanıcılarının kendi genel ayarlarını yönetebilecekleri, örneğin yeni özelliklerin önizlemesinin gösterilip gösterilmeyeceğini belirleyebilecekleri, varsayılan dili ayarlayabilecekleri ve hesaplarını kapatabilecekleri korum. Aynı zamanda kullanıcılar içerik varlıkları, uyarılar ve aboneliklerle ilgili bireysel ayarları yönetebilirler. Dişli simgesiyle gösterilir.
 
-**paylaşma, paylaşım** Power BI'da, paylaşım genel olarak tek bir yapıtı (pano veya rapor) bir veya birden çok kişiyle e-posta adreslerini kullanarak doğrudan paylaşma anlamına gelir. Gönderenin ve alıcının Power BI Pro lisansı olmalıdır.
+**share, sharing (paylaşma, paylaşım)** Power BI'da, paylaşım genel olarak tek bir yapıtı (pano veya rapor) bir veya birden çok kişiyle e-posta adreslerini kullanarak doğrudan paylaşma anlamına gelir. Gönderenin ve alıcının Power BI Pro lisansı olmalıdır.
 Mobil cihazlarda, paylaşma yerel işletim sisteminin paylaşım işlevselliğine ("not ekleyip paylaşma" gibi) işaret edebilir.  
 
-**Benimle paylaşılan** Sol gezintide bulunan ve başka bir Power BI kullanıcısıyla doğrudan paylaşılmış tek tek yapıtları barındıran kapsayıcı.
+**Shared with me (Benimle paylaşılan)** Sol gezintide bulunan ve başka bir Power BI kullanıcısıyla doğrudan paylaşılmış tek tek yapıtları barındıran kapsayıcı.
 
-**anlık görüntü**
+**snapshot (anlık görüntü)**
 
 
 **SQL Server Analysis Services (SSAS)** 
  
 **SQL Server Reporting Services (SSRS)**
 
-**akış verileri** Bkz. *gerçek zamanlı akış*.
+**streaming data (akış verileri)** Bkz. *gerçek zamanlı akış*.
 
-**abonelikler**, **Abone olma**  
+**subscriptions (abonelikler)**, **Abone olma**  
 Rapor sayfalarına, uygulamalara ve panolara abone olabilir, anlık görüntü içeren e-postalar alabilirsiniz. Power BI Pro lisansı gereklidir.
 
-**özetleme** [Power BI Desktop] Tek sütundaki değerlere uygulaman işlem.
+**summarization (özetleme)** [Power BI Desktop] Tek sütundaki değerlere uygulaman işlem.
 
 ## <a name="t"></a>T
-**kutucuklar**  
+**tiles (kutucuklar)**  
 Power BI panolarında rapor kutucukları yer alır.
 
 
@@ -302,24 +302,24 @@ Power BI panolarında rapor kutucukları yer alır.
 
 
 ## <a name="v"></a>V
-**değer, değerler** Görselleştirilecek sayısal veriler.
+**value, values (değer, değerler)** Görselleştirilecek sayısal veriler.
 
-**görsel, görselleştirme** Bir grafik. Bazı görseller: çubuk grafik, ağaç haritası, halka grafik, harita.
+**visual, visualization (görsel, görselleştirme)** Bir grafik. Bazı görseller: çubuk grafik, ağaç haritası, halka grafik, harita.
 
-**Görselleştirmeler bölmesi** Power BI Desktop ile Power BI hizmeti için paylaşılan rapor tuvalinde gönderilen görselleştirme şablonlarının adı. Her yerel görselleştirme türü için simge olarak da adlandırılan küçük şablonlar içerir.  
+**Visualizations pane (Görselleştirmeler bölmesi)** Power BI Desktop ile Power BI hizmeti için paylaşılan rapor tuvalinde gönderilen görselleştirme şablonlarının adı. Her yerel görselleştirme türü için simge olarak da adlandırılan küçük şablonlar içerir.  
 
 ## <a name="w"></a>W
 
-**çalışma kitabı** Veri kaynağı olarak kullanılacak Excel çalışma kitabı. Çalışma kitapları; bağlantılı tablolar, Power Query veya Power Pivot kullanılarak yüklenen bir veya daha fazla veri tablosunun bulunduğu bir veri modeli içerebilir.
+**workbook (çalışma kitabı)** Veri kaynağı olarak kullanılacak Excel çalışma kitabı. Çalışma kitapları; bağlantılı tablolar, Power Query veya Power Pivot kullanılarak yüklenen bir veya daha fazla veri tablosunun bulunduğu bir veri modeli içerebilir.
 
-**çalışma alanı** Power BI'daki panolar, raporlar ve veri kümeleri için kapsayıcılar. Bu terim koleksiyonunda uygulama çalışma alanı terimine bakın.
+**workspace (çalışma alanı)** Power BI'daki panolar, raporlar ve veri kümeleri için kapsayıcılar. Bu terim koleksiyonunda uygulama çalışma alanı terimine bakın.
 
 ## <a name="x"></a>X
-**x ekseni**  
+**x-axis (x ekseni)**  
  Alt kısımda uzanan yatay eksen.
 
 ## <a name="y"></a>Y
-**y ekseni** Yan tarafta uzanan dikey eksen.
+**y-axis (y ekseni)** Yan tarafta uzanan dikey eksen.
 
 ## <a name="z"></a>Z
 
