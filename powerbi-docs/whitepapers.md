@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65201190"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -24,12 +24,12 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | --- | --- | --- |
 | [Power BI ve Veri Akışları](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Bu teknik incelemede veri akışları teknik ayrıntılarıyla açıklanmakta ve veri akışı özellikleri ile işlevlerinin ardındaki yetenekler ve girişimler açıklanmaktadır. | Kasım 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
-| [Power BI Premium Planlama ve Dağıtım](https://aka.ms/Premium-Capacity-Planning-Deployment)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Kasım 2017 |
+| [Power BI Premium Planlama ve Dağıtım](whitepaper-powerbi-premium-deployment.md)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Mart 2019 |
 | [Plan capacity for embedded analytics with Power BI Premium (Power BI Premium ile katıştırılmış analize yönelik plan kapasitesi)](https://aka.ms/pbiewhitepaper) |Bu makalede, işine en uygun kapasiteyi belirlemesi için uygulama geliştiriciye/ISV'ye yönelik rehberlik sunulmaktadır. | Ekim 2017 |
 | [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://go.microsoft.com/fwlink/?linkid=2057861) |Bu, iyi performans gösteren ve güvenli bir Power BI kuruluş dağıtımına yönelik önemli noktaları açıklayan bir teknik incelemedir. | Temmuz 2018 |
 | [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. | Mart 2018 |
 | [Security (Güvenlik)](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. | Mart 2019 |
-| [Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)](whitepaper-azure-b2b-power-bi.md)|Bu makalede, İşletmeler Arası Azure Active Directory (AAD B2B) tümleştirmesi kullanılarak kuruluş dışındaki kullanıcılara nasıl içerik dağıtılacağı açıklanmaktadır.| Mart 2018 |
+| [Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)](whitepaper-azure-b2b-power-bi.md)|Bu makalede, İşletmeler Arası Azure Active Directory (AAD B2B) tümleştirmesi kullanılarak kuruluş dışındaki kullanıcılara nasıl içerik dağıtılacağı açıklanmaktadır.| Mart 2019 |
 | [Advanced Analytics with Power BI (Power BI ile Gelişmiş Analiz)](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Tahmine dayalı analiz, özel görselleştirmeler, R tümleştirmesi ve veri çözümleme ifadeleri dahil olmak üzere Power BI'ın gelişmiş analiz özelliklerini açıklar. | Şubat 2017 |
 | [Raporlar ve görseller için en iyi tasarım yöntemleri](visuals/power-bi-visualization-best-practices.md) |Power BI'da rapor tasarlamaya yönelik en iyi uygulamaları sunar. | Haziran 2018 |
 | [Bidirectional filtering (Çift yönlü filtreleme)](desktop-bidirectional-filtering.md) |Power BI Desktop'ta çift yönlü çapraz filtrelemeyi açıklar. (Ayrıca bu teknik inceleme, aynı davranışa sahip SQL Server Analysis Services 2016'yı da kapsar.) | Temmuz 2018 |
