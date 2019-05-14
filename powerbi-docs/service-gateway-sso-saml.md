@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306516"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533697"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına çoklu oturum açma (SSO) ile erişmek için ağ geçidinizde Security Assertion Markup Language (SAML) protokolünü kullanma
 
@@ -75,7 +75,7 @@ Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seç
 
     ![SAML yapılandırması](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 2. adımda oluşturduğunuz kimlik sağlayıcısını seçin. **Dış Kimlik** alanında Power BI kullanıcınızın UPN bilgisini girip **Ekle**'yi seçin.
+1. 2. adımda oluşturduğunuz kimlik sağlayıcısını seçin. İçin **Dış kimlik**, Power BI kullanıcının UPN (genellikle kullanıcı oturum açtığında Power bı'a e-posta adresi) girin ve ardından seçin **Ekle**. ADUserNameReplacementProperty yapılandırma seçeneğini kullanmak için ağ geçidi yapılandırdıysanız Power BI kullanıcının özgün UPN'nin yerini alacak değer girmeniz unutmayın. Örneğin, SAMAccountName için ADUserNameReplacementProperty ayarlarsanız kullanıcı SAMAccountName girmeniz gerekir.
 
     ![Kimlik sağlayıcısını seçme](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ Kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme ha
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
+* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)
