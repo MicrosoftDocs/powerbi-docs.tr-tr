@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bc6eaccc2976266102dcca0d20df73df810fa5f3
+ms.sourcegitcommit: bf535771c9ef495f9bb658569403fa5e3dd82e6a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284530"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65853559"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal ile ilgili sorunları giderme
-Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşılaşılabilen sorunlar ele alınmıştır.
+Aşağıdaki bölümlerde, Power BI Gateway-Personal kullanırken gelebilir arasında bazı yaygın olarak karşılaşılabilen sorunlar gidin.
 
 > [!NOTE]
 > **Şirket içi veri ağ geçidi (kişisel)** kişisel kullanıma yönelik geçerli ağ geçidi sürümüdür. Söz konusu sürümü kullanmak için yüklemenizi güncelleştirin.
@@ -26,68 +26,68 @@ Aşağıda, Power BI Gateway - Personal'ı kullanırken yaygın olarak karşıla
 > 
 
 ## <a name="update-to-the-latest-version"></a>Son sürüme güncelleştirme
-Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir.  En son sürümü kullandığınızdan emin olmak, her zaman için iyi bir uygulamadır.  Ağ geçidini bir ay veya daha uzun süredir güncelleştirmediyseniz ağ geçidinin en son sürümünü yükleyerek, sorunu yeniden oluşturup oluşturamadığınızı görmenizde yarar vardır.
+Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir.  En son sürümü kullandığınızdan emin olmak için iyi bir genel uygulama var. Ağ geçidini bir ay veya daha uzun güncelleştirmediyseniz ağ geçidinin en son sürümü yükleyerek göz önünde bulundurun. Ardından, sorunu yeniden bakın.
 
 ## <a name="installation"></a>Yükleme
-**Kişisel ağ geçidinin 64 bit olması**: Makineniz 32 bit ise kişisel ağ geçidini yükleyemezsiniz. İşletim sisteminiz 64 bit olmalıdır. Bir Windows 64 bit sürümü yüklemeniz veya kişisel ağ geçidini 64 bit olan bir makineye yüklemeniz gerekir.
+**Kişisel ağ geçidinin 64 bit olan** -makineniz 32 bit ise kişisel ağ geçidini yükleyemezsiniz. İşletim sisteminiz 64-bit sürümünde olması gerekir. Windows 64-bit sürümünü yükleyin veya kişisel ağ geçidinin 64-bit bir makineye yükleyin.
 
-**Bilgisayarın yerel yöneticisi olmanıza rağmen kişisel ağ geçidinin yüklenememesi**: Kullanıcı, bilgisayarın yerel Yönetici grubundaysa ancak grup ilkesi söz konusu kullanıcı adının bir hizmet olarak oturum açmasına izin vermiyorsa yükleme başarısız olabilir.  Şimdilik yapmanız gereken, grup ilkesinin bir kullanıcının hizmet olarak oturum açmasına izin verdiğinden emin olmaktır. Bu soruna ilişkin bir düzeltme üzerinde çalışıyoruz. [Daha fazla bilgi](https://technet.microsoft.com/library/cc739424.aspx)
+**Kişisel ağ geçidi başarısız bir bilgisayarın yerel Yöneticisi olmanıza rağmen bir hizmet olarak yüklemek** -kullanıcı bilgisayarın yerel yönetici grubundaysa ancak Grup İlkesi olarak oturum açmak kullanıcı adına izin vermez, yükleme başarısız olabilir bir hizmeti. Şu anda Grup İlkesi sağlayan bir hizmet olarak oturum açma emin olun. Bu soruna ilişkin bir düzeltme üzerinde çalışıyoruz. [Daha fazla bilgi](https://technet.microsoft.com/library/cc739424.aspx)
 
-**İşlemin zaman aşımına uğraması**: Bu, kişisel ağ geçidinin yüklendiği bilgisayarın (fiziksel makine veya VM) tek çekirdekli bir işlemciye sahip olduğu durumlarda sık karşılaşılan bir sorundur. Tüm uygulamaları kapatın ve gerekli olmayan işlemleri devre dışı bırakıp yüklemeyi tekrar gerçekleştirmeyi deneyin.
+**İşlem zaman aşımına uğradı** -kişisel ağ geçidi yükleme bilgisayarın (fiziksel makine veya VM) tek çekirdekli işlemci varsa bu iletiyi yaygındır. Tüm uygulamaları kapatın ve gerekli olmayan işlemleri devre dışı bırakıp yüklemeyi tekrar gerçekleştirmeyi deneyin.
 
-**Veri Yönetimi Ağ Geçidi'nin veya Analysis Services Connector'ın kişisel ağ geçidi ile aynı bilgisayara yüklenememesi**: Analysis Services Connector veya Veri Yönetimi Ağ Geçidi zaten yüklüyse önce Connector'ı veya ağ geçidini kaldırmanız, ardından kişisel ağ geçidini yüklemeyi denemeniz gerekir.
+**Kişisel ağ geçidi ile aynı bilgisayarda veri yönetimi ağ geçidi veya Analysis Services Connector yüklenemez** - zaten sahip olduğunuz bir Analysis Services Connector veya veri yönetimi ağ geçidi yüklü, bağlayıcı kaldırmalısınız veya ağ geçidi. Kişisel ağ geçidini yükledikten sonra deneyin.
 
 > [!NOTE]
-> Yükleme sırasında bir sorunla karşılaşırsanız kurulum günlükleri, sorunu gidermenize yardımcı olacak bilgiler sağlayabilir. Daha fazla bilgi için [Kurulum Günlükleri](#SetupLogs) bölümüne bakın.
+> Yükleme sırasında bir sorunla karşılaşırsanız Kurulum günlükleri sorunu gidermenize yardımcı olacak bilgiler sağlar. Daha fazla bilgi için [Kurulum günlükleri](#SetupLogs).
 > 
 > 
 
- **Ara sunucu yapılandırması**: Ortamınız için bir ara sunucu kullanılması gerekiyorsa kişisel ağ geçidini yapılandırma ile ilgili sorunlarla karşılaşabilirsiniz. Ara sunucu yapılandırması hakkında daha fazla bilgi edinmek için bkz. [Power BI Gateway'ler için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)
+ **Proxy Yapılandırması** ortamınızı bir ara sunucu kullanılması gerekiyorsa kişisel ağ geçidini yapılandırma sorunlarını görebilirsiniz. Ara sunucu yapılandırması hakkında daha fazla bilgi edinmek için bkz. [Power BI Gateway'ler için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)
 
 ## <a name="schedule-refresh"></a>Yenileme zamanlama
 **Hata: Bulutta depolanan kimlik bilgileri eksik.**
 
-Bir yenileme zamanladıktan sonra kişisel ağ geçidini kaldırıp yeniden yüklediyseniz \<veri kümesi\> için Ayarlar bölümünde bu hatayla karşılaşabilirsiniz. Bir kişisel ağ geçidini kaldırdığınızda, yenileme için yapılandırılmış bir veri kümesine ilişkin veri kaynağı kimlik bilgileri de Power BI hizmetinden kaldırılır.
+Ayarlarda bu hatayı alabilirsiniz \<veri kümesi\> zamanlanmış yenileme varsa ve kaldırılmış ve kişisel ağ geçidinin yeniden. Kişisel ağ geçidi kaldırdığınızda, yenileme için yapılandırılmış bir veri kümesi için veri kaynağı kimlik bilgileri Power BI hizmetinden kaldırılır.
 
-**Çözüm:** Power BI'da bir veri kümesinin yenileme ayarlarına gidin. Veri Kaynaklarını Yönet bölümünde, hata veren herhangi bir veri kaynağı için Kimlik bilgilerini düzenle'ye tıklayın ve veri kaynağında tekrar oturum açın.
+**Çözüm:** Power BI'da bir veri kümesinin yenileme ayarlarına gidin. Bir hata ile herhangi bir veri kaynağı için veri kaynaklarını yönet seçin **kimlik bilgilerini Düzenle** ve yeniden oturum açın veri kaynağına.
 
 **Hata: Veri kümesi için sağlanan kimlik bilgileri geçerli değil. Devam etmek için lütfen sayfayı yenileyerek veya Veri Kaynağı Ayarları iletişim kutusunda kimlik bilgilerini güncelleştirin.**
 
 **Çözüm**: Kimlik bilgileri ile ilgili bir ileti alıyorsanız bu aşağıdaki anlamlara gelebilir:
 
-* Veri kaynaklarında oturum açmak için kullanılan kullanıcı adları ve parolaların güncel olduğundan emin olun. Power BI'da ilgili veri kümesinin yenileme ayarlarına gidin. Veri kaynağı kimlik bilgilerini güncelleştirmek için Veri Kaynaklarını Yönet bölümündeki Kimlik bilgilerini düzenle seçeneğine tıklayın.
-* Kaynaklardan birinde kimlik doğrulaması için OAuth kullanılıyorsa tek bir sorguda yer alan, bulut kaynağı ile şirket içi kaynak arasındaki karmalar, kişisel ağ geçidinde yenilenemez. CRM Online ile yerel SQL Server arasındaki bir karma bu duruma örnek olarak verilebilir. CRM Online için OAuth gerektiğinden yenileme başarısız olur.
+* Kullanıcı adları ve parolalar veri kaynaklarında oturum açmak, güncel olduğundan emin olun. Power BI'da ilgili veri kümesinin yenileme ayarlarına gidin. Veri kaynaklarını yönet seçin **kimlik bilgilerini Düzenle** veri kaynağı için kimlik bilgilerini güncelleştirmek için.
+* Kaynaklardan biri kimlik doğrulaması için OAuth kullanıyorsa, kişisel ağ geçidi'ni yenilemek bulut kaynağı ile tek bir sorguda bir şirket içi kaynak arasındaki karmalar başarısız. Bu sorunu CRM Online ile yerel bir SQL Server arasındaki bir karma örneğidir. CRM Online için OAuth gerektiğinden mashup başarısız olur.
   
-  Bu bilinen bir sorundur ve araştırılmaktadır. Soruna yönelik geçici çözüm olarak bulut kaynağı ile şirket içi kaynak için ayrı bir sorgu bulundurun ve bunları birleştirmek üzere birleştirme veya ekleme sorgusu kullanın.
+  Bu hata bilinen bir sorundur ve onu araştırılmaktadır. Bu soruna geçici bir çözüm bulut kaynağı ile şirket içi kaynak için ayrı bir sorgu gerekir. Ardından, bir birleştirme kullanın veya bunları birleştirmek üzere sorgusu.
 
 **Hata: Desteklenmeyen veri kaynağı.**
 
 **Çözüm:** Yenilemeyi Zamanla ayarlarında desteklenmeyen veri kaynağı iletisi alırsanız bu aşağıdaki anlamlara gelebilir: 
 
-* Power BI'da veri kaynağı yenileme işlemi o anda desteklenmiyordur. 
-* Excel çalışma kitabı bir veri modelini değil, yalnızca çalışma sayfası verilerini içeriyordur. Power BI şu anda yalnızca, karşıya yüklenen Excel çalışma kitabının bir veri modeli içermesi halinde yenilemeyi destekler. Verileri Excel'deki Power Query ile içeri aktarıyorsanız veri modeline veri Yükle seçeneğini belirlediğinizden emin olun. Böylece veriler bir veri modeline aktarılır. 
+* Veri kaynağı, Power bı'da yenileme için şu anda desteklenmemektedir. 
+* Excel çalışma kitabını bir veri modeli, yalnızca çalışma sayfası verilerini içermiyor. Power BI şu anda yalnızca, karşıya yüklenen Excel çalışma kitabının bir veri modeli içermesi halinde yenilemeyi destekler. Verileri Excel'deki Power Query ile içeri aktarıyorsanız veri modeline veri Yükle seçeneğini belirlediğinizden emin olun. Bu seçenek verileri veri modeline aktarılır. 
 
-**Hata: [Veriler birleştirilemiyor] &lt;sorgu parçası&gt;/&lt;…&gt;/&lt;…&gt;, birlikte kullanılamayan gizlilik düzeylerine sahip veri kaynaklarına erişiyor. Lütfen bu veri birleşimini yeniden oluşturun.**
+**Hata: [veriler birleştirilemiyor oluşturulamıyor] &lt;sorgu parçası&gt;/&lt;... &gt; / &lt;... &gt; birlikte kullanılamayan gizlilik düzeylerine sahip veri kaynaklarına erişiyor. Lütfen bu veri birleşimini yeniden oluşturun.**
 
-**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır.
+**Çözüm**: Bu gizlilik düzeyi sınırlamalarıdır ve kullanmakta olduğunuz veri kaynaklarının türleri nedeniyle hatasıdır.
 
 **Hata: Veri kaynağı hatası: "\[Table\]"değerini Table türüne dönüştüremiyoruz.**
 
-**Çözüm**: Bu hatanın nedeni, kullandığınız veri kaynaklarının türleri ve gizlilik düzeyi sınırlamalarıdır.
+**Çözüm**: Bu gizlilik düzeyi sınırlamalarıdır ve kullanmakta olduğunuz veri kaynaklarının türleri nedeniyle hatasıdır.
 
 **Hata: Bu satır için yeterli alan yok.**
 
-Satırlarınızdan birinin boyutu 4 MB'tan fazlaysa bu hatayla karşılaşırsınız. Veri kaynağınızdan hangi satır olduğunu belirlemeniz ve bu satırı filtrelemeyi ya da satırın boyutunu azaltmayı denemeniz gerekir.
+Boyutu 4 MB'tan büyük tek bir satır varsa, bu hata oluşur. Veri kaynağınızdaki satırını bulun ve filtrelemeniz veya satır boyutunu azaltmak çalışır.
 
 ## <a name="data-sources"></a>Veri kaynakları
-**Eksik veri sağlayıcısı**: Kişisel ağ geçidi yalnızca 64 bit sürümlerde kullanılabilir. Kişisel ağ geçidinin yüklendiği bilgisayarda veri sağlayıcılarının 64 bit sürümünün yüklü olması gerekir. Örneğin, veri kümesindeki veri kaynağı Microsoft Access ise kişisel ağ geçidini yüklediğiniz bilgisayara 64 bit ACE sağlayıcısını yüklemeniz gerekir.  
+**Eksik veri sağlayıcısı** – kişisel ağ geçidi yalnızca 64 bit sürümü olan. Kişisel ağ geçidinin yüklendiği bilgisayarda veri sağlayıcılarının 64 bit sürümünün yüklü olması gerekir. Örneğin, veri kümesindeki veri kaynağı Microsoft Access ise kişisel ağ geçidini yüklediğiniz bilgisayara 64 bit ACE sağlayıcısını yüklemeniz gerekir.  
 
 >[!NOTE]
->Excel 32 bit sürümüne sahipseniz aynı bilgisayara 64 bit bir ACE sağlayıcısı yükleyemezsiniz.
+>Excel 32 bit sürümü varsa, aynı bilgisayara 64 bit sürümü ACE sağlayıcısı yükleyemezsiniz.
 
 **Access veritabanı için Windows kimlik doğrulamasının desteklenmemesi**: Power BI, Access veritabanı için şu anda yalnızca anonim kimlik doğrulamasını destekliyor. Access veritabanı için Windows kimlik doğrulamasını etkinleştirmeye çalışıyoruz.
 
-**Bir veri kaynağı için kimlik bilgileri girildiğinde karşılaşılan oturum açma hatası**: Bir veri kaynağı için Windows kimlik bilgilerini girdiğinizde buna benzer bir hata alırsanız kişisel ağ geçidinin daha eski bir sürümünü kullanıyor olabilirsiniz. [Power BI Gateway - Personal'ın en son sürümünü yükleyin](https://powerbi.microsoft.com/gateway/).
+**Bir veri kaynağı için kimlik bilgileri girerken hata oturum** -veri kaynağı için Windows kimlik bilgileri girerken bunun gibi bir hata alırsanız kişisel ağ geçidinin daha eski bir sürümünü yine de olabilir. [Power BI Gateway - Personal'ın en son sürümünü yükleyin](https://powerbi.microsoft.com/gateway/).
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
@@ -95,49 +95,49 @@ Satırlarınızdan birinin boyutu 4 MB'tan fazlaysa bu hatayla karşılaşırsı
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/aceoledberror.png)
 
-Power BI şu anda ACE OLEDB sağlayıcısı kullanılan veri kaynakları için Windows kimlik doğrulamasını desteklememektedir.
+Power BI, şu anda ACE OLEDB Sağlayıcısı kullanılan bir veri kaynağı için Windows kimlik doğrulamasını desteklememektedir.
 
-**Çözüm:** Geçici çözüm olarak, Anonim kimlik doğrulamasını seçebilirsiniz. Eski ACE OLEDB sağlayıcısı için Anonim kimlik bilgileri, Windows kimlik bilgileri ile eşdeğerdir.
+**Çözüm:** Bu hatayı çözmek için seçebileceğiniz **anonim kimlik doğrulaması**. Eski ACE OLEDB Sağlayıcısı için anonim kimlik bilgileri için Windows kimlik bilgileri eşit.
 
 ## <a name="tile-refresh"></a>Kutucuk yenileme
-Pano kutucuklarını yenileme ile ilgili bir hata alırsanız lütfen aşağıdaki makaleye başvurun.
+Pano kutucuklarını yenileme ile ilgili bir hata sonucu aldığınızı, aşağıdaki makaleye bakın.
 
 [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md)
 
 ## <a name="tools-for-troubleshooting"></a>Sorun giderme araçları
-### <a name="refresh-history"></a>Geçmişi Yenile
-**Geçmişi yenile**, meydana gelen hataları görmenizi sağlamanın yanı sıra bir destek isteği oluşturmanız gerektiğinde de size faydalı veriler sunabilir. Hem zamanlanmış yenilemeleri hem de isteğe bağlı yenilemeleri görüntüleyebilirsiniz. **Yenileme Geçmişi**'ne ulaşmak için aşağıdaki adımları uygulayın.
+### <a name="refresh-history"></a>Yenileme Geçmişi
+**Yenileme geçmişi** hangi hata oluştu. görmenize yardımcı olur ve bir destek isteği oluşturmak ihtiyacınız varsa yararlı verileri sağlar. Hem zamanlanmış ve isteğe bağlı yenilemeleri görüntüleyebilirsiniz. İşte için nereden **yenileme geçmişi**.
 
 1. Power BI gezinti bölmesindeki **Veri Kümeleri** bölümünde bir veri kümesi seçin ve ardından&gt; Menüyü Aç &gt; **Yenilemeyi Zamanla** seçeneğini belirleyin.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. **Ayarlar: ...** &gt; **Yenilemeyi Zamanla** bölümündeki **Geçmişi yenile** seçeneğini belirleyin.  
+1. İçinde **ayarları...** seçin **yenileme geçmişi**.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>Olay günlükleri
-Bilgi sağlayabilecek çeşitli olay günlükleri vardır. İlk ikisi, **Veri Yönetimi Ağ Geçidi** ile **PowerBIGateway**'dir ve bunlar, makinede yönetici rolünde olmanız halinde sunulur.  Yönetici değilseniz ve Personal Gateway kullanıyorsanız günlük girişlerini **Uygulama** günlüğü içinde görürsünüz.
+Çeşitli olay günlükleri, bilgi sağlayabilir. İlk iki **veri yönetimi ağ geçidi** ve **Powerbıgateway**, makinede yönetici olduğunuz halinde sunulur.  Yönetici değilseniz ve Personal Gateway kullanıyorsanız günlük girişlerini içinde görürsünüz **uygulama** günlük.
 
 **Veri Yönetimi Ağ Geçidi** ve **PowerBIGateway** günlükleri **Uygulama ve Hizmet Günlükleri** altındadır.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler ile izleme
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izlemeyi sağlayan ücretsiz bir araçtır.  İstemci makinesinden Power BI hizmetindeki gelen ve giden trafiği görebilirsiniz. Bu sayede hataları ve diğer ilgili bilgileri görüntüleyebilirsiniz.
+[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır. İstemci makinesinden Power BI hizmeti ile iletişimi görebilirsiniz. Bu iletişim, hataları ve diğer ilgili bilgileri gösterebilir.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
 <a name="SetupLogs"></a>
 
 ### <a name="setup-logs"></a>Kurulum Günlükleri
-**Personal Gateway** yüklenemiyorsa kurulum günlüğünü görüntülemeye yönelik bir bağlantı görürsünüz. Hata ile ilgili ayrıntılar bu bağlantıda gösterilebilir. Bunlar, aynı zamanda MSI günlükleri olarak da bilinen Windows Yüklemesi günlükleridir. Oldukça karmaşık olabilen bu günlükleri okumakta zorlanabilirsiniz. Oluşan hata genellikle altta verilir ancak hatanın nedenini belirlemek basit değildir. Bu, farklı bir günlükteki hataların sonucu olabileceği gibi günlükte daha üst kısımlarda belirtilen bir hatadan da kaynaklanıyor olabilir.
+Varsa **kişisel ağ geçidinin**, yüklenemiyorsa Kurulum günlüğünü görüntülemeye yönelik bir bağlantı görürsünüz. Kurulum günlüğüne hatasıyla ilgili ayrıntı gösterebilirsiniz. Bu günlüklerin Windows yükleme günlükleri, MSI günlükleri olarak da bilinir. Oldukça karmaşık olabilen bu günlükleri okumakta zorlanabilirsiniz. Genellikle, altındaki sonuç hatadır, ancak hatanın nedenini belirlemek basit değildir. Bu, farklı bir günlükteki hataların sonucu olabileceği gibi günlükte daha üst kısımlarda belirtilen bir hatadan da kaynaklanıyor olabilir.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/setup-log.png)
 
-Alternatif olarak, **Geçici klasör** (%temp%) yolunuza gidip **Power\_BI\_** ile başlayan dosyaları arayabilirsiniz.
+Ya da gidebilirsiniz, **Temp klasörü** (% temp %) ile başlayan dosyaları arayın **güç\_BI\_**.
 
 > [!NOTE]
-> %temp% klasörüne gitmek, sizi geçici klasörün bir alt klasöre götürebilir.  **Power\_BI\_** dosyaları, geçici klasör dizininin kökündedir.  Bir veya iki düzey üstteki klasöre erişmeniz gerekebilir.
+> %temp% klasörüne gitmek, sizi geçici klasörün bir alt klasöre götürebilir. **Güç\_BI\_**  geçici dizin kökündeki dosyalarıdır.  Bir veya iki düzey üstteki klasöre erişmeniz gerekebilir.
 > 
 > 
 
