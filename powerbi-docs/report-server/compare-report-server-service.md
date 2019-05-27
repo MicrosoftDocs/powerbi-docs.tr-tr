@@ -2,20 +2,20 @@
 title: Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 description: Bu makalede Power BI Rapor Sunucusu ile Power BI hizmetinin özellikleri karşılaştırılmaktadır.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327930"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187692"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -38,7 +38,7 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Uygulamaları kullanarak rapor grupları dağıtma | Hayır | Evet | [Panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama](../service-create-distribute-apps.md) |
 | İçerik paketleri | Hayır | Evet | [Kurumsal içerik paketleri: Giriş](../service-organizational-content-pack-introduction.md) |
 | Salesforce gibi hizmetlere bağlanma | Evet | Evet | Power BI hizmetindeki içerik paketleriyle [kullandığınız hizmetlere bağlanma](../service-connect-to-services.md). Power BI Rapor Sunucusu'nda hizmetlere bağlanmak için sertifikalı bağlayıcıları kullanabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları](data-sources.md). |
-| Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../consumer/end-user-q-and-a.md) 
+| Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../power-bi-tutorial-q-and-a.md) 
 | Hızlı içgörüler | Hayır | Evet | [Power BI ile otomatik olarak veri içgörüleri oluşturma](../consumer/end-user-insights.md) |
 | Excel'de Analiz Et | Hayır | Evet | [Excel'de Çözümle](../service-analyze-in-excel.md) 
 | Sayfalandırılmış raporlar | Evet | Evet | [Power BI hizmetinde sayfalandırılmış raporlar şu anda](../paginated-reports-report-builder-power-bi.md) Premium kapasitede önizleme aşamasındadır |

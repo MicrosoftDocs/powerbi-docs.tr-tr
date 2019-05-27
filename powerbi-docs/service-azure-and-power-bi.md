@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/26/2018
+ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430890"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513319"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 

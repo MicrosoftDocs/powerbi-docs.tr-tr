@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280134"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608274"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: ***Tüketiciler*** için Power BI özellikleri hakkında bilgi edinin
 Bu hızlı başlangıçta Power BI ile etkileşim kurarak veri temelli iş içgörülerini keşfetmeyi öğreneceksiniz. Bu makalede ayrıntılı bilgiler yerine Power BI **tüketicileri** için sunulan eylemlerin bazılarıyla ilgili kısa bilgiler verilmektedir.
 
 Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Önkoşullar
-- Power BI hizmeti (app.powerbi.com) <!-- app from AppSource -->
+- Power BI hizmeti (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>Okuma görünümü
 Okuma görünümü, rapor *tüketicileri* için Power BI hizmetinde kullanılabilir. Okuma görünümü, iş arkadaşlarınızın sizinle paylaştığı raporları keşfetmek ve etkileşim kurmak için kullanabileceğiniz görünümdür. 
@@ -185,7 +186,7 @@ Power BI görselleştirmeleri, bağlı veri kümelerindeki veriler kullanılarak
 1. Power BI hizmetinde bir raporu açıp içinden bir görsel seçin.  
 2. Görselde kullanılan verileri görüntülemek için üç noktayı (...) ve ardından **Verileri göster**'i seçin.
    
-   ![Verileri Göster’i seçme](./media/end-user-show-data/power-bi-show-data2.png)
+   ![Verileri Göster’i seçme](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 Bu hızlı başlangıç, **tüketicilerin** Power BI hizmeti ile gerçekleştirebileceği işlemlere hızlı bir genel bakış niteliğindedir.  
 

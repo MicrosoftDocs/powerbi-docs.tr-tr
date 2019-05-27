@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 86432033359b24dbae81f9ff5ec1bceb3ea1a2e6
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296735"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514843"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI hizmetindeki R paketleri
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -400,7 +400,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |intervals| 0.15.1| https://cran.r-project.org/web/packages/intervals/index.html |
 |ipred| 0.9-6| https://cran.r-project.org/web/packages/ipred/index.html |
 |irlba| 2.2.1| https://cran.r-project.org/web/packages/irlba/index.html |
-|irr|0.84| https://cran.r-project.org/web/packages/irr/index.html |
+|irr|0,84| https://cran.r-project.org/web/packages/irr/index.html |
 |iterators| 1.0.8| https://cran.r-project.org/web/packages/iterators/index.html |
 |iterators| 1.0.8| https://cran.r-project.org/web/packages/iterators/index.html |
 |janeaustenr| 0.1.5| https://cran.r-project.org/web/packages/janeaustenr/index.html |

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cbf0550c12fad37af528622b35584898b3a697f4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eeb8431f3f4e5fff15bb1eb2984826c73826b34
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282345"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65511927"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Power BI için dosyalardan veri alma
 ![](media/service-get-data-from-files/file_icons.png)
