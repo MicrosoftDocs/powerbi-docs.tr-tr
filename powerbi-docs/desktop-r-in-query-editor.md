@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 57f95a35ff12d546d4fd03202d14212e0df9c78e
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249011"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513635"
 ---
 # <a name="using-r-in-query-editor"></a>Sorgu Düzenleyicisi'nde R programlama dilini kullanma
 İstatistik uzmanları, veri bilimciler ve veri analistleri tarafından yaygın olarak kullanılan bir programlama dili olan **R**, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanılabilir. R programlama dilinin bu şekilde **Sorgu Düzenleyicisi** ile tümleştirilmesi, R kullanarak verileri temizlemenin yanı sıra eksik verilerin tamamlanması, tahminler ve kümeleme gibi gelişmiş veri şekillendirme ve analiz işlemleri gerçekleştirmenize olanak sağlar. **R** güçlü bir dildir ve bu dili veri modelinizi hazırlamanın yanı sıra raporlar oluşturmak için **Sorgu Düzenleyicisi**'nde kullanabilirsiniz.

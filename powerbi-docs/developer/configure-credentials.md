@@ -1,20 +1,20 @@
 ---
 title: Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 description: Kimlik bilgilerini otomasyon amacıyla Power BI için programlama yoluyla yapılandırma
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380201"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 
@@ -54,7 +54,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Süresi dolmuş şirket içi veri kaynağı kimlik bilgileri akışı
 
-1. [Önceki senaryoda yer alan 1. ve 2. adımları izleyin](#configure-credential-flow-for-data-sources).
+1. [Önceki senaryoda yer alan 1. ve 2. adımları izleyin](#configure-a-credential-flow-for-data-sources).
 
 2. Ağ geçidi ortak anahtarını almak için [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
 

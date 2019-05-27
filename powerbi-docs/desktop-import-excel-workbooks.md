@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4a9fa542780beafdbb5313e9de5a4875a3f39cb8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1b6b74682f1c74ab78f27be857dbec42efa29347
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274824"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454185"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop'a Excel çalışma kitabı aktarma
 **Power BI Desktop**’ı kullanarak, Power Query sorguları, Power Pivot modelleri ve Power View çalışma sayfaları içeren Excel çalışma kitaplarını, Power BI Desktop’a kolayca aktarabilirsiniz. Raporlar ve görselleştirmeler, Excel çalışma kitabı temel alınarak otomatik olarak oluşturulur ve içeri aktarma işlemini gerçekleştirdikten sonra Power BI Desktop'ı kullanarak, hem var olan özellikler hem de her bir Power BI Desktop aylık güncelleştirmesi ile sunulan yeni özellikler sayesinde bu raporları geliştirmeye ve iyileştirmeye devam edebilirsiniz.

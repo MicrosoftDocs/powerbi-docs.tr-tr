@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282598"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513709"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmak için hazırlanmıştır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi ve öğrendiklerinizi sınamaya yönelik birkaç testi inceleyeceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -93,7 +93,7 @@ Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını a�
    
 4. **CALCULATE** işlevi için, açma parantezinden **(** sonra **SUM** yazın ve daha sonra başka bir açma parantezi **(** daha yazın. Şimdi SUM işlevine bir bağımsız değişken iletmemiz gerek.
 
-5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount] **'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
+5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount]** 'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
     
 6. Birinci filtreyi belirtmek için virgül (**,**) yazın, daha sonra bir boşluk bırakın ve ardından **PREVIOUSQUARTER** yazın. Bu, filtremiz olacaktır.
     

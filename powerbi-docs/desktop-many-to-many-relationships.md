@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225972"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941445"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop’ta çoka çok kardinalitesine sahip ilişkiler
 
@@ -25,7 +25,7 @@ Power BI Desktop'daki *çoka çok kardinalitesine sahip ilişkiler* özelliğiyl
 
 Power BI Desktop'taki *çoka çok kardinalitesine sahip ilişkiler* özelliği, birbiriyle ilişkili üç özellikten biridir:
 
-* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md).
+* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller](desktop-composite-models.md).
 
 * **Çoka çok kardinalitesine sahip ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka çok kardinalitesine sahip ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Bu özellik bu makalede ayrıntılı olarak açıklanmaktadır.
 
@@ -157,7 +157,7 @@ Söz konusu çok boyutlu kaynaklara DirectQuery kullanarak bağlandığınızda,
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
-* [Power BI Desktop’ta bileşik modeller (önizleme)](desktop-composite-models.md)
+* [Power BI Desktop’taki bileşik modeller](desktop-composite-models.md)
 * [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md)
 * [Power BI Desktop'ta DirectQuery'yi kullanma](desktop-directquery-about.md)
 * [Power BI Desktop'ta da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)

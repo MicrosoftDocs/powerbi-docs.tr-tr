@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2835dd34ce5ba2d7bc6be8659b87eb1f550fdc28
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285681"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514583"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme
 

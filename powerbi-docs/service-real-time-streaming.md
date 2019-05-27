@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296513"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514315"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -138,7 +138,7 @@ Bu sayfada, önceden oluşturduğunuz bir akış veri kümesinin bulunması hali
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
-** + ** simgesine tıkladığınızda, iki seçenek görürsünüz:
+**+** simgesine tıkladığınızda, iki seçenek görürsünüz:
 
 ![](media/service-real-time-streaming/real-time-streaming_4a.png)
 

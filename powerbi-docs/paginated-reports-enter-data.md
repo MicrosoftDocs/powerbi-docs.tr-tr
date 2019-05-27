@@ -1,7 +1,7 @@
 ---
 title: Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
 description: Bu makalede, Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış rapora nasıl girebileceğiniz gösterilir.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424546"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme) - Power BI
 
@@ -23,7 +23,7 @@ Bu makalede, SQL Server 2016 Rapor Oluşturucusu'nun yeni sürümünde sağlanan
 ## <a name="prerequisites"></a>Önkoşullar
 
 - Verileri doğrudan sayfalandırılmış rapora girmek için, [Microsoft İndirme Merkezi'nden Rapor Oluşturucusu](https://www.microsoft.com/download/details.aspx?id=53613)'nun yeni sürümünü yükleyin. 
-- Sayfalandırılmış raporunuzu Power BI hizmetine kaydetmek için, [Power BI Pro hesabınız](service-self-service-signup-for-power-bi.md) ve [Power BI Premium kapasitesindeki](service-premium.md) bir çalışma alanına yazma erişiminiz olmalıdır.
+- Sayfalandırılmış raporunuzu Power BI hizmetine kaydetmek için, [Power BI Pro hesabınız](service-self-service-signup-for-power-bi.md) ve [Power BI Premium kapasitesindeki](service-premium-what-is.md) bir çalışma alanına yazma erişiminiz olmalıdır.
 - Sayfalandırılmış raporunuzu bir rapor sunucusuna kaydetmek için, [RsReportServer.config dosyasını düzenleme](#upload-the-paginated-report-to-a-report-server) izinleriniz olmalıdır.
 
 ## <a name="get-started"></a>Başlangıç

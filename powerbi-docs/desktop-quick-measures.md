@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a436a276a68b2cade6a1622a54590bc379cebd8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283472"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513983"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Sık kullanılan ve etkili hesaplamaları kolayca gerçekleştirmek için Hızlı ölçümler özelliğini kullanma
 **Hızlı ölçümler** özelliğini kullanarak kolayca sık kullanılan, etkili hesaplamalar gerçekleştirebilirsiniz. **Hızlı ölçüm**, bir iletişim kutusunda sağladığınız girişe dayalı olarak arka planda bir dizi DAX komutu çalıştırır (DAX komutunu yazmanız gerekmez, komut sizin için yazılır) ve ardından raporunuzda kullanacağınız sonuçlar sunar. Üstelik Hızlı ölçüm tarafından yürütülen DAX’ı görebilir ve kendi DAX bilginizi hemen kullanmaya başlayabilir veya genişletebilirsiniz.

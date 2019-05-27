@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ffa49cc65c28e0fafb8ca72cb7a1a5bbde798861
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216344"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239475"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanan tabloları kullanma
 Hesaplanan tabloları kullanarak modele yeni bir tablo ekleyebilirsiniz. Ancak, bir veri kaynağından yeni tablonuzun sütunlarına değer sorgulamak ve yüklemek yerine tablonun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanan tabloları oluşturmak için Rapor Görünümü veya Veri Görünümündeki Yeni Tablo özelliğini kullanabilirsiniz.

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3f42a4533ded3f141d615d6f06a1f892a84be08
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7749953d8a913c25000c282234b3215d1741e129
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281126"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514268"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Power BI Desktop'ta OData akışlarına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **OData akışına** bağlanabilir ve temel alınan verileri kullanabilirsiniz.

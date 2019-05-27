@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223962"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514514"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 

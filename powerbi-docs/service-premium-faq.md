@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium hakkında SSS
 description: Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383349"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565375"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
-Bu makalede Power BI Premium hakkında sık sorulan sorular ele alınmıştır. Genel bakış için bkz. [Power BI Premium nedir?](service-premium.md).
+Bu makalede Power BI Premium hakkında sık sorulan sorular ele alınmıştır. Genel bakış için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
 
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
@@ -84,7 +84,7 @@ Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](
 
 **Sonraki adımlar**
 
-[Power BI Premium nedir?](service-premium.md)
+[Power BI Premium nedir?](service-premium-what-is.md)
 [Power BI Premium sürüm notları](service-premium-release-notes.md)
 [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)

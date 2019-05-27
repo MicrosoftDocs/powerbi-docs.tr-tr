@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279861"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051150"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
 
@@ -42,7 +42,7 @@ Tüm kullanıcılar belirli bir rapora her gün aynı anda erişiyorsa ağ geçi
 ### <a name="connection-type"></a>Bağlantı türü
 **Power BI** iki tür bağlantı sunar: **DirectQuery** ve **İçeri Aktarma**. Tüm veri kaynakları her iki bağlantı türünü de desteklemeyebilir ve güvenlik gereksinimleri, performans, veri sınırları ve veri modeli boyutları gibi birçok nedenden, biri diğerine tercih edilebilir. [Şirket içi veri ağ geçidi makalesindeki](service-gateway-onprem.md) *kullanılabilir veri kaynağı türlerinin listesi* bölümünde, bağlantı türü ve desteklenen veri kaynakları ile ilgili daha fazla bilgiye ulaşabilirsiniz.
 
-Ağ geçidi kullanımı, kullanılmakta olan bağlantı türüne göre değişiklik gösterebilir. Örneğin, mümkün olduğunda **DirectQuery** veri kaynaklarını **Zamanlanmış Yenileme** veri kaynaklarından ayırmanız gerekir (veri kaynaklarının farklı raporlarda olduğu ve ayrılabileceği varsayılmıştır). Bunu gerçekleştirerek, tam da şirketin ana panosu için kullanılan büyük boyutlu bir veri modeli için sabah gerçekleştirilecek zamanlanmış yenilemeyle aynı sırada, ağ geçidinde binlerce DirectQuery isteğinin birikmesinin önüne geçersiniz. Her biri için şu noktaları aklınızda bulundurmanız gerekir:
+Bağlantı türü kullanıldığına bağlı olarak, ağ geçidi kullanımına farklı olabilir. Örneğin, mümkün olduğunda **DirectQuery** veri kaynaklarını **Zamanlanmış Yenileme** veri kaynaklarından ayırmanız gerekir (veri kaynaklarının farklı raporlarda olduğu ve ayrılabileceği varsayılmıştır). Bunun yapılması, binlerce sahip ağ geçidinin engeller **DirectQuery** sabah şirketin ana panosu için kullanılan büyük boyutlu bir veri modeli, zamanlanmış yenileme ile aynı zamanda, istekler kuyruğa. Her biri için şu noktaları aklınızda bulundurmanız gerekir:
 
 * **Zamanlanmış yenileme** için: Sorgunuzun boyutuna ve günlük olarak gerçekleşen yenileme sayısına bağlı olarak, önerilen minimum donanım gereksinimlerini aşmama veya daha yüksek performans gösteren bir makineye yükseltme arasında seçim yapabilirsiniz. Belirli bir sorgu katlanmış değilse ağ geçidi makinesinde dönüştürme işlemleri gerçekleştirilir, böylece ağ geçidi makinesi, kullanılabilir daha fazla RAM'den yararlanır.
 * **DirectQuery** için: Herhangi bir kullanıcı raporu her açtığında veya verilere göz attığında bir sorgu gönderilir. Bu nedenle, 1.000'den fazla kullanıcının aynı anda verilere erişeceğini öngörüyorsanız bilgisayarınızın güçlü ve nitelikli donanım bileşenlerinden oluştuğundan emin olmak istersiniz. Daha fazla CPU çekirdeği, **DirectQuery** bağlantısı için daha iyi bir performans elde edilmesini sağlar.

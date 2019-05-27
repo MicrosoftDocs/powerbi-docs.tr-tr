@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275560"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625069"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 
@@ -78,7 +78,7 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, başlamadan önce [Per
     ![eşleşen görselin vurgulandığı rapor sayfası](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Kutucuk eğer [Power BI Soru-Cevap](consumer/end-user-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı. Kutucuk [Excel'den sabitlenmişse](service-dashboard-pin-tile-from-excel.md), Power BI içinde Excel Online açılır.
+   > Kutucuk eğer [Power BI Soru-Cevap](power-bi-tutorial-q-and-a.md) kullanılarak oluşturulsaydı bunun yerine Soru-Cevap sayfası açılırdı. Kutucuk [Excel'den sabitlenmişse](service-dashboard-pin-tile-from-excel.md), Power BI içinde Excel Online açılır.
    > 
    > 
 1. **Veri Kümeleri** sekmenizde, veri kümenizi araştırmanıza yönelik çeşitli seçenekleriniz vardır.  Açıp tüm satırları ve sütunları (Power BI Desktop veya Excel'de görebildiğiniz gibi) görmeniz mümkün olmayacaktır.  Birisi iş arkadaşlarıyla bir içerik paketi paylaştığında, normalde sadece öngörüleri paylaşmak isterler, iş arkadaşlarına doğrudan veriye erişim vermek istemezler. Ancak bu, veri kümesini araştıramayacağınız anlamına gelmez.  
@@ -129,11 +129,9 @@ Desktop’ta örnek PBIX dosyasını ilk kez açtığınızda, Power BI aslında
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI temel kavramları](consumer/end-user-basic-concepts.md)
 
-[Power BI hizmeti için örnekler](sample-datasets.md)
-
-[Power BI için veri kaynakları](service-get-data.md)
+- [Power BI temel kavramları](consumer/end-user-basic-concepts.md)
+- [Power BI hizmeti için örnekler](sample-datasets.md)
+- [Power BI için veri kaynakları](service-get-data.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430404"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051557"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -46,7 +46,7 @@ Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümes
 
 ![WFE ve Arka Uç](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI hesap kimliği doğrulaması ve yönetimi için Azure Active Directory (**AAD**) kullanır. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI, statik içeriği ve dosyaları coğrafi yerel ayara göre kullanıcılara verimli bir şekilde dağıtmak için **Azure Content Delivery Network** (CDN) hizmetini kullanır.
+Power BI hesap kimliği doğrulaması ve yönetimi için Azure Active Directory (**AAD**) kullanır. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI gerekli statik içeriği ve dosyaları kullanılarak teslim edilir özel görsel hariç olmak üzere kullanıcılara verimli bir şekilde dağıtmak için coğrafi olarak yakın WFE kullanır **Azure içerik teslim ağı (CDN)**.
 
 ### <a name="the-wfe-cluster"></a>WFE Kümesi
 
@@ -231,7 +231,7 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
 
     b. ETL: Azure Blob depolama alanında şifrelenir ancak şu anda Power BI hizmetinin Azure Blob depolama alanında yer alan tüm veriler sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır.
 
-    c. Veri gönderimi v1: Azure Blob depolama alanında şifrelenmiş olarak depolanır ama şu anda Power BI hizmetinin Azure Blob depolama alanında yer alan tüm veriler sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır.
+    c. Veri gönderimi v1: Azure Blob depolama alanında şifrelenmiş olarak depolanır ama şu anda Power BI hizmetinin Azure Blob depolama alanında yer alan tüm veriler sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır. Anında iletme veri v1 kullanımdan 2016'den itibaren. 
 
     d. Veri gönderimi v2: Azure SQL’de şifrelenmiş olarak depolanır.
 
@@ -248,22 +248,24 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 1. Meta veriler (rapor tanımı)
 
    a. Raporlar Office 365 için Excel raporları veya Power BI raporları olabilir. Aşağıdakiler, raporun türüne göre meta veriler için geçerlidir:
+        
+    &ensp; &ensp; bir. Excel raporu meta verileri, SQL Azure şifrelenmiş olarak depolanır. Meta veriler, ayrıca Office 365'te depolanır.
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b. Power BI raporları, Azure SQL veritabanında şifrelenmiş olarak depolanır.
 
 2. Statik veriler
 
    Statik veriler arka plan resimleri ve özel görseller gibi yapıtları içerir.
 
-    a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey depolanmaz.
+    &ensp; &ensp; bir. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey depolanmaz.
 
-    b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
+    &ensp; &ensp; b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
 
-3. Önbellekler a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
+3. Önbellekler
 
-    b. Power BI raporları söz konusu olduğunda, gösterilen görsellerin verileri Azure SQL Veritabanında şifrelenmiş olarak önbelleğe alınır.
+    &ensp; &ensp; bir. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
+
+    &ensp; &ensp; b. Power BI raporları söz konusu olduğunda, gösterilen görsellerin verileri Azure SQL Veritabanında şifrelenmiş olarak önbelleğe alınır.
  
 
 4. Özgün Power BI Desktop (.pbix) veya Excel (.xlsx) dosyaları Power BI’da yayımlanır
@@ -280,7 +282,7 @@ Microsoft, kullanılan şifreleme yöntemi ne olursa olsun anahtar şifrelemeyi 
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Geçici Olmayan Cihazlarda Geçici Olarak Depolanan Veriler
 
-Aşağıda geçici olmayan cihazlarda geçici bir süre depolanan veriler açıklanır.
+Geçici olmayan cihazlara sahip sabit power kalıcı bellek cihazlardır. Aşağıda geçici olmayan cihazlarda geçici bir süre depolanan veriler açıklanır. 
 
 #### <a name="datasets"></a>Veri kümeleri
 
@@ -293,6 +295,9 @@ Aşağıda geçici olmayan cihazlarda geçici bir süre depolanan veriler açık
     a. Analysis Services şirket içi: Hiçbir şey depolanmaz
 
     b. DirectQuery: Bu, modelin doğrudan hizmette oluşturulup oluşturulmadığına göre değişir. Hizmette oluşturuluyorsa şifrelenmiş biçimde bağlantı dizesinde depolanır ve yine burada düz metin olarak şifreleme anahtarı da bulunur. Model, Power BI Desktop’tan içeri aktarılıyorsa geçici olmayan cihazlarda kimlik bilgileri depolanmaz.
+
+    > [!NOTE]
+    > Hizmet tarafı modeli oluşturma özelliği kullanımdan 2017'den itibaren.
 
     c. Gönderilen veriler: Yok (geçerli değil)
 
@@ -311,7 +316,7 @@ Power BI işlemdeki verilerin veri bütünlüğünü izlemek için HTTPS, TCP/IP
 
 ## <a name="user-authentication-to-data-sources"></a>Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması
 
-Her veri kaynağıyla birlikte kullanıcı oturum açma bilgileri temelinde bir bağlantı kurar ve verilere bu kimlik bilgileriyle erişir. Kullanıcılar temel alınan verilere dayalı sorgular, panolar ve raporlar oluşturabilir.
+Her veri kaynağı ile bir kullanıcı kendi oturumuna dayanarak bir bağlantı kurar ve bu kimlik bilgileriyle veri erişir. Kullanıcılar temel alınan verilere dayalı sorgular, panolar ve raporlar oluşturabilir.
 
 Kullanıcı sorguları, panoları, raporları veya herhangi bir görselleştirmeyi paylaştığında bu verilere ve görselleştirmelere erişim, temel alınan veri kaynaklarının Rol Düzeyi Güvenlik (RLS) desteği olup olmamasına bağlıdır.
 
@@ -452,6 +457,12 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 * Evet. Bing Haritalar ve ESRI görselleri, bu hizmetleri kullanan görseller için Power BI hizmetinin dışına veri iletir. Daha fazla bilgi edinmek ve Power BI dışı kiracı trafiğinin ayrıntılı açıklamalarını görmek için bkz. [**Power BI ve ExpressRoute**](service-admin-power-bi-expressroute.md).
 
+**Şablon uygulamalar için Microsoft herhangi bir güvenlik veya gizlilik değerlendirmesi için galeri öğeleri yayımlamadan önce şablon uygulama gerçekleştirir?**
+* Hayır. Uygulama yayımcısı, içeriği gözden geçirin ve şablon uygulama yayınlayıcısına güveniyorsanız verilip verilmeyeceğine karar vermek için müşteri sorumluluk sorumludur. 
+
+**Müşteri ağ dışında bilgi gönderebilir şablon uygulamalar var mı?**
+* Evet. Bu yayımcının gizlilik ilkelerini gözden geçirmek ve şablon uygulaması Kiracıda yüklenip yüklenmeyeceğini belirlemek müşterinin sorumluluğundadır. Ayrıca, yayımcı uygulamanın davranışı ve özellikleri bildirmek için sorumludur.
+
 **Veri hakimiyeti hakkında ne söylenebilir? Verilerin ülke sınırlarından çıkmadığından emin olmak için belirli coğrafi bölgelerde yer alan veri merkezlerinde kiracılar sağlayabilir miyiz?**
 
 * Belirli coğrafi bölgelerdeki müşterilerin bir bölümü ulusal bulutta kiracı oluşturma seçeneğine sahiptir. Bu bulutta veri depolama ile işleme diğer tüm veri merkezlerinden ayrı tutulur. Ulusal bulut Power BI hizmetini Microsoft adına ayrı bir veri şirketi çalıştırdığından, ulusal bulutların güvenlik türü biraz farklıdır.
@@ -481,7 +492,7 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 - [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Şirket içi veri ağ geçidi](service-gateway-manage.md)
+- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-manage.md)
 - [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

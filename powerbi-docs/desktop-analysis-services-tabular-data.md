@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cdf8613159aa729d7d5b9c9096364e19c48a494e
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 996a65bd001626fd184ac98ee76dc61c22922707
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215125"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239974"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.

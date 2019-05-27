@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3337efa6bf7c1f3eafe389d28f083df377543bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279953"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514728"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta R betikleri çalıştırın
 **Power BI Desktop**'ta R betiklerini doğrudan çalıştırabilir ve elde edilen veri kümelerini bir Power BI Desktop veri modeline aktarabilirsiniz.
