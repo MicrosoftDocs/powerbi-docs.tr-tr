@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b97d2b44e6751f9185b02afc61ca89296fbbd5cf
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661641"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608291"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar
 Power BI şu tarayıcılarda çalıştırılabilir:
@@ -30,7 +30,6 @@ Power BI şu tarayıcılarda çalıştırılabilir:
 Bu tarayıcılar kullanılabildikleri tüm platformlarda desteklenir.
 
 ### <a name="next-steps"></a>Sonraki adımlar
-* [Power BI nedir?](../power-bi-overview.md)
 * [Power BI Topluluğu](http://community.powerbi.com/)'na sorun
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin
 
