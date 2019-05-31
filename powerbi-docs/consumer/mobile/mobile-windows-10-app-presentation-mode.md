@@ -9,17 +9,17 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274847"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338272"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. 
 
-![Tam ekran modundaki rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
+![Tam ekran modundaki rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 Sunu modu Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır. 
 
@@ -36,19 +36,20 @@ Ayrıca web üzerindeki [Power BI hizmetindeki panoları ve raporları tam ekran
 Power BI mobil uygulamasında, **Tam ekran** simgesine dokunarak tam ekran moduna geçin.
 ![Tam ekran simgesi](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) Uygulamanın grafik öğeleri görüntüden kaldırılır ve ekranın alt kısmında veya sağ ve sol kenarlarında (ekranınızın boyutuna bağlı olarak) bir araç çubuğu gösterilir.
 
-![Kenar araç çubuklarıyla tam ekran modunda rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
+![Kenar araç çubuklarıyla tam ekran modunda rapor](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 Araç çubuğundan aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
 1. Önceki sayfanıza gitmek için geri simgesine ![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) dokunun. Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır ve raporunuzu veya panonuzu içeren klasöre gidebilmeniz sağlanır.
 2. Mürekkep simgesi ![mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken bir renk seçmenizi sağlar. 
 3. Sunmakta olduğunuz rapor sayfasını değiştirmek için sayfalar simgesini ![sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) kullanın.
-4. Diğer panoları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
-5. Sunu modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun.
+4. Oynatma simgesine  ![Oynatma simgesine](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) Eylem çubuğu ve burada uygulama döndürme rapor sayfaları arasında otomatik olarak tamamlar slayt gösterisi, başlangıç başlar. 
+5. Diğer panoları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
+6. Sunu modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun.
 
 Araç çubuğunu yerinden çıkarabilir ve sürükleyerek ekranın herhangi bir yerine yerleştirebilirsiniz. Büyük ekranlarda, raporunuzun belirli bir alanına odaklanmayı tercih ettiğinizde ve araçları bu alanın yanında kullanabilmek istediğinizde bu yararlı olacaktır. Parmağınızı araç çubuğunun üzerine koyup rapor tuvaline doğru çekmeniz yeterlidir.
 
-![Sunu modunda rapor ve yerinden çıkarılmış araç çubuğu](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+![Sunu modunda rapor ve yerinden çıkarılmış araç çubuğu](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

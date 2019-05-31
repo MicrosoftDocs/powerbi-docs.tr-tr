@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2019376373268ff57802525ba5b7ee6b7a8ff32e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397984"
+---
 Bir raporda çok sayıda öğeniz varsa Power BI bunlara ilişkin çakışmaları yönetmenize olanak tanır. Öğelerin katmanlanma veya birbirleri üzerinde düzenlenme biçimine genellikle z düzeni adı verilir.
 
 Bir rapordaki öğelerin z düzenini yönetmek için bir öğe seçin ve z düzenini değiştirmek üzere şeridin **Giriş** sekmesindeki **Düzenle** düğmesini kullanın.

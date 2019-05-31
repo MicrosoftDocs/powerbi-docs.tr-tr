@@ -11,11 +11,11 @@ ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473879"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234522"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.

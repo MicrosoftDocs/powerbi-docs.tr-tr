@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513683"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Öğretici: Power BI Desktop ile Facebook analizi
@@ -23,7 +23,7 @@ Bu öğreticide, Facebook’tan verileri içeri aktarmayı ve Power BI Desktop�
 
 ## <a name="connect-to-a-facebook-page"></a>Bir Facebook sayfasına bağlanma
 
-Bu öğreticide, [Microsoft Power BI Facebook sayfasındaki](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) veriler kullanılmaktadır. Bağlanmak ve bu sayfadan verileri içeri aktarmak için kişisel Facebook hesabı dışında özel bir kimlik bilgisi gerekmez.
+Bu öğreticide, [Microsoft Power BI Facebook sayfasındaki](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) veriler kullanılmaktadır. Bağlanmak ve bu sayfadan verileri içeri aktarmak için kişisel Facebook hesabı dışında özel bir kimlik bilgisi gerekmez.
 
 1. Power BI Desktop’ı açın ve **Başlarken** iletişim kutusunda **Veri al** seçeneğini belirleyin veya **Giriş** şerit sekmesinde **Veri Al**’ı ve sonra **Diğer...** seçeneğini belirleyin.
    

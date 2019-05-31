@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008132"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174410"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI ile Microsoft Dynamics AX içerik paketine bağlanma
 Microsoft Dynamics AX, farklı işletme kullanıcılarına yönelik üç farklı Power BI içerik paketine sahiptir. CFO'lar için tasarlanmış olan Financial Performance içerik paketi, kuruluşunuzun mali performansıyla ilgili öngörülere erişim sağlar. Kanal yöneticileri için tasarlanmış olan Retail Channel Performance içerik paketi, Perakende ve Ticaret verilerini doğrudan çekerek eğilimleri tahmin etmek ve öngörüleri keşfetmek için satış performansına odaklanır. COO ve CFO'lar için tasarlanmış olan Cost Management, operasyonel performans hakkında ayrıntılı bilgiler sunar.

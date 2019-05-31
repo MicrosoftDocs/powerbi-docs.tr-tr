@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275583"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988018"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Yani Power BI Desktop'ta mükemmel veri modelinizi oluşturup Power BI hizmetine yayımlayabilir, siz ve başka kişiler bu ortak veri modelinden farklı raporlar (ayrı .pbix dosyaları) oluşturabilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
@@ -77,9 +77,8 @@ Yayımlama işlemi başlar ve **Power BI Desktop** ilerleme durumunu gösterir.
 Şimdi, raporun (ve veri kümesinin) yayımlandığı çalışma alanına erişimi olan diğer ekip üyelerinin veri kümesine nasıl bağlanıp kendi raporlarını oluşturabileceğini görelim.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Yayımlanmış veri kümesiyle bir Power BI hizmeti canlı bağlantısı kurma
-Yayımlanmış raporla bağlantı kurmak ve yayımlanmış veri kümesini temel alarak kendi raporunuzu oluşturmak için **Power BI Desktop**'ta **Giriş** şeridinden **Veri Al**'ı ve **Power BI hizmeti**'ni seçin. Ayrıca bunu **Veri Al > Çevrimiçi Hizmetler > Power BI hizmeti** yolundan da seçebilirsiniz.
+Yayımlanmış raporla bağlantı kurmak ve yayımlanmış veri kümesini temel alarak kendi raporunuzu oluşturmak için **Veri Al** gelen **giriş** şeridinde **Power BI Desktop** , seçin **Power BI** sol bölmesinde ve ardından **Power BI veri kümelerini**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Power BI'da oturum açmadıysanız oturum açmanız istenir. Oturum açtığınızda karşınıza, üye olduğunuz çalışma alanlarını gösteren bir pencere çıkar ve buradan **Power BI hizmeti canlı bağlantısı** kurmak istediğiniz veri kümesini içeren çalışma alanını seçebilirsiniz.
 

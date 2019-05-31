@@ -1,20 +1,20 @@
 ---
 title: Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 description: Tümleşik analizle çok kiracılı bir uygulama tasarlayın.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014266"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374704"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -29,35 +29,35 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 ## <a name="concepts-and-terminology"></a>Kavramlar ve terminoloji
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
 **AAD uygulaması**: AAD'de bir uygulama kimliği. Kimlik doğrulaması için bir AAD uygulaması gereklidir.
 
-**SaaS uygulaması (hizmet olarak yazılım)**: Bir kuruluş veya ISV tarafından gerçekleştirilen sistem (genellikle çevrimiçi bir hizmettir). Ayrıca birden çok müşteri kiracısına (organizasyon) hizmet vermeye yönelik ilgili yazılım sistemleri vardır. Bu makalede, **SaaS uygulaması farklı kiracılarına hizmet vermek için Power BI Embedded'i kullanır**. Power BI Embedded, çevrimiçi bağlantısı olan tüm uygulama türleri için de çalışabilir.
+**SaaS uygulaması (hizmet olarak yazılım)** : Bir kuruluş veya ISV tarafından gerçekleştirilen sistem (genellikle çevrimiçi bir hizmettir). Ayrıca birden çok müşteri kiracısına (organizasyon) hizmet vermeye yönelik ilgili yazılım sistemleri vardır. Bu makalede, **SaaS uygulaması farklı kiracılarına hizmet vermek için Power BI Embedded'i kullanır**. Power BI Embedded, çevrimiçi bağlantısı olan tüm uygulama türleri için de çalışabilir.
 
 **Kiracı**: SaaS uygulamasını ve müşterinin SaaS uygulamasına getirdiği tüm kaynakları veya verileri kullanan tek bir müşteri (organizasyon).
 
-**[Power BI](../power-bi-overview.md)**: Power BI Embedded için platform işlevi gören Power BI bulut hizmeti.
+**[Power BI](../power-bi-overview.md)** : Power BI Embedded için platform işlevi gören Power BI bulut hizmeti.
 
 **Power BI kiracısı**: Tek bir AAD kiracısıyla ilişkilendirilmiş bir dizi Power BI kaynağı.
 
-**[Power BI çalışma alanı](../service-create-workspaces.md)**: Power BI'daki içerik için bir kapsayıcı.
+**[Power BI çalışma alanı](../service-create-workspaces.md)** : Power BI'daki içerik için bir kapsayıcı.
 
 **Power BI yapıtları**: Power BI çalışma alanlarında panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli Power BI yapıtları vardır.
 
-**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)**: Geliştiricilerin Power BI içeriğini yöneten ve Power BI öğelerini ekleyen uygulamalar derlemesine olanak tanıyan bir dizi genel API.
+**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : Geliştiricilerin Power BI içeriğini yöneten ve Power BI öğelerini ekleyen uygulamalar derlemesine olanak tanıyan bir dizi genel API.
 
-**[Satır düzeyi güvenlik (RLS)](embedded-row-level-security.md)**: Tablodaki tek tek satırlar için verilere kullanıcı erişimini denetleme olanağı verir. Satır düzeyi güvenliği veri kaynağı düzeyinde veya Power BI anlamsal modelinde uygulanabilir.
+**[Satır düzeyi güvenlik (RLS)](embedded-row-level-security.md)** : Tablodaki tek tek satırlar için verilere kullanıcı erişimini denetleme olanağı verir. Satır düzeyi güvenliği veri kaynağı düzeyinde veya Power BI anlamsal modelinde uygulanabilir.
 
 **Ana kullanıcı**: Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Power BI Pro lisansına sahip bir AAD kullanıcısı olması gerekir.
 
-**AAD Uygulama kullanıcısı (hizmet sorumlusu)**: Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Bir AAD web uygulaması olması gerekir. Power BI'da kimlik doğrulaması yapmak için *ana* kullanıcının yerine geçebilir.
+**AAD Uygulama kullanıcısı (hizmet sorumlusu)** : Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Bir AAD web uygulaması olması gerekir. Power BI'da kimlik doğrulaması yapmak için *ana* kullanıcının yerine geçebilir.
 
-**Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../service-premium.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
+**Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
 
-**[Power BI Pro lisansı](../service-admin-purchasing-power-bi-pro.md)**: Uygulama çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
+**[Power BI Pro lisansı](../service-admin-purchasing-power-bi-pro.md)** : Uygulama çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
 
-**[Veri bağlantısı modları](../desktop-directquery-about.md)**: Farklı modlarda yapılabilecek veri kaynaklarını Power BI'a bağlama işlemi:
+**[Veri bağlantısı modları](../desktop-directquery-about.md)** : Farklı modlarda yapılabilecek veri kaynaklarını Power BI'a bağlama işlemi:
 
    * İçeri aktarma: verileri almanın en yaygın yoludur.
    * DirectQuery: verilere doğrudan kendi kaynak depolarında bağlanma.
@@ -142,9 +142,9 @@ Daha fazla yalıtım eklemek için, uygulama geliştiricisi birden çok çalış
 
 ### <a name="scalability"></a>Ölçeklenebilirlik
 
-Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, [kullanılmayan veri kümelerini çıkararak](../service-premium-understand-how-it-works.md) etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur.
+Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasiteyi aşırı yüklendiğinde, active veri kümeleri için belleği boşaltmak için kullanılmayan veri kümeleri çıkarabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur.
 
-Bu avantajlara rağmen, SaaS uygulamasının gelecekte ulaşabileceği ölçek göz önüne alınmalıdır. Örneğin, yönetilebilecek yapıt sayısıyla ilgili sınırlamalara ulaşılabilir. Daha fazla ayrıntı için bu makaledeki dağıtım [sınırlamalarına](#summary-comparison-of-the-different-approaches) bakın. Kullanılan kapasite SKU'su veri kümelerinin içine sığabilmesi gereken bellek boyutuna, [aynı anda çalıştırılabilecek yenileme sayısına](../service-premium-understand-how-it-works.md) ve maksimum veri yenileme sıklığına sınır getirir. Yüzlerce veya binlerce veri kümesi yönetilirken, test edilmesi önerilir. Ortalama ve en yüksek kullanım hacimlerinin, ayrıca büyük veri kümeleri veya farklı kullanım desenleri olup diğer kiracılardan farklı yönetilen belirli kiracıların da göz önüne alınması önerilir.
+Bu avantajlara rağmen, SaaS uygulamasının gelecekte ulaşabileceği ölçek göz önüne alınmalıdır. Örneğin, yönetilebilecek yapıt sayısıyla ilgili sınırlamalara ulaşılabilir. Daha fazla ayrıntı için bu makaledeki dağıtım [sınırlamalarına](#summary-comparison-of-the-different-approaches) bakın. Kapasite SKU kullanılan kaç yenilemeleri aynı anda en fazla veri yenileme sıklığını de çalıştırabilirsiniz, uygun veri kümeleri gereken bellek boyutu sınırı tanıtır. Yüzlerce veya binlerce veri kümesi yönetilirken, test edilmesi önerilir. Ortalama ve en yüksek kullanım hacimlerinin, ayrıca büyük veri kümeleri veya farklı kullanım desenleri olup diğer kiracılardan farklı yönetilen belirli kiracıların da göz önüne alınması önerilir.
 
 ### <a name="automation--operational-complexity"></a>Otomasyon ve operasyonel karmaşıklık
 
@@ -245,17 +245,17 @@ Son kullanıcılar raporları düzenler veya oluştururken üretimdeki çok kira
 
 **Power BI Kapasitesi ile ilgili önemli noktalar ve sınırlamalar:**
 
-* Her kapasite, yalnızca [satın alınan SKU](../service-premium.md)'ya göre kendisine ayrılmış belleği ve sanal çekirdekleri kullanabilir.
-* Her SKU için önerilen veri kümesi boyutu için, [Premium büyük veri kümeleri](../service-premium-large-datasets.md) konusuna bakın.
+* Her kapasite, yalnızca [satın alınan SKU](../service-premium-what-is.md)'ya göre kendisine ayrılmış belleği ve sanal çekirdekleri kullanabilir.
+* Her SKU için önerilen veri kümesi boyutu için, [Premium büyük veri kümeleri](../service-premium-what-is.md#large-datasets) konusuna bakın.
 * Ayrılmış bir kapasitede veri kümesi boyutu üst sınır 10 GB'tır.
 * *İçeri aktarma modundaki* bir veri kümesi için zamanlanmış yenileme sayısı günde 48 yenilemedir.
 * *İçeri aktarma modundaki* bir veri kümesi için zamanlanmış iki yenileme arasındaki süre 30 dakikadır.
-* Kapasitede aynı anda çalıştırılabilecek yenilemelerin sayısı için, [kaynak yönetimi ve iyileştirme](../service-premium-understand-how-it-works.md) konusuna bakın.
+* Kapasitede aynı anda çalıştırılabilecek yenilemelerin sayısı için, [kaynak yönetimi ve iyileştirme](../service-premium-what-is.md#capacity-nodes) konusuna bakın.
 * Kapasiteyi ortalama ölçeklendirme süresi 1-2 dakika arasındadır. Bu süre boyunca kapasite kullanılamaz. [Kullanım dışı kalma süresinden kaçınmak](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script) için ölçek genişletme yaklaşımının kullanılmasını öneririz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI ile tümleşik analiz](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [Satır düzeyi güvenlik](embedded-row-level-security.md)

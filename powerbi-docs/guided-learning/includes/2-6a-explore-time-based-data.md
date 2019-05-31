@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257127"
+---
 Power BI ile zamana dayalı veri çözümlemek kolaydır. Power BI Desktop'taki modelleme araçları, oluşturulan alanları otomatik olarak ekler ve böylece tek bir tıklamayla yıl, çeyrek yıl, ay ve gün temelinde detaya gidebilirsiniz.  
 
 Raporunuzda tarih alanı kullanarak bir tablo görselleştirmesi oluşturduğunuzda Power BI Desktop, zaman aralığına göre kırılımları otomatik olarak ekler. Örneğin, aşağıda gösterildiği gibi, **Date** tablosundaki tek bir tarih alanı Power BI tarafından otomatik olarak Year, Quarter, Month ve Day şeklinde ayrılmıştır.
@@ -23,7 +31,7 @@ Tarih hiyerarşisini kullanmak yerine tarihleri ayrı ayrı görüntülemek içi
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-**Tebrikler!** Power BI **Destekli Öğrenme** kursunun bu bölümünü tamamladınız. Verilerinizi *modelleme* hakkında bilgi edindiğinize göre artık bir sonraki bölümde ele alacağımız eğlenceli kısma geçebiliriz: **Görselleştirmeler**.
+**Tebrikler!** Power BI **Destekli Öğrenme** kursunun bu bölümünü tamamladınız. Hakkında öğrendiğinize göre *modelleme* veri, eğlence hakkında bilgi edinmek hazır olduğunuz sonraki bölümde ele alacağımız öğe: **Görselleştirmeler**.
 
 Daha önce belirtmiş olsak da yeniden belirtmekte fayda görüyoruz. Bu kursta edindiğiniz bilgiler, Power BI'daki genel iş akışı ile aynı doğrultudadır:
 

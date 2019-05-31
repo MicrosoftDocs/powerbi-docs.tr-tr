@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279240"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141642"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -87,7 +87,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
    * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
-3. Çalışma alanınızdaki panoları paylaşabilirsiniz. Pano kutucuğunun sağ alt köşesindeki üç nokta (**...**) simgesine tıklayıp **Diğerlerini Davet Et**'e dokunun.
+3. Çalışma alanınızdaki panoları paylaşabilirsiniz. Pano kutucuğunun sağ alt köşesindeki üç nokta ( **...** ) simgesine tıklayıp **Diğerlerini Davet Et**'e dokunun.
    
    ![Davet et simgesi](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Dilerseniz herhangi bir panoya dokunarak açabilir ve panodaki kutucukları görüntüleyebilirsiniz. Açık panolarla etkileşimde bulunabilirsiniz:

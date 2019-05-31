@@ -8,26 +8,26 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: 3fd2f3e47c9b6dd2144ed5a66d45e65a00c5b92e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980347"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051252"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI'daki özel görseller
 
-Bir Power BI raporu oluştururken veya düzenlerken kullanabileceğiniz çok çeşitli türden görseller bulunmaktadır. Bu görseller, **Görsel Öğeler** bölmesinde sunulur. Bu görseller dizisi, [Power BI Desktop](https://powerbi.microsoft.com/desktop/)'ı indirdiğinizde veya [Power BI hizmetini](https://app.powerbi.com) açtığınızda "önceden paketlenmiş" olarak sunulur.
+Oluşturma veya Power BI raporu düzenlerken, birçok farklı türde görsel kullanabilirsiniz. Bu görseller için simgeler görünür **görselleştirmeler** bölmesi. Bu görseller, yüklediğinizde önceden paketlenmiş gelen [Power BI Desktop](https://powerbi.microsoft.com/desktop/) veya [Power BI hizmetinde](https://app.powerbi.com).
 
 ![görselleştirmeler](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-Ancak, kullanabileceğiniz görseller bu görsel dizisiyle sınırlı değildir. Üç nokta simgesini seçtiğinizde başka bir rapor görseli kaynağı daha sunulur: *özel görseller*.
+Ancak, bu görsel dizisiyle sınırlı değildir. Alttaki üç nokta (...) seçin, başka bir rapor görseli kaynağı - kullanılabilir*özel görseller*.
 
-Geliştiriciler, iş kullanıcılarının verilerini işletme için en uygun şekilde görmesine imkan sağlamak için özel görseller SDK’sını kullanarak özel görseller oluşturur. Daha sonra, rapor yazarları bu özel görsel dosyalarını diğer Power BI görselleri gibi kendi raporlarında içeri aktarabilir. Özel görseller Power BI’da birinci sınıf öğelerdir ve filtrelenebilir, vurgulanabilir, düzenlenebilir, paylaşılabilir, vb.
+Geliştiriciler, özel görseller SDK'sını kullanarak özel görseller oluşturun. Bu görseller, iş kullanıcılarının verilerini iş en iyi uyan bir şekilde görmek etkinleştirin. Rapor yazarlarının özel görsel dosyaları kendi raporlarında içeri ve bunlar herhangi bir Power BI görselleri gibi bunları kullanın. Özel görseller, Power bı'da birinci sınıf vatandaşlar olan ve vurgulanan, düzenlenen, paylaşılan ve bu şekilde filtrelenebilir.
 
-Özel görseller üç dağıtım kanalı biçiminde olabilir:
+Özel görseller, üç şekilde dağıtılır:
 
 * Özel görsel dosyaları
 * Kuruluş görselleri
@@ -35,33 +35,33 @@ Geliştiriciler, iş kullanıcılarının verilerini işletme için en uygun şe
 
 ## <a name="custom-visual-files"></a>Özel görsel dosyaları
 
-Özel görseller, kendisine sunulan verileri işlemeye yönelik kod içeren paketlerdir. Herkes özel bir görsel oluşturup bunu bir Power BI raporunda içeri aktarılabilen tek bir `.pbiviz` dosyası olarak paketleyebilir.
+Özel görseller, kendisine sunulan verileri işlemeye kod içeren paketlerdir. Herkes özel görsel oluşturma ve tek bir paket `.pbiviz` Power BI raporu aktarılabilen bir dosya.
 
 > [!WARNING]
-> Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebilir. Özel görseli raporunuzda içeri aktarmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
+> Özel görseller güvenlik veya gizlilik riski taşıyan kod içerebilir. Raporunuzda içeri aktarmadan önce görselin yazarına ve özel görsel kaynağı güvendiğinizden emin olun.
 
 ## <a name="organizational-visuals"></a>Kuruluş görselleri
 
-Power BI yöneticileri, kuruluş içinde kullanılmasına onay verdikleri özel görselleri rapor yazarlarının kolayca keşfedip kullanabilmesi için kuruluşlarına özel görseller dağıtabilir. Bu sayede, yönetici kuruluşta dağıtmak üzere belirli özel görselleri seçme konusunda denetimin yanı sıra bu görselleri yönetmenin (örneğin sürümü güncelleştirme, devre dışı bırakma/etkinleştirme) kolay bir yoluna sahip olur. Rapor yazarı için kuruluşa özgü görselleri keşfetme ve bu görsellerin güncelleştirilmesi için sorunsuz destek almanın kolay bir yolunu sağlar.
+Power BI yöneticileri, onaylayabilir ve özel görselleri rapor yazarlarının kolayca keşfedin, güncelleştirme kullanın ve kendi kuruluş içinde dağıtabilirsiniz. Yöneticiler kolayca yönetebilir (örneğin, sürüm güncelleştirmesi, devre dışı bırakmanıza/etkinleştirmenize) bu görsellerin.
 
-Özel kuruluş görselleri hakkında daha fazla bilgi edinmek için [kuruluş görselleri hakkında daha fazla makale okuyun](power-bi-custom-visuals-organization.md).
+ [Kuruluş görselleri hakkında daha fazla bilgiyi](power-bi-custom-visuals-organization.md).
 
 ## <a name="marketplace-visuals"></a>Market görselleri
 
-Topluluk üyelerinin yanı sıra Microsoft tarafından genel kamu yararına yönelik olarak özel görsel katkısında bulunulmuş ve bu görseller [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) markette yayımlanmıştır. Bu görseller indirilerek Power BI raporlarına eklenebilir. Bu özel görsellerin tümü, Microsoft tarafından işlevsellik ve kalite testinden geçirilip onaylanmıştır.
+Topluluk üyeleri ve Microsoft ortak avantajı için özel görselleri katkıda bulunan ve kendilerine yayımlanan [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Market. Bu indirebileceğiniz görselleri Power BI raporlarınızı ekleyin. Microsoft, test ve işlevsellik ve kalite için özel görsellerin onaylandı.
 
-[AppSource](developer/office-store.md) nedir? Şöyle açıklanabilir; Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/); Power BI, Office 365, Azure, Dynamics 365 ve Cortana gibi ürünlerin milyonlarca kullanıcısının, işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlanmasını sağlar.
+[AppSource](developer/office-store.md) nedir? Bu, Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulmak yerdir. [AppSource](https://appsource.microsoft.com/) milyonlarca kullanıcıya Office 365, Azure, Dynamics 365, Cortana ve Power BI'da, yardımcı olacak çözümlere daha verimli bir şekilde, insightfully, işlerinizi gibi ürünlerin ve içeriğinizin daha önce bağlanır.
 
 ### <a name="certified-visuals"></a>Sertifikalı görseller
 
-Power BI sertifikalı görseller, kalite konusunda ek olarak sıkı testlerden geçirilmiş olan market görselleridir. Bu görsellerin, [e-posta abonelikleri](https://docs.microsoft.com/power-bi/service-report-subscribe) ve [PowerPoint'e aktarma](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint) gibi ek senaryolardaki kullanımları desteklenir.
+Power BI sertifikalı görseller ek sıkı kalite testlerden geçmiştir ve gibi ek senaryolardaki desteklenen Market görsellerine [e-posta abonelikleri](https://docs.microsoft.com/power-bi/service-report-subscribe), ve [PowerPoint'e aktarma](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Sertifikalı özel görsellerin listesini görmek veya kendi özel görselinizi göndermek için bkz. [Sertifikalı özel görseller](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) öğrenin.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? Bkz [Power BI özel görsel geliştirme](developer/custom-visual-develop-tutorial.md) ve bilgi edinmek için nasıl [Appsource'ta özel görseller yayımlama](https://docs.microsoft.com/power-bi/developer/office-store).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Bir dosyadan özel bir görseli içeri aktarma
 
-1. Görsel Öğeler bölmesinin alt kısmındaki üç nokta simgesini seçin.
+1. Üç nokta simgesini seçin alt **görselleştirmeler** bölmesi.
 
     ![görselleştirme2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -69,17 +69,17 @@ Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunl
 
     ![dosyadan içeri aktar](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. Dosyayı aç menüsünden içeri aktarmak istediğiniz `.pbiviz` dosyasını seçip Aç'ı seçin. Özel görselin simgesi, Görsel Öğeler bölmenizin alt kısmına eklenir ve bu özel görsel artık raporunuzda kullanılmaya hazırdır.
+3. Dosyayı Aç menüsünden seçin `.pbiviz` içeri aktarın ve ardından istediğiniz dosya **açık**. Özel görselin simgesi alt kısmına eklenir, **görselleştirmeler** bölmesi ve raporunuzdaki kullanıma sunulmuştur.
 
     ![içeri aktarılan cv](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
 ### <a name="import-organizational-visuals"></a>Kuruluş görsellerini içeri aktarma
 
-1. Görsel Öğeler bölmesinin alt kısmındaki üç nokta simgesini seçin.
+1. Üç nokta simgesini seçin alt **görselleştirmeler** bölmesi.
 
     ![görsel kuruluş 1](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
 
-2. Açılan menüden Marketten içeri aktarın seçeneğini belirleyin.
+2. Açılan menüden **Marketten içeri aktarın** seçeneğini belirleyin.
 
     ![görsel kuruluş 2](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
@@ -91,17 +91,17 @@ Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunl
 
     ![görsel kuruluş 4](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
 
-5. **Ekle** düğmesini seçerek özel görseli içeri aktarın. Özel görselin simgesi, Görsel Öğeler bölmenizin alt kısmına eklenir ve bu özel görsel artık raporunuzda kullanılmaya hazırdır.
+5. Seçin **Ekle** özel görseli içeri aktarmak için. Simgesini alt kısmına eklenir, **görselleştirmeler** bölmesi ve raporunuzdaki kullanıma sunulmuştur.
 
     ![görsel kuruluş 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Microsoft AppSource'tan özel görsel indirme veya içeri aktarma
 
-Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirmenin ve içeri aktarmanın iki yolu vardır.
+İndiriliyor ve özel görselleri içeri aktarma için iki seçeneğiniz vardır: öğesinden gelen ve giden Power bı'da [AppSource Web sitesi](https://appsource.microsoft.com/).
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Özel görselleri Power BI'dan içeri aktarma
 
-1. Görsel Öğeler bölmesinin alt kısmındaki üç nokta simgesini seçin.
+1. Üç nokta simgesini seçin alt **görselleştirmeler** bölmesi.
 
     ![görselleştirmeler 2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -125,7 +125,7 @@ Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirme
 
     ![Gözden Geçirmeler](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7. Ekle düğmesini seçerek özel görseli içeri aktarın. Özel görselin simgesi, Görsel Öğeler bölmenizin alt kısmına eklenir ve bu özel görsel artık raporunuzda kullanılmaya hazırdır.
+7. Seçin **Ekle** özel görseli içeri aktarmak için. Simgesini alt kısmına eklenir, **görselleştirmeler** bölmesi ve raporunuzdaki kullanıma sunulmuştur.
 
     ![içeri aktarılan görsel](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -135,15 +135,15 @@ Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirme
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. *Power BI Uygulamaları* da dahil olmak üzere her kategoride sık kullanılan uygulamaları görüntüleyebileceğiniz [Uygulama sonuçları sayfasına](https://appsource.microsoft.com/marketplace/apps) gidin. Ancak, aradığımız şey özel görseller olduğu için sol gezinti listesinden **Power BI visuals** seçeneğini belirleyerek sonuçları daraltalım.
+2. *Power BI Uygulamaları* da dahil olmak üzere her kategoride sık kullanılan uygulamaları görüntüleyebileceğiniz [Uygulama sonuçları sayfasına](https://appsource.microsoft.com/marketplace/apps) gidin. Özel görseller için bu nedenle şimdi seçin bekliyoruz **Power BI görselleri** sonuçları daraltmak için sol gezinti listesinde.
 
     ![AppSource görselleri](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. AppSource, her özel görsel için bir kutucuk görüntüler.  Her kutucuk, özel görselin bir anlık görüntüsünü içerir ve özel görsele ilişkin kısa bir açıklamayla indirme bağlantısı sunar. Daha fazla ayrıntı görmek için kutucuğu seçin.
+3. AppSource, her özel görsel için bir kutucuk görüntüler.  Her kutucuk özel görsel anlık görüntüsünü kısa bir açıklaması ve bir indirme bağlantısı vardır. Daha fazla ayrıntı görmek için kutucuğu seçin.
 
     ![Özel Seçilen Görsel](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. Ayrıntılar sayfasında ekran görüntülerini, videoları, ayrıntılı açıklamaları ve daha fazlasını görüntüleyebilirsiniz. **Şimdi edinin** düğmesini seçip Kullanım koşullarını kabul ederek özel görseli indirin.
+4. Ayrıntılar sayfasında ekran görüntülerini, videoları, ayrıntılı açıklamaları ve daha fazlasını görüntüleyebilirsiniz. Seçin **şimdi edinin** özel görseli indirmek ve kullanım koşullarını kabul etmiş olursunuz.
 
     ![AppSource Alma](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -151,25 +151,25 @@ Power BI'dan ve AppSource web sitesinden olmak üzere, özel görselleri indirme
 
     ![İndir](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
-    İndirme sayfası aynı zamanda özel görselin Power BI Desktop'a ve Power BI hizmetine nasıl aktarılacağını anlatan yönergeler de içerir.
+    İndirme sayfası aynı zamanda özel görselin Power BI Desktop ve Power BI hizmetinde içeri aktarma yönergeleri içerir.
 
     Ayrıca özel görseli içeren ve görselin özelliklerinin sergilendiği örnek bir raporu da indirebilirsiniz.
 
     ![Örneği Deneyin](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. '.pbiviz' dosyasını kaydedin ve Power BI'ı açın.
+6. Kaydet `.pbiviz` dosya ve Power BI'ı açın.
 
-7. '.pbiviz' dosyasını raporunuza aktarın. (Yukarıdaki [Bir dosyadan özel bir görseli içeri aktarma](#import-a-custom-visual-from-a-file) bölümüne bakın.)
+7. İçeri aktarma `.pbiviz` raporunuzu dosyasına. (Yukarıdaki [Bir dosyadan özel bir görseli içeri aktarma](#import-a-custom-visual-from-a-file) bölümüne bakın.)
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
 * Özel görseller içeri aktarıldığında belirli bir rapora eklenir. Başka bir raporda kullanmak istiyorsanız görseli bu rapora da aktarmanız gerekir. Bir rapor, **Farklı Kaydet** seçeneği kullanılarak özel bir görselle kaydedildiğinde, özel görselin bir kopyası yeni raporla kaydedilir.
 
-* **Görsel Öğeler** bölmesini görmüyorsanız bu, raporu düzenleme izninizin olmadığı anlamına gelir.  Sizinle paylaşılan raporlara değil, yalnızca düzenleyebildiğiniz raporlara özel görsel ekleyebilirsiniz.
+* Görmüyorsanız, bir **görselleştirmeler** bölmesinde rapor düzenleme izinleri yok demektir.  Sizinle paylaşılan raporlara değil, yalnızca düzenleyebildiğiniz raporlara özel görsel ekleyebilirsiniz.
 
 ## <a name="troubleshoot"></a>Sorun giderme
 
-Sorun giderme hakkında bilgi için [Power BI özel görsellerinizin sorunlarını giderme](power-bi-custom-visuals-troubleshoot.md) bağlantısını ziyaret edin.
+Sorun giderme için bkz: [Power BI özel görselleri sorun giderme](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>SSS
 
@@ -177,6 +177,6 @@ Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI özel g
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI'daki Görselleştirmeler](visuals/power-bi-report-visualizations.md)
+* [Power BI raporlarındaki görselleştirmeler](visuals/power-bi-report-visualizations.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).

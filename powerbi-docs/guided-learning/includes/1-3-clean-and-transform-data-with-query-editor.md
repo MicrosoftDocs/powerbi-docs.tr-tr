@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265201"
+---
 **Power BI Desktop**, verilerinizin modelleriniz ve görselleştirmeleriniz için hazır hale gelmesi amacıyla şekillendirilmesine ve dönüştürülmesine yönelik etkili bir araç olan **Sorgu Düzenleyicisi**'ni içerir. Gezgin'den Düzenle seçeneğini belirlediğinizde Sorgu Düzenleyicisi başlatılır ve veri kaynağınızdan seçtiğiniz tablolar veya diğer varlıklarla doldurulur.
 
 Ayrıca **Sorgu Düzenleyicisi**'ni **Giriş** şeridindeki **Sorguları Düzenle** düğmesini kullanarak doğrudan **Power BI Desktop**'tan da başlatabilirsiniz.

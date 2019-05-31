@@ -12,10 +12,10 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625069"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma

@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324933"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141506"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Power BI veri akışları için veri kaynaklarına bağlanma (Önizleme)
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI veri akışı için veri kaynaklarına bağlanma
 
 Power BI veri akışlarıyla birçok farklı veri kaynağına bağlanarak yeni veri akışları oluşturabilir veya mevcut veri akışına yeni varlıklar ekleyebilirsiniz.
 
 Bu makalede oluşturulabilecek veya veri akışlarına eklenebilecek birçok veri kaynağı listelenir ve bu veri kaynaklarını kullanarak söz konusu veri akışlarının nasıl oluşturulacağı açıklanır.
 
-Veri akışlarını oluşturma ve kullanma işlemlerine genel bir bakış için, bkz. [Power BI'da veri akışlarını oluşturma ve kullanma (Önizleme)](service-dataflows-create-use.md).
+Oluşturma ve veri akışlarını kullanma genel bakış için bkz. [oluşturma ve veri akışlarını Power BI'da kullanma](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Veri kaynağından veri akışı oluşturma
 
@@ -176,11 +176,11 @@ Power BI veri akışlarında veri kaynaklarına bağlanmak için tüm yapmanız 
 
 Bu makalede veri akışları için hangi veri kaynaklarına bağlanabileceğiniz gösterildi. Aşağıdaki makalelerde, veri akışlarının yaygın kullanım senaryoları daha ayrıntılı olarak ele alınır. 
 
-* [Power BI’da self servis veri hazırlığı (Önizleme)](service-dataflows-overview.md)
+* [Power BI'da Self Servis veri hazırlama](service-dataflows-overview.md)
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
+* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:

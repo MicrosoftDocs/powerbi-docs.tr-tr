@@ -7,21 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872743"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991053"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Power BI Desktop'taki Yenilikler](../../desktop-latest-update.md)  
+* [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>Nisan 2019
+
+### <a name="key-influencers-visual"></a>Anahtar öğrenilenler visual 
+Anahtar öğrenilenler visual mobil uygulamanızı kullanıma sunuldu. Bu görsel temel analizini yalnızca birkaç Tap'ları ile verileriniz üzerinde gerçekleştirmenize olanak tanır.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Rapor içeriği (Android ve iOS) açıklamalar ekleme
+Artık rapor sayfalarında ve görsel üzerinde görüşlerinizi paylaşın ve işbirliği yapmak için açıklamaları kullanabilirsiniz. Daha fazla rapor Power BI hizmeti ve mobil yorum hakkında bilgi edinin [bu blogdaki](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Tam ekran modunda (Android ve iOS) görünümüyle en üst düzeye çıkarın
+Rapor üstbilgiler ve altbilgiler kaldırılıyor ve raporlarınızı görüntülemek için en fazla alan vererek, verilerinizde odaklanmak ne zaman denetlemenize olanak tanıyan yeni düğme ekledik.
 
 ## <a name="march-2019"></a>Mart 2019
 
@@ -31,7 +42,20 @@ Başka bir kuruluştan sizinle paylaşılan Power BI içeriğine doğrudan uygul
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Slayt gösterisiyle Windows sunum modunu geliştirme (Windows)
 
-[Slayt gösterisi](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) ile, Power BI raporlarını, rapor sayfaları arasında otomatik olarak dönecek şekilde tam ekranda çalıştırmak için ofisinizde bulunan herkese açık ekranları kullanabilirsiniz.  
+İle [slayt gösterisi](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) , genel görüntüler ofisinizde bulunan Power BI raporlarını otomatik olarak tamamlar tam ekran modunda döndürme rapor sayfaları arasında çalıştırmak için kullanabilirsiniz.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>AD FS ve WAP yapılandırma (yalnızca iOS) PBI-RS raporları destekleme
+
+PBI-RS ADFS yapılandırma üzerinde barındırılan Power BI raporları (PBIX), artık Power BI iOS uygulamasından erişilebilir.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Rapor görselleri ile tek bir dokunma etkileşimi etkinleştirme
+
+Tek bir görsele dokunun, düğme veya hemen kendi verilerle etkileşim kurmak için dilimleyici gerektirecek şekilde rapor etkileşimi değiştirdik. Kullanıcılar artık seçin ve yeniden ile etkileşim kurmak için dokunmanız görseli dokunun gerekir, tek bir dokunun her ikisinin de yapar.
+
+![Tek bir dokunma etkileşimi](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Mevcut kullanıcıları bu davranış uygulama ayarında açmanız gerekir. Daha fazla bilgi için [tek bir dokunun rapor etkileşimi yapılandırma](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) makalesi.
 
 ## <a name="january---february-2019"></a>Ocak - Şubat 2019
  
@@ -315,7 +339,7 @@ Zaman dilimleyicileri için dokunma etkileşimini iyileştirdik.
 
 Artık, aynı anda beş adede kadar SQL Server Reporting Services (SSRS) sunucusuna bağlanabilirsiniz.
 
-**Panolara erişim isteme** 
+**Panolar için erişim isteme** 
 
 Artık, erişiminiz olmayan bir panonun QR kodunu tarayarak doğrudan mobil uygulamadan bir erişim isteği gönderebilirsiniz.
 
@@ -374,7 +398,7 @@ Artık kutucuklara, raporlara veya görselleştirmelere not ekleyebilir ve bunla
 * [iPhone'da](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [iPad'de](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Panolara erişim isteme**
+**Panolar için erişim isteme**
 
 Artık, erişiminiz olmayan bir panonun QR kodunu tarayarak doğrudan mobil uygulamadan bir erişim isteği gönderebilirsiniz.
 

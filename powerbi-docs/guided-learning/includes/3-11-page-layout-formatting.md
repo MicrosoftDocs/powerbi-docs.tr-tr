@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397953"
+---
 Power BI Desktop size rapor sayfalarınızın boyut ve yön gibi düzen ve biçimlendirme özelliklerini denetleme olanağı sunar.
 
 Rapor sayfalarınızın ölçeklenme biçimini değiştirmek için Giriş sekmesindeki **Sayfa Görünümü** menüsünü kullanın. Kullanılabilir seçenekler şunlardır: **Sayfaya Sığdır** (varsayılan), **Genişliğe Uydur** ve **Gerçek Boyut**.

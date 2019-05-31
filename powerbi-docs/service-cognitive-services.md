@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966451"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61182068"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Power BI’da Bilişsel Hizmetler (Önizleme)
 
@@ -102,7 +102,7 @@ Bu makalede Power BI hizmetiyle Bilişsel Hizmetler'i kullanmaya genel bir bakı
 
 Veri akışları hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
+* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)

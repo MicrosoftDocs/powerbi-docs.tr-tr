@@ -11,11 +11,11 @@ ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290426"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140787"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
 Yöneticiniz gün bitimine kadar, son kampanyaya ilişkin izlenimlerinizle birlikte güncel satış rakamlarınızın yer aldığı bir rapor sunmanızı istiyor. Ancak, güncel verileriniz çeşitli üçüncü taraf sistemlerde ve dizüstü bilgisayarınızdaki dosyalarda mevcut. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek için saatlerinizi harcadığınızı hatırlıyorsunuz. Endişelenmeye başlıyorsunuz.

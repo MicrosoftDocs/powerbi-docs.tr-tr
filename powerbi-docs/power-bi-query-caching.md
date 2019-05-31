@@ -7,15 +7,15 @@ ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/03/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: ''
-ms.openlocfilehash: fbfd8c98743144e0c9604aca4174d6ef32916e77
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: c981a3e2a05129a470c8d26675226bfb42c1bb68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914288"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769543"
 ---
 # <a name="query-caching-in-power-bi-premium"></a>Power BI Premium’da sorgu önbelleğe alma
 
@@ -26,9 +26,7 @@ Power BI Premium ile kuruluşlar bir veri kümesiyle ilişkili raporları hızla
 
 Önbelleğe alınmış sorgu sonuçları kullanıcıya ve veri kümesi içeriğine özgüdür ve güvenlik kurallarını her zaman dikkate alır. Hizmet şu anda yalnızca açtığınız ilk sayfa için sorgu önbelleğe alma yapmaktadır. Başka bir deyişle, raporla etkileşim kurduğunuzda sorgular önbelleğe alınmaz. Önbellek kişisel yer işaretlerini ve kalıcı filtreleri yansıtır. Aynı sorgularla desteklenen [pano kutucukları](service-dashboard-tiles.md) da sorgunun önbelleğe alınmasından yararlanır. Performans özellikle, bir veri kümesine sık erişildiğinde ve sık sık yenilenmesi gerekmediğinde yarar sağlar. Sorgu önbelleğe alma, genel sorgu sayısını azaltarak Premium kapasitenizin yükünü de azaltabilir.
 
-Power BI hizmetindeki veri kümesi için sorgu önbelleğe alma davranışını **Ayarlar** sayfasında denetlersiniz. Üç olası ayar şunlardır:
-
-- **Kapasite Varsayılanı**: Veri kümesi, ayarı Premium kapasiteden devralır. Kapasite varsayılanı, Power BI Premium kapasite yöneticisi tarafından denetlenir.
+Power BI hizmetindeki veri kümesi için sorgu önbelleğe alma davranışını **Ayarlar** sayfasında denetlersiniz. Bu, iki olası ayarı vardır:
 
 - **Kapalı**: Bu veri kümesi için sorgu önbelleğe alma kullanmayın.
 

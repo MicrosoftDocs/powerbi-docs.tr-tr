@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397977"
+---
 Grafiklerde veya görsellerde kullanılan renkleri değiştirmek isteyeceğiniz durumlarla sık sık karşılaşırsınız. Power BI renklerin nasıl görüntüleneceği konusunda yüksek düzeyde denetim elde etmenizi sağlar. Başlamak için **Görsel Öğeler** bölmesinden bir görsel seçin ve ardından **boya fırçası** simgesine tıklayın.
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)

@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695208"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269949"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 
@@ -30,7 +30,7 @@ ms.locfileid: "57695208"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
 
-[Özel görselinizi kodlamayı ve test etmeyi](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) tamamlayıp pbiviz dosyası şeklinde paketledikten sonra gönderim için aşağıdaki bilgilere sahip de olmanız gerekir.
+İşiniz bittiğinde okunurken bizim [Power BI görselleri yönergeleri](guidelines-powerbi-visuals.md), kodlama ve [özel görselinizi test](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) ve paketlenmiş bir pbiviz dosyasına da gönderiniz için aşağıdaki hazır olmalıdır.
 
 | Öğe | Gerekli | Açıklama |
 | --- | --- | --- |

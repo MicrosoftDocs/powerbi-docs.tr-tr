@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273605"
+---
 **Değişken** kullanılabilmesi bir DAX ifadesinin son derece güçlü bir özelliğidir.
 
 ![](media/7-4-dax-expressions/dax-variables_1.png)

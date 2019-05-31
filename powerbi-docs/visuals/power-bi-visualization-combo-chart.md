@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275767"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187779"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
 Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
@@ -52,7 +52,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
 
     b.  **Sales** \> **Gross Margin This Year** alanını **Değer** kutusuna sürükleyin.
 
-    c.  **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
+    c. **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Görselleştirmenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
@@ -71,7 +71,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
 ## <a name="create-a-combo-chart-with-two-axes"></a>İki eksenli birleşik harita oluşturma
 Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
-1. **Gross Margin Last Year %** verilerini **Month** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
+1. İzleyen yeni bir çizgi grafik oluşturun **Gross Margin last year %** tarafından **FiscalMonth**. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
 Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmu
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. Power BI iki eksen oluşturarak veri kümelerinin farklı şekilde ölçeklenmesine olanak sağlar; sol eksende dolar cinsinden satış değeri gösterilirken sağ eksende yüzde ölçülür. Ve sorumuzun cevabını görüyoruz; evet, benzer bir desen görüyoruz.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Eksenlere başlık ekleme
 1. Boya rulosu simgesini ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) seçin ve Biçimlendirme bölmesini açın.
 2. **Y Ekseni** seçeneklerini genişletmek için aşağı oku seçin.
-3. **Y Ekseni (Sütun)** için **Konum**'u **Sol**, **Başlık**'ı **Açık**, **Stil**'i **Yalnızca başlığı göster** ve **Birimleri görüntüle**'yi **Milyon** olarak ayarlayın.
+3. İçin **y ekseni (sütun)** ayarlayın **konumu** için **sol**ayarlayın **başlık** için **üzerinde**,  **Stil** için **yalnızca başlığı göster**, ve **görüntüleme birimleri** olarak **milyonlarca**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. **Y Ekseni (Sütun)** bölümünde ekranı aşağı kaydırın ve **Sonrakini göster**'in **Açık** olarak ayarlandığından emin olun. Bu ayar, birleşik haritanın çizgi grafik bölümünü biçimlendirmeye ilişkin seçenekleri görüntüler.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. Altında **y ekseni (sütun)** , görene kadar aşağı kaydırın **Sonrakini Göster**. Y ekseni için pek çok seçenek olduğundan, her iki kaydırma çubukları kullanmak zorunda kalabilirsiniz. Çizgi grafik bölümünü birleşik harita biçimlendirme seçenekleri göster ikincil bölümünde görüntüler.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
 5. **Y Ekseni (Satır)** için **Konum**'u **Sağ**, **Başlık**'ı **Açık**, **Stil**'i ise **Yalnızca başlığı göster** olarak ayarlayın.
 
    Artık birleşik haritanız başlıkları olan iki eksen görüntüler.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. İsteğe bağlı olarak metin yazı tipini, boyutunu, rengini değiştirebilir; grafiğin görünümünü ve okunabilirliğini geliştirmek için diğer biçimlendirme seçeneklerini ayarlayabilirsiniz.
 

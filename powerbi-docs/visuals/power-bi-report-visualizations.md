@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292879"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375657"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
 Görselleştirmeler (başka bir deyişle görseller) verilerden elde edilen öngörüleri görüntüler. Power BI raporları bir görsel içeren tek sayfadan oluşabileceği gibi görsellerle dolu birçok sayfa da içerebilir. Power BI hizmetinde görseller [raporlardan veya panolardan sabitlenebilir](../service-dashboard-pin-tile-from-report.md).
 
-Rapor *oluşturucuları* ile rapor *kullanıcıları* arasındaki ayrımın yapılması önemlidir. Raporu oluşturan veya değiştiren kişi sizseniz bu, oluşturucu olduğunuz anlamına gelir.  Oluşturucular rapor ve bağlantılı veri kümesine yönelik düzenleme izinlerine sahip olur. Power BI Desktop'ta bu, veri kümesini Veri görünümünde açabileceğiniz ve Rapor görünümünde görseller oluşturabileceğiniz anlamına gelir. Power BI hizmetinde ise veri kümesini veya raporu [Düzenleme görünümü](../consumer/end-user-reading-view.md)'nde rapor düzenleyicisinde açabileceğiniz anlamına gelir. Bir rapor veya pano [sizinle paylaşıldıysa](../consumer/end-user-shared-with-me.md) rapor **kullanıcısı** olursunuz. Raporu görüntüleyebilmenin yanı sıra raporla ve içerdiği görsellerle etkileşim kurabilirsiniz ancak değişiklikleri kaydedemezsiniz.
+Rapor arasında ayrım yapmak önemlidir *tasarımcıları* ve rapor *tüketiciler* oluşturma veya değiştirme rapor kişi sizseniz sonra bir tasarımcı olan.  Tasarımcılar, raporu ve kendi temel alınan veri kümesi için düzenleme izinlerine sahip. Power BI Desktop'ta bu, veri kümesini Veri görünümünde açabileceğiniz ve Rapor görünümünde görseller oluşturabileceğiniz anlamına gelir. Power BI hizmetinde bu açabilirsiniz veri kümesi veya rapor rapor düzenleyicisinde anlamına gelir [düzenleme görünümü](../consumer/end-user-reading-view.md). Bir rapor veya pano [sizinle paylaşıldıysa](../consumer/end-user-shared-with-me.md) rapor **kullanıcısı** olursunuz. Rapora ve içerdiği görsellerle etkileşime girmeye yönelik mümkün olacaktır, ancak büyük değişiklikleri kaydetmek mümkün olmayacaktır.
 
 Doğrudan Power BI'daki GÖRSEL ÖĞELER bölmesinden kullanabileceğiniz çok sayıda farklı görsel türü vardır.
 
@@ -50,6 +50,11 @@ Verilerinize en çok hangisinin uyduğunu görmek için [görselleştirme türü
 ## <a name="pin-the-visualization"></a>Görselleştirmeyi sabitleme
 
 Power BI hizmetinde görselleştirmeyi istediğiniz hale getirdikten sonra kutucuk olarak [bir panoya sabitleyebilirsiniz](../service-dashboard-pin-tile-from-report.md). Sabitledikten sonra, raporda kullanılan görselleştirmeyi değiştirmeniz halinde panodaki kutucuk değişmez. Görselleştirme bir çizgi grafik ise raporda Halka grafik olarak değiştirmiş olsanız bile çizgi grafik olarak kalır.
+
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+- Veri kaynağı ve alan (ölçüler veya sütunlardan) bağlı olarak, bir görsel yavaş yükleyebilir.  10-20 toplam alanları, hem okunabilirlik ve Performans nedeniyle Görsellere sınırlama öneririz. 
+
+- Görseller için üst sınır 100 alanlar (ölçüler veya sütunlardan) ' dir. Görselinizi yüklenemezse, alanların sayısını azaltın.   
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

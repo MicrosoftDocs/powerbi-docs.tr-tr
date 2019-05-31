@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289613"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051225"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme
 Bu eğitimde, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz.   Görselleştirmelerinizi özelleştirmeye yönelik pek çok seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu, Biçimlendirme bölmesini keşfetmektir (boya rulosu simgesini seçerek).  Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.  
 
 Her görselleştirme özelleştirilebilir değildir, [özelleştirilebilir görselleştirmelerin tam listesine bakın](#list).  
 
-Amanda raporundaki görselleştirmeleri özelleştirirken ona eşlik edin. (Videoyu ileri sararak 4:50'ye atlayın.) Ardından, kendi verilerinizle denemek için videonun altında yer alan yönergeleri uygulayın.
+Görselleştirmeleri özelleştirme konusunda bir örnek için 4:50 videoda ilerleyelim. Ardından, kendi verilerinizle denemek için videonun altında yer alan yönergeleri uygulayın.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

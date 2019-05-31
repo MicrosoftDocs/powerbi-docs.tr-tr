@@ -11,11 +11,11 @@ ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61157024"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Power BI ile Zuora'ya bağlanma
 Power BI için Zuora; önemli gelir, faturalandırma ve abonelik verilerini görselleştirmenizi sağlar. Kullanım eğilimlerini çözümlemek, fatura ve ödemeleri takip etmek ve yinelenen geliri izlemek için varsayılan pano ve raporları kullanın veya bunları kendi benzersiz pano ve raporlama ihtiyaçlarınızı karşılayacak şekilde özelleştirin.

@@ -1,26 +1,26 @@
 ---
 title: Kullanıcıların kimliğini doğrulama ve uygulamanız için Azure AD erişim belirteci alma
 description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762548"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710314"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 
 Power BI uygulamalarınızda kullanıcıların kimliğini doğrulamayı ve REST API ile kullanmak üzere bir erişim belirteci almayı öğrenin.
 
-Power BI REST API'sine çağrı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** (erişim belirteci) almanız gerekir. **Erişim belirteci**, uygulamanızın **Power BI** panolarına, kutucuklarına ve raporlarına erişmesine izin vermek için kullanılır. Azure Active Directory **erişim belirteci** akışı hakkında daha fazla bilgi edinmek için bkz. [Azure AD Yetkilendirme Kodu Verme Akışı](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Power BI REST API'sine çağrı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** (erişim belirteci) almanız gerekir. **Erişim belirteci**, uygulamanızın **Power BI** panolarına, kutucuklarına ve raporlarına erişmesine izin vermek için kullanılır. Azure Active Directory **erişim belirteci** akışı hakkında daha fazla bilgi edinmek için bkz. [Azure AD Yetkilendirme Kodu Verme Akışı](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Erişim belirtecini alma yöntemi, içeriği ekleme şeklinize bağlı olarak değişiklik gösterir. Bu makalede iki farklı yaklaşım kullanılmaktadır.
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 Sorgu dizesi oluşturduktan sonra **Azure AD**'ye yönlendirerek **yetkilendirme kodu** alabilirsiniz.  Aşağıda **yetkilendirme kodu** sorgu dizesi oluşturmak ve **Azure AD**'ye yönlendirmek için kullanabileceğiniz tam kapsamlı bir C# yöntemi verilmiştir. Yetkilendirme kodunu aldıktan sonra **erişim belirtecini** almak için bu **yetkilendirme kodunu** kullanmanız gerekir.
 
-Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) çağrısı yaparak belirteç oluşturulur.
+Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) çağrısı yaparak belirteç oluşturulur.
 
 #### <a name="get-authorization-code"></a>Yetkilendirme kodunu alma
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>Sorun giderme
+
+* İndirme [Microsoft.IdentityModel.Clients.activedirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) yaşıyorsanız bir "'AcquireToken' ve 'türünde bir ilk bağımsız değişken kabul eden hiçbir erişilebilir AcquireToken' için 'Authenticationcontext'i' tanımı içermiyor ' Authenticationcontext'i ' bulunamadı (bir using eksik yönergeniz veya derleme başvurunuz?) "hatası.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

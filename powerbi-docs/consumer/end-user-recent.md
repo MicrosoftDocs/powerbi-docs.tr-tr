@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054921"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
 Son görüntülenen içerik, Power BI hizmetinde en son ziyaret ettiğiniz öğeleri (maksimum 20 öğe) içerir.  Söz konusu öğeler şunları içerir: tüm çalışma alanlarınızdaki panolar, raporlar, uygulamalar ve çalışma kitapları.
@@ -37,7 +37,7 @@ Son ziyaret ettiğiniz öğe sayısı beşten fazlaysa Son görüntülenen ekran
 
 ![son görüntülenen içeriğin tümünü görüntüleme](./media/end-user-recent/power-bi-recent-list.png)
 
-Bu ekranda, [**Panolar**](end-user-dashboards.md), [**Raporlar**](end-user-reports.md), **Çalışma Kitapları** sekmelerinde ve uygulamalar <!--[**Apps**](end-user-apps.md)--> ekranında olduğu gibi içerikle etkileşebilirsiniz.
+Buradan, olduğu gibi içeriklerle etkileşim kurabilirsiniz [ **panolar**](end-user-dashboards.md), [ **raporları**](end-user-reports.md), ve  **Çalışma kitapları** sekmeler, uygulamalarına <!--[**Apps**](end-user-apps.md)--> ekranı.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 <!--[Power BI service Apps](end-user-apps.md)-->

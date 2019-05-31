@@ -1,21 +1,21 @@
 ---
-title: Power BI'daki Yüksek Yoğunluklu Dağılım Grafikleri
-description: Power BI'daki Yüksek Yoğunluklu Dağılım Grafikleri
+title: Power bı'da yüksek yoğunluklu dağılım grafikleri
+description: Power bı'da yüksek yoğunluklu dağılım grafikleri
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec8ce2596858bb63d965ef3ec8f7465024f60f72
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290230"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454274"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme
 **Power BI Desktop**’ın Eylül 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmelerle birlikte yeni bir örnekleme algoritması kullanıma sunuldu. Bu algoritma ile yüksek yoğunluklu verilerin, dağılım grafiklerindeki gösterimi iyileştirildi.
@@ -29,10 +29,10 @@ ms.locfileid: "54290230"
 > 
 > 
 
-## <a name="how-high-density-scatter-charts-work"></a>Yüksek yoğunluklu dağılım grafikleri nasıl çalışır?
+## <a name="how-high-density-scatter-charts-work"></a>Yüksek yoğunluklu dağılım grafikleri nasıl çalışır
 Önceden **Power BI**, dağılım grafiği oluşturmak için belirleyici bir yaklaşım izleyerek, temel alınan verilerin tam aralığında bulunan bir örnek veri noktası koleksiyonu seçiyordu. Daha ayrıntılı şekilde belirtmek gerekirse Power BI, dağılım grafiği serisindeki ilk ve son veri satırlarını seçip kalan satırları eşit olarak bölerek dağılım grafiğinde toplam 3.500 veri noktasının çizilmesini sağlıyordu. Örneğin, örnekte 35.000 satır varsa çizim için ilk ve son satırlar seçildikten sonra her onuncu satır çiziliyordu (35.000/10 = her onuncu satır = 3.500 veri noktası). Ayrıca daha önce, veri serisinde çizilemeyen null değerler veya noktalar (örneğin, metin değerleri) gösterilmiyor ve görsel oluşturulurken dikkate alınmıyordu. Böyle bir örneklemede dağılım grafiğinin algılanan yoğunluğu da temsili veri noktalarına dayanıyor ve görselde yoğunluğu göstermek için, temel alınan verilerin tam koleksiyonu yerine yalnızca örneklenen noktalar temel alınıyordu.
 
-**Yüksek Yoğunluklu Örnekleme**'yi etkinleştirdiğinizde, Power BI çakışan noktaları kaldırır ve görselle etkileşim kurduğunuz sırada görseldeki noktalara ulaşabilmenizi sağlar. Algoritma ayrıca veri kümesindeki tüm noktaların görselde gösterilmesini de sağlar. Üstelik bunu yaparken yalnızca temsili bir örnek çizmek yerine, seçilen noktaların anlamlarıyla ilgili bağlam da sunar.
+Etkinleştirdiğinizde **High-Density örnekleme**, Power BI çakışan noktaları ortadan kaldırır ve görselle etkileşim kurulurken görsel noktalarında ulaşılabilir sağlar bir algoritma uygular. Algoritma ayrıca veri kümesindeki tüm noktaların görselde gösterilmesini de sağlar. Üstelik bunu yaparken yalnızca temsili bir örnek çizmek yerine, seçilen noktaların anlamlarıyla ilgili bağlam da sunar.
 
 Tanımı gereği, makul oranda hızlı ve etkileşime duyarlı görselleştirmeler oluşturmak için yüksek yoğunluklu verilerin örneği oluşturulur. Bir görsel öğe üzerinde çok fazla veri noktasının olması, görsel öğeyi çıkmaza sokabilir ve eğilim görselleştirmelerinde değerini düşürebilir. En iyi görselleştirme deneyiminin sunulabilmesi ve tüm verilerin temsil edilebilmesi için verilerin nasıl örneklendiği, örnekleme algoritmasını oluşturma nedenidir. Power BI’daki bu algoritma, veri kümesinin tamamındaki önemli noktalar için yanıtlama, temsil ve koruma konusunda en iyi kombinasyonu sağlayacak şekilde iyileştirildi.
 
@@ -42,7 +42,7 @@ Tanımı gereği, makul oranda hızlı ve etkileşime duyarlı görselleştirmel
 > 
 
 ## <a name="how-the-new-scatter-chart-sampling-algorithm-works"></a>Dağılım grafiklerine yönelik yeni örnekleme algoritması nasıl çalışır?
-Dağılım grafiklerine yönelik yeni **Yüksek Yoğunluklu Örnekleme** algoritması, temel alınan verileri daha etkin bir şekilde yakalayıp gösteren ve çakışan noktaları kaldıran yöntemler kullanır. İlk olarak, her veri noktası için küçük bir yarıçap (görselleştirmedeki belirli bir nokta için görsel dairesi boyutunda) kullanarak başlar. Daha sonra, tüm veri noktalarının yarıçapı artırılır. İki (veya daha fazla) veri noktasının çakışması halinde, çakışan bu veri noktalarını, yarıçapı artırılmış olan tek bir daire temsil eder. Algoritma, dağılım grafiğinde makul sayıda veri noktası (3.500) görüntülenene kadar veri noktalarının yarıçapını artırmaya devam eder.
+İçin yeni algoritma **High-Density örnekleme** dağılım grafiklerine ve temel alınan verileri daha etkili bir şekilde temsil eder ve çakışan noktaları gösteren yöntemler. İlk olarak, her veri noktası için küçük bir yarıçap (görselleştirmedeki belirli bir nokta için görsel dairesi boyutunda) kullanarak başlar. Daha sonra, tüm veri noktalarının yarıçapı artırılır. İki (veya daha fazla) veri noktasının çakışması halinde, çakışan bu veri noktalarını, yarıçapı artırılmış olan tek bir daire temsil eder. Algoritma, dağılım grafiğinde makul sayıda veri noktası (3.500) görüntülenene kadar veri noktalarının yarıçapını artırmaya devam eder.
 
 Bu algoritmadaki yöntemler, elde edilecek olan görselde aykırı değerlerin gösterilmesini sağlar. Algoritma, çakışmaları belirlerken ölçeği de dikkate alır. Örneğin, üstel ölçekler, temel alınan görselleştirilmiş noktalara uygun şekilde görselleştirilir.
 
@@ -56,7 +56,7 @@ Algoritma dağılım grafiğinin genel şeklini de korur.
 Ayrıca, çizilemeyen veri noktaları (örneğin, null değerler veya metin değerleri) yok sayılır. Bu tip durumlarda, çizilebilen başka değerler seçilir ve böylece dağılım grafiğinin özgün şekli çok daha iyi bir şekilde korunur.
 
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Dağılım grafikleri için standart algoritmanın kullanılması
-Dağılım grafiklerinde **Yüksek Yoğunluklu Örnekleme**'nin kullanılamadığı bazı koşullarda özgün algoritma kullanılır. Bu koşullar aşağıda belirtilmiştir:
+Bazı koşullarda hangi **High-Density örnekleme** bir dağılım grafiği ve özgün uygulanamaz algoritma kullanılır. Bu koşullar aşağıda belirtilmiştir:
 
 * **Ayrıntılar** altındaki bir değere sağ tıkladıktan sonra menüden **Veri içermeyen öğeleri göster** seçeneğini belirlerseniz dağılım grafiğinde özgün algoritmaya geçiş yapılır.
   
@@ -68,7 +68,7 @@ Dağılım grafiklerinde **Yüksek Yoğunluklu Örnekleme**'nin kullanılamadı�
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Dağılım grafikleri için yüksek yoğunluklu örnekleme algoritmasını etkinleştirme
-**Yüksek Yoğunluklu Örnekleme**’yi etkinleştirmek için bir dağılım grafiği seçin, **Biçimlendirme** bölmesine gidin, **Genel** kartını genişletin ve bu kartın altındaki **Yüksek Yoğunluklu Örnekleme** kaydırıcısını **Açık** durumuna kaydırın.
+Açmak için **High-Density örnekleme**, dağılım grafiği seçin, Git **biçimlendirme** bölmesini genişletin **genel** kartını ve bu kartın altındaki Slayt**High-Density örnekleme** kaydırıcısını **üzerinde**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
@@ -83,7 +83,7 @@ Dağılım grafiklerinde **Yüksek Yoğunluklu Örnekleme**'nin kullanılamadı�
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 Yüksek yoğunluklu örnekleme algoritması Power BI için önemli bir iyileştirmedir. Bununla birlikte, yüksek yoğunluklu değerler ve dağılım grafikleri ile çalışırken göz önünde bulundurmanız gereken bazı önemli noktalar vardır.
 
-* **Yüksek Yoğunluklu Örnekleme** algoritması, yalnızca Power BI hizmetini temel alan modellere, içeri aktarılan modellere veya DirectQuery'ye yönelik canlı bağlantılarda kullanılabilir.
+* **High-Density örnekleme** algoritması Power BI hizmetini temel alan modellere, içeri aktarılan modellere veya DirectQuery Canlı bağlantılarla yalnızca çalışır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Diğer grafiklerdeki yüksek yoğunluklu örnekleme işlemleri hakkında daha fazla bilgi için aşağıdaki makaleye göz atın.

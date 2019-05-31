@@ -1,20 +1,20 @@
 ---
 title: 'Power BI’daki sayfalandırılmış raporlar: SSS (Önizleme)'
 description: Bu makalede sayfalandırılmış raporlar hakkında sık sorulan sorular yanıtlanır. Bu raporlar, üst düzeyde biçimlendirilmiş, yazdırma veya PDF oluşturma için iyileştirilmiş mükemmel çıkışlardır.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324750"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987797"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI’daki sayfalandırılmış raporlar: SSS (Önizleme)
 
@@ -63,7 +63,7 @@ Evet, Power BI veri kümelerinizle aynı uygun ayrıntılarla yeni bir sekme ola
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Sayfalandırılmış raporları oluşturmak ve yayımlamak için Pro lisansına ihtiyacım var mı?
 
-Evet. Pro lisansı olmadan raporları çalışma alanına yükleyemezsiniz. Pro lisansı olmadan Rapor Oluşturucusu'nu indirip deneyebilirsiniz ama oluşturduğunuz sayfalandırılmış raporları yayımlayamazsınız. 
+Evet. Pro lisansı olmadan raporları çalışma alanına yükleyemezsiniz. İndirmek ve hatta Pro sürüm lisansı Power BI Rapor Oluşturucusu'nu kullanmak için önerilir, ancak bu olmadan oluşturduğunuz sayfalandırılmış raporlar yayımlanamıyor. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>Bir çalışma alanında sayfalandırılmış raporum varsa ve sayfalandırılmış rapor iş yükü kapatıldıysa ne olur?
 
@@ -85,13 +85,13 @@ Sayfalandırılmış raporlar, üst düzeyde biçimlendirilmiş, yazdırma veya 
 
 Power BI raporları, araştırma ve etkileşim için iyileştirilmiştir.  Farklı satış elemanlarının aynı rapordaki verileri kendi bölgelerine/sektörlerine/müşterilerine göre ayırmak ve sayılardaki değişimi görmek istedikleri bir satış raporu için Power BI raporu çok uygun olabilir.
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Belgelerde, tercih edilen yazma aracının Rapor Oluşturucusu olduğu belirtilir. Power BI için SQL Server Veri Araçları'nda sayfalandırılmış raporlar oluşturabilir miyim?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Belgeler, tercih edilen geliştirme aracı Power BI Rapor Oluşturucusu'nu olduğunu söylüyor. Power BI için SQL Server Veri Araçları'nda sayfalandırılmış raporlar oluşturabilir miyim?
 
 Evet, ama Power BI hizmeti bir kerede tek bir öğeyi karşıya yüklemenize izin veriyor; dolayısıyla yazarların SQL Server Veri Araçları (SSDT) ile kullandığı senaryolardan çoğu henüz desteklenmiyor. Bu SSS bölümünün devamında sağlanan [desteklenmeyen özellikler listesini](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) gözden geçirin.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Rapor Oluşturucusu'nun hangi sürümlerini destekliyorsunuz?
 
-Raporlarınızı yazmak ve Power BI hizmetinde yayımlamak için SQL Server 2016 Rapor Oluşturucusu'nun en son sürümünü kullanın. [Microsoft İndirme Merkezi'nden Rapor Oluşturucusu'nu](https://www.microsoft.com/download/details.aspx?id=53613) yükleyin.
+Son Power BI Rapor Oluşturucusu'nun birincil yazma aracına sayfalandırılmış raporları Power BI hizmeti olarak yayımladık. Yükleme [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>SQL Server Reporting Services'e kaydettiğim mevcut raporları Power BI'a nasıl taşırım?
 
@@ -99,7 +99,7 @@ Sunucudan raporu indirmeniz ve ardından portal aracılığıyla Power BI'a yük
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>Raporları açıp doğrudan hizmette yayımlayabilir miyim?
 
-Bu noktada bunu yapamazsınız. Aynı Power BI Desktop ile yapabildiğiniz gibi, Rapor Oluşturucusu'ndan raporları açıp doğrudan hizmete yayımlama desteğini bir noktada ekleyeceğiz.
+Bu noktada bunu yapamazsınız. Rapor açma ve Power BI Desktop ile gibi doğrudan hizmete GA önce Power BI Rapor Oluşturucusu'ndan yayımlama için destek ekliyoruz.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>SSRS'deki sayfalandırılmış rapor özelliklerinden hangileri henüz Power BI'da desteklenmiyor?
 
@@ -118,17 +118,27 @@ Geçiş/sıralama dışında Power BI hizmetinde desteklenmeyen bir özelliğe s
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Şu anda sayfalandırılmış raporlarda hangi veri kaynaklarını destekliyorsunuz?
 
-Azure SQL Veritabanı'nı, SQL Server'ı ve şirket içi Ağ Geçidini kullanan hem SQL Server Analysis Services (SSAS) tabular (DAX) hem de çok boyutlu (MDX) modellerini destekliyoruz.
+Belirtilen veri kaynağı destekliyoruz- 
+
+- Power BI Premium veri kümeleri
+- Azure Analysis Services (aracılığıyla çoklu oturum açma (SSO))
+- Azure SQL Veritabanı
+- SQL Server *
+- SQL Server Analysis Services (SSAS) tablolu (DAX) ve çok boyutlu (MDX) modelleri * 
+- Oracle * 
+- Teradata * 
+
+* Şirket içi ağ geçidi gerektirir.
 
 Ağ Geçidi üzerinden SSAS'ye erişirken, kimlik bilgileri depolanan kullanıcının Ağ Geçidi'nden çalışmak için SSAS'de yükseltilmiş izinlere ihtiyacı vardır.
 
 ### <a name="what-authentication-methods-do-you-support"></a>Hangi kimlik doğrulama yöntemlerini destekliyorsunuz?
 
-Şu anda portalda veya ağ geçidinde veri kaynağıyla birlikte kullanıcı adı ve parola depolamanız gerekiyor.  Satır düzeyi güvenliği gibi öğeleri desteklemeye yönelik ek kimlik doğrulama yöntemleri önizlemenin sonraki aşamalarında sağlanacak.
+Azure Analysis Services ve Power BI Premium hem veri kaynakları için SSO destekliyoruz.  Diğer tüm veri kaynakları için geçerli bir kullanıcı adı ve veri kaynağı ile parola portalı ya da ağ geçidi depolamanız gerekir.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Sayfalandırılmış raporum için veri kaynağı olarak Power BI veri kümesini kullanabilir miyim?
 
-Henüz kullanamazsınız, ama bu desteğin yakında sağlanması planlanıyor.
+Evet, artık Power BI Premium veri kümeleri, sayfalandırılmış raporlar için veri kaynağı olarak desteklenmektedir.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Ağ Geçidi üzerinden saklı yordamları kullanabilir miyim?
 
@@ -140,7 +150,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML ve MHTML'y
 
 ### <a name="can-i-print-paginated-reports"></a>Sayfalandırılmış raporları yazdırabilir miyim?
 
-Evet, Sayfalandırılmış Raporlar için yeni ve geliştirilmiş baskı önizleme deneyimiyle yazdırma olanağı sağlanır. 
+Evet, yazdırma, yeni ve geliştirilmiş yazdırma önizleme deneyiminde sayfalandırılmış raporlar için kullanılabilir. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Sayfalandırılmış raporlar için e-posta abonelikleri sağlanıyor mu?
 
@@ -168,15 +178,11 @@ Henüz yapamazsınız, ama kesinlikle bu senaryoyu desteklemeyi planlıyoruz.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Sayfalandırılmış rapor içeriğimi Power BI uygulaması üzerinden paylaşabilir miyim?
 
-Şu anda sayfalandırılmış raporları tek tek portaldaki paylaşım eylemi aracılığıyla veya araç çubuğu üzerinden diğer kullanıcılarla paylaşabilirsiniz. Henüz bir uygulama içinde paylaşımı desteklemiyoruz ama yakında bu desteği sağlamanızı bekleyebilirsiniz. 
+Evet, sayfalandırılmış raporlar, v1 ve v2 çalışma alanlarından ile dağıtılmak üzere desteklenir. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Rapor kutucuklarını panolara sabitleme gibi Power BI'daki rapora özgü diğer özellikler, sayfalandırılmış raporlarla da çalışacak mı?
 
 Raporların hizmetteki önemli senaryoların aynılarını olabildiğince desteklemesini sağlamayı planlıyoruz.  İdeal koşullarda, bu raporları yazma aracı farklı olsa da, tüketicinin bakış açısından bunlar portaldaki listede yer alan raporlardan biri olacaktır. Nasıl oluşturuldukları önemli değil, gerçekleştirmeleri gereken işlevi gerçekleştirebilirler.  Bu özellik eşliğine iyi bir örnek olarak, planlanan açıklama desteği verilebilir. Bu özellik her rapor türünde biraz farklı çalışabilir ama her iki türde de açıklamaları kullanabileceksiniz.
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Power BI hizmetinde sayfalandırılmış raporlar için yeni bir yazma aracı oluşturmayı planlıyor musunuz?  Bugün Rapor Oluşturucusu ile ihtiyacımız olan her şeyi yapamıyoruz.
-
-Power BI'daki sayfalandırılmış raporlarda en iyi araçları sağlamak için farklı seçenekleri gözden geçirmeye devam ediyoruz. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS müşterilerinin mevcut raporlarıyla varlıklarını Power BI'a taşıyabilmelerini sağlayacak bir geçiş aracı planlanıyor mu?
 
@@ -196,5 +202,5 @@ Hayır, şu anda Giriş'ten sayfalandırılmış raporlar için arama yapamazsı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://www.microsoft.com/download/details.aspx?id=53613)
+- [Power BI Rapor Oluşturucusu Microsoft Yükleme Merkezi'nden yükleme](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)

@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661572"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049411"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 Panonuzdaki her görselleştirme kutucuğu, veri keşif dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
@@ -59,7 +59,7 @@ Açık bir içgörünüz olduğunda keşfetmeye devam edin.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 - **İçgörüleri görüntüle** komutu DirectQuery ile birlikte çalışmaz. Yalnızca Power BI'a yüklenmiş olan verilerle birlikte çalışır.
-- **İçgörüleri görüntüle** tüm pano kutucuğu türleriyle çalışmaz. Örneğin özel görsellerle kullanılamaz.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **İçgörüleri görüntüle** tüm pano kutucuğu türleriyle çalışmaz. Örneğin, özel görselleri için kullanılabilir değil.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

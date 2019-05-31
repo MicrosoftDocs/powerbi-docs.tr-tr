@@ -1,20 +1,20 @@
 ---
 title: Power BI içeriği eklemek için bir uygulamayı kaydetme
 description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 2fb633c8f23d5d9d70dc6a01c2467debb169da54
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762387"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269793"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 
@@ -53,7 +53,7 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
 
     ![Uygulama türü](media/register-app/register-app-new-design-app-type.png)
 
-5. Uygulama türü olarak **Sunucu tarafı web uygulamasını** seçtiyseniz **Giriş Sayfası URL'si** ve **Yeniden yönlendirme URL'si** için birer değer girerek devam edin. **Yeniden yönlendirme URL'si** geçerli herhangi bir URL’yle çalışır ve oluşturduğunuz uygulamaya karşılık gelmelidir. **Yerel**’i seçtiyseniz 6. adımdan devam edin.
+5. Uygulama türü olarak **Sunucu tarafı web uygulamasını** seçtiyseniz **Giriş Sayfası URL'si** ve **Yeniden yönlendirme URL'si** için birer değer girerek devam edin. **Tekrar yönlendirme URL'sini** geçerli herhangi bir URL ile çalışır ve oluşturduğunuz uygulama ile eşleşmelidir. **Yerel**’i seçtiyseniz 6. adımdan devam edin.
 
 6. Uygulamanıza gereken Power BI API’lerini seçin. Power BI erişim izinleri hakkında daha fazla bilgi için bkz. [Power BI İzinleri](power-bi-permissions.md). Ardından **Kaydet**’i seçin.
 
@@ -62,7 +62,7 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
     > [!Important]
     > Hizmet sorumlularının Power BI ile kullanımını etkinleştirirseniz Azure Active Directory izinleri artık geçerli olmaz. İzinler Power BI yönetim portalı üzerinden yönetilir.
 
-7. Uygulama türü olarak **Yerel**’i seçerseniz size bir **Uygulama Kimliği** sağlanır. Uygulama türü olarak **Sunucu tarafı web uygulaması**'nı seçerseniz bir **Uygulama kimliği** ve **Uygulama gizli dizisi** alırsınız.
+7. Seçerseniz **yerel** uygulama türü için daha sonra ardından sağlanan bir **uygulama kimliği**. Uygulama türü olarak **Sunucu tarafı web uygulaması**'nı seçerseniz bir **Uygulama kimliği** ve **Uygulama gizli dizisi** alırsınız.
 
     > [!Note]
     > İleride ihtiyaç duymanız halinde **Uygulama kimliği** Azure portalından alınabilir. **Uygulama gizli dizisi**'ni kaybederseniz Azure portalında yeni bir gizli dizi oluşturmanız gerekir.
@@ -83,16 +83,11 @@ Uygulamanızı kaydetmek için kullanabileceğiniz diğer seçenek Azure portal�
 
 3. Sayfanın sağ üst köşesinden hesabınızı seçerek Azure AD kiracınızı belirleyin.
 
-4. Sol taraftaki gezinti bölmesinde **Tüm hizmetler**'i, **Azure Active Directory**’yi, **Uygulama Kayıtları**'nı ve sonra **Yeni uygulama kaydı**'nı seçin.
-
-    ![Yeni uygulama kaydı](media/register-app/azuread-new-app-registration.png)
+4. Sol gezinti bölmesinde Git **tüm hizmetleri**seçin **uygulama kayıtları** seçip **yeni kayıt**.
 
 5. Talimatları izleyerek yeni bir uygulama oluşturun.
 
-   * Web Uygulamaları için kullanıcıların oturum açacağı uygulamanızın temel URL'si olan Oturum Açma URL'sini girin (örneğin, `http://localhost:13526`).
-   * Yerel Uygulamalar için Azure AD'nin belirteç yanıtlarını döndürmek için kullanacağı **Yeniden Yönlendirme URI'sini** girin. Uygulamanıza özgü bir değer girdiğinizden emin olun (örneğin, `http://myapplication/Redirect`).
-
-Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Integrating applications with Azure Active Directory (Uygulamaları Azure Active Directory ile tümleştirme)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
+   Uygulamaları Azure Active Directory'ye kaydetme hakkında daha fazla bilgi için bkz. [bir uygulamayı Azure Active Directory'ye kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 
 ## <a name="how-to-get-the-application-id"></a>Uygulama kimliğini alma
 
@@ -112,30 +107,21 @@ Ekleme için kullanılan *ana* hesapla veya Genel yönetici hesabıyla oturum a�
 
 1. Azure portalında [Uygulama kayıtları](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)’na göz atın ve yerleştirmek için kullandığınız uygulamayı seçin.
 
-    ![Azure AD'ye kayıtlı uygulamalar](media/register-app/powerbi-embedded-azuread-registered-apps.png)
-2. **API Erişimi** bölümünde **Gerekli izinler**'i seçin.
+2. Seçin **API izinleri** altında **Yönet**.
 
-    ![Azure AD uygulaması gerekli izinler](media/register-app/powerbi-embedded-azuread-app-required-permissions.png)
-
-3. **Gerekli izinler** bölümünde **Power BI Hizmeti (Power BI)** seçeneğini belirleyin.
+3. İçinde **API izinleri**seçin **bir izin eklemek**, ardından **Power BI hizmeti**.
 
     ![Uygulama izinleri 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-   > [!NOTE]
-   > Uygulamayı doğrudan Azure AD portalından oluşturduysanız **Power BI Service (Power BI)** seçeneği mevcut olmayabilir. Değilse **+ Ekle**'yi seçin ve ardından **1 Bir API seçin**'i kullanın. API listesinden **Power BI Hizmeti**'ni ve **Seç**'i belirleyin.  **Power BI Hizmeti (Power BI)** **+ Ekle** menüsünde yoksa en az bir kullanıcıyla Power BI'a kaydolun.
+4. İhtiyaç duyduğunuz altında belirli izinleri seçin **Temsilcili izinler**. Seçimleri kaydetmek için teker teker seçin. Tümünü seçtikten sonra **Kaydet**'i seçin.
 
-4. **Temsilci İzinleri** bölümündeki tüm izinleri seçin. Seçimleri kaydetmek için teker teker seçin. Tümünü seçtikten sonra **Kaydet**'i seçin.
+5. Seçin **Grant izni**.
 
-    ![Uygulama izinleri 04](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
-5. **Gerekli izinler** bölümünde **İzin Ver**'i seçin.
-
-    **İzin Ver** eylemi Azure AD tarafından onay istenmesini önlemek için *ana hesabı* gerektirir. Bu eylemi gerçekleştiren hesap Genel Yönetici ise kuruluşunuzdaki tüm kullanıcılara bu uygulama için izin vermiş olursunuz. Bu eylemi gerçekleştiren hesap *ana hesap* ise ve Genel Yönetici değilse bu uygulama için yalnızca *ana hesaba* izin vermiş olursunuz.
-
-    ![Gerekli izinler iletişim kutusundaki izin ver seçeneği](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
+    **Grant izni** için eylem gerekiyor *ana hesaptan* Azure AD tarafından onay istenmesini önlemek için. Bu eylemi gerçekleştiren hesap Genel Yönetici ise kuruluşunuzdaki tüm kullanıcılara bu uygulama için izin vermiş olursunuz. Bu eylemi gerçekleştiren hesap *ana hesap* ise ve Genel Yönetici değilse bu uygulama için yalnızca *ana hesaba* izin vermiş olursunuz.
 
 ### <a name="applying-permissions-programmatically"></a>İzinleri programlama yoluyla uygulama
 
-1. Kiracınız içindeki var olan hizmet sorumlularını (kullanıcıları) almanız gerekir. Bunu nasıl yapacağınız hakkında bilgi almak için bkz. [Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get).
+1. Kiracınız içindeki var olan hizmet sorumlularını (kullanıcıları) almanız gerekir. Bunu nasıl yapacağınız hakkında daha fazla bilgi için bkz: [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta).
 
     *Get servicePrincipal* API'sine {ID} kullanmadan çağrı yapabilirsiniz ve size kiracı içindeki tüm hizmet sorumlularını verir.
 
@@ -161,7 +147,7 @@ Ekleme için kullanılan *ana* hesapla veya Genel yönetici hesabıyla oturum a�
    **consentType** değeri, **AllPrincipals** veya **Principal** parametresini belirtebilir.
 
    * **AllPrincipals**, kiracıdaki tüm kullanıcılar adına izin vermek için yalnızca bir kiracı yöneticisi tarafından kullanılabilir.
-   * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}*.
+   * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}* .
 
      Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemini gerçekleştirmeniz gerekir.
 
@@ -190,8 +176,8 @@ Ekleme için kullanılan *ana* hesapla veya Genel yönetici hesabıyla oturum a�
 
    **consentType** değeri, **AllPrincipals** veya **Principal** parametresini belirtebilir.
 
-   * **AllPrincipals**, kiracıdaki tüm kullanıcılar adına izin vermek için yalnızca bir kiracı yöneticisi tarafından kullanılabilir.
-   * **Principal** belirli bir kullanıcı adına izinler vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}*.
+   * **AllPrincipals** yalnızca Kiracı Yöneticisi tarafından kiracıdaki tüm kullanıcılar için izinleri vermek için kullanılabilir.
+   * **Asıl** belirli bir kullanıcı için izinleri vermek için kullanılır. Bu örnekte, istek gövdesine ilave bir özellik eklenmelidir - *principalId={User_ObjectId}* .
 
    Etkileşimli olmayan oturum açma sırasında mümkün olmayan bir özellik olarak, Azure AD’nin ana hesaptan onay istemesini önlemek için *İzin ver* eylemini gerçekleştirmeniz gerekir.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383250"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099829"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -27,9 +27,15 @@ Bu makale, yönetim açısından kullanıcı başına lisanslamaya odaklanır.
 
 Yönetici olarak, Power BI Pro lisanslarını satın alabilir ve atayabilirsiniz; ayrıca, kuruluşunuz için Power BI Pro denemesine kaydolabilirsiniz. Power BI Pro denemesine bireyler de kaydolabilir.
 
-### <a name="purchasing-power-bi-pro"></a>Power BI Pro'yu satın alma
+### <a name="purchase-power-bi-pro"></a>Power BI Pro satın alma
 
 Power BI Pro lisanslarını Microsoft Office 365 aracılığıyla veya sertifikalı Microsoft iş ortağı aracılığıyla satın alırsınız. Lisansları satın aldıktan sonra, bunları tek tek kullanıcılara atarsınız. Daha fazla bilgi için bkz. [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md).
+
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro Lisansı sona erme tarihi
+
+Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
+
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için [Office 365 işletme Aboneliğim sona erdiğinde verilerime ve erişim için ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Bireyler için Power BI Pro denemesi
 
@@ -57,7 +63,7 @@ Kaydolma adımlarını izlemeden önce aşağıdakileri aklınızda bulundurun:
 
    ![Abonelik ekle](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. **Diğer Planlar** bölümünde Power BI Pro seçeneğinin üç noktası (**. . .**) üzerine gelin ve **Ücretsiz denemeyi başlat**'ı seçin.
+1. **Diğer Planlar** bölümünde Power BI Pro seçeneğinin üç noktası ( **. . .** ) üzerine gelin ve **Ücretsiz denemeyi başlat**'ı seçin.
 
    ![Ücretsiz denemeyi başlat](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -99,7 +105,7 @@ Sınırsız Power BI (ücretsiz) lisans bloğu kullanılamıyorsa ve bireysel ka
 
 1. Sağ taraftaki **Abonelik ekleyin +** öğesini seçin.
 
-1. **Diğer Planlar** bölümünde Power BI (ücretsiz) seçeneğinin üç noktası (**. . .**) üzerine gelin ve **Hemen satın alın**'ı seçin.
+1. **Diğer Planlar** bölümünde Power BI (ücretsiz) seçeneğinin üç noktası ( **. . .** ) üzerine gelin ve **Hemen satın alın**'ı seçin.
 
     ![Hemen satın al - Power BI (ücretsiz)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -128,12 +134,12 @@ Kaydı denetleyen ADD ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda 
      connect-msolservice -credential $msolcred
     ```
 
-   ![Azure Active Directory oturumu açma](media/service-admin-licensing-organization/aad-signin.png)
+   ![Azure Active Directory oturumu açma](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Oturum açtıktan sonra, kiracınızın geçerli yapılandırmasını görmek için aşağıdaki komutu çalıştırın.
+1. Oturum açtıktan sonra, kiracınızın geçerli yapılandırmasını görmek için aşağıdaki komutu çalıştırın. ('Fl' aşağıdaki sayı 1 ' l' harfi kullandığını unutmayın.)
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. Aşağıdaki komutu çalıştırarak **AllowAdHocSubscriptions** ayarını etkinleştirin ($true) veya devre dışı bırakın ($false).
 

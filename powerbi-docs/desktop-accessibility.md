@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306309"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770420"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -144,6 +144,12 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Çoklu seçim | Ctrl + Enter veya Ctrl + Ara Çubuğu |
 | Sağ tıklayın | <ul><li>Windows klavyesi: Windows bağlam tuşu + F10.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: Shift + F10</li></ul> |
 | Seçimi temizle | Ctrl + Shift + C |
+
+### <a name="table--matrix-navigation"></a>Tablo ve matris Gezinti
+| Bunu yapmak için           | Buna basın                |
+| :------------------- | :------------------- |
+| Yukarı / Aşağı (tüm hücreleri tüm alanlarda arasında) bir hücre odak taşınamaz  | Anahtar / ok tuşunu yukarı ok |
+| Odağı sola taşı / (genelinde tüm hücreleri tüm alanlarda) tek bir hücrede sağ  | Sol Ok tuşu / sağ ok tuşu |
 
 ### <a name="pane-navigation"></a>Bölme Gezintisi
 | Bunu yapmak için           | Buna basın                |

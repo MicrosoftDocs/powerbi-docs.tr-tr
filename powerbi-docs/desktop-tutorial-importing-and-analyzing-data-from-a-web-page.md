@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514628"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
@@ -127,7 +127,7 @@ Sorgu, Power BI Desktop **Rapor Görünümü**’ne yüklenir ve **Alanlar** bö
    ![Alanlar Bölmesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
 >Sorgunuzu düzenlemek ve daraltmak için aşağıdakileri yaparak dilediğiniz zaman **Power Query Editor**’a geri dönebilirsiniz:
->- **Alanlar** bölmesindeki **Euro Cup Winners** öğesinin yanında bulunan **Diğer seçenekler** üç nokta simgesini (**...**) ve açılır listeden **Sorguyu Düzenle**’yi seçin ya da
+>- **Alanlar** bölmesindeki **Euro Cup Winners** öğesinin yanında bulunan **Diğer seçenekler** üç nokta simgesini ( **...** ) ve açılır listeden **Sorguyu Düzenle**’yi seçin ya da
 >- Rapor görünümünde **Giriş** şerit sekmesinin **Harici veriler** grubundaki **Sorguları Düzenle** > **Sorguları Düzenle** öğesini seçin. 
 
 ## <a name="create-a-visualization"></a>Görselleştirme oluşturma
@@ -181,7 +181,7 @@ Haritayı bir pasta grafiği ile değiştirmek için haritayı ve sonra **Görse
 
 >[!TIP]
 >- "Almanya" ve "Batı Almanya"’yı aynı renk yapmak için **Veri renkleri** biçimlendirme seçeneklerini kullanabilirsiniz. 
->- Pasta grafiğinde en fazla kazanan ülkeleri bir arada gruplandırmak için, görselleştirmenin sağ üst kısmındaki üç noktayı (**...**) ve sonra açılır listeden **Yıl Sayısına Göre Sırala**’yı seçin. 
+>- Pasta grafiğinde en fazla kazanan ülkeleri bir arada gruplandırmak için, görselleştirmenin sağ üst kısmındaki üç noktayı ( **...** ) ve sonra açılır listeden **Yıl Sayısına Göre Sırala**’yı seçin. 
 
 Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Rapor hazır hale geldikten sonra [Power BI'a yükleyip](desktop-upload-desktop-files.md) bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 

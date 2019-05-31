@@ -1,20 +1,20 @@
 ---
 title: Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 description: REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılığıyla erişim sağlar.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 154415f3662aebaa086d3452eb84e589333ecd28
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327861"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770755"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 

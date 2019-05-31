@@ -1,20 +1,20 @@
 ---
 title: 'Öğretici: Bir VM’de Power BI Rapor Sunucusunu keşfedin'
 description: Bu öğreticide, Power BI Rapor Sunucusu zaten yüklüyken bir sanal makine oluşturacak ve web portalını keşfedeceksiniz.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325094"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240041"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Öğretici: VM’de Power BI Rapor Sunucusu web portalını keşfetme
 Bu öğreticide, örnek Power BI ve sayfalandırılmış raporları görüntüleme, düzenleme ve yönetme işlemlerini yapabilmek için Power BI Rapor Sunucusu zaten yüklüyken bir Azure sanal makinesi oluşturacaksınız.
@@ -37,32 +37,38 @@ Bu öğreticide, bir Azure aboneliği gerekir. Aboneliğiniz yoksa, başlamadan 
 
 Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM oluşturmuştur.
 
-1. Azure Market’te [Power BI Rapor Sunucusu](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)’nu açın.  
+1. Power BI rapor sunucusu Azure Market'teki seçin. Bu bağlantıyı doğrudan açar: [Power BI rapor sunucusu](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. **Şimdi al**’ı seçin.
 3. Sağlayıcının kullanım koşulları ve gizlilik ilkesini kabul etmek için **Devam**’ı seçin.
 
-    ![Power BI Rapor Sunucusu sanal makinesi oluşturma](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. **Oluştur**'u seçin.
 
-4. **1. Adım Temel Bilgiler**, **VM Adı** için **reportservervm** girin.
+    ![Power BI Rapor Sunucusu sanal makinesi oluşturma](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. İçinde **adım 1 temel**, için **VM adı**, çağrısından **reportservervm**.
+
+    Power BI rapor sunucusu VM adı, kısa çizgi içeremez.
 
 5. Bir kullanıcı adı ve parola oluşturun.
 
-6. **Kaynak grubu** için **Yeni oluştur**’u seçin **reportserverresourcegroup** olarak adlandırın.
+6. İçin **kaynak grubu**seçin **Yeni Oluştur**ve onu çağırmak **reportserverresourcegroup** > **Tamam**.
 
     Öğreticiyi bir kereden fazla uygularsanız, kaynak grubuna ilk denemenizde kullandığınız addan farklı bir ad vermeniz gerekir. Bir kaynak grubu adını aynı abonelik içinde ikinci kez kullanamazsınız. 
 
-7. Diğer varsayılanları tutun > **Tamam**’ı seçin.
-
     ![VM ve kaynak grubunu adlandırma](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. **2. Adım Ayarlar**, varsayılanları tutun > **Tamam**’ı seçin.
+7. Diğer varsayılanları tutun > **Tamam**’ı seçin.
 
-9. **3. Adım Özet** > **Tamam**.
+8. İçinde **adım 2 ayarları**, varsayılan değerleri tutun > **Tamam**.
+ 
+    **SQL depolama hesabı** ve **tanılama depolama hesabı** değerleri de benzersiz olmalıdır. Öğreticide birden çok kez giderseniz, farklı adlar vermeniz gerekir.
 
-10. **4. Adım**, Kullanım koşullarını ve gizlilik ilkesini gözden geçirin > **Oluştur**’u seçin.
+9. İçinde **adım 3 özeti**, yaptığınız seçimleri gözden geçirin > **Tamam**.
 
-    **Power BI Rapor Sunucusu için dağıtım gönderiliyor** işlemi birkaç dakika sürer.
+10. İçinde **4 adım satın**, kullanıcı ve gizlilik ilkesi koşullarını gözden > **Oluştur**.
+
+    **Power BI rapor sunucusu için dağıtım gönderiliyor** işlemi birkaç dakika sürebilir.
 
 ## <a name="connect-to-your-virtual-machine"></a>Sanal makinenize bağlanma
 
@@ -78,11 +84,13 @@ Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM
 
     ![Sanal makineye bağlanma](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. Uzak Masaüstü Bağlantısı iletişim kutusunda **Bağlan**’ı seçin.
+5. İçinde **sanal makineye bağlanma** bölmesinde, varsayılan değerleri koruyun ve seçin **RDP dosyasını indir**.
+
+1. İçinde **Uzak Masaüstü Bağlantısı** iletişim kutusunda **Connect**.
 
 6. VM için oluşturduğunuz parola ve adı girin > **Tamam**’ı seçin.
 
-7. Sonraki iletişim kutusunda, uzak bilgisayar kimliğinin tanımlanamadığı söylenir. **Evet**’i seçin.
+7. Sonraki iletişim kutusunda yazan **uzak bilgisayarın kimliği tanımlanamıyor**. **Evet**’i seçin.
 
    Yeni sanal makineniz açılır.
 
@@ -90,15 +98,15 @@ Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM
 
 Sanal makineniz açıldığında masaüstünde aşağıdaki öğeleri görürsünüz.
 
-![Power BI Rapor Sunucusu sanal makinesi başlatılır](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![Power BI Rapor Sunucusu sanal makinesi başlatılır](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |Sayı  |Nedir  |
 |---------|---------|
-|![1 Numara](media/tutorial-explore-report-server-web-portal/number-1.png) | Sayfalandırılmış (.RDL) raporlar oluşturmak için SQL Server Veri Araçları’nı başlatır |
-|![2 Numara](media/tutorial-explore-report-server-web-portal/number-2.png) | Örnek Power BI (.PBIX) raporları  |
-|![3 Numara](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Rapor Sunucusu belgelerinin bağlantıları   |
-|![4 Numara](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını başlatır (Mart 2018)  |
-|![5 Numara](media/tutorial-explore-report-server-web-portal/number-5.png) | Power BI Rapor Sunucusu web portalını tarayıcıda açar   |
+|![1 Numara](media/tutorial-explore-report-server-web-portal/number-1.png) | Örnek Power BI (.PBIX) raporları |
+|![2 Numara](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI Rapor Sunucusu belgelerinin bağlantıları |
+|![3 Numara](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI rapor sunucusu (Ocak 2019) için en iyi duruma getirilmiş Power BI Desktop'ı başlatır |
+|![4 Numara](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Rapor Sunucusu web portalını tarayıcıda açar |
+|![5 Numara](media/tutorial-explore-report-server-web-portal/number-5.png) | Sayfalandırılmış (.RDL) raporlar oluşturmak için SQL Server Veri Araçları’nı başlatır |
 
 **Rapor Sunucusu Web Portalı** simgesine çift tıklayın. Tarayıcıda `http://localhost/reports/browse` sayfası açılır. Web portalında türe göre gruplandırılmış çeşitli dosyalar görürsünüz. 
 
@@ -117,7 +125,7 @@ Sanal makineniz açıldığında masaüstünde aşağıdaki öğeleri görürsü
 ## <a name="tag-your-favorites"></a>Sık kullanılanları etiketleme
 Sık kullanılan olmasını istediğiniz raporları ve KPI'leri etiketleyebilirsiniz. Hem web portalında hem de Power BI mobil uygulamalarında tek bir Sık Kullanılanlar klasöründe toplandıklarından bulunmaları daha kolaydır. 
 
-1. **Kar Marjı** KPI > **Sık Kullanılanlara Ekle** öğesinin sağ üst köşesindeki üç nokta (**…**) simgesini seçin.
+1. **Kar Marjı** KPI > **Sık Kullanılanlara Ekle** öğesinin sağ üst köşesindeki üç nokta ( **…** ) simgesini seçin.
    
     ![Sık kullanılanlara ekleme](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Söz konusu öğeyi web portalındaki Favorites (Sık Kullanılanlar) sayfasında diğer öğelerle birlikte görmek için web portalı şeridindeki **Favorites** (Sık Kullanılanlar) seçeneğini belirleyin.
@@ -155,11 +163,9 @@ Web portalında Power BI raporlarını görüntüleyip etkileşimde bulunabilir 
 
 1. Bu web sitesinin bilgisayarınızda bir programı açmasına izin vermek için **İzin Ver**’i seçin. 
 
-     Rapor Power BI Desktop’ta açılır. Üst çubuktaki "Power BI Desktop (Mart 2018)" adını not edin. Bu sürüm, Power BI Rapor Sunucusu için en iyi duruma getirilmiştir.
+     Rapor Power BI Desktop’ta açılır. Üst çubuğunda "Power BI Desktop (Ocak 2019)" Bu adı not edin. Bu sürüm, Power BI Rapor Sunucusu için en iyi duruma getirilmiştir.
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     VM’de yüklü olan Power BI Desktop sürümünü kullanın. Bir raporu karşıya yüklemek için etki alanları arasında geçiş yapamazsınız.
+    VM’de yüklü olan Power BI Desktop sürümünü kullanın. Bir raporu karşıya yüklemek için etki alanları arasında geçiş yapamazsınız.
 
 3. Alanlar bölmesinde, Müşteriler tablosunu genişletin ve Meslek alanını Rapor düzeyi filtrelerine sürükleyin.
 

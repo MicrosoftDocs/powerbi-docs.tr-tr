@@ -1,32 +1,102 @@
 ---
 title: Power BI Rapor Sunucusu'ndaki yenilikler
 description: Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662469"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187304"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
-Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, yeni sürümlerle birlikte güncelleştirilmektedir.
-
-Power BI Rapor Sunucusu'nun en son sürümünü ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
+Power BI rapor sunucusu ve Power BI rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, yeni sürümlerle birlikte güncelleştirilmektedir.
 
 İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
 
 * [Power BI hizmetindeki yenilikler](../service-whats-new.md)
 * [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mayıs 2019: Power BI rapor sunucusu için Power BI Desktop
+
+Bkz: [Power BI rapor sunucusu Mayıs 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) tüm yeni özellikleri hakkında ayrıntılar için blog gönderisini.
+
+Yayının öne çıkanları bazıları şunlardır:
+
+### <a name="performance-analyzer"></a>Performans Çözümleyicisi 
+
+Raporunuzu beklenenden yavaş çalışıyorsa, Power BI Desktop'ta Performans Çözümleyicisi'ni deneyin. Başlattığınızda, her eylem raporda aldığınız bilgiler bir günlük dosyası oluşturur. Daha fazla bilgi edinin [Performans Çözümleyicisi](../desktop-performance-analyzer.md).
+
+### <a name="new-modeling-view"></a>Yeni Görünüm modelleme
+
+Power BI Desktop'ta yeni modelleme görünümünde görüntüleyin ve birçok tabloları içeren karmaşık veri kümeleri ile çalışma. Öne çıkan özellikleri birden çok diyagram düzeni içeren ve sütunlar, ölçüler ve tabloları düzenleme toplu. Daha fazla bilgi edinin [görünümü modelleme](../desktop-modeling-view.md).
+
+### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimler
+
+Artık çoğu klavye gezintisi aracılığıyla yerleşik görsellerin üzerinde veri noktaları erişim sağlayabilirsiniz. Daha fazla bilgi edinin [Power BI raporlarında erişilebilirlik](../desktop-accessibility.md).
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu başlıklar ve web URL'si eylemleri biçimlendirme
+
+Power BI raporları etkileşimlidir. Rapor başlıkları raporu geçerli durumu yansıtacak şekilde dinamik İmparatoru mantıklıdır. Düğmeler, şekiller ve resimler URL'leri dinamik hale getireceğinizi ifade bağlı ve aynı biçimlendirme kullanabilirsiniz. Daha fazla bilgi edinin [ifade tabanlı başlıkları](../desktop-conditional-format-visual-titles.md).
+
+### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketleri tarafından çapraz vurgulama
+
+Yalnızca bir görselde veri noktalarını seçersiniz gibi çapraz vurgulama bir sayfadaki diğer öğeler için bir görselde eksen kategori etiketleri seçin. Daha fazla bilgi edinin [çapraz vurgulama](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+
+### <a name="all-the-new-features"></a>Tüm yeni özellikleri
+
+Tüm yeni özelliklerin listesi aşağıda verilmiştir:
+
+### <a name="reporting"></a>Raporlama
+
+- Çizgi grafikler, tek bir noktasında çapraz vurgulama 
+- Başlıkları sözcük kaydırma 
+- Varsayılan görsel etkileşim için çapraz filtre ¬ güncelleştir
+- Görsel kenarlıkların yuvarlatılmış köşeler 
+- Tek seçim Dilimleyici  
+- Bing Haritalar ısı Haritası desteği  
+- Eksen etiketleri tarafından çapraz vurgulama  
+- Varsayılan araç ipucuna biçimlendirme  
+- Düğmeler, şekiller ve resimler için statik web destek URL'si  
+- Sayfa hizalama seçenekleri   
+- Seçim Bölmesi geliştirmeleri  
+- Erişilebilir görsel etkileşimler  
+- Koşullu biçimlendirme için görsel başlıkları  
+- Koşullu biçimlendirme için düğmeler, şekiller ve resimler için web URL'si eylemleri
+- Performans Çözümleyicisi bölmesi
+- Tablo ve matris klavye gezintisi
+- Satır veri etiket konumu denetimi
+- KPI görsel gösterge metin boyutu denetim
+
+### <a name="analytics"></a>Analiz
+
+- Bir hiyerarşi olarak tarihleri artık genel kullanıma sunulan Göster  
+
+### <a name="modeling"></a>Modelleme
+
+- Görünüm genel kullanıma sunulan yeni modelleme
+- Yeni DAX işlevleri
+- ALLSELECTED DAX işlevi için güncelleştirme
+- Yeni raporlar için otomatik tarih tabloları devre dışı bırak
+
+## <a name="may-2019-power-bi-report-server"></a>Mayıs 2019: Power BI Rapor Sunucusu
+
+### <a name="support-for-trusted-visuals"></a>Güvenilen görselleri için destek
+
+Power BI rapor sunucusu için güvenilen görselleri için destek ekledik. Şu anda Mapbox ve gücü Aç görselleri destekliyoruz. ESRI, Visio ve PowerApps bu sürümde desteklenmez.)
+
+### <a name="improved-security-features"></a>Geliştirilmiş güvenlik özellikleri
+
+**RestrictedResourceMimeTypeForUpload**, hangi yöneticileri yasaklı MIME türleri, örneğin metin/html virgülle ayrılmış bir listesini belirtmek için kullanabilirsiniz.
 
 ## <a name="january-2019"></a>Ocak 2019
 
@@ -36,7 +106,7 @@ Power BI raporlarında bu özellikler için destek:
 
 [**Matris satır üst bilgilerini genişletme ve daraltma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Tek tek satır üst bilgilerini genişletebilme ve daraltabilme özelliği ekledik. Bu, en çok istenen görsel özelliklerden biriydi.
 
-[**.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
+[ **.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
 
 [**Akıllı hizalama kılavuzları**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Rapor sayfanızdaki her şeyi hizalamanıza yardımcı olması için, sayfanızda nesneleri taşırken PowerPoint'teki gibi akıllı hizalama kılavuzları görürsünüz. Sayfanızdaki bir nesneyi her sürüklediğinizde veya yeniden boyutlandırdığınızda akıllı kılavuzları görürsünüz. Bir nesneyi başka bir nesnenin yakınına taşıdığınızda, taşınan nesne diğeriyle hizalı bir konuma yerleştirilir.
 

@@ -1,20 +1,20 @@
 ---
 title: Kimlik doğrulaması erişim belirteci alma
 description: Veri göndermeye ilişkin adım adım kılavuz - Kimlik doğrulaması erişim belirteci alma
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710369"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2. Adım: Kimlik doğrulaması erişim belirteci alma
 
@@ -27,13 +27,11 @@ Bir kimlik doğrulaması erişim belirteci aşağıdaki gibi alınır.
 ## <a name="get-an-authentication-access-token"></a>Kimlik doğrulaması erişim belirteci alma
 
 > **NOT**: Başlamadan önce, [bir veri kümesine veri gönderme](walkthrough-push-data.md) kılavuzundaki adımları izlediğinizden emin olun.
-> 
-> 
 
-1. Visual Studio 2015'te bir **Konsol Uygulaması** projesi oluşturun.
-2. [.NET NuGet paketi için Azure AD Kimlik Doğrulama Kitaplığı](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)'nı yükleyin. Bir .NET uygulamasında kimlik doğrulaması güvenlik belirteci almak için bu paketi kullanın. Paket aşağıdaki gibi yüklenir:
+1. Visual Studio'da (2015 veya üzeri), oluşturun bir **konsol uygulaması** proje.
+2. [.NET NuGet paketi için Azure AD Kimlik Doğrulama Kitaplığı](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)'nı yükleyin. Bir .NET uygulamasında kimlik doğrulaması güvenlik belirteci almak için bu paketi kullanın. Paket aşağıdaki gibi yüklenir:
 
-     a. Visual Studio 2015'te **Araçlar** > **NuGet Paket Yöneticisi** > **Paket Yöneticisi Konsolu**'nu seçin.
+     a. Visual Studio'da (2015 veya üzeri) **Araçları** > **NuGet Paket Yöneticisi** > **Paket Yöneticisi Konsolu**.
 
      b. **Paket Yöneticisi Konsolu**'na şunu girin: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Program {...} sınıfına aşağıdaki kodu ekleyin.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

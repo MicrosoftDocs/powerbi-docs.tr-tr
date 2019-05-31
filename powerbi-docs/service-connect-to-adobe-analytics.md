@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180346"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Power BI ile Adobe Analytics'e bağlanma
 Power BI aracılığıyla Adobe Analytics'e bağlanmak için öncelikle Adobe Analytics Marketing Cloud hesabınızı bağlamanız gerekir. Site trafiğinize ve kullanıcılarınıza ilişkin boyutlar hakkında öngörü sağlayan bir Power BI panosu ve bir dizi Power BI raporu içeren bir uygulamaya sahip olursunuz. Veriler günde bir kez otomatik olarak yenilenir. Pano ve raporlar ile etkileşim kurabilirsiniz, ancak değişiklikleri kaydedemezsiniz.

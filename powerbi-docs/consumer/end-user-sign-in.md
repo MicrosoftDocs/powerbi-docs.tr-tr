@@ -12,11 +12,11 @@ ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
 ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661451"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049942"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI hizmetinde oturum açma
 

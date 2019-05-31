@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007833"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163104"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI ile Mandrill'e bağlanma
 Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir raporlar kümesi ve bir veri kümesi oluşturarak verilerinizi araştırmanıza olanak sağlar. Mandrill'in analizini kullanarak bülten veya pazarlama kampanyanız hakkında öngörüler elde edin. Veriler, güncel bir izleme deneyimi elde etmenizi sağlamak üzere günlük olarak yenilenir.

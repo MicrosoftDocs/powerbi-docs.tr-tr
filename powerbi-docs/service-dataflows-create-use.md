@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426643"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144620"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Power BI'da veri akışlarını oluşturma ve kullanma (Önizleme)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI'da veri akışlarını oluşturma ve kullanma
 
 **Power BI**'da sağlanan gelişmiş veri hazırlama olanağıyla, veri akışı olarak adlandırılan bir veri koleksiyonu oluşturabilir ve bunu kullanarak çeşitli kaynaklardan iş verilerine bağlanabilir, verileri temizleyebilir, dönüştürebilir ve ardından bu veri akışını Power BI depolama alanına yükleyebilirsiniz.
 
@@ -34,9 +34,6 @@ Veri akışını kullanmanın başlıca üç adımı vardır:
 3. Power BI Desktop kullanıp veri akışınızdan yararlanarak veri kümesini oluşturma 
 
 Aşağıdaki bölümlerde, bu adımlardan her birini gözden geçirecek ve her adımı tamamlamak için sağlanan araçları tanıyacağız. Başlayalım.
-
-> [!NOTE]
-> Veri akışları işlevselliği önizleme aşamasındadır ve genel kullanıma sunulmadan önce değiştirilip güncelleştirilebilir.
 
 ## <a name="creating-a-dataflow"></a>Veri akışı oluşturma
 Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinde **uygulama çalışma alanını** (Power BI hizmetinde *çalışma alanım* içinde veri akışları kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
@@ -165,9 +162,9 @@ Bazı durumlarda veri akışlarının veri kaynaklarına bağlanırken sorunlarl
 Bu makalede kendi **veri akışınızı** oluşturma ve bundan yararlanmak için **Power BI Desktop**'ta veri kümesi ve rapor oluşturma işlemleri açıklanmıştır. Aşağıdaki makaleler, veri akışlarını kullanırken gerekecek diğer bilgiler ve senaryolar açısından yararlıdır:
 
 * [Veri akışları ile self servis veri hazırlığı](service-dataflows-overview.md)
-* [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
+* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:

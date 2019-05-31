@@ -1,280 +1,344 @@
 ---
 title: Ana etmenler görselleştirmeleri öğreticisi
-description: Öğretici - Power BI'da ana etmenler görselleştirmesi oluşturma
+description: "Öğretici: Power BI'da bir kilit görselleştirme oluşturma"
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 02/12/2019
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
-ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
-ms.translationtype: HT
+ms.openlocfilehash: 8d2d6755d01a8ea9d5dad9813fcd7f4b4c1f8232
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57461684"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051609"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
-Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, istihdam değişimini (çalışan kaybı) nelerin etkilediğiyle ilgileniyor olabilirsiniz. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
+Görsel kilit Etkenler bu sürücüye ilginizi çeken bir ölçüm anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, hangi etkileri olan çalışan devir olarak da bilinen karmaşıklığı şekil istediğinizi varsayalım. Bir faktör İstihdam sözleşme uzunluğu olabilir ve çalışan yaş diğer bir etken olabilir. 
  
-## <a name="when-to-use-key-influencers"></a>Ana etmenler ne zaman kullanılmalı? 
-Ana etmen görseli şunları yapmak için harika bir seçimdir: 
-- Çözümlenen ölçümü hangi faktörlerin etkilediğini görmek.
-
-- Bu faktörlerin göreli önemini karşılaştırmak. Örneğin, kısa vadeli sözleşmeler çalışan kaybını uzun vadeli sözleşmelerden daha mı fazla etkiliyor? 
+## <a name="when-to-use-key-influencers"></a>Kilit kullanıldığı durumlar 
+İsterseniz kilit görsel harika bir seçimdir: 
+- Analiz edilen ölçüm hangi faktörlerin etkileyen bakın.
+- Bu etkenler göreceli önemini karşılaştırın. Örneğin, kısa vadeli sözleşmeler çalışan kaybını uzun vadeli sözleşmelerden daha mı fazla etkiliyor? 
 
 ## <a name="key-influencer-requirements"></a>Ana etmen gereksinimleri 
-Çözümlediğiniz ölçüm kategorik bir alan olmalıdır.    
+Analiz ölçüm kategorik veya sayısal bir alan olmalıdır (toplamlar ve ölçüler henüz desteklenmez).
 
+## <a name="features-of-the-key-influencers-visual"></a>Görsel kilit özellikleri
 
-## <a name="features-of-the-key-influencer-visual"></a>Ana etmen görselinin özellikleri
+![Numaralandırılmış özellikleri](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
 
-![numaralandırılmış özellikler](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)    
+1. **Sekmeleri**: Görünümler arasında geçiş yapmak için sekmeyi seçin. **Anahtar öğrenilenler** en çok katkıda bulunanlar için seçilen ölçüm değeri gösterir. **İlk Segment** ölçüm seçili değerine katkıda üst segmentlerini gösterir. *Segment*, bir değer bileşiminden oluşur. Örneğin, bir segment kullanan müşteriler en az 20 yıldır atanmış olması ve Batı bölgesinde Canlı tüketiciler olabilir. 
 
-1. ***Sekmeler*** - görünümler arasında geçiş yapmak için bir sekme seçin. Ana etmenler size seçili ölçüm değerine en çok katkıda bulunan öğeleri gösterir. En üst segmentler seçilen ölçüm değerine katkıda bulunan en üst segmentleri gösterir. *Segment*, bir değer bileşiminden oluşur.  Örneğin, bir segment en az yirmi yıldır müşteriniz olan ve batı bölgesinde yaşayan müşterilerden oluşabilir. 
+2. **Açılan kutu**: Araştırma altında ölçüm değeri. Bu örnekte ölçüm Ara **derecelendirme**. Seçilen değer **düşük**.
 
-2. ***Açılan liste*** - araştırılan ölçümün değeri. Bu örnekte **rating** (derecelendirme) ölçümüne bakıyoruz ve **low** (düşük) değerini seçtik.    
+3. **İfadenin**: Sol bölmede görsel yorumlamaya yardımcı olur.
 
-3. ***Yeniden belirleme*** - sol bölmedeki görseli yorumlamamıza yardımcı olur. 
+4. **Sol bölmede**: Sol bölmede bir görsel içerir. Bu durumda, sol bölmede, üstteki kilit listesini gösterir.
 
-4. ***Sol bölme*** - sol bölme tek bir görsel içerir.  Bu örnekte, sol bölmede bize en önemli ana etmenlerin listesi gösteriliyor.
+5. **İfadenin**: Sağ bölmede görsel yorumlamaya yardımcı olur.
 
-5. ***Yeniden belirleme*** - sağ bölmedeki görseli yorumlamamıza yardımcı olur.
+6. **Sağ bölmede**: Sağ bölmede bir görsel bulunur. Bu durumda, sütun grafiği için anahtar etkileyen tüm değerleri görüntüler **tema** sol bölmede seçilmiş. Belirli değerini **kullanılabilirlik** sol bölmeden yeşil renkte gösterilir. Diğer değerler için **tema** siyah olarak gösterilir.
 
-6. ***Sağ bölme*** - sağ bölme tek bir görsel içerir. Bu örnekteki sütun grafiğinde, sol bölmede seçilen **ana etmenin** (**Theme** [Tema]) tüm değerleri görüntüleniyor. Sol bölmede belirtilen değer (**Usability** [Kullanılabilirlik]) yeşil ve diğer tüm **Theme** değerleri siyah gösteriliyor.
+7. **Ortalama çizgisi**: Ortalama tüm diğer olası değerleri için hesaplanır **tema** dışında **kullanılabilirlik**. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Diğer yüzde söyler **Temalar** , düşük derecelendirme vermiş oldunuz. Diğer bir deyişle, müşteri tarafından bir derecelendirme verilir, bu müşteri neden veya tema derecelendirmesi de açıklanmaktadır. Bazı temaları, kullanılabilirlik, hız ve güvenlik durumdadır. 
 
-7. ***Ortalama çizgisi*** - **Theme** etmeninin **Usability** dışındaki tüm olası değerlerinin ortalaması hesaplanır. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Bu diğer **Theme** değerlerinin bize hangi oranda düşük derece verdiğini gösterir. Başka bir deyişle, müşteri düşük bir derecelendirme yaptığında bu derecelendirmenin nedenini veya **temasını** da açıklar. Kullanılabilirlik, hız ve güvenlik gibi temalar vardır. Sol bölmedeki görselimize göre düşük derecelendirmede **Usability** **Theme** değeri ikinci en yüksek ana etmendir. Diğer tüm temaların ortalamasını ve bunların **düşük** derecelendirmeye katkısını alırsak, burada kırmızıyla gösterilen sonucu elde ederiz. Verilen tüm diğer temaların yalnızca %11,35'i **Usability** derecelendirmesinden yüksektir. 
+   **Kullanılabilirlik temadır** göre görselin sol bölmede, düşük derecelendirme için ikinci en yüksek anahtar yetkili olan. Diğer tüm tema ve kullanıcıların katkısı bir derecelendirme ortalama **düşük**, kırmızı renkte gösterilen sonuç alın. Yalnızca %11.35 verilen tüm diğer temaları, daha yüksek **kullanılabilirlik**.
 
-8. ***Onay kutusu*** - yalnızca etmen olan değerleri gösterin.
+8. **Onay kutusu**: **Yalnızca öğrenilenler olan değerleri göster**.
 
 ## <a name="create-a-key-influencers-visual"></a>Ana etmenler görseli oluşturma 
  
-Ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin ve aşağıdaki adımları kullanarak kendiniz bir görsel oluşturun. 
+Bir kilit görsel oluşturma hakkında bilgi edinmek için bu videoyu izleyin. Ardından oluşturmak için aşağıdaki adımları izleyin. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ürün Yöneticimiz müşterilerin bulut hizmetimiz hakkında olumsuz inceleme yazmasına hangi faktörlerin yol açtığını bulmak istiyor.  Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) da indirebilirsiniz. 
+Ürün Yöneticisi, müşteri adayı negatif incelemeleri, bulut hizmeti hakkında bırakın müşterilere Etkenler kullanıma tahmin etmek istemektedir. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. Ayrıca yükleyebilirsiniz [müşteri geri bildirim Excel dosyasını Power BI hizmetinde veya Power BI Desktop için](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
 
 > [!NOTE]
-> Customer Feedback veri kümesinde şu makale temel alınmıştır: [Moro et al., 2014] S. Moro, P. Cortez ve P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, Haziran 2014 
+> Müşteri geri bildirimi veri çubuğunda [Moro et al., 2014] tabanlı S. Moro, P. Cortez ve P. Rita kümesidir. "Banka telefonla başarısını tahmin etmek için bir veri odaklı bir yaklaşım." *Karar destek sistemleri*, Elsevier, 62:22-31, Haziran 2014'te. 
 
-1. Raporu açın ve ana etmenler simgesini seçin.  
+1. Raporu açıp seçin **anahtar öğrenilenler** simgesi. 
 
     ![Görselleştirmeler bölmesinde Ana etmenler şablonunu seçin](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Araştırmak istediğiniz ölçümü **Çözümle** alanına sürükleyin. **Çözümle** alanı yalnızca kategorik (sürekli olmayan) değişkenleri destekler. Hizmetimize ilişkin müşteri derecelendirmesinin neden **Düşük** olduğuyla ilgilendiğimizden **Customer Tablosu** > **Rating** öğesini seçiyoruz.    
-3. Ardından **Rating** üzerinde etkisi olabileceğini düşündüğünüz alanları **Açıklama Ölçütü** haznesine sürükleyin. İstediğiniz kadar alan sürükleyebilirsiniz. Bu örnekte biz şu alanlarla başlıyoruz: 
-    - Country-Region (Ülke-Bölge) 
+2. İçine incelemek istediğiniz ölçüyü Taşı **Çözümle** alan. **Çözümle** alanı yalnızca kategorik veya sürekli olmayan, değişken destekler. Bir müşteri yönetendir görmek için hizmeti düşük derecelendirmesini seçin **müşteri tablosu** > **derecelendirme**. 
+3. Etkilemek düşündüğünüz taşıma alanları **derecelendirme** içine **tarafından açıklayan** alan. İstediğiniz sayıda alanı taşıyabilirsiniz. Bu durumda, başlangıcı:
+    - Ülke-Bölge 
     - Role in Org (Kuruluştaki Rol) 
     - Subscription Type (Abonelik Türü) 
     - Company Size (Şirket Boyutu) 
-    - Tema     
-4. Olumsuz derecelendirmelerle ilgilendiğimizden, **Rating değerini etkileyenler** açılan listesinde **Low** değerini seçin.  
+    - Tema 
+1. Negatif derecelendirmelerine odaklanmak için seçin **düşük** içinde **ne olmasını derecelendirme etkiler** açılan kutusu.  
 
-    ![açılan listeden Low değerini seçin](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
+    ![Aşağı açılan kutusundan düşük seçin](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
-Çözümleme, çözümlenen alanın tablo düzeyinde çalıştırılır. Bu örnekte biz müşteri düzeyinde tanımlanan **Rating** ölçümüyle ilgileniyoruz (her müşteri yüksek puan veya düşük puan vermiştir). Tüm açıklayıcı faktörlerimizin, bunları kullanan görsel için müşteri düzeyinde tanımlanması gerekiyor. 
+Analiz analiz ediliyor. alanın tablo düzeyi üzerinde çalışır. Bu durumda sahip **derecelendirme** ölçümü. Bu ölçüm, bir müşteri düzeyinde tanımlanır. Her müşteri, yüksek bir puan ya da düşük puan sağlamıştır. Açıklayıcı tüm faktörlerin yapmak görsel için müşteri düzeyinde tanımlanması gerekir bunları kullanın. 
 
-Yukarıdaki örnekte tüm açıklayıcı faktörlerimizle ölçümümüz arasında bire bir veya çoğa bir ilişki vardır. Örneğin, her puanla ilişkilendirilmiş tam olarak bir tema vardır (müşteri incelemesinin ana teması). Benzer şekilde, müşteriler tek bir ülkeden gelir, kuruluşlarında tek bir üyelik türüne ve tek bir role sahiptir. Dolayısıyla açıklayıcı faktörlerimiz zaten müşterinin öznitelikleridir ve hiçbir dönüştürme yapmaya gerek yoktur. Bunlar görselde hemen kullanabilir. 
+Önceki örnekte, tüm açıklayıcı Etkenler birebir veya ölçüye sahip bir bire çok ilişkisi vardır. Bu durumda, tam olarak bir tema ile ilişkili her puanı vardır. Bu tema, müşteri gözden geçirme ana temasını oluştu. Benzer şekilde, müşterilere bir ülkeden bir üyelik türü vardır ve bir rol kuruluşlarında gerçekleştirmek gelir. Açıklayıcı zaten bir müşteri özniteliklerini faktörlerdir ve hiçbir dönüştürme gereklidir. Görsel, bunları anında kullanımını yapabilirsiniz. 
 
-Öğreticinin devamında bire çok ilişkilerin olduğu daha karmaşık örnekleri gözden geçireceğiz. Öyle durumlarda, çözümlemenin çalıştırılabilmesi için önce sütunların toplanıp müşteri düzeyine getirilmesi gerekir.  
+Öğreticinin sonraki bölümlerinde, bire çok ilişkilerine sahip daha karmaşık örneklere bakın. Bu gibi durumlarda, analizini çalıştırılmadan önce müşteri düzeye toplanacak sütunları içerir. 
 
-Açıklayıcı faktörler olarak kullanılan ölçüler ve toplamlar da **Çözümle** alanındaki ölçümün tablo düzeyinde değerlendirilir. Bu makalenin devamında bazı örnekler göreceğiz. 
+Ölçüler ve toplamlar açıklayıcı faktörleri de tablo düzeyinde değerlendirilir olarak kullanılan **Çözümle** ölçümü. Bu makalenin sonraki bölümlerinde bazı örnekler gösterilmektedir. 
 
-## <a name="interpreting-categorical-key-influencers"></a>Kategorik ana etmenleri yorumlama 
-Şimdi düşük derecelendirmelerin ana etmenlerini gözden geçirelim. 
+## <a name="interpret-categorical-key-influencers"></a>Kategorik kilit yorumlama 
+Kilit düşük değerlendirmelerinde bir göz atalım. 
 
-### <a name="top-single-factor-influencing-likelihood-of-a-low-rating"></a>Düşük derecelendirme olasılığını en çok etkileyen ilk faktör
+### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Düşük derecelendirme olasılığını etkileyen üst tek faktörlü
 
-Kuruluşumuzda üç rolümüz var: tüketiciler, yöneticiler ve yayımcılar. Tüketici olmanın düşük derecelendirmeye en çok katkıda bulunan faktör olduğunu görüyoruz. 
+Kuruluşun Bu örnekte üç rol vardır: tüketici, yönetici ve yayımcı. Bir tüketici olan, düşük derecelendirme için katkıda bulunan üst faktördür. 
 
-![Role in Org is consumer (Kuruluştaki rolü tüketici) öğesini seçin](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
+![Rol Seç kuruluştaki tüketicisidir.](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
 
-Daha kesin olarak belirtmek gerekirse, tüketicilerimizin bize olumsuz puan verme olasılığı 2,57 kat fazladır. Ana etmen grafiğinde, soldaki listede **Role in Org is consumer** (Kuruluştaki rolü tüketici) en üstte yer alıyor. **Role in Org is consumer** seçildiğinde, Power BI soldaki bölmede bize ek ayrıntılar (her **rolün** düşük derecelendirme olasılığı üzerindeki karşılaştırmalı etkisi) gösteriyor.
+Daha kesin tüketicilerinize hizmetinizi negatif bir puan vermek 2.57 bir kez daha yüksektir. Kilit listeleri grafik **rolüdür kuruluştaki tüketici** soldaki listedeki ilk. Seçerek **rolüdür kuruluştaki tüketici**, Power BI, sağ bölmede ek ayrıntılar gösterir. Düşük derecelendirme olasılığını comparative her rolün etkisini gösterilir.
   
-- Tüketicilerin %14,93'ü düşük puan veriyor  
-- Ortalama olarak, diğer tüm roller %5,78 oranında düşük puan veriyor 
-- Dolayısıyla diğer tüm rollerle karşılaştırıldığında tüketicilerin düşük puan verme olasılığı 2,57 kat daha fazla (yeşil çubukla kırmızı noktalı çizgi arasındaki fark) 
+- Tüketici %14.93 düşük puan verin. 
+- Ortalama olarak, diğer tüm rolleri %5.78 zaman bir düşük puan verin.
+- Tüketiciler için diğer tüm rolleri karşılaştırıldığında düşük bir puan vermek 2.57 bir kez daha yüksektir. Bu, yeşil bir çubuk kırmızı noktalı çizgi bölerek belirleyebilirsiniz. 
 
-### <a name="second-single-factor-influencing-likelihood-of-a-low-rating"></a>Düşük derecelendirme olasılığını en çok etkileyen ikinci faktör
+### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Düşük derecelendirme olasılığını etkileyen ikinci tek öğe
 
-Ana etmenler görseli faktörleri birçok farklı değişkene göre karşılaştırabilir ve derecelendirebilir.  İkinci etmenimizin **Kuruluştaki Rol** ile hiç ilgisi yok.  Listede ikinci etmen olan **Theme is usability** (Tema kullanılabilirlik) faktörünü seçin. 
+Görsel kilit karşılaştırır ve birçok farklı değişkenlerinden Etkenler derecelendirir. İkinci etkileyen ile yapmak için hiçbir şey sahip **kuruluştaki rolünü**. İkinci etkileyen olan listeden seçin **temadır kullanılabilirlik**. 
 
-![Theme is usability (Tema kullanılabilirlik) öğesini seçin](media/power-bi-visualization-influencers/power-bi-theme.png)
+![Tema seç bir kullanımdır](media/power-bi-visualization-influencers/power-bi-theme.png)
 
-Burada ikinci en önemli faktörün, müşteri incelemesinin temasıyla ilgili olduğunu görüyoruz. Ürünün *kullanılabilirliği* ile ilgili yorum yapan müşterilerin düşük puan verme olasılığı diğer temalarla (güvenilirlik, tasarım veya hız gibi) ilgili yorum yapanlara göre 2,21 kat daha yüksek. 
+İkinci en önemli faktör, müşterinin incelemesinin tema ilişkilidir. Güvenilirlik, tasarım veya hız gibi diğer temaları açıklama eklenen müşteriler karşılaştırıldığında düşük bir puan vermek 2.55 kat daha büyük olasılıkla müşteriler, ürün kullanılabilirliği hakkında yorum yaptı. 
 
-Görseller arasında ortalamanın (kırmızı noktalı çizgi) %5,78'den %11,34'e değiştiğini görebiliyorsunuz. Ortalama, tüm diğer değerlerin ortalamasını temel aldığından dinamiktir. İlk etmende müşterinin rolü ortalamanın dışında kalıyordu, ikinci etmende ise kullanılabilirlik teması ortalamanın dışında kalıyor. 
+Görseller arasında kırmızı noktalı çizgiyle gösterilir, ortalama %5.78 %11.34 değiştirildi. Diğer tüm değerlerin ortalamasını üzerinde bağlı olduğu dinamik bir ortalamadır. İlk etkileyen için ortalama müşteri rolü dışlandı. İkinci etkileyen için kullanılabilirlik tema dışlanır. 
  
-Görselin en altındaki kutuya tıklandığında, görsel filtreleniyor ve yalnızca etkili değerler gösteriliyor (bu örnekte düşük puana yol açan roller). Bundan dolayı 12 temadan Power BI'ın düşük derecelendirmelere yol açtığını belirlediği dört temaya düşüyoruz. 
+Seçin **yalnızca öğrenilenler olan değerleri göster** yalnızca etkili değerlerini kullanarak filtrelemek için onay kutusunu işaretleyin. Bu durumda, bunlar düşük puan sürücü rolleri hedeflenmiştir. On iki temaları, Power BI, düşük derecelendirme sürücü Temalar tanımlanan dört için azaltılır. 
 
-![onay kutusunu seçin](media/power-bi-visualization-influencers/power-bi-only-show.png)
+![Onay kutusunu işaretleyin](media/power-bi-visualization-influencers/power-bi-only-show.png)
 
-## <a name="interacting-with-other-visuals"></a>Diğer görsellerle etkileşimli çalışma 
+## <a name="interact-with-other-visuals"></a>Diğer görsellerle etkileşim kurma 
  
-Kullanıcı bir dilimleyiciye, filtreye veya tuvaldeki başka bir görsele her tıkladığında Ana etmenler görseli yeni veri parçası üzerinde çözümlemeyi yeniden çalıştırır. Örneğin, Company Size (Şirket Boyutu) alanını rapora sürükleyelim ve dilimleyici olarak kullanalım. Kurumsal müşterilerimiz (boyutu 50.000'in üzerinde olan şirketler) için ana etmenlerin nüfusun genelinden farklı olup olmadığını görmek istiyoruz.  
+Dilimleyici, filtre veya tuval üzerinde diğer görseller seçtiğiniz her zaman visual kilit Analizine veri yeni bölümünde yeniden çalıştırır. Örneğin, taşıma **şirket boyutu** rapora ve bir dilimleyici olarak kullanın. Kilit, Kurumsal müşteriler için genel popülasyon farklı olup olmadığını görmek için bunu kullanın. Bir kuruluş şirket boyutu 50.000 çalışanlarla daha büyüktür.
  
-**>50.000** seçildiğinde çözümleme yeniden çalıştırılıyor ve etmenlerin değiştiğini görebiliyoruz. Büyük kurumsal müşterilerde düşük derecelendirmelerin en önemli etmeni olarak **güvenlik** ile ilgili **Tema** görünüyor. Konuyu daha fazla araştırmak ve büyük müşterilerimizi mutsuz eden belirli güvenlik özellikleri olup olmadığını görmek istiyoruz. 
+Seçme **> 50.000** tekrar bölümlerini analiz, görebilirsiniz öğrenilenler değiştirilmiş olmasıdır. Büyük kurumsal müşteriler, düşük derecelendirme için en çok etkileyen güvenlikle ilgili bir tema sahiptir. Büyük müşterilere mutsuz hakkında belirli güvenlik özellikleri varsa bkz. daha fazla araştırmak isteyebilirsiniz. 
 
-![şirket boyutuna göre dilimleme](media/power-bi-visualization-influencers/power-bi-filter.png)
+![Slice şirket boyutuna göre](media/power-bi-visualization-influencers/power-bi-filter.png)
 
-## <a name="interpreting-continuous-key-influencers"></a>Sürekli ana etmenleri yorumlama 
+## <a name="interpret-continuous-key-influencers"></a>Sürekli kilit yorumlama 
  
-Şimdiye kadar farklı kategorik alanların düşük derecelendirmeleri nasıl etkilediğini incelemek için görseli kullandık. ‘Açıklama ölçütü’ olarak süreklilik gösteren faktörler de (örneğin yaş, yükseklik, fiyat) kullanılabilir. Şimdi Customer tablosundan ‘Tenure’ (Kullanım Süresi) alanını ‘Açıklama ölçütü’ne bıraktığımızda ne olduğuna bakalım. Kullanım Süresi müşterinin hizmeti ne kadar zamandır kullandığını gösteriyor. 
+Şu ana kadar farklı kategorik alanlar keşfetmek için görsel kullanmayı gördünüz düşük derecelendirme etkiler. Yaş, yükseklik ve fiyat gibi sürekli Etkenler olması mümkündür **tarafından açıklayan** alan. Kurduğunda gerçekleşen işlemlere göz atalım olduğunda **çalışma süresi** müşteri tabloya öğesinden taşındı **tarafından açıklayan**. Çalışma süresi gösterilmektedir ne kadar bir müşterinin hizmet kullandı. 
  
-**Tenure** değeri arttıkça düşük derecelendirme alma olasılığının da arttığını görüyoruz. Bu eğilim uzun süreli müşterilerimizin olumsuz puan verme olasılığının aslında daha yüksek olduğu izlenimi veriyor. Bu ilginç bir içgörü ve daha sonra bu konuyu takip etmek isteyebilirim.  
+Çalışma süresi arttıkça, daha düşük bir derecelendirme alma olasılığını da artırır. Bu eğilim, daha uzun vadeli müşteriler negatif bir puan vermek daha olası olduğunu önerir. Bu öngörüleri ilginçtir ve daha sonra izlemek istediğiniz. 
  
-Görselleştirme bize kullanım süresinin 13,44 aya ulaştığı her durumda, ortalama olarak düşük derecelendirme olasılığının 1,23 kat arttığını söylüyor. Bu örnekte 13,44 ay kullanım süresinin standart sapması oluyor. Bizim bundan çıkardığımız içgörüde, kullanım süresini standart bir miktarda artırmanın (kullanım süresinin standart sapması) düşük derecelendirme alma olasılığını nasıl etkilediğine bakılıyor. 
+Görselleştirme tarafından 13.44 aylık çalışma süresi artar her seferinde, ortalama düşük derecelendirme olasılığını 1,23 kat arttığını gösterir. Bu örnekte 13,44 ay kullanım süresinin standart sapması oluyor. Aldığınız Insight adımları ele alınmaktadır. Bu nedenle çalışma süresi çalışma süresi standart sapmasını olan standart bir tutara göre artan, düşük derecelendirme alma olasılığını etkiler. 
  
-Sağ taraftaki dağılım grafiğinde her kullanım süresi değeri için ortalama düşük derecelendirme yüzdesi çiziliyor ve eğilimi vurgulamak için bir eğilim çizgisi çiziliyor.  
+Dağılım grafiğinde noktalara sağ bölmede, düşük derecelendirme çalışma süresi, her bir değer için ortalama yüzdesini çizer. Bu, bir eğilim çizgisi birlikte eğimi vurgular.
 
 
-![Kullanım Süresi için dağılım grafiği](media/power-bi-visualization-influencers/power-bi-tenure.png)
+![Çalışma süresi için dağılım](media/power-bi-visualization-influencers/power-bi-tenure.png)
 
-## <a name="interpreting-measuresaggregate-as-key-influencers"></a>Ana etmenler olarak ölçüleri/toplamları yorumlama 
+## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Ölçüler ve toplamlar kilit yorumlayın. 
  
-Son olarak, kullanıcılar çözümlemelerinin içinde açıklayıcı faktörler olarak ölçüleri ve toplamları da kullanabilir. Örneğin, müşteri desteği biletlerinin sayısının veya ortalama açık bilet süresinin aldığımız puan üzerindeki etkisini görmek isteyebiliriz. 
+Ölçüler ve toplamlar açıklayıcı faktörleri analizinizi içinde kullanabilirsiniz. Örneğin, müşteri destek biletlerini sayısı veya ortalama süresi açık bir bilet puanına göre etkisini aldığınız görmek isteyebilirsiniz. 
  
-Bu örnekte, müşterinin destek biletleri sayısının bize verdiği puanı etkileyip etkilemediğini görmek istiyoruz. Support Ticket (Destek Bileti) tablosundan destek bileti kimliğini getiriyoruz. Müşterinin birden çok destek bileti olabileceği için, kimliği müşteri düzeyinde toplamamız gerekiyor. Bu toplama önemli çünkü çözümlemeyi müşteri düzeyinde çalıştırıyoruz ve bu nedenle etkileyen tüm faktörleri bu ayrıntı düzeyinde tanımlamamız gerekiyor. 
+Bu durumda, bir müşterinin destek biletlerini sayısını verdikleri puanı etkiler, görmek istediğiniz. Aktardığınız artık **bilet kimliği destekleyen** destek bileti tablosundan. Bir müşteri birden çok destek biletlerini olabileceğinden, müşteri düzeyine kimliği toplama. Toplama, çözümleme, müşteri düzeyi, çalışır, böylece tüm sürücüleri bu ayrıntı düzeyinde tanımlanması için önemlidir. 
  
-Kimliklerin sayısına bakacağız (dolayısıyla her müşteri satırında o müşteriyle ilişkilendirilmiş destek biletlerinin sayısı olacak). Bu örnekte destek biletlerinin sayısı arttıkça derecelendirmenin düşük olma olasılığının 5,51 kat arttığını görüyoruz. Sağ taraftaki görsel farklı Rating (Derecelendirme) değerlerine göre destek biletlerinin ortalama sayısını gösteriyor (müşteri düzeyinde hesaplanmış olarak). 
+Kimlikleri sayısı göz atalım. Her müşteri satır, destek biletlerini ilişkili sayısını sahiptir. Bu durumda, destek biletlerini arttıkça, sayısı olarak derecelendirme olma olasılığı düşük 5.51 sürelerini gider. Sağ taraftaki görsel destek biletlerini ortalama sayısı tarafından farklı gösterir **derecelendirme** değerleri müşteri düzeyinde değerlendirilir. 
 
-![Support Ticket ID (Destek Bileti Kimliği) etkisi](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
+![Destek bileti kimliği etki](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
 
 
-
-## <a name="interpreting-the-results-top-segments"></a>Sonuçları yorumlama: en üst segmentler 
+## <a name="interpret-the-results-top-segments"></a>Sonuçları yorumlamanıza: En üst parçalar 
  
-‘Ana etmenler’ sekmesi faktörleri tek tek değerlendirmemize olanak tanır, ama kullanıcılar ‘En üst segmentler’ sekmesine geçip faktörlerin bileşiminin çözümledikleri ölçümü nasıl etkilediğini görebilir. 
+Kullanabileceğiniz **anahtar öğrenilenler** tek tek her faktör değerlendirmek için sekmesinde. Ayrıca **ilk Segment** çeşitli faktörlerin bir bileşimine çözümlediğiniz ölçümü nasıl etkilediğini görmek için sekmesinde. 
  
-Başlangıçta En üst segmentler Power BI tarafından bulunan tüm segmentlere genel bir bakış sağlar. Aşağıdaki örnekte altı segmentin bulunduğunu görebiliriz. Bu segmentler, segment içindeki düşük derecelendirmelerin yüzdesine göre sıralanır. Örneğin, 1. segmentte müşteri derecelendirmelerinin %74,3'ü düşüktür.  Kabarcık ne kadar yüksekteyse düşük derecelendirmelerin oranı o kadar yüksektir. Öte yandan kabarcığın boyutu segment içindeki müşterilerin sayısını temsil eder. 
+Üst segmentleri başlangıçta Power BI bulunan tüm parçaları genel bir bakış gösterir. Aşağıdaki örnek, altı Segment bulunamadı gösterir. Bu kesimler, düşük derecelendirme segmentteki yüzdesine göre sıralanır. Segment 1, örneğin, düşük %74.3 müşteri derecelendirmeleri vardır. Kabarcık ne kadar yüksekteyse düşük derecelendirmelerin oranı o kadar yüksektir. Kabarcık boyutunu Segmentte kaç müşterilerdir temsil eder. 
 
-![En Üst Segmentler sekmesini seçin](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
+![Üst kesimler sekmesi seçin](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Kabarcık seçildiğinde ilgili segmentin detayına gidilir. Örneğin 1. Segmenti seçersek, bunun görece yerleşik (29 aydan uzun süredir bizimle olan) müşterilerden oluştuğunu görürüz ve bu müşterilerin destek bileti sayısı yüksektir (4'ten çok). Son olarak, bunlar yayımcı değildir (başka bir deyişle bu müşteriler tüketici veya yöneticidir).  
+Kabarcık seçildiğinde ilgili segmentin detayına gidilir. Örneğin, Segment 1'i seçin, bunu görece kurulan müşterileri oluşur, bulun. Bunlar, müşteriler için 29 ay boyunca netleştirilmesi ve dörtten fazla destek biletlerini özelliğine sahip. Tüketiciler ya da yöneticiler bulunmaları son olarak, yayımcılar olmadıklarını. 
  
-Bu grupta, %74,3 düşük derecelendirme yapmıştır. Ortalama müşterinin düşük derecelendirme yapma oranı %11,7 olduğunu göre, bu segmentte düşük derecelendirme oranı dikkat çekici ölçüde yüksektir (63 yüzde noktası daha yüksek). Ayrıca 1. segmentin, verilerin yaklaşık %2,2'sini içerdiğini de buluruz. Dolayısıyla bu segment nüfusun dikkate alınabilir bir oranını temsil eder. 
+Bu grupta, düşük derecelendirme %74.3 müşterilerin getirdi. Bu kesimin düşük derecelendirme daha büyük bir kısmı bu %11.7 zaman, derecelendirme düşük ortalama müşteri getirdi. Bu, daha yüksek 63 yüzdesi noktaları olur. Popülasyon adreslenebilir bir bölümünü temsil ettiği şekilde segment 1 yaklaşık %2.2 verileri de içerir. 
 
-![en üst segmentlerin ilkini seçin](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+![ilk üst segmenti seçin](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+
+## <a name="working-with-numerical-data"></a>Sayısal verileri ile çalışma
+
+Bir sayısal alana taşırsanız **Çözümle** alan, sahip olduğunuz bir seçim bu senaryonun nasıl ele alınacağını. Uygulamasına giderek görsel davranışını değiştirebilirsiniz **biçimlendirme bölmesinde** ve arasında geçiş yapma **kategorik çözümleme türü** ve **sürekli Analiz türü**.
+
+![Kategorik olarak değiştirme](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
+
+A **kategorik çözümleme türü** yukarıda açıklandığı gibi davranır. 1 ile 10 arasında değişen anket puanları bakarak, örneğin, 'Ne anket 1 olması puanları Firmalar?' sorabilirsiniz
+
+A **sürekli Analiz türü** sürekli bir soru değiştirir. Yukarıdaki örnekte, sunduğumuz yeni soru 'Ne, anket artırma/azaltma için puanları Firmalar?' olmalıdır
+
+Bu ayrım, analiz alanında benzersiz değerleri çok sayıda olduğunda çok yararlıdır. Aşağıdaki örnekte ev fiyatları bakacağız. 'Ne ev 156,214 olmasını fiyatı etkiler mi?' istemek için çok anlamlı değil Bu çok olduğu gibi özel ve bir desen çıkarsamak için yeterli veri yok olasılığı düşüktür.
+
+Bunun yerine size, 'Ne, ev artırmak için fiyat etkiler' isteyebilir mi? hangi ev fiyatları farklı değerler yerine bir aralık değerlendirilecek sağlıyor.
+
+![Sayısal soru](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+
+## <a name="interpret-the-results-key-influencers"></a>Sonuçları yorumlamanıza: Başlıca etkileyiciler 
+
+Bu senaryoda 'Ne ev artırmak için fiyat etkiler ' bakacağız. Gibi bir ev fiyatı etkileyebilir açıklayıcı bir dizi etkene adresindeki arıyoruz **yıllık** (yıl), ev derlendiği **KitchenQual** (mutfak kalite) ve **YearRemodAdd** (evin yeniden modellenmiş yıl). 
+
+Aşağıdaki örnekte, mutfak kalitesi mükemmel olan bizim en çok etkileyen bakacağız. Sonuçlar, biz bazı önemli farklar kategorik Ölçümleriyle analiz edilirken gördüğümüz olanlara oldukça benzerdir:
+
+- Sağdaki sütun grafiği ortalamalar yüzdeleri yerine arıyor. Bu nedenle bize mükemmel bir mutfak hizmeti ile bir ev ortalama ev fiyatı (çubuk yeşil) nedir mükemmel bir mutfak (noktalı çizgi) olmadan bir ev ortalama ev fiyatına kıyasla gösterir
+- Kabarcık numara hala yeşil bir çubuk ve kırmızı noktalı çizgi arasındaki farkı ancak bir sayı olarak ifade edilir ($158. 49K) yerine bir olasılığını (1.93 x). Ortalama benzeri, görev açısından kritik uygulamaları ile mükemmel kitchens neredeyse $160 K görev açısından kritik uygulamaları mükemmel kitchens olmadan daha pahalıdır.
+
+![Sayısal hedef kategorik öğrenilenler](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
+
+Etkiyi arıyoruz aşağıdaki örnekte ev fiyatı temel alınarak sürekli bir faktör (ev yeniden modellenmiş yıl) sahiptir. Nasıl sürekli öğrenilenler kategorik ölçümler için analiz ediyoruz için karşılaştırıldığında farkları aşağıdaki gibidir:
+
+-   Sağ bölmede dağılım grafiğinde noktalara yeniden modellenmiş yılın her benzersiz değer için ortalama ev fiyat çizer. 
+-   Kabarcık değer ne kadar ortalama Merkezi tarafından fiyat artırır gösterir (Bu durumda $2. 87k) ne zaman evi olan yıl yeniden modellenmiş artar, standart sapma (Bu durumda 20 yıl)
+
+![Sayısal hedef sürekli öğrenilenler](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
+
+Son olarak, ortalama yılı arıyoruz ölçüler söz konusu olduğunda bir ev oluşturulmuştur. Analiz burada aşağıdaki gibidir:
+
+-   Tablodaki her bir benzersiz değer için ortalama ev fiyat sağ bölmesinde dağılım grafiği çizim
+-   Kabarcık değer ne kadar ortalama Merkezi tarafından fiyat artırır gösterir (Bu durumda 1 ABD Doları. 35K) olduğunda ortalama yıl artar, standart sapma (Bu durumda 30 yıl)
+
+![Sayısal hedef öğrenilenler ölçer](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+
+## <a name="interpret-the-results-top-segments"></a>Sonuçları yorumlamanıza: Üst segmentleri
+
+Burada evi ortalama fiyatları grupları sayısal hedefleri göstermek için üst segmentleri genel kümesinde daha yüksektir. Örneğin, aşağıdaki görebiliriz **Segment 1** görev açısından kritik uygulamaları yapılan burada **GarageCars** (otomobiller Garaj uygun olabilir sayısı) 2'den büyük ve **RoofStyle** HIP olduğu. Görev açısından kritik uygulamaları bu özelliklere sahip, ortalama fiyatını, $355 genel ortalama $180 K olan veri karşılaştırıldığında K vardır.
+
+![Sayısal hedef öğrenilenler ölçer](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme 
  
-**Önizlemenin sınırlamaları nelerdir?** 
+**Önizleme sınırlamaları nelerdir?** 
  
-Ana etmenler görseli şu anda genel önizleme aşamasındadır ve kullanıcıların bilmesi gereken bazı sınırlamaları vardır. Şu anda kullanılamayan işlevler: 
-- Toplamlardan/ölçülerden oluşan ölçümleri çözümleme 
-- Görseli Power BI Embedded’de kullanma
-- Görseli Power BI mobil uygulamalarında kullanma
-- SSL desteği 
-- Doğrudan Sorgu desteği 
-- Canlı Bağlantı desteği 
+Görsel kilit şu anda genel Önizleme aşamasındadır ve bazı sınırlamalar vardır. Şu anda kullanılabilir değil işlevselliğini içerir: 
+- Toplamaları veya ölçüler olan ölçümleri analiz ediliyor.
+- Power BI Embedded görselde kullanma.
+- Power BI mobil uygulamalarında görselde kullanma.
+- RLS desteği.
+- Doğrudan sorgu desteği.
+- Canlı bağlantı desteği.
+
+![Sayısal soru](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+
+**Hiçbir öğrenilenler veya Segment bulunamadı bir hata görüyorum Bunun nedeni nedir?** 
+
+![Hiçbir öğrenilenler hata bulundu](media/power-bi-visualization-influencers/power-bi-error1.png)
+
+
+Alanları dahil olduğunda bu hata oluşur. **tarafından açıklayan** ancak hiçbir öğrenilenler bulunamadı. 
+- Ölçüm çözümleme hem de dahil **Çözümle** ve **tarafından açıklayan**. Kaldırın **tarafından açıklayan**. 
+- Açıklayıcı alanlarınızın çok az gözlem içeren çok fazla kategorisi var. Bu durum öğrenilenler faktörlerdir belirlemek görselleştirmenin zorlaştırır. Yalnızca birkaç gözlemlere tabanlı genelleştirmek zordur. Sayısal bir alan analiz, geçiş isteyebilirsiniz **kategorik analiz** için **sürekli analiz** içinde **biçimlendirme bölmesinde** altında  **Analiz** kart.
+- Genelleştirmek için yeterli gözlemleri, açıklayıcı Etkenler vardır, ancak görselleştirme rapora anlamlı bağıntıları bulamadı.
  
-**Hiçbir etmen/segment bulunamadığına ilişkin bir hata görüyorum. Bunun nedeni nedir?**  
+**Çözümleme ölçüm analizi çalıştırmak için yeterli veri yok bir hata görüyorum Bunun nedeni nedir?** 
 
-![hata - hiçbir etmen bulunamadı](media/power-bi-visualization-influencers/power-bi-error1.png)
+![Yeterli veri hatası](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
 
+Görselleştirmenin, diğer gruplara göre bir grup için veri desenlerinde bakarak çalışır. Örneğin, düşük derecelendirme kıyasla yüksek derecelendirme verdiğiniz müşteriler verdiğiniz müşteriler arar. Modelinizdeki verileri yalnızca birkaç gözlemler varsa, desenleri bulmak zordur. Görselleştirmeyi anlamlı öğrenilenler bulmak için yeterli veri yoksa, daha fazla veri analizi çalıştırmak için gereklidir gösterir. 
 
-Bu hata, **Açıklama ölçütü**'ne alanları eklediğinizde ama hiçbir etmen bulunamadığında oluşur.   
-- Çözümlediğiniz ölçümü hem ‘Çözümle’ hem de ‘Açıklama ölçütü’ alanına eklediniz (**Açıklama ölçütü**'nden kaldırmalısınız) 
-- Açıklayıcı alanlarınızın çok az gözlem içeren çok fazla kategorisi var. Bu durumda görselleştirme hangi faktörlerin etmen olduğunu saptamakta zorlanır çünkü yalnızca birkaç gözlemle öğeleri genelleştirmek zordur 
-- Açıklayıcı faktörlerinizin genelleştirme yapmak için yeterli sayıda gözlemi var ama görselleştirme raporlayabileceği anlamlı bağıntılar bulamadı 
+Seçili durum için en az 100 gözlemleri sahip olmasını öneririz. Bu durumda, değişim sıklığı müşteriler durumudur. Ayrıca, karşılaştırma için kullandığınız durumlar için en az 10 gözlemler gerekir. Bu durumda, karşılaştırma durum değişim olmayan müşteriler şeklindedir.
+
+Sayısal bir alan analiz, geçiş isteyebilirsiniz **kategorik analiz** için **sürekli analiz** içinde **biçimlendirme bölmesinde** altında  **Analiz** kart.
+
+**Bir hata görüyorum, bir alanda *tarafından açıklayan* ı çözümleme ölçüm içeren tablo için benzersiz bir şekilde ilişkili değil. Bunun nedeni nedir?**
  
-**Çözümlediğim ölçümün çözümlemeyi çalıştırmak için yeterli verisi olmadığına ilişkin bir hata görüyorum. Bunun nedeni nedir?**  
+Analiz analiz ediliyor. alanın tablo düzeyi üzerinde çalışır. Örneğin, müşteri geri bildirimi hizmetiniz için Analiz, bir müşteri, yüksek derecelendirme veya düşük derecelendirme olup verdiğiniz belirten bir tablo olabilir. Bu durumda, analiz müşteri tablo düzeyinde çalışıyor. 
 
-![hata-yeterli veri yok](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
-
-Görselleştirmenin çalışmasında, bir gruptaki (örneğin düşük derecelendirmeler yapan müşteriler) verilerin diğer gruplarla (örneğin yüksek derecelendirmeler yapan müşteriler) karşılaştırmalı desenlerine bakılır. Modelinizdeki verilerin çok az gözlemi olduğunda desenleri bulmak zordur. Görselleştirmenin anlamlı etmenler bulmaya yetecek kadar verisi yoksa, çözümlemeyi çalıştırmak için daha fazla veri gerektiğini belirtir. Seçilen durum (giden müşteriler) için en az 100 gözleminizin ve karşılaştırma yapmak için kullandığınız durumlar (gitmeyen müşteriler) için en az 10 gözleminiz olmasını öneririz.  
+Ölçümünüzün içeren tabloda daha ayrıntılı bir düzeyde tanımlanan bir ilişkili tablo varsa, bu hatayı görürsünüz. Bir örnek aşağıda verilmiştir: 
  
-**‘Açıklama ölçütü’ altındaki bir alanın çözümlediğim ölçümü içeren tabloyla arasında benzersiz bir ilişki olmadığını belirten bir hata görüyorum. Bunun nedeni nedir?**  
+- Hizmetinizin düşük derecelendirme müşteriye yönetendir analiz edin.
+- Müşteri, hizmeti tüketiyor cihaz verdikleri incelemeleri etkiler, görmek istediğiniz.
+- Bir müşteri hizmeti birden çok farklı şekillerde kullanabilir.
+- Aşağıdaki örnekte, müşteri 10000000 hizmetiyle etkileşim kurmak için bir tarayıcı hem bir tablet kullanır.
+
+![Ölçümünüzün içeren tabloda daha ayrıntılı bir düzeyde tanımlanan bir ilişkili tablo](media/power-bi-visualization-influencers/power-bi-error2.png)
+
+Cihaz sütunu açıklayıcı bir faktör olarak kullanmayı denerseniz, şu hatayı bakın: 
+
+![Yanlış sütun hatasını](media/power-bi-visualization-influencers/power-bi-error3.png)
+
+Cihaz müşteri düzeyinde tanımlı olmaması nedeniyle bu hata görüntülenir. Bir müşteri hizmeti birden fazla cihazda kullanabilir. Görselleştirme kalıpları bulmak müşterinin bir öznitelik cihazı olması gerekir. Anlayışınızı iş bağımlı çeşitli çözümler vardır: 
  
-Çözümleme, çözümlenen alanın tablo düzeyinde çalıştırılır. Örneğin, hizmetiniz için müşteri geri bildirimlerini çözümlüyorsanız müşterinin yüksek derecelendirme mi yoksa düşük derecelendirme mi yaptığını gösteren bir tablonuz olabilir. Bu durumda, çözümlemeniz müşteri tablosu düzeyinde çalıştırılabilir. 
-
-Bununla ilişkili olan ve ölçümünüzü içeren tablodan daha yüksek ayrıntı düzeyiyle tanımlanan bir tablonuz varsa, bu hatayla karşılaşırsınız. Şimdi bunu bir örnekle gösterelim: 
+- Cihaz sayısı özetleme değiştirebilirsiniz. Örneğin, bir müşteri veren puanı cihaz sayısını etkileyebilir, sayısı kullanın. 
+- Belirli bir cihazdaki hizmet kullanan bir müşterinin derecelendirme etkiler, görmek için cihaz sütunu Özet.
  
-- Hizmetiniz için düşük derecelendirmeler yapan müşterileri neyin yönlendirdiğini çözümlüyorsunuz 
-- Müşterinin hizmetinizi kullandığı cihazın, değerlendirmesini etkileyip etkilemediğini görmekle ilgileniyorsunuz 
-- Müşteri bir hizmeti birçok farklı yolla kullanabilir   
-- Aşağıdaki örnekte, kimlik numarası 10000000 olan müşteri hizmetle etkileşim kurmak için hem tarayıcı hem de tablet kullanıyor 
+Bu örnekte, tablet ve tarayıcı, mobil, yeni sütun oluşturmak için verileri özetlenmiş. Artık bu belirli cihazları kullanabilirsiniz **tarafından açıklayan**. Tüm cihazlar öğrenilenler olmasını açın ve tarayıcı müşteri puanı üzerinde en büyük etkisi.
 
-![hata - bununla ilişkili olan ve ölçümünüzü içeren tablodan daha yüksek ayrıntı düzeyiyle tanımlanan bir tablonuz vardır](media/power-bi-visualization-influencers/power-bi-error2.png)
+Daha kesin Tarayıcı hizmeti kullanmak için kullanmayın müşteriler yapan müşteriler daha düşük bir puan vermek 3.79 bir kez daha yüksektir. Alt Aşağı listede, mobil tersi için de geçerlidir. Mobil uygulamayı kullanan müşteriler olmayan müşterilerin daha düşük bir puan vermek daha yüksektir. 
 
-Açıklayıcı faktör olarak cihaz sütununu kullanmaya çalışırsanız aşağıdaki hatayı görürsünüz: 
+![Çözüldü](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-![hata-yanlış sütun](media/power-bi-visualization-influencers/power-bi-error3.png)
+**Ölçüler my analizi eklenmeyen bir uyarı görüyorum. Bunun nedeni nedir?** 
 
-Bunun nedeni cihazın müşteri düzeyinde tanımlanmamış olmasıdır (bir müşteri birden çok cihazda hizmeti kullanabilir). Görselleştirmenin desenleri bulabilmesi için cihazın müşteri için bir özniteliğe dönüşmesi gerekir. Bu durumda, iş anlayışıma bağlı olarak birkaç çözümüm vardır: 
+![Ölçüler hata dahil değil](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+
+
+Analiz analiz ediliyor. alanın tablo düzeyi üzerinde çalışır. Müşteri karmaşıklığını çözümleyin, bir müşteri veya çoğaltılmaları olup olmadığını belirten bir tablo olabilir. Bu durumda, analiz müşteri tablo düzeyinde çalışır.
  
-- Örneğin, cihaz sayısının müşterinin verdiği puan üzerinde etkisi olduğuna inanıyorsam cihazın özetleme şeklini cihaz sayısı olarak değiştirebilirim 
-- Hizmeti belirli bir cihazda kullanmanın müşteri derecelendirmesini etkileyip etkilemediğini görmek için cihaz sütununu özetleyebilirim  
+Ölçüler ve toplamlar tablo düzeyinde analiz varsayılan olarak. Ortalama aylık harcama için bir ölçü varsa, müşteri tablo düzeyinde çözümleniyordu. 
+
+Müşteri tablosu benzersiz bir tanımlayıcı yoksa, ölçü değerlendirilemiyor ve analiz tarafından göz ardı edilir. Bu durumu önlemek için benzersiz bir tanımlayıcı, ölçüm olan tablo olduğundan emin olun. Bu durumda, müşteri tablo olduğundan ve müşteri kimliğidir benzersiz tanımlayıcısı. Power Query kullanarak bir dizin sütunu eklemek kolaydır.
  
-Bu örnekte, verilerimi özetleyerek ‘tarayıcı, ‘mobil ve ‘tablet için yeni sütunlar oluşturdum. Artık bunları ‘Açıklama ölçütü’ olarak kullanabilirim. Aslında tüm cihazların birer etmen olduğunu ve müşteri puanında en büyük etkinin tarayıcıya ait olduğunu buluruz. 
+**Çözümleme ölçüm 10'dan fazla benzersiz değerler olduğunu ve bu miktar my analiz kalitesini etkileyebilecek bir uyarı görüyorum. Bunun nedeni nedir?** 
 
-Daha kesin belirtmek gerekirse, hizmeti tarayıcıyla kullanmayan müşterilerin düşük puan verme olasılığı tarayıcı kullananlardan 3,79 kat fazladır. Listenin alt kısmında mobil uygulama için bunun tersinin doğru olduğunu görürüz. Mobil uygulama kullanan müşterilerin düşük puan verme olasılığı kullanmayanlara göre daha yüksektir.  
+Yapay ZEKA görselleştirme kategorik alanlar ve sayısal alanlar çözümleyebilirsiniz. Kategorik alanlar söz konusu olduğunda, örnek karmaşası gösterilebilir Evet veya Hayır, ve müşteri memnuniyetini yüksek, Orta veya düşük. Analiz etmek için kategorileri sayısının artırılması Kategori başına daha az gözlemler olduğu anlamına gelir. Bu durum, verileri kalıpları bulmak görselleştirme zorlaştırır. 
 
-![hata-çözüldü](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
+Sayısal alanlar analiz edilirken sayısal alanlar gibi metin sütunları ise kategorik veriler için yaptığınız gibi bu durumda aynı analiz çalışacak değerlendirmesini arasında seçim yapmanız (**kategorik analiz**). Farklı sayıda varsa analiz öneririz değerleri Değiştir **sürekli analiz** biz ne zaman numaraları artırmak veya azaltmak yerine bunları gibi farklı değerleri değerlendirmesini desenleri Infer anlamına gelir. Geçiş yapabilirsiniz **kategorik analiz** için **sürekli analiz** içinde **biçimlendirme bölmesinde** altında **analiz** kart.
 
-**Ölçülerin çözümlememe dahil edilmediğine ilişkin bir uyarı görüyorum. Bunun nedeni nedir?** 
+Daha güçlü öğrenilenler bulmak için benzer değerler tek bir birim gruplandırmanız önerilir. Fiyat için bir ölçüm varsa, örneğin, yüksek, Orta ve düşük kategorileri ve tek tek fiyat noktalarını kullanarak benzer fiyatları gruplandırarak daha iyi sonuçlar elde olasılığınız vardır. 
 
-![hata-ölçüler dahil değil](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+![Uyarı 10'dan fazla benzersiz faktörleri](media/power-bi-visualization-influencers/power-bi-error4.png)
 
 
-Çözümleme, çözümlenen alanın tablo düzeyinde çalıştırılır. Müşteri kaybını çözümlüyorsanız bir müşterinin gidip gitmediğini bildiren bir tablonuz olabilir. Bu durumda, çözümlemeniz müşteri tablosu düzeyinde çalıştırılabilir.
+**Kilit olmaları gerektiği şekilde, görünen verilerimi Etkenler vardır, ancak bunlar değil. Bu nasıl olur?**
+
+Aşağıdaki örnekte, düşük derecelendirme 14.93 yüzdesi ile düşük derecelendirme tüketiciler müşterileri sürücü. Yönetici rolü de bir yüksek oranda %13.42, düşük derecelendirme sahiptir ancak bir yetkili olarak kabul değil. 
+
+Bu belirleme öğrenilenler bulduğunda görselleştirmeyi veri noktalarının sayısını da dikkate nedeni. Aşağıdaki örnek, birden fazla 29,000 Tüketicileri ve 10 kat daha az Yöneticiler, ilgili 2,900 sahiptir. Bunların yalnızca 390 düşük derecelendirme getirdi. Görsel yönetici dereceye sahip bir deseni bulunup veya yeni bir fırsat olup olmadığını belirlemek için yeterli veri yok bulma. 
+
+![Öğrenilenler nasıl belirlenir](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Kategorik analiz için kilit nasıl hesaplar?**
+
+Yapay ZEKA görselleştirme arka planda kullanan [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kilit hesaplamak için bir Lojistik regresyon çalıştırılacak. Lojistik regresyon, farklı grupları birbiriyle karşılaştıran istatistiksel bir modeldir. 
+
+Düşük derecelendirme yönetendir görmek istiyorsanız, düşük puanı verdiğinizi müşteriler yüksek puanı verdiğinizi müşterilerden farkı Lojistik regresyon arar. Yüksek, bağımsız ve düşük puanlar gibi birden çok kategori varsa, düşük derecelendirme vermediniz müşterilerden farkı en düşük derecelendirme verdiğiniz müşterileri arayın. Bu durumda, nasıl düşük puanı verdiğinizi müşteriler yüksek derecelendirme veya bağımsız bir derecelendirme veren müşterilerden farklıdır? 
  
-Ölçüler ve toplamlar varsayılan olarak tablo düzeyinde çözümlenir. ‘Ortalama aylık harcama’ için bir ölçümüz olsaydı, bu ölçü müşteri tablosu düzeyinde çözümlenebilirdi.  
-
-Müşteri tablosunun benzersiz tanımlayıcısı yoksa, ölçüyü hesaplayamayız ve bu ölçü çözümleme tarafından yoksayılır. Bunu önlemek için, ölçümünüzün bulunduğu tablonun (bu örnekte müşteri tablosu) benzersiz tanımlayıcısı (örneğin, müşteri kimliği) olmasına dikkat edin. Ayrıca Power Query kullanarak kolayca bir dizin sütunu eklenebilir.
+Lojistik regresyon, veri desenlerinde arar ve müşteriler, düşük derecelendirme verdiğiniz yüksek derecelendirme veren müşterilerden nasıl değişebilir için görünür. Bu, örneğin, daha fazla destek biletlerini müşterilerle veya çok az destek biletlerini müşterilerle daha düşük derecelendirme daha yüksek oranda verdiğiniz bulabilirsiniz.
  
-**Çözümlediğim ölçümün 10'dan fazla benzersiz değeri olduğuna ve bu durumun çözümlememin kalitesini etkileyebileceğine ilişkin bir uyarı görüyorum. Bunun nedeni nedir?**  
+Lojistik regresyon nasıl çok sayıda veri noktanız varsa dikkate alır. Örneğin, bir yönetici rolü oynar müşteriler orantılı olarak daha negatif puan verin, ancak yalnızca birkaç Yöneticiler vardır, bu etkili kabul değil. Bir desen çıkarsamak yeterli veri noktası olmadığından, bu belirlemeyi yapılır. Bir wald anlatıyor test olarak bilinen bir istatistik test bir faktör bir yetkili olarak kabul edilip edilmediğini belirlemek için kullanılır. Görsel, eşiği belirlemek için 0,05 p-değeri kullanır. 
 
-AI görselleştirmesi kategorileri çözümleyecek şekilde iyileştirilmiştir (örneğin, Kayıp için ‘Evet’ veya ‘Hayır’, Müşteri Memnuniyeti için ‘Yüksek’, ‘Orta’ veya ‘Düşük’). Çözümlenecek kategori sayısının artması kategori başına daha az gözlemimiz olduğu anlamına gelir ve görselleştirmenin verilerdeki desenleri bulması zorlaşır. 
+**Sayısal analiz için kilit nasıl hesaplar?**
 
-Daha güçlü etmenler bulabilmek için benzer değerlerin tek bir birimde gruplandırılmasını öneririz. Örneğin fiyat için bir ölçümünüz varsa, tek tek fiyat noktalarını kullanmak yerine benzer fiyatları ‘Yüksek’, ‘Orta’, ‘Düşük’ gibi demetlerde gruplandırarak daha iyi sonuçlar elde edebilirsiniz. 
+Yapay ZEKA görselleştirme arka planda kullanan [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kilit hesaplamak için bir doğrusal regresyon çalıştırılacak. Bir doğrusal regresyon, alanın, analiz sonucunu nasıl değiştiğini, görünümler, açıklayıcı etkenlere bağlı olarak bir istatistik modelidir.
 
-![hata-ondan fazla benzersiz faktör var](media/power-bi-visualization-influencers/power-bi-error4.png)
+Örneğin, biz ev fiyatları analiz, doğrusal regresyon mükemmel bir mutfak ev fiyatı temel alınarak olacaktır etkili en arayın. Görev açısından kritik uygulamaları mükemmel kitchens ile görev açısından kritik uygulamaları mükemmel kitchens olmadan kıyasla daha az veya ev fiyatları genellikle var mı?
 
-
-**Verilerimde ana etmen olması gerekiyor gibi görünen ama öyle olmayan faktörler var. Bu nasıl olur?**
-
-Aşağıdaki örnekte tüketici olan müşterilerin düşük derecelendirmeler yaptığını görüyoruz (derecelendirmelerin %14,93'ü düşük). İlginç olan, yönetici rolünde de düşük derecelendirme oranı yüksek olmasına karşın (%13,42) bunun bir etmen olarak kabul edilmemesidir. 
-
-Bunun ardındaki neden, görselleştirmenin etmenleri bulurken veri noktalarının sayısını da dikkate almasıdır. Aşağıdaki örnekte 29.000'den çok tüketicimiz varken yöneticilerin sayısın bunun onda biri kadardır (yaklaşık 2.900). Üstelik, bunlardan yalnızca 390 tanesi düşük derecelendirme yapmıştır. Dolayısıyla görselin yönetici derecelendirmelerinde gerçekten bir desen mi bulduğunu yoksa bunun rastlantı mı olduğunu saptamak için yeterli verisi yoktur.  
-
-![hata-etmenler nasıl saptanır](media/power-bi-visualization-influencers/power-bi-error5.png)
-
-**Ana etmenleri nasıl hesaplıyorsunuz?**
-
-AI görselleştirmesi ana etmenleri hesaplamak için [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kullanarak arka planda bir lojistik regresyon çalıştırır. Lojistik regresyon, farklı grupları birbiriyle karşılaştıran istatistiksel bir modeldir. Düşük derecelendirmeye neyin yol açtığına bakıyor olsaydık, lojistik regresyon düşük puan veren müşterilerin yüksek puan verenlerden ne açıdan farklı olduğuna bakardı. Birden çok kategorimiz olsaydı (yüksek puan, nötr puan, düşük puan), düşük derecelendirme yapan müşterilerin diğerlerinden ne açıdan farklı olduğuna bakardık (bunlarla yüksek derecelendirme VEYA nötr derecelendirme yapanlar arasındaki fark). 
- 
-Lojistik regresyon verilerdeki desenleri arar; düşük derecelendirme yapan müşterilerin yüksek derecelendirme yapanlardan ne açıdan farklı olduğuna bakar. Örneğin, daha fazla destek bileti olan müşterilerin düşük derecelendirme yapma yüzdesinin destek bileti az olan veya hiç olmayanlardan çok daha yüksek olduğunu bulabilir.
- 
-Lojistik regresyon kaç veri noktası olduğunu da göz önünde bulundurur. Örneğin yönetici rolü üstlenen müşteriler nispeten daha fazla olumsuz puan veriyorsa ama çok az yönetici varsa, bu bir etmen olarak göz önüne alınmaz. Çünkü bir desen çıkarmaya yetecek kadar veri noktası yoktur. Bir faktörün etmen olarak kabul edilip edilmeyeceğini saptamak için bir istatistik testi (Wald testi) kullanılır. Görsel, eşiği belirlemek için 0,05 p-değeri kullanır. 
-
+Kümenin doğrusal regresyonunu veri noktası sayısı da göz önünde bulundurur. Örneğin, görev açısından kritik uygulamaları tenis mahkemelerde ile daha yüksek fiyatları varsa ancak çok az sayıda görev açısından kritik uygulamaları tenis mahkeme sahip sahibiz bu etkili olarak kabul edilmez. Bir desen çıkarsamak yeterli veri noktası olmadığından, bu belirlemeyi yapılır. Bir wald anlatıyor test olarak bilinen bir istatistik test bir faktör bir yetkili olarak kabul edilip edilmediğini belirlemek için kullanılır. Görsel, eşiği belirlemek için 0,05 p-değeri kullanır. 
 
 **Segmentleri nasıl hesaplıyorsunuz?**
 
-AI Görselleştirmesi ilginç alt grupları bulmak için [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) kullanarak arka planda bir karar ağacı çalıştırır. Karar ağacının amacı ilgilendiğimiz ölçümde görece çok veri noktasından oluşan bir alt grup bulmaktır (örneğin, düşük derecelendirme yapan müşteriler). 
+Yapay ZEKA görselleştirme arka planda kullanan [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) ilginç alt grupları bulmak için bir karar ağacı çalıştırılacak. Karar ağacının amacı, ilgilendiğiniz ölçümündeki görece yüksek bir veri noktaları alt elde edersiniz sağlamaktır. Bu, düşük derecelendirme müşterilerle veya görev açısından kritik uygulamaları yüksek fiyatlarla olabilir.
 
-Karar ağacı açıklayıcı faktörlerin her birini alır ve hangi faktörün en iyi ‘bölünmeyi’ sağlayacağını gerekçelendirmeyi dener. Örneğin yalnızca büyük kurumsal müşterileri içerecek şekilde verileri filtrelersek, bizim için yüksek derecelendirme yapan müşterileri düşük derecelendirme yapanlardan ayırmış olur muyuz? Belki de yalnızca güvenlik hakkında yorum yapan müşterileri içerecek şekilde filtrelemek daha iyi sonuç verecektir. 
+Karar ağacı her açıklayıcı faktörü alır ve neden hangi faktörü verir, en iyi şekilde çalışır *bölme*. Yalnızca büyük işletmelere dahil edilecek verileri filtreleme, örneğin, düşük derecelendirme ve yüksek derecelendirme verdiğiniz müşteriler kullanıma ayrı? Veya belki de daha iyi yalnızca güvenlik hakkında yorum müşteriler dahil edilecek verileri filtrelemek için? 
 
-Karar ağacı verileri böldükten sonra söz konusu veri alt grubunu (örneğin, güvenlik hakkında yorum yapan müşteriler) alır ve yalnızca bu verilerde bir sonraki uygun bölmenin ne olacağını bulmaya çalışır. Her bölme işleminden sonra, bir desen çıkarmak için bunun yeterli veri noktası içeren bir temsil grubu mu yoksa verilerdeki bir anomali mi olduğunu da (dolayısıyla gerçek bir segment olmadığını) dikkate alır. (Bölme koşulunun istatistiksel açıdan anlamlı olup olmadığını denetlemek için 0,05 p-değeriyle başka bir istatistik testi uygulanır). 
+Karar ağacı bölme yaptıktan sonra veri alt alır ve bu veriler için en iyi sonraki bölme belirler. Bu durumda, müşterilerin güvenlik açıklamalı alt grubudur. Her bölme sonra ayrıca bir deseni veya veri ve gerçek bir kesimini bir anomali olup çıkarsamak için yeterli olması bu grup için yeterli veri noktası olup olmadığını göz önünde bulundurur. Başka bir istatistik test 0,05, p değeriyle bölünmüş koşulun istatistiksel önemi denetlemek için uygulanır. 
 
-Karar ağacının çalışması bittiğinde, tüm bölmeleri alır (güvenlik yorumları, büyük kuruluş) ve Power BI filtrelerini oluşturur. Bu filtre bileşimi görselde bir segment olarak paketlenir. 
+Karar ağacı çalışmayı tamamladıktan sonra güvenlik açıklamaları ve büyük bir kurumsal gibi tüm bölmeleri, alır ve Power BI filtreler oluşturur. Bu filtre bileşimi görselde bir segment olarak paketlenir. 
  
-**‘Açıklama Ölçütü’ altına daha fazla alan sürükledikçe neden bazı faktörler etmen haline geliyor veya etmen olmaktan çıkıyor?**
+**Neden bazı faktörleri öğrenilenler haline veya daha fazla alanlarına taşırım gibi öğrenilenler olan Durdur *tarafından açıklayan* alan?**
 
-Görselleştirme tüm açıklayıcı faktörleri birlikte değerlendirir. Başka bir deyişle bir faktör kendi başına bir etmen olabilir ama diğer faktörlerle birlikte değerlendirildiğinde etmen olmayabilir. Açıklayıcı faktörler olarak yatak odası sayısı ve evin boyutunu kullanıp bir evin fiyatını neyin yükselttiğini çözümlediğimizi düşünün: 
-- Kendi başına, daha fazla yatak odası ev fiyatlarını yukarı çekebilir 
-- Evin boyutu da çözümlemeye eklendiğinde, artık evin boyutunu sabit tutarak yatak odası sayısına ne olduğuna bakarız 
-- Evin boyutunu 140 metrekareye sabitlersek, sürekli artan yatak odası sayısının ev fiyatını ciddi düzeyde artırması düşük bir olasılıktır. Evin boyutu göz önüne alınınca, yatak odası sayısı artık eskisi kadar önemli bir faktör olmayabilir. 
+Görselleştirme tüm açıklayıcı faktörleri birlikte değerlendirir. Bir faktör bir etkileyen tek başına olabilir, ancak diğer faktörlerle edildiği durumlarda da etkileyemez. Yatak ve açıklayıcı bir faktör olarak ev boyutu ile yüksek olacak şekilde bir merkezi fiyat yönetendir çözümlemek istediğiniz varsayalım:
+
+- Tek başına daha fazla yatak ev fiyatlarıyla yüksek olması için bir sürücü olabilir.
+- Analizi de dahil olmak üzere merkezi boyutu, ev boyutu sabit kaldığı sürece yatak için ne Şimdi Ara anlamına gelir.
+- 1500 metrekare ev boyutundadır, yatak sayısı sürekli bir artış ev fiyat önemli ölçüde artırır düşüktür. 
+- Yatak ev boyutu olarak kabul ediliyordu haliyle bir faktör, önemli olmayabilir. 
 
 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki birleşik grafikler](power-bi-visualization-combo-chart.md)
-
-[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Power BI'daki birleşik grafikler](power-bi-visualization-combo-chart.md)
+- [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

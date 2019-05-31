@@ -12,11 +12,11 @@ ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430775"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61147149"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
 

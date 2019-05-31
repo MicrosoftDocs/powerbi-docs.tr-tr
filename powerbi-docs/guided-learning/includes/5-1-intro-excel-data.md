@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271523"
+---
 Power BI **Destekli Öğrenme** kursunun **Power BI ve Excel** bölümüne hoş geldiniz.
 
 Büyük olasılıkla daha önce **Excel**'i kullandınız. Rapor oluşturmak veya görüntülemek ya da pasta grafikleri veya başka görseller oluşturmak için Excel'i kullanmış olabilirsiniz. Biraz daha teknik çözümler oluşturmak için **Power Pivot**'u veya **Power Query**'yi kullanmış da olabilirsiniz. Bu tür deneyimleriniz varsa Power BI hem sizin için hem de çalışma kitaplarınız için doğru yer.

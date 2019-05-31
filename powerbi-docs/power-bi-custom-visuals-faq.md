@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980370"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977214"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -149,7 +149,7 @@ Sertifikasyonun isteğe bağlı bir işlem olduğunu unutmayın. IAP görseliniz
 
 ### <a name="how-to-get-support"></a>Nasıl destek alınır?
 
-Tüm sorularınız, yorumlarınız veya sorunlarınız için özel görseller destek takımına başvurmaktan çekinmeyin: *pbicvsupport@microsoft.com* .  
+Tüm sorularınız, yorumlarınız veya sorunlarınız için özel görseller destek takımına başvurmaktan çekinmeyin: *pbicvsupport@microsoft.com*  .  
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

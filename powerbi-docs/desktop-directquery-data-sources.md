@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826572"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305467"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 
@@ -24,22 +24,25 @@ ms.locfileid: "56826572"
 Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (Beta)
+* Azure HDInsight Spark
 * Azure SQL Veritabanı
 * Azure SQL Veri Ambarı
-* Google BigQuery (Beta)
+* Google BigQuery
+* HDInsight Etkileşimli Sorgu
 * IBM DB2 veritabanı
-* IBM Netezza (Beta)
+* IBM Netezza
 * Impala (2.x sürümü)
 * Oracle Database (12 ve sonraki sürümler)
+* Oracle Essbase
 * SAP Business Warehouse Uygulama Sunucusu
-* SAP Business Warehouse İleti Sunucusu (Beta)
+* SAP Business Warehouse İleti Sunucusu
 * SAP HANA
 * Snowflake
-* Spark (Beta) (0.9 ve sonraki sürümler)
+* Spark (sürüm 0.9 ve üzeri)
 * SQL Server
 * Teradata Veritabanı
-* Vertica (Beta)
+* Vertica
 
 Adının yanında **(Beta)** veya **(Önizleme)** bulunan veri kaynakları, değişikliğe tabidir ve üretim ortamında kullanımları desteklenmez. Ayrıca bunlar, **Power BI hizmetinde** yayımlanan raporlarda da desteklenmeyebilir. Bu, yayımlanmış bir raporu açma veya veri kümesini araştırma işlemlerinin hatayla sonuçlanabileceği anlamına gelir.
 
