@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264036"
+---
 Power BI, konuşma dilinde ifadeler ve sorular kullanarak verilerinize ilişkin sorular sormanıza olanak sağlayan güçlü bir dil tanıma motoru ile birlikte gelir. Böylece, yalnızca basit sorular sorarak rapor ve görselleştirmelerin yanı sıra grafikler ve graflar oluşturabilirsiniz.
 
 Verilerinize ilişkin bir soru sormak için, Power BI'da bir pano açın. Ekranın üst kısmında gördüğünüz giriş kutusunda, görüntülenen verilerle ilgili sorular sorabilirsiniz. Bu özellik *Soru-Cevap* olarak adlandırılır.
