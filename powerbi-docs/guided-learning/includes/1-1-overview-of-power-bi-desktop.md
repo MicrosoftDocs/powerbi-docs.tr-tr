@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265194"
+---
 Power BI **Destekli Öğrenme** kursunun **Veri Alma** başlıklı ikinci bölümüne hoş geldiniz. Bu bölümde Power BI Desktop'a odaklanarak Power BI uygulamasının veri merkezli özelliklerinden ve araçlarından birçoğunu ele alacağız. Bu araçların birçoğunu Power BI hizmeti ile de kullanabileceğinizden bu bölümde öğrendikleriniz her ikisi için de geçerli.
 
 Aldığınız veriler bazen istediğiniz düzeyde iyi biçimlendirilmiş veya *temiz* olmayabilir. Bu bölümde, veri alma ve temizlemenin yanı sıra (veri *temizliği* veya veri *dönüştürme* olarak da adlandırılır), veri alma işlemlerinizi kolaylaştıracak bazı gelişmiş ipuçları hakkında bilgi edineceksiniz.

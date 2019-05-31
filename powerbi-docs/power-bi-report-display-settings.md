@@ -1,5 +1,5 @@
 ---
-title: Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları
+title: Power BI raporlarında sayfa görüntüleme ayarları
 description: Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları
 author: maggiesMSFT
 manager: kfile
@@ -8,61 +8,62 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 01e37d34c5a4914206056d19d888cace782ba8f4
-ms.sourcegitcommit: 15d4d4ea18014c64de77b01a5d79207589ba51fc
-ms.translationtype: HT
+ms.openlocfilehash: 8a96371d6cb54d47d412165ef179df78a34b8e19
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "64906540"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412938"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
-Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunun bilincindeyiz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğinizden bu, zaman zaman güç olabilir. 
+Rapor düzeninizin kusursuz için çok önemli olduğunun farkındayız. Siz ve arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülemek çünkü bazı durumlarda, bu, zor olabilir. 
 
-Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme boyutu ise **16:9** şeklindedir. Farklı bir en boy oranı kullanmak veya raporunuzu farklı şekilde sığdırmak istiyorsanız şu iki araçtan faydalanabilirsiniz: ***Sayfa Görünümü*** ayarları ve ***Sayfa Boyutu*** ayarları.
+Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme boyutu ise **16:9** şeklindedir. Farklı bir en boy oranı kullanmak veya raporunuzu farklı şekilde sığdırmak istiyorsanız şu iki araçtan faydalanabilirsiniz: ***Sayfa görünümü*** ayarları ve ***sayfa boyutu*** ayarları.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop uygulamasında Sayfa görünümü ayarlarının konumu
-Sayfa görünümü ayarları hem Power BI hizmetinde hem de Power BI Desktop uygulamasında mevcuttur ancak konumu farklıdır. Aşağıdaki iki bölümde Power BI araçlarında Görünüm ayarlarını nerede bulabileceğiniz açıklanmaktadır.
+## <a name="where-to-find-page-view-settings-in-the-power-bi-service-and-power-bi-desktop"></a>Sayfa görünümü ayarları Power BI hizmetinde ve Power BI Desktop nerede bulacağını
+Sayfa görünümü ayarları hem Power BI hizmetinde hem de Power BI Desktop mevcuttur, ancak arabirim biraz farklıdır. Aşağıdaki bölümlerde, her bir Power BI aracında görünüm ayarlarını nerede bulabileceğiniz açıklanmaktadır.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop'ta
 Rapor görünümü'nde Sayfa görünümü ayarlarını ve telefon düzeni ayarlarını açmak için **Görünüm** sekmesini seçin.
 
-  ![seçim bölmesi](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+  ![Masaüstü sayfa görünümü ayarları](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 
-### <a name="in-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com)
-Power BI hizmetinde bir rapor açın ve sol üst menü çubuğundan **Görünüm**'ü seçin.
+### <a name="in-the-power-bi-service-apppowerbicom"></a>Power BI hizmetinde (app.powerbi.com)
+Power BI hizmetinde bir rapor seçin açın ve **görünümü** sol üst menü çubuğundan.
 
-![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+![Hizmet sayfa görünümü ayarları](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde kullanılabilir. Düzenleme Görünümü'nde, rapor sahibi her bir rapor sayfasına birer sayfa görünümü ayarı atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler.  İş arkadaşlarınız Okuma görünümü'nde Sayfa görünümü ayarlarının *bazılarını* değiştirebilir ancak bu değişiklikler raporu kapattıklarında kaydedilmez.
+Sayfa görünümü ayarları hem de kullanılabilir [Okuma Görünümü ve düzenleme görünümü](consumer/end-user-reading-view.md). Düzenleme Görünümü'nde rapor sahibi her bir rapor sayfaları için sayfa görünümü ayarları atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler. İş arkadaşlarınız Okuma Görünümü'nde değiştirebilirsiniz *bazı* , **sayfa görünümü** ayarları, ancak bu değişiklikler kaydedilmez raporu kapattıklarında olduğunda.
 
-##    <a name="page-view-settings"></a>Sayfa görünümü ayarları
-*Sayfa görünümü* ayarlarının ilk bölümü, rapor sayfanızın tarayıcı penceresiyle görüntülenme biçimini denetler.  Şunlardan birini seçin:
+## <a name="page-view-settings"></a>Sayfa görünümü ayarları
+İlk sayfa görünümü ayarları kümesi, rapor sayfanızın tarayıcı penceresini göre gösterimini denetler. Şunlardan birini seçin:
 
-* **Sayfaya sığdır** (varsayılan): İçerikler sayfaya en iyi şekilde sığacak biçimde ölçeklendirilir
-* **Genişliğe uydur**: İçerikler sayfanın genişliğine sığacak şekilde ölçeklendirilir
-* **Gerçek boyut**: İçerikler tam boyutuyla görüntülenir
+* **Sayfaya Sığdır** (varsayılan): İçeriği, sayfaya en iyi sığacak şekilde ölçeklendirilir
+* **Genişliğe Uydur**: İçeriği içinde sayfanın genişliğine sığacak şekilde ölçeklendirilir
+* **Gerçek Boyut**: İçeriği tam boyutuyla görüntülenir
 
-*Sayfa görünümü* ayarlarının ikinci bölümü, rapor tuvalindeki nesnelerin konumunu denetler
+İkinci sayfa görünümü ayarları denetimleri rapor tuvalindeki nesnelerin konumunu ayarlayın. Şunlardan birini seçin:
 
-* **Kılavuz çizgilerini göster**: Rapor tuvali üzerindeki nesneleri konumlandırmanıza yardımcı olması için kılavuz çizgilerini açar
-* **Kılavuza daya**: **Kılavuz çizgilerini göster** seçeneğiyle birlikte kullanarak nesneleri rapor tuvalinde tam olarak konumlandırabilir ve hizalayabilirsiniz 
-* **Nesneleri kilitle**: Tuval üzerindeki tüm nesneleri kilitleyerek taşıma ve yeniden boyutlandırma özelliklerini devre dışı bırakır
-* **Seçim bölmesi**: Seçim bölmesi, tuval üzerindeki tüm nesneleri listeleyerek gösterme/gizleme seçeneklerini kullanmanızı sağlar
+* **Kılavuz çizgilerini göster**: Yardımcı olmak için konumlandırmanıza nesneleri rapor tuvalinde getirin.
+* **Kılavuza Daya**: İle kullanma **kılavuz çizgilerini göster** tam olarak konumlandırabilir ve nesneleri rapor tuvalinde Hizala. 
+* **Nesneleri Kilitle**: Böylece bunlar yeniden boyutlandırılabilir veya taşınamaz tuval üzerindeki tüm nesneleri kilitleyin.
+* **Seçim Bölmesi**: **Seçimi** bölmesi, tuval üzerindeki tüm nesneleri listeler. Gösterileceği ve gizlemek için karar verebilirsiniz.
 
     ![seçim bölmesi](media/power-bi-report-display-settings/power-bi-selection-pane.png)
 
 
 
-## <a name="page-size-settings"></a>Sayfa Boyutu ayarları
-![](media/power-bi-report-display-settings/power-bi--page-size.png)
+## <a name="page-size-settings"></a>Sayfa boyutu ayarları
+![Sayfa boyutu ayarlarını değiştirme](media/power-bi-report-display-settings/power-bi-page-size.png)
 
-*Sayfa Boyutu* ayarları yalnızca rapor sahipleri tarafından kullanılabilir. Bunun için Power BI hizmetinde (app.powerbi.com) raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açabiliyor olmanız gerekir. Bu ayarlar rapor tuvalinin ekran oranını ve gerçek boyutunu (piksel cinsinden) denetler.   
+**Sayfa boyutu** ayarları yalnızca rapor sahipleri tarafından kullanılabilir. Power BI hizmetinde (app.powerbi.com) raporu açmak için başka bir deyişle [düzenleme görünümü](consumer/end-user-reading-view.md). **Sayfa boyutu** içindeki ayarlardır **görselleştirmeler** bölmesi ve denetimi ekran oranını ve gerçek boyutunu (piksel cinsinden) rapor tuvalinin:   
 
 * 4:3 oranı
 * 16:9 oranı (varsayılan)
@@ -70,12 +71,14 @@ Sayfa Görünümü ayarları [Okuma görünümü ve Düzenleme görünümü](con
 * Letter
 * Özel (piksel cinsinden yükseklik ve genişlik)
 
-## <a name="next-steps"></a>Sonraki Adımlar
-[Sahip olduğunuz Power BI raporlarında Sayfa görünümü ve Sayfa boyutu ayarlarını nasıl kullanacağınızı öğrenin](consumer/end-user-report-view.md).
+## <a name="next-steps"></a>Sonraki adımlar
+[Power BI Desktop'taki rapor görünümü](desktop-report-view.md)
+
+[Sayfa görünümü ve kendi Power BI raporlarında sayfa boyutu ayarlarını değiştirme](consumer/end-user-report-view.md)
 
 [Power BI'daki raporlar](consumer/end-user-reports.md) hakkında daha fazla bilgi edinin
 
-[Power BI - Temel Kavramlar](consumer/end-user-basic-concepts.md)
+[Power BI hizmet tüketicileri için temel kavramlar](consumer/end-user-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

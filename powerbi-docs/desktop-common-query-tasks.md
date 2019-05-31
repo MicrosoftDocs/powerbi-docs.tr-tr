@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239454"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
@@ -63,7 +63,7 @@ Diğer veri bağlantıları da benzer şekilde kurulur. Bir veri bağlantısın�
 Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Verileri şekillendirme ve birleştirme
-Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
+Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
 Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünden alınan) Sorgu Düzenleyicisi’ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
 

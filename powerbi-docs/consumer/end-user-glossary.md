@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662423"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412909"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -141,6 +141,8 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 ## <a name="h"></a>H
 **high-density visuals (yüksek yoğunluklu görseller)** Power BI'ın işleyebileceğinden daha fazla veri noktası içeren görseller. Power BI şekli ve aykırı değerleri göstermek için verilerden örnekleme yapar.
+
+**Giriş** varsayılan yaş Power BI hizmeti kullanıcıları için giriş. Her şeyi değiştirmez. Power BI, giriş ya da yalnızca giriş çağrılabilir.
 
 ## <a name="i"></a>I
 
@@ -288,7 +290,7 @@ Mobil cihazlarda, paylaşma yerel işletim sisteminin paylaşım işlevselliğin
 
 **streaming data (akış verileri)** Bkz. *gerçek zamanlı akış*.
 
-**subscriptions (abonelikler)**, **Abone olma**  
+**subscriptions (abonelikler)** , **Abone olma**  
 Rapor sayfalarına, uygulamalara ve panolara abone olabilir, anlık görüntü içeren e-postalar alabilirsiniz. Power BI Pro lisansı gereklidir.
 
 **summarization (özetleme)** [Power BI Desktop] Tek sütundaki değerlere uygulaman işlem.

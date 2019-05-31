@@ -3,7 +3,7 @@ title: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları gider
 description: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280413"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188107"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
 Veri kümelerini zamanlanmış yenileme için yapılandırmaya çalışırken bir hatayla karşılaşabilirsiniz.
@@ -41,7 +41,7 @@ Hangi veri kaynağının kullanıldığından emin değilseniz Power BI Desktop'
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri Yenileme](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
+[On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)  
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

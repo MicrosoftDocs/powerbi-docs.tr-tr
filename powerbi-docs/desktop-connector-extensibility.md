@@ -7,51 +7,51 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/25/2018
+ms.date: 05/22/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5774fe6979516a0fe70364fea5dd91b7a2a48ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16b96d91a9dd37fa8a502bbcca772438c703cb63
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275744"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412974"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI’da bağlayıcı genişletilebilirliği
 
-Müşteriler ve geliştiriciler Power BI'da bağlanabilecekleri veri kaynağı seçeneklerini var olan bağlayıcıları ve genel veri kaynaklarını (ODBC, OData, Oledb, Web, CSV, XML, JSON gibi) kullanma gibi birçok yöntemle genişletebilir. Geliştiriciler bu veri kaynaklarına ek olarak **Özel Bağlayıcılar** olarak adlandırılan veri uzantıları oluşturabilir ve bir bağlayıcı için sertifika oluşturarak **Sertifikalı Bağlayıcı** haline dönüştürebilir.
+Power BI'da, müşteriler ve geliştiricilerin birçok şekilde bağlandıklarında veri kaynakları genişletebilirsiniz. Bunlar, mevcut bağlayıcılar ve genel veri kaynakları (örneğin, ODBC, OData, Oledb, Web, CSV, XML, JSON) kullanır. Veya veri uzantıları olarak adlandırılır, geliştiriciler oluşturma **özel Bağlayıcılar**ve onları **sertifikalı Bağlayıcılar**.
 
-Şu anda **Özel Bağlayıcıları** kullanma özelliği bir özellik anahtarıyla etkinleştiriliyor. Bu özelliği beta sürümünden genel kullanıma sunmadan önce menüden sisteminizde çalıştırılmasına izin vermek istediğiniz özel kod düzeyini güvenli bir şekilde denetleme seçeneğini ekledik. Bu sayede **Veri Al** iletişim kutusunda tüm özel bağlayıcıların veya yalnızca Microsoft tarafından sertifika verilen ve dağıtılan bağlayıcıların listelenmesini sağlayabilirsiniz.
+Şu anda, etkinleştirdiğiniz **özel Bağlayıcılar** güvenli bir şekilde olanak sağlayan bir menüyü kullanarak, istediğiniz sisteminizde çalıştırmak için özel kod düzeyini denetleme. Tüm özel bağlayıcıları veya sertifikalıdır ve Microsoft tarafından dağıtılan bağlayıcıları seçebileceğiniz **Veri Al** iletişim kutusu.
 
 ## <a name="custom-connectors"></a>Özel bağlayıcılar
 
-**Özel Bağlayıcılar** işletmeniz için kritik öneme sahip küçük API'lerden Microsoft'un bağlayıcı yayımlamadığı sektöre özgü büyük hizmetlere kadar çok farklı özelliklere sahip olabilir. Bu bağlayıcıların çoğu satıcı tarafından dağıtılır ve belirli bir veri bağlayıcısına ihtiyacınız varsa satıcıyla iletişime geçmeniz gerekir.
+**Özel Bağlayıcılar** çok çeşitli olanaklar içerebilir, Microsoft'un küçük API'lerinden kritik büyük sektöre özgü hizmetlerine işiniz arasında değişen bir bağlayıcı için yayımlanan edilmemiş. Çok sayıda bağlayıcı, satıcı tarafından dağıtılır. Belirli veri bağlayıcı için bir gereksinimi varsa, bir satıcı başvurmanız gerekir.
 
-Kullanmak istediğiniz **Özel Bağlayıcıları** *\[Belgeler]\\Power BI Desktop\\Custom Connectors* klasörüne eklemeniz ve güvenlik ayarlarını aşağıdaki bölümde anlatılan şekilde yapmanız gerekir.
+Kullanılacak bir **özel bağlayıcı**, böyle  *\[belgeler]\\Power BI Desktop\\özel Bağlayıcılar* klasöründe ve açıklandığı gibi güvenlik ayarlarını Aşağıdaki bölümde.
 
 **Sertifikalı Bağlayıcıları** kullanmak için güvenlik ayarlarını değiştirmeniz gerekmez.
 
 ## <a name="data-extension-security"></a>Veri uzantısı güvenliği
 
-Veri uzantısı güvenlik ayarlarını değiştirmek için **Power BI Desktop** uygulamasında **Dosya > Seçenekler ve Ayarlar > Seçenekler > Güvenlik** yolunu izleyin.
+Veri uzantısı güvenlik ayarlarını değiştirmek için **Power BI Desktop** seçin **Dosya > Seçenekler ve Ayarlar > Seçenekler > Güvenlik**.
 
-![Veri Uzantısı Güvenliği seçeneklerini kullanarak özel bağlayıcı yükleyip yükleyemeyeceğinizi denetleyebilirsiniz](media/desktop-connector-extensibility/data-extension-security-1.png)
+![Veri uzantısı güvenlik seçenekleri ile özel bağlayıcılar yüklemek isteyip istemediğinizi kontrol](media/desktop-connector-extensibility/data-extension-security-1.png)
 
 **Veri Uzantıları** bölümünde iki farklı güvenlik düzeyinden birini seçebilirsiniz:
 
 * (Önerilir) Yalnızca sertifikalı uzantıların yüklenmesine izin ver
 * (Önerilmez) Uzantıların uyarı olmadan yüklenmesine izin ver
 
-**Özel Bağlayıcıları** veya üçüncü taraf geliştiricilerin geliştirip dağıttığı bağlayıcıları kullanmayı planlıyorsanız **"(Önerilmez) Uzantıların uyarı olmadan yüklenmesine izin ver"** seçeneğini belirlemeniz gerekir. Özel Bağlayıcılarınızın kesinlikle güvenilir olduğunu düşünmüyorsanız bu güvenlik ayarını kullanmanız önerilmez, çünkü buradaki kod kimlik bilgilerini işleyebilir (bu bilgileri HTTP üzerinden göndermek de dahil) ve gizlilik düzeylerini yoksayabilir.
+Kullanmayı planlıyorsanız **özel Bağlayıcılar** veya, veya bir üçüncü taraf geliştirilen bağlayıcılar, seçmelisiniz **"(Not Recommended) uyarı vermeden yüklemek herhangi bir uzantısına izin ver"** . Özel Bağlayıcılarınızı kesinlikle güvenmedikçe bu güvenlik ayarı önerilmemektedir. Burada kodda işlemek HTTP üzerinden göndererek gibi kimlik bilgilerini ve gizlilik düzeylerini yoksayın.
 
-**"(Önerilir)"** güvenlik ayarında sisteminizde özel bağlayıcıların bulunması durumunda bu bağlayıcıların güvenlik nedeniyle yüklenemediğini belirten bir hata görüntülenir.
+Konumunda **"(önerilen)"** güvenlik ayarı, sisteminizde özel bağlayıcılar kullanıyorsanız, bir hata güvenlik nedeniyle yüklenemiyor bağlayıcıları açıklayan görüntülenir.
 
-![Güvenlik ayarları nedeniyle yüklenemeyen Özel Bağlayıcılar iletişim kutusunda görüntülenir, bu örnekte TripPin](media/desktop-connector-extensibility/data-extension-security-2.png)
+![Bir iletişim kutusu özel bağlayıcılar, güvenlik ayarları, bu büyük/küçük harf TripPin nedeniyle yüklenemiyor açıklar.](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-Hatayı çözmek ve bu bağlayıcıları kullanmak için yukarıdaki adımları kullanarak **"(Önerilmez)"** güvenlik ayarını seçmeniz ve **Power BI Desktop** uygulamasını yeniden başlatmanız gerekir.
+Hatayı çözün ve söz konusu bağlayıcıları kullanmak için güvenlik ayarlarınızı değiştirme **"(Not Recommended) uyarı vermeden yüklemek herhangi bir uzantısına izin ver"** daha önce açıklandığı gibi ayarlar. Daha sonra yeniden **Power BI Desktop**.
 
 ## <a name="certified-connectors"></a>Sertifikalı bağlayıcılar
 
-Sınırlı sayıda veri uzantısı **Sertifikalı** olarak belirlenmiştir ve bu sertifikalı bağlayıcılara **Veri Al** iletişim kutusundan ulaşabilirsiniz ancak bakım ve destek sorumluluğu bağlayıcıyı oluşturan üçüncü taraf geliştiriciye aittir. Microsoft bu bağlayıcıları dağıtmasına rağmen performansından veya işlevlerinin devamlılığından sorumlu değildir.
+Sınırlı bir alt kümesinde veri uzantıları kabul **sertifikalı**. Sertifikalı bağlayıcılar, erişim **Veri Al** iletişim kutusu. Ancak, Bakım ve destek için bağlayıcıyı oluşturan üçüncü taraf geliştirici sorumludur. Microsoft bağlayıcıları dağıtır olsa da, performans veya devam eden bir işlev için sorumlu değildir.
 
 Özel bağlayıcınızın sertifikalı hale gelmesini istiyorsanız satıcınızdan dataconnectors@microsoft.com ile iletişime geçmesini isteyin.

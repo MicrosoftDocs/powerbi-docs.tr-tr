@@ -12,11 +12,11 @@ ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014473"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61411912"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Harita görselleştirmelerine ilişkin İpuçları ve Püf Noktaları
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmayı dener ancak tek başına başarılı olmazsa, Bing Haritalar'dan yararlanır. 
@@ -49,7 +49,7 @@ Harita görselleştirmesinin oluşturulması için kullanılan veri kümesine er
 
 Power BI Desktop'ı kullanırken, veri alanlarında *Veri Kategorisi*'ni belirleyerek alanların coğrafi olarak doğru bir şekilde kodlanmasını sağlayabilirsiniz. İstediğiniz tabloyu seçin, **Gelişmiş** şeridine gidin ve **Veri Kategorisi**'ni **Adres**, **Şehir**, **Kıta**, **Ülke/Bölge**, **İlçe**, **Posta Kodu**, **Eyalet** veya **İl** olarak ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](../desktop-data-categorization.md). SQL Server Analysis Services'e canlı olarak bağlanıyorsanız verileri kategorilere ayırma işlemini [SQL Server Veri Araçları'nı (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) kullanarak Power BI'ın dışında gerçekleştirmeniz gerekir.
 
-**2. Birden fazla konum sütunu kullanın.**    
+**2. Birden fazla konum sütunu kullanın.**     
  Bazen, harita oluşturma için veri kategorilerinin belirlenmesi Bing'in amacınızı doğru bir şekilde tahmin etmesi için yeterli olmaz. Konum birden çok ülkede veya bölgede mevcut olduğundan bazı gösterimler anlaşılır değildir. Örneğin, ***Southampton***, İngiltere'nin yanı sıra Pennsylvania ve New York'ta da bulunur.
 
 Power BI, ülkelere ilişkin adres değerlerini temel alan enlem ve boylam koordinatlarını edinmek için Bing'in [yapılandırılmamış URL şablonu hizmetinden](https://msdn.microsoft.com/library/ff701714.aspx) yararlanır. Verileriniz yeterli konum verisi içermiyorsa söz konusu sütunları ekleyin ve uygun şekilde kategorilere ayırın.
