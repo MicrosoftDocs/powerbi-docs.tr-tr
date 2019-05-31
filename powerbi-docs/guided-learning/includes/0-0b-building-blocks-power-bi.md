@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260612"
+---
 Power BI'da yaptığınız her şey birkaç temel **yapı taşına** ayrılabilir. Bu yapı taşlarını anladıktan sonra her birini genişletip ayrıntılı ve karmaşık raporlar oluşturmaya başlayabilirsiniz. Sonuç olarak, karmaşık görünen şeyler bile temel yapı taşlarından (ahşap, çelik, beton ve cam ile oluşturulan binalar gibi) oluşturulmaktadır. Arabalar metal, kumaş ve kauçuktan üretilir. Elbette, temel yapı taşlarının nasıl düzenlendiğine bağlı olarak binalar ve araçlar da basit şekilde veya ince ayrıntılar gözetilerek hazırlanmış olabilir.
 
 Şimdi bu temel yapı taşlarına bir göz atıp bunlarla oluşturulabilecek basit öğelerden bahsedelim ve ardından karmaşık şeylerin nasıl oluşturulabileceğine ilişkin bir bakış sağlayalım.

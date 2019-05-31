@@ -11,11 +11,11 @@ ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275537"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231395"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Fırsat Analizi Örneği: Tura katılın
 

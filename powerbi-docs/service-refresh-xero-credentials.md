@@ -3,19 +3,19 @@ title: Xero içerik paketi kimlik bilgilerinizi yenileme
 description: Xero Power BI içerik paketini kullanıyorsanız yeni bir Power BI hizmet olayı nedeniyle, içerik paketinin günlük olarak yenilenmesi ile ilgili bir sorun yaşamış olabilirsiniz.
 author: SarinaJoan
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0e49f4b1260e293f0b6e496b06fbe5645c813c8b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278154"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61221262"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
 Xero Power BI içerik paketini kullanıyorsanız yeni bir Power BI hizmet olayı nedeniyle, içerik paketinin günlük olarak yenilenmesi ile ilgili bazı sorunlar yaşamış olabilirsiniz.

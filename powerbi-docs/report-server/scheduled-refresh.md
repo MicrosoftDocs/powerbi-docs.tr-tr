@@ -1,20 +1,20 @@
 ---
 title: Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 description: Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394745"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051015"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 Power BI raporları için zamanlanmış yenileme, bir rapora ilişkin verilerin güncel kalmasını sağlar.
@@ -34,6 +34,7 @@ Power BI raporlarınız için zamanlanmış yenileme özelliğini kullanırken b
 * Veri modeli bir Analysis Services örneğinde yüklenir.
 * Bazı veri kaynakları için, veri kaynaklarıyla bağlantı kurma ve verileri dönüştürme amacıyla Power Query karma altyapısı kullanılır. Diğer veri kaynakları Power BI Rapor Sunucusu veri modellerini barındırmak için kullanılan bir Analysis Services hizmetinden doğrudan bağlanabilir.
 * Yeni veriler Analysis Services'deki veri modeline yüklenir.
+* Bir ölçek genişletme yapılandırması, veri modeli düğümler arasında çoğaltılabilir.
 * Analysis Services, verileri işler ve gerekli hesaplamaları gerçekleştirir.
 
 Power BI Rapor Sunucusu zamanlanmış tüm işlemler için bir olay kuyruğu oluşturur. Kuyruğu düzenli aralıklarla sorgulayarak yeni olayları denetler. Kuyruk varsayılan olarak 10 saniyelik aralıklarla taranır. RSReportServer.config dosyasındaki **PollingInterval**, **IsNotificationService** ve **IsEventService** yapılandırma ayarlarını düzenleyerek aralık değerini değiştirebilirsiniz. **IsDataModelRefreshService**, rapor sunucusunun zamanlanmış olayları işleyeceği zamanı belirlemek için de kullanılabilir.

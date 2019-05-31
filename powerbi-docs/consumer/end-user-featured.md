@@ -9,30 +9,27 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 766f92c855420cc2fdc891a28207ab5c2e03fa06
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661618"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608595"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
 Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır.  Bu, işlerimizi yürütmek için kullandığımız pano veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
-![öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-feature-nav.png)
+![öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropdown.png)
 
-Bir panoyu *öne çıkan pano* olarak ayarlarsanız Power BI hizmetini açtığınızda bu pano görüntülenir.  
+Bir pano olarak seçtiğinizde *öne çıkan*, her zaman Power BI hizmetinde açın, bu Pano görüntülenir açılır.  
 
 İsterseniz birden fazla pano seçip *sık kullanılanlara* ekleyebilirsiniz. Bkz. [Sık kullanılan panolar](end-user-favorite.md).
 
-> [!NOTE] 
->Bu konu başlığı, Power BI Desktop uygulamasına değil Power BI hizmetine yöneliktir.
-
-Henüz bir öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son pano açılır.  
+Henüz bir öne çıkan Pano belirlemediyseniz Power BI'da kullandığınız son Pano veya Power BI giriş için açılır.  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>Bir panoyu **öne çıkan** olarak belirlemek için
 Öne çıkan bir pano oluşturan Amanda'yı izleyin ve ardından kendiniz denemek için videonun altındaki yönergeleri uygulayın.
@@ -42,12 +39,12 @@ Henüz bir öne çıkan pano belirlemediyseniz Power BI'da kullandığınız son
 
 
 1. *Öne çıkan* olarak belirlemek istediğiniz panoyu açın. 
-2. Üst menü çubuğunda **Öne çıkan olarak ayarla** bağlantısını veya yalnızca ![öne çıkanlar](./media/end-user-featured/power-bi-featured-icon.png) simgesini görürsünüz. Bunlardan birini seçin.
+2. Üst menü çubuğundaki üç nokta (...) simgesini seçin ve seçin **öne çıkan olarak ayarla**.  
    
-    ![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-set-as-featured.png)
+    ![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropdown.png)
 3. Seçiminizi onaylayın.
    
-    ![öne çıkan pano olarak ayarlama](./media/end-user-featured/power-bi-create-featured.png)
+    ![öne çıkan pano olarak ayarlama](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>Öne çıkan panoyu değiştirme
 Elbette ileride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan pano olarak ayarlayabilirsiniz.
@@ -57,18 +54,16 @@ Elbette ileride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan
     ![Öne çıkan panoyu değiştirme penceresi](./media/end-user-featured/power-bi-change-feature.png)
 2. **Öne çıkan olarak ayarla**'yı seçin. Öne çıkanlardan kaldırdığınız pano çalışma alanınızdan kaldırılmaz.  
    
-    ![başarılı iletisi](./media/end-user-featured/power-bi-success.png)
+    ![başarılı iletisi](./media/end-user-featured/power-bi-unfeature-new.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Öne çıkan panoyu kaldırma
 Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönergeleri izleyerek öne çıkan panoyu kaldırabilirsiniz.
 
 1. Öne çıkan panoyu açın.
-2. Üstteki menü çubuğunda **Öne çıkan öğeyi devre dışı bırak**'ı seçin.
+2. Üst menü çubuğundaki üç nokta (...) simgesini seçin ve seçin **öne çıkan devre dışı bırak**.
+
+    ![Seçili öne çıkan Pano devre dışı bırak](./media/end-user-featured/power-bi-unfeature-newer.png)
    
-    ![öne çıkanı silme](./media/end-user-featured/power-bi-unfeature.png)
-
-Power BI'da kullandığınız son pano açılır.  
-
 ## <a name="next-steps"></a>Sonraki adımlar
 [Bir panoyu sık kullanılanlara ekleme](end-user-favorite.md)
 

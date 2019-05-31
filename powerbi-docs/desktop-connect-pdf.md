@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta PDF dosyalarına bağlanma (Önizleme)
+title: Power BI Desktop'ta bir PDF dosyası bağlanma
 description: Power BI Desktop'ta PDF dosyalarına kolayca bağlanın ve bu dosyaları kullanın
 author: davidiseminger
 manager: kfile
@@ -7,31 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514042"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Power BI Desktop’ta PDF dosyalarına bağlanma (Önizleme)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Power BI Desktop'ta bir PDF dosyası bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **PDF dosyasına** bağlanabilir ve dosyadaki verileri kullanabilirsiniz.
 
 ![PDF dosyalarındaki verilere bağlanma](media/desktop-connect-pdf/connect-pdf_04.png)
 
 Aşağıdaki bölümlerde **PDF dosyasına** bağlanma, veri seçme ve bu verileri **Power BI Desktop**'a alma adımları anlatılmaktadır.
-
-## <a name="enable-the-pdf-connector"></a>PDF bağlayıcısını etkinleştirme
-**Power BI Desktop** PDF bağlayıcısı önizleme sürümündedir ve etkinleştirilmesi gerekir. PDF bağlayıcısını etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme özellikleri** seçeneğini belirleyin ve ardından **Verileri PDF dosyalarından al**’ın yanındaki onay kutusunu işaretleyin. 
-
-![Seçenekler > Önizleme özellikleri sayfasından PDF bağlayıcısını etkinleştirme](media/desktop-connect-pdf/connect-pdf_01.png)
-
-Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerekir.
-
-**PDF (beta)** bağlayıcısını ilk kez kullandığınızda PDF bağlayıcısının geliştirme aşamasında olduğunu ve özelliklerinin ileride değişebileceğini belirten bir uyarı gösterilir. Bağlayıcıyı kullanmak için **Devam**'ı seçin.
 
 Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
 

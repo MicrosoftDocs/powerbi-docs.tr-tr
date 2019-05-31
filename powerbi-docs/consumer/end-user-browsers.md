@@ -12,10 +12,10 @@ ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
-ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608291"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar

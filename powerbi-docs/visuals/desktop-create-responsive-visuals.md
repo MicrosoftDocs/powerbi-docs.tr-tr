@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280137"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394938"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI görselini tüm boyutlar için en iyi duruma getirme
 Varsayılan olarak, yeni rapor oluşturduğunuzda görseller *esnektir*: Ekran boyutu ne olursa olsun maksimum sayıda veri ve içgörü görüntüleyecek şekilde dinamik olarak değişirler. Eski raporlar için görselleri de dinamik olarak yeniden boyutlandırılacak şekilde ayarlayabilirsiniz.

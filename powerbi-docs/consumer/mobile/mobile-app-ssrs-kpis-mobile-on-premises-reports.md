@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287934"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344128"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında şirket içi rapor sunucusu raporlarını ve KPI'lerini görüntüleme
 

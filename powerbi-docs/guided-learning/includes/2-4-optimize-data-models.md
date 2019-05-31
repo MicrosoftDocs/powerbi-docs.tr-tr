@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257051"
+---
 İçeri aktarılan veriler sıklıkla raporlama ve görselleştirme görevleri için ihtiyacınız olmayan alanlar da içerir. Bunlar ya fazladan sunulan bilgilerdir ya da söz konusu veriler başka bir sütunda zaten mevcuttur. Power BI Desktop'ta, verilerinizi en iyi duruma getirmeye, raporlar ve görseller oluşturmaya ve paylaşılan raporlarınızı görüntülemeye yönelik araçlar bulunur. Bu araçlar, Power BI Dektop'ı söz konusu işlemler için daha kullanışlı hale getirir.
 
 ## <a name="hiding-fields"></a>Alanları gizleme

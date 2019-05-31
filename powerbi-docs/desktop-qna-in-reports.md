@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430113"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285134"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Doğal dil sorguları için Power BI Desktop'taki Soru-Cevap özelliğini kullanın
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte **Power BI Desktop**’taki Soru-Cevap ile bunu yapabilirsiniz.
@@ -23,7 +23,7 @@ Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değ
 Yanıtlayabileceği büyük soru koleksiyonunu başarıyla yorumlayabileceği şekilde etkinleştirilmesi için Soru-Cevap özelliğinin modelle ilgili varsayımlar yapması gerekir. Modelinizin yapısı bu varsayımlardan birini veya daha fazlasını karşılamıyorsa modelinizi ayarlamanız gerekir. Bu Soru-Cevap ayarları, özelliği kullanıp kullanmadığınızdan bağımsız olarak Power BI’daki herhangi bir model için en iyi yöntem iyileştirmeleridir. 
 
 > [!NOTE]
-> Soru-Cevap yalnızca **içeri aktarılan** verileri içeren bir modelle çalışılırken kullanılabilir. SSAS ve DirectQuery modelleri ile canlı bağlantılar desteklenmez.
+> Soru- cevap, yalnızca kullanılabilir içeren modeli ile çalışırken **içeri** veri veya SSAS Canlı bağlantıları için. DirectQuery modellerinde desteklenmez.
 >
 > Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >

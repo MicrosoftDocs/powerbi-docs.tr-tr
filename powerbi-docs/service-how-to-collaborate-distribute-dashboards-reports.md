@@ -1,5 +1,5 @@
 ---
-title: Çalışmanızı paylaşmanın yolları
+title: Power BI'da çalışmanızı paylaşmanın yolları
 description: Power BI'da panolar, raporlar, kutucuklar ve uygulamalar üzerinde farklı yollarla işbirliği yapabilir ve bunları paylaşabilirsiniz. Her biri farklı bir avantaj sunar.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290446"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61235138"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
 
@@ -29,7 +29,7 @@ Bu makalede, Power BI'da işbirliği yapmaya ve paylaşmaya yönelik seçenekler
 * Raporları yazdırma.
 * Raporları güvenli portallara veya genel Web sitelerine ekleme.
 
-Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-features-license-type.md) bulunmalı veya içerik, [Premium kapasitede](service-premium.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
+Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansınız](service-features-license-type.md) bulunmalı veya içerik, [Premium kapasitede](service-premium-what-is.md) olmalıdır. Lisans gereksinimleri, seçiminize bağlı olarak, panolarınızı görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
 
 ![Power BI hizmetindeki uygulamalar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Hangisini seçerseniz seçin bir panoyu paylaşmak için [Power BI Pro lisansın
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Çalışma alanında iş arkadaşlarınızla işbirliği yapma
 
-Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgelere erişmesi gerekir. Power BI'daki çalışma alanları ekiplerin bir araya gelip kendileri için önemli panoların, raporların, veri kümelerinin ve çalışma kitaplarının sahipliğini ve yönetimini paylaştıkları bir yer sağlar. Bazen Power BI kullanıcıları çalışma alanlarını kurumsal yapılara göre düzenler, bazen de belirli projeler için çalışma alanı oluşturur. Diğer bazı kuruluşlar da, kullandıkları raporların veya panoların farklı sürümlerini depolamak üzere çeşitli çalışma alanları kullanır. 
+Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgelere erişmesi gerekir. Sahipliği ve yönetimi, panolar, raporlar, veri kümeleri ve çalışma kitapları paylaşmak için Power BI çalışma alanlarında takımlar birlikte gelir. Bazen Power BI kullanıcıları çalışma alanlarını kurumsal yapılara göre düzenler, bazen de belirli projeler için çalışma alanı oluşturur. Diğer bazı kuruluşlar da, kullandıkları raporların veya panoların farklı sürümlerini depolamak üzere çeşitli çalışma alanları kullanır. 
 
 Çalışma alanları, iş arkadaşlarınızın sahip olacağı izinleri belirleyen roller sağlar. Bu rolleri kullanarak çalışma alanının tamamını kimin yönetebileceğini veya buraya içerik sağlayabileceğini belirleyebilirsiniz.
 
@@ -45,11 +45,16 @@ Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgele
 
 Bazı kullanıcılar doğal olarak içeriği kendi Çalışma Alanım içine yerleştirir ve oradan paylaşır. Çalışma alanları işbirliği açısından Çalışma Alanım'dan daha iyidir çünkü içerik üzerinde ortak sahiplik sağlar. Siz ve tüm ekibiniz kolayca güncelleştirmeler yapabilir ve diğer kişilere erişim verebilir. Çalışma Alanım en iyi şekilde tek tek kişiler tarafından özel veya kişisel içerik için kullanılır.
 
-Şimdi diğer iş arkadaşlarınızla paylaşmanız gereken tamamlanmış bir panonuzun olduğunu düşünün. Onlara panoya erişim vermenin en iyi yolu hangisidir? Yanıt, bir dizi faktöre bağlıdır. Belirli bir çalışma arkadaşınızın panoya sahip olması ve panonun güncelliğini koruması veya çalışma alanındaki tüm içeriğe erişmesi gerekiyorsa, en iyisi onu çalışma alanına eklemek olabilir. Çalışma arkadaşınızın o panoyu görmesi ama çalışma alanındaki tüm içeriği görmemesi gerekiyorsa, yine bir dizi alternatiften birini seçebilirsiniz. Pano, birçok çalışma arkadaşınıza dağıtmanız gereken daha büyük bir içeriğin parçasıysa, bu durumda en iyi seçenek bir uygulama yayımlamak olabilir. Öte yandan, iş arkadaşınızın yalnızca bu tek panoya ihtiyacı varsa, izlenecek en iyi yol panoyu paylaşmak olabilir.
+Şimdi diğer iş arkadaşlarınızla paylaşmanız gereken tamamlanmış bir panonuzun olduğunu düşünün. Onlara panoya erişim vermenin en iyi yolu hangisidir? Yanıt, bir dizi faktöre bağlıdır. 
+
+- İş arkadaşlarınıza panonun güncel tutmak veya çalışma alanındaki tüm içeriği erişmesi gerekiyorsa, bunları çalışma alanına eklemeyi göz önünde bulundurun. 
+- İş arkadaşlarınızın Bu panoyu ve çalışma alanındaki tüm içeriği görmek yalnızca ihtiyacınız varsa yeniden seçeneğiniz vardır. 
+- Pano, birçok çalışma arkadaşınıza dağıtmanız gereken daha büyük bir içeriğin parçasıysa, bu durumda en iyi seçenek bir uygulama yayımlamak olabilir. 
+- İş arkadaşlarınızla yalnızca tek bir Panoda ihtiyacınız varsa, ancak ardından Pano paylaşımını en iyi çözüm olabilir.
 
 [Çalışma alanları oluşturma](service-create-workspaces.md) hakkında daha fazla bilgi edinin.
 
-**Biliyor muydunuz?** Power BI yeni bir çalışma alanı deneyiminin önizlemesini sunuyor. Çalışma alanlarının gelecekte nasıl bir değişim geçireceğini görmek için [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md) konusunu okuyun. 
+**Biliyor muydunuz?** Power BI, yeni bir çalışma deneyimi vardır. Okuma [yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md) çalışma alanlarını nasıl değiştiğini görmek için. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Uygulama oluşturarak verileri ve içgörüleri dağıtma
 
@@ -61,7 +66,7 @@ Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) uygulamaları k
 
 Kullanıcılar uygulamayı yükledikten sonra tarayıcılarında veya mobil cihazlarında görüntüleyebilir.
 
-Kullanıcılarınızın uygulamanızı görüntülemesi için bir Power BI Pro lisansına sahip olması ya da uygulamanın bir Power BI Premium kapasitede depolanmış olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+Kullanıcılarınızın uygulamanızı görüntülemesi için bir Power BI Pro lisansına sahip olması ya da uygulamanın bir Power BI Premium kapasitede depolanmış olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium-what-is.md) makalesini okuyun.
 
 Uygulamaları kuruluşunuzun dışındakilere de yayımlayabilirsiniz. Onlar uygulama içeriğini görüntüleyebilir, bunlarla etkileşimli çalışabilir ancak başkalarıyla paylaşamaz.
 
@@ -71,7 +76,7 @@ Uygulamaları kuruluşunuzun dışındakilere de yayımlayabilirsiniz. Onlar uyg
 
 ![Paylaş simgesi](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-İçeriğinizi paylaşmak için hem sizin hem de paylaşımda bulunduğunuz kişilerin bir Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitedeki](service-premium.md) bir çalışma alanında olması gerekir. Panoyu veya raporu paylaştığınızda, alıcılar bu panoyu veya raporu görüntüleyebilir ve bunlarla etkileşimli çalışabilir ancak üzerlerinde düzenleme yapamaz. Bağlantılı veri kümesinde satır düzeyi güvenlik (RLS) uygulanmadığı sürece panoda ve raporlarda sizinle aynı verileri görürler. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla paylaşabilir. 
+İçeriğinizi paylaşmak için hem sizin hem de paylaşımda bulunduğunuz kişilerin bir Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitedeki](service-premium-what-is.md) bir çalışma alanında olması gerekir. Panoyu veya raporu paylaştığınızda, alıcılar bu panoyu veya raporu görüntüleyebilir ve bunlarla etkileşimli çalışabilir ancak üzerlerinde düzenleme yapamaz. Bağlantılı veri kümesinde satır düzeyi güvenlik (RLS) uygulanmadığı sürece panoda ve raporlarda sizinle aynı verileri görürler. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla paylaşabilir. 
 
 Kuruluşunuz dışındaki kişilerle de paylaşımda bulunabilirsiniz. Bu kişiler de panoyu veya raporu görüntüleyebilir, bununla etkileşimli çalışabilir ancak paylaşamaz. 
 
@@ -83,7 +88,7 @@ iOS cihazları ve Android cihazlar için Power BI mobil uygulamalarında bir kut
 
 ![Mobil uygulamalarda not ekleme ve paylaşma](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-Kutucuk, rapor veya görselin bir anlık görüntüsünü paylaşırsınız ve alıcılarınız bunu, tam olarak e-postayı gönderirken olduğu şekilde görür. E-posta aynı zamanda panonun veya raporun bir bağlantısını da içerir. Alıcıların nesneyi açabilmesi için Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitede](service-premium.md) olması ve nesneyi alıcılarınızla paylaşmış olmanız gerekir. Kutucukların anlık görüntülerini yalnızca aynı etki alanında olduğunuz iş arkadaşlarınıza değil, dilediğiniz kişiye gönderebilirsiniz.
+Kutucuk, rapor veya görselin bir anlık görüntüsünü paylaşırsınız ve alıcılarınız bunu, tam olarak e-postayı gönderirken olduğu şekilde görür. E-posta aynı zamanda panonun veya raporun bir bağlantısını da içerir. Alıcıların nesneyi açabilmesi için Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitede](service-premium-what-is.md) olması ve nesneyi alıcılarınızla paylaşmış olmanız gerekir. Kutucukların anlık görüntülerini yalnızca aynı etki alanında olduğunuz iş arkadaşlarınıza değil, dilediğiniz kişiye gönderebilirsiniz.
 
 iOS ve Android mobil uygulamalarında [kutucuk, rapor ve görsellere not ekleme ve bunları paylaşma](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin.
 
@@ -96,8 +101,12 @@ Power BI hizmetindeki bir panonun, pano kutucuğunun, rapor sayfasının veya g�
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Raporları güvenli portallara veya genel Web sitelerine ekleme
 
 Power BI raporlarını kullanıcılarınızın bunları bulmayı bekleyeceği portallara veya web sitelerine ekleyebilirsiniz.  
+Power BI hizmetindeki **SharePoint Online'da Ekle** ve **Ekle** seçenekleri, şirket içi kullanıcılarınız için raporları güvenle eklemenize olanak tanır. 
 
-Power BI hizmetindeki **SharePoint Online'da Ekle** ve **Ekle** seçenekleri, şirket içi kullanıcılarınız için raporları güvenle eklemenize olanak tanır. SharePoint Online'da Ekle seçeneği SharePoint Online için Power BI web bölümü ile çalışır ve raporun eklenmesiyle ilgili denetim de içeren bir çoklu oturum açma deneyimi sağlar. Ekle seçeneği, URL veya iFrame kullanılarak içerik eklemeyi destekleyen her portalda veya web sitesinde çalışır. Hangi seçeneği kullandığınız fark etmez; her ikisi de kullanıcı içeriği görmeden önce tüm izinlerin ve veri güvenliğinin zorunlu tutulmasını sağlar. Raporu görüntüleyen kişinin uygun lisansa sahip olması gerekir. Power BI'daki [SharePoint Online'da Ekle](service-embed-report-spo.md) ve [Ekle](service-embed-secure.md) seçenekleri hakkında daha fazla bilgi.
+- **SharePoint Online'a ekleme** Power BI web bölümü ile SharePoint Online için çalışır getirin. Raporun nasıl katıştırılır denetim tek bir oturum açma deneyimi sağlar. 
+- **Ekleme** herhangi bir portal veya bir URL veya bir iFrame kullanarak katıştırma içerikleri destekleyen Web sitesi ile çalışır. 
+
+Kullanıcıların içeriği görebilmek için önce hangi seçeneği seçerseniz seçin, Power BI tüm izinleri ve veri güvenliği zorlar. Raporu görüntüleyen kişinin uygun lisansa sahip olması gerekir. Hakkında daha fazla bilgi [SharePoint Online'a eklediğinizde](service-embed-report-spo.md) ve [ekleme](service-embed-secure.md) Power bı'da seçeneği.
 
 **Web'de yayımla** özelliğiyle, blog gönderileri, web siteleri, sosyal medya ve herhangi bir cihazdan gerçekleştirilen diğer çevrimiçi iletişimlere etkileşimli görselleştirmeler ekleyerek Power BI raporlarını İnternet'te yayımlayabilirsiniz. Raporlarınız, İnternet'te herkes tarafından görüntülenebilir ve yayımladığınız içeriği kimlerin görebildiğini denetleyemezsiniz. Kullanıcıların bu işlemler için bir Power BI lisansına sahip olması gerekmez. Web'de yayımlama özelliği yalnızca düzenleyebileceğiniz raporlar için kullanılabilir. Sizinle paylaşılan veya bir uygulamada bulunan raporları web'de yayımlayamazsınız. [Web'de yayımlama](service-publish-to-web.md) hakkında daha fazla bilgi edinin.
 

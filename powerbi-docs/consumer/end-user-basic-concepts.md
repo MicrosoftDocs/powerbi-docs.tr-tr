@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580117"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051620"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI hizmeti ***müşterilerine*** yönelik temel kavramlar
 
@@ -104,7 +104,7 @@ Power BI'da karşılaşacağınız görsellerin bazıları şunlardır: şelale,
 
    ![8 örnek görsel](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Görselleştirmeler, topluluk tarafından da sağlanır ve bunlar *özel görseller* olarak adlandırılır. Raporda tanımadığınız bir görsel varsa bu muhtemelen özel bir görseldir. Özel görseli yorumlama konusunda yardıma ihtiyacınız varsa <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->rapor veya pano *tasarımcısının* adını bulun ve kendisiyle iletişime geçin.
+Görselleştirmeler, topluluk tarafından da sağlanır ve bunlar *özel görseller* olarak adlandırılır. Raporda tanımadığınız bir görsel varsa bu muhtemelen özel bir görseldir. Özel görseli yorumlama yardıma ihtiyacınız varsa, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->rapor veya pano adını aramanız *Tasarımcısı* ve ondan başvurun.
 
 Bir raporda yer alan **BİR** görselleştirme...
 

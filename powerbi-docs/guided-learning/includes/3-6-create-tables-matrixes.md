@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397930"
+---
 Power BI Desktop, kullanılabilen birçok grafiğe ek olarak daha tablo biçiminde olan görselleştirmeleri de destekler. Bir kategorik alanı veya metin alanını alıp rapor tuvaline sürüklediğinizde varsayılan olarak bir sonuç tablosu elde edersiniz. Başlangıçta alfabetik olarak sıralanan tabloda yukarı ve aşağı gezinebilirsiniz.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

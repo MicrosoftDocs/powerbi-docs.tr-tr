@@ -7,16 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 2/9/2019
+ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489603"
----
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375278"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -31,12 +30,28 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-
-## <a name="march-2019"></a>Mart 2019
-* Power BI Premium için Multi-Geo Özelliğinin Genel Kullanıma Sunulması.
-* Azure B2B için Power BI içerik desteğini düzenleme ve yönetme.
+## <a name="may-2019"></a>Mayıs 2019
+* [Özel gezinti](service-create-distribute-apps.md) Power BI uygulamaları için.
+* Ek ekleri türleri (PPTX, XLSX, DOCX, CSV, XML) sayfalandırılmış raporlar içindeki e-posta abonelikleri için kullanılabilir.
 
 ## <a name="previous-months-2019"></a>Önceki aylar (2019)
+### <a name="april-2019"></a>Nisan 2019
+* Power BI'ın genel kullanılabilirliği [veri akışlarını](service-dataflows-overview.md).
+* Yeni çalışma alanları deneyimi genel kullanılabilirliği.
+* Yeni Power BI bölgelerde Fransa ve Kore.
+* Güncelleştirilmiş cevap deneyiminde panolar için.
+* Azure Analysis Services içinde desteği [sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md).
+* Sayfalandırılmış raporlar, Power BI uygulamalarında da desteklenir.
+* [E-posta abonelikleri](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) sayfalandırılmış raporlar için PDF ekli.
+* Power BI Premium özeti ve iş yükü ölçümleri Yönetim Portalı'nda desteklenmiyor
+* [Sorgu önbelleği](power-bi-query-caching.md) Power BI Premium'da kullanılabilir.
+* Genel kullanıma sunulduğunu [Power BI giriş](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+
+### <a name="march-2019"></a>Mart 2019
+* Power BI Premium için Multi-Geo Özelliğinin Genel Kullanıma Sunulması.
+* Azure B2B için Power BI içerik desteğini düzenleme ve yönetme.
+* Salt okunur genel önizlemesiyle [XMLA bitiş noktası](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/).
+
 ### <a name="february-2019"></a>Şubat 2019
 * [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) iş yükleri ve etkin veri kümesi boyutu ölçümleri.
 * Power BI raporlarını PDF’ye aktarma.
@@ -72,8 +87,8 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="september-2018"></a>Eylül 2018
 * Power BI hizmetinde [pano yorumlama](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
-* [Power BI Giriş ve Genel Arama](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/) için genel önizleme.
-* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) [sorguları izleme](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) özelliği.
+* Genel önizlemeye sunulduğunu [Power BI giriş ve genel arama](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Olanağı [sorguları izleme](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) içinde [uygulama izleme kapasitesi](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="august-2018"></a>Ağustos 2018
 * Power BI Premium için [Kapasite İzleme uygulaması](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
@@ -194,7 +209,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Bu Power BI içerik paketiyle [Jira proje yönetim verilerinizi](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) keşfetme
 * Bu Power BI içerik paketiyle [Insightcentr verilerinizi](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) keşfetme
 * [İnfografik tasarımcı özel görselini](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/) kullanarak hızla infografik oluşturma
-* Özel önizleme: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) tarafından oluşturulan Power BI akış veri kümelerini kullanarak akış kutucukları oluşturabilirsiniz.
+* Önizleme: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) tarafından oluşturulan Power BI akış veri kümelerini kullanarak akış kutucukları oluşturabilirsiniz.
 * Önizleme: Raporlarınıza ve panolarınıza [ESRI ArcGIS Harita Görselleştirmeleri](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) ekleme
 
 ### <a name="october-2016"></a>Ekim 2016
@@ -222,7 +237,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>Haziran 2016
-***Hızlı Öngörüler***
+***Quick Insights (Hızlı Öngörüler)***
 
 * Hızlı İçgörüler Karmaşık Filtrelerle birlikte çalışıyor: Tek bir kutucukla sınırlandırılmış olan Hızlı İçgörüler'in artık karmaşık filtreleri anladığını duyurmaktan mutluluk duyuyoruz.
 
@@ -333,9 +348,9 @@ Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleşt
 * Tam Ekran modu: **Genişliğe Uydur**'u seçerek kutucuklarınızı tuvali dolduracak şekilde genişletme ve fazla boşluğu kaldırma
 * Kutucuklarınızı otomatik olarak tuvalin sol üst köşesine hizalamak için Kutucuk Akışını kullanma.
 
-***Hızlı Öngörüler***
+***Quick Insights (Hızlı Öngörüler)***
 
-* Eğilim ve Bağıntı öngörüleri artık veri desenlerini daha kolay görmeniz için eğilim çizgilerine sahip.
+* Eğilim ve bağıntı ınsights eğilim çizgileri verilerdeki desenleri görmemizi kolaylaştırmak için artık var.
 
 ***Soru-Cevap***
 
@@ -487,7 +502,7 @@ Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI B
 * [VMob verilerinizi Power BI'da görselleştirme](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI ile Cortana tümleştirmesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Kuruluşlar için Power BI ağ geçidi önizlemesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Yeni içerik paketi tanıtımı: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* Yeni bir içerik paketi ile tanışın: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * Yeni Geliştirici odaklı geliştirmeler: [İki yeni API ve daha kolay uygulama kaydı](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 Kasım 2015**
@@ -699,7 +714,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **15 Nisan 2015**
 
-* Yeni içerik paketimiz sayesinde artık **Google Analytics** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Google Analytics içerik paketiyle sitenizin son 6 aydaki kullanımı hakkında öngörü sahibi olmanızı sağlayacak bir pano, rapor ve veri kümesine sahip olacaksınız. Daha fazla bilgi için [blog gönderimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx) ve [belgeleri](service-connect-to-google-analytics.md) inceleyebilirsiniz.
+* Yeni içerik paketimiz sayesinde artık **Google Analytics** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Google Analytics içerik paketiyle sitenizin son 6 aydaki kullanımı hakkında öngörü sahibi olmanızı sağlayacak bir pano, rapor ve veri kümesine sahip olacaksınız. Okuyabilirsiniz [blog gönderimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
 * Artık Soru-Cevap bölümünde ve raporlarda bulunan, KPI ve Görüntü içermeyen **tüm kartları sabitleyebilirsiniz**
 * Artık sorgunuzun sonuna "as card" ekleyerek **Soru-Cevap'ta kartları kullanabilirsiniz**
 

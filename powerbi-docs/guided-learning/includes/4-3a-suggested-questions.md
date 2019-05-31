@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4a9d873632853a69c835d7326653102107dd239f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264055"
+---
 Power BI'ı kullanarak, bir panoya ilişkin doğal dil sorgu kutusunu (sık sık **Soru-Cevap** kutusu olarak da anılır) kullanan diğer kullanıcılar için kendi soru önerilerinizi ekleyebilirsiniz. Kullanıcılar bir panonun üst tarafındaki giriş kutusuna tıkladıklarında, önerilen bu soruları görür.
 
 ![](media/4-3a-suggested-questions/4-3a_1.png)

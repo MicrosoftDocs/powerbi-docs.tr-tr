@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273605"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61343061"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma
 Aşağıdakiler için geçerlidir:
@@ -29,7 +29,7 @@ Artık kutucuklara, raporlara veya görsellere not ekleyebilir ve anlık görün
 
 *Not içeren rapor*
 
-Kutucuk, rapor ya da görsele ait anlık görüntü içeren e-posta ayrıca Power BI hizmetindeki ([https://powerbi.com](https://powerbi.com)) gerçek nesneye yönelik bağlantıyı da içerir. Siz ve karşı taraf Power BI Pro lisansına sahipseniz ya da içerik [Premium kapasite](../../service-premium.md) kapsamındaysa ve bu öğeyi paylaştıysanız alıcılar bu bağlantıya tıklayarak doğrudan bu kutucuğa, rapora ya da görsele gidebilir. 
+Kutucuk, rapor ya da görsele ait anlık görüntü içeren e-posta ayrıca Power BI hizmetindeki ([https://powerbi.com](https://powerbi.com)) gerçek nesneye yönelik bağlantıyı da içerir. Siz ve karşı taraf Power BI Pro lisansına sahipseniz ya da içerik [Premium kapasite](../../service-premium-what-is.md) kapsamındaysa ve bu öğeyi paylaştıysanız alıcılar bu bağlantıya tıklayarak doğrudan bu kutucuğa, rapora ya da görsele gidebilir. 
 
 Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md) ancak not ekleyemezsiniz.
 

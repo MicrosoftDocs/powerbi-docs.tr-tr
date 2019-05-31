@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648709"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051303"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -43,11 +43,11 @@ URL?filter=***Tablo***/***Alan*** eq '***değer***'
 
 ### <a name="reports-in-apps"></a>Uygulamalardaki raporlar
 
-Uygulamadaki rapora URL filtresi eklemek isterseniz, biçimlendirme biraz farklıdır. Uygulamadaki raporlara yönelik bağlantıların, URL'ye eklenen bir sorgu parametresi (ctid) vardır. Sorgu parametrelerinin ve işaretiyle (&) birbirinden ayrılması gerekir. Bu nedenle sorguyu “?filter=” yerine “&filter=” (ctid parametresinden sonra) değeriyle eklemeniz gerekir. 
+Uygulamadaki rapora URL filtresi eklemek isterseniz, biçimlendirme biraz farklıdır. Uygulamadaki raporlara yönelik bağlantıların, URL'ye eklenen bir sorgu parametresi (ctid) vardır. Sorgu parametreleri bir ampersan ile ayırın. (&). Tut "? filtre =" ve ve işareti tarafından öncesinde ctid parametre URL'si sonuna taşı (&). 
 
 Şu örnekteki gibi olmalıdır:
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/Groups/Me/Apps/*uygulama kimliği*/reports/*rapor kimliği*/ReportSection? filtre =*tablo*/*alan* EQ '*değer*&'ctid =*ctid*
 
 ### <a name="field-types"></a>Alan türleri
 
@@ -83,7 +83,7 @@ Raporu yalnızca "NC"de (Kuzey Carolina) bulunan mağazaları göstermek üzere 
 
 Raporumuz Kuzey Carolina için filtrelendi, rapor sayfasında bulunan tüm görselleştirmeler yalnızca Kuzey Carolina'ya ait verileri gösterir.
 
-![](media/service-url-filters/power-bi-report4.png)
+![Rapor Kuzey Carolina için filtrelendi](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>Birden çok alanda filtreleme
 
@@ -133,19 +133,19 @@ Power BI URL filtresi aşağıdaki biçimlerde sayı içerebilir.
 
 ### <a name="date-data-types"></a>Tarih veri türleri
 
-Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar.  Tarihler EDM biçimi (2019-02-12T00:00:00) kullanılarak gösterilir. Bu nedenle YYYY-AA-GG biçiminde bir tarih belirttiğinizde Power BI bunu YYYY-AA-GGT00:00:00 olarak yorumlar.
+Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar.  Tarihleri EDM biçimi kullanılarak temsil edilir (2019-02-12T00:00:00), 'YYYY-AA-GG' olarak bir tarih belirttiğinizde, Power BI olarak Yorumlar ' YYYY-AA-DDT00:00:00'.
 
-Bu ayrım neden önemlidir? **Table/Date gt 2018-08-03** şeklinde bir sorgu dizesi parametresi oluşturduğunuzu düşünelim.  Sonuçlar 3 Ağustos 2018'i kapsayacak mı yoksa 4 Ağustos 2018'den mi başlayacak? Power BI sorgunuzu**Table/Date gt 2018-08-03T00:00:00** şekline dönüştürdüğünden sonuçlarınız saat bölümü sıfır olmayan tarihleri **2018-08-03T00:00:00** tarihinden büyük olacağından kapsayacaktır.
+Bu ayrım neden önemlidir? Bir sorgu dizesi parametresi oluşturduğunuz varsayalım **tablo/tarih gt ' 2018-08-03'** .  Sonuçlar 3 Ağustos 2018'i kapsayacak mı yoksa 4 Ağustos 2018'den mi başlayacak? Power BI sorgunuza çevirir beri **tablo/tarih gt ' 2018-08-03T00:00:00'** , sonuçlarınızı Bu tarihleri daha büyük olduğundan zaman sıfır olmayan bir parçası olan tüm tarihleri içeren **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>URL filtrelerindeki özel karakterler
 
-Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X (**_x**) ile başlayan, ardından dört haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode dört karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
+Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X ( **_x**) ile başlayan, ardından dört haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode dört karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
 
 |Tanımlayıcı  |Unicode  | Power BI için kodlama  |
 |---------|---------|---------|
 |**Tablo Adı**     | Boşluk 0x20        |  Tablo_x0020_Adı       |
 |**Sütun**@**Numarası**     |   @ 0x40     |  Sütun_x0040_Numarası       |
-|**[Sütun]**     |  [ is 0x0058 ] 0x0050       |  _x0058_Sütun_x0050       |
+|**[Sütun]**     |  [ is 0x0058 ] 0x0050       |  _x0058_Column_x0050_       |
 |**Sütun+Artı**     | + 0x2B        |  Sütun_x002B_Artı       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar
 
 * *in* işlecini kullanırken *in* ifadesinin sağındaki değerlerin parantez içinde virgülle ayrılmış değerler listesi olması gerekir.    
 * Power BI Rapor Sunucusu’nda, rapor URL’sine eklediğiniz [rapor parametrelerini geçirebilirsiniz](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md). Bu URL parametreleri doğrudan rapor işleme altyapısına geçirildiğinden ön ek almaz.
-* Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) özelliği ile çalışmaz.
+* Sorgu dizesi filtreleme ile çalışmıyor [Web'de Yayımla](service-publish-to-web.md) veya [PDF'ye dışarı aktarma](consumer/end-user-pdf.md).
 * [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md), URL filtrelerini desteklemez.
 * Javascript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
 * Rapor URL filtrelerinin 10 ifade sınırı vardır (AND ile bağlanan 10 filtre).

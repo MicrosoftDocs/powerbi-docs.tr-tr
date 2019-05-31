@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta Modelleme görünümünü kullanma (önizleme)
+title: Power BI Desktop'taki modelleme görünümünü kullanın
 description: Power BI Desktop'ta karmaşık veri kümelerini görsel bir biçimde görmek için Modelleme görünümünü kullanma
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216321"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941347"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Modelleme görünümü (önizleme)
+# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop'ta model görünümü
 
-**Power BI Desktop**'taki **Modelleme görünümü** ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz. Modelleme görünümüyle aşağıdakileri yapabilirsiniz:
+**Power BI Desktop**'taki **Modelleme görünümü** ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Modelleme görünümü önizleme özelliğini etkinleştirme
-
-Modelleme görünümü özelliği önizleme aşamasındadır ve **Power BI Desktop**'ta etkinleştirilmesi gerekir. Modelleme görünümünü etkinleştirmek için **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**'ni seçin ve ardından aşağıdaki resimde gösterildiği gibi **Modelleme görünümü** onay kutusunu seçin.
-
-![Power BI Desktop'ta Modelleme görünümü önizleme özelliğini etkinleştirme](media/desktop-modeling-view/modeling-view_01.png)
-
-Önizleme özelliğinin etkinleştirilmesi için **Power BI Desktop**'ı yeniden başlatmanız gerektiği bildirilir. 
-
-![Önizleme özelliklerini etkinleştirmek için Power BI Desktop'ı yeniden başlatma](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Modelleme görünümünü kullanma
 
@@ -66,9 +56,9 @@ Modelleme görünümünde **CTRL** tuşunu basılı tutup birden çok tabloya t�
 Aşağıdaki makalelerde, veri modelleriyle ilgili daha fazla açıklama ve DirectQuery'nin ayrıntılı açıklaması bulunabilir.
 
 * [Power BI Desktop'ta Toplamalar (Önizleme)](desktop-aggregations.md)
-* [Power BI Desktop’ta bileşik modeller (Önizleme)](desktop-composite-models.md)
+* [Power BI Desktop’taki bileşik modeller](desktop-composite-models.md)
 * [Power BI Desktop’ta depolama Modu (Önizleme)](desktop-storage-mode.md)
-* [Power BI Desktop’ta çoka çok ilişkiler (Önizleme)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md)
 
 
 DirectQuery makaleleri:

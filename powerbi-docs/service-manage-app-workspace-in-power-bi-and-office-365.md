@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282253"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231610"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te uygulama çalışma alanınızı yönetme
 Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-create-distribute-apps.md) oluşturucusu veya yöneticisi olarak Power BI çalışma alanının bazı özelliklerini yönetebilirsiniz. Diğer özellikleri Office 365'te yönetirsiniz. 
@@ -36,10 +36,10 @@ Office 365 veya [Power BI'daki bir uygulama çalışma alanının](service-creat
 * Grup e-posta adresini görebilirsiniz.
 * Grubu silebilirsiniz.
 
-Uygulama çalışma alanı yöneticisi veya üyesi olabilmeniz için bir [Power BI Pro lisansınız](service-features-license-type.md) olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+Uygulama çalışma alanı yöneticisi veya üyesi olabilmeniz için bir [Power BI Pro lisansınız](service-features-license-type.md) olması gerekir. Uygulama çalışma alanınız bir Power BI Premium kapasitesinde değilse uygulamanızın kullanıcılarının da Power BI Pro lisansına sahip olması gerekir. Ayrıntılar için [Power BI Premium nedir?](service-premium-what-is.md) makalesini okuyun.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Power BI'da uygulama çalışma alanınızı düzenleme
-1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Çalışma alanını düzenle**'yi seçin. 
+1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta ( **…** ) simgesini > **Çalışma alanını düzenle**'yi seçin. 
    
    ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ Uygulama çalışma alanı yöneticisi veya üyesi olabilmeniz için bir [Power 
 3. **Kaydet**'i veya **İptal**'i seçin.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Office 365'te Power BI uygulama çalışma alanı özelliklerini düzenleme
-1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta (**…**) simgesini > **Üyeler**'i seçin. 
+1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku > çalışma adınızın yanındaki üç nokta ( **…** ) simgesini > **Üyeler**'i seçin. 
    
    ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Uygulama çalışma alanınıza ait Office 365 için Outlook grup görünümü açılır.
    
    Kurumsal hesabınızda oturum açmanız gerekebilir.
-2. Yönetici yapmak veya uygulama çalışma alanından silmek istediğiniz üyenin adının yanındaki üç nokta (**…**) simgesine dokunun. 
+2. Yönetici yapmak veya uygulama çalışma alanından silmek istediğiniz üyenin adının yanındaki üç nokta ( **…** ) simgesine dokunun. 
    
    ![Office 365'te grubu düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

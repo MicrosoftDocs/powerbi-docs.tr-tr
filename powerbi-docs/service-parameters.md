@@ -11,11 +11,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226047"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Power BI hizmetinde parametre ayarlarını düzenleme
 Rapor oluşturucular raporlara Power BI Desktop’ta sorgu parametreleri ekler. Parametreler, raporların bölümlerini bir veya birden çok parametre *değerine* bağımlı hale getirmeye olanak sağlar. Örneğin, rapor oluşturucu verileri tek bir ülke/bölge ile kısıtlayan bir parametre veya tarih, saat ve metin gibi alanlara kabul edilebilir biçimler tanımlayan bir parametre oluşturabilir.

@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216666"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234208"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın
 

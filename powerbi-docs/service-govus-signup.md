@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430085"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513232"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme
-**Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
+**Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. **Power BI hizmetinde** bu makalede ele alınan sürüm ABD kamu müşterileri için tasarlanmıştır ve ticari sürümünden farklıdır **Power BI hizmetinde**.
 
 Özellikler ve sınırlamalar dahil olmak üzere ABD Kamu kuruluşlarına yönelik **Power BI hizmeti** hakkında daha fazla bilgi için bkz. [Power BI US Government - Genel Bakış](service-govus-overview.md).
 
@@ -58,7 +58,7 @@ Kuruluşunuz **Office Kamu Bulutu** müşterisiyse ancak **Power BI** aboneliği
 > 
 > 
 
-1. Mevcut Office Kamu Bulutu hesabınızda oturum açın ve yönetim portalına gidin
+1. Mevcut Office kamu Bulutu hesabınızda oturum açın ve yönetim portalına gidin
 2. **Fatura**'yı seçin.
 3. **Hizmeti Satın Al**'ı seçin.
 4. Power BI Pro Kamu seçeneğini belirleyip **Dene** ve **Hemen satın al** seçeneklerinden birini tercih edin
@@ -66,7 +66,7 @@ Kuruluşunuz **Office Kamu Bulutu** müşterisiyse ancak **Power BI** aboneliği
 6. Hesaba kullanıcı atayın.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. ABD Kamu müşterileri için **Power BI hizmetinde** oturum açmak üzere [https://app.powerbigov.us](https://app.powerbigov.us) adresine gidin
+7. Oturum **Power BI hizmetinde** ABD kamu müşterileri için [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Ek Kayıt Bilgileri
 Aşağıda çeşitli lisans geçiş durumlarında **Power BI US Government** sürümüne kaydolmak için gerekli ek bilgilere yer verilmiştir.
@@ -75,7 +75,7 @@ Aşağıda çeşitli lisans geçiş durumlarında **Power BI US Government** sü
 * Fatura > Hizmeti Satın Al > Power BI Pro Gov adımlarını izleyip deneme sürümünü değil satın almayı tercih edin
 * Gerekli bilgileri doldurup lisansları alın
 * Power BI Pro Deneme Sürümünü veya eski lisansları kaldırın ve kullanıcılara yeni lisansları atayın
-* [https://app.powerbigov.us](https://app.powerbigov.us) adresinde oturum açın
+* Oturum açın [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Satıcı Aracılığıyla Power BI Deneme Sürümünden Pro Müşteri Sürümüne Geçiş
 **Fatura > Abonelikler**'e gidin ve **Power BI Pro Kamu** aboneliğini seçin. Burada şu seçenekleri görürsünüz:
@@ -90,14 +90,14 @@ Aşağıda çeşitli lisans geçiş durumlarında **Power BI US Government** sü
 ### <a name="whitelisting-instructions"></a>Beyaz Listeye Ekleme Yönergeleri
 *Beyaz listeye ekleme*, Power BI mühendislik ekibinin ticari bulut ortamındaki müşterilerini güvenli Kamu bulutu ortamına taşımak için kullandığı bir işlemdir. Bu işlem ABD Kamu bulutundaki özelliklerin beklenen şekilde çalışmasını sağlar. ABD Kamu **Power BI** hizmetlerini ilk kez satın alan tüm mevcut (veya yeni) ABD Kamu müşterilerinin, aşağıdaki beyaz listeye ekleme işlemini başlatması *gereklidir*. Bu işlemin ABD Kamu **Power BI** hizmetleri kurulmadan veya geçişi yapılmadan önce gerçekleştirilmesi gerekir. 
 
-Kiracınızı ABD Kamu bulutu için *izin verilenler listesine eklemek* için, izin verilenler listesine ekleme yardımı almak üzere Microsoft hesabı ekibine başvurun. Bu isteği yalnızca yöneticilerin yapabileceğini lütfen unutmayın: *Beyaz listeye ekleme* işlemi yaklaşık üç hafta sürer ve Power BI mühendislik ekibi bu süreçte kiracınızın ABD Kamu bulutunda düzgün şekilde çalışması için gerekli değişiklikleri gerçekleştirir.
+Kiracınızın *izin verilenler listesinde* ABD kamu bulutu için beyaz listeye ekleme ile ilgili Yardım için Microsoft hesap ekibinize başvurun. Bu isteği yalnızca yöneticilerin yapabileceğini. *Beyaz listeye ekleme* işlemi yaklaşık üç hafta sürer ve Power BI mühendislik ekibi bu süreçte kiracınızın ABD Kamu bulutunda düzgün şekilde çalışması için gerekli değişiklikleri gerçekleştirir.
 
 Power BI **Ücretsiz** lisanslarından **Power BI US Government** lisansına geçiş yapan (ve bu makalenin önceki bölümlerinde açıklanan ilgili **Pro** lisansı özelliklerine geçiş yapan) müşteriler, kiracıları Power BI mühendislik ekibi tarafından *beyaz listeye eklenmediğinde* bu makalenin aşağıdaki bölümünde açıklanan sorunlarla karşılaşacaktır.
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>ABD Kamu kiracılarında Ücretsiz ve Pro lisanslarını birlikte kullanma
 Kiracınızda hem Ücretsiz hem de ABD Kamu Pro lisanslarınız varsa hem Ücretsiz hem de (ABD Kamu) Pro lisansları kullanılmaya devam eder ancak lisans türlerinden biri veya diğeri düzgün çalışmayacaktır. Kiracınız *beyaz listeye ekleme* işlemini başarıyla geçerse şu durum oluşur:
 
-* Ücretsiz lisans kullanıcıları **Power BI Desktop**'ı kullanarak Power BI oturumu açamaz ve aşağıdaki bölümde anlatılan işlev eksikliklerini yaşar.
+* Bu ücretsiz lisans kullanıcıları Power BI kullanarak oturum açabilir **Power BI Desktop**ve aşağıdaki bölümde anlatılan işlev eksikliklerini yaşar.
 * ABD Kamu Pro lisansı atanmış olan tüm istemciler; ağ geçidi kullanımı, Power BI Desktop ve Mobil uygulamaları dahil olmak üzere beklenen şekilde çalışır.
 
 Bir ABD Kamu kiracısında Ücretsiz ve Pro lisanslar birlikte kullanıldığında *beyaz listeye ekleme* işlemi gerçekleştirilirken aşağıdaki durumlar ortaya çıkabilir:

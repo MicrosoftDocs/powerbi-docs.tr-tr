@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513875"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma
@@ -97,7 +97,7 @@ Toplam satış miktarından indirimleri ve iadeleri çıkararak net satışını
     
     
 5.  Diğer iki sütunu çıkarmak için:
-    1. İlk ifadedeki kapatma ayracından sonra bir boşluk girin, ardından eksi işleci (**-**) ve başka bir boşluk girin. 
+    1. İlk ifadedeki kapatma ayracından sonra bir boşluk girin, ardından eksi işleci ( **-** ) ve başka bir boşluk girin. 
     2. Başka bir SUM işlevi girin ve bağımsız değişken olarak **Sales[DiscountAmount]** sütununu seçebilinceye kadar "DiscountAmount" yazmaya başlayın. Kapatma ayracı ekleyin. 
     3. Bir boşluk, başka bir eksi işleci, boşluk, bağımsız değişken olarak **Sales[ReturnAmount]** içeren başka bir SUM işlevi ve bir kapatma ayracı girin.
     
@@ -164,11 +164,11 @@ Satılan birim başına en yüksek net satış miktarına sahip olan ürünleri 
     
     ![Net Satış kullanan formül](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    Ayrıca yalnızca bir açma ayracı (**[**) yazarak da ölçülere başvurabilirsiniz. Öneri listesi yalnızca formülünüze eklenecek ölçüleri gösterir.
+    Ayrıca yalnızca bir açma ayracı ( **[** ) yazarak da ölçülere başvurabilirsiniz. Öneri listesi yalnızca formülünüze eklenecek ölçüleri gösterir.
     
     ![Köşeli ayraç yalnızca ölçüleri gösterir](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Bir boşluk, bölme işleci (**/**), bir boşluk daha, bir SUM işlevi girin ve sonra **Miktar** yazın. Öneri listesi, adında Miktar olan tüm sütunları gösterir. **Sales[SalesQuantity]** öğesini seçin, kapatma ayracını yazın ve ENTER tuşuna basın veya formülünüzü doğrulamak için onay işaretini seçin. Formülünüz şöyle görünmelidir:
+3.  Bir boşluk, bölme işleci ( **/** ), bir boşluk daha, bir SUM işlevi girin ve sonra **Miktar** yazın. Öneri listesi, adında Miktar olan tüm sütunları gösterir. **Sales[SalesQuantity]** öğesini seçin, kapatma ayracını yazın ve ENTER tuşuna basın veya formülünüzü doğrulamak için onay işaretini seçin. Formülünüz şöyle görünmelidir:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

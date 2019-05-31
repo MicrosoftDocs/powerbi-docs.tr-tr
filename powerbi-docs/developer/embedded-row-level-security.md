@@ -1,20 +1,20 @@
 ---
 title: Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328022"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354281"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -64,7 +64,7 @@ Aşağıdaki adımları uygulayın:
 2. **Manager** adlı yeni bir rol oluşturun.
 
     ![Yeni rol oluşturma](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()**.
+3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()** .
 
     ![RLS kuralı için DAX deyimi](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Kuralların çalıştığından emin olmak için **Modelleme** sekmesinde **Rol olarak görüntüle**'yi ve ardından oluşturduğunuz **Manager** rolünü ve **Diğer kullanıcılar**'ı seçin. Kullanıcı olarak **AndrewMa** girin.
@@ -83,9 +83,9 @@ Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından g
 
 API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdaki parçaları kimlikle birlikte iletmeniz gerekir.
 
-* **username (zorunlu)**: RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
-* **roles (zorunlu)**: Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
-* **dataset (zorunlu)**: Eklediğiniz yapıta uygulanabilen bir veri kümesi.
+* **username (zorunlu)** : RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
+* **roles (zorunlu)** : Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
+* **dataset (zorunlu)** : Eklediğiniz yapıta uygulanabilen bir veri kümesi.
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz.
 
@@ -98,7 +98,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
 ```
 
-şu değere güncelleştirilebilir:
+to
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -214,6 +214,8 @@ Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlaman�
     ![PBI raporu örneği](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. CustomData özelliğini uygulamanızda kullanmak için Power BI API’lerinden yararlanın.  CustomData özelliğiyle bir belirteç oluştururken kullanıcı adını bilmeniz gerekir. Kullanıcı adı, ana kullanıcının UNP’sine eşit olmalıdır. Ana kullanıcı, oluşturduğunuz rol veya rollerin üyesi olmalıdır. Hiçbir rol belirtilmezse, ana kullanıcının üye olduğu tüm roller RLS değerlendirmesi için kullanılır.
+
+    İle çalışırken bir [hizmet sorumlusu](embed-service-principal.md), yönetici hesabı kullanarak yerine Yukarıdaki adımlar gerekir. Oluşturma, ekleme belirteci kullanarak [hizmet sorumlusu nesne kimliği](embed-service-principal.md#how-to-get-the-service-principal-object-id) yapılandırmalıdır.
 
     > [!Note]
     > Uygulamanızı üretime dağıtmaya hazır olduğunuzda ana kullanıcı hesabı alanı veya seçeneği son kullanıcıya gösterilmemelidir.

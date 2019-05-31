@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264075"
+---
 Önceki konu başlıklarında, veri kaynaklarına bağlanmak için Power BI'ı nasıl kullanacağınızdan ve Power BI hizmetindeki veri kümelerinizi elle nasıl yenileyeceğinizden bahsetmiştik. Ancak, verileriniz her değiştiğinde öğelerinizi elle yenilemek istemeyeceksiniz. Bu tür durumlar için Power BI'ı kullanarak, veri kaynaklarınıza bağlanacak ve onları otomatik olarak Power BI hizmetinde yayımlayacak bir zamanlanmış yenileme oluşturabilirsiniz. Ayrıca bu sayede hizmet ile herhangi bir şirket içi veri kaynağı (Excel dosyaları, Access veritabanları, SQL veritabanları ve daha fazlası) arasında bağlantı kurabilirsiniz.
 
 Şirket içi veri kaynaklarınız ile Power BI hizmeti arasında bağlantı kurmanıza olanak sağlayan sistem **veri ağ geçidi** olarak adlandırılır. Bu, bilgisayarınızda çalışan küçük bir uygulamadır ve verilerinize bağlanmak, tüm güncelleştirmeleri toplamak ve bunları Power BI hizmetine iletmek için önceden ayarlanmış bir zamanlamayı kullanır. **Kişisel ağ geçidi**, herhangi bir yönetici yapılandırması olmadan kullanılabilecek bir **veri ağ geçidi** türüdür.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215747"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989399"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri veya diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
@@ -24,21 +24,7 @@ ms.locfileid: "56215747"
 
 Bir **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. Daha sonra bu JSON dosyasını Power BI Desktop'a aktarabilir ve raporunuza uygulayabilirsiniz. JSON dosya yapısı ve içeri aktarma işlemi hızlı ve kolaydır (birkaç düğmeye tıklamanız yeterlidir).
 
-**Power BI Desktop**'ın Eylül 2017 sürümüyle birlikte bir JSON dosyası kullanarak daha da fazla rapor teması öğesi tanımlayabilirsiniz. Ayrıca neredeyse tüm öğeleri özelleştirebilir ve standart hale getirebilirsiniz. Özelleştirmek için **Biçimlendirme** bölmesinde el ile ayarlayabileceğiniz JSON dosyasını kullanırsınız. Eylül 2017 ve sonrasında kullanıma sunulan sürümlerin amacı, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
-
-### <a name="enable-report-themes"></a>Rapor temalarını etkinleştirme
-**Power BI Desktop**'ın Ağustos 2018 sürümüyle rapor temaları genel kullanıma açılmıştır ve etkinleştirilmesi gerekmez. 
-
-**Power BI Desktop**'ın daha eski bir sürümünü kullanıyorsanız aşağıdaki adımları izleyerek önizleme özelliği olarak etkinleştirebilirsiniz: 
-
-1. **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri** yolunu izleyin. 
-2. Ardından **Özel Rapor Temaları**'nın yanındaki kutuyu seçin. 
-
-Seçiminizi yaptıktan sonra **Power BI Desktop**'ı yeniden başlatmanız gerekir.
-
-![Özel rapor temaları](media/desktop-report-themes/report-themes_2.png)
-
-Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
+Ayrıca neredeyse tüm öğeleri özelleştirebilir ve standart hale getirebilirsiniz. Özelleştirmek için **Biçimlendirme** bölmesinde el ile ayarlayabileceğiniz JSON dosyasını kullanırsınız. Raporlarınızın nasıl görüneceğini ve, bir denetleyebilmenizi üzerinde tam denetim vermek için hedeftir.
 
 ## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
 Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir veya özel bir temayı içeri aktarabilirsiniz.
@@ -113,7 +99,7 @@ Aşağıda verilen *St Patrick's Day.json* dosyasının metin içeriğini kullan
 
 Daha sonra, seçtiğiniz renkler için kendi onaltılık renk kodlarınızı girebilirsiniz.
 
-**Power BI Desktop**'ın Eylül 2017 sürümünden itibaren JSON dosyaları çok daha ayrıntılı olabilir. JSON dosyasında yalnızca, uygulamak istediğiniz biçimlendirmeyi tanımlarsınız. JSON dosyanızda *belirtilmeyen* her şey için Power BI varsayılan ayarları geçerli olur.
+JSON dosyasında yalnızca, uygulamak istediğiniz biçimlendirmeyi tanımlarsınız. JSON dosyanızda *belirtilmeyen* her şey için Power BI varsayılan ayarları geçerli olur.
 
 JSON dosyası oluşturmanın çok sayıda avantajı vardır. Örneğin, tüm grafiklerde yazı tipi boyutunun 12 olacağını, bazı görsellerde belirli bir yazı tipi ailesinin kullanılacağını belirtebilirsiniz. Veya belirli grafik türleri için veri etiketlerini devre dışı bırakabilirsiniz.
 
