@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513118"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
@@ -119,7 +119,7 @@ Excel 2016'daki **Power BI'da Yayımla** özelliğinin kullanılması, dosyanız
 ## <a name="troubleshooting"></a>Sorun giderme
 Çalışma kitabı dosyası çok mu büyük? [Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma](reduce-the-size-of-an-excel-workbook.md) makalesine göz atın.
 
-Geçerli sürümde İçeri Aktar özelliği seçildiğinde, Power BI yalnızca bir adlandırılmış tablo veya veri modelinin parçası olan verileri içeri aktarır. Sonuç olarak, çalışma kitabı adlandırılmış tablo, Power View sayfası veya Excel veri modeli içermiyorsa şu hatayla karşılaşabilirsiniz: **"Excel çalışma kitabınızda herhangi bir veri bulamadık"**. [Bu makale](service-admin-troubleshoot-excel-workbook-data.md), çalışma kitabınızı düzeltme ve yeniden içeri aktarma hakkında bilgi vermektedir.
+Geçerli sürümde İçeri Aktar özelliği seçildiğinde, Power BI yalnızca bir adlandırılmış tablo veya veri modelinin parçası olan verileri içeri aktarır. Sonuç olarak, çalışma kitabı adlandırılmış tablo, Power View sayfası veya Excel veri modeli içermiyorsa şu hatayla karşılaşabilirsiniz: **"Excel çalışma kitabınızda herhangi bir veri bulamadık"** . [Bu makale](service-admin-troubleshoot-excel-workbook-data.md), çalışma kitabınızı düzeltme ve yeniden içeri aktarma hakkında bilgi vermektedir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Verilerinizi araştırma**: Dosyanızdaki verileri ve raporları Power BI'a aktardığınıza göre artık araştırmaya başlayabilirsiniz. Yeni veri kümesine sağ tıklayıp Araştır seçeneğini belirlemeniz yeterlidir. 4. adımda OneDrive'daki bir çalışma kitabı dosyasına bağlanmayı seçerseniz çalışma kitabınız Raporlar bölümünde görünür. Çalışma kitabına tıkladığınızda, söz konusu çalışma kitabı, Power BI'da tıpkı Excel Online'da olduğu gibi açılır.

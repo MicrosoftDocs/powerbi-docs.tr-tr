@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f66cc9f911c63703accb348e49133dbf3587d58a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265202"
+---
 **Power BI Desktop**; şirket içi veritabanları, Excel çalışma kitapları ve bulut hizmetleri de dahil olmak üzere çok çeşitli sayıda veri kaynağına bağlanabilir. Şu anda, GitHub ve Marketo gibi 59'un üzerinde farklı bulut hizmeti özel bağlayıcılara sahiptir. Ayrıca XML, CSV, metin ve ODBC aracılığıyla genel kaynaklara da bağlanabilirsiniz. Üstelik Power BI ile doğrudan bir web sitesi URL'sinden tablo verisi bile kopyalayabilirsiniz! En başa dönelim ve Power BI Desktop'ı açıp verilere bağlanarak başlayalım.
 
 **Power BI Desktop**'ı başlatıp Başlangıç Ekranı'nı geçtikten sonra, **Giriş** sekmesindeki şeritte Veri Al seçeneğini belirleyebilirsiniz.

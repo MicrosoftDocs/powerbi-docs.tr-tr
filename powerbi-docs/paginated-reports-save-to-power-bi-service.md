@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 description: Bu öğreticide, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlamayı öğreneceksiniz.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174557"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424116"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama (Önizleme)
 
@@ -26,7 +26,7 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
 Çalışma alanı adının yanında baklava simgesi ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) yoksa, çalışma alanını bir Premium kapasiteye eklemeniz gerekir. 
 
-1. **Çalışma Alanları**’nı seçin, çalışma alanı adının yanındaki üç noktayı (**...**) ve sonra **Çalışma alanını düzenle**’yi seçin.
+1. **Çalışma Alanları**’nı seçin, çalışma alanı adının yanındaki üç noktayı ( **...** ) ve sonra **Çalışma alanını düzenle**’yi seçin.
 
     ![Çalışma alanını düzenle seçeneğini belirleme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

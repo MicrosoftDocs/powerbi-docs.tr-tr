@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257090"
+---
 Hesaplanmış sütunlar oluşturmak, verilerinizi zenginleştirmenin ve geliştirmenin basit bir yoludur. **Hesaplanmış sütunlar**, mevcut verilere ilişkin iki veya daha fazla öğeyi dönüştüren ya da birleştiren bir hesaplama tanımlayarak oluşturduğunuz yeni sütunlardır. Örneğin, iki sütunu bir sütunda birleştirerek yeni bir sütun oluşturabilirsiniz.
 
 İlişki oluşturmak için kullanılabilecek benzersiz alanlar bulunmadığında tablolar arasında ilişki oluşturma ihtiyacı, hesaplanmış sütun oluşturmaya yönelik geçerli bir sebep olarak sunulabilir. Bir ilişkinin eksikliği, Power BI Desktop'ta basit bir tablo görseli oluşturduktan sonra, temel alınan verilerin farklı olduğunu bilmenize rağmen tüm girişler için aynı değeri elde ettiğinizde kendini gösterir.

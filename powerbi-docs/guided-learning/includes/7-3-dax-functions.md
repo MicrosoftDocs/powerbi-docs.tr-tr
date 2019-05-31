@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273627"
+---
 DAX ile verilerinizi şekillendirmek, biçimlendirmek veya başka şekilde analiz etmek için kullanabileceğiniz birçok işlev vardır. Bu işlevler bir dizi kategoride gruplandırılabilir:
 
 * **Toplama** işlevleri
@@ -52,7 +60,7 @@ DAX'taki **mantıksal** işlev koleksiyonu şunları içerir:
 
 Bu özel işlevler *işleçler* ile de ifade edilebilir. Örneğin; **AND**, DAX formülünüzde **&&** olarak yazılabilir (değiştirilebilir).
 
-Formülünüzde ikiden fazla koşula ihtiyacınız olduğunda işleçleri (**&&** gibi) kullanabilirsiniz ancak aksi halde, DAX kodunuzun okunabilirliği için işlevin adını (**AND** gibi) doğrudan kullanmak en iyi yöntemdir.
+Formülünüzde ikiden fazla koşula ihtiyacınız olduğunda işleçleri ( **&&** gibi) kullanabilirsiniz ancak aksi halde, DAX kodunuzun okunabilirliği için işlevin adını (**AND** gibi) doğrudan kullanmak en iyi yöntemdir.
 
 ## <a name="information-functions"></a>Bilgi işlevleri
 DAX'taki **Bilgi** işlevleri şunları içerir:

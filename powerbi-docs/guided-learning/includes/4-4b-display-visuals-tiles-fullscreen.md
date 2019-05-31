@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264045"
+---
 Hizmette Power BI panolarına veya raporlara bakarken tek bir grafiğe veya görselleştirmeye odaklanmak bazen faydalı olabilir. Bunu iki farklı şekilde yapabilirsiniz.
 
 Panodayken sağ üst köşedeki birkaç farklı simge seçeneğini görmek için bir kutucuğun üzerine gelin. Üç noktayı seçtiğinizde, kutucuk üzerinde gerçekleştirebileceğiniz işlemleri ifade eden bir simge koleksiyonu görürsünüz.

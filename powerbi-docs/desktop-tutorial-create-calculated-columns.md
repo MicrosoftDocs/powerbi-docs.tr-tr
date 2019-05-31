@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514553"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
@@ -44,7 +44,7 @@ Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones –
     
     ![Formül çubuğu](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  Varsayılan olarak, yeni bir hesaplanmış sütunun adı sadece Sütun olur. Sütunu yeniden adlandırmazsanız ek olarak oluşturulacak sütunlar Sütun 2, Sütun 3 ve benzeri şekilde adlandırılır. Sütununuzun daha iyi ayırt edilebilir olmasını istiyorsunuz. Bu nedenle, **Sütun** adı formül çubuğunda zaten vurgulandığı için **ProductFullCategory** yazarak yeniden adlandırın ve sonra bir eşittir (**=**) işareti girin.
+2.  Varsayılan olarak, yeni bir hesaplanmış sütunun adı sadece Sütun olur. Sütunu yeniden adlandırmazsanız ek olarak oluşturulacak sütunlar Sütun 2, Sütun 3 ve benzeri şekilde adlandırılır. Sütununuzun daha iyi ayırt edilebilir olmasını istiyorsunuz. Bu nedenle, **Sütun** adı formül çubuğunda zaten vurgulandığı için **ProductFullCategory** yazarak yeniden adlandırın ve sonra bir eşittir ( **=** ) işareti girin.
     
 3.  Yeni sütununuzdaki değerlerin ProductCategory adıyla başlamasını istiyoruz. Bu sütun farklı ancak ilişkili bir tabloda olduğundan, sütuna [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) işlevini kullanarak ulaşabilirsiniz.
     
@@ -61,14 +61,14 @@ Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones –
     > [!TIP]
     > Bazı durumlarda sizin yerinize Power BI Desktop tarafından eklenmesine rağmen, söz dizimi hataları en yaygın olarak eksik veya yanlış yerleştirilmiş bir kapatma ayracından kaynaklanır.
     
-4. Yeni değerlerde ProductCategories ve ProductSubcategories öğelerini tire ve boşluklarla birbirinden ayırmak istiyorsunuz. Bu nedenle, ilk ifadenin kapatma ayracından sonra bir boşluk, ve işareti (**&**), çift tırnak (**"**), boşluk, tire (**-**), başka bir boşluk, başka bir çift tırnak ve başka bir ve işareti girin. Formülünüzün aşağıdaki gibi görünmesi gerekir:
+4. Yeni değerlerde ProductCategories ve ProductSubcategories öğelerini tire ve boşluklarla birbirinden ayırmak istiyorsunuz. Bu nedenle, ilk ifadenin kapatma ayracından sonra bir boşluk, ve işareti ( **&** ), çift tırnak ( **"** ), boşluk, tire ( **-** ), başka bir boşluk, başka bir çift tırnak ve başka bir ve işareti girin. Formülünüzün aşağıdaki gibi görünmesi gerekir:
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > Daha fazla yer gerekirse, formül düzenleyicisini genişletmek için formül çubuğunun sağındaki aşağı köşeli çift ayracı seçin. Düzenleyicide bir satır aşağı inmek için **Alt + Enter** tuşlarına, içeriği yana kaydırmak için **Tab** tuşuna basın.
     
-5.  Formülü tamamlamak için bir açma ayracı (**[**) girin ve sonra **[ProductSubcategory]** sütununu seçin. 
+5.  Formülü tamamlamak için bir açma ayracı ( **[** ) girin ve sonra **[ProductSubcategory]** sütununu seçin. 
     
     ![ProductSubcategory seçme](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -110,7 +110,7 @@ Neyse ki, Stores tablosunda etkin mağazalar için "On" ve etkin olmayan mağaza
     
     ![Status seçme](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  **[Status]** öğesinden hemen sonra **="On"** yazın ve sonra bir virgül (**,**) girerek bağımsız değişkeni sonlandırın. Araç ipucu, sonuç TRUE olduğunda döndürülecek bir değer eklemenizi önerir.
+4.  **[Status]** öğesinden hemen sonra **="On"** yazın ve sonra bir virgül ( **,** ) girerek bağımsız değişkeni sonlandırın. Araç ipucu, sonuç TRUE olduğunda döndürülecek bir değer eklemenizi önerir.
     
     ![TRUE değeri ekleme](media/desktop-tutorial-create-calculated-columns/if3.png)
     

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257066"
+---
 Verilerinizi hareket halindeyken izlemek istiyorsanız Power BI'ın iOS, Android veya Windows cihazlarına yönelik mobil uygulamalarından birini kullanabilirsiniz.
 
 Power BI uygulamasını kullanırken ilk olarak Power BI hizmeti hesap bilgilerinizle hesabınızda oturum açın. Mobil bir Windows cihazında oturum açma ekranı aşağıda yer alan görüntüdeki gibidir.

@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285888"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101368"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık
 
->[!NOTE]
+>[!NOTE]  
 >Bu makale Excel 2007 ve sonraki sürümleri için geçerlidir.
 
 Power BI'a Excel çalışma kitabı aktarırken şu hatayla karşılaşabilirsiniz:
 
-*Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık. Verileriniz uygun şekilde biçimlendirilmemiş olabilir. Çalışma kitabınızı Excel'de düzenlemeniz ve ardından tekrar içeri aktarmanız gerekir.*
+*Hata: Tablo olarak biçimlendirilmiş herhangi bir veri bulamadık. Excel'den Power BI hizmetinde içeri aktarmak için verilerin tablo olarak biçimlendirilmesi gerekir. Ctrl + T tuşuna basın ve tabloda istediğiniz tüm verileri seçin.*
 
-![Çalışma kitabında veri bulunamadı](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Çalışma kitabında veri bulunamadı](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>Hızlı çözüm
 1. Çalışma kitabınızı Excel'de düzenleyin.
@@ -47,28 +47,28 @@ Bir Excel çalışma kitabını içeri aktardığınızda, Power BI bu tablolar�
     >[!NOTE]
     >Buradaki görüntüler Excel 2013'ten alınmıştır. Farklı bir sürüm kullanıyorsanız görüntüler küçük farklılıklar gösterebilir ancak adımlar aynıdır.
     
-    ![Çalışma kitabını aç](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Çalışma kitabını aç](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. Verilerinizin bulunduğu hücre aralığını seçin. İlk satırda sütun üstbilgilerinizin (sütun adları) bulunması gerekir:
    
-    ![Hücre aralığını seçin](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Hücre aralığını seçin](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
 3. **EKLE** sekmesindeki şeritte bulunan **Tablo**'ya tıklayın. (Alternatif olarak **Ctrl + T** kısayolunu da kullanabilirsiniz.)
    
-    ![Tablo ekle](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Tablo ekle](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
 4. Aşağıdaki iletişim kutusunu görürsünüz. **Tablom üstbilgi satırı içeriyor** onay kutusunun işaretlendiğinden emin olun ve **Tamam**'ı seçin:
    
-    ![Tablo oluştur](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Tablo oluştur](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. Artık verileriniz tablo biçimindedir:
    
-    ![Tablo olarak biçimlendirilmiş veriler](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Tablo olarak biçimlendirilmiş veriler](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Çalışma kitabınızı kaydedin.
 7. Power BI'a geri dönün. Sol gezinti bölmesinin alt kısmındaki Veri Al seçeneğini belirleyin.
    
-    ![Veri al](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Veri al](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. **Dosyalar** kutusunda **Al**'ı seçin.
    
-    ![Dosya alma](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Dosya alma](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. Excel çalışma kitabınızı yeniden içeri aktarın. Bu kez içeri aktarma işlemiyle tablonun bulunması ve işlemin başarılı olması gerekir.
    
     İçeri aktarma işlemi yine de başarısız olursa yardım menüsündeki **Topluluk **seçeneğine tıklayarak bizi haberdar edin:
    
-    ![Topluluk bağlantısı](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Topluluk bağlantısı](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

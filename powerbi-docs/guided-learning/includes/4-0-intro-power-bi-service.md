@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264076"
+---
 Power BI **Destekli Öğrenme** kursundaki **Verileri Araştırma** bölümüne hoş geldiniz. Artık Power BI Desktop, veri alma ve veri görselleştirme hakkında bilgi sahibi olduğunuza göre Power BI hizmetinde verileri araştırmaya hazırsınız.
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

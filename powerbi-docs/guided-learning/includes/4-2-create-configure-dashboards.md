@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264085"
+---
 Power BI'daki **Panolar**, Power BI hizmetinin içinde oluşturulmuş görselleştirmelerden meydana gelen tek sayfalık koleksiyonlarıdır. Power BI Desktop'u kullanarak oluşturduğunuz ve yayımladığınız raporlardaki görselleştirmeleri veya Power BI hizmetinin kendisi içinde oluşturduğunuz görselleştirmeleri **sabitleyerek** panolar oluşturursunuz. Bir panoya görsel **sabitlemek** mantar panoya resim sabitlemek gibidir; görsel, panoda diğerlerinin görebileceği belirli bir noktaya yapıştırılır. Bir görseli sabitlemek için Power BI hizmetinde görselin bulunduğu raporu açın. Sabitlemek istediğiniz görselin üzerine gelin ve **raptiye** simgesini seçin.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

@@ -1,22 +1,22 @@
 ---
 title: Kutucuk hatalarıyla ilgili sorunları giderme
 description: Power BI’da kutucuklar yenileme yapmaya çalıştığında karşılaşılabilecek genel hatalar
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086644"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66050987"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.
@@ -64,6 +64,17 @@ Alan silinmiş veya yeniden adlandırılmış olabilir. Bozuk alanı görselden 
 **Bu görsel için veri alınamadı. Lütfen daha sonra yeniden deneyin.**
 
 Bu genellikle geçici bir sorundur. Daha sonra yeniden denediğinizde aynı iletiyi görürseniz destek ekibiyle iletişime geçin.
+
+**Çoklu oturum açma (SSO) etkinleştirdikten sonra filtrelenmemiş verileri göstermek üzere kutucukları devam edin.**
+
+Temel alınan veri kümesi DirectQuery modunda veya Analysis Services'e yönelik canlı bir bağlantı bir şirket içi veri ağ geçidi kullanmak için yapılandırılmışsa, bu durum oluşabilir. Bu durumda, kutucukları sonraki kutucuk yenileme son olana kadar SSO veri kaynağı için etkinleştirdikten sonra filtrelenmemiş verileri göstermek devam edin. Sonraki kutucuk yenileme, yapılandırılan SSO Power BI'ı kullanır ve kullanıcı kimliğini göre filtrelenmiş veri kutucukları göster. 
+
+Filtrelenen verileri hemen görmek istiyorsanız, sağ üst kısmındaki bir Pano nokta (...) ve seçerek kutucuk yenileme zorlayabilirsiniz **Pano kutucuklarını Yenile**.
+
+Bir veri kümesi sahibi kutucuk yenileme sıklığını değiştirmek ve kutucuk yenileme hızlandırmak için 15 dakika olarak ayarlayın. Power BI hizmetinin sağ üst köşesindeki dişli simgesini seçin ve ardından **ayarları**. Üzerinde **ayarları** sayfasında **veri kümeleri** sekmesi. Genişletin **zamanlanmış önbellek yenileme** değiştirip **yenileme sıklığını**. Power BI'ı sonraki kutucuk yenileme gerçekleştirdikten sonra özgün yenileme sıklığı için yapılandırmayı sıfırlamak emin olun.
+
+> [!NOTE]
+> **Zamanlanmış önbellek yenileme** bölümdür yalnızca DirectQuery/LiveConnection modunda veri kümeleri için kullanılabilir. Kutucuklar, sonraki zamanlanmış veri yenileme işlemi sırasında otomatik olarak yenilenir olduğundan içeri aktarma modunda veri kümeleri ayrı kutucuk yenileme gerek yoktur.
 
 ## <a name="contact-support"></a>Desteğe başvurun
 Sorun yaşamaya devam ediyorsanız daha fazla araştırma yapılabilmesi için [destek ekibiyle iletişime geçin](https://support.powerbi.com).

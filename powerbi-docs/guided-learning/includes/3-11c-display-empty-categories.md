@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397965"
+---
 Varsayılan olarak, raporlarınızda, yalnızca veri içeren sütun başlıkları görüntülenir. Örneğin, ülkeye göre gelir bilgilerini görüntülüyorsanız ve Norveç'te hiç satış yoksa Norveç, görselleştirmenizin herhangi bir yerinde görünmez.
 
 Boş kategorileri görüntülemek için, **Görsel Öğeler** bölmesinde, değiştirmek istediğiniz alandaki aşağı oka tıklayın ve **Veri içermeyen öğeleri göster** seçeneğini belirleyin.

@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 05/09/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290479"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65533590"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop’ta bileşik modeller kullanma
 
-Daha önce Power BI Desktop'ta raporda bir DirectQuery kullandığınızda, bu rapor için &mdash;ister DirectQuery ister İçeri aktarma olsun&mdash; başka hiçbir veri bağlantısına izin verilmiyordu. Bileşik modellerle bu kısıtlama kaldırılmıştır. Bir rapor birden çok DirectQuery veya içeri aktarma veri bağlantısından ya da sizin seçtiğiniz herhangi bir bileşimde veri bağlantıları içerebilir.
+Daha önce Power BI Desktop'ta bir rapor, diğer veri bağlantısı yok - bir DirectQuery kullanıldığında DirectQuery veya içeri aktarma - izin verilip Bu rapor için. Bileşik modellerle bu kısıtlama kaldırılmıştır. Bir rapor birden çok DirectQuery veya içeri aktarma veri bağlantısından ya da sizin seçtiğiniz herhangi bir bileşimde veri bağlantıları içerebilir.
 
 ![Power BI Desktop’taki bileşik modeller](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Bileşik modeller sayesinde Power BI Desktop'ı veya Power BI hizmetini kullanı
 * Veri almak için en sık kullanılan yöntemden faydalanarak verileri Power BI'a aktarma.
 * DirectQuery'yi kullanarak özgün kaynak deposundaki verilere bağlanma. DirectQuery hakkında daha fazla bilgi edinmek için bkz. [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md).
 
-DirectQuery'yi kullandığınızda *bileşik modeller* aşağıdakilerden birini veya ikisini birden gerçekleştiren bir Power BI modeli (tek bir *.pbix* Power BI Desktop dosyası gibi) oluşturmak mümkündür:
+DirectQuery kullanırken *bileşik modelleri* bir Power BI model oluşturmak mümkün kılar (gibi tek bir *.pbix* Power BI Desktop dosyası) ya da aşağıdakileri yapar:
 
 * Bir veya birden çok DirectQuery kaynağından verileri birleştirir.
 * DirectQuery kaynaklarından verileri birleştirir ve verileri içeri aktarır.
@@ -52,8 +52,6 @@ DirectQuery'yi kullandığınızda *bileşik modeller* aşağıdakilerden birini
 
 Birden çok DirectQuery kaynağından alınan verileri birleştiren veya DirectQuery'yi içeri aktarılan verilerle birleştiren modeller, *bileşik model* olarak adlandırılır.
 
-> [!NOTE]
-> *Power BI Desktop*'ın Ekim 2018 sürümünden itibaren bileşik modelleri Power BI hizmetine yayımlayabilirsiniz. Zamanlanmış yenileme ve pano kutucuğu yenileme için Power BI hizmetindeki bileşik modeller İçeri Aktarma modelleri ile aynı şekilde hareket eder. 
 
 Tablolar farklı kaynaklardan geliyor olsa bile, her zaman yaptığınız gibi tablolar arasında ilişkiler oluşturabilirsiniz; ama şu kısıtlamalar söz konusudur: kaynaklar arası kurulan tüm ilişkiler, gerçek kardinalitesi ne olursa olsun *çok-çok* kardinalitesi olacak şekilde tanımlanır. Bu tür ilişkilerin davranışı da [Power BI Desktop'ta çok-çok ilişkileri (önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklandığı gibi normal *çok-çok* ilişkileriyle aynıdır. 
 
@@ -102,7 +100,7 @@ Artık **Alanlar** listesindeki alanlardan birini kullanarak görsel oluşturabi
 
 ![Alanlar bölmesi](media/desktop-composite-models/composite-models_11.png)
 
-Aşağıdaki örnekte *Product* veya *Customer* gibi bir başka bir yerden içeri aktarılmış ek verilerle genişletilmiş bir *boyut* tablosu gösterilmektedir. Tablolar, farklı kaynaklara bağlanmak için DirectQuery'yi de kullanabilir. Örneğimize devam edecek olursak *Country* ve *Period* başına *SalesTargets* değerlerinin ayrı bir departman veritabanında depolandığını düşünelim. Aşağıdaki görüntüde de gösterildiği şekilde, her zaman yapabileceğiniz gibi bu verilere bağlanmak için *GetData* kullanabilirsiniz: 
+Aşağıdaki örnek bir genel durumu görüntüler. bir *boyut* tablo - gibi *ürün* veya *müşteri* -başka bir yere alınan bazı ek veriler ile genişletilir. Tablolar, farklı kaynaklara bağlanmak için DirectQuery'yi de kullanabilir. Örneğimize devam edecek olursak *Country* ve *Period* başına *SalesTargets* değerlerinin ayrı bir departman veritabanında depolandığını düşünelim. Aşağıdaki görüntüde de gösterildiği şekilde, her zaman yapabileceğiniz gibi bu verilere bağlanmak için *GetData* kullanabilirsiniz: 
 
 ![Gezgin penceresi](media/desktop-composite-models/composite-models_12.png)
 
@@ -124,7 +122,7 @@ Depolama modu her tablonun araç ipucunda da görüntülenebilir.
 
 ![Depolama modunun görüntülendiği araç ipucu](media/desktop-composite-models/composite-models_16.png)
 
-DirectQuery'den bazı dosyalar ve bazı içeri aktarma tabloları içeren herhangi bir Power BI Desktop dosyası (*.pbix* dosyası) için, durum çubuğunda **Karma** olarak adlandırılan depolama modu görüntülenir. Durum çubuğunda bu terime tıklayabilir ve tüm tabloları kolayca İçeri aktarmaya geçirebilirsiniz.
+DirectQuery'den bazı dosyalar ve bazı içeri aktarma tabloları içeren herhangi bir Power BI Desktop dosyası ( *.pbix* dosyası) için, durum çubuğunda **Karma** olarak adlandırılan depolama modu görüntülenir. Durum çubuğunda bu terime tıklayabilir ve tüm tabloları kolayca İçeri aktarmaya geçirebilirsiniz.
 
 Depolama modu hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md).  
 
@@ -154,7 +152,7 @@ Benzer nedenlerle, güvenilmeyen bir kaynaktan gönderilen Power BI Desktop dosy
 
 DirectQuery kullanılırken, öncelikle arka uç kaynağının kullanıcılara iyi bir deneyim sağlamaya yetecek kaynakları olduğundan emin olmak için performans konusunu dikkate almanız gerekir. İyi deneyim, görsellerin en fazla beş saniyede yenilenmesi anlamına gelir. Ayrıca, [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md) makalesindeki performans önerilerini de izlemeniz gerekir. 
 
-Bileşik modellerin kullanılması da performansı etkileyen etmenlerden biridir. Tek bir görsel, birden fazla kaynağa sorgu gönderir ve genellikle bir sorgunun sonuçları ikinci bir kaynağa iletilir. Bu durum sonucunda aşağıdaki yürütme biçimleri söz konusu olabilir:
+Bileşik modellerin kullanılması da performansı etkileyen etmenlerden biridir. Tek bir görsele, genellikle sonuçları üzerinde bir sorgu için ikinci bir kaynak geçirmek birden çok kaynaklarına sorguları gönderme neden olabilir. Bu durum sonucunda aşağıdaki yürütme biçimleri söz konusu olabilir:
 
 * **Çok fazla sayıda hazır değer içeren bir SQL sorgusu**: Örneğin, bir dizi seçili *Product Managers* için toplam *Sales Amount* değerini isteyen bir görselin önce söz konusu ürün yöneticileri tarafından yönetilen *Products* değerlerini bulması gerekebilir. Bu işlemin görsel *WHERE* yan tümcesinde tüm ürün kimliklerini içeren bir SQL sorgusu göndermeden önce gerçekleştirilmesi gerekir.
 
@@ -162,7 +160,7 @@ Bileşik modellerin kullanılması da performansı etkileyen etmenlerden biridir
 
 * **Değere göre grup başına bir sorgu olmak üzere birden çok SQL sorgusu**: Toplamada başka bir kaynaktan bir sütuna göre gruplandırılmış **DistinctCount** kullanıldığında, dış kaynak gruplandırmayı tanımlayan birçok hazır değerin verimli bir şekilde geçirilmesini desteklemiyorsa, değere göre grup başına bir SQL sorgusu göndermek gerekebilir. 
 
-   Örneğin, *Product Manager*'a (elektronik tablodan içeri aktarılmış) göre *CustomerAccountNumber* (SQL Server tablosundan) ayrı sayımını isteyen bir görselin, SQL Server'a gönderilen sorgudaki *Product Managers* tablosundan ayrıntıları geçirmesi gerekebilir. Diğer kaynaklar, örneğin Redshift üzerinde bu mümkün değildir. Bunun yerine *Sales Manager* başına bir SQL sorgusu olabilir (belirli bir uygulama sınırına kadar; bu sınırdan sonra sorgu başarısız olacaktır). 
+   Örneğin, *Product Manager*'a (elektronik tablodan içeri aktarılmış) göre *CustomerAccountNumber* (SQL Server tablosundan) ayrı sayımını isteyen bir görselin, SQL Server'a gönderilen sorgudaki *Product Managers* tablosundan ayrıntıları geçirmesi gerekebilir. Diğer kaynaklar, örneğin Redshift üzerinde bu mümkün değildir. Bunun yerine, olacaktır bir SQL sorgusu gönderilen başına *Satış Yöneticisi* - noktada sorgu başarısız olurdu bazı pratik bir sınıra kadar. 
 
 Bu durumlardan her birinin performans üzerinde kendi etkileri vardır ve tam ayrıntılar her veri kaynağında değişiklik gösterir. İki kaynağı birleştiren ilişkide kullanılan sütunların kardinalitesi düşük kalmasına rağmen (birkaç bin) performans üzerinde önemli bir etkisi olmaz. Kardinalite arttıkça, sonuçta elde edilecek performans üzerindeki etkiyi daha fazla dikkate almanız gerekir. Bu kuralı kılavuzu olarak kullanabilirsiniz. 
 
@@ -170,7 +168,9 @@ Bunlara ek olarak, *çok-çok* ilişkilerinin kullanılması ayrıntılı değer
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-Bileşik modellerin bu sürümünde birkaç sınırlama vardır.
+Bu sürüm bileşik modelleri ilişkin birkaç sınırlama sunar:
+
+Şu anda [artımlı yenileme](service-premium-incremental-refresh.md) SQL, Oracle ve Teradata veri kaynakları için yalnızca bağlanma bileşik modelleri için desteklenir.
 
 Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanılamaz:
 
@@ -187,8 +187,8 @@ DirectQuery'nin mevcut sınırlamaları bileşik modelleri kullanırken de geçe
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
-* [Power BI Desktop’ta çok-çok ilişkiler (önizleme)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop’ta depolama modu (önizleme)](desktop-storage-mode.md)
+* [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md)
+* [Power BI Desktop'ta depolama modu](desktop-storage-mode.md)
 * [Power BI'da DirectQuery'yi kullanma](desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 

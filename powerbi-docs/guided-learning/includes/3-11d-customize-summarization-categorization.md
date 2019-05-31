@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397954"
+---
 Power BI'da, modelinizdeki alanlar için atayabileceğiniz özellikler mevcuttur. Bunlar, verilerinizi daha net bir şekilde raporlarmanıza, görselleştirmenize ve sunmanıza yardımcı olur. Örneğin, bazen sayılardan oluşan bir listenin ortalamasını almak istersiniz ancak Power BI listedeki sayıları otomatik olarak toplar. Power BI ile söz konusu sayıların bulunduğu listelerin nasıl özetleneceğini ayarlayabilirsiniz.
 
 ## <a name="numeric-control-over-summarization"></a>Özetleme için sayısal denetim

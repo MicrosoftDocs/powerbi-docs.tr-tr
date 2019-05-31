@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264065"
+---
 Power BI uygulamasının veri bulmanıza, bunları bir veri modelinde bir araya getirmenize ve söz konusu verileri kullanarak raporlar ve görselleştirmeler oluşturmanıza nasıl yardımcı olduğunu gösterdik. Ayrıca, bu raporları Power BI hizmetinde nasıl yayımlayabileceğinizi ve bilgilerinizi zaman içinde izlemenize yardımcı olan panoları nasıl oluşturabileceğinizi de gördünüz. Tüm bu özellikler, öngörülerinizi kuruluşunuzdaki diğer kişilerle paylaştıkça çok daha güçlü bir hale geliyor. Neyse ki panolarınızı kolayca paylaşabilirsiniz.
 
 Bir panoyu paylaşmak için, söz konusu panoyu Power BI hizmetinde açın ve sağ üst köşedeki **Paylaş** bağlantısını seçin.

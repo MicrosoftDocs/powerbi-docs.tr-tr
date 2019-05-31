@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295870"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514821"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -32,10 +32,10 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
    Microsoft Cloud Deutschland (MCD) olarak da adlandırılan EU/EFTA müşterilerine yönelik Power BI hizmeti, Alman veri merkezlerinden sunulan Power BI hizmeti içeren EU/EFTA uyumlu bir buluttur. EU/EFTA bulutuna yönelik Power BI hizmetindeki tüm müşteri verileri, bekleme durumundayken Almanya'da depolanır ve bağımsız Alman veri güvenilen kurumu olarak T-Systems hizmet vermekte, verilere fiziksel ve mantıksal erişim ise Alman yasaları çerçevesinde denetlenmektedir. EU/EFTA bulutuna yönelik Power BI hizmeti için Power BI hizmetinin ticari sürümünden bağımsız ve ayrı bir hesap gerekir. Microsoft Cloud Deutschland hakkında daha fazla bilgiye [buradan](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud) ulaşabilirsiniz.
 2. **Power BI Almanya Bulutu hakkında fiyat ve kayıt bilgilerine nereden ulaşabilirim?**
    
-   [Power BI Almanya Bulutu ana sayfasından](https://powerbi.microsoft.com/power-bi-germany/) fiyat bilgileri dahil olmak üzere birçok bilgiye ulaşabilirsiniz. Bu sayfada 25 kullanıcı lisansına sahip 30 günlük **Power BI Pro hizmeti** deneme sürümüne kaydolma bağlantısı da yer almaktadır. Deneme sürümüne kaydolurken ihtiyacınız doğrultusunda lisans satın alabilir veya ekleyebilirsiniz. Ayrıca Kurumsal Sözleşme (EA), Kamu ve kâr amacı gütmeyen kuruluş fiyatları da sunuyoruz. Daha fazla bilgi için lütfen Microsoft müşteri temsilcinize ulaşın.
+   [Power BI Almanya Bulutu ana sayfasından](https://powerbi.microsoft.com/power-bi-germany/) fiyat bilgileri dahil olmak üzere birçok bilgiye ulaşabilirsiniz. Bu sayfada kaydolmak için bir bağlantı da bulabilirsiniz **Power BI Pro hizmeti** 25 kullanıcı lisansına sahip 30 günlük deneme. Deneme sürümüne kaydolma işleminin bir parçası olarak satın alan veya gerektiği gibi ek lisans ekleme seçeneğiniz bulunur. Ayrıca Kurumsal Sözleşme (EA), Kamu ve kâr amacı gütmeyen kuruluş fiyatları da sunuyoruz. Daha fazla ayrıntı için Microsoft Müşteri temsilcinize başvurun.
 3. **Azure Almanya ve/veya Office 365 Almanya aboneliklerimin bir parçası olarak Almanya Bulutu kiracım var. Power BI Almanya'ya kaydolmak için mevcut kiracımı kullanabilir miyim?**
    
-   Evet. Kaydolma işlemi sırasında var olan Almanya Bulutu kiracınızın yönetici hesabıyla oturum açarak Almanya Bulutu'ndaki mevcut kiracınıza Power BI Pro lisansı ekleyebilirsiniz. Almanya Bulutu kiracılarının ve kullanıcı hesaplarının Almanya bulutu Power BI hizmetinden farklı olduğunu unutmayın.
+   Evet. Kaydolma işlemi sırasında var olan Almanya Bulutu kiracınızın yönetici hesabıyla oturum açarak Almanya Bulutu'ndaki mevcut kiracınıza Power BI Pro lisansı ekleyebilirsiniz. Almanya Bulutu kiracılarının ve kullanıcı hesaplarının Almanya bulutu için Power BI hizmetinden farklı olduğunu unutmayın.
 4. **Almanya bulutu için Power BI hizmetinde ücretsiz hizmet seçeneği var mı?**
    
    Hayır. Almanya bulutu için Power BI hizmetinde ücretsiz lisans sürümü sunmuyoruz. Ancak, işletmenizin ihtiyaçları Power BI ücretsiz sürümüne uygunsa [genel bulutumuzdaki Power BI ücretsiz teklifine](https://powerbi.microsoft.com/get-started/) kaydolmanızı öneriyoruz.
@@ -56,7 +56,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
    * Power BI Embedded (ayrı ölçülen ISV lisansı, ileride [Microsoft Azure Almanya](https://azure.microsoft.com/overview/clouds/germany/) tarafından sunulacak)
 7. **Uygulamalarımda kullanmak ve tümleştirmek üzere Almanya bulutu için Power BI hizmetine özel yapılandırma bilgilerini nerede bulabilirim?**
    
-   [SaaS Embedding geliştirici örneklerimizi](https://github.com/Microsoft/PowerBI-Developer-Samples) Almanya ve diğer Power BI bulutlarına özgü yapılandırma bilgileriyle güncelleştirdik. Buluta özgü yapılandırma uç noktaları için lütfen örneklerdeki **Bulut Yapılandırmaları** klasörüne bakın. Aşağıdaki tabloda Almanya bulutu için Power BI hizmetine yönelik farklı yapılandırma uç noktaları yer almaktadır (çapraz başvuru için Genel Bulut karşılıkları da verilmiştir).
+   [SaaS Embedding geliştirici örneklerimizi](https://github.com/Microsoft/PowerBI-Developer-Samples) Almanya ve diğer Power BI bulutlarına özgü yapılandırma bilgileriyle güncelleştirdik. Bakmak **bulut yapılandırmalarını** buluta özgü yapılandırma uç noktaları için örnekleri klasöründe. Aşağıdaki tabloda Almanya bulutu için Power BI hizmetine yönelik farklı yapılandırma uç noktaları yer almaktadır (çapraz başvuru için Genel Bulut karşılıkları da verilmiştir).
 
 | **Uç nokta adı ve/veya kullanımı** | **Almanya bulutu için Power BI hizmeti URL'si** | **Genel Buluttaki eşdeğer URL (çapraz başvuru için)** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
 | Power BI Hizmeti Kaynak URI'si |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
 | Özel Görsel Kitaplığı |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Power BI'a Uygulama Kaydetme (Embedded için) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
-| Azure Portal (Embedded için) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
+| Azure portalı (için katıştırılmış) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | Topluluk |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ## <a name="next-steps"></a>Sonraki adımlar

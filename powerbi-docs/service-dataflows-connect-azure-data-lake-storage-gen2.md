@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 79bba3b65d508716bc451c1c4876a8674242fcc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174764"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139635"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
 Veri akışlarını kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında depolayacak şekilde depolamak için Power BI çalışma alanlarını yapılandırabilirsiniz. Bu makalede, bunu yapmak için gerekli genel adımlar açıklanmakta ve bu süreçteki en iyi uygulamalar ve yönergeler sağlanmaktadır. Çalışma alanlarını, veri akışı tanımlarını ve veri dosyalarını veri gölünüzde depolayacak şekilde yapılandırmanın bazı avantajları vardır. Bu avantajlardan bazıları şunlardır:
 
 * Azure Data Lake Storage 2. Nesil, veriler için büyük ölçüde ölçeklenebilir depolama olanağı sağlar
-* [github samples from Azure Data Services](https://aka.ms/cdmadstutorial) içinde gösterildiği gibi Azure Verileri ve yapay zeka (AI) hizmetlerinden yararlanmak için BT departmanınızın geliştiricileri tarafından veri akışı verileri ve tanım dosyaları kullanılabilir
-* Kuruluşunuzdaki geliştiricilerin,veri akışları ve Azure için geliştirici kaynaklarını kullanarak veri akışı verilerini iç uygulamalarda ve iş kolu çözümlerinde tümleştirmesine olanak sağlar
+* Veri akışı veri ve tanım dosyaları, Azure veri yararlanmak için BT departmanınızın geliştiriciler tarafından yararlanılabilir ve yapay zeka (AI) hizmetlerini gösterildiği şekilde [Azure veri hizmetlerinden GitHub örnekleri](https://aka.ms/cdmadstutorial)
+* Geliştiricilerin iç uygulamaları ve iş kolu satır çözümleri, veri akışlarını ve Azure için geliştirici kaynaklarını kullanarak veri akışı verileri tümleştirin, kuruluşunuzdaki sağlar
 
 Veri akışları için Azure Data Lake Storage 2. Nesil’i kullanmak için aşağıdakiler gerekir:
 
@@ -31,11 +31,13 @@ Veri akışları için Azure Data Lake Storage 2. Nesil’i kullanmak için aşa
 * **Genel Yönetici hesabı**: Veri akışı tanımını ve verileri Azure Data Lake Storage 2. Nesil hesabınızda depolamak amacıyla Power BI’a bağlanmak ve Power BI’ı yapılandırmak için bu hesap gerekir
 * **Bir Azure aboneliğine** -Azure Data Lake depolama Gen2 kullanmak için bir Azure aboneliği gerekir
 * **Kaynak grubu**: Sahip olduğunuz bir kaynak grubunu kullanabilir veya yeni bir tane oluşturabilirsiniz
-* **Data Lake Storage 2. Nesil (Önizleme) özelliği etkin bir Azure Depolama hesabı**: Azure Data Lake Storage 2. Nesil’e bağlanmak için genel önizlemesine kaydolmanız gerekir
+* **Data Lake depolama Gen2 özelliği etkin olan bir Azure depolama hesabı** 
 
 > [!TIP]
 > Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/) oluşturun.
 
+> [!WARNING]
+> Bir veri akışı depolama konumu yapılandırıldıktan sonra değiştirilemez. Bkz: [önemli noktalar ve sınırlamalar](#considerations-and-limitations) dikkate alınması gereken diğer önemli öğeleri için bu makalenin sonlarında bölümü.
 
 ## <a name="prepare-your-azure-data-lake-storage-gen2-for-power-bi"></a>Power BI için Azure Data Lake Storage 2. Nesil hesabınızı hazırlama
 
@@ -49,9 +51,6 @@ Azure Data Lake Storage 2. Nesil hesabıyla Power BI’ı yapılandırabilmeniz 
 6. Power BI hizmetleri, oluşturduğunuz **powerbi** dosya sistemi için yetkilendirilmiş olmalıdır.
 
 Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrıntılı şekilde yapılandırmak için gerekli adımlar açıklanmaktadır.
-
-> [!NOTE]
-> Veri akışları işlevselliği önizleme aşamasındadır ve genel kullanıma sunulmadan önce değiştirilip güncelleştirilebilir.
 
 ### <a name="create-the-storage-account"></a>Depolama hesabı oluşturma
 
@@ -71,7 +70,9 @@ Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rol�
 
 ![Okuyucu rolüne atanan Power BI hizmeti](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
 
-Not: Portaldan Power BI’a yayma işlemi için lütfen en az 30 dakikalık süre tanıyın. Portaldaki izinleri her değiştirdiğinizde, yeniden denemek için aynısının Power BI’a yansıması için 30 dakikalık süre tanımalısınız. 
+
+> [!NOTE]
+> En az 30 dakika boyunca izin Power BI'a portaldan yayılmasına izin verin. Portalında, izinleri değiştirmek istediğiniz zaman Power BI'da yansıtılması bu izinleri 30 dakika bekleyin. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Power BI için bir dosya sistemi oluşturma
@@ -114,7 +115,7 @@ Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
     ![Power uygulamalarını arama](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Aramanızın sonuçlarından hem Power BI hizmeti hem de Power BI Premium için Nesne Kimliklerini seçip kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
+5. Seçin ve iki nesne kimlikleri Power BI hizmetinde ve Power Query çevrimiçi aramanızın sonuçlarını kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
 
 7. Daha sonra, önceki bölümde oluşturduğunuz *powerbi* dosya sistemine gitmek için **Azure Depolama Gezgini**’ni kullanın. [Azure Depolama gezginini kullanarak dosya ve dizin düzeyinde izinleri ayarlama](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) makalesinin [Erişimi yönetme](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) bölümündeki yönergeleri izleyin.
 
@@ -132,15 +133,15 @@ Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Azure Data Lake Storage 2. Nesil’inizi Power BI’a bağlama
 
-Azure Portal’da Azure Data Lake Storage 2. Nesil hesabınızı kurduktan sonra bu hesabı **Power BI yönetici portalında** Power BI’a bağlarsınız. Ayrıca Power BI yönetici portalının **Veri akışı depolama (önizleme)** ayarları bölümünde Power BI veri akışı depolama alanını da yönetirsiniz. Başlatma ve temel kullanım ile ilgili yönergeler için [Yönetici portalına ulaşma](service-admin-portal.md) bölümünden ayrıntılı bilgi edinebilirsiniz.
+Azure Data Lake depolama Gen2 hesabınızı Azure portalında ayarladıktan sonra Power BI'da bağlama **Power BI Yönetici portalına**. Ayrıca Power BI veri akışı depolamada yönettiğiniz **veri akışı depolama** Ayarlar bölümünde Power BI yönetici portalının. Başlatma ve temel kullanım ile ilgili yönergeler için [Yönetici portalına ulaşma](service-admin-portal.md) bölümünden ayrıntılı bilgi edinebilirsiniz.
 
 Aşağıdaki adımlarla **Azure Data Lake Storage 2. Nesil** hesabınızın bağlantısını oluşturursunuz:
 
-1. **Power BI yönetici portalının** **Veri akışı ayarları (önizleme)** sekmesine gidin
+1. Gidin **veri akışı ayarları** sekmesinde **Power BI Yönetici portalı**
 
-    ![Power BI yönetici portalı](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_08.jpg) 
+    ![Power BI yönetici portalı](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-08b.png) 
 
-2. **Azure Data Lake Storage 2. Nesil Önizlemenizi bağlayın** düğmesini seçin. Aşağıdaki pencere görünür.
+2. Seçin **, Azure Data Lake depolama Gen2'ye bağlanmak** düğmesi. Aşağıdaki pencere görünür.
 
     ![Azure Data Lake Storage Gen2](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
@@ -161,7 +162,7 @@ Daha sonra kuruluşunuzdaki kişilerin kendi çalışma alanlarını yapılandı
 
 Varsayılan olarak veri akışı tanımı ve veri dosyaları, Power BI tarafından sağlanan depolama alanında depolanır. Kendi depolama hesabınızdaki veri akışı dosyalarına erişmek için çalışma alanı yöneticilerinin ilk olarak yeni depolama hesabında veri akışlarının atama ve depolamasına izin verecek şekilde çalışma alanını yapılandırması gerekir. Bir çalışma alanı yöneticisinin veri akışı depolama alanı ayarlarını yapılandırabilmesi için önce yöneticiye, **Power BI yönetici portalında** depolama atama izinleri verilmesi gerekir.
 
-Depolama atama izinleri vermek için **Power BI yönetici portalında** **Veri akışı ayarları (Önizleme)** sekmesine gidin. *Çalışma alanı yöneticilerinin bu depolama hesabına çalışma alanı atamasına izin ver* radyo düğmesi vardır ve bu düğme **izin ver** olarak ayarlanmalıdır. Kaydırıcıyı etkinleştirdikten sonra, değişikliğin geçerli olması için **Uygula** düğmesini seçin. 
+Depolama atama izinleri vermek için Git **veri akışı ayarları** sekmesinde **Power BI Yönetici portalına**. *Çalışma alanı yöneticilerinin bu depolama hesabına çalışma alanı atamasına izin ver* radyo düğmesi vardır ve bu düğme **izin ver** olarak ayarlanmalıdır. Kaydırıcıyı etkinleştirdikten sonra, değişikliğin geçerli olması için **Uygula** düğmesini seçin. 
 
 ![Yöneticilerin çalışma alanı atamasını sağlama](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -183,7 +184,7 @@ Power BI Desktop müşterileri, veri akışının sahibi olmadığı veya gölde
 
 1. Ayşe yeni bir uygulama çalışma alanı oluşturdu ve veri akışları, kuruluşun veri gölünde depolanacak şekilde bu çalışma alanını yapılandırdı. 
 2. Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu Veri Akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
-3. Berk, göldeki veri akışının CDM klasörü için yetkilendirilmediğinden aşağıdaki görüntüye benzer bir hata alır
+3. He lake veri akışı'nın CDM klasörüne yetkilendirilmedi çünkü Ben benzer bir hata alır.
 
 Sık sorulan sorular ve cevaplar arasında şunlar yer alır:
 
@@ -209,9 +210,9 @@ Veri akışları, CDM ve Azure Data Lake Storage 2. Nesil hakkında daha fazla b
 Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
+* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565279"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
@@ -48,7 +48,7 @@ Premium kapasite satın almak için bu adımları izleyin.
 
 1. **Diğer planlar** bölümünde Power BI Premium fırsatlarını bulun. Bu fırsatlar P1-P3 arası, EM3 ve P1 (aylık) şeklinde olacaktır.
 
-1. Üç nokta (**. . .**) simgesinin üzerine gelip **Hemen satın alın**'ı seçin.
+1. Üç nokta ( **. . .** ) simgesinin üzerine gelip **Hemen satın alın**'ı seçin.
 
     ![Şimdi satın alın](media/service-admin-premium-purchase/premium-purchase.png)
 

@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/25/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2c9daf54ec18b53655043cd4a472674ee5123be
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295984"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710810"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini ancak aynı zamanda tek Bölge Yöneticileri ve farklı zaman aralıkları için performansı vurgulayabilmesini istiyorsunuz. Ayrı raporlar veya karşılaştırmalı grafikler oluşturabilir ya da dilimleyicileri kullanabilirsiniz. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir. 
@@ -42,7 +42,7 @@ Power BI dilimleyicileri aşağıdaki sınırlamalara sahiptir:
 
 ## <a name="create-slicers"></a>Dilimleyici oluşturma
 
-Yeni bir dilimleyici oluşturmak için dilimleyici simgesini ve veri alanını seçebilir (veya **Görselleştirmeler** bölmesindeki **Alanlar** kutusuna sürükleyebilir) ya da ilk olarak bir görselleştirme oluşturmak üzere veri alanını seçebilir ya da sürükleyebilir ve ardından dilimleyici simgesini seçerek görselleştirmeyi bir dilimleyiciye dönüştürebilirsiniz. Farklı veri türleri, farklı etki ve seçeneklere sahip farklı türlerde dilimleyiciler oluşturur. 
+Yeni bir Dilimleyici oluşturmak için dilimleyici simgesini seçin ve ardından filtre uygulamak için veri alanını seçebilir (veya sürükleyin **filtreleri** kutusunda **görselleştirmeler** bölmesi), ya da seçin veya veri alanı için ilk sürükleyin. bir görselleştirme oluşturun ve sonra görselleştirmeyi bir dilimleyiciye etkinleştirmek için dilimleyici simgesini seçin. Farklı veri türleri, farklı etki ve seçeneklere sahip farklı türlerde dilimleyiciler oluşturur. 
 
 Bir raporu ilk kez değiştirdiğinizde **Varsayılana sıfırla** düğmesinin ışığı yanar. Bu, özgün rapor ayarlarında değişiklik yaptığınıza yönelik bir anımsatıcıdır. Rapordan çıkarsanız bu değişiklik kaydedilir (kalıcı hale gelir). Rapora geri döndüğünüzde raporu yeniden dilimlemeniz gerekmez.  Ancak, raporu yazarın varsayılan ayarlarına sıfırlamak isterseniz üst menü çubuğundan **Varsayılana sıfırla** düğmesini seçin.
 
@@ -51,26 +51,30 @@ Bir raporu ilk kez değiştirdiğinizde **Varsayılana sıfırla** düğmesinin 
 > [!NOTE]
 > **Varsayılana sıfırla** düğmeniz devre dışı kalırsa, rapor yazarının rapor için bu özelliği devre dışı bıraktığı veya raporun özel bir görsel içerdiği anlamına gelir. Bir açıklama için araç ipucunu okumak üzere düğmenin üzerine gelmeniz yeterlidir. 
 
-**Verileri Bölge Yöneticisine göre filtrelemek için yeni bir dilimleyici oluşturma**
+**Filtre verileri bölge yöneticisine göre yeni bir Dilimleyici oluşturma**
 
-1. Power BI Desktop veya Power BI hizmetinde [Perakende Analizi Örneği](../sample-retail-analysis.md)’ni açın. (Power BI hizmetinde sol üst köşedeki **Raporu Düzenle**’yi seçin.)
-2. **Genel Bakış** sayfasında, tuvalde hiçbir şey seçili değilken **Görselleştirmeler** bölmesindeki **Dilimleyici** simgesini ![dilimleyici simgesi](media/power-bi-visualization-slicers/slicer-icon.png) seçerek yeni bir dilimleyici oluşturun. 
-3. Dilimleyiciyi doldurmak için, yeni dilimleyici seçiliyken **Alanlar** bölmesindeki **Bölge** altında **Bölge Yöneticisi**’ni seçin. Yeni dilimleyici, adların önünde seçim kutularının bulunduğu bir listedir. 
+1. Power BI Desktop veya Power BI hizmetinde açın [Retail Analysis Sample](../sample-retail-analysis.md). (Power BI hizmetinde sol üst köşedeki **Raporu Düzenle**’yi seçin.)
+2. Genel bakış sayfasında, tuvalde seçili hiçbir şey seçin **Dilimleyici** simgesi ![Dilimleyici simgesini](media/power-bi-visualization-slicers/slicer-icon.png) içinde **görselleştirmeler** bölmesinde yeni bir Dilimleyici oluşturmak için. 
+3. Seçili alanlar bölmesinden yeni Dilimleyici seçin **bölge** > **DM** Dilimleyiciyi doldurmak için. Yeni dilimleyici, adların önünde seçim kutularının bulunduğu bir listedir. 
     
-    ![yeni dilimleyici](media/power-bi-visualization-slicers/2-slicer.png)
+    ![yeni dilimleyici](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Dilimleyiciye yer açmak için dilimleyiciyi ve tuvalin üzerindeki diğer öğeleri yeniden boyutlandırıp sürükleyin. Dilimleyiciyi çok küçük boyutlandırırsanız dilimleyici öğelerinin kesileceğini unutmayın. 
-5. Dilimleyici üzerindeki adları seçin ve sayfadaki diğer görselleştirmelere etkilerini not edin. Seçimlerini kaldırmak için adları tekrar seçin ve birden fazla ad seçmek için **Ctrl** tuşunu basılı tutun. Tüm adların seçilmesi, hiçbir adın seçilmemesiyle aynı etkiye sahiptir. 
+5. Dilimleyici üzerindeki adları seçin ve sayfadaki diğer görselleştirmelere etkilerini not edin. Seçimlerini kaldırmak için adları tekrar seçin ve birden fazla ad seçmek için **Ctrl** tuşunu basılı tutun. Tüm adların seçilmesi, hiçbir adın seçilmemesiyle aynı etkiye sahiptir. \
 
+6. Alternatif olarak, dilimleyicinizi biçimlendirmek için Boya rulosu simgesini seçin. Tüm burada açıklayın - böylece denemek ve sizin için çalışan bir Dilimleyici oluşturma için yalnızca çok seçenek vardır. Aşağıdaki örneklerde, ilk Dilimleyici alanından tasarruf etmek için bir açılan dönüştürülmüş ve "Tümünü Seç" seçeneği eklendi.  İkinci Dilimleyici renkleri, yazı tipi boyutlarını biçimlendirilmiş ve yalnızca tek bir seçim izin verir.
+
+   ![yeni dilimleyici](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Liste dilimleyici öğeleri, varsayılan olarak alfasayısal artan düzende sıralanır. Sıralamayı tersine çevirerek azalan düzene göre yapmak için dilimleyicinin sağ üst köşesindeki üç noktayı (**...**) seçin ve **Bölge Yöneticisine Göre Sırala** seçeneğini belirleyin. 
+>Liste dilimleyici öğeleri, varsayılan olarak alfasayısal artan düzende sıralanır. Sıralamayı tersine çevirerek azalan düzene göre yapmak için dilimleyicinin sağ üst köşesindeki üç noktayı ( **...** ) seçin ve **Bölge Yöneticisine Göre Sırala** seçeneğini belirleyin. 
 
 **Verileri tarih aralığına göre filtrelemek için yeni bir dilimleyici oluşturma**
 
-1. Yeni bir görselleştirme oluşturmak için, tuval üzerinde hiçbir seçenek işaretli değilken, Alanlar bölmesindeki **Saat** listesini açın ve **Ay** (ya da Power BI hizmetinde **Tarih**) öğesini Görselleştirmeler bölmesindeki **Değerler** kutusuna sürükleyin.
+1. Hiçbir şey ile tuvalde seçili, açılan menü **tarih** alanlar bölmesinde ve sürükleme **tarih** için **değerleri** yeni bir görselleştirme oluşturmak için görsel öğeler bölmesinde kutusu.
 2. Yeni görselleştirme seçiliyken **Dilimleyici** simgesini seçerek yeni görselleştirmeyi bir dilimleyiciye dönüştürün. Bu dilimleyici, tarih aralığı doldurulmuş bir kaydırıcı denetimidir.
     
-    ![yeni aralık dilimleyici](media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![yeni aralık dilimleyici](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
+
     
 4. Dilimleyiciye yer açmak için dilimleyiciyi ve tuvalin üzerindeki diğer öğeleri yeniden boyutlandırıp sürükleyin. Dilimleyici boyutu ile birlikte kaydırıcının yeniden boyutlandırıldığını ancak dilimleyiciyi çok küçük boyutlandırmanız durumunda kaybolduğunu ve tarihlerin kesildiğini unutmayın. 
 4. Kaydırıcı ile farklı tarih aralıkları seçin veya daha kesin bir seçim için bir değer yazın ya da takvimi açın. Sayfadaki diğer görselleştirmelere etkilerini not edin.
@@ -78,8 +82,11 @@ Bir raporu ilk kez değiştirdiğinizde **Varsayılana sıfırla** düğmesinin 
     >[!NOTE]
     >Sayısal ve/veya tarih/saat veri türleri varsayılan olarak aralık kaydırıcı dilimleyicileri üretir. Şubat 2018 Power BI güncelleştirmesinden itibaren, tamsayı veri türü aralık kaydırıcıları artık ondalık basamakları göstermek yerine tam sayı değerlerine uymaktadır. 
 
->[!TIP]
->**Ay** veri alanı varsayılan olarak **Arasında** aralık kaydırıcısı dilimleyici türü üretse de, bunu diğer dilimleyici türleri ve seçim seçenekleri ile değiştirebilirsiniz. Dilimleyici türünü değiştirmek için, dilimleyici seçiliyken fareyi dilimleyicinin sağ üst köşesine getirin, görüntülenen karatı açın ve **Liste** ya da **Önce** gibi diğer seçeneklerden birini belirleyin. Dilimleyici görünümünün ve seçim seçeneklerinin nasıl değiştiğine dikkat edin. 
+
+5. Şimdi alan değeriyle Değiştir **tarih** için **MonthIndex**.  Bu üreten bir **arasında** aralık kaydırıcısı Dilimleyici türü varsayılan olarak, ancak bunu diğer Dilimleyici türleri ve seçim seçenekleri değiştirebilirsiniz. Dilimleyici türünü değiştirmek için, dilimleyici seçiliyken fareyi dilimleyicinin sağ üst köşesine getirin, görüntülenen karatı açın ve **Liste** ya da **Önce** gibi diğer seçeneklerden birini belirleyin. Dilimleyici görünümünün ve seçim seçeneklerinin nasıl değiştiğine dikkat edin. 
+ 
+    ![yeni aralık dilimleyici](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
+
 
 Tarih ve sayısal aralık dilimleyicileri oluşturma hakkında daha fazla bilgi için aşağıdaki videoyu izleyin ve [Power BI Desktop uygulamasındaki sayısal aralık dilimleyiciyi kullanma](../desktop-slicer-numeric-range.md) makalesine bakın.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 

@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 05/24/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: cb4fdeeea228d388197c35c69d934c0bf04c8033
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964767"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374743"
 ---
-# <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarınızı ve raporlarınızı iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
+# <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarını ve raporları iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Power BI ayrıca [işbirliği yapmak ve pano ile raporları dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Sık kullanılan panolar listesindeki Paylaş simgesi](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Paylaşım ile kuruluşunuz içindeki veya dışındaki içeriği paylaşırken [Power BI Pro lisansı](service-features-license-type.md) gerekir. Alıcılarınızın da Power BI Pro lisansı olması gerekir veya içerik [Premium kapasitede](service-premium.md) olmalıdır. 
+Paylaşım ile kuruluşunuz içindeki veya dışındaki içeriği paylaşırken [Power BI Pro lisansı](service-features-license-type.md) gerekir. İçinde içeriğini olmadığı sürece alıcılarınızın da Power BI Pro lisansları gerekir bir [Premium kapasite](service-premium-what-is.md). 
 
-Power BI hizmetinin birçok yerinden pano ve raporları paylaşabilirsiniz: Sık Kullanılanlar, En Son, Benimle Paylaşılanlar (sahip izin verirse), Çalışma Alanım veya diğer çalışma alanları. Bir pano veya raporu paylaştığınızda, paylaştığınız kişiler panoyu görüntüleyebilir ve panoyla etkileşim kurabilir ancak panoyu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece bu kişiler, panoda veya raporlarda sizinle aynı verileri görür. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla da paylaşabilir. Kuruluşunuz dışındaki kişiler de panoyu ya da raporu görüntüleyebilir ve bunlarla etkileşim kurabilir ancak paylaşamaz. 
+Panoları ve raporları Power BI hizmetinin birçok yerinden paylaşabilirsiniz: Sık Kullanılanlar, son, benimle paylaşılanlar (sahip izin verirse), çalışma Alanım veya diğer çalışma alanları. Bir pano veya raporu paylaştığınızda, paylaştığınız kişiler panoyu görüntüleyebilir ve panoyla etkileşim kurabilir ancak panoyu düzenleyemez. [Satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanmadığı sürece bu kişiler, panoda veya raporlarda sizinle aynı verileri görür. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla da paylaşabilir. Kuruluşunuz dışındaki kişiler de görüntüleyebilir ve panonun veya raporun ile etkileşim kurabilir ancak paylaşamaz. 
 
-Ayrıca, [Power BI mobil uygulamalarından da pano paylaşabilirsiniz](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Panoları Power BI hizmetinden ve Power BI mobil uygulamalarından paylaşabilir ancak Power BI Desktop'tan paylaşamazsınız.
+Ayrıca, [Power BI mobil uygulamalarından da pano paylaşabilirsiniz](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Ancak, panoları Power BI Desktop'tan paylaşamazsınız.
 
 ## <a name="video-share-a-dashboard"></a>Video: Bir panoyu paylaşma
 Amanda'nın, panosunu şirket içindeki ve dışındaki kişilerle paylaşma videosunu izleyin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
@@ -45,87 +45,87 @@ Amanda'nın, panosunu şirket içindeki ve dışındaki kişilerle paylaşma vid
    ![Harici paylaşım uyarısı](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
    >[!NOTE]
-   >Giriş kutusu en çok 100 kullanıcı veya grubu destekler. Çok fazla sayıda kullanıcıyla paylaşmanız gerekiyorsa birden çok kez paylaşabileceğiniz gibi bir kullanıcı grubuyla da paylaşabilirsiniz.
+   >Giriş kutusuna, en fazla 100 kullanıcı veya grup destekler. Çok sayıda kullanıcıyı paylaşmanız gerekiyorsa, bir çalışma alanında Pano oluşturmayı göz önünde bulundurun ve [uygulama dağıtma](service-create-distribute-apps.md).
    > 
    > 
 
 
 3. İsterseniz ileti ekleyebilirsiniz. İsteğe bağlıdır.
-4. İş arkadaşlarınızın içeriğinizi diğer kullanıcılarla paylaşmasına izin vermek için **Alıcıların panonuzu/raporunuzu paylaşmasına izin verin** onay kutusunu işaretleyin.
+4. İş arkadaşlarınızın içeriğinizi diğer kullanıcılarla paylaşmasına izin vermek için işaretleyin **alıcıların panonuzun (veya rapor) paylaşmasına izin verin**.
    
-   Başkalarının da paylaşmasına izin verme, *yeniden paylaşım* olarak adlandırılır. İzin vermeniz halinde alıcılar, Power BI hizmetinden ve mobil uygulamalardan yeniden paylaşım yapabilir veya e-posta davetini kuruluşunuzdaki diğer çalışanlara iletebilir. Davetin süresi bir ay sonra dolar. Kuruluşunuz dışındaki kişiler yeniden paylaşım yapamaz. İçeriğin sahibi olarak yeniden paylaşmayı devre dışı bırakabilir veya yeniden paylaşımı tek bir durum için geri alabilirsiniz. Aşağıdaki [Paylaşımı durdurma veya başkalarının paylaşmasını durdurma](service-share-dashboards.md#stop-sharing-or-stop-others-from-sharing) konusuna bakın.
+   Başkalarının da paylaşmasına izin verme, *yeniden paylaşım* olarak adlandırılır. İzin vermeniz halinde alıcılar, Power BI hizmetinden ve mobil uygulamalardan yeniden paylaşım yapabilir veya e-posta davetini kuruluşunuzdaki diğer çalışanlara iletebilir. Davetin süresi bir ay sonra dolar. Kuruluşunuz dışındaki kişiler yeniden paylaşım yapamaz. İçeriğin sahibi olarak yeniden paylaşmayı devre dışı bırakabilir veya yeniden paylaşımı tek bir durum için geri alabilirsiniz. Bkz: [paylaşımı durdurma veya başkalarının paylaşmasını durdurma](#stop-sharing-or-stop-others-from-sharing).
 
 5. **Paylaş**'ı seçin.
    
    ![Paylaş düğmesini seçme](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
-   Power BI, kişilere (gruplara değil) paylaşılan içeriğin bağlantısını içeren bir e-posta daveti gönderir. Ekranda **Başarılı** bildirimi görüntülenir. 
+   Power BI kişilere, ancak grupları, paylaşılan içeriğin bağlantısını içeren bir e-posta daveti gönderir. Ekranda **Başarılı** bildirimi görüntülenir. 
    
    Kuruluşunuzdaki alıcılar bu bağlantıya tıkladığında Power BI, panoyu veya raporu bu kişilerin **Benimle paylaşılan** listesi sayfasına ekler. Söz konusu kişiler, adınızı seçerek kendileriyle paylaştığınız tüm içerikleri görebilir. 
    
    ![Benimle paylaşılan listesi sayfası](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
    
-   Kuruluşunuz dışındaki alıcılar bağlantıya tıkladığında panoyu veya raporu görür, ancak bunlar normal Power BI portalında görüntülenmez. Ayrıntılar için aşağıdaki [Kuruluşunuz dışındaki kişilerle paylaşma](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization) başlığına bakın.
+   Kuruluşunuz dışındaki alıcılar bağlantıya tıkladığında panoyu veya raporu görür, ancak bunlar normal Power BI portalında görüntülenmez. Daha fazla bilgi için [bir panoyu veya raporu kuruluşunuz dışındaki kişilerle paylaşma](#share-a-dashboard-or-report-with-people-outside-your-organization).
 
 ## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>Paylaştığınız bir panoya veya rapora kimler erişebilir?
-Bazen kimlerle paylaşımda bulunduğunuzu ve bu kişilerin kimlerle paylaşım yaptığını görmeniz gerekir.
+Bazı durumlarda bu kişilerin bulunduğunuzu ve sonra paylaştığınız kişiler kimlerin görebileceğini gerekir:
 
 1. Pano ve rapor listesinde veya panoda ya da raporda bulunan **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) seçeneğini belirleyin. 
-2. **Panoyu/raporu paylaş** iletişim kutusunda **Erişim**'i seçin.
+2. İçinde **Panoyu Paylaş** veya **rapor paylaşma** iletişim kutusunda **erişim**.
    
     ![Panoyu paylaş iletişim kutusu, Erişim sekmesi](media/service-share-dashboards/power-bi-share-dialog-access.png)
-   
+
     Kuruluşunuz dışındaki kişiler **Konuk** olarak listelenir.
 
 ## <a name="stop-sharing-or-stop-others-from-sharing"></a>Paylaşımı durdurma veya başkalarının paylaşmasını durdurma
 Yalnızca pano veya rapor sahibi, yeniden paylaşımı etkinleştirebilir veya devre dışı bırakabilir.
 
 ### <a name="if-you-havent-sent-the-sharing-invitation-yet"></a>Henüz paylaşım daveti göndermediyseniz
-* Göndermeden önce davetin alt bölümünde bulunan **Alıcıların panonuzu/raporunuzu paylaşmasına izin verin** onay kutusunun işaretini kaldırın.
+* NET **alıcıların panonuzun (veya rapor) paylaşmasına izin verin** göndermeden önce davetin alt kısmındaki onay kutusu.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Panoyu veya raporu zaten paylaştıysanız
 1. Pano ve rapor listesinde veya panoda ya da raporda bulunan **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) seçeneğini belirleyin. 
-2. **Panoyu/raporu paylaş** iletişim kutusunda **Erişim**'i seçin.
+2. İçinde **Panoyu Paylaş** veya **rapor paylaşma** iletişim kutusunda **erişim**.
    
     ![Panoyu paylaş iletişim kutusu, Erişim sekmesi](media/service-share-dashboards/power-bi-share-dialog-access.png)
-3. **Oku ve yeniden paylaş**'ın yanındaki üç nokta simgesini (**...**) seçin ve şu seçeneği belirleyin:
+3. **Oku ve yeniden paylaş**'ın yanındaki üç nokta simgesini ( **...** ) seçin ve şu seçeneği belirleyin:
    
    ![Oku ve yeniden paylaş üç nokta simgesi](media/service-share-dashboards/power-bi-change-access.png)
    
    * **Oku**, söz konusu kişinin yeniden paylaşım yapmasını engeller.
    * **Erişimi kaldır**, söz konusu kişinin paylaşılan içeriği hiç görmemesini sağlar.
 
-4. **Erişimi kaldır** iletişim kutusunda, ilgili içeriğe (raporlar ve veri kümeleri gibi) erişimi kaldırmak isteyip istemediğinize karar verin. Uyarı simgesine ![Power BI uyarı simgesi](media/service-share-dashboards/power-bi-warning-icon.png) sahip bir öğeyi kaldırmanız durumunda ilgili içerik düzgün bir şekilde görüntülenmeyeceğinden bu içeriği silmenizde yarar vardır.
+4. İçinde **erişimi kaldırmak** iletişim kutusunda, ayrıca, raporlar ve veri kümeleri gibi ilgili içeriğe erişimi kaldırmak isteyip istemediğinize karar verin. Bir uyarı simgesi olan öğeleri kaldırırsanız ![Power BI uyarı simgesi](media/service-share-dashboards/power-bi-warning-icon.png), ilgili içerik düzgün bir şekilde görüntülenmeyeceğinden da kaldırmak idealdir.
 
     ![Power BI paylaşım uyarısı iletişim kutusu](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Bir panoyu veya raporu kuruluşunuz dışındaki kişilerle paylaşma
-Kuruluşunuz dışındaki kişilerle bir paylaşımda bulunduğunuzda bu kişiler, paylaşılan panonun veya raporun bağlantısını içeren bir e-posta alır ve bu kişilerden panoyu veya raporu görmek için Power BI'da oturum açmaları istenir. Power BI Pro lisansları yoksa bağlantıya tıkladıktan sonra bir lisansa kaydolabilirler.
+Kuruluşunuz dışındaki kişilerle paylaştığınızda, paylaşılan panoyu veya raporu, bunlar Power BI'da görmek için oturum açmanız gerekir bağlantısını içeren bir e-posta alırlar. Power BI Pro lisansları yoksa bağlantıya tıkladıktan sonra bir lisansa kaydolabilirler.
 
-Oturum açtıktan sonra, paylaşılan panoyu veya raporu normal Power BI portallarında değil, kendi tarayıcı pencerelerinde sol gezinti bölmesi olmadan görürler. Bu panoya veya rapora gelecekte de erişmek için bağlantıya yer işareti eklemeleri gerekir.
+Oturum açtıktan sonra paylaşılan panoyu veya raporu kendi Tarayıcı pencerelerinde, normal Power BI portallarında değil, görürler. Bu panoyu veya raporu daha sonra erişmek için bağlantıya yer işareti gerekir.
 
-Bu panoda veya raporda herhangi bir içerik düzenlemesi yapamazlar. Grafiklerle etkileşimde bulunabilir ve rapordaki filtreleri ya da dilimleyicileri değiştirebilirsiniz, ancak değişikliklerinizi kaydedemezsiniz. 
+Bu panoda veya raporda herhangi bir içerik düzenlemesi yapamazlar. Grafiklerle etkileşimde ve filtreleri ya da dilimleyicileri değiştirme olsa da, bunlar değişiklikleri kaydedemezler. 
 
-Paylaşılan panoyu veya raporu yalnızca doğrudan alıcılarınız görebilir. Örneğin, e-postayı Vicki@contoso.com adresine gönderdiyseniz panoyu yalnızca Vicki görebilir. Bağlantıya sahip olsa bile ilgili panoyu başka hiç kimse göremez ve Vicki'nin panoya erişmek için aynı e-posta adresini kullanması gerekir. Başka bir e-posta adresiyle kaydolursa Vicki de panoya erişemez.
+Paylaşılan panoyu veya raporu yalnızca doğrudan alıcılarınız görebilir. Örneğin, e-postayı Vicki@contoso.com adresine gönderdiyseniz panoyu yalnızca Vicki görebilir. Bağlantı olsa bile başka hiç kimse Pano görebilirsiniz. Vicki erişmek için aynı e-posta adresini kullanmanız gerekir; kendisi başka bir e-posta adresiyle kaydolursa, Filiz panoya erişimi olmaz.
 
 Şirket içi Analysis Services tablolu modellerde rol veya satır düzeyi güvenlik uygulanması durumunda kuruluşunuz dışındaki kişiler hiçbir veri göremez.
 
-Kuruluşunuz dışındaki kişilere bir Power BI mobil uygulamasından bağlantı gönderirseniz ilgili kişiler bu bağlantıya tıkladığında pano, Power BI mobil uygulaması yerine bir tarayıcıda açılır.
+Bir Power BI mobil uygulamasından bağlantı kuruluşunuz dışındaki kişilere gönderirseniz bağlantı tıklatıldığında Pano açılır bir tarayıcıda, Power BI mobil uygulaması içinde değil.
 
-Konuk kullanıcılar [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#export-and-sharing-settings) ayarı kullanılarak etkinleştirildiyse varsayılan yalnızca tüketim deneyimi onlara uygulanmaz. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
+Varsa, [düzenlemek ve yönetmek dış konuk kullanıcılara kuruluştaki içerik izin](service-admin-portal.md#export-and-sharing-settings), varsayılan yalnızca tüketim deneyimi için geçerli değildir. [Daha fazla bilgi edinin](service-admin-azure-ad-b2b.md).
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Pano ve rapor paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 
 * Genel olarak iş arkadaşlarınızla panoda veya raporlarda aynı verileri görürsünüz. Bu nedenle, iş arkadaşlarınıza kıyasla daha fazla veri görme iznine sahipseniz iş arkadaşlarınız, panonuzda veya raporunuzda sizin gördüğünüz tüm verileri görebilir. Ancak, bir panonun veya raporun bağlantılı veri kümesinde [satır düzeyi güvenlik (RLS)](service-admin-rls.md) uygulanırsa kullanıcıların hangi verilere erişebileceği kimlik bilgilerine göre belirlenir.
-* Paylaştığınız herkes panonuzu görebilir ve [Okuma Görünümü](consumer/end-user-reading-view.md)'nde ilgili raporlarla etkileşimde bulunabilir. Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
-* Veri kümesini kimse göremez veya indiremez, ama Excel'de Çözümle özelliğini kullanarak veri kümesine doğrudan erişilebilir. Bir yönetici kullanıcıların Excel'de Çözümle özelliğini kullanmasını kısıtlamak için gruptaki herkesin özelliğini kısıtlayabilir. Öte yandan, bu kısıtlama söz konusu gruptaki herkes için grubun ait olduğu tüm çalışma alanlarında geçerli olur.
+* Panonuzu paylaştığınız herkes görebilir ve ilgili raporlarla etkileşimde [Okuma Görünümü'nde](consumer/end-user-reading-view.md#reading-view). Bu kişiler rapor oluşturamaz veya mevcut raporlarda yapılan değişiklikleri kaydedemez.
+* Hiç kimse göremez veya veri kümesini indirin rağmen Çözümle doğrudan Excel özelliğini kullanarak veri kümesine erişebilirsiniz. Bir yönetici, bir gruptaki herkes için Excel'de Çözümle kullanma olanağı kısıtlayabilirsiniz. Öte yandan, bu kısıtlama söz konusu gruptaki herkes için grubun ait olduğu tüm çalışma alanlarında geçerli olur.
 * Herkes el ile [verileri yenileyebilir](refresh-data.md).
 * E-posta için Office 365 hizmetini kullanıyorsanız bir dağıtım grubu ile ilişkili e-posta adresini girerek dağıtım grubu üyeleri ile paylaşımda bulunabilirsiniz.
-* Sizinle aynı e-posta etki alanını kullanan iş arkadaşlarınız ve e-posta etki alanı sizinkinden farklı olan ancak aynı kiracıda kayıtlı kişiler, panoyu başka kullanıcılarla paylaşabilir. Örneğin, contoso.com ve contoso2.com etki alanlarının aynı kiracıda kayıtlı olduğunu varsayalım. E-posta adresiniz konrads@contoso.com ise paylaşım izni verdiğiniz sürece hem ravali@contoso.com hem de gustav@contoso2.com paylaşımda bulunabilir.
-* İş arkadaşlarınızın belirli bir pano veya rapora zaten erişimi varsa panodayken veya rapordayken URL'yi kopyalayarak doğrudan bir bağlantı gönderebilirsiniz. Örnek: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
-* Aynı şekilde, iş arkadaşlarınızın belirli bir panoya zaten erişimi varsa [bağlantılı rapora yönelik doğrudan bir bağlantı gönderebilirsiniz](service-share-reports.md). 
-* Tek bir paylaşım eyleminde en çok 100 kullanıcı veya grupla paylaşabilirsiniz. Öte yandan, bir öğe için 500'den fazla kullanıcıya erişim verebilirsiniz. Bunu yapmak için, kullanıcıları tek tek belirtip birden çok kez paylaşabileceğiniz gibi tüm kullanıcıları içeren bir kullanıcı grubuyla da paylaşabilirsiniz.
+* E-posta etki alanınıza paylaşan iş arkadaşlarınızla ve etki alanı farklı ancak aynı kiracıda kayıtlı iş arkadaşlarınızla panoyu başkalarıyla paylaşabilirsiniz. Örneğin, etki alanı contoso.com ve contoso2.com aynı kiracıda ve e-posta adresinizi kayıtlı ise konrads@contoso.com, hem ravali@contoso.com ve gustav@contoso2.com paylaşım izni verdiğiniz sürece, paylaşabilirsiniz.
+* İş arkadaşlarınızın belirli bir Pano veya rapora erişimi varsa, panoda veya raporda işiniz URL'yi kopyalayarak doğrudan bağlantı gönderebilirsiniz. Örnek: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
+* Benzer şekilde, iş arkadaşlarınızın belirli bir panoya erişim sahibi yapabiliyorsanız [temel alınan raporun doğrudan bağlantısını gönderebilir](service-share-reports.md). 
+* En çok 100 kullanıcılar veya gruplar, bir çoklu bir paylaşma eylemi, paylaşabilirsiniz. Öte yandan, bir öğe için 500'den fazla kullanıcıya erişim verebilirsiniz. Bunu yapmak için tek tek kullanıcılar belirterek, birden çok kez paylaşın veya tüm kullanıcıları içeren bir kullanıcı grubuyla paylaşın.
 
 ## <a name="troubleshoot-sharing"></a>Paylaşım sorunlarını giderme
 
@@ -135,15 +135,15 @@ Pano paylaşımında bulunduğunuz kişiler burada kilitli bir kutucuk veya bir 
 
 ![Power BI kilitli kutucuğu](media/service-share-dashboards/power-bi-locked_tile_small.png)
 
-Bu durumda bu kişilere, temel alınan veri kümesine yönelik erişim izni vermeniz gerekir. Aşağıdaki adımları uygulayın:
+Bu durumda bağlantılı veri kümesine izin vermeniz gerekir:
 
 1. İçerik listenizdeki **Veri kümeleri** sekmesine gidin.
 
-1. Veri kümesinin yanındaki üç nokta (**...**) simgesini seçin ve ardından **İzinleri yönet** seçeneğini belirleyin.
+1. Öğesinin üç noktasını ( **...** ) seçip veri kümesinin yanındaki **izinleri Yönet**.
 
     ![İzinleri yönet](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
 
-3. **Kullanıcı ekle**'yi seçin.
+1. **Kullanıcı ekle**'yi seçin.
 
     ![Kullanıcı ekle seçeneğini belirleme](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
 
@@ -151,11 +151,12 @@ Bu durumda bu kişilere, temel alınan veri kümesine yönelik erişim izni verm
 
     ![E-posta adresi ekleme](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
-5. **Ekle**'yi seçin.
+
+1. **Ekle**'yi seçin.
 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Bir pano veya raporu paylaşamıyorum
 
-Bir panoyu veya raporu paylaşmak için, temel alınan içeriği (ilgili tüm raporlar ve veri kümeleri) yeniden paylaşma iznine sahip olmanız gerekir. Paylaşım yapamayacağınızı belirten bir iletiyle karşılaşırsanız raporun yazarından size söz konusu raporlar ve veri kümeleri için yeniden paylaşma izni vermesini isteyin.
+Bir panoyu veya raporu paylaşmak için temel içeriğini yeniden paylaşma izni gerekir; diğer bir deyişle, ilgili tüm raporlar ve veri kümeleri. Vermek için rapor yazarına isteyin paylaşım yapamayacağınızı belirten bir ileti görürseniz, bu raporlar ve veri kümeleri için izni yeniden paylaşabilir.
 
 !["Paylaşılamadı" iletisi](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
@@ -163,6 +164,6 @@ Bir panoyu veya raporu paylaşmak için, temel alınan içeriği (ilgili tüm ra
 ## <a name="next-steps"></a>Sonraki adımlar
 * Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 * [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Filtre uygulanmış bir Power BI raporunu paylaşma](service-share-reports.md)
+* [Filtre uygulanmış bir Power BI raporunu paylaşma](service-share-reports.md).
 * Sorularınız mı var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

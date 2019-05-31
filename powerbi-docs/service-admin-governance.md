@@ -11,11 +11,11 @@ ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 1d9d056d696a59038543e9e78763558a6da977b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324542"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61195411"
 ---
 # <a name="governance-and-deployment-approaches"></a>Yönetim ve dağıtım yaklaşımları
 

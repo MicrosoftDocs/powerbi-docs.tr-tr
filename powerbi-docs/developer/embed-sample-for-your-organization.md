@@ -1,21 +1,21 @@
 ---
 title: Kuruluşunuz için uygulamanıza Power BI içeriği eklemek için tümleşik analiz
 description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757473"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355544"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -116,17 +116,17 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
 
 2. Sol gezinti bölmesinde **Tüm Hizmetler**'i, sonra da **Uygulama Kayıtları**'nı seçin.
 
-    ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. **applicationId** değerinin gerektiği uygulamayı seçin.
 
-    ![Uygulama Seçme](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![Uygulama Seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. GUID olarak listelenen bir **Uygulama Kimliği** vardır. Bu **Uygulama Kimliği**’ni uygulamanın **applicationId** değeri olarak kullanın.
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>Uygulama gizli dizisi
+
+Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) AuthenticationType ayarı için gereklidir.
 
 **ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.  Bu öznitelik [hizmet sorumlusu](embed-service-principal.md) kullanıldığında çalışır.
 
@@ -136,23 +136,17 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
 
 2. Sol gezinti bölmesinde **Tüm hizmetler**'i, sonra da **Uygulama kayıtları**'nı seçin.
 
-    ![Uygulama kaydı araması](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
 
-    ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. **Ayarlar** seçeneğini belirleyin.
+4. Seçin **sertifikalarını ve gizli dizilerini** altında **Yönet**.
 
-    ![Ayarlar seçeneğini belirleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. **Anahtarlar**'ı seçin.
-
-    ![Anahtarlar'ı seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Seçin **yeni gizli**.
 
 6. **Açıklama** kutusuna bir ad girin ve bir süre seçin. Ardından **Kaydet**’i seçerek uygulamanız için **Değer**’i alın. Anahtar değerini kaydettikten sonra **Anahtarlar** bölmesini kapattığınızda değer alanı yalnızca gizlenmiş olarak gösterilir. Bu aşamada anahtar değerini alamazsınız. Anahtar değerini kaybederseniz Azure portalında yeni bir anahtar değeri oluşturun.
 
-    ![Anahtar değeri](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Anahtar değeri](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 **AADAuthorityUrl** alanını kurumsal kiracınızla eklemenize veya konuk kullanıcıyla eklemenize olanak tanıyan URL'yle doldurun.
 
-Kurumsal kiracınızla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/common/oauth2/authorize*.
+Kurumsal kiracınızla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Konukla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/report-owner-tenant-id*. Burada *report-owner-tenant-id* yerine rapor sahibinin kiracı kimliğini ekleyin.
+Konukla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/report-owner-tenant-id* . Burada *report-owner-tenant-id* yerine rapor sahibinin kiracı kimliğini ekleyin.
 
 ### <a name="run-the-application"></a>Uygulamayı çalıştırma
 
@@ -400,7 +394,7 @@ Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanm�
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. [Power BI Premium](../service-premium.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. [Power BI Premium](../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
 
 Aşağıdaki tabloda, [Microsoft Office 365](../service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 

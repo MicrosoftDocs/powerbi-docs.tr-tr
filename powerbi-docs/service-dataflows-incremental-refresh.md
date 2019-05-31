@@ -1,23 +1,23 @@
 ---
 title: Power BI veri akışları ile artımlı yenilemeyi kullanma
 description: Veri akışları için artımlı yenileme yapılandırmayı öğrenin
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293730"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136688"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Power BI veri akışları ile artımlı yenilemeyi kullanma (Önizleme)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI veri akışları ile artımlı yenilemeyi kullanma
 
 Veri akışları ile, büyüm miktarlardaki verileri Power BI'a getirebilir, cazip raporlar ve analizler oluşturabilirsiniz. Bununla birlikte bazı durumlarda, her yenileme işleminde kaynak verilerin tam kopyasını güncelleştirmek pratik olmaz. **Artımlı yenileme** buna iyi bir alternatiftir ve veri akışlarına şu avantajları getirir:
 
@@ -27,13 +27,13 @@ Veri akışları ile, büyüm miktarlardaki verileri Power BI'a getirebilir, caz
 
 ![Veri akışları için artımlı yenileme](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-Power BI iş akışlarında artımlı yenilemenin kullanılması için, veri akışının durduğu çalışma alanının [Premium kapasitede](service-premium.md) çalıştırılması ve veri akışına alınan veri kaynağında artımlı yenilemenin filtreleyebileceği bir *datetime* alanının bulunması gerekir. 
+Power BI iş akışlarında artımlı yenilemenin kullanılması için, veri akışının durduğu çalışma alanının [Premium kapasitede](service-premium-what-is.md) çalıştırılması ve veri akışına alınan veri kaynağında artımlı yenilemenin filtreleyebileceği bir *datetime* alanının bulunması gerekir. 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>Veri akışları için artımlı yenilemeyi yapılandırma
 
 Bir veri akışı birçok varlık içerebilir. Artımlı yenileme varlık düzeyinde ayarlanır; böylelikle tek veri akışı hem tümüyle yenilenen varlıkları hem de artımlı olarak yenilenen varlıkları barındırabilir.
 
-Artımlı olarak yenilenen varlık ayarlamak için, başlangıç olarak varlığınızı aynı diğer varlıkları yaptığınız gibi yapılandırın. Veri akışını ayarlama hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self servis veri hazırlığı (Önizleme)](service-dataflows-overview.md).
+Artımlı olarak yenilenen varlık ayarlamak için, başlangıç olarak varlığınızı aynı diğer varlıkları yaptığınız gibi yapılandırın. Veri akışı ayarlama hakkında daha fazla bilgi için bkz: [Self Servis veri hazırlama Power BI'da](service-dataflows-overview.md).
 
 Veri akışı oluşturulduktan ve kaydedildikten sonra, aşağıdaki resimde gösterildiği gibi varlık görünümünde **artımlı yenileme** simgesini seçin:
 
@@ -156,8 +156,8 @@ Bu makalede, veri akışları için artımlı yenileme işlemi açıklanmıştı
 
 * [Veri akışları ile self servis veri hazırlığı](service-dataflows-overview.md)
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
+* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)

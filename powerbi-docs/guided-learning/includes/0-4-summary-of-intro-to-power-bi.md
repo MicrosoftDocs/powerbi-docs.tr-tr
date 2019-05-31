@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b7f2dbd4fa58e86598c0258c432d31cf2f775ecf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260603"
+---
 İlk bölümde öğrendiklerinizi hızlı bir şekilde gözden geçirelim.
 
 **Power BI** verilerinizden etkileşimli öngörüler elde etmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Excel çalışma kitapları gibi tek, basit kaynaklardaki verileri kullanabileceğiniz gibi birden fazla veritabanı ve bulut kaynağından veri çekip karmaşık veri kümeleri ve raporlar oluşturabilirsiniz. Power BI, istediğiniz ölçüde basit olabileceği gibi karmaşık küresel iş ihtiyaçlarınız doğrultusunda kurumsal kullanıma da hazırdır.

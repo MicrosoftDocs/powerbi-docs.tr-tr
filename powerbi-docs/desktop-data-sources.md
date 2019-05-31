@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225926"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853441"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -51,7 +51,7 @@ Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
 * XML
 * JSON
 * Klasör
-* PDF (Beta)
+* PDF
 * SharePoint Klasörü
 
 Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -79,14 +79,16 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (Beta)
-* Dremio
-* Exasol
-* MarkLogic (Beta)
+* Essbase
 * AtScale küpleri (Beta)
 * BI Bağlayıcısı
+* Dremio
+* Exasol
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
+* MarkLogic (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
@@ -98,7 +100,7 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 **Power BI** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
 * Power BI veri kümeleri
-* Power BI veri akışları (Beta)
+* Power BI veri akışları
 
 Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -112,11 +114,12 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Storage
+* Azure Data Lake depolama Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu
-* Azure Veri Gezgini (Beta)
+* Azure Veri Gezgini (Kusto)
+* Azure maliyet Yönetimi (Beta)
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -157,9 +160,10 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
-* TeamDesk (Beta)
 * Emigo Data Source (Beta)
+* IndustrialAppStore (Beta)
 * Microsoft Graph Güvenliği (Beta)
+* TeamDesk (Beta)
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -178,12 +182,16 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
-* Workforce Dimensions (Beta)
+* BI360 - takılmadan & finansal raporlama (Beta)
 * Denado
-* Paxata (Beta)
-* SurveyMonkey (Beta)
+* Bilgi kılavuz (Beta)
+* Paxata 
 * QubolePresto (Beta)
 * Quick Base (Beta)
+* Roamler (Beta)
+* SurveyMonkey (Beta)
+* Tenforce (Beta)
+* Workforce Dimensions (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.

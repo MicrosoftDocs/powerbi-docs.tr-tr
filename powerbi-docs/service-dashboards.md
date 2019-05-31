@@ -11,11 +11,11 @@ ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286899"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150428"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI tasarımcıları için panolara giriş
 

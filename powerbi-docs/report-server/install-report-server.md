@@ -1,30 +1,32 @@
 ---
 title: Power BI Rapor Sunucusu'nu yükleme
 description: Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014450"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187733"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
 Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 
- **İndir** ![indir](media/install-report-server/download.png "indir")
+## <a name="download-power-bi-report-server"></a>Power BI Rapor Sunucusunu indirin
 
-Power BI Rapor Sunucusu'nu indirmek için [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasına gidin ve **Ücretsiz deneme sürümünü indirin**’i seçin. 
+[Power BI rapor Sunucusu'nu indirmek](https://www.microsoft.com/download/details.aspx?id=56722) Microsoft İndirme Merkezi'nden.
 
-## <a name="before-you-begin"></a>Başlamadan önce
+Ücretsiz deneme sürümü de mevcuttur. Üzerinde [şirket içinde Power BI rapor sunucusu ile reporting](https://powerbi.microsoft.com/report-server/) sayfasında **ücretsiz deneme sürümünü indirin**.
+
+## <a name="before-you-install"></a>Yüklemeden önce
 
 Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklemeye ilişkin Donanım ve Yazılım Gereksinimleri](system-requirements.md) sayfasını incelemenizi öneririz.
 
@@ -32,6 +34,13 @@ Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklem
  > Power BI Rapor Sunucusu, Salt Okunur Etki Alanı Denetleyicisine (RODC) sahip bir ortama yüklenebilse de Power BI Rapor Sunucusu, düzgün şekilde çalışmak için bir Okuma-Yazma Etki Alanı Denetleyicisi erişimine ihtiyaç duyar. Power BI Rapor Sunucusu yalnızca RODC erişimine sahipse hizmeti yönetmeye çalışırken hatalarla karşılaşabilirsiniz.
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Rapor Sunucusu ürün anahtarı
+
+Power BI rapor sunucusu için ürün anahtarını iki farklı kaynaktan elde edebilirsiniz:
+
+- Power BI Premium
+- SQL Server Enterprise Yazılım Güvencesi (YG)
+
+Ayrıntılar için okumaya devam edin.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
     ![Sürüm 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    Alternatif olarak, Power BI hizmetinden veya Toplu Lisanslama Hizmet Merkezi'nden aldığınız sunucu ürün anahtarını da girebilirsiniz. Ürün anahtarınızı alma hakkında daha fazla bilgi için [Başlamadan önce](#before-you-begin) bölümüne bakın.
-4. Lisans hüküm ve koşullarını okuyup kabul ettikten sonra **İleri**'yi seçin.
+    Aksi takdirde, Power BI hizmetinde veya Toplu Lisanslama hizmet Merkezi'nden aldığınız ürün anahtarını girin. Ürün anahtarınızı alma hakkında daha fazla bilgi için bkz. [yüklemeden önce](#before-you-install) yukarıdaki bölümde.
+4. Okuma ve lisans hüküm ve koşulları kabul edin ve ardından seçin **sonraki**.
 
     ![Lisans koşulları](media/install-report-server/pbireportserver-eula.png)
 5. Rapor sunucusu veritabanını depolamak için bir Veritabanı Altyapısı sunucusuna ihtiyacınız yoktur. Yalnızca rapor sunucusunu yüklemek için **İleri**'yi seçin.
@@ -83,7 +92,7 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
     ![Rapor sunucusunu yapılandırma](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>Rapor sunucunuzu yapılandırma
+## <a name="configure-your-report-server"></a>Rapor sunucunuzu yapılandırma
 
 Kurulumda **Rapor Sunucusunu Yapılandır**'ı seçtiğinizde Reporting Services Yapılandırma Yöneticisi açılır. Daha fazla bilgi için bkz. [Reporting Services Yapılandırma Yöneticisi](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 

@@ -1,18 +1,18 @@
 ---
 title: Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme
 description: Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223617"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270485"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -131,7 +131,7 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
 5. - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
-6. - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW kimliğini ve veri kaynağı kimliğini alın
+6. Çağrısı yaparak GW ve veri kaynağı tanımlayıcıları almak - Al https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
 
 #### <a name="old-dataset--reports"></a>Eski veri kümeleri ve raporlar
@@ -200,7 +200,7 @@ Azure'da biraz temizlik yapmanız gerekir.
 [Power BI Çalışma Alanı Koleksiyonu geçiş aracı](migrate-tool.md)  
 [Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları](migrate-code-snippets.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md)  
-[Power BI Premium nedir?](../service-premium.md)  
+[Power BI Premium nedir?](../service-premium-what-is.md)  
 [JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397947"
+---
 Bu makalede yeni çubuk grafikler, pasta grafikleri ve ağaç haritaları oluşturmanın yanı sıra bunları raporlarınıza uyacak şekilde özelleştirmeyi öğreneceksiniz.
 
 Power BI Desktop'ta yeni bir görselleştirme oluşturmak için iki farklı yol izleyebilirsiniz:

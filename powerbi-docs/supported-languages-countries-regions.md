@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174879"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61399120"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
-Bu makalede Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen diller ile ülkelerin/bölgelerin bulunduğu listelere yer verilmiştir.
+Bu makalede, desteklenen diller ve ülkeler/bölgeler için Power BI hizmetinde, Power BI Desktop ve Power BI belgeleri listeler.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Power BI'ın kullanılabildiği ülkeler ve bölgeler
 Power BI'ın kullanılabildiği ülkelerin ve bölgelerin bir listesi için [uluslararası kullanılabilirlik listesine](https://products.office.com/business/international-availability) göz atın. 
@@ -73,11 +73,11 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Vietnamca - Tiếng Việt
 
 ### <a name="whats-translated"></a>Neler çevrilir?
-Menüler, düğmeler, iletiler ve deneyiminiz sırasında karşılaşacağınız diğer öğeler dilinize çevrilir. Böylece Power BI'da kolayca gezinebilir ve hizmetle etkileşime geçebilirsiniz.
+Power BI, menüler, düğmeler, iletileri ve diğer öğelerin deneyimi, dile çevirir.
 
 Şu anda birkaç özellik yalnızca İngilizce dilinde kullanıma sunulmaktadır:
 
-* Microsoft Dynamics CRM, Google Analytics, Salesforce gibi hizmetlere bağlandığınızda Power BI'ın sizin için oluşturduğu panolar ve raporlar. (Yine de kendi dilinizde pano ve rapor oluşturabilirsiniz.)
+* Panoları ve raporları, Microsoft Dynamics CRM, Google Analytics ve Salesforce gibi hizmetlere bağlandığınızda Power BI oluşturur. Hala kendi dilinizde Pano ve raporlar oluşturabilirsiniz.
 * Soru-Cevap ile verilerinizi araştırma.
 
 Diğer diller için yeni özellikler sunmaya devam edeceğiz, bizimle kalın. 
@@ -142,7 +142,7 @@ Power BI Desktop için seçtiğiniz dil, raporlardaki sayıların ve tarihlerin 
 Power BI Desktop'ın dilini değiştirmek için indirme sayfasına tekrar gidin ve uygulamayı farklı bir dilde indirin.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop'a veri aktarılırken kullanılacak yerel ayarı seçme
-Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş olmanız fark etmeksizin belirli bir rapor için Power BI Desktop sürümünüzdekinden farklı bir yerel ayar seçebilirsiniz. Bu, veri kaynağınızdan aktarılan verilerin yorumlanma biçimini değiştirir. Örneğin, "3/4/2017" tarihi 3 Nisan veya 4 Mart olarak yorumlanabilir. 
+Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş olmanız fark etmeksizin belirli bir rapor için Power BI Desktop sürümünüzdekinden farklı bir yerel ayar seçebilirsiniz. Verilerinizi içeri aktarıldığında şekilde veri yorumlanır yerel değişiklikleri kaynağı, örneğin "3/4/2017" 3 Nisan veya 4 Mart olarak yorumlanır. 
 
 1. Power BI Desktop'ta **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler** bölümüne gidin.
 2. **Geçerli dosya** bölümünde **Bölgesel Ayarlar**'ı seçin.
@@ -193,5 +193,5 @@ Yardım belgeleri şu 10 dilde kullanıma sunulmuştur:
 ## <a name="next-steps"></a>Sonraki adımlar
 * Power BI mobil uygulamalarından birini kullanıyor musunuz? Ayrıntılı bilgi için bkz. [Power BI mobil uygulamalarında desteklenen diller](consumer/mobile/mobile-apps-supported-languages.md).
 * Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
-* Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
+* Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 

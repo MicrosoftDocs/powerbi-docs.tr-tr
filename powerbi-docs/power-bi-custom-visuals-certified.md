@@ -9,13 +9,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/10/2019
-ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 05/9/2019
+ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174810"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454553"
 ---
 # <a name="certified-custom-visuals"></a>Sertifikalı özel görseller
 
@@ -31,7 +31,7 @@ Sertifikasyon işlemi isteğe bağlı bir işlemdir ve görselinin markette sert
 
 **Sertifikalı olmayan özel görsellerin**, güvenli olmayan görseller olması şart değildir. Bazı görseller sertifikalanmamıştır çünkü [sertifikasyon gereksinimlerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) biriyle veya birden çoğuyla uyumlu değildir. Örneğin, harita görselleri gibi dış hizmetlere bağlanan veya ticari kitaplıkları kullanan görseller böyledir.
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları  **[Microsoft AppSource](https://appsource.microsoft.com)**'a eklemek mi istiyorsunuz?  **[Nasıl yapıldığını öğrenmek için Power BI özel görseli geliştirme konusuna](developer/custom-visual-develop-tutorial.md)** bakın.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları  **[Microsoft AppSource](https://appsource.microsoft.com)** 'a eklemek mi istiyorsunuz?  **[Nasıl yapıldığını öğrenmek için Power BI özel görseli geliştirme konusuna](developer/custom-visual-develop-tutorial.md)** bakın.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Power BI Sertifikalı özel görsellerinin kaldırılması
 
@@ -44,11 +44,34 @@ Microsoft kendi takdirine bağlı olarak, bir görseli [sertifikalı listesinden
 Özel görselinizin [sertifikalı](#certified-custom-visuals) olmasını sağlamak için, bu özel görselin aşağıdakilerle uyumlu olduğundan emin olun:  
 
 * Microsoft AppSource onaylı. Özel görselinizin [marketimizde](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunması gerekir.
-* Özel görsel, API 1.2 veya sonraki bir sürümle yazılmıştır.
-* Power BI ekibinin inceleyebileceği kod deposu (örneğin, GitHub üzerinden kullanabileceğimiz, insanlar tarafından okunabilir biçimde olan kaynak kod (JavaScript veya TypeScript)).
+* Özel görsel sürümü ile yazılmış **API S2.5** veya üzeri.
+* Kod deposu (örneği, insan tarafından okunabilir biçimde kaynak kodu (JavaScript veya TypeScript) GitHub aracılığıyla bize, kullanılabilir olması nedeniyle) Power BI ekibi tarafından incelenmek üzere kullanılabilir.
 
     >[!Note]
     > Kodunuzu Github'da genel paylaşıma açmanız gerekmez.
+* Kod deposu gereksinimleri:
+   * Gerekli az sayıda dosyayı içermesi gerekir:
+      * .gitignore
+      * capabilities.json
+      * pbiviz.json
+      * package.json
+      * Paket lock.json
+      * tsconfig.json
+   * Node_modules klasörünü içermemelidir (node_modules .gitingore dosyasına ekleyin)
+   * **npm yükleme** komut değil herhangi bir hata döndürmelidir.
+   * **npm denetim** komutu, Orta veya yüksek düzeyine sahip tüm uyarılar değil döndürmelidir.
+   * **pbiviz paketindeki** komut değil herhangi bir hata döndürmelidir.
+   * İçermelidir [Microsoft gelen Tslint'i](https://www.npmjs.com/package/tslint-microsoft-contrib) geçersiz kılınan hiçbir yapılandırma ve bu komut, tüm lint hataları döndürmemelidir.
+   * Özel görsel derlenmiş paketinin gönderilen paket eşleşmelidir (her iki dosya md5 karmasının olmalıdır eşit).
+* Kaynak kodu gereksinimleri:
+   * Görsel desteklemelidir [işleme olaylar API'SİNDEN](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Rasgele/dinamik kod çalıştırdığınızdan emin olun (hatalı: eval() settimeout(), requestAnimationFrame(), setInterval (kullanıcı girişi ile bazı işlevi), çalışan kullanıcı girişi/veri kullanmak için güvenli olmayan).
+   * DOM güvenli bir şekilde yönetilebilir emin olun (hatalı: innerHTML, D3.html (< bazı kullanıcı/veri giriş >), kullanın Temizleme için kullanıcı girişi/verileri için DOM eklemeden önce
+   * Javascript hataları/özel durum tüm giriş verileri için tarayıcı konsolunda emin olun. Görsel başarısız gerekir böylece kullanıcılar görselinizi farklı bir beklenmeyen veri aralığı ile kullanabilirsiniz. Kullanabileceğiniz [Bu örnek rapor](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesini olarak.
+
+* Herhangi bir özelliği capabilities.json değiştirilirse mevcut kullanıcının raporları bölmediğinizden emin olun.
+
+* Görsel emin uyumlu ile [Power BI görselleri için yönergeler](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Hiçbir filigranlar izin**.
 
 * Yalnızca genel kullanıma açık olarak incelenebilen OSS bileşenlerini kullanır (JS kitaplıkları veya genel kullanıma açık TypeScript. Kaynak kod incelenebilir ve bilinen güvenlik açıkları yoktur). Ticari bir bileşen kullanarak özel görseli doğrulayamayız.
 

@@ -1,36 +1,34 @@
 ---
-title: Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma
-description: Kuruluşunuza ana ölçümler sunmayı amaçlayan çalışma alanlarını, yani pano ve rapor koleksiyonlarını oluşturmayı öğrenin.
+title: Power BI'da Klasik çalışma alanları oluşturma
+description: Çalışma alanları, panoları, raporları ve sayfalandırılmış raporlar, kuruluşunuzun ilişkin ana ölçümleri sunmak üzere tasarlanmış koleksiyonları oluşturmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23c011eded113a0249f5e4a354f909a30bc97148
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277929"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61151049"
 ---
-# <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma
+# <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da Klasik çalışma alanları oluşturma
 
-Power BI'da, çalışma arkadaşlarınızla işbirliği yaparak pano ve rapor koleksiyonları oluşturabildiğiniz ve bunları geliştirebildiğiniz bir yer olarak *çalışma alanları* oluşturabilirsiniz. Sonra, koleksiyonu *uygulamaların* içinde birlikte paketler ve kuruluşunuzun tamamına veya belirli kişi veya gruplara dağıtabilirsiniz. 
+Power BI'da oluşturduğunuz *çalışma alanları*sayfalandırılmış raporlar ve panolar, raporlar, koleksiyonları oluşturmak ve arkadaşlarınızla işbirliği yapmak için yerleştirir. Sonra koleksiyon içine gruplamak *uygulamaları* , ister bütün kuruluşunuza veya belirli kişiler veya gruplara dağıtabilirsiniz. 
 
-![Power BI uygulamaları](media/service-create-workspaces/power-bi-apps-left-nav.png)
+**Biliyor muydunuz?** Power BI artık varsayılan olan yeni bir çalışma deneyimi sunar. Okuma [yeni çalışma düzenlemek](service-new-workspaces.md) yeni çalışma alanları hakkındaki ayrıntılar için. 
 
-Çalışma alanı oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olursunuz. Çalışma alanı yönetiminin tamamı Office 365'tedir. Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekleyebilirsiniz. Çalışma alanında, hep birlikte daha geniş bir kitleye dağıtmayı planladığınız panolar, raporlar ve diğer makaleler üzerinde işbirliği yapabilirsiniz. Bir uygulama çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. 
-
-**Biliyor muydunuz?** Power BI yeni bir çalışma alanı deneyiminin önizlemesini sunuyor. Yeni çalışma alanlarıyla ilgili ayrıntılar için [Yeni çalışma alanlarında çalışmayı düzenleme (önizleme)](service-new-workspaces.md) konusunu okuyun. 
+Klasik bir çalışma alanı oluşturduğunuzda, temel alınan, ilişkili bir Office 365 grubu oluşturuyorsunuz. Çalışma alanı yönetiminin tamamı Office 365'tedir. Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekleyebilirsiniz. Çalışma alanında, hep birlikte daha geniş bir kitleye dağıtmayı planladığınız panolar, raporlar ve diğer makaleler üzerinde işbirliği yapabilirsiniz. Bir uygulama çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Uygulamalar ve uygulama çalışma alanları
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Office 365 grubu temelinde uygulama çalışma alanı oluşturma
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Bir Office 365 grubunu temel alan bir Klasik uygulama çalışma alanı oluşturma
 
 Bir uygulama çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Office 365 grubu üzerinde oluşturulur.
 
@@ -52,6 +50,8 @@ Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini iç
 3. Kalem simgesini yeniden seçin ve kullanmak istediğiniz görüntüyü bulun.
    
      ![Kalemi yeniden seçin](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+
+     Görüntüleri, .png, .jpg veya .bmp dosyaları olabilir. Kendi dosya boyutu 3 MB büyük yukarı olabilir. 
 
 4. **Kaydet**'i seçin.
    
@@ -77,9 +77,16 @@ Geçerli çalışma alanlarında, kurumsal içerik paketlerini ve Microsoft Dyna
 
 ## <a name="distribute-an-app"></a>Uygulamayı dağıtma
 
-İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. İş arkadaşlarınız uygulamalarınızı birkaç farklı yolla alabilir. Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. Buna alternatif olarak, iş arkadaşlarınız, uygulamalarınızı Microsoft AppSource'tan bulabilir ve yükleyebilir veya iş arkadaşlarınıza bir doğrudan bağlantı gönderebilirsiniz. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıntılar için bkz. [Power BI'da panolar ve raporlar içeren uygulamalar yayımlama](service-create-distribute-apps.md).
+Resmi içeriği kuruluşunuzdaki büyük bir kitleye dağıtmak istiyorsanız, çalışma alanınızdan bir uygulamayı yayımlayabilirsiniz.  İçerik hazır olduğunda, hangi panoları ve raporları yayımlamak istediğiniz seçin ve ardından olarak yayımlayın bir *uygulama*. Her çalışma alanından bir uygulama oluşturabilirsiniz.
 
-## <a name="power-bi-apps-faq"></a>Power BI uygulamaları hakkında SSS
+Sol gezinti bölmesindeki uygulamalar listesinde, yüklediğiniz tüm uygulamalar gösterilir. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. 
+- Bulma ve uygulamanızı Microsoft Appsource'tan yükleyebilir.
+- Bunları doğrudan bağlantı gönderebilirsiniz. 
+- Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. 
+
+Çalışma alanınızdan bir güncelleştirme yayımladıktan sonra kullanıcılar güncelleştirilmiş uygulama içeriği otomatik olarak görür. Çalışma alanınızdaki uygulama içeriği tarafından kullanılan veri kümelerinde Yenileme zamanlaması ayarlayarak verileri ne sıklıkta yenilenir denetleyebilirsiniz. Bkz: [Power BI'da yeni çalışma alanlarından uygulama yayımlama](service-create-distribute-apps.md) Ayrıntılar için.
+
+## <a name="power-bi-classic-apps-faq"></a>Power BI Klasik uygulamaları hakkında SSS
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Uygulamalarla kurumsal içerik paketlerinin farkı nedir?
 Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal içerik paketleriniz varsa bu paketler, uygulamalarla yan yana çalışmaya devam ederler. Uygulamalarla içerik paketlerinde birkaç önemli farklılık vardır. 

@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710929"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
@@ -50,11 +50,11 @@ iOS için uygulama URL'sini iTunes'dan almamız gerekir.
 
     ![iTunes uygulama URL'si](media/service-admin-mobile-intune/itunes-url.png)
 
-Şuna benzer olmalıdır: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+Şuna benzer olmalıdır: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>Android URL'sini alma
 
-[Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+[Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>2. Adım: Mobil uygulama yönetim ilkesi oluşturma
 
@@ -66,7 +66,7 @@ Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu t
 
     ![Intune portalı](media/service-admin-mobile-intune/intune-policy.png)
 
-1. **Ekle...**'yi seçin.
+1. **Ekle...** 'yi seçin.
 
 1. **Yazılım** bölümünde Android veya iOS için Mobil Uygulama Yönetimi seçeneğini belirleyebilirsiniz. Hemen başlamak için, **Önerilen Ayarlarla İlke Oluştur**'u seçebilir veya özel bir ilke oluşturabilirsiniz.
 

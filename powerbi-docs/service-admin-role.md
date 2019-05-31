@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382823"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099630"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI hizmet yöneticisi rolünü anlama
 
@@ -39,7 +39,7 @@ Power BI hizmet yöneticisi rolü aşağıdaki özellikleri sunmaz:
 
 Kullanıcıları Microsoft 365 yönetim merkezinden Power BI yöneticisi rolüne atamak için aşağıdaki adımları izleyin.
 
-1. Microsoft 365 yönetim merkezinde **Kullanıcılar** > **Etkin Kullanıcılar**’ı seçin.
+1. İçinde [Microsoft 365 Yönetim merkezini](https://portal.office.com/adminportal/home#/homepage)seçin **kullanıcılar** > **etkin kullanıcılar**.
 
     ![Microsoft 365 yönetim merkezi](media/service-admin-role/powerbi-admin-users.png)
 
@@ -61,9 +61,14 @@ Söz konusu kullanıcının rolünün **Power BI hizmet yöneticisi** olarak de�
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Kullanıcıları PowerShell ile yönetici rolüne atama
 
-Kullanıcıları rollere atamak için PowerShell'den de faydalanabilirsiniz. Kullanıcılar Azure Active Directory (Azure AD) hizmetinde yönetilir. Azure AD PowerShell modülüne sahip değilseniz [en son sürümü indirin ve yükleyin](https://www.powershellgallery.com/packages/AzureAD/).
+Kullanıcıları rollere atamak için PowerShell'den de faydalanabilirsiniz. Kullanıcılar, Azure Active Directory (Azure AD) içinde yönetilir. Azure AD PowerShell modülüne sahip değilseniz [en son sürümü indirin ve yükleyin](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. Öncelikle **Power BI Hizmet Yöneticisi** rolünün **ObjectId** değerini almanız gerekir. **ObjectId** bilgisini almak için [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) komutunu çalıştırabilirsiniz
+1. İlk olarak Azure AD'ye bağlanma:
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. İkinci olarak, alma **objectID** için **Power BI Hizmet Yöneticisi** rol. **ObjectId** bilgisini almak için [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) komutunu çalıştırabilirsiniz
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ Kullanıcıları rollere atamak için PowerShell'den de faydalanabilirsiniz. Kul
 1. Ardından kullanıcının **ObjectId** değerini alın. [Get-AzureADUser](/powershell/module/azuread/get-azureaduser) komutunu çalıştırarak bu değere ulaşabilirsiniz.
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

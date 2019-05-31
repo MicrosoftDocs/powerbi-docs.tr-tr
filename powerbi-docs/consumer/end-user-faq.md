@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661963"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059961"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
@@ -31,8 +31,9 @@ Power BI Pro, Power BI hizmetinin içerik paylaşma ve diğer Pro kullanıcılar
 Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite ve daha büyük hacimli veriler için destek sunar. Premium ayrıca bireysel kullanıcılar için içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcılar tarafından geniş ölçekte dağıtılmasını sağlar.
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
-Power BI Pro lisansının süresi dolduktan sonra 30 günlük yetkisiz kullanım süresi vardır.
-Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
+
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için [Office 365 işletme Aboneliğim sona erdiğinde verilerime ve erişim için ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium hakkında sorularım olduğunda ne yapmalıyım?
 Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkında SSS](../service-premium-faq.md).
@@ -90,11 +91,6 @@ Başlangıç konusunda yardım almak için aşağıdaki kaynakları kullanabilir
 Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](http://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
 
 Ayrıca Power BI uygulamanızla ilgili yardımcı olması için bir [Microsoft İş Ortağı](https://partner.microsoft.com/) bulabilirsiniz.
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
-Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
-
-Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
 [Microsoft Güven Merkezi](http://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.

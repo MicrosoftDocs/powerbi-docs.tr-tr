@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54083979"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265190"
 ---
 Bu makalede, **Power BI Desktop**'a yönelik bazı gelişmiş veri içeri aktarma ve temizleme tekniklerini ele alacağız. Verilerinizi **Sorgu Düzenleyicisi**'nde şekillendirip **Power BI Desktop**'a aktardıktan sonra bunları birkaç farklı yöntemle inceleyebilirsiniz. Power BI Desktop'ta üç görünüm vardır: **Rapor** görünümü, **Veri** görünümü ve **İlişkiler** görünümü. Tuvalin sol üst tarafında her bir görünüme ilişkin simgeyi seçerek söz konusu görünümü elde edebilirsiniz. Aşağıdaki resimde **Rapor** görünümü seçilmiştir. Simgenin yanındaki sarı çubuk, hangi görünümün etkin olduğunu belirtir.
 

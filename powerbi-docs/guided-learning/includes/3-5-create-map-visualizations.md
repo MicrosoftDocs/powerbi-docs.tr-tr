@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 033436e7078723508d6b9481807ace424c3f109f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397978"
+---
 Power BI'da iki farklı türde harita görselleştirmesi mevcuttur: coğrafi noktalara balonların yerleştirildiği bir balonlu harita ve görselleştirmek istediğiniz alanın ana hatlarını gösteren bir şekil haritası.
 
 ![](media/3-5-create-map-visualizations/3-5_1.png)

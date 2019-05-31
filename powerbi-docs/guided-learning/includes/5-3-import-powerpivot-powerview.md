@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271543"
+---
 Excel'in veri sorgulamaya ve yüklemeye yönelik **Power Query** (Excel 2016'da **Al ve Dönüştür** adı verilir), güçlü veri modelleri oluşturmaya yönelik **Power Pivot** ve dinamik rapor oluşturmaya yönelik **Power View** gibi gelişmiş BI özelliklerini kullanıyorsanız bunları da Power BI'a aktarabilirsiniz.
 
 ![](media/5-3-import-powerpivot-powerview/5-3_1.png)
@@ -8,5 +16,5 @@ Birden fazla ilişkili tablo, ölçü, hesaplanmış sütun ve hiyerarşi içere
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-Power BI'ın en iyi özelliklerinden biri de şu: Bir dış veri kaynağındaki verilere bağlanmak, bu verileri sorgulamak ve yüklemek için Power Query'yi veya Power Pivot'u kullanıyorsanız çalışma kitabınızı Power BI'a aktardıktan sonra, **zamanlanmış yenileme** ayarlayabilirsiniz. Power BI, zamanlanmış yenilemeyi kullanarak, doğrudan veri kaynağına bağlanmak ve değişen verileri sorgulayıp yüklemek için çalışma kitabınızdaki bağlantı bilgilerinden yararlanır. Raporlardaki tüm görsel öğeler de otomatik olarak güncelleştirilir.
+Ve Power BI'ın en iyi özelliklerinden biri: Sorgulamak ve, çalışma kitabınızı Power BI'a aktardıktan sonra bir dış veri kaynağından veri yüklemek için bağlanmak için Power Query veya Power Pivot kullanırsanız ayarlayabilirsiniz **zamanlanmış yenileme**. Power BI, zamanlanmış yenilemeyi kullanarak, doğrudan veri kaynağına bağlanmak ve değişen verileri sorgulayıp yüklemek için çalışma kitabınızdaki bağlantı bilgilerinden yararlanır. Raporlardaki tüm görsel öğeler de otomatik olarak güncelleştirilir.
 

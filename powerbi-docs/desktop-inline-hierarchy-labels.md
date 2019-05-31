@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454242"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop'taki satır içi hiyerarşi etiketlerini kullanma
@@ -51,7 +51,7 @@ Aşağıdaki görüntüde, yıllık satışlara yönelik bir çubuk grafik görs
 
 ![Ölçüsüz hiyerarşili grafik](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-**Bir sonraki düzeye genişlet** seçeneği belirlendiğinde, hiyerarşi etiketlerinin satır içi görüntüsünü içeren bir sonraki düzey gösterilir. Varsayılan olarak, satır içi hiyerarşiler ölçü değerine (bu örnekte, **Quantity**) göre sıralanır. Satır içi hiyerarşi etiketleri etkinleştirildiğinde, aşağıdaki görüntüde gösterildiği gibi sağ üst köşedeki üç nokta (**...**) simgesini seçip **Sıralama Ölçütü: ProductName ShipCountry** seçeneğini belirleyerek bu verileri hiyerarşiye göre sıralamayı da tercih edebilirsiniz.
+**Bir sonraki düzeye genişlet** seçeneği belirlendiğinde, hiyerarşi etiketlerinin satır içi görüntüsünü içeren bir sonraki düzey gösterilir. Varsayılan olarak, satır içi hiyerarşiler ölçü değerine (bu örnekte, **Quantity**) göre sıralanır. Satır içi hiyerarşi etiketleri etkinleştirildiğinde, aşağıdaki görüntüde gösterildiği gibi sağ üst köşedeki üç nokta ( **...** ) simgesini seçip **Sıralama Ölçütü: ProductName ShipCountry** seçeneğini belirleyerek bu verileri hiyerarşiye göre sıralamayı da tercih edebilirsiniz.
 
 ![Varsayılan olarak sıralanmış ölçüsüz hiyerarşili grafik](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 

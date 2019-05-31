@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397942"
+---
 Aynı rapor sayfasında birden fazla görselleştirmeniz varsa tıklayarak veya dilimleyici kullanarak belirli bir segmenti seçtiğinizde ilgili sayfadaki tüm görseller etkilenir. Ancak, bazı durumlarda yalnızca belirli görselleri dilimlemek isteyebilirsiniz. Bu, özellikle de dağılımlar gibi, verilerin belirli bir segment ile sınırlandırılması halinde asıl anlamın kaybedildiği öğeler kullanıldığında geçerlidir. Neyse ki Power BI Desktop, görseller arasındaki etkileşimleri denetlemenize olanak sağlıyor.
 
 Görselleştirmeleriniz arasındaki etkileşimi değiştirmek için **Giriş** şeridindeki Görseller bölümünde **Düzenle**'yi seçin ve **Düzenleme Modu**'nu açın.

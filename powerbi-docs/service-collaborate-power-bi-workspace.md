@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174580"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181716"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınızda işbirliği yapma
 Power BI uygulama çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. İşbirliği Power BI'daki çalışma alanları ile sınırlı değildir. Office 365, gruplar için OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, paylaşılan takvim ve görevler gibi başka hizmetler de sunar. [Office 365'teki gruplar](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) hakkında daha fazla bilgi edinin.
@@ -43,7 +43,7 @@ Bir Power BI Desktop dosyası oluşturduktan sonra dosyanızı Power BI uygulama
 ## <a name="collaborate-in-office-365"></a>Office 365'te işbirliği
 Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki uygulama çalışma alanıdır.
 
-1. Power BI hizmetinde Çalışma Alanı'nın yanındaki oku ve ardından çalışma alanınızın adının yanında bulunan üç nokta (**…**) simgesini seçin. 
+1. Power BI hizmetinde Çalışma Alanı'nın yanındaki oku ve ardından çalışma alanınızın adının yanında bulunan üç nokta ( **…** ) simgesini seçin. 
    
    ![Çalışma Alanı menüsü](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Bu menüden, grubunuzdaki kişilerle birkaç şekilde işbirliği yapabilirsiniz: 
@@ -64,7 +64,7 @@ Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki uygu
 2. [Office 365 için Outlook'taki grup sohbetleri](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22) hakkında daha fazla bilgi edinin.
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Uygulamanın grup çalışma alanı takviminde bir etkinlik zamanlama
-1. Uygulama çalışma alanınızın adının yanındaki üç nokta (**…**) simgesi \> **Takvim** seçeneğini belirleyin. 
+1. Uygulama çalışma alanınızın adının yanındaki üç nokta ( **…** ) simgesi \> **Takvim** seçeneğini belirleyin. 
    
    ![Takvim sekmesi](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

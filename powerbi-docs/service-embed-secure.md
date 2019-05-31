@@ -1,27 +1,27 @@
 ---
 title: Raporu güvenli bir portala veya web sitesine ekleme
-description: Power BI güvenli ekleme özelliğiyle, kullanıcılarınızın raporları kolayca ve güvenle dahili web portallarına eklemesini sağlayabilirsiniz.
-author: markingmyname
-ms.author: maghan
+description: Power BI, kullanıcıların özelliği sağlar bir kolayca katıştırır ve güvenli iç web portalı raporları eklemek.
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: b816b504d3eed3aa91eb25c0bb3c6189d3075d1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285841"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222252"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
-Power BI'da raporlara yönelik yeni güvenli **Ekle** seçeneği, kullanıcıların **web tabanlı** veya **barındırılan şirket içi** (SharePoint 2019 gibi) olması fark etmeksizin dahili web portallarına kolayca ve güvenle rapor ekleyebilmesine olanak tanır. Bu yolla eklenen raporlarda satır düzeyi güvenlik (RLS) aracılığıyla tüm öğe izinlerine ve veri güvenliğine uyulur. Özellik, URL veya iFrame eklemeyi kabul eden hiçbir portala kod eklenmesine izin vermeyecek şekilde tasarlanmıştır.
+Yeni **ekleme** seçeneği için Power BI raporları, kolayca ve güvenli bir şekilde katıştırabilir raporları iç web portallarında. Bu portallar olabilir **bulut tabanlı** veya **şirket içinde barındırılan**, SharePoint 2019 gibi. Katıştırılmış raporlar aracılığıyla tüm öğe izinleri ve veri güvenliği saygı [satır düzeyi güvenlik (RLS)](service-admin-rls.md). Kod içermeyen bir URL veya iFrame kabul eden herhangi bir portal katıştırma sağlarlar. 
 
-**Ekle** seçeneği [URL Filtrelerini](service-url-filters.md) ve URL ayarlarını da destekler. **Ekle** seçeneği, temel düzeyde HTML ve JavaScript bilgisi gerektiren alt düzey kod yaklaşımını kullanarak portallarla tümleştirmenize olanak tanır.
+**Ekleme** seçeneğini destekler [URL filtrelerinin](service-url-filters.md) ve URL ayarları. Bu, HTML ve JavaScript yalnızca temel bilgi gerektiren bir düşük kodlu yaklaşımı kullanarak portalı ile tümleştirmenize olanak sağlar.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI raporlarını portallara **ekleme**
 
@@ -29,66 +29,66 @@ Power BI'da raporlara yönelik yeni güvenli **Ekle** seçeneği, kullanıcılar
 
     ![Güvenli Ekle seçeneği açılan menüsü](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. Raporu güvenle eklemek için kullanılacak bir bağlantı ve iFrame sağlayan iletişim kutusunu açmak için Ekle seçeneğini belirtin.
+2. Seçin **ekleme** bağlantı ve güvenli bir rapor eklemek için kullanabileceğiniz bir iFrame sağlayan bir iletişim kutusunu açmak için seçenek.
 
     ![Ekle seçeneği iletişim kutusu](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. URL'nizi web portalınıza ekledikten sonra veya URL'yi doğrudan açmanız durumunda, rapora erişim verilmeden önce kullanıcının kimliği doğrulanır. Aşağıda, kullanıcı tarayıcı oturumunda Power BI'da oturum açmamıştır. **Oturum Aç**'a bastığında, yeni bir tarayıcı penceresinin veya sekmesinin açılması gerekebilir. Oturum açmanız istenmezse açılır pencere engelleyicilerini denetleyin.
+3. Kullanıcı raporu URL'si doğrudan açar veya bir web Portalı'nda katıştırılmış olsun, rapor erişimi kimlik doğrulaması gerektirir. Bir kullanıcı için Power BI, tarayıcı oturumu açmış olmayan aşağıdaki ekranda görüntülenir. Bunlar seçtiğinizde **oturum açma**, yeni bir tarayıcı penceresi veya sekmesinde açılamıyor. Kullanıcılar oturum açmak için yoksa sorulduğunda için açılır pencere engelleyicileri denetleyin sağlayın.
 
     ![Bu raporu görüntülemek için oturum açın](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Kullanıcı oturum açtıktan sonra rapor açılır. Burada veriler gösterilir ve kullanıcıların sayfalar arasında gezinmesine ve filtreler ayarlamasına olanak sağlanır. Rapor yalnızca Power BI'da raporu görüntüleme izni olan kullanıcılara gösterilir. Tüm satır düzeyi güvenlik (RLS) kuralları da uygulanır. Son olarak, kullanıcının doğru bir biçimde lisanslanmış olması gerekir. Power BI Pro lisansı gereklidir veya rapor bir Power BI Premium kapasitesinde yer alan bir çalışma alanında olmalıdır. Kullanıcı açtığı her yeni tarayıcı penceresinde oturum açmalıdır ama bir kez oturum açtıktan sonra diğer raporlar otomatik olarak yüklenir.
+4. Kullanıcı oturum açtıktan sonra rapor, sayfa gezintisi ve filtre ayarı verileri gösterir ve açılır. Yalnızca görüntüleme iznine sahip kullanıcılar, Power BI raporunda görebilirsiniz. Tüm [satır düzeyi güvenlik (RLS)](service-admin-rls.md) kuralları da uygulanır. Son olarak, kullanıcının doğru bir biçimde lisanslanmış olması gerekir. Power BI Pro lisansı gereklidir veya rapor bir Power BI Premium kapasitesinde yer alan bir çalışma alanında olmalıdır. Her zaman, yeni bir tarayıcı penceresi açın oturum açmak kullanıcının olmalıdır. Ancak, oturum açtıktan sonra diğer raporları otomatik olarak yükleyin.
 
     ![Raporu ekleme](media/service-embed-secure/secure-embed-report.png)
 
-5. iFrame seçeneği kullanılırken, sağlanan HTML'yi düzenleyerek portalınızın web sayfasına sığabilmesi için gereken yüksekliği ve genişliği belirtmeniz faydalı olacaktır.
+5. İFrame kullanarak, düzenlemeniz gerekebilir **yükseklik** ve **genişliği** portal web sayfasında sığdırmak için.
 
     ![Yüksekliği ve genişliği ayarlama](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-access-to-reports"></a>Raporlara yönelik erişim izni verme
+## <a name="granting-report-access"></a>Rapor erişimi verme
 
-Ekle seçeneği kullanıcıların raporu görüntülemesine otomatik olarak izin vermez. Raporu görüntüleme izinleri Power BI hizmetinde ayarlanır.
+**Ekleme** seçeneği kullanıcıların raporu görüntülemek için otomatik olarak izin vermez. Görüntüleme izinleri Power BI hizmetinde ayarlanır.
 
-Power BI hizmetinin içinde rapora erişim sağlamak için, eklenen raporu buna erişmesi gereken kullanıcılarla paylaşabilirsiniz. Office 365 Grubu kullanıyorsanız, kullanıcıyı Power BI hizmetindeki uygulama çalışma alanının bir üyesi olarak listeleyebilirsiniz. Daha fazla bilgi için bkz. [Bir uygulama çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Power BI hizmetinde, ekli raporlar erişim gerektiren kullanıcılar ile paylaşabilirsiniz. Bir Office 365 grubu kullanıyorsanız, kullanıcı bir uygulama çalışma alanı üyesi olarak listeleyebilirsiniz. Daha fazla bilgi için bkz. nasıl [Power BI ve Office 365'te uygulama çalışma alanınızı yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Lisanslama
 
-Eklenen raporu görüntüleyen kullanıcıların Power BI Pro lisansına sahip olması veya içeriğin bir [Power BI Premium kapasitesinde (EM veya P SKU)](service-admin-premium-purchase.md) bulunması gerekir.
+Ekli raporu görüntülemek için kullanıcıların bir Power BI Pro lisansı gerekir veya içerik içinde bir çalışma alanında olması gerekiyor bir [Power BI Premium kapasitesi (EM veya P SKU)](service-admin-premium-purchase.md).
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>URL ayarlarını kullanarak ekleme deneyiminizi özelleştirme
 
-Ekleme URL'si, kullanıcı deneyiminizi özelleştirmenize yardımcı olacak çeşitli giriş ayarlarını destekler. Sağlanan iFrame'i kullanıyorsanız, iFrame'in src ayarlarında URL'yi güncelleştirdiğinizden emin olun.
+Ekleme URL'nin giriş ayarlarını kullanarak kullanıcı deneyimi özelleştirebilirsiniz. Sağlanan iFrame içinde URL'nin güncelleştirebilirsiniz **src** ayarları.
 
 | Özellik  | Açıklama  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | **pageName** sorgu dizesi parametresini, raporun hangi sayfasının açılacağını ayarlamak için kullanabilirsiniz. Aşağıda gösterildiği gibi, rapor Power BI hizmetinde görüntülenirken **pageName** değeri rapor URL'sinin son bölümüne karşılık gelir. |  |  |  |
-| URL Filtreleri  | Eklemenin içeriğini filtrelemek için Power BI kullanıcı arabirimden aldığınız ekleme URL'sinde [URL Filtreleri](service-url-filters.md) kullanabilirsiniz. Bu şekilde, yalnızca temel düzeyde bir HTML ve JavaScript deneyimiyle alt düzey kod tümleştirmeleri oluşturabilirsiniz.  |  |  |  |
+| pageName  | Kullanabileceğiniz **pageName** sorgu dizesi parametresi hangi rapor sayfasını açmak için ayarlanacak. Bu değer rapor URL'nin sonunda Power BI hizmetinde bir raporu görüntülerken, aşağıda gösterildiği gibi bulabilirsiniz. |  |  |  |
+| URL Filtreleri  | Kullanabileceğiniz [URL filtrelerinin](service-url-filters.md) ekleme URL'de ekleme içeriği filtrelemek için Power BI Arabiriminden aldı. Bu şekilde, yalnızca temel düzeyde bir HTML ve JavaScript deneyimiyle alt düzey kod tümleştirmeleri oluşturabilirsiniz.  |  |  |  |
 
-## <a name="set-which-page-opens-when-the-report-is-embedded"></a>Rapor eklendiğinde hangi sayfanın açılacağını ayarlama
+## <a name="set-which-page-opens-for-an-embedded-report"></a>Hangi sayfa için eklenmiş bir raporu açar küme 
 
-*pageName* ayarında sağlanan değer, rapor Power BI hizmetinde görüntülenirken rapor URL'sinin son bölümüne karşılık gelir.
+Bulabilirsiniz **pageName** Power BI hizmetinde bir raporu görüntülerken, rapor URL'nin sonunda bir değer.
 
-1. Raporu web tarayıcınızda Power BI hizmetinde açın ve adres çubuğundan URL'yi kopyalayın.
+1. Web tarayıcınızda Power BI hizmetinden raporu açın ve ardından adres çubuğuna URL'yi kopyalayın.
 
     ![Rapor bölümü](media/service-embed-secure/secure-embed-report-section.png)
 
-2. *pageName* ayarını URL'nin sonuna ekleyin.
+2. **pageName** ayarını URL'nin sonuna ekleyin.
 
     ![PageName ayarını ekleme](media/service-embed-secure/secure-embed-append-page-name.png)
 
-## <a name="filter-report-content-using-url-filters"></a>URL filtrelerini kullanarak rapor içeriğini filtreleme
+## <a name="filter-report-content-using-url-filters"></a>URL filtrelerini kullanarak rapor içeriğini filtreleme 
 
-Bazı gelişmiş özellikler için, [URL Filtreleri](service-url-filters.md) kullanarak raporun kullanımında başka deneyimler de oluşturabilirsiniz. Örneğin aşağıdaki URL, Enerji sektörüne ilişkin verileri gösterecek şekilde raporu filtreler.
+Kullanabileceğiniz [URL filtrelerinin](service-url-filters.md) farklı rapor görünümlerini sağlamak için. Örneğin aşağıdaki URL, Enerji sektörüne ilişkin verileri gösterecek şekilde raporu filtreler.
 
 **pageName** ile [URL Filtreleri](service-url-filters.md)'nin birlikte kullanılması güçlü bir sonuç verebilir. Temel HTML ve JavaScript kullanarak deneyimler oluşturabilirsiniz.
 
-Örneğin, aşağıda gösterildiği gibi HTML sayfasına bir düğme ekleyebilirsiniz:
+Örneğin, bir HTML sayfasına ekleyebilirsiniz. bir düğme şu şekildedir:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-Düğmeye basıldığında, iFrame'i Enerji sektörü filtresini içeren güncelleştirilmiş bir URL ile güncelleştiren bir işlev çağrılır.
+Bu onay kutusu seçildiğinde, düğmeye iFrame enerji sektör filtre içeren güncelleştirilmiş bir URL ile güncelleştirmek için bir işlevi çağırır.
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,20 @@ Alt düzey kodlu özel bir deneyim oluşturmak için istediğiniz kadar çok dü
 
 * Güvenli ekleme özelliği Power BI hizmetinde yayımlanmış olan raporlarda çalışır.
 
-* Kullanıcı her yeni tarayıcı penceresini açtığında raporu görüntülemek için oturum açmalıdır.
+* Kullanıcı, yeni bir tarayıcı penceresi açtığınızda raporu görüntülemek oturum açmanız gerekir.
 
-* Bazı tarayıcılarda, özellikle de InPrivate veya Incognito modları kullanıldığında oturum açtıktan sonra sayfayı yenilemeniz gerekir.
+* Bazı tarayıcılar özellikle InPrivate veya Incognito modları kullanırken oturum açma, sonra sayfayı yenilemeniz gerekir.
 
-* Çoklu oturum açma deneyiminden yararlanabilmek için, SharePoint Online'da Ekle seçeneğini kullanın veya [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) yaklaşımını kullanarak özel tümleştirme oluşturun. [Verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) hakkında daha fazla bilgi edinin.
+* Tek bir oturum açma deneyimi elde etmek, ekleme SharePoint Online seçeneğini kullanın veya özel tümleştirme kullanarak bir derleme için [verilerin sahibi kullanıcıdır](developer/embed-sample-for-your-organization.md) yöntemi ekleme. 
 
-* **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) yaklaşımını kullanın. [Verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) hakkında daha fazla bilgi edinin.
+* **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'si için kullanmak [verilerin sahibi kullanıcıdır](developer/embed-sample-for-your-organization.md) yöntemi ekleme. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Power bı'da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [URL filtreleri](service-url-filters.md)
+* [URL sorgu dizesi parametrelerini kullanarak bir raporu filtreleme](service-url-filters.md)
 
-* [SharePoint Online rapor web bölümü](service-embed-report-spo.md)
+* [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md)
 
-* [Web'de yayımlama](service-publish-to-web.md)
+* [Power BI'dan Web'de Yayımlama](service-publish-to-web.md)

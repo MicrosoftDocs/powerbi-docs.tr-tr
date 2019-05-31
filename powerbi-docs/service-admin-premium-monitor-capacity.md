@@ -1,29 +1,27 @@
 ---
 title: Premium Kapasite Ölçümleri uygulamasıyla Power BI Premium kapasiteleri izleyin.
 description: Power BI yönetici portalını ve Power BI Premium Capacity Metrics uygulamasını kullanma
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2019
+ms.date: 03/27/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174925"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565303"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Kapasiteleri Yönetim portalında veya **Power BI Premium Kapasite Ölçümleri** uygulamasıyla izleyebilirsiniz. Bu makalede Premium Kapasite Ölçümleri uygulamasının kullanımı açıklanır. Uygulama kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Son yedi günün ortalama kullanım ölçümlerine üst düzey bir genel bakış için Yönetim portalını kullanabilirsiniz. Portalı izleme hakkında daha fazla bilgi edinmek için bkz. [Yönetim portalında Premium kapasiteleri izleme](service-admin-premium-monitor-portal.md).
 
-Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun.   
-**Uygulamanın en son sürümü 1.10.1.2'dir (22 Şubat 2019)**.   
-Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir. 
+Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir. 
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -39,7 +37,6 @@ Doğrudan [Premium Kapasite Ölçümleri uygulamasına](https://app.powerbi.com/
 
 Sabırlı olun. Ölçümleri yüklemek ve yenilemek birkaç dakika sürer. Uygulama boş ölçümler gösteriyorsa, F5 tuşuna basarak tarayıcınızı yenileyin.
 
-
 ## <a name="get-app-refresh-history"></a>Uygulama yenileme geçmişini alma
 
 Premium Kapasite Ölçümleri uygulamanızın en son ne zaman yenilendiğine bakmak için, **Ayarlar** > **Veri Kümeleri** > **Power BI Premium Kapasite Ölçümleri** > **Yenileme Geçmişi**'ne tıklayın. 
@@ -52,7 +49,7 @@ Son yenileme gösterilir; zamanlanmış ve isteğe bağlı yenilemeleri görmek 
 
 ## <a name="monitor-capacities-with-the-app"></a>Uygulama ile kapasiteleri izleme
 
-Artık uygulamayı yüklediğinize göre kuruluşunuzdaki kapasitelerin ölçümlerini görebilirsiniz. Uygulama, ölçüm özeti içeren bir [Pano](#Dashboard) ve ayrıntılı ölçüm [Raporları](#Reports) sunar.
+Artık uygulamayı yüklediğinize göre kuruluşunuzdaki kapasitelerin ölçümlerini görebilirsiniz. Uygulama ölçümleri özetleri ile bir Pano ve ayrıntılı ölçümler raporlar sağlar.
 
 ### <a name="dashboard"></a>Pano
 
@@ -136,6 +133,19 @@ Panoda aşağıdaki ölçümler bulunur:
 | Bellek - Sayfalandırılmış Raporlar Ortalama (%) | Son yedi gün içinde sayfalandırılmış rapor iş yükü tarafından gerçekleştirilen ortalama bellek tüketimi. |
 |||
 
+#### <a name="ai-summary"></a>Yapay ZEKA özeti
+
+| Ölçüm | Açıklama |
+| --- | --- |
+| Toplam Yenileme Sayısı | Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı. |
+| Yenileme Güvenilirliği (%) | Başarılı yenileme sayısının son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısına bölünmesiyle elde edilen sonuç. |
+| CPU en fazla (%)| Yapay ZEKA iş yükü tarafından en fazla CPU kullanımı son yedi gün içinde. |
+| Belleği en fazla (GB) | Son yedi gün içinde en fazla bellek tüketimi yapay ZEKA iş yüküne göre.|
+| En fazla bekleme süresi (MS) yeniler | Yenileme başlamadan önce zaman maksimum miktarı. |
+| Yenilemeler ortalama bekleme süresi (MS)| Yenileme başlatılmadan önce beklenen ortalama süre. |
+| Yenilemeler en uzun süre (MS) | En uzun süreyi tam yenilenemiyor. |
+| Yenilemeler ortalama süre (MS)| Yenilemenin tamamlandığı ortalama süre. |
+| | |
 
 ### <a name="reports"></a>Raporlar
 
@@ -143,10 +153,11 @@ Raporlar daha ayrıntılı ölçümler sağlar. Yöneticisi olduğunuz kapasitel
 
 Raporun alt kısmında beş *sekme* vardır:
 
-[**Veri kümeleri**](#datasets): Kapasitelerinizdeki Power BI veri kümelerinin durumu hakkında ayrıntılı ölçümler sağlar.   
-[**Sayfalandırılmış Raporlar**](#paginated-reports): Kapasitelerinizdeki sayfalandırılmış raporların durumu hakkında ayrıntılı ölçümler sağlar.   
-[**Veri Akışları**](#dataflows): Kapasitelerinizdeki veri akışlarının ayrıntılı yenileme ölçümleri sağlar.   
-[**Kaynak Tüketimi**](#resource-consumption): Bellek ve CPU’nun yüksek kullanımı gibi ayrıntılı kaynak ölçümleri sağlar.    
+[**Veri kümeleri**](#datasets): Kapasitelerinizdeki Power BI veri kümelerinin durumu hakkında ayrıntılı ölçümler sağlar.
+[**Sayfalandırılmış Raporlar**](#paginated-reports): Kapasitelerinizdeki sayfalandırılmış raporların durumu hakkında ayrıntılı ölçümler sağlar.
+[**Veri Akışları**](#dataflows): Kapasitelerinizdeki veri akışlarının ayrıntılı yenileme ölçümleri sağlar.
+[**Yapay ZEKA** ](#ai) -sistem durumunu, kapasiteler içinde kullanılan AI işlevlerini ayrıntılı ölçümler sağlar.
+[**Kaynak Tüketimi**](#resource-consumption): Bellek ve CPU’nun yüksek kullanımı gibi ayrıntılı kaynak ölçümleri sağlar.
 [**Kimlikler ve Bilgiler**](#ids-and-info): Kapasiteler, çalışma alanları ve iş yüklerinin adları, kimlikleri ve sahipleri.
 
 Her sekmede ölçümleri kapasiteye veya tarih aralığına göre filtreleyebileceğiniz bir sayfa açılır. Hiçbir filtre seçilmezse, rapor varsayılan olarak ölçümleri bildiren tüm kapasiteler için son haftanın ölçümlerini gösterir. 
@@ -159,7 +170,7 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 
 | Rapor bölümü | Ölçümler |
 | --- | --- |
-| Yenilemeler |  Toplam Sayı: Her veri kümesi için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri kümesi için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri kümesi için en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
+| Yenilemeler |  Toplam Sayı: Her veri kümesi için toplam yenileme sayısı.<br>  Güvenilirlik: Tamamlanan her veri kümesi için yenileme yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri kümesi için en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
 | Ortalama Süreye Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme süresine sahip beş veri kümesi. |
 | Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme bekleme süresine sahip beş veri kümesi. |
 | Saatlik Yenileme Sayısı ve Bellek Tüketimi (GB) |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
@@ -213,12 +224,23 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 
 | **Rapor bölümü** | **Metrics** (Ölçümler) |
 | --- | --- |
-| Yenilemeler |  Toplam: Her veri akışı için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri akışı için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri akışının en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri akışı yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
+| Yenilemeler |  Toplam: Her veri akışı için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri akışı için tamamlanan yenilemeleri yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri akışının en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri akışı yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
 | Ortalama Yenileme Süresine Göre En İyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme süresi en uzun olan beş veri akışı. |
 | Ortalama Bekleme Süresine Göre En iyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme bekleme süresi en uzun olan beş veri akışı. |
 | Saatlik Ortalama Yenileme Bekleme Süreleri |  Bir saatlik demetlere ayrılmış ve UTC saatiyle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
 | Saatlik Yenileme Sayısı ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
 |  |  |
+
+### <a name="ai"></a>YAPAY ZEKA
+
+| **Rapor bölümü** | **Metrics** (Ölçümler) |
+| --- | --- |
+| Genel Kullanım | Toplam sayısı: Yapay ZEKA işlevleri bir çalışma alanı veya veri akışı sayısı. <br> Güvenilirlik: Tamamlanan yenilemeleri yüzdesi.<br> Ort. Bekleme süresi: Ortalama gecikme zamanlanan saat arasındaki milisaniye cinsinden yenileme başlangıcı.<br> En Uzun Bekleme Süresi: Milisaniye cinsinden maksimum bekleme süresi.<br> Ort. Süresi: Yenileme, milisaniye cinsinden ortalama süresi.<br> En Uzun Süre: Milisaniye cinsinden en uzun süre çalışan yenileme süresi.<br> Ortalama giriş boyutunun: Ortalama veri akışı yenileme tarafından yürütülen AI işlevi için bayt cinsinden boyutu girin.<br> Ortalama boyutu: Ortalama çıkış veri akışı yenileme tarafından yürütülen AI işlevi için bayt cinsinden boyutu. |
+| Ortalama süreye göre ilk 5 AI işlevleri | Süre, milisaniye cinsinden en uzun ortalama beş işlevleriyle yenileyin. |
+| Ortalama giriş boyuta göre ilk 5 AI işlevleri | Ortalama en büyük veri ile beş işlevleri bayt boyutu girin. |
+| Saatlik Yenileme Sayısı ve Bellek Tüketimi | Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
+| Saatlik ortalama süresi | Bir saatlik demetlerin içine bölme yenileme ortalama süresi UTC saatiyle bildirdi. |
+| | |
 
 ### <a name="resource-consumption"></a>Kaynak Tüketimi
 
@@ -274,7 +296,7 @@ Power BI Premium Kapasite Ölçümleri uygulamasını kullanarak Power BI Embedd
 
 1. Azure portalda kapasitenizi açın.
 
-1. **Erişim denetimi (IAM)** öğesine tıklayın ve **Power BI Premium** uygulamasını okuyucu rolüne ekleyin. Uygulamayı adıyla bulamazsanız istemci kimliğini kullanın: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. **Erişim denetimi (IAM)** öğesine tıklayın ve **Power BI Premium** uygulamasını okuyucu rolüne ekleyin. Uygulama adına göre bulma bulamıyorsanız, de, istemci tanımlayıcısı tarafından ekleyebilirsiniz: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Power BI Embedded izinleri](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -285,4 +307,4 @@ Power BI Premium Kapasite Ölçümleri uygulamasını kullanarak Power BI Embedd
 ## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
-> [Power BI Premium kapasite kaynak yönetimi ve en iyi duruma getirme](service-premium-understand-how-it-works.md)
+> [Power BI Premium kapasiteleri en iyi duruma getirme](service-premium-capacity-optimize.md)

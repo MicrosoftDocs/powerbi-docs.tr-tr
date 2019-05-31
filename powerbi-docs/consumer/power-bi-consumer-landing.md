@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 02/21/2019
+ms.date: 05/29/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 958c8bb29e8b67c51b7b3b9b35bf94c62ed21865
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662446"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66270609"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -65,6 +65,7 @@ ms.locfileid: "56662446"
                                                 <p><a href="/power-bi/consumer/end-user-report-open" data-linktype="absolute-path">Rapor görüntüleme</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-dashboard-open" data-linktype="absolute-path">Pano görüntüleme</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-app-view" data-linktype="absolute-path">Uygulamayı görüntüleme</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-export" data-linktype="absolute-path">Verileri dışarı aktarma</a>
                                             </div>
                                         </div>
                                     </div>
@@ -121,8 +122,8 @@ ms.locfileid: "56662446"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Yardım alın</h3>
-                                            <!--    <p><a href="/power-bi/guided-learning/index" data-linktype="absolute-path">Microsoft LEARN self-paced training</a></p>
-                                               --> <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Power BI blogunu okuyun</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN kendi belirlediğiniz hızda ilerleyebileceğiniz eğitim</a></p>
+                                                <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Power BI blogunu okuyun</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Power BI forumlarında soru sorun</a></p>
                                             </div>
                                         </div>

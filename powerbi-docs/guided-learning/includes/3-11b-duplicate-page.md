@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3aae2092875530ae2f739e3a62cb4408f80c6e5f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397960"
+---
 Bir raporun her bir sayfası, belirli şekillerde etkileşim kuran ve hassas bir biçimlendirmeye sahip olan birden fazla görselleştirmeyle birlikte oldukça karmaşık olabilir. Bazen rapor oluştururken iki farklı sayfa konusu için aynı görselleri ve düzenleri kullanmak isteyebilirsiniz. Örneğin, brüt gelir için bir rapor sayfası oluşturmuş ve net gelir için de benzer bir sayfa istiyor olabilirsiniz.
 
 Tüm çalışmalarınızı yeniden oluşturmak zor olacaktır ancak Power BI Desktop ile rapor sayfasını yinelemeniz yeterlidir.

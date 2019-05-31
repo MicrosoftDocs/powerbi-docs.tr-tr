@@ -12,14 +12,14 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: conceptual
-  ms.date: 02/26/2019
+  ms.date: 05/07/2019
   ms.author: davidi
-  ms.openlocfilehash: ccfb8cd792fe51a05fda8e112e129cdd40330f25
-  ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-  ms.translationtype: HT
+  ms.openlocfilehash: f1f79bcb44256b1bd21b153afc76895bc90916cc
+  ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+  ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2019
-  ms.locfileid: "57555773"
+  ms.lasthandoff: 05/29/2019
+  ms.locfileid: "65853698"
 items:
 - durationInMinutes: 1
   content: >
@@ -66,21 +66,21 @@ items:
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
-- title: İçerik paketi oluşturma
+- title: Uygulamalar oluşturun
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
 
 
     [!INCLUDE [](includes/6-2-create-content-packs.md)]
-- title: İçerik paketlerini kullanma
+- title: Uygulamaları kullanma
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
 
 
     [!INCLUDE [](includes/6-3-use-content-packs.md)]
-- title: İçerik paketlerini güncelleştirme
+- title: Uygulamaları güncelleştirme
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]

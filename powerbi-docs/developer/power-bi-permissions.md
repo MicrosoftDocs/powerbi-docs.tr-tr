@@ -1,20 +1,20 @@
 ---
 title: Power BI izinleri
 description: Power BI izinleri
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269377"
 ---
 # <a name="power-bi-permissions"></a>Power BI izinleri
 

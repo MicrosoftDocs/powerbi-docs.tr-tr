@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 03/26/2019
 ms.author: mblythe
 ms.openlocfilehash: d33abaeff1f7996859e203a3b28ae99ba8d9bf2e
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489511"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61402336"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro ve Power BI Premium destek seçenekleri
 

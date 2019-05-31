@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285772"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368791"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini birleştirme
 
@@ -208,7 +208,7 @@ Veri kümelerinizin her ikisini ve aralarındaki ilişkiyi kullanarak satış ve
    
 2. Sipariş edilen her bir ürünün miktarını görüntülemek için **Alanlar** bölmesindeki **Ürünler** bölümünden **ProductName** öğesini seçin veya grafiğin üzerine sürükleyin. 
    
-3. Ürünleri en fazla sipariş edilenden en az sipariş edilene doğru sıralamak için, görselleştirmenin sağ üst kısmındaki **Diğer seçenekler** üç nokta simgesini (**...**) ve sonra **Miktara Göre Sırala**’yı seçin.
+3. Ürünleri en fazla sipariş edilenden en az sipariş edilene doğru sıralamak için, görselleştirmenin sağ üst kısmındaki **Diğer seçenekler** üç nokta simgesini ( **...** ) ve sonra **Miktara Göre Sırala**’yı seçin.
    
 4. Grafiği ürün adları görünür olacak şekilde genişletmek için grafiğin köşelerindeki tutamaçları kullanın. 
    

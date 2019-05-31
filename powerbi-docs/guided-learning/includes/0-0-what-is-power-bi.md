@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051105"
+---
 Power BI'a ilişkin **Destekli Öğrenme** kursuna hoş geldiniz. Kendi temponuzda ilerleyebileceğiniz bu çevrimiçi kursta Power BI'ı adım adım açıklayacağız. Bu sayede Power BI'ı her yönüyle öğrenebileceksiniz.
 
 Bu kurs; kavramları, ayrıntıları ve örnekleri kavramanıza yardımcı olacak bir mantıksal akış izlenerek anlaşılır parçalar halinde rehberlik sunmak için hazırlanmıştır. Ayrıca kursta, öğrenme sürecinizde size yardımcı olacak çok sayıda görsel ve video da mevcuttur.
@@ -23,7 +31,7 @@ Bu üç bileşen (**Desktop**, **hizmet** ve **Mobil**) kullanıcıların ihtiya
 ## <a name="how-power-bi-matches-your-role"></a>Power BI, rolünüzle nasıl eşleşir?
 Power BI'ı nasıl kullandığınız bir projedeki veya ekipteki rolünüze bağlıdır. Başka rollerdeki kullanıcılar Power BI'ı farklı şekillerde kullanabilir ve bu oldukça normaldir.
 
-Örneğin, siz en çok **Power BI hizmetini** kullanırken, sürekli hesaplama yapan ve rapor oluşturan (ardından, Desktop raporlarını sizin de daha sonra görüntüleyebileceğiniz Power BI hizmetinde yayımlayan) iş arkadaşınız **Power BI Desktop**'ı çok daha fazla kullanabilir. Satış departmanındaki başka bir iş arkadaşınız ise satış kotalarındaki ilerlemeyi izlemek ve yeni satış fırsatları hakkında ayrıntılı bilgi edinmek için Power BI telefon uygulamasını daha çok kullanabilir.
+Örneğin, siz en çok **Power BI hizmetini** kullanırken, sürekli hesaplama yapan ve rapor oluşturan (ardından, Desktop raporlarını sizin de daha sonra görüntüleyebileceğiniz Power BI hizmetinde yayımlayan) iş arkadaşınız **Power BI Desktop**'ı çok daha fazla kullanabilir. Ve başka bir iş arkadaşınız satış çoğunlukla Power BI telefon uygulaması satış kotalar ilerlemeyi izlemek ve yeni müşteri adayı detaylarına gitmek için kullanabilirsiniz.
 
 Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip olduğunuz role bağlı olarak farklı dönemlerde **Power BI**'ın her bir bileşenini kullanabilirsiniz.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281586"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565529"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -32,89 +32,78 @@ Power BI raporu, verilerinizin etkileşimli bir görünümüdür ve verilerinize
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Bir Power BI raporunu mobil uygulamada açma
 Power BI raporlarını aldığınız yere bağlı olarak bu raporlar mobil uygulamanın farklı konumlarında depolanır. Raporlar; Uygulamalar, Benimle Paylaşılan veya Çalışma Alanı (Çalışma Alanım dahil) bölümlerinde ya da bir rapor sunucusunda olabilir. Raporlar bazı durumlarda listelenir, bazı durumlarda da bir raporu almak için ilişkili panoya göz atmanız gerekebilir.
 
-* Panoda bir kutucuğun sağ üst köşesindeki üç nokta (...) simgesine ve **Rapor Aç** seçeneğine dokunun.
+Listeleri ve menüleri, bu öğe bir rapor olduğunu anlamanıza yardımcı olacak bir rapor adının yanındaki simge bulabilirsiniz. 
+
+![raporları çalışma Alanım içinde](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+
+Power BI mobil uygulamalarında raporlar için iki simge vardır:
+
+* ![rapor simgesi](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) uygulamasındaki yatay yönde sunulur ve tarayıcıda görünüyor gibi aynı görünür bir rapor gösterir.
+
+* ![Telefon raporu simgesi](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) Dikey sunulacak en az bir telefon en iyi duruma getirilmiş rapor sayfasına sahip bir rapor gösterir. 
+
+Not: Telefonunuz, yatay görünümde tutmak, rapor sayfasını telefon düzeni olsa bile yatay düzeni, her zaman alırsınız. 
+
+Bir raporu panodan almak için bir kutucuğun sağ üst köşedeki üç nokta (…) dokunun > **raporunu Aç**.
   
   ![Rapor Aç](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Rapor aç seçeneği, kutucukların hepsinde bulunmaz. Örneğin, Soru-Cevap kutusunda soru sorarak oluşturulan kutucuklara dokunulduğunda rapor açılmaz. 
   
-  Rapor, [telefonda görüntüleme için en iyi duruma getirilmediyse](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones) yatay modda açılır.
-  
-  ![Telefonda yatay modda rapor görünümü](./media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+## <a name="interacting-with-reports"></a>Raporlarla etkileşim kurma
+Uygulamada açık olan bir raporu aldıktan sonra Bununla çalışmaya başlayabilirsiniz. Raporunuzu ve verileri ile yapabileceğiniz çok şey vardır. Rapor alt bilgisinde rapor ve dokunma ve ayrıca dilim ve verilerin ayrıntılarına inin raporda gösterilen verileri uzun dokunma gerçekleştirebileceğiniz eylemler bulabilirsiniz.
 
-## <a name="view-reports-optimized-for-phones"></a>Telefonlar için en iyi duruma getirilmiş raporlar görüntüleme
-Power BI rapor yazarları, özellikle telefonlar için en iyi duruma getirilmiş bir rapor düzeni oluşturabilir. Telefonlar için iyileştirilmiş rapor sayfaları ek işlevler içerir: Örneğin, görsellerde detaya gidebilir, sıralama yapabilir ve [rapor yazarının, rapor sayfasına eklediği filtrelere](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) erişebilirsiniz. Rapor telefonunuzda, web üzerindeki raporda filtrelenen değerlerle filtrelenmiş bir şekilde ve sayfada etkin filtreler olduğunu belirten bir iletiyle açılır. Telefonunuzdaki filtreleri değiştirebilirsiniz.
+### <a name="using-tap-and-long-tap"></a>Dokunun ve uzun dokunun kullanma
+Dokunun eşit bir fare tıklatın. Bir veri noktasına göre rapor çapraz vurgulama istiyorsanız, bu nedenle, veri noktasında dokunun.
+Bir Dilimleyici değeri dokunarak, seçili değeri ve raporun geri kalanını bu değere göre dilimleme yapar. Bir bağlantıya dokunarak, düğme veya yer işareti eylemi yazarı tarafından tanımlanan göre etkinleştirir.
 
-İyileştirilmiş raporlar, rapor listesinde özel bir simge ile belirtilir ![Telefon raporu simgesi](./media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Büyük olasılıkla bir görsele dokunun, bir kenarlık göründüğünü fark. Üzerinde sağ üst köşedeki kenarlığın üç nokta (...) yoktur. Dokunma dayanarak bu görselde yapabileceğiniz eylemleri içeren bir menü getirir.
 
-![Telefon raporunu açma](./media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+![Rapor görselini ve menüsü](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-Bu raporu bir telefonda görüntülediğinizde dikey görünümde açılır.
+### <a name="tooltip-and-drill-actions"></a>Araç ipucu ve detaylandırma eylemleri
 
-![Dikey görünümlü rapor](./media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+Uzun dokunduğunuzda (dokunun ve basılı) bir veri noktasının araç ipucu bu veri noktasını temsil eden değer sunma yukarı göster. 
 
- Bir rapor, telefon için en iyi duruma getirilmiş ve getirilmemiş karışık sayfalar içerebilir. Bu durumda görünüm, rapor sayfalarına göz gezdirirken her sayfa için dikeyden yataya dönüşür.
+![rapor araç ipucu](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-[Telefon görünümü için en iyi duruma getirilmiş raporlar](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
+Rapor yazarlarının hiyerarşileri veri ve rapor sayfaları arasında ilişkiler tanımlayabilirsiniz. Hiyerarşi yukarı detaya ayrıntıya gitme, sağlar ve bir görsel ve bir değeri başka bir rapor sayfasında detaylandırma. Böylece, uzun araç ipucu yanı sıra bir değere dokunun, ilgili ayrıntılandırma seçeneği altbilgisinde görüntülenir. 
 
-## <a name="use-slicers-to-filter-a-report"></a>Bir raporu filtrelemek için dilimleyicileri kullanma
-Power BI Desktop’ta veya Power BI hizmetinde bir rapor tasarlarken [rapor sayfasına dilimleyiciler eklemeyi](../../visuals/power-bi-visualization-slicers.md) düşünün. İş arkadaşlarınızla birlikte, bir tarayıcıda ve mobil uygulamalarda sayfayı filtrelemek için dilimleyicileri kullanabilirsiniz. Raporu bir telefonda görüntülediğinizde, dilimleyicileri yatay modda ve telefonun dikey modu için iyileştirilmiş bir sayfada görebilir ve etkileşimde bulunabilirsiniz. Tarayıcıdaki bir dilimleyiciden veya filtreden bir değer seçerseniz sayfayı mobil uygulamada görüntülediğinizde de değer seçilir. Sayfada etkin filtreler olduğunu belirten bir ileti görürsünüz.  
+![Rapor detaylandırma eylemleri](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-* Rapor sayfasındaki bir dilimleyicide değer seçtiğinizde sayfadaki diğer görseller filtrelenir.
-  
-  ![Rapor dilimleyici](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
-  
-  Bu çizimde dilimleyici, sütun grafiği yalnızca July (Temmuz) değerlerini gösterecek şekilde filtrelemektedir.
-
-## <a name="cross-filter-and-highlight-a-report"></a>Bir rapora çapraz filtre ve vurgu uygulama
-Görseldeki bir değeri seçtiğinizde diğer görseller filtrelenmez. Diğer görsellerdeki ilgili değerler vurgulanır.
-
-* Görsel içindeki bir değere dokunun.
-  
-  ![Bir sayfaya çapraz filtre uygulama](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
-  
-  Bir görseldeki Large sütununa dokunduğunuzda diğer görsellerdeki ilgili değerler vurgulanır. 
-
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>iPad'de veya tablette bir görseli sıralama
-* Önce grafiğe, sonra üç nokta (**...**) simgesine ve ardından alan adına dokunun.
-  
-   ![Bir görseli sıralama](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
-* Sıralama düzenini ters çevirmek için üç nokta (**...**) simgesine tekrar dokunun ve aynı alan adını yeniden seçin.
-
-## <a name="drill-down-and-up-in-a-visual"></a>Bir görselde detaya gitme ve detaydan çıkma
-Rapor yazarı görsele detaya gitme özelliği eklemişse, görselin bir parçasını oluşturan değerleri görmek için detaya gidebilirsiniz. Power BI Desktop'ta veya Power BI hizmetinde [bir görsele detaya gitme özelliği ekleyin](../end-user-drill.md). 
-
-* Araç ipucunu göstermek için görseldeki belirli bir çubuğa veya noktaya dokunun ve tutun. Detaya gitme seçeneği varsa araç ipucunun en altında dokunabileceğiniz oklar olur. 
-  
-  ![Bir görselde detaya gitme](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
-
-* Detaydan çıkmak için araç ipucundaki yukarı oka dokunun.
-  
-  ![Detaydan çıkma](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
-
-* Ayrıca bir görseldeki tüm veri noktalarının detayına gidebilirsiniz. Odak modunda açın, Araştır simgesine dokunup sonraki düzeyde hepsini gösteri seçin veya geçerli ve bir sonraki düzeyi göstermek için genişletin.
-
-   ![Power BI tümünün detayına gitme](./media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
-
-## <a name="drill-through-from-one-page-to-another"></a>Bir sayfadan diğerinin detaylarına gitme
-
-*Detaylandırma* sayesinde, bir görselin belirli bir bölümüne dokunduğunuzda Power BI sizi raprodaki farklı, dokunduğunuz değere göre filtrelenmiş bir sayfaya götürür. Raporun yazarı, her biri sizi farklı bir sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Bu durumda, hangi sayfayı detaylandırmak istediğinizi seçebilirsiniz. Aşağıdaki örnekte, ölçerdeki değere dokunduğunuzda detaylandırmak üzere ister **iş alanına göre harcama** sayfasını ister **iş alanına göre planlama** sayfasını seçebilirsiniz.
-
-![Power BI mobil raporu detaylandırma](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
-
-Detaylandırma gerçekleştirdiğinizde geri düğmesini kullanarak bir önceki rapor sayfasına dönebilirsiniz.
+*Detaylandırma* sayesinde, bir görselin belirli bir bölümüne dokunduğunuzda Power BI sizi raprodaki farklı, dokunduğunuz değere göre filtrelenmiş bir sayfaya götürür.  Raporun yazarı, her biri sizi farklı bir sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Bu durumda, hangi sayfayı detaylandırmak istediğinizi seçebilirsiniz. Geri düğmesini önceki rapor sayfasına geri alır.
 
 [Power BI Desktop’ta detaylandırma ekleme](../../desktop-drillthrough.md) hakkında bilgi edinin.
+   
+   > [!IMPORTANT]
+   > Yalnızca bir hücre değerini ve sütun ve satır üst bilgileri tarafından değil, Power BI mobil uygulamasında matris ve tablo görsellerinde detaya etkinleştirilir.
+   
+   
+   
+### <a name="using-the-actions-in-the-report-footer"></a>Rapor alt bilgisinde eylemlerini kullanma
+Dikdörtgenler, geçerli rapor sayfasını veya raporun tamamına yapabileceğiniz eylem yok. Altbilgi en faydalı Eylemler hızlı erişimi olan ve tüm eylemleri nokta (...) erişimden olabilir.
 
-## <a name="show-data-and-copy-values"></a>Verileri gösterme ve değerleri kopyalama
+![dikdörtgenler](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Bir telefon raporundaki görselleştirmenin sağ üst köşesinde yer alan Menü seçenekleri üç nokta (**...**) işaretini seçip daha sonra **Verileri göster**’i seçerek bir görselleştirmenin temelini oluşturan verileri görebilirsiniz.
+Alt bilgisinden gerçekleştirebileceğiniz eylemler şunlardır:
+1) Rapor Filtresi sıfırlayın ve çapraz vurgulama seçimleri özgün durumuna geri dön.
+2) Görüntülemek veya bu rapordaki açıklamaları eklemek için konuşma bölmesini açın.
+3) Görüntülemek ve şu anda rapora uygulanan filtreyi değiştirmek için Filtre bölmesini açın.
+4) Bu rapordaki tüm sayfalara listeleyin. Sayfa adına dokunarak yükleyin ve o sayfası sunar.
+Rapor sayfaları arasında hareket etmek, ekranınızın kenarından merkezine geçirilerek yapılabilir.
+5) Tüm rapor eylemleri görüntüleyin.
 
-![Power BI mobil verileri göster menü seçeneği](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+#### <a name="all-report-actions"></a>Tüm rapor eylemi
+Üzerinde dokunun... Rapor alt bilgisinde seçeneği, rapor üzerinde gerçekleştirebileceğiniz tüm eylemler ortaya çıkarır. 
 
-Sunulan tablodaki bir hücreye uzun süre dokunulduğunda, yerel seçme ve kopyalama menüsü açılır; böylece tablodan (veya tablonun tamamından) veri kopyalamayı seçebilirsiniz.
+![Tüm Eylemler raporu](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-![Power BI mobil raporu detaylandırma](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
+Belirli bir rapor özelliklerine bağımlı olduğundan bazı eylemleri, devre dışı bırakılabilir.
+Örnek:
+1) **Geçerli konuma göre filtreleme** Raporunuzdaki verileri coğrafi verilerle yazarı tarafından kategoriye ayrılma etkinleştirilir. [Raporunuzdaki coğrafi verileri tanımlama öğrenin](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+2) **Raporu barkodla filtrelemek için tarama** yalnızca veri kümesini raporunuzda barkod etiketlendi etkinleştirilir. [Power BI Desktop'taki barkodları etiketi nasıl](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
+3) **Davet** yalnızca bu raporu başkalarıyla paylaşmak için izniniz varsa etkindir. Rapor sahibi olduğunda veya yeniden paylaşma iznine sahibi tarafından verilen iznine sahip olur.
+4) **Not ekleme ve paylaşma** varsa devre dışı olabilir bir [Intune koruma ilkesini](https://docs.microsoft.com/intune/app-protection-policies) kuruluşunuzdaki Power BI mobil uygulamasından paylaşımı yasaktır. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)

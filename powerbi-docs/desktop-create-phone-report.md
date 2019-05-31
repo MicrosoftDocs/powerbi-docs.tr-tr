@@ -1,5 +1,5 @@
 ---
-title: Mobil uygulamalar için en iyi duruma getirilmiş raporlar oluşturma
+title: Raporlar - Power BI mobil uygulamaları için en iyi duruma getirme
 description: Raporun telefon ve tabletlere özgü bir dikey sürümünü oluşturarak, Power BI mobil uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174603"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61310797"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma
-Telefon veya tabletteki mobil uygulamalarda raporlarınızı görüntüleme deneyimini geliştirebilirsiniz. Özel olarak telefonlar ve tabletler için raporun dikey bir düzenini oluşturun. Power BI Desktop’ta ve Power BI hizmetinde en iyi deneyimi elde etmek için görselleri dikey bir düzende yeniden yerleştirip yeniden boyutlandırarak raporunuzu uyarlarsınız. Tümünü eklemek zorunda değilsiniz. Bununla birlikte, telefonda görüntülendiğinde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-work-well-in-phone-reports) oluşturabilirsiniz. Ayrıca, raporunuza filtre eklediyseniz bu filtreler en iyi duruma getirilmiş raporda otomatik olarak görüntülenir. Raporunuzu okuyanlar bu filtreleri görebilir ve rapora uygulayabilir.
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Raporları Power BI mobil uygulamaları için en iyi duruma getirme
+Dikey düzeni oluşturarak mobil uygulamalarında raporları görüntüleme deneyimini geliştirebilir. Power BI Desktop ve Power BI hizmetinde, yeniden düzenleme ve en iyi bir deneyim dikey modda rapor görselleri yeniden boyutlandırın.  
+
+Mobil cihazda, bunun yerine raporları görüntüleme hakkında bilgi mi arıyorsunuz? Bu hızlı başlangıç kılavuzundan [keşfedin panolarınızı ve raporlarınızı Power BI mobil uygulamalarında](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Telefonda en iyi duruma getirilmiş rapor](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+Ayrıca oluşturabileceğiniz [ *duyarlı* görselleri](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-work-well-in-phone-reports) yeniden boyutlandırılan da herhangi bir yerde. Raporunuza filtre eklerseniz, bunlar otomatik olarak en iyi duruma getirilmiş raporda gösterilir.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Rapor sayfasının dikey sürümünü düzenleme
 
@@ -40,7 +44,7 @@ Bir rapor oluşturduktan sonra, telefonlar ve tabletler için bunu iyileştirebi
    
     ![Görseli sürükleyip bırakma](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    Ana rapor sayfasındaki görsellerin bazılarını veya tümünü telefon rapor sayfasına ekleyebilirsiniz. Her görseli yalnızca bir kez ekleyebilirsiniz.
+    Ana rapor sayfasındaki görsellerin bazılarını veya tümünü telefon rapor sayfasına ekleyebilirsiniz. Her görseli yalnızca bir kez ekleyebilirsiniz. Tüm görseller eklemek gerekmez.
 
 4. Kılavuz üzerindeki görselleri panolardaki ve mobil panolardaki kutucuklar gibi yeniden boyutlandırabilirsiniz.
    

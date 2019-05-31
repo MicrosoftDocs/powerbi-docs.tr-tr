@@ -1,20 +1,20 @@
 ---
 title: Power BI Rest API başvurusu
 description: Power BI Rest API başvurusu
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 0f10209b93dac7073c40aa2706b2e0a773a52303
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275100"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270152"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI Rest API başvurusu
 

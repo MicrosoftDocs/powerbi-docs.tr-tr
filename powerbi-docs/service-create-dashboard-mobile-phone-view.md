@@ -1,5 +1,5 @@
 ---
-title: Cep telefonları için bir Power BI panosunun görünümünü oluşturma
+title: Bir Pano cep telefonları - Power BI için en iyi duruma getirme
 description: Özellikle cep telefonlarında görüntülemeye yönelik olarak Power BI hizmetindeki bir panonun özelleştirilmiş bir görünümünü oluşturmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288164"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158277"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Cep telefonları için en iyi duruma getirilmiş Power BI panosu görünümü oluşturma
-Telefon kullanırken Power BI Mobil uygulamasında panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlara özel olarak, sahip olduğunuz herhangi bir panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Bir Pano cep telefonları - Power BI için en iyi duruma getirme 
+Panoları dikey modda bir telefonda görüntülediğinizde, Pano kutucukları, birbirleri ardına, tümü aynı boyutlarda sıralandığını fark edersiniz. Power BI hizmetinde telefonlarında dikey modda için özel olarak bir panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz. Telefon çevirdiğinizde bir telefon görünümü oluştur olsa bile, hizmette yerleştirilmeden gibi Pano bakın.
 
-Telefonu yan çevirdiğinizde panoyu telefon için tasarladığınız gibi değil, hizmette görüntülendiği şekilde görürsünüz.
+Mobil cihazda panoları görüntüleme hakkında bilgi mi istiyorsunuz? Bu hızlı başlangıç kılavuzundan [keşfedin panolarınızı ve raporlarınızı Power BI mobil uygulamalarında](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) yerine.
 
 > [!NOTE]
 > Siz telefon görünümünü düzenlerken, panoyu telefonda görüntüleyen kişiler yaptığınız değişiklikleri gerçek zamanlı olarak görebilir. Örneğin, panoya yönelik telefon görünümünde tüm kutucukları kaldırırsanız telefondaki panoda bulunan kutucuklar da hemen kaybolur. 

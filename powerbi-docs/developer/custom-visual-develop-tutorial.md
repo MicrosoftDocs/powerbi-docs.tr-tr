@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174694"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61383959"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görseli geliştirme
 
@@ -559,14 +559,14 @@ Veri rollerini ve veri görünümü eşlemelerini tanımlayıp özel görsel man
 
     Bu deyim *dataView* nesnesini kolay erişim için bir değişkene atar ve değişkeni *dataView* nesnesine başvuracak şekilde düzenler.
 
-2. **update** yönteminin replace.text(“Value”)** bölümünü aşağıdaki değerle değiştirin.
+2. İçinde **güncelleştirme** yöntemi Değiştir **.text("Value")** aşağıdaki.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue değerini değiştirme](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. **update** yönteminin replace **.text(“Label”)** bölümünü aşağıdaki değerle değiştirin.
+3. İçinde **güncelleştirme** yöntemi Değiştir **.text("Label")** aşağıdaki.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

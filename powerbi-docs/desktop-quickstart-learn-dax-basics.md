@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513709"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
@@ -47,15 +47,15 @@ Bu formül, aşağıdaki söz dizimi öğelerini içerir:
 
 **A.** Ölçü adı: **Total Sales**.
 
-**B.** Eşittir işareti işleci (**=**), formülün başını gösterir. Hesaplama gerçekleştirildiğinde bir sonuç döndürür.
+**B.** Eşittir işareti işleci ( **=** ), formülün başını gösterir. Hesaplama gerçekleştirildiğinde bir sonuç döndürür.
 
 **C.** DAX işlevi **SUM**, **Sales[SalesAmount]** sütunundaki tüm sayıları toplar. İlerleyen bölümlerde işlevler hakkında daha fazla bilgi edineceksiniz.
 
-**D.** Ayraçlar **()**, bir veya daha fazla bağımsız değişken içeren bir ifadeyi çevreler. Tüm işlevler için en az bir bağımsız değişken gereklidir. Bağımsız değişken, bir işleve değer geçirir.
+**D.** Ayraçlar **()** , bir veya daha fazla bağımsız değişken içeren bir ifadeyi çevreler. Tüm işlevler için en az bir bağımsız değişken gereklidir. Bağımsız değişken, bir işleve değer geçirir.
 
 **E.** Başvurulan tablo: **Sales**.
 
-**F.** Sales tablosunda başvurulan sütun: **[SalesAmount]**. Bu bağımsız değişken ile SUM işlevi, bir SUM oluşturmak için hangi sütunların toplanacağını belirtir.
+**F.** Sales tablosunda başvurulan sütun: **[SalesAmount]** . Bu bağımsız değişken ile SUM işlevi, bir SUM oluşturmak için hangi sütunların toplanacağını belirtir.
 
 Bir DAX formülünü anlamaya çalışırken, her bir öğeyi, günlük hayatınızda düşünmek ve konuşmak için kullandığınız dile çevirmek genellikle yararlı olur. Örneğin, bu formülü şöyle okuyabilirsiniz:
 
@@ -95,7 +95,7 @@ Bu görevi tamamlamak için Power BI Desktop Contoso Sales örnek dosyasını a�
 
 5. **Sal** yazmaya başlayın ve ardından **Sales[SalesAmount]** 'ı seçin, daha sonra bir kapatma parantezi **)** yazın. Bu, CALCULATE işlevimizin ilk ifade bağımsız değişkenidir.
     
-6. Birinci filtreyi belirtmek için virgül (**,**) yazın, daha sonra bir boşluk bırakın ve ardından **PREVIOUSQUARTER** yazın. Bu, filtremiz olacaktır.
+6. Birinci filtreyi belirtmek için virgül ( **,** ) yazın, daha sonra bir boşluk bırakın ve ardından **PREVIOUSQUARTER** yazın. Bu, filtremiz olacaktır.
     
    SUM sonuçlarını önceki üç aylık döneme göre filtrelemek için PREVIOUSQUARTER akıllı zaman gösterimi işlevini kullanırsınız.
     
@@ -176,17 +176,17 @@ Bu formül, aşağıdaki söz dizimi öğelerini içerir:
 
 **A.** Ölçü adı: **Store Sales**.
 
-**B.** Eşittir işareti işleci (**=**), formülün başını gösterir.
+**B.** Eşittir işareti işleci ( **=** ), formülün başını gösterir.
 
 **C.** **CALCULATE** işlevi, belirtilen filtrelere göre değiştirilen bir bağlamda, bir ifadeyi bağımsız değişken olarak değerlendirir.
 
-**D.** Ayraçlar **()**, bir veya daha fazla bağımsız değişken içeren bir ifadeyi çevreler.
+**D.** Ayraçlar **()** , bir veya daha fazla bağımsız değişken içeren bir ifadeyi çevreler.
 
-**E.** Aynı tabloda bir ifade olarak bulunan **[Total Sales]**. Total Sales ölçüsün şu formüle sahiptir: =SUM(Sales[SalesAmount]).
+**E.** Aynı tabloda bir ifade olarak bulunan **[Total Sales]** . Total Sales ölçüsün şu formüle sahiptir: =SUM(Sales[SalesAmount]).
 
-**F.** Virgül (**,**), ilk ifade bağımsız değişkenini filtre bağımsız değişkeninden ayırır.
+**F.** Virgül ( **,** ), ilk ifade bağımsız değişkenini filtre bağımsız değişkeninden ayırır.
 
-**G.** Başvurulan sütunun tam adı: **Channel[ChannelName]**. Bu, bizim satır bağlamımızdır. Bu sütundaki her satır bir kanalı belirtir: Mağaza, Çevrimiçi, vb.
+**G.** Başvurulan sütunun tam adı: **Channel[ChannelName]** . Bu, bizim satır bağlamımızdır. Bu sütundaki her satır bir kanalı belirtir: Mağaza, Çevrimiçi, vb.
 
 **H.** Filtre olarak kullanılan belirli değer: **Store**. Bu, bizim filtre bağlamımızdır.
 

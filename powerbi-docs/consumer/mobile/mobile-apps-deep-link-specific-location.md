@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278412"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906523"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
-Tüm mobil platformlardaki (iOS, Android cihazlar ve Windows 10) Power BI mobil uygulamalarında belirli bir konumun bağlantısına (*ayrıntılı bağlantı*) yönelik bir tekdüzen kaynak tanımlayıcısı (URI) oluşturup kullanabilirsiniz.
+Bağlantıları, doğrudan Power bı'da belirli öğelere erişmek için kullanabilirsiniz: Raporu, Pano ve kutucuk.
 
-URI bağlantıları doğrudan panolara, kutucuklara ve raporlara işaret edebilir.
+Power BI mobilde bağlantıları kullanarak için çoğunlukla iki senaryo vardır: 
 
-Ayrıntılı bağlantının hedefi, URI'nin biçimini belirler. Farklı konumların ayrıntılı bağlantılarını oluşturmak için aşağıdaki adımları uygulayın. 
-
-## <a name="open-the-power-bi-mobile-app"></a>Power BI mobil uygulamasını açma
-Herhangi bir cihazda Power BI mobil uygulamasını açmak için bu URI'yi kullanın:
-
-    mspbi://app/
+* Power BI'dan açmak için **uygulama dışında**ve land belirli içeriğe (rapor/Pano/uygulama). Power BI mobil başka bir uygulamadan açmak istediğinizde bu genellikle bir tümleştirme, senaryodur. 
+* İçin **gidin** Power BI içinde. Bu durum, genellikle Power BI'da özel bir gezinti oluşturmak istediğiniz durumdur.
 
 
-## <a name="open-to-a-specific-dashboard"></a>Belirli bir pano ile açma
-Bu URI, Power BI mobil uygulamasını belirli bir pano ile açar:
+## <a name="use-links-from-outside-of-power-bi"></a>Power BI dışındaki bağlantılarını kullanın
+Power BI uygulaması dışında bir bağlantıdan kullandığınızda, uygulama tarafından açılacak emin olmanız gerekir ve cihazın'i yüklemek için kullanıcı sunmak için uygulama yüklü değil. Tam olarak desteklemek için özel bağlantı biçimi oluşturduk. Bu bağlantı biçimi cihazı bağlantıyı açmak için uygulamayı kullanan ve uygulamayı cihazda yüklü değilse, kullanıcıyı almak için depoya sağlayacağı emin olun.
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+Bağlantıyı aşağıdaki ile başlamalıdır  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-36 karakterden oluşan pano nesnesi kimliğini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
+> [!IMPORTANT]
+> İçeriğinizi Government, Çin, vb. gibi özel bir veri merkezinde barındırılıyorsa. Bağlantıyı sağ Power BI adresiyle gibi başlamalıdır `app.powerbigov.us` veya `app.powerbi.cn`.   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-Pano, Çalışma Alanım dışındaki bir gruptaysa pano kimliğinin önüne veya sonuna `&GroupObjectId=<36-character-group-id>` ekleyin. Örneğin, 
+**Sorgu PARAMS** şunlardır:
+* **Eylem** (zorunlu) OpenApp = / OpenDashboard / OpenTile / RaporAç
+* **AppID** bir rapora veya bir uygulamanın parçası olan bir panoyu açmak isteyip istemediğiniz = 
+* **groupObjectId** raporu veya çalışma alanı (ancak çalışma Alanım değil) parçası olan bir panoyu açmak isteyip istemediğiniz =
+* **dashboardObjectId** Pano nesnesi Kimliğini (eylem OpenDashboard veya OpenTile ise) =
+* **reportObjectId** rapor nesnesi Kimliğini (eylem RaporAç ise) =
+* **tileObjectId** kutucuk nesne kimliği (eylem OpenTile ise) =
+* **reportPage** (eylem RaporAç ise), belirli bir rapor bölümü açmak isteyip istemediğiniz =
+* **ctid** = öğesi Kuruluş Kimliği (B2B senaryo için geçerli. Öğesi, kullanıcının bir kuruluşa aitse bu atlanmış olabilir).
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**Örnekler:**
 
-İkisi arasındaki ve işaretine (&) dikkat edin.
+* Açık uygulama bağlantısı 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>Odak modunda belirli bir kutucukla açma
-Bu URI, Power BI mobil uygulamasını odak modunda belirli bir pano ile açar:
+* Bir uygulamanın parçası olan panoyu Aç 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* Bir çalışma alanının parçası olan raporu açın
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-36 karakterden oluşan pano ve kutucuk nesnesi kimliklerini bulmak için Power BI hizmetinde (https://powerbi.com)) söz konusu panoya gidin ve kutucuğu odak modunda açın. Örneğin, şu URL'nin vurgulanan bölümlerine bakın:
+### <a name="how-to-get-the-right-link-format"></a>Doğru bağlantı biçimi alma
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>Uygulamaları ve uygulama öğelerinde bağlantıları
 
-Bu kutucuk için URI şu şekilde olur:
+İçin **uygulamalar ve raporlar ve bir uygulamanın parçası olan Pano**, uygulama çalışma alanına gidin ve "Uygulamayı güncelleştir" bağlantısını almak için en kolay yolu olan. Bu "Yayımla uygulama" deneyimi açar ve erişim sekmede bulursunuz bir **bağlantıları** bölümü. Bölümü ve uygulama listesi görürsünüz ve tüm içeriğini, bağlantıları genişleterek bunları doğrudan erişmek için kullanılabilir.
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI Web'de yayımlama uygulama bağlantıları ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-İkisi arasındaki ve işaretine (&) dikkat edin.
+#### <a name="links-of-items-not-in-app"></a>Bağlantılar öğeleri app içinde değil 
 
-Pano, Çalışma Alanım dışında bir gruptaysa `&GroupObjectId=<36-character-group-id>` ekleyin
+Raporlar ve bir uygulamanın parçası olmayan panolar için kimlikleri öğesi URL'den çıkarma gerekir.
 
-## <a name="open-to-a-specific-report"></a>Belirli bir rapor ile açma
-Bu URI, Power BI mobil uygulamasında belirli bir raporu açar:
+Örneğin, 36 karakterlik bulmak için **Pano** nesne kimliği, Power BI hizmetinde konusu panoya gidin 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-36 karakterden oluşan rapor nesnesi kimliğini bulmak için Power BI hizmetindeki (https://powerbi.com)) söz konusu rapora gidin. Örneğin, şu URL'nin vurgulanan bölümüne bakın:
+36 karakterden oluşan bulmak için **rapor** nesne kimliği, Power BI hizmetinde konusu rapora gidin.
+Bu rapor "Çalışma Alanım" den örneğidir
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+Yukarıdaki URL'yi de belirli bir rapor sayfası içeren **"ReportSection3"** .
 
-Rapor, Çalışma Alanım dışındaki bir gruptaysa rapor kimliğinin başına veya sonuna `&GroupObjectId=<36-character-group-id>` ekleyin. Örneğin, 
+Bir rapor örneği (değil çalışma Alanım) bir çalışma alanından budur.
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-İkisi arasındaki ve işaretine (&) dikkat edin.
+## <a name="use-links-inside-power-bi"></a>Power BI içinde bağlantıları kullanın
 
-## <a name="open-to-a-specific-report-page"></a>Belirli bir rapor sayfası ile açma
-Bu URI, Power BI mobil uygulamasında belirli bir rapor sayfasını açar:
+Bağlantılarını Power BI mobil uygulamalarında Power BI hizmetinde olduğu gibi çalışmaktadır.
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+Başka bir Power BI öğesine işaret eden raporunuza bağlantı eklemek istiyorsanız, o öğe URL'si yalnızca tarayıcınızın adres çubuğundan kopyalayabilirsiniz. Daha fazla bilgi edinin [bir rapordaki metin kutusuna köprü ekleme](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
 
-Rapor sayfası, ardından gelecek bir sayıyla birlikte "ReportSection" olarak adlandırılır. Power BI hizmetinde (https://powerbi.com)) raporu tekrar açın ve söz konusu rapor sayfasına gidin. 
+## <a name="use-report-url-with-filter"></a>Rapor URL'si ile filtre kullanın
+Power BI hizmeti ile aynı, Power BI mobil uygulamaları, ayrıca bir filtre query param içeren rapor URL'si destekler. Power BI mobil uygulamasında bir rapor açın ve belirli bir durum için filtre. Örneğin, bu URL'yi satış raporu açar ve bölgeye göre filtrele
 
-Örneğin, şu URL'nin vurgulanan bölümüne bakın:
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>Tam ekran modunda açma
-Belirli bir rapor ile tam ekran modunda açmak için, kalın yazılmış parametreyi ekleyin:
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-Örneğin: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>Bağlam ekleme (isteğe bağlı)
-Ayrıca dizeye bağlam da ekleyebilirsiniz. Ardından bize ulaşmanız gerekirse verilerimizi uygulamanıza yönelik olarak filtrelemek için bu bağlamı kullanabiliriz. Bağlantıya `&context=<app-name>` ekleyin
-
-Örneğin, şu URL'nin vurgulanan bölümüne bakın: 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+Daha fazla bilgi [query param filtrelemek için yapı raporları](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 

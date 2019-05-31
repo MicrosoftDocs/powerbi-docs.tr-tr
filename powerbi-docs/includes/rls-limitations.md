@@ -5,11 +5,11 @@ ms.topic: include
 ms.date: 02/15/2019
 ms.author: mblythe
 ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56333999"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194128"
 ---
 ## <a name="limitations"></a>Sınırlamalar
 

@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fc013df4526c62a9f2e1aa25328119983aaa30e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278113"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65239754"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>Power BI Desktop'taki Araç İpuçlarını özelleştirme
 Araç ipuçları, görseller üzerinde daha fazla bağlamsal bilgi ve daha ayrıntılı veri noktaları sağlamak için kullanılan mükemmel bir yoldur. Aşağıdaki görüntüde, Power BI Desktop'taki bir grafiğe uygulanmış bir araç ipucu gösterilmektedir.
 
 ![Varsayılan araç ipucu](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Bir görselleştirme oluşturulduğunda varsayılan araç ipucu, veri noktasının değerini ve kategorisini görüntüler. Araç ipucu bilgisini özelleştirmenin faydalı olduğu ve kullanıcıların görseli görüntülerken faydalanabilecekleri ek bağlam ve bilgi sağlayabilecek pek çok örnek bulunur. Özel araç ipuçları, araç ipucunun bir parçası olarak görüntülenebilecek ek veri noktaları belirlemenize olanak sağlar.
+Bir görselleştirme oluşturulduğunda varsayılan araç ipucu, veri noktasının değerini ve kategorisini görüntüler. Araç ipucu bilgisini özelleştirme yararlıdır ve ek bağlam ve kullanıcıların görseli görüntülerken bilgi sağlayabilir, pek çok örnek bulunur. Özel araç ipuçları, araç ipucunun bir parçası olarak görüntülenebilecek ek veri noktaları belirlemenize olanak sağlar.
 
 ## <a name="how-to-customize-tooltips"></a>Araç ipuçlarını özelleştirme
-Özelleştirilmiş bir araç ipucu oluşturmak için **Görsel Öğeler** bölmesinin **Alanlar** kutusunda, aşağıdaki görüntüde gösterildiği şekilde bir alanı **Araç ipuçları** demetine sürüklemeniz yeterlidir. Aşağıdaki görüntüde, **Araç ipuçları** demetine iki alan yerleştirilmiş olarak gösterilmektedir.
+Özelleştirilmiş bir araç ipucu oluşturmak için **alanları** kutusundaki **görselleştirmeler** bölmesinde bir alana sürükleyin **araç ipuçları** demeti, aşağıdaki görüntüde gösterilen. Aşağıdaki görüntüde, **Araç ipuçları** demetine iki alan yerleştirilmiş olarak gösterilmektedir.
 
 ![Araç ipucu alanları ekleme](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ Bir toplama işlevi seçerek ya da **Araç ipuçları** demetinde bulunan alanı
 
 ![Hızlı Hesaplama ile Araç İpucu](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-Hızlı bilgileri ve öngörüleri, panolarınızı ve raporlarınızı görüntüleyen kullanıcılara sunmak için veri kümenizde kullanılabilir olan herhangi bir alanı kullanarak **Araç ipuçlarını** özelleştirmenin pek çok yolu bulunur.
+Özelleştirmek için birçok yol vardır **araç ipuçları**, hızlı bilgileri ve öngörüleri, panolarınızı ve raporlarınızı görüntüleyen kullanıcılara iletmek için kümenizde kullanılabilir olan herhangi bir alan kullanarak.
 

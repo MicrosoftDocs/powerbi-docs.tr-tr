@@ -1,21 +1,21 @@
 ---
 title: Çalışma alanı veri akışı ayarlarını yapılandırma
-description: Power BI’da bir uygulama çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
+description: Power BI'ı Azure Data Lake depolama Gen2 veri akışı tanımını ve veri dosyalarını depolamak için bir uygulama çalışma alanını yapılandırma
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223640"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168608"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
 
@@ -52,9 +52,6 @@ Daha sonra, **Uygulama çalışma alanı oluştur** iletişim kutusunun **Geliş
 ![Yeni çalışma alanı için gelişmiş ayarlar](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Yeni çalışma alanınızı oluşturmak için **Kaydet**’i seçin. Bu çalışma alanı alanında oluşturulan yeni veri akışları artık tanım dosyasını (Model.json dosyasını) ve verilerini kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında depolar. 
-
-> [!NOTE]
-> Veri akışları işlevselliği önizleme aşamasındadır ve genel kullanıma sunulmadan önce değiştirilip güncelleştirilebilir.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Mevcut bir çalışma alanı için veri akışı depolamayı güncelleştirme
 

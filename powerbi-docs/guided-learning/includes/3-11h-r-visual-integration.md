@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397936"
+---
 Power BI Desktop'ı R ile tümleştirerek analitik ve istatistiksel analizler gerçekleştirip ilgi çekici görseller oluşturabilirsiniz. Bu R görselleştirmelerini Power BI Desktop raporunda barındırabilirsiniz.
 
 **Görsel Öğeler** bölmesinde **R görseli** simgesini seçtiğinizde Power BI, R görselinizi yerleştirmek için tuvalde bir yer tutucu oluşturur ve doğrudan tuvalde kullanabilmeniz için bir R betik düzenleyicisi sunar. Siz R görseline alan ekledikçe Power BI Desktop bunları R betik düzenleyicisi bölmesine ekler.

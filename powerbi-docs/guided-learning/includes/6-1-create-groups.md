@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257002"
+---
 Bu derse *grup* oluşturarak başlıyoruz. **Gruplar**; belirli panolara, raporlara ve verilere erişimi olan bir kullanıcı kümesini tanımlar.
 
 Power BI'daki gruplar Office 365'teki gruplara dayanır; bu nedenle, grubunuzun e-postalarını, takvimini ve belgelerini yönetmek için daha önce Office 365 gruplarını kullandıysanız Power BI'ın da aynı özellikleri ve daha fazlasını sunduğunu göreceksiniz. Power BI'da oluşturduğunuz gruplar aslında Office 365 gruplarıdır.

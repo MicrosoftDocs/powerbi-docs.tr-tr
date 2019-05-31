@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde Soru-Cevap özelliğine genel bakış
+title: Power BI kullanıcıları için soru- cevap
 description: Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu.
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661992"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625127"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap
 ## <a name="what-is-qa"></a>Soru-Cevap nedir?
-Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Örneğin, "What were total sales last year?" (Bu yılki toplam satış rakamları nedir?)  
+Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Örneğin, "What were total sales last year?" (Bu yılki toplam satış rakamları nedir?)
+
 Kullanımı kolay olan doğal dil özelliklerinden yararlanarak verilerinizi araştırmak ve grafikler ile graflar biçiminde cevaplar almak için Soru-Cevap'ı kullanın. Bir arama motorundan farklı olan Soru-Cevap, yalnızca Power BI'daki verilerle ilgili sonuçlar sunar.
 
 **Power BI Soru-Cevap** yalnızca İngilizce sorulan doğal dil sorgularının yanıtlanmasını destekler. Power BI yöneticiniz tarafından etkinleştirilebilecek olan bir İspanyolca önizleme sürümü mevcuttur.
@@ -35,7 +36,7 @@ Soruyu sormak yalnızca bir başlangıçtır.  Sorunuzu daraltarak veya genişle
 Bu, gerçekten etkileşimli ve hızlı bir deneyim. Bellek içi bir depolama birimi sayesinde neredeyse anında cevap alırsınız.
 
 ## <a name="where-can-i-use-qa"></a>Soru-Cevap özelliğini nerede kullanabilirim?
-Soru-Cevap özelliğini Power BI hizmetindeki panolarda, Power BI mobilde panonun en altında ve Power BI Embedded'da görselleştirmenin üzerinde bulabilirsiniz. Panonun tasarımcısı size düzenleme izinleri vermediyse verileri araştırmak için Soru-Cevap özelliğini kullanabilirsiniz ancak Soru-Cevap ile oluşturulan görselleştirmeleri kaydedemezsiniz.
+Soru- cevap panoları ve raporları Power BI hizmetinde ve Power BI Pano altındaki mobil bulabilirsiniz. Panonun tasarımcısı size düzenleme izinleri vermediyse verileri araştırmak için Soru-Cevap özelliğini kullanabilirsiniz ancak Soru-Cevap ile oluşturulan görselleştirmeleri kaydedemezsiniz.
 
 ![soru kutusu](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ Sorunuza görselleştirme türünü ekleyerek Soru-Cevap özelliğinin o türü 
 **Yanıt 1:** Soru kutusu görmüyorsanız öncelikle ayarlarınızı kontrol edin. Bunun için Power BI araç çubuğunuzun sağ üst köşesindeki dişli simgesini seçin.   
 ![dişli simgesi](media/end-user-q-and-a/power-bi-settings.png)
 
-Ardından **Ayarlar** > **Panolar**'ı seçin. **Soru-Cevap arama kutusunu bu panoda göster** seçeneğinin yanında onay işareti bulunduğundan emin olun.
+Ardından **Ayarlar** > **Panolar**'ı seçin. **Soru-Cevap arama kutusunu bu panoda göster** seçeneğinin yanında onay işareti bulunduğundan emin olun.    
 ![Pano için Soru-Cevap ayarları](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

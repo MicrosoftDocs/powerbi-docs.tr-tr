@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257000"
+---
 Power BI **Destekli Öğrenme** kursunun **Yayımlama ve Paylaşma** bölümüne hoş geldiniz.
 
 Excel'in ve Power BI'ın nasıl birlikte sorunsuz bir şekilde çalıştığınızı öğrendiniz. Raporlarda ve panolarda oluşturabileceğiniz görsellerle ilgili tüm bilgileri edindiğinize göre bunları ekibinizle ve arkadaşlarınızla paylaşabilirsiniz. Power BI ile **yayımlamak ve paylaşmak** kolaydır.

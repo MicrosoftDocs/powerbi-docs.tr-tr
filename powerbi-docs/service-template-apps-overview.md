@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56250107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578524"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Power BI şablon uygulamaları nedir? (önizleme)
 
@@ -24,10 +24,10 @@ Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlam
 
 Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına olanak sağlayan şablon uygulamaları oluşturursunuz. Etki alanı uzmanları olarak, işletme kullanıcıları tarafından kolayca kullanılabilecek şekilde verilerin kilidini açabilirler.  
 
-İş ortağınızın derlediği şablon uygulamalarını Bulut İş Ortağı Portalı’na gönderirsiniz. Ardından uygulamalar Power BI Uygulama galerisinde (app.powerbi.com/getdata/services) ve Microsoft AppSource’ta (appsource.microsoft.com) genel kullanıma sunulur. Aşağıda genel şablon uygulaması deneyimine bir örnek verilmiştir.  
+Şablon uygulamalarınızı bulut iş ortağı portalı gönderdiğiniz. Ardından uygulamalar Power BI Uygulama galerisinde (app.powerbi.com/getdata/services) ve Microsoft AppSource’ta (appsource.microsoft.com) genel kullanıma sunulur. Genel şablon uygulama oluşturma deneyimi genel bir bakış aşağıdadır.  
 
-## <a name="overview"></a>Genel Bakış
-Genel şablon uygulaması geliştirme ve gönderme süreci çeşitli aşamalardan oluşur ve bunlardan bazıları aynı anda birden çok etkinlik içerir.
+## <a name="process"></a>İşlem
+Geliştirme ve şablon uygulama göndermek için genel süreç birkaç aşamadan oluşur. Bazı aşamalar aynı anda birden fazla etkinlik içerebilir.
 
 
 | Aşama | Power BI Desktop |  |Power BI hizmeti  |  |Bulut İş Ortağı Portalı  |

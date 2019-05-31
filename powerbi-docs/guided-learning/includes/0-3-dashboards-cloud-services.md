@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260624"
+---
 Öğrendiğimiz üzere, Power BI'daki genel iş akışı şöyledir: Power BI Desktop'ta bir rapor oluşturursunuz, bu raporu Power BI hizmetinde yayımlar ve başka kullanıcılarla paylaşırsınız. Böylece kullanıcılar raporu hizmette veya bir mobil uygulamada görüntüleyebilir.
 
 Ancak, bazı kullanıcılar iş akışına Power BI hizmeti ile başlar. Şimdi bu hizmete hızlıca göz atıp Power BI'da hızlıca görsel oluşturmanın kolay ve popüler yolu hakkında bilgi edineceğiz: *içerik paketleri*.

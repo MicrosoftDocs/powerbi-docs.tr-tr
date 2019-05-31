@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 80905abfe271ebd5d0aeec73d1287428e281da99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f67f73dd66da7f1d3e8d84a3373a15d20f81645e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276687"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513816"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Power BI Desktop'tan yayımlama
 Bir **Power BI Desktop** dosyasını **Power BI hizmetine** yayımladığınızda modeldeki veriler ve **Rapor** görünümünde oluşturduğunuz tüm raporlar Power BI çalışma alanınızda yayımlanır. Çalışma Alanı gezgininizde tüm raporları ve aynı adda yeni bir veri kümesi görürsünüz.
@@ -28,7 +28,7 @@ Bir **Power BI Desktop** dosyasını **Power BI hizmetine** yayımladığınızd
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Bir Power BI Desktop veri kümesini ve raporları yayımlamak için
-1. Power BI Desktop'ta \> **Dosya** \> **Yayımla** \> **Power BI'da Yayımla** seçeneğine veya şeritteki **Yayımla** seçeneğine tıklayın.  
+1. Power BI Desktop select'te **dosya** \> **Yayımla** \> **Power BI'da Yayımla** veya **Yayımla** üzerinde Şerit.  
 
    ![Yayımla düğmesi](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -44,7 +44,7 @@ Tamamlandığında, raporunuz için bir bağlantı alırsınız. Raporu Power BI
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Yeniden yayımlama veya Power BI Desktop'tan yayımlanmış bir veri kümesini değiştirme
 Bir **Power BI Desktop** dosyası yayımladığınızda **Power BI Desktop**'ta oluşturduğunuz veri kümesi ve tüm raporlar Power BI sitenize yüklenir. **Power BI Desktop** dosyasını yeniden yayımladığınızda Power BI sitenizdeki veri kümesi, **Power BI Desktop** dosyasından güncelleştirilen veri kümesi ile değiştirilir.
 
-Oldukça basit bir işlem olsa da bilmeniz gereken bazı noktalar vardır:
+Bu tüm oldukça basittir ancak bilmeniz gereken birkaç nokta vardır:
 
 * Power BI'da, **Power BI Desktop** dosyası ile aynı adda iki veya daha fazla veri kümeniz varsa yayımlama işlemi başarısız olabilir. Power BI'da aynı adda yalnızca bir veri kümeniz olduğundan emin olun. Ayrıca, dosyayı yeniden adlandırarak yayımlayabilir ve dosya ile aynı adda yeni bir veri kümesi oluşturabilirsiniz.
 * Bir sütunu veya ölçüyü yeniden adlandırırsanız ya da silerseniz Power BI'da bu alanı içeren tüm görselleştirmeler bozulabilir. 

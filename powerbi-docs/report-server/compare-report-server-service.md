@@ -11,10 +11,10 @@ manager: kfile
 ms.custom: mvc
 ms.date: 05/22/2019
 ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "66187692"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma

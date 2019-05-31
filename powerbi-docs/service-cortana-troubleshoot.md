@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249057"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375222"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
-Bu makale bir serinin parçasıdır. Henüz yapmadıysanız aşağıdaki üç makaleyi okumanızı öneririz.
+Bu makale bir serinin parçasıdır. 
 
-**1. Makale**: [Power BI panolarını ve raporlarını aramak için Cortana ve Power BI'ın birlikte nasıl çalıştığını anlama](service-cortana-intro.md)
+> [!IMPORTANT]
+> Power BI'da Cortana tümleştirmesi kullanımdan kaldırılıyor. 11 Haziran'a kadar başlayarak, tüm panolar ve raporlar için artık Cortana çalışır.
 
-**2. Makale**: [Raporlarda arama yapmak için: Cortana - Power BI - Windows tümleştirmesini etkinleştirme](service-cortana-enable.md)
-
-**3. Makale**: [Raporlarda arama yapmak için: özel *Cortana yanıt kartları*](service-cortana-answer-cards.md) oluşturma
-
-Cortana'yı Power BI ile tümleştirme konusunda hâlâ sorun yaşıyorsanız doğru yerdesiniz. Sorunu tanılamak ve gidermek için aşağıdaki adımları uygulayın.
+Cortana'yı Power BI ile tümleştirme konusunda sorun yaşıyorsanız, doğru yere geldiniz demektir. Sorunu tanılamak ve gidermek için aşağıdaki adımları uygulayın.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana neden Power BI raporlarımdan veya panolarımdan yanıt getirmiyor?
 1. Power BI hesabınız var mı?  Yoksa [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/get-started/).

@@ -11,11 +11,11 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285381"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61401266"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -52,7 +52,7 @@ Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belir
 
 * **edX.org**, [Analyzing and Visualizing Data with Power BI (Power BI ile Verileri Çözümleme ve Görselleştirme)](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) adlı ücretsiz bir kurs sunar.
 * **Lynda.com**, [Power BI Pro Essential Training (Power BI Pro Temel Eğitimi)](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) gibi kurslar sunar.
-* Yüz yüze "**Dashboard in a Day (Bir Günde Pano)**" eğitim oturumları arayın.
+* Yüz yüze "**Dashboard in a Day (Bir Günde Pano)** " eğitim oturumları arayın.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI Topluluğu'nda soru sorun veya arama yapın
 [Power BI Topluluğu'nda](http://community.powerbi.com) soru sorun ve sorularınıza cevap bulun. Dünyanın her yerinden Power BI uzmanları, topluluğu aktif olarak kullanmaktadır. Bu kaynağı kullanarak uzmanların bilgisinden yararlanın.

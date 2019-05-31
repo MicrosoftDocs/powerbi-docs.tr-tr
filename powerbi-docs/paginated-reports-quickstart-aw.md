@@ -1,24 +1,24 @@
 ---
 title: 'Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme (Önizleme)'
 description: Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Rapor Oluşturucusu'ndaki sihirbazı kullanarak sayfalandırılmış bir rapor oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325255"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60990116"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme (Önizleme)
 
-Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Rapor Oluşturucusu'ndaki sihirbazı kullanarak birden çok sayfaya yayılmış bir tablosu olan sayfalandırılmış raporu oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz. Power BI hizmetinde sayfalandırılmış raporlar şu anda önizleme aşamasındadır.
+Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından, bir Power BI Rapor Oluşturucusu'nda sayfalandırılmış rapor birden çok sayfaya sarmalayan bir tablo ile oluşturmak için sihirbazı kullanın. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz. Power BI hizmetinde sayfalandırılmış raporlar şu anda önizleme aşamasındadır.
 
 ![Power BI hizmetinde sayfalandırılmış rapor](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ Bu öğreticide tamamladığınız adımlar şunlardır:
 
 > [!div class="checklist"]
 > * Azure örnek veritabanını oluşturma.
-> * Rapor Oluşturucusu'nda sihirbaz yardımıyla bir matris oluşturma.
+> * Matris Power BI Rapor Oluşturucusu'nda bir sihirbaz yardımıyla oluşturun.
 > * Raporu her sayfada başlık, sayfa numaraları ve sütun başlıklarıyla biçimlendirme.
 > * Para birimini biçimlendirme.
 > * Raporu Power BI hizmetine yükleme.
@@ -37,18 +37,18 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 Sayfalandırılmış rapor oluşturmanın önkoşulları şunlardır:
 
-- [Microsoft İndirme Merkezi'nden Rapor Oluşturucusu'nu](http://go.microsoft.com/fwlink/?LinkID=734968) yükleyin. 
+- Yükleme [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - [Azure portalda Azure SQL veritabanı örneği oluşturma](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) hızlı başlangıcını izleyin. Değeri **Genel bakış** sekmesinin **Sunucu adı** kutusuna kopyalayın ve kaydedin. Azure'da oluşturduğunuz kullanıcı adını ve parolayı unutmayın.
 
 Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşullar şunlardır:
 
 - [Power BI Pro lisansına](service-admin-power-bi-pro-in-your-organization.md) ihtiyacınız vardır.
-- Hizmette [Power BI Premium kapasitesinde](service-premium.md) bir uygulama çalışma alanınız olmalıdır. Çalışma alanı adının yanında ![Premium elmas simgesi](media/paginated-reports-quickstart-aw/premium-diamond.png) bulunur.
+- Hizmette [Power BI Premium kapasitesinde](service-premium-what-is.md) bir uygulama çalışma alanınız olmalıdır. Çalışma alanı adının yanında ![Premium elmas simgesi](media/paginated-reports-quickstart-aw/premium-diamond.png) bulunur.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Sihirbazla matris oluşturma
   
-1.  Bilgisayarınızdan Rapor Oluşturucusu'nu başlatın.  
+1.  Power BI Rapor Oluşturucusu'nu bilgisayarınızdan başlatın.  
   
      **Kullanmaya Başlama** iletişim kutusu açılır.  
   
@@ -249,7 +249,7 @@ Raporu çalıştırdığınızda dolar tutarlarının henüz para birimi olarak 
 
     ![Para birimi değerleri içeren hücreleri seçin](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. **Giriş** sekmesinde dolar işareti (**$**) para birimi simgesini seçin ve ardından **Yer tutucu stilleri**'nin yanındaki oku  > **Örnek Değerler**'i seçin.
+2. **Giriş** sekmesinde dolar işareti ( **$** ) para birimi simgesini seçin ve ardından **Yer tutucu stilleri**'nin yanındaki oku  > **Örnek Değerler**'i seçin.
  
     ![Örnek değerleri görüntüleme](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 

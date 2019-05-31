@@ -7,35 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 05/29/2019
 ms.author: mihart
-LocalizationGroup: Create reports
-ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6ad8900e5a95148b3f8333aa1953cc939d56f0e6
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279838"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375348"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Power BI’da Matris görselini kullanma
-**Matris** görsel özelliğini kullanarak **Power BI Desktop** ve **Power BI hizmeti** raporlarınızda matris görselleri (bazı durumlarda *tablolar* olarak da adlandırılır) oluşturabilir ve matristeki öğeleri diğer görsellerle çapraz vurgulayabilirsiniz. Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Tek veya birden fazla hücre seçimi kopyalanarak diğer uygulamalara yapıştırılabilir. Son olarak matris görseli, düzen boşluğundan en iyi şekilde yararlanmak için basamaklı düzeni de desteklemektedir.
+**Matris** visual benzer bir **tablo**.  2 boyutlu bir tablo destekler ve veri düz, anlamı yinelenen değerler görüntülenir ve değil bir araya getirilir. Matris verileri atayamayacağına arasında birden çok boyutta görüntülemek kolaylaştırır--basamaklı Düzen destekler. Matris otomatik olarak veri toplar ve aşağı ayrıntıya sağlar. 
 
-![](media/desktop-matrix-visual/matrix-visual_2a.png)
+Matris görselleri oluşturabilirsiniz **Power BI Desktop** ve **Power BI hizmetinde** raporlar ve Matristeki, rapor sayfasındaki diğer görsellerle çapraz vurgulama öğeleri. Örneğin, satırlar, sütunlar ve hatta tek tek hücreleri seçebilir ve çapraz vurgulama. Ayrıca, tek tek hücrelere birden çok hücre seçimleri kopyalanır ve diğer uygulamalara yapıştırıldı. 
+
+![Çapraz vurgulanan matris ve halka grafik](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 Matrisle ilişkili birçok özellik vardır ve bu özellikler, makalenin ilerleyen bölümlerinde ele alınacaktır.
 
-## <a name="report-themes"></a>Rapor temaları
-Matris ve tablo görselleri, uygulanan **Rapor Teması**’ndaki stili (renkler dahil) yansıtır. Bunlar, matris görseliniz için görmeyi beklediğiniz renkler değilse **Rapor Teması** yapılandırmanızda değişiklik yapabilirsiniz. Temalar hakkında daha fazla bilgi için bkz. [**Power BI Desktop'ta Rapor Temalarını kullanma**](../desktop-report-themes.md).
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI tarafından toplamların nasıl hesaplandığını anlama
 
 **Matris** görselinin nasıl kullanılacağı konusuna geçmeden önce Power BI tarafından tablo ve matrislerdeki toplam ve alt toplam değerlerinin nasıl hesaplandığının anlaşılması önemlidir. Toplam ve alt toplam satırları için yapılan ölçüm, temel verilerdeki tüm satırlarda değerlendirilir; yalnızca görünen veya görüntülenen satırlardaki değerlerin toplanmasından ibaret *değildir*. Bu, toplam satırında beklediğinizden farklı değerler görebileceğiniz anlamına gelir. 
 
-Aşağıdaki **Matris** görsellerine göz atın. 
+Aşağıdaki matris görselleri göz atın. 
 
-![](media/desktop-matrix-visual/matrix-visual_3.png)
+![Tablo ve matris karşılaştırır](media/desktop-matrix-visual/matrix-visual_3.png)
 
-Bu örnekte, en sağdaki **Matris** görselinin her satırında her bir satıcı/tarih bileşimi için *tutar* gösterilmektedir. Ancak, bir satıcının birden çok tarihte göründüğünden, sayılar birden çok kez yer görünebilir. Bu nedenle, temel verilerden elde edilen doğru toplam ile görünen değerlerin basitçe toplanmasından elde edilen değer eşit değildir. Bu, toplanan değer bir bire çok ilişkinin ‘bir’ tarafı olduğunda yaygın olarak kullanılan bir düzendir.
+Bu örnekte, matris görselinin sağa görselinin her satırında gösteren *tutarı* her bir satıcı/tarih bileşimi için. Ancak, bir satıcının birden çok tarihte göründüğünden, sayılar birden çok kez yer görünebilir. Bu nedenle, temel verilerden elde edilen doğru toplam ile görünen değerlerin basitçe toplanmasından elde edilen değer eşit değildir. Bu, toplanan değer bir bire çok ilişkinin ‘bir’ tarafı olduğunda yaygın olarak kullanılan bir düzendir.
 
 Toplam ve alt toplam değerlerine bakarken bunların yalnızca görünen değerleri değil temel verileri temel aldığını unutmayın. 
 
@@ -58,58 +58,60 @@ The expansion state of the matrix will save with your report. It can be pinned t
 Watch the following video to learn more about expand/collapse in the matrix:
 
 -->
-## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya gitme özelliğini kullanma
-**Matris** görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici detaya gitme etkinliğini gerçekleştirebilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.
+## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya tuşunu kullanarak
+Matris görselinin önce kullanılabilir olmayan etkinlikler ilgi çekici detaya her türlü yapabilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.
 
 ### <a name="drill-down-on-row-headers"></a>Satır başlıklarında detaya gitme
 **Görsel Öğeler** bölmesinde, **Alanlar** kutusunun **Satırlar** bölümüne birden çok alan eklediğinizde matris görselinin satırlarında detaya gitme özelliğini etkinleştirmiş olursunuz. Bu, detayına inmenize (ve ardından detaydan çıkmanıza) olanak sağlayacak bir hiyerarşi oluşturup her bir düzeydeki verileri çözümlemeye benzer.
 
-Aşağıdaki görüntüde, **Satırlar** bölümü *Category* ve *SubCategory* alanlarını içerir ve satırlarda detaylandırabileceğimiz bir gruplama (veya hiyerarşi) oluşturur.
+Aşağıdaki görüntüde, **satırları** bölüm içeren *satış aşamasına* ve *fırsat boyutu*, satırlarda detaylandırabileceğimiz bir gruplama (veya hiyerarşi) oluşturma.
 
-![](media/desktop-matrix-visual/matrix-visual_4.png)
+![Hangi satır seçildi göstererek filtreleri kartı](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
 Görsel, **Satırlar** bölümünde oluşturulmuş bir gruplama içeriyorsa sol üst köşesinde *detaya git* ve *genişlet* simgelerini görüntüler.
 
-![](media/desktop-matrix-visual/matrix-visual_5.png)
+![özetlenen ayrıntıya denetimlerle Matrisi](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Kategori*'den *Alt Kategori*'ye gidebiliriz.
+Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu durumda, biz gelen detaya gidebilirsiniz *satış aşamasına* için *fırsat boyutu*burada bir düzey simgesini (yaba seçerek) detaya seçilmiş aşağıdaki görüntüde gösterildiği gibi.
 
-![](media/desktop-matrix-visual/matrix-visual_6.png)
+![özetlenen yaba seçerek Matrisi](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
-Bu simgeleri kullanmanın yanı sıra ilgili satır başlıklarına sağ tıklayıp açılan menüden seçiminizi yaparak detaya gitmeyi de tercih edebilirsiniz.
+Bu simgeleri kullanmanın yanı sıra ilgili satır başlıklarına birini seçin ve görünen menüden seçim yaparak detaya.
 
-![](media/desktop-matrix-visual/matrix-visual_7.png)
+![Matris satır için menü seçenekleri](media/desktop-matrix-visual/power-bi-matrix-menu.png)
 
 Açılan menüde farklı sonuçlar elde etmenizi sağlayan birkaç seçenek bulunmaktadır:
 
-**Detaya Git** seçeneğini belirlediğinizde *ilgili* satır düzeyine yönelik matris genişletilir ve sağ tıklanan satır başlığı dışındaki tüm diğer satır başlıkları *dışlanır*. Aşağıdaki görüntüde, *Computers*'a sağ tıklanmış ve **Detaya Git** seçeneği belirlenmiştir. En üst düzeydeki diğer satırların matriste artık görünmediğine dikkat edin. Bu detaya gitme yöntemi faydalı bir özelliktir ve **çapraz vurgulama** bölümüne gittiğimizde özellikle kullanışlı hale gelir.
+Seçme **detaya** yönelik matris genişletilir *,* satır düzeyine *hariç* tüm diğer satır başlıkları hariç seçili satır üst bilgisi. Aşağıdaki görüntüde, **teklif** > **detaya** seçilmedi. En üst düzeydeki diğer satırların matriste artık görünmediğine dikkat edin. Bu detaya gitme yöntemi faydalı bir özelliktir ve **çapraz vurgulama** bölümüne gittiğimizde özellikle kullanışlı hale gelir.
 
-![](media/desktop-matrix-visual/matrix-visual_8.png)
+![bir düzey aşağıya sıralandığında Matrisi](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
-**Detaydan çık** simgesine tıklayarak önceki en üst düzey görünümüne dönebilirsiniz. Ardından sağ tıklama menüsünden **Sonraki Düzeyi Göster**'i seçtiğinizde, daha üst düzey hiyerarşi kategorileri olmaksızın tüm sonraki düzey öğelerinin (bu örnekteki *SubCategory* alanı) alfabetik olarak sıralanmış bir listesini görürsünüz.
+Seçin **Detaydan** simgesine tıklayarak önceki en üst düzey görünümüne dönebilirsiniz. Ardından seçerseniz **teklif** > **sonraki düzeyi Göster**, tüm sonraki düzey öğelerinin artan bir listesini alın (Bu durumda, *fırsat boyutu* alan), üst düzey hiyerarşi kategori.
 
-![](media/desktop-matrix-visual/matrix-visual_8a.png)
+![sonraki düzeyi Göster kullanarak Matrisi](media/desktop-matrix-visual/power-bi-next-level-matrix.png)
 
-Matrisin tüm en üst düzey kategorilerini göstermesi için sol üst köşedeki **Detaydan çık** simgesine tıkladıktan sonra bu simgeye tekrar sağ tıklayıp **Bir sonraki düzeye genişlet**'i seçtiğinizde aşağıdaki görseli görürsünüz.
+Seçin **Detaydan** matrisin tüm en üst düzey kategorilerini ardından select göstermek için sol üst köşedeki simgeyi **teklif** > **sonraki düzeye Genişlet**, Her iki - hiyerarşi düzeyleri için tüm değerleri görmek *satış aşamasına* ve *fırsat boyutu*.
 
-![](media/desktop-matrix-visual/matrix-visual_9.png)
+![sonraki düzeyi Genişlet kullanarak Matrisi](media/desktop-matrix-visual/power-bi-matrix-expand-next.png)
 
-Sağ tıklanan satırı (ve tüm alt kategorileri) matriste gizlemek (veya sırasıyla kaldırmak) için **Ekle** ve **Dışla** menü öğelerini de kullanabilirsiniz.
+Ayrıca **genişletme** görüntüyü daha fazla denetlemek için menü öğesi.  Örneğin, **teklif** > **genişletme** > **seçimi**. Power BI için her bir toplam satır görüntüler *satış aşamasına* ve tüm *fırsat boyutu* seçenekleri *teklif*.
+
+![Matris sonra teklifine uygulanan Genişlet](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Sütun başlıklarında detaya gitme
-Satırlarda detaya gitme özelliğine benzer şekilde **Sütunlarda** da detaya gidebilirsiniz. Aşağıdaki görüntüde, **Sütunlar** alan kutusunda iki alan olduğunu ve bunların yukarıda bahsedilen satırlar için kullandığımıza benzer bir hiyerarşi oluşturduğunu görebilirsiniz. **Sütunlar** alan kutusunda *Class* ve *Color* alanları bulunuyor.
+Benzer şekilde satırlarda detaya gitme olanağı, siz de detaya gidebilirsiniz **sütunları**. Aşağıdaki görüntüde, iki alan vardır **sütunları** alan kutusunda, bu makalenin önceki kısımlarında satırlar için kullandığımız için benzer bir hiyerarşi oluşturma. İçinde **sütunları** alan, sahip olduğumuz *bölge* ve *Segment*. İkinci alan eklenmişse hemen sonra **sütunları**, şu anda bu görselde görüntülenen yeni bir açılan menü gösterir **satırları**.
 
-![](media/desktop-matrix-visual/matrix-visual_10.png)
+![Eklenen ikinci sütun değeri sonra Matrisi](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
-**Matris** görselinde bir sütuna sağ tıkladığımızda detaya gitme seçeneğiyle karşılaşırız. Aşağıdaki görüntüde, *Deluxe* sütununa sağ tıklayıp **Detaya Git** seçeneğini belirliyoruz.
+Sütunlarda detaya gitmek için seçin **sütunları** gelen *detaylandır* matris sol alt köşesinde bulunan menü. Seçin *Doğu* bölge ve **detaya**.
 
-![](media/desktop-matrix-visual/matrix-visual_11.png)
+![sütunlarda detaya gitmek için menü](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-**Detaya Git**’i seçtiğinizde *Deluxe* için sütun hiyerarşisinin sonraki düzeyi (bu örnekte *Color*) görüntülenir.
+Seçtiğinizde, **detaya**, için sütun hiyerarşisinin sonraki düzeyi *bölge > Doğu* görüntülendiğinde, bu durumda *fırsat sayısı*. Başka bir bölgede görüntüler, ancak devre dışı.
 
-![](media/desktop-matrix-visual/matrix-visual_12.png)
+![Sütu sunulmakta bir düzey detaya gidin](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın). Satırlarda olduğu gibi sütunlarınızda da **Sonraki Düzeyi Göster**, **Bir sonraki düzeye genişlet**, **Ekle** veya **Dışla** seçeneklerini kullanabilirsiniz.
+Menü öğeleri, sütunlarda satırlarda aynı şekilde (önceki bölüme bakın **satır başlıklarında detaya**). Yapabilecekleriniz **sonraki düzeyi Göster** ve **sonraki düzeye Genişlet** sütunlarla satırları ile yapabilecekleriniz gibi.
 
 > [!NOTE]
 > Matris görselinin sol üstündeki detaya git ve detaydan çık simgeleri, yalnızca satırlar için kullanılabilir. Sütunlarda detaya gitmek için sağ tıklama menüsünü kullanmanız gerekir.
@@ -121,26 +123,26 @@ Sağ tıklama menüsünün diğer öğeleri, sütunlarda da satırlarda olduğu 
 
 Matris görselinin *özgün* halinde alt kategoriler tamamen farklı bir sütunda gösterilir ve bu durum, görselde daha fazla alan kullanılmasına neden olur. Aşağıdaki görüntüde, özgün **Matris** görselindeki tablo gösterilmektedir; buradan alt kategorilerin ayrı bir sütunda bulunduğunu görebilirsiniz.
 
-![](media/desktop-matrix-visual/matrix-visual_14.png)
+![matrisler için varsayılan biçimi eski yöntem](media/desktop-matrix-visual/matrix-visual_14.png)
 
 Aşağıdaki görüntü, **Basamaklı düzen** kullanılan bir **Matris** görseli içermektedir. *Computers* kategorisinin alt kategorilerinin (Computers Accessories, Desktops, Laptops, Monitors vb.) hafif girintili olduğunu ve böylece daha net ve yoğun bir görselin ortaya çıktığını görebilirsiniz.
 
-![](media/desktop-matrix-visual/matrix-visual_13.png)
+![Geçerli yolu, matris veri biçimleri](media/desktop-matrix-visual/matrix-visual_13.png)
 
 Basamaklı düzen ayarlarını kolayca yapabilirsiniz. **Matris** görseli seçiliyken **Görsel Öğeler** bölmesinin **Biçim** bölümündeki (boya rulosu simgesi) **Satır başlıkları** bölümünü genişletin. İki seçeneğiniz vardır: **Basamaklı düzen** açma/kapatma kaydırıcısı (bu özelliği etkinleştirir veya devre dışı bırakır) ve **Basamaklı düzen girintisi** (piksel cinsinden girinti miktarını belirler).
 
-![](media/desktop-matrix-visual/matrix-visual_15.png)
+![Satır üst bilgileri kartı basamaklı düzen denetimi görüntüleme](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
 **Basamaklı düzen**'i devre dışı bırakırsanız alt kategoriler, üst kategori altında girintilenmez ve bunun yerine başka bir sütunda gösterilir.
 
 ## <a name="subtotals-with-matrix-visuals"></a>Matris görselleri ile alt toplamlar
 Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etkinleştirebilir veya devre dışı bırakabilirsiniz. Aşağıdaki görüntüde, satır alt toplamlarının **açık** olarak belirlendiğini görebilirsiniz.
 
-![](media/desktop-matrix-visual/matrix-visual_20.png)
+![Matris gösteren toplamlar ve alt toplamlar](media/desktop-matrix-visual/matrix-visual_20.png)
 
 **Görsel Öğeler** bölmesinin **Biçim** bölümündeki **Alt toplamlar** kartını genişletin ve **Satır alt toplamları** kaydırıcısını **Kapalı** olarak ayarlayın. Bunu yaptığınızda alt toplamlar gösterilmez.
 
-![](media/desktop-matrix-visual/matrix-visual_21.png)
+![Kapalı toplamları Matrisi](media/desktop-matrix-visual/matrix-visual_21.png)
 
 Aynı işlem sütun alt toplamları için de geçerlidir.
 
@@ -149,7 +151,7 @@ Aynı işlem sütun alt toplamları için de geçerlidir.
 
 Ayrıca, çapraz vurgulama için Ctrl+Tıklama seçeneği de kullanılabilir. Örneğin, aşağıdaki görüntüde **Matris** görselindeki bir alt kategori koleksiyonu seçilmiştir. Görseldeki seçili olmayan öğelerin gri renkte göründüğünü ve sayfadaki diğer görsellerin, **Matris** görselinde yapılan seçimleri yansıttığını görebilirsiniz.
 
-![](media/desktop-matrix-visual/matrix-visual_16.png)
+![Rapor sayfasında bir matris tarafından highighted çapraz](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Power BI’daki değerleri diğer uygulamalarda kullanmak üzere kopyalama
 
@@ -166,20 +168,15 @@ Matrisinizde veya tablonuzda Dynamics CRM ve Excel gibi farklı uygulamalarda ve
     ![Excel’e yapıştırma](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Matris görselleriyle gölgelendirme ve yazı tipi renkleri
-**Matris** görseliyle, matris içindeki hücrelerin arka planına **Koşullu biçimlendirme** (renkler ve gölgelendirme) uygulayabilir, ayrıca metin ve değerlerde de koşullu biçimlendirme gerçekleştirebilirsiniz.
+Matris görselinin uyguladığınız **koşullu biçimlendirme** (renkler ve gölgelendirme ve veri çubukları) matris içindeki hücrelerin arka planına metin ve değerlerde de koşullu biçimlendirme uygulayabilirsiniz.
 
-Koşullu biçimlendirme uygulamak için bir matris görseli seçin aşağıdakilerden birini yapın:
-
-* **Alanlar** bölmesinde, Alan'a sağ tıklayın ve menüden **Koşullu biçimlendirme**'yi seçin.
+Koşullu biçimlendirme uygulamak için görsel ve açık matris seçin **biçimi** bölmesi. Genişletin **koşullu biçimlendirme** kart ve **arka plan rengi**, **yazı tipi rengi**, veya **veri çubukları**, içinkaydırıcıyı**Üzerinde**. Bu seçeneklerden birini açma bağlantısı görüntülenir *gelişmiş denetimler*, olanak sağlayan renkleri ve renk biçimlendirme için değerleri özelleştirin.
   
-  ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Buna alternatif olarak, **Biçim** bölmesindeki **Koşullu biçimlendirme** kartını genişletin ve **Arka plan renk ölçekleri** veya **Yazı tipi renk ölçekleri** için kaydırıcıyı **Açık** durumuna getirin. Bu seçeneklerden biri etkinleştirildiğinde, koşullu biçimlendirme için renkleri ve değerleri özelleştirmenize olanak sağlayan bir *Gelişmiş denetimler* bağlantısı görüntülenir.
-  
-  ![](media/desktop-matrix-visual/matrix-visual_18.png)
+  ![Veri çubukları denetimi gösteren biçimi bölmesi](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 
-Her iki yöntemle de aynı sonuç elde edilir. *Gelişmiş denetimler* seçildiğinde, ayar yapmanıza olanak sağlayan şu iletişim kutusu görüntülenir:
+Seçin *gelişmiş denetimler* , ayar yapmanıza olanak sağlayan bir iletişim kutusunu görüntüleyin. Bu örnek, iletişim kutusu için gösterir **veri çubukları**.
 
-![](media/desktop-matrix-visual/matrix-visual_19.png)
+![Veri çubukları bölmesi](media/desktop-matrix-visual/power-bi-data-bars.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

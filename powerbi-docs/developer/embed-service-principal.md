@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710529"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375086"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI ile hizmet sorumlusu (Önizleme)
 
@@ -120,7 +120,7 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
 
 5. Hizmet sorumlusunu oluşturduğunuz yeni çalışma alanına **yönetici** olarak ekleyin. Bu görevi [API’ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
 
-    ![Çalışma alanına hizmet sorumlusu ekleme](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Bir hizmet sorumlusu, bir yönetici bir çalışma alanına ekleyin.](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Şimdi içeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine eklemeyi seçin.
 
@@ -174,10 +174,11 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 * Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../service-dataflows-overview.md) yönetimi desteklenmez.
-* Hizmet sorumlusu, yönetici API’lerini desteklemez.
+* Hizmet sorumlusu, tüm yönetim API'ları şu anda desteklemiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Uygulamayı kaydetme](register-app.md)
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Satır düzeyi güvenlik (Önizleme) hizmet sorumlusu ile şirket içi veri ağ geçidi kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

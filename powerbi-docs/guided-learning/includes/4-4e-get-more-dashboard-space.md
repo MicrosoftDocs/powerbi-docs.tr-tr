@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264056"
+---
 Zaman zaman panolarınızı oluştururken tuvalinize sığabileceğinden daha fazla içeriğe sahip olduğunuzu fark edebilirsiniz. Pano içeriğinizin eksiksiz bir görünümünü elde edebilmeniz için pano alanınızın nasıl görüntüleneceğini yönetme konusunda size yardımcı olacak birkaç çözüm mevcuttur.
 
 Tüm panonuzu tek bir ekranda görüntülemenin en kolay yolu panonun sağ üst köşesindeki **Tam Ekran Modu** düğmesini seçmektir.

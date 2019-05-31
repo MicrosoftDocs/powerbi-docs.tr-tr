@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662147"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608349"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 ## <a name="what-is-a-power-bi-app"></a>Power BI uygulamaları nedir?
@@ -30,7 +30,7 @@ Uygulamalarınız **Uygulamalar** içerik listesinde düzenlenir.
 > Uygulamalar özelliğini kullanmak için Power BI Pro lisansı gerekir. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>Uygulama ***tasarımcıları*** ve uygulama ***tüketicileri***
-İş rolünüze bağlı olarak, kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için uygulama oluşturan biri (tasarımcı) olabilirsiniz. Alternatif olarak, başkaları tarafından oluşturulan uygulamaları alan ve indiren biri (tüketici) olabilirsiniz. Bu makale uygulama *tüketicileri* içindir.
+İş rolünüze bağlı olarak, uygulamalar oluşturan biri olabilirsiniz (*Tasarımcısı*) kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için. Veya bir kişinin alır ve uygulamaları yükler olabilir (*tüketici*) başkaları tarafından oluşturuldu. Bu makale uygulama *tüketicileri* içindir.
 
 ## <a name="advantages-of-apps"></a>Uygulamaların avantajları
 Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Bir uygulamayı yükledikten sonra, panolar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı panonun adını hatırlamak zorunda kalmazsınız.

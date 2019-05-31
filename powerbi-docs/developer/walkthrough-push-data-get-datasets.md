@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710243"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. Adım: Power BI tablosuna satır eklemek için veri kümesi alma
@@ -35,7 +35,7 @@ Bir veri kümesinin nasıl alınacağı aşağıda açıklanmıştır.
      a. Visual Studio 2015'te **Araçlar** > **NuGet Paket Yöneticisi** > **Paket Yöneticisi Konsolu**'nu seçin.
 
      b. **Paket Yöneticisi Konsolu**'na şunu girin: Install-Package Newtonsoft.Json.
-2. Paket yüklendikten sonra Program.cs'ye şunu ekleyin: **using Newtonsoft.Json;**.
+2. Paket yüklendikten sonra Program.cs'ye şunu ekleyin: **using Newtonsoft.Json;** .
 3. Bir **Veri Kümesi Kimliği** almak için Program.cs'ye aşağıda bulunan kodu ekleyin.
 4. Konsol Uygulaması'nı çalıştırın ve Power BI hesabınızda oturum açın. Konsol Penceresinde, bir kimliğin izlediği **Dataset ID:** (Veri Kümesi Kimliği:) ifadesini görmeniz gerekir.
 

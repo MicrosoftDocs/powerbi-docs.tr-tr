@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286416"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978361"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler için geçerlidir:
@@ -71,7 +71,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    * Görselleştirmenin belirli bir noktasındaki değerleri görüntülemek üzere çizgi, çubuk, sütun veya kabarcık türündeki bir grafikte bulunan çubuğu hareket ettirmek için grafiğe dokunabilirsiniz.  
    * Anlık görüntü paylaş simgesine ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) dokunarak [kutucuğa not ekleyebilir ve kutucuğu başkalarıyla paylaşabilirsiniz](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
    * Rapor aç simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) dokunarak mobil uygulamada [raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
-3. Bazen panoyu oluşturan kişi kutucuğa bağlantı ekleyebilir. Bu durumda dikey üç nokta simgesine (**...**) dokunduğunuzda **Bağlantıyı aç** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) seçeneğini görürsünüz:
+3. Bazen panoyu oluşturan kişi kutucuğa bağlantı ekleyebilir. Bu durumda dikey üç nokta simgesine ( **...** ) dokunduğunuzda **Bağlantıyı aç** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) seçeneğini görürsünüz:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

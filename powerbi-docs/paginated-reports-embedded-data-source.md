@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynakları (Önizleme)
 description: Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağı oluşturma ve değiştirme işlemini öğreneceksiniz.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
-ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
-ms.translationtype: HT
+ms.date: 05/16/2019
+ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59070034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853398"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma (Önizleme)
 
@@ -23,13 +23,19 @@ Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleş
 - Azure SQL Veritabanı ve Veri Ambarı
 - SQL Server
 - SQL Server Analysis Services
+- Oracle 
+- Teradata 
+
+Bu veri kaynakları için kullanmak [SQL Server Analysis Services bağlantı](service-premium-connect-tools.md) seçeneği:
+
 - Azure Analysis Services
+- Power BI Premium veri kümeleri
 
 Sayfalandırılmış raporlar, bir ağ geçidi üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz. [Power BI ağ geçitleri](service-gateway-getting-started.md) hakkında daha fazla bilgi edinin. 
 
 ## <a name="create-an-embedded-data-source"></a>Eklenmiş veri kaynağı oluşturma
   
-1. Rapor Oluşturucusu’nu açın.
+1. Power BI Rapor Oluşturucusu'nu açın.
 
 1. Rapor Verileri bölmesindeki araç çubuğunda **Yeni** > **Veri Kaynağı**’nı seçin. **Veri Kaynağı Özellikleri** iletişim kutusu açılır.
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454512"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
@@ -161,7 +161,7 @@ Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözü
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
-İstediğimiz verileri gösterdiği için **Table[edit]**'i seçiyoruz, ancak bu tablonun verilerini eşleştirmemiz için biraz şekillendirme yapmamız gerekecek. Bu adımların her biri **[Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)** makalesinde de gösterilmiştir. Bu adımları şu şekilde özetleyebiliriz:
+İstediğimiz verileri gösterdiği için **Table[edit]** 'i seçiyoruz, ancak bu tablonun verilerini eşleştirmemiz için biraz şekillendirme yapmamız gerekecek. Bu adımların her biri **[Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)** makalesinde de gösterilmiştir. Bu adımları şu şekilde özetleyebiliriz:
 
 **Düzenle**'yi seçiyoruz ve ardından şunları yapıyoruz:
 

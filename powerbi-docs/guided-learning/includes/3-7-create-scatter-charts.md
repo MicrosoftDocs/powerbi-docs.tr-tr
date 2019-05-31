@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cab4d5f47c7e0518bae3c11b3f298802cb67f6d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397941"
+---
 İki farklı ölçüyü (birim satışlar ve gelir gibi) karşılaştırmak istiyorsanız bu amaçla yaygın olarak kullanılan dağılım grafiği görselleştirmesini kullanabilirsiniz.
 
 ![](media/3-7-create-scatter-charts/3-7_1.png)

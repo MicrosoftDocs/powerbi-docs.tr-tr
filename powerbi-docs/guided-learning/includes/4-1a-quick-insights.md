@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264066"
+---
 Power BI hizmetindeki bir pano, rapor veya veri kümesiyle çalışırken Power BI'ın verilere ilişkin hızlı öngörüler edinmesini sağlayabilirsiniz. Power BI'ın sol bölmesinde bulunan **Veri Kümeleri** bölümünde, çalışmak istediğiniz veri kümesinin yanındaki *üç noktayı* seçin. Görüntülenen seçenek menüsünün en sağında **Hızlı Öngörüler** adlı bir seçenek yer alır.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

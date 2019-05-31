@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215373"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454134"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop'ta bir dağıtımın farklı olduğu yerleri bulmak için içgörüleri kullanma (Önizleme)
 
@@ -48,7 +48,7 @@ Bu örnekte, otomatik analiz hızlı bir şekilde *Tur Bisikletleri* için satı
 
 Seçilen filtrenin uygulanmış olduğu değerler, normal varsayılan dil kullanılarak gösterilir. Özgün başlangıç görselinde görüldüğü gibi genel değerler kolay karşılaştırma amacıyla gri renkte gösterilir. En fazla üç farklı filtre dahil edilebilir (bu örnekte *Tur Bisikletleri*, *Dağ Bisikletleri*, *Yol Bisikletleri*) ve üzerine tıklayarak (veya çoklu seçim yapmak için Ctrl tuşunu basılı tutup tıklayarak) birden fazla filtre seçebilirsiniz.
 
-Bu örnekteki *Toplam Satışlar* gibi eklenebilir ölçüler için karşılaştırma mutlak değerlere değil, göreli değerlere göre yapılır. Bu nedenle Tur Bisikletleri satış rakamlarının tüm kategoriler için genel satış rakamlarından daha düşük olmasına rağmen görselde varsayılan olarak Tur Bisikletleri için farklı ülkelerdeki satış rakamlarını tüm bisiklet kategorileriyle karşılaştırmak için çift eksen kullanılmıştır.  Görselin altındaki iki durumlu denetimin değiştirilmesi, iki değerin aynı eksende gösterilerek mutlak değerlerin kolayca karşılaştırılmasını sağlar (aşağıdaki görüntüde gösterildiği gibi).    
+Bu örnekteki *Toplam Satışlar* gibi eklenebilir ölçüler için karşılaştırma mutlak değerlere değil, göreli değerlere göre yapılır. Bu nedenle hiç yapmadığı bir şey bisiklet satış genel satış tüm kategorileri için daha düşük olsa da, varsayılan olarak tüm kategorileri bisiklet ve bisiklet hiç yapmadığı bir şey için farklı ülkelerde üzerinden satış oranı karşılaştırması izin vermek için bir çift eksen görsel kullanır.  Görselin altındaki iki durumlu denetimin değiştirilmesi, iki değerin aynı eksende gösterilerek mutlak değerlerin kolayca karşılaştırılmasını sağlar (aşağıdaki görüntüde gösterildiği gibi).    
 
 ![İçgörüler kullanılırken gösterilen görseller](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -63,14 +63,14 @@ Daha da önemlisi, görselin en üstünde bulunan **+** düğmesini kullanarak g
 ## <a name="details-of-the-returned-results"></a>Döndürülen sonuçların ayrıntıları
 Algoritmanın yaptığı işlemi, modeldeki diğer tüm sütunları almak, bu sütunların tüm değerlerini özgün görsele filtre olarak uygulamak ve bu filtre verilerinin hangisinin özgüne kıyasla en *farklı* sonucu ürettiğini bulmak olarak düşünebilirsiniz.
 
-Burada *farklı* ifadesiyle neyin kastedildiğini öğrenmek istiyor olabilirsiniz. Örneğin, satışların ABD ile Kanada arasındaki genel dağılımı şu şekildedir:
+Büyük olasılıkla ne merak ediyor *farklı* anlamına gelir. Örneğin, satışların ABD ile Kanada arasındaki genel dağılımı şu şekildedir:
 
 |Ülke  |Satışlar (Milyon USD)|
 |---------|----------|
 |Amerika Birleşik Devletleri      |15        |
 |Kanada   |5         |
 
-Ardından belirli bir ürün kategorisi (*"Yol Bisikleti"*) için satış dağılımı şu şekilde olabilir:
+Ardından belirli bir ürün kategorisi ( *"Yol Bisikleti"* ) için satış dağılımı şu şekilde olabilir:
 
 |Ülke  |Satışlar (Milyon USD)|
 |---------|----------|
@@ -86,7 +86,7 @@ Diğer taraftan Kar/Maliyet şeklinde hesaplanan marj gibi bir ölçüm için AB
 |Amerika Birleşik Devletleri      |15        |
 |Kanada   |5         |
 
-Ardından belirli bir ürün kategorisi (*"Yol Bisikleti"*) için satış dağılımı şu şekilde olabilir:
+Ardından belirli bir ürün kategorisi ( *"Yol Bisikleti"* ) için satış dağılımı şu şekilde olabilir:
 
 |Ülke  |Marjlar (%)|
 |---------|----------|
@@ -97,7 +97,7 @@ Bu tür ölçümlerin doğası dikkate alındığında bu *durumun* ilgi çekici
 
 Bu nedenle görüntülenen görseller, genel dağıtım (özgün görseldeki gibi) ile belirli bir filtre uygulandıktan sonra elde edilen değer arasında bulunan farkları açıkça göstermeyi amaçlar.  
 
-Bir önceki örnekte olduğu gibi, *Satışlar* gibi eklenebilir ölçülerde göreli değerlerin kolayca karşılaştırılabilmesi için uygun ölçeklendirmeye sahip çift eksenin kullanılabileceği sütun ve çizgi grafik türleri kullanılır. Sütunlarda filtre uygulandıktan sonraki değerler, çizgide ise genel değer gösterilir (sütun ekseni sol tarafta, çizgi ekseni ise sağ tarafta bulunur). Çizgi, *basamaklı* stil kullanılarak, gri dolgulu kesikli çizgi ile gösterilir. Bir önceki örnekte sütun ekseninin maksimum değeri 4, çizgi ekseninin maksimum değeri 20 ise ABD ile Kanada arasındaki filtrelenmiş ve genel değerlerin göreli değerleri kolayca karşılaştırılabilir. 
+Bir önceki örnekte olduğu gibi, *Satışlar* gibi eklenebilir ölçülerde göreli değerlerin kolayca karşılaştırılabilmesi için uygun ölçeklendirmeye sahip çift eksenin kullanılabileceği sütun ve çizgi grafik türleri kullanılır. Sütunlarda filtre uygulandıktan sonraki değerler, çizgide ise genel değer gösterilir (sütun ekseni sol tarafta, çizgi ekseni ise sağ tarafta bulunur). Satır kullanılarak gösterilen bir *basamaklı* stiliyle bir kesikli çizgiye gri ile doldurulur. Önceki örnekte, sütun ekseni en yüksek değer 4 ise ve satır eksen maksimum değeri 20 olur. ardından, ABD ve Kanada arasındaki göreli değerlerini filtrelenmiş ve genel değerleri için kolay karşılaştırması çalıştırmasına olanak tanır. 
 
 Benzer şekilde bir önceki örnekte bulunan *Marj* gibi eklenebilir olmayan ölçüler için sütun ve çizgi grafik kullanılır ve tek eksenin kullanılması, mutlak değerlerin kolayca karşılaştırılmasını sağlar. Burada da çizgi (gri dolgulu) genel değeri gösterir. Gerçek veya göreli rakamları karşılaştırma durumundan bağımsız olarak iki dağıtımın farklı olduğu yeri belirlemek, yalnızca değerler arasındaki farklı hesaplamaktan ibaret değildir. Örnek:
 
@@ -107,7 +107,7 @@ Benzer şekilde bir önceki örnekte bulunan *Marj* gibi eklenebilir olmayan öl
 
 * En mantıklı sonuçları seçmek için veriler arasındaki diğer ilişkilerin dikkate alınması gibi birçok farklı buluşsal yöntemlerden faydalanılır.
      
-Farklı sütunlar ve bu sütunların değerleri incelendikten sonra en yüksek farkları oluşturan değer kümeleri seçilir. Sonucun kolay anlaşılması için bu değerler sütuna göre gruplandırılır ve değerleri en yüksek farkı oluşturan sütun ilk sırada listelenir. Sütun başına en fazla üç değer gösterilir, ancak büyük etki yaratan üçten az değer varsa veya değerlerin bazıları diğerlerinden daha etkiliyse daha az sayıda değer gösterilebilir. 
+Farklı sütunlar ve bu sütunların değerleri incelendikten sonra en yüksek farkları oluşturan değer kümeleri seçilir. Sonucun kolay anlaşılması için bu değerler sütuna göre gruplandırılır ve değerleri en yüksek farkı oluşturan sütun ilk sırada listelenir. Sütun başına en fazla üç değer gösterilir, ancak daha az büyük bir etkiye sahip üçten değerler varsa veya bazı diğerlerinden daha etkili bir değerler görüntülenebilir. 
 
 Mevcut sürede model içindeki tüm sütunlar incelenemeyebilir ve bu nedenle en çok etkiye sahip sütunların ve değerlerin görüntüleneceğine dair bir garanti verilmez. Ancak en yüksek ihtimale sahip sütunların ilk sırada incelenmesini sağlamak için çeşitli buluşsal yöntemler kullanılır. Örneğin, tüm sütunlar incelendikten sonra aşağıdaki sütunların/değerlerin dağıtımda en yüksek etkiye sahip olduğunun belirlendiğini ve etki düzeyine göre azalan sırada listelendiğini düşünelim:
 

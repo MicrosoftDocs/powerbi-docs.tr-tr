@@ -11,11 +11,11 @@ ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296744"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61147858"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 <!-- Shared newnav Include -->
@@ -209,7 +209,7 @@ Rapor sayfalarının arka planını belirlerken raporu gölgede bırakmayan, say
 
 Sanat eseri değil işlevsel bir rapor oluşturduğunuzu unutmayın. Rapor öğelerinin okunabilirliğini ve önceliğini geliştiren bir renk seçin.  
 
-Web sayfalarında renk ve görselleştirme kullanımı hakkında yapılan bir çalışma, renkler arasındaki karşıtlığın yüksek olmasının kavramayı geliştirdiğini göstermiştir (The effect of text and background colour on visual search of Web pages (Web sayfalarının görsel taraması üzerinde metnin ve arka plan renginin etkisi) ve **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics (Kullanıcıların web sayfalarının görsel karmaşıklık ve estetik özellikleri algısını belirleme))**.
+Web sayfalarında renk ve görselleştirme kullanımı hakkında yapılan bir çalışma, renkler arasındaki karşıtlığın yüksek olmasının kavramayı geliştirdiğini göstermiştir (The effect of text and background colour on visual search of Web pages (Web sayfalarının görsel taraması üzerinde metnin ve arka plan renginin etkisi) ve **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics (Kullanıcıların web sayfalarının görsel karmaşıklık ve estetik özellikleri algısını belirleme))** .
 
 Renklerle ilgili en iyi uygulamaların bazılarını aşağıdaki örnek raporumuza (Şekil 20 ve 21) uyguladık. En çok dikkat çeken nokta arka plan renginin siyah olarak değiştirilmiş olmasıdır.  Sarı renk çok parlak olduğundan göz alıyordu.  Ayrıca "Count of athlete name by year and class" grafiğindeki çubukların sarı bölümü, sarı renkli arka planda kayboluyordu.  Siyah (veya beyaz) arka plan en yüksek karşıtlığı sağlar ve görselleri odak noktası haline getirir.
 

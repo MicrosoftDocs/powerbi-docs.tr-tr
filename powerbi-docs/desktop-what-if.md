@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295968"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513476"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametresi oluşturma ve kullanma
 **Power BI Desktop**'ın Ağustos 2018 sürümünden itibaren, raporlarınız için **Durum** değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.
@@ -50,7 +50,7 @@ Size kolaylık sağlamak adına, **Bu sayfaya dilimleyici ekle** onay kutusu oto
 
 ![](media/desktop-what-if/what-if_05.png)
 
-Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Elbette raporunuzu kullanan kişilerin **Durum** parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çelici ölçüler oluşturabilirsiniz. Örneğin, satış görevlilerinin, belirli satış hedeflerini veya yüzdelerini yakalamaları halinde alacakları tazminatı ya da daha yüksek indirimlerin satışların artmasına yönelik etkisini görmesini sağlayan bir rapor oluşturabilirsiniz.
+Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Elbette raporunuzu kullanan kişilerin **Durum** parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çelici ölçüler oluşturabilirsiniz. Örneğin, satış temsilcilerinin belirli satış hedeflerini veya yüzdelerini yakalamaları veya etkisini görmek indirimlerin kendi maaş artar bkz sağlayan bir rapor oluşturabilirsiniz.
 
 Ölçü formülünü formül çubuğuna yazmamızın ve **Sales after Discount** olarak adlandırmamızın ardından formülün sonucunu görürüz:
 

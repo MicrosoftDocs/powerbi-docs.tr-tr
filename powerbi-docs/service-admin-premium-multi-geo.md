@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium için Multi-Geo desteği
 description: İçeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571991"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564936"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteği
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium çoklu coğrafi desteğini yapılandırma
 
 Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal veri yerleşimi gereksinimlerini karşılamasına yardımcı olan bir Power BI Premium özelliğidir. Bir Power BI Premium müşterisi olarak, içeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine dağıtabilirsiniz. Bir coğrafi bölge (coğrafya) birden çok bölge içerebilir. Örneğin, Birleşik Devletler bir coğrafi bölgedir ve Orta Batı ABD ile Orta Güney ABD de Birleşik Devletler'deki bölgelerdir. İçeriği aşağıdaki coğrafyalardan herhangi birine dağıtmayı seçebilirsiniz:
 
@@ -35,7 +35,7 @@ Multi-Geo Power BI Almanya, 21Vianet tarafından sağlanan Power BI Çin veya AB
 
 Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği](developer/embedded-multi-geo.md).
 
-## <a name="using-multi-geo"></a>Multi-Geo'yu kullanma
+## <a name="enable-and-configure"></a>Etkinleştirme ve yapılandırma
 
 Yeni kapasiteler için, açılan listeden varsayılan bölgenin dışında bir bölge seçerek Multi-Geo'yu etkinleştirin.  Kullanılabilir her kapasite, şu anda bulunduğu bölgeyi (**Orta Batı ABD**) gösterir.
 
@@ -68,7 +68,7 @@ Bu öğeler kiracı için ana bölgede kalır:
 - İzinler
 - Veri kümesi kimlik bilgileri
 
-## <a name="view-capacity-regions"></a>Kapasite Bölgelerini Görüntüleme
+## <a name="view-capacity-regions"></a>Kapasite bölgeleri görüntüleyin
 
 Yönetici Portalı'nda, Power BI kiracınızın tüm kapasitelerini ve bunların şu anda bulundukları bölgeleri görüntüleyebilirsiniz.
 
@@ -98,7 +98,7 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI Premium: Bu nedir?](service-premium.md)
+- [Power BI Premium nedir?](service-premium-what-is.md)
 - [Power BI Embedded kapasiteleri için Multi-Geo](developer/embedded-multi-geo.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

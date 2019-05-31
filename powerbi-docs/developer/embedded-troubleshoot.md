@@ -1,20 +1,20 @@
 ---
 title: Katıştırılmış uygulamanızla ilgili sorunları giderme
 description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174833"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770480"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -109,7 +109,7 @@ Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümü
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
-**_(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
+** _(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_ **
 
 Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken ***error:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
 
@@ -161,7 +161,7 @@ Hangisi olduğunu belirlemek için aşağıdaki adımları deneyin.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Verme işlemi için yönetici izni gerekiyor
 
-**_Belirtiler:_**<br>
+**_Belirtiler:_ **<br>
 Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum açmayı deniyorsa aşağıdaki hatalardan birini alır:
 
 * Onay Testi'nin, kuruluşunuzdaki kaynaklara erişim için yalnızca yöneticinin verebileceği izne ihtiyacı vardır. Kullanabilmek için önce yöneticiden bu uygulamaya izin vermesini isteyin.
@@ -171,10 +171,10 @@ Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum a�
 
 Yönetici oturum açabilir ve başarılı bir şekilde onay verebilir.
 
-**_Kök nedeni:_**<br>
+**_Kök nedeni:_ **<br>
 Kiracı için kullanıcı onayı devre dışı bırakıldı.
 
-**_Çeşitli düzeltmeler yapılabilir:_**
+**_Çeşitli düzeltmeler yapılabilir:_ **
 
 *Kiracının tamamı için kullanıcı onayını etkinleştir (tüm kullanıcılar, tüm uygulamalar)*
 
@@ -184,6 +184,10 @@ Kiracı için kullanıcı onayı devre dışı bırakıldı.
     ![Onay Testi Düzeltmesi](media/embedded-troubleshoot/consent-test-02.png)
 
 Kiracının tamamı için veya belirli bir kullanıcı için bir yönetici tarafından uygulamaya *izin verme*.
+
+### <a name="cs1061-error"></a>Hatası CS1061
+
+İndirme [Microsoft.IdentityModel.Clients.activedirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) yaşıyorsanız bir "'AcquireToken' ve 'türünde bir ilk bağımsız değişken kabul eden hiçbir erişilebilir AcquireToken' için 'Authenticationcontext'i' tanımı içermiyor ' Authenticationcontext'i ' bulunamadı (bir using eksik yönergeniz veya derleme başvurunuz?) "hatası.
 
 ## <a name="data-sources"></a>Veri kaynakları
 

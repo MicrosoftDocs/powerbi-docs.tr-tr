@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3fd97374836978a4902a878da141865c271df643
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397948"
+---
 Genel olarak, görselleştirmeler iki veya daha fazla farklı değeri karşılaştırmak için kullanılır. Ancak, bazen rapor oluştururken yalnızca tek bir Ana Performans Göstergesinin (KPI) veya ölçümün zamana göre değişimini izlemek isteyebilirsiniz. Bunu Power BI Desktop'ta bir **Ölçek** veya **tek sayı içeren** kart görseli ile gerçekleştirebilirsiniz. Bu iki türden birinde boş bir grafik oluşturmak için **Görsel Öğeler** bölmesinde ilgili simgeyi seçin.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)

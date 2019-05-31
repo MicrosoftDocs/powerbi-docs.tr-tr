@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium kapasitesini yeniden başlatma
 description: Performans sorunlarını gidermek için Power BI Premium kapasitesinin nasıl yeniden başlatılacağını öğrenin.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794968"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564930"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 
@@ -31,7 +31,7 @@ Power BI, Premium kapasite kullanıcılarını bu tür sorunlara karşı koruma 
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Yeniden başlatma işlemi güvenli mi? Verileri kaybedecek miyim?
 
-Kapasitenizdeki tüm kaydedilmiş veriler, tanımlar, raporlar ve panolar yeniden başlatma sonrasında olduğu gibi korunur. Kapasiteyi yeniden başlattığınızda, devam eden tüm zamanlanmış ve zamanlanmamış yenilemeler durdurulur. Kapasite kullanılabilir duruma geldiğinde yenilemeler yeniden başlatılır. Kapasiteyle etkileşimli çalışan kullanıcılar kaydedilmemiş çalışmalarını kaybeder. Yeniden başlatma tamamlandıktan sonra tarayıcılarını yenilemeleri gerekir.
+Kapasitenizdeki tüm kaydedilmiş veriler, tanımlar, raporlar ve panolar yeniden başlatma sonrasında olduğu gibi korunur. Kapasiteyi yeniden başlattığınızda, devam eden tüm zamanlanmış ve zamanlanmamış yenilemeler durdurulur. Hizmet yenilemeleri kapasite kullanılabilir olduğunda yeniden dener. Kapasiteyle etkileşimli çalışan kullanıcılar kaydedilmemiş çalışmalarını kaybeder. Yeniden başlatma tamamlandıktan sonra tarayıcılarını yenilemeleri gerekir.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Kapasiteye nasıl yeniden başlatabilirim?
 
@@ -57,6 +57,6 @@ Ayrıca, altında yatan sorunlara işaret eden eğilimleri saptamak için düzen
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Premium nedir?](service-premium.md)
+[Power BI Premium nedir?](service-premium-what-is.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

@@ -1,20 +1,20 @@
 ---
 title: Ekli Power BI içerikleriyle özel düzenler
 description: Power BI içeriğini uygulamanıza eklerken kullanabileceğiniz özel düzenler hakkında bilgi edinin.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 28d11a30f7998dc63f86b98fd72d18968480e711
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762318"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344186"
 ---
 # <a name="custom-layouts"></a>Özel düzenler
 

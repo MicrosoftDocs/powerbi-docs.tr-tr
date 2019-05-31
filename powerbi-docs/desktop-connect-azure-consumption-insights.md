@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327999"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325633"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop’tan Azure maliyet ve kullanım verilerini analiz etme
 
@@ -24,7 +24,9 @@ Power BI Desktop, Azure’a bağlanarak kuruluşunuzun Azure hizmet kullanımı 
 
 Power BI şu anda Kurumsal Anlaşma ve Müşteri Sözleşmesi faturalama hesaplarına bağlanmayı destekler.
 
-Kurumsal Anlaşma kullanıcıları Azure Consumption Insights bağlayıcısı ile bağlanmalıdır. Müşteri Sözleşmesi hesabı kullanıcıları Azure Maliyet Yönetimi bağlayıcısı ile bağlanmalıdır.
+* **Kurumsal Anlaşma** kullanıcılar bağlantı ile **Azure tüketim öngörüleri Bağlayıcısı**.
+
+* **Müşteri sözleşmesi** kullanıcılar bağlantı ile **Azure maliyet Yönetimi Bağlayıcısı**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights ile bağlanma
 
@@ -212,6 +214,11 @@ Azure Portal'daki ayrıntı sütunları ve adları API ve bağlayıcıda benzerd
 
 Bu bölümde, Müşteri Sözleşmesi faturalama hesabınıza bağlanmayı öğreneceksiniz.
 
+> [!NOTE]
+> Azure maliyet Yönetimi Bağlayıcısı şu anda müşterilerin destekler **müşteri sözleşmesi**.  **Kurumsal Anlaşma** müşteriler, Microsoft Azure tüketim öngörüleri Bağlayıcısı'nı kullanmalıdır.
+> 
+> 
+
 **Azure Maliyet Yönetimi** bağlayıcısını kullanarak bağlanmak için **Power BI Desktop**'taki **Giriş** şeridinde **Veri Al**'ı seçin.  Sol taraftaki kategorilerden **Azure**’u seçtiğinizde **Azure Maliyet Yönetimi (Beta)** seçeneğini görürsünüz. **Bağlan**'ı seçin.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
@@ -234,8 +241,8 @@ Azure e-postanız ve parolanızla oturum açmanız istenir.  Kimliğinizi doğru
 * **Market**: Kullanım tabanlı Azure Market ücretlerini sağlar.
 * **Pricesheets**: Belirtilen faturalama profili için ölçüme göre geçerli ücretleri sağlar.
 * **RI ücretleri**: Son 24 ayda Ayrılmış Örneklerinizle ilişkili ücretleri sağlar.
-* **RI önerileri (tek)**: Son 7, 30 veya 60 günde tek bir abonelikteki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
-* **RI önerileri (paylaşılan)**: Son 7, 30 veya 60 günde tüm aboneliklerinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
+* **RI önerileri (tek)** : Son 7, 30 veya 60 günde tek bir abonelikteki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
+* **RI önerileri (paylaşılan)** : Son 7, 30 veya 60 günde tüm aboneliklerinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri sağlar.
 * **RI kullanımı**: Mevcut Ayrılmış Örneklerinizin geçen ayki tüketim ayrıntılarını sağlar.
 * **Kullanım ayrıntıları**: Belirtilen faturalama profili kimliğinin tüketilen miktar ve tahmini ücretlerinin dökümünü sağlar.
 

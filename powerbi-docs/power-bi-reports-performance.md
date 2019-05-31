@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
 ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287796"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61417649"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans açısından en iyi Power BI yöntemleri
 
