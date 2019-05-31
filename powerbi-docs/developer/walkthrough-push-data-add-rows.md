@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710410"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5 Adım: Bir Power BI tablosuna satır ekleme
@@ -311,7 +311,7 @@ Bu kodu Program.cs'ye ekleyin.
     }
 ```
 
-Yukarıdaki kodda **_//İlk kimliği alın_** belirtimini eklemiş olsak da, en doğrusu ada göre veri kümesini aramaktır.
+Yukarıdaki kodda ** _//İlk kimliği alın_** belirtimini eklemiş olsak da, en doğrusu ada göre veri kümesini aramaktır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
