@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56250048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578558"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI (önizleme)
 
-Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar. Bu makale Power BI analistlerine yöneliktir. Power BI iş ortağının oluşturduğu bir şablon uygulamasını nasıl yükleyeceğinizi, özelleştireceğinizi ve dağıtacağınızı açıklar. Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa, bkz. [Power BI’da şablon uygulaması oluşturma](service-template-apps-create.md).
+Power BI analist misiniz? Varsa, bu nedenle, bu makalede nasıl yükleneceği açıklanmaktadır *şablon uygulamaları* birçok iş, Salesforce, Microsoft Dynamics ve Google Analytics gibi çalıştırmak için kullandığınız hizmetlere bağlanmak için. Pano ve raporları kuruluşunuzun ihtiyaçlarını karşılayacak şekilde değiştirin ve ardından iş arkadaşlarınıza önerilmesini sağlayın dağıtabilir bir *uygulama*. 
 
 ![Power BI uygulaması yüklendi](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Power BI iş ortağının oluşturduğu bir şablon uygulamasını yüklediğinizde, kuruluşunuzun gereksinimlerine uyacak şekilde uygulamayı değiştirebilir ve ardından bir uygulama olarak iş arkadaşlarınıza dağıtabilirsiniz.  
+Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa, bkz. [Power BI’da şablon uygulaması oluşturma](service-template-apps-create.md). Power BI iş ortakları, çok az kayıpla veya hiç kodlama ile Power BI uygulamaları oluşturun ve bunları Power BI müşterilere dağıtın. 
 
 ## <a name="prerequisites"></a>Önkoşullar  
 
-Şablon uygulamalarını yüklemek, özelleştirmek ve dağıtmak için şunlar gerekir:  
+Şablon uygulamalarını yüklemek, özelleştirmek ve dağıtmak için şunlar gerekir: 
 
 - [Power BI Pro lisansı](service-self-service-signup-for-power-bi.md)
 - [Temel Power BI kavramlarını](service-basic-concepts.md) tanıma
@@ -106,6 +106,6 @@ Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır o
 
 
 
-. 
+￼ 
 
  
