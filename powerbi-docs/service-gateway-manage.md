@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324877"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469815"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI şirket içi ağ geçidini yönetme
 
@@ -38,26 +38,26 @@ Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını d
 
     ![Ağ geçitlerini yönet](media/service-gateway-manage/manage-gateways.png)
 
-2. Bir ağ geçidi seçin > **Veri kaynağı ekleyin** veya Ağ Geçitleri > **Veri kaynağı ekle** öğesine gidin.
+1. Bir ağ geçidi seçin > **Veri kaynağı ekleyin** veya Ağ Geçitleri > **Veri kaynağı ekle** öğesine gidin.
 
     ![Veri kaynağı ekleme](media/service-gateway-manage/add-data-source.png)
 
-3. **Veri Kaynağı Türü**’nü seçin.
+1. **Veri Kaynağı Türü**’nü seçin.
 
     ![SQL Server’ı seçin](media/service-gateway-manage/select-sql-server.png)
 
 
-4. Veri kaynağı bilgilerini girin. Bu örnekte **Sunucu**, **Veritabanı** ve diğer bilgiler gereklidir.  
+1. Veri kaynağı bilgilerini girin. Bu örnekte **Sunucu**, **Veritabanı** ve diğer bilgiler gereklidir.  
 
     ![Veri kaynağı ayarları](media/service-gateway-manage/data-source-settings.png)
 
-5. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirleyin.  **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
+1. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirleyin.  **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
 
-6. **Gelişmiş ayarlar** altında, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)’ni yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
+1. **Gelişmiş ayarlar** altında, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)’ni yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
 
     ![Gelişmiş ayarlar](media/service-gateway-manage/advanced-settings.png)
 
-7. **Ekle**'yi seçin. İşlem başarılı olursa *Bağlantı Başarılı* ifadesini görürsünüz.
+1. **Ekle**'yi seçin. İşlem başarılı olursa *Bağlantı Başarılı* ifadesini görürsünüz.
 
     ![Bağlantı başarılı](media/service-gateway-manage/connection-successful.png)
 
