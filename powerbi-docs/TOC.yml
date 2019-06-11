@@ -1,1343 +1,1376 @@
-items:
 - name: Power BI Desktop
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI Desktop nedir?
-      href: desktop-what-is-desktop.md
-  - name: Hızlı Başlangıçlar
-    items:
-    - name: Verilere bağlanma
-      href: desktop-quickstart-connect-to-data.md
-    expanded: true
-  - name: Öğreticiler
-    items:
-    - name: Birden çok veri kaynağını şekillendirme ve birleştirme
-      href: desktop-shape-and-combine-data.md
-    - name: Power BI Desktop'ı kullanarak bir Web Sayfasından verileri içeri aktarma ve çözümleme
-      href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-    - name: " Excel’den ve bir OData akışından satış verilerini çözümleme"
-      href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-    - name: Power BI Desktop'ta kendi ölçülerinizi oluşturma
-      href: desktop-tutorial-create-measures.md
-    - name: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
-      href: desktop-tutorial-create-calculated-columns.md
-    - name: Power BI Desktop ile Facebook analizi
-      href: desktop-tutorial-facebook-analytics.md
-    - name: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
-      href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-  - name: Örnekler
-    items:
-    - name: Power BI örnekleri
-      href: sample-datasets.md
-    - name: Örnek içerik paketlerini kullanma
-      href: sample-tutorial-connect-to-the-samples.md
-    - name: 'Müşteri Kârlılığı örneği: Tura katılın'
-      href: sample-customer-profitability.md
-    - name: 'BT Harcama Analizi örneği: Tura katılın'
-      href: sample-it-spend.md
-    - name: 'İnsan Kaynakları örneği: Tura katılın'
-      href: sample-human-resources.md
-    - name: 'Fırsat Analizi örneği: Tura katılın'
-      href: sample-opportunity-analysis.md
-    - name: 'Tedarik Analizi örneği: Tura katılın'
-      href: sample-procurement.md
-    - name: 'Perakende Analizi örneği: Tura katılın'
-      href: sample-retail-analysis.md
-    - name: 'Satış ve Pazarlama örneği: Tura katılın'
-      href: sample-sales-and-marketing.md
-    - name: 'Tedarikçi Kalite Analizi örneği: Tura katılın'
-      href: sample-supplier-quality.md
-    - name: Financial Sample çalışma kitabını indirme
-      href: sample-financial-download.md
-  - name: Kavramlar
-    items:
-    - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
-      href: desktop-latest-update.md
-    - name: Power BI Desktop’ta modelleme görünümü (Önizleme)
-      href: desktop-modeling-view.md
-    - name: Power BI Desktop'ta Toplamalar (Önizleme)
-      href: desktop-aggregations.md
-    - name: Power BI Desktop’taki bileşik modeller
-      href: desktop-composite-models.md
-    - name: Power BI Desktop’ta çoka çok ilişkiler (Önizleme)
-      href: desktop-many-to-many-relationships.md
-    - name: Power BI Desktop’ta depolama modu (Önizleme)
-      href: desktop-storage-mode.md
-    - name: Power BI Desktop'ta çift yönlü çapraz filtreleme
-      href: desktop-bidirectional-filtering.md
-    - name: Power BI ve DirectQuery
-      href: desktop-directquery-about.md
-    - name: DirectQuery tarafından desteklenen veri kaynakları
-      href: desktop-directquery-data-sources.md
-    - name: Power BI veri kaynağı önkoşulları
-      href: desktop-data-source-prerequisites.md
-    - name: Power BI’da çok boyutlu modellerde varsayılan üye
-      href: desktop-default-member-multidimensional-models.md
-    - name: Özel görseller hakkında SSS
-      href: power-bi-custom-visuals-faq.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Power BI Desktop uygulamasını edinme
-      href: desktop-get-the-desktop.md
-    - name: Power BI Desktop ile çalışmaya başlama kılavuzu
-      href: desktop-getting-started.md
-    - name: Power BI Desktop'taki genel sorgu görevleri
-      href: desktop-common-query-tasks.md
-    - name: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
-      href: desktop-create-and-manage-relationships.md
-    - name: Power BI Desktop'taki veri görünümü
-      href: desktop-data-view.md
-    - name: Power BI Desktop'ta sorgulara genel bakış
-      href: desktop-query-overview.md
-    - name: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
-      href: desktop-quickstart-learn-dax-basics.md
-    - name: Power BI Desktop'taki ilişki görünümü
-      href: desktop-relationship-view.md
-    - name: Power BI Desktop'taki rapor görünümü
-      href: desktop-report-view.md
-    - name: Power BI Desktop'ta birden fazla veri kaynağına bağlanma
-      href: desktop-connect-to-data.md
-    - name: Power BI Desktop'tan yayımlama
-      href: desktop-upload-desktop-files.md
-    - name: 1. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-      href: visuals/power-bi-report-add-visualizations-i.md
-    - name: 2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-      href: visuals/power-bi-report-add-visualizations-ii.md
-    - name: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
-      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Power BI'da öğeleri veri olmadan gösterme
-      href: desktop-show-items-no-data.md
-    - name: Verilere bağlanma
+    - name: Genel Bakış
       items:
-      - name: Power BI Desktop'taki veri kaynakları
-        href: desktop-data-sources.md
-      - name: Örnek olarak bir Web sayfasına bağlanma (önizleme)
-        href: desktop-connect-to-web-by-example.md
-      - name: Power BI hizmetindeki veri kümelerine bağlanma
-        href: desktop-report-lifecycle-datasets.md
-      - name: Power BI Desktop'a Excel çalışma kitabı aktarma
-        href: desktop-import-excel-workbooks.md
-      - name: Genel arabirimleri kullanarak verilere bağlanma
-        href: desktop-connect-using-generic-interfaces.md
-      - name: PDF dosyasına bağlanma
-        href: desktop-connect-pdf.md
-      - name: Adobe Analytics’e bağlan
-        href: desktop-connect-adobe-analytics.md
-      - name: Oracle veritabanlarına bağlanma
-        href: desktop-connect-oracle-database.md
-      - name: Power BI Desktop'ta Python betikleri çalıştırma
-        href: desktop-python-scripts.md
-      - name: Power Query Düzenleyicisi'nde Python kullanma
-        href: desktop-python-in-query-editor.md
-      - name: Power BI ile harici bir Python IDE kullanma
-        href: desktop-python-ide.md
-      - name: Python programlama dilini kullanarak Power BI görselleri oluşturma
-        href: desktop-python-visuals.md
-      - name: Power BI Desktop'ta R betikleri çalıştırma
-        href: desktop-r-scripts.md
-      - name: Sorgu Düzenleyicisi'nde R programlama dilini kullanma
-        href: desktop-r-in-query-editor.md
-      - name: Power BI ile harici bir R IDE kullanma
-        href: desktop-r-ide.md
-      - name: Desteklenen R paketleri
-        href: service-r-packages-support.md
-      - name: Verileri doğrudan Power BI Desktop'a girme
-        href: desktop-enter-data-directly-into-desktop.md
-      - name: Power BI Desktop'ta Excel'e bağlanma
-        href: desktop-connect-excel.md
-      - name: Power BI Desktop'taki Analysis Services çok boyutlu verileri
-        href: desktop-ssas-multidimensional.md
-      - name: Power BI Desktop'ta CSV dosyalarına bağlanma
-        href: desktop-connect-csv.md
-      - name: Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
-        href: desktop-connect-bigquery.md
-      - name: Power BI Desktop'ta bir Impala veritabanına bağlanma
-        href: desktop-connect-impala.md
-      - name: Power BI Desktop'ta bir OData akışına bağlanma
-        href: desktop-connect-odata.md
-      - name: Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma
-        href: desktop-connect-redshift.md
-      - name: Power BI Desktop'tan bir Web sayfasına bağlanma
-        href: desktop-connect-to-web.md
-      - name: Power BI Desktop'ta bir Snowflake bilgi işlem ambarına bağlanma
-        href: desktop-connect-snowflake.md
-      - name: Azure Tüketim Öngörüleri verilerine bağlanma
-        href: desktop-connect-azure-consumption-insights.md
-      - name: Power BI Desktop'ta SAP HANA'yı kullanma
-        href: desktop-sap-hana.md
-      - name: Power BI Desktop'taki Analysis Services tablo verileri
-        href: desktop-analysis-services-tabular-data.md
-      - name: Power BI Desktop'ta DirectQuery'yi kullanma
-        href: desktop-use-directquery.md
-      - name: Oracle ve Teradata veritabanları için DirectQuery
-        href: desktop-directquery-for-oracle-teradata.md
-      - name: DirectQuery ve SAP Business Warehouse (BW)
-        href: desktop-directquery-sap-bw.md
-      - name: DirectQuery ve SAP HANA
-        href: desktop-directquery-sap-hana.md
-      - name: Power BI Desktop'taki Bilgi tutarlılığı varsay ayarı
-        href: desktop-assume-referential-integrity.md
-      - name: Power BI Desktop'ta SAP BW bağlayıcısını kullanma (Önizleme)
-        href: desktop-sap-bw-connector.md
-      - name: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
-        href: desktop-use-onedrive-business-links.md
-      - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Facebook bağlayıcısı'
-        href: service-facebook-connector.md
-      - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Google Analytics bağlayıcısı'
-        href: service-google-analytics-connector.md
-      - name: 'Project Online: Power BI Desktop aracılığıyla verilere bağlanma'
-        href: desktop-project-online-connect-to-data.md
-    - name: Verileri dönüştürme ve şekillendirme
+        - name: Power BI Desktop nedir?
+          href: desktop-what-is-desktop.md
+    - name: Hızlı Başlangıçlar
+      expanded: true
       items:
-      - name: Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)
-        href: visuals/desktop-shape-map.md
-      - name: İkili değerleri birleştirme
-        href: desktop-combine-binaries.md
-    - name: Verilerinizi modelleme
+        - name: Verilere bağlanma
+          href: desktop-quickstart-connect-to-data.md
+    - name: Öğreticiler
       items:
-      - name: Power BI Desktop'ta verileri kategorilere ayırma
-        href: desktop-data-categorization.md
-      - name: Mobil uygulamalar için bir barkod alanı etiketleme
-        href: desktop-mobile-barcodes.md
-      - name: Mobil uygulamalar için coğrafi filtreleme ayarlama
-        href: desktop-mobile-geofiltering.md
-      - name: Power BI Desktop'taki hesaplanmış sütunlar
-        href: desktop-calculated-columns.md
-      - name: Power BI Desktop'taki hesaplanmış tablolar
-        href: desktop-calculated-tables.md
-      - name: Power BI Desktop'taki ölçüler
-        href: desktop-measures.md
-      - name: Soru-Cevap dil şemasını düzenleme
-        href: power-bi-q-and-a-linguistic-schema.md
-      - name: KPI'leri içeri aktarma ve görüntüleme (Önizleme)
-        href: desktop-import-and-display-kpis.md
-    - name: Rapor oluşturma
+        - name: Birden çok veri kaynağını şekillendirme ve birleştirme
+          href: desktop-shape-and-combine-data.md
+        - name: Power BI Desktop'ı kullanarak bir Web Sayfasından verileri içeri aktarma ve çözümleme
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Excel’den ve bir OData akışından satış verilerini çözümleme'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Power BI Desktop'ta kendi ölçülerinizi oluşturma
+          href: desktop-tutorial-create-measures.md
+        - name: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Power BI Desktop ile Facebook analizi
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+    - name: Örnekler
       items:
-      - name: Raporlar için görsel öğeler
-        href: desktop-visual-elements-for-reports.md
-      - name: Rapor sayfalarını temel alan araç ipuçları oluşturma
-        href: desktop-tooltips.md
-      - name: PDF’ye dışarı aktarma ve raporları yazdırma
-        href: desktop-export-to-pdf.md
-      - name: Power BI Desktop’ta Soru-Cevap
-        href: desktop-qna-in-reports.md
-      - name: Power BI Desktop'taki Analiz bölmesi
-        href: desktop-analytics-pane.md
-      - name: Artış ve azalmaları açıklamak için içgörüleri kullanma
-        href: desktop-insights.md
-      - name: Grafikte dağılımın farklı olduğu yerleri bulmak için içgörüleri kullanma
-        href: desktop-insights-find-where-different.md
-      - name: Power BI'da yer işaretleri
-        href: desktop-bookmarks.md
-      - name: Rapor temalarını kullanma
-        href: desktop-report-themes.md
-      - name: Yeni filtre deneyimine gözatın
-        href: power-bi-report-filter-preview.md
-      - name: Hızlı Ölçüleri kullanma
-        href: desktop-quick-measures.md
-      - name: Durum parametrelerini kullanma
-        href: desktop-what-if.md
-      - name: Detaylandırmayı kullanma
-        href: desktop-drillthrough.md
-      - name: Çapraz rapor detaylandırmayı kullanma
-        href: desktop-cross-report-drill-through.md
-      - name: Göreli tarih dilimleyici ve filtre kullanma
-        href: visuals/desktop-slicer-filter-date-range.md
-      - name: Gruplandırma ve gruplamayı kullanma
-        href: desktop-grouping-and-binning.md
-      - name: R programlama dilini kullanarak Power BI görselleri oluşturma
-        href: desktop-r-visuals.md
-      - name: R tarafından sağlanan özel görselleri kullanma
-        href: desktop-r-powered-custom-visuals.md
-      - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma
-        href: desktop-gridlines-snap-to-grid.md
-      - name: Power BI raporlarında sayfa görüntüleme ayarları
-        href: power-bi-report-display-settings.md
-      - name: Örnekten sütun ekleme
-        href: desktop-add-column-from-example.md
-      - name: Özel sütun ekleme
-        href: desktop-add-custom-column.md
-      - name: Power BI'da yanıt veren görseller oluşturma
-        href: visuals/desktop-create-responsive-visuals.md
-      - name: Power BI Desktop'taki (Önizleme) satır içi hiyerarşi etiketlerini kullanma
-        href: desktop-inline-hierarchy-labels.md
-      - name: Sayısal aralık dilimleyiciyi kullanma
-        href: desktop-slicer-numeric-range.md
-      - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
-        href: power-bi-slicer-filter-responsive.md
-      - name: Cortana için özel yanıt kartları oluşturma
-        href: service-cortana-answer-cards.md
-      - name: Satır düzeyi güvenlik
-        href: desktop-rls.md
-      - name: Araç ipuçlarını özelleştirme
-        href: desktop-custom-tooltips.md
-      - name: Raporlardaki şekiller ve metin kutuları
-        href: power-bi-reports-add-text-and-shapes.md
-      - name: Metin kutularına köprü ekleme
-        href: service-add-hyperlink-to-text-box.md
-      - name: Tablolardaki köprüler
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Koşullu tablo biçimlendirmesi
-        href: desktop-conditional-table-formatting.md
-      - name: Koşullu ifade temelli başlık biçimlendirme
-        href: desktop-conditional-format-visual-titles.md
-      - name: Power BI Desktop'ta sütuna göre sıralama
-        href: desktop-sort-by-column.md
-      - name: Mobil uygulamalar için en iyi duruma getirilmiş raporlar oluşturma
-        href: desktop-create-phone-report.md
-      - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini kullanma
-        href: desktop-see-data-see-records.md
-      - name: Rapor oluşturmaya yönelik ipuçları
-        href: desktop-tips-and-tricks-for-creating-reports.md
-    - name: Görselleştirmeler
+        - name: Power BI örnekleri
+          href: sample-datasets.md
+        - name: Örnek içerik paketlerini kullanma
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Müşteri Kârlılığı örneği: Tura katılın'
+          href: sample-customer-profitability.md
+        - name: 'BT Harcama Analizi örneği: Tura katılın'
+          href: sample-it-spend.md
+        - name: 'İnsan Kaynakları örneği: Tura katılın'
+          href: sample-human-resources.md
+        - name: 'Fırsat Analizi örneği: Tura katılın'
+          href: sample-opportunity-analysis.md
+        - name: 'Tedarik Analizi örneği: Tura katılın'
+          href: sample-procurement.md
+        - name: 'Perakende Analizi örneği: Tura katılın'
+          href: sample-retail-analysis.md
+        - name: 'Satış ve Pazarlama örneği: Tura katılın'
+          href: sample-sales-and-marketing.md
+        - name: 'Tedarikçi Kalite Analizi örneği: Tura katılın'
+          href: sample-supplier-quality.md
+        - name: Financial Sample çalışma kitabını indirme
+          href: sample-financial-download.md
+    - name: Kavramlar
       items:
-      - name: Power BI'daki görselleştirmeler
-        href: visuals/power-bi-report-visualizations.md
-      - name: Görselleştirmelere ilişkin en iyi uygulamalar
-        href: visuals/power-bi-visualization-best-practices.md
-      - name: Bir rapordaki görselleştirmenin türünü değiştirme
-        href: visuals/power-bi-report-change-visualization-type.md
-      - name: Görsel türüne göre veri noktası sınırları
-        href: visuals/power-bi-data-points.md
-      - name: Görseli oluşturmak için kullanılan verileri gösterme
-        href: visuals/service-reports-show-data.md
-      - name: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
-        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
-        href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Görselleştirmeleri kopyalayıp yapıştırma
-        href: visuals/power-bi-visualization-copy-paste.md
-      - name: Görselleştirmeyi oluşturmak için kullanılan verileri dışarı aktarma
-        href: visuals/power-bi-visualization-export-data.md
-      - name: Raporlardaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma
-        href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
-        href: service-reports-visual-interactions.md
-      - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
-        href: visuals/power-bi-map-tips-and-tricks.md
-      - name: X ve Y ekseni özelliklerini özelleştirme
-        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS haritaları
-        href: visuals/power-bi-visualization-arcgis.md
-      - name: Basit alan grafiği
-        href: visuals/power-bi-visualization-basic-area-chart.md
-      - name: Power BI'da kartlar (büyük sayı kutucukları)
-        href: visuals/power-bi-visualization-card.md
-      - name: Power BI'da birleşik harita
-        href: visuals/power-bi-visualization-combo-chart.md
-      - name: Power BI'da halka grafikler
-        href: visuals/power-bi-visualization-doughnut-charts.md
-      - name: Power BI'da kartogramlar (Koroplet haritalar)
-        href: visuals/power-bi-visualization-filled-maps-choropleths.md
-      - name: Power BI'da huni grafikleri
-        href: visuals/power-bi-visualization-funnel-charts.md
-      - name: Power BI’daki ana etmen grafikleri
-        href: visuals/power-bi-visualization-influencers.md
-      - name: Yüksek yoğunluklu çizgi örnekleme
-        href: desktop-high-density-sampling.md
-      - name: KPI Görselleri
-        href: visuals/power-bi-visualization-kpi.md
-      - name: Matris görseli
-        href: visuals/desktop-matrix-visual.md
-      - name: Power BI'da R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
-        href: visuals/service-r-visuals.md
-      - name: Power BI'da radyal ölçer grafikleri
-        href: visuals/power-bi-visualization-radial-gauge-charts.md
-      - name: Şerit grafikler
-        href: visuals/desktop-ribbon-charts.md
-      - name: Power BI'da dağılım grafikleri
-        href: visuals/power-bi-visualization-scatter.md
-      - name: Yüksek yoğunluklu dağılım grafikleri
-        href: visuals/desktop-high-density-scatter-charts.md
-      - name: Power BI'da dilimleyiciler
-        href: visuals/power-bi-visualization-slicers.md
-      - name: Power BI'da tablolar
-        href: visuals/power-bi-visualization-tables.md
-      - name: Power BI'da ağaç haritaları
-        href: visuals/power-bi-visualization-treemaps.md
-      - name: Power BI'da şelale grafikler
-        href: visuals/power-bi-visualization-waterfall-charts.md
-      - name: Dinamik başvuru çizgileri oluşturma
-        href: service-analytics-pane.md
-    - name: Sorun giderme
+        - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
+          href: desktop-latest-update.md
+        - name: Power BI Desktop'ta Modelleme görünümü
+          href: desktop-modeling-view.md
+        - name: Power BI Desktop'ta Toplamalar (Önizleme)
+          href: desktop-aggregations.md
+        - name: Power BI Desktop’taki bileşik modeller
+          href: desktop-composite-models.md
+        - name: Power BI Desktop’ta çoka çok ilişkileri
+          href: desktop-many-to-many-relationships.md
+        - name: Power BI Desktop’ta depolama modu (Önizleme)
+          href: desktop-storage-mode.md
+        - name: Power BI Desktop'ta çift yönlü çapraz filtreleme
+          href: desktop-bidirectional-filtering.md
+        - name: Power BI ve DirectQuery
+          href: desktop-directquery-about.md
+        - name: DirectQuery tarafından desteklenen veri kaynakları
+          href: desktop-directquery-data-sources.md
+        - name: Power BI veri kaynağı önkoşulları
+          href: desktop-data-source-prerequisites.md
+        - name: Power BI’da çok boyutlu modellerde varsayılan üye
+          href: desktop-default-member-multidimensional-models.md
+        - name: Özel görseller hakkında SSS
+          href: power-bi-custom-visuals-faq.md
+    - name: Nasıl yapılır?
       items:
-      - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
-        href: desktop-access-database-errors.md
-      - name: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
-        href: desktop-error-launching-desktop.md
-  - name: Başvuru
-    items:
-    - name: Power BI Desktop'taki veri türleri
-      href: desktop-data-types.md
-    - name: Power BI Desktop için formül düzenleyicisi kısayolları
-      href: desktop-formula-editor.md
-    - name: Power BI Desktop gizlilik düzeyleri
-      href: desktop-privacy-levels.md
-    - name: Power BI’da bağlayıcı genişletilebilirliği
-      href: desktop-connector-extensibility.md
-  - name: Kaynaklar
-    items:
-    - name: Power BI Desktop videoları
-      href: desktop-videos.md
-    - name: Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
-      href: desktop-latest-update-archive.md
-    - name: Power BI Desktop Gülümseme Gönder gizlilik bildirimi
-      href: desktop-send-smile-privacy-statement.md
-    - name: Power BI raporlarında erişilebilirlik
-      href: desktop-accessibility.md
-    - name: Power BI Desktop oturum açma formunu yönetme
-      href: desktop-admin-sign-in-form.md
+        - name: Power BI Desktop uygulamasını edinme
+          href: desktop-get-the-desktop.md
+        - name: Power BI Desktop ile çalışmaya başlama kılavuzu
+          href: desktop-getting-started.md
+        - name: Power BI Desktop'taki genel sorgu görevleri
+          href: desktop-common-query-tasks.md
+        - name: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
+          href: desktop-create-and-manage-relationships.md
+        - name: Power BI Desktop'taki veri görünümü
+          href: desktop-data-view.md
+        - name: Power BI Desktop'ta sorgulara genel bakış
+          href: desktop-query-overview.md
+        - name: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
+          href: desktop-quickstart-learn-dax-basics.md
+        - name: Power BI Desktop'taki ilişki görünümü
+          href: desktop-relationship-view.md
+        - name: Power BI Desktop'taki rapor görünümü
+          href: desktop-report-view.md
+        - name: Power BI Desktop'ta birden fazla veri kaynağına bağlanma
+          href: desktop-connect-to-data.md
+        - name: Power BI Desktop'tan yayımlama
+          href: desktop-upload-desktop-files.md
+        - name: '1. Bölüm, Bir Power BI raporuna görselleştirme ekleme'
+          href: visuals/power-bi-report-add-visualizations-i.md
+        - name: '2. Bölüm, Bir Power BI raporuna görselleştirme ekleme'
+          href: visuals/power-bi-report-add-visualizations-ii.md
+        - name: 'Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme'
+          href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+        - name: Power BI'da öğeleri veri olmadan gösterme
+          href: desktop-show-items-no-data.md
+        - name: Verilere bağlanma
+          items:
+            - name: Power BI Desktop'taki veri kaynakları
+              href: desktop-data-sources.md
+            - name: Örnek olarak bir Web sayfasına bağlanma (önizleme)
+              href: desktop-connect-to-web-by-example.md
+            - name: Power BI hizmetindeki veri kümelerine bağlanma
+              href: desktop-report-lifecycle-datasets.md
+            - name: Power BI Desktop'a Excel çalışma kitabı aktarma
+              href: desktop-import-excel-workbooks.md
+            - name: Genel arabirimleri kullanarak verilere bağlanma
+              href: desktop-connect-using-generic-interfaces.md
+            - name: PDF dosyasına bağlanma
+              href: desktop-connect-pdf.md
+            - name: Adobe Analytics’e bağlan
+              href: desktop-connect-adobe-analytics.md
+            - name: Oracle veritabanlarına bağlanma
+              href: desktop-connect-oracle-database.md
+            - name: Power BI Desktop'ta Python betikleri çalıştırma
+              href: desktop-python-scripts.md
+            - name: Power Query Düzenleyicisi'nde Python kullanma
+              href: desktop-python-in-query-editor.md
+            - name: Power BI ile harici bir Python IDE kullanma
+              href: desktop-python-ide.md
+            - name: Python programlama dilini kullanarak Power BI görselleri oluşturma
+              href: desktop-python-visuals.md
+            - name: Power BI Desktop'ta R betikleri çalıştırma
+              href: desktop-r-scripts.md
+            - name: Sorgu Düzenleyicisi'nde R programlama dilini kullanma
+              href: desktop-r-in-query-editor.md
+            - name: Power BI ile harici bir R IDE kullanma
+              href: desktop-r-ide.md
+            - name: Desteklenen R paketleri
+              href: service-r-packages-support.md
+            - name: Verileri doğrudan Power BI Desktop'a girme
+              href: desktop-enter-data-directly-into-desktop.md
+            - name: Power BI Desktop'ta Excel'e bağlanma
+              href: desktop-connect-excel.md
+            - name: Power BI Desktop'taki Analysis Services çok boyutlu verileri
+              href: desktop-ssas-multidimensional.md
+            - name: Power BI Desktop'ta CSV dosyalarına bağlanma
+              href: desktop-connect-csv.md
+            - name: Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
+              href: desktop-connect-bigquery.md
+            - name: Power BI Desktop'ta bir Impala veritabanına bağlanma
+              href: desktop-connect-impala.md
+            - name: Power BI Desktop'ta bir OData akışına bağlanma
+              href: desktop-connect-odata.md
+            - name: Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma
+              href: desktop-connect-redshift.md
+            - name: Power BI Desktop'tan bir Web sayfasına bağlanma
+              href: desktop-connect-to-web.md
+            - name: Power BI Desktop'ta bir Snowflake bilgi işlem ambarına bağlanma
+              href: desktop-connect-snowflake.md
+            - name: Azure Tüketim Öngörüleri verilerine bağlanma
+              href: desktop-connect-azure-consumption-insights.md
+            - name: Power BI Desktop'ta SAP HANA'yı kullanma
+              href: desktop-sap-hana.md
+            - name: Power BI Desktop'taki Analysis Services tablo verileri
+              href: desktop-analysis-services-tabular-data.md
+            - name: Power BI Desktop'ta DirectQuery'yi kullanma
+              href: desktop-use-directquery.md
+            - name: Oracle ve Teradata veritabanları için DirectQuery
+              href: desktop-directquery-for-oracle-teradata.md
+            - name: DirectQuery ve SAP Business Warehouse (BW)
+              href: desktop-directquery-sap-bw.md
+            - name: DirectQuery ve SAP HANA
+              href: desktop-directquery-sap-hana.md
+            - name: Power BI Desktop'taki Bilgi tutarlılığı varsay ayarı
+              href: desktop-assume-referential-integrity.md
+            - name: Power BI Desktop'ta SAP BW bağlayıcısını kullanma
+              href: desktop-sap-bw-connector.md
+            - name: Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
+              href: desktop-use-onedrive-business-links.md
+            - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Facebook bağlayıcısı'
+              href: service-facebook-connector.md
+            - name: 'Üçüncü taraf hizmeti: Power BI Desktop için Google Analytics bağlayıcısı'
+              href: service-google-analytics-connector.md
+            - name: 'Project Online: Power BI Desktop aracılığıyla verilere bağlanma'
+              href: desktop-project-online-connect-to-data.md
+        - name: Verileri dönüştürme ve şekillendirme
+          items:
+            - name: İkili değerleri birleştirme
+              href: desktop-combine-binaries.md
+        - name: Verilerinizi modelleme
+          items:
+            - name: Power BI Desktop'ta verileri kategorilere ayırma
+              href: desktop-data-categorization.md
+            - name: Mobil uygulamalar için bir barkod alanı etiketleme
+              href: desktop-mobile-barcodes.md
+            - name: Mobil uygulamalar için coğrafi filtreleme ayarlama
+              href: desktop-mobile-geofiltering.md
+            - name: Power BI Desktop'taki hesaplanmış sütunlar
+              href: desktop-calculated-columns.md
+            - name: Power BI Desktop'taki hesaplanmış tablolar
+              href: desktop-calculated-tables.md
+            - name: Power BI Desktop'taki ölçüler
+              href: desktop-measures.md
+            - name: Soru-Cevap dil şemasını düzenleme
+              href: power-bi-q-and-a-linguistic-schema.md
+            - name: KPI'leri içeri aktarma ve görüntüleme (Önizleme)
+              href: desktop-import-and-display-kpis.md
+        - name: Rapor oluşturma
+          items:
+            - name: Power BI Desktop'ta performans çözümleyicisini kullanma
+              href: desktop-performance-analyzer.md
+            - name: Raporlar için görsel öğeler
+              href: desktop-visual-elements-for-reports.md
+            - name: Rapor sayfalarını temel alan araç ipuçları oluşturma
+              href: desktop-tooltips.md
+            - name: PDF’ye dışarı aktarma ve raporları yazdırma
+              href: desktop-export-to-pdf.md
+            - name: Power BI Desktop’ta Soru-Cevap
+              href: desktop-qna-in-reports.md
+            - name: Power BI Desktop'taki Analiz bölmesi
+              href: desktop-analytics-pane.md
+            - name: Artış ve azalmaları açıklamak için içgörüleri kullanma
+              href: desktop-insights.md
+            - name: Grafikte dağılımın farklı olduğu yerleri bulmak için içgörüleri kullanma
+              href: desktop-insights-find-where-different.md
+            - name: Power BI'da yer işaretleri
+              href: desktop-bookmarks.md
+            - name: Rapor temalarını kullanma
+              href: desktop-report-themes.md
+            - name: Yeni filtre deneyimine gözatın
+              href: power-bi-report-filter-preview.md
+            - name: Hızlı Ölçüleri kullanma
+              href: desktop-quick-measures.md
+            - name: Durum parametrelerini kullanma
+              href: desktop-what-if.md
+            - name: Detaylandırmayı kullanma
+              href: desktop-drillthrough.md
+            - name: Çapraz rapor detaylandırmayı kullanma
+              href: desktop-cross-report-drill-through.md
+            - name: Göreli tarih dilimleyici ve filtre kullanma
+              href: visuals/desktop-slicer-filter-date-range.md
+            - name: Gruplandırma ve gruplamayı kullanma
+              href: desktop-grouping-and-binning.md
+            - name: R programlama dilini kullanarak Power BI görselleri oluşturma
+              href: desktop-r-visuals.md
+            - name: R tarafından sağlanan özel görselleri kullanma
+              href: desktop-r-powered-custom-visuals.md
+            - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini kullanma
+              href: desktop-gridlines-snap-to-grid.md
+            - name: Power BI raporlarında sayfa görüntüleme ayarları
+              href: power-bi-report-display-settings.md
+            - name: Örnekten sütun ekleme
+              href: desktop-add-column-from-example.md
+            - name: Özel sütun ekleme
+              href: desktop-add-custom-column.md
+            - name: Power BI'da yanıt veren görseller oluşturma
+              href: visuals/desktop-create-responsive-visuals.md
+            - name: Power BI Desktop'taki satır içi hiyerarşi etiketlerini kullanma
+              href: desktop-inline-hierarchy-labels.md
+            - name: Sayısal aralık dilimleyiciyi kullanma
+              href: desktop-slicer-numeric-range.md
+            - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
+              href: power-bi-slicer-filter-responsive.md
+            - name: Cortana için özel yanıt kartları oluşturma
+              href: service-cortana-answer-cards.md
+            - name: Satır düzeyi güvenlik
+              href: desktop-rls.md
+            - name: Araç ipuçlarını özelleştirme
+              href: desktop-custom-tooltips.md
+            - name: Raporlardaki şekiller ve metin kutuları
+              href: power-bi-reports-add-text-and-shapes.md
+            - name: Metin kutularına köprü ekleme
+              href: service-add-hyperlink-to-text-box.md
+            - name: Tablolardaki köprüler
+              href: power-bi-hyperlinks-in-tables.md
+            - name: Koşullu tablo biçimlendirmesi
+              href: desktop-conditional-table-formatting.md
+            - name: Koşullu ifade temelli başlık biçimlendirme
+              href: desktop-conditional-format-visual-titles.md
+            - name: Power BI Desktop'ta sütuna göre sıralama
+              href: desktop-sort-by-column.md
+            - name: Mobil uygulamalar için raporları iyileştirme
+              href: desktop-create-phone-report.md
+            - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini kullanma
+              href: desktop-see-data-see-records.md
+            - name: Rapor oluşturmaya yönelik ipuçları
+              href: desktop-tips-and-tricks-for-creating-reports.md
+        - name: Görselleştirmeler
+          items:
+            - name: Power BI'daki görselleştirmeler
+              href: visuals/power-bi-report-visualizations.md
+            - name: Görselleştirmelere ilişkin en iyi uygulamalar
+              href: visuals/power-bi-visualization-best-practices.md
+            - name: Bir rapordaki görselleştirmenin türünü değiştirme
+              href: visuals/power-bi-report-change-visualization-type.md
+            - name: Görsel türüne göre veri noktası sınırları
+              href: visuals/power-bi-data-points.md
+            - name: Görseli oluşturmak için kullanılan verileri gösterme
+              href: visuals/service-reports-show-data.md
+            - name: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
+              href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
+            - name: Renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
+              href: visuals/service-tips-and-tricks-for-color-formatting.md
+            - name: Görselleştirmeleri kopyalayıp yapıştırma
+              href: visuals/power-bi-visualization-copy-paste.md
+            - name: Görselleştirmeyi oluşturmak için kullanılan verileri dışarı aktarma
+              href: visuals/power-bi-visualization-export-data.md
+            - name: 'Raporlardaki görselleştirmeleri taşıma, yeniden boyutlandırma ve çıkarma'
+              href: visuals/power-bi-visualization-move-and-resize.md
+            - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
+              href: service-reports-visual-interactions.md
+            - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
+              href: visuals/power-bi-map-tips-and-tricks.md
+            - name: X ve Y ekseni özelliklerini özelleştirme
+              href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: ArcGIS haritaları
+              href: visuals/power-bi-visualization-arcgis.md
+            - name: Basit alan grafiği
+              href: visuals/power-bi-visualization-basic-area-chart.md
+            - name: Power BI'da kartlar (büyük sayı kutucukları)
+              href: visuals/power-bi-visualization-card.md
+            - name: Power BI'da birleşik harita
+              href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI'da halka grafikler
+              href: visuals/power-bi-visualization-doughnut-charts.md
+            - name: Power BI'da kartogramlar (Koroplet haritalar)
+              href: visuals/power-bi-visualization-filled-maps-choropleths.md
+            - name: Power BI'da huni grafikleri
+              href: visuals/power-bi-visualization-funnel-charts.md
+            - name: Power BI’daki ana etmen grafikleri
+              href: visuals/power-bi-visualization-influencers.md
+            - name: Yüksek yoğunluklu çizgi örnekleme
+              href: desktop-high-density-sampling.md
+            - name: KPI Görselleri
+              href: visuals/power-bi-visualization-kpi.md
+            - name: Matris görseli
+              href: visuals/desktop-matrix-visual.md
+            - name: Power BI'da R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
+              href: visuals/service-r-visuals.md
+            - name: Power BI'da radyal ölçer grafikleri
+              href: visuals/power-bi-visualization-radial-gauge-charts.md
+            - name: Şerit grafikler
+              href: visuals/desktop-ribbon-charts.md
+            - name: Power BI'da dağılım grafikleri
+              href: visuals/power-bi-visualization-scatter.md
+            - name: Yüksek yoğunluklu dağılım grafikleri
+              href: visuals/desktop-high-density-scatter-charts.md
+            - name: Power BI Desktop'ta Şekil Haritalarını kullanma (Önizleme)
+              href: visuals/desktop-shape-map.md
+            - name: Power BI'da dilimleyiciler
+              href: visuals/power-bi-visualization-slicers.md
+            - name: Power BI'da tablolar
+              href: visuals/power-bi-visualization-tables.md
+            - name: Power BI'da ağaç haritaları
+              href: visuals/power-bi-visualization-treemaps.md
+            - name: Power BI'da şelale grafikler
+              href: visuals/power-bi-visualization-waterfall-charts.md
+            - name: Dinamik başvuru çizgileri oluşturma
+              href: service-analytics-pane.md
+        - name: Sorun giderme
+          items:
+            - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
+              href: desktop-access-database-errors.md
+            - name: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
+              href: desktop-error-launching-desktop.md
+    - name: Başvuru
+      items:
+        - name: Power BI Desktop'taki veri türleri
+          href: desktop-data-types.md
+        - name: Power BI Desktop için formül düzenleyicisi kısayolları
+          href: desktop-formula-editor.md
+        - name: Power BI Desktop gizlilik düzeyleri
+          href: desktop-privacy-levels.md
+        - name: Power BI’da bağlayıcı genişletilebilirliği
+          href: desktop-connector-extensibility.md
+        - name: İmzalanmış üçüncü taraf bağlayıcılarına güvenme
+          href: desktop-trusted-third-party-connectors.md
+    - name: Kaynaklar
+      items:
+        - name: Power BI Desktop videoları
+          href: desktop-videos.md
+        - name: Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
+          href: desktop-latest-update-archive.md
+        - name: Power BI Desktop Gülümseme Gönder gizlilik bildirimi
+          href: desktop-send-smile-privacy-statement.md
+        - name: Power BI raporlarında erişilebilirlik
+          href: desktop-accessibility.md
+        - name: Power BI Desktop oturum açma formunu yönetme
+          href: desktop-admin-sign-in-form.md
 - name: Power BI hizmeti
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI nedir?
-      href: power-bi-overview.md
-    - name: Power BI Desktop ile hizmeti karşılaştırma
-      href: service-service-vs-desktop.md
-  - name: Öğreticiler
-    items:
-    - name: Power BI ile çalışmaya başlama
-      href: service-get-started.md
-    - name: GitHub örneğine bağlanma
-      href: service-tutorial-connect-to-github.md
-    - name: Power BI’da Bilişsel Hizmetler’i kullanma
-      href: service-tutorial-use-cognitive-services.md
-    - name: Power BI ile Machine Learning tümleştirmesi
-      href: service-tutorial-invoke-machine-learning-model.md
-    - name: Power BI ile Makine Öğrenmesi modeli oluşturma (Önizleme)
-      href: service-tutorial-build-machine-learning-model.md
-  - name: Kavramlar
-    items:
-    - name: Power BI hizmetindeki yenilikler
-      href: service-whats-new.md
-    - name: Temel kavramlar
+    - name: Genel Bakış
       items:
-      - name: Tasarımcılar için temel kavramlar
-        href: service-basic-concepts.md
-      - name: Power BI'daki veri türleri
-        href: service-get-data.md
-      - name: Rapor düzenleyicisi turu
-        href: service-the-report-editor-take-a-tour.md
-    - name: Power BI’da iş akışı
+        - name: Power BI nedir?
+          href: power-bi-overview.md
+        - name: Power BI Desktop ile hizmeti karşılaştırma
+          href: service-service-vs-desktop.md
+    - name: Öğreticiler
       items:
-      - name: Çalışmanızı düzenleme
-        href: service-new-workspaces.md
-      - name: Çalışmanızı paylaşmanın yolları
-        href: service-how-to-collaborate-distribute-dashboards-reports.md
-      - name: Verilerin güncel kalmasını sağlama
-        href: refresh-data.md
-      - name: Kullanımı izleme
-        href: service-usage-metrics.md
-    - name: Lisanslama
+        - name: Power BI ile çalışmaya başlama
+          href: service-get-started.md
+        - name: GitHub örneğine bağlanma
+          href: service-tutorial-connect-to-github.md
+        - name: Bilişsel Hizmetler'i kullanma
+          href: service-tutorial-use-cognitive-services.md
+        - name: Machine Learning tümleştirmesi
+          href: service-tutorial-invoke-machine-learning-model.md
+        - name: Makine Öğrenmesi modeli oluşturma (Önizleme)
+          href: service-tutorial-build-machine-learning-model.md
+        - name: Verileri SQL Server'dan yenileme
+          href: service-gateway-sql-tutorial.md
+    - name: Kavramlar
       items:
-      - name: Self servise kaydolma
-        href: service-self-service-signup-for-power-bi.md
-      - name: Kuruluşunuzda lisanslama
-        href: service-admin-licensing-organization.md
-      - name: Lisans türüne göre özellikler
-        href: service-features-license-type.md
-    - name: Diğer kavramlar
+        - name: Power BI hizmetindeki yenilikler
+          href: service-whats-new.md
+        - name: Temel kavramlar
+          items:
+            - name: Tasarımcılar için temel kavramlar
+              href: service-basic-concepts.md
+            - name: Power BI'daki veri türleri
+              href: service-get-data.md
+            - name: Rapor düzenleyicisi turu
+              href: service-the-report-editor-take-a-tour.md
+        - name: Power BI’da iş akışı
+          items:
+            - name: Çalışmanızı düzenleme
+              href: service-new-workspaces.md
+            - name: Çalışmanızı paylaşmanın yolları
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: Verilerin güncel kalmasını sağlama
+              href: refresh-data.md
+            - name: Kullanımı izleme
+              href: service-usage-metrics.md
+        - name: Lisanslama
+          items:
+            - name: Self servise kaydolma
+              href: service-self-service-signup-for-power-bi.md
+            - name: Kuruluşunuzda lisanslama
+              href: service-admin-licensing-organization.md
+            - name: Lisans türüne göre özellikler
+              href: service-features-license-type.md
+        - name: Diğer kavramlar
+          items:
+            - name: Yardım almaya yönelik 10 ipucu
+              href: service-tips-for-finding-help.md
+            - name: Power BI destek seçenekleri
+              href: service-support-options.md
+            - name: Özel durumlarda lisanslama
+              items:
+                - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
+                  href: service-extended-pro-trial.md
+                - name: Power BI for US Government
+                  href: service-govus-overview.md
+                - name: Almanya'daki Cloud müşterileri için SSS
+                  href: service-govde-faq.md
+            - name: Diğer
+              items:
+                - name: Microsoft Flow ve Power BI
+                  href: service-flow-integration.md
+                - name: Üçüncü taraf uygulamalarla çalışmaya başlama
+                  href: service-power-bi-get-started-third-party-apps.md
+    - name: Nasıl yapılır?
       items:
-      - name: Yardım almaya yönelik 10 ipucu
-        href: service-tips-for-finding-help.md
-      - name: Power BI destek seçenekleri
-        href: service-support-options.md
-      - name: Özel durumlarda lisanslama
-        items:
-        - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
-          href: service-extended-pro-trial.md
-        - name: Power BI for US Government
-          href: service-govus-overview.md
-        - name: Almanya'daki Cloud müşterileri için SSS
-          href: service-govde-faq.md
-      - name: Diğer
-        items:
-        - name: Microsoft Flow ve Power BI
-          href: service-flow-integration.md
-        - name: Üçüncü taraf uygulamalarla çalışmaya başlama
-          href: service-power-bi-get-started-third-party-apps.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Dosyalardan veri alma
+        - name: Dosyalardan veri alma
+          items:
+            - name: Dosyalardan veri alma
+              href: service-get-data-from-files.md
+            - name: Excel'den büyüleyici raporlara
+              href: service-from-excel-to-stunning-report.md
+            - name: Excel çalışma kitabı dosyalarından veri alma
+              href: service-excel-workbook-files.md
+            - name: Power BI Desktop dosyalarından veri alma
+              href: service-desktop-files.md
+            - name: Parametreleri düzenleme
+              href: service-parameters.md
+            - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
+              href: service-comma-separated-value-files.md
+            - name: Power BI'da gerçek zamanlı akış
+              href: service-real-time-streaming.md
+            - name: Excel'deki içeriği Power BI'da yayımlama
+              href: service-publish-from-excel.md
+            - name: Excel çalışma kitabının boyutunu azaltma
+              href: reduce-the-size-of-an-excel-workbook.md
+        - name: Paylaşılan veri kümelerinden veri alma
+          items:
+            - name: Veri kümelerini çalışma alanları arasında kullanma
+              href: service-datasets-across-workspaces.md
+            - name: Veri kümelerini oluşturma ve paylaşma (Önizleme)
+              href: service-datasets-build-permissions.md
+            - name: Veri kümelerine dayalı raporlar oluşturma
+              href: service-datasets-discover-across-workspaces.md
+            - name: Veri kümelerine dayalı raporları kopyalama
+              href: service-datasets-copy-reports.md
+            - name: Veri kümelerini yükseltme
+              href: service-datasets-promote.md
+            - name: Veri kümelerini onaylama
+              href: service-datasets-certify.md
+            - name: Veri kümelerinin kullanımını denetleme
+              href: service-datasets-admin-across-workspaces.md
+        - name: Veritabanlarından veri alma
+          items:
+            - name: Azure ve Power BI
+              href: service-azure-and-power-bi.md
+            - name: Power BI ve Azure çıkışı
+              href: service-azure-egress-power-bi.md
+            - name: DirectQuery ile Azure SQL Veri Ambarı
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: DirectQuery ile Azure SQL Veritabanı
+              href: service-azure-sql-database-with-direct-connect.md
+            - name: Power BI'da SQL Server Analysis Services canlı verileri
+              href: sql-server-analysis-services-tabular-data.md
+        - name: Verileri yenile
+          items:
+            - name: Zamanlanmış yenileme yapılandırma
+              href: refresh-scheduled-refresh.md
+            - name: Yerel bir Power BI Desktop dosyasından veri kümesini yenileme
+              href: refresh-desktop-file-local-drive.md
+            - name: Buluttaki Power BI Desktop dosyasından veri kümesini yenileme
+              href: refresh-desktop-file-onedrive.md
+            - name: Yerel bir Excel çalışma kitabından veri kümesini yenileme
+              href: refresh-excel-file-local-drive.md
+            - name: Buluttaki Excel çalışma kitabından veri kümesini yenileme
+              href: refresh-excel-file-onedrive.md
+            - name: OneDrive’daki bir .csv dosyasında bulunan veri kümelerini yenileme
+              href: refresh-csv-file-onedrive.md
+            - name: Power BI Premium’da sorguları önbelleğe alma
+              href: power-bi-query-caching.md
+            - name: Yenileme ile ilgili sorun giderme senaryoları
+              href: refresh-troubleshooting-refresh-scenarios.md
+        - name: Panolar
+          items:
+            - name: Panolara giriş
+              href: service-dashboards.md
+            - name: Pano kutucukları
+              href: service-dashboard-tiles.md
+            - name: Rapordan pano oluşturma
+              href: service-dashboard-create.md
+            - name: Panonuzun kopyasını oluşturma
+              href: service-dashboard-copy.md
+            - name: Rapordan kutucukları panolara sabitleme
+              href: service-dashboard-pin-tile-from-report.md
+            - name: Bir panodaki kutucukları diğer panoya sabitleme
+              href: service-pin-tile-to-another-dashboard.md
+            - name: Excel'den kutucukları panolara sabitleme
+              href: service-dashboard-pin-tile-from-excel.md
+            - name: Soru-Cevap'tan kutucukları panolara sabitleme
+              href: service-dashboard-pin-tile-from-q-and-a.md
+            - name: Rapor sayfasının tamamını panoya sabitleme
+              href: service-dashboard-pin-live-tile-from-report.md
+            - name: Power BI hizmetindeki veri uyarıları
+              href: service-set-data-alerts.md
+            - name: 'Panoya resim, metin kutusu, video veya kod ekleme'
+              href: service-dashboard-add-widget.md
+            - name: Kutucukları düzenleme
+              href: service-dashboard-edit-tile.md
+            - name: Harika bir pano oluşturmaya yönelik ipuçları
+              href: service-dashboards-design-tips.md
+            - name: Panoyu telefonlar için iyileştirme
+              href: service-create-dashboard-mobile-phone-view.md
+            - name: Bir kutucuk için QR kodu oluşturma
+              href: service-create-qr-code-for-tile.md
+            - name: Panolara resim ekleme
+              href: service-dashboard-add-image.md
+            - name: Pano veri sınıflandırması
+              href: service-data-classification.md
+            - name: Pano temaları
+              href: service-dashboard-themes.md
+        - name: Raporlar
+          items:
+            - name: Bir veri kümesinden rapor oluşturma
+              href: service-report-create-new.md
+            - name: Raporlarda filtreleme ve vurgulama
+              href: power-bi-reports-filters-and-highlighting.md
+            - name: Rapora filtre ekleme
+              href: power-bi-report-add-filter.md
+            - name: Raporu kaydetme
+              href: service-report-save.md
+            - name: Düzenleme Görünümü’nde bir raporla etkileşim kurma
+              href: service-interact-with-a-report-in-editing-view.md
+            - name: Excel'de Analiz Et
+              href: service-analyze-in-excel.md
+            - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
+              href: power-bi-reports-tips-and-tricks-for-creating.md
+            - name: Hizmetteki kümelerle çalışma
+              href: service-aggregates.md
+            - name: Raporlar için kullanım ölçümleri
+              href: service-usage-metrics.md
+            - name: Rapor için QR kodu oluşturma
+              href: service-create-qr-code-for-report.md
+            - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
+              href: service-export-to-pbix.md
+            - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
+              href: service-url-filters.md
+            - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
+              href: power-bi-reports-performance.md
+        - name: Verileriniz hakkında soru sorma
+          items:
+            - name: Verilerinizi keşfetmek için Soru-Cevap kullanma
+              href: power-bi-tutorial-q-and-a.md
+            - name: Soru-Cevap özelliğiyle görsel oluşturma
+              href: power-bi-visualization-introduction-to-q-and-a.md
+            - name: Soru-Cevap özelliğiyle Excel verilerinin düzgün çalışmasını sağlama
+              href: service-prepare-data-for-q-and-a.md
+            - name: Soru-Cevap için öne çıkan sorular oluşturma
+              href: service-q-and-a-create-featured-questions.md
+            - name: Soru-Cevap’taki görselleştirme türleri
+              href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+            - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
+              href: service-q-and-a-direct-query.md
+            - name: Power BI için Cortana'ya giriş
+              href: service-cortana-intro.md
+            - name: Power BI için Cortana'yı etkinleştirme
+              href: service-cortana-enable.md
+            - name: Power BI'daki Hızlı Öngörüler
+              href: service-insights.md
+            - name: Hızlı İçgörüler için verileri iyileştirme
+              href: service-insights-optimize.md
+        - name: Power BI'da işbirliği
+          items:
+            - name: Yeni çalışma alanları oluşturma
+              href: service-create-the-new-workspaces.md
+            - name: Uygulama çalışma alanları oluşturma
+              href: service-create-workspaces.md
+            - name: Çalışma alanlarındaki uygulamaları yayımlama
+              href: service-create-distribute-apps.md
+            - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
+              href: service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
+            - name: Grup çalışma alanınızda işbirliği yapma
+              href: service-collaborate-power-bi-workspace.md
+            - name: Power BI ve Office 365'teki grubunuzu yönetme
+              href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Çalışmanızı yayımlama ve paylaşma
+          items:
+            - name: Panoları ve raporları paylaşma
+              href: service-share-dashboards.md
+            - name: Filtrelenmiş rapor paylaşma
+              href: service-share-reports.md
+            - name: Kendinizin ve başkalarının abone olmasını sağlama
+              href: service-report-subscribe.md
+            - name: SharePoint Online'a rapor ekleme
+              href: service-embed-report-spo.md
+            - name: Raporu güvenli bir portala veya web sitesine ekleme
+              href: service-embed-secure.md
+            - name: Power BI'dan web'de yayımlama
+              href: service-publish-to-web.md
+            - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
+              href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Excel için Power BI Publisher
+              href: publisher-for-excel.md
+        - name: Self servis veri hazırlığı
+          items:
+            - name: Veri akışları ile self servis veri hazırlığı
+              href: service-dataflows-overview.md
+            - name: Veri akışları oluşturma ve kullanma
+              href: service-dataflows-create-use.md
+            - name: Power BI Premium ile hesaplanan varlıklar
+              href: service-dataflows-computed-entities-premium.md
+            - name: İş akışları ile veri kaynaklarına bağlanma
+              href: service-dataflows-data-sources.md
+            - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
+              href: service-dataflows-on-premises-gateways.md
+            - name: Veri akışları arasındaki varlıkları ilişkilendirme
+              href: service-dataflows-linked-entities.md
+            - name: Veri akışları ile artımlı yenilemeyi kullanma
+              href: service-dataflows-incremental-refresh.md
+            - name: Veri akışları için geliştirici kaynakları
+              href: service-dataflows-developer-resources.md
+            - name: Power BI Desktop’taki veri akışlarına bağlanma
+              href: desktop-connect-dataflows.md
+            - name: Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
+              href: service-dataflows-azure-data-lake-integration.md
+            - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
+              href: service-dataflows-configure-workspace-storage-settings.md
+            - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
+              href: service-dataflows-add-cdm-folder.md
+            - name: (Önizleme) Power BI’da Machine Learning’i tümleştirme
+              href: service-machine-learning-integration.md
+            - name: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma
+              href: service-cognitive-services.md
+            - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
+              href: service-machine-learning-automated.md
+        - name: Power BI’daki sayfalandırılmış raporlar
+          items:
+            - name: Sayfalandırılmış raporlar nedir? (Önizleme)
+              href: paginated-reports-report-builder-power-bi.md
+            - name: Sayfalandırılmış raporlar hakkında SSS (Önizleme)
+              href: paginated-reports-faq.md
+            - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme (Önizleme)
+              href: paginated-reports-quickstart-aw.md
+            - name: Rapor Tasarım Görünümünde gezinme (Önizleme)
+              href: paginated-reports-report-design-view.md
+            - name: Verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
+              href: paginated-reports-enter-data.md
+            - name: Eklenmiş veri kaynağı oluşturma (Önizleme)
+              href: paginated-reports-embedded-data-source.md
+            - name: Eklenmiş veri kümesi oluşturma (Önizleme)
+              href: paginated-reports-create-embedded-dataset.md
+            - name: Parametreler oluşturma (Önizleme)
+              href: paginated-reports-parameters.md
+            - name: Sayfalandırılmış rapor yayımlama (Önizleme)
+              href: paginated-reports-save-to-power-bi-service.md
+            - name: Sayfalandırılmış raporları görüntüleme (Önizleme)
+              href: paginated-reports-view-power-bi-service.md
+            - name: Parametrelerle etkileşim kurma (Önizleme)
+              href: paginated-reports-view-parameters.md
+            - name: Kendinizin veya başkalarının abone olmasını sağlama
+              href: paginated-reports-subscriptions.md
+        - name: Şablon uygulamalar
+          items:
+            - name: Şablon uygulamalara genel bakış
+              href: service-template-apps-overview.md
+            - name: Şablon uygulamalar oluşturma
+              href: service-template-apps-create.md
+            - name: Şablon uygulamalar oluşturmaya ilişkin ipuçları
+              href: service-template-apps-tips.md
+            - name: Şablon uygulamaları yükleme ve dağıtma
+              href: service-template-apps-install-distribute.md
+        - name: Sorun giderme
+          items:
+            - name: Power BI parolanızı mı unuttunuz?
+              href: service-admin-forgot-your-password.md
+            - name: Power BI için ek tanılama bilgileri yakalama
+              href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+            - name: Power BI için alternatif e-posta adresi
+              href: service-admin-alternate-email-address-for-power-bi.md
+            - name: Power BI ve Azure için aynı hesap oturumunu kullanma
+              href: service-admin-how-to-use-the-same-account-as-azure.md
+            - name: Office 365'e özel - bilinen sorunlar
+              href: service-admin-office-365-dedicated-known-issues.md
+            - name: Cortana ile ilgili sorunları giderme
+              href: service-cortana-troubleshoot.md
+            - name: Excel'de çözümleme ile ilgili sorunları giderme
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
+              href: service-gateway-onprem-tshoot.md
+            - name: Power BI Gateway - Personal ile ilgili sorunları giderme
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: Metin olarak döndürülen İç İçe Değerlerle ilgili sorunları giderme
+              href: service-troubleshooting-nested-values.md
+            - name: Azure SQL Veritabanları için zamanlanmış yenileme ile ilgili sorunları giderme
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Kutucuk hatalarıyla ilgili sorunları giderme
+              href: refresh-troubleshooting-tile-errors.md
+            - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
+              href: service-refresh-xero-credentials.md
+            - name: Oturum açılamıyor
+              href: power-bi-cannot-sign-in.md
+        - name: Diğer görevler
+          items:
+            - name: Power BI'daki içerikleri yeniden adlandırma
+              href: service-rename.md
+            - name: ABD Kamu kuruluşunuzu kaydetme
+              href: service-govus-signup.md
+            - name: Power BI'da neredeyse her şeyi silme
+              href: service-delete.md
+            - name: Hizmetlere bağlanma
+              items:
+                - name: Uygulamalarla hizmetlere bağlanma
+                  href: service-connect-to-services.md
+                - name: Acumatica
+                  href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
+                - name: Alpine Metrics Sales Predictions
+                  href: service-connect-to-alpine-metrics.md
+                - name: appFigures
+                  href: service-connect-to-appfigures.md
+                - name: Application Insights
+                  href: service-connect-to-application-insights.md
+                - name: AT Internet Bridge
+                  href: service-connect-to-at-internet.md
+                - name: Azure Denetim Günlükleri
+                  href: service-connect-to-azure-audit-logs.md
+                - name: Azure Mobile Engagement
+                  href: service-connect-to-azure-mobile.md
+                - name: Microsoft Azure Tüketim Öngörüleri
+                  href: service-connect-to-azure-consumption-insights.md
+                - name: Azure Search
+                  href: service-connect-to-azure-search.md
+                - name: Circuit ID
+                  href: service-connect-to-circuit-id.md
+                - name: ClickDimensions
+                  href: service-connect-to-clickdimensions.md
+                - name: comScore Digital Analytix
+                  href: service-connect-to-connect-to.md
+                - name: GitHub
+                  href: service-connect-to-github.md
+                - name: Insightly
+                  href: service-connect-to-insightly.md
+                - name: IntelliBoard
+                  href: service-connect-to-intelliboard.md
+                - name: Lithium
+                  href: service-connect-to-lithium.md
+                - name: MailChimp
+                  href: service-connect-to-mailchimp.md
+                - name: Mandrill
+                  href: service-connect-to-mandrill.md
+                - name: Marketo
+                  href: service-connect-to-marketo.md
+                - name: Microsoft Dynamics AX
+                  href: service-connect-to-microsoft-dynamics-ax.md
+                - name: Microsoft Dynamics CRM
+                  href: service-connect-to-microsoft-dynamics-crm.md
+                - name: Microsoft Dynamics NAV
+                  href: service-connect-to-microsoft-dynamics-nav.md
+                - name: Office365Mon
+                  href: service-connect-to-office365mon.md
+                - name: Planview Enterprise
+                  href: service-connect-to-planview.md
+                - name: Prevedere
+                  href: service-connect-to-prevedere.md
+                - name: Project Online
+                  href: service-connect-to-project-online.md
+                - name: Projectplace
+                  href: service-connect-to-projectplace.md
+                - name: QuickBooks Online
+                  href: service-connect-to-quickbooks-online.md
+                - name: Salesforce
+                  href: service-connect-to-salesforce.md
+                - name: SendGrid
+                  href: service-connect-to-sendgrid.md
+                - name: ServiceNow Incidents
+                  href: service-connect-to-servicenow.md
+                - name: Smartsheet
+                  href: service-connect-to-smartsheet.md
+                - name: SparkPost
+                  href: service-connect-to-sparkpost.md
+                - name: SQL Veritabanı Denetimi
+                  href: service-connect-to-azure-sql-database-auditing.md
+                - name: SQL Sentry
+                  href: service-connect-to-sql-sentry.md
+                - name: Stripe
+                  href: service-connect-to-stripe.md
+                - name: SweetIQ
+                  href: service-connect-to-sweetiq.md
+                - name: Troux
+                  href: service-connect-to-troux.md
+                - name: Twilio
+                  href: service-connect-to-twilio.md
+                - name: tyGraph
+                  href: service-connect-to-tygraph.md
+                - name: UserVoice
+                  href: service-connect-to-uservoice.md
+                - name: VMob
+                  href: service-connect-to-vmob.md
+                - name: Webtrends
+                  href: service-connect-to-webtrends.md
+                - name: Windows Geliştirme Merkezi
+                  href: service-connect-to-windows-dev-center.md
+                - name: Xero
+                  href: service-connect-to-xero.md
+                - name: Zendesk
+                  href: service-connect-to-zendesk.md
+                - name: Ziosk
+                  href: service-connect-to-ziosk.md
+                - name: Zuora
+                  href: service-connect-to-zuora.md
+            - name: Kurumsal içerik paketleri
+              items:
+                - name: Kurumsal içerik paketlerine giriş
+                  href: service-organizational-content-pack-introduction.md
+                - name: İçerik paketi oluşturma ve yayımlama
+                  href: service-organizational-content-pack-create-and-publish.md
+                - name: 'İçerik paketlerini kopyalama, yenileme ve bunlara erişme'
+                  href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'İçerik paketlerini yönetme, güncelleştirme ve silme'
+                  href: service-organizational-content-pack-manage-update-delete.md
+                - name: İçerik paketi bağlantısını kesme
+                  href: service-organizational-content-pack-disconnect.md
+    - name: Kaynaklar
       items:
-      - name: Dosyalardan veri alma
-        href: service-get-data-from-files.md
-      - name: Excel'den büyüleyici raporlara
-        href: service-from-excel-to-stunning-report.md
-      - name: Excel çalışma kitabı dosyalarından veri alma
-        href: service-excel-workbook-files.md
-      - name: Power BI Desktop dosyalarından veri alma
-        href: service-desktop-files.md
-      - name: Parametreleri düzenleme
-        href: service-parameters.md
-      - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
-        href: service-comma-separated-value-files.md
-      - name: Power BI'da gerçek zamanlı akış
-        href: service-real-time-streaming.md
-      - name: Excel'deki içeriği Power BI'da yayımlama
-        href: service-publish-from-excel.md
-      - name: Excel çalışma kitabının boyutunu azaltma
-        href: reduce-the-size-of-an-excel-workbook.md
-    - name: Veritabanlarından veri alma
+        - name: Videolar
+          href: videos.md
+        - name: Web Seminerleri
+          href: webinars.md
+        - name: Desteklenen diller ve ülkeler/bölgeler
+          href: supported-languages-countries-regions.md
+        - name: Teknik incelemeler
+          items:
+            - name: Teknik incelemelere genel bakış
+              href: whitepapers.md
+            - name: Power BI güvenliği teknik incelemesi
+              href: whitepaper-powerbi-security.md
+            - name: Power BI premium dağıtımı
+              href: whitepaper-powerbi-premium-deployment.md
+            - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
+              href: whitepaper-azure-b2b-power-bi.md
+- name: Power BI Premium
+  items:
+    - name: Genel Bakış
       items:
-      - name: Azure ve Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI ve Azure çıkışı
-        href: service-azure-egress-power-bi.md
-      - name: DirectQuery ile Azure SQL Veri Ambarı
-        href: service-azure-sql-data-warehouse-with-direct-connect.md
-      - name: DirectQuery ile Azure SQL Veritabanı
-        href: service-azure-sql-database-with-direct-connect.md
-      - name: Power BI'da SQL Server Analysis Services canlı verileri
-        href: sql-server-analysis-services-tabular-data.md
-    - name: Verileri yenile
+        - name: Power BI Premium nedir?
+          href: service-premium-what-is.md
+    - name: Kavramlar
       items:
-      - name: Zamanlanmış yenileme yapılandırma
-        href: refresh-scheduled-refresh.md
-      - name: Yerel bir Power BI Desktop dosyasından veri kümelerini yenileme
-        href: refresh-desktop-file-local-drive.md
-      - name: Buluttaki bir Power BI Desktop dosyasından veri kümelerini yenileme
-        href: refresh-desktop-file-onedrive.md
-      - name: Yerel bir Excel çalışma kitabı dosyasından veri kümelerini yenileme
-        href: refresh-excel-file-local-drive.md
-      - name: Buluttaki bir Excel çalışma kitabı dosyasından veri kümelerini yenileme
-        href: refresh-excel-file-onedrive.md
-      - name: OneDrive’daki bir .csv dosyasında bulunan veri kümelerini yenileme
-        href: refresh-csv-file-onedrive.md
-      - name: Power BI Premium’da sorguları önbelleğe alma
-        href: power-bi-query-caching.md
-      - name: Yenileme ile ilgili sorun giderme senaryoları
-        href: refresh-troubleshooting-refresh-scenarios.md
-    - name: Panolar
+        - name: Premium kapasiteleri yönetme
+          href: service-premium-capacity-manage.md
+        - name: Premium kapasiteleri iyileştirme
+          href: service-premium-capacity-optimize.md
+        - name: Premium kapasite senaryoları
+          href: service-premium-capacity-scenarios.md
+        - name: Power BI Premium hakkında SSS
+          href: service-premium-faq.md
+    - name: Nasıl yapılır?
       items:
-      - name: Panolara giriş
-        href: service-dashboards.md
-      - name: Pano kutucukları
-        href: service-dashboard-tiles.md
-      - name: Rapordan pano oluşturma
-        href: service-dashboard-create.md
-      - name: Panonuzun kopyasını oluşturma
-        href: service-dashboard-copy.md
-      - name: Rapordan kutucukları panolara sabitleme
-        href: service-dashboard-pin-tile-from-report.md
-      - name: Bir panodaki kutucukları diğer panoya sabitleme
-        href: service-pin-tile-to-another-dashboard.md
-      - name: Excel'den kutucukları panolara sabitleme
-        href: service-dashboard-pin-tile-from-excel.md
-      - name: Soru-Cevap'tan kutucukları panolara sabitleme
-        href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Rapor sayfasının tamamını panoya sabitleme
-        href: service-dashboard-pin-live-tile-from-report.md
-      - name: Power BI hizmetindeki veri uyarıları
-        href: service-set-data-alerts.md
-      - name: Panoya resim, metin kutusu, video veya kod ekleme
-        href: service-dashboard-add-widget.md
-      - name: Kutucukları düzenleme
-        href: service-dashboard-edit-tile.md
-      - name: Harika bir pano oluşturmaya yönelik ipuçları
-        href: service-dashboards-design-tips.md
-      - name: Bir panonun telefon görünümünü oluşturma
-        href: service-create-dashboard-mobile-phone-view.md
-      - name: Kutucuklar için QR kodu oluşturma
-        href: service-create-qr-code-for-tile.md
-      - name: Panolara resim ekleme
-        href: service-dashboard-add-image.md
-      - name: Pano veri sınıflandırması
-        href: service-data-classification.md
-      - name: Pano temaları
-        href: service-dashboard-themes.md
-    - name: Raporlar
-      items:
-      - name: Bir veri kümesinden rapor oluşturma
-        href: service-report-create-new.md
-      - name: Raporlarda filtreleme ve vurgulama hakkında
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Rapora filtre ekleme
-        href: power-bi-report-add-filter.md
-      - name: Power BI'da bir raporu kaydetme
-        href: service-report-save.md
-      - name: Düzenleme Görünümü’nde bir raporla etkileşim kurma
-        href: service-interact-with-a-report-in-editing-view.md
-      - name: Excel'de Analiz Et
-        href: service-analyze-in-excel.md
-      - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
-        href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Hizmetteki kümelerle çalışma
-        href: service-aggregates.md
-      - name: Raporlar için kullanım ölçümleri
-        href: service-usage-metrics.md
-      - name: Rapor için QR kodu oluşturma
-        href: service-create-qr-code-for-report.md
-      - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
-        href: service-export-to-pbix.md
-      - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
-        href: service-url-filters.md
-      - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
-        href: power-bi-reports-performance.md
-    - name: Verileriniz hakkında soru sorma
-      items:
-      - name: Power BI Soru-Cevap’ı kullanmaya başlama
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Görselleştirme ve rapor oluşturmak için Soru-Cevap’ı kullanma
-        href: power-bi-tutorial-q-and-a.md
-      - name: Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama
-        href: service-prepare-data-for-q-and-a.md
-      - name: Soru-Cevap için öne çıkan sorular oluşturma
-        href: service-q-and-a-create-featured-questions.md
-      - name: Soru-Cevap’taki görselleştirme türleri
-        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
-        href: service-q-and-a-direct-query.md
-      - name: Power BI için Cortana'ya giriş
-        href: service-cortana-intro.md
-      - name: Power BI için Cortana'yı etkinleştirme
-        href: service-cortana-enable.md
-      - name: Power BI'daki Hızlı Öngörüler
-        href: service-insights.md
-      - name: Hızlı İçgörüler için verilerinizi en iyi duruma getirin
-        href: service-insights-optimize.md
-    - name: Power BI'da işbirliği
-      items:
-      - name: Yeni çalışma alanları oluşturma
-        href: service-create-the-new-workspaces.md
-      - name: Uygulama çalışma alanları oluşturma
-        href: service-create-workspaces.md
-      - name: Çalışma alanlarındaki uygulamaları yayımlama
-        href: service-create-distribute-apps.md
-      - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
-        href: service-admin-manage-your-data-storage-in-power-bi.md
-      - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
-        href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-      - name: Grup çalışma alanınızda işbirliği yapma
-        href: service-collaborate-power-bi-workspace.md
-      - name: Power BI ve Office 365'teki grubunuzu yönetme
-        href: service-manage-app-workspace-in-power-bi-and-office-365.md
-    - name: Çalışmanızı yayımlama ve paylaşma
-      items:
-      - name: Panoları ve raporları paylaşma
-        href: service-share-dashboards.md
-      - name: Filtrelenmiş rapor paylaşma
-        href: service-share-reports.md
-      - name: Kendinizin ve başkalarının abone olmasını sağlama
-        href: service-report-subscribe.md
-      - name: SharePoint Online'a rapor ekleme
-        href: service-embed-report-spo.md
-      - name: Raporu güvenli bir portala veya web sitesine ekleme
-        href: service-embed-secure.md
-      - name: Power BI'dan web'de yayımlama
-        href: service-publish-to-web.md
-      - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
-        href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Excel için Power BI Publisher
-        href: publisher-for-excel.md
-    - name: Self servis veri hazırlığı
-      items:
-      - name: Veri akışları ile self servis veri hazırlığı
-        href: service-dataflows-overview.md
-      - name: Veri akışları oluşturma ve kullanma
-        href: service-dataflows-create-use.md
-      - name: Power BI Premium ile hesaplanan varlıklar
-        href: service-dataflows-computed-entities-premium.md
-      - name: İş akışları ile veri kaynaklarına bağlanma
-        href: service-dataflows-data-sources.md
-      - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
-        href: service-dataflows-on-premises-gateways.md
-      - name: Veri akışları arasındaki varlıkları ilişkilendirme
-        href: service-dataflows-linked-entities.md
-      - name: Veri akışları ile artımlı yenilemeyi kullanma
-        href: service-dataflows-incremental-refresh.md
-      - name: Veri akışları için geliştirici kaynakları
-        href: service-dataflows-developer-resources.md
-      - name: Power BI Desktop’taki veri akışlarına bağlanma
-        href: desktop-connect-dataflows.md
-      - name: Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
-        href: service-dataflows-azure-data-lake-integration.md
-      - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
-        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
-      - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
-        href: service-dataflows-configure-workspace-storage-settings.md
-      - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
-        href: service-dataflows-add-cdm-folder.md
-      - name: (Önizleme) Power BI’da Machine Learning’i tümleştirme
-        href: service-machine-learning-integration.md
-      - name: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma
-        href: service-cognitive-services.md
-      - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
-        href: service-machine-learning-automated.md
-    - name: Power BI’daki sayfalandırılmış raporlar
-      items:
-      - name: Sayfalandırılmış raporlar nedir? (Önizleme)
-        href: paginated-reports-report-builder-power-bi.md
-      - name: Sayfalandırılmış raporlar hakkında SSS (Önizleme)
-        href: paginated-reports-faq.md
-      - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme (Önizleme)
-        href: paginated-reports-quickstart-aw.md
-      - name: Rapor Tasarım Görünümünde gezinme (Önizleme)
-        href: paginated-reports-report-design-view.md
-      - name: Verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
-        href: paginated-reports-enter-data.md
-      - name: Eklenmiş veri kaynağı oluşturma (Önizleme)
-        href: paginated-reports-embedded-data-source.md
-      - name: Eklenmiş veri kümesi oluşturma (Önizleme)
-        href: paginated-reports-create-embedded-dataset.md
-      - name: Parametreler oluşturma (Önizleme)
-        href: paginated-reports-parameters.md
-      - name: Sayfalandırılmış rapor yayımlama (Önizleme)
-        href: paginated-reports-save-to-power-bi-service.md
-      - name: Sayfalandırılmış raporları görüntüleme (Önizleme)
-        href: paginated-reports-view-power-bi-service.md
-      - name: Parametrelerle etkileşim kurma (Önizleme)
-        href: paginated-reports-view-parameters.md
-    - name: Şablon uygulamalar
-      items:
-      - name: Şablon uygulamalara genel bakış
-        href: service-template-apps-overview.md
-      - name: Şablon uygulamalar oluşturma
-        href: service-template-apps-create.md
-      - name: Şablon uygulamalar oluşturmaya ilişkin ipuçları
-        href: service-template-apps-tips.md
-      - name: Şablon uygulamaları yükleme ve dağıtma
-        href: service-template-apps-install-distribute.md
-    - name: Sorun giderme
-      items:
-      - name: Power BI parolanızı mı unuttunuz?
-        href: service-admin-forgot-your-password.md
-      - name: Power BI için ek tanılama bilgileri yakalama
-        href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-      - name: Power BI için alternatif e-posta adresi
-        href: service-admin-alternate-email-address-for-power-bi.md
-      - name: Power BI ve Azure için aynı hesap oturumunu kullanma
-        href: service-admin-how-to-use-the-same-account-as-azure.md
-      - name: Office 365'e özel - bilinen sorunlar
-        href: service-admin-office-365-dedicated-known-issues.md
-      - name: Cortana ile ilgili sorunları giderme
-        href: service-cortana-troubleshoot.md
-      - name: Excel'de çözümleme ile ilgili sorunları giderme
-        href: desktop-troubleshooting-analyze-in-excel.md
-      - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
-        href: service-gateway-onprem-tshoot.md
-      - name: Power BI Gateway - Personal ile ilgili sorunları giderme
-        href: service-admin-troubleshooting-power-bi-personal-gateway.md
-      - name: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
-        href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-      - name: Azure SQL Veritabanları için zamanlanmış yenileme ile ilgili sorunları giderme
-        href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
-        href: service-admin-troubleshoot-excel-workbook-data.md
-      - name: Kutucuk hatalarıyla ilgili sorunları giderme
-        href: refresh-troubleshooting-tile-errors.md
-      - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
-        href: service-refresh-xero-credentials.md
-      - name: Oturum açılamıyor
-        href: power-bi-cannot-sign-in.md
-    - name: Diğer görevler
-      items:
-      - name: Power BI'daki içerikleri yeniden adlandırma
-        href: service-rename.md
-      - name: ABD Kamu kuruluşunuzu kaydetme
-        href: service-govus-signup.md
-      - name: Power BI'da neredeyse her şeyi silme
-        href: service-delete.md
-      - name: Hizmetlere bağlanma
-        items:
-        - name: Acumatica
-          href: service-connect-to-services.md
-        - name: Acumatica
-          href: service-connect-to-acumatica.md
-        - name: Adobe Analytics
-          href: service-connect-to-adobe-analytics.md
-        - name: Alpine Metrics Sales Predictions
-          href: service-connect-to-alpine-metrics.md
-        - name: appFigures
-          href: service-connect-to-appfigures.md
-        - name: Application Insights
-          href: service-connect-to-application-insights.md
-        - name: AT Internet Bridge
-          href: service-connect-to-at-internet.md
-        - name: Azure Denetim Günlükleri
-          href: service-connect-to-azure-audit-logs.md
-        - name: Azure Mobile Engagement
-          href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Tüketim Öngörüleri
-          href: service-connect-to-azure-consumption-insights.md
-        - name: Azure Search
-          href: service-connect-to-azure-search.md
-        - name: Circuit ID
-          href: service-connect-to-circuit-id.md
-        - name: ClickDimensions
-          href: service-connect-to-clickdimensions.md
-        - name: comScore Digital Analytix
-          href: service-connect-to-connect-to.md
-        - name: GitHub
-          href: service-connect-to-github.md
-        - name: Google Analytics
-          href: service-connect-to-google-analytics.md
-        - name: Insightly
-          href: service-connect-to-insightly.md
-        - name: IntelliBoard
-          href: service-connect-to-intelliboard.md
-        - name: Lithium
-          href: service-connect-to-lithium.md
-        - name: MailChimp
-          href: service-connect-to-mailchimp.md
-        - name: Mandrill
-          href: service-connect-to-mandrill.md
-        - name: Marketo
-          href: service-connect-to-marketo.md
-        - name: Microsoft Dynamics AX
-          href: service-connect-to-microsoft-dynamics-ax.md
-        - name: Microsoft Dynamics CRM
-          href: service-connect-to-microsoft-dynamics-crm.md
-        - name: Microsoft Dynamics NAV
-          href: service-connect-to-microsoft-dynamics-nav.md
-        - name: Office365Mon
-          href: service-connect-to-office365mon.md
-        - name: Planview Enterprise
-          href: service-connect-to-planview.md
-        - name: Prevedere
-          href: service-connect-to-prevedere.md
-        - name: Project Online
-          href: service-connect-to-project-online.md
-        - name: Projectplace
-          href: service-connect-to-projectplace.md
-        - name: QuickBooks Online
-          href: service-connect-to-quickbooks-online.md
-        - name: Salesforce
-          href: service-connect-to-salesforce.md
-        - name: SendGrid
-          href: service-connect-to-sendgrid.md
-        - name: ServiceNow Incidents
-          href: service-connect-to-servicenow.md
-        - name: Smartsheet
-          href: service-connect-to-smartsheet.md
-        - name: SparkPost
-          href: service-connect-to-sparkpost.md
-        - name: SQL Veritabanı Denetimi
-          href: service-connect-to-azure-sql-database-auditing.md
-        - name: SQL Sentry
-          href: service-connect-to-sql-sentry.md
-        - name: Stripe
-          href: service-connect-to-stripe.md
-        - name: SweetIQ
-          href: service-connect-to-sweetiq.md
-        - name: Troux
-          href: service-connect-to-troux.md
-        - name: Twilio
-          href: service-connect-to-twilio.md
-        - name: tyGraph
-          href: service-connect-to-tygraph.md
-        - name: UserVoice
-          href: service-connect-to-uservoice.md
-        - name: VMob
-          href: service-connect-to-vmob.md
-        - name: Webtrends
-          href: service-connect-to-webtrends.md
-        - name: Windows Geliştirme Merkezi
-          href: service-connect-to-windows-dev-center.md
-        - name: Xero
-          href: service-connect-to-xero.md
-        - name: Zendesk
-          href: service-connect-to-zendesk.md
-        - name: Ziosk
-          href: service-connect-to-ziosk.md
-        - name: Zuora
-          href: service-connect-to-zuora.md
-      - name: Kurumsal içerik paketleri
-        items:
-        - name: Kurumsal içerik paketlerine giriş
-          href: service-organizational-content-pack-introduction.md
-        - name: İçerik paketi oluşturma ve yayımlama
-          href: service-organizational-content-pack-create-and-publish.md
-        - name: İçerik paketlerini kopyalama, yenileme ve bunlara erişme
-          href: service-organizational-content-pack-copy-refresh-access.md
-        - name: İçerik paketlerini yönetme, güncelleştirme ve silme
-          href: service-organizational-content-pack-manage-update-delete.md
-        - name: İçerik paketi bağlantısını kesme
-          href: service-organizational-content-pack-disconnect.md
-  - name: Kaynaklar
-    items:
-    - name: Videolar
-      href: videos.md
-    - name: Web Seminerleri
-      href: webinars.md
-    - name: Desteklenen diller ve ülkeler/bölgeler
-      href: supported-languages-countries-regions.md
-    - name: Teknik incelemeler
-      items:
-      - name: Teknik incelemelere genel bakış
-        href: whitepapers.md
-      - name: Power BI güvenliği teknik incelemesi
-        href: whitepaper-powerbi-security.md
-      - name: Power BI premium dağıtımı
-        href: whitepaper-powerbi-premium-deployment.md
-      - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
-        href: whitepaper-azure-b2b-power-bi.md
+        - name: Power BI Premium'u satın alma
+          href: service-admin-premium-purchase.md
+        - name: İş yüklerini yapılandırma
+          href: service-admin-premium-workloads.md
+        - name: Uygulama ile kapasiteleri izleme
+          href: service-admin-premium-monitor-capacity.md
+        - name: Yönetim portalında kapasiteleri izleme
+          href: service-admin-premium-monitor-portal.md
+        - name: Artımlı yenilemeyi yapılandırma
+          href: service-premium-incremental-refresh.md
+        - name: Multi-Geo özelliğini yapılandırma
+          href: service-admin-premium-multi-geo.md
+        - name: Premium kapasiteyi yeniden başlatma
+          href: service-admin-premium-restart.md
+        - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
+          href: service-premium-connect-tools.md
 - name: Geliştiriciler için Power BI
   items:
-  - name: Geliştiriciler Power BI ile neler yapabilir?
-    href: developer/what-can-you-do.md
-  - name: Tümleşik Analiz
-    items:
-    - name: Genel Bakış
+    - name: Geliştiriciler Power BI ile neler yapabilir?
+      href: developer/what-can-you-do.md
+    - name: Tümleşik Analiz
       items:
-      - name: Power BI ile ekleme nedir?
-        href: developer/embedding.md
-      - name: Azure'da Power BI Embedded nedir?
-        href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Öğreticiler
+        - name: Genel Bakış
+          items:
+            - name: Power BI ile ekleme nedir?
+              href: developer/embedding.md
+            - name: Azure'da Power BI Embedded nedir?
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
+        - name: Öğreticiler
+          items:
+            - name: Müşteriler için içerik ekleme
+              href: developer/embed-sample-for-customers.md
+            - name: Kuruluşunuz için içerik ekleme
+              href: developer/embed-sample-for-your-organization.md
+            - name: Ulusal bulutlar için içerik ekleme
+              href: developer/embed-sample-for-customers-national-clouds.md
+        - name: Kavramlar
+          items:
+            - name: Performans açısından en iyi yöntemleri
+              href: developer/embedded-performance-best-practices.md
+            - name: Hizmet sorumlusu
+              href: developer/embed-service-principal.md
+            - name: Satır düzeyi güvenlik
+              href: developer/embedded-row-level-security.md
+            - name: Birden çok kiracıyı yönetme
+              href: developer/embed-multi-tenancy.md
+            - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
+              href: developer/azure-pbie-diag-logs.md
+            - name: Ekleme hakkında SSS
+              href: developer/embedded-faq.md
+            - name: Power BI izinleri
+              href: developer/power-bi-permissions.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Uygulamadan ekleme
+              href: developer/embed-from-apps.md
+            - name: Uygulamaları otomatik yükleme
+              href: developer/embed-auto-install-app.md
+            - name: Azure Active Directory kiracısı oluşturma
+              href: developer/create-an-azure-active-directory-tenant.md
+            - name: Uygulamaları kaydetme
+              href: developer/register-app.md
+            - name: Azure AD erişim belirteci alma
+              href: developer/get-azuread-access-token.md
+            - name: Ekleme Hakkında Soru-Cevap
+              href: developer/qanda.md
+            - name: Ekli uygulamanızla ilgili sorunları giderme
+              href: developer/embedded-troubleshoot.md
+            - name: Azure'da kapasiteleri yönetme
+              items:
+                - name: Azure'da kapasite oluşturma
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
+                  href: developer/embedded-multi-geo.md
+                - name: Azure'da kapasiteyi ölçeklendirme
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Azure'da kapasiteyi duraklatma ve başlatma
+                  href: developer/azure-pbie-pause-start.md
+            - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
+              items:
+                - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Geçiş aracı
+                  href: developer/migrate-tool.md
+                - name: Geçiş kodu parçacıkları
+                  href: developer/migrate-code-snippets.md
+        - name: Başvuru
+          items:
+            - name: API'ler
+              items:
+                - name: Azure Kaynak Yönetimi REST API'leri
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API'leri
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Power BI Rest API başvurusu
+                  href: developer/rest-api-reference.md
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Özel düzenleri uygulamaya ekleme
+              href: developer/embedded-custom-layout.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Katıştırma kurulum aracı
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground Örneği
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Örnekler
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI topluluğu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Özel Görseller
       items:
-      - name: Müşteriler için içerik ekleme
-        href: developer/embed-sample-for-customers.md
-      - name: Kuruluşunuz için içerik ekleme
-        href: developer/embed-sample-for-your-organization.md
-      - name: Ulusal bulutlar için içerik ekleme
-        href: developer/embed-sample-for-customers-national-clouds.md
-    - name: Kavramlar
+        - name: Genel Bakış
+          items:
+            - name: Power BI'daki özel görseller
+              href: power-bi-custom-visuals.md
+        - name: Öğreticiler
+          items:
+            - name: Power BI özel görseli geliştirme
+              href: developer/custom-visual-develop-tutorial.md
+            - name: Biçimlendirme seçenekleri ekleme
+              href: developer/custom-visual-develop-tutorial-format-options.md
+        - name: Kavramlar
+          items:
+            - name: Power BI’da kuruluşlara yönelik özel görseller
+              href: power-bi-custom-visuals-organization.md
+            - name: Power BI görselleri için yönergeler
+              href: developer/guidelines-powerbi-visuals.md
+            - name: Özel görseller hakkında SSS
+              href: power-bi-custom-visuals-faq.md
+            - name: Özellikleri Kullanma
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
+            - name: Veri Görünümü Eşlemeleri
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+            - name: Nesneler ve Özellikler
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+            - name: Gelişmiş Düzenleme Modu
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
+            - name: Sürümü oluşturulan API’ye geçirme kılavuzu
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+        - name: Nasıl yapılır?
+          items:
+            - name: Özel görselleri sertifikalatma
+              href: power-bi-custom-visuals-certified.md
+            - name: AppSource'ta özel görsel yayımlama
+              href: developer/office-store.md
+            - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
+              href: desktop-r-powered-custom-visuals.md
+            - name: Sorun giderme
+              items:
+                - name: Özel görsel geliştirme sorunlarını giderme
+                  href: power-bi-custom-visuals-troubleshoot.md
+        - name: Başvuru
+          items:
+            - name: API'ler
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: Örnekler
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Özel Görseller Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Otomasyon
       items:
-      - name: Performans açısından en iyi yöntemleri
-        href: developer/embedded-performance-best-practices.md
-      - name: Hizmet sorumlusu
-        href: developer/embed-service-principal.md
-      - name: Satır düzeyi güvenlik
-        href: developer/embedded-row-level-security.md
-      - name: Birden çok kiracıyı yönetme
-        href: developer/embed-multi-tenancy.md
-      - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
-        href: developer/azure-pbie-diag-logs.md
-      - name: Ekleme hakkında SSS
-        href: developer/embedded-faq.md
-      - name: Power BI izinleri
-        href: developer/power-bi-permissions.md
-    - name: Nasıl yapılır?
-      items:
-      - name: Uygulamadan ekleme
-        href: developer/embed-from-apps.md
-      - name: Azure Active Directory kiracısı oluşturma
-        href: developer/create-an-azure-active-directory-tenant.md
-      - name: Uygulamaları kaydetme
-        href: developer/register-app.md
-      - name: Azure AD erişim belirteci alma
-        href: developer/get-azuread-access-token.md
-      - name: Ekleme Hakkında Soru-Cevap
-        href: developer/qanda.md
-      - name: Ekli uygulamanızla ilgili sorunları giderme
-        href: developer/embedded-troubleshoot.md
-      - name: Azure'da kapasiteleri yönetme
-        items:
-        - name: Azure'da kapasite oluşturma
-          href: developer/azure-pbie-create-capacity.md
-        - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
-          href: developer/embedded-multi-geo.md
-        - name: Azure'da kapasiteyi ölçeklendirme
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Azure'da kapasiteyi duraklatma ve başlatma
-          href: developer/azure-pbie-pause-start.md
-      - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
-        items:
-        - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Geçiş aracı
-          href: developer/migrate-tool.md
-        - name: Geçiş kodu parçacıkları
-          href: developer/migrate-code-snippets.md
-    - name: Başvuru
-      items:
-      - name: API'ler
-        items:
-        - name: Azure Kaynak Yönetimi REST API'leri
-          href: https://docs.microsoft.com/rest/api/power-bi-embedded/
-        - name: Power BI REST API'leri
-          href: https://msdn.microsoft.com/library/mt147898.aspx
-        - name: Power BI Rest API başvurusu
-          href: developer/rest-api-reference.md
-      - name: .NET SDK İndirme
-        href: https://go.microsoft.com/fwlink/?linkid=848274
-      - name: Özel düzenleri uygulamaya ekleme
-        href: developer/embedded-custom-layout.md
-    - name: Kaynaklar
-      items:
-      - name: Geliştirme Merkezi
-        href: https://powerbi.microsoft.com/en-us/developers/
-      - name: Katıştırma kurulum aracı
-        href: https://aka.ms/embedsetup
-      - name: JavaScript Playground Örneği
-        href: https://go.microsoft.com/fwlink/?linkid=848279
-      - name: Power BI JavaScript wiki
-        href: https://github.com/Microsoft/powerbi-javascript/wiki
-      - name: JavaScript Git Deposu
-        href: https://go.microsoft.com/fwlink/?linkid=848276
-      - name: Power BI C# Git Deposu
-        href: https://go.microsoft.com/fwlink/?linkid=848273
-      - name: Örnekler
-        href: https://go.microsoft.com/fwlink/?linkid=851293
-      - name: Power BI topluluğu
-        href: https://go.microsoft.com/fwlink/?linkid=848280
-      - name: Stack Overflow
-        href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Özel Görseller
-    items:
-    - name: Genel Bakış
-      items:
-      - name: Power BI'daki özel görseller
-        href: power-bi-custom-visuals.md
-    - name: Öğreticiler
-      items:
-      - name: Power BI özel görseli geliştirme
-        href: developer/custom-visual-develop-tutorial.md
-      - name: Biçimlendirme seçenekleri ekleme
-        href: developer/custom-visual-develop-tutorial-format-options.md
-    - name: Kavramlar
-      items:
-      - name: Power BI’da kuruluşlara yönelik özel görseller
-        href: power-bi-custom-visuals-organization.md
-      - name: Power BI görselleri için yönergeler
-        href: developer/guidelines-powerbi-visuals.md
-      - name: Özel görseller hakkında SSS
-        href: power-bi-custom-visuals-faq.md
-      - name: Özellikleri Kullanma
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
-      - name: Veri Görünümü Eşlemeleri
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/
-      - name: Nesneler ve Özellikler
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/
-      - name: Gelişmiş Düzenleme Modu
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/
-      - name: Sürümü oluşturulan API’ye geçirme kılavuzu
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/
-    - name: Nasıl yapılır?
-      items:
-      - name: Özel görselleri sertifikalatma
-        href: power-bi-custom-visuals-certified.md
-      - name: AppSource'ta özel görsel yayımlama
-        href: developer/office-store.md
-      - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
-        href: desktop-r-powered-custom-visuals.md
-      - name: Sorun giderme
-        items:
-        - name: Özel görsel geliştirme sorunlarını giderme
-          href: power-bi-custom-visuals-troubleshoot.md
-    - name: Başvuru
-      items:
-      - name: API'ler
-        href: https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/
-    - name: Kaynaklar
-      items:
-      - name: Geliştirme Merkezi
-        href: https://powerbi.microsoft.com/developers/
-      - name: Örnekler
-        href: https://microsoft.github.io/PowerBI-visuals/samples/
-      - name: Özel Görseller Git Deposu
-        href: https://go.microsoft.com/fwlink/?linkid=848277
-  - name: Otomasyon
-    items:
-    - name: Genel Bakış
-      items:
-      - name: Power BI API ile neler yapabilirim?
-        href: developer/overview-of-power-bi-rest-api.md
-    - name: Öğreticiler
-      items:
-      - name: Bir veri kümesine veri gönderme
-        href: developer/walkthrough-push-data.md
-      - name: Kimlik doğrulaması erişim belirteci alma
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Veri kümesi oluşturma
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Satır eklemek için veri kümesi alma
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Tabloya satır ekleme
-        href: developer/walkthrough-push-data-add-rows.md
-    - name: Kavramlar
-      items:
-      - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
-        href: developer/api-automatic-retention-policy-for-real-time-data.md
-      - name: Verileri gönderme
-        items:
-        - name: Power BI REST API sınırlamaları
-          href: developer/api-rest-api-limitations.md
-        - name: Veri kümesi özellikleri
-          href: developer/api-dataset-properties.md
-        - name: Veri modeli sürümü oluşturma
-          href: developer/api-data-model-versioning.md
-    - name: Nasıl yapılır?
-      items:
-      - name: Kimlik bilgilerini yapılandırma
-        href: developer/configure-credentials.md
-      - name: Kimlik bilgilerini şifreleme
-        href: developer/encrypt-credentials.md
-    - name: Başvuru
-      items:
-      - name: REST API'leri
-        href: https://docs.microsoft.com/rest/api/power-bi
-      - name: Power BI Rest API başvurusu
-        href: developer/rest-api-reference.md
-      - name: Tam kod listesi
-        href: developer/walkthrough-push-data-complete-code.md
-    - name: Kaynaklar
-      items:
-      - name: Geliştirme Merkezi
-        href: https://powerbi.microsoft.com/en-us/developers/
-      - name: Power BI C# Git Deposu
-        href: https://go.microsoft.com/fwlink/?linkid=848273
-      - name: .NET SDK İndirme
-        href: https://go.microsoft.com/fwlink/?linkid=848274
+        - name: Genel Bakış
+          items:
+            - name: Power BI API ile neler yapabilirim?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Öğreticiler
+          items:
+            - name: Bir veri kümesine veri gönderme
+              href: developer/walkthrough-push-data.md
+            - name: Kimlik doğrulaması erişim belirteci alma
+              href: developer/walkthrough-push-data-get-token.md
+            - name: Veri kümesi oluşturma
+              href: developer/walkthrough-push-data-create-dataset.md
+            - name: Satır eklemek için veri kümesi alma
+              href: developer/walkthrough-push-data-get-datasets.md
+            - name: Tabloya satır ekleme
+              href: developer/walkthrough-push-data-add-rows.md
+        - name: Kavramlar
+          items:
+            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Verileri gönderme
+              items:
+                - name: Power BI REST API sınırlamaları
+                  href: developer/api-rest-api-limitations.md
+                - name: Veri kümesi özellikleri
+                  href: developer/api-dataset-properties.md
+                - name: Veri modeli sürümü oluşturma
+                  href: developer/api-data-model-versioning.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Kimlik bilgilerini yapılandırma
+              href: developer/configure-credentials.md
+            - name: Kimlik bilgilerini şifreleme
+              href: developer/encrypt-credentials.md
+        - name: Başvuru
+          items:
+            - name: REST API'leri
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI Rest API başvurusu
+              href: developer/rest-api-reference.md
+            - name: Tam kod listesi
+              href: developer/walkthrough-push-data-complete-code.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Rapor Sunucusu
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI Rapor Sunucusu nedir?
-      href: report-server/get-started.md
-    - name: Power BI Rapor Sunucusu ile hizmeti karşılaştırma
-      href: report-server/compare-report-server-service.md
-  - name: Öğreticiler
-    items:
-    - name: Bir VM’de Power BI Rapor Sunucusunu keşfedin
-      href: report-server/tutorial-explore-report-server-web-portal.md
-  - name: Kavramlar
-    items:
-    - name: Yenilikler
-      href: report-server/whats-new.md
-    - name: Değişiklik günlüğü
-      href: report-server/changelog.md
-    - name: Destek zaman çizelgesi
-      href: report-server/support-timeline.md
-    - name: Donanım ve yazılım gereksinimleri
-      href: report-server/system-requirements.md
-    - name: Tarayıcı desteği
-      href: report-server/browser-support.md
-    - name: Yöneticiye genel bakış
-      href: report-server/admin-handbook-overview.md
-    - name: Rapor sunucusu temel bilgileri
+    - name: Genel Bakış
       items:
-      - name: Power BI raporlarında zamanlanmış yenileme
-        href: report-server/scheduled-refresh.md
-      - name: Power BI raporu veri kaynakları
-        href: report-server/data-sources.md
-      - name: Sayfalandırılmış rapor veri kaynakları
-        href: report-server/connect-data-sources.md
-      - name: Abonelikler
-        href: https://go.microsoft.com/fwlink/?linkid=851310
-      - name: Mobil uygulamayı kullanma
-        href: https://go.microsoft.com/fwlink/?linkid=848711
-      - name: Zamanlanmış yenileme ile ilgili sorunları giderme
-        href: report-server/scheduled-refresh-troubleshoot.md
-    - name: Geliştiriciler için rapor sunucusu
+        - name: Power BI Rapor Sunucusu nedir?
+          href: report-server/get-started.md
+        - name: Power BI Rapor Sunucusu ile hizmeti karşılaştırma
+          href: report-server/compare-report-server-service.md
+    - name: Öğreticiler
       items:
-      - name: Geliştiriciler için rapor sunucusu
-        href: report-server/developer-handbook-overview.md
-      - name: Rapor Görüntüleyicisi denetimi
-        href: https://go.microsoft.com/fwlink/?linkid=848724
-      - name: Uzantı geliştirme
-        href: https://go.microsoft.com/fwlink/?linkid=848723
-      - name: Rapor ekleme
-        href: report-server/quickstart-embed.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Power BI Desktop uygulamasını yükleme
-      href: report-server/install-powerbi-desktop.md
-    - name: Rapor sunucusu temel bilgileri
+        - name: Bir VM’de Power BI Rapor Sunucusunu keşfedin
+          href: report-server/tutorial-explore-report-server-web-portal.md
+    - name: Kavramlar
       items:
-      - name: Bir rapor sunucusu için Power BI raporu oluşturma
-        href: report-server/quickstart-create-powerbi-report.md
-      - name: Rapor sunucusunda içeriği yönetme
-        href: report-server/getting-around.md
-      - name: Rapor sunucusunda satır düzeyi güvenlik (RLS)
-        href: report-server/row-level-security-report-server.md
-      - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
-        href: report-server/quickstart-create-paginated-report.md
-      - name: Verileri doğrudan sayfalandırılmış bir rapora girme
-        href: paginated-reports-enter-data.md
-      - name: KPI’lerle çalışma
-        href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: Paylaşılan veri kümelerine OData akışı olarak erişme
-        href: report-server/access-dataset-odata.md
-      - name: Zamanlanmış yenileme yapılandırma
-        href: report-server/configure-scheduled-refresh.md
-      - name: Raporlara açıklama ekleme
-        href: report-server/add-comments.md
-    - name: Yöneticiler için rapor sunucusu
+        - name: Yenilikler
+          href: report-server/whats-new.md
+        - name: Değişiklik günlüğü
+          href: report-server/changelog.md
+        - name: Destek zaman çizelgesi
+          href: report-server/support-timeline.md
+        - name: Donanım ve yazılım gereksinimleri
+          href: report-server/system-requirements.md
+        - name: Tarayıcı desteği
+          href: report-server/browser-support.md
+        - name: Yöneticiye genel bakış
+          href: report-server/admin-handbook-overview.md
+        - name: Rapor sunucusu temel bilgileri
+          items:
+            - name: Power BI raporlarında zamanlanmış yenileme
+              href: report-server/scheduled-refresh.md
+            - name: Power BI raporu veri kaynakları
+              href: report-server/data-sources.md
+            - name: Sayfalandırılmış rapor veri kaynakları
+              href: report-server/connect-data-sources.md
+            - name: Abonelikler
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Mobil uygulamayı kullanma
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Zamanlanmış yenileme ile ilgili sorunları giderme
+              href: report-server/scheduled-refresh-troubleshoot.md
+        - name: Geliştiriciler için rapor sunucusu
+          items:
+            - name: Geliştiriciler için rapor sunucusu
+              href: report-server/developer-handbook-overview.md
+            - name: Rapor Görüntüleyicisi denetimi
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Uzantı geliştirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Rapor ekleme
+              href: report-server/quickstart-embed.md
+    - name: Nasıl yapılır?
       items:
-      - name: Rapor sunucusu yükleme
-        href: report-server/install-report-server.md
-      - name: Ürün anahtarınızı bulma
-        href: report-server/find-product-key.md
-      - name: Rapor sunucularını yükseltme
-        href: report-server/upgrade.md
-      - name: Rapor sunucularını geçirme
-        href: report-server/migrate-report-server.md
-      - name: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
-        href: report-server/configure-kerberos-powerbi-reports.md
-      - name: Mobil uygulama erişimini uzaktan yapılandırma
-        href: report-server/configure-powerbi-mobile-apps-remote.md
-      - name: Excel çalışma kitapları barındırma
-        href: report-server/excel-oos.md
-  - name: Başvuru
-    items:
-    - name: REST API
-      href: report-server/rest-api.md
-    - name: WMI
-      href: https://go.microsoft.com/fwlink/?linkid=848719
-    - name: SOAP API'leri
-      href: https://go.microsoft.com/fwlink/?linkid=848721
-    - name: URL Erişimi
-      href: https://go.microsoft.com/fwlink/?linkid=848722
-    - name: Uzantılar
-      href: https://go.microsoft.com/fwlink/?linkid=848723
-  - name: Kaynaklar
-    items:
-    - name: Kapasite planlamaya ilişkin teknik inceleme
-      href: report-server/capacity-planning.md
+        - name: Power BI Desktop uygulamasını yükleme
+          href: report-server/install-powerbi-desktop.md
+        - name: Rapor sunucusu temel bilgileri
+          items:
+            - name: Bir rapor sunucusu için Power BI raporu oluşturma
+              href: report-server/quickstart-create-powerbi-report.md
+            - name: Rapor sunucusunda içeriği yönetme
+              href: report-server/getting-around.md
+            - name: Rapor sunucusunda satır düzeyi güvenlik (RLS)
+              href: report-server/row-level-security-report-server.md
+            - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
+              href: report-server/quickstart-create-paginated-report.md
+            - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+              href: paginated-reports-enter-data.md
+            - name: KPI’lerle çalışma
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Paylaşılan veri kümelerine OData akışı olarak erişme
+              href: report-server/access-dataset-odata.md
+            - name: Zamanlanmış yenileme yapılandırma
+              href: report-server/configure-scheduled-refresh.md
+            - name: Raporlara açıklama ekleme
+              href: report-server/add-comments.md
+        - name: Yöneticiler için rapor sunucusu
+          items:
+            - name: Rapor sunucusu yükleme
+              href: report-server/install-report-server.md
+            - name: Ürün anahtarınızı bulma
+              href: report-server/find-product-key.md
+            - name: Rapor sunucularını yükseltme
+              href: report-server/upgrade.md
+            - name: Rapor sunucularını geçirme
+              href: report-server/migrate-report-server.md
+            - name: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
+              href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Mobil uygulama erişimini uzaktan yapılandırma
+              href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Excel çalışma kitapları barındırma
+              href: report-server/excel-oos.md
+    - name: Başvuru
+      items:
+        - name: REST API
+          href: report-server/rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API'leri
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL Erişimi
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Uzantılar
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Kaynaklar
+      items:
+        - name: Kapasite planlamaya ilişkin teknik inceleme
+          href: report-server/capacity-planning.md
 - name: Ağ geçitleri
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI ağ geçitleri nelerdir?
-      href: service-gateway-getting-started.md
-  - name: Öğreticiler
-    items:
-    - name: SQL Server verilerine bağlanma
-      href: service-gateway-sql-tutorial.md
-  - name: Kavramlar
-    items:
-    - name: Veri ağ geçidi dağıtmaya ilişkin yönergeler
-      href: service-gateway-deployment-guidance.md
-    - name: Şirket içi veri ağ geçidi hakkında SSS
-      href: service-gateway-onprem-faq.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Ağ geçidi yükleme
-      href: service-gateway-install.md
-    - name: Ağ geçitlerini yönet
-      href: service-gateway-manage.md
-    - name: Kurumsal veri kaynağınızı yönetme - Analysis Services
-      href: service-gateway-enterprise-manage-ssas.md
-    - name: Kurumsal veri kaynağınızı yönetme - SAP HANA
-      href: service-gateway-enterprise-manage-sap.md
-    - name: Kurumsal veri kaynağınızı yönetme - SQL
-      href: service-gateway-enterprise-manage-sql.md
-    - name: Veri kaynağınızı yönetme - Oracle
-      href: service-gateway-onprem-manage-oracle.md
-    - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
-      href: service-gateway-enterprise-manage-scheduled-refresh.md
-    - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
-      href: service-gateway-mashup-on-premises-cloud.md
-    - name: Çoklu oturum açmayı etkinleştir (SSO)
+    - name: Genel Bakış
       items:
-      - name: Çoklu oturum açma (SSO) - genel bakış
-        href: service-gateway-sso-overview.md
-      - name: Çoklu oturum açma (SSO) - Kerberos
-        href: service-gateway-sso-kerberos.md
-      - name: Çoklu oturum açma (SSO) - Kerberos - kaynak tabanlı
-        href: service-gateway-sso-kerberos-resource.md
-      - name: Çoklu oturum açma (SSO) - SAML
-        href: service-gateway-sso-saml.md
-    - name: Ara sunucu ayarlarını yapılandırma
-      href: service-gateway-proxy.md
-    - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
-      href: service-gateway-high-availability-clusters.md
-    - name: Şirket içi veri ağ geçidi
-      href: service-gateway-onprem.md
-    - name: Şirket içi veri ağ geçidi (ayrıntılı)
-      href: service-gateway-onprem-indepth.md
-    - name: Şirket içi veri ağ geçidi (kişisel mod)
-      href: service-gateway-personal-mode.md
-    - name: Özel Bağlayıcılar
-      href: service-gateway-custom-connectors.md
-    - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
-      href: service-gateway-onprem-tshoot.md
+        - name: Power BI ağ geçitleri nelerdir?
+          href: service-gateway-getting-started.md
+    - name: Öğreticiler
+      items:
+        - name: SQL Server verilerine bağlanma
+          href: service-gateway-sql-tutorial.md
+    - name: Kavramlar
+      items:
+        - name: Veri ağ geçidi dağıtmaya ilişkin yönergeler
+          href: service-gateway-deployment-guidance.md
+        - name: Şirket içi veri ağ geçidi hakkında SSS
+          href: service-gateway-onprem-faq.md
+    - name: Nasıl yapılır?
+      items:
+        - name: Ağ geçidi yükleme
+          href: service-gateway-install.md
+        - name: Ağ geçitlerini yönet
+          href: service-gateway-manage.md
+        - name: Ağ geçidi performansını izleme
+          href: service-gateway-performance-monitoring.md
+        - name: Kurumsal veri kaynağınızı yönetme - Analysis Services
+          href: service-gateway-enterprise-manage-ssas.md
+        - name: Kurumsal veri kaynağınızı yönetme - SAP HANA
+          href: service-gateway-enterprise-manage-sap.md
+        - name: Kurumsal veri kaynağınızı yönetme - SQL
+          href: service-gateway-enterprise-manage-sql.md
+        - name: Veri kaynağınızı yönetme - Oracle
+          href: service-gateway-onprem-manage-oracle.md
+        - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
+          href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
+          href: service-gateway-mashup-on-premises-cloud.md
+        - name: Çoklu oturum açmayı etkinleştir (SSO)
+          items:
+            - name: Çoklu oturum açma (SSO) - genel bakış
+              href: service-gateway-sso-overview.md
+            - name: Çoklu oturum açma (SSO) - Kerberos
+              href: service-gateway-sso-kerberos.md
+            - name: Çoklu oturum açma (SSO) - Kerberos - kaynak tabanlı
+              href: service-gateway-sso-kerberos-resource.md
+            - name: Çoklu oturum açma (SSO) - SAML
+              href: service-gateway-sso-saml.md
+        - name: Ara sunucu ayarlarını yapılandırma
+          href: service-gateway-proxy.md
+        - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
+          href: service-gateway-high-availability-clusters.md
+        - name: Şirket içi veri ağ geçidi
+          href: service-gateway-onprem.md
+        - name: Şirket içi veri ağ geçidi (ayrıntılı)
+          href: service-gateway-onprem-indepth.md
+        - name: Şirket içi veri ağ geçidi (kişisel mod)
+          href: service-gateway-personal-mode.md
+        - name: Özel bağlayıcılar
+          href: service-gateway-custom-connectors.md
+        - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
+          href: service-gateway-onprem-tshoot.md
+    - name: Kaynaklar
+      items:
+        - name: Aylık ağ geçidi güncelleştirmeleri
+          href: service-gateway-monthly-updates.md
 - name: Yönetim
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI yönetimi nedir?
-      href: service-admin-administering-power-bi-in-your-organization.md
-  - name: Kavramlar
-    items:
-    - name: Power BI Premium
+    - name: Genel Bakış
       items:
-      - name: Power BI Premium nedir?
-        href: service-premium.md
-      - name: Premium kapasite bellek kullanımı, en iyi duruma getirme
-        href: service-premium-understand-how-it-works.md
-      - name: Power BI Premium'u satın alma
-        href: service-admin-premium-purchase.md
-      - name: Uygulama ile kapasiteleri izleme
-        href: service-admin-premium-monitor-capacity.md
-      - name: Yönetim portalında kapasiteleri izleme
-        href: service-admin-premium-monitor-portal.md
-      - name: İş yüklerini yapılandırma
-        href: service-admin-premium-workloads.md
-      - name: Premium kapasiteyi yeniden başlatma
-        href: service-admin-premium-restart.md
-      - name: Büyük veri kümelerine yönelik destek
-        href: service-premium-large-datasets.md
-      - name: Artımlı yenileme
-        href: service-premium-incremental-refresh.md
-      - name: Multi-Geo desteği
-        href: service-admin-premium-multi-geo.md
-      - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
-        href: service-premium-connect-tools.md
-      - name: Power BI Premium hakkında SSS
-        href: service-premium-faq.md
-    - name: Office 365'teki yönetim rolü
-      href: service-admin-role.md
-    - name: Sık sorulan sorular (SSS)
-      href: service-admin-faq.md
-    - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
-      href: service-admin-failover.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Lisanslama ve kaydolma
+        - name: Power BI yönetimi nedir?
+          href: service-admin-administering-power-bi-in-your-organization.md
+    - name: Kavramlar
       items:
-      - name: Kuruluşunuz için lisanslama
-        href: service-admin-licensing-organization.md
-      - name: Power BI Pro satın alma
-        href: service-admin-purchasing-power-bi-pro.md
-      - name: Office 365 Deneme sürümüne kaydolma
-        href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-      - name: Bir Office 365 iş ortağı ile Power BI ekleme
-        href: service-admin-syndication-partner.md
-    - name: Yönetici portalını kullanma
-      href: service-admin-portal.md
-    - name: Kiracım nerede bulunur?
-      href: service-admin-where-is-my-tenant-located.md
-    - name: Oturum açan kullanıcıları bulma
-      href: service-admin-access-usage.md
-    - name: Power BI uygulamasını denetleme
-      href: service-admin-auditing.md
-    - name: Hizmet durumunu izleme
-      href: service-admin-health.md
-    - name: Power BI hesabınızı kapatma
-      href: service-admin-closing-your-account.md
-    - name: Power BI ve ExpressRoute
-      href: service-admin-power-bi-expressroute.md
-    - name: Azure AD B2B hizmetini kullanma
-      href: service-admin-azure-ad-b2b.md
-    - name: Power BI ile satır düzeyi güvenlik
-      href: service-admin-rls.md
-    - name: Power BI arşivlenmiş çalışma alanı
-      href: service-admin-power-bi-archived-workspace.md
-    - name: Intune ile mobil uygulamaları yapılandırma
-      href: service-admin-mobile-intune.md
-  - name: Başvuru
-    items:
-    - name: PowerShell, REST API’ler ve .NET SDK
-      href: service-admin-reference.md
-    - name: PowerShell için Power BI cmdlet’leri
-      href: https://docs.microsoft.com/powershell/power-bi/
-      maintainContext: true
-    - name: Hizmet URL’si başvurusu
-      href: power-bi-whitelist-urls.md
-  - name: Kaynaklar
-    items:
-    - name: Power BI yönetim ve dağıtım yaklaşımları
-      href: service-admin-governance.md
-    - name: Power BI güvenliği
-      href: service-admin-power-bi-security.md
-ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
-ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59479300"
+        - name: Office 365'teki yönetim rolü
+          href: service-admin-role.md
+        - name: Sık sorulan sorular (SSS)
+          href: service-admin-faq.md
+        - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
+          href: service-admin-failover.md
+    - name: Nasıl yapılır?
+      items:
+        - name: Lisanslama ve kaydolma
+          items:
+            - name: Kuruluşunuz için lisanslama
+              href: service-admin-licensing-organization.md
+            - name: Power BI Pro satın alma
+              href: service-admin-purchasing-power-bi-pro.md
+            - name: Office 365 Deneme sürümüne kaydolma
+              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: Bir Office 365 iş ortağı ile Power BI ekleme
+              href: service-admin-syndication-partner.md
+        - name: Yönetici portalını kullanma
+          href: service-admin-portal.md
+        - name: Kiracım nerede bulunur?
+          href: service-admin-where-is-my-tenant-located.md
+        - name: Oturum açan kullanıcıları bulma
+          href: service-admin-access-usage.md
+        - name: Power BI uygulamasını denetleme
+          href: service-admin-auditing.md
+        - name: Hizmet durumunu izleme
+          href: service-admin-health.md
+        - name: Power BI hesabınızı kapatma
+          href: service-admin-closing-your-account.md
+        - name: Power BI ve ExpressRoute
+          href: service-admin-power-bi-expressroute.md
+        - name: Azure AD B2B hizmetini kullanma
+          href: service-admin-azure-ad-b2b.md
+        - name: Power BI ile satır düzeyi güvenlik
+          href: service-admin-rls.md
+        - name: Power BI arşivlenmiş çalışma alanı
+          href: service-admin-power-bi-archived-workspace.md
+        - name: Intune ile mobil uygulamaları yapılandırma
+          href: service-admin-mobile-intune.md
+    - name: Başvuru
+      items:
+        - name: 'PowerShell, REST API’ler ve .NET SDK'
+          href: service-admin-reference.md
+        - name: PowerShell için Power BI cmdlet’leri
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: Hizmet URL’si başvurusu
+          href: power-bi-whitelist-urls.md
+    - name: Kaynaklar
+      items:
+        - name: Power BI yönetim ve dağıtım yaklaşımları
+          href: service-admin-governance.md
+        - name: Power BI güvenliği
+          href: service-admin-power-bi-security.md

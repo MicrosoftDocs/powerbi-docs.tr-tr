@@ -1,209 +1,208 @@
-items:
 - name: Kullanıcılar için Power BI
   href: power-bi-consumer-landing.md
 - name: Kullanıcılar için Power BI hizmeti
   items:
-  - name: Genel Bakış
-    items:
-    - name: Power BI tüketicisi nedir?
-      href: end-user-consumer.md
-    - name: Power BI tüketicileri için temel kavramlar ve terminoloji
-      href: end-user-basic-concepts.md
-  - name: Hızlı Başlangıçlar
-    items:
-    - name: Power BI kullanma yollarını öğrenin
-      href: end-user-experience.md
-    - name: Power BI ile neler yapabilirim?
-      href: end-user-reading-view.md
-    - name: İlk kez oturum açma
-      href: end-user-sign-in.md
-  - name: Öğreticiler
-    items:
-    - name: Pano uyarısı oluşturma
-      href: end-user-alerts.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Panolar
+    - name: Genel Bakış
       items:
-      - name: Panolar
-        href: end-user-dashboards.md
-      - name: Pano görüntüleme
-        href: end-user-dashboard-open.md
-      - name: Tanıtılan panolar
-        href: end-user-featured.md
-      - name: Pano kutucukları
-        href: end-user-tiles.md
-      - name: Yorum ekleme ya da bir konuşma başlatma
-        href: end-user-comment.md
-    - name: Raporlar
+        - name: Power BI tüketicisi nedir?
+          href: end-user-consumer.md
+        - name: Power BI tüketicileri için temel kavramlar ve terminoloji
+          href: end-user-basic-concepts.md
+    - name: Hızlı Başlangıçlar
       items:
-      - name: Raporlar
-        href: end-user-reports.md
-      - name: Rapor görüntüleme
-        href: end-user-report-open.md
-      - name: Raporda filtre kullanma
-        href: end-user-report-filter.md
-      - name: Rapor görsellerinin birbirlerini karşılıklı nasıl filtrelediğini öğrenin
-        href: end-user-interactions.md
-      - name: Bir raporu PDF’ye dışarı aktarma
-        href: end-user-pdf.md
-    - name: Görselleştirmeler
+        - name: Power BI kullanma yollarını öğrenin
+          href: end-user-experience.md
+        - name: Power BI ile neler yapabilirim?
+          href: end-user-reading-view.md
+        - name: İlk kez oturum açma
+          href: end-user-sign-in.md
+    - name: Öğreticiler
       items:
-      - name: Görselleştirmeler ile ne yapabilirim?
-        href: end-user-visualizations.md
-      - name: Görselleştirme türleri
-        href: end-user-visual-type.md
-      - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
-        href: end-user-show-data.md
-      - name: Power BI'daki görselleştirmelerde detaya gitme
-        href: end-user-drill.md
-      - name: ArcGIS haritaları ile etkileşim kurma
-        href: ../power-bi-visualizations-arcgis.md
-    - name: Genel görevler
+        - name: Pano uyarısı oluşturma
+          href: end-user-alerts.md
+    - name: Nasıl yapılır?
       items:
-      - name: Excel’e verileri aktarma
-        href: end-user-export.md
-      - name: İçerik sahibini ve son yenilenme tarihini arama
-        href: end-user-fresh.md
-      - name: Odak ve Tam ekran modlarını kullanarak içeriği yakınlaştırmanın farklı yolları
-        href: end-user-focus.md
-      - name: Power BI’daki sevdiğiniz panolar, raporlar ve uygulamalar
-        href: end-user-favorite.md
-      - name: Pano, pano kutucuğu ve rapor sayfası yazdırma
-        href: end-user-print.md
-      - name: İlgili içeriği görüntüle
-        href: end-user-related.md
-      - name: Son çıkan içeriği görüntüleme
-        href: end-user-recent.md
-      - name: Benimle Paylaşılanlar kapsayıcısında içerik görüntüleme
-        href: end-user-shared-with-me.md
-      - name: Bir rapora veya panoya abone olma
-        href: end-user-subscribe.md
-      - name: Power BI'da içerik arama ve sıralama
-        href: end-user-search-sort.md
-      - name: Pano kutucukları için otomatik içgörüleri görüntüleme
-        href: end-user-insights.md
-    - name: Veri al
+        - name: Panolar
+          items:
+            - name: Panolar
+              href: end-user-dashboards.md
+            - name: Pano görüntüleme
+              href: end-user-dashboard-open.md
+            - name: Tanıtılan panolar
+              href: end-user-featured.md
+            - name: Pano kutucukları
+              href: end-user-tiles.md
+            - name: Yorum ekleme ya da bir konuşma başlatma
+              href: end-user-comment.md
+        - name: Raporlar
+          items:
+            - name: Raporlar
+              href: end-user-reports.md
+            - name: Rapor görüntüleme
+              href: end-user-report-open.md
+            - name: Raporun görüntülenme yöntemini değiştirme
+              href: end-user-report-view.md
+            - name: Raporda filtre kullanma
+              href: end-user-report-filter.md
+            - name: Rapor görsellerinin birbirlerini karşılıklı nasıl filtrelediğini öğrenin
+              href: end-user-interactions.md
+            - name: Bir raporu PDF’ye dışarı aktarma
+              href: end-user-pdf.md
+            - name: Rapora yer işareti ekleme
+              href: end-user-bookmarks.md
+        - name: Görselleştirmeler
+          items:
+            - name: Görselleştirmeler ile ne yapabilirim?
+              href: end-user-visualizations.md
+            - name: Görselleştirme türleri
+              href: end-user-visual-type.md
+            - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
+              href: end-user-show-data.md
+            - name: Power BI'daki görselleştirmelerde detaya gitme
+              href: end-user-drill.md
+            - name: ArcGIS haritaları ile etkileşim kurma
+              href: ../power-bi-visualizations-arcgis.md
+        - name: Genel görevler
+          items:
+            - name: Excel’e verileri aktarma
+              href: end-user-export.md
+            - name: İçerik sahibini ve son yenilenme tarihini arama
+              href: end-user-fresh.md
+            - name: Odak ve Tam ekran modlarını kullanarak içeriği yakınlaştırmanın farklı yolları
+              href: end-user-focus.md
+            - name: 'Power BI’daki sevdiğiniz panolar, raporlar ve uygulamalar'
+              href: end-user-favorite.md
+            - name: 'Pano, pano kutucuğu ve rapor sayfası yazdırma'
+              href: end-user-print.md
+            - name: İlgili içeriği görüntüle
+              href: end-user-related.md
+            - name: Son çıkan içeriği görüntüleme
+              href: end-user-recent.md
+            - name: Benimle Paylaşılanlar kapsayıcısında içerik görüntüleme
+              href: end-user-shared-with-me.md
+            - name: Bir rapora veya panoya abone olma
+              href: end-user-subscribe.md
+            - name: Power BI'da içerik arama ve sıralama
+              href: end-user-search-sort.md
+            - name: Pano kutucukları için otomatik içgörüleri görüntüleme
+              href: end-user-insights.md
+            - name: Önizleme özelliklerini açma
+              href: end-user-preview-features.md
+        - name: Veri al
+          items:
+            - name: Power BI'daki uygulamalar
+              href: end-user-apps.md
+            - name: Uygulama yükleme ve kullanma
+              href: end-user-app-view.md
+            - name: Hizmetlere bağlanma
+              href: end-user-connect-to-services.md
+        - name: Verileriniz hakkında soru sorma
+          items:
+            - name: Power BI'daki Soru-Cevap
+              href: end-user-q-and-a.md
+            - name: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
+              href: end-user-q-and-a-tips.md
+    - name: Kaynaklar
       items:
-      - name: Power BI'daki uygulamalar
-        href: end-user-apps.md
-      - name: Uygulama yükleme ve kullanma
-        href: end-user-app-view.md
-      - name: Hizmetlere bağlanma
-        href: end-user-connect-to-services.md
-    - name: Verileriniz hakkında soru sorma
-      items:
-      - name: Power BI'daki Soru-Cevap
-        href: end-user-q-and-a.md
-      - name: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
-        href: end-user-q-and-a-tips.md
-  - name: Kaynaklar
-    items:
-    - name: Sözlük ve terminoloji
-      href: end-user-glossary.md
-    - name: Desteklenen tarayıcılar
-      href: end-user-browsers.md
-    - name: Power BI tarafından desteklenen Hızlı Öngörü türleri
-      href: end-user-insight-types.md
+        - name: Sözlük ve terminoloji
+          href: end-user-glossary.md
+        - name: Desteklenen tarayıcılar
+          href: end-user-browsers.md
+        - name: Power BI tarafından desteklenen Hızlı Öngörü türleri
+          href: end-user-insight-types.md
 - name: Power BI mobil uygulamaları
   items:
-  - name: Genel Bakış
-    items:
-    - name: Mobil uygulamalar nedir?
-      href: mobile/mobile-apps-for-mobile-devices.md
-  - name: Hızlı Başlangıçlar
-    items:
-    - name: Panoları ve raporları keşfedin
-      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: Öğreticiler
-    items:
-    - name: iOS mobil uygulamalarında soru sorun
-      href: mobile/tutorial-mobile-apps-ios-qna.md
-  - name: Kavramlar
-    items:
-    - name: Mobil uygulamalardaki yenilikler
-      href: mobile/mobile-whats-new-in-the-mobile-apps.md
-    - name: Mobil uygulamalar ile gerçek dünya verilerini alma
-      href: mobile/mobile-apps-data-in-real-world-context.md
-    - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
-      href: mobile/mobile-apps-offline-data.md
-    - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
-      href: mobile/mobile-mixed-reality-app.md
-  - name: Nasıl yapılır?
-    items:
-    - name: Tüm mobil uygulamalar
+    - name: Genel Bakış
       items:
-      - name: Power BI mobil uygulamalarından pano paylaşma
-        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-      - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
-        href: mobile/mobile-tiles-in-the-mobile-apps.md
-      - name: Mobil uygulamalarda sık kullanılanlar
-        href: mobile/mobile-apps-favorites.md
-      - name: Mobil uygulamalarda rapor etkileşimini yapılandırma (yalnızca telefon)
-        href: mobile/mobile-app-single-tap.md
-      - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
-        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: Power BI mobil uygulamalarında bildirim alma
-        href: mobile/mobile-apps-notification-center.md
-      - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
-        href: mobile/mobile-apps-deep-link-specific-location.md
-      - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
-        href: mobile/mobile-apps-geographic-filtering.md
-      - name: Power BI mobil uygulamaları için panolar
-        href: mobile/mobile-apps-view-dashboard.md
-      - name: Mobil uygulamalarda raporlar
-        href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: OAuth kullanarak Reporting Services'e bağlanma
-        href: mobile/mobile-oauth-ssrs.md
-    - name: Android cihazlar
+        - name: Mobil uygulamalar nedir?
+          href: mobile/mobile-apps-for-mobile-devices.md
+    - name: Hızlı Başlangıçlar
       items:
-      - name: Android uygulaması ile çalışmaya başlama
-        href: mobile/mobile-android-app-get-started.md
-      - name: "\"Kurumsal SSL sertifikanıza güvenilmiyor\" hatalarını giderme"
-        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-      - name: "\"Android System Webview'un güncelleştirilmesi gerekiyor\" hatasının düzeltilmesi"
-        href: mobile/mobile-android-error-update-android-system-webview.md
-    - name: iOS
+        - name: Panoları ve raporları keşfedin
+          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+    - name: Öğreticiler
       items:
-      - name: iOS uygulaması ile çalışmaya başlama
-        href: mobile/mobile-iphone-app-get-started.md
-      - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
-        href: mobile/mobile-apps-ios-qna.md
-      - name: Power BI Apple Watch uygulaması
-        href: mobile/mobile-apple-watch.md
-      - name: iPhone’unuzdaki uygulamadan barkod tarama
-        href: mobile/mobile-apps-scan-barcode-iphone.md
-    - name: iOS ve Android
+        - name: iOS mobil uygulamalarında soru sorun
+          href: mobile/tutorial-mobile-apps-ios-qna.md
+    - name: Kavramlar
       items:
-      - name: Mobil uygulamalarda şirket içi raporları görüntüleme
-        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: Telefonunuz için iyileştirilmiş raporları görüntüleme
-        href: mobile/mobile-apps-view-phone-report.md
-      - name: Bir içeriğe dış kuruluştan erişme
-        href: mobile/mobile-apps-b2b.md
-      - name: Telefonunuzdan bir Power BI QR kodunu tarama
-        href: mobile/mobile-apps-qr-code.md
-      - name: Mobil uygulamalarda not ekleme ve paylaşma
-        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-    - name: Windows 10 cihazları için Power BI uygulaması
+        - name: Mobil uygulamalardaki yenilikler
+          href: mobile/mobile-whats-new-in-the-mobile-apps.md
+        - name: Mobil uygulamalar ile gerçek dünya verilerini alma
+          href: mobile/mobile-apps-data-in-real-world-context.md
+        - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
+          href: mobile/mobile-apps-offline-data.md
+        - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
+          href: mobile/mobile-mixed-reality-app.md
+    - name: Nasıl yapılır?
       items:
-      - name: Windows 10 uygulaması ile çalışmaya başlama
-        href: mobile/mobile-windows-10-phone-app-get-started.md
-      - name: Panoyu Başlangıç ekranına sabitleme
-        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-      - name: Raporlama Hizmetleri mobil raporlarını ve KPI'larını görüntüleme
-        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-      - name: Power BI’yı Surface Hub’da görüntüleme
-        href: mobile/mobile-windows-10-app-presentation-mode.md
-      - name: Windows uygulamasında Çoklu Oturum Açma
-        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-  - name: Kaynaklar
-    items:
-    - name: Mobil uygulamalarda desteklenen diller
-      href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
-ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59430294"
+        - name: Tüm mobil uygulamalar
+          items:
+            - name: Power BI mobil uygulamaları için panolar
+              href: mobile/mobile-apps-view-dashboard.md
+            - name: Mobil uygulamalarda raporlar
+              href: mobile/mobile-reports-in-the-mobile-apps.md
+            - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
+              href: mobile/mobile-tiles-in-the-mobile-apps.md
+            - name: Power BI mobil uygulamalarından pano paylaşma
+              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Mobil uygulamalarda sık kullanılanlar
+              href: mobile/mobile-apps-favorites.md
+            - name: Mobil uygulamalarda rapor etkileşimini yapılandırma (yalnızca telefon)
+              href: mobile/mobile-app-single-tap.md
+            - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
+              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Power BI mobil uygulamalarında bildirim alma
+              href: mobile/mobile-apps-notification-center.md
+            - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
+              href: mobile/mobile-apps-deep-link-specific-location.md
+            - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
+              href: mobile/mobile-apps-geographic-filtering.md
+            - name: OAuth kullanarak Reporting Services'e bağlanma
+              href: mobile/mobile-oauth-ssrs.md
+        - name: iOS ve Android
+          items:
+            - name: Telefonunuz için iyileştirilmiş raporları görüntüleme
+              href: mobile/mobile-apps-view-phone-report.md
+            - name: Mobil uygulamalarda şirket içi raporları görüntüleme
+              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Bir içeriğe dış kuruluştan erişme (B2B)
+              href: mobile/mobile-apps-b2b.md
+            - name: Telefonunuzdan bir Power BI QR kodunu tarama
+              href: mobile/mobile-apps-qr-code.md
+            - name: Mobil uygulamalarda not ekleme ve paylaşma
+              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        - name: iOS
+          items:
+            - name: iOS uygulaması ile çalışmaya başlama
+              href: mobile/mobile-iphone-app-get-started.md
+            - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
+              href: mobile/mobile-apps-ios-qna.md
+            - name: Power BI Apple Watch uygulaması
+              href: mobile/mobile-apple-watch.md
+            - name: iPhone’unuzdaki uygulamadan barkod tarama
+              href: mobile/mobile-apps-scan-barcode-iphone.md
+        - name: Android cihazlar
+          items:
+            - name: Android uygulaması ile çalışmaya başlama
+              href: mobile/mobile-android-app-get-started.md
+            - name: '"Kurumsal SSL sertifikanıza güvenilmiyor" hatalarını giderme'
+              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: '"Android System Webview''un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi'
+              href: mobile/mobile-android-error-update-android-system-webview.md
+        - name: Windows 10 cihazları için Power BI uygulaması
+          items:
+            - name: Windows 10 uygulaması ile çalışmaya başlama
+              href: mobile/mobile-windows-10-phone-app-get-started.md
+            - name: Panoyu Başlangıç ekranına sabitleme
+              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Raporlama Hizmetleri mobil raporlarını ve KPI'larını görüntüleme
+              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Power BI’yı Surface Hub’da görüntüleme
+              href: mobile/mobile-windows-10-app-presentation-mode.md
+            - name: Windows uygulamasında Çoklu Oturum Açma
+              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+    - name: Kaynaklar
+      items:
+        - name: Mobil uygulamalarda desteklenen diller
+          href: mobile/mobile-apps-supported-languages.md
