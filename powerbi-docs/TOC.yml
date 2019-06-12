@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Özel sütun ekleme
               href: desktop-add-custom-column.md
-            - name: Power BI'da yanıt veren görseller oluşturma
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Power BI Desktop'taki satır içi hiyerarşi etiketlerini kullanma
               href: desktop-inline-hierarchy-labels.md
             - name: Sayısal aralık dilimleyiciyi kullanma
@@ -681,32 +679,14 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
               href: service-dataflows-add-cdm-folder.md
-            - name: (Önizleme) Power BI’da Machine Learning’i tümleştirme
+            - name: Power BI’da Machine Learning’i tümleştirme
               href: service-machine-learning-integration.md
-            - name: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma
+            - name: Power BI’da Bilişsel Hizmetler’i kullanma
               href: service-cognitive-services.md
             - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
               href: service-machine-learning-automated.md
         - name: Power BI’daki sayfalandırılmış raporlar
           items:
-            - name: Sayfalandırılmış raporlar nedir? (Önizleme)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Sayfalandırılmış raporlar hakkında SSS (Önizleme)
-              href: paginated-reports-faq.md
-            - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme (Önizleme)
-              href: paginated-reports-quickstart-aw.md
-            - name: Rapor Tasarım Görünümünde gezinme (Önizleme)
-              href: paginated-reports-report-design-view.md
-            - name: Verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
-              href: paginated-reports-enter-data.md
-            - name: Eklenmiş veri kaynağı oluşturma (Önizleme)
-              href: paginated-reports-embedded-data-source.md
-            - name: Eklenmiş veri kümesi oluşturma (Önizleme)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Parametreler oluşturma (Önizleme)
-              href: paginated-reports-parameters.md
-            - name: Sayfalandırılmış rapor yayımlama (Önizleme)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Sayfalandırılmış raporları görüntüleme (Önizleme)
               href: paginated-reports-view-power-bi-service.md
             - name: Parametrelerle etkileşim kurma (Önizleme)
@@ -745,8 +725,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Metin olarak döndürülen İç İçe Değerlerle ilgili sorunları giderme
-              href: service-troubleshooting-nested-values.md
             - name: Azure SQL Veritabanları için zamanlanmış yenileme ile ilgili sorunları giderme
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
@@ -927,10 +905,58 @@
           href: service-premium-incremental-refresh.md
         - name: Multi-Geo özelliğini yapılandırma
           href: service-admin-premium-multi-geo.md
+        - name: Kendi şifreleme anahtarlarınızı getirme
+          href: service-encryption-byok.md
         - name: Premium kapasiteyi yeniden başlatma
           href: service-admin-premium-restart.md
         - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
           href: service-premium-connect-tools.md
+- name: Power BI Sayfalandırılmış Rapor Oluşturucusu
+  items:
+    - name: Genel Bakış
+      items:
+        - name: Sayfalandırılmış raporlar nedir?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Power BI’da Rapor Oluşturucusu
+          href: report-builder-power-bi.md
+    - name: Öğreticiler
+      items:
+        - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme Etkileşim
+          href: paginated-reports-quickstart-aw.md
+    - name: Kavramlar
+      items:
+        - name: Rapor Tasarım Görünümünde gezinme
+          href: paginated-reports-report-design-view.md
+        - name: Rapor planlama
+          href: report-builder-planning-report.md
+        - name: Rapor Oluşturucusu verileri
+          href: report-builder-data.md
+        - name: Tasarım ipuçları
+          href: report-builder-design-tips.md
+        - name: 'Tablolar, matrisler, listeler'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parametreler
+          href: report-builder-parameters.md
+        - name: İfadeler
+          href: report-builder-expressions.md
+        - name: İfade örnekleri
+          href: report-builder-expression-examples.md
+        - name: Raporların önizlemesini görüntüleme
+          href: report-builder-previewing-reports.md
+        - name: Sayfalandırılmış raporlar hakkında SSS
+          href: paginated-reports-faq.md
+    - name: Nasıl yapılır?
+      items:
+        - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+          href: paginated-reports-enter-data.md
+        - name: Eklenmiş veri kaynağı oluşturma
+          href: paginated-reports-embedded-data-source.md
+        - name: Eklenmiş veri kümesi oluşturma
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Parametreler oluşturma
+          href: paginated-reports-parameters.md
+        - name: Sayfalandırılmış rapor yayımlama
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Geliştiriciler için Power BI
   items:
     - name: Geliştiriciler Power BI ile neler yapabilir?

@@ -176,12 +176,20 @@
           items:
             - name: iOS uygulaması ile çalışmaya başlama
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 'Yüz Tanıma Kimliği, Touch ID veya Geçiş Kodu ile koruma'
+              href: mobile/mobile-ios-native-secure-access.md
             - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
               href: mobile/mobile-apps-ios-qna.md
+            - name: Siri Kısayolları ile Power BI mobil uygulaması tümleştirmesi
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: iOS cihazı arama tümleştirmesi
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch uygulaması
               href: mobile/mobile-apple-watch.md
             - name: iPhone’unuzdaki uygulamadan barkod tarama
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Mobil cihaz yönetimini kullanarak yapılandırma
+              href: mobile/mobile-app-configuration.md
         - name: Android cihazlar
           items:
             - name: Android uygulaması ile çalışmaya başlama
