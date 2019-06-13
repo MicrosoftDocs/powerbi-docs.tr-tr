@@ -3,18 +3,18 @@ title: Uygulamalardan rapor veya pano ekleme
 description: Uygulama çalışma alanından değil bir Power BI uygulamasından rapor veya pano tümleştirmeyi ya da eklemeyi öğrenin.
 author: rkarlin
 ms.author: rkarlin
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 7db8c465652926caae46c25197bd135833f8e628
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374738"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750886"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Uygulamalardan rapor veya pano ekleme
 
