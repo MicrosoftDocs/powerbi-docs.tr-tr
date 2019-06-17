@@ -1,6 +1,6 @@
 ---
-title: İstemci uygulamaları ve Araçları (Önizleme) ile Power BI Premium veri kümelerine bağlanma
-description: Power BI Premium'daki veri kümeleri için istemci uygulamaları ve araçları nasıl bağlanacağı açıklanır.
+title: İstemci uygulamaları ve araçlarıyla Power BI Premium veri kümelerine bağlanma (Önizleme)
+description: İstemci uygulamaları ve araçlarından Power BI Premium veri kümelerine bağlanma işlemi açıklanmaktadır.
 author: minewiskan
 ms.author: owend
 manager: kfile
@@ -8,111 +8,109 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 05/31/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 063f43cb2345ccb3d1fec5c414100beb8ccde451
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941515"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448308"
 ---
-# <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>İstemci uygulamaları ve Araçları (Önizleme) ile veri kümelerine bağlanma
+# <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>İstemci uygulamaları ve araçlarıyla veri kümelerine bağlanma (Önizleme)
 
-Power BI Premium çalışma alanları ve veri kümeleri desteği *salt okunur* bağlantıları Microsoft ve üçüncü taraf istemci uygulamaları ve araçları. 
+Power BI Premium çalışma alanları ve veri kümeleri Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* bağlantıları destekler. 
 
 > [!NOTE]
-> Bu makalede, yalnızca Power BI Premium çalışma alanları ve veri kümeleri için salt okunur bağlantı tanıtmak için tasarlanmıştır. Bunu *değil* programlama, belirli araçları ve uygulamaları, mimari ve çalışma alanı ve veri kümesi yönetimi hakkında ayrıntılı bilgi sağlamayı amaçlar. Burada açıklanan konular, Analysis Services tablosal model veritabanı mimarisi ve yönetim düz bir anlayış gerektirir.
+> Bu makalenin tek amacı Power BI Premium çalışma alanları ve veri kümelerine salt okunur bağlantıyı tanıtmaktır. Programlama, belirli araç ve uygulamalar, mimari ve çalışma alanı ile veri kümesi yönetimi hakkında ayrıntılı bilgi sağlamayı *amaçlamaz*. Burada açıklanan konular Analysis Services tablosal model veritabanı mimarisi ve yönetimi hakkında üst düzey bilgi gerektirir.
 
 ## <a name="protocol"></a>Protokol
 
-Power BI Premium kullanan [analiz için XML](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference) istemci uygulamaları ve veri kümeleri ve çalışma alanları yöneten altyapısı arasında iletişim için (XMLA) protokolü. Bu iletişimler ne genellikle XMLA bitiş noktası adlandırılan ' dir. XMLA, Power BI'ın anlam modelleme, idare, yaşam döngüsü ve Veri Yönetimi çalıştıran altyapı altında Microsoft Analysis Services altyapısı tarafından kullanılan aynı iletişim protokolüdür. 
+Power BI Premium, istemci uygulamalarıyla çalışma alanınızı ve veri kümelerinizi yöneten altyapı arasında iletişimi sağlamak için [XML for Analysis](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference) (XMLA) protokolünü kullanır. Bu iletişimler genellikle XMLA olarak adlandırılan uç noktalar üzerinden gerçekleştirilir. XMLA, Microsoft Analysis Services altyapısı tarafından kullanılan iletişim protokolüyle aynıdır. Bu protokol, yakından bakıldığında Power BI’ın anlamsal modellemesi, yönetim, yaşam döngüsü ve veri yönetimini çalıştırır. 
 
-İstemci uygulama ve araçların büyük çoğunluğu açıkça iletişim kurmaz altyapı XMLA uç noktaları kullanarak. Bunun yerine, bunlar istemci uygulaması ve XMLA kullanarak iletişim kurar altyapısı arasında bir aracı olarak MSOLAP ADOMD ve ÇYN gibi istemci kitaplıkları kullanın.
+İstemci uygulamalarının ve araçlarının büyük çoğunluğu XMLA uç noktalarını kullanarak altyapıyla açıkça iletişim kurmaz. Bunun yerine istemci uygulaması ve altyapı için aracı görevini üstlenen ve XMLA kullanarak açıkça iletişim kuran MSOLAP, ADOMD ve AMO gibi istemci kitaplıklarını kullanırlar.
 
 
-## <a name="supported-tools"></a>Desteklenen araçları
+## <a name="supported-tools"></a>Desteklenen araçlar
 
-Bu araçlar, Power BI Premium çalışma alanları ve veri kümeleri için yalnızca okuma erişimi destekler:
+Bu araçlar Power BI Premium çalışma alanları ve veri kümelerine salt okunur erişimi destekler:
 
-**SQL Server Management Studio (SSMS)** -destekler DAX, MDX, XMLA ve Announcing sorgular. Sürüm 18.0 gerektirir. İndirme [burada](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms). 
+**SQL Server Management Studio (SSMS)** - DAX, MDX, XMLA ve TraceEvent sorgularını destekler. Sürüm 18.0 gerektirir. [Buradan](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) indirin. 
 
-**SQL Server Profiler** -SSMS 18.0 (Önizleme) ile dahil, bu aracı sunucu olayları hata ayıklama ve izleme sağlar. Yakalama ve her olay hakkında veri bir dosya veya daha sonra çözümlemek için tabloya kaydedin. SQL Server için resmi olarak kullanım dışı olsa da Profiler SSMS'de eklenmesi devam eder ve Analysis Services ve artık, Power BI Premium için desteklenen kalır. Daha fazla bilgi için bkz. [SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler).
+**SQL Server Profiler** - SSMS 18.0 (Önizleme) sürümüne dahil edilmiştir. Bu araç sunucu olayları için izleme ve hata ayıklama desteği sağlar. Her olayın verilerini yakalayıp daha sonra analiz etmek üzere bir dosya veya tabloya kaydedebilirsiniz. SQL Server için resmi olarak kullanım dışı bırakılmış olsa da Profiler SSMS'ye eklenmeye, Analysis Services için ve şimdi de Power BI Premium için desteklenmeye devam eder. Daha fazla bilgi edinmek için bkz. [SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler).
 
-**DAX Studio** - açık kaynaklı topluluk aracı yürütme ve DAX çözümleme için Analysis Services karşı sorgular. Sürüm 2.8.2 gerektirir veya üzeri. Daha fazla bilgi için bkz. [daxstudio.org](https://daxstudio.org/).
+**DAX Studio** - Analysis Services'te DAX sorgularını yürütmeye ve analiz etmeye yönelik açık kaynak topluluk aracı. Sürüm 2.8.2 veya üstünü gerektirir. Daha fazla bilgi edinmek için bkz. [daxstudio.org](https://daxstudio.org/).
 
-**Excel PivotTable'ları** -Tıkla-Çalıştır Office 16.0.11326.10000 veya yukarıda sürümü gereklidir.
+**Excel PivotTable'ları** - Office 16.0.11326.10000 veya üstünün Tıkla-Çalıştır sürümünü gerektirir.
 
-**Üçüncü taraf** - istemci veri görselleştirme uygulamaları ve bağlanabilir araçları, sorgu içerir ve Power BI Premium veri kümelerini kullanma. Çoğu araçları MSOLAP istemci kitaplıkları'nın son sürümlerini gerektirir, ancak bazı ADOMD kullanabilir.
+**Üçüncü taraf** - Power BI Premium'daki veri kümelerine bağlanabilen, bunları sorgulayabilen ve tüketebilen istemci veri görselleştirme uygulamalarıyla araçlarını içerir. Araçların çoğu MSOLAP istemci kitaplıklarının en son sürümlerini gerektirir ama bazıları ADOMD kullanabilir.
 
 ## <a name="client-libraries"></a>İstemci kitaplıkları
 
-İstemci kitaplıkları, istemci uygulama ve araçların Power BI Premium çalışma alanına bağlanmak için gereklidir. Analysis Services'a bağlanmak için kullanılan aynı istemci kitaplıkları da Power BI Premium'da desteklenir. Excel, SQL Server Management Studio (SSMS) ve SQL Server veri Araçları (SSDT) gibi Microsoft istemci uygulamaları, istemci kitaplıklarının üçünü yükleyin ve bunları birlikte normal uygulama güncelleştirmeleri güncelleştirin. Bazı durumlarda, üçüncü taraf uygulamaları ve araçları, özellikle birlikte, istemci kitaplıklarının yeni sürümleri yüklemeniz gerekebilir. İstemci kitaplıkları aylık güncelleştirilir. Daha fazla bilgi için bkz. [Analysis Services'e bağlanmak için istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers).
+İstemci kitaplıkları istemci uygulamalarının ve araçlarının Power BI Premium çalışma alanlarına bağlanması için gereklidir. Analysis Services'e bağlanmak için kullanılan istemci kitaplıkları Power BI Premium'da da desteklenir. Excel, SQL Server Management Studio (SSMS) ve SQL Server Veri Araçları (SSDT) gibi Microsoft istemci uygulamaları üç istemci kitaplığını da yükler ve normal uygulama güncelleştirmeleriyle birlikte bunları da güncelleştirir. Bazı durumlarda, özellikle üçüncü taraf uygulama ve araçlar söz konusu olduğunda istemci kitaplıklarının daha yeni sürümlerini yüklemeniz gerekebilir. İstemci kitaplıkları aylık olarak güncelleştirilir. Daha fazla bilgi edinmek için bkz. [Analysis Services'e bağlanmak için istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers).
 
 ## <a name="connecting-to-a-premium-workspace"></a>Premium çalışma alanına bağlanma
 
-Premium ayrılmış kapasite için atanmış olan çalışma alanları bağlanabilirsiniz. Ayrılmış bir kapasiteye atanmış olan çalışma alanları URL biçiminde bir bağlantı dizesi var. 
+Premium ayrılmış kapasitelere atanan çalışma alanlarına bağlanabilirsiniz. Ayrılmış kapasiteye atanan çalışma alanlarının URL biçiminde bir bağlantı dizesi vardır. 
 
-Çalışma alanı bağlantı dizesini Power BI'da ulaşmak için **çalışma alanı ayarlarını**, **Premium** sekmesinde **çalışma bağlantı**, tıklayın **kopyalayın**.
+Çalışma alanı bağlantı dizesini almak için, Power BI'da **Çalışma Alanı Ayarları**'nın **Premium** sekmesindeki **Çalışma Alanı Bağlantısı** alanında **Kopyala**'ya tıklayın.
 
 ![Çalışma alanı bağlantı dizesi](media/service-premium-connect-tools/connect-tools-workspace-connection.png)
 
-Çalışma alanı bağlantıları işlevmiş gibi bir Analysis Services sunucu adı bir çalışma alanı için şu URL biçimi kullanın:   
+Çalışma alanı bağlantıları çalışma alanını belirtmek için, bir Analysis Services sunucu adıymış gibi şu URL biçimini kullanır:   
 `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]` 
 
 Örneğin, `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`
-> [!NOTE]
-> `[workspace name]` hassas bir durumdur ve boşluk içerebilir. 
 
-### <a name="to-connect-in-ssms"></a>SSMS bağlanma
+### <a name="to-connect-in-ssms"></a>SSMS'ye bağlanmak için
 
-İçinde **sunucuya Bağlan** > **sunucu türü**seçin **Analysis Services**. İçinde **sunucu adı**, URL'yi girin. İçinde **kimlik doğrulaması**seçin **Active Directory - MFA desteğiyle Evrensel**ve ardından **kullanıcı adı**, kuruluş kullanıcı kimliğinizi girin 
+**Sunucuya Bağlan** > **Sunucu Türü** altında **Analysis Services**'i seçin. **Sunucu adı**'na URL'yi girin. **Kimlik Doğrulaması**'nda **Active Directory - MFA Desteğiyle Evrensel**'i seçin ve **Kullanıcı adı** olarak kurumsal kullanıcı kimliğinizi girin. 
 
-Bağlandığınızda, çalışma alanı bir Analysis Services sunucusu olarak gösterilir ve çalışma alanlarındaki veri kümeleri veritabanları gösterilir.  
+Bağlandığınızda, çalışma alanı bir Analysis Services sunucusu olarak ve çalışma alanındaki veri kümeleri de veritabanları olarak gösterilir.  
 
 ![SSMS](media/service-premium-connect-tools/connect-tools-ssms.png)
 
 ### <a name="initial-catalog"></a>İlk katalog
 
-SQL Server Profiler gibi bazı araçlar belirtmeniz gerekebilir bir *Initial Catalog*. Çalışma alanınızda bir veri kümesi (veritabanı) belirtin. İçinde **sunucuya Bağlan**, tıklayın **seçenekleri**. İçinde **sunucuya Bağlan** iletişim, **bağlantı özellikleri** sekmesinde **veritabanına bağlan**, veri kümesi adı girin.
+SQL Server Profiler gibi bazı araçlarda *İlk Katalog* belirtmeniz gerekebilir. Çalışma alanınızdaki bir veri kümesini (veritabanı) belirtin. **Sunucuya Bağlan** alanında **Seçenekler**'e tıklayın. **Sunucuya Bağlan** iletişim kutusunun **Bağlantı Özellikleri** sekmesindeki **Veritabanına bağlan** alanına veri kümesi adını girin.
 
 ### <a name="duplicate-workspace-name"></a>Yinelenen çalışma alanı adı
 
-Başka bir çalışma alanında aynı ada sahip bir çalışma alanına bağlanırken, şu hatayla karşılaşabilirsiniz: **[Kiracı adı] powerbi://api.powerbi.com/V1.0/ için bağlantı kurulamıyor / [çalışma alanı adı].**
+Başka bir çalışma alanıyla aynı adı taşıyan bir çalışma alanına bağlanırken şu hatayı alabilirsiniz: **powerbi://api.powerbi.com/v1.0/[kiracı adı]/[çalışma alanı adı] bağlantısı yapılamıyor.**
 
-Çalışma alanı adına ek olarak bu hataya çevresinde almak için çalışma alanı objectID, URL'dan kopyalanabilir Objectıdguid belirtin. ObjectID bağlantı URL'si sonuna ekleyin. Örneğin, 'powerbi://api.powerbi.com/v1.0/myorg/Contoso satış - 9d83d204-82a9-4b36-98f2-a40099093830'
+Bu hatadan kaçınmak için, çalışma alanı adına ek olarak ObjectIDGuid değerini de belirtin (bu değer URL'deki çalışma alanı objectID bölümünden kopyalanabilir). objectID değerini bağlantı URL'sine ekleyin. Örneğin, `powerbi://api.powerbi.com/v1.0/myorg/Contoso Sales - 9d83d204-82a9-4b36-98f2-a40099093830'
 
-### <a name="duplicate-dataset-name"></a>Yinelenen bir veri kümesi adı
+### <a name="duplicate-dataset-name"></a>Yinelenen veri kümesi adı
 
-Başka bir veri kümesi aynı çalışma alanında aynı ada sahip bir veri kümesi bağlanırken, veri kümesi GUID için veri kümesi adı ekleyin. Her iki veri kümesi adı alabilirsiniz *ve* SSMS çalışma alanına bağlı olduğunda GUID. 
+Aynı çalışma alanındaki başka bir veri kümesiyle aynı adı taşıyan bir veri kümesine bağlanırken, veri kümesi adının sonuna veri kümesi guid değerini ekleyin. SSMS'de çalışma alanına bağlandığınızda hem veri kümesi adını *hem de* guid değerini alabilirsiniz. 
 
-### <a name="delay-in-datasets-shown"></a>Gösterilen veri kümelerinde gecikme
+### <a name="delay-in-datasets-shown"></a>Veri kümelerinin gecikmeli gösterilmesi
 
-Bir çalışma alanına bağlanırken değişiklikler yeni, silinen ve yeniden adlandırılan veri kümelerinden görünmesi 5 dakika sürebilir. 
+Çalışma alanına bağlandığınızda yeni, silinmiş ve yeniden adlandırılmış veri kümelerindeki değişikliklerin gösterilmesi 5 dakika kadar sürebilir. 
 
 ### <a name="unsupported-datasets"></a>Desteklenmeyen veri kümeleri
 
-Aşağıdaki veri kümelerinde XMLA uç noktaları kullanarak erişilebilir değil. Bu veri kümelerini *yapmamayı* SSMS veya başka araçlar çalışma alanı altında görünür: 
+Aşağıdaki veri kümelerine XMLA uç noktaları kullanılarak erişilemez. Bu veri kümeleri SSMS'de veya diğer araçlarda çalışma alanının altında *görüntülenmez*: 
 
-- Bir Analysis Services modellerine yönelik canlı bağlantı veri kümeleri. 
-- Veri kümeleri ile REST API kullanarak veri gönderme.
+- Analysis Services modellerine Canlı bağlantısı olan veri kümeleri. 
+- REST API kullanılarak veri gönderme özelliği olan veri kümeleri.
 - Excel çalışma kitabı veri kümeleri. 
 
-Aşağıdaki veri kümelerini Power BI hizmetinde desteklenmez:   
+Aşağıdaki veri kümeleri Power BI hizmetinde desteklenmez:   
 
-- Bir Power BI veri kümesine canlı bağlantı veri kümeleri.
+- Power BI Veri Kümesine Canlı bağlantısı olan veri kümeleri.
 
 ## <a name="audit-logs"></a>Denetim günlükleri 
 
-İstemci uygulama ve araçların bir çalışma alanına bağlanırken, Power BI denetim günlüklerinde altında XMLA uç noktalarla erişimi kaydedilir **GetWorkspaces** işlemi. Daha fazla bilgi için bkz. [Power BI denetim](service-admin-auditing.md).
+İstemci uygulamaları ve araçları bir çalışma alanına bağlandığında, XMLA uç noktaları üzerinden erişim Power BI denetim günlüklerine **GetWorkspaces** işleminin altına kaydedilir. Daha fazla bilgi edinmek için bkz. [Power BI'ı denetleme](service-admin-auditing.md).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Analiz Hizmetleri başvuruları](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Analysis Services Başvuruları](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
-[SQL Server Analysis Services tablo Protokolü](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
-[Dinamik Yönetim görünümlerini (Dmv'ler)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
+[SQL Server Analysis Services Tablosal Protokolü](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
+[Dinamik Yönetim Görünümleri (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
 
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

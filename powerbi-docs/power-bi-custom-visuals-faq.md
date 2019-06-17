@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977214"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497919"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
 
@@ -84,7 +84,7 @@ Evet. Görselin ilk olarak Market’te yayımlanması, sertifikasyon işlemi iç
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>Görselimin sertifikalanması ne kadar sürer?
 
-Güncelleştirilmiş sürüm için bu işlem 2 haftaya kadar sürebilir. Yeni bir gönderim için (ilk sertifikasyon) bu işlem 3 haftaya kadar sürebilir. 
+Güncelleştirilmiş sürüm için 3 haftaya kadar sürebilir. Yeni bir gönderim için (ilk sertifikasyon) 4 haftaya kadar sürebilir. 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Sertifikasyon işlemi, veri sızıntısı yaşanmasını önler mi?
 

@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770253"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448439"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 
@@ -40,7 +40,7 @@ Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe deği
 
 SQL Veri Ambarı’nızla Power BI arasında veri alışverişi yapmanın en kolay yolu Azure portaldaki **Power BI’da aç** düğmesidir. Bu düğme, sorunsuz bir şekilde Power BI'da yeni panolar oluşturmaya başlamanızı sağlar.
 
-1. Başlamak için Azure portaldaki SQL Veri Ambarı örneğinize gidin. SQL Veri Ambarı’nın şu an için yalnızca Azure Preview Portal’da bulunduğunu unutmayın.
+1. Başlamak için Azure portaldaki SQL Veri Ambarı örneğinize gidin. SQL Veri Ambarı'nın şu anda yalnızca Azure portalda bulunduğunu unutmayın.
 
 2. **Power BI'da aç** düğmesine tıklayın
 
@@ -56,7 +56,7 @@ SQL Veri Ambarı, Power BI Veri Al sayfasında da bulunmaktadır.
 
 1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.  
 
-    ![Veri Al düğmesi](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Veri al düğmesi](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. **Veritabanları**'ndan **Al**'ı seçin.
 
@@ -64,9 +64,9 @@ SQL Veri Ambarı, Power BI Veri Al sayfasında da bulunmaktadır.
 
 3. **SQL Data Warehouse** \> **Bağlan**'ı seçin.
 
-    ![Azure SQL DW ile doğrudan bağlanma](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Doğrudan bağlantı ile Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. Bağlanmak için gerekli bilgileri girin. Aşağıdaki **Parametreleri Bulma** bölümünde bu verileri Azure Portal'ınızın neresinde bulabileceğinizi gösterilmektedir.
+4. Bağlanmak için gerekli bilgileri girin. Aşağıdaki **Parametreler Bulma** bölümünde, bu verilerin Azure portalınızda bulunabileceği yer gösterilmektedir.
 
     ![Sunucu adı](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
@@ -83,16 +83,18 @@ SQL Veri Ambarı, Power BI Veri Al sayfasında da bulunmaktadır.
 
 6. Tüm tabloları ve sütunları keşfedebilirsiniz. Bir sütunu seçtiğinizde kaynağa sorgu gönderilerek görseliniz dinamik olarak oluşturulur. Filtreler de sorgulara çevrilip veri ambarınıza geri gönderilir. Bu görseller yeni bir rapora kaydedilerek panonuza sabitlenebilir.
 
-    ![3 keşfedin](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Araştır 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
 
-Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL Veri Ambarı’nın şu an için yalnızca Azure Preview Portal’da bulunduğunu unutmayın.
+Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL Veri Ambarı'nın şu anda yalnızca Azure portalda bulunduğunu unutmayın.
 
 ![Azure portalı](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Power BI kiracınız Azure SQL Veri Ambarı ile aynı bölgedeyse çıkış ücreti uygulanmaz. [Bu yönergeleri](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located) kullanarak Power BI kiracınızın bulunduğu yeri belirleyebilirsiniz.
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

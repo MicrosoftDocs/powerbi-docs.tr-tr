@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136321"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720303"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Raporlardan Power BI panolarına kutucuk sabitleme
 ## <a name="pinning-tiles-from-a-report"></a>Bir rapordan kutucuk sabitleme
@@ -66,7 +66,7 @@ Daha fazla bilgi için bkz. [Bir rapor sayfasının tamamını sabitleme](servic
 
 [Power BI'da veri yenileme](refresh-data.md)
 
-[Power BI Temel Kavramları](consumer/end-user-basic-concepts.md)
+[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

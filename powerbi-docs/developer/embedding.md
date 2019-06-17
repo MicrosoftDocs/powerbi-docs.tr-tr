@@ -17,77 +17,77 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: a212691f2af877e3b86e021a4f48644f4fa6e8e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8154370a78f418148381c201ba0c2bd50d8ae021
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051054"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497908"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
-Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. İçerik eklerken bu panolar, ağ geçitleri ve uygulama çalışma alanları gibi en son Power BI özelliklerine erişmenizi sağlar.
+Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişmenize olanak tanır.
 
 Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 
 Size uygun olan çözümü seçin:
 
-* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bunu yapmak için uygulama [kuruluşunuz için ekleme](https://aka.ms/embedsetup/UserOwnsData) çözüm.
-* [Müşterileriniz için içerik ekleme](embedding.md#embedding-for-your-customers) panoları ve raporları Power BI hesabınız yok mu kullanıcılara olanak sağlar. Bunu yapmak için uygulama [müşterileriniz için ekleme](https://aka.ms/embedsetup/AppOwnsData) çözüm.
+* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bunu yapmak için [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü uygulayın.
+* [Müşterileriniz için ekleme](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. Bunu yapmak için [Embed for your organization](https://aka.ms/embedsetup/AppOwnsData) çözümünü uygulayın.
 
 ![PBIE örneği](media/what-can-you-do/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>API'leri kullanma
 
-Power BI içeriği eklemek için iki ana senaryo vardır:
-- (Power BI lisansı olan), kuruluşunuzun kullanıcıları için ekleme. 
+Power BI içeriğini eklerken kullanılabilecek iki ana senaryo vardır:
+- Kuruluşunuzun (Power BI lisansı olan) kullanıcıları için ekleme. 
  
-- Power BI lisansı gerekmez müşteriler ve kullanıcılar için ekleme. 
+- Power BI lisansı gerektirmeden kullanıcılarınız ve müşterileriniz için ekleme. 
 
-[Power BI REST API'si](https://docs.microsoft.com/rest/api/power-bi/) iki senaryo için.
+[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)'si iki senaryo için de kullanılabilir.
 
-Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve raporları özel uygulamanıza ekleyebilir, aynı API'yi kullanarak kuruluşunuza veya müşterilerinize sunabilirsiniz. Müşterileriniz, uygulama tarafından yönetilen verileri görür. Ayrıca, kuruluşunuzun Power BI kullanıcıları görüntülemek için ek seçeneklere sahip *verilerine* doğrudan Power BI veya katıştırılmış uygulama bağlamı. İçerik eklerken JavaScript ve REST API'lerinin tüm özelliklerini kullanabilirsiniz.
+Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve raporları özel uygulamanıza ekleyebilir, aynı API'yi kullanarak kuruluşunuza veya müşterilerinize sunabilirsiniz. Müşterileriniz uygulama tarafından yönetilen verileri görür. Ayrıca, kuruluşunuzdaki Power BI kullanıcıları da *verilerini* doğrudan Power BI'da veya eklenen uygulamanın bağlamında görüntülemeye ilişkin ek seçeneklere sahip olur. İçerik eklerken JavaScript ve REST API'lerinin tüm özelliklerini kullanabilirsiniz.
 
-Gömme nasıl çalıştığını anlamak için bkz: [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/).
+İçerik eklemenin nasıl çalıştığını anlamak için bkz. [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 ## <a name="embedding-for-your-organization"></a>Kuruluşunuz için içerik ekleme
 
-**Embedding for your organization** seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bu ekleme, uygulamanızın kullanıcıları oturum içeriği görüntülemek için Power BI hizmetinde gerektirir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca sahip olduğu veya Power BI hizmetinde birisinin kendisiyle paylaştığı panolara ve raporlara erişebilir.
+**Embedding for your organization** seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bu tür eklemeler, uygulama kullanıcılarınızın içeriği görüntülemek için Power BI hizmetinde oturum açmasını gerektirir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca sahip olduğu veya Power BI hizmetinde birisinin kendisiyle paylaştığı panolara ve raporlara erişebilir.
 
-Kuruluş ekleme örnekleri iç uygulamaları gibi dahil [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [(yönetici hakları olmalıdır) Microsoft Teams tümleştirmesi](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), ve [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
+Kuruluşunuz için içerik ekleme örnekleri arasında [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams tümleştirmesi (Yönetici haklarına sahip olmanız gerekir)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) ve [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) gibi şirket içi uygulamalar bulunur.
 
-Kuruluşunuz için ekleme için bkz: [Öğreticisi: Power BI içeriğini bir uygulamaya kuruluşunuz için ekleme](embed-sample-for-your-organization.md).
+Kuruluşunuz için eklemek istiyorsanız şu [Öğretici’ye göz atın: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md).
 
 Düzenleme ve kaydetme gibi self servis özellikleri Power BI kullanıcıları için ekleme yaparken [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)’si aracılığıyla kullanılabilir.
 
-Git [katıştırma Kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) başlamak ve kuruluşunuz için bir rapor tümleştirme aracılığıyla size bir örnek uygulamayı indirin.
+Kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için [Ekleme kurulum aracını](https://aka.ms/embedsetup/UserOwnsData) inceleyebilirsiniz.
 
 ## <a name="embedding-for-your-customers"></a>Müşterileriniz için içerik ekleme
 
-**Müşterileriniz için içerik ekleme** , panoları ve raporları Power BI hesabınız yoksa kullanıcılar için ekleme olanak tanır. Bu ekleme olarak da bilinen olan *Power BI Embedded*.
+**Müşterileriniz için ekleme** seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. Bu ekleme türü seçeneği *Power BI Embedded* olarak da bilinir.
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) olduğu bir **Microsoft Azure** bağımsız yazılım satıcılarına (ISV) ve geliştiricilerin hızla olanak sağlayan bir uygulamaya görseller, raporlar ve panolar ekleyin. Bu ekleme bir kapasite tabanlı, saatlik tarifeli modeli gerçekleştirilir.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md), bağımsız yazılım satıcılarının (ISV) ve geliştiricilerin uygulamaya görseller, raporlar ve panolar eklemesini sağlayan bir **Microsoft Azure** hizmetidir. Ekleme, kapasite-tabanlı, saatlik tarifeli bir model aracılığıyla yapılır.
 
 ![Müşterileriniz için içerik ekleme akışı](media/embedding/powerbi-embed-flow.png)
 
-Power BI Embedded'in ISV'lere, onların geliştiricilerine ve müşterilerine yönelik avantajları vardır. Örneğin, bir ISV Power BI Desktop ile ücretsiz olarak görseller oluşturmaya başlayabilir. Görsel analitik geliştirme çabalarını en aza tarafından ISV'ler pazara daha hızlı ve farklı veri deneyimleri sayesinde rakiplerinizin uygulamalarından göze çarpın. ISV'ler ayrıca eklenmiş analitiklerle oluşturdukları ek değer için bir premium ücretlendirme seçebilirsiniz.
+Power BI Embedded'in ISV'lere, onların geliştiricilerine ve müşterilerine yönelik avantajları vardır. Örneğin, bir ISV Power BI Desktop ile ücretsiz olarak görseller oluşturmaya başlayabilir. ISV'ler görsel analiz geliştirme çabalarını en aza indirerek pazara sunma sürecini hızlandırabilir ve fark yaratan veri deneyimleriyle rakipleri arasında öne çıkabilir. Ayrıca ISV'ler eklenen analitik sayesinde oluşturulan ek değer için bir ücret almayı tercih edebilir.
 
-Power BI Embedded ile müşterilerinizin Power BI ile ilgili bilgi sahibi olmalarına gerek yoktur. Katıştırılmış bir uygulama oluşturmak için iki farklı yöntemleri kullanabilirsiniz:
+Power BI Embedded ile müşterilerinizin Power BI ile ilgili bilgi sahibi olmalarına gerek yoktur. Eklenmiş uygulama oluşturmak için iki farklı yöntem kullanabilirsiniz:
 - Power BI Pro hesabı 
 - Hizmet sorumlusu 
 
-Power BI Pro hesabı, uygulamanızın ana hesap (proxy hesabı olarak bunu düşünme) görevi görür. Bu hesap oluşturmanızı sağlar, uygulamanızın Power BI panolarınızı ve raporlarınızı erişmeyi belirteçleri ekleme.
+Power BI Pro hesabı, uygulamanızın ana hesabı olarak kullanılır (bunu ara sunucu hesabı olarak düşünün). Bu hesap ayrıca Power BI hizmetindeki panolara ve raporlara erişim sağlayan ekleme belirteçlerini oluşturmanızı da sağlar.
 
-[Hizmet sorumlusu](embed-service-principal.md) bir **yalnızca uygulama** belirteci kullanarak Power BI içeriğini uygulamaya ekleyebilir. Ayrıca oluşturmanıza olanak sağlar, uygulamanızın Power BI panolarınızı ve raporlarınızı erişmeyi belirteçleri ekleme.
+[Hizmet sorumlusu](embed-service-principal.md) bir **yalnızca uygulama** belirteci kullanarak Power BI içeriğini uygulamaya ekleyebilir. Power BI hizmetindeki panolara ve raporlara erişim sağlayan ekleme belirteçlerini oluşturmanızı da sağlar.
 
-Power BI Embedded kullanan geliştiriciler, uygulamanın çekirdek işlevselliğini yerine harcama zaman geliştirme görselleri ve Analitikleri geliştirmeye harcamak. Bunlar hızlı bir şekilde müşteri rapor ve Pano taleplerini karşılamak ve tam olarak belgelenmiş API'leri ve SDK'ları ile kolayca ekleyin. ISV'ler uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin her cihazdan bağlam içinde hızlı ve veri odaklı kararlar vermesini sağlar.
+Geliştiriciler, Power BI Embedded kullanarak görselleri ve analitiği geliştirmeye zaman harcamak yerine uygulamalarının temel işlevselliğini oluşturmaya zaman ayırabilir. Müşterilerin rapor ve pano taleplerini hızla karşılayıp tümüyle belgelenmiş API'leri ve SDK'ları kolayca ekleyebilirler. ISV'ler uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin her cihazdan bağlam içinde hızlı ve veri odaklı kararlar vermesini sağlar.
 
 > [!IMPORTANT]
-> Ekleme Power BI hizmetinde gerekirken, müşterileriniz uygulamanızın katıştırılmış içeriği görüntülemek için bir Power BI hesabınızın olması gerekmez. 
+> Ekleme Power BI hizmetini gerektirse de uygulamanızın eklenmiş içeriğini görüntülemek için müşterilerinizin bir Power BI hesabı olması gerekmez. 
 
 Üretim aşamasına geçmeye hazır olduğunuzda uygulama çalışma alanınızın ayrılmış bir kapasiteye atanması gerekir. Microsoft Azure'daki Power BI Embedded çözümü, uygulamalarınızla kullanılabilecek [ayrılmış kapasiteler](azure-pbie-create-capacity.md) sunar.
 
-Ayrıntılar eklemek için bkz: [Power BI içeriği eklemek üzere nasıl](embed-sample-for-customers.md).
+Ekleme işleminin ayrıntıları için bkz. [Power BI içeriğini ekleme](embed-sample-for-customers.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

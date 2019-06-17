@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770607"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448403"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 
@@ -42,28 +42,15 @@ Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe deği
 
 DirectQuery'yi kullanarak Azure SQL Veritabanı'na bağlanmak için Power BI Desktop'ı kullanmanız gerekir. Bu yaklaşım, daha fazla esneklik ve özellik sunar. Power BI Desktop kullanılarak oluşturulan raporlar daha sonra Power BI hizmetinde yayımlanabilir. Power BI Desktop'ta [DirectQuery'yi kullanarak Azure SQL Veritabanı](desktop-use-directquery.md)'na nasıl bağlanacağınızla ilgili daha fazla bilgi edinebilirsiniz.
 
-## <a name="single-sign-on"></a>Çoklu oturum açma
-
-Azure SQL DirectQuery veri kümesini hizmette yayımladıktan sonra son kullanıcılarınız için Azure Active Directory (Azure AD) OAuth2 aracılığıyla çoklu oturum açmayı (SSO) etkinleştirebilirsiniz.
-
-SSO özelliğini etkinleştirmek için veri kümesinin ayarlarına gidip **Veri Kaynakları** sekmesini açın ve SSO kutusunu işaretleyin.
-
-![Azure SQL DQ iletişim kutusunu yapılandırma](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-SSO seçeneği etkin olduğunda ve kullanıcılarınız bu veri kaynağını kullanan raporlara eriştiğinde, Power BI kimlik doğrulamasından geçen Azure AD kimlik bilgilerini Azure SQL veritabanı sorgularında gönderir. Bu sayede Power BI, veri kaynağı seviyesinde yapılandırılmış olan güvenlik ayarlarını uygular.
-
-SSO seçeneği bu veri kaynağını kullanan tüm veri kümelerinde geçerli olur. İçeri aktarma senaryoları için kullanılan kimlik doğrulama yöntemini etkilemez.
-
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) desteklenmiyor. Azure SQL DirectQuery ile SSO kullanmak isteyen kullanıcıların MFA'dan muaf tutulması gerekir.
-
 ## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
 
-Tam sunucu adınız ve veritabanınızın adı Azure Portal'da bulunabilir.
+Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir.
 
 ![Yeni Azure bağlantı noktası güncelleştirme](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Azure portal güncelleştirmesi](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

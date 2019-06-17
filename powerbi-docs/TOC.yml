@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: Şablon uygulamaları yükleme ve dağıtma
               href: service-template-apps-install-distribute.md
+            - name: 'Power BI şablon uygulaması güncelleştirme, silme ve ayıklama'
+              href: service-template-update-delete-extract.md
         - name: Sorun giderme
           items:
             - name: Power BI parolanızı mı unuttunuz?

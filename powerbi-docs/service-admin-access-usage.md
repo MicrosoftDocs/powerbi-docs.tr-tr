@@ -1,6 +1,6 @@
 ---
 title: Oturum açmış Power BI kullanıcılarını bulma
-description: Bir kiracı Yöneticisi olduğunuz ve Power BI'a kimin açtığını öğrenmek istiyorsanız görünürlük elde etmek için Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
+description: Kiracı yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız, görünürlük elde etmek için Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,25 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7149d8601aa7a834f91a8d98f3a7a9deac7bf43b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906744"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721318"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 
-Bir kiracı Yöneticisi olduğunuz ve Power BI'a kullanın kimin açtığını öğrenmek istiyorsanız [Azure Active Directory erişim ve kullanım raporlarını](/azure/active-directory/reports-monitoring/concept-sign-ins) görünürlük elde etmek için.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
+Kiracı yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız, görünürlük elde etmek için [Azure Active Directory erişim ve kullanım raporlarını](/azure/active-directory/reports-monitoring/concept-sign-ins) kullanın.
 
 > [!NOTE]
-> **Oturum açma işlemleri** rapor yararlı bilgiler sağlar, ancak her kullanıcının lisans türünü belirlemek değil. Lisansları görüntülemek için Microsoft 365 yönetim merkezini kullanın.
+> **Oturum açma işlemleri**raporu yararlı bilgiler sunar ancak her kullanıcının sahip olduğu lisans türünü tanımlamaz. Lisansları görüntülemek için Microsoft 365 yönetim merkezini kullanın.
 
 ## <a name="requirements"></a>Gereksinimler
 
 Tüm kullanıcılar (yönetici olmayanlar dahil) kendi oturum açma işlemlerini içeren raporu görebilir ancak tüm kullanıcıları kapsayan bir rapor oluşturmak için aşağıdaki gereksinimleri karşılamanız gerekir.
 
-* Kiracınızın ilişkili bir Azure Active Directory Premium lisansı olması gerekir.
+* Kiracınızın bununla ilişkili bir Azure Active Directory Premium lisansına sahip olması gerekir.
 
 * Şu rollerden birinde olmalısınız: Genel Yönetici, Güvenlik Yöneticisi veya Güvenlik Okuyucusu.
 
@@ -42,25 +40,25 @@ Oturum açma etkinliğini görüntülemek için aşağıdaki adımları izleyin.
 
 1. **İzleme** bölümünde **Oturum açma işlemleri**'ni seçin.
    
-    ![Vurgulanmış Azure Active Directory ve oturum açma seçenekleri ile Azure kullanıcı arabiriminin ekran görüntüsü.](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![Azure arabiriminin, Azure Active Directory ve Oturum Açma işlemleri seçenekleri vurgulanmış ekran görüntüsü.](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. Uygulamayı **Microsoft Power BI** veya **Power BI Gateway** olarak filtreleyin ve **Uygula**'yı seçin.
 
-    **Microsoft Power BI** ise oturum açma etkinliği filtrelerini ilgili hizmete **Power BI Gateway** için oturum açma etkinliği için şirket içi veri ağ geçidi belirli filtreler.
+    **Microsoft Power BI**, hizmetle ilgili oturum açma etkinliğine filtrelerken, **Power BI Gateway**, şirket içi ver ağ geçidine özgü oturum açma etkinliğine filtreler.
    
-    ![Oturum açma filtrenin vurgulanmış uygulamaları alanıyla ekran görüntüsü.](media/service-admin-access-usage/sign-in-filter.png)
+    ![Oturum açma işlemleri filtresinin, Uygulamalar alanı vurgulanmış ekran görüntüsü.](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Verileri dışarı aktarma
 
-Yapabilecekleriniz [bir oturum açma raporu indirme](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) biçimlerden birindeki: bir CSV dosyası veya bir JSON dosyası.
+[Bir oturum açma raporunu](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) iki biçimden biriyle indirebilirsiniz: CSV dosyası veya JSON dosyası.
 
-![İndirme düğmesinin Ekran görüntüsü.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![İndirme düğmesinin ekran görüntüsü.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-Üst kısmındaki **oturum açma** rapor seçim **indirin** ve aşağıdaki seçeneklerden birini seçin:
+**Oturum açma işlemleri** raporunun üstünde, **İndir** seçeneğini ve ardından aşağıdaki seçeneklerden birini belirleyin:
 
-* **CSV** yaptığınızda filtrelenmiş verileri için bir CSV dosyası indirilemedi.
+* O sırada filtrelenmiş veri için bir CSV dosyası indirmek için **CSV**.
 
-* **JSON** yaptığınızda filtrelenmiş verileri için bir JSON dosyası indirilemedi.
+* O sırada filtrelenmiş veri için bir JSON dosyası indirmek için **JSON**.
 
 ## <a name="data-retention"></a>Veri saklama
 

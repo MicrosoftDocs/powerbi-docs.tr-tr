@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375086"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720344"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI ile hizmet sorumlusu (Önizleme)
 
@@ -120,7 +120,7 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
 
 5. Hizmet sorumlusunu oluşturduğunuz yeni çalışma alanına **yönetici** olarak ekleyin. Bu görevi [API’ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
 
-    ![Bir hizmet sorumlusu, bir yönetici bir çalışma alanına ekleyin.](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Çalışma alanına yönetici olarak bir hizmet sorumlusu ekleme](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Şimdi içeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine eklemeyi seçin.
 
@@ -168,17 +168,17 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 
 * Hizmet sorumlusu yalnızca [yeni uygulama çalışma alanlarıyla](../service-create-the-new-workspaces.md) çalışır.
 * Hizmet sorumlusu kullanırken **Çalışma Alanım** desteklenmez.
-* Üretime geçmek için Ayrılmış Premium kapasite gerekir.
+* Üretime geçilirken adanmış kapasite gerekir.
 * Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.
 * Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
 * Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../service-dataflows-overview.md) yönetimi desteklenmez.
-* Hizmet sorumlusu, tüm yönetim API'ları şu anda desteklemiyor.
+* Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Uygulamayı kaydetme](register-app.md)
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Satır düzeyi güvenlik (Önizleme) hizmet sorumlusu ile şirket içi veri ağ geçidi kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma (Önizleme)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

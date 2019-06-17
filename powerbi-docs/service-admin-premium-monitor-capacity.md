@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2019
+ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565303"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497966"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
@@ -49,7 +49,7 @@ Son yenileme gösterilir; zamanlanmış ve isteğe bağlı yenilemeleri görmek 
 
 ## <a name="monitor-capacities-with-the-app"></a>Uygulama ile kapasiteleri izleme
 
-Artık uygulamayı yüklediğinize göre kuruluşunuzdaki kapasitelerin ölçümlerini görebilirsiniz. Uygulama ölçümleri özetleri ile bir Pano ve ayrıntılı ölçümler raporlar sağlar.
+Artık uygulamayı yüklediğinize göre kuruluşunuzdaki kapasitelerin ölçümlerini görebilirsiniz. Uygulama, ölçüm özetleri içeren bir Pano ve ayrıntılı ölçüm Raporları sunar.
 
 ### <a name="dashboard"></a>Pano
 
@@ -133,18 +133,18 @@ Panoda aşağıdaki ölçümler bulunur:
 | Bellek - Sayfalandırılmış Raporlar Ortalama (%) | Son yedi gün içinde sayfalandırılmış rapor iş yükü tarafından gerçekleştirilen ortalama bellek tüketimi. |
 |||
 
-#### <a name="ai-summary"></a>Yapay ZEKA özeti
+#### <a name="ai-summary"></a>AI Özeti
 
 | Ölçüm | Açıklama |
 | --- | --- |
-| Toplam Yenileme Sayısı | Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı. |
-| Yenileme Güvenilirliği (%) | Başarılı yenileme sayısının son yedi gün içinde gerçekleştirilen toplam başarılı yenileme sayısına bölünmesiyle elde edilen sonuç. |
-| CPU en fazla (%)| Yapay ZEKA iş yükü tarafından en fazla CPU kullanımı son yedi gün içinde. |
-| Belleği en fazla (GB) | Son yedi gün içinde en fazla bellek tüketimi yapay ZEKA iş yüküne göre.|
-| En fazla bekleme süresi (MS) yeniler | Yenileme başlamadan önce zaman maksimum miktarı. |
-| Yenilemeler ortalama bekleme süresi (MS)| Yenileme başlatılmadan önce beklenen ortalama süre. |
-| Yenilemeler en uzun süre (MS) | En uzun süreyi tam yenilenemiyor. |
-| Yenilemeler ortalama süre (MS)| Yenilemenin tamamlandığı ortalama süre. |
+| AI İşlevi Yürütme | Son yedi günde gerçekleştirilen toplam yürütme sayısı. |
+| AI İşlevi Yürütme Güvenilirliği (%) | Başarılı yürütme sayısının son yedi günde gerçekleştirilen toplam başarılı yürütme sayısına bölünmesiyle elde edilen sonuç. |
+| CPU maksimum (%)| AI iş yükünün son yedi gündeki maksimum CPU tüketimi. |
+| Bellek maksimum (GB) | AI iş yükünün son yedi gündeki maksimum bellek tüketimi.|
+| AI İşlevi Yürütme Maksimum Bekleme Zamanı (MS) | Yürütme başlatılmadan önceki maksimum süre miktarı. |
+| AI İşlevi Yürütme Ortalama Bekleme Zamanı (MS)| Yürütme başlatılmadan önceki ortalama zaman miktarı. |
+| AI İşlevi Yürütme Maksimum Süresi (MS) | Yürütmenin tamamlanması için maksimum süre miktarı. |
+| AI İşlevi Yürütme Ortalama Süresi (MS)| Yürütmenin tamamlanması için ortalama süre miktarı. |
 | | |
 
 ### <a name="reports"></a>Raporlar
@@ -156,7 +156,7 @@ Raporun alt kısmında beş *sekme* vardır:
 [**Veri kümeleri**](#datasets): Kapasitelerinizdeki Power BI veri kümelerinin durumu hakkında ayrıntılı ölçümler sağlar.
 [**Sayfalandırılmış Raporlar**](#paginated-reports): Kapasitelerinizdeki sayfalandırılmış raporların durumu hakkında ayrıntılı ölçümler sağlar.
 [**Veri Akışları**](#dataflows): Kapasitelerinizdeki veri akışlarının ayrıntılı yenileme ölçümleri sağlar.
-[**Yapay ZEKA** ](#ai) -sistem durumunu, kapasiteler içinde kullanılan AI işlevlerini ayrıntılı ölçümler sağlar.
+[**AI**](#ai) - Kapasitelerinizde kullanılan AI işlevlerinin durumu hakkında ayrıntılı ölçümler sağlar.
 [**Kaynak Tüketimi**](#resource-consumption): Bellek ve CPU’nun yüksek kullanımı gibi ayrıntılı kaynak ölçümleri sağlar.
 [**Kimlikler ve Bilgiler**](#ids-and-info): Kapasiteler, çalışma alanları ve iş yüklerinin adları, kimlikleri ve sahipleri.
 
@@ -170,7 +170,7 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 
 | Rapor bölümü | Ölçümler |
 | --- | --- |
-| Yenilemeler |  Toplam Sayı: Her veri kümesi için toplam yenileme sayısı.<br>  Güvenilirlik: Tamamlanan her veri kümesi için yenileme yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri kümesi için en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
+| Yenilemeler |  Toplam Sayı: Her veri kümesi için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri kümesi için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri kümesi için en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
 | Ortalama Süreye Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme süresine sahip beş veri kümesi. |
 | Ortalama Bekleme Süresine Göre En İyi 5 Veri Kümesi (dakika) |  Dakika cinsinden en uzun ortalama yenileme bekleme süresine sahip beş veri kümesi. |
 | Saatlik Yenileme Sayısı ve Bellek Tüketimi (GB) |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
@@ -224,22 +224,20 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 
 | **Rapor bölümü** | **Metrics** (Ölçümler) |
 | --- | --- |
-| Yenilemeler |  Toplam: Her veri akışı için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri akışı için tamamlanan yenilemeleri yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri akışının en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri akışı yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
+| Yenilemeler |  Toplam: Her veri akışı için toplam yenileme sayısı.<br>  Güvenilirlik: Her veri akışı için tamamlanan yenilemelerin yüzdesi.<br>  Ortalama Bekleme Süresi: Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden).<br>  En Uzun Bekleme Süresi: Veri akışının en uzun bekleme süresi (dakika cinsinden).<br>  Ortalama Süre: Veri akışı yenilemesinin ortalama süresi (dakika cinsinden).<br>  En Uzun Süre: Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
 | Ortalama Yenileme Süresine Göre En İyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme süresi en uzun olan beş veri akışı. |
 | Ortalama Bekleme Süresine Göre En iyi 5 Veri Akışı |  Dakika cinsinden ortalama yenileme bekleme süresi en uzun olan beş veri akışı. |
 | Saatlik Ortalama Yenileme Bekleme Süreleri |  Bir saatlik demetlere ayrılmış ve UTC saatiyle bildirilen ortalama yenileme bekleme süresi. Yüksek yenileme bekleme süresi getiren birden çok ani artış, kapasiteye sık erişildiğini gösterir. |
 | Saatlik Yenileme Sayısı ve Bellek Tüketimi |  Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
 |  |  |
 
-### <a name="ai"></a>YAPAY ZEKA
+### <a name="ai"></a>AI
 
 | **Rapor bölümü** | **Metrics** (Ölçümler) |
 | --- | --- |
-| Genel Kullanım | Toplam sayısı: Yapay ZEKA işlevleri bir çalışma alanı veya veri akışı sayısı. <br> Güvenilirlik: Tamamlanan yenilemeleri yüzdesi.<br> Ort. Bekleme süresi: Ortalama gecikme zamanlanan saat arasındaki milisaniye cinsinden yenileme başlangıcı.<br> En Uzun Bekleme Süresi: Milisaniye cinsinden maksimum bekleme süresi.<br> Ort. Süresi: Yenileme, milisaniye cinsinden ortalama süresi.<br> En Uzun Süre: Milisaniye cinsinden en uzun süre çalışan yenileme süresi.<br> Ortalama giriş boyutunun: Ortalama veri akışı yenileme tarafından yürütülen AI işlevi için bayt cinsinden boyutu girin.<br> Ortalama boyutu: Ortalama çıkış veri akışı yenileme tarafından yürütülen AI işlevi için bayt cinsinden boyutu. |
-| Ortalama süreye göre ilk 5 AI işlevleri | Süre, milisaniye cinsinden en uzun ortalama beş işlevleriyle yenileyin. |
-| Ortalama giriş boyuta göre ilk 5 AI işlevleri | Ortalama en büyük veri ile beş işlevleri bayt boyutu girin. |
-| Saatlik Yenileme Sayısı ve Bellek Tüketimi | Bir saatlik demetlere ayrılan ve UTC saatiyle raporlanan başarılar, başarısızlıklar ve bellek tüketimi. |
-| Saatlik ortalama süresi | Bir saatlik demetlerin içine bölme yenileme ortalama süresi UTC saatiyle bildirdi. |
+| AI Bellek Tüketimi | Bir saatlik aralıklara bölünen ve UTC saatiyle raporlanan, GB olarak bellek tüketimi. |
+| Saatlik AI İşlevi Yürütme ve Ortalama Bekleme Zamanı (MS) | Milisaniye olarak, bir saatlik aralıklara bölünen ve UTC saatiyle raporlanan AI yürütmeleri ve ortalama bekleme zamanı. |
+| Genel Kullanım | Toplam sayı: Bir çalışma alanı veya veri akışındaki AI işlevlerinin sayısı. <br> Sistem Güvenilirliği: Tamamlanan yürütmelerin yüzdesi.<br> Ort. Bekleme Zamanı: Milisaniye olarak, zamanlanan saat ile bir yürütmenin başlangıcı arasındaki ortalama gecikme.<br> En Uzun Bekleme Süresi: Milisaniye olarak maksimum bekleme zamanı.<br> Ort. Süre: Milisaniye olarak, bir yürütmenin ortalama süresi.<br> En Uzun Süre: Milisaniye olarak, en uzun çalışan yürütmenin süresi.<br> Ortalama Toplam Boyut: Bayt olarak, AI işlevinin giriş ve çıkış verilerinin ortalama boyutu. |
 | | |
 
 ### <a name="resource-consumption"></a>Kaynak Tüketimi
@@ -296,7 +294,7 @@ Power BI Premium Kapasite Ölçümleri uygulamasını kullanarak Power BI Embedd
 
 1. Azure portalda kapasitenizi açın.
 
-1. **Erişim denetimi (IAM)** öğesine tıklayın ve **Power BI Premium** uygulamasını okuyucu rolüne ekleyin. Uygulama adına göre bulma bulamıyorsanız, de, istemci tanımlayıcısı tarafından ekleyebilirsiniz: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. **Erişim denetimi (IAM)** öğesine tıklayın ve **Power BI Premium** uygulamasını okuyucu rolüne ekleyin. Uygulamayı adıyla bulamazsanız, istemci tanımlayıcısına göre de ekleyebilirsiniz: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Power BI Embedded izinleri](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -307,4 +305,4 @@ Power BI Premium Kapasite Ölçümleri uygulamasını kullanarak Power BI Embedd
 ## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
-> [Power BI Premium kapasiteleri en iyi duruma getirme](service-premium-capacity-optimize.md)
+> [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)

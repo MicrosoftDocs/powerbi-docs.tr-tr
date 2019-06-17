@@ -11,23 +11,23 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 45d029d5f3aa51057a9ff9c3a18c5c324d21fac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61206652"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721490"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
-Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Veya bir veri kümeniz olabilir. (Henüz) Power BI çalışma şeklini anlamadığınız olduğundan, Veri kümenizi şekilde zarar verebilir verebileceğinizden?
+Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Veya bir veri kümeniz olabilir. Henüz Power BI'ın nasıl çalıştığını bilmediğiniz için veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
 
-Paniğe kapılmayın! obviEnce ([www.obvience.com](http://www.obvience.com/)) ve Microsoft, Power BI kullanımıyla ilgili olarak kendinizi daha rahat hissedene kadar kullanabileceğiniz örnekler oluşturmuştur.  Veriler anonimleştirilmiştir ve farklı sektörleri temsil eder: finans, İK, satış ve daha fazlası. Örneği takip etmek mümkün olacaktır ayrıca çevrimiçi Belgelerimizi aynı örneklerin öğreticiler ve örnekler de kullanır.      
+Paniğe kapılmayın! obviEnce ([www.obvience.com](http://www.obvience.com/)) ve Microsoft, Power BI kullanımıyla ilgili olarak kendinizi daha rahat hissedene kadar kullanabileceğiniz örnekler oluşturmuştur.  Veriler anonimleştirilmiştir ve farklı sektörleri temsil eder: finans, İK, satış ve daha fazlası. Çevrimiçi belgelerimiz, öğretici ve örneklerdeki örnekleri kullandığı için eşlik edebilirsiniz.      
 
    ![Kullanılabilir örnekler](media/sample-datasets/power-bi-samples.png)
 
-Bu örneklerden her biri çeşitli biçimlerde kullanılabilir: içerik paketi, tek bir Excel çalışma kitabı ve .pbix dosyası. Bunların ne olduğunu veya nasıl kullanıldıklarını bilmiyorsanız endişelenmeyin. Bu makalenin ilerleyen bölümlerinde buna değineceğiz. Ve oluşturduk her örnek için bir *Turu*. Tur farklı senaryolarla size yol gösterir ve örnek arkasında dönüştürüldüğünü anlatıyor makaleleridir. Senaryolardan biri, yöneticinizin sorularını cevaplamak; diğeri ise rekabete dayalı öngörüler aramak veya paylaşılacak raporlar ve panolar oluşturmak ya da işle ilgili bir değişimi açıklamak olabilir.   
+Bu örneklerden her biri çeşitli biçimlerde kullanılabilir: içerik paketi, tek bir Excel çalışma kitabı ve .pbix dosyası. Bunların ne olduğunu veya nasıl kullanıldıklarını bilmiyorsanız endişelenmeyin. Bu makalenin ilerleyen bölümlerinde buna değineceğiz. Her örnek için bir *tur* oluşturduk. Turlar, örneğin hikayesini anlatan ve farklı senaryolarda size yol gösteren makalelerdir. Senaryolardan biri, yöneticinizin sorularını cevaplamak; diğeri ise rekabete dayalı öngörüler aramak veya paylaşılacak raporlar ve panolar oluşturmak ya da işle ilgili bir değişimi açıklamak olabilir.   
 
-Başlamadan önce örneklerin kullanılmasına ilişkin yasal yönergeleri aşağıda verilmiştir. Bundan sonra örnekleri sunacak ve bunların nasıl kullanılacağını gösterir.   
+Başlamadan önce, örneklerin kullanılmasına ilişkin bu yasal yönergeleri inceleyin. Ardından, örnekleri tanıtıp bunların nasıl kullanılacağını göstereceğiz.   
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Power BI örnek Excel çalışma kitapları için kullanım yönergeleri
 
@@ -39,7 +39,7 @@ Başlamadan önce örneklerin kullanılmasına ilişkin yasal yönergeleri aşa�
 
 ObviEnce, Microsoft Business Intelligence'a yönelik bir ISV ve Fikri Mülkiyet (IP) Kuluçka Merkezidir. ObviEnce Microsoft Business Intelligence çözümlerinin dağıtılması ve hızlıca kullanılmaya başlanmasının sağlanması için en iyi uygulamalar ve düşünce liderliği geliştirmek üzere Microsoft ile yakın bir şekilde çalışmaktadır.
 
-Çalışma kitapları ve veriler obvience, LLC'nin, özelliği olan ve yalnızca örnek sektör verileriyle Power BI işlevi tanıtmak amacıyla paylaşılan.
+Çalışma kitapları ve veriler obviEnce, LLC'nin mülkiyetinde olup yalnızca örnek sektör verileriyle Power BI işlevlerinin tanıtılması amacıyla paylaşılmıştır.
 
 Çalışma kitaplarının ve/veya verilerin her kullanımına yukarıdaki açıklama (her bir çalışma kitabının Info çalışma sayfasında da bulunur) eklenmelidir. Çalışma kitabında ve tüm görselleştirmelerde şu telif hakkı bildirimi bulunmalıdır: obviEnce ©.
 
@@ -51,17 +51,17 @@ Kullanabileceğiniz sekiz örnek mevcuttur.  Her biri farklı bir sektörü tems
 ### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Müşteri Kârlılığı örneği  ![Müşteri Kârlılığı örneği](media/sample-datasets/power-bi-cp2.png)
 [Müşteri Kârlılığı örneğine ilişkin tura katılın](sample-customer-profitability.md)
 
-Bu sektör örneğinde, şirketin Yöneticiler, ürünler ve müşteriler için bir CFO'nun ana ölçümleri analiz eder. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz.
+Bu sektör örneğinde, bir CFO'nun, şirket yöneticilerine, ürünlerine ve müşterilerine ilişkin ana ölçümleri çözümlenmektedir. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz.
 
 ### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>İnsan Kaynakları örneği  ![İnsan Kaynakları örneği](media/sample-datasets/power-bi-hr.png)
 [İK örneğine ilişkin tura katılın](sample-human-resources.md)
 
-Bu sektör örneğinde, yeni işe alımlar, etkin çalışanlara ve ayrılan çalışanları analiz ederek, bir şirket için işe alım stratejisine odaklanır.  Verileri araştırarak, gönüllü ayrılık eğilimlerine ve işe alım stratejisinde gözlemlenen önyargılara ulaşabilirsiniz.
+Bu sektör örneğinde, yeni işe alımlar, etkin çalışanlar ve işten ayrılan çalışanlar çözümlenerek bir şirkete yönelik işe alım stratejisine odaklanılır.  Verileri araştırarak, gönüllü ayrılık eğilimlerine ve işe alım stratejisinde gözlemlenen önyargılara ulaşabilirsiniz.
 
 ### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>BT Harcama Analizi örneği ![BT Harcama Analizi örneği](media/sample-datasets/power-bi-it.png)
 [BT Harcama Analizi örneğine ilişkin tura katılın](sample-it-spend.md)
 
-Bu sektör örneğinde, planlanmış maliyetleriyle gerçek maliyetlerini karşılaştırmalı olarak bir şirketin BT departmanının analiz ediyoruz. Bu karşılaştırma şirketin yıl için ne kadar iyi planlama yaptığını anlamamıza yardımcı olur ve plana göre büyük sapmalar görülen alanları araştırmamıza olanak tanır. Bu örnekteki şirket yıllık bir planlama döngüsünden geçer ve ardından finansal yılda BT'ye yapılan harcamalardaki değişiklikleri çözümlemelerine yardımcı olması için üç ayda bir yeni En Yeni Tahmin (LE) oluşturur.
+Bu sektör örneğinde, bir şirketin BT departmanının planlanmış maliyetleriyle gerçek maliyetlerini karşılaştırmalı olarak çözümleriz. Bu karşılaştırma şirketin yıl için ne kadar iyi planlama yaptığını anlamamıza yardımcı olur ve plana göre büyük sapmalar görülen alanları araştırmamıza olanak tanır. Bu örnekteki şirket yıllık bir planlama döngüsünden geçer ve ardından finansal yılda BT'ye yapılan harcamalardaki değişiklikleri çözümlemelerine yardımcı olması için üç ayda bir yeni En Yeni Tahmin (LE) oluşturur.
 
 ### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Fırsat Analizi örneği  ![Fırsat Analizi örneği](media/sample-datasets/power-bi-oa.png)
 [Fırsat Analizi örneğine ilişkin tura katılın](sample-opportunity-analysis.md)
@@ -71,7 +71,7 @@ Bu sektör örneği bir yazılım şirketinin satış kanalını araştırır. S
 ### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Tedarik Analizi örneği  ![Tedarik Analizi örneği](media/sample-datasets/power-bi-pa.png)
 [Tedarik Analizi örneğine ilişkin tura katılın](sample-procurement.md)
 
-Bu sektör örneğinde, şirketin Yöneticiler, ürünler ve müşteriler için bir CFO'nun ana ölçümleri analiz eder. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz.
+Bu sektör örneğinde, bir CFO'nun, şirket yöneticilerine, ürünlerine ve müşterilerine ilişkin ana ölçümleri çözümlenmektedir. Şirketin kârlılığını hangi faktörlerin etkilediğini araştırabilirsiniz.
 
 ### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Perakende Analizi örneği  ![Perakende Analizi örneği](media/sample-datasets/power-bi-rs.png)
 [Perakende Analizi örneğine ilişkin tura katılın](sample-retail-analysis.md)
@@ -91,14 +91,14 @@ Bu sektör örneğinde, genel olarak karşılaşılan tedarik zinciri zorluklar�
 Artık neleri kullanabileceğinizi biliyorsunuz. Şimdi bu örneklerin nasıl edinileceğini öğrenelim.  
 
 ## <a name="how-to-get-the-samples"></a>Örnekleri alma
-Yukarıda da belirtildiği gibi, örnekler çeşitli biçimlerde kullanılabilir: içerik paketleri, Excel çalışma kitapları ve .pbix dosyaları. İçerik paketleriyle başlayarak her şu biçimlerden nasıl kullanılacağını açıklayacağız.
+Yukarıda da belirtildiği gibi, örnekler çeşitli biçimlerde kullanılabilir: içerik paketleri, Excel çalışma kitapları ve .pbix dosyaları. İçerik paketleriyle başlayarak bu biçimlerin her birinin nasıl kullanılacağını açıklayacağız.
 
 ## <a name="the-power-bi-samples-as-content-packs"></a>İçerik paketleri olarak sunulan Power BI örnekleri
-İçerik paketi, Power BI'ın içinde kullanılabilen tek örnek biçimidir; içerik paketlerine ulaşmak için Power BI'dan ayrılmanız gerekmez. Bir içerik paketini aslında bir veya daha fazla panolar, veri kümeleri ve raporların rolündeyseniz ve Power BI hizmeti ile kullanılabilir paketidir. Kullanıcılar iş arkadaşlarıyla paylaşmak üzere için içerik paketleri oluşturur. Tüm Power BI örneği içerik paketleri bir veri kümesi, rapor ve pano içerir.  İçerik paketleri Power BI Desktop'ta kullanılamaz. İçerik paketleri hakkında daha fazla bilgi edinmek istiyorsanız [Power BI'daki içerik paketlerine giriş](service-organizational-content-pack-introduction.md) makalesini okuyun.
+İçerik paketi, Power BI'ın içinde kullanılabilen tek örnek biçimidir; içerik paketlerine ulaşmak için Power BI'dan ayrılmanız gerekmez. Bir veya daha fazla panodan, veri kümesinden ve rapordan oluşan içerik paketleri temel olarak, Power BI hizmetiyle birlikte kullanılmak üzere birisi tarafından oluşturulmuş paketlerdir. Kullanıcılar iş arkadaşlarıyla paylaşmak üzere için içerik paketleri oluşturur. Tüm Power BI örneği içerik paketleri bir veri kümesi, rapor ve pano içerir.  İçerik paketleri Power BI Desktop'ta kullanılamaz. İçerik paketleri hakkında daha fazla bilgi edinmek istiyorsanız [Power BI'daki içerik paketlerine giriş](service-organizational-content-pack-introduction.md) makalesini okuyun.
 
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Power BI hizmetinde örnek içerik paketlerini edinme ve açma
-1. Power BI hizmetinde (app.powerbi.com) açın ve oturum açın.
-2. Sol alt köşedeki seçin **veri alma**.
+1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
+2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
 
     ![Veri Al simgesi](media/sample-datasets/power-bi-get-data.png)
 3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
@@ -128,17 +128,17 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
    * [Satış ve Pazarlama Örneği](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. İndirdiğiniz dosyayı kaydedin. Dosyayı kaydettiğiniz yer önemlidir.
 
-   * ![Yerel](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI’ı kullanarak dosyanızı Power BI’a aktarabilirsiniz. Böylece, dosyanın tamamı Power BI'a aktarılmamış dosyanız gerçekte yerel sürücünüzde kalır. Olur yeni bir veri kümesi, Power BI sitenizde ve verileri, oluşturulan ve bazı durumlarda ise veri modelinin, veri kümesine yüklenmesidir. Herhangi bir rapor dosyanız varsa bu raporları Power BI sitenizdeki Raporlar bölümünde görünür.
-   * ![OneDrive iş](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - iş** – OneDrive iş kullanıyorsanız Power BI, OneDrive iş popüleri Excel'de iş tutmak için en iyi yeri için aynı hesabı içine oturum Power BI, veya bir. CSV dosyası ile eşitlenmiş durumda veri kümesi, raporlarınız ve panolarınız Power bı'da. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
+   * ![Yerel](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI’ı kullanarak dosyanızı Power BI’a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
+   * ![OneDrive İş](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - İş**: OneDrive İş kullanıyorsanız ve OneDrive İş'te oturum açarken, Power BI'a bağlandığınız hesabı kullanıyorsanız, OneDrive İş Excel’deki, Power BI’daki veya bir .CSV dosyasındaki çalışmanızı veri kümeniz, raporlarınız ve panolarınız ile Power BI’da eşitlenmiş durumda tutmanın en iyi yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
    * ![OneDrive Bireysel](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş ile ilgili olarak elde ettiğiniz avantajların pek çoğundan yararlanırsınız. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel yolunu izleyerek) OneDrive'da Microsoft hesabınızla oturum açmanız gerekir. Bu genellikle, Power BI'da oturum açarken kullandığınız hesaptan farklıdır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
    * ![SharePoint Ekip Siteleri](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint Ekip Siteleri**    Power BI dosyalarınızı SharePoint - Ekip Siteleri’ne kaydetme, OneDrive İş’e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
-1. Power BI hizmetinde (app.powerbi.com) açın ve oturum açın.
+1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 
    > [!TIP]
    > Bu noktada yeni bir pano oluşturup bu panoya, içeri aktarmayı planladığınız dosyanın adını vermenizde yarar vardır.  Aksi halde, Excel veri kümesini içeri aktardığınızda Power BI, örneğin adının verildiği yeni bir pano oluşturmaz; bunun yerine o sırada açık olan panoya bir kutucuk ekler. Bu kutucuğu seçtiğinizde veri kümesinin raporuna yönlendirilirsiniz. Daha sonra dilediğiniz zaman yeni bir pano oluşturabileceğiniz için bu büyük bir sorun değildir ancak yeni bir panoyla başlamak size birkaç adım kazandırır.
    >
    >
-4. Sol alt köşedeki seçin **veri alma**.
+4. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
 
     ![Veri Al simgesi](media/sample-datasets/power-bi-get-data.png)
 5. Görünen Veri Al sayfasında **Dosyalar > Al** seçeneğini belirleyin.
@@ -147,27 +147,27 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
 6. Örneği indirip kaydettiğiniz konuma gidin.
 
    ![Örneği kaydettiğiniz konum](media/sample-datasets/power-bi-files3.png)
-7. Bu durumda dosyayı seçin **Procurement Analysis Sample.xlsx**, OneDrive iş üzerinde kaydedilmiş ve seçin **Connect**.
+7. OneDrive İş'e kaydedilen dosyayı (bu örnekte **Procurement Analysis Sample.xlsx**) seçin ve **Bağlan** seçeneğini belirleyin.
 
    ![One Drive İş > Bağlan](media/sample-datasets/power-bi-connect2.png)
 8. Verileri içeri aktarma ile çalışma kitabını Power BI'a aktarıp tam olarak Excel Online'da göründüğü şekilde görüntüleme arasında bir seçim yapın.
 
     ![İçeri Aktar veya Bağlan](media/sample-datasets/power-bi-import.png)
 9. **İçeri aktar** seçeneğini belirlemeniz durumunda Power BI, örnek çalışma kitabını içeri aktarır **Tedarik Analizi Örneği** adında yeni bir veri kümesi olarak ekler.  Çalışma kitabında herhangi bir Power View sayfası, tablo veya aralık ya da veri modeli varsa Power BI bir rapor (aynı ada sahip) da oluşturur. Ayrıca, açık bir panoya sahip olmamanız halinde Power BI tarafından yeni bir pano oluşturulur. (**Veri Al** seçeneğine tıkladığınız sırada bir panonuz açıksa bu panoda yeni bir boş kutucuk görürsünüz.  Bu kutucuğa tıkladığınızda, yeni eklediğiniz veri kümesine ilişkin rapora yönlendirilirsiniz.) Yeni içerik örneğin adını alır ve sarı yıldızla işaretlenir.
-10. **Veri kümeniz hazır!** ekranı görüntülenirse, seçin **veri kümesini görüntüle** veya **hızlı Öngörüler alın** veya bulun ve ilişkili raporu veya panoyu açmak için Power BI sol gezinti çubuğunu kullanın.  
+10. **Veri kümeniz hazır!** ekranı göründüğünde, **Veri kümesini görüntüle** veya **Hızlı Öngörüler Alın** seçeneğini belirleyin ya da Power BI'daki sol gezinti çubuğunuzu kullanarak ilişkili raporu ya da panoyu bulup açın.  
 
      ![Veri kümesini görüntüle](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(İsteğe bağlı) Doğrudan Excel üzerinden Excel örneklerine göz atın
 Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporlarına nasıl dönüştürüldüğünü öğrenmek mi istiyorsunuz? Excel örneklerinin ***Excel'de*** açılması ve çalışma sayfalarının incelenmesi sizi bazı cevaplara ulaştıracaktır.
 
-* Bir örnek çalışma kitabını Excel'de ilk kez açtığınızda iki uyarı görebilirsiniz. İlk uyarı çalışma kitabının Korumalı Görünüm'de olduğunu söyler. **Düzenlemeyi Etkinleştir** seçeneğini belirleyin. İkinci uyarı, çalışma kitabında dış veri bağlantıları olduğunu bildirebilir. **İçeriği Etkinleştir** seçeneğini belirleyin.
-* Her çalışma kitabında birden fazla Power View sayfaları içerir. Excel Power View sayfalarında görmek istiyorsanız, yapmanız [Power View eklentisini etkinleştirmeniz](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) kayıt defteri anahtarlarını paketini yükleyerek.
-* Peki gerçek veriler nerededir? Gerçek veriler Power Pivot veri modelinde yer alır. Verileri görmek için Power View sayfaları gerekmez. Üzerinde **PowerPivot** sekmesinde **Yönet**.
+* Bir örnek çalışma kitabını Excel'de ilk kez açtığınızda iki uyarı görebilirsiniz. İlk uyarı, çalışma kitabının Korumalı Görünüm'de olduğunu belirtir. **Düzenlemeyi Etkinleştir** seçeneğini belirleyin. İkinci uyarı, çalışma kitabında dış veri bağlantıları olduğunu bildirebilir. **İçeriği Etkinleştir** seçeneğini belirleyin.
+* Her çalışma kitabında çeşitli Power View sayfaları bulunur. Power View sayfalarını Excel’de görmek istiyorsanız, bir kayıt defteri anahtarları paketi indirerek [Power View eklentisini etkinleştirmeniz](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) gerekir.
+* Peki gerçek veriler nerededir? Gerçek veriler Power Pivot veri modelinde yer alır. Verileri görmek için Power View sayfalarına ihtiyacınız yok. **PowerPivot** sekmesinden, **Yönet**’i belirleyin.
 
-    Görmüyor **Power Pivot** sekmesini? [Power Pivot eklentisini etkinleştirin](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
+    **PowerPivot** sekmesini göremiyor musunuz? [Power Pivot eklentisini etkinleştirin](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 
-    Power Pivot'ta tüm DAX formülleri yanı sıra temel alınan tüm tabloları verileri görebilirsiniz. 
+    Power Pivot'ta tüm DAX formüllerinin yanı sıra temel alınan tablolardaki tüm verileri görebilirsiniz. 
 
 * Info sekmesi, örneği oluşturan şirket olan obviEnce ile ilgili bilgiler verir.
 
@@ -192,7 +192,7 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 4. Power BI Desktop'ta açmak için .pbix dosyasını seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI temel kavramları](consumer/end-user-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 
 [Öğretici: Power BI örneklerine bağlanma](sample-tutorial-connect-to-the-samples.md)
 

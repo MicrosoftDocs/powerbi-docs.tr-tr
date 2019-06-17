@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625069"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721395"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 
@@ -130,7 +130,7 @@ Desktop’ta örnek PBIX dosyasını ilk kez açtığınızda, Power BI aslında
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI temel kavramları](consumer/end-user-basic-concepts.md)
+- [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 - [Power BI hizmeti için örnekler](sample-datasets.md)
 - [Power BI için veri kaynakları](service-get-data.md)
 

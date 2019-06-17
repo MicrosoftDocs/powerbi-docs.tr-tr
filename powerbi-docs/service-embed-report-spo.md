@@ -11,52 +11,52 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c8789d47ed1b67f9fd6808865514120457a29dfe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051279"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498017"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
 Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
 
-Yeni kullanırken **SharePoint Online'a ekleme** seçeneği, eklenen raporlar tamamen güvenli kolayca güvenli iç Portal oluşturabilirsiniz.
+Yeni **SharePoint Online'a ekle** seçeneğini kullandığınızda, eklenen raporlar tamamen güvenli olduğu için kolayca güvenli iç portal oluşturabilirsiniz.
 
 ## <a name="requirements"></a>Gereksinimler
 
-İçin **SharePoint Online'a ekleme** raporlarının çalışması için aşağıdakiler gereklidir:
+**SharePoint Online’a Ekle** raporlarının çalışması için aşağıdakiler gereklidir:
 
-* Power BI Pro lisansı veya bir [Power BI Premium kapasitesi (EM veya P SKU)](service-premium-what-is.md) Power BI lisansına sahip.
+* Bir Power BI Pro lisansı veya bir Power BI lisansı ile [Power BI Premium kapasitesi (EM veya P SKU)](service-premium-what-is.md).
 * SharePoint Online'a yönelik Power BI web bölümü için [Modern Sayfalar](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) gereklidir.
 
 ## <a name="embed-your-report"></a>Raporunuzu ekleme
-Raporunuzu SharePoint Online'a eklemek için rapor URL'sini ve SharePoint Online'nın yeni Power BI web bölümüyle kullanmak gerekir.
+Raporunuzu SharePoint Online’a eklemek için rapor URL’sini alıp bunu SharePoint Online’ın Power BI web bölümüyle birlikte kullanın.
 
-### <a name="get-a-report-url"></a>Bir rapor URL'sini alma
+### <a name="get-a-report-url"></a>Bir rapor URL’si alma
 
-1. Power BI hizmetinde raporu görüntüleyin.
+1. Raporu Power BI’da görüntüleyin.
 
-2. Seçin **dosya** açılır menüsünde, ardından **SharePoint Online'a ekleme**.
+2. **Dosya** açılan menüsünü seçin ve **SharePoint Online’a Ekle**’yi belirleyin.
 
     ![Dosya menüsü](media/service-embed-report-spo/powerbi-file-menu.png)
 
-3. İletişim kutusundan rapor URL'sini kopyalayın.
+3. İletişim kutusundan rapor URL’sini kopyalayın.
 
     ![Ekleme bağlantısı](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Power BI raporunu bir SharePoint Online sayfasına ekleme
 
-1. Hedef sayfayı SharePoint Online'da açın ve seçin **Düzenle**.
+1. SharePoint Online'da hedef sayfayı açıp **Düzenle**'yi seçin.
 
     ![SP düzenleme sayfası](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    Veya Sharepoint Online'da seçin **+ yeni** yeni bir modern site sayfası oluşturmak için.
+    Veya, yeni bir modern site sayfası oluşturmak için Sharepoint Online’da **+ Yeni**’yi seçin.
 
     ![SP yeni sayfa](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. Seçin **+** açılır ve ardından **Power BI**.
+2. **+** açılan öğeyi seçin ve ardından **Power BI** web bölümünü belirleyin.
 
     ![SP yeni web bölümü](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -64,7 +64,7 @@ Raporunuzu SharePoint Online'a eklemek için rapor URL'sini ve SharePoint Online
 
     ![SP yeni rapor](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. İçinde rapor daha önce kopyaladığınız URL'yi yapıştırın **Power BI raporu bağlantısı** bölmesi. Rapor otomatik olarak yüklenir.
+4. Önceden kopyaladığınız rapor URL’sini **Power BI rapor bağlantısı** bölmesine yapıştırın. Rapor otomatik olarak yüklenir.
 
     ![SP yeni web bölümü özellikleri](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -74,30 +74,30 @@ Raporunuzu SharePoint Online'a eklemek için rapor URL'sini ve SharePoint Online
 
 ## <a name="grant-access-to-reports"></a>Raporlara erişim verme
 
-Bir raporu SharePoint Online'a eklediğinizde otomatik olarak kullanıcıların rapor görüntülemesine izin vermek değil - görüntüleme izinleri Power BI'da ayarlamanız gerekir.
+Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntüleme izni otomatik olarak verilmez. Görüntüleme izinlerini Power BI’da ayarlamanız gerekir.
 
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power bı'da rapor erişim sağlamak için iki yolu vardır. SharePoint Online ekip sitenizi oluşturmak için bir Office 365 grubu kullanıyorsanız, ilk yol, kullanıcı bir üyesi olarak listelemektir **Power BI hizmetinde uygulama çalışma alanı** ve **SharePoint sayfası**. Daha fazla bilgi için bkz. [Bir uygulama çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklemedir. Daha fazla bilgi için bkz. [Bir uygulama çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-İkinci yol, bir uygulama içinde bir rapor ekleme ve doğrudan kullanıcılarla paylaşın oluşturmaktır:  
+İkinci yöntem de bir uygulamaya rapor ekleyip bunu kullanıcılarla doğrudan paylaşmadır:  
 
-1. Yazar (bir Pro kullanıcısı olması gerekir), bir uygulama çalışma alanında bir rapor oluşturur. Paylaşılacak **Power BI ücretsiz sürüm kullanıcıları**, uygulama çalışma alanı olarak ayarlanması gerekir bir **Premium çalışma alanı**.
+1. Bir Pro kullanıcısı olması gereken yazar, uygulama çalışma alanında bir rapor oluşturur. *Power BI ücretsiz kullanıcılarıyla* paylaşım yapabilmek için uygulama çalışma alanının *Premium çalışma alanı* olarak ayarlanması gerekir.
 
-2. Yazar, uygulamanın yayınlar ve aracıyı yükler. Yazar, uygulamayı SharePoint Online'da ekleme için kullanılan rapor URL'si erişimi yüklediğinizden emin olun ister.
+2. Yazar uygulamayı yayımlar ve yükler. Uygulamanın SharePoint Online’a eklemek için kullanılan rapor URL’sine erişimi olması için yazarın uygulamayı yüklemesi gerekir.
 
-3. Artık tüm kullanıcılar da uygulamayı yükleyebilir. Ayrıca **uygulama otomatik olarak yüklemeniz** özelliğini de etkinleştirebilirsiniz [Power BI Yönetici portalına](service-admin-portal.md)uygulamasının son kullanıcılar için önceden yüklü olması için.
+3. Artık tüm kullanıcılar da uygulamayı yükleyebilir. Uygulamanın son kullanıcılar için önceden yüklenmesini sağlamak için [Power BI yönetici portalından](service-admin-portal.md) etkinleştirebildiğiniz **Uygulamayı otomatik olarak** yükle özelliğini de kullanabilirsiniz.
 
    ![Uygulamayı otomatik olarak yükle](media/service-embed-report-spo/install-app-automatically.png)
 
 4. Yazar uygulamayı açar ve rapora gider.
 
-5. Yazar ekleme rapor URL'sini uygulamasının yüklü rapordan kopyalar. **Özgün rapor URL'si, uygulama çalışma alanından kullanmayın.**
+5. Yazar, uygulama tarafından yüklenen raporun ekleme URL'sini kopyalar. Uygulama çalışma alanında bulunan özgün rapor URL’sini kullanmayın.
 
 6. SharePoint Online'da yeni bir ekip sitesi oluşturun.
 
-7. Daha önce kopyaladığınız rapor URL'si için Power BI web bölümü ekleyin.
+7. Önceden kopyaladığınız rapor URL’sini Power BI web bölümüne ekleyin.
 
 8. Verilerden faydalanacak olan tüm son kullanıcıları ve/veya grupları SharePoint Online sayfasına ve oluşturduğunuz Power BI uygulamasına ekleyin.
 
@@ -108,36 +108,36 @@ Artık son kullanıcılar SharePoint Online'daki ekip sitesine giderek sayfadaki
 
 ## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 
-Power BI ortamınızda oturum açmak için çok faktörlü kimlik doğrulaması kullanmanız gerekiyorsa kimliğinizi doğrulamak için bir güvenlik cihazıyla oturum açmanız istenebilir. Bu, çok faktörlü kimlik doğrulaması kullanarak SharePoint Online'a için oturum açmamış, ancak Power BI ortamınızın bir hesabı doğrulamak için bir güvenlik cihazı gerektirir ortaya çıkar.
+Power BI ortamınızda oturum açmak için çok faktörlü kimlik doğrulaması kullanmanız gerekiyorsa kimliğinizi doğrulamak için bir güvenlik cihazıyla oturum açmanız istenebilir. Bu durum SharePoint Online oturumunuzu çok faktörlü kimlik doğrulaması kullanmadan açmış olmanız ancak Power BI ortamınızın, bir hesabı doğrulamak için güvenlik cihazı istemesi istemesi durumunda ortaya çıkar.
 
 > [!NOTE]
-> Azure Active Directory 2.0 çok faktörlü kimlik doğrulamasını desteklemez; kullanıcıların bir hata iletisi görürsünüz. Kullanıcı, güvenlik cihazını kullanarak SharePoint Online oturumu açması halinde raporu görüntüleyebilir.
+> Power BI, Azure Active Directory 2.0 ile çok faktörlü kimlik doğrulamasını henüz desteklemiyor. Kullanıcılar bir hata iletisi alır. Kullanıcı, güvenlik cihazını kullanarak SharePoint Online oturumu açması halinde raporu görüntüleyebilir.
 
 ## <a name="web-part-settings"></a>Web bölümü ayarları
 
-SharePoint Online için Power BI web bölümü için ayarlayabileceğiniz ayarları altındadır.
+SharePoint Online’ın web bölümü için Power BI’da düzenleyebileceğiniz ayarlar aşağıda verilmiştir:
 
 ![SP web bölümü özellikleri](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
 | Özellik | Açıklama |
 | --- | --- |
-| Sayfa adı |Web bölümü'nün varsayılan sayfayı ayarlar. Açılan listeden bir değer seçin. Herhangi bir sayfa görüntülenmiyorsa raporunuzda tek sayfa vardır veya yapıştırdığınız URL bir sayfa adı içeriyordur. Belirli bir sayfayı seçmek için URL'deki rapor bölümünü kaldırın. |
-| Göster |Raporun SharePoint Online sayfasına nasıl uyduğunu ayarlar. |
+| Sayfa adı |Web bölümünün varsayılan sayfasını ayarlar. Açılan listeden bir değer seçin. Herhangi bir sayfa görüntülenmiyorsa raporunuzda tek sayfa vardır veya yapıştırdığınız URL bir sayfa adı içeriyordur. Belirli bir sayfayı seçmek için URL'deki rapor bölümünü kaldırın. |
+| Göster |Raporun SharePoint Online sayfasına nasıl yerleştirileceğini ayarlar. |
 | Gezinti Bölmesini Göster |Gezinti bölmesini gösterir veya gizler. |
 | Filtre Bölmesini Göster |Filtre bölmesini gösterir veya gizler. |
 
 ## <a name="reports-that-do-not-load"></a>Yüklenmeyen raporlar
 
-Raporunuzu Power BI web bölümünde yüklenmemesine neden şu iletiyi görebilirsiniz:
+Raporunuz Power BI web bölümünde yüklenmiyorsa aşağıdaki iletiyi görebilirsiniz:
 
-![Bu içerik, kullanılabilir ileti değil.](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![İçerik kullanılamıyor iletisi](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Bu iletinin iki olası nedeni vardır.
 
 1. Rapor erişiminiz yok.
 2. Rapor silinmiştir.
 
-Sorunu gidermek için SharePoint Online sayfası sahibiyle iletişime geçin.
+Sorunu çözmenize yardımcı olması için SharePoint Online sayfasının sahibiyle iletişime geçin.
 
 ## <a name="licensing"></a>Lisanslama
 
@@ -151,7 +151,7 @@ SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisan
   
   1. SharePoint oturumunuzu kapatıp tekrar açın. Tekrar oturum açmadan önce tüm tarayıcı pencerelerini kapattığınızdan emin olun.
 
-  2. Kullanıcı hesabınızın multi factor authentication (MFA) gerektiriyorsa, ardından MFA Cihazınızı (telefon uygulaması, akıllı kart, vb.) kullanarak SharePoint için oturum açın.
+  2. Kullanıcı hesabınız için çok faktörlü kimlik doğrulaması (MFA) kullanmanız gerekiyorsa, SharePoint oturumunuzu MFA cihazınızı (telefon uygulaması, akıllı kart vb.) kullanarak açtığınızdan emin olun.
   
   3. Azure B2B Konuk kullanıcı hesapları desteklenmez. Kullanıcılar bölümün yüklendiğini gösteren Power BI logosunu görür, ancak rapor gösterilmez.
 

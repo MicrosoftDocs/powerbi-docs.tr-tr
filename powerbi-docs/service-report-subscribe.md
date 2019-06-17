@@ -1,6 +1,6 @@
 ---
-title: Kendinizi ve diğerlerini raporlar ve panolar - Power BI için abone olun
-description: Power BI rapor sayfası, Pano veya sayfalandırılmış rapor bir anlık görüntüye kendinizin ve başkalarının abone olmayı öğrenin.
+title: Kendinizi ve başkalarını raporlara ve panolara abone yapma - Power BI
+description: Kendinizi ve başkalarını bir Power BI raporunun, sayfasının, panosunun veya sayfalandırılmış raporunun anlık görüntüsüne abone yapmayı öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991127"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498074"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
-Kendiniz iş arkadaşlarınızla rapor sayfaları, panolar ve sizin için en önemli sayfalandırılmış raporlar için abone olabilirsiniz. Power BI bir anlık görüntü, gelen kutunuza e-postaları. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya günde bir kez ilk veri yenilemesinden sonra.  Günlük seçin ya da haftalık zaman seçebilirsiniz aboneliğiniz çalıştırmak ister misiniz?  Her rapor sayfası veya pano için günde en fazla 24 farklı abonelik ayarlayabilirsiniz.
+Kendinizi ve iş arkadaşlarınızı, sizin için en önemli rapor sayfalarına, panolara ve sayfalandırılmış raporlara abone yapabilirsiniz. Power BI size e-postayla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya günde bir kez ilk veri yenilemesinden sonra.  Günlük veya haftalığı seçerseniz, aboneliğin çalıştırılmasını istediğiniz saatleri seçebilirsiniz.  Her rapor sayfası veya pano için günde en fazla 24 farklı abonelik ayarlayabilirsiniz.
 
 ![panonun anlık görüntüsünü e-posta ile gönderme](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ Abonelikleri yalnızca Power BI hizmetinde oluşturabilirsiniz. Anlık görünt�
 
 - Abonelik **oluşturma** bir Power BI Pro özelliğidir.
 - Kendinize abonelik oluşturmak için içeriği (pano veya rapor) düzenleme izinleriniz olması gerekmez, ancak başkası için abonelik oluşturacaksanız düzenleme izinleriniz olmalıdır. 
-- Ocak 2019’dan itibaren, aboneliği çalıştırmak için veri kümesi yenilemesinin ayarlanması gerekmez.  Ayarlamış olduğunuz tüm zamanlanmış yenilemelerden bağımsız olarak çalışır.  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Bir pano, rapor sayfasının veya sayfalandırılmış rapor abone olma
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Bir panoya, rapor sayfasına veya sayfalandırılmış rapora abone olma
 
-Olup, abone bir panoyu, raporu veya sayfalandırılmış rapor, işlemi benzerdir. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
+Panoya, rapora veya sayfalandırılmış rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
 
-Sayfalandırılmış raporlara abone biraz farklıdır. Bkz: [sayfalandırılmış rapor Power BI hizmetinde kendinizin ve başkalarının abone](paginated-reports-subscriptions.md) Ayrıntılar için.
+Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md).
  
 ![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png)geçin.
 
@@ -64,7 +63,7 @@ Sayfalandırılmış raporlara abone biraz farklıdır. Bkz: [sayfalandırılmı
 7. **Kaydet ve kapat**’ı seçin. Abone olan kişiler seçtiğiniz sıklıkta ve saatlerde e-postayla pano veya rapor sayfasının anlık görüntüsünü alır. Toplamda rapor veya pano başına en fazla 24 abonelik oluşturabilirsiniz ve her abonelik için benzersiz alıcılar, saatler ve sıklıklar sağlayabilirsiniz.  Panonuz veya raporunuz için **Veri Yenilemesinden Sonra** olarak ayarlanan tüm abonelikler, yine de yalnızca zamanlanmış ilk yenilemeden sonra e-posta gönderir.   
       
    > [!TIP]
-   > Abonelikten e-postayı hemen mi yoksa isteğe bağlı olarak herhangi bir zamanda mı göndermek istiyorsunuz? Göndermek istediğiniz panonun veya raporun abonelikleri için **Şimdi Çalıştır**’ı seçin. Bu abonelik için herkese e-posta gönderildiğine ilişkin bir bildirim görürsünüz.  Dilediğiniz sıklıkta bunu. Rapor veya pano başına günde 24 zamanlanmış abonelik çalıştırması sınırınızda bu hesaba katılmaz. Temel alınan veri kümesine veri yenilenmesini tetiklemez. 
+   > Abonelikten e-postayı hemen mi yoksa isteğe bağlı olarak herhangi bir zamanda mı göndermek istiyorsunuz? Göndermek istediğiniz panonun veya raporun abonelikleri için **Şimdi Çalıştır**’ı seçin. Bu abonelik için herkese e-posta gönderildiğine ilişkin bir bildirim görürsünüz.  Bunu istediğiniz sıklıkta yapabilirsiniz. Rapor veya pano başına günde 24 zamanlanmış abonelik çalıştırması sınırınızda bu hesaba katılmaz. Temel alınan veri kümesi için bir veri yenilemesi TETİKLEMEZ. 
    > 
    > 
    
@@ -87,10 +86,11 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Panolara kutucuk bu sayısını üzerinden abonelikleri engellenmez. Ancak, bunlar sorunlarla karşılaşırsanız desteklenmeyen kabul edilmeleri. Desteklenen aralıkta için bunları uygun şekilde değiştirmeyi düşünün.
-* E-posta aboneliklerinizi ayarlanırken dikkate abonelik işi başladığında arasında bir gecikme olur ve e-posta gönderilir kesin zaman tutun.  İkisi arasındaki gecikmeyi en aza indirmek için e-posta aboneliği zaman çalışacak şekilde zamanlanırsa daha zamanlanmış veri yenileme için farklı bir saat ayarlayın.
-* Tüm kutucukları uygulanan, satır düzeyi güvenlik (RLS) varsa, Pano e-posta abonelikleri için bu kutucukları görüntülemez.  
-* RLS, veri kümesini kullanıyorsa, raporu e-posta abonelikleri için bir abonelik kendiniz oluşturabilirsiniz. Diğer bir rapora uygulanan satır ile düzeyi güvenlik (RLS) abone olunamıyor.
+* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdaki kutucuktan fazla panoya abonelikler engellenmez. Ancak, sorunlarla karşılaşırsanız desteklenmeyen olarak kabul edilirler. Desteklenen aralıkta yer almak için bunları uygun şekilde değiştirmeyi değerlendirin.
+* Abonelik işi o zaman başlar. Bazı senaryolarda, e-postanın gelen kutunuza teslim edilmesi birkaç dakika sürebilir.
+* E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
+* Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa, bu kutucuklar görüntülenmez.  
+* Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Başkalarını satır düzeyi güvenlik (RLS) uygulanmış bir rapora abone yapamazsınız.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 * Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir.  Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
 * Kendiniz dışındaki kullanıcıları abone yaparken canlı bağlantı veri kümeleri kullanan raporlara/panolara yönelik e-posta abonelikleri şu anda desteklenmiyor.
@@ -105,6 +105,6 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Sayfalandırılmış rapor Power BI hizmetinde kendinizin ve başkalarının abone](paginated-reports-subscriptions.md)
+- [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md)
 - Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)    
 - [Blog gönderisini okuyun](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
