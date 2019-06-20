@@ -106,6 +106,8 @@
       items:
         - name: Sözlük ve terminoloji
           href: end-user-glossary.md
+        - name: Sık sorulan sorular
+          href: end-user-faq.md
         - name: Desteklenen tarayıcılar
           href: end-user-browsers.md
         - name: Power BI tarafından desteklenen Hızlı Öngörü türleri
