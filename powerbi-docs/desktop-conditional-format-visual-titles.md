@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769748"
@@ -57,7 +57,7 @@ Alanın modelinizi oluşturmak için DAX ifadesini oluşturduktan sonra görseli
 
 Alan seçin ve uygulamak için Git **görselleştirmeler** bölmesi. İçinde **biçimi** alanında **başlık** görsel başlığı seçeneklerini göstermek için. 
 
-Sağ tıkladığınızda **başlık metni**, seçmenize olanak sağlayan bir bağlam menüsü görüntülenir ***fx * koşullu biçimlendirme**. Bu menü öğesini seçtiğinizde bir **başlık metni** iletişim kutusu görüntülenir. 
+Sağ tıkladığınızda **başlık metni**, seçmenize olanak sağlayan bir bağlam menüsü görüntülenir ***fx* koşullu biçimlendirme**. Bu menü öğesini seçtiğinizde bir **başlık metni** iletişim kutusu görüntülenir. 
 
 ![Ekran görüntüsü, başlık metin iletişim kutusu](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

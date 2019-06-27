@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ac622c33aaf9ed72c00e37af4b6ab765cc04113
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8833f9f4cc4bea23d2070ce19fe34f9400d6bac4
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853310"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823246"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler 
 
-## <a name="may-2019-update-26954671251"></a>Mayıs 2019 güncelleştirme (2.69.5467.1251)
+## <a name="june-2019-update-2705494561"></a>Haziran 2019 Güncelleştirmesi (2.70.5494.561)
 
-Mayıs güncelleştirmelerimizi ilgi çekici yeni özellikleri ve renkli ve güzel görsellerle tam bir çiçek pot harika raporlar, bahçesi içinde açar aşağıdadır. 
+Haziran güncelleştirmelerimiz, Power BI Desktop'ınız için tazeleyici ve parlak yeni renk düzeniyle raporlarınıza güneş ışığının ve mavi gökyüzünün ferahlığını getiriyor; ayrıca başka geliştirmeler de var. 
 
 Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
@@ -37,49 +37,54 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 **Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
-* Performans Çözümleyicisi bölmesinde [[video]](https://youtu.be/O8GlHDz8xUQ?t=10)[[makale]](desktop-performance-analyzer.md)[[blog]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
-* Filtre bölmesini geliştirmeleri (Önizleme) [[video]](https://youtu.be/O8GlHDz8xUQ?t=377)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#filterPane)
-* Tablo ve matris klavye gezintisi [[video]](https://youtu.be/O8GlHDz8xUQ?t=518)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#accessibility)
-* Satır veri etiket konumu denetimi [[video]](https://youtu.be/O8GlHDz8xUQ?t=572)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dataLabels)
-* KPI görsel gösterge metin boyutu denetimi [[video]](https://youtu.be/O8GlHDz8xUQ?t=664)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
+* Güncelleştirilmiş bölme tasarımı  [[video]](https://youtu.be/7k-nP38uHyQ?t=8)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* Dilimleyiciler için görsel düzey filtreleri  [[video]](https://youtu.be/7k-nP38uHyQ?t=116)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
+* Performans çözümleyicisi bölmesi için sıralama [[video]](https://youtu.be/7k-nP38uHyQ?t=237)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
+* Biçimlendirme seçenekleri için koşullu biçimlendirme güncelleştirmeleri [[video]](https://youtu.be/7k-nP38uHyQ?t=311)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* Görsel üst bilgisi ipuçları [[video]](https://youtu.be/7k-nP38uHyQ?t=530)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
+* Tablo ve matris toplam etiketi özelleştirmesi [[video]](https://youtu.be/7k-nP38uHyQ?t=722)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
+* Hiyerarşi dilimleyicisi için dilimleyiciyi eşitleme desteği [[video]](https://youtu.be/7k-nP38uHyQ?t=859)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
+* Görsellerde tutarlı yazı tipi boyutları [[video]](https://youtu.be/7k-nP38uHyQ?t=962)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
 
 
 ### <a name="analytics"></a>Analiz
-* Anahtar öğrenilenler visual geliştirmeleri (Önizleme) [[video]](https://youtu.be/O8GlHDz8xUQ?t=717)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
-    * Gruplama desteği 
-    * Biçimlendirme seçenekleri
-    * Mobil desteği
-
+* Ana etmenler görseli güncelleştirmeleri (önizleme) [[video]](https://youtu.be/7k-nP38uHyQ?t=1064)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
+    * Power BI veri kümelerine Canlı bağlantıyla ana etmenler
+    * Ana etmenler erişilebilirliği
+    * Bulut RLS desteği
+* Toplamaları yönetme iletişim kutusu erişilebilirliği [[video]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
 ### <a name="modeling"></a>Modelleme
-* Yeni raporlar için otomatik tarih tabloları devre dışı [[video]](https://youtu.be/O8GlHDz8xUQ?t=984)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
-* ALLSELECTED DAX işlevi için güncelleştirme [[video]](https://youtu.be/O8GlHDz8xUQ?t=1080)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
+* Yeni == DAX karşılaştırma işleci [[video]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
 ### <a name="visuals"></a>Görseller
-* Arcgıs haritaları Power BI güncelleştirmeleri için [[video]](https://youtu.be/O8GlHDz8xUQ?t=1093)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* Altı yeni özel görseller ve güncelleştirmeleri [[video]](https://youtu.be/O8GlHDz8xUQ?t=1199)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* Kişiselleştirilmiş görselleştirme bölmesi (önizleme)  [[video]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* Üç yeni özel görsel ve güncelleştirmeler  [[video]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
-* Essbase Bağlayıcısı - desteği için yerel sorgu (MDX) [[video]](https://youtu.be/O8GlHDz8xUQ?t=2518)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
-* Intune veri ambarı Bağlayıcısı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2538)[[blog]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
-* Tenforce bağlayıcı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2560)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
-* Roamler bağlayıcı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2596)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
+* Paylaşılan veya onaylanmış veri kümelerine bağlanma [[video]](https://youtu.be/7k-nP38uHyQ?t=1739)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
+* Common Data Service bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/7k-nP38uHyQ?t=1807) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
+* Azure Veri Gezgini bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/7k-nP38uHyQ?t=1823) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
+* Cosmos DB bağlayıcısı iyileştirmeleri [[video]](https://youtu.be/7k-nP38uHyQ?t=1835)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* Entersoft veri bağlayıcısı [[video]](https://youtu.be/7k-nP38uHyQ?t=1851)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
 
 
-### <a name="other"></a>Diğer
-* Power BI Desktop için Otomatik Sorgu iptal [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
+### <a name="data-preparation"></a>Veri hazırlama
+* M Intellisense geliştirmeleri [[video]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+
 
 > [!NOTE]
 > Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
 
-Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
 
 
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 > [!NOTE]
 > Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
