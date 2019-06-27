@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750995"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389549"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -23,10 +23,6 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
 Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun.
-
-**Microsoft Runs on Power BI: Using Power BI in Modern Treasury**
-<br>Pankaj Gudimella ve Guru Kirthigavasan
-<br>[25 Haziran'da (10:00 – 11:00 PST) izlemek için kaydolun](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: How to Get Insights from Your Workday HR Data**
 <br>Agile Analytics'ten Iman Eftekhari, Julia Paton ve QBE Insurance'dan Shahram Karimi
@@ -61,6 +57,10 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 **Microsoft, Power BI kullanıyor – Finansal Planlama ve Analiz Artık Çok Kolay**
 <br>Sağlayan: Cory Hrncirik ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury**
+<br>Pankaj Gudimella ve Guru Kirthigavasan
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI JavaScript API’si ile Uygulamalarınızı Güçlendirme**
 <br>Hazırlayan: Nimrod Shalit
@@ -141,17 +141,9 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Konum Zekası ile İş Zekanızı Artırın**
-<br>Scott Ball, Microsoft'tan Esri ve Enrique Plaza
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **Satış ve Hizmetler için Uygulamalı Zeka**
 <br>Sağlayan: Ed Bobrin, Avanade
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**Başarılı Bir Trend Sorumlusunun 5 Alışkanlığı - Rohit Bhargava**
-<br>Hazırlayan: Non-Obvious’tan Rohit Bhargava
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun)**
 <br>Sağlayan: Jon Thompson, Blue Margin ve Jim Pastor, Elgin Fastener Group
@@ -160,6 +152,14 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 **Yeni Power BI ve data.world bağlayıcısı ile genel veya özel veri kümelerini görselleştirme**
 <br>Patrick McGarry ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Konum Zekası ile İş Zekanızı Artırın**
+<br>Scott Ball, Microsoft'tan Esri ve Enrique Plaza
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**Başarılı Bir Trend Sorumlusunun 5 Alışkanlığı - Rohit Bhargava**
+<br>Hazırlayan: Non-Obvious’tan Rohit Bhargava
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>Topluluk ###
 
