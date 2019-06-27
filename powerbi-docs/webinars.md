@@ -1,20 +1,20 @@
 ---
 title: Power BI web seminerleri
 description: Power BI web seminerleri
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453790"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750995"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,7 +22,15 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
+Power BI uzmanlarıyla bir araya gelmek ve canlı Soru-Cevap oturumlarına katılmak için kaydolun.
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury**
+<br>Pankaj Gudimella ve Guru Kirthigavasan
+<br>[25 Haziran'da (10:00 – 11:00 PST) izlemek için kaydolun](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: How to Get Insights from Your Workday HR Data**
+<br>Agile Analytics'ten Iman Eftekhari, Julia Paton ve QBE Insurance'dan Shahram Karimi
+<br>[27 Haziran'da (13:30 – 14:30 PST) izlemek için kaydolun](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

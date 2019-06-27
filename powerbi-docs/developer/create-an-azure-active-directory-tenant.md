@@ -1,6 +1,6 @@
 ---
 title: Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
-description: Power BI REST API'lerini kullanan özel uygulamanızla kullanmak üzere yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
+description: Power BI REST API'lerini çağıran özel uygulama için yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -8,35 +8,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
-ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/28/2019
+ms.openlocfilehash: 73dddd00b6f811cd29c76c97b04136358d6e6b7a
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61381775"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809223"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 
-Power BI REST API'lerini kullanan özel uygulamanızla kullanmak üzere yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
+[Power BI REST API'lerini](rest-api-reference.md) çağıran özel uygulama için yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
 
-Kiracılar, Azure Active Directory içindeki kuruluşları temsil eder. Kuruluşunuzun Azure, Microsoft Intune veya Office 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı diğer Azure AD kiracılarından ayrıdır.
+Kiracı, Azure Active Directory'de bir kuruluşu temsil eder. Kuruluşunuzun Azure, Microsoft Intune veya Office 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu ayrılmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı diğer Azure AD kiracılarından ayrıdır.
 
-Azure AD kiracısına sahip olduktan sonra bir uygulama tanımlayıp uygulamanızın Power BI REST API'lerini kullanabilmesi için izin atamanız gerekir.
+Azure AD kiracısına sahip olduktan sonra bir uygulama tanımlayabilir ve [Power BI REST API'lerini](rest-api-reference.md) çağırabilmesi için uygulamanıza izin atayabilirsiniz.
 
-Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracısına sahip olabilir. Uygulamanız için bu kiracıyı kullanabilir veya uygulamanıza özel yeni bir kiracı oluşturabilirsiniz. Bu makalede yeni kiracı oluşturma adımları ele alınmaktadır.
+Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracısına sahip olabilir. Ayrıca özel olarak uygulamanız için yeni kiracı da oluşturabilirsiniz. Bu makalede yeni kiracının nasıl oluşturulduğu gösterilir.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory kiracısı oluşturma
 
-Power BI'ı özel uygulamanızla tümleştirmek için Azure AD içinde bir uygulama tanımlamanız gerekir. Bunun için Azure AD içinde bir dizine ihtiyacınız vardır. Bu dizin sizin kiracınızdır. Kuruluşunuz Power BI veya Office 365 kullanmadığı için henüz kiracıya sahip değilse [bir kiracı oluşturmanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da yeni bir kiracı oluşturmanız gerekebilir. Bu sayede kaynakları birbirinden ayırmış olursunuz.
+Power BI'ı özel uygulamanızla tümleştirmek için Azure AD'nin içinde Azure AD dizini gerektiren bir uygulama tanımlamalısınız. Bu dizin sizin *kiracınızdır*. Kuruluşunuzun Power BI veya Office 365 kullanmadığı için henüz bir kiracısı yoksa [bir geliştirme ortamı ayarlamanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da bu öğeleri yalıtmanızı sağlayacak yeni bir kiracı oluşturmanız gerekir. Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
 
-Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
-
-Yeni bir Azure AD kiracısı oluşturmak için aşağıdaki adımları uygulayın.
+Yeni Azure AD kiracısı oluşturmak için:
 
 1. [Azure portalına](https://portal.azure.com) gidip Azure aboneliği olan bir hesapla oturum açın.
 
-2. **Artı simgesini (+)** seçip *Azure Active Directory* terimini aratın.
+2. **Artı simgesini (+)** seçip **Azure Active Directory** terimini aratın.
 
     ![Artı simgesi (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
@@ -46,53 +44,58 @@ Yeni bir Azure AD kiracısı oluşturmak için aşağıdaki adımları uygulayı
 
 4. **Oluştur**'u seçin.
 
-5. **Kuruluş için bir ad** ve **ilk etki alanı adı** girin. Ardından **Oluştur**'u seçin. Dizininiz oluşturulur.
+5. **Kuruluş adı** ve **İlk etki alanı adı** sağlayın. Ardından **Oluştur**'u seçin. Dizininiz oluşturulur.
 
     ![Kuruluş ve etki alanı](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
    > [!NOTE]
-   > İlk etki alanınız onmicrosoft.com ile bitecektir. Daha sonra başka etki alanı adları ekleyebilirsiniz. Bir kiracı dizinine birden fazla etki alanı atanabilir.
+   > İlk etki alanınız onmicrosoft.com'un bir parçasıdır. Daha sonra başka etki alanı adları ekleyebilirsiniz. Bir kiracı dizinine birden fazla etki alanı atanabilir.
 
 6. Dizin oluşturma işlemini tamamladıktan sonra yeni dizininizi yönetmek için bilgi kutusunu seçin.
 
-Yeni dizininiz oluşturulur. Sonraki adımda kiracıya bir kullanıcı ekleyeceğiz.
+Ardından kiracı kullanıcılarını ekleyeceksiniz.
 
-## <a name="create-some-users-in-your-azure-active-directory-tenant"></a>Azure Active Directory kiracınızda kullanıcı oluşturma
+## <a name="create-azure-active-directory-tenant-users"></a>Azure Active Directory kiracısı kullanıcıları oluşturma
 
-Dizini oluşturduğumuza göre bu adımda en az iki kullanıcı oluşturabiliriz. Bir tanesi kiracının Genel Yöneticisi, diğeri de ekleme için kullanacağımız ana hesap olacak. Bunu bir hizmet hesabı olarak düşünün.
+Dizini oluşturduğunuza göre şimdi de en az iki kullanıcı oluşturalım. Biri kiracının Genel Yöneticisi ve diğeri de ekleme için ana kullanıcıdır. Ana kullanıcıyı bir hizmet hesabı olarak düşünebilirsiniz.
 
 1. Azure portalında Azure Active Directory bölmesinde olduğunuzdan emin olun.
 
     ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
-    Değilseniz sol taraftaki hizmet çubuğundan Azure Active Directory simgesini seçin.
+    Değilseniz sol taraftaki hizmet gezintisinden Azure Active Directory simgesini seçin.
 
     ![](media/create-an-azure-active-directory-tenant/aad-service.png)
-2. **Yönet** bölümünde **Kullanıcılar ve gruplar**'ı seçin.
+
+2. **Yönet** bölümünde **Kullanıcılar**'ı seçin.
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+
 3. **Tüm kullanıcılar**'ı ve ardından **+ Yeni kullanıcı**'yı seçin.
-4. Bu kullanıcı için bir ad ve kullanıcı adı girin. Bu kullanıcı kiracınızın Genel Yöneticisi olacak. **Dizin rolü** değerini de *Genel yönetici* olarak değiştirmeniz gerekir. İsterseniz geçici parolayı da gösterebilirsiniz. İşiniz bittiğinde **Oluştur**'u seçin.
+
+4. Kiracınızın Genel Yöneticisi için **Ad** ve **Kullanıcı adı** sağlayın. **Dizin rolü**'nü **Genel yönetici** olarak değiştirin. İsterseniz geçici parolayı da gösterebilirsiniz. İşiniz bittiğinde **Oluştur**'u seçin.
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. Aynı adımları tekrarlayarak kiracınızda normal bir kullanıcı oluşturun. Bu hesap ana ekleme hesabınız için de kullanılabilir. Bu sefer **Dizin rolü** değerini *Kullanıcı* olarak bırakın. Parolayı not almayı unutmayın. Ardından **Oluştur**'u seçin.
+5. Normal kiracı kullanıcı için de aynı işlemi yapın. Bu hesabı ana ekleme hesabınız olarak kullanabilirsiniz. Bu kez **Dizin rolü**'nü **Kullanıcı** olarak bırakın. Parolayı not alın ve **İleri**'yi seçin.
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
-6. 5. adımda oluşturduğunuz kullanıcı hesabıyla Power BI oturumu açın. Bunu yapmak için [powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip *Power BI - Cloud collaboration and sharing* (Power BI - Bulutta işbirliği ve paylaşım) bölümünün altındaki **Try free** (Ücretsiz deneyin) öğesini seçin.
+
+6. 5\. adımda oluşturduğunuz kullanıcı hesabıyla Power BI'a kaydolun. [Powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Cloud collaboration and sharing** (Power BI - Bulutta işbirliği ve paylaşım) bölümünün altındaki **Try free** (Ücretsiz deneyin) öğesini seçin.
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
-    Kaydolduktan sonra Power BI Pro sürümünü 60 gün boyunca denemek isteyip istemediğiniz sorulur. İsterseniz bu teklifi kabul ederek Pro sürüm kullanıcısı olabilirsiniz. Artık ekli çözüm geliştirmeye de başlayabilirsiniz.
+    Kaydolduktan sonra Power BI Pro sürümünü 60 gün boyunca denemek isteyip istemediğiniz sorulur. Bunu kabul edip Pro kullanıcısı olabilir ve [bir ekli çözüm geliştirmeye başlama](embedding-content.md) seçeneğinden yararlanabilirsiniz.
 
    > [!NOTE]
-   > Kullanıcı hesabında tanımladığınız e-posta adresiyle kaydolduğunuzdan emin olun.
+   > Kullanıcı hesabınızın e-posta adresiyle oturum açtığınızdan emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Artık bir Azure AD kiracınız var. Bu kiracıyı kullanarak Power BI'daki öğeleri test edebilir ve/veya bir sonraki aşamaya geçerek Power BI panolarını ve raporlarını uygulamanıza ekleyebilirsiniz. Öğe ekleme hakkında bilgi almak için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md).
+Artık bir Azure AD kiracınız olduğuna göre, bu kiracıyı kullanarak Power BI'ın içindeki öğeleri test edebilirsiniz. Ayrıca uygulamanıza Power BI panoları ve raporları ekleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md).
 
-[What is an Azure AD directory? (Azure AD dizini nedir?)](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
-[Azure Active Directory kiracısı oluşturma](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Azure Active Directory nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+ 
+[Hızlı başlangıç: Geliştirme ortamınızı ayarlama](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

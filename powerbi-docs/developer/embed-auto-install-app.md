@@ -1,43 +1,43 @@
 ---
-title: Otomatik olarak kuruluşunuz için ekleme yaparken Power BI uygulamaları yükle
-description: Kuruluşunuz için ekleme yaparken otomatik olarak uygulama yükleme Power BI hakkında bilgi edinin.
+title: Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
+description: Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yüklemeyi öğrenin.
 ms.subservice: powerbi-developer
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: bb9ba5531c2a23f15ccbf98261e246ab7080aecb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 50040731ec5602dc38d9d323fe916e4e2e239d27
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61376218"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751055"
 ---
-# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için ekleme yaparken otomatik yüklenecek Power BI uygulamaları
+# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 
-Bir uygulamadan içerik eklemek için ekleme kullanıcı olmalıdır [uygulamaya erişim](../service-create-distribute-apps.md). Uygulama kullanıcı için yüklenir, ardından ekleme sorunsuz bir şekilde çalışır. Daha fazla bilgi için [raporlar veya panolar uygulamasından](embed-from-apps.md). Tüm uygulamalar olabilecek Powerbı.com'da tanımlamak mümkündür [otomatik olarak yüklenen](https://powerbi.microsoft.com/blog/automatically-install-apps/). Ancak, bu eylem Kiracı düzeyinde gerçekleştirilir ve tüm uygulamalar için geçerlidir.
+Uygulamadan içerik eklemek için, ekleme işlemini yapan kullanıcının [uygulamaya erişimi](../service-create-distribute-apps.md) olmalıdır. Uygulama kullanıcı için yüklendiyse ekleme işlemi sorunsuz çalışır. Daha fazla bilgi için bkz. [Uygulamadan raporlar veya panolar ekleme](embed-from-apps.md). PowerBI.com'da tüm uygulamaların [otomatik olarak yüklenebilmesini](https://powerbi.microsoft.com/blog/automatically-install-apps/) tanımlamak mümkündür. Bununla birlikte bu eylem kiracı düzeyinde yapılır ve tüm uygulamalar için geçerli olur.
 
-## <a name="auto-install-app-on-embedding"></a>Otomatik yüklenecek uygulama ekleme
+## <a name="auto-install-app-on-embedding"></a>Ekleme sırasında uygulamayı otomatik olarak yükleme
 
-Bir kullanıcı bir uygulama, ancak uygulama erişimi varsa, ardından başarısız katıştırma yüklü değil. Uygulama eklerken bu hataları önlemek için otomatik uygulamasının yüklenmesi ve ekleme sırasında izin verebilirsiniz. Bu eylem kullanıcı eklemeye çalışırsa uygulama yüklü değilse, bunu otomatik olarak sizin için yüklü olduğu anlamına gelir. Bu nedenle, istediğiniz içeriği hemen kullanıcı için sorunsuz bir deneyim výsledek katıştırılmış.
+Kullanıcının uygulamaya erişim varsa ama uygulama yüklenmemişse, ekleme başarısız olur. Bu nedenle uygulamadan içerik eklerken bu hatalardan kaçınmak için uygulamanın ekleme sırasında otomatik olarak yüklenmesine izin verebilirsiniz. Bu eylem, kullanıcının eklemeye çalıştığı uygulama yüklü değilse otomatik olarak yükleneceği anlamına gelir. Dolayısıyla istediğiniz içerik anında eklenir ve sonuçta kullanıcı için sorunsuz bir deneyim sağlanır.
 
-## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI kullanıcıları (verilerin sahibi kullanıcıdır) ekleme
+## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI kullanıcıları için ekleme (Veriler kullanıcıya aittir)
 
-Kullanıcılarınız için uygulamaları otomatik yükleme izin vermek için uygulamanızı 'İçerik oluşturma' izni vermeniz gerekir, [uygulamanızı kaydetmek](register-app.md#register-with-the-power-bi-application-registration-tool), veya uygulamanızı zaten kaydolduysanız ekleyin.
+Kullanıcılarınızda uygulamaların otomatik yüklenmesine izin vermek için, [uygulamanızı kaydederken](register-app.md#register-with-the-power-bi-application-registration-tool) 'İçerik Oluşturma' izni vermeli veya uygulamanızı zaten kaydettiyseniz bu izni eklemelisiniz.
 
-![Register app içerik oluşturur](media/embed-auto-install-app/register-app-create-content.png)
+![İçerik oluşturan uygulamayı kaydetme](media/embed-auto-install-app/register-app-create-content.png)
 
-Ardından, ekleme URL'sindeki uygulama Kimliğini sağlamanız gerekir. Uygulama Kimliği sağlamak için uygulama Oluşturucu öncelikle uygulamayı yükledikten sonra desteklenen birini kullanın gerekir [Power BI Rest API'si](https://docs.microsoft.com/rest/api/power-bi/) çağrıları - [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) veya [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Daha sonra uygulama Oluşturucu REST API yanıtından ekleme URL'si gerekir. İçeriği bir uygulamadan ise uygulama kimliği URL'de görünür.  Ekleme URL'sini aldıktan sonra düzenli olarak eklemek için kullanabilirsiniz.
+Ardından ekleme URL'sinde uygulama kimliğini sağlamalısınız. Uygulama kimliğini sağlamak için, uygulama oluşturucunun önce uygulamayı yüklemesi ve ardından desteklenen [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) çağrılarından ([Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) veya [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) birini kullanması gerekir. Sonra uygulama oluşturucu REST API yanıtından ekleme Url'sini almalıdır. İçerik bir uygulamadan geliyorsa uygulama kimliği URL'de gösterilir.  Ekleme URL'sini aldıktan sonra bunu kullanarak düzenli aralıklarla ekleyebilirsiniz.
 
-## <a name="secure-embed"></a>Güvenli ekleme
+## <a name="secure-embed"></a>Güvenli Ekleme
 
-Uygulamaları otomatik yükleme kullanmak için uygulama Oluşturucu öncelikle uygulamayı yükledikten sonra raporu PowerBI.com üzerinde uygulamasına gidin ve normal bir biçimde bağlantısını alın gerekir. Tüm diğer kullanıcılarla bağlantı kullanan uygulamaya rapor ekleyebilir.
+Uygulamaları otomatik yüklemeyi kullanmak için, uygulama sağlayıcının önce uygulamayı yüklemesi ve ardından PowerBI.com'da uygulamaya gitmesi, rapora gitmesi ve normal yollarla bağlantıyı alması gerekir. Uygulamaya erişimi olan diğer tüm kullanıcılar bağlantıyı kullanıp raporu ekleyebilir.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-* Yalnızca, raporlar ve panolar bu senaryo için de ekleyebilirsiniz.
+* Bu senaryoda yalnızca raporları ve panoları ekleyebilirsiniz.
 
-* Verilerin sahibinin uygulama ve SharePoint ekleme senaryoları için bu özellik şu anda desteklenmiyor.
+* Bu özellik şu anda uygulamanın sahip olduğu verilerde ve SharePoint ekleme senaryolarında desteklenmemektedir.

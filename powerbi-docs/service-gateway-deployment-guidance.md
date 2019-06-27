@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051150"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809256"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI için veri ağ geçidi dağıtmaya ilişkin yönergeler
 
@@ -42,7 +42,7 @@ Tüm kullanıcılar belirli bir rapora her gün aynı anda erişiyorsa ağ geçi
 ### <a name="connection-type"></a>Bağlantı türü
 **Power BI** iki tür bağlantı sunar: **DirectQuery** ve **İçeri Aktarma**. Tüm veri kaynakları her iki bağlantı türünü de desteklemeyebilir ve güvenlik gereksinimleri, performans, veri sınırları ve veri modeli boyutları gibi birçok nedenden, biri diğerine tercih edilebilir. [Şirket içi veri ağ geçidi makalesindeki](service-gateway-onprem.md) *kullanılabilir veri kaynağı türlerinin listesi* bölümünde, bağlantı türü ve desteklenen veri kaynakları ile ilgili daha fazla bilgiye ulaşabilirsiniz.
 
-Bağlantı türü kullanıldığına bağlı olarak, ağ geçidi kullanımına farklı olabilir. Örneğin, mümkün olduğunda **DirectQuery** veri kaynaklarını **Zamanlanmış Yenileme** veri kaynaklarından ayırmanız gerekir (veri kaynaklarının farklı raporlarda olduğu ve ayrılabileceği varsayılmıştır). Bunun yapılması, binlerce sahip ağ geçidinin engeller **DirectQuery** sabah şirketin ana panosu için kullanılan büyük boyutlu bir veri modeli, zamanlanmış yenileme ile aynı zamanda, istekler kuyruğa. Her biri için şu noktaları aklınızda bulundurmanız gerekir:
+Ağ geçidi kullanımı, kullanılmakta olan bağlantı türüne göre değişiklik gösterebilir. Örneğin, mümkün olduğunda **DirectQuery** veri kaynaklarını **Zamanlanmış Yenileme** veri kaynaklarından ayırmanız gerekir (veri kaynaklarının farklı raporlarda olduğu ve ayrılabileceği varsayılmıştır). Bunu gerçekleştirerek, tam da şirketin ana panosu için kullanılan büyük boyutlu bir veri modeli için sabah gerçekleştirilecek zamanlanmış yenilemeyle aynı sırada, ağ geçidinde binlerce **DirectQuery** isteğinin birikmesinin önüne geçersiniz. Her biri için şu noktaları aklınızda bulundurmanız gerekir:
 
 * **Zamanlanmış yenileme** için: Sorgunuzun boyutuna ve günlük olarak gerçekleşen yenileme sayısına bağlı olarak, önerilen minimum donanım gereksinimlerini aşmama veya daha yüksek performans gösteren bir makineye yükseltme arasında seçim yapabilirsiniz. Belirli bir sorgu katlanmış değilse ağ geçidi makinesinde dönüştürme işlemleri gerçekleştirilir, böylece ağ geçidi makinesi, kullanılabilir daha fazla RAM'den yararlanır.
 * **DirectQuery** için: Herhangi bir kullanıcı raporu her açtığında veya verilere göz attığında bir sorgu gönderilir. Bu nedenle, 1.000'den fazla kullanıcının aynı anda verilere erişeceğini öngörüyorsanız bilgisayarınızın güçlü ve nitelikli donanım bileşenlerinden oluştuğundan emin olmak istersiniz. Daha fazla CPU çekirdeği, **DirectQuery** bağlantısı için daha iyi bir performans elde edilmesini sağlar.
@@ -104,14 +104,34 @@ Ağ geçidi **Azure Service Bus**'a yönelik bir giden bağlantı oluşturur. A�
 
 Ağ geçidi için gelen bağlantı *gerekmez*. Gerekli tüm bağlantı noktaları, yukarıdaki listede bulunmaktadır.
 
-Güvenlik duvarınızda veri bölgenize ilişkin IP adreslerini beyaz listeye eklemeniz önerilir. [Microsoft Azure Veri Merkezi IP listesinde](https://www.microsoft.com/download/details.aspx?id=41653) bulunan IP adresi listesini indirebilirsiniz. Bu liste haftalık olarak güncelleştirilir. Ağ geçidi, tam etki alanı adı (FQDN) ile belirtilen IP adresini kullanarak **Azure Service Bus** ile iletişim kurar. Ağ geçidini HTTPS kullanarak iletişim kurmaya zorluyorsanız ağ geçidi yalnızca FQDN kullanır ve IP adresleri kullanılarak iletişim kurulmaz.
+Güvenlik duvarınızda veri bölgenize ilişkin IP adreslerini izin verilenler listesine eklemeniz önerilir. [Microsoft Azure Veri Merkezi IP listesinde](https://www.microsoft.com/download/details.aspx?id=41653) bulunan IP adresi listesini indirebilirsiniz. Bu liste haftalık olarak güncelleştirilir. Ağ geçidi, tam etki alanı adı (FQDN) ile belirtilen IP adresini kullanarak **Azure Service Bus** ile iletişim kurar. Ağ geçidini HTTPS kullanarak iletişim kurmaya zorluyorsanız ağ geçidi yalnızca FQDN kullanır ve IP adresleri kullanılarak iletişim kurulmaz.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>Azure Service Bus ile HTTPS iletişimini zorlama
-Ağ geçidini, **Azure Service Bus** ile doğrudan TCP yerine HTTPS kullanarak iletişim kurmaya zorlayabilirsiniz. Bunu yaparsanız performansta az oranda bir düşüklük gözlemlersiniz. Ayrıca ağ geçidinin kullanıcı arabirimini kullanarak, ağ geçidini, HTTPS üzerinden **Azure Service Bus** ile iletişim kurmaya da zorlayabilirsiniz. (Ağ geçidinin Mart 2017 sürümünden itibaren geçerlidir.)
 
-Bunu gerçekleştirmek için ağ geçidinde **Ağ**'ı seçin, ardından **Azure Service Bus bağlantı modu**'nu **Açık** duruma getirin.
+Ağ geçidinin Azure Service Bus ile doğrudan TCP yerine HTTPS kullanarak iletişim kurmasını zorunlu kılabilirsiniz.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> Azure Service Bus'tan gelen öneriler doğrultusunda Haziran 2019 sürümünden başlayarak yeni yüklemelerde (güncelleştirmelerde değil) varsayılan olarak TCP yerine HTTPS kullanılacaktır.
+
+HTTP üzerinden iletişimi zorlamak için, bu paragrafın hemen altındaki kod parçacığında gösterildiği gibi *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dosyasını düzenleyerek `AutoDetect` değerini `Https` olarak değiştirin. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+*ServiceBusSystemConnectivityModeString* parametresinin değeri büyük/küçük harfe duyarlıdır. Geçerli değerler şunlardır: *AutoDetect* ve *Https*.
+
+Alternatif olarak ağ geçidi kullanıcı arabirimini kullanarak, ağ geçidini bu davranışı benimsemeye zorlayabilirsiniz. Ağ geçidi kullanıcı arabiriminde **Ağ** seçeneğini belirleyin ve ardından **Azure Service Bus bağlantı modu** değerini **Açık** olarak değiştirin.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+Değişikliğin ardından **Uygula**'yı seçtiğinizde (yalnızca değişiklik yaptığınızda görünen bir düğme) *ağ geçidi Windows hizmeti* otomatik olarak yeniden başlatılır ve söz konusu değişiklik geçerli olur.
+
+Daha sonra gerçekleştireceğiniz işlemler için, *ağ geçidi Windows hizmetini*, kullanıcı arabiriminde **Hizmet Ayarları**'nı ve ardından *Şimdi Yeniden Başlat*'ı seçerek ilgili iletişim kutusundan yeniden başlatabilirsiniz.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>Ek yönergeler
 Bu bölümde, ağ geçitlerini dağıtmaya ve yönetmeye ilişkin ek yönergeler sunulmuştur.

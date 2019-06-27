@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461868"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816653"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerini kullanma (Önizleme)
 
 İş zekası, işbirliğine dayalı bir etkinliktir. 'Tek doğru bilgi kaynağı' olabilecek standartlaştırılmış veri kümeleri oluşturmak önemlidir. Bu standartlaştırılmış veri kümelerini keşfetmek ve yeniden kullanmak kritik önem taşır. Kuruluşunuzdaki uzman veri modelleyicileri iyileştirilmiş veri kümeleri oluşturup paylaştığında, rapor oluşturanlar doğru raporlar hazırlamak için bu veri kümelerinden yola çıkabilirler. Bu sayede kuruluşunuzun aldığı kararlar tutarlı verilere dayanır ve sağlıklı bir veri kültürü olur.
+
+![Paylaşılan veri kümesi seçme](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI, başkalarının bulabilmesi için veri kümesi oluşturucularının veri kümelerini onaylamasını ve tanıtmasını kolaylaştırır. Bundan sonra rapor yazarları Power BI'a her girdiklerinde kaliteli, resmi veri kümeleri bulabilir. Veri kümesi sahipleri verilerine kimlerin erişebileceğini [Oluşturma iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) kullanarak denetleyebilir. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
 

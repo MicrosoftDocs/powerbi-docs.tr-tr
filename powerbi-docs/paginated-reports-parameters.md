@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma (Önizleme)
+title: Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 description: Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma hakkında bilgi edineceksiniz.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987698"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838988"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma (Önizleme)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 
 Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma hakkında bilgi edineceksiniz.  Rapor parametresi, rapor verilerini seçmenin ve raporu sunusunu çeşitlendirmenin bir yolunu sağlar. Varsayılan bir değer veya kullanılabilir değerlerin bir listesini sağlayabilirsiniz ve seçiminiz raporu okuyanlar tarafından değiştirilebilir.  
 
-Aşağıda parametreleri içeren bir rapor Power BI Rapor Oluşturucusu'nda Tasarım görünümü gösterilmiştir @BuyingGroup, @Customer, @FromDate, ve @ToDate. 
+Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate ve @ToDate parametreleri ile birlikte bir rapor için Power BI Rapor Oluşturucusu’nda gösterilmektedir. 
   
 ![Rapor Oluşturucusu'ndaki parametreler](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -67,4 +67,4 @@ Aşağıda parametreleri içeren bir rapor Power BI Rapor Oluşturucusu'nda Tasa
 
 Parametrelerin Power BI hizmetinde nasıl göründüğünü görmek için bkz. [Sayfalandırılmış raporlar için parametreleri görüntüleme](paginated-reports-view-parameters.md).
 
-Sayfalandırılmış raporlardaki parametreler hakkında ayrıntılı bilgi için, SQL Server Reporting Services belgelerindeki [Rapor Parametreleri (Rapor Oluşturucusu ve Rapor Tasarımcısı)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) makalesine bakın  
+Sayfalandırılmış raporlardaki parametreler hakkında ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda rapor parametreleri](report-builder-parameters.md).

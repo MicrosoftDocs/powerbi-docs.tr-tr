@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394852"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839291"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Haritadaki bölgeleri renk kullanarak karşılaştırmak için bir **Şekil Haritası** görseli oluşturun. **Harita** görselinin aksine, **Şekil Haritası** veri noktalarının kesin coğrafi konumlarını bir haritada gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
@@ -27,15 +27,15 @@ Haritadaki bölgeleri renk kullanarak karşılaştırmak için bir **Şekil Hari
 
 **Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**’nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **Şekil Haritası Görseli** onay kutusunu işaretleyin. Seçiminizi yaptıktan sonra Power BI Desktop'ı yeniden başlatmanız gerekir.
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![Şekil haritası önizleme özelliğini etkinleştirme](media/desktop-shape-map/power-bi-preview-features.png)
 
-**Şekil Haritası** etkinleştirildiğinde, **Görsel Öğeler** bölmesindeki **Şekil Haritası** denetimine tıklayın.
+**Şekil Haritası** etkinleştirildiğinde **Görsel Öğeler** bölmesindeki **Şekil Haritası** simgesini seçin.
 
-![](media/desktop-shape-map/shape-map_2.png)
+![şekil haritası için şablonu seçin](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop, boş bir **Şekil Haritası** görsel tasarım tuvali oluşturur.
 
-![](media/desktop-shape-map/shape-map_3.png)
+![tuvalinizde boş bir şekil haritası görüntülenir](media/desktop-shape-map/shape-map-3.png)
 
 Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 
@@ -46,26 +46,23 @@ Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![şekil haritanızı oluşturma](media/desktop-shape-map/shape-map-3a.png)
 2. **Biçim** ayarları bölmesinde, **Şekil**'i genişletin ve **Standart Haritalar** açılan menüsünden seçim yaparak verilerinizi gösterin. Bu noktada, aşağıdaki görüntüde olduğu gibi işleme görüntülenir.
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![Biçimlendirme bölmesini açın ve Şekil'i seçin](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > Bu makalenin sonundaki **Bölge Anahtarları** bölümünde, **Şekil Haritası** görselini test etmek için kullanabileceğiniz harita bölge anahtarlarını içeren bir tablo koleksiyonu bulunur.
    > 
    > 
-3. Ardından, **Biçim** ayarları bölmesini kullanarak, veri noktası renklerinin yanı sıra harita izdüşümü ve yakınlaştırma ayarlarını değiştirebilirsiniz. Yakınlaştırma ayarlarını da değiştirebilirsiniz. Örneğin, renkleri değiştirebilir, maksimum ve minimum değerleri belirleyebilir ve daha fazlasını yapabilirsiniz.
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. Ayrıca **Açıklama** demetine bir kategori veri sütunu ekleyebilir ve harita bölgelerini kategorilere göre sınıflandırabilirsiniz.
+3. Ardından **Varsayılan renk** ve **Yakınlaştır** gibi çeşitli Biçimlendirme seçeneklerin kullanarak haritada değişiklik yapabilirsiniz. Ayrıca **Gösterge** demetine bir kategori veri sütunu ekleyebilir ve harita bölgelerini kategorilere göre sınıflandırabilirsiniz.
 
 ## <a name="use-custom-maps"></a>Özel harita kullanma
 **TopoJSON** biçimindeki özel haritaları **Şekil Haritası** ile kullanabilirsiniz. Haritanız başka bir biçimdeyse [**Map Shaper**](http://mapshaper.org/) gibi çevrimiçi araçları kullanarak *şekil dosyalarınızı* ve *GeoJSON* haritalarınızı **TopoJSON** biçimine dönüştürebilirsiniz.
 
 **TopoJSON** harita dosyanızı kullanmak için, raporunuza bir Şekil Haritası görseli, *Konum* ve *Renk doygunluğu* demetlerine ise bazı veriler ekleyin. Ardından **Görsel Öğeler** bölmesinde **Biçim** bölümü seçiliyken (aşağıdaki görüntüde (1) olarak gösterilen) **Şekil** bölümünü genişletin ve **+Harita Ekle** seçeneğini belirleyin.
 
-![](media/desktop-shape-map/shape-map_6.png)
+![Biçimlendirme bölmesini açın ve Harita Ekle'yi seçin](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>Örnek Özel Eşleme
 *Birleşik Devletler Savcılar Bürosu*, dava ve dosya yükü verileriyle ilgili yıllık mali rapor yayınlar.  Tüm raporlarına aşağıdaki bağlantıdan erişilebilir,
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 Eyaletler birden çok bölgeye ayrılabildiğinden, özel şekil haritası kullanmamız gerekir.  ABD yargı bölgelerinin **TopoJSON** haritasını **Power BI Desktop**’a içeri aktararak, yıllık mali bölge savcı verilerini görselleştirebiliriz.  Aşağıdaki resimde bu haritanın bir örneği gösterilmektedir.
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![özel şekil haritası](media/desktop-shape-map/shape-map-7a.png)
 
 Tek tek eyalet haritalarıyla ilgi çekici şeyler yapabilir ve içerdiği bölgelere dayalı daha fazla ayrıntı gösterebilirsiniz. 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![Texas şekil haritası](media/desktop-shape-map/shape-map-7b.png)
 
 Bu veri kümesi ve görselleştirme ile deneme yapmak istiyorsanız, aşağıdaki bağlantıyı kullanarak bu raporu oluşturmak için kullanılan özgün PBIX dosyasını indirebilirsiniz.
 
@@ -87,11 +84,11 @@ Bu veri kümesi ve görselleştirme ile deneme yapmak istiyorsanız, aşağıdak
 ## <a name="getting-map-data"></a>Harita verileri alma
 **Şekil Haritası**'nı test etmek üzere bir modele hızlıca veri almak için, bu makalenin sonundaki tablolardan birini kopyalayabilir ve ardından **Giriş** şeridindeki **Verileri Girin** seçeneğini belirleyebilirsiniz.
 
-![](media/desktop-shape-map/shape-map_4.png)
+![Desktop'ta Verileri Girin seçeneğini belirtin](media/desktop-shape-map/shape-map-4-new.png)
 
 Verilerinizde birden çok sütun varsa, verileri yapıştırmak için Excel gibi bir düzenleyici kullanmanız ve sonra her bir veri sütununu ayrı olarak kopyalamanız gerekir. Ardından, verileri Power BI Desktop’a yapıştırabilirsiniz. En üst satır otomatik bir şekilde başlık olarak tanımlanır.
 
-![](media/desktop-shape-map/shape-map_5.png)
+![Tablo Oluştur bölmesi](media/desktop-shape-map/shape-map-5.png)
 
 Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna) her hücreye tıpkı Excel'de yapabildiğiniz gibi değer eklemeniz yeterlidir. İşlemi tamamladığınızda, **Yükle**'yi seçerek tablonun Power BI Desktop için veri modeline eklenmesini sağlayın.
 

@@ -1,5 +1,5 @@
 ---
-title: Power BI'da Azure Machine Learning tümleştirmesi (Önizleme)
+title: Power BI'da Azure Machine Learning tümleştirmesi
 description: Power BI ile Machine Learning kullanmayı öğrenin
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448341"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823469"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Power BI'da Azure Machine Learning tümleştirmesi (Önizleme)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI'da Azure Machine Learning tümleştirmesi
 
 Pek çok kuruluş işleriyle ilgili daha iyi öngörüler ve tahminler elde etmek için **Machine Learning** modellerini kullanıyor. Raporlarınızda, panolarınızda ve diğer analizlerinizde bu modelleri görselleştirme ve içgörüleri çağırma olanağı, bu içgörüleri en çok ihtiyaç duyan işletme kullanıcılarına yaymanıza yardımcı olabilir.  Power BI şimdi sorunsuz işaretleyip tıklama hareketlerini kullanarak Azure Machine Learning hizmetinde barındırılan modellerden gelen içgörüleri birleştirmenizi basitleştirir.
 
@@ -75,7 +75,7 @@ Bu şema dosyası, Machine Learning hizmeti modelleri için dağıtılan web hiz
 Bu şema oluşturma yönergeleri, giriş betiği güncelleştirilerek, Azure Machine Learning SDK kullanan otomatik makine öğrenimi denemeleri kullanılarak oluşturulan modellere de uygulanmalıdır.
 
 > [!NOTE]
-> Azure Machine Learning hizmeti görsel arabirimi (önizleme) kullanılarak oluşturulan modeller şu anda şema oluşturmayı desteklemiyor ancak daha sonraki sürümlerde destekleyecek. 
+> Azure Machine Learning hizmeti görsel arabirimi kullanılarak oluşturulan modeller şu anda şema oluşturmayı desteklemiyor ancak daha sonraki sürümlerde destekleyecek. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Power BI'da Azure ML modelini çağırma
 
@@ -107,9 +107,9 @@ Veri akışınızı kaydettikten sonra, varlık tablosundaki yeni veya güncelle
 
 Bu makalede Machine Learning'i Power BI hizmetine tümleştirme işlemine genel bakış sağlanır. Aşağıdaki makaleleri de ilginç ve yararlı bulabilirsiniz. 
 
-* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)](service-tutorial-invoke-machine-learning-model.md)
+* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
 * [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
-* [Power BI’da Bilişsel Hizmetler (Önizleme)](service-cognitive-services.md)
+* [Power BI'da Bilişsel Hizmetler](service-cognitive-services.md)
 
 Veri akışları hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)

@@ -7,42 +7,42 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bc562c1c75f72e0ada23580aa0698f6463c129bb
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172173"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814316"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI ile Salesforce'a bağlanma
-Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyı oluşturduğunuzda verileriniz çekilerek otomatik olarak bir pano ve ilgili raporlar oluşturulur.
+Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyla Salesforce verilerinizi alabilirsiniz ve panoyla raporlar otomatik olarak sağlanır.
 
-Power BI için [Salesforce içerik paketine](https://app.powerbi.com/getdata/services/salesforce) bağlanın veya Power BI ile [Salesforce tümleştirmesi](https://powerbi.microsoft.com/integrations/salesforce) hakkında daha fazla bilgi edinin.
+Power BI ile [Salesforce tümleştirmesi](https://powerbi.microsoft.com/integrations/salesforce) hakkında daha fazla bilgi edinin.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
+1. Power BI'da sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
    ![](media/service-connect-to-salesforce/pbi_getservices.png) 
-3. **Salesforce**'a tıklayıp **Al**'ı seçin.  
+3. **Analytics for Salesforce**'u ve **Al**'ı seçin.  
    
    ![](media/service-connect-to-salesforce/salesforce.png)
-4. Oturum açma akışını başlatmak için **Oturum Aç**'ı seçin.
+4. **Oturum Aç**'ı seçerek oturum açma akışını başlatın.
    
     ![](media/service-connect-to-salesforce/dialog.png)
-5. İstendiğinde Salesforce kimlik bilgilerinizi girin. Power BI'ın temel Salesforce bilgilerinize ve verilerinize erişebilmesi için **İzin Ver**'e tıklayın.
+5. İstendiğinde Salesforce kimlik bilgilerinizi girin. **İzin Ver**'i seçin ve Power BI'ın temel Salesforce bilgilerinizle verilerinize erişmesini sağlayın.
    
    ![](media/service-connect-to-salesforce/sf_authorize.png)
 6. Açılan menüdeki seçenekleri kullanarak Power BI'a aktarmak istediğiniz verileri yapılandırın:
    
    * **Pano**
      
-     Belirli bir kişiyi (**Satış Yöneticisi** gibi) temel alan önceden tanımlı panolardan birini seçin. Bu panolar Salesforce'tan belirli bir standart veri kümesini alır ve özel alanları dahil etmez.
+     Belirli bir kişiyi (**Satış Yöneticisi** gibi) temel alan önceden tanımlı panolardan birini seçin. Bu panolar belirli bir Salesforce standart veri kümesini alır; özel alanlar dahil edilmez.
      
      ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **Raporlar**
@@ -52,37 +52,46 @@ Power BI için [Salesforce içerik paketine](https://app.powerbi.com/getdata/ser
      ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Herhangi bir rapor görmüyorsanız Salesforce hesabınızda ekleyebilir veya oluşturabilir ve tekrar bağlanmayı deneyebilirsiniz.
-7. İçeri aktarma sürecini başlatmak için **Bağlan**'a tıklayın. İçeri aktarma sırasında içeri aktarma işleminin devam ettiğini gösteren bir bildirim görürsünüz. İçeri aktarma işlemi tamamlandığında sol taraftaki gezinti bölmesinde Salesforce verilerinizden oluşturulan bir pano, rapor ve veri kümesi görürsünüz.
+
+7. İçeri aktarma işlemini başlatmak için **Bağlan**'ı seçin. İçeri aktarma sırasında içeri aktarma işleminin devam ettiğini gösteren bir bildirim görürsünüz. İçeri aktarma işlemi tamamlandığında sol gezinti bölmesinde Salesforce verilerinizden oluşturulan bir pano, rapor ve veri kümesi görürsünüz.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-Bu panoyu, verilerinizi istediğiniz herhangi bir biçimde görüntüleyecek şekilde değiştirebilirsiniz. Soru-Cevap ile sorular sorabilir veya herhangi bir kutucuğa tıklayarak [bağlantılı raporu açabilir](consumer/end-user-tiles.md) ve panodaki [kutucukları değiştirebilirsiniz](service-dashboard-edit-tile.md).
+Panoyu, verilerinizi istediğiniz gibi görüntüleyecek şekilde değiştirebilirsiniz. Soru-Cevap ile sorular sorabilir veya [bir kutucuk seçip](consumer/end-user-tiles.md) bağlantılı raporu açabilir ve [panodaki kutucukları düzenleyebilir veya kaldırabilirsiniz](service-dashboard-edit-tile.md).
 
 **Sırada ne var?**
 
 * Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
-* Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md)
+* Panodaki [kutucuğu düzenleme veya kaldırma](service-dashboard-edit-tile.md)
 * Bağlantılı raporu açmak için [bir kutucuk seçin](service-dashboard-tiles.md)
-* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
+* Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz
 
 ## <a name="system-requirements-and-considerations"></a>Sistem gereksinimleri ve önemli noktalar
+
 - API erişimi etkinleştirilmiş ve etkin olarak kullanılan bir Salesforce hesabına bağlantı
+
 - Oturum açma işlemi sırasında Power BI uygulamasına erişim izni
+
 - Hesapta veri çekme ve yenileme için kullanılabilecek yeterli miktarda API çağrısı olması
-- Yenileme için geçerli bir kimlik doğrulama belirteci. Salesforce hizmetinde uygulama başına 5 kimlik doğrulama belirteci sınırı olduğu için 5 veya daha az sayıda Salesforce veri kümesini içeri aktardığınızdan emin olun
+
+- Yenileme için geçerli bir kimlik doğrulama belirteci. Salesforce hizmetinde uygulama başına beş kimlik doğrulama belirteci sınırı olduğu için beş veya daha az sayıda Salesforce veri kümesinin içeri aktarıldığından emin olun.
+
 - Salesforce Raporları API’si, en fazla 2.000 veri satırını destekleyen bir kısıtlamaya sahiptir.
 
 
 ## <a name="troubleshooting"></a>Sorun giderme
-Herhangi bir hatayla karşılaşırsanız lütfen yukarıdaki gereksinimleri inceleyin. Ayrıca, şu an için özel veya korumalı etki alanında oturum açmanın desteklenmediğini unutmayın.
+
+Herhangi bir hatayla karşılaşırsanız lütfen yukarıdaki gereksinimleri inceleyin. 
+
+Özel veya korumalı alan etki alanında oturum açma işlemi şu anda desteklenmemektedir.
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>"Uzak sunucuya bağlanılamıyor" iletisi
 
-Salesforce hesabınıza bağlanmaya çalışırken "Uzak sunucuya bağlanılamıyor" iletisi alırsanız, Outsystems forumunda şu çözüme bakın: [Salesforce Bağlayıcısı Oturum Açma Hata İletisi: Uzak sunucuya bağlanılamıyor](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+Salesforce hesabınıza bağlanmaya çalışırken "Uzak sunucuya bağlanılamıyor" iletisi alırsanız, aşağıdaki forumunda bu çözüme bakın: [Salesforce Bağlayıcısı Oturum Açma Hata İletisi: Uzak sunucuya bağlanılamıyor](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)
 
-[Veri Alma](service-get-data.md)
+[Power BI hizmeti için veri kaynakları](service-get-data.md)
 

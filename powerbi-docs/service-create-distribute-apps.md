@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459579"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826619"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -61,9 +61,17 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
    
      ![Uygulama gezintisi](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. **İzin** bölümünde uygulamaya kimlerin erişebileceğine ve uygulamada neler yapabileceklerine karar verin. 
+5. **İzinler** bölümünde uygulamaya kimlerin erişebileceğine ve uygulamada neler yapabileceklerine karar verin. 
     - [Klasik çalışma alanlarında](service-create-workspaces.md): kuruluşunuzdaki herkes, belirli kişiler veya Azure Active Directory (AAD) güvenlik grupları.
-    - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, AAD güvenlik grupları ile dağıtım listeleri ve Office 365 Grupları.
+    - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, AAD güvenlik grupları ile dağıtım listeleri ve Office 365 Grupları. Tüm çalışma alanı kullanıcılarına çalışma alanı için otomatik olarak uygulamaya erişim verilir.
+    - Derleme iznini kullanarak uygulama kullanıcılarının uygulamanın temel veri kümelerine bağlanmasına izin verebilirsiniz. Bu veri kümeleri veri kümesi arama deneyimlerinde gösterilir.
+    - Uygulama kullanıcılarının kendi Çalışma Alanım konumlarına bu uygulamadaki raporların kopyasını almalarına izin verebilirsiniz. 
+    
+    >[!IMPORTANT]
+    >Uygulamanız başka çalışma alanlarındaki veri kümelerini kullanıyorsa, tüm uygulama kullanıcılarının temel veri kümelerine erişebildiğinden emin olmak sizin sorumluluğunuzdadır.
+> 
+>     
+
 
 6. Power BI yöneticiniz Power BI Yönetim Portalında sizi için bu ayarı etkinleştirdiyse uygulamayı alıcılar için otomatik olarak yükleyebilirsiniz. Bu makalede [uygulamayı otomatik olarak yükleme](#automatically-install-apps-for-end-users) konusundaki diğer bilgileri okuyun.
 
@@ -151,6 +159,14 @@ Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurman�
 * Kullanıcılara zahmet vermemeye çalışın. Kullanıcılarınızın önceden yüklenen uygulamaların onlar için kullanışlı olduğu algısına kapılmaması için çok fazla sayıda uygulama göndermemeye dikkat edin. İdeal yaklaşım, zamanlamayı koordine edebilmek açısından son kullanıcılara kimlerin uygulama gönderebileceğini denetlemektir. Kuruluşunuzda, son kullanıcılara gönderilen uygulamaları alacak bir ilgili kişi belirleyin.
 
 * Bir daveti kabul etmeyen konuk kullanıcılar için uygulamalar otomatik olarak yüklü gelmez.  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Kullanıcıların uygulamanın temel veri kümelerine bağlanmasına izin verme
+Tüm kullanıcıların uygulamanın temel veri kümelerine erişmesine izin verme seçeneği işaretlendiğinde, uygulama kullanıcıları temel veri kümesi üzerinde Derleme izni alır. Bu izinle kullanıcılar [çalışma alanları arasında uygulama veri kümelerini kullanıp](service-datasets-across-workspaces.md) Power BI Desktop'ta bu veri kümelerini arayabilir, hizmet veri deneyimlerini alır ve bu veri kümelerini kullanarak raporlar ve panolar oluşturabilir. 
+
+Bu seçeneğin işaretini kaldırdığınızda, uygulamaya eklediğiniz yeni kullanıcılara artık Derleme izni verilmez. Öte yandan temel veri kümeleri üzerindeki mevcut izinler değişmez. Sağlanan kullanıcı arabirimini kullanarak artık Derleme iznine sahip olmaması gereken uygulama kullanıcılarından bu izni kaldırabilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Kullanıcıların uygulamadaki raporların kopyasını almasına izin verme
+**Kullanıcıların bu uygulamadaki raporlarının bir kopyasını oluşturmalarına izin ver** seçeneğini işaretleyerek, kullanıcılara uygulamadaki raporları kendi Çalışma Alanım konumlarına kaydetme izni verirsiniz. Ardından raporları kendi benzersiz gereksinimlerine uygun olarak özelleştirebilirler. Bu seçenek **Tüm kullanıcıların Derleme iznini kullanarak uygulamanın temel alınan veri kümelerine bağlanmasına izin ver** seçeneğinin etkinleştirilmesini gerektirir. Bu özellik yeni [başka çalışma alanlarından rapor kopyalama](service-datasets-copy-reports.md) özelliğine benzer bir davranış gösterir.
 
 ## <a name="unpublish-an-app"></a>Bir uygulamayı yayımdan kaldırma
 Uygulama çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.

@@ -1,7 +1,7 @@
 ---
 title: Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 description: Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990615"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751123"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -25,31 +25,31 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 ## <a name="may-2019"></a>Mayıs 2019
 
 - **Power BI Rapor Sunucusu**          
-    - *Yayımlanan 1.5.7074.36177 (derleme 15.0.1102.371), sürüm: 21 Mayıs 2019*
+    - *Sürüm 1.5.7074.36177 (Derleme 15.0.1102.371), Yayınlanma tarihi: 21 Mayıs 2019*
         - Hata Düzeltmeleri
             - Sayfalandırılmış Raporlar
-                - Her zaman pdf yazı tipi katıştırma etkinleştirme Düzelt.
-                - Güvenli olarak https üzerinden gönderilen tanımlama bilgilerini ayarlamak düzeltme
-                - Pop ile ilgili sorunlar için düzeltme komut dosyası hataları nedeniyle çıkarır
-                - Android telefonlardaki mobil uygulaması ile görünen sorunları düzeltin
-                - Mali Yıl başlangıcı bağımsız olarak doğru hafta sayıları göstermek mobil rapor zaman Gezgini için düzeltme
-                - Eklenen RestrictedResourceMimeTypeForUpload yöneticilerin belirtmek yapılandırılabilir özellik yasaklanmış' MIME türleri
+                - PDF yazı tipi eklemeyi her zaman etkinleştirme hatası düzeltildi.
+                - Https üzerinden gönderilen tanımlama bilgilerinin Güvenli olarak ayarlanması sorunu düzeltildi
+                - Betik hatalarından dolayı açılan listelerdeki sorunlar düzeltildi
+                - Android telefonlarda Mobil Uygulama ile ilgili görüntü sorunları düzeltildi
+                - Mali yılın başlangıcından bağımsız olarak Mobil Rapor Zaman Gezgini'nde doğru hafta numaralarının gösterilmesi için düzeltme yapıldı
+                - Yöneticilerin yasaklanmış mime türlerini belirtmesi için 'RestrictedResourceMimeTypeForUpload' yapılandırılabilir özelliği eklendi
          - Özellikler
-            - PBIRS için güvenilen görselleri için destek ekleme
+            - PBIRS'e Güvenilen Görseller için destek eklendi
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
-    - *Sürüm: Yayımlanan 2.69.5467.1801 (Mayıs 2019): 21 Mayıs 2019*
+    - *Sürüm: 2.69.5467.1801 (Mayıs 2019), Yayınlama tarihi: 21 Mayıs 2019*
         - Hata düzeltmeleri
-            - PBIRS PBIX yükleme sırasında yeniden giriş kimlik bilgilerinin önlemek için düzeltme
-            - Düzeltmeleri ile dosya adında # belgelerini açma
-            - Geri gezinme PBIRS seçim penceresinde daha kolay bağlantı eklendi
-            - Yüksek karşıtlık modunda geri düğmesini görüntülemek için uyarı visual iletilerini göster PBIRS için düzeltin.
-            - UI düzeltmeler seçim bölmesi, tuval ölçeklendirme.
+            - PBIRS'ye PBIX yüklenirken kimlik bilgilerinin yeniden girilmesini önleyecek düzeltme yapıldı
+            - Dosya adında # bulunan belgeleri açma sorunu düzeltildi
+            - PBIRS Seçim penceresinde geriye doğru gezinti için daha kolay bir bağlantı eklendi
+            - PBIRS'de Geri düğmesini görüntülemek, uyarı görsel iletilerini göstermek için Yüksek Karşıtlık modu düzeltildi.
+            - Seçim bölmesi, tuval ölçeklendirme için kullanıcı arabirimi düzeltildi.
 
 ## <a name="january-2019"></a>Ocak 2019
 
 - **Power BI Rapor Sunucusu**          
-    - *Yayımlanan 1.4.7024.16477 (derleme 15.0.1102.299), sürüm: 28 Mart 2019*
+    - *Sürüm 1.4.7024.16477 (Derleme 15.0.1102.299), Yayınlanma tarihi: 28 Mart 2019*
         - Hata Düzeltmeleri
             - Power BI Raporları
                 - SAP Hana ve SAP BW için doğrudan sorgu kullanılırken temel kimlik bilgileriyle ilgili sorun düzeltildi

@@ -1,5 +1,5 @@
 ---
-title: Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme)
+title: Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme
 description: Bu makalede, Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış rapora nasıl girebileceğiniz gösterilir.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424546"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839097"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme (Önizleme) - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme - Power BI
 
 Bu makalede, SQL Server 2016 Rapor Oluşturucusu'nun yeni sürümünde sağlanan ve verileri doğrudan RDL raporuna eklenmiş bir veri kümesi olarak girmenize olanak tanıyan özelliği öğreneceksiniz.  Bu özellik, Power BI Desktop'a benzer. Verileri doğrudan raporunuzdaki veri kümesine yazabilir veya Microsoft Excel gibi başka bir programdan yapıştırabilirsiniz. Verileri girerek veri kümesini oluşturduktan sonra, bunu aynı oluşturduğunuz diğer eklenmiş veri kümeleri gibi kullanabilirsiniz. Ayrıca, birden çok tablo ekleyebilir ve bir tabloyu diğeri için filtre olarak kullanabilirsiniz. Bu özellik rapor parametreleri gibi raporunuzda kullanmanız gerekebilecek küçük, statik veri kümelerinde özellikle kullanışlıdır.
  
@@ -76,7 +76,7 @@ Raporunuzdaki veri görselleştirmeleri için, veri kümenizi temel olarak kulla
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporu karşıya yükleme
 
-Artık sayfalandırılmış raporlar Power BI hizmetinde önizlemede desteklendiği için, sayfalandırılmış raporunuzu Premium kapasiteye yükleyebilirsiniz. Ayrıntılar için bkz. [Sayfalandırılmış raporu karşıya yükleme](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
+Artık sayfalandırılmış raporlar Power BI hizmetinde desteklendiği için, sayfalandırılmış raporunuzu Premium kapasiteye yükleyebilirsiniz. Ayrıntılar için bkz. [Sayfalandırılmış raporu karşıya yükleme](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Sayfalandırılmış raporu rapor sunucusuna yükleme
 
@@ -98,5 +98,5 @@ Dosyayı düzenledikten sonra, yapılandırma dosyasındaki veri sağlayıcılar
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI Premium’da sayfalandırılmış raporlar nelerdir? (Önizleme)](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
 - [Power BI Rapor Sunucusu nedir?](report-server/get-started.md)

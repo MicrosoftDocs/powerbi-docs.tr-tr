@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720344"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823307"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Power BI ile hizmet sorumlusu (Önizleme)
+# <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
 
 **Hizmet sorumlusu** ile Power BI içeriğini bir uygulamaya ekleyebilir ve **yalnızca uygulama** belirteci ile Power BI'da otomasyonu kullanabilirsiniz. Hizmet sorumlusu **Power BI Embedded** kullanırken veya **Power BI görevlerini ve işlemlerini otomatikleştirirken** yararlıdır.
 
@@ -94,7 +94,7 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
    > [!Important]
    > Hizmet sorumlusunun Power BI ile kullanımını etkinleştirdikten sonra, uygulamanın AD izinleri artık geçerli olmaz. Bundan sonra uygulamanın izinleri Power BI yönetim portalı üzerinden yönetilir.
 
-2. [Azure Active Directory’de (AAD) bir güvenlik grubu oluşturun](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) ve oluşturduğunuz uygulamayı bu güvenlik grubuna ekleyin. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir AAD güvenlik grubu oluşturabilirsiniz.
+2.  **Önerilen** - [Azure Active Directory’de (AAD) bir güvenlik grubu](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) oluşturun ve oluşturduğunuz uygulamayı bu güvenlik grubuna ekleyin. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir AAD güvenlik grubu oluşturabilirsiniz.
 
     Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örnek betik aşağıda verilmiştir.
 
@@ -109,7 +109,7 @@ Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnız
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Power BI Yöneticisi olarak hizmet sorumlusunu Power BI yönetim portalının **Geliştirici ayarları**'nda etkinleştirmeniz gerekir. Azure AD'de oluşturduğunuz güvenlik grubunu **Geliştirici ayarları**'nın **Belirli bir güvenlik grubu** bölümüne ekleyin.
+3. Power BI Yöneticisi olarak hizmet sorumlusunu Power BI yönetim portalının **Geliştirici ayarları**'nda etkinleştirmeniz gerekir. Azure AD'de oluşturduğunuz güvenlik grubunu **Geliştirici ayarları**'nın Belirli bir güvenlik grubu bölümüne ekleyin. Ayrıca kuruluşun tamamı için hizmet sorumlusu erişimini de etkinleştirebilirsiniz. Bu durumda 2. adım gerekli değildir.
 
    > [!Important]
    > Hizmet sorumlularının, tüm kuruluş için etkinleştirilmiş veya grubun parçası olarak hizmet sorumlularına sahip olan güvenlik grupları için etkinleştirilmiş tüm kiracı ayarlarına erişimi vardır. Belirli kiracı ayarlarına hizmet sorumlusu erişimini kısıtlamak için, yalnızca belirli güvenlik gruplarına erişime izin verin veya hizmet sorumluları için adanmış bir güvenlik grubu oluşturup hariç tutun.
@@ -181,4 +181,4 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 * [Uygulamayı kaydetme](register-app.md)
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma (Önizleme)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

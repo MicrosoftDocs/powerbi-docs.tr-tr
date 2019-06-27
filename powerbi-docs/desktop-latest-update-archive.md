@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d2a4e168b49ef0d9c3b656c91001ae9306dfe42d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375027"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823445"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -34,10 +34,9 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
+## <a name="may-2019-update-26954671251"></a>Mayıs 2019 Güncelleştirmesi (2.69.5467.1251)
 
-## <a name="april-2019-update-2685432361"></a>Nisan 2019 güncelleştirme (2.68.5432.361)
-
-Nisan güncelleştirmelerimizi spring, adımda rainy günlerde put güncelleştirmelerin tam paketlenmiş. 
+Mayıs güncelleştirmelerimiz cazip yeni özellikler ve renkli, çok güzel görsellerle harika raporlar koleksiyonumuzda çiçek açtı. 
 
 Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
@@ -53,43 +52,121 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 **Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
-* Filtre bölmesini geliştirmeleri [[video]](https://youtu.be/vih35kSrEHU?t=9)[[makale]](power-bi-report-filter-preview.md)[[blog]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
-* Koşullu biçimlendirme için görsel başlıklarını [[video]](https://youtu.be/vih35kSrEHU?t=254)[[makale]](desktop-conditional-format-visual-titles.md)[[blog]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
-* Koşullu biçimlendirme için web URL'si eylemleri düğmeler, şekiller ve resimler için [[video]](https://youtu.be/vih35kSrEHU?t=439)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+* Performance Analyzer bölmesi  [[video]](https://youtu.be/O8GlHDz8xUQ?t=10)  [[makale]](desktop-performance-analyzer.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
+* Filtre bölmesi geliştirmeleri (önizleme)  [[video]](https://youtu.be/O8GlHDz8xUQ?t=377)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#filterPane)
+* Tablo ve matriste klavye ile gezinme [[video]](https://youtu.be/O8GlHDz8xUQ?t=518)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#accessibility)
+* Satır veri etiketi konum denetimi [[video]](https://youtu.be/O8GlHDz8xUQ?t=572)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dataLabels)
+* KPI görseli gösterge metin boyutu denetimi [[video]](https://youtu.be/O8GlHDz8xUQ?t=664)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
 
 
 ### <a name="analytics"></a>Analiz
-* Detaylandırma raporları arasında [[video]](https://youtu.be/vih35kSrEHU?t=567)[[makale]](desktop-cross-report-drill-through.md)[[blog]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
-* Anahtar öğrenilenler visual artık sayısal hedefler için sürekli analiz destekliyor [[video]](https://youtu.be/vih35kSrEHU?t=753)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
-* Python desteği genel kullanıma [[video]](https://youtu.be/vih35kSrEHU?t=889)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
-* Eşleşen terimleriyle soru- cevap için kısmi eş anlamlı [[video]](https://youtu.be/vih35kSrEHU?t=912)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+* Ana etmenler görseli geliştirmeleri (önizleme) [[video]](https://youtu.be/O8GlHDz8xUQ?t=717)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
+    * Gruplama desteği 
+    * Biçimlendirme seçenekleri
+    * Mobil desteği
 
 
 ### <a name="modeling"></a>Modelleme
-* Yeni DAX işlevi - ALLCROSSFILTERED [[video]](https://youtu.be/vih35kSrEHU?t=970)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+* Yeni raporlarda tablolara otomatik tarih eklemeyi devre dışı bırakma [[video]](https://youtu.be/O8GlHDz8xUQ?t=984)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
+* ALLSELECTED DAX işlevine güncelleştirme [[video]](https://youtu.be/O8GlHDz8xUQ?t=1080)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>Özel görseller
-* Yeni bir özel görseli [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+### <a name="visuals"></a>Görseller
+* ArcGIS Maps for Power BI güncelleştirmeleri  [[video]](https://youtu.be/O8GlHDz8xUQ?t=1093)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
+* Altı yeni özel görsel ve güncelleştirmeler  [[video]](https://youtu.be/O8GlHDz8xUQ?t=1199)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
-* Power BI veri akışlarını Bağlayıcısı genel kullanıma sunulan [[video]](https://youtu.be/vih35kSrEHU?t=983)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
-* Oracle Essbase bağlayıcı artık DirectQuery destekler ve genel olarak kullanılabilir [[video]](https://youtu.be/vih35kSrEHU?t=1011)[[blog]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
-* PDF Bağlayıcısı genel kullanıma sunulan [[video]](https://youtu.be/vih35kSrEHU?t=1042)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
-* Örnekle Web Bağlayıcısı - Otomatik Tablo çıkarımı [[video]](https://youtu.be/vih35kSrEHU?t=1089)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
-* İntersystems IRİS bağlayıcı [[video]](https://youtu.be/vih35kSrEHU?t=1186)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
-* Indexima bağlayıcı [[video]](https://youtu.be/vih35kSrEHU?t=1215)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
-* Luminis InformationGrid bağlayıcı [[video]](https://youtu.be/vih35kSrEHU?t=1236)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
-* Çözücü BI360 bağlayıcı [[video]](https://youtu.be/vih35kSrEHU?t=1255)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
-* Paxata bağlayıcı [[video]](https://youtu.be/vih35kSrEHU?t=1268)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
+* Essbase bağlayıcısı - Yerel Sorgu desteği (MDX) [[video]](https://youtu.be/O8GlHDz8xUQ?t=2518)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
+* Intune Data Warehouse bağlayıcısı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2538)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
+* Tenforce bağlayıcısı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2560)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
+* Roamler bağlayıcısı [[video]](https://youtu.be/O8GlHDz8xUQ?t=2596)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
 
-### <a name="data-preparation"></a>Veri hazırlama
-* Veri profil oluşturma geliştirmeler ve genel kullanılabilirlik [[video]](https://youtu.be/vih35kSrEHU?t=1299)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
-* Belirsiz birleştirme performans iyileştirmeleri ve genel kullanılabilirlik [[video]](https://youtu.be/vih35kSrEHU?t=1447)[[blog]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
-* M IntelliSense formül çubuğu ve özel sütun iletişim desteklenen ve genel olarak kullanılabilir [[video]](https://youtu.be/vih35kSrEHU?t=1491)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>Diğer
-* Power BI sayfalandırılmış Rapor Oluşturucusu'nu [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
+* Power BI Desktop için otomatik sorgu iptali [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+
+Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
+
+* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
+* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
+* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
+* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
+
+Önceki sürümü indirmek için bağlantıları izleyin: 
+
+* [Power BI Desktop'ın Mayıs 2019 sürümü - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Power BI Desktop'ın Mayıs 2019 sürümü - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+
+
+## <a name="april-2019-update-2685432361"></a>Nisan 2019 Güncelleştirmesi (2.68.5432.361)
+
+Nisan güncelleştirmelerimiz yağmurlu günlerde kendinizi iyi hissetmenizi sağlayacak güncelleştirmelerle dolu. 
+
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+
+Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
+
+* Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
+* Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
+* Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
+* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+
+İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
+
+**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+
+### <a name="reporting"></a>Raporlama
+* Filtre bölmesi geliştirmeleri  [[video]](https://youtu.be/vih35kSrEHU?t=9)  [[makale]](power-bi-report-filter-preview.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* Görsel başlıkları için koşullu biçimlendirme  [[video]](https://youtu.be/vih35kSrEHU?t=254)  [[makale]](desktop-conditional-format-visual-titles.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
+* Düğmeler, şekiller ve resimlerde web URL eylemleri için koşullu biçimlendirme [[video]](https://youtu.be/vih35kSrEHU?t=439)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+
+
+### <a name="analytics"></a>Analiz
+* Raporlarda detaylandırma [[video]](https://youtu.be/vih35kSrEHU?t=567)  [[makale]](desktop-cross-report-drill-through.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
+* Ana etmenler görseli artık sayısal hedefler için sürekli analizi destekliyor [[video]](https://youtu.be/vih35kSrEHU?t=753)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
+* Python desteği genel kullanıma sunulmadı  [[video]](https://youtu.be/vih35kSrEHU?t=889)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
+* Soru-Cevap'ta terimler için kısmi eş anlamlı eşleştirmesi [[video]](https://youtu.be/vih35kSrEHU?t=912)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+
+
+### <a name="modeling"></a>Modelleme
+* Yeni DAX işlevi - ALLCROSSFILTERED [[video]](https://youtu.be/vih35kSrEHU?t=970)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+
+### <a name="custom-visuals"></a>Özel görseller
+* Yeni bir özel görsel  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+* Power BI veri akışları bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/vih35kSrEHU?t=983)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
+* Oracle Essbase bağlayıcısı artık DirectQuery'yi destekliyor ve genel kullanıma sunuldu  [[video]](https://youtu.be/vih35kSrEHU?t=1011)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
+* PDF bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/vih35kSrEHU?t=1042)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
+* Web By Example bağlayıcısı - otomatik tablo çıkarımı [[video]](https://youtu.be/vih35kSrEHU?t=1089)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
+* Intersystems IRIS bağlayıcısı [[video]](https://youtu.be/vih35kSrEHU?t=1186)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
+* Indexima bağlayıcısı [[video]](https://youtu.be/vih35kSrEHU?t=1215)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
+* Luminis InformationGrid bağlayıcısı [[video]](https://youtu.be/vih35kSrEHU?t=1236)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
+* Solver BI360 bağlayıcısı [[video]](https://youtu.be/vih35kSrEHU?t=1255)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
+* Paxata bağlayıcısı [[video]](https://youtu.be/vih35kSrEHU?t=1268)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
+
+### <a name="data-preparation"></a>Veri hazırlama
+* Veri Profili Oluşturma iyileştirmeleri ve genel kullanılabilirlik [[video]](https://youtu.be/vih35kSrEHU?t=1299)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
+* Benzer öğe birleştirme performansı iyileştirmeleri ve genel kullanılabilirlik [[video]](https://youtu.be/vih35kSrEHU?t=1447)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
+* M Intellisense formül çubuğunda ve özel sütun iletişim kutusunda destekleniyor ve genel kullanıma sunuldu [[video]](https://youtu.be/vih35kSrEHU?t=1491)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
+
+### <a name="other"></a>Diğer
+* Power BI Sayfalandırılmış Rapor Oluşturucusu [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
 
@@ -116,13 +193,13 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Önceki sürümü indirmek için bağlantıları izleyin: 
 
-* [Nisan 2019 Power BI Desktop - 32-bit sürümü](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [Nisan 2019 Power BI Desktop - 64-bit sürümü](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
+* [Power BI Desktop'ın Nisan 2019 sürümü - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
+* [Power BI Desktop'ın Nisan 2019 sürümü - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
 
 
-## <a name="march-2019-update-2675404581"></a>Mart 2019 güncelleştirme (2.67.5404.581)
+## <a name="march-2019-update-2675404581"></a>Mart 2019 Güncelleştirmesi (2.67.5404.581)
 
-Mart güncelleştirmelerimizi ilgi çekici ve kullanışlı güncelleştirmelerin tam paketli ve bu geliştirmeler, dört – yaprak Yonca bulma olarak olarak lucky düşünüyorsanız yaptığınız umuyoruz. 
+Mart güncelleştirmelerimiz cazip ve kullanışlı güncelleştirmelerle doluydu ve bu geliştirmelerle dört yapraklı yonca bulmuş kadar şanslı hissettiğinizi umuyoruz. 
 
 Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
@@ -156,7 +233,7 @@ Mart ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağıd
 
 
 ### <a name="modeling"></a>Modelleme
-* Görünüm genel kullanıma sunulan yeni modelleme [[video]](https://youtu.be/rBPGH6eYlT0?t=417)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
+* Yeni modelleme görünümü artık genel kullanıma sunuldu [[video]](https://youtu.be/rBPGH6eYlT0?t=417)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * Yeni DAX işlevleri [[video]](https://youtu.be/rBPGH6eYlT0?t=560)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
 ### <a name="custom-visuals"></a>Özel görseller
@@ -195,11 +272,11 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Önceki sürümü indirmek için bağlantıları izleyin: 
 
-* [Mart 2019 Power BI Desktop - 32-bit sürümü](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [Mart 2019 Power BI Desktop - 64-bit sürümü](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
+* [Power BI Desktop'ın Mart 2019 sürümü - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
+* [Power BI Desktop'ın Mart 2019 sürümü - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
-## <a name="february-2019-update-26653761681"></a>Şubat 2019 güncelleştirme (2.66.5376.1681)
+## <a name="february-2019-update-26653761681"></a>Şubat 2019 Güncelleştirmesi (2.66.5376.1681)
 
 Şubat güncelleştirmelerimizde müşterilerimiz yeni veri bağlayıcılarımızın, özelliklerimizin ve analiz iyileştirmelerimizin hepsine bayıldı. Bir kutu çikolata gibi, içinden ne çıkacağını tahmin edemezsiniz, ama bu Şubat güncelleştirmesinde tüm değişiklikler tatlı ve gerçekten lezzetli. 
 
@@ -400,7 +477,7 @@ Kasım ayında yapılan yeni **Power BI Desktop** güncelleştirmelerini aşağ�
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
 
-* Azure Geliştirici işlem sunucusu Bağlayıcısı [[video]](https://youtu.be/1xsXXoyTxfk?t=2641)[[blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Azure Developer Operations Server bağlayıcısı [[video]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
 * Başlangıç Sayfası ve Son Sayfa parametreleri için PDF Bağlayıcısı desteği [[video]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[makale]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
 * Geliştirilmiş Azure Consumption Insights bağlayıcısı [[video]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[makale]](desktop-connect-azure-consumption-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
 
@@ -1710,7 +1787,7 @@ Eylül ayında yapılan yeni Power BI Desktop güncelleştirmelerini aşağıda 
 -   İşlev çağırma sütunu ekleme [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   Genişletme ve Toplama sütunları - Değerler için *Daha Fazla Yükle* desteği [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   Yeni dönüştürme seçeneği - Tablo Sütununu listeye dönüştürme [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   Anahtar ortamınızın - desteği *akıllı yazma* açılan menülerde [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   Klavye - Açılan menülerde *akıllı yazma* desteği [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
 ### <a name="other-improvements"></a>Diğer iyileştirmeler
@@ -2554,7 +2631,7 @@ Bu güncelleştirmede eklenen veya iyileştirilen özellikleri aşağıda bulabi
   -   Tabloları Genişletme/Daraltma
   -   Alanları Gizleme/Gösterme
   -   İyileştirilmiş düzen (aralıklar, kenar boşlukları ve yazı tipleri)
-- Rapor sayfalarında Gezinti - anahtar binme desteği
+- Rapor Sayfalarında Gezinti - Klavye desteği
 - Çok sayıda hata düzeltmesi
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>

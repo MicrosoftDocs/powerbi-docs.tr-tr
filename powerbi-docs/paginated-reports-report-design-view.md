@@ -1,5 +1,5 @@
 ---
-title: Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma (Önizleme)
+title: Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma
 description: Rapor Oluşturucusu'nun Rapor Tasarımı Görünümü, Power BI hizmetinde yayımlayabileceğiniz sayfalandırılmış raporları oluşturmaya yönelik tasarım alanıdır.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423358"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839545"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma (Önizleme)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma
 
-Power BI Rapor Oluşturucusu'nda rapor Tasarım görünümü, Power BI hizmetinde yayımlayabilirsiniz sayfalandırılmış raporlar oluşturmaya yönelik tasarım alandır. Tasarım yüzeyi Rapor Oluşturucusu'nun ortasında yer alır ve çevresinde şerit ile bölmeler vardır. Tasarım yüzeyi, rapor öğelerinizi eklediğiniz ve düzenlediğiniz yerdir. Bu makalede, rapor kaynaklarınızı eklemek, seçmek ve düzenlemek, ayrıca rapor öğesi özelliklerini değiştirmek için kullandığınız panolar açıklanır.  
+Power BI Rapor Oluşturucusu'nun Rapor Tasarımı Görünümü, Power BI hizmetine yayımlayabileceğiniz sayfalandırılmış raporları oluşturmaya yönelik tasarım alanıdır. Tasarım yüzeyi Rapor Oluşturucusu'nun ortasında yer alır ve çevresinde şerit ile bölmeler vardır. Tasarım yüzeyi, rapor öğelerinizi eklediğiniz ve düzenlediğiniz yerdir. Bu makalede, rapor kaynaklarınızı eklemek, seçmek ve düzenlemek, ayrıca rapor öğesi özelliklerini değiştirmek için kullandığınız panolar açıklanır.  
 
 ![Rapor Oluşturucusu Rapor Tasarımı Görünümü](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ Geçerli rapor durum çubuğunda, raporun bağlandığı sunucunun adı veya "Ge
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Premium’da sayfalandırılmış raporlar nelerdir? (Önizleme)](paginated-reports-report-builder-power-bi.md) 
+[Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md) 
 
   
   

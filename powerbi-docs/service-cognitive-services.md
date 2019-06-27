@@ -1,5 +1,5 @@
 ---
-title: Power BI’da Bilişsel Hizmetler (Önizleme)
+title: Power BI'da Bilişsel Hizmetler
 description: Power BI ile Bilişsel Hizmetler'i kullanmayı öğrenin
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61182068"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823507"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Power BI’da Bilişsel Hizmetler (Önizleme)
+# <a name="cognitive-services-in-power-bi"></a>Power BI'da Bilişsel Hizmetler 
 
 Power BI'da Bilişsel Hizmetlerle, Veri Akışları için self servis veri hazırlığında verileri zenginleştirmek için [Azure Bilişsel Hizmetler](https://azure.microsoft.com/services/cognitive-services/)'den farklı algoritmalar uygulayabilirsiniz.
 
@@ -25,7 +25,7 @@ Bugün desteklenen hizmetler [Yaklaşım Analizi](https://docs.microsoft.com/azu
 
 ## <a name="enabling-ai-features"></a>**AI özelliklerini etkinleştirme**
 
-Bilişsel hizmetler EM2, A2 veya P1 ve üstü Premium kapasite düğümleri için desteklenir. Bilişsel hizmetleri çalıştırmak için kapasitede ayrı bir AI iş yükü kullanılır. Genel önizleme sırasında bu iş yükü varsayılan olarak devre dışı bırakılır. Power BI'da bilişsel hizmetleri kullanmadan önce yönetim portalının kapasite ayarlarında AI iş yükünün etkinleştirilmesi gerekir. İş yükleri bölümünde AI iş yükünü açmalı ve bu iş yükünün kullanmasını istediğiniz en büyük bellek miktarını tanımlamalısınız. Önerilen bellek sınırı %20'dir. Bu sınırın aşılması sorgunun yavaşlamasına neden olur.
+Bilişsel hizmetler EM2, A2 veya P1 ve üstü Premium kapasite düğümleri için desteklenir. Bilişsel hizmetleri çalıştırmak için kapasitede ayrı bir AI iş yükü kullanılır. Genel önizleme (Haziran 2019 öncesi) sırasında bu iş yükü varsayılan olarak devre dışı bırakılmıştı. Power BI'da bilişsel hizmetleri kullanmadan önce yönetim portalının kapasite ayarlarında AI iş yükünün etkinleştirilmesi gerekir. İş yükleri bölümünde AI iş yükünü açmalı ve bu iş yükünün kullanmasını istediğiniz en büyük bellek miktarını tanımlamalısınız. Önerilen bellek sınırı %20'dir. Bu sınırın aşılması sorgunun yavaşlamasına neden olur.
 
 ![Power BI'da bilişsel hizmetler](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ Bu işleve giriş olarak bir resim URL'si ve base 64 alanı gerekir. Şu anda re
 
 Bu makalede Power BI hizmetiyle Bilişsel Hizmetler'i kullanmaya genel bir bakış sağlandı. Aşağıdaki makaleleri de ilginç ve yararlı bulabilirsiniz. 
 
-* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI'da Azure Machine Learning tümleştirmesi (Önizleme)](service-machine-learning-integration.md)
+* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
+* [Power BI'da Azure Machine Learning tümleştirmesi](service-machine-learning-integration.md)
 * [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
 
 
 Veri akışları hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium'da hesaplanan varlıkları kullanma](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
+* [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)

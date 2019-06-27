@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e24218e2a465619fdfbfc279d3cc45370202dd6e
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814898"
+---
 ## <a name="sign-in-account"></a>Oturum açma hesabı
 
 Kullanıcılar, iş veya okul hesabıyla oturum açar. Bu hesap, **kuruluş hesabınızdır**. Bir Office 365 teklifine kaydolduysanız ve gerçek iş e-postanızı sağlamadıysanız e-postanız şu şekilde görünebilir: nancy@contoso.onmicrosoft.com. Hesabınız, Azure Active Directory’deki (AAD) bir kiracıda depolanır. Çoğu durumda AAD hesabınızın UPN'si e-posta adresiyle eşleşir.
@@ -15,33 +23,40 @@ Ara sunucunuzda kimlik doğrulaması ile ilgili sorunlarla karşılaşırsanız 
 
 Ağ geçidi, Azure Service Bus'a yönelik bir giden bağlantı oluşturur. Şu giden bağlantı noktaları üzerinden iletişim kurar: TCP 443 (varsayılan), 5671, 5672, 9350 - 9354.  Ağ geçidi için gelen bağlantı noktaları gerekli değildir.
 
-Güvenlik duvarınızda veri bölgenize ilişkin IP adreslerini beyaz listeye eklemeniz önerilir. Haftalık olarak güncelleştirilen [Microsoft Azure Veri Merkezi IP listesini](https://www.microsoft.com/download/details.aspx?id=41653) indirebilirsiniz. Ağ geçidi, tam etki alanı adı (FQDN) ile IP adresini kullanarak Azure Service Bus ile iletişim kurar. Ağ geçidini HTTPS kullanarak iletişim kurmaya zorluyorsanız yalnızca FQDN kullanılır ve IP adresleri kullanılarak herhangi bir iletişim kurulmaz.
+Güvenlik duvarınızda veri bölgenize ilişkin IP adreslerini izin verilenler listesine eklemeniz önerilir. Haftalık olarak güncelleştirilen [Microsoft Azure Veri Merkezi IP listesini](https://www.microsoft.com/download/details.aspx?id=41653) indirebilirsiniz. Alternatif olarak şirket içi veri ağ geçidi uygulamasında [Ağ bağlantı noktası testi](../service-gateway-onprem-tshoot.md#network-ports-test) yaparak gerekli bağlantı noktalarının listesini alabilirsiniz. Ağ geçidi, tam etki alanı adı (FQDN) ile IP adresini kullanarak Azure Service Bus ile iletişim kurar. Ağ geçidini HTTPS kullanarak iletişim kurmaya zorluyorsanız yalnızca FQDN kullanılır ve IP adresleri kullanılarak herhangi bir iletişim kurulmaz.
+
 
 > [!NOTE]
 > Azure Veri Merkezi IP listesindeki adresler, CIDR gösteriminde listelenir. Örneğin, 10.0.0.0/24 değeri, 10.0.0.0’dan 10.0.0.24’e kadar anlamına gelmez. [CIDR gösterimi](http://whatismyipaddress.com/cidr) hakkında daha fazla bilgi edinin.
 
 Aşağıda, ağ geçidi tarafından kullanılan tam etki alanı adlarının bir listesi verilmiştir.
 
-| Etki alanı adları | Giden bağlantı noktaları | Açıklama |
-| --- | --- | --- |
-| *.download.microsoft.com |80 |Yükleyiciyi indirmek için kullanılan HTTP. |
-| *.powerbi.com |443 |HTTPS |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671-5672 |Gelişmiş İleti Sıraya Alma Protokolü (AMQP) |
-| *.servicebus.windows.net |443, 9350-9354 |TCP üzerinden Service Bus Geçişi'ndeki dinleyiciler (Erişim Denetimi belirtecinin alınması için 443 gerekir) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| login.microsoftonline.com |443 |HTTPS |
-| *.msftncsi.com |443 |Power BI hizmeti tarafından ağ geçidine ulaşılamaması halinde İnternet bağlantısını test etmek için kullanılır. |
-| *.microsoftonline-p.com |443 |Yapılandırmaya bağlı olarak kimlik doğrulaması için kullanılır. |
+| Etki alanı adları | Giden bağlantı noktaları | Açıklama |  |
+|-----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|---|
+| *.download.microsoft.com | 80 | Yükleyiciyi indirmek için kullanılır. Ayrıca veri ağ geçidi uygulaması tarafından sürüm ve ağ geçidi bölgesini denetlemek için de kullanılır. |  |
+| *.powerbi.com | 443 | İlgili Power BI kümesini belirlemek için kullanılır. |  |
+| *.analysis.windows.net | 443 | İlgili Power BI kümesini belirlemek için kullanılır. |  |
+| *.login.windows.net | 443 | Azure Active Directory / OAuth2 ile veri ağ geçidi uygulamasının kimliğini doğrulamak için kullanılır. |  |
+| *.servicebus.windows.net | 5671-5672 | Gelişmiş İleti Sıraya Alma Protokolü (AMQP) için kullanılır. |  |
+| *.servicebus.windows.net | 443, 9350-9354 | TCP üzerinden Service Bus Geçişi'ndeki dinleyiciler tarafından kullanılır (erişim denetimi belirtecinin alınması için 443 gerekir). |  |
+| *.frontend.clouddatahub.net | 443 | Kullanım dışı bırakıldı - artık gerekli değildir. Daha sonra belgelerden kaldırılacaktır. |  |
+| *.core.windows.net | 443 | Power BI'daki veri akışları tarafından Azure Data Lake'e veri yazmak için kullanılır. |  |
+| login.microsoftonline.com | 443 | Azure Active Directory / OAuth2 ile veri ağ geçidi uygulamasının kimliğini doğrulamak için kullanılır. |  |
+| *.msftncsi.com | 443 | Power BI hizmeti tarafından İnternet bağlantısını ve ağ geçidinin ulaşılabilir olup olmadığını test etmek için kullanılır. |  |
+| *.microsoftonline-p.com | 443 | Azure Active Directory / OAuth2 ile veri ağ geçidi uygulamasının kimliğini doğrulamak için kullanılır. |  |
+| | |
 
 > [!NOTE]
-> visualstudio.com veya visualstudioonline.com'a giden trafik uygulama öngörüleri için kullanılır ve ağ geçidinin çalışması için gerekli değildir.
+> Ağ geçidi yüklendikten ve kaydedildikten sonra, gereken tek bağlantı noktaları/IP'ler Azure Service Bus (yukarıdaki servicebus.windows.net) için gerekenlerdir. Şirket içi veri ağ geçidi uygulamasında [Ağ bağlantı noktası testi](../service-gateway-onprem-tshoot.md#network-ports-test) yaparak gerekli bağlantı noktalarının listesini alabilirsiniz.
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>Azure Service Bus ile HTTPS iletişimini zorlama
 
-Ağ geçidinin Azure Service Bus ile doğrudan TCP yerine HTTPS kullanarak iletişim kurmasını zorunlu kılabilirsiniz. HTTPS kullanımı performansı etkileyebilir. Bu işlemi gerçekleştirmek için, bu paragrafın hemen altındaki kod parçacığında gösterilen şekilde, *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dosyasını düzenleyerek `AutoDetect` değerini `Https` olarak değiştirin. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur.
+Ağ geçidinin Azure Service Bus ile doğrudan TCP yerine HTTPS kullanarak iletişim kurmasını zorunlu kılabilirsiniz.
+
+> [!NOTE]
+> Azure Service Bus'tan gelen öneriler doğrultusunda Haziran 2019 sürümünden başlayarak yeni yüklemelerde (güncelleştirmelerde değil) varsayılan olarak TCP yerine HTTPS kullanılacaktır.
+
+HTTP üzerinden iletişimi zorlamak için, bu paragrafın hemen altındaki kod parçacığında gösterildiği gibi *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* dosyasını düzenleyerek `AutoDetect` değerini `Https` olarak değiştirin. Bu dosya varsayılan olarak *C:\Program Files\On-premises data gateway* konumunda bulunur.
 
 ```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

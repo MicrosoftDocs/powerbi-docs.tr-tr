@@ -1,279 +1,327 @@
 ---
 title: Power BI'da veri yenileme
-description: Power BI'da veri yenileme
+description: Bu makalede, Power BI’ın veri yenileme özellikleri ve bu özelliklerin bağımlılıkları kavramsal düzeyde açıklanmaktadır.
 author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60974406"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67039212"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
-Her zaman en son verileri aldığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. Büyük ihtimalle daha önce bazı verilere bağlanmak ve verileri karşıya yüklemek için Power BI'da Veri Al seçeneğini kullandınız, bazı raporlar ve bir pano oluşturdunuz. Şimdiyse verilerinizin gerçekten de en iyi ve en güncel durumda olduğundan emin olmak istiyorsunuz.
 
-Çoğu durumda hiçbir şey yapmanız gerekmez. Salesforce veya Marketo içerik paketi gibi bazı veriler sizin için otomatik olarak yenilenir. Bağlantınız canlı bağlantı veya DirectQuery ile kuruluyorsa veriler en güncel duruma getirilecektir. Ancak diğer durumlarda (örneğin dış çevrimiçi ya da şirket içi veri kaynağı ile bağlantı halindeki bir Excel çalışma kitabı veya Power BI Desktop dosyası ile çalışırken) verileri el ile yenilemeniz ya da Power BI hizmetinin sizin adınıza raporlarınızdaki ve panolarınızdaki verileri yenilemesi için bir yenileme zamanlaması ayarlamanız gerekecektir.
+Power BI, veriden içgörüye ve içgörüden eyleme hızla geçmenize olanak tanır. Ancak, Power BI rapor ve panolarınızdaki verilerin güncel olduğundan emin olmanız gerekir. Verileri yenilemeyi bilmek, doğru sonuçların sunulması için genellikle kritik öneme sahiptir.
 
-Bu ve birkaç başka makale; Power BI hizmetinde veri yenilemenin nasıl çalıştığını, bir yenileme zamanlaması oluşturmanız gereken durumları ve verilerinizi başarıyla yenilemek için ihtiyacınız olanları anlamanız için size yardımcı olmak amacıyla hazırlanmıştır.
+Bu makalede, Power BI’ın veri yenileme özellikleri ve bu özelliklerin bağımlılıkları kavramsal düzeyde açıklanmaktadır. Sık karşılaşılan yenileme sorunlarını önlemeye yönelik en iyi yöntemler ve ipuçları da sunulmaktadır. İçerik, veri yenilemenin nasıl çalıştığını anlamanıza yardımcı olacak bir temel oluşturur. Veri yenilemeyi yapılandırmaya yönelik hedefli, adım adım yönergeler için bu makalenin sonunda bulunan Sonraki adımlar kısmında listelenen öğreticilere ve nasıl yapılır kılavuzlarına başvurun.
 
 ## <a name="understanding-data-refresh"></a>Veri yenilemeyi anlama
-Yenilemeyi ayarlamadan önce neyi yenilediğinizi ve verilerinizi nereden aldığınızı anlamanız önemlidir.
 
-*Veri kaynağı*, raporlarınızda ve panolarınızda gördüğünüz verilerin geldiği yerdir; örneğin Google Analytics veya QuickBooks gibi bir çevrimiçi hizmet, Azure SQL Veritabanı gibi bulut ortamındaki bir veritabanı veya kuruluşunuzdaki yerel bir bilgisayar ya da sunucuda bulunan bir veritabanı veya dosya olabilir. Bunların hepsi veri kaynağıdır. Veri kaynağının türü, kaynaktan verilerin nasıl yenilendiğini belirler. Daha sonra [Neler yenilenebilir?](#what-can-be-refreshed) bölümünde her veri kaynağı türü için yenilemeyi daha ayrıntılı şekilde ele alacağız.
+Her veri yenilediğinizde Power BI’ın temel alınan veri kaynaklarını sorgulaması, muhtemelen kaynak verileri bir veri kümesine yüklemesi, rapor ve panolarınızdaki tüm görselleştirmeleri güncelleştirmesi gerekir. Bu görselleştirmeler güncelleştirilmiş veri kümesini kullanır. Tüm süreç, aşağıdaki kısımlarda açıklandığı gibi veri kümelerinizin depolama modlarına bağlı olarak birden çok aşamadan oluşur.
 
-*Veri kümesi*, Veri Al seçeneğini kullanarak bir içerik paketine veya dosyaya bağlandığınızda ve bunlardan veri yüklediğinizde ya da canlı bir veri kaynağına bağlandığınızda Power BI'da otomatik olarak oluşturulur. Power BI Desktop ve Excel 2016'da tıpkı Veri Al ile olduğu gibi dosyanızı doğrudan Power BI hizmetinde yayımlayabilirsiniz.
+Power BI’ın veri kümelerinizi, raporlarınızı ve panolarınızı nasıl yenilediğini anlamak için aşağıdaki kavramları bilmeniz gerekir:
 
-Her durumda, bir veri kümesi oluşturulur ve Power BI hizmetindeki Çalışma Alanım ya da Grup kapsayıcılarında görünür. Bir veri kümesi için **üç nokta (...)** simgesini seçtiğinizde bir rapordaki verileri araştırabilir, ayaları düzenleyebilir ve yenileme ayarlayabilirsiniz.
+- **Depolama modları ve veri kümesi türleri**: Power BI’ın desteklediği depolama modları ve veri kümesi türlerinin farklı yenileme gereksinimleri bulunur. Oluşan tüm değişiklikleri görmek için verileri Power BI’a yeniden aktarmayı veya verileri doğrudan kaynağında sorgulamayı seçebilirsiniz.
+- **Power BI yenileme türleri**: Veri kümesi özelliklerinden bağımsız olarak çeşitli yenileme türlerini bilmeniz, bir yenileme işlemi esnasında Power BI’ın zamanını hangi işlemlerde geçireceğini anlamanıza yardımcı olabilir. Bu ayrıntıları depolama modu özellikleri ile birleştirerek, bir veri kümesi için **Şimdi Yenile** seçeneğini belirlediğinizde Power BI’ın tam olarak ne yapacağını daha iyi anlayabilirsiniz.
 
-![](media/refresh-data/dataset-menu.png)
+### <a name="storage-modes-and-dataset-types"></a>Depolama modları ve veri kümesi türleri
 
-Bir veri kümesi, bir veya daha fazla veri kaynağından veri alabilir. Örneğin, Power BI Desktop'ı kuruluşunuzdaki bir SQL Veritabanından veri alabilir ve diğer verileri OData akışından çevrimiçi alabilirsiniz. Ardından, dosyayı Power BI hizmetinde yayımladığınızda tek bir veri kümesi oluşturulur ancak hem SQL Veritabanı hem de OData akışına ait veri kaynaklarını içerir.
+Bir Power BI veri kümesi, çeşitli veri kaynaklarında bulunan verilere erişmek için aşağıdaki modlardan birinde çalışabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modu](desktop-storage-mode.md).
 
-Bir veri kümesi; veri kaynakları, veri kaynağı kimlik bilgileri ve çoğu durumda veri kaynağından kopyalanan bir alt veri kümesi hakkında bilgiler içerir. Raporlar ve panolarda görselleştirmeler oluşturduğunuzda, veri kümesindeki verileri incelediğinizde veya Azure SQL Veritabanı gibi bir canlı bağlantı olması durumunda veri kümesi, doğrudan veri kaynağından görüntülediğiniz verileri tanımlar. Analysis Services canlı bağlantıları için veri kümesi tanımı, doğrudan Analysis Services kaynağından gelir.
+- İçeri aktarma modu
+- DirectQuery modu
+- LiveConnect modu
+- Gönderim modu
 
-> *Verileri yenilediğinizde veri kaynağınızdan alınıp Power BI'da depolanan veri kümesindeki verileri güncelleştirirsiniz. Bu, artımlı yenileme değil, tam yenilemedir.*
-> 
-> 
+Aşağıdaki diyagram, depolama modunu temel alarak farklı veri akışlarını gösterir. En önemli nokta, sadece İçeri aktarma modundaki veri kümelerinin bir veri kaynağı yenileme işlemini gerektirmesidir. Yalnızca bu tür veri kümeleri verileri veri kaynaklarından içeri aktardığından ve içeri aktarılan veriler düzenli veya geçici olarak güncelleştirilebileceğinden, bu tür veri kümeleri yenileme gerektirir. DirectQuery veri kümeleri ve Analysis Services’a yönelik LiveConnect modundaki veri kümeleri, verileri içeri aktarmaz. Bunlar, her kullanıcı etkileşiminde, temel alınan veri kaynağını sorgular. Gönderim modundaki veri kümeleri, veri kaynaklarına doğrudan erişmez, verileri Power BI’a sizin göndermenizi bekler. Veri kümesi yenileme gereksinimleri, depolama moduna/veri kümesi türüne göre farklılık gösterir.
 
-İster Şimdi Yenile kullanarak ister bir yenileme zamanlaması oluşturarak bir veri kümesindeki verileri yenilediğinizde Power BI, veri kümesindeki bilgileri kullanarak kendisi için tanımlanan veri kaynaklarına bağlanır, güncelleştirilen verileri sorgular ve ardından güncelleştirilen verileri veri kümesine yükler. Raporlarınız veya panolarınızda bulunan ve verilere dayanan tüm görselleştirmeler otomatik olarak güncelleştirilir.
+![Depolama modları ve veri kümesi türleri](media/refresh-data/storage-modes-dataset-types-diagram.png)
 
-Daha fazla ayrıntıya geçmeden önce anlaşılması gereken çok önemli bir husus vardır:
+#### <a name="datasets-in-import-mode"></a>İçeri aktarma modundaki veri kümeleri
 
-> *Veri kümesini ne kadar sık yenilerseniz yenileyin veya canlı verileri ne kadar sık görüntülerseniz görüntüleyin önce veri kaynağındaki verilerin güncel olması gerekir.*
-> 
-> 
+Power BI, verileri özgün veri kaynaklarından veri kümesine aktarır. Veri kümesine gönderilen Power BI rapor ve pano sorguları, içeri aktarılan tablo ve sütunlardaki sonuçları döndürür. Bu tür veri kümelerini belirli bir nokta kopyası olarak düşünebilirsiniz. Power BI verileri kopyaladığından, temel alınan veri kaynaklarından değişiklikleri getirmek amacıyla veri kümesini yenilemeniz gerekir.
 
-Çoğu kuruluş, verilerini genellikle akşam olmak üzere günde bir kez işler. Şirket içindeki veritabanına bağlı bir Power BI Desktop dosyasından oluşturulan bir veri kümesi için yenileme zamanlaması oluşturursanız ve BT departmanı akşamları bir kez bu SQL veritabanı üzerinde işlemler yürütürse yalnızca günde bir kez gerçekleştirilmek üzere bir yenileme zamanlaması oluşturmanız gerekir. Örneğin, veritabanı üzerinde işlem yapıldıktan sonra ancak mesai başlamadan önce olacak şekilde. Elbette her zaman bu durum geçerli değildir. Power BI hizmeti; sık sık, hatta gerçek zamanlı olarak güncelleştirilen veri kaynaklarına bağlanma olanakları sağlar.
+Power BI verileri önbelleğe aldığından, İçeri aktarma modu veri kümesi boyutları çok büyük olabilir. Kapasite başına en yüksek veri kümesi boyutları için aşağıdaki tabloya bakın. Veri kümeleriniz bir yenileme işlemi esnasında kullanılabilir olan en yüksek kaynak miktarından daha fazlasını gerektirirse yenileme sorunları oluşabilir. Bu sorunları önlemek için en yüksek veri kümesi boyutlarının oldukça altında kalın.
 
-## <a name="types-of-refresh"></a>Yenileme türleri
-Power BI hizmetinde gerçekleşen dört ana yenileme türü vardır. Paket yenileme, model/veri yenileme, kutucuk yenileme ve görsel kapsayıcı yenileme.
+| Kapasite türü | Veri kümesi boyutu üst sınırı |
+| --- | --- |
+| Paylaşılan, A1, A2 veya A3 | 1 GB |
+| A4 veya P1 | 3 GB |
+| A4 veya P2 | 6 GB |
+| A6 veya P3 | 10 GB |
+| | |
 
-### <a name="package-refresh"></a>Paket yenileme
-Bu, Power BI Desktop veya Excel dosyanızı Power BI hizmeti ve OneDrive veya SharePoint Online arasında eşitler. Bu, orijinal veri kaynağından veri çekmez. Power BI'daki veri kümesi yalnızca OneDrive veya SharePoint Online içindeki dosya ile güncelleştirilecektir.
+#### <a name="datasets-in-directqueryliveconnect-mode"></a>DirectQuery/LiveConnect modundaki veri kümeleri
 
-![](media/refresh-data/package-refresh.png)
+Power BI, verileri DirectQuery/LiveConnect modunda çalışan bağlantılar üzerinden içeri aktarmaz. Bunun yerine veri kümesi, bir rapor veya pano tarafından sorgulandığında, temel alınan veri kaynağındaki sonuçları döndürür. Power BI sorguları dönüştürüp veri kaynağına iletir.
 
-### <a name="modeldata-refresh"></a>Model/veri yenileme
-Bu, Power BI hizmetindeki veri kümesini orijinal veri kaynağından elde edilen veriler ile yenileme anlamına gelir. Bu, zamanlanmış yenileme veya şimdi yenile seçeneği kullanılarak gerçekleştirilir. Bu yenileme türü için şirket içi veri kaynaklarına yönelik bir ağ geçidi gerekir.
+DirectQuery modu ve LiveConnect modu, sorguların kaynağa Power BI tarafından iletilmesi yönünden benzer olsa da, Power BI’ın LiveConnect modunda sorguları dönüştürmesinin gerekmediğine dikkat edilmelidir. Sorgular doğrudan, paylaşılan kapasitedeki veya Premium kapasitedeki kaynakları tüketmeden veritabanını barındıran Analysis Services örneğine gider.
 
-### <a name="tile-refresh"></a>Kutucuk yenileme
-Kutucuk yenileme, veri değiştikten sonra panoda kutucuk görsellerinin önbelleğini güncelleştirir. On beş dakikada bir gerçekleştirilir. Ayrıca, bir panonun sağ üst bölümündeki **üç nokta (...)** simgesini seçerek ve **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
+Power BI verileri içeri aktarmadığından veri yenileme işlemi çalıştırmanız gerekmez. Ancak, bir sonraki yenileme türleri kısmında açıklandığı gibi, Power BI kutucuk yenilemelerini ve olası rapor yenilemelerini yine de gerçekleştirir. Kutucuk, panoya sabitlenen bir rapor görselidir ve kutucukların güncel sonuçları göstermesi için pano kutucuğu yenilemeleri yaklaşık her saatte bir gerçekleştirilir. Aşağıdaki ekran görüntüsünde olduğu gibi zamanlamayı veri kümesi ayarlarından değiştirebilir veya **Şimdi Yenile** seçeneğini kullanarak kendiniz bir pano güncelleştirmesini zorlayabilirsiniz.
 
-![](media/refresh-data/dashboard-tile-refresh.png)
-
-Genel kutucuk yenileme hataları ile ilgili ayrıntılar için bkz. [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md).
-
-### <a name="visual-container-refresh"></a>Görsel kapsayıcı yenileme
-Görsel kapsayıcı yenileme bir raporda veri değiştikten sonra önbelleğe alınan rapor görsellerini güncelleştirir.
-
-## <a name="what-can-be-refreshed"></a>Ne yenilenebilir?
-Power BI'da tipik olarak Veri Al seçeneğini kullanarak yerel bir sürücü, OneDrive veya SharePoint Online'dan bir dosyadan verileri içeri aktarır, Power BI Desktop'tan bir rapor yayımlar veya doğrudan kuruluşunuzdaki bulut ortamında bulunan bir veritabanına bağlanırsınız. Power BI'da neredeyse tüm veriler yenilenebilir ancak yenileme ihtiyacı veri kümenizin nasıl oluşturulduğuna ve bağlı olduğu veri kaynaklarına göre değişir. Veri yenileme açısından her birini inceleyelim.
-
-Daha fazla ayrıntıya geçmeden önce anlaşılması gereken bazı önemli hususlar vardır:
-
-**Otomatik yenileme**: Veri kümesinin düzenli olarak yenilenmesi için herhangi bir kullanıcı yapılandırmasının gerekli olmadığı anlamına gelir. Veri yenileme ayarları Power BI tarafından sizin için yapılandırılır. Çevrimiçi hizmet sağlayıcılar için yenileme genellikle günde bir kez gerçekleşir. OneDrive'dan yüklenen dosyalar için otomatik yenileme, dış veri kaynağından alınmayan veriler için bir saatlik aralıklarla gerçekleşir. Farklı yenileme zamanlaması ayarları yapılandırabilir ve el ile yenileyebilirsiniz ancak büyük olasılıkla buna ihtiyaç duymazsınız.
-
-**Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme**: Bu, Şimdi Yenile seçeneğini kullanarak bir veri kümesini kendiniz ayarlayabileceğiniz veya bir veri kümesi ayarlarında Yenilemeyi Zamanla seçeneğini kullanarak bir yenilemeye zamanlaması oluşturabileceğiniz anlamına gelir. Bu yenileme türü, dış çevrimiçi ve şirket içi veri kaynaklarına bağlanan Power BI Desktop dosyaları ve Excel çalışma kitapları için gereklidir.
+![Yenileme zamanlaması](media/refresh-data/refresh-schedule.png)
 
 > [!NOTE]
-> Zamanlanmış yenileme için bir saat yapılandırdığınızda başlamadan önce bir saate kadar gecikme yaşanabilir.
-> 
-> 
+> **Veri kümeleri** sekmesinin **Zamanlanmış önbellek yenilemesi** bölümü, içeri aktarma modundaki veri kümeleri için kullanılamaz. Power BI, her zamanlanmış veya isteğe bağlı veri yenilemesinde kutucukları otomatik olarak yenilediğinden, bu veri kümeleri için ayrı bir kutucuk yenilemesi gerekmez.
 
-**Canlı/DirectQuery**: Bu, Power BI ile veri kaynağı arasında canlı bir bağlantı olduğu anlamına gelir. Şirket içi veri kaynakları için Yöneticilerin kurumsal ağ geçidinde bir veri kaynağını yapılandırması gerekecektir ancak kullanıcı etkileşimi gerekmeyebilir.
+#### <a name="push-datasets"></a>Gönderme veri kümeleri
 
-> [!NOTE]
-> Performansı artırmak için, DirectQuery ile bağlı verileri olan panolar otomatik olarak güncelleştirilir. Ayrıca, kutucuktaki **Daha Fazla** menüsünü kullanarak dilediğiniz zaman bir kutucuğu kendiniz yenileyebilirsiniz.
-> 
-> 
-
-## <a name="local-files-and-files-on-onedrive-or-sharepoint-online"></a>Yerel dosyalar ve OneDrive veya SharePoint Online'daki dosyalar
-Veri yenileme, dış çevrimiçi veya şirket içi veri kaynaklarına bağlanan Power BI Desktop dosyaları ve Excel çalışma kitapları için desteklenir. Bu, yalnızca Power BI hizmetindeki veri kümesi için verileri yeniler. Yerel dosyanızı güncelleştirmez.
-
-Dosyalarınızı OneDrive veya SharePoint Online'da tutmanız ve bunları Power BI hizmetinden bağlamanız büyük bir esneklik sağlar. Ancak bu esneklik aynı zamanda anlaşılmasını çok güç hale getirir. OneDrive veya SharePoint Online'da depolanan dosyalar için zamanlanmış yenileme paket yenilemeden farklıdır. [Yenileme türleri](#types-of-refresh) bölümünden daha fazla bilgi edinebilirsiniz.
-
-### <a name="power-bi-desktop-file"></a>Power BI Desktop dosyası
-
-| **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Veri Al (şerittedir) listelenen tüm çevrimiçi veri kaynaklarına bağlanmak ve bunlardan veri sorgulamak üzere kullanılır. |Hayır |Evet |Hayır (aşağıya bakın) |
-| Veri Al, canlı bir Analysis Services veritabanına bağlanmak ve veritabanını araştırmak üzere kullanılır. |Evet |Hayır |Evet |
-| Veri Al, desteklenen bir şirket içi DirectQuery veri kaynağına bağlanmak ve veri kaynağını araştırmak üzere kullanılır. |Evet |Hayır |Evet |
-| Veri Al, bir Azure SQL Veritabanı, Azure SQL Veri Ambarı, Azure HDInsight Spark Hizmeti'ne bağlanmak ve bunlardan veri sorgulamak üzere kullanılır. |Evet |Evet |Hayır |
-| Veri Al, Hadoop dosyası (HDFS) ve Microsoft Exchange dışında listelenen tüm şirket içi veri kaynaklarına bağlanmak ve veri kaynaklarından veri sorgulamak üzere kullanılır. |Hayır |Evet |Evet |
+Gönderme veri kümeleri, veri kaynağının resmi tanımını içermedikleri için Power BI’da bir veri yenilemesi yapmanızı gerektirmez. Verilerinizi, Azure Stream Analytics gibi harici bir hizmet veya işlem aracılığıyla veri kümesine göndererek bu veri kümelerini yenilersiniz. Bu, Power BI ile gerçek zamanlı analiz için sık kullanılan bir yaklaşımdır. Power BI, gönderme veri kümesinde kullanılan tüm kutucuklar için önbellek yenilemelerini yine de gerçekleştirir. Ayrıntılı bilgi için bkz. [Öğretici: Stream Analytics ve Power BI: Akış verilerine yönelik gerçek zamanlı bir analiz panosu](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) işlevini kullanırken, veri kümesini veya raporunuzu 18 Kasım 2016 tarihinden sonra yeniden yayımladıysanız bir ağ geçidi gereklidir.
-> 
-> 
+> Gönderme Modunun, [Power BI REST API’si sınırlamaları](developer/api-rest-api-limitations.md) bölümünde belgelendiği gibi bazı sınırlamaları bulunur.
 
-Ayrıntılar için bkz. [OneDrive'daki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme](refresh-desktop-file-onedrive.md).
+### <a name="power-bi-refresh-types"></a>Power BI yenileme türleri
 
-### <a name="excel-workbook"></a>Excel çalışma kitabı
+Power BI yenileme işlemi, veri yenileme, OneDrive yenilemesi, sorgu önbelleklerinin yenilenmesi, kutucuk yenileme ve rapor görsellerinin yenilenmesi gibi birden çok yenileme türünden oluşabilir. Power BI, belirli bir veri kümesi için gereken yenileme adımlarını otomatik olarak belirlese de, bunların bir yenileme işleminin karmaşıklığını ve süresini nasıl etkilediğini bilmeniz gerekir. Hızlı başvuru için aşağıdaki tabloya bakın.
 
-| **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Excel veri modeline yüklenmeyen çalışma sayfasındaki veri tabloları. |Evet, saatlik *(yalnızca OneDrive/SharePoint Online)* |Yalnızca el ile *(yalnızca OneDrive/SharePoint Online)* |Hayır |
-| Excel veri modelinde bir tabloyla bağlantılı çalışma sayfasındaki veri tabloları (bağlantılı tablolar). |Evet, saatlik *(yalnızca OneDrive/SharePoint Online)* |Yalnızca el ile *(yalnızca OneDrive/SharePoint Online)* |Hayır |
-| Power Query*, listelenen tüm çevrimiçi veri kaynaklarına bağlanmak, veri kaynaklarından veri sorgulamak ve Excel veri modeline veri yüklemek üzere kullanılır. |Hayır |Evet |Hayır |
-| Power Query*, Hadoop dosyası (HDFS) ve Microsoft Exchange dışında listelenen tüm şirket içi veri kaynaklarına bağlanmak, veri kaynaklarından veri sorgulamak ve Excel veri modeline veri yüklemek üzere kullanılır. |Hayır |Evet |Evet |
-| Power Pivot, listelenen tüm çevrimiçi veri kaynaklarına bağlanmak, veri kaynaklarından veri sorgulamak ve Excel veri modeline veri yüklemek üzere kullanılır. |Hayır |Evet |Hayır |
-| Power Pivot, listelenen tüm şirket içi veri kaynaklarına bağlanmak, veri kaynaklarından veri sorgulamak ve Excel veri modeline veri yüklemek üzere kullanılır. |Hayır |Evet |Evet |
+| Depolama modu | Veri yenileme | OneDrive yenilemesi | Sorgu önbellekleri | Kutucuk yenileme | Rapor görselleri |
+| --- | --- | --- | --- | --- | --- |
+| İçeri Aktar | Zamanlanmış ve isteğe bağlı | Bağlı veri kümeleri için evet | Premium kapasitede etkinleştirildiyse | Otomatik olarak ve isteğe bağlı | Hayır |
+| DirectQuery | Uygulanamaz | Bağlı veri kümeleri için evet | Premium kapasitede etkinleştirildiyse | Otomatik olarak ve isteğe bağlı | Hayır |
+| LiveConnect | Uygulanamaz | Bağlı veri kümeleri için evet | Premium kapasitede etkinleştirildiyse | Otomatik olarak ve isteğe bağlı | Evet |
+| Gönder | Uygulanamaz | Uygulanamaz | Pratik değil | Otomatik olarak ve isteğe bağlı | Hayır |
+| | | | | | |
 
-*\* Power Query, Excel 2016'da Al ve Dönüştür olarak bilinir.*
+#### <a name="data-refresh"></a>Veri yenileme
 
-Daha ayrıntılı bilgi için bkz. [OneDrive'daki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme](refresh-excel-file-onedrive.md).
+Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, günde 48’e kadar yenileme yapabilirsiniz. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında bulunan zamanlanmış yenileme yapılandırma bölümüne göz atın.
 
-### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'da virgülle ayrılmış değer (.csv) dosyası
+Günlük yenileme sınırlamasında, hem zamanlanmış hem de isteğe bağlı olarak yapılan yenilemelerin birleşik toplamının dikkate alındığının unutulmaması önemlidir. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi menüsünde **Şimdi Yenile**’yi seçerek bir isteğe bağlı yenilemeyi tetikleyebilirsiniz. Power BI REST API’sini kullanarak, veri yenilemeyi programlama yoluyla da tetikleyebilirsiniz. Kendi yenileme çözümünüzü oluşturmak istiyorsanız [Veri Kümeleri - Veri Kümesini Yenileme](/rest/api/power-bi/datasets/refreshdataset) bölümüne göz atın.
 
-| **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Basit virgülle ayrılmış değer |Evet, saatlik |Yalnızca el ile |Hayır |
-
-Daha ayrıntılı bilgi için bkz. [OneDrive'daki bir virgülle ayrılmış değer (.csv) dosyasından oluşturulan veri kümelerini yenileme](refresh-csv-file-onedrive.md).
-
-## <a name="content-packs"></a>İçerik paketleri
-Power BI'da iki tür içerik paketi vardır:
-
-**Çevrimiçi hizmetlerden içerik paketleri**: örneğin Adobe Analytics, SalesForce ve Dynamics CRM Online. Çevrimiçi hizmetlerden oluşturulan veri kümeleri otomatik olarak günde bir kez yenilenir. Büyük olasılıkla gerekli olmasa da el ile yenileyebilir veya bir yenileme zamanlaması ayarlayabilirsiniz. Çevrimiçi hizmetler bulut ortamında olduğundan ağ geçidi gerekmez.
-
-**Kurumsal içerik paketleri**: Kuruluşunuzdaki kullanıcılar tarafından oluşturulur ve paylaşılır. İçerik paketi tüketicileri bir yenileme zamanlaması oluşturamaz veya el ile yenileme yapamaz. Yalnızca içerik paketini oluşturan kişi içerik paketindeki veri kümeleri için yenileme ayarlayabilir. Yenileme ayarları veri kümesi ile birlikte devralınır.
-
-### <a name="content-packs-from-online-services"></a>Çevrimiçi hizmetlerden içerik paketleri
-
-| **Veri kaynağı** | **Otomatik yenileme** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Veri Al &gt; Hizmetler yolundaki çevrimiçi hizmetler |Evet |Evet |Hayır |
-
-### <a name="organizational-content-packs"></a>Kurumsal içerik paketleri
-Kurumsal bir içerik paketinde yer alan veri kümelerine ilişkin yenileme özellikleri, veri kümelerine bağlı olarak değişiklik gösterir. Yerel dosyalar, OneDrive veya SharePoint Online ile ilgili yukarıdaki bilgilere bakın.
-
-Daha fazla bilgi için bkz. [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md).
-
-## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Şirket içi veri kaynaklarına DirectQuery ve canlı bağlantılar
-Şirket içi veri ağ geçidi ile Power BI'dan şirket içi veri kaynaklarınıza sorgu iletebilirsiniz. Bir görselleştirme ile etkileşim kurduğunuzda sorgular Power BI'dan doğrudan veritabanına gönderilir. Ardından, güncelleştirilen veri döndürülür ve görselleştirmeler güncelleştirilir. Power BI ve veritabanı arasında doğrudan bağlantı olduğundan yenileme zamanlaması oluşturmanız gerekmez.
-
-Canlı bağlantı kullanarak SQL Service Analysis Services (SSAS) veri kaynağına bağlanırken bir SSAS kaynağına Canlı bağlantı, raporu yüklerken bile DirectQuery'nin aksine önbelleğe karşı çalışabilir. Bu davranış, rapor için yükleme performansını artırır. **Yenile** düğmesini kullanarak SSAS veri kaynağından son verileri isteyebilirsiniz. SSAS veri kaynakları sahipleri, raporların gerektiği şekilde güncelleştirilmesini sağlamak üzere veri kümesi için zamanlanmış önbellek yenileme sıklığını yapılandırabilir. 
-
-Şirket içi veri ağ geçici ile bir veri kaynağını yapılandırırken veri kaynağını zamanlanmış yenileme seçeneği olarak kullanabilirsiniz. Bu, kişisel ağ geçidinin yerini alacaktır.
+![Şimdi yenile](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> Veri kümeniz canlı veya DirectQuery bağlantısı için yapılandırılmışsa veri kümeleri yaklaşık bir saatlik aralıklarla veya veri etkileşimi gerçekleştiğinde yenilenir. *Yenileme sıklığını* Power BI hizmetinde *Zamanlanmış önbellek yenileme* seçeneğinde el ile ayarlayabilirsiniz.
-> 
-> 
+> Veri yenilemelerinin 2 saatten kısa bir sürede tamamlanması gerekir. Veri kümeleriniz daha uzun yenileme işlemleri gerektiriyorsa, veri kümesini bir Premium kapasiteye geçirmeyi düşünebilirsiniz. Premium’da en uzun yenileme süresi 5 saattir.
 
-| **Veri kaynağı** | **Canlı/DirectQuery** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Analysis Services - Tablo |Evet |Evet |Evet |
-| Analysis Services - Çok Boyutlu |Evet |Evet |Evet |
-| SQL Server |Evet |Evet |Evet |
-| SAP HANA |Evet |Evet |Evet |
-| Oracle |Evet |Evet |Evet |
-| Teradata |Evet |Evet |Evet |
+#### <a name="onedrive-refresh"></a>OneDrive yenilemesi
 
-Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
+Veri kümelerinizi ve raporlarınızı bir Power BI Desktop dosyasını, Excel çalışma kitabını, OneDrive veya SharePoint Online’da bulunan bir virgülle ayrılmış değer (.csv) dosyasını temel alarak oluşturduysanız Power BI, OneDrive yenilemesi olarak bilinen farklı türde bir yenileme gerçekleştirir. Daha fazla bilgi için bkz. [Power BI için dosyalardan veri alma](service-get-data-from-files.md).
 
-## <a name="databases-in-the-cloud"></a>Bulut ortamında veritabanları
-DirectQuery sayesinde Power BI ve bulut ortamındaki veritabanı arasında doğrudan bir bağlantı bulunur. Bir görselleştirme ile etkileşim kurduğunuzda sorgular Power BI'dan doğrudan veritabanına gönderilir. Ardından, güncelleştirilen veri döndürülür ve görselleştirmeler güncelleştirilir. Üstelik Power BI hizmeti ve veri kaynağı bulutta olduğundan Kişisel Ağ Geçidi gerekmez.
+Power BI’ın, veri kaynağındaki verileri bir veri kümesine aktardığı veri kümesi yenileme işleminin aksine, OneDrive yenilemesi esnasında veri kümeleri ve raporlar kendi kaynak dosyalarıyla eşitlenir. Power BI, OneDrive veya SharePoint Online’daki bir dosyaya bağlı veri kümesinin eşitleme gerektirip gerektirmediğini varsayılan olarak yaklaşık saatte bir denetler. Geçmiş eşitleme döngülerini incelemek için yenileme geçmişindeki OneDrive sekmesini denetleyin. Aşağıdaki ekran görüntüsü örnek bir veri kümesinin tamamlanan eşitleme döngüsünü gösterir.
 
-Bir görselleştirmede kullanıcı etkileşimi yoksa veriler yaklaşık olarak bir saatlik aralıklarla otomatik yenilenir. *Zamanlanmış önbellek yenileme* seçeneğini kullanarak yenileme sıklığını değiştirebilir ve yenileme sıklığını belirleyebilirsiniz.
+![Yenileme geçmişi](media/refresh-data/refresh-history.png)
 
-Sıklığı ayarlamak için Power BI hizmetinde sağ üst köşede yer alan **dişli** simgesini ve ardından **Ayarlar** seçeneğini belirleyin.
+Yukarıdaki ekran görüntüsünde gösterildiği gibi, Power BI bu OneDrive yenilemesini **Zamanlanmış** yenileme olarak tanımlar. Ancak, yenileme aralığının yapılandırılması mümkün değildir. OneDrive yenilemesini sadece veri kümesinin ayarlarından devre dışı bırakabilirsiniz. Power BI’daki veri kümelerinizin ve raporlarınızın, değişiklikleri kaynak dosyalardan otomatik olarak almasını istemiyorsanız yenilemeyi devre dışı bırakmak faydalı olur.
 
-![](media/refresh-data/refresh-data_2.png)
+Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi OneDrive veya SharePoint Online’daki bir dosyaya bağlıysa, veri kümesi ayarları sayfasında sadece **OneDrive Kimlik Bilgileri** ve **OneDrive yenilemesi** bölümlerinin gösterildiğine dikkat edin. OneDrive veya SharePoint Online’daki bir kaynak dosyasına bağlı olmayan veri kümeleri için bu bölümler gösterilmez.
 
-**Ayarlar** sayfası görüntülenir; bu sayfada sıklığını ayarlamak istediğiniz veri kümesini seçebilirsiniz. Sayfanın üst kısımda yer alan **Veri Kümeleri** sekmesini seçin.
+![OneDrive Kimlik Bilgileri ve OneDrive yenilemesi](media/refresh-data/onedrive-credentials-refresh.png)
 
-![](media/refresh-data/refresh-data_3.png)
+Veri kümesi için OneDrive yenilemesini devre dışı bırakırsanız, veri kümesi menüsünden **Şimdi Yenile**’yi seçerek veri kümenizi isteğe bağlı olarak eşitleyebilirsiniz. Power BI, isteğe bağlı yenileme kapsamında Online veya SharePoint Online’daki kaynak dosyanın Power BI’daki veri kümesinden daha güncel olup olmadığını denetler ve dosya güncelse veri kümesini eşitler. **Yenileme geçmişi**, bu etkinlikleri **OneDrive** sekmesindeki isteğe bağlı yenilemeler olarak listeler.
 
-Veri kümesini seçtikten sonra sağ bölmede ilgili veri kümesine ait bir dizi seçenek görüntülenir. DirectQuery/Canlı bağlantı için, aşağıdaki görüntüde gösterildiği şekilde ilişkili açılan menüyü kullanarak yenileme sıklığını 15 dakika yerine haftalık olarak ayarlayabilirsiniz.
+OneDrive yenilemesinin özgün veri kaynaklarından veri çekmediğini aklınızda bulundurun. OneDrive yenilemesi, aşağıdaki diyagramda gösterildiği gibi meta veriler ve .pbix, .xslx veya .csv dosyasındaki veriler ile Power BI’daki kaynakları güncelleştirir. Power BI, veri kümesinin veri kaynaklarındaki en güncel verilerin alındığından emin olmak için isteğe bağlı yenileme kapsamında bir veri yenileme işlemi tetikler. **Zamanlanmış** sekmesine geçerseniz **Yenileme geçmişi** bölümünden bunu doğrulayabilirsiniz.
 
-![](media/refresh-data/refresh-data_1.png)
+![OneDrive yenilemesi diyagramı](media/refresh-data/onedrive-refresh-diagram.png)
 
-| **Veri kaynağı** | **Canlı/DirectQuery** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Azure SQL Veri Ambarı |Evet |Evet |Hayır |
-| HDInsight'taki Spark Hizmeti |Evet |Evet |Hayır |
+OneDrive veya SharePoint Online’a bağlı bir veri kümesi için OneDrive yenilemesini etkin tutup zamanlamaya göre bir veri yenileme gerçekleştirmek isterseniz, zamanlamayı Power BI veri yenilemesi OneDrive yenilemesinden sonra olacak şekilde yapılandırın. Örneğin, OneDrive veya SharePoint Online’da her akşam 01:00’de kaynak dosyasını güncelleştirmesi için kendi hizmet veya işleminizi oluşturduysanız, Power BI’a veri yenileme işlemini başlatmadan önce OneDrive yenilemesini tamamlaması için yeterli olacak süreyi tanımak üzere zamanlanmış yenilemeyi 02:30’da gerçekleşecek şekilde yapılandırabilirsiniz.
 
-Daha fazla bilgi için bkz. [Azure ve Power BI](service-azure-and-power-bi.md).
+#### <a name="refresh-of-query-caches"></a>Sorgu önbelleklerini yenileme
 
-## <a name="real-time-dashboards"></a>Gerçek zamanlı panolar
-Gerçek zamanlı panolar, verilerin güncel olduğundan emin olmak için Microsoft Power BI REST API'sini veya Microsoft Stream Analytics'i kullanır. Kullanıcıların gerçek zamanlı panolar için yenilemeyi yapılandırması gerekmediğinden gerçek zamanlı panolar, bu makale kapsamında ele alınmamaktadır.
+Veri kümeniz bir Premium kapasitede bulunuyorsa, aşağıdaki ekran görüntüsünde gösterildiği gibi sorgu önbelleğe alma özelliğini etkinleştirerek ilişkili rapor ve panoların performansını geliştirebilirsiniz. Sorgu önbelleğe alma, sorgu sonuçlarını korumak için Premium kapasiteden kendi yerel önbelleğe alma hizmetini kullanmasını ister ve temel alınan veri kaynağının o sonuçları işlemesini önler. Daha fazla bilgi için bkz. [Power BI Premium'da sorgu önbelleğe alma](power-bi-query-caching.md).
 
-| **Veri kaynağı** | **Otomatik** | **Kullanıcı tarafından yapılandırılan el ile veya zamanlanmış yenileme** | **Ağ geçidi gerekli** |
-| --- | --- | --- | --- |
-| Power BI Rest API'si veya Microsoft Stream Analytics ile geliştirilmiş özel uygulamalar |Evet, canlı akış |Hayır |Hayır |
+![Sorgu önbelleğe alma](media/refresh-data/query-caching.png)
+
+Ancak, veri yenilemenin ardından daha önce önbelleğe alınmış sorgu sonuçları geçerliliğini yitirir. Power BI önbelleğe alınan bu sonuçları atar ve bunları yeniden oluşturması gerekir. Bu nedenle, sorgu önbelleğe alma özelliği, (günde 48 kez gibi) sıkça yenilediğiniz veri kümeleri ile ilişkili olan raporlar ve panolar için pek faydalı olmayabilir.
+
+#### <a name="tile-refresh"></a>Kutucuk yenileme
+
+Power BI, panolarınızda yer alan her kutucuk görseli için bir önbellek tutar ve veriler değiştiğinde kutucuk önbelleklerini proaktif bir şekilde güncelleştirir. Diğer bir deyişle kutucuk yenileme, bir veri yenilemesinden sonra otomatik olarak gerçekleşir. Bu, hem zamanlanmış hem de isteğe bağlı gerçekleştirilen yenileme işlemleri için geçerlidir. Ayrıca, bir panonun sağ üst bölümündeki üç nokta (...) simgesini seçerek ve **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
+
+![Pano kutucuklarını yenile](media/refresh-data/refresh-dashboard-tiles.png)
+
+Bu işlem otomatik olarak gerçekleştiği için, kutucuk yenilemeyi veri yenilemenin bir iç parçası olarak düşünebilirsiniz. Ayrıca, yenileme süresinin kutucuk sayısıyla birlikte arttığını görebilirsiniz. Kutucuk yenileme ek yükü önemli olabilir.
+
+Power BI, varsayılan olarak her kutucuk için tek bir önbellek tutar. Ancak, [Power BI ile satır düzeyinde güvenlik (RLS)](service-admin-rls.md) makalesinde anlatıldığı gibi kullanıcı rollerini temel alarak veri erişimini kısıtlamak için dinamik güvenlik kullanırsanız, Power BI’ın her rol ve kutucuk için bir önbellek tutması gerekir. Kutucuk önbelleklerinin sayısı rollerin sayısıyla katlanır.
+
+[Analysis Services tablosal modeli ile dinamik satır düzeyinde güvenlik](desktop-tutorial-row-level-security-onprem-ssas-tabular.md) öğreticisinde vurgulandığı gibi, veri kümeniz RLS ile bir Analysis Services veri modeline canlı bağlantı kullanırsa bu durum daha karmaşık hale gelebilir. Bu durumda, Power BI’ın her kutucuk ve panoyu görüntüleyen her kullanıcı için bir önbellek tutması gerekir. Bu tür veri yenileme işleminin kutucuk yenileme kısmının, verileri kaynağından getirmek için harcadığı süreyi aşması, nadir gerçekleşen bir durum değildir. Kutucuk yenileme hakkında daha fazla ayrıntı için bkz. [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md).
+
+#### <a name="refresh-of-report-visuals"></a>Rapor görsellerini yenileme
+
+Bu yenileme, sadece Analysis Services’e canlı bağlantılarla ilgili olduğu için daha az önem taşır. Power BI, bu bağlantılar için rapor görsellerinin son durumunu önbelleğe alır. Böylece, raporu tekrar görüntülediğinizde Power BI’ın Analysis Services tablosal modelini sorgulaması gerekmez. Power BI, rapor ile bir rapor filtresini değiştirme gibi etkileşimler kurduğunuzda, tablosal modeli sorgular ve rapor görsellerini otomatik olarak güncelleştirir. Bir raporun eski verileri gösterdiğinden şüpheleniyorsanız, aşağıdaki ekran görüntüsünde gösterildiği gibi tüm rapor görsellerinde bir yenileme işlemi yapılmasını tetiklemek için raporun Yenile düğmesini de seçebilirsiniz.
+
+![Rapor görsellerini yenileme](media/refresh-data/refresh-report-visuals.png)
+
+## <a name="review-data-infrastructure-dependencies"></a>Veri altyapısı bağımlılıklarını inceleme
+
+Depolama modu ne olursa olsun, temel alınan veri kaynakları erişilebilir olmadıkça hiçbir veri yenilemesi başarıyla tamamlanamaz. Başlıca üç veri erişimi senaryosu bulunur:
+
+- Şirket içinde bulunan veri kaynaklarını kullanan veri kümesi
+- Buluttaki veri kaynaklarını kullanan veri kümesi
+- Hem şirket içi hem de bulut kaynaklarındaki verileri kullanan veri kümesi
+
+### <a name="connecting-to-on-premises-data-sources"></a>Şirket içi veri kaynaklarına bağlanma
+
+Veri kümeniz, Power BI’ın doğrudan ağ bağlantısı üzerinden erişemediği bir veri kaynağını kullanıyorsa, yenileme zamanlamasını etkinleştirebilmeniz veya isteğe bağlı veri yenilemesi gerçekleştirebilmeniz için bu veri kümesine yönelik bir ağ geçidi bağlantısı yapılandırmanız gerekir. Veri ağ geçitleri ve nasıl çalıştıkları hakkında daha fazla bilgi edinmek için bkz. [Şirket içi veri ağ geçitleri nedir?](service-gateway-getting-started.md)
+
+Aşağıdaki seçenekler mevcuttur:
+
+- Gerekli veri kaynağı tanımı ile bir kurumsal ağ geçidi seçme
+- Kişisel veri ağ geçidi dağıtma
+
+> [!NOTE]
+> Ağ geçidi gerektiren veri kaynaklarının listesini bu makalede bulabilirsiniz: [Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme](service-gateway-enterprise-manage-scheduled-refresh.md).
+
+#### <a name="using-an-enterprise-data-gateway"></a>Kurumsal ağ geçidi kullanma
+
+Microsoft, veri kümesini şirket içi veri kaynağına bağlamak için kişisel ağ geçidinin yerine kurumsal veri ağ geçidinin kullanılmasını önerir. Ağ geçidinin doğru yapılandırıldığından emin olun. Ağ geçidinin en son güncelleştirmelere ve gerekli tüm veri kaynağı tanımlarına sahip olması gerekir. Veri kaynağı tanımı, Power BI’a, belirtilen kaynağa yönelik olarak bağlantı uç noktalarını, kimlik doğrulaması modunu ve kimlik bilgilerini de içeren bağlantı bilgilerini sağlar. Bir ağ geçidinde veri kaynaklarını yönetme hakkında daha fazla bilgi için bkz. [Veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md).
+
+Ağ geçidi yöneticisiyseniz, veri kümesini bir kurumsal ağ geçidine kolayca bağlayabilirsiniz. Yönetici izinleriyle, ağ geçidini hızla güncelleştirip varsa eksik veri kaynaklarını ekleyebilirsiniz. Hatta, eksik bir veri kaynağını doğrudan veri kümesi ayarları sayfasından ağ geçidinize ekleyebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kaynaklarını görüntülemek için iki durumlu düğmeyi genişletip **Ağ geçidine ekle** bağlantısını seçin. Öte yandan, ağ geçidi yöneticisi değilseniz, ağ geçidi yöneticisine istenen veri kaynağı tanımını eklemeye yönelik bir istek göndermek için görüntülenen iletişim bilgilerini kullanın.
+
+![Ağ geçidine ekleme](media/refresh-data/add-to-gateway.png)
+
+> [!NOTE]
+> Veri kümesi sadece bir tane ağ geçidi bağlantısını kullanabilir. Diğer bir deyişle, birden çok ağ geçidi bağlantısı üzerinden şirket içi veri kaynaklarına erişim mümkün değildir. Buna uygun olarak, gerekli tüm veri kaynağı tanımlarını aynı ağ geçidine eklemeniz gerekir.
+
+#### <a name="deploying-a-personal-data-gateway"></a>Kişisel veri ağ geçidini dağıtma
+
+Kurumsal veri ağ geçidine erişiminiz yoksa ve veri kümelerini yöneten tek kişi sizseniz (yani diğerleriyle veri kaynaklarını paylaşmanız gerekmiyorsa), bir veri ağ geçidini kişisel modda dağıtabilirsiniz. **Ağ geçidi bağlantısı** bölümünde, **Yüklü kişisel ağ geçidiniz yok** seçeneğinin altından **Şimdi yükle**’yi belirleyin. [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-personal-mode.md) bölümünde belgelendiği gibi, kişisel veri ağ geçidinin bazı sınırlandırmaları bulunur.
+
+Kurumsal veri ağ geçidinin aksine, kişisel ağ geçidine veri kaynağı tanımları eklemeniz gerekmez. Bunun yerine, aşağıdaki ekran görüntüsünde gösterildiği gibi veri kaynağı yapılandırmasını, veri kümesi ayarlarındaki **Veri kaynağı kimlik bilgileri** bölümünü kullanarak yönetirsiniz.
+
+![Ağ geçidi için veri kaynağı kimlik bilgilerini yapılandırma](media/refresh-data/configure-data-source-credentials-gateway.png)
+
+> [!NOTE]
+> Kişisel veri ağ geçidi DirectQuery/LiveConnect modundaki veri kümelerini desteklemez. Veri kümesi ayarları sayfası bunu yüklemenizi isteyebilir, ancak kişisel ağ geçidiniz varsa ağ geçidi bağlantısını yapılandıramazsınız. Bu tür veri kümelerini destekleyecek bir kurumsal veri ağ geçidiniz bulunduğundan emin olun.
+
+### <a name="accessing-cloud-data-sources"></a>Bulut veri kaynaklarına erişim
+
+Power BI ve kaynak arasında doğrudan ağ bağlantısı oluşturulabilirse, Azure SQL DB gibi bulut veri kaynaklarını kullanan veri kümeleri bir veri ağ geçidine gerek duymaz. Buna uygun olarak, veri kümesi ayarlarındaki **Veri kaynağı kimlik bilgileri** bölümünü kullanarak bu veri kaynaklarının yapılandırmasını yönetebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, ağ geçidi bağlantısı yapılandırmanız gerekmez.
+
+![Ağ geçidi olmadan veri kaynağı kimlik bilgilerini yapılandırma](media/refresh-data/configure-data-source-credentials.png)
+
+### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Şirket içi kaynaklara ve bulut kaynaklarına aynı kaynak sorgusunda erişme
+
+Veri kümesi, birden çok kaynaktan veri alabilir ve bu kaynaklar şirket içinde veya bulutta yer alabilir. Ancak, önceki bölümlerde belirtildiği gibi, bir veri kümesi sadece tek bir ağ geçidi bağlantısını kullanabilir. Bulut veri kaynakları, ağ geçidi gerektirmese de veri kümesi hem şirket içi hem de bulut kaynaklarına tek bir karma sorguda bağlanırsa ağ geçidi gerekir. Bu senaryoda, Power BI’ın bulut veri kaynakları için de bir ağ geçidi kullanması gerekir. Aşağıdaki diyagram, bu türden bir veri kümesinin veri kaynaklarına nasıl eriştiğini gösterir.
+
+![Bulut ve şirket içi veri kaynakları](media/refresh-data/cloud-on-premises-data-sources-diagram.png)
+
+> [!NOTE]
+> Veri kümesi, şirket içi ve bulut kaynaklarına bağlanmak için ayrı karma sorguları kullanırsa, Power BI şirket içi kaynaklara erişmek için bir ağ geçidi bağlantısını ve bulut kaynaklarına bağlanmak için de bir doğrudan ağ bağlantısını kullanır. Karma sorgu şirket içi ve bulut kaynaklarındaki verileri birleştirirse veya eklerse, Power BI bulut kaynakları için de ağ geçidi bağlantısına geçer.
+
+Power BI veri kümeleri, kaynak verilere erişmek ve bunları almak için Power Query’yi kullanır. Aşağıdaki karma listelemesi, şirket içi kaynağındaki ve bulut kaynağındaki verileri birleştiren sorgunun basit bir örneğini gösterir.
+
+```
+Let
+
+    OnPremSource = Sql.Database("on-premises-db", "AdventureWorks"),
+
+    CloudSource = Sql.Databases("cloudsql.database.windows.net", "AdventureWorks"),
+
+    TableData1 = OnPremSource{[Schema="Sales",Item="Customer"]}[Data],
+
+    TableData2 = CloudSource {[Schema="Sales",Item="Customer"]}[Data],
+
+    MergedData = Table.NestedJoin(TableData1, {"BusinessEntityID"}, TableData2, {"BusinessEntityID"}, "MergedData", JoinKind.Inner)
+
+in
+
+    MergedData
+```
+
+Ağ geçidini, şirket içi ve bulut kaynaklarındaki verileri birleştirmeyi veya eklemeyi destekleyecek şekilde yapılandırmak için iki seçeneğiniz bulunur:
+
+- Şirket içi veri kaynaklarına ek olarak bulut kaynağı için veri kaynağı tanımını ağ geçidine ekleyin.
+- **Kullanıcının bulut veri kaynaklarına, bu ağ geçidi kümesi aracılığıyla yenileme yapma izni ver** onay kutusunu işaretleyin.
+
+![Ağ geçidi kümesi aracılığıyla yenileme](media/refresh-data/refresh-gateway-cluster.png)
+
+Yukarıdaki ekran görüntüsünde olduğu gibi, **Kullanıcının bulut veri kaynaklarına, bu ağ geçidi kümesi aracılığıyla yenileme yapma izni ver** onay kutusunu etkinleştirirseniz, Power BI, veri kümesi ayarlarında kullanıcının **Veri kaynağı kimlik bilgileri** bölümünün altında bulut kaynağı için tanımladığı yapılandırmayı kullanabilir. Bu, ağ geçidi yapılandırmasının ek yükünü azaltmaya yardımcı olabilir. Öte yandan, ağ geçidinizin oluşturduğu bağlantılar üzerinde daha fazla denetime sahip olmak istiyorsanız bu onay kutusunu etkinleştirmemeniz gerekir. Bu durumda, desteklemek istediğiniz her bulut kaynağına yönelik açık bir veri kaynağı tanımını ağ geçidinize eklemeniz gerekir. Onay kutusunu etkinleştirip bulut kaynağınız için açık veri kaynağı tanımlarını bir ağ geçidine eklemeniz de mümkündür. Bu durumda, ağ geçidi eşleşen tüm kaynaklar için veri kaynağı tanımlarını kullanır.
+
+### <a name="configuring-query-parameters"></a>Sorgu parametrelerini yapılandırma
+
+Power Query kullanarak oluşturduğunuz karma sorgular veya M sorguları, basit adımlardan parametreli yapılara kadar karmaşıklık yönünden farklılık gösterebilir. Yukarıdaki listeleme, AdventureWorks veritabanında bulunan belirli bir tabloya erişmek için _SchemaName_ ve _TableName_ adlı iki parametre kullanan küçük bir örnek karma sorguyu gösterir.
+
+```
+let
+
+    Source = Sql.Database("SqlServer01", "AdventureWorks"),
+
+    TableData = Source{[Schema=SchemaName,Item=TableName]}[Data]
+
+in
+
+    TableData
+```
+
+> [!NOTE]
+> Sorgu parametreleri sadece İçeri aktarma modundaki veri kümeleri için desteklenir. DirectQuery/LiveConnect modu, sorgu parametresi tanımlarını desteklemez.
+
+Parametreli veri kümesinin doğru veriye eriştiğinden emin olmak için, veri kümesi ayarlarında karma sorgu parametrelerini yapılandırmanız gerekir. [Power BI REST API](/rest/api/power-bi/datasets/updateparametersingroup)’sini kullanarak parametreleri programlama yoluyla da güncelleştirebilirsiniz. Aşağıdaki ekran görüntüsü, yukarıdaki karma sorguyu kullanan veri kümesi için sorgu parametrelerini yapılandırmayı sağlayan kullanıcı arabirimini gösterir.
+
+![Sorgu parametrelerini yapılandırma](media/refresh-data/configure-query-parameters.png)
+
+> [!NOTE]
+> Power BI, dinamik veri kaynakları olarak da bilinen parametreli veri kaynağı tanımlarını şu anda desteklemez. Örneğin, Sql.Database("SqlServer01", "AdventureWorks") veri erişimi işlevini parametreli hale getiremezsiniz. Veri kümeniz dinamik veri kaynaklarını kullanıyorsa, Power BI bilinmeyen veya desteklenmeyen veri kaynakları algıladığını bildirir. Power BI’ın veri kaynaklarını tanımlayıp bunlara bağlanabilmesini istiyorsanız, veri erişimi işlevlerinizdeki parametreleri statik değerlerle değiştirmeniz gerekir. Daha fazla bilgi çin bkz. [Yenileme için desteklenmeyen veri kaynağıyla ilgili sorunları giderme](service-admin-troubleshoot-unsupported-data-source-for-refresh.md).
 
 ## <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
-Zamanlanmış yenileme yapılandırma konusunda bilgi edinmek için bkz. [Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md)
 
-## <a name="common-data-refresh-scenarios"></a>Yaygın veri yenileme senaryoları
-Bazen Power BI’da veri yenileme ile ilgili bilgi edinmenin en iyi yolu örnekleri incelemektir. Yaygın olarak karşılaşılan veri yenileme senaryolarından bazıları şu şekildedir:
+Power BI ve veri kaynaklarınız arasındaki bağlantıyı oluşturma, bir veri yenilemesini yapılandırırken karşılaşılan açık ara en zorlu görevdir. Geri kalan adımlar oldukça basittir ve yenileme zamanlamasını ayarlamayı ve yenileme hatası bildirimlerini etkinleştirmeyi içerir. Adım adım yönergeler için [Zamanlanmış yenilemeyi yapılandırma](refresh-scheduled-refresh.md) nasıl yapılır kılavuzuna göz atın.
 
-### <a name="excel-workbook-with-tables-of-data"></a>Veri tabloları içeren Excel çalışma kitabı
-Birden fazla veri tablosu içeren bir Excel çalışma kitabınız var ancak bunların hiçbiri Excel veri modeline yüklü değil. Veri Al işlevini kullanarak çalışma kitabını yerel sürücünüzden Power BI'a yükleyip bir pano oluşturuyorsunuz. Daha sonra yerel sürücünüzdeki çalışma kitabı tablolarının bazıları üzerinde değişiklik yapıyorsunuz ve Power BI'daki panonuzu yeni veriler ile güncelleştirmek istiyorsunuz.
+### <a name="setting-a-refresh-schedule"></a>Yenileme zamanlamasını ayarlama
 
-Ne yazık ki bu senaryoda yenileme desteklenmez. Panonuzdaki veri kümesini yenilemek için çalışma kitabını yeniden yüklemeniz gerekecektir. Öte yandan, gerçekten harika bir çözüm vardır: Çalışma kitabı dosyanızı OneDrive'a veya SharePoint Online'a koyun!
+**Zamanlanmış yenileme** bölümünde, veri kümesini yenileme sıklığını ve zaman aralıklarını tanımlayabilirsiniz. Önceden de belirtildiği gibi, veri kümeniz paylaşılan kapasitedeyse sekize, Power BI Premium’da ise 48’e kadar yenileme sıklığı yapılandırabilirsiniz. Aşağıdaki ekran görüntüsü, on iki saatlik bir zaman aralığında gerçekleştirilen yenileme zamanlamasını gösterir.
 
-OneDrive veya SharePoint Online'daki bir dosyaya bağlandığınızda raporlarınız ve panolarınız, verileri dosyadaki şekilde gösterir. Bu durumda, Excel çalışma kitabınızda olduğu şekilde gösterir. Power BI otomatik olarak bir saatlik aralıklarla dosyayı denetler. Çalışma kitabında (OneDrive veya SharePoint Online'daki) değişiklik yaparsanız bu değişiklikler bir saat içinde panonuzda ve raporlarınızda yansıtılır. Hiçbir yenileme ayarlamanız gerekmez. Ancak, güncelleştirmelerinizi Power BI'da hemen görmeniz gerekiyorsa Şimdi Yenile işlevini kullanarak veri kümesini el ile yenileyebilirsiniz.
+![Zamanlanmış yenileme yapılandırma](media/refresh-data/configure-scheduled-refresh.png)
 
-Daha fazla bilgi için bkz. [Power BI'daki Excel verileri](service-excel-workbook-files.md) veya [OneDrive'daki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme](refresh-excel-file-onedrive.md).
+Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan Şimdi Yenile seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
 
-### <a name="excel-workbook-connects-to-a-sql-database-in-your-company"></a>Excel çalışma kitabı, şirketinizdeki bir SQL veritabanına bağlanır
-Yerel bilgisayarınızda SalesReport.xlsx adlı bir Excel çalışma kitabı olduğunu varsayalım. Şirketinizdeki bir SQL veritabanına bağlanmak ve veri modeline yüklenen satış verileri için sorgulama yapmak üzere Excel'de Power Query kullanıldı. Her sabah, çalışma kitabını açıp PivotTable'larınızı güncelleştirmek için Yenile'ye tıklıyorsunuz.
-
-Satış verilerinizi Power BI'da görmek istediğiniz için yerel sürücünüzden SalesReport.xlsx çalışma kitabına bağlanmak ve bu çalışma kitabını yüklemek üzere Veri Al işlevini kullanıyorsunuz.
-
-Bu durumda, SalesReport.xlsx veri kümesindeki verileri el ile yenileyebilir veya bir yenileme zamanlaması ayarlayabilirsiniz. Veriler aslında şirketinizdeki SQL veritabanından geldiğinden, bir ağ geçidi indirip yüklemeniz gerekir. Ağ geçidini yükleyip yapılandırdıktan sonra SalesReport veri kümesinin ayarlarına gidip veri kaynağında oturum açmanız gerekecektir ancak bunu yalnızca bir kez yapmanız yeterlidir. Ardından, bir yenileme zamanlaması ayarlayarak Power BI hizmetinin otomatik olarak SQL veritabanına bağlanmasını ve güncelleştirilen verileri almasını sağlayabilirsiniz. Raporlarınız ve panolarınız da otomatik olarak güncelleştirilir.
+Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan işlemi yapmaya başladığı kesin zaman olmayabileceğini unutmayın. Power BI, zamanlanmış yenilemelere en iyi çaba ilkesine göre başlar. Hedef, yenilemeyi zamanlanan zaman aralığının 15 dakika içerisinde başlatmaktır. Ancak, hizmet gerekli kaynakları daha erken ayıramazsa, bir saati bulabilen gecikmeler ortaya çıkabilir.
 
 > [!NOTE]
-> Bu, yalnızca Power BI hizmetindeki veri kümesinde yer alan verileri güncelleştirir. Yerel dosya, yenilemenin bir parçası olarak güncelleştirilmez.
-> 
-> 
+> Power BI, dört kez art arda hata oluşursa veya hizmet tarafından, geçersiz ya da süresi dolmuş kimlik bilgileri gibi yapılandırma güncelleştirmesi gerektiren kurtarılamaz bir hata algılanırsa, yenileme zamanlamanızı devre dışı bırakır. Art arda oluşabilecek hata eşiğini değiştirmek mümkün değildir.
 
-Daha fazla bilgi için bkz. [Power BI'daki Excel verileri](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [Şirket içi veri ağ geçidi](service-gateway-onprem.md), [Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)](refresh-excel-file-local-drive.md).
+### <a name="getting-refresh-failure-notifications"></a>Yenileme hatası bildirimlerini alma
 
-### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Bir OData akışından alınan veriler ile Power BI Desktop dosyası
-Bu durumda, bir OData akışına bağlanmak ve bu akıştan sayım verilerini içeri aktarmak üzere Power BI Desktop'ta Veri Al işlevini kullanırsınız.  Power BI Desktop'ta birden fazla rapor oluşturur, ardından dosyayı WACensus olarak adlandırır ve şirketinizde ortak bir konuma kaydedersiniz. Daha sonra dosyayı Power BI hizmetine yayımlarsınız.
+Power BI varsayılan olarak, yenileme hatalarının oluşması durumunda zamanında müdahale edilebilmesi için veri kümesi sahibine e-posta aracılığıyla yenileme hatası bildirimleri gönderir. Hizmet, art arda hatalar oluşması nedeniyle hizmet zamanlamanızı devre dışı bıraktığında da Power BI size bir bildirim gönderir. Microsoft, **Yenileme hatası bildirim e-postalarını bana gönder** onay kutusunu etkin bırakmanızı önerir.
 
-Bu durumda, WACensus veri kümesindeki verileri kendiniz yenileyebilir veya bir yenileme zamanlaması ayarlayabilirsiniz. Veri kaynağındaki veriler bir OData akışından çevrimiçi alındığından bir ağ geçidi yüklemeniz gerekmez ancak WACensus veri kümesinin ayarlarına gidip OData veri kaynağında oturum açmanız gerekecektir. Ardından bir yenileme zamanlaması ayarlayarak Power BI hizmetinin otomatik olarak OData akışına bağlanmasını ve güncelleştirilen verileri almasını sağlayabilirsiniz. Raporlarınız ve panolarınız da otomatik olarak güncelleştirilir.
+Power BI, yalnızca yenileme hataları oluştuğunda değil aynı zamanda hizmet, zamanlanmış bir yenileme esnasında eylemsizlik nedeniyle durakladığında da bildirim gönderir. İki ay boyunca, bir veri kümesinde oluşturulan panoyu veya raporu hiçbir kullanıcı ziyaret etmezse, Power BI o veri kümesinin etkin olmadığını varsayar. Bu durumda Power BI, veri kümesinin sahibine hizmetin veri kümesi için yenileme zamanlamasını devre dışı bıraktığını bildiren bir e-posta iletisi gönderir. Bu tür bildirimlerin bir örneği için aşağıdaki ekran görüntüsüne bakın.
 
-Daha fazla bilgi için bkz. [Power BI Desktop'tan yayımlama](desktop-upload-desktop-files.md), [Refresh a dataset created from a Power BI Desktop file on a local drive (Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme)](refresh-desktop-file-local-drive.md), [OneDrive'daki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme](refresh-desktop-file-onedrive.md).
+![Duraklatılan yenileme için e-posta](media/refresh-data/email-paused-refresh.png)
 
-### <a name="shared-content-pack-from-another-user-in-your-organization"></a>Kuruluşunuzdaki başka bir kullanıcıdan paylaşılan içerik paketi
-Kurumsal bir içerik paketine bağlandınız. Bir pano, çeşitli raporlar ve bir veri kümesi içeriyor.
+Zamanlanmış yenilemeye devam etmek için,bu veri kümesi kullanılarak oluşturulan bir raporu veya panoyu ziyaret edin ya da **Şimdi Yenile** seçeneğini kullanarak veri kümesini kendiniz yenileyin.
 
-Bu senaryoda, veri kümesi için yenileme ayarlayamazsınız. İçerik paketini oluşturan veri analisti, kullanılan veri kaynaklarına bağlı olarak veri kümesinin yenilenmesini sağlamaktan sorumludur.
+### <a name="checking-refresh-status-and-history"></a>Yenileme durumunu ve geçmişini denetleme
 
-İçerik paketinden aldığınız panolarınız ve raporlarınız güncelleştirilmiyorsa içerik paketini oluşturan veri analisti ile görüşmeniz gerekecektir.
+Veri kümelerinizi, hata bildirimlerinin yanı sıra yenileme hataları için de düzenli aralıklarla denetlemek iyi bir fikirdir. Bunu yapmanın hızlı yollarından biri, çalışma alanında bulunan veri kümelerinin listesini görüntülemektir. Hataların küçük bir uyarı simgesiyle gösterildiği veri kümeleri. Aşağıdaki ekran görüntüsünde gösterildiği gibi, ek bilgi edinmek için uyarı simgesini seçin. Belirli yenileme hatalarıyla ilgili daha fazla bilgi almak için bkz. [Yenileme senaryolarıyla ilgili sorunları giderme](refresh-troubleshooting-refresh-scenarios.md).
 
-Daha fazla bilgi için bkz. [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md), [Kurumsal içerik paketleri ile çalışma](service-organizational-content-pack-copy-refresh-access.md).
+![Yenileme durumu uyarısı](media/refresh-data/refresh-status-warning.png)
 
-### <a name="content-pack-from-an-online-service-provider-like-salesforce"></a>Salesforce gibi bir çevrimiçi hizmet sağlayıcısından içerik paketi
-Power BI'da Salesforce gibi bir çevrimiçi hizmet sağlayıcısına bağlanmak ve bu sağlayıcıdan verilerinizi içeri aktarmak üzere Veri Al işlevini kullandınız. Bu durumda yapılacak pek bir işlem yoktur. Salesforce veri kümeniz otomatik olarak günde bir kez yenilenmek üzere zamanlanır. 
+Uyarı simgesi, mevcut veri kümesi sorunlarının belirtilmesine yardımcı olur. Ancak, yenileme geçmişini arada bir denetlemek de iyi bir fikirdir. Adından da anlaşılacağı gibi yenileme geçmişi, geçmişteki eşitleme döngülerinin başarılı veya başarısız olma durumlarını incelemenize olanak tanır. Örneğin, ağ geçidi yöneticisi, süresi dolmuş bir dizi veritabanı kimlik bilgisini güncelleştirmiş olabilir. Aşağıdaki ekran görüntüsünde görüldüğü gibi yenileme geçmişi, etkilenen yenileme işleminin ne zaman tekrar çalışmaya başlamadığını gösteriyor.
 
-Birçok çevrimiçi hizmet sağlayıcısı gibi Salesforce da genellikle geceleri olmak üzere verileri günde bir kez güncelleştirir. Salesforce veri kümenizi el ile yenileyebilir veya bir yenileme zamanlaması ayarlayabilirsiniz. Ancak, Power BI, veri kümesini otomatik olarak yenileyeceğinden raporlarınız ve panolarınız da güncelleştirilecektir.
+![Yenileme geçmiş iletileri](media/refresh-data/refresh-history-messages.png)
 
-Daha fazla bilgi için bkz. [Power BI için Salesforce içerik paketi](service-connect-to-salesforce.md).
+> [!NOTE]
+> Yenileme geçmişini görüntülemenizi sağlayan bağlantıyı veri kümesi ayarlarında bulabilirsiniz. Yenileme geçmişini, [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup)’sini kullanarak programlama yoluyla da alabilirsiniz. Özel bir çözüm kullanarak, birden fazla veri kümesinin yenileme geçmişini daha merkezi bir şekilde izleyebilirsiniz.
 
-## <a name="troubleshooting"></a>Sorun giderme
-Bir şeyler ters gittiğinde, sorun genellikle Power BI'ın veri kaynaklarında oturum açamamasından veya veri kümesinin bir şirket içi veri kaynağına bağlanması ve ağ geçidinin çevrimdışı olmasından kaynaklanır. Power BI'ın veri kaynaklarında oturum açabildiğinden emin olun. Bir veri kaynağında oturum açmak için kullandığınız parola değişirse veya Power BI'ın bir veri kaynağındaki oturumu kapanırsa Veri Kaynağı Kimlik Bilgilerini kullanarak veri kaynaklarınızda yeniden oturum açmayı deneyin.
+## <a name="best-practices"></a>En iyi yöntemler
 
-Sorun giderme hakkında daha fazla bilgi için bkz. [Yenileme ile ilgili sorun giderme araçları](service-gateway-onprem-tshoot.md) ve [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md).
+Veri kümelerinizin yenileme geçmişini düzenli olarak denetleme, raporlarınızın ve panolarınızın mevcut verileri kullandığından emin olmak için benimseyebileceğiniz en önemli en iyi deneyimlerden biridir. Sorun bulursanız, bunları en kısa sürede çözün ve gerekirse veri kaynağı sahipleri ve ağ geçidi yöneticileriyle iletişim kurun.
+
+Buna ek olarak, veri kümeleriniz için güvenilir veri yenileme işlemleri oluşturmaya ve bunları korumaya yönelik aşağıdaki önerileri göz önünde bulundurun:
+
+- Özellikle, veri kümeleriniz Power BI Premium’da bulunuyorsa, yenilemelerinizi yoğunluğun daha az olduğu saatler için zamanlayın. Veri kümeleriniz için yenileme döngülerini daha geniş bir zaman penceresine dağıtırsanız, kullanılabilir kaynaklara aşırı derecede yüklenen yoğunlukların oluşmasını engellemeye yardımcı olabilirsiniz. Yenileme döngüsünün geç başlatılması, kaynağın aşırı yüklendiğinin bir göstergesidir. Bir Premium kapasite tamamen tükendiyse, Power BI bir yenileme döngüsünü atlayabilir.
+- Yenileme sınırlarını göz önünde bulundurun. Kaynak verisi sıkça değişiyorsa veya veri hacmi önemli ölçüdeyse, kaynaktaki artan yük ve sorgu performansındaki etkisi kabul edilebilir düzeyde olduğu sürece, İçeri aktarma modunun yerine DirectQuery/LiveConnect modunu kullanmayı düşünebilirsiniz. İçeri aktarma modundaki bir veri kümesini sürekli yenilemekten kaçının. Ancak DirectQuery/LiveConnect modunun, geri döndürülen veriler için bir milyon satır sınırı ve çalışan sorgular için 225 saniyelik yanıt süresi sınırı gibi, [Power BI Desktop'ta DirectQuery'yi kullanma](desktop-use-directquery.md) bölümünde belgelenen bazı sınırlamaları bulunur. Bu sınırlamalar yine de İçeri aktarma modunu kullanmanızı gerektirebilir. Çok büyük veri hacimleri için [Power BI’da toplamaları](desktop-aggregations.md) kullanmayı düşünebilirsiniz.
+- Veri kümesi yenileme sürenizin en fazla yenileme süresini aşmadığından emin olun. Yenileme süresini denetlemek için Power BI Desktop’ı kullanın. 2 saatten daha uzun sürüyorsa, veri kümenizi Power BI Premium’a geçirmeyi düşünebilirsiniz. Paylaşılan kapasitede veri kümeniz yenilenemez olabilir. 1 GB’tan büyük veya yenilenmesi birkaç saat süren veri kümeleri için [Power BI Premium’da artımlı yenilemeyi](service-premium-incremental-refresh.md) kullanmayı da düşünebilirsiniz.
+- Veri kümelerinizi, raporlarınızın ve panolarınızın kullandığı tabloları ve sütunları içerecek şekilde iyileştirin. Karma sorgularınızı iyileştirin ve eğer mümkünse dinamik veri kaynağı tanımlarını ve yüksek maliyetli DAX hesaplamalarını kullanmaktan kaçının. Yüksek bellek kullanımına ve işlem ek yüküne sahip oldukları için özellikle bir tablodaki her satırı test eden DAX işlevlerinden kaçının.
+- Power BI’ın verimli kaynak sorguları oluşturabilmesi için Power BI Desktop ile aynı gizlilik ayarlarını uygulayın. Power BI Desktop’ın gizlilik ayarlarını yayımlamadığını göz önünde bulundurun. Veri kümenizi yayımladıktan sonra, ayarları veri kaynağı tanımlarında kendiniz yeniden uygulamanız gerekir.
+- Özellikle [satır düzeyinde güvenlik (RLS)](service-admin-rls.md) kullanıyorsanız, panolarınızda kullandığınız görsellerin sayısını sınırlayın. Bu makalenin önceki bölümlerinde açıklandığı gibi, aşırı sayıda pano kutucuğu, yenileme süresini önemli ölçüde artırabilir.
+- Veri kümelerinizi şirket içi veri kaynaklarına bağlamak için güvenilir bir kurumsal veri ağ geçidi dağıtımı kullanın. Ağ geçidinin kullanılamıyor veya aşırı yüklenmiş olması gibi ağ geçidiyle ilgili hataların oluştuğunu fark ederseniz, mevcut kümeye ek ağ geçitleri eklemek veya yeni bir küme dağıtmak (ölçeği artırmak veya ölçeği genişletmek) için ağ geçidi yöneticileriyle iletişim kurun.
+- Zamanlanmış yenilemeler esnasındaki veri içeri aktarma işlemlerinin, DirectQuery/LiveConnect veri kümelerinde bulunan ve her kullanıcı etkileşiminde veri kaynaklarını sorgulayan raporların ve panoların performansını etkilememesi için, İçeri aktarılan veri kümeleri ve DirectQuery/LiveConnect veri kümeleri için ayrı veri ağ geçitleri kullanın.
+- Power BI’ın, yenileme hatası bildirimlerini e-posta olarak size gönderebildiğinden emin olun. İstenmeyen posta filtreleri e-posta iletilerini engelleyebilir veya iletileri kolayca fark edemeyeceğiniz ayrı klasörlere taşıyabilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md)  
 [Yenileme ile ilgili sorun giderme araçları](service-gateway-onprem-tshoot.md)  
 [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-

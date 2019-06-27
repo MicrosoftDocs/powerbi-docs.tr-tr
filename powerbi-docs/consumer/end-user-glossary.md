@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412909"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751011"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -142,7 +142,7 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 ## <a name="h"></a>H
 **high-density visuals (yüksek yoğunluklu görseller)** Power BI'ın işleyebileceğinden daha fazla veri noktası içeren görseller. Power BI şekli ve aykırı değerleri göstermek için verilerden örnekleme yapar.
 
-**Giriş** varsayılan yaş Power BI hizmeti kullanıcıları için giriş. Her şeyi değiştirmez. Power BI, giriş ya da yalnızca giriş çağrılabilir.
+**Giriş** Power BI hizmetinin kullanıcıları için varsayılan giriş sayfası. Her şeyi değiştirmez. Power BI Giriş veya yalnızca Giriş olarak adlandırılabilir.
 
 ## <a name="i"></a>I
 

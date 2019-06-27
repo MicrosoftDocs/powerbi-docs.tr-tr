@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174994"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809264"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -50,11 +50,11 @@ Kerberos kullanarak SAP HANA için SSO’yu ayarlama hakkında daha fazla bilgi 
 
 Kerberos kısıtlanmış temsilinin düzgün bir şekilde çalışması için, hizmet hesaplarındaki *Hizmet Asıl Adlarının* (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğeleri yapılandırmanız gerekir.
 
-### <a name="prerequisite-1-install-and-configure-the-microsoft-on-premises-data-gateway"></a>1. Önkoşul: Microsoft şirket içi veri ağ geçidini yükleme ve yapılandırma
+### <a name="prerequisite-1-install-and-configure-the-microsoft-on-premises-data-gateway"></a>1\. Önkoşul: Microsoft şirket içi veri ağ geçidini yükleme ve yapılandırma
 
 Şirket içi veri ağ geçidinin bu sürümü, mevcut ağ geçitlerinin ayarlarını devralma özelliğinin yanı sıra yerinde yükseltmeyi destekler.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>2. Önkoşul: Ağ geçidi Windows hizmetini bir etki alanı hesabı olarak çalıştırma
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>2\. Önkoşul: Ağ geçidi Windows hizmetini bir etki alanı hesabı olarak çalıştırma
 
 Standart bir yüklemede, ağ geçidi bir makine yerel hizmet hesabı (özel olarak belirtmek gerekirse, *NT Service\PBIEgwService*) olarak çalıştırılır.
 
@@ -65,7 +65,7 @@ Azure Active Directory (Azure AD) örneğiniz (Azure AD DirSync/Connect kullanı
 > [!NOTE]
 > Azure AD Connect yapılandırıldıysa ve kullanıcı hesapları eşitlendiyse, ağ geçidi hizmetinin çalışma zamanında yerel Azure AD aramaları yapması gerekmez. Ağ geçidi hizmeti için yerel hizmet SID'sini kullanabilirsiniz (etki alanı hesabı gerektirmek yerine). Bu belgede açıklanan Kerberos kısıtlanmış temsili yapılandırmasına ilişkin adımlar, söz konusu yapılandırmaya yönelik olanlarla aynıdır. Bunlar, etki alanı hesabının yerine Azure AD’deki ağ geçidinin bilgisayar nesnesine uygulanır.
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>3. Önkoşul: SPN'leri (SetSPN) ve Kerberos kısıtlanmış temsili ayarlarını yapılandırmak için etki alanı yöneticisi haklarını alma
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>3\. Önkoşul: SPN'leri (SetSPN) ve Kerberos kısıtlanmış temsili ayarlarını yapılandırmak için etki alanı yöneticisi haklarını alma
 
 Bir etki alanı yöneticisinin SPN'leri ve Kerberos temsili ayarlarını yapılandırma haklarını (etki alanı yöneticisi hakları gerektirmeden) geçici veya kalıcı olarak başka bir kişiye vermesi önerilmez. Aşağıdaki bölümde, önerilen yapılandırma adımlarını daha ayrıntılı bir biçimde inceleyeceğiz.
 
@@ -195,9 +195,7 @@ Bu kılavuz mümkün olduğunca kapsamlı olmaya çalışır. Bu adımlardan baz
 ### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>İstemci makinelerinde ve SAP BW sunucusunda gsskrb5 kurulumu
 
 > [!NOTE]
-> `gsskrb5` artık SAP tarafından etkin olarak desteklenmiyor. Daha fazla bilgi için bkz. [SAP Notu 352295](https://launchpad.support.sap.com/#/notes/352295). `gsskrb5`'in veri ağ geçidinden SAP BW İleti Sunucularına yönelik SSO bağlantılarına izin vermediğine de dikkat edin. Yalnızca SAP BW Application Server’larla bağlantı kurulabilir.
-
-Ağ geçidi üzerinden bir SSO bağlantısını tamamlamak için `gsskrb5`, hem istemci hem de sunucu tarafından kullanımda olmalıdır. Ortak Şifreleme Kitaplığı (sapcrypto) şu anda desteklenmemektedir.
+> `gsskrb5` artık SAP tarafından etkin olarak desteklenmiyor. Daha fazla bilgi için bkz. [SAP Notu 352295](https://launchpad.support.sap.com/#/notes/352295). `gsskrb5`'in veri ağ geçidinden SAP BW İleti Sunucularına yönelik SSO bağlantılarına izin vermediğine de dikkat edin. Yalnızca SAP BW Application Server’larla bağlantı kurulabilir. Ağ geçidi üzerinden bir SSO bağlantısını tamamlamak için `gsskrb5`, hem istemci hem de sunucu tarafından kullanımda olmalıdır. Artık SAP BW için Ortak Şifreleme Kitaplığı'nı (sapcrypto) destekliyoruz.
 
 1. `gsskrb5` - `gx64krb5`’i [SAP Note 2115486](https://launchpad.support.sap.com/) sayfasından indirin (SAP s-user gerekir). gsskrb5.dll ve gx64krb5.dll dosyalarının en az 1.0.11.x sürümüne sahip olduğunuzdan emin olun.
 
@@ -398,7 +396,7 @@ Sonuç olarak, ağ geçidi kaynak kullanıcının kimliğine düzgün bir şekil
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
+* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)

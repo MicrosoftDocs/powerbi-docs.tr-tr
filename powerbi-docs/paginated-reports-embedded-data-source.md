@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynakları (Önizleme)
+title: Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynakları
 description: Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağı oluşturma ve değiştirme işlemini öğreneceksiniz.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853398"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838927"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma (Önizleme)
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
 Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağı oluşturma ve değiştirme işlemini öğreneceksiniz. Tümleşik bir veri kaynağını tek bir raporda tanımlayabilir ve yalnızca o raporda kullanabilirsiniz. Şu anda, Power BI hizmetinde yayımlanan sayfalandırılmış raporlar için tümleşik veri kümeleri ve tümleşik veri kaynakları gereklidir ve şu veri kaynaklarına bağlanılabilir:
 
@@ -26,12 +26,14 @@ Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleş
 - Oracle 
 - Teradata 
 
-Bu veri kaynakları için kullanmak [SQL Server Analysis Services bağlantı](service-premium-connect-tools.md) seçeneği:
+Aşağıdaki veri kaynakları için [SQL Server Analysis Services bağlantısı](service-premium-connect-tools.md) seçeneğini kullanın:
 
 - Azure Analysis Services
 - Power BI Premium veri kümeleri
 
-Sayfalandırılmış raporlar, bir ağ geçidi üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz. [Power BI ağ geçitleri](service-gateway-getting-started.md) hakkında daha fazla bilgi edinin. 
+Sayfalandırılmış raporlar, [Power BI ağ geçidi](service-gateway-getting-started.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
+
+Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Verileri](report-builder-data.md).
 
 ## <a name="create-an-embedded-data-source"></a>Eklenmiş veri kaynağı oluşturma
   
@@ -53,7 +55,7 @@ Sayfalandırılmış raporlar, bir ağ geçidi üzerinden şirket içi veri kayn
   
     -   Bağlantı dizesini değerlendiren bir ifade oluşturmak için ifade (**fx)** düğmesini seçin. **İfade** iletişim kutusunda, ifadeyi İfade bölmesine girin. **Tamam**'ı seçin. 
   
-    -   2. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
+    -   2\. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
   
         **Bağlantı Özellikleri** iletişim kutusundaki alanları veri kaynağı türüne uygun şekilde doldurun. Bağlantı özellikleri; veri kaynağı türünü, veri kaynağının adını ve kullanılacak kimlik bilgilerini içerir. Bu iletişim kutusunda değerleri belirttikten sonra, veri kaynağının kullanılabilir olduğunu doğrulamak ve belirttiğiniz kimlik bilgilerinin doğruluğunu onaylamak için **Bağlantıyı Sına**’yı seçin.  
   
@@ -68,4 +70,4 @@ Sayfalandırılmış raporlar, bir ağ geçidi üzerinden şirket içi veri kayn
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium’da sayfalandırılmış raporlar nelerdir? (Önizleme)](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)

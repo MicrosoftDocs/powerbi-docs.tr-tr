@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354281"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823414"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -215,7 +215,7 @@ Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlaman�
 
 7. CustomData özelliğini uygulamanızda kullanmak için Power BI API’lerinden yararlanın.  CustomData özelliğiyle bir belirteç oluştururken kullanıcı adını bilmeniz gerekir. Kullanıcı adı, ana kullanıcının UNP’sine eşit olmalıdır. Ana kullanıcı, oluşturduğunuz rol veya rollerin üyesi olmalıdır. Hiçbir rol belirtilmezse, ana kullanıcının üye olduğu tüm roller RLS değerlendirmesi için kullanılır.
 
-    İle çalışırken bir [hizmet sorumlusu](embed-service-principal.md), yönetici hesabı kullanarak yerine Yukarıdaki adımlar gerekir. Oluşturma, ekleme belirteci kullanarak [hizmet sorumlusu nesne kimliği](embed-service-principal.md#how-to-get-the-service-principal-object-id) yapılandırmalıdır.
+    [Hizmet sorumlusuyla](embed-service-principal.md) çalışırken, ana hesap yerine bunu kullanarak yukarıdaki adımları izlemeniz gerekir. Ekleme belirteci oluştururken kullanıcı adı olarak [hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id) kullanın.
 
     > [!Note]
     > Uygulamanızı üretime dağıtmaya hazır olduğunuzda ana kullanıcı hesabı alanı veya seçeneği son kullanıcıya gösterilmemelidir.
@@ -310,7 +310,7 @@ Kimlik blobunda sağlanan değerin Azure SQL Server için geçerli bir erişim b
 
    ![Uygulama kaydı](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Hizmet sorumlusuyla şirket içi veri ağ geçidi (Önizleme)
+## <a name="on-premises-data-gateway-with-service-principal"></a>Hizmet sorumlusuyla şirket içi veri ağ geçidi
 
 SQL Server Analysis Services (SSAS) şirket içi canlı bağlantı veri kaynağı kullanarak satır düzeyi güvenliği (RLS) yapılandıran müşteriler, **Power BI Embedded** ile tümleştirildiğinde kullanıcıları ve bu kullanıcıların SSAS'deki verilere erişimini yönetmek için yeni [hizmet sorumlusu](embed-service-principal.md) özelliğinden yararlanabilir.
 

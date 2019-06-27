@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770480"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823323"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -80,6 +80,7 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının 
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) yöneticisi değildir.
+* Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
 * Yetkilendirme üst bilgisi doğru listelenmemiş olabilir. Yazım hatası olmadığından emin olun.
 
 GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması belirtecini yenilemesi gerekebilir.
@@ -185,9 +186,9 @@ Kiracı için kullanıcı onayı devre dışı bırakıldı.
 
 Kiracının tamamı için veya belirli bir kullanıcı için bir yönetici tarafından uygulamaya *izin verme*.
 
-### <a name="cs1061-error"></a>Hatası CS1061
+### <a name="cs1061-error"></a>CS1061 hatası
 
-İndirme [Microsoft.IdentityModel.Clients.activedirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) yaşıyorsanız bir "'AcquireToken' ve 'türünde bir ilk bağımsız değişken kabul eden hiçbir erişilebilir AcquireToken' için 'Authenticationcontext'i' tanımı içermiyor ' Authenticationcontext'i ' bulunamadı (bir using eksik yönergeniz veya derleme başvurunuz?) "hatası.
+"'AuthenticationContext' bir 'AcquireToken' tanımı içermiyor ve 'AuthenticationContext' türünde bir ilk bağımsız değişken kabul eden erişilebilir 'AcquireToken' genişletme metodu bulunamadı (bir kullanma yönergeniz veya derleme başvurunuz eksik olabilir mi?)" hatasıyla karşılaşırsanız [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)'yi indirin.
 
 ## <a name="data-sources"></a>Veri kaynakları
 

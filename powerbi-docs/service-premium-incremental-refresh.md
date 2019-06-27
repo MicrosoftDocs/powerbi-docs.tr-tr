@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium’da artımlı yenileme
 description: Power BI Premium hizmetinde çok büyük veri kümelerini etkinleştirmeyi öğrenin.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536136"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408579"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 
@@ -41,7 +41,7 @@ Milyarlarca satır içerebilecek büyük veri modelleri Power BI Desktop modelin
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart ve RangeEnd parametreleri
 
-Artımlı yenileme için veri kümeleri ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlı Power Query tarih/saat parametreleri kullanılarak filtrelenir. Bu parametreler Power BI Desktop’a aktarılan verileri filtrelemek için ve aynı zamanda Power BI hizmetine yayımlandıktan sonra verileri dinamik olarak aralıklara bölmek için kullanılır. Her bölümü filtrelemek için parametre değerleri hizmet tarafından değiştirilir. Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. Bunları hizmette veri kümesi ayarları içinde ayarlamak gerekmez. Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır. 
+Artımlı yenileme için veri kümeleri ayrılmış, büyük/küçük harfe duyarlı **RangeStart** ve **RangeEnd** adlı Power Query tarih/saat parametreleri kullanılarak filtrelenir. Bu parametreler Power BI Desktop’a aktarılan verileri filtrelemek için ve aynı zamanda Power BI hizmetine yayımlandıktan sonra verileri dinamik olarak aralıklara bölmek için kullanılır. Her bölümü filtrelemek için parametre değerleri hizmet tarafından değiştirilir. Bunları hizmette veri kümesi ayarları içinde ayarlamak gerekmez. Yayımlandıktan sonra parametre değerleri otomatik olarak Power BI hizmeti tarafından geçersiz kılınır.
 
 Parametreleri varsayılan değerlerle tanımlamak için, Power Query Düzenleyicisi’nde **Parametreleri Yönet**’i seçin.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Sınırlamalar
 
-Şu an için [bileşik modelleri](desktop-composite-models.md), artımlı yenileme, Oracle, SQL için desteklenir ve Teradata veri kaynakları yalnızca.
+Şu anda [bileşik modeller](desktop-composite-models.md) için yalnızca SQL, Oracle, ve Teradata veri kaynaklarında artımlı yenileme desteklenir.

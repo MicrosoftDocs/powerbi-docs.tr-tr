@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187733"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839446"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -22,9 +22,9 @@ Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 
 ## <a name="download-power-bi-report-server"></a>Power BI Rapor Sunucusunu indirin
 
-[Power BI rapor Sunucusu'nu indirmek](https://www.microsoft.com/download/details.aspx?id=56722) Microsoft İndirme Merkezi'nden.
+Microsoft İndirme Merkezi'nden [Power BI Rapor Sunucusu'nu indirin](https://www.microsoft.com/download/details.aspx?id=56722).
 
-Ücretsiz deneme sürümü de mevcuttur. Üzerinde [şirket içinde Power BI rapor sunucusu ile reporting](https://powerbi.microsoft.com/report-server/) sayfasında **ücretsiz deneme sürümünü indirin**.
+Ücretsiz bir deneme sürümü de vardır. [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasında **Ücretsiz denemeyi indirin** öğesini seçin.
 
 ## <a name="before-you-install"></a>Yüklemeden önce
 
@@ -35,7 +35,7 @@ Power BI Rapor Sunucusu'nu yüklemeden önce [Power BI Rapor Sunucusu'nu yüklem
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Rapor Sunucusu ürün anahtarı
 
-Power BI rapor sunucusu için ürün anahtarını iki farklı kaynaktan elde edebilirsiniz:
+Power BI Rapor Sunucusu için ürün anahtarını iki farklı kaynaktan alabilirsiniz:
 
 - Power BI Premium
 - SQL Server Enterprise Yazılım Güvencesi (YG)
@@ -75,8 +75,8 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
     ![Sürüm 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    Aksi takdirde, Power BI hizmetinde veya Toplu Lisanslama hizmet Merkezi'nden aldığınız ürün anahtarını girin. Ürün anahtarınızı alma hakkında daha fazla bilgi için bkz. [yüklemeden önce](#before-you-install) yukarıdaki bölümde.
-4. Okuma ve lisans hüküm ve koşulları kabul edin ve ardından seçin **sonraki**.
+    Alternatif olarak, Power BI hizmetinden veya Toplu Lisans Hizmeti Merkezi'nden aldığınız ürün anahtarını girin. Ürün anahtarınızı alma hakkında daha fazla bilgi için yukarıdaki [Yüklemeden önce](#before-you-install) bölümüne bakın.
+4. Lisans hüküm ve koşullarını okuyup kabul ettikten sonra **İleri**'yi seçin.
 
     ![Lisans koşulları](media/install-report-server/pbireportserver-eula.png)
 5. Rapor sunucusu veritabanını depolamak için bir Veritabanı Altyapısı sunucusuna ihtiyacınız yoktur. Yalnızca rapor sunucusunu yüklemek için **İleri**'yi seçin.
@@ -152,8 +152,8 @@ Web Hizmeti URL'niz ve Web Portalı URL'niz için yapılandırmış olduğunuz T
 
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Rapor sunucusu ürün anahtarınızı bulma](find-product-key.md)  
-[Install Power BI Desktop optimized for Power BI Report Server (Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme)](install-powerbi-desktop.md)  
-[Verify a reporting services installation (Bir raporlama hizmeti yüklemesini doğrulama)](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
+[Reporting Services yüklemesini doğrulama](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [Rapor sunucusu URL'lerini yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
 [Rapor sunucusu veritabanı bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  

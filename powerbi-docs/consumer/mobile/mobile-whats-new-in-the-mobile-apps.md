@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991053"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038901"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -23,16 +23,45 @@ ms.locfileid: "65991053"
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
 
+## <a name="may-2019"></a>Mayıs 2019
+
+### <a name="siri-shortcuts-support-ios"></a>Siri Kısayolları desteği (iOS)
+Kullanıcılar Power BI raporlarına ve panolarına Siri Kısayolları oluşturabilir, sonra da bunları doğrudan Siri ses arabiriminden açabilir. [Power BI iOS uygulamasında Siri Kısayollarının nasıl kullanıldığını okuyun](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+### <a name="device-search-ios"></a>Cihaz arama (iOS)
+Power BI ile iOS cihaz aramasını (Spotlight) tümleştirme. iPhone veya iPad'de yapılan içerik araması artık Power BI öğelerini de kapsayacak. Kullanıcılar cihaz yerel aramasını kullandıklarında, arama ölçütleriyle eşleşen Power BI raporları, panoları, uygulamaları, çalışma alanları ve kişileri de sonuçlarda listelenecek. [Daha fazla bilgi edinmek için blog gönderisini ziyaret edin](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+
+### <a name="single-tap-report-interaction---ga"></a>Tek dokunmayla rapor etkileşimi - Genel Kullanımda
+
+Tek dokunma artık genel kullanıma sunuldu ve yeni kullanıcılar için varsayılan dokunma etkileşimi olacak. Kullanıcılar yine de uygulama ayarlarında bunu kapatabilir ve çift dokunmayı kullanabilir.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>Gelişmiş koşullu erişim koruması (iOS, Android)
+
+Uygulama ilkesi uygulanmadan önce Power BI'a erişimi sınırlayarak güvenliği artırmak için AAD [yeni uygulama koruması tabanlı koşullu erişim özelliğini](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) tümleştirdik.
+
+### <a name="device-protection-ios"></a>Cihaz koruması (iOS)
+
+Kullanıcılar Power BI'ın güvenliğini sağlamak için cihazın yerleşik korumasını kullanabilir ve Power BI'a erişim için Face ID, Touch ID veya geçiş kodu sorulmasını sağlayabilir. Bu özellik kullanıcı tarafından uygulama ayarları kullanılarak denetlenebileceği gibi, yöneticiler tarafından Intune ve diğer herhangi bir MDM aracı kullanılarak da denetlenebilir. [Daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+
+### <a name="one-page-report-slideshow-windows"></a>Tek sayfalı rapor Slayt Gösterisi (Windows)
+
+Slayt gösterisinde tek sayfalı raporlar için otomatik yenileme de destekleniyor. Bu nedenle raporun temel veri kaynağı güncelleştirilirse, bunu alacak ve sayfadaki verileri güncelleştireceğiz.
+
+
 ## <a name="april-2019"></a>Nisan 2019
 
-### <a name="key-influencers-visual"></a>Anahtar öğrenilenler visual 
-Anahtar öğrenilenler visual mobil uygulamanızı kullanıma sunuldu. Bu görsel temel analizini yalnızca birkaç Tap'ları ile verileriniz üzerinde gerçekleştirmenize olanak tanır.
+### <a name="key-influencers-visual"></a>Ana Etmenler görseli 
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>Rapor içeriği (Android ve iOS) açıklamalar ekleme
-Artık rapor sayfalarında ve görsel üzerinde görüşlerinizi paylaşın ve işbirliği yapmak için açıklamaları kullanabilirsiniz. Daha fazla rapor Power BI hizmeti ve mobil yorum hakkında bilgi edinin [bu blogdaki](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+Ana Etmenler görseli artık mobil uygulamanızda kullanıma sunuldu. Bu görsel yalnızca birkaç dokunmayla verileriniz üzerindeki başlıca etmenleri analiz etmenizi sağlıyor.
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Tam ekran modunda (Android ve iOS) görünümüyle en üst düzeye çıkarın
-Rapor üstbilgiler ve altbilgiler kaldırılıyor ve raporlarınızı görüntülemek için en fazla alan vererek, verilerinizde odaklanmak ne zaman denetlemenize olanak tanıyan yeni düğme ekledik.
+### <a name="add-comments-to-report-content-android-and-ios"></a>Rapor içeriğine açıklama ekleme (Android ve iOS)
+
+Artık rapor sayfaları ve görseller üzerinde işbirliği yapmak ve geri bildiriminizi paylaşmak için açıklamaları kullanabilirsiniz. [Bu blogda](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) Power BI Hizmeti ve Mobil Uygulamasında rapora açıklama ekleme hakkında daha fazla bilgi bulabilirsiniz. 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Tam ekran moduyla görünümü büyütme (Android ve iOS)
+
+Rapor üst bilgilerini ve alt bilgilerini kaldırarak verilerinize odaklanmayı denetleyebileceğiniz ve raporlarınızı görüntülerken size mümkün olan en büyük alanı sağlayacak yeni bir düğme ekledik.
 
 ## <a name="march-2019"></a>Mart 2019
 
@@ -42,20 +71,20 @@ Başka bir kuruluştan sizinle paylaşılan Power BI içeriğine doğrudan uygul
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Slayt gösterisiyle Windows sunum modunu geliştirme (Windows)
 
-İle [slayt gösterisi](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) , genel görüntüler ofisinizde bulunan Power BI raporlarını otomatik olarak tamamlar tam ekran modunda döndürme rapor sayfaları arasında çalıştırmak için kullanabilirsiniz.  
+[Slayt gösterisi](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) ile, Power BI raporlarını, rapor sayfaları arasında otomatik olarak dönecek şekilde tam ekranda çalıştırmak için ofisinizde bulunan herkese açık ekranları kullanabilirsiniz.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>AD FS ve WAP yapılandırma (yalnızca iOS) PBI-RS raporları destekleme
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS ve WAP yapılandırması üzerinde PBI-RS raporlarını destekleme (yalnızca iOS)
 
-PBI-RS ADFS yapılandırma üzerinde barındırılan Power BI raporları (PBIX), artık Power BI iOS uygulamasından erişilebilir.
+ADFS yapılandırması üzerinde PBI-RS'de barındırılan Power BI Raporlarına (PBIX) artık Power BI iOS uygulamasından erişilebilir.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Rapor görselleri ile tek bir dokunma etkileşimi etkinleştirme
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Rapor görselleriyle tek dokunmalı etkileşimi etkinleştirme
 
-Tek bir görsele dokunun, düğme veya hemen kendi verilerle etkileşim kurmak için dilimleyici gerektirecek şekilde rapor etkileşimi değiştirdik. Kullanıcılar artık seçin ve yeniden ile etkileşim kurmak için dokunmanız görseli dokunun gerekir, tek bir dokunun her ikisinin de yapar.
+Rapor etkileşiminde yaptığımız değişiklikle artık verileriyle hemen etkileşim kurmak için görsele, düğmeye veya dilimleyiciye tek bir kez dokunmanız yeterli olacak. Kullanıcıların artık görsele bir kez dokunup seçmesi ve sonra görselle etkileşim kurmak için bir kez daha dokunması gerekmiyor; tek dokunmayla ikisi de yapılabilecek.
 
-![Tek bir dokunma etkileşimi](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![Tek dokunmayla etkileşim](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Mevcut kullanıcıları bu davranış uygulama ayarında açmanız gerekir. Daha fazla bilgi için [tek bir dokunun rapor etkileşimi yapılandırma](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) makalesi.
+> Mevcut kullanıcıların uygulama ayarında bu davranışı açması gerekecek. Daha fazla bilgi için [Tek dokunmayla rapor etkileşimini yapılandırma](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) makalesine bakın.
 
 ## <a name="january---february-2019"></a>Ocak - Şubat 2019
  
