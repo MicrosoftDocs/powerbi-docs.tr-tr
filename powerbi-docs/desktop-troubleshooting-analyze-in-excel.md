@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514573"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408329"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
+
 Excel'de Çözümle özelliğini kullanırken beklemediğiniz bir sonuç aldığınız veya özelliğin beklediğiniz şekilde çalışmadığı durumlarla karşılaşabilirsiniz. Bu sayfada, Excel'de Çözümle özelliği ile ilgili olarak sık karşılaşılan sorunların çözümleri açıklanmaktadır.
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Açılan iletişim kutusunda **İndir (önizleme)** seçeneğini belirleyin.
 Excel OLE DB sağlayıcısı istemci kitaplıklarınız güncelse aşağıdaki gibi bir iletişim kutusu açılır:
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 Alternatif olarak, yüklemekte olduğunuz yeni sürüm, bilgisayarınızda yüklü olan sürümden daha yeniyse aşağıdaki iletişim kutusu görüntülenir:
 
