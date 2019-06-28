@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051557"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418683"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -46,7 +46,7 @@ Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümes
 
 ![WFE ve Arka Uç](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI hesap kimliği doğrulaması ve yönetimi için Azure Active Directory (**AAD**) kullanır. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI gerekli statik içeriği ve dosyaları kullanılarak teslim edilir özel görsel hariç olmak üzere kullanıcılara verimli bir şekilde dağıtmak için coğrafi olarak yakın WFE kullanır **Azure içerik teslim ağı (CDN)**.
+Power BI hesap kimliği doğrulaması ve yönetimi için Azure Active Directory (**AAD**) kullanır. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI gerekli statik içeriği ve dosyaları kullanılarak teslim edilir özel görsel hariç olmak üzere kullanıcılara verimli bir şekilde dağıtmak için coğrafi olarak yakın WFE kullanır **Azure içerik teslim ağı (CDN)** .
 
 ### <a name="the-wfe-cluster"></a>WFE Kümesi
 
@@ -380,7 +380,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Kullanıcılar Power BI'ı kullanırken nasıl bağlantı kurabilir ve veri kaynaklarına erişebilir?**
 
-* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcı bir e-posta adresi kullanarak Power BI'da oturum açar; kullanıcı veri kaynağına bağlanmayı denediğinde, Power BI kimlik bilgileri olarak Power BI'ın oturum açma e-posta adresini geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI'da oturum açarken iş e-posta adreslerini (_david@contoso.com_ gibi iş kaynaklarında oturum açarken kullandıkları e-postanın aynısını) kullanan kuruluşlarda, eşleme sorunsuz gerçekleştirilebilir; iş e-posta adreslerini kullanmayan kuruluşlarda (_david@contoso.onmicrosoft.com_ gibi), Power BI oturum açma kimlik bilgileriyle şirket içi kaynaklara erişime izin vermek için dizin eşlemesi oluşturulmalıdır.
+* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcı bir e-posta adresi kullanarak Power BI'da oturum açar; kullanıcı veri kaynağına bağlanmayı denediğinde, Power BI kimlik bilgileri olarak Power BI'ın oturum açma e-posta adresini geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI'da oturum açarken iş e-posta adreslerini ( _david@contoso.com_ gibi iş kaynaklarında oturum açarken kullandıkları e-postanın aynısını) kullanan kuruluşlarda, eşleme sorunsuz gerçekleştirilebilir; iş e-posta adreslerini kullanmayan kuruluşlarda ( _david@contoso.onmicrosoft.com_ gibi), Power BI oturum açma kimlik bilgileriyle şirket içi kaynaklara erişime izin vermek için dizin eşlemesi oluşturulmalıdır.
 
 * **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlara, Power BI tarafından Power BI şirket içi veri ağ geçidi (önceki bölümlerde sözü edilen **Ağ Geçidi**) sunulur.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. [Power BI Gateway](service-gateway-manage.md) hakkında ayrıntılı bir makale okuyabilirsiniz.
 
@@ -426,14 +426,11 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Şirket içi veri ağ geçidiyle çalışırken kurtarma anahtarları nasıl kullanılır ve nerede depolanır? Güvenli kimlik bilgileri yönetimi nasıl yapılır?**
 
-* Ağ geçidi yüklemesi ve yapılandırması sırasında yönetici bir ağ geçidi **Kurtarma Anahtarı** yazar. Bu **Kurtarma Anahtarı** çok daha güçlü iki anahtar kümesi oluşturmak için kullanılır:
+* Ağ geçidi yüklemesi ve yapılandırması sırasında yönetici bir ağ geçidi **Kurtarma Anahtarı** yazar. Olduğunu **kurtarma anahtarı** güçlü oluşturmak için kullanılan **AES** simetrik anahtar. Bir **RSA** asimetrik anahtar da aynı anda oluşturulur.
 
-  - **RSA** asimetrik anahtarı
-  - **AES** asimetrik anahtarı
+    Oluşturulan bu anahtarlar (**RSA** ve **AES**) yerel makinedeki bir dosyada depolanır. Bu dosya da şifrelenmiştir. Dosya içeriğinin şifresi yalnızca söz konusu Windows makinesi tarafından ve yalnızca bu özel ağ geçidi hizmet hesabıyla çözülebilir.
 
-  Oluşturulan bu anahtarlar (**RSA** ve **AES**) yerel makinedeki bir dosyada depolanır. Bu dosya da şifrelenmiştir. Dosya içeriğinin şifresi yalnızca söz konusu Windows makinesi tarafından ve yalnızca bu özel ağ geçidi hizmet hesabıyla çözülebilir.
-
-  Bir kullanıcı Power BI hizmeti kullanıcı arabirimine veri kaynağının kimlik bilgilerini girdiğinde, kimlik bilgileri tarayıcıdaki ortak anahtarla şifrelenir. Veriler Power BI'da depolanmadan önce ağ geçidi (zaten şifrelenmiş olan) kimlik bilgilerini bir AES simetrik anahtarı kullanarak yeniden şifreler. Bu işlemle, Power BI hizmeti hiçbir zaman şifrelenmemiş verilere erişmez.
+    Bir kullanıcı Power BI hizmeti kullanıcı arabirimine veri kaynağının kimlik bilgilerini girdiğinde, kimlik bilgileri tarayıcıdaki ortak anahtarla şifrelenir. Ağ geçidi RSA özel anahtarı kullanarak kimlik bilgilerinin şifresini çözer ve Power BI hizmetinde veri depolanmadan önce bir AES simetrik anahtarla yeniden şifreler. Bu işlemle, Power BI hizmeti hiçbir zaman şifrelenmemiş verilere erişmez.
 
 **Şirket içi veri ağ geçidi hangi iletişim protokollerini kullanır ve bunların güvenliği nasıl sağlanır?**
 
