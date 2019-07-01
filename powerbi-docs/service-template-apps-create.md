@@ -1,22 +1,22 @@
 ---
-title: Power BI’da şablon uygulamaları oluşturma (önizleme)
+title: Power BI’da şablon uygulamaları oluşturma
 description: Power BI’da tüm Power BI müşterilerine dağıtabileceğiniz şablon uygulamaları oluşturma.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751201"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264556"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Power BI’da şablon uygulaması oluşturma (önizleme)
+# <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
 Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makale, Power BI şablon uygulaması oluşturmak için adım adım yönergeler içerir.
 
@@ -31,20 +31,7 @@ Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin
 - [Power BI Pro lisansı](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop yüklemesi](desktop-get-the-desktop.md) (isteğe bağlı)
 - [Temel Power BI kavramlarını](service-basic-concepts.md) tanıma
-- Şablon uygulaması oluşturma izinleri. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings-preview).
-
-## <a name="enable-app-developer-mode"></a>Uygulama geliştirici modunu etkinleştirme
-
-Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması oluşturmak için Uygulama Geliştirici modunda olmalısınız. Aksi takdirde, yalnızca kendi kuruluşunuzdaki Power BI kullanıcıları için uygulama oluşturursunuz.
-
-1. Tarayıcıda Power BI hizmetini açın.
-2. **Ayarlar** > **Genel** > **Geliştirici** > **Şablon uygulaması geliştirme modunu etkinleştir**’e gidin.
-
-    ![Şablon uygulamalarını etkinleştirme](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    Bu seçeneği görmüyorsanız, Power BI yöneticinize başvurun ve size yönetim portalında [şablon uygulaması geliştirme izinleri](service-admin-portal.md#template-apps-settings-preview) vermesini isteyin.
-
-3. **Apply** (Uygula) seçeneğini belirleyin.
+- Bir şablon uygulamasını herkese açık şekilde paylaşma izinleri. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings).
 
 ## <a name="create-the-template-app-workspace"></a>Şablon uygulaması çalışma alanını oluşturma
 
@@ -54,9 +41,9 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
     ![Uygulama çalışma alanı oluştur](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **Uygulama çalışma alanı oluştur** penceresinin **Geliştirilmiş çalışma alanlarını önizle** alanında **Şimdi dene**'yi seçin.
+2. **Uygulama çalışma alanı oluştur**’da **Yenisine yükselt** seçeneğini belirleyin.
 
-    ![Yeni çalışma alanlarını deneme](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![Yeni çalışma alanlarını deneme](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. Uygulama çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
 
@@ -70,13 +57,13 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
 ## <a name="create-the-content-in-your-template-app"></a>Şablon uygulamanızdaki içeriği oluşturma
 
-Normal Power BI uygulama çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanında içeriği oluşturmaktır.  Şablon uygulamalarının bu önizleme sürümünde, her türden birer tane oluşturmayı destekliyoruz: bir veri kümesi, bir rapor ve bir pano.
+Normal Power BI uygulama çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanında içeriği oluşturmaktır.  
 
 - Uygulama çalışma alanınızda [Power BI içeriğinizi oluşturun](power-bi-creator-landing.md).
 
 Power Query’de parametreleri kullanıyorsanız, bunların iyi tanımlanmış türde (örneğin, Text) olmasına dikkat edin. Any ve Binary türleri desteklenmez.
 
-[Power BI’da şablon uygulaması yazmaya yönelik ipuçları (önizleme)](service-template-apps-tips.md) makalesinde şablon uygulamanız için rapor ve pano oluştururken göz önüne alınacak öneriler bulunur.
+[Power BI’da şablon uygulaması yazmaya yönelik ipuçları](service-template-apps-tips.md) makalesinde şablon uygulamanız için rapor ve pano oluştururken göz önüne alınacak öneriler bulunur.
 
 ## <a name="create-the-test-template-app"></a>Test şablon uygulaması oluşturma
 
@@ -174,10 +161,10 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 10. Uygulamanızı kiracınızın dışında test edilmek üzere üretim öncesi aşamaya yükseltmek için, **Sürüm Yönetimi** bölmesine dönün ve **Uygulamayı yükselt**’i seçin. 
 
     ![Uygulamayı üretim öncesi aşamaya yükseltme](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > Uygulama yükseltildiğinde kuruluşunuzun dışında herkese açık duruma gelir.
 
+    Bu seçeneği görmüyorsanız, Power BI yöneticinize başvurun ve size yönetim portalında [şablon uygulaması geliştirme izinleri](service-admin-portal.md#template-apps-settings) vermesini isteyin.
 11. Seçiminizi onaylamak için **Yükselt**’i seçin.
 12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni bir Bulut İş Ortağı Portalı teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. Bulut İş Ortağı Portalı'na yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource'ta yayımlandığına ilişkin bildirimi aldıktan sonra bu paketi Power BI'da üretime yükseltebilirsiniz.
 13. Uygulamanız üretime veya AppSource yoluyla paylaşıma hazır olduğunda, **Sürüm Yönetimi** bölmesine dönün ve **Ön üretim**’in yanındaki **Uygulamayı yükselt**’i seçin.
@@ -188,25 +175,6 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
     ![Üretim ortamında uygulama](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-
-## <a name="update-your-app"></a>Uygulamanızı güncelleştirme
-
-Uygulamanız artık üretim ortamında olduğundan, üretimdeki uygulamaya müdahale etmeden test aşamasının üzerinden geçebilirsiniz.
-
-1. **Sürüm yönetimi** bölmesinde **Uygulama oluştur**’u seçin.
-2. Uygulama oluşturma sürecine en baştan yeniden başlayın.
-3. **Markalama**, **İçerik**, **Denetim** ve **Erişim**’i ayarladıktan sonra yeniden **Uygulama oluştur**’u seçin.
-4. **Kapat**’ı seçin ve **Sürüm yönetimi**’ne dönün.
-
-   Şimdi iki sürümünüz olduğunu görürsünüz: üretimdeki sürüm ve test aşamasındaki yeni sürüm.
-
-    ![Şablon uygulamasının iki sürümü](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. Uygulamanızı kiracınızın dışında test etmek amacıyla üretim öncesi aşamaya yükseltmek için, Sürüm Yönetimi bölmesine dönün ve **Test**’in yanındaki **Uygulamayı yükselt**’i seçin.
-6. Bağlantınız artık canlıdır; [Power BI Uygulama teklifi güncelleştirmesi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantıyı yeniden Bulut İş Ortağı Portalı'na gönderin.
-
->[!NOTE]
->Uygulamanızı üretim aşamasına yükseltmek için uygulamanın Bulut İş Ortağı Portalı tarafından onaylanmasını ve uygulamayı yayımlamayı bekleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

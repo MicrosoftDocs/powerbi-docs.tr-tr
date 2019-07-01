@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838927"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345495"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
 Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağı oluşturma ve değiştirme işlemini öğreneceksiniz. Tümleşik bir veri kaynağını tek bir raporda tanımlayabilir ve yalnızca o raporda kullanabilirsiniz. Şu anda, Power BI hizmetinde yayımlanan sayfalandırılmış raporlar için tümleşik veri kümeleri ve tümleşik veri kaynakları gereklidir ve şu veri kaynaklarına bağlanılabilir:
 
-- Azure SQL Veritabanı ve Veri Ambarı
+- Azure Analysis Services
+- canlı verilere bağlanın ve 
+- Azure SQL Veri Ambarı
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleş
 
 Aşağıdaki veri kaynakları için [SQL Server Analysis Services bağlantısı](service-premium-connect-tools.md) seçeneğini kullanın:
 
-- Azure Analysis Services
 - Power BI Premium veri kümeleri
 
 Sayfalandırılmış raporlar, [Power BI ağ geçidi](service-gateway-getting-started.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
@@ -66,6 +67,30 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
 5.  **Tamam**'ı seçin.  
   
      Veri kaynağı, Rapor Verileri bölmesinde görünür.  
+     
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve Önemli Noktalar
+
+Power BI veri kümelerine bağlanan sayfalandırılmış raporlar, birkaç küçük değişiklikle birlikte Power BI’da paylaşılan veri kümelerindeki kuralları izler.  Kullanıcıların, Power BI veri kümelerini kullanarak sayfalandırılmış raporları düzgün bir şekilde görüntüleyebilmesini ve satır düzeyinde güvenliğin (RLS) etkinleştirilip tüm görüntüleyiciler için zorlanmasını sağlamak için şu kurallara uyduğunuzdan emin olun:
+
+### <a name="classic-apps-and-app-workspaces"></a>Klasik uygulamalar ve uygulama çalışma alanları
+
+- Veri kümesi olarak aynı çalışma alanında .rdl (aynı sahip): Destekleniyor
+- Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor
+- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Veri kümesi olarak aynı çalışma alanında .rdl (farklı kullanıcı): Destekleniyor
+- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>Yeni deneyim uygulamaları ve uygulama çalışma alanları
+
+- Veri kümesi olarak aynı çalışma alanında .rdl: Destekleniyor
+- Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor
+- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Veri kümesi olarak aynı çalışma alanında .rdl (farklı kullanıcı): - Desteklenir
+- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Rol düzeyinde güvenlik: Bunu zorlanması için raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

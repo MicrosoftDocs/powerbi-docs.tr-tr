@@ -1,22 +1,22 @@
 ---
-title: Kuruluşunuzda şablon uygulamalarını dağıtma - Power BI (önizleme)
+title: Kuruluşunuzda şablon uygulamalarını dağıtma - Power BI
 description: Power BI’da şablon uygulamalarını kuruluşunuzda yükleme, özelleştirme ve dağıtma hakkında bilgi edinin.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751244"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264516"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI (önizleme)
+# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI
 
 Power BI analisti misiniz? Öyleyse, bu makalede işlerinizi yürütürken kullandığınız Salesforce, Microsoft Dynamics ve Google Analytics gibi birçok hizmete bağlanmak için *şablon uygulamalarını* nasıl yükleyebileceğiniz açıklanır. Kuruluşunuzun gereksinimlerine uygun olarak panoyu ve raporları değiştirebilir, sonra da bunları *uygulama* olarak iş arkadaşlarınıza dağıtabilirsiniz. 
 
@@ -55,14 +55,13 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
 
 3. Uygulamaya göz atın veya uygulama için arama yapın, ardından **Şimdi edinin**’i seçin.
 
-2. İletişim kutusunda **Yükle**'yi seçin.
+4. İletişim kutusunda **Yükle**'yi seçin.
 
-    Power BI Pro lisansınız varsa, uygulama kendisiyle ilişkilendirilmiş uygulama çalışma alanına yüklenir. Uygulamayı, ilişkilendirilmiş çalışma alanında özelleştirirsiniz.
+    ![Uygulamayı yükle](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro lisansınız varsa, uygulama kendisiyle ilişkilendirilmiş uygulama çalışma alanına yüklenir. Uygulamayı, ilişkilendirilmiş çalışma alanında özelleştirirsiniz.
 
-    Yükleme başarılı olduğunda yeni uygulamanızın hazır olduğuna ilişkin bir bildirim görürsünüz. 
-
-3. **Uygulamaya git**’i seçin.
-4. **Yeni uygulamanızı kullanmaya başlayın** alanında üç seçenekten birini belirtin:
+    Yükleme başarılı olduğunda yeni uygulamanızın hazır olduğuna ilişkin bir bildirim görürsünüz.
+4. **Uygulamaya git**’i seçin.
+5. **Yeni uygulamanızı kullanmaya başlayın** alanında üç seçenekten birini belirtin:
 
     ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-create/power-bi-template-app-get-started.png)
 
@@ -70,13 +69,22 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
     - **Verilere bağlan**: Veri kaynağını örnek verilerden kendi veri kaynağınıza geçirin. Veri kümesi parametrelerini ve veri kaynağı kimlik bilgilerini yeniden tanımlayabilirsiniz. Şablon uygulaması ipuçları makalesinde [Bilinen sınırlamalar](service-template-apps-tips.md#known-limitations) bölümüne bakın. 
     - **Çalışma alanına git** (en gelişmiş seçenek): uygulama oluşturucusunun izin verdiği tüm değişiklikleri yapabilirsiniz.
 
-    İsterseniz bu iletişim kutusunu atlayın ve sol gezinti bölmesindeki **Çalışma Alanları** yoluyla doğrudan ilişkili çalışma alanına erişin.   
+    İsterseniz bu iletişim kutusunu atlayın ve sol gezinti bölmesindeki **Çalışma Alanları** yoluyla doğrudan ilişkili çalışma alanına erişin.
+    >[!NOTE]
+    >Hem bir *kurumsal uygulama* hem de bir *uygulama çalışma alanı* üzerinde yüklü bir şablon uygulaması yükleme. [Power BI’da uygulama dağıtma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin.
  
-5. İş arkadaşlarınızla paylaşmadan önce, kendi verilerinize bağlanmak istersiniz. Ayrıca kuruluşunuza uygun olması için raporu veya panoyu değiştirmek de isteyebilirsiniz. Bu noktada başka raporlar ve panolar eklemeniz de mümkündür.
+6. İş arkadaşlarınızla paylaşmadan önce, kendi verilerinize bağlanmak istersiniz. Ayrıca kuruluşunuza uygun olması için raporu veya panoyu değiştirmek de isteyebilirsiniz. Bu noktada başka raporlar ve panolar eklemeniz de mümkündür.
+
+   AppSource’ta listelenmeyen bir uygulamanın yükleme bağlantısını seçerseniz bu tercihinizi doğrulamanızı isteyen bir iletişim kutusu ile karşılaşırsınız.
+
+   ![Uygulamayı yükleme](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+
+   >[!NOTE]
+   >AppSource’ta listelenmeyen şablon uygulamalarını yüklemek için yöneticinizden izin istemeniz gerekir. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings).
 
 ## <a name="update-and-distribute-the-app"></a>Uygulamayı güncelleştirme ve dağıtma
 
-Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır olursunuz. Adımlar, diğer herhangi bir uygulamayı yayımlamakla aynıdır. 
+Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır olursunuz. Adımlar, diğer herhangi bir uygulamayı yayımlamakla aynıdır.
 
 1. Özelleştirmeyi tamamladığınızda, çalışma alanı liste görünümünde sağ üst köşedeki **Uygulamayı güncelleştir**’i seçin.  
 

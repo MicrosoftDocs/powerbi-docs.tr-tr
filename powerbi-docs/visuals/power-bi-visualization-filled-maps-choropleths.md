@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839767"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299343"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
@@ -70,10 +70,10 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
 1. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
 
    ![State alanının yanındaki sarı onay işareti](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [Grafiği](power-bi-report-change-visualization-type.md) kartograma dönüştürün. **State** alanının artık **Konum** kutusunda olduğunu görebilirsiniz. Bing Haritalar, haritayı oluşturmak için **Konum** kutusundaki alanı kullanır.  Konum kutusunda çok sayıda geçerli konum bulunabilir: ülkeler, eyaletler, iller, ilçeler, şehirler, posta kodları vb. Bing Haritalar, dünya genelindeki konumlar için kartogram gölgeleri sağlar. Konum kutusunda geçerli bir giriş olmadan Power BI, kartogramı oluşturamaz.  
+2. [Grafiği](power-bi-report-change-visualization-type.md) kartograma dönüştürün. **State** alanının artık **Konum** kutusunda olduğunu görebilirsiniz. Bing Haritalar, haritayı oluşturmak için **Konum** kutusundaki alanı kullanır.  Konum kutusunda çok sayıda geçerli konum bulunabilir: ülkeler, eyaletler, iller, ilçeler, şehirler, posta kodları vb. Bing Haritalar, dünya genelindeki konumlar için kartogram gölgeleri sağlar. Konum kutusunda geçerli bir giriş olmadan Power BI, kartogramı oluşturamaz.  
 
    ![kartogram simgesinin vurgulandığı şablonlar](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. Haritayı, yalnızca Kıtasal Amerika Birleşik Devletleri görüntülenecek şekilde filtreleyin.
+3. Haritayı, yalnızca Kıtasal Amerika Birleşik Devletleri görüntülenecek şekilde filtreleyin.
 
    a.  Görsel Öğeler bölmesinin alt tarafında **Filtreler** alanını bulun.
 
@@ -83,21 +83,24 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
    c.  **Tümü** seçeneğinin yanına bir onay işareti koyun ve **AK** seçeneğinin yanındaki onay işaretini kaldırın.
 
    ![Tümü ve AK'nin seçili olmadığı State açılan listesi](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. **SalesFact** \> **Sentiment** seçeneğini belirleyerek **Renk doygunluğu** kutusuna ekleyin. **Renk doygunluğu** kutusundaki alan, harita gölgelendirmesini denetler.  
-   ![Renk doygunluğu alanındaki Sentiment iyi](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. Kartogram yeşil ve kırmızı ile gölgelendirilir; kırmızı daha düşük yaklaşım sayılarını, yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Burada Wyoming (WY) eyaletini vurguladım ve Sentiment (Yaklaşım) düzeyinin oldukça iyi (74) olduğunu görüyorum.  
-   ![state ve sentiment'i gösteren siyah iletişim kutusu](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [Raporu kaydedin](../service-report-save.md).
-##    <a name="adjust-the-color-formatting"></a>Renk biçimlendirmesini ayarlama
-Power BI, kartogramınızın görünümü üzerinde büyük ölçüde denetim elde etmenizi sağlar.
-1. Boya rulosu simgesini seçin ve Biçimlendirme bölmesini açın.
+4. Boya rulosu simgesini seçip biçimlendirme bölmesini açtıktan sonra **Veri renkleri** seçeneğini belirleyin.
 
-    ![Biçimlendirme bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![Veri renkleri seçeneğini gösteren biçimlendirme bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. Renk seçeneklerini görüntülemek için **Veri renkleri**’ni seçin.
-3. Minimum ve Maksimum renkleri sarı ve mavi olarak ayarlayın. Ve verilerinize göre Minimum ve Maksimum değerler ekleyin. İstediğiniz görünümü elde edinceye kadar bu denetimler üzerinde deneme yapın. 
+5. Üç dikey noktayı seçip **Koşullu Biçimlendirme** seçeneğini belirleyin.
 
-    ![ayrışan renkler](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![Veri renkleri koşullu biçimlendirme düğmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. Kartogramınızın nasıl gölgelendirileceğini belirlemek için **Varsayılan renk - Veri renkleri** ekranını kullanın. Burada gölgelendirmenin temel alacağı alanı belirleyebilir ve gölgelendirmenin nasıl uygulanacağını seçebilirsiniz. Bu örnekte, **SalesFact** > **Sentiment** alanını kullanıp yaklaşımın en düşük değerini kırmızı, en yüksek değerini de yeşil olarak ayarlayacağız. En fazla ve en düşük değer arasındaki değerler kırmızı ve yeşilin tonlarında olur. Ekranın alt kısmındaki gösterim kullanılacak renk aralığını gösterir. 
+
+    ![Yaklaşım seçiliyken varsayılan renk bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. Kartogram yeşil ve kırmızı ile gölgelendirilir; kırmızı daha düşük yaklaşım sayılarını, yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Ek ayrıntıları görüntülemek için bir alanı araç ipucu kutusuna sürükleyin.  Burada, **Yaklaşım boşluğu** ekleyip Idaho (ID) eyaletine vurgu yaptım ve yaklaşım boşluğunun 6 olduğunu, yani düşük olduğunu gördüm.
+   ![Idaho araç ipuçlarını gösteren kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [Raporu kaydedin](../service-report-save.md).
+
+Power BI, kartogramınızın görünümü üzerinde büyük ölçüde denetim elde etmenizi sağlar. İsteğiniz görünümü yakalayana kadar bu veri denetimlerini kullanarak farklı görünümler deneyin. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
 Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).

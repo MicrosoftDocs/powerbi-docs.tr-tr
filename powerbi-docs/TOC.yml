@@ -231,6 +231,8 @@
               href: desktop-bookmarks.md
             - name: Rapor temalarını kullanma
               href: desktop-report-themes.md
+            - name: Filtre türleri
+              href: power-bi-report-filter-types.md
             - name: Yeni filtre deneyimine gözatın
               href: power-bi-report-filter-preview.md
             - name: Hızlı Ölçüleri kullanma
@@ -417,50 +419,46 @@
           href: service-whats-new.md
         - name: Temel kavramlar
           items:
-            - name: Tasarımcılar için temel kavramlar
+            - name: Power BI hizmetini anlama
               href: service-basic-concepts.md
-            - name: Power BI'daki veri türleri
-              href: service-get-data.md
             - name: Rapor düzenleyicisi turu
               href: service-the-report-editor-take-a-tour.md
-        - name: Power BI’da iş akışı
-          items:
-            - name: Çalışmanızı düzenleme
-              href: service-new-workspaces.md
-            - name: Çalışmanızı paylaşmanın yolları
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Verilerin güncel kalmasını sağlama
+            - name: Power BI veri kaynakları
+              href: service-get-data.md
+            - name: Power BI'da veri yenileme
               href: refresh-data.md
-            - name: Kullanımı izleme
+        - name: Power BI'da işbirliği
+          items:
+            - name: Çalışmalarınızı düzenleme
+              href: service-new-workspaces.md
+            - name: Çalışmanızı paylaşma
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: Power BI kullanımını izleme
               href: service-usage-metrics.md
         - name: Lisanslama
           items:
-            - name: Self servise kaydolma
+            - name: Power BI'a kaydolma
               href: service-self-service-signup-for-power-bi.md
-            - name: Kuruluşunuzda lisanslama
+            - name: Power BI lisanslarını yönetme
               href: service-admin-licensing-organization.md
             - name: Lisans türüne göre özellikler
               href: service-features-license-type.md
-        - name: Diğer kavramlar
+            - name: Power BI for US Government
+              href: service-govus-overview.md
+            - name: Almanya'daki Cloud müşterileri için SSS
+              href: service-govde-faq.md
+        - name: Yardım ve destek alın
           items:
-            - name: Yardım almaya yönelik 10 ipucu
-              href: service-tips-for-finding-help.md
             - name: Power BI destek seçenekleri
               href: service-support-options.md
-            - name: Özel durumlarda lisanslama
-              items:
-                - name: Uzatılmış Pro Deneme Sürümünü etkinleştirme
-                  href: service-extended-pro-trial.md
-                - name: Power BI for US Government
-                  href: service-govus-overview.md
-                - name: Almanya'daki Cloud müşterileri için SSS
-                  href: service-govde-faq.md
-            - name: Diğer
-              items:
-                - name: Microsoft Flow ve Power BI
-                  href: service-flow-integration.md
-                - name: Üçüncü taraf uygulamalarla çalışmaya başlama
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: Yardım almaya yönelik on ipucu
+              href: service-tips-for-finding-help.md
+        - name: Power BI’ı genişletin
+          items:
+            - name: Microsoft Flow ve Power BI
+              href: service-flow-integration.md
+            - name: Üçüncü taraf uygulamaları kullanma
+              href: service-power-bi-get-started-third-party-apps.md
     - name: Nasıl yapılır?
       items:
         - name: Dosyalardan veri alma
@@ -525,10 +523,8 @@
               href: refresh-excel-file-onedrive.md
             - name: OneDrive’daki bir .csv dosyasında bulunan veri kümelerini yenileme
               href: refresh-csv-file-onedrive.md
-            - name: Power BI Premium’da sorguları önbelleğe alma
+            - name: Power BI Premium’da sorgu önbelleğe alma
               href: power-bi-query-caching.md
-            - name: Yenileme ile ilgili sorun giderme senaryoları
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: Panolar
           items:
             - name: Panolara giriş
@@ -709,6 +705,8 @@
           items:
             - name: Power BI parolanızı mı unuttunuz?
               href: service-admin-forgot-your-password.md
+            - name: Oturum açamıyor musunuz?
+              href: power-bi-cannot-sign-in.md
             - name: Power BI için ek tanılama bilgileri yakalama
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Power BI için alternatif e-posta adresi
@@ -717,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365'e özel - bilinen sorunlar
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Cortana ile ilgili sorunları giderme
-              href: service-cortana-troubleshoot.md
-            - name: Excel'de çözümleme ile ilgili sorunları giderme
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway - Personal ile ilgili sorunları giderme
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Yenileme ile ilgili sorun giderme senaryoları
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Azure SQL Veritabanları için zamanlanmış yenileme ile ilgili sorunları giderme
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
-              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Kutucuk hatalarıyla ilgili sorunları giderme
               href: refresh-troubleshooting-tile-errors.md
+            - name: Şirket içi veri ağ geçidi sorunlarını giderme
+              href: service-gateway-onprem-tshoot.md
+            - name: Power BI ağ geçidi - bireysel sorunlarını giderme
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Excel’de çözümleme sorunlarını giderme
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Cortana ile ilgili sorunları giderme
+              href: service-cortana-troubleshoot.md
             - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
               href: service-refresh-xero-credentials.md
-            - name: Oturum açılamıyor
-              href: power-bi-cannot-sign-in.md
         - name: Diğer görevler
           items:
             - name: Power BI'daki içerikleri yeniden adlandırma
@@ -859,14 +857,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: İçerik paketi bağlantısını kesme
                   href: service-organizational-content-pack-disconnect.md
-    - name: Kaynaklar
+    - name: Başvuru
       items:
-        - name: Videolar
-          href: videos.md
-        - name: Web Seminerleri
-          href: webinars.md
         - name: Desteklenen diller ve ülkeler/bölgeler
           href: supported-languages-countries-regions.md
+    - name: Kaynaklar
+      items:
         - name: Teknik incelemeler
           items:
             - name: Teknik incelemelere genel bakış
@@ -877,6 +873,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
               href: whitepaper-azure-b2b-power-bi.md
+        - name: Videolar
+          href: videos.md
+        - name: Web Seminerleri
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: Genel Bakış
@@ -1333,7 +1333,7 @@
           href: service-gateway-personal-mode.md
         - name: Özel bağlayıcılar
           href: service-gateway-custom-connectors.md
-        - name: Şirket içi veri ağ geçidiyle ilgili sorunları giderme
+        - name: Şirket içi veri ağ geçidi sorunlarını giderme
           href: service-gateway-onprem-tshoot.md
     - name: Kaynaklar
       items:

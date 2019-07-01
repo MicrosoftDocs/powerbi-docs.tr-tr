@@ -1,22 +1,22 @@
 ---
-title: Power BI şablon uygulamaları nedir? (önizleme)
+title: Power BI şablon uygulamaları nedir?
 description: Bu makale Power BI şablon uygulaması programına genel bir bakış sağlar. Çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmayı ve bunları Power BI müşterilerine dağıtmayı öğrenin.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751093"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408203"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>Power BI şablon uygulamaları nedir? (önizleme)
+# <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 
 Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makale Power BI şablon uygulaması programına genel bir bakış sağlar.
 
@@ -37,7 +37,7 @@ Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına 
 | **Üç** | |  | Power BI kiracınızın dışında doğrulama için test paketini üretim öncesi aşamaya yükseltme ve AppSource’a gönderme  |  | Üretim öncesi paketinizle bir Power BI şablon uygulaması teklifi oluşturma ve doğrulama sürecini başlatma |
 | **Dört** | |  | Üretim öncesi paketi üretime yükseltme |  | Canlı yayına geçme |
 
-## <a name="requirements"></a>Gereksinimler
+## <a name="before-you-begin"></a>Başlamadan önce
 
 Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI yönetim portalı, Şablon uygulaması ayarları. 
 
@@ -66,9 +66,11 @@ Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına 
 
 ## <a name="requirements"></a>Gereksinimler
 
-Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings-preview). 
+Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings). 
 
 Şablon uygulamasını Power BI hizmetine ve AppSource’a yayımlamak için, [Bulut Marketi Yayımcısı olma](https://docs.microsoft.com/azure/marketplace/become-publisher) gereksinimlerini karşılamanız gerekir.
+ > [!NOTE] 
+ > Şablon uygulamaları gönderimleri [Bulut İş Ortağı Portalı](https://cloudpartner.azure.com)’nda yönetilir. Oturum açmak için aynı Microsoft Developer Center kayıt hesabını kullanın. AppSource teklifleriniz için yalnızca bir tane Microsoft hesabınızın olması gerekir. Hesaplar, ayrı hizmetlere veya tekliflere özel olmamalıdır.
 
 ## <a name="tips"></a>İpuçları 
 
@@ -78,7 +80,7 @@ Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına 
 - Ayrı benzersiz senaryolar için birden fazla şablon uygulaması sunmayı göz önüne alın. 
 - Veri özelleştirmesini etkinleştirin, örneğin yükleyicinin özel bağlantısını ve parametre yapılandırmasını destekleyin.
 
-Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları (önizleme)](service-template-apps-tips.md).
+Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları](service-template-apps-tips.md).
 
 ## <a name="support"></a>Destek
 Geliştirme sırasında destek almak için [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) adresine gidin. Bu siteyi etkin bir şekilde izliyor ve yönetiyoruz. Müşteri olayları hızla ilgili ekibe aktarılmaktadır.
