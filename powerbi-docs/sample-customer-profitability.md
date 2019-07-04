@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349373"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418771"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 
-## <a name="overview-of-the-customer-profitability-sample"></a>Müşteri Karlılığı örneğine genel bakış
 Müşteri Karlılığı örneği içerik paketinde, pazarlama malzemeleri üreten bir şirkete ilişkin pano, rapor ve veri kümesi bulunmaktadır. Bu pano, mali işlerden sorumlu bir genel müdür (CFO) tarafından, beş departman yöneticisi (idareciler), ürünler, müşteriler ve brüt kâr ile ilgili ana ölçümleri görme amacıyla oluşturulmuştur. CFO, kârlılığı etkileyen faktörleri bir bakışta görebiliyor.
 
 ![Müşteri Kârlılığı örneğine ilişkin pano](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 
     Valery'nin performansını etkileyen unsurları anlamak için benzer şekilde diğer sektörleri de inceleyebilir ve hatta müşterileri de görsellerimize ekleyebiliriz.
 
+## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
 
-## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Bu turda Power BI panolarının, Soru-Cevap özelliğinin ve raporların müşteri verileriyle ilgili olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
 
-[Power BI örnekleri](sample-datasets.md)  
