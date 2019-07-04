@@ -174,6 +174,8 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Mobil uygulamalarda not ekleme ve paylaşma
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: iPhone’unuzdaki uygulamadan barkod tarama
+              href: mobile/mobile-apps-scan-barcode-iphone.md
         - name: iOS
           items:
             - name: iOS uygulaması ile çalışmaya başlama
@@ -188,8 +190,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch uygulaması
               href: mobile/mobile-apple-watch.md
-            - name: iPhone’unuzdaki uygulamadan barkod tarama
-              href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Mobil cihaz yönetimini kullanarak yapılandırma
               href: mobile/mobile-app-configuration.md
         - name: Android cihazlar
