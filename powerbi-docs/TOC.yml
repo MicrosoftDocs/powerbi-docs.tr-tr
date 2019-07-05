@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Power BI’daki sayfalandırılmış raporlar
           items:
-            - name: Sayfalandırılmış raporları görüntüleme (Önizleme)
+            - name: Sayfalandırılmış rapor görüntüleme
               href: paginated-reports-view-power-bi-service.md
-            - name: Parametrelerle etkileşim kurma (Önizleme)
+            - name: Parametrelerle etkileşim kurma
               href: paginated-reports-view-parameters.md
             - name: Kendinizin veya başkalarının abone olmasını sağlama
               href: paginated-reports-subscriptions.md
