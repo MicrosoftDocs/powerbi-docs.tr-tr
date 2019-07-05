@@ -1,6 +1,6 @@
 ---
-title: Kendinizi ve başkalarını raporlara ve panolara abone yapma
-description: Power BI raporunun veya panosunun e-postayla gönderilen anlık görüntüsüne kendinizi ve iş arkadaşlarınızı abone yapmayı öğrenin.
+title: Raporlara ve panolara kendiniz abone olma
+description: Bir Power BI raporunun veya panosunun e-posta ile gönderilen bir anlık görüntüsüne abone olmayı öğrenin.
 author: mihart
 ms.author: mihart
 manager: kvivek
@@ -9,16 +9,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 06/26/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d452b036c7890d59e27df328ae12ad7f5b3b8dbb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497962"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408517"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
+# <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en önemli rapor sayfalarına ve panolara abone olduğunuzda, Power BI size e-postayla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  
 
 E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](../supported-languages-countries-regions.md)). Dil tanımlanmazsa, Power BI geçerli tarayıcınızın yerel ayarına göre seçilen dili kullanır. Dil tercihinizi görmek veya belirlemek için sırasıyla dişli simgesini ![dişli simgesi](./media/end-user-subscribe/power-bi-settings-icon.png) > **Ayarlar > Genel > Dil** seçeneklerini belirleyin. 
@@ -29,7 +29,7 @@ Aldığınız e-postanın "rapora veya panoya git" bağlantısı içerdiğini g�
 
 
 ## <a name="requirements"></a>Gereksinimler
-Abonelik **oluşturma** bir Power BI Pro özelliğidir.   
+Kendiniz için bir abonelik **oluşturma** bir Power BI Pro lisansı gerektirir. Premium bir çalışma alanında veya uygulamada içerik görüntüleyen kullanıcılar, burada bulunan içeriğe Power BI Pro lisansı olmadan da abone olabilir. **Başkalarını abone yapma** yalnızca pano sahibi tarafından kullanılabilir. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Bir panoya veya rapor sayfasına abone olma
 Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
@@ -41,15 +41,13 @@ Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kul
    
    ![Abone ol simgesi](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Abone ol penceresi](./media/end-user-subscribe/power-bi-emails-newer.png)
+   ![Abone ol penceresi](./media/end-user-subscribe/power-bi-emails-newest.png)
     
     Sol taraftaki ekran, bir panoda aldığınızda ve **Abone ol**'u seçtiğinizde gösterilir. Sağ taraftaki ekran, bir rapor sayfasında aldığınızda ve **Abone ol**'u seçtiğinizde gösterilir. Bir rapordaki birden çok sayfaya abone olmak için **Başka bir abonelik ekle**’yi seçip farklı bir sayfa seçin. 
 
 4. Aboneliği açıp kapatmak için sarı kaydırıcıyı kullanın.  Kaydırıcı Kapalı olarak ayarlandığında abonelik silinmez. Aboneliği silmek için çöp kutusu simgesini seçin.
 
-4. E-posta adresiniz otomatik olarak **Abone ol** alanına eklenir. Kuruluşunuzdaki başka kişileri abone yapmak için, onların e-posta adreslerini de buraya ekleyin. 
-
-5. İsterseniz e-posta iletisinin ayrıntıları doldurun. 
+5. İsterseniz bir konu ekleyin ve e-posta iletisinin ayrıntılarını doldurun. 
 
 5. Aboneliğiniz için **Sıklık** seçin.  Günlük, Haftalık veya Veri yenilemesinden sonra (Günlük) seçeneğini belirtebilirsiniz.  Abonelik e-postasını yalnızca belirli günlerde almak için, **Haftalık** seçin ve hangi günler almak istediğinizi belirtin.  Örneğin, abonelik e-postasını yalnızca iş günleri almak istiyorsanız, sıklık olarak **Haftalık** seçin ve Cts ile Paz kutularının işaretini kaldırın.   
 
@@ -59,7 +57,7 @@ Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kul
 
 8. Aboneliğinizi gözden geçirmek ve test etmek için **Şimdi çalıştır**'ı seçin.  Bu, size e-postayı hemen gönderir. 
 
-8. Her şey düzgün görünüyorsa, aboneliği kaydetmek için **Kaydet ve kapat**'ı seçin. Siz ve abone olan iş arkadaşlarınız, ayarladığınız zamanlamada bir e-posta ve panonun veya raporun anlık görüntüsünü alırsınız. Sıklığı **Veri yenilemesinden sonra** olarak ayarlanan tüm aboneliklerde, yalnızca söz konusu günde yapılan ilk zamanlanmış yenilemeden sonra e-posta gönderilir.
+8. Her şey düzgün görünüyorsa, aboneliği kaydetmek için **Kaydet ve kapat**'ı seçin. Ayarladığınız zamanlamaya göre bir e-posta ve pano veya raporun anlık görüntüsünü alırsınız. Sıklığı **Veri yenilemesinden sonra** olarak ayarlanan tüm aboneliklerde, yalnızca söz konusu günde yapılan ilk zamanlanmış yenilemeden sonra e-posta gönderilir.
    
    ![panonun anlık görüntüsünü e-posta ile gönderme](media/end-user-subscribe/power-bi-subscribe-email.png)
    

@@ -8,118 +8,163 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051225"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389766"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme
-Bu eğitimde, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz.   Görselleştirmelerinizi özelleştirmeye yönelik pek çok seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu, Biçimlendirme bölmesini keşfetmektir (boya rulosu simgesini seçerek).  Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.  
 
-Her görselleştirme özelleştirilebilir değildir, [özelleştirilebilir görselleştirmelerin tam listesine bakın](#list).  
+Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için, bu makalede, bir görselleştirme başlığını, açıklamayı ve arka planı nasıl özelleştireceğiniz gösterilmektedir.
 
-Görselleştirmeleri özelleştirme konusunda bir örnek için 4:50 videoda ilerleyelim. Ardından, kendi verilerinizle denemek için videonun altında yer alan yönergeleri uygulayın.
+Tüm görselleştirmeler özelleştirilemez. Ayrıntılar için görselleştirmelerin [tam listesine](#visualization-types-that-you-can-customize) bakın.
+
+Görselleştirmeleri özelleştirme konusunda bir örnek için videoda 4:50 noktasına ilerleyelim:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-### <a name="prerequisites"></a>Önkoşullar
+Şimdi, kendi verilerinizle denemek için aşağıda yer alan yönergeleri uygulayın.
+
+## <a name="prerequisites"></a>Önkoşullar
+
 - Power BI hizmeti veya Power BI Desktop
-- Perakende Analizi örneği
+
+- Perakende Analizi Örneği raporu
 
 ## <a name="customize-visualization-titles-in-reports"></a>Raporlardaki görselleştirme başlıklarını özelleştirme
-Örneği takip etmek için, Power BI hizmetinde (app.powerbi.com) oturum açın ve [Perakende Analizi Örneği](../sample-datasets.md) raporunu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açın.
+
+Örneği takip etmek için [Power BI hizmetinde](https://app.powerbi.com) oturum açın ve [Perakende Analizi Örneği](../sample-datasets.md) raporunu [Raporu düzenleme](../service-interact-with-a-report-in-editing-view.md) görünümünde açın.
 
 > [!NOTE]
-> Panolara sabitlediğiniz görselleştirmeler birer pano kutucuğu haline gelir.  Kutucuklar da [yeni başlıklar, alt başlıklar ve köprülerle özelleştirilebilir veya yeniden boyutlandırılabilir](../service-dashboard-edit-tile.md).
-> 
-> 
+> Panolara sabitlediğiniz görselleştirmeler birer pano kutucuğu haline gelir. Kutucukları da [yeni başlıklar, alt başlıklar ve köprülerle özelleştirebilir veya yeniden boyutlandırabilirsiniz](../service-dashboard-edit-tile.md).
 
-1. Raporun "New Stores" sayfasına gidin ve "Open Month ve Chain ölçütlerine göre Open Store Count" sütun grafiğini seçin.
-2. Görsel Öğeler bölmesinde, biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.  Ardından **Başlık** seçeneğini belirleyerek bu bölümü genişletin.  
+1. **Perakende Analizi Örneğinin** **Yeni Depolar** sayfasına gidin.
 
-   ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
-3. Açık (veya Kapalı) kaydırıcısını seçerek **Başlık**'ı etkinleştirebilir ve devre dışı bırakabilirsiniz. Şimdilik **Açık** durumunda bırakın.  
+1. **Open Store Count by Open Month and Chain** kümelenmiş sütun grafiğini seçin.
 
-   ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
-4. Metin alanına **Store count by month opened** yazarak **Başlık Metni**'ni değiştirin.  
-5. **Yazı tipi rengi**'ni turuncu, **Arka Plan Rengi**'ni ise sarı olarak değiştirin.
+1. **Görsel Öğeler** bölmesinde biçimlendirme seçeneklerini görüntülemek için boya rulosu simgesini seçin.
 
-   * Açılan menüyü seçin ve **Tema Renkleri**, **Son Kullanılan Renkler** veya **Özel renk**'ten bir renk seçin.
-   * Renk penceresini kapatmak için, açılan menüyü seçin.  
-     ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
+1. **Başlık** seçeneğini belirleyerek bu bölümü genişletin.
 
-   Renk penceresindeki **Varsayılana geri dön** seçeneğini belirleyerek dilediğiniz zaman varsayılan renklere dönebilirsiniz.
-6. Metin boyutunu 12'ye yükseltin.
-7. Grafik başlığı için gerçekleştireceğimiz son özelleştirme olarak, başlığı görselleştirmenin ortasına gelecek şekilde hizalayacağız. Başlık konumu varsayılan olarak sola hizalıdır.  
-   ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
+   ![Vurgulanan boya rulosu simgesini ve Başlık açılır menüsünü işaret eden bir ok işaretini gösteren Biçimlendirme bölmesi ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 
-    Eğitimin bu noktasında, sütun grafiğinizin **başlığının** aşağıdaki gibi görünmesi gerekir:  
-    ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
+1. **Başlık** kaydırıcısını **Açık** konumuna getirin.
 
-    Bu ana kadar gerçekleştirdiğimiz tüm başlık özelleştirmelerini geri almak için, **Başlık** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.  
-    ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
+   ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
+
+1. Başlığı değiştirmek için, **Başlık metni** alanına *Store count by month opened* yazın.
+
+1. **Yazı tipi rengi**’ni turuncu, **Arka plan rengi**’ni ise sarı olarak değiştirin.
+
+    1. Açılan menüyü seçin ve **Tema renkleri**, **Son kullanılan renkler** veya **Özel renk**’ten bir renk seçin.
+
+        ![Yazı tipi rengi ve arka plan rengi seçenekleri.](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
+
+    1. Renk penceresini kapatmak için, açılan menüyü seçin.
+
+       Yapmış olduğunuz değişiklikleri kaydedin.
+
+       Tüm değişiklikleri geri almanız gerekirse, renk penceresinde **Varsayılana dön**’ü seçerek varsayılan renklere dönebilirsiniz.
+
+1. Metin boyutunu **12 puntoya** yükseltin.
+
+1. Grafik başlığı için gerçekleştireceğiniz son özelleştirme olarak, başlığı görselleştirmenin ortasına gelecek şekilde hizalayacaksınız.
+
+    ![Merkez seçeneği işaretliyken Hizalama denetimlerinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
+
+Öğreticinin bu noktasında, kümelenmiş sütun grafiğinizin başlığı aşağıdaki gibi görünür:
+
+![Yeni yapılandırılan kümelenmiş sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
+
+Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
+
+Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Başlık** özelleştirme bölmesinin altındaki **Varsayılana dön** seçeneğini belirleyin.
+
+![Varsayılana dön seçeneğinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
 ## <a name="customize-visualization-backgrounds"></a>Görselleştirme arka planlarını özelleştirme
-Aynı sütun grafiği seçili durumdayken Arka Plan seçeneklerini genişletin.
 
-1. Açık (veya Kapalı) kaydırıcısını seçerek arka planı etkinleştirebilir ya da devre dışı bırakabilirsiniz. Şimdilik **Açık** durumunda bırakın.
-2. Arka plan rengini %74 gri olarak değiştirin.
+Aynı kümelenmiş sütun grafiği seçili durumdayken **Arka Plan** seçeneklerini genişletin.
 
-   * Açılan menüyü seçin ve **Tema Renkleri**, **Son Kullanılan Renkler** veya **Özel renk**'ten bir gri tonu belirleyin.
-   * Saydamlık ayarını %74 olarak değiştirin.   
-     ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
+1. **Arka plan** kaydırıcısını **Açık** konumuna getirin.
 
-   Bu ana kadar gerçekleştirdiğimiz tüm özelleştirmeleri geri almak için **Arka Plan** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.
+1. Açılır menüyü seçin ve bir gri tonu belirleyin.
+
+1. **Saydamlık** ayarını **%74** olarak değiştirin.
+
+Öğreticinin bu noktasında, kümelenmiş sütun grafiğinizin arka planı aşağıdaki gibi görünür:
+
+![Güncelleştirilmiş arka plan rengiyle kümelenmiş sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
+
+Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
+
+Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Arka plan** özelleştirme bölmesinin altındaki **Varsayılana dön** seçeneğini belirleyin.
 
 ## <a name="customize-visualization-legends"></a>Görselleştirme açıklamalarını özelleştirme
-1. **Overview** adlı rapor sayfasını açın "FiscalMonth ve District Manager ölçütlerine göre Total Sales Variance" grafiğini seçin.
-2. Görsel Öğeler sekmesinde, biçimlendirme bölmesini açmak için boya fırçası simgesini seçin.  
-3. **Açıklama** seçeneklerini genişletin.
 
-      ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
-4. Açık (veya Kapalı) kaydırıcısını seçerek açıklamayı etkinleştirin ya da devre dışı bırakın. Şimdilik **Açık** durumunda bırakın.
-5. Açıklamayı görselleştirmenin sol tarafına taşıyın.    
-6. **Başlık** seçeneğini **Açık** olarak değiştirip **Gösterge adı** alanına **Managers** yazarak bir açıklama başlığı ekleyin.
-   ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
+1. **Genel bakış** adlı rapor sayfasını açın **Total Sales Variance by FiscalMonth and District Manager** grafiğini seçin.
 
-   Bu ana kadar gerçekleştirdiğimiz tüm özelleştirmeleri geri almak için **Açıklama** özelleştirme bölmesinin altında bulunan **Varsayılana Geri Dön** seçeneğini belirleyin.
+1. **Görselleştirme** sekmesinde, Biçimlendirme bölmesini açmak için boya fırçası simgesini seçin.
 
-<a name="list"></a>
+1. **Gösterge** seçeneklerini genişletin:
 
-## <a name="visualization-types-that-can-be-customized"></a>Özelleştirilebilen görselleştirme türleri
+      ![Gösterge seçeneğinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 
-| Görselleştirme | Başlık | Arka Plan | Açıklama |
+1. **Gösterge** kaydırıcısını **Açık** konumuna getirin.
+
+1. Açıklamayı görselleştirmenin sol tarafına taşıyın.
+
+1. **Başlık** seçeneğini **Açık** olarak ayarlayarak bir gösterge başlığı ekleyin.
+
+1. **Gösterge adı** alanına *Yöneticiler* yazın.
+
+Öğreticinin bu noktasında, kümelenmiş sütun grafiğinizin göstergesi aşağıdaki gibi görünür:
+
+![Kümelenmiş sütun grafiğinde güncelleştirilmiş Göstergenin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
+
+Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
+
+Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Gösterge** özelleştirme bölmesinin altındaki **Varsayılana dön** seçeneğini belirleyin.
+
+## <a name="visualization-types-that-you-can-customize"></a>Özelleştirebileceğiniz görselleştirme türleri
+
+Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçeneklerinin bir listesi aşağıda verilmiştir:
+
+| Görselleştirme | Başlık | Arka Plan | Gösterge |
 |:--- |:--- |:--- |:--- |
-| alan |evet |evet |evet |
-| çubuk |evet |evet |evet |
-| kart |evet |evet |kullanılamaz |
-| çok satırlı kart |evet |evet |kullanılamaz |
-| sütun |evet |evet |evet |
-| birleşik |evet |evet |evet |
-| halka |evet |evet |evet |
-| kartogram |evet |evet |evet |
-| huni |evet |evet |kullanılamaz |
-| ölçer |evet |evet |kullanılamaz |
-| kpi |evet |evet |kullanılamaz |
-| çizgi |evet |evet |evet |
-| harita |evet |evet |evet |
-| matris |evet |evet |kullanılamaz |
-| pasta |evet |evet |evet |
-| dağılım |evet |evet |evet |
-| dilimleyici |evet |evet |kullanılamaz |
-| tablo |evet |evet |kullanılamaz |
-| metin kutusu |hayır |evet |kullanılamaz |
-| ağaç haritası |evet |evet |evet |
-| şelale |evet |evet |evet |
+| Alan | evet | evet |evet |
+| Çubuk | evet | evet |evet |
+| Kart | evet | evet |yok |
+| Çok Satırlı Kart | evet | evet | yok |
+| Sütun | evet | evet | evet |
+| Birleşik | evet | evet | evet |
+| Halka | evet | evet | evet |
+| Kartogram | evet | evet | evet |
+| Huni | evet | evet | yok |
+| Ölçer | evet | evet | yok |
+| KPI | evet | evet | yok |
+| Çizgi | evet | evet | evet |
+| Harita | evet | evet | evet |
+| Matris | evet | evet | yok |
+| Pasta | evet | evet | evet |
+| Dağılım | evet | evet | evet |
+| Dilimleyici | evet | evet | yok |
+| Tablo | evet | evet | yok |
+| Metin Kutusu | hayır | evet | yok |
+| Treemap | evet | evet | evet |
+| Şelale | evet | evet | evet |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[X ve Y eksenini özelleştirme](power-bi-visualization-customize-x-axis-and-y-axis.md)  
-[Renkleri ve eksen özelliklerini özelleştirme](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 
+- [X Ekseni ve Y Ekseni özelliklerini özelleştirme](power-bi-visualization-customize-x-axis-and-y-axis.md)
+
+- [Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+- [Power BI hizmeti müşterilerine yönelik temel kavramlar](../consumer/end-user-basic-concepts.md)
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

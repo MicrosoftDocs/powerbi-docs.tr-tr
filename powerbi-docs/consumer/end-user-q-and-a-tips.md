@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048146"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408187"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Soru-Cevap tarafından tanınan sözcükler ve terminoloji
@@ -41,7 +41,7 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |     |         |         |
 |**Bağlaçlar**     |  and, or, each of, with, versus, &, and, but, nor, along with, in addition to       |         
 |          |         |
-|**Karşıtlıklar**     |  Soru-Cevap hemen hemen tüm karşıtlıkları tanır, deneyin.  Bazı örnekler şunlardır: didn't, haven't, he'd, he's, isn't, it's, she'll, they'd, weren't, where'll, who's, won't, wouldn't          |
+|**Karşıtlıklar**     |  Soru-Cevap hemen hemen tüm karşıtlıkları tanır, deneyin.  Bazı örnekler şunlardır: didn't, haven't, he'd, he's, isn't, it's, she'll, they'd, weren't, who's, won't, wouldn't          |
 |        |         |
 |**Tarihler**     |       Power BI, çoğu tarih terimini (day, week, month, year, quarter, decade vb.) ve farklı biçimde yazılan birçok tarihi tanır (aşağıdakilere bakın). Power BI ayrıca şu anahtar sözcükleri de tanır: MonthName, Days 1-31, decade. Örnekler: January 3rd of 1995, January 3rd 1995, jan 03 1995, 3 Jan 1995, the 3rd of January, January 1995, 1995 January, 1995-01, 01/1995, ay adları         |
 |        |         |
@@ -66,23 +66,23 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |  |  |
 |**Üst N**     |     (düzen, sıralama): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu konudaki tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [özel görsellerdir](../power-bi-custom-visuals.md).  |
+|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [özel görsellerdir](../power-bi-custom-visuals.md).  |
 |  |  Örnek: show districts by month and sales total as bar chart (bölgeleri aya ve satış toplamına göre çubuk grafik olarak göster)               |
 |        |         |
 |**Wh (ilişki, belirtili)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Soru-Cevap soruyu oluşturmanıza yardımcı olur
-Soru-Cevap sorulan soruyu anlamak ve yanıtlamak için elinden gelenin en iyisini yapar. Bunu birkaç şekilde yapar. Bunların tümünde işlemi tam olarak veya kısmen kabul edebilir ya da hiç etmeyebilirsiniz. Siz sorunuzu yazarken Soru-Cevap:
+Soru-Cevap sorulan soruyu anlamak ve yanıtlamak için elinden gelenin en iyisini yapar. Çeşitli yollarla anlamaya çalışır. Bu ifadelerin tümünde işlemi tam olarak veya kısmen kabul edebilir ya da hiç etmeyebilirsiniz. Siz sorunuzu yazarken Soru-Cevap:
 
-* Sözcükleri ve soruları otomatik olarak tamamlar. Tanınan sözcükleri ve geçerli yanıtlar döndüren önceden kullanılmış soruları otomatik olarak tamamlama gibi çeşitli stratejiler kullanır. Birden fazla otomatik tamamlama seçeneği varsa, bunlar açılan listede sunulur.
+* Sözcükleri ve soruları otomatik olarak tamamlar. Tanınan sözcükleri, depolanan soruları ve geçerli yanıtlar döndüren önceden kullanılmış soruları otomatik olarak tamamlama gibi çeşitli stratejiler kullanır. Birden fazla otomatik tamamlama seçeneği varsa, bunlar açılan listede sunulur.
 * Yazımı düzeltir.
-* Yanıtın önizlemesini görselleştirme biçiminde sunar. Görselleştirme siz soruyu yazdıkça ve düzenledikçe güncelleştirilir. (Enter tuşuna basmanızı beklemez.)
+* Yanıtın önizlemesini görsel biçiminde sunar. Görsel siz soruyu yazdıkça ve düzenledikçe güncelleştirilir. (Enter tuşuna basmanızı beklemez.)
 * İmleci soru kutusuna tekrar taşıdığınızda, temel alınan veri kümelerinden elde edilen değişiklik terimlerini önerir.
 * Temel alınan veri kümelerindeki verilere göre soruyu yeniden yazar. Soru-Cevap, kullandığınız sözcükleri temel alınan veri kümelerindeki eş anlamlı sözcüklerle değiştirir. Farklı şekilde ifade edilen metni okuyarak Soru-Cevap'ın sorunuzu anlayıp anlamadığını belirleyebilirsiniz. 
 * Anlamadığı sözcükleri gri renkte gösterir.
 
 ## <a name="dont-stop-now"></a>Durmayın
-Soru-Cevap, sonuçlarınızı görüntüledikten sonra konuşmaya devam edin! Daha fazla öngörü elde etmek için görselleştirmenin ve Soru-Cevap'ın etkileşimli özelliklerini kullanın.
+Soru-Cevap, sonuçlarınızı görüntüledikten sonra konuşmaya devam edin! Daha fazla içgörü elde etmek için görselin ve Soru-Cevap’ın etkileşimli özelliklerini kullanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki Soru-Cevap](end-user-q-and-a.md) özelliğine geri dönün  

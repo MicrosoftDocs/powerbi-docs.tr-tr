@@ -1,5 +1,5 @@
 ---
-title: Power BI'da Birleşik Grafik
+title: Power BI'da birleşik harita
 description: Birleşik haritalar ile ilgili bu eğitimde, birleşik haritaları ne zaman kullanacağınızın yanı sıra Power BI hizmetinde ve Power BI Desktop'ta nasıl oluşturacağınız açıklanmaktadır.
 author: mihart
 manager: kvivek
@@ -8,109 +8,143 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 05/23/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e4b7b4b336b376f6ccec0bc0fe56de107ab8bd09
+ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187779"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67124194"
 ---
-# <a name="combo-chart-in-power-bi"></a>Power BI'da Birleşik Grafik
-Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu 2 grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı şekilde karşılaştırabilirsiniz.
+# <a name="combo-chart-in-power-bi"></a>Power BI'da birleşik harita
+
+Power BI'daki birleşik harita, çizgi grafik ile sütun grafiği içeren tek bir görselleştirmedir. Bu iki grafiği tek bir görselleştirmede birleştirdiğinizde verileri daha hızlı karşılaştırabilirsiniz.
 
 Birleşik haritalarda bir veya daha fazla Y ekseni bulunabilir.
 
-## <a name="when-to-use-a-combo-chart"></a>Birleşik Haritaları ne zaman kullanırsınız?
+## <a name="when-to-use-a-combo-chart"></a>Birleşik haritaları ne zaman kullanırsınız?
+
 Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 
-* aynı X eksenine sahip bir çizgi grafiğiniz ve sütun grafiğiniz olduğunda.
-* farklı değer aralıklarına sahip birden fazla ölçüyü karşılaştırmak istediğinizde.
-* iki ölçü arasındaki bağıntıyı tek bir görselleştirmede sunmak istediğinizde.
-* bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde.
-* tuval alanını tasarruflu bir şekilde kullanmak istediğinizde.
+* Aynı X eksenine sahip bir çizgi grafiğinizle bir sütun grafiğiniz olduğunda.
 
-### <a name="prerequisites"></a>Önkoşullar
-Birleşik haritalar Power BI hizmetinde ve Power BI Desktop'ta kullanılabilir. Bu eğitimde, Birleşik harita oluşturmak için Power BI hizmeti kullanılmaktadır. Birlikte ilerlemek için Power BI hizmetini açın ve "Perakende Analizi" örneğine bağlanın. ([İlgili yönergeler aşağıda verilmiştir](#create)).
+* Farklı değer aralıklarına sahip birden fazla ölçüyü karşılaştırmak istediğinizde.
 
+* İki ölçü arasındaki bağıntıyı tek bir görselleştirmede sunmak istediğinizde.
 
-## <a name="create-a-basic-single-axis-combo-chart"></a>Basit, tek eksenli bir Birleşik Harita oluşturma
+* Bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde.
+
+* Tuval alanını tasarruflu kullanmak istediğinizde.
+
+## <a name="prerequisites"></a>Önkoşullar
+
+Birleşik haritalar Power BI hizmetinde ve Power BI Desktop'ta kullanılabilir. Bu eğitimde, birleşik harita oluşturmak için Power BI hizmeti kullanılmaktadır. Power BI'da oturum açmak için kullanıcı kimlik bilgilerinizin olduğundan emin olun.
+
 Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birleşik harita oluşturmaktadır.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-<a name="create"></a> Kendi birleşik haritanızı oluşturmak için Power BI hizmetinde oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan > Panoya git** seçeneğini belirleyin.
+## <a name="create-a-basic-single-axis-combo-chart"></a>Basit, tek eksenli bir birleşik harita oluşturma
 
-1. "Retail Analysis Sample" panosunda, **Total Stores** kutucuğunu seçerek "Retail Analysis Sample" raporunu açın.
-2. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.
-3. Yeni bir rapor sayfası ekleyin.
-4. Bu yılın satış verilerini ve aya göre brüt kârı görüntüleyen bir sütun grafiği oluşturun.
+Konuyu takip etmek için Power BI hizmetini açın ve **Perakende Analizi örneğine** bağlanın. Kendi birleşik haritanızı oluşturmak için Power BI'da oturum açın ve **Veril Al**  > **Örnekler** > **Perakende Analiz Örneği** > **Bağlan**’ı seçin. **Perakende Analizi Örneği** panosu açılır.
 
-    a.  Alanlar bölmesinde **Sales** \> **This Year Sales** > **Değer** seçeneğini belirleyin.
+1. "Perakende Analizi Örneği" panosunda **Total Stores** kutucuğunu seçerek **Store Sales Overview** raporunu açın.
 
-    b.  **Sales** \> **Gross Margin This Year** alanını **Değer** kutusuna sürükleyin.
+1. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.
 
-    c. **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
+1. Sayfanın en altındaki **+** simgesini seçerek yeni bir rapor sayfası ekleyin.
 
-    ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Görselleştirmenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
+1. Bu yılın satış verilerini ve aya göre brüt kârı gösteren bir sütun grafiği oluşturun.
 
-6. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik haritalar vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
+    1. Alanlar bölmesinde **Sales** \> **This Year Sales** > **Değer** seçeneğini belirleyin.
 
-    ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
-7. **Alanlar** bölmesinden **Sales** \> **Last Year Sales** alanını **Çizgi Değerleri** demetine sürükleyin.
+    1. **Sales** \> **Gross Margin This Year** alanını **Değer** kutusuna sürükleyin.
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+    1. **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
 
-   Birleşik haritanız aşağıdaki gibi görünmelidir:
+        ![Yeni oluşturulan sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 
-   ![](media/power-bi-visualization-combo-chart/combochartdone-new.png)
+1. Görselleştirmenin sağ üst köşesindeki üç nokta simgesini seçin ve **Sıralama Ölçütü > FiscalMonth** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
+
+1. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik haritalar vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
+
+    ![Çizgi ve kümelenmiş sütun grafiği seçeneğinin vurgulandığı görselleştirme bölmesinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
+
+1. **Alanlar** bölmesinden **Sales**  >  **Last Year Sales** alanını **Çizgi Değerleri** kutusuna sürükleyin.
+
+    ![Last Year Sales değerinin Çizgi Değerleri kutusuna sürüklendiği ekran görüntüsü.](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+
+    Birleşik haritanız aşağıdaki gibi görünmelidir:
+
+    ![Last Year Sales satırı değerinin eklendiği sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/combochartdone-new.png)
 
 ## <a name="create-a-combo-chart-with-two-axes"></a>İki eksenli birleşik harita oluşturma
+
 Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
-1. İzleyen yeni bir çizgi grafik oluşturun **Gross Margin last year %** tarafından **FiscalMonth**. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
-Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
+1. **Gross Margin Last Year %** verilerini **Month** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.
 
-   ![](media/power-bi-visualization-combo-chart/combo1_new.png)
-2. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. **Gross Margin Last Year %** alanının ölçeği, **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır.      
+    ![Yeni çizgi grafiğin ekran görüntüsü.](media/power-bi-visualization-combo-chart/combo1_new.png)
 
-   ![](media/power-bi-visualization-combo-chart/flatline_new.png)
-3. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve Yığılmış Sütun grafiğine dönüştürün.
+     Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
 
-   ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. Power BI iki eksen oluşturarak veri kümelerinin farklı şekilde ölçeklenmesine olanak sağlar; sol eksende dolar cinsinden satış değeri gösterilirken sağ eksende yüzde ölçülür. Ve sorumuzun cevabını görüyoruz; evet, benzer bir desen görüyoruz.
+1. **This Year Sales** > **Value** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin. **Gross Margin Last Year %** alanının ölçeği, **Sales** alanının ölçeğinden çok daha küçüktür. Bunları karşılaştırmak zordur.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
+    ![Value ve Last Year Sales’in eklendiği çizgi grafiğin ekran görüntüsü.](media/power-bi-visualization-combo-chart/flatline_new.png)
+
+1. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve Yığılmış Sütun grafiğine dönüştürün.
+
+    ![Çizgi ve yığılmış sütun grafiği seçeneğinin vurgulandığı görselleştirme bölmesinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/converttocombo_new.png)
+
+1. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin. 
+
+    ![Çizgi ve yığılmış sütun grafiğinin ekran görüntüsü](media/power-bi-visualization-combo-chart/power-bi-combochart.png)
+
+    Power BI iki eksen oluşturur ve hizmetin veri kümelerini farklı ölçeklendirmesini sağlar. Sol taraf satış dolarını ölçer ve sağ taraf yüzdeyi ölçer. Ve sorumuzun yanıtını görürüz: Evet, gerçekten benzer bir desen görüyoruz.
 
 ## <a name="add-titles-to-the-axes"></a>Eksenlere başlık ekleme
-1. Boya rulosu simgesini ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) seçin ve Biçimlendirme bölmesini açın.
-2. **Y Ekseni** seçeneklerini genişletmek için aşağı oku seçin.
-3. İçin **y ekseni (sütun)** ayarlayın **konumu** için **sol**ayarlayın **başlık** için **üzerinde**,  **Stil** için **yalnızca başlığı göster**, ve **görüntüleme birimleri** olarak **milyonlarca**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
-4. Altında **y ekseni (sütun)** , görene kadar aşağı kaydırın **Sonrakini Göster**. Y ekseni için pek çok seçenek olduğundan, her iki kaydırma çubukları kullanmak zorunda kalabilirsiniz. Çizgi grafik bölümünü birleşik harita biçimlendirme seçenekleri göster ikincil bölümünde görüntüler.
+1. Boya rulosu simgesini ![Boya rulosu simgesinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) seçerek Biçimlendirme bölmesini açın.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. **Y Ekseni (Satır)** için **Konum**'u **Sağ**, **Başlık**'ı **Açık**, **Stil**'i ise **Yalnızca başlığı göster** olarak ayarlayın.
+1. **Y Ekseni** seçeneklerini genişletmek için aşağı oku seçin.
 
-   Artık birleşik haritanız başlıkları olan iki eksen görüntüler.
+1. **Y ekseni (Sütun)** için şu seçenekleri belirleyin:
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
+    | Ayar | Değer |
+    | ------- | ----- |
+    | Konum | **Sol**’u seçin. |
+    | Birimleri görüntüle | **Milyon**’u seçin. |
+    | Başlık | Kaydırıcıyı **Açık** konumuna getirin. |
+    | Stil | **Yalnızca başlığı göster**’i seçin. |
+    | İkincili göster | Kaydırıcıyı **Açık** konumuna getirin.  Bu ayar, birleşik haritanın çizgi grafik bölümünü biçimlendirmeye ilişkin seçenekleri gösterir. |
 
-6. İsteğe bağlı olarak metin yazı tipini, boyutunu, rengini değiştirebilir; grafiğin görünümünü ve okunabilirliğini geliştirmek için diğer biçimlendirme seçeneklerini ayarlayabilirsiniz.
+1. **Y ekseni (Çizgi)** için şu seçenekleri belirleyin:
+
+    | Ayar | Değer |
+    | ------- | ----- |
+    | Konum | **Sağ**’ı seçin. |
+    | Başlık | Kaydırıcıyı **Açık** konumuna getirin. |
+    | Stil | **Yalnızca başlığı göster**’i seçin. |
+
+    Artık birleşik haritanız başlıkları olan iki eksen gösterir.
+
+    ![Başlıkların açık olduğu Çizgi ve yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+
+1. İsteğe bağlı olarak metin yazı tipini, boyutunu, rengini değiştirebilir; grafiğin görünümünü ve okunabilirliğini geliştirmek için diğer biçimlendirme seçeneklerini ayarlayabilirsiniz.
 
 Bu noktada aşağıdakileri yapmak isteyebilirsiniz:
 
 * [Birleşik haritayı pano kutucuğu olarak ekleme](../service-dashboard-tiles.md).
+
 * [Raporu kaydedin](../service-report-save.md).
+
 * [Raporu engelli kişiler için daha kolay erişilebilir hale getirin](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Çapraz vurgulama ve çapraz filtreleme
 
-Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../service-reports-visual-interactions.md) yararlanın.
+Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../service-reports-visual-interactions.md) yararlanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

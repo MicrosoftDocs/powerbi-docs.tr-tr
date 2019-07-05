@@ -8,120 +8,169 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0106c59c5fc4d122205a144d85a6e7f643c5a429
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61280275"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409195"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
-Tablo, mantıksal satır ve sütun dizilerinde ilgili verileri içeren bir kılavuzdur. Tabloda başlık ve toplam satırı da bulunabilir. Tablolar, tek bir kategoriye ait birden fazla değeri incelediğiniz nicelik karşılaştırmaları için idealdir. Örneğin bu tabloda **Category** için 5 farklı ölçü gösterilmektedir.
 
-![](media/power-bi-visualization-tables/table.png)
+Tablo, mantıksal satır ve sütun dizilerinde ilgili verileri içeren bir kılavuzdur. Tabloda başlık ve toplam satırı da bulunabilir. Tablolar, tek bir kategoriye ait birden fazla değeri incelediğiniz nicelik karşılaştırmaları için idealdir. Örneğin bu tabloda **Category** için beş farklı ölçü gösterilmektedir.
 
-Raporlarda tablolar oluşturun ve bir tablodaki öğelerle aynı rapor sayfasındaki diğer görseller arasında çapraz vurgulama gerçekleştirin.  Ayrıca satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Tek veya birden fazla hücre seçimi kopyalanarak diğer uygulamalara yapıştırılabilir.
+![Category için beş farklı ölçü gösteren bir tablo ekran görüntüsü.](media/power-bi-visualization-tables/table.png)
+
+Raporlarda tablolar oluşturun ve bir tablodaki öğelerle aynı rapor sayfasındaki diğer görseller arasında çapraz vurgulama gerçekleştirin. Satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Tek veya birden fazla hücre seçimi kopyalayıp bunları diğer uygulamalara yapıştırabilirsiniz.
 
 ## <a name="when-to-use-a-table"></a>Tablolar ne zaman kullanılır?
+
 Tablolar şunlar için harika seçimdir:
 
-* ayrıntılı verileri ve tam değerleri görüp karşılaştırmak için (görsel gösterimler yerine)
-* verileri tablo biçiminde görüntülemek için
-* sayısal verileri kategorilere göre ayrılmış şekilde görüntülemek için   
+* Ayrıntılı verileri ve tam değerleri görüp karşılaştırmak için (görsel gösterimler yerine).
+
+* Verileri tablo biçiminde görüntülemek için.
+
+* Sayısal verileri kategorilere göre ayrılmış şekilde görüntülemek için.
 
 > [!NOTE]
 > Bir tabloda çok fazla değer varsa tabloyu matrise dönüştürmeyi ve/veya detaya gitme özelliğini kullanmayı deneyin. Bir tablonun görüntüleyeceği en fazla veri noktası 3.500'dür.
 
 ## <a name="prerequisites"></a>Önkoşullar
-- Power BI hizmeti veya Power BI Desktop
-- Perakende Analizi örneği
+
+* Power BI hizmeti veya Power BI Desktop
+
+* Perakende Analizi Örneği raporu
+
+## <a name="get-the-retail-analysis-sample-report"></a>Perakende Analizi Örneği raporunu alma
+
+Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Bir görsel öğe oluşturmak için veri kümesinde ve raporda düzenleme izinlerine sahip olmanız gerekir. Neyse ki, Power BI örneklerinin tümü düzenlenebilir. Biri sizinle bir rapor paylaşırsa, raporda görselleştirmeler oluşturamazsınız. Örneği takip etmek için [Perakende Analizi Örneği raporunu](../sample-datasets.md) alın.
+
+**Perakende Analizi Örneği** veri kümesini aldıktan sonra başlayabilirsiniz.
 
 ## <a name="create-a-table"></a>Tablo oluşturma
-Yukarıdaki resimde görülen ve ürün kategorisine göre satış değerlerini gösteren tabloyu oluşturacağız. Örneği takip etmek için Power BI hizmetinde oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan**'ı seçtikten sonra **Panoya git** seçeneğini belirleyin. Bir görsel öğe oluşturmak için veri kümesinde ve raporda düzenleme izinlerine sahip olmanız gerekir. Neyse ki, Power BI örneklerinin tümü düzenlenebilir. Sizinle bir rapor paylaşıldıysa, raporlarda görsel öğe oluşturamazsınız.
 
-1. Sol gezinti bölmesinden **Çalışma Alanları > Çalışma Alanım**’ı seçin.    
-2. Veri Kümeleri sekmesini seçin ve sayfayı kaydırarak yeni eklediğiniz Perakende Analizi Örneği veri kümesini bulun.  **Rapor oluştur** simgesini seçin.
+Satış değerlerini ürün kategorisine göre görüntülemek için makalenin başında gösterilen tabloyu oluşturacaksınız.
 
-    ![rapor simgesine işaret eder](media/power-bi-visualization-tables/power-bi-create-report.png)
-2. Rapor düzenleyicisinde **Item** > **Category**'yi seçin.  Power BI otomatik olarak tüm kategorileri listeleyen bir tablo oluşturur.
+1. **Çalışma Alanım**’dan **Veri kümeleri** > **Rapor oluştur**’u seçin.
+
+    ![Veri kümeleri > Rapor oluştur ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
+
+1. **Alanlar** bölmesinden, **Öğe** > **Kategori** seçeneğini belirleyin.
+
+    Power BI otomatik olarak tüm kategorileri listeleyen bir tablo oluşturur.
 
     ![Kategori ekleme sonucu](media/power-bi-visualization-tables/power-bi-table1.png)
-3. **Sales > Average Unit Price**, **Sales > Last Year Sales** ve **Sales > This Year Sales** öğelerini seçip 3 seçeneği de (Değer, Hedef, Durum) belirleyin.   
-4. Görsel Öğeler bölmesinde **Değerler** kutusunu bulun ve değerleri grafiğinizdeki sıralama bu sayfadaki ilk görüntüdeki gibi olana kadar sürükleyip bırakın.  Değerlerinizin aşağıdaki gibi görünmesi gerekir.
+
+1. **Sales > Average Unit Price** ve **Sales > Last Year Sales**’i belirleyin
+
+1. Ardından, **Sales > This Year Sales**’i seçin ve şu üç seçeneğin üçünü de belirleyin: **Değer**, **Hedef**, ve **Durum**.
+
+1. **Görsel Öğeler** bölmesinde **Değerler** kutusunu bulun ve değerleri grafiğinizdeki sıralama bu sayfadaki ilk görüntüdeki gibi olana kadar sürükleyin. **Değerler** kutunuz aşağıdaki gibi görünecektir:
 
     ![Değerler iyi](media/power-bi-visualization-tables/power-bi-table2.png)
-5. Raptiye simgesini seçerek tabloyu panoya sabitleyin  
 
-     ![thumbtack](media/power-bi-visualization-tables/pbi_pintile.png)
+1. Raptiye simgesini seçerek tabloyu panoya sabitleyin ![thumbtack](media/power-bi-visualization-tables/pbi_pintile.png) dokunun.
 
 ## <a name="format-the-table"></a>Tabloyu biçimlendirme
-Bir tabloyu biçimlendirmek için kullanabileceğiniz birçok farklı yöntem vardır. Burada yalnızca birkaç tanesini inceleyeceğiz. Diğer biçimlendirme seçenekleri hakkında bilgi edinmek için Biçimlendirme bölmesini açıp (boya rulosu simgesi ![boya rulosu](media/power-bi-visualization-tables/power-bi-format.png)) keşferebilirsiniz.
 
-* Tablo kılavuzunu biçimlendirmeyi deneyin. Burada mavi dikey kılavuz ekledik, satırlara boşluk ekledik, tablonun ana hatlarını ve metin boyutunu bir miktar artırdık.
+Bir tabloyu biçimlendirmenin birçok yolu bulunur. Burada yalnızca birkaçı ele alınır. Diğer biçimlendirme seçenekleri hakkında bilgi edinmek için **Biçim** bölmesini açıp (boya rulosu simgesi ![boya rulosu simgesi](media/power-bi-visualization-tables/power-bi-format.png)) kendiniz keşfedebilirsiniz.
+
+* Tablo kılavuzunu biçimlendirmeyi deneyin. Burada mavi dikey kılavuz ve satırlara boşluk ekleyip tablonun ana hatlarını ve metin boyutunu artıracaksınız.
 
     ![Kılavuz kartı](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
 
     ![sonuçlara gösteren tablo](media/power-bi-visualization-tables/power-bi-table-grid3.png)
-* Sütun başlıklarında arka plan rengini değiştirdik, ana hat ekledik ve yazı tipi boyutunu artırdık. 
+
+* Sütun başlıkları için arka plan rengini değiştirin, ana hat ekleyin ve yazı tipi boyutunu artırın.
 
     ![Sütun başlıkları kartı](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
 
     ![tabloda biçimlendirilen başlıklar](media/power-bi-visualization-tables/power-bi-table-column2.png)
 
-* Hatta tek sütunlara ve sütun başlıklarına bile biçimlendirme uygulayabilirsiniz. İlk olarak **Alan biçimlendirme**’yi genişletin ve açılır listeden biçimlendirilecek sütunu seçin. Sütun değerlerine bağlı olarak, Alan biçimlendirme şunun gibi ayarları yapmanızı sağlar: görüntüleme birimleri, yazı tipi rengi, ondalık basamak sayısı, arka plan, hizalama ve daha fazlası. Ayarları düzenledikten sonra bu ayarları üst bilgiye ve toplamlar satırına da uygulayıp uygulamayacağınıza karar verin.
+* Hatta tek sütunlara ve sütun başlıklarına bile biçimlendirme uygulayabilirsiniz. İlk olarak **Alan biçimlendirme**’yi genişletin ve açılır listeden biçimlendirilecek sütunu seçin. Sütun değerlerine bağlı olarak, **Alan biçimlendirme** şunun gibi ayarları yapmanızı sağlar: görüntüleme birimleri, yazı tipi rengi, ondalık basamak sayısı, arka plan, hizalama ve daha fazlası. Ayarları düzenledikten sonra bu ayarları üst bilgiye ve toplamlar satırına da uygulayıp uygulamayacağınıza karar verin.
 
-    ![Bu yılın satışları için alan biçimlendirme](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+    ![Bu yılın satışları için Alan biçimlendirme](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
-* Birkaç ek biçimlendirme sonrasında tablonun son halini aşağıda görebilirsiniz. Çok sayıda biçimlendirme seçeneği olduğundan öğrenmenin en iyi yolu varsayılan biçimlendirme ile başlayıp Biçimlendirme bölmesini  ![](media/power-bi-visualization-tables/power-bi-format.png) açmak ve seçenekleri keşfetmeye başlamaktır. 
+    ![Bu yılın satışları tabloda yer alacak şekilde Alan biçimlendirme](media/power-bi-visualization-tables/power-bi-field-formatting-1.png)
+
+* Birkaç ek biçimlendirme sonrasında tablonun son halini aşağıda görebilirsiniz.
 
     ![Şimdiye kadarki tüm biçimlendirmelere sahip tablo](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>Koşullu biçimlendirme
-Biçimlendirme türlerinden biri de *koşullu biçimlendirmedir* ve Power BI hizmetinde veya Desktop uygulamasında **Görsel Öğeler** bölmesinin **Değerler** kutusundaki alanlara uygulanır. 
 
-Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dahil olmak üzere hücre değerlerine göre özel hücre arka plan renkleri ve yazı tipi renkleri belirtebilirsiniz. 
+*Koşullu biçimlendirme* biçimlendirme türlerinden biridir. Power BI, **Görsel öğeler** panosunun **Değerler** kutucuğundaki alanlara koşullu biçimlendirme uygular.
 
-1. Power BI hizmetinin veya Desktop uygulamasının **Görsel Öğeler** bölmesinde, **Değerler** kutusunda yer alan değerlerden biçimlendirmek istediğiniz değerin yanındaki aşağı oku seçin (veya alana sağ tıklayın). Koşullu biçimlendirmeyi yalnızca **Alanlar** kutusunun **Değerler** alanındaki alanlar için yönetebilirsiniz.
+Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dahil olmak üzere hücre değerlerine göre özel hücre arka plan renkleri ve yazı tipi renkleri belirtebilirsiniz.
+
+1. **Görsel Öğeler** bölmesinde **Alanlar** simgesini ![alanlar simgesi](media/power-bi-visualization-tables/power-bi-fields-icon.png) seçin.
+
+1. **Değerler** kutusunda yer alan değerlerden biçimlendirmek istediğiniz değerin yanındaki aşağı oku seçin (veya alana sağ tıklayın).
+
+    > [!NOTE]
+    > Koşullu biçimlendirmeyi yalnızca **Alanlar** kutusunun **Değerler** alanındaki alanlar için yönetebilirsiniz.
 
     ![Arka plan renk ölçeklerine giden yol](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
-2. **Arka plan renk ölçekleri**'ni seçin. Açılan iletişim kutusunda rengin yanı sıra *Minimum* ve *Maksimum* değerleri yapılandırabilirsiniz. **Ayrılan** kutusunu seçerseniz isteğe bağlı bir *Orta* değeri de yapılandırabilirsiniz.
+
+1. **Arka plan rengi**'ni seçin.
+
+1. Açılan iletişim kutusunda rengi, **Minimum** değerini ve **Maksimum** değerini yapılandırabilirsiniz. **Ayrılan** seçeneğini seçerseniz isteğe bağlı bir **Orta** değeri de yapılandırabilirsiniz.
 
     ![Arka plan renk ölçekleri ekranı](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    Şimdi Average Unit Price değerlerine özel biçimlendirme uygulayalım. **Ayrılan**'ı seçin, birkaç renk ekleyin ve **Tamam**'ı seçin. 
+    Şimdi Average Unit Price değerlerine özel biçimlendirme uygulayalım. **Ayrılan**'ı seçin, birkaç renk ekleyin ve **Tamam**'ı belirleyin.
 
     ![Ayrılan renkleri gösteren tablo](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
-3. Tabloya hem pozitif hem de negatif değerler içeren yeni bir alan ekleyin.  **Sales > Total Sales Variance** öğesini seçin. 
+1. Tabloya hem pozitif hem de negatif değerler içeren yeni bir alan ekleyin. **Sales > Total Sales Variance** öğesini seçin.
 
     ![en sağda yani bir alan gösterir](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
-4. **Total Sales Variance** öğesinin yanındaki aşağı oku seçip **Koşullu biçimlendirme > Veri çubukları** yolunu izleyerek veri çubuğu koşullu biçimlendirmesi ekleyin.
+
+1. **Total Sales Variance** öğesinin yanındaki aşağı oku seçip **Koşullu biçimlendirme > Veri çubukları** yolunu izleyerek veri çubuğu koşullu biçimlendirmesi ekleyin.
 
     ![Veri çubukları seçmeye giden yol](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
-5. Açılan iletişim kutusunda **Pozitif çubuk** ve **Negatif çubuk** renklerini ayarlayın, **Yalnızca çubuğu göster**'in yanına onay işareti ekleyin ve istediğiniz diğer değişiklikleri yapın.
+
+1. Açılan iletişim kutusunda **Pozitif çubuk** ve **Negatif çubuk** renklerini ayarlayın, **Yalnızca çubuğu göster** seçeneğini belirleyin ve istediğiniz diğer değişiklikleri yapın.
 
     ![Yalnızca çubuğu gösterme onay işareti](media/power-bi-visualization-tables/power-bi-data-bars.png)
 
-    **Tamam**'ı seçtiğinizde tabloda sayısal değerler verine veri çubukları gösterilir ve bu sayede tablo daha kolay anlaşılır hale gelir.
+1. **Tamam**'ı seçin.
+
+    Tabloda, veri çubukları sayısal değerlerin yerini alır ve bu sayede tablonun taranması kolaylaşır.
 
     ![Son sütundaki çubuklar hariç aynı tablo](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
-6. Bir görselleştirmedeki koşullu biçimlendirmeyi kaldırmak için alana tekrar sağ tıklayın ve **Koşullu Biçimlendirmeyi Kaldır**'ı seçin.
+
+Bir görselleştirmeden koşullu biçimlendirmeyi kaldırmak istiyorsanız alana tekrar sağ tıklayın ve **Koşullu Biçimlendirmeyi Kaldır**'ı seçin.
 
 > [!TIP]
-> Koşullu biçimlendirmeye Biçimlendirme bölmesinden (boya rulosu simgesi) de erişebilirsiniz. Biçimlendirmek istediğiniz değeri seçip **Renk ölçekleri** veya **Veri çubukları seçenekleri**’ni **Açık** konumuna getirerek varsayılan ayarları uygulayabilir veya **Gelişmiş denetimler**’i seçerek ayarları özelleştirebilirsiniz.
-> 
+> Koşullu biçimlendirmeye **Biçimlendirme** bölmesinden de erişebilirsiniz. Biçimlendirmek istediğiniz değeri seçip **Renk ölçekleri** veya **Veri çubukları seçenekleri**’ni **Açık** konumuna getirerek varsayılan ayarları uygulayabilir veya **Gelişmiş denetimler**’i seçerek ayarları özelleştirebilirsiniz.
+
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Power BI tablolarındaki değerleri diğer uygulamalarda kullanmak üzere kopyalama
 
-Tablonuzda veya matrisinizde Dynamics CRM ve Excel gibi farklı uygulamalarda ve hatta diğer Power BI raporlarında kullanmak istediğiniz içerik bulunabilir. Power BI’da sağ tıkladığınızda tek bir hücreyi veya birden fazla hücreyi panonuza kopyalayabilir, daha sonra diğer uygulamaya yapıştırabilirsiniz.
+Tablonuzda veya matrisinizde Dynamics CRM ve Excel gibi farklı uygulamalarda ve hatta diğer Power BI raporlarında kullanmak istediğiniz içerik bulunabilir. Power BI’da bir hücrenin içine sağ tıkladığınızda tek bir hücrede veya birden fazla hücrede bulunan verileri panonuza kopyalayıp diğer uygulamalara yapıştırabilirsiniz.
 
+Tek bir hücrenin değerlerini kopyalamak için:
 
-* Tek bir hücrenin değerini kopyalamak için hücreyi seçin, sağ tıklayın ve **Değeri kopyala**’yı seçin. Panonuza kaydedilen biçimlendirilmemiş hücre değerini başka bir uygulamaya yapıştırabilirsiniz.
+1. Kopyalamak istediğiniz hücreyi seçin.
+
+1. Hücrenin içine sağ tıklayın.
+
+1. **Kopyala** > **Değeri kopyala**’yı seçin.
 
     ![kopyalama seçenekleri](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
-* Birden fazla hücreyi kopyalamak için bir hücre aralığını veya CTRL tuşunu basılı tutarak birden fazla hücreyi seçin. Kopyalanan veriler sütun ve satır üst bilgilerini içerecektir.
+    Panonuza kaydedilen biçimlendirilmemiş hücre değerini artık başka bir uygulamaya yapıştırabilirsiniz.
+
+Birden fazla hücreyi kopyalamak için:
+
+1. Bir hücre aralığını veya **Ctrl** tuşunu basılı tutarak birden fazla hücreyi seçin.
+
+1. Seçtiğiniz hücrelerden birinin içine sağ tıklayın.
+
+1. **Kopyala** > **Seçimi kopyala**’yı seçin.
 
     ![kopyalama seçenekleri](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
@@ -130,15 +179,17 @@ Tablonuzda veya matrisinizde Dynamics CRM ve Excel gibi farklı uygulamalarda ve
     ![Excel’e yapıştırma](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Tablonun sütun genişliğini ayarlama
+
 Bazen Power BI bir rapordaki veya bir panodaki sütun başlığını kısaltabilir. Sütun adının tamamını göstermek için başlığın sağ tarafındaki boşluğa giderek ikili okun görünmesini bekleyin, ardından seçin ve sürükleyin.
 
 ![sütunları yeniden boyutlandırmanın yakın plan videosu](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: Otomatik, Sol, Orta, Sağ. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Ancak, bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.   
+
+Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: **Otomatik**, **Sol**, **Orta**, **Sağ**. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI'da ağaç haritaları](power-bi-visualization-treemaps.md)
+* [Power BI'da ağaç haritaları](power-bi-visualization-treemaps.md)
 
-[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

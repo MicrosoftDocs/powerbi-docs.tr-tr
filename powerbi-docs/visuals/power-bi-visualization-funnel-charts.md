@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068182"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161111"
 ---
 # <a name="funnel-charts"></a>Huni grafikler
 Huni grafik, birbirine bağlı sıralı aşamalara sahip doğrusal süreçleri görselleştirmenize yardımcı olur. Örneğin, şu aşamalarda müşterileri izleyen bir satış hunisi: Müşteri Adayı \> Nitelikli Müşteri Adayı \> Olası Müşteri \> Sözleşme \> Kapanış.  Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
@@ -61,7 +61,7 @@ Bu yönergelerde Fırsat Analizi Örneği kullanılmaktadır. Yönergeleri takip
 2. [Grafiği huniye dönüştürün](power-bi-report-change-visualization-type.md). **Sales Stage** öğesinin **Grup** kutusunda olduğuna dikkat edin. 
 3. **Alanlar** bölmesinde **Fact** \> **Opportunity Count** seçimini yapın.
    
-    ![huni grafik oluşturma](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![huni grafik oluşturma](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Çubuklardan birinin üzerine geldiğinizde bilgiler görüntülenir.
    
    * Aşamanın adı

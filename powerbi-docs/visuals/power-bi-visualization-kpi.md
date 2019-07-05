@@ -1,6 +1,6 @@
 ---
-title: KPI görselleri
-description: Power BI’da KPI görselleri oluşturma
+title: Ana Performans Göstergesi (KPI) görselleri
+description: Power BI’da Ana Performans Göstergesi (KPI) görselleri oluşturma
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,71 +8,97 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067687"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389651"
 ---
-# <a name="kpi-visuals"></a>KPI görselleri
-Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI'ler hakkında daha fazla bilgi için bkz. [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
+# <a name="key-performance-indicator-kpi-visuals"></a>Ana Performans Göstergesi (KPI) görselleri
 
-Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI’ler hakkında daha fazla bilgi için bkz. [PowerPivot’da Ana Performans Göstergeleri (KPI’ler)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
 
-## <a name="prerequisites"></a>Önkoşullar
-* [Power BI Desktop ücretsizdir.](https://powerbi.microsoft.com/get-started/)
-* [Perakende Analizi örneği PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-
-## <a name="when-to-use-a-kpi"></a>KPI'ler ne zaman kullanılır?
-KPI'ler şunlar için harika seçimdir:
-
-* ilerlemeyi ölçme (ne kadar geride ne kadar ilerideyim?)
-* bir hedef için kalan mesafeyi ölçme (ne kadar yakın ne kadar uzağım?)   
-
-## <a name="kpi-requirements"></a>KPI gereksinimleri
-Ana Performans Göstergeleri, (KPI'ler) belirli bir ölçüyü temel alır ve geçerli değerin yanı sıra tanımlanmış bir hedefle ilgili ölçümün durumunu değerlendirmenize yardımcı olacak şekilde tasarlanmıştır. Bu nedenle, KPI görselleri, değer döndüren bir *temel* ölçü, bir *hedef* ölçü veya değer ve bir *eşik* ya da *hedef* gerektirir.
-
-Geçerli sürümde KPI veri kümelerinin bir KPI için hedef değerleri içermesi gerekir. Veri kümenizde bulunmuyorsa veri modelinize veya PBIX dosyanıza hedefleri içeren bir Excel sayfası ekleyerek hedefler oluşturabilirsiniz.
-
-
-## <a name="how-to-create-a-kpi"></a>KPI'ler nasıl oluşturulur?
-Takip etmek için, Power BI Desktop’ta [Perakende Analizi örneği .PBIX dosyasını](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) açın. Bir satış hedefi için kaydettiğimiz ilerlemeyi ölçen bir KPI oluşturacağız.
-
-Alternatif olarak, Will şu tek ölçümlü görselleri oluştururken ona eşlik edebilirsiniz: ölçerler, kartlar ve KPI'ler.
+Will şu tek ölçümlü görselleri oluştururken ona eşlik edin: ölçerler, kartlar ve KPI'ler.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Rapor görünümü'nde raporu açın ve yeni bir sayfa eklemek için sarı sekmeyi seçin.    
-2. Alanlar bölmesinden, **Satışlar > Bu Yılki Toplam Birim**’i seçin  Bu göstergedir.
-3. **Zaman > FiscalMonth** ekleyin  Bu, eğilimi gösterir.
-4. ÖNEMLİ: Grafiği **FiscalMonth** ölçütüne göre sıralayın. Görselleştirmeyi KPI'ye çevirdikten sonra sıralama yapamazsınız.
+## <a name="when-to-use-a-kpi"></a>KPI'ler ne zaman kullanılır?
 
-    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
-5. Görsel Öğeler bölmesindeki KPI simgesini seçerek görseli bir KPI'ye dönüştürün.
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
-6. Bir hedef ekleyin. Hedef olarak geçen yılın satışlarını ekleyin. **Total Units Last Year** alanını **Hedefler** alanına ekleyin.
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
-7. İsteğe bağlı olarak, Biçimlendirme bölmesini açmak üzere boya rulosu simgesini seçerek KPI'yi biçimlendirebilirsiniz.
-   
-   * **Gösterge**: göstergenin görüntü birimlerini ve ondalık basamakları denetler.
-   * **Eğilim ekseni**: **Açık** olarak ayarlandığında, KPI görselinin arka planı olarak eğilim ekseni görüntülenir.  
-   * **Hedefler**: **Açık** olarak belirlendiğinde, görsel, hedefi ve yüzde olarak hedefe olan mesafeyi görüntüler.
-   * **Renk kodlaması > Yön**: Bazı KPI'ler yüksek değerler için *daha uygun* görülürken bazılarının ise düşük değerler için *daha uygun* olduğu düşünülür. Örneğin kazanç ile bekleme süresi karşılaştırması. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir. **Yüksek daha iyidir**'i seçin ve isterseniz renk ayarlarını değiştirin.
+KPI'ler şunlar için harika seçimdir:
 
+* İlerleme durumunu ölçme. “Hangi konularda ilerideyim veya hangilerinde gerideyim?” sorusunu yanıtlama.
 
-KPI'leri Power BI hizmetinden ve mobil cihazlarınızda da kullanabilir, işinizin durumundan her zaman haberdar olabilirsiniz.
+* Hedefe olan uzaklığı ölçme. “Ne kadar ileride veya gerideyim?” sorusunu yanıtlama.
+
+## <a name="kpi-requirements"></a>KPI gereksinimleri
+
+Tasarımcı, KPI görselini belirli bir ölçüyü temel alarak oluşturur. KPI’nin amacı bir ölçümün geçerli değer ve durumunu tanımlanmış bir hedefe karşı değerlendirmenize yardımcı olmaktır. KPI görselleri, değer döndüren bir *temel* ölçü, bir *hedef* ölçü veya değer ve bir *eşik* ya da *hedef* gerektirir.
+
+KPI veri kümelerinin bir KPI için hedef değerleri içermesi gerekir. Veri kümenizde hedef değerleri bulunmuyorsa veri modelinize veya PBIX dosyanıza hedefleri içeren bir Excel sayfası ekleyerek oluşturabilirsiniz.
+
+## <a name="prerequisites"></a>Önkoşullar
+
+Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+
+* [Power BI Desktop](https://powerbi.microsoft.com/get-started/); ücretsizdir!
+
+* [Perakende Analizi Örneği PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+## <a name="how-to-create-a-kpi"></a>KPI'ler nasıl oluşturulur?
+
+Takip etmek için, Power BI Desktop’ta [Perakende Analizi örneği .PBIX dosyasını](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) açın. Bir satış hedefine göre kaydettiğiniz ilerlemeyi ölçen bir KPI oluşturacaksınız.
+
+1. **Perakende Analizi Örneği**'ni rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
+1. **Alanlar** bölmesinden **Sales > Total Units This Year** alanını seçin.  Bu değer gösterge olacaktır.
+
+1. **Zaman > FiscalMonth** ekleyin  Bu değer eğilimi temsil eder.
+
+1. Görselin sağ üst köşesindeki üç nokta simgesini seçin ve Power BI’ın sütunları **FiscalMonth** ile artan düzende sıralayıp sıralamadığını kontrol edin.
+
+    > [!IMPORTANT]
+    > Görselleştirmeyi KPI'ye çevirdikten sonra sıralama **yapamazsınız**. Bu aşamada doğru sıralamanız gerekir.
+
+    ![Artan düzende sıralama ve FiscalMonth seçeneklerinin belirlendiği genişletilmiş üç nokta menüsünün ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-ascending-by-fiscal-month.png)
+
+    Doğru sıralandıktan sonra görseliniz şöyle görünür:
+
+    ![Görselin doğru sıralandığı ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-chart.png)
+
+1. **Görselleştirme** bölmesindeki **KPI** simgesini seçerek görseli bir KPI'ye dönüştürün.
+
+    ![KPI simgesinin öne çıkarıldığı Görselleştirmeler bölmesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
+
+1. Hedef eklemek için **Total Units Last Year** alanını **Target goals** alanına ekleyin.
+
+    ![Değerlerin belirtildiği, tamamlanmış KPI görseli ve Alanlar bölmesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
+
+1. İsteğe bağlı olarak, Biçimlendirme bölmesini açmak üzere boya rulosu simgesini seçerek KPI'yi biçimlendirebilirsiniz.
+
+    * **Gösterge**: göstergenin görüntü birimlerini ve ondalık basamakları denetler.
+
+    * **Eğilim ekseni**: **Açık** olarak ayarlandığında, eğilim eksenini KPI görselinin arka planı olarak gösterilir.  
+
+    * **Hedefler**: **Açık** olarak belirlendiğinde, görsel, hedefi ve yüzde olarak hedefe olan mesafeyi gösterir.
+
+    * **Renk kodlaması > Yön**: Bazı KPI'ler *yüksek* değerler için daha uygun görülürken bazılarının ise *düşük* değerler için daha uygun olduğu düşünülür. Örneğin kazanç ile bekleme süresi karşılaştırması. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir. **Yüksek iyidir**'i seçin ve isterseniz renk ayarlarını değiştirin.
+
+KPI’leri Power BI hizmetinde ve mobil cihazlarınızda kullanabilirsiniz. İşletmenizin can damarına her zaman bağlı olma seçeneği getirir.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* KPI'niz yukarıdaki gibi görünmüyorsa mali aya göre sıralama yapmamış olabilirsiniz. KPI'lerde sıralama seçeneği bulunmadığından görselleştirmenizi bir KPI'ye dönüştürmeden *önce* mali aya göre sıralama yapmanız gerekir.
+
+KPI'niz yukarıdaki gibi görünmüyorsa **FiscalMonth**’a göre sıralama yapmamış olabilirsiniz. KPI’lerin sıralama seçeneği yoktur. Yeniden başlayarak görselleştirmenizi KPI’ye dönüştürmeden *önce* **FiscalMonth**’a göre sıralamanız gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI’daki temel haritalar](power-bi-map-tips-and-tricks.md)
+* [Power BI Harita görselleştirmeleri için ipuçları ve püf noktaları](power-bi-map-tips-and-tricks.md)
 
-[Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

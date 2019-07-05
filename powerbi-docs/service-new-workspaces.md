@@ -1,6 +1,6 @@
 ---
-title: Yeni çalışma - Power BI düzenleme
-description: Panoları ve raporları kuruluşunuzun ilişkin ana ölçümleri sunmak üzere tasarlanmış koleksiyonlarıdır yeni çalışma hakkında bilgi edinin.
+title: Yeni çalışma alanlarında çalışmayı düzenleme - Power BI
+description: Kuruluşunuza ana ölçümler sunmayı amaçlayan yeni çalışma alanlarını, pano ve rapor koleksiyonlarını öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -10,99 +10,105 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f5dfaa5a23ae46fef131a52355531b5fbde3051
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65100679"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345536"
 ---
-# <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power bı'da yeni çalışma alanlarında iş düzenleme
+# <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
- *Çalışma alanları* panolar, raporlar ve sayfalandırılmış raporlar koleksiyonlarını oluşturmak için iş arkadaşlarınızla işbirliği yerlerdir. Yeni çalışma alanı deneyimi daha iyi içeriğe erişimi yönetmenize yardımcı olur. Bu makalede, yeni çalışma alanları ve klasik çalışma alanlarından farkı açıklar.  Olarak Klasik çalışma alanlarıyla, yine de bunları oluşturmak ve uygulamaları dağıtmak için kullanın. Konusunu okuyun [yeni bir çalışma deneyimi oluşturmak](service-create-the-new-workspaces.md).
+ *Çalışma alanları*, çalışma arkadaşlarınızla işbirliği yaparak pano, rapor ve sayfalandırılmış rapor koleksiyonları oluşturabildiğiniz yerlerdir. Yeni çalışma alanı deneyimi içeriğe erişimi daha iyi yönetmenize yardımcı olur. Bu makalede yeni çalışma alanları açıklanır ve klasik çalışma alanlarından farkları ortaya konur.  Klasik çalışma alanları gibi bunları da uygulamaları oluşturmak ve dağıtmak için kullanırsınız. [Yeni çalışma alanı deneyimi oluşturma](service-create-the-new-workspaces.md) hakkında bilgi edinin.
 
-Yeni çalışma alanı deneyimi, genel kullanılabilirlik (GA) ulaştı ve varsayılan çalışma alanına sunulmuştur. Oluşturma ve kullanma yine de devam edebilirsiniz [Klasik çalışma alanları](service-create-workspaces.md) Office 365 gruplarını temel alan. 
+Yeni çalışma alanı deneyimi genel kullanılabilirlik (GA) aşamasına ulaştı ve artık varsayılan çalışma alanı oldu. Yine de Office 365 Gruplarını temel alarak [klasik çalışma alanlarını](service-create-workspaces.md) oluşturmaya ve kullanmaya devam edebilirsiniz. 
 
 > [!NOTE]
-> Bir çalışma alanındaki içeriği gözatma Power BI Pro kullanıcıları için satır düzeyi güvenlik (RLS) zorlamak için kullanmaya devam [Klasik çalışma alanları](service-create-workspaces.md). Seçin **üyeleri yalnızca Power BI içeriğini görüntüleme** seçeneği. Alternatif olarak, bu kullanıcılara Power BI uygulama yayımlama veya paylaşım içeriği dağıtmak için kullanın. Gelecek Görüntüleyicisi rolü Bu senaryoda gelecekte yeni çalışma alanı deneyimi çalışma alanlarını etkinleştirir.
+> Çalışma alanındaki içeriğe göz atan kullanıcılarda satır düzeyi güvenliği (RLS) zorunlu tutmak için Görüntüleyici rolünü kullanın. Kiracınızda henüz Görüntüleyici rolü kullanılamıyorsa, [klasik çalışma alanlarını](service-create-workspaces.md) kullanmaya devam edin ve **Üyeler sadece Power BI içeriğini görüntüleyebilir** seçeneğini belirtin. Alternatif olarak söz konusu kullanıcılara Power BI uygulamasını dağıtabilir ve içerik dağıtmak için paylaşım özelliğini kullanabilirsiniz.
 
-Yeni çalışma alanları ile şunları yapabilirsiniz:
+Yeni çalışma alanlarıyla şunları yapabilirsiniz:
 
 - Çalışma alanı rollerini kullanıcı gruplarına atayabilirsiniz: güvenlik grupları, dağıtım listeleri, Office 365 grupları ve bireyler.
 - Office 365 grubu oluşturmadan Power BI'da bir çalışma alanı oluşturabilirsiniz.
 - Çalışma alanında daha esnek bir izin yönetimi için daha ayrıntılı çalışma alanı rolleri kullanabilirsiniz.
+- Power BI yöneticisi Power BI'da kimlerin çalışma alanı oluşturabileceğini denetleyebilir.
 
-Yeni çalışma alanlarından birini oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olmazsınız. Çalışma alanı yönetiminin tamamı Office 365'te değil Power BI'dadır. Yeni çalışma alanı deneyimi artık Office 365 grupları aracılığıyla içeriğe kullanıcı erişimi yönetmeye devam etmek için bir Office 365 Grup çalışma alanına erişim listesinde ekleyebilirsiniz.
+Yeni çalışma alanlarından birini oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olmazsınız. Çalışma alanı yönetiminin tamamı Office 365'te değil Power BI'dadır. Yeni çalışma alanı deneyiminde şimdi çalışma alanı erişim listesine Office 365 grubu ekleyebilir ve içeriğe kullanıcı erişimini Office 365 grupları aracılığıyla yönetmeye devam edebilirsiniz.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Yeni çalışma alanı deneyimi çalışma alanlarını yönetme
-Power BI yöneticileri Power BI'da, karar artık yeni çalışma alanı deneyimi çalışma alanları için yönetim çalışma alanı kullanan bir kuruluştaki oluşturabilirsiniz olur. Bunlar ayrıca yönetebilir ve çalışma alanı kurtarın. Bunu yapmak için Power BI Yönetici portalı veya PowerShell cmdlet'lerini kullanmanız gerekir. Office 365 gruplarını temel alan Klasik çalışma alanları için yönetim, Office 365 Yönetim Portalı ve Azure Active Directory ortaya devam eder.
+Artık yeni çalışma alanı deneyiminde çalışma alanlarının yönetimi Power BI'dadır ve kuruluşta çalışma alanlarını kimlerin oluşturabileceğine Power BI yöneticileri karar verir. Ayrıca çalışma alanlarını yönetebilir ve kurtarabilirler. Bunu yapmak için Power BI yönetim portalını veya PowerShell cmdlet'lerini kullanmaları gerekir. Office 365 Gruplarını temel alan klasik çalışma alanlarında yönetim yine Office 365 yönetim portalında ve Azure Active Directory'de gerçekleşir.
 
-İçinde **çalışma alanı ayarlarını** Yönetim Portalı'nda, yeni çalışma alanı deneyimi çalışma alanları oluşturmak için kuruluştaki herkesin veya hiç kimse izin ayarı oluşturma çalışma alanları (yeni çalışma alanı deneyimi) yöneticiler kullanabilir. Ayrıca çalışma alanı oluşturmayı belirli güvenlik gruplarının üyeleriyle de sınırlayabilir.
+Yöneticiler yönetim portalındaki **Çalışma alanı ayarları**'nda Çalışma alanları oluşturma (yeni çalışma alanı deneyimi) ayarını kullanarak kuruluştaki herkesin yeni çalışma alanı deneyimi çalışma alanları oluşturmasına izin verebilir veya kimsenin oluşturmasına izin vermeyebilir. Ayrıca çalışma alanı oluşturmayı belirli güvenlik gruplarının üyeleriyle de sınırlayabilir.
 
 > [!NOTE]
-> Power BI'da yeni çalışma alanı oluşturmak için Office 365 grupları oluşturan kullanıcılar yalnızca izin vermek için varsayılanları ayarlama oluşturma çalışma alanları (yeni çalışma alanı deneyimi). Uygun kullanıcılar yeni çalışma alanı deneyimi çalışma alanları oluşturabilir emin olmak için Power BI Yönetici portalında bir değer ayarlamayı unutmayın.
+> Çalışma alanları oluşturma (yeni çalışma alanı deneyimi) ayarının varsayılan değeri yalnızca Office 365 Grupları oluşturabilen kullanıcılara Power BI'da yeni çalışma alanları oluşturma izni verilmesidir. Power BI yönetim portalında uygun kullanıcıların yeni çalışma alanı deneyimi çalışma alanları oluşturabilmesini sağlayacak bir değer ayarlamaya dikkat edin.
 
 ![Yönetici portalındaki Çalışma alanı ayarları](media/service-new-workspaces/power-bi-workspace-admin-settings.png)
 
-[Çalışma alanlarının listesi kullanılabilir](service-admin-portal.md#workspaces) Power BI Yönetici portalı'nda. 
+Power BI yönetim portalında [çalışma alanları listesi sağlanır](service-admin-portal.md#workspaces). 
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 
-## <a name="new-workspaces-side-by-side-with-classic-workspaces"></a>Klasik çalışma alanları yeni çalışma alanları yan yana
+## <a name="new-workspaces-side-by-side-with-classic-workspaces"></a>Klasik çalışma alanlarıyla yan yana yeni çalışma alanları
 
-Yeni ve yükseltilmiş çalışma alanları ve klasik mevcut çalışma alanlarınızın yan yana bir arada ve ya da oluşturabilirsiniz. Yeni çalışma alanı deneyimi varsayılan çalışma alanı türüdür. Power BI, kullanıcının mevcut iş akışları değiştirmekten kaçınmak için Power bı'da bir üye olduğu tüm Office 365 grupları listesinde devam eder. Yeni bir çalışma alanı oluşturmayı öğrenmek için okumaya devam [yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md). Klasik bir çalışma alanı oluşturmayı öğrenmek için okumaya devam [Klasik çalışma alanları oluşturma](service-create-workspaces.md).
+Yeni, yükseltilmiş çalışma alanları ve mevcut klasik çalışma alanları yan yana bulunabilir ve ikisini de oluşturabilirsiniz. Yeni çalışma alanı deneyimi varsayılan çalışma alanı türüdür. Power BI mevcut iş akışlarının değiştirilmesini önlemek için kullanıcının Power BI'da Üye olduğu tüm Office 365 Gruplarını listelemeye devam eder. Yeni çalışma alanı oluşturmayı öğrenmek için [Yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md) konusunu okuyun. Klasik çalışma alanı oluşturmayı öğrenmek için [Klasik çalışma alanları oluşturma](service-create-workspaces.md) konusunu okuyun.
 
 ## <a name="roles-in-the-new-workspaces"></a>Yeni çalışma alanlarındaki roller
 
-Yeni bir çalışma alanı erişimi vermek için kullanıcı grupları veya kişiler çalışma rollerden birine ekleyin: üye, katkıda bulunan veya yönetici. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bireysel çeşitli kullanıcı gruplarının ise, bunlar iznine atanmış olan rolleri tarafından sağlanan en yüksek düzeyde alın.
+Yeni çalışma alanına erişim vermek için, kullanıcı gruplarını veya kişileri çalışma alanı rollerinden birine atayın: görüntüleyiciler, üyeler, katkıda bulunanlar veya yöneticiler. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birkaç kullanıcı grubunda yer alıyorsa, atandıkları rol tarafından sağlanan en yüksek izin düzeyine sahip olur.
 
 Roller çalışma alanında kimlerin neler yapabileceğini yönetmenizi sağlar ve bu sayede ekipler işbirliği yapabilir. Yeni çalışma alanları kişilere ve kullanıcı gruplarına (güvenlik grupları, Office 365 grupları ve dağıtım listeleri) roller atamanıza olanak tanır. 
 
 Bir kullanıcı grubuna roller atadığınızda, gruptaki kişiler içeriğe erişim sahibi olur. İç içe kullanıcı gruplarınız varsa, kapsam içinde yer alan tüm kullanıcıların izni olur. Farklı rollere sahip birden çok kullanıcı grubunda yer alan bir kullanıcı, kendisine verilen en yüksek izin düzeyine sahip olur. 
 
-Yeni çalışma alanları üç rol sunar: yöneticiler, üyeler ve katkıda bulunanlar.
+Yeni çalışma alanları dört rol sunar: yöneticiler, üyeler ve katkıda bulunanlar ve görüntüleyiciler.
 
-|Özellik   | Yönetici  | Üye  | Katılımcı  | 
-|---|---|---|---|
-| Çalışma alanını güncelleştirebilir ve silebilir.  | X  |   |   |
-| Diğer yöneticiler de dahil olmak üzere kişileri ekleyebilir/kaldırabilir.  | X  |   |   |
-| Üyeleri ve düşük izinlere sahip diğer kişileri ekleyebilir.  |  X | X  |   |
-| Uygulama yayımlayabilir ve güncelleştirebilir. |  X | X  |   |
-| Öğe veya uygulama paylaşabilir. |  X | X  |   |
-| Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |
-| Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |
-| Çalışma alanında rapor yayımlayabilir, içeriği silebilir. |  X | X  | X  |
+|Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
+|---|---|---|---|---|
+| Çalışma alanını güncelleştirebilir ve silebilir.  | X  |   |   |   | 
+| Diğer yöneticiler de dahil olmak üzere kişileri ekleyebilir/kaldırabilir.  | X  |   |   |   |
+| Üyeleri ve düşük izinlere sahip diğer kişileri ekleyebilir.  |  X | X  |   |   |
+| Uygulama yayımlayabilir ve güncelleştirebilir. |  X | X  |   |   |
+| Öğe veya uygulama paylaşabilir. |  X | X  |   |   |
+| Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |   |
+| Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
+| Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
+| Öğeyi görüntüleyebilir. |  X | X  | X  | X  |
  
  
 ## <a name="licensing"></a>Lisanslama
-Bir çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. Kuruluşunuzun içindeki diğer kişilere içerik dağıtmak istiyorsanız, söz konusu kullanıcılara Power BI Pro lisansları atayabilir veya çalışma alanını Power BI Premium kapasitesine getirebilirsiniz.
+Paylaşılan bir kapasitedeki çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. 
+
+Kuruluşunuzun içindeki diğer kişilere içerik dağıtmak istiyorsanız, söz konusu kullanıcılara Power BI Pro lisansları atayabilir veya çalışma alanını Power BI Premium kapasitesine getirebilirsiniz.
+
+Çalışma alanı Power BI Premium kapasitesinde olduğunda, Görüntüleyici rolüne sahip kullanıcılar Power BI Pro lisansları olmasa bile çalışma alanına erişebilir. Öte yandan bu kullanıcıları Yönetici, Üye veya Katkıda Bulunan gibi daha yüksek bir role atarsanız, çalışma alanına erişemezler. Çalışma alanına erişmeye çalıştıklarında Pro Deneme sürümünü başlatmaları istenir. Pro lisansı olmayan kullanıcıların Görüntüleyici özelliğinden yararlanabilmesi için, Görüntüleyici rolündeki kullanıcıların bireysel olarak veya bir kullanıcı grubu aracılığıyla başka bir çalışma alanı rolünde olmadığından emin olun. 
 
 > [!NOTE]
-> Yeni çalışma deneyimi için raporlar yayımlayan katı zorlama varolan kuralları lisanslama sahiptir. Kullanıcılar, Power BI Desktop veya diğer istemcilerin Araçlar Pro sürüm lisansı olmadan yayımlamayı deneyin "yalnızca Power BI Pro lisanslarına sahip kullanıcılar bu çalışma alanında yayımlayabilirsiniz." hatası bakın.
+> Raporları yeni çalışma alanı deneyiminde yayımlama işlemi mevcut lisans kurallarının daha sıkı uygulanmasını gerektirir. Pro lisansı olmadan Power BI Desktop'tan veya başka istemci araçlarından yayımlamayı deneyen kullanıcılar "Yalnızca Power BI Pro lisansı olan kullanıcılar bu çalışma alanında yayımlayabilir" hatasını görür.
 
 ## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Yeni çalışma alanlarıyla geçerli çalışma alanları arasında ne fark vardır?
 
-Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Kalıcı olmasını beklediğiniz değişiklikleri aşağıda verilmiştir. 
+Yeni çalışma alanlarıyla, bazı özellikleri yeniden tasarlıyoruz. Kalıcı hale getirilmesini bekleyebileceğiniz değişiklikler şunlardır. 
 
-* Bu çalışma alanları oluşturma Klasik çalışma alanlarının yaptığı gibi Office 365 grupları oluşturmaz. Ancak, kullanıcılar, bir rol atayarak çalışma alanınıza erişimi vermek için artık bir Office 365 grubu kullanabilirsiniz. 
-* Klasik çalışma alanlarında, üyeleri ve yöneticiler listesine sadece bireyleri ekleyebilirsiniz. Yeni çalışma alanlarında, kullanıcı yönetimini kolaylaştırmak için bu listelere birden çok AD güvenlik grubu, dağıtım listesi veya Office 365 grubu ekleyebilirsiniz. 
-- Klasik bir çalışma alanından bir kurumsal içerik paketi oluşturabilirsiniz. Yeni çalışma alanlarından oluşturamazsınız.
-- Klasik bir çalışma alanından bir kurumsal içerik paketi kullanabilir. Yeni çalışma alanlarından kullanamazsınız.
+* Bu çalışma alanlarının oluşturulması klasik çalışma alanlarında olduğu gibi Office 365 gruplarının oluşturulmasına neden olmaz. Öte yandan şimdi kullanıcılara bir rol atayarak çalışma alanınıza erişme vermek için Office 365 grubunu kullanabilirsiniz. 
+* Klasik çalışma alanlarında, üyeler ve yöneticiler listesine sadece kişileri ekleyebilirsiniz. Yeni çalışma alanlarında, kullanıcı yönetimini kolaylaştırmak için bu listelere birden çok AD güvenlik grubu, dağıtım listesi veya Office 365 grubu ekleyebilirsiniz. 
+- Klasik çalışma alandan bir kurumsal içerik paketi oluşturabilirsiniz. Yeni çalışma alanlarından oluşturamazsınız.
+- Klasik çalışma alandan bir kurumsal içerik paketini kullanabilirsiniz. Yeni çalışma alanlarından kullanamazsınız.
 
 ## <a name="workspace-contact-list"></a>Çalışma alanı kişi listesi
-Yeni **kişi listesi** özellik hangi kullanıcıların çalışma alanında oluşan sorunlarla ilgili bildirim almak belirtmenize olanak tanır. Varsayılan olarak, herhangi bir kullanıcı veya Grup yönetici bildirim, ancak liste özelleştirebileceğiniz bir çalışma alanı olarak belirtilmiş. Kişi listesi listelenen kullanıcılar veya gruplar, kullanıcılar çalışma alanına ilgili yardım alın yardımcı olmak için kullanıcı arabiriminde (UI) gösterilir. 
+Yeni **Kişi listesi** özelliği çalışma alanında oluşan sorunlar hakkında hangi kullanıcıların bildirim alacağını belirtmenize olanak tanır. Varsayılan olarak çalışma alanı yöneticisi olarak belirtilen tüm kullanıcı veya gruplar bildirim alır ama listeyi özelleştirebilirsiniz. Kullanıcıların çalışma alanıyla ilgili yardım alabilmesi için kişi listesinde yer alan kullanıcılar ve gruplar kullanıcı arabiriminde gösterilir. 
 
-Daha fazla bilgi edinin [çalışma kişi listesi ayarını](service-create-the-new-workspaces.md#workspace-contact-list).
+[Çalışma alanı kişi listesini ayarlama](service-create-the-new-workspaces.md#workspace-contact-list) hakkında daha fazla bilgi edinin.
 
-## <a name="workspace-onedrive"></a>Çalışma alanı OneDrive
-Çalışma alanı OneDrive bu özellik, SharePoint belge kitaplığına dosya depolama çalışma alanı kullanıcılara bir Office 365 grubu yapılandırmanızı sağlar. Grubun Power BI dışında oluşturulması gerekir. 
+## <a name="workspace-onedrive"></a>OneDrive Çalışma Alanı
+OneDrive Çalışma Alanı özelliği, SharePoint Belge Kitaplığı dosya depolama alanının çalışma alanı kullanıcıları tarafından kullanılabildiği bir Office 365 Grubu yapılandırmanızı sağlar. Grubun Power BI'ın dışında oluşturulması gerekir. 
 
-Power BI, kullanıcılar veya gruplar Office 365 grup üyeliği ile çalışma alanı erişimi olacak şekilde yapılandırılmış izinlerini eşitleme değil. Çalışma alanı erişimi aynı Office 365 dosya depolama, bu ayarı yapılandırmanız grubu aracılığıyla yönetmek için en iyi yöntem olacaktır. 
+Power BI, Office 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekilde yapılandırılmış kullanıcı veya grupların izinlerini eşitlemez. En iyi yöntem çalışma alanı erişimini yönetmek için bu ayarda dosya depolama alanını yapılandırdığınız aynı Office 365 Grubunu kullanmaktır. 
 
-Konusunu okuyun [ayarlayın ve çalışma alanı OneDrive erişim](service-create-the-new-workspaces.md#workspace-onedrive).  
+[OneDrive Çalışma Alanı'nı ayarlama ve bu çalışma alanına erişme](service-create-the-new-workspaces.md#workspace-onedrive) hakkında bilgi edinin.  
    
-## <a name="auditing"></a>Denetleme
-Aşağıdaki aktiviteleri yeni çalışma alanı deneyimi çalışma alanları için Power BI tarafından denetlenir.
+## <a name="auditing"></a>Denetim
+Yeni çalışma alanı deneyimi çalışma alanları için aşağıdaki etkinlikler Power BI tarafından denetlenir.
 
 | Kolay ad |   İşlem adı |
 |---|---|
@@ -111,38 +117,40 @@ Aşağıdaki aktiviteleri yeni çalışma alanı deneyimi çalışma alanları i
 | Power BI klasörü güncelleştirildi | UpdateFolder |
 | Power BI klasörüne erişim güncelleştirildi| UpdateFolderAccess |
 
-Daha fazla bilgi edinin [Power BI denetim](service-admin-auditing.md#activities-audited-by-power-bi).
+[Power BI denetimi](service-admin-auditing.md#activities-audited-by-power-bi) ile ilgili daha fazla bilgi edinin.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 Dikkat edilmesi gereken sınırlamalar:
 
 - Çalışma alanları en çok 1.000 veri kümesi veya veri kümesi başına 1.000 rapor içerebilir. 
-- Power BI Pro lisansı olan bir kişi, en fazla 1.000 bir çalışma alanı üyesi olabilir.
-- Excel için Power BI publisher desteklenmez.
+- Power BI Pro lisansı olan biri, en çok 1.000 çalışma alanına üye olabilir.
+- Excel için Power BI Publisher desteklenmez.
 
 ## <a name="workspace-features-that-work-differently"></a>Farklı çalışan çalışma alanı özellikleri
 
-Yeni çalışma alanlarındaki bazı özellikler geçerli çalışma alanlarından farklı çalışır. Biz müşterilerden aldınız ve daha esnek bir yaklaşım çalışma alanlarıyla işbirliği için geri bildirim göre bilerek, bu farklar şunlardır:
+Yeni çalışma alanlarındaki bazı özellikler geçerli çalışma alanlarından farklı çalışır. Bu farklılıklar, müşterilerden aldığımız geri bildirimler temelinde isteyerek yapılmıştır ve çalışma alanlarıyla işbirliğine daha esnek bir yaklaşım getirecektir:
 
-- Lisans zorlama: Yeni çalışma deneyimi için raporlar yayımlayan, çalışma alanlarında işbirliği veya Power BI hizmetindeki içeriği diğer kullanıcılarla paylaşma kullanıcılar için Power BI Pro lisansı var olan lisans kuralları zorlar. Pro lisansı olmayan kullanıcılar "yalnızca Powre BI Pro lisanslarına sahip kullanıcılar bu çalışma alanında yayımlayabilirsiniz." hatası bakın.
+- Lisanslama zorunluluğu: Raporları yeni çalışma alanı deneyiminde yayımlama işleminde, Power BI hizmetinde çalışma alanlarında işbirliği yapan veya başkalarıyla içerik paylaşan kullanıcılar için Power BI Pro lisansını gerektiren mevcut lisans kuralları zorunlu tutulur. Pro lisansı olmayan kullanıcılar "Yalnızca Power BI Pro lisansı olan kullanıcılar bu çalışma alanında yayımlayabilir" hatasını görür.
 - Üyeler yeniden paylaşabilir veya paylaşamaz: bunun yerini Katkıda Bulunan rolü almıştır
-- Salt okunur çalışma alanları: Kullanıcılara bir çalışma alanı için salt okuma erişim vermek yerine çalışma alanındaki içeriğe benzer salt okuma erişim sunan ve hazırlanmakta olan Görüntüleyici rolünü atarsınız.
+- Salt okunur çalışma alanları: Kullanıcılara bir çalışma alanı için salt okuma erişimi vermek yerine çalışma alanındaki içeriğe benzer bir salt okuma erişimi sağlayan Görüntüleyici rolünü atayın.
+- Pro lisansı olmayan ve yalnızca Görüntüleyici rolü olan kullanıcılar, çalışma alanı Power BI Premium kapasitesinde olduğunda bu çalışma alanına erişebilir.
+- Görüntüleyici rolü olan kullanıcıların verileri dışarı aktarmasına izin vermek için, çalışma alanındaki veri kümeleri üstünde Derleme iznine sahip olduklarından emin olun.
 - **Çalışma alanından ayrıl** düğmesi yok.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
-**Mevcut içeriklere yeni çalışma alanı tarafından etkilenen GA deneyimi olan**
+**Yeni çalışma alanı deneyiminin genel kullanıma sunulması mevcut içerik bağlantılarını etkiler mi?**
 
-Hayır. Klasik çalışma alanlarındaki mevcut öğelerine bağlantılar yeni çalışma alanı deneyimi tarafından etkilenmez. Yeni çalışma alanı deneyiminin genel kullanılabilirlik (GA) oluşturmak, ancak mevcut çalışma alanlarınızın değişmez varsayılan çalışma alanını değiştirir. 
+Hayır. Klasik çalışma alanlarındaki mevcut öğelerin bağlantıları yeni çalışma alanı deneyiminden etkilenmez. Yeni çalışma alanı deneyiminin genel kullanılabilirliği, oluşturduğunuz varsayılan çalışma alanını değiştirir ama mevcut çalışma alanlarını değiştirmez. 
 
-**Çalışma alanları GA yeni çalışma deneyimiyle yükseltme var**
+**Genel kullanılabilirlikle birlikte mevcut çalışma alanları yükseltilir mi?**
 
-Hayır. Yeni çalışma alanı deneyimi GA, yalnızca varsayılan çalışma alanı türünü yeni çalışma alanı deneyimine değiştirir. Office 365 gruplarını temel alan varolan Klasik çalışma değişmeden kalır.
+Hayır. Yeni çalışma alanı deneyimi genel kullanılabilirliği yalnızca varsayılan çalışma alanı türünü yeni çalışma alanı deneyimi olarak değiştirir. Office 365 Gruplarını temel alan mevcut klasik çalışma alanları olduğu gibi kalır.
 
-**Çalışma alanları, Office 365 grupları için yine de otomatik olarak oluşturulur**
+**Office 365 Grupları için yine otomatik olarak çalışma alanları oluşturuluyor mu?**
 
-Evet. Her iki türde çalışma alanları yan yana destekliyoruz olduğundan, kullanıcı çalışma alanları listesinde erişimi olan tüm Office 365 gruplarını listelemek devam ediyoruz.
+Evet. Her iki türde çalışma alanlarını da yan yana desteklediğimiz için, çalışma alanları listesinde kullanıcının erişimi olan tüm Office 365 Gruplarını listelemeye devam ediyoruz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)

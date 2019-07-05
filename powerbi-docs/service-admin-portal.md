@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941599"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409180"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -34,7 +34,7 @@ Power BI yönetici portalına erişim elde etmek için hesabınızın Office 365
 
     ![Yönetici portalı ayarları](media/service-admin-portal/powerbi-admin-settings.png)
 
-Portalda dokuz sekme bulunur. Bu makalenin kalan bölümünde bu sekmelerden her biriyle ilgili bilgiler sağlanır.
+Portalda dokuz sekme vardır. Bu makalenin kalan bölümünde bu sekmelerden her biriyle ilgili bilgiler sağlanır.
 
 ![Yönetici portalı gezintisi](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,8 +44,8 @@ Portalda dokuz sekme bulunur. Bu makalenin kalan bölümünde bu sekmelerden her
 * [Kiracı ayarları](#tenant-settings)
 * [Kapasite ayarları](#capacity-settings)
 * [Ekleme kodları](#embed-codes)
-* [Kuruluş görselleri](#organization-visuals)
-* [Veri akışı depolama (Önizleme)](#dataflowStorage)
+* [Kuruluş görselleri](#organizational-visuals)
+* [Veri akışı depolama (önizleme)](#dataflowStorage)
 * [Çalışma alanları](#workspaces)
 
 ## <a name="usage-metrics"></a>Kullanım ölçümleri
@@ -59,11 +59,11 @@ Pano yüklendikten sonra iki kutucuk bölümü görürsünüz. İlk bölüm, far
 
 Aşağıda, her kutucukta görebileceklerinize ilişkin bir döküm verilmiştir:
 
-* Kullanıcı çalışma alanındaki tüm panoların, raporların ve veri kümelerinin ayrı sayımı
+* Kullanıcı çalışma alanındaki tüm panoların, raporların ve veri kümelerinin ayrı sayımı.
   
     ![Panoların, raporların, veri kümelerinin ayrı sayımı](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Erişebilen kullanıcıların sayısına göre en fazla kullanılan pano. Örneğin, 3 kullanıcıyla paylaştığınız bir pano varsa ve bu panoyu iki farklı kullanıcının bağlı olduğu bir içerik paketine de eklediyseniz, panonun sayımı 6 (1 + 3 + 2) şeklinde olur
+* Erişebilen kullanıcıların sayısına göre en fazla kullanılan pano. Örneğin, 3 kullanıcıyla paylaştığınız bir pano varsa ve bu panoyu iki farklı kullanıcının bağlı olduğu bir içerik paketine de eklediyseniz, panonun sayımı 6 (1 + 3 + 2) şeklinde olur.
   
     ![En çok kullanılan panolar](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
@@ -75,7 +75,7 @@ Aşağıda, her kutucukta görebileceklerinize ilişkin bir döküm verilmiştir
   
     ![En etkin kullanıcılar - panolar](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
-* En fazla rapora sahip kullanıcılarınızın bir görünümü
+* En fazla rapora sahip kullanıcılarınızın bir görünümü.
   
     ![En etkin kullanıcılar - raporlar](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
@@ -128,23 +128,23 @@ Ayarlar üç duruma sahip olabilir:
 
 Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bakışa yer verilmiştir.
 
-## <a name="help-and-support-settings"></a>Yardım ve Destek ayarları
+## <a name="help-and-support-settings"></a>Yardım ve destek ayarları
 
-### <a name="publish-get-help-information"></a>"Yardımcı" bilgi yayımlama
+### <a name="publish-get-help-information"></a>"Yardım alın" bilgilerini yayımlama
 
-Kuruluştaki kullanıcılar, iç Yardım'a gidin ve Destek kaynakları Power BI Yardım menüsünden. Özellikle, bu parametreleri öğrenin, topluluğa ve Get Yardım menü öğelerini davranışını değiştirin.
+Kuruluştaki kullanıcılar, Power BI yardım menüsünden iç yardıma ve destek kaynaklarına gidebilir. Özellikle, bu parametreler Öğrenme, Topluluk ve Yardım alın menü öğelerinin davranışını değiştirir.
 
-Kullanıcıları lisanslama istekler için özel bir çözüm olarak yönlendirmek için bir URL belirtmek mümkündür. Bu parametre, Power BI Pro lisansı olmayan bir kullanıcı Power BI Pro iletişim kutusu güncelleştirme yanı sıra Kişisel depolama alanını Yönet sayfasında bulabilirsiniz. yükseltme hesabı düğmenin hedef URL'ye özelleştirir.
+Kullanıcıları lisanslama istekleri için özel bir çözüme yönlendirmek üzere bir URL belirtmek de mümkündür. Bu parametre, Power BI Pro lisansı olmayan bir kullanıcının Power BI Pro’ya Güncelleştir iletişim kutusunda ve Kişisel depolama alanını yönet sayfasında bulabileceği Hesabı yükselt düğmesinin hedef URL’sini özelleştirir.
 
 ## <a name="workspace-settings"></a>Çalışma alanı ayarları
 
 ### <a name="create-workspaces"></a>Çalışma alanı oluşturma
 
-Yöneticileri kullanır **çalışma alanları oluşturma** kuruluşunuzdaki hangi kullanıcıların panolar, raporlar ve diğer işbirliği yapmak için uygulama çalışma alanları içerik oluşturabilir belirten ayar. Daha fazla bilgi edinin [uygulama çalışma alanları](service-create-the-new-workspaces.md).
+Yöneticiler, kuruluştaki hangi kullanıcıların uygulama çalışma alanı oluşturarak pano, rapor ve diğer içerikler üzerinde işbirliği yapabileceğini belirtmek için **Çalışma alanı oluştur** ayarını kullanır. [Uygulama çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
-Yönetici portalı ayarları başka bir bölümünü kiracınızda bulunan çalışma alanları hakkında sahiptir. Bu bölümde, sıralama ve çalışma alanlarının listesini filtrelemek ve her bir çalışma alanı ayrıntılarını görüntüleyin. Bkz: [çalışma alanları](#workspaces) Ayrıntılar için.
+Yönetici portalında, kiracınızda bulunan çalışma alanları hakkında başka bir ayarlar bölümü bulunur. Bu bölümde, çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Ayrıntılar için bkz. [Çalışma alanları](#workspaces).
 
-Yönetim Portalı'nda, ayrıca hangi kullanıcıların, kuruluş uygulamalarını dağıtmak için izinleriniz denetler. Bkz: [içerik paketleri ve uygulamalar, kuruluş genelinde yayımlama](#publish-content-packs-and-apps-to-the-entire-organization) Ayrıntılar için bu makaledeki.
+Yönetici portalında, hangi kullanıcıların kuruluş uygulamalarını dağıtmak için izinleri olduğunu da denetlersiniz. Ayrıntılar için bu makalenin [Tüm kuruluşa içerik paketleri ve uygulamalar yayımlama](#publish-content-packs-and-apps-to-the-entire-organization) bölümüne bakın.
 
 ## <a name="export-and-sharing-settings"></a>Dışarı aktarma ve paylaşım ayarları
 
@@ -213,23 +213,28 @@ Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düze
 
 ![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
+### <a name="email-subscriptions"></a>E-posta Abonelikleri
+Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](service-report-subscribe.md) hakkında daha fazla bilgi edinin.
+
+![E-posta aboneliklerini etkinleştirme](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
+
 ## <a name="content-pack-and-app-settings"></a>İçerik paketi ve uygulama ayarları
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Kuruluşun tamamına içerik paketi ve uygulama yayımlanması devre dışı bırakıldı
 
-Yöneticileri, hangi kullanıcıların içerik paketleri ve uygulamalar kuruluşun tamamı yerine yalnızca belirli gruplara yayımlayabilirsiniz karar vermek için bu ayarı kullanın. Daha fazla bilgi edinin [uygulamaları yayımlama](service-create-distribute-apps.md).
+Yöneticiler bu ayarı kuruluştaki hangi kullanıcıların belirli gruplar yerine kuruluşun tamamına içerik paketleri ve uygulamalar yayımlayabileceğini belirlemek için kullanır. [Uygulama yayımlama](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin.
 
 Aşağıdaki görüntüde içerik paketi oluşturma sırasında **Tüm kuruluşum** seçeneği gösterilmiştir.
 
 ![Kuruluşa içerik paketi yayımlama](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps-and-organizational-content-packs"></a>Şablon uygulamalar ve kurumsal içerik paketleri oluşturma
+### <a name="create-template-apps-and-organizational-content-packs"></a>Şablon uygulamalar kurumsal içerik paketleri oluşturma
 
-Kuruluştaki kullanıcılar, şablonu uygulamalar ve Power BI Desktop'ta bir veri kaynağı üzerinde oluşturulan veri kümelerini kullanan kurumsal içerik paketleri oluşturabilirsiniz. Daha fazla bilgi edinin [şablon uygulamaları](template-content-pack-authoring.md).
+Kuruluştaki kullanıcılar Power BI Desktop’taki bir veri kaynağı üzerinde oluşturulan veri kümelerini kullanan şablon uygulamaları ve kurumsal içerik paketleri oluşturabilir. [Şablon uygulamaları](template-content-pack-authoring.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="push-apps-to-end-users"></a>Son kullanıcılara uygulama gönderme
 
-Rapor oluşturucular paylaşabilir uygulamaları son kullanıcılarla doğrudan yüklemesinden gerek kalmadan [AppSource](https://appsource.microsoft.com). Daha fazla bilgi edinin [uygulamaları son kullanıcılar için otomatik olarak yüklemeye](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
+Rapor oluşturucular, kullanıcıların [AppSource](https://appsource.microsoft.com)’tan yüklemesine gerek kalmadan uygulamaları son kullanıcılarla doğrudan paylaşabilir. [Son kullanıcılar için uygulamaları otomatik olarak yükleme](service-create-distribute-apps.md#automatically-install-apps-for-end-users) hakkında daha fazla bilgi edinin.
 
 ## <a name="integration-settings"></a>Tümleştirme ayarları
 
@@ -351,7 +356,7 @@ Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Hizmet sorumlularının Power BI API'leri kullanmasına izin ver
 
-Web uygulamaları Azure Active Directory'de (Azure AD) kayıtlı olmayan, oturum açmış bir kullanıcı Power BI API'lerini erişmek için bir atanan hizmet sorumlusu kullanır. Hizmet sorumlusu kimlik doğrulaması kullanmak için bir uygulama, hizmet sorumlusu izin vermek için bir izin verilen güvenlik grubuna eklenmelidir. [Daha fazla bilgi](developer/embed-service-principal.md)
+Azure Active Directory’ye (Azure AD) kayıtlı web uygulamaları, oturum açmış bir kullanıcı olmadan Power BI API’lerine erişmek için atanmış bir hizmet sorumlusu kullanır. Bir uygulamanın hizmet sorumlusu kimlik doğrulamasını kullanmasına izin vermek için hizmet sorumlusunun izin verilen bir güvenlik grubuna eklenmesi gerekir. [Daha fazla bilgi](developer/embed-service-principal.md)
 
 > [!NOTE]
 > Hizmet sorumluları tüm Power BI kiracı ayarları için izinleri kendi güvenlik grubundan devralır. İzinleri kısıtlamak için hizmet sorumlularına ayrılmış bir güvenlik grubu oluşturun ve bu grubu ilgili, etkin Power BI ayarlarının 'Belirli güvenlik grupları hariç' listesine ekleyin.
@@ -360,29 +365,34 @@ Web uygulamaları Azure Active Directory'de (Azure AD) kayıtlı olmayan, oturum
 
 ### <a name="create-and-use-dataflows"></a>Veri akışları oluşturma ve kullanma
 
-Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Veri akışlarını genel bakış için bkz. [Self Servis veri hazırlama Power BI'da](service-dataflows-overview.md). Premium kapasitede veri akışlarını etkinleştirmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
+Kuruluştaki kullanıcılar veri akışları oluşturabilir ve kullanabilir. Veri akışlarına yönelik bir genel bakış için bkz. [Power BI’da self servis veri hazırlığı](service-dataflows-overview.md). Premium kapasitede veri akışlarını etkinleştirmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
 
-## <a name="template-apps-settings-preview"></a>Şablon uygulaması ayarları (önizleme)
+## <a name="template-apps-settings"></a>Şablon uygulaması ayarları
 
-Şablon uygulamaları iki ayarla denetlenir. 
+Bu ayarlar şablon uygulamalarının şablon uygulaması yayımlama veya yükleme yeteneğini denetler.
 
 ![Power BI yönetim portalı şablon uygulaması ayarları](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-### <a name="create-template-apps-preview"></a>Şablon Uygulamaları Oluşturma (önizleme)
+### <a name="publish-template-apps"></a>Şablon Uygulamaları Yayımlama
 
-Kuruluştaki kullanıcılar, şablonu uygulamalar oluşturabilirsiniz. Şablon uygulama oluşturucular daha sonra dağıtabilirsiniz bunları istemcilerine sunar, kuruluşunuz dışındaki [AppSource](https://appsource.microsoft.com) veya diğer dağıtım yöntemleri.
+Kuruluştaki kullanıcılar, şablon uygulama çalışma alanları oluşturabilir. Hangi kullanıcıların [AppSource](https://appsource.microsoft.com)’u veya başka bir dağıtım yöntemini kullanarak şablon uygulamaları yayımlayabileceğini veya bu uygulamaları kuruluşunuzun dışındaki istemcilere dağıtabileceğini denetleyin.
 
 ![Power BI yönetim portalı, Şablon uygulamaları oluştur ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-### <a name="install-template-apps-preview"></a>Şablon uygulamaları (Önizleme)
+### <a name="install-template-apps-listed-on-appsource"></a>AppSource’ta listelenen şablon uygulamalarını yükleme
 
-Kuruluştaki kullanıcılar, indirebilir ve yükleyebilirsiniz şablon uygulamalardan [AppSource](https://appsource.microsoft.com) veya başka bir kaynak.
+Kuruluştaki kullanıcılar **yalnızca** [AppSource](https://appsource.microsoft.com)’tan şablon uygulamalarını indirebilir ve yükleyebilir. Hangi kullanıcıların veya güvenlik gruplarının AppSource’tan şablon uygulamaları yükleyebileceğini denetleyin.
 
-> [!NOTE]
-> Bu ayar, hangi kullanıcıların şablonu uygulamaları Power BI hesaplarına yükleyebilirsiniz belirler.
+![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+
+### <a name="install-template-apps-not-listed-on-appsource"></a>AppSource’ta listelenmeyen şablon uygulamalarını yükleme
+
+Kuruluştaki hangi kullanıcıların **[AppSource](https://appsource.microsoft.com)’ta listelenmeyen** şablon uygulamalarını indirebileceğini ve yükleyebileceğini denetleyin.
+
+![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Güvenlik ayarları
 
@@ -394,7 +404,7 @@ Kuruluştaki kullanıcılar, indirebilir ve yükleyebilirsiniz şablon uygulamal
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. Bu yana yalnızca Azure'nın sunduğu A SKU satın alabilir, [Azure içinde ekli kapasiteleri Yönet](developer/azure-pbie-create-capacity.md) gelen **Azure portalında**.
+**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU’ları yalnızca Azure’dan satın alabileceğiniz için [Azure’da ekli kapasiteleri yönetmek için](developer/azure-pbie-create-capacity.md) **Azure portalı** kullanırsınız.
 
 Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Embedded nedir?](developer/azure-pbie-what-is-power-bi-embedded.md)
 
@@ -404,7 +414,7 @@ Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görünt
 
 ![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals">Kuruluş görselleri</a>
+ ## <a name="organizational-visuals">Kuruluş görselleri</a> 
 
 **Kuruluş görselleri** sekmesi, kuruluşunuzda özel görseller dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](power-bi-custom-visuals-organization.md)
 
@@ -464,13 +474,13 @@ Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genel
 
 Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals) bağlantısını ziyaret edin
 
-## <a name="dataflowStorage">Veri akışı depolama (Önizleme)</a>
+## <a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
 
 Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağlanan iç depolama alanında depolanır. Veri akışları ve Azure Data Lake Storage 2. Nesil (ADLS 2. Nesil) tümleştirmesi ile, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında veri akışlarınızı depolayabilirsiniz. Daha fazla bilgi için bkz. [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 ## <a name="workspaces"></a>Çalışma alanları
 
-Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsiniz. Çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Tablo sütunları tarafından döndürülen özelliklere karşılık gelen [Power BI yönetim Rest API'si](/rest/api/power-bi/admin) çalışma alanları için. Kişisel çalışma alanı, tür **PersonalGroup**, Klasik çalışma alanı, tür **grubu**, ve yeni çalışma alanı deneyimi çalışma alanı türü **çalışma**. Daha fazla bilgi için [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md).
+Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsiniz. Çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Tablo sütunları, çalışma alanları için [Power BI yönetimi Rest API](/rest/api/power-bi/admin) tarafından döndürülen özelliklere karşılık gelir. Kişisel çalışma alanları **PersonalGroup** türünde, klasik çalışma alanları **Group** türünde ve yeni çalışma alanları deneyimi **Workspace** türündedir. Daha fazla bilgi için bkz. [Power BI’da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md).
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 

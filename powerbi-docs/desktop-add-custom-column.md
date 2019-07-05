@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239562"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408548"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
 **Power BI Desktop**'taki **Sorgu Düzenleyicisi**'ni kullanarak modelinize veri içeren yeni bir özel sütunu kolayca ekleyebilirsiniz. Özel sütununuzu tanımlayan [M formüllerini](https://msdn.microsoft.com/library/mt270235.aspx) oluşturmaya yönelik kullanışlı tuşlar yardımıyla özel sütununuzu oluşturabilir ve yeniden adlandırabilirsiniz. M formülü, [kapsamlı bir işlev başvurusu içerik kümesine](https://msdn.microsoft.com/library/mt779182.aspx) sahiptir. 
@@ -68,6 +68,5 @@ Ancak söz diziminizde hata varsa algılanan hatanın yanı sıra imleci (formü
 **Sorgu Düzenleyicisi**'ne sunduğunuz örnekleri temel alan bir sütun oluşturma gibi, özel sütun oluşturmak için uygulanabilecek başka yöntemler de vardır. Örneklerden özel sütunlar oluşturma ile ilgili daha fazla bilgi için şu makaleye bakın:
 
 * [Add a column from an example in Power BI Desktop (Power BI Desktop'ta örnekten sütun ekleme)](desktop-add-column-from-example.md)
-* [M formül diline giriş](https://msdn.microsoft.com/library/mt270235.aspx)
-* [M işlevi başvurusu](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [Power Query M Başvurusu](/powerquery-m/power-query-m-reference)  
 

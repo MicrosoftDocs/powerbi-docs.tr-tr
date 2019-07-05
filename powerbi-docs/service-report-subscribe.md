@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498074"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264626"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -28,8 +28,12 @@ Abonelikleri yalnızca Power BI hizmetinde oluşturabilirsiniz. Anlık görünt�
 
 ## <a name="requirements"></a>Gereksinimler
 
-- Abonelik **oluşturma** bir Power BI Pro özelliğidir.
-- Kendinize abonelik oluşturmak için içeriği (pano veya rapor) düzenleme izinleriniz olması gerekmez, ancak başkası için abonelik oluşturacaksanız düzenleme izinleriniz olmalıdır. 
+Aşağıdaki kullanıcılar tarafından abonelik **oluşturulabilir**:
+
+- Power BI Pro lisansı olan kullanıcılar
+- Premium bir çalışma alanında veya uygulamada içerik görüntüleyen kullanıcılar, burada bulunan içeriğe Power BI Pro lisansı olmadan da abone olabilir.
+
+Kendinize abonelik oluşturmak için içeriği (pano veya rapor) düzenleme izinleriniz olması gerekmez, ancak başkası için abonelik oluşturacaksanız düzenleme izinleriniz olmalıdır. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Bir panoya, rapor sayfasına veya sayfalandırılmış rapora abone olma
 
@@ -87,7 +91,6 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 * Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdaki kutucuktan fazla panoya abonelikler engellenmez. Ancak, sorunlarla karşılaşırsanız desteklenmeyen olarak kabul edilirler. Desteklenen aralıkta yer almak için bunları uygun şekilde değiştirmeyi değerlendirin.
-* Abonelik işi o zaman başlar. Bazı senaryolarda, e-postanın gelen kutunuza teslim edilmesi birkaç dakika sürebilir.
 * E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa, bu kutucuklar görüntülenmez.  
 * Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Başkalarını satır düzeyi güvenlik (RLS) uygulanmış bir rapora abone yapamazsınız.

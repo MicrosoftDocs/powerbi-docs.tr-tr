@@ -7,139 +7,158 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234208"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418751"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın
 
-## <a name="overview-of-the-human-resources-sample"></a>İnsan Kaynakları örneğine genel bakış
-İK departmanları, bulundukları şirketler sektöre veya boyuta göre farklılık gösterse de aynı raporlama modeline sahiptir. Bu örnek, yeni işe alımlara, etkin çalışanlara ve işten ayrılan çalışanlara odaklanarak işe alım stratejisindeki eğilimleri ortaya çıkarmaya çalışır. Ana hedeflerimiz aşağıdaki noktaları kavramaktır:
+İnsan Kaynakları örneği içerik paketinde, insan kaynakları departmanına yönelik pano, rapor ve veri kümesi bulunur. Bu örnekte, insan kaynakları departmanının bulundukları şirketler sektöre veya boyuta göre farklılık gösterse de aynı raporlama modeline sahiptir. Bu örnek, yeni işe alımlar, etkin çalışanlar ve ayrılan çalışanlara yöneliktir. İşe alma stratejisindeki tüm eğilimleri ortaya çıkarmaya çalışır. Ana hedeflerimiz aşağıdaki noktaları kavramaktır:
 
 * İşe aldığımız kişiler
 * İşe alım stratejimizdeki eğilimler
 * Gönüllü ayrılma konusundaki eğilimler
 
-![](media/sample-human-resources/hr1.png)
+![İnsan Kaynakları örneğine yönelik pano](media/sample-human-resources/hr1.png)
 
-Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir. Veriler çeşitli biçimlerde sunulur: içerik paketi/uygulama, Excel çalışma kitabı veya .pbix Power BI Desktop dosyası. Daha fazla bilgi için bkz. [Örnek veri kümeleri](sample-datasets.md).
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi/uygulama, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
+
+Bu öğreticide, Power BI hizmeti ve İnsan Kaynakları örneği içerik paketi kullanılır. Rapor deneyimleri son derece benzer olduğundan, Power BI Desktop ve örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
 ## <a name="prerequisites"></a>Önkoşullar
 
- Örneği kullanabilmeniz için öncelikle bunu bir [içerik paketi](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [pbix dosyası](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529780) olarak indirmeniz gerekir.
+Örneği kullanabilmeniz için bir [içerik paketi](#get-the-content-pack-for-this-sample), [.pbix dosyası](#get-the-pbix-file-for-this-sample) veya [Excel çalışma kitabı](#get-the-excel-workbook-for-this-sample) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
-1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
-2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
+1. Power BI hizmetini açın (app.powerbi.com), oturum açın ve örneği kaydetmek istediğiniz çalışma alanını açın.
+
+2. Sol alt köşedeki **Veri Al**'ı seçin.
    
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
+   ![Veri Al’ı seçin](media/sample-datasets/power-bi-get-data.png)
+3. Görüntülenen **Veri Al** sayfasında **Örnekler**'i seçin.
    
-   ![](media/sample-datasets/power-bi-samples-icon.png)
 4. **İnsan Kaynakları Örneği**'ni ve ardından **Bağlan**'ı seçin.  
    
-   ![Veri Al](media/sample-human-resources/pbi_hr_sample_connect.png)
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
+   ![Örneğe bağlanma](media/sample-human-resources/pbi_hr_sample_connect.png)
+
+5. Power BI, içerik paketini içeri aktarır ve ardından geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler.
    
-   ![Yıldız işareti](media/sample-human-resources/human-resources-sample-asterisk.png)
+   ![İnsan Kaynakları Örneği girişi](media/sample-human-resources/hr-sample-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
-
- * [İnsan Kaynakları Örneği PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+Alternatif olarak, İnsan Kaynakları örneğini bir [.pbix dosyası](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
-Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529780). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
+
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529780) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="new-hires"></a>Yeni işe alımlar
 Önce yeni işe alımları inceleyelim.
 
-1. Çalışma alanınızda **Panolar** sekmesini seçin ve İnsan Kaynakları panosunu açın.
-2. Panoda **New Hire Count, Hire Count, New Hires Same Period Last Year, Actives YoY % Change** **By Month** seçeneğini belirleyin.  
-   ![](media/sample-human-resources/hr2.png)  
+1. Çalışma alanınızda **Panolar** sekmesini seçin ve **İnsan Kaynakları Örneği** panosunu açın.
+2. Panoda **New Hire Count, Hire Count, New Hires Same Period Last Year, Actives YoY % Change By Month** seçeneğini belirleyin.  
+
+   ![Yeni İşe Alım Sayısı kutucuğu](media/sample-human-resources/hr2.png)  
 
    İnsan Kaynakları Örneği raporu **New Hires** sayfası ile açılır.  
 
-   ![](media/sample-human-resources/hr3.png)
+   ![Yeni İşe Alımlar sayfası](media/sample-human-resources/hr3.png)
 
-Aşağıdakilere dikkat edin:
+3. İlgilendiğiniz bu öğelere gözatın:
 
-* **Month tarafından düzenlenen New Hire Count, New Hires SPLY ve Actives YoY % Change** birleşik haritası, geçen yılla karşılaştırıldığında her ay daha fazla çalışan (bazı aylarda çok daha fazla sayıda çalışan) işe aldığımızı gösteriyor.
-* **Region ve Ethnicity tarafından düzenlenen New Hire Count ve Active Employee Count** birleşik haritasında, **East** bölgesinde daha az sayıda çalışan işe aldığımızı görebilirsiniz.
-* **Age Group tarafından düzenlenen New Hires YoY Var** şelale grafiği çoğunlukla genç çalışanları işe aldığımızı gösteriyor. Neden olarak, işlerin genel olarak yarı zamanlı olması gösterilebilir.
-* **Gender tarafından düzenlenen New Hire Count** pasta grafiğinde oldukça eşit bir dağılım gözlemleniyor.
+    * **Month’a göre New Hire Count, New Hires SPLY ve Actives YoY % Change** birleşik haritası, geçen yılla karşılaştırıldığında her ay daha fazla çalışan işe aldığımızı gösteriyor. Bazı aylarda insan sayısı önemli ölçüde artıyor.
+    * **Region ve Ethnicity tarafından düzenlenen New Hire Count ve Active Employee Count** birleşik haritasında, **East** bölgesinde daha az sayıda çalışan işe aldığımızı görebilirsiniz.
+    * **Age Group tarafından düzenlenen New Hires YoY Var** şelale grafiği çoğunlukla genç çalışanları işe aldığımızı gösteriyor. Bu eğilimin nedeni olarak, işlerin çoğunlukla yarı zamanlı olması gösterilebilir.
+    * **Gender’a göre New Hire Count** pasta grafiğinde yaklaşık olarak eşit bir dağılım gözlemleniyor.
 
-Cinsiyet dağılımının ayrımının eşit olmadığı bir bölge gibi daha fazla öngörüye ulaşabilir misiniz? Yaş, cinsiyet, bölge ve etnik köken arasındaki ilişkileri araştırmak için grafiklerdeki farklı yaş gruplarını ve cinsiyetleri seçin.
+    Daha fazla içgörüye ulaşabilir misiniz? Örneğin, cinsiyet dağılımının ayrımının eşit olmadığı bir bölge. 
 
-Panoya geri dönmek için üst gezinti çubuğundan panonun adını seçin.
+4. Yaş, cinsiyet, bölge ve etnik köken arasındaki ilişkileri araştırmak için grafiklerdeki farklı yaş gruplarını ve cinsiyetleri seçin.
 
-![](media/sample-human-resources/power-bi-breadcrumbs.png)
+5. Panoya geri dönmek için üst gezinti çubuğundan **İnsan Kaynakları Örneği** seçeneğini belirleyin.
 
-## <a name="compare-current-active-and-former-employees"></a>Geçerli etkin ve eski çalışanları karşılaştırma
+   ![Panoya geri dönme](media/sample-human-resources/power-bi-breadcrumbs.png)
+
+## <a name="compare-currently-active-and-former-employees"></a>Geçerli etkin ve eski çalışanları karşılaştırma
 Geçerli etkin çalışanlara ve artık şirket için çalışmayan kişilere ilişkin verileri araştıralım.
 
-Panoda, **Age Group tarafından düzenlenen Active Employee** kutucuğunu seçin.  
-![](media/sample-human-resources/pbi_hr_sample_activepie.png)
+1. Panoda, **Age Group tarafından düzenlenen Active Employee** kutucuğunu seçin.
 
-İnsan Kaynakları Örneği raporu **Actives and Separations** sayfasıyla açılır.  
-![](media/sample-human-resources/hr5.png)
+   ![Yaş Grubuna göre Etkin Çalışan Sayısı kutucuğu](media/sample-human-resources/pbi_hr_sample_activepie.png)
 
-**Dikkat çekilmesi gereken öğeler**:
+   İnsan Kaynakları Örneği raporu **Actives and Separations** sayfasıyla açılır.  
 
-* Sol taraftaki birleşik haritalarda, etkin çalışan ve ayrılan sayılarında yıldan yıla gözlemlenen değişiklik gösterilir. Bu yıl yüksek bir işe alım oranıyla birlikte daha fazla etkin çalışana sahibiz ancak ayrılan sayısında da geçen yıla göre bir artış gözlemliyoruz.
-* Ağustos'ta diğer aylara kıyasla daha fazla ayrılma gerçekleşmiş. Herhangi bir aykırı değer bulup bulamayacağınızı öğrenmek için farklı yaş gruplarını, cinsiyetleri veya bölgeleri seçin.
-* Pasta grafiklerine baktığımızda cinsiyet ve yaş gruplarına göre etkin çalışanlarımızda oldukça eşit bir dağılım görüyoruz. Yaşa göre cinsiyet dağılımı farklılıklarını görüntülemek için farklı yaş gruplarını seçin. Her yaş grubunda eşit bir cinsiyet dağılımına mı sahibiz?
+   ![Etkin Çalışanlar - Separations sayfası](media/sample-human-resources/hr5.png)
+
+ 2. İlgilendiğiniz bu öğelere gözatın:
+
+    * Sol taraftaki iki birleşik haritada, geçerli çalışan ve ayrılan çalışan sayılarında yıldan yıla gözlemlenen değişiklik gösterilir. Bu yıl yüksek bir işe alım oranıyla birlikte daha fazla sayıda çalışana sahibiz ancak ayrılan sayısında da geçen yıla göre bir artış gözlemliyoruz.
+    * Ağustos'ta diğer aylara kıyasla daha fazla ayrılma gerçekleşmiş. Herhangi bir aykırı değer bulup bulamayacağınızı öğrenmek için farklı yaş gruplarını, cinsiyetleri veya bölgeleri seçin.
+    * Pasta grafiklerine baktığımızda cinsiyet ve yaş gruplarına göre etkin çalışanlarımızda eşit bir dağılım görüyoruz. Yaşa göre cinsiyet dağılımı farklılıklarını görüntülemek için farklı yaş gruplarını seçin. Her yaş grubunda eşit bir cinsiyet dağılımına mı sahibiz?
 
 ## <a name="reasons-for-separation"></a>Ayrılma nedenleri
-Rapora, Düzenleme Görünümü'nde göz atalım. Sol üst köşedeki **Raporu düzenle** seçeneğini belirleyin.
+Rapora, Düzenleme Görünümü'nde göz atalım. Geçerli çalışan verileri yerine ayrılan çalışan verilerini göstermek için pasta grafiklerini değiştirebilirsiniz.
 
-Pasta grafiklerini Etkin çalışanlar yerine Ayrılan verilerini gösterecek şekilde değiştirin.
+1. Sol üst köşedeki **Raporu düzenle** seçeneğini belirleyin.
 
-1. **Age Group tarafından düzenlenen Active Employee Count** pasta grafiğini seçin.
-2. **Alanlar**'da Employees tablosunu genişletmek için **Employees**'in yanındaki oku seçin. **Active Employee Count**'un yanındaki onay kutusunu temizleyerek söz konusu alanı kaldırın.
-3. Employees tablosundaki **Separation Count**'un yanındaki onay kutusunu seçerek bu alanı, alan kutusundaki **Values** kutusuna ekleyin.
-4. Rapor tuvaline geri döndüğünüzde, **Separation Reason tarafından düzenlenen Separation Count** çubuk grafiğindeki **Voluntary** çubuğunu seçin. Bu, rapordaki diğer görsellerde, gönüllü olarak ayrılan kişileri vurgular.
-5. Age Group tarafından düzenlenen Separation Count pasta grafiğinin 50+ adlı dilimine tıklayın.
+2. **Age Group tarafından düzenlenen Active Employee Count** pasta grafiğini seçin.
 
-   Sağ alt köşedeki Separations by Reason çizgi grafiğine bakın. Bu grafik, gönüllü ayrılmaları gösterecek şekilde filtrelenmiştir.  
-   ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
+3. **Alanlar**'da **Employees** tablosunu genişletmek için **Employees**'i seçin. **Active Employee Count**'u temizleyerek söz konusu alanı kaldırın.
 
-   50 ve üzeri yaş grubundaki eğilimi fark ettiniz mi? Yılın ikinci yarısında 50 yaşın üstünde daha fazla çalışan gönüllü olarak ayrılıyor. Bu, daha fazla veriyle daha ayrıntılı bir şekilde incelenebilecek bir alan.
-6. **Gender tarafından düzenlenen Active Employee Count** pasta grafiği için de aynı adımları izleyebilir ve grafiği, etkin çalışanlar yerine ayrılanları gösterecek şekilde değiştirebilirsiniz. Başka herhangi bir öngörü bulup bulamayacağınızı öğrenmek için cinsiyete göre gönüllü ayrılma verilerini gözden geçirin.
-7. Panoya geri dönmek için üst gezinti çubuğunda **Power BI**'a tıklayın. Raporda yapmış olduğunuz değişiklikleri kaydedip kaydetmemek size kalmıştır.
+4. **Employees** tablosundaki **Separation Count**'u seçerek bu alanı, **Alan** kutusundaki **Values** kutusuna ekleyin.
+
+5. Rapor tuvalinde, **Separation Reason’a göre Separation Count** çubuk grafiğindeki **Voluntary** çubuğunu seçin. 
+
+   Bu, rapordaki diğer görsellerde, gönüllü olarak ayrılan çalışanları vurgular.
+
+6. **Age Group’a göre Separation Count** pasta grafiğinin 50+ adlı dilimine tıklayın.
+
+7. Sağ alt köşedeki çizgi grafiğine bakın. Bu grafik, gönüllü ayrılmaları gösterecek şekilde filtrelenmiştir.  
+
+   ![50 yaş ve üzeri ayrılan çalışanlar](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
+
+   50 ve üzeri yaş grubundaki eğilime dikkat edin. Yılın ikinci yarısında 50 yaşın üstünde daha fazla çalışan gönüllü olarak ayrılmış. Bu eğilim, daha fazla veriyle daha ayrıntılı bir şekilde incelenebilecek bir alan.
+
+8. **Gender’a göre Active Employee Count** pasta grafiği için de aynı adımları izleyebilir ve grafiği, etkin çalışanlar yerine ayrılanları gösterecek şekilde değiştirebilirsiniz. Başka herhangi bir öngörü bulup bulamayacağınızı öğrenmek için cinsiyete göre gönüllü ayrılma verilerini gözden geçirin.
+
+9. Panoya geri dönmek için üst gezinti çubuğundan **İnsan Kaynakları Örneği** seçeneğini belirleyin. Raporda yapmış olduğunuz değişiklikleri kaydedip kaydetmemek size kalmıştır.
 
 ## <a name="bad-hires"></a>Hatalı işe alımlar
-Araştırılacak son alan hatalı işe alımlardır. Hatalı işe alımlar, en fazla 60 gün çalışan kişiler olarak tanımlanır. Yüksek oranda işe alım gerçekleştiriyoruz. İyi adayları mı işe alıyoruz?
+Araştırılacak son alan hatalı işe alımlardır. Hatalı işe alımlar, en fazla 60 gün çalışan kişiler olarak tanımlanır. İşe alım sürecimizi hızla tamamlayabiliyoruz, ancak iyi adayları işe alıyor muyuz?
 
-1. **Age Group tarafından düzenlenen Bad Hires as % of Actives** pano kutucuğunu seçin. Bu kutucuk, raporun "Bad Hires" başlıklı 3. sayfasını açar.
+1. **Age Group tarafından düzenlenen Bad Hires as % of Actives** pano kutucuğunu seçin. Rapor üçüncü sekme olan **Bad Hires**’ta açılır.
 
-   ![](media/sample-human-resources/hr7.png)  
-2. Sol taraftaki Bölge dilimleyicisinde **Northwest** onay kutusunu ve Gender tarafından düzenlenen Bad Hire Count halka grafiğindeki **male** dilimini seçin.  "Bad Hires" sayfasındaki diğer grafiklere bakın. Kadınlara göre daha fazla erkeğin hatalı olarak işe alındığını ve Group A'da çok sayıda hatalı işe alımın bulunduğunu görüyoruz.
-   ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
-3. **Gender tarafından düzenlenen Bad Hires** halka grafiğine baktığımızda ve **Region** dilimleyicisine tıkladığımızda Doğu'nun erkeklere göre daha çok kadının hatalı olarak işe alındığı tek bölge olduğunu görüyoruz.  
+   ![Age Group’a göre Bad Hires as % of Actives kutucuğu](media/sample-human-resources/hr7.png)  
+2. Sol taraftaki **Region** dilimleyicisinde **Northwest**’i ve **Gender’a göre Bad Hire Count** halka grafiğindeki **Male** dilimini seçin. **Bad Hires** sayfasındaki diğer grafiklere bakın. Kadınlara göre daha fazla erkeğin hatalı olarak işe alındığına ve Group A'da çok sayıda hatalı işe alımlar olduğuna dikkat edin.
+
+   ![Northwest hatalı işe alımlar](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
+
+3. **Gender’a göre Bad Hire Count** halka grafiğine bakıp **Region** dilimleyicisinde farklı bölgeler seçerseniz hatalı kadın işe alımlarının, hatalı erkek işe alımlarından daha fazla olduğu tek bölgenin East bölgesi olduğunu fark edersiniz.  
+
 4. Panoya geri dönmek için üst gezinti çubuğundan panonun adını seçin.
 
-## <a name="asking-a-question-in-the-qa-box"></a>Soru-Cevap kutusunda soru sorma
-[Soru-Cevap soru kutusu](power-bi-tutorial-q-and-a.md), doğal dil kullanarak soru yazdığınız yerdir. Soru-Cevap, yazdığınız kelimeleri tanıyarak cevabı veri kümesinin neresinde bulabileceğini belirler.
+## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Panodaki Soru-Cevap kutusunda soru sorma
+Panodaki [Soru-Cevap soru kutusunda](power-bi-tutorial-q-and-a.md) doğal dil kullanarak verileriniz hakkında soru sorabilirsiniz. Soru-Cevap, yazdığınız kelimeleri tanıyarak cevabı veri kümesinin neresinde bulabileceğini belirler.
 
-1. Soru-Cevap soru kutusuna tıklayın. Yazmaya başlamadan önce bile Soru-Cevap kutusunun öneriler içerdiğini göreceksiniz:
+1. Soru-Cevap soru kutusunu seçin. Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak öneriler görüntüler.
 
-   ![](media/sample-human-resources/pbi_hr_sample_qabox.png)
-2. Bu önerilerden birini seçebilir veya şunu yazabilirsiniz: **show age group, gender and bad hires SPLY where region is east** (Doğu bölgesinde geçen yıl aynı dönem yaş grubunu, cinsiyeti ve hatalı işe alımları göster.)  
+   ![Soru-Cevap kutusunun önerileri](media/sample-human-resources/pbi_hr_sample_qabox.png)
 
-   ![](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
+2. Bu önerilerden birini seçebilir veya şunu girebilirsiniz: *show age group, gender and bad hires SPLY where region is east* (Doğu bölgesinde geçen yıl aynı dönem yaş grubunu, cinsiyeti ve hatalı işe alımları göster.)  
+
+   ![Soru-Cevap kutusunun yanıtları](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
 
    Hatalı olarak işe alınan kadınların birçoğunun 30 yaşın altında olduğuna dikkat edin.
 
-Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Değişiklikleri kaydederseniz istediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
-
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
-Bu turda Power BI panolarının, Soru-Cevap özelliğinin ve raporların insan kaynakları verileriyle ilgili olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Şimdi kendi verilerinize bağlanma sırası sizde. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.  
+Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
+
+Bu turda Power BI panolarının, Soru-Cevap özelliğinin ve raporların insan kaynakları verileriyle ilgili olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).

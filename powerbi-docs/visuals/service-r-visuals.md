@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389838"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389737"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI hizmetinde R görselleri oluşturma
 Power BI hizmeti, R betikleriyle oluşturulan görselleri görüntülemeyi ve bu görsellerle etkileşim kurmayı destekler. R betikleriyle oluşturulan ve genellikle *R görselleri* olarak adlandırılan görseller, R'ın zengin analizlerini ve görselleştirme gücünü kullanarak tahmin etme özelliği gibi gelişmiş veri şekillendirme özellikleri ve analizler sunabilir.
@@ -64,7 +64,7 @@ Başka bir örnek olarak, aşağıdaki görüntüde, Azure'da bir R paketinin ek
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Lisanslama
-R görselleri için raporlarda işleme, yenileme, filtre uygulama ve çapraz filtre özelliklerine yönelik olarak [Power BI Pro](../service-self-service-signup-for-power-bi.md) lisansı gerekir. Power BI Pro lisansları ve bunların ücretsiz lisanslardan farkı hakkında daha fazla bilgi edinmek için bkz. [Power BI Pro içeriği nedir?](../service-premium-what-is.md)
+R görselleri için raporlarda işleme, yenileme, filtre uygulama ve çapraz filtre özelliklerine yönelik olarak [Power BI Pro](../service-self-service-signup-for-power-bi.md) lisansı gerekir. Power BI Pro lisansları ve bunların ücretsiz lisanslardan farkı hakkında daha fazla bilgi edinmek için bkz. [Power BI Pro içeriği nedir?](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI’ın ücretsiz kullanıcıları, Premium çalışma alanlarında yalnızca kendileriyle paylaşılan kutucukları kullanabilir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](../service-admin-purchasing-power-bi-pro.md).
 
@@ -73,7 +73,7 @@ Aşağıdaki tabloda, lisanslama türüne göre R görseli özellikleri açıkla
 
 |  |Power BI Desktop’ta R görselleri oluşturma  | R görselleri ile PBI hizmet raporları oluşturma |Raporlarda R görsellerini görüntüleme  | Panolarda R kutucuklarını görüntüleme |
 |---------|---------|---------|---------|--------|
-|**Konuk** (Power BI embedded)     |  İlgili değil|  İlgili değil       | Desteklenmiyor  | İlgili değil |
+|**Konuk** (Power BI embedded)     |  Destekleniyor|  Desteklenmiyor      | Yalnızca Premium/Azure kapasitesinde desteklenir  | Yalnızca Premium/Azure kapasitesinde desteklenir |
 |**Yönetilmeyen kiracı** (etki alanı doğrulanmadı) | Destekleniyor | Desteklenmiyor |  Desteklenmiyor |Desteklenen (B2B senaryosu) |
 |Ücretsiz lisans ile **yönetilen kiracı**    |  Destekleniyor       |  Desteklenmiyor       |    Yalnızca Premium kapasitede desteklenir    | Destekleniyor |
 Pro lisansı ile **yönetilen kiracı**     |   Destekleniyor      | Destekleniyor      | Destekleniyor    |Destekleniyor|

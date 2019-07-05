@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389027"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161209"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -27,7 +27,7 @@ Yeni görselleştirmeler ekleyeceğiz, takipte kalın!
 Tüm bu görselleştirmeler Power BI raporlarına eklenebilir, Soru-Cevap'ta belirtilebilir ve panolara sabitlenebilir.
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Alan grafikleri: Basit (Katmanlı) ve Yığılmış
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![alan grafikleri](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
 >Basit Alan grafiği için çizgi grafik temel alınır ve eksen ile çizgi arasındaki alan doldurulmuştur.
@@ -35,23 +35,23 @@ Tüm bu görselleştirmeler Power BI raporlarına eklenebilir, Soru-Cevap'ta bel
 Daha fazla bilgi için bkz. [Temel Alan grafiği](power-bi-visualization-basic-area-chart.md).
 
 ### <a name="bar-and-column-charts"></a>Çubuk grafikler ve sütun grafikleri
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![çubuk grafik](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
- ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![sütun grafik](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
 >[!TIP]
 >Belirli bir değere farklı kategorilerde bakmak için standart olarak çubuk grafikler kullanılır.
 
 ### <a name="cards-multi-row"></a>Kartlar: Çok satırlı
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![çok satırlı kart](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Kartlar: Tek sayı
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![sayı kartı](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md).
 
 ### <a name="combo-charts"></a>Birleşik haritalar
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![birleşik haritalar](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
 >Birleşik haritada sütun grafikleri ile çizgi grafikler birleştirilir. *Çizgi ve Yığılmış Sütun Grafiği* ile *Çizgi ve Kümelenmiş Sütun Grafiği* arasından seçim yapın.
@@ -59,7 +59,7 @@ Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi
 Daha fazla bilgi için bkz. [Power BI'daki birleşik grafikler](power-bi-visualization-combo-chart.md).
 
 ### <a name="doughnut-charts"></a>Halka grafikler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![halka grafik](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
 
 >[!TIP]
 >Halka grafikler, Pasta grafiklerine benzerdir.  Parçaların bütünle ilişkisini gösterir.
@@ -67,7 +67,7 @@ Daha fazla bilgi için bkz. [Power BI'daki birleşik grafikler](power-bi-visuali
 Daha fazla bilgi için bkz. [Power BI'daki halka grafikler](power-bi-visualization-doughnut-charts.md).
 
 ### <a name="funnel-charts"></a>Huni grafikler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![huni grafik](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
 
 >[!TIP]
 >Huniler, aşamalardan oluşan bir işlemin görselleştirilmesine yardımcı olur ve öğe akışı bir aşamadan diğerine sıralı olarak yapılır.  Aşamalar arasında sıralı bir akış olan durumlarda (müşteri adaylarıyla başlayıp satışı tamamlama ile sona eren bir satış işlemi gibi) huni kullanın.
@@ -75,7 +75,7 @@ Daha fazla bilgi için bkz. [Power BI'daki halka grafikler](power-bi-visualizati
 Daha fazla bilgi için bkz. [Power BI'daki huni grafikler](power-bi-visualization-funnel-charts.md).
 
 ### <a name="gauge-charts"></a>Ölçek grafikleri
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![radyal ölçer grafiği](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
 
 >[!TIP]
 >Bir hedef bağlamında geçerli durumu görüntüler.
@@ -90,7 +90,7 @@ Ana etmenler grafiği, seçili bir sonuç veya değere en çok katkıda bulunanl
 Daha fazla bilgi için bkz. [Power BI'daki ana etmen grafikleri](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPI'ler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![KPI grafiği](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >Ölçülebilir bir hedef doğrultusunda ilerleme durumunu görüntüler.
@@ -98,13 +98,13 @@ Daha fazla bilgi için bkz. [Power BI'daki ana etmen grafikleri](power-bi-visual
 Daha fazla bilgi için bkz. [Power BI'daki KPI’lar](power-bi-visualization-kpi.md).
 
 ### <a name="line-charts"></a>Çizgi grafikler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![çizgi grafik](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
 >Değerler dizisinin tümünün, genellikle zaman içindeki genel şeklini vurgular.
 
 ### <a name="maps-basic-maps"></a>Haritalar: Temel haritalar
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![Temel harita](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
 >Hem kategorik hem de nicel bilgileri uzamsal konumlar ile ilişkilendirmek için kullanılır.
@@ -112,12 +112,12 @@ Daha fazla bilgi için bkz. [Power BI'daki KPI’lar](power-bi-visualization-kpi
 Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktaları](power-bi-map-tips-and-tricks.md).
 
 ### <a name="maps-arcgis-maps"></a>Haritalar: ArcGIS haritaları
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![ArcGIS haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![kartogram](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
 >Renk ne kadar yoğunsa değer de o kadar büyüktür.
@@ -125,7 +125,7 @@ Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-
 Daha fazla bilgi için bkz. [Power BI'daki Doldurulmuş Haritalar](power-bi-visualization-filled-maps-choropleths.md).
 
 ### <a name="maps-shape-maps"></a>Haritalar: Şekil haritaları
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![Texas’ın şekil haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
 >Bölgeleri renge göre karşılaştırır.
@@ -134,22 +134,37 @@ Daha fazla bilgi için bkz. [Power BI'daki Şekil Haritaları](desktop-shape-map
 
 
 ### <a name="matrix"></a>Matris
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![matris](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+>[!TIP]
+>Tablo iki boyutu destekler ancak matris, çok boyutlu verileri daha anlamlı bir şekilde görüntülemeyi kolaylaştırır ve basamaklı düzeni destekler. Matris verileri otomatik olarak toplar ve detaya gitmeye olanak tanır. 
 
 Daha fazla bilgi için bkz. [Power BI'daki matris görselleri](desktop-matrix-visual.md).
 
 ### <a name="pie-charts"></a>Pasta grafikleri
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![pasta grafikleri](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
 
-Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
+>[!TIP]
+>Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
+
+### <a name="r-script-visuals"></a>R betik görselleri
+![R görselleri](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+
+>[!TIP]
+>R betikleriyle oluşturulan ve genellikle *R görselleri* olarak adlandırılan görseller, R’ın zengin analizlerini ve görselleştirme gücünü kullanarak tahmin etme özelliği gibi gelişmiş veri şekillendirme özellikleri ve analizler sunabilir. R görselleri Power BI Desktop’ta oluşturularak Power BI hizmetine yayımlanabilir.   
+
+Daha fazla bilgi için bkz. [Power BI’daki R görselleri](service-r-visuals.md).
 
 ### <a name="ribbon-chart"></a>Şerit grafik
 ![Şerit grafik](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
 
-Şerit grafikleri hangi veri kategorisinin en yüksek derecelendirmeye (en büyük değer) sahip olduğunu gösterir. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir.
+>[!TIP]
+>Şerit grafikleri hangi veri kategorisinin en yüksek derecelendirmeye (en büyük değer) sahip olduğunu gösterir. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir.
+
+Daha fazla bilgi için bkz. [Power BI’daki şerit grafikleri](desktop-ribbon-charts.md).
 
 ### <a name="scatter-and-bubble-charts"></a>Dağılım ve Kabarcık grafikleri
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![kabarcık grafiği](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
 
 >[!TIP]
 >2 (dağılım) veya 3 (kabarcık) nicel ölçü arasındaki ilişkileri (ilişki olup olmadığı, hangi sırada olduğu vb.) görüntüler.
@@ -157,7 +172,7 @@ Pasta grafikleri parçaların bütünle ilişkisini gösterir.
 Daha fazla bilgi için bkz. [Power BI'daki dağılım grafikleri](power-bi-visualization-scatter.md).
 
 ### <a name="scatter-high-density"></a>Yüksek yoğunluklu dağılım
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![yüksek yoğunluklu dağılım grafikleri](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
 
 >[!TIP]
 >Bir görsel üzerindeki çok fazla veri noktası o görseli çıkmaza sokabilir, bu nedenle görselleştirmenin doğruluğunu sağlamak için karmaşık bir örnekleme algoritması kullanılır.
@@ -165,17 +180,17 @@ Daha fazla bilgi için bkz. [Power BI'daki dağılım grafikleri](power-bi-visua
 Daha fazla bilgi için bkz. [Power BI'daki Yüksek Yoğunluklu Dağılım Grafikleri](desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Dilimleyiciler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![dilimleyici](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 Daha fazla bilgi için bkz. [Power BI'daki dilimleyiciler](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Tek başına resimler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![tek başına resim görseli](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
 Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tablolar
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![tablo görseli](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
 >Birçok kategori içeren öğeler arasında nicel karşılaştırmalar yapılacağında kullanışlıdır.
@@ -183,7 +198,7 @@ Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../service-das
 Daha fazla bilgi için bkz. [Power BI'da tablolarla çalışma](power-bi-visualization-tables.md).
 
 ### <a name="treemaps"></a>Ağaç haritaları
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![ağaç haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Daha fazla bilgi için bkz. [Power BI'daki ağaç haritaları](power-bi-visualization-treemaps.md).
 
@@ -191,7 +206,7 @@ Daha fazla bilgi için bkz. [Power BI'daki ağaç haritaları](power-bi-visualiz
 >Değerleri boyut aracılığıyla temsil eden renkli dikdörtgenlerden oluşan grafiklerdir.  Bu grafikler hiyerarşik (ana dikdörtgenlerde iç içe geçmiş dikdörtgenler halinde) olabilir.
 
 ### <a name="waterfall-charts"></a>Şelale grafikler
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![Şelale grafiği](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
 
 >[!TIP]
 >Şelale grafikler, değer eklenip çıkarıldığında değişen toplamı gösterir.

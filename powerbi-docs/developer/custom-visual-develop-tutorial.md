@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383959"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161230"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görseli geliştirme
 
@@ -73,21 +73,15 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 #### <a name="windows"></a>Windows
 
-1. Sertifika oluşturmak için aşağıdaki komutu girin.
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  Komut, *parola* oluşturan bir sonuç döndürür. Bu durumda *parola*, **_15105661266553327_** şeklindedir.
-
-  ![PowerShell ile oluşturulan sertifika](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. Şimdi sertifikayı yüklemeniz gerekir. Sertifikayı yüklemek için aşağıdaki komutu girin.
+1. Sertifika oluşturmak ve yüklemek için aşağıdaki komutu girin.
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  Komut, *parola* oluşturan bir sonuç döndürür. Bu durumda, **_15105661266553327_** *parolası* Sertifika İçeri Aktarma Sihirbazı’nı başlatır.
+
+  ![PowerShell ile oluşturulan sertifika](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. Sertifika İçeri Aktarma Sihirbazı’nda depo konumunun Geçerli Kullanıcı olduğundan emin olun. Ardından *İleri*’yi seçin.
 
@@ -559,14 +553,14 @@ Veri rollerini ve veri görünümü eşlemelerini tanımlayıp özel görsel man
 
     Bu deyim *dataView* nesnesini kolay erişim için bir değişkene atar ve değişkeni *dataView* nesnesine başvuracak şekilde düzenler.
 
-2. İçinde **güncelleştirme** yöntemi Değiştir **.text("Value")** aşağıdaki.
+2. **update** yönteminin **.text("Value")** bölümünü aşağıdaki değerle değiştirin.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue değerini değiştirme](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. İçinde **güncelleştirme** yöntemi Değiştir **.text("Label")** aşağıdaki.
+3. **update** yönteminin **.text("Label")** bölümünü aşağıdaki değerle değiştirin.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

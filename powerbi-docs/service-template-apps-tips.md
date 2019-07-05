@@ -1,22 +1,22 @@
 ---
-title: Power BI’da şablon uygulaması yazma ipuçları (önizleme)
+title: Power BI’da şablon uygulaması yazma ipuçları
 description: İyi şablon uygulamaları hazırlamak için sorgular, veri modelleri, raporlar ve panolar yazmaya yönelik ipuçları
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/26/2019
+ms.author: tebercov
+ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514859"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408348"
 ---
-# <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Power BI’da şablon uygulaması yazma ipuçları (önizleme)
+# <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
 Power BI’da [şablon uygulamanızı yazarken](service-template-apps-create.md), bu sürecin bir bölümü çalışma alanı oluşturma, test etme ve üretim lojistiğinden oluşur. Ama bu sürecin bir diğer önemli bölümünün de rapor ve pano yazma olduğu açıktır. Yazma sürecini dört ana bileşene ayırabiliriz. Bu bileşenler üzerinde çalışmak mümkün olan en iyi şablon uygulamasını oluşturmanıza yardımcı olur:
 
@@ -24,7 +24,7 @@ Power BI’da [şablon uygulamanızı yazarken](service-template-apps-create.md)
 * **Veri modelinde**, [ilişkileri](desktop-create-and-manage-relationships.md) ve [ölçüleri](desktop-measures.md) oluşturur, Soru-Cevap geliştirmeleri yaparsınız.  
 * **[Rapor sayfaları](desktop-report-view.md)** verilerinize yönelik içgörüler sağlayan görseller ve filtreler içerir.  
 * **[Panolar](consumer/end-user-dashboards.md)** ve [kutucuklar](service-dashboard-create.md) sağlanan içgörülere genel bir bakış sunar.
-* Örnek verileri uygulamanızı yüklemenin hemen sonrasında bulunabilmesini sağlar.
+* Örnek veriler, uygulamanızın yüklenmesinin hemen ardından bulunabilmesini sağlar.
 
 Belirtilen bileşenler birer Power BI özelliği olarak tanıdık gelebilir. Şablon uygulaması oluştururken, her bileşende dikkate alınacak başka noktalar da vardır. Diğer ayrıntılar için aşağıdaki bölümlere bakın.
 
@@ -36,12 +36,10 @@ Belirtilen bileşenler birer Power BI özelliği olarak tanıdık gelebilir. Şa
 ### <a name="connect-to-your-api"></a>API'nize bağlanma
 Öncelikle, sorgularınızı oluşturmaya başlamak için Power BI Desktop'tan API'nize bağlanmanız gerekir.
 
-API'nize bağlanmak için, Power BI Desktop'ta kullanıma hazır olarak sunulan Veri Bağlayıcıları kullanabilirsiniz. Web Veri Bağlayıcısını (Veri Al -> Web) kullanarak Rest API'nize bağlanabilir veya OData akışınıza bağlanmak için (Veri Al -> OData akışı) OData bağlayıcısını kullanabilirsiniz. Bu bağlayıcıların kullanıma hazır olması için API'nizde Temel Kimlik Doğrulaması'nın desteklenmesi gerekir.
+API'nize bağlanmak için, Power BI Desktop'ta sunulan Veri Bağlayıcılarını kullanabilirsiniz. Web Veri Bağlayıcısını (Veri Al -> Web) kullanarak Rest API'nize bağlanabilir veya OData akışınıza bağlanmak için (Veri Al -> OData akışı) OData bağlayıcısını kullanabilirsiniz.
 
 > [!NOTE]
-> API'niz OAuth 2.0 veya Web API Key gibi başka bir kimlik doğrulaması türünü kullanıyorsa Power BI Desktop'ın API'nize başarılı bir şekilde bağlanmasına ve API'nizde kimlik doğrulamasına olanak sağlamak üzere kendi Veri Bağlayıcınızı geliştirmeniz gerekir. Özel Bağlayıcınız için şablon uygulama yükleyicisi tarafından erişilecek PBI hizmeti eklenmesi gerekir. <br> Şablon uygulamanıza kendi Veri Bağlayıcınızı geliştirme işleminin ayrıntıları için [Veri Bağlayıcıları belgelerini](https://aka.ms/DataConnectors) gözden geçirin. 
->
->
+> Şablon uygulamaları şu anda özel bağlayıcıları desteklememektedir, bazı bağlayıcı kullanımı durumlarında riski azaltmak için Odatafeed Auth 2.0 kullanarak arama yapmanız veya bağlayıcınız için sertifikasyon isteğinde bulunmanız önerilir. Bağlayıcı geliştirme ve sertifika alma ayrıntıları için bkz. [Veri Bağlayıcıları belgeleri](https://aka.ms/DataConnectors).
 
 ### <a name="consider-the-source"></a>Kaynakla ilgili önemli noktalar
 Sorgular, veri modeline dahil edilen verileri tanımlar. Sisteminizin boyutuna bağlı olarak bu sorgular, müşterilerinizin iş senaryonuza uygun, kullanışlı boyutlarla çalışmasını sağlamak için filtreler de içermelidir.
@@ -116,40 +114,40 @@ Pano, müşterileriniz için şablon uygulamanızla etkileşime yönelik temel n
 * Farklı senaryolar için panoda dikey veya yatay gruplandırmalar oluşturmayı tercih edebilirsiniz.  
 
 ## <a name="sample-data"></a>Örnek veriler
-Şablon uygulamalar, uygulama oluşturma aşamasının bir parçası olarak sarmalar verileri önbelleğe uygulamanın bir parçası olarak çalışma alanındaki:
+Şablon uygulamaları, uygulama oluşturma işlemi sırasında çalışma alanındaki önbellek verilerini uygulamanın bir parçası olarak sarmalar:
 
-* Veri bağlanmadan önce uygulama amacı ve işlevleri anlamak bir yükleyici sağlar.
-* Uygulama veri kümesi bağlantı sağlar. uygulama özelliklerinin daha iyi keşfedilebilmesi için yükleyici yönlendiren bir deneyimi oluşturur.
+* Verilere bağlanmadan önce yükleyicinin uygulama işlevlerini ve amacını anlamasını sağlar.
+* Yükleyiciyi uygulama özelliklerini daha iyi araştırmaya yönlendiren bir deneyim oluşturarak uygulama veri kümelerine bağlamayı sağlar.
 
-Örnek veri kalitesi uygulama oluşturmadan önce sahip öneririz. Panolar ve uygulama raporu verilerle doldurulur emin olun.
+Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneririz. Uygulama rapor ve panolarının verilerle dolu olduğundan emin olun.
 
-## <a name="publishing-on-appsource"></a>Appsource'ta yayımlama
-Şablon uygulamaları Appsource'ta yayımlanabilir, uygulamanızı appsource'a göndermeden önce aşağıdaki yönergeleri izleyin:
+## <a name="publishing-on-appsource"></a>AppSource’da yayımlama
+Şablon uygulamaları AppSource’da yayımlanabilir; uygulamanızı AppSource’a göndermeden önce şu yönergeleri izleyin:
 
-* Uygulama neler yapabileceğinizi anlamak yükleyici yardımcı olabilecek örnek veriler ilgi çekici ile bir şablon uygulaması oluşturduğunuzdan emin olun (değil boş bir rapor ve Pano onaylanan).
-Şablon uygulamaları örnek verileri yalnızca uygulamaları destekler, statik uygulama onay kutusunu işaretlediğinizden emin olun. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Kimlik bilgileri ve verilere bağlanmak için gerekli parametreleri içeren izlemek doğrulama ekibi yönergesi var.
-* Uygulama, Power BI ve CPP teklifinizi uygulama simgesi eklemeniz gerekir. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Şablon uygulamalarını, yükleyicinin uygulamanın neler yapabileceğini anlamasına yardımcı olacak ilgi çekici örnek verilerle oluşturduğunuzdan emin olun (boş rapor ve panolar onaylanmaz).
+Şablon uygulamaları yalnızca örnek veriler içeren uygulamaları destekler; statik uygulama onay kutusunu işaretlediğinizden emin olun. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Doğrulama ekibinin izleyeceği, verilere bağlanmak için gereken kimlik bilgilerini ve parametreleri de içeren yönergeler ekleyin.
+* Uygulamanın, Power BI'da ve CPP teklifinizde bir Uygulama simgesi içermesi gerekir. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Yapılandırılmış giriş sayfası. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Belgeleri takip edin [Power BI uygulaması teklif](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-* Bir pano, uygulamanızın bir parçası olması durumunda, boş olmadığından emin olun.
-* Göndermeden önce uygulama bağlantısı kullanarak uygulamayı, veri kümesini bağlanabilir ve planladığınız gibi uygulama deneyimi olduğundan emin olun.
-* Şablon uygulama çalışma alanına bpix karşıya yüklemeden önce gereksiz tüm bağlantıları kaldırmaya emin olun.
-* Power BI'ı izleyin [en iyi tasarım yöntemleri raporlar ve görseller için](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) kullanıcılarınız ve dağıtım için onaylanmış en çok etkisi elde etmek için.
+* [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) belgelerine uyduğunuzdan emin olun.
+* Uygulamanızda bir pano varsa boş olmadığından emin olun.
+* Uygulamayı göndermeden önce uygulama bağlantısını kullanarak yükleyin; veri kümesini bağlayabildiğinizden ve uygulama deneyiminin planladığınız gibi olduğundan emin olun.
+* Şablon uygulaması çalışma alanına bpix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
+* Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) izleyin.
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
 
 | Öne çıkan özelliği | Bilinen Sınırlama |
 |---------|---------|
 |İçerik:  Veri kümeleri   | Tam olarak bir veri kümesi bulunmalıdır. Yalnızca Power BI Desktop’ta oluşturulan veri kümelerine (.pbix dosyaları) izin verilir. <br>Desteklenmez: Diğer şablon uygulamalarından veri kümeleri, çalışma alanları arası veri kümeleri, sayfalandırılmış raporlar (.rdl dosyaları), Excel çalışma kitapları |
-|İçerik: Panolar | Gerçek zamanlı kutucuk izin verilmiyor (diğer bir deyişle, hiçbir destek gönderim veya akış veri kümeleri için) |
+|İçerik: Panolar | Gerçek zamanlı kutucuklara izin verilmez (diğer bir deyişle, veri kümelerini gönderme veya akış sağlama desteği yok) |
 |İçerik: Veri akışları | Desteklenmez: Veri akışları |
 |Dosyaların içeriği | Yalnızca PBIX dosyalarına izin verilir. <br>Desteklenmez: .rdl dosyaları (sayfalandırılmış raporlar), Excel çalışma kitapları   |
-| Veri kaynakları | Bulutta Zamanlanmış Veri yenileme için desteklenen veri kaynaklarına izin verilir. <br>Desteklenmez: <li> DirectQuery</li><li>Canlı bağlantılar (Azure AS yok)</li> <li>Şirket içi veri kaynakları (Kişisel ve kurumsal ağ geçitleri desteklenmez)</li> <li>Gerçek zamanlı (gönderim veri kümesi desteği)</li> <li>Bileşik modeller</li></ul> |
+| Veri kaynakları | Bulutta Zamanlanmış Veri yenileme için desteklenen veri kaynaklarına izin verilir. <br>Desteklenmez: <li> DirectQuery</li><li>Canlı bağlantılar (Azure AS yok)</li> <li>Şirket içi veri kaynakları (kişisel ve kurumsal ağ geçitleri desteklenmez)</li> <li>Gerçek zamanlı (gönderim veri kümesi desteği yok)</li> <li>Bileşik modeller</li></ul> |
 | Veri kümesi: çalışma alanları arası | Çalışma alanları arası veri kümelerine izin verilmez  |
 | Sorgu parametreleri | Desteklenmez: "Any" veya "Binary" türündeki parametreler veri kümesi için yenileme işlemini engeller |
 | Özel görseller | Yalnızca genel kullanıma açık özel görseller desteklenir. [Özel kuruluş görselleri](power-bi-custom-visuals-organization.md) desteklenmez |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI şablon uygulamaları nedir? (önizleme)](service-template-apps-overview.md)
+[Power BI şablon uygulamaları nedir?](service-template-apps-overview.md)

@@ -8,36 +8,38 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2acdada1a0b6955fb7d85f445bdbf5895b795bb4
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 5d704e32a9e5f85f280e17042ae4eb799058d739
+ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751173"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67123979"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'da depolanan veri kümelerini yenileme
-OneDrive veya SharePoint Online gibi bulut depolama alanlarından Power BI hizmetine dosya aktarmak, **Power BI Desktop** uygulamasında yaptığınız çalışmaların Power BI hizmeti ile eşitlenmiş durumda kalmasını sağlamak için mükemmel bir yöntemdir.
+Dosyaların OneDrive veya SharePoint Online'dan Power BI hizmetine aktarılması, Power BI Desktop'ta yaptığınız çalışmaların Power BI hizmetiyle eşitlenmiş durumda kalmasını sağlamak için mükemmel bir yöntemdir.
 
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>Power BI Desktop dosyalarını OneDrive veya SharePoint Online'da depolamanın avantajları
-**Power BI Desktop** dosyalarını OneDrive veya SharePoint Online'da depoladığınızda, dosyanızın modeline yüklediğiniz tüm veriler veri kümesine aktarılır ve dosyada oluşturduğunuz tüm raporlar, Power BI hizmetindeki **Raporlar** bölümüne yüklenir. OneDrive veya SharePoint Online'daki dosyanızda yeni ölçü ekleme, sütun adlarını değiştirme veya görselleştirmeleri düzenleme gibi değişiklikler yaptığınızda bu değişiklikler, kaydedilmelerinin ardından genellikle yaklaşık bir saat içinde Power BI'da da güncelleştirilir.
+Power BI Desktop dosyalarını OneDrive veya SharePoint Online'da depoladığınızda, dosyanızın modeline yüklediğiniz tüm veriler veri kümesinde içeri aktarılır. Dosyada oluşturduğunuz tüm raporlar, Power BI hizmetindeki **Raporlar** bölümüne yüklenir. OneDrive veya SharePoint Online'da dosyanızda değişiklik yaptığınızı varsayalım. Bunlar yeni ölçümler eklemek, sütun adlarını değiştirmek veya görselleştirmeleri düzenlemek gibi değişiklikler olabilir. Dosyayı kaydettiğinizde Power BI hizmeti genellikle yaklaşık bir saat içinde bu değişiklikleri de eşitler.
 
-Giriş şeridinden Yenile'yi seçerek Power BI Desktop'ta tek seferlik el ile yenileme gerçekleştirebilirsiniz. Burada Yenile'yi seçtiğinizde *dosya* modelindeki veriler özgün veri kaynağındaki güncel verilerle yenilenir. Tamamen Power BI Desktop uygulamasından gerçekleştirilen bu yenileme işlemi Power BI'daki el ile veya zamanlanan yenileme işlemlerinden farklıdır ve aradaki farkı kavramak önemlidir.
+**Giriş** şeridinden **Yenile**'yi seçerek Power BI Desktop'ta tek seferlik el ile yenileme gerçekleştirebilirsiniz. **Yenile**'yi seçtiğinizde dosya modelindeki verileri özgün veri kaynağındaki güncel verilerle yenilemiş olursunuz. Bu tür bir yenileme tamamen Power BI Desktop uygulamasının içinde gerçekleşir. Power BI'daki el ile veya zamanlanmış yenilemeden farklıdır ve aradaki farkı anlamak önemlidir.
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-OneDrive veya SharePoint Online'da bulunan Power BI Desktop dosyanızı içeri aktardığınızda verilerin yanı sıra modelle ilgili diğer bilgiler Power BI'daki veri kümesine yüklenir. Power BI Desktop uygulamasından farklı olarak Power BI hizmetinde, Power BI hizmetindeki raporlarınızın temelini oluşturan, veri kümesindeki verileri yenilemek istersiniz. Veri kaynakları dışarıda olduğu için **Şimdi yenile** işlevini kullanarak veri kümesini el ile yenileyebilir veya **Yenilemeyi Zamanla** özelliğini kullanarak yenileme zamanı ayarlayabilirsiniz.
+Power BI Desktop dosyanızı OneDrive veya SharePoint Online'dan içeri aktardığınızda verileri ve model bilgilerini Power BI'daki veri kümesine yüklersiniz. Power BI hizmetindeki veri kümesini yenilemek istersiniz çünkü raporlarınızda bu veri kümesi temel alınır. Veri kaynakları dışarıda olduğu için **Şimdi yenile** işlevini kullanarak veri kümesini el ile yenileyebilir veya **Yenilemeyi Zamanla** özelliğini kullanarak yenileme zamanı ayarlayabilirsiniz. 
 
-Veri kümesini yenilediğinizde Power BI güncelleştirilmiş verileri sorgulamak için OneDrive veya SharePoint Online'daki dosyaya bağlanmaz. Veri kümesindeki bilgileri kullanarak, güncelleştirilmiş verileri sorgulamak için doğrudan veri kaynaklarına bağlanır ve bu verileri veri kümesine yükler. Veri kümesindeki yenilenmiş veriler, OneDrive veya SharePoint Online'daki dosyayla eşitlenmez.
+![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+
+Veri kümesini yenilediğinizde Power BI güncelleştirilmiş verileri sorgulamak için OneDrive veya SharePoint Online'daki dosyaya bağlanmaz. Veri kümesindeki bilgileri kullanarak, güncelleştirilmiş verileri sorgulamak için doğrudan veri kaynaklarına bağlanır. Ardından söz konusu verileri veri kümesine yükler. Veri kümesindeki bu yenilenmiş veriler, OneDrive veya SharePoint Online'daki dosyayla geri eşitlenmez.
 
 ## <a name="whats-supported"></a>Hangi veri kümeleri desteklenir?
-Power BI'da Şimdi Yenile ve Yenilemeyi Zamanla işlemleri, aşağıdaki veri kaynaklarından birine bağlanmak ve bunlardan veri yüklemek için Veri Al/Sorgu Düzenleyicisi seçeneğinin kullanıldığı durumlarda bir yerel sürücüden içeri aktarılan Power BI Desktop dosyalarından oluşturulmuş veri kümeleri için desteklenir:
+Power BI'da **Yenile** ve **Yenilemeyi Zamanla** işlemleri, aşağıdaki veri kaynaklarından birine bağlanmak ve bunlardan veri yüklemek için **Veri Al** veya **Sorgu Düzenleyicisi** seçeneğini kullandığınız durumlarda bir yerel sürücüden içeri aktarılan Power BI Desktop dosyalarından oluşturulmuş veri kümeleri için desteklenir.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
-* Power BI Desktop'taki Veri Al ve Sorgu Düzenleyicisi bölümlerinde gösterilen tüm çevrimiçi veri kaynakları.
-* Hadoop dosyası (HDFS) ve Microsoft Exchange dışında, Power BI Desktop'taki Veri Al ve Sorgu Düzenleyicisi bölümlerinde gösterilen tüm şirket içi veri kaynakları.
+* Power BI Desktop'taki **Veri Al** ve **Sorgu Düzenleyicisi** bölümlerinde gösterilen tüm çevrimiçi veri kaynakları.
+* Hadoop Dosyası (HDFS) ve Microsoft Exchange dışında, Power BI Desktop'taki **Veri Al** ve **Sorgu Düzenleyicisi** bölümlerinde gösterilen tüm şirket içi veri kaynakları.
 
 <!-- Refresh Data sources-->
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
@@ -48,33 +50,34 @@ Power BI'da Şimdi Yenile ve Yenilemeyi Zamanla işlemleri, aşağıdaki veri ka
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive veya OneDrive İş. Fark nedir?
-Hem kişisel OneDrive hem de OneDrive İş kullanıyorsanız Power BI'a aktarmak istediğiniz dosyaları OneDrive İş hesabınızda tutmanız önerilir. Nedeni bu hesaplarda oturum açmak için muhtemelen farklı hesaplar kullanıyor olmanızdır.
+Hem kişisel OneDrive hem de OneDrive İş kullanıyorsanız Power BI'a aktarmak istediğiniz dosyaları OneDrive İş hesabınızda tutmalısınız. Nedeni bu hesaplarda oturum açmak için muhtemelen farklı hesaplar kullanıyor olmanızdır.
 
-Power BI'da oturum açmak için kullandığınız hesap, OneDrive İş'te oturum açmak için kullandığınız hesapla genellikle aynı olduğundan, Power BI'da OneDrive İş'e kesintisiz bir şekilde bağlanabilirsiniz. Ancak kişisel OneDrive hesabınızda oturum açmak için muhtemelen farklı bir [Microsoft hesabı](https://account.microsoft.com) kullanıyorsunuzdur.
+Power BI'da OneDrive İş'e bağlandığınızda, Power BI hesabınız genellikle OneDrive İş hesabınızla aynı olduğundan bağlantı kolayca kurulabilir. Kişisel OneDrive hesabınızda oturum açmak için genellikle farklı bir [Microsoft hesabı](https://account.microsoft.com) kullanırsınız.
 
-Microsoft hesabınızda oturum açtığınızda Oturumumu açık bırak seçeneğini belirlemeyi unutmayın. Böylece Power BI, Power BI Desktop'taki dosyada yaptığınız tüm güncelleştirmeleri, Power BI'daki veri kümeleriyle eşitleyebilir  
-    ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+Microsoft hesabınızda oturum açtığınızda **Oturumumu açık bırak** seçeneğini belirtmeyi unutmayın. Böylece Power BI, Power BI Desktop'taki dosyada yaptığınız tüm güncelleştirmeleri, Power BI'daki veri kümeleriyle eşitleyebilir.
 
-Microsoft hesabı kimlik bilgileriniz değiştirilmiş olabileceğinden, OneDrive'daki dosyanızda yaptığınız değişikliklerin Power BI'daki veri kümesi veya raporlarla eşitlenememesi durumunda kişisel OneDrive hesabınızdaki dosyaya yeniden bağlanmanız ve dosyanızı tekrar içeri aktarmanız gerekir.
+![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+
+Microsoft kimlik bilgilerinizi değiştirdiyseniz OneDrive'daki dosyanızla Power BI'daki veri kümesi arasında değişiklikleri eşitleyemezsiniz. OneDrive'a bağlanmanız ve dosyanızı yeniden içeri aktarmanız gerekir.
 
 ## <a name="how-do-i-schedule-refresh"></a>Yenileme işlemini nasıl zamanlarım?
-Bir yenileme zamanlaması belirlediğinizde, Power BI güncelleştirilen verileri sorgulamak için veri kümesindeki kimlik bilgilerini ve bağlantı bilgilerini kullanarak doğrudan veri kaynaklarına bağlanır ve ardından, güncelleştirilen verileri veri kümesine yükler. Power BI hizmetinde ilgili veri kümesini temel alan rapor ve panolardaki tüm görselleştirmeler de güncelleştirilir.
+Yenileme zamanlaması ayarladığınızda Power BI doğrudan veri kaynaklarına bağlanır. Power BI veri kümesindeki bağlantı bilgilerini ve kimlik bilgilerini kullanarak güncelleştirilmiş verileri sorgular. Ardından Power BI güncelleştirilmiş verileri veri kümesine yükler. Sonra da Power BI hizmetinde ilgili veri kümesini temel alan rapor görselleştirmelerini ve panoları güncelleştirilir.
 
-Yenileme zamanlamasını ayarlama ile ilgili daha fazla bilgi için bkz. [Yenileme Zamanlaması Yapılandırması](refresh-scheduled-refresh.md).
+Zamanlanmış yenileme ayarlamayla ilgili daha fazla bilgi için bkz. [Zamanlanmış yenilemeyi yapılandırma](refresh-scheduled-refresh.md).
 
 ## <a name="when-things-go-wrong"></a>Bir şeyler ters gittiğinde
-Bir şeyler ters gittiğinde, sorun genellikle Power BI'ın veri kaynaklarında oturum açamamasından veya veri kümesi bir şirket içi veri kaynağına bağlandığında ağ geçidinin çevrimdışı olmasından kaynaklanır. Power BI'ın veri kaynaklarında oturum açabildiğinden emin olun. Bir veri kaynağında oturum açmak için kullandığınız parola değişirse veya Power BI'ın bir veri kaynağındaki oturumu kapanırsa Veri Kaynağı Kimlik Bilgilerini kullanarak veri kaynaklarınızda yeniden oturum açmayı deneyin.
+Bir şeyler ters gittiğinde bunun nedeni çoğunlukla Power BI'ın veri kaynaklarında oturum açamamasıdır. Ayrıca veri kümesi şirket içi bir veri kaynağına bağlanmaya çalışıyorsa ama ağ geçidi çevrimdışıysa işler ters gidebilir. Bu sorunlardan kaçınmak için Power BI'ın veri kaynaklarında oturum açabildiğinden emin olun. **Veri Kaynağı Kimlik Bilgileri**'nde veri kaynaklarınızda oturum açmayı deneyin. Bazen bir veri kaynağında oturum açarken kullandığınız parola değişir veya Power BI'ın veri kaynağındaki oturumu kapatılır.
 
-OneDrive'da bulunan bir Power BI Desktop dosyasında değişiklik yapıp kaydettiğinizde bu değişiklikler bir saat içinde Power BI'a yansımıyorsa Power BI hizmeti OneDrive hesabınıza bağlanamıyor olabilir. OneDrive'daki dosyaya yeniden bağlanmayı deneyin. Oturum açmanız istenirse Oturumumu açık bırak'ı seçmeyi unutmayın. Power BI, dosyayı eşitlemek üzere OneDrive hesabınıza bağlanamadığı için dosyanızı yeniden içeri aktarmanız gerekir.
+OneDrive'da bulunan Power BI Desktop dosyasında değişikliklerinizi kaydettiğinizde bu değişiklikleri bir saat kadar bir süre içinde Power BI'da görmüyorsanız, Power BI OneDrive'ınıza bağlanamıyor olabilir. OneDrive'daki dosyaya yeniden bağlanmayı deneyin. Oturum açmanız istenirse **Oturumumu açık bırak**'ı seçmeyi unutmayın. Power BI, dosyayı eşitlemek üzere OneDrive hesabınıza bağlanamadığı için dosyanızı yeniden içeri aktarmanız gerekir.
 
 **Yenileme hatası bildirim e-postası almak istiyorum** seçeneğinin işaretlenmiş olduğundan emin olun. Bir zamanlanmış yenilemenin başarısız olup olmadığını hemen öğrenmenizde yarar vardır.
 
 ## <a name="troubleshooting"></a>Sorun giderme
-Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Bu, genellikle ağ geçidiyle bağlantılı bir sorundan kaynaklanır. Araçlar ve bilinen sorunlara yönelik sorun giderme makalelerine göz atın.
+Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Ağ geçidiyle bağlandığınızda veri yenileme sorunlarıyla karşılaşırsınız. Araçlar ve bilinen sorunlara yönelik sorun giderme makalelerine göz atın.
 
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
 
