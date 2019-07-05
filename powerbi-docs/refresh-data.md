@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67039212"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418791"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -234,7 +234,7 @@ Ağ geçidini, şirket içi ve bulut kaynaklarındaki verileri birleştirmeyi ve
 
 ![Ağ geçidi kümesi aracılığıyla yenileme](media/refresh-data/refresh-gateway-cluster.png)
 
-Yukarıdaki ekran görüntüsünde olduğu gibi, **Kullanıcının bulut veri kaynaklarına, bu ağ geçidi kümesi aracılığıyla yenileme yapma izni ver** onay kutusunu etkinleştirirseniz, Power BI, veri kümesi ayarlarında kullanıcının **Veri kaynağı kimlik bilgileri** bölümünün altında bulut kaynağı için tanımladığı yapılandırmayı kullanabilir. Bu, ağ geçidi yapılandırmasının ek yükünü azaltmaya yardımcı olabilir. Öte yandan, ağ geçidinizin oluşturduğu bağlantılar üzerinde daha fazla denetime sahip olmak istiyorsanız bu onay kutusunu etkinleştirmemeniz gerekir. Bu durumda, desteklemek istediğiniz her bulut kaynağına yönelik açık bir veri kaynağı tanımını ağ geçidinize eklemeniz gerekir. Onay kutusunu etkinleştirip bulut kaynağınız için açık veri kaynağı tanımlarını bir ağ geçidine eklemeniz de mümkündür. Bu durumda, ağ geçidi eşleşen tüm kaynaklar için veri kaynağı tanımlarını kullanır.
+Yukarıdaki ekran görüntüsünde olduğu gibi, **Kullanıcının bulut veri kaynaklarına, bu ağ geçidi kümesi aracılığıyla yenileme yapma izni ver** onay kutusunu etkinleştirirseniz Power BI, veri kümesi ayarlarında kullanıcının **Veri kaynağı kimlik bilgileri** bölümünün altında bulut kaynağı için tanımladığı yapılandırmayı kullanabilir. Bu, ağ geçidi yapılandırmasının ek yükünü azaltmaya yardımcı olabilir. Öte yandan, ağ geçidinizin oluşturduğu bağlantılar üzerinde daha fazla denetime sahip olmak istiyorsanız bu onay kutusunu etkinleştirmemeniz gerekir. Bu durumda, desteklemek istediğiniz her bulut kaynağına yönelik açık bir veri kaynağı tanımını ağ geçidinize eklemeniz gerekir. Onay kutusunu etkinleştirip bulut kaynağınız için açık veri kaynağı tanımlarını bir ağ geçidine eklemeniz de mümkündür. Bu durumda, ağ geçidi eşleşen tüm kaynaklar için veri kaynağı tanımlarını kullanır.
 
 ### <a name="configuring-query-parameters"></a>Sorgu parametrelerini yapılandırma
 
@@ -272,7 +272,7 @@ Power BI ve veri kaynaklarınız arasındaki bağlantıyı oluşturma, bir veri 
 
 ![Zamanlanmış yenileme yapılandırma](media/refresh-data/configure-scheduled-refresh.png)
 
-Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan Şimdi Yenile seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
+Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
 
 Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan işlemi yapmaya başladığı kesin zaman olmayabileceğini unutmayın. Power BI, zamanlanmış yenilemelere en iyi çaba ilkesine göre başlar. Hedef, yenilemeyi zamanlanan zaman aralığının 15 dakika içerisinde başlatmaktır. Ancak, hizmet gerekli kaynakları daha erken ayıramazsa, bir saati bulabilen gecikmeler ortaya çıkabilir.
 
@@ -283,7 +283,7 @@ Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan 
 
 Power BI varsayılan olarak, yenileme hatalarının oluşması durumunda zamanında müdahale edilebilmesi için veri kümesi sahibine e-posta aracılığıyla yenileme hatası bildirimleri gönderir. Hizmet, art arda hatalar oluşması nedeniyle hizmet zamanlamanızı devre dışı bıraktığında da Power BI size bir bildirim gönderir. Microsoft, **Yenileme hatası bildirim e-postalarını bana gönder** onay kutusunu etkin bırakmanızı önerir.
 
-Power BI, yalnızca yenileme hataları oluştuğunda değil aynı zamanda hizmet, zamanlanmış bir yenileme esnasında eylemsizlik nedeniyle durakladığında da bildirim gönderir. İki ay boyunca, bir veri kümesinde oluşturulan panoyu veya raporu hiçbir kullanıcı ziyaret etmezse, Power BI o veri kümesinin etkin olmadığını varsayar. Bu durumda Power BI, veri kümesinin sahibine hizmetin veri kümesi için yenileme zamanlamasını devre dışı bıraktığını bildiren bir e-posta iletisi gönderir. Bu tür bildirimlerin bir örneği için aşağıdaki ekran görüntüsüne bakın.
+Power BI, yalnızca yenileme hataları oluştuğunda değil aynı zamanda hizmet, zamanlanmış bir yenileme esnasında eylemsizlik nedeniyle durakladığında da bildirim gönderir. İki ay boyunca, bir veri kümesinde oluşturulan panoyu veya raporu hiçbir kullanıcı ziyaret etmezse, Power BI o veri kümesinin etkin olmadığını varsayar. Bu durumda Power BI, veri kümesinin sahibine hizmetin veri kümesi için yenileme zamanlamasını duraklattığını bildiren bir e-posta iletisi gönderir. Bu tür bildirimlerin bir örneği için aşağıdaki ekran görüntüsüne bakın.
 
 ![Duraklatılan yenileme için e-posta](media/refresh-data/email-paused-refresh.png)
 
