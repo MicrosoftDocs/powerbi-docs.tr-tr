@@ -1,5 +1,5 @@
 ---
-title: Yeni çalışma alanlarında çalışmayı düzenleme - Power BI
+title: Yeni çalışma alanlarında çalışmayı düzenleme
 description: Kuruluşunuza ana ölçümler sunmayı amaçlayan yeni çalışma alanlarını, pano ve rapor koleksiyonlarını öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345536"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418674"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -135,7 +135,7 @@ Yeni çalışma alanlarındaki bazı özellikler geçerli çalışma alanlarınd
 - Üyeler yeniden paylaşabilir veya paylaşamaz: bunun yerini Katkıda Bulunan rolü almıştır
 - Salt okunur çalışma alanları: Kullanıcılara bir çalışma alanı için salt okuma erişimi vermek yerine çalışma alanındaki içeriğe benzer bir salt okuma erişimi sağlayan Görüntüleyici rolünü atayın.
 - Pro lisansı olmayan ve yalnızca Görüntüleyici rolü olan kullanıcılar, çalışma alanı Power BI Premium kapasitesinde olduğunda bu çalışma alanına erişebilir.
-- Görüntüleyici rolü olan kullanıcıların verileri dışarı aktarmasına izin vermek için, çalışma alanındaki veri kümeleri üstünde Derleme iznine sahip olduklarından emin olun.
+- Görüntüleyici rolü olan kullanıcıların verileri dışarı aktarmasına izin vermek için, çalışma alanındaki veri kümeleri üstünde Derleme iznine sahip olduklarından emin olun. [Veri kümeleri için oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
 - **Çalışma alanından ayrıl** düğmesi yok.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
