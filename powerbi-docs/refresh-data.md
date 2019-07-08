@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418791"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561810"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -177,6 +177,8 @@ Microsoft, veri kümesini şirket içi veri kaynağına bağlamak için kişisel
 Ağ geçidi yöneticisiyseniz, veri kümesini bir kurumsal ağ geçidine kolayca bağlayabilirsiniz. Yönetici izinleriyle, ağ geçidini hızla güncelleştirip varsa eksik veri kaynaklarını ekleyebilirsiniz. Hatta, eksik bir veri kaynağını doğrudan veri kümesi ayarları sayfasından ağ geçidinize ekleyebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kaynaklarını görüntülemek için iki durumlu düğmeyi genişletip **Ağ geçidine ekle** bağlantısını seçin. Öte yandan, ağ geçidi yöneticisi değilseniz, ağ geçidi yöneticisine istenen veri kaynağı tanımını eklemeye yönelik bir istek göndermek için görüntülenen iletişim bilgilerini kullanın.
 
 ![Ağ geçidine ekleme](media/refresh-data/add-to-gateway.png)
+
+Veri kaynağınız ile doğru veri kaynağı tanımını eşlediğinizden emin olun. Yukarıdaki ekran görüntüsünde de gösterildiği gibi, ağ geçidi yöneticileri tek bir ağ geçidinde aynı veri kaynağına bağlı olan ve kimlik bilgileri farklı olan birden fazla tanım oluşturabilir. Gösterilen örnekte, Satış departmanındaki bir veri kümesi sahibi AdventureWorksProducts-Sales veri kaynağını seçerken Destek departmanındaki bir veri kümesi sahibi ise veri kümesini AdventureWorksProducts-Support veri kaynağı tanımıyla eşliyor. Veri kaynağı tanımının adları kolay anlaşılamıyorsa hangi tanımı seçmeniz gerektiğini öğrenmek için ağ geçidi yöneticinize başvurun.
 
 > [!NOTE]
 > Veri kümesi sadece bir tane ağ geçidi bağlantısını kullanabilir. Diğer bir deyişle, birden çok ağ geçidi bağlantısı üzerinden şirket içi veri kaynaklarına erişim mümkün değildir. Buna uygun olarak, gerekli tüm veri kaynağı tanımlarını aynı ağ geçidine eklemeniz gerekir.
