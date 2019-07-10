@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448403"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468135"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 
@@ -26,12 +26,12 @@ DirectQuery ile, siz verileri rapor görünümünde araştırırken sorgular Azu
 
 **Notlar:**
 
-* Bağlanırken tam sunucu adını belirtin (daha fazla ayrıntı için aşağıya bakın)
-* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://msdn.microsoft.com/library/azure/ee621782.aspx)" olarak yapılandırıldığından emin olun
-* Sütun seçme veya filtre ekleme gibi her işlem veritabanına sorgu gönderir
-* Kutucuklar saatte bir yenilenir (yenileme işleminin zamanlanması gerekmez). Bu, bağlantı kurulduktan sonra Gelişmiş ayarlar'da ayarlanabilir.
-* Soru-Cevap, DirectQuery veri kümeleri için kullanılamaz
-* Şema değişiklikleri otomatik olarak alınmaz
+* Bağlanırken tam sunucu adını belirtin (daha fazla ayrıntı için aşağıya bakın).
+* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://msdn.microsoft.com/library/azure/ee621782.aspx)" olarak yapılandırıldığından emin olun.
+* Sütun seçme veya filtre ekleme gibi her işlem veritabanına sorgu gönderir.
+* Kutucuklar saatte bir yenilenir (yenileme işleminin zamanlanması gerekmez). Bağlandığınızda Gelişmiş ayarlarda yenileme sıklığını ayarlayabilirsiniz.
+* DirectQuery veri kümeleri için Soru-Cevap özelliği kullanılamaz.
+* Şema değişiklikleri otomatik olarak alınmaz.
 
 Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Bağlanma adımları aşağıda ayrıntılı şekilde verilmiştir.
 
@@ -40,13 +40,13 @@ Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe deği
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop ve DirectQuery
 
-DirectQuery'yi kullanarak Azure SQL Veritabanı'na bağlanmak için Power BI Desktop'ı kullanmanız gerekir. Bu yaklaşım, daha fazla esneklik ve özellik sunar. Power BI Desktop kullanılarak oluşturulan raporlar daha sonra Power BI hizmetinde yayımlanabilir. Power BI Desktop'ta [DirectQuery'yi kullanarak Azure SQL Veritabanı](desktop-use-directquery.md)'na nasıl bağlanacağınızla ilgili daha fazla bilgi edinebilirsiniz.
+DirectQuery'yi kullanarak Azure SQL Veritabanı'na bağlanmak için Power BI Desktop kullanmanız gerekir. Bu yaklaşım, daha fazla esneklik ve özellik sunar. Power BI Desktop kullanılarak oluşturulan raporlar daha sonra Power BI hizmetinde yayımlanabilir. Power BI Desktop'ta [DirectQuery'yi kullanarak Azure SQL Veritabanı](desktop-use-directquery.md)'na nasıl bağlanacağınızla ilgili daha fazla bilgi edinebilirsiniz.
 
-## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
+## <a name="find-parameter-values"></a>Parametre değerlerini bulma
 
-Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir.
+Tam sunucu adınızı ve veritabanınızın adını Azure portalda bulabilirsiniz.
 
-![Yeni Azure bağlantı noktası güncelleştirme](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![Yeni Azure portalı güncelleştirmesi](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Azure portal güncelleştirmesi](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 
@@ -58,4 +58,4 @@ Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir.
 * [Power BI nedir?](power-bi-overview.md)  
 * [Power BI için veri alma](service-get-data.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'nu deneyin](http://community.powerbi.com/)

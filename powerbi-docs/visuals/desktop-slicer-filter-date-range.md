@@ -7,81 +7,102 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3d8057c4d35294dd5e83638b721169e4d54d2adf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66374411"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532567"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Göreli tarih Dilimleyici ve filtre Power BI'da kullanma
-**Göreli tarih dilimleyici** veya **göreli tarih filtresi** ile veri modelinizdeki tarih sütunlarına zamana bağlı filtre uygulayabilirsiniz. Örneğin, **göreli tarih dilimleyiciyi** kullanarak yalnızca son otuz gün içinde (veya ay, takvim ayları ve benzeri) gerçekleşen satışlara ait verileri gösterebilirsiniz. Verileri yenilediğinizde de göreli zaman dönemi otomatik olarak ilgili göreli tarih kısıtlamasını uygular.
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop'ta göreli tarih dilimleyici ve filtre kullanma
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+**Göreli tarih dilimleyici** veya **göreli tarih filtresi** ile veri modelinizdeki tarih sütunlarına zamana bağlı filtre uygulayabilirsiniz. Örneğin, **göreli tarih dilimleyiciyi** kullanarak yalnızca son 30 gün içinde (veya ay, takvim ayları ve benzeri) gerçekleşen satışlara ait verileri gösterebilirsiniz. Verileri yenilediğinizde de göreli zaman dönemi otomatik olarak ilgili göreli tarih kısıtlamasını uygular.
 
-## <a name="using-the-relative-date-range-slicer"></a>Göreli tarih aralığı dilimleyiciyi kullanma
-Göreli tarih dilimleyiciyi diğer dilimleyiciler gibi kullanabilirsiniz. Tek yapmanız gereken raporunuz için bir **dilimleyici** görseli oluşturup **Alan** değeri olarak bir tarih değeri seçmektir. Aşağıdaki resimde *OrderDate* alanı seçilmiştir.
+![Göreli tarih dilimleyicisini işaret eden okun bulunduğu bir raporun ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
+## <a name="use-the-relative-date-range-slicer"></a>Göreli tarih aralığı dilimleyicisini kullanma
 
-Dilimleyici tuvalinize ve simgeyi seçtiğinizde visual Dilimleyicinin sağ üst köşesinde bulunan seçin. Görsel tarih veri içeriyorsa, menü seçeneği için görüntüler **göreli**. 
+Göreli tarih dilimleyiciyi diğer dilimleyiciler gibi kullanabilirsiniz. Raporunuz için bir **dilimleyici** görseli oluşturup **Alan** değeri olarak bir tarih değeri seçin. Aşağıdaki görüntüde *OrderDate* alanını seçtik.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
+![Okların dilimleyici görselini ve Alan bölmesini işaret ettiği Görselleştirmeler bölmesinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
+
+Tuvalinizin üzerinde dilimleyiciyi ve sonra dilimleyici görselinin sağ üst köşesinde bulunan karatı seçin. Görselin tarih verileri varsa menüde **Göreli** seçeneği gösterilir.
+
+![Karatın çevresinde bir açıklama balonu ve Göreli ifadesini işaret eden bir okla birlikte dilimleyici görselinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
 Göreli tarih dilimleyici için *Göreli*'yi seçin.
 
-Ardından ayarları seçebilirsiniz. *Göreli tarih dilimleyicideki* ilk açılan menü için aşağıdaki seçimleri yapabilirsiniz:
+Ardından ayarları seçebilirsiniz.
+
+*Göreli tarih dilimleyicisindeki* ilk ayar için aşağıdaki seçimleri yapabilirsiniz:
+
+![İlk ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * Son
+
 * Sonraki
+
 * Bu
 
-Bu seçimler aşağıdaki görüntüde gösterilmiştir.
+*Göreli tarih dilimleyicisinde* ikinci (ortadaki) ayar, göreli tarih aralığını tanımlamak üzere bir sayı girmenizi sağlar.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
-
-*Göreli tarih dilimleyicideki* sonraki (ortadaki) ayarı, göreli tarih aralığını tanımlamak üzere bir sayı girmenizi sağlar.
+![İkinci ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
 Üçüncü ayar, tarih ölçümünü seçmenize olanak tanır. Aşağıdaki seçimleri yapabilirsiniz:
 
+![Üçüncü ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
+
 * Gün
+
 * Hafta
+
 * Hafta (Takvim)
+
 * Ay
+
 * Ay (Takvim)
+
 * Yıl
+
 * Yıl (Takvim)
 
-Bu seçimler aşağıdaki görüntüde gösterilmiştir.
+Listeden **Ay**'ı seçip ortadaki ayara *2* değerini girerseniz şu olur:
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
+* bugün 20 Temmuz ise
 
-Bu listeden *Aylar*’ı ve ortadaki ayarda giriş 2’yi seçerseniz şunlar olur: Bugünün 20 Temmuz olduğunu kabul edersek görsellerde bulunan ve dilimleyici tarafından kısıtlanan veriler, 20 Mayıs-20 Temmuz (bugün) olmak üzere son iki aya ait verileri gösterir.
+* dilimleyici tarafından kısıtlanan görsellere eklenen veriler, önceki iki ayın verilerini gösterir
+
+* 20 Mayıs’ta başlayıp 20 Temmuz’a (bugünün tarihi) kadar devam eden
 
 Buna karşılık *Ay (Takvim)* seçeneğini belirlerseniz kısıtlanan görseller 1 Mayıs-30 Haziran arasındaki (son iki tam takvim ayı) verileri gösterir.
 
 ## <a name="using-the-relative-date-range-filter"></a>Göreli tarih aralığı filtresini kullanma
-Raporunuzun bir sayfası veya tamamı için göreli tarih aralığı filtresi de oluşturabilirsiniz. Bunun için aşağıdaki görüntüde verilen şekilde **Alan** bölmesindeki **Sayfa düzeyi filtreleri** veya **Rapor düzeyi filtreleri** alanlarına bir tarih alanı sürüklemeniz yeterlidir.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
+Raporunuzun bir sayfası veya tamamı için göreli tarih aralığı filtresi de oluşturabilirsiniz. Bunun için **Alan** bölmesindeki **Sayfa düzeyi filtreleri** veya **Rapor düzeyi filtreleri** bölmesine bir tarih alanı sürükleyin:
 
-Bu işlemin ardından göreli tarih aralığı filtresini **göreli tarih dilimleyici** gibi özelleştirebilirsiniz. **Filtre Türü** açılan menüsünden **Göreli tarih filtresi**'ni seçin.
+![Sayfa düzeyi filtreleri bölmesine sürüklenen OrderDate alanının ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
+Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, **göreli tarih dilimleyiciyi** özelleştirme işlemiyle benzerdir. **Filtre Türü** açılan menüsünden **Göreli tarih filtresi**'ni seçin.
 
-**Göreli tarih filtresi**'ni seçtikten sonra dilimleyicide olduğu gibi değiştirebileceğiniz ve ortada bir sayısal kutusu bulunan üç bölüm açılır.
+![Filtre Türü açılır listesi ve Göreli Tarih filtrelemesi üzerindeki fare işaretçisini gösteren ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
+**Göreli tarih filtresi**'ni seçtikten sonra dilimleyicide olduğu gibi değiştirebileceğiniz ve ortada bir sayısal kutusu bulunan üç bölüm görünür.
 
-Bu göreli tarih kısıtlamalarını raporlarınızda kullanmak için yapmanız gerekenler bu kadardır.
+![Değer seçenekleri ile birlikte Öğeleri göster seçeneğini işaret eden oklarla Rapor düzeyi filtrelerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+
 **Göreli tarih aralığı dilimleyici** ve filtresi için geçerli sınırlamalar ve önemli noktalar aşağıda belirtilmiştir.
 
 * **Power BI**'daki veri modellerinde saat dilimi bilgisi yoktur. Modeller saat bilgisi depolayabilir ancak bulundukları saat dilimiyle ilgili bir belirtim mevcut değildir.
-* Dilimleyici ve filtre her zaman UTC saatini kullanır. Bu nedenle bir raporda filtre yapılandırıp farklı bir saat dilimindeki iş arkadaşınıza göndermeniz halinde sizinle aynı verileri görecektir. Ancak UTC saat diliminde değilseniz beklediğinizden farklı bir saat dilimine ait verileri görebilirsiniz.
-* Yerel saat diliminizde toplanan verileri UTC'ye dönüştürmek için **Sorgu Düzenleyicisi**'ni kullanabilirsiniz.
 
+* Dilimleyici ve filtre her zaman UTC cinsinden saati temel alır. Bir raporda filtre oluşturup farklı bir saat dilimindeki iş arkadaşınıza gönderirseniz, her ikiniz de aynı verileri görürsünüz. UTC saat diliminde değilseniz, hem sizin hem de iş arkadaşınızın aradaki saat farkını dikkate alması gerekir.
+
+* **Sorgu Düzenleyicisi**'ni kullanarak bir yerel saat diliminde yakalanan verileri UTC'ye dönüştürebilirsiniz.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI Desktop’ta gruplandırma ve gruplama özelliklerini kullanma](../desktop-grouping-and-binning.md) hakkında bilgi edinin.

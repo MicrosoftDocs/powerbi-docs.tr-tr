@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430798"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418815"
 ---
 # <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -79,7 +79,7 @@ Yükleme tamamlandıktan sonra, Power BI içindeki veri kümelerinize gitmeniz v
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>Şifrelenmiş kimlik bilgilerini bulutta depolama
 
-Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kimlik bilgilerini sağlamanız gerekir. Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgileri bulutta depolanmadan önce, bulutta şifrelerinin çözülmesini önlemek için asimetrik şifreleme kullanılarak güvenli bir şekilde şifrelenir. Kimlik bilgileri, şirket içinde ağ geçidini çalıştıran, veri kaynaklarına erişildiği zaman şifrelerinin çözüldüğü makineye gönderilir.
+Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kimlik bilgilerini sağlamanız gerekir. Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgileri bulutta depolanmadan önce, bulutta şifrelerinin çözülmesini önlemek için simetrik şifreleme kullanılarak güvenli bir şekilde şifrelenir. Kimlik bilgileri, şirket içinde ağ geçidini çalıştıran, veri kaynaklarına erişildiği zaman şifrelerinin çözüldüğü makineye gönderilir.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

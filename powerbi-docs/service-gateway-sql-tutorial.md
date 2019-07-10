@@ -3,206 +3,205 @@ title: 'Öğretici: SQL Server’da şirket içi verilere bağlanma'
 description: Verileri yenilemek de dahil olmak üzere SQL Server’ı bir ağ geçidi veri kaynağı olarak kullanma hakkında bilgi edinin.
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278941"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468358"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Öğretici: SQL Server’da şirket içi verilere bağlanma
+# <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
 
-Şirketi içi veri ağ geçidi, şirket içi ağı içine yüklediğiniz bir yazılımdır ve bu ağda verilere erişimi kolaylaştırır. Bu öğreticide, Power BI Desktop’ta SQL Server’dan içeri aktarılmış örnek verileri temel alarak bir rapor oluşturacaksınız. Daha sonra, raporu Power BI hizmetinde yayımlayacak ve hizmetin şirket içi verilere erişebilmesi için bir ağ geçidi yapılandıracaksınız. Bu erişim, hizmetin raporu güncel tutmak için verileri yenileyebileceği anlamına gelir.
+Bu öğreticide, şirket içinde yerel ağınızda mevcut olan bir Power BI veri kümesinin nasıl yenileneceğini keşfedeceksiniz. Özellikle, bu öğreticide Power BI’nin bir şirket içi veri ağ geçidi üzerinden erişmesi gereken örnek bir SQL Server veritabanı kullanılmaktadır.
 
-Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
+Bu öğreticide aşağıdaki adımları tamamlarsınız:
+
 > [!div class="checklist"]
-> * SQL Server'da verilerden rapor oluşturma
-> * Raporu Power BI Hizmetinde yayımlama
-> * SQL Server’ı ağ geçidi veri kaynağı olarak ekleme
-> * Rapordaki verileri yenileme
-
-Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
-
+> * Şirket içi SQL Server veritabanından verileri içeri aktaran bir Power BI Desktop (.pbix) dosyası oluşturup yayımlayın.
+> * Bir veri ağ geçidi aracılığıyla SQL Server bağlantısı için Power BI’da veri kaynağı ve veri kümesi ayarlarını yapılandırın.
+> * Power BI veri kümenizdeki verilerin güncel olduğundan emin olmak için bir yenileme zamanlaması yapılandırın.
+> * Veri kümenizin isteğe bağlı bir yenilemesini gerçekleştirin.
+> * Geçmiş yenileme döngülerinin sonuçlarını analiz etmek için yenileme geçmişini gözden geçirin.
+> * Bu öğreticide oluşturulan yapıtları silerek kaynakları temizleyin.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-* [Power BI Desktop uygulamasını yükleme](https://powerbi.microsoft.com/desktop/)
-* Yerel bir bilgisayara [SQL Server yükleme](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server) 
-* Aynı yerel bilgisayara [şirket içi veri ağ geçidi yükleme](service-gateway-install.md) (üretimde, genellikle farklı bir bilgisayardır)
+- Henüz yoksa, başlamadan önce [ücretsiz Power BI deneme sürümüne](https://app.powerbi.com/signupredirect?pbi_source=web) kaydolun.
+- Yerel bir bilgisayara [Power BI Desktop uygulamasını yükleyin](https://powerbi.microsoft.com/desktop/).
+- Yerel bir bilgisayara [SQL Server yükleyin](/sql/database-engine/install-windows/install-sql-server) ve [örnek veritabanını yedekten geri yükleyin]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). AdventureWorks hakkında daha fazla bilgi için bkz. [AdventureWorks yükleme ve yapılandırma](/sql/samples/adventureworks-install-configure).
+- SQL Server ile aynı yerel bilgisayara [şirket içi veri ağ geçidi yükleyin](service-gateway-install.md) (üretimde, genellikle farklı bir bilgisayardır).
 
+> [!NOTE]
+> Ağ geçidi yöneticisi değilseniz ve kendiniz bir ağ geçidi yüklemek istemiyorsanız, kuruluşunuzdaki bir ağ geçidi yöneticisi ile iletişime geçin. Ağ geçidi yöneticisi, veri kümenizi SQL Server veritabanınıza bağlamak için gereken veri kaynağı tanımını oluşturabilir.
 
-## <a name="set-up-sample-data"></a>Örnek verileri ayarlama
+## <a name="create-and-publish-a-power-bi-desktop-file"></a>Power BI Desktop dosyası oluşturma ve yayımlama
 
-İlk olarak, öğreticinin geri kalanında bu verileri kullanabilmek için SQL Server’a örnek verileri ekleyin.
+AdventureWorksDW örnek veritabanını kullanarak temel bir Power BI raporu oluşturmak için aşağıdaki yordamı kullanın. Power BI’da sonraki adımlarda yapılandırıp yenileyebileceğiniz bir veri kümesi elde edebilmek için raporu Power BI hizmetinde yayımlayın.
 
-1. SQL Server Management Studio’da (SSMS), SQL Server örneğinize bağlanın ve bir test veritabanı oluşturun.
+1. Power BI Desktop **Giriş** sekmesinde **Veri Al** \> **SQL Server** öğesini seçin.
 
-    ```sql
-    CREATE DATABASE TestGatewayDocs
-    ```
+2. **SQL Server veritabanı** iletişim kutusuna **Sunucu** ve **Veritabanı (isteğe bağlı)** adlarını girin, **Veri Bağlantısı modu**’nun **İçeri Aktarma** olduğundan emin olun ve sonra **Tamam**’ı seçin.
 
-2. Oluşturduğunuz veritabanında bir tablo ekleyin ve verileri ekleyin.
+    ![SQL Server veritabanı](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-    ```sql
-    USE TestGatewayDocs
+3. **Kimlik bilgilerinizi** doğrulayın, ardından **Bağlan**’ı seçin.
 
-    CREATE TABLE Product (
-        SalesDate DATE,
-        Category  VARCHAR(100),
-        Product VARCHAR(100),
-        Sales MONEY,
-        Quantity INT
-    )
+    > [!NOTE]
+    > Kimlik doğrulaması yapamıyorsanız doğru kimlik doğrulama yöntemini seçtiğinizden ve veritabanı erişimi olan bir hesap kullandığınızdan emin olun. Test ortamlarında açık bir kullanıcı adı ve parola ile Veritabanı kimlik doğrulamasını kullanabilirsiniz. Üretim ortamlarında genellikle Windows kimlik doğrulaması kullanırsınız. Daha fazla yardım için [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md)’na bakın ve veritabanı yöneticinizle iletişime geçin.
 
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Carrying Case',9924.60,68)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Tripod',1350.00,18)
-    INSERT INTO Product VALUES('2018-05-11','Accessories','Lens Adapter',1147.50,17)
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Mini Battery Charger',1056.00,44)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Telephoto Conversion Lens',1380.00,18)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','USB Cable',780.00,26)
-    INSERT INTO Product VALUES('2018-05-08','Accessories','Budget Movie-Maker',3798.00,9)
-    INSERT INTO Product VALUES('2018-05-09','Digital video recorder','Business Videographer',10400.00,13)
-    INSERT INTO Product VALUES('2018-05-10','Digital video recorder','Social Videographer',3000.00,60)
-    INSERT INTO Product VALUES('2018-05-11','Digital','Advanced Digital',7234.50,39)
-    INSERT INTO Product VALUES('2018-05-07','Digital','Compact Digital',10836.00,84)
-    INSERT INTO Product VALUES('2018-05-08','Digital','Consumer Digital',2550.00,17)
-    INSERT INTO Product VALUES('2018-05-05','Digital','Slim Digital',8357.80,44)
-    INSERT INTO Product VALUES('2018-05-09','Digital SLR','SLR Camera 35mm',18530.00,34)
-    INSERT INTO Product VALUES('2018-05-07','Digital SLR','SLR Camera',26576.00,88)
-    ```
+1. **Şifreleme Desteği** iletişim kutusu görüntülenirse **Tamam**’ı seçin.
 
-3. Verileri doğrulamak için tablodan seçin.
+2. **Gezgin** iletişim kutusunda **DimProduct** tablosunu, ardından **Yükle**’yi seçin.
 
-    ```sql
-    SELECT * FROM Product
-    ```
+    ![Veri kaynağı gezgini](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-    ![Sorgu sonuçları](media/service-gateway-sql-tutorial/query-results.png)
+3. Power BI Desktop **Rapor** görünümündeki **Görselleştirmeler** bölmesinde, **Yığılmış sütun grafik**’i seçin.
 
+    ![Yığılmış sütun grafik](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-## <a name="build-and-publish-a-report"></a>Rapor oluşturma ve yayımlama
+4. Rapor tuvalinde sütun grafiği seçiliyken, **Alanlar** bölmesindeki **EnglishProductName** ve **ListPrice** alanlarını seçin.
 
-Birlikte çalışacağınız örnek verileri elde ettikten sonra, Power BI Desktop’ta SQL Server’a bağlanın ve bu verilere temel alarak bir rapor oluşturun. Daha sonra raporu Power BI hizmetinde yayımlayın.
+    ![Alanlar bölmesi](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-1. Power BI Desktop **Giriş** sekmesinde **Veri Al** > **SQL Server** öğesini seçin.
+5. **EndDate** öğesini **Rapor düzeyi filtreleri**’nin üzerine sürükleyin ve **Temel filtreleme** altında yalnızca **(Boş)** onay kutusunu seçin.
 
-2. **Sunucu** altında sunucu adınızı girin ve **Veritabanı** altında "TestGatewayDocs" ifadesini girin. **Tamam**'ı seçin. 
-
-    ![Sunucu ve veritabanı girin](media/service-gateway-sql-tutorial/server-database.png)
-
-3. Kimlik bilgilerinizi doğrulayın, ardından **Bağlan**’ı seçin.
-
-4. **Gezgin** altında **Ürün** tablosunu ve sonra **Yükle**’yi seçin.
-
-    ![Ürün tablosu seçme](media/service-gateway-sql-tutorial/select-product-table.png)
-
-5. Power BI Desktop **Rapor** görünümündeki **Görselleştirmeler** bölmesinde, **Yığılmış sütun grafik**’i seçin.
-
-    ![Yığılmış sütun grafik](media/service-gateway-sql-tutorial/column-chart.png)    
-
-6. Rapor tuvalinde sütun grafiği seçiliyken, **Alanlar** bölmesindeki **Ürün** ve **Satış** alanlarını seçin.  
-
-    ![Alan seçme](media/service-gateway-sql-tutorial/select-fields.png)
+    ![Rapor düzeyi filtreleri](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     Grafik şimdi aşağıdaki gibi görünür.
 
-    ![Ürün tablosu seçme](media/service-gateway-sql-tutorial/finished-chart.png)
+    ![Tamamlanmış sütun grafik](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    Mevcut satış liderinin **SLR Camera** olduğuna dikkat edin. Bu öğreticinin sonraki kısımlarında verileri güncelleştirdiğinizde ve raporu yenilediğinizde bu değer değişir.
+    Beş **Road-250** ürününün en yüksek liste fiyatıyla listelendiğine dikkat edin. Bu öğreticinin sonraki kısımlarında verileri güncelleştirdiğinizde ve raporu yenilediğinizde bu değer değişecektir.
 
-7. Raporu "TestGatewayDocs.pbix" adıyla kaydedin.
+6. Raporu "AdventureWorksProducts.pbix" adıyla kaydedin.
 
-8. **Giriş** sekmesinde **Yayımla** > **Çalışma Alanım** > **Seç** öğesini seçin. Sizden istenmesi durumunda Power BI hizmetinde oturum açın. 
+7. **Giriş** sekmesinde **Yayımla** \> **Çalışma Alanım** \> **Seç** öğesini seçin. Sizden istenmesi durumunda Power BI hizmetinde oturum açın.
 
-    ![Rapor yayımlama](media/service-gateway-sql-tutorial/publish-report.png)
+8. **Başarılı** ekranında **'AdventureWorksProducts.pbix' dosyasını Power BI’da aç**’ı seçin.
 
-9. **Başarılı** ekranında **'TestGatewayDocs.pbix' dosyasını Power BI’da aç**’ı seçin.
+    [Power BI'da yayımla](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
+## <a name="connect-a-dataset-to-a-sql-server-database"></a>Veri kümesini SQL Server veritabanına bağlama
 
-## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server’ı ağ geçidi veri kaynağı olarak ekleme
+Power BI Desktop’ta doğrudan SQL Server veritabanınıza bağlandınız ancak Power BI hizmetinin bulut ile şirket içi ağınız arasında bir köprü olarak görev yapması için bir veri ağ geçidi gereklidir. Şirket içi SQL Server veritabanınızı veri kaynağı olarak bir ağ geçidine eklemek ve sonra veri kümenizi bu veri kaynağına bağlamak için bu adımları izleyin.
 
-Power BI Desktop’ta doğrudan SQL Server’a bağlanabilirsiniz ancak Power BI hizmetinin köprü olarak görev yapması için bir ağ geçidi gerekir. Şimdi, önceki bir makalede oluşturduğunuz ağ geçidi için veri kaynağı olarak SQL Server örneğinizi ekleyin ([Önkoşullar](#prerequisites) altında listelenmiştir). 
+1. Power BI'da oturum açın. Sağ üst köşedeki ayarlar dişli simgesini seçin ve ardından **Ayarlar**’ı seçin.
 
-1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-sql-tutorial/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
+    ![Power BI ayarları](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
-    ![Ağ geçitlerini yönet](media/service-gateway-sql-tutorial/manage-gateways.png)
+2. Şirket içi SQL Server veritabanınıza bir veri ağ geçidi aracılığıyla bağlanabilmek için **Veri Kümeleri** sekmesinde **AdventureWorksProducts** veri kümesini seçin.
 
-2. **Veri kaynağı ekle**’yi seçin ve **Veri Kaynağı Adı** için "test-sql-source" girin.
+3. **Ağ geçidi bağlantısı**’nı genişletin ve en az bir ağ geçidinin listelendiğini doğrulayın. Bir ağ geçidiniz yoksa, ağ geçidi yükleme ve yapılandırmaya ilişkin ürün belgelerinin bağlantısı için bu öğreticinin önceki kısımlarında bulunan [Önkoşullar](#prerequisites) bölümüne bakın.
 
-    ![Veri kaynağı ekleme](media/service-gateway-sql-tutorial/add-data-source.png)
+    ![Ağ geçidi bağlantısı](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-3. **SQL Server** için **Veri Kaynağı Türü** seçin, ardından diğer değerleri gösterilen şekilde girin.
+4. **Eylemler** altında, veri kaynaklarını görüntülemek için iki durumlu düğmeyi genişletip **Ağ geçidine ekle** bağlantısını seçin.
 
-    ![Veri kaynağı ayarlarını girme](media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![Ağ geçidine veri kaynağı ekleme](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
+    > [!NOTE]
+    > Ağ geçidi yöneticisi değilseniz ve kendiniz bir ağ geçidi yüklemek istemiyorsanız, kuruluşunuzdaki bir ağ geçidi yöneticisi ile iletişime geçin. Ağ geçidi yöneticisi, veri kümenizi SQL Server veritabanınıza bağlamak için gereken veri kaynağı tanımını oluşturabilir.
 
-   |          Seçenek           |                                               Değer                                                |
-   |---------------------------|----------------------------------------------------------------------------------------------------|
-   |   **Veri Kaynağı Adı**    |                                          test-sql-source                                           |
-   |   **Veri Kaynağı Türü**    |                                             SQL Server                                             |
-   |        **Sunucu**         | SQL Server örneğinizin adı (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır) |
-   |       **Veritabanı**        |                                          TestGatewayDocs                                           |
-   | **Kimlik Doğrulama Yöntemi** |                                              Windows                                               |
-   |       **Kullanıcı adı**        |             SQL Server'a bağlanmak için kullandığınız michael@contoso.com gibi hesap             |
-   |       **Parola**        |                   SQL Server’a bağlanmak için kullandığınız hesabın parolası                    |
+5. **Ağ Geçitleri** yönetim sayfasındaki **Veri Kaynağı Ayarları** sekmesinde, aşağıdaki bilgileri girip doğrulayın ve **Ekle**’yi seçin.
 
+    | Seçenek | Değer |
+    | --- | --- |
+    | Veri Kaynağı Adı | AdventureWorksProducts |
+    | Veri Kaynağı Türü | SQL Server |
+    | Sunucu | SQL Server örneğinizin adı, örneğin SQLServer01 (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır). |
+    | Veritabanı | SQL Server veritabanınızın adı, örneğin AdventureWorksDW (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır). |
+    | Kimlik Doğrulama Yöntemi | Windows veya Temel (genellikle Windows). |
+    | Kullanıcı adı | SQL Server'a bağlanmak için kullandığınız kullanıcı hesabı. |
+    | Parola | SQL Server’a bağlanmak için kullandığınız hesabın parolası. |
 
-4. **Ekle**'yi seçin. İşlem başarılı olduğunda *Bağlantı Başarılı* ifadesini görürsünüz.
+    ![Veri kaynağı ayarları](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    ![Bağlantı başarılı](media/service-gateway-sql-tutorial/connection-successful.png)
+6. **Veri kümeleri** sekmesinde **Ağ geçidi bağlantısı** bölümünü tekrar genişletin. Yüklediğiniz makinede çalışma **Durumu** gösteren yapılandırdığınız veri ağ geçidini ve **Uygula** öğesini seçin.
 
-    Şimdi bu veri kaynağını kullanarak SQL Server verilerinizi Power BI pano ve raporlarına ekleyebilirsiniz.
+    ![Ağ geçidi bağlantısını güncelleştirme](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
+## <a name="configure-a-refresh-schedule"></a>Yenileme zamanlaması yapılandırma
 
-## <a name="configure-and-use-data-refresh"></a>Veri yenilemeyi yapılandırma ve kullanma
+Power BI’daki veri kümenizi bir veri ağ geçidi aracılığıyla şirket içindeki SQL Server veritabanınıza bağladıktan sonra bir yenileme zamanlaması yapılandırmak için aşağıdaki adımları izleyin. Veri kümenizin belirli bir zamanlamaya göre yenilenmesi, rapor ve panolarınızın en güncel verileri içermesine yardımcı olur.
 
-Raporunuzu Power BI hizmetinde yayımladınız ve SQL Server veri kaynağını yapılandırdınız. Bunlarla birlikte, Ürün tablosunda bir değişiklik yapacaksınız ve bu değişiklik, ağ geçidi üzerinden yayımlanan rapora akacak. Ayrıca, gelecekteki değişiklikleri işlemek için zamanlanmış bir yenileme yapılandıracaksınız.
+1. Sol gezinti bölmesinde **Çalışma Alanım** \> **Veri Kümeleri**’ni açın. **AdventureWorksProducts** veri kümesi için üç noktayı ( **. . .** ), ardından **Yenileme zamanla**’yı seçin.
 
-1. SSMS’de, Ürün tablosundaki verileri güncelleştirin.
+    > [!NOTE]
+    > Aynı ada sahip raporun üç noktasını değil, **AdventureWorksProducts** veri kümesinin üç noktasını seçtiğinizden emin olun. **AdventureWorksProducts** raporunun bağlam menüsünde **Yenileme zamanla** seçeneği bulunmaz.
 
-    ```sql
-    UPDATE Product
-    SET Sales = 32508, Quantity = 252
-    WHERE Product='Compact Digital'     
+2. **Zamanlanmış yenileme** bölümündeki **Verilerinizi güncel tutun** altında yenilemeyi **Açık** olarak ayarlayın.
 
-    ```
+3. Uygun bir **Yenileme sıklığı** (bu örnek için **Günlük**) seçin ve sonra **Saat** altında **Başka bir saat seç**’i seçerek istediğiniz yenileme saatini belirtin (bu örnekte sabah ve akşam 06.30).
 
-2. Power BI Hizmetinin sol gezinti bölmesinde **Çalışma Alanım**’ı seçin.
+    ![Zamanlanmış yenileme yapılandırma](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
-3. **Veri Kümeleri** altında, **TestGatewayDocs** veri kümesi için **Diğer** (**. . .**) > **Şimdi yenile** öğesini seçin.
+    > [!NOTE]
+    > Veri kümeniz paylaşılan kapasitedeyse 8, Power BI Premium’da ise 48’e kadar yenileme sıklığı yapılandırabilirsiniz.
 
-    ![Şimdi yenile](media/service-gateway-sql-tutorial/refresh-now.png)
+4. **Yenileme hatası bildirim e-postalarını bana gönder** onay kutusunu etkin bırakın ve **Uygula**’yı seçin.
 
-4. **Çalışma Alanım** > **Raporlar** > **TestGatewayDocs** öğesini seçin. Güncelleştirmenin nasıl uygulandığına ve satış liderinin artık **Compact Digital** olduğuna dikkat edin. 
+## <a name="perform-an-on-demand-refresh"></a>İsteğe bağlı yenileme gerçekleştirme
 
-    ![Güncelleştirilmiş veriler](media/service-gateway-sql-tutorial/updated-data.png)
+Bir yenileme zamanlaması yapılandırdıktan sonra, Power BI 15 dakikalık bir toleransla sonraki zamanlanmış saatte veri kümenizi yeniler. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme saatini etkilemez ancak önceki bölümde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
 
-5. **Çalışma Alanım** > **Raporlar** > **TestGatewayDocs** öğesini seçin. **Diğer** (**. . .**) > **Yenileme zamanla**’yı seçin.
+Gösterim amacıyla, SQL Server Management Studio’yu (SSMS) kullanarak AdventureWorksDW veritabanında .DimProduct tablosunu güncelleştirerek örnek verilerde bir değişikliğin benzetimini yapın.
 
-6. **Yenileme zamanla** altında, yenilemeyi **Açık** olarak ayarlayın, ardından **Uygula**’yı seçin. Veri kümesi varsayılan olarak günde bir kez yenilenir.
+```sql
 
-    ![Yenileme zamanlama](media/service-gateway-sql-tutorial/schedule-refresh.png)
+UPDATE [AdventureWorksDW].[dbo].[DimProduct]
+SET ListPrice = 5000
+WHERE EnglishProductName ='Road-250 Red, 58'
+
+```
+
+Şimdi de güncelleştirilen verilerin ağ bağlantısı aracılığıyla veri kümesine ve Power BI’daki raporlara akabilmesi için aşağıdaki adımları izleyin.
+
+1. Power BI Hizmetinin sol gezinti bölmesinde **Çalışma Alanım**’ı seçip genişletin.
+
+2. **Veri Kümeleri** altında, **AdventureWorksProducts** veri kümesinin üç noktasını ( **. . .** ), ardından **Şimdi yenile**’yi seçin.
+
+    ![Şimdi yenile](./media/service-gateway-sql-tutorial/refresh-now.png)
+
+    Sağ üst köşede Power BI’ın istenen yenilemeyi gerçekleştirmeye hazırlandığına dikkat edin.
+
+3. **Çalışma Alanım \> Raporlar \> AdventureWorksProducts** öğesini seçin. Güncelleştirilen verilerin nasıl aktığına ve en yüksek liste fiyatına sahip ürünün artık **Road-250 Red, 58** olduğuna bakın.
+
+    ![Güncelleştirilmiş sütun grafik](./media/service-gateway-sql-tutorial/updated-column-chart.png)
+
+## <a name="review-the-refresh-history"></a>Yenileme geçmişini gözden geçirme
+
+Yenileme geçmişindeki geçmiş yenileme döngülerinin sonuçlarını düzenli aralıklarla denetlemek iyi bir fikirdir. Zamanlanmış bir yenilemenin zamanı geldiğinde veritabanı kimlik bilgilerinin süresi dolmuş veya seçili ağ geçidi çevrimdışı olabilir. Yenileme geçmişini incelemek ve sorunları kontrol etmek için aşağıdaki adımları izleyin.
+
+1. Power BI kullanıcı arabiriminin sağ üst köşesinde ayarlar dişli simgesini seçin ve ardından **Ayarlar**’ı seçin.
+
+2. **Veri Kümeleri**’ne geçiş yapın ve **AdventureWorksProducts** gibi incelemek istediğiniz veri kümesini seçin.
+
+3. **Yenileme geçmişi** iletişim kutusunu açmak için **Yenileme geçmişi** bağlantısını seçin.
+
+    ![Yenileme geçmişi bağlantısı](./media/service-gateway-sql-tutorial/refresh-history-link.png)
+
+4. **Zamanlanmış** sekmesinde, **Başlangıç** ve **Bitiş** saatleri ve Power BI’ın yenilemeleri başarıyla yaptığını belirten **Tamamlandı** **Durumu** ile birlikte geçmiş zamanlanmış ve isteğe bağlı yenilemelere dikkat edin. Başarısız yenilemeler için hata iletisini görüntüleyebilir ve hata ayrıntılarını inceleyebilirsiniz.
+
+    ![Yenileme geçmişi ayrıntıları](./media/service-gateway-sql-tutorial/refresh-history-details.png)
+
+    > [!NOTE]
+    > [Power BI’da veri yenileme](refresh-data.md) bölümünde daha ayrıntılı açıklandığı gibi, OneDrive sekmesi yalnızca Power BI Desktop dosyalarına, Excel çalışma kitaplarına veya OneDrive ya da SharePoint Online üzerindeki CSV dosyalarına bağlı veri kümeleri için geçerlidir.
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
-Örnek verileri artık kullanmak istemiyorsanız SSMS’de `DROP DATABASE TestGatewayDocs` komutunu çalıştırın. SQL Server veri kaynağını kullanmak istemiyorsanız, [veri kaynağını kaldırın](service-gateway-manage.md#remove-a-data-source). 
 
+Örnek verileri artık kullanmak istemiyorsanız, veritabanını SQL Server Management Studio’ya (SSMS) bırakın. SQL Server veri kaynağını kullanmak istemiyorsanız veri kaynağınızı veri ağ geçidinizden kaldırın. Ayrıca, veri ağ geçidini yalnızca bu öğreticiyi tamamlamak için yüklediyseniz kaldırmayı düşünün. AdventureWorksProducts.pbix dosyasını karşıya yüklediğinizde Power BI tarafından oluşturulan AdventureWorksProducts veri kümesini ve AdventureWorksProducts raporunu da silmeniz gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Bu öğreticide aşağıdakilerin nasıl yapıldığını öğrendiniz:
-> [!div class="checklist"]
-> * SQL Server'da verilerden rapor oluşturma
-> * Raporu Power BI Hizmetinde yayımlama
-> * SQL Server’ı ağ geçidi veri kaynağı olarak ekleme
-> * Rapordaki verileri yenileme
 
-Daha fazla bilgi için sonraki makaleye ilerleyin
-> [!div class="nextstepaction"]
-> [Power BI ağ geçidi yönetme](service-gateway-manage.md)
+Bu öğreticide, şirket içindeki bir SQL Server veritabanından bir Power BI veri kümesine verileri aktarmayı ve bu veri kümesini kullanan raporları ve panoları Power BI’da güncel tutmak için bu veri kümesini zamanlanmış ve isteğe bağlı olarak nasıl yenileyeceğinizi incelediniz. Şimdi Power BI’da veri ağ geçitlerini ve veri kaynaklarını yönetme hakkında daha fazla bilgi edinebilirsiniz. Power BI'da Veri Yenileme başlıklı kavramsal makaleyi incelemek de iyi bir fikir olabilir.
 
+- [Power BI şirket içi ağ geçidini yönetme](service-gateway-manage.md)
+- [Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
+- [Power BI'da veri yenileme](refresh-data.md)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770356"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559067"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
@@ -25,7 +25,7 @@ Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir s
 Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar.
 
    > [!NOTE]
-   > Power BI rapor Sunucusu'nda barındırılan Power BI raporlarını görüntüleme kimliğini doğrulamak için WAP'ı kullanarak şu anda yalnızca iOS uygulamasında desteklenir. Android uygulaması şu anda resmi olarak desteklenmez.
+   > WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işlemi artık iOS ve Android uygulamalarında desteklenmektedir.
 
 ## <a name="requirements"></a>Gereksinimler
 
@@ -63,7 +63,7 @@ Rapor sunucunuz için doğru Hizmet Asıl Adı'nı (SPN) yapılandırma hakkınd
 
 ### <a name="enabling-negotiate-authentication"></a>Anlaşma kimlik doğrulamasını etkinleştirme
 
-Kerberos kimlik doğrulamasını kullanmak üzere bir rapor sunucusunu etkinleştirmek için rapor sunucusunun Kimlik Doğrulaması Türü'nü RSWindowsNegotiate olacak şekilde yapılandırmanız gerekir. Bu, rsreportserver.config dosyasında gerçekleştirilir.
+Kerberos kimlik doğrulamasını kullanmak üzere bir rapor sunucusunu etkinleştirmek için rapor sunucusunun Kimlik Doğrulaması Türü'nü RSWindowsNegotiate olacak şekilde yapılandırmanız gerekir. Bu işlemi rsreportserver.config dosyasında yapabilirsiniz.
 
 ```xml
 <AuthenticationTypes>  
@@ -113,12 +113,12 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    ![ADFS Uygulama Grubu Sihirbazı 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. **Sonraki** seçeneğini belirleyin.
 
-8. Rapor Sunucunuzun URL'sini sağlayın. Bu, Web Uygulaması Ara Sunucunuza yönelik dış URL'dir. Aşağıdaki biçimde olmalıdır.
+8. Rapor Sunucunuzun URL'sini sağlayın. URL, Web Uygulaması Ara Sunucunuza yönelik dış URL'dir. Aşağıdaki biçimde olmalıdır.
 
    > [!NOTE]
    > URL büyük/küçük harfe duyarlıdır!
 
-   *https://< rapor sunucusu URL'si > / reports*
+   *https://< rapor sunucusu url’si >/reports*
 
    ![ADFS Uygulama Grubu Sihirbazı 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **Sonraki** seçeneğini belirleyin.
@@ -141,7 +141,7 @@ Tamamlandığında, aşağıda gösterilen şekilde uygulama grubunuzun özellik
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web Uygulaması Ara Sunucusu (WAP) Yapılandırması
 
-Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bu bir Windows 2016 sunucusu olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bir Windows 2016 sunucusu üzerinde olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Kısıtlanmış temsil yapılandırması
 
@@ -239,7 +239,7 @@ Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğru
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Şu hatayı alırsınız: SSRS Sunucusunda oturum açılamadı. Lütfen sunucu yapılandırmasını doğrulayın.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Şu hatayı alırsınız: SSRS Sunucusunda oturum açılamadı. Sunucu yapılandırmasını doğrulayın.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

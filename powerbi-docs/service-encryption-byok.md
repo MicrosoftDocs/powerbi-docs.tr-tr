@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264505"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498967"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
 
@@ -103,13 +103,22 @@ KAG'yi etkinleştirmek için Power BI hizmetinin `Connect-PowerBIServiceAccount`
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
+Birden çok anahtar eklemek için farklı -`-Name` ve `-KeyVaultKeyUri` değerleri ile `Add-PowerBIEncryptionKey` komutunu çalıştırın. 
+
 Cmdlet mevcut ve gelecekteki kapasiteler için şifrelemeyi etkileyen iki anahtar parametresi kabul eder. Varsayılan olarak anahtarların hiçbiri ayarlanmamıştır:
 
-- `-Activate`: Bu anahtarın kiracıdaki tüm mevcut kapasitelerde kullanılacağını gösterir.
+- `-Activate`: Bu anahtarın kiracıda henüz şifrelenmemiş tüm mevcut kapasitelerde kullanılacağını gösterir.
 
 - `-Default`: Bu anahtarın şimdi kiracının tamamı için varsayılan olduğunu gösterir. Yeni kapasite oluşturduğunuzda, kapasite bu anahtarı devralır.
 
-`-Default` belirtirseniz, bu noktadan sonra bu kiracıda oluşturulan kapasitelerin tümü belirttiğiniz anahtar (veya güncelleştirilmiş bir varsayılan anahtar) kullanılarak şifrelenir. Varsayılan işlemi geri alamazsınız dolayısıyla kiracınızda KAG kullanmayan bir premium kapasite oluşturma olanağını kaybedersiniz.
+> [!IMPORTANT]
+> `-Default` belirtirseniz, bu noktadan sonra kiracınızda oluşturulan kapasitelerin tümü belirttiğiniz anahtar (veya güncelleştirilmiş bir varsayılan anahtar) kullanılarak şifrelenir. Varsayılan işlemi geri alamazsınız dolayısıyla kiracınızda KAG kullanmayan bir premium kapasite oluşturma olanağını kaybedersiniz.
+
+Kiracınızda KAG’yi etkinleştirdikten sonra [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) kullanarak bir veya daha fazla Power BI özelliği için şifreleme anahtarını ayarlayabilirsiniz:
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 Kiracınız genelinde KAG'yi nasıl kullandığınızı denetleyebilirsiniz. Örneğin tek bir kapasiteyi şifrelemek için `-Activate` veya `-Default` kullanmadan `Add-PowerBIEncryptionKey` çağrısı yapın. Sonra KAG'yi etkinleştirmek istediğiniz kapasite için `Set-PowerBICapacityEncryptionKey` çağrısı yapın.
 
@@ -136,12 +145,6 @@ Power BI kiracınızda KAG'nin yönetilmesine yardımcı olmak için ek cmdlet'l
     ```
 
     Şifrelemenin kapasite düzeyinde etkinleştirildiğine ama belirtilen çalışma alanı için eşitleme durumunu veri kümesi düzeyinde aldığınıza dikkat edin.
-
-- Power BI kapasitesinin şifreleme anahtarını güncelleştirmek için [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) kullanın:
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - Şifreleme için kullanılan anahtarın sürümünü değiştirmek için [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) veya (_döndür_ işlevini) kullanın. Cmdlet yalnızca `-Name` anahtarı için `-KeyVaultKeyUri` değerini güncelleştirir:
 

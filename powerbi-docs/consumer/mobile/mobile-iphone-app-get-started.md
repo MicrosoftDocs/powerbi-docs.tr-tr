@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137535"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67499002"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -33,7 +33,7 @@ Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta
 ## <a name="download-the-app"></a>Uygulamayı indirme
 App Store'a giderek iPhone, iPad veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indirin").
 
-iOS için Power BI uygulamasını, iOS 10 veya sonraki bir sürümün yüklü olduğu iPhone 5 ve sonraki modellerde çalıştırabilirsiniz. Uygulamayı iOS 10 veya sonraki bir sürümün yüklü olduğu iPad veya iPod Touch'ta da çalıştırabilirsiniz. 
+iOS için Power BI uygulamasını, iOS 11 veya sonraki bir sürümü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI hizmetine kaydolma
 Henüz kaydolmadıysanız, [powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Bulut işbirliği ve paylaşımı** bölümünde **Ücretsiz olarak deneyin**’i seçin.

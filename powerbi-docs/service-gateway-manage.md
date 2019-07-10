@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469815"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559044"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI şirket içi ağ geçidini yönetme
 
@@ -31,6 +31,8 @@ Kısa süre önce bir ağ geçidi yüklediyseniz, bundan sonra [bir veri kaynağ
 
 Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını destekler. Bir ağ geçidi tek bir veri kaynağı ya da birden çok veri kaynağı için kullanılabilir. Bu örnekte SQL Server’ı veri kaynağı olarak ekleme işlemi gösterilecektir ancak adımlar diğer veri kaynakları için de benzerdir.
 
+> [!NOTE]
+> Ağ geçidi yöneticileri artık her biri farklı bir kimlik bilgisiyle aynı kaynağa bağlanan birden fazla veri kaynağı oluşturabilir ve erişim düzeylerine bağlı olarak bu veri kaynaklarının her birine kullanıcılar ekleyebilir.
 
 ### <a name="add-a-data-source"></a>Veri kaynağı ekleme
 
@@ -53,6 +55,11 @@ Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını d
 
 1. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirleyin.  **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
 
+1. Bu veri kaynağı şu anda kullanılamıyorsa veya yavaşsa **Bağlantı Testini Atla**’yı seçin. Aksi takdirde, veri kaynağı oluşturma işlemi başarısız olabilir.
+
+    > [!NOTE]
+    > Bağlantı testini atlama seçeneği Analysis Services için desteklenmez.
+
 1. **Gelişmiş ayarlar** altında, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyi](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)’ni yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
 
     ![Gelişmiş ayarlar](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Bir veri kaynağını kaldırmak için veri kaynağına gidin ve **Kaldır**’�
 
 ## <a name="manage-users-and-administrators"></a>Kullanıcıları ve yöneticileri yönetme
 
-Bir ağ geçidine veri kaynağı ekledikten sonra, kullanıcılara ve güvenlik gruplarına ilgili veri kaynağı (tüm ağ geçidi değil) için erişim verirsiniz. Veri kaynağı kullanıcı listesi yalnızca veri kaynağından verileri içeren raporları yayımlamasına izin verilen kullanıcıları denetler. Rapor sahipleri panolar, içerik paketleri ve uygulamalar oluşturabilir ve sonra bunları diğer kullanıcılarla paylaşabilir.
+Bir ağ geçidine veri kaynağı ekledikten sonra, kullanıcılara ve e-posta özellikli güvenlik gruplarına ilgili veri kaynağı (tüm ağ geçidi değil) için erişim verirsiniz. Veri kaynağı kullanıcı listesi yalnızca veri kaynağından verileri içeren raporları yayımlamasına izin verilen kullanıcıları denetler. Rapor sahipleri panolar, içerik paketleri ve uygulamalar oluşturabilir ve sonra bunları diğer kullanıcılarla paylaşabilir.
 
 Ayrıca, kullanıcılara ve güvenlik gruplarına ağ geçidi için yönetim erişimi verebilirsiniz.
 
@@ -98,14 +105,14 @@ Ayrıca, kullanıcılara ve güvenlik gruplarına ağ geçidi için yönetim eri
 
 ### <a name="remove-users-from-a-data-source"></a>Veri kaynağından kullanıcıları kaldırma
 
-Veri kaynağının **Kullanıcılar** sekmesinde, bu veri kaynağını kullanan kullanıcıları ve güvenlik gruplarını kaldırabilirsiniz.
+Veri kaynağının **Kullanıcılar** sekmesinde, bu veri kaynağını kullanan kullanıcıları ve e-posta özellikli güvenlik gruplarını kaldırabilirsiniz.
 
 ![Kullanıcı kaldırma](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>Yönetici ekleme ve kaldırma
 
-Ağ geçidinin **Yöneticiler** sekmesinde, ağ geçidini yönetebilen kullanıcılar (veya güvenlik grupları) ekleyin ve kaldırın.
+Ağ geçidinin **Yöneticiler** sekmesinde, ağ geçidini yönetebilen kullanıcılar (veya e-posta özellikli güvenlik grupları) ekleyin ve kaldırın.
 
 ![Yöneticiler sekmesi](media/service-gateway-manage/administrators-tab.png)
 

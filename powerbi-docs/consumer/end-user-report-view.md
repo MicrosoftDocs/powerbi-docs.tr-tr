@@ -8,43 +8,52 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608097"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532460"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Bir rapor sayfasının görünümünü değiştirme
-Raporları, ekran boyutlarıyla ve en boy oranlarına ile birçok farklı cihazlarda görüntülenir.  Şeklini değiştirme kendi gereksinimlerinize uyacak şekilde bir rapor sayfasını görüntüler.    
 
-![Rapor tuvalinde görüntüler.](media/end-user-report-view/power-bi-report.png)
+Kullanıcılar raporları çok farklı cihazlarda görüntüler ve bu cihazların ekran boyutlarıyla en/boy oranları birbirinden farklıdır. Bir rapor sayfası görünümünü gereksinimlerinize uyacak şekilde değiştirin.
 
-## <a name="explore-the-view-menu"></a>Görünüm menüsü keşfedin
-Görünüm menüsündeki seçenekleri, seçtiğiniz genişliği ve boyutu rapor sayfaları görüntülemek için esneklik sağlar.
+![Bir raporun tuval üzerindeki görünümünün ekran görüntüsü.](media/end-user-report-view/power-bi-report.png)
 
-- Diyelim ki bir rapor küçük bir cihazda görüntülüyorsanız ve başlıklara ve açıklamalara bakın zordur.  Seçin **görünümü** > **Gerçek Boyut** rapor sayfasının boyutunu artırmak için. Raporun taşımak için kaydırma çubuklarını kullanın. 
+## <a name="explore-the-view-menu"></a>Görünüm menüsünü keşfedin
 
-    ![tuvalde iki kaydırma çubuğuyla görüntülenen rapor](media/end-user-report-view/power-bi-actual-size-new.png)
+![Görünüm açılır listesi seçeneklerinin ekran görüntüsü.](media/end-user-report-view/power-bi-view-menu.png)
 
 
-- Seçerek, ekran genişliği rapora sığdırmaya başka bir seçenektir **genişliğe Uydur**. Bu, yine de dikey bir kaydırma çubuğuna kullanımını gerektirebilir.
+**Görünüm** menüsündeki seçenekler, size rapor sayfalarını seçtiğiniz boyut ve genişlikte görüntüleme esnekliği tanır:
 
-  ![tam tuvalin genişliği kullanarak rapor görüntüler](media/end-user-report-view/power-bi-fit-to-width-new.png)
+- Bir raporu küçük bir cihazda görüntülediğinizi ve başlıklar ile açıklamaları görmenin zor olduğunu varsayalım.  Rapor sayfasının boyutunu artırmak için **Görünüm** > **Gerçek boyut**’u seçin. Raporda gezinmek için kaydırma çubuklarını kullanın.
 
-- Herhangi bir kaydırma çubukları istemiyorsanız, ancak ekran boyutunuz kullanımını en iyi duruma getirmek istediğiniz durumunda.  Seçin **Sayfaya Sığdır**.
+    ![İki kaydırma çubuğu açıklama balonu içine alınmış şekilde Gerçek boyuta ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   ![kaydırma çubukları rapor görüntüler](media/end-user-report-view/power-bi-fit-to-width.png)
+- **Genişliğe uydur**’u seçerek raporu ekranınızın genişliğine sığdırmak ise başka bir seçenektir. Söz konusu olan yükseklik değil genişlik olduğundan yine de dikey kaydırma çubuğunu kullanmanız gerekebilir.
 
-   
-- Son seçenek **tam ekran**, rapor sayfanızın üst bilgiler ve menü çubukları olmadan görüntüler. Tam ekran, küçük ekranlar ayrıntılarını görmek zor olduğu için iyi bir seçim olabilir.  Tam ekran Ayrıca, rapor sayfalarını görüntüleyebilir ancak etkileşimli değil kişilerin büyük ekranlarda yansıtılırken iyi bir seçim olabilir.  
+  ![Dikey kaydırma çubuğu açıklama balonu içine alınmış şekilde Genişliğe uydur seçeneğine ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-    ![tam ekran rapor görüntüler](media/end-user-report-view/power-bi-full-screen.png)
+- Kaydırma çubuğu istemeyip ekranınızın boyutundan en iyi şekilde yararlanmak istiyorsanız, **Sayfaya Sığdır**’ı seçin.
 
-Rapordan çıktığınızda görünümü ayarlarınızı kaydedilmez ancak varsayılana geri dön. Sizin için bu ayarları kaydetmek için önemli olan kullanırsanız [yer işaretleri](end-user-bookmarks.md). 
+   ![Sayfaya sığdır olarak ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-fit-to-width.png)
+
+- Dört **Yüksek karşıtlık rengi** arasından da seçim yapabilirsiniz: Yüksek karşıtlık #1, Yüksek karşıtlık #2, Yüksek karşıtlık siyah ve Yüksek karşıtlık beyaz. Görme bozukluğu olan kişilerin raporları daha iyi görebilmesi için kullanabileceğiniz bir erişilebilirlik özelliğidir:
+
+    ![Yüksek karşıtlık #1 olarak ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-high-contrast-1.png)![Yüksek karşıtlık #2 olarak ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-high-contrast-2.png)
+    ![Yüksek karşıtlık siyah olarak ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-high-contrast-black.png)![Yüksek karşıtlık beyaz olarak ayarlanmış bir raporun ekran görüntüsü.](media/end-user-report-view/power-bi-high-contrast-white.png)
+
+- Son seçenek olan **Tam ekran** ise raporunuzu menü çubukları ve üst bilgiler olmadan gösterir. Tam ekran, ayrıntılı bilgileri görmenin zor olduğu küçük ekranlar için iyi bir seçenek olabilir.  Tam ekran, kullanıcıların etkileşim kurmadan görüntülemesi için büyük ekranlara rapor sayfaları yansıtıldığında da iyi bir seçenek olabilir.  
+
+    ![Tam ekran modunda görüntülenen rapor](media/end-user-report-view/power-bi-full-screen.png)
+
+Rapordan çıktığınızda **Görünüm** ayarlarınız kaydedilmez ve varsayılana geri döner. Bu ayarları kaydetmeniz gerekiyorsa [yer işaretleri](end-user-bookmarks.md) kullanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Cortana için rapor oluşturma](../service-cortana-answer-cards.md)
+
+* [Power BI Filtreler bölmesine ilişkin tura katılın](end-user-report-filter.md)

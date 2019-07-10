@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144545"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533177"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve başka öğeler ekleme
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -119,7 +119,7 @@ Herhangi bir HTML içeriği yapıştırın veya yazın.  Power BI bu içeriği p
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Bu kod bir tweet ekleyip **AFK** pod yayınını, **@GuyInACube Twitter sayfasını**, **Follow**, **#analytics**, **reply**, **retweet** ve **like** bağlantılarını pano üzerinde ayrı bağlantı olarak korur.  Kutucuğu seçtiğinizde Twitter üzerindeki pod yayını açılır.
+* Bu kod bir tweet ekleyip **AFK** pod yayınını, **\@ GuyInACube Twitter sayfasını**, **Follow**, **#analytics**, **reply**, **retweet** ve **like** bağlantılarını pano üzerinde ayrı bağlantı olarak korur.  Kutucuğu seçtiğinizde Twitter üzerindeki pod yayını açılır.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

@@ -1,16 +1,37 @@
+---
+title: Çalışma alanı oluşturma - Power BI
+description: Bir çalışma alanı oluşturma - dahil etme
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534743"
+---
 1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin. 
    
-     ![Uygulama çalışma alanı oluşturma](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Uygulama çalışma alanı oluştur](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    Çalışma alanı, iş arkadaşlarınızla birlikte üzerinde işbirliği yapacağınız içeriği barındıracak olan alandır.
+    Buraya iş arkadaşlarınızla birlikte üzerinde işbirliği yapacağınız içerikleri eklersiniz.
 
-2. Çalışma alanına bir ad verin. Karşılık gelen **Çalışma Alanı Kimliği** kullanılamıyorsa düzenleyerek benzersiz bir kimlik belirleyin.
+2. **Yükseltilmiş çalışma alanı oluşturuyorsunuz** kapak sayfasında **Klasiğe dön**’e tıklayın. 
+
+    ![Klasik çalışma seçeneğine geri dön](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. Çalışma alanına bir ad verin. Karşılık gelen **Çalışma Alanı Kimliği** kullanılamıyorsa düzenleyerek benzersiz bir kimlik belirleyin.
    
-     Bu kimlik uygulamanın da adı olacaktır.
+     Uygulamanın adı aynı olacaktır.
    
      ![Çalışma alanını adlandırma](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. Değiştirebileceğiniz birkaç ayar vardır. **Ortak** seçeneğini belirlerseniz çalışma alanınızdakileri kuruluşunuzdaki herkes görebilir. **Özel**'i seçerseniz çalışma alanının içeriğini yalnızca üyeler görebilir.
+3. Değiştirebileceğiniz birkaç ayar vardır. **Ortak** seçeneğini belirlerseniz çalışma alanınızdakileri kuruluşunuzdaki herkes görebilir. **Özel**, çalışma alanının içeriklerini yalnızca çalışma alanı üyelerinin görebileceği anlamına gelir.
    
      ![Özel veya Ortak ayarını yapın](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
