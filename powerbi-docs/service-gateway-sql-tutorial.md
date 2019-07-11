@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468358"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596631"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
 
@@ -35,7 +35,7 @@ Bu öğreticide aşağıdaki adımları tamamlarsınız:
 
 - Henüz yoksa, başlamadan önce [ücretsiz Power BI deneme sürümüne](https://app.powerbi.com/signupredirect?pbi_source=web) kaydolun.
 - Yerel bir bilgisayara [Power BI Desktop uygulamasını yükleyin](https://powerbi.microsoft.com/desktop/).
-- Yerel bir bilgisayara [SQL Server yükleyin](/sql/database-engine/install-windows/install-sql-server) ve [örnek veritabanını yedekten geri yükleyin]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). AdventureWorks hakkında daha fazla bilgi için bkz. [AdventureWorks yükleme ve yapılandırma](/sql/samples/adventureworks-install-configure).
+- Yerel bir bilgisayara [SQL Server yükleyin](/sql/database-engine/install-windows/install-sql-server) ve [örnek veritabanını yedekten geri yükleyin](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). AdventureWorks hakkında daha fazla bilgi için bkz. [AdventureWorks yükleme ve yapılandırma](/sql/samples/adventureworks-install-configure).
 - SQL Server ile aynı yerel bilgisayara [şirket içi veri ağ geçidi yükleyin](service-gateway-install.md) (üretimde, genellikle farklı bir bilgisayardır).
 
 > [!NOTE]
