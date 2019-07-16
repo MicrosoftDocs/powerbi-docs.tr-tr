@@ -7,29 +7,29 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816653"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567840"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerini kullanma (Önizleme)
 
-İş zekası, işbirliğine dayalı bir etkinliktir. 'Tek doğru bilgi kaynağı' olabilecek standartlaştırılmış veri kümeleri oluşturmak önemlidir. Bu standartlaştırılmış veri kümelerini keşfetmek ve yeniden kullanmak kritik önem taşır. Kuruluşunuzdaki uzman veri modelleyicileri iyileştirilmiş veri kümeleri oluşturup paylaştığında, rapor oluşturanlar doğru raporlar hazırlamak için bu veri kümelerinden yola çıkabilirler. Bu sayede kuruluşunuzun aldığı kararlar tutarlı verilere dayanır ve sağlıklı bir veri kültürü olur.
+İş zekası, işbirliğine dayalı bir etkinliktir. 'Tek doğru bilgi kaynağı' olabilecek standartlaştırılmış veri kümeleri oluşturmak önemlidir. Ardından bu standartlaştırılmış veri kümelerini keşfetmek ve yeniden kullanmak kritik önem taşır. Kuruluşunuzdaki uzman veri modelleyicileri iyileştirilmiş veri kümeleri oluşturup paylaştığında, rapor oluşturanlar doğru raporlar hazırlamak için bu veri kümelerinden yola çıkabilirler. Bu sayede kuruluşunuzun aldığı kararlar tutarlı verilere dayanır ve sağlıklı bir veri kültürü olur.
 
 ![Paylaşılan veri kümesi seçme](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI, başkalarının bulabilmesi için veri kümesi oluşturucularının veri kümelerini onaylamasını ve tanıtmasını kolaylaştırır. Bundan sonra rapor yazarları Power BI'a her girdiklerinde kaliteli, resmi veri kümeleri bulabilir. Veri kümesi sahipleri verilerine kimlerin erişebileceğini [Oluşturma iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) kullanarak denetleyebilir. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
+Power BI'da veri kümesi oluşturucuları başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümesinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Veri kümesi sahipleri verilerine kimlerin erişebileceğini [Oluşturma iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) kullanarak denetleyebilir. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Veri kümesi paylaşma ve yeni çalışma alanı deneyimi
 
 Farklı çalışma alanlarındaki veri kümelerini temel alan raporlar oluşturmak ve raporları farklı çalışma alanlarına kopyalamak [yeni çalışma alanı deneyimine](service-create-the-new-workspaces.md) sıkıca bağlıdır:
 
-- Hizmette yeni bir çalışma alanı deneyiminden veri kümesi kataloğunu açtığınızda, veri kümesi kataloğu Çalışma Alanım klasörünüzdeki ve yeni çalışma alanı deneyimi çalışma alanlarındaki veri kümelerini gösterir. 
+- Hizmette yeni bir çalışma alanı deneyiminden veri kümesi kataloğunu açtığınızda, veri kümesi kataloğu Çalışma Alanım klasörünüzdeki ve diğer yeni çalışma alanı deneyimi çalışma alanlarındaki veri kümelerini gösterir. 
 - Klasik çalışma alanından veri kümesi kataloğunu açtığınızda yalnızca o çalışma alanındaki veri kümelerini görebilirsiniz; diğer çalışma alanlarındakileri göremezsiniz.
 - Desktop'ta, veri kümeleri yeni deneyimin çalışma alanlarında bulunduğu sürece Live Connect raporlarını farklı çalışma alanlarına yayımlayabilirsiniz.
 - Raporları çalışma alanları arasında kopyalarken hedef çalışma alanının yeni deneyimin çalışma alanı olması gerekir.

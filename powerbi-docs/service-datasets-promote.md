@@ -7,21 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 366f80ccb1db2d226a80528da610b15082c44ed6
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461385"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567351"
 ---
 # <a name="promote-your-dataset-preview"></a>Veri kümenizi yükseltme (Önizleme)
 
 Power BI rapor oluşturucularınızın artık pek çok farklı veri kümesine erişimi olabileceği için, kuruluşların bu oluşturuculara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmesi gereklidir. Power BI, veri kümelerini *onaylamak* için iki yol sunar:
 
-- **Yükseltme**: Veri kümesi sahibi olarak, yaygın kullanım için hazır olduklarında kendi veri kümelerinizi yükseltebilirsiniz. Yükseltme, kuruluş içindeki veri kümelerinin işbirliğine dayalı yayılmasını destekler. Bu makale, veri kümenizi yükseltme hakkındadır.
+- **Yükseltme**: Veri kümesi sahibi olarak, yaygın kullanım için hazır olduklarında kendi veri kümelerinizi yükseltebilirsiniz. Yazma izni olan tüm çalışma alanı üyeleri veri kümesini yükseltebilir. Veri kümesini kimlerin yükseltebileceği konusunda hiçbir kısıtlama yoktur. Yükseltme, kuruluş içindeki veri kümelerinin işbirliğine dayalı yayılmasını destekler. Bu makale, veri kümenizi yükseltme hakkındadır.
 - **Onaylama**: Yükseltilen bir veri kümesinin onaylanmasını isteyebilirsiniz. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Ayrıntılar için bkz. [Veri kümelerini onaylama (Önizleme)](service-datasets-certify.md).
 
 ## <a name="promote-a-dataset"></a>Bir veri kümesini yükseltme

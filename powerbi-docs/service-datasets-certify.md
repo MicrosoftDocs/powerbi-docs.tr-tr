@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461339"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567333"
 ---
 # <a name="certify-datasets-preview"></a>Veri kümelerini onaylama (Önizleme)
 
@@ -23,8 +23,8 @@ Kuruluşunuz, kritik bilgiler için yetkili kaynak olan veri kümelerini onaylay
 
 Power BI kullanıcıların artık pek çok farklı veri kümesine erişimi olabileceği için, kuruluşların bu kullanıcılara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmesi gereklidir. Power BI, veri kümelerini *onaylamak* için iki yol sunar:
 
-- **Yükseltme**: Veri kümesi kullanıcıları, yaygın kullanım için hazır olduklarında kendi veri kümelerini yükseltebilir. Ayrıntılar için bkz. [Veri kümenizi yükseltme](service-datasets-promote.md). 
-- **Onaylama**: Veri kümesi sahipleri, yükseltilen bir veri kümesinin onaylanmasını isteyebilir. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir.
+- **Yükseltme**: Veri kümesi sahipleri ve çalışma alanındaki diğer kişiler, yaygın kullanım için hazır olduklarında veri kümelerini yükseltebilir. Ayrıntılar için bkz. [Veri kümenizi yükseltme](service-datasets-promote.md). 
+- **Onaylama**: Veri kümesi sahipleri, yükseltilen bir veri kümesinin onaylanmasını isteyebilir. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Veri kümesi bulma deneyimi sırasında veri kümesini onaylayan kişinin adı bir araç ipucunda görüntülenir; **Onaylandı** etiketinin üzerine gelirseniz bunu görürsünüz.
 
 ## <a name="certify-a-dataset"></a>Veri kümesi onaylama
 

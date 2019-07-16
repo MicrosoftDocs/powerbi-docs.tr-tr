@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559067"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567789"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
 Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![Sunucuya bağlanma](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar.
 
@@ -118,7 +118,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    > [!NOTE]
    > URL büyük/küçük harfe duyarlıdır!
 
-   *https://< rapor sunucusu url’si >/reports*
+   *https://< rapor sunucusu url’si >/*
 
    ![ADFS Uygulama Grubu Sihirbazı 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **Sonraki** seçeneğini belirleyin.
@@ -209,7 +209,7 @@ WAP Uygulaması'nı ekledikten sonra BackendServerAuthenticationMode ayarını I
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![Uygulama Grubu Ekleme](media/mobile-oauth-ssrs/wap-application-id.png)
 
 BackendServerAuthenticationMode'u ayarlamak için WAP Uygulaması Kimliği'ni kullanarak aşağıdaki komutu çalıştırın.
 
@@ -217,21 +217,19 @@ BackendServerAuthenticationMode'u ayarlamak için WAP Uygulaması Kimliği'ni ku
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![Uygulama Grubu Ekleme sihirbazı](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Power BI Mobil Uygulaması ile bağlanma
 
 Power BI mobil uygulamasında Reporting Services örneğinize bağlanmak istiyorsunuz. Bunun için WAP Uygulamanıza yönelik **Dış URL**'yi sağlayın.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![Sunucu adresini yazın](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
 **Bağlan**'ı seçtiğinizde ADFS oturum açma sayfasına yönlendirilirsiniz. Etki alanınız için geçerli olan kimlik bilgilerini girin.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![ADFS'de oturum açma](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 **Oturum aç**'ı seçtikten sonra Reporting Services sunucunuzdaki öğeleri görürsünüz.
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 
@@ -239,9 +237,9 @@ Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğru
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Şu hatayı alırsınız: SSRS Sunucusunda oturum açılamadı. Sunucu yapılandırmasını doğrulayın.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>"SSRS sunucusunda oturum açılamadı" hatasını alıyorsunuz
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+!["SSRS sunucusunda oturum açılamadı" hatası](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 [Fiddler](http://www.telerik.com/fiddler)'i mobil cihazlarınız için bir ara sunucu görevi görecek şekilde ayarlayarak isteğin ne ölçüde başarılı olduğunu görebilirsiniz. Telefonunuz için bir Fiddler ara sunucusu etkinleştirmek üzere Fiddler çalıştıran makinede [iOS ve Android için CertMaker](http://www.telerik.com/fiddler/add-ons) kurulumunu yapmanız gerekir. Bu, Fiddler için Telerik tarafından sağlanan bir eklentidir.
 

@@ -8,28 +8,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/22/2019
+ms.date: 07/06/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c2f867140c5a717c80d39db75b3a54e40bd1e34
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721059"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596546"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
 Power BI Premium, kuruluşunuzda Power BI hizmetinin çalıştırılması için ayrılmış ve iyileştirilmiş kaynaklar sağlar. Örnek:
 
-- Daha büyük ölçek ve performans
-- Kapasiteye göre lisanslama esnekliği
-- Self servis ile kurumsal BI'ı birleştirme
-- Şirket içi BI'ı Power BI Rapor Sunucusu ile genişletme
-- Bölgeye göre veri yerleşimi desteği (Multi-Geo)
-- Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
+> [!div class="checklist"]
+> * Daha büyük ölçek ve performans
+> * Kapasiteye göre lisanslama esnekliği
+> * Self servis ile kurumsal BI'ı birleştirme
+> * Şirket içi BI'ı Power BI Rapor Sunucusu ile genişletme
+> * Bölgeye göre veri yerleşimi desteği (Multi-Geo)
+> * Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
 
-Bu makalenin amacı Power BI Premium'un tüm özellikleri hakkında derinlemesine bilgi sağlamak değildir; aslında yalnızca yüzeysel olarak değinir. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır.
+Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır.
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 
@@ -52,7 +53,7 @@ Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tar
 
 Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. 
 
-Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine ve dağıtıma olanak tanımak için ek çalışma alanları oluşturulabilir ve bunlar **Uygulama Çalışma Alanları** olarak bilinir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de Uygulama çalışma alanları Premium kapasitelere atanabilir.
+Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için **Uygulama Çalışma Alanları** olarak bilinen ek çalışma alanları oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de Uygulama çalışma alanları Premium kapasitelere atanabilir.
 
 ### <a name="capacity-nodes"></a>Kapasite düğümleri
 
@@ -102,7 +103,7 @@ Dolayısıyla içeri aktarma modelleri kullanıma göre belleğe yüklenir ve be
 
 Modelin bellekten kaldırılması *çıkarma* olarak bilinir. Bu, Power BI'ın modellerin boyutuna bağlı olarak hızla gerçekleştirebildiği bir işlemdir. Kapasitede hiçbir bellek baskısı olmazsa, modeller yalnızca belleğe yüklenir ve orada kalır. Öte yandan modeli yüklemek için kullanılabilir bellek yetersizse, Power BI hizmetinin önce belleği boşaltması gerekir. Son üç dakika içinde \[[1](#endnote-1)\] kullanılmamış olan modelleri arayıp etkinlik dışı olan bu modelleri belirleyerek ve bunları çıkararak belleği boşaltır. Çıkarılabilecek etkinlik dışı kalmış model yoksa Power BI hizmeti arka plan işlemleri için yüklenmiş modelleri çıkarmayı dener. Denemelerin 30 saniye boyunca \[[1](#endnote-1)\] başarısız olması durumunda, son çare etkileşimli işlemin başarısız olmasıdır. Bu durumda, rapor kullanıcısına işlemin başarısız olduğu bildirilir ve kısa süre sonra yeniden denemesi önerilir. Bazı durumlarda modeller hizmet işlemlerinden dolayı bellekten kaldırılabilir.
 
-Veri kümesi çıkarmanın normal ve beklenen bir davranış olduğunu vurgulamak önemlidir. Birleşik boyutları kullanılabilir belleği aşabilecek modelleri yükleyerek ve kaldırarak bellek kullanımını en üst düzeye çıkarmaya çalışır. Bu davranış tasarım gereğidir ve rapor kullanıcılar açısından tamamen saydam olarak gerçekleştirilir. Yüksek çıkarma oranlarının kapasitede verimsiz kaynak kullanımına işaret ediyor olması şart değildir. Bununla birlikte yüksek çıkarma oranlarından dolayı sorgu veya yenileme yanıt süreleri zarar görürse, sorun haline gelir.
+Veri kümesi çıkarmanın normal ve beklenen bir davranış olduğunu vurgulamak önemlidir. Birleşik boyutları kullanılabilir belleği aşabilecek modelleri yükleyerek ve kaldırarak bellek kullanımını en üst düzeye çıkarmaya çalışır. Bu davranış tasarım gereğidir ve rapor kullanıcılar açısından saydam olarak gerçekleştirilir. Yüksek çıkarma oranlarının kapasitede verimsiz kaynak kullanımına işaret ediyor olması şart değildir. Bununla birlikte yüksek çıkarma oranlarından dolayı sorgu veya yenileme yanıt süreleri zarar görürse, sorun haline gelir.
 
 Modellerin belleğe yüklenmesini gerektirdiğinden, içeri aktarma modellerinin yenilenmesi her zaman bellek yoğun işlemlerdir. İşleme için ek bellek gerekir. Tam yenileme modele gereken belleğin yaklaşık olarak iki katını kullanabilir. Bu sayede model işlenirken bile sorgulanabilir çünkü yenileme tamamlanana ve yeni model verileri kullanılabilir duruma gelene kadar sorgular mevcut modele gönderilir. Artımlı yenileme daha az bellek gerektirir ve daha hızlı tamamlanabilir; dolayısıyla kapasite kaynakları üzerindeki baskıyı önemli ölçüde azaltabilir. Modeller için yenilemeler, özellikle karmaşık Power Query dönüştürmeleri ya da karmaşık olan veya büyük tablolara dayanan hesaplanan tablolar/sütunlar içeren yenilemeler de yoğun CPU kullanabilir.
 
@@ -125,7 +126,7 @@ Kapasiteleri oluşturma işleminde yönetim görevlerinin çoğu [Yönetim porta
 
 ![Yönetim portalı](media/service-premium-what-is/premium-admin-portal.png)
 
-Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir ve kapasitenin aşırı yüklenmesi durumunda işlemleri sıfırlayarak gerekirse kapasiteyi yeniden başlatabilir.
+Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir, bellek ayırmalarını ayarlayabilir ve aşırı yüklenmiş kapasitede işlemleri sıfırlayarak gerekirse kapasiteyi yeniden başlatabilir.
 
 ![Yönetim portalı](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
@@ -203,7 +204,7 @@ Daha fazla bilgi edinmek için bkz. [Power BI Premium’da sayfalandırılmış 
 
 ## <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
  
-Power BI Premium'a dahil edilen Power BI Rapor Sunucusu, bir web portalı olan *şirket içi* bir rapor sunucusudur. Şirket içinde BI ortamınızı oluşturabilir ve raporları kuruluşunuzun güvenlik duvarının arkasında dağıtabilirsiniz. Rapor Sunucusu, kullanıcıların SQL Server Reporting Services'in zengin, etkileşimli ve kurumsal raporlama özelliklerine erişmesini sağlar. Kullanıcılar daha iyi, daha hızlı kararlar alabilmek için verileri görsel olarak inceleyebilir ve desenleri hızla keşfedebilir. Rapor Sunucusu kendi koşullarınızda yönetmenizi sağlar. Gerekirse zamanı geldiğinde Power BI Rapor Sunucusu buluta geçişi kolaylaştırır ve kuruluşunuz bulutta tüm Power BI Premium işlevselliğinin avantajından yararlanabilir.
+Power BI Premium'a dahil edilen Power BI Rapor Sunucusu, web portalı olan *şirket içi* bir rapor sunucusudur. Şirket içinde BI ortamınızı oluşturabilir ve raporları kuruluşunuzun güvenlik duvarının arkasında dağıtabilirsiniz. Rapor Sunucusu, kullanıcıların SQL Server Reporting Services'in zengin, etkileşimli ve kurumsal raporlama özelliklerine erişmesini sağlar. Kullanıcılar daha iyi, daha hızlı kararlar alabilmek için verileri görsel olarak inceleyebilir ve desenleri hızla keşfedebilir. Rapor Sunucusu kendi koşullarınızda yönetmenizi sağlar. Gerekirse zamanı geldiğinde Power BI Rapor Sunucusu buluta geçişi kolaylaştırır ve kuruluşunuz bulutta tüm Power BI Premium işlevselliğinin avantajından yararlanabilir.
 
 Daha fazla bilgi edinmek için bkz. [Power BI Rapor Sunucusu](report-server/get-started.md).
 

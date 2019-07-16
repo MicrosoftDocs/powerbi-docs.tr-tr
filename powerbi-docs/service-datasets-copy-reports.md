@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461477"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567418"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Diğer çalışma alanlarından raporları kopyalama (Önizleme)
 
-Raporları bir iş alanından kopyalayıp farklı bir iş alanına kaydetmeyi öğrenin. Ardından, o raporu değiştirebilir veya görselleri ve diğer öğeleri ekleyip silebilirsiniz.
-
-Bir çalışma alanı veya uygulamada hoşunuza giden bir rapor bulduğunuzda bunun bir kopyasını oluşturup kopyayı ihtiyaçlarınıza göre değiştirebilirsiniz. Veri modelini oluşturma hakkında endişelenmeniz gerekmez. Bu zaten sizin için oluşturulur. Sıfırdan başlamak yerine mevcut bir raporu değiştirmek çok daha kolaydır.
+Çalışma alanında veya uygulamada hoşunuza giden bir rapor bulduğunuzda kopyasını alabilir ve bunu farklı bir çalışma alanına kaydedebilirsiniz. Ardından, o raporu değiştirebilir veya görselleri ve diğer öğeleri ekleyip silebilirsiniz. Veri modelini oluşturmaya kafa yormanız gerekmez. Bu zaten sizin için oluşturulur. Mevcut raporu değiştirmek, en baştan başlamaktan çok daha kolaydır. Öte yandan rapor kopyanızı yeni çalışma alanından bir uygulamaya yayımlayamazsınız. "Veri kümelerini çalışma alanları arasında kullanma" makalesinde diğer [dikkate alınacak noktalar ve sınırlamalar](service-datasets-across-workspaces.md#considerations-and-limitations) listesine bakın.
 
 ## <a name="save-a-copy-of-a-report"></a>Raporun bir kopyasını kaydetme
 
@@ -61,6 +59,21 @@ Bir çalışma alanı veya uygulamada hoşunuza giden bir rapor bulduğunuzda bu
 1. **İlgili içerik** iletişim kutusu tüm ilgili öğeleri gösterir. Veri kümesi bu listede diğerleri gibi görünür. Farklı bir çalışma alanında bulunduğunu ayırt edemezsiniz. Bu sorun biliniyor.
  
     ![İlgili içerik iletişim kutusu](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>Raporu ve raporun paylaşılan veri kümesini silme
+
+Raporu ve raporla ilişkilendirilmiş paylaşılan veri kümesini artık çalışma alanında istemediğinize karar verebilirsiniz.
+
+1. Raporu silin. Çalışma alanındaki rapor listesinde **Sil** simgesini seçin.
+
+    ![Raporu sil simgesi](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. Veri kümesi listesinde paylaşılan veri kümeleri için **Sil** simgelerinin olmadığını görürsünüz. Sayfayı yenileyin veya başka bir sayfaya gidin geri dönün. Veri kümesi görüntüden kaldırılır. Aksi takdirde **İlişkilileri görüntüle**'ye bakın. Çalışma alanınızdaki başka bir tabloyla ilişkili olabilir.
+
+    ![İlişkilileri görüntüle simgesi](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > Bu çalışma alanındaki paylaşılan veri kümesinin silinmesi, veri kümesini silmez. Yalnızca bu veri kümesine başvuruyu siler.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

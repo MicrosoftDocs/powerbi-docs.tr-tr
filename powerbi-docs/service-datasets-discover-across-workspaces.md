@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461293"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567450"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma (Önizleme)
 
@@ -51,7 +51,7 @@ Böylece, çalışma alanının üyeleri hangi raporların ve panoların çalı�
 
 ## <a name="find-an-endorsed-dataset"></a>Desteklenen bir veri kümesi bulma
 
-İki farklı türde desteklenen veri kümesi bulunur. Veri kümesi sahipleri size önerdikleri bir veri kümesini *yükseltebilir*. Power BI kiracı yöneticisi, kuruluşunuzda, herkesin kullanabilmesi için veri kümelerini *onaylayan* uzmanlar belirleyebilir. Yükseltilen ve onaylanan veri kümelerinde, bir veri kümesini ararken veya bir çalışma alanındaki veri kümelerinin listesinde gördüğünüz *rozetler* görüntülenir. 
+İki farklı türde desteklenen veri kümesi bulunur. Veri kümesi sahipleri size önerdikleri bir veri kümesini *yükseltebilir*. Ayrıca Power BI kiracı yöneticisi, kuruluşunuzda herkesin kullanabilmesi için veri kümelerini *onaylayan* uzmanlar belirleyebilir. Yükseltilen ve onaylanan veri kümelerinde, bir veri kümesini ararken veya bir çalışma alanındaki veri kümelerinin listesinde gördüğünüz *rozetler* görüntülenir. Veri kümesi bulma deneyimi sırasında veri kümesini onaylayan kişinin adı bir araç ipucunda görüntülenir; **Onaylandı** etiketinin üzerine gelirseniz bunu görürsünüz.
 
 - Power BI hizmetinde: **Veri alma** > **Paylaşılan veri kümeleri**.
 - Power BI Desktop’ta: **Veri alma** > **Power BI veri kümeleri**.
