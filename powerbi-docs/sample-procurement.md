@@ -7,137 +7,140 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 17a4a3770cb2c3e2adff2bcce64c3e101688e002
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234024"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791858"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarik Analizi örneği: Tura katılın
 
-## <a name="overview-of-the-procurement-analysis-sample"></a>Tedarik Analizi örneğine genel bakış
-Bu sektör örneği panosunda ve bağlantılı raporda, bir üretim şirketinin kategori ve konuma göre satıcılar için yaptığı harcamalar çözümlenmiştir. Bu örnekte şu alanları araştıracağız:
+Tedarik Analizi örneği içerik paketinde üretim şirketinin satıcılara yaptığı harcamayı kategoriye ve konuma göre analiz eden bir pano, rapor ve veri kümesi vardır. Bu örnekte şu alanları araştıracağız:
 
 * En iyi satıcılar
 * En çok harcama yaptığımız kategoriler
 * Bize en yüksek indirimi sunan satıcılar ve bu indirimlerin ne zaman yapıldığı
 
-Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI'ı nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir.
+![Tedarik Analizi örneğinin panosu](media/sample-procurement/procurement1.png)
 
-![](media/sample-procurement/procurement1.png)
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
 
-## <a name="prerequisites"></a>Önkoşullar
+Bu öğreticide, Power BI hizmetinde Tedarik Analizi örneği içerik paketi incelenir. Power BI Desktop ile hizmette rapor deneyimleri benzer olduğundan, Power BI Desktop'ta örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
- Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample), [.pbix dosyası](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529784) olarak indirmeniz gerekir.
+Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız yoktur. Power BI Pro lisansınız yoksa örneği Power BI hizmetinde Çalışma Alanım alanınıza kaydedebilirsiniz. 
+
+## <a name="get-the-sample"></a>Örneği alma
+
+Örneği kullanabilmeniz için bir [içerik paketi](#get-the-content-pack-for-this-sample), [.pbix dosyası](#get-the-pbix-file-for-this-sample) veya [Excel çalışma kitabı](#get-the-excel-workbook-for-this-sample) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
-1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
-2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
-   
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+1. Power BI hizmetini açın (app.powerbi.com), oturum açın ve örneği kaydetmek istediğiniz çalışma alanını açın. 
+
+    Power BI Pro lisansınız yoksa örneği Çalışma Alanım alanınıza kaydedebilirsiniz.
+
+2. Sol alt köşedeki **Veri Al**'ı seçin.
+
+    ![Veri Al’ı seçme](media/sample-datasets/power-bi-get-data.png)
+3. Görüntülenen **Veri Al** sayfasında **Örnekler**'i seçin.
+
 4. **Tedarik Analizi Örneği**'ni ve ardından **Bağlan**'ı seçin.  
   
-   ![Veri Al](media/sample-procurement/procurement1a.png)
+   ![Örneğe bağlanma](media/sample-procurement/procurement1a.png)
    
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
+5. Power BI, içerik paketini içeri aktarır ve ardından geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler.
    
-   ![Yıldız işareti](media/sample-procurement/procurement1b.png)
+   ![Tedarik Analizi Örneği girdisi](media/sample-procurement/procurement-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
-
- * [Tedarik Analizi Örneği](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+Alternatif olarak, Tedarik Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
-Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529784). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
+
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529784) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 
 ## <a name="spending-trends"></a>Harcama eğilimleri
 İlk olarak kategoriye ve konuma göre harcama eğilimlerine göz atalım.  
 
-1. Çalışma alanınızda **Panolar** sekmesini açın ve Procurement Analysis panosunu seçin.
-2. **Total Invoice by Country/Region** adlı pano kutucuğunu seçin. Bu işlemin ardından "Procurement Analysis Sample" adlı raporun "Spend Overview" sayfası açılır.
+1. Örneği kaydettiğiniz çalışma alanında **Panolar** sekmesini açın, sonra **Tedarik Analizi Örneği** panosunu bulun ve bu panoyu seçin. 
+2. Panoda **Total Invoice by Country/Region** kutucuğunu seçin. Bu kutucuk **Procurement Analysis Sample** raporunun **Spend Overview** sayfasını açar.
 
-    ![](media/sample-procurement/procurement2.png)
+    ![Spend Overview sayfası](media/sample-procurement/procurement2.png)
 
-Aşağıdaki birkaç noktaya dikkat edin:
+Aşağıdaki bilgileri unutmayın:
 
-* **Total Invoice by Month and Category** çizgi grafiğinde: **Direct** kategorisinde oldukça tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
-* **Total Invoice by Country/Region** haritasında: Harcamalarımızın çoğu ABD'dedir.
-* **Total Invoice by Sub Category** sütun grafiğinde: **Hardware** ve **Indirect Goods & Services** en yüksek harcama kategorileridir.
-* Total Invoice by Tier çubuk grafiğinde: İşlerimizin çoğu Tier 1 (ilk 10) satıcıyla yapılmıştır. Bu, satıcı ilişkilerinin daha iyi yönetilmesine yardımcı olur.
+* **Total Invoice by Month and Category** adlı çizgi grafiğinde, **Direct** kategorisinde tutarlı bir harcama söz konusuyken **Logistics** kategorisinde maksimum harcamanın Aralık ayında yapıldığını ve **Other** kategorisi için Şubat ayında ani bir artış yaşandığını görüyoruz.
+* **Total Invoice by Country/Region** adlı haritada harcamalarımızın çoğunu ABD'de yaptığımızı görüyoruz.
+* **Total Invoice by Sub Category** adlı sütun grafiğinde **Hardware** ve **Indirect Goods & Services** kategorilerinin en fazla harcama yapılan kategoriler olduğu görülüyor.
+* **Total Invoice by Tier** adlı çubuk grafiğinde büyük çoğunlukla katman 1'de (ilk 10) yer alan satıcılarımızla çalıştığımızı görüyoruz. Bunu yapmak satıcı ilişkilerini daha iyi yönetmemize olanak sağlıyor.
 
 ## <a name="spending-in-mexico"></a>Meksika'da yapılan harcamalar
 Şimdi de Meksika'daki harcama alanlarını araştıralım.
 
-1. Pasta grafiğinde haritadaki **Meksika** balonunu seçin. "Sub Category tarafından düzenlenen Total Invoice" adlı sütun grafiğinde, en fazla harcamanın **Indirect Goods & Services** alt kategorisinde yapıldığını görüyoruz.
+1. **Total Invoice by Country/Region** haritasında **Mexico** kabarcığını seçin. **Total Invoice by Sub Category** sütun grafiğinde en fazla harcamanın **Indirect Goods & Services** alt kategorisinde yapıldığını görüyoruz.
 
-   ![](media/sample-procurement/pbi_procsample_spendmexico.png)
+   ![Spend Overview sayfasında Mexico'yu seçin](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. **Indirect Goods & Services** sütununda detaya gidin:
 
-   * Grafiğin sağ üst köşesinde bulunan, detaya git okunu ![](media/sample-procurement/pbi_drilldown_icon.png) seçin.
+   * **Total Invoice by Sub Category** grafiğinde, grafiğin sağ üst köşesindeki detaya gitme okunu ![Detaya gitme oku](media/sample-procurement/pbi_drilldown_icon.png) seçin.
    * **Indirect Goods & Services** sütununu seçin.
 
-      Bu kategoride şu ana kadar en fazla harcamanın Sales & Marketing alanında yapıldığını görüyoruz.
+      Sizin de görebildiğiniz gibi açık arayla en fazla harcama **Sales & Marketing** alt kategorisi için yapılıyor.
    * Haritada tekrar **Meksika**'yı seçin.
 
-      Meksika'da bu kategorideki en fazla harcamanın Maintenance & Repair için yapıldığı görülüyor.
+      Mexico için, en fazla harcama **Maintenance & Repair** alt kategorisinde.
 
-      ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
+      ![Mexico için Indirect Goods & Services detayına gitme](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Detaydan çıkmak için grafiğin sol üst köşesindeki yukarı oku seçin.
-4. Oku tekrar seçerek detaya gitme özelliğini devre dışı bırakın.  
-5. Çalışma alanınıza dönmek için üst kısımdaki gezinti çubuğunda **Power BI**'ı seçin.
+4. Detaya gitme okunu tekrar seçerek detaya gitme özelliğini devre dışı bırakın.  
+5. Üst gezinti çubuğunda **Tedarik Analizi Örneği**'ni seçerek panoya dönün.
 
 ## <a name="evaluate-different-cities"></a>Farklı şehirleri değerlendirme
 Farklı şehirleri değerlendirmek için vurgulama özelliğini kullanabiliriz.
 
-1. **Month tarafından düzenlenen Total Invoice ve Discount %** adlı pano kutucuğunu seçin. Bu işlemin ardından raporun "Discount Analysis" sayfası açılır.
-2. **City tarafından düzenlenen Total Invoice** adlı ağaç haritasında farklı şehirleri seçerek karşılaştırma yapabilirsiniz. Miami'nin neredeyse tüm faturalarının Katman 1'deki satıcılara ait olduğu görülüyor.
+1. Panoda **Total Invoice, Discount % By Month** kutucuğunu seçin. Bu kutucuk **Procurement Analysis Sample** raporunun **Discount Analysis** sayfasını açar.
+2. **Total Invoice by City** ağaç haritasında sırayla her şehri seçerek karşılaştırma yapın. Miami'nin neredeyse tüm faturalarının Katman 1'deki satıcılara ait olduğuna dikkat edin.
 
-   ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
+   ![Katmana göre şehir - indirim yüzdesi karşılaştırması](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Satıcı indirimleri
-Şimdi de satıcıların sunduğu indirimleri ve en fazla indirimi aldığımız zaman aralıklarını inceleyelim.
-
-![](media/sample-procurement/procurement4.png)
-
-Özellikle aşağıdaki sorulara cevap arayacağız:
-
-* İndirimler aydan aya değişiklik gösteriyor mu yoksa her ay aynı mı?
+Şimdi de satıcıların sunduğu indirimleri ve en fazla indirimi aldığımız zaman aralıklarını inceleyelim:
+* İndirimler her ay farklı mı yoksa bunlar aynı mı kalıyor?
 * Bazı şehirler diğerlerine göre daha fazla indirim alıyor mu?
 
-### <a name="discount-by-month"></a>Aylara göre indirim
-**Month tarafından düzenlenen Total Invoice ve Discount %** adlı birleşik haritada **Şubat** ayının en yoğun geçen ay olduğunu ve bunu **Eylül** ayının izlediğini görüyoruz. Şimdi bu aylardaki indirim yüzdelerine göz atalım.
-Hacim arttıkça indirimin azaldığını ve hacim düştükçe indirimin arttığına dikkat edin. Ne kadar indirim talep edersek o kadar düşük hacimlerle çalıştığımızı görüyoruz.
+![Discount analysis sayfası](media/sample-procurement/procurement4.png)
 
-![](media/sample-procurement/procurement5.png)
+### <a name="discount-by-month"></a>Aylara göre indirim
+**Total Invoice and Discount % by Month** birleşik haritasına bakarsanız Şubat ayının en yoğun geçen ay olduğunu ve Eylül ayının da en az yoğun ay olduğunu görürsünüz. 
+
+Bu ayların indirim yüzdesine bakın: hacim arttıkça indirim azalıyor ve hacim düştüğünde indirim artıyor. İndirime ne kadar çok ihtiyacımız varsa o kadar kötü anlaşmalar yapıyoruz.
+
+![Total Invoice and Discount % by Month grafiği](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>Şehirlere göre indirim
-Araştırılacak başka bir alan ise şehirlere göre yapılan indirimlerdir. Ağaç haritasında her bir şehri seçerek diğer grafiklerin nasıl değiştiğine göz atın.
+Araştırılacak başka bir alan ise şehirlere göre yapılan indirimlerdir. Ağaç haritasında sırayla her şehri seçerek diğer grafiklerin nasıl değiştiğine bakın:
 
-* St. Louis, MO şehrinin toplam fatura açısından bakıldığında Şubat ayında büyük bir artış yakaladığını, indirim tasarrufu alanında ise Nisan ayında büyük bir düşüş yaşadığını görüyoruz.
-* Mexico City, Mexico en yüksek indirim yüzdesine (%11,05) sahipken Atlanta, GA en düşük yüzdeye (%0,08) sahip.
+* St. Louis'in toplam fatura açısından bakıldığında Şubat ayında büyük bir artış yakaladığını, indirim tasarrufu alanında ise Nisan ayında büyük bir düşüş yaşadığını görüyoruz.
+* Mexico City en yüksek indirim yüzdesine (%11,05) sahipken Atlanta en düşük yüzdeye (%0,08) sahip.
 
-![](media/sample-procurement/procurement6.png)
+![Mexico City için indirim grafikleri](media/sample-procurement/procurement6.png)
 
 ### <a name="edit-the-report"></a>Raporu düzenleme
-Sol üst köşedeki **Raporu düzenle** seçeneğine tıklayıp Düzenleme Görünümü'nde araştırma yapın.
+Sol üst köşedeki **Raporu düzenle**'yi seçin ve Düzenleme görünümünü inceleyin:
 
-* Sayfaların nasıl oluşturulduğuna bakın
-* Aynı verileri temel alarak sayfalar ve grafikler ekleyin
-* Bir grafik için görselleştirme türünü değiştirin (örneğin, ağaç haritasını halka grafik olarak değiştirin)
-* Bu görselleştirmeleri panonuza sabitleyin
-
-Bu ortamda istediğiniz değişikliği gerçekleştirebilirsiniz. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Değişiklikleri kaydederseniz istediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
+* Sayfaların nasıl oluşturulduğuna bakın.
+* Aynı verileri temel alan sayfalar ve grafikler ekleyin.
+* Bir grafik için görselleştirme türünü değiştirin (örneğin, ağaç haritasını halka grafik olarak değiştirin).
+* Grafikleri panonuza sabitleyin.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
-Bu turda Power BI panolarının, perakende verilerine yönelik olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Şimdi sıra sizde, kendi verilerinize bağlanın. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
+Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
+
+Power BI panolarının, Soru-Cevap özelliğinin ve raporların örnek veriler için nasıl içgörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi yaşadığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
+

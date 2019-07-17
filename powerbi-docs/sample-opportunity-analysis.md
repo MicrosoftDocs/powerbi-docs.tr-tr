@@ -7,121 +7,135 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2018
+ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61231395"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791894"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Fırsat Analizi Örneği: Tura katılın
 
-## <a name="overview-of-the-opportunity-analysis-sample"></a>Fırsat Analizi örneğine genel bakış
-**Fırsat Analizi Örneği**'nde *doğrudan* ve *iş ortağı* olmak üzere 2 satış kanalına sahip olan bir yazılım şirketiyle ilgili pano (ve ilişkili rapor) yer almaktadır. Satış Yöneticisi, fırsatları ve geliri bölgeye, anlaşma boyutuna ve kanala göre izlemek için bu panoyu oluşturmuştur.
+Fırsat Analizi örneği içerik paketinde iki satış kanalı (*doğrudan* ve *iş ortağı*)olan bir yazılım şirketiyle ilgili pano, rapor ve veri kümesi vardır. Satış yöneticisi, fırsatları ve geliri bölgeye, anlaşma boyutuna ve kanala göre izlemek için bu panoyu oluşturmuştur.
 
-Satış Yöneticisi, gelir için iki ölçü kullanmaktadır:
+Örnekte gelir için iki ölçü kullanılmaktadır:
 
-* **Revenue**: Bu değer bir satıcının, gelirin ne olacağına yönelik tahminidir.
-* **Factored Revenue**: Bu değer, Gelir X Olasılık % şeklinde hesaplanır ve genellikle gerçek satış gelirinin daha doğru bir göstergesi olduğu düşünülür. Olasılık, fırsatın geçerli ***Sales Stage*** verilerine göre belirlenir.
-  * Lead: %10  
-  * Qualify: %20  
-  * Solution: %40  
-  * Proposal: %60  
-  * Finalize: %80
+* Revenue: Bir satıcının, gelirin ne olacağına yönelik tahmini.
+* Factored revenue: Gelir X olasılık % şeklinde hesaplanır ve gerçek satış gelirinin daha doğru bir göstergesi olduğu düşünülür. Olasılık, fırsatın geçerli *sales stage* (satış aşaması) verilerine göre belirlenir:
+  * Lead (müşteri adayı): %10  
+  * Qualify (uygunluk): %20  
+  * Solution (çözüm): %40  
+  * Proposal (teklif): %60  
+  * Finalize (sonlandırma): %80
 
-  ![](media/sample-opportunity-analysis/opportunity1.png)
+![Fırsat Analizi örneğinin panosu](media/sample-opportunity-analysis/opportunity1.png)
 
-Bu örnek, iş odaklı veriler, raporlar ve panolar ile Power BI' nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Bunlar, obviEnce'tan ([www.obvience.com](http://www.obvience.com/)) alınan anonimleştirilmiş gerçek verilerdir.
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
 
-## <a name="prerequisites"></a>Önkoşullar
+Bu öğreticide, Power BI hizmetinde Fırsat Analizi örneği içerik paketi incelenir. Power BI Desktop ile hizmette rapor deneyimleri benzer olduğundan, Power BI Desktop'ta örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
- Örneği kullanabilmeniz için bir [içerik paketi](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample), [.pbix dosyası](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix) veya [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529782) olarak indirmeniz gerekir.
+Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız yoktur. Power BI Pro lisansınız yoksa örneği Power BI hizmetinde Çalışma Alanım alanınıza kaydedebilirsiniz. 
+
+## <a name="get-the-sample"></a>Örneği alma
+
+Örneği kullanabilmeniz için bir [içerik paketi](#get-the-content-pack-for-this-sample), [.pbix dosyası](#get-the-pbix-file-for-this-sample) veya [Excel çalışma kitabı](#get-the-excel-workbook-for-this-sample) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
-1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
-2. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Görüntülenen Veri Al sayfasında **Örnekler** simgesini seçin.
-   
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+1. Power BI hizmetini açın (app.powerbi.com), oturum açın ve örneği kaydetmek istediğiniz çalışma alanını açın. 
+
+    Power BI Pro lisansınız yoksa örneği Çalışma Alanım alanınıza kaydedebilirsiniz.
+
+2. Sol alt köşedeki **Veri Al**'ı seçin.
+
+    ![Veri Al’ı seçme](media/sample-datasets/power-bi-get-data.png)
+3. Görüntülenen **Veri Al** sayfasında **Örnekler**'i seçin.
+
 4. **Fırsat Analizi Örneği**'ni ve ardından **Bağlan**'ı seçin.  
-  
-   ![Veri Al](media/sample-opportunity-analysis/opportunity-connect.png)
-   
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler. Yeni içerik sarı yıldızla işaretlenir. 
-   
-   ![Yıldız işareti](media/sample-opportunity-analysis/opportunity-asterisk.png)
-  
+
+   ![Örneğe bağlanma](media/sample-opportunity-analysis/opportunity-connect.png)
+5. Power BI, içerik paketini içeri aktarır ve ardından geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler.
+
+   ![Fırsat Analizi Örneği girdisi](media/sample-opportunity-analysis/opportunity-entry.png)
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, örneği bir .pbix dosyası olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
-
- * [Fırsat Analizi Örneği](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+Alternatif olarak, Fırsat Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
-Ayrıca bu örnek için [ yalnızca veri kümesini de (Excel çalışma kitabı) indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkId=529782). Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için **Power Pivot > Yönet** seçeneğini belirleyin.
 
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529782) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Panomuz bize ne anlatıyor?
-Satış Yöneticisi en önemli olduğunu düşündüğü ölçümleri izlemek için bir pano oluşturmuştur. İlginç bir bulguyla karşılaştığında bir kutucuğu seçip söz konusu verileri ayrıntılı olarak inceleyebilir.
+Satış yöneticimiz en önemli olduğunu düşündüğü ölçümleri izlemek için bir pano oluşturmuştur. İlginç bir bulguyla karşılaştığında bir kutucuğu seçip söz konusu verileri inceleyebilir:
 
-1. Şirket geliri 2 milyar ABD doları, faktörlere göre gelir ise 461 milyon ABD doları seviyesindedir.
-2. Fırsat sayısı ve gelir, toplam rakamların ilerleyen aşamalarda azaldığı bilindik bir huni desenini takip etmektedir.
-3. Fırsatlarımızın çoğu Doğu bölgesindedir.
-4. Büyük çaplı fırsatlar orta veya küçük çaplı fırsatlardan daha fazla gelir getirmektedir.
-5. Büyük iş ortağı anlaşmaları 6 milyon ABD doları seviyesindeki doğrudan satışlara kıyasla ortalama 8 milyon ABD doları ile daha fazla gelir getirmektedir.
+- Şirket geliri 2 milyar ABD doları, faktörlere göre gelir ise 461 milyon ABD doları seviyesindedir.
+- Fırsat sayısı ve gelir, toplam rakamların ilerleyen aşamalarda azaldığı bilindik bir huni desenini takip etmektedir.
+- Fırsatlarımızın çoğu Doğu bölgesindedir.
+- Büyük çaplı fırsatlar orta veya küçük çaplı fırsatlardan daha fazla gelir getirmektedir.
+- Büyük iş ortağı anlaşmaları, 6 milyon dolar seviyesindeki doğrudan satışlara göre 8 milyon ABD doları ile daha fazla gelir getirmektedir.
 
-Büyük, orta veya küçük ölçekli anlaşmaları gerçekleştirmek için aynı ölçüde efor sarf edildiğinden şirketimiz verilerin ayrıntılarına inerek büyük fırsatlar hakkında daha fazla bilgi edinmelidir.
+Büyük, orta veya küçük ölçekli anlaşmaları gerçekleştirmek için aynı ölçüde çaba harcandığından şirketimiz verileri analiz ederek büyük fırsatlar hakkında daha fazla bilgi edinmelidir.
 
-Raporun 1. sayfasını açmak için **Partner Driven ve Sales Stage tarafından düzenlenen Opportunity Count** kutucuğunu seçin.  
-![](media/sample-opportunity-analysis/opportunity2.png)
+1. Örneği kaydettiğiniz çalışma alanında **Panolar** sekmesini açın, sonra **Fırsat Analizi Örneği** panosunu bulun ve bu panoyu seçin.
+
+2. Fırsat Analizi Örneği raporunun ilk sayfasını açmak için **Opportunity Count by Partner Driven, Sales Stage** kutucuğunu seçin. 
+
+    ![Opportunity Count by Partner Driven, Sales Stage kutucuğu](media/sample-opportunity-analysis/opportunity2.png)
 
 ## <a name="explore-the-pages-in-the-report"></a>Rapordaki sayfaları inceleme
-### <a name="page-1-of-our-report-is-titled-opportunity-count-overview"></a>Raporumuzun 1. sayfası "Opportunity Count Overview" olarak adlandırılmıştır.
-![](media/sample-opportunity-analysis/opportunity3.png)
 
+Alttaki sayfa sekmelerini seçerek raporun tüm sayfalarını görüntüleyin.
+
+### <a name="opportunity-count-overview-page"></a>Opportunity Count Overview sayfası
+![Opportunity Count sayfası](media/sample-opportunity-analysis/opportunity3.png)
+
+Aşağıdaki bilgileri unutmayın:
 * Fırsat sayısı bakımından en büyük bölge Doğu olmuştur.  
-* Pasta grafiğindeki bölgeleri teker teker seçerek sayfayı filtreleyin. Her bölgede iş ortaklarının daha büyük fırsatlar kovaladığını görebiliyoruz.   
-* "Partner Driven ve Opportunity Size tarafından düzenlenen Opportunity Count" sütun grafiği, büyük fırsatların çoğunun iş ortakları tarafından yaratıldığını ve küçük veya orta düzey fırsatlarda iş ortaklarının çoğunlukta olmadığını göstermektedir.
-* Sol alttaki çubuk grafikte yer alan Sales Stage öğelerini seçerek bölgesel sayıların arasındaki farkı inceleyin ve sayı açısından en büyük bölgemiz Doğu olmasına rağmen 3 bölgenin Solution, Proposal ve Finalize değerlerinin birbirine yakın olduğuna dikkat edin. Bu da Orta ve Batı bölgelerinde fırsat yüzdesinin daha yüksek olduğu anlamına gelmektedir.
+* **Opportunity Count by Region** pasta grafiğinde sırayla her bölgeyi seçerek sayfayı bölgeye göre filtreleyin. Her bölgede iş ortaklarının daha büyük fırsatları kovaladığına dikkat edin.   
+* **Opportunity Count by Partner Driven and Opportunity Size** sütun grafiği, büyük fırsatların çoğunun iş ortakları tarafından yaratıldığını ve küçük veya orta düzey fırsatların böyle olmadığını göstermektedir.
+* **Opportunity Count by Sales Stage** çubuk grafiğinde sırayla her **Sales Stage** öğesini seçerek bölgesel sayılardaki farkı görün. Doğu (East) bölgesi en büyük fırsat sayısına sahip olsa da diğer üç bölgenin Solution, Proposal ve Finalize satış aşamalarındaki sayılarının birbirine yakın olduğuna dikkat edin. Bu sonuç da Orta (Central) ve Batı (West) bölgelerinde fırsat yüzdesinin daha yüksek olduğu anlamına gelmektedir.
 
-### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Raporumuzun 2. sayfası "Revenue Overview" olarak adlandırılmıştır.
+### <a name="revenue-analysis-page"></a>Revenue Analysis sayfası
 Bu sayfada veriler benzer şekilde incelenmektedir ancak sayı yerine gelir açısından ele alınmaktadır.  
-![](media/sample-opportunity-analysis/opportunity4.png)
 
+![Revenue Overview sayfası](media/sample-opportunity-analysis/opportunity4.png)
+
+Aşağıdaki bilgileri unutmayın:
 * Doğu yalnızca fırsat sayısı değil gelir açısından da en büyük bölgedir.  
-* Partner driven (sağ üstteki açıklamada **Yes**'i seçin) ölçütüne göre filtreleme yaptığımızda gelirlerin 1,5 milyar ABD doları ve 294 milyon ABD doları seviyesinde olduğu gösterilmektedir. Bu verileri, iş ortaklarıyla çalışılmadığında 644 milyar ABD doları ve 166 milyon ABD doları seviyesinde olan gelir verileriyle karşılaştırın.  
+* **Partner Driven** için **Yes** değerini seçerek **Revenue by Sales Stage and Partner Driven** grafiğini filtrelerseniz, 1,5 milyar ABD doları gelir ve 294 milyon ABD doları üretilen gelir görürsünüz. Bu tutarları iş ortakları tarafından yaratılmamış 644 milyon ABD doları ve 166 milyon ABD doları gelirle karşılaştırın. 
 * Büyük müşterilere ilişkin ortalama gelir, iş ortakları tarafından sağlanan fırsatlarda (8 milyon), iş ortağı harici fırsatlara (6 milyon) kıyasla daha fazladır.  
-* İş ortakları tarafından sağlanan işlerde büyük fırsatlar için ortalama gelir, orta çaplı fırsatların (4 milyon) neredeyse iki katıdır.  
+* İş ortakları tarafından sağlanan işlerde büyük boyutlu fırsatlar için ortalama gelir, orta çaplı fırsatların neredeyse iki katıdır.  
 * Küçük ve orta çaplı işletmelerin ortalama geliri ise hem iş ortakları tarafından sağlanan hem de sağlanmayan işler için karşılaştırılabilir.   
 
-İş ortaklarımızın müşterilere satış yapma konusunda daha iyi bir iş çıkardığını rahatça söyleyebiliriz.  Anlaşmaları iş ortaklarımız aracılığıyla yapmak daha mantıklı olacaktır.
+İş ortaklarımızın müşterilere satış yapma konusunda iş ortağı olmayanlardan daha iyi bir iş çıkardığını rahatça söyleyebiliriz. Anlaşmaları iş ortaklarımız aracılığıyla yapmak daha mantıklı olacaktır.
 
-### <a name="page-3-of-our-report-is-titled-region-stage-counts"></a>Raporumuzun 3. sayfası "Region Stage Counts" olarak adlandırılmıştır.
-Bu sayfada benzer veriler bölgeye ve aşamaya göre ayrı ayrı ele alınmaktadır.  
-![](media/sample-opportunity-analysis/opportunity5.png)
+### <a name="opportunity-count-by-region-and-stage"></a>Opportunity Count by Region and Stage
+Raporun bu sayfası önceki sayfadakilere benzer verilere bakar ama bunları bölgeye ve aşamaya göre ayırır. 
 
-* Doğu ölçütüne göre filtreleme yaptığımızda (pasta grafiğinde **East**'i seçin) bu bölgedeki fırsatların iş ortaklarının dahil olduğu ve olmadığı alanlarda eşit olduğunu görebiliriz.
-* Büyük çaplı fırsatlar en çok merkez bölgesinde, küçük çaplı fırsatlar en çok doğu bölgesinde, orta çaplı fırsatlar ise en çok batı bölgesinde yer almaktadır.
+![Region Stage Counts sayfası](media/sample-opportunity-analysis/opportunity5.png)
 
-### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>Raporumuzun 4. sayfası "Upcoming Opportunities" olarak adlandırılmıştır.
-Burada benzer faktörlere bu kez tarih/saat açısından bakıyoruz.  
-![](media/sample-opportunity-analysis/opportunity6.png)
+Aşağıdaki bilgileri unutmayın:
+* Doğu bölgesine göre filtrelemek için **Opportunity Count by Region** pasta grafiğinde **East** bölgesini seçerseniz, bu bölgedeki fırsatların iş ortağı tarafından yaratılanlarla diğerleri arasında neredeyse eşit bölündüğünü görürsünüz.
+* Büyük çaplı fırsatlar en çok Orta bölgesinde, küçük çaplı fırsatlar en çok Doğu bölgesinde, orta çaplı fırsatlar ise en çok Batı bölgesinde yer almaktadır.
+
+### <a name="upcoming-opportunities-by-month-page"></a>Upcoming Opportunities by Month sayfası
+Bu sayfada benzer faktörlere, ama tarih ve saat açısından bakıyoruz. 
+ 
+![Upcoming Opportunities sayfası](media/sample-opportunity-analysis/opportunity6.png)
 
 CFO'muz bu sayfayı iş yükünü yönetmek için kullanmaktadır. Satış aşamasına ve aya göre gelir fırsatlarına bakarak uygun planları yapabilir.
 
-* En yüksek ortalama gelir Finalize aşamasına aittir. Bu anlaşmaları sonlandırmak en yüksek önceliğe sahiptir.
-* CFO, aya göre filtreleme yaparak (soldaki dilimleyicide ay adını seçerek) Ocak ayının 75 milyon ABD doları gelirle Finalize aşamasında en yüksek büyük fırsat oranına sahip olduğunu görebilir. Diğer taraftan Şubat ayı Solution ve Proposal aşamalarında en fazla orta çaplı fırsata sahiptir.
-* Genel olarak, faktöre bağlı gelir rakamları; satış aşamasına, fırsat sayısına ve anlaşma boyutuna göre dalgalanmaktadır. Bu öngörüler hakkında daha fazla bilgiye ulaşmak için filtre ekleyebilirsiniz. Filtrelemek için sağ taraftaki filtre bölmesini kullanabilirsiniz.
-
-Burası keşifler yapabileceğiniz güvenli bir ortamdır. Değişikliklerinizi kaydetmemeyi seçme konusunda her zaman özgürsünüz. Ancak, değişiklikleri kaydederseniz dilediğiniz zaman **Veri Al** bölümüne giderek bu örneğin yeni bir kopyasını edinebilirsiniz.
+Aşağıdaki bilgileri unutmayın:
+* En yüksek ortalama gelir Finalize satış aşamasına aittir. Bu anlaşmaları sonlandırmak en yüksek önceliğe sahiptir.
+* Aya göre filtreleme yaparsanız (**Month** dilimleyicisinde bir ay seçerek) Ocak ayının 75 milyon ABD doları üretilen gelirle Finalize satış aşamasında en yüksek büyük fırsat oranına sahip olduğunu görürsünüz. Diğer taraftan Şubat ayı Solution ve Proposal satış aşamalarında en fazla orta çaplı fırsata sahiptir.
+* Genel olarak, faktöre bağlı gelir rakamları; satış aşamasına, fırsat sayısına ve anlaşma boyutuna göre dalgalanmaktadır. Başka içgörüler keşfetmek için sağ taraftaki **Filter** bölmesini kullanarak bu faktörlere yönelik filtrelere ekleyin.
 
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
-Bu turun Power BI panolarının, Soru-Cevap özelliğinin ve raporların fırsat izleme verileri açısından nasıl öngörü sağlayabileceğini göstermiş olduğunu umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. [Power BI ile çalışmaya başlama](service-get-started.md) hakkında daha fazla bilgi edinin.
+Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
 
-[Örnekleri indirin](sample-datasets.md)  
+Power BI panolarının, Soru-Cevap özelliğinin ve raporların örnek veriler için nasıl içgörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi edindiğinizi umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
+

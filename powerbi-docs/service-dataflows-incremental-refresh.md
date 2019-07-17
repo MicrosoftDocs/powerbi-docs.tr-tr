@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136688"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791927"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI veri akışları ile artımlı yenilemeyi kullanma
 
@@ -33,7 +33,7 @@ Power BI iş akışlarında artımlı yenilemenin kullanılması için, veri ak�
 
 Bir veri akışı birçok varlık içerebilir. Artımlı yenileme varlık düzeyinde ayarlanır; böylelikle tek veri akışı hem tümüyle yenilenen varlıkları hem de artımlı olarak yenilenen varlıkları barındırabilir.
 
-Artımlı olarak yenilenen varlık ayarlamak için, başlangıç olarak varlığınızı aynı diğer varlıkları yaptığınız gibi yapılandırın. Veri akışı ayarlama hakkında daha fazla bilgi için bkz: [Self Servis veri hazırlama Power BI'da](service-dataflows-overview.md).
+Artımlı olarak yenilenen varlık ayarlamak için, başlangıç olarak varlığınızı aynı diğer varlıkları yaptığınız gibi yapılandırın. Veri akışını ayarlama hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self servis veri hazırlığı](service-dataflows-overview.md).
 
 Veri akışı oluşturulduktan ve kaydedildikten sonra, aşağıdaki resimde gösterildiği gibi varlık görünümünde **artımlı yenileme** simgesini seçin:
 
@@ -157,7 +157,7 @@ Bu makalede, veri akışları için artımlı yenileme işlemi açıklanmıştı
 * [Veri akışları ile self servis veri hazırlığı](service-dataflows-overview.md)
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
+* [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)

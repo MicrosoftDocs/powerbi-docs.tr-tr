@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418771"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67792001"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 
@@ -23,17 +23,21 @@ Müşteri Karlılığı örneği içerik paketinde, pazarlama malzemeleri ürete
 
 ![Müşteri Kârlılığı örneğine ilişkin pano](media/sample-customer-profitability/power-bi-dash.png)
 
-Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi/uygulama, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
 
-Bu öğreticide, Power BI hizmeti ve Müşteri Karlılığı örneği içerik paketi kullanılır. Rapor deneyimleri son derece benzer olduğundan, Power BI Desktop ve örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
+Bu öğreticide, Power BI hizmetinde Müşteri Karlılığı örneği içerik paketi incelenir. Power BI Desktop ile hizmette rapor deneyimleri benzer olduğundan, Power BI Desktop'ta örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
-## <a name="prerequisites"></a>Önkoşullar
+Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız yoktur. Power BI Pro lisansınız yoksa örneği Power BI hizmetinde Çalışma Alanım alanınıza kaydedebilirsiniz. 
+
+## <a name="get-the-sample"></a>Örneği alma
 
 Örneği kullanabilmeniz için bir [içerik paketi](#get-the-content-pack-for-this-sample), [.pbix dosyası](#get-the-pbix-file-for-this-sample) veya [Excel çalışma kitabı](#get-the-excel-workbook-for-this-sample) olarak indirmeniz gerekir.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Bu örneğe ilişkin içerik paketini edinme
 
 1. Power BI hizmetini açın (app.powerbi.com), oturum açın ve örneği kaydetmek istediğiniz çalışma alanını açın.
+
+   Power BI Pro lisansınız yoksa örneği Çalışma Alanım alanınıza kaydedebilirsiniz.
 
 2. Sol alt köşedeki **Veri Al**'ı seçin.
 
@@ -135,8 +139,8 @@ Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler el
 1. Rapor sayfasını yalnızca Andrew ile ilgili veriler görüntülenecek şekilde filtrelemek için soldaki **Executive** (Yönetici) dilimleyicisinden Andrew'un adını seçin:
 
    * Hızlı bir KPI için Andrew’un **Revenue Status (Total Year)** değerine bakın; yeşil renkte olması iyi performans gösterdiği anlamına geliyor.
-   * **Revenue % Variance to Budget by Month and Executive** grafiğinde, Şubat'ta yaşanan düşüş dışında Andrew'un genelde iyi performans sergilediği gösteriliyor. Baskın olduğu bölge doğu bölgesi, 49 müşterisi var ve toplam 7 üründen 5 tanesi ile ilgileniyor. Brüt kâr yüzdesi en yüksek veya en düşük yüzde değil.
-   * **RevenueTY and Revenue % Var to Budget by Month** grafiği kararlı düzgün bir kâr gösteriyor. Öte yandan, bölge ağaç haritasında **Central** karesini seçip filtrelerseniz Andrew'un yalnızca Mart ayında ve Indiana'da gelir elde ettiğini fark edeceksiniz. Amaçlanan bu muydu yoksa bu incelenmesi gereken bir durum mu?
+   * **Revenue % Variance to Budget by Month and Executive** grafiğinde, Şubat'ta yaşanan düşüş dışında Andrew'un iyi performans sergilediği gösteriliyor. Baskın olduğu bölge doğu bölgesi, 49 müşterisi var ve toplam yedi üründen beşiyle ilgileniyor. Brüt kâr yüzdesi en yüksek veya en düşük yüzde değil.
+   * **RevenueTY and Revenue % Var to Budget by Month** grafiği kararlı düzgün bir kâr gösteriyor. Öte yandan, bölge ağaç haritasında **Central** karesini seçip filtrelerseniz Andrew'un yalnızca Mart ayında ve Indiana'da gelir elde ettiğini fark edeceksiniz. Amaçlanan eğilim bu muydu yoksa bu incelenmesi gereken bir durum mu?
 
 2. Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için **Executive** (Yönetici) dilimleyicisinde Valery'nin adını seçin. 
 
@@ -205,5 +209,5 @@ Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir el
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
 
-Bu turda Power BI panolarının, Soru-Cevap özelliğinin ve raporların müşteri verileriyle ilgili olarak nasıl öngörüler sağlayabileceğini kavradığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
+Power BI panolarının, Soru-Cevap özelliğinin ve raporların örnek veriler için nasıl içgörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi yaşadığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
 

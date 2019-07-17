@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408348"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791816"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -126,6 +126,7 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 
 * Şablon uygulamalarını, yükleyicinin uygulamanın neler yapabileceğini anlamasına yardımcı olacak ilgi çekici örnek verilerle oluşturduğunuzdan emin olun (boş rapor ve panolar onaylanmaz).
 Şablon uygulamaları yalnızca örnek veriler içeren uygulamaları destekler; statik uygulama onay kutusunu işaretlediğinizden emin olun. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Genelde yalnızca değerli işlevleri olan uygulamalar AppSource'da genel kullanım için onaylanabilir. Yalnızca örnek veri içeriği olan uygulamaların rehberlik veya istatistiksel değeri olmalıdır.
 * Doğrulama ekibinin izleyeceği, verilere bağlanmak için gereken kimlik bilgilerini ve parametreleri de içeren yönergeler ekleyin.
 * Uygulamanın, Power BI'da ve CPP teklifinizde bir Uygulama simgesi içermesi gerekir. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Yapılandırılmış giriş sayfası. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

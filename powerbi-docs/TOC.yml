@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Kutucuk hatalarıyla ilgili sorunları giderme
               href: refresh-troubleshooting-tile-errors.md
-            - name: Şirket içi veri ağ geçidi sorunlarını giderme
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI ağ geçidi - bireysel sorunlarını giderme
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Excel’de çözümleme sorunlarını giderme
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
@@ -1279,38 +1275,38 @@
   items:
     - name: Genel Bakış
       items:
-        - name: Power BI ağ geçitleri nelerdir?
-          href: service-gateway-getting-started.md
-    - name: Öğreticiler
-      items:
-        - name: SQL Server verilerine bağlanma
-          href: service-gateway-sql-tutorial.md
+        - name: Şirket içi veri ağ geçidi nedir?
+          href: service-gateway-onprem.md
     - name: Kavramlar
       items:
         - name: Veri ağ geçidi dağıtmaya ilişkin yönergeler
           href: service-gateway-deployment-guidance.md
         - name: Şirket içi veri ağ geçidi hakkında SSS
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: Nasıl yapılır?
       items:
-        - name: Ağ geçidi yükleme
-          href: service-gateway-install.md
-        - name: Ağ geçitlerini yönet
-          href: service-gateway-manage.md
-        - name: Ağ geçidi performansını izleme
-          href: service-gateway-performance-monitoring.md
-        - name: Kurumsal veri kaynağınızı yönetme - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: Kurumsal veri kaynağınızı yönetme - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: Kurumsal veri kaynağınızı yönetme - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: Veri kaynağınızı yönetme - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: Şirket içi veri ağ geçidi (ayrıntılı)
+          href: service-gateway-onprem-indepth.md
+        - name: Şirket içi veri ağ geçidi (kişisel mod)
+          href: service-gateway-personal-mode.md
+        - name: Kullanıcıları ve yöneticileri yönetme
+          href: service-gateway-manage-admins.md
+        - name: Veri kaynaklarını yönetme
+          items:
+            - name: Veri kaynaklarını yönetme
+              href: service-gateway-data-sources.md
+            - name: Kurumsal veri kaynağınızı yönetme - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: Kurumsal veri kaynağınızı yönetme - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: Kurumsal veri kaynağınızı yönetme - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: Veri kaynağınızı yönetme - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: Çoklu oturum açmayı etkinleştir (SSO)
           items:
             - name: Çoklu oturum açma (SSO) - genel bakış
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: Çoklu oturum açma (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: Ara sunucu ayarlarını yapılandırma
-          href: service-gateway-proxy.md
-        - name: Şirket içi veri ağ geçidi için yüksek kullanılabilirlik kümeleri
-          href: service-gateway-high-availability-clusters.md
-        - name: Şirket içi veri ağ geçidi
-          href: service-gateway-onprem.md
-        - name: Şirket içi veri ağ geçidi (ayrıntılı)
-          href: service-gateway-onprem-indepth.md
-        - name: Şirket içi veri ağ geçidi (kişisel mod)
-          href: service-gateway-personal-mode.md
-        - name: Özel bağlayıcılar
-          href: service-gateway-custom-connectors.md
-        - name: Şirket içi veri ağ geçidi sorunlarını giderme
+        - name: Ağ geçidi sorunlarını giderme
           href: service-gateway-onprem-tshoot.md
+        - name: Ağ geçidi sorunlarını giderme (bireysel mod)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: Özel bağlayıcılar kullanma
+          href: service-gateway-custom-connectors.md
     - name: Kaynaklar
       items:
         - name: Aylık ağ geçidi güncelleştirmeleri
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: Yönetim
   items:
     - name: Genel Bakış
