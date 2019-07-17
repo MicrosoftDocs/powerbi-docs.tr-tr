@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418683"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271997"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -174,7 +174,7 @@ Power BI hizmeti, verileri **DirectQuery** ile veya içeri aktarmayla erişilmel
 Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açıklanır. **X** işareti ilişkili veri türü kullanıldığında Power BI verilerinin varlığına işaret eder.
 
 
-|  |İçeri Aktar  |DirectQuery  |Canlı Bağlantı  |
+|  |İçeri Aktarma  |DirectQuery  |Canlı Bağlantı  |
 |---------|---------|---------|---------|
 |Şema     |     X    |    X     |         |
 |Ham veriler     |    X     |         |         |
@@ -225,7 +225,7 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
         - Veri kümesi yenileme için ayarlanırsa kimlik bilgileri Veri Taşıma’nın Azure SQL Veritabanında şifrelenmiş olarak depolanır. Şifreleme anahtarı müşterinin altyapısında Ağ Geçidini çalıştıran makinede depolanır.
         - Veri kümesi yenileme için ayarlanmazsa veri kaynakları için depolanan kimlik bilgileri yoktur
 
-1. Veri
+1. Data
 
     a. Analysis Services şirket içi ve DirectQuery: Power BI Hizmetinde hiçbir şey depolanmaz.
 
@@ -302,7 +302,7 @@ Geçici olmayan cihazlara sahip sabit power kalıcı bellek cihazlardır. Aşağ
     c. Gönderilen veriler: Yok (geçerli değil)
 
     d. ETL: Yok (işlem düğümünde hiçbir şey depolanmaz ve yukarıda **Bekleyen Veriler** bölümünde açıklanan durumdan farkı yoktur)
-4. Veri
+4. Data
 
     Bazı veri yapıtları sınırlı bir süre için işlem düğümlerinin diskinde depolanabilir.
 
@@ -356,7 +356,7 @@ Aşağıdaki tabloda mobil cihazın platformuna göre Power BI Mobil için serti
 | **CBA Desteği** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (hizmette oturum açın) | destekleniyor | destekleniyor | Desteklenmiyor |
-| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Destekleniyor | Desteklenmiyor |
+| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Desteklenen | Desteklenmiyor |
 
 Power BI Mobil uygulamaları Power BI hizmetiyle etkin bir iletişim kurar. Mobil uygulamanın kullanım istatistiklerini ve benzer verileri toplamak için telemetri kullanılır. Bu telemetri kullanım ve etkinliği izlemek için kullanılan hizmetlere iletilir; telemetri verileriyle birlikte hiçbir kişisel veri gönderilmez.
 
@@ -382,7 +382,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 * **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcı bir e-posta adresi kullanarak Power BI'da oturum açar; kullanıcı veri kaynağına bağlanmayı denediğinde, Power BI kimlik bilgileri olarak Power BI'ın oturum açma e-posta adresini geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI'da oturum açarken iş e-posta adreslerini ( _david@contoso.com_ gibi iş kaynaklarında oturum açarken kullandıkları e-postanın aynısını) kullanan kuruluşlarda, eşleme sorunsuz gerçekleştirilebilir; iş e-posta adreslerini kullanmayan kuruluşlarda ( _david@contoso.onmicrosoft.com_ gibi), Power BI oturum açma kimlik bilgileriyle şirket içi kaynaklara erişime izin vermek için dizin eşlemesi oluşturulmalıdır.
 
-* **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlara, Power BI tarafından Power BI şirket içi veri ağ geçidi (önceki bölümlerde sözü edilen **Ağ Geçidi**) sunulur.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. [Power BI Gateway](service-gateway-manage.md) hakkında ayrıntılı bir makale okuyabilirsiniz.
+* **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlara, Power BI tarafından Power BI şirket içi veri ağ geçidi (önceki bölümlerde sözü edilen **Ağ Geçidi**) sunulur.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. Ağ geçitleri hakkında daha fazla bilgi için bkz. [şirket içi veri ağ geçidi](service-gateway-onprem.md).
 
   Bunlara ek olarak, kuruluşlar **çoklu oturum açma** (SSO) için Kerberos kullanabilir ve Power BI'dan SQL Server, SAP HANA ve Teradata gibi şirket içi veri kaynaklarına sorun yaşamadan bağlanabilir. Daha fazla bilgi edinmek ve belirli yapılandırma gereksinimlerini öğrenmek için bkz. [**Power BI'dan şirket içi veri kaynaklarına SSO için Kerberos kullanma**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
@@ -422,7 +422,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Şirket içi veri ağ geçidi ile kişisel ağ geçidi hangi bağlantı noktalarını kullanır? Bağlantı amacıyla izin verilmesi gereken etki alanı adları var mı?**
 
-* Bu sorunun ayrıntılı yanıtını şu bağlantıda bulabilirsiniz: [Power BI Gateway](service-gateway-manage.md)
+* Bu sorunun ayrıntılı yanıtını şu bağlantıda bulabilirsiniz: [Ağ geçidi bağlantı noktaları](/data-integration/gateway/service-gateway-communication#ports)
 
 **Şirket içi veri ağ geçidiyle çalışırken kurtarma anahtarları nasıl kullanılır ve nerede depolanır? Güvenli kimlik bilgileri yönetimi nasıl yapılır?**
 
@@ -438,7 +438,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
   - **AMQP 1.0 – TCP + TLS**: Bu protokol 443, 5671-5672 ve 9350-9354 bağlantı noktalarının giden iletişime açık olmasını gerektirir. İletişim yükü daha düşük olduğundan bu protokol tercih edilir.
 
-  - **HTTPS – HTTPS + TLS üzerinden WebSockets**: Bu protokol yalnızca 443 bağlantı noktasını kullanır. WebSocket tek bir HTTP CONNECT iletisiyle başlatılır. Kanal oluşturulduktan sonra iletişim temelde TCP+TLS iletişimidir. [Şirket İçi Ağ Geçidi makalesinde](service-gateway-manage.md) açıklanan bir ayarı değiştirerek ağ geçidini bu protokolü kullanmaya zorlayabilirsiniz.
+  - **HTTPS – HTTPS + TLS üzerinden WebSockets**: Bu protokol yalnızca 443 bağlantı noktasını kullanır. WebSocket tek bir HTTP CONNECT iletisiyle başlatılır. Kanal oluşturulduktan sonra iletişim temelde TCP+TLS iletişimidir. Açıklanan bir ayarı değiştirerek bu protokolünü kullanmak için ağ geçidi zorlayabilirsiniz [şirket içi ağ geçidi makalesindeki](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **Power BI'da Azure CDN'nin rolü nedir?**
 
@@ -486,10 +486,9 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 
 - [Power BI’da Gruplar](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop ile çalışmaya başlama](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-manage.md)
+- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
 - [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
