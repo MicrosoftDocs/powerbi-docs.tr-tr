@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: Şirket içi veri ağ geçidi (kişisel mod)
           href: service-gateway-personal-mode.md
-        - name: Kullanıcıları ve yöneticileri yönetme
-          href: service-gateway-manage-admins.md
         - name: Veri kaynaklarını yönetme
           items:
             - name: Veri kaynaklarını yönetme
