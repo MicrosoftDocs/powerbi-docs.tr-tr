@@ -110,7 +110,7 @@ Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümü
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
-** _(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_ **
+** _(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
 
 Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken ***error:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
 
@@ -162,7 +162,7 @@ Hangisi olduğunu belirlemek için aşağıdaki adımları deneyin.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Verme işlemi için yönetici izni gerekiyor
 
-**_Belirtiler:_ **<br>
+**_Belirtiler:_**<br>
 Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum açmayı deniyorsa aşağıdaki hatalardan birini alır:
 
 * Onay Testi'nin, kuruluşunuzdaki kaynaklara erişim için yalnızca yöneticinin verebileceği izne ihtiyacı vardır. Kullanabilmek için önce yöneticiden bu uygulamaya izin vermesini isteyin.
@@ -172,10 +172,10 @@ Yönetici olmayan bir kullanıcı onay vermek için uygulamada ilk kez oturum a�
 
 Yönetici oturum açabilir ve başarılı bir şekilde onay verebilir.
 
-**_Kök nedeni:_ **<br>
+**_Kök nedeni:_**<br>
 Kiracı için kullanıcı onayı devre dışı bırakıldı.
 
-**_Çeşitli düzeltmeler yapılabilir:_ **
+**_Çeşitli düzeltmeler yapılabilir:_**
 
 *Kiracının tamamı için kullanıcı onayını etkinleştir (tüm kullanıcılar, tüm uygulamalar)*
 
