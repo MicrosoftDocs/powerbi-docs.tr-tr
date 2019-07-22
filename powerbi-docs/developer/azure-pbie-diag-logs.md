@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385448"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289859"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded için tanılama günlüğüne kaydetme
 
@@ -22,7 +22,6 @@ ms.locfileid: "61385448"
 Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
 
 * Uzun süren veya sorunlu sorguların tespit edilmesi.
-* Kapasitenizin sınırlarına yaklaşırken hataların tespit edilmesi.
 * [Kapasite ölçümlerinin](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/) elde edilmesi.
 * Belirli veri kümelerinin kullanımının izlenmesi.
 
@@ -127,9 +126,6 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 | JobID | 0 | İlerlemeye ilişkin iş kimliği. |
 | ObjectID | 464 | Nesne kimliği |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT Customer | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | Nesne yolu. Nesnenin üst öğesiyle başlayan virgülle ayrılmış üst öğeler listesi. |
-| ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Nesne başvurusu. Tüm üst öğeler için XML olarak kodlanmıştır, nesneyi tanımlamak için etiketleri kullanır. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Olayın bitiş saati. |
 | Süre | 0 | Olayın süresi (milisaniye cinsinden). |
 | SessionType | Kullanıcı | Oturum türü (işleme neden olan varlık). |
@@ -138,7 +134,6 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 | Önem | 0 | Bir özel durumun önem derecesi. |
 | Başarılı | 1 | 1 = başarılı. 0 = başarısız (örneğin 1 değeri izin denetimi işleminin başarılı olduğunu belirtirken 0, bu denetimin başarısız olduğunu gösterir). |
 | Hata | 0 | Belirli bir olayın hata numarası. |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | Olayla ilişkilendirilmiş metin verileri. |
 | ConnectionID | 3 | Benzersiz bağlantı kimliği. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Kullanıcının deyiminin çalıştırıldığı veri kümesinin kimliği. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | Oturum GUID'si. |
@@ -146,8 +141,7 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 | ClientProcessID | null | İstemci uygulamasının işlem kimliği. |
 | ApplicationName | null | Sunucu bağlantısını oluşturan istemci uygulamasının adı. |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Power BI Embedded kapasite kaynağının adı. |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>Tüm Ölçümler
 

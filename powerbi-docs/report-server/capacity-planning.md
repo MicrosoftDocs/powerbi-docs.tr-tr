@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976755"
@@ -29,8 +29,8 @@ Dört sunuculuk bir Power BI Rapor Sunucusu topolojisinde, herhangi bir anda kul
 
 | İş Yükü | 8 Çekirdek/32 GB RAM | 16 Çekirdek/64 GB RAM |
 | --- | --- | --- |
-| **Power BI Report Heavy** (>%60) |1.000 kullanıcı |3.000 kullanıcı |
-| **Paginated (RDL) Report Heavy** (>%60) |2.000 kullanıcı |3.200 kullanıcı |
+| **Power BI Report Heavy** (>%60) |1\.000 kullanıcı |3\.000 kullanıcı |
+| **Paginated (RDL) Report Heavy** (>%60) |2\.000 kullanıcı |3\.200 kullanıcı |
 
 Her bir çalıştırmada en yoğun olarak kullanılan kaynak CPU'ydu. Bu nedenle, Power BI Rapor Sunucusu'na yönelik çekirdek sayısının artırılması, bellek veya sabit disk alanının artırılmasına kıyasla sistemin güvenilirliği konusunda daha yüksek bir kazanım elde edilmesini sağlar. 
 
@@ -86,8 +86,8 @@ Microsoft'ta, birkaç ekip tarafından kullanılan bir Power BI Rapor Sunucusu �
 
 | İş Yükü | 8 Çekirdek/32 GB | 16 Çekirdek/64 GB |
 | --- | --- | --- |
-| **Power BI Report Heavy** |1.000 kullanıcı |3.000 kullanıcı |
-| **Paginated Report Heavy** |2.000 kullanıcı |3.200 kullanıcı |
+| **Power BI Report Heavy** |1\.000 kullanıcı |3\.000 kullanıcı |
+| **Paginated Report Heavy** |2\.000 kullanıcı |3\.200 kullanıcı |
 
 ### <a name="view-results"></a>Sonuçları görüntüleme
 Yük testi sonuçlarını görüntülemek için bir rapor seçin.
@@ -114,7 +114,7 @@ Bu makalede ortaya konulan sonuçlar, belirli veriler kullanılarak özel bir ra
 ### <a name="1-topology"></a>1 Topoloji
 **1.1 Power BI Rapor Sunucusu Topolojisi**
 
-Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. [https://azure.microsoft.com/pricing/details/virtual-machines/windows/](https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine Türü | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranı
 
 **1.2 Power BI Rapor Sunucusu Sanal Makine Yapılandırması** 
 
-Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. [https://azure.microsoft.com/pricing/details/virtual-machines/windows/](https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işl
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest aracını çalıştırma
 Reporting Services LoadTest aracını Power BI Rapor Sunucusu'na ilişkin Microsoft Azure dağıtımınızda çalıştırmak için aşağıdaki adımları uygulayın.
 
-1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest)) Reporting Services LoadTest projesini kopyalayın.
+1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest) ) Reporting Services LoadTest projesini kopyalayın.
 2. Proje dizininde, RSLoadTests.sln adlı bir çözüm dosyası bulunur. Bu dosyayı Visual Studio 2015 veya sonraki bir sürümünde açın.
 3. Bu aracı Power BI Rapor Sunucusu dağıtımınızda mı yoksa Microsoft Azure'daki bir Power BI Rapor Sunucusu dağıtımında mı çalıştırmak istediğinize karar verin. Aracı kendi dağıtımınızda çalıştırmak istiyorsanız 5. adıma gidin.
 4. Azure'da bir Power BI Rapor Sunucusu ortamı oluşturmak için https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure bölümünde listelenen yönergeleri izleyin.

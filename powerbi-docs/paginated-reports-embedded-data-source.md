@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345495"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270842"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
@@ -32,7 +32,7 @@ Aşağıdaki veri kaynakları için [SQL Server Analysis Services bağlantısı]
 
 - Power BI Premium veri kümeleri
 
-Sayfalandırılmış raporlar, [Power BI ağ geçidi](service-gateway-getting-started.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
+Sayfalandırılmış raporlar, [Power BI ağ geçidi](service-gateway-onprem.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
 
 Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Verileri](report-builder-data.md).
 

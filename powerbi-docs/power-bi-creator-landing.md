@@ -10,12 +10,12 @@ ms.date: 03/20/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 192066c34e99ecd4088d2253063bed7f2defd4e6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978849"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271778"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 
@@ -77,7 +77,7 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                           <p></p>
                                                 <a href="desktop-quickstart-connect-to-data.md">Power BI Desktop'taki verilere bağlanma</a><br/> 
                                                 <a href="service-dataflows-overview.md">Veri akışları: Self servis veri hazırlığı</a><br/> 
-                                                <a href="service-gateway-install.md">Şirket içi veriler için ağ geçitleri</a>
+                                                <a href="service-gateway-onprem.md">Şirket içi veriler için ağ geçitleri</a>
                                     </div> 
                               </div> 
                         </div> 

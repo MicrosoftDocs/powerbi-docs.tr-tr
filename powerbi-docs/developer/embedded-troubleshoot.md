@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: eec8f3b74646fa7f783888b95e95c1ed8d922260
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823323"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271026"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -26,7 +26,7 @@ Bu makalede, Power BI'dan içerik ekleme sırasında sıkça karşılaşılan ba
 
 [Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinde Power BI API'lerini kullanarak trafiği görebilirsiniz. Bu araç hataları ve diğer ilgili bilgileri gösterebilir.
 
-![Fiddler ile izleme](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+![Fiddler ile izleme](media/embedded-troubleshoot/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>Ön uç hata ayıklama için Tarayıcıda F12
 
@@ -110,7 +110,7 @@ Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümü
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
-** _(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
+**_(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
 
 Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken ***error:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
 

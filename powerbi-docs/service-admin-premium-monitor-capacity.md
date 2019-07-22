@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497966"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362725"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
@@ -41,7 +41,7 @@ Sabırlı olun. Ölçümleri yüklemek ve yenilemek birkaç dakika sürer. Uygul
 
 Premium Kapasite Ölçümleri uygulamanızın en son ne zaman yenilendiğine bakmak için, **Ayarlar** > **Veri Kümeleri** > **Power BI Premium Kapasite Ölçümleri** > **Yenileme Geçmişi**'ne tıklayın. 
 
-![Ayarlar'da yenileme geçmişi](media/settings-refresh-history.png)
+![Ayarlar'da yenileme geçmişi](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 Son yenileme gösterilir; zamanlanmış ve isteğe bağlı yenilemeleri görmek için **Yenileme geçmişi**'ne tıklayın.
 
