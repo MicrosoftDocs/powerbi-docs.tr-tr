@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop'ta Modelleme görünümü
           href: desktop-modeling-view.md
-        - name: Power BI Desktop'ta Toplamalar (Önizleme)
+        - name: Power BI Desktop’ta toplamalar
           href: desktop-aggregations.md
         - name: Power BI Desktop’taki bileşik modeller
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: Filtre türleri
               href: power-bi-report-filter-types.md
             - name: Yeni filtre deneyimine gözatın
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: Hızlı Ölçüleri kullanma
               href: desktop-quick-measures.md
             - name: Durum parametrelerini kullanma
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: Yardım almaya yönelik on ipucu
               href: service-tips-for-finding-help.md
+            - name: Hizmet kesintisi bildirimleri
+              href: service-interruption-notifications.md
         - name: Power BI’ı genişletin
           items:
             - name: Microsoft Flow ve Power BI
@@ -685,6 +687,8 @@
           items:
             - name: Sayfalandırılmış rapor görüntüleme
               href: paginated-reports-view-power-bi-service.md
+            - name: Desteklenen veri kaynakları
+              href: paginated-reports-data-sources.md
             - name: Parametrelerle etkileşim kurma
               href: paginated-reports-view-parameters.md
             - name: Kendinizin veya başkalarının abone olmasını sağlama
