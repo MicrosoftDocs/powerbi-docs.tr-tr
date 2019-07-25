@@ -311,7 +311,7 @@ Bu kodu Program.cs'ye ekleyin.
     }
 ```
 
-Yukarıdaki kodda ** _//İlk kimliği alın_** belirtimini eklemiş olsak da, en doğrusu ada göre veri kümesini aramaktır.
+Yukarıdaki kodda **_//İlk kimliği alın_** belirtimini eklemiş olsak da, en doğrusu ada göre veri kümesini aramaktır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
