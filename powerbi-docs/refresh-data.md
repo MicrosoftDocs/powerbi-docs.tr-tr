@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
-ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
+ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67561810"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325027"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -55,7 +55,7 @@ Power BI verileri önbelleğe aldığından, İçeri aktarma modu veri kümesi b
 | --- | --- |
 | Paylaşılan, A1, A2 veya A3 | 1 GB |
 | A4 veya P1 | 3 GB |
-| A4 veya P2 | 6 GB |
+| A5 veya P2 | 6 GB |
 | A6 veya P3 | 10 GB |
 | | |
 
@@ -160,7 +160,7 @@ Depolama modu ne olursa olsun, temel alınan veri kaynakları erişilebilir olma
 
 ### <a name="connecting-to-on-premises-data-sources"></a>Şirket içi veri kaynaklarına bağlanma
 
-Veri kümeniz, Power BI’ın doğrudan ağ bağlantısı üzerinden erişemediği bir veri kaynağını kullanıyorsa, yenileme zamanlamasını etkinleştirebilmeniz veya isteğe bağlı veri yenilemesi gerçekleştirebilmeniz için bu veri kümesine yönelik bir ağ geçidi bağlantısı yapılandırmanız gerekir. Veri ağ geçitleri ve nasıl çalıştıkları hakkında daha fazla bilgi edinmek için bkz. [Şirket içi veri ağ geçitleri nedir?](service-gateway-getting-started.md)
+Veri kümeniz, Power BI’ın doğrudan ağ bağlantısı üzerinden erişemediği bir veri kaynağını kullanıyorsa, yenileme zamanlamasını etkinleştirebilmeniz veya isteğe bağlı veri yenilemesi gerçekleştirebilmeniz için bu veri kümesine yönelik bir ağ geçidi bağlantısı yapılandırmanız gerekir. Veri ağ geçitleri ve nasıl çalıştıkları hakkında daha fazla bilgi edinmek için bkz. [Şirket içi veri ağ geçitleri nedir?](service-gateway-onprem.md)
 
 Aşağıdaki seçenekler mevcuttur:
 
@@ -174,7 +174,10 @@ Aşağıdaki seçenekler mevcuttur:
 
 Microsoft, veri kümesini şirket içi veri kaynağına bağlamak için kişisel ağ geçidinin yerine kurumsal veri ağ geçidinin kullanılmasını önerir. Ağ geçidinin doğru yapılandırıldığından emin olun. Ağ geçidinin en son güncelleştirmelere ve gerekli tüm veri kaynağı tanımlarına sahip olması gerekir. Veri kaynağı tanımı, Power BI’a, belirtilen kaynağa yönelik olarak bağlantı uç noktalarını, kimlik doğrulaması modunu ve kimlik bilgilerini de içeren bağlantı bilgilerini sağlar. Bir ağ geçidinde veri kaynaklarını yönetme hakkında daha fazla bilgi için bkz. [Veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md).
 
-Ağ geçidi yöneticisiyseniz, veri kümesini bir kurumsal ağ geçidine kolayca bağlayabilirsiniz. Yönetici izinleriyle, ağ geçidini hızla güncelleştirip varsa eksik veri kaynaklarını ekleyebilirsiniz. Hatta, eksik bir veri kaynağını doğrudan veri kümesi ayarları sayfasından ağ geçidinize ekleyebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kaynaklarını görüntülemek için iki durumlu düğmeyi genişletip **Ağ geçidine ekle** bağlantısını seçin. Öte yandan, ağ geçidi yöneticisi değilseniz, ağ geçidi yöneticisine istenen veri kaynağı tanımını eklemeye yönelik bir istek göndermek için görüntülenen iletişim bilgilerini kullanın.
+Ağ geçidi yöneticisiyseniz, veri kümesini bir kurumsal ağ geçidine kolayca bağlayabilirsiniz. Yönetici izinleriyle, ağ geçidini hızla güncelleştirip varsa eksik veri kaynaklarını ekleyebilirsiniz. Hatta, eksik bir veri kaynağını doğrudan veri kümesi ayarları sayfasından ağ geçidinize ekleyebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kaynaklarını görüntülemek için iki durumlu düğmeyi genişletip **Ağ geçidine ekle** bağlantısını seçin. Bunun yanı sıra, ağ geçidi yöneticisi değilseniz, gerekli veri kaynağı tanımını eklemesi için bir ağ geçidi yöneticisiyle iletişim kurmanız gerekir.
+
+> [!NOTE]
+> Yalnızca ağ geçidi yöneticileri ağ geçidine veri kaynağı ekleyebilir. Ağ geçidi yöneticinizin kullanıcı hesabınızı veri kaynağını kullanma izni olan kullanıcıların listesine eklediğinden emin olun. Veri kümesi ayarları sayfası, yalnızca kullanma izniniz olan ve eşleşen veri kaynağı bulunan bir kurumsal ağ geçidini kullanmanıza izin verir.
 
 ![Ağ geçidine ekleme](media/refresh-data/add-to-gateway.png)
 
@@ -284,6 +287,8 @@ Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan 
 ### <a name="getting-refresh-failure-notifications"></a>Yenileme hatası bildirimlerini alma
 
 Power BI varsayılan olarak, yenileme hatalarının oluşması durumunda zamanında müdahale edilebilmesi için veri kümesi sahibine e-posta aracılığıyla yenileme hatası bildirimleri gönderir. Hizmet, art arda hatalar oluşması nedeniyle hizmet zamanlamanızı devre dışı bıraktığında da Power BI size bir bildirim gönderir. Microsoft, **Yenileme hatası bildirim e-postalarını bana gönder** onay kutusunu etkin bırakmanızı önerir.
+
+**Yenileme başarısız olduğunda bu kullanıcılara e-posta gönder** metin kutusunu kullanarak ek alıcıları belirtmek iyi bir fikirdir. Veri kümesi sahibinin yanı sıra, belirtilen alıcılar da yenileme hatası bildirilerini alır. Bu kişi, siz tatildeyken veri kümelerinizle ilgilenen iş arkadaşınız olabilir. Bu, departmanınız veya kuruluşunuz için yenileme sorunlarıyla ilgilenen destek ekibinizin e-posta diğer adı da olabilir. Veri kümesine ek olarak diğer kişilere de yenileme hatası bildirimlerinin gönderilmesi, sorunların farkına varıp bunların vakitlice çözülmesini sağlama konusunda yardımcı olur.
 
 Power BI, yalnızca yenileme hataları oluştuğunda değil aynı zamanda hizmet, zamanlanmış bir yenileme esnasında eylemsizlik nedeniyle durakladığında da bildirim gönderir. İki ay boyunca, bir veri kümesinde oluşturulan panoyu veya raporu hiçbir kullanıcı ziyaret etmezse, Power BI o veri kümesinin etkin olmadığını varsayar. Bu durumda Power BI, veri kümesinin sahibine hizmetin veri kümesi için yenileme zamanlamasını duraklattığını bildiren bir e-posta iletisi gönderir. Bu tür bildirimlerin bir örneği için aşağıdaki ekran görüntüsüne bakın.
 

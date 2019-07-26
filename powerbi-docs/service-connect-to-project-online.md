@@ -10,42 +10,49 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61146860"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324904"
 ---
-# <a name="connect-to-project-online-with-power-bi"></a>Power BI ile Project Online'a bağlanma
-Microsoft Project Online, proje portföy yönetimi (PPM) ve günlük çalışmalara yönelik esnek bir çevrimiçi çözümdür. Project Online, kuruluşların çalışmaya başlayarak proje portföy yatırımlarını önceliklendirmesine ve planlanan iş değerini sunmasına olanak sağlar. Power BI için Project Online içerik paketi projelerin, portföylerin ve kaynakların yönetimine yardımcı olmak için Project Online'da içgörüyü ortaya çıkarmanıza olanak sağlar.
+# <a name="connect-to-project-web-app-with-power-bi"></a>Power BI ile Project Web App’e bağlanma
+Microsoft Project Web App, proje portföy yönetimi (PPM) ve günlük çalışmalara yönelik esnek bir çevrimiçi çözümdür. Project Web App, kuruluşların çalışmaya başlayarak proje portföy yatırımlarını önceliklendirmesine ve planlanan iş değerini sunmasına olanak sağlar. Power BI için Project Web App Şablon Uygulaması, projelerin, portföylerin ve kaynakların yönetimine yardımcı olmak için Project Web App’te içgörü ortaya çıkarmanıza olanak sağlar.
 
-Power BI için [Project Online içerik paketine](https://app.powerbi.com/getdata/services/project-online) bağlanın.
+Power BI için [Project Web App Şablon Uygulaması](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp)’na bağlanın.
 
 ## <a name="how-to-connect"></a>Bağlanma
-1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
+
+   ![](media/service-connect-to-project-online/GetApps.png)
+1. Sol gezinti bölmesinde **Uygulamalar**'ı seçin ve ardından sağ üst köşedeki **Uygulama edinin** seçeneğini belirleyin.
+2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
-    ![](media/service-connect-to-project-online/getdata.png)
-2. **Hizmetler** kutusundaki **Al** düğmesini seçin.
+   ![](media/service-connect-to-project-online/AppSource.png)
+3. AppSource’ta **Uygulamalar** sekmesini belirleyip **Microsoft Project Web App**’i arayın/seçin.
    
-   ![](media/service-connect-to-project-online/services.png)
-3. **Microsoft Project Online** \> **Al** seçeneğini belirleyin.
+4. Şöyle bir ileti alırsınız: **Bu Power BI uygulaması yüklensin mi?** Ardından, **Yükle** seçeneğini belirleyin. 
+
+   ![](media/service-connect-to-project-online/ProjectTile.png)
+5. **Uygulamalar** bölmesinde **Microsoft Project Web App** kutucuğunu seçin. 
+   
+   ![](media/service-connect-to-project-online/getstarted.png)
+6. **Yeni uygulamanızı kullanmaya başlayın** alanında **Verileri bağla** seçeneğini belirleyin.
    
    ![](media/service-connect-to-project-online/mproject.png)
-4. **Project Web App URL'si** metin kutusuna, bağlanmak istediğiniz Project Web App (PWA) URL'sini girin ve **Sonraki** seçeneğini belirleyin. Özel bir etki alanına sahipseniz bu URL'nin örnektekinden farklı olabileceğini göz önünde bulundurun. **PWA Site Dili** metin kutusuna, PWA site dilinize karşılık gelen numarayı yazın. İngilizce için tek basamaklı '1', Fransızca için '2', Almanca için '3', Portekizce (Brezilya) için '4', Portekizce (Portekiz) için '5' ve İspanyolca için '6' yazın. 
+7. **Project Web App URL’si** metin kutusuna bağlanmak istediğiniz Project Web App’in (PWA) URL’sini girin.  Özel bir etki alanına sahipseniz bu URL'nin örnektekinden farklı olabileceğini göz önünde bulundurun. **PWA Site Dili** metin kutusuna, PWA site dilinize karşılık gelen numarayı yazın. İngilizce için tek basamaklı '1', Fransızca için '2', Almanca için '3', Portekizce (Brezilya) için '4', Portekizce (Portekiz) için '5' ve İspanyolca için '6' yazın. 
    
-    ![](media/service-connect-to-project-online/params.png)
-5. Kimlik Doğrulama Yöntemi için **OAuth2** \> **Oturum aç** seçeneğini belirleyin. İstendiğinde Project Online kimlik bilgilerinizi girin ve kimlik doğrulama işlemindeki diğer adımları uygulayın.
-   
-    ![](media/service-connect-to-project-online/creds.png)
+   ![](media/service-connect-to-project-online/params.png)
+8. Kimlik Doğrulama Yöntemi için **OAuth2** \> **Oturum aç** seçeneğini belirleyin. İstendiğinde Project Web App kimlik bilgilerinizi girin ve kimlik doğrulama işlemindeki diğer adımları uygulayın.
+
     
 Bağlandığınız Project Web App için Portföy Görüntüleyicisi, Portföy Yöneticisi veya Yönetici izinlerine sahip olmanız gerektiğini unutmayın.
 
-6. Verilerinizin yüklendiğini belirten bir bildirim görürsünüz. Bu işlem, hesabınızın boyutuna bağlı olarak biraz zaman alabilir. Veriler Power BI tarafından içeri aktarıldıktan sonra sol gezinti bölmesinde yeni bir pano, 13 rapor ve veri kümesi görürsünüz. Bu, Power BI'ın verilerinizi görüntülemek için oluşturduğu varsayılan panodur. Bu panoyu, verilerinizi istediğiniz herhangi bir biçimde görüntüleyecek şekilde değiştirebilirsiniz.
+9. Verilerinizin yüklendiğini belirten bir bildirim görürsünüz. Bu işlem, hesabınızın boyutuna bağlı olarak biraz zaman alabilir. Power BI verileri içeri aktardıktan sonra yeni çalışma alanınızın içeriklerini görürsünüz. En son güncelleştirmeleri almak için veri kümesini yenilemeniz gerekebilir. 
 
-   ![](media/service-connect-to-project-online/dashboard2.png)
+Veriler Power BI tarafından içeri aktarıldıktan sonra sol gezinti bölmesinde 13 sayfalık raporu ve veri kümesini görürsünüz. 
 
-7. Panonuz ve raporlarınız hazır olduktan sonra, devam edin ve Project Online verilerinizi incelemeye başlayın! İçerik Paketi'nde Portföye Genel Bakış (6 rapor sayfası), Kaynağa Genel Bakış (5 rapor sayfası) ve Proje Durumu (2 rapor sayfası) için 13 zengin ve ayrıntılı rapor yer alır. 
+10. Raporlarınız hazır olduktan sonra, devam edin ve Project Web App verilerinizi incelemeye başlayın! Şablon Uygulaması’nda Portföye Genel Bakış (6 rapor sayfası), Kaynağa Genel Bakış (5 rapor sayfası) ve Proje Durumu (2 rapor sayfası) için 13 zengin ve ayrıntılı rapor yer alır. 
 
    ![](media/service-connect-to-project-online/report1.png)
    
@@ -55,12 +62,9 @@ Bağlandığınız Project Web App için Portföy Görüntüleyicisi, Portföy Y
 
 **Sırada ne var?**
 
-* Panonun üst tarafındaki [Soru-Cevap kutusunda soru sormayı](consumer/end-user-q-and-a.md) deneyin
-* Panodaki [kutucukları değiştirin](service-dashboard-edit-tile.md).
-* Bağlantılı raporu açmak için [bir kutucuk seçin](consumer/end-user-tiles.md).
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
-**İçerik Paketi'ni genişletme**
+**Şablon Uygulaması’nı genişletme**
 
 İçerik Paketi'ni daha da fazla özelleştirmek ve güncelleştirmek için [GitHub PBIT dosyasını](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) indirin
 

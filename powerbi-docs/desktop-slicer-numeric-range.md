@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/02/2019
+ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68467894850248d6acb841dc2ed651f595f19b95
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364098"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307032"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop uygulamasındaki sayısal aralık dilimleyiciyi kullanma
-**Sayısal aralık dilimleyici** ile veri modelinizdeki sayısal sütunlara her türlü filtreyi uygulayabilirsiniz. Belirli sayılar **arasında**, belirli bir sayıdan **küçük veya ona eşit** ya da belirli bir sayıdan **büyük veya ona eşit** filtrelerini kullanabilirsiniz. Bu işlemler kulağa basit gelse de verilerinizi filtrelemek için kullanabileceğiniz önemli yöntemlerdir.
+Sayısal aralık dilimleyici ile veri modelinizdeki sayısal sütunlara her türlü filtreyi uygulayabilirsiniz. Sayısal verilerinizi filtrelemeye yönelik üç seçenek vardır: belirli sayılar arasında, belirli bir sayıdan küçük veya ona eşit ya da belirli bir sayıdan büyük veya ona eşit. Bu kulağa basit geliyor olabilir ama verilerinizi filtrelemenin güçlü bir yoludur.
 
 ![Sayısal aralık dilimleyiciyi ile görüntü](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="using-the-numeric-range-slicer"></a>Sayısal aralık dilimleyiciyi kullanma
-Sayısal aralık dilimleyiciyi diğer dilimleyiciler gibi kullanabilirsiniz. Tek yapmanız gereken raporunuz için bir **dilimleyici** görseli oluşturup **Alan** değeri olarak bir sayısal değer seçmektir. Aşağıdaki görüntüde *LineTotal* alanı seçilmiştir.
+## <a name="use-the-numeric-range-slicer"></a>Sayısal aralık dilimleyiciyi kullanma
+Sayısal aralık dilimleyiciyi aynı diğer dilimleyiciler gibi kullanabilirsiniz. Tek yapmanız gereken raporunuz için bir **dilimleyici** görseli oluşturup **Alan** değeri olarak bir sayısal değer seçmektir. Aşağıdaki görüntüde **LineTotal** alanını seçtik.
 
 ![Bir sayısal aralık dilimleyici oluşturun](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
@@ -31,42 +31,41 @@ Sayısal aralık dilimleyiciyi diğer dilimleyiciler gibi kullanabilirsiniz. Tek
 
 ![Sayısal aralık dilimleyici menüsü](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-2-between.png)
 
-Sayısal aralık için aşağıdaki üç seçimi yapabilirsiniz:
+Sayısal aralık için aşağıdaki üç seçeneği kullanabilirsiniz:
 
-* Arasında
-* Küçük veya eşittir
-* Büyük veya eşittir
+* **Arasında**
+* **Küçük veya eşittir**
+* **Büyük veya eşittir**
 
-Menüden **Arasında**'yı seçtiğinizde bir kaydırıcı görüntülenir ve iki sayı arasında kalan sayısal değerleri filtreleyebilirsiniz. Kaydırma çubuğunu kullanmaya ek olarak kutulardan birine tıklayıp değer girebilirsiniz. Bu işlev, özellikle belirli sayılar girmek istediğiniz ancak kaydırıcı çubuğu ile tam olarak istediğiniz sayıya gelemediğiniz durumlar için faydalıdır.
+Menüden **Arasında** seçeneğini kullandığınızda kaydırıcı görüntülenir. Kaydırıcıyı kullanarak ilgili sayılar arasında kalan sayısal değerleri seçebilirsiniz. Bazı durumlarda kaydırıcı çubuğunun hareket hassaslığı tam olarak istenen sayıya gelmeyi zorlaştırır. Ayrıca kaydırıcıyı kullanabilir ve istediğiniz değerleri yazmak için iki kutudan birini seçebilirsiniz. Belirli sayılara göre dilimlemek istediğiniz bu seçenek kullanışlıdır. 
 
-Aşağıdaki resimde rapor sayfası 2500,00 ile 6000,00 arasındaki *LineTotal* değerlerini gösterecek şekilde filtrelenmiştir.
+Aşağıdaki resimde rapor sayfası 2500,00 ile 6000,00 arasındaki **LineTotal** değerlerini gösterecek şekilde filtrelenmiştir.
 
 ![Sayısal aralık dilimleyiciyi ile “Arasında”](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-3-between-range.png)
 
-**Küçük veya eşittir**'i seçtiğinizde kaydırıcı çubuğun sol tarafındaki tutamaç (düşük değer) kaybolur ve kaydırıcı çubuğun yalnızca üst sınırı ayarlanabilir. Aşağıdaki görüntüde kaydırıcı çubuğun en yüksek değerini 5928,19 değerine ayarladık.
+**Küçük veya eşittir**'i seçtiğinizde kaydırıcı çubuğun sol tarafındaki tutamaç (düşük değer) kaybolur ve kaydırıcı çubuğun yalnızca üst sınırını ayarlayabilirsiniz. Aşağıdaki görüntüde kaydırıcı çubuğun en yüksek değerini 5928,19 değerine ayarladık.
 
 ![Sayısal aralık dilimleyiciyi ile “Küçüktür”](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-Son olarak **Büyük veya eşittir**'iş seçtiğinizde aşağıdaki görüntüde görebileceğiniz gibi kaydırıcı çubuğun sağ tarafındaki tutamaç (yüksek değer) kaybolur ve yalnızca düşük değer ayarlanabilir. Bu durumda yalnızca *LineTotal* değeri 4902,99 değerine eşit veya ondan büyük olan öğeler rapor sayfasındaki görsellerde görüntülenir.
+Son olarak, **Büyüktür veya eşittir**'i seçerseniz sağ (yüksek değerli) kaydırıcı çubuğu tutamacı görüntüden kaldırılır. Bundan sonra aşağıdaki resimde görüldüğü gibi en düşük değeri ayarlayabilirsiniz. Bu durumda yalnızca **LineTotal** değeri 4902,99 değerine eşit veya ondan büyük olan öğeler rapor sayfasındaki görsellerde görüntülenir.
 
 ![Sayısal aralık dilimleyiciyi ile “Büyüktür”](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Sayısal aralık dilimleyicide tam sayılara yaslama
 
-Temel alınan alanın veri türü **Tam Sayı** ise sayısal aralık dilimleyici tam sayılara yaslanır. Bu, dilimleyicinizin tam sayılara düzgün bir şekilde hizalanmasına olanak tanır. **Ondalık Sayı** türündeki alanlar, ondalık değerler girmenizi veya seçmenizi sağlar. Metin kutusunda uygulanan biçimlendirme alanın biçimlendirme kümesiyle eşleşir ancak isterseniz daha hassas sayılar girebilir veya seçebilirsiniz.
+Temel alınan alanın veri türü **Tam Sayı** ise sayısal aralık dilimleyici tam sayılara yaslanır. Bu özellik dilimleyicinizin tam sayılara düzgün bir şekilde hizalanmasına olanak tanır. **Ondalık Sayı** alanları, ondalık değerler girmenizi veya seçmenizi sağlar. Metin kutusunda ayarlanan biçimlendirme alanın biçimlendirme kümesiyle eşleşir ancak isterseniz daha hassas sayılar girebilir veya seçebilirsiniz.
 
 ## <a name="display-formatting-with-the-date-range-slicer"></a>Tarih aralığı dilimleyicisiyle biçimlendirmeyi görüntüleme
 
-Tarih aralığını görüntülemek veya ayarlamak için dilimleyici kullanıldığında, tarih her zaman kullanıcının tarayıcı veya işletim sistemi yerel ayarı temelinde **Kısa Tarih** biçimi kullanılarak görüntülenir. Temel verilerin veya modelin veri türü ayarları ne olursa olsun, görüntü biçimi budur. 
+Bir veri aralığını görüntülemek veya ayarlamak için dilimleyici kullandığınızda, tarihler **Kısa Tarih** biçiminde görüntülenir. Tarihi biçimi kullanıcının tarayıcı veya işletim sistemi yerel ayarı tarafından belirlenir. Bundan dolayı, temel verilerin veya modelin veri türü ayarları ne olursa olsun görüntü biçimi o olacaktır. 
 
-Örneğin, temel veri türü için uzun tarih biçimi ayarlanmış olabilir (diğer görsellerde veya durumlarda tarihi *14 Mart 2001, Çarşamba* olarak biçimlendirecek *g AAAA yyyy, gggg* biçimi gibi), ama tarih aralığı dilimleyicisinde bu tarih *14/03/2001* olarak görüntülenir.
+Örneğin temel veri türünüz uzun veri biçiminde olabilir. Bu durumda *g AAAA yyyy, gggg* gibi bir tarih biçimi diğer görsellerde veya durumlarda tarihi *14 Mart 2001, Çarşamba* olarak biçimlendirebilir. Ama tarihi aralığı dilimleyicisinde bu tarih dilimleyicide *14/03/2001* olarak biçimlendirilir.
 
 Dilimleyicide **Kısa Tarih** biçiminin görüntülenmesi, dilimleyicinin içinde dize uzunluğunun tutarlı ve kısa tutulmasını sağlar. 
 
-
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-**Sayısal aralık dilimleyici** için geçerli sınırlamalar ve önemli noktalar aşağıda belirtilmiştir:
+**Sayısal aralık dilimleyici** için sınırlamalar ve önemli noktalar aşağıda belirtilmiştir:
 
-* **Sayısal aralık dilimleyici** şu an için verilerdeki temel alınan satırları filtreler, toplanmış değerlere filtre uygulamaz. Örneğin, *Sales Amount* alanı kullanıldığında *Sales Amount* tabanlı işlemlere filtre uygulanır, görseldeki her veri noktasına ait olan *Sales Amount* toplamı filtrelenmez.
-* Bu özellik şu an için Ölçülerle birlikte çalışmamaktadır.
-* Sayısal dilimleyici üzerindeki metin kutularına temel alınan sütundaki değer aralığının dışında olsa dahi istediğiniz sayı türünü girebilirsiniz. Bu sayede verilerin ileride değişme ihtimali olduğunu biliyorsanız filtreleri buna göre ayarlayabilirsiniz.
+* **Sayısal aralık dilimleyici** verilerdeki temel alınan satırları filtreler, toplanmış değerlere filtre uygulamaz. Örneğin bir *Satış Tutarı* alanı kullandığınızı varsayalım. Dilimleyici her işlemi görselin her veri noktası için satış tutarı toplamı temelinde değil satış tutarı temelinde filtreler.
+* Bu özellik şu an için ölçülerle birlikte çalışmamaktadır.
+* Sayısal dilimleyici üzerindeki metin kutularına temel alınan sütundaki değer aralığının dışında olsa dahi istediğiniz sayı türünü girebilirsiniz. Bu seçenek, verilerin ileride değişme ihtimali olduğunu biliyorsanız filtreleri buna göre ayarlamanızı sağlar.

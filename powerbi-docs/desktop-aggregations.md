@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop'ta Toplamaları Kullanma (Önizleme)
+title: Power BI Desktop’ta Toplamaları Kullanma
 description: Power BI Desktop'ta büyük verilerle etkileşimli analizler gerçekleştirin
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239580"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325195"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Toplamalar (Önizleme)
+# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamalar
 
 Power BI'da **toplamaları** kullanarak büyük verilerde önceden mümkün olmayan etkileşimli analizler gerçekleştirebilirsiniz. **Toplamalar**, karar almak için büyük veri kümelerinden faydalanma maliyetlerini önemli ölçüde düşürebilir.
 
@@ -36,16 +36,6 @@ Toplamalar özelliği ile normalde tablo düzeyi depolama kullanılır. Daha faz
 Toplamalar veri ambarları, veri reyonları ve Hadoop tabanlı büyük veri kaynakları gibi boyutlu modelleri temsil eden veri kaynaklarıyla kullanılır. Bu makalede her veri kaynağı türü için Power BI'daki tipik modelleme farkları açıklanmaktadır.
 
 Tüm Power BI İçeri Aktarma ve (çok boyutlu olmayan) DirectQuery kaynakları toplamalarla çalışır.
-
-## <a name="enabling-the-aggregations-preview-feature"></a>Toplamalar önizleme özelliğini etkinleştirme
-
-**Toplamalar** özelliği Önizleme aşamasındadır ve **Power BI Desktop**'ta etkinleştirilmesi gerekir. **Toplamalar** özelliğini etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **bileşik modeller** ve **Toplamaları yönet** onay kutusunu işaretleyin. 
-
-![önizleme özelliklerini etkinleştirme](media/desktop-aggregations/aggregations_01.jpg)
-
-Özelliğin etkinleştirilmesi için **Power BI Desktop**'ı yeniden başlatmanız gerekir.
-
-![değişikliklerin geçerlilik kazanması için yeniden başlatma gerekiyor](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>İlişkilere dayanan toplamalar
 
@@ -103,8 +93,10 @@ Güçlü ilişkiler, her iki tablonun da *tek bir kaynaktan* geldiği aşağıda
 
 *Çapraz kaynak* toplamasında ilişkilere dayanmayan isabetler için, aşağıda gruplandırma ölçütü sütunlarına dayanan toplamalarla ilgili bölüme bakın.
 
-### <a name="aggregation-table-is-hidden"></a>Toplama tablosu gizli
-**Sales Agg** tablosu gizlenmiştir. Toplama tablolarının her zaman veri kümesi kullanıcılarından gizlenmesi gerekir. Kullanıcılar ve sorgular toplama tablosuna değil ayrıntı tablosuna başvurur. Toplama tablosunun var olduğundan dahi haberleri olmasına gerek yoktur.
+### <a name="aggregation-tables-are-not-addressable"></a>Toplama tabloları adreslenemez
+Veri kümesi üzerinde salt okuma erişimi olan kullanıcılar toplama tablolarını sorgulayamaz. RLS ile kullanıldığında bu durum güvenlik kaygılarını önler. Kullanıcılar ve sorgular toplama tablosuna değil ayrıntı tablosuna başvurur. Toplama tablosunun var olduğundan dahi haberleri olmasına gerek yoktur.
+
+Dolayısıyla **Sales Agg** tablosu gizli olmalıdır. Gizli değilse, Tümünü uygulama düğmesine tıklandığında Toplamaları yönetme iletişim kutusu bunu gizli olarak ayarlayacaktır.
 
 ### <a name="manage-aggregations-dialog"></a>Toplamaları yönetme iletişim kutusu
 Şimdi toplamaları tanımlayacağız. **Sales Agg** tablosuna sağ tıklayın ve açılan bağlam menüsünden **Toplamaları yönet**'i seçin.
@@ -136,11 +128,7 @@ Aşağıdaki tabloda **Sales Agg** tablosunun toplamaları gösterilmiştir.
 * Seçilen ayrıntı sütununun veri türü Sayı ve Tablo satırlarını say özetleme işlevlerinin dışında toplama sütunuyla aynı veri türüne sahip olmalıdır. Sayı ve Tablo satırlarını say işlevleri yalnızca tamsayı toplama sütunları için sunulur ve veri türünün eşleşmesi gerekmez.
 * Üç veya daha fazla tabloyu kapsayan zincirleme toplamalara izin verilmez. Örneğin **A Tablosunda** **C Tablosuna** başvuran toplamalara sahip olan **B Tablosuna** başvuran toplamalar ayarlanamaz.
 * İki girişin aynı özetleme işlevini kullandığı ve aynı ayrıntı tablosuna/sütununa başvurduğu yinelenen toplamalara izin verilmez.
-
-**Toplamaların** genel önizleme sürümünde aşağıdaki doğrulamalar da zorlanır. Genel kullanıma sunma öncesinde bu doğrulamaları kaldırmayı planlıyoruz.
-
-* Toplamalarda satır düzeyi güvenlik (RLS) kullanılamaz. *Genel önizleme sınırlaması.*
-* Ayrıntı tablosunun DirectQuery olması gerekir, İçeri Aktarma olamaz. *Genel önizleme sınırlaması.*
+* Ayrıntı tablosunun DirectQuery olması gerekir, İçeri Aktarma olamaz.
 
 Buna benzer doğrulamaların çoğu aşağıdaki görüntüde olduğu gibi açılan menü değerlerini devre dışı bırakarak ve araç ipucunda açıklama metni görüntülenerek zorlanır.
 
@@ -149,6 +137,9 @@ Buna benzer doğrulamaların çoğu aşağıdaki görüntüde olduğu gibi açı
 ### <a name="group-by-columns"></a>Gruplandırma ölçütü sütunları
 
 Bu örnekteki üç GroupBy girişi isteğe bağlıdır ve toplama davranışını etkilemez (bir sonraki görüntüde gösterilen DISTINCTCOUNT örnek sorgusu hariç). Bu girişler verilerin daha kolay okunabilmesi için dahil edilmiştir. Bu GroupBy girişleri olmadan da toplamalar ilişkilere göre sonuç verecektir. Bu durum toplamaları ilişki olmadan kullanma davranışından farklıdır ve makalenin ilerleyen bölümlerindeki büyük veri örneğinde daha ayrıntılı bir şekilde ele alınacaktır.
+
+### <a name="inactive-relationships"></a>Etkin olmayan ilişkiler
+Etkin olmayan bir ilişki tarafından kullanılan yabancı anahtara göre gruplandırma ve toplama isabetleri için USERELATIONSHIP işlevine dayanma desteklenmez.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>Sorguların toplamalara isabet edip etmeyeceğini tespit etme
 
@@ -191,6 +182,17 @@ Bazı durumlarda DISTINCTCOUNT işlevi de toplamaları kullanabilir. Toplama tab
 
 ![Sorgu örneği](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+Satır düzeyi güvenlik (RLS) ifadelerinin düzgün çalışmak için hem toplama tablosunu hem de ayrıntı tablosunu filtrelemelidir. Örnekten devam edersek, **Geography** tablosundaki RLS ifadesi çalışır çünkü Geography hem **Sales** tablosuyla hem de **Sales Agg** tablosuyla ilişkilerin filtreleme tarafından yer alır. Toplama tablosuna isabet eden sorgulara ve isabet etmeyenlere RLS başarıyla uygulanır.
+
+![toplamalar rolleri yönetme](media/desktop-aggregations/manage-roles.jpg)
+
+**Product** tablosundaki RLS ifadesi yalnızca **Sales** tablosunu filtreler; **Sales Agg** tablosunu filtrelemez. Bu önerilmez. Bu rolü kullanarak veri kümesine erişen kullanıcıların gönderdiği sorgular toplama isabetlerinden yararlanamaz. Toplama tablosu, ayrıntı tablosundaki aynı verilerin başka bir gösterimi olduğundan toplama tablosundan gelen sorguları yanıtlamak güvenli olmayabilir çünkü RLS filtresi uygulanamaz.
+
+**Sales Agg** tablosundaki RLS ifadesinin kendisi yalnızca toplama tablosunu filtreleyebilir ve ayrıntı tablosunu filtreleyemez. Buna izin verilmez.
+
+![toplamalar rolleri yönetme](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>Gruplandırma ölçütü sütunlarını temel alan toplamalar 
 
 Hadoop tabanlı büyük veri modellerinin özellikleri boyutlu modellerden farklıdır. Büyük tablolardaki birleşimlerden kaçınmak için genellikle ilişkileri kullanmazlar. Bunun yerine boyut öznitelikleri genellikle olgu tabloları olacak şekilde normalleştirilmişlikten çıkarılır. Bu büyük veri modellerinde gruplandırma ölçütü sütunlarını temel alan **toplamalar** kullanılarak etkileşimli analiz gerçekleştirilebilir.
@@ -225,6 +227,10 @@ Tablo satırlarını say toplamalarını kullanmak özellikle olgu tablolarında
 
 ![Filtreler iletişim kutusu](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+Yukarıda ilişkilere dayalı toplamalar için ayrıntıları verilen ve RLS ifadesinin toplama tablosunu, ayrıntı tablosunu veya her ikisini de filtreleyip filtrelemediğiyle ilgili olan RLS kuralları, gruplandırma ölçütü sütunlarına dayalı toplamalar için de geçerlidir. Örnekte, **Driver Activity** tablosuna uygulanan RLS ifadesi **Driver Activity Agg** tablosunu filtrelemek için kullanılabilir çünkü toplama tablosundaki tüm gruplandırma ölçütü sütunları ayrıntı tablosunun kapsamına alınmıştır. Öte yandan **Driver Activity Agg** tablosundaki RLS filtresi **Driver Activity** tablosuna uygulanamaz, buna izin verilmez.
+
 ## <a name="aggregation-precedence"></a>Toplama önceliği
 
 Toplama önceliği, tek bir alt sorgunun birden fazla toplama tablosu tarafından değerlendirilmesini sağlar.
@@ -232,8 +238,11 @@ Toplama önceliği, tek bir alt sorgunun birden fazla toplama tablosu tarafında
 Aşağıdaki örneği inceleyin. Birden fazla DirectQuery kaynağı içeren bir [bileşik modeldir](desktop-composite-models.md).
 
 * **Driver Activity Agg2** İçeri Aktarma tablosu, gruplandırma ölçütü öznitelikleri az ve düşük kardinaliteye sahip olduğundan yüksek ayrıntı düzeyindedir. Satır sayısı binlere indiğinden bellek içi önbelleğe kolayca sığabilir. Bu öznitelikler yüksek profilli bir yönetici panosunda kullanılacağından ilgili sorguların mümkün olduğunca hızlı olması gerekir.
-* **Driver Activity Agg** tablosu DirectQuery modundaki bir ara toplama tablosudur. Bir milyardan fazla satır içermektedir ve columnstore dizinleri kullanılarak iyileştirilmiştir.
+* **Driver Activity Agg** tablosu DirectQuery modundaki bir ara toplama tablosudur. Azure SQL Veri Ambarı'nda bir milyardan fazla satır içermektedir ve columnstore dizinleri kullanılarak iyileştirilmiştir.
 * **Driver Activity** tablosu DirectQuery türündedir ve bir büyük veri sisteminden alınan trilyonlarca IoT verisi satırına sahiptir. Bağımsız IoT değerlerinin denetlenen filtre bağlamlarında görüntülenmesi için ayrıntılandırma sorgularını destekler.
+
+> [!NOTE]
+> Ayrıntı tablosundan farklı bir veri kaynağı kullanan DirectQuery toplama tabloları yalnızca ayrıntı tablosu bir SQL Server, Azure SQL veya Azure SQL Veri Ambarı kaynağından geldiğinde desteklenir.
 
 Bu modelin bellek ayak izi oldukça küçüktür ancak çok büyük bir veri kümesine erişim sağlamaktadır. Sorgu yükünü mimarinin bileşenlerine dağıttığından ve her bileşenin güçlü olduğu yönleri kullandığından dengeli bir mimariyi temsil etmektedir.
 
@@ -261,8 +270,6 @@ Aşağıdaki tabloda **Sales Agg** tablosunun **Toplamaları yönet** iletişim 
 
 ![Sales Agg toplama tablosu](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Not: Bu modelde **Date** tablosu bir ayrıntı tablosu olduğundan Toplamaları yönet iletişim kutusunun doldurulabilmesi için DirectQuery modunda olması gerekir. Bu bir Önizleme sürümü sınırlamasıdır ve Genel Kullanım sürümünde kaldırılması planlanmaktadır.
-
 ### <a name="query-examples"></a>Sorgu örnekleri
 
 Aşağıdaki sorguda CalendarMonth toplama tablosunun kapsamında olduğundan ve CategoryName için bir-çok ilişkileri aracılığıyla erişim sağlanabildiğinden sorgu toplamaya isabet edecektir. **SalesAmount** için Sum toplaması kullanılmıştır.
@@ -285,9 +292,9 @@ Bellek içi önbelleğin kaynak verilerle eşitlenmemesi durumunda DirectQuery v
 
 Aşağıdaki makalelerde bileşik modellerle ilgili daha fazla açıklama ve DirectQuery'nin ayrıntılı açıklaması bulunabilir.
 
-* [Power BI Desktop’ta bileşik modeller (Önizleme)](desktop-composite-models.md)
-* [Power BI Desktop’ta çoka çok ilişkiler (Önizleme)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop’ta depolama Modu (Önizleme)](desktop-storage-mode.md)
+* [Power BI Desktop’taki bileşik modeller](desktop-composite-models.md)
+* [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md)
+* [Power BI Desktop’ta Depolama Modu](desktop-storage-mode.md)
 
 DirectQuery makaleleri:
 

@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596631"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307391"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
 
@@ -36,7 +36,7 @@ Bu öğreticide aşağıdaki adımları tamamlarsınız:
 - Henüz yoksa, başlamadan önce [ücretsiz Power BI deneme sürümüne](https://app.powerbi.com/signupredirect?pbi_source=web) kaydolun.
 - Yerel bir bilgisayara [Power BI Desktop uygulamasını yükleyin](https://powerbi.microsoft.com/desktop/).
 - Yerel bir bilgisayara [SQL Server yükleyin](/sql/database-engine/install-windows/install-sql-server) ve [örnek veritabanını yedekten geri yükleyin](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). AdventureWorks hakkında daha fazla bilgi için bkz. [AdventureWorks yükleme ve yapılandırma](/sql/samples/adventureworks-install-configure).
-- SQL Server ile aynı yerel bilgisayara [şirket içi veri ağ geçidi yükleyin](service-gateway-install.md) (üretimde, genellikle farklı bir bilgisayardır).
+- SQL Server ile aynı yerel bilgisayara [şirket içi veri ağ geçidi yükleyin](service-gateway-onprem.md) (üretimde, genellikle farklı bir bilgisayardır).
 
 > [!NOTE]
 > Ağ geçidi yöneticisi değilseniz ve kendiniz bir ağ geçidi yüklemek istemiyorsanız, kuruluşunuzdaki bir ağ geçidi yöneticisi ile iletişime geçin. Ağ geçidi yöneticisi, veri kümenizi SQL Server veritabanınıza bağlamak için gereken veri kaynağı tanımını oluşturabilir.
@@ -202,6 +202,6 @@ Yenileme geçmişindeki geçmiş yenileme döngülerinin sonuçlarını düzenli
 
 Bu öğreticide, şirket içindeki bir SQL Server veritabanından bir Power BI veri kümesine verileri aktarmayı ve bu veri kümesini kullanan raporları ve panoları Power BI’da güncel tutmak için bu veri kümesini zamanlanmış ve isteğe bağlı olarak nasıl yenileyeceğinizi incelediniz. Şimdi Power BI’da veri ağ geçitlerini ve veri kaynaklarını yönetme hakkında daha fazla bilgi edinebilirsiniz. Power BI'da Veri Yenileme başlıklı kavramsal makaleyi incelemek de iyi bir fikir olabilir.
 
-- [Power BI şirket içi ağ geçidini yönetme](service-gateway-manage.md)
+- [Şirket içi veri ağ geçidini yönetme](/data-integration/gateway/service-gateway-manage)
 - [Veri kaynağınızı yönetme - İçeri Aktarma/Zamanlanmış Yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Power BI'da veri yenileme](refresh-data.md)

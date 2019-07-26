@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383372"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271917"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar çoklu oturum açma (SSO) için kaynak tabanlı Kerberos’u kullanma
 
@@ -23,27 +23,27 @@ Windows Server 2012 ve sonraki sürümlerinde çoklu oturum açma bağlantısın
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Kaynak tabanlı Kerberos kısıtlanmış temsili için hazırlanma
 
-Kerberos Kısıtlanmış Temsil'in düzgün bir şekilde çalışması için, hizmet hesaplarındaki _Hizmet Asıl Adlarının_ (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğelerin yapılandırılması gerekir. 
+Kerberos Kısıtlanmış Temsil'in düzgün bir şekilde çalışması için, hizmet hesaplarındaki _Hizmet Asıl Adlarının_ (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğelerin yapılandırılması gerekir.
 
-### <a name="prerequisite-1-operating-system-requirements"></a>1. Önkoşul: İşletim sistemi gereksinimleri
+### <a name="prerequisite-1-operating-system-requirements"></a>1\. Önkoşul: İşletim sistemi gereksinimleri
 
 Kaynak tabanlı kısıtlanmış temsil yalnızca Windows Server 2012 R2, Windows Server 2012 veya üstünü çalıştıran etki alanı denetleyicilerinde yapılandırılabilir.
 
-### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>2. Önkoşul: Şirket içi veri ağ geçidini yükleme ve yapılandırma
+### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>2\. Önkoşul: Şirket içi veri ağ geçidini yükleme ve yapılandırma
 
-Şirket içi veri ağ geçidinin bu sürümü, yerinde yükseltmeyi ve mevcut ağ geçitlerinin _ayarlarını devralma_ özelliğini destekler.
+Şirket içi veri ağ geçidi, yerinde yükseltmeyi ve mevcut ağ geçitlerinin _ayarlarını devralma_ özelliğini destekler.
 
-### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>3. Önkoşul: Ağ geçidi Windows hizmetini bir etki alanı hesabı olarak çalıştırma
+### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>3\. Önkoşul: Ağ geçidi Windows hizmetini bir etki alanı hesabı olarak çalıştırma
 
 Standart bir yüklemede, ağ geçidi, aşağıdaki görüntüde gösterildiği gibi bir makine yerel hizmet hesabı olarak (özel olarak belirtmek gerekirse, _NT Service\PBIEgwService_) çalıştırılır:
 
 ![Etki alanı hesabı](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Azure AD'niz yerel Active Directory hesabınız ile eşitlenmediği (Azure AD DirSync/Connect kullanılarak) sürece, **Kerberos Kısıtlanmış Temsili'nin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Hesabı bir etki alanı hesabı olarak değiştirmeniz gerekiyorsa bkz. [Ağ geçidini bir etki alanı hesabına geçirme](service-gateway-sso-kerberos.md).
+Azure AD'niz yerel Active Directory hesabınız ile eşitlenmediği (Azure AD DirSync/Connect kullanılarak) sürece, **Kerberos Kısıtlanmış Temsili'nin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Hesabı bir etki alanı hesabı olarak değiştirmeniz gerekiyorsa bkz. [Ağ geçidini bir hizmet hesabı olarak değiştirme](/data-integration/gateway/service-gateway-service-account).
 
 Azure AD DirSync / Connect yapılandırıldıysa ve kullanıcı hesapları eşitlendiyse, ağ geçidi hizmetinin çalışma zamanında yerel AD aramaları yapması gerekmez. Ağ geçidi hizmeti için yerel Hizmet Service SID'sini kullanabilirsiniz (etki alanı hesabı gerektirmek yerine). Bu belgede açıklanan Kerberos Kısıtlanmış Temsil yapılandırmasına ilişkin adımlar söz konusu yapılandırmaya yönelik olanlarla aynıdır. (Tek değişiklik, etki alanı hesabı yerine Active Directory içindeki ağ geçidi bilgisayar nesnesine uygulanmış olmasıdır).
 
-### <a name="prerequisite-4-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>4. Önkoşul: SPN'leri (SetSPN) ve Kerberos kısıtlanmış temsili ayarlarını yapılandırmak için etki alanı yöneticisi haklarını alma
+### <a name="prerequisite-4-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>4\. Önkoşul: SPN'leri (SetSPN) ve Kerberos kısıtlanmış temsili ayarlarını yapılandırmak için etki alanı yöneticisi haklarını alma
 
 Bir etki alanı yöneticisinin SPN'leri ve Kerberos temsilci seçme ayarlarını yapılandırma (etki alanı yöneticisi hakları gerekmeden) haklarını geçici veya kalıcı olarak başka bir kişiye vermesi teknik olarak mümkün olsa da bu yaklaşım önerilmez. Aşağıdaki bölümde, **3. Önkoşul** için gereken yapılandırma adımları ayrıntılı bir şekilde sunulmuştur.
 
@@ -51,9 +51,9 @@ Bir etki alanı yöneticisinin SPN'leri ve Kerberos temsilci seçme ayarlarını
 
 Sistemi düzgün bir şekilde yapılandırmak için şu iki öğeyi yapılandırmamız veya doğrulamamız gerekir:
 
-1. Gerekirse, ağ geçidi hizmeti etki alanı hesabı için bir SPN yapılandırın.
+* Gerekirse, ağ geçidi hizmeti etki alanı hesabı için bir SPN yapılandırın.
 
-1. Ağ geçidi hizmeti etki alanı hesabında temsilci seçme ayarlarını yapılandırın.
+* Ağ geçidi hizmeti etki alanı hesabında temsilci seçme ayarlarını yapılandırın.
 
 Bu iki yapılandırma adımını uygulamak için bir etki alanı yöneticisi olmanız gerektiğini unutmayın.
 
@@ -65,11 +65,11 @@ Aşağıdaki bölümlerde bu adımlar sırasıyla açıklanmıştır.
 
 1. **Active Directory Kullanıcıları ve Bilgisayarları**'nı etki alanı yöneticisi olarak başlatın.
 
-1. Etki alanına sağ tıklayın, **Bul** seçeneğini belirleyin ve ağ geçidi hizmet hesabına ilişkin hesap adını yazın
+1. Etki alanına sağ tıklayın, **Bul** seçeneğini belirleyin ve ağ geçidi hizmet hesabına ilişkin hesap adını yazın.
 
 1. Arama sonucunda, ağ geçidi hizmet hesabına sağ tıklayıp **Özellikler**'i seçin.
 
-1. **Özellikler** iletişim kutusunda **Temsilci Seçme** sekmesi görünüyorsa SPN zaten oluşturulmuştur ve Temsilci Seçme ayarlarını yapılandırma ile ilgili bir sonraki alt bölüme geçebilirsiniz.
+1. **Özellikler** iletişim kutusunda **Temsilci Seçme** sekmesi görünüyorsa SPN zaten oluşturulmuştur ve [Temsilci Seçme ayarlarını](#configure-delegation-settings) yapılandırma ile ilgili bir sonraki alt bölüme geçebilirsiniz.
 
     **Özellikler** iletişim kutusunda **Temsilci Seçme** sekmesi bulunmuyorsa söz konusu hesapta elle SPN oluşturarak, **Temsilci Seçme** sekmesinin eklenmesini sağlayabilirsiniz (Bu, temsilci seçme ayarlarının yapılandırılması için izlenebilecek en kolay yoldur). SPN oluşturma işlemi, Windows ile birlikte gelen [SetSPN aracı](https://technet.microsoft.com/library/cc731241.aspx) kullanılarak gerçekleştirilebilir. (SPN'yi oluşturmak için etki alanı yöneticisi haklarına sahip olmanız gerekir.)
 
@@ -83,10 +83,10 @@ Aşağıdaki bölümlerde bu adımlar sırasıyla açıklanmıştır.
 
 Sıradaki adımlar için bir ağ geçidi makinesi ve SQL Server çalıştıran bir veritabanı olmak üzere farklı etki alanlarında iki makine içeren bir şirket içi ortamını kullanacağız. Bu örnek için ayrıca şu ayarların ve adların geçerli olduğunu varsayıyoruz:
 
-- Ağ geçidi makine adı: **PBIEgwTestGW**
-- Ağ geçidi hizmet hesabı: **PBIEgwTestFrontEnd\GatewaySvc** (hesap görünen adı: Gateway Connector)
-- SQL Server veri kaynağı makine adı: **PBIEgwTestSQL**
-- SQL Server veri kaynağı hizmet hesabı: **PBIEgwTestBackEnd\SQLService**
+* Ağ geçidi makine adı: **PBIEgwTestGW**
+* Ağ geçidi hizmet hesabı: **PBIEgwTestFrontEnd\GatewaySvc** (hesap görünen adı: Gateway Connector)
+* SQL Server veri kaynağı makine adı: **PBIEgwTestSQL**
+* SQL Server veri kaynağı hizmet hesabı: **PBIEgwTestBackEnd\SQLService**
 
 Bu örnek adlar ve ayarlar doğrultusunda aşağıdaki yapılandırma adımlarını kullanın:
 
@@ -102,7 +102,7 @@ Bu örnek adlar ve ayarlar doğrultusunda aşağıdaki yapılandırma adımları
 
     ![Grup özellikleri](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-1. Komut istemini açın ve **PBIEgwTestBack-end** etki alanının etki alanı denetleyicisinde aşağıdaki komutları çalıştırarak arka uç hizmet hesabının msDS-AllowedToActOnBehalfOfOtherIdentity özniteliğini güncelleştirin:
+1. Bir komut istemi açın ve **PBIEgwTestBack-end** etki alanının etki alanı denetleyicisinde aşağıdaki komutları çalıştırarak arka uç hizmet hesabının msDS-AllowedToActOnBehalfOfOtherIdentity özniteliğini güncelleştirin:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
@@ -141,8 +141,8 @@ Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-- [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
-- [Power BI'da DirectQuery](desktop-directquery-about.md)
-- [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
-- [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
+* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-onprem.md)
+* [Power BI'da DirectQuery](desktop-directquery-about.md)
+* [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
+* [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)

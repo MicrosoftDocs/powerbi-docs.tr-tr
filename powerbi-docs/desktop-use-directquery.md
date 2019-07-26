@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348876"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324807"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 **Power BI Desktop** ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman **Power BI Desktop**'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: **DirectQuery**'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -50,12 +50,10 @@ Bazı sınırlamalar olsa da **DirectQuery** ile kullanabileceğiniz çok sayıd
 
 * [Bileşik modeller](desktop-composite-models.md) kullanılmadığı sürece tüm tabloların aynı veritabanından gelmesi gerekir
 * **Sorgu Düzenleyicisi** sorgusunun çok karmaşık olması halinde hata oluşur. Hatayı gidermek için **Sorgu Düzenleyicisi**'nde soruna yola açan adımı silmeniz veya verilere bağlanmak için **DirectQuery** yerine *İçeri aktar* seçeneğini kullanmanız gerekir. SAP Business Warehouse gibi çok boyutlu kaynaklar için **Sorgu Düzenleyicisi** kullanılmaz
-* İlişki filtreleme özelliği iki yön yerine tek bir yön ile sınırlıdır. (Önizleme özelliği olarak, **DirectQuery** için her iki yönde çapraz filtrelemeyi etkinleştirebilirsiniz.) SAP Business Warehouse gibi çok boyutlu kaynaklar için modelde tanımlı herhangi bir ilişki yoktur
+* İlişki filtreleme özelliği iki yön yerine tek bir yön ile sınırlıdır. (**DirectQuery** için her iki yönde çapraz filtrelemeyi etkinleştirebilirsiniz.) SAP Business Warehouse gibi çok boyutlu kaynaklar için modelde tanımlı herhangi bir ilişki yoktur
 * **DirectQuery**'de akıllı zaman gösterimi özellikleri kullanılamaz. Örneğin, tarih sütunlarının (yıl, çeyrek yıl, ay, gün vb.) özel olarak değerlendirilmesi, **DirectQuery** modunda desteklenmez.
-* Varsayılan olarak, ölçülerde izin verilen DAX ifadelerine yönelik bazı sınırlamalar mevcuttur; daha fazla bilgi için aşağıdaki paragrafa (bu madde işaretli listeden sonraki) bakın
+* Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçümlerde izin verilen DAX ifadelerine sınırlamalar koyulur.
 * **DirectQuery** kullanılarak döndürülen veriler için bir milyon satırlık bir sınır söz konusudur. Bu sınır, **DirectQuery** ile döndürülen veri kümesini oluşturmak için kullanılan toplamalar veya hesaplamalar için değil, yalnızca döndürülen sütunlar için geçerlidir. Örneğin, veri kaynağında çalıştırılan sorgunuzla 10 milyon satırı toplayıp **DirectQuery**'yi kullanarak toplama işleminin sonuçlarını Power BI'a doğru şekilde döndürebilirsiniz. Bu işlem için, Power BI'a döndürülen veri sayısının 1 milyon satırdan az olması yeterlidir. **DirectQuery**'den 1 milyondan fazla satır döndürülürse Power BI hata döndürür.
-
-Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçülere varsayılan olarak bazı sınırlamalar getirilir. İleri düzey kullanıcılar **Dosya > Seçenekler ve ayarlar > Seçenekler** adımlarını izleyip **DirectQuery**’yi ve ardından *DirectQuery modunda kısıtlanmamış ölçümlere izin ver*'i seçerek bu sınırlamayı atlamayı tercih edebilir. Bu seçenek belirlendiğinde, bir ölçü için geçerli olan tüm DAX ifadeleri kullanılabilir. Ancak kullanıcılar, içeri aktarıldığında çok iyi performans gösteren bazı ifadelerin, DirectQuery modunda arka uç kaynağa çok yavaş sorgu gönderilmesine neden olabileceğini unutmamalıdır.
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery kullanımında dikkat edilmesi gereken önemli noktalar
 **DirectQuery** kullanımında aşağıdaki üç nokta göz önünde bulundurulmalıdır:

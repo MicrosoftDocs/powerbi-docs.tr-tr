@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839595"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271209"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama
 
@@ -79,7 +79,7 @@ Diğer tüm Power BI raporlarında olduğu gibi, rapor veri kaynağı şirket i�
 
    ![Sayfalandırılmış raporu yönetme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Ayrıntılı bilgi ve sonraki adımlar için Power BI hizmetinin [Ağ geçidi yükleme](service-gateway-install.md) makalesine bakın.
+1. Ayrıntılı bilgi ve sonraki adımlar için şu Power BI hizmeti makalesine bakın: [Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)
 
 ### <a name="gateway-limitations"></a>Ağ geçidi sınırlamaları
 

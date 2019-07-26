@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345520"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270792"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -119,10 +119,10 @@ Geçiş/sıralama dışında Power BI hizmetinde desteklenmeyen bir özelliğe s
 
 Şu veri kaynağını destekliyoruz - 
 
-- Power BI Premium Veri Kümeleri
+- Power BI Veri Kümeleri (çoklu oturum açma (SSO) aracılığıyla)
 - Azure Analysis Services (çoklu oturum açma (SSO) ve oAuth aracılığıyla)
 - Azure SQL Veri Ambarı
-- Azure SQL Veritabanı (kullanıcı adı/parola ve oAuth)
+- Azure SQL Veritabanı (kullanıcı adı/parola, SSO ve oAuth)
 - SQL Server*
 - SQL Server Analysis Services (SSAS) tablolu (DAX) ve çok boyutlu (MDX) modelleri* 
 - Oracle* 
@@ -134,11 +134,11 @@ Ağ Geçidi üzerinden SSAS'ye erişirken, kimlik bilgileri depolanan kullanıc�
 
 ### <a name="what-authentication-methods-do-you-support"></a>Hangi kimlik doğrulama yöntemlerini destekliyorsunuz?
 
-Hem Azure Analysis Services hem de Power BI Premium veri kaynakları için SSO’yu ve Azure SQL Veritabanı için oAuth ve SSO’yu destekliyoruz.  Diğer veri kaynakları için şu anda portalda veya ağ geçidinde veri kaynağıyla birlikte kullanıcı adı ve parola depolamanız gerekiyor.  
+Azure Analysis Services, Azure SQL Veritabanı ve Power BI veri kaynakları için SSO’yu destekliyoruz.  Azure SQL Veritabanı ve Azure Analysis Services için OAuth’u da destekliyoruz.  Diğer veri kaynakları için şu anda portalda veya ağ geçidinde veri kaynağıyla birlikte kullanıcı adı ve parola depolamanız gerekiyor.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Sayfalandırılmış raporum için veri kaynağı olarak Power BI veri kümesini kullanabilir miyim?
 
-Evet, sayfalandırılmış raporlarınız için veri kaynağı olarak Power BI Premium veri kümelerini destekliyoruz.
+Evet, sayfalandırılmış raporlarınız için veri kaynağı olarak Power BI veri kümelerini destekliyoruz.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Ağ Geçidi üzerinden saklı yordamları kullanabilir miyim?
 
@@ -179,10 +179,6 @@ Raporların hizmetteki önemli senaryoların aynılarını olabildiğince destek
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS müşterilerinin mevcut raporlarıyla varlıklarını Power BI'a taşıyabilmelerini sağlayacak bir geçiş aracı planlanıyor mu?
 
 İçeriğin Power BI'a otomatik bir yolla taşınmasına olanak tanıyacak seçenekleri değerlendiriyoruz ama bu özellik GA'ya kadar kullanıma sunulmayacak.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Bir süre sonra tek bir yazma aracıyla hem sayfalandırılmış raporlar hem de Power BI raporları oluşturabilmemiz mümkün olacak mı?
-
-Bu senaryoyu gerçekleştirme yöntemlerini düşündük ancak şu anda planlarımızda yer almıyor.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için bir rapor görüntüleyicisi denetimi var mı?
 

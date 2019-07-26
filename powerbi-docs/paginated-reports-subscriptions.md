@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839565"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307076"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma 
 
@@ -26,15 +26,15 @@ Abonelikleri ayarlarken ne sıklıkta e-posta almak istediğinizi seçersiniz: g
 
 - Pano ve Power BI raporu aboneliklerinden farklı olarak, aboneliğiniz tüm rapor çıkışının ekini içerir.  Aşağıdaki ek türleri desteklenir: PDF, PowerPoint sunusu (PPTX), Excel Çalışma Kitabı (XLSX), Word Belgesi (DOCX), CSV dosyası ve XML.
 
-- E-posta gövdesinde raporu önizleme resmi yer almaz.  İsteğe bağlı bir öğe olarak raporun ilk sayfasının resmini eklemeyi planlıyoruz. 
+- E-posta gövdesine raporun önizleme görüntüsünü ekleyebilirsiniz.  Bu isteğe bağlıdır ve seçtiğiniz ek biçimine bağlı olarak ekli rapor belgenizin ilk sayfasından biraz farklı olabilir. 
 
 - Rapor eki boyutu üst sınırı 25 MB'tır. 
 
 - Azure Analysis Services veya Power BI veri kümeleri gibi şu anda desteklenen veri kaynaklarına bağlanan sayfalandırılmış raporlara başka kullanıcıları da abone yapabilirsiniz. SQL Server Reporting Services'in bugün yaptığı gibi, rapor ekinin sizin izinleriniz temelinde verileri yansıttığını unutmayın. 
 
-- Rapor sayfası abonelikleri raporun adıyla ilişkilidir.  
+- E-posta abonelikleri, raporunuz için şu anda seçili olan veya varsayılan parametrelerle gönderilebilir.  Raporunuz için oluşturduğunuz her abonelik için farklı parametre değerleri ayarlayabilirsiniz. 
 
-- E-posta abonelikleri raporun varsayılan parametre değerleriyle gönderilir. 
+- Rapor yazarınız ifade tabanlı parametreler ayarladıysa (örneğin, varsayılan ayar her zaman bugünün tarihiyse), abonelik varsayılan değer olarak bunu kullanır. Diğer parametre değerlerini değiştirebilir ve mevcut değerleri kullanmayı seçebilirsiniz. Ancak, o değeri de açıkça değiştirmediğiniz sürece, abonelik ifade tabanlı parametreyi kullanır.
 
 - Sayfalandırılmış raporlarda sıklık için **Veri Yenilemesinden Sonra** seçeneği yoktur. Temel veri kümesinden her zaman en son değerleri alırsınız. 
 

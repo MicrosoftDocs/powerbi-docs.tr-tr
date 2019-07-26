@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558980"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230185"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,18 @@ ms.locfileid: "67558980"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>Temmuz 2019
+
+### <a name="report-page-tooltips"></a>Rapor sayfası araç ipuçları
+
+Rapor sayfası araç ipuçları, artık mobil uygulamanızda raporlar görüntülenirken desteklenir. Bağlı rapor araç ipucu bulunan bir görsele basılı tutun ve rapor görüntülensin.  
+
+![Rapor tuvali araç ipucu](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> Rapor araç ipuçları 640 piksel boyutu ve 320 görünüm penceresinden daha büyük çözünürlüğe sahip cihazlar için desteklenir. Daha küçük cihazlar varsayılan araç ipuçlarını kullanır.
+
 
 ## <a name="june-2019"></a>Haziran 2019
 

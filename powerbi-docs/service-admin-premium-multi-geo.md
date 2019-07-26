@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564936"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289820"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium çoklu coğrafi desteğini yapılandırma
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
 Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal veri yerleşimi gereksinimlerini karşılamasına yardımcı olan bir Power BI Premium özelliğidir. Bir Power BI Premium müşterisi olarak, içeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine dağıtabilirsiniz. Bir coğrafi bölge (coğrafya) birden çok bölge içerebilir. Örneğin, Birleşik Devletler bir coğrafi bölgedir ve Orta Batı ABD ile Orta Güney ABD de Birleşik Devletler'deki bölgelerdir. İçeriği aşağıdaki coğrafyalardan herhangi birine dağıtmayı seçebilirsiniz:
 
@@ -68,7 +68,7 @@ Bu öğeler kiracı için ana bölgede kalır:
 - İzinler
 - Veri kümesi kimlik bilgileri
 
-## <a name="view-capacity-regions"></a>Kapasite bölgeleri görüntüleyin
+## <a name="view-capacity-regions"></a>Kapasite bölgelerini görüntüleme
 
 Yönetici Portalı'nda, Power BI kiracınızın tüm kapasitelerini ve bunların şu anda bulundukları bölgeleri görüntüleyebilirsiniz.
 
@@ -94,7 +94,7 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 - Uzak bölgede depolanan ve önbelleğe alınan bir sorgu, o bölgede bekletilir. Öte yandan, taşınan diğer veriler birden çok coğrafya arasında ileri ve geri gidebilir.
 - Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca son kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
 - Multi-Geo genel olarak daha iyi bir performans sonucu vermez. Raporları ve panoları yükleme işlemi yine de meta veriler için ana bölgeye istekler göndermeyi içerir.
-- [Veri akışları](service-dataflows-overview.md) özelliği (önizlemede) şu anda Multi-Geo’da desteklenmiyor.
+- [Veri akışları](service-dataflows-overview.md) özelliği şu anda Multi-Geo’da desteklenmiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

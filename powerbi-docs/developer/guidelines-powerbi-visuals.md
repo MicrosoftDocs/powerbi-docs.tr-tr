@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343157"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271197"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
+Görselinizi başkalarının bulması ve kullanması amacıyla AppSource’ta [yayımlamadan](https://docs.microsoft.com/power-bi/developer/office-store) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun. 
+
+## <a name="context-menu"></a>Bağlam menüsü
+Bağlam menüsü, kullanıcı imlecini bir görselin üzerine getirdiğinde görüntülenen sağ tıklama menüsüdür.
+Birleşik bir deneyim sunmak için tüm Power BI görsellerinde bağlam menüsü etkinleştirmelidir. Bağlam menüsü eklemeyi öğrenmek için lütfen [bu makaleye](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) bakın.
+
+
+## <a name="logo-guidelines"></a>Logo yönergeleri
+
+Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır.
+
+> [!IMPORTANT]
+> Logolara *yalnızca düzenleme modunda* izin verilir. Logolar görüntüleme modunda *gösterilemez*.
+
+![Tanımlar](media/guidelines-powerbi-visuals/definitions.png)
+
+![Akılda tutulması gereken noktalar](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Yapılmaması gerekenler](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Boyut ve biçim](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Kenar boşlukları ve boyutlandırma](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![Düzenleme modu](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
 
@@ -36,31 +62,13 @@ Geliştiriciler, ücretsiz görseller için yaptıkları gibi Satıcı Panosu ü
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP özelliklerine sahip Power BI görseli nedir?
 
-IAP görseli, **ücretsiz özelliklere** sahip **ücretsiz** bir görseldir. Çalıştırmak için ek ücret gerektiren gelişmiş özelliklere de sahip olabilir. Geliştiricilerin, görselin açıklamasında çalıştırmak için ek satın almalar gereken özellikleri kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel API'ler sağlamamaktadır.
+IAP görseli, *ücretsiz özelliklere* sahip *ücretsiz* bir görseldir. Çalıştırmak için ek ücret gerektiren gelişmiş özelliklere de sahip olabilir. Geliştiricilerin, görselin açıklamasında çalıştırmak için ek satın almalar gereken özellikleri kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel API'ler sağlamamaktadır.
 
 Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Daha fazla bilgi için [mağaza ilkemize](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) bakın.
 
 > [!NOTE]
 > Ücretsiz özelliklerde veya ücretsiz görsellerde filigranlara izin verilmez. Filigranlar yalnızca geçerli bir lisans olmadan kullanılan ücretli özelliklerde kullanılabilir. Gelişmiş ücretli özellikler geçerli bir lisans olmadan kullanılıyorsa, lisansla ilgili tüm bilgileri içeren bir açılır pencere görüntülenmesini öneririz.  
 
-## <a name="logo-guidelines"></a>Logo yönergeleri
-
-Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır.
-
-> [!IMPORTANT]
-> Logolara **yalnızca düzenleme modunda** izin verilir. Logolar görüntüleme modunda **gösterilemez**.
-
-![Tanımlar](media/guidelines-powerbi-visuals/definitions.png)
-
-![Akılda tutulması gereken noktalar](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Yapılmaması gerekenler](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Boyut ve biçim](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Kenar boşlukları ve boyutlandırma](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![Düzenleme modu](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>En iyi yöntemler
 

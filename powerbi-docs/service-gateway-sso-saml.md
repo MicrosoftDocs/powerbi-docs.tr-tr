@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 03/05/2019
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533697"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289937"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına çoklu oturum açma (SSO) ile erişmek için ağ geçidinizde Security Assertion Markup Language (SAML) protokolünü kullanma
 
@@ -27,36 +27,37 @@ Sorunsuz çoklu oturum açma deneyimi için [Security Assertion Markup Language 
 
 [Kerberos](service-gateway-sso-kerberos.md) ile ek veri kaynakları için destek sunuyoruz.
 
-HANA için şifrelemenin bir SAML SSO bağlantısı kurulmadan önce etkinleştirilmesinin **önemle** önerildiğine dikkat edin (yani, HANA sunucunuzu şifreli bağlantıları kabul etmek için yapılandırmanız ve ayrıca Ağ Geçidini HANA sunucunuzla iletişim kurarken şifreleme kullanmak için yapılandırmanız gerekir). HANA ODBC sürücüsü varsayılan olarak SAML onaylamalarını **şifreleyemez**. Şifreleme etkinleştirilmediğinde, imzalı SAML onaylaması Ağ Geçidinden HANA sunucusuna “açıktan” gönderilir ve üçüncü taraflarca durdurulup yeniden kullanılması mümkündür.
+HANA için şifrelemenin bir SAML SSO bağlantısı kurulmadan önce etkinleştirilmesinin **önemle** önerildiğine dikkat edin (yani, HANA sunucunuzu şifreli bağlantıları kabul etmek için yapılandırmanız ve ayrıca ağ geçidini HANA sunucunuzla iletişim kurarken şifreleme kullanmak için yapılandırmanız gerekir). HANA ODBC sürücüsü varsayılan olarak SAML onaylamalarını **şifreleyemez**. Şifreleme etkinleştirilmediğinde, imzalı SAML onaylaması Ağ Geçidinden HANA sunucusuna “açıktan” gönderilir ve üçüncü taraflarca durdurulup yeniden kullanılması mümkündür.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Ağ geçidini ve veri kaynağını yapılandırma
 
-SAML kullanmak için, SSO’yu etkinleştirmek istediğiniz HANA sunucuları ile bu senaryoda SAML Kimlik Sağlayıcısı (IdP) görevi gören Ağ Geçidi arasında bir güven ilişkisi kurmanız gerekir. Bu ilişkiyi kurmanın Ağ Geçidi IdP’sinin x509 sertifikasını HANA sunucularının güven merkezine aktarmak veya Ağ Geçidinin X509 sertifikasını HANA sunucuları tarafından güvenilen bir kök Sertifika Yetkilisine (CA) imzalatmak gibi çeşitli yolları vardır. İkinci yaklaşım bu kılavuzda açıklanmaktadır ancak sizin için daha kullanışlı olan başka bir yaklaşımı kullanabilirsiniz.
+SAML kullanmak için, SSO’yu etkinleştirmek istediğiniz HANA sunucuları ile bu senaryoda SAML Kimlik Sağlayıcısı (IdP) görevi gören ağ geçidi arasında bir güven ilişkisi kurmanız gerekir. Bu ilişkiyi kurmanın ağ geçidi IdP’sinin x509 sertifikasını HANA sunucularının güven merkezine aktarmak veya ağ geçidinin X509 sertifikasını HANA sunucuları tarafından güvenilen bir kök Sertifika Yetkilisine (CA) imzalatmak gibi çeşitli yolları vardır. İkinci yaklaşım bu kılavuzda açıklanmaktadır ancak sizin için daha kullanışlı olan başka bir yaklaşımı kullanabilirsiniz.
 
 Ayrıca, bu kılavuzda HANA sunucusunun şifreleme sağlayıcısı olarak OpenSSL kullanılsa da, güven ilişkisi kurulurken kurulum adımlarını tamamlamak için OpenSSL yerine SAP Şifreleme Kitaplığı (CommonCryptoLib veya sapcrypto olarak da bilinir) kullanmanız da mümkündür. Daha fazla bilgi için resmi SAP belgelerine bakın.
 
-Aşağıdaki adımlarda, HANA sunucusu tarafından güvenilen bir Kök CA ile Ağ Geçidi IdP’sinin X509 sertifikası imzalanarak bir HANA sunucusu ile Ağ Geçidi IdP’si arasında güven ilişkisi kurma açıklanmaktadır.
+Aşağıdaki adımlarda, HANA sunucusu tarafından güvenilen bir Kök CA ile ağ geçidi IdP’sinin X509 sertifikası imzalanarak bir HANA sunucusu ile ağ geçidi IdP’si arasında güven ilişkisi kurma açıklanmaktadır.
 
 1. Kök CA’nın X509 sertifikasını ve özel anahtarı oluşturun. Örneğin, Kök CA’nın X509 sertifikasını ve özel anahtarı .pem biçiminde oluşturmak için:
 
-```
-openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-```
+   ```
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+   ```
+  Kök CA’nın sertifikasının düzgün bir şekilde güvenli hale getirildiğinden emin olun. Bu, üçüncü tarafların eline geçerse HANA sunucunuza yetkisiz erişim sağlamak için kullanılabilir. 
 
-HANA sunucusunun oluşturduğunuz Kök CA tarafından imzalanan sertifikalara güvenmesi için sertifikayı (örneğin, CA_Cert.pem) HANA sunucusunun Güven Deposuna ekleyin. HANA sunucunuzun Güven Deposunun konumunu **ssltruststore** yapılandırma ayarını inceleyerek öğrenebilirsiniz. OpenSSL’yi yapılandırmayı kapsayan SAP belgelerini takip ettiyseniz, HANA sunucunuz zaten yeniden kullanabileceğiniz bir Kök CA’ya güveniyor olabilir. Ayrıntılar için bkz. [SAP HANA Studio’dan SAP HANA Sunucusuna Open SSL yapılandırma](https://archive.sap.com/documents/docs/DOC-39571). SAML SSO’yu etkinleştirmek istediğiniz birden çok HANA sunucusu varsa, sunucuların her birinin bu Kök CA’ya güvendiğinden emin olun.
+  HANA sunucusunun oluşturduğunuz Kök CA tarafından imzalanan sertifikalara güvenmesi için sertifikayı (örneğin, CA_Cert.pem) HANA sunucusunun Güven Deposuna ekleyin. HANA sunucunuzun Güven Deposunun konumunu **ssltruststore** yapılandırma ayarını inceleyerek öğrenebilirsiniz. OpenSSL’yi yapılandırmayı kapsayan SAP belgelerini takip ettiyseniz, HANA sunucunuz zaten yeniden kullanabileceğiniz bir Kök CA’ya güveniyor olabilir. Ayrıntılar için bkz. [SAP HANA Studio’dan SAP HANA Sunucusuna Open SSL yapılandırma](https://archive.sap.com/documents/docs/DOC-39571). SAML SSO’yu etkinleştirmek istediğiniz birden çok HANA sunucusu varsa, sunucuların her birinin bu Kök CA’ya güvendiğinden emin olun.
 
-1. Ağ Geçidi IdP’sinin X509 sertifikasını oluşturun. Örneğin, bir yıl boyunca geçerli bir sertifika imzalama isteği (IdP_Req.pem) ve bir özel anahtar (IdP_Key.pem) oluşturmak için aşağıdaki komutu yürütün:
+1. Ağ geçidi IdP’sinin X509 sertifikasını oluşturun. Örneğin, bir yıl boyunca geçerli bir sertifika imzalama isteği (IdP_Req.pem) ve bir özel anahtar (IdP_Key.pem) oluşturmak için aşağıdaki komutu yürütün:
 
-```
- openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
-```
+   ```
+   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   ```
 
+   HANA sunucularınızın güvenmesi için yapılandırdığınız Kök CA’yı kullanarak sertifika imzalama isteğini imzalayın. Örneğin, CA_Cert.pem ve CA_Key.pem dosyalarını (Kök CA sertifikası ve anahtarı) kullanarak IdP_Req.pem dosyasını imzalamak için, aşağıdaki komutu yürütün:
 
-HANA sunucularınızın güvenmesi için yapılandırdığınız Kök CA’yı kullanarak sertifika imzalama isteğini imzalayın. Örneğin, CA_Cert.pem ve CA_Key.pem dosyalarını (Kök CA sertifikası ve anahtarı) kullanarak IdP_Req.pem dosyasını imzalamak için, aşağıdaki komutu yürütün:
+   ```
+   openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+   ```
 
-  ```
-openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
-```
 Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seçeneğine bakın). Şimdi, yeni bir SAML Kimlik Sağlayıcısı oluşturmak için HANA Studio’da IdP’nizin sertifikasını içeri aktarın.
 
 1. SAP HANA Studio'da SAP HANA sunucunuza sağ tıklayıp **Güvenlik** > **Güvenlik Konsolunu Aç** > **SAML Kimlik Sağlayıcısı** > **OpenSSL Şifreleme Kitaplığı** yolunu izleyin.
@@ -75,11 +76,11 @@ Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seç
 
     ![SAML yapılandırması](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 2. adımda oluşturduğunuz kimlik sağlayıcısını seçin. İçin **Dış kimlik**, Power BI kullanıcının UPN (genellikle kullanıcı oturum açtığında Power bı'a e-posta adresi) girin ve ardından seçin **Ekle**. ADUserNameReplacementProperty yapılandırma seçeneğini kullanmak için ağ geçidi yapılandırdıysanız Power BI kullanıcının özgün UPN'nin yerini alacak değer girmeniz unutmayın. Örneğin, SAMAccountName için ADUserNameReplacementProperty ayarlarsanız kullanıcı SAMAccountName girmeniz gerekir.
+1. 2\. adımda oluşturduğunuz kimlik sağlayıcısını seçin. **Dış Kimlik** için, Power BI kullanıcısının UPN’sini (bu, genellikle kullanıcının Power BI’da oturum açmak için kullandığı e-posta adresi olur) girip **Ekle**’yi seçin. Ağ geçidinizi *ADUserNameReplacementProperty* yapılandırma seçeneğini kullanması için yapılandırdıysanız Power BI kullanıcısının asıl UPN’sinin yerini alacak değeri girmeniz gerekir. Örneğin, *ADUserNameReplacementProperty* öğesini **SAMAccountName** olarak ayarlarsanız, kullanıcının **SAMAccountName** değerini girmeniz gerekir.
 
     ![Kimlik sağlayıcısını seçme](media/service-gateway-sso-saml/select-identity-provider.png)
 
-Sertifikayı ve kimliği yapılandırdığınıza göre sertifikayı pfx biçimine dönüştürüp ağ geçidi makinesini sertifikayı kullanacak şekilde yapılandırmanız gerekir.
+Ağ geçidinin sertifikasını ve kimliği yapılandırdığınıza göre sertifikayı pfx biçimine dönüştürüp ağ geçidi makinesini sertifikayı kullanacak şekilde yapılandırmanız gerekir.
 
 1. Sertifikayı pfx biçimine dönüştürmek için aşağıdaki komutu çalıştırın. Bu komutun pfx dosyasının parolası olarak "root" değerini ayarladığını unutmayın.
 
@@ -119,7 +120,7 @@ Sertifikayı ve kimliği yapılandırdığınıza göre sertifikayı pfx biçimi
 
         ![Özel anahtarları yönetme](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. Ağ geçidi hizmet hesabını listeye ekleyin. Bu hesap varsayılan olarak **NT SERVICE\PBIEgwService** şeklindedir. **services.msc** komutunu çalıştırıp **Şirket içi veri ağ geçidi hizmeti**'ni bularak ağ geçidi hizmetini çalıştıran hesabı bulabilirsiniz.
+    1. Ağ geçidi hizmet hesabını listeye ekleyin. Bu hesap varsayılan olarak **NT SERVICE\PBIEgwService** şeklindedir. **services.msc** komutunu çalıştırıp **Şirket içi veri ağ geçidi hizmeti**'ni bularak hangi hesabın Ağ Geçidi hizmetini çalıştırdığını öğrenebilirsiniz.
 
         ![Ağ geçidi hizmeti](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -132,7 +133,7 @@ Son olarak aşağıdaki adımları izleyerek sertifika parmak izini ağ geçidi 
     ```
 1. Oluşturduğunuz sertifikanın parmak izini kopyalayın.
 
-1. Ağ geçidi dizinine gidin, varsayılan dizin: C:\Program Files\On-premises data gateway.
+1. Varsayılan olarak C:\Program Files\On-premises data gateway olan ağ geçidi dizinine gidin.
 
 1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config dosyasını açın ve \*SapHanaSAMLCertThumbprint\* bölümünü bulun. Kopyaladığınız parmak izini yapıştırın.
 
@@ -148,7 +149,7 @@ Artık Power BI'daki **Ağ Geçidini Yönet** sayfasından veri kaynağını yap
 
 SSO'yu yapılandırdıktan sonra Power BI portalında şu hatayı görebilirsiniz: "Sağlanan kimlik bilgileri SapHana kaynağı için kullanılamaz." Bu hata SAML kimlik bilgilerinin SAP HANA tarafından reddedildiğini gösterir.
 
-Kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme hakkında ayrıntılı bilgi sağlar. SAP HANA sunucunuzda izlemeyi yapılandırmak için bu adımları izleyin.
+Sunucu tarafı kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme hakkında ayrıntılı bilgi sağlar. SAP HANA sunucunuzda izlemeyi yapılandırmak için bu adımları izleyin.
 
 1. SAP HANA sunucusunda aşağıdaki sorguyu çalıştırarak kimlik doğrulama izlemesini açın.
 
@@ -179,7 +180,7 @@ Kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme ha
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
+* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)

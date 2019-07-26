@@ -1,6 +1,6 @@
 ---
 title: Şirket içi veri ağ geçidi
-description: Bu, Power BI için Şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz.
+description: Bu, Power BI için şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -9,119 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
-ms.date: 06/05/2018
-ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.date: 07/15/2019
+ms.openlocfilehash: 57c4292913a2056ab285716de1e1b83e2313f723
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418815"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307088"
 ---
-# <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
+# <a name="what-is-an-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi nedir?
 
-Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, Microsoft Flow, Logic Apps ve PowerApps hizmetleri arasında hızlı ve güvenli veri aktarımı sağlar.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Tek bir ağ geçidini aynı anda farklı hizmetlerle kullanabilirsiniz. Power BI'ın yanı sıra PowerApps hizmetini kullanıyorsanız her iki hizmet için tek bir ağ geçidi kullanılabilir. Bu, oturum açmak için kullandığınız hesaba bağlıdır.
+Şirket içi veri ağ geçidi bir köprü işlevi görerek şirket içi veriler (bulutta olmayan veriler) ile Power BI, PowerApps, Microsoft Flow, Azure Analysis Services ve Logic Apps gibi birkaç Microsoft bulut hizmeti arasında hızlı ve güvenli veri aktarımı sağlar. Bir ağ geçidi kullanarak, kuruluşlar veritabanlarını ve diğer veri kaynaklarını şirket içi ağlarında tutabilir ve diğer yandan da bu şirket içi verileri bulut hizmetlerinde güvenli bir şekilde kullanabilir.
 
-> [!NOTE]
-> Şirket içi veri ağ geçidi, tüm modlarda veri sıkıştırma ve aktarım şifrelemesi uygular.
+## <a name="how-the-gateway-works"></a>Ağ geçidi nasıl çalışır?
 
-<!-- Shared Requirements Include -->
-[!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
+![Ağ geçidine genel bakış](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services canlı bağlantılarına ilişkin sınırlamalar
+Ağ geçidinin nasıl çalıştı hakkında ayrıntılı bilgi için bkz. [Şirket içi veri ağ geçidi mimarisi](/data-integration/gateway/service-gateway-onprem-indepth).
 
-Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
+## <a name="types-of-gateways"></a>Ağ geçidi türleri
 
-| **Sunucu sürümü** | **Gerekli SKU** |
-| --- | --- |
-| 2012 SP1 CU4 veya sonraki sürümler |İş Zekası ve Enterprise SKU'su |
-| 2014 |İş Zekası ve Enterprise SKU'su |
-| 2016 |Standart SKU veya sonraki sürümler |
+Her biri farklı bir senaryoya yönelik olan iki farklı türde ağ geçidi bulunur:
 
-* Hücre düzeyinde Biçimlendirme ve çeviri özellikleri desteklenmez.
-* Eylemler ve Adlandırılmış Kümeler Power BI için açık değildir ancak Eylemleri veya Adlandırılmış kümeleri de içeren çok boyutlu küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
+* **Şirket içi veri ağ geçidi** – Birden fazla kullanıcının birden fazla şirket içi veri kaynağına bağlanmasını sağlar. Tek ağ geçidi kurulumuyla, tüm desteklenen hizmetler ile bir şirket içi veri ağ geçidi kullanabilirsiniz. Bu ağ geçidi birden fazla kullanıcının birden fazla veri kaynağına eriştiği karmaşık senaryolara çok uygundur.
 
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
+* **Şirket içi veri ağ geçidi (kişisel mod)** : Tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Şirket içi veri ağ geçidi (kişisel mod) sadece Power BI ile kullanılabilir. Bu ağ geçidi, rapor oluşturan tek kişinin siz olduğunuz ve herhangi bir veri kaynağını başkalarıyla paylaşmak zorunda olmadığınız senaryolara çok uygundur.
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidini indirme ve yükleme
+## <a name="using-a-gateway"></a>Ağ geçidi kullanma
 
-Ağ geçidini indirmek için İndir menüsü altında **Data Gateway**'i seçin. [Şirket içi veri ağ geçidini](http://go.microsoft.com/fwlink/?LinkID=820925) indirin.
+Ağ geçidi kullanmanın dört ana adımı vardır:
 
-Şirket içi veri ağ geçidini bu bölümde anlatılan şekilde yeniden yükleyerek güncelleştirebilirsiniz. Ağ geçidinin daha yeni bir sürümünü yüklediğiniz sürece mevcut ayarlarınız korunur. Aynı sürümü yüklerseniz, bu işlem tam bir yeniden yükleme olarak değerlendirilir ve ayarlarınız korunmaz.
-
-![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
-
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-install-include](./includes/gateway-onprem-install-include.md)]
-
-## <a name="install-the-gateway-in-personal-mode"></a>Ağ geçidini kişisel modda yükleme
-
-> [!NOTE]
-> Ağ geçidinin Kişisel sürümü yalnızca Power BI ile birlikte çalışır.
-
-Kişisel ağ geçidi yüklendikten sonra **Power BI Gateway - Personal Yapılandırma Sihirbazı**'nı başlatmalısınız.
-
-![](media/service-gateway-onprem/personal-gateway-launch-configuration.png)
-
-Ardından, ağ geçidini bulut hizmetinde kaydetmek için Power BI'da oturum açmanız gerekir.
-
-![](media/service-gateway-onprem/personal-gateway-signin.png)
-
-Ayrıca, Windows hizmetinin çalışacağı Windows kullanıcı adını ve parolayı sağlamanız gerekir. Size ait farklı bir Windows hesabı belirtebilirsiniz. Ağ geçidi hizmeti bu hesabı kullanarak çalışacaktır.
-
-![](media/service-gateway-onprem/personal-gateway-windows-service.png)
-
-Yükleme tamamlandıktan sonra, Power BI içindeki veri kümelerinize gitmeniz ve şirket içi veri kaynaklarınıza yönelik kimlik bilgilerinin girildiğinden emin olmanız gerekir.
-
-<a name="credentials"></a>
-
-## <a name="storing-encrypted-credentials-in-the-cloud"></a>Şifrelenmiş kimlik bilgilerini bulutta depolama
-
-Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kimlik bilgilerini sağlamanız gerekir. Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgileri bulutta depolanmadan önce, bulutta şifrelerinin çözülmesini önlemek için simetrik şifreleme kullanılarak güvenli bir şekilde şifrelenir. Kimlik bilgileri, şirket içinde ağ geçidini çalıştıran, veri kaynaklarına erişildiği zaman şifrelerinin çözüldüğü makineye gönderilir.
-
-<!-- Account and Port information -->
-[!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
-
-<!-- How the gateway works -->
-[!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
-
-## <a name="limitations-and-considerations"></a>Sınırlamalar ve Önemli Noktalar
-
-* [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-) şu anda desteklenmiyor.
-* [Access Online](https://products.office.com/access) şu anda desteklenmiyor.
-* R betikleri yalnızca ağ geçidi kişisel modda çalıştırıldığında desteklenir.
-
-## <a name="tenant-level-administration"></a>Kiracı düzeyinde yönetim
-
-Kiracı yöneticisi olarak, kiracınızın içine yüklenen tüm Şirket içi veri ağ geçitlerini görebilir ve yönetebilirsiniz. Bu özellik şu anda genel önizlemede. Daha fazla bilgi için bkz. [Power Platformu Yönetim Merkezi belgeleri](/power-platform/admin/onpremises-data-gateway-management).
-
-Alternatif olarak, kiracı yöneticisiyseniz kuruluşunuzdaki kullanıcıların yükledikleri her ağ geçidine sizi yönetici olarak eklemesini istemenizi öneririz. Bu sayede, Ağ Geçidi Ayarları üzerinden veya [PowerShell komutları](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters) ile kuruluşunuzdaki tüm ağ geçitlerini yönetebilirsiniz. 
-
-## <a name="enabling-outbound-azure-connections"></a>Giden Azure bağlantılarını etkinleştirme
-
-Şirket içi veri ağ geçidi, bulut bağlantısı için Azure Service Bus kullanır ve buna bağlı olarak, ilişkili Azure bölgesine giden bağlantılar oluşturur. Varsayılan olarak, burası Power BI kiracınızın konumudur. Bkz. [Power BI kiracım nerede bulunur?](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
-Giden bağlantıları engelleyen bir güvenlik duvarı varsa, güvenlik duvarını Şirket içi veri ağ geçidinden ilişkili Azure bölgesine giden bağlantılara izin verecek şekilde yapılandırmanız gerekir. Her bir Azure veri merkezinin IP adresi aralıkları hakkında ayrıntılı bilgi için bkz. [Microsoft Azure Datacenter IP Aralıkları](https://www.microsoft.com/download/details.aspx?id=41653).
-> [!NOTE]
-> IP adresi aralıkları zaman içinde değişebilir; bu nedenle, düzenli olarak en son bilgileri indirdiğinizden emin olun. 
-
-## <a name="troubleshooting"></a>Sorun giderme
-
-Bir ağ geçidini yüklerken ve yapılandırırken sorun yaşıyorsanız [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md) makalesini mutlaka inceleyin. Güvenlik duvarınızla ilgili bir sorun yaşadığınızı düşünüyorsanız sorun giderme makalesindeki [güvenlik duvarı veya ara sunucu](service-gateway-onprem-tshoot.md#firewall-or-proxy) bölümüne bakın.
-
-Ara sunucu sorunlarıyla karşılaştığınızı düşünüyorsanız bkz. [Power BI ağ geçitleri için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md).
+1. Bir yerel bilgisayara [Ağ geçidini indirme ve yükleme](/data-integration/gateway/service-gateway-install).
+2. Güvenlik duvarınızı ve diğer ağ gereksinimlerini temel alarak ağ geçidini [Yapılandırma](/data-integration/gateway/service-gateway-app).
+3. Diğer ağ gereksinimlerini yönetebilen [Ağ geçidi yöneticileri ekleme](/data-integration/gateway/service-gateway-manage).
+4. Hata oluştuğunda [Sorun giderme](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Veri kaynağınızı yönetme - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)  
-[Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
-[Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
-[Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
-[Şirket içi veri ağ geçidi ayrıntıları](service-gateway-onprem-indepth.md)  
-[Şirket içi veri ağ geçidi (kişisel mod) - yeni sürüm kişisel ağ geçidi](service-gateway-personal-mode.md)  
-[Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](service-gateway-proxy.md)  
+* [Şirket içi veri ağ geçidini yükleme](/data-integration/gateway/service-gateway-install)
+
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

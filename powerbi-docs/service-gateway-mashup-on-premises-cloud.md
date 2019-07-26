@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272666"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352183"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Şirket içinde ve bulutta veri kaynakları birleştirme ya da ekleme
 
-Şirket içi veri ağ geçidini kullanarak, şirket içi ve bulut veri kaynaklarını birleştirebilir veya aynı sorguya ekleyebilirsiniz. Bu özellik, ayrı sorgular kullanmak zorunda kalmadan birden fazla kaynaktaki verileri karma hale getirmek istediğinizde yararlıdır.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+Şirket içi veri ağ geçidini kullanarak, şirket içi ve bulut veri kaynaklarını birleştirebilir veya aynı sorguya ekleyebilirsiniz. Bu özellik, ayrı sorgular kullanmak zorunda kalmadan birden fazla kaynaktaki verileri birleştirmek istediğinizde yararlıdır.
+
+>[!NOTE]
+>Bu makale, bulut ve şirket içi veri kaynakları tek bir sorguda birleştirilmiş veya eklenmiş veri kümeleri için geçerlidir. Ayrı sorguları içeren (biri şirket içindeki diğeri buluttaki veri kaynağın bağlanan) veri kümeleri için bulut veri kaynağını kullanarak yapılan sorgu, ağ geçidi kullanılarak yürütülmez.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-- Yerel bir bilgisayarda [yüklü ağ geçidi](service-gateway-install.md).
+- Yerel bir bilgisayarda [yüklü ağ geçidi](/data-integration/gateway/service-gateway-install).
 - Şirket içi ve bulut veri kaynaklarını birleştiren sorgularla birlikte bir Power BI Desktop dosyası.
+
+>[!NOTE]
+>Herhangi bir bulut veri kaynağına erişmek için, ağ geçidinin bu veri kaynaklarına erişimi bulunduğundan emin olmanız gerekir.
 
 1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
 
@@ -46,10 +54,11 @@ ms.locfileid: "54272666"
 
    - **Veri kaynağı kimlik bilgileri** altında, bulut veri kaynağı kimlik bilgilerini gerektiği gibi düzenleyin.
 
+    Birleştirmelerin güvenli bir şekilde işlendiğinden emin olmak için hem bulut hem de şirket içi veri kaynaklarınıza yönelik gizlilik düzeylerinin uygun biçimde ayarlandığından emin olun.
+
      ![Veri kümesi ayarları](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. Bulut kimlik bilgileri ayarlandıktan sonra **Şimdi yenile** seçeneğini kullanarak veri kümesini yenileyebilir veya düzenli aralıklarla yenilenecek şekilde zamanlayabilirsiniz.
-
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

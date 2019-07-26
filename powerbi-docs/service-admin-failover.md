@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196923"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270600"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -65,7 +65,7 @@ Power BI hizmeti örnekleri, yük devretmeye neden olan sorun çözüldüğünde
 Kuruluşunuzda kullanılan Power BI çözümü aşağıdaki öğelerden birini içeriyorsa çözümünüzün yüksek kullanılabilirliğini güvence altına almak için bazı önlemler almanız gerekir:
 
 - Kuruluşunuzda Power BI Premium kullanılıyorsa Premium kapasitenin dağıtımınızın yük gereksinimlerini karşılayacak şekilde boyutlandırıldığından emin olmanız gerekir.  [Power BI Premium Planlama ve Dağıtım teknik incelemesi](https://aka.ms/Premium-Capacity-Planning-Deployment) ve [Power BI Premium Kapasite Ölçümleri uygulaması](service-admin-premium-monitor-capacity.md), bu gereksinimi planlamanıza ve karşılamanıza yardımcı olabilir. Yardımcı olmak için Power BI’daki yönetim portalına ve ölçümler uygulamasına düzenli olarak yeni özellikler ekliyoruz.
-- Kuruluşunuz şirket içi veri kaynaklarına Power BI Şirket içi ağ geçidini kullanarak erişiyorsa yüksek kullanılabilirliği desteklemek için ağ geçidini [bu makalede açıklandığı gibi](service-gateway-high-availability-clusters.md) ayarlamanız gerekir. İster içeri aktarma modunda raporları yeniliyor olun ister DirectQuery veya Canlı Bağlantı kullanarak veri veya veri modellerine erişiyor olun bu yönergeleri izleyebilirsiniz.
+- Kuruluşunuz şirket içi veri kaynaklarına şirket içi ağ geçidini kullanarak erişiyorsa yüksek kullanılabilirliği desteklemek için ağ geçidini [bu makalede açıklandığı gibi](/data-integration/gateway/service-gateway-high-availability-clusters) ayarlamanız gerekir. İster içeri aktarma modunda raporları yeniliyor olun ister DirectQuery veya Canlı Bağlantı kullanarak veri veya veri modellerine erişiyor olun bu yönergeleri izleyebilirsiniz.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>Ağ geçitleri yük devretme modunda çalışır mı?
 

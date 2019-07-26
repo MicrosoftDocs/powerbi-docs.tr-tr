@@ -7,119 +7,103 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: de3400989e6d8fe62c03d6b21707559fac0fd7bf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383428"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271451"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Şirket içi veri ağ geçidi (ayrıntılı)
-Kuruluşunuzdaki kullanıcılar şirket içi verilere (erişim yetkisine sahip oldukları) erişebilir ancak Şirket içi veri kaynağınıza bağlanabilmeleri için bir şirket içi veri ağ geçidinin yüklenmiş ve yapılandırılmış olması gerekir. Ağ geçidi, buluttaki bir kullanıcıdan şirket içi veri kaynağınıza gelen ve daha sonra buluta geri giden hızlı ve güvenli arka plan iletişimini kolaylaştırır.
 
-Ağ geçidi, genellikle bir yönetici tarafından yüklenir ve yapılandırılır. Bu işlem için şirket içi sunucularınız ile ilgili özel bilgiler gerekebileceği gibi bazı durumlarda Sunucu Yöneticisi izinleri de gerekli olabilir.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Bu makale, ağ geçidini yüklemeye ve yapılandırmaya ilişkin bir adım adım kılavuz içermez. Bunun için [Şirket içi veri ağ geçidi](service-gateway-onprem.md) makalesine göz atın. Bu makalenin amacı, ağ geçidinin çalışma şekline ilişkin ayrıntılı bir açıklama sunmaktır. Ayrıca, hem Azure Active Directory hem de Analysis Services'deki güvenlik ve kullanıcı adlarının yanı sıra bulut hizmetinin, şirket içi verilerinize güvenle bağlanmak ve bu verileri sorgulamak için bir kullanıcının oturum açtığı e-posta adresini, ağ geçidini ve Active Directory'yi nasıl kullandığı ile ilgili ayrıntılara da yer verilecektir.
+Bilgileri, bu makaleden Power BI ve genel belgelerde yer alan çeşitli makalelere taşıdık. İlgili içerikleri bulmak için her başlığın altındaki bağlantıları izleyin.
 
-<!-- Shared Requirements Include -->
-[!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]
+## <a name="how-the-gateway-works"></a>Ağ geçidi nasıl çalışır?
 
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
+Bkz. [Şirket içi veri ağ geçidi mimarisi](/data-integration/gateway/service-gateway-onprem-indepth).
 
-## <a name="sign-in-account"></a>Oturum açma hesabı
-Kullanıcılar, iş veya okul hesabıyla oturum açar. Bu, kuruluş hesabınızdır. Bir Office 365 teklifine kaydolduysanız ve gerçek iş e-postanızı sağlamadıysanız e-postanız şu şekilde görünebilir: nancy@contoso.onmicrosoft.com. Bir bulut hizmetindeki hesabınız, Azure Active Directory'deki (AAD) bir kiracıda depolanır. Çoğu durumda AAD hesabınızın UPN'si e-posta adresiyle eşleşir.
+## <a name="list-of-available-data-source-types"></a>Kullanılabilir veri kaynağı türlerinin listesi
+
+Bkz. [Veri kaynaklarını yönetme](service-gateway-data-sources.md).
 
 ## <a name="authentication-to-on-premises-data-sources"></a>Şirket içi veri kaynaklarına yönelik kimlik doğrulaması
-Analysis Services hariç olmak üzere ağ geçidinden şirket içi veri kaynaklarına bağlanmak için, depolanan bir kimlik bilgisi kullanılır. Ağ geçidi, bireysel kullanıcılardan bağımsız olarak, depolanan kimlik bilgisini kullanarak bağlanır.
+
+Bkz. [Şirket içi veri kaynaklarına yönelik kimlik doğrulaması](/data-integration/gateway/service-gateway-onprem-indepth#authentication-to-on-premises-data-sources).
 
 ## <a name="authentication-to-a-live-analysis-services-data-source"></a>Canlı bir Analysis Services veri kaynağına yönelik kimlik doğrulaması
-Bir kullanıcı Analysis Services ile her etkileşim kurduğunda, etkin kullanıcı adı ağ geçidi üzerinden şirket içi Analysis Services sunucunuza iletilir. Kullanıcı asıl adı (UPN) (genel olarak, bulutta oturum açmak için kullandığınız e-posta adresi) etkin kullanıcı olarak Analysis Services'e geçireceğimiz addır. UPN, EffectiveUserName bağlantı özelliği ile geçirilir. Bu e-posta adresinin, yerel Active Directory etki alanında tanımlı bir UPN ile eşleşmesi gerekir. UPN, bir Active Directory hesabı özelliğidir. Daha sonra ilgili Windows hesabının, sunucu erişimi kazanmak için bir Analysis Services rolünde olması gerekir. Active Directory'de eşleşme bulunmazsa oturum açma işlemi başarısız olur.
 
-Ayrıca, Analysis Services bu hesaba dayalı filtreleme olanağı sağlayabilir. Fitreleme, rol tabanlı güvenlik veya satır düzeyi güvenlik ile gerçekleşebilir.
+Bkz. [Canlı bir Analysis Services veri kaynağına yönelik kimlik doğrulaması](service-gateway-enterprise-manage-ssas.md#authentication-to-a-live-analysis-services-data-source).
 
 ## <a name="role-based-security"></a>Rol tabanlı güvenlik
-Modeller, kullanıcı rollerine göre güvenlik sağlar. Roller, belirli bir model projesi için SQL Server Veri Araçları - Business Intelligence'ta (SSDT-BI) yazma sırasında veya model dağıtıldıktan sonra SQL Server Management Studio (SSMS) kullanılarak tanımlanır. Roller, Windows kullanıcı adı veya Windows grubuna göre üyeler içerir. Roller, bir kullanıcının modelde sorgulama yapma veya eylem gerçekleştirme izinlerini tanımlar. Çoğu kullanıcı, Okuma izinlerine sahip bir role aittir. Diğer roller; öğeleri işleme, veritabanı işlevlerini yönetme ve diğer rolleri yönetme izinlerine sahip yöneticilere yöneliktir.
+
+Bkz. [Rol tabanlı güvenlik](service-gateway-enterprise-manage-ssas.md#role-based-security).
 
 ## <a name="row-level-security"></a>Satır düzeyi güvenlik
-Satır düzeyi güvenlik, Analysis Services satır düzeyi güvenliğine özgüdür. Modeller dinamik, satır düzeyi güvenlik sağlayabilir. Kullanıcıların ait olduğu en az bir rol bulunan durumların aksine dinamik güvenlik, herhangi bir tablolu model için gerekli değildir. Üst düzeyde ele alındığında dinamik güvenlik, kullanıcıların bir tablodaki belirli bir satıra ilişkin verilere yönelik okuma erişimini tanımlar. Rollere benzer şekilde dinamik satır düzeyi güvenlik, kullanıcıların Windows kullanıcı adlarını kullanır.
 
-Kullanıcının model verileri için sorgulama ve görüntüleme gerçekleştirip gerçekleştiremeyeceği, ilk olarak Windows kullanıcı hesabının üyesi olduğu rollere; ikinci olarak ise dinamik satır düzeyi güvenliğe (yapılandırılmışsa) bağlıdır.
-
-Modellerde rol ve dinamik satır düzeyi güvenlik uygulaması, bu makalede ele alınmamıştır.  MSDN'deki [Roles (SSAS Tabular) (Roller (SSAS Tablosu))](https://msdn.microsoft.com/library/hh213165.aspx) ve [Security Roles (Analysis Services - Multidimensional Data) (Güvenlik Rolleri (Analysis Services - Çok Boyutlu Veriler))](https://msdn.microsoft.com/library/ms174840.aspx) sayfalarını inceleyerek daha fazla bilgi edinebilirsiniz. Tablolu model güvenliğini en ayrıntılı şekilde kavramak için [Securing the Tabular BI Semantic Model (Tablolu BI Anlam Modelinin güvenliğini sağlama) teknik incelemesini](https://msdn.microsoft.com/library/jj127437.aspx) indirin ve okuyun.
+Bkz. [Satır Düzeyi Güvenlik](service-gateway-enterprise-manage-ssas.md#row-level-security).
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory hakkında
-Microsoft bulut hizmetleri, kullanıcıların kimliklerini doğrulamak için [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)'yi kullanır. Azure Active Directory, kullanıcı adlarının ve güvenlik gruplarının bulunduğu kiracıdır. Genellikle, kullanıcının oturum açmak için kullandığı e-posta adresi hesabın UPN'si ile aynıdır.
 
-Yerel Active Directory etki alanımın rolü nedir?
-
-Analysis Services'in, buraya bağlanan bir kullanıcının veri okuma izinlerine sahip bir role ait olup olmadığını belirlemesi için sunucunun, AAD'den ağ geçidine ve daha sonra Analysis Services sunucusuna geçirilen etkin kullanıcı adını dönüştürmesi gerekir. Analysis Services sunucusu, etkin kullanıcı adını bir Windows Active Directory etki alanı denetleyicisine (DC) geçirir. Ardından Active Directory etki alanı denetleyicisi, yerel bir hesapta etkin kullanıcı adının geçerli bir UPN olduğunu doğrular ve ilgili kullanıcının Windows kullanıcı adını Analysis Services sunucusuna döndürür.
-
-EffectiveUserName, etki alanına katılmamış bir Analysis Services sunucusunda kullanılamaz. Herhangi bir oturum açma hatası ile karşılaşılmaması için Analysis Services sunucusunun, bir etki alanına katılmış olması gerekir.
+Bkz. [Azure Active Directory](/data-integration/gateway/service-gateway-onprem-indepth#azure-active-directory).
 
 ## <a name="how-do-i-tell-what-my-upn-is"></a>UPN'mi nasıl bulabilirim?
-UPN'nizin ne olduğunu bilmeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzda aşağıdaki komutu çalıştırabilirsiniz.
 
-    whoami /upn
-
-Sonuç bir e-posta adresi gibi görünür ancak bu, yerel etki alanı hesabınızdaki UPN'dir. Canlı bağlantılar için bir Analysis Services veri kaynağı kullanıyorsanız bu veri kaynağı, ağ geçidinden EffectiveUserName'e geçirilen değer ile eşleşmelidir.
+Bkz. [UPN'mi nasıl bulabilirim?](/data-integration/gateway/service-gateway-onprem-indepth#how-do-i-tell-what-my-upn-is).
 
 ## <a name="mapping-usernames-for-analysis-services-data-sources"></a>Analysis Services veri kaynakları için kullanıcı adlarını eşleme
-Power BI, Analytics Services veri kaynakları için kullanıcı adı eşlemesine olanak sağlar. Power BI'da oturum açmak için kullanılan bir kullanıcı adını, Analysis Services bağlantısında EffectiveUserName için geçirilen adla eşlemeye yönelik kurallar yapılandırabilirsiniz. Kullanıcı adlarını eşleme özelliği, AAD'deki kullanıcı adınız yerel Active Directory etki alanınızdaki bir UPN ile eşleşmediğinde bu sorunu çözmenin etkili bir yoludur. Örneğin, e-posta adresiniz nancy@contoso.onmicrsoft.com ise bunu nancy@contoso.com ile eşleyebilirsiniz ve elde edilen değer, ağ geçidine geçirilir. [Kullanıcı adlarını eşleme](service-gateway-enterprise-manage-ssas.md#map-user-names) makalesini okuyarak konu ile ilgili daha fazla bilgi edinebilirsiniz.
+
+Bkz. [Analysis Services veri kaynakları için kullanıcı adlarını eşleme](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources).
 
 ## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>Bir şirket içi Active Directory hesabını Azure Active Directory ile eşitleme
-Analysis Services canlı bağlantıları kullanacaksanız yerel Active Directory hesaplarınızın Azure Active Directory ile eşleşmesi gerekir. Bunun nedeni, UPN'nin hesaplar arasında eşleşmek zorunda olmasıdır.
 
-Bulut hizmetleri yalnızca Azure Active Directory'deki hesapları tanır. Yerel Active Directory etki alanınıza bir hesap ekleseniz de bu hesap AAD'de mevcut değilse kullanılamaz. Yerel Active Directory hesaplarınızı Azure Active Directory ile eşlemeye yönelik farklı yöntemler bulunmaktadır.
-
-1. Hesapları Azure Active Directory'ye el ile ekleyebilirsiniz.
-   
-   Azure portalı veya Microsoft 365 yönetim merkezinde bir hesap oluşturabilirsiniz. Böylece hesap adı, yerel Active Directory hesabının UPN’si ile eşleşir.
-2. Yerel hesapları Azure Active Directory kiracınız ile eşitlemek için [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) aracını kullanabilirsiniz.
-   
-   Azure AD Connect aracı, parola karma eşitlemesi, geçişli kimlik doğrulama ve federasyon gibi dizin eşitleme ve kimlik doğrulaması ayarlamaya yönelik seçenekler sağlar. Bir kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz bu yapılandırmayı gerçekleştirmesi için BT yöneticinizle iletişime geçmeniz gerekir.
-
-Azure AD Connect, UPN'nin AAD ile yerel Active Directory etki alanınız arasında eşleşmesini sağlar.
-
-> [!NOTE]
-> Hesapların Azure AD Connect aracı ile eşitlenmesi, AAD kiracınızda yeni hesaplar oluşturur.
-> 
-> 
-
-## <a name="now-this-is-where-the-gateway-comes-in"></a>Bu noktada ağ geçidi devreye girer
-Ağ geçidi, bulut ile şirket içi sunucunuz arasında bir köprü işlevi görür. Bulut ile ağ geçidi arasındaki veri aktarımının güvenliği [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) tarafından sağlanır. Service Bus, ağ geçidinde bir giden bağlantı yoluyla bulut ile şirket içi sunucunuz arasında güvenli bir kanal oluşturur.  Şirket içi güvenlik duvarınızda açmanız gereken herhangi bir gelen bağlantı yoktur. Power BI Service Bus’ı sizin için yönetir, dolayısıyla ek maliyet veya yapılandırma adımı gerekmez.
-
-Bir Analysis Services veri kaynağınız varsa ağ geçidini, Analysis Services sunucunuz ile aynı ormana/etki alanına katılmış bir bilgisayara yüklemeniz gerekir.
-
-Ağ geçidi sunucuya ne kadar yakın olursa bağlantı da o kadar hızlı olacaktır. Ağ geçidi ile sunucu arasındaki ağ gecikmesini önlemenin en iyi yolu, ağ geçidini veri kaynağı ile aynı sunucuya almaktır.
+Bkz. [Bir şirket içi Active Directory hesabını Azure Active Directory ile eşitleme](/data-integration/gateway/service-gateway-onprem-indepth#synchronize-an-on-premises-active-directory-with-azure-active-directory).
 
 ## <a name="what-to-do-next"></a>Sırada ne var?
-Ağ geçidini yükledikten sonra bu ağ geçidi için veri kaynakları oluşturmanız gerekir. Veri kaynaklarını **Ağ geçitlerini yönet** ekranından ekleyebilirsiniz. Daha fazla bilgi için veri kaynaklarını yönetme konulu makalelere başvurun.
 
-[Veri kaynağınızı yönetme - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+Veri kaynaklarıyla ilgili makalelere bakın:
+
+[Veri kaynaklarını yönetme](service-gateway-data-sources.md)
+[Veri kaynaklarını yönetme - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
 [Manage your data source - Import/Scheduled refresh (Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme)](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
 ## <a name="where-things-can-go-wrong"></a>Olası sorunlar
-Bazen ağ geçidini yükleme işlemi başarısız olur. Ağ geçidi sorunsuz yüklenmiş gibi görünse de hizmet, ağ geçidiyle çalışamıyor olabilir. Çoğu durumda bu, ağ geçidinin, veri kaynağında oturum açmak için kimlik bilgisi olarak sağladığı parola gibi basit bir şeyden kaynaklanır.
 
-Diğer bir neden de kullanıcıların oturum açarken kullandığı e-posta adresi türü ile ilgili sorunlar veya Analysis Services'in bir etkin kullanıcı adını çözümleyememesi olabilir. Birbirine güvenen birden çok etki alanınız varsa ve ağ geçidiniz ile Analysis Services farklı etki alanlarında yer alıyorsa bu durum da bazı sorunlara neden olabilir.
+Bkz. [Şirket içi veri ağ geçidinde sorun giderme](/data-integration/gateway/service-gateway-tshoot) ve [Ağ geçitlerinde sorun giderme - Power BI](service-gateway-onprem-tshoot.md).
 
-Ağ geçidiyle ilgili sorunları gidermeye yönelik adımlar bu makalede değil, başka bir makalede ele alınmıştır: [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md). Herhangi bir sorunla karşılaşmayacağınızı umuyoruz. Ancak, karşılaşmanız halinde tüm bu işlemlerin nasıl gerçekleştiğini anlamanız ve sorun giderme makalesi size yardımcı olacaktır.
+## <a name="sign-in-account"></a>Oturum açma hesabı
 
-<!-- Account and Port information -->
-[!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
+Bkz. [Oturum açma hesabı](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account).
+
+## <a name="windows-service-account"></a>Windows Hizmet hesabı
+
+Bkz. [Şirket içi veri ağ geçidi hizmet hesabını değiştirme](/data-integration/gateway/service-gateway-service-account).
+
+## <a name="ports"></a>Bağlantı noktaları
+
+Bkz [Bağlantı noktaları](/data-integration/gateway/service-gateway-communication#ports).
+
+## <a name="forcing-https-communication-with-azure-service-bus"></a>Azure Service Bus ile HTTPS iletişimini zorlama
+
+Bkz. [Azure Service Bus ile HTTPS iletişimini zorlama](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
+
+## <a name="support-for-tls-12"></a>TLS 1.2 Desteği
+
+Bkz. [Ağ geçidi trafiği için TLS 1.2](/data-integration/gateway/service-gateway-communication#tls-12-for-gateway-traffic).
+
+## <a name="how-to-restart-the-gateway"></a>Ağ geçidini yeniden başlatma
+
+Bkz. [Ağ geçidini yeniden başlatma](/data-integration/gateway/service-gateway-restart).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
-[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+[Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

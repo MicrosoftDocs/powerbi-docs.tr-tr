@@ -8,39 +8,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
-ms.translationtype: MT
+ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448296"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271862"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 
-Şirket içi veri ağ geçidinizi Kerberos kısıtlanmış temsil veya Security Assertion Markup Language (SAML) ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi SSO bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery’den yararlanarak kurar.
+Şirket içi veri ağ geçidinizi Kerberos kısıtlanmış temsili veya Security Assertion Markup Language (SAML) ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi SSO bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery’den yararlanarak kurar.
 
 Şu an için aşağıdaki veri kaynakları desteklenmektedir:
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) ve [SAML](service-gateway-sso-saml.md))
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
-* SSO için olası ayrıca [diğer veri kaynakları](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) data gateway kullanılarak olmadan
 
-Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında canlı olarak sorgu yürütülmesine neden olabilir.  Veri kaynağı için SSO yapılandırıldığında, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her bir kullanıcı tam olarak, temel alınan veri kaynağında ilgili izinlere sahip olduğu verileri görür. Çoklu oturum açma yapılandırılmış olduğunda, paylaşılan verilerin farklı kullanıcılar için önbelleğe alınması söz konusu değildir.
+Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında canlı olarak sorgu yürütülmesine neden olabilir. Veri kaynağı için SSO yapılandırıldığında, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her bir kullanıcı tam olarak, temel alınan veri kaynağında ilgili izinlere sahip olduğu verileri görür. Çoklu oturum açma yapılandırılmış olduğunda, paylaşılan verilerin farklı kullanıcılar için önbelleğe alınması söz konusu değildir.
 
 ## <a name="query-steps-when-running-sso"></a>SSO çalıştırırken gerçekleştirilen sorgu adımları
 
 SSO ile çalıştırılan bir sorgu, aşağıdaki diyagramda da gösterildiği gibi üç adımdan oluşur.
 
 ![SSO sorgu adımları](media/service-gateway-sso-overview/sso-query-steps.png)
-
-> [!NOTE]
-> Oracle için SSO henüz mevcut olmasa da şu anda geliştirme aşamasındadır ve yakında kullanıma sunulacaktır.
 
 Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
 
@@ -59,4 +55,5 @@ Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
 SSO ile ilgili temel bilgileri kavradığınıza göre Kerberos ve SAML hakkında daha ayrıntılı bilgilere göz atabilirsiniz:
 
 * [Çoklu oturum açma (SSO) - Kerberos](service-gateway-sso-kerberos.md)
+* [Çoklu oturum açma (SSO) - Kerberos - kaynak tabanlı](service-gateway-sso-kerberos-resource.md)
 * [Çoklu oturum açma (SSO) - SAML](service-gateway-sso-saml.md)

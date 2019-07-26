@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809264"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325138"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -60,14 +60,14 @@ Standart bir yüklemede, ağ geçidi bir makine yerel hizmet hesabı (özel olar
 
 ![Hizmet hesabı ekran görüntüsü](media/service-gateway-sso-kerberos/service-account.png)
 
-Azure Active Directory (Azure AD) örneğiniz (Azure AD DirSync/Connect kullanılarak) yerel Active Directory örneğiniz ile eşitlenmediği sürece, Kerberos kısıtlanmış temsilinin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Etki alanı hesabına geçmek için bu makalenin [Ağ geçidini bir etki alanı hesabına geçirme](#switch-the-gateway-to-a-domain-account) bölümüne bakın.
+Azure Active Directory (Azure AD) örneğiniz (Azure AD DirSync/Connect kullanılarak) yerel Active Directory örneğiniz ile eşitlenmediği sürece, Kerberos kısıtlanmış temsilinin etkinleştirilebilmesi için ağ geçidinin bir etki alanı hesabı olarak çalıştırılması gerekir. Bir etki alanı hesabına geçmek için bkz. [Ağ geçidi hizmeti hesabını değiştirme](/data-integration/gateway/service-gateway-service-account).
 
 > [!NOTE]
 > Azure AD Connect yapılandırıldıysa ve kullanıcı hesapları eşitlendiyse, ağ geçidi hizmetinin çalışma zamanında yerel Azure AD aramaları yapması gerekmez. Ağ geçidi hizmeti için yerel hizmet SID'sini kullanabilirsiniz (etki alanı hesabı gerektirmek yerine). Bu belgede açıklanan Kerberos kısıtlanmış temsili yapılandırmasına ilişkin adımlar, söz konusu yapılandırmaya yönelik olanlarla aynıdır. Bunlar, etki alanı hesabının yerine Azure AD’deki ağ geçidinin bilgisayar nesnesine uygulanır.
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>3\. Önkoşul: SPN'leri (SetSPN) ve Kerberos kısıtlanmış temsili ayarlarını yapılandırmak için etki alanı yöneticisi haklarını alma
 
-Bir etki alanı yöneticisinin SPN'leri ve Kerberos temsili ayarlarını yapılandırma haklarını (etki alanı yöneticisi hakları gerektirmeden) geçici veya kalıcı olarak başka bir kişiye vermesi önerilmez. Aşağıdaki bölümde, önerilen yapılandırma adımlarını daha ayrıntılı bir biçimde inceleyeceğiz.
+Bir etki alanı yöneticisinin SPN'leri ve Kerberos temsili ayarlarını yapılandırma haklarını (etki alanı yöneticisi hakları gerektirmeden) geçici veya kalıcı olarak başka bir kişiye vermesini önermiyoruz. Aşağıdaki bölümde, önerilen yapılandırma adımlarını daha ayrıntılı bir biçimde inceleyeceğiz.
 
 ## <a name="configure-kerberos-constrained-delegation-for-the-gateway-and-data-source"></a>Ağ geçidi ve veri kaynağı için Kerberos kısıtlanmış temsilini yapılandırma
 
@@ -99,7 +99,7 @@ Ağ geçidi hizmet hesabındaki temsilci seçme ayarları ikinci yapılandırma 
 
 Protokol geçişi ile Kerberos kısıtlanmış temsilini yapılandırmamız gerekir. Kısıtlanmış temsilde, temsilci olarak seçeceğiniz hizmetleri açıkça belirtmeniz gerekir. Örneğin, ağ geçidi hizmet hesabından yapılan temsilci seçme çağrılarını yalnızca SQL Server veya SAP HANA sunucusu kabul eder.
 
-Bu bölümde, temel alınan veri kaynaklarınız (SQL Server, SAP HANA, Teradata ve Spark vb.) için zaten SPN'ler yapılandırmış olduğunuz varsayılır. Söz konusu veri kaynağı sunucusu SPN'lerinin nasıl yapılandırılacağını öğrenmek için ilgili veritabanı sunucusuna yönelik teknik belgelere bakın. [What SPN does your app require?](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/) (Uygulamanız hangi SPN’yi gerektiriyor?) blog gönderisine de göz atabilirsiniz.
+Bu bölümde, temel alınan veri kaynaklarınız (SQL Server, SAP HANA, Teradata ve Spark vb.) için zaten SPN'ler yapılandırmış olduğunuz varsayılır. Söz konusu veri kaynağı sunucusu SPN'lerinin nasıl yapılandırılacağını öğrenmek için ilgili veritabanı sunucusuna yönelik teknik belgelere bakın. Başlığı da (*Uygulamanız hangi SPN’yi gerektiriyor*) [Kerberos Denetim Listem](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) blog gönderisinde görebilirsiniz.
 
 Sıradaki adımlar için bir ağ geçidi makinesi ve SQL Server çalıştıran bir veritabanı olmak üzere iki makine içeren bir şirket içi ortamını kullanacağız. Bu örnek için ayrıca şu ayarların ve adların geçerli olduğunu varsayacağız:
 
@@ -118,21 +118,21 @@ Temsilci seçme ayarlarını yapılandırmak için şunları yapabilirsiniz:
 
 4. **Bu bilgisayara yalnızca belirtilen hizmetlere temsilci seçmek için güven** > **Herhangi bir kimlik doğrulama protokolünü kullan** seçeneğini belirleyin.
 
-6. **Bu hesabın temsilci seçilen kimlik bilgilerini sunacağı hizmetler** bölümünde **Ekle**'yi seçin.
+5. **Bu hesabın temsilci seçilen kimlik bilgilerini sunacağı hizmetler** bölümünde **Ekle**'yi seçin.
 
-7. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
+6. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
 
-8. SQL Server veri kaynağı için hizmet hesabını (**PBIEgwTest\SQLService**) girin ve **Tamam**'ı seçin.
+7. Veri kaynağı için hizmet hesabını girin. Örneğin, bir SQL Server veri kaynağı **PBIEgwTest\SQLService** gibi bir hizmet hesabına sahip olabilir. Hesabınız eklendikten sonra **Tamam**’ı seçin.
 
-9. Veritabanı sunucusu için oluşturduğunuz SPN'yi seçin. Örneğimizde SPN, **MSSQLSvc** ile başlar. Veritabanı hizmeti için hem FQDN hem de NetBIOS SPN'sini eklediyseniz her ikisini de seçin. Yalnızca birini görüyor olabilirsiniz.
+8. Veritabanı sunucusu için oluşturduğunuz SPN'yi seçin. Örneğimizde SPN, **MSSQLSvc** ile başlar. Veritabanı hizmeti için hem FQDN hem de NetBIOS SPN'sini eklediyseniz her ikisini de seçin. Yalnızca birini görüyor olabilirsiniz.
 
-10. **Tamam**'ı seçin. SPN'nin listede görünmesi gerekir.
+9. **Tamam**'ı seçin. SPN'nin listede görünmesi gerekir.
 
     İsterseniz **Genişletilmiş**'i seçerek hem FQDN hem de NetBIOS SPN'sini listede görebilirsiniz. **Genişletilmiş**'i seçtiyseniz iletişim kutusu aşağıdakine benzer şekilde görünür. **Tamam**'ı seçin.
 
     ![Ağ Geçidi Bağlayıcısı Özellikleri İletişim Kutusu Ekran Görüntüsü](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
-Son olarak, ağ geçidi hizmetinin çalıştırıldığı makinede (örneğimizde **PBIEgwTestGW**), ağ geçidi hizmet hesabına **Kimlik doğrulamasından sonra istemcinin özelliklerini al** yerel ilkesini uygulamanız gerekir. Bunu gerçekleştirmek ve doğrulamak için Yerel Grup İlkesi Düzenleyicisi'ni (**gpedit**) kullanmanız gerekir.
+Son olarak, ağ geçidi hizmetinin çalıştırıldığı makinede (örneğimizde **PBIEgwTestGW**), ağ geçidi hizmet hesabına **Kimlik doğrulamasından sonra istemcinin özelliklerini al** ve **İşletim sisteminin bir parçası olarak davran (SeTcbPrivilege)** yerel ilkesini uygulamanız gerekir. Bu yapılandırmayı gerçekleştirmek ve doğrulamak için Yerel Grup İlkesi Düzenleyicisi'ni (**gpedit**) kullanmanız gerekir.
 
 1. Ağ geçidi makinesinde şunu çalıştırın: *gpedit.msc*.
 
@@ -170,40 +170,26 @@ Tüm yapılandırma adımları tamamlandıktan sonra, veri kaynağını yapılan
 
 Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak Kerberos ile farklı yapılandırmalar da söz konusu olabilir. Rapor hala yüklenmiyorsa sorunun daha ayrıntılı bir şekilde incelenmesi için etki alanı yöneticinizle iletişime geçin.
 
-## <a name="switch-the-gateway-to-a-domain-account"></a>Ağ geçidini bir etki alanı hesabına geçirme
-
-Gerekirse, **Şirket içi veri ağ geçidi** kullanıcı arabirimini kullanarak ağ geçidini, yerel bir hizmet hesabı yerine etki alanı hesabı olarak çalıştırılacak şekilde değiştirebilirsiniz. Aşağıdaki adımları uygulayın:
-
-1. **Şirket içi veri ağ geçidi** yapılandırma aracını açın.
-
-   ![Ağ geçidi masaüstü uygulamasını çalıştırma seçeneği ekran görüntüsü](media/service-gateway-sso-kerberos/gateway-desktop-app.png)
-
-2. Ana sayfadaki **Oturum aç** düğmesini seçin ve Power BI hesabınızla oturum açın.
-
-3. Oturum açma işlemi tamamlandıktan sonra **Hizmet Ayarları** sekmesini seçin.
-
-4. **Hesabı değiştir** seçeneğini belirleyerek destekli kılavuzu başlatın.
-
-   ![Hesap değiştir seçeneği vurgulanmış olarak şirket içi veri ağ geçidi masaüstü uygulaması ekran görüntüsü](media/service-gateway-sso-kerberos/change-account.png)
-
 ## <a name="configure-sap-bw-for-sso"></a>SSO için SAP BW’yu Yapılandırma
 
 Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre artık SAP Business Warehouse (SAP BW) ortamınız için SSO yapılandırması gerçekleştirebilirsiniz. Aşağıdaki adımlarda bu makalenin önceki bölümlerinde anlatılan şekilde [Kerberos kısıtlanmış temsili için hazırlandığınız](#prepare-for-kerberos-constrained-delegation) kabul edilmektedir.
 
 Bu kılavuz mümkün olduğunca kapsamlı olmaya çalışır. Bu adımlardan bazılarını önceden tamamladıysanız atlayabilirsiniz. Örneğin, SAP BW sunucunuz için zaten bir hizmet kullanıcısı oluşturmuş olabilir ve kullanıcıya bir SPN eşlemiş veya `gsskrb5` kitaplığını zaten yüklemiş olabilirsiniz.
 
-### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>İstemci makinelerinde ve SAP BW sunucusunda gsskrb5 kurulumu
+### <a name="set-up-gsskrb5gx64krb5-on-client-machines-and-the-sap-bw-server"></a>İstemci makinelerinde ve SAP BW sunucusunda gsskrb5/gx64krb5 kurulumu
 
 > [!NOTE]
-> `gsskrb5` artık SAP tarafından etkin olarak desteklenmiyor. Daha fazla bilgi için bkz. [SAP Notu 352295](https://launchpad.support.sap.com/#/notes/352295). `gsskrb5`'in veri ağ geçidinden SAP BW İleti Sunucularına yönelik SSO bağlantılarına izin vermediğine de dikkat edin. Yalnızca SAP BW Application Server’larla bağlantı kurulabilir. Ağ geçidi üzerinden bir SSO bağlantısını tamamlamak için `gsskrb5`, hem istemci hem de sunucu tarafından kullanımda olmalıdır. Artık SAP BW için Ortak Şifreleme Kitaplığı'nı (sapcrypto) destekliyoruz.
+> `gsskrb5/gx64krb5` artık SAP tarafından etkin olarak desteklenmiyor. Daha fazla bilgi için bkz. [SAP Notu 352295](https://launchpad.support.sap.com/#/notes/352295). `gsskrb5/gx64krb5`'in veri ağ geçidinden SAP BW İleti Sunucularına yönelik SSO bağlantılarına izin vermediğine de dikkat edin. Yalnızca SAP BW Application Server’larla bağlantı kurulabilir. sapcrypto/CommonCryptoLib artık kurulum işlemini basitleştiren SNC Kitaplığı olarak kullanılabilir. 
 
-1. `gsskrb5` - `gx64krb5`’i [SAP Note 2115486](https://launchpad.support.sap.com/) sayfasından indirin (SAP s-user gerekir). gsskrb5.dll ve gx64krb5.dll dosyalarının en az 1.0.11.x sürümüne sahip olduğunuzdan emin olun.
+Ağ geçidi üzerinden bir SSO bağlantısını tamamlamak için `gsskrb5`, hem istemci hem de sunucu tarafından kullanımda olmalıdır.
+
+1. [SAP Note 2115486](https://launchpad.support.sap.com/)’dan istediğiniz bit genişliğine bağlı olarak `gsskrb5` veya `gx64krb5` öğesini indirin (SAP s-user gerekir). En az 1.0.11.x sürümüne sahip olduğunuzdan emin olun.
 
 1. Kitaplığı ağ geçidi makinenizde ağ geçidi örneğinizin erişebileceği bir konuma yerleştirin (SAP Logon kullanarak SSO bağlantısını test etmek istiyorsanız SAP GUI tarafından da erişilebilir olması gerekir).
 
 1. Bir kopyasını da SAP BW sunucusu makinenize, SAP BW sunucusu tarafından erişilebilecek bir konuma yerleştirin.
 
-1. İstemci ve sunucu makinelerinde `SNC\_LIB` ve `SNC\_LIB\_64` ortam değişkenlerini sırasıyla gx64krb5.dll ve gx64krb5.dll dosyalarının konumlarını gösterecek şekilde ayarlayın.
+1. İstemci ve sunucu makinelerinde `SNC_LIB` veya `SNC_LIB_64` ortam değişkenlerini sırasıyla gsskrb5.dll veya gx64krb5.dll dosyalarının konumunu gösterecek şekilde ayarlayın. Bu kitaplıkların ikisine birden değil, yalnızca birine ihtiyacınız olduğunu unutmayın.
 
 ### <a name="create-a-sap-bw-service-user-and-enable-snc-communication"></a>SAP BW hizmeti kullanıcısı oluşturma ve SNC iletişimini etkinleştirme
 
@@ -262,7 +248,7 @@ Bir Active Directory kullanıcısını bir SAP BW Application Server kullanıcı
 
     ![SAP BW User maintenance (Kullanıcı yönetimi) ekranı ekran görüntüsü](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. **SNC** sekmesini seçin. SNC name (SNC adı) giriş kutusuna p:\<Active Directory kullanıcınız\>@\<etki alanınız\> girin. Active Directory kullanıcısının UPN değerinden önce p: ifadesinin kullanılması gerektiğini unutmayın. Belirttiğiniz Active Directory kullanıcısının SAP BW Application Server için SSO erişimini etkinleştirmek istediğiniz kişiye veya kuruluşa ait olması gerekir. Örneğin [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) adlı kullanıcı için SSO erişimini etkinleştirmek istiyorsanız p:testuser@TESTDOMAIN.COM yazın.
+1. **SNC** sekmesini seçin. SNC name (SNC adı) giriş kutusuna p:\<Active Directory kullanıcınız\>@\<etki alanınız\> girin. Active Directory kullanıcısının UPN değerinden önce p: ifadesinin kullanılması gerektiğini unutmayın. Belirttiğiniz Active Directory kullanıcısının SAP BW Application Server için SSO erişimini etkinleştirmek istediğiniz kişiye veya kuruluşa ait olması gerekir. Örneğin testuser\@TESTDOMAIN.COM adlı kullanıcı için SSO erişimini etkinleştirmek istiyorsanız p:testuser@TESTDOMAIN.COM yazın.
 
     ![SAP BW Maintain users (Kullanıcıları yönet) ekranı ekran görüntüsü](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -290,17 +276,17 @@ Sunucuda oturum açabildiğinizi doğrulayın. SSO aracılığıyla, SSO erişim
 
 Herhangi bir sorunla karşılaşırsanız aşağıdaki gsskrb5 yüklemesinde ve SAP Logon’dan SSO bağlantılarında sorun giderme adımlarını izleyin.
 
-- Sunucu günlüklerinin (sunucu makinesinde …work\dev\_w0) görüntülenmesi, gsskrb5 kurulum adımlarını tamamlarken karşılaştığınız hataları giderme konusunda yardımcı olabilir. Bu, özellikle profil parametreleri değiştirildikten sonra SAP BW sunucusu başlamazsa geçerlidir.
+* Sunucu günlüklerinin (sunucu makinesinde …work\dev\_w0) görüntülenmesi, gsskrb5 kurulum adımlarını tamamlarken karşılaştığınız hataları giderme konusunda yardımcı olabilir. Bu, özellikle profil parametreleri değiştirildikten sonra SAP BW sunucusu başlamazsa geçerlidir.
 
-- Oturum açma hatası nedeniyle SAP BW hizmetini başlatamıyorsanız SAP BW "başlatma" kullanıcısı ayarlarında yanlış parola girmiş olabilirsiniz. Active Directory ortamınızdaki bir makinede SAP BW hizmet kullanıcısı olarak oturum açarak parolayı doğrulayın.
+* Oturum açma hatası nedeniyle SAP BW hizmetini başlatamıyorsanız SAP BW "başlatma" kullanıcısı ayarlarında yanlış parola girmiş olabilirsiniz. Active Directory ortamınızdaki bir makinede SAP BW hizmet kullanıcısı olarak oturum açarak parolayı doğrulayın.
 
-- Sunucunun başlatılmasını önleyen SQL kimlik bilgileriyle ilgili hata alıyorsanız hizmet kullanıcısına SAP BW veritabanına erişim izni verdiğinizi doğrulayın.
+* Sunucunun başlatılmasını önleyen SQL kimlik bilgileriyle ilgili hata alıyorsanız hizmet kullanıcısına SAP BW veritabanına erişim izni verdiğinizi doğrulayın.
 
-- Şu iletiyi alabilirsiniz: “(GSS-API) Belirtilen hedef bilinmiyor veya erişilemiyor.” Bu genellikle yanlış SNC adını belirttiğiniz anlamına gelir. İstemci uygulamasında "p:CN=" değil yalnızca "p:" ve hizmet kullanıcısının UPN bilgisini kullandığınızdan emin olun.
+* Şu iletiyi alabilirsiniz: “(GSS-API) Belirtilen hedef bilinmiyor veya erişilemiyor.” Bu genellikle yanlış SNC adını belirttiğiniz anlamına gelir. İstemci uygulamasında "p:CN=" değil yalnızca "p:" ve hizmet kullanıcısının UPN bilgisini kullandığınızdan emin olun.
 
-- Şu iletiyi alabilirsiniz: “(GSS-API) Geçersiz bir ad sağlandı.” Sunucunun SNC kimlik profili parametresindeki değerde "p:" ifadesinin bulunduğundan emin olun.
+* Şu iletiyi alabilirsiniz: “(GSS-API) Geçersiz bir ad sağlandı.” Sunucunun SNC kimlik profili parametresindeki değerde "p:" ifadesinin bulunduğundan emin olun.
 
-- Şu iletiyi alabilirsiniz: "(SNC hatası) Belirtilen modül bulunamadı." Bu durum, genellikle `gsskrb5.dll/gx64krb5.dll` erişim için yükseltilmiş ayrıcalıklar (yönetici hakları) gerektiren bir konuma yerleştirildiğinde oluşur.
+* Şu iletiyi alabilirsiniz: "(SNC hatası) Belirtilen modül bulunamadı." Bu durum, genellikle `gsskrb5.dll/gx64krb5.dll` erişim için yükseltilmiş ayrıcalıklar (yönetici hakları) gerektiren bir konuma yerleştirildiğinde oluşur.
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Ağ geçidi makinesine kayıt defteri girişleri ekleme
 
@@ -356,13 +342,13 @@ Azure AD Connect yapılandırılmamışsa, bir Azure AD kullanıcısına eşleme
 
 Bu makalenin önceki bölümlerinde yer alan [rapor çalıştırma](#run-a-power-bi-report) yönergelerini izleyerek SAP BW veri kaynağını ağ geçidinize ekleyin.
 
-1. Veri kaynağı yapılandırma penceresinde Application Server’ın **Ana bilgisayar adı**, **Sistem Numarası** ve **İstemci Kimliği** bilgilerini Power BI Desktop'tan SAP BW sunucusunda oturum açar gibi girin. **Kimlik Doğrulaması Yöntemi** olarak **Windows**'u seçin.
+1. Veri kaynağı yapılandırma penceresinde Application Server’ın **Ana bilgisayar adı**, **Sistem Numarası** ve **İstemci Kimliği** bilgilerini Power BI Desktop'tan SAP BW sunucusunda oturum açar gibi girin.
 
 1. **SNC İş Ortağı Adı** alanına p:\<SAP BW hizmet kullanıcınıza eşlediğiniz SPN\> girin. Örneğin, SPN SAP/BWServiceUser@MYDOMAIN.COM ise **SNC İş Ortağı Adı** alanına p:SAP/BWServiceUser@MYDOMAIN.COM girmeniz gerekir.
 
-1. SNC Kitaplığı alanında **SNC\_LIB** veya **SNC\_LIB\_64** değerini seçin.
+1. SNC Kitaplığı için **SNC_LIB** veya **SNC_LIB_64** değerini seçin. 32-bit senaryolar için **SNC_LIB**’i, 64 bit senaryolar için **SNC_LIB_64**’ü seçin. Bit genişliğinize bağlı olarak, bu ortam değişkenlerinin sırasıyla gsskrb5.dll veya gx64krb5.dll dosyalarının konumunu gösterdiğinden emin olun.
 
-1. **Kullanıcı adı** ve **Parola**, SSO ile SAP BW sunucusunda oturum açma iznine sahip Active Directory kullanıcısının kullanıcı adı ve parolası olmalıdır. Başka bir deyişle bunlar, SU01 işlemi aracılığıyla SAP BW kullanıcısına eşlenen bir Active Directory kullanıcısına ait olmalıdır. Bu kimlik bilgileri yalnızca **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** kutusu işaretli olmadığında kullanılır.
+1. **Kimlik Doğrulaması Yöntemi** için **Windows**’u seçtiyseniz, **Kullanıcı Adı** ve **Parola**, SSO ile SAP BW sunucusunda oturum açma iznine sahip Active Directory kullanıcısının kullanıcı adı ve parolası olmalıdır. Başka bir deyişle bunlar, SU01 işlemi aracılığıyla SAP BW kullanıcısına eşlenen bir Active Directory kullanıcısına ait olmalıdır. **Temel**’i seçtiyseniz, **Kullanıcı Adı** ve **Parola** sırasıyla bir SAP BW kullanıcısının kullanıcı adına ve parolasına ayarlanmalıdır. Bu kimlik bilgileri yalnızca **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** kutusu işaretli olmadığında kullanılır.
 
 1. **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** kutusunu ve **Uygula**'yı seçin. Bağlantı testi başarılı olmazsa önceki kurulum ve yapılandırma adımlarının doğru şekilde tamamlandığından emin olun.
 
@@ -396,7 +382,7 @@ Sonuç olarak, ağ geçidi kaynak kullanıcının kimliğine düzgün bir şekil
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
+* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)

@@ -1,5 +1,5 @@
 ---
-title: Filtreler ve vurgulama Power BI raporları
+title: Power BI raporlarındaki filtreler ve vurgulama
 description: Power BI raporlarındaki filtreler ve vurgulama hakkında
 author: maggiesMSFT
 manager: kfile
@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8084b8dbbc27c856633d84c6628727dcd426964d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187549"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342167"
 ---
-# <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtreler ve vurgulama Power BI raporları
- Bu makalede, filtreleme ve vurgulama Power BI hizmetinde tanıtılmaktadır. Power BI Desktop ile sunulan deneyim de neredeyse aynıdır. *Filtreler*, odaklanmak istedikleriniz dışındaki tüm verileri kaldırır. *Vurgulama* filtreleme değildir. Veri kaldırmaz, ancak bunun yerine görünen verilerin bir alt kümesini vurgular. Vurgulanan olmayan veriler görünür ancak devre dışı kalır.
+# <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI raporlarındaki filtreler ve vurgulama
+ Bu makalede, Power BI hizmetindeki filtreleme ve vurgulama özellikleri tanıtılmaktadır. Power BI Desktop ile sunulan deneyim de neredeyse aynıdır. *Filtreler*, odaklanmak istedikleriniz dışındaki tüm verileri kaldırır. *Vurgulama*, filtreleme değildir. Bu işlev verileri kaldırmaz, bunun yerine görünen verilerin bir alt kümesini vurgular. Vurgulanmayan veriler görünür kalır ancak gridir.
 
 Power BI'da raporları çok çeşitli yollarla filtreleyebilir ve vurgulayabilirsiniz. Tüm bu bilgilerin tek bir makalede ele alınması karmaşıklık yaratacağından tüm konuyu aşağıdaki şekilde bölümlere ayırmayı tercih ettik:
 
-* Şu anda giriş filtreler ve vurgulama, makaleyi okuduğunuz.
-* Nasıl yapılır [oluşturma ve düzenleme Görünümü'nde filtreleri kullanma](power-bi-report-add-filter.md) Power BI Desktop ve Power BI hizmeti raporlarındaki. Düzenleme izinlerine sahip olmanız halinde raporlarda filtre oluşturabilir, bunları değiştirebilir ve silebilirsiniz.
-* Nasıl görselleri [filtreleyebilir ve vurgulayabilirsiniz sizinle paylaşılan bir raporda](consumer/end-user-interactions.md), rapor Power BI hizmetinde Okuma Görünümü. Yapabilecekleriniz daha sınırlıdır ancak yine de çok çeşitli filtreleme ve vurgulama seçeneklerine sahip olursunuz.  
-* İlişkin ayrıntılı bir tur [filtre ve vurgulama düzenleme Görünümü'nde kullanılabilir denetimleri](power-bi-report-add-filter.md) Power BI Desktop ve Power BI hizmetinde. Makale, bir tarih ve saat, sayısal, gibi filtre türleri ilişkin kapsamlı bir bakış ve metin alır. Ayrıca, temel ve Gelişmiş Seçenekler arasındaki farkları da kapsar.
+* Filtrelere ve vurgulamaya giriş (şu anda okuduğunuz makale).
+* Power BI Desktop ve Power BI hizmetindeki raporlarda [Düzenleme görünümünde filtre oluşturma ve kullanma](power-bi-report-add-filter.md) Düzenleme izinlerine sahip olmanız halinde raporlarda filtre oluşturabilir, bunları değiştirebilir ve silebilirsiniz.
+* Power BI hizmetindeki rapor Okuma görünümünde, [bir rapordaki filtre ve vurgulama görselleri sizinle nasıl paylaşılır](consumer/end-user-interactions.md). Yapabilecekleriniz daha sınırlıdır ancak yine de çok çeşitli filtreleme ve vurgulama seçeneklerine sahip olursunuz.  
+* Power BI Desktop ve Power BI hizmetinde [Düzenleme görünümünde kullanılabilir olan filtreleme ve vurgulama denetimlerinin](power-bi-report-add-filter.md) ayrıntılı turu. Bu makale, tarih ve saat, sayısal ve metin gibi filtre türlerini derinlemesine inceler. Temel ve gelişmiş seçenekler arasındaki farkları da ele alır.
 * Filtrelerin ve vurgulamanın varsayılan olarak nasıl çalıştığını öğrendikten sonra [bir sayfadaki görselleştirmelerin birbirini filtreleme ve vurgulama şeklini nasıl değiştireceğinizi öğrenebilirsiniz](service-reports-visual-interactions.md)
 
-**Biliyor muydunuz?** Power BI, şu an önizleme aşamasında olan yeni bir filtre deneyimine sahiptir. [Power BI raporlarında yeni filtre deneyimi](power-bi-report-filter-preview.md) hakkında daha fazla bilgi edinin.
+**Biliyor muydunuz?** Power BI, şu an önizleme aşamasında olan yeni bir filtre deneyimine sahiptir. [Power BI raporlarında yeni filtre deneyimi](power-bi-report-filter.md) hakkında daha fazla bilgi edinin.
 
 ![Yeni filtre deneyimi](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 
@@ -67,13 +67,13 @@ Raporun bu sayfasında altı sayfa düzeyi filtresi ile bir rapor düzeyi filtre
 
 Bir görselde bulunan tüm alanlara filtre uygulanmış olabilir ve rapor yazarı daha fazla filtre ekleyebilir. Aşağıdaki görüntüde, kabarcık grafiğinde altı filtre vardır.
 
-![Görsel düzeyi filtresi](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
+![Görsel düzeyde filtre](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
 Okuma görünümünde, mevcut filtreleri değiştirerek verileri araştırabilirsiniz. Raporu mobil uygulamada açsanız bile, yaptığınız değişiklikler rapora kaydedilir. Nasıl yapıldığını öğrenmek için [Power BI Filtreler bölmesine ilişkin tura katılın](consumer/end-user-report-filter.md)
 
 Rapordan çıktığınızda filtreleriniz kaydedilir. Filtreleme işlemini geri almak ve rapor yazarı tarafından ayarlanan varsayılan filtreleme, dilimleme, detaylandırma ve sıralamaya geri dönmek için, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
 
-![Varsayılan simge Sıfırla](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
+![Varsayılana sıfırla simgesi](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ### <a name="filters-in-editing-view"></a>Düzenleme görünümündeki filtreler
 Bir rapor için sahip izinleriniz olduğunda ve raporu Düzenleme görünümünde açtığınızda **Filtreler**'in, kullanılabilir birkaç düzenleme bölmesinden yalnızca biri olduğunu görürsünüz.
@@ -84,15 +84,15 @@ Okuma görünümünde olduğu gibi raporun bu sayfasında da altı sayfa düzeyi
 
 Düzenleme görünümünde filtreler ve vurgulama ile daha fazla işlem gerçekleştirebilirsiniz. Özellikle yeni filtreler ekleyebilirsiniz. [Rapora filtre eklemeyi](power-bi-report-add-filter.md) ve çok daha fazlasını öğrenin.
 
-## <a name="ad-hoc-highlighting"></a>Geçici vurgulama
-Sayfadaki diğer görsellerin vurgulamak için görselin bir değer veya eksen etiketi seçin. Vurgulamayı kaldırmak için değer yeniden seçin veya aynı görselde boş alanın seçin. Eğlenceli bir vurgulama, veri etkilerini hızla Keşfetmenin bir yolu. [Görsel etkileşimler](service-reports-visual-interactions.md) makalesine giderek bu türdeki çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz.
+## <a name="ad-hoc-highlighting"></a>Anlık vurgulama
+Sayfadaki diğer görselleri vurgulamak için bir görseldeki değeri veya eksen etiketini seçin. Vurgulamayı kaldırmak için değeri yeniden seçin veya aynı görselde herhangi bir boş alanı seçin. Vurgulama, veri etkilerini hızla keşfetmenin eğlenceli bir yoludur. [Görsel etkileşimler](service-reports-visual-interactions.md) makalesine giderek bu türdeki çapraz vurgulama işlemlerinin nasıl çalıştığına ilişkin ayrıntılara ulaşabilirsiniz.
 
 ![Çapraz vurgulama](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI raporlarındaki yeni filtre deneyimi](power-bi-report-filter-preview.md)
+[Power BI raporlarındaki yeni filtre deneyimi](power-bi-report-filter.md)
 
 [Bir rapora filtre ekleme (Düzenleme görünümünde)](power-bi-report-add-filter.md)
 
