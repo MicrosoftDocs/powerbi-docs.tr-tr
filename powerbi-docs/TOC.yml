@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: Rapor Oluşturucusu verileri
           href: report-builder-data.md
+        - name: Power BI paylaşılan veri kümelerini kullanma
+          href: report-builder-shared-datasets.md
         - name: Tasarım ipuçları
           href: report-builder-design-tips.md
         - name: 'Tablolar, matrisler, listeler'
