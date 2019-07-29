@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514514"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590519"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -113,7 +113,6 @@ Raporda bir görsel çapraz vurgulandığında, veri noktasının soluk bölüm�
 **Araç ipuçları** için dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 
 * **Power BI Desktop**'ın Aralık 2018 sürümünden başlayarak Düğme görselleri de araç ipuçlarını destekler.
-* Rapor araç ipuçları, mobil uygulamalarda raporlar görüntülenirken desteklenmez. 
 * Rapor araç ipuçları, özel görseller için desteklenmemektedir. 
 * Kümeler şu an için rapor ipuçlarında gösterilebilen alanlar olarak desteklenmemektedir. 
 * Bir alan-kategori karşılaştırması kullanılırken, rapor araç ipuçları için bir alanın gösterilmesi seçildiğinde söz konusu alanı içeren görseller yalnızca özetleme, seçili alanla eşleştiğinde belirtilen araç ipucunu gösterir. 
