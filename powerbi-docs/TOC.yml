@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: İfade örnekleri
           href: report-builder-expression-examples.md
+        - name: Rapor sayfalandırması
+          href: paginated-reports-pagination.md
         - name: Raporların önizlemesini görüntüleme
           href: report-builder-previewing-reports.md
         - name: Sayfalandırılmış raporlar hakkında SSS
