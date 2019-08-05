@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67792001"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523417"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 
-Müşteri Karlılığı örneği içerik paketinde, pazarlama malzemeleri üreten bir şirkete ilişkin pano, rapor ve veri kümesi bulunmaktadır. Bu pano, mali işlerden sorumlu bir genel müdür (CFO) tarafından, beş departman yöneticisi (idareciler), ürünler, müşteriler ve brüt kâr ile ilgili ana ölçümleri görme amacıyla oluşturulmuştur. CFO, kârlılığı etkileyen faktörleri bir bakışta görebiliyor.
+Müşteri Karlılığı örneği içerik paketinde, pazarlama malzemeleri üreten bir şirkete ilişkin pano, rapor ve veri kümesi bulunmaktadır. Bu pano, mali işlerden sorumlu bir genel müdür (CFO) tarafından, beş departman yöneticisi (idareciler), ürünler, müşteriler ve brüt kâr ile ilgili ana ölçümleri görme amacıyla oluşturulmuştur. Bu kişiler, kârlılığı etkileyen faktörleri bir bakışta görebilir.
 
 ![Müşteri Kârlılığı örneğine ilişkin pano](media/sample-customer-profitability/power-bi-dash.png)
 
-Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/) öğesinden alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
 
 Bu öğreticide, Power BI hizmetinde Müşteri Karlılığı örneği içerik paketi incelenir. Power BI Desktop ile hizmette rapor deneyimleri benzer olduğundan, Power BI Desktop'ta örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
@@ -66,7 +66,7 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
 ![Müşteri Kârlılığı örneğine ilişkin pano](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Genel şirket durumu ile ilgili pano kutucukları
-1. Power BI hizmetinde panoyu açın. Bu pano kutucukları CFO'muza, önem verdiği üst düzey şirket ölçümlerine yönelik bir bakış sağlar. İlginç bir bulguyla karşılaştığında bir kutucuğu seçip söz konusu verileri ayrıntılı olarak inceleyebilir.
+1. Power BI hizmetinde panoyu açın. Bu pano kutucukları CFO'muza, önem verdiği üst düzey şirket ölçümlerine yönelik bir bakış sağlar. İlginç bir bulguyla karşılaştıklarında bir kutucuğu seçip söz konusu verileri inceleyebilirler.
 
 2. Panonun sol tarafındaki kutucukları gözden geçirin.
 
@@ -81,7 +81,7 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
    - Yıl için toplam gelir bütçeye yakın.
 
 ### <a name="manager-specific-dashboard-tiles"></a>Yöneticiye özgü pano kutucukları
-Panonun sağ tarafındaki kutucuklar ise bir ekip puan kartı sağlar. CFO'nun, yöneticilerini takip etmesi gerekiyor ve bu kutucuklar, brüt kâr yüzdesini kullanarak ona kâr ile ilgili üst düzey bir genel bakış sağlıyor. Herhangi bir yönetici için brüt kâr yüzdesi eğilimi beklentinin altındaysa CFO, söz konusu durumu daha ayrıntılı olarak inceleyebiliyor.
+Panonun sağ tarafındaki kutucuklar ise bir ekip puan kartı sağlar. CFO'nun, yöneticilerini takip etmesi gerekiyor ve bu kutucuklar, brüt kâr yüzdesini kullanarak ona kâr ile ilgili üst düzey bir genel bakış sağlıyor. Herhangi bir yönetici için brüt kâr yüzdesi eğilimi beklentinin altındaysa CFO, söz konusu durumu daha ayrıntılı olarak inceleyebilir.
 
 ![yöneticiler için GM%](media/sample-customer-profitability/power-bi-manager2.png)
 
@@ -139,7 +139,7 @@ Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler el
 1. Rapor sayfasını yalnızca Andrew ile ilgili veriler görüntülenecek şekilde filtrelemek için soldaki **Executive** (Yönetici) dilimleyicisinden Andrew'un adını seçin:
 
    * Hızlı bir KPI için Andrew’un **Revenue Status (Total Year)** değerine bakın; yeşil renkte olması iyi performans gösterdiği anlamına geliyor.
-   * **Revenue % Variance to Budget by Month and Executive** grafiğinde, Şubat'ta yaşanan düşüş dışında Andrew'un iyi performans sergilediği gösteriliyor. Baskın olduğu bölge doğu bölgesi, 49 müşterisi var ve toplam yedi üründen beşiyle ilgileniyor. Brüt kâr yüzdesi en yüksek veya en düşük yüzde değil.
+   * **Revenue % Variance to Budget by Month and Executive** grafiğinde, Şubat'ta yaşanan düşüş dışında Andrew'un iyi performans sergilediği gösteriliyor. Andrew’ın en baskın olduğu bölge doğu bölgesidir. Andrew’ın burada 49 müşterisi var ve toplam yedi üründen beşiyle ilgileniyor. Andrew’ın brüt kâr yüzdesi en yüksek veya en düşük yüzde değil.
    * **RevenueTY and Revenue % Var to Budget by Month** grafiği kararlı düzgün bir kâr gösteriyor. Öte yandan, bölge ağaç haritasında **Central** karesini seçip filtrelerseniz Andrew'un yalnızca Mart ayında ve Indiana'da gelir elde ettiğini fark edeceksiniz. Amaçlanan eğilim bu muydu yoksa bu incelenmesi gereken bir durum mu?
 
 2. Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için **Executive** (Yönetici) dilimleyicisinde Valery'nin adını seçin. 
@@ -147,10 +147,10 @@ Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler el
    ![Valery'nin verileri](media/sample-customer-profitability/customer3.png)
 
    * **Revenue Status (Total Year)** KPI'sinin kırmızı olduğuna dikkat edin. Bu öğenin kesinlikle biraz daha incelenmesi gerekiyor.
-   * Gelir varyansına baktığımızda da endişe verici bir tabloyla karşılaşıyoruz. Valery gelir marjlarını karşılamıyor.
+   * Valery’nin gelir varyansına baktığımızda da endişe verici bir tabloyla karşılaşıyoruz. Valery, belirlenen gelir marjlarını karşılamıyor.
    * Valery'nin yalnızca dokuz müşterisi var, iki ürünle ilgileniyor ve neredeyse yalnızca kuzey bölgesindeki müşterilerle çalışıyor. Ölçümlerinde görülen büyük dalgalanmalar tek bir bölgeyle çalışıyor olması ile açıklanabilir.
    * Ağaç haritasında **North** karesini seçerseniz Valery'nin kuzey bölgesindeki brüt kârının toplam marjıyla tutarlı olduğu görülüyor.
-   * Diğer tüm **Total Revenue by Region** (Bölgeye Göre Toplam Kar) karelerinin seçilmesi ilginç bir durum ortaya koyuyor: Brüt Kar oranı %23 ile %79 arasında değişiyor. Kuzey bölgesi dışındaki tüm bölgelerde gelir rakamları son derece mevsimsel.
+   * Diğer tüm **Total Revenue by Region** (Bölgeye Göre Toplam Kar) karelerinin seçilmesi ilginç bir durum ortaya koyuyor: Brüt Kar oranı %23 ile %79 arasında değişiyor. Valery’nin Kuzey bölgesi dışındaki tüm bölgelerde gelir rakamları son derece mevsimsel.
 
 3. Valery'nin düşük performansının altında yatan nedenleri bulmak için araştırmaya devam edin. Bölgelere, diğer departmanlara ve rapordaki bir sonraki sayfaya bakın: **Sektör Marjı Analizi**.
 
@@ -165,10 +165,10 @@ Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tam
 
 3. Grafikte bulunan her yöneticinin adını seçerken şu ayrıntıları unutmayın:
    * Andrew'un etki alanının birçok farklı sektör segmentine yayıldığını ve brüt kâr yüzdesi (çoğunlukla olumlu anlamda) ile varyans yüzdesinin geniş çapta değişiklik gösterdiğini görüyoruz.
-   * Federal segmentine ve Gladius ürününe daha fazla odaklanmış olup az sayıda sektör segmentine yönelmiş olması dışında Annelie'nin grafiğinde de benzer bir durumla karşılaşıyoruz.
-   * Carlos'un Services segmentine net bir şekilde yöneldiğini ve iyi bir kâr yüzdesi yakaladığını görüyoruz. High Tech segmenti için varyans yüzdesini büyük oranda iyileştirmiş ve henüz acemisi olduğu Industrial segmentinde bütçeye kıyasla olağanüstü bir başarı göstermiş.
-   * Tina az sayıda segment ile çalışıyor ve en yüksek brüt kâr yüzdesine sahip ancak balonlarının genel olarak küçük boyutta olması, şirketin nihai kâr-zarar dengesi üzerindeki etkisinin minimum düzeyde olduğunu gösteriyor.
-   * Tek bir üründen sorumlu olan Valery, yalnızca beş sektör segmentinde çalışıyor. Sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kâr-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör segmentleri onun bu olumsuz performansını nasıl etkiliyor?
+   * Federal segmentine ve Gladius ürününe daha fazla odaklanmış olup yalnızca az sayıda sektör segmentine yönelmiş olması dışında, Annelie'nin grafiğinde de benzer bir durumla karşılaşıyoruz.
+   * Carlos'un Services segmentine net bir şekilde yöneldiğini ve iyi bir kâr yüzdesi yakaladığını görüyoruz. Carlos da High Tech segmenti için varyans yüzdesini büyük oranda iyileştirmiş yeni bir sektör olan Industrial segmentinde bütçeye kıyasla olağanüstü bir başarı göstermiş.
+   * Tina az sayıda segment ile çalışıyor ve en yüksek brüt kâr yüzdesine sahip ancak balonlarının genel olarak küçük boyutta olması, Tina’nın şirketin nihai kâr-zarar dengesi üzerindeki etkisinin minimum düzeyde olduğunu gösteriyor.
+   * Tek bir üründen sorumlu olan Valery, yalnızca beş sektör segmentinde çalışıyor. Valery’nin sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kâr-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör segmentleri onun bu olumsuz performansını nasıl etkiliyor?
 
 ### <a name="executive-scorecard"></a>Yönetim Puan Kartı
 Bu sayfa bir Cortana yanıt sayfası olarak biçimlendirilmiştir. Daha fazla bilgi edinmek için bkz. [Cortana için özel yanıt sayfası oluşturma](service-cortana-answer-cards.md).

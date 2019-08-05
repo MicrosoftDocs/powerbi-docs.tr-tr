@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375222"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523380"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
 Bu makale bir serinin parçasıdır. 
 
 > [!IMPORTANT]
-> Power BI'da Cortana tümleştirmesi kullanımdan kaldırılıyor. 11 Haziran'a kadar başlayarak, tüm panolar ve raporlar için artık Cortana çalışır.
+> Cortana tümleştirmesi Power BI’da kullanım dışı bırakılıyor. Cortana, 11 Haziran'dan itibaren artık pano ve raporlar için çalışmayacak.
 
-Cortana'yı Power BI ile tümleştirme konusunda sorun yaşıyorsanız, doğru yere geldiniz demektir. Sorunu tanılamak ve gidermek için aşağıdaki adımları uygulayın.
+Cortana'yı Power BI ile tümleştirme konusunda sorun yaşıyorsanız doğru yerdesiniz. Sorunu tanılamak ve gidermek için aşağıdaki adımları uygulayın.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana neden Power BI raporlarımdan veya panolarımdan yanıt getirmiyor?
 1. Power BI hesabınız var mı?  Yoksa [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/get-started/).
@@ -54,7 +54,7 @@ Cortana'yı Power BI ile tümleştirme konusunda sorun yaşıyorsanız, doğru y
 1. Raporların içinde yanıt arıyorsanız kendinize şu soruyu sormanız gerekir: Cortana **yanıt kartı** bulunan raporum var mı? Cortana'nın Power BI raporlarınızda yanıt bulması için yanıt kartları gereklidir.  Yanıt kartını nasıl oluşturacağınızı öğrenmek için bkz. [Power BI hizmetinde ve Power BI Desktop'ta Cortana yanıt kartları oluşturma](service-cortana-answer-cards.md).
 2. Windows sürüm 1511 veya sonrası ile mi çalışıyorsunuz?  Öğrenmek için Windows Ayarları'nı açıp **Sistem > Hakkında** bölümüne gidin. Gerekirse Windows sürümünüzü güncelleştirin.
 3. Windows ve Power BI hesaplarınız birbirine bağlı mı? Bu konu kafa karıştırıcı olabilir. [Power BI için Cortana'yı etkinleştirme](service-cortana-enable.md#add-your-power-bi-credentials-to-windows) sayfasındaki yönergeleri uygulayın.
-4. Temel alınan veri kümeleri Cortana için etkinleştirilmiş mi? Belki de iş arkadaşlarınızdan biri önceden Cortana için etkinleştirdiği bir veri kümesini paylaşmıştır. Durum bu değilse [veri kümelerini Cortana için nasıl etkinleştireceğinizi öğrenin](service-cortana-enable.md). Bu hızlı ve kolay bir işlemdir.
+4. Temel alınan veri kümeleri Cortana için etkinleştirilmiş mi? Belki de iş arkadaşlarınızdan biri önceden Cortana için etkinleştirilen bir veri kümesini paylaşmıştır. Durum bu değilse [veri kümelerini Cortana için nasıl etkinleştireceğinizi öğrenin](service-cortana-enable.md). Bu hızlı ve kolay bir işlemdir.
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>Yalnızca panolar: Cortana neden Power BI panolarımdan yanıt getirmiyor?
 1. İş hesabınıza bağlı olduğunuzdan emin olun. Power BI, verilere erişim izninizi belirlemek amacıyla kimlik doğrulaması gerçekleştirebilmek için bu bağlantıya ihtiyaç duyar. Bağlı olup olmadığınızı kontrol etmek ve bağlı değilseniz iş hesabınıza bağlanmak için Windows arama kutusunu kullanarak "İş yerine veya okula bağlan" sayfasına gidin.  

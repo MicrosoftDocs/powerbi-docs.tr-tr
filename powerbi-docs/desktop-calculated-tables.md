@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239475"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522227"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanan tabloları kullanma
 Hesaplanan tabloları kullanarak modele yeni bir tablo ekleyebilirsiniz. Ancak, bir veri kaynağından yeni tablonuzun sütunlarına değer sorgulamak ve yüklemek yerine tablonun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanan tabloları oluşturmak için Rapor Görünümü veya Veri Görünümündeki Yeni Tablo özelliğini kullanabilirsiniz.
@@ -39,7 +39,7 @@ Contoso'da proje yöneticisi olan Jeff'in elinde biri Northwest bölgesindeki, d
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Bu iki tabloyu hesaplanan tablo ile bir araya getirmek oldukça kolaydır. Jeff, hesaplanan tabloyu hem Rapor Görünümü hem de Veri Görünümünde oluşturabilecek olsa da yeni hesaplanan tablosunu hemen görebileceği için bu işlemi Veri Görünümünde yapmak daha kolay.
+Bu iki tabloyu hesaplanan tablo ile bir araya getirmek oldukça kolaydır. Jeff, hesaplanan tabloyu hem Rapor Görünümü hem de Veri Görünümünde oluşturabilecek olsa da yeni hesaplanan tabloyu hemen görebileceği için bu işlemi Veri Görünümünde yapmak daha kolay.
 
 Jeff, **Veri Görünümü**'nün **Modelleme** sekmesinde **Yeni Tablo**'ya tıklıyor. Bir formül çubuğu görüntüleniyor.
 
@@ -53,7 +53,7 @@ Western Region Employees adlı yeni bir tablo oluşturuluyor.
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-Jeff'in yeni oluşturduğu Western Region Employees tablosu, Alanlar listesinde diğer tablolar gibi görüntüleniyor. Jeff diğer tablolara ilişki oluşturabilir, hesaplanmış sütun ve ölçü ekleyebilir ve bu tablonun alanlarını diğer tablolar gibi raporlara ekleyebilir.
+Jeff'in yeni oluşturduğu Western Region Employees tablosu, Alanlar listesinde diğer tablolar gibi görüntüleniyor. Jeff, diğer tablolara ilişki oluşturabilir, hesaplanmış sütun ve ölçü ekleyebilir ve bu tablonun alanlarını diğer tablolar gibi raporlara ekleyebilir.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

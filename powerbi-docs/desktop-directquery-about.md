@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 07/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19ed4e4505ed2d8eb4f3b559c0af46b2b82a0ec0
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342221"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590547"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı yollarla gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** olarak bilinen yöntemle verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede **DirectQuery** ve özellikleri açıklanır:
@@ -72,7 +72,7 @@ Verilere bağlanmaya yönelik bu üç seçenek (**içeri aktarma**, **DirectQuer
 * Görseller veya rapor sayfalarının tamamı, Pano kutucukları olarak sabitlenebilir. Kutucuklar, panonun hızlıca açılmasının sağlanması için zamanlanmış şekilde (örneğin, saatte bir) otomatik olarak yenilenir. Bu yenilemenin sıklığı, verilerin hangi sıklıkta değiştiğinin ve son verilerin gösterilmesinin ne kadar önemli olduğunun yansıtılması amacıyla denetlenebilir. Bu nedenle, bir pano açıldığında kutucuklar son yenileme tarihindeki verileri yansıtır ve temel alınan kaynakta yapılan en son değişiklikleri göstermeyebilir. Açık bir panonun güncel olmasının sağlanması amacıyla Yenile seçeneği her zaman kullanılabilir.    
 
 ### <a name="live-connections"></a>Canlı bağlantılar
-**SQL Server Analysis Services** (SSAS) hizmetine bağlanılırken, seçili veri modelinden veri aktarma veya bu veri modeli ile canlı bağlantı kurma seçeneği sunulur. **İçeri aktarma** seçeneğini belirlerseniz bu dış SSAS kaynağına yönelik bir sorgu tanımlarsınız ve veriler normal şekilde içeri aktarılır. **Canlı bağlantı kurma** seçeneğini belirlerseniz hiçbir sorgu tanımlanmaz ve dış modelin tamamı alan listesinde gösterilir. **DirectQuery** seçildiğinde görseller oluşturulurken dış SSAS kaynağına sorgular gönderilir. Ancak, DirectQuery'nin aksine yeni bir *model* oluşturulması gerekmez. Diğer bir deyişle, yeni hesaplanmış sütun, hiyerarşi, ilişki ve benzeri özelliklerin tanımlanması mümkün değildir. Bunun yerine, doğrudan dış SSAS modeline bağlanırsınız.
+**SQL Server Analysis Services** (SSAS) hizmetine bağlanılırken, seçili veri modelinden veri aktarma veya bu veri modeli ile canlı bağlantı kurma seçeneği sunulur. **İçeri aktarma** seçeneğini belirlerseniz bu dış SSAS kaynağına yönelik bir sorgu tanımlarsınız ve veriler normal şekilde içeri aktarılır. **Canlı bağlantı kurma** seçeneğini belirlerseniz hiçbir sorgu tanımlanmaz ve dış modelin tamamı alan listesinde gösterilir.
 
 Önceki paragrafta açıklanan durum aşağıdaki kaynaklarla bağlantı kurulurken de geçerlidir ancak verileri içeri aktarma seçeneği sunulmaz:
 
@@ -116,8 +116,8 @@ Bu bölümde açıklandığı üzere, **DirectQuery** kullanmanın olumsuz etkil
 
 Temel alınan kaynağın performansının yanı sıra, kaynağa yerleştirilecek (ve performansı etkileyecek olan) yük de dikkatli bir şekilde değerlendirilmelidir. Aşağıda daha ayrıntılı şekilde açıklandığı üzere, paylaşılan bir raporu açan her bir kullanıcı ve düzenli aralıklarla yenilenen her bir pano kutucuğu, temel alınan kaynağa görsel başına en az bir sorgu gönderir. Bunun için, kaynağın böyle bir sorgu yükünü, makul performans göstermeye devam ederken işleyebilmesi gerekir.
 
-### <a name="limited-to-a-single-source"></a>Tek bir kaynakla sınırlı olma
-Verileri içeri aktarırken, kurumsal bir SQL Server veritabanındaki bazı verileri, bir Excel dosyasında tutulan bazı yerel verilerle kolayca birleştirme örneğinde olduğu gibi, birden çok kaynaktan alınan veriler tek bir modelde birleştirilebilir. Bu işlem DirectQuery kullanılırken gerçekleştirilemez. Bir kaynak için DirectQuery seçeneği belirlendiğinde yalnızca bu kaynaktaki (tek bir SQL Server veritabanı gibi) veriler kullanılabilir.
+### <a name="security-implications-when-combining-data-sources"></a>Veri kaynaklarını birleştirmenin güvenlik üzerindeki etkileri
+Tıpkı verileri içeri aktarırken olduğu gibi, [Birleşik modeller](desktop-composite-models.md) özelliğini kullanarak bir DirectQuery modelinde birden fazla veri kaynağını kullanmak mümkündür. Bunu yaptığınızda, verilerin temel alınan veri kaynaklarında nasıl taşındığını ve bu işlemin getirdiği [güvenlik etkilerini](desktop-composite-models.md#security-implications) anlamak önemlidir.
 
 ### <a name="limited-data-transformations"></a>Veri dönüştürme işlemine yönelik sınırlamalar
 Benzer şekilde, **Sorgu Düzenleyicisi**'nde uygulanabilecek veri dönüştürme işlemlerine yönelik sınırlamalar mevcuttur. Veriler içeri aktarıldığında, görsel oluşturmada kullanılmadan önce söz konusu verilerin temizlenmesi ve yeniden şekillendirilmesi için bir dizi kapsamlı dönüştürme işlemi (JSON belgelerini ayrıştırma veya bir sütundan satır hizalamalı bir forma veri özetleme gibi) kolayca uygulanabilir. Bu dönüştürme işlemleri için DirectQuery'de daha fazla sınırlama mevcuttur. İlk olarak, SAP Business Warehouse gibi bir OLAP kaynağına bağlanılırken hiçbir dönüştürme tanımlanamaz ve dış "modelin" tamamı kaynaktan alınır. SQL Server gibi ilişkisel kaynaklarda her sorgu için bir dizi dönüştürme tanımlanabilir, ancak bu dönüştürme işlemleri performans nedeniyle sınırlıdır. Bu tür dönüştürme işlemlerinin veriler yenilendikçe değil, temel alınan kaynağa her sorgu gönderildiğinde uygulanması gerekir. Böylece bu işlem, tek bir yerel sorguya makul şekilde çevrilebilen dönüştürmelerle sınırlıdır. Fazla karmaşık bir dönüştürme kullanmanız durumunda, dönüştürmenin silinmesini veya modelin İçeri Aktarma moduna geçirilmesini belirten bir hata iletisi alırsınız.
@@ -139,7 +139,6 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
 * **Yerleşik tarih hiyerarşisi yoktur:** Veriler içeri aktarılırken, tüm tarih/tarih saat sütunlarında varsayılan olarak yerleşik bir tarih hiyerarşisi de bulunur. Örneğin, OrderDate sütununu içeren satış siparişleri tablosunu içeri aktarıyorsanız bir görselde OrderDate kullanılırken, kullanılacak uygun düzeyi (Year, Month, Day) seçebilirsiniz. DirectQuery modunda bu yerleşik tarih hiyerarşisi kullanılamaz. Ancak, temel alınan kaynakta Date tablosu bulunuyorsa (birçok veri ambarında yaygın olarak bulunur) DAX Akıllı Zaman Gösterimi işlevlerinin normal şekilde kullanılabileceğini unutmayın.
 * **Hesaplanmış sütunlara yönelik sınırlamalar:** Hesaplanmış sütunlar satır içi işlemlerle sınırlıdır; herhangi bir toplama işlevi kullanılmadan yalnızca aynı tablonun diğer sütunlarındaki değerlerine başvurabilir. Buna ek olarak, izin verilen DAX skaler işlevleri (LEFT () gibi), temel alınan kaynağa kolayca gönderilebilecek olanlarla sınırlıdır. Bu nedenle, kaynağın tam olarak hangi özelliklere sahip olduğuna göre değişiklik gösterir. Hesaplanmış bir sütun için DAX yazılırken, desteklenmeyen işlevler otomatik tamamlamada listelenmez ve kullanılırsa hataya neden olur.
 * **Üst-alt DAX işlevleri desteği yok:** DirectQuery modelinde, genellikle Üst-Alt yapıları (hesaplar grafiği ve çalışan hiyerarşileri gibi) işleyen DAX PATH() işlev ailesini kullanmak mümkün değildir.
-* **Ölçüler için sınırlamalar:** Ölçülerde kullanılabilecek DAX işlevleri ve ifadeleri sınırlıdır. Burada da, listelenen işlevler otomatik tamamlamada sınırlanır ve geçersiz bir işlev veya ifade kullanılırsa hata oluşur. Bunun nedeni ölçülerin, kendi başlarına herhangi bir performans sorunu oluşturması olası olmayan basit ölçülerle sınırlı olmasını sağlamaktır.
 * **Hesaplanan tablolar desteklenmiyor:** DAX ifadesi kullanarak hesaplanan tablo tanımlama özelliği, DirectQuery modunda desteklenmez.
 * **İlişki filtreleme tek bir yönle sınırlı:** DirectQuery kullanılırken bir ilişkideki Çapraz Filtre yönü "Her İkisi De" olarak ayarlanamaz. Örneğin, aşağıdaki üç tablo ile her bir Customer[Gender] verisini ve her müşterinin satın aldığı Product[Category] sayısını gösteren bir görsel oluşturulamaz. Bu türde iki yönlü filtreleme kullanımı [bu teknik incelemede ayrıntılı şekilde](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
   
@@ -304,11 +303,11 @@ Rapor yayımlandıktan sonra, temel veri kaynağına gönderilen en fazla eş za
 ### <a name="diagnosing-performance-issues"></a>Performans sorunlarını tanılama
 Bu bölümde performans sorunlarının nasıl tanılanacağı ve raporların iyileştirilebilmesi için ayrıntılı bilginin nasıl alınacağı açıklanmaktadır.
 
-Performans sorunlarının tanılanmasına, **Power BI hizmeti** yerine **Power BI Desktop**'ta başlanması önemle önerilir. Performans sorunları genellikle, temel alınan kaynağın performans düzeyine bağlıdır ve bunlar, **Power BI Desktop**'ın çok daha yalıtılmış ortamında daha kolay şekilde belirlenir ve tanılanır. Bu ortamda öncelikle belirli bileşenler (Power BI ağ geçidi gibi) ortadan kaldırılır. Araştırma sırasında yalnızca, performans sorunlarının Power BI Desktop'tan kaynaklanmadığı belirlenirse Power BI hizmetindeki raporun ayrıntılarına odaklanılmalıdır.
+Performans sorunlarının tanılanmasına, **Power BI hizmeti** yerine **Power BI Desktop**'ta başlanması önemle önerilir. Performans sorunları genellikle, temel alınan kaynağın performans düzeyine bağlıdır ve bunlar, **Power BI Desktop**'ın çok daha yalıtılmış ortamında daha kolay şekilde belirlenir ve tanılanır. Bu ortamda öncelikle belirli bileşenler (Power BI ağ geçidi gibi) ortadan kaldırılır. Araştırma sırasında yalnızca, performans sorunlarının Power BI Desktop'tan kaynaklanmadığı belirlenirse Power BI hizmetindeki raporun ayrıntılarına odaklanılmalıdır. [Performans Analizi](desktop-performance-analyzer.md), bu işlem boyunca oluşabilecek sorunları tanımlamaya yönelik yararlı bir özelliktir.
 
 Benzer şekilde, sayfada bulunan birçok görsel yerine öncelikle tek bir görseldeki sorunların giderilmesi önerilir.
 
-Bu adımların (bu bölümün önceki paragraflarında bulunanlar) uygulandığını ve **Power BI Desktop**'taki bir sayfada yine de yavaş olan tek bir görselimiz olduğunu varsayalım. Power BI Desktop tarafından, temel alınan kaynağa gönderilen sorguların belirlenmesi için, bu kaynaktan yayınlanan izleme/tanılama bilgileri görüntülenebilir. Bu izleme dosyaları, sorgunun nasıl yürütüldüğüne ve nasıl iyileştirilebileceğine yönelik ayrıntılar hakkında faydalı bilgiler içerebilir.
+Bu adımların (bu bölümün önceki paragraflarında bulunanlar) uygulandığını ve **Power BI Desktop**'taki bir sayfada yine de yavaş olan tek bir görselimiz olduğunu varsayalım. Power BI Desktop tarafından temel alınan kaynağa gönderilen sorguları belirlemek için [Performans Analizi](desktop-performance-analyzer.md) özelliğini kullanabilirsiniz. Temel alınan veri kaynağı tarafından yayılan izlemeleri/tanılama bilgilerini görüntülemek de mümkündür. Bu izleme dosyaları, sorgunun nasıl yürütüldüğüne ve nasıl iyileştirilebileceğine yönelik ayrıntılar hakkında faydalı bilgiler içerebilir.
 
 Ayrıca, sonraki bölümlerde açıklandığı üzere, kaynaktan bu tür izleme dosyalarının gelmemesi durumunda bile Power BI tarafından gönderilen sorguları, yürütme süreleriyle birlikte görüntüleyebilirsiniz.
 

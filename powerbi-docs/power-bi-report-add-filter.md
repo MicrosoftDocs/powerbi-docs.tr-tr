@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342183"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380252"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
 
@@ -76,6 +76,8 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
     Görsel, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler görselin filtrelenmiş halini görür ve değerleri seçerek veya temizleyerek Okuma görünümünde filtre ile etkileşim kurabilir.
      
     ![Filtrelenen görsel](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    Filtreyi, alanın toplu olduğu bir görselde kullanılan alanda kullandığınızda (örneğin, toplam, ortalama veya sayı) her veri noktasındaki *toplanmış* değer için filtre uygularsınız. Bu nedenle, yukarıdaki görselde **Bu Yılın Satışları > 500000** gibi bir filtre uygulamak isterseniz, sonuçta yalnızca **13 - Charleston Fashion Direct** veri noktasını görürsünüz. [Model ölçümlerindeki](desktop-measures.md) filtreler her zaman veri noktasının toplu değeri için geçerlidir.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Görselde bulunmayan bir alanla filtreleme
 
@@ -94,6 +96,8 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
     ![Filtrelenen görsel](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Raporunuzu bu filtreyle kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma görünümünde **District Manager** filtresiyle etkileşim kurabilir.
+    
+    Görsel düzeyde bir filtre oluşturmak için filtre bölmesine bir *sayısal sütunu* sürüklerseniz, filtre *temel alınan veri sütunlarına* uygulanır. Örneğin, **UnitCost** alanına bir filtre ekleme ve bunu **UnitCost** değerinin 20’den büyük olduğu bir yere ayarlama, görselde gösterilen veri noktalarının toplam Birim Maliyeti ne olursa olsun yalnızca Birim Maliyetinin 20’den büyük olduğu satırlardaki verileri gösterir.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Sayfanın tamamına filtre ekleme
 
@@ -158,10 +162,6 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 1. Önceki rapor sayfasına geri dönmek için geri okunu seçin.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-
-- Görsel düzeyi ve sayfa düzeyi filtrenizin farklı sonuçlar döndürebileceği durumlar vardır.  Örneğin, bir görsel düzeyi filtresi eklediğinizde Power BI, toplanan sonuçlarda filtre uygular.  Varsayılan toplama, Toplam'dır ancak [toplama türünü değiştirebilirsiniz](service-aggregates.md).  
-
-    Sonra bir görsel düzeyi filtresi eklediğinizde ise Power BI, toplama yapmadan filtre uygular.  Bu toplama yapmaz çünkü bir sayfada her biri farklı toplama türlerini kullanabilen pek çok görsel olabilir.  Bu nedenle filtre, her bir veri satırına uygulanır.
 
 - Alanlar bölmesini görmüyorsanız rapor [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde bulunduğunuzdan emin olun.    
 - Filtrelerde çok fazla değişiklik yaptıysanız ve rapor yazarı varsayılan ayarlarına geri dönmek istiyorsanız, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.

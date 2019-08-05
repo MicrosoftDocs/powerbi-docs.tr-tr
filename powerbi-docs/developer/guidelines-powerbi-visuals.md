@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271197"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380220"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Görselinizi başkalarının bulması ve kullanması amacıyla AppSource’ta [yayımlamadan](https://docs.microsoft.com/power-bi/developer/office-store) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun. 
@@ -26,7 +26,7 @@ Birleşik bir deneyim sunmak için tüm Power BI görsellerinde bağlam menüsü
 
 ## <a name="logo-guidelines"></a>Logo yönergeleri
 
-Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır.
+Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır. Amblemler zorunlu değildir. Eklendiyse, bu kurallara uymalıdır. 
 
 > [!IMPORTANT]
 > Logolara *yalnızca düzenleme modunda* izin verilir. Logolar görüntüleme modunda *gösterilemez*.

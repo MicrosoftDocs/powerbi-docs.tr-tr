@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514154"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523206"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop'taki ölçüler
 
@@ -41,17 +41,17 @@ ms.locfileid: "65514154"
 DAX formülleri Excel formülleriyle oldukça benzerdir. DAX ile DATE, SUM ve LEFT gibi Excel işlevlerini bile kullanabilirsiniz. Ancak DAX işlevleri, Power BI Desktop'takiler gibi ilişkisel verilerle çalışacak şekilde tasarlanmıştır.
 
 ## <a name="lets-look-at-an-example"></a>Bir örneğe göz atalım
-Jan, Contoso'da satış yöneticisi olarak çalışmaktadır. Bir sonraki mali yıl için bayi satış tahminlerini sunması istenmektedir. Jan, tahmin için önceki yılın satış rakamlarını temel alarak sonraki altı ayda yapılması planlanan promosyonlar nedeniyle yıllık yüzde altı artış uygulamak istemektedir.
+Jan, Contoso'da satış yöneticisi olarak çalışmaktadır. Jan’dan bir sonraki mali yıl için bayi satış tahminlerini sunması istenmektedir. Jan, tahmin için önceki yılın satış rakamlarını temel alarak sonraki altı ayda yapılması planlanan promosyonlar nedeniyle yıllık yüzde altı artış uygulamak istemektedir.
 
-Jan, tahminleri rapor haline getirmek için önceki yılın satış verilerini Power BI Desktop'a aktarır. Reseller Sales tablosundaki SalesAmount alanını bulur. İçeri aktardığı veriler yalnızca önceki yılın satış rakamlarını içerdiği için Jan, SalesAmount alanının adını Last Years Sales olarak değiştirir. Jan ardından Last Years Sales alanını rapor tuvaline sürükler. Alan için, önceki yılın bayi satışlarının toplamı olarak tek bir değerin gösterildiği bir grafik görselleştirmesi oluşturulur.
+Jan, tahminleri rapor haline getirmek için önceki yılın satış verilerini Power BI Desktop'a aktarır. Jan, Reseller Sales tablosundaki SalesAmount alanını bulur. İçeri aktardığı veriler yalnızca önceki yılın satış rakamlarını içerdiği için Jan, SalesAmount alanının adını Last Years Sales olarak değiştirir. Jan ardından Last Years Sales alanını rapor tuvaline sürükler. Alan için, önceki yılın bayi satışlarının toplamı olarak tek bir değerin gösterildiği bir grafik görselleştirmesi oluşturulur.
 
-Ardından Jan, hesaplama belirtmemiş olmasına rağmen otomatik bir hesaplama yapıldığını fark eder. Power BI Desktop, Last Years Sales alanındaki tüm değerleri toplayarak bir ölçü oluşturmuştur.
+Ardından Jan, hesaplama belirtilmemiş olmasına rağmen otomatik bir hesaplama yapıldığını fark eder. Power BI Desktop, Last Years Sales alanındaki tüm değerleri toplayarak bir ölçü oluşturmuştur.
 
-Ancak Jan'ın yüzde 6'lık artışa ulaşmak için, önceki yılın satışlarının 1,06 ile çarpılmış hali olan gelecek yılın satış tahminlerini hesaplamak üzere bir ölçü oluşturması gerekmektedir. Bu hesaplama için kendi ölçüsünü oluşturması gerekir. Yeni Ölçü özelliğini kullanarak yeni bir ölçü oluşturup şu DAX formülünü girer:
+Ancak Jan'ın yüzde 6'lık artışa ulaşmak için, önceki yılın satışlarının 1,06 ile çarpılmış hali olan gelecek yılın satış tahminlerini hesaplamak üzere bir ölçü oluşturması gerekmektedir. Jan, bu hesaplama için kendi ölçüsünü oluşturacak. Yeni Ölçü özelliğini kullanarak yeni bir ölçü oluşturup şu DAX formülünü girer:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
-Ardından, yeni oluşturduğu Projected Sales ölçüsünü grafiğe sürükler.
+Ardından, Jan yeni oluşturduğu Projected Sales ölçüsünü grafiğe sürükler.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 

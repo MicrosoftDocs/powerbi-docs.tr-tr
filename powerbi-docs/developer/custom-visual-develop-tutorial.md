@@ -1,5 +1,5 @@
 ---
-title: Power BI Özel Görseli Geliştirme
+title: Power BI görseli geliştirme
 description: Power BI özel görseli geliştirme öğreticisi
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161230"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415422"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görseli geliştirme
+# <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 
 Geliştiricilerin pano ve raporlarda kullanmak üzere Power BI’a özel görseller eklemesini sağlayan kolay bir yöntem sunuyoruz. Başlamanıza yardımcı olmak için görselleştirmelerimize ait kodların tamamını GitHub’da yayımladık.
 
@@ -79,35 +79,35 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
     pbiviz --install-cert
     ```
 
-  Komut, *parola* oluşturan bir sonuç döndürür. Bu durumda, **_15105661266553327_** *parolası* Sertifika İçeri Aktarma Sihirbazı’nı başlatır.
+    Komut, *parola* oluşturan bir sonuç döndürür. Bu durumda *parola*, **_15105661266553327_** şeklindedir. Sertifika İçeri Aktarma Sihirbazı’nı da Başlatır.
 
-  ![PowerShell ile oluşturulan sertifika](media/custom-visual-develop-tutorial/cert-create.png)
+    ![PowerShell ile oluşturulan sertifika](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. Sertifika İçeri Aktarma Sihirbazı’nda depo konumunun Geçerli Kullanıcı olduğundan emin olun. Ardından *İleri*’yi seçin.
+2. Sertifika İçeri Aktarma Sihirbazı’nda depo konumunun Geçerli Kullanıcı olduğundan emin olun. Ardından *İleri*’yi seçin.
 
       ![Sertifika yükleme](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. **İçeri Aktarılacak Dosya** adımında *İleri*’yi seçin.
+3. **İçeri Aktarılacak Dosya** adımında *İleri*’yi seçin.
 
-5. **Özel Anahtar Koruması** adımındaki Parola kutusuna sertifika oluşturduğunuzda döndürülen parolayı yapıştırın.  Bu örnekte kullanılan parola **_15105661266553327_** şeklindedir.
+4. **Özel Anahtar Koruması** adımındaki Parola kutusuna sertifika oluşturduğunuzda döndürülen parolayı yapıştırın.  Bu örnekte kullanılan parola **_15105661266553327_** şeklindedir.
 
       ![Parolayı kopyalama](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. **Sertifika Deposu** adımında **Tüm sertifikaları aşağıdaki depoya yerleştir** seçeneğini belirtin. Ardından *Gözat*’ı seçin.
+5. **Sertifika Deposu** adımında **Tüm sertifikaları aşağıdaki depoya yerleştir** seçeneğini belirtin. Ardından *Gözat*’ı seçin.
 
       ![Tüm sertifikaları aşağıdaki depoya yerleştir](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. **Sertifika Deposu Seçin** penceresinde **Güvenilen Kök Sertifika Yetkilileri**’ni ve ardından *Tamam*’ı seçin. Daha sonra **Sertifika Deposu** ekranında *İleri*’yi seçin.
+6. **Sertifika Deposu Seçin** penceresinde **Güvenilen Kök Sertifika Yetkilileri**’ni ve ardından *Tamam*’ı seçin. Daha sonra **Sertifika Deposu** ekranında *İleri*’yi seçin.
 
       ![Güvenilen kök sertifika](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. İçeri aktarma işlemini tamamlamak için **Son**’u seçin.
+7. İçeri aktarma işlemini tamamlamak için **Son**’u seçin.
 
-9. Güvenlik uyarısı alırsanız **Evet**’i seçin.
+8. Güvenlik uyarısı alırsanız **Evet**’i seçin.
 
     ![Güvenlik uyarısı](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. İçeri aktarma işleminin başarılı olduğu bildirildiğinde **Tamam**’ı seçin.
+9. İçeri aktarma işleminin başarılı olduğu bildirildiğinde **Tamam**’ı seçin.
 
     ![Sertifika içeri aktarma işlemi başarılı](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

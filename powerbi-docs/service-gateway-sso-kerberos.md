@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 3c6ba802427fc33e3be6f91fc59c158d18975677
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325138"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523684"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -170,9 +170,96 @@ Tüm yapılandırma adımları tamamlandıktan sonra, veri kaynağını yapılan
 
 Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak Kerberos ile farklı yapılandırmalar da söz konusu olabilir. Rapor hala yüklenmiyorsa sorunun daha ayrıntılı bir şekilde incelenmesi için etki alanı yöneticinizle iletişime geçin.
 
-## <a name="configure-sap-bw-for-sso"></a>SSO için SAP BW’yu Yapılandırma
+## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>CommonCryptoLib kullanarak SAP BW’yu SSO için yapılandırma
 
 Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre artık SAP Business Warehouse (SAP BW) ortamınız için SSO yapılandırması gerçekleştirebilirsiniz. Aşağıdaki adımlarda bu makalenin önceki bölümlerinde anlatılan şekilde [Kerberos kısıtlanmış temsili için hazırlandığınız](#prepare-for-kerberos-constrained-delegation) kabul edilmektedir.
+
+> [!NOTE]
+> Bu yönergeler, SAP BW **Uygulama** Sunucuları için SSO kurulumunu kapsar. Microsoft, şu anda SAP BW **İletisi** Sunucularına SSO bağlantısını desteklememektedir.
+
+1. BW sunucunuzun Kerberos SSO için doğru yapılandırıldığından emin olun. Sunucu doğru yapılandırıldıysa, BW sunucunuza erişmek için SAP GUI gibi bir SAP aracıyla SSO kullanabiliyor olmanız gerekir. Kurulum adımları hakkında daha fazla bilgi için bkz. [Sap Çoklu Oturum Açma: Kerberos/SPNEGO ile kimlik doğrulama](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). BW sunucunuzun CommonCryptoLib’i SNC Kitaplığı olarak kullanması ve “CN=BW1” gibi “CN=” ile başlayan bir SNC adının olması gerekir. SNC ad gereksinimleri hakkında daha fazla bilgi için bkz [Kerberos Yapılandırması için SNC Parametreleri](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html) (snc/kimlik/parametre olarak).
+
+1. Daha önce yapmadıysanız, [Kerberos kısıtlanmış temsili için hazırlanın](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos#prepare-for-kerberos-constrained-delegation) kısmındaki adımları tamamlayın. Ağ geçidi Hizmeti Kullanıcınızın temsil edilen kimlik bilgilerini Active Directory ortamınızdaki BW Uygulama Sunucusunu temsil eden Hizmet Kullanıcısına sunacak şekilde yapılandırıldığından emin olun.
+
+1. Daha önce yapmadıysanız, [SAP .NET Bağlayıcısının](https://support.sap.com/en/product/connectors/msnet.html) x64 sürümünü, ağ geçidinin yüklü olduğu bilgisayara yükleyin. Power BI Desktop’taki BW sunucunuza bağlanmayı deneyerek bileşenin yüklenip yüklenmediğini denetleyebilirsiniz. 2\.0 uygulamasını kullanarak bağlanamıyorsanız, .NET Connector yüklü değildir.
+
+1. SAP Güvenli Oturum Açma İstemcisi’nin (SLC) ağ geçidinin yüklü olduğu bilgisayarda çalışmadığından emin olun. SLC, Kerberos biletlerini ağ geçidinin çoklu oturum açma için Kerberos’u kullanma özelliğini engelleyebilecek şekilde önbelleğe alır. SLC yüklüyse, SLC’yi kaldırın veya SAP Güvenli Oturum Açma İstemcisi’nden çıktığınızdan emin olun: ağ geçidini kullanarak çoklu oturum açma gerçekleştirmeyi denemeden önce sistem tepsisinden simgeye sağ tıklayıp Oturumu Kapat’ı belirleyin. SLC, Windows Server makinelerinde kullanım için desteklenmez. Daha fazla bilgi için bkz. [SAP Notu 2780475](https://launchpad.support.sap.com/#/notes/2780475) (s-user gerekir).
+
+    ![SAP Güvenli Oturum Açma İstemcisi](media/service-gateway-sso-kerberos/sap-secure-login-client.png)
+
+    SLC’yi kaldırırsanız veya **Oturumu Kapat** ve **Çıkış**’ı seçerseniz, ağ geçidi aracılığıyla bir çoklu oturum açma bağlantısı kurmayı denemeden önce önbellekteki tüm Kerberos biletlerini temizlemek için bir komut penceresi açıp pencereye şunu girin: `klist purge`.
+
+1. SAP Launchpad’den CommonCryptoLib’in (sapcrypto.dll) **8.5.25 veya daha yeni sürümünü** indirip bunu ağ geçidi makinenizdeki bir klasöre kopyalayın. sapcrypto.dll dosyasını kopyaladığınız dizinde sapcrypto.ini adlı bir dosya oluşturup aşağıdaki içeriklere sahip olmasını sağlayın:
+
+    ```
+    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ```
+
+    .ini dosyası, CommonCryptoLib’in ağ geçidi senaryosunda çoklu oturum açmayı etkinleştirmek için gerek duyduğu yapılandırma bilgilerini içerir.
+
+    > [!NOTE]
+    > Bu dosyalar aynı konumda depolanmalıdır. Farklı bir deyişle, _/path/to/sapcrypto/_ dizini hem sapcrpyto.ini hem de sapcrypto.dll dosyasını içermelidir.
+
+    Hem ağ geçidi Hizmeti Kullanıcısı hem de Hizmet Kullanıcısının kimliğine bürüneceği Active Directory (AD) kullanıcısı her iki dosya için okuma ve yürütme izinlerine ihtiyaç duyar. Kimliği Doğrulanmış Kullanıcılar grubuna hem .ini hem de .dll dosyalarında izin vermenizi öneririz. Test amacıyla, bu izinleri hem ağ geçidi Hizmeti Kullanıcısına hem de kimliğine bürünülen kullanıcıya açıkça verebilirsiniz. Aşağıdaki ekran görüntüsünde, sapcrypto.dll dosyası için Kimliği Doğrulanmış Kullanıcılar grubuna **Okuma ve &amp;Yürütme** izinlerinin verilmiş olduğunu görebilirsiniz:
+
+    ![Kimliği doğrulanmış kullanıcılar](media/service-gateway-sso-kerberos/authenticated-users.png)
+
+1. Bir SAP Business Warehouse Sunucusu veri kaynağınız yoksa, Power BI hizmetinin **Ağ geçitlerini yönet** sayfasından bir veri kaynağı ekleyin. Çoklu oturum açma bağlantısının akışına izin verilen, ağ geçidiyle ilişkilendirilmiş bir BW veri kaynağınız varsa bunu düzenlemeye hazırlanın.
+
+    **SNC Kitaplığı** için **SNC\_LIB veya SNC\_LIB\_64 ortam değişkenini** veya **Özel**’i seçin. **SNC\_LIB** seçeneğini belirlerseniz, ağ geçidinde SNC\_LIB\_64 ortam değişkenin değerini , ağ geçidindeki sapcrypto.dll dosyasının mutlak yoluna ayarlamanız gerekir (örneğin C:\Users\Test\Desktop\sapcrypto.dll). **Özel**’i seçerseniz, **Ağ geçitlerini yönet** sayfasında çıkan sapcrypto.dll için mutlak yolu Custom SNC Kitaplığı Yol alanına yapıştırın.
+
+    **Gelişmiş ayarların** altından, **DirectQuery sorguları için Kerberos üzerinden çoklu oturum açma kullan** kutusunun belirlendiğinden emin olun. Girdiğiniz kullanıcı adının BW sunucusuna bağlanma izninin olması gerekir ve bu kullanıcı adı başlıca veri kaynağı oluşturulduktan sonra bunu test etmek için kullanılır. Kullanıcı, içeri aktarma tabanlı veri kümeleri varsa, bunların oluşturduğu raporları yenilemek için de kullanılır. **Temel** kimlik doğrulamasını seçerseniz, bir BW kullanıcısı sağlamanız gerekir. **Windows** kimlik doğrulamasını seçerseniz, SAP GUI’deki SU01 işlemi aracılığıyla BW kullanıcısına eşlenen bir Windows Active Directory kullanıcısı belirtmeniz gerekir. Geri kalan alanlar (**Sistem numarası **,** İstemci Kimliği **,** SNC İş Ortağı Adı**, vb.) BW sunucunuzu çoklu oturum açma aracılığıyla bağlanmak için Power BI Desktop’a girdiğiniz bilgilerle eşleşmelidir. **Uygula**’yı seçip test bağlantısının başarılı olduğundan emin olun.
+
+    ![Kimlik doğrulama yöntemi](media/service-gateway-sso-kerberos/authentication-method.png)
+
+1. Bir CCL\_PROFILE sistem ortamı değişkeni oluşturup bunun sapcrypto.ini dosyasına işaret etmesini sağlayın.
+
+    ![CCL\_PROFILE sistem ortamı değişkeni](media/service-gateway-sso-kerberos/ccl-profile-variable.png)
+
+    sapcrypto.dll ve .ini dosyalarının aynı konumda bulunması gerektiğini unutmayın. sapcrypto.ini dosyasının masaüstünde bulunduğu yukarıdaki örnekte, sapcrypto.dll dosyası da masaüstünde bulunmalıdır.
+
+1. Ağ geçidi hizmetini yeniden başlatın:
+
+    ![Ağ geçidi hizmetini yeniden başlatma](media/service-gateway-sso-kerberos/restart-gateway-service.png)
+
+1. Power BI Desktop’tan bir **DirectQuery tabanlı** BW raporu yayımlayın. Bu rapor, Power BI hizmetinde oturum açan Azure Active Directory (AAD) kullanıcısına eşlenmiş BW kullanıcısı için erişilebilir olan verileri kullanmalıdır. Yenileme bu şekilde çalıştığı için içeri aktarma yerine DirectQuery kullanmanız gerekir. İçeri aktarma tabanlı raporlarının yenilenmesi esnasında, BW veri kaynağını oluştururken **Kullanıcı Adı** ve **Parola** alanlarına girdiğiniz kimlik bilgileri ağ geçidi tarafından kullanılır. Farklı bir deyişle, Kerberos SSO **kullanılmaz**. Ayrıca, birden fazla ağ geçidiniz varsa, yayımlarken BW SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Power BI hizmetinde artık raporu yenileme veya yayımlanan veri kümesini temel alarak yeni bir rapor oluşturma imkanınızın gerekir.
+
+### <a name="troubleshooting"></a>Sorun giderme
+
+Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamanıza yardımcı olması için ağ geçidi izleme, CPIC izleme ve CommonCryptoLib izleme özelliklerini kullanabilirsiniz. CPIC izleme ve CommonCryptoLib, SAP ürünleridir. Bu nedenle, Microsoft bunlar için doğrudan destek sağlayamaz. Bazı Active Directory yapılandırmaları, BW’ye çoklu oturum açma erişimi verilecek Active Directory kullanıcıları için kullanıcıların ağ geçidinin kurulu olduğu makinede Yöneticiler grubunun üyesi olmasını gerektirebilir.
+
+1. **Ağ geçidi günlükleri:** Sorunu yeniden oluşturun. [Ağ geçidi uygulamasını](https://docs.microsoft.com/data-integration/gateway/service-gateway-app) açın, **Tanılama** sekmesine gidin ve **Günlükleri dışarı aktar** seçeneğini belirleyin:
+
+    ![Ağ geçidi günlüklerini dışarı aktarma](media/service-gateway-sso-kerberos/export-gateway-logs.png)
+
+1. **CPIC İzleme:** CPIC izlemeyi etkinleştirmek için iki ortam değişkeni ayarlayın: CPIC\_TRACE ve CPIC\_TRACE\_DIR. İlk değişken izleme düzeyini, ikinci değişken de izleme dosyası dizinini ayarlar. Dizin, Kimliği Doğrulanmış Kullanıcılar grubunun yazma izninin bulunduğu bir konum olmalıdır. Set CPIC\_TRACE parametresini 3 olarak belirleyip CPIC\_TRACE\_ parametresini izleme dosyalarının yazılmasını istediğiniz dizine ayarlayın.
+
+    ![CPIC izleme](media/service-gateway-sso-kerberos/cpic-tracing.png)
+
+    Sorunları yeniden oluşturup CPIC\_TRACE\_DIR parametresinin izleme dosyalarını içerdiğinden emin olun.
+
+1. **CommonCryptoLib İzleme:** Önceden oluşturduğunuz sapcrypto.ini dosyasına iki satır ekleyerek CommonCryptoLib izlemeyi açın:
+
+    ```
+    ccl/trace/level=5
+    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ```
+
+    _ccl/trace/directory_ seçeneğini Kimliği Doğrulanmış Kullanıcılar grubu üyelerinin yazma izninin olduğu bir konuma ayarladığınızdan emin olun. Alternatif olarak, bu davranışı değiştirmek için yeni bir .ini dosyası oluşturun. sapcrypto.ini ve sapcrypto.dll ile aynı dizinde sectrace.ini adlı bir dosya oluşturup aşağıdaki içeriklere sahip olmasını sağlayın.  DİZİN seçeneğini, Kimliği Doğrulanmış Kullanıcının yazma izninin olduğu, makinenizde bulunan bir konumla değiştirin:
+
+    ```
+    LEVEL = 5
+    
+    DIRECTORY = \\<drive\\>:\logs\sectrace
+    ```
+
+    Şimdi, sorunu yeniden oluşturun ve DIZINE göre işaret eden konumun izleme dosyaları içerip içermediğini denetleyin. İşiniz bittiğinde CPIC ve CCL izlemeyi kapatmayı unutmayın.
+
+    CommonCryptoLib izleme hakkında daha fazla bilgi için bkz. [SAP Notu 2491573](https://launchpad.support.sap.com/#/notes/2491573) (s-user gerekir).
+
+## <a name="configure-sap-bw-for-sso-using-gsskrb5gx64krb5"></a>gsskrb5/gx64krb5 kullanarak SAP BW’yi SSO için yapılandırma
+
+SNC kitaplığınız olarak CommonCryptoLib’i kullanamıyorsanız, bunun yerine gsskrb5/gx64krb5’i kullanabilirsiniz. Ancak, kurulum adımları çok daha karmaşıktır ve SAP artık gsskrb5 için destek sağlamamaktadır.
 
 Bu kılavuz mümkün olduğunca kapsamlı olmaya çalışır. Bu adımlardan bazılarını önceden tamamladıysanız atlayabilirsiniz. Örneğin, SAP BW sunucunuz için zaten bir hizmet kullanıcısı oluşturmuş olabilir ve kullanıcıya bir SPN eşlemiş veya `gsskrb5` kitaplığını zaten yüklemiş olabilirsiniz.
 

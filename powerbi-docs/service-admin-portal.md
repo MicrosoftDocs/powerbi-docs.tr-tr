@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568124"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501765"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -133,7 +133,7 @@ Denetim günlüklerini kullanmak için [**İç etkinlik denetimi ve uyumluluk i�
 
 **Kiracı ayarları** sekmesi, kuruluşunuzun kullanımına sunulan özellikler üzerinde çok ayrıntılı bir denetime olanak tanır. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz belirli özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz.
 
-Aşağıdaki resimde **Kiracı ayarları** sekmesinin ilk iki bölümü gösterilir.
+Aşağıdaki resimde **Kiracı ayarları** sekmesinin birkaç ayarı gösterilir.
 
 ![Kiracı ayarları](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bak
 Kuruluştaki kullanıcılar, Power BI yardım menüsünden iç yardıma ve destek kaynaklarına gidebilir. Özellikle, bu parametreler Öğrenme, Topluluk ve Yardım alın menü öğelerinin davranışını değiştirir.
 
 Kullanıcıları lisanslama istekleri için özel bir çözüme yönlendirmek üzere bir URL belirtmek de mümkündür. Bu parametre, Power BI Pro lisansı olmayan bir kullanıcının Power BI Pro’ya Güncelleştir iletişim kutusunda ve Kişisel depolama alanını yönet sayfasında bulabileceği Hesabı yükselt düğmesinin hedef URL’sini özelleştirir.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylar için e-posta bildirimlerini etkinleştir
+
+Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenlik grupları e-posta bildirimleri alır. [Hizmet kesintisi bildirimleri](service-interruption-notifications.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="workspace-settings"></a>Çalışma alanı ayarları
 

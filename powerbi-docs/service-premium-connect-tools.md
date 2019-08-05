@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235058"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475629"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>İstemci uygulamaları ve araçlarıyla veri kümelerine bağlanma (Önizleme)
 
-Power BI Premium çalışma alanları ve veri kümeleri Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* bağlantıları destekler. 
+Power BI Premium çalışma alanları ve veri kümeleri Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* bağlantıları destekler. Bağlantılar, varsayılan olarak etkinleştirilir
 
 > [!NOTE]
 > Bu makalenin tek amacı Power BI Premium çalışma alanları ve veri kümelerine salt okunur bağlantıyı tanıtmaktır. Programlama, belirli araç ve uygulamalar, mimari ve çalışma alanı ile veri kümesi yönetimi hakkında ayrıntılı bilgi sağlamayı *amaçlamaz*. Burada açıklanan konular Analysis Services tablosal model veritabanı mimarisi ve yönetimi hakkında üst düzey bilgi gerektirir.
@@ -104,6 +104,10 @@ Aşağıdaki veri kümeleri Power BI hizmetinde desteklenmez:
 ### <a name="roles-and-role-memberships"></a>Roller ve rol üyelikleri
 
 Şu anda, model rolleri ve rol üyelikleri XMLA uç noktaları kullanarak bulunamaz veya görüntülenemez.
+
+## <a name="disable-connectivity"></a>Bağlantıyı devre dışı bırakma
+
+XMLA Uç noktası bağlantısı, veri kümesi iş yükü için varsayılan olarak etkindir. Bağlantıyı [İş yükü ayarlarında](service-admin-premium-workloads.md#workload-settings) devre dışı bırakabilirsiniz.
 
 ## <a name="audit-logs"></a>Denetim günlükleri 
 

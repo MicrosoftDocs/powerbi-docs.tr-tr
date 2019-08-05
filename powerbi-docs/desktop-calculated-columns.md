@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239905"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522193"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunları kullanma
 Hesaplanmış sütunları kullanarak modelinizdeki tablolara yeni veriler ekleyebilirsiniz. Ancak bir veri kaynağından yeni sütununuza değer sorgulamak ve yüklemek yerine sütunun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanmış sütunları oluşturmak için Rapor Görünümündeki Yeni Sütun özelliğini kullanabilirsiniz.
@@ -31,13 +31,13 @@ Hesaplanmış sütunlar sonuçları hesaplamak için Power BI Desktop'takiler gi
 DAX formülleri Excel formülleriyle benzerdir. Hatta DAX, Excel'deki formüllerin çoğuna sahiptir. Ancak DAX işlevleri, Power BI Desktop'ta olduğu gibi etkileşimli olarak dilimlenmiş veya filtrelenmiş rapor verileriyle birlikte çalışacak şekilde tasarlanmıştır. Bir tablodaki her satır için ayrı bir formül kullanabildiğiniz Excel'den farklı olarak yeni bir sütun için bir DAX formülü oluşturduğunuzda tablodaki tüm satırlar için hesaplama gerçekleştirilir. Sütun değerleri bağlı olduğu veriler ve değerler değiştirildiğinde yeniden hesaplanır.
 
 ## <a name="lets-look-at-an-example"></a>Bir örneğe göz atalım
-Jeff, Contoso'da nakliye sorumlusu olarak çalışmaktadır. Farklı şehirlere gönderilen paketlerin sayısını gösteren bir rapor oluşturmak istemektedir. Şehir ve eyaletler için ayrı alanlara sahip Geography adlı bir tabloya sahiptir. Ancak Jeff, raporlarında Şehir, Eyalet bilgilerinin aynı satırda tek bir değer halinde gösterilmesini istemektedir. Jeff'in mevcut Geography tablosunda istediği gibi bir alan mevcut değildir.
+Contoso’da sevkiyat müdürü olan Jeff, farklı şehirlere gönderilen paketlerin sayısını gösteren bir rapor oluşturmak istemektedir. Jeff, şehir ve eyaletler için ayrı alanları bulunan Geography adlı bir tabloya sahiptir. Ancak Jeff, raporlarında Şehir, Eyalet bilgilerinin aynı satırda tek bir değer halinde gösterilmesini istemektedir. Jeff'in mevcut Geography tablosunda istediği gibi bir alan mevcut değildir.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
 Ancak Jeff, hesaplanmış sütun kullanarak City sütunundaki şehirleri State sütunundaki eyaletlerle bir araya getirebilir.
 
-Jeff, Geography tablosuna sağ tıklayıp Yeni Sütun'u seçer. Ardından formül çubuğuna aşağıdaki DAX formülünü girer:
+Jeff, Geography tablosuna sağ tıklayıp Yeni Sütun'u seçer. Bunun ardından, Jeff formül çubuğuna aşağıdaki DAX formülünü girer:
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
@@ -47,7 +47,7 @@ Jeff artık istediği alana sahiptir.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Bu sütunu gönderim sayısıyla birlikte rapor tuvaline ekleyebilir. Çok hızlı bir şekilde ve en az çaba ile Jeff’in artık, neredeyse tüm görselleştirme türlerine ekleyebileceği bir City, State alanı var. Jeff, harita görselleştirmesi oluşturduğunda Power BI Desktop'ın yeni sütunundaki City, State değerlerini nasıl okuması gerektiğini bildiğini de görüyor.
+Jeff, sevkiyatların sayısıyla birlikte artık bunu rapor tuvaline ekleyebilir. Çok hızlı bir şekilde ve en az çaba ile Jeff’in artık, neredeyse tüm görselleştirme türlerine eklenebilen bir City, State alanı var. Jeff, harita görselleştirmesi oluşturulduğunda Power BI Desktop'ın yeni sütunundaki City, State değerlerinin nasıl okuması gerektiğini bildiğini de görüyor.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

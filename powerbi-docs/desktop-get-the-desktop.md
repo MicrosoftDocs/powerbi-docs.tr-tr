@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454525"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590488"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -93,7 +93,7 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 
 * Windows 7/Windows Server 2008 R2 veya sonraki sürümler
 * .NET 4.5
-* Internet Explorer 9 veya sonraki sürümler
+* Internet Explorer 10 veya sonraki sürümler
 * **Bellek (RAM):** En az 1 GB kullanılabilir bellek. (1,5 GB veya daha fazla bellek önerilir.)
 * **Ekran:** En az 1440x900 veya 1600x900 (16:9) ekran önerilir. Belirli denetimler (başlangıç ekranını kapatma gibi) bu çözünürlükleri aşacağı için 1024x768 veya 1280x800 gibi daha düşük çözünürlükler önerilmez.
 * **Windows Görüntü ayarları:** Görüntü ayarlarınız metin, uygulama ve diğer öğelerin boyutunu %100'den fazla değiştirecek şekilde belirlendiyse **Power BI Desktop**'ı kullanmaya devam etmek için kapatılması veya yanıt verilmesi gereken bazı iletişim kutularını göremeyebilirsiniz. Bu sorunla karşılaşırsanız Windows'da **Ayarlar > Sistem > Görüntü** yolunu izleyerek **Görüntü ayarları**'nı denetleyin ve kaydırıcıyı kullanarak görüntü ayarlarını %100'e döndürün.

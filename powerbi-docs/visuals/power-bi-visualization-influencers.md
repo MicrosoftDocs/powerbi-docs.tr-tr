@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751260"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590589"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
 Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, çalışan kaybı olarak da bilinen personel değişim oranını etkileyen etmenleri öğrenmek istediğinizi varsayalım. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
@@ -132,8 +132,13 @@ Görselleştirme, kullanım süresinin her 13,44 ay artması durumunda, ortalama
  
 Sağ bölmedeki dağılım grafiği, her Kullanım Süresi değeri için ortalama düşük puan yüzdesini belirtir. Eğilim çizgisiyle eğimi vurgular.
 
-
 ![Kullanım Süresi için dağılım grafiği](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Sürekli ana etmenleri bölme
+
+Bazı durumlarda, sürekli faktörlerinizin otomatik olarak kategorik faktörlere dönüştürüldüğünü görebilirsiniz. Bu, değişkenlerin arasındaki ilişkinin doğrusal olmadığını fark edip ilişkiyi yalnızca artan veya azalan olarak (yukarıdaki ilk örnekte yaptığımız gibi) tanımlayamadığımız için yaşandı.
+
+Etmenlerin hedef açısından ne kadar doğrusal olduğunu belirlemek için bağıntı testleri gerçekleştiririz. Hedef sürekli ise Perasons, kategorik ise çift serili bağıntı testleri gerçekleştiririz. İlişkinin yeterince doğrusal olmadığını algılarsak, denetimli bölme gerçekleştirip en fazla 5 grup oluştururuz. Hangi bölmelerin en mantıklı olduğunu anlamak için açıklayıcı faktör ve analiz edilen hedef arasındaki ilişkiyi inceleyen bir denetimli bölme yöntemi kullanırız.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Ana etmenler olarak ölçüleri/toplamları yorumlama 
  
@@ -209,15 +214,14 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme 
  
-**Önizlemenin sınırlamaları nelerdir?** 
+**Görsel için sınırlamalar nelerdir?** 
  
-Şu anda genel önizlemede olan ana etmenler görselinin bazı sınırlamaları bulunur. Şu anda kullanılamayan işlevler: 
-- Toplamlardan veya ölçülerden oluşan ölçümleri çözümleme.
-- Görseli Power BI Embedded’de kullanma.
-- Görseli Power BI mobil uygulamalarında kullanma.
-- RLS desteği.
-- Doğrudan Sorgu desteği.
-- Canlı Bağlantı desteği.
+Ana etmenler görselinin bazı sınırlamaları bulunur:
+
+- Doğrudan Sorgu desteklenmiyor
+- Azure Analysis Services ve Sql Server Analysis Services’e Canlı Bağlantı desteklenmiyor
+- Web'de yayımlama desteklenmiyor
+- .NET Framework 4.6 veya üzeri gereklidir
 
 ![Sayısal soru](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ Cihaz müşteri düzeyinde tanımlanmadığı için bu hatayla karşılaşılır
 - Sayılacak cihazların özetlemesini değiştirebilirsiniz. Örneğin, cihazların sayısı, müşterinin verdiği puanı etkileyebilirse sayıyı kullanın. 
 - Hizmeti belirli bir cihazda kullanmanın müşteri derecelendirmesini etkileyip etkilemediğini görmek için cihaz sütununu özetleyebilirsiniz.
  
-Bu örnekte, veriler özetlenerek tarayıcı, mobil ve tablet için yeni sütunlar oluşturulur. Bu belirli cihazları artık **Açıklama ölçütü** alanında kullanabilirsiniz. Tüm cihazların birer etmen olduğunu ve müşteri puanında en büyük etkinin tarayıcıya ait olduğunu buluruz.
+Bu örnekte, tarayıcı, mobil ve tablet için yeni sütunlar oluşturmak amacıyla veriler özetlendi (verilerinizi özetledikten sonra modelleme görünümündeki ilişkilerinizi silip yeniden oluşturmayı unutmayın). Bu belirli cihazları artık **Açıklama ölçütü** alanında kullanabilirsiniz. Tüm cihazların birer etmen olduğunu ve müşteri puanında en büyük etkinin tarayıcıya ait olduğunu buluruz.
 
 Daha kesin belirtmek gerekirse, hizmeti tarayıcıyla kullanmayan müşterilerin düşük puan verme olasılığı tarayıcı kullanan müşterilerden 3,79 kat fazladır. Listenin daha aşağısında yer alan mobil için tam tersi geçerlidir. Mobil uygulama kullanan müşterilerin düşük puan verme olasılığı kullanmayan müşterilere göre daha yüksektir. 
 

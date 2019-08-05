@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136728"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523176"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir panonun kopyasını oluşturma
 ![pano](media/service-dashboard-copy/power-bi-dashboard.png)

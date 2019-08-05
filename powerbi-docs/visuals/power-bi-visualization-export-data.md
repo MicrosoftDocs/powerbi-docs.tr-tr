@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299435"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523350"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 
@@ -150,9 +150,9 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
 
 - Görseldeki verileri dışarı aktarmak için [Temel alınan veri kümesi üzerinde Derleme izniniz](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets) olmalıdır.
 
--  **Power BI Desktop**’ın ve **Power BI hizmetinin** bir *.csv* dosyasına aktarabildiği maksimum satır sayısı 30.000'dir.
+-  **Power BI Desktop** ve **Power BI hizmetinin** **içeri aktarma modu raporundan** bir *.csv* dosyasına aktarabildiği en fazla satır sayısı 30.000’dir.
 
-- Uygulamaların bir *.xlsx* dosyasına aktarabildiği maksimum satır sayısı 150.000'dir.
+- Uygulamaların **içeri aktarma modu raporundan** bir *.xlsx* dosyasına aktarabildiği en fazla satır sayısı 150.000'dir.
 
 - *Temel alınan verileri* kullanarak dışarı aktarma aşağıdaki durumlarda çalışmaz:
 
@@ -166,7 +166,7 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
 
 - Power BI'ın dışarı aktardığı görselleştirme için *Veri içermeyen öğeleri göster* seçeneğini etkinleştirdiyseniz *Temel alınan verileri* kullanarak dışarı aktarma özelliği çalışmaz.
 
-- DirectQuery kullanılırken, Power BI’nin dışarı aktarabildiği maksimum veri miktarı 16 MB'tır. Maksimum satır sayısından daha azını dışarı aktarma gibi istenmeyen bir sonuçla karşılaşabilirsiniz. Bunun olası nedeni:
+- DirectQuery kullanılırken, Power BI’nin dışarı aktarabildiği maksimum veri miktarı 16 MB sıkıştırılmamış veridir. Maksimum satır sayısından daha azını dışarı aktarma gibi istenmeyen bir sonuçla karşılaşabilirsiniz. Bunun olası nedeni:
 
     - Çok fazla sütun vardır.
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI yönetimi - sık sorulan sorular (SSS)
-description: Power BI kaydolma, Kiracı Yönetimi ve diğer yönetim görevleri hakkında sık sorulan soruların yanıtlarını öğrenin.
+description: Power BI’a kaydolma, kiracı yönetimi ve diğer yönetim görevleri hakkında sık sorulan soruların yanıtlarını öğrenin.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e51017333a940bd9d7838e6a903c1a66ce2e342
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65100768"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523396"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -30,7 +30,7 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 * [Kuruluşumdaki bireysel kullanıcılar nasıl kaydolur?](#how-do-individual-users-in-my-organization-sign-up)
 * [Kullanıcıların, var olan Office 365 kiracıma katılmalarını nasıl önleyebilirim?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
 * [Kullanıcıların, var olan Office 365 kiracıma katılmalarına nasıl izin verebilirim?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
-* [Ben kiracıda engelin etkin nasıl kontrol edebilirim?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
+* [Kiracıda engelin etkin olup olmadığını nasıl kontrol ederim?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [Mevcut kullanıcılarımın Power BI'ı kullanmaya başlamasını nasıl önleyebilirim?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [Mevcut kullanıcılarımın Power BI'a kaydolmasına nasıl izin veririm?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
@@ -39,10 +39,10 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 * [Bu, şu anda kuruluşumdaki kullanıcıların kimliklerini yönetme biçimimi nasıl değiştirecek?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI nasıl yönetilir?](#how-do-we-manage-power-bi)
 * [Kullanıcılarım için Microsoft tarafından oluşturulan bir kiracıyı yönetme süreci nasıldır?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
-* [Ben birden çok etki alanım olması halinde, miyim kullanıcılar için eklenin Office 365 kiracısını denetleyebilir miyim?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
+* [Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Kayıtlı kullanıcıların Power BI lisansını nasıl kaldırabilirim?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Kiracıma yeni kullanıcıların katıldığını nasıl anlarım?](#how-do-i-know-when-new-users-have-joined-my-tenant)
-* [İçin hazırlama başka şeyler var mı?](#are-there-any-additional-things-i-should-prepare-for)
+* [Hazırlıklı olmam gereken başka şeyler var mı?](#are-there-any-additional-things-i-should-prepare-for)
 * [Power BI kiracım nerede bulunur?](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) nedir?](#what-is-the-power-bi-sla)
 * [Power BI yüksek kullanılabilirliği ve yük devretmeyi nasıl işler?](#how-does-power-bi-handle-high-availability-and-failover)
@@ -60,29 +60,29 @@ Bu bölümdeki yordamların bazılarında Windows PowerShell betiklerinin kullan
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Kullanıcılar Power BI'a nasıl kaydolur?
 
-Power bı'a kaydolabilir bir yönetici [Power BI web sitesine](https://powerbi.microsoft.com) veya [hizmetleri satın](https://admin.microsoft.com/AdminPortal/Home#/catalog) Microsoft 365 Yönetim Merkezi sayfasında. Bir yönetici Power BI'a kaydolduğunda, erişimi olması gereken kullanıcılara kullanıcı lisansları atayabilirsiniz.
+Yönetici olarak Power BI’a [Power BI web sitesinden](https://powerbi.microsoft.com) veya Microsoft 365 yönetim merkezinin [Hizmet satın al](https://admin.microsoft.com/AdminPortal/Home#/catalog) sayfasından kaydolabilirsiniz. Bir yönetici Power BI’a kaydolduğunda, erişimi olması gereken kullanıcılara kullanıcı lisansları atayabilir.
 
-Ayrıca kuruluşunuzdaki bireysel kullanıcılar [Power BI web sitesine](https://powerbi.microsoft.com) giderek Power BI'a kaydolabilir. Kuruluşunuzdaki bir kullanıcı Power BI'a kaydolduğunda, hizmetin bir Power BI lisansı kullanıcıya otomatik olarak atar. Daha fazla bilgi için bkz. [bireysel olarak Power BI için kaydolma](service-self-service-signup-for-power-bi.md) ve [kuruluşunuzda Power BI lisansı](service-admin-licensing-organization.md).
+Ayrıca kuruluşunuzdaki bireysel kullanıcılar [Power BI web sitesine](https://powerbi.microsoft.com) giderek Power BI'a kaydolabilir. Kuruluşunuzdaki bir kullanıcı Power BI’a kaydolduğunda, hizmet kullanıcıya otomatik olarak bir Power BI lisansı atar. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md) ve [Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md).
 
 ### <a name="how-do-individual-users-in-my-organization-sign-up"></a>Kuruluşumdaki bireysel kullanıcılar nasıl kaydolur?
 
 Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
 * **1. Senaryo**: Kuruluşunuzda zaten bir Office 365 ortamı vardır ve Power BI'a kaydolacak kullanıcı bir Office 365 hesabına sahiptir.
-    Bu senaryoda, bu hesabın planını, Microsoft yalnızca bir kullanıcı zaten bir iş veya Okul hesabı kiracıda (örneğin, contoso.com) ancak henüz Power BI olmayan, etkinleştirir. Kullanıcı, Power BI hizmetini kullanma hakkında bilgiler ile otomatik olarak bilgilendirilir.
+    Bu senaryoda, kullanıcının kiracıda (örneğin, contoso.com) bir iş veya okul hesabı var ancak Power BI hesabı yoksa Microsoft, mevcut planı söz konusu hesap için etkinleştirir. Kullanıcı, Power BI hizmetinin nasıl kullanılacağı konusunda otomatik olarak bilgilendirilir.
 
 * **2. Senaryo**: Kuruluşunuzda zaten bir Office 365 ortamı vardır ancak Power BI'a kaydolacak kullanıcının Office 365 hesabı yoktur.
-    Bu senaryoda, kullanıcı kuruluşunuzun etki alanında (örneğin, contoso.com) bir e-posta adresine sahiptir, ancak henüz bir Office 365 hesabı yoktur. Bu durumda, kullanıcı Power BI'a kaydolabilir ve otomatik olarak bir hesap edinir. Bu eylem, Power BI hizmetinde kullanıcı erişim sağlar. Örneğin, bir çalışan Nancy adlı kendi iş e-posta adresi (gibi nancy@contoso.com) kaydolmak için Microsoft otomatik olarak Nancy Contoso'nun Office 365 ortamına kullanıcı olarak ekler ve bu hesap için Power BI'ı etkinleştirir.
+    Bu senaryoda, kullanıcının kuruluşunuzun etki alanında (örneğin, contoso.com) bir e-posta adresi vardır ancak henüz Office 365 hesabı yoktur. Bu durumda, kullanıcı Power BI'a kaydolabilir ve otomatik olarak bir hesap edinir. Bu eylem kullanıcının Power BI hizmetine erişmesine olanak sağlar. Örneğin, Nancy adlı bir çalışan iş e-posta adresiyle (örneğin, nancy@contoso.com) kaydolursa Microsoft otomatik olarak Nancy'yi Contoso'nun Office 365 ortamına bir kullanıcı olarak ekler ve hesabı için Power BI'ı etkinleştirir.
 
 * **3. Senaryo**: Kuruluşunuzun e-posta etki alanınıza bağlı bir Office 365 ortamı yoktur.
-    Power BI yararlanmak, kuruluşunuz için gerekli herhangi bir yönetimsel eylem vardır. Hizmet, kullanıcıların yeni, yalnızca bulutta yer alan bir kullanıcı dizinine ekler. Kiracı Yöneticisi olarak devralır ve yönetmek seçebilirsiniz.
+    Kuruluşunuzun Power BI'dan faydalanmak için gerçekleştirmesi gereken bir yönetim eylemi yoktur. Hizmet, kullanıcıları yeni bir yalnızca bulut kullanıcı dizinine ekler. Kiracı yöneticisi rolünü devralarak bunları yönetmeyi de tercih edebilirsiniz.
 
 > [!IMPORTANT]
-> Kuruluşunuz birden fazla e-posta etki alanına sahipse ve tüm e-posta adresi uzantılarının aynı kiracıda olmasını tercih ediyorsanız, kullanıcılar kaydolmadan önce tüm e-posta adresi etki alanlarını bir Azure Active Directory kiracısına ekleyin. Kullanıcılar oluşturduktan sonra kullanıcıları kiracılar arasında taşımak için herhangi bir Otomatik Sistem yoktur. Bu işlem hakkında daha fazla bilgi için bkz. [miyim birden çok etki alanım olması halinde, kullanıcılar için eklenin Office 365 kiracısını denetleyebilir?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to) bu makalenin ilerleyen bölümlerinde ve [Office 365'e bir etki alanı ekleme](/office365/admin/setup/add-domain/).
+> Kuruluşunuz birden fazla e-posta etki alanına sahipse ve tüm e-posta adresi uzantılarının aynı kiracıda olmasını tercih ediyorsanız, kullanıcılar kaydolmadan önce tüm e-posta adresi etki alanlarını bir Azure Active Directory kiracısına ekleyin. Kullanıcıları oluşturduktan sonra, bunları kiracılar arasında taşımak için kullanılabilecek herhangi bir otomatik sistem yoktur. Bu işlemle ilgili daha fazla bilgi için, bu makaledeki [Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to) bölümüne ve [Office 365'e etki alanı ekleme](/office365/admin/setup/add-domain/) başlıklı makaleye göz atın.
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Kullanıcıların, var olan Office 365 kiracıma katılmalarını nasıl önleyebilirim?
 
-Bir yönetici olarak, kullanıcıların Office 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Bir ileti görüntülenir ve erişimi, kullanıcıların girişimleri başarısız ' oturum engellemek yönlendirmez, kuruluşlarının yöneticisiyle iletişime geçin Otomatik lisans dağıtımını (örneğin, aracılığıyla Office 365 eğitim, Öğrenciler, Fakülte ve personel için) zaten devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
+Bir yönetici olarak, kullanıcıların Office 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Erişimi engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcıları kuruluşlarının yöneticisiyle iletişim kurmaya yönlendiren bir ileti görüntülenir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar aracılığıyla) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
 
 Yönetilen bir kiracıya yeni kullanıcıların katılmasını önlemek için aşağıdaki PowerShell komutunu kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Kullanıcıların, var olan Office 365 kiracıma katılmalarına nasıl izin verebilirim?
 
-Yeni kullanıcıların yönetilen bir kiracıya katılmasını sağlamak için aşağıdaki PowerShell betiğini kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
+Yönetilen bir kiracıya yeni kullanıcıların katılmasına olanak sağlamak için aşağıdaki PowerShell komutunu kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -107,9 +107,9 @@ connect-msolservice -credential $msolcred
 Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 ```
 
-### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>Ben kiracıda engelin etkin nasıl kontrol edebilirim?
+### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>Kiracıda engelin etkin olup olmadığını nasıl kontrol ederim?
 
-Ayarlarını denetlemek için aşağıdaki PowerShell betiğini kullanın. *AllowEmailVerifiedUsers*, false değerine sahip olmalıdır. ([PowerShell hakkında daha fazla bilgi edinin][1].)
+Ayarları kontrol etmek için aşağıdaki PowerShell betiğini çalıştırın. *AllowEmailVerifiedUsers*, false değerine sahip olmalıdır. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -120,7 +120,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Mevcut kullanıcılarımın Power BI'ı kullanmaya başlamasını nasıl önleyebilirim?
 
-Denetim **AllowAdHocSubscriptions** Azure AD ayarı tarafından gerçekleştirilir. Çoğu kiracıda bu etkin anlamına gelir true olarak ayarlanmış olması. Power BI iş ortağı aracılığıyla edindiyseniz, bu devre dışı olduğu anlamına gelir. false olarak ayarlanabilir.
+Denetim **AllowAdHocSubscriptions** Azure AD ayarı tarafından gerçekleştirilir. Çoğu kiracıda bu ayar true olarak ayarlanmış, diğer bir deyişle etkinleştirilmiştir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde false olabilir.
 
 Geçici abonelikleri devre dışı bırakmak için aşağıdaki PowerShell betiğini kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
@@ -131,26 +131,26 @@ Geçici abonelikleri devre dışı bırakmak için aşağıdaki PowerShell beti�
      connect-msolservice -credential $msolcred
     ```
 
-   ![PowerShell üzerinden ekran görüntüsü, Azure Active Directory oturum açma](media/service-admin-licensing-organization/azure-ad-sign-in.png)
+   ![PowerShell aracılığıyla Azure Active Directory oturum açma ekran görüntüsü](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Bir kez oturum açarken, nasıl kiracınız şu anda ayarlandığını görmek için aşağıdaki komutu çalıştırın.
+1. Oturum açtıktan sonra, kiracınızın geçerli ayarlarını görmek için aşağıdaki komutu çalıştırın.
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
     ```
 
-1. Etkinleştirmek için aşağıdaki komutu çalıştırın (`$true`) veya devre dışı bırakın (`$false`) **AllowAdHocSubscriptions**.
+1. Aşağıdaki komutu çalıştırarak **AllowAdHocSubscriptions** ayarını etkinleştirin (`$true`) veya devre dışı bırakın (`$false`).
 
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $false
     ```
 
 > [!NOTE]
-> Kullanım **AllowAdHocSubscriptions** bayrağı, kuruluşunuzdaki kullanıcıların Azure Rights Management hizmeti için kaydolmak de dahil olmak üzere çeşitli kullanıcı özelliklerini denetlemek için. Bu bayrağın değiştirilmesi bu özelliklerin tümünü etkiler.
+> Kuruluşunuzdaki çeşitli kullanıcı özelliklerini (kullanıcıların Azure Hak Yönetimi Hizmeti'ne kaydolabilmesi de dahil) denetlemek için **AllowAdHocSubscriptions** bayrağını kullanın. Bu bayrağın değiştirilmesi bu özelliklerin tümünü etkiler.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Mevcut kullanıcılarımın Power BI'a kaydolmasına nasıl izin veririm?
 
-Mevcut kullanıcılarınızın Power BI önceki soruda belirtilen komutu çalıştırın, kaydolmak izin verecek şekilde ancak geçirmek `$true` yerine `$false` son adımda.
+Mevcut kullanıcılarınızın Power BI'a kaydolmasına izin vermek için, önceki soruda belirtilen komutu çalıştırın ancak son adımda `$false` yerine `$true` değerini geçirin.
 
 ## <a name="administration-of-power-bi"></a>Power BI Yönetimi
 
@@ -158,40 +158,40 @@ Mevcut kullanıcılarınızın Power BI önceki soruda belirtilen komutu çalı�
 
 Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
-* **1. Senaryo**: Kuruluşunuzun bir Office 365 ortamı mevcutsa ve kuruluşunuzdaki tüm kullanıcıların Office 365 hesabı varsa kimlik yönetme Biçiminizde herhangi bir değişiklik yoktur.
+* **1. Senaryo**: Kuruluşunuzun bir Office 365 ortamı varsa ve kuruluşunuzdaki tüm kullanıcıların Office 365 hesabı varsa kimlik yönetimi değişmez.
 
-* **2. Senaryo**: Kuruluşunuzun zaten bir Office 365 ortamı vardır ancak kuruluşunuzdaki tüm kullanıcılar Office 365 hesabı yoksa, biz kiracıda bir kullanıcı oluşturun ve kullanıcının iş veya Okul e-posta adresine göre lisans atarız.
+* **2. Senaryo**: Kuruluşunuzun bir Office 365 ortamı varsa ancak kuruluşunuzdaki her kullanıcının Office 365 hesabı yoksa kiracıda bir kullanıcı oluşturup kullanıcının iş veya okul e-posta adresine göre lisans atarız.
 
-    Sonuç olarak, kuruluşunuzdaki kullanıcılar hizmete kaydoldukça gibi belirli bir zamanda yönettiğiniz kullanıcı sayısı artar.
+    Bunun sonucunda, kuruluşunuzdaki kullanıcılar hizmete kaydoldukça, belirli herhangi bir zamanda yönettiğiniz kullanıcı sayısı artar.
 
-* **3. Senaryo**: Kuruluşunuzun e-posta etki alanınıza bağlı bir Office 365 ortamı yoksa kimlik yönetme Biçiminizde herhangi bir değişiklik yoktur.
+* **3. Senaryo**: Kuruluşunuzda e-posta etki alanınıza bağlı bir Office 365 ortamı yoksa, kimlik yönetme yönteminizde değişiklik olmaz.
 
-    Hizmet, kullanıcıların yeni, yalnızca bulutta yer alan bir kullanıcı dizinine ekler. Ayrıca, Kiracı Yöneticisi olarak devralır ve yönetmek seçebilirsiniz.
+    Hizmet, kullanıcıları yeni bir yalnızca bulut kullanıcı dizinine ekler. Ayrıca, kiracı yöneticisi rolünü devralarak bunları yönetmeyi de tercih edebilirsiniz.
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI nasıl yönetilir?
 
-Power BI, kullanım istatistiklerini görüntülemenizi sağlayan bir yönetim portalı kullanıcıları ve grupları yönetmek için Microsoft 365 Yönetim Merkezi bir bağlantı sağlar ve Kiracı genelinde ayarları denetleme olanağı sağlar sağlar.
+Power BI, kullanım istatistiklerini görüntüleyebileceğiniz bir yönetici portalı, kullanıcı ve grupları yönetmeniz için Microsoft 365 yönetim merkezine yönelik bir bağlantı ve kiracı genelinde ayarları denetleme olanağı sağlar.
 
-Power BI Yönetici portalı kullanmak için hesabınız olarak işaretlemek bir **genel yönetici** içinde Office 365 veya Azure Active Directory veya biri Power BI hizmeti Yönetici rolüne kullanıcı hesabınıza atamanız gerekir. Daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md) ve [Power BI Yönetici portalı](service-admin-portal.md).
+Power BI yönetici portalını kullanmak için hesabınızı, Office 365 veya Azure Active Directory'de **Genel Yönetici** olarak işaretlemiş olmanız veya kullanıcı hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Daha fazla bilgi için bkz. [Power BI hizmet yöneticisi rolünü anlama](service-admin-role.md) ve [Power BI Yönetim Portalı](service-admin-portal.md).
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Kullanıcılarım için Microsoft tarafından oluşturulan bir kiracıyı yönetme süreci nasıldır?
 
-Azure AD kullanan bir bulut hizmeti için bir Self Servis kullanıcı kaydolduğunda hizmet bunları yönetilmeyen bir Azure ekler AD dizini temel e-posta etki. Talebi ve kişi olarak da bilinen bir işlem kullanılarak oluşturulan bir kiracıyı yönetme bir *yönetici devralma işlemini*. Bunu devralma türü bağımlı olup olmadığını mevcut bir yönetilen etki alanınız ile ilişkili Kiracı:
+Bir kullanıcı Azure AD kullanan bir bulut hizmetine kendi kendine kaydolduğunda, hizmet kullanıcıyı e-posta etki alanı temelinde yönetilmeyen bir Azure AD dizinine ekler. *Yönetici devralma* olarak bilinen bir işlemi kullanarak başka birinin oluşturduğu kiracıyı alabilir ve yönetebilirsiniz. Gerçekleştirdiğiniz devralma işleminin türü, etki alanınızla ilişkilendirilmiş bir yönetilen kiracının var olup olmadığına bağlıdır:
 
 * Etki alanına yeni bir yönetilen kiracı oluşturmak için *dahili devralma* kullanın.
 
 * Etki alanını mevcut yönetilen kiracıya taşımak için *harici devralma* kullanın.
 
-Daha fazla bilgi için bkz. [Azure Active Directory'de yönetici olarak yönetilmeyen bir dizini devralma](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+Daha fazla bilgi için bkz. [Azure Active Directory'de yönetilmeyen bir dizini yönetici olarak devralma](/azure/active-directory/users-groups-roles/domains-admin-takeover).
 
-Bir dış devralma işlemi gerçekleştirdiğinizde hizmeti Power BI içinde devralma önce oluşturulan içerik yerleştirir bir [Power BI arşivlenmiş çalışma](service-admin-power-bi-archived-workspace.md). Yeni kiracıda kullanmak istediğiniz tüm içeriği el ile geçirmeniz gerekir.
+Harici devralma gerçekleştirdiğinizde, hizmet devralma öncesinde oluşturulmuş olan Power BI içeriğini [Power BI Arşivlenmiş Çalışma Alanı](service-admin-power-bi-archived-workspace.md)'na yerleştirir. Yeni kiracıda kullanmak istediğiniz tüm içeriği el ile geçirmeniz gerekir.
 
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Ben birden çok etki alanım olması halinde, miyim kullanıcılar için eklenin Office 365 kiracısını denetleyebilir miyim?
+### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?
 
-Hizmet, işlem yapmamanız durumunda her bir kullanıcı e-posta etki alanı ve alt etki alanı için bir kiracı oluşturur. E-posta adresi uzantılarından bağımsız olarak tüm kullanıcıların aynı kiracıda olmasını istiyorsanız: Önceden bir hedef Kiracı oluşturun veya mevcut bir kiracıyı kullanın. Ardından mevcut etki alanlarını ve ilgili kiracıda birleşmesini istediğiniz alt etki alanlarını ekleyin. Otomatik olarak bu etki alanları ve alt etki alanlarıyla biten e-posta adreslerine sahip tüm kullanıcı kaydolduğunda hedef kiracıya katılın.
+Hiçbir işlem yapmamanız durumunda hizmet, her bir kullanıcı e-postası etki alanı ve alt etki alanı için bir kiracı oluşturur. E-posta adresi uzantılarından bağımsız olarak tüm kullanıcıların aynı kiracıda olmasını istiyorsanız: Önceden bir hedef kiracı oluşturun veya var olan bir kiracıyı kullanın. Daha sonra, kiracıyla birleştirmek istediğiniz tüm mevcut etki alanlarını ve alt etki alanlarını ekleyin. E-postaları bu etki alanları ve alt etki alanları ile sona eren tüm kullanıcılar kaydolduklarında otomatik olarak hedef kiracıya eklenir.
 
 > [!IMPORTANT]
-> Kullanıcılar oluşturduktan sonra kullanıcıları kiracılar arasında taşımak için desteklenen hiçbir otomatik sistem yoktur. Tek bir Office 365 kiracısına etki alanı ekleme hakkında bilgi edinmek için bkz. [Office 365'e etki alanı ve kullanıcı ekleme](/office365/admin/setup/add-domain/).
+> Kullanıcıları oluşturduktan sonra, bunları kiracılar arasında taşımak için kullanılabilecek desteklenen herhangi bir otomatik sistem yoktur. Tek bir Office 365 kiracısına etki alanı ekleme hakkında bilgi edinmek için bkz. [Office 365'e etki alanı ve kullanıcı ekleme](/office365/admin/setup/add-domain/).
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Kayıtlı kullanıcıların Power BI lisansını nasıl kaldırabilirim?
 
@@ -207,13 +207,13 @@ Power BI'a kaydolmuş bir kullanıcının artık Power BI'a erişim sağlamasın
 
 1. Kullanıcı ayrıntıları sayfasında **Ürün lisansları**'nın yanında **Düzenle**’yi seçin.
 
-1. Uygulanan hesaplarına bağlı olarak, lisans üzerinde Ayarla **Power BI (ücretsiz)** veya **Power BI Pro** için **kapalı**.
+1. İlgili hesaba uyguladığınız lisansa göre, **Power BI (ücretsiz)** veya **Power BI Pro** seçeneğini **Kapalı** olarak belirleyin.
 
 1. **Kaydet**'i seçin.
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>Kiracıma yeni kullanıcıların katıldığını nasıl anlarım?
 
-Kiracınıza bu programın bir parçası katılan kullanıcılara, yönetici panonuzun etkin kullanıcı bölmesinde içinde filtreleyebilirsiniz benzersiz bir lisans atanır. Bu yeni görünümü oluşturmak için aşağıdaki adımları izleyin.
+Kiracınıza bu programın bir parçası olarak katılan kullanıcılara benzersiz bir lisans atanır. Yönetici panonuzun etkin kullanıcı bölmesinde bu lisansa göre filtreleme yapabilirsiniz. Bu yeni görünümü oluşturmak için aşağıdaki adımları izleyin.
 
 1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
@@ -227,25 +227,25 @@ Kiracınıza bu programın bir parçası katılan kullanıcılara, yönetici pan
 
 1. Varsa eklemek istediğiniz diğer koşulları da girin ve **Ekle**'yi seçin.
 
-1. Yeni Görünüm oluşturduktan sonra kullanılabilir **görünümleri** menüsü.
+1. Yeni görünümü oluşturduktan sonra, görünüme **Görünümler** menüsünden erişebilirsiniz.
 
-### <a name="are-there-any-additional-things-i-should-prepare-for"></a>İçin hazırlama başka şeyler var mı?
+### <a name="are-there-any-additional-things-i-should-prepare-for"></a>Hazırlıklı olmam gereken başka şeyler var mı?
 
-Parola sıfırlama isteklerinde bir artış ile karşılaşabilirsiniz. Bu işlem hakkında daha fazla bilgi için bkz. [bir kullanıcının parolasını sıfırlama](/office365/admin/add-users/reset-passwords).
+Parola sıfırlama isteklerinde bir artış ile karşılaşabilirsiniz. Bu işlem hakkında bilgi almak için bkz. [Bir kullanıcının parolasını sıfırlama](/office365/admin/add-users/reset-passwords).
 
 Microsoft 365 yönetim merkezinde standart işlemi uygulayarak kiracınızdan kullanıcı kaldırabilirsiniz. Ancak, kullanıcı kuruluşunuzun etkin bir e-posta adresine sahipse siz tüm kullanıcıların katılımını engellemediğiniz sürece tekrar katılabilir.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
-Power BI kiracınızın hangi veri bölgesi olan, daha fazla bilgi için bkz: [Power BI kiracım nerede?](service-admin-where-is-my-tenant-located.md).
+Power BI kiracınızın bulunduğu veri bölgesi hakkında bilgi edinmek için bkz. [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md).
 
 ### <a name="what-is-the-power-bi-sla"></a>Power BI SLA'sı nedir?
 
-Power BI SLA'sı (hizmet düzeyi sözleşmesi) hakkında daha fazla bilgi için bkz. [lisans koşulları ve belgeler](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) makalesine **lisans** Microsoft Licensing Web sitesinin bölümünü.
+Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) hakkında bilgi edinmek için Microsoft Licensing web sitesinin **Licensing** (Lisanslama) bölümündeki [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Lisanslama ile ilgili Koşullar ve Belgeler) makalesine bakın.
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI yüksek kullanılabilirliği ve yük devretmeyi nasıl işler?
 
-Yüksek kullanılabilirlik ve yük devretme hakkında daha fazla bilgi için bkz. [Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS](service-admin-failover.md).
+Yüksek kullanılabilirlik ve yük devretme hakkında bilgi için bkz. [Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS](service-admin-failover.md).
 
 ## <a name="security-in-power-bi"></a>Power BI'da Güvenlik
 
@@ -255,7 +255,7 @@ Power BI uyumluluğu hakkında daha fazla bilgi edinmek için bkz. [Microsoft G�
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI'da güvenlik nasıl sağlanır?
 
-Microsoft Power BI buna karşılık, Azure Active Directory gibi Azure hizmetleri üzerine inşa edilmiştir Office 365'in temel üzerine kurulu. Power BI mimarisine genel bakış için bkz. [Power BI Güvenliği](service-admin-power-bi-security.md).
+Microsoft, Power BI’ı Office 365 temel alarak oluşturmuştur. Office 365'in altyapısında ise Azure Active Directory gibi Azure hizmetleri yer almaktadır. Power BI mimarisine genel bakış için bkz. [Power BI Güvenliği](service-admin-power-bi-security.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

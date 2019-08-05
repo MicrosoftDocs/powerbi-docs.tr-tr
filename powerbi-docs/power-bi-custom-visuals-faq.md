@@ -1,5 +1,5 @@
 ---
-title: Power BI özel görselleri hakkında sık sorulan sorular
+title: Power BI görselleri hakkında sık sorulan sorular
 description: Power BI özel görselleri hakkında sık sorulan sorular ve cevaplar listesini inceleyin
 author: sranins
 ms.author: rasala
@@ -10,16 +10,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497919"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415390"
 ---
-# <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI özel görselleri hakkında sık sorulan sorular
+# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Power BI görselleri hakkında sık sorulan sorular
 
 ## <a name="organizational-custom-visuals"></a>Özel kuruluş görselleri
+
+Yönetici portalı, kuruluşunuz için bir Power BI görsellerini yönetmenize olanak sağlar.
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Yöneticiler, özel kuruluş görsellerini nasıl yönetebilir?
 

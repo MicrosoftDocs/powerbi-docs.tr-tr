@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770017"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415358"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 
@@ -50,6 +50,7 @@ Rapor sunucusu veritabanını uzak bir bilgisayarda oluşturduğunuzda, bir etki
 
 Power BI Rapor Sunucusu, bir rapor sunucusunu işlevsel hale getirmek için gereken temel ayarları yapılandırmak üzere varsayılan değerleri yükler. Aşağıdaki gereksinimler yerine getirilmelidir:
 
+* Power BI Rapor Sunucusu için desteklenen diller şunlardır: İngilizce, Almanca, İspanyolca, Japonca, İtalyanca, Fransızca, Rusça, Basitleştirilmiş Çince, Geleneksel Çince, Portekizce (Brezilya), Korece
 * Kurulumdan sonra, veritabanını rapor sunucusu için yapılandırmadan önce bir SQL Server Veritabanı Altyapısı kullanılabilir durumda olmalıdır. Veritabanı Altyapısı örneği, Reporting Services Yapılandırma Yöneticisi'nin oluşturacağı rapor sunucusu veritabanını barındırmalıdır. Veritabanı Altyapısı, asıl kurulum işlemi için gerekli değildir.
 * [SQL Server Sürümleri Tarafından Desteklenen Reporting Services Özellikleri](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) makalesinde, SQL Server sürümleri arasındaki farklılıklar özetlenmektedir.
 * Kurulumu çalıştıran kullanıcı hesabı, yerel Yöneticiler grubunun bir üyesi olmalıdır.

@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352183"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462204"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Şirket içinde ve bulutta veri kaynakları birleştirme ya da ekleme
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Şirket içi veri ağ geçidini kullanarak, şirket içi ve bulut veri kaynaklarını birleştirebilir veya aynı sorguya ekleyebilirsiniz. Bu özellik, ayrı sorgular kullanmak zorunda kalmadan birden fazla kaynaktaki verileri birleştirmek istediğinizde yararlıdır.
+Şirket içi ve bulut veri kaynaklarını birleştirmek veya aynı sorguya eklemek için şirket içi veri ağ geçidini kullanabilirsiniz. Bu çözüm, ayrı sorgular kullanmak zorunda kalmadan birden fazla kaynaktaki verileri birleştirmek istediğinizde yararlıdır.
 
 >[!NOTE]
->Bu makale, bulut ve şirket içi veri kaynakları tek bir sorguda birleştirilmiş veya eklenmiş veri kümeleri için geçerlidir. Ayrı sorguları içeren (biri şirket içindeki diğeri buluttaki veri kaynağın bağlanan) veri kümeleri için bulut veri kaynağını kullanarak yapılan sorgu, ağ geçidi kullanılarak yürütülmez.
+>Bu makale, bulut ve şirket içi veri kaynakları tek bir sorguda birleştirilmiş veya eklenmiş veri kümeleri için geçerlidir. Ayrı sorguları içeren (biri şirket içindeki veri kaynağına diğeri de bir bulut veri kaynağına bağlanan) veri kümelerinde, ağ geçidi bulut veri kaynağın için sorguyu çalıştırmaz.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -51,14 +51,13 @@ ms.locfileid: "68352183"
 6. Yeni veri kümesinin **Veri kümesi ayarları** sayfasında:
 
    - Şirket içi kaynak için bu veri kaynağı ile ilişkili ağ geçidini seçin.
-
    - **Veri kaynağı kimlik bilgileri** altında, bulut veri kaynağı kimlik bilgilerini gerektiği gibi düzenleyin.
 
     Birleştirmelerin güvenli bir şekilde işlendiğinden emin olmak için hem bulut hem de şirket içi veri kaynaklarınıza yönelik gizlilik düzeylerinin uygun biçimde ayarlandığından emin olun.
 
      ![Veri kümesi ayarları](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. Bulut kimlik bilgileri ayarlandıktan sonra **Şimdi yenile** seçeneğini kullanarak veri kümesini yenileyebilir veya düzenli aralıklarla yenilenecek şekilde zamanlayabilirsiniz.
+7. Bulut kimlik bilgileri ayarlandıktan sonra **Şimdi yenile** seçeneğini kullanarak veri kümesini yenileyebilirsiniz. Veya, düzenli aralıklarla yenilenecek şekilde zamanlayabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

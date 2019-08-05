@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 07/15/2019
 ms.author: mblythe
-ms.openlocfilehash: 38993bd6ab28787acd13a9b544d37f9cb5fe2125
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4ec2c2c60a55dd4b7fd89f7fe7368c8b52f13baf
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270915"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462222"
 ---
 > [!NOTE]
-> Yakın zamanda şirket içi veri ağ geçidi belgelerini gözden geçirdik ve bunları, ağ geçidinin desteklediği [Power BI’a özel içerikler](/power-bi/service-gateway-onprem) ve [tüm hizmetler için geçerli olan genel içerikler](/data-integration/gateway/service-gateway-onprem) olarak ayırdık. Şu anda Power BI içeriklerinde bulunuyorsunuz. Bu makaleyle veya ağ geçidi belgeleri deneyimiyle ilgili geri bildirim sağlamak için makalenin alt kısmına gidin.
+> Yakın zamanda şirket içi veri ağ geçidi belgelerini düzelttik. Bunları, ağ geçidinin desteklediği [Power BI’a özgü olan içerik](/power-bi/service-gateway-onprem) ve [tüm hizmetler için geçerli olan genel içerik](/data-integration/gateway/service-gateway-onprem) olarak ikiye ayırdık. Şu anda Power BI içeriklerinde bulunuyorsunuz. Bu makaleyle veya ağ geçidi belgeleri deneyimiyle ilgili geri bildirim sağlamak için makalenin alt kısmına gidin.

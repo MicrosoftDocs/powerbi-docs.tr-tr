@@ -1,6 +1,6 @@
 ---
 title: Bir veri kümesinden rapor oluşturma
-description: Bir veri kümesinden bir Power BI raporu oluşturun.
+description: Bir veri kümesinden Power BI raporu oluşturun.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,27 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770238"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523073"
 ---
-# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Bir veri kümesini içeri aktararak Power BI hizmetinde bir rapor oluşturma
-[Power BI'daki raporlar](consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Bir rapor oluşturmak için farklı yöntemler vardır. Bu makalede, bir Excel veri kümesinden alınan Power BI hizmetinde temel bir rapor oluşturarak başlayacağız. Rapor oluşturma temel kavramları anladığınızda, kullanıma [sonraki adımlar](#next-steps) daha uçtaki gelişmiş konulara göz atabilirsiniz.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde rapor oluşturma
+[Power BI'daki raporlar](consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın farklı yolları vardır. Bu makalede, Power BI hizmetinde bir Excel veri kümesinden temel bir rapor oluşturarak başlayacağız. Rapor oluşturmanın temeli anladıktan sonra, raporlara yönelik daha gelişmiş konu başlıkları için [sonraki adımlara](#next-steps) göz atın.  
 
 ## <a name="prerequisites"></a>Önkoşullar
-- [Power BI hizmetine kaydolma](service-self-service-signup-for-power-bi.md). Power BI Desktop kullanarak raporları oluşturmak için bkz: [Masaüstü rapor görünümü](desktop-report-view.md). 
-- [Perakende analizi örnek Excel veri kümesini indirin](http://go.microsoft.com/fwlink/?LinkId=529778) ve OneDrive iş için veya yerel olarak kaydedin.
+- [Power BI hizmetine kaydolma](service-self-service-signup-for-power-bi.md). Power BI Desktop kullanarak raporları oluşturmak için bkz. [Masaüstü rapor görünümü](desktop-report-view.md). 
+- [Retail Analysis Sample adlı Excel veri kümesini indirin](http://go.microsoft.com/fwlink/?LinkId=529778) ve bunu OneDrive İş'e veya yerel bir konuma kaydedin.
 
 ## <a name="import-the-dataset"></a>Veri kümesini içeri aktarma
-Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başlayacağız. Perakende analizi örnek Excel veri kümesini izleyebilirsiniz.
+Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başlayacağız. Artık Perakende Analizi Örneği Excel veri kümesine siz de dahil olabilirsiniz.
 
-1. Biz bir Power BI hizmeti çalışma alanında rapor oluşturabilir, böylece mevcut bir çalışma alanını seçin veya bir tane oluşturun.
+1. Raporu bir Power BI hizmeti çalışma alanında oluşturacağımızdan mevcut bir çalışma alanını seçin veya bir tane oluşturun.
    
    ![Uygulama çalışma alanlarının listesi](media/service-report-create-new/power-bi-workspaces2.png)
-2. Sol gezinti bölmesinin altından seçin **veri alma**.
+2. Sol gezinti bölmesinin alt kısmında bulunan **Veri al** seçeneğini belirleyin.
    
    ![Veri al](media/service-report-create-new/power-bi-get-data3.png)
 3. **Dosyalar**'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
@@ -47,7 +47,7 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
    ![rapor düzenleyicisi](media/service-report-create-new/power-bi-blank-report.png)
 
 > [!TIP]
-> Rapor düzenleme tuvalini bilginiz veya bilgilerinizi tazelemeniz [rapor Düzenleyicisi turuna](service-the-report-editor-take-a-tour.md) devam etmeden önce. > 
+> Rapor düzenleme tuvalini daha önce hiç kullanmadıysanız veya bilgilerinizi tazelemeniz gerekiyorsa devam etmeden önce [Rapor düzenleyicisi ile ilgili bir tura katılın](service-the-report-editor-take-a-tour.md).> 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Rapora Radyal Ölçer ekleme
@@ -62,7 +62,7 @@ Veri kümemiz içeri aktarıldığına göre bazı soruları yanıtlamaya başla
 3. **Sales** > **This Year Sales** > **Hedef** alanını **Hedef değer** kutusuna sürükleyin. Hedefimize çok yakın olduğumuzu görüyoruz.
    
     ![Hedef değer olarak Hedefin bulunduğu ölçer görseli](media/service-report-create-new/power-bi-report-step3.png)
-4. Raporunuzu kaydetmek için iyi bir zaman artık olacaktır.
+4. Şimdi raporunuzu kaydedebilirsiniz.
    
    ![Dosya menüsü](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ Pazarlama müdürümüzün birkaç sorusuna daha yanıt bulmamız gerekiyor. Paz
    
     ![Alan grafiğinin etkin olduğu rapor düzenleyicisi](media/service-report-create-new/power-bi-report-step5.png)
 5. Görselleştirmeyi zaman aralığına göre sıralamak için üç noktayı seçin ve **Döneme Göre Sırala** seçeneğini belirleyin.
-6. Şimdi de dilimleyiciyi ekleyelim. Tuvalde boş bir alanı ve sonra Dilimleyici ![Dilimleyici simgesi](media/service-report-create-new/power-bi-slicer-icon.png) şablonunu seçin. Şimdi boş bir Dilimleyici değiştirirsek tuvalimizde sahibiz.
+6. Şimdi de dilimleyiciyi ekleyelim. Tuvalde boş bir alanı ve sonra Dilimleyici ![Dilimleyici simgesi](media/service-report-create-new/power-bi-slicer-icon.png) şablonunu seçin. Artık tuvalimizde boş bir dilimleyici var.
    
     ![rapor tuvali](media/service-report-create-new/power-bi-report-step6.png)    
 7. Alanlar bölmesinde **District** > **District** seçeneğini belirleyin. Dilimleyiciyi taşıyın ve yeniden boyutlandırın.

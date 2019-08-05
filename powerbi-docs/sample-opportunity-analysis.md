@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791894"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523473"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Fırsat Analizi Örneği: Tura katılın
 
@@ -27,13 +27,13 @@ Fırsat Analizi örneği içerik paketinde iki satış kanalı (*doğrudan* ve *
 * Factored revenue: Gelir X olasılık % şeklinde hesaplanır ve gerçek satış gelirinin daha doğru bir göstergesi olduğu düşünülür. Olasılık, fırsatın geçerli *sales stage* (satış aşaması) verilerine göre belirlenir:
   * Lead (müşteri adayı): %10  
   * Qualify (uygunluk): %20  
-  * Solution (çözüm): %40  
+  * Çözüm: %40  
   * Proposal (teklif): %60  
   * Finalize (sonlandırma): %80
 
 ![Fırsat Analizi örneğinin panosu](media/sample-opportunity-analysis/opportunity1.png)
 
-Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/)'ten alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
+Bu örnek, Power BI'ı işle ilgili veriler, raporlar ve panolarla birlikte nasıl kullanabileceğinizi gösteren serinin bir parçasıdır. Örnek, [obviEnce](http://www.obvience.com/) öğesinden alınan, anonimleştirilmiş gerçek verilerle oluşturulmuştur. Veriler çeşitli biçimlerde sunulur: içerik paketi, .pbix Power BI Desktop dosyası veya Excel çalışma kitabı. Bkz. [Power BI Örnekleri](sample-datasets.md). 
 
 Bu öğreticide, Power BI hizmetinde Fırsat Analizi örneği içerik paketi incelenir. Power BI Desktop ile hizmette rapor deneyimleri benzer olduğundan, Power BI Desktop'ta örnek .pbix dosyasını kullanarak da örneği takip edebilirsiniz. 
 
@@ -70,7 +70,7 @@ Alternatif olarak, Fırsat Analizi örneğini bir [.pbix dosyası](http://downlo
 Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529782) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Panomuz bize ne anlatıyor?
-Satış yöneticimiz en önemli olduğunu düşündüğü ölçümleri izlemek için bir pano oluşturmuştur. İlginç bir bulguyla karşılaştığında bir kutucuğu seçip söz konusu verileri inceleyebilir:
+Satış yöneticimiz, onlar için en önemli olduğunu düşündüğü ölçümleri izlemek için bir pano oluşturmuştur. İlginç bir bulguyla karşılaştıklarında bir kutucuğu seçip söz konusu verileri inceleyebilirler:
 
 - Şirket geliri 2 milyar ABD doları, faktörlere göre gelir ise 461 milyon ABD doları seviyesindedir.
 - Fırsat sayısı ve gelir, toplam rakamların ilerleyen aşamalarda azaldığı bilindik bir huni desenini takip etmektedir.
@@ -127,7 +127,7 @@ Bu sayfada benzer faktörlere, ama tarih ve saat açısından bakıyoruz.
  
 ![Upcoming Opportunities sayfası](media/sample-opportunity-analysis/opportunity6.png)
 
-CFO'muz bu sayfayı iş yükünü yönetmek için kullanmaktadır. Satış aşamasına ve aya göre gelir fırsatlarına bakarak uygun planları yapabilir.
+CFO'muz bu sayfayı iş yükünü yönetmek için kullanmaktadır. Satış aşamasına ve aya göre gelir fırsatlarına bakarak uygun planları yapabilirler.
 
 Aşağıdaki bilgileri unutmayın:
 * En yüksek ortalama gelir Finalize satış aşamasına aittir. Bu anlaşmaları sonlandırmak en yüksek önceliğe sahiptir.
@@ -137,5 +137,5 @@ Aşağıdaki bilgileri unutmayın:
 ## <a name="next-steps-connect-to-your-data"></a>Sonraki adımlar: Verilerinize bağlanma
 Değişikliklerinizi kaydetmek zorunda olmadığınızdan, bu ortamda güvenle farklı şeyler deneyebilirsiniz. Değişikliklerinizi kaydetseniz bile, dilediğiniz zaman **Veri Al**'ı seçip bu örneğin yeni bir kopyasını oluşturabilirsiniz.
 
-Power BI panolarının, Soru-Cevap özelliğinin ve raporların örnek veriler için nasıl içgörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi edindiğinizi umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
+Power BI panolarının, Soru-Cevap özelliğinin ve raporların örnek veriler için nasıl içgörüler sağlayacağını gösterme konusunda etkili bir tur deneyimi yaşadığınızı umuyoruz. Artık siz de kendi verilerinize bağlanarak çalışmaya başlayabilirsiniz. Power BI ile çok çeşitli veri kaynaklarına bağlanabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI hizmeti ile çalışmaya başlama](service-get-started.md).
 

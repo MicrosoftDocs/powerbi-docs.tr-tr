@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161002"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522762"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -96,9 +96,9 @@ Veri akışları, CDM ve Azure Data Lake Storage 2. Nesil hakkında daha fazla b
 Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium'da hesaplanan varlıkları kullanma](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
+* [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

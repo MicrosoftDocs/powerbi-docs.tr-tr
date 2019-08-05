@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8b68f6ee5e475c1b53f914c84372a0875fe87b5d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839124"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590504"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Bu Power BI Desktop'ta mükemmel veri modelinizi oluşturabileceğiniz ve Power BI hizmetinde yayımlayabileceğiniz anlamına gelir. Ardından siz ve başkaları aynı, ortak veri modelinden farklı raporlar (ayrı .pbix dosyalarında) oluşturabilir ve bunları farklı çalışma alanlarına kaydedebilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
@@ -32,16 +32,16 @@ Anna'nın (bir iş analisti) ekibinizde olduğunu ve iyi veri modelleri (genelli
 
 ![Power BI hizmetinde yayımlama](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Anna'nın raporu herkes tarafından çok beğeniliyor ve sorun burada başlıyor. Ekipteki herkes bu veri kümesinin *kendilerine ait bir sürümünü* oluşturmaya ve ekiple kendi raporlarını paylaşmaya çalışıyor. Birdenbire ekibinizin **Power BI hizmetindeki** çalışma alanında (farklı veri kümelerinden) çok sayıda rapor beliriyor. En yakın tarihli olan hangisiydi? Veri kümeleri neredeyse mi aynıydı, yoksa tamamen mi? Farklar nelerdi? **Power BI hizmeti canlı bağlantısı** özelliği sayesinde, bütün bunlar iyi yönde değişebilir. Aşağıdaki bölümde, Anna'nın yayımlanmış veri kümesini diğer ekip üyelerinin kendi çalışma alanlarında kendi raporları için nasıl kullanabileceğini ve herkesin benzersiz raporunu oluşturabilmesi için aynı sağlam, onaylanmış ve yayımlanmış veri kümesini kullanmasına izin verilebileceğini göreceğiz.
+Anna'nın raporu herkes tarafından çok beğeniliyor ve sorun burada başlıyor. Anna'nın ekibindeki herkes bu veri kümesinin *kendilerine ait bir sürümünü* oluşturmaya ve ekiple kendi raporlarını paylaşmaya çalışıyor. Birdenbire ekibinizin **Power BI hizmetindeki** çalışma alanında (farklı veri kümelerinden) çok sayıda rapor beliriyor. En yakın tarihli olan hangisiydi? Veri kümeleri neredeyse mi aynıydı, yoksa tamamen mi? Farklar nelerdi? **Power BI hizmeti canlı bağlantısı** özelliği sayesinde, bütün bunlar iyi yönde değişebilir. Aşağıdaki bölümde, Anna'nın yayımlanmış veri kümesini diğer ekip üyelerinin kendi çalışma alanlarında kendi raporları için nasıl kullanabileceğini ve herkesin benzersiz raporunu oluşturabilmesi için aynı sağlam, onaylanmış ve yayımlanmış veri kümesini kullanmasına izin verilebileceğini göreceğiz.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Canlı bağlantıyla bir Power BI hizmeti veri kümesine bağlanma
-Anna raporunu (ve temel aldığı veri kümesini) oluşturup **Power BI hizmetinde** yayımladığında rapor, ekibinin Power BI hizmetindeki çalışma alanında görünür. Raporu *yeni çalışma alanı deneyimine* kaydederse, çalışma alanı içindeki ve dışındaki herkesin bunu görebilmesi ve kullanabilmesi için Derleme izni ayarlayabilir.
+Anna bir rapor (ve temel aldığı veri kümesini) oluşturup bunu **Power BI hizmetinde** yayımlar ve rapor, ekibin Power BI hizmetindeki çalışma alanında görünür. Anna, raporu *yeni çalışma alanı deneyimine* kaydederse, çalışma alanı içindeki ve dışındaki herkesin bunu görebilmesi ve kullanabilmesi için Derleme izni ayarlayabilir.
 
 Yeni çalışma alanları deneyimi hakkında daha fazla bilgi için bkz. [uygulama çalışma alanları](service-new-workspaces.md).
 
-Çalışma alanının içindeki ve dışındaki diğer üyeler (**Power BI hizmeti canlı bağlantı** özelliği sayesinde) Anna'nın paylaştığı veri modeliyle canlı bağlantı kurabilir ve onun *özgün veri kümesinden* yola çıkarak *kendi yeni deneyim çalışma alanlarında* kendi benzersiz raporlarını oluşturabilir.
+Anna’nın çalışma alanının içindeki ve dışındaki diğer üyeler (**Power BI hizmeti canlı bağlantı** özelliği sayesinde) Anna'nın paylaştığı veri modeliyle canlı bağlantı kurabilir ve onun *özgün veri kümesinden* yola çıkarak *kendi yeni deneyim çalışma alanlarında* kendi benzersiz raporlarını oluşturabilir.
 
-Aşağıdaki görüntüde, Anna'nın bir **Power BI Desktop** raporunu nasıl oluşturduğunu ve **Power BI hizmetinde** (veri modeliyle birlikte) yayımladığını görebilirsiniz. Bundan sonra çalışma alanındaki diğer kişiler, **Power BI hizmeti canlı bağlantısını** kullanarak Anna'nın veri modeline bağlanabilir ve kendi çalışma alanlarında onun veri kümesini temel alan kendi benzersiz raporlarını oluşturabilir.
+Aşağıdaki görüntüde, Anna'nın bir **Power BI Desktop** raporunu nasıl oluşturduğunu ve **Power BI hizmetinde** (veri modeliyle birlikte) yayımladığını görebilirsiniz. Bundan sonra çalışma alanındaki diğer kişiler, **Power BI hizmeti canlı bağlantısını** kullanarak Anna'nın veri modeline bağlanabilir ve kendi çalışma alanlarında Anna’nın veri kümesini temel alan kendi benzersiz raporlarını oluşturabilir.
 
 ![Ayrı veri kümesini temel alan birden çok rapor](media/desktop-report-lifecycle-datasets/report-lifecycle_03.png)
 
@@ -54,15 +54,15 @@ Aşağıdaki görüntüde, Anna'nın bir **Power BI Desktop** raporunu nasıl ol
 Artık **Power BI hizmeti canlı bağlantısının** ne kadar kullanışlı olduğunu ve bağlantıyı rapor yaşam döngüsü yönetiminin en iyi yöntemi olarak nasıl kullanabileceğinizi öğrendiğimize göre, bizi Anna'nın harika raporundan (ve veri kümesinden) Power BI ekip arkadaşlarının kullanabileceği paylaşılan veri kümesine götüren yolu adım adım yürüyelim.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Bir Power BI raporu ve veri kümesini yayımlama
-Bir **Power BI hizmeti canlı bağlantısı** kullanarak rapor yaşam döngüsünü yönetmenin ilk adımı, ekip arkadaşlarınızın kullanmak isteyeceği bir rapora (ve veri kümesine) sahip olmaktır. Bu yüzden Anna'nın önce raporunu **Power BI Desktop**'tan **yayımlaması** gerekir. Bunu yapmak için Power BI Desktop'ta **Giriş** şeridinden **Yayımla**'yı seçer.
+Bir **Power BI hizmeti canlı bağlantısı** kullanarak rapor yaşam döngüsünü yönetmenin ilk adımı, ekip arkadaşlarınızın kullanmak isteyeceği bir rapora (ve veri kümesine) sahip olmaktır. Bu yüzden ilk olarak Anna'nın raporu **Power BI Desktop**'tan **yayımlaması** gerekir. Bu, Power BI Desktop'taki **Giriş** şeridinden **Yayımla** seçilerek yapılır.
 
 ![Raporu yayımlama](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Power BI hizmeti hesabında oturum açmamışsa oturum açması istenir.
+Anna, Power BI hizmeti hesabında oturum açmadıysa, bir açılır pencere ile Anna’ya istem gönderilir.
 
 ![Power BI Desktop'ta oturum açma](media/desktop-report-lifecycle-datasets/report-lifecycle_04.png)
 
-Oradan, rapor ve veri kümesinin yayımlanacağı hedef çalışma alanını seçebilir. Unutmayın; yeni çalışma alanı deneyimine kaydederse Derleme izni olan herkes söz konusu veri kümesine erişebilir. Derleme izni, yayımlama sonrasında Power BI hizmetinde ayarlanır. Klasik çalışma alanına kaydederse yalnızca raporun yayımlandığı çalışma alanına erişimi olan üyeler söz konusu raporun veri kümesine **Power BI hizmeti canlı bağlantısıyla** erişebilir.
+Anna, oradan rapor ve veri kümesinin yayımlanacağı hedef çalışma alanını seçebilir. Anna bunu yeni çalışma alanı deneyimine kaydederse Derleme izni olan herkesin söz konusu veri kümesine erişebileceğini unutmayın. Derleme izni, yayımlama sonrasında Power BI hizmetinde ayarlanır. İş, klasik bir çalışma alanına kaydedilirse, yalnızca raporun yayımlandığı çalışma alanına erişimi olan üyeler söz konusu raporun veri kümesine **Power BI hizmeti canlı bağlantısıyla** erişebilir.
 
 ![Power BI hizmetinde yayımlama](media/desktop-report-lifecycle-datasets/report-lifecycle_05.png)
 
@@ -100,8 +100,8 @@ Artık siz (ve diğer kişiler) aynı veri kümesinden özel raporlar oluşturup
 
 * Yalnızca veri kümesi üzerinde Derleme izni olan kullanıcılar yayımlanmış bir veri kümesine **Power BI hizmeti canlı bağlantısını** kullanarak bağlanabilir. 
 * Ücretsiz kullanıcılar yalnızca Çalışma Alanım'daki ve Premium tabanlı çalışma alanlarındaki veri kümelerini görebilir.
-* Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki davranışa benzer şekilde sol gezinti çubuğu ve modellemeler devre dışıdır.
-* Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki gibi, RLS (satır ve rol düzeyi güvenlik), OneDrive İş ve diğer benzer bağlantı davranışları uygulanır.
+* Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki davranışa benzer şekilde sol gezinti çubuğu ve modellemeler devre dışı bırakılır ve her raporda yalnızca bir veri kümesine bağlanabilirsiniz.
+* Bu canlı bir bağlantı olduğu için, **SQL Server Analysis Services**'e bağlanıldığındaki gibi, RLS (satır ve rol düzeyi güvenlik) ve diğer benzer bağlantı davranışları uygulanır.
 * Özgün paylaşılmış .pbix dosyasında dosyanın sahibi tarafından değişiklikler, **Power BI hizmetinde** paylaşılmış veri kümesinin ve raporun üzerine yazılır. Bu veri kümesine dayalı raporların üzerine yazılmaz ama veri kümesinde yapılan tüm değişiklikler rapora yansıtılır.
 * Bir çalışma alanının üyeleri özgün paylaşılmış raporu başka bir raporla değiştiremez. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir.
 * **Power BI hizmetinde** paylaşılan veri kümesini silerseniz bu veri kümesine dayalı diğer raporlar düzgün çalışmaz veya görsellerini görüntülemez.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809126"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590451"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -48,8 +48,7 @@ Azure birçok bulutta dağıtılmaktadır. Varsayılan olarak kiracıların, bul
 * USGov Texas
 * USGov Arizona
 
-Genel bulutta IP alanları kullanılabilir ancak kamu bulutunda, yukarıda listelenen veri merkezlerine ilişkin IP aralıklarını istemek için bir Azure Destek bileti oluşturmanız gerekir. 
-
+Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bilgileri almak için indirilebilir [Azure kamu hizmeti belgelerine](https://www.microsoft.com/download/details.aspx?id=57063) başvurun.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI US Government hizmetine ilişkin sınırlamalar
 **Power BI hizmetinin** ticari sürümünde sunulan özelliklerden bazıları, ABD Kamu müşterilerine yönelik **Power BI hizmetinde** *sunulmamaktadır*. Power BI ekibi, söz konusu özelliklerin ABD Kamu müşterilerine de sunulması için aktif olarak çalışarak ilgili özellikler kullanılabilir olduğunda bu makaleyi güncelleştirecektir.

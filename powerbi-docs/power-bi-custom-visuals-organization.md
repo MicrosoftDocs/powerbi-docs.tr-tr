@@ -1,6 +1,6 @@
 ---
-title: Power BI’da özel kuruluş görselleri
-description: Power BI'da özel kuruluş görsellerini kullanma, yönetme ve oluşturma
+title: Power BI’da kuruluş görselleri
+description: Power BI'da kuruluş görsellerini kullanma, yönetme ve oluşturma
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421902"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415342"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI’da özel kuruluş görselleri
+# <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
 Power BI'da özel görselleri kullanarak size göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Özel görseller geliştiriciler tarafından, Power BI’a eklenmiş olan zengin görsellerin gereksinimlerini tam olarak karşılamadığı durumlarda oluşturulur.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140976"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523144"
 ---
 # <a name="dashboard-data-classification"></a>Pano veri sınıflandırması
 Her pano farklıdır. Bağlandığınız veri kaynağına bağlı olarak, sizin ve panoyu paylaştığınız iş arkadaşlarınızın, verilerin gizlilik durumuna göre farklı önlemler alması gerekebilir. Bazı panoların hiçbir zaman şirket dışındaki kişilerle paylaşılmaması veya yazdırılmaması gerekir, bazılarının paylaşılmasında ise bir sakınca yoktur. Pano veri sınıflandırmasını kullanarak, panolarınızı görüntüleyen kişilerin, hangi güvenlik düzeyinin kullanılması gerektiğine dair farkındalığını artırabilirsiniz. Panolarınızı şirketinizin BT departmanı tarafından tanımlanan sınıflandırmalar ile etiketleyebilir ve içeriği görüntüleyen herkesin, verilerin gizliliği konusunda ortak bir bilince sahip olmasını sağlayabilirsiniz.
@@ -45,7 +45,7 @@ Yöneticiler, ek bilgi sağlamak amacıyla etiket için bir URL de ayarlayabilir
 ## <a name="setting-a-dashboards-classification"></a>Pano sınıflandırmasını ayarlama
 Şirketiniz için veri sınıflandırma etkinleştirilmişse başlangıçta tüm panolar varsayılan bir sınıflandırma türüne sahip olur ancak pano sahibi olarak sınıflandırmayı, panolarınızın güvenlik düzeyi ile eşleşecek şekilde değiştirebilirsiniz.
 
-Sınıflandırma türünü değiştirmek için aşağıdaki adımları uygulayın.
+Sınıflandırma türünü değiştirmek için aşağıdaki adımları uygulayın:
 
 1. Pano adının yanındaki **üç nokta** simgesini seçip **Ayarlar** seçeneğini belirleyerek pano ayarlarına gidin.
    
@@ -58,7 +58,7 @@ Sınıflandırma türünü değiştirmek için aşağıdaki adımları uygulayı
 Değişiklik uygulandıktan sonra, panoyu paylaştığınız kişiler panoyu yeniden yüklediğinde güncelleştirmeyi görür.
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>Yönetici olarak sınıflandırma etiketleri ile çalışma
-Veri sınıflandırma, kuruluşunuzun genel yöneticisi tarafından ayarlanır. Veri sınıflandırmayı etkinleştirmek için aşağıdaki adımları uygulayın.
+Veri sınıflandırma, kuruluşunuzun genel yöneticisi tarafından ayarlanır. Veri sınıflandırmayı etkinleştirmek için aşağıdaki adımları uygulayın:
 
 1. Ayarlar dişli simgesini ve ardından **Yönetici portalı**'nı seçin.
    
@@ -79,7 +79,7 @@ Forma sınıflandırma türlerini girdikten sonra değişiklikleri kaydetmek iç
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-Bu noktada, tüm panolara varsayılan sınıflandırma atanır ve pano sahipleri artık, sınıflandırma türünü içeriklerine uygun bir tür ile güncelleştirebilir. Daha sonra buraya geri dönerek sınıflandırma türü ekleyip kaldırabilir veya varsayılan sınıflandırma türünü değiştirebilirsiniz.  
+Bu noktada, tüm panolara varsayılan sınıflandırma atanır. Pano sahipleri artık sınıflandırma türünü içerikleri için uygun olan tür ile güncelleştirebilir. Daha sonra buraya geri dönerek sınıflandırma türü ekleyip kaldırabilir veya varsayılan sınıflandırma türünü değiştirebilirsiniz.  
 
 > [!NOTE]
 > Değişiklik yapmak için geri döndüğünüzde hatırlamanız gereken birkaç önemli nokta vardır:

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498967"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391126"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
 
@@ -45,6 +45,9 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
 1. Sarmalama ve sarmalamayı kaldırma izinleriyle 4096 bit uzunluğunda bir RSA anahtarı oluşturun (veya bu türde mevcut bir anahtar kullanın).
 
+    > [!IMPORTANT]
+    > Power BI KAG, yalnızca 4096 bit uzunluğuna sahip RSA anahtarlarını destekler.
+
 1. Önerilen: Anahtar kasasında _geçici silme_ seçeneğinin etkinleştirildiğinden emin olun.
 
 ### <a name="add-the-service-principal"></a>Hizmet sorumlusunu ekleme
@@ -52,6 +55,9 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 1. Azure portalında, anahtar kasanızda **Erişim ilkeleri**'nin altından **Yeni Ekle**'yi seçin.
 
 1. **Sorumlu seç**'in altında Microsoft.Azure.AnalysisServices'i arayın ve seçin.
+
+    > [!NOTE]
+    > “Microsoft.Azure.AnalysisServices” öğesini bulamıyorsanız Azure Key Vault’unuz ile ilişkilendirilen aboneliğinizle bir Power BI kaynağının asla ilişkilendirilmemiş olması muhtemeldir. Bunun yerine aşağıdaki dizeyi aramayı deneyin: 00000009-0000-0000-c000-000000000000.
 
 1. **Anahtar izinleri**'nin altında **Anahtar Sarmalamasını Kaldır**'ı ve **Anahtarı Sarmala**'yı seçin.
 

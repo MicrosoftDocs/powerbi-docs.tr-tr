@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67300944"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523736"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Raporlar ve görseller için en iyi tasarım yöntemleri
 
@@ -407,7 +407,7 @@ Hikayeniz için mevcut en iyi görseli seçmiş olsanız bile hikayeyi anlatırk
 
 Görselinizin anlattığı hikaye inandırıcı mı? Önemli mi? Sırf yapmış olmak için görsel oluşturmayın. Belki verilerinizin ilgi çekici bir hikaye anlatacağını düşünmüştünüz ama durum öyle olmadı. Baştan başlamaktan ve daha çok ilgi çekecek bir hikaye bulmaktan korkmayın. Belki de hikaye vardır ancak farklı bir şekilde ölçmeniz gerekiyordur.
 
-Diyelim ki satış müdürlerinizin başarısını ölçmek istiyorsunuz. Bunun için hangi ölçüyü kullanmanız gerekir? Bunu en iyi şekilde ölçmek için toplam satış rakamlarına mı, toplam kâra mı, önceki yıldaki büyüme oranına mı yoksa belirli bir hedefi tutturma performansına mı bakmanız gerekir? Satış temsilcisi Sally en yüksek kâra sahip olabilir. Satış temsilcilerine göre toplam kârı bir çubuk grafikte gösteriyorsanız, diğer satış temsilcileri arasında bir yıldız gibi parlayabilir. Sally'nin satış maliyeti (seyahat giderleri, gönderim masrafları, üretim maliyetleri vb.) yüksekse yalnızca satış rakamlarına bakmak en iyi hikayeyi sunmayacaktır.
+Diyelim ki satış müdürlerinizin başarısını ölçmek istiyorsunuz. Bunun için hangi ölçüyü kullanmanız gerekir? Bunu en iyi şekilde ölçmek için toplam satış rakamlarına mı, toplam kâra mı, önceki yıldaki büyüme oranına mı yoksa belirli bir hedefi tutturma performansına mı bakmanız gerekir? Satış temsilcisi Sally en yüksek kâra sahip olabilir. Satış temsilcilerine göre toplam kârı bir çubuk grafikte gösteriyorsanız, bu diğer satış temsilcileri arasında bir yıldız gibi parlayabilir. Sally'nin satış maliyeti (seyahat giderleri, gönderim masrafları, üretim maliyetleri vb.) yüksekse yalnızca satış rakamlarına bakmak en iyi hikayeyi sunmayacaktır.
 
 #### <a name="reflect-reality-dont-distort-reality"></a>Gerçeği yansıtın, gerçekleri çarpıtmayın
 
@@ -556,7 +556,7 @@ Bazı Y Eksenlerinde ve göstergede metin konumunu ayarlayabilirsiniz. Hangi se�
 
 ##### <a name="set-the-title-and-label-length"></a>Başlık ve etiket uzunluğunu ayarlama
 
-Başlıkların, eksen başlıklarının, veri etiketlerinin ve göstergelerin uzunluğunu ayarlayın. Bu öğelerden herhangi birini görüntülemeye karar verirseniz uzunluk ayarının yapılması (metin boyutuyla birlikte) Power BI'ın değerleri kesmediğinden emin olmanızı sağlar:
+Başlıkların, eksen başlıklarının, veri etiketlerinin ve açıklamaların uzunluğunu ayarlayın. Bu öğelerden herhangi birini görüntülemeye karar verirseniz uzunluk ayarının yapılması (metin boyutuyla birlikte) Power BI'ın değerleri kesmediğinden emin olmanızı sağlar:
 
 * **Başlık** ve **Gösterge** için **Başlık Metni** ayarı kullanılır. Görselde yer alacak gerçek başlığı girin.
 
@@ -663,7 +663,7 @@ Kullanabileceğiniz tüm biçimlendirme seçeneklerini incelediğinizde başlık
 
 ##### <a name="colors-for-categorical-values"></a>Kategorik değerlere uygun renkler
 
-Bir seri içeren grafiklerin gösterge bölümünde genelde kategorik değerler vardır. Örneğin, aşağıdaki göstergede bulunan her renk, farklı bir Country/Region kategorisini göstermektedir.
+Bir seri içeren grafiklerin açıklama bölümünde genelde kategorik değerler vardır. Örneğin, aşağıdaki açıklamada bulunan her renk, farklı bir Country/Region kategorisini göstermektedir.
 
 ![Varsayılan renkler uygulandı.](media/power-bi-visualization-best-practices/power-bi-bubble-color.png)
 
@@ -728,11 +728,11 @@ Renkleri, merkezdeki değerin etrafındaki sapmayı vurgulamak için de kullanab
 | Öğe | Açıklama |
 | ---- | ----------- |
 | Dilimleyici | Sayfa düzeyinde filtre ekleyip yalnızca **Altın**, **Gümüş** ve **Bronz**'u seçerek dilimleyicilerdeki boşlukları kaldırdık. <br> **Seçim Denetimleri** ayarını **Tek Seçim** ve **Tümünü Seç** için **Kapalı** hale getirdik. |
-| Kabarcık | Göstergede çok fazla öğe olduğu için ekranın kaydırılması gerekiyordu. Göstergeyi kaldırarak **Kategori etiketlerini** etkinleştirdik. Müşteriler ayrıntıları görmek için kabarcıkların üzerine gelebilir.<br> Başlığı kısalttık ve yeterince anlaşılabilir olduğu için "by country region" bölümünü kaldırdık. <br> Grafiği daha kolay anlaşılır hale getirmek için iki eksenin de etiketlerini **Açık** duruma getirdik. |
+| Kabarcık | Göstergede çok fazla öğe olduğu için ekranın kaydırılması gerekiyordu. Açıklamayı kaldırarak **Kategori etiketlerini** etkinleştirdik. Müşteriler ayrıntıları görmek için kabarcıkların üzerine gelebilir.<br> Başlığı kısalttık ve yeterince anlaşılabilir olduğu için "by country region" bölümünü kaldırdık. <br> Grafiği daha kolay anlaşılır hale getirmek için iki eksenin de etiketlerini **Açık** duruma getirdik. |
 | Kartogram | Verileri öne çıkarmak için **Veri renklerini** değiştirdik. <br> **Ayrılan** ayarını açıp **Minimum**'u pembe, **Maksimum**'u ise kırmızı olarak ayarladık.
 | Treemap | Yalnızca ABD için ayarlanmış olan filtreyi kaldırdık. <br> **Veri etiketleri** ayarını bir ondalık basamak kullanılacak şekilde belirledik. <br> Görsel neredeyse her zaman 3 madalya için %33 değerini verdiğinden kullanışlı olmayan **Sınıf** alanını kullanıyordu: Altın, Gümüş ve Bronz. <br> Farklı ve daha ilgi çekici bir alan olan **Cinsiyet** alanını seçtik. Tasarım amacıyla Aquatics rengini mavi, Athletics rengini ise gri olarak değiştirdik.
 | Üst çubuk grafik | Başlığı kısalttık, veri etiketlerini kaldırdık, gösterge başlığını kapattık. <br> Başlığın kelime sırasını, altındaki grafiğe uyacak şekilde değiştirdik.
-| Alt çubuk grafik | Yukarıdaki grafiğe uyması için yıla göre artan düzende sıraladık. <br> Renkleri sınıfla eşleşecek şekilde değiştirdik. <br> Başlığı değiştirdik. <br> Verilere daha fazla alan açmak için göstergeyi kapattık. <br> Veri etiketleri etkinleştirildi. Görsel etiketlerin kolayca okunamayacağı kadar küçük olduğundan bunlar raporda gösterilmeyecek. Yalnızca okuyucu görseli **Odak** modunda açtığında gösterilecek. [Odak modu](../consumer/end-user-focus.md) hakkında bilgi edinin. <br> **Araç İpuçları**'na **Etkinlik Sayısı (Benzersiz)** eklendi. Artık yığılmış sütunun üzerine geldiğinizde, araç çubuklarında kişilerin bu yıl kaç yarışmaya katıldığı da bildirilir. |
+| Alt çubuk grafik | Yukarıdaki grafiğe uyması için yıla göre artan düzende sıraladık. <br> Renkleri sınıfla eşleşecek şekilde değiştirdik. <br> Başlığı değiştirdik. <br> Verilere daha fazla alan açmak için açıklamayı kapattık. <br> Veri etiketleri etkinleştirildi. Görsel etiketlerin kolayca okunamayacağı kadar küçük olduğundan bunlar raporda gösterilmeyecek. Yalnızca okuyucu görseli **Odak** modunda açtığında gösterilecek. [Odak modu](../consumer/end-user-focus.md) hakkında bilgi edinin. <br> **Araç İpuçları**'na **Etkinlik Sayısı (Benzersiz)** eklendi. Artık yığılmış sütunun üzerine geldiğinizde, araç çubuklarında kişilerin bu yıl kaç yarışmaya katıldığı da bildirilir. |
 | Görsel Etkileşimler | Sürekli toplam oyun ve spor sayısını göstermelerini istediğimiz için iki kartın da etkileşimlerini devre dışı bıraktık. |
 
 ## <a name="visual-types-and-best-practices"></a>Görsel türleri ve en iyi uygulamalar
@@ -1007,7 +1007,7 @@ Ağaç haritaları hakkında daha fazla bilgi için:
 
 Genel olarak Çubuk, Sütun ve Çizgi grafikler çoğu durumda işinizi görecektir. Pasta grafikleri ile Halka grafiklerin insanlar tarafından doğru yorumlanmasının zor olduğu iyi bilinen bir durumdur. Aslında bunlar sıklıkla verileri çarpıtabilir. Mümkünse bu grafikleri kullanmayın. Stephen Few'ın bu grafiklerin tarihi ve tehlikeleri hakkında harika bir yazısı vardır: [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf) (Pastayı Yemekten Sonraya Saklayın).
 
-Burada Pasta grafiklerinin yararlı olabileceği tek noktanın parça-bütün ilişkilerini karşılaştırmak olduğunu açıklamıştır. Çok nadir durumlarda %100 Yığılmış Çubuk grafikten daha iyidir.
+Stephen burada Pasta grafiklerinin yararlı olabileceği tek noktanın parça-bütün ilişkilerini karşılaştırmak olduğunu açıklamıştır. Çok nadir durumlarda %100 Yığılmış Çubuk grafikten daha iyidir.
 
 Pasta grafikleri hakkında başka bir eğlenceli makaleyi (ve animasyonu) [Darkhorse Analytics sitesinde](http://www.darkhorseanalytics.com/blog/salvaging-the-pie) bulabilirsiniz.
 
