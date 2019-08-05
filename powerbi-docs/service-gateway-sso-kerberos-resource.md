@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: b6cd8df15080e10b1da73e6f4da41c5354dd867a
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271917"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624006"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar çoklu oturum açma (SSO) için kaynak tabanlı Kerberos’u kullanma
 
@@ -141,7 +141,7 @@ Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-onprem.md)
+* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)
