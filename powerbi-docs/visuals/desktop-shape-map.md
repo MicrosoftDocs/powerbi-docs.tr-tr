@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533117"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623921"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 Haritadaki bölgeleri renk kullanarak karşılaştırmak için bir **Şekil Haritası** görseli oluşturun. **Harita** görselinin aksine, **Şekil Haritası** veri noktalarının kesin coğrafi konumlarını bir haritada gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
@@ -323,11 +323,11 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | mx-gro |Gro. |MX-GRO |Guerrero |Guerrero |GR |
 | mx-gua |Gto. |MX-GUA |Guanajuato |Guanajuato |GT |
 | mx-dur |Dgo. |MX-DUR |Durango |Durango |DU |
-| mx-dif |Col. |MX-DIF |Ciudad de México |Mexico City |DF |
-| mx-col |Coah. |MX-COL |Colima |Colima |CL |
-| mx-coa |Chis. |MX-COA |Coahuila |Coahuila |CA |
+| mx-dif |CDMX. |MX-DIF |Ciudad de México |Mexico City |DF |
+| mx-col |Col. |MX-COL |Colima |Colima |CL |
+| mx-coa |Coah. |MX-COA |Coahuila |Coahuila |CA |
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
-| mx-chp |CDMX. |MX-CHP |Chiapas |Chiapas |CP |
+| mx-chp |Chis. |MX-CHP |Chiapas |Chiapas |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
 | mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baja California Sur |BS |
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |

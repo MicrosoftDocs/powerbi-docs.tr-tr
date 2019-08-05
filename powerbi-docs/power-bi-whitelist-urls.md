@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978385"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624168"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
 
@@ -38,7 +38,7 @@ Power BI, Office 365 kimlik doğrulama ve kimlik bölümündeki gerekli uç nokt
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Kimlik doğrulaması ve kimlik | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın.  | YOK |
+| 1 | **Gerekli:** Kimlik doğrulaması ve kimlik | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) için Office 365 belgelerine bakın.  | YOK |
 
 ## <a name="general-site-usage"></a>Genel site kullanımı
 
@@ -47,7 +47,7 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
 | 1 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
-| 2 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 2 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) için Office 365 belgelerine bakın. | YOK |
 | 3 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
 | 4 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
 | 5 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ Power BI'da yönetim işlevleri gerçekleştirmek için aşağıda bağlantısı
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Kullanıcıları yönetmek ve denetim günlüklerini görüntülemek için | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 1 | **Gerekli:** Kullanıcıları yönetmek ve denetim günlüklerini görüntülemek için | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) için Office 365 belgelerine bakın. | YOK |
 | | | |
 
 ## <a name="getting-data"></a>Veri alma
@@ -82,7 +82,7 @@ Power BI, panolarınızı ve raporlarınızı desteklemek için belirli uç nokt
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Excel tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 1 | **Gerekli:** Excel tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) için Office 365 belgelerine bakın. | YOK |
 | | | |
 
 ## <a name="custom-visuals"></a>Özel görseller
@@ -94,7 +94,7 @@ Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için be
 | 1 | **Gerekli:** Market arabiriminden veya dosyadan özel görsel içeri aktarma | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **İsteğe bağlı:** Bing Haritalar | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **İsteğe bağlı:** PowerApps | PowerApps sistem gereksinimleri sitesinin [Gerekli hizmetler bölümüne](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) bakın | YOK |
-| 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
+| 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
 | | | |
 
 ## <a name="related-external-sites"></a>İlgili dış siteler

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230185"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665425"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -649,8 +649,6 @@ Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Nisan ayında 
 Panoları [Android telefonlarda yatay modda](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) görüntüleyebilirsiniz. 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 cihazları için Power BI uygulaması
-Panoları [Windows 10 telefonlarında yatay modda](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) görüntüleyebilirsiniz.
-
 [Raporları Windows 10 telefonunuzda görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
 
 [Windows 10 mobil panolarınızda daha hızlı içgörü](mobile-tiles-in-the-mobile-apps.md) elde etme: Doğrudan panodan bir raporu açın veya bir kutucuk anlık görüntüsünü paylaşın.
