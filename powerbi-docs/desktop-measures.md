@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523206"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730181"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop'taki ölçüler
 
 **Power BI Desktop**, birkaç tıklamayla verilerinizle ilgili öngörüler oluşturmanıza yardımcı olur. Ancak bazen bu veriler en önemli soruların yanıtlarına ulaşmak için ihtiyacınız olan her şeyi sunmaz. Ölçüler bu noktada size yardımcı olabilir.
 
-Ölçüler en sık kullanılan veri çözümlemelerinde kullanılır. Örnek: Toplamlar, ortalamalar, minimum veya maksimum değerler, sayımlar veya DAX formülü kullanarak oluşturabileceğiniz daha gelişmiş hesaplamalar. Ölçülerin hesaplanan sonuçları raporunuzdaki etkileşime göre sürekli değişerek, güncel verileri hızlı ve dinamik bir şekilde keşfetmenizi sağlar. Şimdi bu yöntemlere daha yakından bakalım.
+Ölçüler en sık kullanılan veri çözümlemelerinde kullanılır. Toplama, ortalama, en küçük, en büyük ve sayma gibi basit özetlemeler, [Özetleme ve kategori](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) videosunda açıklandığı gibi Fields Well aracılığıyla ayarlanabilir. DAX formülü kullanarak kendiniz daha gelişmiş hesaplamalar oluşturabilirsiniz. Ölçülerin hesaplanan sonuçları raporunuzdaki etkileşime göre sürekli değişerek, güncel verileri hızlı ve dinamik bir şekilde keşfetmenizi sağlar. Şimdi bu yöntemlere daha yakından bakalım.
 
 ## <a name="understanding-measures"></a>Ölçüleri anlama
 
-**Power BI Desktop**'ta ölçüler, **Rapor Görünümü** veya **Veri Görünümü**'nde oluşturulur ve kullanılır. Kendi oluşturduğunuz ölçüler, Alanlar listesinde yanında hesap makinesi simgesiyle görüntülenir. Ölçülere istediğiniz adı verip bunları tıpkı diğer alanlar gibi yeni veya mevcut görselleştirmelere ekleyebilirsiniz.
+**Power BI Desktop**'ta ölçüler, **Rapor Görünümü** veya **Veri Görünümü**'nde oluşturulur ve görüntülenir. Kendi oluşturduğunuz ölçüler, Alanlar listesinde yanında hesap makinesi simgesiyle görüntülenir. Ölçülere istediğiniz adı verip bunları tıpkı diğer alanlar gibi yeni veya mevcut görselleştirmelere ekleyebilirsiniz.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ Jan hızlı ve kolay bir şekilde tahmini satışları hesaplamış oldu. Jan di
 Diğer seçeneklere ek olarak bu kullanım ölçüler kullanarak dinamik URL'ler oluşturmanızı ve veri kategorisini Web URL'si olarak işaretlemenizi sağlar. 
 
 Ölçüleri Web URL'leri olarak görüntüleyen tablolar oluşturabilir, seçiminize göre oluşturulan URL'leri tıklayarak hedefe gidebilirsiniz. Bu durum özellikle [URL filtresi parametreleri](service-url-filters.md) ile diğer Power BI raporlarına bağlantı vermek istediğinizde kullanışlıdır.
+
+
+## <a name="organizing-your-measures"></a>Ölçülerinizi düzenleme
+
+Ölçülerin, alan listesinde nerede bulunduklarını tanımlayan bir *Giriş* tablosu vardır. Modelinizdeki tablolardan bir konum seçerek bunların konumunu değiştirebilirsiniz.
+
+![Ölçünüz için tablo seçme](media/desktop-measures/measures-03.png)
+
+Ayrıca tablodaki alanları *Görüntü Klasörleri*'nde de düzenleyebilirsiniz. Power BI Desktop penceresinin sol tarafından **Model Görünümü**'nü seçin ve sonra da tuvalde görüntülenen kullanılabilir alanlar listesinden taşımak istediğiniz alanı seçin. Özellik bölmesinde **Görüntü klasörü** için bir metin kutusu görüntülenir. **Görüntü klasörü** alanına bir ad yazıldığında klasör oluşturulur ve seçili alan bu klasöre taşınır.
+
+![Ölçüler için bir alan oluşturma](media/desktop-measures/measures-04.gif)
+
+Ters eğik çizgi karakterini kullanarak alt klasörler oluşturabilirsiniz. Örneğin *Finans\Para Birimleri* girişi bir *Finans* klasörü ve bunun içinde bir *Para Birimleri* klasörü oluşturur.
+
+Klasör adlarını noktalı virgülle ayırarak bir alanın birden çok klasörde görünmesini sağlayabilirsiniz. Örneğin *Ürünler\Adlar;Departmanlar* girişi alanın *Ürünler* klasörü içinde hem *Departmanlar* klasöründe hem de *Adlar* klasöründe görünmesiyle sonuçlanır.
+
+Son olarak, her zaman **Alan Listesi**'nin en üstünde görüntülenen ölçülerin yer aldığı özel bir tablo oluşturabilirsiniz. Bunu yapmak için tek sütunlu bir tablo oluşturun. Bu tabloyu oluşturmak için **Veri Girin** öğesini kullanabilirsiniz. Sonra ölçülerinizi bu tabloya taşıyın. Son olarak, oluşturduğunuz sütunu (tabloyu değil) gizleyin. Power BI Desktop'ın bunu düzgün görüntülemesi için **Alan Listesi**'nin en üstündeki köşeli ayraca tıklayarak **Alan Listesi**'ni kapatıp yeniden açmalısınız.
+
+![Ölçüleri düzenleme ve bunları Alan Listesinin en üstünde tutma](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>Daha fazla bilgi
 Burada ölçülerle ilgili özet bilgilere yer verdik ancak kendi ölçülerinizi oluşturmayı öğrenmek için faydalanabileceğiniz birçok farklı kaynak mevcuttur. Ayrıntılı bilgi için, örnek bir dosya indirip daha fazla ölçü oluşturma konusundaki adım adım yönergeleri uygulayabileceğiniz [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) başlıklı öğreticiyi inceleyebilirsiniz.  

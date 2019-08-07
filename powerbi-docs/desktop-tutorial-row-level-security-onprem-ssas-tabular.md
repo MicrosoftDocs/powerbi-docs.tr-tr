@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826664"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523229"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 
@@ -144,7 +144,7 @@ Tablolu modeliniz dağıtıldıktan ve kullanıma hazır hale geldikten sonra ş
    
    Sumit **Sales Manager**  rolünde farklı bölgelerdeki tüm satış verilerini görebilir. Sumit raporu oluşturarak (önceki görev adımlarında oluşturulan rapor) Power BI hizmetinde yayımlar.
    
-   Raporu yayımlandıktan sonra Power BI hizmetinde bu raporu temel alan **TabularDynamicSec** adlı bir pano oluşturur. Aşağıdaki resimde Sumit'in tüm satış bölgelerine ait verileri görebildiğine dikkat edin.
+   Sumit’in raporu yayımlandıktan sonra izleyeceği adım Power BI hizmetinde bu raporu temel alan **TabularDynamicSec** adlı bir pano oluşturmadır. Aşağıdaki resimde Sumit'in tüm satış bölgelerine ait verileri görebildiğine dikkat edin.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ Tablolu modeliniz dağıtıldıktan ve kullanıma hazır hale geldikten sonra ş
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Jon Doe **Power BI** hizmetinde oturum açıp Sumit tarafından oluşturulan ve paylaşılan panoyu görüntülediğinde, **yalnızca** kendi bölgesine ait verileri görebilmelidir. 
+3. Jon Doe **Power BI** hizmetinde oturum açıp Sumit tarafından oluşturulan ve paylaşılan panoyu görüntülediğinde, **yalnızca** kendi bölgesine ait veriler görünür olmalıdır. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523336"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623897"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -53,9 +53,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 Alan türü sayı, tarih saat veya dize olabilir ve kullanılan türün veri kümesindeki tür kümesiyle eşleşmesi gerekir.  Örneğin tarih olarak belirlenmiş bir veri kümesi sütununda (Table/StringColumn eq 1 gibi) bir tarih saat veya sayısal değer arıyorsanız tablo sütununun "dize" türünde belirtilmesi uygun olmayacaktır.
 
-* **Dizelerin** tek tırnak içine alınması gerekir: 'yönetici adı'.
-* **Sayılar** için özel biçimlendirmeye gerek yoktur
-* **Tarih ve saatlerin** tek tırnak içine alınması gerekir. OData v3 sürümünde önüne "datetime" sözcüğünün getirilmesi gerekir ancak OData v4 sürümünde bu sözcüğe gerek yoktur.
+* **Dizelerin**, 'yönetici adı' gibi tek tırnak içine alınması gerekir.
+* **Sayılar** için özel biçimlendirmeye gerek yoktur. Ayrıntılar için bu makalenin [Sayısal veri türleri](#numeric-data-types) bölümüne bakın.
+* **Tarih ve saatler** Bu makaledeki [Tarih veri türleri](#date-data-types) bölümüne bakın. 
 
 Yine de karmaşık geliyorsa ayrıntıları görmek için okumaya devam edin.  
 
@@ -133,9 +133,17 @@ Power BI URL filtresi aşağıdaki biçimlerde sayı içerebilir.
 
 ### <a name="date-data-types"></a>Tarih veri türleri
 
-Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar.  Tarihler EDM biçimi (2019-02-12T00:00:00) kullanılarak gösterilir. Bu nedenle ‘YYYY-AA-GG’ biçiminde bir tarih belirttiğinizde Power BI bunu ‘YYYY-AA-GGT00:00:00’ olarak yorumlar.
+Power BI, **Date** ve **DateTimeOffset** veri türleri için OData V3 ve V4 desteği sunar. OData V3 için tarihlerin tek tırnak içine alınması ve önüne datetime sözcüğünün yazılması gerekir. OData V4'te tek tırnak ve datetime sözcüğü gerekli değildir. 
+  
+Tarihler EDM biçiminde (2019-02-12T00:00:00) gösterilir: Bu da YYYY-AA-GG biçiminde bir tarih belirttiğinizde Power BI bunu YYYY-AA-GGT00:00:00 şeklinde yorumlar. Ay ve günün iki basamaklı (AA ve GG) olduğundan emin olun.
 
-Bu ayrım neden önemlidir? **Table/Date gt ‘2018-08-03’** şeklinde bir sorgu dizesi parametresi oluşturduğunuzu düşünelim.  Sonuçlar 3 Ağustos 2018'i kapsayacak mı yoksa 4 Ağustos 2018'den mi başlayacak? Power BI sorgunuzu**Table/Date gt ‘2018-08-03T00:00:00’** şekline dönüştürdüğünden sonuçlarınız saat bölümü sıfır olmayan tarihleri **‘2018-08-03T00:00:00’** tarihinden büyük olacağından kapsayacaktır.
+Bu ayrım neden önemlidir? **Table/Date gt ‘2018-08-03’** şeklinde bir sorgu dizesi parametresi oluşturduğunuzu düşünelim.  Sonuçlar 3 Ağustos 2018'i kapsayacak mı yoksa 4 Ağustos 2018'den mi başlayacak? Power BI sorgunuzu **Table/Date gt '2018-08-03T00:00:00'** şekline dönüştürür. Dolayısıyla sonuçlarınız saat bölümü sıfır olmayan tarihleri kapsar çünkü bunlar **'2018-08-03T00:00:00'** tarihinden büyüktür.
+
+V3 ile V4 arasında başka farklılıklar da vardır. OData V3'te Dates desteği yoktur; yalnızca DateTime desteklenir. Bu nedenle, V3 biçimini kullanırsanız bunu tam tarih saat değeriyle nitelemeniz gerekir. "datetime'2019-05-20'" gibi tarih değişmez değerleri V3 gösteriminde desteklenmez. Ama bunu V4 gösteriminde doğrudan "2019-05-20" olarak yazabilirsiniz. Aşağıda V3 ve V4 biçimlerinde iki eşdeğer filtre sorgusu verilmiştir:
+
+- OData V4 biçimi: filtre=Table/Date gt 2019-05-20
+- OData V3 biçimi: filtre=Table/Date gt datetime'2019-05-20T00:00:00'
+
 
 ## <a name="special-characters-in-url-filters"></a>URL filtrelerindeki özel karakterler
 

@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523350"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730075"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 
@@ -79,6 +79,8 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
     ![Özetlenmiş veriler, xlsx ve öne çıkarılan Dışarı Aktarma seçenekleriyle Verileri dışarı aktar'ın ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     Görselleştirmelere filtre uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+    
+    Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin görselleştirmede henüz en üst düzeyden detaya gidilmediyse, dışarı aktarılan veriler yalnızca geçerli detaylandırma düzeyinde görseli oluşturmak için kullanılan verileri değil hiyerarşideki tüm verileri içerir.
 
     **Özetlenmiş veriler**: Bu görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız bu seçeneği belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görseli oluşturmak için seçtiğiniz verileri (sütunlar ve ölçüler) gösterir.  Görselin toplaması varsa, toplanan verileri dışarı aktarırsınız. Örneğin, dört çubuk gösteren bir çubuk grafiğiniz varsa dört veri satırı elde edersiniz. Özetlenmiş veriler *.xlsx* ve *.csv* olarak sağlanır.
 
@@ -92,6 +94,8 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
     > Temel alınan verileri dışarı aktarma seçeneğinizin olup olmadığı, rapor ayarlarına bağlıdır.
 
     Görselleştirmelere filtre uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+    
+    Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin görselleştirmede henüz en üst düzeyden detaya gidilmediyse, dışarı aktarılan veriler yalnızca geçerli detaylandırma düzeyinde görseli oluşturmak için kullanılan verileri değil hiyerarşideki tüm verileri içerir.
 
     >[!WARNING]
     >Temel alınan verilerin dışarı aktarılması, kullanıcıların verileri tüm ayrıntılarıyla (verilerdeki tüm sütunlar) görebilmesine olanak sağlar. Power BI hizmeti yöneticileri kuruluşlarında bu özelliği devre dışı bırakamaz. Veri kümesinin sahibiyseniz özel bilgilerin bulunduğu sütunları **gizli** olarak ayarlayabilir ve böylece bu bilgilerin Desktop veya Power BI hizmetindeki **Alanlar** listesinde gösterilmemesini sağlayabilirsiniz.
