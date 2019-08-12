@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840315"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624135"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
 İçerik ve rapor görünümünü denetlemek için Power BI Sayfalandırılmış Rapor Oluşturucusu’nda ifadeler sıklıkla kullanılır. Microsoft Visual Basic’te yazılan ifadeler yerleşik işlevleri, özel kodu, rapor ve grup değişkenlerini, kullanıcı tanımlı değişkenleri kullanabilir. İfadeler eşittir işaretiyle (=) başlar.   
@@ -40,7 +40,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 ##  <a name="VisualBasicFunctions"></a> Visual Basic işlevleri  
  Metin kutularında görüntülenen veya parametreler, özellikler veya raporun diğer alanları için kullanılan verileri denetlemek için Visual Basic işlevlerini kullanabilirsiniz. Bu bölüm, bu işlevlerin bazılarını gösteren örnekleri sunar. Daha fazla bilgi için MSDN’de bulunan [Visual Basic Çalışma Zamanı Kitaplığı Üyeleri](https://go.microsoft.com/fwlink/?LinkId=198941) bölümüne göz atın.  
   
- .NET Framework birçok özel biçim seçeneği sunar (örneğin, belirli tarih biçimlerine yönelik seçenekler). Daha fazla bilgi için MSDN’de bulunan [Biçimlendirme Türleri](https://go.microsoft.com/fwlink/?LinkId=112024) bölümüne göz atın.  
+ .NET Framework birçok özel biçim seçeneği sunar (örneğin, belirli tarih biçimlerine yönelik seçenekler). Daha fazla bilgi için bkz. [Biçimlendirme Türleri](/dotnet/standard/base-types/formatting-types).  
   
 ### <a name="math-functions"></a>Matematik İşlevleri  
   

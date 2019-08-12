@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61417649"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665333"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans açısından en iyi Power BI yöntemleri
 
@@ -23,11 +23,11 @@ Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik 
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Filtreleri kullanarak rapordaki görsel öğelerini yalnızca gerekli öğelerle sınırlayın 
 
-Bir görsel öğenin görüntülemesi gereken veri arttıkça yüklenme hızı düşer. Bu ilke açık olsa da sık sık unutulur. Örneğin, büyük bir veri kümeniz olduğunu varsayalım. Bunun üzerine, tablonun tablosunu içeren bir rapor oluşturuyorsunuz. Çoğu birkaç düzine satırla ilgilenen son kullanıcılar, sayfadaki dilimleyicileri kullanarak istedikleri satırlara gidebiliyor.
+Bir görsel öğenin görüntülemesi gereken veri arttıkça yüklenme hızı düşer. Bu ilke açıkça anlaşılır olsa da sık sık unutulur. Örneğin, büyük bir veri kümeniz olduğunu varsayalım. Bu veri kümesinin üzerinde tablonun tablosunu içeren bir rapor oluşturuyorsunuz. Çoğu birkaç düzine satırla ilgilenen son kullanıcılar, sayfadaki dilimleyicileri kullanarak istedikleri satırlara gidebiliyor.
 
-Sık yapılan bir hata, tablonun varsayılan görünümünün filtrelenmemiş (100 milyondan fazla satır) olmasıdır. Her yenilemede bu satırlara ait verilerin belleğe yüklenmesi ve sıkıştırmasının açılması gerekir. Bu, çok büyük bellek yüklerine yol açar. Çözüm: “İlk N” filtresini kullanarak tablonun görüntülediği en fazla öğe sayısını azaltın. En fazla öğe sayısı, kullanıcılar için gerekenden çok daha fazla (örneğin 10.000) olabilir. Bunun sonucunda, son kullanıcı deneyimi değişmez ancak raporun bellek kullanımı birkaç kat azalır ve performans da buna göre artar.
+Sık yapılan bir hata, tablonun filtrelenmemiş varsayılan görünümünü (100 milyondan fazla satır) olduğu gibi bırakmaktır. Her yenilemede bu satırlara ait veriler belleğe yüklenir ve sıkıştırması açılır. Bu işlem muazzam büyüklükte bellek yükleri oluşturur. Çözüm: “İlk N” filtresini kullanarak tablonun görüntülediği öğe sayısı üst sınırını azaltın. Öğe sayısı üst sınırını kullanıcılar için gerekenden çok daha yüksek bir sayıya (örneğin 10.000) ayarlayabilirsiniz. Sonuçta son kullanıcı deneyimi değişmez ama bellek kullanımı önemli ölçüde azalır. Ayrıca performans da gelişir.
 
-Raporlarınızdaki tüm görsel öğeler için yukarıdakine benzer bir yaklaşım önerilir. Kendinize bir görsel öğedeki tüm verilerin gerekli olup olmadığını sorun. Son kullanıcı deneyimini olabildiğince az etkileyecek şekilde filtre uygulayarak görsel öğede gösterilen veri miktarını azaltmanın bir yolu var mı? Özellikle de tabloların pahalı olabileceğini unutmayın.
+Raporlarınızdaki tüm görsel öğeler için yukarıdakine benzer bir yaklaşım önerilir. Kendinize bir görsel öğedeki tüm verilerin gerekli olup olmadığını sorun. Son kullanıcı deneyimini çok az etkileyerek görselde gösterilen veri miktarını filtrelemenin yolları var mı? Özellikle tablolar pahalı olabilir.
 
 ## <a name="limit-visuals-on-report-pages"></a>Rapor sayfalarındaki görsel öğeleri sınırlama
 
@@ -37,22 +37,22 @@ Yukarıdaki ilke, aynı şekilde belirli bir rapordaki görsel öğe sayısı i�
 
 En iyi yöntemlerden bazıları:
 
-- Kullanılmayan tablo veya sütunlar mümkünse kaldırılmalıdır. 
+- Kullanılmayan tabloları veya sütunları mümkün olduğunca kaldırın. 
 - Kardinalitesi yüksek olan (örneğin, milyonlarca ayrı değer) sütunlarda ayrı sayımlardan kaçının.  
-- Gereksiz düzeyde hassaslığa ve yüksek kardinaliteye sahip alanlardan kaçınmak için gerekli adımları uygulayın. Örneğin, yüksek oranda benzersiz datetime değerlerini ay, yıl, tarih gibi ayrı sütunlara bölebilirsiniz. Öte yandan mümkün olduğunda kardinaliteyi azaltmak için yüksek hassaslığa sahip alanlarda yuvarlamayı (örneğin, 13.29889 -> 13.3) kullanabilirsiniz.
+- Gereksiz düzeyde hassaslığa ve yüksek kardinaliteye sahip alanlardan kaçınmak için gerekli adımları uygulayın. Örneğin son derece benzersiz olan tarih saat değerlerini (örneğin ay, yıl ve tarih) ayrı sütunlara bölebilirsiniz. Mümkün olduğunda yüksek duyarlıklı alanları düşük kardinaliteye yuvarlama da kullanabilirsiniz (örneğin, 13,29889 -> 13,3).
 - Mümkün oldukça dize yerine tamsayı kullanın.
 - Bir tablodaki tüm satırları test etmesi gereken RANKX gibi DAX işlevlerine dikkat edin. En kötü senaryoda, tablo boyutundaki doğrusal artışlar nedeniyle bu işlevler çalışma sürenizi ve bellek gereksinimlerinizi birkaç katına çıkarabilir.
-- DirectQuery aracılığıyla veri kaynaklarına bağlanırken yaygın olarak filtrelenen veya dilimlenen sütunları yeniden dizine eklemeyi deneyin. Bu, raporun yanıt verme hızını önemli oranda artırır.  
+- Veri kaynaklarına DirectQuery yoluyla bağlandığınızda yaygın olarak yeniden filtrelenen veya dilimlenen sütunların dizinini oluşturmayı göz önünde bulundurun. Dizin oluşturma raporun yanıt süresini önemli ölçüde geliştirir.  
 
-DirectQuery için veri kaynaklarını iyileştirme hakkında daha fazla yönerge için bkz. [SQL Server 2016 Analysis Services’da DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/).
+DirectQuery'de veri kaynaklarını iyileştirme hakkında daha fazla bilgi için bkz. [SQL Server 2016 Analysis Services'te DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/).
 
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery ve canlı bağlantı: temel veri kaynağının performansını anlama
 
-DirectQuery veya canlı bağlantı örneğinde, kullanıcılar bir Power BI raporunu ziyaret ettiğinde Power BI tarafından temel veri kaynağına gerçek zamanlı olarak sorgular gönderilir. Veri kaynağı sorgu verilerini döndürdüğünde rapor işlenir. Bunun sonucunda, bu durumlarda raporunuzun performansı büyük oranda temel veri kaynağına bağlıdır.
+DirectQuery veya canlı bağlantı örneğinde, kullanıcılar bir Power BI raporunu ziyaret ettiğinde Power BI tarafından temel veri kaynağına gerçek zamanlı olarak sorgular gönderilir. Veri kaynağı sorgu verilerini döndürdükten sonra rapor işlenir. Sonuç olarak, rapor performansınız büyük ölçüde temel veri kaynağının performansına bağlıdır.
 
-Böyle durumlarda temel veri kaynağınızın performansını anlamanız önemli olur. Sorgu performansının anlaşılması için her veri kaynağının farklı araçları vardır. Örneğin, SQL Server ve Azure SQL tarafından sorguların geçmişini ve çalışma zamanı istatistiklerini yakalayan Query Store sağlanır.
+Bu gibi durumlarda temel veri kaynağınızın performansını anlamanız önemlidir. Farklı veri kaynaklarının sorgu performansını anlamak için farklı araçları vardır. Örneğin, SQL Server ve Azure SQL tarafından sorguların geçmişini ve çalışma zamanı istatistiklerini yakalayan Query Store sağlanır.
 
-Genel bir kural olarak DirectQuery ve canlı bağlantı üzerinde oluşturulmuş Power BI raporlarını dağıtırken son kullanıcılarınızın Power BI Desktop’ta yapacağı işlemleri deneyin. Power BI Desktop’ta rapor yavaş yükleniyorsa, son kullanıcılarınız için hizmette de yavaş yükleneceği neredeyse kesindir. 
+DirectQuery ve canlı bağlantı üzerinde oluşturulmuş Power BI raporlarını dağıtırken, son kullanıcılarınızın Power BI Desktop'ta ne yapacağını deneyin. Rapor Power BI Desktop'ta yavaş yükleniyorsa, büyük olasılıkla son kullanıcılarınız için de hizmette yavaş yüklenecektir. 
 
 ## <a name="directquery-best-practices"></a>En iyi DirectQuery yöntemleri
 
@@ -60,24 +60,24 @@ Aşağıdaki bölümde, DirectQuery aracılığıyla bağlanmak için genel olar
   
 ### <a name="db-design-guidance"></a>Veritabanı tasarım kılavuzu
 
-- Mümkün oldukça hesaplanmış sütunları ve ölçüleri kaynağa gönderin; bunlar kaynağa ne kadar yakın olursa performans olasılığı o kadar artar.
-- En iyi duruma getirin! Sorgularınız için yürütme planlarını anlayın, sık filtrelenen sütunlar için dizin ekleyin, vs.
+- Hesaplanan sütunları ve ölçüleri mümkün olduğunca kaynağa doğru itin. Kaynağa ne kadar yakın olursa performansın yüksek olma olasılığı da o kadar yüksektir.
+- En iyi duruma getirin! Sorgularınız için yürütme planlarını öğrenin, sık filtrelenen sütunlar için dizinler ekleyin ve bunun gibi başka çalışmalar yapın.
 
 ### <a name="modeling-guidance"></a>Modelleme kılavuzu
 
 - Çalışmaya Power BI Desktop'ta başlayın.
 - Sorgu Düzenleyicisi'nde karmaşık sorgular kullanmayın.
-- Sorgu Düzenleyicisi'nde göreli veri filtreleme kullanmayın.  
+- Sorgu Düzenleyicisi'nde göreli tarih filtrelemesi kullanmayın.  
 - Başlangıçta ölçüleri basit tutun ve kademeli olarak karmaşıklık ekleyin.
 - Hesaplanmış sütunlar ve benzersiz tanımlayıcı sütunlarında ilişki kullanmayın.
-- İlişkiler üzerinde “Bilgi Tutarlılığı Varsay” ayarını kullanmayı deneyin; çoğu durumda bunun yapılması sorgu performansını önemli ölçüde artırabilir.  
+- İlişkilerde “Bilgi Tutarlılığı Varsay” ayarını yapmayı deneyin; birçok durumda bu ayar sorgu performansını önemli ölçüde geliştirir.  
 
 ### <a name="general"></a>Genel
 
 - Önce filtre uygulayın.
 - Görsel öğeler arası etkileşimi kapatmayı göz önünde bulundurun; bunun yapılması, kullanıcılar çapraz vurgulama uygularken sorgu yükünü azaltır.
 - Yukarıda açıklandığı gibi, görsel öğe sayısını ve görsel öğe başına veri miktarını kısıtlayın.
-- Satır düzeyi güvenliğin etkinleştirilmesi, performansta önemli değişikliklere neden olabilir. Kullanıcılarınızın üstleneceği çeşitli satır düzeyi güvenlik rollerini test etmeyi unutmayın.
+- Satır düzeyi güvenliğin etkinleştirilmesi, performansta büyük değişikliklere neden olabilir. Kullanıcılarınızın üstleneceği çeşitli satır düzeyi güvenlik rollerini test etmeyi unutmayın.
 - Uzun süre çalışan sorguların sistem kaynaklarını tekeline alamamasını sağlamak için hizmet tarafından sorgu düzeyinde zaman aşımları zorunlu tutulur. 225 saniyeden uzun süren sorgular zaman aşımına uğrar ve görsel öğe düzeyinde bir hataya yol açar.
 
 ## <a name="understand-dashboards-and-query-caches"></a>Panoları ve sorgu önbelleklerini anlama
@@ -85,12 +85,12 @@ Aşağıdaki bölümde, DirectQuery aracılığıyla bağlanmak için genel olar
 Panolara sabitlenen görsel öğeler, pano yüklendiğinde sorgu önbelleği tarafından sunulur. Buna karşılık olarak, bir rapor ziyaret edildiği sırada, Power BI hizmetine (içeri aktarma durumunda) veya belirttiğiniz veri kaynağına (DirectQuery veya canlı bağlantı durumunda) yönelik sorgular anlık olarak gerçekleştirilir.  
 
 > [!NOTE]
-> Panoya canlı rapor kutucukları sabitlediğinizde bunlar sorgu önbelleğinden sunulmaz, bunun yerine rapor gibi davranır ve anlık olarak arka uç çekirdeklerine sorgu gerçekleştirir.
+> Panoya canlı rapor kutucukları sabitlediğinizde bunlar sorgu önbelleğinden sunulmaz; bunun yerine rapor gibi davranır ve anlık olarak arka uç çekirdeklerine sorgu gerçekleştirir.
 
 Adından da anlaşılacağı gibi, veri kaynağını kullanmak yerine verilerin sorgu önbelleğinden alınması daha iyi ve daha tutarlı performans sağlar. Bu işlevin avantajından yararlanmanın bir yolu, panoları kullanıcılarınız için ilk giriş sayfası yapmaktır. Sık kullanılan ve istenen görsel öğeleri panolara sabitleyin. Bu sayede, panolar değerli bir “ilk savunma hattı” olur ve kapasite üzerinde daha az yük oluşturarak tutarlı performans sağlar. Kullanıcılar raporda gezinerek ayrıntıları araştırabilir.  
  
 
-DirectQuery ve canlı bağlantı için bu sorgu önbelleği, veri kaynağı sorgulanarak düzenli aralıklarla güncelleştirilir. Varsayılan olarak bu işlem saat başı gerçekleşir, ancak veri kümesi ayarlarından yapılandırılabilir. Her sorgu önbelleği güncelleştirmesi, önbelleği güncelleştirmek için temel veri kaynağına sorgu gönderir. Oluşturulan sorgu sayısı, panoya sabitlenen ve bu veri kaynağını kullanan görsel öğe sayısına bağlıdır. Satır düzeyi güvenliğin etkin olması durumunda her farklı güvenlik bağlamı için sorgu oluşturulduğunu unutmayın. Örneğin, kullanıcılarınız iki farklı role ayrılıyorsa ve verilerin iki farklı görünümü varsa, sorgu önbelleği yenilendiği sırada iki sorgu kümesi oluşturulur. 
+DirectQuery ve canlı bağlantı için, sorgu önbelleği veri kaynağı sorgulanarak düzenli aralıklarla güncelleştirilir. Varsayılan olarak bu işlem saat başı gerçekleşir, ancak veri kümesi ayarlarından yapılandırılabilir. Her sorgu önbelleği güncelleştirmesi, önbelleği güncelleştirmek için temel veri kaynağına sorgu gönderir. Oluşturulan sorgu sayısı, panoya sabitlenen ve veri kaynağını kullanan görsel öğe sayısına bağlıdır. Satır düzeyi güvenliğin etkin olması durumunda her farklı güvenlik bağlamı için sorgu oluşturulduğunu unutmayın. Örneğin, kullanıcılarınızı kategorilere ayıran iki farklı rolünüz ve bunların iki farklı veri görünümü varsa, sorgu önbelleğini yenileme sırasında Power BI iki sorgu kümesi oluşturur. 
 
 ## <a name="understand-custom-visual-performance"></a>Özel görsel öğe performansını anlama 
 
@@ -111,7 +111,7 @@ Yönergeler aşağıda verilmiştir:
 
 2. **Power BI Desktop tarafından kullanılmakta olan bağlantı noktasını belirleme**
 
-   Komut istemini veya PowerShell’i yönetici ayrıcalıklarıyla çalıştırın ve netstat ile Power BI Desktop’ın analiz için kullandığı bağlantı noktasını bulun:
+   Komut istemini veya PowerShell'i yönetici ayrıcalıklarıyla çalıştırın. Ayrıca Power BI Desktop'ın analiz için kullandığı bağlantı noktasını bulmak için netstat kullanın:
 
    `> netstat -b -n`
 
@@ -132,7 +132,7 @@ Yönergeler aşağıda verilmiştir:
    - SQL Profiler çalışmaya ve etkin olarak Power BI Desktop tarafından gönderilen sorguların profilini oluşturmaya başlar. 
    - Sorgular yürütülürken her birinin süresini ve CPU kullanımını görebilir ve bu bilgileri kullanarak hangi sorguların performans sorunlarına yol açtığını belirleyebilirsiniz.  
 
-SQL Profiler aracılığıyla CPU’yu en uzun süre kullanan ve muhtemelen performans sorunlarına yol açan sorguları belirleyebilirsiniz. Devam eden iyileştirme çalışmaları için bu sorguları yürüten görsel öğelere odaklanılması gerekir.
+SQL Profiler aracılığıyla en uzun CPU süresini alan sorguları belirleyebilirsiniz. Performans sorunlarına yol açan büyük olasılıkla bu sorgulardır. Devam eden iyileştirme çalışmaları için bu sorguları çalıştıran görsel öğelere odaklanılması gerekir.
 
 ## <a name="gateway-best-practices"></a>En iyi ağ geçidi yöntemleri
 
@@ -140,15 +140,15 @@ SQL Profiler aracılığıyla CPU’yu en uzun süre kullanan ve muhtemelen perf
 
 - Kişisel mod yerine **Kurumsal modu kullanın**.
 - **Ağ geçidi için önerilen donanım özellikleri** – sekiz CPU çekirdeği, 16 GB RAM.
-- **İzleme ayarlayın**: Ağ geçidinin aşırı yüklenerek performans sorunların yol açıp açmadığını anlamak için ağ geçidi makinesi üzerinde performans izleme ayarlayın. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi sorunlarını giderme](service-gateway-onprem-tshoot.md).
+- **İzleme ayarlayın**: Ağ geçidinin aşırı yüklenerek performans sorunlarına yol açıp açmadığını anlamak için ağ geçidi makinesi üzerinde performans izleme ayarlayın. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi sorunlarını giderme](service-gateway-onprem-tshoot.md).
 - **Ölçeği büyütün veya genişletin**: Ağ geçidi gerçekten de performans sorunlarına yol açıyorsa, ölçeği büyütmeyi (yani, ağ geçidini daha fazla CPU ve RAM içeren daha güçlü bir makineye taşımayı) veya ölçeği genişletmeyi (örneğin, iki veri kümesini farklı ağ geçitlerine bölme) göz önünde bulundurun. 
-- **İçeri aktarma ile DirectQuery’yi ayırın** – Ölçeği genişletiyorsanız, içeri aktarmadan sorumlu olan ağ geçitleri ile DirectQuery’den sorumlu olanları birbirinden ayırmayı göz önünde bulundurun.
+- **İçeri aktarma ile DirectQuery’yi ayırın** – Ölçeği genişletiyorsanız, içeri aktarmadan sorumlu olan ağ geçitleri ile DirectQuery’den sorumlu olan ağ geçitlerini birbirinden ayırmayı göz önünde bulundurun.
 
 ## <a name="network-latency"></a>Ağ gecikmesi
 
-Ağ gecikmesi, isteklerin Power BI hizmete ulaşması ve yanıtların teslim edilmesi için gereken süreyi artırarak rapor performansını etkileyebilir. Power BI'da kiracılara belirli bir bölge atanır. Kiracınızın “ev” bölgesini powerbi.com adresine gidip sağ üstteki ?** işaretini ve ardından **Power BI Hakkında**'yı seçerek görüntüleyebilirsiniz. Bir kiracıdaki kullanıcıların Power BI hizmetine erişirken gerçekleştirdiği istekler her zaman bu bölgeden yönlendirilir. İstekler Power BI hizmetine ulaştığında, hizmet yine ağ gecikmesine yol açabilecek ek istekler (örneğin, temel veri kaynağına veya ağ geçidine) gönderebilir.
+Ağ gecikmesi, isteklerin Power BI hizmete ulaşması ve yanıtların teslim edilmesi için gereken süreyi artırarak rapor performansını etkileyebilir. Power BI'da kiracılara belirli bir bölge atanır. Kiracınızın “ev” bölgesini powerbi.com adresine gidip sağ üstteki **?** işaretini ve sonra **Power BI Hakkında**’yı seçerek görüntüleyebilirsiniz. Kiracıdaki kullanıcıların Power BI hizmetine erişirken gerçekleştirdiği istekler her zaman bu bölgeye yönlendirilir. İstekler Power BI hizmetine ulaştığında, hizmet yine ağ gecikmesine yol açabilecek ek istekler (örneğin, temel veri kaynağına veya ağ geçidine) gönderebilir.
 
-[Azure Hız Testi](http://azurespeedtest.azurewebsites.net/) gibi araçlar, istemci ile Azure bölgesi arasındaki ağ gecikmesini gösterir. Genel olarak ağ gecikmesinin etkisini en aza indirmek için veri kaynaklarını, ağ geçitlerini ve Power BI kümenizi mümkün olduğunca yakın tutun. Ağ gecikmesi sorunu yaşıyorsanız, ağ geçitlerini ve veri kaynaklarını sanal makinelere yerleştirerek Power BI kümenize yakınlaştırmayı deneyebilirsiniz.
+[Azure Hız Testi](http://azurespeedtest.azurewebsites.net/) gibi araçlar, istemci ile Azure bölgesi arasındaki ağ gecikmesini gösterir. Genel olarak ağ gecikmesinin etkisini en aza indirmek için veri kaynaklarını, ağ geçitlerini ve Power BI kümenizi mümkün olduğunca yakın tutun. Ağ gecikmesi sorunu yaşıyorsanız, ağ geçitlerini ve veri kaynaklarını sanal makinelere yerleştirerek Power BI kümenize yakınlaştırmayı deneyin.
 
 Ağ gecikmesini daha da azaltmak için istemcilerinizle Azure veri merkezleri arasında daha hızlı, daha güvenilir ağ bağlantıları oluşturabilen [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)’u kullanmayı göz önünde bulundurun.
 

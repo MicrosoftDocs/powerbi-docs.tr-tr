@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770799"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808223"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -202,7 +202,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 | Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |Hayır |
 | Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
 | Oracle Database |Hayır |Hayır |Evet |Evet |Evet |
-| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Evet |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
 | SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Hayır |
 | Teradata Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
 

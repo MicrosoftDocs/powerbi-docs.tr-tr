@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269949"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623797"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>AppSource'ta özel görsel yayımlama
 
@@ -22,7 +22,7 @@ ms.locfileid: "61269949"
 
 Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI Özel Görseli Geliştirme](custom-visual-develop-tutorial.md).
 
-   ![Office Mağazası](media/office-store/AppSource_01.jpg)
+   ![Office Mağazası](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>AppSource nedir?
 
@@ -30,7 +30,7 @@ ms.locfileid: "61269949"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
 
-İşiniz bittiğinde okunurken bizim [Power BI görselleri yönergeleri](guidelines-powerbi-visuals.md), kodlama ve [özel görselinizi test](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) ve paketlenmiş bir pbiviz dosyasına da gönderiniz için aşağıdaki hazır olmalıdır.
+[Power BI görselleri yönergelerimizi](guidelines-powerbi-visuals.md) okumayı, [özel görselinizi kodlamayı ve test etmeyi](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) tamamlayıp pbiviz dosyası şeklinde paketledikten sonra gönderim için aşağıdaki bilgilere sahip de olmanız gerekir.
 
 | Öğe | Gerekli | Açıklama |
 | --- | --- | --- |

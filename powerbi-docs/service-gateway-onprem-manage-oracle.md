@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271462"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730245"
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 
@@ -73,7 +73,7 @@ Oracle veri kaynağı türünü seçtikten sonra, **Sunucu** ve **Veritabanı** 
 Bir **Kimlik Doğrulama Yöntemi** seçmeniz de gerekir.  Bu yöntem, **Windows** veya **Temel** seçeneklerinden biri olabilir.  Windows Kimlik Doğrulaması yerine Oracle'da oluşturulmuş bir hesap kullanacaksanız **Temel**'i seçebilirsiniz. Ardından, bu veri kaynağı için kullanılacak kimlik bilgilerini girin.
 
 > [!NOTE]
-> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi almak için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Veri kaynağı ayarlarını doldurma](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

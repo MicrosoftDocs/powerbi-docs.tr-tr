@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271581"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730044"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Manage your data source - SQL Server (Veri kaynağınızı yönetme - SQL Server)
 
@@ -37,7 +37,7 @@ Ardından **Sunucu**'yu ve **Veritabanı**'nı içeren veri kaynağına ilişkin
 Bir **Kimlik Doğrulama Yöntemi** seçmeniz de gerekir. Bu yöntem, **Windows** veya **Temel** seçeneklerinden biri olabilir. Windows Kimlik Doğrulaması yerine SQL Kimlik Doğrulaması kullanacaksanız **Temel**'i seçmeyi tercih edebilirsiniz. Ardından, bu veri kaynağı için kullanılacak kimlik bilgilerini girin.
 
 > [!NOTE]
-> Kerberos Çoklu Oturum Açma (SSO) özelliği, veri kaynağı için yapılandırılmadığı ve etkinleştirilmediği sürece veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. SSO ile oturum açıldığında, içeri aktarılan veri kümeleri depolanan kimlik bilgilerini kullanır, ancak DirectQuery veri kümeleri SSO ile sorgu yürütmek için geçerli Power BI kullanıcısını kullanır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) bölümüne veya [Power BI ve şirket içi veri kaynakları arasında SSO (çoklu oturum açma) gerçekleştirmek için Kerberos’u kullanmayı](service-gateway-sso-kerberos.md) anlatan makaleye göz atın.
+> Kerberos Çoklu Oturum Açma (SSO) özelliği, veri kaynağı için yapılandırılmadığı ve etkinleştirilmediği sürece veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. SSO ile oturum açıldığında, içeri aktarılan veri kümeleri depolanan kimlik bilgilerini kullanır, ancak DirectQuery veri kümeleri SSO ile sorgu yürütmek için geçerli Power BI kullanıcısını kullanır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) bölümüne veya [Power BI ve şirket içi veri kaynakları arasında SSO (çoklu oturum açma) gerçekleştirmek için Kerberos’u kullanmayı](service-gateway-sso-kerberos.md) anlatan makaleye göz atın.
 
 ![Veri kaynağı ayarlarını doldurma](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

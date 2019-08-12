@@ -1,6 +1,6 @@
 ---
 title: Kuruluşunuz için uygulamanıza Power BI içeriği eklemek için tümleşik analiz
-description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
+description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu (Power BI veya Sayfalandırılmış), panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355544"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665544"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
-**Power BI**’da, verilerin sahibi kullanıcıdır yapısını kullanarak bir uygulamaya raporlar, panolar veya kutucuklar ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, tümleşik analizi kullanmak için uygulamanızın Power BI hizmetinin kapsamını genişletebilmesini sağlar. Bu öğreticide, bir raporun bir uygulamayla nasıl tümleştirileceği gösterilmektedir. Kuruluşunuz için bir uygulamaya Power BI eklemek için Power BI JavaScript API’si ile birlikte Power BI .NET SDK’sını kullanırsınız.
+**Power BI**’da, verilerin sahibi kullanıcıdır yapısını kullanarak bir uygulamaya raporlar (Power BI veya Sayfalandırılmış), panolar veya kutucuklar ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, tümleşik analizi kullanmak için uygulamanızın Power BI hizmetinin kapsamını genişletebilmesini sağlar. Bu öğreticide, bir raporun (Power BI veya Sayfalandırılmış) bir uygulamayla nasıl tümleştirileceği gösterilmektedir. Kuruluşunuz için bir uygulamaya Power BI eklemek için Power BI JavaScript API’si ile birlikte Power BI .NET SDK’sını kullanırsınız.
 
 ![Power BI Rapor Ekleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 Bu öğreticide, aşağıdaki görevleri öğreneceksiniz:
 > [!div class="checklist"]
 > * Azure’da bir uygulama kaydetme.
-> * Power BI kiracınızı kullanarak uygulamaya Power BI raporu ekleme.
+> * Power BI kiracınızı kullanarak uygulamaya Power BI raporu veya Sayfalandırılmış rapor ekleme.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -35,6 +35,7 @@ Başlamak için şunlara sahip olmalısınız:
 * [Power BI Pro hesabı](../service-self-service-signup-for-power-bi.md).
 * [Microsoft Azure](https://azure.microsoft.com/) aboneliği.
 * [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
+* Sayfalandırılmış raporları eklemek için en az A4/P1 kapasitesine ihtiyacınız vardır. Bkz. [Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 
@@ -44,9 +45,9 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz.
+Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan uygulama çalışma alanında en az A4/P1 kapasitesine ihtiyacınız vardır.
 
-Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
+Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Bir uygulamayı Azure Active Directory’ye kaydetme
 
@@ -60,7 +61,7 @@ Uygulamanızın [Power BI REST API'lerine](https://docs.microsoft.com/rest/api/p
 
 Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, uygulama çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../service-create-workspaces.md) veya [yeni çalışma alanları](../service-create-the-new-workspaces.md).
 
-### <a name="create-and-publish-your-reports"></a>Raporlarınızı oluşturma ve yayımlama
+### <a name="create-and-publish-your-power-bi-reports"></a>Power BI raporlarınızı oluşturma ve yayımlama
 
 Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabilirsiniz. Daha sonra bu raporları bir uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının bir uygulama çalışma alanında yayımlamak için bir Power BI Pro lisansına sahip olması gerekir.
 
@@ -79,7 +80,11 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
     Artık raporunuzu Power BI hizmetinde çevrimiçi görüntüleyebilirsiniz.
 
    ![Power BI Desktop raporunu görüntüleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yayımlama
 
+Sayfalandırılmış raporlarınızı oluşturmak için [Power BI Rapor Oluşturucusu](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)'nu kullanabilirsiniz. Ardından en az A4/P1 kapasiteye atanmış bir uygulama çalışma alanına [raporu yükleyebilirsiniz](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu karşıya yükleyen son kullanıcının uygulama çalışma alanına yayımlamak için bir Power BI Pro lisansı olması gerekir.
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriğinizi ekleme
 
 Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
@@ -124,30 +129,6 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>Uygulama gizli dizisi
-
-Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) AuthenticationType ayarı için gereklidir.
-
-**ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.  Bu öznitelik [hizmet sorumlusu](embed-service-principal.md) kullanıldığında çalışır.
-
-**ApplicationSecret** değerini almak için aşağıdaki adımları izleyin:
-
-1. [Azure portalında](https://portal.azure.com) oturum açın.
-
-2. Sol gezinti bölmesinde **Tüm hizmetler**'i, sonra da **Uygulama kayıtları**'nı seçin.
-
-3. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
-
-    ![Bir uygulama seçin](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. Seçin **sertifikalarını ve gizli dizilerini** altında **Yönet**.
-
-5. Seçin **yeni gizli**.
-
-6. **Açıklama** kutusuna bir ad girin ve bir süre seçin. Ardından **Kaydet**’i seçerek uygulamanız için **Değer**’i alın. Anahtar değerini kaydettikten sonra **Anahtarlar** bölmesini kapattığınızda değer alanı yalnızca gizlenmiş olarak gösterilir. Bu aşamada anahtar değerini alamazsınız. Anahtar değerini kaybederseniz Azure portalında yeni bir anahtar değeri oluşturun.
-
-    ![Anahtar değeri](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
 **workspaceId** bilgisini Power BI’daki uygulama çalışma alanı (grup) GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 **reportId** bilgisini Power BI’daki rapor GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
 
-URL <br>
+Power BI Raporu URL'si <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+Sayfalandırılmış Rapor URL'si <br>
+
+
+
+Sayfalandırılmış Rapor URL'si<br>
+
+![Paginated reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 Powershell <br>
 
@@ -214,7 +203,7 @@ Uygulamanızın içinden Power BI REST API’si çağrısı yapabilmek için ön
 
 ### <a name="get-a-report"></a>Rapor alma
 
-Bir Power BI raporu almak için, Power BI raporlarının listesini alan [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) işlemini kullanırsınız. Rapor listesinden bir rapor kimliği alabilirsiniz.
+Power BI raporu veya sayfalandırılmış rapor almak için, Power BI ve sayfalandırılmış raporlar listesini alan [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) işlemini kullanırsınız. Rapor listesinden bir rapor kimliği alabilirsiniz.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Erişim belirteci kullanarak rapor alma
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanm�
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. [Power BI Premium](../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az A4/P1 kapasiteyle desteklemelisiniz. [Power BI Premium](../service-premium-what-is.md) kullanarak ayrılmış kapasite oluşturabilirsiniz.
 
 Aşağıdaki tabloda, [Microsoft Office 365](../service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 
@@ -435,7 +425,7 @@ Genel yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST A
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz. Müşterileriniz için de Power BI içeriği ekleme denemeleri yapabilirsiniz:
+Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz. Ayrıca müşterileriniz için Power BI içeriği eklemeyi de deneyebilirsiniz (henüz eklenmiş sayfalandırılmış raporlar için desteklenmemektedir):
 
 > [!div class="nextstepaction"]
 > [Uygulamalardan ekleme](embed-from-apps.md)

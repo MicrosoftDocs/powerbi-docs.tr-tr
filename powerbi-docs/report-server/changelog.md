@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751123"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729804"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
@@ -45,6 +45,10 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
             - PBIRS Seçim penceresinde geriye doğru gezinti için daha kolay bir bağlantı eklendi
             - PBIRS'de Geri düğmesini görüntülemek, uyarı görsel iletilerini göstermek için Yüksek Karşıtlık modu düzeltildi.
             - Seçim bölmesi, tuval ölçeklendirme için kullanıcı arabirimi düzeltildi.
+
+    - *Sürüm: 2.69.5467.5201 (Mayıs 2019), Yayınlama tarihi: 30 Temmuz 2019*
+        - Hata düzeltmeleri
+            - Yanlış telemetri günlüğü için düzeltme
 
 ## <a name="january-2019"></a>Ocak 2019
 
@@ -93,8 +97,11 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
         - Power BI Rapor Sunucusu kaldırıldıktan sonra kısayol ve sabitlenmiş simgeler kalıyor
         - Power BI Rapor Sunucusu'nu başlatma menüsüne siyah simge üzerinde siyah metinle sabitleme sorunu düzeltildi
 
-    - *Sürüm: 2.65.5313.1421 (Ocak 2019), Yayın Tarihi: 22 Ocak 2019*
-        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2019)  
+    - *Sürüm: 2.65.5313.1421 (Ocak 2019), Yayın Tarihi: 22 Ocak 2019* (yeni derleme ve yeni sürüm)
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2019) 
+    - *Sürüm: 2.65.5313.5141 (Ocak 2019), Yayınlama tarihi: 31 Temmuz 2019* (yeni derleme ve yeni sürüm)
+        - Hata düzeltmeleri
+            - Yanlış telemetri günlüğü için düzeltme
 
 ## <a name="august-2018"></a>Ağustos 2018
 

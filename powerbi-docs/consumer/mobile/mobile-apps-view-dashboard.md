@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141642"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665497"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 cihazları](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone'lar](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad'ler](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android telefonlar](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android tabletler](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 cihazları](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone'lar](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad'ler](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android telefonlar](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android tabletler](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı portallardır. Genel bakış sunan panolar, işletmenin geçerli durumunun takip edilebileceği merkezlerdir.
 
@@ -57,7 +57,7 @@ Power BI hizmetinde Power BI panoları şu şekilde görünür:
    > 
    > 
    
-    Telefonunuzu yan çevirerek panoyu telefonunuzda yatay modda görüntüleyebilirsiniz.
+    İsterseniz telefonunuzu yan çevirerek panoyu telefonunuzda yatay modda görüntüleyebilirsiniz.
    
     ![Yatay pano görünümü](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 3. Panodaki tüm kutucukları görmek için ekranı yukarı ve aşağı kaydırın. Seçenekleriniz şunlardır:
@@ -145,45 +145,6 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
     ![İçerik haritası](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     "Sıkıştırma" hareketini kullanarak panonuzun farklı bölümlerini yakınlaştırıp uzaklaştırabilir, ekranı kaydırarak panoda gezinebilirsiniz. Bu modda da [bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) odak modunda açabilir ve verilerinizle etkileşim kurabilirsiniz.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Panoları Windows 10 cihazınızda görüntüleme
-1. Windows 10 cihazınızda Power BI uygulamasını açıp oturum açın.
-   
-   Önce [uygulamayı indirmeniz](http://go.microsoft.com/fwlink/?LinkID=526478) mi gerekiyor?
-2. Açmak istediğiniz panoya dokunun.   
-   
-   ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * Siyah yıldızlar, sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte **MBI**) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
-   
-   Power BI panoları Windows 10 telefonunuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
-   
-   ![Dikey pano görünümü](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    Ayrıca telefonunuzu yan çevirerek panoları telefonunuzda yatay modda görüntüleyebilirsiniz.
-   
-   > [!TIP]
-   > Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../service-create-dashboard-mobile-phone-view.md). 
-   > 
-   > 
-3. Panoda şunları yapabilirsiniz:
-   
-   * [Bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) kutucukla etkileşim kurabilirsiniz.
-   * **Tam Ekran** simgesine ![Tam ekran simgesi](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) dokunarak Power BI panonuzu PowerPoint uygulamasındaki **Slayt Gösterisi** görünümünde olduğu gibi kenarlıklar veya menüler olmadan sunabilirsiniz.
-   * **Davet et** simgesine ![Davet et simgesi](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) dokunarak iş arkadaşlarınızla [panonuzu paylaşabilirsiniz](mobile-share-dashboard-from-the-mobile-apps.md).
-   * Yıldıza ![Sık kullanılanlar yıldızı](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) dokunarak [panoyu sık kullanılanlara ekleyebilirsiniz](mobile-apps-favorites.md).
-   * **Başlangıç Ekranına Sabitle** simgesine dokunarak [panoyu Windows Başlangıç ekranına sabitleyebilirsiniz](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Pano giriş sayfasına geri dönmek için pano adına dokunarak içerik haritasını açın ve **Çalışma Alanım**'a dokunun:
-   
-    ![İçerik haritası](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Panoları Windows 10 telefonunuzda yatay modda görüntüleme
-Telefonunuzu yan çevirerek panoları yatay modda da görüntüleyebilirsiniz. Pano düzeni kutucuk dizisinden tam kapsamlı pano görünümüne dönüşür. Bu sayede tüm pano kutucuklarını Power BI hizmetinde olduğu gibi görüntüleyebilirsiniz.
-
-![Yatay pano](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-"Sıkıştırma" hareketini kullanarak panonuzun farklı bölümlerini yakınlaştırıp uzaklaştırabilir, ekranı kaydırarak panoda gezinebilirsiniz. Bu modda da [bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) odak modunda açabilir ve verilerinizle etkileşim kurabilirsiniz.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde panonun telefon görünümünü oluşturma
 Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir pano görünümü oluşturabilirsiniz. 

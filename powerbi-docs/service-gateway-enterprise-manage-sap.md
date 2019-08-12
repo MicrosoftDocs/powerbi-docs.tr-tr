@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271768"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730017"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Veri kaynağınızı yönetme - SAP HANA
 
@@ -32,7 +32,7 @@ Veri kaynağı ekleme hakkında bilgi edinmek için bkz. [Veri kaynağı ekleme]
 SAP HANA veri kaynağını seçtikten sonra, **Sunucu**, **Kullanıcı adı** ve **Parola** gibi veri kaynağına ilişkin bilgileri doldurmanız gerekir.
 
 > [!NOTE]
-> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi almak için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Veri kaynağına yönelik tüm sorgular bu kimlik bilgileri kullanılarak çalıştırılır. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Veri kaynağı ayarlarını doldurma](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
