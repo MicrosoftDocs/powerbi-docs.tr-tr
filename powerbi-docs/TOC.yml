@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
               href: service-url-filters.md
+            - name: SAP değişkenlerini düzenleme
+              href: service-edit-sap-variables.md
             - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
               href: power-bi-reports-performance.md
         - name: Verileriniz hakkında soru sorma
