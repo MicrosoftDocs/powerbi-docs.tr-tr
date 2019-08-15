@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Mobil uygulama erişimini uzaktan yapılandırma
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Azure AD ile uzaktan mobil erişim
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel çalışma kitapları barındırma
               href: report-server/excel-oos.md
     - name: Başvuru
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Power BI güvenliği
           href: service-admin-power-bi-security.md
+- name: Rehber
+  items:
+    - name: Yıldız şeması nedir?
+      href: guidance/star-schema.md
