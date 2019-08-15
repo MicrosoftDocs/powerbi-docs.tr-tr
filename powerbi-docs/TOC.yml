@@ -53,6 +53,8 @@
       items:
         - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
           href: desktop-latest-update.md
+        - name: Power BI Desktop’ta görselleri gruplandırma
+          href: desktop-grouping-visuals.md
         - name: Power BI Desktop'ta Modelleme görünümü
           href: desktop-modeling-view.md
         - name: Power BI Desktop’ta toplamalar
