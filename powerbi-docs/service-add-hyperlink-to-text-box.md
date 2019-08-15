@@ -1,6 +1,6 @@
 ---
 title: Bir rapordaki metin kutusuna köprü ekleme
-description: Power BI hizmetinde ve Desktop'ta Metin Kutusuna köprü ekleme
+description: Power BI Desktop’ta ve Power BI hizmetinde metin kutusuna köprü ekleme
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,52 +8,60 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
+ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61199565"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68832414"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
-Metin kutularını raporlara ekleyebilir, raporlardan panolara sabitleyebilir ve doğrudan panolara ekleyebilirsiniz. Metin kutusu nerede olursa olsun, bir köprü ekleyebilirsiniz.  
+Power BI Desktop veya Power BI hizmetindeki bir rapora metin kutusu ekleyebilirsiniz. Bir rapordaki metin kutusunu panoya sabitleyebilir veya doğrudan panoya bir tane ekleyebilirsiniz. Metin kutusu nerede olursa olsun, bir köprü ekleyebilirsiniz. Bu makale, bir rapordaki metin kutusuna köprü eklemeyi gösterir. 
 
-> **NOT**: Power BI tablolarındaki ve matrislerindeki köprülerle ilgili bilgi için bkz. [Tablolardaki köprüler](power-bi-hyperlinks-in-tables.md). **Panonuza** metin kutusu ekleme ile ilgili bilgi için bkz. [Doğrudan panodan kutucuk ekleme](service-dashboard-add-widget.md). 
-> 
-> 
+
+Will Thompson’ın bir metin kutusu oluşturup buna köprü eklemesini izleyin. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew#t=0m55s" frameborder="0" allowfullscreen></iframe>
 
+Power BI tablolarındaki ve matrislerindeki köprülerle ilgili bilgi için bkz. [Bir tabloya köprü ekleme](power-bi-hyperlinks-in-tables.md). Panonuza metin kutuları ekleme ile ilgili bilgi için bkz. [Panonuza görüntü, video ve daha fazlasını ekleme](service-dashboard-add-widget.md). 
 
-## <a name="to-add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü eklemek için
-1. [Bir metin kutusu oluşturun ve metin ekleyin](power-bi-reports-add-text-and-shapes.md). 
-2. Köprü olarak kullanmak için mevcut metni seçin veya yeni metin ekleyin.
+## <a name="to-add-a-hyperlink-to-a-text-box"></a>Metin kutusuna köprü eklemek için
+1. Bir raporu açın, [metin kutusu oluşturun](power-bi-reports-add-text-and-shapes.md) ve metin ekleyin. 
+2. Köprü olarak kullanmak için mevcut metni seçin veya yeni metin ekleyin. 
+
+   Metin kutusu menüsü görüntülenir.
    
    ![Metin kutusundaki metni seçin](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. Köprü simgesini seçin ![Köprü simgesi](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png)geçin.
-4. URL'yi köprü alanına yazın veya yapıştırın, ardından **Bitti**'yi seçin.
+3. Köprü simgesini seçin ![Köprü simgesi](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) metin kutusu menüsünde.
+
+   Metin kutusu menüsünde köprü alanı görüntülenir.
+
+4. URL'yi köprü alanına yazın veya yapıştırın ve ardından **Bitti**'yi seçin.
    
    ![URL'yi köprü alanına yazın veya yapıştırın](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
-5. Bağlantıyı test edin.  
-   
-   ![Bağlantıyı test edin](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
-   
-   * URL'yi görüntülemek için imleci vurgulanan metnin herhangi bir yerine götürün.  
-     
-      ![İmleci vurgulanan metnin herhangi bir yerine götürün](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
-   * Sayfayı yeni bir tarayıcı penceresinde açmak için URL'yi seçin.
+5. Bağlantıyı test edin:  
 
-## <a name="to-remove-the-hyperlink-but-leave-the-text"></a>Köprüyü kaldırıp metni bırakmak için
-1. Metin kutusunda, vurgulamak için köprüyü seçin.
+   a. URL’yi köprü alanında göstermek için imleci metin kutusundaki yeni köprünün herhangi bir yerine yerleştirin.  
+     
+      ![Metin kutusundaki köprü](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
+   
+      ![Köprü alanındaki URL](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
+
+   b. Sayfayı yeni bir tarayıcı penceresinde açmak için köprü alanındaki URL’yi seçin.
+
+## <a name="to-remove-the-hyperlink"></a>Köprüyü kaldırmak için
+1. Vurgulamak için metin kutusunda köprüyü seçin.
    
      ![Köprüyü kaldırma](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
-2. **Kaldır** seçeneğini belirleyin. 
+2. Metin kutusu menüsünden **Kaldır** seçeneğini belirleyin. 
+
+   Power BI Desktop köprüyü kaldırır ancak metin kalır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI raporlarındaki metin kutuları](power-bi-reports-add-text-and-shapes.md)
+[Power BI raporlarındaki metin kutuları ve şekiller](power-bi-reports-add-text-and-shapes.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

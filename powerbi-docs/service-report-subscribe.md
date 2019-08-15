@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264626"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940923"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -54,9 +54,9 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 
 5. E-posta iletisinin **Konu** ve **İleti** ayrıntılarını doldurun. 
 
-5. Aboneliğiniz için **Sıklık** seçin: **Günlük**, **Haftalık** veya **Veri Yenilemesinden Sonra (Günlük)** .  Abonelik e-postasını yalnızca belirli günlerde almak için **Haftalık** seçin ve hangi günler almak istediğinizi belirtin.  Örneğin abonelik e-postasını yalnızca iş günleri almak istiyorsanız **Haftalık** seçeneğini belirtin ve **Cts** ile **Paz** kutularının işaretini kaldırın.  
+5. Aboneliğiniz için **Sıklık** seçin: **Günlük**, **Saatlik**, **Haftalık**, veya **Veri Yenilemesinden Sonra (Günlük)** .  Abonelik e-postasını yalnızca belirli günlerde almak için **Saatlik** veya **Haftalık** seçeneklerinden birini belirleyip bunu hangi günlerde almak istediğinizi belirtin.  Örneğin abonelik e-postasını yalnızca iş günleri almak istiyorsanız **Haftalık** seçeneğini belirtin ve **Cts** ile **Paz** kutularının işaretini kaldırın.  
 
-6. **Günlük** veya **Haftalık** seçerseniz, abonelik için **Zamanlanan Saat**'i de seçebilirsiniz.  Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz.  Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz.
+6. **Günlük** veya **Haftalık** seçerseniz, abonelik için **Zamanlanan Saat**'i de seçebilirsiniz.  Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz.  Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz.  **Saatlik**’i seçerseniz aboneliğin başlamasını istediğiniz **Zamanlanan Saati** belirleyin. E-posta, bu ayardan sonra gelen her saatte gelir.
 
 7. Varsayılan olarak, aboneliğinizin başlangıç tarihi aboneliği oluşturduğunuz tarihtir. İsterseniz bir bitiş tarihi belirleyebilirsiniz. Siz bir bitiş tarihi ayarlamazsanız, otomatik olarak başlangıç tarihinden bir yıl sonrası olarak belirlenir. Bu tarihi, aboneliğiniz bitmeden önce gelecekte istediğiniz herhangi bir tarihle değiştirebilirsiniz (en fazla 9999 yıl). Abonelik bitiş tarihine ulaşıldığında, siz yeniden etkinleştirene kadar abonelik durdurulur. Zamanlanan bitiş tarihinden önce, süreyi uzatmayı isteyip istemediğinizi soran bildirimler alırsınız.    
 
@@ -93,13 +93,13 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdaki kutucuktan fazla panoya abonelikler engellenmez. Ancak, sorunlarla karşılaşırsanız desteklenmeyen olarak kabul edilirler. Desteklenen aralıkta yer almak için bunları uygun şekilde değiştirmeyi değerlendirin.
 * E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa, bu kutucuklar görüntülenmez.  
-* Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Başkalarını satır düzeyi güvenlik (RLS) uygulanmış bir rapora abone yapamazsınız.
+* Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Güvenlik bağlamınızı kullanarak aboneliği diğer kişilere göndermenize olanak tanıyan sayfalandırılmış raporları kullanmadıkça, diğerlerinin satır düzeyinde güvenlik (RLS) uygulanmış bir rapora abone olmasını sağlayamazsınız. 
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 * Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir.  Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
-* Kendiniz dışındaki kullanıcıları abone yaparken canlı bağlantı veri kümeleri kullanan raporlara/panolara yönelik e-posta abonelikleri şu anda desteklenmiyor.
+* Güvenlik bağlamınızı kullanarak aboneliği diğer kişilere göndermenize olanak tanıyan sayfalandırılmış raporları kullanmadıkça, diğerlerine abone olurken canlı bağlantı veri kümelerini kullanan raporlar/panolar için e-posta aboneliği şu anda desteklenmemektedir. 
 * E-posta abonelikleri çoğu [özel görselleri](power-bi-custom-visuals.md) desteklemez.  Bu konudaki tek istisna, [sertifikalı](power-bi-custom-visuals-certified.md) özel görsellerdir.  
 * E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.  
-* E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.    
+* E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.  Sayfalandırılmış Raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.   
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
 * Bir panoyu kiracınız dışındaki bir iş arkadaşıyla paylaşıyorsanız bu iş arkadaşı için bir de abonelik oluşturamazsınız. Bu nedenle, siz aaron@xyz.com kişisiyseniz anyone@ABC.com kişisiyle paylaşım yapabilirsiniz, ancak henüz anyone@ABC.com kişisini abone yapamazsınız ve bu kişi paylaşılan içeriğe abone olamaz.      
 * Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır.  Ancak bir panoya veya rapora abonelik eklerseniz bu abonelik ziyaret edilmese bile duraklatılmaz.    

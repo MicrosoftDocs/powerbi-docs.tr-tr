@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730257"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867066"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Şirket içi veri ağ geçidi hakkında SSS - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730257"
 
 ## <a name="power-bi"></a>Power BI
 
-**Soru:** Kişisel ağ geçidini yükseltmem gerekiyor mu? 
+**Soru:** Şirket içi veri ağ geçidini (kişisel mod) yükseltmem gerekir mi?
 
-**Cevap:** Hayır, Power BI için kişisel ağ geçidini kullanmaya devam edebilirsiniz.
+**Cevap:** Hayır, Power BI için ağ geçidini (kişisel mod) kullanmaya devam edebilirsiniz.
 
 **Soru:** Ağ geçidini yüklemek ve bunu Power BI hizmetinde yönetmek için herhangi bir özel izin gerekir mi?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730257"
 
 **Soru:** Oracle sunucuma neden bağlanamıyorum? 
 
-**Cevap:** Oracle sunucunuza bağlanmak için Oracle istemcisini yüklemeniz ve tnsnames.ora dosyasını doğru sunucu bilgileriyle yapılandırmanız gerekebilir. Bu, ağ geçidinin dışında ayrı bir yüklemedir. Daha fazla bilgi için bkz. [Oracle istemcisini yükleme](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Cevap:** Oracle sunucunuza bağlanmak için Oracle istemcisini yüklemeniz ve tnsnames.ora dosyasını doğru sunucu bilgileriyle yapılandırmanız gerekebilir. Bu, ağ geçidinin dışında ayrı bir yüklemedir. Daha fazla bilgi için bkz. [Oracle istemcisini yükleme](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Soru:** Ağ geçidi Azure ExpressRoute ile çalışacak mı? 
 

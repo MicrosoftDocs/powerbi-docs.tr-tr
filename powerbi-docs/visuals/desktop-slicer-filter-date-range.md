@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532567"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867079"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop'ta göreli tarih dilimleyici ve filtre kullanma
 
@@ -75,7 +75,7 @@ Listeden **Ay**'ı seçip ortadaki ayara *2* değerini girerseniz şu olur:
 
 * dilimleyici tarafından kısıtlanan görsellere eklenen veriler, önceki iki ayın verilerini gösterir
 
-* 20 Mayıs’ta başlayıp 20 Temmuz’a (bugünün tarihi) kadar devam eden
+* 21 Mayıs’ta başlayıp 20 Temmuz’a (bugünün tarihi) kadar devam eden
 
 Buna karşılık *Ay (Takvim)* seçeneğini belirlerseniz kısıtlanan görseller 1 Mayıs-30 Haziran arasındaki (son iki tam takvim ayı) verileri gösterir.
 
