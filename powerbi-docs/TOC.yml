@@ -491,7 +491,7 @@
           items:
             - name: Veri kümelerini çalışma alanları arasında kullanma
               href: service-datasets-across-workspaces.md
-            - name: Veri kümelerini oluşturma ve paylaşma (Önizleme)
+            - name: Veri kümelerini paylaşma (Önizleme)
               href: service-datasets-build-permissions.md
             - name: Veri kümelerine dayalı raporlar oluşturma
               href: service-datasets-discover-across-workspaces.md
@@ -1432,3 +1432,5 @@
   items:
     - name: Yıldız şeması nedir?
       href: guidance/star-schema.md
+    - name: Veri modeli boyutunu azaltma
+      href: guidance/import-modeling-data-reduction.md
