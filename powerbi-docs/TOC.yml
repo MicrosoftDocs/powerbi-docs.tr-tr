@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop’ta görselleri gruplandırma
           href: desktop-grouping-visuals.md
+        - name: Power BI Desktop’taki şablonları kullanma
+          href: desktop-templates.md
         - name: Power BI Desktop'ta Modelleme görünümü
           href: desktop-modeling-view.md
         - name: Power BI Desktop’ta toplamalar
