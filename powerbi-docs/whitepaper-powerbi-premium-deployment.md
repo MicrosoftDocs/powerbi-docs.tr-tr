@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 783f82ecd5c6dea5c26b096b8b1bfcffe388864b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1b3d455e0deff676d20c316422d4715773e0a85d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391443"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655069"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium kapasiteleri dağıtma ve yönetme
 
@@ -218,7 +218,7 @@ DQ modelleriyle ilişkili birkaç avantaj vardır:
 
 Ancak, DQ modelleriyle ilişkili çok sayıda olumsuz ve kısıtlama vardır:
 
-- Model, desteklenen tek bir veri kaynağını temel almalıdır ve bu nedenle veri kaynağında tüm veri tümleştirmesinin zaten elde edilmesi gerekir. Desteklenen veri kaynakları, çok sayıda popüler \[ [veri deposu](#endnote-07)\]desteği olan ilişkisel ve analitik sistemlerdir.
+- Model, desteklenen tek bir veri kaynağını temel almalıdır ve bu nedenle veri kaynağında tüm veri tümleştirmesinin zaten elde edilmesi gerekir. Desteklenen veri kaynakları, çok sayıda popüler veri deposu \[ [](#endnote-07)\]desteği olan ilişkisel ve analitik sistemlerdir.
 - Performans yavaş olabilir, büyük olasılıkla Power BI hizmeti olumsuz etkileyebilir (sorgular çok CPU yoğunluklu olabilir) ve veri kaynağında (analitik sorgular için iyileştirilemeyebilir)
 - Power Query sorguları aşırı karmaşık olamaz ve veri kaynağı tarafından anlaþýlabilecek yerel sorgulara dönüştürebilirler.
 - DAX işlevleri, veri kaynağı tarafından anlalanabilecek yerel sorgulara dönüştürebilecek olanlarla sınırlıdır ve hesaplanan tablolar veya yerleşik akıllı zaman gösterimi özellikleri için destek yoktur
@@ -328,7 +328,7 @@ Her Premium SKU 'sunun kaynakları ve limitleri (ve equivalently boyutlu bir SKU
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | DQ/LC (saniye başına) | Model Yenileme Paralelliği |
 | --- | --- | --- | --- | --- | --- | --- |
 | EM1/A1 | 1\. | 0,5 | 2,5 | 0,5 | 3,75 | 1\. |
-| EM2/A2 | 2 | 1 | 5 | 1\. | 7,5 | 2 |
+| EM2/A2 | 2 | 1\. | 5 | 1\. | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
@@ -381,7 +381,7 @@ En az bir kapasite yöneticisinin atanması gerekir. Kapasite yöneticileri olar
 - Kapasiteye çalışma alanları atama
 - Kullanıcı izinlerini yönetme, ek kapasite yöneticileri veya atama izinlerine sahip kullanıcılar eklemek için (bunları kapasiteye çalışma alanları atamalarına olanak tanımak için)
 - Sayfalandırılmış raporlar ve veri akışları iş yükleri için maksimum bellek kullanımını yapılandırmak üzere iş yüklerini yönetme
-- Sistem \[ [aşırı yüklemesi](#endnote-13) durumunda tüm işlemleri sıfırlamak için kapasiteyi yeniden başlatın\]
+- Sistem aşırı yüklemesi \[durumunda tüm işlemleri sıfırlamak için kapasiteyi yeniden başlatın [](#endnote-13)\]
 
 Kapasite yöneticileri çalışma alanı içeriğine erişemez (açıkça çalışma alanı izinleri olmadığı sürece) ve kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetici alanlarını (açıkça atanmamışsa) erişemez. Daha önemlisi, kapasite yöneticilerinin yeni kapasiteler oluşturma veya mevcut kapasiteleri ölçeklendirme izinleri yoktur. Ayrıca, bunlara atanan kapasiteleri yalnızca görüntüleyebilecekleri ve yönetebilecekleri şekilde, her kapasite temelinde atanır.
 
@@ -468,7 +468,7 @@ Premium kapasite performans sorunları ortaya çıktığında, yaygın bir ilk y
 Ek Premium kapasite gerektiğinde, bu bölümün ilerleyen kısımlarında ele alınacaktır iki seçenek vardır:
 
 - Premium kapasitenin ölçeğini artırma
-- Yeni bir Premium kapasitesi ekleyin
+- Yeni bir Premium kapasite ekleme
 
 Son olarak, test yaklaşımları ve Premium kapasite boyutlandırmanın bu bölümü sona ermesinden sonra.
 
@@ -479,7 +479,7 @@ En iyi kullanımı ve performansı elde etmek için, genel öneriler olarak pano
 - Kişisel çalışma alanları yerine uygulama çalışma alanlarını kullanma
 - İş açısından kritik ve self servis BI (SSBı) farklı kapasiteye ayırma
 
-  ![İş açısından kritik ve self servis BI 'ı farklı kapasiteye ayırma](media/whitepaper-premium-deployment/separate-capacities.png)
+  ![İş açısından kritik ve Self Servis BI’ı farklı kapasitelere ayırma](media/whitepaper-premium-deployment/separate-capacities.png)
 
 - Yalnızca Power BI Pro kullanıcılarla içerik paylaşıyorsanız, içeriği ayrılmış bir kapasiteye depolamaya gerek kalmaz
 - Belirli bir yenileme zamanına ulaşmak veya belirli özelliklerin gerekli olduğu durumlarda (örneğin, büyük veri kümeleri veya sayfalandırılmış raporlar) için adanmış kapasiteler kullanın
@@ -490,17 +490,17 @@ Power BI Premium dağıtımlarını en iyi duruma getirmek, iş yükü gereksini
 
 Bu konuda, olası sorunları ve açıklamaları açıklayan yedi ortak destek sorusu ve bunların tanımlanması ve çözümlenmesi hakkında bilgiler ele alınmaktadır.
 
-#### <a name="why-is-the-capacity-slow-and-what-can-i-do"></a>Kapasite ne kadar yavaş ve ne yapabilirim?
+#### <a name="why-is-the-capacity-slow-and-what-can-i-do"></a>Kapasite neden yavaşladı? Bununla ilgili ne yapabilirim?
 
-Yavaş bir Premium kapasiteye katkıda bulunabilmesinin pek çok nedeni vardır. Bu soru, ne kadar yavaş olduğunu anlamak için daha fazla bilgi gerektirir. Raporların yüklenmesi yavaş mı? Veya yükleme başarısız oluyor mu? Raporlar görselleri, kullanıcılar raporla etkileşime geldiğinde yükleme veya güncelleştirme için yavaş mı? Yenilemelerin tamamlanmasını beklenenden uzun sürüyor veya daha önce deneyimli mı?
+Premium kapasitenin yavaşlamasına katkıda bulunabilen birçok sebep vardır. “Yavaş” dendiğinde neyin kastedildiğini anlamak için bu soruyla ilgili daha fazla bilgi gerekir. Raporlar yavaş mı yükleniyor? Yoksa yükleme başarısız mı oluyor? Rapor görselleri yavaş mı yükleniyor veya kullanıcılar raporla etkileşime geçtiğinde mi güncelleştiriliyor? Yenilemelerin tamamlanmasını beklenenden uzun sürüyor veya daha önce deneyimli mı?
 
-Nedenini kavramak daha sonra araştırmaya başlayabilirsiniz. Aşağıdaki altı soruya verilen yanıtlar, daha özel sorunları ele almanıza yardımcı olur.
+Sebepleri anladıktan sonra araştırmaya başlayabilirsiniz. Aşağıdaki altı soruya verdiğiniz cevaplar daha özel soruları ele almanıza yardımcı olur.
 
-#### <a name="what-content-is-using-up-my-capacity"></a>Kapasitenizi kullanan içerik nedir?
+#### <a name="what-content-is-using-up-my-capacity"></a>Kapasitemi hangi içerikler kullanıyor?
 
-Kapasiteye göre filtrelemek ve çalışma alanı içeriği için performans ölçümlerini gözden geçirmek için **Power BI Premium kapasite ölçümleri** uygulamasını kullanabilirsiniz. Premium kapasitede depolanan tüm içerikler için son yedi gün için performans ölçümlerini ve kaynak kullanımını saate göre gözden geçirmek mümkündür. Bu genellikle Premium kapasite performansı hakkında genel bir sorunu giderirken gereken ilk adımdır.
+Kapasiteye göre filtrelemek ve çalışma alanı içeriği için performans ölçümlerini gözden geçirmek için **Power BI Premium Kapasite Ölçümleri** uygulamasını kullanabilirsiniz. Premium kapasitede depolanan tüm içerikler için son yedi gün için performans ölçümlerini ve kaynak kullanımını saate göre gözden geçirmek mümkündür. Bu genellikle Premium kapasite performansı hakkında genel bir sorunu giderirken gereken ilk adımdır.
 
-İzlenecek anahtar ölçümleri şunları içerir:
+İzlenecek ana ölçümler şunları içerir:
 
 - Ortalama CPU ve yüksek kullanım sayısı
 - Belirli veri kümeleri, veri akışları ve sayfalandırılmış raporlar için Ortalama bellek ve yüksek kullanım sayısı ve bellek kullanımı
@@ -510,81 +510,81 @@ Kapasiteye göre filtrelemek ve çalışma alanı içeriği için performans öl
 - Ortalama veri kümesi ve veri akışı yenileme süreleri
 - Ortalama AI çağrı süreleri ve bekleme süreleri
 
-Ayrıca, Power BI Premium kapasite ölçümleri uygulamasında etkin bellek, son üç dakikada kullanımda olduğu için çıkartılabilen bir rapora ayrılan toplam bellek miktarını gösterir. Yenileme bekleme süresi içinde yüksek bir ani artış büyük ve/veya etkin bir veri kümesiyle bağıntılı olabilir.
+Ayrıca, Power BI Premium kapasite ölçümleri uygulamasında etkin bellek, son üç dakikada kullanımda olduğu için çıkartılabilen bir rapora ayrılan toplam bellek miktarını gösterir. Yenileme süresindeki ani bir artış büyük ve/veya etkin bir veri kümesi ile bağıntılı olabilir.
 
 "Ortalama süreye göre Ilk 5" grafik, kapasite kaynaklarını kullanan ilk beş veri kümesini, sayfalandırılmış raporları, veri akışlarını ve AI çağrılarını vurgular. En üstteki beş listedeki içerikler, araştırma ve olası iyileştirme için adaylardır.
 
 #### <a name="why-are-reports-slow"></a>Raporlar neden yavaş?
 
-Aşağıdaki tablolarda, olası sorunlar ve bunları tanımlamak ve işlemek için yollar gösterilmektedir.
+Aşağıdaki tablolar olası sorunları ve bunları tanımlayıp düzeltmeye yönelik yöntemleri gösterir.
 
 ##### <a name="insufficient-capacity-resources"></a>Yetersiz kapasite kaynakları
 
-| Olası açıklamalar | Nasıl tanımlanır | Nasıl çözümlenir? |
+| Olası Açıklamalar | Nasıl Tanımlanır? | Nasıl Çözülür? |
 | --- | --- | --- |
 | Yüksek toplam etkin bellek (model son üç dakika içinde kullanımda olduğu için çıkarılamaz)<br><br> Sorgu bekleme süreleriyle birden çok yüksek ani artışlar<br><br> Yenileme bekleme süreleriyle birden çok yüksek ani artışlar | \[ \[ [](#endnote-18)16.\]bellek ölçümlerini izleyin ve çıkarma sayısı [19](#endnote-19)\] | Model boyutunu azaltın veya DirectQuery moduna dönüştürün-bu bölümdeki [modelleri iyileştirme](#optimizing-models) konusuna bakın<br><br> Kapasiteyi büyütme<br><br> İçeriği farklı bir kapasiteye atama |
 
 ##### <a name="inefficient-report-designs"></a>Verimsiz rapor tasarımları
 
-| Olası açıklamalar | Nasıl tanımlanır | Nasıl çözümlenir? |
+| Olası Açıklamalar | Nasıl Tanımlanır? | Nasıl Çözülür? |
 | --- | --- | --- |
 | Rapor sayfaları çok sayıda görsel içerir (Etkileşimli filtreleme, görsel başına en az bir sorgu tetikleyebilir)<br><br> Görseller gerekenden daha fazla veri alır | Rapor tasarımlarını gözden geçirme<br><br> Kullanıcılara raporlarla nasıl etkileşime gireceğini anlamak için kullanıcılara rapor<br><br> Veri kümesi sorgu ölçümlerini \[izleme [20](#endnote-20)\] | Sayfa başına daha az Görselle raporları yeniden tasarlama |
 
 ##### <a name="dataset-slow-especially-when-reports-have-previously-performed-well"></a>Veri kümesi yavaş (özellikle raporlar daha önce iyi gerçekleştirildiğinde)
 
-| Olası açıklamalar | Nasıl tanımlanır | Nasıl çözümlenir? |
+| Olası Açıklamalar | Nasıl Tanımlanır? | Nasıl Çözülür? |
 | --- | --- | --- |
 | Verilerin içeri aktarılması giderek daha fazla<br><br> RLS rolleri de dahil olmak üzere karmaşık veya verimsiz hesaplama mantığı<br><br> Model tam olarak iyileştirilmemiş<br><br> (DQ/LC) Ağ Geçidi gecikmesi<br><br> Yavaş DQ kaynak sorgusu yanıt süreleri | Model tasarımlarını gözden geçirme<br><br> Ağ Geçidi performans sayaçlarını izleme | Bu bölümdeki [modelleri En Iyi duruma getirme](#optimizing-models) konusuna bakın |
 
 ##### <a name="high-concurrent-report-usage"></a>Yüksek eşzamanlı rapor kullanımı
 
-| Olası açıklamalar | Nasıl tanımlanır | Nasıl çözümlenir? |
+| Olası Açıklamalar | Nasıl Tanımlanır? | Nasıl Çözülür? |
 | --- | --- | --- |
 | Yüksek sorgu bekleme süreleri<br><br> CPU doygunluğu<br><br> DQ/LC bağlantı sınırları aşıldı | CPU kullanımını \[izleme [21](#endnote-21)\], sorgu bekleme süreleri ve DQ/LC kullanımı \[ [22](#endnote-22) \] ölçümleri + sorgu süreleri – dalgalanmayı eşzamanlılık sorunları belirtebiliyorsanız | Kapasiteyi ölçeklendirin veya içeriği farklı bir kapasiteye atayın<br><br> Sayfa başına daha az Görselle raporları yeniden tasarlama |
 
 #### <a name="why-are-reports-not-loading"></a>Raporlar neden yüklenmiyor?
 
-Raporlar yükleme başarısız olduğunda en kötü durum senaryosu ve kapasitenin yetersiz bellek içerdiğinden ve daha fazla ısıtılan bulunduğundan emin olun. Bu durum, yüklenen tüm modeller etkin bir şekilde sorgulandığında ve çıkarılamadığı zaman ve yenileme işlemleri duraklatıldıktan veya geciktiğinde meydana gelir. Power BI hizmeti, veri kümesini 30 saniye boyunca yüklemeye çalışır ve Kullanıcı kısa bir süre sonra tekrar denemek için bir öneriyle ilgili hatanın düzgün şekilde bildirilmesini sağlar.
+Raporlar yükleme başarısız olduğunda en kötü durum senaryosu ve kapasitenin yetersiz bellek içerdiğinden ve daha fazla ısıtılan bulunduğundan emin olun. Bu, yüklenen tüm modeller aktif olarak sorgulandıkları için çıkarılamadığında ve tüm yenileme işlemleri durdurulduğunda veya geciktiğinde ortaya çıkabilir. Power BI hizmeti, 30 saniye boyunca veri kümesini yüklemeye çalışır. Bu işlem başarısız olursa durum kullanıcıya bildirilir ve kısa bir süre sonra tekrar denemesi önerilir.
 
-Şu anda rapor yükleme hatalarının izlenmesi için ölçüm yok. Sistem belleğini, özellikle en yüksek kullanımı ve en yüksek kullanım süresini izleyerek bu sorunun potansiyelini belirleyebilirsiniz. Yüksek veri kümesi çıkarmaları ve uzun veri kümesi yenileme ortalama bekleme süresi, bu sorunun meydana geldiğini önerebilir.
+Şu anda, rapor yükleme hatalarını izlemeye yönelik bir ölçüm bulunmamaktadır. Bu soruna yol açan etmenleri sistem belleğini, özellikle de en yüksek kullanım oranına ve en yüksek kullanım süresine sahip olanları izleyerek tanımlayabilirsiniz. Yüksek veri kümesi çıkarmaları ve veri kümesi yenilemeleri için ortalama bekleme süresinin uzun olması bu sorunun meydana geldiğini gösterebilir.
 
-Bu yalnızca çok zaman varsa, bu durum bir öncelik sorunu olarak kabul edilmemektedir. Rapor kullanıcılarına, hizmetin meşgul olduğu ve kısa bir süre sonra yeniden deneneceği bildirilir. Bu çok sık olursa sorun, Premium kapasitenin ölçeklendirilmesi veya içeriği farklı bir kapasiteye atayarak çözülebilir.
+Bu çok nadiren yaşanıyorsa öncelikli bir sorun olarak kabul edilmeyebilir. Rapor kullanıcılarına hizmetin meşgul olduğu ve kısa bir süre sonra yeniden denemeleri gerektiği bildirilir. Bu çok sık yaşanırsa Premium kapasitesinin ölçeği artırılarak veya içeriği farklı bir kapasiteye atayarak bu sorun çözülebilir.
 
-Kapasite yöneticileri (ve Power BI hizmeti yöneticileri) bunun ne zaman yapılacağını anlamak için **sorgu hatalarının** ölçüsünü izleyebilir. Ayrıca, sistem aşırı yüklemesi durumunda tüm işlemleri sıfırlayarak kapasiteyi yeniden başlatabilir.
+Kapasite Yöneticileri (ve Power BI hizmet yöneticileri) bunun ne zaman yaşandığını belirlemek için **Sorgu Hataları** ölçümünü izleyebilir. Sistemin aşırı yüklenmesi durumunda tüm işlemleri sıfırlayarak kapasiteyi yeniden başlatabilirler.
 
-#### <a name="why-are-refreshes-not-starting-on-schedule"></a>Yenileme işlemleri zamanlamaya göre neden başlamıyor?
+#### <a name="why-are-refreshes-not-starting-on-schedule"></a>Yenilemeler neden zamanında başlamıyor?
 
-Zamanlanan yenileme başlangıç zamanları garanti edilmez. Power BI hizmeti, arka plan işlemleri üzerinde her zaman etkileşimli işlemleri önceliklendirilecektir. Yenileme, iki koşul karşılandığında gerçekleşebileceğini bir arka plan işlemidir:
+Zamanlanan yenileme başlangıç süreleri garanti edilmez. Power BI hizmetinin her zaman arka plan işlemlerinden ziyade etkileşimli işlemleri önceliklendirdiğini unutmayın. Yenileme, iki koşul karşılandığında oluşabilen bir arka plan işlemidir:
 
-- Yeterli bellek yok
-- Premium kapasite için desteklenen eşzamanlı yenileme sayısı aşılmıyor
+- Yeterli bellek bulunduğunda
+- Premium kapasite için desteklenen eşzamanlı yenileme sayısı aşılmadığında
 
-Koşullar karşılanmazsa, koşullar yeterli olana kadar yenileme sıraya alınır.
+Koşullar karşılanmazsa, koşullar uygun hale gelene kadar yenileme kuyruğa alınır.
 
-Tam yenileme için geçerli veri kümesi bellek boyutunun en az çift katı olduğunu hatırlayın. Yeterli bellek yoksa, model çıkarma belleği serbest bırakana kadar yenileme yapılamaz. Bu, bir veya daha fazla veri kümesinin etkin olmadığı ve çıkartılana kadar gecikme anlamına gelir.
+Tam yenileme için, mevcut veri kümesi bellek boyutunun en az iki katının gerektiğini unutmayın. Yeterli bellek yoksa çıkarma işlemi belleği boşaltana kadar yenileme başlayamaz. Bu da veri kümelerinin biri veya daha fazlası etkin olmayan ve çıkarılabilir duruma gelene kadar gecikme yaşanacak demektir.
 
-Desteklenen en fazla eşzamanlı yenileme sayısını, arka uç sanal çekirdekleri için 1,5 kez ayarlandığını ve yuvarlanmasını hatırlayın.
+Desteklenen en fazla eşzamanlı yenileme sayısının, arka uç sanal çekirdeklerinin 1.5 katının yukarı yuvarlanmış hali olarak ayarlandığını unutmayın.
 
-Zamanlanan yenileme, sonraki zamanlanan yenileme, yorum ' dan önce geçecek şekilde başarısız olur. Kullanıcı arabiriminden el ile tetiklenen bir isteğe bağlı yenileme, başarısız olmadan önce en fazla üç kez çalışmaya çalışacaktır.
+Zamanlanmış yenileme, sonraki zamanlanmış yenileme başlamadan önce başlayamadığında başarısız olur. Kullanıcı arabiriminden el ile tetiklenen bir isteğe bağlı yenileme, başarısız olmadan önce en az üç kere çalışmayı dener.
 
-Kapasite yöneticileri (ve Power BI hizmeti yöneticileri), zamanlanan saat ile işlemin başlangıcı arasındaki ortalama gecikme süresini tespit etmek için **Ortalama yenileme bekleme süresi (dakika)** ölçümünü izleyebilir.
+Kapasite Yöneticileri (ve Power BI hizmet yöneticileri), zamanlanan süre ve işlemin başlangıcı arasındaki ortalama gecikmeyi tespit etmek için **Ortalama Yenileme Bekleme Süresi (dakika)** ölçümünü izleyebilir.
 
-Genellikle bir yönetim önceliği olmasa da, verilerin zamanında yenilenmesini etkilemek için yeterli bellek bulunduğundan emin olun. Bu, veri kümelerinin bilinen yeterli kaynaklarla kapasiteye yönelik olarak yalımayı gerektirebilir. Yöneticilerin, çakışmaları en aza indirmek için zamanlanmış veri yenileme sürelerini azaltmaya veya azaltmasına yardımcı olmak üzere veri kümesi sahipleriyle koordine olabilmesi de mümkündür. Yöneticinin yenileme kuyruğunu görüntülemesi veya veri kümesi zamanlamalarının alınması mümkün değildir.
+Genellikle yönetime yönelik bir öncelik olmasa da, zamanında veri yenilemelerini etkilemek için yeterli bellek bulunduğundan emin olun. Bu, veri kümelerini bilinen yeterli kaynaklara sahip kapasiteler için ayrı tutmayı içerebilir. Yöneticilerin, çakışmaları en aza indirmek için zamanlanmış veri yenileme sürelerini azaltmaya veya azaltmasına yardımcı olmak üzere veri kümesi sahipleriyle koordine olabilmesi de mümkündür. Yöneticinin yenileme kuyruğunu görüntülemesi veya veri kümesi zamanlamalarının alınması mümkün değildir.
 
-#### <a name="why-are-refreshes-slow"></a>Ne neden yavaş yenilenir?
+#### <a name="why-are-refreshes-slow"></a>Yenilemeler neden yavaş?
 
-Yenilemeler yavaş olabilir veya yavaş olacak şekilde algılanır (önceki ortak soru adresleri olarak).
+Yenilemeler yavaş olabilir veya yavaş gibi algılanabilir (önceki soruda ele alındığı gibi).
 
-Yenileme aslında yavaşsa, bunun nedeni çeşitli nedenlerden kaynaklanabilir:
+Yenileme gerçekten yavaşsa, bu çeşitli nedenlerden kaynaklanabilir:
 
 - Yetersiz CPU (yenileme çok CPU yoğunluklu olabilir)
 - Yetersiz bellek, yenileme duraklamasına neden olur (koşulların recommence için uygun olduğu durumlarda yenilemeye başlaması gerekir)
 - Veri kaynağı sistemi yanıt verme, ağ gecikmesi, geçersiz izinler veya ağ geçidi verimlilik dahil olmak üzere kapasite dışı nedenler
 - Veri hacmi-aşağıda anlatıldığı gibi artımlı yenilemeyi yapılandırmak için iyi bir neden
 
-Kapasite yöneticileri (ve Power BI hizmeti yöneticileri) ortalama **yenileme süresi (dakika)** ölçüsünü, zaman içinde karşılaştırma için bir kıyaslama ve ortalama gecikme süresini belirleme Için **Ortalama yenileme bekleme süresi (dakika)** ölçümlerini izleyebilir Zamanlanan saat ile işlemin başlangıcı arasındaki ortalama gecikme arasında.
+Kapasite Yöneticileri (ve Power BI hizmet yöneticileri) zaman içinde karşılaştırma için bir kıyaslama gerçekleştirmek için **Ortalama Yenileme Süresi (dakika)** ölçümünü, zamanlanan süre ve işlemin başlangıcı arasındaki gecikmeyi belirlemek için de **Ortalama Yenileme Bekleme Süresi (dakika)** ölçümünü izleyebilir.
 
-Artımlı yenileme, özellikle büyük model tabloları için veri yenileme süresini önemli ölçüde azaltabilir. Artımlı yenileme ile ilgili dört avantaj vardır:
+Artımlı yenileme, özellikle büyük model tabloları için veri yenileme süresini önemli ölçüde azaltabilir. Artımlı yenilemenin sunduğu dört avantaj bulunur:
 
 - **Yenilemeler daha hızlıdır** : Birden çok bölüm yenilenirken bir tablonun yalnızca bir alt kümesinin yüklenmesi gerekir, CPU ve bellek kullanımının azaltılması ve paralellik daha yüksek olabilir
 - **Yenilemeler yalnızca gerekli olduğunda gerçekleşir** : Artımlı yenileme ilkeleri, yalnızca veriler değiştirildiğinde yüklenecek şekilde yapılandırılabilir
@@ -595,12 +595,12 @@ Daha fazla bilgi için [Power BI Premium belgesinde artımlı yenileme](service-
 
 #### <a name="why-are-data-refreshes-not-completing"></a>Veri yenilemeleri neden tamamlanmıyor?
 
-Veri yenileme işlemi tamamlandığında ancak tamamlanamazsa, bunun nedeni çeşitli nedenlerden kaynaklanabilir:
+Veri yenileme başlarsa ancak tamamlanamazsa bunun çeşitli sebepleri olabilir:
 
 - Premium kapasitede yalnızca bir model olsa bile yetersiz bellek, yani model boyutu çok büyük
 - Veri kaynağı sistem bağlantısının kesilmesi, geçersiz izinler veya ağ geçidi hatası dahil olmak üzere kapasite dışı nedenler
 
-Kapasite yöneticileri (ve Power BI hizmeti yöneticileri), **yetersiz bellek ölçümü nedeniyle yenileme başarısızlıklarını** izleyebilir.
+Kapasite Yöneticileri (ve Power BI hizmet yöneticileri) **Belleğin yetersiz kalmasından ötürü Yenileme Hataları** ölçümünü izleyebilir.
 
 #### <a name="why-are-ai-calls-failing"></a>AI çağrısı neden başarısız oluyor?
 
@@ -610,36 +610,36 @@ Yöneticiler, diğer isteklerin belirtileri için AI bekleme sürelerini izlemel
 
 ### <a name="optimizing-models"></a>Modelleri iyileştirme
 
-En iyi model tasarımı, verimli ve ölçeklenebilir bir çözüm sunmak için önemlidir. Ancak, bu teknik incelemeye ait kapsamın bir bütün olarak bir tartışma sağlaması daha dışındadır. Bunun yerine, bu bölüm modelleri iyileştirirken dikkate alınması gereken önemli alanlara sahiptir.
+Etkili ve ölçeklenebilir bir çözüm sunmak için model tasarımının en uygun halde olması önemlidir. Ancak, bu teknik incelemeye ait kapsamın bir bütün olarak bir tartışma sağlaması daha dışındadır. Bunun yerine, modeller iyileştirilirken dikkate alınması gereken önemli hususlar bu bölümde sunulacaktır.
 
 #### <a name="optimizing-power-bi-hosted-models"></a>Power BI barındırılan modelleri iyileştirme
 
 Premium kapasitede barındırılan modellerin en iyi duruma getirilmesi, veri kaynakları ve model katmanlarında elde edilebilir.
 
-Içeri aktarma modeli için en iyi duruma getirme olanaklarını göz önünde bulundurun:
+İçeri aktarma modeline yönelik iyileştirme olanaklarını göz önünde bulundurun:
 
-![Içeri aktarma modeli için en iyi duruma getirme olanakları](media/whitepaper-premium-deployment/import-model-optimizations.png)
+![İçeri aktarma modeline yönelik iyileştirme olanakları](media/whitepaper-premium-deployment/import-model-optimizations.png)
 
 Veri kaynağı katmanında:
 
 - İlişkisel veri kaynakları, verileri önceden tümleştirerek, uygun dizinler uygulanarak, artımlı yenileme dönemlerine bağlanan tablo bölümleri tanımlayarak ve hesaplamalar (hesaplanan yerde) için en hızlı olası yenilemeyi sağlamak üzere iyileştirilebilir. Model tabloları ve sütunları) veya görünümlere hesaplama mantığı ekleme
 - İlişkisel olmayan veri kaynakları, ilişkisel depolarla önceden tümleştirilebilir
-- Ağ geçitlerinin, yeterli ağ bant genişliğine sahip ve veri kaynaklarına yakın bir şekilde ayrılmış makinelerde, tercihen yeterli kaynağa sahip olduğundan emin olun
+- Ağ geçitlerinin, tercihen ayrılmış makinelerde, yeterli ağ genişliğiyle, veri kaynaklarının yakınında yer alan yeterli kaynaklarının bulunduğundan emin olun
 
 Model katmanında:
 
-- Power Query sorgu tasarımları, karmaşık dönüştürmeleri ve özellikle de farklı veri kaynaklarını birleştirme işlemlerini en aza indirebilir veya kaldırabilir (veri ambarları, ayıklama-dönüştürme-yükleme aşamasında bunu elde edebilir). Ayrıca, uygun veri kaynağı gizlilik düzeylerinin ayarlandığı doğrulanıyor, bu, sorgular arasında Birleşik bir sonuç üretmek için Power BI tam sonuçların yüklenmesini gerektirmemeye engel olabilir.
-- Model yapısı yüklenecek verileri belirler ve model boyutu üzerinde doğrudan bir etkiye sahip olur. Sütunları kaldırarak, satırları kaldırarak (özellikle geçmiş veriler) veya özetlenen verileri yükleyerek (ayrıntılı verileri yükleme masrafına) gereksiz verileri yüklemeyi önlemek için tasarlanabilir. Çarpıcı Boyut azaltma, çok verimli bir şekilde depolamamakta veya sıkıştırmayan yüksek kardinalite sütunları (özellikle metin sütunları) kaldırılarak elde edilebilir.
-- Çift yönlü filtrelemeye izin vermek için etkileyici bir neden olmadıkça, model sorgu performansı tek yönlü ilişkiler yapılandırılarak artırılabilir. İki yönlü filtreleme yerine CROSSFILTER işlevini de kullanmayı düşünün.
-- Toplama tabloları, önceden özetlenen verileri yükleyerek hızlı sorgu yanıtlarını elde edebilir, ancak bu, modelin boyutunu artırır ve daha uzun yenileme süreleriyle sonuçlanır. Genellikle, toplama tablolarının çok büyük modeller veya bileşik model tasarımları için ayrılmış olması gerekir.
-- Hesaplanan tablolar ve sütunlar model boyutunu artırır ve daha uzun yenileme süreleriyle sonuçlanır. Genellikle, veriler değerlendirildiğinde veya veri kaynağında hesaplanıyorsa, daha küçük bir depolama boyutu ve daha hızlı yenileme zamanı elde edilebilir. Bu mümkün değilse, Power Query özel sütunlar kullanılması geliştirilmiş depolama sıkıştırması sunabilir.
-- Ölçümler ve RLS kuralları için DAX ifadelerini ayarlamaya yönelik bir fırsat olabilir, belki de pahalı formüllerin önüne geçmek için mantığı yeniden yazarak
-- Artımlı yenileme, yenileme süresini önemli ölçüde azaltabilir ve bellek ve CPU tasarrufu sağlayabilir. Artımlı yenileme, geçmiş verileri, model boyutlarının kırpmaya karşı korumak için de yapılandırılabilir.
-- Farklı ve çakışan sorgu desenleri olduğunda bir model iki model olarak yeniden dağıtılabilir. Örneğin, bazı raporlar tüm geçmiş için üst düzey toplamalar sunar ve 24 saatlik gecikme süresine tolerans sağlayabilir. Diğer raporlar, bugünün verileriyle ilgilidir ve tek tek işlemlere ayrıntılı erişim gerektirir. Tüm raporları karşılamak için tek bir model tasarlamak yerine, her gereksinim için en iyi duruma getirilmiş iki model oluşturun.
+- Power Query sorgu tasarımları, karmaşık dönüşümleri (özellikle farklı veri kaynaklarını birleştirenleri) en aza indirebilir veya kaldırabilir (veri ambarları bunu Ayıklama-Dönüştürme-Yükleme aşamasında gerçekleştirir). Ayrıca, uygun veri kaynağı gizlilik düzeylerinin ayarlandığı doğrulanıyor, bu, sorgular arasında Birleşik bir sonuç üretmek için Power BI tam sonuçların yüklenmesini gerektirmemeye engel olabilir.
+- Model, yüklenecek veriyi belirler ve model boyutunun üzerinde doğrudan etkiye sahiptir. Sütunları, satırları kaldırarak (özellikle geçmiş verilerini) veya özetlenen verileri yükleyerek (ayrıntılı verileri yükleme pahasına) gereksiz verileri yüklemesi engellenecek şekilde tasarlanabilir. Verimli şekilde depolama veya sıkıştırma yapamayan yüksek kardinaliteli sütunlar kaldırılarak (özellikle metin sütunları) boyut büyük ölçüde azaltılabilir.
+- Çift yönlü filtrelemeye izin vermeyi gerektiren bir sebep olmadıkça, tek yönlü ilişkiler yapılandırılarak sorgu performansı geliştirilebilir. İki yönlü filtreleme yerine CROSSFILTER işlevini de kullanmayı düşünün.
+- Toplama tabloları, önceden özetlenmiş verileri yükleyerek hızlı sorgu yanıtları elde edebilir. Ancak, bunun sonucu olarak modelin boyutu büyür ve yenileme süreleri uzar. Genellikle, toplama tabloları çok büyük modeller veya bileşik model tasarımları için ayrılmalıdır.
+- Hesaplanan tablolar ve sütunlar model boyutunu artırıp yenileme süresinin uzamasına neden olur. Genellikle, veriler değerlendirildiğinde veya veri kaynağında hesaplanıyorsa, daha küçük bir depolama boyutu ve daha hızlı yenileme zamanı elde edilebilir. Bu mümkün değilse, Power Query özel sütunlar gelişmiş depolama sıkıştırması sunabilir.
+- Ölçümler ve RLS kuralları için DAX ifadelerini ayarlamaya yönelik bir fırsat olabilir. Pahalı formüllerden kaçınmak için mantık yeniden yazılabilir
+- Artımlı yenileme, yenileme süresini önemli ölçüde azaltabilir ve bellek ve CPU tasarrufu sağlayabilir. Artımlı yenileme, model boyutlarının kırpmalarını saklayan geçmiş verilerini kaldıracak şekilde de yapılandırılabilir.
+- Farklı ve çakışan sorgu desenleri olduğunda, model iki model olarak yeniden tasarlanabilir. Örneğin, bazı raporlar tüm geçmişte yüksek düzeyde toplama sunar ve 24 saatlik gecikme süresine izin verebilir. Diğer raporlar bugünün verileriyle ilgilidir ve tek işlemlere ayrıntılı erişim gerektirir. Tüm raporları karşılamak için tek bir model tasarlamaktan ziyade her gereksinim için iyileştirilmiş iki model oluşturun.
 
-DirectQuery modelinin en iyi duruma getirme olasılıklarını göz önünde bulundurun. Model sorgu isteklerini temel alınan veri kaynağına verdiği için veri kaynağı iyileştirmesi, yanıt veren model sorguları sağlamak açısından önemlidir.
+Bir DirectQuery modeli için iyileştirme olanaklarını göz önünde bulundurun. Model sorgu isteklerini temel alınan veri kaynağına verdiği için veri kaynağı iyileştirmesi, yanıt veren model sorguları sağlamak açısından önemlidir.
 
- ![DirectQuery modeli için en iyi duruma getirme olanakları](media/whitepaper-premium-deployment/direct-query-model-optimizations.png)
+ ![Bir DirectQuery modeli için iyileştirme olanakları](media/whitepaper-premium-deployment/direct-query-model-optimizations.png)
 
 Veri kaynağı katmanında:
 
@@ -649,58 +649,58 @@ Veri kaynağı katmanında:
 Model katmanında:
 
 - Sorgu tasarımlarının Power Query, tercihen hiçbir dönüştürme uygulamamalıdır; Aksi takdirde dönüşümleri mutlak bir en düşük düzeyde tutmaya çalışır
-- Çift yönlü filtrelemeye izin vermek için etkileyici bir neden olmadıkça, model sorgu performansı tek yönlü ilişkiler yapılandırılarak artırılabilir. Ayrıca, model ilişkilerinin, bilgi tutarlılığının uygulanacağını (Bu durum olduğunda) ve veri kaynağı sorgularının daha verimli iç birleşimler (dış birleşimler yerine) ile sonuçlanacağını varsayacak şekilde yapılandırılması gerekir.
+- Çift yönlü filtrelemeye izin vermeyi gerektiren bir sebep olmadıkça, tek yönlü ilişkiler yapılandırılarak sorgu performansı geliştirilebilir. Ayrıca, model ilişkilerinin, bilgi tutarlılığının uygulanacağını (Bu durum olduğunda) ve veri kaynağı sorgularının daha verimli iç birleşimler (dış birleşimler yerine) ile sonuçlanacağını varsayacak şekilde yapılandırılması gerekir.
 - Power Query sorgu özel sütunları veya model hesaplanmış sütunu oluşturmaktan kaçının, mümkünse bunları veri kaynağında oluşturun
-- Ölçümler ve RLS kuralları için DAX ifadelerini ayarlamaya yönelik bir fırsat olabilir, belki de pahalı formüllerin önüne geçmek için mantığı yeniden yazarak
+- Ölçümler ve RLS kuralları için DAX ifadelerini ayarlamaya yönelik bir fırsat olabilir. Pahalı formüllerden kaçınmak için mantık yeniden yazılabilir
 
-Bileşik bir modelin en iyi duruma getirme olasılıklarını göz önünde bulundurun. Bileşik bir modelin içeri aktarma ve DirectQuery tablolarının bir karışımını etkinleştirdiğinizi hatırlayın.
+Birleşik bir model için iyileştirme olanaklarını göz önünde bulundurun. Birleşik modelin içeri aktarma ve DirectQuery tablolarının karışımına olanak tanıdığını unutmayın.
 
 ![Bileşik model için en iyi duruma getirme olanakları](media/whitepaper-premium-deployment/composite-model-optimizations.png)
 
 - Genellikle, Içeri aktarma ve DirectQuery modelleriyle ilgili en iyi duruma getirme konuları, bu depolama modlarını kullanan bileşik model tabloları için geçerlidir.
-- Genellikle, boyut türü tabloları (iş varlıklarını temsil eden) çift depolama modu ve gerçek tür tabloları (genellikle büyük tablolar, işletimsel olguları temsil eder) DirectQuery depolama modu olarak yapılandırarak dengeli bir tasarıma ulaşmak için çaba harcar. Çift depolama modu hem Içeri aktarma hem de DirectQuery depolama modları anlamına gelir ve bu Power BI hizmeti, geçiş için yerel bir sorgu oluştururken kullanılacak en verimli depolama modunu belirlemesine izin verir.
-- Ağ geçitlerinin, yeterli ağ bant genişliğine sahip ve veri kaynaklarına yakın bir şekilde ayrılmış makinelerde, tercihen yeterli kaynağa sahip olduğundan emin olun
-- Içeri aktarma depolama modu olarak yapılandırılan toplamalar tabloları, DirectQuery depolama modu olgu türü tablolarını özetlemek için kullanıldığında çarpıcı sorgu performansı iyileştirmeleri sunabilir. Bu durumda, toplama tabloları modelin boyutunu artırır ve yenileme süresini artırır ve genellikle daha hızlı sorgular için kabul edilebilir bir zorunluluğunu getirir olur.
+- Boyut türü tabloları (iş varlıklarını temsil eder) ikili depolama modu ve olgu türü tablolar (sıklıkla büyük tablolar olur ve işletimsel olguları temsil eder) olarak yapılandırarak dengeli bir tasarım elde etmeye çalışın. Çift depolama modu hem Içeri aktarma hem de DirectQuery depolama modları anlamına gelir ve bu Power BI hizmeti, geçiş için yerel bir sorgu oluştururken kullanılacak en verimli depolama modunu belirlemesine izin verir.
+- Ağ geçitlerinin, tercihen ayrılmış makinelerde, yeterli ağ genişliğiyle, veri kaynaklarının yakınında yer alan yeterli kaynaklarının bulunduğundan emin olun
+- İçeri aktarma depolama modu olarak yapılandırılan toplama tabloları, DirectQuery sorgu modunda olgu türü tabloları özetlemek için kullanıldığında önemli sorgu performansı artışı sunabilir. Bu durumda, toplama tabloları modelin boyutunu ve yenileme süresini artırır. Bu, genelde daha hızlı sorgular için kabul edilebilir bir ödünleşmedir.
 
 #### <a name="optimizing-externally-hosted-models"></a>Dışarıdan barındırılan modelleri iyileştirme
 
-[Power BI barındırılan modeller](#optimizing-power-bi-hosted-models) konusunda ele alınan birçok iyileştirme olanağı, Azure Analysis Services ve SQL Server Analysis Services ile geliştirilen modeller için de geçerlidir. Açık özel durumlar, bileşik modeller ve toplama tabloları dahil olmak üzere, şu anda desteklenmeyen bazı özelliklerdir.
+[Power BI barındırılan modeller](#optimizing-power-bi-hosted-models) konusunda ele alınan birçok iyileştirme olanağı, Azure Analysis Services ve SQL Server Analysis Services ile geliştirilen modeller için de geçerlidir. Bileşik modeller ve toplama tabloları gibi şu anda desteklenmeyen özellikler açık özel durumlardandır.
 
-Dışarıdan barındırılan veri kümeleri için ek bir dikkat, Power BI hizmeti ile ilgili olarak barındırılabilen veritabanıdır. Azure Analysis Services için bu, Azure kaynağının Power BI kiracısıyla aynı bölgede (giriş bölgesi) oluşturulması anlamına gelir. IaaS için SQL Server Analysis Services, bu, VM 'yi aynı bölgede barındırmak ve şirket içi için etkin bir ağ geçidi kurulumu sağlamaktır.
+Dışarıda barındırılan veri kümelerine yönelik bir diğer durum da, Power BI hizmetiyle ilişkili olarak veritabanı barındırmadır. Azure Analysis Services için bu, Azure kaynağını Power BI kiracısıyla aynı bölgede (ana bölge) oluşturma anlamına gelir. Bu, SQL Server Analysis Services ve IaaS için de VM’i aynı bölgede barındırma, şirket içi için de verimli bir ağ geçidi kurulumu sağlama anlamına gelir.
 
-Ayrıca, Azure Analysis Services veritabanlarının ve SQL Server Analysis Services tablolu veritabanlarının, modellerinin tam olarak belleğe yüklenmesini gerektirdiğini ve sorgu desteği için her zaman orada kalabileceğini unutmayın. Power BI hizmeti gibi, yenileme sırasında modelin çevrimiçi kalması gerekiyorsa, yenileme için yeterli bellek olması gerekir. Power BI hizmeti farklı olarak, modellerin kullanıma göre otomatik olarak Yaşlandırılan ve belleğin tükenme kavramı yoktur. Power BI Premium, bu nedenle, daha düşük bellek kullanımıyla model sorgulamayı en üst düzeye çıkarmak için daha verimli bir yaklaşım sunar.
+Bunun yanı sıra, Azure Analysis Services veritabanlarının ve SQL Server Analysis Services tablosal veritabanlarının modellerin belleğe tam olarak yüklenmesini gerektirdiğini ve sorgulamayı desteklemek için sürekli olarak orada kaldıklarını hatırlamak faydalı olabilir. Power BI hizmeti gibi, modelin yenileme esnasında çevrimiçi kalması gerekiyorsa yeterli belleğin bulunması gerekir. Power BI hizmetinin aksine, kullanıma göre modellerin bellekte eski veya yeni hale getirilmesine yönelik bir kavram bulunmamaktadır. Bu nedenle, daha düşük bellek kullanımı ile model sorgulamayı en üst düzeye çıkarmak için Power BI Premium daha verimli bir yaklaşım sunar.
 
 ### <a name="capacity-planning"></a>Kapasite Planlaması
 
-Premium kapasitenin boyutu, kullanılabilir bellek ve işlemci kaynakları ile kapasiteye uygulanan limitleri belirler. Premium kapasitelerin sayısı da dikkate alınmaz. birden çok Premium kapasite oluşturmak, iş yüklerini birbirinden yalıtmak için yardımcı olabilir. Depolama alanının kapasite düğümü başına 100 TB olduğunu ve bu durum, herhangi bir iş yükü için yeterince fazla olması gerektiğini unutmayın.
+Premium kapasitesinin boyutu kullanılabilir olan bellek ve işlemci kaynaklarını ve kapasiteye uygulanan limitleri belirler. Premium kapasitelerinin sayısı da dikkate alınır. Birden fazla Premium kapasitesinin oluşturulması iş yüklerini birbirinden yalıtmaya yardımcı olabilir. Depolamanın kapasite düğümü başına 100 TB olduğunu ve bu durumun herhangi bir iş yükü için yeterli olduğunu unutmayın.
 
-Premium kapasitelerinin boyutunu ve sayısını belirlemek, özellikle oluşturduğunuz ilk kapasiteler için zor olabilir. Kapasite boyutlandırmanın, beklenen günlük kullanımı belirten ortalama iş yükünü anlayabilmesi için ilk adım. Tüm iş yüklerinin eşit olduğunu anlamak önemlidir. Örneğin, tek bir görsel içeren tek bir rapor sayfasına erişen 100, bir SPIN bir ucunda, çok sayıda eşzamanlı kullanıcı kolayca ulaşılabilir. Henüz-SPI-100 ' nin diğer ucunda, her biri rapor sayfasında her bir 100 görsele göre 100 farklı rapora erişen eşzamanlı kullanıcı sayısı çok farklı olan kapasite kaynaklarını çok farklı hale getirir.
+Premium kapasitelerinin sayısını ve boyutunu belirleme, özellikle oluşturduğunuz ilk kapasiteler için zorlayıcı bir durum olabilir. Kapasiteyi boyutlandırmanın ilk adımı, beklenen günlük kullanımı temsil eden ortalama iş yükünü anlamadır. Tüm iş yüklerinin eşit olduğunu anlamak önemlidir. Örneğin, ölçeğin bir ucunda tek bir görsel içeren bir rapor sayfasına 100 kullanıcının erişmesini sağlama hedefine kolayca erişilebilir. Ancak, ölçeğin diğer ucunda, her biri rapor sayfasında 100 görsel içeren 100 farklı rapora aynı anda 100 kullanıcının erişmesini sağlama, kapasite kaynaklarından oldukça farklı taleplerde bulunacaktır.
 
-Bu nedenle, kapasite yöneticilerinin ortamınıza, içeriklere ve beklenen kullanıma özgü birçok etkene göz önünde bulundurmanız gerekir. Geçersiz kılan amaç, tutarlı sorgu süreleri, kabul edilebilir bekleme süreleri ve çıkarma ücretleri sunarken kapasite kullanımının en üst düzeye çıkarlamaktır. Dikkat edilmesi gereken etkenler şunlar olabilir:
+Bu nedenle, Kapasite Yöneticilerinin ortamınıza, içeriklerinize ve beklenen kullanımlara özgü birçok farklı etkeni göz önünde bulundurması gerekir. Burada üstün gelen hedef, tutarlı sorgu süreleri, kabul edilebilir bekleme süreleri ve çıkarma oranları sunarken kapasite kullanımını en üst düzeye çıkarmadır. Göz önünde bulundurulacak etkenler şunları içerebilir:
 
-- **Model boyutu ve veri özellikleri** : Sorgu veya yenilemeye izin vermek için içeri aktarma modellerinin tam olarak belleğe yüklenmesi gerekir. LC/DQ veri kümeleri, karmaşık ölçüleri veya RLS kurallarını değerlendirmek için önemli miktarda işlemci süresi ve büyük olasılıkla önemli bellek gerektirebilir. Bellek ve işlemci boyutu ve LC/DQ sorgu işleme kapasitesi kapasite boyutuyla kısıtlıdır.
-- **Eşzamanlı etkin modeller** : Farklı içeri aktarma modellerinin eşzamanlı olarak sorgulanması, bellekte kaldığı sırada en iyi yanıt verme ve performans sağlar. Tüm yoğun şekilde sorgulanan modelleri, yenilemelerini sağlamak için ek bellekle barındırmak için yeterli bellek olmalıdır.
-- **Içeri aktarma modeli yenilemesi** : Yenileme türü (tam veya artımlı), Power Query sorgularının süresi ve karmaşıklığı ve hesaplanan tablo/sütun mantığı, bellek ve özellikle işlemci kullanımı üzerinde etkili olabilir. Eş zamanlı yenilemeler, kapasite boyutu (1,5 x arka uç sanal çekirdekleri, yuvarlanır) ile kısıtlanır.
-- **Eşzamanlı sorgular** : İşlemci veya LC/DQ bağlantıları kapasite sınırını aştığında, çok sayıda eşzamanlı sorgu yanıt vermeyen raporlara neden olabilir. Bu durum özellikle çok sayıda görsel içeren rapor sayfaları için geçerlidir.
+- **Model boyutu ve veri özellikleri** : Sorgu veya yenilemeye izin vermek için içeri aktarma modellerinin tam olarak belleğe yüklenmesi gerekir. LC/DQ veri kümeleri, karmaşık ölçümleri veya RLS kurallarını değerlendirmek için önemli işlemci süresi ve muhtemelen önemli ölçüde bellek gerektirebilir. Bellek ve işlemci boyutu ve LC/DQ sorgu aktarım hızı kapasite boyutuyla kısıtlıdır.
+- **Eşzamanlı etkin modeller** : Farklı içeri aktarma modellerinin eşzamanlı olarak sorgulanması, bellekte kaldığı sırada en iyi yanıt verme ve performans sağlar. Yoğun şekilde sorgulanan modelleri barındırmak için yeterli bellek olmalıdır. Bunların yenilenmesi için de ek bellek gerekir.
+- **Içeri aktarma modeli yenilemesi** : Yenileme türü (tam veya artımlı), Power Query sorgularının süresi ve karmaşıklığı ve hesaplanan tablo/sütun mantığı, bellek ve özellikle işlemci kullanımı üzerinde etkili olabilir. Eş zamanlı yenilemeler kapasite boyutuyla kısıtlanır (1,5 x arka uç sanal çekirdek sayısı, yukarıya doğru yuvarlanır).
+- **Eşzamanlı sorgular** : İşlemci veya LC/DQ bağlantıları kapasite sınırını aştığında, çok sayıda eşzamanlı sorgu yanıt vermeyen raporlara neden olabilir. Bu durum özellikle de çok sayıda görsel içeren rapor sayfaları için geçerlidir.
 - **Veri akışları, sayfalandırılmış raporlar ve AI işlevleri** : Kapasite, her biri yapılandırılabilir maksimum kapasite belleği yüzdesine ihtiyaç duyan veri akışları, sayfalandırılmış raporlar ve AI işlevlerini destekleyecek şekilde yapılandırılabilir. Bellek, veri akışlarına dinamik olarak ayrılır, ancak sayfalandırılmış raporlara ve AI iş yüküne statik olarak ayrılır.
 
-Bu faktörlerin yanı sıra, kapasite yöneticileri birden fazla kapasite oluşturmayı düşünebilirler. Birden fazla kapasite, iş yüklerinin yalıtımına izin verir ve öncelikli iş yüklerinin garantisini sağlamak için yapılandırılabilir. Örneğin, iş açısından kritik iş yüklerini self servis BI (SSBı) iş yüklerinden ayırmak için iki kapasite oluşturulabilir. İş açısından kritik kapasite, yalnızca BT departmanına verilen yazma erişimiyle birlikte garantili kaynaklarla bu kişilere olanak sağlayan büyük şirket modellerini yalıtmak için kullanılabilir. SSBı kapasitesi, iş analistlerine erişim izni verilen artan sayıda daha küçük modeli barındırmak için kullanılabilir. SSBı kapasitesi zaman zaman sorgu veya yenileme süresi toleransable olabilir.
+Bu faktörlere ek olarak, Kapasite Yöneticileri birden fazla kapasite oluşturmayı düşünebilir. Birden fazla kapasite, iş yüklerinin yalıtılmasına olanak tanır ve öncelikli iş yüklerinin garanti kaynaklara sahip olmasını sağlayacak şekilde yapılandırılabilir. Örneğin, iş açısından kritik iş yüklerini self servis BI (SSBI) iş yüklerinden ayırmak için iki kapasite oluşturulabilir. İş açısından kritik kapasite, sadece BT departmanına sağlanan yazar erişimi ile garanti kaynaklar sunarak büyük kurumsal modelleri ayrı tutmak için kullanılabilir. İş analistlerine sağlanan erişim ile, SSBI kapasitesi sayısı gittikçe artan küçük modelleri barındırmak için kullanılabilir. SSBI kapasitesi, zaman zaman kabul edilebilir sorgu veya yenileme beklemeleri yaşayabilir.
 
-Zaman içinde, kapasite yöneticileri içerikleri çalışma alanları arasında taşıyarak veya kapasiteler arasında çalışma alanları yukarı veya aşağı ölçeklendirerek çalışma alanlarını dengeleyebilir. Genellikle, daha büyük modelleri barındırmak için ölçeği büyütün ve ölçeği ölçekleyerek daha yüksek eşzamanlılık yapabilirsiniz.
+Zamanla, Kapasite Yöneticileri içerikleri çalışma alanlarının arasında taşıyarak, çalışma alanlarını kapasitelerin arasında taşıyarak veya kapasitelerin ölçeğini artırıp azaltarak çalışma alanlarını dengeleyebilir. Genellikle, daha büyük modelleri barındırmak için ölçeği büyütün ve ölçeği ölçekleyerek daha yüksek eşzamanlılık yapabilirsiniz.
 
-Lisans satın almanın, kiracı ile sanal çekirdekler sağladığını geri çekin. Bir **P3** aboneliğinin satın alınması bir veya en fazla dört Premium kapasiteye, yani 1 x P3 veya 2 x P2 veya 4 x P1 oluşturmak için kullanılabilir. Ayrıca, bir P2 kapasitesini bir P3 kapasitesine aktarmadan önce, sanal çekirdekleri iki P1 kapasitesi oluşturacak şekilde bölmek için dikkate alınması verilebilir.
+Lisans satın almanın sanal çekirdekleri bulunan kiracıyı sağladığını unutmayın. **P3** aboneliği satın alınarak bir veya dört taneye kadar Premium kapasite oluşturulabilir. Örn. 1 x P3, veya 2 x P2, veya 4 x P1. Boyutu P2 kapasitesinden P3 kapasitesine artırmadan önce iki tane P1 kapasitesi oluşturmak için sanal çekirdeklerin bölünmesi düşünülebilir.
 
 ### <a name="testing-approaches"></a>Test yaklaşımları
 
-Kapasite boyutu karardığında, denetimli bir ortam oluşturularak test gerçekleştirebilirsiniz. Pratik ve ekonomik bir seçenek, bir Azure (SKU) kapasitesi oluşturmaktır. Bu, bir P1 kapasitesinin a4 kapaiyle aynı boyutta olduğunu ve P2 ve P3 kapasitelerinin sırasıyla a5 ve A6 kapabilgileriyle aynı boyutta olduğunu belirtmekte kullanılır. Azure kapasiteleri hızlı bir şekilde oluşturulabilir ve saatlik olarak faturalandırılır. Bu nedenle, test tamamlandıktan sonra, tahakkuk eden maliyetleri durdurmak için kolayca silinebilir.
+Kapasite boyutu kararlaştırıldığında, denetimli bir ortam oluşturularak test gerçekleştirilebilir. Bir Azure (A SKU’lar) kapasitesi oluşturma, pratik ve ekonomik seçeneklerden biridir. P1 kapasitesinin boyutu A4 kapasitesinin, P2 ve P3 kapasitelerinin boyutları da sırasıyla A5 ve A6 kapasitelerinin boyutlarıyla aynıdır. Hızla oluşturulabilen Azure kapasiteleri saatlik olarak faturalandırılır. Böylelikle, tahakkuk eden maliyetleri durdurmak için test etme tamamlandıktan sonra kolayca silinebilirler.
 
-Test içeriği, Azure kapasitesinde oluşturulan çalışma alanlarına eklenebilir ve ardından tek bir Kullanıcı, sorguları gerçekçi ve temsili bir iş yükü oluşturmak için raporlar çalıştırabilir. İçeri aktarma modelleri varsa, her bir model için yenileme de aynı zamanda gerçekleştirilmelidir. İzleme araçları, kaynak kullanımını anlamak için tüm ölçümleri gözden geçirmek üzere kullanılabilir.
+Test içeriği Azure kapasitesinde oluşturulan çalışma alanlarına eklenebilir. Ardından, tek bir kullanıcı olarak gerçekçi ve temsili bir sorgu iş yükü oluşturmak için raporlar çalıştırılabilir. İçeri aktarma modelleri varsa, her model için bir yenileme de gerçekleştirilmelidir. Kaynak kullanımını anlamak için tüm ölçümleri gözden geçirmek amacıyla izleme araçları kullanılabilir.
 
-Testlerin tekrarlanabilir olması önemlidir: Testlerin birkaç kez çalıştırılması ve her seferinde yaklaşık olarak aynı sonucu sunması gerekir. Bu sonuçların ortalaması, doğru üretim koşullarında bir iş yükünü tahmin etmek ve tahmin etmek için kullanılabilir.
+Testlerin tekrarlanabilir olması önemlidir: Testler birkaç kez çalıştırılmalı ve her seferinde yaklaşık olarak aynı sonucu sunmalıdır. Gerçek üretim koşulları altında iş yükünü tahmin etmek için bu sonuçların ortalaması kullanılabilir.
 
-Zaten bir kapasiteye ve yük testi yapmak istediğiniz raporlara sahipseniz, hızlı bir şekilde yük testi oluşturmak için [PowerShell yük oluşturma aracını](https://aka.ms/PowerBILoadTestingTool) kullanın. Araç, her bir raporun kapasitesinin kaç örneğinin saat içinde çalıştırılabilmesini tahmin etmenize olanak sağlar. Bu aracı kullanarak, bireysel rapor işleme veya birkaç farklı raporu paralel olarak işleme yeteneğini değerlendirmek için kullanabilirsiniz. Daha fazla bilgi için bkz. video [Microsoft Power BI: Premium kapasite](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
+Zaten bir kapasiteniz ve testi yüklemek istediğiniz raporlarınız varsa, hızla bir yük testi oluşturmak için [PowerShell yük oluşturma aracını](https://aka.ms/PowerBILoadTestingTool) kullanın. Araç, her raporun bir saat içinde kapasitenizin kaç tane örneğini çalıştırabileceğini tahmin etmenize olanak tanır. Kapasitenizin ayrı rapor işleme veya farklı raporları paralel olarak işleme yeteneğini değerlendirmek için aracı kullanabilirsiniz. Daha fazla bilgi için şu videoyu izleyin: [Microsoft Power BI: Premium kapasite](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Daha karmaşık bir test oluşturmak için, gerçekçi bir iş yüküne benzetim yapan bir yük testi uygulaması geliştirmeyi düşünün. Daha fazla bilgi için bkz. [Visual Studio yük testi ile](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/)Web semineri yük testi Power BI uygulamalar.
+Daha karmaşık bir test oluşturmak için, gerçekçi bir iş yüküne benzetim yapan bir yük test etme uygulaması geliştirmeyi düşünebilirsiniz. Daha fazla bilgi için bkz. [Visual Studio Yük Testi ile Power BI Uygulamalarında Yük Test Etme](https://www.youtube.com/watch?v=UFbCh5TaR4w).
 
 ## <a name="exploring-real-world-scenarios"></a>Gerçek dünyada senaryoları keşfetme
 
@@ -718,7 +718,7 @@ Bu adımlar, grafik ve tablo örneklerinin yanı sıra, bir Power BI yöneticisi
 
 Bu senaryoda, kullanıcılar rapor verilerinin bazen eski veya "eski" olduğunu görünmediği zaman bir araştırma tetikleniyor.
 
-Uygulamada, **yönetici görsele** etkileşime girer ve veri kümelerini **en fazla bekleme süresi** istatistiklerine göre azalan sırada sıralar. Bu, en uzun bekleme süreleriyle çalışma alanı adına göre gruplanmış veri kümelerini açığa çıkarmalarına yardımcı olur.
+Uygulamada, yönetici görsele etkileşime girer ve veri kümelerini **en fazla bekleme süresi** istatistiklerine göre azalan sırada sıralar. Bu, en uzun bekleme süreleriyle çalışma alanı adına göre gruplanmış veri kümelerini açığa çıkarmalarına yardımcı olur.
 
 ![Veri kümesi yenilemeleri, çalışma alanına göre gruplanmış şekilde azalan maksimum bekleme süresine göre sıralanır](media/whitepaper-premium-deployment/dataset-refreshes.png)
 
