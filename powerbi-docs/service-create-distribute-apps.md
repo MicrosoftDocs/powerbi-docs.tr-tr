@@ -6,37 +6,37 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826619"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530593"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
-Power BI'da resmi olarak paketlenmiş içerik oluşturabilir ve bunu geniş bir hedef kitleye *uygulama* olarak dağıtabilirsiniz. İş arkadaşlarınızla Power BI içeriği üzerinde işbirliği yapabildiğiniz bir yer olan *uygulama çalışma alanlarında* uygulama oluşturabilirsiniz. Ardından tamamlanmış uygulamaları kuruluşunuzdaki büyük kullanıcı gruplarına yayımlayabilirsiniz. 
+Power BI'da resmi olarak paketlenmiş içerik oluşturabilir ve bunu geniş bir hedef kitleye *uygulama* olarak dağıtabilirsiniz. İş arkadaşlarınızla Power BI içeriği üzerinde işbirliği yapabildiğiniz bir yer olan *çalışma alanlarında* uygulama oluşturabilirsiniz. Ardından tamamlanmış uygulamaları kuruluşunuzdaki büyük kullanıcı gruplarına yayımlayabilirsiniz. 
 
 ![Power BI uygulamaları](media/service-create-distribute-apps/power-bi-new-apps.png)
 
-İş kullanıcılarınız işlerini yürütmek için sıklıkla birden fazla Power BI panosu ve raporuna ihtiyaç duyar. Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu uygulamaları ister bütün kuruluşunuza, ister belirli kişi ve gruplara yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, bu koleksiyonlarda izin yönetimini kolaylaştırır.
+İş kullanıcılarınız işlerini yürütmek için sıklıkla birden fazla Power BI panosu ve raporuna ihtiyaç duyar. Power BI uygulamalarıyla, pano ve rapor koleksiyonları oluşturabilir, bu koleksiyonları ister bütün kuruluşunuza, ister belirli kişi ve gruplara uygulama olarak yayımlayabilirsiniz. Bir rapor oluşturucusu veya yönetici olarak sizin için uygulamalar, bu koleksiyonlarda izin yönetimini kolaylaştırır.
 
 İş kullanıcıları, uygulamalarınızı birkaç farklı yöntemle alabilir:
 
-- Uygulamanızı Microsoft AppSource’tan da bulabilir ve yükleyebilir
+- Bu kişiler uygulamanızı Microsoft AppSource’tan bulup yükleyebilir.
 - Onlara bir doğrudan bağlantı gönderebilirsiniz.
 - Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz.
 
-Uygulamayı kendi yerleşik gezintisiyle oluşturabilirsiniz, bu sayede kullanıcılarınız içeriğinizde yollarını kolayca bulabilirler. Uygulamanın içeriğini değiştiremezler. İster Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. [İş kullanıcıları için uygulama deneyimiyle](consumer/end-user-apps.md) ilgili daha fazla bilgi edinin.
+Uygulamayı kendi yerleşik gezintisiyle oluşturabilirsiniz, bu sayede kullanıcılarınız içeriğinizde yollarını kolayca bulabilirler. Uygulamanın içeriğini değiştiremezler. İster Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıca, temel alınan veri kümelerine bağlanmak ve uygulamada raporların kopyalarını oluşturmak için onlara Derleme izinleri verebilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
 
 ## <a name="licenses-for-apps"></a>Uygulamalar için lisanslar
 Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız olmalıdır. Uygulama *tüketicileri* için iki seçenek sağlanır.
 
-* 1\. Seçenek: Tüm iş kullanıcılarının uygulamanızı görüntülemek için **Power BI Pro** lisansına ihtiyacı vardır. 
-* 2\. Seçenek: Uygulama çalışma alanınız Power BI Premium kapasitesinde yer alıyorsa, kuruluşunuzdaki ücretsiz kullanıcılar uygulama içeriğini görüntüleyebilir. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
+* **Seçenek 1** Bu uygulamanın çalışma alanı bir Power BI Premium kapasitesi içinde *değildir*: Tüm iş kullanıcılarının uygulamanızı görüntülemek için Power BI Pro lisansına ihtiyacı vardır. 
+* **Seçenek 2** Bu uygulamanın çalışma alanı bir Power BI Premium kapasitesi *içindedir*: Kuruluşunuzda Power BI Pro lisansı olmayan iş kullanıcıları, uygulama içeriğini görüntüleyebilir. Ancak, raporları kopyalayamaz veya temel alınan veri kümelerine dayalı raporlar oluşturamazlar. Ayrıntılar için [Power BI Premium nedir?](service-premium.md) makalesini okuyun.
 
 ## <a name="publish-your-app"></a>Uygulamanızı yayımlama
 Çalışma alanınızdaki panolar ve raporlar hazır olduğunda, hangi panoları ve raporları yayımlamak istediğinizi seçer ve ardından bunları bir uygulama olarak yayımlarsınız. 
@@ -57,21 +57,19 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
    
      ![Uygulamanızı oluşturma](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. **Gezinti** bölümünde, uygulamanın bir parçası olarak yayımlanacak içeriği seçersiniz. Ardından içeriği bölümler halinde düzenlemek için uygulama gezintisini eklersiniz. Ayrıntılar için bu makalenin [Uygulamanız için gezinti deneyimini tasarlama](#design-the-navigation-experience-for-your-app) bölümüne bakın.
+4. **Gezinti** bölümünde, uygulamanın bir parçası olarak yayımlanacak içeriği seçersiniz. Ardından içeriği bölümler halinde düzenlemek için uygulama gezintisini eklersiniz. Ayrıntılar için bu makalenin [Uygulamanız için gezinti deneyimini tasarlama](#design-the-navigation-experience) bölümüne bakın.
    
      ![Uygulama gezintisi](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. **İzinler** bölümünde uygulamaya kimlerin erişebileceğine ve uygulamada neler yapabileceklerine karar verin. 
     - [Klasik çalışma alanlarında](service-create-workspaces.md): kuruluşunuzdaki herkes, belirli kişiler veya Azure Active Directory (AAD) güvenlik grupları.
     - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, AAD güvenlik grupları ile dağıtım listeleri ve Office 365 Grupları. Tüm çalışma alanı kullanıcılarına çalışma alanı için otomatik olarak uygulamaya erişim verilir.
-    - Derleme iznini kullanarak uygulama kullanıcılarının uygulamanın temel veri kümelerine bağlanmasına izin verebilirsiniz. Bu veri kümeleri veri kümesi arama deneyimlerinde gösterilir.
-    - Uygulama kullanıcılarının kendi Çalışma Alanım konumlarına bu uygulamadaki raporların kopyasını almalarına izin verebilirsiniz. 
+    - Derleme iznini vererek, uygulama kullanıcılarının uygulamanın temel veri kümelerine bağlanmasına izin verebilirsiniz. Kullanıcılar paylaşılan veri kümelerini ararken bu veri kümelerini görürler. Bu makaledeki [kullanıcıların uygulama veri kümelerine bağlanmasına izin verme](#allow-users-to-connect-to-datasets) bölümünü okuyun.
+    - Derleme izni olan kullanıcılar aynı zamanda bu uygulamadan başka bir çalışma alanına rapor kopyalama iznine de sahip olabilir. Bu makaledeki [kullanıcıların uygulamadaki raporları kopyalamasına izin verme](#allow-users-to-copy-reports) bölümünü okuyun.
     
     >[!IMPORTANT]
     >Uygulamanız başka çalışma alanlarındaki veri kümelerini kullanıyorsa, tüm uygulama kullanıcılarının temel veri kümelerine erişebildiğinden emin olmak sizin sorumluluğunuzdadır.
-> 
->     
-
+    >
 
 6. Power BI yöneticiniz Power BI Yönetim Portalında sizi için bu ayarı etkinleştirdiyse uygulamayı alıcılar için otomatik olarak yükleyebilirsiniz. Bu makalede [uygulamayı otomatik olarak yükleme](#automatically-install-apps-for-end-users) konusundaki diğer bilgileri okuyun.
 
@@ -84,26 +82,26 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
 Uygulamayı paylaştığınız kişilere bu doğrudan bağlantıyı gönderebilirsiniz veya uygulamanızı, **daha fazla uygulama indirmek ve keşfetmek üzere AppSource'taki Uygulamalar** sekmesine giderek kendileri indirebilir. [İş kullanıcıları için uygulama deneyimiyle](consumer/end-user-apps.md) ilgili daha fazla bilgi edinin.
 
 ## <a name="change-your-published-app"></a>Yayımlanmış uygulamanızı değiştirme
-Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteyebilirsiniz. Yeni uygulama çalışma alanının yöneticisi veya üyesiyseniz uygulamayı güncelleştirmek kolaydır. 
+Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteyebilirsiniz. Yeni çalışma alanının yöneticisi veya üyesiyseniz uygulamayı güncelleştirmek kolaydır. 
 
-1. Uygulamaya karşılık gelen uygulama çalışma alanını açın. 
+1. Uygulamaya karşılık gelen çalışma alanını açın. 
    
      ![Çalışma alanını açma](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Panolarda veya raporlarda istediğiniz değişiklikleri yapın.
  
-     Uygulama çalışma alanı sizin hazırlama alanınızdır. Dolayısıyla değişiklikleriniz, uygulamayı tekrar yayımlamadığınız sürece geçerlilik kazanmaz. Böylece yayımlanmış uygulamaları etkilemeden değişiklik yapabilirsiniz.  
+     Çalışma alanı sizin hazırlama alanınızdır. Dolayısıyla değişiklikleriniz, uygulamayı tekrar yayımlamadığınız sürece geçerlilik kazanmaz. Böylece yayımlanmış uygulamaları etkilemeden değişiklik yapabilirsiniz.  
  
     > [!IMPORTANT]
     > Bir raporu kaldırır ve uygulamayı güncelleştirirseniz, raporu uygulamaya yeniden ekleseniz bile uygulama tüketicileriniz yer işaretleri ve açıklamalar gibi tüm özelleştirmeleri kaybeder.  
  
-3. Uygulama çalışma alanı içerik listesine dönün ve sağ üst köşedeki **Uygulamayı güncelleştir**'i seçin.
+3. Çalışma alanı içerik listesine dönün ve sağ üst köşedeki **Uygulamayı güncelleştir**'i seçin.
    
 1. Gerekiyorsa **Kurulum**, **Gezinti** ve **İzinler**'i güncelleştirin, sonra da **Uygulamayı güncelleştir**'i seçin.
    
 Uygulamayı yayımladığınız kişiler, otomatik olarak uygulamanın güncelleştirilmiş sürümünü görür. 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>Uygulamanız için gezinti deneyimini tasarlama
+## <a name="design-the-navigation-experience"></a>Gezinti deneyimini tasarlama
 **Yeni gezinti oluşturucu** seçeneği uygulamanız için özel gezinti oluşturmanıza olanak tanır. Özel gezinti kullanıcılarınızın uygulamanızdaki içeriği bulmasını ve kullanmasını kolaylaştırır. Bu seçenek mevcut uygulamalarda kapalıdır ve yeni uygulamalarda varsayılan olarak açık olur.
 
 Seçenek kapalıyken, **Uygulama açılış sayfası** için pano veya rapor gibi **Belirli bir içerik** seçebilir veya **Yok**'u seçerek kullanıcıya içeriğin temel listesini gösterebilirsiniz.
@@ -160,27 +158,32 @@ Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurman�
 
 * Bir daveti kabul etmeyen konuk kullanıcılar için uygulamalar otomatik olarak yüklü gelmez.  
 
-## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Kullanıcıların uygulamanın temel veri kümelerine bağlanmasına izin verme
-Tüm kullanıcıların uygulamanın temel veri kümelerine erişmesine izin verme seçeneği işaretlendiğinde, uygulama kullanıcıları temel veri kümesi üzerinde Derleme izni alır. Bu izinle kullanıcılar [çalışma alanları arasında uygulama veri kümelerini kullanıp](service-datasets-across-workspaces.md) Power BI Desktop'ta bu veri kümelerini arayabilir, hizmet veri deneyimlerini alır ve bu veri kümelerini kullanarak raporlar ve panolar oluşturabilir. 
+## <a name="allow-users-to-connect-to-datasets"></a>Kullanıcıların veri kümelerine bağlanmasına izin verme
 
-Bu seçeneğin işaretini kaldırdığınızda, uygulamaya eklediğiniz yeni kullanıcılara artık Derleme izni verilmez. Öte yandan temel veri kümeleri üzerindeki mevcut izinler değişmez. Sağlanan kullanıcı arabirimini kullanarak artık Derleme iznine sahip olmaması gereken uygulama kullanıcılarından bu izni kaldırabilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+**Kullanıcıların uygulamanın temel veri kümelerine bağlanmasına izin ver** seçeneğini işaretlediğinizde, uygulama kullanıcılarına bu veri kümeleri üzerinde *Derleme izinleri* vermiş olursunuz. Bu izinle birkaç temel eylem gerçekleştirebilirler:
 
-## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Kullanıcıların uygulamadaki raporların kopyasını almasına izin verme
-**Kullanıcıların bu uygulamadaki raporlarının bir kopyasını oluşturmalarına izin ver** seçeneğini işaretleyerek, kullanıcılara uygulamadaki raporları kendi Çalışma Alanım konumlarına kaydetme izni verirsiniz. Ardından raporları kendi benzersiz gereksinimlerine uygun olarak özelleştirebilirler. Bu seçenek **Tüm kullanıcıların Derleme iznini kullanarak uygulamanın temel alınan veri kümelerine bağlanmasına izin ver** seçeneğinin etkinleştirilmesini gerektirir. Bu özellik yeni [başka çalışma alanlarından rapor kopyalama](service-datasets-copy-reports.md) özelliğine benzer bir davranış gösterir.
+- Raporlarının temeli olarak [uygulama veri kümelerini kullanma](service-datasets-across-workspaces.md).
+- Power BI Desktop’ta ve Power BI hizmeti içindeki veri alma deneyiminde bu veri kümelerini arayın.
+- Bu veri kümelerini temel alan raporlar ve panolar oluşturun.
+
+Bu seçeneğin işaretini kaldırdığınızda, uygulamaya eklediğiniz yeni kullanıcılar Derleme iznine sahip olmaz. Öte yandan, mevcut uygulama kullanıcıları için temel veri kümeleri üzerindeki izinler değişmez. Artık Derleme iznine sahip olmaması gereken uygulama kullanıcılarından bu izni kaldırabilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+
+## <a name="allow-users-to-copy-reports"></a>Kullanıcıların raporları kopyalamasına izin ver
+
+**Kullanıcıların bu uygulamadaki raporların bir kopyasını oluşturmalarına izin ver** seçeneğini işaretlediğinizde, kullanıcılarınız uygulamadaki raporların herhangi birini Çalışma Alanım’a veya başka bir çalışma alanına kaydedebilir. Bir kopya oluşturmak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile kullanıcıların bir Pro lisansına ihtiyacı vardır. Ardından raporları kendi benzersiz gereksinimlerine uygun olarak özelleştirebilirler. İlk olarak **Kullanıcıların Derleme iznini kullanarak uygulamanın temel veri kümelerine bağlanmasına izin ver** seçeneğini belirlemeniz gerekir. Bu seçenekleri belirleyerek, [diğer çalışma alanlarından rapor kopyalama](service-datasets-copy-reports.md) özelliğini etkinleştirmiş olursunuz.
 
 ## <a name="unpublish-an-app"></a>Bir uygulamayı yayımdan kaldırma
-Uygulama çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.
+Bir çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.
 
 >[!IMPORTANT]
 >Uygulamayı yayımdan kaldırdığınızda uygulama kullanıcıları özelleştirmelerini kaybederler. Uygulamadaki içerikle ilişkilendirilmiş tüm kişisel yer işaretlerini, yorumları veya abonelikleri kaybederler. Yalnızca kaldırmanız gereken uygulamaları yayımdan kaldırın.
 > 
-> 
 
-* Bir uygulama çalışma alanında sağ üst köşedeki üç nokta ( **...** ) simgesini ve **Uygulamayı yayımdan kaldır**ı seçin.
+* Bir çalışma alanında sağ üst köşedeki üç nokta ( **...** ) simgesini ve **Uygulamayı yayımdan kaldır**’ı seçin.
   
      ![Uygulamayı yayımdan kaldırma](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
-Bu eylem uygulamayı yayımladığınız herkesten uygulamayı kaldırır ve bu kullanıcılar artık uygulamaya erişemez. Uygulama çalışma alanı veya içerikleri silinmez.
+Bu eylem uygulamayı yayımladığınız herkesten uygulamayı kaldırır ve bu kullanıcılar artık uygulamaya erişemez. Bu işlem çalışma alanını veya içeriklerini silmez.
 
 ## <a name="view-your-published-app"></a>Yayımlanmış uygulamanızı görüntüleme
 
@@ -189,7 +192,7 @@ Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI son ge
 ![Gezintisi gösterilen uygulama](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Uygulama çalışma alanı oluşturma](service-create-workspaces.md)
+* [Çalışma alanı oluşturma](service-create-workspaces.md)
 * [Power BI'da uygulamaları yükleme ve kullanma](consumer/end-user-apps.md)
 * [Dış hizmetler için Power BI uygulamaları](service-connect-to-services.md)
 * [Power BI Yönetici Portalı](https://docs.microsoft.com/power-bi/service-admin-portal)

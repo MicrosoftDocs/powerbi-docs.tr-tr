@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454512"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654820"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
@@ -130,7 +130,7 @@ Bir web veri kaynağına bağlanarak bulduğumuz emeklilik verilerimize geri dö
 
 **Dönüştür** şeridini kullanarak da bu sütunları metin yerine başlık olacak şekilde değiştirebilir veya *dönüştürebilirsiniz*. Aşağıda gördüğünüz üzere, **Dönüştür** şeridindeki **Veri Türü** düğmesinde, geçerli veri türünü başka bir türe dönüştürmenize olanak sağlayan bir ok mevcuttur.
 
- ![](media/desktop-getting-started/shapecombine_changetype.png)
+ ![](media/desktop-getting-started/shapecombine-changetype-b.png)
 
 Yapılan değişiklikler, **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar** bölümünde gösterilir. Şekillendirme işlemindeki herhangi bir adımı kaldırmak istersek ilgili adımı belirledikten sonra adımın solundaki **X** işaretini seçmemiz yeterlidir.
 

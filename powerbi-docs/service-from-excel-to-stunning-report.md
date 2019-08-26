@@ -1,103 +1,144 @@
 ---
-title: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
-description: Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
+title: Power BI hizmetinde Excel çalışma kitabından muhteşem raporlar elde etme
+description: Bu makalede bir Excel çalışma kitabından hızlıca etkileyici bir rapor oluşturma işlemi gösterilmektedir.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522869"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995021"
 ---
-# <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Çok kısa bir sürede Excel çalışma kitaplarından muhteşem raporlar elde etme
-Yöneticiniz gün bitimine kadar, son kampanyaya ilişkin izlenimlerinizle birlikte güncel satış rakamlarınızın yer aldığı bir rapor sunmanızı istiyor. Ancak, güncel verileriniz çeşitli üçüncü taraf sistemlerde ve dizüstü bilgisayarınızdaki dosyalarda mevcut. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek için saatlerinizi harcadığınızı hatırlıyorsunuz. Endişelenmeye başlıyorsunuz.
+# <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI hizmetinde Excel çalışma kitabından muhteşem raporlar elde etme
+Yöneticiniz gün bitimine kadar, son kampanyaya ilişkin izlenimlerinizle birlikte güncel satış rakamlarınızın yer aldığı bir rapor sunmanızı istiyor. Ancak, güncel verileriniz çeşitli üçüncü taraf sistemlerde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.
 
 Endişelenmeyin. Power BI ile çok kısa sürede harika raporlar oluşturabilirsiniz.
 
 Bu örnekte, yerel sistemde bulunan bir dosyayı karşıya yükleyecek, yeni bir rapor oluşturacak ve bu raporu iş arkadaşlarımızla paylaşacağız. Üstelik bu işlemlerin tümünü Power BI'da gerçekleştireceğiz.
 
 ## <a name="prepare-your-data"></a>Verilerinizi hazırlama
-Örnek olarak basit bir Excel dosyasını ele alalım. Excel dosyanızı Power BI'a yükleyebilmeniz için verilerinizi düz bir tabloda düzenlemeniz gerekir. Bu, her sütunda aynı veri türlerinin (ör. metin, tarih, sayı veya para birimi) bulunacağı anlamına gelir. Bir başlık satırınız olmalı ancak toplamı görüntüleyen herhangi bir sütun veya satırınız olmamalıdır.
+Örnek olarak basit bir Excel dosyasını ele alalım. 
 
-![Excel'de düzenlenmiş veriler](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
+1. Excel dosyanızı Power BI'a yükleyebilmeniz için verilerinizi düz bir tabloda düzenlemeniz gerekir. Düz bir tabloda, her sütun aynı veri türünü (örn. metin, tarih, sayı veya para birimi) içerir. Tablonuzun bir başlık satırı olması gerekir, ancak toplamları görüntüleyen herhangi bir sütun veya satır olmamalıdır.
 
-Şimdi, verilerinizi bir tablo olarak biçimlendirin. Excel'in Giriş sekmesindeki Stiller grubunda **Tablo Olarak Biçimlendir** seçeneğini belirleyin. Çalışma sayfanızda uygulanacak bir tablo stili seçin. Excel çalışma sayfanız artık Power BI'a yüklenmek için hazır.
+   ![Excel'de düzenlenmiş veriler](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
 
-![tablo olarak biçimlendirilmiş veriler](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
+2. Şimdi, verilerinizi bir tablo olarak biçimlendirin. Excel'in **Giriş** sekmesindeki **Stiller** grubunda **Tablo Olarak Biçimlendir** seçeneğini belirleyin. 
 
-## <a name="upload-your-excel-file-into-power-bi"></a>Excel dosyanızı Power BI'a yükleme
-Power BI, bilgisayarınızda bulunan Excel dosyaları da dahil olmak üzere birçok veri kaynağına bağlanır. Çalışmaya başlamak için Power BI hizmetinde oturum açın. Henüz kaydınız yoksa [ücretsiz kaydolabilirsiniz](https://powerbi.com).
+3. Çalışma sayfanızda uygulanacak bir tablo stili seçin. 
 
-Yeni bir pano oluşturmak istediğinizi varsayalım. **Çalışma Alanım**'ı açın ve **+ Oluştur** simgesini seçin.
+   Excel çalışma sayfanız artık Power BI'a yüklenmek için hazır.
 
-![Oluştur simgesi](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
+   ![Tablo olarak biçimlendirilmiş veriler](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
-**Pano**'yu seçin, bir ad girin ve **Oluştur** seçeneğini belirleyin. Yeni pano hiç veri olmadan görüntülenir.
+## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Excel dosyanızı Power BI hizmetine yükleme
+Power BI hizmeti, bilgisayarınızda bulunan Excel dosyaları da dahil olmak üzere birçok veri kaynağına bağlanır. 
 
-![Oluştur açılan menüsü](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+ > [!NOTE] 
+ > Bu öğreticinin kalan kısmında birlikte ilerleyebilmemiz için [Finansal Örnek çalışma kitabını](sample-financial-download.md) kullanın.
 
-Sol gezinti bölmesinin alt kısmında bulunan **Veri Al** seçeneğini belirleyin. Veri Al sayfasında, Verileri İçeri Aktarın veya Bağlanın bölümündeki Dosyalar kutusunda **Al** seçeneğini belirleyin.
+1. Çalışmaya başlamak için Power BI hizmetinde oturum açın. Henüz kaydınız yoksa [ücretsiz kaydolabilirsiniz](https://powerbi.com).
 
-![Dosyalardan veri alma](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+2. Yeni bir pano oluşturmak istediğinizi varsayalım. **Çalışma Alanım**'ı açın ve **Oluştur** simgesini seçin.
 
-Dosyalar sayfasında **Yerel Dosya**'yı seçin. Bilgisayarınızdaki Excel çalışma kitabına gidin ve söz konusu çalışma kitabını seçerek Power BI'a yükleyin. **İçeri aktar**'ı seçin.
+   ![Oluştur simgesi](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
 
-> **NOT**: Bu öğreticinin kalan kısmında birlikte ilerleyebilmemiz için [Financial örnek çalışma kitabını](sample-financial-download.md) kullanın.
-> 
-> 
+3. **Pano**'yu seçin, bir ad girin ve sonra **Oluştur**’u seçin. 
 
-![Veri al > Dosyalar penceresi](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+   Yeni pano hiç veri olmadan görüntülenir.
+
+   ![Oluştur açılan menüsü](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+
+4. Sol gezinti bölmesinin alt kısmında bulunan **Veri al** seçeneğini belirleyin. 
+
+5. **Veri Al** sayfasındaki **Yeni içerik oluştur**’un altında bulunan **Dosyalar** kutusunda **Al**’ı seçin.
+
+   ![Dosyalardan veri alma](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+
+6. **Dosyalar** sayfasında **Yerel Dosya**'yı seçin. Bilgisayarınızdaki Excel çalışma kitabına gidin ve Power BI hizmetine yüklemek için **Aç**'ı seçin. 
+
+   ![Veri al > Dosyalar penceresi](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+
+7. **Yerel Dosya** sayfasından **İçeri Aktar**’ı seçin.
+
 
 ## <a name="build-your-report"></a>Raporunuzu oluşturma
-Power BI, Excel dosyanızı içeri aktardıktan sonra raporunuzu oluşturmaya başlayın. **Veri kümeniz hazır** iletisi göründüğünde **Veri kümesini görüntüle**'yi seçin.  Power BI, Düzenleme görünümü'nde açılır ve rapor tuvali görüntülenir. Sağ tarafta Görsel Öğeler, Filtreler ve Alanlar bölmeleri bulunur.
+Power BI hizmeti Excel dosyanızı içeri aktardıktan sonra raporunuzu oluşturmaya başlayın. 
 
-Excel çalışma kitabınızdaki tablo verilerinin, Alanlar bölümünde göründüğüne dikkat edin. Power BI, sütun başlıklarını tablo adının altında ayrı alanlar olarak listeler.
+1. **Veri kümeniz hazır** iletisi göründüğünde **Veri kümesini görüntüle**'yi seçin.  
 
-![Alanlar bölmesinde Excel verilerinin görünümü](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
+   Power BI, Düzenleme görünümü'nde açılır ve rapor tuvali görüntülenir. Sağ tarafta **Görsel Öğeler**, **Filtreler** ve **Alanlar** bölmeleri bulunur. Excel çalışma kitabınızdaki tablo verilerinin, **Alanlar** bölümünde göründüğüne dikkat edin. Power BI, sütun başlıklarını tablo adının altında ayrı alanlar olarak listeler.
 
-Artık görselleştirme oluşturmaya başlayabilirsiniz. Yöneticiniz, zamanla elde edilen kârı görmek istiyor. Alanlar bölmesinde **Profit**'i rapor tuvaline sürükleyin. Power BI, varsayılan olarak bir çubuk grafik görüntüler. Ardından, **Date**'i de rapor tuvaline sürükleyin. Power BI, çubuk grafiği, tarihe göre kâr görüntülenecek şekilde güncelleştirir.
+   ![Alanlar bölmesinde Excel verilerinin görünümü](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
 
-![rapor düzenleyicisinde sütun grafik](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
+2. Artık görselleştirme oluşturmaya başlayabilirsiniz. Yöneticinizin zaman içinde elde edilen kârı görmek istediğini varsayalım. **Alanlar** bölmesinde **Kar**’ı rapor tuvaline sürükleyin. 
 
-> **İPUCU**: Grafiğiniz beklediğiniz gibi görünmüyorsa toplama işlemlerinizi kontrol edin. Örneğin, **Değer** kutusunda, yeni eklediğiniz değere sağ tıklayın ve verilerin istediğiniz şekilde toplandığından emin olun.  Biz bu örnekte **Toplam** seçeneğini kullanıyoruz.
-> 
-> 
+   Varsayılan olarak, Power BI bir çubuk grafik gösterir. 
 
-Yöneticiniz, en fazla kâr sağlayan ülkeleri görmek istiyor. Bir harita görselleştirmesi hazırlayarak yöneticinizi etkileyebilirsiniz. Bunun için, tuvalinizde boş bir alan seçip Alanlar bölmesinden **Country** ve ardından **Profit** alanlarını sürüklemeniz yeterlidir. Power BI her bir konumun göreceli kârını temsil eden balonlar içeren bir harita görseli oluşturur.
+3. **Tarih** alanını da rapor tuvaline sürükleyin. 
 
-![rapor düzenleyicisinde harita görseli](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+   Power BI, çubuk grafiği, tarihe göre kâr görüntülenecek şekilde güncelleştirir.
 
-Ürüne ve pazar segmentine göre satışları görüntüleyen bir görsel oluşturmaya ne dersiniz? Çok basit. Alanlar bölmesinde Sales, Product ve Segment alanlarının yanında bulunan onay kutularını seçin. Power BI anında bir çubuk grafik oluşturur. Görsel Öğeler menüsündeki simgelerden birini seçerek grafiğin türünü değiştirin. Örneğin, görseli bir Yığılmış çubuk grafik olarak değiştirin.  Grafiği sıralamak için üç nokta (...) > **Sıralama Ölçütü** seçeneğini belirleyin.
+   ![Rapor düzenleyicisindeki sütun grafik](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-![rapor düzenleyicisinde yığılmış sütun grafik](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+   > [!TIP]
+   > Grafiğiniz beklediğiniz gibi görünmüyorsa toplama işlemlerinizi kontrol edin. Örneğin, **Değer** kutusunda, yeni eklediğiniz değere sağ tıklayın ve verilerin istediğiniz şekilde toplandığından emin olun. Biz bu örnekte **Toplam** seçeneğini kullanıyoruz.
+   > 
 
-Tüm görsellerinizi Panonuza sabitleyin. Artık, panonuzu iş arkadaşlarınızla paylaşabilirsiniz.
+Yöneticiniz, en fazla kâr sağlayan ülkeleri görmek istiyor. Bir harita görselleştirmesi hazırlayarak yöneticinizi etkileyebilirsiniz. 
 
-![sabitlenmiş 3 görselin bulunduğu pano](media/service-from-excel-to-stunning-report/pbi_report.png)
+1. Rapor tuvalinizde boş bir alan seçin. 
+
+2. **Alanlar** bölmesinde **Ülke** ve **Kar** alanlarını rapor tuvalinize sürükleyin.
+
+   Power BI her bir konumun göreceli kârını temsil eden balonlar içeren bir harita görseli oluşturur.
+
+   ![Rapor düzenleyicisindeki harita görseli](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+
+Ürüne ve pazar segmentine göre satışları görüntüleyen bir görsel oluşturmaya ne dersiniz? Çok basit. 
+
+1. **Alanlar** bölmesinde **Satışlar**, **Ürün** ve **Segment** alanlarını seçin. 
+   
+   Power BI anında bir çubuk grafik oluşturur. 
+
+2. **Görsel Öğeler** menüsündeki simgelerden birini seçerek grafiğin türünü değiştirin. Örneğin, görseli bir **Yığılmış sütun grafik** olarak değiştirin. 
+
+3. Grafiği sıralamak için üç nokta (...) > **Sıralama Ölçütü** seçeneğini belirleyin.
+
+   ![Rapor düzenleyicisinde yığılmış sütun grafik](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+
+Tüm görsellerinizi panonuza sabitleyin. Artık, panonuzu iş arkadaşlarınızla paylaşabilirsiniz.
+
+   ![Sabitlenmiş üç görselin bulunduğu pano](media/service-from-excel-to-stunning-report/pbi_report.png)
 
 ## <a name="share-your-dashboard"></a>Panonuzu paylaşma
-Panonuzu yöneticiniz Paula ile paylaşmak istiyorsunuz. Panonuzu ve bağlantılı raporu, Power BI hesabı olan tüm iş arkadaşlarınızla paylaşabilirsiniz. Bu kişiler raporunuzla etkileşim kurabilir ancak değişiklikleri kaydedemez.
+Panonuzu yöneticinizle paylaşmak istediğinizi varsayalım. Panonuzu ve bağlantılı raporu, Power BI hesabı olan tüm iş arkadaşlarınızla paylaşabilirsiniz. Bu kişi raporunuzla etkileşim kurabilir ancak değişiklikleri kaydedemez.
 
-Raporunuzu paylaşmak için panonun üst kısmında bulunan **Paylaş** seçeneğini belirleyin.
+1. Raporunuzu paylaşmak için panonun üst kısmında bulunan **Paylaş** seçeneğini belirleyin.
 
-![Paylaş simgesi](media/service-from-excel-to-stunning-report/power-bi-share.png)
+   ![Paylaş simgesi](media/service-from-excel-to-stunning-report/power-bi-share.png)
 
-Power BI, Panoyu Paylaş sayfasını görüntüler. Üst kısımdaki alana, alıcıların e-posta adreslerini girin. Aşağıdaki alana bir ileti ekleyin. Alıcıların panonuzu diğer kullanıcılarla paylaşmasına izin vermek için **Alıcıların panonuzu paylaşmasına izin verin** seçeneğini belirleyin. **Paylaş**'ı seçin.
+   Power BI, **Panoyu paylaş** sayfasını görüntüler. 
 
-![Panoyu paylaşma penceresi](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+2. **E-posta adreslerini girin** kutusuna alıcıların e-posta adreslerini girin ve altındaki kutuya bir mesaj ekleyin. 
 
-Sonraki adımlar
+3. Alıcıların panonuzu diğer kullanıcılarla paylaşmasına izin vermek için **Alıcıların panonuzu paylaşmasına izin verin** seçeneğini belirleyin. **Paylaş**'ı seçin.
+
+   ![Panoyu paylaşma penceresi](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+
+## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
 * [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
 * [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
 

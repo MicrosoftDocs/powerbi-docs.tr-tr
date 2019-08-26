@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989399"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023380"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
-**Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri veya diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
+**Rapor Temaları** ile bir renk temasını (kurumsal renkler, mevsim renkleri, simge kümelerini veya diğer renk temaları) raporunuzun tamamına uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
 
 ![Rapor temaları](media/desktop-report-themes/report-themes_1.png)
 
 Bir **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. Daha sonra bu JSON dosyasını Power BI Desktop'a aktarabilir ve raporunuza uygulayabilirsiniz. JSON dosya yapısı ve içeri aktarma işlemi hızlı ve kolaydır (birkaç düğmeye tıklamanız yeterlidir).
 
-Ayrıca neredeyse tüm öğeleri özelleştirebilir ve standart hale getirebilirsiniz. Özelleştirmek için **Biçimlendirme** bölmesinde el ile ayarlayabileceğiniz JSON dosyasını kullanırsınız. Raporlarınızın nasıl görüneceğini ve, bir denetleyebilmenizi üzerinde tam denetim vermek için hedeftir.
+Ayrıca neredeyse tüm öğeleri özelleştirebilir ve standart hale getirebilirsiniz. Özelleştirmek için **Biçimlendirme** bölmesinde el ile ayarlayabileceğiniz JSON dosyasını kullanırsınız. Amaç, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
 
 ## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
 Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir veya özel bir temayı içeri aktarabilirsiniz.

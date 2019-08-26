@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 06/06/2019
-ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839649"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985711"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -26,7 +26,7 @@ Sayfalandırılmış raporlar birçok sayfadan oluşabilir. Örneğin bu raporun
 
 ![Power BI hizmetinde sayfalandırılmış rapor](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından http://app.powerbi.com Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki uygulama çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](service-admin-premium-workloads.md#paginated-reports-preview) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
+Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından http://app.powerbi.com Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki uygulama çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](service-admin-premium-workloads.md#paginated-reports) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu'nda rapor oluşturma
 

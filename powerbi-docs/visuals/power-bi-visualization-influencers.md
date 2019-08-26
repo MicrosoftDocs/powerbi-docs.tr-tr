@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590589"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995278"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
 Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, çalışan kaybı olarak da bilinen personel değişim oranını etkileyen etmenleri öğrenmek istediğinizi varsayalım. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
@@ -24,9 +24,6 @@ Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlam
 Ana etmen görseli şunları yapmak için harika bir seçimdir: 
 - Çözümlenen ölçümü hangi faktörlerin etkilediğini görme.
 - Bu faktörlerin göreli önemini karşılaştırma. Örneğin, kısa vadeli sözleşmeler çalışan kaybını uzun vadeli sözleşmelerden daha mı fazla etkiliyor? 
-
-## <a name="key-influencer-requirements"></a>Ana etmen gereksinimleri 
-Çözümlediğiniz ölçümler kategorik veya sayısal bir alan olmalıdır (toplamalar ve ölçüler henüz desteklenmemektedir).
 
 ## <a name="features-of-the-key-influencers-visual"></a>Ana etmenler görselinin özellikleri
 
@@ -44,15 +41,13 @@ Ana etmen görseli şunları yapmak için harika bir seçimdir:
 
 6. **Sağ bölme**: Sağ bölme tek bir görsel içerir. Bu örnekteki sütun grafiğinde, sol bölmede seçilen **Tema** ana etmeninin tüm değerleri görüntüleniyor. Sol bölmedeki **kullanılabilirliğin** değeri yeşil renkte gösterilir. **Tema** için tüm diğer değerler siyah renkte gösterilir.
 
-7. **Ortalama çizgisi**: **Tema** etmeninin **kullanılabilirlik** dışındaki tüm olası değerlerinin ortalaması hesaplanır. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Bu, diğer **Tema** değerlerinin size hangi oranda düşük derece verdiğini gösterir. Başka bir deyişle, müşteri düşük bir derecelendirme yaptığında bu derecelendirmenin nedenini veya temasını da açıklar. Kullanılabilirlik, hız ve güvenlik, temalardan bazılarıdır. 
+7. **Ortalama çizgisi**: **Tema** etmeninin **kullanılabilirlik** (bu seçilen etmendir) dışındaki tüm olası değerlerinin ortalaması hesaplanır. Bu nedenle hesaplama siyah renkli tüm değerleri içerir. Bu, diğer **Tema** değerlerinin hangi oranda düşük derecesi olduğunu gösterir. Bu örnekte düşük derece %11,35'tir (noktalı çizgiyle gösterilir).
 
-   Sol bölmedeki görsele göre düşük derecelendirmede **Tema kullanılabilirliktir** değeri ikinci en yüksek ana etmendir. Diğer tüm temaların ve bunların **Düşük** derecelendirmeye katkısının ortalamasını alırsanız, kırmızıyla gösterilen sonucu elde edersiniz. Verilen tüm diğer temaların yalnızca %11,35'i **kullanılabilirlik** derecelendirmesinden yüksektir.
+8. **Onay kutusu**: Sol bölmede yalnızca bu alanın etmenleri olan değerleri gösterecek şekilde görseli filtreler. Bu örnekte görseli kullanılabilirlik, güvenlik ve gezintiye göre filtreleyebilir.
 
-8. **Onay kutusu**: **Yalnızca etmen olan değerleri göster**.
-
-## <a name="create-a-key-influencers-visual"></a>Ana etmenler görseli oluşturma 
+## <a name="analyze-a-metric-that-is-categorical"></a>Kategorik olan bir ölçümü analiz etme
  
-Ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin. Ardından, bir ana etmen görseli oluşturmak için bu adımları izleyin. 
+Kategorik bir ölçümle ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin. Ardından, bir ana etmen görseli oluşturmak için bu adımları izleyin. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ Ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin. Ardınd
 
     ![Görselleştirmeler bölmesinde Ana etmenler şablonunu seçin](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Araştırmak istediğiniz ölçümü **Çözümle** alanına taşıyın. **Çözümle** alanı yalnızca kategorik veya sürekli olmayan değişkenleri destekler. Müşterilerin hizmeti düşük olarak derecelendirmesine yol açan sebepleri görmek için **Müşteri Tablosu** > **Derecelendirme**’yi seçin. 
+2. Araştırmak istediğiniz ölçümü **Çözümle** alanına taşıyın. Müşterilerin hizmeti düşük olarak derecelendirmesine yol açan sebepleri görmek için **Müşteri Tablosu** > **Derecelendirme**’yi seçin.
+
 3. **Derecelendirme** üzerinde etkisi olabileceğini düşündüğünüz alanları **Açıklama ölçütü** alanına taşıyın. İstediğiniz kadar alanı taşıyabilirsiniz. Bu durumda şunlarla başlayın:
     - Ülke-Bölge 
     - Role in Org (Kuruluştaki Rol) 
     - Subscription Type (Abonelik Türü) 
     - Company Size (Şirket Boyutu) 
-    - Tema 
-1. Olumsuz derecelendirmelere odaklanmak için **Derecelendirmenin şu olmasını etkileyenler:** açılan kutusundan **Düşük** değerini seçin.  
+    - Tema
+    
+4. **Genişletme ölçütü** alanını boş bırakın. Bu alan yalnızca ölçümü veya özetlenmiş alanı analiz ederken kullanılır. 
+
+5. Olumsuz derecelendirmelere odaklanmak için **Derecelendirmenin şu olmasını etkileyenler:** açılan kutusundan **Düşük** değerini seçin.  
 
     ![Açılan listeden Düşük değerini seçin](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 Çözümleme, çözümlenen alanın tablo düzeyinde çalıştırılır. Bu durumda, bu **Derecelendirme** ölçümüdür. Bu ölçüm müşteri düzeyinde tanımlanır. Her müşteri yüksek veya düşük puan vermiştir. Tüm açıklayıcı faktörlerin, görselde kullanılabilmek üzere müşteri düzeyinde tanımlanması gerekir. 
 
-Önceki örnekte, tüm açıklayıcı faktörlerle ölçüm arasında bire bir veya çoğa bir ilişki vardı. Bu durumda, her puanın kendisiyle ilişkili tam olarak bir teması bulunur. Bu tema, müşteri incelemesinin ana temasıydı. Benzer şekilde, müşteriler tek bir ülkededir, tek bir üyelik türüne sahiptir ve kuruluşlarında tek bir rolü gerçekleştirir. Açıklayıcı faktörler zaten müşterinin öznitelikleridir ve dönüşüme gerek yoktur. Görsel bunları hemen kullanabilir. 
+Önceki örnekte, tüm açıklayıcı faktörlerle ölçüm arasında bire bir veya çoğa bir ilişki vardı. Bu örnekte her müşteri derecelendirmesine tek bir tema atadı. Benzer şekilde, müşteriler tek bir ülkededir, tek bir üyelik türüne sahiptir ve kuruluşlarında tek bir rolü gerçekleştirir. Açıklayıcı faktörler zaten müşterinin öznitelikleridir ve dönüşüme gerek yoktur. Görsel bunları hemen kullanabilir. 
 
 Öğreticinin devamında bire çok ilişkilerin olduğu daha karmaşık örnekleri gözden geçireceksiniz. Bu durumlarda, çözümlemeyi çalıştırabilmeniz için önce sütunların toplanıp müşteri düzeyine getirilmesi gerekir. 
 
@@ -89,7 +88,7 @@ Açıklayıcı faktörler olarak kullanılan ölçüler ve toplamlar da **Çöz�
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Düşük derecelendirme olasılığını en çok etkileyen ilk faktör
 
-Bu örnekteki kuruluşun üç rolü vardır: tüketici, yönetici ve yayımcı. Tüketici olma, düşük derecelendirmeye en çok katkıda bulunan faktördür. 
+Bu örnekteki müşterinin üç rolü olabilir: tüketici, yönetici ve yayımcı. Tüketici olma, düşük derecelendirmeye en çok katkıda bulunan faktördür. 
 
 ![“Kuruluştaki rolü tüketici” seçeneğini belirleyin](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -138,7 +137,7 @@ Sağ bölmedeki dağılım grafiği, her Kullanım Süresi değeri için ortalam
 
 Bazı durumlarda, sürekli faktörlerinizin otomatik olarak kategorik faktörlere dönüştürüldüğünü görebilirsiniz. Bu, değişkenlerin arasındaki ilişkinin doğrusal olmadığını fark edip ilişkiyi yalnızca artan veya azalan olarak (yukarıdaki ilk örnekte yaptığımız gibi) tanımlayamadığımız için yaşandı.
 
-Etmenlerin hedef açısından ne kadar doğrusal olduğunu belirlemek için bağıntı testleri gerçekleştiririz. Hedef sürekli ise Perasons, kategorik ise çift serili bağıntı testleri gerçekleştiririz. İlişkinin yeterince doğrusal olmadığını algılarsak, denetimli bölme gerçekleştirip en fazla 5 grup oluştururuz. Hangi bölmelerin en mantıklı olduğunu anlamak için açıklayıcı faktör ve analiz edilen hedef arasındaki ilişkiyi inceleyen bir denetimli bölme yöntemi kullanırız.
+Etmenlerin hedef açısından ne kadar doğrusal olduğunu belirlemek için bağıntı testleri gerçekleştiririz. Hedef sürekli ise Pearsons, kategorik ise çift serili bağıntı testleri gerçekleştiririz. İlişkinin yeterince doğrusal olmadığını algılarsak, denetimli bölme gerçekleştirip en fazla 5 grup oluştururuz. Hangi bölmelerin en mantıklı olduğunu anlamak için açıklayıcı faktör ve analiz edilen hedef arasındaki ilişkiyi inceleyen bir denetimli bölme yöntemi kullanırız.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Ana etmenler olarak ölçüleri/toplamları yorumlama 
  
@@ -165,9 +164,29 @@ Bu grupta, müşterilerin %74,3’ü düşük bir puan verdi. Ortalama müşteri
 
 ![En üst segmentlerin ilkini seçin](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>Sayısal verilerle çalışma
+## <a name="adding-counts"></a>Sayımlar ekleme
 
-Bir sayısal alanı **Çözümle** alanına taşırsanız, bu senaryonun nasıl işleneceğini seçebilirsiniz. **Biçimlendirme Bölmesine** gidip **Kategorik Çözümleme Türü** ve **Sürekli Çözümleme Türü** arasında geçiş yaparak görselin davranışını değiştirebilirsiniz.
+Bazen bir etmen büyük bir etkisi yapabilir ama verilerin çok küçük bir bölümünü temsil ediyor olabilir. Örneğin **Team** is **usability** (Kullanılabilirlik teması) düşük derecelendirmeler için ikinci büyük etmendir. Öte yandan yalnızca bir avuç müşteri kullanılabilirlik konusunda şikayet etmiş olabilir. Sayımlar odaklanmak istediğiniz etmenlerin önceliklerini belirlemenize yardım edebilir.
+
+Biçimlendirme bölmesinin **Analiz kartı** aracılığıyla sayımları açabilirsiniz.
+
+![Sayım ekleme](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+Sayımlar açıldıktan sonra her etmenin kabarcığı çevresinde bu etmenin içerdiği yaklaşık veri yüzdesini temsil eden bir halka görürsünüz. Kabarcığın halka içine alınan bölümü ne kadar fazlaysa içerdiği veriler de o kadar çoktur. **Theme** is **usability**'nin verilerin çok küçük bir bölümünü içerdiğini görebiliriz.
+
+![Sayımları gösterme](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+Ayrıca kabarcıkları etmen yerine önce sayıma göre sıralamak için görselin sol alt kısmındaki Sıralama ölçütü iki durumlu düğmesini kullanabilirsiniz. Sayım temel alındığında en önemli etmen **Subscription Type** is **Premier** (Abonelik Türü Premier) etmenidir.
+
+![Sayıma göre sıralama](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+Kabarcığın tam halkasının olması etmenin verilerin %100'ünü kapsadığı anlamına gelir. Biçimlendirme bölmesinin **Analiz kartı** içindeki **Sayım türü** açılan listesini kullanarak sayım türünü maksimum etmene göre olacak şekilde değiştirebilirsiniz. Bu aşamada en fazla veriyi içeren etmen tam halkayla temsil edilir ve diğer tüm sayımlar buna göre ayarlanır.
+
+![Göreli sayımları gösterme](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>Sayısal olan bir ölçümü analiz etme
+
+Özetlenmemiş bir sayısal alanı **Çözümle** alanına taşırsanız, bu senaryonun nasıl işleneceğini seçebilirsiniz. **Biçimlendirme Bölmesine** gidip **Kategorik Çözümleme Türü** ve **Sürekli Çözümleme Türü** arasında geçiş yaparak görselin davranışını değiştirebilirsiniz.
 
 ![Kategorikten sürekliye geçiş](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
@@ -212,6 +231,30 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 ![Sayısal hedef ölçülerini etkileyen etmenler](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Ölçü veya özetlenmiş sütun olan bir ölçümü analiz etme
+
+Ölçü veya özetlenmiş sütun söz konusu olduğunda analiz varsayılan olarak [yukarıda](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) açıklanan **Sürekli Çözümleme Türü** olur. Bu değiştirilemez. Ölçüyü/Özetlenmiş sütunu analiz etmekle özetlenmemiş bir sayısal sütunu analiz etmek arasındaki en büyük fark analizin çalıştırılma düzeyidir.
+
+Özetlenmemiş sütunlar söz konusu olduğunda analiz her zaman tablo düzeyinde çalıştırılır. Yukarıdaki ev fiyatı örneğinde, ev fiyatının artmasını/düşmesini nelerin etkilediğini görmek için **Ev Fiyatı** ölçümünü analiz etmiştik. Analiz otomatik olarak tablo düzeyinde çalıştırıldı. Tablomuzda her ev için benzersiz bir kimlik olduğundan analiz ev düzeyinde çalıştırıldı.
+
+![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+Ölçüler ve özetlenmiş sütunlar için, bunların hangi düzeyde analiz edileceğini hemen bilemeyiz. **Ev Fiyatı** **Ortalama** olarak özetlenmişse, bu ortalama ev fiyatının hangi düzeyde hesaplanmasını istediğiniz konusunda düşünmemiz gerekir. Bu ortalama ev fiyatı mahalle düzeyinde mi? Yoksa bölgesel düzeyde mi?
+
+Ölçüler ve özetlenmiş sütunlar otomatik olarak kullanılan **Açıklama ölçütü** alanlarının düzeyinde analiz edilir. **Açıklama ölçütü**'nde ilgilendiğimiz üç alan olduğunu düşünün: **Kitchen Quality** (Mutfak Kalitesi), **Building Type** (Bina Türü) ve **Air Conditioning** (Havalandırma). Bu üç alanın her benzersiz bileşimi için **Average House Price** (Ortalama Ev Fiyatı) hesaplanabilir. Değerlendirilen verilerin nasıl göründüğüne göz atmak için tablo görünümüne geçmek genellikle yararlı olur.
+
+![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde öğrenebileceği desenler bulması zor olacaktır. Daha iyi sonuçlar elde etmek için analizi daha ayrıntılı düzeyde çalıştırmalıyız. Ev fiyatını ev düzeyinde analiz etmek isteseydik analize açıkça **ID** (Kimlik) alanını eklememiz gerekecekti. Bununla birlikte ev kimliğinin bir etmen olarak değerlendirilmesini istemiyoruz. Ev kimliği yükseldikçe ev fiyatının yükseldiğini öğrenmek yararlı bir bilgi değil. İşte bu noktada **Genişletme Ölçütü** alanı seçeneği yararlı oluyor. Yeni etmenler aramadan analizin düzeyini ayarlamak amacıyla kullanmak istediğiniz alanları eklemek için **Genişletme Ölçütü**'nü kullanabilirsiniz.
+
+**Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
+
+![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+Önemli etmenler görselleştirmesiyle ölçüleri nasıl analiz edebileceğiniz konusunda daha fazla bilgi edinmek istiyorsanız lütfen aşağıdaki öğreticiyi izleyin.
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme 
  
 **Görsel için sınırlamalar nelerdir?** 
@@ -219,7 +262,7 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 Ana etmenler görselinin bazı sınırlamaları bulunur:
 
 - Doğrudan Sorgu desteklenmiyor
-- Azure Analysis Services ve Sql Server Analysis Services’e Canlı Bağlantı desteklenmiyor
+- Azure Analysis Services ve SQL Server Analysis Services’e Canlı Bağlantı desteklenmiyor
 - Web'de yayımlama desteklenmiyor
 - .NET Framework 4.6 veya üzeri gereklidir
 
@@ -244,6 +287,12 @@ Görselleştirme, bir grubun verilerindeki desenlerin diğer gruplarla karşıla
 Seçilen durum için en az 100 gözleminizin olmasını öneririz. Bu örnekte, durum müşteri kaybıdır. Karşılaştırma amaçlı kullandığınız durumlar için de en az 10 gözlem gerekir. Bu örnekte, karşılaştırma durumu kaybedilmeyen müşterilerdir.
 
 Bir sayısal alanı çözümlüyorsanız, **Çözümleme** kartının altındaki **Biçimlendirme Bölmesi**’ndeki **Kategorik Çözümleme**’den **Sürekli Çözümleme**’ye geçebilirsiniz.
+
+**'Çözümleme' özetlenmediğinde çözümlemenin her zaman üst tablosunun satır düzeyinde çalıştırıldığı bir hata görüyorum. 'Genişletme ölçütü' alanlarıyla bu düzeyin değiştirilmesine izin verilmiyor. Bunun nedeni nedir?**
+
+Sayısal veya kategorik bir sütun çözümlenirken çözümleme her zaman tablo düzeyinde çalıştırılır. Örneğin ev fiyatlarını çözümlüyorsanız ve tablonuz bir kimlik sütunu içeriyorsa, çözümleme otomatik olarak ev kimliği düzeyinde çalıştırılır. 
+
+Ölçü veya özetlenmiş sütunu çözümlerken, çözümlemenin hangi düzeyde çalıştırılmasını istediğinizi açıkça belirtmelisiniz. Ölçüler ve özetlenmiş sütunlar için, yeni etmenler eklemeden çözümleme düzeyini değiştirmek için **Genişletme ölçütü**'nü kullanabilirsiniz. **Ev fiyatı** bir ölçü olarak tanımlandıysa, çözümlemenin düzeyini değiştirmek için **Genişletme ölçütü**'ne ev kimliği sütununu ekleyebilirsiniz.
 
 ***Açıklama ölçütü* altındaki bir alanın çözümlediğim ölçümü içeren tabloyla arasında benzersiz bir ilişki olmadığını belirten bir hata görüyorum. Bunun nedeni nedir?**
  

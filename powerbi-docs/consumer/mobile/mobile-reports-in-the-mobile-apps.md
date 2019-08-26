@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230245"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995256"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -38,26 +38,27 @@ Listeler ve menülerde rapor adının yanında, bu öğenin rapor olduğunu anla
 
 Power BI Mobil uygulamalarında raporlar için iki simge vardır:
 
-* ![rapor simgesi](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) uygulamada yatay yönlendirmede gösterilecek ve tarayıcıda göründüğü gibi görünecek bir rapora işaret eder.
+* ![rapor simgesi](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) uygulamada yatay yönlendirmede gösterilen ve tarayıcıda göründüğü gibi görünen bir rapora işaret eder.
 
-* ![telefon raporu simgesi](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) telefon için iyileştirilmiş en az bir rapor sayfası olan ve dikey olarak gösterilecek bir rapora işaret eder. 
+* ![telefon raporu simgesi](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) telefon için iyileştirilmiş en az bir rapor sayfası olan ve dikey olarak gösterilen bir rapora işaret eder. 
 
-Not: Rapor sayfası telefon düzeninde olsa bile, telefonunuzu yatay tutarak her zaman yatay düzen elde edebilirsiniz. 
+> [!NOTE]
+> Rapor sayfası telefon düzeninde olsa bile, telefonunuzu yatay tutarak her zaman yatay düzen elde edebilirsiniz. 
 
 Panodan rapor almak için bir kutucuğun sağ üst köşesindeki üç nokta (...) simgesine > **Rapor aç** seçeneğine dokunun.
   
   ![Rapor Aç](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  Rapor aç seçeneği, kutucukların hepsinde bulunmaz. Örneğin, Soru-Cevap kutusunda soru sorarak oluşturulan kutucuklara dokunulduğunda rapor açılmaz. 
+  Bir rapordaki tüm kutucuklar açılmaz. Örneğin, Soru-Cevap kutusunda soru sorarak oluşturulan kutucuklara dokunulduğunda rapor açılmaz. 
   
 ## <a name="interacting-with-reports"></a>Raporlarla etkileşim kurma
-Uygulamada bir rapor açıldıktan sonra raporla çalışmaya başlayabilirsiniz. Raporunuzla ve verileriyle yapabileceğiniz birçok şey vardır. Rapor alt bilgisinde raporda gerçekleştirebileceğiniz eylemleri bulursunuz ve raporda gösterilen verilere dokunarak ve uzun dokunarak verileri ayrıntılı olarak inceleyebilirsiniz.
+Uygulamada bir rapor açıldıktan sonra raporla çalışmaya başlayabilirsiniz. Raporunuzla ve verileriyle yapabileceğiniz birçok şey vardır. Rapor alt bilgisinde, rapor üzerinde gerçekleştirilecek eylemleri bulabilirsiniz. Raporda gösterilen verilere dokunarak ve uzun dokunarak, verileri parçalara ayırıp analiz edebilirsiniz.
 
 ### <a name="using-tap-and-long-tap"></a>Dokunmayı ve uzun dokunmayı kullanma
 Dokunma, bir fare tıklamasına eşittir. Dolayısıyla veri noktası temelinde raporu çapraz vurgulamak istiyorsanız söz konusu veri noktasına dokunun.
 Bir dilimleyici değerine dokunulduğunda değer seçilir ve raporun kalan bölümü bu değere göre dilimlenir. Bir bağlantıya, düğmeye veya yer işaretine dokunulduğunda, yazar tarafından tanımlanan eyleme göre dokunulan öğe etkinleştirilir.
 
-Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Kenarlığın sağ üst köşesinde üç nokta (...) vardır. Buna dokunulduğunda, söz konusu görsel üzerinde gerçekleştirebileceğiniz eylemlerin bulunduğu bir menü getirilir.
+Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Kenarlığın sağ üst köşesinde üç nokta (...) görürsünüz. Buna dokunulduğunda, söz konusu görsel üzerinde gerçekleştirebileceğiniz eylemlerin bulunduğu bir menü getirilir.
 
 ![rapor görseli ve menüsü](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -78,7 +79,7 @@ Rapor yazarları veriler içinde hiyerarşiler ve rapor sayfaları arasında ili
 
 ![rapor detaylandırma eylemleri](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-*Detaylandırma* sayesinde, bir görselin belirli bir bölümüne dokunduğunuzda Power BI sizi raprodaki farklı, dokunduğunuz değere göre filtrelenmiş bir sayfaya götürür.  Raporun yazarı, her biri sizi farklı bir sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Bu durumda, hangi sayfayı detaylandırmak istediğinizi seçebilirsiniz. Geri düğmesini kullanarak bir önceki rapor sayfasına dönebilirsiniz.
+*Detaylandırma* sayesinde, bir görselin belirli bir bölümüne dokunduğunuzda Power BI sizi raprodaki farklı, dokunduğunuz değere göre filtrelenmiş bir sayfaya götürür. Raporun yazarı, her biri sizi farklı bir sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Hangi sayfayı detaylandırmak istediğinizi seçebilirsiniz. Geri düğmesini kullanarak bir önceki rapor sayfasına dönebilirsiniz.
 
 [Power BI Desktop’ta detaylandırma ekleme](../../desktop-drillthrough.md) hakkında bilgi edinin.
    
@@ -92,12 +93,12 @@ Rapor alt bilgisinde, geçerli rapor sayfasında veya raporun tamamında gerçek
 
 ![rapor alt bilgisi](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Alt bilgiden gerçekleştirebileceğiniz eylemler:
+Alt bilgiden gerçekleştirebileceğiniz eylemler şunlardır:
 1) Rapor filtresini sıfırlama ve seçimlerin çapraz vurgulamasını özgün durumuna döndürme.
 2) Bu raporda açıklamaları görüntülemek ve eklemek için konuşma bölgesini açma.
 3) Rapora şu anda uygulanmış durumda olan filtreyi görüntülemek ve değiştirmek için filtre bölmesini açma.
 4) Bu rapordaki tüm sayfaları listeleme. Sayfa adına dokunulduğunda o sayfa yüklenir ve gösterilir.
-Ekranınızın kenarından ortaya doğru çekerek rapor sayfaları arasında hareket edilebilir.
+Ekranınızın kenarından ortaya doğru çekerek rapor sayfaları arasında geçiş yapabilirsiniz.
 5) Tüm rapor eylemlerini görüntüleme.
 
 #### <a name="all-report-actions"></a>Tüm rapor eylemleri

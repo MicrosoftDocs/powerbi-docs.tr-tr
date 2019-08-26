@@ -1,5 +1,5 @@
 ---
-title: Veri kümelerini oluşturma ve paylaşma (Önizleme) - Power BI
+title: Veri kümesi paylaşma (Önizleme)
 description: Veri kümesi sahibi olarak diğer kişilerin kullanabilmesi için veri kümelerinizi oluşturup paylaşabilirsiniz. Oluşturma iznini kullanarak verilere kimin erişimi olduğunu denetlemeyi öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461776"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530521"
 ---
-# <a name="create-and-share-datasets-preview"></a>Veri kümelerini oluşturma ve paylaşma (Önizleme)
+# <a name="share-a-dataset-preview"></a>Veri kümesi paylaşma (Önizleme)
 
 Power BI Desktop’ta *veri modeli* oluşturucusu olarak bunları Power BI hizmetinde *veri kümeleri* olarak paylaşabilirsiniz. Ardından, rapor oluşturucuları paylaştığınız veri kümelerini kolayca keşfedip yeniden kullanabilir. Oluşturma iznini kullanarak bunları paylaşmayı ve verilere kimin erişimi olduğunu denetlemeyi öğrenin.
 
@@ -31,7 +31,7 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak bunları Power BI hizme
     
     Bu çalışma alanının diğer üyeleri, zaten bu veri kümesini temel alarak diğer çalışma alanlarında rapor oluşturabiliyor.
 
-1. Artık bu çalışma alanından [bir uygulama oluşturabilirsiniz](service-create-distribute-apps.md). Bunu yaptığınızda, kimlerin izinleri olduğunu ve neler yapabileceklerini **İzinler** sayfasından siz belirlersiniz.
+1. Ayrıca, bu çalışma alanından [bir uygulama yayımlayabilirsiniz](service-create-distribute-apps.md). Bunu yaptığınızda, kimlerin izinleri olduğunu ve neler yapabileceklerini **İzinler** sayfasından siz belirlersiniz.
 
     > [!NOTE]
     > **Tüm kuruluş** seçeneğini belirlerseniz kuruluştaki kimsenin Oluşturma izni olmaz. Bu sorun zaten biliniyor. Bunun yerine, **Belirli bireyler ve gruplardaki** e-posta adreslerini belirtin.  Kuruluşunuzdaki herkesin Oluşturma izni olmasını istiyorsanız, tüm kuruluş için bir e-posta diğer adı belirtin.
@@ -46,6 +46,8 @@ Oluşturma izni türü sadece veri kümeleri için geçerlidir. Kullanıcılar b
 
 Kullanıcılar farklı şekillerde Oluşturma izni alır:
 
+- En az bir Katkıda Bulunan rolüne sahip bir çalışma alanının üyesiyseniz, bir veri kümesi için otomatik olarak Derleme iznine ve bir raporu kopyalama iznine sahip olursunuz.
+ 
 - Veri kümesinin bulunduğu çalışma alanının bir üyesi, izin merkezindeki belirli kullanıcılara veya güvenlik gruplarına izni atayabilir. Veri kümesinin yanındaki üç nokta (...) simgesini seçin > **İzinleri Yönet** seçeneğini belirleyin.
 
     ![Üç nokta simgesini seçin](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ Kullanıcılar farklı şekillerde Oluşturma izni alır:
 
     ![İzin merkezi](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- Veri kümesinin bulunduğu iş alanının yöneticisi veya üyesi, uygulama için izni olan kullanıcıların temel alınan veri kümeleri için de izni olup olmayacağına uygulamanın yayımlanması esnasında karar verebilir. Daha fazla ayrıntı için bkz. [Veri kümenizi paylaşmaya yönelik adımlar](#steps-to-sharing-your-dataset).
+- Veri kümesinin bulunduğu iş alanının yöneticisi veya üyesi, uygulama için izni olan kullanıcıların temel alınan veri kümeleri için de izni olup olmayacağına uygulamanın yayımlanması esnasında karar verebilir. Ayrıntılı bilgi için bu makaledeki [Veri kümenizi paylaşmaya yönelik adımlar](#steps-to-sharing-your-dataset) bölümüne bakın.
 
 - Bir veri kümesinde Yeniden Paylaşma ve Oluşturma izinlerinizin olduğunu varsayalım. Bu veri kümesinin üzerinde derlenmiş bir raporu veya panoyu paylaştığınızda, alıcıların temel olarak alınan veri kümesi için de Oluşturma izni aldıklarını belirtebilirsiniz.
 
     ![Oluşturma izinleri](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-Kişilerin bir veri kümesi için Oluşturma izinlerini kaldırabilirsiniz. Bunu yaparsanız, paylaşılan veri kümesinde derlenen raporu görebilirler ancak bunu artık düzenleyemezler.
+Kişinin bir veri kümesine ilişkin Derleme izinlerini kaldırabilirsiniz. Bunu yaparsanız, paylaşılan veri kümesinde derlenen raporu görebilirler ancak bunu artık düzenleyemezler.
 
 ## <a name="more-granular-permissions"></a>Daha ayrıntılı izinler
 

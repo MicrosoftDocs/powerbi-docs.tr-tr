@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567418"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530618"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Diğer çalışma alanlarından raporları kopyalama (Önizleme)
 
-Çalışma alanında veya uygulamada hoşunuza giden bir rapor bulduğunuzda kopyasını alabilir ve bunu farklı bir çalışma alanına kaydedebilirsiniz. Ardından, o raporu değiştirebilir veya görselleri ve diğer öğeleri ekleyip silebilirsiniz. Veri modelini oluşturmaya kafa yormanız gerekmez. Bu zaten sizin için oluşturulur. Mevcut raporu değiştirmek, en baştan başlamaktan çok daha kolaydır. Öte yandan rapor kopyanızı yeni çalışma alanından bir uygulamaya yayımlayamazsınız. "Veri kümelerini çalışma alanları arasında kullanma" makalesinde diğer [dikkate alınacak noktalar ve sınırlamalar](service-datasets-across-workspaces.md#considerations-and-limitations) listesine bakın.
+Çalışma alanında veya uygulamada hoşunuza giden bir rapor bulduğunuzda kopyasını alabilir ve bunu farklı bir çalışma alanına kaydedebilirsiniz. Ardından, raporun kopyasını değiştirebilir veya görselleri ve diğer öğeleri ekleyip silebilirsiniz. Veri modelini oluşturmaya kafa yormanız gerekmez. Bu zaten sizin için oluşturulur. Mevcut raporu değiştirmek, en baştan başlamaktan çok daha kolaydır. Ancak, bazı durumlarda yeni çalışma alanınızdan bir uygulama oluştururken rapor kopyanızı yeni çalışma alanında yayımlayamazsınız. Ayrıntılar için ["Veri kümelerini çalışma alanları arasında kullanma" makalesinde diğer dikkate alınacak noktalar ve sınırlamalara](service-datasets-across-workspaces.md#considerations-and-limitations) bakın.
+
+> [!NOTE]
+> Bir kopya oluşturmak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile bir Pro lisansı gereklidir.
 
 ## <a name="save-a-copy-of-a-report"></a>Raporun bir kopyasını kaydetme
 
@@ -70,7 +73,7 @@ Raporu ve raporla ilişkilendirilmiş paylaşılan veri kümesini artık çalı�
 
 2. Veri kümesi listesinde paylaşılan veri kümeleri için **Sil** simgelerinin olmadığını görürsünüz. Sayfayı yenileyin veya başka bir sayfaya gidin geri dönün. Veri kümesi görüntüden kaldırılır. Aksi takdirde **İlişkilileri görüntüle**'ye bakın. Çalışma alanınızdaki başka bir tabloyla ilişkili olabilir.
 
-    ![İlişkilileri görüntüle simgesi](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![İlişkilileri görüntüle simgesini](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > Bu çalışma alanındaki paylaşılan veri kümesinin silinmesi, veri kümesini silmez. Yalnızca bu veri kümesine başvuruyu siler.

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/12/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408517"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68961677"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en önemli rapor sayfalarına ve panolara abone olduğunuzda, Power BI size e-postayla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  
@@ -76,6 +76,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * Üzerinde 25’ten fazla sabitlenmiş kutucuk veya dört sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir. E-postanın düzgün şekilde işlenmesini sağlamak için pano tasarımcısıyla iletişime geçip, sabitlenmiş kutucuk sayısını 25'in altına ve sabitlenmiş canlı rapor sayısını dördün altına düşürmesini istemenizi öneririz.  
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
+* E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olursanız ve bu rapor sayfası yeniden adlandırılırsa, aboneliğinizi yeniden oluşturmanız gerekir.
 * Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz, kimlik doğrulaması için veya başka nedenlerle bu özelliği devre dışı bırakmış olabilir.  
 * E-posta abonelikleri çoğu [özel görseli](../power-bi-custom-visuals.md) desteklemez.  Bu konudaki istisna, [sertifikalı](../power-bi-custom-visuals-certified.md) özel görsellerdir.  

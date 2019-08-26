@@ -1,6 +1,6 @@
 ---
-title: Power BI bir dış Konuk kullanıcı (Azure AD B2B) içeriği görüntüleyin
-description: Dış kuruluştan sizinle paylaşılan içeriği görüntülemek için Power BI mobil uygulamaları kullanın.
+title: Power BI içeriğini dış konuk kullanıcı olarak görüntüleme (Azure AD B2B)
+description: Dış kuruluştan sizinle paylaşılan içeriği görüntülemek için Power BI mobile uygulamalarını kullanın.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338772"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490362"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Bir dış kuruluştan paylaşılan Power BI içeriğini görüntüleme
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Dış kuruluştan sizinle paylaşılan Power BI içeriğini görüntüleme
 
-Power BI, Azure Active Directory--işletmeler arası (B2B Power BI içeriklerinin kuruluş dışındaki kullanıcılara güvenli dağıtım izin vermek için Azure AD) ile tümleşir. Ve dış konuk kullanıcılara kendileriyle paylaşılan Power BI içeriği erişmek için Power BI mobil uygulamasını kullanabilirsiniz. 
+Power BI, işletmeler arası Azure Active Directory (Azure AD B2B ) ile tümleşerek Power BI içeriklerinin kuruluşunuz dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar. Dış konuk kullanıcılar ise kendileriyle paylaşılan Power BI içeriğine erişmek için Power BI mobil uygulamasını kullanabilirler. 
 
 
 Aşağıdakiler cihazlar için geçerlidir:
@@ -27,28 +27,30 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |
 
-## <a name="accessing-shared-content"></a>Paylaşılan içeriği erişme
+## <a name="accessing-shared-content"></a>Paylaşılan içeriğe erişme
 
-**İlk olarak, birisi sizinle bir öğe paylaştırmak için bir dış kuruluştan gerekir.** Birisi olduğunda [öğeyi paylaştığında](../../service-share-dashboards.md), aynı kuruluş veya bir dış kuruluştan, paylaşılan öğeyi bağlantısını içeren bir e-posta alırsınız. Mobil Cihazınızı, bağlantıyı izleyerek Power BI mobil uygulamasında açılır. Uygulama öğesi bir dış kuruluştan paylaşıldı tanıyorsa uygulama, kuruluş kimliğinizle yeniden bağlanır. Uygulama, daha sonra bu kuruluştan Sizinle paylaşılmış olan tüm öğeleri yükler.
+**İlk olarak, sizinle içerik paylaşması için dış kuruluştan bir kişi gereklidir.** Sizinle aynı kuruluştan ya da bir dış kuruluştan birisi [sizinle bir içerik paylaştığında](../../service-share-dashboards.md), paylaşılan içeriğin bağlantısını içeren bir e-posta alırsınız. Mobil cihazınızda bu bağlantıyı takip etmek Power BI mobil uygulamasını açar. Uygulama içeriğin bir dış kuruluştan paylaşıldığını belirlerse, uygulama sizin kimliğinizi kullanarak bu kuruluşa yeniden bağlanır. Uygulama daha sonra o kuruluştan sizinle paylaşılan tüm içerikleri yükler.
 
-![Power BI, e-postadan paylaşılan öğe açın ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI’da paylaşılan öğeyi e-postadan açma ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> Bu bir dış konuk kullanıcıyla paylaşılan ilk öğesi ise, bir tarayıcıda davet talep gerekir. Talep Power BI uygulamasında davet edilemiyor.
+> Dış konuk kullanıcı olarak sizinle paylaşılan ilk içerik buysa, daveti bir tarayıcıdan kabul etmeniz gerekir. Daveti Power BI uygulamasından kabul edemezsiniz.
 
-Harici bir kuruluş için bağlı olduğu sürece, uygulamada siyah üstbilgi görünür. Bu üst bilgisi, ev kuruluşunuza bağlı değil gösterir. Giriş kuruluşunuza bağlamak için konuk modundan çıkın.
+Bir dış kuruluşa bağlı olduğunuz sürece uygulamada siyah bir üst bilgi görünür. Bu üst bilgi, ana kuruluşunuza bağlı olmadığınızı gösterir. Ana kuruluşunuza tekrar bağlanmak için konuk modundan çıkış yapın.
 
-![Power BI Konuk kullanıcı üstbilgisi](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Power BI konuk kullanıcı üst bilgisi](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-Harici bir kuruluş için uygulamanızı geçer sonra bağlanmak için Power BI yapı bağlantısına ihtiyacınız olsa da, (yalnızca e-postadan açılır öğe) sizinle paylaşılan tüm öğelere erişebilirsiniz. Dış kuruluştaki erişebileceğiniz tüm öğeleri görüntülemek için uygulama menüsüne gidin ve seçin **benimle paylaşılan**. Altında **uygulamaları** de kullanabilen uygulamalar bulun.
+Bir dış kuruluşa bağlanmak için Power BI yapıt bağlantısına sahip olmanız gerekse de, uygulamanız geçiş yaptıktan sonra sizinle paylaşılan tüm içeriklere erişebilirsiniz (yalnızca e-postadan açtığınız içeriğe değil). Dış kuruluşta erişebileceğiniz tüm içerikleri görüntülemek için uygulama menüsüne gidin ve **Benimle paylaşılan**’ı seçin. **Uygulamalar**'ın altında, kullanabileceğiniz uygulamaları da bulabilirsiniz.
 
-![Dış Konuk kullanıcı olarak Power BI uygulama menüsü](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Konuk dış kullanıcı olarak Power BI uygulama menüsü](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>Sınırlamalar
 
-- Koşullu erişim ve diğer Intune ilkeleri, Azure AD B2B ve Power BI mobil uygulamalarında desteklenmez. Varsa bu uygulama yalnızca giriş kuruluşun ilkelerini zorlayan anlamına gelir.
-- Anında iletme bildirimleri yalnızca giriş kuruluş siteden alınan (hatta kullanıcı harici bir kuruluş için bir konuk olarak bağlandığında). Bildirim açarak uygulamayı kullanıcının ev kuruluş siteye yeniden bağlanır.
-- Kullanıcı, uygulamayı kapanıyorsa olduğunda yeniden açılmış uygulamayı kullanıcının ev kuruluşa otomatik olarak bağlanır.
-- Harici bir kuruluş için bağlandığınızda, bazı eylemler devre dışı: sık kullanılan öğe veri uyarıları, yorum oluşturma ve paylaşma.
-- Harici bir kuruluş için bağlı değilken çevrimdışı veri kullanılamıyor.
-- Şirket portalı uygulamasının Cihazınızda yüklü varsa, cihazın kayıtlı olmalıdır.
+- Kullanıcıların etkin bir Power BI hesabına ve Ana kiracıya sahip olması gerekir.
+- Kullanıcıların, bir dış kiracıdan kendileriyle paylaşılan içeriğe erişebilmesi için Power BI ana kiracılarında oturum açmış olmaları gerekir.
+- Koşullu erişim ve diğer Intune ilkeleri, Azure AD B2B ve Power BI mobilde desteklenmez. Bunun anlamı, uygulamanın varsa yalnızca ana kuruluşun ilkelerini zorlamasıdır.
+- Anında iletme bildirimleri yalnızca ana kuruluş sitesinden alınır (kullanıcı bir dış kuruluşa konuk olarak bağlandığında bile). Bildirimin açılması, uygulamayı kullanıcının ana kuruluş sitesine yeniden bağlar.
+- Kullanıcı uygulamayı kapatırsa, uygulama yeniden açıldığında kullanıcının ana kuruluşuna otomatik olarak bağlanır.
+- Bir dış kuruluşa bağlanıldığında bazı eylemler devre dışı bırakılır: sık kullanılan öğeler, veri uyarıları, yorum yapma ve paylaşma.
+- Bir dış kuruluşa bağlıyken çevrimdışı veriler kullanılamaz.
+- Cihazınızda Şirket Portalı uygulaması yüklüyse cihazınızın kayıtlı olması gerekir.

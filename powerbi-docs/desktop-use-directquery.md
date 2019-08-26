@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757600"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654775"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 **Power BI Desktop** ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman **Power BI Desktop**'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: **DirectQuery**'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -49,10 +49,13 @@ Bazı sınırlamalar olsa da **DirectQuery** ile kullanabileceğiniz çok sayıd
 Şu anda **DirectQuery** kullanımıyla ilgili bazı sınırlamalar mevcuttur:
 
 * [Bileşik modeller](desktop-composite-models.md) kullanılmadığı sürece tüm tabloların aynı veritabanından gelmesi gerekir
+
 * **Sorgu Düzenleyicisi** sorgusunun çok karmaşık olması halinde hata oluşur. Hatayı gidermek için **Sorgu Düzenleyicisi**'nde soruna yola açan adımı silmeniz veya verilere bağlanmak için **DirectQuery** yerine *İçeri aktar* seçeneğini kullanmanız gerekir. SAP Business Warehouse gibi çok boyutlu kaynaklar için **Sorgu Düzenleyicisi** kullanılmaz
-* İlişki filtreleme özelliği iki yön yerine tek bir yön ile sınırlıdır. (**DirectQuery** için her iki yönde çapraz filtrelemeyi etkinleştirebilirsiniz.) SAP Business Warehouse gibi çok boyutlu kaynaklar için modelde tanımlı herhangi bir ilişki yoktur
+
 * **DirectQuery**'de akıllı zaman gösterimi özellikleri kullanılamaz. Örneğin, tarih sütunlarının (yıl, çeyrek yıl, ay, gün vb.) özel olarak değerlendirilmesi, **DirectQuery** modunda desteklenmez.
+
 * Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçümlerde izin verilen DAX ifadelerine sınırlamalar koyulur.
+
 * **DirectQuery** kullanılarak döndürülen veriler için bir milyon satırlık bir sınır söz konusudur. Bu sınır, **DirectQuery** ile döndürülen veri kümesini oluşturmak için kullanılan toplamalar veya hesaplamalar için değil, yalnızca döndürülen sütunlar için geçerlidir. Örneğin, veri kaynağında çalıştırılan sorgunuzla 10 milyon satırı toplayıp **DirectQuery**'yi kullanarak toplama işleminin sonuçlarını Power BI'a doğru şekilde döndürebilirsiniz. Bu işlem için, Power BI'a döndürülen veri sayısının 1 milyon satırdan az olması yeterlidir. **DirectQuery**'den 1 milyondan fazla satır döndürülürse Power BI hata döndürür.
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery kullanımında dikkat edilmesi gereken önemli noktalar

@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324835"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560878"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
 
 Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belirleyin. Düğmedeki aşağı oku veya **Veri Al** metnini seçtiğinizde, **En Yaygın** veri türlerinin yer aldığı menü görüntülenir. (Aşağıda gösterilmektedir.)
 
-![Power BI Desktop'ta Veri Al](media/desktop-data-sources/data-sources_01.png)
+![Power BI Desktop'ta Veri Al](media/desktop-data-sources/data-sources-01.png)
 
 **En Yaygın** menüsündeki **Diğer...** seçeneğini belirlediğinizde **Veri Al** penceresi görüntülenir. Ayrıca **Veri Al** **simgesinin bulunduğu düğmeyi** seçtiğinizde **En Yaygın** menüsünü atlayarak **Veri Al** penceresini doğrudan görüntüleyebilirsiniz.
 
-![Veri Al düğmesi](media/desktop-data-sources/data-sources_02.png)
+![Veri Al düğmesi](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır.
+> Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. 
+
+> Ayrıca, **Power BI Desktop** için *Beta* veya *Önizleme* olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar **Power BI hizmetinde** veya diğer Microsoft hizmetlerinde kullanılamayabilir.
 
 ## <a name="data-sources"></a>Veri Kaynakları
 Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
@@ -56,7 +58,7 @@ Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
 
 Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Dosya](media/desktop-data-sources/data-sources_03.png)
+![Veri Al > Dosya](media/desktop-data-sources/data-sources-03.png)
 
 **Veritabanı** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
@@ -95,16 +97,18 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 
 Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Veritabanları](media/desktop-data-sources/data-sources_04.png)
+![Veri Al > Veritabanları](media/desktop-data-sources/data-sources-04.png)
 
-**Power BI** kategorisinde aşağıdaki veri bağlantıları sağlanır:
+**Power Platform** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
 * Power BI veri kümeleri
 * Power BI veri akışları
+* Common Data Service
+* Power Platform veri akışları (Beta)
 
-Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
+Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Power BI](media/desktop-data-sources/data-sources_05.png)
+![Veri Al > Power BI](media/desktop-data-sources/data-sources-05.png)
 
 **Azure** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
@@ -113,7 +117,7 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 * Azure Analysis Services veritabanı
 * Azure Blob Depolama
 * Azure Tablo Depolama
-* Azure Cosmos DB (Beta)
+* Azure Cosmos DB
 * Azure Data Lake Storage 2. Nesil (Beta)
 * Azure Data Lake Storage 1. Nesil
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ Aşağıda, **Power BI** kategorisine ilişkin **Veri Al** penceresi gösterilme
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Azure](media/desktop-data-sources/data-sources_06.png)
+![Veri Al > Azure](media/desktop-data-sources/data-sources-06.png)
 
 **Çevrimiçi Hizmetler** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
@@ -134,7 +138,6 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (şirket içi)
-* Common Data Service
 * Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,6 +164,7 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source (Beta)
 * Entersoft Business Suite (Beta)
 * Industrial App Store
@@ -168,11 +172,11 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Microsoft Graph Güvenliği (Beta)
 * Quick Base
 * TeamDesk (Beta)
-* Dynamics 365 Customer Insights (Beta)
+
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Çevrimiçi Hizmetler](media/desktop-data-sources/data-sources_07.png)
+![Veri Al > Çevrimiçi Hizmetler](media/desktop-data-sources/data-sources-07.png)
 
 **Diğer** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
@@ -200,7 +204,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Diğer](media/desktop-data-sources/data-sources_08.png)
+![Veri Al > Diğer](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Şu anda, güvenliği Azure Active Directory ile sağlanan özel veri kaynaklarına bağlanılamamaktadır.
@@ -208,15 +212,15 @@ Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmekt
 ## <a name="connecting-to-a-data-source"></a>Veri Kaynaklarına Bağlanma
 Bir veri kaynağına bağlanmak için **Veri Al** penceresinde söz konusu veri kaynağını seçin ve ardından **Bağlan** seçeneğini belirleyin. Aşağıdaki görüntüde, **Diğer** veri bağlantısı kategorisinde yer alan **Web** seçeneği belirlenmiştir.
 
-![Web’e bağlanma](media/desktop-data-sources/data-sources_08.png)
+![Web’e bağlanma](media/desktop-data-sources/data-sources-08.png)
 
 Veri bağlantısının türüne özel bir bağlantı penceresi görüntülenir. Gerekli olması halinde kimlik bilgilerinizi girmeniz istenir. Aşağıdaki görüntüde, bir Web veri kaynağına bağlanmak için girilen bir URL gösterilmektedir.
 
-![Web URL'si girme](media/desktop-data-sources/datasources_fromwebbox.png)
+![Web URL'si girme](media/desktop-data-sources/datasources-fromwebbox.png)
 
 URL veya kaynak bağlantı bilgilerini girdikten sonra **Tamam**'ı seçin. Power BI Desktop veri kaynağı bağlantısını gerçekleştirir ve kullanabileceğiniz veri kaynaklarını **Gezgin** penceresinde görüntüler.
 
-![Gezgin ekranı](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Gezgin ekranı](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 **Gezgin** bölmesinin alt kısmındaki **Yükle** düğmesini seçerek verileri yükleyebilir veya verileri yüklemeden önce sorguyu düzenlemek isterseniz **Düzenle** düğmesini seçebilirsiniz.
 

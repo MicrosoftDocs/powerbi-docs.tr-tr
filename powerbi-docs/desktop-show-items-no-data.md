@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370499"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560839"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI'da öğeleri veri olmadan gösterme
 
@@ -25,7 +25,7 @@ Power BI, çeşitli kaynaklardan gelen her türlü veriyi görselleştirmenize o
 
 ## <a name="determining-relevant-data"></a>İlgili verileri saptama
 
-Power BI'ın uygun verileri nasıl saptadığını anlamaya başlamak için, basit bir örnek olarak bir tabloyu ele alalım. Bu makalenin sonundaki örnekler bölümünde tanıtılan modeli kullanarak, aşağıdaki ayarlarla bir tablo oluşturulduğunu düşünelim:
+Power BI'ın uygun verileri nasıl saptadığını anlamaya başlamak için, basit bir örnek olarak bir tabloyu ele alalım. Bu makalenin sonundaki [örnek veri modeli](#example-data-model) bölümünde tanıtılan modeli kullanarak, aşağıdaki ayarlarla bir tablo oluşturulduğunu düşünelim:
 
 **1. Aynı tablodan gruplar:** *Product[Color] - Product[Size]*
 
@@ -152,6 +152,25 @@ Sütunlar için değerleri seçme mekanizmasının sıraya bağımlı olduğuna 
 |Red     |Parlak         |         |
 
 Bu örnekte, *ProductStyle[Finish]=None* girdisinin tabloda gösterilmediğine dikkat edin. Bunun nedeni, bu örnekte Power BI'ın önce *Product* tablosundaki tüm *Color* değerlerini seçmiş olmasıdır. Ardından Power BI, her renk için veri içeren ilgili *Finish* değerlerini seçer. *Color* değerinin hiçbir bileşiminde *None* gösterilmediğinden, bu değer seçilmez.
+
+
+## <a name="power-bi-visual-behavior"></a>Power BI görsel davranışı
+
+Görselin bir alanında **Veri içermeyen öğeleri göster** etkin olduğunda, özellik aynı *görsel demet* ya da hiyerarşi içindeki diğer tüm alanlar için otomatik olarak etkinleştirilir. Görsel demet veya hiyerarşi; **Eksen** veya **Gösterge** ya da **Kategori**, **Satırlar** veya **Sütunlar** olabilir.
+
+![Eksen ve gösterge alanları](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+Örneğin, **Satırlar** demetindeki dört alan içeren bir Matris görselinde, bir alanın **Veri içermeyen öğeleri göster** seçeneği etkinse matristeki tüm öğeler etkin olur. Aşağıdaki görüntüde, **Satırlar** demetinin ilk alanı olan *SupplierID* alanında **Veri içermeyen öğeleri göster** seçeneği etkindir. **Satırlar** demetindeki diğer alanlarda da bu seçenek otomatik olarak etkinleştirilmiştir.
+
+![Aynı görseldeki alanlar, Veri içermeyen öğeleri göster seçeneğini otomatik olarak etkinleştirir](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Buna karşılık, **Sütunlar** demetinde gösterilen *Kıta* sütununda **Veri içermeyen öğeleri göster** seçeneği otomatik olarak *etkinleştirilmemiştir*. 
+
+Bu görsel davranışı genellikle bir görselin farklı bir türe dönüştürülmesi durumunda (örneğin, Matris görselinin bir tablo görseline dönüştürülmesi) görülür. Bu tür dönüştürmelerde **Veri içermeyen öğeleri göster** seçeneği, bir demet içindeki herhangi bir alanda etkinse o demete taşınan her alan için otomatik olarak etkinleştirilir. Önceki örnekte, *SupplierID* alanında **Veri içermeyen öğeleri göster** özelliği etkinse ve görsel bir tabloya dönüştürülürse, **Sütunlar** demetindeki *Kıta* alanı bir tablo görselinde kullanılan tem demete (**Satırlar** demetindeki alanlarla birlikte) taşınır - **Değerler** demeti. Bu nedenle, **Değerler** demetindeki tüm alanlarda **Veri içermeyen öğeleri göster** özelliği etkindir.
+
+### <a name="exporting-data"></a>Verileri dışarı aktarma
+
+**Özet verileri dışarı aktar** özelliğini kullanırken **Veri içermeyen öğeleri göster** özelliğinin davranışı, dışarı aktarma işleminin bir Tablo görseline dönüştürülmesiyle aynıdır. Bu nedenle, Grafik Matrisi görseli gibi bir görseli dışarı aktarırken, dışarı aktarılan veriler gösterilen görselden farklı görünebilir. Bunun nedeni, dışarı aktarma işleminin bir parçası olarak bir tablo görseline dönüştürme işleminin, dışarı aktarılmakta olan tüm alanlar için **Veri içermeyen öğeleri göster** özelliğini etkinleştirmesidir. 
 
 ## <a name="example-data-model"></a>Örnek veri modeli
 

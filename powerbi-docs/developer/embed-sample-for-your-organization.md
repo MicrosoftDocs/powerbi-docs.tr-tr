@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808232"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490379"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -35,7 +35,7 @@ Başlamak için şunlara sahip olmalısınız:
 * [Power BI Pro hesabı](../service-self-service-signup-for-power-bi.md).
 * [Microsoft Azure](https://azure.microsoft.com/) aboneliği.
 * [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
-* Sayfalandırılmış raporları eklemek için en az A4/P1 kapasitesine ihtiyacınız vardır. Bkz. [Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
+* Sayfalandırılmış raporları eklemek için en az P1 kapasitesine ihtiyacınız vardır. Bkz. [Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 
@@ -45,7 +45,7 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan uygulama çalışma alanında en az A4/P1 kapasitesine ihtiyacınız vardır.
+Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan uygulama çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
 
 Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
 
@@ -83,7 +83,7 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yayımlama
 
-Sayfalandırılmış raporlarınızı oluşturmak için [Power BI Rapor Oluşturucusu](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)'nu kullanabilirsiniz. Ardından en az A4/P1 kapasiteye atanmış bir uygulama çalışma alanına [raporu yükleyebilirsiniz](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu yükleyen son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
+[Power BI Rapor Oluşturucusu](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)’nu kullanarak sayfalandırılmış raporlarınızı oluşturabilirsiniz. Daha sonra en az P1 kapasitesine atanmış bir uygulama çalışma alanına [raporu yükleyebilirsiniz](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu yükleyen son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriğinizi ekleme
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 Power BI Raporu URL'si <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-Sayfalandırılmış Rapor URL'si <br>
-
 
 
 Sayfalandırılmış Rapor URL'si<br>
@@ -384,7 +381,7 @@ Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanm�
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az A4/P1 kapasiteyle desteklemelisiniz. [Power BI Premium](../service-premium-what-is.md) kullanarak ayrılmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
 
 Aşağıdaki tabloda, [Microsoft Office 365](../service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 

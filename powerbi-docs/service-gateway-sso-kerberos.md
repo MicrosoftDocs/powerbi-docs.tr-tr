@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624053"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655184"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma
 
@@ -192,7 +192,7 @@ Kerberos'un bir ağ geçidiyle nasıl çalıştığını anladığınıza göre 
 1. SAP Launchpad’den CommonCryptoLib’in (sapcrypto.dll) **8.5.25 veya daha yeni sürümünü** indirip bunu ağ geçidi makinenizdeki bir klasöre kopyalayın. sapcrypto.dll dosyasını kopyaladığınız dizinde sapcrypto.ini adlı bir dosya oluşturup aşağıdaki içeriklere sahip olmasını sağlayın:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     .ini dosyası, CommonCryptoLib’in ağ geçidi senaryosunda çoklu oturum açmayı etkinleştirmek için gerek duyduğu yapılandırma bilgilerini içerir.
@@ -242,7 +242,7 @@ Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamanıza yard�
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     _ccl/trace/directory_ seçeneğini Kimliği Doğrulanmış Kullanıcılar grubu üyelerinin yazma izninin olduğu bir konuma ayarladığınızdan emin olun. Alternatif olarak, bu davranışı değiştirmek için yeni bir .ini dosyası oluşturun. sapcrypto.ini ve sapcrypto.dll ile aynı dizinde sectrace.ini adlı bir dosya oluşturup aşağıdaki içeriklere sahip olmasını sağlayın.  DİZİN seçeneğini, Kimliği Doğrulanmış Kullanıcının yazma izninin olduğu, makinenizde bulunan bir konumla değiştirin:
@@ -250,7 +250,7 @@ Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamanıza yard�
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     Şimdi, sorunu yeniden oluşturun ve DIZINE göre işaret eden konumun izleme dosyaları içerip içermediğini denetleyin. İşiniz bittiğinde CPIC ve CCL izlemeyi kapatmayı unutmayın.

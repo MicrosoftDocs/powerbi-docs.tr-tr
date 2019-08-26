@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270966"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490344"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -66,9 +66,10 @@ Aşağıda özellik farklarının kısmi bir listesini bulabilirsiniz.
 
 | Öne çıkan özelliği | Power BI Embedded | Power BI Premium Kapasitesi | Power BI Premium Kapasitesi |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (A SKU'lar) | (EM SKU'lar) | (P SKU'lar) |
-| Power BI Uygulaması çalışma alanından yapıtları ekleme | Azure kapasitesi | Office 365 kapasitesi | Office 365 kapasitesi |
-| Katıştırılmış uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
+|   | A SKU'ları-Azure kapasitesi | EM SKU'ları-O365 kapasitesi | P SKU'ları-O365 kapasitesi |
+| Power BI Uygulaması çalışma alanından yapıtları ekleme | Evet | Evet | Evet |
+| Katıştırılmış uygulamada Power BI raporlarını kullanma - SaaS | Hayır | Evet | Evet |
+| Katıştırılmış uygulamada Power BI raporlarını kullanma - PaaS | Evet | Evet | Evet |
 | Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Teams'de kullanma (mobil uygulama hariç) | Hayır | Evet | Evet |

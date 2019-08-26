@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462387"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962230"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
@@ -92,10 +92,10 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Power BI Soru-Cevap ile oluşturulmuş olan bir kutucuğu gözden geçirme
 Biraz daha ayrıntıya inelim.
 
-1. Soruyu *this year sales **by district*** (bölgeye göre bu yılın satışları) olarak değiştirin. Sonucu inceleyin: Soru-Cevap yanıtı otomatik olarak bir çubuk grafiğe yerleştirir ve başka tümcecikler önerir:
+1. Soruyu _this year sales **by district**_ (bölgeye göre bu yılın satışları) olarak değiştirin. Sonucu inceleyin: Soru-Cevap yanıtı otomatik olarak bir çubuk grafiğe yerleştirir ve başka tümcecikler önerir:
 
    ![Soru-Cevap'ta bölgeye göre bu yılın satışları](media/sample-retail-analysis/retail8.png)
-2. Şimdi de soruyu *this year sales **by zip and chain*** (posta kodu ve zincire göre bu yılın satışları) olarak değiştirin.
+2. Şimdi de soruyu _this year sales **by zip and chain**_ (posta kodu ve zincire göre bu yılın satışları) olarak değiştirin.
 
    Siz yazdığınız sırada Power BI'ın nasıl sorunuzu yanıtladığına ve uygun grafikleri görüntülediğine dikkat edin.
 3. Başka sorularla deneme yapın ve elde ettiğiniz sonuçları inceleyin.

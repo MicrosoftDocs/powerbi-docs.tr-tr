@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222277"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561067"
 ---
 # <a name="conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme 
 Tablolar için koşullu biçimlendirme sayesinde hücre değerlerine göre (veya başka değerlere ya da alanlara göre) özel hücre renkleri belirtebilir ve gradyan renklerini kullanabilirsiniz. Ayrıca, veri çubukları ile hücre değerlerini gösterebilirsiniz. 
@@ -130,11 +130,17 @@ Bunu yaptığınızda aşağıdaki matrise benzer sonuçlar elde edebilirsiniz.
 
 Yalnızca hayal gücünüzü ve DAX bilginizi kullanarak birçok farklı kullanım oluşturabilirsiniz.
 
-CSS renk belirtimi listelenen değerlerden herhangi birini kullanabilirsiniz [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) görsellerinizi renk:
-* 3, 6 veya 8 basamaklı onaltılık örneğin #3E4AFF kodlar. Kod başlangıcında # sembolünü eklediğinizden emin olun. "3E4AFF" kabul edilmiyor. 
-* RGB veya RGBA örn RGBA (234, 234, 234, 0,5) değerleri
-* HSL HSLA değerleri veya örneğin HSLA (123, %75, % 75'i, 0,5)
-* Örneğin Uçuk Gökyüzü Mavisi, yeşil sarı renk adları 
+Görsellerinizi renklendirmek için [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) sayfasındaki CSS renk belirtiminde listelenen değerlerin herhangi birini kullanabilirsiniz:
+* 3, 6 veya 8 basamaklı onaltılı kod, örn. #3E4AFF. Kodun başına # sembolünü eklediğinizden emin olun. "3E4AFF" kabul edilmez. 
+* RGB veya RGBA değerleri, örn. RGBA (234, 234, 234, 0,5)
+* HSL veya HSLA değerleri, örn. HSLA (123, %75, %75, 0,5)
+* Renk adları, örn. Yeşil, Gök Mavisi, Açık Şeftali 
+
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+Koşul tablo biçimlendirme ile çalışırken dikkat etmeniz gereken birkaç önemli nokta vardır:
+
+* Koşullu biçimlendirme yalnızca **Matris** görselinin değerlerine uygulanır ve alt toplamlar ya da genel toplamlar için uygulanmaz. 
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  

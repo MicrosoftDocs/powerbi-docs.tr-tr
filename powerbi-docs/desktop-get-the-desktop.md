@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 08/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590488"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560856"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
 
 **Power BI Desktop**'ı aşağıda açıklanan iki yöntemden birini kullanarak edinebilirsiniz:
 
-* Doğrudan **indirme** (bilgisayarınıza indirip yüklediğiniz bir MSI paketi)
+* Doğrudan **indirme** (bilgisayarınıza indirip yüklediğiniz bir paket)
 * **Microsoft Store**’dan bir uygulama olarak yükleme
 
 Her iki yöntemle de bilgisayarınıza **Power BI Desktop**'ın en son sürümünü indirmiş olursunuz ancak dikkat edilmesi gereken ve aşağıda açıklanan birkaç farklılık söz konusudur.
@@ -30,21 +30,23 @@ Her iki yöntemle de bilgisayarınıza **Power BI Desktop**'ın en son sürümü
 ## <a name="download-power-bi-desktop"></a>Power BI Desktop'ı indirme
 **Power BI Desktop**'ın en yeni sürümünü indirmek için Power BI hizmetinin sağ üst köşesindeki indirme simgesini seçip **Power BI Desktop** seçeneğini belirleyebilirsiniz.
 
-![](media/desktop-get-the-desktop/getpbid_downloads.png)
+![Power BI Desktop'ın en son sürümünü indirme](media/desktop-get-the-desktop/getpbid_downloads.png)
 
 Power BI Desktop'ın en son sürümünü şu indirme sayfasından da indirebilirsiniz:
 
-* [**Power BI Desktop indirme** (32 ve 64 bit sürümleri)](https://powerbi.microsoft.com/desktop).
+* [**Power BI Desktop indirme** (32 bit ve 64 bit sürümleri)](https://powerbi.microsoft.com/desktop).
   
-  [![](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
+  [![Power BI Desktop’ın en son sürümünü indirme](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
 
 Seçtiğiniz indirme yönteminden bağımsız olarak, **Power BI Desktop**'ı indirdiğinizde yükleme dosyasını çalıştırmanız istenir:
 
-![](media/desktop-get-the-desktop/getpbid_3.png)
+![Power BI Desktop yükleme dosyasını çalıştırma](media/desktop-get-the-desktop/getpbid_3.png)
 
-**Power BI Desktop** bir uygulama olarak yüklenir ve masaüstünüzde çalıştırılır.
+Haziran 2019 yayınından itibaren, **Power BI Desktop** desteklenen tüm dilleri içeren tek bir .exe yükleme paketi olarak gönderilmektedir. 32 bit ve 64 bit sürümler için ayrı .exe dosyaları vardır. .msi paketleri Eylül 2019 yayınından sonra kullanımdan kaldırılacak ve sonrasında yükleme için .exe yürütülebilir dosyasını kullanmanız gerekecektir. Bu yaklaşım dağıtım, güncelleştirme ve yüklemeyi (özellikle Yöneticiler için) çok daha kolay ve daha kullanışlı hale getirir. Ayrıca, bu makalenin ilerleyen kısımlarındaki [yükleme sırasında komut satırı seçeneklerini kullanma](#using-command-line-options-during-installation) bölümünde açıklandığı gibi, komut satırı parametrelerini kullanarak yükleme işlemini özelleştirebilirsiniz.
 
-![](media/desktop-get-the-desktop/designer_gsg_install.png)
+Yükleme paketini başlattıktan sonra **Power BI Desktop** bir uygulama olarak yüklenir ve masaüstünüzde çalışır.
+
+![Power BI Desktop uygulaması masaüstünüzde çalışır](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > **Power BI Desktop**’ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir.
@@ -56,20 +58,20 @@ Seçtiğiniz indirme yönteminden bağımsız olarak, **Power BI Desktop**'ı in
 
 * [**Microsoft Store**’dan **Power BI Desktop**’ı yükleme](http://aka.ms/pbidesktopstore)
 
-![](media/desktop-get-the-desktop/getpbid_04.png)
+  ![Microsoft Store’dan Power BI Desktop'ı edinin](media/desktop-get-the-desktop/getpbid_04.png)
 
 **Power BI Desktop**’ı Microsoft Store’dan edinmenin bazı avantajları vardır:
 
 * **Otomatik güncelleştirmeler**: Windows, en son sürümü, kullanılabilir olduğunda arka planda otomatik olarak indirir. Böylece, sürümünüz her zaman güncel kalır.
 * **Daha küçük indirmeler**: **Microsoft Store** yalnızca her güncelleştirmede değiştirilen bileşenlerin makinenize indirilmesini sağlar, bu da her güncelleştirme için daha küçük boyutta indirmeler gerçekleştirileceği anlamına gelir.
-* **Yönetici ayrıcalığı gerekmez**: MSI'yi doğrudan indirip yüklediğinizde yüklemenin başarıyla tamamlanması için yönetici olmanız gerekir. **Power BI Desktop**’ı Microsoft Store’dan alırsanız yönetici ayrıcalığı gerekli *değildir*.
+* **Yönetici ayrıcalığı gerekmez**: Paketi doğrudan indirip yüklediğinizde yüklemenin başarıyla tamamlanması için yönetici olmanız gerekir. **Power BI Desktop**’ı Microsoft Store’dan alırsanız yönetici ayrıcalığı gerekli *değildir*.
 * **BT tarafından kullanıma sunulabilir**: **Microsoft Store** sürümü, kuruluşunuzdaki herkese kolayca dağıtılabilir veya kolaylıkla *kullanıma sunulabilir*; bunun yanı sıra **Power BI Desktop**’a **İş için Microsoft Store** aracılığıyla da ulaşılabilir.
 * **Dil algılama**: **Microsoft Store** sürümü, desteklenen tüm dilleri içerir ve her başlatıldığında bilgisayarda kullanılan dilleri denetler. Bu durum, **Power BI Desktop**'ta oluşturulan modellerin yerelleştirmesini de etkiler; örneğin, yerleşik tarih hiyerarşileri, **Power BI Desktop**'ın .pbix dosyası oluşturulurken kullandığı dil ile eşleşir.
 
 **Power BI Desktop**’ı Microsoft Store’dan yükleme konusunda aşağıda verilen bazı önemli noktalar ve sınırlamalar söz konusudur:
 
 * SAP bağlayıcısını kullanıyorsanız SAP sürücü dosyalarınızı *Windows\System32* klasörüne taşımanız gerekir.
-* **Power BI Desktop**, Microsoft Store’dan yüklendiğinde, MSI sürümünden kullanıcı ayarları kopyalanmaz. Yeni veri kaynaklarınıza yeniden bağlanmanız ve veri kaynağı kimlik bilgilerinizi yeniden girmeniz gerekebilir. 
+* **Power BI Desktop**, Microsoft Store’dan yüklendiğinde, .exe sürümünden kullanıcı ayarları kopyalanmaz. Yeni veri kaynaklarınıza yeniden bağlanmanız ve veri kaynağı kimlik bilgilerinizi yeniden girmeniz gerekebilir. 
 
 > [!NOTE]
 > **Power BI Desktop**’ın indirilen (MSI) sürümünü ve **Microsoft Store** sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir. **Power BI Desktop**’ı **Microsoft Store**’dan indirmeden önce el ile kaldırmanız gerekir
@@ -82,7 +84,7 @@ Seçtiğiniz indirme yönteminden bağımsız olarak, **Power BI Desktop**'ı in
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop'ı kullanma
 **Power BI Desktop**'ı başlattığınızda *Hoş Geldiniz* ekranı görüntülenir.
 
-![](media/desktop-get-the-desktop/getpbid_05.png)
+![Power BI Desktop Hoş Geldiniz ekranı](media/desktop-get-the-desktop/getpbid_05.png)
 
 **Power BI Desktop**'ı ilk kez kullanacaksanız (yükleme bir yükseltme değilse) devam edebilmek için önce birkaç soruluk bir form doldurmanız veya **Power BI hizmetinde** oturum açmanız istenir.
 
@@ -102,6 +104,25 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 
 Power BI Desktop ile her zaman harika bir deneyim yaşamanızı istiyoruz. Power BI Desktop'ta sorunlarla karşılaştığınız noktalar olabilir. Bu bölümde ortaya çıkabilecek sorunlarla ilgili çözümlere veya önerilere yer verilmiştir. 
+
+
+### <a name="using-command-line-options-during-installation"></a>Yükleme sırasında komut satırı seçeneklerini kullanma 
+
+Power BI Desktop yüklerken komut satırı geçişleriyle özellikleri ve seçenekleri ayarlayabilirsiniz. Bu seçenek özellikle kuruluş genelinde Power BI Desktop yüklemesini yöneten veya kolaylaştıran Yöneticiler için yararlıdır. Bu seçenekler .msi ve .exe yüklemeleri için geçerlidir. 
+
+
+|Komut satırı araçları  |Davranış  |
+|---------|---------|
+|-q, -quiet, -s, -silent     |sessiz yükleme         |
+|-passive     |yalnızca yükleme sırasında ilerleme çubuğunu göster         |
+|-norestart     |bilgisayar yeniden başlatma gereksinimini gösterme         |
+|-forcerestart     |yüklemeden sonra bilgisayarı sormadan yeniden başlat         |
+|-promptrestart     |bilgisayarın yeniden başlatılması gerekiyorsa kullanıcıya sor (varsayılan)         |
+|-l<>, -log<>     |yüklemeyi <> içinde belirtilen dosyayla belirli bir dosyaya kaydet         |
+|-uninstall     |Power BI Desktop’u kaldır         |
+|-repair     |yüklemeyi onar (veya şu anda yüklü değilse yükle)         |
+|-package, -update     |Power BI Desktop’ı yükle (varsayılan olarak, -uninstall veya -repair belirtilmediğinde)         |
+
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop'ın önceki sürümlerini kullanırken ortaya çıkan sorunlar
 

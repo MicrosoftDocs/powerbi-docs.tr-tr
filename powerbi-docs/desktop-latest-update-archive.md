@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/29/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 80bb78d6074fde907fe6b2d3bbb835cdc5e82976
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: c2af7db67c637ca795bd501609d05d317d2a3e00
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623858"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023457"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -33,6 +33,76 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
+
+## <a name="july-2019-update-2715523641"></a>Temmuz 2019 Güncelleştirmesi (2.71.5523.641)
+
+Temmuz güncelleştirmesi, Power BI Desktop’ınız için birçok yeni özellik ve işlev sunmuştur. 
+
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+
+Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
+
+* Söz konusu özelliğin açıklandığı **[video]** alıntıları yeni bir tarayıcı sekmesinde oynatılır.
+* Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir **[makale]** bulunur.
+* Çoğu özellik, aylık güncelleştirme **[blog]** gönderisinde açıklanmaktadır.
+* Son olarak, bazı özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı içermez.
+
+İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
+
+**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+
+### <a name="reporting"></a>Raporlama
+* Tablo ve matrisle ilgili simge kümeleri [[video]](https://youtu.be/l7OMRUF9UYg?t=11)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* Kurallara göre koşullu biçimlendirme için yüzde desteği [[video]](https://youtu.be/l7OMRUF9UYg?t=445)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
+* Yeni filtre bölmesi genel kullanıma sunuldu [[video]](https://youtu.be/l7OMRUF9UYg?t=543)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
+* Dağılım grafiklerinden yürütme ekseni kullanılırken veri renkleri desteği [[video]](https://youtu.be/l7OMRUF9UYg?t=610)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
+* Göreli tarih ve açılan dilimleyiciler kullanılırken performans iyileştirmeleri [[video]](https://youtu.be/l7OMRUF9UYg?t=669)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
+
+
+### <a name="analytics"></a>Analiz
+* Ana etmenler görseli için sayımlar (önizleme) [[video]](https://youtu.be/l7OMRUF9UYg?t=760)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
+* Toplamalara yönelik iyileştirmeler [[video]](https://youtu.be/l7OMRUF9UYg?t=870) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
+
+
+### <a name="visuals"></a>Görseller
+* PowerApps görseli artık sertifikalı [[video]](https://youtu.be/l7OMRUF9UYg?t=894)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
+* Üç yeni özel görsel ve güncelleştirmeler  [[video]](https://youtu.be/l7OMRUF9UYg?t=932)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+* Azure Data Lake Storage 2. Nesil Bağlayıcı (beta) [[video]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
+* Dynamics 365 Customer Insights Bağlayıcı [[video]](https://youtu.be/l7OMRUF9UYg?t=1250)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
+
+
+### <a name="data-preparation"></a>Veri hazırlama
+* Yeni dönüşüm: Sütunu konumlara göre böl  [[video]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
+
+
+> [!NOTE]
+> Ayrıca [Power BI Desktop'ta kullanabileceğiniz tüm veri kaynaklarına göz atabilirsiniz](desktop-data-sources.md). Listemize her geçen gün yenileri eklendiğinden bu sayfayı sık sık ziyaret etmenizde yarar vardır.
+
+Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/) (yukarıdaki listede bulunan blog gönderisi referansları ile aynı) göz atın.
+
+
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve gösterilmektedir. Videoya blog gönderisinden de ulaşabilirsiniz.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
+
+
+Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
+
+* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
+* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
+* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
+* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
+
+Önceki sürümü indirmek için bağlantıları izleyin: 
+
+* [Power BI Desktop'ın Temmuz 2019 sürümü - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [Power BI Desktop'ın Temmuz 2019 sürümü - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>Haziran 2019 Güncelleştirmesi (2.70.5494.561)

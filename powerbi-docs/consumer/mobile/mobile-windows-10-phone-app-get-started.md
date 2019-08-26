@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61337724"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995232"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
-Windows 10 için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı tabletinize veya telefonunuza getirir. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyin ve etkileşime geçin.
+Windows 10 için Power BI mobil uygulaması, Power BI’ı tabletinize veya telefonunuza getirir. İş bilgilerinize güncel, dokunmatik özellikli mobil erişim elde edersiniz. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyip etkileşime geçin.
 
 ![Windows canlı kutucuğu](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
@@ -28,12 +28,12 @@ Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve rapo
 ## <a name="first-things-first"></a>İlk yapılacaklar
 * Windows Mağazası'ndan [**Windows 10 için Power BI mobil uygulamasını indirin**](http://go.microsoft.com/fwlink/?LinkID=526478).
   
-  Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 3 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda çalışabilir.
+  Cihazınızın Windows 10 çalıştırması gerekir. Uygulama, en az 3 GB RAM ve 8 GB iç depolama alanına sahip olan cihazlarda çalışabilir.
    
 * [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web üzerinde Power BI hizmetine kaydolma
-Henüz kaydolmadıysanız [Power BI hizmeti](http://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Windows 10 cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
+Henüz kaydolmadıysanız [Power BI hizmetine](http://powerbi.com/) gidin. Panolar ve raporlar oluşturup depolamak için kendi hesabınıza kaydolun ve verilerinizi bir araya getirin. Ardından, nerede olursanız olun Windows 10 cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
 
 1. Power BI hizmetinde bir Power BI hesabı oluşturmak için [Kaydol](http://go.microsoft.com/fwlink/?LinkID=513879) seçeneğine dokunun.
 2. [Kendi panolarınızı ve raporlarınızı oluşturmaya](../../service-get-started.md) başlayın.
@@ -53,7 +53,7 @@ Henüz kaydolmadıysanız [Power BI hizmeti](http://powerbi.com/) sayfasına gid
 Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Panoların bulunduğu giriş sayfasından dilediğiniz zaman örneklere geri dönebilirsiniz.
 
 ### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşimde bulunabilirsiniz. Ancak bu örneklerle yapamayacağınız birkaç şey vardır. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
 
 1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) dokunun.
 2. **Ayarlar** simgesine ![Ayarlar simgesi](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) dokunun, adınıza dokunun ve ardından **Örnekleri görüntüle**'ye dokunun.
@@ -92,7 +92,7 @@ Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygu
 ![Power BI sol gezinti bölmesi](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Sık kullandığınız panoları, KPI'leri ve raporları görüntüleme
-Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Reporting Services KPI'lerinin ve mobil raporların yanı sıra sık kullandığınız Power BI panolarınızı görüntüleyebilirsiniz. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak eklediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 
+Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Reporting Services KPI'lerinin ve mobil raporların yanı sıra sık kullandığınız Power BI panolarınızı görüntüleyin. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak belirlediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 
 
 * **Sık Kullanılanlar**'a dokunun.
   

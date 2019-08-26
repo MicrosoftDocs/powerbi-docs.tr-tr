@@ -1,13 +1,13 @@
 ---
-ms.openlocfilehash: b05b5b0b5212f39b9b47cb63e2fc8522fff2f8e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0592cb7ef076f8094aca565d955cc238b2181068
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194080"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560970"
 ---
 ## <a name="faq"></a>SSS
-**Soru:** Ne daha önce rol ve kural için bir veri kümesini Power BI hizmetinde oluşturduğum? Herhangi bir işlem yapmasam da bunlar çalışmaya devam eder mi?  
+**Soru:** Power BI hizmetindeki bir veri kümesi için önceden roller ve kurallar oluşturduysam ne yapmam gerekir? Herhangi bir işlem yapmasam da bunlar çalışmaya devam eder mi?  
 **Cevap:** Hayır. Görseller düzgün şekilde oluşturulmaz. Rolleri ve kuralları Power BI Desktop uygulamasında tekrar oluşturmanız ve Power BI hizmetinde yayımlamanız gerekir.
 
 **Soru:** Bu rolleri Analysis Services veri kaynakları için oluşturabilir miyim?  

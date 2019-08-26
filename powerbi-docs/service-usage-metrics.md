@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567487"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530531"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları için kullanım ölçümlerini izleme
 
@@ -41,20 +41,7 @@ Kullanım ölçümleri raporlarını yalnızca Power BI hizmetinde çalıştıra
 - Belirli bir panoya veya rapora ilişkin kullanım ölçümlerine erişmek için söz konusu pano veya rapor üzerinde düzenleme erişiminiz olmalıdır.
 - Power BI yöneticinizin içerik oluşturucuları için kullanım ölçümlerini etkinleştirmiş olması gerekir. Power BI yöneticiniz kullanım ölçümlerinde kullanıcı başına veri toplanmasını da etkinleştirmiş olabilir. [Yönetim portalında bu seçenekleri etkinleştirmeyi](service-admin-portal.md#control-usage-metrics) öğrenin. 
 
-## <a name="about-the-usage-metrics-report"></a>Kullanım Ölçümleri raporu hakkında
-
-Pano veya raporun yanındaki **Kullanım ölçümleri**’ni veya ![kullanım ölçümleri simgesi](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) simgesini seçtiğinizde Power BI bu içeriğin son 90 güne ait kullanım ölçümlerinin yer aldığı, önceden oluşturulmuş bir rapor üretir.  Rapor zaten aşina olduğunuz Power BI raporlarına benzer. Son kullanıcılarınızın web üzerinden mi yoksa mobil uygulamadan mı erişim sağladığını görebilir, bu bilgiye göre filtreleme yapabilirsiniz. Panolarınız ve raporlarınız geliştikçe kullanım ölçümleri raporları da yeni verilerle güncelleştirilecektir.  
-
-Kullanım ölçümleri raporları **Son görüntülenen**, **Çalışma Alanı**, **Sık Kullanılanlar** veya diğer içerik listelerinde gösterilmez. Bu raporlar uygulamaya eklenemez. Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlerseniz bu panoyu uygulamaya ekleyemezsiniz.
-
-Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporlarınızı oluşturmak için iki seçeneğiniz vardır: 
-
-- Power BI hizmetinde raporun bir kopyasını oluşturma. Ayrıntılar için bu makalenin devamındaki [Kullanım Ölçümleri raporunun kopyasını kaydetme](#save-a-copy-of-the-usage-metrics-report) bölümüne bakın.
-- Power BI Desktop'tan veri kümesine bağlanma. Ayrıntılar için [Yayımlanan veri kümesine bağlantı oluşturma](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) konusuna bakın.
-
-    ![Kullanım raporu veri kümesine bağlanma](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Bir pano veya rapora ilişkin Kullanım Ölçümleri raporunu açma
+## <a name="view-a-usage-metrics-report"></a>Kullanım Ölçümleri raporunu görüntüleme
 
 1. İlgili panoyu veya raporu içeren çalışma alanından başlayın.
 2. Çalışma alanı içerik listesinden veya panonun ya da raporun içinden **Kullanım ölçümleri** ![kullanım ölçümleri simgesi](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) simgesini seçin.
@@ -82,6 +69,18 @@ Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporları
 
 ![Rapor kullanım ölçümleri raporu](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>Kullanım Ölçümleri raporu hakkında
+
+Pano veya raporun yanındaki **Kullanım ölçümleri**’ni veya ![kullanım ölçümleri simgesi](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) simgesini seçtiğinizde Power BI bu içeriğin son 90 güne ait kullanım ölçümlerinin yer aldığı, önceden oluşturulmuş bir rapor üretir.  Rapor zaten aşina olduğunuz Power BI raporlarına benzer. Son kullanıcılarınızın web üzerinden mi yoksa mobil uygulamadan mı erişim sağladığını görebilir, bu bilgiye göre filtreleme yapabilirsiniz. Panolarınız ve raporlarınız geliştikçe kullanım ölçümleri raporları da yeni verilerle güncelleştirilecektir.  
+
+Kullanım ölçümleri raporları **Son görüntülenen**, **Çalışma Alanı**, **Sık Kullanılanlar** veya diğer içerik listelerinde gösterilmez. Bu raporlar uygulamaya eklenemez. Kullanım ölçümleri raporundaki kutucuklardan birini bir panoya sabitlerseniz bu panoyu uygulamaya ekleyemezsiniz.
+
+Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporlarınızı oluşturmak için iki seçeneğiniz vardır: 
+
+- Power BI hizmetinde raporun bir kopyasını oluşturma. Ayrıntılar için bu makalenin devamındaki [Kullanım Ölçümleri raporunun kopyasını kaydetme](#save-a-copy-of-the-usage-metrics-report) bölümüne bakın.
+- Power BI Desktop'tan veri kümesine bağlanma. Her çalışma alanında veri kümesinin adı "Rapor Kullanım Ölçümleri Modeli" şeklindedir. Ayrıntılar için [Yayımlanan veri kümesine bağlantı oluşturma](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) konusuna bakın.
+
+    ![Kullanım raporu veri kümesine bağlanma](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>Hangi ölçümler raporda yer alır?
 
@@ -105,7 +104,7 @@ Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporları
 
 Kullanım ölçümleri raporunu kendi gereksinimlerinize göre özelleştirebileceğiniz normal bir Power BI raporuna dönüştürmek için **Farklı kaydet**'i kullanın. Ayrıca Power BI Desktop'ı kullanarak temel veri kümesine dayanan özel kullanım ölçümleri raporları da oluşturabilirsiniz. Ayrıntılar için [Yayımlanan veri kümesine bağlantı oluşturma](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) konusuna bakın.
 
-Üstelik çalışma alanındaki tüm pano veya raporlara ilişkin kullanım bilgilerini içeren bağlantılı veri kümesinden de yararlanabilirsiniz. Bu size daha fazla olanak getirir. Örneğin, çalışma alanınızdaki tüm panoları kullanım açısından karşılaştıran bir rapor oluşturabilirsiniz. Ayrıca, söz konusu uygulama içinde dağıtılmış olan tüm içeriğe ilişkin kullanım bilgilerini toplayarak Power BI uygulamanız için bir kullanım ölçümleri panosu oluşturabilirsiniz.  Bu makalenin devamındaki [Sayfa düzeyi filtresini kaldırma](#remove-the-filter-to-see-all-workspace-usage-metrics) konusuna bakın.
+Üstelik çalışma alanındaki tüm pano veya raporlara ilişkin kullanım bilgilerini içeren bağlantılı veri kümesinden de yararlanabilirsiniz. Bu size daha fazla olanak getirir. Örneğin, çalışma alanınızdaki tüm panoları kullanım açısından karşılaştıran bir rapor oluşturabilirsiniz. Ayrıca, söz konusu uygulama içinde dağıtılmış olan tüm içeriğe ilişkin kullanım bilgilerini toplayarak Power BI uygulamanız için bir kullanım ölçümleri panosu oluşturabilirsiniz.  Filtreyi kaldırma hakkındaki bilgileri ve [çalışma alanına yönelik tüm kullanım ölçümlerini](#see-all-workspace-usage-metrics) bu makalenin sonraki bölümlerinde bulabilirsiniz.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Kullanım raporunun kopyasını oluşturma
 
@@ -121,7 +120,7 @@ Kullanım ölçümleri raporunu kendi gereksinimlerinize göre özelleştirebile
 
     ![Raporlar sekmesi](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>*Tüm* çalışma alanı kullanım ölçümlerini görmek için filtreyi kaldırma
+## <a name="see-all-workspace-usage-metrics"></a>*Tüm* çalışma alanı kullanım ölçümlerini görün
 
 Çalışma alanındaki tüm pano veya raporlara ait ölçümleri görmek için bir filtreyi kaldırmanız gerekir. Rapor varsayılan olarak yalnızca bu raporu oluşturduğunuz panoya veya rapora ait ölçümleri görüntüleyecek şekilde filtrelenmiştir.
 
@@ -169,7 +168,7 @@ Kullanım ölçümleriyle denetim günlükleri arasındaki farklılıklara ek ol
 
 **S:**    Kullanım ölçümleri, eklenen pano ve raporlara ilişkin görüntülenme verilerini yakalayabilir mi?
 
-**Y:**    Kullanım ölçümleri şu anda tümleşik panolar, raporlar ve [web’de yayınlama](service-publish-to-web.md) akışının kullanımını yakalamayı desteklememektedir.          Bu gibi durumlarda mevcut web analizi platformlarını kullanarak içeriği barındıran uygulamaya veya portala ilişkin kullanımı takip etmenizi öneririz.
+**Y:**    Kullanım ölçümleri şu anda tümleşik panolar, raporlar ve [web’de yayınlama](service-publish-to-web.md) akışının kullanımını yakalamayı desteklememektedir. Bu gibi durumlarda mevcut web analizi platformlarını kullanarak içeriği barındıran uygulamaya veya portala ilişkin kullanımı takip etmenizi öneririz.
 
 **S:**    Hiçbir içerikte kullanım ölçümleri çalıştıramıyorum.
 
