@@ -1,38 +1,39 @@
 ---
-title: iFrame kullanarak rapor gömme
-description: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame’e ekleme
+title: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
+description: Bu makalede Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme işlemi gösterilmektedir
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769854"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994984"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Hızlı başlangıç: Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
-Bu hızlı başlangıçta, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sunucusu raporunu eklemeyi öğreneceksiniz. SharePoint Online ile çalışıyorsanız, Power BI Rapor Sunucusu genel erişime açık olmalıdır. SharePoint Online’da Power BI hizmeti ile çalışan Power BI Web Bölümü, Power BI Rapor Sunucusu ile birlikte çalışmaz. 
+Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sunucusu raporunu eklemeyi öğreneceksiniz. SharePoint Online ile çalışıyorsanız, Power BI Rapor Sunucusu genel erişime açık olmalıdır. SharePoint Online’da Power BI hizmeti ile çalışan Power BI Web bölümü, Power BI Rapor Sunucusu ile birlikte çalışmaz.  
 
 ![iFrame örneği](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>Önkoşullar
-* [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış olmalıdır.
-* [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop](install-powerbi-desktop.md) uygulaması yüklü olmalıdır.
-* Bir [SharePoint](https://docs.microsoft.com/sharepoint/install/install) ortamı yüklü ve yapılandırılmış olmalıdır.
+* [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış.
+* [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması](install-powerbi-desktop.md) yüklü.
+* [SharePoint](https://docs.microsoft.com/sharepoint/install/install) ortamı yüklü ve yapılandırılmış.
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Rapor Sunucusu rapor URL'si oluşturma
+## <a name="create-the-power-bi-report-url"></a>Power BI rapor URL’si oluşturma
 
-1. Github'dan örneği indirin - [Blog Tanıtımı](https://github.com/Microsoft/powerbi-desktop-samples).
+1. Github'dan örneği indirin: [Blog Tanıtımı](https://github.com/Microsoft/powerbi-desktop-samples). **Kopyala veya indir**’i, ardından **ZIP indir**’i seçin.
 
     ![Örnek PBIX dosyasını indirme](media/quickstart-embed/quickstart_embed_14.png)
 
-2. **Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop** uygulamasında GitHub’dan örnek PBIX dosyasını açın.
+2. Zip dosyasını açın ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasında örnek .pbix dosyasını açın.
 
     ![PBI RS Masaüstü aracı](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,49 +41,45 @@ Bu hızlı başlangıçta, bir SharePoint sayfasında iFrame kullanarak bir Powe
 
     ![PBI RS Kaydetme](media/quickstart-embed/quickstart_embed_03.png)
 
-4. Raporu **Web Portalında** görüntüleyin.
+4. Power BI Rapor Sunucusu web portalında içeriği görüntüleyin.
 
-    ![Web Portalı](media/quickstart-embed/quickstart_embed_04.png)
+    ![Web portalı](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>URL parametresini yakalama
+### <a name="capture-the-url-parameter"></a>URL parametresini yakalama
 
-URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfasında iFrame oluşturabilirsiniz. Herhangi bir Power BI Rapor Sunucusu rapor URL’si için raporunuzu bir iFrame’e eklemek üzere bir `?rs:embed=true` sorgu dizesi parametresi ekleyebilirsiniz. 
+URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfasında iFrame oluşturabilirsiniz. Herhangi bir Power BI Rapor Sunucusu rapor URL’si için, raporunuzu bir SharePoint iFrame'e eklemek üzere şu sorgu dizesi parametresini ekleyin: `?rs:embed=true`.
 
    Örnek:
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Power BI Rapor Sunucusu raporunu SharePoint iFrame’e ekleme
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>Raporu bir SharePoint iFrame'e ekleme
 
 1. SharePoint **Site İçeriği** sayfasına gidin.
 
-    ![Site İçeriği Sayfası](media/quickstart-embed/quickstart_embed_05.png)
+    ![Site İçeriği sayfası](media/quickstart-embed/quickstart_embed_05.png)
 
 2. Raporunuzu eklemek istediğiniz sayfayı seçin.
 
-    ![Site İçeriği Sayfası Uygulaması](media/quickstart-embed/quickstart_embed_06.png)
+    ![Site İçeriği sayfası uygulaması](media/quickstart-embed/quickstart_embed_06.png)
 
-3. Sağ üst kısımdaki dişli simgesini ve **Sayfayı Düzenle**’yi seçin.
+3. Sağ üst kısımdaki dişli simgesini ve sonra **Sayfayı düzenle**’yi seçin.
 
-    ![Sayfayı Düzenle seçeneği](media/quickstart-embed/quickstart_embed_07.png)
+    ![Sayfayı düzenle seçeneği](media/quickstart-embed/quickstart_embed_07.png)
 
 4. **Web Bölümü Ekle**’yi seçin.
 
-    ![Web Bölümü Ekleme](media/quickstart-embed/quickstart_embed_08.png)
+5. **Kategoriler** altında **Medya ve İçerik**’i seçin. **Bölümler** altında **İçerik Düzenleyicisi**’ni ve **Ekle**’yi seçin.
 
-5. **Kategoriler** altında **Medya ve İçerik**’i seçin, **Bölümler** altında **İçerik Düzenleyicisi**’ni ve sonra **Ekle**’yi seçin.
-
-    ![İçerik Düzenleyicisi Web Bölümü seç](media/quickstart-embed/quickstart_embed_09.png) ![Ekle’yi seç](media/quickstart-embed/quickstart_embed_091.png)
+    ![İçerik Düzenleyicisi Web Bölümü seçme](media/quickstart-embed/quickstart_embed_09.png)
 
 6. **Yeni içerik eklemek için buraya tıklayın** öğesini seçin.
 
-    ![Yeni içerik ekleme](media/quickstart-embed/quickstart_embed_10.png)
-
-7. Şeritte **Metni Biçimlendir** sekmesini ve sonra **Kaynağı Düzenle**’yi seçin.
+7. Üstteki menüden **Metin Biçimlendir**’i ve ardından **Kaynağı Düzenle**’yi seçin.
 
      ![Kaynağı Düzenle](media/quickstart-embed/quickstart_embed_11.png)
 
-8. Kaynağı Düzenle penceresinde iFrame kodunuzu yapıştırıp Tamam’ı seçin.
+8. **Kaynağı Düzenle** penceresinde iFrame kodunuzu **HTML Kaynağı** içine yapıştırıp **Tamam**’ı seçin.
 
     ![iFrame kodu](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfa
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. Şeritte **Sayfa** sekmesini ve **Düzenlemeyi Durdur**’u seçin.
+9. Üstteki menüde **Sayfa**’yı ve sonra **Düzenlemeyi Durdur**’u seçin.
 
     ![Düzenlemeyi Durdur](media/quickstart-embed/quickstart_embed_13.png)
 
-10. Şimdi raporu sayfada görmeniz gerekir.
+    Rapor, sayfada görüntülenir.
 
     ![iFrame örneği](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Hızlı başlangıç: Power BI Rapor Sunucusu için Power BI raporu oluşturma](quickstart-create-powerbi-report.md)  
-[Hızlı başlangıç: Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma](quickstart-create-paginated-report.md)  
+- [Power BI Rapor Sunucusu için Power BI raporu oluşturma](quickstart-create-powerbi-report.md).  
+- [Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma](quickstart-create-paginated-report.md).  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/) 
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/). 
