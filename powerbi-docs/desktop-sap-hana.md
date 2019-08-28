@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b3a59ae8926ce5e302cfcdecec617d1f3fd107b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513854"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985671"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA'yı kullanma
 Power BI Desktop'ta artık **SAP HANA** veritabanlarına erişebilirsiniz. **SAP HANA**'yı kullanabilmek için Power BI Desktop **SAP HANA** veri bağlantısının düzgün çalışabilmesi amacıyla yerel istemci bilgisayara SAP HANA ODBC sürücüsünün yüklenmesi gerekir. SAP HANA ODBC sürücüsünü [SAP Software Download Center](https://support.sap.com/swdc) sayfasından indirebilirsiniz. Bu sayfada Windows bilgisayarlar için SAP HANA CLIENT uygulamasını arayın. **SAP Software Download Center** sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz.
@@ -36,10 +36,13 @@ Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** ö
 
 * **SAP HANA** için Power BI bağlayıcısı, en iyi kullanıcı deneyimini sunmak için SAP ODBC sürücüsünü kullanır
 * **SAP HANA**, hem DirectQuery hem de İçeri Aktarma seçeneklerini destekler
-* Power BI, HANA bilgi modellerini (Analiz ve Hesaplama görünümleri gibi) destekler ve en iyi duruma getirilmiş gezinti özelliklerine sahiptir
+* Power BI, HANA bilgi modellerini (Analiz ve Hesaplama Görünümleri gibi) destekler ve en iyi duruma getirilmiş gezinti özelliklerine sahiptir
 * **SAP HANA** ile doğrudan SQL özelliğini kullanarak Satır ve Sütun Tablolarına bağlanabilirsiniz
 * HANA Modelleri için En İyi Duruma Getirilmiş Gezinti özelliklerine sahiptir
 * Power BI, **SAP HANA** Değişkenlerini ve giriş parametrelerini destekler
+* HDI kapsayıcı tabanlı Hesaplama Görünümleri
+  * HDI kapsayıcı tabanlı Hesaplama Görünümleri, Power BI Desktop'ın Ağustos 2019 sürümünde genel önizleme aşamasındadır. Power BI'da HDI kapsayıcı tabanlı Hesaplama Görünümlerinize erişmek için, Power BI ile kullandığınız HANA veritabanı kullanıcısının veya kullanıcılarının erişmek istediğiniz görünümlerin depolandığı HDI çalışma zamanı kapsayıcısına erişim izni olduğundan emin olun. Bu erişimi vermek için HDI kapsayıcınıza erişim izni veren bir Rol oluşturmalı ve bu rolü Power BI ile kullanacağınız HANA veritabanı kullanıcısına atamalısınız (bu kullanıcının her zamanki gibi \_SYS\_BI şemasındaki sistem tablolarından okuma izni de olmalıdır). Veritabanı rollerini oluşturma ve atama konusunda ayrıntılı yönergeler için resmi SAP belgelerine bakın. [Bu SAP blog gönderisi](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fblogs.sap.com%2F2018%2F01%2F24%2Fthe-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user%2F&data=02%7C01%7Cv-adbold%40microsoft.com%7Cf7e0a405fe334598ba0608d7096ef5b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636988244476739316&sdata=PuRu61GPRYp34mLuGbQk6gdbRikdgbxfqo8q1RBQtm0%3D&reserved=0) iyi bir başlangıç noktası olabilir.
+  * Şu anda HDI tabanlı Hesaplama Görünümlerine eklenen HANA değişkenleriyle ilgili bazı sınırlamalar olduğuna dikkat edin. Bu sınırlamalar HANA tarafındaki hatalardan kaynaklanır ve SAP HANA'nın gelecek sürümlerinde bu durum düzeltilecektir. İlk olarak HDI kapsayıcı tabanlı Hesaplama Görünümünün paylaşılan bir sütununa HANA değişkeni uygulamak mümkün değildir. Bu sınırlama HANA 2 sürüm 37.02 veya sonraki sürümlere ya da HANA 2 sürüm 42 ve sonraki sürümlere yükseltilerek giderilebilir. İkincisi, değişkenler ve parametreler için çok girdili varsayılan değerler Power BI kullanıcı arabiriminde gösterilmez. Bu durum SAP HANA'daki bir hatadan kaynaklanır, ancak SAP henüz bir düzeltme duyurmamıştır.
 
 ## <a name="limitations-of-sap-hana"></a>SAP HANA ile ilgili sınırlamalar
 **SAP HANA** ile ilgili sınırlamalar aşağıda gösterilmiştir:
@@ -51,9 +54,11 @@ Bu sürümde aşağıdaki listede görebileceğiniz gibi birçok **SAP HANA** ö
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+DirectQuery ve SAP HANA hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen Veri Kaynakları](desktop-directquery-data-sources.md)
+* [SAP HANA için şifrelemeyi etkinleştirme](desktop-sap-hana-encryption.md)
+
 

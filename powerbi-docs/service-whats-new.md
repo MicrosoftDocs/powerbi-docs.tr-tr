@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375278"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655043"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -31,26 +31,26 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ## <a name="may-2019"></a>Mayıs 2019
-* [Özel gezinti](service-create-distribute-apps.md) Power BI uygulamaları için.
-* Ek ekleri türleri (PPTX, XLSX, DOCX, CSV, XML) sayfalandırılmış raporlar içindeki e-posta abonelikleri için kullanılabilir.
+* Power BI Uygulamaları için [özel gezinti](service-create-distribute-apps.md).
+* Sayfalandırılmış raporların içinde e-posta abonelikleri için fazladan ek türleri (PPTX, XLSX, DOCX, CSV, XML) kullanılabilir.
 
 ## <a name="previous-months-2019"></a>Önceki aylar (2019)
 ### <a name="april-2019"></a>Nisan 2019
-* Power BI'ın genel kullanılabilirliği [veri akışlarını](service-dataflows-overview.md).
-* Yeni çalışma alanları deneyimi genel kullanılabilirliği.
-* Yeni Power BI bölgelerde Fransa ve Kore.
-* Güncelleştirilmiş cevap deneyiminde panolar için.
-* Azure Analysis Services içinde desteği [sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md).
-* Sayfalandırılmış raporlar, Power BI uygulamalarında da desteklenir.
-* [E-posta abonelikleri](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) sayfalandırılmış raporlar için PDF ekli.
-* Power BI Premium özeti ve iş yükü ölçümleri Yönetim Portalı'nda desteklenmiyor
-* [Sorgu önbelleği](power-bi-query-caching.md) Power BI Premium'da kullanılabilir.
-* Genel kullanıma sunulduğunu [Power BI giriş](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+* Power BI [veri akışlarının](service-dataflows-overview.md) genel kullanılabilirliği.
+* Yeni çalışma alanları deneyiminin genel kullanılabilirliği.
+* Fransa ve Kore'deki yeni Power BI bölgeleri.
+* Panolar için güncelleştirilmiş Soru-Cevap deneyimi.
+* [Sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) içinde Azure Analysis Services desteği.
+* Power BI Uygulamalarında desteklenen sayfalandırılmış raporlar.
+* Sayfalandırılmış raporlar için PDF ekleriyle [E-posta abonelikleri](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/).
+* Yönetim Portalında desteklenen Power BI Premium özet ve iş yükü ölçümleri
+* Power BI Premium'da sağlanan [sorgu önbelleği](power-bi-query-caching.md).
+* [Power BI Giriş](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)'in genel kullanılabilirliği.
 
 ### <a name="march-2019"></a>Mart 2019
 * Power BI Premium için Multi-Geo Özelliğinin Genel Kullanıma Sunulması.
 * Azure B2B için Power BI içerik desteğini düzenleme ve yönetme.
-* Salt okunur genel önizlemesiyle [XMLA bitiş noktası](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/).
+* Salt okunur [XMLA uç noktasının](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) genel önizlemesi.
 
 ### <a name="february-2019"></a>Şubat 2019
 * [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) iş yükleri ve etkin veri kümesi boyutu ölçümleri.
@@ -87,8 +87,8 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="september-2018"></a>Eylül 2018
 * Power BI hizmetinde [pano yorumlama](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
-* Genel önizlemeye sunulduğunu [Power BI giriş ve genel arama](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
-* Olanağı [sorguları izleme](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) içinde [uygulama izleme kapasitesi](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* [Power BI Giriş ve Genel Arama](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)'nın genel önizlemesi.
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) [sorguları izleme](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) özelliği.
 
 ### <a name="august-2018"></a>Ağustos 2018
 * Power BI Premium için [Kapasite İzleme uygulaması](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
@@ -348,9 +348,9 @@ Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleşt
 * Tam Ekran modu: **Genişliğe Uydur**'u seçerek kutucuklarınızı tuvali dolduracak şekilde genişletme ve fazla boşluğu kaldırma
 * Kutucuklarınızı otomatik olarak tuvalin sol üst köşesine hizalamak için Kutucuk Akışını kullanma.
 
-***Quick Insights (Hızlı Öngörüler)***
+***Hızlı İçgörüler***
 
-* Eğilim ve bağıntı ınsights eğilim çizgileri verilerdeki desenleri görmemizi kolaylaştırmak için artık var.
+* Eğilim ve Bağıntı içgörüleri artık veri desenlerini daha kolay görmeniz için eğilim çizgilerine sahip.
 
 ***Soru-Cevap***
 
@@ -371,7 +371,7 @@ Bugün en çok istenen özelliklerden oluşan kapsamlı bir güncelleştirme yap
 ***Yönetici Portalı***
 
 * Microsoft 365 yönetim merkezi bağlantısı ile daha kolay kullanıcı yönetimi
-* Web'de Yayımla özelliğini devre dışı bırakabilme
+* Web'de yayımlama özelliğini devre dışı bırakabilme
 * Kullanıcıların içerik paketlerini kuruluşun tamamına yayımlamasını engelleme
 * Kuruluş dışındaki kullanıcılarla içerik paylaşımını devre dışı bırakma
 
@@ -502,7 +502,7 @@ Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI B
 * [VMob verilerinizi Power BI'da görselleştirme](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI ile Cortana tümleştirmesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Kuruluşlar için Power BI ağ geçidi önizlemesi](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Yeni bir içerik paketi ile tanışın: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* Yeni içerik paketi tanıtımı: [Bing Arama Analitiği Power BI panolarında](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * Yeni Geliştirici odaklı geliştirmeler: [İki yeni API ve daha kolay uygulama kaydı](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 Kasım 2015**
@@ -620,12 +620,8 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 * Webtrends, şirketlerin müşteri verilerini anlamlı hale getirerek dijital pazarlama alanındaki başarılarını artırmalarına yardımcı olmaktadır. Kullanıcılar ziyaretçilerin web, sosyal, mobil ve SharePoint kanallarındaki yolculuğunu izleyebilir, çözümleyebilir ve bu konuda öngörüler sağlayabilir. Yayımlanan [Webtrends içerik paketi](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) sayesinde kullanıcılar artık Power BI ile Webtrends analiz verilerini izleyebilir, çözümleyebilir ve görselleştirebilir. Power BI için Webtrends içerik paketi [yardım sayfasından](service-connect-to-webtrends.md) bu konu hakkında daha fazla bilgiye ulaşabilirsiniz.
 * Soru-Cevap özelliğini kullanmaya başlamak artık çok daha kolay. İmleci Soru-Cevap metin kutusunun içine yerleştirdiğiniz anda verilerinizle ilgili soruların ve ana ölçümlerin bir listesi görüntülenir.  Açılan menüde varsayılan olarak panoya sabitlenmiş olan kutucuklara ilişkin soruların yanı sıra veri kümenizdeki her tablo için bir giriş bulunacak.
-* Varsayılan olarak görüntülenen dinamik tuval boyutu, tüm rapor öğelerimizi tarayıcı penceresi boyutuna en uygun boyutlarda oluşturmaktadır. En boy oranını sabit tutmak veya raporunuzu farklı bir şekilde boyutlandırmak istiyorsanız yeni eklediğimiz üç seçeneği kullanabilirsiniz: Sayfaya Sığdır, Genişliğe Uydur ve Gerçek Boyut.
+* Varsayılan olarak görüntülenen dinamik tuval boyutu, tüm rapor öğelerimizi tarayıcı penceresi boyutuna en uygun boyutlarda oluşturmaktadır. En boy oyununu kilitlemek veya raporunuzu farklı bir şekilde boyutlandırmak istiyorsanız, artık sizin için üç seçeneği daha destekliyoruz: Sayfaya Sığdır, Genişliğe Uydur ve Gerçek Boyut.
 * Ayrıca sahip olabileceğiniz veri kümesi ve rapor sayısı sınırlarını da yükselttik. Artık Power BI hesabınızda en fazla 200 veri kümesine ve her veri kümesinde en fazla 200 rapora sahip olabilirsiniz.
-
-**25 Ağustos 2015**
-
-* Artık Power BI'ı kullanarak [Adobe Analytics verilerinizi](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx) izleyebilir, keşfedebilir ve görselleştirebilirsiniz. Hazır içerik paketi sayesinde verilerinize hemen bağlanabilir ve öngörüleri keşfedebilirsiniz. Daha fazla bilgi edinmek için [Power BI için Adobe Analytics içerik paketi yardım sayfasını](service-connect-to-adobe-analytics.md) ziyaret edin.
 
 **18 Ağustos 2015**
 
@@ -682,10 +678,6 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 * SweetIQ, konum sağlayıp yerel arama ekosisteminizdeki verileri gözden geçirerek yerel ilanları kolayca takip etmenizi sağlar. Power BI, SweetIQ verilerinizden oluşturulmuş [hazır içerik](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) sayesinde bu verileri çözümlemenizi ve izlemenizi sağlar. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen [Power BI için SweetIQ içerik paketi yardım sayfasına](service-connect-to-sweetiq.md) bakın.
 
-**9 Haziran 2015**
-
-* Power BI, analizleriniz için sunduğu hazır içerikle [MailChimp API'lerini](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx) kullanarak verileri izlemenizi ve keşfetmenizi sağlar. MailChimp senaryosu için tasarlanmış olan pano, raporlar ve veri kümesi Haftanın Gününe Göre Filtrelenmiş Açık Olanlardan En İyi Kampanyalar gibi verilere kolayca erişmenizi sağlar. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen Power BI için MailChimp içerik paketi [belgelerine](service-connect-to-mailchimp.md) bakın.
-
 **2 Haziran 2015**
 
 * Power BI ve [appFigures içerik paketi](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx) ile artık uygulamalarınıza ilişkin önemli istatistikleri izlemek son derece kolay. Bağlantı kurmanıza ve bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için Power BI için appFigures içerik paketi [belgelerine](service-connect-to-appfigures.md) bakın.
@@ -697,7 +689,6 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **13 Mayıs 2015**
 
-* En son Power BI güncelleştirmesi sayesinde **SQL Veritabanı Denetimi** tarafından kaydedilen verilere hazır raporlar ve özelleştirilmiş pano aracılığıyla bağlanabilirsiniz. Bu içerik paketi şüpheli olayları, olağan dışı etkinliği ve eğilimleri raporlamanız için oluşturulmuş bir veri kümesini temel alarak bulmanızı kolay hale getirir. Daha fazla bilgi için [blog gönderisini](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) ve [belgeleri](service-connect-to-azure-sql-database-auditing.md) inceleyin.
 * **Azure SQL Veritabanınızda** depolanan verilere doğrudan bağlanabilirsiniz. Sorguları dinamik olarak oluşturup kaynağa göndererek doğrudan veritabanınız üzerinden etkileşimli raporlar oluşturmanızı sağlıyoruz. Daha fazla bilgi için [blog gönderisini](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) ve [belgeleri](service-azure-sql-database-with-direct-connect.md) inceleyebilirsiniz.
 
 **7 Mayıs 2015**
@@ -714,7 +705,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **15 Nisan 2015**
 
-* Yeni içerik paketimiz sayesinde artık **Google Analytics** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Google Analytics içerik paketiyle sitenizin son 6 aydaki kullanımı hakkında öngörü sahibi olmanızı sağlayacak bir pano, rapor ve veri kümesine sahip olacaksınız. Okuyabilirsiniz [blog gönderimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
+* Yeni içerik paketimiz sayesinde artık **Google Analytics** verilerinizi görselleştirebilir ve keşfedebilirsiniz! Google Analytics içerik paketiyle sitenizin son 6 aydaki kullanımı hakkında öngörü sahibi olmanızı sağlayacak bir pano, rapor ve veri kümesine sahip olacaksınız. [Blog gönderilerimizi](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx) okuyabilirsiniz.
 * Artık Soru-Cevap bölümünde ve raporlarda bulunan, KPI ve Görüntü içermeyen **tüm kartları sabitleyebilirsiniz**
 * Artık sorgunuzun sonuna "as card" ekleyerek **Soru-Cevap'ta kartları kullanabilirsiniz**
 
@@ -732,7 +723,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 
 **26 Ocak 2015**
 
-* Çeşitli hata düzeltmeleri sayesinde hizmet kullanılabilirlik ve güvenilirlik düzeyi artırıldı.
+* Çeşitli hata düzeltmeleri sayesinde hizmetin kullanılabilirlik ve güvenilirlik düzeyi artırıldı.
 
 ## <a name="2014"></a>2014
 **11 Aralık 2014**
