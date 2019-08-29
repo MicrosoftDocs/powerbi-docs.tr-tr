@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324787"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654987"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. Power BI veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
@@ -25,11 +25,11 @@ Power BI, Excel elektronik tablolarından veya yerel veritabanlarından hızlı 
 
 ## <a name="the-parts-of-power-bi"></a>Power BI'ın bileşenleri
 Power BI şunlardan oluşur: 
-- **Power BI Desktop** adlı bir Windows masaüstü uygulaması
-- **Power BI hizmeti** adlı bir çevrimiçi SaaS (*Hizmet olarak Yazılım*) 
-- Windows, iOS ve Android cihazlar için Power BI **mobil uygulamalar**
+- **Power BI Desktop** adlı bir Windows masaüstü uygulaması.
+- **Power BI hizmeti** adlı bir çevrimiçi SaaS (*Hizmet olarak Yazılım*). 
+- Windows, iOS ve Android cihazlar için Power BI **mobil uygulamaları**.
 
-![Power BI Desktop, hizmet, mobil](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, hizmet, mobil](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Bu üç bileşen &mdash;Power BI Desktop, hizmet ve mobil uygulamalar&mdash; kullanıcıların ihtiyaçlarına veya sahip oldukları role uygun iş içgörüleri oluşturmasına, paylaşmasına ve kullanmasına olanak sağlamak için tasarlanmıştır.
 

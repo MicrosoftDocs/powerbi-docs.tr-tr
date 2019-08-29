@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530521"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654910"
 ---
 # <a name="share-a-dataset-preview"></a>Veri kümesi paylaşma (Önizleme)
 
@@ -42,7 +42,7 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak bunları Power BI hizme
 
 ## <a name="build-permissions-for-shared-datasets"></a>Paylaşılan veri kümeleri için oluşturma izinleri
 
-Oluşturma izni türü sadece veri kümeleri için geçerlidir. Kullanıcılar bununla bir veri kümesi üzerinde, raporlar, panolar, Soru-Cevap bölmesinden sabitlenmiş kutucuklar ve Insights Discovery gibi içerikler derleyebilir. Excel’de Çözümleme aracılığıyla Excel sayfaları, XMLA ve dışarı aktarma gibi Power BI dışındaki veri kümesinde de yeni içerik derleyebilirler.
+Oluşturma izni türü sadece veri kümeleri için geçerlidir. Kullanıcılar bununla bir veri kümesi üzerinde, raporlar, panolar, Soru-Cevap bölmesinden sabitlenmiş kutucuklar ve Insights Discovery gibi içerikler derleyebilir. Excel’de Çözümleme, XMLA ve temel verileri dışarı aktarma aracılığıyla Excel sayfaları gibi Power BI dışındaki bir veri kümesinde de yeni içerik oluşturabilirler.
 
 Kullanıcılar farklı şekillerde Oluşturma izni alır:
 
@@ -72,7 +72,7 @@ Daha ayrıntılı bu Oluşturma izni ile mevcut rapor veya panodaki içeriği ki
 
 Veri kümeniz veri kümesi çalışma alanının dışındaki bir rapor tarafından kullanılıyorsa o veri kümesini silemezsiniz. Bunun yerine bir hata iletisi görürsünüz.
 
-Oluşturma izinlerini kaldırabilirsiniz. Bunu yaparsanız, izinlerini iptal ettiğiniz kişiler raporu görmeye devam eder ancak raporu artık düzenleyemez.
+Oluşturma izinlerini kaldırabilirsiniz. Bunu yaparsanız, izinlerini iptal ettiğiniz kişiler raporu görmeye devam eder ancak raporu artık düzenleyemez veya temel verileri dışarı aktaramaz. Yalnızca okuma izni olan kullanıcılar özetlenmiş verileri yine dışarı aktarabilir. 
 
 ## <a name="track-your-dataset-usage"></a>Veri kümesi kullanımınızı izleme
 

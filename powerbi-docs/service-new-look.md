@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmeti 'yeni görünüm' öğesine gidin
+title: Power BI hizmetinin 'yeni görünümü'
 description: Power BI hizmetinin (app.powerbi.com) görünümü yenilendi. Bu makalede, yeni görünüm kullanılarak raporlarda nasıl gezinebileceğiniz açıklanır.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471319"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654941"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Power BI hizmeti 'yeni görünüm' öğesine gidin
+# <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
-Power BI hizmeti yeni bir görünüme sahip. Raporları görüntülemeyi daha kolay hale getirdik. Yeni görünüm, daha basit olan ve diğer Microsoft ürünlerine yönelik bilgilerinizden yararlanan modern bir deneyimdir. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
+Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Yeni görünüm, daha basit olan ve diğer Microsoft ürünlerine yönelik bilgilerinizden yararlanan modern bir deneyimdir. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
 
 ![Değişikliklere yeni genel bakış](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ Bu animasyon, raporların nasıl görüneceğine ilişkin değişiklikleri işle
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. Yeni görünümü kabul etme
 
-Herhangi bir Power BI hizmeti kullanıcısı yeni görünümü kullanmayı seçebilir. **Yeni görünüm kapalı** öğesini **Yeni görünüm kapalı** konumuna kaydırın.
+Herhangi bir Power BI hizmeti kullanıcısı yeni görünümü kullanmayı seçebilir. **Yeni görünüm kapalı** öğesini **Yeni görünüm açık** konumuna kaydırın.
 
 ![Yeni görünümü kabul etme](media/service-new-look/power-bi-new-look-off.png)
 
-Eski görünüme geri dönmeniz gerekiyorsa, sağ üst köşedeki üç nokta menüsünü seçin.
+Eski görünüme dönmeniz gerekirse bunu **kapalı** ![Yeni görünüm açık](media/service-new-look/power-bi-new-look-toggle-on.png) konumuna geri kaydırmanız yeterlidir. Bu düğmeyi görmüyorsanız sağ üst köşedeki üç nokta menüsünü seçin.
 
 ![Yeni görünümü reddetme](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Panolar ayrıca, tutarlı bir deneyim için, işlevsel farklılıkları korurken
 
 ## <a name="no-changes-to-edit-mode"></a>Düzenleme modunda değişiklik yapılmadı 
 
-Yazma deneyimini Desktop’takine benzer şekilde bıraktık. Yeni görünüm değişiklikleri yalnızca okuma görünümü için geçerlidir.
+Yazma deneyimini Desktop’taki deneyime benzer şekilde bıraktık. Yeni görünüm değişiklikleri yalnızca okuma görünümü için geçerlidir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

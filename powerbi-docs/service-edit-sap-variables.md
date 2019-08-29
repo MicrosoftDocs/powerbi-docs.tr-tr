@@ -1,8 +1,8 @@
 ---
 title: Power BI hizmetinde SAP değişkenlerini düzenleme (önizleme)
 description: Azure ve Power BI
-author: maggiesMSFT
-ms.author: maggies
+author: Sujata994
+ms.author: sunaraya
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aff72d8efed716af2e7f4c881b22af12e248c207
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962907"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654867"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Power BI hizmetinde SAP değişkenlerini düzenleme (önizleme)
 

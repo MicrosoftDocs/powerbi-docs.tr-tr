@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996071"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985794"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
 Bu makale Power BI Desktop veri modelleyicilerine yöneliktir. Yıldız şeması tasarımı ve bunun performans ve kullanılabilirlik için iyileştirilmiş Power BI veri modellerinin geliştirilmesine neden uygun olduğu açıklanır.
 
@@ -66,7 +66,7 @@ Yıldız şeması tasarımında Power BI modeline uygulanabilecek birçok başka
 
 Yıldız şeması tasarımında **ölçü** özetlenecek değerlerin depolandığı bir olgu tablosu sütunudur.
 
-Power BI modelinde **ölçünün** farklı ama benzer bir tanımı vardır. Özetleme yapabilen [Veri Çözümleme İfadeleri (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) dilinde yazılmış bir formüldür. Ölçü ifadeleri çoğunlukla sorgu süresinde skaler bir değer sonucu üretmek için SUM, MIN, MAX ve AVERAGE gibi DAX toplama işlevlerinden yararlanır (değerler hiçbir zaman modelde depolanmaz). Ölçü ifadesi basit sütun toplamalarından filtre bağlamını ve/veya ilişki yaymalarını geçersiz kılan daha gelişmiş formüllere kadar değişebilir. Daha fazla bilgi için [Power BI Desktop'ta DAX ile İlgili Temel Bilgiler](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) makalesini okuyun. Daha fazla bilgi edinme bağlantısı?
+Power BI modelinde **ölçünün** farklı ama benzer bir tanımı vardır. Özetleme yapabilen [Veri Çözümleme İfadeleri (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) dilinde yazılmış bir formüldür. Ölçü ifadeleri çoğunlukla sorgu süresinde skaler bir değer sonucu üretmek için SUM, MIN, MAX ve AVERAGE gibi DAX toplama işlevlerinden yararlanır (değerler hiçbir zaman modelde depolanmaz). Ölçü ifadesi basit sütun toplamalarından filtre bağlamını ve/veya ilişki yayma işlemini geçersiz kılan daha gelişmiş formüllere kadar değişebilir. Daha fazla bilgi için [Power BI Desktop'ta DAX ile İlgili Temel Bilgiler](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) makalesini okuyun.
 
 Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha desteklediğini anlamanız önemlidir. Herhangi bir sütun ve genellikle de sayısal sütunlar rapor görseli veya Soru-Cevap kullanılarak özetlenebilir. Birçok durumda ölçüler oluşturmanız gerekmediğinden bir model geliştiricisi olarak bu size kolaylık sağlar. Örneğin Adventure Works bayi satışlarının **Sales Amount** (Satış Tutarı) sütunu, olası her toplama türü için bir ölçü oluşturmaya gerek kalmadan çok sayıda yolla (sum, count, average, median, min, max vb.) özetlenebilir.
 

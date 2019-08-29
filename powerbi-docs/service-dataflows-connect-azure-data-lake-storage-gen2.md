@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523481"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621249"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -177,6 +177,7 @@ Bu özellik bir önizleme özelliği olup, sürüm zamanı yaklaştıkça davran
 * Yalnızca Azure Data Lake Storage 2. Nesil’de depolanan bir veri akışının sahipleri varsayılan olarak bunun verilerine erişebilir. Azure’da depolanan veri akışları için ek kişileri yetkilendirmek istiyorsanız, veri akışının CDM klasörüne bunları eklemeniz gerekir 
 * Bağlantılı varlıklar ile veri akışları oluşturmak yalnızca bu varlıklar aynı depolama hesabında depolandığında mümkündür
 * Power BI paylaşılan kapasitelerinde şirket içi veri kaynakları, kuruluşunuzun veri gölünde depolanan veri akışlarında desteklenmez
+* ADLS 2. Nesil'de anlık görüntüler otomatik olarak silinmez. Yer açmak istiyorsanız eski anlık görüntüleri düzenli aralıklarla temizleyen bir Azure işlevi oluşturabilirsiniz.
 
 Bu bölümde açıklandığı gibi bilinen birkaç sorun vardır.
 

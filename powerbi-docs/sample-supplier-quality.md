@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391303"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621306"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın
 
@@ -144,7 +144,7 @@ En iyi yönetilen malzeme türü, hata miktarına bakılmaksızın en düşük �
     2014'te 2013'e göre çok daha fazla ham madde hatası vardı.  
 
     ![Soru-Cevap sorusu: Malzeme türlerini, yılı ve toplam hata miktarını göster](media/sample-supplier-quality/supplier12.png)  
-6. Daha sonra, soruyu *show material types, year, and total **downtime minutes*** (malzeme türlerini, yılı ve dakika cinsinden toplam çalışmama süresini göster) olarak değiştirin.  
+6. Daha sonra, soruyu _show material types, year, and total **downtime minutes**_ (malzeme türlerini, yılı ve dakika cinsinden toplam çalışmama süresini göster) olarak değiştirin.  
 
    ![Soru-Cevap sorusu: Malzeme türlerini, yılı ve toplam kapalı kalma dakikasını göster](media/sample-supplier-quality/supplier13.png)
 

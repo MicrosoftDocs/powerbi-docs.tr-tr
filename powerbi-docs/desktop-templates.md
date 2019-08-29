@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563678"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985645"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop’taki şablonları kullanma
 
@@ -70,7 +70,10 @@ Parametreler ve veriler belirtildikten sonra tüm sayfaları, görselleri, veri 
 İşte bu kadar. Power BI Desktop rapor şablonlarının oluşturulması ve kullanılması kolaydır, bu sayede etkileyici düzenleri ve diğer rapor yönlerini kolayca yeniden üretebilir ve başkalarıyla paylaşabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+**Sorgu Parametreleri** hakkında bilgi edinmek de ilginizi çekebilir:
+* [Power BI Desktop'ta Sorgu Parametrelerini kullanma](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+Bunun yanı sıra, Power BI Desktop ile yapabileceğiniz birçok şey vardır. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)

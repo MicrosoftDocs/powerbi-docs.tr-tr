@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559022"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985771"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
 
 Artımlı yenileme, aşağıdaki avantajlarla Power BI Premium hizmetindeki çok büyük veri kümelerini etkinleştirir:
 
-- **Yenilemeler daha hızlıdır** - Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, on yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
-
-- **Yenilemeler daha güvenilir olur** - Artık geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
-
-- **Kaynak tüketimi azaltılır** - Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
+> [!div class="checklist"]
+> * **Yenilemeler daha hızlıdır** - Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, on yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
+> * **Yenilemeler daha güvenilir olur** - Artık geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
+> * **Kaynak tüketimi azaltılır** - Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
 
 ## <a name="configure-incremental-refresh"></a>Artımlı yenilemeyi yapılandırma
 
@@ -51,9 +50,13 @@ Parametreler tanımlandığında, bir sütun için **Özel Filtre** menü seçen
 
 ![Özel filtre](media/service-premium-incremental-refresh/custom-filter.png)
 
-Sütun değerinin **RangeStart** değerinden *sonra veya eşit* olduğu ve **RangeEnd** değerinden *önce* olduğu satırların filtrelendiğinden emin olun.
+Sütun değerinin **RangeStart** değerinden *sonra veya eşit* olduğu ve **RangeEnd** değerinden *önce* olduğu satırların filtrelendiğinden emin olun. Diğer filtre birleşimleri satırların çift sayılmasına yol açabilir.
 
 ![Satırları filtreleme](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> Sorgularda **RangeStart** veya **RangeEnd** parametresinde eşittir (=) işareti olduğunu ama her ikisinde birden olmadığını doğrulayın. Her iki parametrede de eşittir (=) işareti varsa, bir satır iki bölüm için de koşullara uyabilir ve bu durum modelde yinelenen verilere yol açabilir. Örneğin,  
+> \#"Filtrelenen Satırlar" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) yinelenen veriler oluşması sonucunu verebilir.
 
 > [!TIP]
 > Parametrelerin veri türünün tarih/saat olması gerekse de, parametreler veri kaynağının gereksinimleriyle eşleşecek şekilde dönüştürülebilir. Örneğin, aşağıdaki Power Query işlevi bir tarih/saat değerini, veri ambarları için ortak olan *yyyyaagg* biçimindeki bir tamsayı vekil anahtarına benzeyecek şekilde dönüştürür. İşlev, filtre adımı tarafından çağrılabilir.
@@ -152,7 +155,7 @@ Artımlı yenileme yalnızca Premium özellik olduğundan yayımlama iletişim k
 
 [Yenileme sorunlarını giderme](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) makalesinde, Power BI hizmetindeki yenileme işlemlerinin zaman aşımına tabi olduğu açıklanmaktadır. Sorgular, veri kaynağı için varsayılan zaman aşımıyla da sınırlanabilir. Çoğu ilişkisel kaynak, M ifadesindeki zaman aşımlarının geçersiz kılınmasına olanak sağlar. Örneğin, aşağıdaki ifadede zaman aşımını 2 saate ayarlamak için [SQL Server veri erişimi işlevi](https://msdn.microsoft.com/query-bi/m/sql-database) kullanılır. İlke aralıkları tarafından tanımlanan her dönem, komut zaman aşımı ayarını gözlemleyerek bir sorgu gönderir.
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>Sınırlamalar
 
 Şu anda [bileşik modeller](desktop-composite-models.md) için yalnızca SQL Server, Azure SQL Veritabanı, SQL Veri Ambarı, Oracle, ve Teradata veri kaynaklarında artımlı yenileme desteklenmektedir.
+

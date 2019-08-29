@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362725"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008110"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Kapasiteleri Yönetim portalında veya **Power BI Premium Kapasite Ölçümleri** uygulamasıyla izleyebilirsiniz. Bu makalede Premium Kapasite Ölçümleri uygulamasının kullanımı açıklanır. Uygulama kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Son yedi günün ortalama kullanım ölçümlerine üst düzey bir genel bakış için Yönetim portalını kullanabilirsiniz. Portalı izleme hakkında daha fazla bilgi edinmek için bkz. [Yönetim portalında Premium kapasiteleri izleme](service-admin-premium-monitor-portal.md).
 
-Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir. 
+Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
 Doğrudan [Premium Kapasite Ölçümleri uygulamasına](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gidebilir veya Power BI'daki diğer uygulamalar gibi yükleyebilirsiniz.
 
+1. Power BI'da **Uygulamalar**'a tıklayın.
 
-1. Power BI'da **Uygulamalar**'a tıklayın.   
     ![Uygulamalar bölümüne gidin](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. Sağ taraftaki **Uygulama edinin**'e tıklayın.
@@ -245,7 +245,7 @@ Veri kümeleri sayfasında beş farklı *alan bulunur*: **Yenilemeler**, **Sorgu
 | **Rapor bölümü** | **Metrics** (Ölçümler) |
 | --- | --- |
 | CPU tüketimi |  Toplam CPU kapasitesinin yüzdesi olarak iş yüküne göre tüketim. Önceki yedi gün için saatlik olarak gösterilir. |
-| Bellek tüketimi |  İş yükü sınırlarıyla (noktalı çizgi) çakışan iş yüküne (düz çizgiler) göre GB cinsinden bellek tüketimi. Önceki yedi gün için saatlik olarak gösterilir. |
+| Bellek tüketimi |  İş yükü sınırlarıyla (noktalı çizgi) çakışan iş yüküne (düz çizgiler) göre GB cinsinden bir saatlik bellek tüketimi üst sınırı. Önceki yedi gün için saatlik olarak gösterilir. |
 |  |  |
 
 ### <a name="ids-and-info"></a>Kimlikler ve Bilgiler

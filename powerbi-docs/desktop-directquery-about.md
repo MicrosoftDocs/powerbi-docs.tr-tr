@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590547"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654762"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı yollarla gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** olarak bilinen yöntemle verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede **DirectQuery** ve özellikleri açıklanır:
@@ -140,11 +140,8 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
 * **Hesaplanmış sütunlara yönelik sınırlamalar:** Hesaplanmış sütunlar satır içi işlemlerle sınırlıdır; herhangi bir toplama işlevi kullanılmadan yalnızca aynı tablonun diğer sütunlarındaki değerlerine başvurabilir. Buna ek olarak, izin verilen DAX skaler işlevleri (LEFT () gibi), temel alınan kaynağa kolayca gönderilebilecek olanlarla sınırlıdır. Bu nedenle, kaynağın tam olarak hangi özelliklere sahip olduğuna göre değişiklik gösterir. Hesaplanmış bir sütun için DAX yazılırken, desteklenmeyen işlevler otomatik tamamlamada listelenmez ve kullanılırsa hataya neden olur.
 * **Üst-alt DAX işlevleri desteği yok:** DirectQuery modelinde, genellikle Üst-Alt yapıları (hesaplar grafiği ve çalışan hiyerarşileri gibi) işleyen DAX PATH() işlev ailesini kullanmak mümkün değildir.
 * **Hesaplanan tablolar desteklenmiyor:** DAX ifadesi kullanarak hesaplanan tablo tanımlama özelliği, DirectQuery modunda desteklenmez.
-* **İlişki filtreleme tek bir yönle sınırlı:** DirectQuery kullanılırken bir ilişkideki Çapraz Filtre yönü "Her İkisi De" olarak ayarlanamaz. Örneğin, aşağıdaki üç tablo ile her bir Customer[Gender] verisini ve her müşterinin satın aldığı Product[Category] sayısını gösteren bir görsel oluşturulamaz. Bu türde iki yönlü filtreleme kullanımı [bu teknik incelemede ayrıntılı şekilde](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  Aynı şekilde, sınırlamanın nedeni performansa yönelik etkileridir. Bunun özellikle önemli olduğu uygulamalardan biri de raporun parçası olarak Satır Düzeyi Güvenlik tanımlanırken kullanılmasıdır. Genelde kullanıcılar ve erişmelerine izin verilen varlıklar arasında çoka çok ilişki bulunur ve bunun zorlanması için iki yönlü filtreleme kullanımı gereklidir. Ancak, DirectQuery modelleri için iki yönlü filtreleme kullanımında, performansı kötü etkileyebilecek noktalara dikkat edilmelidir.  
+* **İlişki filtrelemesi:** İki yönlü filtreleme kullanımı [bu teknik incelemede](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) ayrıntılı şekilde açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
+
 * **Kümeleme yok:** DirectQuery kullanılırken grupları otomatik olarak bulmak için Kümeleme özelliği kullanılamaz
 
 ### <a name="reporting-limitations"></a>Raporlama sınırlamaları

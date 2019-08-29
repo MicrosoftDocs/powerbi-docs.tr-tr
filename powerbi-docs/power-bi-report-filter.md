@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346250"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654425"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI raporlarındaki yeni filtre deneyimi
 
@@ -48,6 +48,10 @@ Yeni filtre deneyimi, yeni raporlar için varsayılan olarak açıktır. Mevcut 
 3. **Filtreleme deneyimi**'nin altında **Güncelleştirilmiş filtre bölmesini etkinleştirin ve bu rapor için görsel üst bilgisinde filtreleri gösterin** öğesini seçin.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Hizmette mevcut olan bir rapor için yeni filtreleri açma
+
+Power BI hizmetinde **Yeni görünümü** açtıysanız ![Yeni görünüm açık](media/power-bi-report-filter/power-bi-new-look-on.png), yeni filtre deneyimi otomatik olarak açılır. [Power BI hizmetinde yeni görünüm](service-new-look.md) hakkında daha fazla bilgi edinin.
+
+Yeni görünümü açmadıysanız, yine de şu adımları izleyerek yeni filtre deneyimini görebilirsiniz.
 
 1. Power BI hizmetinde, çalışma alanına ilişkin içerik listesinden **Raporlar** sekmesini seçin.
 2. Etkinleştirmek istediğiniz raporu bulup **Ayarlar** simgesini ve o rapor için ![Rapor Ayarları simgesini](media/power-bi-report-filter/power-bi-settings-icon.png) seçin.
@@ -121,15 +125,13 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 1. Raporda, raporun kendisine veya arka plana (*duvar kağıdı*) tıklayın ve **Görselleştirmeler** bölmesinde **Biçimlendir**'i seçin. 
     Rapor sayfasını, duvar kağıdını ve ayrıca Filtreler bölmesiyle Filtre kartlarını biçimlendirme seçeneklerini görürsünüz.
 
-    ![Biçim simgesini seçin](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. Arka plan, simge ve sol kenarlık rengini rapor sayfasını tamamlayacak şekilde ayarlamak için **Filtre bölmesini** genişletin.
 
-    ![Filtre bölmesini genişletme](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![Filtre bölmesini genişletme](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. **Kullanılabilir** ve **Uygulanmış** kart rengini ve kenarlığını ayarlamak için **Filtre kartlarını** genişletin. Kullanılabilir ve uygulanmış kartları farklı renklerde ayarlarsanız, hangi filtrelerin uygulandığı rahatça görülür. 
   
-    ![Filtre kartını genişletme](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![Filtre kartını genişletme](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Filtre bölmesi için tema oluşturma
 Artık tema dosyasıyla filtre bölmesinin varsayılan ayarlarını değiştirebilirsiniz. Aşağıda başlangıç yapmanıza yardımcı olacak bir örnek tema kod parçacığı verilmiştir:

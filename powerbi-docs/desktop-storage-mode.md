@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364401"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654746"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modu
 
@@ -62,6 +62,10 @@ Depolama modu üç değerden biri olabilir:
 * **İkili**: İkili tablolar, Power BI veri kümesine gönderilen sorguların bağlamına göre önbelleğe alınmış veya alınmamış gibi davranabilir. Bazı durumlarda sorguları önbelleğe alınmış verilerden yanıtlarsınız. Diğer durumlarda sorguları veri kaynağında isteğe bağlı sorgu yürüterek yanıtlarsınız.
 
 Bir tablonun ayarını **İçeri Aktarma** olarak değiştirme işlemi *geri alınamaz*. Bu özellik DirectQuery veya İkili olarak değiştirilemez.
+
+> [!NOTE]
+> Power BI Desktop'ta ve Power BI hizmetinde *Çift* depolama modu kullanabilirsiniz.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery ve İkili tabloların kısıtlamaları
 

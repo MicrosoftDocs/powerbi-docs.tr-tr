@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565375"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654279"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -51,7 +51,7 @@ Evet. Power BI Pro; raporlar yayımlamak, panolar paylaşmak, çalışma alanlar
 **Power BI Pro ve Power BI Premium'un Modern BI gereksinimlerini karşılama amacıyla birlikte çalıştığı bir senaryo örneği verebilir misiniz?**  
 Aşağıdaki örnekler müşterilerin Power BI Pro ve Power BI Premium’u kullanarak BI ihtiyaçlarını nasıl karşıladığını gösterir.
 
-| 1. Senaryo | 2. Senaryo | 3. Senaryo | 4. Senaryo |
+| 1\. Senaryo | 2\. Senaryo | 3\. Senaryo | 4\. Senaryo |
 | --- | --- | --- | --- |
 | Bir kuruluş veya departman, her çalışanın self servis BI özelliklerine sahip olmasını ve diğer çalışanlarla işbirliği yapmasını istemektedir. Buna pano paylaşma, geçici çözümleme gerçekleştirme ve rapor yayımlama özellikleri dahildir. | Bir kuruluş veya departman, self servis BI ve işbirliği özelliklerine ihtiyaç duyan kullanıcıların yanı sıra yalnızca BI içeriğini kullanma ihtiyacı duyan kullanıcılara sahiptir. | Bir kuruluş veya departman, self servis BI ve işbirliği özelliklerine ihtiyaç duyan kullanıcıların yanı sıra raporları şirket içi ortamda saklama gereksinimine sahiptir. | Bir finans departmanı, kâr açıklaması öncesinde birden fazla büyük veri kümesini çözümleme amacıyla etkin bir çalışma yürütmektedir ve iş yüklerini yönetmek için kesintisiz ve yalıtılmış kapasiteye ihtiyaç duymaktadır. |
 | **Çözüm:**<br/><br/>1. Her kullanıcı için Power BI Pro<br/><br/>2. Power BI Premium'u ekleyerek fırsatı genişletmeye çalışın, ek senaryoları inceleyin |**Çözüm:**<br/><br/>1. Self servis BI ve işbirliğine ihtiyaç duyan kullanıcılar için Power BI Pro<br/><br/>2. BI içeriğini yalnızca kullanacak olan kullanıcılara dağıtmak için Power BI Premium'u ekleyin |**Çözüm:**<br/><br/>1. Self servis BI ve işbirliğine ihtiyaç duyan kullanıcılar için Power BI Pro<br/><br/>2. Şirket içi ortamda rapor yayımlamak ve uygun şekilde buluta taşımalarını sağlamak için Power BI Premium'u ekleyin |**Çözüm:**<br/><br/>1. Finans departmanındaki tüm kullanıcılar için Power BI Pro<br/><br/>2. Daha büyük ölçek ve daha yüksek performans sunmak amacıyla yalnızca finans ekibi tarafından kullanılacak adanmış bulut kaynakları için Power BI Premium ekleyin |
@@ -76,9 +76,9 @@ Power BI Premium, Power BI Pro eklentisi olarak mevcuttur. Office 365 E5'te Powe
 
 **Power BI Rapor Sunucusu nedir? Power BI'ın şirket içi ortamda kullanılabilir hale getirildiği anlamına mı geliyor?**
 
-Power BI Rapor Sunucusu, kuruluşun güvenlik duvarının içinde etkileşimli Power BI raporlarının ve sayfalandırılmış raporların dağıtılmasını ve paylaşılmasını sağlayan bir şirket içi sunucudur. Power BI Rapor Sunucusu'na Power BI Premium üzerinden veya Yazılım Güvencesi destekli SQL Server Enterprise Edition müşterileri için bir ayrıcalık olarak ulaşılabilir. Daha fazla bilgi için Microsoft temsilcinizle de iletişime geçin.
+Power BI Rapor Sunucusu, kuruluşun güvenlik duvarının içinde etkileşimli Power BI raporlarının ve sayfalandırılmış raporların dağıtılmasını ve paylaşılmasını sağlayan bir şirket içi sunucudur. Power BI Rapor Sunucusu'na Power BI Premium üzerinden veya Yazılım Güvencesi destekli SQL Server Enterprise Edition müşterileri için bir ayrıcalık olarak ulaşılabilir. Lisanslama hakkında bilgi için bkz. [Power BI Rapor Sunucusu'nu lisanslama](report-server/get-started.md#licensing-power-bi-report-server). Ayrıntıları için Microsoft temsilcinizle de iletişime geçin.
 
-Power BI Premium ile bir kuruluşun bulutta kullanıma aldığı sayıda sanal çekirdek, Power BI Rapor Sunucusu üzerinden şirket içi ortama dağıtılabilir. Kapasiteyi ayırmaya gerek yoktur. Kuruluşlar Power BI'ı bulutta tutmayı veya Power BI Rapor Sunucusu ile raporları şirket içi ortamda saklamayı ve dilediğinde buluta taşımayı tercih edebilir.
+Power BI Premium ile bir kuruluşun bulutta sağladığı sayıda sanal çekirdek, Power BI Rapor Sunucusu üzerinden şirket içi ortama da dağıtılabilir. Kapasiteyi ayırmaya gerek yoktur. Kuruluşlar Power BI'ı bulutta tutmayı veya Power BI Rapor Sunucusu ile raporları şirket içi ortamda saklamayı ve dilediğinde buluta taşımayı tercih edebilir.
 
 Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](report-server/get-started.md).
 
