@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8827f7dc500ff23e69577ac67b43480d8633f5ef
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: cd478abbac94c6b8aaf5aaa087dbfa4840e05fd7
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721265"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184526"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Power BI ile Projectplace by Planview'a bağlanma
 Projectplace by Planview içerik paketi ile işbirliğine dayalı proje verilerinizi, tamamen yeni yöntemlerle doğrudan Power BI'da görselleştirebilirsiniz. Önemli proje istatistiklerini etkileşimli olarak görüntülemek, en etkin ve üretken ekip üyelerinizi bulmak ve Projectplace hesabınızdaki projeler arasında risk altında bulunan kartları ve etkinlikleri belirlemek için Projectplace oturum açma kimlik bilgilerinizi kullanın. Ayrıca, sizin için en önemli öngörüleri edinmek üzere kullanıma hazır pano ve raporların kapsamını genişletebilirsiniz.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI'da Projectplace içerik paketine bağlanma](https://app.powerbi.com/getdata/services/projectplace)
 

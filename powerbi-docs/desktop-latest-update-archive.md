@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c2af7db67c637ca795bd501609d05d317d2a3e00
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: a7061597df08e82f3128b6fc85ed2841569922c4
+ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023457"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70064633"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -492,19 +492,6 @@ Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta v
 
 > [!NOTE]
 > Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
-
-
-Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
-
-* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
-* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
-* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
-* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
-
-Önceki sürümü indirmek için bağlantıları izleyin: 
-
-* [Power BI Desktop'ın Şubat 2019 sürümü - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02.msi)
-* [Power BI Desktop'ın Şubat 2019 sürümü - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02_x64.msi)
 
 
 ## <a name="january-2019-update"></a>Ocak 2019 Güncelleştirmesi

@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e6c63d93c876377da7a5d36e814431dfda8665c3
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61151926"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185789"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI ile VMob'a bağlanma
 Power BI ve VMob içerik paketi ile VMob verilerinizi izlemek ve araştırmak çok kolay. Power BI şu verileri alır: Tüm zamanlara ve son 30 güne ait Kullanıcı İstatistikleri, son 30 güne ait Perakende KPI'si ve son 30 güne ait Kampanya Performansı.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI için [VMob içerik paketine](https://app.powerbi.com/getdata/services/vmob) bağlanın.
 

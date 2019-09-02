@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: efea81ab0a65b336e01c7a69af2189e31ae5d9f8
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 7440fb6dfcd181b6b1164260626cd0bfa7cda991
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721179"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185420"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI ile Mandrill'e bağlanma
 Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir raporlar kümesi ve bir veri kümesi oluşturarak verilerinizi araştırmanıza olanak sağlar. Mandrill'in analizini kullanarak bülten veya pazarlama kampanyanız hakkında öngörüler elde edin. Veriler, güncel bir izleme deneyimi elde etmenizi sağlamak üzere günlük olarak yenilenir.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI için Mandrill içerik paketine](http://app.powerbi.com/getdata/services/mandrill) bağlanın.
 

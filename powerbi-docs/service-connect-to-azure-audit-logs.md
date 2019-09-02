@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 02/06/2018
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720598"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186054"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Azure Audit Logs içerik paketine bağlanın](https://app.powerbi.com/getdata/services/azure-audit-logs) veya Power BI ile [Azure Audit Logs tümleştirmesi](https://powerbi.microsoft.com/integrations/azure-audit-logs) hakkında daha fazla bilgi edinin.
 
@@ -60,8 +62,8 @@ Azure Audit Logs içerik paketi için Azure portalda Denetim Günlükleri erişi
 ## <a name="finding-parameters"></a>Parametreleri bulma
 Abonelik kimliğinizi bulmanın iki kolay yolu vardır.
 
-1. [https://portal.azure.com](https://portal.azure.com) -&gt;Gözat - &gt; Abonelikleri - &gt; Abonelik Kimliği bölümünden
-2. [https://manage.windowsazure.com](https://manage.windowsazure.com) -&gt;Ayarları  -&gt; Abonelik Kimliği bölümünden
+1. [https://portal.azure.com](https://portal.azure.com ) -&gt; Gözat - &gt; Abonelikleri - &gt; Abonelik Kimliği bölümünden
+2. [https://manage.windowsazure.com](https://manage.windowsazure.com ) -&gt; Ayarları  -&gt; Abonelik Kimliği bölümünden
 
 Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer şekilde sayılardan ve karakterlerden oluşan uzun bir dizidir. 
 

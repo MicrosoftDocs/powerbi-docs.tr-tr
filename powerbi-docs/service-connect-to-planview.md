@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64b8b0cce79e2c859ea4d926e1f0d3dfc0c1b83b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163133"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185853"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Power BI ile Planview Enterprise'a bağlanma
 Planview Enterprise içerik paketi, kaynağınızı ve iş yönetim verilerinizi doğrudan Power BI'da yepyeni yöntemlerle görselleştirmenizi sağlar. Planview Enterprise oturum açma kimlik bilgilerinizi kullanarak portföy yatırım harcamalarınızı etkileşimli olarak görün, hangi noktalarda bütçeyi aştığınızı veya bütçenin altında kaldığınızı anlayın ve projelerinizin kurumsal stratejik önceliklerinizle ne kadar uyumlu olduğunu öğrenin. Ayrıca sizin için en önemli olan öngörüleri almak için kullanıma hazır panoları ve raporları genişletebilirsiniz.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI'da Planview Enterprise içerik paketine](https://app.powerbi.com/getdata/services/planview-enterprise) bağlanma
 

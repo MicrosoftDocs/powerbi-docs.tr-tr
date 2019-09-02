@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e24e6f86cddcf328497c050f82612d36efa3a4ed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 25339052c0ddf410dab473a5a4a2fd9bbe445120
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720504"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184625"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Power BI ile Webtrends'e Bağlanma
 Power BI için Webtrends içerik paketi, toplam sayfa görüntüleme sayısı ve trafik kaynağına göre ziyaretler gibi kullanıma hazır ölçümler içerir. Webtrends verilerinizi Power BI'da görselleştirmeye başlamak için, Webtrends hesabınıza bağlanmanız gerekir. Sağlanan panoyu ve raporları kullanabilir veya bunları, en çok önem verdiğiniz bilgileri öne çıkaracak şekilde özelleştirebilirsiniz.  Veriler günde bir kez otomatik olarak yenilenir.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI için Webtrends içerik paketine](https://app.powerbi.com/getdata/services/webtrends) bağlanın.
 

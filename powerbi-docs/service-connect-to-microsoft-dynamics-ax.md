@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6a13c7fa6e1c33c3a839b4c835c991c143b77072
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174410"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185875"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Power BI ile Microsoft Dynamics AX içerik paketine bağlanma
 Microsoft Dynamics AX, farklı işletme kullanıcılarına yönelik üç farklı Power BI içerik paketine sahiptir. CFO'lar için tasarlanmış olan Financial Performance içerik paketi, kuruluşunuzun mali performansıyla ilgili öngörülere erişim sağlar. Kanal yöneticileri için tasarlanmış olan Retail Channel Performance içerik paketi, Perakende ve Ticaret verilerini doğrudan çekerek eğilimleri tahmin etmek ve öngörüleri keşfetmek için satış performansına odaklanır. COO ve CFO'lar için tasarlanmış olan Cost Management, operasyonel performans hakkında ayrıntılı bilgiler sunar.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI için Microsoft Dynamics AX [Retail Channel Performance](https://app.powerbi.com/getdata/services/dynamics-ax-retail-channel-performance), [Financial Performance](https://app.powerbi.com/getdata/services/dynamics-ax-financial-performance) veya [Cost Management](https://app.powerbi.com/getdata/services/dynamics-ax-cost-management) içerik paketine bağlanın.
 

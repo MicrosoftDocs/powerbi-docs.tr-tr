@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3a41b237ccc4e249d85385b54860f60460efbb31
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61177261"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186113"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Power BI ile Application Insights'a Bağlanma
 [Application Insights](/azure/application-insights/app-insights-overview/) telemetrisiyle güçlü, özel panolar oluşturmak için Power BI'ı kullanın. Uygulama telemetrinizi yeni yöntemlerle tasarlayın. Birden çok uygulama veya bileşen hizmetinden alınan ölçümleri tek bir panoda birleştirin. Power BI için Application Insights içerik paketinin ilk sürümünde kullanım ile ilgili yaygın ölçümlere (etkin kullanıcılar, sayfa görünümü, oturumlar, tarayıcı, ve işletim sistemi sürümü, kullanıcıların harita üzerindeki coğrafi dağılımı gibi) ilişkin pencere öğeleri bulunmaktadır.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [Power BI için Application Insights içerik paketine](https://app.powerbi.com/getdata/services/application-insights) bağlanın.
 

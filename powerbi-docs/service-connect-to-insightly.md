@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9d19f14363128f7c945fc4e50f8d01e1af8d710b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174055"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185498"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Power BI ile Insightly'ye Bağlanma
 Insightly içerik paketi ile Power BI'da Insightly CRM verilerinizi görselleştirin ve paylaşın. CRM verilerinizden raporlar ve panolar oluşturup bunları görüntülemek için Insightly API anahtarınızı kullanarak Power BI'a bağlanın. Power BI ile verileri yeni yöntemlerle çözümleyebilir, etkileyici graflar ve grafikler oluşturabilir, ayrıca kişileri, müşteri adaylarını ve kuruluşları harita üzerinde görüntüleyebilirsiniz.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI için [Insightly içerik paketine](https://app.powerbi.com/getdata/services/insightly) bağlanma.
 

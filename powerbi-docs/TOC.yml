@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: Parametreler
           href: report-builder-parameters.md
-        - name: İfadeler
-          href: report-builder-expressions.md
+        - name: Sayfalandırılmış raporlardaki URL parametreleri
+          href: report-builder-url-parameters.md
         - name: İfade örnekleri
           href: report-builder-expression-examples.md
         - name: Rapor sayfalandırması
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: Parametreler oluşturma
           href: paginated-reports-parameters.md
+        - name: URL’de rapor parametresi geçirme
+          href: report-builder-url-pass-parameters.md
         - name: Sayfalandırılmış rapor yayımlama
           href: paginated-reports-save-to-power-bi-service.md
 - name: Geliştiriciler için Power BI

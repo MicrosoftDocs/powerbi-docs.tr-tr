@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514326"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200975"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Excel için Power BI Publisher
 Microsoft **Excel için Power BI Publisher** sayesinde PivotTable'lar, grafikler ve aralıklar gibi Excel'deki en önemli öngörülerinizin anlık görüntülerini alabilir ve bunları Power BI panolarına sabitleyebilirsiniz.
@@ -32,7 +32,7 @@ Excel'den bir öğe sabitlediğinizde Power BI'daki yeni veya mevcut bir panoya 
 ## <a name="download-and-install"></a>İndirme ve yükleme
 Excel için Power BI Publisher, masaüstü için kullanılan Microsoft Excel 2007 ve sonraki sürümlerine yükleyebileceğiniz bir eklentidir.
 
-[Excel için Power BI Publisher'ı indirin](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Excel için Power BI Publisher'ı indirin](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Publisher eklentisini yükledikten sonra Excel'de yeni bir **Power BI** şeridi göreceksiniz. Bu şeridi kullanarak Power BI'da oturum açabilir (veya oturumu kapatabilir), panolara öğe sabitleyebilir ve önceden sabitlediğiniz öğeleri yönetebilirsiniz.
 

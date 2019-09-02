@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 07ba5c79245e4c87acee90c2c7c6a48df7a2d0e0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179877"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186104"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI ile appFigures'a bağlanma
 Power BI ve appFigures içerik paketi ile uygulamalarınıza ilişkin önemli istatistikleri izlemek son derece kolaydır. Power BI; uygulama satışları, indirmeler ve reklam istatistikleri gibi verilerinizi alarak varsayılan bir pano ve bu verilere dayalı raporlar oluşturur.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [appFigures içerik paketine](https://app.powerbi.com/getdata/services/appfigures) bağlanın veya Power BI ile [appFigures tümleştirmesi](https://powerbi.microsoft.com/integrations/appfigures) hakkında daha fazla bilgi edinin.
 
