@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61315028"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200897"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 **Power BI Desktop**'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklü Power BI Desktop sürümüne göre değişiklik gösterir: **32 bit** sürüm veya **64 bit** sürüm.
@@ -61,6 +61,8 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
 
 Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hatasından dolayı Oracle veritabanlarına bağlanamayabilirsiniz. Bu sorunla karşılaşırsanız, "Nesne başvurusu ayarlanmadı" hata iletisi döndürülür. Sorunu gidermek için aşağıdakilerden birini yapın:
 
-* Power BI Desktop'ı Store yerine https://powerbi.microsoft.com/desktop'dan indirin.
+* Power BI Desktop'ı Store yerine https://powerbi.microsoft.com/desktop 'dan indirin.
 
 * Microsoft Store'daki sürümü kullanmak istiyorsanız, yerel bilgisayarınızda oraons.dll dosyasını _12.X.X\client_X_ klasöründen _12.X.X\client_X\bin_ klasörüne kopyalayın. Burada X, sürüm ve dizin numaralarını temsil eder.
+
+Bir Oracle Database’e bağlanırken Power BI Gateway’de *Nesne başvurusu ayarlanmadı* hata iletisini alırsanız, [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md) makalesindeki yönergeleri izleyerek bu sorunu çözebilirsiniz.

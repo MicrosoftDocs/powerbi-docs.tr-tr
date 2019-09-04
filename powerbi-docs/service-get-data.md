@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816742"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200963"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Verileri araştırdığınızı düşünelim. Grafikler ve panolar oluşturarak veya **Soru-Cevap** ile sorular sorarak bunu yapabilirsiniz. Gördüğünüz görselleştirmeler ve yanıtların temel verileri bir veri kümesinden alınır. Peki bu veri kümelerinin kaynağı nedir? İşte bunlar bir veri kaynağından gelir.
@@ -46,7 +46,7 @@ Sayfanın sol alt köşesindeki **Veri Al**'ı seçerek Power BI'daki tüm veri 
 ### <a name="files"></a>Dosyalar
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*, *.xlsm*) - Excel benzersizdir. Excel'de, bir çalışma kitabı farklı veri türleri içeriyor olabilir. Örneğin çalışma sayfalarına sizin girdiğiniz verileri içerebilir. Ayrıca Power Query'yi kullanarak sorguladığınız ve dış veri kaynaklarından yüklediğiniz verileri de içerebilir. Power Query, Excel 2016'da veya Power Pivot'ta **Al ve Dönüştür** seçeneğiyle sağlanır. Verileri çalışma sayfalarındaki tablolardan veya bir veri modelinden içeri aktarabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI için dosyalardan veri alma](service-get-data-from-files.md).
+**Excel** ( *.xlsx*, *.xlsm*) - Excel’de, bir çalışma kitabı farklı veri türleri içeriyor olabilir. Örneğin çalışma sayfalarına sizin girdiğiniz verileri içerebilir. Ayrıca Power Query'yi kullanarak sorguladığınız ve dış veri kaynaklarından yüklediğiniz verileri de içerebilir. Power Query, Excel 2016'da veya Power Pivot'ta **Al ve Dönüştür** seçeneğiyle sağlanır. Verileri çalışma sayfalarındaki tablolardan veya bir veri modelinden içeri aktarabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI için dosyalardan veri alma](service-get-data-from-files.md).
 
 **Power BI Desktop** ( *.pbix*): Harici veri kaynaklarından verileri sorgulayıp yüklemek ve rapor oluşturmak için Power BI Desktop'ı kullanabilirsiniz. Ayrıca ölçüler ve ilişkilerle veri modelinizi genişletebilir veya Power BI Desktop dosyanızı Power BI sitenize içeri aktarabilirsiniz. Power BI Desktop ileri düzey kullanıcılar için idealdir. Normalde bu kullanıcılar veri kaynaklarını iyi anlayan kişilerdir. Ayrıca veri sorgulama, dönüştürme ve veri modelleme kavramlarını da bilirler. Daha fazla bilgi için bkz. [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md).
 
@@ -102,9 +102,9 @@ Dosyalarınızı OneDrive İş'e veya SharePoint - Ekip Siteleri'ne kaydederseni
 
 Hizmetlerden alınan içerik paketleri de otomatik olarak güncelleştirilir. Çoğu durumda, günde bir kez güncelleştirilirler. Yenileme işlemini kendiniz de yapabilirsiniz ama güncelleştirilmiş verileri görüp görmeyeceğiniz hizmet sağlayıcısına bağlıdır. Kuruluşunuzdaki kişilerin içerik paketlerindeki güncelleştirmeleri, kullanılan veri kaynaklarına bağlı olacaktır. Ayrıca içerik paketini oluşturan kişinin yenilemeyi nasıl yapılandırdığına da bağlıdır.
 
-Azure SQL Veritabanı, Azure SQL Veri Ambarı ve Azure HDInsight Spark Hizmeti benzersizdir çünkü bunlar buluttaki veri kaynaklarıdır. Power BI hizmeti de bulutta olduğundan, Power BI **DirectQuery**'yi kullanıp söz konusu veri kaynaklarına canlı olarak bağlanabilir. Power BI’da gördüğünüz her şey her zaman eşitlenir ve zamanlanmış bir yenileme ayarlamanıza gerek kalmaz.
+Azure SQL Veritabanı, Azure SQL Veri Ambarı ve Spark on Azure HDInsight, Buluttaki veri kaynaklarıdır. Power BI hizmeti de bulutta olduğundan, Power BI **DirectQuery**'yi kullanıp söz konusu veri kaynaklarına canlı olarak bağlanabilir. Power BI’da gördüğünüz her şey her zaman eşitlenir ve zamanlanmış bir yenileme ayarlamanıza gerek kalmaz.
 
-SQL Server Analysis Services de benzersizdir. Power BI'dan ona bağlandığınızda, bu aynı buluttaki bir Azure veritabanı gibi canlı bağlantı olur. Aralarındaki fark veritabanının kendisinin kuruluşunuzdaki sunucuda yer almasıdır. Bu tür bağlantılar için genellikle BT departmanının yapılandırdığı bir Power BI ağ geçidi gereklidir.
+Power BI’dan SQL Server Analysis Services’a bağlandığınızda, bu aynı buluttaki bir Azure veritabanı gibi canlı bağlantı olur. Aralarındaki fark veritabanının kendisinin kuruluşunuzdaki sunucuda yer almasıdır. Bu tür bağlantılar için genellikle BT departmanının yapılandırdığı bir Power BI ağ geçidi gereklidir.
 
 Veri yenileme Power BI'ın çok önemli bir parçasıdır ve bu makalede ele alamayacağımız kadar ayrıntılı bir konudur. Ayrıntılı bilgi edinmek istiyorsanız [Power BI'da Veri Yenileme](refresh-data.md) makalesine mutlaka göz atın.
 

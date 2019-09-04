@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514757"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160230"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
@@ -78,7 +78,8 @@ Kullanıcı hiyerarşilerinin hesaplanan üyeleri Power BI'da gösterilmez. Bunu
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 **SSAS MD** kullanımıyla ilgili belirli sınırlamalar mevcuttur:
 
-* Power BI Desktop SSAS MD bağlayıcısının düzgün çalışması için sunucuların SQL Server 2012 SP1 CU4 veya üzeri Analysis Services sürümüne sahip olması gerekir
+* Power BI Desktop SSAS MD bağlayıcısının düzgün çalışması için sunucuların SQL Server 2012 SP1 CU4 veya üzeri Analysis Services sürümüne sahip olması gerekir.
+* SQL Server 2012 ve SQL Server 2014’ün yalnızca Enterprise ve BI sürümleri Canlı bağlantıları destekler. SQL Server’ın standart sürümünde, canlı bağlantılar için SQL Server 2016 veya üzeri gereklidir.
 * *Eylemler* ve *Adlandırılmış Kümeler* Power BI için açık değildir ancak *Eylemleri* veya *Adlandırılmış kümeleri* de içeren küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
 * Power BI’ın bir SSAS modeline ait meta verileri gösterdiği ancak modelden veri alamadığınız bir sorunla karşılaşabilirsiniz. Sisteminiz MSOLAP sağlayıcısının 32 bit sürümü yüklü olduğunda ve 64 bit sürümü mevcut olmadığında bu sorun oluşabilir. 64 bit sürümün yüklenmesi sorunu çözebilir.
 * SSAS çok boyutlu modeline canlı bağlantısı olan bir rapor yazarken 'rapro düzeyi' ölçümleri oluşturamazsınız. Sağlanan ölçüler yalnızca MD modelinde tanımlanmış olanlardır.

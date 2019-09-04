@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590504"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160337"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Bu Power BI Desktop'ta mükemmel veri modelinizi oluşturabileceğiniz ve Power BI hizmetinde yayımlayabileceğiniz anlamına gelir. Ardından siz ve başkaları aynı, ortak veri modelinden farklı raporlar (ayrı .pbix dosyalarında) oluşturabilir ve bunları farklı çalışma alanlarına kaydedebilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
@@ -108,4 +108,5 @@ Artık siz (ve diğer kişiler) aynı veri kümesinden özel raporlar oluşturup
 * İçerik Paketlerini **Power BI hizmetinde** bir .pbix raporu ve veri kümesi paylaşmak için temel olarak kullanmadan önce söz konusu içerik paketinin bir kopyasını oluşturmanız gerekir.
 * *Kuruluşum*'dan gelen İçerik Paketlerini kopyaladığınızda, hizmette oluşturulan raporu ve/veya bir canlı bağlantıyla bir İçerik Paketini kopyalama işleminin bir parçası olarak oluşturulmuş bir raporu başka bir raporla değiştiremezsiniz. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir. Bu durumda yalnızca yayımlanmış canlı bağlantılı raporları başka raporlarla değiştirebilirsiniz.
 * **Power BI hizmetindeki** paylaşılan veri kümesini silerseniz artık o veri kümesine kimse **Power BI Desktop**'tan ulaşamaz.
+* Power BI hizmetinde veri kümesi paylaşan raporlar Power BI REST API’si kullanılarak yapılan otomatikleştirilmiş dağıtımları desteklemez.
 

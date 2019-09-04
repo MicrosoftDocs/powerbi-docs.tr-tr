@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654820"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201017"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
@@ -105,6 +105,9 @@ Bu noktada, tabloyu yükleyebilir veya pencerenin alt kısmından **Düzenle**'y
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Verilere bağlanma hakkında daha fazla bilgi için bkz. [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md).
+
+> [!NOTE]
+> Bu makalede başvurulan tablo verileri zaman içinde değişebilir. Bu nedenle, izlemeniz gereken adımlar aşağıdakilerden farklı olabilir ve adımları ve sonuçları keşfederken yaratıcılığınıza başvurmanızı gerektirebilir. Bu, öğrenmenin eğlenceli kısmıdır. 
 
 Sonraki bölümde verileri ihtiyaçlarımızı karşılayacak şekilde ayarlayacağız. Bağlı verileri ayarlama işlemine verileri *şekillendirme* adı verilir.
 

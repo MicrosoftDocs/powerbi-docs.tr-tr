@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514214"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159985"
 ---
 # <a name="analyze-in-excel"></a>Excel'de Analiz Et
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.
@@ -28,7 +28,8 @@ Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkile
 * Excel PivotTable'ları, sayısal alanların sürükle ve bırak ile toplama özelliğini desteklemez. Power BI'daki veri kümenizin *önceden tanımlanmış ölçülere sahip olması gerekir*.
 * Bazı kuruluşların Grup İlkesi kuralları, Excel'e gerekli olan **Excel'de Çözümle** güncelleştirmelerinin yüklenmesini engelleyebilir. Güncelleştirmeleri yükleyemiyorsanız yöneticinizle görüşün.
 * **Excel'de Çözümle** özelliği, veri kümesinin Power BI Premium’da olmasını veya kullanıcının Power BI Pro lisansına sahip olmasını gerektirir. Lisans türleri arasındaki işlev farkları hakkında daha fazla bilgi edinmek için [Lisans türüne göre Power BI özellikleri](service-features-license-type.md)'ne bakın. 
-* Temel alınan veri kümesi izni okumadıysanız kullanıcılar Excel'de veri kümelerinizi bağlanabilir.  Kullanıcı buna; veri kümesini içeren çalışma alanının üyesi olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir uygulamaya izin vermek gibi birkaç yöntemle sahip olabilir.
+* Kullanıcılar, temel alınan veri kümesi üzerinde okuma izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Kullanıcı buna; veri kümesini içeren çalışma alanının üyesi olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir uygulamaya izin vermek gibi birkaç yöntemle sahip olabilir.
+* **Excel’de Çözümle** bir Power BI hizmeti özelliğidir ve Power BI Rapor Sunucusu’nda veya Power BI Embedded’da sunulmaz. 
 
 ## <a name="how-does-it-work"></a>Nasıl çalışır?
 **Power BI**'daki bir veri kümesi veya raporla ilişkili üç nokta menüsünden (...) **Excel'de Çözümle**'yi seçtiğinizde Power BI, bir .ODC dosyası oluşturur ve bunu tarayıcınızdan bilgisayarınıza indirir.

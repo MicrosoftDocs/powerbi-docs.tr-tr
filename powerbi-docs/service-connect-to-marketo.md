@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172852"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200992"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI ile Marketo'ya bağlanma
 Power BI için Marketo içerik paketi, Müşteri Adayları ve gerçekleştirdikleri etkinlikler ile ilgili verileri kullanarak Marketo hesabınıza ilişkin öngörüler elde etmenizi sağlar. Bu bağlantıyı oluşturduğunuzda verileriniz alınır ve bu verileri temel alan bir pano ve ilgili raporlar otomatik olarak sunulur.
+
+>[!IMPORTANT]
+>Bu içerik paketini 4 Eylül 2019’da kullanımdan kaldıracağız. Bu içerik paketini 4 Eylül 2019’dan önce yüklediyseniz paket çalışmaya devam eder. Ancak, bu tarihten sonra yenisini yükleyemezsiniz. Şablon uygulamaları hizmet içerik paketlerinin yerini alır.
 
 Power BI için [Marketo içerik paketi](https://app.powerbi.com/getdata/services/marketo)'ne bağlanın.
 
@@ -79,10 +82,10 @@ Power BI'ın Marketo için gerçekleştirdiği API çağrılarının miktarı Ma
 | Veri Türü | Satır Sayısı | API Çağrıları |
 | --- | --- | --- |
 | Müşteri adayları bilgileri |15.000 |50 |
-| Posta etkinlikleri |150.000 |1.000 |
+| Posta etkinlikleri |150.000 |1\.000 |
 | Program etkinlikleri |15.000 |100 |
-| Web etkinlikleri |150.000 |1.000 |
-| Program değişiklikleri |7.500 |50 |
+| Web etkinlikleri |150.000 |1\.000 |
+| Program değişiklikleri |7\.500 |50 |
 | **Toplam API Çağrıları** | |**2.200** |
 
 ## <a name="next-steps"></a>Sonraki adımlar

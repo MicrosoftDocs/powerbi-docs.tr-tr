@@ -1,29 +1,32 @@
 ---
 title: Power BI ile kullandığınız hizmetlere bağlanma
-description: Birçok iş, Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi çalıştırmak için kullandığınız hizmetlere bağlanın.
+description: Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
-ms.date: 04/19/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 53abb5f82b75773817c72b53dd3e522cb4ccc63e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578740"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159990"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
-Power BI ile birçok iş, Salesforce, Microsoft Dynamics ve Google Analytics gibi çalıştırmak için kullandığınız hizmetlere bağlanabilir. Power BI hizmetine bağlanmak için kimlik bilgilerinizi kullanarak başlatır. Power BI oluşturur *çalışma* bir Pano ve bir dizi Power BI raporları otomatik olarak yaparak verilerinizi gösterin ve işletmenizi ilgili görsel Öngörüler sağlayın.
+Power BI ile, Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI, hizmete bağlanmak için sizin kimlik bilgilerinizi kullanarak başlar. Verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir panoyu ve çeşitli Power BI raporlarını içeren bir Power BI *çalışma alanı* oluşturur.
 
-Power BI'da oturum açın için tüm görüntülemek için [bağlanma Hizmetleri](https://app.powerbi.com/getdata/services). 
+>[!IMPORTANT]
+>Birkaç içerik paketini 25 Eylül 2019’da kullanımdan kaldıracağız. Yüklü içerik paketleri çalışmaya devam eder. Ancak, bu tarihten sonra yenisini yükleyemezsiniz. [Şablon uygulamaları](https://docs.microsoft.com/power-bi/service-template-apps-overview), hizmet içerik paketlerinin yerini alır.
+
+[Bağlantı kurabileceğiniz tüm hizmetleri](https://app.powerbi.com/getdata/services) görüntülemek için Power BI’da oturum açın. 
 
 ![AppSource uygulamaları](media/service-connect-to-services/overview.png)
 
-Uygulamayı yükledikten sonra panoyu ve raporları uygulamaya ve Power BI hizmetindeki çalışma alanında görüntüleyebilirsiniz ([https://app.powerbi.com](https://app.powerbi.com)). Ayrıca bunları Power BI mobil uygulamalarında görüntüleyebilirsiniz. Çalışma alanında, Pano ve raporları kuruluşunuzun ihtiyaçlarını karşılayacak şekilde değiştirebilir ve ardından iş arkadaşlarınıza önerilmesini sağlayın dağıtabilir bir *uygulama*. 
+Uygulamayı yükledikten sonra, panoyu ve raporları uygulamada ve Power BI hizmetindeki çalışma alanında ([https://app.powerbi.com](https://app.powerbi.com)) görüntüleyebilirsiniz. Bunları Power BI mobil uygulamalarında da görüntüleyebilirsiniz. Çalışma alanında, panoyu ve raporları kuruluşunuzun gereksinimlerine uygun olarak değiştirebilir ve bunları *uygulama* olarak iş arkadaşlarınıza dağıtabilirsiniz. 
 
 ![Power BI mobil uygulamasında Google Analytics uygulaması](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
@@ -40,33 +43,33 @@ Uygulamayı yükledikten sonra panoyu ve raporları uygulamaya ve Power BI hizme
    
     ![Google Analytics panosu](media/service-connect-to-services/googleanalytics2.png)
    
-    Pano ve rapor kuruluşunuzun gereksinimlerine uyacak şekilde değiştirin. Ardından [arkadaşlarınız uygulamanızı dağıtın](service-create-distribute-apps.md)
+    Panoyu ve raporu kuruluşunuzun ihtiyaçlarına uyacak şekilde değiştirin. Ardından, [uygulamanızı iş arkadaşlarınıza dağıtın](service-create-distribute-apps.md)
 
 ## <a name="whats-included"></a>Neleri kapsar?
-Bir hizmete bağlandıktan sonra yeni oluşturulan uygulama ve çalışma alanı ile bir pano, raporlar ve veri kümesi görürsünüz. Hizmetten alınan veriler belirli bir senaryoya bağlıdır ve hizmetteki tüm bilgileri içermeyebilir. Veriler günde bir kez otomatik olarak yenilenecek şekilde ayarlanır. Veri kümesini seçerek, zamanlamayı denetleyebilirsiniz.
+Bir hizmete bağlandıktan sonra pano, raporlar ve veri kümesi içeren yeni oluşturulmuş uygulamayı ve çalışma alanını görürsünüz. Hizmetten alınan veriler belirli bir senaryoya bağlıdır ve hizmetteki tüm bilgileri içermeyebilir. Veriler günde bir kez otomatik olarak yenilenecek şekilde ayarlanır. Veri kümesini seçerek, zamanlamayı denetleyebilirsiniz.
 
-Ayrıca [Power BI Desktop birçok hizmetlere bağlanma](desktop-data-sources.md), Google Analytics gibi ve kendi özelleştirilmiş panolar ve raporlar oluşturabilirsiniz.  
+Ayrıca, Google Analytics gibi [Power BI Desktop’taki birçok hizmete bağlanabilir](desktop-data-sources.md) ve kendi özelleştirilmiş pano ve raporlarınızı oluşturabilirsiniz.  
 
 Belirli hizmetlere bağlanma hakkında ayrıntılı bilgi için hizmetlerle ilgili yardım sayfalarına bakın.
 
 ## <a name="troubleshooting"></a>Sorun giderme
 **Boş kutucuklar**  
-Power BI hizmete ilk kez bağlandığında panonuzda boş kutucuklar görebilirsiniz. 2 saat sonra da panonuz boşsa bağlantı başarısız olmuş olabilir. Sorunu düzeltme hakkında bilgi içeren bir hata iletisi göremedim, bir destek bileti oluşturun.
+Power BI hizmete ilk kez bağlandığında panonuzda boş kutucuklar görebilirsiniz. 2 saat sonra da panonuz boşsa bağlantı başarısız olmuş olabilir. Sorunu düzeltme önerileri içeren bir hata iletisiyle karşılaşmadıysanız destek bileti oluşturun.
 
 * Sağ üst köşedeki soru işareti simgesini ( **?** ) seçin ve ardından **Yardım al** seçeneğini belirleyin.
   
     ![Yardım al simgesi](media/service-connect-to-services/power-bi-service-get-help.png)
 
 **Eksik bilgiler**  
-Panoyu ve raporları belirli bir senaryoya odaklanmış veriler hizmetinden gelen içerik. Uygulamasında belirli bir ölçüyü arıyorsanız ve onu göremiyorsanız, bir fikir ekleyin [Power BI Destek](https://support.powerbi.com/forums/265200-power-bi) sayfası.
+Panolar ve raporlar, hizmetten alınan ve belirli bir senaryoya odaklanmış içerikleri içerir. Uygulamada belirli bir ölçümü ararsanız ve bunu bulamazsanız [Power BI Desteği](https://support.powerbi.com/forums/265200-power-bi) sayfasına bir fikir ekleyin.
 
 ## <a name="suggesting-services"></a>Hizmet önerme
 Power BI uygulaması için önermek istediğiniz bir hizmet mi kullanıyorsunuz? [Power BI Destek](https://support.powerbi.com/forums/265200-power-bi) sayfasına giderek bizimle paylaşın.
 
-Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa, bkz. [Power BI’da şablon uygulaması oluşturma](service-template-apps-create.md). Power BI iş ortakları, çok az kayıpla veya hiç kodlama ile Power BI uygulamaları oluşturun ve bunları Power BI müşterilere dağıtın. 
+Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa, bkz. [Power BI’da şablon uygulaması oluşturma](service-template-apps-create.md). Power BI iş ortakları çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturabilir ve bunları Power BI müşterilerine dağıtabilir. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [İş arkadaşlarınız için uygulamaları dağıtın](service-create-distribute-apps.md)
+* [Uygulamaları iş arkadaşlarınıza dağıtma](service-create-distribute-apps.md)
 * [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

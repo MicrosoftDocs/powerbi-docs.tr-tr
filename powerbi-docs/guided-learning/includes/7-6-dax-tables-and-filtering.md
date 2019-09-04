@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273650"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166797"
 ---
 **DAX** ile Excel formül dili arasındaki tek büyük fark DAX'ın tek bir değerle sınırlı kalmak yerine *tabloların tamamını* ifadeler arasında geçirmenize olanak tanımasıdır. Etkili bir özellik olarak DAX, tabloları ifadelerinde filtrelemenize ve ardından, filtrelenen değer kümesiyle çalışmanızı sağlar.
 

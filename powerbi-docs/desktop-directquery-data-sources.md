@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809121"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159960"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 
@@ -34,6 +34,7 @@ Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 * IBM DB2 veritabanı
 * IBM Netezza
 * Impala (2.x sürümü)
+* MarkLogic
 * Oracle Database (12 ve sonraki sürümler)
 * Oracle Essbase
 * SAP Business Warehouse Uygulama Sunucusu

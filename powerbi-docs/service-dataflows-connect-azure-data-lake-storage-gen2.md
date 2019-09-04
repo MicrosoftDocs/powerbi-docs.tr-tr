@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621249"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160359"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -115,19 +115,19 @@ Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
     ![Power uygulamalarını arama](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Aramanızın sonuçlarından hem Power BI hizmeti hem de Power Query çevrimiçi için Nesne Kimliklerini seçip kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
+5. Aramanızın sonuçlarından hem Power BI Premium hizmeti hem de Power Query çevrimiçi için Nesne Kimliklerini seçip kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
 
-7. Daha sonra, önceki bölümde oluşturduğunuz *powerbi* dosya sistemine gitmek için **Azure Depolama Gezgini**’ni kullanın. [Azure Depolama gezginini kullanarak dosya ve dizin düzeyinde izinleri ayarlama](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) makalesinin [Erişimi yönetme](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) bölümündeki yönergeleri izleyin.
+6. Daha sonra, önceki bölümde oluşturduğunuz *powerbi* dosya sistemine gitmek için **Azure Depolama Gezgini**’ni kullanın. [Azure Depolama gezginini kullanarak dosya ve dizin düzeyinde izinleri ayarlama](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) makalesinin [Erişimi yönetme](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) bölümündeki yönergeleri izleyin.
 
-8. 5\. adımda toplanan iki Power BI Nesne Kimliğinin her biri için, *powerbi* dosya sisteminize **Okuma**, **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
+7. 5\. adımda toplanan iki Power BI Premium Nesne Kimliğinin her biri için, *powerbi* dosya sisteminize **Okuma**, **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
 
    ![her ikisi için de üçünü atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Dördüncü adımda toplanan Power Query Çevrimiçi Nesne Kimliği için, *powerbi* dosya sisteminize **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
+8. Dördüncü adımda toplanan Power Query Çevrimiçi Nesne Kimliği için, *powerbi* dosya sisteminize **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
 
    ![ardından, yazma ve yürütme erişimi atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Ayrıca **Diğer** için, **Yürütme** Erişimini ve Varsayılan ACL’leri de atayın.
+9. Ayrıca **Diğer** için, **Yürütme** Erişimini ve Varsayılan ACL’leri de atayın.
 
     ![son olarak, diğer için yürütme erişimi atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

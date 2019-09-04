@@ -1,38 +1,64 @@
 ---
 title: Power BI "Tüketicisi" nedir?
-description: Power BI kullanıcısına, başka bir deyişle iş kullanıcısına veya son kullanıcıya genel bakış.
+description: Tüketiciler (son kullanıcılar veya iş kullanıcıları olarak da bilinir) için Power BI’a genel bakış.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 01/22/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7c96b8a21cceb571b1dcf3cfe9567760915c5740
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048116"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200752"
 ---
-<!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Kullanıcılar için Power BI
-Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir *son kullanıcı* veya *tüketici* olarak iş arkadaşlarınızdan pano, rapor ve uygulama alan kişi olursunuz. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşmek için ***Power BI hizmetinde*** çalışırsınız.
 
-![Power BI panosu](media/end-user-consumer/power-bi-service.png)
+İşe ilişkin kararların görüşlerden ziyade olgulara dayanarak alındığı bir veri kültüründe yaşıyorsunuz. Bu kararları almak için verilere ihtiyaç duyarsınız ve bu verileri de iş arkadaşlarınız sağlar.     
+ 
+Size her türden rapor, elektronik tablo, grafik içeren e-posta ve hatta basılı materyaller gönderirler. Veriler biriktikçe, ihtiyacınız olan şeyi hızla bulmanız zorlaşır. Ayrıca, kullandığınız bilgilerin güncel olup olmadığından da şüphe etmeye başlarsınız.  
+ 
+![Power BI panosu](media/end-user-consumer/power-bi-consumer-pipes.png)
 
-Power BI'da yeniyseniz, önce [Power BI genel bakışı](../power-bi-overview.md) okumanızı öneririz. Burada Power BI'daki araç kümesi hakkında bilgi edineceksiniz.
+## <a name="the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmeti
 
-Tüketici olarak Power BI'nın tüm olanaklarına erişemezsiniz, ancak işiniz pano ve rapor oluşturmak olmadığı için bu sorun oluşturmaz. İşiniz Power BI'yı analiz, izleme, keşif ve karar alma için kullanmaktır.
+Power BI işinizi hem kolaylaştırır hem de daha etkili hale getirir. Tüm bunlar, verilerinizin görselleştirildiği grafiklere dönüşür. Veri içgörüleriniz, uzun listelerin veya sayılardan ve kelimelerden oluşan tabloların yerine verilerinizdeki içgörülerin hikayesini anlatan renkli, ilgi çekici ve ***güzel*** görsellerden oluşur. 
 
-Tüketicilere yönelik makaleleri okurken terminolojiyi öğrenecek, Power BI hizmetinde gezinecek, içerikte nasıl dolaşacağınızı anlayacak, ardından bu içerikle nasıl etkileşeceğinizi öğreneceksiniz.  Haydi başlayalım!
+![Power BI panosu](media/end-user-consumer/power-bi-consumer-examples.png)
+ 
+Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir pano ve raporlarda birlikte çalışırsınız.   
+
+![Power BI panosu](media/end-user-consumer/power-bi-funnel.png)
+
+İçerik statik olmadığından eğilimleri, içgörüleri ve diğer iş zekası verilerini aramak için ayrıntılı incelemeler yapabilirsiniz. İçeriği ayrıntılı olarak inceleyin ve kendi cümlelerinizi kullanarak soru sorun. Dilerseniz arkanıza yaslanıp verilerinizin sizin için ilgi çekici içgörüleri keşfetmesini, veriler değişince sizi bilgilendirmesini ve ayarladığınız bir zamanlamada raporları size e-posta olarak göndermesini bekleyebilirsiniz. Verilerinize buluttan veya şirket içinden, herhangi bir cihazı kullanarak istediğiniz her zaman erişin. Bunlar yalnızca başlangıç. Power BI çok daha fazlasını yapabilir. 
+
+## <a name="am-i-a-power-bi-consumer"></a>Bir Power BI *tüketicisi miyim*?
+
+Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir son kullanıcı veya *tüketici* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi olursunuz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız. 
+   
+Tüketici olarak Power BI’ın tüm olanaklarına erişemezsiniz, ancak işiniz pano ve rapor oluşturmak olmadığı için bu soruna yol açmaz. Siz Power BI hizmetini analiz, izleme, keşif ve karar alma amaçları doğrultusunda kullanırsınız. 
+
+Muhtemelen "Power BI Desktop" veya yalnızca "Desktop" terimini daha önceden duymuşsunuzdur. Bu terim, pano ve rapor oluşturup dizinle paylaşan *tasarımcılar* tarafından kullanılan bağımsız bir aracı nitelemek için kullanılır.  Tüketici olarak yalnızca Power BI hizmetiyle çalışacak olsanız da başka Power BI araçları da olduğunu bilmenizde fayda vardır. 
+
+
+## <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma 
+Filtreme, dilimleme, abone olma ve dışarı aktarma işlemleri yaparken endişelenmeyin. yaptığınız işlemler, temel alınan veri kümesini veya paylaşılan özgün içeriği (pano, raporlar ve uygulamalar) etkilemez.  
+
+Verilerinize zarar vermeniz mümkün değildir.  Power BI, herhangi bir şeyi “bozma” korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.  
+ 
+Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz. Ancak bu değişiklikler yalnızca sizin içeriği nasıl göreceğinizi etkiler. Varsayılan özgün görünüme geri dönmek de bir düğmeye tıklamak kadar kolaydır.  
+
+![Power BI panosu](media/end-user-consumer/power-bi-reset.png)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI *tüketicileri* için terimler ve kavramlar](end-user-basic-concepts.md)
-
-<!-- [Get started guide for *consumers*] -->
-[Power BI hizmetini kullanmaya başlama](../service-get-started.md)
+[Tüketiciler için Power BI hizmetinde bir tura katılın](end-user-reading-view.md)    
+[Tüketiciler için Power BI hizmeti eğitimi](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[Power BI *tüketicileri* için terimler ve kavramlar](end-user-basic-concepts.md)    
 

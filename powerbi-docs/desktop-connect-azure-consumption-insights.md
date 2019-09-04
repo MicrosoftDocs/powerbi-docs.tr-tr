@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561011"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160195"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop’tan Azure maliyet ve kullanım verilerini analiz etme
 
@@ -27,6 +27,10 @@ Power BI şu anda Kurumsal Anlaşma ve Müşteri Sözleşmesi faturalama hesapla
 * **Kurumsal Anlaşma** kullanıcıları, **Azure Consumption Insights bağlayıcısı** ile bağlanmalıdır (aşağıda).
 
 * **Müşteri Sözleşmesi** kullanıcıları, [**Azure Maliyet Yönetimi bağlayıcısı**](#connect-with-azure-cost-management) ile bağlanmalıdır.
+
+> [!NOTE]
+> Azure maliyet yönetimi bağlayıcısını kullanan bir Kurumsal Anlaşma müşterisiyseniz ve Maliyet Yönetimi dikey pencerenizde *Faturalama Profili Kimliği*’ni göremiyorsanız, bu Modern Ticaret Platformu’nda olmadığınız anlamına gelir. Bu durumlarda, *Faturalama Profili Kimliği*’nin yerine Kurumsal Anlaşma kayıt numarasını isteyen Azure Consumption Insights bağlayıcısını kullanın.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights ile bağlanma
 
@@ -97,7 +101,7 @@ Belirlediğiniz veriler yüklendikten sonra, seçtiğiniz tabloları ve alanlar�
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
-## <a name="using-azure-consumption-insights"></a>Azure Consumption Insights'ı kullanma
+## <a name="using-azure-consumption-insights"></a>Azure Tüketim Öngörüleri'ni kullanma
 **Azure Consumption Insights** bağlayıcısını kullanabilmek için Azure portalının Kurumsal özelliklerine erişirsiniz.
 
 **Azure Consumption Insights** bağlayıcısı aracılığıyla verileri başarıyla yüklediğinizde, **Sorgu Düzenleyicisi**'ni kullanarak kendi özel ölçülerinizi ve sütunlarınızı oluşturabilirsiniz. Ayrıca **Power BI** hizmetinde paylaşabileceğiniz görseller, raporlar ve panolar da oluşturabilirsiniz.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665425"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030174"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,12 @@ ms.locfileid: "68665425"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>Ağustos 2019
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure Active Directory (AD) Uygulama Ara Sunucusu ile güvenli erişim
+
+Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (AAD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
 
 ## <a name="july-2019"></a>Temmuz 2019
 

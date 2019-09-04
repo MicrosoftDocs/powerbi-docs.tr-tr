@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814351"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160399"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini birleştirme
 
@@ -119,7 +119,7 @@ Power Query Editor, verilerinizi zenginleştirmeniz için hesaplamalar ve özel 
    
 2. **Özel Sütun** iletişim kutusunda **Yeni sütun adı** alanına **LineTotal** yazın.
 
-3. **= öğesinden sonra gelen **Özel sütun formülü** alanına **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** girin. (Alan adlarını yazmak yerine **Kullanılabilir sütunlar** kaydırma kutusundan seçebilir ve **<< Ekle** seçeneğini kullanabilirsiniz.) 
+3. *=* öğesinden sonra gelen **Özel sütun formülü** alanına **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** parametrelerini girin. (Alan adlarını yazmak yerine **Kullanılabilir sütunlar** kaydırma kutusundan seçebilir ve **<< Ekle** seçeneğini kullanabilirsiniz.) 
 
 4. **Tamam**'ı seçin.
    

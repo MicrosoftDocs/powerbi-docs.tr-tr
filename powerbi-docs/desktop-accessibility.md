@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307324"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185703"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarında erişilebilirlik
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve bunlarla etkileşime geçmesine olanak sağlayan özellikler bulunur. Bu özellikler, klavye veya ekran okuyucu aracılığıyla raporları kullanabilme ve sayfalardaki çeşitli nesnelere odaklanmak için sekmeyle gezinebilme özelliklerinin yanı sıra görselleştirmelerde işaretçilerin verimli bir şekilde kullanılabilmesini içerir.
@@ -75,6 +75,9 @@ Aşağıdaki ipuçları, daha erişilebilir **Power BI Desktop** raporları olu�
 * Rapordaki her nesne için alternatif metin sağlayın. Bunu yaparak rapor tüketicilerinizin görselle neyi iletmek istediğinizi anladığından emin olabilirsiniz. Görseli, resmi, şekli veya metin kutusunu göremediğiniz durumlarda bile yararlı olur. Görsel ve şekil gibi bir nesneyi ve ardından **Görselleştirmeler** bölmesinin **Biçim** bölümünü seçerek **Power BI Desktop** raporundaki herhangi bir nesneye alternatif metin sağlayabilirsiniz. Sonra **Genel** alanını genişletin, en alta kaydırın ve **Alternatif Metin** metin kutusunu doldurun.
   
   ![Görsel Öğeler > Biçim > Genel > Diğer Metin kutusu yolu izlenerek rapordaki herhangi bir nesne için diğer metin eklenebilir](media/desktop-accessibility/accessibility-02.png)
+  
+  Alternatif metin bir ifade ile de dinamik olarak değiştirilebilir (örneğin, bir görsele uygulanan filtreleri yansıtma). İfadeyi, bir görselin başlığını ayarlar gibi ayarlarsınız. [Görsel başlıkları için koşullu biçimlendirme](desktop-conditional-format-visual-titles.md)
+  
 * Raporlarınızdaki metinler ve arka plan renkleri arasında yeterli düzeyde karşıtlık bulunduğundan emin olun. Raporunuzdaki renkleri denetlemek için [Renk Karşıtlığı Analizi](https://developer.paciellogroup.com/resources/contrastanalyser/) gibi birçok araçtan faydalanabilirsiniz. 
 * Kolay okunabilir metin boyutları ve yazı tipleri kullanın. Okunması zor olabilecek kadar küçük boyutlu metinler ve yazı tipleri erişilebilirlik açısından kullanışsızdır.
 * Tüm görsellere başlık, eksen etiketleri ve veri etiketleri ekleyin.
@@ -134,10 +137,10 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Bu eylemi gerçekleştirmek için           | Buna basın                |
 | :------------------- | :------------------- |
 | Odağı görsel menüye taşıma | **Alt + Shift + F10** |
-| Verileri gösterme | **Alt + Shift + F11**  |
-| Görsel girme | **Ctrl + Sağ ok** |
-| Katman girme | **Enter** |
-| Katman veya görselden çıkma | **Esc** |
+| Verileri göster | **Alt + Shift + F11**  |
+| Görsel girin | **Ctrl + Sağ ok** |
+| Katman girin | **Enter** |
+| Katman veya görselden çıkın | **Esc** |
 | Veri noktasını seçme veya seçimi temizleme | **Enter** veya **ara çubuğu** |
 | Çoklu seçim | **Ctrl + Enter** veya **Ctrl + ara çubuğu** |
 | Sağ tıklama | <ul><li>Windows klavyesi: **Windows bağlam tuşu + F10**. Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: **Shift + F10**</li></ul> |
@@ -153,10 +156,10 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Bu eylemi gerçekleştirmek için           | Buna basın                |
 | :------------------- | :------------------- |
 | Çoklu seçim | **Ctrl + ara çubuğu** |
-| Tek bir tabloyu daraltma | **Sol ok tuşu** |
-| Tek bir tabloyu genişletme | **Sağ ok tuşu** |
-| Tüm tabloları daraltma | **Alt + Shift + 1** |
-| Tüm tabloları genişletme | **Alt + Shift + 9** |
+| Tek bir tabloyu daralt | **Sol ok tuşu** |
+| Tek bir tabloyu genişlet | **Sağ ok tuşu** |
+| Tüm tabloları daralt | **Alt + Shift + 1** |
+| Tüm tabloları genişlet | **Alt + Shift + 9** |
 | Bağlam menüsünü açma | <ul><li>Windows klavyesi: **Windows bağlam tuşu + F10**.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: **Shift + F10**</li></ul> |
 
 ### <a name="slicer"></a>Dilimleyici
@@ -181,10 +184,10 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Üstüne satır ekle | **Ctrl + Shift + Enter** |
 | Eşleşen köşeli ayraca atla | **Ctrl + Shift +**  \ |
 | Satırı girintileme / Satırı kenar boşluğuna genişletme | **Ctrl + ]**  /  **[** |
-| İmleç ekleme | **Alt + Tıklama** |
-| Geçerli satırı seçme | **Ctrl + I** |
-| Geçerli seçimin tüm oluşumlarını seçme | **Ctrl + Shift + L** |
-| Sözcüğün tüm oluşumlarını seçme | **Ctrl + F2** |
+| İmleç ekle | **Alt + Tıklama** |
+| Geçerli satırı seç | **Ctrl + I** |
+| Geçerli seçimin tüm oluşumlarını seç | **Ctrl + Shift + L** |
+| Kelimenin tüm oluşumlarını seç | **Ctrl + F2** |
 
 ### <a name="enter-data"></a>Veri girme
 | Bu eylemi gerçekleştirmek için           | Buna basın                |

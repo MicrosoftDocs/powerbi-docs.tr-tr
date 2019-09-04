@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop'ta bir PDF dosyası bağlanma
+title: Power BI Desktop’ta PDF dosyalarına bağlanma
 description: Power BI Desktop'ta PDF dosyalarına kolayca bağlanın ve bu dosyaları kullanın
 author: davidiseminger
 manager: kfile
@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514042"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160248"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Power BI Desktop'ta bir PDF dosyası bağlanma
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Power BI Desktop’ta PDF dosyalarına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **PDF dosyasına** bağlanabilir ve dosyadaki verileri kullanabilirsiniz.
 
-![PDF dosyalarındaki verilere bağlanma](media/desktop-connect-pdf/connect-pdf_04.png)
+![PDF dosyalarındaki verilere bağlanma](media/desktop-connect-pdf/connect-pdf-04.png)
 
 Aşağıdaki bölümlerde **PDF dosyasına** bağlanma, veri seçme ve bu verileri **Power BI Desktop**'a alma adımları anlatılmaktadır.
 
 Her zaman **Power BI Desktop** uygulamasının en son sürümünü kullanmanızı öneririz. Son sürüme [Power BI Desktop'ı edinin](desktop-get-the-desktop.md) bağlantısından ulaşabilirsiniz. 
 
 ## <a name="connect-to-a-pdf-file"></a>PDF dosyasına bağlanma
-Bir **PDF** dosyasına bağlanmak için Power BI Desktop'ın **Giriş** şeridindeki **Veri Al**'ı seçin. Soldaki kategorilerden **Dosya**'yı seçtiğinizde **PDF (beta)** seçeneğini görebilirsiniz.
+Bir **PDF** dosyasına bağlanmak için Power BI Desktop'ın **Giriş** şeridindeki **Veri Al**'ı seçin. Soldaki kategorilerden **Dosya**’yı seçtiğinizde **PDF** seçeneğini görebilirsiniz.
 
-![Veri Al menüsünden PDF'i seçme](media/desktop-connect-pdf/connect-pdf_01.png)
+![Veri Al menüsünden PDF'i seçme](media/desktop-connect-pdf/connect-pdf-01.png)
 
 Kullanmak istediğiniz PDF dosyasının konumunu belirtmeniz istenir. Dosya konumu belirtildikten ve PDF dosyası yüklendikten sonra bir **Gezgin** penceresi açılır ve dosyadaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya daha fazla öğe seçebilirsiniz.
 
-![PDF dosyalarındaki verilere bağlanma](media/desktop-connect-pdf/connect-pdf_04.png)
+![PDF dosyalarındaki verilere bağlanma](media/desktop-connect-pdf/connect-pdf-04.png)
 
 PDF dosyasında bulunan öğelerin yanındaki onay kutusunu işaretlediğinizde ilgili öğe sağdaki bölmede görüntülenir. İçeri aktarmaya hazır olduğunuzda **Yükle** düğmesini seçerek verileri **Power BI Desktop**'a alabilirsiniz.
 
