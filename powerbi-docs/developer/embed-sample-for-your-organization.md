@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490379"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237397"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -104,7 +104,6 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
     | Alan |
     |--------------------|
     | **[Application ID](#application-id)** |
-    | **[Application Secret](#application-secret)** |
     | **[Workspace ID](#workspace-id)** |
     | **[Report ID](#report-id)** |
     | **[AADAuthorityUrl](#aadauthorityurl)** |
