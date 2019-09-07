@@ -403,6 +403,8 @@
       items:
         - name: Power BI nedir?
           href: power-bi-overview.md
+        - name: Power BI hizmeti nedir?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop ile hizmeti karşılaştırma
           href: service-service-vs-desktop.md
     - name: Öğreticiler
