@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6be5121c91d64a4bd9437a1d7d111d10627b8330
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839545"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751583"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma
 

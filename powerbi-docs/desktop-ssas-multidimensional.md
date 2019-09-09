@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160230"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751642"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
@@ -87,7 +87,7 @@ Kullanıcı hiyerarşilerinin hesaplanan üyeleri Power BI'da gösterilmez. Bunu
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop Uygulamasında Desteklenen SSAS MD Özellikleri
 Aşağıdaki SSAS MD özellikleri Power BI Desktop uygulamasında desteklenmektedir:
 
-* Bu **SSAS MD** sürümünde aşağıdaki öğelerin kullanılması desteklenmektedir (bu özellikler hakkında [daha fazla bilgi](https://msdn.microsoft.com/library/jj969574.aspx) edinebilirsiniz):
+* Bu **SSAS MD** sürümünde aşağıdaki öğelerin kullanılması desteklenmektedir (bu özellikler hakkında [daha fazla bilgi](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014) edinebilirsiniz):
   * Görüntüleme klasörleri
   * KPI Eğilimleri
   * Varsayılan Üyeler

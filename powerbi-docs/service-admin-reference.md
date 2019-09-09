@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 86a90396c82a597e8b4f535b71e029bfa21328a4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: da19eaffff7abfd8edd745cdb58c008ea40eee8a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187246"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751494"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Power BI yönetimi için PowerShell cmdlet'leri, REST API'leri ve .NET SDK'sı
 Power BI, yöneticilerin PowerShell cmdlet'leriyle yaygın görevler için betik oluşturmasına olanak tanır. Ayrıca yönetim çözümleri gelişmek için REST API'leri de gösterir ve bir .NET SDK'sı sağlar. Bu konu başlığı altında, cmdlet'lerin listesiyle bunlara karşılık gelen SDK yöntemi ve REST API uç noktası gösterilir. Daha fazla bilgi için bkz.
