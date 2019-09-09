@@ -63,20 +63,20 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Panodan başlayın ve raporu açın
 
 1. Örneği kaydettiğiniz çalışma alanında **Panolar** sekmesini açın, sonra **Perakende Analizi Örneği** panosunu bulun ve bu panoyu seçin. 
-2. Panoda **Total Stores New & Existing Stores** kutucuğunu seçin. Bu kutucuk Perakende Analizi Örneği raporunun **Store Sales Overview** sayfasını açar. 
+2. Panoda **Toplam Mağaza Sayısı Yeni ve Var Olan Mağazalar** kutucuğunu seçin. Bu kutucuk Perakende Analizi Örneği raporunun **Mağaza Satışlarına Genel Bakış** sayfasını açar. 
 
    ![Toplam Mağaza Sayısı kutucuğu](media/sample-retail-analysis/retail-analysis-7.png)  
 
    Bu rapor sayfasında toplam 104 mağazamız olduğunu ve bunlardan 10'unun yeni olduğunu görürsünüz. Fashions Direct ve Lindseys olmak üzere iki zincirimiz var. Fashions Direct mağazaları ortalamaya göre daha büyük.
-3. **This Year Sales by Chain** pasta grafiğinde **Fashions Direct**'i seçin.
+3. **Zincire Göre Bu Yılın Satışları** pasta grafiğinde **Fashions Direct**'i seçin.
 
-   ![This Year Sales by Chain grafiği](media/sample-retail-analysis/retail3.png)  
+   ![Zincire Göre Bu Yılın Satışları grafiği](media/sample-retail-analysis/retail3.png)  
 
-   **Total Sales Variance %** kabarcık grafiğinde sonucu gözden geçirin:
+   **Toplam Satış Varyansı %** kabarcık grafiğinde sonucu gözden geçirin:
 
-   ![Total Sales Variance % grafiği](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
+   ![Toplam Satış Varyansı % grafiği](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
 
-   **FD-01** bölgesi en yüksek ortalama **Sales per Square Foot** değerine sahipken FD-02 geçen yılla karşılaştırıldığında en düşük **Total Sales Variance** değerine sahip. FD-03 ve FD-04 tüm bölgeler arasında en düşük performansa sahip olanlar.
+   **FD-01** bölgesi en yüksek ortalama **Fit Kare Başına Satış** değerine sahipken FD-02 geçen yılla karşılaştırıldığında en düşük **Toplam Satış Varyansı** değerine sahip. FD-03 ve FD-04 tüm bölgeler arasında en düşük performansa sahip olanlar.
 4. Seçimlerinizin etkisini ortaya çıkaran çapraz vurgulamayı görmek için kabarcıkları veya diğer grafikleri seçin.
 5. Panoya dönmek için üst gezinti çubuğundan **Perakende Analizi Örneği**'ni seçin.
 
@@ -104,13 +104,13 @@ Biraz daha ayrıntıya inelim.
 ## <a name="dive-deeper-into-the-data"></a>Verileri ayrıntılı bir şekilde inceleme
 Şimdi bölgelerin performanslarına bakarak verileri daha ayrıntılı bir şekilde araştıralım.
 
-1. Panoda **This Year's Sales, Last Year's Sales** kutucuğunu seçin. Bu kutucuk raporun **District Monthly Sales** sayfasını açar.
+1. Panoda **Bu Yılın Satışları, Geçen Yılın Satışları** kutucuğunu seçin. Bu kutucuk raporun **Bölgenin Aylık Satışları** sayfasını açar.
 
-   ![This Year's Sales, Last Year's Sales kutucuğu](media/sample-retail-analysis/pbi_sample_retanlareacht.png)
+   ![Bu Yılın Satışları, Geçen Yılın Satışları kutucuğu](media/sample-retail-analysis/pbi_sample_retanlareacht.png)
 
-   **Total Sales Variance % by Fiscal Month** grafiğinde geçen yılla karşılaştırıldığında fark yüzdesindeki büyük değişkenliğine ve Ocak, Nisan ve Temmuz aylarının özellikle kötü geçtiğine dikkat edin.
+   **Mali Döneme Göre Toplam Satış Varyansı %** grafiğinde geçen yılla karşılaştırıldığında fark yüzdesindeki büyük değişkenliğine ve Ocak, Nisan ve Temmuz aylarının özellikle kötü geçtiğine dikkat edin.
 
-   ![Total Sales Variance % by Fiscal Month grafiği](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
+   ![Mali Döneme Göre Toplam Satış Varyansı % grafiği](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
    Şimdi bu sorunların kaynağına inip inemeyeceğimize bir bakalım.
 2. Kabarcık grafiğinde **020-Mens** kabarcığını seçin.
@@ -149,12 +149,12 @@ Biraz daha ayrıntıya inelim.
    ![New Stores Analysis sayfası](media/sample-retail-analysis/retail15.png)
 
    Kutucuktan kolayca anlaşıldığı üzere bu yıl açılan Fashions Direct mağazalarının sayısı Lindseys mağazalarından fazla.
-2. **Sales Per Sq Ft by Name** grafiğini gözlemleyin:
+2. **Ada Göre Fit Kare Başına Satış** grafiğini gözlemleyin:
 
-   ![Sales Per Sq Ft by Name grafiği](media/sample-retail-analysis/retail14.png)
+   ![Ada Göre Fit Kare Başına Satış grafiği](media/sample-retail-analysis/retail14.png)
 
     Yeni mağazaların ortalama satış/metre kare farkına dikkat edin.
-3. Sağ üstteki **Open Store Count by Open Month and Chain** grafiğinde göstergedeki **Fashions Direct** öğesini seçin. Aynı zincirde bile en iyi mağazanın (Winchester Fashions Direct), $21,22 değerine karşı $12,86 ile, en kötü mağazadan (Cincinnati 2 Fashions Direct) çok daha iyi olduğuna dikkat edin.
+3. Sağ üstteki **Açık Ay ve Zincire Göre Açık Mağaza Sayısı** grafiğinde göstergedeki **Fashions Direct** öğesini seçin. Aynı zincirde bile en iyi mağazanın (Winchester Fashions Direct), $21,22 değerine karşı $12,86 ile, en kötü mağazadan (Cincinnati 2 Fashions Direct) çok daha iyi olduğuna dikkat edin.
 
    ![Fashions Direct seçili](media/sample-retail-analysis/power-bi-lindseys.png)
 4. **Name** dilimleyicisindeki **Winchester Fashions Direct** öğesini seçin ve çizgi grafiği inceleyin. İlk satış rakamları Şubat ayında bildirilmiş.
