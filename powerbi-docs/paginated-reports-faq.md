@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665363"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302704"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -26,11 +26,11 @@ Bu makalede Power BI Premium'daki sayfalandırılmış raporlar hakkında ve say
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?
 
-Sayfalandırılmış raporlar iş yükü P1 – P3 SKU'larında sağlanır.  Ayrıca SaaS eklenen senaryolar için A4 – A6 SKU’larıyla kullanabilirsiniz.
+Sayfalandırılmış raporlar iş yükü P1 – P3 SKU'larında sağlanır.  Ayrıca A4 – A6 SKU'larıyla ekleme ve test/geliştirme senaryoları için kullanabilirsiniz.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Kapasiteme sayfalandırılmış raporlar için ekleyebileceğim bellek eşiği üst sınırı nedir?
 
-Haziran 2019’un sonuna kadar bu iş yükü için %100 bellek kullanabilirsiniz. 
+Bu iş yükü için %100 bellek kullanabilirsiniz.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Sayfalandırılmış raporlarda kullanıcı erişimi nasıl çalışır?
 
@@ -152,7 +152,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML ve MHTML'y
 
 Evet, sayfalandırılmış raporlar için yeni ve geliştirilmiş baskı önizleme deneyimiyle yazdırma olanağı sağlanıyor. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Sayfalandırılmış raporlar için e-posta abonelikleri sağlanıyor mu?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>Sayfalandırılmış raporlar için e-posta abonelikleri sağlanıyor mu?
 
 Evet, sayfalandırılmış raporlar e-posta aboneliklerini tamamen destekliyor ve altı farklı dosya biçimi ve parametre değerleri için destek içeriyor.
 
@@ -166,7 +166,7 @@ SaaS ekleme zaten destekleniyor. PaaS ekleme şu anda desteklenmiyor.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Bir Power BI raporundan sayfalandırılmış rapora detaylandırma yapabilir miyim?
 
-Henüz yapamazsınız, ama kesinlikle bu senaryoyu desteklemeyi planlıyoruz.
+Evet, sayfalandırılmış raporlarınızla URL parametrelerini birlikte kullanarak bu işlemi gerçekleştirebilirsiniz.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Sayfalandırılmış rapor içeriğimi Power BI uygulaması üzerinden paylaşabilir miyim?
 
