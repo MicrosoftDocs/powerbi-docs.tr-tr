@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 09/04/2019
-ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302704"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751524"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
