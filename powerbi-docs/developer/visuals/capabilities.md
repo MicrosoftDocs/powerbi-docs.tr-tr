@@ -1,6 +1,6 @@
 ---
-title: Özellikler
-description: Power BI Görselleri yetenekleri ve özellikleri
+title: Power BI görsellerinin yetenekleri ve özellikleri
+description: Bu makalede Power BI görsellerinin yetenekleri ve özellikleri açıklanır.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f6bb4293a44f98f2f8098fb197c7b406b618d211
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5c32a1679f09e05d134da7f27ffa0cee90d75fab
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425471"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237301"
 ---
-# <a name="power-bi-visual-capabilities"></a>Power BI Görsel yetenekleri
+# <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin yetenekleri ve özellikleri 
 
-Yetenekler, ana bilgisayara görseliniz hakkında bilgiler sağlar. Yetenekler modelindeki tüm özellikler `optional`
+Konağa görseliniz hakkında bilgi sağlamak için yetenekleri kullanırsınız. Yetenekler modelindeki tüm özellikler `optional` özelliktir.
 
-Görselin yeteneklerinin kök nesneleri `dataRoles`, `dataViewMappings` ve benzer öğelerdir.
+Görselin yeteneklerinin kök nesneleri `dataRoles` ve `dataViewMappings` gibi nesnelerdir.
 
 ```json
 {
@@ -34,29 +34,29 @@ Görselin yeteneklerinin kök nesneleri `dataRoles`, `dataViewMappings` ve benze
 
 ```
 
-## <a name="define-the-data-fields-your-visual-expects---dataroles"></a>Görselinizin beklediği veri alanlarını tanımlayın - `dataRoles`
+## <a name="define-the-data-fields-that-your-visual-expects-dataroles"></a>Görselinizin beklediği veri alanlarını tanımlama: dataRoles
 
-Verilere bağlanabilen alanları tanımlamak için, gereken tüm özellikleri tanımlayan bir `DataViewRole` nesne dizisi alan `dataRoles` kullanıyoruz.
+Verilere bağlı olabilecek alanları tanımlamak için `dataRoles` nesnesini kullanırsınız. `dataRoles`, gerekli özellikleri tanımlayan bir dizi `DataViewRole` nesnesini alır.
 
 ### <a name="properties"></a>Özellikler
 
-* **ad** - bu veri alanının iç adı (benzersiz olmalıdır)
-* **tür** - alanın türü:
-    * `Grouping` - Ölçü alanlarının gruplandırılması için kullanılan ayrık değerler
-    * `Measure` - Sayısal veri değerleri
-    * `GroupingOrMeasure` - Bir gruplandırma veya ölçü olarak kullanılabilir
-* **displayName** - özellikler bölmesinde kullanıcıya görüntülenecek ad
-* **açıklama** - alanın kısa bir açıklaması (isteğe bağlı)
-* **requiredTypes** - bu veri rolü için gerekli veri türü. Eşleşmeyen tüm değerler null olarak ayarlanacak (isteğe bağlı)
-* **preferredTypes** - bu veri rolü için tercih edilen veri türü (isteğe bağlı)
+* **name**: Bu veri alanının iç adı (benzersiz olmalıdır).
+* **kind**: Alanın türü:
+    * `Grouping`: Ölçü alanlarını gruplandırmak için kullanılan farklı değerler.
+    * `Measure`: Sayısal veri değerleri.
+    * `GroupingOrMeasure`: Gruplandırma veya ölçü olarak kullanılabilecek değerler.
+* **displayName**: **Özellikler** bölmesinde kullanıcıya görüntülenen ad.
+* **description**: Alanın kısa açıklaması (isteğe bağlı).
+* **requiredTypes**: Bu veri rolü için gerekli veri türü. Eşleşmeyen değerler null olarak ayarlanır (isteğe bağlı).
+* **preferredTypes**: Bu veri türü için tercih edilen veri türü (isteğe bağlı).
 
-### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>"requiredTypes" ve "preferredTypes" içindeki geçerli veri türleri
+### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>requiredTypes ve preferredTypes özelliklerinde geçerli veri türleri
 
-* **bool** - boolean değeri
-* **tamsayı** - tamsayı değeri
-* **sayısal** - sayısal bir değer
-* **metin** - bir metin değeri
-* **coğrafya** - coğrafi veriler
+* **bool**: Boole değeri
+* **integer**: Tamsayı değeri
+* **numeric**: Sayısal değer
+* **text**: Metin değeri
+* **geography**: Coğrafi veri
 
 ### <a name="example"></a>Örnek
 
@@ -157,15 +157,15 @@ Verilere bağlanabilen alanları tanımlamak için, gereken tüm özellikleri ta
 ]
 ```
 
-Yukarıdaki veri rolleri aşağıdaki alanları oluşturur
+Önceki veri rolleri aşağıdaki resimde görüntülenen alanları oluşturabilir:
 
-![Veri rolü görüntüleme](./media/data-role-display.png)
+![Veri rolü alanları](./media/data-role-display.png)
 
-## <a name="define-how-you-want-the-data-mapped---dataviewmappings"></a>Verilerin nasıl eşlenmesini istediğinizi tanımlayın - `dataViewMappings`
+## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>Verilerin nasıl eşlenmesini istediğinizi tanımlama: dataViewMappings
 
-Bir DataViewMapping, veri rollerinin birbirleriyle nasıl ilişkili olduğunu açıklar ve bunlar için koşullu gereksinimleri belirtmenize olanak tanır.
+DataViewMappings özelliği veri rollerinin birbirleriyle ilişkisini açıklar ve bunlar için koşullu gereksinimleri belirtmenize olanak tanır.
 
-Çoğu görselde tek bir eşleme sağlanır, ancak birden çok dataViewMappings sağlayabilirsiniz. Her geçerli eşleme bir DataView oluşturacaktır. 
+Çoğu görselde tek bir eşleme sağlanır, ancak birden çok dataViewMappings sağlayabilirsiniz. Her geçerli eşleme bir veri görünümü oluşturur. 
 
 ```json
 "dataViewMappings": [
@@ -179,13 +179,11 @@ Bir DataViewMapping, veri rollerinin birbirleriyle nasıl ilişkili olduğunu a�
 ]
 ```
 
-[DataViewMappings hakkında daha fazla bilgi edinin](dataview-mappings.md)
+Daha fazla bilgi için bkz. [Power BI görsellerinde veri görünümü eşlemesini anlama](dataview-mappings.md).
 
-## <a name="define-property-pane-options---objects"></a>Özellik bölmesi seçeneklerini tanımlayın - `objects`
+## <a name="define-property-pane-options-objects"></a>Özellik bölmesi seçeneklerini tanımlama: objects
 
-Nesneler görselle ilişkili özelleştirilebilir özellikleri tanımlar.
-Her nesne birden fazla özelliğe sahip olabilir ve her bir özelliğin kendisiyle ilişkilendirilmiş bir türü vardır.
-Türler, özelliğin ne olacağını ifade eder. Türler hakkında daha fazla bilgi için lütfen aşağıya bakın.
+Nesneler, görselle ilişkilendirilmiş olan özelleştirilebilir özellikleri tanımlar. Her nesnenin birden çok özelliği olabilir ve her özelliğin kendisiyle ilişkilendirilmiş bir türü vardır. Türler, özelliğin ne olacağını ifade eder. 
 
 ```json
 "objects": {
@@ -196,24 +194,22 @@ Türler, özelliğin ne olacağını ifade eder. Türler hakkında daha fazla bi
 }
 ```
 
-[Nesneler hakkında daha fazla bilgi edinin](objects-properties.md)
+Daha fazla bilgi için bkz. [Power BI görsellerinin nesneleri ve özellikleri](objects-properties.md).
 
-## <a name="handle-partial-highlighting---supportshighlight"></a>Kısmi vurgulamayı işle - `supportsHighlight`
+## <a name="handle-partial-highlighting-supportshighlight"></a>Kısmi vurgulamayı işleme: supportsHighlight
 
-Varsayılan olarak, bu değer false olarak ayarlanır; bu, sayfada bir öğe seçildiğinde "Değerler" alanının otomatik olarak filtreleneceği ve bu sayede görselinizin yalnızca seçili değeri görüntüleyecek şekilde güncelleneceği anlamına gelir. Tüm verileri göstermek ancak yalnızca seçili öğeleri vurgulamak istiyorsanız, capabilities.json’nizde `supportsHighlight` öğesini true olarak ayarlamanız gerekir.
+Varsayılan olarak bu değer `false` değerine ayarlanmıştır. Bu ayar sayfada herhangi bir şey seçildiğinde değerlerinizin otomatik olarak filtreleneceği anlamına gelir. Bu otomatik filtreleme de görselinizi yalnızca seçili değeri görüntüleyecek şekilde güncelleştirir. Tüm verileri görüntülemek ama yalnızca seçili öğeleri vurgulamak istiyorsanız, *capabilities.json* dosyanızda `supportsHighlight` öğesini `true` olarak ayarlamanız gerekir.
 
-[Vurgulama hakkında daha fazla bilgi edinin](highlight.md)
+Daha fazla bilgi için bkz. [Power BI görsellerinde veri noktalarını vurgulama](highlight.md).
 
-## <a name="handle-advanced-edit-mode---advancededitmodesupport"></a>Gelişmiş Düzenleme Modunu İşle - `advancedEditModeSupport`
+## <a name="handle-advanced-edit-mode-advancededitmodesupport"></a>Gelişmiş düzenleme modunu işleme: advancedEditModeSupport
 
-Görsel, Gelişmiş Düzenleme Modu desteğini bildirebilir.
-Varsayılan olarak, bir görsel, capabilities.json içinde aksi belirtilmedikçe Gelişmiş Düzenleme Modu’nu desteklemez.
+Bir görsel gelişmiş düzenleme modunu desteklediğini bildirebilir. Varsayılan olarak, *capabilities.json* dosyasında aksi belirtilmediği sürece görseller gelişmiş düzenleme modunu desteklemez.
 
-[advancedEditModeSupport hakkında daha fazla bilgi edinin](advanced-edit-mode.md)
+Daha fazla bilgi için bkz. [Power BI görsellerinde gelişmiş düzenleme modu](advanced-edit-mode.md).
 
-## <a name="data-sorting-options-for-visual---sorting"></a>Görsel için veri sıralama seçenekleri - `sorting`
+## <a name="data-sorting-options-for-visual-sorting"></a>Görsel için veri sıralama seçenekleri: sorting
 
-Görsel, kendi özelliklerini kullanarak sıralama davranışını tanımlayabilir.
-Varsayılan olarak, bir görsel, capabilities.json içinde aksi belirtilmedikçe sıralama sırasının değiştirilmesini desteklemez.
+Görsel, kendi özelliklerini kullanarak sıralama davranışını tanımlayabilir. Varsayılan olarak, *capabilities.json* dosyasında aksi belirtilmediği sürece görseller sıralama düzeninin değiştirilmesini desteklemez.
 
-[Sıralama hakkında daha fazla bilgi edinin](sort-options.md)
+Daha fazla bilgi için bkz. [Power BI görselleri için sıralama seçenekleri](sort-options.md).

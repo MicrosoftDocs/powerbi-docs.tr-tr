@@ -1,6 +1,6 @@
 ---
-title: Görsel Filtreler API’si
-description: Power BI Görsellerinin diğer görselleri filtreleme biçimi
+title: Power BI görsellerinde Görsel Filtreler API’si
+description: Bu makalede Power BI görsellerinin diğer görselleri nasıl filtreleyebildiği açıklanır.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 50e9601faf497675ebc3f24609a856a600e3bcb1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425057"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237115"
 ---
-# <a name="power-bi-visual-filters-api"></a>Power BI Görselleri Filtreler API’si
+# <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI görsellerinde Görsel Filtreler API’si
 
-Filtre görsel, verilere filtre uygulanmasına olanak sağlar. Seçimlerdeki temel fark, diğer görsel tarafından desteklenmesine rağmen, diğer görsellerin herhangi bir şekilde filtrelenmesidir.
+Görsel Filtreler API’si Power BI görsellerindeki verileri filtrelemenize olanak tanır. Diğer seçimlerden en önemli farkı, diğer görsel tarafından desteklenmesine rağmen diğer görsellerin herhangi bir şekilde filtrelenmesidir.
 
-Görsel için filtrelemeyi etkinleştirmek üzere, görsel capabilities.json içeriğinin `general` bölümünde `filter` nesnesini içermelidir.
+Görselde filtrelemeyi etkinleştirmek için, görsel *capabilities.json* kodunun `general` bölümünde `filter` nesnesini içermelidir.
 
 ```json
 "objects": {
@@ -38,15 +38,15 @@ Görsel için filtrelemeyi etkinleştirmek üzere, görsel capabilities.json iç
     }
 ```
 
-Filtre API arabirimlerini [`powerbi-models`](https://www.npmjs.com/package/powerbi-models) paketinde bulabilirsiniz. Paket, filtre örnekleri oluşturmak için sınıflar da içerir.
+Görsel Filtreler API’si arabirimleri [powerbi-models](https://www.npmjs.com/package/powerbi-models) paketinde sağlanır. Paket, filtre örnekleri oluşturmak için sınıflar da içerir.
 
 ```cmd
 npm install powerbi-models --save
 ```
 
-Eski sürüm araçlarını (3.x.x sürümünden önceki bir sürüm) kullanıyorsanız, `powerbi-models` öğesini görseller paketine eklemeniz gerekir. [Paketin nasıl ekleneceğini gösteren kısa kılavuz](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+Araçların daha eski (3.x.x’ten önceki) bir sürümünü kullanıyorsanız görsel paketine `powerbi-models` öğesini eklemelisiniz. Daha fazla bilgi için kısa [Özel görsele Gelişmiş Filtre API’si ekleme](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md) kılavuzunu okuyun.
 
-Tüm filtreler `IFilter` arabirimini genişletir.
+Aşağıdaki kodda gösterildiği gibi tüm filtreler `IFilter` arabirimini genişletir:
 
 ```typescript
 export interface IFilter {
@@ -54,12 +54,12 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
+Burada:
+* `target` veri kaynağındaki tablo sütunudur.
 
-`target` - veri kaynağı üzerinde tablo sütunudur.
+## <a name="the-basic-filter-api"></a>Temel Filtre API’si
 
-## <a name="basic-filter-api"></a>Temel filtreleme API’si
-
-Temel filtre arabirimi
+Temel filtre arabirimi aşağıdaki kodda gösterilmiştir:
 
 ```typescript
 export interface IBasicFilter extends IFilter {
@@ -68,9 +68,9 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-`operator` - "In", "NotIn", "All" değerlerine sahip sabit listesidir
-
-`values` - koşula ait değerlerdir
+Burada:
+* `operator`; *In*, *NotIn* ve *All* değerlerini içeren bir sabit listedir.
+* `values` koşul değerleridir.
 
 Temel filtre örneği:
 
@@ -84,9 +84,9 @@ let basicFilter = {
 }
 ```
 
-Filtre "`col1` öğesinin 1, 2 veya 3 değerlerinden birine eşit olduğu tüm satırları ver" anlamına gelir.
+Filtre "`col1` öğesinin 1, 2 veya 3’e eşit olduğu tüm satırları ver" anlamına gelir.
 
-SQL eşdeğeri
+SQL eşdeğeri şöyledir:
 
 ```sql
 SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
@@ -94,7 +94,7 @@ SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
 
 Filtre oluşturmak için, `powerbi-models` içinde BasicFilter sınıfını kullanabilirsiniz.
 
-Araçların eski sürümünü kullanıyorsanız, bir model örneğini `window['powerbi-models']`tarafından bir pencere nesnesinde almalısınız:
+Aracın daha eski bir sürümünü kullanıyorsanız, aşağıdaki kodda gösterildiği gibi `window['powerbi-models']` kullanarak pencere nesnesinde modellerin bir örneğini almanız gerekir:
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -109,21 +109,21 @@ let values = [ 1, 2, 3 ];
 let filter: IBasicFilter = new window['powerbi-models'].BasicFilter(target, "In", values);
 ```
 
-Görsel, oluşturucu içindeki görsele sağlanan ana bilgisayar arabirimi IVisualHost üzerindeki applyJsonFilter() yöntemini kullanarak filtreyi çağırır.
+Görsel, oluşturucu içindeki görsele sağlanan konak arabirimi IVisualHost üzerindeki applyJsonFilter() yöntemini kullanarak filtreyi çağırır.
 
 ```typescript
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-## <a name="advanced-filter-api"></a>Gelişmiş filtre API’si
+## <a name="the-advanced-filter-api"></a>Gelişmiş Filtre API’si
 
-[Gelişmiş Filtre API’si](https://github.com/Microsoft/powerbi-models), birden çok ölçüte ("LessThan", "Contains", "Is", "IsBlank" vb.) göre karmaşık çapraz görsel veri noktası seçme/filtreleme sorguları sunar.
+[Gelişmiş Filtre API’si](https://github.com/Microsoft/powerbi-models), *LessThan*, *Contains*, *Is* ve *IsBlank* gibi birden çok ölçüte göre karmaşık çapraz görsel veri noktası seçme ve filtreleme sorgularını etkinleştirir.
 
 Filtre API’si, Görseller API 1.7.0’da tanıtılmıştır.
 
-Gelişmiş Filtre API’si ayrıca `table` ile `target` ve `column` adını gerektirir. Ancak Gelişmiş Filtre API işleçleri şunlardır: `"And" | "Or"`. 
+Gelişmiş Filtre API’si ayrıca `table` ve `column` adıyla `target` gerektirir. Ama Gelişmiş Filtre API’sinin işleçleri *And* ve *Or*’dur. 
 
-Ayrıca, filtre, arayüzle değerler yerine koşulları kullanır:
+Bunun yanı sıra filtrede arabirimle birlikte değerler yerine koşullar kullanılır:
 
 ```typescript
 interface IAdvancedFilterCondition {
@@ -132,7 +132,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-`operator` parametresi için koşul işleçleri şunlardır: `"None" | "LessThan" | "LessThanOrEqual" | "GreaterThan" | "GreaterThanOrEqual" | "Contains" | "DoesNotContain" | "StartsWith" | "DoesNotStartWith" | "Is" | "IsNot" | "IsBlank" | "IsNotBlank"`
+`operator` parametresinin koşul işleçleri *None*, *LessThan*, *LessThanOrEqual*, *GreaterThan*, *GreaterThanOrEqual*, *Contains*, *DoesNotContain*, *StartsWith*, *DoesNotStartWith*, *Is*, *IsNot*, *IsBlank* ve "IsNotBlank" işleçleridir
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -155,21 +155,19 @@ let filter: IAdvancedFilter = new window['powerbi-models'].AdvancedFilter(target
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-SQL eşdeğeri
+SQL eşdeğeri şöyledir:
 
 ```sql
 SELECT * FROM table WHERE col1 < 0;
 ```
 
-Gelişmiş Filtre API’sini kullanma hakkında tüm örnek kod [`Sampleslicer visual` deposunda](https://github.com/Microsoft/powerbi-visuals-sampleslicer) bulunabilir.
+Gelişmiş Filtre API’sini kullanmaya yönelik eksiksiz bir örnek kod için [Sampleslicer görsel deposuna](https://github.com/Microsoft/powerbi-visuals-sampleslicer) gidin.
 
-## <a name="tuple-filter-api-multi-column-filter"></a>Tanımlama grubu API’si (Çoklu sütun filtresi)
+## <a name="the-tuple-filter-api-multi-column-filter"></a>Tanımlama Grubu Filtresi API’si (çok sütunlu filtre)
 
-Tanımlama Grubu Filtresi API’si, Görseller API 2.3.0’da tanıtılmıştır.
+Tanımlama Grubu Filtresi API’si, Görseller API’si 2.3.0’da kullanıma sunulmuştur. Temel Filtre API’sine benzer, ancak birkaç sütun ve tablo için koşulları tanımlamanıza olanak tanır.
 
-Demet filtresi API’si Temel filtreye benzer, ancak birkaç sütun ve tablo için koşulların tanımlanmasına olanak tanır.
-
-Filtrenin arabirimi vardır: 
+Filtre arabirimi aşağıdaki kodda gösterilmiştir: 
 
 ```typescript
 interface ITupleFilter extends IFilter {
@@ -181,21 +179,22 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-`target` tablo adları içeren bir sütun dizisidir:
+Burada:
+* `target` tablo adları içeren bir sütun dizisidir:
 
-```typescript
-declare type ITupleFilterTarget = IFilterTarget[];
-```
+    ```typescript
+    declare type ITupleFilterTarget = IFilterTarget[];
+    ```
 
-  Filtre, farklı tablolardaki sütunlara yönelik olabilir.
+  Filtre, çeşitli tablolardaki sütunlara yönelik olabilir.
 
-`$schema` "http://powerbi.com/product/schema#tuple"
+* `$schema`, http://powerbi.com/product/schema#tuple değeridir.
 
-`filterType` `FilterType.Tuple`
+* `filterType`, *FilterType.Tuple* değeridir.
 
-`operator` yalnızca `"In"` işlecinin kullanılmasına izin verir
+* `operator` yalnızca *In* işlecine kullanıma izin verir.
 
-`values`, her tanımlama grubunun, hedef sütun değerlerinin izin verilen bir birleşimini temsil ettiği bir değer tanımlama grupları dizisidir 
+* `values` bir dizi değer tanımlama grubudur ve her tanımlama grubu hedef sütun değerlerinin izin verilen bir birleşimini temsil eder. 
 
 ```typescript
 declare type TupleValueType = ITupleElementValue[];
@@ -221,16 +220,16 @@ let target: ITupleFilterTarget = [
 
 let values = [
     [
-        // the 1st column combination value (aka column tuple/vector value) that the filter will pass through
+        // the first column combination value (or the column tuple/vector value) that the filter will pass through
         {
-            value: "Team1" // the value for `Team` column of `DataTable` table
+            value: "Team1" // the value for the `Team` column of the `DataTable` table
         },
         {
-            value: 5 // the value for `Value` column of `DataTable` table
+            value: 5 // the value for the `Value` column of the `DataTable` table
         }
     ],
     [
-        // the 2nd column combination value (aka column tuple/vector value) that the filter will pass through
+        // the second column combination value (or the column tuple/vector value) that the filter will pass through
         {
             value: "Team2" // the value for `Team` column of `DataTable` table
         },
@@ -252,17 +251,18 @@ let filter: ITupleFilter = {
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-**Sütun adları ve koşulun değerlerinin sırası duyarlıdır.**
+> [!IMPORTANT]
+> Sütun adlarının ve koşul değerlerinin sırası önemlidir.
 
-SQL eşdeğeri
+SQL eşdeğeri şöyledir:
 
 ```sql
 SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team2" AND Value = 6 );
 ```  
 
-## <a name="restoring-json-filter-from-dataview"></a>JSON Filtresini DataView’dan geri yükleme
+## <a name="restore-the-json-filter-from-the-data-view"></a>JSON filtresini veri görünümünden geri yükleme
 
-API 2.2’den başlayarak **JSON Filtreleri** **VisualUpdateOptions**’tan geri yüklenebilir
+API’nin 2.2 sürümünden başlayarak, aşağıdaki kodda gösterildiği gibi JSON filtresini *VisualUpdateOptions* öğesinden geri yükleyebilirsiniz:
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -276,16 +276,17 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 }
 ```
 
-Power BI, anahtar yer işaretleri kullanılırken görselin `update` yöntemini çağırır ve görsel karşılık gelen `filter` nesnesini alır.
-[Yer işaretleri desteği hakkında daha fazla bilgi edinin](bookmarks-support.md)
+Yer işaretlerini değiştirdiğinizde Power BI görselin `update` yöntemini çağırır ve görsel buna karşılık gelen `filter` nesnesini alır. Daha fazla bilgi için bkz. [Power BI görselleri için yer işareti desteği ekleme](bookmarks-support.md).
 
-### <a name="sample-json-filter"></a>Örnek JSON Filtresi
+### <a name="sample-json-filter"></a>Örnek JSON filtresi
 
-![Ekran Görüntüsü JSON Filtresi](./media/json-filter.png)
+Aşağıdaki resimde örnek bir JSON filtresi kodu gösterilir:
 
-### <a name="clear-json-filter"></a>JSON Filtresini Temizle
+![JSON filtresi kodu](./media/json-filter.png)
 
-Filtre API’si, filtrenin `null` değerini sıfırlama veya temizleme olarak kabul eder.
+### <a name="clear-the-json-filter"></a>JSON filtresini temizleme
+
+Filtre API’si, filtrenin `null` değerini *sıfırlama* veya *temizleme* olarak kabul eder.
 
 ```typescript
 // invoke the filter

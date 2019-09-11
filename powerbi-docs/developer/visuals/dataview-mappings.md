@@ -1,6 +1,6 @@
 ---
-title: Veri görünümü eşlemeleri
-description: Power BI verileri görsellere geçirmeden önce nasıl dönüştürür?
+title: Power BI görsellerinde veri görünümü eşlemesini anlama
+description: Bu makalede Power BI’ın verileri görsellere geçirmeden önce nasıl dönüştürdüğü açıklanır.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425195"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237228"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Power BI Görselleri’nde veri görünümü eşlemeleri
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI görsellerinde veri görünümü eşlemesini anlama
 
-Bir `dataViewMappings`, veri rollerinin birbirleriyle nasıl ilişkili olduğunu açıklar ve bunlar için koşullu gereksinimleri belirtmenize olanak tanır.
-Her bir `dataMappings` için bir bölüm vardır.
+Bu makalede veri görünümü eşlemesi anlatılır ve veri rollerinin birbirleriyle ilişkisi, bunlar için koşullu gereksinimleri belirlemenize nasıl olanak tanıdığı açıklanır. Makalede `dataMappings` türleri de açıklanır.
 
-Her geçerli eşleme bir `DataView`oluşturur, ancak şu anda görsel başına yalnızca bir sorgu gerçekleştirmeyi destekliyoruz; yani çoğu durumda yalnızca bir tane `DataView` elde edersiniz. Ancak, farklı koşullarla birden çok veri eşlemesi sağlamaya izin verilir
+Her geçerli eşleme bir veri görünümü oluşturur ama şu anda görsel başına tek bir sorgu gerçekleştirmeyi destekliyoruz. Normalde tek bir veri görünümü alırsınız. Bununla birlikte bazı durumlarda birden çok veri eşlemesi sağlayabilirsiniz ve bu da şunlara olanak tanır:
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ Her geçerli eşleme bir `DataView`oluşturur, ancak şu anda görsel başına y
 ]
 ```
 
-> [!NOTE]
-> Power BI’ın yalnızca `dataViewMappings` içinde geçerli eşleme doldurulduysa bir DataView öğesine eşleme oluşturduğunu unutmayın.
+Power BI ancak geçerli eşleme `dataViewMappings` içine doldurulduysa veri görünümüne bir eşleme oluşturur.
 
-Diğer bir deyişle, aşağıdaki örnekte olduğu gibi `dataViewMappings` içinde `categorical` tanımlandıysa ancak `table` ve `single` gibi diğer eşlemeler tanımlanmadıysa:
+Başka bir deyişle `dataViewMappings` içinde `categorical` tanımlanabilir ama `table` veya `single` gibi diğer eşlemeler tanımlanmayabilir. Örnek:
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ Diğer bir deyişle, aşağıdaki örnekte olduğu gibi `dataViewMappings` için
 ]
 ```
 
-Power BI, tek bir `categorical` eşlemesi ile bir `DataView` üretir (`table` ve diğer eşlemeler `undefined`olacaktır):
+Power BI tek bir `categorical` eşlemesiyle bir veri görünümü oluşturur ve `table` ile diğer eşlemeler tanımlanmaz:
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ Power BI, tek bir `categorical` eşlemesi ile bir `DataView` üretir (`table` ve
 
 ## <a name="conditions"></a>Koşullar
 
-Belirli bir veri eşlemesinin koşullarını açıklar. Birden çok koşul kümesi sağlayabilirsiniz ve veriler, belirtilen koşul kümelerinden biriyle eşleşiyorsa görsel, verileri geçerli olarak kabul eder.
+Bu bölümde belirli bir veri eşlemesinin koşulları açıklanır. Birden çok koşul kümesi sağlayabilirsiniz ve veriler tanımlanan koşul kümelerinden biriyle eşleşirse görsel verileri geçerli olarak kabul eder.
 
-Şu anda her alan için bir en küçük ve en büyük değer belirtebilirsiniz. Bu veri rolüne bağlanabilen alan sayısını temsil eder. 
+Şu anda her alan için en düşük ve en yüksek değeri belirtebilirsiniz. Bu değer söz konusu veri rolüne bağlanabilecek alan sayısını temsil eder. 
 
 > [!NOTE]
 > Koşulda bir veri rolü atlanırsa, herhangi bir sayıda alan olabilir.
 
 ### <a name="example-1"></a>Örnek 1
 
-Birden çok alanı her bir veri rolüne sürükleyebilirsiniz. Bu örnekte, kategoriyi bir veri alanıyla ve ölçüyü iki veri alanıyla sınırlandırıyoruz.
+Birden çok alanı her bir veri rolüne sürükleyebilirsiniz. Bu örnekte kategoriyi tek bir veri alanına ve ölçüyü iki veri alanına sınırlıyorsunuz.
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ Birden çok alanı her bir veri rolüne sürükleyebilirsiniz. Bu örnekte, kate
 
 ### <a name="example-2"></a>Örnek 2
 
-Bu örnekte, iki koşuldan biri gereklidir. Tam olarak bir kategori veri alanı ve tam olarak iki ölçü ya da tam olarak iki kategori ve tam olarak bir ölçü.
+Bu örnekte iki koşuldan herhangi biri gereklidir:
+* Tam olarak bir kategori veri alanı ve tam olarak iki ölçü
+* Tam olarak iki kategori ve tam olarak bir ölçü.
 
 ```json
 "conditions": [
@@ -88,14 +90,14 @@ Bu örnekte, iki koşuldan biri gereklidir. Tam olarak bir kategori veri alanı 
 ]
 ```
 
-## <a name="single-data-mapping"></a>Tek Veri Eşlemesi
+## <a name="single-data-mapping"></a>Tek veri eşlemesi
 
-Tek veri eşlemesi, veri eşlemesinin en basit biçimidir. Tek bir ölçü alanını kabul eder ve size toplamı verir. Alan sayısal ise, size toplam değeri verecektir. Aksi takdirde, size benzersiz değerlerin sayısını verecektir.
+Tek veri eşlemesi, veri eşlemesinin en basit biçimidir. Tek bir ölçü alanını kabul eder ve size toplamı verir. Alan sayısalsa size toplamı verir. Aksi takdirde benzersiz değerlerin sayısını verir.
 
-Tek veri eşlemesini kullanmak için, eşlemek istediğiniz veri rolünün adını tanımlamanız gerekir. Bu eşleme yalnızca tek bir ölçü alanıyla çalışır. İkinci bir alan atanmışsa veri görünümü oluşturulmaz. Bu nedenle, verileri tek bir alanla sınırlayan bir koşul da eklemek iyi bir uygulamadır.
+Tek veri eşlemesini kullanmak için, eşlemek istediğiniz veri rolünün adını tanımlamalısınız. Bu eşleme tek bir ölçü alanıyla kullanılabilir. İkinci bir alan atandıysa hiçbir veri görünümü oluşturulmaz; bu nedenle verileri tek alanla sınırlayan bir koşul eklemek iyi bir yaklaşım olacaktır.
 
 > [!NOTE]
-> Bu veri eşlemesi diğer veri eşlemeleriyle birlikte kullanılamaz. Verileri tek bir sayısal değere düşürmek için tasarlanmıştır.
+> Bu veri eşlemesi diğer hiçbir veri eşlemesiyle birlikte kullanılamaz. Verileri tek bir sayısal değere düşürmek için tasarlanmıştır.
 
 ### <a name="example-3"></a>Örnek 3
 
@@ -110,7 +112,7 @@ Tek veri eşlemesini kullanmak için, eşlemek istediğiniz veri rolünün adın
 }  
 ```
 
-Elde edilen veri görünümü, diğer türleri (tablo, kategorik vb.) yine de içerecektir, ancak her eşleme yalnızca tek bir değer içerir. En iyi uygulama, yalnızca tek değere erişmektir.
+Yine de sonuçta elde edilen veri eşlemesi diğer türleri (tablo, kategorik vb.) içerir ama her eşlemede tek bir değer bulunur. En iyi yöntem değere tek bir öğe olarak erişmektir.
 
 ```JSON
 {
@@ -129,13 +131,13 @@ Elde edilen veri görünümü, diğer türleri (tablo, kategorik vb.) yine de i�
 }
 ```
 
-## <a name="categorical-data-mapping"></a>Kategorik Veri Eşlemesi
+## <a name="categorical-data-mapping"></a>Kategorik veri eşlemesi
 
 Kategorik veri eşlemesi, bir veya iki bağımsız veri grubunu almak için kullanılır.
 
 ### <a name="example-4"></a>Örnek 4
 
-Burada, DataRoles’deki önceki örneğimizin tanımı verilmiştir.
+Aşağıda veri rolleri için önceki örnekteki tanım verilmiştir:
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Burada, DataRoles’deki önceki örneğimizin tanımı verilmiştir.
 ]
 ```
 
-Eşlemeyi tanımlamamız gerekirse:
+Eşleme şöyledir:
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Eşlemeyi tanımlamamız gerekirse:
 }
 ```
 
-"`category` DataRole’ümü, `category` içine sürüklediğim her alanın verilerini `categorical.categories` ile eşleyecek şekilde eşleştir. Ayrıca `measure` DataRole’ümü `categorical.values` öğesine eşle." anlamına gelen basit bir örnektir.
+Bu basit bir örnektir. "`category` veri rolümü, `category` içine sürüklediğim her alanın verileri `categorical.categories` ile eşlenecek şekilde eşleyin. Ayrıca `measure` veri rolümü de `categorical.values` ile eşleyin" anlamına gelir.
 
-* **for...in** - Bu veri rolündeki tüm öğeler için, bunları veri sorgusuna ekler.
-* **bind...to** - For...in ile aynı sonucu üretir, ancak DataRole’de öğeyi tek bir alan ile kısıtlayan bir koşul olmasını bekler.
+* **for...in**: Bu veri rolündeki tüm öğeleri veri sorgusuna ekleyin.
+* **bind...to**: *for...in* ile aynı sonucu verir ama veri rolünün tek alan kısıtlaması getiren bir koşulu olmasını bekler.
 
 ### <a name="example-5"></a>Örnek 5
 
-Bu örnekte, önceki örnekteki ilk iki DataRole kullanılır ve ayrıca `grouping` ve `measure2` tanımlanır.
+Bu örnekte önceki örneğin ilk iki veri rolü kullanılır ve bunlara ek olarak `grouping` ve `measure2` tanımlanır.
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ Bu örnekte, önceki örnekteki ilk iki DataRole kullanılır ve ayrıca `groupi
 ]
 ```
 
-Eşlemeyi tanımlamamız gerekirse:
+Eşleme şöyledir:
 
 ```json
 "dataViewMappings":{
@@ -224,11 +226,11 @@ Eşlemeyi tanımlamamız gerekirse:
 }
 ```
 
-Kategorik değerlerini eşlemeye yönelik fark aşağıdaki gibidir. "`measure` ve `measure2` Veri rollerimi `grouping` Veri rolü tarafından gruplanacak şekilde eşle." anlamına gelir.
+Kategorik değerlerini eşlemeye yönelik fark aşağıdaki gibidir. Burada şunu söylüyoruz: "`measure` ve `measure2` veri rollerimi, `grouping` veri rolüne göre gruplandırılacak şekilde eşleyin."
 
 ### <a name="example-6"></a>Örnek 6
 
-dataRoles aşağıdaki gibidir.
+Veri rolleri şöyledir:
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ dataRoles aşağıdaki gibidir.
 ]
 ```
 
-dataViewMapping aşağıdaki gibidir.
+Veri görünümü eşlemesi şöyledir:
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ dataViewMapping aşağıdaki gibidir.
 ]
 ```
 
-Kategorik `dataview` bu şekilde görselleştirilebilir.
+Kategorik veri görünümü şu şekilde görselleştirilebilir:
 
 | Kategorik |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ Kategorik `dataview` bu şekilde görselleştirilebilir.
 | Meksika | | 300 | x | x | x |
 | Birleşik Krallık | | x | x | 75 | x |
 
-Power BI size kategorik DataView olarak üretecektir. Kategori kümesidir.
+Power BI bunu kategorik veri görünümü olarak oluşturur. Kategori kümesidir.
 
 ```JSON
 {
@@ -310,7 +312,7 @@ Power BI size kategorik DataView olarak üretecektir. Kategori kümesidir.
 }
 ```
 
-Her kategori bir değerler kümesiyle de eşlenir. Bu değerlerin her biri, yıl olan bir seriye göre gruplandırılır.
+Her kategori bir değerler kümesiyle de eşlenir. Bu değerlerin her biri, yıl olan gösterilen bir seriye göre gruplandırılır.
 
 Örneğin, 2013’te Kanada satışları null, 2014’de Kanada satışları 50’dir.
 
@@ -361,7 +363,7 @@ Her kategori bir değerler kümesiyle de eşlenir. Bu değerlerin her biri, yıl
 }
 ```
 
-## <a name="table-data-mapping"></a>Tablo Veri Eşlemesi
+## <a name="table-data-mapping"></a>Tablo veri eşlemesi
 
 Tablo veri görünümü basit bir veri eşlemedir. Temelde, bu, sayısal veri noktalarının toplanabileceği veri noktalarının bir listesidir.
 
@@ -393,7 +395,7 @@ Verilen yetenekler ile:
 ]
 ```
 
-`dataview` tablosu bu şekilde görselleştirilebilir.  
+Tablo veri görünümünü aşağıdaki gibi görselleştirebilirsiniz:  
 
 | Ülke| Yıl | Satışlar |
 |-----|-----|------|
@@ -405,7 +407,7 @@ Verilen yetenekler ile:
 | Birleşik Krallık | 2014 | 150 |
 | Amerika Birleşik Devletleri | 2015 | 75 |
 
-Power BI size tablo dataview olarak üretecektir. Bir sıralama olduğunu varsaymayın.
+Power BI verilerinizi tablo veri görünümü olarak gösterir. Verilerin sıralı olduğunu varsaymamalısınız.
 
 ```JSON
 {
@@ -452,13 +454,13 @@ Power BI size tablo dataview olarak üretecektir. Bir sıralama olduğunu varsay
 }
 ```
 
-Veriler, istenen alanı seçip Özet’e tıklanarak toplanabilir.  
+İstenen alanı ve sonra da toplamı seçerek verileri toplayabilirsiniz.  
 
 ![Verileri toplama](./media/data-aggregation.png)
 
-## <a name="matrix-data-mapping"></a>Matris Veri Eşlemesi
+## <a name="matrix-data-mapping"></a>Matris veri eşlemesi
 
-Matris Veri Eşlemesi, tablo veri eşlemesine benzer ancak satırlar hiyerarşik olarak sunulur. `dataRole` değerlerden biri sütun üst bilgisi değeri olarak kullanılabilir.
+Matris veri eşlemesi, tablo veri eşlemesine benzer ancak satırlar hiyerarşik olarak sunulur. Veri rolü değerlerden herhangi biri sütun üst bilgisi değeri olarak kullanılabilir.
 
 ```json
 {
@@ -510,7 +512,7 @@ Matris Veri Eşlemesi, tablo veri eşlemesine benzer ancak satırlar hiyerarşik
 }
 ```
 
-Power BI hiyerarşik veri yapısı oluşturur. Ağacın kökü, `Category` veri rolünün ilk sütunundan verilerle veri rolünün ikinci sütunundan alt öğeleri içerir.
+Power BI hiyerarşik bir veri yapısı oluşturur. Ağaç hiyerarşisinin kökünde `Category` veri rolünün **Parents** sütunundaki veriler ve veri rolü tablosunun **Children** sütunundaki alt öğeler yer alır.
 
 Veri kümesi:
 
@@ -533,11 +535,11 @@ Veri kümesi:
 | Üst öğe2 | Alt öğe3 | Alt öğenin alt öğesi8 | Süt1 | 10 |
 | Üst öğe2 | Alt öğe3 | Alt öğenin alt öğesi8 | Süt2 | 13 |
 
-Power BI Temel Matris görseli bir tablo gibi işler.
+Power BI’ın temel matris görseli verileri tablo olarak işler.
 
 ![Matris görseli](./media/matrix-visual-smaple.png)
 
-Görsel, aşağıda açıklandığı gibi veri yapısını alır (yalnızca ilk iki satır gösterilir):
+Görsel veri yapısını aşağıdaki kodda açıklandığı gibi alır (burada yalnızca ilk iki tablo satırı gösterilmiştir):
 
 ```json
 {
@@ -612,11 +614,11 @@ Görsel, aşağıda açıklandığı gibi veri yapısını alır (yalnızca ilk 
 }
 ```
 
-## <a name="data-reduction-algorithm"></a>Veri Azaltma Algoritması
+## <a name="data-reduction-algorithm"></a>Veri azaltma algoritması
 
-DataView içinde alınan veri miktarını denetlemek istiyorsanız, `DataReductionAlgorithm` uygulanabilir.
+Veri görünümünde alınacak verilerin miktarını belirlemek için bir veri azaltma algoritması uygulayabilirsiniz.
 
-Varsayılan olarak tüm Özel Görsellere, "count" değeri 1000 dataPoints olan DataReductionAlgorithm uygulanmıştır. Capabilities.json dosyasında aşağıdaki özellikleri ayarlamaya eşdeğerdir:
+Varsayılan olarak tüm özel görsellerde *count* değerinin 1000 veri noktasına ayarlandığı üst veri azaltma algoritması vardır. Bu ayar, *capabilities.json* dosyasında aşağıdaki özellikleri ayarlamakla aynı sonucu verir:
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ Varsayılan olarak tüm Özel Görsellere, "count" değeri 1000 dataPoints olan 
 }
 ```
 
-'Count' değerini, 30.000’e kadar olan herhangi bir tamsayı değeri ile değiştirebilirsiniz. R tabanlı özel görseller, en fazla 150.000 satırı destekleyebilir.
+*count* değerini 30000’e kadar herhangi bir tamsayı değeriyle değiştirebilirsiniz. R tabanlı özel görseller, en fazla 150.000 satırı destekleyebilir.
 
-## <a name="data-reduction-algorithm-types"></a>Veri Azaltma Algoritması türleri
+## <a name="data-reduction-algorithm-types"></a>Veri azaltma algoritması türleri
 
-Dört tür `DataReductionAlgorithm` ayarı vardır:
+Dört tür veri azaltma algoritması ayarı vardır:
 
-* `top` - verileri veri kümesinin en üstünden alınan değerlerle sınırlamak istiyorsanız. İlk "sayı" değerleri veri kümesinden alınacaktır.
-* `bottom` - verileri veri kümesinin en altından alınan değerlerle sınırlamak istiyorsanız. Son "sayı" değerleri veri kümesinden alınacaktır.
-* `sample` - veri kümesini, "count" öğe sayısıyla sınırlı bir basit örnekleme algoritması ile azaltabilirsiniz. Bu, ilk ve son öğelerin dahil olduğu ve aralarında eşit aralıklar olan bir "count" öğe sayısı olduğu anlamına gelir.
-Örneğin veri kümeniz [0, 1, 2, ... 100] ve bir `count: 9` ise, şu değerleri alırsınız: [0, 10, 20 ... 100]
-* `window` - "count" öğelerini içeren bir zamanda veri noktalarının bir 'window' öğesini yükler. Şu `top` anda `window` ve eşdeğerdir. Bir pencereleme ayarını tam olarak desteklemek için çalışmaya devam ediyoruz.
+* `top`: Verileri veri kümesinin en üstünden alınan değerlerle sınırlamak istiyorsanız. İlk *count* değerleri veri kümesinden alınacaktır.
+* `bottom`: Verileri veri kümesinin en altından alınan değerlerle sınırlamak istiyorsanız. Son "count" değerleri veri kümesinden alınacaktır.
+* `sample`: Veri kümesini, *count* öğe sayısıyla sınırlı bir basit örnekleme algoritması ile azaltabilirsiniz. Bu, ilk ve son öğelerin dahil olduğu ve aralarında eşit aralıklar olan bir *count* öğe sayısı olduğu anlamına gelir.
+Örneğin veri kümeniz [0, 1, 2, ... 100] ve *count* değeri 9 olduğunda, [0, 10, 20 ... 100] değerlerini alırsınız.
+* `window`: Bir kerede *count* öğelerini içeren bir *window* kadar veri öğesi yükler. Şu anda `top` ve `window` eşdeğerdir. Pencereleme ayarına tam destek sağlamak için çalışıyoruz.
 
-## <a name="data-reduction-algorithm-usage"></a>Veri Azaltma Algoritması kullanımı
+## <a name="data-reduction-algorithm-usage"></a>Veri azaltma algoritmasının kullanımı
 
-`DataReductionAlgorithm` kategorik, tablo veya matris `dataview` eşlemesinde kullanılabilir.
+Veri azaltma algoritması kategorik, tablo veya matris veri görünümü eşlemesinde kullanılabilir.
 
-Kategorik veri eşlemesi için `categories` ve/veya `values` grup bölümüne ayarlanabilir.
+Algoritmayı `categories` içinde ve/veya kategorik veri eşlemesi için `values` altındaki group bölümünde ayarlayabilirsiniz.
 
 ### <a name="example-8"></a>Örnek 8
 
@@ -677,7 +679,7 @@ Kategorik veri eşlemesi için `categories` ve/veya `values` grup bölümüne ay
 }
 ```
 
-Veri azaltma algoritması, tablo `dataview` eşlemesinin `rows` bölümüne uygulanabilir.
+Veri azaltma algoritmasını Veri Görünümü eşleme tablosunun `rows` bölümüne uygulayabilirsiniz.
 
 ### <a name="example-9"></a>Örnek 9
 
@@ -700,4 +702,4 @@ Veri azaltma algoritması, tablo `dataview` eşlemesinin `rows` bölümüne uygu
 ]
 ```
 
-Veri azaltma algoritması, `matrix` `dataview` eşlemesinin `rows` ve/veya `columns` bölümüne uygulanabilir.
+Veri azaltma algoritmasını Veri Görünümü eşleme matrisinin `rows` ve `columns` bölümlerine uygulayabilirsiniz.

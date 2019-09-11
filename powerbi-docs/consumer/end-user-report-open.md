@@ -4,20 +4,19 @@ description: Bu konuda Power BI tüketicilerine ve son kullanıcılarına bir Po
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184706"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391736"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *tasarımcıları* tarafından oluşturulur ve [*tüketicilerle* doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
 
 Bir raporu açmanın birçok farklı yolu vardır. Burada, Giriş’ten açma ve panodan açma olmak üzere iki farklı yöntem gösterilmektedir. 
@@ -31,7 +30,7 @@ Bir raporu açmanın birçok farklı yolu vardır. Burada, Giriş’ten açma ve
    ![Giriş sayfası](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Sizinle paylaşılmış olan bir raporu açma
-Power BI *tasarımcıları*, bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş’inizin **Benimle paylaşılan** bölümünde gösterilir.
+Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağlantıyı Power BI Giriş sayfanıza ekleyerek tek bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş’inizin **Benimle paylaşılan** bölümünde gösterilir.
 
 1. Power BI hizmetini açın (app.powerbi.com).
 
@@ -45,13 +44,13 @@ Power BI *tasarımcıları*, bir raporu sizinle doğrudan paylaşabilir. Bu şek
 
 4. Raporu açmak için rapor *kartını* seçmeniz yeterlidir.
 
-   ![rapor sayfası](./media/end-user-report-open/power-bi-report-open.png)
+   ![rapor sayfası](./media/end-user-report-open/power-bi-open.png)
 
 5. Sol taraftaki sekmelere dikkat edin.  Bu sekmelerin her biri raporunuzun bir *sayfasını* temsil eder. Şu anda *Büyüme Fırsatı* sayfası açık. Bunun yerine bu rapor sayfasını açmak için *Yılbaşından Bu Yana Satış Kategorisi* sekmesini seçin. 
 
    ![rapor sayfası sekmeleri](./media/end-user-report-open/power-bi-ytd.png)
 
-6. Şimdi rapor sayfasının tamamını görüyoruz. Sayfanın görüntülenmesini (yakınlaştırmasını) değiştirmek için sağ üst köşedeki Görünüm açılan menüsünü seçip ( **>** ) **Gerçek boyut** seçeneğini belirleyin.
+6. Şimdi rapor sayfasının tamamını görüyoruz. Sayfanın görüntülenmesini (yakınlaştırmasını) değiştirmek için sağ üst köşedeki Görünüm açılan menüsünü ve sonra da **Gerçek boyut**’u seçin.
 
    ![yakınlaştırmayı değiştirme](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Power BI *tasarımcıları*, bir raporu sizinle doğrudan paylaşabilir. Bu şek
 
    ![Giriş sayfası](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano, rapor veya uygulama içerik listesi ile açılır. Uygulamayı seçtiğinizde:
+8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano veya rapor ile açılır. Uygulamayı seçtiğinizde:
     - rapor açılırsa başka bir işlem yapmanıza gerek yoktur.
     - pano açılırsa aşağıdaki ***Bir raporu panodan açma*** bölümüne bakın.
 
@@ -95,5 +94,5 @@ Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en 
 - ve daha fazlası
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Bir rapor ile etkileşimde bulunmanın birçok yolu](end-user-reading-view.md) vardır.  Rapor tuvalinin yanlarındaki sekmeleri seçerek keşfetmeye başlayın.
+[Panoyu açma ve görüntüleme](end-user-dashboard-open.md)
 

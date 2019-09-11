@@ -1,6 +1,6 @@
 ---
-title: Yer imleri
-description: Power BI Görsel, yer işaretlerini değiştirmeyi işleyebilir
+title: Power BI görselleri için yer işareti desteği ekleme
+description: Power BI görselleri yer işaretlerini değiştirmeyi işleyebilir
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,57 +9,54 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 90e3fc73cd49a5c84a5c2acc68a8cf5e0e4aa42b
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425517"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237288"
 ---
-# <a name="add-bookmarks-support-for-power-bi-visuals"></a>Power BI Görselleri için yer işaretleri ekleme desteği
+# <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI görselleri için yer işareti desteği ekleme
 
-Power BI rapor yer işaretleri rapor sayfası, seçim durumu, görselin filtreleme durumunun yapılandırılmış görünümünü yakalamaya olanak sağlar. Ancak, özel görseller tarafında yer işaretini desteklemek ve değişikliklere doğru tepki vermek için ek eylem gerektirir.
+Power BI rapor yer işaretleriyle rapor sayfasının, seçim durumunun ve görselin filtreleme durumunun yapılandırılmış görünümünü yakalayabilirsiniz. Öte yandan özel görseller tarafında yer işaretini desteklemek ve değişikliklere doğru tepki vermek için ek eylem gerekir.
 
-[Belgelerde](https://docs.microsoft.com/power-bi/desktop-bookmarks) yer işaretleri hakkında daha fazla bilgi edinin
+Yer işaretleri hakkında daha fazla bilgi için bkz. [Power BI'da içgörüleri paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Görselinizde rapor yer işaretleri desteği
 
 Görseliniz diğer görsellerle etkileşimde bulunuyorsa, veri noktalarını seçiyorsa veya diğer görselleri filtreliyorsa, durumu özelliklerden geri yüklemeniz gerekir.
 
-## <a name="how-to-add-report-bookmarks-support"></a>Rapor yer işaretlerini ekleme desteği
+## <a name="add-report-bookmarks-support"></a>Rapor yer işaretlerini ekleme desteği
 
-1. Gerekli yardımcı programı yükleyin (veya güncelleştirin): `powerbi-visuals-utils-interactivityutils`(https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) sürüm 3.0.0 veya üzeri. Durum seçimi veya filtresiyle işlemek için ek sınıflar içerir. Filtre görselleri ve `InteractivityService` kullanan herhangi bir görsel için gereklidir.
+1. Gereken [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) yardımcı programının 3.0.0 veya sonraki bir sürümünü yükleyin veya programı bu sürüme güncelleştirin. Durum seçimi veya filtresiyle işlemek üzere ek sınıflar içerir. Filtre görselleri ve `InteractivityService` kullanan tüm görseller için gereklidir.
 
-2. `SelectionManager` örneği içinde `registerOnSelectCallback` kullanmak üzere görsel API’yi 1.11.0 sürümüne güncelleştirin. `InteractivityService` yerine düz `SelectionManager` kullanan filtre olmayan görseller için gereklidir.
+2. Bir `SelectionManager` örneğinde `registerOnSelectCallback` kullanmak için görsel API’sini sürüm 1.11.0’a yükseltin. `InteractivityService` yerine düz `SelectionManager` kullanan, filtre olmayan görseller için gereklidir.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-the-report-bookmarks-scenario"></a>Özel görsellerin rapor yer işaretleri senaryosunda Power BI ile etkileşimde bulunma şekli
+### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Özel görsellerin rapor yer işaretlerinde Power BI ile etkileşimde bulunma şekli
 
-Aşağıdaki örnek üzerinde düşünelim: Bir kullanıcı, her bir yer işareti içinde farklı seçim durumuyla rapor sayfasında çeşitli yer işaretleri oluşturur.
+Şu senaryoyu ele alalım: Rapor sayfasında her yer işaretinin farklı bir seçim durumunda olduğu çeşitli yer işaretleri oluşturmak istiyorsunuz.
 
-İlk olarak, kullanıcı görselinizdeki bir veri noktasını seçer. Görsel, seçimleri ana bilgisayara geçirerek Power BI ve diğer görsellerle etkileşim kurar. Ardından kullanıcı `Bookmark panel` içinde "Ekle" seçeneğini belirler ve Power BI yeni yer işaretinin geçerli seçimlerini kaydeder.
+İlk olarak görselinizdeki bir veri noktasını seçersiniz. Görsel, seçimleri ana bilgisayara geçirerek Power BI ve diğer görsellerle etkileşim kurar. Ardından **Yer işareti** bölmesinde **Ekle**’yi seçersiniz ve Power BI geçerli seçimleri yeni yer işareti için kaydeder.
 
-Kullanıcı seçimi değiştirdikçe ve yeni yer işaretleri ekledikçe bu işlem tekrarlanan şekilde gerçekleşir.
-Oluşturulduktan sonra, kullanıcı yer işaretleri arasında geçiş yapabilir.
+Siz seçimi değiştirdikçe ve yeni yer işaretleri ekledikçe bu işlem tekrarlanır. Yer işaretlerini oluşturduktan sonra aralarında geçiş yapabilirsiniz.
 
-Kullanıcılar bir yer işareti seçtiğinde, Power BI kaydedilmiş filtreyi veya seçim durumunu geri yükler ve görsellere geçirir. Diğer görseller, yer işaretinde depolanan duruma göre vurgulanır veya filtrelenir. Eylemlerden sorumlu Power BI ana bilgisayarı. Görseliniz yeni seçim durumunu doğru yansıtmaktan sorumludur (örneğin, işlenen veri noktalarının rengini değiştirme).
+Bir yer işareti seçtiğinizde, Power BI kaydedilmiş filtreyi veya seçim durumunu geri yükler ve görsellere geçirir. Diğer görseller, yer işaretinde depolanan duruma göre vurgulanır veya filtrelenir. Eylemler Power BI konağının sorumluluğundadır. Görseliniz yeni seçim durumunu doğru yansıtmaktan sorumludur (örneğin, işlenen veri noktalarının rengini değiştirmek için).
 
 Yeni seçim durumu, görsel öğesine `update` yöntemi aracılığıyla iletilir. `options` bağımsız değişkeni, özel bir özellik içerir: `options.jsonFilters`. JSONFilter özelliği `Advanced Filter` ve `Tuple Filter` içerebilir.
 
-Görsel, seçili yer işareti için görselin durumunu gösteren filtre değerlerini geri yüklemelidir.
+Görsel, seçili yer işareti için görselin buna karşılık gelen durumunu gösteren filtre değerlerini geri yüklemelidir. Öte yandan görsel yalnızca seçimleri kullanıyorsa ISelectionManager’ın `registerOnSelectCallback` yöntemi olarak kayıtlı olan özel geri arama işlev çağrısını kullanabilirsiniz.
 
-Ya da görsel yalnızca seçimleri kullanıyorsa, ISelectionManager’ın kayıtlı `registerOnSelectCallback` yöntemini çağırın.
+### <a name="visuals-with-selection"></a>Seçim ile Görseller
 
-### <a name="visuals-with-selections"></a>Seçimler ile görseller
+Görseliniz [Seçim](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md) kullanarak diğer görsellerle etkileşim kuruyorsa şu iki yoldan biriyle yer işareti ekleyebilirsiniz:
 
-Görselleriniz, [seçimleri](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md) kullanılarak diğer görsellerle etkileşim kuruyorsa. Yer işaretleri eklemenin iki yolu vardır.
+* Görsel henüz [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)’i kullanmadıysa `FilterManager.restoreSelectionIds` yöntemini kullanabilirsiniz.
 
-* Görselinizde daha önce **[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) kullanmadıysanız** `FilterManager.restoreSelectionIds` yöntemini kullanabilirsiniz.
+* Görsel seçimleri yönetmek için zaten [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)’i kullanıyorsa, `InteractivityService` örneğinde `applySelectionFromFilter` yöntemini kullanmalısınız.
 
-* Görselinizi, seçimleri yönetmek için zaten **[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** kullanıyorsa. `InteractivityService` örneğinde `applySelectionFromFilter` yöntemini kullanmalısınız.
+#### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback kullanma
 
-#### <a name="using-iselectionmanagerregisteronselectcallback"></a>`ISelectionManager.registerOnSelectCallback` kullanma
-
-Kullanıcı yer işaretlerine tıkladığında, Power BI ilgili seçimler ile görselin `callback` yöntemini çağırır. 
+Yer işaretini seçtiğinizde Power BI ilgili seçimler ile görselin `callback` yöntemini çağırır. 
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -69,7 +66,7 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Burada, görselinizde [`'visualTransform'`](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74) yönteminde oluşturulan bir veri noktası olduğunu varsayalım.
+Görselinizde [visualTransform](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74) yönteminde oluşturulmuş bir veri noktanızın olduğunu varsayalım.
 
 `datapoints` şuna benzer:
 
@@ -102,19 +99,21 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Veri noktalarını güncelleştirdikten sonra, `filter` nesnesi içinde depolanan geçerli seçim durumunu yansıtır. Veri noktaları işlendiğinde, özel görselin seçim durumu yer işaretinin durumuyla eşleşecektir.
+Siz veri noktalarını güncelleştirdikten sonra, bunlar `filter` nesnesinde depolanan geçerli seçim durumunu yansıtır. Veri noktaları işlendiğinde, özel görselin seçim durumu yer işaretinin durumuyla eşleşecektir.
 
-### <a name="using-interactivityservice-for-control-selections-in-the-visual"></a>Görselde denetim seçimleri için `InteractivityService` kullanma
+### <a name="use-interactivityservice-for-control-selections-in-the-visual"></a>Görselde denetim seçimleri için InteractivityService kullanma
 
 Görseliniz `InteractivityService` kullanıyorsa, görselinizde yer işaretlerini desteklemek için ek eylemlere gerek kalmaz.
 
-Kullanıcı yer işaretlerini seçtiğinde, yardımcı program görselin seçim durumunu işler.
+Yer işaretlerini seçtiğinizde yardımcı program görselin seçim durumunu işler.
 
-### <a name="visuals-with-filter"></a>Filtre içeren görseller
+### <a name="visuals-with-a-filter"></a>Filtre içeren görseller
 
-Görselin tarih aralığına göre bir veri filtresi oluşturduğunu varsayalım. Elimizde aralığın başlangıcı ve bitişi olarak `startDate` ve `endDate` değerleri vardır.
-Görsel, verileri ilgili koşullara göre filtrelemek için gelişmiş bir filtre oluşturur ve `applyJsonFilter` ana bilgisayar yöntemini çağırır.
-`target`, filtrelemeye yönelik tablodur.
+Görselin tarih aralığına göre bir veri filtresi oluşturduğunu varsayalım. Aralığın başlangıç ve bitiş tarihleri olarak `startDate` ve `endDate` vardır.
+
+Görsel, verileri ilgili koşullara göre filtrelemek için gelişmiş bir filtre oluşturur ve `applyJsonFilter` konak yöntemini çağırır.
+
+Hedef, filtreleme için kullanılan tablodur.
 
 ```typescript
 import { AdvancedFilter } from "powerbi-models";
@@ -145,7 +144,7 @@ this.host.applyJsonFilter(
 );
 ```
 
-Kullanıcı bir yer işaretine her tıkladığında, özel görsel bir `update` çağrısı alır.
+Bir yer işaretine her tıkladığınızda, özel görsel bir `update` çağrısı alır.
 
 Özel görsel, nesnedeki filtreyi denetlemelidir:
 
@@ -176,21 +175,21 @@ if (jsonFilters
 }
 ```
 
-Bundan sonra, görselin iç durumunun (veri noktaları ve çizgiler, dikdörtgenler vb. görselleştirme nesneleri) geçerli koşulları yansıtacak şekilde değiştirmesi gerekir.
+Bundan sonra görsel iç durumunu geçerli koşulları yansıtacak şeklide değiştirmelidir. İç durum veri noktalarını ve görselleştirme nesnelerini (çizgiler, dikdörtgenler vb.) içerir.
 
 > [!IMPORTANT]
-> Rapor yer işaretleri senaryosunda, görselin diğer görselleri filtrelemek için `applyJsonFilter` öğesini çağırması gerekmez; bunlar zaten Power BI tarafından filtrelenecektir.
+> Rapor yer işaretleri senaryosunda, görselin diğer görselleri filtrelemek için `applyJsonFilter` öğesini çağırması gerekmez. Bunlar zaten Power BI tarafından filtrelenecektir.
 
 Zaman Çizelgesi Dilimleyici görseli, veri aralıklarına karşılık gelen aralık seçicisini değiştirir.
 
 Daha fazla bilgi için bkz. [Zaman Çizelgesi Dilimleyici deposu](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df).
 
-### <a name="filter-state-to-save-visual-properties-in-bookmarks"></a>Yer işaretlerine görsel özellikleri kaydetmek için durumu filtrele
+### <a name="filter-the-state-to-save-visual-properties-in-bookmarks"></a>Yer işaretlerine görsel özelliklerini kaydetmek için durumu filtreleme
 
-`filterState` özelliği, filtreleme bölümünün bir özelliğini yapar. Görsel, yer işaretlerinde farklı değerleri saklayabilir.
+`filterState` özelliği, filtreleme bölümünün bir özelliğini yapar. Görsel, yer işaretlerinde çeşitli değerleri depolayabilir.
 
-Özellik değerini filtre durumu olarak kaydetmek için nesne özelliğinin `capabilities.json` içinde `"filterState": true` olarak işaretlenmesi gerekir.
+Özellik değerini filtre durumu olarak kaydetmek için *capabilities.json* dosyasında nesne özelliğini `"filterState": true` olarak işaretleyin.
 
-Örnek: `Timeline Slicer` filtre içinde `Granularity` özellik değerlerini depolar. Ayrıca, yer işaretlerinin kullanıcı tarafından değiştirilmesine yönelik geçerli ayrıntı düzeyini değiştirmeye izin verir.
+Örneğin Zaman Çizelgesi Dilimleyici `Granularity` özellik değerlerini bir filtrede depolar. Siz yer işaretlerini değiştirdikçe geçerli ayrıntı düzeyinin değişmesini sağlar.
 
-Daha fazla bilgi için bkz. [Zaman Çizelgesi Dilimleyici deposu](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334);
+Daha fazla bilgi için bkz. [Zaman Çizelgesi Dilimleyici deposu](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334).

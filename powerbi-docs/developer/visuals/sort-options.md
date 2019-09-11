@@ -1,6 +1,6 @@
 ---
-title: Sırala
-description: Power BI Görselleri için varsayılan sıralama davranışı.
+title: Power BI görselleri için sıralama seçenekleri
+description: Bu makalede Power BI görselleri için varsayılan sıralama davranışı açıklanır.
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f3d913e2bce34850dfae4c9486b2e43c78521a58
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: cecec80dc9fe8570535cbd1e0c1e7114363472d8
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424528"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236673"
 ---
-# <a name="sorting-options"></a>Sıralama seçenekleri
+# <a name="sorting-options-for-power-bi-visuals"></a>Power BI görselleri için sıralama seçenekleri
 
-`Sorting`, görsel için varsayılan sıralama davranışını belirtir.
-Özellik, aşağıda açıklanan parametrelerin birini gerektirir:
+Bu makalede *sıralama* seçeneklerinin Power BI görselleri için sıralama davranışını nasıl belirttiği açıklanır. 
+
+Sıralama özelliği aşağıdaki parametrelerden birini gerektirir.
 
 ## <a name="default-sorting"></a>Varsayılan sıralama
 
-`default` seçeneği en basit formdur. ‘DataMappings’ bölümünde sunulan verileri sıralama olanağı tanır.
-Bu seçenek, kullanıcının ‘DataMappings’i’ sıralamasına ve sıralama yönünü belirtmesine olanak tanır.
+`default` seçeneği en basit formdur. ‘DataMappings’ bölümünde sunulan verileri sıralama olanağı tanır. Seçenek veri eşlemelerinin kullanıcı tarafından sıralanmasını etkinleştirir ve sıralama yönünü belirtir.
 
 ```json
     "sorting": {
@@ -36,15 +36,12 @@ Bu seçenek, kullanıcının ‘DataMappings’i’ sıralamasına ve sıralama 
 
 ## <a name="implicit-sorting"></a>Örtük sıralama
 
-`implicit`, dizi parametresiyle sıralamadır - `clauses` ise her veri rolü için sıralamayı açıklar.
-`implicit`, görselin kullanıcısının sıralama düzenini değiştiremeyeceği anlamına gelir.
-Power BI, sıralama seçeneklerini görselin menüsünde göstermez. Ancak Power BI, verileri belirtilen ayarlara göre sıralayacak.
+Örtük sıralama, her veri rolü için sıralamayı tanımlayan `clauses` dizi parametresiyle sıralama işlemidir. `implicit`, görselin kullanıcısının sıralama düzenini değiştiremeyeceği anlamına gelir. Power BI sıralama seçeneklerini görselin menüsünde göstermez. Öte yandan Power BI verileri belirtilen ayarlara göre sıralar.
 
-`clauses` parametreleri, iki parametre ile birkaç nesne içerebilir:
+`clauses` parametreleri iki parametre ile birkaç nesne içerebilir:
 
-- `role`, sıralama için `DataMapping` nesnesini belirler.
-
-- `direction` sıralama yönünü belirler (1 = Artan, 2 = Azalan).
+- `role`: Sıralama için `DataMapping` nesnesini belirler
+- `direction`: Sıralama yönünü belirler (1 = Artan, 2 = Azalan)
 
 ```json
     "sorting": {
@@ -65,4 +62,4 @@ Power BI, sıralama seçeneklerini görselin menüsünde göstermez. Ancak Power
 
 ## <a name="custom-sorting"></a>Özel sıralama
 
-`custom`, sıralamanın geliştirici tarafından görselin kodunda yönetildiği anlamına gelir.
+Özel sıralama, sıralamanın geliştirici tarafından görselin kodunda yönetildiği anlamına gelir.

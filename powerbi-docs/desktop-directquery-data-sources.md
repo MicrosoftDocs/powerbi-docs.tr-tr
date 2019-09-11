@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159960"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302653"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 
@@ -29,14 +29,16 @@ Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 * Azure HDInsight Spark
 * [Azure SQL Veritabanı](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL Veri Ambarı](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight Etkileşimli Sorgu
-* IBM DB2 veritabanı
+* IBM DB2 (Microsoft Sağlayıcısı))
 * IBM Netezza
 * Impala (2.x sürümü)
 * MarkLogic
 * Oracle Database (12 ve sonraki sürümler)
 * Oracle Essbase
+* PostgreSQL
 * SAP Business Warehouse Uygulama Sunucusu
 * SAP Business Warehouse İleti Sunucusu
 * SAP HANA
@@ -65,15 +67,24 @@ Aşağıdaki tabloda, **Power BI hizmetinde** bir rapor yayımladıktan sonra, b
 | Azure SQL Veri Ambarı |Hayır |
 | Google BigQuery |Hayır |
 | IBM Netezza |Evet |
+| IBM DB2 (IBM Sağlayıcısı) |Evet |
+| IBM DB2 (Microsoft Sağlayıcısı) |Hayır |
+| IBM Informix Veritabanı |Hayır |
 | Impala (2.x sürümü) |Evet |
+| MySQL |Evet |
+| ODBC |Evet |
 | Oracle Database |Evet |
+| PostgreSQL |Evet |
 | SAP Business Warehouse Uygulama Sunucusu |Evet |
 | SAP Business Warehouse İleti Sunucusu |**Power BI hizmetinde** henüz desteklenmiyor |
 | SAP HANA |Evet |
 | Snowflake |Evet |
 | Spark (Beta), 0.9 ve sonraki sürümler |Evet |
 | SQL Server |Evet |
+| Sybase |Evet |
 | Teradata Veritabanı |Evet |
+| Vertica |Evet |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery kaynakları için çoklu oturum açma (SSO)
 

@@ -1,6 +1,6 @@
 ---
-title: Nesne ve özellikler
-description: Power BI Görselinin özelleştirilebilir özellikleri
+title: Power BI görsellerinin nesneleri ve özellikleri
+description: Bu makalede Power BI görsellerinin özelleştirilebilir özellikleri açıklanır.
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424620"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236623"
 ---
-# <a name="object-and-properties"></a>Nesne ve özellikler
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin nesneleri ve özellikleri
 
-Nesneler görselle ilişkili özelleştirilebilir özellikleri tanımlar.
-Her nesne birden fazla özelliğe sahip olabilir ve her bir özelliğin kendisiyle ilişkilendirilmiş bir türü vardır.
-Türler, özelliğin ne olacağını ifade eder. Türler hakkında daha fazla bilgi için lütfen aşağıya bakın.
+Nesneler görselle ilişkilendirilmiş özelleştirilebilir özellikleri açıklar. Nesnenin birden çok özelliği olabilir ve her özelliğin ne olacağını açıklayan ilişkili bir türü vardır. Bu makalede nesne ve özellik türleri hakkında bilgi sağlanır.
 
-`myCustomObject`, `dataView` ve `enumerateObjectInstances` içinde nesneye başvurmak için kullanılan dahili addır
+`myCustomObject`, `dataView` ile `enumerateObjectInstances` içinde nesneye başvurmak için kullanılan dahili addır.
 
 ```json
 "objects": {
@@ -33,7 +31,7 @@ Türler, özelliğin ne olacağını ifade eder. Türler hakkında daha fazla bi
 }
 ```
 
-## <a name="display-name"></a>Görünen Ad
+## <a name="display-name"></a>Görünen ad
 
 `displayName`, özellik bölmesinde gösterilecek addır.
 
@@ -68,10 +66,11 @@ Türler, özelliğin ne olacağını ifade eder. Türler hakkında daha fazla bi
 
 İki özellik türü vardır: `ValueTypeDescriptor` ve `StructuralTypeDescriptor`.
 
-#### <a name="value-type-descriptor"></a>Değer Türü Tanımlayıcısı
+#### <a name="value-type-descriptor"></a>Değer türü tanımlayıcısı
 
-`ValueTypeDescriptor` çoğunlukla basit türlerdir ve genellikle statik nesne olarak kullanılır.
-Önemli `ValueTypeDescriptor` özelliklerinden bazıları şunlardır
+`ValueTypeDescriptor` türleri çoğunlukla basit türlerdir ve normalde statik nesne olarak kullanılır.
+
+Yaygın `ValueTypeDescriptor` özelliklerinden bazıları şunlardır:
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -82,10 +81,10 @@ export interface ValueTypeDescriptor {
 }
 ```
 
-#### <a name="structural-type-descriptor"></a>Yapısal Tür Tanımlayıcısı
+#### <a name="structural-type-descriptor"></a>Yapısal tür tanımlayıcısı
 
-`StructuralTypeDescriptor` genellikle veri bağlantılı nesneler için kullanılır.
-Dolgu, en yaygın `StructuralTypeDescriptor` türüdür
+`StructuralTypeDescriptor` türleri çoğunlukla veri bağlantılı nesneler için kullanılır.
+En yaygın `StructuralTypeDescriptor` türü *fill*’dir.
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>Gradyan özelliği
 
-Gradyan özelliği, standart özellik olarak ayarlanamaz bir özelliktir. Bunun yerine, renk seçici özelliğinin (dolgu türü) değişimi için bir kural ayarlamanız gerekir.
-Aşağıdaki örneğe bakın:
+Gradyan özelliği, standart özellik olarak ayarlanamayan bir özelliktir. Bunun yerine, renk seçici özelliğinin (*fill* türü) değişimi için bir kural ayarlamanız gerekir.
+
+Aşağıdaki kodda bir örnek gösterilmiştir:
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ Aşağıdaki örneğe bakın:
 }
 ```
 
-`"fill"` ve `"fillRule"` özelliklerine dikkat edin. Birincisi renk seçicisi, ikincisi ise kural koşulları karşılandığında "dolgu" özelliği `visually` yerine geçecek gradyan için değiştirme kuralıdır.
+*fill* ve *fillRule* özelliklerine dikkat edin. Birincisi renk seçicisi, ikincisi ise kural koşulları karşılandığında *fill özelliği* `visually` yerine geçecek gradyan için değiştirme kuralıdır.
 
-Dolgu özelliği ve değiştirme kuralı arasındaki bu bağlantı, `"fillRule"` özelliğinin `"rule"`->`"output"` bölümünde ayarlanır.
+*fill* özelliği ile değiştirme kuralı arasındaki bu bağlantı, *fillRule* özelliğinin `"rule"`>`"output"` bölümünde ayarlanır.
 
-`"Rule"`->`"InputRole"`, kuralı (koşulu) tetikleyen veri rolünü ayarlar. Bu örnekte, `"Gradient"` veri rolü verileri içeriyorsa, kural `"fill"` özelliği için de uygulanır.
+`"Rule"`>`"InputRole"` özelliği kuralı (koşulu) tetikleyen veri rolünü ayarlar. Bu örnekte, `"Gradient"` veri rolü verileri içeriyorsa, `"fill"` özelliği için kural uygulanır.
 
-Aşağıda, dolgu kuralını (`the last item`) tetikleyen veri rolü örneğini görebilirsiniz.
+Aşağıdaki kodda fill kuralını (`the last item`) tetikleyen veri rolü örneği gösterilir:
 
 ```json
 {
@@ -170,9 +170,9 @@ Aşağıda, dolgu kuralını (`the last item`) tetikleyen veri rolü örneğini 
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>`enumerateObjectInstances` yöntemi
+## <a name="the-enumerateobjectinstances-method"></a>enumerateObjectInstances yöntemi
 
-Nesneleri etkin bir şekilde kullanmak için özel görselinizde `enumerateObjectInstances` adlı bir işleve ihtiyacınız vardır. Bu işlev, özellik bölmesini nesnelerle doldurur ve ayrıca nesnelerinizin dataView içinde nereye bağlanması gerektiğini de belirler.  
+Nesneleri etkin bir şekilde kullanmak için özel görselinizde `enumerateObjectInstances` adlı bir işleve ihtiyacınız vardır. Bu işlev, özellik bölmesini nesnelerle doldurur ve ayrıca nesnelerinizin dataView içinde nereye bağlanacağını da belirler.  
 
 Tipik bir kurulum şöyle görünür:
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>Özellikler
 
-`enumerateObjectInstances` içindeki özellikler, yetenekleriniz içinde tanımladığınız özellikleri yansıtır. Sayfanın altındaki örneğe bakın.
+`enumerateObjectInstances` içindeki özellikler, yetenekleriniz çerçevesinde tanımladığınız özellikleri yansıtır. Örnek görmek için bu makalenin sonuna gidin.
 
 ### <a name="objects-selector"></a>Nesne seçicisi
 
-`enumerateObjectInstances` içindeki seçici, her nesnenin dataView içinde nereye bağlanacağını belirler. Dört farklı seçenek vardır.
+`enumerateObjectInstances` içindeki seçici, her nesnenin dataView içinde nereye bağlandığını belirler. Dört farklı seçenek vardır.
 
 #### <a name="static"></a>statik
 
-Bu nesne `dataviews[index].metadata.objects` meta verilerine bağlanacak
+Bu nesne burada gösterildiği gibi `dataviews[index].metadata.objects` meta verilerine bağlıdır.
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>sütunlar
 
-Bu nesne, eşleşen `QueryName` ile sütunlara bağlanacak.
+Bu nesne, `QueryName` değeri eşleşen sütunlara bağlıdır.
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>seçici
 
-Bu nesne, kendisi için bir `selectionID` oluşturmuş olduğumuz öğeye bağlanacak. Bu örnekte, bazı veri noktaları için `selectionID` oluşturduğumuzu ve bunlar arasında döngü oluşturduğumuzu varsayacağız.
+Bu nesne, kendisi için bir `selectionID` oluşturmuş olduğumuz öğeye bağlıdır. Bu örnekte bazı veri noktaları için `selectionID` değerleri oluşturduğumuzu ve bunlar arasında döngü oluşturduğumuzu varsayalım.
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>Kapsam kimliği
 
-Bu nesne, grupların kesişimindeki belirli değerlere bağlanacak. Örneğin, `["Jan", "Feb", "March", ...]` kategorim ve `["Small", "Medium", "Large"]` serimiz varsa, `Feb` ve `Large` ile eşleşen değerlerin kesişiminde bir nesne olmasını isteyebiliriz. Bunu gerçekleştirmek için her iki sütundan `DataViewScopeIdentity` öğesini alabilir, bunları `identities` değişkenine gönderebilir ve bu söz dizimini seçiciyle birlikte kullanabiliriz.
+Bu nesne grupların kesişimindeki belirli değerlere bağlıdır. Örneğin `["Jan", "Feb", "March", ...]` kategorileriniz ve `["Small", "Medium", "Large"]` serileriniz varsa, `Feb` ve `Large` ile eşleşen değerlerin kesişiminde bir nesneniz olmasını isteyebilirsiniz. Bunu gerçekleştirmek için her iki sütundan `DataViewScopeIdentity` öğesini alabilir, bunları `identities` değişkenine gönderebilir ve seçicide bu söz dizimini kullanabiliriz.
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>Örnek
 
-Bu örnekte, bir objectEnumeration öğesinin tek bir `fill` özelliği olan bir customColor nesnesi için nasıl göründüğünü gösteririz. Bu nesnenin statik olarak `dataViews[index].metadata.objects` öğesine bağlanmasını istiyoruz
+Aşağıdaki örnekte bir objectEnumeration öğesinin tek bir *fill* özelliği olan bir customColor nesnesi için nasıl göründüğü gösterilir. Bu nesnenin aşağıdaki gösterildiği gibi statik olarak `dataViews[index].metadata.objects` öğesine bağlı olmasını istiyoruz:
 
 ```typescript
 objectEnumeration.push({

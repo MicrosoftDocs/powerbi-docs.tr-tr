@@ -1,6 +1,6 @@
 ---
-title: Birim testi tanıtımı
-description: Power BI Görselleri projesi için birim testleri yazma
+title: Power BI görsel projeleri için birim testlerine giriş
+description: Bu makalede Power BI görsel projeleri için birim testlerinin nasıl yazıldığı açıklanır
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424551"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236726"
 ---
-# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI Görsel projeleri için birim testleri ekleme
+# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI görsel projeleri için birim testleri ekleme
 
-Bu öğreticide, Power BI görselleriniz için birim testleri yazmayla ilgili temel bilgiler açıklanmaktadır.
+Bu makalede Power BI görselleriniz için birim testleri yazmayla ilgili temel bilgiler açıklanır ve şu işlemlerin nasıl yapıldığı anlatılır:
 
-Bu öğreticide şunları deneyeceğiz:
-
-* Test çalıştırıcısı karma.js ve test çerçevesi - jasmine.js’yi kullanma
-* powerbi-visuals-utils-testutils paketini kullanma
-* Sahte dosyalar kümesinin Power BI görselleri için birim testini kolaylaştırmaya nasıl yardımcı olduğu.
+* Karma JavaScript test runner test çerçevesi Jasmine’i ayarlama.
+* powerbi-visuals-utils-testutils paketini kullanma.
+* Power BI görsellerinde birim testini basitleştirmeye yardımcı olması için sahte öğeler kullanma.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-* Power BI görselleri projeniz var
-* Node.JS ortamı yapılandırıldı
+* Yüklü bir Power BI görselleri projesi
+* Yapılandırılmış Node.js ortamı
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>karma.js ve jasmine'yi yükleyip yapılandırın
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>Karma JavaScript test runner’ı ve Jasmine’i yükleme ve yapılandırma
 
-`devDependencies` bölümünde gerekli kitaplıkları package.json dosyasına ekleyin:
+Gerekli kitaplıkları *package.json* dosyasında `devDependencies` bölümüne ekleyin:
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ Bu öğreticide şunları deneyeceğiz:
 "webpack": "4.26.0"
 ```
 
-Paket hakkında daha fazla bilgi edinmek için aşağıdaki açıklamaya bakın.
+Paket hakkında daha fazla bilgi edinmek için açıklamasına bakın.
 
-`package.json` dosyasını kaydedin ve şu `package.json` konumundaki komut satırında yürütün:
+*Package.json* dosyasını kaydedin ve `package.json` konumunda aşağıdaki komutu çalıştırın:
 
 ```cmd
 npm install
 ```
 
-Paket yöneticisi, `package.json` dosyasına eklenen tüm yeni paketleri yükler
+Paket yöneticisi *package.json* dosyasına eklenen tüm yeni paketleri yükler.
 
-Birim testlerini çalıştırmak için test çalıştırıcısını ve `webpack` yapılandırma dosyasını yapılandırmamız gerekir. Burada bulabileceğiniz yapılandırma dosyası örneği
+Birim testlerini çalıştırmak için test runner’ı ve `webpack` öğesini yapılandırın.
 
-`test.webpack.config.js` örneği:
+Aşağıdaki kod örnek bir *test.webpack.config.js* dosyasıdır:
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-`karma.conf.ts` örneği
+Aşağıdaki kod örnek bir *karma.conf.ts* dosyasıdır:
 
 ```typescript
 "use strict";
@@ -252,31 +250,29 @@ module.exports = (config: Config) => {
 
 Gerekirse bu yapılandırmayı değiştirebilirsiniz.
 
-Bazı `karma.conf.js` ayarları:
+*Karma.conf.js* dosyasındaki kod aşağıdaki değişkenleri içerir:
 
-* `recursivePathToTests` değişkeni, testlerin kod yerini bulur.
+* `recursivePathToTests`: Test kodunu bulur
 
-* `srcRecursivePath` değişkeni, derleme sonrasında çıktı JS kodunu bulur.
+* `srcRecursivePath`: Derleme sonrasında çıkış JavaScript kodunu bulur
 
-* `srcCssRecursivePath` değişkeni, stillerle daha az dosya derledikten sonra çıktı CSS’yi bulur.
+* `srcCssRecursivePath`: Stillerle daha az dosya derlendikten sonra çıkış CSS’yi bulur
 
-* `srcOriginalRecursivePath` değişkeni, görselinizin kaynak kodunu bulur.
+* `srcOriginalRecursivePath`: Görselinizin kaynak kodunu bulur
 
-* `coverageFolder` - değişkeni, kapsam raporunun oluşturulacağı bir yeri belirler.
+* `coverageFolder`: Kapsam raporunun nerede oluşturulacağını belirler
 
-Bazı yapılandırma özellikleri:
+Yapılandırma dosyası aşağıdaki özellikleri içerir:
 
-* `singleRun: true` - testleri CI sisteminde çalıştırılır. Ayrıca bir kere ayırmak da yeterlidir.
-Testlerinizde hata ayıklamak için `false` olarak değiştirebilirsiniz. Karma, tarayıcıyı çalıştırmaya devam eder ve hata ayıklamak için konsolu kullanmanıza olanak sağlar.
+* `singleRun: true`: Testler sürekli tümleştirme (CI) sisteminde çalıştırılır veya tek bir kez çalıştırılabilir. Testlerinizde hata ayıklaması yapmak için ayarı *false* olarak değiştirebilirsiniz. Karma tarayıcıyı çalışır durumda tuttuğundan hata ayıklaması için konsolu kullanabilirsiniz.
 
-* `files: [...]` - Bu dizide, dosyaları tarayıcıya yükleyecek şekilde ayarlayabilirsiniz.
-Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (jasmine, test yardımcı programları) vardır. Gerekirse diğer dosyaları listelemek için ekleyebilirsiniz.
+* `files: [...]`: Bu dizide tarayıcıya yüklenecek dosyaları belirtebilirsiniz. Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (Jasmine, test yardımcı programları) vardır. Gerekirse listeye başka dosyalar ekleyebilirsiniz.
 
-* `preprocessors` - Yapılandırmanın bu bölümünde, birim testleri yürütülmeden önce yürütülen eylemleri yapılandırırsınız. JS’ye yönelik TypeScript ön derlemesi yapılıyor, kaynak eşleme dosyalarını hazırlanıyor ve kod kapsamı raporu oluşturuluyor. Testlerinizde hata ayıklamak için `coverage` öğesini devre dışı bırakabilirsiniz. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
+* `preprocessors`: Bu bölümde birim testlerinden önce çalıştırılan eylemleri yapılandıracaksınız. Typescript’in JavaScript’e ön derlemesini yapar, kaynak eşleme dosyalarını hazırlar ve kod kapsamı raporunu oluştururlar. Testlerinizde hata ayıklaması yaparken `coverage` devre dışı bırakılabilir. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
 
-**karma.js [belgelerinde](https://karma-runner.github.io/1.0/config/configuration-file.html) bulabileceğiniz tüm yapılandırmaların açıklaması**
+Tüm Karma yapılandırmalarının açıklamaları için [Karma Yapılandırma Dosyası](https://karma-runner.github.io/1.0/config/configuration-file.html) sayfasına gidin.
 
-Kolay bir şekilde kullanmak için, `scripts` öğesine test komutu ekleyebilirsiniz:
+Kolaylık olması için `scripts` içine bir test komutu ekleyebilirsiniz:
 
 ```json
 {
@@ -294,13 +290,13 @@ Kolay bir şekilde kullanmak için, `scripts` öğesine test komutu ekleyebilirs
 
 Artık birim testlerinizi yazmaya başlamaya hazırsınız.
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>Görselin DOM öğesini denetlemek için basit birim testi
+## <a name="check-the-dom-element-of-the-visual"></a>Görselin DOM öğesini denetleme
 
-Görselin test edilmesi için görselin bir örneğini oluşturmamız gerekir.
+Görseli test etmek için ilk olarak görselin bir örneğini oluşturun.
 
-### <a name="creating-visual-instance-builder"></a>Görsel örnek oluşturucu oluşturma
+### <a name="create-a-visual-instance-builder"></a>Görsel örneği oluşturucusu oluşturma
 
-`visualBuilder.ts` dosyasını sonraki kodla birlikte `test` klasörüne ekleyin:
+Aşağıdaki kodu kullanarak *test* klasörüne *visualBuilder.ts* dosyasını ekleyin:
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-Görselinizin bir örneğini oluşturmak için `build` yöntemi vardır. `mainElement`, görselinizde "kök" DOM öğesinin bir örneğini döndüren bir GET yöntemidir. Alıcı isteğe bağlıdır, ancak birim testini yazmayı daha kolay hale getirir.
+Görselinizin bir örneğini oluşturmak için `build` yöntemi vardır. `mainElement`, görselinizdeki “root” belge nesnesi modelinin (DOM) bir örneğini döndüren bir alma yöntemidir. Alıcı isteğe bağlıdır, ancak birim testini yazmayı kolaylaştırır.
 
-Görsel örneği oluşturucumuz var. Test çalışmasını yazalım. Bu test çalışması, görseliniz görüntülendiğinde oluşturulan bu SVG öğelerini denetlemeye yarar.
+Artık görselinizin örneğinin bir derlemesine sahipsiniz. Test çalışmasını yazalım. Test çalışması, görseliniz görüntülenirken oluşturulan SVG öğelerini denetler.
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>Test çalışmalarını yazmak için TypeScript dosyası oluşturma
+### <a name="create-a-typescript-file-to-write-test-cases"></a>Test çalışmalarını yazmak için TypeScript dosyası oluşturma
 
-Test çalışmaları için bu kodlarla `visualTest.ts` dosyasını ekleyin:
+Aşağıdaki kodu kullanarak test çalışmaları için bir *visualTest.ts* dosyası ekleyin:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-Birkaç yöntem çağrısı vardır.
+Çeşitli yöntemler çağrılır:
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) yöntemi test çalışmasını açıklar. Jasmine Framework bağlamında genellikle paket veya belirtimler grubu olarak adlandırılır.
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): Test çalışmasını açıklar. Jasmine çerçevesi bağlamında genellikle bir belirtim paketini veya grubunu açıklar.
 
-* `beforeEach` yöntemi, [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan `it` yönteminin her bir çağrısından önce çağrılır.
+* `beforeEach`: [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan her `it` yöntemi çağrısından önce çağrılır.
 
-* `it` tek bir belirtim tanımlar. [`it`](https://jasmine.github.io/api/2.6/global.html#it) yöntemi bir veya daha fazla `expectations` içermelidir.
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): Tek bir belirtimi tanımlar. `it` yöntemi bir veya birden fazla `expectations` içermelidir.
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) - yöntemi bir belirtim için beklenti oluşturur. Tüm beklentiler herhangi bir başarısızlık olmadan geçerse bir belirtim başarılı olur.
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): Belirtim için bir beklenti oluşturur. Tüm beklentiler hiçbir hata olmadan geçerse belirtim başarılı olur.
 
-* `toBeInDOM` - Bu, eşleştirici yöntemlerinden biridir. Jasmine Framework [belgelerinde](https://jasmine.github.io/api/2.6/matchers.html) mevcut eşleştiriciler hakkında bilgi edinebilirsiniz.
+* `toBeInDOM`: *Eşleştirici* yöntemlerinden biri. Eşleştiriciler hakkında daha fazla bilgi için bkz. [Jasmine Ad Alanı: eşleştiriciler](https://jasmine.github.io/api/2.6/matchers.html).
 
-**Resmi [belgelerde](https://jasmine.github.io/) Jasmine Framework hakkında daha fazla bilgi edinin.**
-
-Sonra, komut satırı aracında bir komut yazarak birim testinizi çalıştırabilirsiniz.
-
-Bu test, görsellerin kök SVG öğesinin oluşturulup oluşturulmadığını denetler.
+Jasmine hakkında daha fazla bilgi için bkz. [Jasmine çerçevesi belgeleri](https://jasmine.github.io/) sayfası.
 
 ### <a name="launch-unit-tests"></a>Birim testlerini başlatma
 
-Birim testini çalıştırmak için komut satırı aracında bu komutu yazabilirsiniz.
+Bu test, görsellerin kök SVG öğesinin oluşturulup oluşturulmadığını denetler. Birim testini çalıştırmak için komut satırı aracına aşağıdaki komutu girin:
 
 ```cmd
 npm run test
 ```
 
-`karma.js`, Chrome tarayıcısını çalıştırır ve test çalışmasını yürütür.
+`karma.js` test çalışmasını Chrome tarayıcısında çalıştırır.
 
-![KarmaJS Chrome'da başlatıldı](./media/karmajs-chrome.png)
+![Chrome’da açılan Karma JavaScript](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> Google Chrome yerel olarak yüklenmelidir.
+> Google Chrome’u yerel olarak yüklemelisiniz.
 
-Komut satırında şu çıktıyı alırsınız:
+Komut satırı penceresinde şu çıkışı alırsınız:
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>Birim testleri için statik veri ekleme
 
-`test` klasöründe `visualData.ts` dosyası oluşturun. Şu kodlarla:
+Aşağıdaki kodu kullanarak *test* klasöründe *visualData.ts* dosyasını oluşturun:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -462,15 +454,15 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 Verileri veri alanı demetlerine yerleştirdiğinizde, Power BI verilerinize göre kategorik bir `dataview` nesnesi oluşturur.
 
-![Alan demetleri](./media/fields-buckets.png)
+![Veri alanı demetleri](./media/fields-buckets.png)
 
-Birim testlerinde, bu nesneyi yeniden oluşturmak için Power BI temel işlevleriniz yoktur. Ancak statik verilerinizi kategorik `dataview` ile eşlemeniz gerekir. `TestDataViewBuilder` sınıfı ise bu konuda size yardımcı olur.
+Birim testlerinde, verileri yeniden oluşturmak için Power BI temel işlevleriniz yoktur. Ama statik verilerinizi kategorik `dataview` nesnesine eşlemeniz gerekir. `TestDataViewBuilder` sınıfı bu eşlemeyi yapmanıza yardımcı olabilir.
 
-[DataViewMapping hakkında daha fazla bilgi edinin](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+Veri Görünümü eşlemesi hakkında daha fazla bilgi için bkz. [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
 
-`getDataView` yönteminde, yalnızca verilerinizi içeren `createCategoricalDataViewBuilder` yöntemini çağırırsınız.
+`getDataView` yönteminde verilerinizi içeren `createCategoricalDataViewBuilder` yöntemini çağırırsınız.
 
-`sampleBarChart` görseli [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) dosyasında, dataRoles ve dataViewMapping nesneleri vardır:
+`sampleBarChart` görseli [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) dosyasında dataRoles ve dataViewMapping nesnelerimiz vardır:
 
 ```json
 "dataRoles": [
@@ -549,13 +541,13 @@ Aynı eşlemeyi oluşturmak için şu parametreleri `createCategoricalDataViewBu
 ], columnNames)
 ```
 
-`this.valuesCategory` kategori dizisi.
+Burada `this.valuesCategory` bir kategori dizisidir:
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-ve her kategori için `this.valuesMeasure` ölçü dizisi. Örnek:
+`this.valuesMeasure` de her kategori için ölçüm dizisidir:
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 Artık birim testinizde `SampleBarChartDataBuilder` sınıfını kullanabilirsiniz.
 
-`ValueType` sınıfı `powerbi-visuals-utils-testutils` paketinde tanımlıdır. Ayrıca `createCategoricalDataViewBuilder` yöntemi `lodash` kitaplığını gerektirir.
+`ValueType` sınıfı powerbi-visuals-utils-testutils paketinde tanımlanır. `createCategoricalDataViewBuilder` yöntemi de `lodash` kitaplığını gerektirir.
 
 Bu paketleri bağımlılıklara ekleyin.
 
@@ -582,7 +574,7 @@ npm install
 
 `lodash-es` kitaplığını yüklemek için.
 
-Şimdi birim testini yeniden çalıştırabilirsiniz. Bu çıktıyı almalısınız
+Şimdi birim testini yeniden çalıştırabilirsiniz. Aşağıdaki çıkışı almanız gerekir:
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-Ayrıca, görseliniz ile başlatılan Chrome tarayıcısını görmeniz gerekir.
+Görseliniz aşağıda gösterildiği gibi Chrome tarayıcısında açılır:
 
 ![Chrome'da UT başlatılır](./media/karmajs-chrome-ut-runned.png)
 
-Dikkat kapsamı özetini arttırılmış hale getirin. Geçerli kod kapsamı hakkında daha fazla bilgi edinmek için `coverage\index.html` öğesini açın
+Özet, kapsamın arttığını gösterir. Geçerli kod kapsamı hakkında daha fazla bilgi edinmek için `coverage\index.html` dosyasını açın.
 
 ![UT kapsamı dizini](./media/code-coverage-index.png)
 
-Veya `src` klasörü kapsamında
+İsterseniz `src` klasörünün kapsamına da bakabilirsiniz:
 
 ![src klasörünün kapsamı](./media/code-coverage-src-folder.png)
 
-Dosya kapsamında kaynak koduna bakabilirsiniz. Birim testlerinin çalıştırılması sırasında bir kod yürütülmezse, `Coverage` yardımcı programları satır arka planını kırmızı olarak işaretler.
+Dosyanın kapsamında kaynak kodu görüntüleyebilirsiniz. Birim testleri sırasında belirli bir kod yürütülmezse `Coverage` yardımcı programları satırı kırmızıyla vurgulayabilir.
 
-![visual.ts dosyasının kod kapsamı](./media/code-coverage-visual-src.png)
+![Visual.ts dosyasının kod kapsamı](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> Ancak kod kapsamı, görselin iyi bir işlevsellik kapsamına sahip olduğunuz anlamına gelmez. Tek bir basit birim testi, `src\visual.ts` içinde %96’nın üzerinde kapsam sağladı.
+> Kod kapsamı, görselin iyi bir işlevsellik kapsamına sahip olduğunuz anlamına gelmez. Tek bir basit birim testi, `src\visual.ts` içinde yüzde 96’nın üzerinde kapsam sağlar.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Hazır olduğunda görselinizi yayına gönderebilirsiniz.
-
-[AppSource'ta görsel yayımlama hakkında daha fazla bilgi edinin](../office-store.md)
+Görseliniz hazır olduğunda görselinizi yayına gönderebilirsiniz. Daha fazla bilgi için bkz. [Özel görselleri AppSource'a yayımlama](../office-store.md).

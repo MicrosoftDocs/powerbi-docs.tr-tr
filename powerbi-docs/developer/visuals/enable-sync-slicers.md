@@ -1,6 +1,6 @@
 ---
-title: Eşitleme dilimleyicilerini etkinleştirme
-description: Power BI Görselleri için eşitleme dilimleyicileri ekleme
+title: Power BI görsellerinde Dilimleyicileri Eşitleme özelliğini etkinleştirme
+description: Bu makalede Power BI görsellerine Dilimleyicileri Eşitleme özelliğini ekleme işlemi açıklanır.
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425034"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237218"
 ---
-# <a name="sync-slicers"></a>Eşitleme Dilimleyicileri
+# <a name="sync-slicers-in-power-bi-visuals"></a>Power BI görsellerinde dilimleyicileri eşitleme
 
-[Eşitleme Dilimleyicileri](https://docs.microsoft.com/power-bi/desktop-slicers)’ni desteklemek için özel dilimleyici görselinizin API 1.13 veya daha yeni bir sürümü kullanması gerekir.
+[Dilimleyicileri Eşitleme](https://docs.microsoft.com/power-bi/desktop-slicers) özelliğini desteklemek için özel dilimleyici görselinizin API sürüm 1.13 veya üstünü kullanıyor olması gerekir.
 
-İkinci gerekli görünüş, `capabilities.json` öğesindeki etkin seçeneğidir (aşağıdaki örneğe bakın).
+Bunun yanı sıra, aşağıdaki kodda gösterildiği gibi bu seçeneği *capabilities.json* dosyasında da etkinleştirmelisiniz:
 
 ```json
 {
@@ -34,11 +34,11 @@ ms.locfileid: "68425034"
 }
 ```
 
-`capabilities.json` öğesinde yapılan değişikliklerden sonra, özel dilimleyici görselinize tıkladığınızda Eşitleme Dilimleyicileri seçeneği panelini görebilirsiniz.
+*Capabilities.json* dosyasını güncelleştirdikten sonra, özel dilimleyici görselinizi seçtiğinizde **Dilimleyicileri eşitle** seçeneklerini görebilirsiniz.
 
 > [!NOTE]
-> Dilimleyicinizde 1’den fazla alan varsa (kategori veya ölçü), Eşitleme Dilimleyicileri birden fazla alanı desteklemediği için özellik devre dışı bırakılır.
+> Dilimleyicileri Eşitleme özelliği birden fazla alanı desteklemez. Dilimleyicinizin birden fazla alanı varsa (**Kategori** veya **Ölçü**) özellik devre dışı bırakılır.
 
-![Eşitleme dilimleyicileri paneli](./media/sync-slicers-panel.png)
+![“Dilimleyicileri eşitle” bölmesi](./media/sync-slicers-panel.png)
 
-Panelde, dilimleyici görünürlüğünüzün ve filtrelemesinin birkaç rapor sayfasına uygulanabildiğini görebilirsiniz.
+**Dilimleyicileri eşitle** bölmesinde dilimleyici görünürlüğünüzün ve filtrelemesinin çeşitli rapor sayfalarına uygulanabildiğini görebilirsiniz.

@@ -1,30 +1,29 @@
 ---
-title: Power BI'da rapor görüntüleme
-description: Power BI'daki raporlar
+title: Power BI hizmetindeki raporlar
+description: Tüketiciler için Power BI hizmetindeki raporlar
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532151"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391332"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 
 Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan kişi de olabilirsiniz.
 
-![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-report.png)
+![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-reports.png)
 
-Bu raporda dört sayfa (veya sekme) bulunuyor ve şu anda **Yaklaşım** sayfasını görüntülüyorsunuz. Bu sayfada beş farklı görsel ve bir sayfa başlığı bulunuyor.
+Bu raporda altı sayfa (veya sekme) bulunuyor ve şu anda **Yaklaşım** sayfasını görüntülüyorsunuz. Bu sayfada beş farklı görsel ve bir sayfa başlığı bulunuyor. *Filtreler* bölmesi tüm rapor sayfalarına bir filtre uygulandığını gösteriyor. Filtreler bölmesini daraltmak için oku (**>**) seçin.
 
 Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti tüketicileri için temel kavramlar](end-user-basic-concepts.md) makalesini okuyarak iyi bir temel oluşturabilirsiniz. Raporlar mobil cihazlarda görüntülenebilir, paylaşılabilir ve raporlara not eklenebilir. Daha fazla bilgi için bkz. [Power BI mobil uygulamalarında raporları araştırma](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -42,6 +41,8 @@ Power BI bir raporda tek bir veri kümesini temel alır. Rapor *tasarımcıları
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Değişikliklerinizi kaydedin veya varsayılan ayarlara geri dönün
 
 Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez. Kaydedebilirsiniz ancak bu değişiklikler yalnızca sizin içeriği nasıl göreceğinizi etkiler. Raporun özgün varsayılan görünümüne geri dönmek için **Varsayılana sıfırla**’yı seçin.
+
+![Varsayılana dön simgesinin ekran görüntüsü.](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>Panolarla raporları karşılaştırma
 
@@ -76,6 +77,5 @@ Buna karşılık başkalarından rapor alan bir *kullanıcı* da olabilirsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI nedir?](../power-bi-overview.md)
-
-[Power BI hizmeti müşterilerine yönelik temel kavramlar](end-user-basic-concepts.md)
+[Raporu açma ve görüntüleme](end-user-report-open.md)    
+[Power BI hizmetindeki panolar](end-user-dashboards.md)

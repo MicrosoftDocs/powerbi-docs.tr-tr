@@ -1,9 +1,9 @@
 ---
 title: Azure Power BI Embedded ve tümleşik analiz nedir? | Microsoft Docs
 description: Power BI Embedded, ISV’lerin ve geliştiricilerin uygulamalarına hızlıca etkileyici görseller, raporlar ve panolar eklemelerine yardımcı olarak Power BI özelliklerini daha kolay bir şekilde kullanmalarını amaçlayan tümleşik analiz aracı olarak tasarlanmıştır. Power BI Embedded kullanarak tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanma hakkında bilgi edinin.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -11,16 +11,16 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c74bd97a3323f28ba6d66fad03307f28c1b0c270
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385029"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391483"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded nedir?
 
-Power BI Embedded, ISV’lerin ve geliştiricilerin tümleşik analiz ile Power BI özelliklerini kullanım şeklini kolaylaştırmak için tasarlanmıştır. Power BI Embedded, uygulamalarınıza hızlıca etkileyici görseller, raporlar ve panolar eklemenize yardımcı olarak Power BI özelliklerini daha basit hale getirir. Bu durum, Microsoft Azure üzerinde oluşturulan uygulamaların Machine Learning ve IoT gibi hizmetleri kullanmasına benzer. ISV'ler, uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin bağlam içinde hızlı ve bilgiye dayalı kararlar vermesini sağlar.
+Power BI Embedded, ISV’lerin ve geliştiricilerin tümleşik analiz ile Power BI özelliklerini kullanım şeklini kolaylaştırmak için tasarlanmıştır. Power BI Embedded, uygulamalarınıza hızla etkileyici görseller, raporlar ve panolar eklemenize yardımcı olarak Power BI özelliklerini daha basit hale getirir. Bu durum, Microsoft Azure üzerinde oluşturulan uygulamaların Machine Learning ve IoT gibi hizmetleri kullanma şekline benzer. ISV'ler, uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin bağlam içinde hızlı ve bilgiye dayalı kararlar vermesini sağlar.
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 

@@ -9,127 +9,128 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 3287e8a7eb1c36c3f0d8a1fc24faa0442de2dddf
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 13926603d7a5bfee987439180151d64ef5c456c2
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425448"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237265"
 ---
-# <a name="creating-ssl-certificate"></a>SSL sertifikası oluşturma
+# <a name="create-an-ssl-certificate"></a>SSL sertifikası oluşturma
 
-PowerShell New-SelfSignedCertificate cmdlet’ini Windows 8 veya daha yeni bir işletim sisteminde kullanarak sertifikayı oluşturmak için aşağıdaki komutu çalıştırın.
+Bu makalede SSL sertifikasını oluşturma işlemi açıklanır.
 
-Araç, **Windows** **7** için OpenSSL yüklemesini gerektirir. Yardımcı `openssll` komut satırında kullanılabilir olmalıdır.
-
-OpenSSL’i yüklemek için burayı ziyaret edin: [https://www.openssl.org](https://www.openssl.org) veya [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+Windows 8 veya üstünde PowerShell `New-SelfSignedCertificate` cmdlet’ini kullanarak sertifika oluşturmak için aşağıdaki komutu çalıştırın:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-## <a name="create-certificate-mac-os-x"></a>Sertifika oluştur (Mac OS X)
+Araç, Windows 7 için OpenSSL yüklemesini gerektirir. OpenSSL yardımcı programının komut satırından kullanılabilmesi gerekir.
 
-OpenSSL yardımcıları Linux veya Mac OS X işletim sistemlerinde genellikle kullanılabilir durumdadır.
+OpenSSL’yi yüklemek için [OpenSSL](https://www.openssl.org) veya [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sitesine gidin.
 
-Tersi durumda,
 
-*Brew* paket yöneticisini
 
-```cmd
-brew install openssl
-brew link openssl --force
-```
+## <a name="create-a-certificate-mac-os-x"></a>Sertifika oluşturma (Mac OS X)
 
-veya *MacPorts*’u kullanarak yükleyebilirsiniz
+Genellikle OpenSSL yardımcı programı Linux veya Mac OS X işletim sisteminde sağlanır.
 
-```cmd
-sudo port install openssl
-```
+Aşağıdaki komutlardan birini çalıştırarak da yardımcı programı yükleyebilirsiniz:
+* *Brew* paket yöneticisinden:
 
-Yeni sertifika çağrısı oluşturmak için OpenSSL’i yükledikten sonra:
+    ```cmd
+    brew install openssl
+    brew link openssl --force
+    ```
 
-```cmd
-pbiviz --create-cert
-```
+* *MacPorts* kullanarak:
 
-## <a name="create-certificate-linux"></a>Sertifika oluşturun (Linux)
+    ```cmd
+    sudo port install openssl
+    ```
 
-OpenSSL yardımcıları Linux işletim sisteminizde kullanılamıyor. Aşağıdaki komutları kullanarak yükleyebilirsiniz.
-
-*APT* paket yöneticisi için:
-
-```cmd
-sudo apt-get install openssl
-```
-
-*Yellowdog Güncelleştiricisi* için:
-
-```cmd
-yum install openssl
-```
-
-*Redhat Paket Yöneticisi* için:
-
-```cmd
-rpm install openssl
-```
-
-OpenSSL işletim sisteminizde kullanılabiliyorsa, yeni sertifika
+Yeni sertifikayı oluşturmak üzere OpenSSL yardımcı programını yükledikten sonra aşağıdaki komutu çalıştırın:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-oluşturmak için çağrı yapın.
+## <a name="create-a-certificate-linux"></a>Sertifika oluşturma (Linux)
 
-Ya da şuralardan alın: [https://www.openssl.org](https://www.openssl.org) veya [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+OpenSSL yardımcı programı Linux işletim sisteminizde yoksa, aşağıdaki komutlardan birini kullanarak yükleyebilirsiniz:
 
-## <a name="generate-certificate-manually"></a>Sertifikayı el ile oluşturma
+* *APT* paket yöneticisi için:
 
-Herhangi bir araç tarafından oluşturulan sertifikalarınızı belirtebilirsiniz.
+    ```cmd
+    sudo apt-get install openssl
+    ```
 
-Sisteminizde OpenSSL yüklüyse, yeni bir sertifika oluşturmak için aşağıdaki komutu çalıştırabilirsiniz
+* *Yellowdog Güncelleştiricisi* için:
+
+    ```cmd
+    yum install openssl
+    ```
+
+* *Redhat Paket Yöneticisi* için:
+
+    ```cmd
+    rpm install openssl
+    ```
+
+OpenSSL yardımcı programı işletim sisteminizde zaten varsa, aşağıdaki komutu çalıştırarak yeni sertifikayı oluşturun:
+
+```cmd
+pbiviz --create-cert
+```
+
+Öte yandan, [OpenSSL](https://www.openssl.org) veya [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sitesine giderek de OpenSSL yardımcı programını alabilirsiniz.
+
+## <a name="generate-the-certificate-manually"></a>Sertifikayı el ile oluşturma
+
+Sertifikalarınızın herhangi bir araçla oluşturulabileceğini belirtebilirsiniz.
+
+OpenSSL yardımcı programı sisteminizde zaten yüklenmişse aşağıdaki komutları çalıştırarak yeni sertifikayı oluşturun:
 
 ```cmd
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-PowerBI-visuals-tools web sunucusu sertifikaları genellikle şuralarda bulunur
+Genellikle aşağıdakilerden birini çalıştırarak PowerBI-visuals-tools web sunucusu sertifikalarını bulabilirsiniz:
 
-```cmd
-%appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-```
+* Araçların genel örneği için:
 
-araçların genel örneği için
+    ```cmd
+    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-veya
+* Araçların yerel örneği için:
 
-```cmd
-<custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-```
+    ```cmd
+    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-araçların yerel örneği için.
+PEM biçimini kullanıyorsanız sertifika dosyasını *PowerBICustomVisualTest_public.crt* olarak ve privateKey öğesini *PowerBICustomVisualTest_public.key* olarak kaydedin.
 
-PEM biçimini kullanıyorsanız, cert dosyasını `PowerBICustomVisualTest_public.cer` ve privateKey’i `PowerBICustomVisualTest_public.key` olarak kaydetmelisiniz.
-PFX biçimin kullanıyorsanız cert dosyasını `PowerBICustomVisualTest_public.pfx` olarak kaydedin.
+PFX biçimini kullanıyorsanız, sertifika dosyasını *PowerBICustomVisualTest_public.pfx* olarak kaydedin.
 
-PFX cert dosyanız parola gerektiriyorsa
+PFX sertifika dosyanıza şifre gerekiyorsa aşağıdakileri yapın:
+1. Yapılandırma dosyasında şunu belirtin:
 
-```cmd
-\PowerBI-visuals-tools\config.json
-```
+    ```cmd
+    \PowerBI-visuals-tools\config.json
+    ```
 
-sunucu bölümünde şunu belirtmeniz gerekir:
+1. `server` bölümünde "*YOUR PASSPHRASE*" yer tutucusunun yerine kendi şifrenizi belirtin:
 
-```cmd
-"server":{
-    "root":"webRoot",
-    "assetsRoute":"/assets",
-    "privateKey":"certs/PowerBICustomVisualTest_private.key",
-    "certificate":"certs/PowerBICustomVisualTest_public.crt",
-    "pfx":"certs/PowerBICustomVisualTest_public.pfx",
-    "port":"8080",
-    "passphrase":"YOUR PASSPHRASE"
-}
-```
+    ```cmd
+    "server":{
+        "root":"webRoot",
+        "assetsRoute":"/assets",
+        "privateKey":"certs/PowerBICustomVisualTest_private.key",
+        "certificate":"certs/PowerBICustomVisualTest_public.crt",
+        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "port":"8080",
+        "passphrase":"YOUR PASSPHRASE"
+    }
+    ```

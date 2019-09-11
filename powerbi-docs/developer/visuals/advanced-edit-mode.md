@@ -1,6 +1,6 @@
 ---
-title: Gelişmiş Düzenleme Modu
-description: Gelişmiş kullanıcı arabirimi denetimleriyle Power BI Görselleri
+title: Power BI görsellerinde gelişmiş düzenleme modu
+description: Bu makalede Power BI görsellerine gelişmiş kullanıcı arabirimi denetimleri ayarlama işlemi açıklanır.
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,51 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 625105aed773bce5cf70932f092faf60ea001c2c
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425563"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237346"
 ---
-# <a name="advanced-edit-mode"></a>Gelişmiş düzenleme modu
+# <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI görsellerinde gelişmiş düzenleme modu
 
-Gelişmiş kullanıcı arabirimi denetimleri gerektiren görseller, Gelişmiş Düzenleme Modu’na yönelik destek bildirebilir.
-Destekleniyorsa, rapor düzenleme modundayken görselin menüsünde bir `Edit` düğmesi görüntülenir.
-`Edit` düğmesine basıldığında EditMode `Advanced` olarak ayarlanır.
-Görsel, bu kullanıcı arabirimi denetimlerinin görüntülenip görüntülenmeyeceğini belirlemek için EditMode bayrağını kullanabilir.
+Power BI görselinizde gelişmiş kullanıcı arabirimi denetimlerine ihtiyacınız varsa, gelişmiş düzenleme modundan yararlanabilirsiniz. Rapor düzenleme modundayken **Düzenle** düğmesini seçerek düzenleme modunu **Gelişmiş** olarak ayarlayabilirsiniz. Görsel bu kullanıcı arabirimi düğmesini görüntüleyip görüntülemeyeceğini belirlemek için `EditMode` bayrağını kullanabilir.
 
-Varsayılan olarak, görsel Gelişmiş Düzenleme Modu’nu desteklemez.
-Farklı bir davranış gerekirse, `advancedEditModeSupport` özelliği ayarlanarak görselin `capabilities.json` dosyasında bu açıkça belirtilmelidir.
+Varsayılan olarak, görseller gelişmiş düzenleme modunu desteklemez. Farklı bir davranış gerekirse, `advancedEditModeSupport` özelliği ayarlanarak görselin *capabilities.json* dosyasında bunu açıkça belirtmelisiniz.
 
 Olası değerler şunlardır:
 
-- 0 - NotSupported
+- `0` - NotSupported
 
-- 1 - SupportedNoAction
+- `1` - SupportedNoAction
 
-- 2 - SupportedInFocus
+- `2` - SupportedInFocus
 
-## <a name="entering-advanced-edit-mode"></a>Gelişmiş Düzenleme Modu’na girme
+## <a name="enter-advanced-edit-mode"></a>Gelişmiş düzenleme moduna girme
 
-`Edit` düğmesi şu durumlarda görünür:
+Aşağıdaki durumlarda **Düzenle** düğmesi görüntülenir:
 
- 1- capabilities.json dosyasında `advancedEditModeSupport` özelliği `SupportedNoAction` veya `SupportedInFocus` olarak ayarlandıysa.
+* *Capabilities.json* dosyasında `advancedEditModeSupport` özelliği `SupportedNoAction` veya `SupportedInFocus` olarak ayarlanmıştır.
 
- 2- Görsel rapor düzenleme modunda görüntüleniyorsa.
+* Görsel rapor düzenlemesi modunda görüntüleniyordur.
 
-capabilities.json dosyasında `advancedEditModeSupport` özelliği eksikse veya bu `NotSupported` olarak ayarlandıysa, ‘Düzenleme’ düğmesi kaybolur.
+*Capabilities.json* dosyasında `advancedEditModeSupport` özelliği yoksa veya `NotSupported` olarak ayarlanmışsa, **Düzenle** düğmesi görüntülenmez.
 
 ![Düzenleme moduna girme](./media/edit-mode.png)
 
-Kullanıcı `Edit` öğesine tıkladığında, görsel EditMode’un `Advanced` olarak ayarlı olduğu bir update() çağrısı alır.
-Özelliklerde ayarlanan değere göre aşağıdaki eylemler gerçekleşir:
+**Düzenle**’yi seçtiğinizde görsel EditMode öğesinin `Advanced` olarak ayarlandığı bir update() çağrısı alır. *Capabilities.json* dosyasında ayarlanan değere bağlı olarak aşağıdaki eylemler gerçekleşir:
 
-* `SupportedNoAction` - Ana bilgisayar tarafından başka eylem gerçekleştirilmez.
-* `SupportedInFocus` - Ana bilgisayar, görseli odak modunda yeni pencerede açar.
+* `SupportedNoAction`: Konak için başka eylem gerekmez.
+* `SupportedInFocus`: Konak görseli odak moduna geçirir.
 
-## <a name="exiting-advanced-edit-mode"></a>Gelişmiş Düzenleme Modu’ndan Çıkma
+## <a name="exit-advanced-edit-mode"></a>Gelişmiş düzenleme modundan çıkma
 
-`Back to report` düğmesi şu durumlarda görünür:
+Aşağıdaki durumlarda **Rapora geri dön** düğmesi görüntülenir:
 
-1- capabilities.json dosyasındaki `advancedEditModeSupport` özelliği `SupportedInFocus` olarak ayarlandıysa.
+* *Capabilities.json* dosyasında `advancedEditModeSupport` özelliği `SupportedInFocus` olarak ayarlanmıştır.

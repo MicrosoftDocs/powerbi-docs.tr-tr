@@ -1,6 +1,6 @@
 ---
-title: Olayları işleme
-description: Power BI Görselleri, Power Point/PDF olarak dışarı aktarma için hazır olunduğunu Power BI’a bildirebilir
+title: Power BI görsellerinde olayları işleme
+description: Power BI görselleri, PowerPoint’e veya PDF’ye dışarı aktarmak için hazır olduklarını Power BI’a bildirebilir.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425103"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237153"
 ---
-# <a name="event-service"></a>Olay hizmeti
+# <a name="render-events-in-power-bi-visuals"></a>Power BI görsellerinde olayları işleme
 
-Yeni API, işleme esnasında çağrılması gereken üç yöntemden oluşur (başlatıldı, tamamlandı veya başarısız).
+Yeni API, işleme sırasında çağrılması gereken üç yöntemden (`started`, `finished` veya `failed`) oluşur.
 
-İşleme başladığında, özel görsel kodu işlemenin başladığını belirtmek için renderingStarted yöntemini çağırır.
+İşleme başladığında Power BI görsel kodu işlemenin başlatıldığını belirtmek için `renderingStarted` yöntemini çağırır.
 
-İşleme başarıyla tamamlanırsa, özel görsel kod hemen `renderingFinished` yöntemine çağrı yaparak dinleyicilere görselin görüntüsünün hazır olduğunu bildirir (**başlıca ‘PDF’e aktar’ ve ‘PowerPoint’e aktar’** ).
+İşleme başarıyla tamamlanırsa, Power BI görsel kodu hemen `renderingFinished` yöntemini çağırarak dinleyicilere (öncelikli olarak *PDF’ye aktar* ve *PowerPoint’e aktar*) görselin görüntüsünün hazır olduğunu bildirir.
 
-İşleme esnasında özel görselin başarıyla tamamlanmasını engelleyen bir sorun oluşursa. Özel görsel kodun `renderingFailed` yöntemini arayıp dinleyiciye işleme sürecinin tamamlanmadığını bildirmesi gerekir. Bu yöntem, hatanın sebebine yönelik isteğe bağlı bir dize de sağlar.
+Bu işlem sırasında sorun oluşursa Power BI görselinin başarıyla işlenmesi engellenir. İşlemenin tamamlanmadığını dinleyicilere bildirmek için Power BI görsel kodunun `renderingFailed` yöntemini çağırması gerekir. Bu yöntem hatanın nedenini belirtmek üzere isteğe bağlı bir dize de sağlar.
 
 ## <a name="usage"></a>Kullanım
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Basit Örnek. Görselin işlemeye yönelik animasyonu bulunmuyor
+### <a name="sample-the-visual-displays-no-animations"></a>Örnek: Görsel hiç animasyon görüntülemiyor
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,9 +83,9 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Örnek. Animasyonlu görsel
+### <a name="sample-the-visual-displays-animations"></a>Örnek: Görsel animasyonları görüntülüyor
 
-Görselin işlemeye yönelik animasyonu veya asenkron işlevleri varsa, animasyondan sonra veya asenkron işlevin içinde `renderingFinished` işlevi çağrılmalıdır.
+Görselin işlenecek animasyonları veya zaman uyumsuz işlevleri varsa, animasyondan sonra veya zaman uyumsuz işlevin içinde `renderingFinished` yöntemi çağrılmalıdır.
 
 ```typescript
     export class Visual implements IVisual {
@@ -104,7 +104,7 @@ Görselin işlemeye yönelik animasyonu veya asenkron işlevleri varsa, animasyo
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ Görselin işlemeye yönelik animasyonu veya asenkron işlevleri varsa, animasyo
 
 ## <a name="rendering-events-for-visual-certification"></a>Görsel sertifika için olayları işleme
 
-Görsel ile olayları işleme desteği, görsellere yönelik sertifikasyonun gereksinimlerinden biridir. [Sertifikasyon gereksinimleri](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) hakkında daha fazla bilgi edinin
+Görsel sertifikanın gereksinimlerinden biri, görsel tarafından olayları işleme desteğidir. Daha fazla bilgi için bkz. [sertifika gereksinimleri](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

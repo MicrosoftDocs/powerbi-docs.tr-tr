@@ -1,32 +1,32 @@
 ---
-title: Tüketiciler için Power bı'da görsel türleri
-description: Power BI hizmetinde görsel türleri
+title: Power BI’da tüketiciler için görsel türleri
+description: Power BI hizmetindeki görsel türleri
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711546"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302542"
 ---
-# <a name="visual-types-in-power-bi"></a>Power bı'da görsel türleri
-Görseller, raporlar, panolar, uygulamaları ve soru- cevap özelliğinde bulabilirsiniz Power BI ile görsel bu tür bazı paketlenir ve bazı *özel görseller*. Özel görseller Power BI’ın dışında ve *rapor tasarımcılarının* Power BI raporlarına, panolarına ve uygulamalarına ekleyebilecekleri şekilde oluşturulur. 
+# <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
+Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
 
-Bu makalede, Power BI ile paketlenmiş görsel bir genel bakıştır.  Bu, en sık karşılaşabileceğiniz görseller vardır. 
+Bu makale Power BI hizmetiyle paketlenen görsellere genel bir bakış sağlar.  Bunlar en sık karşılaşacağınız görsellerdir. Bu görsellerden herhangi biriyle ilgili daha ayrıntılı bilgi için [Görsel türleriyle ilgili Power BI rapor *tasarımcısı* belgelerine](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) bakın
 
 > [!NOTE]
 > Özel görseller hakkında daha fazla bilgi edinmek için bunları [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’un **Power BI görselleri** bölümünde arayın. Her görsel için bir açıklama, oluşturucu bilgileri ve ekran görüntüsü veya video bulabilirsiniz. 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Power BI'da kullanılabilen görseller listesi
-Bu görsellerin tümünü bulunabilir Power BI uygulamaları, panoları, raporları ve [soru- cevap içinde belirtilen](end-user-q-and-a.md). Görsellerle etkileşim öğrenmek için bkz. [görsellerde raporlar, panolar ve uygulamalar ile etkileşimde bulunma](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI’da sağlanan görsellerin listesi
+Bu görsellerin tümü Power BI panolarıyla raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](end-user-q-and-a.md). Görsellerle etkileşimli çalışmayı öğrenmek için bkz. [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Alan grafikleri: Basit (Katmanlı) ve Yığılmış
 ![alan grafiği](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ Birleşik haritada sütun grafikleri ile çizgi grafikler birleştirilir. Bu iki
 Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 - aynı X eksenine sahip bir çizgi grafiğiniz ve sütun grafiğiniz olduğunda.
 - farklı değer aralıklarına sahip birden fazla ölçüyü karşılaştırmak istediğinizde
-- bir görseldeki iki ölçü arasındaki bağıntıyı göstermek için
+- bir görselde yer alan iki ölçü arasındaki bağıntıyı göstermek istediğinizde
 - bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde.
 - tuval alanını tasarruflu kullanmak istediğinizde
 
@@ -76,14 +76,6 @@ Huniler, aşamalardan oluşan bir işlemin görselleştirilmesine yardımcı olu
 Örneğin, şu aşamalarda müşterileri izleyen bir satış hunisi: Müşteri Adayı > Nitelikli Müşteri Adayı > Olası Müşteri > Sözleşme > Kapanış. Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
 Huninin her aşaması, toplamın belirli bir yüzdesini temsil eder. Bu nedenle çoğu durumda huni grafik bir huniye benzer. İlk aşama en büyüktür ve sonraki her aşama da bir öncekinden küçüktür. Armut şeklindeki huni de kullanışlıdır. Süreçte bir sorun olduğunu belirtebilir. Ancak genellikle ilk aşama olan "giriş" aşaması en büyük olandır.
 
-Huni grafikler aşağıdaki durumlarda harika bir seçimdir:
-- veriler sıralı olduğunda ve en az 4 aşama boyunca ilerlediğinde.
-- ilk aşamadaki "öğelerin" sayısının son aşamadaki sayıdan büyük olması beklendiğinde.
-- potansiyeli (gelir/satış/anlaşma vs.) aşamalara göre hesaplamak için.
-- dönüşüm ve elde tutma oranlarını hesaplayıp takip etmek için.
-- doğrusal bir süreçteki sorunlu noktaları ortaya çıkarmak için.
-- alışveriş sepeti iş akışını takip etmek için.
-- tıklama ile yapılan reklam/pazarlama kampanyalarının ilerleme ve başarı durumunu takip etmek için.
 
 ### <a name="gauge-charts"></a>Ölçek grafikleri
 ![ölçek grafiği](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ Hem kategorik hem de nicel bilgileri uzamsal konumlarla ilişkilendirmek için b
 ### <a name="maps-arcgis-maps"></a>Haritalar: ArcGIS haritaları
 ![ArcGis haritası](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Altlık haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları için kullanılabilir seçenekleri görsel harika, bilgilendirici harita oluşturur. Uzamsal analiz içeren bir haritadaki yetkili veri katmanlarının (örneğin, görselleştirmenizdeki verilerin) birleşimi görselinizi verileri daha derin bir anlayış oluşturur.
+ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Temel haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları için sağlanan seçenekler, göz kamaştırıcı ve bilgilendirici harita görselleri oluşturur. Harita üzerindeki güvenilir veri katmanlarıyla (nüfus sayımı verileri gibi) uzamsal analizin bileşimi, görselinizdeki verilerin daha derinden anlaşılmasını sağlar.
 
 ### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
 ![kartogram](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak
 ### <a name="maps-shape-maps"></a>Haritalar: Şekil haritaları
 ![şekil haritası](media/end-user-visual-type/power-bi-shape-map2.png)
 
-Şekil haritaları haritadaki bölgeleri renk kullanarak karşılaştırır. Harita görselinin aksine, şekil haritaları veri noktalarının kesin coğrafi konumlarını bir haritada gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
+Şekil haritaları haritadaki bölgeleri renk kullanarak karşılaştırır. Şekil haritası, harita üzerinde veri noktalarının hassas coğrafi konumlarını gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
 
 ### <a name="matrix"></a>Matris
 ![matris](media/end-user-visual-type/matrix.png)
@@ -154,7 +146,7 @@ Pasta grafikleri parçaların bütünle ilişkisini gösterir.
 
 Şerit grafikleri hangi veri kategorisinin en yüksek derecelendirmeye (en büyük değer) sahip olduğunu gösterir. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir.
 
-### <a name="scatter-bubble-and-dot-plot-charts"></a>Dağılım, Kabarcık ve Noktalı grafikleri
+### <a name="scatter-bubble-and-dot-plot-charts"></a>Dağılım ve kabarcık grafikleriyle noktalı grafikler
 
 
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
@@ -163,12 +155,16 @@ Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi g
 
 Kabarcık grafiğinde veri noktaları yerine kabarcıklar kullanılır ve kabarcığın boyutu verilerin farklı bir boyutunu gösterir.
 
-Noktalı grafik, kabarcık grafiğine ve dağılım grafiğine benzer ancak onlardan farklı olarak X ekseninde sayısal veya kategorik veriler çizilmesine imkan tanır.
+
+
+Noktalı grafik, kabarcık grafiğine ve dağılım grafiğine benzer ancak onlardan farklı olarak X ekseninde sayısal veya kategorik veriler çizilmesine imkan tanır. Bu örnekte daireler yerine kareler kullanılır ve satışlar X ekseni boyunca çizilir.
+
+![noktalı grafik](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Yüksek yoğunluklu dağılım
 ![yüksek yoğunluklu dağılım](media/end-user-visual-type/density-scatter.png)
 
-Tanımı gereği, makul oranda hızlı ve etkileşime duyarlı görseller oluşturmak için yüksek yoğunluklu veriler örneklenir. Yüksek yoğunluklu örnekleme çakışan noktaları ortadan kaldıran bir algoritma kullanır ve veri kümesindeki tüm noktaların görsele yansıtılmasını sağlar. Verilerin yalnızca temsili bir örneğini çizmez.  
+Tanımı gereği, görsellerin makul bir hızla oluşturulması ve etkileşime yanıt vermesi için yüksek yoğunluklu verilerde örnekleme yapılır. Yüksek yoğunluklu örnekleme çakışan noktaları ortadan kaldıran bir algoritma kullanır ve veri kümesindeki tüm noktaların görsele yansıtılmasını sağlar. Verilerin yalnızca temsili bir örneğini çizmez.  
 
 Veri kümesinin tamamındaki önemli noktalar için yanıtlama, temsil ve korumanın en iyi bileşimini sağlamayı güvence altına alır.
 
@@ -220,14 +216,14 @@ Ağaç haritaları aşağıdaki durumlarda kullanım için mükemmel seçimdir:
 Artış ve azalışları hızlıca görebilmeniz için sütunlar renk kodludur. Başlangıç değeri ve son değer sütunları genellikle yatay eksende başlar ve ara değerler de yüzen sütunlar olarak görünür. Bu "görünüm" nedeniyle şelale grafikler köprü grafikleri olarak da adlandırılır.
 
 Şelale grafikler aşağıdaki durumlarda harika bir seçimdir:
-- zaman serilerinde veya farklı kategorilerde ölçü değişikliği yaptığınızda
+- zaman içinde veya farklı kategorilerde ölçü için değişiklikler yapıldığında
 - toplam değere etki eden büyük değişiklikleri denetlemek için
 - çeşitli gelir kaynaklarını göstererek şirketinizin yıllık kârının çizimini yapmak ve toplam kâra (veya zarara) ulaşmak için.
 - şirketinizin bir yılın başındaki ve sonundaki çalışan sayısını göstermek için
 - her ay kazandığınız ve harcadığınız para tutarını ve hesabınızın değişen bakiyesini görselleştirmek için.
 
-## <a name="qna"></a>Soru- cevap bilgi hangi görselin kullanın
-Power BI soru- cevap özelliğiyle doğal dil sorguları yazarken sorgunuzda görsel türünü belirtebilirsiniz.  Örnek:
+## <a name="qna"></a>Soru-Cevap’a hangi görselin kullanılacağını bildirme
+Power BI Soru-Cevap’ta doğal dilde sorgular yazarken, sorgunuzda görsel türünü belirtebilirsiniz.  Örnek:
 
 
 "***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
@@ -235,5 +231,5 @@ Power BI soru- cevap özelliğiyle doğal dil sorguları yazarken sorgunuzda gö
 ![soru-cevap oturumu](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Raporlar, panolar ve uygulamalar görsellerle etkileşim](end-user-visualizations.md)    
+[Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)    
 [Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

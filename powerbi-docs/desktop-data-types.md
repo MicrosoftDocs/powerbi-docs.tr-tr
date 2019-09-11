@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 04/10/2019
+ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61309029"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391783"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -44,7 +44,7 @@ Power BI Desktop üç sayı türünü destekler:
 
 **Sabit Ondalık Sayı**: Ondalık ayırıcısı için sabit bir konum belirlenmiştir. Ondalık ayırıcısının sağında her zaman dört basamak bulunur ve en fazla 19 basamaktan oluşan anlamlı değerlere izin verilir.  Bu sayı türü ile gösterilebilecek en büyük değer şudur: 922.337.203.685.477,5807 (pozitif veya negatif).  Sabit Ondalık Sayı türü, yuvarlama işleminin hatalara neden olabileceği durumlarda kullanışlıdır.  Küçük kesirli değerlere sahip birçok sayı ile çalıştığınızda bu değerler bazen toplanarak sayıların az da olsa hatalı olmasına neden olabilir.  Ondalık ayırıcısının sağındaki dört basamaktan sonra gelen değerler kesildiğinden, Sabit Ondalık türü bu tür hatalarla karşılaşmamanıza yardımcı olabilir.   SQL Server kullananlar için bu veri türü SQL Server'daki Ondalık veri türüne (19,4) veya Power Pivot'taki Para Birimi veri türüne karşılık gelir. 
 
-**Tam Sayı**: 64 bit (sekiz bayt) tam sayı değerlerini temsil eder. Tam sayılardan söz ettiğimiz için ondalık basamağın sağında herhangi bir basamak bulunmaz. Bu türde -9.223.372.036.854.775.808 (-2^63) ve 9.223.372.036.854.775.807 (2^63-1) arasındaki pozitif veya negatif tam sayılara ve toplamda 19 basamağa izin verilir.  Çeşitli sayısal veri türleri arasında mümkün olan en büyük sayı değerini temsil edebilir.  Sabit Ondalık türünde olduğu gibi Tam Sayı türü de yuvarlamayı denetlemeniz gereken durumlarda kullanışlı olabilir. 
+**Tam Sayı**: 64 bit (sekiz bayt) tam sayı değerlerini temsil eder. Tam sayılardan söz ettiğimiz için ondalık basamağın sağında herhangi bir basamak bulunmaz. Bu türde -9,223,372,036,854,775,807 (-2^63+1) ile 9,223,372,036,854,775,806 (2^63-2) arasındaki pozitif veya negatif tam sayılara ve toplamda 19 basamağa izin verilir. Çeşitli sayısal veri türleri arasında mümkün olan en büyük sayı değerini temsil edebilir.  Sabit Ondalık türünde olduğu gibi Tam Sayı türü de yuvarlamayı denetlemeniz gereken durumlarda kullanışlı olabilir. 
 
 > [!NOTE]
 >  Power BI Desktop veri modeli 64 bit tamsayı değerlerini destekler ama JavaScript sınırlamalarından dolayı güvenle gösterilebilecek en fazla görsel sayısı 9.007.199.254.740.991'dir (2^53-1). Veri modelinizde bundan daha büyük sayılarla çalışıyorsanız, sayıları görsele eklemeden önce hesaplamalar yaparak boyutu küçültebilirsiniz 

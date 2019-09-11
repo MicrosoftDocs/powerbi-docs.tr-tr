@@ -1,6 +1,6 @@
 ---
-title: URL’yi başlatma
-description: Power BI Görselleri yeni sekmede URL açabilir
+title: Başlatma URL’si oluşturma
+description: Bu makalede Power BI Görselleri’ni kullanarak URL’nin yeni sekmede nasıl açılabileceği açıklanır.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424873"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236665"
 ---
-# <a name="launch-url"></a>URL’yi başlatma
+# <a name="create-a-launch-url"></a>Başlatma URL’si oluşturma
 
-URL’yi başlatma, asıl işi Power BI’a temsilci olarak atayarak yeni bir tarayıcı sekmesinin (veya penceresinin) açılmasına olanak tanır.
+Başlatma URL’si oluşturduğunuzda asıl çalışmayı yapması için Power BI’ı temsilci olarak atayarak yeni bir tarayıcı sekmesi (veya penceresi) açabilirsiniz.
 
 ## <a name="sample"></a>Örnek
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>Kısıtlamalar
 
-* Yalnızca mutlak yolları kullanın. Göreli olanları kullanmayın. `http://some.link.net/subfolder/page.html` uygundur, `/page.html` açılmaz.
-* Şu anda yalnızca `http` ve `https` protokolleri desteklenir. `ftp`, `mailto` ve benzerlerini kullanmaktan kaçının.
+* Göreli yolları değil yalnızca mutlak yolları kullanın. Örneğin `http://some.link.net/subfolder/page.html` gibi bir mutlak yol kullanın. `/page.html` göreli yolu açılmaz.
+
+* Şu anda yalnızca *HTTP* ve *HTTPS* protokolleri desteklenir. *FTP* ve *MAILTO* gibi protokolleri kullanmaktan kaçının.
 
 ## <a name="best-practices"></a>En iyi yöntemler
 
-1. Çoğu durumda, bağlantıyı yalnızca bir kullanıcının açık eylemine yanıt olarak açmak en iyisidir. Kullanıcının, bağlantıya veya düğmeye tıklandığında yeni bir sekme açılacağını anlamasını kolaylaştırın. Kullanıcının eylemi olmadan bir `launchUrl()` çağrısını tetikleme veya farklı bir eylemin yan etkisi olarak kullanıcının kafasını karıştırabilir veya sinir bozucu olabilir.
-2. Bağlantı, görselin düzgün çalışması için önemli değilse, raporun yazarına bağlantıyı devre dışı bırakmak ve gizlemek için bir yol sağlanılması önerilir. Bu, özellikle üçüncü taraf uygulamaya bir rapor ekleme veya bunu Web’de yayımlama gibi özel Power BI kullanım durumları için geçerlidir.
-3. Bir döngünün içinden `launchUrl()` çağrısını, görselin `update` işlevini veya diğer tüm sık tekrarlan kodları tetiklemekten kaçının.
+* Çoğunlukla bağlantıyı yalnızca bir kullanıcının açık eylemine yanıt olarak açmak en iyisidir. Kullanıcının, bağlantıya veya düğmeye tıklandığında yeni bir sekme açılacağını anlamasını kolaylaştırın. Kullanıcının eylemi olmadan bir `launchUrl()` çağrısını tetikleme veya farklı bir eylemin yan etkisi olarak kullanıcının kafasını karıştırabilir veya sinir bozucu olabilir.
 
-## <a name="step-by-step-example"></a>Adım adım ilerleyen örnek
+* Bağlantı, görselin düzgün çalışması için temel önem taşımıyorsa, raporun yazarına bağlantıyı devre dışı bırakmak ve gizlemek için bir yol sağlamanızı öneririz. Bu öneri özellikle üçüncü taraf bir uygulamaya rapor ekleme veya bunu Web’de yayımlama gibi özel Power BI kullanım durumları için geçerlidir.
 
-### <a name="adding-a-link-launching-element"></a>Link başlatma öğesi ekleme
+* Bir döngünün içinden `launchUrl()` çağrısını, görselin `update` işlevini veya sık tekrarlanan diğer tüm kodları tetiklemekten kaçının.
+
+## <a name="a-step-by-step-example"></a>Adım adım örnek
+
+### <a name="add-a-link-launching-element"></a>Bağlantı başlatma öğesi ekleme
 
 Görselin `constructor` işlevine aşağıdaki satırlar eklendi:
 
@@ -56,7 +59,7 @@ Görselin `constructor` işlevine aşağıdaki satırlar eklendi:
     options.element.appendChild(this.helpLinkElement);
 ```
 
-Ve, bağlayıcı öğeyi oluşturan ve ekleyen özel bir işlev eklendi:
+Bağlantı öğesini oluşturan ve ekleyen özel bir işlev eklendi:
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-Son olarak, visual.less dosyasında bulunan bir giriş, bağlantı öğesinin stilini tanımlar:
+Son olarak, *visual.less* dosyasında bulunan bir giriş, bağlantı öğesinin stilini tanımlar:
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ Son olarak, visual.less dosyasında bulunan bir giriş, bağlantı öğesinin st
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>Bir değiştirme mekanizması ekleme
+### <a name="add-a-toggling-mechanism"></a>Geçiş mekanizması ekleme
 
-Bu, bağlantı öğesi görünürlüğünün (varsayılan olarak gizliye ayarlıdır) rapor yazarı tarafından değiştirebilmesi için statik bir nesne eklemeyi gerektirir (bkz. [statik nesne öğreticisi](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)).
-`capabilities.json` nesnesinin girişine bir `showHelpLink` boole statik nesne eklendi:
+Geçiş mekanizması eklemek için, rapor yazarının bağlantı öğesinin görünürlüğünü değiştirebileceği statik bir nesne eklemeniz gerekir. (Varsayılan olarak *gizli* değerine ayarlanır.) Daha fazla bilgi için bkz. [statik nesne öğreticisi](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties).
+
+Aşağıdaki kodda gösterildiği gibi *capabilities.json* dosyasının objects girdisine `showHelpLink` Boole statik nesnesi eklenir:
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-`hidden` sınıfı, öğenin görüntüsünü denetlemek için visual.less dosyasında tanımlanır.
+Öğenin görüntülenmesini değiştirmek için *visual.less* dosyasında *gizli* sınıfı tanımlanır.

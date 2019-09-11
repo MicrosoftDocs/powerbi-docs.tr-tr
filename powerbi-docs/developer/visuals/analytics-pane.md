@@ -1,6 +1,6 @@
 ---
-title: Analiz bölmesi
-description: Power BI Görselleri’nde dinamik başvuru çizgileri oluşturma
+title: Power BI görsellerinde Analiz bölmesi
+description: Bu makalede Power BI görsellerinde dinamik başvuru çizgileri oluşturma işlemi açıklanır.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,34 +9,36 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b3b50f8dbcf40a3923e86422e24f8ed020894445
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 208c6cbbd4cd8cdabde039c53aab536ee989bc7d
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425540"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237326"
 ---
-# <a name="analytics-pane-in-power-bi-visuals"></a>Power BI Görselleri’nde Analiz bölmesi
+# <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI görsellerinde Analiz bölmesi
 
-**Analiz bölmesi**, Kasım 2018’de [yerel görseller için sunuldu](https://docs.microsoft.com/power-bi/desktop-analytics-pane).
-API v2.5.0 sürümüne sahip özel görseller, özelliklerini **Analiz bölmesinde** sunup yönetebilir.
+**Analiz ** bölmesi Kasım 2018’de [yerel görseller](https://docs.microsoft.com/power-bi/desktop-analytics-pane) için kullanıma sunuldu.
+Bu makalede Power BI görsellerinin API v2.5.0 ile özelliklerini **Analiz** bölmesinde nasıl gösterebildiği ve yönetebildiği açıklanır.
 
-![Analiz Bölmesi](./media/visualization-pane-analytics-tab.png)
+![Analiz bölmesi](./media/visualization-pane-analytics-tab.png)
 
-Görselin capabilities.json dosyasında bir nesne tanımlayarak, [Biçim bölmesinin yönetim özelliklerine](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options) benzer bir şekilde işlenir. 
+## <a name="manage-the-analytics-pane"></a>Analiz bölmesini yönetme
 
-Farklar şunlardır:
+Aynı [**Biçim** bölmesindeki özellikleri yönettiğiniz gibi](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), görselin *capabilities.json* dosyasında bir nesne tanımlayarak **Analiz** bölmesini de yönetebilirsiniz. 
 
-1. `object` öğesinin tanımının altında 2 değerine sahip bir `objectCategory` alanı ekleyin.
+**Analiz** bölmesinin farklılıkları şunlardır:
+
+* Nesnenin tanımının altına değeri 2 olan bir **objectCategory** alanı eklersiniz.
 
     > [!NOTE]
-    > `objectCategory` alanı, API 2.5.0’da getirilen bir isteğe bağlı alandır. Nesnenin denetlediği görselin görünüşünü tanımlar (1 = Biçimlendirme, 2 = Analiz). "Biçimlendirme", görünüm, kullanım, renkler, eksenler, etiketler vb. için kullanılır. “Analiz”, tahminler, eğilim çizgileri, başvuru çizgileri, şekiller ve benzerleri için kullanılır.
+    > İsteğe bağlı `objectCategory` alanı API 2.5.0’da eklenmiştir. Nesnenin denetlediği görselin görünüşünü tanımlar (1 = Biçimlendirme, 2 = Analiz). `Formatting` genel görünüm, renkler, eksenler ve etiketler gibi öğeler için kullanılır. `Analytics` tahminler, eğilim çizgileri, başvuru çizgileri ve şekiller gibi öğeler için kullanılır.
     >
-    > Atlanırsa, `objectCategory` öğesi varsayılan olarak “Biçimlendirmeyi” alır.
+    > Değer belirtilmezse `objectCategory` için varsayılan olarak "Formatting" kullanılır.
 
-2. Nesnenin aşağıdaki iki özelliği olmalıdır:
-    1. Varsayılan değeri false olan, bool türünde `show`.
-    2. Metin türünde `displayName`. Seçeceğiniz varsayılan değer örneğin ilk görünen adı olur.
+* Nesnenin aşağıdaki iki özelliği olmalıdır:
+    * `show`, `bool` türündedir ve `false` varsayılan değerine sahiptir.
+    * `displayName`, `text` türündedir. Seçtiğiniz varsayılan değer, örneğin ilk görünen adı olur.
 
 ```json
 {
@@ -63,13 +65,13 @@ Farklar şunlardır:
 }
 ```
 
-Diğer tüm özellikler, Biçim nesneleri için yapıldığı gibi tanımlanabilir. Nesne numaralandırması, tıpkı **Biçim bölmesinde** olduğu gibi yapılır.
+Diğer özellikleri aynı **Format** nesnelerinde yaptığınız gibi tanımlayabilirsiniz. Ayrıca nesneleri **Biçim** bölmesinde yaptığınız gibi numaralandırabilirsiniz.
 
-***Bilinen sınırlamalar ve sorunlar***
+## <a name="known-limitations-and-issues-of-the-analytics-pane"></a>Analiz bölmesinin bilinen sınırlamaları ve sorunları
 
-  1. Henüz çoklu örnek desteği yok. Nesnelerin statik dışında farklı bir [seçicisi](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) olamaz (bu da “seçici”: null olur) ve özel görsellerin bir kartın kullanıcı tanımlı birden fazla örneği bulunamaz.
-  2. `integer` türünün özellikleri doğru şekilde görüntülenmiyor. Bunun yerine, geçici bir çözüm olarak `numeric` türünü kullanın.
+* **Analiz** bölmesinde henüz birden çok örnek desteği yoktur. Nesnelerin statik dışında farklı bir [seçicisi](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) olamaz (bu da “selector”: null olur) ve Power BI görsellerinde bir kartın kullanıcı tanımlı birden fazla örneği bulunamaz.
+* `integer` türündeki özellikler doğru şekilde görüntülenmiyor. Bunun yerine, geçici bir çözüm olarak `numeric` türünü kullanın.
 
 > [!NOTE]
-> Analiz bölmesini sadece yeni bilgiler ekleyen veya sunulan bilgilere farklı bir bakış açısı getiren nesneler için kullanın. Örneğin, önemli eğilimleri gösteren dinamik başvuru çizgileri.
-> Görselin görünüm ve kullanımını denetleyen tüm seçenekler (biçimlendirme) Biçimlendirme bölmesinde tutulmalıdır.
+> * **Analiz** bölmesini yalnızca yeni bilgiler ekleyen veya sunulan bilgilere farklı bir bakış açısı getiren nesneler için kullanın (örneğin önemli eğilimlere ışık tutan dinamik başvuru satırları).
+> * Görselin görünüm ve kullanımını denetleyen tüm seçenekler (biçimlendirme) **Biçimlendirme** bölmesiyle sınırlandırılmalıdır.

@@ -7,112 +7,165 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2018
+ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61285746"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70303061"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
 **Power BI Desktop** ile verilerinizi görselleştirmek için **Python** programlama dilini kullanabilirsiniz.
 
-## <a name="install-python"></a>Python'ı yükleme
-**Power BI Desktop**, **Python** altyapısını içermez, dağıtmaz veya yüklemez. **Power BI Desktop**'ta Python betikleri çalıştırmak için yerel bilgisayarınıza **Python**'ı ayrıca yüklemeniz gerekir. **Python**’ı [Resmi Python indirme sayfası](https://www.python.org/) ve [Anaconda](https://anaconda.org/anaconda/python/) da dahil olmak üzere birçok konumdan ücretsiz olarak indirim yükleyebilirsiniz. Python betiklerinin Power BI Desktop'taki güncel sürümü, yükleme yolunda Unicode karakterlerin yanı sıra boşlukların (boş karakterler) olmasını da destekler.
+## <a name="prerequisites"></a>Önkoşullar
 
-## <a name="enable-python-visuals"></a>Python görsellerini etkinleştirme
-Python görsellerini etkinleştirmek için **Dosya > Seçenekler ve ayarlar > Seçenekler** öğesini seçin. Görüntülenen **Seçenekler** sayfasında, aşağıda gösterildiği şekilde, **Seçenekler** penceresinin **Python betiği oluşturma** bölümünde yerel Python yüklemenizin belirtildiğinden emin olun. Aşağıdaki görüntüde, yerel Python yüklemesinin yolu **C:\Python27** şeklindedir ve bu yol, metin kutusunda açıkça belirtilmektedir. Görüntülenen yolun, **Power BI Desktop**'ın kullanmasını istediğiniz yerel Python yüklemesini doğru şekilde yansıttığından emin olun.
-   
-   ![](media/desktop-python-visuals/python-visuals-1.png)
+Aşağıdaki Python betiğini kullanarak [Power BI Desktop’ta Python betiklerini çalıştırma](desktop-python-scripts.md) öğreticisinin üzerinden geçin:
 
-Python yüklemenizi belirttiğinizde Python görselleri oluşturmaya başlayabilirsiniz.
+```python
+import pandas as pd 
+df = pd.DataFrame({ 
+    'Fname':['Harry','Sally','Paul','Abe','June','Mike','Tom'], 
+    'Age':[21,34,42,18,24,80,22], 
+    'Weight': [180, 130, 200, 140, 176, 142, 210], 
+    'Gender':['M','F','M','M','F','M','M'], 
+    'State':['Washington','Oregon','California','Washington','Nevada','Texas','Nevada'],
+    'Children':[4,1,2,3,0,2,0],
+    'Pets':[3,2,2,5,0,1,5] 
+}) 
+print (df) 
+```
+[Power BI Desktop’ta Python betiklerini çalıştırma](desktop-python-scripts.md) makalesinde yerel makinenize Python yükleme ve **Power BI Desktop**’ta Python betiği oluşturmak için etkinleştirme işlemleri gösterilir. Bu öğreticide Python görsellerinin nasıl oluşturulduğunu göstermek için yukarıdaki betikten veriler kullanılır.
 
 ## <a name="create-python-visuals-in-power-bi-desktop"></a>Power BI Desktop'ta Python görselleri oluşturma
-1. Bir Python görseli eklemek için, aşağıdaki görüntüde gösterilen şekilde, **Görsel Öğeler** bölmesindeki **Python Görseli** simgesini seçin.
+1. **Görsel Öğeler** bölgesinde **Python Görseli** simgesini seçin.
    
    ![](media/desktop-python-visuals/python-visuals-2.png)
 
-   Bir rapora Python görseli eklediğinizde **Power BI Desktop** şu işlemleri gerçekleştirir:
-   
-   - Rapor tuvalinde bir yer tutucu Python görseli görüntüsü görünür.
-   
-   - Orta bölmenin alt kısmında **Python betik düzenleyicisi** görünür.
-   
-   ![](media/desktop-python-visuals/python-visuals-3.png)
+1.  Görüntülenen **Betik görsellerini etkinleştir** iletişim kutusunda **Etkinleştir**’i seçin. 
 
-2. Daha sonra, Python betiğinizde kullanmak istediğiniz alanları, diğer **Power BI Desktop** görsellerinde yaptığınız gibi **Alanlar** bölmesindeki **Değerler** bölümüne ekleyin. 
-    
-    Yalnızca **Alanlar** kutusuna eklenmiş alanlar Python betiğinizle kullanılabilir. Ayrıca, **Power BI Desktop Python betik düzenleyicisinde** Python betiğinizle çalışırken **Alanlar** bölmesine yeni alan ekleyebilir veya gereksiz alanları bu bölmeden çıkarabilirsiniz. **Power BI Desktop**, hangi alanları eklediğinizi veya kaldırdığınızı otomatik olarak algılar.
+    Rapora Python görseli eklediğinizde **Power BI Desktop** aşağıdaki eylemleri gerçekleştirir:
+   
+     - Rapor tuvalinde bir yer tutucu Python görseli görüntüsü görünür.
+   
+     - Orta bölmenin alt kısmında **Python betik düzenleyicisi** görünür.
+   
+    ![](media/desktop-python-visuals/python-visuals-3.png)
+
+1. Ardından “**Buraya veri alanlarını ekleyin**” ifadesinin bulunduğu **Değerler** bölümüne **Age**, **Children**, **Fname**, **Gender**, **Pets**, **State** ve **Weight** alanlarını sürükleyin. 
+
+    ![](media/desktop-python-visuals/python-visuals-15.png)
+
+   Python betiğiniz yalnızca **Değerler** bölümüne eklenmiş olan alanları kullanabilir. Python betiğinizin üzerinde çalışırken **Değerler** bölümünde alanları ekleyip kaldırabilirsiniz. **Power BI Desktop** alan değişikliklerini otomatik olarak algılar.
    
    > [!NOTE]
    > Python görselleri için varsayılan toplama işlemi *özetleme*'dir.
    > 
    > 
    
-3. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz. 
+1. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz. 
 
-    Siz alan seçtikçe **Python betik düzenleyicisi**, düzenleyici bölmesinin üst kısmında bulunan gri bölümde yaptığınız seçimlere bağlı olarak yardımcı Python betiği bağlama kodunu oluşturur. Yeni alan seçtiğinizde veya var olan bir alanı kaldırdığınızda Python betik düzenleyicisinde yardımcı kod otomatik olarak oluşturulur veya kaldırılır.
-   
-   Aşağıdaki görüntüde gösterilen örnekte hp, gear ve drat olmak üzere üç alan seçilmiştir. Bu seçimlerin sonucunda Python betik düzenleyicisi, aşağıdaki bağlama kodunu oluşturmuştur:
-   
-   * **dataset** adlı bir veri çerçevesi oluşturulmuştur
-     * Bu veri çerçevesi, kullanıcı tarafından seçilen farklı alanlardan oluşmaktadır
-   * Varsayılan toplama türü, *özetleme* şeklindedir
-   * Tablo görsellerinde olduğu gibi alanlar da gruplandırılır ve yinelenen satırlar yalnızca bir kez görünür
-   
-   ![](media/desktop-python-visuals/python-visuals-4.png)
-   
-   > [!TIP]
-   > Bazı durumlarda, otomatik gruplandırma işleminin gerçekleştirilmesini istemeyebilir veya yinelenenler de dahil olmak üzere tüm satırların görünmesini isteyebilirsiniz. Böyle durumlarda veri kümenize bir dizin alanı ekleyebilirsiniz. Böylece, tüm satırların benzersiz olduğu kabul edilir ve gruplandırma yapılması önlenir.
-   > 
-   > 
-   
-   Oluşturulan veri çerçevesi **dataset** olarak adlandırılır ve seçilen sütunlara, adlarıyla erişebilirsiniz. Örneğin, Python betiğinizde *dataset["gear"]* yazarak gear alanına erişin.
+    Alanları seçtiğinizde veya kaldırdığınızda Python betik düzenleyicisinde bunu destekleyen kod otomatik olarak oluşturulur veya kaldırılır. 
+    
+    Seçimleriniz sonucunda Python betik düzenleyicisi aşağıdaki bağlama kodunu oluşturur.
 
-4. Seçtiğiniz alanlara göre otomatik olarak oluşturulan veri çerçevesi ile Python betiği yazmaya hazır hale gelirsiniz. Python betiği yazdığınızda, varsayılan Python cihazında bir çizim oluşturulur. Betik tamamlandığında **Python betik düzenleyicisi** başlık çubuğunda **Çalıştır**'ı seçin (**Çalıştır** seçeneği, başlık çubuğunun sağ tarafında bulunur).
+    * Düzenleyici, sizin eklediğiniz alanlarla **dataset** veri çerçevesini oluşturur. 
+    * Varsayılan toplama türü *özetleme* şeklindedir.
+    * Tablo görsellerinde olduğu gibi alanlar da gruplandırılır ve yinelenen satırlar yalnızca bir kez görünür.
+
+        ![](media/desktop-python-visuals/python-visuals-10.png)
    
-    **Çalıştır**’ı seçtiğinizde **Power BI Desktop**, çizimi tanımlar ve tuval üzerinde görüntüler. İşlem yerel Python yüklemenizde gerçekleştirildiğinden, gerekli paketlerin yüklendiğinden emin olun.
+     > [!TIP] 
+     > Bazı durumlarda, otomatik gruplandırma işleminin gerçekleştirilmesini istemez veya yinelenenler de dahil olmak üzere tüm satırların görünmesini istersiniz. Bu durumda veri kümenize bir dizin alanı ekleyebilirsiniz. Böylece, tüm satırların benzersiz olduğu kabul edilir ve gruplandırma yapılması önlenir.
    
-   **Power BI Desktop**, aşağıdaki olaylardan herhangi biri meydana geldiğinde görseli yeniden çizer:
+   Veri kümesindeki sütunlara adlarını kullanarak erişebilirsiniz. Örneğin yaş alanına erişme için Python betiğinizde dataset["Age"] kodlaması yapabilirsiniz.
+
+1. Seçtiğiniz alanlara göre otomatik olarak oluşturulan veri çerçevesi ile Python betiği yazmaya hazır hale gelirsiniz. Python betiği yazdığınızda, varsayılan Python cihazında bir çizim oluşturulur. Betik tamamlandığında **Python betik düzenleyicisi** başlık çubuğunda **Çalıştır**’ı seçin.
+
+   Aşağıdaki olaylardan biri oluşursa **Power BI Desktop** görseli yeniden çizer:
    
    * **Python betik düzenleyicisi** başlık çubuğunda **Çalıştır** seçeneğini belirlediğinizde
    * Veri yenileme, filtreleme veya vurgulama işlemi nedeniyle her veri değişikliği gerçekleştiğinde
+   
+   Çalıştırdığınız Python betiği hatayla sonuçlanırsa Python görseli çizilmez ve tuvalde hata iletisi görüntülenir. Hata ayrıntıları için iletiden **Ayrıntılara bakın**’ı seçin.
 
-    Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
+   Görselleştirmelerin daha büyük bir görünümünü elde etmek için **Python betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz.
 
-    ![](media/desktop-python-visuals/python-visuals-5.png)
+Şimdi de bazı görseller oluşturalım.
 
-5. Görselleştirmelerin daha büyük bir görünümünü elde etmek için **Python betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz. **Power BI Desktop**'taki diğer görsellerde olduğu gibi, halka görselinde (yukarıdaki örnek görüntüsünde, sağdaki yuvarlak görsel) yalnızca spor otomobilleri seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
+## <a name="create-a-scatter-plot"></a>Dağılım çizimi oluşturma
 
-    ![](media/desktop-python-visuals/python-visuals-6.png)
+Yaş ile kilo arasında bir bağıntı olup olmadığını görmek için bir dağılım çizimi oluşturalım. 
 
-6. Ayrıca, görseli özelleştirmek için Python betiğini değiştirebilir ve çizim oluşturma komutuna parametre ekleyerek Python programlama dilinin gücünden yararlanabilirsiniz.
+1. **Betik kodunuzu buraya yazın veya yapıştırın** metninin altına şu kodu girin:
 
-    Başlangıçta, çizim oluşturma komutu şu şekildeydi:
+   ```python
+   import matplotlib.pyplot as plt 
+   dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
+   plt.show() 
+   ```  
+   Python betik düzenleyicisi bölmeniz şimdi şöyle görünmelidir:
 
-    plt.matshow(dataset.corr('pearson'))
+   ![](media/desktop-python-visuals/python-visuals-11.png)
 
-    Python betiğinde yapılan birkaç değişikliğin ardından yeni komut şu şekildedir:
+   Görsellerimizi çizmek ve oluşturmak için **matplotlib** kitaplığı içeri aktarılır.
 
-    plt.matshow(dataset.corr('kendall'))
+1. Betik için **Çalıştır** düğmesini seçtiğinizde, yer tutucu Python görseli resminde aşağıdaki dağılım çizimi oluşturulur.
 
-    Sonuç olarak Python görseli aşağıdaki görüntüde gösterildiği gibi Kendall Tau bağıntı katsayısını kullanarak çizim yapar.
+   ![](media/desktop-python-visuals/python-visuals-12.png)
 
-    ![](media/desktop-python-visuals/python-visuals-7.png)
+## <a name="create-a-line-plot-with-multiple-columns"></a>Birden çok sütunla çizgi çizimi oluşturma
 
-    Bir Python betiği yürütülürken hata oluşursa Python görseli çizilmez ve tuvalde bir hata iletisi görüntülenir. Hataya ilişkin ayrıntılar için, tuvalde görüntülenen Python görseli hata iletisinde **Ayrıntılara göz atın** seçeneğini belirleyin.
+ Kişilerden her biri için çocuklarının ve evcil hayvanlarının sayısını gösteren bir çizgi çizimi oluşturalım. **Betik kodunuzu buraya yazın veya yapıştırın** metninin altındaki kodu kaldırın veya açıklamaya dönüştürün ve şu Python kodunu girin:
 
-    ![](media/desktop-python-visuals/python-visuals-8.png)
+ ```python
+ import matplotlib.pyplot as plt 
+ax = plt.gca() 
+dataset.plot(kind='line',x='Fname',y='Children',ax=ax) 
+dataset.plot(kind='line',x='Fname',y='Pets', color='red', ax=ax) 
+plt.show() 
+```
+Betik için **Çalıştır** düğmesini seçtiğinizde birden çok sütunlu aşağıdaki çizgi çizimi oluşturulur.
 
-    > **Python betiklerinin güvenliği:** Python görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek Python betiklerinden oluşturulur. Bir Python görselini ilk kez görüntülemeye veya Python görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. Python görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili Python betiğini gözden geçirip anladıktan sonra etkinleştirin.
-    > 
-    > 
+![](media/desktop-python-visuals/python-visuals-13.png) 
+
+## <a name="create-a-bar-plot"></a>Çubuk çizimi oluşturma
+
+Kişilerden her birinin yaşı için bir çubuk çizimi oluşturalım. **Betik kodunuzu buraya yazın veya yapıştırın** metninin altındaki kodu kaldırın veya açıklamaya dönüştürün ve şu Python kodunu girin:
+
+```python
+import matplotlib.pyplot as plt 
+dataset.plot(kind='bar',x='Fname',y='Age') 
+plt.show() 
+```
+
+Betik için **Çalıştır** düğmesini seçtiğinizde aşağıdaki çubuk çizimi oluşturulur:
+
+![](media/desktop-python-visuals/python-visuals-14.png) 
+
+## <a name="security"></a>Güvenlik
+
+> [!IMPORTANT] 
+  > **Python betiklerinin güvenliği:** Python görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek Python betiklerinden oluşturulur. Bir Python görselini ilk kez görüntülemeye veya Python görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. Python görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili Python betiğini gözden geçirip anladıktan sonra etkinleştirin. 
+  >  
+
+## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Matprolib, Pandas ve Python ile çizim yapma hakkında daha fazla bilgi
+
+Bu öğretici **Power BI Desktop**’ta Python ile görseller oluşturmaya başlamanıza yardımcı olmak için tasarlanmıştır. Python, Pandas ve Matprolib kitaplığını kullanarak görsel raporlar oluşturmaya yönelik çok sayıda seçeneğine ve özelliğe yalnızca yüzeysel olarak değinilmiştir. Araştırırsanız çok daha fazla bilgi bulabilirsiniz ve başlangıç yapmanız için burada birkaç bağlantı verilmiştir.
+
+* [Matplotlib](https://matplotlib.org/) web sitesindeki belgeler. 
+* [Matplotlib Öğreticisi: Python ile Matplotlib Kullanımı için Temel Kılavuz](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
+* [Matplotlib Öğreticisi – Örneklerle Python Matplotlib Kitaplığı](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
+* [Pandas API Başvurusu](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Power BI Hizmeti’nde Python görselleştirmeleri](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
+* [Power BI’da Python Görsellerini Kullanma](https://www.absentdata.com/how-to-user-python-and-power-bi/)
+
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
-**Power BI Desktop**'ta Python görsellerine ilişkin bazı sınırlamalar mevcuttur:
+
+**Power BI Desktop**'ta Python görsellerine ilişkin bazı sınırlamalar vardır:
 
 * Veri boyutu sınırlamaları: Python görseli tarafından çizim için kullanılan veri 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
 * Hesaplama süresi sınırlaması: Bir Python görseli hesaplaması beş dakikadan uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
@@ -122,6 +175,7 @@ Python yüklemenizi belirttiğinizde Python görselleri oluşturmaya başlayabil
 * Yalnızca varsayılan Python görüntüleme cihazında çizilen çizimler tuval üzerinde doğru şekilde görüntülenir. Farklı bir Python görüntüleme cihazını açıkça kullanmaktan kaçının.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 Power BI'da Python kullanımı ile ilgili aşağıdaki ek bilgilere göz atın.
 
 * [Power BI Desktop'ta Python Betikleri Çalıştırma](desktop-python-scripts.md)

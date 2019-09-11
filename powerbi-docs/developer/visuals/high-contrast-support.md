@@ -1,6 +1,6 @@
 ---
-title: Yüksek Karşıtlıklı mod desteği
-description: Power BI Görsellerine Yüksek Karşıtlıklı mod desteği ekleme
+title: Power BI görsellerinde yüksek karşıtlık modu desteği
+description: Bu makalede Power BI görsellerine yüksek karşıtlık modu desteği ekleme işlemi açıklanır.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,28 +9,20 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cb77ea012fdfdbd5be62c58c6f9b94a0355db1a9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f7f1a2277b3cdf38554039136010ab60c8f09bae
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424942"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237191"
 ---
-# <a name="high-contrast-mode-support"></a>Yüksek Karşıtlıklı mod desteği
+# <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI görsellerinde yüksek karşıtlık modu desteği
 
-Windows *Yüksek Karşıtlıklı* ayarı daha belirgin renkleri kullanarak metin ve uygulamaları daha kolay görünür hale getirir.
-[Power BI’da yüksek karşıtlıklı desteği](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) hakkında daha fazla bilgi edinin.
+Windows *yüksek karşıtlık* ayarı daha belirgin renkler görüntüleyerek metin ve uygulamaları daha kolay görünür hale getirir. Bu makalede Power BI görsellerine yüksek karşıtlık modu desteği ekleme işlemi ele alınmıştır. Daha fazla bilgi için bkz. [Power BI’da yüksek karşıtlık desteği](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
 
-Görselinize yüksek karşıtlıklı desteği eklemek için şunlar gerekir:
+Yüksek karşıtlık desteğinin nasıl uygulandığını görüntülemek için [PowerBI-visuals-sampleBarChart görsel deposuna](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6) gidin.
 
-1. Başlatırken: Power BI’ın yüksek karşıtlıklı modda olup olmadığını algılayın ve yüksek karşıtlıklı moddaysa, geçerli yüksek karşıtlık renklerini alın.
-2. Her güncelleştirmede: Daha kolay görmeyi kolaylaştırmak için görselin nasıl işlediğini değiştirin.
-
-PowerBI-visuals-sampleBarChart görselinde yüksek karşıtlıklı desteği uygulanmıştır.
-
-Daha fazla bilgi için bkz. [PowerBI-visuals-sampleBarChart görsel deposu](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6)
-
-## <a name="on-init"></a>Başlatırken
+## <a name="on-initialization"></a>Başlatmada
 
 `options.host` colorPalette üyesinin, yüksek karşıtlık modu için birkaç özelliği vardır. Yüksek karşıtlık modunun etkin olup olmadığını ve etkinse hangi renklerin kullanılacağını belirlemek için bu özellikleri kullanın.
 
@@ -40,7 +32,7 @@ Daha fazla bilgi için bkz. [PowerBI-visuals-sampleBarChart görsel deposu](http
 
 ### <a name="get-high-contrast-colors"></a>Yüksek karşıtlıklı renkler alın
 
-Yüksek karşıtlık modunda, görseliniz kendisini aşağıdaki renklerle sınırlandırmalıdır:
+Yüksek karşıtlık modunda, görseliniz kendisini aşağıdaki ayarlarla sınırlandırmalıdır:
 
 * **Ön plan** rengi, tüm çizgileri, simgeleri, metinleri ve şekillerin ana hatları veya dolgusunu çizmek için kullanılır.
 * **Arka plan** rengi, arka plan ve ana hatları belirlenmiş şekillerin dolgu rengi olarak kullanılır.
@@ -50,7 +42,7 @@ Yüksek karşıtlık modunda, görseliniz kendisini aşağıdaki renklerle sın�
 > [!NOTE]
 > İkincil bir renk gerekliyse, ön plan rengi biraz opak olarak kullanılabilir (Power BI yerel görselleri % 40 opaklık kullanır). Görsel ayrıntıların kolayca görülmesini sağlamak için bunu seyrek bir şekilde kullanın.
 
-Bu değerleri başlatma sırasında depolayabilirsiniz:
+Başlatma sırasında aşağıdaki değerleri depolayabilirsiniz:
 
 ```typescript
 private isHighContrast: boolean;
@@ -74,28 +66,28 @@ constructor(options: VisualConstructorOptions) {
     }
 ```
 
-Ya da, başlatma sırasında `host` nesnesini depolayabilir ve güncelleştirme sırasında ilgili `colorPalette` özelliklerine erişebilirsiniz.
+Öte yandan başlatma sırasında `host` nesnesini de depolayabilir ve güncelleştirme sırasında ilgili `colorPalette` özelliklerine erişebilirsiniz.
 
 ## <a name="on-update"></a>Güncelleştirme sırasında
 
-Yüksek karşıtlık desteğinin belirli uygulamaları görselden görsele farklılık gösterir ve grafik tasarımının ayrıntılarına bağlıdır. Genellikle, önemli ayrıntıların sınırlı renklerle ayırt edilmesini kolaylaştırmak için, yüksek karşıtlık modu varsayılandan biraz farklı bir tasarım gerektirir.
+Yüksek karşıtlık desteğinin belirli uygulamaları görselden görsele farklılık gösterir ve grafik tasarımının ayrıntılarına bağlıdır. Önemli ayrıntıların sınırlı renklerle ayırt edilmesini kolaylaştırmak için, yüksek karşıtlık modu normal olarak varsayılan moddan biraz farklı bir tasarım gerektirir.
 
-Power BI yerel görselleri tarafından izlenen bazı yönergeler aşağıda verilmiştir:
+Power BI yerel görselleri şu yönergelere uyar:
 
 * Tüm veri noktaları aynı rengi (ön plan) kullanır.
-* Bunlara tüm metinler, eksenler, oklar, çizgiler ve benzeri öğeler dahildir. ön plan rengini kullanır.
+* Tüm metinler, eksenler, oklar, çizgiler ve benzeri öğeler ön plan rengini kullanır.
 * Kalın şekiller, kalın çizgiler (en az iki piksel) ve arka plan rengi dolgusu ile ana hatlar olarak çizilir.
-* İlgili olduğunda, veri noktaları farklı işaret şekilleriyle ayırt edilir, veri satırları farklı satır oluşturma ile ayırt edilir.
+* Veri noktaları ilgili olduğunda farklı işaret şekilleriyle ayırt edilir ve veri satırları farklı çizgilerle ayırt edilir.
 * Bir veri öğesi vurgulandığında, diğer tüm öğelerin opaklığı %40 olarak değiştirilir.
 * Dilimleyiciler için etkin filtre öğeleri ön plan seçili rengini kullanır.
 
-Örneğin, Örnek Çubuk Grafiğinde, tüm çubuklar iki piksel kalın ön plan ana hattı ve arka plan dolgusu ile çizilir. Varsayılan renklerle ve birkaç yüksek karşıtlık teması ile görünme şeklini karşılaştırın:
+Aşağıdaki örnek çubuk grafikte, tüm çubuklar iki piksel kalın ön plan ana hattı ve arka plan dolgusu ile çizilir. Varsayılan renklerle ve birkaç yüksek karşıtlık teması ile görünme şeklini karşılaştırın:
 
 ![Standart renkleri kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-standard.png)
 ![*Koyu #2* renk temasını kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-dark2.png)
 ![*Beyaz* renk temasını kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-white.png)
 
-İşte `visualTransform` işlevinde yüksek karşıtlığı destekleyecek şekilde değiştirilen bir bölüm. Bu, `update` sırasında işlemenin bir parçası olarak çağrılır:
+Sonraki bölümde `visualTransform` işlevinde yüksek karşıtlığı desteklemek için değiştirilen bir konum gösterilir. Güncelleştirme sırasında işleme kapsamında çağrılır.
 
 ### <a name="before"></a>Önce
 
