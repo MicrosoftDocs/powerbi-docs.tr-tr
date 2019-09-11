@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059915"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751651"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
 Bir *tüketici* olarak *tasarımcılar* tarafından oluşturulup sizinle paylaşılan içeriklerle etkileşim kurarsınız. Bu içeriğin güncel olup olmadığını merak edebilir ya da yalnızca içeriğin en son ne zaman yenilendiğini öğrenmek isteyebilirsiniz. En yeni içerikle çalıştığınızı bilmek size güven verir.  

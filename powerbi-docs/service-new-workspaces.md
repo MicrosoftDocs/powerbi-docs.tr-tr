@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530484"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750894"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -61,7 +61,7 @@ Roller çalışma alanında kimlerin neler yapabileceğini yönetmenizi sağlar 
 
 Bir kullanıcı grubuna roller atadığınızda, gruptaki kişiler içeriğe erişim sahibi olur. İç içe kullanıcı gruplarınız varsa, kapsam içinde yer alan tüm kullanıcıların izni olur.
 
-Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar ve görüntüleyiciler.
+Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar ve görüntüleyiciler. Bu özelliklerin sonuncusu hariç tamamı için bir Power BI Pro lisansı gerekir.
 
 |Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |   |
 | Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
 | Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
-| Öğeyi görüntüleyebilir. |  X | X  | X  | X  |
 | Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun. |  X | X  | X  | X <sup>1</sup>  |
 | Bir raporu kopyalayın. | X | X | X | X <sup>1</sup> |
+| Öğeleri açın ve öğelerle etkileşim kurun. |  X | X  | X  | X  |
 
 **1** Power BI Pro lisansı ve [Veri kümeleri için Derleme izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) gerektirir. 
  
