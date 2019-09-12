@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Tablolardaki köprüler
               href: power-bi-hyperlinks-in-tables.md
+            - name: Özel biçim dizeleri
+              href: desktop-custom-format-strings.md
             - name: Koşullu tablo biçimlendirmesi
               href: desktop-conditional-table-formatting.md
             - name: Koşullu ifade temelli başlık biçimlendirme
@@ -675,6 +677,8 @@
               href: service-dataflows-linked-entities.md
             - name: Veri akışları ile artımlı yenilemeyi kullanma
               href: service-dataflows-incremental-refresh.md
+            - name: Veri akışları için en iyi uygulamalar
+              href: service-dataflows-best-practices.md
             - name: Veri akışları için geliştirici kaynakları
               href: service-dataflows-developer-resources.md
             - name: Power BI Desktop’taki veri akışlarına bağlanma
@@ -715,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Power BI şablon uygulaması güncelleştirme, silme ve ayıklama'
               href: service-template-update-delete-extract.md
+            - name: Şablon uygulamaları örnekleri
+              href: service-template-apps-samples.md
         - name: Sorun giderme
           items:
             - name: Power BI parolanızı mı unuttunuz?
