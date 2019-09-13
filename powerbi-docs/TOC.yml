@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Tablolardaki köprüler
               href: power-bi-hyperlinks-in-tables.md
+            - name: Resimleri tabloda görüntüleme
+              href: power-bi-images-tables.md
             - name: Özel biçim dizeleri
               href: desktop-custom-format-strings.md
             - name: Koşullu tablo biçimlendirmesi
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Bir kutucuk için QR kodu oluşturma
               href: service-create-qr-code-for-tile.md
-            - name: Panolara resim ekleme
-              href: service-dashboard-add-image.md
             - name: Pano veri sınıflandırması
               href: service-data-classification.md
             - name: Pano temaları
