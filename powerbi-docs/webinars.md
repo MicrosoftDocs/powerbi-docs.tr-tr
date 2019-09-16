@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023429"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936259"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -22,9 +22,7 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-**Power BI’ı Dynamics 365 Finance and Operations ile Kullanma**
-<br>Yazar: Kevin Horlock
-<br>[11 Eylül'de izlemek üzere kaydolun](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 **Power BI ile Veri Modelleme Becerilerinizi Güçlendirin**
 <br>Sağlayan: Kasper de Jonge
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Power BI’ı Dynamics 365 Finance and Operations ile Kullanma**
+<br>Yazar: Kevin Horlock
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Microsoft, Power BI kullanıyor – Finansal Planlama ve Analiz Artık Çok Kolay**
 <br>Sağlayan: Cory Hrncirik ve Miguel Martinez

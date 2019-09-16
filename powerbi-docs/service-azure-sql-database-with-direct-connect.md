@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468135"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987003"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 
@@ -27,7 +27,7 @@ DirectQuery ile, siz verileri rapor görünümünde araştırırken sorgular Azu
 **Notlar:**
 
 * Bağlanırken tam sunucu adını belirtin (daha fazla ayrıntı için aşağıya bakın).
-* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://msdn.microsoft.com/library/azure/ee621782.aspx)" olarak yapılandırıldığından emin olun.
+* Veritabanı güvenlik duvarı kurallarının "[Azure hizmetlerine erişime izin ver](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)" olarak yapılandırıldığından emin olun.
 * Sütun seçme veya filtre ekleme gibi her işlem veritabanına sorgu gönderir.
 * Kutucuklar saatte bir yenilenir (yenileme işleminin zamanlanması gerekmez). Bağlandığınızda Gelişmiş ayarlarda yenileme sıklığını ayarlayabilirsiniz.
 * DirectQuery veri kümeleri için Soru-Cevap özelliği kullanılamaz.

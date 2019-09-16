@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513118"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840956"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -78,8 +78,6 @@ Excel 2016'da, Yayımla > Dışarı Aktar seçeneğini de kullanabilirsiniz. Bu 
 
 Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak, bazı değişiklikler yapmanız gerekirse Düzenle'ye tıklayıp çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel'de açmayı tercih edebilirsiniz. Yaptığınız değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
 
-Bu yolu seçtiğinizde Power BI, bağlı çalışma kitabı için karşılık gelen bir veri kümesi oluşturur. Gerekirse bir Power BI raporu oluşturmak için bu veri kümesini kullanabilirsiniz. Çalışma kitabınız, Power BI çalışma alanı gezinti bölmesindeki Raporlar bölümünde de görünür. Bağlı çalışma kitaplarında özel bir Excel simgesi bulunur.
-
 Çalışma sayfalarında yalnızca veri varsa veya panolara sabitlemek istediğiniz aralıklar, PivotTable'lar ve grafikler söz konusuysa bu seçeneğini belirleyin.
 
 Excel 2016'da, Yayımla > Karşıya Yükle seçeneğini de kullanabilirsiniz. Bu da hemen hemen aynı işe yarar. Daha fazla bilgi edinmek için bkz. [Excel 2016'daki içeriği Power BI'da yayımlama](service-publish-from-excel.md).
@@ -122,7 +120,7 @@ Excel 2016'daki **Power BI'da Yayımla** özelliğinin kullanılması, dosyanız
 Geçerli sürümde İçeri Aktar özelliği seçildiğinde, Power BI yalnızca bir adlandırılmış tablo veya veri modelinin parçası olan verileri içeri aktarır. Sonuç olarak, çalışma kitabı adlandırılmış tablo, Power View sayfası veya Excel veri modeli içermiyorsa şu hatayla karşılaşabilirsiniz: **"Excel çalışma kitabınızda herhangi bir veri bulamadık"** . [Bu makale](service-admin-troubleshoot-excel-workbook-data.md), çalışma kitabınızı düzeltme ve yeniden içeri aktarma hakkında bilgi vermektedir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-**Verilerinizi araştırma**: Dosyanızdaki verileri ve raporları Power BI'a aktardığınıza göre artık araştırmaya başlayabilirsiniz. Yeni veri kümesine sağ tıklayıp Araştır seçeneğini belirlemeniz yeterlidir. 4. adımda OneDrive'daki bir çalışma kitabı dosyasına bağlanmayı seçerseniz çalışma kitabınız Raporlar bölümünde görünür. Çalışma kitabına tıkladığınızda, söz konusu çalışma kitabı, Power BI'da tıpkı Excel Online'da olduğu gibi açılır.
+**Verilerinizi araştırma**: Dosyanızdaki verileri ve raporları Power BI'a aktardığınıza göre artık araştırmaya başlayabilirsiniz. Yeni veri kümesine sağ tıklayıp Araştır seçeneğini belirlemeniz yeterlidir. 4\. adımda OneDrive'daki bir çalışma kitabı dosyasına bağlanmayı seçerseniz çalışma kitabınız Raporlar bölümünde görünür. Çalışma kitabına tıkladığınızda, söz konusu çalışma kitabı, Power BI'da tıpkı Excel Online'da olduğu gibi açılır.
 
 **Yenileme zamanlama**: Excel çalışma kitabı dosyanız dış veri kaynaklarına bağlanıyorsa veya dosyayı bir yerel sürücüden içeri aktardıysanız veri kümenizin ya da raporunuzun her zaman güncel olduğundan emin olmak için zamanlanmış yenileme ayarlayabilirsiniz. Çoğu durumda, zamanlanmış yenileme ayarlamak oldukça kolaydır ancak bu makalede ayrıntılara yer vermek amaçlanmamıştır. Daha fazla bilgi edinmek için bkz. [Power BI'da veri yenileme](refresh-data.md).
 
