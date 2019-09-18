@@ -11,10 +11,10 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70751651"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel

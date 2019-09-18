@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
 ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67558967"
 ---
 # <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>Rapor etkileşimini tek dokunuşa veya çift dokunuşa yapılandırma

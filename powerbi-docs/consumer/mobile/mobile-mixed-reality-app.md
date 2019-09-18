@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61374059"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
