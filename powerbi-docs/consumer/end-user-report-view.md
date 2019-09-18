@@ -11,10 +11,10 @@ ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70391567"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Bir rapor sayfasının görünümünü değiştirme

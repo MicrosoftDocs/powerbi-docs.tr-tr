@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
 ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70160148"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI iOS uygulamasını uzaktan yapılandırma

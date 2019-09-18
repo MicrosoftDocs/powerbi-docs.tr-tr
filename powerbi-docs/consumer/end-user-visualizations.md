@@ -12,10 +12,10 @@ ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 30b588b6b38db100181cd1b1124f37a53f05d100
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67161099"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki Görsellerle etkileşimli çalışma

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
 ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70391510"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Power BI Mobil iOS Uygulamasında (önizleme) Siri Kısayollarını kullanma

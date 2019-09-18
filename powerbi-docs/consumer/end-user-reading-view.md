@@ -14,10 +14,10 @@ ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
 ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70236982"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin

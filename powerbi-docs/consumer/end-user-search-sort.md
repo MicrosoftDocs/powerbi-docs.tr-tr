@@ -12,10 +12,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70302770"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Gezinme: Power BI hizmetinde içerik arama, bulma ve sıralama

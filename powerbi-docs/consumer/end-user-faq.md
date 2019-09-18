@@ -12,10 +12,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "69654138"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular

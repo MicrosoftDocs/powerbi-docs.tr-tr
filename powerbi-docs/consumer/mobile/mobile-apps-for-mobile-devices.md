@@ -11,10 +11,10 @@ ms.date: 04/26/2018
 ms.author: mshenhav
 ms.custom: ''
 ms.openlocfilehash: 40dd5a0ed03a7d6bd258de39bb9c29dcd7390cd9
-ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70064672"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?

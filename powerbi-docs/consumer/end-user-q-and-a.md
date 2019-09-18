@@ -12,10 +12,10 @@ ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 9960ebe11271eea34245250ef5701e9a94bba744
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67408482"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap

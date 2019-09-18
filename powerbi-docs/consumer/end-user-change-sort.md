@@ -11,10 +11,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70302739"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme

@@ -13,10 +13,10 @@ ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67264700"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI hizmeti müşterilerine yönelik temel kavramlar

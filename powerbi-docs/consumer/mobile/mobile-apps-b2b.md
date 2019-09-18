@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
 ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "69490362"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Dış kuruluştan sizinle paylaşılan Power BI içeriğini görüntüleme

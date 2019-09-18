@@ -13,10 +13,10 @@ ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61050431"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme

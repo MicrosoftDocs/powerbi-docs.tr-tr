@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70236751"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama

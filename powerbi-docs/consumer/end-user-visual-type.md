@@ -11,10 +11,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70302542"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri

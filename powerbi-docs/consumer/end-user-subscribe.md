@@ -12,10 +12,10 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "68961677"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
