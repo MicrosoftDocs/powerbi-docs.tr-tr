@@ -1,6 +1,6 @@
 - name: Kullanıcılar için Power BI
   href: power-bi-consumer-landing.md
-- name: Kullanıcılar için Power BI hizmeti
+- name: Tüketiciler için Power BI hizmeti
   items:
     - name: Genel Bakış
       items:
@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Power BI tüketicileri için temel kavramlar ve terminoloji
           href: end-user-basic-concepts.md
+        - name: Açılış sayfanızı kullanarak içerik bulma
+          href: end-user-home.md
         - name: '''Yeni görünüm'' bölümünde gezinme'
           href: ../service-new-look.md
     - name: Hızlı Başlangıçlar
