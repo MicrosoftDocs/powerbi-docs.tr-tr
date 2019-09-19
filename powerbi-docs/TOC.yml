@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: Çoklu oturum açmayı etkinleştir (SSO)
           items:
-            - name: Çoklu oturum açma (SSO) - genel bakış
+            - name: SSO’ya genel bakış
               href: service-gateway-sso-overview.md
-            - name: Çoklu oturum açma (SSO) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: Çoklu oturum açma (SSO) - Kerberos - kaynak tabanlı
-              href: service-gateway-sso-kerberos-resource.md
-            - name: Çoklu oturum açma (SSO) - SAML
+            - name: Kerberos tabanlı SSO
+              items:
+                - name: Kerberos tabanlı SSO’yu yapılandırma
+                  href: service-gateway-sso-kerberos.md
+                - name: Veri kaynağına özgü yapılandırma
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW - sapcrypto.dll (Ortak Şifre Kitaplığı)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll ve gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SAML tabanlı SSO
               href: service-gateway-sso-saml.md
         - name: Ağ geçidi sorunlarını giderme
           href: service-gateway-onprem-tshoot.md
