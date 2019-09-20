@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: Sayısal aralık dilimleyiciyi kullanma
               href: desktop-slicer-numeric-range.md
+            - name: Göreli tarih dilimleyiciyi kullanma
+              href: desktop-slicer-filter-date-range.md
             - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
               href: power-bi-slicer-filter-responsive.md
             - name: Cortana için özel yanıt kartları oluşturma
