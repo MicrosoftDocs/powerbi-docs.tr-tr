@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8a6ee2e16b5c5190c969c6017101257f331775f9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269414"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841429"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında desteklenen diller
 Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
@@ -61,5 +61,5 @@ Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI için desteklenen diller ve ülkeler/bölgeler](../../supported-languages-countries-regions.md)
 * Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
-* Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
+* Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 

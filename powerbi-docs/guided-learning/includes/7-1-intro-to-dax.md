@@ -1,14 +1,14 @@
 ---
-ms.openlocfilehash: 8af5b1cf243d599ab68e9c2db1a3c6003f82c29f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273649"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847748"
 ---
 Size **DAX**'ı tanıtmak için tasarlanan Power BI **Destekli Öğrenme** bölümüne hoş geldiniz.
 
-**Veri Çözümleme İfadeleri** anlamına gelen **DAX**, Power BI genelinde kullanılan (arka planda Power BI tarafından da kullanılır) formül dilidir. DAX, Power Pivot ve SSAS Tablosu gibi diğer Microsoft tekliflerinde de yer alır ancak bu Destekli Öğrenme konusu koleksiyonunda, DAX dilinin nasıl kullanıldığına ve Power BI'da sizin tarafınızdan nasıl kullanılabileceğine odaklanılmıştır.
+**Veri Çözümleme İfadeleri** anlamına gelen **DAX**, Power BI genelinde kullanılan (arka planda Power BI tarafından da kullanılır) formül dilidir. DAX, Power Pivot ve SSAS Tablosu gibi diğer Microsoft tekliflerinde de yer alır ancak bu Destekli Öğrenme konularında, DAX dilinin nasıl kullanıldığına ve Power BI'da sizin tarafınızdan nasıl kullanılabileceğine odaklanılmıştır.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX ve Destekli Öğrenme video serisi
 Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](http://www.sqlbi.com/learning-dax) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
@@ -24,11 +24,11 @@ DAX *işlevsel bir dildir*. Başka bir deyişle, yürütülen kodun tamamı bir 
 
 DAX dilinde işlevler, iç içe geçmiş diğer işlevleri, koşullu ifadeleri ve değer başvurularını içerebilir. DAX'ta yürütme işlemi en içteki işlevden veya parametreden başlar ve dışarı doğru devam eder. Power BI'da DAX formülleri tek bir satır olarak yazılır. Bu nedenle işlevlerinizi doğru bir şekilde biçimlendirmek okunabilirlik açısından önemlidir.
 
-DAX iki birincil veri türü içerir tablolarla çalışmak için tasarlanmıştır: **Sayısal** ve **diğer**. **Sayısal** veri türü *tamsayıları*, *ondalıkları* ve *para birimlerini* içerebilir. **Diğer** veri türünde ise *dizeler* ve *ikili nesneler* yer alabilir. Bu nedenle, DAX işlevinizi bir sayı türü üzerinde çalışacak şekilde oluşturmanız halinde işlevinizin diğer tüm Sayısal veriler üzerinde de çalışacağından emin olabilirsiniz.
+Tablolarla çalışmak üzere tasarlanan DAX iki birincil veri türü içerir: **Sayısal** ve **Diğer**. **Sayısal** veri türü *tamsayıları*, *ondalıkları* ve *para birimlerini* içerebilir. **Diğer** veri türünde ise *dizeler* ve *ikili nesneler* yer alabilir. Bu nedenle, DAX işlevinizi bir sayı türü üzerinde çalışacak şekilde oluşturmanız halinde işlevinizin diğer tüm Sayısal veriler üzerinde de çalışacağından emin olabilirsiniz.
 
-DAX, işleç aşırı yüklemesini kullanır. Böylece, hesaplamalarınızda veri türlerini karıştırabilir ve sonuçların girişlerde kullanılan veri türlerine göre değişmesini sağlayabilirsiniz. Dönüştürme işlemi otomatik olarak gerçekleştirilir. Bu, Power BI'da çalışırken kullandığınız sütunların veri türlerini bilmeniz gerekmediğinin yanı sıra dönüştürme işleminin belirli durumlarda beklenmedik şekillerde sonuçlanabileceği anlamına da gelir. İşleçlerinizin beklendiği gibi çalışmasını sağlamak için, kullandığınız verileri anlamakta yarar vardır.
+DAX, işleç aşırı yüklemesini kullanır. Böylece, hesaplamalarınızda veri türlerini karıştırabilir ve sonuçların girişlerde kullanılan veri türlerine göre değişmesini sağlayabilirsiniz. Dönüştürmenin otomatik olarak gerçekleşmesi, Power BI'da çalışırken kullandığınız sütunların veri türlerini bilmeniz gerekmediğinin yanı sıra dönüştürme işleminin belirli durumlarda beklenmedik şekillerde sonuçlanabileceği anlamına da gelir. İşleçlerinizin beklendiği gibi çalışmasını sağlamak için, kullandığınız verileri anlamakta yarar vardır.
 
-Büyük olasılıkla ile çok Power BI'da yoğun şekilde kullanacağınız belirli bir veri türü vardır: **DateTime**. **Tarih/Saat**, hem tamsayı hem de ondalık kısımları içeren bir kayan noktalı değer olarak depolanır. Tarih/Saat, 1 Mart 1900 tarihinden sonraki herhangi bir zaman aralığına ilişkin hesaplamalar için tutarlı bir şekilde kullanılabilir.
+Power BI'da sıklıkla kullanacağınız bir veri türü bulunur: **DateTime**. **Tarih/Saat**, hem tamsayı hem de ondalık kısımları içeren bir kayan noktalı değer olarak depolanır. Tarih/Saat, 1 Mart 1900 tarihinden sonraki herhangi bir zaman aralığına ilişkin hesaplamalar için tutarlı bir şekilde kullanılabilir.
 
 > Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
 > 

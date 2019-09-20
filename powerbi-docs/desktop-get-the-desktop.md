@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560856"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903603"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -40,9 +40,9 @@ Power BI Desktop'ın en son sürümünü şu indirme sayfasından da indirebilir
 
 Seçtiğiniz indirme yönteminden bağımsız olarak, **Power BI Desktop**'ı indirdiğinizde yükleme dosyasını çalıştırmanız istenir:
 
-![Power BI Desktop yükleme dosyasını çalıştırma](media/desktop-get-the-desktop/getpbid_3.png)
+![Power BI Desktop yükleme dosyasını çalıştırma](media/desktop-get-the-desktop/download-desktop-exe.png)
 
-Haziran 2019 yayınından itibaren, **Power BI Desktop** desteklenen tüm dilleri içeren tek bir .exe yükleme paketi olarak gönderilmektedir. 32 bit ve 64 bit sürümler için ayrı .exe dosyaları vardır. .msi paketleri Eylül 2019 yayınından sonra kullanımdan kaldırılacak ve sonrasında yükleme için .exe yürütülebilir dosyasını kullanmanız gerekecektir. Bu yaklaşım dağıtım, güncelleştirme ve yüklemeyi (özellikle Yöneticiler için) çok daha kolay ve daha kullanışlı hale getirir. Ayrıca, bu makalenin ilerleyen kısımlarındaki [yükleme sırasında komut satırı seçeneklerini kullanma](#using-command-line-options-during-installation) bölümünde açıklandığı gibi, komut satırı parametrelerini kullanarak yükleme işlemini özelleştirebilirsiniz.
+Haziran 2019 yayınından itibaren, **Power BI Desktop** desteklenen tüm dilleri içeren tek bir .exe yükleme paketi olarak gönderilmektedir. 32 bit ve 64 bit sürümler için ayrı .exe dosyaları vardır. .msi paketleri Eylül 2019 sürümünden itibaren kullanımdan kaldırılmıştır; bu nedenle yükleme için .exe yürütülebilir dosyası gereklidir. Bu yaklaşım dağıtım, güncelleştirme ve yüklemeyi (özellikle Yöneticiler için) çok daha kolay ve daha kullanışlı hale getirir. Ayrıca, bu makalenin ilerleyen kısımlarındaki [yükleme sırasında komut satırı seçeneklerini kullanma](#using-command-line-options-during-installation) bölümünde açıklandığı gibi, komut satırı parametrelerini kullanarak yükleme işlemini özelleştirebilirsiniz.
 
 Yükleme paketini başlattıktan sonra **Power BI Desktop** bir uygulama olarak yüklenir ve masaüstünüzde çalışır.
 
@@ -105,6 +105,27 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 
 Power BI Desktop ile her zaman harika bir deneyim yaşamanızı istiyoruz. Power BI Desktop'ta sorunlarla karşılaştığınız noktalar olabilir. Bu bölümde ortaya çıkabilecek sorunlarla ilgili çözümlere veya önerilere yer verilmiştir. 
 
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>Uzak makinelere Power BI Desktop yükleme
+
+Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir araçla Power BI Desktop dağıtıyorsanız, .msi dosyasını Power BI Desktop installer .exe dosyasından ayıklayabilirsiniz. Bunu gerçekleştirmek için WiX Toolset gibi üçüncü taraf araçları kullanabilirsiniz.
+
+> [!NOTE]
+> Üçüncü taraf ürün olarak WiX Toolset seçenekleri bildirimde bulunulmadan değişebilir. Lütfen en güncel bilgiler için belgelerini kontrol edin ve yardım almak için kullanıcı posta listesine başvurun.
+
+* Power BI Desktop yükleyicisini indirdiğiniz bilgisayarda, https://wixtoolset.org/ adresindeki Wix Web sitesinden WiX Toolset’in en son sürümünü indirip yükleyin.
+* Yönetici olarak bir komut satırı penceresi açın ve WiX Toolset’i yüklediğiniz klasöre gidin.
+* Aşağıdaki komutu çalıştırın: 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    Örneğin, şunu çalıştırın:
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* Çıktı klasöründe .msi dosyalarını içeren *AttachedContainer* adlı bir klasör bulunur.
+
+
+
 
 ### <a name="using-command-line-options-during-installation"></a>Yükleme sırasında komut satırı seçeneklerini kullanma 
 
@@ -122,6 +143,25 @@ Power BI Desktop yüklerken komut satırı geçişleriyle özellikleri ve seçen
 |-uninstall     |Power BI Desktop’u kaldır         |
 |-repair     |yüklemeyi onar (veya şu anda yüklü değilse yükle)         |
 |-package, -update     |Power BI Desktop’ı yükle (varsayılan olarak, -uninstall veya -repair belirtilmediğinde)         |
+
+Ayrıca, bir "PROPERTY=VALUE" söz dizimi ile belirtilen aşağıdaki **söz dizimi parametrelerini** kullanabilirsiniz:
+
+
+|Parametre  |Anlamı  |
+|---------|---------|
+|ACCEPT_EULA     |EULA belgesini otomatik olarak kabul etmek için 1 değeri gerektirir         |
+|ENABLECXP     |1 değeri, ürün kullanımına ilişkin telemetri yakalayan müşteri deneyimi programına kaydolur         |
+|INSTALLDESKTOPSHORTCUT     |1 değeri, Masaüstüne bir kısayol ekler         |
+|INSTALLLOCATION     |Yüklenmesini istediğiniz dosya yolu         |
+|LANGUAGE     |Uygulamanın varsayılan dilini uygulamak için, yerel ayar kodu (örneğin, en-US, de-DE, PR-BR). Dil belirtilmemişse, Power BI Desktop Windows işletim sistemi dilini görüntüler. Bu ayar, Seçenekler iletişim kutusundan kullanıcı tarafından değiştirilebilir.         |
+|REG_SHOWLEADGENDIALOG     |0 değeri, Power BI Desktop’ta oturum açmadan önce görüntülenen iletişim kutusunu göstermeyi devre dışı bırakır         |
+
+
+
+
+Örneğin, Almanca dilini kullanarak herhangi bir kullanıcı arabirimi olmadan yüklemek için aşağıdaki söz dizimi ile çalıştırabilirsiniz: 
+
+```“-quiet LANG=de-DE ACCEPT_EULA=1”```
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop'ın önceki sürümlerini kullanırken ortaya çıkan sorunlar

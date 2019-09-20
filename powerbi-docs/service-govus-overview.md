@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590451"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841638"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -48,7 +48,7 @@ Azure birçok bulutta dağıtılmaktadır. Varsayılan olarak kiracıların, bul
 * USGov Texas
 * USGov Arizona
 
-Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bilgileri almak için indirilebilir [Azure kamu hizmeti belgelerine](https://www.microsoft.com/download/details.aspx?id=57063) başvurun.
+Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bilgileri almak için indirilebilir [Azure Kamu hizmeti belgelerine](https://www.microsoft.com/download/details.aspx?id=57063) başvurun.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI US Government hizmetine ilişkin sınırlamalar
 **Power BI hizmetinin** ticari sürümünde sunulan özelliklerden bazıları, ABD Kamu müşterilerine yönelik **Power BI hizmetinde** *sunulmamaktadır*. Power BI ekibi, söz konusu özelliklerin ABD Kamu müşterilerine de sunulması için aktif olarak çalışarak ilgili özellikler kullanılabilir olduğunda bu makaleyi güncelleştirecektir.
@@ -85,13 +85,13 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 
 **Cevap:** Kaydolma (genellikle *ekleme* olarak adlandırılır) işlemi, mevcut lisansınıza ve aboneliğinize göre farklılık gösterebilir. Daha fazla bilgi için [Power BI US Government'a kaydolma](service-govus-signup.md) makalesine bakın.
 
-**Soru:** **Power BI** for US Government'a bağlanmak için kullanılan URL ticari **Power BI** URL'sinden farklı mı?
+**Soru:** **Power BI** for US Government'a bağlanmak için kullanılan URL ticari **Power BI** URL'sinden farklı mı? Government Community Cloud High (GCC High) müşterileri için farklı bir URL var mı?
 
 **Cevap:** Evet, URL'ler farklıdır. URL'ler aşağıdaki tabloda gösterilmiştir:
 
-| Ticari sürüm URL'si | US Government sürümü URL'si |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| Ticari sürüm URL'si | US Government sürümü URL'si | GCC High için ABD Kamu URL'si |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **Soru:** Hesabım birden fazla ulusal bulutta sağlandı. **Power BI Desktop** kullanırken hangi buluta bağlanacağımı nasıl belirleyebilirim?
 

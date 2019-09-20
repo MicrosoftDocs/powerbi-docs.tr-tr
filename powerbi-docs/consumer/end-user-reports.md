@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391332"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903716"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 
-Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan kişi de olabilirsiniz.
+Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan kişi de olabilirsiniz. Bu makale *tüketiciler* içindir.
 
-![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-reports.png)
+![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-report.png)
 
-Bu raporda altı sayfa (veya sekme) bulunuyor ve şu anda **Yaklaşım** sayfasını görüntülüyorsunuz. Bu sayfada beş farklı görsel ve bir sayfa başlığı bulunuyor. *Filtreler* bölmesi tüm rapor sayfalarına bir filtre uygulandığını gösteriyor. Filtreler bölmesini daraltmak için oku (**>**) seçin.
+A. Bu raporda altı sayfa (veya sekme) bulunuyor ve şu anda **Yaklaşım** sayfasını görüntülüyorsunuz.    
+B. Bu sayfada beş farklı görsel ve bir sayfa başlığı bulunuyor.    
+C. *Filtreler* bölmesi tüm rapor sayfalarına bir filtre uygulandığını gösteriyor. Filtreler bölmesini daraltmak için oku ( **>** ) seçin.    
+D. Power BI başlığı, raporun adını ve son güncelleştirme tarihini görüntüler. Rapor sahibinin adını da gösteren bir menü açmak için oku seçin.    
+E. Eylem çubuğu, bu raporda gerçekleştirebileceğiniz eylemleri içerir.  Örneğin, bir yorum ekleyebilir, bir yer işaretini görüntüleyebilir veya verileri rapordan dışarı aktarabilirsiniz.  Ek rapor işlevlerinin listesini göstermek için üç nokta (...) simgesini seçin.    
 
 Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti tüketicileri için temel kavramlar](end-user-basic-concepts.md) makalesini okuyarak iyi bir temel oluşturabilirsiniz. Raporlar mobil cihazlarda görüntülenebilir, paylaşılabilir ve raporlara not eklenebilir. Daha fazla bilgi için bkz. [Power BI mobil uygulamalarında raporları araştırma](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -68,9 +72,9 @@ Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez. Kaydedebilirsiniz
 Buna karşılık başkalarından rapor alan bir *kullanıcı* da olabilirsiniz. Bu durumda raporları nasıl anlayacağınızı ve raporlarla nasıl etkileşim kuracağınızı öğrenmek istersiniz. Bir rapor *kullanıcısıysanız*, bu bağlantılar işinize yarayabilir:
 
 * Raporları ve rapor araçlarını nerede bulacağınızı öğrenmek için [Power BI hizmeti turu](end-user-basic-concepts.md) ile başlayın.
-* [Okuma görünümü](end-user-reading-view.md)'nde [bir raporu açmayı](end-user-report-open.md) ve kullanabileceğiniz tüm etkileşimleri öğrenin.
+* [Bir raporu açmayı](end-user-report-open.md) ve [tüketicilerin kullanabileceği tüm etkileşimleri](end-user-reading-view.md) öğrenin.
 * Raporları daha rahat kullanmak için [örneklerimizden](../sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
-* Raporun hangi veri kümesini kullandığını ve hangi panolarda rapordan sabitlenmiş kutucuklar bulunduğunu görmek için bkz. [Power BI hizmetinde ilişkili içeriği görüntüleme](end-user-related.md).
+* Raporun hangi veri kümesini kullandığını ve hangi panoların rapordaki görselleri (*sabitlemeler*) gösterdiğini görmek için bkz. [Power BI hizmetinde ilişkili içeriği görüntüleme](end-user-related.md).
 
 > [!TIP]
 > Aradığınızı burada bulamadıysanız tüm *Rapor* makalelerine göz atmak için sol taraftaki İçindekiler bölümünü kullanın.

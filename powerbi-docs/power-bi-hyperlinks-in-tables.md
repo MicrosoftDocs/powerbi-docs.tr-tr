@@ -1,6 +1,6 @@
 ---
-title: Tabloya köprü ekleme
-description: Köprü oluşturmak için Power BI Desktop’ı kullanın. Daha sonra, bu köprüleri rapor tablolarınıza ve matrislerinize eklemek için Power BI Desktop'ı veya Power BI hizmetini kullanın.
+title: Tabloya köprü (URL) ekleme
+description: Bu konu başlığı altında bir tabloya köprü (URL) ekleme hakkında bilgi alacaksınız. Bir tabloya veya matrise köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,23 +8,23 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2019
+ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721366"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70937059"
 ---
-# <a name="add-hyperlinks-to-a-table"></a>Tabloya köprü ekleme
-Bu konu başlığı altında, Power BI Desktop'ın köprü oluşturmak için nasıl kullanılacağı açıklanmaktadır. Daha sonra bu köprüleri rapor tablolarınıza ve matrislerinize eklemek için Desktop’ı veya Power BI hizmetini kullanabilirsiniz. 
+# <a name="add-hyperlinks-urls-to-a-table"></a>Tabloya köprü (URL) ekleme
+Bu konu başlığı altında bir tabloya köprü (URL) ekleme hakkında bilgi alacaksınız. Bir tabloya veya matrise köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. 
 
 ![Köprüler içeren tablo](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Power BI hizmetini kullanarak, [panolarda kutucuklarda](service-dashboard-edit-tile.md) ve [panolardaki metin kutularında](service-dashboard-add-widget.md) çalışma sırasında köprüler oluşturulabilirsiniz. Power BI hizmeti ve Power BI Desktop kullanarak, [Raporlardaki metin kutularında](service-add-hyperlink-to-text-box.md) çalışma sırasında köprüler.
+> Power BI hizmetinde, [panolardaki kutucuklarda](service-dashboard-edit-tile.md) ve [panolardaki metin kutularında](service-dashboard-add-widget.md) çalışma sırasında köprüler oluşturulabilirsiniz. Power BI hizmeti ve Power BI Desktop kullanarak, [raporlardaki metin kutularında](service-add-hyperlink-to-text-box.md) çalışma sırasında köprüler oluşturabilirsiniz.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Power BI Desktop ile bir tablo veya matris içinde köprü oluşturmak için
@@ -34,7 +34,7 @@ Power BI Desktop'ta tablolarda ve matrislerde köprüler oluşturabilirsiniz anc
 Köprü ekleme yordamı, verileri içeri aktararak mı yoksa DirectQuery bağlantısı kullanarak mı aldığınıza göre değişir. Her iki senaryo da aşağıda açıklanmıştır.
 
 ### <a name="for-data-imported-into-power-bi"></a>Power BI'a aktarılan veriler için
-1. Köprü, veri kümenizde bir alan olarak mevcut değilse Desktop'ı kullanın ve köprüyü bir [özel sütun](desktop-common-query-tasks.md) olarak ekleyin.
+1. Köprü, veri kümenizde bir alan olarak mevcut değilse Power BI Desktop'ı kullanın ve köprüyü bir [özel sütun](desktop-common-query-tasks.md) olarak ekleyin.
 2. Veri görünümündeyken sütunu seçin ve **Modelleme** sekmesinde **Veri Kategorisi** açılan listesini açın.
    
     ![Veri kategorisi açılan listesi](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
@@ -57,7 +57,7 @@ Köprü ekleme yordamı, verileri içeri aktararak mı yoksa DirectQuery bağlan
 
     ![URL simgesini açma](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (İsteğe bağlı) [Desktop'taki raporu Power BI hizmetinde yayımlayın](guided-learning/publishingandsharing.yml?tutorial-step=2) ve raporu Power BI hizmetinde açın. Köprüler burada da çalışır durumda olacaktır.
+1. (İsteğe bağlı) [Power BI Desktop'taki raporu Power BI hizmetinde yayımlayın](guided-learning/publishingandsharing.yml?tutorial-step=2) ve raporu Power BI hizmetinde açın. Köprüler burada da çalışır durumda olacaktır.
 
 ### <a name="for-data-connected-with-directquery"></a>DirectQuery ile bağlanılan veriler için
 DirectQuery modunda yeni bir sütun oluşturamazsınız.  Ancak, verileriniz zaten URL içeriyorsa bunları köprülere dönüştürebilirsiniz.
@@ -65,7 +65,7 @@ DirectQuery modunda yeni bir sütun oluşturamazsınız.  Ancak, verileriniz zat
 1. Rapor görünümündeyken, URL içeren bir alan kullanarak tablo oluşturun.
 2. Sütunu seçin ve **Modelleme** sekmesinde **Veri Kategorisi** açılan listesini açın.
 3. **Web URL'si** seçeneğini belirleyin. Köprüler mavi renkte ve altı çizili olarak görünür.
-4. (İsteğe bağlı) [Desktop'taki raporu Power BI hizmetinde yayımlayın](guided-learning/publishingandsharing.yml?tutorial-step=2) ve raporu Power BI hizmetinde açın. Köprüler burada da çalışır durumda olacaktır.
+4. (İsteğe bağlı) [Power BI Desktop'taki raporu Power BI hizmetinde yayımlayın](guided-learning/publishingandsharing.yml?tutorial-step=2) ve raporu Power BI hizmetinde açın. Köprüler burada da çalışır durumda olacaktır.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Excel Power Pivot'ta bir tablo veya matris köprüsü oluşturma
 Power BI tablolarınıza ve matrislerinize köprü eklemenin diğer bir yolu da ilgili veri kümesini Power BI'dan aktarmadan veya ilgili veri kümesine Power BI'dan bağlanmadan önce köprüleri bu veri kümesinde oluşturmaktır. Bu örnekte bir Excel çalışma kitabı kullanılmıştır.

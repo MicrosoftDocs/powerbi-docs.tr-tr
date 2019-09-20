@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f9659ad657c4466ad58eb40d4a07916b46f9536a
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187190"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877788"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI ve Azure için aynı hesabı kullanma
+
 Hem Power BI hem de Azure kullanıcısıysanız parolanızı iki kez yazmadan her iki hizmet için de aynı oturum açma bilgilerini kullanmak isteyebilirsiniz.
 
 Power BI'da oturum açmak için, iş veya okul e-posta adresinizle ilişkili kuruluş hesabınızı kullanırsınız.  Azure'da oturum açmak içinse bir Microsoft hesabı veya kuruluş hesabınızı kullanmanız gerekir.
@@ -26,14 +27,16 @@ Hem Azure hem de Power BI için aynı oturum açma bilgilerini kullanmak istiyor
 
 **Azure'da Microsoft hesabımla oturum açtıysam ne olur?**
 
-Azure'da kuruluş hesabınızı bir ortak yönetici olarak ekleyebilirsiniz.  Aşağıdaki adımları uygulayın:
+Aşağıdaki adımları izleyerek Azure'da kuruluş hesabınızı bir ortak yönetici olarak ekleyebilirsiniz:
 
-1. [Azure Yönetim Portalı](http://manage.windowsazure.com/)'nda oturum açın. Birden fazla Azure dizininde etkin bir kullanıcıysanız **Abonelikler**'e tıklayın ve yalnızca düzenlemek istediğiniz dizin ile abonelikler görüntülenecek şekilde filtreleme yapın.
-2. Gezinti bölmesinde **Ayarlar**, **Yöneticiler** ve ardından **Ekle**'ye tıklayın.
-3. Kuruluş hesabınızla ilişkili e-posta adresini girin.
-4. Kuruluş hesabınızla erişmek istediğiniz abonelikleri seçin ve onay işaretine tıklayın.
+1. [Azure portalında](http://portal.azure.com/) oturum açın. Birden fazla Azure dizininde etkin bir kullanıcıysanız **Abonelikler**'i seçin ve yalnızca düzenlemek istediğiniz dizin ile abonelikler görüntülenecek şekilde filtreleme yapın.
 
-Daha sonra Azure Yönetim Portalı'nda oturum açacağınız zaman kuruluş e-posta adresinizi kullanın.
+1. Gezinti bölmesinde **Erişim denetimi (IAM)** ve sonra **Ekle** \> **Ortak yönetici ekle**’yi seçin.
+
+    ![Azure portalında ortak yönetici ekleme](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+
+1. Kuruluş hesabınızla ilişkili e-posta adresini girin ve **Ekle**’yi seçin.
+
+1. Daha sonra Azure portalında oturum açacağınız zaman kuruluş e-posta adresinizi kullanın.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030174"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841369"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -25,7 +25,15 @@ ms.locfileid: "70030174"
 
 ## <a name="august-2019"></a>Ağustos 2019
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure Active Directory (AD) Uygulama Ara Sunucusu ile güvenli erişim
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI Mobil yeni görünüme giriş (önizleme) (iOS ve Android)
+
+Uygulamamızı yeniledik ve yeni deneyimler sunduk, yaygın olarak kullanılan içeriğinize hızlı erişim sağlayan bir giriş sayfası ve uygulamada gezinmek için size kolay bir yol sağlayan yeni gezinti çubukları ekledik. Yeni ve yenilenmiş deneyimler sayesinde, ihtiyacınız olduğunda ihtiyacınız olan şeyleri daha hızlı ve kolay bir şekilde bulabilirsiniz.
+Yeni görünüm önizleme aşamasında olduğundan, keyfini çıkarmak için açmanız gerekir.
+[Power BI Mobil yeni görünümü](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/) hakkında daha fazla bilgi edinin.
+
+![Power BI Mobil yeni görünümü](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) Uygulama Ara Sunucusu ile güvenli erişim (iOS ve Android)
 
 Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (AAD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
 
@@ -36,7 +44,7 @@ Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamaları
 Rapor sayfası araç ipuçları, artık mobil uygulamanızda raporlar görüntülenirken desteklenir. Bağlı rapor araç ipucu bulunan bir görsele basılı tutun ve rapor görüntülensin.  
 
 ![Rapor tuvali araç ipucu](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > Rapor araç ipuçları 640 piksel boyutu ve 320 görünüm penceresinden daha büyük çözünürlüğe sahip cihazlar için desteklenir. Daha küçük cihazlar varsayılan araç ipuçlarını kullanır.
 

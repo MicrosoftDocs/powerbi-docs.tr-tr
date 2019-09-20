@@ -1,6 +1,6 @@
 ---
-title: Bir raporu filtreleyebilir ve arkadaşlarınızla - Power BI paylaşma
-description: Power BI raporuna filtre uygulamayı ve bu raporu kuruluşunuzdaki iş arkadaşlarınızla paylaşmayı öğrenin.
+title: Filtre uygulanmış bir Power BI raporunu paylaşmanın iki yolu
+description: Power BI raporuna filtre uygulamanın ve bu raporu kuruluşunuzdaki iş arkadaşlarınızla paylaşmanın iki yolunu öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,62 +8,72 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f3808884e63521ec1dd775d876f1cf707bbe56b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770687"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877720"
 ---
-# <a name="filter-a-power-bi-report-and-share-it-with-coworkers"></a>Power BI raporu filtreleyebilir ve iş arkadaşlarınızla paylaşma
-*Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Deneyin bir raporu filtreleme ve paylaşımı ya da özel bir URL oluşturuluyor. Alıcılar bunu ilk kez açtığında rapor filtrelenecektir. URL'yi değiştirerek filtreyi kaldırabilirler. 
+# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Filtre uygulanmış bir Power BI raporunu paylaşmanın iki yolu
+*Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Bir raporu filtrelemeyi ve paylaşmayı deneyin ya da özel bir URL oluşturun. Alıcılar URL’yi ilk kez açtığında rapor filtrelenir. URL'yi değiştirerek filtreyi kaldırabilirler. 
 
-Power BI ayrıca [işbirliği yapmak ve raporlarınızı dağıtmak için çeşitli yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md). Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-features-license-type.md) gereklidir veya içerik [Premium kapasitede](service-premium-what-is.md) olmalıdır. 
+![Rapor filtrelendi](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
-## <a name="two-ways-to-filter-a-report"></a>Bir rapora filtre uygulamak için iki yol
+Power BI ayrıca [işbirliği yapmak ve raporlarınızı dağıtmak için başka yollar sunar](service-how-to-collaborate-distribute-dashboards-reports.md). Paylaşımda siz ve alıcılarınız için bir [Power BI Pro lisansı](service-features-license-type.md) gereklidir veya içerik [Premium kapasitede](service-premium-what-is.md) olmalıdır. 
 
-### <a name="set-a-filter"></a>Bir filtre ayarlayın
+## <a name="two-ways-to-filter-a-report"></a>Bir raporu filtrelemenin iki yolu
 
-Raporu [Düzenleme görünümü](consumer/end-user-reading-view.md)'nde açın, filtreyi uygulayın ve raporu kaydedin.
-   
-Bu örnekte, yalnızca **Territory**'nin **NC**'ye eşit olduğu değerleri göstermek için [Perakende Analizi örneği](sample-tutorial-connect-to-the-samples.md)'ni filtreliyoruz.
-   
-![Rapor filtresi bölmesi](media/service-share-reports/power-bi-filter-report2.png)
+Her iki filtreleme tekniği için de Pazarlama ve Satış örneği şablon uygulamasını kullanıyoruz. Denemek ister misiniz? [Pazarlama ve Satış örneği şablon uygulamasını](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview) da yükleyebilirsiniz.
 
-### <a name="create-a-filter-in-the-url"></a>URL'de bir filtre oluşturun
+### <a name="set-a-filter"></a>Filtre ayarlama
+
+[Düzenleme görünümünde](consumer/end-user-reading-view.md) bir rapor açın ve filtre uygulayın.
+
+Bu örnekte, Pazarlama ve Satış örneği şablon uygulamasının Yılbaşından Bugüne Kadar Kategori sayfasını, yalnızca **Region** değerinin **Central** değerine eşit olduğu değerleri gösterecek şekilde filtreliyoruz. 
+ 
+![Rapor filtresi bölmesi](media/service-share-reports/power-bi-share-report-filter.png)
+
+Raporu kaydedin.
+
+### <a name="create-a-filter-in-the-url"></a>URL'de filtre oluşturma
+
+Rapor sayfası URL’sinin sonuna filtre eklediğiniz davranış biraz farklıdır. Filtrelenmiş sayfa aynı şekilde görünür. Ancak, Power BI raporun tamamına filtre ekler ve diğer değerleri filtre bölmesinden kaldırır.  
 
 Aşağıdakini rapor sayfası URL'sinin sonuna ekleyin:
    
-?filter=*tabloadı*/*alanadı* eq *değer*
+    ?filter=*tablename*/*fieldname* eq *value*
    
-Alan türü number, datetime veya dize olması gerekir. *tabloadı* veya *alanadı* değerleri boşluk içeremez.
+Alan; tür, tarih saat veya dize türünde olmalıdır. *tabloadı* veya *alanadı* değerleri boşluk içeremez.
    
-Bizim örneğimizde, tablonun adı **Store**, alanın adı **Territory** ve filtrelemek istediğimiz değer **NC**'dir:
+Bizim örneğimizde, tablonun adı **Geo**, alanın adı **Region** ve filtrelemek istediğimiz değer **Central**'dır:
    
-?filter=Store/Territory eq 'NC'
-   
-![Filtrelenmiş rapor URL'si](media/service-share-reports/power-bi-filter-url3.png)
-   
+    ?filter=Geo/Region eq 'Central'
+
 Tarayıcınız eğik çizgileri, boşlukları ve kesme işaretlerini göstermek için özel karakterler ekler; böylece, aşağıdaki gibi bir URL elde edersiniz:
    
-app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
 
-Makaleye göz atın [URL'ye sorgu dizesi parametrelerini kullanarak bir raporu filtreleme](service-url-filters.md) çok daha fazla ayrıntı için.
+![URL filtresi uygulanmış rapor](media/service-share-reports/power-bi-share-report-filter-url.png)
 
-## <a name="share-the-filtered-report"></a>Filtrelenmiş rapor paylaşma
+Raporu kaydedin.
 
-1. Olduğunda, [raporu paylaşmak](service-share-dashboards.md)temizleyin **alıcılara e-posta bildirimi gönder** onay kutusu.
+Daha ayrıntılı bilgi için [URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme](service-url-filters.md) makalesine bakın.
+
+## <a name="share-the-filtered-report"></a>Filtrelenmiş raporu paylaşma
+
+1. [Raporu paylaştığınızda](service-share-dashboards.md) **Alıcılara e-posta bildirimi gönder** onay kutusunun işaretini kaldırın.
 
     ![Raporu paylaş iletişim kutusu](media/service-share-reports/power-bi-share-report-dialog.png)
 
 4. Daha önce oluşturduğunuz filtreyi içeren bağlantıyı gönderin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
-* [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Power BI'da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Bir panoyu paylaşma](service-share-dashboards.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+* Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 

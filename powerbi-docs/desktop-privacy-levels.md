@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513924"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841334"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.
@@ -52,7 +52,7 @@ Varsayılan **Gizlilik Düzeyleri** ayarı **Her bir kaynak için verileri Gizli
 | **Her bir kaynak için verileri Gizlilik Düzeyi ayarlarınıza göre birleştirin** (Açıktır ve varsayılan ayardır) |Gizlilik düzeyi ayarları, veri birleştirme sırasında veri kaynakları arasındaki yalıtım düzeyini belirlemek için kullanılır. |
 | **Gizlilik Düzeylerini yoksayın ve potansiyel performansı geliştirin** (kapalı) |Veriler birleştirilirken gizlilik düzeyleri hesaba katılmaz ancak verilerin performansı ve işlevselliği artabilir. |
 
-> **Güvenlik Notu:** **Gizlilik Düzeyleri** iletişim kutusunda **Gizlilik Düzeylerini yoksayın ve potansiyel performansı geliştirin** seçeneği belirlenerek **Gizlilik Düzeyleri**'nin etkinleştirilmesi, gizli veya hassas verilerin yetkisiz bir kullanıcı tarafından görülebilmesine neden olabilir. Veri kaynağının gizli veya hassas veriler içermediğinden emin olmadığınız sürece **Gizlilik Düzeylerini** etkinleştirmeyin.
+> **Güvenlik Notu:** **Gizlilik Düzeyleri** iletişim kutusunda **Gizlilik Düzeylerini yoksayın ve potansiyel performansı geliştirin** seçeneğini belirlemek, gizli veya hassas verilerin yetkisiz bir kullanıcı tarafından görülebilmesine neden olabilir. Veri kaynağının gizli veya hassas veriler içermediğinden emin olmadığınız sürece bu ayarı *kapalı* duruma getirmeyin.
 > 
 > 
 

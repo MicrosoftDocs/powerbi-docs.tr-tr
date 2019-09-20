@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099829"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877881"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -31,11 +31,11 @@ Yönetici olarak, Power BI Pro lisanslarını satın alabilir ve atayabilirsiniz
 
 Power BI Pro lisanslarını Microsoft Office 365 aracılığıyla veya sertifikalı Microsoft iş ortağı aracılığıyla satın alırsınız. Lisansları satın aldıktan sonra, bunları tek tek kullanıcılara atarsınız. Daha fazla bilgi için bkz. [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md).
 
-### <a name="power-bi-pro-license-expiration"></a>Power BI Pro Lisansı sona erme tarihi
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro lisansı süre sonu
 
 Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
 
-Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için [Office 365 işletme Aboneliğim sona erdiğinde verilerime ve erişim için ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
+Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [Office 365 işletme aboneliğim sona erdiğinde verilerime ve erişim seçeneklerime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Bireyler için Power BI Pro denemesi
 
@@ -125,7 +125,7 @@ Sınırsız Power BI (ücretsiz) lisans bloğu kullanılamıyorsa ve bireysel ka
 
 Yönetici olarak, Azure Active Directory (AAD) aracılığıyla bireysel kullanıcı kayıtlarını etkinleştirebilir veya devre dışı bırakabilirsiniz. Makalenin bu bölümünde kayıtların PowerShell komutlarıyla nasıl yönetildiği gösterilir. Azure PowerShell hakkında daha fazla bilgi için bkz. [Azure PowerShell'e genel bakış](/powershell/azure/overview).
 
-Kaydı denetleyen ADD ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda bu *true* olarak ayarlanmıştır ve kaydın etkinleştirildiği anlamına gelir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde *false* olabilir. *True* olan ayarı *false* olarak değiştirirseniz, kuruluşunuzdaki yeni kullanıcıların bireysel olarak kaydolması engellenir. Ayar değişikliğinden önce Power BI'a kaydolmuş olan kullanıcılar lisanslarını korur.
+Kaydı denetleyen Azure AD ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda bu *true* olarak ayarlanmıştır ve kaydın etkinleştirildiği anlamına gelir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde *false* olabilir. *True* olan ayarı *false* olarak değiştirirseniz, kuruluşunuzdaki yeni kullanıcıların bireysel olarak kaydolması engellenir. Ayar değişikliğinden önce Power BI'a kaydolmuş olan kullanıcılar lisanslarını korur. *false* ayarı kullanıcıların Pro deneme sürümüne kaydolmasına neden olabilir.
 
 1. Office 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki PowerShell betiğinin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
 
@@ -136,7 +136,7 @@ Kaydı denetleyen ADD ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda 
 
    ![Azure Active Directory oturumu açma](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Oturum açtıktan sonra, kiracınızın geçerli yapılandırmasını görmek için aşağıdaki komutu çalıştırın. ('Fl' aşağıdaki sayı 1 ' l' harfi kullandığını unutmayın.)
+1. Oturum açtıktan sonra, kiracınızın geçerli yapılandırmasını görmek için aşağıdaki komutu çalıştırın. (Aşağıdaki 'fl' ifadesinde 1 rakamının değil, 'l' harfinin kullanıldığını unutmayın.)
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

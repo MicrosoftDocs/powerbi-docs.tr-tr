@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751011"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903673"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -60,14 +60,19 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **calculation (hesaplama)** Bir şeyin boyutunun veya sayısının matematiksel saptaması.
 
+**kart** (görsel türü) Power BI [görsel türü](end-user-visual-type.md).
+
+**kart** (Power BI Giriş) Power BI Giriş; panoları, raporları, uygulamaları ve daha fazlasını temsil eden dikdörtgen ve kare resimler görüntüler. Bu resimlere *kart* denir.
+
 **certified custom visual (sertifikalı özel görsel)** Gereksinimleri karşılamış ve sıkı güvenlik testlerinden geçmiş bir Power BI özel görseli.
 
 **classification (sınıflandırma)** Veri sınıflandırma olarak da adlandırılır. Bu seçenek, Power BI yöneticileri tarafından bir pano için gereken güvenlik düzeyi farkındalığını artırmak için açılabilir. Sınıflandırma türleri kuruluş tarafından özelleştirilebilir.
 
 **connect live (canlı bağlanma)** SQL Server Analysis Services veri modellerine bağlanma yöntemi. Canlı bağlantı olarak da adlandırılır.
 
-**content (içerik)**
+**kapsayıcı** Gezinti çubuğundaki alanlar *kapsayıcılardır*. Gezinti çubuğunda şu kapsayıcıları bulabilirsiniz: Sık Kullanılanlar, En Son, Uygulamalar, Benimle paylaşılan ve Giriş. 
 
+**içerik** Power BI hizmeti içeriği genellikle panolar, raporlar ve uygulamalardır. Ayrıca, çalışma kitaplarını ve veri kümelerini de içerebilir.
 
 **content list (içerik listesi)** Bir uygulamanın içerik dizini.
 
@@ -109,7 +114,8 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **Editing View (Düzenleme Görünümü)** Rapor *tasarımcılarının* raporu incelediği, tasarladığı, oluşturduğu ve paylaştığı mod.
 
-**ellipsis (üç nokta)** ...
+**ellipsis (üç nokta)** ...    
+Üç noktayı seçmek ek menü seçeneklerini gösterir.
 
 **embed code (ekleme kodu)** İnternet genelinde ortak bir standart. Power BI'da, müşteri bir ekleme kodu oluşturabilir ve bir web sitesi veya bloga rapor görseli gibi içerik yerleştirmek için kopyalayabilir.
 
@@ -158,7 +164,8 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (sol gezinti)** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
+**Sol gezinti (sol gez)** **Gezinti çubuğu** ile değiştirilmiştir ancak bazı belgelerde görünmeye devam edebilir.    
+Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 İlk örnek: sol gezinti çubuğu Daha sonra geçtiğinde veya dar alanlarda: sol gezinti
 
@@ -176,7 +183,11 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 **native (yerel)** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ama başka türleri, örneğin özel görselleri de içeri aktarabilirsiniz.
 
-**navigation pane (gezinti bölmesi)** Bkz. **Sol gezinti**
+**Gezinti çubuğu** veya **sol çub** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
+
+İlk örnek: gezinti çubuğu Daha sonra geçtiğinde veya dar alanlarda: sol gez
+
+**gezinti bölmesi** Bkz. **gezinti çubuğu**
 
 **notification (bildirim)** Power BI Bildirim Merkezi tarafından veya bu bildirim merkezine gönderilen iletiler.  
 

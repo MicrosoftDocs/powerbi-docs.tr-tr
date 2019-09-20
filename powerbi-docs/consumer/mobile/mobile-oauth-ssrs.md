@@ -9,23 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567789"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903651"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
-Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
+Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
 
-![Sunucuya bağlanma](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+Adam’ın OAuth kullanarak Power BI Mobil’i SSRS’ye bağlamasını izleyin:
 
-Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Windows Server 2016, bu kimlik doğrulaması türüne izin vermek için Web Uygulaması Ara Sunucusu'na (WAP) yönelik bazı iyileştirmeler sağlar.
 
-   > [!NOTE]
-   > WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işlemi artık iOS ve Android uygulamalarında desteklenmektedir.
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işlemi artık iOS ve Android uygulamalarında desteklenmektedir.
 
 ## <a name="requirements"></a>Gereksinimler
 
@@ -33,19 +35,19 @@ Web Uygulaması Ara Sunucusu (WAP) ve Active Directory Federasyon Hizmetleri (AD
 
 ## <a name="domain-name-services-dns-configuration"></a>Etki Alanı Hizmetleri (DNS) yapılandırması
 
-Power BI mobil uygulamasının bağlanacağı ortak URL'yi belirlemeniz gerekir. Örneğin, URL aşağıdakine benzer olabilir.
+Power BI mobil uygulamasının bağlanacağı ortak URL. Örneğin, URL aşağıdakine benzer olabilir.
 
 ```https
 https://reports.contoso.com
 ```
 
-**Raporlar** için DNS kaydınızı Web Uygulaması Ara Sunucusu'nun (WAP) genel IP adresine yönlendirmeniz gerekir. Ayrıca, ADFS sunucunuz için bir genel DNS kaydı yapılandırmanız gerekir. Örneğin, ADFS sunucusunu şu URL ile yapılandırmış olabilirsiniz.
+**Raporlar** için DNS kaydınızı Web Uygulaması Ara Sunucusu'nun (WAP) genel IP adresine yönlendirme. Ayrıca, ADFS sunucunuz için bir genel DNS kaydı yapılandırmanız gerekir. Örneğin, ADFS sunucusunu şu URL ile yapılandırmış olabilirsiniz.
 
 ```https
 https://fs.contoso.com
 ```
 
-WAP uygulamasının bir parçası olarak yayımlanacağından **fs** için DNS kaydınızı Web Uygulaması Ara Sunucusu'nun (WAP) genel IP adresine yönlendirmeniz gerekir.
+WAP uygulamasının bir parçası olarak yayımlanacağından **fs** için DNS kaydınızı Web Uygulaması Ara Sunucusu'nun (WAP) genel IP adresine yönlendirme.
 
 ## <a name="certificates"></a>Sertifikalar
 
@@ -77,7 +79,7 @@ Daha fazla bilgi için bkz. [Modify a Reporting Services Configuration File (Bir
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory Federasyon Hizmetleri (ADFS) Yapılandırması
 
-ADFS'yi ortamınızda bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu işlem, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+ADFS'yi ortamınızda bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu yapılandırma, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Bir uygulama grubu oluşturma
 
@@ -107,7 +109,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Android Uygulamaları için yalnızca şunlar gerekir:**  
+   **Android Uygulamaları için yalnızca aşağıdaki adımlar gerekir:**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS Uygulama Grubu Sihirbazı 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -149,7 +151,7 @@ OAuth kimlik doğrulamasından Windows kimlik doğrulamasına geçmek için prot
 
 Active Directory'deki WAP Sunucusu makine hesabında kısıtlanmış temsil yapılandırması gerçekleştirmemiz gerekir. Active Directory'ye yönelik haklara sahip değilseniz bir etki alanı yöneticisiyle birlikte çalışmanız gerekebilir.
 
-Kısıtlanmış temsil yapılandırması gerçekleştirmek için şunları yapmanız gerekir.
+Kısıtlanmış temsil yapılandırması gerçekleştirmek için aşağıdaki adımları uygulamanız gerekir.
 
 1. Active Directory araçlarının yüklü olduğu bir makinede **Active Directory Kullanıcıları ve Bilgisayarları**'nı başlatın.
 
@@ -196,10 +198,10 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | Parametre | Yorumlar |
 | --- | --- |
-| **ADFSRelyingPartyName** |Bu, ADFS'de Uygulama Grubu'nun parçası olarak oluşturduğunuz WEB API'si adıdır. |
-| **ExternalCertificateThumbprint** |Bu, dış kullanıcılar için kullanılacak sertifikadır. Bu sertifikanın mobil cihazlarda geçerli olması ve güvenilir bir sertifika yetkilisi tarafından verilmiş olması önemlidir. |
-| **BackendServerUrl** |Bu, WAP sunucusundan Rapor Sunucusu'na bağlanılmasını sağlayan URL'dir. WAP sunucusu bir DMZ ise bir tam etki alanı adı kullanmanız gerekebilir. Bu URL'yi WAP sunucusundaki web tarayıcısından açabileceğinizden emin olun. |
-| **BackendServerAuthenticationSPN** |Bu, Reporting Services yapılandırmasının parçası olarak oluşturduğunuz SPN'dir. |
+| **ADFSRelyingPartyName** |ADFS'de Uygulama Grubu'nun parçası olarak oluşturduğunuz WEB API'si adı. |
+| **ExternalCertificateThumbprint** |Dış kullanıcılar için kullanılacak sertifika. Sertifikanın mobil cihazlarda geçerli olması ve güvenilir bir sertifika yetkilisi tarafından verilmiş olması önemlidir. |
+| **BackendServerUrl** |WAP sunucusundan Rapor Sunucusu'na bağlanılmasını sağlayan URL. WAP sunucusu bir DMZ ise bir tam etki alanı adı kullanmanız gerekebilir. Bu URL'yi WAP sunucusundaki web tarayıcısından açabileceğinizden emin olun. |
+| **BackendServerAuthenticationSPN** |Bu, Reporting Services yapılandırmasının parçası olarak oluşturduğunuz SPN. |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>WAP Uygulaması için Tümleşik Kimlik Doğrulaması ayarlama
 
@@ -241,7 +243,7 @@ Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğru
 
 !["SSRS sunucusunda oturum açılamadı" hatası](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-[Fiddler](http://www.telerik.com/fiddler)'i mobil cihazlarınız için bir ara sunucu görevi görecek şekilde ayarlayarak isteğin ne ölçüde başarılı olduğunu görebilirsiniz. Telefonunuz için bir Fiddler ara sunucusu etkinleştirmek üzere Fiddler çalıştıran makinede [iOS ve Android için CertMaker](http://www.telerik.com/fiddler/add-ons) kurulumunu yapmanız gerekir. Bu, Fiddler için Telerik tarafından sağlanan bir eklentidir.
+[Fiddler](http://www.telerik.com/fiddler)'i mobil cihazlarınız için bir ara sunucu görevi görecek şekilde ayarlayarak isteğin ne ölçüde başarılı olduğunu görebilirsiniz. Telefonunuz için bir Fiddler ara sunucusu etkinleştirmek üzere Fiddler çalıştıran makinede [iOS ve Android için CertMaker](http://www.telerik.com/fiddler/add-ons) kurulumunu yapmanız gerekir. Eklenti, Fiddler için Telerik tarafından sağlanır.
 
 Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulaması veya ADFS sunucusu ile ilgili bir sertifika sorununuz olabilir. [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) gibi bir araç kullanarak sertifikaların geçerliliğini doğrulayabilirsiniz.
 

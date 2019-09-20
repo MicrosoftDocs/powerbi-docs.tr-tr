@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654425"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841276"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI raporlarındaki yeni filtre deneyimi
 
 Power BI'daki filtrelerin yeni işlevleri ve yeni bir tasarımı var. Yeni filtre deneyimine katıldığınızda Filtreler bölmesini raporun geri kalanı gibi görünecek biçimde biçimlendirebilirsiniz. Filtreleri kilitleyebilir, hatta gizleyebilirsiniz. Raporunuzu tasarlarken Görselleştirmeler bölmesinde artık eski Filtreler bölmesini görmeniz gerekmez. Tüm filtre düzenleme ve biçimlendirme işlemlerini tek bir Filtreler bölmesinde gerçekleştirirsiniz. 
 
-![Yeni filtre deneyimi](media/power-bi-report-filter/power-bi-filter-reading.png)
+![Yeni filtre deneyimi](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Bir rapor tasarımcısı olarak yeni Filtreler bölmesinde şunları yapabilirsiniz:
+Bir rapor tasarımcısı olarak yeni Filtreler bölmesinde yapabileceğiniz bazı görevler şunlardır:
 
 - Filtrenin uygulandığı alanları ekleyebilir veya kaldırabilirsiniz. 
 - Filtre durumunu değiştirebilirsiniz.
@@ -207,7 +207,7 @@ Artık tema dosyasıyla filtre bölmesinin varsayılan ayarlarını değiştireb
 
 ## <a name="sort-the-filter-pane"></a>Filtre bölmesini sıralama
 
-Özel sıralama işlevselliği, yeni filtre bölmesi deneyiminin bir parçasıdır. Rapor oluşturucuları filtreleri sürükleyip bırakarak istedikleri sırada yeniden düzenleyebilirler.
+Özel sıralama işlevselliği, yeni filtre bölmesi deneyiminin bir parçasıdır. Rapor oluşturucuları filtreleri sürükleyip bırakarak herhangi bir sırada yeniden düzenleyebilirler.
 
 ![Filtre sıralama düzenini yeniden ayarlama](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

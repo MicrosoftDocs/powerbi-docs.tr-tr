@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273606"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847747"
 ---
 DAX kullanarak oluşturabileceğiniz iki temel hesaplama vardır:
 
@@ -26,7 +26,7 @@ Aşağıdaki görüntüde, Power BI'da oluşturulmakta olan bir DAX formülü bu
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-Ayrıca tablo adını tamamen çıkarıp yalnızca sütun adını da kullanabilirsiniz ancak bu, net işlevlerin (ve sonuç olarak net bir DAX kodunun) yazılması açısından uygun bir yöntem değildir. Sütun adları her zaman köşeli ayraç içermelidir.
+Ayrıca tablo adını tamamen çıkarıp yalnızca sütun adını da kullanabilirsiniz ancak bu, net işlevlerin (ve sonuç olarak net bir DAX kodunun) yazılması açısından en uygun yöntem değildir. Sütun adları her zaman köşeli ayraç içermelidir.
 
 En iyi sonuçları almak için aşağıdaki yöntemlerin *her zaman* uygulanması gerekir:
 

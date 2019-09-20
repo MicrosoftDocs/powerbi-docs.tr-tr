@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391736"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903811"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *tasarımcıları* tarafından oluşturulur ve [*tüketicilerle* doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
@@ -30,7 +30,7 @@ Bir raporu açmanın birçok farklı yolu vardır. Burada, Giriş’ten açma ve
    ![Giriş sayfası](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Sizinle paylaşılmış olan bir raporu açma
-Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağlantıyı Power BI Giriş sayfanıza ekleyerek tek bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş’inizin **Benimle paylaşılan** bölümünde gösterilir.
+Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağlantıyı otomatik ekleyerek tek bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş’inizin **Benimle paylaşılan** bölümünde gösterilir.
 
 1. Power BI hizmetini açın (app.powerbi.com).
 
@@ -50,6 +50,12 @@ Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağ
 
    ![rapor sayfası sekmeleri](./media/end-user-report-open/power-bi-ytd.png)
 
+6. Sağ taraftaki **Filtreler** bölmesine dikkat edin. Bu rapor sayfasına veya raporun tamamına uygulanan filtreler burada görüntülenir.
+
+7. Bir rapor görseli üzerine gelindiğinde birkaç simge ve üç nokta (...) görünür. Belirli bir görsele uygulanan filtreleri görmek için filtre simgesini seçin. Burada, *Toplama dönemi ve bölgeye göre toplam birim sayısı* çizgi grafiği için filtre simgesini seçtik.
+
+   ![rapor sayfası sekmeleri](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. Şimdi rapor sayfasının tamamını görüyoruz. Sayfanın görüntülenmesini (yakınlaştırmasını) değiştirmek için sağ üst köşedeki Görünüm açılan menüsünü ve sonra da **Gerçek boyut**’u seçin.
 
    ![yakınlaştırmayı değiştirme](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,15 +65,20 @@ Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağ
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Bir uygulamanın parçası olan bir raporu açma
 İş arkadaşlarınızdan veya AppSource’tan uygulama aldıysanız, bunlar Giriş’inizde ve gezinti çubuğundaki **Uygulamalar** kapsayıcısında yer alır. [Uygulama](end-user-apps.md), panolardan ve raporlardan oluşan bir pakettir.
 
+### <a name="prerequisites"></a>Önkoşullar
+Takip etmek için Satış ve Pazarla uygulamasını indirin.
+1. Tarayıcınızda appsource.microsoft.com adresine gidin.
+1. "Satış ve Pazarlama" araması yapın ve **Microsoft örneği - Satış ve Pazarlama**'yı seçin.
+1. Uygulamayı Uygulama kapsayıcısına yüklemek için **Hemen al** > **Devam** > **Yükle**’yi seçin. 
+
+Uygulamayı uygulama kapsayıcınızdan veya Giriş sayfasından açabilirsiniz.
 1. Gezinti çubuğundan **Giriş**’i seçerek Giriş’e geri dönün.
 
 7. **Uygulamalarım** bölümünü görene kadar aşağı kaydırın.
 
-   ![Giriş sayfası](./media/end-user-report-open/power-bi-my-apps.png)
+   ![Giriş sayfası](./media/end-user-report-open/power-bi-app.png)
 
-8. Uygulamalardan birini seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano veya rapor ile açılır. Uygulamayı seçtiğinizde:
-    - rapor açılırsa başka bir işlem yapmanıza gerek yoktur.
-    - pano açılırsa aşağıdaki ***Bir raporu panodan açma*** bölümüne bakın.
+8. Yeni Satış ve pazarlama uygulamanızı seçerek açın. Uygulama *tasarımcısı* tarafından belirlenen seçeneklere bağlı olarak uygulama bir pano veya rapor ile açılır. Bu uygulama bir panoyu açar.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Bir raporu panodan açma
@@ -94,5 +105,6 @@ Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en 
 - ve daha fazlası
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Panoyu açma ve görüntüleme](end-user-dashboard-open.md)
+[Panoyu açma ve görüntüleme](end-user-dashboard-open.md)    
+[Rapor filtreleri](end-user-report-filter.md)
 

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 09/04/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef7e4f556832f1323043a80cf219678a16511c9e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532830"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70840989"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 
@@ -24,95 +24,84 @@ Bu makale Power BI hizmetindeki Rapor **Filtreleri** bölmesine bir bakış sunm
 
 Power BI'da verilere filtre uygulamanın birçok farklı yolu vardır. Filtreler hakkında daha fazla bilgi için bkz. [Power BI raporlarında filtreler ve vurgulama](../power-bi-reports-filters-and-highlighting.md).
 
-![Filtreler seçeneğini işaret eden bir okla birlikte tarayıcıdaki raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-browser-new2.png)
+![Filtreler seçeneğini işaret eden bir okla birlikte tarayıcıdaki raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-report.png)
 
 ## <a name="working-with-the-report-filters-pane"></a>Raporun Filtreler bölmesiyle çalışma
 
 Bir iş arkadaşı sizinle bir rapor paylaştığında **Filtreler** bölmesine bakmayı unutmayın. Bölme bazen raporun sağ kenarı boyunca katlanır. Genişletmek için raporu seçin.
 
-![Filtreler bölmesi genişletilmiş olarak raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-filter-pane.png)
+![Filtreler bölmesi genişletilmiş olarak raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-expand-filter-pane.png)
 
-**Filtreler** bölmesi, rapor *tasarımcısı* tarafından rapora eklenen filtreleri içerir. Sizin gibi *tüketiciler* mevcut filtrelerle etkileşebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtre ekleyemezsiniz. Örneğin yukarıdaki ekran görüntüsünde tasarımcı iki sayfa düzeyi filtre eklemiştir: **Segment** ve **Yıl**. Bu filtrelerle etkileşim kurabilir ve bunları değiştirebilirsiniz ancak üçüncü bir sayfa düzeyi filtresi ekleyemezsiniz.
+**Filtreler** bölmesi, rapor *tasarımcısı* tarafından rapora eklenen filtreleri içerir. Sizin gibi *tüketiciler* mevcut filtrelerle etkileşebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtre ekleyemezsiniz. Örneğin yukarıdaki ekran görüntüsünde tasarımcı üç sayfa düzeyi filtre eklemiştir: **Segment is All**, **Year is 2014** ve **Region is Central**. Bu filtrelerle etkileşim kurabilir ve bunları değiştirebilirsiniz ancak dördüncü bir sayfa düzeyi filtresi ekleyemezsiniz.
 
 Power BI hizmetinde raporlar, **Filtreler** bölümünde yaptığınız tüm değişiklikleri saklar. Hizmet, raporun mobil versiyonu aracılığıyla bu değişiklikleri taşır.
 
-**Filtreler** bölmesini tasarımcının varsayılan ayarlarına sıfırlamak için üstteki menü çubuğundan ![Varsayılana sıfırla seçeneğinin ekran görüntüsü.](media/end-user-report-filter/power-bi-reset.png) öğesini seçin.
+**Filtreler** bölmesini tasarımcının varsayılanlarına geri döndürmek için üstteki menü çubuğundan **Varsayılana sıfırla**'yı seçin.
+
+![Varsayılana sıfırla simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-reset-icon.png) 
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Bir rapor sayfasının tüm filtrelerini görüntüleme
 
-**Filtreler** bölmesinde, tasarımcının rapora eklediği tüm filtreler gösterilir. **Filtreler** bölmesi ayrıca filtreler hakkındaki bilgileri görüntüleyebileceğini ve filtrelerle etkileşimde bulunabileceğiniz alandır. Yaptığınız değişiklikleri kaydedebilir veya **Varsayılana sıfırla**’yı kullanarak özgün filtre ayarlarına dönebilirsiniz.
+**Filtreler** bölmesinde, tasarımcının rapora eklediği tüm filtreler gösterilir. **Filtreler** bölmesi ayrıca filtreler hakkındaki bilgileri görüntüleyebileceğini ve filtrelerle etkileşimde bulunabileceğiniz alandır. Yaptığınız değişiklikleri kaydedin veya **Varsayılana sıfırla**’yı kullanarak özgün filtre ayarlarına dönün.
 
-Kaydetmek istediğiniz değişiklikler varsa, kişisel bir yer işareti de oluşturabilirsiniz.  Daha fazla bilgi için bkz. [Yer işareti nedir?](end-user-bookmarks.md).
+Kaydetmek istediğiniz değişiklikler varsa, kişisel bir yer işareti de oluşturabilirsiniz. Daha fazla bilgi için bkz. [Yer işareti nedir?](end-user-bookmarks.md).
 
-**Filtreler** bölmesi birkaç türde rapor filtresi gösterir ve yönetir. Bu filtreler bir görsele, bir rapor sayfasına ve raporun tamamına uygulanabilir.
+**Filtreler** bölmesi birkaç türde rapor filtresi gösterir ve yönetir: rapor, rapor sayfası ve görsel.
 
-Bu örnekte, iki filtresi olan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Bu sayfadaki filtreler** başlığı altında yer alır. Ayrıca, raporun tamamı için bir **Tarih** filtresi mevcuttur.
+Bu örnekte, üç filtresi olan bir görsel seçtik. Rapor sayfasında da filtreler bulunur ve bunlar **Bu sayfadaki filtreler** başlığı altında yer alır. Ayrıca, raporun tamamı için bir **Tarih** filtresi mevcuttur.
 
-![Bir görselleştirme içeren ve ilgili filtreleri açıklama balonuna alınmış raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-all-filters2.png)
+![Bir görselleştirme içeren ve ilgili filtreleri açıklama balonuna alınmış raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-filters-pane.png)
 
-Bazı filtrelerin yanında **(Tümü)** ifadesi bulunur. **(Tümü)** , filtreye tüm değerlerin dahil edildiği anlamına gelir. Yukarıdaki ekran görüntüsünde **Segment(Tümü)** ifadesi, bu rapor sayfasının tüm ürün segmentleriyle ilgili verileri içerdiğini gösterir. **Bölge Batı** sayfa düzeyi filtresini seçerseniz rapor sayfası yalnızca Batı bölgesine ait verileri içerir.
+Bazı filtrelerin yanında **(Tümü)** ifadesi bulunur. **(Tümü)** , filtreye tüm değerlerin dahil edildiği anlamına gelir. Yukarıdaki ekran görüntüsünde **Segment(Tümü)** ifadesi, bu rapor sayfasının tüm ürün segmentleriyle ilgili verileri içerdiğini gösterir. 
 
 Bu raporu görüntüleyen tüm kullanıcılar filtrelerle etkileşime geçebilir.
 
 ### <a name="view-only-those-filters-applied-to-a-visual"></a>Yalnızca bir görsele uygulanmış filtreleri görüntüleme
 
-Belirli bir görsele uygulanan filtrelere yakından bakmak için fareyle görselin üzerine gelerek filtre simgesini ortaya çıkarın ![Filtre simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-filter-icon.png). Bir görseli etkileyen tüm filtreleri, dilimleyicileri, vb. içeren açılan listeyi görüntülemek için bu filtre simgesini seçin. Açılır pencerede filtreler, **Filtreler** bölmesinde gösterilen filtrelerle aynıdır.
+Belirli bir görsele uygulanan filtrelere yakından bakmak için fareyle görselin üzerine gelerek filtre simgesini ortaya çıkarın ![Filtre simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-filter-icon.png). Bir görseli etkileyen tüm filtreleri, dilimleyicileri, vb. içeren açılan listeyi görüntülemek için bu filtre simgesini seçin. Açılır penceredeki **Filtreler** bölmesinde gösterilen filtreleri ve ayrıca seçili görseli etkileyen ek filtreleri içerir.
 
-![Filtrelerin Filtreler bölmesindeki yerini işaret eden oklarla birlikte filtre listesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-hover-visual-filter.png)
+![Filtrelerin Filtreler bölmesindeki yerini işaret eden oklarla birlikte filtre listesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-hover-filters.png)
 
 Bu görünümde gösterilebilen filtre türleri şunlardır:
 
 - Temel filtreler
-
 - Dilimleyiciler
-
 - Çapraz vurgulama
-
 - Çapraz filtreleme
-
 - Gelişmiş filtreler
-
 - Üst N filtreler
-
 - Göreli Tarih filtreleri
-
 - Eşitleme dilimleyicileri
-
 - Ekleme/Dışlama filtreleri
-
 - URL aracılığıyla geçirilen filtreler
 
-Aşağıdaki örnekte:
+Bu örnekte:
+1. **Included** değeri, görsele çapraz filtre uygulandığını belirtir. Bunun anlamı, Utah, Colorado ve Texas eyaletlerinin bu rapor sayfasındaki diğer görsellerden birinde seçilmiş olmasıdır. Bu örnekte haritadır. Bu üç eyaletin seçilmesi, diğer tüm eyaletlere ilişkin verilerin seçili çubuk grafikte gösterilmesini engellemiştir.  
 
-1. Sütun grafiğin çapraz filtreli olduğunu görebiliriz.
+1. **Date**, bu rapordaki tüm sayfalara uygulanan bir filtredir ve
 
-1. **Dahil Edilen** seçeneği, çapraz filtrenin **Segment** için olduğu ve üç tane dahil edildiği anlamına gelir.
+1. **Region is Central** ile **Year is 2014** bu rapor sayfasına uygulanmış filtrelerdir ve
 
-1. **Çeyrek** için bir dilimleyici uygulanmıştır.
+4. **Manufacturer is VanArsdel, Natura, Aliqui, or Pirum** bu görsele uygulanmış bir filtredir.
 
-1. **Bölge** bu rapor sayfasına uygulanmış bir filtredir ve
-
-1. **isVanArsdel** ile **Yıl**, bu görsele uygulanmış filtrelerdir.
-
-![Numaraları yukarıdaki numaralı liste ile çakışan filtre listesi ile birlikte rapor ve filtrelerinin ekran görüntüsü.](media/end-user-report-filter/power-bi-visual-pop-up.png)
 
 ### <a name="search-in-a-filter"></a>Filtrede arama yapma
 
 Bazen bir filtre uzun bir değer listesine sahip olabilir. İstediğiniz değeri bulup seçmek için arama kutusunu kullanın.
 
-![Bir filtrede arama yapma işleminin ekran görüntüsü.](media/end-user-report-filter/power-bi-fiter-search.png)
+![Bir filtrede arama yapma işleminin ekran görüntüsü.](media/end-user-report-filter/power-bi-search.png)
 
 ### <a name="display-filter-details"></a>Filtre ayrıntılarını görüntüleme
 
 Bir filtreyi anlamak için mevcut değerlere ve sayılara göz atın.  Filtre adının üzerine gelip yanındaki oku seçerek ayrıntılarını görüntüleyin.
   
-![Batı bölgesini seçilmiş olarak gösteren bir filtrenin ekran görüntüsü.](media/end-user-report-filter/power-bi-expand-filter.png)
+![Batı bölgesini seçilmiş olarak gösteren bir filtrenin ekran görüntüsü.](media/end-user-report-filter/power-bi-filter-expand.png)
 
 ### <a name="change-filter-selections"></a>Filtre seçimlerini değiştirme
 
-Veri içgörüleri aramanın bir yolu, filtrelerle etkileşimde bulunmaktır. Filtre seçimlerini, alan adının yanındaki açılır oku kullanarak değiştirebilirsiniz.  Filtreye ve Power BI’ın filtrelediği verilerin türüne bağlı olarak, listeden basit seçimler ile tarih veya sayı aralığı belirlemeye varan seçenekleriniz mevcut olacaktır. Aşağıdaki gelişmiş filtrede, ağaç haritası üzerindeki **Toplam Birim YTD** filtresini 2.000 ile 3.000 arasında olacak şekilde değiştirdik. Bu değişikliğin ağaç haritasından Prirum’u kaldırdığına dikkat edin.
+Veri içgörüleri aramanın bir yolu, filtrelerle etkileşimde bulunmaktır. Filtre seçimlerini, alan adının yanındaki açılır oku kullanarak değiştirebilirsiniz.  Filtreye ve Power BI’ın filtrelediği verilerin türüne bağlı olarak, listeden basit seçimler ile tarih veya sayı aralığı belirlemeye varan seçenekleriniz mevcut olacaktır. Aşağıdaki gelişmiş filtrede, ağaç haritası üzerindeki **Toplam Birim YTD** filtresini 2.000 ile 3.000 arasında olacak şekilde değiştirdik. Bu değişikliğin ağaç haritasından Pirum’u kaldırdığına dikkat edin.
   
-![Fashions Direct’in seçili olduğu bir rapor ve filtrelerinin ekran görüntüsü.](media/end-user-report-filter/power-bi-filter-treemap.png)
+![Ağaç haritası görselinin seçili olduğu bir rapor ve filtrelerinin ekran görüntüsü.](media/end-user-report-filter/power-bi-treemap-filters.png)
 
 > [!TIP]
 > Aynı anda birden fazla filtre değeri seçmek için CTRL tuşunu basılı tutun. Çoğu filtre çoklu seçimi destekler.
@@ -121,11 +110,13 @@ Veri içgörüleri aramanın bir yolu, filtrelerle etkileşimde bulunmaktır. Fi
 
 Filtrelerde yaptığınız tüm değişiklikleri geri almak isterseniz üstteki menü çubuğundan **Varsayılana sıfırla**’yı seçin.  Bu seçim, filtreleri rapor tasarımcısı tarafından ayarlandığı özgün durumuna geri döndürür.
 
-![Varsayılana sıfırla seçeneğinin ekran görüntüsü.](media/end-user-report-filter/power-bi-reset.png)
+![Varsayılana sıfırla seçeneğinin ekran görüntüsü.](media/end-user-report-filter/power-bi-reset-icon.png)
 
 ### <a name="clear-a-filter"></a>Bir filtreyi temizleme
 
-**(Tümü)** olarak ayarlamak istediğiniz yalnızca bir filtre varsa, filtre adının yanındaki silgi simgesini ![Silgi simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-eraser-icon.png) seçerek seçimi kaldırın.
+Bir filtreyi (Tümü) olarak sıfırlamak için, filtre adının yanındaki silgi simgesini seçerek temizleyin.
+
+![Silgi simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-eraser.png)
   
 <!--  too much detail for consumers
 

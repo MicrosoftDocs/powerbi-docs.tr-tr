@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534743"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903906"
 ---
-1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Uygulama çalışma alanı oluşturma**'yı seçin. 
+1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Çalışma alanı oluştur**'u seçin. 
    
-     ![Uygulama çalışma alanı oluştur](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Çalışma alanı oluşturma](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Buraya iş arkadaşlarınızla birlikte üzerinde işbirliği yapacağınız içerikleri eklersiniz.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534743"
    
      ![Düzenleme veya yalnızca görüntüleme ayarı](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Uygulama çalışma alanına yalnızca içeriği düzenlemesini istediğiniz kişileri ekleyin. Kişiler içeriği yalnızca görüntüleyecekse onları çalışma alanına eklemeyin. Bu kişileri uygulamayı yayımlarken ekleyebilirsiniz.
+     Çalışma alanına yalnızca içeriği düzenlemesini istediğiniz kişileri ekleyin. Kişiler içeriği yalnızca görüntüleyecekse onları çalışma alanına eklemeyin. Bu kişileri uygulamayı yayımlarken ekleyebilirsiniz.
 
 5. Çalışma alanı erişimi vermek istediğiniz kişilerin e-posta adreslerini girip **Ekle**'yi seçin. Grup takma adlarını ekleyemezsiniz, yalnızca kişilere izin verilir.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534743"
 
 Power BI çalışma alanını oluşturur ve açar. Üyesi olduğunuz çalışma alanlarının listesinde görünür. Yönetici olduğunuz için üç nokta (…) simgesini seçerek geri gidebilir, değişiklik yapabilir, yeni üye ekleyebilir veya üye izinlerini değiştirebilirsiniz.
 
-![Çalışma alanını düzenleme](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Çalışma alanını düzenleme](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

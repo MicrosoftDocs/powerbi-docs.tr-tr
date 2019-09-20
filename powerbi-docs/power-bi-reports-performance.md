@@ -1,8 +1,8 @@
 ---
 title: Performans açısından en iyi Power BI yöntemleri
 description: Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sağlanır
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665333"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841489"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans açısından en iyi Power BI yöntemleri
 
 Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sunulur.  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>Uygun bir depolama modu seçin: İçeri aktarma, DirectQuery
+
+Çoğu durumda İçeri aktarma modu, sütunlu depolama kullanılarak sıkıştırılan, yerel olarak önbelleğe alınmış bellek verilerini kullanarak en yüksek hızı sunan en iyi seçenektir. İçeri aktarma modu tam DAX özelliğine de izin verir. Kaynak veri hacmi Power BI kapasitenize sığamayacak kadar büyükse DirectQuery (ve Bileşik modelleri) düşünün. DirectQuery ayrıca bir rapor her yüklendiğinde kaynaktan en son verileri almanız gerektiğinde faydalıdır. Bu gereksinimlere sahip değilseniz ve kullanıcıların yalnızca günde birkaç kez veya daha az (örneğin, bir kurumsal veri ambarından) güncelleştirilmiş verileri görmesi gerekiyorsa, İçeri aktarma yöntemi daha fazla önerilir. DirectQuery modunda, kullanıcılar, kaynaktan tam olarak aynı verileri aldıklarını fark etmeden raporu yenilemeyi deneyebilir.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Filtreleri kullanarak rapordaki görsel öğelerini yalnızca gerekli öğelerle sınırlayın 
 
@@ -57,7 +61,7 @@ DirectQuery ve canlı bağlantı üzerinde oluşturulmuş Power BI raporlarını
 ## <a name="directquery-best-practices"></a>En iyi DirectQuery yöntemleri
 
 Aşağıdaki bölümde, DirectQuery aracılığıyla bağlanmak için genel olarak en iyi yöntemler açıklanmıştır.
-  
+
 ### <a name="db-design-guidance"></a>Veritabanı tasarım kılavuzu
 
 - Hesaplanan sütunları ve ölçüleri mümkün olduğunca kaynağa doğru itin. Kaynağa ne kadar yakın olursa performansın yüksek olma olasılığı da o kadar yüksektir.

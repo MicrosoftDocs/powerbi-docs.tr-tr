@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654746"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841297"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modu
 
@@ -42,6 +42,9 @@ Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikte
 * **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md).
 
 * **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Depolama modu bu makalede ayrıntılı olarak açıklanmaktadır.
+
+> [!NOTE]
+> **Model** görünümünü, ilgilendiğiniz tabloyu seçerek ve sonra **Özellikler** bölmesinin **Gelişmiş** bölümündeki **Depolama modu** değerini görüntüleyerek geçerli depolama modunu görebilirsiniz.
 
 ## <a name="use-the-storage-mode-property"></a>Depolama modu özelliğini kullanma
 
