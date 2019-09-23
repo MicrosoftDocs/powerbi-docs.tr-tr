@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/25/2019
 ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61380201"
@@ -46,7 +46,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
                     PrivacyLevelEnum.Private);
     ```
 
-4. 1. adımdaki ağ geçidi ile veri kaynağı kimliğini ve 4. adımdaki kimlik bilgisi ayrıntılarını kullanarak, kimlik bilgilerini ayarlamak için [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
+4. 1\. adımdaki ağ geçidi ile veri kaynağı kimliğini ve 4. adımdaki kimlik bilgisi ayrıntılarını kullanarak, kimlik bilgilerini ayarlamak için [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
