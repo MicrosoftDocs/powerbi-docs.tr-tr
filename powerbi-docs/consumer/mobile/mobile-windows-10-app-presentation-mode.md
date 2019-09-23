@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338272"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
@@ -43,7 +43,7 @@ Araç çubuğundan aşağıdaki eylemleri gerçekleştirebilirsiniz:
 1. Önceki sayfanıza gitmek için geri simgesine ![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) dokunun. Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır ve raporunuzu veya panonuzu içeren klasöre gidebilmeniz sağlanır.
 2. Mürekkep simgesi ![mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken bir renk seçmenizi sağlar. 
 3. Sunmakta olduğunuz rapor sayfasını değiştirmek için sayfalar simgesini ![sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) kullanın.
-4. Oynatma simgesine  ![Oynatma simgesine](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) Eylem çubuğu ve burada uygulama döndürme rapor sayfaları arasında otomatik olarak tamamlar slayt gösterisi, başlangıç başlar. 
+4. Oynat simgesi,  ![Oynat simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) eylem çubuğunu gizler ve slayt gösterisini başlatır. Bu işlem esnasında, uygulama otomatik olarak rapor sayfaları arasında geçiş yapar. 
 5. Diğer panoları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
 6. Sunu modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun.
 
