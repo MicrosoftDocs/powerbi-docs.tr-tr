@@ -12,14 +12,14 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608450"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
-Power BI *tüketiciler* çok panoları görüntüleme zaman ayırın. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI tüketicileri de bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.
+Power BI *tüketicileri*, pano görüntülemeye oldukça fazla vakit harcar. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI tüketicileri de bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.
 
 ![pano](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
@@ -32,7 +32,7 @@ Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power B
 
 |              |         |
 |------------|--------------------------------|
-|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinde birçok konumlardan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>panoyu tanımladıktan sonra açmak kolaydır. Seçtiğinizde pano <br>Power BI tuvalinizi doldurur. |
+|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>panoyu tanımladıktan sonra açmak kolaydır. Seçtiğinizde pano <br>Power BI tuvalinizi doldurur. |
 |                    |          |
 
 

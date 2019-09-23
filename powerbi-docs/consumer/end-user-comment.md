@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522787"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073546"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
 Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla bir pano ya da rapor hakkında bir konuşma başlatın. **Açıklama** özelliği, *tüketicinin* diğer kişilerle işbirliği yaparak çalışma yollarından yalnızca biridir. 
@@ -25,16 +25,18 @@ Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla bir pano ya da rapo
 ![açıklamalar videosu](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>Açıklamalar özelliğini kullanma
-Açıklamalar tüm bir panoya, bir panodaki ayrı ayrı görsellere, bir rapor sayfasına ve bir rapor sayfasında ayrı ayrı görsellere eklenebilir. Genel bir açıklama veya belirli iş arkadaşlarınızı hedefleyen bir açıklama ekleyin.  
+Panonun tamamına, panodaki ayrı ayrı görsellere, rapor sayfasına, sayfalandırılmış rapora ve rapor sayfasında yer alan ayrı ayrı görsellere açıklama ekleyebilirsiniz. Genel bir açıklama veya belirli iş arkadaşlarınızı hedefleyen bir açıklama ekleyin.  
 
 Rapora bir açıklama eklediğinizde Power BI geçerli filtre ve dilimleyici değerlerini yakalar. Bu, bir açıklamayı seçtiğinizde veya yanıtladığınızda, rapor sayfası veya rapor görselinin açıklama ilk eklendiğinde etkin olan filtre ve dilimleyici seçimlerini göstermek için değişebildiği anlamına gelir.  
 
 ![filtre ile rapor videosu](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-Bu neden önemlidir? Bir iş arkadaşınızın ekip ile paylaşmak istediği ilginç bir içgörüyü gösteren bir filtre uyguladığını varsayalım. Bu filtre seçili olmadığında açıklama anlamlı olmayabilir. 
+Bu neden önemlidir? Bir iş arkadaşınızın ekip ile paylaşmak istediği ilginç bir içgörüyü gösteren bir filtre uyguladığını varsayalım. Bu filtre seçili olmadığında açıklama anlamlı olmayabilir.
+
+Sayfalandırılmış rapor kullanıyorsanız, yalnızca raporunuz hakkında genel bir açıklama ekleyebilirsiniz.  Ayrı ayrı rapor görsellerine açıklama ekleme desteği sunulmaz.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Panoya veya rapora genel bir açıklama ekleme
-Bir panoya veya rapora açıklama ekleme işlemi benzerdir. Bu örnekte pano seçeneğini kullanıyoruz. 
+Bir panoya veya rapora açıklama ekleme işlemi benzerdir.  Bu örnekte pano seçeneğini kullanıyoruz. 
 
 1. Bir Power BI panosunu veya raporunu açın ve **Açıklamalar** simgesini seçin. Bu Açıklamalar iletişim kutusunu açar.
 

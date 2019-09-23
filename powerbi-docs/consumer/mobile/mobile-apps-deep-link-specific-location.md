@@ -10,107 +10,107 @@ ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "64906523"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
-Bağlantıları, doğrudan Power bı'da belirli öğelere erişmek için kullanabilirsiniz: Raporu, Pano ve kutucuk.
+Power BI’da bulunan belirli öğelere doğrudan ulaşmak için bağlantıları kullanabilirsiniz: Rapor, Pano ve Kutucuk.
 
-Power BI mobilde bağlantıları kullanarak için çoğunlukla iki senaryo vardır: 
+Power BI Mobil’de bağlantıları kullanmak için iki temel senaryo bulunur: 
 
-* Power BI'dan açmak için **uygulama dışında**ve land belirli içeriğe (rapor/Pano/uygulama). Power BI mobil başka bir uygulamadan açmak istediğinizde bu genellikle bir tümleştirme, senaryodur. 
-* İçin **gidin** Power BI içinde. Bu durum, genellikle Power BI'da özel bir gezinti oluşturmak istediğiniz durumdur.
+* Power BI’ı **uygulamanın dışından** açmak ve belirli içeriklere (raporlar/panolar/uygulamalar) erişmek için. Bu, genellikle Power BI Mobil’i farklı bir uygulamadan açmayı hedeflediğiniz bir tümleştirme senaryosudur. 
+* Power BI’da **gezinmek** için. Bu, genellikle Power BI’da özel bir gezinti oluşturmayı hedeflediğiniz durumlar içindir.
 
 
-## <a name="use-links-from-outside-of-power-bi"></a>Power BI dışındaki bağlantılarını kullanın
-Power BI uygulaması dışında bir bağlantıdan kullandığınızda, uygulama tarafından açılacak emin olmanız gerekir ve cihazın'i yüklemek için kullanıcı sunmak için uygulama yüklü değil. Tam olarak desteklemek için özel bağlantı biçimi oluşturduk. Bu bağlantı biçimi cihazı bağlantıyı açmak için uygulamayı kullanan ve uygulamayı cihazda yüklü değilse, kullanıcıyı almak için depoya sağlayacağı emin olun.
+## <a name="use-links-from-outside-of-power-bi"></a>Bağlantıları Power BI’ın dışından kullanma
+Bağlantıyı Power BI uygulamasının dışından bir kullandığınızda uygulamanın bunu açabildiğinden emin olmanız gerekir. Uygulama cihazda yüklü değilse kullanıcıya yüklemesini önerin. Tam olarak bunu desteklemesi için özel bir bağlantı biçimi oluşturduk. Bu bağlantı biçimi, cihazın bağlantıyı açmak için uygulamayı kullandığından emin olur ve uygulama cihazda yüklü değilse, kullanıcıya mağazaya gidip bunu edinmesini önerir.
 
-Bağlantıyı aşağıdaki ile başlamalıdır  
+Bağlantı şununla başlamalıdır:  
 ```html
 https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> İçeriğinizi Government, Çin, vb. gibi özel bir veri merkezinde barındırılıyorsa. Bağlantıyı sağ Power BI adresiyle gibi başlamalıdır `app.powerbigov.us` veya `app.powerbi.cn`.   
+> İçeriğiniz Kamu, Çin vb. özel bir veri merkezinde barındırılıyorsa Bağlantı, `app.powerbigov.us` veya `app.powerbi.cn` gibi doğru Power BI adresiyle başlamalıdır.   
 >
 
 
-**Sorgu PARAMS** şunlardır:
-* **Eylem** (zorunlu) OpenApp = / OpenDashboard / OpenTile / RaporAç
-* **AppID** bir rapora veya bir uygulamanın parçası olan bir panoyu açmak isteyip istemediğiniz = 
-* **groupObjectId** raporu veya çalışma alanı (ancak çalışma Alanım değil) parçası olan bir panoyu açmak isteyip istemediğiniz =
-* **dashboardObjectId** Pano nesnesi Kimliğini (eylem OpenDashboard veya OpenTile ise) =
-* **reportObjectId** rapor nesnesi Kimliğini (eylem RaporAç ise) =
-* **tileObjectId** kutucuk nesne kimliği (eylem OpenTile ise) =
-* **reportPage** (eylem RaporAç ise), belirli bir rapor bölümü açmak isteyip istemediğiniz =
-* **ctid** = öğesi Kuruluş Kimliği (B2B senaryo için geçerli. Öğesi, kullanıcının bir kuruluşa aitse bu atlanmış olabilir).
+**SORGU PARAMETRELERİ** şunlardır:
+* **action** (zorunlu) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = bir uygulamanın parçası olan raporu veya panoyu açmak istiyorsanız 
+* **groupObjectId** = çalışma alanının (“çalışma alanım” dışında) parçası olan bir raporu veya panoyu açmak istiyorsanız
+* **dashboardObjectId** = pano nesnesi kimliği (eylem OpenDashboard veya OpenTile olduğunda)
+* **reportObjectId** = rapor nesnesi kimliği (eylem OpenReport olduğunda)
+* **tileObjectId** = kutucuk nesnesi kimliği (eylem OpenTile olduğunda)
+* **reportPage** = belirli bir rapor bölümünü açmak isterseniz (eylem OpenReport olduğunda)
+* **ctid** = öğenin kuruluş kimliği (B2B senaryosuna yöneliktir. Öğe, kullanıcının kuruluşuna aitse bu atlanabilir).
 
 **Örnekler:**
 
-* Açık uygulama bağlantısı 
+* Uygulama bağlantısını açma 
   ```html
   https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
   ```
 
-* Bir uygulamanın parçası olan panoyu Aç 
+* Bir uygulamanın parçası olan panoyu açma 
   ```html
   https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
   ```
 
-* Bir çalışma alanının parçası olan raporu açın
+* Bir çalışma alanının parçası olan raporu açma
   ```html
   https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
   ```
 
-### <a name="how-to-get-the-right-link-format"></a>Doğru bağlantı biçimi alma
+### <a name="how-to-get-the-right-link-format"></a>Doğru bağlantı biçimini alma
 
-#### <a name="links-of-apps-and-items-in-app"></a>Uygulamaları ve uygulama öğelerinde bağlantıları
+#### <a name="links-of-apps-and-items-in-app"></a>Uygulamadaki uygulama ve öğelerin bağlantıları
 
-İçin **uygulamalar ve raporlar ve bir uygulamanın parçası olan Pano**, uygulama çalışma alanına gidin ve "Uygulamayı güncelleştir" bağlantısını almak için en kolay yolu olan. Bu "Yayımla uygulama" deneyimi açar ve erişim sekmede bulursunuz bir **bağlantıları** bölümü. Bölümü ve uygulama listesi görürsünüz ve tüm içeriğini, bağlantıları genişleterek bunları doğrudan erişmek için kullanılabilir.
+**Bir uygulamanın parçası olan uygulama, rapor ve panolar** için bağlantıyı almanın en kolay yolu, uygulama çalışma alanına gidip “Uygulamayı güncelleştir” seçeneğini belirlemektir. Bu, “Uygulamayı yayımlama” deneyimini açar. Erişim sekmesinde, **Bağlantılar** bölümü bulunur. Bu bölümü genişlettiğinizde, öğelere doğrudan erişmek için kullanılabilen uygulama ve tüm içerik bağlantılarının listesini görebilirsiniz.
 
-![Power BI Web'de yayımlama uygulama bağlantıları ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
+![Power BI uygulama yayımlama bağlantıları ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-#### <a name="links-of-items-not-in-app"></a>Bağlantılar öğeleri app içinde değil 
+#### <a name="links-of-items-not-in-app"></a>Uygulamada bulunmayan öğelerin bağlantıları 
 
-Raporlar ve bir uygulamanın parçası olmayan panolar için kimlikleri öğesi URL'den çıkarma gerekir.
+Bir uygulamanın parçası olmayan rapor ve panolar için, öğe URL’sinden kimlikleri ayıklamanız gerekir.
 
-Örneğin, 36 karakterlik bulmak için **Pano** nesne kimliği, Power BI hizmetinde konusu panoya gidin 
+Örneğin, 36 karakterden oluşan **pano** nesnesi kimliğini bulmak için Power BI hizmetinde söz konusu panoya gidin 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
 ```
 
-36 karakterden oluşan bulmak için **rapor** nesne kimliği, Power BI hizmetinde konusu rapora gidin.
-Bu rapor "Çalışma Alanım" den örneğidir
+36 karakterden oluşan **rapor** nesnesi kimliğini bulmak için Power BI hizmetindeki söz konusu rapora gidin.
+Bu, “Çalışma Alanım” bölümündeki raporun bir örneğidir
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-Yukarıdaki URL'yi de belirli bir rapor sayfası içeren **"ReportSection3"** .
+Yukarıdaki URL, **“ReportSection3”** adlı özel rapor sayfasını da içerir.
 
-Bir rapor örneği (değil çalışma Alanım) bir çalışma alanından budur.
+Bu, çalışma alanında (Çalışma Alanım değildir) bulunan bir raporun örneğidir
 
 ```html
 https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
 ```
 
-## <a name="use-links-inside-power-bi"></a>Power BI içinde bağlantıları kullanın
+## <a name="use-links-inside-power-bi"></a>Bağlantıları Power BI’ın içinden kullanma
 
-Bağlantılarını Power BI mobil uygulamalarında Power BI hizmetinde olduğu gibi çalışmaktadır.
+Power BI içindeki bağlantılar, mobil uygulamalarda Power Hizmeti’nde çalıştıkları gibi çalışır.
 
-Başka bir Power BI öğesine işaret eden raporunuza bağlantı eklemek istiyorsanız, o öğe URL'si yalnızca tarayıcınızın adres çubuğundan kopyalayabilirsiniz. Daha fazla bilgi edinin [bir rapordaki metin kutusuna köprü ekleme](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Raporunuza, farklı bir Power BI öğesine işaret eden bağlantı eklemek istiyorsanız, tarayıcı adres çubuğundan bu öğe URL’sini kopyalayabilirsiniz. [Bir rapordaki metin kutusuna köprü ekleme](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box) hakkında daha fazla bilgi edinin.
 
-## <a name="use-report-url-with-filter"></a>Rapor URL'si ile filtre kullanın
-Power BI hizmeti ile aynı, Power BI mobil uygulamaları, ayrıca bir filtre query param içeren rapor URL'si destekler. Power BI mobil uygulamasında bir rapor açın ve belirli bir durum için filtre. Örneğin, bu URL'yi satış raporu açar ve bölgeye göre filtrele
+## <a name="use-report-url-with-filter"></a>Filtre ile rapor URL’si kullanma
+Power BI hizmetinde olduğu gibi, Power BI Mobil uygulamaları da filtre sorgu parametresi içeren rapor URL’lerini destekler. Raporu Power BI Mobil uygulamasında açabilir ve belirli bir durum için filtreleyebilirsiniz. Örneğin, bu URL, Satış raporunu açıp Bölgeye göre filtreler
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-Daha fazla bilgi [query param filtrelemek için yapı raporları](https://docs.microsoft.com/power-bi/service-url-filters).
+[Raporları filtrelemek için sorgu parametreleri oluşturma](https://docs.microsoft.com/power-bi/service-url-filters) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 

@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608341"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panoların Power BI hizmeti tüketicileri için anlamı
@@ -24,7 +24,7 @@ Power BI ***panosu***, görselleştirmeler kullanarak bir hikaye anlatan ve gene
 
 ![pano](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Panoda gördüğünüz görselleştirmeler adlı *kutucukları* ve *sabitlenmiş* raporu panoya *tasarımcıları*. Çoğu durumda, bir kutucuğu seçtiğinizde rapor sayfasına görselleştirmeyi oluşturulduğu açılır. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](end-user-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
+Panoda gördüğünüz görselleştirmeler, *kutucuk* olarak adlandırılır ve rapor *tasarımcıları* tarafından panoya *sabitlenir*. Çoğu durumda bir kutucuğu seçtiğinizde görselleştirmenin oluşturulduğu rapor sayfasına gidersiniz. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](end-user-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
 
 > [!NOTE]
 > Panolar [mobil cihazlarda görüntülenebilir ve paylaşılabilir](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ Panodaki görselleştirmeler raporlardan gelir ve her rapor bir veri kümesini t
 ## <a name="advantages-of-dashboards"></a>Panoların avantajları
 Panolar işlerinizi izlemek, yanıtlar aramak ve en önemli ölçümlerinizi bir bakışta görmek için harikadır. Panolardaki görselleştirmeler, bir veya daha fazla temel alınan veri kümesinden ve bağlantılı rapordan oluşabilir. Panoda şirket içi ve bulut verileri bir arada kullanılabilir ve verilerin konumundan bağımsız olarak tümleşik bir görünüm oluşturulabilir.
 
-Bir Pano güzel bir resim değil; etkileşimli ve temel alınan veriler değiştikçe kutucuklar da güncelleştirilir.
+Panolar yalnızca güzel görünen resimlerden ibaret değildir. Panolar etkileşimlidir ve temel alınan veriler değiştikçe kutucuklar da güncelleştirilir.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Power BI ***kullanıcıları*** için panolarla raporları karşılaştırma
 Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarla karıştırılır. Ama Power BI *kullanıcıları* açısından bazı önemli farklılıklar bulunur.

@@ -1,6 +1,6 @@
 ---
 title: Power BI hizmetinden yazdırma
-description: Power BI hizmetinden, Pano, kutucuk veya rapor sayfasını yazdırma.
+description: Power BI hizmetinden bir panoyu, kutucuğu veya rapor sayfasını yazdırma.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -13,21 +13,21 @@ ms.date: 05/13/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608563"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
-Power BI hizmetinden bir panonun tamamını, bir Pano kutucuğunu, bir rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
+Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
 
    > [!NOTE]
    > Göreceğiniz yazdırma iletişim kutusu, kullandığınız tarayıcıya göre değişir.
    > 
 ## <a name="print-a-dashboard"></a>Pano yazdırma
 1. Yazdırmak istediğiniz panoyu açın.
-2. Üst sol üst köşedeki dışarı aktarma seçip **bu sayfayı yazdırmanız**.
+2. Sol üst köşede Dışarı Aktar’ı seçip **Bu sayfayı yazdır** seçeneğini belirleyin.
    
     ![Panoyu yazdır seçeneği](./media/end-user-print/power-bi-dashboard-print.png)
 3. Tarayıcınızın Yazdır penceresi açılır. Ayarları ve yazdırma hedefini seçip **Yazdır** seçeneğini belirleyin.
@@ -37,8 +37,8 @@ Power BI hizmetinden bir panonun tamamını, bir Pano kutucuğunu, bir rapor say
     ![yazdır iletişim kutusu](./media/end-user-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Pano kutucuğu yazdırma
-1. Panoda açın [tam ekran modu](end-user-focus.md) tam ekran simgesini seçerek ![tam ekran simgesi](./media/end-user-print/power-bi-full-screen-icon.png) üst menü çubuğundan.
-3. [Kutucuğu odak modunda açmak](end-user-focus.md) üç nokta (...) açığa çıkarmak için vurgulama ve seçerek **odak modunda Aç** veya odak simgesini ![odak simgesi](./media/end-user-print/power-bi-focus-icon.png).
+1. Üst menü çubuğundan tam ekran simgesini ![tam ekran simgesi](./media/end-user-print/power-bi-full-screen-icon.png) seçerek panoyu [tam ekran modunda](end-user-focus.md) açın.
+3. Üç noktayı (...) göstermek için imlecinizi kutucuğun üzerine getirip **Odak modunda aç** seçeneğini veya odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçerek [Kutucuğu Odak modunda açın](end-user-focus.md).
    
     ![üç nokta menüsü](./media/end-user-print/power-bi-menu-options.png)
 4. Seçenekler menüsünün gösterilmesi için kutucuğun üzerine gelin.
@@ -50,7 +50,7 @@ Power BI hizmetinden bir panonun tamamını, bir Pano kutucuğunu, bir rapor say
 ## <a name="print-a-report-page"></a>Rapor sayfası yazdırma
 Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 
-1. Seçin ve raporu açın **dışarı** > **yazdırma** geçerli rapor sayfasını yazdırma.
+1. Geçerli rapor sayfasını yazdırmak için raporu açıp **Dışarı aktar** > **Yazdır** seçeneğini belirleyin.
    
     ![Power BI Dosya menüsü](./media/end-user-print/power-bi-report-print.png)
 3. Tarayıcınızın Yazdır penceresi açılır.
@@ -60,7 +60,7 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 ## <a name="print-a-report-visual"></a>Rapor görseli yazdırma
 1. [Görseli Odak modunda açmak](end-user-focus.md) için kutucuğun üzerine gelin ve sağ üst köşedeki Odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçin.
 
-2. Sol üst köşesinden seçin **dışarı** > **yazdırma** görsel yazdırmak için.
+2. Görseli yazdırmak için sol üst köşedeki **Dışarı aktar** > **Yazdır** seçeneğini belirleyin.
 
     ![Power BI Dosya menüsü](./media/end-user-print/power-bi-report-print.png)
 
@@ -75,7 +75,7 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 * S: **Yazdır** seçeneğini belirlediğimde görüntülediğim ekran burada gösterilen ile aynı değil.    
 * Y: Yazdır ekranları, tarayıcı ve yazılım sürümüne göre değişiklik gösterir.
 * S: Çıktım doğru ölçeklendirilmemiş.  Panom sayfaya sığmıyor. Ölçeklendirme ve yönlendirme ile ilgili diğer sorular.    
-* Y: Power BI hizmetinde göründüğü gibi yazdırılan kopyanın içeriğin tam olarak aynı olacağını garanti edemez. Ölçeklendirme, kenar boşlukları, görsel ayrıntıları, yönlendirme ve boyut gibi konular Power BI tarafından denetlenmez. Bu gibi sorunlarla ilgili yardım almak için, kullandığınız tarayıcıya yönelik belgelere göz atın.      
+* Y: Yazdırılan kopyanın Power BI hizmetinde göründüğü haliyle aynı olacağını garanti edemeyiz. Ölçeklendirme, kenar boşlukları, görsel ayrıntıları, yönlendirme ve boyut gibi konular Power BI tarafından denetlenmez. Bu gibi sorunlarla ilgili yardım almak için, kullandığınız tarayıcıya yönelik belgelere göz atın.      
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [İş arkadaşlarınızla ve diğer kişilerle pano ve rapor paylaşma](../service-share-dashboards.md)
