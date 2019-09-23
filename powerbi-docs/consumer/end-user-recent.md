@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054921"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
@@ -37,7 +37,7 @@ Son ziyaret ettiğiniz öğe sayısı beşten fazlaysa Son görüntülenen ekran
 
 ![son görüntülenen içeriğin tümünü görüntüleme](./media/end-user-recent/power-bi-recent-list.png)
 
-Buradan, olduğu gibi içeriklerle etkileşim kurabilirsiniz [ **panolar**](end-user-dashboards.md), [ **raporları**](end-user-reports.md), ve  **Çalışma kitapları** sekmeler, uygulamalarına <!--[**Apps**](end-user-apps.md)--> ekranı.
+Burada, [**Panolar**](end-user-dashboards.md), [**Raporlar**](end-user-reports.md) ve **Çalışma Kitapları** sekmeleri ile uygulamalar ekranında olduğu gibi içeriklerle <!--[**Apps**](end-user-apps.md)--> etkileşime geçebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 <!--[Power BI service Apps](end-user-apps.md)-->
