@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61234509"

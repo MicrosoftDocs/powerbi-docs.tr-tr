@@ -11,7 +11,7 @@ ms.date: 01/05/2018
 ms.author: maggies
 ms.openlocfilehash: 7505860f7eedf62fe4384fea051a2731a932fce9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769896"

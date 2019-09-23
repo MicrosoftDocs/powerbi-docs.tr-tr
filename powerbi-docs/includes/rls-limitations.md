@@ -2,14 +2,14 @@
 author: mgblythe
 ms.service: powerbi
 ms.topic: include
-ms.date: 02/15/2019
+ms.date: 09/13/2019
 ms.author: mblythe
-ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b2be085c48b303304d46ea93c272e6a860143c51
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194128"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074860"
 ---
 ## <a name="limitations"></a>Sınırlamalar
 

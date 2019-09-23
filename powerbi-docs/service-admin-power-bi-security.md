@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/11/2019
+ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523299"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074728"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 

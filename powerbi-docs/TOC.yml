@@ -903,6 +903,8 @@
       items:
         - name: Power BI Premium'u satın alma
           href: service-admin-premium-purchase.md
+        - name: Kapasiteleri yapılandırma ve yönetme
+          href: service-admin-premium-manage.md
         - name: İş yüklerini yapılandırma
           href: service-admin-premium-workloads.md
         - name: Uygulama ile kapasiteleri izleme

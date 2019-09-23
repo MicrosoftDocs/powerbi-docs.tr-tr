@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730219"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164532"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
@@ -123,9 +123,9 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 | **Veri kaynağı** | **Canlı/DirectQuery** | **El ile veya zamanlanmış yenileme (kullanıcı tarafından yapılandırılmış)** |
 | --- | --- | --- |
 | Amazon Redshift |Evet |Evet |
+| Analysis Services |Evet |Evet |
 | AtScale küpleri |Evet |Evet |
 | Azure Active Directory |Hayır |Evet |
-| Azure Analysis Services |Evet |Evet |
 | Azure Blob depolama |Hayır |Evet |
 | Azure DevOps Server |Hayır |Evet |
 | Azure Tablo depolama |Hayır |Evet |

@@ -1,6 +1,6 @@
 ---
-title: 2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-description: 2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
+title: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
+description: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -12,13 +12,13 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61410265"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-[1. Bölüm](power-bi-report-add-visualizations-ii.md)'de alan adlarının yanında bulunan onay kutularını seçerek temel görselleştirmeler oluşturdunuz.  2. Bölüm'de sürükle bırak işlevini nasıl kullanacağınızı ve her türlü görselleştirmeyi oluşturmak ve değiştirmek için **Alanlar** ve **Görsel Öğeler** bölmelerini tam olarak nasıl kullanabileceğinizi öğreneceksiniz.
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
+[1. Bölüm](power-bi-report-add-visualizations-ii.md)'de alan adlarının yanında bulunan onay kutularını seçerek temel görselleştirmeler oluşturdunuz.  2\. Bölüm'de sürükle bırak işlevini nasıl kullanacağınızı ve her türlü görselleştirmeyi oluşturmak ve değiştirmek için **Alanlar** ve **Görsel Öğeler** bölmelerini tam olarak nasıl kullanabileceğinizi öğreneceksiniz.
 
 ### <a name="prerequisites"></a>Önkoşullar
 - [Bölüm 1](power-bi-report-add-visualizations-ii.md)

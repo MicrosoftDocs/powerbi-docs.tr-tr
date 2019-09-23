@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272273"
@@ -94,7 +94,7 @@ Var olan geçiş planınızı açmak için aşağıdaki işlemleri gerçekleşti
 
 2. Geçiş dosyanızı seçip **Open** (Aç) seçeneğini belirleyin.
 
-## <a name="step-1-analyze--plan-migration"></a>1. Adım: Analiz Etme ve Geçişi Planlama
+## <a name="step-1-analyze--plan-migration"></a>1\. Adım: Analiz Etme ve Geçişi Planlama
 
 **Analyze & Plan Migration** (Analiz Etme ve Geçişi Planlama) sekmesi Azure aboneliğinizin kaynak grubunda bulunan öğeleri gösterir.
 
@@ -148,7 +148,7 @@ Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için ku
 > [!NOTE]
 > *Grup* adında boşluk veya geçersiz ad kullanılmamalıdır.
 
-## <a name="step-2-download"></a>2. Adım: İndir
+## <a name="step-2-download"></a>2\. Adım: İndir
 
 **Download** (İndir) sekmesinde rapor listesini ve ilgili meta verileri göreceksiniz. Geçerli dışarı aktarma durumunu ve önceki dışarı aktarmanın sonucunu da görebilirsiniz.
 
@@ -165,7 +165,7 @@ Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için ku
 
 İndirme işlemi tamamlandıktan sonra **Create Groups** (Grup Oluştur) sekmesini seçin.
 
-## <a name="step-3-create-groups"></a>3. Adım: Grup Oluştur
+## <a name="step-3-create-groups"></a>3\. Adım: Grup Oluştur
 
 Kullanılabilir raporları indirdikten sonra **Create Groups** (Grup Oluştur) sekmesine gidebilirsiniz. Bu sekme oluşturduğunuz geçiş planına bağlı olarak Power BI hizmetinde uygulama çalışma alanları oluşturur. Uygulama çalışma alanını **Analyze & Plan Migration** (Analiz Etme ve Geçişi Planlama) sekmesindeki **Upload** (Yükle) sekmesinde belirlediğiniz adla oluşturur.
 
@@ -185,7 +185,7 @@ Uygulama çalışma alanının oluşturulduğunu doğrulamak için Power BI otur
 
 Çalışma alanı oluşturulduktan sonra **Upload** (Yükleme) sekmesine geçebilirsiniz.
 
-## <a name="step-4-upload"></a>4. Adım: Karşıya Yükle
+## <a name="step-4-upload"></a>4\. Adım: Karşıya Yükle
 
 **Upload** (Yükleme) sekmesi raporları Power BI hizmetine yükler. Download (İndirme) sekmesinde indirilen raporların yanı sıra geçiş planınıza göre hedef grup adlarını görürsünüz.
 

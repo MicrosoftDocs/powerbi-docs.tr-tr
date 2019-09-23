@@ -13,7 +13,7 @@ ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61147149"

@@ -11,7 +11,7 @@ ms.date: 11/01/2017
 ms.author: mblythe
 ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61219772"

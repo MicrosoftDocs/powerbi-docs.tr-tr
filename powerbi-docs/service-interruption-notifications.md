@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/23/2019
+ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 971b9d5aa42f7169eedcbc9ba28752db4a9d319a
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008098"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073566"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 

@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61404084"
@@ -43,7 +43,7 @@ Bu öğreticiyi tamamlamak için aşağıdakiler gerekir:
 
 Öğreticinin metin analizi kısmını tamamlamak için bu bölümdeki adımları izleyin.
 
-### <a name="step-1-apply-sentiment-scoring-in-power-bi-service"></a>1. Adım: Power BI Hizmetine yaklaşım puanlaması uygulama
+### <a name="step-1-apply-sentiment-scoring-in-power-bi-service"></a>1\. Adım: Power BI Hizmetine yaklaşım puanlaması uygulama
 
 Başlangıç olarak Premium kapasiteye sahip Power BI çalışma alanına gidin ve ekranın sağ üst kısmındaki **Oluştur** düğmesini kullanarak yeni bir veri akışı oluşturun.
 
@@ -83,7 +83,7 @@ Ardından veri akışını **Kaydedin** ve Fabrikam olarak adlandırın. Veri ak
 
 Veri akışı kaydedildikten ve yenilendikten sonra, bu veri akışını Power BI raporlarında kullanabilirsiniz.
 
-### <a name="step-2-connect-from-power-bi-desktop"></a>2. Adım: Power BI Desktop'tan bağlanma
+### <a name="step-2-connect-from-power-bi-desktop"></a>2\. Adım: Power BI Desktop'tan bağlanma
 
 Power BI Desktop'ı açın. Giriş şeridinde **Veri Al**'ı seçin.
 

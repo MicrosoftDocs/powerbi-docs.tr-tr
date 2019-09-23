@@ -11,7 +11,7 @@ ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61293580"

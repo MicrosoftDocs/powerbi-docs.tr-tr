@@ -11,7 +11,7 @@ ms.date: 11/01/2017
 ms.author: mblythe
 ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61200308"
@@ -29,7 +29,7 @@ Farklı veri kaynaklarıyla başarılı bir şekilde bağlantı kurabilmek için
 
 Sürücü hem 32 bit hem de 64 bit biçiminde olabilir. Power BI Rapor Sunucusu 64 bit olduğundan yüklenen sürücünün de 64 bit olması gerekir.
 
-3. taraf sürücülerini yükleme ve yapılandırma hakkında ayrıntılı bilgi için lütfen üreticiye başvurun.
+3\. taraf sürücülerini yükleme ve yapılandırma hakkında ayrıntılı bilgi için lütfen üreticiye başvurun.
 
 ### <a name="memory-pressure"></a>Bellek baskısı
 Bellek baskısı, raporların işlenmesi ve oluşturulması için daha fazla belleğe ihtiyaç duyulduğunda ortaya çıkabilir. Raporlarda yenileme zamanlamak için bilgisayarda önemli miktarda belleğe ihtiyaç duyulabilir. Bu durum özellikle büyük raporlar için geçerlidir. Bellek baskısı sonucunda raporlar başarısız olabilir ve rapor sunucusu kilitlenebilir.
