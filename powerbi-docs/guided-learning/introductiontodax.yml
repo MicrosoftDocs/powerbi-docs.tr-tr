@@ -14,7 +14,7 @@ metadata:
   ms.author: davidi
   ms.openlocfilehash: 8521b8ec827ac12eb2972590351571421a55f209
   ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: tr-TR
   ms.lasthandoff: 05/29/2019
   ms.locfileid: "65239652"
@@ -22,7 +22,7 @@ items:
 - durationInMinutes: 1
   content: >
     İşini iyi bilen bir uzmandan DAX formülleri oluşturmayı ve bunlarla nasıl çalışacağınızı öğrenin.
-- title: DAX'a giriş
+- title: DAX’a Giriş
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
