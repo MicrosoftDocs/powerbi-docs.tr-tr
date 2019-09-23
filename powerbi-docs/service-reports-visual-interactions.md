@@ -1,5 +1,5 @@
 ---
-title: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
+title: Raporlarda görseller arasındaki etkileşimi değiştirme
 description: Microsoft Power BI hizmeti raporunda ve bir Power BI Desktop raporunda Görsel etkileşimler oluşturmaya ilişkin belgeler.
 author: mihart
 manager: kvivek
@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61406033"

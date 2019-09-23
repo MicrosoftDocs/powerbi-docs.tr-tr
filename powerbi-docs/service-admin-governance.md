@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1d9d056d696a59038543e9e78763558a6da977b7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 38ae1e609afe90c24a16f0cb1d1f35671422f883
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61195411"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075216"
 ---
 # <a name="governance-and-deployment-approaches"></a>Yönetim ve dağıtım yaklaşımları
 

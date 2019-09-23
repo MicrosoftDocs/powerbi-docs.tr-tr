@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 10/29/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61198242"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075789"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 

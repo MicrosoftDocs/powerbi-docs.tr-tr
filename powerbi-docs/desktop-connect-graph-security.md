@@ -13,7 +13,7 @@ ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61317986"
@@ -59,7 +59,7 @@ Bağlayıcıyı kullanmak için aşağıdaki adımları izleyin:
     
 5. İstendiğinde Azure Active Directory hesabınızda oturum açın. Önceki bölümlerde belirtildiği gibi, bu hesabın *Güvenlik Okuyucusu* veya *Güvenlik Yöneticisi* rolüne sahip olması gerekir.
 
-    ![Oturum aç](media/desktop-connect-graph-security/SignIn.PNG) 
+    ![Oturum açın](media/desktop-connect-graph-security/SignIn.PNG) 
     
 6. Kiracı yönetici sizseniz *ve* size henüz Microsoft Graph Güvenliği Power BI bağlayıcısı (uygulaması) onayı verilmediyse aşağıdaki iletişim kutusuyla karşılaşırsınız. **Kuruluşunuz adına onay verin**’i seçin.
 

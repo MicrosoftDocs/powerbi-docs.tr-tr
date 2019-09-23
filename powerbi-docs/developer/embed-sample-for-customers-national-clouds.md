@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 02/05/2019
 ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61374335"
@@ -128,7 +128,7 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 <add key="embedUrlBase" value="https://app.powerbi.cn" />
 ```
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>1. Adım: Bir uygulamayı Azure AD'ye kaydetme
+## <a name="step-1---register-an-app-in-azure-ad"></a>1\. Adım: Bir uygulamayı Azure AD'ye kaydetme
 
 REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD’ye kaydedin. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md). Farklı ulusal bulut ilişkileri olduğundan, uygulamanızı kaydetmek için farklı URL’ler vardır.
 
@@ -144,7 +144,7 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD’ye kayd
 
 [Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz aldığınız **uygulama kimliğini** kullanarak örneğin, Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
 
-## <a name="step-2---get-an-access-token-from-azure-ad"></a>2. Adım: Azure AD'den erişim belirteci alma
+## <a name="step-2---get-an-access-token-from-azure-ad"></a>2\. Adım: Azure AD'den erişim belirteci alma
 
 Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure AD'den bir **erişim belirteci** almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md). Farklı ulusal bulut ilişkileri olduğundan, uygulamanıza yönelik bir erişim belirteci almak için farklı URL’ler vardır.
 
@@ -160,7 +160,7 @@ Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure
 
 **Controllers\HomeController.cs** dosyasındaki her bir içerik öğesi görevinde bu erişim belirteçleriyle ilgili örnekleri bulabilirsiniz.
 
-## <a name="step-3---get-a-content-item"></a>3. Adım: İçerik öğesi alma
+## <a name="step-3---get-a-content-item"></a>3\. Adım: İçerik öğesi alma
 
 Power BI içeriğinizi doğru şekilde eklemek için yapmanız gereken birkaç şey vardır. Bu adımların tümü doğrudan REST API ile gerçekleştirilebilir ancak örnek uygulama ve buradaki örneklerde .NET SDK kullanılmıştır.
 
@@ -304,7 +304,7 @@ var embedConfig = new TileEmbedConfig()
 };
 ```
 
-## <a name="step-4---load-an-item-using-javascript"></a>4. Adım: JavaScript kullanarak öğe yükleme
+## <a name="step-4---load-an-item-using-javascript"></a>4\. Adım: JavaScript kullanarak öğe yükleme
 
 JavaScript kullanarak web sayfanızdaki bir div öğesine pano yükleyebilirsiniz. Bu örnekte EmbedConfig/TileEmbedConfig modelinin yanı sıra pano, kutucuk veya rapor görünümleri kullanılmaktadır. JavaScript API kullanan tam bir örnek için [Microsoft Power BI Embedded Örneği](https://microsoft.github.io/PowerBI-JavaScript/demo)'ni kullanabilirsiniz.
 

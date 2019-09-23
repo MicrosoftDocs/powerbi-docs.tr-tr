@@ -12,7 +12,7 @@ ms.author: willthom
 LocalizationGroup: Learn more
 ms.openlocfilehash: 9051ec4ea5bb9f60637e389bd77defb5590604c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61289765"

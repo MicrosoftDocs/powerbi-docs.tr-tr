@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/13/2019
+ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987003"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074241"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 

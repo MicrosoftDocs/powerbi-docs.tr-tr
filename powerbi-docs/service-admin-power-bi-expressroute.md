@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c4618150094a4eabb0dc9745e9ac93e4f342ff1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c7d12bf6a1a2a02c988f8351a1844be1080ad2b8
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187894"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074791"
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI ve ExpressRoute
 

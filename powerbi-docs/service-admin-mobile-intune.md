@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710929"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075626"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 
@@ -30,7 +30,7 @@ Microsoft Intune, Office 365'te Mobil Cihaz Yönetimi (MDM) ile birlikte bulunab
 > [!NOTE]
 > Intune'u yapılandırdıktan sonra iOS veya Android cihazınızda Power BI mobil uygulaması için arka planda veri yenileme özelliği kapatılır. Uygulamaya girdiğinizde Power BI, web üzerindeki Power BI hizmetinden verileri yeniler.
 
-## <a name="step-1-get-the-url-for-the-application"></a>1. Adım: Uygulamanın URL'sini alma
+## <a name="step-1-get-the-url-for-the-application"></a>1\. Adım: Uygulamanın URL'sini alma
 
 Intune'da uygulamayı oluşturmadan önce uygulamaların URL'lerini almamız gerekir. iOS cihazları için URL'leri iTunes'dan alırız. Android cihazlar için ise URL'leri Power BI mobil sayfasından alabilirsiniz.
 
@@ -56,7 +56,7 @@ iOS için uygulama URL'sini iTunes'dan almamız gerekir.
 
 [Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>2. Adım: Mobil uygulama yönetim ilkesi oluşturma
+## <a name="step-2-create-a-mobile-application-management-policy"></a>2\. Adım: Mobil uygulama yönetim ilkesi oluşturma
 
 Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu tutabilirsiniz. Intune portalında bir ilke oluşturabilirsiniz.
 
@@ -72,7 +72,7 @@ Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu t
 
 1. Uygulamada istediğiniz kısıtlamaları yapılandırmak için ilkeyi düzenleyin.
 
-## <a name="step-3-create-the-application"></a>3. Adım: Uygulamayı oluşturma
+## <a name="step-3-create-the-application"></a>3\. Adım: Uygulamayı oluşturma
 
 Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir uygulama oluşturmamız ve Google Play'den veya iTunes'dan aldığımız uygulama URL'sine başvurmamız gerekir.
 
@@ -116,7 +116,7 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
     ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
-## <a name="step-4-deploy-the-application"></a>4. Adım: Uygulamayı dağıtma
+## <a name="step-4-deploy-the-application"></a>4\. Adım: Uygulamayı dağıtma
 
 Uygulamayı ekledikten sonra, son kullanıcılarınızın kullanabilmesi için dağıtmanız gerekir. Bu, oluşturduğunuz ilkeyi uygulamaya bağlayacağınız adımdır.
 

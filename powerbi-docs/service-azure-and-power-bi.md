@@ -12,7 +12,7 @@ ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513319"

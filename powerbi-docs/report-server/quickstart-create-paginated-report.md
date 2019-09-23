@@ -11,7 +11,7 @@ ms.date: 10/22/2018
 ms.author: maggies
 ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64770493"
@@ -25,7 +25,7 @@ Tıpkı SQL Server Reporting Services (SSRS) web portalında yaptığınız gibi
 
 Rapor Oluşturucusu'nda veya Rapor Tasarımcısı'nda zaten sayfalandırılmış raporlar oluşturduysanız Power BI Rapor Sunucusu için sayfalandırılmış raporlar oluşturmaya hazırsınız demektir. Aksi halde, bu hızlı adımlar sayesinde işe koyulabilirsiniz.
 
-## <a name="step-1-install-and-start-report-builder"></a>1. Adım: Rapor Oluşturucusu'nu yükleme ve başlatma
+## <a name="step-1-install-and-start-report-builder"></a>1\. Adım: Rapor Oluşturucusu'nu yükleme ve başlatma
 Bir SSRS sunucusu için rapor oluşturmak üzere Rapor Oluşturucusu'nu zaten yüklemiş olabilirsiniz. Power BI Rapor Sunucusu için rapor oluşturmak üzere aynı sürümü veya Rapor Oluşturucusu'nu kullanabilirsiniz. Rapor Oluşturucu'sunu henüz yüklemediyseniz bunu kolayca yapabilirsiniz.
 
 1. Power BI Rapor Sunucusu web portalında **Yeni** > **Sayfalandırılmış Rapor** seçeneğini belirleyin.
@@ -46,7 +46,7 @@ Bir SSRS sunucusu için rapor oluşturmak üzere Rapor Oluşturucusu'nu zaten y�
    
     Grafik sihirbazı bir raporda temel bir grafik oluşturmaya yönelik adımlar boyunca sizi yönlendirir. Buradan, raporunuzu hemen hemen sınırsız sayıda yöntemle özelleştirebilirsiniz.
 
-## <a name="step-2-go-through-the-chart-wizard"></a>2. Adım: Grafik sihirbazını kullanma
+## <a name="step-2-go-through-the-chart-wizard"></a>2\. Adım: Grafik sihirbazını kullanma
 Grafik sihirbazı bir raporda görselleştirme oluşturmaya yönelik temel adımlar boyunca sizi yönlendirir.
 
 Sayfalandırılmış raporlar Microsoft SQL Server ve Microsoft Azure SQL Veritabanı'ndan tutun da Oracle, Hyperion ve çok daha fazlasına kadar çok çeşitli veri kaynaklarına bağlanabilir. [Sayfalandırılmış raporlar tarafından desteklenen veri kaynakları](connect-data-sources.md) hakkında bilgi edinin.
@@ -66,7 +66,7 @@ Grafik sihirbazının **Veri kümesi seçin** adlı ilk sayfasında veri kümesi
     ![Grafik Sihirbazı: Alanları düzenleme](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. **Sonraki** > **Son** seçeneğini belirleyin.
 
-## <a name="step-3-design-your-report"></a>3. Adım: Raporunuzu tasarlama
+## <a name="step-3-design-your-report"></a>3\. Adım: Raporunuzu tasarlama
 Şimdi Rapor Tasarım görünümündesiniz. Verilerin kendi verileriniz değil yer tutucu veriler olduğuna dikkat edin.
 
 ![Rapor Tasarım görünümü](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
@@ -82,7 +82,7 @@ Ayrıca diğer her türlü görselleştirmeyi ekleyebilirsiniz: ölçerler, tabl
 
 ![Rapor Oluşturucusu Tasarım görünümü](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>4. Adım: Raporunuzu rapor sunucusuna kaydetme
+## <a name="step-4-save-your-report-to-the-report-server"></a>4\. Adım: Raporunuzu rapor sunucusuna kaydetme
 Raporunuz hazır olduğunda bu raporu Power BI Rapor Sunucusu'na kaydedin.
 
 1. **Dosya** menüsünde **Farklı kaydet** seçeneğini belirleyin ve raporu rapor sunucusuna kaydedin. 
