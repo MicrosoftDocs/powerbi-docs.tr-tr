@@ -1,16 +1,18 @@
-- name: Başlarken
-  href: 'gettingstarted.yml#step-0'
-- name: Veri alma
-  href: 'gettingdata.yml#step-0'
-- name: Modelleme
-  href: 'modeling.yml#step-0'
-- name: Görselleştirmeler
-  href: 'visualizations.yml#step-0'
-- name: Verileri araştırma
-  href: 'exploringdata.yml#step-0'
-- name: Power BI ve Excel
-  href: 'powerbiandexcel.yml#step-0'
-- name: Yayımlama ve paylaşma
-  href: 'publishingandsharing.yml#step-0'
+- name: Power BI’ı keşfedin (tüketici)
+  href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
+- name: Power BI’da verileri çözümleyin (tüketici)
+  href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
+- name: Power BI ile oluşturmaya başlayın
+  href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
+- name: Veri al
+  href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
+- name: Verileri modelleme
+  href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
+- name: Görselleri kullanma
+  href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
+- name: Verileri keşfetme
+  href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
+- name: Yayımlayın ve paylaşın
+  href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
 - name: DAX'a giriş
-  href: 'introductiontodax.yml#step-0'
+  href: introductiontodax.yml?tutorial-step=1

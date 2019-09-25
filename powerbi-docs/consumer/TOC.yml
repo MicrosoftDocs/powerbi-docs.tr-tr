@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Önizleme özelliklerini açma
               href: end-user-preview-features.md
+            - name: Power BI hizmetinde bildirim alma
+              href: end-user-notification-center.md
         - name: Veri al
           items:
             - name: Power BI'daki uygulamalar
