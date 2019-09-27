@@ -1,24 +1,25 @@
 ---
 title: Power BI görsellerinde Analiz bölmesi
 description: Bu makalede Power BI görsellerinde dinamik başvuru çizgileri oluşturma işlemi açıklanır.
-author: Guy-Moses
-ms.author: guymos
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
-ms.reviewer: sranins
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 208c6cbbd4cd8cdabde039c53aab536ee989bc7d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237326"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193688"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI görsellerinde Analiz bölmesi
 
-**Analiz ** bölmesi Kasım 2018’de [yerel görseller](https://docs.microsoft.com/power-bi/desktop-analytics-pane) için kullanıma sunuldu.
+**Analiz**  bölmesi Kasım 2018’de [yerel görseller](https://docs.microsoft.com/power-bi/desktop-analytics-pane) için kullanıma sunuldu.
 Bu makalede Power BI görsellerinin API v2.5.0 ile özelliklerini **Analiz** bölmesinde nasıl gösterebildiği ve yönetebildiği açıklanır.
 
 ![Analiz bölmesi](./media/visualization-pane-analytics-tab.png)

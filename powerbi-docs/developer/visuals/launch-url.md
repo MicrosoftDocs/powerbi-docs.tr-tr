@@ -1,20 +1,20 @@
 ---
 title: Başlatma URL’si oluşturma
 description: Bu makalede Power BI Görselleri’ni kullanarak URL’nin yeni sekmede nasıl açılabileceği açıklanır.
-author: Guy-Moses
-ms.author: guymos
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 281cbcd92deced8ec49bcd846e498922c7aae66d
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236665"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193945"
 ---
 # <a name="create-a-launch-url"></a>Başlatma URL’si oluşturma
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI görsellerinin yetenekleri ve özellikleri
 description: Bu makalede Power BI görsellerinin yetenekleri ve özellikleri açıklanır.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5c32a1679f09e05d134da7f27ffa0cee90d75fab
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 8b14568eb3a9ebc75b8d94935aedc2ae07122ef4
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237301"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193660"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin yetenekleri ve özellikleri 
 
