@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270485"
@@ -130,9 +130,9 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 2. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
-5. - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
-6. Çağrısı yaparak GW ve veri kaynağı tanımlayıcıları almak - Al https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
+5. \- POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
+6. \- GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW ve veri kaynağı tanımlayıcılarını alın
+7. \- PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
 
 #### <a name="old-dataset--reports"></a>Eski veri kümeleri ve raporlar
 

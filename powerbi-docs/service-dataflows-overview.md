@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136383"
 ---
-# <a name="self-service-data-prep-in-power-bi"></a>Power BI'da Self Servis veri hazırlama
+# <a name="self-service-data-prep-in-power-bi"></a>Power BI’da self servis veri hazırlığı
 
 Veri hacmi artmaya devam ettikçe, bu verileri düzgün biçimlendirilmiş, eyleme geçirilebilir bilgilere dönüştürme güçlüğü de artar. Görselleri, raporları ve panoları doldurmak için analize hazır veriler isteriz, çünkü böylelikle veri hacimlerimizi kolayca eyleme dönüştürülebilir içgörüler haline getirebiliriz. Power BI'da büyük verilere yönelik **self servis veri hazırlığı** ile, yalnızca birkaç tıklamayla verilerden Power BI içgörülerine geçebilirsiniz.
 
@@ -108,10 +108,10 @@ Bu makalede daha önce belirtildiği gibi, **veri akışlarının** iş verileri
 Bu makalede, Power BI'da büyük veriler için self servis veri hazırlığına ve bunu kullanmanın birçok yoluna genel bir bakış sağlanır. Aşağıdaki makalelerde, veri akışlarının yaygın kullanım senaryoları daha ayrıntılı olarak ele alınır. 
 
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium'da hesaplanan varlıkları kullanma](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
-* [Veri akışı ve Azure Data Lake ile tümleştirme](service-dataflows-azure-data-lake-integration.md)
+* [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
+* [Veri akışları ve Azure Data Lake tümleştirmesi](service-dataflows-azure-data-lake-integration.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)

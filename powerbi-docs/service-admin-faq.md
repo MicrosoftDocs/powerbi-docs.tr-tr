@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877817"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175196"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -38,6 +38,7 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 
 * [Bu, şu anda kuruluşumdaki kullanıcıların kimliklerini yönetme biçimimi nasıl değiştirecek?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI nasıl yönetilir?](#how-do-we-manage-power-bi)
+* [Kullanıcılarım için Microsoft tarafından oluşturulan bir kiracıyı yönetme süreci nasıldır?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Kayıtlı kullanıcıların Power BI lisansını nasıl kaldırabilirim?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Kiracıma yeni kullanıcıların katıldığını nasıl anlarım?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 Power BI, kullanım istatistiklerini görüntüleyebileceğiniz bir yönetici portalı, kullanıcı ve grupları yönetmeniz için Microsoft 365 yönetim merkezine yönelik bir bağlantı ve kiracı genelinde ayarları denetleme olanağı sağlar.
 
 Power BI yönetici portalını kullanmak için hesabınızı, Office 365 veya Azure Active Directory'de **Genel Yönetici** olarak işaretlemiş olmanız veya kullanıcı hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Daha fazla bilgi için bkz. [Power BI hizmet yöneticisi rolünü anlama](service-admin-role.md) ve [Power BI Yönetim Portalı](service-admin-portal.md).
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Kullanıcılarım için Microsoft tarafından oluşturulan bir kiracıyı yönetme süreci nasıldır?
+
+Bir kullanıcı Azure AD kullanan bir bulut hizmetine kendi kendine kaydolduğunda, hizmet kullanıcıyı e-posta etki alanı temelinde yönetilmeyen bir Azure AD dizinine ekler. *Yönetici devralma* olarak bilinen bir işlemi kullanarak başka birinin oluşturduğu kiracıyı alabilir ve yönetebilirsiniz. Daha fazla bilgi için bkz. [Azure Active Directory'de yönetilmeyen bir dizini yönetici olarak devralma](/azure/active-directory/users-groups-roles/domains-admin-takeover). Gerçekleştirdiğiniz devralma işleminin türü, etki alanınızla ilişkilendirilmiş bir yönetilen kiracının var olup olmadığına bağlıdır:
+
+* Power BI, iç yönetici devralmayı destekler. Yönetilmeyen bir Azure dizininin _iç_ yönetici devralmasını gerçekleştirdiğinizde, yönetilmeyen dizinin genel yöneticisi olarak eklenirsiniz. Hiçbir kullanıcı, etki alanı veya hizmet planı, yönettiğiniz başka bir dizine geçirilmez.
+
+* Power BI artık dış yönetici devralmayı desteklememektedir. Yönetilmeyen bir Azure dizininin _dış_ yönetici devralma işlemini gerçekleştirdiğinizde, yönetilmeyen dizinin DNS etki alanı adını yönetilen Azure dizininize eklersiniz. Etki alanı adını eklediğinizde, kullanıcıların bir kesinti olmadan hizmetlere erişmeye devam edebilmesi için, yönetilen Azure dizininizde kullanıcıların kaynaklara eşlemesi oluşturulur.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Birden çok etki alanım olması halinde, kullanıcıların eklendiği Office 365 kiracısını denetleyebilir miyim?
 

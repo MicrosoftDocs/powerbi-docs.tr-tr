@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269471"
@@ -24,12 +24,12 @@ Power BI REST API ile raporlar, veri kümeleri ve çalışma alanları gibi Powe
 
 Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
-| **Daha fazla bilgi için** | **Bu bilgileri başvuru** |
+| **Daha fazla bilgi almak için** | **Bu bilgilere başvurun** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için raporlar, panolar ve kutucuklar ekleyin. | [Power BI panolarınızı, raporlar ve kutucuklar ekleme ](embedding-content.md) |
+| Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için raporlar, panolar ve kutucuklar ekleyin. | [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embedding-content.md) |
 | Power BI nesneleri üzerinde yönetim görevleri gerçekleştirin. | [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/) |
-| Power BI panosuna anahtar veri göndermek için mevcut iş akışını genişletme. | [Bir panoya veri gönderme ](walkthrough-push-data.md) |
-| Power BI'da kimlik doğrulaması yapma. | [Power BI'da kimlik doğrulaması ](get-azuread-access-token.md) |
+| Power BI panosuna anahtar veri göndermek için mevcut iş akışını genişletme. | [Bir panoya veri gönderme](walkthrough-push-data.md) |
+| Power BI'da kimlik doğrulaması yapma. | [Power BI'da kimlik doğrulaması yapma](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API'lerde uygulama çalışma alanları hâlâ gruplar olarak adlandırılmaktadır. Gruplara yapılan başvurular, uygulama çalışma alanlarıyla çalıştığınızı gösterir.
@@ -38,7 +38,7 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
 | Araçlar | Açıklama |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Oyun alanı aracı](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API’lerini kullanmanın tam örneğini deneyin. Bu araç, farklı türde Power BI Embedded örnekleri ile yürütmenin de hızlı bir yoludur. |  |  |
+| [Deneme alanı aracı](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API’lerini kullanmanın tam örneğini deneyin. Bu araç, farklı türde Power BI Embedded örnekleri ile yürütmenin de hızlı bir yoludur. |  |  |
 | [Power BI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API'leri hakkında daha fazla bilgi edinmek için. |  |  |
 | [Postman](https://www.getpostman.com/) | İstekler çalıştırın, test edin, hata ayıklayın, izleyin, otomatik testler çalıştırın ve daha fazlasını yapın. |
 
@@ -58,7 +58,7 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
 * [Bir veri kümesine veri gönderme](walkthrough-push-data.md)
 * [Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)
-* [Power BI REST API Başvurusu](rest-api-reference.md)
+* [Power BI Rest API Başvurusu](rest-api-reference.md)
 * [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

@@ -11,16 +11,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61175075"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI uygulama çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
-[Power BI'da bir uygulama çalışma alanı oluşturduktan](service-create-distribute-apps.md) sonra Power BI uygulama çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. Onedrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz. Bu güncelleştirmeler, otomatik olarak Power BI rapor ve panolarındaki dosyalara bağlı yansıtılır. 
+[Power BI'da bir uygulama çalışma alanı oluşturduktan](service-create-distribute-apps.md) sonra Power BI uygulama çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz. Bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
 
 > [!NOTE]
-> Yeni çalışma alanı deneyimi, Power BI çalışma alanları ve Office 365 grupları arasındaki ilişkiyi değiştirir. Yeni çalışma alanları birini her oluşturduğunuzda bir Office 365 grubu otomatik olarak oluşturmayın. Hakkında bilgi edinin [yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)
+> Yeni çalışma alanı deneyimi, Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştiriyor. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmazsınız. [Yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md) hakkında bilgi edinin
 
 Uygulama çalışma alanınıza dosya ekleme iki adımlı bir işlemdir: 
 
@@ -48,7 +48,7 @@ Uygulama çalışma alanınıza dosya ekleme iki adımlı bir işlemdir:
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel dosyalarını veri kümeleri veya Excel Online çalışma kitapları olarak içeri aktarma
 Dosyalarınız artık uygulama çalışma alanınız için OneDrive İş'te olduğuna göre bir tercih yapabilirsiniz. Seçenekleriniz şunlardır: 
 
-* [Bir veri kümesi olarak Excel çalışma kitabındaki verileri içeri aktarma](service-get-data-from-files.md). Ardından verileri raporlar ve bir web tarayıcısında veya mobil cihazlarda görüntüleyebileceğiniz panolar oluşturmak için kullanın.
+* [Excel çalışma kitabından verileri bir veri kümesi olarak içeri aktarın](service-get-data-from-files.md). Ardından web tarayıcısında veya mobil cihazlarda görüntüleyebileceğiniz raporlar ile panolar oluşturmak için verileri kullanın.
 * [Power BI'da Excel çalışma kitabının tamamına bağlanma](service-excel-workbook-files.md) ve bu çalışma kitabını tam olarak Excel Online'da göründüğü şekilde görüntüleme.
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>Uygulama çalışma alanınızdaki dosyaları içeri aktarma veya bu dosyalara bağlanma
@@ -64,7 +64,7 @@ Dosyalarınız artık uygulama çalışma alanınız için OneDrive İş'te oldu
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. İstediğiniz dosyayı seçip **Bağlan** seçeneğini belirleyin.
    
-    Bu noktada, karar kullanılıp kullanılmayacağını [Excel çalışma kitabından veri içe](service-get-data-from-files.md), veya [tüm Excel çalışma kitaplarına bağlanma](service-excel-workbook-files.md).
+    Bu noktada [Excel çalışma kitabındaki verileri içeri aktarmak](service-get-data-from-files.md) veya [Excel çalışma kitabının tamamına bağlanmak](service-excel-workbook-files.md) istediğinize karar verin.
 6. **İçeri Aktar** veya **Bağlan** seçeneğini belirleyin.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271862"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100374"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 
-Şirket içi veri ağ geçidinizi Kerberos kısıtlanmış temsili veya Security Assertion Markup Language (SAML) ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle etkinleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi SSO bağlantılarını, şirket içi veri kaynaklarına bağlanmak için kullandığı DirectQuery’den yararlanarak kurar.
+Şirket içi veri ağ geçidinizi Kerberos kısıtlanmış temsili veya Security Assertion Markup Language (SAML) ile yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle gerçek zamanlı güncelleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Şirket içi veri ağ geçidi, SSO’nun şirket içi veri kaynaklarına bağlanmak için DirectQuery kullanmasını destekler.
 
 Şu an için aşağıdaki veri kaynakları desteklenmektedir:
 
@@ -52,8 +52,7 @@ Aşağıda, bu adımlara ilişkin ayrıntılar verilmiştir:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-SSO ile ilgili temel bilgileri kavradığınıza göre Kerberos ve SAML hakkında daha ayrıntılı bilgilere göz atabilirsiniz:
+Ağ geçidi aracılığıyla SSO ile ilgili temel bilgileri kavradığınıza göre Kerberos ve SAML hakkında daha ayrıntılı bilgilere göz atabilirsiniz:
 
 * [Çoklu oturum açma (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [Çoklu oturum açma (SSO) - Kerberos - kaynak tabanlı](service-gateway-sso-kerberos-resource.md)
 * [Çoklu oturum açma (SSO) - SAML](service-gateway-sso-saml.md)

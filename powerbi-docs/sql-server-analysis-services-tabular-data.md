@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769922"
@@ -31,15 +31,15 @@ Power BI'da canlı SQL Server Analysis Services sunucusuna bağlanmak için kull
 
 1. **Çalışma Alanım**'da **Veri al**'ı seçin. Varsa grup çalışma alanı da kullanabilirsiniz.
 
-   ![Veri Al düğmesi bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Veri al düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. **Veritabanları ve Daha Fazlası**'nı seçin.
 
-   ![Veri 1 için bağlanın](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Veri al 1 düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. **SQL Server Analysis Services** > **Bağlan**'ı seçin.
 
-   ![Veri 2 için bağlanın](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Veri al 2 düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Bir sunucu seçin. Bu adımda hiç sunucu görmüyorsanız ağ geçidi veya veri kaynağı yapılandırılmamış veya hesabınız ağ geçidinde veri kaynağının **Kullanıcılar** sekmesine eklenmemiş olabilir. Yöneticinize başvurun.
 

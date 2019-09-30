@@ -1,6 +1,6 @@
 ---
 title: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
-description: Power BI'da otomatik Machine Learning (AutoML) kullanmayı öğrenin
+description: Power BI’da Otomatik Makine Öğrenmesi (AutoML) kullanmayı öğrenin
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -12,271 +12,271 @@ ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: 894e92687a6283ce71b253bd4dc635aca0c4673f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61236843"
 ---
 # <a name="automated-machine-learning-in-power-bi-preview"></a>Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
 
-(AutoML) için veri akışlarını otomatik makine eğitmek, doğrulamak ve makine öğrenimi modelleri Power bı'da doğrudan çağırmak, iş analistleri sağlar. Bu, analistlerin modeli eğitmek için giriş verileri belirtmek için veri akışlarını burada kullanabilirsiniz yeni ML model oluşturmaya yönelik basit bir deneyimi içerir. Hizmet otomatik olarak en uygun özellikler ayıklar, uygun bir algoritmayı seçer ve ayarlar ve ML modeli doğrular. Power BI, otomatik olarak bir modeli eğitilir sonra performans açıklayan doğrulama sonuçları ve analistleri için sonuçları içeren bir rapor oluşturur. Model veri akışı içindeki tüm yeni veya güncelleştirilmiş verileri sonra çağrılabilir.
+Veri akışları için otomatik makine öğrenmesi (AutoML), iş analistlerinin Makine Öğrenmesi modellerini doğrudan Power BI’da eğitmesine, doğrulamasına ve çağırmasına olanak tanır. Analistlerin modeli eğitmeye yönelik giriş verilerini belirtmek için veri akışlarını kullanabileceği yeni bir ML modeli oluşturmak için basit bir deneyim içerir. Hizmet en ilgili özellikleri otomatik olarak ayıklar, uygun bir algoritma seçer ve ML modelini ayarlayıp doğrular. Bir model eğitildikten sonra Power BI, analistlere performansı ve sonuçları açıklayan, doğrulama sonuçlarını içeren bir raporu otomatik olarak oluşturur. Model daha sonra veri akışı içindeki yeni veya güncelleştirilmiş veriler üzerinde çağrılabilir.
 
-![Machine learning ekranı](media/service-machine-learning-automated/automated-machine-learning-power-bi-01.png)
+![Makine öğrenmesi ekranı](media/service-machine-learning-automated/automated-machine-learning-power-bi-01.png)
 
-Otomatik makine öğrenimi, yalnızca Power BI Premium ve katıştırılmış kapasiteleri barındırılan bir veri akışı için kullanılabilir. Bu önizleme sürümünde AutoML ikili tahmin, Sınıflandırma ve regresyon modellerini için makine öğrenimi modellerini eğitmenize sağlar.
+Otomatik makine öğrenmesi, Power BI Premium ve Embedded kapasitelerinde barındırılan veri akışları için kullanılabilir. AutoML bu önizlemede İkili Tahmin, Sınıflandırma ve Regresyon modelleri için makine öğrenmesi modellerini eğitmenize olanak sağlar.
 
 ## <a name="working-with-automl"></a>AutoML ile çalışma
 
-[Power BI veri akışlarını](service-dataflows-overview.md) büyük veriler için Self Servis veri hazırlığı sunar. AutoML veri hazırlık çalışmalarınızı Power BI içinden makine öğrenimi modelleri oluşturmak için yararlanmasını sağlar.
+[Power BI veri akışları](service-dataflows-overview.md), büyük veriler için self servis veri hazırlığı sunar. AutoML, makine öğrenmesi modellerini Power BI içinden oluşturmak için veri hazırlığı çalışmalarınızdan yararlanmanızı sağlar.
 
-Power bı'da AutoML yalnızca Power BI becerilerinizi kullanarak veri analistleri, makine öğrenimi modellerini basitleştirilmiş bir deneyim oluşturmak için veri akışlarını kullanmasını sağlar. Veri bilimi oluşturmayı ML modelleri arkasında çoğunu otomatik olarak Power BI tarafından üretilen modeli kaliteli ve ML model oluşturmak için kullanılan işlem tam bir anlayış sağlamak için görünürlük olduğundan emin olmak için guardrails ile.
+Power BI’da AutoML, veri analistlerinin Power BI becerilerini kullanarak basitleştirilmiş bir deneyimle makine öğrenmesi modelleri oluşturmak için veri akışlarını kullanmasına olanak tanır. ML modellerinin oluşturulmasının ardında yatan veri biliminin büyük bölümü, modelin iyi kalite ürettiğinden emin olmaya yönelik önlemler ve ML modelinizi oluşturmak için kullanılan işlem hakkında tam içgörü sağlayan bir görünürlük ile Power BI ile otomatikleştirilir.
 
-AutoML oluşturulmasını destekleyen **ikili tahmin**, **sınıflandırma**, ve **regresyon** modelleri için veri akışı. Bu, diğer gözlemler sonuçlarını tahmin etmek için geçmiş gözlemlerdir bilinen sonuçlardan öğrenin, yani, denetimli makine öğrenimi modelleri türleridir. AutoML modeli eğitimi için giriş veri kümesi kayıtları kümesidir **etiketli** bilinen sonuçları ile.
+AutoML, veri akışları için **İkili Tahmin**, **Sınıflandırma** ve **Regresyon** modellerinin oluşturulmasını destekler. Bunlar, denetimli makine öğrenmesi modellerinin türleridir. Diğer bir deyişle, diğer gözlemlerin sonuçlarını tahmin etmek için geçmiş gözlemlerin bilinen sonuçlarını öğrenirler. Bir AutoML modelinin eğitimine yönelik giriş veri kümesi, bilinen sonuçlarla **etiketlenmiş** bir kayıt kümesidir.
 
-Power bı'da AutoML tümleşir [ML otomatik](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) gelen [Azure Machine Learning hizmeti](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) , ML modelleri oluşturmak için. Ancak, Power BI'da AutoML kullanmak için Azure aboneliği gerekmez. Eğitim ve ML modelleri barındırma sürecini tamamen Power BI hizmeti tarafından yönetilir.
+Power BI’da AutoML, modellerinizi oluşturmak için [Azure Machine Learning hizmetinin](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) [otomatik ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) özelliğini tümleştirir. Ancak, Power BI’da AutoML kullanmak için bir Azure aboneliğinizin olması gerekmez. ML modellerini eğitme ve barındırma işlemi tamamen Power BI hizmeti tarafından yönetilir.
 
-ML model eğitildi sonra AutoML ML modeliniz olası performansının açıklayan bir Power BI raporu otomatik olarak oluşturur. AutoML explainability, kilit, modeli tarafından döndürülen Öngörüler etkileyen girişlerinizi arasında vurgulayarak vurgular. Rapor modeli, ML model türüne bağlı olarak ilişkin ana ölçümleri de içerir.
+Bir ML modeli eğitildikten sonra AutoML, ML modelinizin olası performansını açıklayan bir Power BI raporunu otomatik olarak oluşturur. AutoML, girişleriniz arasında, modeliniz tarafından döndürülen tahminleri etkileyen başlıca etkileyicileri vurgulayarak açıklanabilirliği ön plana çıkarır. Rapor ayrıca ML model türüne bağlı olarak modelin önemli ölçümlerini içerir.
 
-Oluşturulan raporun diğer sayfalarında modeli ve eğitim ayrıntılarını istatistiksel özetini gösterir. İstatistiksel özeti modeli için performans standart veri bilimi ölçümleri görmek istediğiniz kullanıcılar ilgilendirir. Eğitim ayrıntıları ilişkili modelleme parametrelerle, modelinizi oluşturmak için çalıştırılan tüm yinelemeleri özetler. Ayrıca, her bir giriş ML model oluşturmak için nasıl kullanıldığını açıklar.
+Oluşturulan raporun diğer bölümlerinde modelin istatistiksel özeti ve eğitim ayrıntıları gösterilir. İstatistiksel özet, model için standart veri bilimi performans ölçümlerini görmek isteyen kullanıcıları ilgilendirir. Eğitim ayrıntıları, modelinizi oluşturmak için çalıştırılan tüm yinelemeleri, ilişkili modelleme parametreleriyle birlikte özetler. Ayrıca, ML modelini oluşturmak için her bir girişin nasıl kullanıldığını açıklar.
 
-Ardından, ML model Puanlama için verilerinizi uygulayabilirsiniz. Veri akışı yenilendiğinde ML modeliniz ait tahminlerin verilerinizi otomatik olarak uygulanır. Power BI ayrıca ML model üreten her belirli tahmin puanı için bireyselleştirilmiş bir açıklama içerir.
+Daha sonra ML modelinizi puanlama için verilerinize uygulayabilirsiniz. Veri akışı yenilendiğinde, ML modelinizden alınan tahminler otomatik olarak verilerinize uygulanır. Power BI ayrıca ML modelinin ürettiği her tahmin için ayrı bir açıklama içerir.
 
-## <a name="creating-a-machine-learning-model"></a>Makine öğrenme modeli oluşturma
+## <a name="creating-a-machine-learning-model"></a>Makine öğrenmesi modeli oluşturma
 
-Bu bölümde bir AutoML learning modeli oluşturmayı açıklar. 
+Bu bölümde bir AutoML öğrenme modelinin nasıl oluşturulacağı açıklanmaktadır. 
 
-### <a name="data-prep-for-creating-an-ml-model"></a>ML model oluşturmak için veri hazırlama
+### <a name="data-prep-for-creating-an-ml-model"></a>ML modeli oluşturmak için veri hazırlığı
 
-Power BI'da bir machine learning modeli oluşturmak için öncelikle ML modeli eğitmek için kullanılan geçmiş sonucu bilgilerle veriler için bir veri akışı oluşturmanız gerekir. Veri akışı yapılandırma hakkında daha fazla bilgi için bkz [Self Servis veri hazırlama Power BI'da](service-dataflows-overview.md).
+Power BI’da bir makine öğrenmesi modeli oluşturmak için öncelikle ML modelini eğitmek için kullanılan geçmiş sonuç bilgileriyle bir veri akışı oluşturmanız gerekir. Veri akışınızı yapılandırma hakkında ayrıntılı bilgi için bkz. [Power BI’da self servis veri akışı hazırlığı](service-dataflows-overview.md).
 
-Geçerli sürümde, Power BI ML modeli eğitmek için yalnızca tek bir varlık verilerini kullanır. Bu nedenle, geçmiş verilerinizi birden çok varlık oluşuyorsa, tek bir veri akışı varlığa verileri el ile birleştirmelisiniz. Hesaplanmış sütunlar tahmin etmeye çalıştığınız sonucu için güçlü adaylarının olabilecek herhangi bir iş ölçümler için de eklemeniz gerekir.
+Geçerli yayında Power BI, ML modelini eğitmek için yalnızca tek bir varlık kullanır. Bu nedenle, geçmiş verileriniz birden fazla varlıktan oluşuyorsa verileri tek bir veri akışı varlığında el ile birleştirmeniz gerekir. Ayrıca, tahmin etmeye çalıştığınız sonuç için güçlü bir tahmin olabilecek herhangi bir iş ölçümünün hesaplanmış sütunlarını ekleyebilirsiniz.
 
-AutoML, makine öğrenme modeli eğitimi için belirli veri gereksinimleri vardır. Bu gereksinimler, ilgili modeli türlerine göre aşağıdaki bölümlerde açıklanmıştır.
+AutoML bir makine öğrenmesi modelini eğitmek için belirli veri gereksinimlerine sahiptir. Bu gereksinimler, ilgili model türlerine göre aşağıdaki bölümlerde açıklanmıştır.
 
-### <a name="configuring-the-ml-model-inputs"></a>ML model girişleri yapılandırılıyor
+### <a name="configuring-the-ml-model-inputs"></a>ML modeli girişlerini yapılandırma
 
-Bir AutoML modeli oluşturmak için ML simgesini seçin. **eylemleri** sütunu seçin ve geçmiş verileri veri akışı varlık **makine öğrenme modeli Ekle**.
+Bir AutoML modeli oluşturmak için, geçmiş verilerini içeren veri akışı varlığının **Eylemler** sütunundaki ML simgesini seçin ve **Makine öğrenmesi modeli ekle** seçeneğini belirleyin.
 
-![Makine öğrenme modeli ekleme](media/service-machine-learning-automated/automated-machine-learning-power-bi-02.png)
+![Makine öğrenmesi modeli ekleme](media/service-machine-learning-automated/automated-machine-learning-power-bi-02.png)
 
-Basitleştirilmiş bir deneyim, ML model oluşturma işleminde size yol gösterecek bir sihirbaz oluşan başlatılır. Sihirbaz aşağıdaki basit adımları içerir.
+ML modeli oluşturma işleminde size kılavuzluk eden sihirbazın bulunduğu basitleştirilmiş bir deneyim başlatılır. Sihirbaz aşağıdaki adımları içerir.
 
-1. Varlık geçmiş sonuç verileri ve tahmin istediğiniz alanı seçin
+1. Geçmiş sonuç verilerini içeren varlığı ve tahminini istediğiniz alanı seçin
 2. Görmek istediğiniz tahmin türüne göre bir model türü seçin
-3. Tahmine dayalı sinyalleri kullanılacak modelini istediğiniz girişleri seçin
-4. Model adı ve yapılandırmanızı kaydedin
+3. Modelin öngörücü sinyal olarak kullanmasını istediğiniz girişleri seçin
+4. Modelinizi adlandırın ve yapılandırmanızı kaydedin
 
-Aşağıdaki görüntüde gösterilen ML model eğitimi için etiket özniteliği geçmiş sonuç alanı tanımlar.
+Geçmiş sonuç alanı, aşağıdaki görüntüde gösterildiği gibi ML modeli eğitimine yönelik etiket özniteliğini tanımlar.
 
-![Geçmiş sonuç verileri seçme](media/service-machine-learning-automated/automated-machine-learning-power-bi-03.png)
+![Geçmiş sonuç verilerini seçme](media/service-machine-learning-automated/automated-machine-learning-power-bi-03.png)
 
-Geçmiş sonuç alanı belirttiğinizde, AutoML ilişkin verileri eğitilmiş ML modelleri türlerini tanımlamak üzere etiket verileri analiz eder ve eğitim büyük olasılıkla ML model türü önerir. 
+Geçmiş sonuç alanını belirttiğinizde, AutoML etiket verileri için eğitilebilecek ML modeli türlerini tanımlamak amacıyla bu verileri analiz eder ve eğitilebilecek en olası ML modeli türünü önerir. 
 
 > [!NOTE]
-> Bazı model türleri için seçtiğiniz verileri desteklenmiyor olabilir.
+> Bazı model türleri, seçtiğiniz veriler için desteklenmeyebilir.
 
-AutoML ML modeli eğitmek için kullanılan girişleri önermek için seçilen varlığın tüm alanları da analiz eder. Bu işlem yaklaşık bir değerdir ve kullanılan girişleri gözden geçirmeniz gereken şekilde istatistiksel çözümleme dayanır. Geçmiş sonuç alanı (veya etiket alanı) bağımlı olan tüm girişleri, bunlar performansını etkiler. bu yana ML modeli eğitmek için kullanılmamalıdır.
+AutoML ayrıca, ML modeli eğitimi için kullanılabilecek girişleri önermek amacıyla seçili varlıktaki tüm alanları analiz eder. Bu, yaklaşık bir işlemdir ve istatistiksel analizi temel alır, bu nedenle kullanılan girişleri gözden geçirmeniz gerekir. Geçmiş sonuç alanına (veya etiket alanına) bağlı olan hiçbir giriş, kendi performansını etkileyeceğinden ML modelini eğitmek için kullanılmamalıdır.
 
 ![Giriş alanlarını özelleştirme](media/service-machine-learning-automated/automated-machine-learning-power-bi-04.png)
 
-Son adımda, model adını ve ayarlarını kaydedin.
+Son adımda, modeli adlandırıp ayarlarını kaydedebilirsiniz.
 
-Bu aşamada başlar ML model eğitim işlemlerinde veri akışı Yenile istenir.
+Bu aşamada, ML modelini eğitme sürecini başlatan veri akışını yenilemeniz istenir.
 
-### <a name="ml-model-training"></a>ML model eğitimi
+### <a name="ml-model-training"></a>ML modeli eğitimi
 
-Eğitim AutoML modelleri, veri akışı yenileme parçasıdır. AutoML verilerinizi eğitim için ilk hazırlar.
+AutoML modellerinin eğitimi, veri akışını yenilemenin bir parçasıdır. AutoML ilk olarak verilerinizi eğitim için hazırlar.
 
-Eğitim ve test sağladığınız geçmiş verileri AutoML böler. Test veri kümesini eğitim sonra model performansını doğrulamak için kullanılan bir gizleme kümesidir. Bunlar olarak gerçekleşen **eğitim ve test** varlıklarda veri akışı. AutoML çapraz doğrulama, model doğrulama için kullanır.
+AutoML, sağladığınız geçmiş verileri eğitim ve test veri kümelerine böler. Test veri kümesi, eğitimin ardından model performansını doğrulamak için kullanılan bir gizleme kümesidir. Bunlar veri akışında **Eğitim ve Test** varlıkları olarak uygulanır. AutoML, model doğrulaması için çapraz doğrulamayı kullanır.
 
-Ardından, her giriş alanı analiz edilir ve değiştirilen değerlerle değer yerini alan imputation uygulanır. Birkaç farklı imputation stratejileri AutoML tarafından kullanılır. Ardından, tüm gerekli örnekleme ve normalleştirme verilerinize uygulanır.
+Ardından, her giriş alanı analiz edilir ve görevlendirme yapılır. Bu işlem eksik değerlerin yerine değiştirilen değerleri getirir. AutoML tarafından birkaç farklı görevlendirme stratejisi kullanılır. Ardından, gereken her türlü örnekleme ve normalleştirme, verilerinize uygulanır.
 
-AutoML geçerlidir birkaç dönüşümleri olan veri türünü ve istatistiksel özelliklerini göre seçilen her giriş alanı. ML modeliniz eğitim kullanmak için özellikler ayıklamak için bu dönüştürmeleri AutoML kullanır.
+AutoML, her biri veri türüne ve istatistiksel özelliklerine göre seçilmiş giriş alanı olan birkaç dönüşüm uygular. AutoML, ML modelinizi eğitirken kullanılacak özellikleri eğitmek için bu dönüşümleri kullanır.
 
-Eğitim işlem AutoML modelleri için en çok 50 yinelemeler farklı modelleme algoritmaları ve performansı en iyi modeli bulmak için hiper parametre ayarları oluşur. Her biri bu modeller performansını doğrulama gizleme test veri kümesi ile tarafından değerlendirilir. Bu eğitim adımı sırasında AutoML eğitim ve bu yinelemeler doğrulama için birkaç işlem hatları oluşturur. Model performansını değerlendirme işleminin süresi, herhangi bir yere birkaç saat, ayrılmış kapasite kaynakları ve veri kümeniz boyutuna bağlı olarak birkaç dakika sürebilir.
+AutoML modellerinin eğitim süreci, en iyi performansa sahip modeli bulmak için farklı modelleme algoritmalarına ve hiper parametre ayarlarına sahip 50'ye kadar yinelemeden oluşur. Bu modellerin her birinin performansı, gizleme testi veri kümesiyle doğrulama yapılarak değerlendirilir. Bu eğitim adımı sırasında AutoML, bu yinelemelerin eğitimi ve doğrulanması için birkaç işlem hattı oluşturur. Veri kümenizin boyutuna ve kullanılabilir ayrılmış kapasite kaynaklarına bağlı olarak, modellerin performansını değerlendirme işlemi birkaç dakika ile birkaç saat arasında sürebilir.
 
-Bazı durumlarda, oluşturulan son modelin learning, Tahmine dayalı daha iyi bir performans sağlamak üzere birden çok modeli kullanıldığı topluluğu kullanabilir.
+Bazı durumlarda, oluşturulan son model daha iyi tahmine dayalı performans sağlamak için birden çok modelin kullanıldığı grup öğrenmesini kullanabilir.
 
-### <a name="automl-model-explainability"></a>AutoML modeli explainability
+### <a name="automl-model-explainability"></a>AutoML modelinin açıklanabilirliği
 
-Eğitilen modelin sonra AutoML giriş özellikleri ve model çıktısını arasındaki ilişkiyi analiz eder. Bu değişiklik gizleme test veri giriş her özellik için model çıktısını yönünü ve büyüklük değerlendirir. Bu olarak bilinir *özellik önem*.
+Model eğitildikten sonra AutoML, giriş özellikleri ile model çıkışı arasındaki ilişkiyi analiz eder. Her giriş özelliği için gizleme test veri kümesinin model çıkışındaki değişikliğin büyüklüğünü ve yönünü değerlendirir. Bu, *özelliğin önemi* olarak bilinir.
 
-![Özellik önem derecesi](media/service-machine-learning-automated/automated-machine-learning-power-bi-05.png)
+![Özelliğin önemi](media/service-machine-learning-automated/automated-machine-learning-power-bi-05.png)
 
-### <a name="automl-model-report"></a>AutoML modeli rapor
+### <a name="automl-model-report"></a>AutoML model raporu
 
-AutoML model performansını genel özellik önem yanı sıra, doğrulama sırasında özetleyen bir Power BI rapor oluşturur. Rapor sonuçları ML model gizleme test verilerine uygulanan ve Öngörüler bilinen sonucu değerlerle karşılaştırmak özetler.
+AutoML, genel özellik önemiyle birlikte doğrulama sırasında modelin performansını özetleyen bir Power BI raporu oluşturur. Rapor, ML modelinin gizleme test verilerine uygulanması ve bilinen sonuç değerleriyle tahminlerin karşılaştırılması sonucunda elde edilecek sonuçları özetler.
 
-Performansı anlamak için model raporu gözden geçirebilirsiniz. Ayrıca, kilit modelin bilinen sonuçlar hakkında iş öngörülerle Hizala doğrulayabilirsiniz.
+Performansını anlamak için model raporunu gözden geçirebilirsiniz. Ayrıca, modelin önemli etkileyicilerinin bilinen sonuçlar hakkındaki iş öngörüleriyle uyumlu olduğunu doğrulayabilirsiniz.
 
-Grafikler ve ölçüleri rapordaki model performansını açıklamak için kullanılan model türüne bağlıdır. Bu performans grafiklerini ve ölçüler aşağıdaki bölümlerde açıklanmıştır.
+Rapordaki model performansını açıklamak için kullanılan grafikler ve ölçüler model türüne bağlıdır. Bu performans grafikleri ve ölçümler aşağıdaki bölümlerde açıklanmıştır.
 
-Ek rapor sayfalarındaki bir veri bilimi açısından modeli hakkında istatistiksel ölçüler açıklayabilir. Örneğin, **ikili tahmin** kazanç grafik ve modelin ROC eğrisi rapor içerir.
+Rapordaki ek sayfalar, modelle ilgili istatistiksel ölçümleri bir veri bilimi perspektifinden açıklayabilir. Örneğin, **İkili Tahmin** raporu bir kazanç grafiği ve modelin ROC eğrisini içerir.
 
-Raporları de bir **Eğitim ayrıntıları** nasıl model eğitim almış ve model performansını her yineleme açıklayan bir grafik içeren bir açıklama içeren sayfasında çalışır.
+Raporlar ayrıca modelin nasıl eğitildiğine ilişkin açıklama içeren bir **Eğitim Ayrıntıları** sayfası ve yineleme çalıştırmalarının her birindeki model performansını açıklayan bir grafik içerir.
 
 ![Eğitim ayrıntıları](media/service-machine-learning-automated/automated-machine-learning-power-bi-06.png)
 
-Bu sayfada başka bir bölüme modelinde kullanılan özellikler ayıklamak için her girdi alanına dönüştürüldü nasıl nasıl imputation yöntemi eksik değerler için giriş alanlarını doldurmak için de kullanılan açıklar. Ayrıca, son model tarafından kullanılan parametreler içerir.
+Bu sayfadaki başka bir bölümde, giriş alanları için eksik değerleri doldurmak üzere görevlendirme yönteminin nasıl kullanıldığı ve her giriş alanının modelde kullanılan özellikleri ayıklamak için nasıl dönüştürülebildiği açıklanmaktadır. Ayrıca son model tarafından kullanılan parametreleri içerir.
 
-![Daha fazla bilgi için model](media/service-machine-learning-automated/automated-machine-learning-power-bi-07.png)
+![Model hakkında daha fazla bilgi](media/service-machine-learning-automated/automated-machine-learning-power-bi-07.png)
 
-Oluşturulan model topluluğu öğrenme kullanıyorsa, ardından **Eğitim ayrıntıları** sayfa parametrelerini yanı sıra topluluğu bağlı her modelinde ağırlığını açıklayan bir bölümü de içerir.
+Oluşturulan model grup öğrenmesi kullanıyorsa, **Eğitim Ayrıntıları** sayfasında grubu oluşturan her bir üyenin ağırlığını ve parametrelerini açıklayan bir bölüm de bulunur.
 
-![Topluluğu içinde ağırlık](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
+![Gruptaki ağırlık](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
 
-## <a name="applying-the-automl-model"></a>AutoML modeli uygulama
+## <a name="applying-the-automl-model"></a>AutoML modelini uygulama
 
-Oluşturulan ML model performansını memnun kalırsanız, veri akışı yenilendiğinde, yeni veya güncelleştirilmiş verilerin uygulayabilirsiniz. Model rapordan seçerek bunu yapabilirsiniz **Uygula** sağ üst köşesindeki düğme.
+Oluşturulan ML modelinin performansından memnunsanız, veri akışınız yenilendiğinde modeli yeni veya güncelleştirilmiş verilere uygulayabilirsiniz. Bu işlemi model raporundan sağ üst köşedeki **Uygula** düğmesini seçerek yapabilirsiniz.
 
-ML model uygulamak için bu varlık için model çıktısını eklenecek sütunları için varlık için bunun uygulanması gerekir ve bir önek adını belirtmeniz gerekir. Sütun adları için varsayılan model adını önekidir. *Uygula* işlevi için model türü belirli ek parametreler içerebilir.
+ML modelini uygulamak için, uygulanması gereken varlığın adını ve model çıkışı için bu varlığa eklenecek sütunların ön ekini belirtmeniz gerekir. Sütun adları için varsayılan ön ek, model adıdır. *Uygula* işlevi, model türüne özgü ek parametreler içerebilir.
 
-ML model uygulama, yeni bir veri akışı varlık sonekiyle oluşturur **< model_adı > zenginleştirilmiş**. Örneğin, uygularsanız, _PurchaseIntent_ için model _OnlineShoppers_ varlık, çıktı üretir **OnlineShoppers zenginleştirilmiş PurchaseIntent**.
+ML modelinin uygulanması, **zenginleştirilmiş <model_adı>** son ekiyle yeni bir veri akışı varlığı oluşturur. Örneğin, _PurchaseIntent_ modelini _OnlineShoppers_ varlığına uygularsanız, çıkış **OnlineShoppers zenginleştirilmiş PurchaseIntent** varlığını oluşturur.
 
-Şu anda, çıktı varlık Power Query Düzenleyicisi'nde ML model sonuçlarını önizlemek için kullanılamaz. Çıkış sütunu, sonuç olarak null gösterir. İkinci sonuçlarını görüntülemek için varlık sonekine sahip çıkış **< model_adı > Önizleme zenginleştirilmiş** modeli uygulandığında oluşturulur.
+Şu anda çıkış varlığı, Power Query düzenleyicisinde ML modeli sonuçlarının önizlemesi için kullanılamamaktadır. Çıkış sütunları sonuç olarak her zaman null gösterir. Sonuçları görüntülemek için, model uygulandığında **zenginleştirilmiş <model_adı> Önizlemesi** son ekiyle ikinci bir çıkış varlığı oluşturulur.
 
-Sorgu Düzenleyicisi'nde sonuçlarını önizlemek için veri akışı yenilemeniz gerekir.
+Sorgu Düzenleyicisinde sonuçların önizlemesini görmek için veri akışını yenilemeniz gerekir.
 
-![Sorgu Düzenleyicisi](media/service-machine-learning-automated/automated-machine-learning-power-bi-09.png)
+![Sorgu düzenleyicisi](media/service-machine-learning-automated/automated-machine-learning-power-bi-09.png)
 
-Model uyguladığınızda, veri akışı yenilendiğinde AutoML her zaman, Öngörüler güncel kalmasını sağlar.
+Modeli uyguladığınızda, veri akışının yenilenmesi durumunda AutoML her zaman tahminlerinizi güncel tutar.
 
-AutoML, ayrıca çıktı varlığındaki puanlar, her satır için bireyselleştirilmiş bir açıklama içerir.
+AutoML ayrıca çıkış varlığında puanladığı her satır için kişiselleştirilmiş bir açıklama içerir.
 
-Power BI raporunda Öngörüler ve tahminler ML modelinden kullanmak için çıktı varlığına Power BI Desktop kullanarak bağlanabilir **veri akışlarını** bağlayıcı.
+Bir Power BI raporundaki ML modelinden içgörü ve tahminleri kullanmak için, **dataflows** bağlayıcısını kullanarak Power BI Desktop’tan çıkış varlığına bağlanabilirsiniz.
 
-## <a name="binary-prediction-models"></a>İkili tahmin modellerini
+## <a name="binary-prediction-models"></a>İkili Tahmin Modelleri
 
-Daha eski adıyla bilinen ikili tahmin modellerini **ikili sınıflandırma modellerini**, bir veri kümesi ikiye sınıflandırmak için kullanılır. Bir hesap karmaşıklığı olsun, fatura zamanında ödenmez olup olmadığını mı satış fırsatı dönüştürülecek gibi ikili bir sonucu olabilir olayları öngörmek için kullanılırlar; bir işlem sahte vb. olup olmadığı.
+Daha resmi adıyla **ikili sınıflandırma modelleri** olarak bilinen İkili Tahmin modelleri, bir veri kümesini iki grup halinde sınıflandırmak için kullanılır. Bir satış fırsatının dönüştürüp dönüştürmeyeceği, bir hesabın değişip değişmeyeceği, bir faturanın zamanında ödenip ödenmeyeceği, bir işlemin hileli olup olmadığı vb. ikili sonucu olan olayları tahmin etmek için kullanılır.
 
-Sonucu ikili olduğundan, Power BI ile etiketlenmiş bilinen sonuçları bir Boolean olmasını ikili bir tahmin modeli etiketi bekliyor **true** veya **false**. Örneği için bir satış fırsatı dönüştürme modelde kazanılmış satış fırsatları true olarak etiketlenmiştir, kaybolmuş o false etiketlenir ve açık satış fırsatları null olarak etiketlenir.
+Sonuç ikili olduğundan, Power BI bir ikili tahmin modelinin etiketinin Boole olmasını ve bilinen sonuçların **true** veya **false** olarak etiketlenmesini bekler. Örneğin, bir satış fırsatı dönüştürme modelinde kazanılan satış fırsatları true, kaybedilmiş olanlar false etiketlidir ve açık satış fırsatları null olarak etiketlenir.
 
-Çıkış ikili bir tahmin modeli true olan bir etiket değerine karşılık gelen sonuç elde ettiği olasılığını tanımlayan bir olasılık puanı alınır.
+İkili Tahmin modelinin çıkışı, true etiket değerine karşılık gelen sonucun elde edilme olasılığını tanımlayan bir olasılık puandır.
 
-### <a name="training-a-binary-prediction-model"></a>İkili bir tahmin modeli
+### <a name="training-a-binary-prediction-model"></a>İkili Tahmin modelini eğitme
 
-Eğitim verilerinizi içeren giriş varlığı ikili bir tahmin modeli oluşturmak için son bilinen sonuçlarını tanımlamak için geçmiş sonuç alanı bir Boole alanı olmalıdır.
+İkili Tahmin modeli oluşturmak için, eğitim verilerinizi içeren giriş varlığının, bilinen geçmiş sonuçları tanımlamak için geçmiş sonuç alanı olarak bir Boole alanına sahip olması gerekir.
 
-Ön koşullar:
+Önkoşullar:
 
-* Bir Boolean alan geçmiş sonuç alanı kullanılmalıdır
-* Bir en az 50 satır geçmiş verilerin sonuçlar her bir sınıf için gereklidir.
+* Geçmiş sonuç alanı olarak bir Boole alanı kullanılmalıdır
+* Her sonuç sınıfı için en az 50 satır geçmiş veri gereklidir
 
-Genel olarak, geçmiş sonuçlarını başka bir veri türüne alanlarla tanımladıysanız, bu Power Query kullanarak bir Boole değeri dönüştürmek için hesaplanmış bir sütun ekleyebilirsiniz.
+Genel olarak, geçmiş sonuçlar farklı bir veri türündeki alanlarla tanımlanıyorsa bunları Power Query kullanarak Boole değerine dönüştürmek için bir hesaplanmış sütun ekleyebilirsiniz.
 
-İkili bir tahmin modeli aynı izleyen için bölümünde açıklanan diğer AutoML modelleri oluşturma işlemi adımları **ML model girişlerini yapılandırma** yukarıda.
+İkili Tahmin modeli oluşturma işlemi, yukarıdaki **ML modeli girişlerini yapılandırma** bölümünde açıklanan diğer AutoML modelleriyle aynı adımları izler.
 
-### <a name="binary-prediction-model-report"></a>İkili tahmin modeli rapor
+### <a name="binary-prediction-model-report"></a>İkili Tahmin modeli raporu
 
-İkili bir tahmin modeli bir çıktı olarak bir kayıt Boole etiket değeri True olarak tanımlanan sonucu elde edecek bir olasılık oluşturur. Rapor Dilimleyici üstünde ve altında olasılık eşiği puanları yorumlanma şeklini etkiler olasılık eşiği için içerir.
+İkili Tahmin modeli, bir kaydın Boole etiket değeri tarafından True olarak tanımlanan sonuca ulaşma olasılığını çıkarır. Rapor, olasılık eşiğinin üstünde ve altındaki puanların nasıl yorumlandığını etkileyen bir dilimleyici içerir.
 
-Rapor modeli açısından performansını açıklar *doğru pozitif sonuçlar*, *hatalı pozitif sonuçları*, *True negatif* ve *False negatif*. Gerçek pozitif sonuç ve gerçek negatif sonuç verileri iki sınıfları için doğru şekilde tahmin sonuçlarını var. Hatalı pozitif sonuçları gerçek değeri False Boolean etiketi gerekiyordu, ancak doğru olarak tahmin sonuçlar ' dir. Buna karşılık, yanlış negatif burada gerçek Boole etiket değerinin True olduğu ancak False tahmin sonuçlar ' dir.
+Rapor, modelin performansını *Gerçek Pozitifler*, *Hatalı Pozitifler*, *Gerçek Negatifler* ve *Hatalı Negatifler* cinsinden açıklar. Gerçek Pozitifler ve Gerçek Negatifler, çıkış verilerindeki iki sınıfın doğru şekilde tahmin edilmiş sonuçlardır. Hatalı Pozitifler ise gerçekte False değerine sahip bir Boole etiketi olup True olarak tahmin edilmiş sonuçlardır. Buna karşılık, Hatalı Negatifler gerçek Boole etiketi değerinin True olmasına rağmen False olarak tahmin edildiği sonuçlardır.
 
-Ölçüler, duyarlık ve geri çağırma, gibi tahmin edilen sonuçları temel olasılık eşiği etkisini açıklar. Duyarlık ve geri çağırma arasında dengeli bir dağılım elde eden bir eşiği seçmek için olasılık eşiği Dilimleyici kullanabilirsiniz.
+Duyarlılık ve Yakalama gibi ölçüler, öngörülen sonuçlar üzerinde olasılık eşiğinin etkisini anlatmaktadır. Duyarlık ile Yakalama arasında dengeli bir uzlaşma sağlayan eşiği seçmek için olasılık eşiği dilimleyicisini kullanabilirsiniz.
 
-![Doğruluk Önizleme](media/service-machine-learning-automated/automated-machine-learning-power-bi-10.png)
+![Doğruluk önizlemesi](media/service-machine-learning-automated/automated-machine-learning-power-bi-10.png)
 
-**Doğruluğu rapor** model rapor sayfasını içerir *toplu kazançlar* grafiği ve ROC eğrisi için model. Bu model performansını istatistiksel yöntemleridir. Raporlar, gösterilen grafikleri açıklamalarını içerir.
+Model raporunun **Doğruluk Raporu** sayfasında, *Kümülatif Kazançlar* grafiği ve modelin ROC eğrisi bulunur. Bunlar, model performansının istatistiksel ölçüleridir. Raporlar gösterilen grafiklerin açıklamalarını içerir.
 
-![Doğruluk rapor ekranı](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
+![Doğruluk raporu ekranı](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
-### <a name="applying-a-binary-prediction-model"></a>İkili bir tahmin modeli uygulama
+### <a name="applying-a-binary-prediction-model"></a>İkili Tahmin modeli uygulama
 
-İkili bir tahmin modeli uygulamak için Öngörüler ML modelinden uygulamak istediğiniz verileri içeren varlık belirtmeniz gerekir. Diğer parametreler, çıkış sütun adı ön eki ve tahmin edilen sonucu sınıflandırmak için olasılık eşiği içerir.
+İkili tahmin modelini uygulamak için, ML modelinden tahminleri uygulamak istediğiniz verileri içeren varlığı belirtmeniz gerekir. Diğer parametreler, çıkış sütunu adı önekini ve tahmin edilen sonucun sınıflandırılmasına yönelik olasılık eşiğini içerir.
 
 ![Tahmin girişleri](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
 
-İkili bir tahmin modeli uygulandığında zenginleştirilmiş çıktı varlığına üç çıktı sütunu ekler. Bunlar **PredictionScore**, **PredictionOutcome** ve **PredictionExplanation**. Sütun adları varlık modeli uygulandığında Belirtilen önek sahip.
+Bir İkili Tahmin modeli uygulandığında zenginleştirilmiş çıkış varlığına üç çıkış sütunu ekler. Bunlar **PredictionScore**, **PredictionOutcome** ve **PredictionExplanation** sütunlarıdır. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
-**PredictionOutcome** sütun tahmin edilen sonucu etiketi içerir. Eşiği aşan olasılıklar kayıtlarla sonucu elde etmek üzere olası olarak tahmin ve altındaki sonucu elde etmek üzere olası tahmin.
+**PredictionOutcome** sütunu tahmin edilen sonuç etiketini içerir. Eşiği aşma olasılıklarını içeren kayıtların sonuca ulaşma olasılığı yüksek olarak tahmin edilir, eşiğin altında kalanların ise sonuca ulaşma olasılığı düşük olarak tahmin edilir.
 
-**PredictionExplanation** sütun içeren giriş özellikleri olan üzerinde belirli etki tarayamadığına **PredictionScore**. Bu giriş özellikleri tahmin için ağırlıkları, JSON biçimli koleksiyonudur.
+**PredictionExplanation** sütunu, giriş özelliklerinin **PredictionScore** üzerinde sahip olduğu etki ile birlikte bir açıklama içerir. Bu, tahmine yönelik giriş özelliklerinin ağırlıklarından oluşan JSON biçimli bir koleksiyondur.
 
 ## <a name="classification-models"></a>Sınıflandırma modelleri
 
-Sınıflandırma modelleri, bir veri kümesi birden çok grup veya sınıf sınıflandırmak için kullanılır.  Bir müşteri çok yüksek, yüksek, Orta veya düşük ömrü değeri olasılığı olup gibi birden çok olası sonuçlarını birine sahip olabilir olayları öngörmek için kullanılırlar; Varsayılan riski yüksek, Orta, düşük veya çok düşük olup; ve benzeri.
+Sınıflandırma modelleri, bir veri kümesini birden çok grup veya sınıfa ayırmak için kullanılır.  Bunlar, müşterinin çok yüksek, yüksek, orta veya düşük Ömür Değerine sahip olma olasılığı, varsayılan riskin Yüksek, Orta, Düşük veya Çok Düşük olması vb. birden çok olası sonuçtan birine sahip olabilecek olayları tahmin etmek için kullanılır.
 
-Bir kaydın belirli bir sınıfın ölçütleri elde edecek olasılığını tanımlayan bir olasılık puanı, sınıflandırma modeli çıktıdır.
+Sınıflandırma modelinin çıkışı, bir kaydın belirli bir sınıfa yönelik ölçütlere ulaşmasının olasılığını belirleyen bir olasılık puandır.
 
-### <a name="training-a-classification-model"></a>Sınıflandırma modeli
+### <a name="training-a-classification-model"></a>Sınıflandırma modeli eğitimi
 
-Sınıflandırma modeli için eğitim verilerinizi içeren giriş varlığı, son bilinen sonuçlarını tanımlayan geçmiş sonuç alanı bir dize veya sayısal alan olması gerekir.
+Sınıflandırma modeline ait eğitim verilerinizi içeren giriş varlığının, bilinen geçmiş sonuçları tanımlayan geçmiş sonuç alanı olarak bir dize veya sayısal alana sahip olması gerekir.
 
-Ön koşullar:
+Önkoşullar:
 
-* Bir en az 50 satır geçmiş verilerin sonuçlar her bir sınıf için gereklidir.
+* Her sonuç sınıfı için en az 50 satır geçmiş veri gereklidir
 
-İçin bir sınıflandırma modeli aynı aşağıdaki bölümünde açıklanan diğer AutoML modelleri oluşturma işlemi adımları **ML model girişlerini yapılandırma** yukarıda.
+Sınıflandırma modeli oluşturma işlemi, yukarıdaki **ML modeli girişlerini yapılandırma** bölümünde açıklanan diğer AutoML modelleriyle aynı adımları izler.
 
-### <a name="classification-model-report"></a>Sınıflandırma modeli rapor
+### <a name="classification-model-report"></a>Sınıflandırma modeli raporu
 
-Sınıflandırma modeli rapor ML model gizleme için uygulama tarafından üretilen test verileri ve bir kayıt için tahmin edilen sınıf gerçek bilinen sınıfı ile karşılaştırma.
+Sınıflandırma modeli raporu, ML modelinin gizleme test verilerine uygulanmasıyla ve bir kaydın tahmin edilen sınıfı gerçek bilinen sınıfla karşılaştırılarak oluşturulur.
 
-Model rapor dökümü bilinen her sınıf için doğru ve hatalı sınıflandırılmış kayıtları içeren bir grafik içerir.
+Model raporu, bilinen her sınıf için doğru ve yanlış sınıflandırılmış kayıtların dökümünden oluşan bir grafik içerir.
 
-![Rapor modeli](media/service-machine-learning-automated/automated-machine-learning-power-bi-13.png)
+![Model raporu](media/service-machine-learning-automated/automated-machine-learning-power-bi-13.png)
 
-Bir başka sınıf özel ayrıntılı Öngörüler bilinen bir sınıf için nasıl dağıtıldığını analiz sağlar. Bu sınıf bilinen kayıtlarını bildireceğinizi olasılığı olan diğer sınıflar içerir.
+Sınıfa özgü daha fazla ayrıntıya gitmek, bilinen bir sınıfa yönelik tahminlerin nasıl dağıtıldığına ilişkin bir analiz sağlar. Bu analize, söz konusu bilinen sınıfın kayıtlarının hatalı sınıflandırılabileceği diğer sınıflar dahildir.
 
 ![Analiz raporu](media/service-machine-learning-automated/automated-machine-learning-power-bi-14.png)
 
-Rapor modeli açıklamada her sınıf için üst adaylarının de içerir.
+Rapordaki model açıklaması her sınıf için en iyi tahmin unsurlarını da içerir.
 
-Sınıflandırma modeli rapor ayrıca bölümünde açıklandığı gibi diğer model türleri için sayfalara benzer bir eğitim Ayrıntıları sayfası içerir **AutoML model rapor** bu makalenin üst kısmındaki.
+Sınıflandırma modeli raporu ayrıca bu makalenin önceki kısımlarında yer alan **AutoML model raporu** bölümünde açıklandığı gibi diğer model türlerinin sayfalarına benzer bir Eğitim Ayrıntıları sayfası içerir.
 
-### <a name="applying-a-classification-model"></a>Bir sınıflandırma modeli uygulama
+### <a name="applying-a-classification-model"></a>Sınıflandırma modelini uygulama
 
-Sınıflandırma ML model uygulamak isterseniz girdi verilerini ve çıktı sütun adı ön eki ile varlık belirtmeniz gerekir.
+Bir Sınıflandırma ML modelini uygulamak için, giriş verileri ve çıkış sütunu adı ön ekiyle birlikte varlığı belirtmeniz gerekir.
 
-Bir sınıflandırma modeli uygulandığında, üç sütun zenginleştirilmiş çıktı varlığına çıkış biçimi ekler. Bunlar **PredictionScore**, **PredictionClass** ve **PredictionExplanation**. Sütun adları varlık modeli uygulandığında Belirtilen önek sahip.
+Bir Sınıflandırma modeli uygulandığında zenginleştirilmiş çıkış varlığına üç çıkış sütunu ekler. Bunlar **PredictionScore**, **PredictionClass** ve **PredictionExplanation** sütunlarıdır. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
-**PredictionClass** sütun kaydı için büyük olasılıkla tahmin edilen sınıf içerir. **PredictionScore** sütun kayıt olası her sınıf için olasılık puanları listesini içerir.
+**PredictionClass** sütunu, kayıt için en yüksek olasılıkla tahmin edilen sınıfı içerir. **PredictionScore** sütunu, her olası sınıfın kaydına ait olasılık puanlarının listesini içerir.
 
-**PredictionExplanation** sütun içeren giriş özellikleri olan üzerinde belirli etki tarayamadığına **PredictionScore**. Bu giriş özellikleri tahmin için ağırlıkları, JSON biçimli koleksiyonudur.
+**PredictionExplanation** sütunu, giriş özelliklerinin **PredictionScore** üzerinde sahip olduğu etki ile birlikte bir açıklama içerir. Bu, tahmine yönelik giriş özelliklerinin ağırlıklarından oluşan JSON biçimli bir koleksiyondur.
 
 ## <a name="regression-models"></a>Regresyon modelleri
 
-Regresyon modelleri, bir satış işlem, bir hesap yaşam süresi değeri, fatura ödeme tarih Ücretli büyük olasılıkla alacak bir fatura tutarı getireceği büyük olasılıkla gelir gibi bir değeri tahmin etmek için kullanılır , ve benzeri.
+Regresyon modelleri, bir satış kaynağından gerçekleştirilme olasılığı yüksek olan gelir, bir hesabın ömür değeri, ödenme olasılığı yüksek bir alacak faturasının tutarı, bir faturanın ödenebileceği tarih gibi bir değeri tahmin etmek için kullanılır.
 
-Bir regresyon modeli çıktı tahmin edilen bir değerdir.
+Regresyon modelinin çıkışı, tahmin edilen değerdir.
 
-### <a name="training-a-regression-model"></a>Bir regresyon modeli eğitimi
+### <a name="training-a-regression-model"></a>Regresyon modeli eğitimi
 
-Bir regresyon modeli için eğitim verilerini içeren giriş varlığı, son bilinen sonuç değerleri tanımlar. geçmiş sonuç alanı sayısal alan olması gerekir.
+Regresyon modeline ait eğitim verilerinizi içeren giriş varlığının, bilinen geçmiş sonuç değerlerini tanımlayan geçmiş sonuç alanı olarak bir sayısal alana sahip olması gerekir.
 
-Ön koşullar:
+Önkoşullar:
 
-* 100 satır geçmiş verilerin en az bir regresyon modeli için gereklidir
+* Regresyon modeli için en az 100 satır geçmiş veri gereklidir
 
-İçin aynı bir regresyon modeli aşağıdaki bölümünde açıklanan diğer AutoML modelleri oluşturma işlemi adımları **ML model girişlerini yapılandırma** yukarıda.
+Regresyon modeli oluşturma işlemi, yukarıdaki **ML modeli girişlerini yapılandırma** bölümünde açıklanan diğer AutoML modelleriyle aynı adımları izler.
 
-### <a name="regression-model-report"></a>Regresyon modeli rapor
+### <a name="regression-model-report"></a>Regresyon modeli raporu
 
-Diğer AutoML modeli raporları gibi regresyon rapor modeli gizleme test verileri uygulama sonuçları temel alır.
+Diğer AutoML model raporları gibi Regresyon raporu da modelin gizleme test verilerine uygulanmasından elde edilen sonuçları temel alır.
 
-Model rapor tahmin edilen değerlere gerçek değeri karşılaştıran bir grafik içerir. Bu grafikte, çapraz mesafe tahmin hata gösterir.
+Model raporu, tahmin edilen değerleri gerçek değerle karşılaştıran bir grafik içerir. Bu grafikte köşegenden uzaklık, tahmindeki hatayı gösterir.
 
-Kalan hata grafik gizleme test kümesinde farklı değerler için ortalama hata yüzde dağılımını gösterir. Yatay eksen, söz konusu aralıktaki sıklığı veya değerlerin sayısını gösteren Kabarcık boyutu ile gerçek değer için grup ortalaması temsil eder. Dikey eksen ortalama kalan hatadır.
+Fazlalık hata grafiği, gizleme testi veri kümesindeki farklı değerler için ortalama hata yüzdesinin dağılımını gösterir. Yatay eksen, grubun gerçek değerinin ortalamasını, söz konusu aralıktaki sıklığı veya değer sayısını gösteren kabarcığın boyutuyla temsil eder. Dikey eksen ortalama fazlalık hatasıdır.
 
-![Kalan hata grafiği](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
+![Fazlalık hata grafiği](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
 
-Regresyon modeli rapor ayrıca bölümünde açıklandığı gibi diğer model türleri için raporları gibi bir eğitim Ayrıntıları sayfası içerir **AutoML model rapor** yukarıda.
+Regresyon modeli raporu ayrıca yukarıdaki **AutoML model raporu** bölümünde açıklandığı gibi diğer model türlerinin raporlarına benzer bir Eğitim Ayrıntıları sayfası içerir.
 
-### <a name="applying-a-regression-model"></a>Bir regresyon modeli uygulama
+### <a name="applying-a-regression-model"></a>Regresyon modelini uygulama
 
-Regresyon ML model uygulamak isterseniz girdi verilerini ve çıktı sütun adı ön eki ile varlık belirtmeniz gerekir.
+Bir Regresyon ML modelini uygulamak için, giriş verileri ve çıkış sütunu adı ön ekiyle birlikte varlığı belirtmeniz gerekir.
 
-![Bir regresyon Uygula](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
+![Regresyon uygulama](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Bir regresyon modeli uygulandığında zenginleştirilmiş çıktı varlığına iki çıkış sütunu ekler. Bunlar **PredictionValue**, ve **PredictionExplanation**. Sütun adları varlık modeli uygulandığında Belirtilen önek sahip.
+Bir Regresyon modeli uygulandığında zenginleştirilmiş çıkış varlığına iki çıkış sütunu ekler. Bunlar **PredictionValue** ve **PredictionExplanation** sütunlarıdır. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
-**PredictionValue** sütunu giriş alanlara göre kayıt için tahmin edilen bir değer içeriyor. **PredictionExplanation** sütun içeren giriş özellikleri olan üzerinde belirli etki tarayamadığına **PredictionValue**. Bu giriş özellikleri kalınlığını, JSON biçimli koleksiyonudur.
+**PredictionValue** sütunu, giriş alanlarını temel alarak kaydın tahmin edilen değerini gösterir. **PredictionExplanation** sütunu, giriş özelliklerinin **PredictionValue** üzerinde sahip olduğu etki ile birlikte bir açıklama içerir. Bu, giriş özelliklerinin ağırlıklarından oluşan JSON biçimli bir koleksiyondur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu makalede, Power BI hizmetinde veri akışı için Machine Learning otomatik genel bir bakış sağlanan. Aşağıdaki makaleler de yararlı olabilir.
+Bu makalede, Power BI hizmetinde Veri Akışları için Otomatik Makine Öğrenmesi’ne genel bir bakış verilmiştir. Aşağıdaki makaleler de yararlı olabilir.
 
-* [Öğretici: Power BI (Önizleme) bir Machine Learning modeli derlemeyi](service-tutorial-build-machine-learning-model.md)
+* [Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma (Önizleme)](service-tutorial-build-machine-learning-model.md)
 * [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
 * [Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI’da Bilişsel Hizmetler (Önizleme)](service-cognitive-services.md)
@@ -284,9 +284,9 @@ Bu makalede, Power BI hizmetinde veri akışı için Machine Learning otomatik g
 
 Veri akışları hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium'da hesaplanan varlıkları kullanma](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
-* [Power BI veri akışı için geliştirici kaynaklar](service-dataflows-developer-resources.md)
+* [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 

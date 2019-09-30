@@ -1,28 +1,33 @@
 ---
 title: Power BI Sayfalandırılmış Rapor Oluşturucusu
 description: Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.
-ms.date: 06/06/2019
+ms.date: 09/16/2019
 ms.service: powerbi
 ms.subservice: report-builder
+featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 7ae945be1941fea4303b5cc74f9a2a4f104e8754
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840499"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076073"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI Sayfalandırılmış Rapor Oluşturucusu
 
  Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
 
+Videolardan öğrenmeyi mi tercih ediyorsunuz? Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki Power BI sayfalandırılmış raporlar video serisine göz atın.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+
+Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafikler, göstergeler ve köşe hücresinde özet pasta grafiğiyle bir matris bulunur. Bu matrise renklerle ve daire boyutlarıyla gösterilen iki coğrafi veri kümesinin olduğu bir harita eşlik eder.  
+
 ![Power BI hizmetinde sayfalandırılmış rapor](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
- Bu sayfalandırılmış raporda satır ve sütun grupları, mini grafikler, göstergeler ve köşe hücresinde özet pasta grafiğiyle bir matris bulunur. Bu matrise renklerle ve daire boyutlarıyla gösterilen iki coğrafi veri kümesinin olduğu bir harita eşlik eder.  
-  
 ##  <a name="JumpStartReptCreation"></a> Rapor oluşturmaya hızlı başlangıç yapın  
  
 -   **Tablo, Matris veya Grafik sihirbazıyla başlayın**. Veri kaynağı bağlantısı oluşturun, alanları sürükleyip bırakarak bir veri kümesi sorgusu oluşturun, bir düzen ve stil seçin ve raporunuzu özelleştirin.  
@@ -52,6 +57,9 @@ ms.locfileid: "66840499"
 -   **Sunu biçimini** raporunuzu açarken veya raporu açtıktan sonra seçin. Web tabanlı, sayfa odaklı ve masaüstü uygulaması biçimlerini seçebilirsiniz. Biçimler MHTML, PDF, XML, CSV, Word ve Excel'dir.  
   
 -   **Abonelikleri ayarlayın.** Raporu Power BI hizmetinde yayımladıktan sonra, belirli bir zamanda çalıştırılmak üzere yapılandırabilir ve e-posta aboneliği olarak gönderebilirsiniz.  
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
+
+- Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki [Power BI sayfalandırılmış raporlar video serisini](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) izleyin

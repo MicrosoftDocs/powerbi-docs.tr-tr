@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655142"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175254"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -47,6 +47,7 @@ Portalda dokuz sekme vardır. Bu makalenin kalan bölümünde bu sekmelerden her
 * [Kuruluş görselleri](#organizational-visuals)
 * [Veri akışı depolama (önizleme)](#dataflowStorage)
 * [Çalışma alanları](#workspaces)
+* [Özel marka](#custom-branding)
 
 ## <a name="usage-metrics"></a>Kullanım ölçümleri
 
@@ -432,7 +433,7 @@ Kuruluştaki hangi kullanıcıların **[AppSource](https://appsource.microsoft.c
 
 ![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
-## <a name="capacity-settings"></a>Güvenlik ayarları
+## <a name="capacity-settings"></a>Kapasite ayarları
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -522,7 +523,22 @@ Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsi
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Özel marka
 
+Yönetici olarak, tüm kuruluşunuz için Power BI görünümünü özelleştirebilirsiniz. Şu anda üç ana seçenek vardır:
+
+![Özel marka seçenekleri](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Logo Yükle**: En iyi sonuçlar için .png olarak kaydedilmiş, 10 KB veya daha küçük boyutta ve en az 200 x 30 piksel çözünürlüğe sahip bir logo yükleyin.
+
+* **Kapak resmi yükle**: En iyi sonuçlar için .jpg veya .png olarak kaydedilmiş, 1 MB veya daha küçük boyutta ve en az 1920 x 160 piksel çözünürlüğe sahip bir kapak resmi yükleyin.
+
+* **Tema rengi seç**: Bir onaltılık numara, RGB, değere göre veya verilen paletten temanızı seçebilirsiniz.
+
+
+Daha fazla bilgi için bkz. [Kuruluşunuz için özel marka oluşturma](http://aka.ms/orgBranding).
+
+![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  

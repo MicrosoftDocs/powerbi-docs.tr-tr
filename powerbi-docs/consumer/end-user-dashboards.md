@@ -3,20 +3,19 @@ title: Pano nedir ve panoyu nasıl açabilirim?
 description: Panolar, Power BI hizmetinin temel özelliklerinden biridir.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608341"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141939"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panoların Power BI hizmeti tüketicileri için anlamı
 
@@ -54,8 +53,8 @@ Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarl
 | Temel alınan veri kümesi tablolarını ve alanlarını görme |Hayır. Verileri dışarı aktarabilir ancak tabloları ve alanları panonun kendisinde göremezsiniz. |Evet. Veri kümesi tablolarını, alanlarını ve değerlerini görebilirsiniz. |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Pano oluşturucuları ve kullanıcıları
-Bir Power BI ***kullanıcısı*** olarak, *oluşturuculardan* pano alabilirsiniz. Aşağıdaki konularla panoları öğrenmeye devam edin:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>Pano tasarımcıları ve pano kullanıcıları
+Bir Power BI ***kullanıcısı*** olarak, *tasarımcılardan* pano alabilirsiniz. Aşağıdaki konularla panoları öğrenmeye devam edin:
 
 * [Pano görüntüleme](end-user-dashboard-open.md)
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.

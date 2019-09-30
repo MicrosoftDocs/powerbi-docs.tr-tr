@@ -1,5 +1,5 @@
 ---
-title: Power BI veri akışı için geliştirici kaynaklar
+title: Power BI veri akışları için geliştirici kaynakları
 description: Geliştirme ve Power BI veri akışları için kaynaklar bulun
 author: davidiseminger
 manager: kfile
@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136780"
 ---
-# <a name="developer-resources-for-power-bi-dataflows"></a>Power BI veri akışı için geliştirici kaynaklar
+# <a name="developer-resources-for-power-bi-dataflows"></a>Power BI veri akışları için geliştirici kaynakları
 
 Power BI hizmetinde varlıklar oluşturup bunlara bağlanarak ve Power BI Desktop’ya bu varlıklara bağlanarak, veri akışlarını kodsuz kullanmanın birçok yolu vardır. Birçok kuruluş kendi çözümlerini geliştirmek için esneklik ister. Bu makale, Power BI REST API ve diğer geliştirici kaynakları hakkında bilgi sağlamaktadır.
 
@@ -38,7 +38,7 @@ Bu makalede veri akışları için geliştirici kaynakları hakkında bilgi veri
 
 * [Veri akışları ile self servis veri hazırlığı](service-dataflows-overview.md)
 * [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Hesaplanan varlıkları üzerinde Power BI Premium kullanma](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium'da hesaplanan varlıkları kullanma](service-dataflows-computed-entities-premium.md)
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
 
 CDM geliştirme ve öğretici kaynakları hakkında bilgi için aşağıdakilere bakın:

@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608595"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141337"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
 Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır.  Bu, işlerimizi yürütmek için kullandığımız pano veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
@@ -52,7 +51,7 @@ Elbette ileride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan
 1. Yukarıdaki 1 ve 2 numaralı adımları uygulayın.
    
     ![Öne çıkan panoyu değiştirme penceresi](./media/end-user-featured/power-bi-change-feature.png)
-2. **Öne çıkan olarak ayarla**'yı seçin. Öne çıkanlardan kaldırdığınız pano çalışma alanınızdan kaldırılmaz.  
+2. **Öne çıkan olarak ayarla**'yı seçin. Öne çıkanlardan kaldırdığınız pano Power BI’dan kaldırılmaz.  
    
     ![başarılı iletisi](./media/end-user-featured/power-bi-unfeature-new.png)
 

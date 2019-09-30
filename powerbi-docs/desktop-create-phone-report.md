@@ -1,5 +1,5 @@
 ---
-title: Raporlar - Power BI mobil uygulamaları için en iyi duruma getirme
+title: Mobil uygulamalar için raporları iyileştirme - Power BI
 description: Raporun telefon ve tabletlere özgü bir dikey sürümünü oluşturarak, Power BI mobil uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310797"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Raporları Power BI mobil uygulamaları için en iyi duruma getirme
-Dikey düzeni oluşturarak mobil uygulamalarında raporları görüntüleme deneyimini geliştirebilir. Power BI Desktop ve Power BI hizmetinde, yeniden düzenleme ve en iyi bir deneyim dikey modda rapor görselleri yeniden boyutlandırın.  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için raporları iyileştirme
+Dikey düzen oluşturarak mobil uygulamalarda rapor görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop ve Power BI hizmetinde, dikey modda en iyi deneyim için rapor görsellerini yeniden düzenleyebilir ve yeniden boyutlandırabilirsiniz.  
 
-Mobil cihazda, bunun yerine raporları görüntüleme hakkında bilgi mi arıyorsunuz? Bu hızlı başlangıç kılavuzundan [keşfedin panolarınızı ve raporlarınızı Power BI mobil uygulamalarında](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+Bunun yerine bir mobil cihazda rapor görüntüleme hakkında bilgi mi arıyorsunuz? Şu hızlı başlangıcı deneyin: [Power BI mobil uygulamalarında pano ve raporları keşfetme](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Telefonda en iyi duruma getirilmiş rapor](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-Ayrıca oluşturabileceğiniz [ *duyarlı* görselleri](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-work-well-in-phone-reports) yeniden boyutlandırılan da herhangi bir yerde. Raporunuza filtre eklerseniz, bunlar otomatik olarak en iyi duruma getirilmiş raporda gösterilir.
+Bununla birlikte, her yerde uygun şekilde yeniden boyutlandırılan [*esnek* görseller](#optimize-a-visual-for-any-size) ve [esnek dilimleyiciler](#enhance-slicers-to-work-well-in-phone-reports) oluşturabilirsiniz. Raporunuza filtre eklediyseniz en iyi duruma getirilmiş raporda otomatik olarak görüntülenir.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Rapor sayfasının dikey sürümünü düzenleme
 
@@ -44,7 +44,7 @@ Bir rapor oluşturduktan sonra, telefonlar ve tabletler için bunu iyileştirebi
    
     ![Görseli sürükleyip bırakma](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    Ana rapor sayfasındaki görsellerin bazılarını veya tümünü telefon rapor sayfasına ekleyebilirsiniz. Her görseli yalnızca bir kez ekleyebilirsiniz. Tüm görseller eklemek gerekmez.
+    Ana rapor sayfasındaki görsellerin bazılarını veya tümünü telefon rapor sayfasına ekleyebilirsiniz. Her görseli yalnızca bir kez ekleyebilirsiniz. Tüm görselleri eklemek zorunda değilsiniz.
 
 4. Kılavuz üzerindeki görselleri panolardaki ve mobil panolardaki kutucuklar gibi yeniden boyutlandırabilirsiniz.
    

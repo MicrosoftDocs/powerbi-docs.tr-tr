@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61312716"
@@ -21,7 +21,7 @@ ms.locfileid: "61312716"
 Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve Otomatik Algıla özelliği sizin yerinize bunları yapar. Ancak, bazı durumlarda ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
 
 ## <a name="autodetect-during-load"></a>Yükleme sırasında otomatik algılama
-Verilerin ne zaman yüklenir, aynı anda iki veya daha fazla tablo sorgularsanız Power BI Desktop ilişkileri bulup sizin için oluşturmayı dener. Kardinalite, Çapraz filtre yönü ve Etkin özellikler otomatik olarak ayarlanır. Power BI Desktop, olası bir ilişki olup olmadığını belirlemek için, sorguladığınız tablolardaki sütun adlarına bakar. Böyle bir olasılık söz konusuysa bu ilişkiler otomatik olarak oluşturulur. Power BI Desktop belirleyemiyorsa güven ile yüksek düzeyde bir eşleşme olduğundan, ilişki otomatik olarak oluşturmaz. İlişki oluşturmak veya ilişkileri düzenlemek için İlişkileri Yönet iletişim kutusunu kullanmaya devam edebilirsiniz.
+Aynı anda iki veya daha fazla tablo sorgularsanız veriler yüklendiğinde Power BI Desktop, sizin yerinize bu ilişkileri bulup oluşturmayı dener. Kardinalite, Çapraz filtre yönü ve Etkin özellikler otomatik olarak ayarlanır. Power BI Desktop, olası bir ilişki olup olmadığını belirlemek için, sorguladığınız tablolardaki sütun adlarına bakar. Böyle bir olasılık söz konusuysa bu ilişkiler otomatik olarak oluşturulur. Power BI Desktop bir eşleşme olduğundan tam olarak emin değilse ilişki otomatik olarak oluşturulmaz. İlişki oluşturmak veya ilişkileri düzenlemek için İlişkileri Yönet iletişim kutusunu kullanmaya devam edebilirsiniz.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Otomatik Algıla özelliğini kullanarak ilişki oluşturma
 **Giriş** sekmesinde **İlişkileri Yönet**\>**Otomatik Algıla**'ya tıklayın.
@@ -30,21 +30,21 @@ Verilerin ne zaman yüklenir, aynı anda iki veya daha fazla tablo sorgularsanı
 
 ## <a name="create-a-relationship-manually"></a>Elle ilişki oluşturma
 1. **Giriş** sekmesinde **İlişkileri Yönet**\>**Yeni**'ye tıklayın.
-2. İçinde **ilişki Oluştur** iletişim kutusunda, ilk tablonun açılan listesinde, bir tablo seçin ve ardından ilişkide kullanmak istediğiniz sütunu seçin.
-3. İkinci tablonun açılan listesinde, ilişkide kullanmak istediğiniz diğer tabloyu seçin ve ardından kullanın ve ardından istediğiniz diğer sütunu seçip **Tamam**.
+2. **İlişki Oluştur** iletişim kutusundaki birinci tablonun açılan listesinde bir tablo seçin ve ardından ilişkide kullanmak istediğiniz sütunu seçin.
+3. İkinci tablonun açılan listesinde, ilişkide olmasını istediğiniz diğer tabloyu seçin, ardından kullanmak istediğiniz diğer sütunu seçip **Tamam**'a tıklayın.
 
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Varsayılan olarak, Power BI Desktop Kardinaliteyi (yön), çapraz filtre yönünü ve yeni ilişkiniz için etkin özellikleri otomatik olarak yapılandırır; Ancak, gerekirse ayarlarını değiştirebilirsiniz. Daha fazla bilgi edinmek için, bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
+Varsayılan olarak, Power BI Desktop Kardinaliteyi (yön), Çapraz filtre yönünü ve yeni ilişkiniz için Etkin özellikleri otomatik olarak yapılandırır; ancak gerekirse bu ayarları değiştirebilirsiniz. Daha fazla bilgi edinmek için, bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
-Bildiren bir hata göreceğiniz *sütunlardan birinin, benzersiz değerler içermelidir* ilişki için seçilen tabloları hiçbiri benzersiz değerler varsa. İlişkideki tablolardan en az biri, tüm ilişkisel veritabanı teknolojilerinde ortak bir gereksinim olarak farklı ve benzersiz bir anahtar değerleri listesi *içermelidir*. 
+İlişki için seçilen tabloların hiçbiri benzersiz değerlere sahip değilse *Sütunlardan biri benzersiz değerlere sahip olmalıdır* şeklinde bir hata iletisi görürsünüz. İlişkideki tablolardan en az biri, tüm ilişkisel veritabanı teknolojilerinde ortak bir gereksinim olarak farklı ve benzersiz bir anahtar değerleri listesi *içermelidir*. 
 
 Bu hatayla karşılaşırsanız, sorunu düzeltmenin birkaç yolu vardır:
 
 * Benzersiz değerler içeren bir sütun oluşturmak için "Yinelenen Satırları Kaldır" seçeneğini kullanın. Bu yaklaşımın bir dezavantajı, yinelenen satırlar kaldırıldığında bilgilerin kaybedilmesi ve genellikle bir anahtarın (satırın) iyi bir nedenle yinelenmesidir.
 * Modele, daha sonra ilişkideki her iki özgün sütuna bağlanacak farklı anahtar değerlerinin listesinden oluşan bir ara tablo ekleyin.
 
-Daha ayrıntılı bilgi için bkz. [blog gönderisi](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
+Daha ayrıntılı bilgi için [blog gönderisine](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) bakın.
 
 
 ## <a name="edit-a-relationship"></a>Bir ilişkiyi düzenleme
@@ -52,21 +52,21 @@ Daha ayrıntılı bilgi için bkz. [blog gönderisi](https://blogs.technet.micro
 2. **İlişkileri Yönet** iletişim kutusunda ilişkiyi seçin ve ardından **Düzenle**'ye tıklayın.
 
 ## <a name="configure-additional-options"></a>Ek seçenekleri yapılandırma
-İlişki oluşturduğunuzda veya düzenlediğinizde, ek seçenekleri yapılandırabilirsiniz. Varsayılan olarak, ek seçenekler üzerinde sütunlardaki verileri temel alan her ilişki için farklı bir en iyi tahmin doğrultusunda otomatik olarak yapılandırılır.
+İlişki oluşturduğunuzda veya düzenlediğinizde, ek seçenekleri yapılandırabilirsiniz. Varsayılan olarak, ek seçenekler en iyi tahmin temel alınarak otomatik olarak yapılandırılır ve en iyi tahmin, sütunlardaki verileri temel alan her ilişki için farklı olabilir.
 
 ## <a name="cardinality"></a>Kardinalite
-**Çok-tek (\*: 1)** - çoğu ortak, diğer bir deyişle, bir tablodaki sütunda bir değer ve diğer ilişkili tabloda birden fazla örneğine sahip olabilir, varsayılan türü sıklıkta tamamladığını arama tablosu olarak bilinen bir değerin yalnızca bir örneği vardır.
+**Çoğa Bir (\*:1)** - Bir tablodaki sütunda bir değerin birden çok örneği olabileceği ve genellikle Arama tablosu olarak bilinen diğer ilişkili tabloda bir değerin yalnızca bir örneği olduğu anlamına gelen en yaygın ve varsayılan türdür.
 
-**Tek-tek (1:1)** - bir tablodaki sütunda belirli bir değerin yalnızca bir örneği olduğu ve diğer ilişkili tabloda belirli bir değerin yalnızca bir örneği vardır.
+**Bire Bir (1:1):** Bir tablodaki sütunda belirli bir değerin yalnızca bir örneği vardır ve diğer ilişkili tabloda belirli bir değerin yalnızca bir örneği vardır.
 
-**Çoka çok ilişkiler**: Bileşik modelleriyle, benzersiz değerler için gereksinimleri tablolarında kaldıran tablolar arasında çok-çok ilişki oluşturabilirsiniz. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha ayrıntılı bilgi için bkz. [Çoka çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
+**Çoka çok ilişkiler**: Bileşik modeller sayesinde tablolar arasında çoka çok ilişkiler oluşturabilirsiniz, böylece tablolardaki benzersiz değerler için gereksinimler kaldırılır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha ayrıntılı bilgi için bkz. [Çoka çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Kardinalitenin ne zaman değiştirileceği hakkında daha ayrıntılı bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="cross-filter-direction"></a>Çapraz filtre yönü
-**Her ikisi de** - en sık kullanılan varsayılan yön, filtreleme için anlamına gelir açısından her iki tablonun iseler tek bir tablo olarak kabul edilir. **Her ikisi de** çevreleyen arama tabloları sayısı olan de tek bir tablo ile çalışır. Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir. Buna genellikle Yıldız şeması yapılandırması (birkaç arama tablosuna sahip merkezi bir tablo) denir. Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir. Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur. Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır. Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
+**Her İkisi** - Filtreleme amacıyla her iki tablonun da tek bir tabloymuş gibi kabul edildiği anlamına gelen en yaygın ve varsayılan yöndür. **Her İkisi**, bir dizi arama tablosu içeren tek bir tabloda kullanıldığında oldukça kullanışlıdır. Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir. Buna genellikle Yıldız şeması yapılandırması (birkaç arama tablosuna sahip merkezi bir tablo) denir. Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir. Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur. Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır. Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
 
-**Tek** -bağlı tablolardaki filtreleme seçimlerinin, burada değerlerin toplandığı tablosunda çalışma. Excel 2013 veya önceki sürümlerinden bir Power Pivot veri modeli aktarırsanız tüm ilişkilerin tek bir yönü olur. 
+**Tek:** Bağlı tablolardaki filtreleme seçimleri, değerlerin toplandığı tablolarda çalışır. Excel 2013 veya önceki sürümlerinden bir Power Pivot veri modeli aktarırsanız tüm ilişkilerin tek bir yönü olur. 
 
 Çapraz filtre yönünün ne zaman değiştirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
@@ -76,9 +76,9 @@ Bu seçeneğin işaretlenmesi, ilişkinin varsayılan etkin ilişki olduğu anla
 Belirli bir ilişkinin ne zaman etkin hale getirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="understanding-relationships"></a>İlişkileri anlama
-İki tabloyu bir ilişki ile birbirine bağladıktan sonra, her iki tablodaki verilerle tek bir tablodaymış gibi çalışabilirsiniz. Böylece ilişki ayrıntılarını düşünmenize veya bu tabloları içeri aktarmadan önce sıkıştırmanıza gerek kalmaz. Power BI Desktop birçok durumda ilişkileri sizin yerinize otomatik olarak oluşturabilir, bu nedenle kendiniz oluşturmanız bile gerekmeyebilir. Power BI Desktop bir yüksek derecelik ile kesinlik iki tablo arasında bir ilişki olmaması gerektiğini belirleyemiyorsa, ancak bunu otomatik olarak ilişki oluşturmaz. Bu durumda, ilişki oluşturmanız gerekir. 
+İki tabloyu bir ilişki ile birbirine bağladıktan sonra, her iki tablodaki verilerle tek bir tablodaymış gibi çalışabilirsiniz. Böylece ilişki ayrıntılarını düşünmenize veya bu tabloları içeri aktarmadan önce sıkıştırmanıza gerek kalmaz. Power BI Desktop birçok durumda ilişkileri sizin yerinize otomatik olarak oluşturabilir, bu nedenle kendiniz oluşturmanız bile gerekmeyebilir. Ancak, Power BI Desktop iki tablo arasında bir ilişki olması gerektiğinden tam olarak emin değilse, ilişki otomatik olarak oluşturulmaz. Bu durumda ilişkiyi sizin oluşturmanız gerekir. 
 
-Şimdi daha iyi ilişkiler, Power BI Desktop'ta nasıl çalışır? göstermek için bir hızlı öğretici üzerinden geçelim.
+Power BI Desktop'ta ilişkilerin nasıl çalıştığını daha iyi anlamanız için hızlı bir öğretici uygulayalım.
 
 >[!TIP]
 >Bu eğitimi kendiniz tamamlayabilirsiniz. Aşağıdaki ProjectHours tablosunu bir Excel çalışma sayfasına kopyalayın, tüm hücreleri seçin, **EKLE**\>**Tablo**'ya tıklayın. **Tablo Oluştur** iletişim kutusunda, yalnızca **Tamam**'a tıklayın. Ardından, **Tablo Adı**'na **ProjectHours** yazın. Aynı işlemleri CompanyProject tablosu için de tekrarlayın. Ardından, Power BI Desktop'ta **Veri Al**'ı kullanarak verileri içeri aktarabilirsiniz. Veri kaynağı olarak çalışma kitabı ve tablolarınızı seçin.
@@ -114,7 +114,7 @@ CompanyProject adlı bu ikinci tablo A, B veya C olmak üzere atanmış bir önc
 | Purple |B |
 | Orange |C |
 
-Her tabloda bir proje sütunu olduğuna dikkat edin. Her biri farklı adlandırılmış olsa da değerler aynı gibi görünür. Önemli olan ve biz buna hemen döneceğiz.
+Her tabloda bir proje sütunu olduğuna dikkat edin. Her biri farklı adlandırılmış olsa da değerler aynı gibi görünür. Bu önemli bir noktadır ve buna birazdan geri döneceğiz.
 
 Bir modele aktarılmış iki tablomuz olduğuna göre, bir rapor oluşturabiliriz. Elde etmek istediğimiz ilk veri, proje önceliğine göre kaydedilen saat sayısı olduğu için Alanlar bölmesinde **Priority** ve **Hours**'u seçiyoruz.
 
@@ -132,14 +132,14 @@ CompanyProject tablosundaki ProjName sütununa bakarsak proje için her bir reng
 
 ### <a name="to-create-the-new-relationship"></a>Yeni ilişki oluşturmak için
 1. **İlişkileri Yönet**'e tıklayın.
-2. İçinde **ilişkileri Yönet**, tıklayın **yeni** açmak için **ilişki Oluştur** biz seçebileceğiniz tabloları, sütunları ve istediğimiz için ek ayarları iletişim kutusunda, bizim ilişki.
+2. **İlişkileri Yönet** menüsünde **Yeni**’ye tıklayarak **İlişki Oluştur** iletişim kutusunu açın. Buradan, ilişkimiz için istediğimiz tabloları, sütunları ve ek ayarları seçebiliriz.
 3. Birinci tabloda **ProjectHours** seçeneğini belirleyip ardından **Project** sütununu seçin. Bu, ilişkimizin çok olarak adlandırılan tarafıdır.
 4. İkinci tabloda **CompanyProject** seçeneğini belirleyip ardından **ProjName** sütununu seçin. Bu, ilişkimizin tek olarak adlandırılan tarafıdır. 
 5. Hem **İlişki Oluştur** hem de **İlişkileri Yönet** iletişim kutusunda **Tamam**'a tıklayın.
 
 ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
 
-Doğrusunu, yalnızca bu ilişkiyi zor olan yolu oluşturuldu. Yalnızca ilişkileri Yönet iletişim kutusunda otomatik algıla düğmesine tıkladığınız. Aslında, her iki sütun da aynı şekilde adlandırılmış olsaydı verileri yüklediğinizde Otomatik Algıla özelliği sizin için bu işlemi zaten yapardı. Peki buradaki zorluk nedir?
+Doğrusunu söylemek gerekirse, bu ilişkiyi daha zor olan yolu kullanarak oluşturdunuz. İlişkileri Yönet iletişim kutusunda Otomatik Algıla düğmesine tıklamanız da yeterli olurdu. Aslında, her iki sütun da aynı şekilde adlandırılmış olsaydı verileri yüklediğinizde Otomatik Algıla özelliği sizin için bu işlemi zaten yapardı. Peki buradaki zorluk nedir?
 
 Şimdi Rapor tuvalimizdeki tabloya bakalım.
 
@@ -147,12 +147,12 @@ Doğrusunu, yalnızca bu ilişkiyi zor olan yolu oluşturuldu. Yalnızca ilişki
 
 Artık çok daha iyi görünüyor, değil mi?
 
-Biz saatleri önceliğe göre topladığımızda Power BI Desktop CompanyProject arama tablosunda benzersiz renk değerlerinin her örneğini arar ve ardından CompanyProject tablosunda bu değerlerin her birinin her örneğini arayın ve her bir benzersiz değer için bir genel toplam hesaplar .
+Saatleri Priority'ye göre topladığımızda Power BI Desktop, CompanyProject arama tablosunda benzersiz renk değerlerinin tüm örneklerini arar, ardından CompanyProject tablosunda bu değerlerin her birinin tüm örneklerini arar ve her bir benzersiz değer için bir genel toplam hesaplar.
 
-Bu, kolay, aslında, otomatik algılama ile hatta bu kadarını yapmak olmayabilir.
+Bu kolaydı. Aslında, Otomatik Algıla özelliği ile bu kadarını bile yapmanız gerekmeyebilir.
 
 ## <a name="understanding-additional-options"></a>Ek seçenekleri anlama
-Otomatik Algıla veya el ile oluşturduğunuz bir ilişkisi oluşturulduğunda, Power BI Desktop, tablolarınızdaki verileri temel alarak ek seçenekleri otomatik olarak yapılandırır. Bu ek ilişki özelliklerini, Oluştur/Düzenle ilişkisi iletişim kutusunun en alt kısmında yapılandırabilirsiniz.
+Bir ilişki oluşturulduğunda (Otomatik Algıla özelliği tarafından veya elle) Power BI Desktop, tablolarınızdaki verileri temel alarak ek seçenekleri otomatik olarak yapılandırır. Bu ek ilişki özelliklerini, Oluştur/Düzenle ilişkisi iletişim kutusunun en alt kısmında yapılandırabilirsiniz.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
@@ -160,20 +160,20 @@ Söz ettiğimiz üzere, bunlar genellikle otomatik olarak ayarlanır ve düzenle
 
 ## <a name="automatic-relationship-updates"></a>Otomatik ilişki güncelleştirmeleri
 
-Power BI değerlendirir ve rapor ve modeller ilişkileri otomatik olarak ayarlar nasıl yönetebilir. Power BI ilişkileri seçenekleri nasıl işleyeceğini belirtmek için seçin **Dosya > Seçenekler ve Ayarlar > Seçenekler** Power BI Desktop'tan seçip **veri yüklemesi** sol bölmesinde. Seçenekleri için bkz: **ilişkileri**.
+Power BI’ın raporlarınızda ve modellerinizde ilişkileri nasıl ele aldığını ve otomatik olarak ayarladığını yönetebilirsiniz. Power BI’ın ilişki seçeneklerini nasıl kullanacağını belirtmek için Power BI Desktop’tan **Dosya > Seçenekler ve ayarlar > Seçenekler**’i belirleyin, sonra sol bölmeden **Veri Yükleme**’yi seçin. Daha sonra **İlişkiler** seçeneklerini görebilirsiniz.
 
  ![İlişkiler seçenekleri](media/desktop-create-and-manage-relationships/relationships-options-01.png)
 
-Seçili ve etkinleştirilen üç seçenek vardır. 
+Seçilip etkinleştirilebilecek üç seçenek mevcuttur. 
 
-İlk seçenek *veri kaynaklarından ilişkileri içe*, ve varsayılan olarak seçilidir. Seçildiğinde, Power BI veri kaynağınızdaki yabancı anahtarı gibi / birincil içinde tanımlanan ilişkileri denetleyen anahtar ilişkiler, veri ambarı'nda. Bu tür ilişkiler varsa, başlangıçta veri yüklediğinizde bunlar Power BI veri modeline yansıtılır. Bu seçenek, hızlı bir şekilde modelinizi çalışmaya başlamak yerine gerek bulunamıyor veya bu ilişkileri kendiniz tanımlama sağlar.
+İlk seçenek *Veri kaynaklarından ilişkileri içeri aktar* seçeneğidir ve varsayılan olarak seçilidir. Seçildiğinde Power BI, veri ambarınızdaki yabancı anahtar/birincil anahtar ilişkileri gibi veri kaynağınızda tanımlı ilişkileri denetler. Bu tür ilişkiler varsa, verileri ilk kez yüklediğinizde Power BI veri modeline yansıtılırlar. Bu seçenek, bu ilişkileri kendiniz bulmanızı veya tanımlamanızı gerektirmeden modelinizle hızla çalışmaya başlamanızı sağlar.
 
-İkinci seçenek *güncelleştirme veya verileri yenilerken ilişkileri silme*, ve onu varsayılan olarak kapalıdır. Seçili değilse (seçeneğinin yanındaki kutuyu işaretleyerek etkindir), Power BI denetler değişiklikleri veri kaynağına ilişkileri için veri kümesi yenilendiğinde. Bu ilişkiler değişti veya kaldırılır, Power BI güncelleştirmeye veya silmeye eşleştirmek için bunları kendi veri modelinde, bu değişiklikleri yansıtır.
+*Verileri yenilerken ilişkileri güncelleştirme veya silmeye* ilişkin ikinci seçenek ise varsayılan olarak kapalıdır. Seçilirse (seçeneğin yanındaki kutu işaretlenerek etkinleştirilir) Power BI, veri kümeniz yenilendiğinde veri kaynağı ilişkilerindeki değişiklikleri denetler. Bu ilişkilerin değişmesi veya kaldırılması durumunda Power BI, bu değişiklikleri eşleşecek şekilde güncelleme veya silme işlemi yaparak kendi veri modelinde yansıtır.
 
 > [!WARNING]
-> Üzerinde tanımlanan ilişkileri kullanır satır düzeyi güvenlik kullanıyorsanız, ikinci seçeneğini belirleyerek önerilmez *güncelleştirme veya verileri yenilerken ilişkileri silme*. Bir ilişki RLS ayarlarınızı üzerinde kullandığını kaldırılırsa, modelinizi daha az güvenli hale gelebilir. 
+> Tanımlı ilişkileri temel alan satır düzeyi güvenlik kullanıyorsanız, *Verileri yüklerken ilişkileri güncelleştir veya sil* şeklindeki ikinci seçeneği belirlemeniz önerilmez. RLS ayarlarınızın kullandığı bir ilişki kaldırılırsa, modeliniz daha az güvenli hale gelebilir. 
 
-Üçüncü seçenek olmasına *veriler yüklendikten sonra yeni ilişkileri otomatik algıla*, açıklanan [yükleme sırasında otomatik algılama](#autodetect-during-load) bölümünde, bu makalenin önceki bölümlerinde bulunamadı. 
+*Veriler yüklendikten sonra yeni ilişkileri otomatik algıla* şeklindeki üçüncü seçenek, bu makalenin önceki kısımlarında yer alan [Yükleme sırasında otomatik algılama](#autodetect-during-load) bölümünde açıklanmıştır. 
 
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Veriler güncelleştirildiğinde farklı bir kardinalite gerekir
@@ -257,7 +257,7 @@ Tek yönlü çapraz filtreleme ile, proje saatlerini özetleyen bir rapor oluşt
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-Filtre belirtimi CompanyProject CompanyEmployee için (aşağıdaki görüntüde gösterildiği gibi) akar ancak bunu companyproject'ten companyemployee'ye. Ancak, çapraz filtreleme yönünü Her ikisi de olarak ayarlarsanız çalışır. Her ikisi de ayarı, filtrede belirtilenlerin Employee'ye iletilmesini sağlar.
+Filtre belirtimi akışı, CompanyProject'ten CompanyEmployee'ye doğru gerçekleşir (aşağıdaki görüntüde gösterildiği gibi) ancak CompanyEmployee'ye doğru gerçekleşmez. Ancak, çapraz filtreleme yönünü Her ikisi de olarak ayarlarsanız çalışır. Her ikisi de ayarı, filtrede belirtilenlerin Employee'ye iletilmesini sağlar.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_bidircrossfiltering.png)
 
@@ -325,7 +325,7 @@ Her iki ilişkiyi de modele (öncelikle OpenedBy) eklersek İlişkileri Yönet i
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-Biz bunun Role ve Employee alanlarının ve projecttickets saat alanı bir tablo görselleştirmesi rapor tuvalinde kullanan bir rapor oluşturursanız, şimdi proje bileti açmış yalnızca olanları oldukları çünkü yalnızca proje sponsorlarını göreceğiz.
+Şimdi, Rapor tuvalindeki bir tablo görselleştirmesinde EmployeeRole tablosundaki Role ve Employee alanlarının ve ProjectTickets tablosundaki Hours alanının kullanıldığı bir rapor oluşturursak yalnızca proje sponsorlarını görürüz. Bunun nedeni, yalnızca proje sponsorlarının proje bileti açmış olmasıdır.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 

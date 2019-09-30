@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454553"
 ---
 # <a name="certified-custom-visuals"></a>Sertifikalı özel görseller
 
-## <a name="what-are-certified-custom-visuals"></a>**_Sertifikalı_** özel görseller nedir?
+## <a name="what-are-_certified_-custom-visuals"></a>**_Sertifikalı_** özel görseller nedir?
 
 Sertifikalı özel görseller, **Markette** bulunan ve **Microsoft Power BI ekibinin** test ettiği ve onayladığı **belirli kod** gereksinimlerini karşılayan görsellerdir. Özel bir görsel sertifikalandığında, daha fazla özellik sunar. Örneğin görseli [PowerPoint'e aktarabilirsiniz](consumer/end-user-powerpoint.md) ve bir kullanıcı [rapor sayfalarına abone olduğunda](consumer/end-user-subscribe.md) alınan e-postalarda görüntüleyebilirsiniz.
 
@@ -44,34 +44,34 @@ Microsoft kendi takdirine bağlı olarak, bir görseli [sertifikalı listesinden
 Özel görselinizin [sertifikalı](#certified-custom-visuals) olmasını sağlamak için, bu özel görselin aşağıdakilerle uyumlu olduğundan emin olun:  
 
 * Microsoft AppSource onaylı. Özel görselinizin [marketimizde](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunması gerekir.
-* Özel görsel sürümü ile yazılmış **API S2.5** veya üzeri.
-* Kod deposu (örneği, insan tarafından okunabilir biçimde kaynak kodu (JavaScript veya TypeScript) GitHub aracılığıyla bize, kullanılabilir olması nedeniyle) Power BI ekibi tarafından incelenmek üzere kullanılabilir.
+* Özel görsel, **API 2.5** veya sonraki bir sürümle yazılmıştır.
+* Power BI ekibinin inceleyebileceği kod deposu (örneğin, GitHub üzerinden kullanabileceğimiz, insanlar tarafından okunabilir biçimde olan kaynak kod (JavaScript veya TypeScript)).
 
     >[!Note]
     > Kodunuzu Github'da genel paylaşıma açmanız gerekmez.
 * Kod deposu gereksinimleri:
-   * Gerekli az sayıda dosyayı içermesi gerekir:
+   * Gerekli en düşük dosya kümesini içermelidir:
       * .gitignore
       * capabilities.json
       * pbiviz.json
       * package.json
-      * Paket lock.json
+      * package-lock.json
       * tsconfig.json
-   * Node_modules klasörünü içermemelidir (node_modules .gitingore dosyasına ekleyin)
-   * **npm yükleme** komut değil herhangi bir hata döndürmelidir.
-   * **npm denetim** komutu, Orta veya yüksek düzeyine sahip tüm uyarılar değil döndürmelidir.
-   * **pbiviz paketindeki** komut değil herhangi bir hata döndürmelidir.
-   * İçermelidir [Microsoft gelen Tslint'i](https://www.npmjs.com/package/tslint-microsoft-contrib) geçersiz kılınan hiçbir yapılandırma ve bu komut, tüm lint hataları döndürmemelidir.
-   * Özel görsel derlenmiş paketinin gönderilen paket eşleşmelidir (her iki dosya md5 karmasının olmalıdır eşit).
-* Kaynak kodu gereksinimleri:
-   * Görsel desteklemelidir [işleme olaylar API'SİNDEN](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Rasgele/dinamik kod çalıştırdığınızdan emin olun (hatalı: eval() settimeout(), requestAnimationFrame(), setInterval (kullanıcı girişi ile bazı işlevi), çalışan kullanıcı girişi/veri kullanmak için güvenli olmayan).
-   * DOM güvenli bir şekilde yönetilebilir emin olun (hatalı: innerHTML, D3.html (< bazı kullanıcı/veri giriş >), kullanın Temizleme için kullanıcı girişi/verileri için DOM eklemeden önce
-   * Javascript hataları/özel durum tüm giriş verileri için tarayıcı konsolunda emin olun. Görsel başarısız gerekir böylece kullanıcılar görselinizi farklı bir beklenmeyen veri aralığı ile kullanabilirsiniz. Kullanabileceğiniz [Bu örnek rapor](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesini olarak.
+   * node_modules klasörünü içermemelidir (node_modules klasörünü .gitingore dosyasına ekleyin)
+   * **npm install** komutu herhangi bir hata döndürmemelidir.
+   * **npm audit** komutu yüksek veya orta düzeyde herhangi bir hata döndürmemelidir.
+   * **pbiviz package** komutu herhangi bir hata döndürmemelidir.
+   * Geçersiz kılınan bir yapılandırma olmadan [Microsoft TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) içermelidir ve bu komut herhangi bir lint hatası döndürmemelidir.
+   * Özel Görselin derlenen paketinin gönderilen paketle eşleşmesi gerekir (her iki dosyanın md5 karması eşit olmalıdır).
+* Kaynak Kodu gereksinimleri:
+   * Görselin [Olay İşleme API’sini](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/) desteklemesi gerekir.
+   * Herhangi bir rastgele/dinamik kodun çalıştırılmadığından emin olun (bad: eval(), unsafe to use of settimeout(), requestAnimationFrame(), setinterval(some function with user input), running user input/data).
+   * DOM’nin güvenli bir şekilde yönlendirildiğinden emin olun (bad: innerHTML, D3.html(<some user/data input>), kullanıcı girişini/verilerini DOM’ye eklemeden önce temizleme yapın.
+   * Herhangi bir giriş verisi için tarayıcı konsolunda javascript hatası/özel durumları olmadığından emin olun. Kullanıcılar görselinizi farklı bir beklenmedik veri aralığıyla kullanabilir, bu yüzden görsel başarısız olmamalıdır. [Bu örnek raporu](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesi olarak kullanabilirsiniz.
 
-* Herhangi bir özelliği capabilities.json değiştirilirse mevcut kullanıcının raporları bölmediğinizden emin olun.
+* capabilities.json dosyasındaki bir özellik değiştirilirse, mevcut kullanıcıların raporlarını bozmadığından emin olun.
 
-* Görsel emin uyumlu ile [Power BI görselleri için yönergeler](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Hiçbir filigranlar izin**.
+* Görselin, [Power BI görsellerine ilişkin yönergelerle](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases) uyumlu olduğundan emin olun. **Filigran kullanılamaz**.
 
 * Yalnızca genel kullanıma açık olarak incelenebilen OSS bileşenlerini kullanır (JS kitaplıkları veya genel kullanıma açık TypeScript. Kaynak kod incelenebilir ve bilinen güvenlik açıkları yoktur). Ticari bir bileşen kullanarak özel görseli doğrulayamayız.
 

@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769708"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073508"
 ---
 # <a name="get-started-with-third-party-apps"></a>Üçüncü taraf uygulamalarla çalışmaya başlama
 
-Power BI ile birlikte Microsoft dışında bir şirket veya bir şahıs tarafından oluşturulmuş olan uygulamaları kullanabilirsiniz. Örneğin, Power BI kutucuklarını özel olarak geliştirilmiş web uygulamasıyla tümleştiren bir üçüncü taraf uygulamayı kullanabilirsiniz. Üçüncü taraf bir uygulama kullandığınızda, uygulama vermeniz istenir, Power BI hesabınıza ve kaynaklarınıza belirli izinleri. Yalnızca bildiğiniz ve güvendiğiniz uygulamalara erişim izni vermeniz önemlidir. Bir uygulamaya verdiğiniz izinleri dilediğiniz zaman iptal edebilirsiniz. Bkz. [Üçüncü taraf uygulama izinlerini iptal etme](#revoke).
+Power BI ile birlikte Microsoft dışında bir şirket veya bir şahıs tarafından oluşturulmuş olan uygulamaları kullanabilirsiniz. Örneğin, Power BI kutucuklarını özel bir web uygulamasıyla tümleştiren bir üçüncü taraf uygulamayı kullanabilirsiniz. Üçüncü taraf uygulamaları kullandığınızda ilgili uygulamalara, Power BI hesabınıza ve kaynaklarınıza yönelik erişim izni vermeniz istenir. Yalnızca bildiğiniz ve güvendiğiniz uygulamalara erişim izni vermeniz önemlidir. Bir uygulamaya verdiğiniz izinleri dilediğiniz zaman iptal edebilirsiniz. Bkz. [Üçüncü taraf uygulama izinlerini iptal etme](#revoke).
 
 Bir uygulamanın talep edebileceği erişim türleri aşağıda verilmiştir.
 
@@ -49,13 +49,13 @@ Bir uygulamanın talep edebileceği erişim türleri aşağıda verilmiştir.
 
 ## <a name="revoke-third-party-app-permissions"></a>Üçüncü taraf uygulama izinlerini iptal etme
 
-Office 365 uygulamalarım sitesine gitmeniz bir üçüncü taraf uygulama izinlerini iptal edebilirsiniz.
+Üçüncü taraf uygulamalara verdiğiniz izinleri iptal etmek için Office 365 Uygulamalarım sitesine gitmeniz gerekir.
 
-Üzerinde **Office 365 uygulamalarım** site, üçüncü taraf izinleri iptal etmek nasıl aşağıda verilmiştir:
+**Office 365 Uygulamalarım** sitesinde üçüncü taraf uygulamaların izinlerini iptal etmek için:
 
 1. [Office 365 Uygulamalarım sitesine](https://portal.office.com/myapps) gidin.
 
-2. Üzerinde **uygulamalarım** sayfasında, üçüncü taraf uygulamayı bulun.
+2. **Uygulamalarım** sayfasında üçüncü taraf uygulamayı bulun.
 
 3. Uygulama kutucuğunun üzerine gelin, **(...)** düğmesine ve ardından **Kaldır**'a tıklayın.
 

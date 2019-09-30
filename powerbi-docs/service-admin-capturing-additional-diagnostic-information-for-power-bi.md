@@ -13,48 +13,48 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100199"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI için ek tanılama bilgilerini yakalama
 
-Bu makale el ile Power BI web istemcisinden ek tanılama bilgilerini toplamak için yönergeler sağlar.
+Bu makalede Power BI web istemcisinden el ile ek tanılama bilgisi toplamak için kullanabileceğiniz yönergeler sunulmaktadır.
 
-1. Gözat [Power BI](https://app.powerbi.com) Microsoft Edge veya Internet Explorer.
+1. Microsoft Edge veya Internet Explorer kullanarak [Power BI](https://app.powerbi.com)'a gidin.
 
-1. Tuşuna **F12** Microsoft Edge geliştirici araçlarını açın.
+1. Microsoft Edge geliştirici araçlarını açmak için **F12** tuşuna basın.
 
-   ![Ekran Microsoft Edge geliştirici araçlarını öğeleri sekmesi.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Microsoft Edge Geliştirici araçları Öğeler sekmesinin ekran görüntüsü.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. **Ağ** sekmesini seçin. Önceden yakalanmış olan trafik listelenir.
 
-   ![Ekran Microsoft Edge geliştirici araçları ağı sekmesini açın.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Microsoft Edge Geliştirici araçları Ağ sekmesinin ekran görüntüsü.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     Seçenekleriniz şunlardır:
 
-    * Pencereye göz atın ve siz gelebilir arasında karşılaştığınız sorunu tekrarlayabilirsiniz.
+    * Pencereye göz atın ve karşılaştığınız sorunu tekrarlayın.
 
-    * Geliştirici Araçları penceresini oturum sırasında dilediğiniz zaman F12 tuşuna basarak Göster ve Gizle.
+    * Oturum sırasında dilediğiniz zaman F12'ye basarak geliştirici araçları penceresini gizleyin ve gösterin.
 
-1. Profil oluşturma oturumunu durdurmak için kırmızı kareyi seçebilirsiniz **ağ** sekmesi geliştirici araçları alan.
+1. Oturum profilini oluşturmayı durdurmak için geliştirici araçları bölümünün **Ağ** sekmesindeki kırmızı kareyi seçebilirsiniz.
 
-   ![Ekran Microsoft Edge geliştirici araçları ağı sekmesini Durdur düğmesini dışında bir çağrı ile.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Durdur düğmesinin öne çıkarıldığı Microsoft Edge Geliştirici araçları Ağ sekmesinin ekran görüntüsü.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. Verileri bir HTTP Arşivi (HAR) dosyası olarak dışarı aktarmak için disket simgesini seçin.
 
-   ![Disket simgesinin bir belirtme çizgisi içeren ekran Microsoft Edge geliştirici araçları ağı sekmesini.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Disket simgesinin öne çıkarıldığı Microsoft Edge Geliştirici araçları Ağ sekmesinin ekran görüntüsü.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. Bir dosya adı girin ve HAR dosyasını kaydedin.
 
-    HAR dosyasını tarayıcı penceresi ile Power BI dahil olmak üzere arasındaki ağ istekleri hakkındaki tüm bilgileri içerir:
+    HAR dosyası, tarayıcı penceresi ile Power BI arasındaki tüm ağ istekleri hakkındaki aşağıdaki bilgileri içerir:
 
-    * Etkinlik Kimliği her istek için.
+    * Her istek için etkinlik kimlikleri.
 
-    * Her istek için tam zaman damgası.
+    * Her istek için kesin zaman damgası.
 
-    * İstemciye döndürülen hata bilgileri.
+    * İstemciye döndürülen tüm hata bilgileri.
 
     Bu izlemede, ekranda gösterilen görselleri doldurmak için kullanılan veriler de yer alır.
 

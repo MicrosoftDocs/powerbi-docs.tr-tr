@@ -1,6 +1,6 @@
 ---
 title: OneDrive'daki bir .csv dosyasından oluşturulan veri kümelerini yenileme
-description: OneDrive'daki virgülle ayrılmış değer (.csv) dosyalarından oluşturulan veri kümelerini yenileme
+description: OneDrive’daki bir virgülle ayrılmış değer (.csv) dosyasından oluşturulan veri kümelerini yenileme
 author: mgblythe
 manager: kfile
 ms.reviewer: kayu
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415642"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076100"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'daki bir .CSV dosyasından oluşturulan veri kümelerini yenileme
 ## <a name="what-are-the-advantages"></a>Avantajları nelerdir?
@@ -36,7 +36,7 @@ Power BI'da oturum açmak için kullandığınız hesap, OneDrive İş'te oturum
 
 Microsoft hesabınızda oturum açtığınızda Oturumumu açık bırak'ı seçmeyi unutmayın. Bu sayede Power BI, veri kümelerinde gerekli güncelleştirmeleri gerçekleştirebilir
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![Oturum açma örneği](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Microsoft hesap bilgileriniz değişmiş olabileceğinden OneDrive'daki .csv dosyanızda yaptığınız değişikliklerin Power BI'daki veri kümesiyle eşitlenememesi durumunda, kişisel OneDrive hesabınızdaki dosyaya yeniden bağlanmanız ve verileri tekrar içeri aktarmanız gerekir.
 

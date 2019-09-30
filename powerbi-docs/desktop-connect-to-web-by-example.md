@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514089"
@@ -64,7 +64,7 @@ Buradan, görseller oluşturabilir veya **Power BI Desktop** raporlarınızı ol
 ## <a name="next-steps"></a>Sonraki adımlar
 **Power BI Desktop**'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Sütunu örneğe göre Ekle](desktop-add-column-from-example.md)
+* [Örneğe göre sütun ekleme](desktop-add-column-from-example.md)
 * [Bir web sayfasına bağlanma](desktop-connect-to-web.md)
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)

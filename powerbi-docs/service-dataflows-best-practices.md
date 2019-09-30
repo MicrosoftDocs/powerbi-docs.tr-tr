@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c5aeb74277379b46398dc709f5deda1d10dc0926
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919626"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142302"
 ---
 # <a name="dataflows-best-practice"></a>Veri akışları en iyi yöntemi
 
@@ -28,7 +28,7 @@ Bu makale Power BI'da veri akışları tasarlamaya yönelik en iyi yöntemleri s
 
 ### <a name="split-ingestion-and-transformation-to-use-the-enhanced-compute-engine"></a>Veri alımı ve dönüştürmeyi gelişmiş işlem altyapısını kullanacak şekilde bölme
 
-Veri akışları oluştururken, tek bir yerde tüm varlıklar, dönüşümler, birleşimler ve geliştirmelerle tek bir veri akışı oluşturmayı düşünebilirsiniz. Daha küçük veri kümeleri için tek bir veri akışı etkili olabilir. Ancak daha büyük veri birimleriyle çalışırken, birleşimleri veya belirli dönüşümleri gerçekleştirmek bazen kısıtlamalar veya bellek sınırları ile karşılaşabilir. Bu sorunları gidermek için, çok daha büyük veri birimlerine ölçeklendirme yapan Power BI Premium kullanıcılarına yönelik geliştirilmiş bir altyapı piyasaya çıkmıştır. Geliştirilmiş işlem altyapısı yalnızca bağlı veya hesaplanan varlıklara göre çalışır; bu nedenle, veri alımı için ayrı bir veri akışı ve tüm karmaşık birleştirme ve dönüştürmeleri gerçekleştirmek için bağlı bir veri akışı oluşturulurken gelişmiş altyapıdan yararlanılabilir.
+Veri akışları oluştururken, tek bir yerde tüm varlıklar, dönüşümler, birleşimler ve geliştirmelerle tek bir veri akışı oluşturmayı düşünebilirsiniz. Daha küçük veri kümeleri için tek bir veri akışı etkili olabilir. Ancak daha büyük veri birimleriyle çalışırken, birleşimleri veya belirli dönüşümleri gerçekleştirmek bazen kısıtlamalar veya bellek sınırları ile karşılaşabilir. Bu sorunları gidermek için, çok daha büyük veri birimlerine ölçeklendirme yapan Power BI Premium kullanıcılarına yönelik geliştirilmiş bir altyapı yayınlanmıştır. Geliştirilmiş işlem altyapısı yalnızca bağlı veya hesaplanan varlıklara göre çalışır; bu nedenle, veri alımı için ayrı bir veri akışı ve tüm karmaşık birleştirme ve dönüştürmeleri gerçekleştirmek için bağlı bir veri akışı oluşturulurken gelişmiş altyapıdan yararlanılabilir.
 
 Veri akışlarını bölmek, özellikle de azaltma sınırlarına sahip kaynaklarla çalışırken yenileme sorunlarını tanılamak ve hatalarını ayıklamak için faydalıdır.
 

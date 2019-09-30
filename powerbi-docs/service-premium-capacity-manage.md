@@ -1,6 +1,6 @@
 ---
-title: Microsoft Power BI Premium kapasiteleri yönetme
-description: Power BI Premium kapasiteleri için yönetim görevleri açıklanır.
+title: Microsoft Power BI Premium kapasitelerini yönetme
+description: Power BI Premium kapasiteleri için yönetim görevlerini açıklar.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -11,155 +11,154 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e4bb907e12d3c0b07408f069d9b238599756e8e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565238"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175212"
 ---
-# <a name="managing-premium-capacities"></a>Premium kapasite yönetimi
+# <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 
-Power BI Premium'u yönetme, oluşturma, yönetme ve izleme Premium kapasiteleri içerir.
+Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve izlemeyi içerir. Bu makalede kapasitelere genel bir bakış sunulmaktadır. Adım adım yönergeler için bkz. [Kapasiteleri yapılandırma ve yönetme](service-admin-premium-manage.md).
 
-## <a name="creating-and-managing-capacities"></a>Oluşturma ve kapasite yönetme
+## <a name="creating-and-managing-capacities"></a>Kapasite oluşturma ve yönetme
 
-**Kapasite ayarlarını** Power BI Yönetici portalı'nın sayfasında, satın alınan sanal çekirdek ve Premium kapasiteler sayısını görüntüler. Sayfa, Office 365 genel yöneticileri veya hizmet yöneticilerinin Power BI Premium kapasiteleri kullanılabilir çekirdek oluşturmak veya var olan Premium kapasiteleri değiştirmek için sağlar.
+Power BI Yönetim portalının **Kapasite Ayarları** sayfasında, satın alınan sanal çekirdek sayısı ve kullanılabilir Premium kapasiteler gösterilmektedir. Office 365 Genel yöneticileri veya Power BI hizmeti yöneticileri bu sayfayı kullanarak kullanılabilir sanal çekirdeklerden Premium kapasiteler oluşturabilir ya da mevcut Premium kapasitelerde değişiklik yapabilir.
 
-Premium kapasiteye oluşturulurken, yöneticilerin tanımlamak için gereklidir:
+Premium kapasite oluştururken, yöneticilerin şunları tanımlaması gerekir:
 
-- Kapasite adı (kiracıda benzersiz).
-- Kapasite admin(s).
+- Kapasite adı (kiracı içinde benzersizdir).
+- Kapasite yöneticileri.
 - Kapasite boyutu.
-- Veri yerleşikliği için bölge.
+- Veri yerleşimi bölgesi.
 
-En az bir kapasite Yöneticisi atanması gerekir. Kapasite Yöneticisi olarak atanabilmek kullanıcılar şunları yapabilir:
+En az bir Kapasite Yöneticisinin atanması gerekir. Kapasite Yöneticisi olarak atanan kullanıcılar şunları yapabilir:
 
-- Çalışma alanları kapasiteye atayın.
-- Ek kapasite yöneticileri veya (kapasiteye çalışma alanlarını atamak bunları etkinleştirmek için) atama izinleri olan kullanıcılar eklemek için kullanıcı izinleri yönetin.
-- Sayfalandırılmış raporlar ve veri akışlarını iş yükleri için en fazla bellek kullanımını yapılandırmak için iş yüklerini yönetin.
-- Tüm işlemler nedeniyle bir sistem aşırı sıfırlama yeteneği, yeniden başlatın.
+- Kapasiteye çalışma alanları atama.
+- Kullanıcı izinlerini yönetme, ek Kapasite Yöneticileri veya atama izinlerine sahip kullanıcılar ekleme (kapasiteye çalışma alanları atamalarına olanak tanımak için).
+- Sayfalandırılmış raporlar ve veri akışı iş yükleri için maksimum bellek kullanımını yapılandırmak üzere iş yüklerini yönetme.
+- Sistem aşırı yüklemesi nedeniyle tüm işlemleri sıfırlamak için kapasiteyi yeniden başlatma.
 
-Kapasite yöneticileri, çalışma alanı izinlerini açıkça atanmadığı sürece çalışma içeriğe erişemez. Bunlar ayrıca tüm Power BI yönetici alanlarına (açıkça atanan sürece) kullanım ölçümleri, Denetim günlükleri veya Kiracı ayarları gibi erişiminiz yok. Önemlisi, kapasite yöneticileri yeni kapasiteler oluşturun veya mevcut kapasitelerin ölçeklendirmek için izniniz yok. Tek başına kapasite temelinde Yöneticiler atanan, bunlar için sağlama yalnızca görüntüleme ve atanmış olan kapasiteleri yönetme.
+Kapasite Yöneticileri, çalışma alanı izinlerine açıkça atanmadıkça çalışma alanı içeriğine erişemez. Kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetim alanlarına da erişim izinleri yoktur (açıkça atanmadıkları sürece). Önemli bir bilgi olarak, Kapasite Yöneticilerinin yeni kapasiteler oluşturma veya mevcut kapasiteleri ölçeklendirme izinleri yoktur. Yöneticiler kapasite temelinde atanır. Bu sayede yalnızda atandıkları kapasiteleri görüntüleyip yönetebilirler.
 
-Kapasite boyutu havuzunda kullanılabilir sanal çekirdek sayısına göre kısıtlı bir kullanılabilir SKU seçenekleri listesi seçilir. Bilgisayarından kaynağı havuzdan birden çok kapasiteler oluşturmak mümkündür veya daha fazla SKU satın. Örneğin, bir P3 SKU (32 çekirdek), üç kapasiteler oluşturmak için kullanılabilir: bir P2 (16 çekirdek) ve iki P1 (2 x 8 çekirdek). Gelişmiş performans ve ölçek elde edilebilir daha küçük boyutlu kapasiteler oluşturarak açıklandığı [en iyi duruma getirme Premium kapasiteleri](service-premium-capacity-optimize.md) makalesi. Aşağıdaki görüntüde bir örnek kurulumu için beş Premium kapasiteleri oluşan kurgusal Contoso kuruluşundaki gösterilmektedir (P1 ve 2 x 3 x P3) içeren her uygulama çalışma alanları ve paylaşılan kapasiteye birkaç çalışma alanları.
+Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtlanmış olan bir SKU seçenekleri listesinden seçilir. Havuzdan, kaynakları bir veya daha fazla satın alınan SKU’dan kullanılan birden fazla kapasite oluşturulması mümkündür. Örneğin, bir P3 SKU (32 sanal çekirdek) üç kapasite oluşturmak için kullanılabilir: bir P2 (16 sanal çekirdek) ve iki P1 (2 x 8 sanal çekirdek). Gelişmiş performans ve ölçek, [Premium Kapasiteleri İyileştirme](service-premium-capacity-optimize.md) makalesinde açıklandığı gibi daha küçük boyutlu kapasiteler oluşturularak elde edilebilir. Aşağıdaki görüntüde, her biri uygulama çalışma alanları ve paylaşılan kapasitede birkaç çalışma alanı içeren beş Premium kapasiteden (3 x P1 ve 2 x P3) oluşan kurgusal Contoso kuruluşu için örnek bir kurulum gösterilmektedir.
 
-![Kurgusal Contoso kuruluş için bir örnek Kurulumu](media/service-premium-capacity-manage/contoso-organization-example.png)
+![Kurgusal Contoso kuruluşu için örnek kurulumu](media/service-premium-capacity-manage/contoso-organization-example.png)
 
-Premium kapasite, Power BI kiracınızın çoklu coğrafi bilinen, giriş bölgesi dışında bir bölgeye atanabilir. Çoklu coğrafi hangi Power BI içeriğinizi bulunduğu tanımlı coğrafi bölgedeki veri merkezleri üzerinde yönetimsel denetime sağlar. Çoklu coğrafi dağıtımı için stratejinin için genellikle Kurumsal veya kamu uyumluluk yerine performans ve ölçek. Rapor ve Pano yükleme, giriş bölgesini meta veri isteklerine yine de içerir. Daha fazla bilgi için bkz. [çoklu coğrafi Power BI Premium desteği](service-admin-premium-multi-geo.md).
+Premium kapasite, çoklu coğrafi bölge olarak bilinen Power BI kiracısının giriş bölgesi dışında bir bölgeye atanabilir. Çoklu coğrafi bölge, Power BI içeriklerinizin tanımlanmış coğrafi bölgelerde hangi veri merkezlerinde bulunacağı konusunda yönetim denetimi sağlar. Çoklu coğrafi dağıtımın mantığı genellikle performans ve ölçek yerine kurumsal veya idari uyumdur. Raporları ve panoları yükleme işlemi yine de meta veriler için ana bölgeye istekler göndermeyi içerir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
 
-Power BI hizmeti yöneticileri ve Office 365 genel yöneticileri, Premium kapasiteleri değiştirebilirsiniz. Özellikle, yönetici şunları yapabilir:
+Power BI hizmet yöneticileri ve Office 365 Genel Yöneticileri, Premium kapasiteleri değiştirebilirler. Özellikle şunları yapabilirler:
 
-- Kapasite boyutunu ölçek artırmayı veya ölçek azaltma kaynakları değiştirin.
-- Kapasite yöneticileri ekleyip yeniden açın.
-- Atama izinleri olan kullanıcılar ekleyip yeniden açın.
-- Ek iş yüklerinin ekleyip yeniden açın.
-- Bölgeleri değiştirin.
+- Kaynakların ölçeğini artırmak veya azaltmak için kapasite boyutunu değiştirme.
+- Kapasite Yöneticileri ekleme veya kaldırma.
+- Atama izinlerine sahip kullanıcıları ekleme veya kaldırma.
+- İlave iş yükleri ekleme veya kaldırma.
+- Bölgeleri değiştirme.
 
-Atama izinleri, belirli bir Premium kapasiteye çalışma alanı atamak için gereklidir. Kuruluşun tamamı, belirli kullanıcılar veya gruplar için izinleri verilebilir.
+Atama izinleri, bir çalışma alanını belirli bir Premium kapasiteye atamak için gereklidir. İzinler tüm kuruluşa, belirli kullanıcılara veya gruplara verilebilir.
 
-Varsayılan olarak, Power BI sorgularını çalıştırmayla ilgili iş yükleri Premium kapasiteleri destekler. Premium kapasiteler ayrıca ek iş yüklerinin destekler: **Yapay ZEKA (Bilişsel hizmetler)** , **sayfalandırılmış raporlar**, ve **veri akışlarını**. Her iş yükü, iş yükü tarafından kullanılabilecek maksimum bellek (olarak, toplam kullanılabilir belleğin yüzdesi cinsinden) yapılandırma gerektirir. En fazla bellek ayırmaları artırma'nün barındırılabilir etkin modelleri sayısı ve aktarım hızını yenilemeleri etkileyebilir anlamak önemlidir. 
+Varsayılan olarak, Premium kapasiteler çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. Premium kapasiteler ayrıca ek iş yüklerini destekler: **Yapay Zeka (Bilişsel Hizmetler)** , **Sayfalandırılmış Raporlar** ve **Veri Akışları**. Her iş yükü, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasını (toplam kullanılabilir belleğin yüzdesi olarak) gerektirir. Maksimum bellek ayırmalarının artmasının, barındırılabilen etkin model sayısını ve yenileme aktarım hızını etkileyebileceğini anlamak önemlidir. 
 
-Bellek, veri akışlarını için dinamik olarak ayrılır, ancak sayfalandırılmış raporlar için statik olarak ayrılır. Statik olarak en fazla belleği tahsis etme nedenini sayfalandırılmış raporlar içerdiği kapasite alanı güvenli içinde çalışmasıdır. Modelleri yükleme için kullanılabilir belleği azaltır gibi raporları bellek ayarı sayfalandırılmış dikkatli olunması. Daha fazla bilgi için bkz. [varsayılan bellek ayarları](service-admin-premium-workloads.md#default-memory-settings).
+Bellek, dinamik olarak veri akışlarına ayrılsa da istatistiksel olarak sayfalandırılmış raporlara ayrılır. Maksimum belleği statik olarak ayırmanın nedeni, sayfalandırılmış raporların, kapasitenin güvenli bir sınırlandırılmış alanı içinde çalışmasıdır. Modelleri yüklemek için kullanılabilir belleği azalttığından, sayfalandırılmış rapor belleği ayarlanırken dikkatli olunmalıdır. Daha fazla bilgi için bkz. [Varsayılan bellek ayarları](service-admin-premium-workloads.md#default-memory-settings).
 
-Premium kapasite siliniyor mümkündür ve kendi çalışma alanları ve içeriğinin silinmesine neden olmaz. Bunun yerine, tüm atanmış çalışma alanlarına paylaşılan kapasiteye taşınır. Premium kapasite farklı bir bölgede oluşturduğunuzda, çalışma alanı ana bölge paylaşılan kapasiteye taşınır.
+Premium kapasitenin silinmesi mümkün değildir ve çalışma alanları ile içeriğinin silinmesine neden olmaz. Bunun yerine, atanan çalışma alanlarını paylaşılan kapasiteye taşır. Premium kapasite farklı bir bölgede oluşturulduğunda, çalışma alanı giriş bölgesinin paylaşılan kapasitesine taşınır.
 
-### <a name="assigning-workspaces-to-capacities"></a>Kapasitelere artırmak için çalışma alanları atama
+### <a name="assigning-workspaces-to-capacities"></a>Kapasiteye çalışma alanları atama
 
-Çalışma alanı atanabilir bir Power BI Yönetici portalı'nda veya bir uygulama çalışma alanını Premium kapasiteye **çalışma** bölmesi.
+Çalışma alanları, Power BI yönetim portalındaki veya bir uygulama çalışma alanı için **Çalışma Alanı** bölmesindeki bir Premium kapasiteye atanabilir.
 
-Kapasite yöneticileri yanı sıra Office 365 genel Yöneticiler veya Power BI hizmet yöneticileri, çalışma alanlarını Power BI Yönetici portalı'nda topluca ekleyebilirsiniz. Atanan toplu uygulayabilirsiniz:
+Kapasite Yöneticilerinin yanı sıra Office 365 Genel Yöneticileri veya Power BI hizmeti yöneticileri, Power BI Yönetim portalında çalışma alanlarını toplu olarak atayabilir. Toplu atama şunlara uygulanabilir:
 
-- **Kullanıcılara göre çalışma alanları** -kişisel çalışma alanlarını dahil olmak üzere söz konusu kullanıcıların sahip olduğu tüm çalışma alanlarını Premium kapasiteye atanır. Zaten farklı bir Premium kapasiteye atanmış eklediğinizde bu çalışma alanlarının yakaladığı eklersiniz. Ayrıca, kullanıcıların çalışma alanı atama izinleri atanır.
+- **Kullanıcılara göre çalışma alanları** - Kişisel çalışma alanları dahil olmak üzere bu kullanıcıların sahip olduğu tüm çalışma alanları Premium kapasiteye atanır. Buna, farklı bir Premium kapasiteye zaten atanmış olan çalışma alanlarının yeniden atanması dahildir. Ayrıca, kullanıcılara çalışma alanı atama izinleri de atanır.
 
 - **Belirli çalışma alanları**
-- **Tüm kuruluşun çalışma alanlarını** -kişisel çalışma alanlarını dahil olmak üzere tüm çalışma alanlarını Premium kapasiteye atanır. Tüm mevcut ve gelecekteki kullanıcılara çalışma alanı atama izinleri atanır. Bu yaklaşım önerilmez. Daha fazla hedeflenen bir yaklaşım tercih edilir.
+- **Tüm kuruluşun çalışma alanları** - Kişisel çalışma alanları dahil olmak üzere tüm çalışma alanları Premium kapasiteye atanır. Tüm geçerli ve gelecek kullanıcılara çalışma alanı atama izinleri atanır. Bu yaklaşım önerilmez. Daha hedeflenmiş bir yaklaşım tercih edilir.
 
-Kullanarak, bir çalışma alanı Premium kapasiteye eklenebilir **çalışma** kullanıcı bölmesinde hem bir çalışma alanı yöneticisi olan ve atama izinlerine sahip.
+Kullanıcının hem çalışma alanı yöneticisi olması hem de atama izinlerine sahip olması durumunda, **Çalışma Alanı** bölmesi kullanılarak bir çalışma alanı Premium kapasiteye atanabilir.
 
-![Bir çalışma alanı Premium kapasiteye atamak için çalışma alanı bölmesinde kullanma](media/service-premium-capacity-manage/assign-workspace-capacity.png)
+![Çalışma Alanı bölmesini kullanarak Premium kapasiteye bir çalışma alanı atama](media/service-premium-capacity-manage/assign-workspace-capacity.png)
 
-Çalışma alanı yöneticileri, bir çalışma alanına bir kapasiteden (paylaşılan kapasiteye) atama izni gerek kalmadan kaldırabilirsiniz. Çalışma alanını yeniden yerleştirir paylaşılan kapasiteye çalışma alanlarını adanmış kapasitelerini etkili bir şekilde kaldırılıyor. Desteklenen izinler'i aştığında kullanıcılar veya zamanlanmış yenileme askıya alınması, bir çalışma alanını Premium kapasiteden kaldırmak, örneğin, paylaşılan içeriği Power BI ücretsiz kullanılamaz hale výsledek olumsuz etkileri olabilecek bir not lisanslı Paylaşılan kapasite tarafından.
+Çalışma alanı yöneticileri, atama izni gerekmeden bir çalışma alanını kapasiteden (paylaşılan kapasiteye) kaldırabilir. Ayrılmış kapasitelerden çalışma alanlarını kaldırmak, çalışma alanını paylaşılan kapasiteye etkin bir şekilde yeniden konumlandırır. Bir çalışma alanının Premium kapasiteden kaldırılması olumsuz sonuçlara neden olabilir; örneğin, paylaşılan içeriğin Power BI Ücretsiz lisanslı kullanıcılar için kullanılamaz hale gelmesi veya paylaşılan kapasiteler tarafından desteklenen kesintileri aştıklarında zamanlanan yenilemenin askıya alınması.
 
-Power BI hizmetinde çalışma alanı Premium kapasiteye atanmış kolayca çalışma alanı adı daireler donatır baklava simgesi tarafından tanımlanır.
+Power BI hizmetinde, Premium kapasiteye atanan bir çalışma alanı, çalışma alanı adındaki elmas simgesiyle kolayca tanımlanır.
 
-![Bir Premium kapasiteye atanmış bir çalışma alanı tanımlama](media/service-premium-capacity-manage/premium-diamond-icon.png)
+![Premium kapasiteye atanan bir çalışma alanını tanımlama](media/service-premium-capacity-manage/premium-diamond-icon.png)
 
-## <a name="monitoring-capacities"></a>İzleme kapasiteleri
+## <a name="monitoring-capacities"></a>Kapasiteleri izleme
 
-Premium kapasiteler izleme kapasiteleri nasıl performans gösterdiğini anlamak yöneticilerine sağlar. Kapasite Power BI Yönetici portalı kullanılarak izlenebilir veya **Power BI Premium kapasite ölçümleri** (Power BI) uygulama.
+Premium kapasitelerin izlenmesi yöneticilerin kapasitelerin nasıl performans gösterdiğini anlamasını sağlar. Kapasiteler Power BI Yönetim portalı veya **Power BI Premium Kapasite Ölçümleri** (Power BI) uygulaması kullanılarak izlenebilir.
 
 ### <a name="power-bi-admin-portal"></a>Power BI Yönetim portalı
 
-Her kapasiteye ilişkin Yönetim Portalı'nda **sistem durumu** sekmesi, kapasite ve etkinleştirilen her iş yükü için Özet ölçümleri sağlar. Ölçümler son yedi gün içindeki ortalama gösteriyor.  
+Yönetim portalında **Sistem Durumu** sekmesi her kapasite için kapasiteye ve etkinleştirilmiş her bir iş yüküne ait özet ölçümleri sağlar. Ölçümler son yedi günün ortalamasını gösterir.  
 
-Kapasite düzeyinde ölçümler, tüm etkin iş yüklerini toplu. Aşağıdaki ölçümler sağlanır:
+Kapasite düzeyinde, ölçümler tüm etkin iş yüklerinin birikimidir. Aşağıdaki ölçümler sağlanır:
 
-- **CPU kullanımı** -toplam kullanılabilir CPU yüzdesi cinsinden ortalama CPU kullanımı için kapasite sağlar.  
-- **BELLEK kullanımı** -sağlar ortalamayı kapasitesi için kullanılabilir belleğin toplam olarak bellek kullanımı (GB cinsinden). 
+- **CPU KULLANIMI** - Ortalama CPU kullanımını, kapasite için toplam kullanılabilir CPU yüzdesi olarak gösterir.  
+- **BELLEK KULLANIMI** - Ortalama bellek kullanımını (GB cinsinden) kapasitenin toplam kullanılabilir belleği olarak gösterir. 
 
-Etkin her iş yükü için CPU kullanımı ve bellek kullanımı, bir dizi belirli iş yükü ölçümlerinin yanı sıra sağlanır. Örneğin, veri akışı iş yükü için **toplam** toplam yenilemeler için her veri akışı gösterir ve **ortalama süresi** yenileme ortalama süresi için veri akışı gösterir.
+Etkinleştirilen her iş yükü için CPU kullanımı ve bellek kullanımının yanı sıra iş yüküne özgü ölçümlerin sayısı gösterilir. Örneğin, Veri Akışı iş yükü için **Toplam Sayı** her bir veri akışın toplam yenileme sayısını, **Ortalama Süre** ise veri akışının ortalama yenileme süresini gösterir.
 
-![Portalda kapasite sistem durumu sekmesi](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
+![Portaldaki Kapasite Sistem Durumu sekmesi](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 
-Her iş yükü için kullanılabilen tüm ölçümler hakkında daha fazla bilgi için bkz: [izleme kapasiteleri Yönetim Portalı'nda](service-admin-premium-monitor-portal.md).
+Her iş yüküne ilişkin tüm kullanılabilir ölçümler hakkında daha fazla bilgi için bkz. [Yönetim portalındaki kapasiteleri izleme](service-admin-premium-monitor-portal.md).
 
-İzleme özellikleri Power BI Yönetici portalı'nda, anahtar kapasite ölçümlerini hızlı bir özetini sağlamak üzere tasarlanmıştır. Daha ayrıntılı izleme için kullanmanız önerilir **Power BI Premium kapasite ölçümleri** uygulama.
+Power BI Yönetim portalındaki izleme özellikleri, önemli kapasite ölçümlerinin hızlı bir özetini sağlamak üzere tasarlanmıştır. Daha ayrıntılı izleme için **Power BI Premium Kapasite Ölçümleri** uygulamasını kullanmanız önerilir.
 
-### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium kapasite ölçümleri uygulama
+### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium Kapasite Ölçümleri uygulaması
 
-[Power BI Premium kapasite ölçümleri uygulama](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview) bir Power BI uygulaması kapasite yöneticileri için kullanılabilir ve gibi başka bir Power BI uygulaması yüklü. Bu, bir Pano ve rapor içerir.
+[Power BI Premium Kapasite Ölçümleri uygulaması](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview), kapasite yöneticilerinin kullanabileceği bir Power BI uygulamasıdır ve diğer Power BI uygulamaları gibi yüklenir. Bir pano ve rapor içerir.
 
-![Power BI Premium kapasite ölçümleri uygulama](media/service-premium-capacity-manage/capacity-metrics-app.png)
+![Power BI Premium Kapasite Ölçümleri uygulaması](media/service-premium-capacity-manage/capacity-metrics-app.png)
 
-Uygulamayı açtığında, kullanıcının bir kapasite Yöneticisi olduğu tüm kapasitelerin toplu bir görünümünü ifade çok sayıda kutucukları sunmak için Pano yüklenir Pano Düzeni beş ana bölümleri içerir:
+Uygulama açıldığında pano, kullanıcının bir Kapasite Yöneticisi olduğu tüm kapasitelerin toplu bir görünümünü ifade eden çok sayıda kutucuğu göstermek üzere yüklenir. Pano düzeni beş ana bölümden oluşur:
 
-- **Genel Bakış** -uygulama sürümü, sayısı kapasitelerini ve çalışma alanları
-- **Sistem Özet** -bellek ve CPU ölçümleri
-- **Veri kümesi Özet** - sayı veri kümeleri, DQ/LC, yenileme ve sorgu ölçümleri
-- **Veri akışı özeti** - sayı veri akışlarını ve veri kümesi ölçümleri
-- **Sayfalandırılmış rapor özeti** - yenileyin ve ölçümleri görüntüleyin
+- **Genel Bakış** - Uygulama sürümü, kapasite ve çalışma alanı sayısı
+- **Sistem Özeti** - Bellek ve CPU ölçümleri
+- **Veri Kümesi Özeti** - Veri kümesi, DQ/LC, yenileme ve sorgu ölçümü sayısı
+- **Veri Akışı Özeti** - Veri akışı ve veri kümesi ölçümü sayısı
+- **Sayfalandırılmış Rapor Özeti** - Yenileme ve görüntüleme ölçümleri
 
-Pano kutucukları da sabitlenmiş, temel alınan rapor, herhangi bir Pano kutucuğa tıklayarak erişilebilir. Bu Pano bölümlerin her birinde daha ayrıntılı bir bakış sağlar ve etkileşimli filtrelemeyi destekler. 
+Pano kutucuklarının sabitlendiği temel rapora, herhangi bir pano kutucuğuna tıklanarak erişilebilir. Pano bölümlerinin her birinin daha ayrıntılı bir perspektifini sağlar ve etkileşimli filtrelemeyi destekler. 
 
-Filtreleme tarih aralığı, kapasite, çalışma ve iş yükü (rapor, veri kümesi, veri akışı) dilimleyicilerden ayarlayarak gerçekleştirilebilir ve rapor öğeleri seçerek geçilecek görselleri rapor sayfasını filtreleme. Çapraz filtreleme, belirli süreler, kapasite, çalışma alanları, veri kümeleri, vb. daraltmak için güçlü bir tekniktir ve kök neden analizi gerçekleştirirken çok yararlı olabilir.
+Filtreleme, dilimleyiciler tarih aralığına, kapasiteye, çalışma alanına ve iş yüküne (rapor, veri kümesi, veri akışı) göre ayarlanarak ve rapor sayfasını çapraz filtrelemek için rapor görselleri içindeki öğeler seçilerek elde edilebilir. Çapraz filtreleme belirli zaman dilimleri, kapasiteler, çalışma alanları, veri kümeleri vb. seçeneklere daraltmak için güçlü bir tekniktir ve kök neden analizi gerçekleştirilirken çok yararlı olabilir.
 
-Pano ve rapor ölçümler uygulama hakkında ayrıntılı bilgi için bkz. [İzleyici Premium kapasiteleri uygulamasıyla](service-admin-premium-monitor-capacity.md).
+Uygulamadaki pano ve rapor ölçümleri hakkında ayrıntılı bilgi için bkz. [Premium kapasiteleri uygulama ile izleme](service-admin-premium-monitor-capacity.md).
 
 ### <a name="interpreting-metrics"></a>Ölçümleri yorumlama
 
-Ölçümler, kaynak kullanımı ve iş yükü etkinliği temel bir anlayış oluşturmak için izlenmelidir. Kapasite yavaşlar izlemek için hangi ölçümleri anlamak önemlidir ve sonuçları yapabilirsiniz.
+Ölçümler, kaynak kullanımı ve iş yükü etkinliğinin temel olarak anlaşılması amacıyla izlenmelidir. Kapasite yavaşlarsa hangi ölçümlerin izleneceğini ve varabileceğiniz sonuçları anlamak önemlidir.
 
-İdeal olarak, sorgu rapor kullanıcıları duyarlı deneyimler sunun ve daha yüksek sorgu aktarım hızını sağlamak için bir saniye içinde tamamlanmalıdır. -Yenileme dahil olmak üzere - arka plan işlemlerini tamamlamak için daha uzun süreleri alırken genellikle daha düşük bir sorun olur.
+Sorguların rapor kullanıcılarına duyarlı deneyimler sunmak ve daha yüksek sorgu aktarım hızı sağlamak için bir saniye içinde tamamlanması idealdir. Yenilemeler gibi arka plan işlemlerinin daha uzun sürede tamamlanması genellikle daha az önemlidir.
 
-Genel olarak, yavaş raporları bir Aşırı ısıtma kapasitesinin bir göstergesi olabilir. Raporları yüklenmesi başarısız olduğunda bir aşırı ısıtılan kapasitesinin bir göstergesi budur. Her iki durumda, kök nedeni de dahil olmak üzere birçok faktöre bağlı olabilir:
+Genel olarak, yavaş raporlar aşırı ısınan bir kapasitenin göstergesi olabilir. Raporlar yüklenemediğinde aşırı ısınan bir kapasitenin göstergesidir. Her iki durumda da kök neden aşağıdakiler dahil olmak üzere birçok faktöre bağlanabilir:
 
-- **Sorguları başarısız** kesinlikle bellek baskısı belirtmek ve belleğe bir model yüklenemedi. Power BI hizmetinde, 30 saniye başarısız olmadan önce bir model yük dener.
+- **Başarısız sorgular** kesin olarak bellek basıncına ve bir modelin belleğe yüklenemediğine işaret eder. Power BI hizmeti, başarısız olmadan önce 30 saniye boyunca bir model yüklemeye çalışır.
 
-- **Aşırı sorgu bekleme sürelerini** birkaç nedeni olabilir:
-  - Power BI hizmete ilk gereksinimini modellere çıkarın ve How-to-edilecek sorgulanan modeli (tek başına daha yüksek veri kümesi çıkarma oranları göstergesidir kapasite stres uzun belirtmek bellek çok yavaş sorgu bekleme süresini tarafından eşlik sürece olmadığından geri çağırma) yükleyin.
-  - Model yükleme süreleri (büyük bir modelin belleğe yüklemek için özellikle bekleme).
+- **Çok sayıda sorgu bekleme süresinin** birçok nedeni olabilir:
+  - Power BI hizmetinin öncelikle modelleri çıkarma ve sonra sorgulanacak modeli yükleme gereksinimi (bellek kaybına işaret eden uzun sorgu bekleme süreleri de mevcut olmadıkça, veri kümesi çıkarma oranlarının tek başına kapasite geriliminin göstergesi olmadığını hatırlayın).
+  - Model yükleme süreleri (özellikle de büyük bir modeli belleğe yüklemeyi bekleme süresi).
   - Uzun süre çalışan sorgular.
-  - Çok fazla LC\DQ bağlantılar (kapasite sınırları aşan).
+  - Çok fazla LC\DQ bağlantısı (kapasite limitlerini aşan).
   - CPU doygunluğu.
-  - Karmaşık rapor görselleri (her görsel için bir sorgu olduğunu geri çağırma) sayfasında aşırı sayıda ile tasarlar.
+  - Sayfada çok sayıda görsel içeren karmaşık rapor tasarımları (her görselin bir sorgu olduğunu hatırlayın).
 
-- **Uzun süreler'ı sorgu** modeli tasarımı, özellikle birden fazla veri kümesi bir kapasitede etkin olan ve yalnızca bir veri kümesi uzun sorgu süreleri üretme için optimize edilmediğinden emin belirtebilirsiniz. Bu, kapasite yeterince kaynak var olduğunu ve soru veri kümesi iyinin ya da yalnızca yavaş olduğunu önerir. Diğer işlemler tarafından gerekli kaynaklara erişim engelleyebileceği uzun süre çalışan sorguların sorunlara neden olabilir.
-- **Uzun bekleme süresini'ni Yenile** yetersiz bellek nedeniyle bellek kullanan çok sayıda etkin model belirtin veya sorunlu bir yenileme diğer engelliyor (paralel yenileme sınırları aşan) yeniler.
+- **Uzun sorgu süreleri**, özellikle bir kapasitede birden fazla veri kümesi etkin olduğunda ve yalnızca bir veri kümesi uzun sorgu süreleri ürettiğinde model tasarımlarının iyileştirilmediğini gösterebilir. Bu durum, kapasitenin yeterli kaynak kullandığı ve söz konusu veri kümesinin en iyi durumda olmadığı ya da sadece yavaş olduğu anlamına gelir. Uzun süre çalışan sorgular, diğer işlemlerin gerektirdiği kaynaklara erişimi engelleyebilecekleri için sorunlu olabilir.
+- **Uzun yenileme bekleme süreleri**, belleği tüketen çok sayıda etkin model olması nedeniyle yetersiz belleğe veya sorunlu bir yenilemenin diğer yenilemeleri engellediğine (paralel yenileme sınırlarını aştığına) işaret edebilir.
 
-Ölçümleri kullanma konusunda daha ayrıntılı bir açıklama ele alınmıştır [en iyi duruma getirme Premium kapasiteleri](service-premium-capacity-optimize.md) makalesi.
+Ölçümlerin nasıl kullanılacağına ilişkin daha ayrıntılı bir açıklama [Premium kapasiteleri iyileştirme](service-premium-capacity-optimize.md) makalesinde açıklanmıştır.
 
-## <a name="acknowledgements"></a>Onayları
+## <a name="acknowledgements"></a>Bildirimler
 
-Bu makale, Peter Myers, veri platformu MVP ve bağımsız BI Uzmanı ile yazılmıştır [Bitsel çözümleri](https://www.bitwisesolutions.com.au/).
+Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
-> [Premium kapasiteler en iyi duruma getirme](service-premium-capacity-optimize.md)   
+> [Premium kapasiteleri iyileştirme](service-premium-capacity-optimize.md)   
 > [!div class="nextstepaction"]
-> [Premium kapasitede iş yüklerini yapılandırma](service-admin-premium-workloads.md)   
+> [Premium kapasitedeki iş yüklerini yapılandırma](service-admin-premium-workloads.md)   
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
-||||||

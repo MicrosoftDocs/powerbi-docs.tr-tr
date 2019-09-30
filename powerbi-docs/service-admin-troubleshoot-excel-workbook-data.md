@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101368"
@@ -25,7 +25,7 @@ ms.locfileid: "65101368"
 
 Power BI'a Excel çalışma kitabı aktarırken şu hatayla karşılaşabilirsiniz:
 
-*Hata: Tablo olarak biçimlendirilmiş herhangi bir veri bulamadık. Excel'den Power BI hizmetinde içeri aktarmak için verilerin tablo olarak biçimlendirilmesi gerekir. Ctrl + T tuşuna basın ve tabloda istediğiniz tüm verileri seçin.*
+*Hata: Tablo olarak biçimlendirilmiş bir veri bulamadık. Excel'den Power BI hizmetine aktarmak için verileri tablo olarak biçimlendirmeniz gerekir. Tabloda istediğiniz tüm verileri seçin ve Ctrl+T tuşlarına basın.*
 
 ![Çalışma kitabında veri bulunamadı](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

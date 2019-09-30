@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751651"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141702"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
 Bir *tüketici* olarak *tasarımcılar* tarafından oluşturulup sizinle paylaşılan içeriklerle etkileşim kurarsınız. Bu içeriğin güncel olup olmadığını merak edebilir ya da yalnızca içeriğin en son ne zaman yenilendiğini öğrenmek isteyebilirsiniz. En yeni içerikle çalıştığınızı bilmek size güven verir.  
  
-![Power BI panosu](media/end-user-consumer/power-bi-service.png)
+![Power BI panosu](media/end-user-fresh/power-bi-dashboards.png)
 
 
 En son verileri kullandığınızdan emin olmak, çoğu zaman doğru kararları vermenizde kritik rol oynar. En son içeriği kullandığınızdan emin olmak için neler yapabilirsiniz? Çoğu durumda hiçbir şey yapmanız gerekmez. Sizinle paylaşılan uygulamalar uygulama tasarımcısı tarafından ayarlanmış bir zamanlamayla otomatik olarak yenilenir ve güncelleştirilir. Aynı durum sizinle paylaşılan pano ve raporlar için de geçerlidir. Tasarımcılar el ile veya otomatik bir yenileme zamanlamasıyla içeriğinizin güncel kalmasını sağlar.  
 
 Verilerin güncelliği hakkında sorularınız varsa tasarımcıya başvurun.
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>Tasarımcının adını bulma
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>Tasarımcının veya sahibin adını bulma
+
+### <a name="dashboard-or-report"></a>Pano veya rapor
+
+Sahibin adı panolar ve raporların başlık çubuğunda bulunabilir. **Sahip** gibi ek ayrıntıları ortaya çıkarmak için raporu veya panoyu seçin.
+
+![Power BI panosu sahibi](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>Uygulamalar
 
-Uygulama ekranı hem tasarımcının adını hem de uygulamanın oluşturulduğu tarihi gösterir.  
+Uygulama ekranı hem tasarımcının adını hem de uygulamanın son güncelleştirildiği tarihi gösterir.  
 
 1. Sol gezinti bölmesinde **Uygulamalar**’ı seçin.
 
-    ![sol gezinti bölmesi](media/end-user-fresh/power-bi-nav-apps.png)
+    ![sol gezinti bölmesi](media/end-user-fresh/power-bi-nav-app.png)
 
-    Her uygulama için bir başlık ve oluşturulma tarihi görürsünüz. 
 
-2. Tasarımcının adını da görüntülemek için uygulamanın üzerine gelin. 
+
+2. Tasarımcının başlığını, güncellik tarihini ve adını göstermek için uygulamanın üzerine gelin. 
 
     ![Biri seçili 2 uygulama](media/end-user-fresh/power-bi-app.png)
 
 
 ### <a name="shared-with-me"></a>Benimle paylaşılan
-**Benimle paylaşılan** ekranı size içerik sahibinin adını ve içeriğin sizinle paylaşıldığı tarihi gösterir.
+**Benimle paylaşılan** ekranı size içerik sahibinin adını ve içeriğin sizinle son paylaşıldığı tarihi gösterir.
 
-![Değiştirme tarihi ve Sahip’in gösterildiği Benimle paylaşılan ekranı](media/end-user-fresh/power-bi-shared-new.png) 
+![Değiştirme tarihi ve Sahip’in gösterildiği Benimle paylaşılan ekranı](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Son yenileme tarihini arama
@@ -58,24 +65,24 @@ Pano kutucuklarının Son yenileme zaman damgasını görmek için kutucuğu Oda
 
 1. Bir pano kutucuğunda üç nokta (...) simgesini seçin ve **Odak modunda aç** seçeneğini belirtin.
 
-    ![Üç noktayı seçtikten sonra görüntülenen menü](media/end-user-fresh/power-bi-focus.png)
+    ![Üç noktayı seçtikten sonra görüntülenen menü](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. Son yenileme tarihi sağ üst köşede görüntülenir. Tarihi görmüyorsanız, büyütmek için tarayıcınızı genişletin. 
 
     ![son yenilemenin gösterildiği geniş tarayıcı](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>Panolar ve raporlardan
-Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle**’yi kullanmaktır.  **İlişkilileri görüntüle**, Power BI’ın üst menü çubuğundan kullanılabilir.
+### <a name="dashboards-and-reports"></a>Panolar ve raporlar
+Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle**’yi kullanmaktır.  **İlişkilileri görüntüle** seçeneği, Power BI’ın üst menü çubuğundan üç nokta (...) kullanılabilir.
 
-![Menüden İlişkilileri görüntüle'yi seçin](media/end-user-fresh/power-bi-view-related.png)
+![Menüden İlişkilileri görüntüle'yi seçin](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 **İlişkili içerik** bölmesi pano ve raporların temel aldıkları veri kümesinin son yenileme bilgilerini görüntüler.
 
-![Power BI panosu](media/end-user-fresh/power-bi-last-refresh.png)
+![Power BI panosu](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Uygulama, tasarımcısı tarafından silinirse ne olur?
 
-Tasarımcı bir uygulamayı silerse o uygulamayla ilişkilendirilmiş panolar ve raporlar da Power BI çalışma alanınızdan otomatik olarak kaldırılır. Bunlar artık kullanılamaz ve uygulama, Gezinti bölmesinde gösterilmez.
+Tasarımcı bir uygulamayı silerse o uygulamayla ilişkilendirilmiş panolar ve raporlar da Power BI çalışma alanınızdan otomatik olarak kaldırılır. Bu seçenekler artık mevcut değildir ve uygulama, Uygulama kapsayıcısında veya gezinti çubuğunun başka bir yerinde görünmemektedir.
 
 
 ## <a name="subscribe-to-see-changes"></a>Değişiklikleri görmek için abone olun

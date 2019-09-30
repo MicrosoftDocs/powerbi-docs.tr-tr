@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513508"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141962"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
@@ -32,6 +32,16 @@ ms.locfileid: "65513508"
 * **Power BI hizmetini** kullanarak raporları başkalarıyla paylaşma
 
 Çoğunlukla bu tür görevlerden sorumlu kişilerin *veri çözümleyiciler* (bazı durumlarda yalnızca *çözümleyiciler* olarak anılır) ya da İş Zekası uzmanları (genellikle *rapor oluşturucular* olarak anılır) olduğu düşünülür. Ancak, kendisini çözümleyici veya rapor oluşturucu olarak görmeyen birçok kişi, ilgi çekici raporlar oluşturmak veya çeşitli kaynaklardan verileri çekmek ve veri modelleri oluşturmak için **Power BI Desktop** kullanır.
+
+Power BI Desktop’ta, tuvalin sol tarafında gösterilen üç görünüm bulunur. Göründükleri sırayla gösterilen görünümler aşağıdaki gibidir:
+* **Rapor Görünümü** - Rapor ve görsellerinizin oluşturulduğu ve oluşturma zamanınızın büyük bir kısmının geçtiği yerdir.
+* **Veri Görünümü** - Buradan raporunuzla ilişkili veri modelinde kullanılan tabloları, ölçümleri ve diğer verileri görebilir ve verileri raporun modelinde en iyi şekilde kullanmak üzere dönüştürebilirsiniz.
+* **Model Görünümü** - Bu görünümde, veri modelinizdeki tablolar arasındaki ilişkileri görüp yönetebilirsiniz.
+
+Aşağıdaki görüntüde, tuvalin sol tarafında gösterildiği gibi üç Görünüm gösterilmektedir:
+
+![farklı görünümler](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 **Power BI Desktop** ile, birden fazla kaynaktan verileri kullanarak kuruluşunuzdaki diğer kullanıcılarla paylaşabileceğiniz tek bir rapor halinde karmaşık ve görsel açıdan zengin raporlar oluşturabilirsiniz. 
 

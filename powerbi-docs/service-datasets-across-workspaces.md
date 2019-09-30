@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530472"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074122"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)
 
@@ -23,7 +23,7 @@ ms.locfileid: "69530472"
 
 ![Paylaşılan veri kümesi seçme](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümesinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
+Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümelerinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Veri kümesi paylaşma ve yeni çalışma alanı deneyimi
 
@@ -55,6 +55,7 @@ Başkalarının da yararlanabileceği veri kümeleri oluşturuyorsanız [veri k�
 Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özellikler ve deneyimler, mevcut senaryolarına göre lisanslanır. Örnek:
 
 - Genel olarak, herkes paylaşılan veri kümelerini keşfedebilir ve onlara bağlanabilir. Öte yandan Pro lisansı olmayan kullanıcılar yalnızca kendi kişisel Çalışma Alanım klasöründe yer alan veri kümelerine bağlanabilir.
+- Pro lisansına sahip olmayan kullanıcılar, her iki çalışma alanı da (içeriği içeren çalışma alanı ve veri kümesini içeren çalışma alanı) Premium kapasitede barındırılıyorsa yalnızca paylaşılan bir veri kümesinde oluşturulmuş raporları ve panoları kullanabilir.
 - Power BI Desktop’ta Pro lisansı olmayan kullanıcılar veri kümelerini yalnızca Çalışma Alanım'dan görebilirler.
 - Çalışma alanları arasında raporların kopyalanması için Pro lisansı gerekir.
 - Kurumsal içerik paketlerinde istendiği gibi uygulamadan raporları kopyalamak da Pro lisansı gerektirir.
@@ -66,7 +67,7 @@ Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özel
 - A Çalışma Alanında B Çalışma Alanındaki bir veri kümesini temel alan rapor oluşturduğunuzu varsayalım. A Çalışma Alanı için bir uygulama oluşturduğunuzda, bu raporu A Çalışma Alanına ekleyebilmek için aynı zamanda B Çalışma Alanının da üyesi olmanız gerekir.
 - Klasik çalışma alanında veri kümesi bulma deneyimi yalnızca o çalışma alanındaki veri kümelerini gösterir.
 - Uygulamaya paylaşılan veri kümesini temel alan bir rapor eklemek istiyorsanız veri kümesi çalışma alanının üyesi olmanız gerekir. Bu bilinen bir sorundur.
-- Paylaşılan veri kümesini temel alan bir raporda “Web'de yayımla” çalışmaz. Bu tasarım gereğidir.
+- Tasarım gereği, paylaşılan veri kümesini temel alan bir raporda “Web'de yayımla” özelliği çalışmaz.
 - Paylaşılan veri kümesine erişen bir çalışma alanının üyesi olan iki kişiden yalnızca biri çalışma alanındaki ilgili veri kümesini görebiliyor olabilir. Yalnızca veri kümesi üzerinde en azından Okuma izni olan kişiler paylaşılan veri kümelerini görebilir. 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189381"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075996"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI’da, bir sayfalandırılmış rapor için URL’de rapor parametresi geçirme 
 
-Rapor parametrelerini, bir sayfalandırılmış rapor URL’sine ekleyerek geçirebilirsiniz. Tüm sorgu parametrelerinin karşılık gelen rapor parametreleri olabilir. Böylelikle, karşılık gelen rapor parametresini geçirerek bir sorgu parametresini rapora geçirirsiniz. Power BI’ın parametre adını URL’de tanıması için, parametre adına  `rp:` ön eki getirmeniz gerekir. 
+Rapor parametrelerini, bir sayfalandırılmış rapor URL’sine ekleyerek geçirebilirsiniz. Tüm sorgu parametrelerinin karşılık gelen rapor parametreleri olabilir. Böylelikle, karşılık gelen rapor parametresini geçirerek bir sorgu parametresini rapora geçirirsiniz. Power BI’ın parametre adını URL’de tanıması için, parametre adına `rp:` ön eki getirmeniz gerekir. 
 
 Rapor parametreleri büyük/küçük harfe duyarlıdır ve şu özel karakterleri kullanır: 
 
@@ -60,10 +60,10 @@ parameter:isnull=true
 rp:SalesOrderNumber:isnull=true
 ```
 
-Bir Boole değerini geçirmek için, false için 0 ve true için 1 kullanın. Bir float değeri geçirmek için, sunucu yerel ayarının ondalık ayırıcısını ekleyin.
+Bir Boole değerini geçirmek için, false için 0 ve true için 1 kullanın. Bir Float değeri geçirmek için, sunucu yerel ayarının ondalık ayırıcısını ekleyin.
 
 > [!NOTE]
-> Raporunuz, varsayılan değeri bulunan bir rapor parametresini içeriyorsa ve  **İstem** özelliğinin değeri  **false** ise (bu durumda **Kullanıcı İstemi** özelliği Rapor Yöneticisi’nde seçilmemiştir), URL içinde yer alan rapor parametresi için değer geçiremezsiniz. Bu, yöneticilere son kullanıcıların belirli rapor parametrelerini eklemesini veya değiştirmesini önleme seçeneğini sunar.
+> Raporunuz, varsayılan değeri bulunan bir rapor parametresini içeriyorsa ve **İstem** özelliğinin değeri **false** ise (bu durumda **Kullanıcı İstemi** özelliği Rapor Yöneticisi’nde seçilmemiştir), URL içinde yer alan rapor parametresi için değer geçiremezsiniz. Bu, yöneticilere son kullanıcıların belirli rapor parametrelerini eklemesini veya değiştirmesini önleme seçeneğini sunar.
 
 ## <a name="additional-examples"></a>Ek örnekler 
 
@@ -73,7 +73,7 @@ Aşağıdaki URL örneği, çok değerli “satış temsilcisi” parametresini 
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-Aşağıdaki URL örneği, yerel mod rapor sunucusu için "1/7/2005” değeriyle tek bir SellStartDate parametresi geçirir.
+Aşağıdaki URL örneği, yerel mod rapor sunucusu için "1/7/2005" değeriyle tek bir SellStartDate parametresi geçirir.
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

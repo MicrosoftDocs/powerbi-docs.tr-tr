@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185722"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073430"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -56,7 +56,7 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 
 5. Aboneliğiniz için **Sıklık** seçin: **Günlük**, **Saatlik**, **Haftalık**, **Aylık**, veya **Veri Yenilemesinden Sonra (Günlük)** .  Abonelik e-postasını yalnızca belirli günlerde almak için **Saatlik** veya **Haftalık** seçeneklerinden birini belirleyip bunu hangi günlerde almak istediğinizi belirtin.  Örneğin abonelik e-postasını yalnızca iş günleri almak istiyorsanız **Haftalık** seçeneğini belirtin ve **Cts** ile **Paz** kutularının işaretini kaldırın.  **Aylık** seçeneğini belirlerseniz, abonelik e-postalarını ayın hangi günlerinde almak istediğinizi belirtin.  
 
-6. **Günlük**, **Saatlik, **Aylık** veya **Haftalık**’ı seçerseniz, abonelik için **Zamanlanan Saat**’i de seçebilirsiniz.  Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz.  Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz.  **Saatlik**’i seçerseniz aboneliğin başlamasını istediğiniz **Zamanlanan Saati** belirleyin. E-posta, bu ayardan sonraki her saat çalışır.
+6. **Günlük**, **Saatlik**, **Aylık** veya **Haftalık**’ı seçerseniz, abonelik için **Zamanlanan Saat**’i de seçebilirsiniz.  Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz.  Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz.  **Saatlik**’i seçerseniz aboneliğin başlamasını istediğiniz **Zamanlanan Saati** belirleyin. E-posta, bu ayardan sonraki her saat çalışır.
 
 7. Varsayılan olarak, aboneliğinizin başlangıç tarihi aboneliği oluşturduğunuz tarihtir. İsterseniz bir bitiş tarihi belirleyebilirsiniz. Siz bir bitiş tarihi ayarlamazsanız, otomatik olarak başlangıç tarihinden bir yıl sonrası olarak belirlenir. Bu tarihi, aboneliğiniz bitmeden önce gelecekte istediğiniz herhangi bir tarihle değiştirebilirsiniz (en fazla 9999 yıl). Abonelik bitiş tarihine ulaşıldığında, siz yeniden etkinleştirene kadar abonelik durdurulur. Zamanlanan bitiş tarihinden önce, süreyi uzatmayı isteyip istemediğinizi soran bildirimler alırsınız.    
 

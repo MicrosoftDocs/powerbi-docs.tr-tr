@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: mblythe
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9047ae7f74a7589d242531a5af18f6094c2b03a6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1c8c65d9b0f0b669d46d73d739be24f29f623743
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523953"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164458"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA için şifrelemeyi etkinleştirme
 

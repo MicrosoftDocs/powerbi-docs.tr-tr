@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61048025"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141295"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 Power BI sayesinde raporunuzu PDF biçiminde yayımlayabilir ve kolayca Power BI raporunuzu temel alan bir belge oluşturabilirsiniz. **PDF'ye dışarı aktardığınızda** Power BI raporundaki her sayfa PDF belgesinde ayrı sayfalara dönüşür.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Power BI raporunuzu PDF'ye aktarma
-Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. Giriş sayfanızdan, Uygulamalar’dan veya sol gezinti bölmenizdeki başka bir bölümden bir rapor seçebilirsiniz.
+Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. Giriş sayfanızdan, Uygulamalar’dan veya sol gezinti çubuğundaki başka bir kapsayıcıdan bir rapor seçebilirsiniz.
 
-1. Menü çubuğundan **Dosya** > **PDF’ye aktar**’ı seçin.
+1. Menü çubuğundan **Dışarı Aktar** > **PDF**’i seçin.
 
-    ![Menü çubuğundan Dosya'yı seçme, PDF’ye Aktar'a işaret eden bir ok](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Menü çubuğundan Dışarı Aktar'ı seçme, PDF’ye Aktar'ı işaret eden ok](media/end-user-pdf/power-bi-export.png)
 
-    Bir açılan menü görüntülenir ve **Geçerli görünüm**’ü veya **Varsayılan görünüm**’ü kullanma seçeneği sağlanır.  **Geçerli görünüm** raporu geçerli durumda dışarı aktarır. Bu, dilimleyici ve filtre değerlerinde yaptığınız etkin değişiklikleri içerir.  Kullanıcıların çoğu bu seçeneği tercih eder.  Alternatif olarak, **Varsayılan görünüm** seçildiğinde rapor özgün durumunda (yazarın bunu paylaştığı şekilde) dışarı aktarılır ve bu özgün durumda yaptığınız değişiklikleri yansıtmaz.
+    Açılan menüde **Geçerli değerler**’i veya **Varsayılan değerler**’i kullanma seçeneği sunulur.  **Geçerli değerler** seçeneği, raporu dilimleyici ve filtre değerlerinde yaptığınız etkin değişiklikleri içeren geçerli durumunda dışarı aktarır.  Kullanıcıların çoğu bu seçeneği tercih eder.  Alternatif olarak, **Varsayılan değerler** seçildiğinde rapor özgün durumunda (*tasarımcının* paylaştığı şekilde) dışarı aktarılır ve bu özgün durumda yaptığınız değişiklikleri yansıtmaz.
     
-    Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır.  Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz, bu kutuyu seçmeniz yeterlidir.  Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz, bu kutuyu işaretsiz bırakabilirsiniz.  Onay kutusu soluk görüntüleniyorsa, raporda hiç gizli sekme yoktur.  Seçimlerinizi yaptıktan sonra devam etmek için Dışarı Aktar düğmesine tıklayın.
+    Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır.  Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz, bu kutuyu seçmeniz yeterlidir.  Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz, bu kutuyu işaretsiz bırakabilirsiniz.  Onay kutusu soluk görüntüleniyorsa, raporda hiç gizli sekme yoktur.  Seçimlerinizi yaptıktan sonra devam etmek için Dışarı Aktar düğmesini seçin.
     
     Sağ üst köşede bir ilerleme çubuğu görüntülenir. Dışarı aktarma işlemi birkaç dakika sürebilir ve rapor dışarı aktarılırken Power BI'da çalışmaya devam edebilirsiniz.
 
-    ![Dışarı aktarma ilerleme durumu iletisi](media/end-user-pdf/power-bi-export-message.png)
+    ![Dışarı aktarma ilerleme durumu iletisi](media/end-user-pdf/power-bi-export-progress.png)
 
     İşlem tamamlandıktan sonra bildirim başlığı, Power BI hizmetinin dışarı aktarma işlemini tamamladığını belirtecek şekilde değişir.
 
 2. Dosyanız artık, tarayıcınızın indirilen dosyaları görüntülediği konumda kullanılabilir. Aşağıdaki görüntüde, tarayıcı pencerenizin alt kısmında bulunan bir indirme başlığı olarak gösterilmektedir.
 
-    ![İndirilen dosyanın konumu](media/end-user-pdf/power-bi-save-file.png)
+    ![İndirilen dosyanın konumu](media/end-user-pdf/power-bi-export-done.png)
 
 İşte bu kadar kolay. Dosyayı indirebilir ve Microsoft Edge'de sağlanan görüntüleyici gibi herhangi bir PDF görüntüleyicisiyle açabilirsiniz.
 

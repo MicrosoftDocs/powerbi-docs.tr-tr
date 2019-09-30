@@ -1,20 +1,20 @@
 ---
 title: Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
 description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596564"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073360"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -26,7 +26,7 @@ Kuruluşunuzun içindeki Power BI kullanıcıları için ekleme yapıyorsanız (
 
 ![Satır Düzeyi Güvenlik ile ilgili öğeler.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-RLS'den faydalanmak için üç ana kavramı anlamak önemlidir: Kullanıcılar, Roller ve Kurallar. Şimdi her birine daha yakından bakalım:
+RLS'den faydalanmak için üç ana kavramı anlamak önemlidir: Kullanıcılar, Roller ve Kurallar. Bu kavramlara daha yakından bakalım:
 
 **Kullanıcılar** – Yapıtı (pano, kutucuk, rapor veya veri kümesi) görüntüleyen son kullanıcılar. Power BI Embedded'da kullanıcılar bir ekleme belirteci içindeki kullanıcı adı özelliği ile tanımlanır.
 
@@ -64,7 +64,7 @@ Aşağıdaki adımları uygulayın:
 2. **Manager** adlı yeni bir rol oluşturun.
 
     ![Yeni rol oluşturma](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()** .
+3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()**.
 
     ![RLS kuralı için DAX deyimi](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Kuralların çalıştığından emin olmak için **Modelleme** sekmesinde **Rol olarak görüntüle**'yi ve ardından oluşturduğunuz **Manager** rolünü ve **Diğer kullanıcılar**'ı seçin. Kullanıcı olarak **AndrewMa** girin.
@@ -77,15 +77,15 @@ Burada yaptığımız gibi filtreyi uygulamak **District**, **Store** ve **Sales
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Ekleme belirtecine kullanıcı ve rol uygulama
 
-Power BI Desktop rollerini yapılandırdınız ancak uygulamanızın rollerden faydalanabilmesi için yapmanız gereken birkaç işlem daha vardır.
+Power BI Desktop rollerini yapılandırdınız ancak uygulamanızın rollerden faydalanabilmesi için yapılması gereken birkaç işlem daha vardır.
 
 Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından gerçekleştirilir ve kullanıcıya belirli bir Power BI Embedded raporuna erişim izni vermek için ekleme belirteçleri kullanılır. Power BI Embedded, kullanıcıyla ilgili belirli bilgilere sahip değildir. RLS'nin çalışması için ekleme belirtecinin bir parçası olarak kimlik biçiminde ek bağlam iletmeniz gerekir. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API’sini kullanarak kimlikleri iletebilirsiniz.
 
 API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdaki parçaları kimlikle birlikte iletmeniz gerekir.
 
-* **username (zorunlu)** : RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
-* **roles (zorunlu)** : Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
-* **dataset (zorunlu)** : Eklediğiniz yapıta uygulanabilen bir veri kümesi.
+* **username (zorunlu)**: RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
+* **roles (zorunlu)**: Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
+* **dataset (zorunlu)**: Eklediğiniz yapıta uygulanabilen bir veri kümesi.
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz.
 

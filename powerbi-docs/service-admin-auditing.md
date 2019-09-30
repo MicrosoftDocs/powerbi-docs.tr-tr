@@ -1,5 +1,5 @@
 ---
-title: Kuruluşunuzda denetim özelliğini kullanma
+title: Kuruluşunuzda denetim kullanma
 description: Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
 author: mgblythe
 manager: kfile
@@ -7,119 +7,119 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/23/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906886"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075846"
 ---
-# <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim özelliğini kullanma
+# <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim kullanma
 
-Kimin hangi Power BI öğeler üzerinde yaptığını bilmek, Kiracı, kuruluşunuzun Mevzuata uygunluk ve kayıt yönetimi gibi kendi gereksinimlerini karşılayacak yardımcı kritik olabilir. Power BI'ın "Raporu görüntüle" ve "Panoyu görüntüle" gibi bir kullanıcı tarafından gerçekleştirilen eylemler denetim için denetleme kullanabilir. Denetim izinlerini denetlemek için kullanamazsınız.
+Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Kullanıcılar tarafından gerçekleştirilen "Raporu Görüntüleme" ve "Panoyu Görüntüleme" gibi eylemleri denetlemek için Power BI denetim özelliğini kullanın. Denetimi izinleri denetlemek için kullanamazsınız.
 
 Denetim görevlerini Office 365 Güvenlik ve Uyumluluk Merkezi'nden gerçekleştirebilir veya bunun için PowerShell'i kullanabilirsiniz. Denetim, Power BI'ı desteklemek için otomatik olarak sağlanan Exchange Online'ın işlevselliğine dayanır.
 
-Denetim verilerini tarih aralığını, kullanıcı, Pano, rapor, veri kümesi ve etkinlik türüne göre filtre uygulayabilirsiniz. Etkinlikler, çevrimdışı analiz için bir csv (virgülle ayrılmış değer) dosyası da indirebilirsiniz.
+Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri kümesine ve etkinlik türüne göre filtreleyebilirsiniz. İsterseniz etkinlikleri csv (virgülle ayrılmış değer) dosyası halinde indirerek çevrimdışı analiz gerçekleştirebilirsiniz.
 
 ## <a name="requirements"></a>Gereksinimler
 
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
 
-* Denetim günlükleri veya yalnızca görüntülenen denetim günlükleri Exchange Online Denetim günlüğüne erişmek için atanması veya bir genel yönetici ya da olmalıdır. Varsayılan olarak, bu rolleri üzerinde atanmış uyumluluk yönetimi ve kuruluş yönetim rolü grupları gelir **izinleri** Exchange Yönetim merkezinde sayfası.
+* Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır.
 
-    Yönetici olmayan hesaplar Denetim günlüğüne erişmesini sağlamak için kullanıcı rolü bu gruplardan birine üye eklemeniz gerekir. Bunu yapmanın istiyorsanız başka bir deyişle, Exchange Yönetim merkezinde bir özel rol grubu oluşturabilir, bu gruba denetim günlükleri veya yalnızca görüntülenen denetim günlükleri rolüne atayın ve ardından yönetici olmayan hesapta yeni rol grubuna ekleyin. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
+    Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için, kullanıcıyı söz konusu rol gruplarından birine üye olarak eklemelisiniz. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 
     Microsoft 365 yönetim merkezinden Exchange yönetim merkezine erişemiyorsanız, https://outlook.office365.com/ecp adresine gidin ve kimlik bilgilerinizi kullanarak oturum açın.
 
-* Denetim günlüğüne erişebilir, ancak bir genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetici portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
+* Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
 
 ## <a name="access-your-audit-logs"></a>Denetim günlüklerinize erişme
 
-Günlüklerine erişmek için öncelikle Power BI'da günlüğe kaydetmeyi etkinleştirmek emin olun. Daha fazla bilgi için yönetici portalı belgelerinin [Denetim günlükleri](service-admin-portal.md#audit-logs) bölümüne bakın. Denetimi etkinleştirme zamanı arasında bir 48 saatlik gecikme kadar olabilir ve ne zaman denetim verilerini görüntüleyebilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
+Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğini etkinleştirdiğinizden emin olun. Daha fazla bilgi için yönetici portalı belgelerinin [Denetim günlükleri](service-admin-portal.md#audit-logs) bölümüne bakın. Denetimi etkinleştirmeniz ile denetim verilerini görüntüleyebilmeniz arasında 48 saate kadar gecikme olabilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
 
-Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog)'nden erişebilirsiniz. Power BI Yönetici portalı'ndan bir bağlantısı vardır:
+Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog)'nden erişebilirsiniz. Power BI yönetici portalında doğrudan bir bağlantı da mevcuttur:
 
-1. Power BI'da seçin **dişli simgesini** seçip sağ üst köşedeki **Yönetici portalı**.
+1. Power BI'da sağ üst köşedeki **dişli simgesini** ve ardından **Yönetici portalı**'nı seçin.
 
-   ![Çağrılan Yönetici portalı seçeneğiyle dişli açılan menüsünün ekran görüntüsü.](media/service-admin-auditing/powerbi-admin.png)
+   ![Yönetim portalı seçeneği öne çıkarılmış dişli açılan menüsünün ekran görüntüsü.](media/service-admin-auditing/powerbi-admin.png)
 
 1. **Denetim günlükleri**'ni seçin.
 
 1. **O365 Yönetim Merkezi'ne git** seçeneğini belirleyin.
 
-   ![Yönetim Portalı'nın ekran görüntüsü ile denetim seçeneği ve Git çekilerek Microsoft O365 Yönetim Merkezi'ne seçenekleri kaydeder.](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Denetim günlükleri seçeneği ve Microsoft O365 Yönetim Merkezine Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 
 Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle sınırlayabilirsiniz. Etkinlik listesi için bu makalenin devamındaki [Power BI tarafından denetlenen etkinlikler](#activities-audited-by-power-bi) listesine bakın.
 
-1. Üzerinde **denetim günlük araması** sayfasındaki **arama**, seçmek için açılan **etkinlikleri**.
+1. **Denetim günlüğü arama** sayfasının **Ara** bölümünde **Etkinlikler** açılan menüsünü seçin.
 
 2. **Power BI etkinlikleri**'ni seçin.
 
-   ![Power BI etkinlikleriyle çekilerek ekran görüntüsü, denetim günlük araması.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Power BI etkinliklerinin öne çıkarıldığı Denetim günlüğü araması ekran görüntüsü.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Dışındaki herhangi bir alanı seçerek seçim kutusunu kapatın.
 
-Aramalarınız yalnızca Power BI etkinlikleri döndürür.
+Aramalarınız yalnızca Power BI etkinliklerini döndürür.
 
 ## <a name="search-the-audit-logs-by-date"></a>Denetim günlüklerinde tarihe göre arama yapma
 
-**Başlangıç tarihi** ve **Bitiş tarihi** alanlarını kullanarak günlüklerde tarihe göre arama yapabilirsiniz. Son yedi gün varsayılan seçimdir. Görüntü tarih ve saati Eşgüdümlü Evrensel Saat (UTC) biçiminde sunar. Belirtebileceğiniz maksimum tarih aralığı 90 gündür. 
+**Başlangıç tarihi** ve **Bitiş tarihi** alanlarını kullanarak günlüklerde tarihe göre arama yapabilirsiniz. Son yedi gün varsayılan seçimdir. Ekranda tarih ve saat Eşgüdümlü Evrensel Saat (UTC) biçiminde gösterilir. Belirtebileceğiniz maksimum tarih aralığı 90 gündür. 
 
-Seçili tarih aralığı 90 günden fazlaysa hata alırsınız. 90 gün olan maksimum tarih aralığını kullanıyorsanız **Başlangıç tarihi** için içinde bulunduğunuz saati seçin. Bunu yapmamanız halinde başlangıç tarihinin bitiş tarihinden daha erken olduğunu belirten bir hata alırsınız. Denetimi son 90 gün içinde etkinleştirdiyseniz tarih aralığının başlangıç tarihi, denetimin etkinleştirildiği tarihten önceki bir gün olamaz.
+Seçilen tarih aralığı 90 günden fazlaysa bir hata alırsınız. 90 gün olan maksimum tarih aralığını kullanıyorsanız **Başlangıç tarihi** için içinde bulunduğunuz saati seçin. Bunu yapmamanız halinde başlangıç tarihinin bitiş tarihinden daha erken olduğunu belirten bir hata alırsınız. Denetimi son 90 gün içinde etkinleştirdiyseniz tarih aralığının başlangıç tarihi, denetimin etkinleştirildiği tarihten önceki bir gün olamaz.
 
-![Başlangıç tarihi ve bitiş tarihi seçeneklerini, bahsedilen ile ekran görüntüsü, denetim günlük araması.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Başlangıç Tarihi ve Bitiş Tarihi seçenekleri öne çıkarılan Denetim günlüğü araması ekran görüntüsü.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Denetim günlüklerinde kullanıcılara göre arama yapma
 
-Denetim günlüğü girişlerinde belirli kullanıcılar tarafından gerçekleştirilen etkinlikler için arama yapabilirsiniz. Bir veya daha fazla kullanıcı adlarını girin **kullanıcılar** alan. Kullanıcı adı, bir e-posta adresi gibi görünüyor. Kullanıcılar, Power bı'da oturum hesabıdır. Kuruluşunuzdaki tüm kullanıcılara (ve hizmet hesaplarına) ait girişleri döndürmek için bu kutuyu boş bırakın.
+Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli kullanıcılara göre arama yapabilirsiniz. **Kullanıcılar** alanına bir veya daha fazla kullanıcı adı girin. Kullanıcı adı bir e-posta adresine benzer. Bu, kullanıcıların Power BI’da oturum açtığı hesaptır. Kuruluşunuzdaki tüm kullanıcılara (ve hizmet hesaplarına) ait girişleri döndürmek için bu kutuyu boş bırakın.
 
 ![Kullanıcılara göre arama](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 
-Seçtikten sonra **arama**, arama sonuçları yükleyin. Birkaç dakika sonra altında görüntülenmesini **sonuçları**. Arama tamamlandığında bulunan sonuç sayısı gösterir. **Denetim günlük araması** en fazla 1000 olay görüntülenir. 1000'den fazla olayları arama ölçütlerini karşılıyorsanız, uygulamanın en yeni 1000 olayları görüntüler.
+**Ara**’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
 
 ### <a name="view-the-main-results"></a>Ana sonuçları görüntüleme
 
-**Sonuçları** alan arama tarafından döndürülen her olay için aşağıdaki bilgiler bulunur. Sonuçları sıralamak için **Sonuçlar** bölümündeki sütun başlıklarından birini seçin.
+**Sonuçlar** alanı bu arama sonucunda döndürülen olaylar hakkında bilgiler içerir. Sonuçları sıralamak için **Sonuçlar** bölümündeki sütun başlıklarından birini seçin.
 
 | **Sütun** | **Tanım** |
 | --- | --- |
 | Tarih |Olayın gerçekleştiği tarih ve saat (UTC biçiminde). |
-| IP adresi |Oturum etkinliği için kullanılan cihazın IP adresi. Uygulamanın IP adresini bir IPv4 veya IPv6 adresi biçiminde görüntüler. |
+| IP adresi |Günlüğe kaydedilen etkinlik için kullanılan cihazın IP adresi. Uygulama, IP adresini IPv4 veya IPv6 adresi biçiminde gösterir. |
 | Kullanıcı |Olayı tetikleyen eylemi gerçekleştiren kullanıcı (veya hizmet hesabı). |
 | Etkinlik |Kullanıcı tarafından gerçekleştirilen etkinlik. Bu değer, **Etkinlikler** açılan listesinde seçtiğiniz etkinliklere karşılık gelir. Exchange yönetimi denetim günlüğünden bir olay için bu sütundaki değer Exchange cmdlet olur. |
-| Öğe |Nesne, oluşturulan veya karşılık gelen bir etkinliği nedeniyle değiştirilemiyor. Örneğin, görüntülenen veya değiştirilen dosya veya güncelleştirilmiş kullanıcı hesabı. Etkinliklerin hepsi için bu sütunda değer görüntülenmez. |
-| Ayrıntı |Bir etkinlikle ilgili ayrıntılı bilgiler. Tekrar tüm etkinlikleri bir değere sahip. |
+| Öğe |İlgili etkinlik nedeniyle oluşturulmuş veya değiştirilmiş olan nesne. Örneğin, görüntülenen veya değiştirilen dosya ya da güncelleştirilmiş kullanıcı hesabı. Etkinliklerin hepsi için bu sütunda değer görüntülenmez. |
+| Ayrıntı |Bir etkinlikle ilgili ayrıntılı bilgiler. Bu sütunda da tüm etkinlikler için değer görüntülenmez. |
 
 ### <a name="view-the-details-for-an-event"></a>Olay ayrıntılarını görüntüleme
 
-Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçları listesinde olay kaydı'nı seçin. A **ayrıntıları** olay kaydının ayrıntılı özelliklerini içeren sayfası açılır. **Ayrıntıları** sayfası özellikler olayın gerçekleştiği Office 365 hizmete bağlı olarak görüntüler.
+Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Office 365 hizmetine bağlı olarak özellikler gösterilir.
 
 Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
-   ![Bahsedilen daha fazla bilgi seçeneği içeren denetim Ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-auditing/audit-details.png)
+   ![Daha fazla bilgi seçeneği öne çıkarılmış denetim ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-auditing/audit-details.png)
 
 ## <a name="export-search-results"></a>Arama sonuçlarını dışarı aktarma
 
-Power BI denetim günlüğünü CSV dosyasına dışarı aktarmak için aşağıdaki adımları izleyin.
+Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için aşağıdaki adımları izleyin.
 
 1. **Sonuçları dışarı aktar**'ı seçin.
 
 1. **Yüklenen sonuçları kaydet**'i veya **Tüm sonuçları indir**'i seçin.
 
-    ![Ekran görüntüsü dışarı aktarma seçeneği sonuçlanır.](media/service-admin-auditing/export-auditing-results.png)
+    ![Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Denetim günlüklerinde arama yapmak için PowerShell'i kullanma
 
-Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için bir yönetici, uygun izinleri açıklandığı atamanız gerekir [gereksinimleri](#requirements) bölümü.
+Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için, [Gereksinimler](#requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -136,7 +136,7 @@ Exchange Online'a bağlanma hakkında daha fazla bilgi için bkz. [Connect to Ex
 
 ## <a name="activities-audited-by-power-bi"></a>Power BI tarafından denetlenen etkinlikler
 
-Aşağıdaki etkinlikleri, Power BI tarafından denetlenir:
+Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 
 | Kolay ad                                     | İşlem adı                              | Notlar                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|

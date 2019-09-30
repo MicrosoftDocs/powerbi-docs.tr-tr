@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751421"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142250"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI Hizmetinde Metin Olarak Döndürülen İç İçe Değerlerle İlgili Sorunları Giderme
 
 ## <a name="cause"></a>Neden
 
-Geçmişte, bazı durumlarda Desktop'da düzgün yenilenen bir Power BI raporu Power BI hizmetinde “"[Tablo]" değerini Tablo türüne dönüştüremiyoruz” gibi bir hatayla başarısız oluyordu. Bu hatanın nedenlerinden biri Veri Gizliliği Ağ Geçidi (buraya bağlantısı eklenecek mi?) veri kaynağını arabelleğe aldığında iç içe skaler olmayan değerlerin (tablolar, kayıtlar, listeler ve işlevler gibi) otomatik olarak metin değerlerine (“[Tablo]” veya “[Kayıt]” gibi) dönüştürülmesidir.
+Geçmişte, bazı durumlarda Desktop'da düzgün yenilenen bir Power BI raporu Power BI hizmetinde “"[Tablo]" değerini Tablo türüne dönüştüremiyoruz” gibi bir hatayla başarısız oluyordu. Bu hatanın nedenlerinden biri Veri Gizliliği Ağ Geçidi veri kaynağını arabelleğe aldığında iç içe skaler olmayan değerlerin (tablolar, kayıtlar, listeler ve işlevler gibi) otomatik olarak metin değerlerine (“[Tablo]” veya “[Kayıt]” gibi) dönüştürülmesidir.
 
 Artık Power BI hizmeti gizlilik düzeylerinin ayarlanmasını (veya Güvenlik Duvarının tamamen kapatılmasını) desteklediğinden, Power BI hizmetinde [veri kaynağı gizlilik ayarları Gizli dışında bir değere yapılandırılarak](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) bu tür hatalar önlenebilir.
 

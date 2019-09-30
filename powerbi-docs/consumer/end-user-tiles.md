@@ -4,24 +4,23 @@ description: Tüketiciler için Power BI'daki pano kutucukları hakkında tüm b
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050286"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142095"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
-Kutucuklar, verilerinizin bir *tasarımcı* tarafından panoya sabitlenmiş olan anlık görüntüleridir. Bir rapor, veri kümesi ve panonun yanı sıra Soru-Cevap soru kutusu, Excel, SQL Server Reporting Services (SSRS) ve diğer hizmetlerden kutucuk oluşturabilirsiniz.  Bu ekran görüntüsünde, bir panoya sabitlenmiş birçok farklı kutucuk gösterilmektedir.
+Kutucuklar, verilerinizin bir *tasarımcı* tarafından panoya sabitlenmiş olan anlık görüntüleridir. *Tasarımcılar* bir rapor, veri kümesi, pano, Soru-Cevap soru kutusu, Excel, SQL Server Reporting Services (SSRS) ve diğer hizmetlerden kutucuk oluşturabilir.  Bu ekran görüntüsünde, bir panoya sabitlenmiş birçok farklı kutucuk gösterilmektedir.
 
-![Power BI panosu](./media/end-user-tiles/power-bi-dashboard.png)
+![Power BI panosu](./media/end-user-tiles/power-bi-dash.png)
 
 
 Raporlardan sabitlenen kutucuklara ek olarak *tasarımcılar*, **Kutucuk ekle** komutuyla doğrudan panoya bağımsız kutucuklar ekleyebilir. Ayrı kutucuklar arasında metin kutuları, resimler, videolar, akış verileri ve web içeriği bulunur.
@@ -38,15 +37,15 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
 
     - Soru-Cevap kullanılarak oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-menu1.png)
+        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-1.png)
 
     - çalışma kitabından oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-menu2.png)
+        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-2.png)
 
     - rapordan oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-menu3.png)
+        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-3.png)
    
     Burada yapabilecekleriniz:
    
@@ -56,9 +55,12 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
    
 
    * [Bu kutucuğu oluşturmak için kullanılan çalışma kitabını açma ](end-user-reports.md) ![çalışma sayfası simgesi](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [Kutucuğu odak modunda görüntüleme ](end-user-focus.md) ![odak simgesi](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Öngörüleri çalıştırma ](end-user-insights.md) ![öngörüler simgesi](./media/end-user-tiles/power-bi-insights.png)
-    * [Bir yorum ekleme ve tartışma başlatma](end-user-comment.md) ![yorum simgesi](./media/end-user-tiles/comment-icons.png)
+   * [Kutucuğu odak modunda görüntüleme ](end-user-focus.md) ![odak simgesi](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [İçgörüler görüntüleme ](end-user-insights.md) ![içgörüler simgesi](./media/end-user-tiles/power-bi-insights.png)
+   * [Bir yorum ekleme ve tartışma başlatma](end-user-comment.md) ![yorum simgesi](./media/end-user-tiles/comment-icons.png)
+   * [Pano kutucuğunda ayarlanan uyarıları yönetme](end-user-alerts.md)  ![uyarı simgesi](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Verileri Excel’de açma](end-user-export.md)  ![dışarı aktarma simgesi](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Eylem menüsü kapatmak için tuvalde boş bir alan seçin.
 

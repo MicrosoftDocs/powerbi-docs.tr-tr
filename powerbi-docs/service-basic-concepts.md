@@ -13,7 +13,7 @@ ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64770786"
@@ -50,16 +50,16 @@ Power BI'ın başlıca 4 yapı taşı şunlardır: **_panolar_** , **_raporlar_*
 Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve*uygulama çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuzun Power BI son kullanıcılarına ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ama son kullanıcılar bunları düzenleyemez.
 
 - *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir uygulama çalışma alanında çalışmak istersiniz.      
--  *Uygulama çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Uygulama çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm uygulama çalışma alanı üyelerinin Power BI Pro lisansları gerekir. Uygulama kullanıcılarının, uygulamalara erişim sahibi olan iş arkadaşlarınız, mutlaka Pro lisanslarına gerek yoktur. Daha fazla bilgi edinin [yeni çalışma alanlarında](service-create-the-new-workspaces.md).  
+-  *Uygulama çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Uygulama çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm uygulama çalışma alanı üyelerinin Power BI Pro lisansı olmalıdır. Uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur. [Yeni çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.  
 
-Genel olarak paylaşma hakkında daha fazla bilgi için başlayın [panolar çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md).
+Paylaşma hakkında genel olarak daha fazla bilgi edinmek için [Çalışmanızın panolarını paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md) ile başlayın.
 
 Şimdi Power BI'ın yapı taşlarına geçelim. Veriler olmadan panonuz veya raporunuz olamayacağından (boş panolarınız veya raporlarınız olabilir ancak bunlar veri içerene kadar kullanışlı değildir) **veri kümeleriyle** başlayalım.
 
 ## <a name="datasets"></a>Veri kümeleri
 Bir *veri kümesi*, *içeri aktardığınız* veya *bağlandığınız* bir veri koleksiyonudur. Power BI, her türden veri kaynağına bağlanmanın ve bunları içeri aktarmanın yanı sıra hepsini tek bir yerde toplamanızı sağlar.  
 
-Veri kümeleri, *çalışma alanlarıyla* ilişkilendirilmiştir ve tek bir veri kümesi, birden fazla çalışma alanına ait olabilir. Bir çalışma alanını açtığınızda ilişkilendirilmiş veri kümeleri, **Veri kümeleri** sekmesinde listelenir. Listelenen her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı veya tablosal bir şirket içi SSAS veri kümesi). Desteklenen birçok veri kaynağı olmakla birlikte yenilerini eklemeye de hiç ara vermiyoruz. Listesine bakın [Power BI ile kullanabileceğiniz veri kümesi türleri](service-get-data.md).
+Veri kümeleri, *çalışma alanlarıyla* ilişkilendirilmiştir ve tek bir veri kümesi, birden fazla çalışma alanına ait olabilir. Bir çalışma alanını açtığınızda ilişkilendirilmiş veri kümeleri, **Veri kümeleri** sekmesinde listelenir. Listelenen her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı veya tablosal bir şirket içi SSAS veri kümesi). Desteklenen birçok veri kaynağı olmakla birlikte yenilerini eklemeye de hiç ara vermiyoruz. [Power BI ile kullanılabilen veri kümesi türlerinin](service-get-data.md) listesine göz atın.
 
 Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Veri kümeleri** sekmesine tıkladım.
 
@@ -75,7 +75,7 @@ Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçti
 
 [Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](service-get-data.md) için sol gezinti bölmesinin en altındaki **Veri Al**'ı seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar, temel alınan veri kümesinde değişikliğe neden olmaz.
 
-Bir çalışma alanı üyesi tarafından eklenen veri kümeleri ile diğer çalışma alanı üyeleri için kullanılabilir bir *yönetici*, *üye*, veya *katkıda bulunan* rol.
+Bir çalışma alanı üyesi tarafından eklenen veri kümeleri *yönetici*, *üye* veya *katkıda bulunan* rolüne sahip diğer çalışma alanı üyeleri tarafından görülebilir.
 
 Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve kaldırılabilir. Veri kümesi kullanarak sıfırdan rapor oluşturabilir veya [hızlı öngörülerden](service-insights.md) faydalanabilirsiniz.  Veri kümesi kullanan raporları ve panoları görmek için **İlişkilileri görüntüle**'yi seçin. Araştırmak için veri kümesini seçmeniz gerekir. Aslında burada yaptığınız, veri kümesini, verilerinizin detaylarına gitmeye ve görselleştirmeler oluşturmaya başlayabileceğiniz rapor düzenleyicisinde açmaktır. Öyleyse, yeni konumuz olan raporlara geçelim.
 
@@ -85,31 +85,31 @@ Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve 
 * [Power BI için örnek veri kümeleri](sample-datasets.md)
 
 ## <a name="reports"></a>Raporlar
-Power BI raporu çizgi grafikler, haritalar ve ağaç haritaları gibi görselleştirmeler içeren bir veya birden fazla sayfadan oluşur. Görselleştirmelere **_görseller_** adı da verilir. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. Raporlar Power bı'da sıfırdan oluşturmak, bunları iş arkadaşlarınızın sizinle paylaştığı panolarla içeri aktarın veya Excel, Power BI Desktop, veritabanları ve SaaS uygulamalarına veri kümelerine bağlandığında, Power BI bunları oluşturabilirsiniz.  Örneğin, Power View sayfaları içeren bir Excel çalışma kitabına bağlandığınızda Power BI, söz konusu sayfaları temel alan bir rapor oluşturur. Bir SaaS uygulamasına bağlandığınızda ise Power BI, önceden oluşturulmuş bir raporu içeri aktarır.
+Power BI raporu çizgi grafikler, haritalar ve ağaç haritaları gibi görselleştirmeler içeren bir veya birden fazla sayfadan oluşur. Görselleştirmelere **_görseller_** adı da verilir. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. Power BI'da sıfırdan rapor oluşturabilir, çalışma arkadaşlarınızın sizinle paylaştığı panolarla içeri aktarabilirsiniz veya Excel, Power BI Desktop, veritabanları ve SaaS uygulamaları’ndan veritabanlarına bağlanırken bunları Power BI oluşturabilir.  Örneğin, Power View sayfaları içeren bir Excel çalışma kitabına bağlandığınızda Power BI, söz konusu sayfaları temel alan bir rapor oluşturur. Bir SaaS uygulamasına bağlandığınızda ise Power BI, önceden oluşturulmuş bir raporu içeri aktarır.
 
-Raporları görüntülemek ve raporlarla etkileşimli çalışmak için iki mod vardır: *Okuma Görünümü'nde* ve *düzenleme görünümü*. Bir raporu açtığınızda, Okuma Görünümü'nde açılır. Düzenleme izinlerine sahip sonra gördüğünüz **Raporu Düzenle** sol üst köşedeki ve raporu düzenleme Görünümü'nde görüntüleyebilirsiniz.  Bir raporu bir çalışma alanında, herkesle olup olmadığını bir *yönetici*, *üye*, veya *katkıda bulunan* rol düzenleyebilir. İçin tüm araştırma, tasarlama erişimleri, oluşturma ve paylaşma özelliklerine düzenleme için bu raporu görüntüleyin. Bunlar raporu paylaştığınız kişiler keşfedebilir ve Okuma Görünümü'nde bir raporla etkileşim kurma.   
+Raporları görüntülemek ve raporlarla etkileşimli çalışmak için iki mod vardır: *Okuma görünümü* ve *Düzenleme görünümü*. Bir raporu açtığınızda rapor Okuma görünümünde açılır. Düzenleme izinleriniz varsa, sol üst köşede **Raporu düzenle** seçeneğini görürsünüz ve raporu Düzenleme görünümünde görüntüleyebilirsiniz.  Rapor bir çalışma alanındaysa *yönetici*, *üye* veya *katkıda bulunan* rolüne sahip herkes tarafından düzenlenebilir. Bu kişiler raporun Düzenleme görünümünün tüm araştırma, tasarlama, derleme ve paylaşma özelliklerine erişebilirler. Raporu paylaştıkları kişiler Okuma görünümünde söz konusu raporu araştırabilir ve raporla etkileşimli çalışabilir.   
 
 Bir çalışma alanını açtığınızda ilişkilendirilmiş raporlar, **Raporlar** sekmesinde listelenir. Listelenen her bir rapor, temel alınan veri kümelerinden yalnızca birine dayalı bir veya daha fazla görselleştirme sayfasını temsil eder. Bir raporu açmak için seçin.
 
-Uygulamayı açtığınızda bir pano ile sunulur.  Rapordan sabitlenmiş pano kutucuklarını (ilerleyen bölümlerde kutucuklar ayrıntılı olarak anlatılır) seçerek kaynak raporlara erişebilirsiniz. Tüm kutucukların raporlardan sabitlenmediğini, bir rapora ulaşmak için birden fazla kutucuğa tıklamanız gerekebileceğini unutmayın.
+Bir uygulamayı açtığınızda bir pano görüntülenir.  Rapordan sabitlenmiş pano kutucuklarını (ilerleyen bölümlerde kutucuklar ayrıntılı olarak anlatılır) seçerek kaynak raporlara erişebilirsiniz. Tüm kutucukların raporlardan sabitlenmediğini, bir rapora ulaşmak için birden fazla kutucuğa tıklamanız gerekebileceğini unutmayın.
 
 Raporlar varsayılan olarak Okuma Görünümü'nde açılır.  Raporu, Düzenleme Görünümü'nde açmak için **Raporu düzenle**'yi seçmeniz yeterlidir (gerekli izinlere sahipseniz).
 
-Aşağıdaki örnekte, "Sales and marketing" uygulama çalışma alanını seçtim ve miyim sekmesine tıkladım **raporları**.
+Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Raporlar** sekmesine tıkladım.
 
 ![Raporlar seçildi](media/service-basic-concepts/power-bi-reports.png)
 
 **BİR** rapor...
 
 * tek bir çalışma alanında yer alır.
-* Bu çalışma alanı içindeki birden fazla panoyla ilişkilendirilebilir. Gelen bir rapor birden fazla Panoda görünebilir sabitlenmiş bir kutucuk.
-* bir veri kümesindeki veriler kullanılarak oluşturulabilir. Power BI Desktop, birden fazla veri kaynağı tek bir veri kümesine bir raporda birleştirebilir ve söz konusu raporun Power BI'a aktarılabilir.
+* Bu çalışma alanı içindeki birden fazla panoyla ilişkilendirilebilir. Söz konusu rapordan sabitlenen kutucuklar birden fazla panoda görünebilir.
+* bir veri kümesindeki veriler kullanılarak oluşturulabilir. Power BI Desktop birden fazla veri kümesini tek bir raporda birleştirebilir ve bu rapor Power BI'a aktarılabilir.
 
   ![Raporlar diyagramı](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>Derinlemesine
-- [Bir veri kümesini içeri aktararak Power BI hizmetinde bir rapor oluşturma](service-report-create-new.md)
-- [Raporları Power BI mobil uygulamaları için en iyi duruma getirme](desktop-create-phone-report.md)
+- [Veri kümesini içeri aktararak Power BI hizmetinde rapor oluşturma](service-report-create-new.md)
+- [Power BI mobil uygulamaları için raporları iyileştirme](desktop-create-phone-report.md)
 
 ## <a name="dashboards"></a>Panolar
 *Pano*, **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](power-bi-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](service-dashboard-tiles.md).
@@ -136,7 +136,7 @@ Bir çalışma alanını açtığınızda ilişkilendirilmiş panolar, **Panolar
   ![Pano seçildi](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>Derinlemesine
-* [Boş bir pano oluşturun ve veri alma](service-dashboard-create.md) .
+* [Boş pano oluşturma ve veri alma](service-dashboard-create.md).
 * [Bir panoyu yineleme](service-dashboard-copy.md)
 * [Bir panonun telefon görünümünü oluşturma](service-create-dashboard-mobile-phone-view.md)
 
@@ -200,7 +200,7 @@ Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma ve
 
 ![simge düğmeleri](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **Pano başlığı** (Gezinti yolu veya içerik haritaları)
+### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **Pano başlığı** (gezinti yolu veya içerik haritaları)
 Etkin olan çalışma alanını ve panoyu belirlemek her zaman kolay olmayabileceğinden Power BI sizin için bir gezinti yolu oluşturur.  Bu örnekte çalışma alanını (Çalışma alanım) ve pano başlığını (Retail Analysis Sample) görüyoruz.  Bir rapor açmış olsaydık raporun adı gezinti yolunun sonuna eklenmiş olacaktı.  Yolun her bölümü etkin bir köprüdür.  
 
 Pano başlığından sonra bir "C" simgesi olduğuna dikkat edin. Bu panonun [veri sınıflandırma etiketi](service-data-classification.md) "gizli" olarak belirlenmiştir. Bu etiket, verilerin hassasiyet ve güvenlik düzeyini tanımlar. Yöneticiniz veri sınıflandırma özelliğini etkinleştirdiyse her panoda varsayılan bir etiket kümesi bulunur. Pano sahiplerinin etiketi panonun güvenlik düzeyine göre değiştirmeleri gerekir.

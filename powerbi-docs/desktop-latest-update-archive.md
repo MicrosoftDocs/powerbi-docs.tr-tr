@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b61d0e3515b4efb08cb08a49d9bb339a1fbbb5a3
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903680"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142210"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -34,7 +34,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
 
-## <a name="august-2019-update-2715523641"></a>Ağustos 2019 Güncelleştirmesi (2.71.5523.641)
+## <a name="august-2019-update-2725556801"></a>Ağustos 2019 Güncelleştirmesi (2.72.5556.801)
 
 Ağustos güncelleştirmelerimiz Power BI Desktop’ta oluşturduğunuz raporları öne çıkarıyordu. 
 

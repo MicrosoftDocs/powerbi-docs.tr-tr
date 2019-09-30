@@ -1,21 +1,21 @@
 ---
 title: Power BI ile hizmet sorumlusu
 description: Power BI içeriği eklemek üzere hizmet sorumlusunu kullanarak bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823307"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073095"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
 
@@ -67,7 +67,7 @@ Kimlik doğrulaması için bir hizmet sorumlusu kullanmakla standart ana hesap (
 
 ## <a name="get-started-with-a-service-principal"></a>Hizmet sorumlusuyla çalışmaya başlama
 
-Ana hesabın geleneksel kullanımından farklı olarak hizmet sorumlusu (yalnızca uygulama belirteci) kullanmak için birkaç farklı parçanın ayarlanması gerekir. Hizmet sorumlusuyla (yalnızca uygulama belirteci) çalışmaya başlamak için doğru ortamı ayarlamanız gerekir.
+Ana hesabın geleneksel kullanımının aksine, hizmet sorumlusu (yalnızca uygulama belirteci) kullanmak için birkaç farklı parçanın ayarlanması gerekir. Hizmet sorumlusuyla (yalnızca uygulama belirteci) çalışmaya başlamak için doğru ortamı ayarlamanız gerekir.
 
 1. Azure Active Directory’de (AAD) Power BI ile kullanılacak [bir sunucu tarafı web uygulaması kaydedin.](register-app.md) Uygulamayı kaydettikten sonra uygulama kimliği, uygulama gizli dizisi ve hizmet sorumlusu nesne kimliği elde ederek Power BI içeriğinize erişebilirsiniz. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir hizmet sorumlusu oluşturabilirsiniz.
 

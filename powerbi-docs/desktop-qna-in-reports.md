@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61285134"
@@ -23,9 +23,9 @@ Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değ
 Yanıtlayabileceği büyük soru koleksiyonunu başarıyla yorumlayabileceği şekilde etkinleştirilmesi için Soru-Cevap özelliğinin modelle ilgili varsayımlar yapması gerekir. Modelinizin yapısı bu varsayımlardan birini veya daha fazlasını karşılamıyorsa modelinizi ayarlamanız gerekir. Bu Soru-Cevap ayarları, özelliği kullanıp kullanmadığınızdan bağımsız olarak Power BI’daki herhangi bir model için en iyi yöntem iyileştirmeleridir. 
 
 > [!NOTE]
-> Soru- cevap, yalnızca kullanılabilir içeren modeli ile çalışırken **içeri** veri veya SSAS Canlı bağlantıları için. DirectQuery modellerinde desteklenmez.
+> Soru-Cevap yalnızca **içeri aktarılan** verileri içeren bir modelle çalışılırken veya SSAS ile Canlı bağlantılar tarafından kullanılabilir. DirectQuery modelleri desteklenmez.
 >
-> Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Windows 10'dan önceki bir Windows sürümü kullanıyorsanız, Soru-Cevap için aşağıdaki C çalışma zamanı güncelleştirmesi gerekir. Windows Update'ten önemli güncelleştirmeleri yüklemeyi deneyebilir veya gerekli bileşeni Microsoft'tan el ile yükleyebilirsiniz (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

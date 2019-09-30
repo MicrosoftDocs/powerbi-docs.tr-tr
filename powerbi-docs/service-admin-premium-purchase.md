@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565279"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175227"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
@@ -101,9 +101,10 @@ Premium aboneliğinizi iptal ettiğinizde veya kapasite lisansınızın süresi 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/)   
-[Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/)   
-[Power BI Premium hakkında SSS](service-premium-faq.md)   
+[Power BI Premium’da kapasiteleri yapılandırma ve yönetme](service-admin-premium-manage.md)\
+[Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/)\
+[Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/)\
+[Power BI Premium hakkında SSS](service-premium-faq.md)\
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

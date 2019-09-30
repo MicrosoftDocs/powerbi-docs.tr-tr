@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386316"
@@ -31,7 +31,7 @@ kimlik     |  Guid       | Veri kümesi için sistem genelinde benzersiz tanıml
 ad     | Dize        | Veri kümesinin kullanıcı tanımlı adı.        | Yanlış        | Doğru        
 tablolar     | Table[]        | Tablo koleksiyonu.        |  Yanlış       | Yanlış        
 ilişkiler     | Relationship[]        | Tablolar arasında ilişki koleksiyonu.        | Yanlış        |  Yanlış  
-defaultMode     | Dize        | Veri kümesi, akışlı gönderildiğinde olup olmadığını belirler veya her ikisi de "Push" ve "Akış" değerine sahip         | Yanlış        |  Yanlış
+defaultMode     | Dize        | "Push" ve "Streaming" değerleriyle veri kümesinin gönderildiğini, akıtıldığını veya her ikisinin de yapıldığını belirler.         | Yanlış        |  Yanlış
 
 ## <a name="table"></a>Tablo
 

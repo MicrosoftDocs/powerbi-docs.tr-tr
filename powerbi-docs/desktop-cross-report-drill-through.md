@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903768"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100089"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma
 
@@ -32,7 +32,7 @@ Power BI Desktop’taki çapraz rapor detaylandırma özelliğini kullanarak bir
 
 
 > [!NOTE]
-> *Çalışma Alanım* içinde tek tek paylaşılan ve *[Benimle paylaşıldı](service-share-dashboards.md#share-a-dashboard-or-report)* olarak görünen raporlara yalnızca ilk paylaşıldıkları çalışma alanından erişilebilir. 
+> Power BI Desktop’taki çapraz rapor detaylandırma özelliğini kullanarak bir rapordan başka bir rapora bağlamsal olarak atlayabilirsiniz. Raporlar Power BI hizmeti içinde aynı çalışma alanında veya uygulamada olduğu sürece bu durum geçerlidir. Bu özellik *Çalışma Alanım* ([Benimle paylaşılan raporlar](service-share-dashboards.md#share-a-dashboard-or-report)) içinden bireysel olarak paylaşılan raporlara erişilirken geçerli değildir; bunun yerine, ilk olarak paylaşıldığı çalışma alanından rapora erişmeniz gerekir.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Çapraz rapor detaylandırmayı etkinleştirme
