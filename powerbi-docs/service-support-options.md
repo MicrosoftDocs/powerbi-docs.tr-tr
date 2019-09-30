@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2019
+ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: d33abaeff1f7996859e203a3b28ae99ba8d9bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402336"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305823"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro ve Power BI Premium destek seçenekleri
 

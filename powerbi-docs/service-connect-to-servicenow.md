@@ -1,21 +1,20 @@
 ---
 title: Power BI ile ServiceNow'a bağlanma
 description: Power BI için ServiceNow
-author: SarinaJoan
-manager: kfile
-ms.reviewer: maggiesMSFT
+author: KesemSharabi
+ms.author: sarinas
+manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c4ca0332a68686feb22517ff6ac720650ce1c87d
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 9fc0360ccf2e036cca1c68cf21bb538b30adf7e6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721228"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71191000"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Olay raporlama için Power BI ile ServiceNow'a bağlanma
 ServiceNow işinizi geliştirmek için iş, operasyon ve BT yönetimi dahil olmak üzere birden fazla ürün ve çözüm sunar. Bu içerik paketi açık, yakın zamanda çözümlenmiş ve yakın zamanda kapatılan olaylar hakkında birden fazla rapor ve öngörü içerir.  

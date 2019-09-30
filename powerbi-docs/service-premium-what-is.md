@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/06/2019
+ms.date: 09/17/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596546"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305857"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 

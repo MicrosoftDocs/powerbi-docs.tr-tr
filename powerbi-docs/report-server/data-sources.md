@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808223"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401837"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -71,7 +71,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | SharePoint Online Listesi |Evet |Hayır |Hayır |
 | Snowflake |Evet |Hayır |Hayır |
 | Sybase Veritabanı |Evet |Evet |Hayır |
-| Teradata Veritabanı |Evet |Evet |Evet |
+| Teradata |Evet |Evet |Evet |
 | Metin/CSV |Evet |Evet |Hayır |
 | Web |Evet |Evet |Hayır |
 | XML |Evet |Evet |Hayır |
