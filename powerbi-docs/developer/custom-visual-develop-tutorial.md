@@ -1,26 +1,26 @@
 ---
 title: Power BI görseli geliştirme
 description: Power BI özel görseli geliştirme öğreticisi
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415422"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194480"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 
-Geliştiricilerin pano ve raporlarda kullanmak üzere Power BI’a özel görseller eklemesini sağlayan kolay bir yöntem sunuyoruz. Başlamanıza yardımcı olmak için görselleştirmelerimize ait kodların tamamını GitHub’da yayımladık.
+Geliştiricilerin pano ve raporlarda kullanmak üzere Power BI’a Power BI görselleri eklemesini sağlayan kolay bir yöntem sunuyoruz. Başlamanıza yardımcı olmak için görselleştirmelerimize ait kodların tamamını GitHub’da yayımladık.
 
-Görselleştirme çerçevesine ek olarak topluluğun Power BI için yüksek kaliteli özel görseller oluşturmasına yardımcı olmak üzere test paketimizi ve araçlarımızı da sağladık.
+Görselleştirme çerçevesine ek olarak topluluğun Power BI için yüksek kaliteli Power BI görselleri oluşturmasına yardımcı olmak üzere test paketimizi ve araçlarımızı da sağladık.
 
 Bu öğreticide Power BI’da daire içinde biçimlendirilmiş bir ölçüyü görüntülemek için kullanılacak Daire Kartı adlı özel bir Power BI görselini geliştirme adımları gösterilmektedir. Daire Kartı görseli, dolgu rengi ve ana hat kalınlığını özelleştirme desteği sunar.
 

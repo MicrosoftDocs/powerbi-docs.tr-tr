@@ -11,30 +11,30 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66222153"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 
-Power BI API'si sayesinde bir Power BI veri kümesine veri gönderme. Bu makalede, var olan bir veri kümesine ürün tablosu içeren bir satış pazarlama veri kümesi göndermek nasıl gösteriyoruz.
+Power BI API verileri Power BI veri kümesine göndermenize olanak tanır. Bu makalede bir Product tablosu içeren Sales Marketing veri kümesinin mevcut bir veri kümesine nasıl gönderileceğini göstereceğiz.
 
-Başlamadan önce bir Azure Active Directory (Azure AD) gerekir ve bir [Power BI hesabı](create-an-azure-active-directory-tenant.md).
+Başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın](create-an-azure-active-directory-tenant.md) olması gerekir.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Bir veri kümesine veri göndermeye ilişkin adımlar
 
-* 1. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
-* 2. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
-* 3. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
-* 4. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
+* 1\. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
+* 2\. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
+* 3\. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
+* 4\. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
 * 5 Adım: [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)
 
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Veri göndermeye yönelik için Power BI API işlemleri
 
-Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama bir veri kümesine satırlar eklediğinde, güncelleştirme otomatik olarak yeni verilerle birlikte Pano kutucuklarının. Veri göndermeye ilişkin kullanın [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) ve [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemleri. Bir veri kümesini bulmak için kullanmak [veri kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemi. Bu işlemlerden herhangi biri için bir grup ile çalışmak için bir grup kimliği geçirebilirsiniz. Bir grup kimliği listesi almak için kullanın [grupları alma](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) işlemi.
+Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama veri kümesine satır eklediğinde, pano kutucukları yeni verilerle otomatik olarak güncelleştirilir. Verileri göndermek için [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) ve [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemlerini kullanın. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini kullanın. Bu işlemlerden herhangi birinde bir grupla çalışmak için grup kimliği geçirebilirsiniz. Grup kimliği listesini almak için [Get Groups](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) işlemini kullanın.
 
 Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
 
@@ -59,7 +59,7 @@ Bir veri kümesi için JSON dizesi aşağıdaki biçimdedir:
         ]
     }
 
-Satış Pazarlama veri kümesi Örneğin, aşağıda gösterildiği gibi bir JSON dizesi geçirmeniz gerekir. Bu örnekte, **Sales Marketing** veri kümesinin adıdır ve **ürün** tablo adı. Tablo tanımlandıktan sonra tablo şeması tanımlayın. **SalesMarketing** veri kümesi için, tablo şemasının şu sütunları vardır: ProductID, Manufacturer, Category, Segment, Product ve IsCompete.
+Sales Marketing veri kümesi örneğimizde, aşağıda gösterildiği gibi bir JSON dizesi geçirebilirsiniz. Bu örnekte veri kümesinin adı **SalesMarketing** ve tablonun adı **Product**'tır. Tabloyu tanımladıktan sonra tablo şemasını tanımlarsınız. **SalesMarketing** veri kümesi için, tablo şemasının şu sütunları vardır: ProductID, Manufacturer, Category, Segment, Product ve IsCompete.
 
 **Örnek veri kümesi nesnesi JSON**
 
@@ -105,10 +105,10 @@ Bir Power BI tablo şeması için aşağıdaki veri türlerini kullanabilirsiniz
 | **Veri türü** | **Kısıtlamalar** |
 | --- | --- |
 | Int64 |Int64.MaxValue ve Int64.MinValue değerlerine izin verilmez. |
-| Çift |Double.MaxValue ve Double.MinValue değerlerine izin verilmez. NaN desteklenmez. + Infinity ve - Infinity bazı işlevlerde (örneğin, Min, Maks) desteklenmez. |
+| Çift |Double.MaxValue ve Double.MinValue değerlerine izin verilmez. NaN desteklenmez. +Infinity ve -Infinity bazı işlevlerde (örneğin Min, Max) desteklenmez. |
 | Boole |Yok |
-| Tarih Saat |Veri yükleme sırasında biz, 1/300 saniyenin (3,33 ms) tam katlarına gün Kesitleri içeren değerleri nicelendiririz. |
-| Dize |Şu anda en fazla 128 K karakterler sağlar. |
+| Tarih Saat |Veri yüklemesi sırasında, gün kesitleri içeren değerleri 1/300 saniyenin (3,33 ms) tam katları olarak nicelendiririz. |
+| Dize |Şu anda en fazla 128.000 karaktere izin verilir. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI'a veri gönderme hakkında daha fazla bilgi edinin
 

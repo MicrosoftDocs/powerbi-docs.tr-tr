@@ -1,20 +1,20 @@
 ---
 title: Power BI görsel projeleri için birim testlerine giriş
 description: Bu makalede Power BI görsel projeleri için birim testlerinin nasıl yazıldığı açıklanır
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236726"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192463"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI görsel projeleri için birim testleri ekleme
 
@@ -616,4 +616,4 @@ Dosyanın kapsamında kaynak kodu görüntüleyebilirsiniz. Birim testleri sıra
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Görseliniz hazır olduğunda görselinizi yayına gönderebilirsiniz. Daha fazla bilgi için bkz. [Özel görselleri AppSource'a yayımlama](../office-store.md).
+Görseliniz hazır olduğunda görselinizi yayına gönderebilirsiniz. Daha fazla bilgi için bkz. [Power BI görsellerini AppSource'a yayımlama](../office-store.md).

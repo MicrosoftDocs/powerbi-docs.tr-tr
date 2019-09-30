@@ -1,24 +1,24 @@
 ---
 title: Power BI görselleri için yer işareti desteği ekleme
 description: Power BI görselleri yer işaretlerini değiştirmeyi işleyebilir
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237288"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194445"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI görselleri için yer işareti desteği ekleme
 
-Power BI rapor yer işaretleriyle rapor sayfasının, seçim durumunun ve görselin filtreleme durumunun yapılandırılmış görünümünü yakalayabilirsiniz. Öte yandan özel görseller tarafında yer işaretini desteklemek ve değişikliklere doğru tepki vermek için ek eylem gerekir.
+Power BI rapor yer işaretleriyle rapor sayfasının, seçim durumunun ve görselin filtreleme durumunun yapılandırılmış görünümünü yakalayabilirsiniz. Öte yandan Power BI görselleri tarafında yer işaretini desteklemek ve değişikliklere doğru tepki vermek için ek eylem gerekir.
 
 Yer işaretleri hakkında daha fazla bilgi için bkz. [Power BI'da içgörüleri paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ Görseliniz diğer görsellerle etkileşimde bulunuyorsa, veri noktalarını se�
 
 2. Bir `SelectionManager` örneğinde `registerOnSelectCallback` kullanmak için görsel API’sini sürüm 1.11.0’a yükseltin. `InteractivityService` yerine düz `SelectionManager` kullanan, filtre olmayan görseller için gereklidir.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Özel görsellerin rapor yer işaretlerinde Power BI ile etkileşimde bulunma şekli
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI görsellerinin rapor yer işaretlerinde Power BI ile etkileşimde bulunma şekli
 
 Şu senaryoyu ele alalım: Rapor sayfasında her yer işaretinin farklı bir seçim durumunda olduğu çeşitli yer işaretleri oluşturmak istiyorsunuz.
 

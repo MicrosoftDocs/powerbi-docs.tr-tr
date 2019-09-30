@@ -1,20 +1,20 @@
 ---
 title: Power BI görsellerinde veri görünümü eşlemesini anlama
 description: Bu makalede Power BI’ın verileri görsellere geçirmeden önce nasıl dönüştürdüğü açıklanır.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237228"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193537"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI görsellerinde veri görünümü eşlemesini anlama
 
@@ -618,7 +618,7 @@ Görsel veri yapısını aşağıdaki kodda açıklandığı gibi alır (burada 
 
 Veri görünümünde alınacak verilerin miktarını belirlemek için bir veri azaltma algoritması uygulayabilirsiniz.
 
-Varsayılan olarak tüm özel görsellerde *count* değerinin 1000 veri noktasına ayarlandığı üst veri azaltma algoritması vardır. Bu ayar, *capabilities.json* dosyasında aşağıdaki özellikleri ayarlamakla aynı sonucu verir:
+Varsayılan olarak tüm Power BI görsellerinde *count* değerinin 1000 veri noktasına ayarlandığı üst veri azaltma algoritması vardır. Bu ayar, *capabilities.json* dosyasında aşağıdaki özellikleri ayarlamakla aynı sonucu verir:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Varsayılan olarak tüm özel görsellerde *count* değerinin 1000 veri noktası
 }
 ```
 
-*count* değerini 30000’e kadar herhangi bir tamsayı değeriyle değiştirebilirsiniz. R tabanlı özel görseller, en fazla 150.000 satırı destekleyebilir.
+*count* değerini 30000’e kadar herhangi bir tamsayı değeriyle değiştirebilirsiniz. R tabanlı Power BI görselleri en fazla 150000 satırı destekleyebilir.
 
 ## <a name="data-reduction-algorithm-types"></a>Veri azaltma algoritması türleri
 

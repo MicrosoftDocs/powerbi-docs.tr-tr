@@ -1,20 +1,20 @@
 ---
 title: Power BI görsellerinin yönergeleri
 description: Özel görselinizi diğer kullanıcıların keşfetmesi ve satın alma yoluyla kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380220"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327724"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Görselinizi başkalarının bulması ve kullanması amacıyla AppSource’ta [yayımlamadan](https://docs.microsoft.com/power-bi/developer/office-store) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun. 
@@ -25,11 +25,14 @@ Birleşik bir deneyim sunmak için tüm Power BI görsellerinde bağlam menüsü
 
 
 ## <a name="logo-guidelines"></a>Logo yönergeleri
+> [!NOTE]
+> Bu makalede logo sözcüğü aşağıdaki resimlerde açıklandığı gibi herhangi bir ticari şirket logosu için kullanılır. 
 
-Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklanır. Amblemler zorunlu değildir. Eklendiyse, bu kurallara uymalıdır. 
+Bu bölümde, Power BI görsellerine logo ekleme belirtimleri açıklanır. Amblemler zorunlu değildir. Eklendiyse, bu kurallara uymalıdır. 
 
 > [!IMPORTANT]
 > Logolara *yalnızca düzenleme modunda* izin verilir. Logolar görüntüleme modunda *gösterilemez*.
+
 
 ![Tanımlar](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ Bu bölümde, görsellere logolar ve logo türleri ekleme belirtimleri açıklan
 ![Düzenleme modu](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+Bilgi verici simgeler varsa, bunlar okuma modunda renk, boyut ve konum açısından yukarıdaki logolarla uyumlu olmalıdır.
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Ek satın almalarla Power BI görsellerine ilişkin yönergeler
 
 Yakın zamana kadar, Market (AppSource) yalnızca ücretsiz olan Power BI görsellerini kabul ediyordu. Bu ilke değiştirildi (18 Aralık) ve AppSource'a "ek satın alma işlemleri gerekebilir" fiyat etiketine sahip görseller de gönderebilmeniz mümkün hale getirildi. 
 
-"Ek satın alma işlemleri gerekebilir" etiketine sahip görseller, Office Mağazası'ndaki uygulama için satın alma (IAP) eklentilerine benzer. Geliştiriciler bu görselleri, AppSource ekibi onayladıktan ve sertifika gereksinimlerine uyduğundan emin olduktan sonra da sertifikasyon için gönderebilir. Gereksinimler hakkında daha fazla bilgi için bkz. [Sertifikalı özel görseller](../power-bi-custom-visuals-certified.md).
+"Ek satın alma işlemleri gerekebilir" etiketine sahip görseller, Office Mağazası'ndaki uygulama için satın alma (IAP) eklentilerine benzer. Geliştiriciler bu görselleri, AppSource ekibi onayladıktan ve sertifika gereksinimlerine uyduğundan emin olduktan sonra da sertifikasyon için gönderebilir. Gereksinimler hakkında daha fazla bilgi için bkz. [Sertifikalı Power BI görselleri](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
 > Görselin sertifikalanması için, dış hizmetlere veya kaynaklara erişmemesi gerekir.

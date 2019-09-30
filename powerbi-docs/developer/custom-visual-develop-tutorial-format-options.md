@@ -1,22 +1,22 @@
 ---
 title: Power BI özel görsellerine biçimlendirme seçenekleri ekleme
 description: Power BI özel görseli biçimlendirme seçenekleri geliştirme öğreticisi
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380458"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194588"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Öğretici: Power BI özel görsellerine biçimlendirme seçenekleri ekleme
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme
 
 Bu öğreticide görsellere ortak özellikler ekleme adımları açıklanır.
 
@@ -263,4 +263,4 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Yeni geliştirilen görselinizi **AppSource**'a göndererek başka kullanıcıların kullanımına sunmak üzere listeleyebilirsiniz. Bu işlemle ilgili daha fazla bilgi için [AppSource'ta özel görseller yayımlama](office-store.md) konusuna bakın.
+Yeni geliştirilen görselinizi **AppSource**'a göndererek başka kullanıcıların kullanımına sunmak üzere listeleyebilirsiniz. Bu işlemle ilgili daha fazla bilgi için [AppSource'ta Power BI görselleri yayımlama](office-store.md) konusuna bakın.
