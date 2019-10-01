@@ -1,58 +1,27 @@
 ---
 title: Performans açısından en iyi Power BI Embedded yöntemleri
 description: Bu makalede en iyi tümleşik analiz yöntemlerine yönelik rehberlik sağlanır
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: d2e4a29b3dd7e36081458ff6ca51b0006a10466f
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 93c26d64193346b9b2db52bb2d0a0bbe32a4e97b
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750951"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305705"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
-Bu makalede uygulamanızdaki raporları, panoları ve kutucukları daha hızlı işlemeye yönelik öneriler sağlanır
+Bu makalede uygulamanızdaki raporları, panoları ve kutucukları daha hızlı işlemeye yönelik öneriler sağlanır.
 
-## <a name="embed-parameters"></a>Ekleme parametreleri
-
-Powerbi.embed() yöntemi bir rapor, pano veya kutucuk eklemek için birkaç parametre alır. Bu parametreler performansı etkiler.
-
-### <a name="embed-url"></a>Ekleme URL'si
-
-Ekleme URL'sini kendiniz oluşturmaktan kaçının. Bunun yerine, [Get reports](/rest/api/power-bi/reports/getreportsingroup), [Get dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) veya [Get tiles](/rest/api/power-bi/dashboards/gettilesingroup) API'sini çağırarak Ekleme URL'sini aldığınızdan emin olun. Performans geliştirmeleri için kullanmak üzere URL'ye **_config_** adlı yeni bir parametre ekledik.
-
-### <a name="permissions"></a>İzinler
-
-Raporu **Düzenleme modunda** eklemeyi düşünmüyorsanız, **Görüntüleme** izinleri sağlayın. Bu şekilde, ekleme kodu Düzenleme modu için kullanılan bileşenleri başlatmaz.
-
-### <a name="filters-bookmarks-and-slicers"></a>Filtreler, yer işaretleri ve dilimleyiciler
-
-Genellikle, rapor görselleri önbelleğe alınmış verilerle birlikte kaydedilir. Önbelleğe alınmış veriler, algılanan performansı vermek için kullanılır. Sorgular yürütülürken raporlar önbelleğe alınmış verileri işler. Filtreler, yer işaretleri veya dilimleyiciler sağlanıyorsa, önbelleğe alınmış veriler uygun olmaz. Bu durumda görseller ancak görsel sorgusu çalıştırıldıktan sonra işlenir.
-
-Raporları aynı filtrelerle eklerseniz, yük yapılandırmasında filtre listesinin geçirilmesini önlemek için raporu zaten uygulanmış olan filtrelerle kaydedin.
-
-## <a name="preload"></a>Önceden yükleme
-
-Son kullanıcı performansını geliştirmek için *preload* JavaScript API'sini kullanın.
-Powerbi.preload(), daha sonra raporda ekleme amacıyla kullanılacak javascript kodlarını, css dosyalarını ve diğer yapıtları indirir.
-
-Raporu hemen eklemiyorsanız preload çağrısı yapın. Örneğin, bir düğme tıklamasına rapor eklerseniz, preload çağrısını önceki sayfa yüklenirken yapmanız iyi olur. Bu durumda uygulama kullanıcısı düğmeye tıkladığında işleme daha hızlı gerçekleştirilir.
-
-## <a name="measure-performance"></a>Performansı ölçme
-
-Performansını ölçmek için aşağıdakileri kullanın:
-
-1. Yüklendi: raporun başlatılmasına kadar geçen süre (kullanıcı dönen daire görmez).
-2. İşlendi: rapor gerçek veriler kullanılarak tam olarak işlenene kadar geçen süre. Rapor yeniden her işlendiğinde (başka bir deyişle filtreler uygulandıktan sonra), İşlendi olayı tetiklenir. Önce raporu ölçmek için, hesaplamaları ilk tetiklenen olayda yaptığınızdan emin olun.
-
-Kullanılabilir olduğunda önbelleğe alınmış veriler işlenir ama bu veriler için henüz bir olayımız yoktur.
+> [!Note]
+> Yükleme süresinin temel olarak raporla ilgili öğelere ve görsellerin, verilerin boyutuna ve sorgu ve hesaplanan ölçülere ilişkin karmaşıklığa bağlı olduğunu unutmayın. Daha fazla bilgi için bkz. [Performans açısından en iyi Power BI yöntemleri](../power-bi-reports-performance.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Araçları ve SDK paketlerini güncelleştirme
 
@@ -60,14 +29,81 @@ Araçların ve SDK paketlerinin güncel kalmasını sağlayın.
 
 * Her zaman [Power BI Desktop](https://powerbi.microsoft.com/desktop/)'ın en son sürümünü kullanın.
 
-* [Power BI istemci SDK'sının](https://github.com/Microsoft/PowerBI-JavaScript) en son sürümünü yükleyin. Sürekli iyileştirmeler sağlamaya devam ediyoruz, bu nedenle zaman zaman takip etmeyi unutmayın.
+* [Power BI istemci SDK'sının](https://github.com/Microsoft/PowerBI-JavaScript) en son sürümünü yükleyin. Sürekli başka iyileştirmeler yayınlama devam ediyoruz, bu nedenle zaman zaman takip etmeyi unutmayın.
 
-* Yüklenecek paketler:
-    * Npm paketi: powerbi-client
-    * NuGet paketi: Microsoft.PowerBI.JavaScript
+## <a name="embed-parameters"></a>Ekleme parametreleri
 
-> [!Note]
-> Yükleme süresinin temelde raporla ve verilerle ilgili öğelere bağlı olduğunu unutmayın. Bu öğeler arasında görsellerin sayısı, verilerin boyutu, sorguların ve hesaplanan ölçülerin karmaşıklığı sayılabilir. Raporun yükleme süresini geliştirmek için lütfen [en iyi yöntemleri](../power-bi-reports-performance.md) izleyin.
+`powerbi.embed(element, config)` yöntemi bir öğe ve bir yapılandırma alır. Yapılandırma parametresi, performans etkilerine sahip alanlar içerir.
+
+### <a name="embed-url"></a>Ekleme URL'si
+
+Ekleme URL'sini kendiniz oluşturmaktan kaçının. Bunun yerine, [Get reports](/rest/api/power-bi/reports/getreportsingroup), [Get dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) veya [Get tiles](/rest/api/power-bi/dashboards/gettilesingroup) API'sini çağırarak Ekleme URL'sini aldığınızdan emin olun. Performans geliştirmeleri için kullanmak üzere URL'ye **_config_** adlı yeni bir parametre ekledik.
+
+### <a name="permissions"></a>İzinler
+
+Raporu Düzenleme modunda eklemeyi düşünmüyorsanız, **Görüntüleme** izinleri sağlayın. Bu şekilde, ekleme kodu düzenleme modunda kullanılan bileşenleri başlatmaz.
+
+### <a name="filters-bookmarks-and-slicers"></a>Filtreler, yer işaretleri ve dilimleyiciler
+
+Genellikle, rapor görselleri önbelleğe alınmış verilerle birlikte kaydedilir. Önbelleğe alınmış veriler, algılanan performansı vermek için kullanılır. Sorgular yürütülürken raporlar önbelleğe alınmış verileri işler. Filtreler, yer işaretleri veya dilimleyiciler sağlanmışsa, önbelleğe alınmış veriler ilgili değildir ve görseller yalnızca görsel sorgusu sona erdikten sonra işlenir.
+
+Aynı filtre, yer işareti ve dilimleyicilerle rapor eklerseniz, performansı artırmak için raporu daha önce uygulanan filtre, yer işareti ve dilimleyicilerle kaydedin. Bunun yapılması, raporu filtreler, yer işaretleri ve dilimleyicileri içeren önbelleğe alınmış verilerle birlikte oluşturur.
+
+## <a name="switching-between-reports"></a>Raporlar arasında geçiş yapma
+
+Aynı iframe’e birden fazla rapor eklerken her rapor için yeni bir iframe oluşturmayın. Bunun yerine, yeni raporu eklemek için farklı bir yapılandırmaya sahip olan `powerbi.embed(element, config)` kullanın.
+
+> [!NOTE]
+> 'Uygulama verilerin sahibidir' senaryosu için raporlar arasında geçiş yapmak, yeni bir ekleme belirteci oluşturma gerekliliği nedeniyle çok etkili olmayabilir.
+
+## <a name="query-caching"></a>Sorgu önbelleğe alma
+
+Power BI Premium kapasitesi veya Power BI Embedded kapasitesi ile kuruluşlar bir veri kümesiyle ilişkili raporları hızlandırmak için sorguları önbelleğe alma özelliğinden yararlanabilir.
+
+[Power BI’da sorgu önbelleğe alma hakkında daha fazla bilgi edinin](../power-bi-query-caching.md).
+
+## <a name="preload"></a>Önceden yükleme
+
+Son kullanıcı performansını iyileştirmek için `powerbi.preload()` kullanın. `powerbi.preload()` yöntemi, daha sonra raporu ekleme amacıyla kullanılacak javascript kodlarını, css dosyalarını ve diğer yapıtları indirir.
+
+Raporu hemen eklemiyorsanız `powerbi.preload()` çağrısı yapın. Örneğin, Power BI Embedded içeriği giriş sayfasında görünmezse, içeriği eklemek için kullanılan yapıtları indirmek ve önbelleğe almak için `powerbi.preload()` kullanın.
+
+## <a name="bootstrapping-the-iframe"></a>Iframe'i önyükleme
+
+> [!NOTE]
+> Iframe’i önyüklemek için [Power BI istemci SDK’sı](https://github.com/Microsoft/PowerBI-JavaScript) sürüm 2.9 gereklidir.
+
+`powerbi.bootstrap(element, config)`, gerekli tüm parametreler kullanılabilir olmadan önce eklemeye başlamanızı sağlar. Önyükleme API’si, iframe’i hazırlar ve başlatır.
+Önyükleme API’sini kullanırken, aynı HTML öğesinde `powerbi.embed(element, config)` çağrısı yapılması yine de gereklidir.
+
+Örneğin, bu özelliğin kullanım örneklerinden birinde, iframe önyüklemesi ve ekleme için arka uç çağrıları paralel olarak çalıştırılır.
+> [!TIP]
+> Iframe’i son kullanıcıya görüntülenmeden önce oluşturmanızın mümkün olduğu durumlarda önyükleme API’sini kullanın.
+
+[Iframe önyüklemesi hakkında daha fazla bilgi edinin](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bootstrap-For-Better-Performance).
+
+## <a name="measure-performance"></a>Performansı ölçme
+
+### <a name="performance-events"></a>Performans olayları
+
+Gömülü performansı ölçmek için iki olayı kullanabilirsiniz:
+
+1. Yüklendi olayı: Rapor başlatılmadan önce geçen süre (yükleme tamamlandığında Power BI logosu kaybolur).
+2. İşlendi olayı: Rapor gerçek veriler kullanılarak tamamen işlenene kadar geçen süre. Rapor yeniden her işlendiğinde (örneğin, filtreler uygulandıktan sonra), İşlendi olayı tetiklenir. Raporu ölçmek için, hesaplamaları ilk tetiklenen olayda yaptığınızdan emin olun.
+
+Önbelleğe alınmış veriler kullanılabilir olduğunda işlenir ancak başka bir olay oluşturulmaz.
+
+[Olay işleme hakkında daha fazla bilgi edinin](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Handling-Events).
+
+### <a name="performance-analyzer"></a>Performans Analizi
+
+Rapor öğelerinin performansını incelemek için Power BI Desktop'ta Performans Analizi'ni kullanabilirsiniz.
+Performans Analizi, rapor öğelerinizin her birinin nasıl performans gösterdiğini ölçen günlükleri görüp kaydetmenize izin verir.
+
+[Performans Analizi hakkında daha fazla bilgi edinin](../desktop-performance-analyzer.md).
+
+> [!NOTE]
+> Her zaman ekli rapor performansını powerbi.com üzerindeki performansla karşılaştırmayı unutmayın. Bunun yapılması, performans sorunlarınızın kaynağını anlamanıza yardımcı olur
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
