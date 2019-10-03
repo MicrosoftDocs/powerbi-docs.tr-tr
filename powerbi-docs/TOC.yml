@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: Kaynaklar
       items:
-        - name: Teknik incelemeler
-          items:
-            - name: Teknik incelemelere genel bakış
-              href: whitepapers.md
-            - name: Power BI güvenliği teknik incelemesi
-              href: whitepaper-powerbi-security.md
-            - name: Power BI premium dağıtımı
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
-              href: whitepaper-azure-b2b-power-bi.md
         - name: Videolar
           href: videos.md
         - name: Web Seminerleri
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: Veri akışları için en iyi uygulamalar
       href: service-dataflows-best-practices.md
+    - name: Teknik incelemeler
+      items:
+        - name: Teknik incelemelere genel bakış
+          href: whitepapers.md
+        - name: Power BI güvenliği teknik incelemesi
+          href: whitepaper-powerbi-security.md
+        - name: Power BI premium dağıtımı
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
+          href: whitepaper-azure-b2b-power-bi.md
