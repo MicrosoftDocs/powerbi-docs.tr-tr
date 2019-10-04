@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075846"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325452"
 ---
 # <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim kullanma
 
@@ -130,6 +130,22 @@ $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri ht
 
 Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
+```
+
+## <a name="use-powershell-to-export-audit-logs"></a>Denetim günlüklerini dışarı aktarmak için PowerShell’i kullanma
+
+Denetim günlükleri aramanızın sonuçlarını dışarı aktarmak için PowerShell de kullanabilirsiniz. Aşağıdaki örnekte [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutundan nasıl gönderebileceğiniz ve [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet’ini kullanarak sonuçları nasıl dışarı aktarabileceğiniz gösterilmektedir. Betiği çalıştırmak için, [Gereksinimler](#requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
+
+```powershell
+$UserCredential = Get-Credential
+
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+
+Import-PSSession $Session
+Search-UnifiedAuditLog -StartDate 9/11/2019 -EndDate 9/15/2019 -RecordType PowerBI -ResultSize 5000 |
+Export-Csv -Path "c:\temp\PowerBIAuditLog.csv" -NoTypeInformation
+
+Remove-PSSession $Session
 ```
 
 Exchange Online'a bağlanma hakkında daha fazla bilgi için bkz. [Connect to Exchange Online PowerShell (Exchange Online PowerShell'e bağlanma)](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Denetim günlükleriyle PowerShell kullanımı üzerine başka bir örnek için bkz. [Power BI Pro lisanslarını atamak için Power BI denetim günlüğünü ve PowerShell'i kullanma](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).

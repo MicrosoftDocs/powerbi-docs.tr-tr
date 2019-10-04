@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/20/2019
+ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175254"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305885"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -522,6 +522,15 @@ Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağl
 Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsiniz. Çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Tablo sütunları, çalışma alanları için [Power BI yönetimi Rest API](/rest/api/power-bi/admin) tarafından döndürülen özelliklere karşılık gelir. Kişisel çalışma alanları **PersonalGroup** türünde, klasik çalışma alanları **Group** türünde ve yeni çalışma alanları deneyimi **Workspace** türündedir. Daha fazla bilgi için bkz. [Power BI’da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md).
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
+
+**Çalışma Alanları** sekmesinde her çalışma alanı için *durumu* görürsünüz. Aşağıdaki tabloda bu durumların anlamları hakkında daha ayrıntılı bilgiler verilmektedir.
+
+|Eyalet  |Açıklama  |
+|---------|---------|
+| Etkin | Normal bir çalışma alanı. Kullanımı veya içindekiler hakkında bir şey ifade etmez, yalnızca çalışma alanının "normal" olduğu anlamına gelir. |
+| Yalnız bırakılmış | Yönetici kullanıcısı olmayan çalışma alanı. |
+| Silindi | Silinen çalışma alanı. İstenirse çalışma alanını geri yüklemek için yeterli miktarda meta veri saklarız. |
+| Kaldırılıyor | Silinme aşamasında olup henüz silinmemiş çalışma alanı. Kullanıcılar kendi çalışma alanlarını silebilir, öğeleri Kaldırılıyor ve en sonunda Silindi durumuna alabilir. |
 
 ## <a name="custom-branding"></a>Özel marka
 

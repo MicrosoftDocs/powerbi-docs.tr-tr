@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164499"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327752"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -22,6 +22,13 @@ ms.locfileid: "71164499"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>Eylül 2019
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>Özel uygulama gezintisi için destek (iOS ve Android)
+
+Özel uygulama gezintisi için destek ekledik. Bundan böyle Power BI Mobil’de bir uygulama açtığınızda, uygulama oluşturucusu tarafından geliştirilen özel gezinti deneyimini kullanabileceksiniz. Uygulama gezintisi içeriğe göre düzenlenebilir ve bağlantılar ile daraltılabilir bölümler gibi yeni öğeleri içerebilir.
+[Özel gezinti](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/) hakkında daha fazla bilgi edinin.
 
 ## <a name="august-2019"></a>Ağustos 2019
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264556"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195394"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -47,7 +47,7 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
 3. Uygulama çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
 
-4. Select **Bir şablon uygulaması geliştirin** öğesini seçin.
+4. **Gelişmiş** bölümünü genişletin ve **Şablon uygulaması geliştirin**’i seçin.
 
     ![Şablon uygulaması geliştirin](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -84,11 +84,13 @@ Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir ş
     - Uygulama logosu (45K dosya boyutu sınırı, 1:1 en boy oranı, .png .jpg .jpeg biçimleri)
     - Uygulama tema rengi
 
-    **İçerik**
+    **Gezinti**
 
-    **Uygulama giriş sayfası:** Uygulamanızın giriş sayfası olarak bir rapor veya pano tanımlayın, doğru izlenimi verecek bir giriş sayfası kullanın:
+    Uygulamanın sol gezinti bölmesini tanımlayabileceğiniz **Yeni gezinti oluşturucu**’yu etkinleştirin (Ayrıntılar için bu makaledeki [Gezinti deneyimini tasarlama](service-create-distribute-apps.md#design-the-navigation-experience) bölümüne bakın).
 
-    ![İçerik](media/service-template-apps-create/power-bi-create-content.png)
+   ![Uygulama giriş sayfasını ayarlama](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Uygulama giriş sayfası:** Gezinti oluşturucuyu kullanmamaya karar verirseniz uygulama giriş sayfasını seçebilirsiniz. Uygulamanızın giriş sayfası olarak bir rapor veya pano tanımlayın. Doğru etkiyi bırakan bir giriş sayfası kullanın.
 
     **Denetim**
 
@@ -107,7 +109,6 @@ Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir ş
     - **Değer**: varsayılan parametre değeri.
     - **Gerekli**: yükleyicinin kullanıcıya özel bir parametre girmesini gerektirmek için bunu kullanın.
     - **Kilit**: Kilitleme, yükleyicinin parametreyi güncelleştirmesini engeller.
-    - **Statik**: Uygulamanın *yalnızca* örnek veriler içerdiği durumlarda etkinleştirin. **Statik**'i seçtiğinizde yükleme sihirbazı kullanıcıdan veri kaynağına bağlanmasını istemez.
 
     **Erişim**: Test aşamasında, kuruluşunuzda başka kimlerin uygulamanızı yükleyebileceğine ve test edebileceğine karar verin. Endişelenmeyin; daha sonra istediğiniz zaman geri dönüp bu ayarları değiştirebilirsiniz (Ayar, dağıtılmış Şablon uygulamasının erişimini etkilemez).
 

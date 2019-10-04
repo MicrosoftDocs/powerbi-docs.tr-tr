@@ -5,24 +5,25 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61049411"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207587"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
-Panonuzdaki her görselleştirme kutucuğu, veri keşif dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
+Panonuzdaki her görsel [kutucuğu](end-user-tiles.md), veri araştırma dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda veya [Soru-Cevap kutusunda](end-user-q-and-a.md) bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
 
-Verilerinizi temel alan ilgi çekici ve etkileşimli görselleştirmeler oluşturmak için hızlı öngörüler çalıştırın. Belirli bir pano kutucuğunda hızlı içgörüler çalıştırabilir ve hatta bir içgörü üzerinde içgörü çalıştırabilirsiniz!
+![üç nokta menüsü modu](./media/end-user-insights/power-bi-insight.png)
+
+Verilerinizi temel alan ilgi çekici ve etkileşimli görseller oluşturmak için içgörüler çalıştırın. Belirli bir pano kutucuğunda içgörüler çalıştırabilir ve hatta bir içgörü üzerinde içgörü çalıştırabilirsiniz!
 
 Öngörü özelliği Microsoft Research ekibiyle birlikte geliştirilen ve sayısı artmaya devam eden [gelişmiş analiz algoritmaları kümesi](end-user-insight-types.md) üzerine kurulmuştur. Bu özelliği, daha fazla kullanıcının, verilerindeki öngörülere yeni ve sezgisel yöntemlerle ulaşmasını sağlamak için kullanmaya devam edeceğiz.
 
@@ -32,12 +33,12 @@ Bir pano kutucuğunda içgörü çalıştırdığınızda Power BI yalnızca o p
 1. [Bir pano açın](end-user-dashboards.md).
 2. Bir kutucuğun üzerine gelin, üç nokta (...) simgesini ve **İçgörüleri görüntüle**'yi seçin. 
 
-    ![üç nokta menüsü modu](./media/end-user-insights/power-bi-hover.png)
+    ![üç nokta menüsü modu](./media/end-user-insights/power-bi-hovers.png)
 
 
 3. Kutucuk, öngörü kartları sağ tarafta görüntülenecek şekilde [Odak modunda](end-user-focus.md) açılır.    
    
-    ![Odak modu](./media/end-user-insights/pbi-insights-tile.png)    
+    ![Odak modu](./media/end-user-insights/power-bi-insights-tile.png)    
 4. Öngörülerden biri ilginizi mi çekti? İlgili öngörü kartını seçerek detaylandırabilirsiniz. Seçilen öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni öngörü kartları da sağ tarafta görüntülenir.    
 
  ## <a name="interact-with-the-insight-cards"></a>Öngörü kartlarıyla etkileşim kurma
@@ -45,20 +46,19 @@ Açık bir içgörünüz olduğunda keşfetmeye devam edin.
 
    * Tuval üzerinde görseli filtreleyin.  Filtreleri görüntülemek için sağ üst köşedeki oku seçerek Filtreler bölmesini genişletin.
 
-     ![genişletilmiş içgörü ve Filtreler menüsü](./media/end-user-insights/power-bi-insights-on-insights.png)
+      ![genişletilmiş içgörü ve Filtreler menüsü](./media/end-user-insights/power-bi-filters.png)
    
-   * İçgörü kartı üzerinde içgörü çalıştırın. Bunlar genellikle **ilgili içgörüler** olarak adlandırılır. Sağ üst köşede, ampul simgesini ![İçgörü al simgesi](./media/end-user-insights/power-bi-bulb-icon.png) veya **İçgörü al**’ı seçin.
+   * İçgörü kartı üzerinde içgörü çalıştırın. Bunlar genellikle **ilgili içgörüler** olarak adlandırılır. Etkinleştirmek için bir içgörü kartı seçin. Rapor tuvalinizde görüntülenir.
+   
+      ![genişletilmiş içgörü ve Filtreler menüsü](./media/end-user-insights/power-bi-insight-card.png)
+   
+   * Sağ üst köşede, ampul simgesini ![İçgörü al simgesi](./media/end-user-insights/power-bi-bulb-icon.png) veya **İçgörü al**’ı seçin. Öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni kartlar da sağ tarafta görüntülenir.
      
-     ![Öngörü Al simgesini gösteren menü çubuğu](./media/end-user-insights/power-bi-autoinsights-tile.png)
+     ![Öngörü Al simgesini gösteren menü çubuğu](./media/end-user-insights/power-bi-related.png)
      
-     Öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni kartlar da sağ tarafta görüntülenir.
-     
-     ![öngörüler seçeneğinde öngörüler](./media/end-user-insights/power-bi-insights-on-insights-new.png)
-
-Özgün içgörü tuvaline geri dönmek için sol üst köşedeki **Odak modundan çık**'ı seçin.
+Raporunuza geri dönmek için sol üst köşedeki **Odak modundan çık**’ı seçin.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-- **İçgörüleri görüntüle** komutu DirectQuery ile birlikte çalışmaz. Yalnızca Power BI'a yüklenmiş olan verilerle birlikte çalışır.
 - **İçgörüleri görüntüle** tüm pano kutucuğu türleriyle çalışmaz. Örneğin, özel görsellerle kullanılamaz.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 

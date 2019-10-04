@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194107"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409390"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop'ta rol ve kural tanımlama
 Power BI Desktop'ta rol ve kural tanımlayabilirsiniz. İçeriğinizi Power BI'da yayımladığınızda rol tanımları da yayımlanır.
@@ -35,8 +35,14 @@ Güvenlik rollerini tanımlamak için şu adımları izleyin.
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. DAX ifadesini oluşturduktan sonra ifadeyi doğrulamak için ifade kutusunun üstündeki onay işaretini seçebilirsiniz.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > Bu ifade kutusunda, normalde noktalı virgül ayırıcıları kullanan bir yerel ayar (ör. Fransızca veya Almanca) kullanıyor olsanız bile DAX işlevi bağımsız değişkenlerini ayırmak için virgül kullanırsınız. 
+   >
+   >
+   
 9. **Kaydet**'i seçin.
 
 Power BI Desktop'ta kullanıcıları bir role atayamazsınız. Onları Power BI hizmetinde atarsınız. *username()* veya *userprincipalname()* DAX işlevlerini kullanarak ve ilişkileri doğru şekilde yapılandırarak Power BI Desktop'ta dinamik güvenliği etkinleştirebilirsiniz. 

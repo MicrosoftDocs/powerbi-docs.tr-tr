@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867202"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193269"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Tablo, mantıksal satır ve sütun dizilerinde ilgili verileri içeren bir kılavuzdur. Tabloda başlık ve toplam satırı da bulunabilir. Tablolar, tek bir kategoriye ait birden fazla değeri incelediğiniz nicelik karşılaştırmaları için idealdir. Örneğin bu tabloda **Category** için beş farklı ölçü gösterilmektedir.
 
-![Category için beş farklı ölçü gösteren bir tablo ekran görüntüsü.](media/power-bi-visualization-tables/table.png)
+![Category için beş farklı ölçü gösteren bir tablo ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 Raporlarda tablolar oluşturun ve bir tablodaki öğelerle aynı rapor sayfasındaki diğer görseller arasında çapraz vurgulama gerçekleştirin. Satırları, sütunları ve hatta tek tek hücreleri seçip çapraz vurgulama uygulayabilirsiniz. Tek veya birden fazla hücre seçimi kopyalayıp bunları diğer uygulamalara yapıştırabilirsiniz.
 
@@ -36,25 +38,23 @@ Tablolar şunlar için harika seçimdir:
 
 * Sayısal verileri kategorilere göre ayrılmış şekilde görüntülemek için.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisite"></a>Önkoşul
 
-* Power BI hizmeti veya Power BI Desktop
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-* Perakende Analizi Örneği raporu
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+   
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
-## <a name="get-the-retail-analysis-sample-report"></a>Perakende Analizi Örneği raporunu alma
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
-Bu yönergelerde Perakende Analizi Örneği kullanılmaktadır. Bir görsel öğe oluşturmak için veri kümesinde ve raporda düzenleme izinlerine sahip olmanız gerekir. Neyse ki, Power BI örneklerinin tümü düzenlenebilir. Biri sizinle bir rapor paylaşırsa, raporda görselleştirmeler oluşturamazsınız. Örneği takip etmek için [Perakende Analizi Örneği raporunu](../sample-datasets.md) alın.
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
-**Perakende Analizi Örneği** veri kümesini aldıktan sonra başlayabilirsiniz.
 
 ## <a name="create-a-table"></a>Tablo oluşturma
 
 Satış değerlerini ürün kategorisine göre görüntülemek için makalenin başında gösterilen tabloyu oluşturacaksınız.
 
-1. **Çalışma Alanım**’dan **Veri kümeleri** > **Rapor oluştur**’u seçin.
-
-    ![Veri kümeleri > Rapor oluştur ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. **Alanlar** bölmesinden, **Öğe** > **Kategori** seçeneğini belirleyin.
 
@@ -66,11 +66,10 @@ Satış değerlerini ürün kategorisine göre görüntülemek için makalenin b
 
 1. Ardından, **Sales > This Year Sales**’i seçin ve şu üç seçeneğin üçünü de belirleyin: **Değer**, **Hedef**, ve **Durum**.
 
-1. **Görsel Öğeler** bölmesinde **Değerler** kutusunu bulun ve değerleri grafiğinizdeki sıralama bu sayfadaki ilk görüntüdeki gibi olana kadar sürükleyin. **Değerler** kutunuz aşağıdaki gibi görünecektir:
+1. **Görsel Öğeler** bölmesinde **Değerler** kutusunu bulun ve değerleri grafiğinizdeki sıralama bu sayfadaki ilk görüntüdeki gibi olana kadar seçin. Gerekirse kutudaki değerleri sürükleyin. **Değerler** kutunuz aşağıdaki gibi görünecektir:
 
     ![Değerler iyi](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. Raptiye simgesini seçerek tabloyu panoya sabitleyin ![thumbtack](media/power-bi-visualization-tables/pbi_pintile.png) dokunun.
 
 ## <a name="format-the-table"></a>Tabloyu biçimlendirme
 
@@ -170,10 +169,6 @@ Birden fazla hücreyi kopyalamak için:
 1. **Kopyala** > **Seçimi kopyala**’yı seçin.
 
     ![kopyalama seçenekleri](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    Kopyalanan veriler sütun ve satır üst bilgilerini içerir.
-
-    ![Excel’e yapıştırma](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Tablonun sütun genişliğini ayarlama
 

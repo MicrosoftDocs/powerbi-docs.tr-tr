@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751569"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305758"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -190,6 +190,13 @@ Bu eylem uygulamayı yayımladığınız herkesten uygulamayı kaldırır ve bu 
 Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI son gezinti bölmesi yerine sizin oluşturduğunuz gezintiyi görür. Uygulama gezintisi sizin tanımladığınız bölümlerde raporları ve panoları listeler. Ayrıca, yalnızca rapor adını değil her rapordaki tek tek sayfaları da listeler.
 
 ![Gezintisi gösterilen uygulama](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
+Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
+
+* Uygulama erişim listesinde en fazla 100 kullanıcı veya grup olabilir. Öte yandan, 100’den fazla kullanıcıya uygulama için erişim izni verebilirsiniz. Bunu yapmak için, istenen tüm kullanıcıları içeren bir veya daha fazla kullanıcı grubu kullanın.
+* Yeni çalışma alanı deneyimi için, uygulama erişim listesine eklenen kullanıcının uygulamaya çalışma alanı üzerinden erişimi zaten varsa, bu kullanıcı uygulama erişim listesinde gösterilmez.  
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Çalışma alanı oluşturma](service-create-workspaces.md)

@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940911"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325719"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
+
+## <a name="september-2019"></a>Eylül 2019
+
+- **Power BI Rapor Sunucusu**          
+    - *Sürüm 1.6.7206.38019 (Derleme 15.0.1102.597), Yayınlanma tarihi: 26 Eylül 2019*
+        - Güvenlik güncelleştirmeleri
+        - Hata Düzeltmeleri
+           - Sayfalandırılmış Raporlar
+             - IE ve Edge kullanılırken karşılaşılan erişilebilirlik sorunlarıyla ilgili çözüm.
+             - Bağlantıyı test ederken karşılaşılan SAP HANA sorunlarıyla ilgili çözüm.
+             - E-posta adresleri listesi sağlanırken bulunan sorunlar için çözüm.
+             - DirectQuery veri kaynağı ve tümleşik kimlik doğrulaması kullanan Power BI raporları için çözüm.
+             - Anlık görüntü etkinleştirildiğinde Sayfalandırılmış raporların filtre parametreleriyle işlenmesine yönelik çözüm.
+             - Rapor yürütme sırasında saklı yordamların çift yürütülmesine yönelik çözüm.
+             - Özel hizmet hesabı Power BI Rapor Sunucusu’nu çalıştıracak şekilde yapılandırıldığında varsayılan hizmet hesabına SQL Server oturum açma izinlerinin verilmesiyle ilgili çözüm.
+             - Japonca saat diliminde yenileme sırasında modellere erişimle ilgili çözüm.
+             - Yenileme sırasında raporun yeni bir sürümü karşıya yüklendiğinde eski modeller için çözüm.
+             - '&' karakterini içeren parametre değerlerine yönelik çözüm.
+         - Programlama
+             - Web API: /PowerBIReports({Id})/DataSources (PATCH), bağlantı dizesi güncelleştirmelerine izin verecek şekilde güncelleştirildi.
+         
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.73.5586.821 (Eylül 2019), Yayınlanma tarihi: 26 Eylül 2019* (yeni derleme ve yeni sürüm)
+    - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Eylül 2019)
+
 
 ## <a name="may-2019"></a>Mayıs 2019
 

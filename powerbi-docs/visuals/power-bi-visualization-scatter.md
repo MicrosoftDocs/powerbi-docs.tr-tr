@@ -11,26 +11,31 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390981"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192867"
 ---
-# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki Dağılım grafikleri, Kabarcık grafikleri ve Noktalı Çizim grafikleri
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Dağılım grafiğinde her zaman iki değer ekseni bulunur: biri yatay eksende bir sayısal veri kümesini, diğeri ise dikey eksen üzerinde bir sayısal değer kümesini gösterir. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Power BI bu veri noktalarını yatay eksende eşit olarak veya eşit olmayacak şekilde dağıtılabilir. Bu, grafiğin temsil ettiği verilere bağlıdır.
 
 Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki adımları kullanarak kendiniz bir dağılım grafiği oluşturun.
-
+   > [!NOTE]
+   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 Veri noktalarının sayısını en fazla 10.000 olarak ayarlayabilirsiniz.  
 
 ## <a name="when-to-use-a-scatter-chart-bubble-chart-or-a-dot-plot-chart"></a>Dağılım grafiğinin, kabarcık grafiğinin ve noktalı çizim grafiğinin kullanım alanları
 
-### <a name="scatter-and-bubble-charts"></a>Dağılım ve Kabarcık grafikleri
+### <a name="scatter-and-bubble-charts"></a>Dağılım ve kabarcık grafikleri
 
 Dağılım grafiği, iki sayısal değerin arasındaki ilişkiyi gösterir. Kabarcık grafiğinde veri noktaları yerine kabarcıklar kullanılır ve kabarcığın *boyutu* farklı bir üçüncü veri boyutunu temsil eder.
 
@@ -55,7 +60,7 @@ Dağılım grafikleri aşağıdaki durumlarda harika bir seçimdir:
 
 * Zamanı dikkate almadan çok sayıda veri noktasını karşılaştırma.  Bir dağılım grafiğine ne kadar veri eklerseniz yapabileceğiniz karşılaştırmalar da o kadar iyi olur.
 
-Dağılım grafiklerinin sizin için yapabildiklerine ek olarak, Kabarcık grafikleri de aşağıdaki durumlarda harika bir seçimdir:
+Dağılım grafiklerinin sizin için yapabildiklerine ek olarak, kabarcık grafikleri de aşağıdaki durumlarda harika bir seçimdir:
 
 * Verilerinizde her biri değer kümesi içeren üç veri dizisi varsa.
 
@@ -63,9 +68,9 @@ Dağılım grafiklerinin sizin için yapabildiklerine ek olarak, Kabarcık grafi
 
 * Çeyrek dairelerle birlikte kullanmak için.
 
-### <a name="dot-plot-charts"></a>Noktalı Çizim grafikleri
+### <a name="dot-plot-charts"></a>Noktalı çizim grafikleri
 
-Noktalı çizim grafiği, kabarcık grafiğine ve dağılım grafiğine benzer. Ancak, noktalı çizim grafiği X ekseninde sayısal veya kategorik veriler çizmenize olanak tanır.
+Noktalı çizim grafiği, kabarcık grafiğine ve dağılım grafiğine benzer ancak X ekseninde kategorik veriler çizmek için kullanılır.
 
 ![Noktalı çizim grafiği ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ X ekseni üzerinde kategorik veriler dahil etmek istiyorsanız harika bir seçim
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-* Power BI hizmeti
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-* Perakende Analizi Örneği raporu
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+   
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
+
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
 
 ## <a name="create-a-scatter-chart"></a>Dağılım grafiği oluşturma
 
-Örneği takip etmek için, [Power BI hizmetinde](https://app.powerbi.com) oturum açın ve [Perakende Analizi Örneği](../sample-datasets.md) raporunu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açın.
-
-1. Şunu seçerek: ![Sarı artı simgesi ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) boş bir rapor sayfası oluşturun.
-
-1. **Alanlar** bölmesinden şu alanları seçin:
+1. Boş bir rapor sayfasında başlayın ve **Alanlar** bölmesinden şu alanları seçin:
 
     * **Satış** > **Fit Kare Başına Satış**
 
@@ -113,11 +121,11 @@ X ekseni üzerinde kategorik veriler dahil etmek istiyorsanız harika bir seçim
 
 1. Bir kabarcığın üzerine gelin. Kabarcığın boyutu **This Year Sales** değerini yansıtır.
 
-    ![araç ipuçlarını görüntüleme](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![araç ipuçlarını görüntüleme](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel**’i genişletin ve **Veri Hacmi**'ni ayarlayın.
 
-    ![Biçim simgesi, Genel açılan öğesi ve Veri Hacmi seçeneği çağrılan Görsel Öğeler bölmesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![Biçim simgesi, Genel açılan öğesi ve Veri Hacmi seçeneği çağrılan Görsel Öğeler bölmesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     Veri hacmi üst sınırını 10.000’e kadar herhangi bir sayıya ayarlayabilirsiniz. Daha yüksek sayıya ulaştıkça iyi performanstan emin olmak için öncelikle test etmeniz önerilir.
 
@@ -128,7 +136,7 @@ X ekseni üzerinde kategorik veriler dahil etmek istiyorsanız harika bir seçim
 
     [Erişilebilirliği artırmak](../desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. İşaretçi şeklini seçmek için **Şekiller**’i genişletin ve bir **İşaretçi şekli**’ni seçin ve bir şekil belirleyin.
 
-    ![İşaretçi şekli seçeneği çağrılan Şekiller açılan öğesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![İşaretçi şekli seçeneği çağrılan Şekiller açılan öğesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     İşaretçi şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz. Her çizgi için farklı bir işaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar.
 
@@ -140,21 +148,21 @@ Noktalı çizim grafiği oluşturmak için sayısal **X ekseni** alanını kateg
 
 ![Yeni noktalı çizim grafiği ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
-## <a name="considerations-and-troubleshooting"></a>Önemli Noktalar ve Sorun Giderme
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>Dağılım grafiğinizde tek bir veri noktası var
 
 Dağılım grafiğinizde X ve Y eksenindeki tüm değerleri toplayan yalnızca bir veri noktası mı var?  Ya da tek bir yatay veya dikey çizgi üzerindeki tüm değerleri mi topluyor?
 
-![Bir veri noktası olan dağılım grafiği ekran görüntüsü.](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![Bir veri noktası olan dağılım grafiği ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 **Ayrıntılar** kutusuna bir alan ekleyerek Power BI'a değerleri nasıl gruplandırması gerektiğini anlatın. Alanın, çizmek istediğiniz her nokta için benzersiz olması gerekir. Basit bir satır numarası ve kimlik alanı yeterli olur.
 
-![Ayrıntılar kutusuna RowNum eklenmiş ekran görüntüsü.](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![Ayrıntılar kutusuna RowNum eklenmiş ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 Verilerinizde bu bilgiler yoksa X ve Y değerlerinizden her noktada benzersiz verileri tutacak bir alan oluşturabilirsiniz:
 
-![Ayrıntılar kutusuna TempTime eklenmiş ekran görüntüsü.](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![Ayrıntılar kutusuna TempTime eklenmiş ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullanarak veri kümenize bir Dizin Sütunu ekleyin](../desktop-add-custom-column.md). Ardından bu sütunu görselleştirmenizin **Ayrıntılar** bölümüne ekleyin.
 

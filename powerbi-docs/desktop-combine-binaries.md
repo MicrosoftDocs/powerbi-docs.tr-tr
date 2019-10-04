@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239609"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327816"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop’ta dosyaları (ikili değerleri) birleştirme
-Aynı şemaya sahip birden fazla dosyayı tek bir mantıksal tablo olarak birleştirmek, **Power BI Desktop**'a veri aktarmaya yönelik güçlü bir yaklaşımdır. Bu kullanışlı ve popüler yaklaşım, **Power BI Desktop**'ın Kasım 2016 sürümü (ve sonraki sürümler) ile birlikte çok daha kullanışlı ve kapsamlı hale geldi. Ayrıntıları bu makalede bulabilirsiniz.
+Aynı şemaya sahip birden fazla dosyayı tek bir mantıksal tablo olarak birleştirmek, **Power BI Desktop**'a veri aktarmaya yönelik güçlü bir yaklaşımdır. Bu makalede açıklandığı gibi, bu kullanışlı ve popüler yaklaşım çok daha kullanışlı ve kapsamlı hale getirilmiştir.
 
 Aynı klasörde bulunan dosyaları birleştirme işlemine başlamak için **Veri Al > Dosya > Klasör**’ü seçin.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>Önceki dosyaları (ikili değerleri) birleştirme davranışı
-**Power BI Desktop**’ın Kasım 2016 sürümünden önce bu işlev, **İkili Değerleri Birleştir** olarak adlandırılıyordu ve **ikili değerleri birleştir** dönüştürme işlemiyle belirli dosya türlerini birleştirebiliyordunuz ancak bazı sınırlamalar söz konusuydu:
 
-* Tek dosyalarda dönüştürme işleminin gerçekleştirilebilmesi için dosyaların tek bir tabloda birleştirilmesi gerekiyordu. Benzer şekilde, genellikle dosyaları birleştirmeniz ve düzenleme işleminin bir parçası olarak satırları filtreleyip *başlık değerlerini* dışarıda bırakmanız gerekiyordu.
-* **İkili değerleri birleştir** dönüştürme işlemi yalnızca *metin* veya *CSV* dosyalarında kullanılabiliyor; Excel çalışma kitapları ve JSON dosyaları gibi şu anda desteklenen diğer dosya biçimlerinde kullanılamıyordu.
-
-Müşteriler **ikili değerleri birleştir** işleminin daha kullanışlı hale getirilmesini istediğinden bu dönüştürme deneyimi iyileştirildi ve **dosyaları birleştir** olarak yeniden adlandırıldı.
-
-## <a name="current-combine-files-behavior"></a>Geçerli dosyaları birleştirme davranışı
-**Power BI Desktop** artık **dosyaları (ikili değerleri) birleştir** işlemini çok daha etkin bir şekilde gerçekleştiriyor. Bu işleme, **Sorgu Düzenleyicisi**’nin **Giriş** şeridi sekmesinde veya ilgili sütunda **dosyaları birleştir** seçeneğini belirleyerek başlarsınız.
+## <a name="combine-files-behavior"></a>Dosya birleştirme davranışı
+**Sorgu Düzenleyicisi** **Giriş** şeridi sekmesinden **dosyaları birleştir**’i seçerek **dosyaları (ikili) birleştirebilirsiniz**.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-**Dosyaları birleştir** dönüştürme işleminin geçerli davranışı:
+**Dosyaları birleştir** dönüştürme işlemi aşağıdaki gibi davranır:
 
 * **Dosyaları birleştir** dönüştürme işlemi, her bir giriş dosyasını çözümler ve kullanılacak doğru dosya biçimini (*metin* veya *Excel çalışma kitabı* ya da *JSON* dosyası gibi) belirler.
 * Dönüştürme işlemi, ilk dosyadan belirli bir nesneyi (örneğin, ayıklanacak bir *Excel çalışma kitabı*) seçmenize olanak sağlar.
@@ -51,7 +44,11 @@ Müşteriler **ikili değerleri birleştir** işleminin daha kullanışlı hale 
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-**Dosyaları birleştir** seçeneğinin yeni davranış biçimiyle, aynı dosya türüne ve yapısına (örneğin, aynı sütunlarda bulunmaları) sahip oldukları sürece belirli bir klasördeki tüm dosyaları kolayca birleştirebilirsiniz.
+> [!NOTE]
+> Bir Excel çalışma kitabındaki seçiminizin kapsamı, ikili dosyaları birleştirme davranışını etkiler. Örneğin, belirli bir çalışma sayfasını seçerek çalışma sayfasını birleştirebilir veya tam dosyayı birleştirmek için kökü seçebilirsiniz. Bir klasörün seçilmesi o klasörde bulunan dosyaları birleştirir. 
+
+
+**Dosyaları birleştir** seçeneğinin davranış biçimiyle, aynı dosya türüne ve yapısına (örneğin, aynı sütunlarda bulunmaları) sahip oldukları sürece belirli bir klasördeki tüm dosyaları kolayca birleştirebilirsiniz.
 
 Ayrıca, otomatik olarak oluşturulan *örnek sorguyu* değiştirerek başka dönüştürme ve ayıklama adımlarını da kolayca uygulayabilirsiniz. Bunun için ek *işlev sorgusu* adımlarını değiştirmeniz veya yeni adımlar oluşturmanız gerekmez. *Örnek sorgu* üzerindeki tüm değişiklikler, bağlantılı *işlev sorgusunda* otomatik olarak oluşturulur.
 

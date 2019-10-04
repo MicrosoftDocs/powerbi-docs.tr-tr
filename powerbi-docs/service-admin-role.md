@@ -1,6 +1,6 @@
 ---
 title: Power BI yönetici rolünü anlama
-description: Power BI hizmetinde, içeri aktarılan veri kümeleri ve DirectQuery için satır düzeyi güvenliği yapılandırma.
+description: Bu makalede Power BI hizmeti yönetici rolü ve kuruluşunuzda nasıl kullanılacağı açıklanmaktadır.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074505"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256430"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI hizmet yöneticisi rolünü anlama
 
 Kuruluşunuzda Power BI hizmet yöneticisi rolünü nasıl kullanabileceğinizi öğrenin. Bu roldeki kullanıcılar, Power BI kiracısı ve yönetim özellikleri (lisanslama hariç) üzerinde tam denetime sahiptir.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Power BI hizmet yöneticisi rolü, Power BI Yönetici portalına erişmesi gereken kullanıcılara, Office 365 yönetici erişimi verilmeden atanabilir.
 

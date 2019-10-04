@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187304"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325565"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
-Power BI rapor sunucusu ve Power BI rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, yeni sürümlerle birlikte güncelleştirilmektedir.
+Power BI Rapor Sunucusu’ndaki yenilikler ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir.
 
 İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
 
@@ -26,77 +26,132 @@ Power BI rapor sunucusu ve Power BI rapor sunucusu için en iyi duruma getirilmi
 * [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mayıs 2019: Power BI rapor sunucusu için Power BI Desktop
+## <a name="september-2019"></a>Eylül 2019
 
-Bkz: [Power BI rapor sunucusu Mayıs 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) tüm yeni özellikleri hakkında ayrıntılar için blog gönderisini.
+Tüm yeni özellikler hakkında ayrıntılı bilgi için [Power BI Rapor Sunucusu Eylül 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/) blog gönderisine bakın.
 
-Yayının öne çıkanları bazıları şunlardır:
+Power BI Rapor Sunucusu Eylül 2019 güncelleştirmesi, çok sayıda Power BI rapor özelliği içermektedir. Öne çıkanlardan bazıları:
 
-### <a name="performance-analyzer"></a>Performans Çözümleyicisi 
+- **Dilimleyiciler için görsel düzeyinde filtreler** Dilimleyicilere görsel düzeyinde filtre ekleyebilirsiniz. Diğer görsel düzeyindeki filtreler gibi sadece dilimleyiciyi filtreleyip başka bir görseli filtrelemeden çalışır. Bu filtre, boşlukları filtrelemek veya ölçüm filtreleri kullanmak istiyorsanız yararlıdır.
+- **Tablo ve matris için simge kümeleri** KPI simgeleriyle, Excel’deki simge kümelerine benzer şekilde tablonuzda ve matrisinizde farklı simge kümelerini görüntülemeye yönelik kurallar oluşturabilirsiniz.
+- **Görselleri gruplandırma** Şimdi görselleri, şekilleri, metin kutularını, görüntüleri ve düğmeleri tıpkı PowerPoint’te yaptığınız gibi bir rapor sayfasında birlikte gruplandırabilirsiniz. Nesneleri birlikte gruplandırdığınızda hep birlikte taşıyabilir ve yeniden boyutlandırabilirsiniz. Gruplandırma, her sayfada çok fazla nesnenin katmanlandığı raporlarda çalışmayı kolaylaştırır.
+- **Yeni varsayılan temalar** Yeni tema JSON seçeneklerini desteklemek amacıyla, raporlar için kullanılabilen temaları güncelleştiriyor ve yeni raporlar için varsayılan temayı değiştiriyoruz. Yeni varsayılan tema hem Microsoft’un tasarım diline daha uygundur hem de görseller için en iyi tasarım uygulamalarını izler. 
+- **Güncelleştirilmiş bölme tasarımı** Arabirimimizin büyük bölümünü yeniledik. Tüm bölmeleri, alt bilgiyi ve görünüm değiştiricisini daha açık bir renkle güncelleştirdik, aralığı güncelleştirdik ve yeni simgeler oluşturduk. Yeni tasarım, tüm arabirimi yenilemeye yönelik birinci adımdır.
 
-Raporunuzu beklenenden yavaş çalışıyorsa, Power BI Desktop'ta Performans Çözümleyicisi'ni deneyin. Başlattığınızda, her eylem raporda aldığınız bilgiler bir günlük dosyası oluşturur. Daha fazla bilgi edinin [Performans Çözümleyicisi](../desktop-performance-analyzer.md).
+Özelliklerin tam listesi aşağıda verilmiştir. 
 
-### <a name="new-modeling-view"></a>Yeni Görünüm modelleme
+### <a name="reporting"></a>Raporlama
 
-Power BI Desktop'ta yeni modelleme görünümünde görüntüleyin ve birçok tabloları içeren karmaşık veri kümeleri ile çalışma. Öne çıkan özellikleri birden çok diyagram düzeni içeren ve sütunlar, ölçüler ve tabloları düzenleme toplu. Daha fazla bilgi edinin [görünümü modelleme](../desktop-modeling-view.md).
+- Güncelleştirilmiş bölme tasarımı
+- Dilimleyiciler için görsel düzeyinde filtreler
+- Performans analizi bölmesi için sıralama
+- Görsel üst bilgisi araç ipuçları
+- Tablo ve matris toplam etiketi özelleştirmesi
+- Hiyerarşi dilimleyicisi için dilimleyiciyi eşitleme desteği
+- Görsellerde tutarlı yazı tipi boyutları
+- Tablo ve matrisler için simge kümeleri
+- Kurallara göre koşullu biçimlendirme için yüzde desteği
+- Yeni filtre bölmesi genel kullanıma sunuldu
+- Dağılım grafiklerinde yürütme ekseni kullanılırken veri renkleri desteği
+- Göreli tarih ve açılan dilimleyiciler kullanılırken performans iyileştirmeleri
+- Görselleri gruplandırma
+- Temalardaki renk ve metin sınıfları
+- Yeni varsayılan temalar
 
-### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimler
+### <a name="analytics"></a>Analiz
 
-Artık çoğu klavye gezintisi aracılığıyla yerleşik görsellerin üzerinde veri noktaları erişim sağlayabilirsiniz. Daha fazla bilgi edinin [Power BI raporlarında erişilebilirlik](../desktop-accessibility.md).
+- Özel biçim dizeleri
+- Biçimlendirme seçenekleri için koşullu biçimlendirme güncelleştirmeleri
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu başlıklar ve web URL'si eylemleri biçimlendirme
+    - Görsel arka plan ve başlık renkleri
+    - Kart renkleri
+    - Ölçer dolgusu ve renkleri
+    - Alternatif metin
+    - Kenarlık rengi
 
-Power BI raporları etkileşimlidir. Rapor başlıkları raporu geçerli durumu yansıtacak şekilde dinamik İmparatoru mantıklıdır. Düğmeler, şekiller ve resimler URL'leri dinamik hale getireceğinizi ifade bağlı ve aynı biçimlendirme kullanabilirsiniz. Daha fazla bilgi edinin [ifade tabanlı başlıkları](../desktop-conditional-format-visual-titles.md).
+- Koşullu biçimlendirme uyarıları
+- Detaylandırma bulunabilirlik geliştirmesi
+- Yeni DAX ifadeleri: REMOVEFILTERS ve CONVERT
+- Yeni DAX karşılaştırma işleci: ==
 
-### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketleri tarafından çapraz vurgulama
+### <a name="data-preparation"></a>Veri hazırlama
 
-Yalnızca bir görselde veri noktalarını seçersiniz gibi çapraz vurgulama bir sayfadaki diğer öğeler için bir görselde eksen kategori etiketleri seçin. Daha fazla bilgi edinin [çapraz vurgulama](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+- M Intellisense geliştirmeleri
+- Yeni Dönüşüm: Sütunu konumlara göre bölme
+- Veri profilinizden panoya kopyalama
 
-### <a name="all-the-new-features"></a>Tüm yeni özellikleri
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mayıs 2019: Power BI Rapor Sunucusu için Power BI Desktop
+
+Tüm yeni özellikler hakkında ayrıntılı bilgi için [Power BI Rapor Sunucusu Mayıs 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) blog gönderisine bakın.
+
+Yayının öne çıkan bazı konuları:
+
+### <a name="performance-analyzer"></a>Performans çözümleyici 
+
+Raporunuz beklediğinizden daha yavaş çalışıyorsa Power BI Desktop’ta Performans Analizi’ni deneyin. Bunu başlattığınızda, raporda yaptığınız her işlemle ilgili bilgileri içeren bir günlük dosyası oluşturur. [Performans Analizi](../desktop-performance-analyzer.md) hakkında daha fazla bilgi edinin.
+
+### <a name="new-modeling-view"></a>Yeni modelleme görünümü
+
+Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz. Öne çıkanlar arasında birden çok diyagram düzeni ile sütun, ölçüm ve tabloların toplu olarak düzenlenmesi bulunur. [Modelleme görünümü](../desktop-modeling-view.md) hakkında daha fazla bilgi edinin.
+
+### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimi
+
+Şimdi klavye gezintisini kullanarak yerleşik görsellerin birçoğunda bulunan veri noktalarına erişebilirsiniz. [Power BI raporlarında erişilebilirlik](../desktop-accessibility.md) hakkında daha fazla bilgi edinin.
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu biçimlendirme başlıkları ve web URL’si eylemleri
+
+Power BI raporları etkileşimlidir. Raporun geçerli durumunu yansıtmak için bir rapordaki başlıkların dinamik olması anlamlıdır. Düğme, şekil ve görüntülerinizin URL’lerini dinamik hale getirmek için ifadeye bağlı biçimlendirmenin aynısını kullanabilirsiniz. [İfade temelli başlıklar](../desktop-conditional-format-visual-titles.md) hakkında daha fazla bilgi edinin.
+
+### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketlerine göre çapraz vurgulama
+
+Bir görseldeki veri noktalarını seçerken olduğu gibi, bir sayfadaki diğer öğeleri çapraz vurgulamak için görseldeki eksen kategorisi etiketlerini seçin. [Çapraz vurgulama](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting) hakkında daha fazla bilgi edinin.
+
+### <a name="all-the-new-features"></a>Tüm yeni özellikler
 
 Tüm yeni özelliklerin listesi aşağıda verilmiştir:
 
 ### <a name="reporting"></a>Raporlama
 
-- Çizgi grafikler, tek bir noktasında çapraz vurgulama 
-- Başlıkları sözcük kaydırma 
-- Varsayılan görsel etkileşim için çapraz filtre ¬ güncelleştir
-- Görsel kenarlıkların yuvarlatılmış köşeler 
-- Tek seçim Dilimleyici  
-- Bing Haritalar ısı Haritası desteği  
-- Eksen etiketleri tarafından çapraz vurgulama  
-- Varsayılan araç ipucuna biçimlendirme  
-- Düğmeler, şekiller ve resimler için statik web destek URL'si  
+- Çizgi grafiklerde tek noktada çapraz vurgulama 
+- Başlıklarda sözcük kaydırma 
+- Varsayılan görsel etkileşimi çapraz filtreye güncelleştirme
+- Görsellerin kenarlıkları için yuvarlak köşeler 
+- Tekli seçim dilimleyicisi  
+- Bing haritalarında ısı haritası desteği  
+- Eksen etiketlerine göre çapraz vurgulama  
+- Varsayılan araç ipucu biçimlendirmesi  
+- Düğmeler, şekiller ve görüntüler için statik web URL’si desteği  
 - Sayfa hizalama seçenekleri   
-- Seçim Bölmesi geliştirmeleri  
-- Erişilebilir görsel etkileşimler  
-- Koşullu biçimlendirme için görsel başlıkları  
-- Koşullu biçimlendirme için düğmeler, şekiller ve resimler için web URL'si eylemleri
-- Performans Çözümleyicisi bölmesi
-- Tablo ve matris klavye gezintisi
-- Satır veri etiket konumu denetimi
-- KPI görsel gösterge metin boyutu denetim
+- Seçim bölmesi geliştirmeleri  
+- Erişilebilir görsel etkileşimi  
+- Görsel başlıkları için koşullu biçimlendirme  
+- Düğme, şekil ve görüntülerde web URL eylemleri için koşullu biçimlendirme
+- Performans analizi bölmesi
+- Tablo ve matriste klavye ile gezinme
+- Satır veri etiketi konum denetimi
+- KPI görseli Gösterge metin boyutu denetimi
 
 ### <a name="analytics"></a>Analiz
 
-- Bir hiyerarşi olarak tarihleri artık genel kullanıma sunulan Göster  
+- Tarihleri hiyerarşi olarak gösterme özelliği artık genel kullanıma sunuldu  
 
 ### <a name="modeling"></a>Modelleme
 
-- Görünüm genel kullanıma sunulan yeni modelleme
+- Yeni modelleme görünümü artık genel kullanıma sunuldu
 - Yeni DAX işlevleri
-- ALLSELECTED DAX işlevi için güncelleştirme
-- Yeni raporlar için otomatik tarih tabloları devre dışı bırak
+- ALLSELECTED DAX işlevine güncelleştirme
+- Yeni raporlarda tablolara otomatik tarih eklemeyi devre dışı bırakma
 
 ## <a name="may-2019-power-bi-report-server"></a>Mayıs 2019: Power BI Rapor Sunucusu
 
-### <a name="support-for-trusted-visuals"></a>Güvenilen görselleri için destek
+### <a name="support-for-trusted-visuals"></a>Güvenilen görseller için destek
 
-Power BI rapor sunucusu için güvenilen görselleri için destek ekledik. Şu anda Mapbox ve gücü Aç görselleri destekliyoruz. ESRI, Visio ve PowerApps bu sürümde desteklenmez.)
+Power BI Rapor Sunucusu için Güvenilen Görsellere yönelik destek ekledik. Şu anda Mapbox ve PowerOn görsellerini destekliyoruz. ESRI, Visio ve PowerApps bu sürümde desteklenmemektedir.)
 
-### <a name="improved-security-features"></a>Geliştirilmiş güvenlik özellikleri
+### <a name="improved-security-features"></a>İyileştirilmiş güvenlik özellikleri
 
-**RestrictedResourceMimeTypeForUpload**, hangi yöneticileri yasaklı MIME türleri, örneğin metin/html virgülle ayrılmış bir listesini belirtmek için kullanabilirsiniz.
+Yöneticilerin, engellenen mime türlerinin virgülle ayrılmış bir listesini belirtmek için kullanabileceği **RestrictedResourceMimeTypeForUpload**.
 
 ## <a name="january-2019"></a>Ocak 2019
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264516"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195263"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI
 
@@ -82,7 +82,7 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
    >[!NOTE]
    >AppSource’ta listelenmeyen şablon uygulamalarını yüklemek için yöneticinizden izin istemeniz gerekir. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings).
 
-## <a name="update-and-distribute-the-app"></a>Uygulamayı güncelleştirme ve dağıtma
+## <a name="customize-and-publish-the-app"></a>Uygulamayı özelleştirme ve yayımlama
 
 Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır olursunuz. Adımlar, diğer herhangi bir uygulamayı yayımlamakla aynıdır.
 
@@ -94,7 +94,7 @@ Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır o
 
    ![Uygulama açıklamasını ve rengini ayarlama](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. **İçerik** bölümünde, giriş sayfasını (pano veya rapor) seçebilirsiniz.
+3. **Gezinti** menüsünde uygulamanız için yeni gezinti oluşturucuyu kullanabilir veya giriş sayfası için panoyu ya da raporu seçebilirsiniz. Ayrıntılar için bkz. [Gezinti deneyimini tasarlama](service-create-distribute-apps.md#design-the-navigation-experience).
 
    ![Uygulama giriş sayfasını ayarlama](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Uygulamayı kuruluşunuz için güncelleştirdikten sonra, yayımlamaya hazır o
 
 6. Uygulama başarıyla yayımlandıktan sonra bağlantıyı kopyalayabilir ve erişim verdiğiniz herkesle paylaşabilirsiniz. Bağlantıyı paylaşırsanız, bunu AppSource’taki **Kuruluşum** sekmesinde de görürler.
 
-## <a name="next-steps"></a>Sonraki adımlar 
+## <a name="update-a-template-app"></a>Şablon uygulamasını güncelleştirme
+
+Şablon uygulaması oluşturucular, şablon uygulamalarının yeni sürümlerini AppSource veya doğrudan bir bağlantı aracılığıyla yayınlayabilirler. Bunu yaptıklarında, uygulamayı aynı veya daha yeni bir sürümle yeniden yüklerken şablon uygulamasını güncelleştirebilirsiniz.
+
+  >[!NOTE]
+  >Yeni bir sürüm yüklendiğinde, rapor ve panolarda yaptığınız değişikliklerin üzerine yazılır. Güncelleştirilmiş rapor ve panolarınızı tutmak için, yüklemeden önce farklı bir ad veya konumla kaydedebilirsiniz.
+
+- **Mevcut sürümün üzerine yaz:** Şablon uygulamasının güncelleştirilmiş sürümünü mevcut çalışma alanının üzerine yazar.
+
+   ![Şablon uygulamasını güncelleştirme](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Yeni bir çalışma alanına yükle:** Yeniden yapılandırmanız gereken çalışma alanı ve uygulamanın yeni bir sürümünü yükler
+
+### <a name="overwrite-behavior"></a>Üzerine yazma davranışı
+
+* Üzerine yazmak, uygulamadaki değil *çalışma alanı* içindeki raporları, panoları ve veri kümesini güncelleştirir. Üzerine yazmak uygulamada gezinme, ayarlama ve izinleri değiştirmez.
+* Çalışma alanını güncelleştirdikten sonra *uygulamayı güncelleştirerek* çalışma alanında yapılan değişiklikleri kuruluş uygulamasına uygulamanız gerekir.
+* Üzerine yazmak, yapılandırılmış parametreleri ve kimlik doğrulamasını saklar. Güncelleştirmeden sonra otomatik bir veri kümesi yenilemesi başlar. Bu süre zarfında kuruluş uygulaması, raporları ve panoları *örnek veri* deneyimini sunar.
+  ![Örnek veriler](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* Üzerine yazma işlemi, yenileme tamamlanana kadar her zaman örnek verileri gösterir. Şablon uygulama yazarı veri kümesinde veya parametrelerde değişiklik yaptıysa, çalışma alanı ve uygulamanın kullanıcıları *örnek veri* deneyimini görmeye devam ederler.
+* Üzerine yazma işlemi hiçbir zaman çalışma alanına eklediğiniz *yeni* raporları veya panoları silmez. Özgün yazarın değişikliklerini özgün raporların ve panoların üzerine yazar.
+
+>[!IMPORTANT]
+>Kuruluş uygulaması kullanıcılarınız için raporlara ve panolara yapılan değişiklikleri uygulamak için üzerine yazdıktan sonra [uygulamayı güncelleştirmeyi](#customize-and-publish-the-app) unutmayın.
+
+## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma](service-create-workspaces.md)
-
-
-
-
-
-￼ 
-
- 

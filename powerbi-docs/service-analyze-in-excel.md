@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391901"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325526"
 ---
 # <a name="analyze-in-excel"></a>Excel'de Analiz Et
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.
@@ -25,11 +25,13 @@ Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkile
 **Excel'de Çözümle**'yi kullanmak için birkaç gereksinim vardır:
 
 * **Excel'de Çözümle**, Microsoft Excel 2010 SP1 ve sonraki sürümlerde desteklenir.
+
 * Excel PivotTable'ları, sayısal alanların sürükle ve bırak ile toplama özelliğini desteklemez. Power BI'daki veri kümenizin *önceden tanımlanmış ölçülere sahip olması gerekir*.
 * Bazı kuruluşların Grup İlkesi kuralları, Excel'e gerekli olan **Excel'de Çözümle** güncelleştirmelerinin yüklenmesini engelleyebilir. Güncelleştirmeleri yükleyemiyorsanız yöneticinizle görüşün.
 * **Excel'de Çözümle** özelliği, veri kümesinin Power BI Premium’da olmasını veya kullanıcının Power BI Pro lisansına sahip olmasını gerektirir. Lisans türleri arasındaki işlev farkları hakkında daha fazla bilgi edinmek için [Lisans türüne göre Power BI özellikleri](service-features-license-type.md)'ne bakın. 
 * Kullanıcılar, temel alınan veri kümesi üzerinde okuma izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Kullanıcı buna; veri kümesini içeren çalışma alanının üyesi olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir uygulamaya izin vermek gibi birkaç yöntemle sahip olabilir.
 * **Excel’de Çözümle** bir Power BI hizmeti özelliğidir ve Power BI Rapor Sunucusu’nda veya Power BI Embedded’da sunulmaz. 
+* **Excel’de Analiz Et** seçeneği yalnızca Microsoft Windows çalıştıran makinelerde desteklenir.
 
 ## <a name="how-does-it-work"></a>Nasıl çalışır?
 **Power BI**'daki bir veri kümesi veya raporla ilişkili üç nokta menüsünden (...) **Excel'de Çözümle**'yi seçtiğinizde Power BI, bir .ODC dosyası oluşturur ve bunu tarayıcınızdan bilgisayarınıza indirir.
@@ -48,7 +50,7 @@ Power BI'da bir rapor veya veri kümesinin yanındaki üç nokta menüsünü (ra
 ![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Excel güncelleştirmelerini yükleme
-**Excel'de Çözümle**'yi ilk kez kullandığınızda Excel kitaplıklarına güncelleştirme yüklemeniz gerekir. Excel güncelleştirmelerini indirip çalıştırmanız istenir (böylece *SQL_AS_OLEDDB.msi* Windows yükleyici paketini yükleme işlemi başlar). Bu paket **SQL Server 2016 RC0 için Microsoft AS OLE DB Sağlayıcısı (Önizleme)**'yi yükler.
+**Excel'de Çözümle**'yi ilk kez kullandığınızda Excel kitaplıklarına güncelleştirme yüklemeniz gerekir. Excel güncelleştirmelerini indirip çalıştırmanız istenir (böylece *SQL_AS_OLEDDB.msi* Windows yükleyici paketini yükleme işlemi başlar). Bu paket **SQL Server 2016 RC0 için Microsoft AS OLE DB Sağlayıcısı (Önizleme)** 'yi yükler.
 
 > [!NOTE]
 > **Excel güncelleştirmelerini yükle** iletişim kutusunda **Bunu bir daha gösterme**'yi işaretlediğinizden emin olun. Bu güncelleştirmeyi bir kez yüklemeniz yeterlidir.

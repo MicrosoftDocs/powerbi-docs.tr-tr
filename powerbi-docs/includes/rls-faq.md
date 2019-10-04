@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0592cb7ef076f8094aca565d955cc238b2181068
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560970"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409391"
 ---
 ## <a name="faq"></a>SSS
 **Soru:** Power BI hizmetindeki bir veri kümesi için önceden roller ve kurallar oluşturduysam ne yapmam gerekir? Herhangi bir işlem yapmasam da bunlar çalışmaya devam eder mi?  
@@ -19,3 +19,5 @@ ms.locfileid: "69560970"
 **Soru:** RLS, ayrıntılı verileri gizlerken görsellerde özetlenmiş verilere erişim vermemi sağlar mı?  
 **Cevap:** Hayır. Belirli veri satırlarının güvenliğini sağlayabilirsiniz, ama kullanıcılar ayrıntıları veya özetlenmiş verileri her zaman görebilir.
 
+**Soru:** Veri kaynağımda tanımlanmış güvenlik rolleri zaten var (örneğin, SQL Server rolleri veya SAP BW rolleri). Bunlar ile RLS arasındaki ilişki nedir?  
+**Cevap:** Yanıt, verileri içeri aktarıp aktarmadığınıza veya DirectQuery kullanıp kullanmadığınıza bağlı olarak değişir. Power BI veri kümenize veri aktarıyorsanız, veri kaynağınızdaki güvenlik rolleri kullanılmaz. Bu durumda, Power BI’da bağlanan kullanıcılar için güvenlik kurallarını uygulamak için RLS tanımlamanız gerekir. DirectQuery kullanıyorsanız, veri kaynağınızdaki güvenlik rolleri kullanılır. Kullanıcı bir rapor açtığında Power BI temel alınan veri kaynağına bir sorgu gönderir ve bu sorgu, kullanıcının kimlik bilgilerine göre bu verilere güvenlik kuralları uygular.

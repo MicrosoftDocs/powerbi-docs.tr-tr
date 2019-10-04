@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: Geliştiriciler için Power BI belgeleri
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Geliştiriciler için Power BI
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/02/2019
+  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
+  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "71951037"
+landingContent:
+- title: Geliştiriciler için Power BI hakkında
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Geliştiriciler Power BI ile neler yapabilir?
+      url: what-can-you-do.md
+    - text: Power BI’daki görseller
+      url: ../power-bi-custom-visuals.md
+    - text: Power BI ile ekleme nedir?
+      url: embedding.md
+    - text: Power BI API nedir?
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: reference
+    links:
+    - text: Power BI Geliştirici Merkezi
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI geliştirici örnekleri
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+    - text: Power BI JavaScript wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: Power BI REST API'leri
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Azure Resource Manager REST API’leri
+      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+- title: Power BI görselleri
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Power BI görseli geliştirme
+      url: custom-visual-develop-tutorial.md
+  - linkListType: concept
+    links:
+    - text: Power BI görselleri hakkında SSS
+      url: ../power-bi-custom-visuals-faq.md
+    - text: Power BI görselleri için yönergeler
+      url: guidelines-powerbi-visuals.md
+    - text: Görsellerde gelişmiş düzenleme modu
+      url: /advanced-edit-mode.md
+  - linkListType: how-to-guide
+    links:
+    - text: Özel görseller için sertifika alma
+      url: ../power-bi-custom-visuals-certified.md
+    - text: AppSource'ta özel görsel yayımlama
+      url: office-store.md
+- title: Tümleşik analiz
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Müşteriler için içerik ekleme
+      url: embed-sample-for-customers.md
+    - text: Kuruluşunuz için içerik ekleme
+      url: embed-sample-for-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Satır düzeyi güvenlik
+      url: embedded-row-level-security.md
+    - text: Çok kiracılı uygulamaları yönetme
+      url: embed-multi-tenancy.md
+    - text: Ekleme hakkında SSS
+      url: embedded-faq.md
+    - text: Power BI izinleri
+      url: power-bi-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Uygulamalardan ekleme
+      url: embed-from-apps.md
+    - text: Azure Active Directory kiracısı oluşturma
+      url: create-an-azure-active-directory-tenant.md
+    - text: Azure AD erişim belirteci alma
+      url: get-azuread-access-token.md
+    - text: Power BI Embedded'da Soru-Cevap
+      url: qanda.md

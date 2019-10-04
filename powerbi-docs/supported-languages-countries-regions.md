@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867119"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256461"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -116,14 +116,14 @@ Power BI, bilgisayarınızdaki dil tercihlerine göre dilinizi algılar. Bu terc
    Değişikliğin uygulanması için tarayıcınızı kapatıp yeniden açmanız gerekebilir.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Power BI Desktop'ta dili veya yerel ayarı seçme
-Power BI Desktop'ı almanızın iki yolu vardır: Uygulamayı indirebilir veya Windows Store'dan yükleyebilirsiniz.
+Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak indirebilir veya Microsoft Store’dan yükleyebilirsiniz.
 
-* [Power BI Desktop'ı Windows Mağazası'ndan yükleyecekseniz](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store) tüm diller yüklenir ve Windows işletim sisteminizdeki varsayılan dile karşılık gelen dil gösterilir.
-* [Power BI Desktop'ı indirecekseniz](#choose-a-language-when-you-download-power-bi-desktop) dili, indirme işleminden önce seçersiniz. 
+* Power BI Desktop’ı Windows Mağazası’ndan yükleyecekseniz tüm diller yüklenir ve varsayılan olarak Windows işletim sisteminizdeki varsayılan dile karşılık gelen dil gösterilir.
+* Power BI Desktop’ı tek başına yükleyici olarak indirdiğinizde, yükleyiciyi çalıştırırken varsayılan dili seçip daha sonraki bir tarihte değiştirebilirsiniz.
 * Belirli bir rapor için [veriler içeri aktarılırken kullanılacak bir yerel ayar](#choose-the-locale-for-importing-data-into-power-bi-desktop) da seçebilirsiniz.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Windows Mağazası'ndan yüklenen Power BI Desktop için dil seçme
-1. Microsoft Store'dan [Power BI Desktop'ı yükleyin](http://aka.ms/pbidesktopstore).
+### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop için dil seçme 
+1. Power BI Desktop’ı [Microsoft Store](http://aka.ms/pbidesktopstore)’dan veya [tek başına yükleyici](http://aka.ms/pbiSingleInstaller) olarak yükleyin.
 2. Dili değiştirmek için bilgisayarınızda **Windows Ayarları** ifadesini arayın. 
 3. **Zaman ve dil**'i seçin.
    
@@ -140,11 +140,6 @@ Varsayılan ayarı geçersiz kılıp Power BI Desktop’ı Windows dilinizden fa
 3. **Uygulama Dili** kutusundan farklı bir yerel ayar seçin. 
 
 Power BI Desktop’ın dil desteği Uygulama Dili açılan listesinde gösterilen diller ile sınırlıdır.
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Power BI Desktop'ı indirirken dil seçme
-Power BI Desktop yükleyicisinin .msi sürümünü kullanırsanız, dil yükleyiciyi indirdiğiniz zaman ayarlanır. Dili, [Power BI Desktop’ı İndirin](https://www.microsoft.com/en-us/download/details.aspx?id=45331) sayfasında seçersiniz. 
-
-Bu şekilde yüklediğinizde Power BI Desktop'ın dilini değiştirmek için indirme sayfasına tekrar gidin ve uygulamayı farklı bir dilde indirin.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop'a veri aktarılırken kullanılacak yerel ayarı seçme
 Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş olmanız fark etmeksizin belirli bir rapor için Power BI Desktop sürümünüzdekinden farklı bir yerel ayar seçebilirsiniz. Yerel ayar, veri kaynağınızdan aktarılan verilerin yorumlanma biçimini değiştirir. Örneğin, "3/4/2017" tarihi 3 Nisan veya 4 Mart olarak yorumlanabilir. 

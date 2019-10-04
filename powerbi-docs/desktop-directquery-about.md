@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654762"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305789"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı yollarla gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** olarak bilinen yöntemle verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede **DirectQuery** ve özellikleri açıklanır:
@@ -137,6 +137,7 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
 **DirectQuery** kullanılırken bu model zenginleştirmelerinin birçoğu yapılabilir ve daha sonraki kullanımların iyileştirilmesi için ham veriler de zenginleştirilebilir. Ancak, DirectQuery ile bazı modelleme özellikleri kullanılamaz veya sınırlıdır. Sınırlamalar, genellikle performans sorunlarından kaçınmak için uygulanır. Tüm DirectQuery kaynaklarında yaygın olarak görülen sınırlamalar aşağıdaki madde işaretli listede belirtilmiştir. Bu makalenin sonlarında yer alan *Veri kaynağına özgü ayrıntılar* bölümünde açıklandığı üzere, farklı kaynaklar için ek sınırlamalar söz konusu olabilir.
 
 * **Yerleşik tarih hiyerarşisi yoktur:** Veriler içeri aktarılırken, tüm tarih/tarih saat sütunlarında varsayılan olarak yerleşik bir tarih hiyerarşisi de bulunur. Örneğin, OrderDate sütununu içeren satış siparişleri tablosunu içeri aktarıyorsanız bir görselde OrderDate kullanılırken, kullanılacak uygun düzeyi (Year, Month, Day) seçebilirsiniz. DirectQuery modunda bu yerleşik tarih hiyerarşisi kullanılamaz. Ancak, temel alınan kaynakta Date tablosu bulunuyorsa (birçok veri ambarında yaygın olarak bulunur) DAX Akıllı Zaman Gösterimi işlevlerinin normal şekilde kullanılabileceğini unutmayın.
+* **Yalnızca saniye doğruluğu için tarih/saat desteği:** Veri kümenizdeki saat sütunlarını kullanırken, Power BI yalnızca temel alınan kaynağa yönelik sorguları bir saniye ayrıntısı düzeyinde verir. Milisaniyeler için DirectQuery kaynağına sorgu gönderilmez, bu nedenle kaynak sütunlarınızdan saatin bu kısmını kaldırmanız gerekir.
 * **Hesaplanmış sütunlara yönelik sınırlamalar:** Hesaplanmış sütunlar satır içi işlemlerle sınırlıdır; herhangi bir toplama işlevi kullanılmadan yalnızca aynı tablonun diğer sütunlarındaki değerlerine başvurabilir. Buna ek olarak, izin verilen DAX skaler işlevleri (LEFT () gibi), temel alınan kaynağa kolayca gönderilebilecek olanlarla sınırlıdır. Bu nedenle, kaynağın tam olarak hangi özelliklere sahip olduğuna göre değişiklik gösterir. Hesaplanmış bir sütun için DAX yazılırken, desteklenmeyen işlevler otomatik tamamlamada listelenmez ve kullanılırsa hataya neden olur.
 * **Üst-alt DAX işlevleri desteği yok:** DirectQuery modelinde, genellikle Üst-Alt yapıları (hesaplar grafiği ve çalışan hiyerarşileri gibi) işleyen DAX PATH() işlev ailesini kullanmak mümkün değildir.
 * **Hesaplanan tablolar desteklenmiyor:** DAX ifadesi kullanarak hesaplanan tablo tanımlama özelliği, DirectQuery modunda desteklenmez.

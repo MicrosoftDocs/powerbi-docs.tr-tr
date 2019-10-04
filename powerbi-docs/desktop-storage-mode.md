@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841297"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327710"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modu
 
 Microsoft Power BI Desktop'ta tabloların *depolama modunu* belirtebilirsiniz. *Depolama modu*, Power BI Desktop'ta raporlara ilişkin tablo verilerinin bellek içinde önbelleğe alınıp alınmadığını denetlemenizi sağlar. 
 
-![Power BI Desktop’ta depolama modu](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop’ta depolama modu](media/desktop-storage-mode/storage-mode-01.png)
 
 Depolama modunun ayarlanması birçok avantaj sağlar. Modelinizdeki her tablonun depolama modunu ayrı ayrı ayarlayabilirsiniz. Bu eylem aşağıdaki avantajları sunan tek bir veri kümesine sahip olmanızı sağlar:
 
@@ -48,13 +48,10 @@ Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikte
 
 ## <a name="use-the-storage-mode-property"></a>Depolama modu özelliğini kullanma
 
-Depolama modu, modelinizdeki her tablo için ayarlayabileceğiniz bir özelliktir. Depolama modunu ayarlamak için **Alanlar** bölmesinde özelliklerini ayarlamak istediğiniz tabloya sağ tıklayın ve **Özellikler**'i seçin.
+Depolama modu, modelinizdeki her tablo için ayarlayabileceğiniz bir özelliktir. Depolama modunu ayarlamak veya geçerli ayarını görüntülemek için **Model** görünümünde özelliklerini görüntülemek veya ayarlamak istediğiniz tabloyu seçin, ardından **Özellikler** bölmesini seçip **Gelişmiş** bölümünü ve sonra **Depolama modu** açılır listesini genişletin.
 
-![Bağlam menüsündeki Özellikler komutu](media/desktop-storage-mode/storage-mode_02.png)
+![Bağlam menüsündeki Özellikler komutu](media/desktop-storage-mode/storage-mode-02.png)
 
-Tablonun **Alan özellikleri** bölmesindeki **Depolama modu** açılan listesinde geçerli özellik görüntülenir. Burada geçerli depolama modunu görüntüleyebilir veya değiştirebilirsiniz.
-
-![Tablo için depolama modunu ayarlama](media/desktop-storage-mode/storage-mode_03.png)
 
 Depolama modu üç değerden biri olabilir:
 
@@ -77,11 +74,11 @@ Bir tablonun ayarını **İçeri Aktarma** olarak değiştirme işlemi *geri al�
 ## <a name="propagation-of-dual"></a>İkili'nin Yayılması
 Tüm tabloların İçeri Aktar ve DirectQuery desteği olan tek kaynaktan geldiği aşağıdaki basit modeli düşünün.
 
-![Depolama modu için örnek İlişki görünümü](media/desktop-storage-mode/storage-mode_04.png)
+![Depolama modu için örnek İlişki görünümü](media/desktop-storage-mode/storage-mode-04.png)
 
 Başlangıç olarak bu modeldeki tüm tabloların DirectQuery olduğunu varsayalım. **SurveyResponse** tablosunun *depolama modunu* İçeri Aktarma olarak değiştirirsek, aşağıdaki uyarı penceresi görüntülenir:
 
-![Depolama modu uyarı penceresi](media/desktop-storage-mode/storage-mode_05.png)
+![Depolama modu uyarı penceresi](media/desktop-storage-mode/storage-mode-05.png)
 
 Boyut tabloları (*Customer*, *Geography* ve *Date*), veri kümesindeki zayıf ilişki sayısını azaltmak ve performansı artırmak için **Çift** olarak ayarlanabilir. Zayıf ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. **Çift** tablolar, DirectQuery ya da İçeri Aktarma işlevi üstlenebildiği için bunu önlemeye yardımcı olur.
 
@@ -123,15 +120,15 @@ Her *Query Begin* olayı için, aynı *ActivityID* değerine sahip diğer olayla
 
 Önceki örnekten devam edersek, aşağıdaki sorgu *Date* tablosundan tek bir sütuna başvurur ve bu sütun da **İkili** modundadır. Dolayısıyla sorgunun önbelleğe isabet etmesi gerekir.
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode_06.png)
+![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-06.png)
 
 Aşağıdaki sorgu *Sales* tablosundan tek bir sütuna başvurur ve bu sütun da **DirectQuery** modundadır. Dolayısıyla, bunun önbelleği isabet *etmemesi* gerekir.
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode_07.png)
+![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-07.png)
 
 Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu önbelleğe isabet etmez. Başlangıçta *CalendarYear* değerlerini önbellekten ve *SalesAmount* değerlerini de kaynaktan alıp sonuçları birleştirmesini bekleyebilirsiniz ama bu yaklaşım kaynak sisteme SUM/GROUP BY işlemi göndermekten daha az verimli olabilir. İşlem kaynağa doğru gönderilirse, döndürülen satır sayısı çok daha az olabilir. 
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode_08.png)
+![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Bu davranış, önbelleğe alınmış ve alınmamış tabloların birleştirildiği [Power BI Desktop'ta çok-çok ilişkilerinden](desktop-many-to-many-relationships.md) farklıdır.
@@ -145,7 +142,7 @@ Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu
 ## <a name="data-view"></a>Veri görünümü
 Veri kümesindeki tablolardan en az birinin depolama modu **İçeri Aktarma** veya **İkili** olarak ayarlandıysa, **Veri görünümü** sekmesi görüntülenir.
 
-![Power BI Desktop'taki veri görünümü](media/desktop-storage-mode/storage-mode_09.png)
+![Power BI Desktop'taki veri görünümü](media/desktop-storage-mode/storage-mode-03.png)
 
 **Veri görünümü** içinden seçildiğinde, **İkili** ve **İçeri Aktarma** tablolarında önbelleğe alınmış veriler gösterilir. DirectQuery tablolarında veri gösterilmez ve DirectQuery tablolarının gösterilemediğini belirten bir ileti görüntülenir.
 

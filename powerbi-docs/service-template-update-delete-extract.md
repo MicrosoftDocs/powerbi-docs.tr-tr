@@ -7,25 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 273734493c761739f9780e6a7fe6e781900723f9
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67125890"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207639"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 
 Uygulamanız artık üretim ortamında olduğundan, üretimdeki uygulamaya müdahale etmeden test aşamasının üzerinden geçebilirsiniz.
 ## <a name="update-your-app"></a>Uygulamanızı güncelleştirme
 
+Power BI Desktop’ta değişiklikler yaptıysanız (1). adımdan başlayın. Power BI Desktop’ta değişiklikler yapmadıysanız (4). adımdan başlayın.
+
+1. Güncelleştirilmiş veri kümesini karşıya yükleyin ve mevcut veri kümesinin üzerine yazın. **Tam olarak aynı veri kümesi adını kullandığınızdan emin olun**. Farklı bir ad kullanmak, uygulamayı güncelleştiren kullanıcılar için yeni bir veri kümesi oluşturur.
+![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+1. Pbix dosyasını bilgisayarınızdan içeri aktarın.
+![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+1. Üzerine yazmayı onaylayın.
+![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. **Sürüm yönetimi** bölmesinde **Uygulama oluştur**’u seçin.
-2. Uygulama oluşturma sürecine en baştan yeniden başlayın.
-3. **Markalama**, **İçerik**, **Denetim** ve **Erişim**’i ayarladıktan sonra yeniden **Uygulama oluştur**’u seçin.
-4. **Kapat**’ı seçin ve **Sürüm yönetimi**’ne dönün.
+1. Uygulama oluşturma sürecine en baştan yeniden başlayın.
+1. **Markalama**, **İçerik**, **Denetim** ve **Erişim**’i ayarladıktan sonra tekrar **Uygulama oluştur**’u seçin.
+1. **Kapat**’ı seçin ve **Sürüm yönetimi**’ne dönün.
 
    Şimdi iki sürümünüz olduğunu görürsünüz: üretimdeki sürüm ve test aşamasındaki yeni sürüm.
 
@@ -33,10 +41,18 @@ Uygulamanız artık üretim ortamında olduğundan, üretimdeki uygulamaya müda
 
 5. Uygulamanızı kiracınızın dışında test etmek amacıyla üretim öncesi aşamaya yükseltmek için, Sürüm Yönetimi bölmesine dönün ve **Test**’in yanındaki **Uygulamayı yükselt**’i seçin.
 6. Bağlantınız artık canlıdır. [Power BI Uygulama teklifi güncelleştirmesi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantıyı yeniden Bulut İş Ortağı Portalı'na (CPP) gönderin.
-7. CPP’de teklifinizi hem yeniden **yayımlamanız** hem de yeniden doğrulamanız gerekir.
+7. Bulut İş Ortağı Portalı’nda teklifinizi tekrar **yayımlamanız** ve yeniden doğrulamanız gerekir.
 
->[!NOTE]
->Uygulamanızı üretim aşamasına yükseltmek için uygulamanın Bulut İş Ortağı Portalı tarafından onaylanmasını ve uygulamayı yayımlamayı bekleyin.
+   >[!NOTE]
+   >Uygulamanızı üretim aşamasına yükseltmek için uygulamanın Bulut İş Ortağı Portalı tarafından onaylanmasını ve uygulamayı yayımlamayı bekleyin.
+
+### <a name="update-behavior"></a>Güncelleştirme davranışı
+
+1. Uygulamanın güncelleştirilmesi, şablon uygulaması yükleyicisinin bağlantı yapılandırmasını kaybetmeden zaten yüklü olan çalışma alanında [Şablon uygulamasını güncelleştirmesine](service-template-apps-install-distribute.md#update-a-template-app) olanak tanır.
+1. Veri kümesindeki değişikliklerin yüklü şablon uygulamasını nasıl etkilediğini öğrenmek için yükleyicinin [üzerine yazma davranışına](service-template-apps-install-distribute.md#overwrite-behavior) bakın.
+1. Bir şablon uygulaması güncelleştirilirken (üzerine yazılırken) ilk olarak örnek verilere geri döner ve kullanıcı yapılandırmasıyla (parametreler ve kimlik doğrulaması) otomatik olarak yeniden bağlanır. Yenileme tamamlanana kadar raporlar, panolar ve kuruluş uygulaması, örnek veri başlığını sunar.
+1. Kullanıcı girişi gerektiren güncelleştirilmiş veri kümesine yeni bir sorgu parametresi eklediyseniz, *gerekli* onay kutusunu işaretlemeniz gerekir. Bu işlem, uygulamayı güncelleştirdikten sonra yükleyiciye bağlantı dizesini sorar.
+ ![gerekli parametreler](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset4.png)
 
 ## <a name="extract-workspace"></a>Çalışma alanını ayıklama
 Ayıklama özelliği sayesinde artık bir şablon uygulamasını önceki sürümüne geri almak hiç olmadığı kadar kolaylaştı. Aşağıdaki adımlar, çeşitli yayın aşamalarındaki belirli bir uygulama sürümünü yeni çalışma alanına ayıklayacaktır:

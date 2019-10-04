@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919532"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305725"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
 
@@ -148,13 +148,14 @@ Aşağıdaki tabloda **kullanıcı tanımlı sayı biçimleri** oluşturmak içi
 | ( **E- E+ e- e+** ) | Bilimsel biçim. Biçim ifadesi E-, E+, e- veya e+ sembolünün sağında en az bir basamak yer tutucusu ( **0** veya **#** ) içeriyorsa, bu sayı bilimsel biçimde gösterilir veya sayı ile üssü arasına eklenir. Sağdaki basamak yer tutucularının sayısı, üs içindeki basamak sayısını belirler. Negatif üslerin yanına eksi işareti yerleştirmek için E-veya e- kullanın. Negatif üslerin yanına eksi işareti ve pozitif üslerin yanına artı işareti yerleştirmek için E+ veya e+ kullanın. |
 | **- + $**  ( ) | Değişmez bir karakter görüntüler. Listelenenlerin dışında bir karakter görüntülemek için, önüne bir ters eğik çizgi koyun (\) veya çift tırnak işareti (&quot; &quot;) içine alın. |
 | ( * *\** ) | Biçim dizesinde bir sonraki karakteri görüntüler. Özel anlamı olan bir karakteri değişmez karakter olarak görüntülemek için önüne bir ters eğik çizgi (\)) koyun. Ters eğik çizgi gösterilmez. Ters eğik çizgi kullanmak, sonraki karakteri çift tırnak işaretleri içine almakla aynıdır. Bir ters eğik çizgiyi göstermek için iki ters eğik çizgi (\\) kullanın. Tarih biçimlendirme ve saat biçimlendirme karakterleri (a, c, d, h, m, n, p, q, s, t, w, y, / ve :), sayısal biçimlendirme karakterleri (#, 0, %, E, e, virgül ve nokta) ve dize biçimlendirme karakterleri (@, &amp;, \&lt;, \&gt; ve !), değişmez karakter olarak gösterilemeyen karakterlerin örneklerindendir. |
-| (&quot;ABC&quot;) | Dizeyi çift tırnak işaretleri (&quot; &quot;) içinde görüntüler. Kod içinden **biçime** bir dize eklemek için **Chr(34)** karakterini kullanarak metni tırnak içine almanız gerekir (34, tırnak işaretinin karakter kodudur (&quot;)). |
+| (&quot;ABC&quot;) | Dizeyi çift tırnak işaretleri (&quot; &quot;) içinde görüntüler. |
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Aşağıdaki makaleler de ilginizi çekebilir:
 
 * [VBA biçim dizeleri](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Power BI Desktop’taki ölçümler](desktop-measures.md)
+* [Power BI Desktop'taki veri türleri](desktop-data-types.md)
 * [Tablolarda koşullu biçimlendirme](desktop-conditional-table-formatting.md)
-* [Power BI Desktop’ta ifade tabanlı başlıklar](desktop-conditional-format-visual-titles.md)
 

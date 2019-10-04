@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 9eaef23963c369d9fa124124c616b20d4d8a4752
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 982c1553459a6b6a7e3380b71b2c05772da72496
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187412"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325601"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için destek zaman çizelgesi
 
@@ -33,10 +33,11 @@ Bu destek politikası sayesinde müşterilerimize hızlı bir şekilde yenilikle
 | --- | --- | --- |
 | Haziran 2017 |12 Haziran 2017 |Artık desteklenmeyenler |
 | Ekim 2017 |31 Ekim 2017 | Artık desteklenmeyenler |
-| Mart 2018 | 19 Mart 2018 | 19 Mart 2019 |
-| Ağustos 2018 | 15 Ağustos 2018 | 15 Ağustos 2019 |
+| Mart 2018 | 19 Mart 2018 | Artık desteklenmeyenler |
+| Ağustos 2018 | 15 Ağustos 2018 | Artık desteklenmeyenler |
 | Ocak 2019 | 23 Ocak 2019 | 23 Ocak 2020 |
 | Mayıs 2019 | 22 Mayıs 2019 | 22 Mayıs 2020 |
+| Eylül 2019 | Eylül 2020 | Eylül 2021 
 
 Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
 

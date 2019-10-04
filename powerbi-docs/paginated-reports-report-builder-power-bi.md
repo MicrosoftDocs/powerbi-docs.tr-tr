@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985711"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305690"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -36,14 +36,13 @@ Sayfalandırılmış raporlar, Power BI Rapor Oluşturucusu adlı kendi tasarım
 
 Tek bir sayfalandırılmış raporun birkaç farklı veri kaynağı olabilir. Power BI raporlarının aksine, temel alınan bir veri modeli yoktur. Power BI hizmetindeki sayfalandırılmış raporların ilk sürümünde, raporun içinde yerleşik veri kaynakları ve veri kümeleri oluşturursunuz. Şimdilik paylaşılan veri kaynaklarını veya paylaşılan veri kümelerini kullanamazsınız. Yerel bilgisayarınızdaki Rapor Oluşturucusu'nda raporları oluşturursunuz. Bir rapor şirket içi verilere bağlanıyorsa raporu Power BI hizmetine yükledikten sonra bir ağ geçidi oluşturmanız ve veri bağlantısını yönlendirmeniz gerekir. Şu anda bağlanabileceğiniz veri kaynakları şunlardır:
 
-- Azure SQL Veritabanı ve Veri Ambarı
+- Azure SQL Veritabanı ve Veri Ambarı (Temel ve oAuth)
 - Azure Analysis Services (SSO yoluyla)
 - Ağ geçidi üzerinden SQL Server
 - Ağ geçidi üzerinden SQL Server Analysis Services
-- Power BI Premium Veri Kümeleri
+- Power BI Veri Kümeleri
 - Oracle
 - Teradata
-- Eklenen yeni kaynaklar
 
 ## <a name="design-your-report"></a>Raporunuzu tasarlama  
 
@@ -79,10 +78,10 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
 İlk sürümde desteklenmeyen bazı diğer özellikler şunlardır:
 
 - Rapor sayfalarını veya görselleri Power BI panolarına sabitleme. Bir Power BI Rapor Sunucusu veya Reporting Services rapor sunucusunda şirket içi sayfalandırılmış bir rapordan Power BI panosuna görselleştirmeleri yine sabitleyebilirsiniz. Daha fazla bilgi için bkz. [Reporting Services öğelerini Power BI panolarına sabitleme](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
-- Belge haritaları ve göster/gizle düğmeleri gibi etkileşimli özellikler.
-- Alt raporlar ve detaylandırma raporları.
+- Belge Haritaları.
+- Alt raporlar ve detaylandırma raporları.  Ancak, detaylandırma senaryolarını gerçekleştirmek için sayfalandırılmış raporlarla birlikte URL parametrelerini kullanmayı düşünebilirsiniz.
 - Paylaşılan veri kaynakları ve paylaşılan veri kümeleri.
-- Power BI raporlarındaki görseller.
+
  
 ## <a name="next-steps"></a>Sonraki adımlar
 

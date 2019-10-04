@@ -11,23 +11,28 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b0db9aebe72d54aa464ec012e614ae0ec5bc723
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390403"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194260"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe veya Ana Performans Göstergesi’ne (KPI) yönelik ilerlemeyi ölçen tek bir değeri gösterir. Satır veya (*iğne*) hedeflenen veya amaçlanan değeri temsil eder. Gölgelendirme, hedefe yönelik ilerlemeyi temsil eder. Yayın içindeki değer ilerleme değerini temsil eder. Power BI, olası tüm değerleri minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağıtır.
 
-![Radyal ölçer ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+![Radyal ölçer ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
 Bu örnekte, satış ekibinin aylık ortalama satışlarını izleyen bir araba satıcısı olduğunuzu varsayın. İğne 140 arabalık satış hedefini temsil eder. Mümkün olan minimum ortalama satış 0, maksimum ortalama satış ise 200’dür.  Mavi gölge, ekibin bu ayki ortalama satışının 120 olduğunu gösteriyor. Neyse ki, hedefe ulaşmak için bir hafta daha bulunuyor.
 
 Will şu tek ölçümlü görselleri oluştururken ona eşlik edin: ölçerler, kartlar ve KPI'ler.
-
+   > [!NOTE]
+   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-radial-gauge"></a>Radyal ölçer ne zaman kullanılır?
@@ -44,43 +49,39 @@ Radial ölçerler şunlar için harika bir seçimdir:
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-* Power BI hizmeti veya Power BI Desktop
+Bu öğreticide [Financial Sample Excel dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılır.
 
-* Financial Sample adlı Excel çalışma kitabı: [Örneği doğrudan indirin](http://go.microsoft.com/fwlink/?LinkID=521962).
+1. Menü çubuğunun sol üst kısmından **Veri Al** > **Excel**’i seçin
+   
+2. **Financial sample Excel dosyası** kopyanızı bulun
+
+1. **Financial sample Excel dosyası**’nı rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. **Mali** ve **Sayfa1**’i seçin
+
+1. **Yükle**’ye tıklayın
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
+
 
 ## <a name="create-a-basic-radial-gauge"></a>Basit bir radyal ölçer oluşturma
 
-Bu yönergeler Power BI hizmeti için geçerlidir. Birlikte ilerlemek için Power BI hizmetinde oturum açtıktan sonra Financial Sample adlı Excel dosyasını açın.
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>1\. Adım: Gross Sales (Brüt Satış) değerini izlemeye yönelik bir ölçer oluşturma
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>1\. Adım: Financial Sample adlı Excel dosyasını açma
-
-1. Henüz indirmediyseniz, [Financial Sample Excel dosyasını](../sample-financial-download.md) indirin. Dosyayı kaydettiğiniz yeri unutmayın.
-
-1. Power BI hizmetinde **Verileri Al** > **Dosyalar** seçeneğini belirleyin.
-
-1. **Yerel Dosya** seçeneğini belirleyip örnek dosyanın konumuna gidin.
-
-1. **İçeri aktar**'ı seçin. Power BI, Financial Sample’ı çalışma alanınıza bir veri kümesi olarak ekler.
-
-1. **Veri kümeleri** içerik listesinden **Financial Sample** için **Rapor oluştur** simgesini seçin.
-
-    ![Financial Sample için Rapor oluştur simgesine bir okun işaret ettiği Veri kümesi listesi ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
-
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2\. Adım: Gross Sales (Brüt Satış) değerini izlemeye yönelik bir ölçer oluşturma
-
-Son bölümde, **Rapor oluştur** simgesini seçtiğinizde, Power BI düzenleme görünümünde boş bir rapor oluşturdu.
+1. Boş bir rapor sayfasında başlayın
 
 1. **Alanlar** bölmesinden, **Gross Sales** seçeneğini belirleyin.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. Toplama işlemini **Ortalama** olarak değiştirin.
 
-   ![Toplam değer işaretlenmiş olarak Gross Sales ve ortalama toplam alanlar bölmesinin ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+   ![Toplam değer işaretlenmiş olarak Gross Sales ve ortalama toplam alanlar bölmesinin ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
-1. Ölçer simgesini seçin ![Ölçer simgesi ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) Sütun grafiğini ölçer grafiğe dönüştürmek için.
+1. Ölçer simgesini seçin ![Ölçer simgesi ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gaugeicon-new.png) Sütun grafiğini ölçer grafiğe dönüştürmek için.
 
-    ![Ölçer grafiği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+    ![Ölçer grafiği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
     **Financial Sample** dosyasını ne zaman indirdiğinize bağlı olarak, bu sayılarla eşleşmeyen sayılar görebilirsiniz.
 
@@ -95,7 +96,7 @@ Son bölümde, **Rapor oluştur** simgesini seçtiğinizde, Power BI düzenleme 
 
    Power BI **$145.48K** olan hedef değerimizi gösteren bir iğne ekler.
 
-   ![COGS ortalamasının da eklendiği ölçer grafik ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![COGS ortalamasının da eklendiği ölçer grafik ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
     Hedefimize ulaştığımıza dikkat edin.
 
@@ -110,7 +111,7 @@ Son bölümde, **Rapor oluştur** simgesini seçtiğinizde, Power BI düzenleme 
 
 1. Toplama işlemini **Maksimum** olarak değiştirin.
 
-   ![Gross Sales ve Maksimum toplam değer işaretlenmiş olarak Alanlar bölmesinin ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   ![Gross Sales ve Maksimum toplam değer işaretlenmiş olarak Alanlar bölmesinin ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
    Ölçer, yeni bir bitiş değeriyle (Brüt satıştaki 1,21 milyon değeri) yeniden çizilir.
 
@@ -119,8 +120,6 @@ Son bölümde, **Rapor oluştur** simgesini seçtiğinizde, Power BI düzenleme 
 ### <a name="step-5-save-your-report"></a>5 Adım: Raporunuzu kaydedin
 
 1. [Raporu kaydedin](../service-report-save.md).
-
-1. [Ölçer grafiğini pano kutucuğu olarak ekleyin](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Minimum, Maksimum ve Hedef değerleri ayarlamak için el ile biçimlendirme seçeneklerini kullanma
 
@@ -136,7 +135,7 @@ Son bölümde, **Rapor oluştur** simgesini seçtiğinizde, Power BI düzenleme 
 
 1. Hedef değeri kaldırmak için **Alanlar** bölmesinden **COGS** seçeneğini temizleyin.
 
-    ![Temizlenmiş COGS seçeneği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+    ![Temizlenmiş COGS seçeneği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
 1. **Ölçer ekseni**'nin altında **Hedef** alanı göründüğünde, buraya bir değer girin.
 
