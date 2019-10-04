@@ -8,12 +8,12 @@ ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
 ms:date: 06/10/2019
-ms.openlocfilehash: 56385dfbaf4399a244df4b71561c14221e43ee93
-ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
+ms.openlocfilehash: e04aab31fb84d6fefc5f3241a0df0ad511cb450e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71829530"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946295"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -84,7 +84,7 @@ ms.locfileid: "71829530"
                                 </a>
                             </li>
                             <li>
-                                <a href="developer/what-can-you-do.md">
+                                <a href="developer/index.yml">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

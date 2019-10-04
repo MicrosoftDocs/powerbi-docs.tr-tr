@@ -1,0 +1,240 @@
+- name: Geliştiriciler için Power BI
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Geliştiriciler Power BI ile neler yapabilir?
+          href: what-can-you-do.md
+    - name: Power BI görselleri
+      expanded: true
+      items:
+        - name: Genel Bakış
+          items:
+            - name: Power BI’daki görseller
+              href: ../power-bi-custom-visuals.md
+        - name: Öğreticiler
+          items:
+            - name: Power BI görseli geliştirme
+              href: custom-visual-develop-tutorial.md
+            - name: Biçimlendirme seçenekleri ekleme
+              href: custom-visual-develop-tutorial-format-options.md
+            - name: Görsel projesi için birim testleri ekleme
+              href: visuals/unit-tests-introduction.md
+        - name: Kavramlar
+          items:
+            - name: Power BI’da kuruluşlara yönelik görseller
+              href: ../power-bi-custom-visuals-organization.md
+            - name: Power BI görselleri için yönergeler
+              href: guidelines-powerbi-visuals.md
+            - name: Görseller hakkında SSS
+              href: ../power-bi-custom-visuals-faq.md
+            - name: Özellikleri kullanma
+              href: visuals/capabilities.md
+            - name: Veri görünümü eşlemeleri
+              href: visuals/dataview-mappings.md
+            - name: Nesneler ve özellikler
+              href: visuals/objects-properties.md
+            - name: Gelişmiş Düzenleme Modu
+              href: visuals/advanced-edit-mode.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Özel görseller için sertifika alma
+              href: ../power-bi-custom-visuals-certified.md
+            - name: AppSource'ta özel görsel yayımlama
+              href: office-store.md
+            - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: Görsellerin etkileşimleri
+              href: visuals/visuals-interactions.md
+            - name: Görsellere yönelik araç ipuçları ekleme
+              href: visuals/add-tooltips.md
+            - name: Analiz bölmesi ekleme
+              href: visuals/analytics-pane.md
+            - name: Görselleri filtreleme
+              href: visuals/filter-api.md
+            - name: Daha fazla veri getirme
+              href: visuals/fetch-more-data.md
+            - name: Yer işaretleri desteği ekleme
+              href: visuals/bookmarks-support.md
+            - name: Görsellerde verileri vurgulama
+              href: visuals/highlight.md
+            - name: Yüksek Karşıtlıklı mod desteği ekleme
+              href: visuals/high-contrast-support.md
+            - name: Eşitleme dilimleyicilerini etkinleştirme
+              href: visuals/enable-sync-slicers.md
+            - name: Power BI görselleriyle ilgili sorunları giderme
+              href: ../power-bi-custom-visuals-troubleshoot.md
+        - name: Başvuru
+          items:
+            - name: Giriş sayfası
+              href: visuals/landing-page.md
+            - name: URL’yi başlatma
+              href: visuals/launch-url.md
+            - name: Olayları işleme
+              href: visuals/event-service.md
+            - name: Sıralama
+              href: visuals/sort-options.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: Örnekler
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Özel Görseller Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: SSL sertifikası oluşturma
+              href: visuals/create-ssl-certificate.md
+    - name: Tümleşik analiz
+      expanded: true
+      items:
+        - name: Genel Bakış
+          items:
+            - name: Power BI ile ekleme nedir?
+              href: embedding.md
+            - name: Azure'da Power BI Embedded nedir?
+              href: azure-pbie-what-is-power-bi-embedded.md
+        - name: Öğreticiler
+          items:
+            - name: Müşteriler için içerik ekleme
+              href: embed-sample-for-customers.md
+            - name: Kuruluşunuz için içerik ekleme
+              href: embed-sample-for-your-organization.md
+            - name: Ulusal bulutlar için içerik ekleme
+              href: embed-sample-for-customers-national-clouds.md
+        - name: Kavramlar
+          items:
+            - name: Performans açısından en iyi yöntemleri
+              href: embedded-performance-best-practices.md
+            - name: Hizmet sorumlusu
+              href: embed-service-principal.md
+            - name: Satır düzeyi güvenlik
+              href: embedded-row-level-security.md
+            - name: Birden çok kiracıyı yönetme
+              href: embed-multi-tenancy.md
+            - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
+              href: azure-pbie-diag-logs.md
+            - name: Ekleme hakkında SSS
+              href: embedded-faq.md
+            - name: Power BI izinleri
+              href: power-bi-permissions.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Uygulamadan ekleme
+              href: embed-from-apps.md
+            - name: Uygulamaları otomatik yükleme
+              href: embed-auto-install-app.md
+            - name: Azure Active Directory kiracısı oluşturma
+              href: create-an-azure-active-directory-tenant.md
+            - name: Uygulamaları kaydetme
+              href: register-app.md
+            - name: Azure AD erişim belirteci alma
+              href: get-azuread-access-token.md
+            - name: Ekleme Hakkında Soru-Cevap
+              href: qanda.md
+            - name: Ekli uygulamanızla ilgili sorunları giderme
+              href: embedded-troubleshoot.md
+            - name: Azure'da kapasiteleri yönetme
+              items:
+                - name: Azure'da kapasite oluşturma
+                  href: azure-pbie-create-capacity.md
+                - name: Azure’da Multi-Geo’yu kullanarak kapasite oluşturma
+                  href: embedded-multi-geo.md
+                - name: Azure'da kapasiteyi ölçeklendirme
+                  href: azure-pbie-scale-capacity.md
+                - name: Azure'da kapasiteyi duraklatma ve başlatma
+                  href: azure-pbie-pause-start.md
+            - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
+              items:
+                - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
+                  href: migrate-from-powerbi-embedded.md
+                - name: Geçiş aracı
+                  href: migrate-tool.md
+                - name: Geçiş kodu parçacıkları
+                  href: migrate-code-snippets.md
+        - name: Başvuru
+          items:
+            - name: API'ler
+              items:
+                - name: Azure Kaynak Yönetimi REST API'leri
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API'leri
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Power BI Rest API başvurusu
+                  href: rest-api-reference.md
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Özel düzenleri uygulamaya ekleme
+              href: embedded-custom-layout.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Katıştırma kurulum aracı
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground Örneği
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git Deposu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Örnekler
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI topluluğu
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Otomasyon
+      expanded: true
+      items:
+        - name: Genel Bakış
+          items:
+            - name: Power BI API ile neler yapabilirim?
+              href: overview-of-power-bi-rest-api.md
+        - name: Öğreticiler
+          items:
+            - name: Bir veri kümesine veri gönderme
+              href: walkthrough-push-data.md
+            - name: Kimlik doğrulaması erişim belirteci alma
+              href: walkthrough-push-data-get-token.md
+            - name: Veri kümesi oluşturma
+              href: walkthrough-push-data-create-dataset.md
+            - name: Satır eklemek için veri kümesi alma
+              href: walkthrough-push-data-get-datasets.md
+            - name: Tabloya satır ekleme
+              href: walkthrough-push-data-add-rows.md
+        - name: Kavramlar
+          items:
+            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
+              href: api-automatic-retention-policy-for-real-time-data.md
+            - name: Verileri gönderme
+              items:
+                - name: Power BI REST API sınırlamaları
+                  href: api-rest-api-limitations.md
+                - name: Veri kümesi özellikleri
+                  href: api-dataset-properties.md
+                - name: Veri modeli sürümü oluşturma
+                  href: api-data-model-versioning.md
+        - name: Nasıl yapılır?
+          items:
+            - name: Kimlik bilgilerini yapılandırma
+              href: configure-credentials.md
+            - name: Kimlik bilgilerini şifreleme
+              href: encrypt-credentials.md
+        - name: Başvuru
+          items:
+            - name: REST API'leri
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI Rest API başvurusu
+              href: rest-api-reference.md
+            - name: Tam kod listesi
+              href: walkthrough-push-data-complete-code.md
+        - name: Kaynaklar
+          items:
+            - name: Geliştirme Merkezi
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git Deposu'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK İndirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
