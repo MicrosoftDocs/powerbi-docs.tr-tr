@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994817"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715177"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
 Power BI Desktop’ta bir raporu ( *.pbix* dosyası) yerel bilgisayarınızdan Power BI hizmetine yayımlayabilirsiniz. Power BI raporları diğer yöne de gidebilir: Power BI hizmetindeki bir raporu Power BI Desktop’a indirebilirsiniz. Power BI raporunun uzantısı, her iki durumda da .pbix olur.
@@ -26,7 +26,7 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin son
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Raporu .pbix dosyası olarak indirme
 
-Yalnızca 23 Kasım 2016'dan sonra [Power BI Desktop ile oluşturulmuş](guided-learning/publishingandsharing.yml?tutorial-step=2) ve sonrasında güncelleştirilmiş raporları indirebilirsiniz. Bu tarihten önce oluşturulmadıysa, Power BI hizmetindeki **Raporu indir** seçeneği gri renkte görünür.
+Yalnızca 23 Kasım 2016'dan sonra [Power BI Desktop ile oluşturulmuş](/learn/modules/publish-share-power-bi/2-publish-reports) ve sonrasında güncelleştirilmiş raporları indirebilirsiniz. Bu tarihten önce oluşturulmadıysa, Power BI hizmetindeki **Raporu indir** seçeneği gri renkte görünür.
 
 .pbix dosyasını indirmek için şu adımları uygulayın:
 

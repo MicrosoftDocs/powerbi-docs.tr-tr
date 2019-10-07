@@ -4,18 +4,18 @@ description: Power BI'daki özel görselleştirmeler
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fde213e29b5168ed990f297e5ace9895bfd44020
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195741"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946190"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 

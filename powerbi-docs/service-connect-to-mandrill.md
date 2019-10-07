@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7440fb6dfcd181b6b1164260626cd0bfa7cda991
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: aa685ae9b51e1f5044dab883d8de871dcc7ed5da
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185420"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945845"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI ile Mandrill'e bağlanma
 Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir raporlar kümesi ve bir veri kümesi oluşturarak verilerinizi araştırmanıza olanak sağlar. Mandrill'in analizini kullanarak bülten veya pazarlama kampanyanız hakkında öngörüler elde edin. Veriler, güncel bir izleme deneyimi elde etmenizi sağlamak üzere günlük olarak yenilenir.
@@ -39,7 +39,7 @@ Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir rap
     ![](media/service-connect-to-mandrill/auth.png)
 5. Veriler Power BI tarafından içeri aktarıldıktan sonra sol gezinti bölmesinde yeni bir pano, rapor ve veri kümesi görürsünüz. Bu, Power BI'ın verilerinizi görüntülemek için oluşturduğu varsayılan panodur.
    
-    ![](media/service-connect-to-mandrill/mandrill-dashboard1.jpg)
+    ![](media/service-connect-to-mandrill/mandrill-dashboard1.png)
 
 **Sırada ne var?**
 

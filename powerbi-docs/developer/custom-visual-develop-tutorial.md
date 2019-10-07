@@ -4,17 +4,17 @@ description: Power BI özel görseli geliştirme öğreticisi
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 172c630294751f2a96f9e42601ac81917c4c9962
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194480"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945314"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 

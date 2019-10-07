@@ -1253,7 +1253,7 @@
                       href: service-gateway-sso-kerberos-sap-hana.md
                     - name: SAP BW - sapcrypto.dll (Ortak Şifre Kitaplığı)
                       href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
-                    - name: SAP BW - gx64krb5.dll ve gsskrb5.dll
+                    - name: SAP BW - gx64krb5.dll
                       href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
             - name: SAML tabanlı SSO
               href: service-gateway-sso-saml.md

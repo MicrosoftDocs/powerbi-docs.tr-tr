@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840616"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715503"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -205,6 +205,6 @@ Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablos
 Yıldız şeması tasarımı ve Power BI modeli tasarımı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [Boyut modellemesi Vikipedi makalesi](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [Modelleme destekli öğrenme deneyimi](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../desktop-many-to-many-relationships.md)
+- [Modelleme destekli öğrenme deneyimi](/learn/modules/model-data-power-bi/)

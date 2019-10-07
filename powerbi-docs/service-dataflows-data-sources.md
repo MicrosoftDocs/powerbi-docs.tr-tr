@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: ae260e36d0ca7363a3b21242087813d951cf4983
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164561"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945801"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI veri akışları için veri kaynaklarına bağlanma
 
@@ -75,7 +75,7 @@ Veri akışlarının veri kaynakları, **Veri al** iletişim kutusunun üst kıs
 * PostgreSQL Veritabanı
 * SQL Server Veritabanı
 * Sybase Veritabanı
-* Teradata Veritabanı
+* Teradata
 * Vertica
 
 **Power BI** kategorisi, veri akışları için aşağıdaki kullanılabilir veri bağlantılarını içerir:

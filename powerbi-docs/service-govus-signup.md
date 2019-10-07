@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513232"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715312"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -123,7 +123,7 @@ Yöneticiler, kiracılarındaki Ücretsiz Power BI lisansı sahiplerini tanımla
 Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete nasıl kaydolacağınızı açıklayan bir makaleyi de içeren aşağıdaki kaynaklara başvurun:
 
 * [Power BI ABD Kamu sürümüne genel bakış](service-govus-overview.md)
-* [Power BI için Destekli Öğrenme](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Power BI için Destekli Öğrenme](guided-learning/index.md)
 * [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 

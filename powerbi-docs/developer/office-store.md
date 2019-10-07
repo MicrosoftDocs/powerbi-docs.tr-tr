@@ -4,17 +4,17 @@ description: Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanma
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194512"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944815"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource'ta Power BI görsellerini yayımlama
 

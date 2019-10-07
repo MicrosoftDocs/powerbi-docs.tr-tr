@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92f7a89f99f97c8b497406b3ff947cd0fa645e6c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720672"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715279"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI raporlarındaki metin kutuları ve şekiller
 Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller ekleyebilirsiniz. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Power BI hizmetinde sizinle bir rapor paylaşıldıysa, düzenleme izinlerine sahip olmazsınız. 
 
-Will'i [rapora statik görüntüler eklemek](guided-learning/visualizations.yml?tutorial-step=11) için Power BI Desktop kullanırken izleyin ve ardından, bunun yerine Power BI hizmetini kullanarak kendiniz denemek için aşağıdaki adımları izleyin.
+Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/12-formatting) için Power BI Desktop kullanırken izleyin ve ardından, bunun yerine Power BI hizmetini kullanarak kendiniz denemek için aşağıdaki adımları izleyin.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

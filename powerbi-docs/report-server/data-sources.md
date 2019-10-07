@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401837"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945827"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -157,7 +157,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | SharePoint Online Listesi |Hayır |Hayır |Hayır |Hayır |
 | Snowflake |Hayır |Hayır |Hayır |Hayır |
 | Sybase Veritabanı |Hayır |Hayır |Evet |Evet |
-| Teradata Veritabanı |Hayır |Hayır |Evet |Evet |
+| Teradata |Hayır |Hayır |Evet |Evet |
 | appFigures (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Azure Analysis Services veritabanı (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Azure Cosmos DB (Beta) |Hayır |Hayır |Hayır |Hayır |
@@ -204,7 +204,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 | Oracle Database |Hayır |Hayır |Evet |Evet |Evet |
 | SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
 | SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Hayır |
-| Teradata Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
+| Teradata |Hayır |Hayır |Evet |Evet |Evet |
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

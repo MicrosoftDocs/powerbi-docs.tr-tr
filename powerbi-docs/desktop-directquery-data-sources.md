@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302653"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945193"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 
@@ -45,7 +45,7 @@ Aşağıdaki veri kaynakları, Power BI'da DirectQuery'yi desteklemektedir:
 * Snowflake
 * Spark (sürüm 0.9 ve üzeri)
 * SQL Server
-* Teradata Veritabanı
+* Teradata
 * Vertica
 
 Adının yanında **(Beta)** veya **(Önizleme)** bulunan veri kaynakları, değişikliğe tabidir ve üretim ortamında kullanımları desteklenmez. Ayrıca bunlar, **Power BI hizmetinde** yayımlanan raporlarda da desteklenmeyebilir. Bu, yayımlanmış bir raporu açma veya veri kümesini araştırma işlemlerinin hatayla sonuçlanabileceği anlamına gelir.
@@ -82,7 +82,7 @@ Aşağıdaki tabloda, **Power BI hizmetinde** bir rapor yayımladıktan sonra, b
 | Spark (Beta), 0.9 ve sonraki sürümler |Evet |
 | SQL Server |Evet |
 | Sybase |Evet |
-| Teradata Veritabanı |Evet |
+| Teradata |Evet |
 | Vertica |Evet |
 
 
