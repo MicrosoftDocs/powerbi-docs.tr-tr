@@ -1,27 +1,20 @@
-items:
 - name: Docs
   href: /
   topicHref: /
   items:
-  - name: Power BI
-    tocHref: /power-bi/
-    topicHref: /power-bi/
-    items:
-    - name: Tüketiciler
-      tocHref: /power-bi/consumer/
-      topicHref: /power-bi/consumer/power-bi-consumer-landing
-    - name: Geliştirici
-      tocHref: /power-bi/developer/
-      topicHref: /power-bi/developer/embedding
-    - name: Destekli Öğrenme
-      tocHref: /power-bi/guided-learning/
-      topicHref: /power-bi/guided-learning/
-    - name: Rapor Sunucusu
-      tocHref: /power-bi/report-server/
-      topicHref: /power-bi/report-server/get-started
-ms.openlocfilehash: 869315a08e509575a0f04e63a7bb94d42a668b8b
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794260"
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: Tüketiciler
+          tocHref: /power-bi/consumer/
+          topicHref: /power-bi/consumer/power-bi-consumer-landing
+        - name: Geliştirici
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/index
+        - name: Destekli Öğrenme
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: Rapor Sunucusu
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/get-started
