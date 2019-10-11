@@ -4,23 +4,25 @@ description: Power BI ile Hızlı Öngörüler Öngörüleri görüntüleme.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327773"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943918"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
+
+Power BI hizmeti panolarınız veya raporlarınızdaki içgörülere otomatik olarak bakabilir.
+
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
-Power BI ilgi çekici olabilecek öngörüleri keşfetmek için bir karmaşık algoritma kümesi uygulayarak veri kümenizin farklı alt kümelerinde hızlıca arama yapar. Power BI, ayrılan bir sürede bir veri kümesinin mümkün olduğu kadar büyük bir kısmını tarar.
+Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI, ayrılan bir sürede bir veri kümesinin mümkün olduğu kadar büyük bir kısmını tarar.
 
 Bir veri kümesi veya pano kutucuğunda öngörü çalıştırabilirsiniz.   
 
@@ -74,8 +76,6 @@ Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğ
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI öngörüleri](end-user-insights.md)
-
-Bir veri kümesine sahipseniz [bu veri kümesini öngörüler için en iyi duruma getirebilirsiniz](../service-insights-optimize.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
 

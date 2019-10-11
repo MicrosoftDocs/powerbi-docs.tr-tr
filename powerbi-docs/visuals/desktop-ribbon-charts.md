@@ -1,6 +1,6 @@
 ---
 title: Power BI'daki şerit grafikleri kullanma
-description: Power BI hizmetinde ve Power BI Desktop'ta şerit grafikler oluşturma ve bunları kullanma
+description: Power BI Desktop'ta şerit grafikler oluşturma ve bunları kullanma
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840091"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715491"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Power BI'daki şerit grafikleri kullanma
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Verileri görselleştirmek ve hangi veri kategorisinin en yüksek dereceye (en yüksek değer) sahip olduğunu hızla keşfetmek için şerit grafikleri kullanabilirsiniz. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir. 
 
-![Şerit grafik](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![Şerit grafik](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>Önkoşullar
+
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
+
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+   
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
+
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
 ## <a name="create-a-ribbon-chart"></a>Bir şerit grafik oluşturma
-Örneği takip etmek için [Perakende analizi örnek raporunu](../sample-retail-analysis.md) açın. 
 
 1. Bir şerit grafik oluşturmak için **Görsel Öğeler** bölmesinden **şerit grafik** seçeneğini belirleyin.
 
@@ -31,13 +45,13 @@ Verileri görselleştirmek ve hangi veri kategorisinin en yüksek dereceye (en y
 
     Şerit grafikler, şeritler kullanarak görselleştirilen zaman sürekliliği üzerinden bir veri kategorisine bağlanır ve belirli bir kategorinin, grafiğin x ekseni (genellikle zaman çizelgesi) aralığındaki sıralamasını görmenize olanak sağlar.
 
-2. **Eksen**, **Gösterge** ve **Değer** için alanları seçin.  Biz bu örnekte şunları seçtik: **Date**, **Category** ve **This year sales**.  
+2. **Eksen**, **Gösterge** ve **Değer** için alanları seçin.  Biz bu örnekte şunları seçtik: **Store** > **OpenDate**, **Item** > **Category** ve **Sales** > **This year sales** > **Value**.  
 
-    ![seçili alanlar](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
+    ![seçili Alanlar](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Veri kümesi tek bir yılın verilerini içerdiğinden, **Eksen**'den **Year** alanını da kaldırdık. 
+    Veri kümesi tek bir yılın verilerini içerdiğinden, **Eksen**'den **Year** ve **Quarter** alanını da kaldırdık.
 
-3. Şerit grafiğinde tüm diğer ayların derecelendirmesi gösterilir. Zaman içinde derecelendirmenin nasıl değiştiğine dikkat edin.  Örneğin, Home kategorisi üçüncülükten dördüncülüğe geçmiş ve sonra yeniden üçüncülüğe dönmüştür. Juniors kategorisi Temmuz ayında üçüncülükten beşinciliğe geçmiştir. 
+3. Şerit grafiğinde tüm ayların derecelendirmesi gösterilir. Zaman içinde derecelendirmenin nasıl değiştiğine dikkat edin. Örneğin Home kategorisi Şubat'tan Mart'ta kadar ikinci sıradan beşinci sıraya geçmiş.
 
     ![Şerit grafik](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ Bir şerit grafik oluşturduğunuzda **Görsel Öğeler** bölmesinin **Biçim**
 
 ![veri etiketleri için biçimlendirme seçenekleri](media/desktop-ribbon-charts/power-bi-labels.png)
 
-Veri etiketleriniz için biçimlendirme seçeneklerini ayarlayın.  Bu örnekte, metin rengini beyaz, ondalık konumları sıfır ve görüntü birimlerini binler olarak ayarladık. 
+Veri etiketleriniz için biçimlendirme seçeneklerini ayarlayın. Bu örnekte, metin rengini beyaz ve görüntü birimlerini binler olarak ayarladık.
 
 ![Görselleştirme bölmesinde şerit şablonu](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

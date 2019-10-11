@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751524"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968486"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -117,12 +117,13 @@ Geçiş/sıralama dışında Power BI hizmetinde desteklenmeyen bir özelliğe s
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Şu anda sayfalandırılmış raporlarda hangi veri kaynaklarını destekliyorsunuz?
 
-Şu veri kaynağını destekliyoruz - 
+Şu veri kaynaklarını destekliyoruz - 
 
 - Power BI Veri Kümeleri (çoklu oturum açma (SSO) aracılığıyla)
 - Azure Analysis Services (çoklu oturum açma (SSO) ve oAuth aracılığıyla)
 - Azure SQL Veri Ambarı
 - Azure SQL Veritabanı (kullanıcı adı/parola, SSO ve oAuth)
+- Genel Uç Nokta yoluyla Azure SQL Yönetilen Örneği (kullanıcıadı/parola)
 - SQL Server*
 - SQL Server Analysis Services (SSAS) tablolu (DAX) ve çok boyutlu (MDX) modelleri* 
 - Oracle* 

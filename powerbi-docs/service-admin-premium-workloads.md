@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985705"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968880"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -59,18 +59,59 @@ AI iş yükü Power BI'da bilişsel hizmetleri ve Otomatik Makine Öğrenmesi'ni
 
 ### <a name="datasets"></a>Veri kümeleri
 
-Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakılamaz. İş yükü davranışını denetlemek için aşağıdaki ayarları kullanın.
+Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakılamaz. İş yükü davranışını denetlemek için aşağıdaki ayarları kullanın. Ayarlardan bazıları için tablonun altında ek kullanım bilgileri verilir.
 
 | Ayar Adı | Açıklama |
 |---------------------------------|----------------------------------------|
 | **En Yüksek Bellek (%)** | Kapasitede veri kümelerinin kullanabileceği en yüksek kullanılabilir bellek yüzdesi. |
 | **XMLA Uç Noktası** | İstemci uygulamalarından gelen bağlantıların çalışma alanı ve uygulama düzeylerinde ayarlanan güvenlik grubu üyeliğini kabul edeceğini belirtir. Daha fazla bilgi için bkz. [İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma](service-premium-connect-tools.md). |
-| **En Fazla Ara Satır Sayısı** | DirectQuery tarafından döndürülen ara satır sayısı üst sınırı. Varsayılan değer 1000000'dur ve izin verilen değerler 100000 ile 2147483647 arasındadır. Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. |
-| **En Büyük Çevrimdışı Veri Kümesi Boyutu (GB)** | Bellekteki çevrimdışı veri kümesinin boyut üst sınırı. Bu, diskteki sıkıştırılmış boyuttur. Varsayılan değer SKU tarafından ayarlanır ve izin verilen değerler 0,1 ile 10 GB arasındadır. Rapor oluşturucularının kapasiteyi olumsuz etkileyebilecek büyük veri kümeleri yayımlamasını önlemek için bu ayarı kullanın. |
-| **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. |
-| **Sorgu Belleği Sınırı (%)** | Sorguda veya DAX ölçüsünde geçici sonuçlar için kullanılabilecek en yüksek kullanılabilir bellek yüzdesi. Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. |
-| **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. Uzun süre çalışan sorgularda daha iyi bir denetim sağlamak için bu ayarı kullanın. |
+| **En Fazla Ara Satır Sayısı** | DirectQuery tarafından döndürülen ara satır sayısı üst sınırı. Varsayılan değer 1000000'dur ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
+| **En Büyük Çevrimdışı Veri Kümesi Boyutu (GB)** | Bellekteki çevrimdışı veri kümesinin boyut üst sınırı. Bu, diskteki sıkıştırılmış boyuttur. Varsayılan değer SKU tarafından ayarlanır ve izin verilen değerler 0,1 ile 10 GB arasındadır. |
+| **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
+| **Sorgu Belleği Sınırı (%)** | Sorguda veya DAX ölçüsünde geçici sonuçlar için kullanılabilecek en yüksek kullanılabilir bellek yüzdesi. |
+| **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>En Büyük Ara Satır Kümesi Sayısı
+
+Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. DirectQuery veri kümesindeki bir sorgu kaynak veritabanından çok büyük bir sonuç getirirse, bellek kullanımında ve işlem yükünde ani bir artışa neden olabilir. Bu durum diğer kullanıcıların ve raporların yetersiz kaynak durumuyla karşılaşmasına yol açabilir. Bu ayarla kapasite yöneticisi tek bir sorgunun veri kaynağından kaç satır getirebileceğini belirleyebilir.
+
+Alternatif olarak, kapasite varsayılan bir milyon satırdan daha fazlasını destekleyebiliyorsa daha fazla satır getirmek için bu ayarı artırın.
+
+Bu ayarın yalnızca DirectQuery sorgularını etkilediğine, [En Büyük Sonuç Satır Kümesi Sayısı](#max-result-row-set-count)'nın ise DAX sorgularını etkilediğine dikkat edin.
+
+#### <a name="max-offline-dataset-size"></a>En Büyük Çevrimdışı Veri Kümesi Boyutu
+
+Rapor oluşturucularının kapasiteyi olumsuz etkileyebilecek büyük veri kümeleri yayımlamasını önlemek için bu ayarı kullanın. Veri kümesi belleğe yüklenene kadar Power BI'ın gerçek bellek içi boyutu belirleyemeyeceğini unutmayın. Çevrimdışı boyutu daha küçük olan bir veri kümesinin bellekte çevrimdışı boyutu daha büyük olandan daha fazla yer kaplaması mümkündür.
+
+Bu ayarda belirttiğiniz boyuttan daha büyük bir veri kümeniz varsa, kullanıcı erişmeye çalıştığında veri kümesi yüklenemeyecektir.
+
+#### <a name="max-result-row-set-count"></a>En Büyük Sonuç Satır Kümesi Sayısı
+
+Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. DAX sorgusunda bu sınıra ulaşılırsa rapor kullanıcısı aşağıdaki hatayı görür. Hata ayrıntılarını kopyalayıp yöneticiye başvurması gerekir.
+
+![Bu görsel için veri yüklenemedi](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Bu ayarın yalnızca DAX sorgularını etkilediğine, [En Büyük Ara Satır Kümesi Sayısı](#max-intermediate-row-set-count)'nın ise DirectQuery sorgularını etkilediğine dikkat edin.
+
+#### <a name="query-memory-limit"></a>Sorgu Belleği Sınırı
+
+Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. Bazı sorgular ve hesaplamalar kapasitede çok fazla bellek kullanan ara sonuçlar verebilir. Bu durum diğer sorguların çok yavaş yürütülmesine, diğer veri kümelerinin kapasiteden çıkarılmasına ve kapasitenin diğer kullanıcılarının yetersiz bellek hataları almasına yol açabilir.
+
+Bu ayar veri yenileme ve rapor işleme için geçerlidir. Sorgu yenileme devre dışı bırakılmadıysa, veri yenileme hem veri kaynağındaki verileri yeniler hem de sorguyu yeniler. Sorgu yenileme devre dışı bırakılmadıysa bu bellek sınırı söz konusu sorgular için de geçerlidir. Veri yenileme başarılı olsa bile, başarısız olan tüm sorgular zamanlanan yenileme durumunun başarısız olarak bildirilmesine neden olur.
+
+#### <a name="query-timeout"></a>Sorgu Zaman Aşımı
+
+Uzun süre çalışan ve kullanıcılar için raporların yavaş yüklenmesine neden olabilen sorguları daha iyi denetim altına almak için bu ayarı kullanın. Bu ayar veri yenileme ve rapor işleme için geçerlidir. Sorgu yenileme devre dışı bırakılmadıysa, veri yenileme hem veri kaynağındaki verileri yeniler hem de sorguyu yeniler. Sorgu yenileme devre dışı bırakılmadıysa bu zaman aşımı sınırı söz konusu sorgular için de geçerlidir.
+
+Bu ayar tek bir sorgu için geçerlidir; veri kümesinin veya raporun güncelleştirilmesiyle ilişkili tüm sorguları çalıştırmak için gereken süreye uygulanmaz. Aşağıdaki örneği inceleyin:
+
+- **Sorgu Zaman Aşımı** ayarı 1200 (20 dakika).
+- Yürütülecek beş sorgu var ve her biri 15 dakika çalışıyor.
+
+Tüm sorguların birleşik süresi 75 dakika ama bu ayar sınırına ulaşılmadı çünkü tek tek sorguların her birinin çalışması 20 dakikadan kısa sürdü.
+
+Power BI raporlarının, kapasitede her sorgu için daha küçük bir zaman aşımı süresiyle bu varsayılan süreyi geçersiz kıldığına dikkat edin. Her sorgu için zaman aşımı normalde yaklaşık üç dakikadır.
 
 ### <a name="dataflows"></a>Veri akışları
 

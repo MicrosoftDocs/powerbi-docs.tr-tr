@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9958059fcf0d86323fc95f44f6fcfcb08fe7b52b
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100496"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71969008"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI hizmetinden şirket içi veri kaynaklarına Kerberos tabanlı SSO yapılandırma
 
-[Kerberos kısıtlanmış temsili](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) kullanarak, sorunsuz SSO bağlantısını etkinleştirin. SSO'yu etkinleştirmek, Power BI raporlarının ve panolarının şirket içi kaynaklardan alınan verileri yenilemesini kolaylaştırır.
+[Kerberos kısıtlanmış temsili](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) kullanarak, sorunsuz SSO bağlantısını etkinleştirin. SSO'yu etkinleştirmek, Power BI raporlarının ve panolarının şirket içi kaynaklardan alınan verileri yenilemesini kolaylaştırırken bu kaynaklarda yapılandırılmış kullanıcı düzeyi izinlerine de uyar.
 
 Kerberos kısıtlanmış temsilinin düzgün bir şekilde çalışması için, hizmet hesaplarındaki _Hizmet Asıl Adlarının_ (SPN) ve temsilci seçme ayarlarının da dahil olduğu belirli öğelerin yapılandırılması gerekir.
 
@@ -60,7 +60,7 @@ Etki alanı yöneticisi olarak, ağ geçidi hizmeti etki alanı hesabı için bi
 
     **Özellikler** iletişim kutusunda **Temsilci Seçme** sekmesi yoksa, bu hesapta elle SPN oluşturarak etkinleştirebilirsiniz. Windows ile birlikte gelen [setspn aracını](https://technet.microsoft.com/library/cc731241.aspx) kullanın. (SPN'yi oluşturmak için etki alanı yöneticisi haklarına sahip olmanız gerekir.)
 
-    Örneğin, ağ geçidi hizmet hesabının **Contoso\GatewaySvc**), ağ geçidi hizmetinin çalıştığı makinenin adının ise **MyGatewayMachine** olduğunu varsayalım. Ağ geçidi hizmet hesabına yönelik SPN'yi ayarlamak için aşağıdaki komutu çalıştırırsınız:
+    Örneğin, ağ geçidi hizmet hesabının **Contoso\GatewaySvc**, ağ geçidi hizmetinin çalıştığı makinenin adının ise **MyGatewayMachine** olduğunu varsayalım. Ağ geçidi hizmet hesabına yönelik SPN'yi ayarlamak için aşağıdaki komutu çalıştırırsınız:
 
     ![setspn komutu görüntüsü](media/service-gateway-sso-kerberos/set-spn.png)
 
@@ -83,9 +83,9 @@ Protokol geçişi ile Kerberos kısıtlanmış temsilini yapılandırmamız gere
 
 Bu bölümde, temel alınan veri kaynaklarınız (SQL Server, SAP HANA, SAP BW, Teradata veya Spark vb.) için daha önce SPN yapılandırmış olduğunuz varsayılır. Söz konusu veri kaynağı sunucusu SPN'lerinin nasıl yapılandırılacağını öğrenmek için ilgili veritabanı sunucusuna yönelik teknik belgelere bakın. Başlığı da (*Uygulamanız hangi SPN’yi gerektiriyor*) [Kerberos Denetim Listem](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) blog gönderisinde görebilirsiniz.
 
-Sıradaki adımlar için bir ağ geçidi makinesi ve daha önce Kerberos tabanlı SSO için yapılandırılmış SQL Server çalıştıran bir veritabanı olmak üzere iki makine içeren bir şirket içi ortamını kullanacağız. Bu adımlar, veri kaynağı Kerberos tabanlı çoklu oturum açma için zaten yapılandırılmışsa desteklenen diğer veri kaynaklarından biri için benimsenebilir. Bu örnek için ayrıca şu ayarların ve adların geçerli olduğunu varsayacağız:
+Sıradaki adımlar için bir ağ geçidi makinesi ve daha önce Kerberos tabanlı SSO için yapılandırılmış SQL Server çalıştıran bir veritabanı olmak üzere aynı etki alanında iki makine içeren bir şirket içi ortamını kullanacağız. Bu adımlar, veri kaynağı Kerberos tabanlı çoklu oturum açma için zaten yapılandırılmışsa desteklenen diğer veri kaynaklarından biri için benimsenebilir. Bu örnek için ayrıca şu ayarların ve adların geçerli olduğunu varsayacağız:
 
-* Active Directory Etki Alanı (Netbios): Contoso
+* Active Directory Etki Alanı (Netbios): **Contoso**
 * Ağ geçidi makine adı: **MyGatewayMachine**
 * Ağ geçidi hizmeti hesabı: **Contoso\GatewaySvc**
 * SQL Server veri kaynağı makine adı: **TestSQLServer**
@@ -105,11 +105,11 @@ Temsilci seçme ayarlarını yapılandırmak için şunları yapabilirsiniz:
 
 6. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
 
-7. Veri kaynağı için hizmet hesabını girin. Örneğin, bir SQL Server veri kaynağı **Contoso\SQLService** gibi bir hizmet hesabına sahip olabilir. Hesabınız eklendikten sonra **Tamam**’ı seçin.
+7. Veri kaynağı için hizmet hesabını girin. Örneğin, bir SQL Server veri kaynağı **Contoso\SQLService** gibi bir hizmet hesabına sahip olabilir. Bu hesapta veri kaynağı için uygun bir SPN zaten ayarlanmış olmalıdır. Hesabınız eklendikten sonra **Tamam**’ı seçin.
 
 8. Veritabanı sunucusu için oluşturduğunuz SPN'yi seçin. Örneğimizde SPN, **MSSQLSvc** ile başlar. Veritabanı hizmeti için hem FQDN hem de NetBIOS SPN'sini eklediyseniz her ikisini de seçin. Yalnızca birini görüyor olabilirsiniz.
 
-9. **Tamam**'ı seçin. SPN'nin listede görünmesi gerekir.
+9. **Tamam**'ı seçin. Şimdi hizmet listesinde ağ geçidi hizmet hesabının temsilci kimlik bilgilerini gösterebileceği SPN'yi görüyor olmalısınız.
 
     ![Ağ Geçidi Bağlayıcısı Özellikleri İletişim Kutusu Ekran Görüntüsü](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
@@ -124,6 +124,8 @@ Windows Server 2012 ve sonraki sürümlerinde çoklu oturum açma bağlantısın
 
 Sıradaki adımlar için bir ağ geçidi makinesi ve daha önce Kerberos tabanlı SSO için yapılandırılmış SQL Server çalıştıran bir veritabanı olmak üzere farklı etki alanlarında iki makine içeren bir şirket içi ortamını kullanacağız. Bu adımlar, veri kaynağı Kerberos tabanlı çoklu oturum açma için zaten yapılandırılmışsa desteklenen diğer veri kaynaklarından biri için benimsenebilir. Bu örnek için ayrıca şu ayarların ve adların geçerli olduğunu varsayıyoruz:
 
+* Active Directory frontend Domain (Netbios): **ContosoFrontEnd**
+* Active Directory backend Domain (Netbios): **ContosoBackEnd**
 * Ağ geçidi makine adı: **MyGatewayMachine**
 * Ağ geçidi hizmeti hesabı: **ContosoFrontEnd\GatewaySvc**
 * SQL Server veri kaynağı makine adı: **TestSQLServer**
@@ -135,22 +137,26 @@ Bu örnek adlar ve ayarlar doğrultusunda aşağıdaki yapılandırma adımları
 
     ![Ağ geçidi bağlayıcısı özellikleri](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. **ContosoBackEnd** etki alanının etki alanı denetleyicisinde **Active Directory Kullanıcıları ve Bilgisayarları**'nı kullanarak, arka uç hizmet hesabına hiçbir temsil ayarı uygulanmadığından emin olun. Buna ek olarak, bu hesap için **msDS-AllowedToActOnBehalfOfOtherIdentity** özniteliğinin de ayarlanmadığından emin olun. Bu özniteliği, aşağıdaki resimde gösterildiği gibi **Öznitelik Düzenleyicisi**’nde bulabilirsiniz:
+2. **ContosoBackEnd** etki alanının etki alanı denetleyicisinde **Active Directory Kullanıcıları ve Bilgisayarları**'nı kullanarak, arka uç hizmet hesabına hiçbir temsil ayarı uygulanmadığından emin olun.
 
     ![SQL hizmeti özellikleri](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. **ContosoBackEnd** etki alanının etki alanı denetleyicisinde, **Active Directory Kullanıcıları ve Bilgisayarları**'nda bir grup oluşturun. Aşağıdaki görüntüde gösterildiği gibi ağ geçidi hizmet hesabını bu gruba ekleyin. Görüntüde _ResourceDelGroup_ adlı yeni bir grup ve bu gruba eklenen **GatewaySvc** ağ geçidi hizmet hesabı gösterilir.
+3. Buna ek olarak, bu hesap için **msDS-AllowedToActOnBehalfOfOtherIdentity** özniteliğinin de ayarlanmadığından emin olun. Bu özniteliği, aşağıdaki resimde gösterildiği gibi **Öznitelik Düzenleyicisi**’nde bulabilirsiniz:
+
+    ![SQL hizmeti öznitelikleri](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
+
+4. **ContosoBackEnd** etki alanının etki alanı denetleyicisinde, **Active Directory Kullanıcıları ve Bilgisayarları**'nda bir grup oluşturun. Aşağıdaki görüntüde gösterildiği gibi ağ geçidi hizmet hesabını bu gruba ekleyin. Görüntüde _ResourceDelGroup_ adlı yeni bir grup ve bu gruba eklenen **GatewaySvc** ağ geçidi hizmet hesabı gösterilir.
 
     ![Grup özellikleri](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-4. Bir komut istemi açın ve **ContosoBackEnd** etki alanının etki alanı denetleyicisinde aşağıdaki komutları çalıştırarak arka uç hizmet hesabının **msDS-AllowedToActOnBehalfOfOtherIdentity** özniteliğini güncelleştirin:
+5. Bir komut istemi açın ve **ContosoBackEnd** etki alanının etki alanı denetleyicisinde aşağıdaki komutları çalıştırarak arka uç hizmet hesabının **msDS-AllowedToActOnBehalfOfOtherIdentity** özniteliğini güncelleştirin:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-5. **Active Directory Kullanıcıları ve Bilgisayarları**'nda arka uç hizmet hesabının özelliklerindeki "Öznitelik Düzenleyicisi" sekmesinde güncelleştirmenin yansıtıldığını doğrulayabilirsiniz.
+6. **Active Directory Kullanıcıları ve Bilgisayarları**'nda arka uç hizmet hesabının özelliklerindeki "Öznitelik Düzenleyicisi" sekmesinde güncelleştirmenin yansıtıldığını doğrulayabilirsiniz. **msDS-AllowedToActOnBehalfOfOtherIdentity** artık ayarlanmış olmalıdır.
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Ağ geçidi makinesinde ağ geçidi hizmet hesabına yerel ilke hakları verme
 
@@ -158,7 +164,7 @@ Son olarak, ağ geçidi hizmetinin çalıştırıldığı makinede (örneğimizd
 
 1. Ağ geçidi makinesinde şunu çalıştırın: *gpedit.msc*.
 
-2. **Yerel Bilgisayar İlkesi** > **Bilgisayar Yapılandırması** > **Windows Ayarları** > **Güvenlik Ayarları** > **Yerel İlkeler** > **Kullanıcı Hakları Ataması** seçeneğine gidin.
+2. **Yerel Bilgisayar İlkesi** &gt; **Bilgisayar Yapılandırması** &gt; **Windows Ayarları** &gt; **Güvenlik Ayarları** &gt; **Yerel İlkeler** &gt; **Kullanıcı Hakları Ataması**'na gidin.
 
     ![Yerel Bilgisayar İlkesi klasör yapısı ekran görüntüsü](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -166,7 +172,7 @@ Son olarak, ağ geçidi hizmetinin çalıştırıldığı makinede (örneğimizd
 
     ![İstemci ilkesinin özelliklerini alma ekran görüntüsü](media/service-gateway-sso-kerberos/impersonate-client.png)
 
-    Sağ tıklayın ve **Özellikler**’i açın. Hesap listesini kontrol edin. Ağ geçidi hizmet hesabını (**Contoso\GatewaySvc**) içermesi gerekir.
+    Sağ tıklayın ve **Özellikler**’i açın. Hesap listesini kontrol edin. Ağ geçidi hizmet hesabını içermelidir (kısıtlanmış temsil türüne bağlı olarak **Contoso\GatewaySvc** veya **ContosoFrontEnd\GatewaySvc**).
 
 4. **Kullanıcı Hakları Ataması**’nın altındaki ilke listesinden **İşletim sisteminin parçası gibi davran (SeTcbPrivilege)** seçeneğini belirleyin. Ağ geçidi hizmet hesabının da hesap listesinde yer aldığından emin olun.
 
@@ -184,23 +190,23 @@ Azure AD Connect yapılandırılmamışsa, bir Power BI hizmeti kullanıcısın�
 
     ![Görev Yöneticisi Hizmetler sekmesi ekran görüntüsü](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. Kerberos SSO'yu etkinleştirmek istediğiniz her Power BI hizmeti kullanıcısı için yerel bir Active Directory kullanıcısına (veri kaynağınıza ilişkin SSO iznine sahip olmalıdır) ait `msDS-cloudExtensionAttribute1` özelliğini Power BI hizmeti kullanıcısının tam kullanıcı adına ayarlayın. Örneğin, Power BI hizmetinde `test@contoso.com` olarak oturum açıp bu kullanıcıyı `test@LOCALDOMAIN.COM` gibi SSO izinleri olan yerel bir Active Directory kullanıcısına eşlemek istiyorsanız, `test@LOCALDOMAIN.COM` adlı kullanıcının `msDS-cloudExtensionAttribute1` özniteliğini `test@contoso.com` olarak ayarlayın.
+1. Kerberos SSO'yu etkinleştirmek istediğiniz her Power BI hizmeti kullanıcısı için yerel bir Active Directory kullanıcısına (veri kaynağınıza ilişkin SSO iznine sahip olmalıdır) ait `msDS-cloudExtensionAttribute1` özelliğini Power BI hizmeti kullanıcısının tam kullanıcı adına (örneğin, UPN) ayarlayın. Örneğin, Power BI hizmetinde `test@contoso.com` olarak oturum açıp bu kullanıcıyı `test@LOCALDOMAIN.COM` gibi SSO izinleri olan yerel bir Active Directory kullanıcısına eşlemek istiyorsanız, `test@LOCALDOMAIN.COM` adlı kullanıcının `msDS-cloudExtensionAttribute1` özniteliğini `test@contoso.com` olarak ayarlayın.
 
-`msDS-cloudExtensionAttribute1` özelliğini, Active Directory Kullanıcıları ve Bilgisayarları Microsoft Yönetim Konsolu (MMC) ek bileşenini kullanarak ayarlayabilirsiniz.
-
-1. Bir MMC ek bileşeni olan Active Directory Kullanıcıları ve Bilgisayarları'nı etki alanı yöneticisi olarak başlatın.
-
-1. Etki alanına sağ tıklayın, Bul’u seçin ve eşlemek istediğiniz yerel Active Directory kullanıcısının hesap adını yazın.
-
-1. **Öznitelik Düzenleyicisi** sekmesini seçin.
-
-    `msDS-cloudExtensionAttribute1` özelliğini bulun ve çift tıklayın. Değeri, Power BI Hizmetinde oturum açmak için kullandığınız kullanıcının tam kullanıcı adı olarak ayarlayın.
-
-1. **Tamam**'ı seçin.
-
-    ![Dize Öznitelik Düzenleyicisi iletişim kutusu ekran görüntüsü](media/service-gateway-sso-kerberos/edit-attribute.png)
-
-1. **Apply** (Uygula) seçeneğini belirleyin. **Değer** sütununda doğru değerin ayarlandığından emin olun.
+    `msDS-cloudExtensionAttribute1` özelliğini, Active Directory Kullanıcıları ve Bilgisayarları Microsoft Yönetim Konsolu (MMC) ek bileşenini kullanarak ayarlayabilirsiniz:
+    
+    1. Active Directory Kullanıcıları ve Bilgisayarları'nı etki alanı yöneticisi olarak başlatın.
+    
+    1. Etki alanına sağ tıklayın, Bul’u seçin ve eşlemek istediğiniz yerel Active Directory kullanıcısının hesap adını yazın.
+    
+    1. **Öznitelik Düzenleyicisi** sekmesini seçin.
+    
+        `msDS-cloudExtensionAttribute1` özelliğini bulun ve çift tıklayın. Değeri, Power BI Hizmetinde oturum açmak için kullandığınız kullanıcının tam kullanıcı adı (örneğin, UPN) olarak ayarlayın.
+    
+    1. **Tamam**'ı seçin.
+    
+        ![Dize Öznitelik Düzenleyicisi iletişim kutusu ekran görüntüsü](media/service-gateway-sso-kerberos/edit-attribute.png)
+    
+    1. **Apply** (Uygula) seçeneğini belirleyin. **Değer** sütununda doğru değerin ayarlandığından emin olun.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>Veri kaynağına özgü yapılandırma adımlarını tamamlayın
 
@@ -211,19 +217,19 @@ SAP HANA ve SAP BW, ağ geçidi aracılığıyla bu veri kaynaklarına yönelik 
 
 ## <a name="run-a-power-bi-report"></a>Bir Power BI raporunu çalıştırma
 
-Tüm yapılandırma adımları tamamlandıktan sonra, SSO için kullanacağınız veri kaynağını yapılandırmak üzere Power BI'daki **Ağ Geçidini Yönet** sayfasını kullanabilirsiniz. Birden fazla ağ geçidiniz varsa, Kerberos SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Daha sonra **Gelişmiş Ayarlar** altından, "DirectQuery sorguları için Kerberos üzerinden SSO kullanın" kutusunun işaretlendiğinden emin olun.
+Tüm yapılandırma adımları tamamlandıktan sonra, SSO için kullanacağınız veri kaynağını yapılandırmak üzere Power BI'daki **Ağ Geçidini Yönet** sayfasını kullanabilirsiniz. Birden fazla ağ geçidiniz varsa, Kerberos SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Daha sonra **Gelişmiş Ayarlar** altından, **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** kutusunun işaretlendiğinden emin olun.
 
 ![Gelişmiş ayarlar seçeneği ekran görüntüsü](media/service-gateway-sso-kerberos/advanced-settings.png)
 
  Power BI Desktop’tan **DirectQuery tabanlı** bir rapor yayımlayın. Bu rapor, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısına eşlenmiş kullanıcı için erişilebilir olan verileri kullanmalıdır. Yenileme bu şekilde çalıştığı için içeri aktarma yerine DirectQuery kullanmanız gerekir. İçeri aktarma tabanlı raporlarının yenilenmesi esnasında, veri kaynağını oluştururken **Kullanıcı Adı** ve **Parola** alanlarına girdiğiniz kimlik bilgileri ağ geçidi tarafından kullanılır. Farklı bir deyişle, Kerberos SSO **kullanılmaz**. Ayrıca, birden fazla ağ geçidiniz varsa, yayımlarken SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Power BI hizmetinde artık raporu yenileme veya yayımlanan veri kümesini temel alarak yeni bir rapor oluşturma imkanınızın gerekir.
 
-Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak Kerberos ile farklı yapılandırmalar da söz konusu olabilir. Rapor hala yüklenmiyorsa sorunun daha ayrıntılı bir şekilde incelenmesi için etki alanı yöneticinizle iletişime geçin. Veri kaynağınız SAP BW ise [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) ve [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) için veri kaynağına özgü yapılandırma sayfalarının sorun giderme bölümlerine de bakabilirsiniz.
+Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak Kerberos ile farklı yapılandırmalar da söz konusu olabilir. Rapor hala yüklenmiyorsa sorunun daha ayrıntılı bir şekilde incelenmesi için etki alanı yöneticinizle iletişime geçin. Veri kaynağınız SAP BW ise, hangi SNC kitaplığını seçtiğinize bağlı olarak [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) ve [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) için veri kaynağına özgü yapılandırma sayfalarının sorun giderme bölümlerine de bakabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 **Şirket içi veri ağ geçidi** ve **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-getting-started)
+* [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)

@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325749"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968637"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 
-Power BI Rapor Sunucusu için Power BI raporları oluşturmak istiyorsanız Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirip yüklemeniz gerekir. Bu, Power BI hizmetiyle kullanılan Power BI Desktop'tan farklı bir sürümdür. Örneğin, Power BI hizmetine yönelik Power BI Desktop sürümü, yayımlanana kadar Power BI Rapor Sunucusu sürümünde yer almayan önizleme özellikleri içerir. Bu sürümün kullanılması, rapor sunucusunun; raporların ve modelin bilinen bir sürümüyle etkileşim kurabilmesini sağlar. 
+Power BI Rapor Sunucusu için Power BI raporları oluşturmak istiyorsanız Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü indirip yüklemeniz gerekir. Bu, Power BI hizmetiyle kullanılan Power BI Desktop'tan farklı bir sürümdür. Örneğin, Power BI hizmetine yönelik Power BI Desktop sürümü, genel kullanıma sunulana kadar Power BI Rapor Sunucusu sürümünde yer almayan önizleme özellikleri içerir. Bu sürümün kullanılması, rapor sunucusunun; raporların ve modelin bilinen bir sürümüyle etkileşim kurabilmesini sağlar. 
 
 İyi haber şu: Power BI Desktop ile Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamaları aynı bilgisayarda yan yana yüklü olabilir.
 
@@ -32,7 +32,7 @@ Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en 
 
     Veya [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) giriş sayfasına giderek **Gelişmiş indirme seçenekleri**’ni belirleyin.
 
-2. İndirme Merkezi sayfasında, **İndir** seçeneğini belirleyin.
+2. İndirme Merkezi sayfasında bir dil seçin, ardından **İndir** seçeneğini belirtin.
 
 3. Bilgisayarınıza bağlı olarak, şu seçeneklerden birini belirleyin: 
 
@@ -65,7 +65,11 @@ Power BI Rapor Sunucusu’nda Power BI raporunu düzenlediğinizde veya web port
 
 Power BI mobil uygulamalarında ve Power BI hizmetinde yer alan Power BI Rapor Sunucusu Power BI raporları (http://app.powerbi.com), birkaç farklı özellik dışında hemen hemen aynı görevi görür.
 
-### <a name="in-a-browser"></a>Tarayıcıda
+### <a name="selecting-a-language"></a>Dil seçme
+
+Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop'ta uygulamayı yüklerken dili seçersiniz. Bunu daha sonra değiştiremezsiniz ama başka dildeki bir sürümü yükleyebilirsiniz.
+
+### <a name="report-visuals-in-a-browser"></a>Tarayıcıda rapor görselleri
 
 Power BI Rapor Sunucusu raporları özel görseller de dahil olmak üzere neredeyse tüm görselleştirmeleri destekler. Power BI Rapor Sunucusu raporları aşağıdakileri desteklemez:
 
@@ -74,7 +78,7 @@ Power BI Rapor Sunucusu raporları özel görseller de dahil olmak üzere nerede
 * İçerik haritaları
 * Power BI Desktop önizleme özellikleri
 
-### <a name="in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporlar
 
 Power BI Rapor Sunucusu raporları, [Power BI mobil uygulamalarında](../consumer/mobile/mobile-apps-for-mobile-devices.md) aşağıdakiler de dahil olmak üzere tüm temel işlevleri destekler:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904026"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715519"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma
 
@@ -28,7 +28,7 @@ Farkı aşağıda anlatılmıştır. Yeni çalışma alanlarında şunları yapa
 - Çalışma alanında daha esnek bir izin yönetimi için daha ayrıntılı çalışma alanı rolleri kullanabilirsiniz.
 
 > [!NOTE]
-> Bir çalışma alanındaki içeriğe göz atan Power BI Pro kullanıcıları için satır düzeyi güvenlik (RLS) uygulamak istiyorsanız [klasik çalışma alanlarını](service-create-workspaces.md) kullanmaya devam edin. **Üyeler sadece Power BI içeriğini görüntüleyebilir** seçeneğini belirleyin. Alternatif olarak söz konusu kullanıcılara Power BI uygulamasını dağıtabilir ve içerik dağıtmak için paylaşım özelliğini kullanabilirsiniz. Yeni Görüntüleyici Rolü, bu senaryoyu daha sonra yeni çalışma alanı deneyimi çalışma alanlarında mümkün hale getirecek.
+> Çalışma alanındaki içeriğe göz atan Power BI Pro kullanıcılarında satır düzeyi güvenliği (RLS) zorunlu tutmak için kullanıcılara Görüntüleyici Rolü atayın.
 
 Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-workspaces.md) makalesine bakın.
 
@@ -42,7 +42,7 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
    
      ![Yeni çalışma alanı deneyimi](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **Klasik sürüme geri al**’ı seçerseniz, bir Office 365 grubunu temel alan bir çalışma alanı oluşturursunuz. **Üyeler sadece Power BI içeriğini görüntüleyebilir** seçeneğinin çalışma alanı üyeleri için satır düzeyi güvenlik (RLS) uygulamasını istiyorsanız bu seçeneği kullanın.
+     **Klasik sürüme geri al**’ı seçerseniz, [Office 365 grubunu temel alan bir çalışma alanı](service-create-workspaces.md) oluşturursunuz. 
 
 2. Çalışma alanına bir ad verin. Ad kullanılamıyorsa, düzenleyerek benzersiz bir ad haline getirin.
    

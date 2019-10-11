@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730181"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715391"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop'taki ölçüler
 
 **Power BI Desktop**, birkaç tıklamayla verilerinizle ilgili öngörüler oluşturmanıza yardımcı olur. Ancak bazen bu veriler en önemli soruların yanıtlarına ulaşmak için ihtiyacınız olan her şeyi sunmaz. Ölçüler bu noktada size yardımcı olabilir.
 
-Ölçüler en sık kullanılan veri çözümlemelerinde kullanılır. Toplama, ortalama, en küçük, en büyük ve sayma gibi basit özetlemeler, [Özetleme ve kategori](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) videosunda açıklandığı gibi Fields Well aracılığıyla ayarlanabilir. DAX formülü kullanarak kendiniz daha gelişmiş hesaplamalar oluşturabilirsiniz. Ölçülerin hesaplanan sonuçları raporunuzdaki etkileşime göre sürekli değişerek, güncel verileri hızlı ve dinamik bir şekilde keşfetmenizi sağlar. Şimdi bu yöntemlere daha yakından bakalım.
+Ölçüler en sık kullanılan veri çözümlemelerinde kullanılır. Toplama, ortalama, en küçük, en büyük ve sayma gibi basit özetlemeler Fields Well aracılığıyla ayarlanabilir. Ölçülerin hesaplanan sonuçları raporunuzdaki etkileşime göre sürekli değişerek, güncel verileri hızlı ve dinamik bir şekilde keşfetmenizi sağlar. Şimdi bu yöntemlere daha yakından bakalım. Daha fazla bilgi için bkz. [Hesaplanan ölçümler oluşturma](/learn/modules/model-data-power-bi/4b-create-calculated-measures).
 
 ## <a name="understanding-measures"></a>Ölçüleri anlama
 

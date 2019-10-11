@@ -4,30 +4,38 @@ description: 'Power BI kavramları ve terminolojisi: görselleştirmeler, görse
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/02/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30b588b6b38db100181cd1b1124f37a53f05d100
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 50d5591edf51e61f1e9d55e1a0ae04d25cd3ca9d
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67161099"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943106"
 ---
-# <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki Görsellerle etkileşimli çalışma
+# <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
 
 En basit anlamıyla ***görselleştirme*** (veya *görsel*), Power BI *tasarımcılarının* raporlardaki ve veri kümelerindeki verileri kullanarak oluşturdukları bir grafik türüdür. 
+
+Görseller panolarda, raporlarda bulunur ve Power BI Soru-Cevap kullanılarak hemen oluşturulabilir. Tasarımcı raporda bir görsel oluşturduğunda bu görseli panoya *sabitleyebilir*. [Panodaki görsel *kutucuk* olarak adlandırılır](end-user-tiles.md). Bu panoda sekiz kutucuk vardır. 
+
+![Kutucuklar içeren pano](media/end-user-visualizations/power-bi-dashboard.png)
 
 > [!TIP]
 > Buradaki ayrıntılı bilgilere geçmeden önce genel bakış niteliğindeki [*Tüketiciler* için Power BI temel kavramları](end-user-basic-concepts.md) sayfasını incelemenizi öneririz.
 
 ## <a name="what-can-i-do-with-visuals"></a>Görseller ile ne yapabilirim?
 
-Görseller, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüketicilerle* paylaşılır. Tüketici olarak içgörülere ulaşmak ve verilere dayalı iş kararları almak üzere görsellerle etkileşim kurmak için birçok seçeneğiniz vardır. Bu seçeneklerin tümü aşağıdaki tabloda, adım adım yönergelerin bağlantılarıyla birlikte listelenmiştir.
+Görseller, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüketicilerle* paylaşılır. Tüketici olarak içgörülere ulaşmak ve verilere dayalı iş kararları almak üzere görsellerle etkileşim kurmak için birçok seçeneğiniz vardır. Bu seçeneklerin çoğu aşağıdaki tabloda, adım adım yönergelerin bağlantılarıyla birlikte listelenmiştir.
+
+Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özelliklerini görme veya kullanma becerinizi devre dışı bırakabilir. Ayrıca bu özelliklerden bazıları yalnızca belirli görsellerde çalışır.  Sorularınız varsa yöneticinize ya da rapor veya panonun sahibine başvurun. Sahibi bulmak için pano veya rapor açılan listesini seçin. 
+
+![Sahibi gösteren başlık açılan listesi](media/end-user-visualizations/power-bi-owner.png)
+
 
 > [!IMPORTANT]
 > Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu bir görselle yanıtlar. Soru-Cevap, tüketicilerin kendi görsellerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görseller kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
@@ -37,21 +45,25 @@ Görseller, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüket
 |Görev  |Panoda  |Raporda  | Soru-Cevap özelliğinde
 |---------|---------|---------|--------|
 |[Görsele kendi kullanımınız için açıklamalar ekleyin veya iş arkadaşlarınızla görsel hakkında bir konuşma başlatın](end-user-comment.md).     |  evet       |   evet      |  hayır  |
-|[Görselin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  yok |
-|[Görseli Soru-Cevap özelliğinde açın ve keşfedin (görsel Soru-Cevap ile oluşturulmuşsa)](end-user-q-and-a.md)     |   evet      |   yok      |  yok  |
-|[Power BI'ın görsel verilerindeki ilgi çekici olguları veya eğilimleri aramasını isteyin](end-user-insights.md).  Bunlar *otomatik içgörüler* olarak adlandırılır.     |    evet     |   evet      | hayır   |
+|[Görselin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  hayır |
+|[Görseli etkileyen filtrelerin ve dilimleyicilerin listesini görüntüleyin](end-user-report-filter.md).     |    hayır     |   evet      |  evet |
+|[Görseli Soru-Cevap özelliğinde açın ve keşfedin (*tasarımcı* görsel Soru-Cevap ile oluşturmuşsa)](end-user-q-and-a.md).     |   evet      |   yok      |  yok  |
+|[Soru-Cevap'ta bir görsel oluşturun (araştırma için, bu görseli kaydedemezsiniz)](end-user-q-and-a.md).     |   evet      |   Tasarımcı rapora Soru-Cevap eklediyse      |  evet  |
+|[Power BI'ın görsel verilerindeki ilgi çekici olguları veya eğilimleri aramasını isteyin](end-user-insights.md).  Otomatik olarak oluşturulan bu görseller *içgörü* olarak adlandırılır.     |    evet     |  görsel başına değil raporun tamamı için       | hayır   |
 |[*Odak* modunu kullanarak bir kerede tek bir görseli görüntüleyin](end-user-focus.md).     | evet        |   evet      | yok  |
-|Görselin en son yenilenme zamanını bulun.     |  evet       |    evet     | yok  |
-|[*Tam ekran* modunu kullanarak tek seferde kenarlıklar veya gezinti çubukları olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | hayır  |
+|[Görselin en son yenilenme zamanını bulun](end-user-fresh.md).     |  evet       |    evet     | yok  |
+|[*Tam ekran* veya *odak* modunu kullanarak tek seferde kenarlıklar veya gezinti çubukları olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | varsayılan olarak  |
 |[Yazdırın](end-user-print.md).     |  evet       |   evet      | hayır  |
-|[Görsel filtreleri ekleyip var olanları düzenleyerek görselin ayrıntılarına inin.](end-user-report-filter.md)     |    hayır     |   evet      | evet  |
+|[Görsel filtreleri ekleyip var olanları düzenleyerek görselin ayrıntılarına inin.](end-user-report-filter.md)     |    hayır     |   evet      | hayır  |
 |Ek ayrıntıları ve araç ipuçlarını görmek için bir görselin üzerine gelin.     |    evet     |   evet      | evet  |
 |[Sayfadaki diğer görselleri birlikte filtreleyin ve vurgulayın.](end-user-interactions.md)    |   hayır      |   evet      | yok  |
 |[Görseli oluşturmak için kullanılan verileri gösterin](end-user-show-data.md).     |  hayır       |   evet      | hayır  |
 | [Görselin sıralama ölçütünü değiştirin](end-user-change-sort.md). | hayır  | evet  | sorunun ifade biçimi değiştirilerek sıralama değiştirilebilir  |
 | Görsele spot ışığı ekleyin. | hayır  | evet  |  hayır |
-| Analiz edin (görselin türüne bağlı olarak). | hayır  | evet  | hayır  |
 | [Excel'e dışarı aktarın.](end-user-export.md) | evet | evet | hayır|
+| Ayarladığınız eşiği aşan değerlerin size bildirilmesi için [uyarı oluşturun](end-user-alerts.md).  | evet  | hayır  | hayır |
+| [Sayfadaki diğer görselleri çapraz filtreleyin ve çapraz vurgulayın](end-user-report-filter.md).  | hayır      | evet  | hayır  |
+| [Hiyerarşisi olan görseli detaylandırın](end-user-drill.md).  | hayır  | evet   | hayır |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Tüketiciler için temel kavramlar](end-user-basic-concepts.md) sayfasına dönün    

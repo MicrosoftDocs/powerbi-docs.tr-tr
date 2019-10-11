@@ -1,0 +1,65 @@
+- name: Power BI yönetimi
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Power BI yönetimi nedir?
+          href: ../service-admin-administering-power-bi-in-your-organization.md
+    - name: Kavramlar
+      expanded: true
+      items:
+        - name: Office 365'teki yönetim rolü
+          href: ../service-admin-role.md
+        - name: Sık sorulan sorular (SSS)
+          href: ../service-admin-faq.md
+        - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
+          href: ../service-admin-failover.md
+    - name: Nasıl yapılır?
+      items:
+        - name: Lisanslama ve kaydolma
+          items:
+            - name: Kuruluşunuz için lisanslama
+              href: ../service-admin-licensing-organization.md
+            - name: Power BI Pro satın alma
+              href: ../service-admin-purchasing-power-bi-pro.md
+            - name: Office 365 Deneme sürümüne kaydolma
+              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: Bir Office 365 iş ortağı ile Power BI ekleme
+              href: ../service-admin-syndication-partner.md
+        - name: Yönetici portalını kullanma
+          href: ../service-admin-portal.md
+        - name: Kiracım nerede bulunur?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Oturum açan kullanıcıları bulma
+          href: ../service-admin-access-usage.md
+        - name: Power BI uygulamasını denetleme
+          href: ../service-admin-auditing.md
+        - name: Hizmet durumunu izleme
+          href: ../service-admin-health.md
+        - name: Power BI hesabınızı kapatma
+          href: ../service-admin-closing-your-account.md
+        - name: Power BI ve ExpressRoute
+          href: ../service-admin-power-bi-expressroute.md
+        - name: Azure AD B2B hizmetini kullanma
+          href: ../service-admin-azure-ad-b2b.md
+        - name: Power BI ile satır düzeyi güvenlik
+          href: ../service-admin-rls.md
+        - name: Power BI arşivlenmiş çalışma alanı
+          href: ../service-admin-power-bi-archived-workspace.md
+        - name: Intune ile mobil uygulamaları yapılandırma
+          href: ../service-admin-mobile-intune.md
+    - name: Başvuru
+      items:
+        - name: 'PowerShell, REST API’ler ve .NET SDK'
+          href: ../service-admin-reference.md
+        - name: PowerShell için Power BI cmdlet’leri
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: Hizmet URL’si başvurusu
+          href: ../power-bi-whitelist-urls.md
+    - name: Kaynaklar
+      items:
+        - name: Power BI yönetim ve dağıtım yaklaşımları
+          href: ../service-admin-governance.md
+        - name: Power BI güvenliği
+          href: ../service-admin-power-bi-security.md

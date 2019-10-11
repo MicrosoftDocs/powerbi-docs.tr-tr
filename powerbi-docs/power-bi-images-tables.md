@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ebbc277f2a269ebaf2d1bdb99f1aa800576b466
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936505"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715542"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Bir tablo, matris veya dilimleyicideki görüntüleri raporda görüntüleme
 
@@ -44,7 +44,7 @@ Raporlara görüntüler eklemek, raporlarınızı geliştirmenin iyi bir yoludur
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Rapora statik şekiller, metin kutuları ve görüntüler ekleme](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=11)
+[Sayfa düzeni ve biçimlendirme](/learn/modules/visuals-in-power-bi/12-formatting)
 
 [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 

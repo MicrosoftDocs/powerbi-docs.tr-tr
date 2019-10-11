@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Yöneticiler için Power BI
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Yöneticiler için Power BI
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245662"
+landingContent:
+- title: Yöneticiler için Power BI hakkında
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI yönetimi nedir?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Office 365'teki yönetim rolü
+      url: ../service-admin-role.md
+- title: Başlangıç
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Kuruluşunuz için lisanslama
+      url: ../service-admin-licensing-organization.md
+    - text: Yönetici portalını kullanma
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Pro satın alma
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Office 365 Deneme sürümüne kaydolma
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Bir Office 365 iş ortağı ile Power BI ekleme
+      url: ../service-admin-syndication-partner.md
+- title: Kiracılar
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Kiracım nerede bulunur?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Oturum açan kullanıcıları bulma
+      url: ../service-admin-access-usage.md
+    - text: Power BI uygulamasını denetleme
+      url: ../service-admin-auditing.md
+    - text: Hizmet durumunu izleme
+      url: ../service-admin-health.md
+    - text: Power BI hesabınızı kapatma
+      url: ../service-admin-closing-your-account.md

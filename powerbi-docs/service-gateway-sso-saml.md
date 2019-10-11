@@ -10,22 +10,22 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 62bb2f1e334d6bb125a2fffc49cd62611080ef29
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100410"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968939"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI'dan şirket içi veri kaynaklarına SSO ile erişmek için ağ geçidinizde Security Assertion Markup Language (SAML) protokolünü kullanma
 
-Sorunsuz çoklu oturum açma deneyimi için [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) protokolünü kullanın. SSO'yu etkinleştirmek, Power BI raporlarının ve panolarının şirket içi kaynaklardan alınan verileri yenilemesini kolaylaştırır.
+Sorunsuz çoklu oturum açma deneyimi için [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) protokolünü kullanın. SSO'yu etkinleştirmek, Power BI raporlarının ve panolarının şirket içi kaynaklardan alınan verileri yenilemesini kolaylaştırırken bu kaynaklarda yapılandırılmış kullanıcı düzeyi izinlerine de uyar.
 
 ## <a name="supported-data-sources"></a>Desteklenen veri kaynakları
 
 Şu anda SAML ile SAP HANA desteği sunuyoruz. SAML kullanarak SAP HANA için çoklu oturum açma ayarlarını ve yapılandırmasını gerçekleştirme hakkında daha fazla bilgi için SAP HANA belgelerindeki [SAML SSO for BI Platform to HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) (BI Platformundan HANA bağlantısı yapmak için SAML SSO) konusuna bakın.
 
-[Kerberos](service-gateway-sso-kerberos.md) ile ek veri kaynakları için destek sunuyoruz.
+[Kerberos](service-gateway-sso-kerberos.md) ile ek veri kaynakları (HANA dahil) için destek sunuyoruz.
 
 HANA için şifrelemenin bir SAML SSO bağlantısı kurulmadan önce etkinleştirilmesinin **önemle** önerildiğine dikkat edin (yani, HANA sunucunuzu şifreli bağlantıları kabul etmek için yapılandırmanız ve ayrıca ağ geçidini HANA sunucunuzla iletişim kurarken şifreleme kullanmak için yapılandırmanız gerekir). HANA ODBC sürücüsü varsayılan olarak SAML onaylamalarını **şifreleyemez**. Şifreleme etkinleştirilmediğinde, imzalı SAML onaylaması Ağ Geçidinden HANA sunucusuna “açıktan” gönderilir ve üçüncü taraflarca durdurulup yeniden kullanılması mümkündür. OpenSSL kitaplığını kullanarak HANA şifrelemesini etkinleştirme hakkında yönergeler için bkz. [SAP HANA için şifrelemeyi etkinleştirme](/power-bi/desktop-sap-hana-encryption).
 
@@ -43,7 +43,7 @@ Aşağıdaki adımlarda, HANA sunucusu tarafından güvenilen bir Kök CA ile a�
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
 
-    Kök CA’nın sertifikasının düzgün bir şekilde güvenli hale getirildiğinden emin olun. Bu, üçüncü tarafların eline geçerse HANA sunucunuza yetkisiz erişim sağlamak için kullanılabilir. 
+    Kök CA’nın özel anahtarının düzgün bir şekilde güvenli hale getirildiğinden emin olun. Bu, üçüncü tarafların eline geçerse HANA sunucunuza yetkisiz erişim sağlamak için kullanılabilir.
 
     HANA sunucusunun oluşturduğunuz Kök CA tarafından imzalanan sertifikalara güvenmesi için sertifikayı (örneğin, CA_Cert.pem) HANA sunucusunun Güven Deposuna ekleyin. HANA sunucunuzun Güven Deposunun konumunu **ssltruststore** yapılandırma ayarını inceleyerek öğrenebilirsiniz. OpenSSL’yi yapılandırmayı kapsayan SAP belgelerini takip ettiyseniz, HANA sunucunuz zaten yeniden kullanabileceğiniz bir Kök CA’ya güveniyor olabilir. Ayrıntılar için bkz. [SAP HANA Studio’dan SAP HANA Sunucusuna Open SSL yapılandırma](https://archive.sap.com/documents/docs/DOC-39571). SAML SSO’yu etkinleştirmek istediğiniz birden çok HANA sunucusu varsa, sunucuların her birinin bu Kök CA’ya güvendiğinden emin olun.
 
@@ -61,7 +61,7 @@ Aşağıdaki adımlarda, HANA sunucusu tarafından güvenilen bir Kök CA ile a�
 
 Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seçeneğine bakın). Şimdi, yeni bir SAML Kimlik Sağlayıcısı oluşturmak için HANA Studio’da IdP’nizin sertifikasını içeri aktarın.
 
-1. SAP HANA Studio'da SAP HANA sunucunuza sağ tıklayıp **Güvenlik** > **Güvenlik Konsolunu Aç** > **SAML Kimlik Sağlayıcısı** > **OpenSSL Şifreleme Kitaplığı** yolunu izleyin.
+1. SAP HANA Studio'da SAP HANA sunucunuza sağ tıklayıp **Güvenlik** &gt; **Güvenlik Konsolunu Aç** &gt; **SAML Kimlik Sağlayıcısı** &gt; **OpenSSL Şifreleme Kitaplığı** yolunu izleyin.
 
     ![Kimlik sağlayıcıları](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -77,13 +77,13 @@ Sonuçta elde edilen IdP sertifikası bir yıl boyunca geçerli olur (-days seç
 
     ![SAML yapılandırması](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 2\. adımda oluşturduğunuz kimlik sağlayıcısını seçin. **Dış Kimlik** için, Power BI kullanıcısının UPN’sini (bu, genellikle kullanıcının Power BI’da oturum açmak için kullandığı e-posta adresi olur) girip **Ekle**’yi seçin. Ağ geçidinizi *ADUserNameReplacementProperty* yapılandırma seçeneğini kullanması için yapılandırdıysanız Power BI kullanıcısının asıl UPN’sinin yerini alacak değeri girmeniz gerekir. Örneğin, *ADUserNameReplacementProperty* öğesini **SAMAccountName** olarak ayarlarsanız, kullanıcının **SAMAccountName** değerini girmeniz gerekir.
+1. 2\. adımda oluşturduğunuz kimlik sağlayıcısını seçin. **Dış Kimlik** için, Power BI kullanıcısının UPN’sini (örneğin, kullanıcının Power BI’da oturum açmak için kullandığı e-posta adresi) girip **Ekle**’yi seçin. Ağ geçidinizi *ADUserNameReplacementProperty* yapılandırma seçeneğini kullanması için yapılandırdıysanız Power BI kullanıcısının asıl UPN’sinin yerini alacak değeri girmeniz gerekir. Örneğin, *ADUserNameReplacementProperty* öğesini **SAMAccountName** olarak ayarlarsanız, kullanıcının **SAMAccountName** değerini girmeniz gerekir.
 
     ![Kimlik sağlayıcısını seçme](media/service-gateway-sso-saml/select-identity-provider.png)
 
-Ağ geçidinin sertifikasını ve kimliği yapılandırdıktan sonra sertifikayı pfx biçimine dönüştürüp ağ geçidi makinesini sertifikayı kullanacak şekilde yapılandırın.
+Ağ geçidinin sertifikasını ve kimliği yapılandırdıktan sonra sertifikayı pfx biçimine dönüştürüp ağ geçidini sertifikayı kullanacak şekilde yapılandırın.
 
-1. Sertifikayı pfx biçimine dönüştürmek için aşağıdaki komutu çalıştırın. Bu komutun pfx dosyasının parolası olarak "root" değerini ayarladığını unutmayın.
+1. Sertifikayı pfx biçimine dönüştürmek için aşağıdaki komutu çalıştırın. Bu komutun sonuçta elde edilen .pfx dosyasını samlcert.pfx olarak adlandırdığına ve parolasını "root" olarak ayarladığına dikkat edin.
 
     ```
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
@@ -91,11 +91,11 @@ Ağ geçidinin sertifikasını ve kimliği yapılandırdıktan sonra sertifikay�
 
 1. pfx dosyasını ağ geçidi makinesine kopyalayın:
 
-    1. samltest.pfx dosyasına çift tıklayıp **Yerel Makine** > **İleri**'yi seçin.
+    1. Samltest.pfx dosyasına çift tıklayıp **Yerel Makine** &gt; **İleri**'yi seçin.
 
     1. Parolayı girin ve **İleri**'yi seçin.
 
-    1. **Tüm sertifikaları aşağıdaki depolama alanına yerleştir**'i seçip **Gözat** > **Kişisel** > **Tamam** yolunu izleyin.
+    1. **Tüm sertifikaları aşağıdaki depolama alanına yerleştir**'i seçip **Gözat** &gt; **Kişisel** &gt; **Tamam** yolunu izleyin.
 
     1. **İleri**'yi ve ardından **Son**'u seçin.
 
@@ -111,13 +111,13 @@ Ağ geçidinin sertifikasını ve kimliği yapılandırdıktan sonra sertifikay�
 
         ![Ek bileşen ekle](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. **Sertifikalar** > **Ekle**'yi ve ardından **Bilgisayar hesabı** > **İleri**'yi seçin.
+    1. **Sertifikalar** &gt; **Ekle**'yi ve ardından **Bilgisayar hesabı** &gt; **İleri**'yi seçin.
 
-    1. **Yerel Bilgisayar** > **Son** > **Tamam**'ı seçin.
+    1. **Yerel Bilgisayar** &gt; **Son** &gt; **Tamam**'ı seçin.
 
-    1. **Sertifikalar** > **Kişisel** > **Sertifikalar**'ı genişletin ve sertifikayı bulun.
+    1. **Sertifikalar** &gt; **Kişisel** &gt; **Sertifikalar**'ı genişletin ve sertifikayı bulun.
 
-    1. Sertifikaya sağ tıklayın ve **Tüm Görevler** > **Özel Anahtarları Yönet** yolunu izleyin.
+    1. Sertifikaya sağ tıklayın ve **Tüm Görevler** &gt; **Özel Anahtarları Yönet** yolunu izleyin.
 
         ![Özel anahtarları yönetme](media/service-gateway-sso-saml/manage-private-keys.png)
 
@@ -135,9 +135,9 @@ Son olarak aşağıdaki adımları izleyerek sertifika parmak izini ağ geçidi 
 
 1. Oluşturduğunuz sertifikanın parmak izini kopyalayın.
 
-1. Varsayılan olarak C:\Program Files\On-premises data gateway olan Ağ geçidi dizinine gidin.
+1. Varsayılan olarak *C:\Program Files\On-premises data gateway* olan Ağ geçidi dizinine gidin.
 
-1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config dosyasını açın ve *SapHanaSAMLCertThumbprint* bölümünü bulun. Kopyaladığınız parmak izini yapıştırın.
+1. **PowerBI.DataMovement.Pipeline.GatewayCore.dll.config** dosyasını açın ve *SapHanaSAMLCertThumbprint* bölümünü bulun. Kopyaladığınız parmak izini yapıştırın.
 
 1. Ağ geçidi hizmetini yeniden başlatın.
 
@@ -149,7 +149,7 @@ Artık Power BI'daki **Ağ Geçidini Yönet** sayfasından SAP HANA veri kaynağ
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-SSO'yu yapılandırdıktan sonra Power BI portalında şu hatayı görebilirsiniz: "Sağlanan kimlik bilgileri SapHana kaynağı için kullanılamaz." Bu hata SAML kimlik bilgilerinin SAP HANA tarafından reddedildiğini gösterir.
+SSO'yu yapılandırdıktan sonra Power BI portalında şu hatayı görebilirsiniz: *"Sağlanan kimlik bilgileri SapHana kaynağı için kullanılamaz."* Bu hata SAML kimlik bilgilerinin SAP HANA tarafından reddedildiğini gösterir.
 
 Sunucu tarafı kimlik doğrulama izlemeleri SAP HANA'da kimlik bilgisi sorunlarını giderme hakkında ayrıntılı bilgi sağlar. SAP HANA sunucunuzda izlemeyi yapılandırmak için bu adımları izleyin.
 

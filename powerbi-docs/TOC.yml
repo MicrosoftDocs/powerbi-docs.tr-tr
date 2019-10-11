@@ -502,6 +502,8 @@
             - name: Veri kümelerini çalışma alanları arasında kullanma
               href: service-datasets-across-workspaces.md
             - name: Veri kümelerini paylaşma (Önizleme)
+              href: service-datasets-share.md
+            - name: Paylaşılan veri kümeleri için oluşturma izni
               href: service-datasets-build-permissions.md
             - name: Veri kümelerine dayalı raporlar oluşturma
               href: service-datasets-discover-across-workspaces.md
@@ -757,6 +759,8 @@
           items:
             - name: Power BI'daki içerikleri yeniden adlandırma
               href: service-rename.md
+            - name: Öğelerin ilgili kişilerini ayarlama
+              href: service-item-contact.md
             - name: ABD Kamu kuruluşunuzu kaydetme
               href: service-govus-signup.md
             - name: Power BI'da neredeyse her şeyi silme
@@ -773,8 +777,6 @@
                   href: service-connect-to-appfigures.md
                 - name: Application Insights
                   href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
                 - name: Azure Denetim Günlükleri
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
@@ -799,8 +801,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
                 - name: Microsoft Dynamics AX
                   href: service-connect-to-microsoft-dynamics-ax.md
                 - name: Microsoft Dynamics CRM
@@ -809,14 +809,10 @@
                   href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
@@ -843,8 +839,6 @@
                   href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
                 - name: Windows Geliştirme Merkezi
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
@@ -967,136 +961,6 @@
           href: report-builder-url-pass-parameters.md
         - name: Sayfalandırılmış rapor yayımlama
           href: paginated-reports-save-to-power-bi-service.md
-    - name: Özel Görseller
-      items:
-        - name: Genel Bakış
-          items:
-            - name: Power BI’daki görseller
-              href: power-bi-custom-visuals.md
-        - name: Öğreticiler
-          items:
-            - name: Power BI görseli geliştirme
-              href: developer/custom-visual-develop-tutorial.md
-            - name: Biçimlendirme seçenekleri ekleme
-              href: developer/custom-visual-develop-tutorial-format-options.md
-            - name: Görsel projesi için birim testleri ekleme
-              href: developer/visuals/unit-tests-introduction.md
-        - name: Kavramlar
-          items:
-            - name: Power BI’da kuruluşlara yönelik görseller
-              href: power-bi-custom-visuals-organization.md
-            - name: Power BI görselleri için yönergeler
-              href: developer/guidelines-powerbi-visuals.md
-            - name: Görseller hakkında SSS
-              href: power-bi-custom-visuals-faq.md
-            - name: Özellikleri kullanma
-              href: developer/visuals/capabilities.md
-            - name: Veri görünümü eşlemeleri
-              href: developer/visuals/dataview-mappings.md
-            - name: Nesneler ve özellikler
-              href: developer/visuals/objects-properties.md
-            - name: Gelişmiş Düzenleme Modu
-              href: developer/visuals/advanced-edit-mode.md
-        - name: Nasıl yapılır?
-          items:
-            - name: Özel görseller için sertifika alma
-              href: power-bi-custom-visuals-certified.md
-            - name: AppSource'ta özel görsel yayımlama
-              href: developer/office-store.md
-            - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
-              href: desktop-r-powered-custom-visuals.md
-            - name: Görsellerin etkileşimleri
-              href: developer/visuals/visuals-interactions.md
-            - name: Görsellere yönelik araç ipuçları ekleme
-              href: developer/visuals/add-tooltips.md
-            - name: Analiz bölmesi ekleme
-              href: developer/visuals/analytics-pane.md
-            - name: Görselleri filtreleme
-              href: developer/visuals/filter-api.md
-            - name: Daha fazla veri getirme
-              href: developer/visuals/fetch-more-data.md
-            - name: Yer işaretleri desteği ekleme
-              href: developer/visuals/bookmarks-support.md
-            - name: Görsellerde verileri vurgulama
-              href: developer/visuals/highlight.md
-            - name: Yüksek Karşıtlıklı mod desteği ekleme
-              href: developer/visuals/high-contrast-support.md
-            - name: Eşitleme dilimleyicilerini etkinleştirme
-              href: developer/visuals/enable-sync-slicers.md
-            - name: Power BI görselleriyle ilgili sorunları giderme
-              href: power-bi-custom-visuals-troubleshoot.md
-        - name: Başvuru
-          items:
-            - name: Giriş sayfası
-              href: developer/visuals/landing-page.md
-            - name: URL’yi başlatma
-              href: developer/visuals/launch-url.md
-            - name: Olayları işleme
-              href: developer/visuals/event-service.md
-            - name: Sıralama
-              href: developer/visuals/sort-options.md
-        - name: Kaynaklar
-          items:
-            - name: Geliştirme Merkezi
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: Örnekler
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Özel Görseller Git Deposu
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: SSL sertifikası oluşturma
-              href: developer/visuals/create-ssl-certificate.md
-    - name: Otomasyon
-      items:
-        - name: Genel Bakış
-          items:
-            - name: Power BI API ile neler yapabilirim?
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: Öğreticiler
-          items:
-            - name: Bir veri kümesine veri gönderme
-              href: developer/walkthrough-push-data.md
-            - name: Kimlik doğrulaması erişim belirteci alma
-              href: developer/walkthrough-push-data-get-token.md
-            - name: Veri kümesi oluşturma
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: Satır eklemek için veri kümesi alma
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: Tabloya satır ekleme
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: Kavramlar
-          items:
-            - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: Verileri gönderme
-              items:
-                - name: Power BI REST API sınırlamaları
-                  href: developer/api-rest-api-limitations.md
-                - name: Veri kümesi özellikleri
-                  href: developer/api-dataset-properties.md
-                - name: Veri modeli sürümü oluşturma
-                  href: developer/api-data-model-versioning.md
-        - name: Nasıl yapılır?
-          items:
-            - name: Kimlik bilgilerini yapılandırma
-              href: developer/configure-credentials.md
-            - name: Kimlik bilgilerini şifreleme
-              href: developer/encrypt-credentials.md
-        - name: Başvuru
-          items:
-            - name: REST API'leri
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI Rest API başvurusu
-              href: developer/rest-api-reference.md
-            - name: Tam kod listesi
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: Kaynaklar
-          items:
-            - name: Geliştirme Merkezi
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git Deposu'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK İndirme
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Rapor Sunucusu
   items:
     - name: Genel Bakış
@@ -1267,69 +1131,6 @@
       items:
         - name: Aylık ağ geçidi güncelleştirmeleri
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Yönetim
-  items:
-    - name: Genel Bakış
-      items:
-        - name: Power BI yönetimi nedir?
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: Kavramlar
-      items:
-        - name: Office 365'teki yönetim rolü
-          href: service-admin-role.md
-        - name: Sık sorulan sorular (SSS)
-          href: service-admin-faq.md
-        - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
-          href: service-admin-failover.md
-    - name: Nasıl yapılır?
-      items:
-        - name: Lisanslama ve kaydolma
-          items:
-            - name: Kuruluşunuz için lisanslama
-              href: service-admin-licensing-organization.md
-            - name: Power BI Pro satın alma
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 Deneme sürümüne kaydolma
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Bir Office 365 iş ortağı ile Power BI ekleme
-              href: service-admin-syndication-partner.md
-        - name: Yönetici portalını kullanma
-          href: service-admin-portal.md
-        - name: Kiracım nerede bulunur?
-          href: service-admin-where-is-my-tenant-located.md
-        - name: Oturum açan kullanıcıları bulma
-          href: service-admin-access-usage.md
-        - name: Power BI uygulamasını denetleme
-          href: service-admin-auditing.md
-        - name: Hizmet durumunu izleme
-          href: service-admin-health.md
-        - name: Power BI hesabınızı kapatma
-          href: service-admin-closing-your-account.md
-        - name: Power BI ve ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: Azure AD B2B hizmetini kullanma
-          href: service-admin-azure-ad-b2b.md
-        - name: Power BI ile satır düzeyi güvenlik
-          href: service-admin-rls.md
-        - name: Power BI arşivlenmiş çalışma alanı
-          href: service-admin-power-bi-archived-workspace.md
-        - name: Intune ile mobil uygulamaları yapılandırma
-          href: service-admin-mobile-intune.md
-    - name: Başvuru
-      items:
-        - name: 'PowerShell, REST API’ler ve .NET SDK'
-          href: service-admin-reference.md
-        - name: PowerShell için Power BI cmdlet’leri
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: Hizmet URL’si başvurusu
-          href: power-bi-whitelist-urls.md
-    - name: Kaynaklar
-      items:
-        - name: Power BI yönetim ve dağıtım yaklaşımları
-          href: service-admin-governance.md
-        - name: Power BI güvenliği
-          href: service-admin-power-bi-security.md
 - name: Rehber
   items:
     - name: Genel Bakış
@@ -1340,6 +1141,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
       href: guidance/dax-divide-function-operator.md
+    - name: Hata işlevlerinin uygun kullanımı
+      href: guidance/dax-error-functions.md
     - name: Veri akışları için en iyi uygulamalar
       href: service-dataflows-best-practices.md
     - name: Teknik incelemeler

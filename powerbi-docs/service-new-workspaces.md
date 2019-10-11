@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750894"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715201"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750894"
 Yeni çalışma alanı deneyimi genel kullanılabilirlik (GA) aşamasına ulaştı ve artık varsayılan çalışma alanı oldu. Yine de Office 365 Gruplarını temel alarak [klasik çalışma alanlarını](service-create-workspaces.md) oluşturmaya ve kullanmaya devam edebilirsiniz. 
 
 > [!NOTE]
-> Çalışma alanındaki içeriğe göz atan kullanıcılarda satır düzeyi güvenliği (RLS) zorunlu tutmak için Görüntüleyici rolünü kullanın. Kiracınızda henüz Görüntüleyici rolü kullanılamıyorsa, [klasik çalışma alanlarını](service-create-workspaces.md) kullanmaya devam edin ve **Üyeler sadece Power BI içeriğini görüntüleyebilir** seçeneğini belirtin. Alternatif olarak söz konusu kullanıcılara Power BI uygulamasını dağıtabilir ve içerik dağıtmak için paylaşım özelliğini kullanabilirsiniz.
+> Çalışma alanındaki içeriğe göz atan kullanıcılarda satır düzeyi güvenliği (RLS) zorunlu tutmak için Görüntüleyici rolünü kullanın. Çalışma alanına erişim vermeden RLS'yi zorunlu tutmak için söz konusu kullanıcılara bir Power BI uygulaması yayımlayın veya içeriği dağıtmak için paylaşım kullanın.
 
 Yeni çalışma alanlarıyla şunları yapabilirsiniz:
 
@@ -73,11 +73,14 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |   |
 | Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
 | Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
-| Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun. |  X | X  | X  | X <sup>1</sup>  |
-| Bir raporu kopyalayın. | X | X | X | X <sup>1</sup> |
+| Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun. |  X | X  | X  |   |
+| Bir raporu kopyalayın. | X | X | X |  |
 | Öğeleri açın ve öğelerle etkileşim kurun. |  X | X  | X  | X  |
 
-**1** Power BI Pro lisansı ve [Veri kümeleri için Derleme izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) gerektirir. 
+> [!NOTE]
+>Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için, kişilerin ek ölçütlere uyması gerekir:
+>- Power BI Pro lisansına ihtiyaçları vardır. 
+>- Veri kümesi için Oluşturma izinleri olmalıdır. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla Oluşturma izinleri olur.
  
 ## <a name="licensing"></a>Lisanslama
 Paylaşılan bir kapasitedeki çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. 

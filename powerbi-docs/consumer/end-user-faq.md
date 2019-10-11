@@ -3,20 +3,19 @@ title: Power BI'da sık sorulan son kullanıcı soruları
 description: Power BI hizmeti ve Power BI mobil uygulamaları hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654138"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943337"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
@@ -33,27 +32,17 @@ Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağla
 
 Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar.
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro lisansımın süresi dolarsa ne olur?
-
-Power BI Pro lisansının süresi dolduktan sonra bir yetkisiz kullanım süresi vardır. Bir toplu lisans satın alımı kapsamındaki lisanslar için, yetkisiz kullanım süresi 90 gündür. Lisansı doğrudan satın aldıysanız, yetkisiz kullanım süresi 30 gündür.
-
-Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha fazla bilgi için bkz. [İş için Office 365 aboneliğim sona erdiğinde verilerime ve erişimime ne olur?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium hakkında sorularım olduğunda ne yapmalıyım?
 
 Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkında SSS](../service-premium-faq.md).
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Kuruluşumda kimin bir Power BI hesabının olduğunu nasıl öğrenebilirim?
-
-Power BI için Azure Active Directory Integrated Applications raporunu inceleyerek kuruluşunuzdaki etkin kullanıcıları görüntüleyebilirsiniz. Azure AD raporu kullanıcıların sahip olduğu lisans türlerini belirtmez. Yalnızca hangi kullanıcıların ne zaman Power BI'da oturum açtığını belirtir. Daha fazla bilgi için bkz. [Oturum açmış Power BI kullanıcılarını bulma](../service-admin-access-usage.md).
-
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
-Power BI Desktop kendi bilgisayarlarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri uzmanları, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları Power BI hizmeti kullanıcılarına sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
+Power BI Desktop kendi bilgisayarlarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri bilimcileri, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları sizin gibi Power BI hizmeti *tüketicilerine* sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI hizmetini kullanmak için neler gerekir?
 
-Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Bir .*gov* ve *.mil* e-posta adresiyle kaydolabilirsiniz. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](../service-govus-signup.md).
+Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Ayrıca *.gov* ve *.mil* e-posta adresiyle de kaydolabilirsiniz. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](../service-govus-signup.md).
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Neden iş e-posta adresimle kaydolmam gerekiyor?
 
@@ -88,7 +77,7 @@ Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabil
 * [Power BI Blogu](http://blogs.msdn.com/b/powerbi/)
 * [Web Seminerleri](../webinars.md)
 * [YouTube Kanalımızdaki](https://www.youtube.com/user/mspowerbi) başlangıç videoları
-* [Power BI ile çalışmaya başlama](../service-get-started.md) makalesi
+* [*Tüketici* olarak Power BI kullanmaya başlama](power-bi-consumer-landing.md) makalesi
 * [Topluluğumuza katılın](https://community.powerbi.com/) ve soru sorun
 * Daha fazla öneri için bkz. [Yardım almaya yönelik 10 ipucu](../service-tips-for-finding-help.md)
 
@@ -126,6 +115,7 @@ Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da girdiğiniz son
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI nedir?](../power-bi-overview.md)
+* [Power BI tüketicisi nedir?](end-user-consumer.md)
+* [Tüketici Power BI'ı nasıl kullanır?](end-user-reading-view.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin
