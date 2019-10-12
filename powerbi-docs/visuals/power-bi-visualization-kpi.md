@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715241"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239946"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Ana Performans Göstergesi (KPI) görselleri
 
@@ -50,12 +50,12 @@ KPI veri kümelerinin bir KPI için hedef değerleri içermesi gerekir. Veri kü
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
 1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
-   
-2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
-1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+1. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
-1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+1. Rapor görünümünde **Perakende Analizi örneği PBIX dosyasını** açın. ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Yeni sayfa eklemek için **+** simgesini seçin. ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>KPI'ler nasıl oluşturulur?
 
