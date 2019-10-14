@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471595"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021036"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki paylaşılan veri kümelerini kullanma
 
@@ -20,14 +20,14 @@ Power BI Desktop’ta oluşturduğunuz bir veri kümesini, Power BI Rapor Oluşt
 
 ![Power BI Desktop’tan Rapor Oluşturucusu sayfalandırılmış raporuna](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin bu çalışma alanının bir üyesi olmanız gerekmez. Veri kümesi için [Oluşturma izninizin](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) olması yeterlidir. Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir.
+Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin bu çalışma alanının bir üyesi olmanız gerekmez. Veri kümesi için [Oluşturma izninizin](service-datasets-build-permissions.md) olması yeterlidir. Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir.
 
 ## <a name="what-you-need"></a>Gerekenler
 
 Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız için gereken ve gerekli olmayan şeylerin bir listesi verilmiştir.
 
 - Power BI Rapor Oluşturucusu. [Power BI Rapor Oluşturucusu’nu indirin ve yükleyin](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında bilgi edinin.
+- Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](service-datasets-build-permissions.md) hakkında bilgi edinin.
 - Rapor Oluşturucusu’nda sayfalandırılmış rapor oluşturmak için Power BI Pro lisansına sahip olmanız gerekmez. 
 - Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir. 
 - İsteğe bağlı: Bu makaleyi izlemek isterseniz, Power BI Desktop [Perakende Analizi Örneği .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) dosyasını indirin, bu dosyayı Power BI Desktop’ta açın ve çok sayıda sütun içeren bir tablo ekleyin. **Biçim** bölmesinde **Toplamlar** seçeneğini kapatın. Ardından Power BI hizmetindeki bir çalışma alanında yayımlayın.

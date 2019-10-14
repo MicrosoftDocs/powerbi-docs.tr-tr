@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987016"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239914"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -113,7 +113,7 @@ Daha iyi bir yerleşim sağlamak için iFrame'in yükseklik değerine 56 piksel 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Raporları güncelleştirme ve veri yenileme
 
-**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi yaklaşık bir saat kadar sürebilir. Güncelleştirmelerin hemen kullanılabilir hale gelmesini istiyorsanız ekleme kodunu silip yeni bir kod oluşturabilirsiniz. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
+**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi yaklaşık bir saat kadar sürebilir. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
 
 ## <a name="data-refresh"></a>Veri yenileme
 
