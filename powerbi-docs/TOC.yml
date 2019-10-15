@@ -165,6 +165,8 @@
               href: desktop-connect-to-web.md
             - name: Power BI Desktop'ta bir Snowflake bilgi işlem ambarına bağlanma
               href: desktop-connect-snowflake.md
+            - name: Azure Maliyet Yönetimi verilerine bağlanma
+              href: desktop-connect-azure-cost-management.md
             - name: Azure Tüketim Öngörüleri verilerine bağlanma
               href: desktop-connect-azure-consumption-insights.md
             - name: Power BI Desktop'ta SAP HANA'yı kullanma
@@ -217,6 +219,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Rapor oluşturma
           items:
+            - name: Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
+              href: desktop-automatic-page-refresh.md
             - name: Power BI Desktop'ta performans çözümleyicisini kullanma
               href: desktop-performance-analyzer.md
             - name: Raporlar için görsel öğeler
