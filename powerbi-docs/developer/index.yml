@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/02/2019
-  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
-  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
+  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/04/2019
-  ms.locfileid: "71951037"
+  ms.lasthandoff: 10/14/2019
+  ms.locfileid: "72307642"
 landingContent:
 - title: Geliştiriciler için Power BI hakkında
   linkLists:
@@ -48,7 +48,7 @@ landingContent:
   - linkListType: tutorial
     links:
     - text: Power BI görseli geliştirme
-      url: custom-visual-develop-tutorial.md
+      url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
     - text: Power BI görselleri hakkında SSS

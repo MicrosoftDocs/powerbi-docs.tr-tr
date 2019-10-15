@@ -15,9 +15,9 @@
         - name: Öğreticiler
           items:
             - name: Power BI görseli geliştirme
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: Biçimlendirme seçenekleri ekleme
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: Görsel projesi için birim testleri ekleme
               href: visuals/unit-tests-introduction.md
         - name: Kavramlar
