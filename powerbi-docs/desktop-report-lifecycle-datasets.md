@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164494"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020489"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Bu Power BI Desktop'ta mükemmel veri modelinizi oluşturabileceğiniz ve Power BI hizmetinde yayımlayabileceğiniz anlamına gelir. Ardından siz ve başkaları aynı, ortak veri modelinden farklı raporlar (ayrı .pbix dosyalarında) oluşturabilir ve bunları farklı çalışma alanlarına kaydedebilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.
@@ -35,7 +35,7 @@ Anna'nın (bir iş analisti) ekibinizde olduğunu ve iyi veri modelleri (genelli
 Anna'nın raporu herkes tarafından çok beğeniliyor ve sorun burada başlıyor. Anna'nın ekibindeki herkes bu veri kümesinin *kendilerine ait bir sürümünü* oluşturmaya ve ekiple kendi raporlarını paylaşmaya çalışıyor. Birdenbire ekibinizin **Power BI hizmetindeki** çalışma alanında (farklı veri kümelerinden) çok sayıda rapor beliriyor. En yakın tarihli olan hangisiydi? Veri kümeleri neredeyse mi aynıydı, yoksa tamamen mi? Farklar nelerdi? **Power BI hizmeti canlı bağlantısı** özelliği sayesinde, bütün bunlar iyi yönde değişebilir. Aşağıdaki bölümde, Anna'nın yayımlanmış veri kümesini diğer ekip üyelerinin kendi çalışma alanlarında kendi raporları için nasıl kullanabileceğini ve herkesin benzersiz raporunu oluşturabilmesi için aynı sağlam, onaylanmış ve yayımlanmış veri kümesini kullanmasına izin verilebileceğini göreceğiz.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Canlı bağlantıyla bir Power BI hizmeti veri kümesine bağlanma
-Anna bir rapor (ve temel aldığı veri kümesini) oluşturup bunu **Power BI hizmetinde** yayımlar ve rapor, ekibin Power BI hizmetindeki çalışma alanında görünür. Anna, raporu *yeni çalışma alanı deneyimine* kaydederse, çalışma alanı içindeki ve dışındaki herkesin bunu görebilmesi ve kullanabilmesi için Derleme izni ayarlayabilir.
+Anna bir rapor (ve temel aldığı veri kümesini) oluşturup bunu **Power BI hizmetinde** yayımlar ve rapor, ekibin Power BI hizmetindeki çalışma alanında görünür. Anna, raporu *yeni çalışma alanı deneyimine* kaydederse, çalışma alanı içindeki ve dışındaki herkesin bunu görebilmesi ve kullanabilmesi için Oluşturma izni ayarlayabilir.
 
 Yeni çalışma alanları deneyimi hakkında daha fazla bilgi için bkz. [uygulama çalışma alanları](service-new-workspaces.md).
 
@@ -76,7 +76,7 @@ Yayımlama işlemi başlar ve **Power BI Desktop** ilerleme durumunu gösterir.
 
 Artık raporunuz veri kümesiyle birlikte Power BI hizmetinde olduğundan, kalitesini ve güvenilirliğini kanıtlamak için raporu *tanıtabilirsiniz*. Hatta Power BI kiracınızdaki merkezi bir yetkili tarafından *onaylanmasını* bile isteyebilirsiniz. Bu onaylardan herhangi biriyle, başkaları veri kümelerinde arama yaparken veri kümeniz her zaman listenin üstünde görüntülenecektir. İlginizi çekiyorsa, [veri kümenizi tanıtma](service-datasets-promote.md) işlemiyle ilgili daha fazla bilgi edinebilirsiniz. 
 
-Son adım raporun dayandığı veri kümesi için *Derleme iznini* ayarlamaktır. Derleme izni veri kümenizi kimlerin görebileceğini ve kullanabileceğini belirler. Bu izni çalışma alanının içinde veya çalışma alanında uygulama paylaşırken ayarlayabilirsiniz. [Derleme iznini](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) ayarlama hakkında daha fazla bilgi edinin.
+Son adım raporun dayandığı veri kümesi için *Derleme iznini* ayarlamaktır. Derleme izni veri kümenizi kimlerin görebileceğini ve kullanabileceğini belirler. Bu izni çalışma alanının içinde veya çalışma alanında uygulama paylaşırken ayarlayabilirsiniz. [Derleme iznini](service-datasets-build-permissions.md) ayarlama hakkında daha fazla bilgi edinin.
 
 Şimdi, raporun (ve veri kümesinin) yayımlandığı çalışma alanına erişimi olan diğer ekip üyelerinin veri kümesine nasıl bağlanıp kendi raporlarını oluşturabileceğini görelim.
 

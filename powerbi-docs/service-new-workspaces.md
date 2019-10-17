@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715201"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020691"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -78,8 +78,8 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Öğeleri açın ve öğelerle etkileşim kurun. |  X | X  | X  | X  |
 
 > [!NOTE]
->Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için, kişilerin ek ölçütlere uyması gerekir:
->- Power BI Pro lisansına ihtiyaçları vardır. 
+>Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için kişilerin ek ölçütlere uyması gerekir:
+>- Power BI Pro lisansına ihtiyaçları vardır. Ayrıntılar için sonraki kısım olan [Lisanslama](#licensing)’ya bakın.
 >- Veri kümesi için Oluşturma izinleri olmalıdır. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla Oluşturma izinleri olur.
  
 ## <a name="licensing"></a>Lisanslama
@@ -141,7 +141,7 @@ Yeni çalışma alanlarındaki bazı özellikler geçerli çalışma alanlarınd
 - Üyeler yeniden paylaşabilir veya paylaşamaz: bunun yerini Katkıda Bulunan rolü almıştır
 - Salt okunur çalışma alanları: Kullanıcılara bir çalışma alanı için salt okuma erişimi vermek yerine çalışma alanındaki içeriğe benzer bir salt okuma erişimi sağlayan Görüntüleyici rolünü atayın.
 - Pro lisansı olmayan ve yalnızca Görüntüleyici rolü olan kullanıcılar, çalışma alanı Power BI Premium kapasitesinde olduğunda bu çalışma alanına erişebilir.
-- Görüntüleyici rolü olan kullanıcıların verileri dışarı aktarmasına izin vermek için, çalışma alanındaki veri kümeleri üstünde Derleme iznine sahip olduklarından emin olun. [Veri kümeleri için oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+- Görüntüleyici rolü olan kullanıcıların verileri dışarı aktarmasına izin vermek için, çalışma alanındaki veri kümeleri üstünde Derleme iznine sahip olduklarından emin olun. [Veri kümeleri için oluşturma izni](service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
 - **Çalışma alanından ayrıl** düğmesi yok.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular

@@ -1,25 +1,25 @@
 ---
 title: Rapor tasarımcıları için Power BI
-description: Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar ve panolar oluşturuyor musunuz? Kendi uygulamalarını oluşturan bir geliştirici veya bir Power BI yöneticisi misiniz?
+description: Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar ve panolar oluşturuyor musunuz? Power BI yöneticisi misiniz?
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 03/20/2019
+ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271778"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239889"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 
-Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar ve panolar oluşturuyor musunuz? Kendi uygulamalarını oluşturan bir geliştirici misiniz? Power BI ortamı mı yönetiyorsunuz? Bu kaynaklar hızınızı artırmanıza yardımcı olacak. Hoş geldiniz!
+Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar ve panolar oluşturuyor musunuz? Power BI ortamı mı yönetiyorsunuz? Bu kaynaklar hızınızı artırmanıza yardımcı olacak. Hoş geldiniz!
 
 Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullanıcılar için Power BI](consumer/power-bi-consumer-landing.md) bölümünden başlamanızı öneririz.
 
@@ -157,46 +157,6 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?</a><br/>
                                                 <a href="service-create-workspaces.md">Power BI hizmetinde çalışma alanı ekleme</a> 
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Power BI için geliştirme</h3> 
-                                          <p></p>
-                                                <a href="developer/embedding.md">Power BI ile ekleme</a><br/> 
-                                                <a href="developer/custom-visual-develop-tutorial.md">Özel görsel geliştirme</a><br/> 
-                                                <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST API'leri</a>
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Power BI’yı yönetme</h3> 
-                                          <p></p>
-                                                <a href="service-admin-administering-power-bi-in-your-organization.md">Power BI yönetimi nedir?</a><br/> 
-                                                <a href="service-admin-purchasing-power-bi-pro.md">Power BI Pro lisansları satın alma</a><br/>
-                                                <a href="service-admin-reference.md">PowerShell cmdlet'leri, REST API'leri ve .NET SDK'sı</a>
                                     </div> 
                               </div> 
                         </div> 

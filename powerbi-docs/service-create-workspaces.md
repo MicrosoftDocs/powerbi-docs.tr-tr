@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903997"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020253"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
@@ -90,11 +90,11 @@ Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal i�
 * İş kullanıcıları bir içerik paketi yükledikten sonra paket, gruplandırılmış kimliğini kaybeder: Başka panolar ve raporlara karışmış bir pano ve rapor listesinden ibaret olur. Buna karşın uygulamalar, gruplandırılmış halleri ve kimliklerini yüklemeden sonra bile korur. Bu gruplandırma sayesinde iş kullanıcıları zaman geçtikten sonra bile uygulamalara kolayca gidebilir.
 * Herhangi bir çalışma alanında birden çok içerik paketi oluşturabilirsiniz ancak bir uygulamanın çalışma alanıyla bire bir ilişkisi vardır. 
 * Zaman içinde kurumsal içerik paketlerini kullanımdan kaldırmayı planlıyoruz. Bu nedenle bundan sonra uygulama oluşturmanızı öneririz.  
-* Yeni çalışma alanı deneyimi önizlemesiyle, kurumsal içerik paketlerinin kullanımdan kaldırılması yönünde ilk adımları atıyoruz. Önizleme çalışma alanlarında bunları kullanamaz veya oluşturamazsınız.
+* Yeni çalışma alanı deneyimiyle, kurumsal içerik paketlerinin kullanımdan kaldırılması yönünde ilk adımları atıyoruz. Yeni çalışma alanlarında bunları kullanamaz veya oluşturamazsınız.
 
 İkisini karşılaştırmak için bkz. [Yeni çalışma alanlarıyla var olan çalışma alanları arasında ne fark vardır?](service-new-workspaces.md#how-the-new-workspaces-are-different) 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulamaları yükleme ve kullanma](service-create-distribute-apps.md)
-- [Yeni çalışma alanları oluşturma (önizleme)](service-create-the-new-workspaces.md)
+- [Yeni çalışma alanlarını oluşturma](service-create-the-new-workspaces.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

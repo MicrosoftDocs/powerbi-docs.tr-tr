@@ -10,49 +10,46 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: b50d247f54cfe2af4cefbd14b9528b1dfa263acf
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624263"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020316"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
 [Power BI'da panolara giriş](service-dashboards.md) makalesini okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Pano oluşturmanın birçok farklı yolu vardır. Örneğin bir rapordan, sıfırdan, bir veri kümesinden veya mevcut panoyu yinelenerek oluşturulabilirler.  
 
-İlk kez kullanmaya başladığınızda zor görünebileceği için, öncelikle daha önce oluşturulmuş bir raporun görsellerini sabitleyerek hızlı ve kolay bir pano oluşturacağız. 
+Daha önce oluşturulmuş bir raporun görselleştirmelerini sabitleyen bir panoyu hızla ve kolayca oluşturarak başlayacağız. 
 
-Bu hızlı başlangıcı tamamladıktan sonra şu konuları iyi anlayacaksınız:
+Bu makaleyi tamamladıktan sonra şu konular hakkında fikir sahibi olacaksınız:
 - Panolarla raporlar arasındaki ilişki
 - Rapor düzenleyicisinde Düzenleme görünümünü açma
 - Kutucukları sabitleme 
 - Panoyla rapor arasında gezinme 
-
-## <a name="who-can-create-a-dashboard"></a>Kimler pano oluşturabilir?
-Pano oluşturabilme becerisi bir *oluşturucu* özelliği olarak kabul edilir ve raporda düzenleme izinleri gerektirir. Düzenleme izinleri, rapor oluşturanlar ve oluşturanın erişim verdiği iş arkadaşları tarafından kullanılabilir. Örneğin, David workspaceABC içinde bir rapor oluşturur ve sonra sizi o çalışma alanının bir üyesi olarak eklerse, hem siz hem de David düzenleme izinlerine sahip olursunuz. Diğer yandan, bir rapor sizinle doğrudan veya bir [Power BI uygulamasının](service-create-distribute-apps.md) parçası olarak (raporu *kullanıyor* olursunuz) paylaşılırsa, bir panoya kutucukları sabitleyemezsiniz.
  
 ![Pano](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> Panolar Power BI Desktop'ın değil Power BI hizmetinin sunduğu bir özelliktir. Panolar Power BI mobil uygulamasında oluşturulamasa da [görüntülenip paylaşılabilir](consumer/mobile/mobile-apps-view-dashboard.md).
+> Panolar Power BI Desktop'ın değil Power BI hizmetinin sunduğu bir özelliktir. Power BI mobil uygulamalarında pano oluştaramasanız da bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Rapordaki görselleri ve resimleri sabitleyerek pano oluşturma
-Amanda'nın bir rapordaki görselleştirmeleri sabitleyerek yeni bir pano oluşturmasını izleyin. Sonra, Tedarik Analizi örneğini kullanarak kendiniz denemek için [Rapor içeren bir veri kümesini içeri aktarma](#import-a-dataset-with-a-report) başlığı altında verilen adımları izleyin.
+Amanda'nın bir rapordaki görselleştirmeleri sabitleyerek yeni bir pano oluşturmasını izleyin. Ardından, Tedarik Analizi örneğini kullanarak bunu denemek için bir sonraki bölüm olan [Rapor içeren bir veri kümesini içeri aktarma](#import-a-dataset-with-a-report) başlığı altında verilen adımları izleyin.
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="import-a-dataset-with-a-report"></a>Rapor içeren bir veri kümesini içeri aktarma
-Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluşturmak için kullanacağız. Kullanacağımız örnek, iki PowerView sayfası bulunan bir Excel çalışma kitabıdır. Çalışma kitabı Power BI tarafından içeri aktarıldığında, çalışma alanınıza bir veri kümesi ve bir rapor eklenir. Rapor otomatik olarak PowerView sayfalarından oluşturulur.
+Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluşturmak için kullanacağız. Kullandığımız örnek iki PowerView sayfası bulunan bir Excel çalışma kitabıdır. Çalışma kitabı Power BI tarafından içeri aktarıldığında, çalışma alanınıza bir veri kümesi ve bir rapor eklenir. Rapor otomatik olarak PowerView sayfalarından oluşturulur.
 
-1. Tedarik Analizi örneğinin [Excel dosyasını](http://go.microsoft.com/fwlink/?LinkId=529784) indirin. Dosyayı OneDrive İş hesabınıza kaydetmenizi öneririz.
+1. [Tedarik Analizi örneğinin](http://go.microsoft.com/fwlink/?LinkId=529784) Excel dosyasını indirin. Dosyayı OneDrive İş hesabınıza kaydetmenizi öneririz.
 2. Tarayıcınızda Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 3. Sol gezinti bölmesinde **Çalışma Alanım**'ı ve ardından **Veri Al**'ı seçin.
 
-    ![Sol gezinti bölmesi](media/service-dashboard-create/power-bi-get-data3.png)
-5. **Dosyalar**'ı seçin.
+    ![Sol gezinti bölmesi](media/service-dashboard-create/power-bi-get-data-new-look.png)
+5. **Dosyalar**’ı seçip **Al** seçeneğini belirleyin.
 
    ![Dosya alma](media/service-dashboard-create/power-bi-select-files.png)
 6. Tedarik Analizi örnek Excel dosyasını kaydettiğiniz konuma gidin. Dosyayı seçin ve **Bağlan** seçeneğini belirleyin.
@@ -64,6 +61,9 @@ Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluştur
 8. Başarılı iletisi gösterildiğinde kapatmak için **x** işaretini seçin.
 
    ![Başarılı iletisi](media/service-dashboard-create/power-bi-view-datasetnew.png)
+
+> [!TIP]
+> Biliyor muydunuz? Yukarıda yer alan üç çizgili simgeyi (![Gezinti bölmesini göster veya gizle simgesi](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)) seçerek sol gezinti çubuğunu daraltabilirsiniz. Böylelikle rapor için daha fazla alan elde edersiniz.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Raporu açma ve panonuza kutucukları sabitleme
 1. Aynı çalışma alanında **Raporlar** sekmesini seçin ve ardından **Tedarik Analizi Örneği**'ni seçerek raporu açın.
@@ -105,7 +105,7 @@ Görselleri tek tek sabitlemek yerine, [bir rapor sayfasının tamamını *canl�
 
    ![Panoya sabitle iletişim kutusu](media/service-dashboard-create/power-bi-pin-live2.png)
 
-4. Başarılı iletisi görüntülendikten sonra **Panoya git**'i seçin. Orada rapordan sabitlediğiniz kutucukları göreceksiniz. Aşağıdaki örnekte biri raporun ilk sayfasından ve diğeri de canlı kutucuk olan (raporun ikinci sayfası) iki kutucuk sabitledik.
+4. Başarılı iletisi görüntülendikten sonra **Panoya git**'i seçin. Burada, rapordan sabitlediğiniz kutucukları görürsünüz. Aşağıdaki örnekte biri raporun ilk sayfasından ve diğeri de canlı kutucuk olan (raporun ikinci sayfası) iki kutucuk sabitledik.
 
    ![Pano](media/service-dashboard-create/power-bi-dashboard.png)
 

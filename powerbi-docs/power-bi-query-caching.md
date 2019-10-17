@@ -2,20 +2,20 @@
 title: Power BI Premium’da sorgu önbelleğe alma
 description: Power BI Premium’da sorgu önbelleğe alma
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076169"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020525"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded’de sorguları önbelleğe alma
 
@@ -26,13 +26,13 @@ Power BI Premium veya Power BI Embedded ile kuruluşlar bir veri kümesiyle ili�
 
 Önbelleğe alınmış sorgu sonuçları kullanıcıya ve veri kümesi içeriğine özgüdür ve güvenlik kurallarını her zaman dikkate alır. Hizmet şu anda yalnızca açtığınız ilk sayfa için sorgu önbelleğe alma yapmaktadır. Başka bir deyişle, raporla etkileşim kurduğunuzda sorgular önbelleğe alınmaz. Sorgu önbelleği [kişisel yer işaretlerini](consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreleri](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) gözetir. Bu nedenle, kişiselleştirilmiş rapor tarafından oluşturulan sorgular önbelleğe alınır. Aynı sorgularla desteklenen [pano kutucukları](service-dashboard-tiles.md) da sorgunun önbelleğe alınmasından yararlanır. Performans özellikle, bir veri kümesine sık erişildiğinde ve sık sık yenilenmesi gerekmediğinde yarar sağlar. Sorgu önbelleğe alma, genel sorgu sayısını azaltarak Premium/Embedded kapasitenizin yükünü de azaltabilir.
 
-Power BI hizmetindeki veri kümesi için sorgu önbelleğe alma davranışını **Ayarlar** sayfasında denetlersiniz. İki olası ayar şunlardır:
+Power BI hizmetindeki veri kümesi için sorgu önbelleğe alma davranışını **Ayarlar** sayfasında denetlersiniz. Üç olası ayar şunlardır:
 
+- **Kapasite varsayılanı**: Sorgu önbelleğe alma kapalı
 - **Kapalı**: Bu veri kümesi için sorgu önbelleğe alma kullanmayın.
-
 - **Açık**: Bu veri kümesi için sorgu önbelleğe alma kullanın.
 
-![Sorgu önbelleğe alma iletişim kutusu](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Sorgu önbelleğe alma iletişim kutusu](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

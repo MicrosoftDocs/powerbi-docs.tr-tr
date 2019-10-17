@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305758"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020231"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -30,7 +30,7 @@ Power BI'da resmi olarak paketlenmiş içerik oluşturabilir ve bunu geniş bir 
 - Onlara bir doğrudan bağlantı gönderebilirsiniz.
 - Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz.
 
-Uygulamayı kendi yerleşik gezintisiyle oluşturabilirsiniz, bu sayede kullanıcılarınız içeriğinizde yollarını kolayca bulabilirler. Uygulamanın içeriğini değiştiremezler. İster Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıca, temel alınan veri kümelerine bağlanmak ve uygulamada raporların kopyalarını oluşturmak için onlara Derleme izinleri verebilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+Uygulamayı kendi yerleşik gezintisiyle oluşturabilirsiniz, bu sayede kullanıcılarınız içeriğinizde yollarını kolayca bulabilirler. Uygulamanın içeriğini değiştiremezler. İster Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıca, temel alınan veri kümelerine bağlanmak ve uygulamada raporların kopyalarını oluşturmak için onlara Oluşturma izni verebilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="licenses-for-apps"></a>Uygulamalar için lisanslar
 Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız olmalıdır. Uygulama *tüketicileri* için iki seçenek sağlanır.
@@ -166,11 +166,11 @@ Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurman�
 - Power BI Desktop’ta ve Power BI hizmeti içindeki veri alma deneyiminde bu veri kümelerini arayın.
 - Bu veri kümelerini temel alan raporlar ve panolar oluşturun.
 
-Bu seçeneğin işaretini kaldırdığınızda, uygulamaya eklediğiniz yeni kullanıcılar Derleme iznine sahip olmaz. Öte yandan, mevcut uygulama kullanıcıları için temel veri kümeleri üzerindeki izinler değişmez. Artık Derleme iznine sahip olmaması gereken uygulama kullanıcılarından bu izni kaldırabilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) hakkında daha fazla bilgi edinin.
+Bu seçeneğin işaretini kaldırdığınızda, uygulamaya eklediğiniz yeni kullanıcılar Oluşturma iznine sahip olmaz. Öte yandan, mevcut uygulama kullanıcıları için temel veri kümeleri üzerindeki izinler değişmez. Artık Oluşturma iznine sahip olmaması gereken uygulama kullanıcılarından bu izni kaldırabilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="allow-users-to-copy-reports"></a>Kullanıcıların raporları kopyalamasına izin ver
 
-**Kullanıcıların bu uygulamadaki raporların bir kopyasını oluşturmalarına izin ver** seçeneğini işaretlediğinizde, kullanıcılarınız uygulamadaki raporların herhangi birini Çalışma Alanım’a veya başka bir çalışma alanına kaydedebilir. Bir kopya oluşturmak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile kullanıcıların bir Pro lisansına ihtiyacı vardır. Ardından raporları kendi benzersiz gereksinimlerine uygun olarak özelleştirebilirler. İlk olarak **Kullanıcıların Derleme iznini kullanarak uygulamanın temel veri kümelerine bağlanmasına izin ver** seçeneğini belirlemeniz gerekir. Bu seçenekleri belirleyerek, [diğer çalışma alanlarından rapor kopyalama](service-datasets-copy-reports.md) özelliğini etkinleştirmiş olursunuz.
+**Kullanıcıların bu uygulamadaki raporların bir kopyasını oluşturmalarına izin ver** seçeneğini işaretlediğinizde, kullanıcılarınız uygulamadaki raporların herhangi birini Çalışma Alanım’a veya başka bir çalışma alanına kaydedebilir. Bir kopya oluşturmak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile kullanıcıların bir Pro lisansına ihtiyacı vardır. Ardından raporları kendi benzersiz gereksinimlerine uygun olarak özelleştirebilirler. İlk olarak **Kullanıcıların Oluşturma iznini kullanarak uygulamanın temel veri kümelerine bağlanmasına izin ver** seçeneğini belirlemeniz gerekir. Bu seçenekleri belirleyerek, [diğer çalışma alanlarından rapor kopyalama](service-datasets-copy-reports.md) özelliğini etkinleştirmiş olursunuz.
 
 ## <a name="unpublish-an-app"></a>Bir uygulamayı yayımdan kaldırma
 Bir çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabilir.

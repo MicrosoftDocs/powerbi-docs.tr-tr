@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654941"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239952"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
-Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Yeni görünüm, daha basit olan ve diğer Microsoft ürünlerine yönelik bilgilerinizden yararlanan modern bir deneyimdir. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
+Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Daha basit olan yeni görünüm diğer Microsoft ürünlerine yönelik bilgilerinizi temel alır. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
 
 ![Değişikliklere yeni genel bakış](media/service-new-look/power-bi-new-look-changes.png)
+
+Belirli bir eylemi mi arıyorsunuz? [‘Yeni görünüm’: Eylemler nereye gitti?](service-new-look-where-actions.md) bölümüne bakın
 
 ## <a name="quick-tour-of-the-changes"></a>Değişikliklerin hızlı turu
 
@@ -70,7 +72,7 @@ Eski görünümden işlevlerden hiçbirini kaldırmadık. Eylem çubuğunda üç
 
 ## <a name="6-new-filter-experience"></a>6. Yeni filtre deneyimi
 
-Uygulanan filtreleri ve yeni filtreler bölmesini görüntüleme gibi son güncelleştirmeler, yeni görünüm ile varsayılan olarak kullanılabilir. Rapor tasarımcıları yeni filtreler deneyimine yükseltilmese de, yeni filtreler bölmesini görürsünüz.
+Uygulanan filtreleri ve yeni filtreler bölmesini görüntüleme gibi son güncelleştirmeler, yeni görünüm ile varsayılan olarak kullanılabilir. Rapor tasarımcılarınız yeni filtreler deneyimine yükseltilmese de yeni filtreler bölmesini görürsünüz.
 
 ![Filtre belirtimi](media/service-new-look/power-bi-new-look-filters.png)
 
