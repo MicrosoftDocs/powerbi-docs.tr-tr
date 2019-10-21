@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: e13d0fc5ee0af845cc0bf881cc5a1133ee24f719
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 6fce02a4707d12859286f85073222b498a1a59f4
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946092"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543900"
 ---
 # <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI görselleriyle ilgili sorunları giderme
 

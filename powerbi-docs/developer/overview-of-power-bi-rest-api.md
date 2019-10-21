@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269471"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307610"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 
@@ -57,7 +57,7 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 ## <a name="next-steps"></a>Sonraki Adımlar
 
 * [Bir veri kümesine veri gönderme](walkthrough-push-data.md)
-* [Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)
+* [Power BI özel görseli geliştirme](visuals/custom-visual-develop-tutorial.md)
 * [Power BI Rest API Başvurusu](rest-api-reference.md)
 * [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/)
 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946205"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307831"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -31,7 +31,7 @@ Sertifikasyon işlemi isteğe bağlı bir işlemdir ve görselinin markette sert
 
 **Sertifikalı olmayan Power BI görsellerinin**, güvenli olmayan görseller olması şart değildir. Bazı görseller sertifikalanmamıştır çünkü [sertifikasyon gereksinimlerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) biriyle veya birden çoğuyla uyumlu değildir. Örneğin, harita görselleri gibi dış hizmetlere bağlanan veya ticari kitaplıkları kullanan görseller böyledir.
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları  **[Microsoft AppSource](https://appsource.microsoft.com)** 'a eklemek mi istiyorsunuz?  **[Nasıl yapıldığını öğrenmek için Power BI özel görseli geliştirme konusuna](developer/custom-visual-develop-tutorial.md)** bakın.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları  **[Microsoft AppSource](https://appsource.microsoft.com)** 'a eklemek mi istiyorsunuz?  **[Nasıl yapıldığını öğrenmek için Power BI özel görseli geliştirme konusuna](developer/visuals/custom-visual-develop-tutorial.md)** bakın.
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Power BI Sertifikalı Power BI görsellerinin kaldırılması
 
@@ -196,7 +196,7 @@ Görseller hakkında daha fazla bilgi için bkz. [Sertifikalı görseller hakkı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md)
+* [Power BI özel görseli geliştirme](developer/visuals/custom-visual-develop-tutorial.md)
 * [Microsoft'un YouTube'daki özel görsel oynatma listesi](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI'daki Görselleştirmeler](visuals/power-bi-report-visualizations.md)  
 * [Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  

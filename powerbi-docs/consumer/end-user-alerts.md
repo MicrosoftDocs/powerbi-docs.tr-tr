@@ -8,17 +8,20 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 08/26/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 16639f6e9bf005d04c64fc3ae6a331338efdd5d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 713f177bf81b587cc6b50a7a1d05a6b0668daa74
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70064349"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589486"
 ---
 # <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında pano uyarıları ayarlama
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Panolarınızdaki veriler belirlediğiniz sınırları aşacak veya sınırların altında kalacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. Uyarılar, ölçerlerde, KPI’lerde ve kartlarda çalışır. Bu özellik hala geliştirilmektedir. Bu nedenle, [aşağıdaki İpuçları ve sorun giderme](#tips-and-troubleshooting) bölümüne bakın.
 
 ![kutucuk, kart, KPI](media/end-user-alerts/card-gauge-kpi.png)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61262717"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307449"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
 
@@ -44,7 +44,7 @@ Power BI ile özel görselleri kullanarak size şirketinize göre uyarlanmış b
 
 ![CV örneği](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-Özel görsel geliştirme hakkında daha fazla bilgi edinmeye başlamak için bkz. [Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md).
+Özel görsel geliştirme hakkında daha fazla bilgi edinmeye başlamak için bkz. [Power BI özel görseli geliştirme](visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="using-api-automation"></a>API otomasyonunu kullanma
 

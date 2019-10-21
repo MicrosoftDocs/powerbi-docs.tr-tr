@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: eec8f3b74646fa7f783888b95e95c1ed8d922260
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271026"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543910"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 

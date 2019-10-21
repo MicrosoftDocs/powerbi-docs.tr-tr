@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946190"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307478"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
@@ -57,7 +57,7 @@ Hem Topluluk üyeleri hem de Microsoft, genel kamu yararı için Power BI görse
 Power BI sertifikalı görseller, kalite konusunda ek olarak sıkı testlerden geçirilmiş olan market görselleridir. Bu görsellerin, [e-posta abonelikleri](service-report-subscribe.md) ve [PowerPoint'e aktarma](service-publish-to-powerpoint.md) gibi ek senaryolardaki kullanımları desteklenir.
 Sertifikalı Power BI görsellerinin listesini görmek veya kendi Power BI görselinizi göndermek için bkz. [Sertifikalı Power BI görselleri](power-bi-custom-visuals-certified.md).
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI özel görseli geliştirme](developer/custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource’ta Power BI görselleri yayımlamayı](developer/office-store.md) öğrenin.
+Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI özel görseli geliştirme](developer/visuals/custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource'ta özel görseller yayımlamayı](developer/office-store.md) öğrenin.
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Bir dosyadan özel bir görseli içeri aktarma
 

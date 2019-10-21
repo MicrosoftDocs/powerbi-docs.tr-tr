@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/1/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc6a6557d01ba8145659bb244be8eb5786220665
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944116"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589504"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Bu makalede, Microsoft Power BI hizmetinde bir görselin detayına nasıl gidileceği gösterilir. Veri noktalarınızda detaya gitmeyi ve detaydan çıkmayı kullanarak verilerinizi çok ayrıntılı keşfedebilirsiniz. 
 

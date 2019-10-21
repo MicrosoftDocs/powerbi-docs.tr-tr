@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/2/2019
+ms.date: 10/02/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
+ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943918"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72379905"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 

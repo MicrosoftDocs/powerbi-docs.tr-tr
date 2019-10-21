@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903603"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511677"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 **Power BI Desktop** verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. **Power BI Desktop** ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz.  **Power BI Desktop** ücretsiz olarak indirilir.
@@ -105,28 +105,6 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 
 Power BI Desktop ile her zaman harika bir deneyim yaşamanızı istiyoruz. Power BI Desktop'ta sorunlarla karşılaştığınız noktalar olabilir. Bu bölümde ortaya çıkabilecek sorunlarla ilgili çözümlere veya önerilere yer verilmiştir. 
 
-### <a name="installing-power-bi-desktop-on-remote-machines"></a>Uzak makinelere Power BI Desktop yükleme
-
-Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir araçla Power BI Desktop dağıtıyorsanız, .msi dosyasını Power BI Desktop installer .exe dosyasından ayıklayabilirsiniz. Bunu gerçekleştirmek için WiX Toolset gibi üçüncü taraf araçları kullanabilirsiniz.
-
-> [!NOTE]
-> Üçüncü taraf ürün olarak WiX Toolset seçenekleri bildirimde bulunulmadan değişebilir. Lütfen en güncel bilgiler için belgelerini kontrol edin ve yardım almak için kullanıcı posta listesine başvurun.
-
-* Power BI Desktop yükleyicisini indirdiğiniz bilgisayarda, https://wixtoolset.org/ adresindeki Wix Web sitesinden WiX Toolset’in en son sürümünü indirip yükleyin.
-* Yönetici olarak bir komut satırı penceresi açın ve WiX Toolset’i yüklediğiniz klasöre gidin.
-* Aşağıdaki komutu çalıştırın: 
-    
-    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
-
-    Örneğin, şunu çalıştırın:
-
-    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
-
-* Çıktı klasöründe .msi dosyalarını içeren *AttachedContainer* adlı bir klasör bulunur.
-
-
-
-
 ### <a name="using-command-line-options-during-installation"></a>Yükleme sırasında komut satırı seçeneklerini kullanma 
 
 Power BI Desktop yüklerken komut satırı geçişleriyle özellikleri ve seçenekleri ayarlayabilirsiniz. Bu seçenek özellikle kuruluş genelinde Power BI Desktop yüklemesini yöneten veya kolaylaştıran Yöneticiler için yararlıdır. Bu seçenekler .msi ve .exe yüklemeleri için geçerlidir. 
@@ -146,7 +124,6 @@ Power BI Desktop yüklerken komut satırı geçişleriyle özellikleri ve seçen
 
 Ayrıca, bir "PROPERTY=VALUE" söz dizimi ile belirtilen aşağıdaki **söz dizimi parametrelerini** kullanabilirsiniz:
 
-
 |Parametre  |Anlamı  |
 |---------|---------|
 |ACCEPT_EULA     |EULA belgesini otomatik olarak kabul etmek için 1 değeri gerektirir         |
@@ -156,12 +133,28 @@ Ayrıca, bir "PROPERTY=VALUE" söz dizimi ile belirtilen aşağıdaki **söz diz
 |LANGUAGE     |Uygulamanın varsayılan dilini uygulamak için, yerel ayar kodu (örneğin, en-US, de-DE, PR-BR). Dil belirtilmemişse, Power BI Desktop Windows işletim sistemi dilini görüntüler. Bu ayar, Seçenekler iletişim kutusundan kullanıcı tarafından değiştirilebilir.         |
 |REG_SHOWLEADGENDIALOG     |0 değeri, Power BI Desktop’ta oturum açmadan önce görüntülenen iletişim kutusunu göstermeyi devre dışı bırakır         |
 
-
-
-
 Örneğin, Almanca dilini kullanarak herhangi bir kullanıcı arabirimi olmadan yüklemek için aşağıdaki söz dizimi ile çalıştırabilirsiniz: 
 
 ```“-quiet LANG=de-DE ACCEPT_EULA=1”```
+
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>Uzak makinelere Power BI Desktop yükleme
+
+Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir araçla Power BI Desktop dağıtıyorsanız, .msi dosyasını Power BI Desktop installer .exe dosyasından ayıklayabilirsiniz. Bunu gerçekleştirmek için WiX Toolset gibi üçüncü taraf araçları kullanabilirsiniz.
+
+> [!NOTE]
+> Üçüncü taraf ürün olarak WiX Toolset seçenekleri bildirimde bulunulmadan değişebilir. Lütfen en güncel bilgiler için belgelerini kontrol edin ve yardım almak için kullanıcı posta listesine başvurun.
+
+* Power BI Desktop yükleyicisini indirdiğiniz bilgisayarda, https://wixtoolset.org/ adresindeki Wix Web sitesinden WiX Toolset’in en son sürümünü indirip yükleyin.
+* Yönetici olarak bir komut satırı penceresi açın ve WiX Toolset’i yüklediğiniz klasöre gidin.
+* Aşağıdaki komutu çalıştırın: 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    Örneğin, şunu çalıştırın:
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* Çıktı klasöründe .msi dosyalarını içeren *AttachedContainer* adlı bir klasör bulunur.
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop'ın önceki sürümlerini kullanırken ortaya çıkan sorunlar
