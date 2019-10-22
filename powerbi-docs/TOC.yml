@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Matris görseli
               href: visuals/desktop-matrix-visual.md
+            - name: Soru-Cevap görseli
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Power BI'da R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
               href: visuals/service-r-visuals.md
             - name: Power BI'da radyal ölçer grafikleri
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: Dinamik başvuru çizgileri oluşturma
               href: service-analytics-pane.md
+        - name: Doğal dil
+          items:
+            - name: Soru-Cevap’a giriş
+              href: natural-language/q-and-a-intro.md
+            - name: Soru-Cevap görseli
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: Soru-Cevap araçları Giriş
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: Soru-Cevap araçları Soru-Cevap’a öğretin
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Soru-Cevap araçları gelişmiş
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: Soru-Cevap en iyi yöntemler
+              href: natural-language/q-and-a-best-practices.md
+            - name: Soru-Cevap sınırlamaları
+              href: natural-language/q-and-a-limitations.md
         - name: Sorun giderme
           items:
             - name: Power BI Desktop ve Power Query'de Access Veritabanlarını ve Excel elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
