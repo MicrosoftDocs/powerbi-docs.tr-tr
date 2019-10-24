@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020316"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543443"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
 [Power BI'da panolara giriş](service-dashboards.md) makalesini okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Pano oluşturmanın birçok farklı yolu vardır. Örneğin bir rapordan, sıfırdan, bir veri kümesinden veya mevcut panoyu yinelenerek oluşturulabilirler.  
@@ -68,9 +68,9 @@ Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini i
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Raporu açma ve panonuza kutucukları sabitleme
 1. Aynı çalışma alanında **Raporlar** sekmesini seçin ve ardından **Tedarik Analizi Örneği**'ni seçerek raporu açın.
 
-    ![Raporlar sekmesi](media/service-dashboard-create/power-bi-reports.png) Rapor Okuma görünümünde açılır. Alt kısımda iki sekmesi olduğuna dikkat edin: **Discount Analysis** ve **Spend Overview**. Her sekme raporun bir sayfasını temsil eder.
+    ![Raporlar sekmesi](media/service-dashboard-create/power-bi-reports.png) Rapor Okuma görünümünde açılır. Solda iki sekmesi olduğuna dikkat edin: **Discount Analysis** ve **Spend Overview**. Her sekme raporun bir sayfasını temsil eder.
 
-2. **Raporu düzenle**'yi seçerek raporu Düzenleme görünümünde açın.
+2. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporu Düzenleme görünümünde açın.
 
     ![Okuma görünümünde rapor](media/service-dashboard-create/power-bi-reading-view.png)
 3. Kullanılabilir seçenekleri görüntülemek için bir görselleştirmenin üzerine gelin. Panoya görselleştirme eklemek için raptiye simgesini seçin ![Raptiye simgesi](media/service-dashboard-create/power-bi-pin-icon.png)geçin.

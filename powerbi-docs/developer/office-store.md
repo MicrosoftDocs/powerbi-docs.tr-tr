@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944815"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307661"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource'ta Power BI görsellerini yayımlama
 
 Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
 
-Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI Özel Görseli Geliştirme](custom-visual-develop-tutorial.md).
+Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI Özel Görseli Geliştirme](visuals/custom-visual-develop-tutorial.md).
 
    ![Office Mağazası](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikal
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)  
+[Power BI özel görseli geliştirme](visuals/custom-visual-develop-tutorial.md)  
 [Power BI'daki Görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](../power-bi-custom-visuals.md)  
 [Özel görselleri *sertifikalatma*](../power-bi-custom-visuals-certified.md)

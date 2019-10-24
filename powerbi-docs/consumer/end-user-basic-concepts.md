@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264700"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543761"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI hizmeti müşterilerine yönelik temel kavramlar
 
-Bu makalede [Power BI genel bakış](../power-bi-overview.md) sayfasını okuduğunuz ve bir Power BI ***tüketicisi*** olduğunuza karar verdiğiniz kabul edilmektedir. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır.
+Bu makalede [Power BI genel bakış](../power-bi-overview.md) sayfasını okuduğunuz ve bir [Power BI ***tüketicisi***](end-user-consumer.md) olduğunuza karar verdiğiniz varsayılmaktadır. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır.
 
 "Power BI Desktop" veya yalnızca "Desktop" terimini mutlaka duyacaksınız. Bu, panolar ve raporları oluşturup sizinle paylaşan *tasarımcıların* kullandığı tek başına bir araçtır. Başka Power BI araçları da olduğunu bilmeniz önemlidir. Tüketici olduğunuz sürece yalnızca Power BI hizmetiyle çalışırsınız. Bu makale yalnızca Power BI hizmeti için geçerlidir.
 
@@ -35,7 +35,7 @@ Power BI tüketicilerinin çoğu, Power BI hizmetine 1) şirketleri lisans satı
 
 Başlamak için bir tarayıcı penceresi açın ve **app.powerbi.com** adresini girin. Power BI hizmetini ilk kez açtığınızda aşağıdakine benzer bir ekranla karşılaşırsınız:
 
-![Power BI hizmeti Hoş Geldiniz ekranının görüntüsü.](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI hizmeti Hoş Geldiniz ekranının görüntüsü.](media/end-user-basic-concepts/power-bi-home.png)
 
 Power BI hizmetini kullandıkça web sitesini açtığınızda gösterilecek öğeleri kişiselleştirmiş olursunuz. Örneğin bazı kullanıcılar Power BI hizmetinin **Giriş** sayfasıyla açılmasını isterken bazıları ilk sayfada sık kullandıkları bir panoyu görmek ister. Sorun değil; bu makalede deneyiminizi nasıl kişiselleştirebileceğinizi öğreneceksiniz.
 
@@ -87,7 +87,7 @@ Her veri kümesi tek bir veri kaynağını temsil eder. Örneğin kaynak OneDriv
 
 Bir tasarımcı sizinle bir uygulama paylaştığında tasarımcının bu uygulamaya dahil ettiği veri kümelerini görebilirsiniz.
 
-![Uygulamalar'ın seçildiği ve tuvalde Veri Kümeleri bölümüne işaret eden bir okun bulunduğu Power BI kullanıcı arabiriminin ekran görüntüsü.](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Tuvalde Veri Kümeleri bölümünü işaret eden bir okun bulunduğu Power BI kullanıcı arabiriminin ekran görüntüsü.](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
 Bir veri kümesi...
 
@@ -98,10 +98,6 @@ Bir veri kümesi...
 - Söz konusu veri kümesindeki görseller farklı birçok panoda gösterilebilir
 
   ![Çok - bir ilişkilerine sahip bir veri kümesini gösteren grafik](media/end-user-basic-concepts/drawing2.png)
-
-Ayrıca, tasarımcılar diğer çalışma alanlarından veri kümelerini çalışma alanında içerik (raporlar, panolar) oluşturmak için kullanabilir. Power BI şu veri kümelerini başvurulan veri kümesi simgesini kullanarak gösterir:
-
-![Bağlantı simgesiyle bir veritabanının ekran görüntüsü.](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 Bir sonraki yapı taşı, görselleştirmelerdir.
 
@@ -131,7 +127,7 @@ _______________________________________________________
 
 Power BI raporu görselleştirme, grafik ve metin içeren bir veya birden fazla sayfadan oluşur. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. *Tasarımcılar*, raporları *tüketiciler* ile paylaşır ve onlar da [raporlarla *Okuma görünümünde* etkileşim kurar](end-user-reading-view.md).
 
-![Sekmeleri olan bir raporun ekran görüntüsü.](media/end-user-basic-concepts/power-bi-report2.png)
+![Sekmeleri olan bir raporun ekran görüntüsü.](media/end-user-basic-concepts/power-bi-report.png)
 
 Bir rapor...
 
@@ -151,7 +147,7 @@ Bir pano, temel alınan veri kümelerinin belirli bir alt kümesine ilişkin öz
 
   ![Örnek panonun ekran görüntüsü](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Kutucuk, bir *tasarımcının* *sabitlediği* bir görseldir. Örnek olarak bir raporda bulunan görsel bir panoya sabitlenebilir. Sabitlenen her kutucuk, Power BI'ın veri kümesinden oluşturduğu ve panoya sabitlediği bir [görselleştirme](end-user-visualizations.md) görüntüler. Bir kutucuk, bir rapor sayfasının tamamını da içerebilir. Bir kutucukta ayrıca canlı akış verileri veya video da bulunabilir. *Tasarımcılar* panolara birçok yolla kutucuk ekleyebilir. Bu yollar bu genel bakış makalesinin kapsamına alınamayacak kadar çoktur. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](end-user-tiles.md).
+Kutucuk, bir *tasarımcının* *sabitlediği* bir görseldir. Örnek olarak bir raporda bulunan görsel bir panoya sabitlenebilir. Sabitlenen her kutucuk, bir tasarımcının veri kümesinden oluşturduğu ve panoya sabitlediği bir [görselleştirme](end-user-visualizations.md) görüntüler. Bir kutucuk, bir rapor sayfasının tamamını da içerebilir. Bir kutucukta ayrıca canlı akış verileri veya video da bulunabilir. *Tasarımcılar* panolara birçok yolla kutucuk ekleyebilir. Bu yollar bu genel bakış makalesinin kapsamına alınamayacak kadar çoktur. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](end-user-tiles.md).
 
 Tüketiciler panoları düzenleyemez. Ancak yorum ekleyebilir, ilgili verileri görüntüleyebilir, sık kullanılanlara ekleyebilir, abone olabilir ve daha birçok işlem gerçekleştirebilirsiniz.
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 Bu pano ve rapor koleksiyonları, ilgili içeriği tek bir paket halinde düzenler. Power BI *tasarımcıları* uygulamaları oluşturur ve kişiler, gruplar, kuruluşun tamamı veya herkes ile paylaşır. Tüketici olarak iş arkadaşlarınızla birlikte aynı veriler üzerinde çalıştığınızdan ve verilerde çelişki olmadığından emin olmuş olursunuz.
 
-![Power BI'ın sol bölmesinde seçilen Uygulamalar'ın ekran görüntüsü.](media/end-user-basic-concepts/power-bi-app.png)
+![Power BI'ın sol bölmesinde seçilen Uygulamalar'ın ekran görüntüsü.](media/end-user-basic-concepts/power-bi-apps.png)
 
 [Power BI hizmetinde](https://powerbi.com) ve mobil cihazınızda uygulamaları kolayca bulabilir ve yükleyebilirsiniz. Uygulamayı yükledikten sonra birçok farklı panonun adını anımsamanız gerekmez. Bunların tümü tarayıcınızda veya mobil cihazınızda kullanılabilen tek bir uygulamada bir araya getirilmiştir.
 

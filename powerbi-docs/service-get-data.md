@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200963"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511668"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Verileri araştırdığınızı düşünelim. Grafikler ve panolar oluşturarak veya **Soru-Cevap** ile sorular sorarak bunu yapabilirsiniz. Gördüğünüz görselleştirmeler ve yanıtların temel verileri bir veri kümesinden alınır. Peki bu veri kümelerinin kaynağı nedir? İşte bunlar bir veri kaynağından gelir.
@@ -111,7 +111,11 @@ Veri yenileme Power BI'ın çok önemli bir parçasıdır ve bu makalede ele ala
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 Power BI hizmetinde kullanılan tüm veri kaynakları için aşağıdaki sınırlamaları göz önünde bulundurun. Belirli özellikler için geçerli başka sınırlamalar da vardır ama aşağıdaki liste Power BI hizmetinin tamamı için geçerlidir:
 
-* **Veri kümesi boyutu sınırı**: Power BI hizmetindeki her veri kümesi için 1 GB'lık bir sınır vardır.
-* **Satır sınırı**: **DirectQuery** kullanılmadığında veri kümenizdeki satırların sayısı için üst sınır 2 milyardır. Bu satırlardan üçü ayrılmıştır, dolayısıyla sonuçta kullanılabilir satır sayısı üst sınırı 1.999.999.997 olur. **DirectQuery** kullanıldığında satır sayısı üst sınırı 1 milyondur.
-* **Sütun sınırı**: Bir veri kümesinde (tüm tablolarda) izin verilen maksimum sütun sayısı 16.000'dir. Bu sınır Power BI Desktop'ta kullanılan veri kümeleri ve Power BI hizmeti için geçerlidir. Power BI, veri kümesindeki her tablo için bir dahili satır numarası sütunu kullanır. Bu durumda maksimum sütun sayısı, 16.000'den veri kümesindeki her tablo için 1 çıkarıldığında elde edilen sayıdır.
+* **Veri kümesi boyutu sınırı**: Power BI hizmetinde Paylaşılan kapasitelerde depolanan veri kümeleri için 1 GB sınırı vardır. Daha büyük veri kümelerine ihtiyacınız varsa [Power BI Premium](service-premium-what-is.md)’u kullanabilirsiniz.
+
+* **Sütundaki benzersiz değerler**: Power BI veri kümesinde verileri önbelleğe kaydederken (bazen ‘İçeri Aktarma’ modu olarak adlandırılır), bir sütunda depolanabilecek benzersiz değer sayısı üzerinde 1.999.999.997 sınırı vardır.
+
+* **Satır sınırı**: **DirectQuery** kullanıldığında Power BI, temel veri kaynağınıza gönderilen sorgu sonuçlarına bir sınır uygular. Veri kaynağına gönderilen sorgu bir milyondan fazla satır döndürürse, bir hata görürsünüz ve sorgu başarısız olur. Temel verileriniz halen bir milyondan fazla satır içerebilir. Çoğu rapor, verileri daha küçük sonuç kümeleri halinde topladığından bu sınıra ulaşma ihtimaliniz çok düşüktür.
+
+* **Sütun sınırı**: Bir veri kümesinde (tüm tablolarda) izin verilen maksimum sütun sayısı 16.000'dir. Bu sınır Power BI Desktop'ta kullanılan veri kümeleri ve Power BI hizmeti için geçerlidir. Power BI, veri kümesindeki sütun ve tablo sayısını bu şekilde izler. Bu durumda maksimum sütun sayısı, 16.000'den veri kümesindeki her tablo için 1 çıkarıldığında elde edilen sayıdır.
 

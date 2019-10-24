@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561067"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544002"
 ---
 # <a name="conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme 
 Tablolar için koşullu biçimlendirme sayesinde hücre değerlerine göre (veya başka değerlere ya da alanlara göre) özel hücre renkleri belirtebilir ve gradyan renklerini kullanabilirsiniz. Ayrıca, veri çubukları ile hücre değerlerini gösterebilirsiniz. 
@@ -140,6 +140,9 @@ Görsellerinizi renklendirmek için [https://www.w3.org/TR/css-color-3/](https:/
 Koşul tablo biçimlendirme ile çalışırken dikkat etmeniz gereken birkaç önemli nokta vardır:
 
 * Koşullu biçimlendirme yalnızca **Matris** görselinin değerlerine uygulanır ve alt toplamlar ya da genel toplamlar için uygulanmaz. 
+* **Toplam** satırına koşullu biçimlendirme uygulanmaz
+* Gruplandırması olmayan Tablolar, koşullu biçimlendirmeyi desteklemeyen tek bir satır olarak görüntülenir.
+* Otomatik maksimum/minimum değerler veya yüzde kuralları ile kurala dayalı biçimlendirme içeren gradyan biçimini kullanırsanız, verileriniz NaN değerlerini içerdiğinde koşullu biçimlendirme uygulanamaz. NaN, ‘Sayı değil’ anlamına gelir ve genellikle sıfıra bölme hatasından kaynaklanır. Bu hataları engellemek için [DIVIDE() DAX işlevini](https://docs.microsoft.com/dax/divide-function-dax) kullanabilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

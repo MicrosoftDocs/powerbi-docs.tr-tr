@@ -7,16 +7,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66050987"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544272"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.
@@ -65,16 +65,16 @@ Alan silinmiş veya yeniden adlandırılmış olabilir. Bozuk alanı görselden 
 
 Bu genellikle geçici bir sorundur. Daha sonra yeniden denediğinizde aynı iletiyi görürseniz destek ekibiyle iletişime geçin.
 
-**Çoklu oturum açma (SSO) etkinleştirdikten sonra filtrelenmemiş verileri göstermek üzere kutucukları devam edin.**
+**Kutucuklar, çoklu oturum açma (SSO) etkinleştirildikten sonra filtrelenmemiş verileri göstermeye devam eder.**
 
-Temel alınan veri kümesi DirectQuery modunda veya Analysis Services'e yönelik canlı bir bağlantı bir şirket içi veri ağ geçidi kullanmak için yapılandırılmışsa, bu durum oluşabilir. Bu durumda, kutucukları sonraki kutucuk yenileme son olana kadar SSO veri kaynağı için etkinleştirdikten sonra filtrelenmemiş verileri göstermek devam edin. Sonraki kutucuk yenileme, yapılandırılan SSO Power BI'ı kullanır ve kullanıcı kimliğini göre filtrelenmiş veri kutucukları göster. 
+Temel alınan veri kümesi, bir şirket içi veri ağ geçidi üzerinden Analysis Services için DirectQuery modunu veya Canlı Bağlantıyı kullanmak üzere yapılandırıldıysa bu durum oluşabilir. Bu durumda kutucuklar, sonraki kutucuk yenileme zamanı gelinceye kadar veri kaynağı için çoklu oturum açma etkinleştirildikten sonra filtrelenmemiş verileri göstermeye devam eder. Sonraki kutucuk yenilemesinde Power BI, yapılandırıldığı şekilde çoklu oturum açmayı kullanır ve kutucuklar, kullanıcı kimliğine göre filtrelenen verileri gösterir. 
 
-Filtrelenen verileri hemen görmek istiyorsanız, sağ üst kısmındaki bir Pano nokta (...) ve seçerek kutucuk yenileme zorlayabilirsiniz **Pano kutucuklarını Yenile**.
+Filtrelenen verileri hemen görmek istiyorsanız, panonun sağ üst kısmındaki üç nokta (...) simgesini seçip **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
 
-Bir veri kümesi sahibi kutucuk yenileme sıklığını değiştirmek ve kutucuk yenileme hızlandırmak için 15 dakika olarak ayarlayın. Power BI hizmetinin sağ üst köşesindeki dişli simgesini seçin ve ardından **ayarları**. Üzerinde **ayarları** sayfasında **veri kümeleri** sekmesi. Genişletin **zamanlanmış önbellek yenileme** değiştirip **yenileme sıklığını**. Power BI'ı sonraki kutucuk yenileme gerçekleştirdikten sonra özgün yenileme sıklığı için yapılandırmayı sıfırlamak emin olun.
+Ayrıca veri kümesi sahibi olarak, kutucuk yenilemeyi hızlandırmak için kutucuk yenileme sıklığını değiştirip 15 dakika olarak ayarlayabilirsiniz. Power BI hizmetinin sağ üst köşesinde yer alan dişli simgesini ve ardından **Ayarlar**’ı seçin. **Ayarlar** sayfasında **Veri Kümeleri**’ni seçin. **Zamanlanmış önbellek yenileme**’yi genişletin ve **Yenileme sıklığı**’nı değiştirin. Power BI, sonraki kutucuk yenilemeyi gerçekleştirdikten sonra yapılandırmayı özgün yenileme sıklığına sıfırladığınızdan emin olun.
 
 > [!NOTE]
-> **Zamanlanmış önbellek yenileme** bölümdür yalnızca DirectQuery/LiveConnection modunda veri kümeleri için kullanılabilir. Kutucuklar, sonraki zamanlanmış veri yenileme işlemi sırasında otomatik olarak yenilenir olduğundan içeri aktarma modunda veri kümeleri ayrı kutucuk yenileme gerek yoktur.
+> **Zamanlanmış önbellek yenileme** bölümü yalnızca DirectQuery/LiveConnection modunda veri kümeleri için kullanılabilir olur. Kutucuklar sonraki zamanlanmış veri yenilemesi sırasında otomatik olarak yenilendiğinden, içeri aktarma modunda veri kümeleri için ayrı bir kutucuk yenilemesi gerekmez.
 
 ## <a name="contact-support"></a>Desteğe başvurun
 Sorun yaşamaya devam ediyorsanız daha fazla araştırma yapılabilmesi için [destek ekibiyle iletişime geçin](https://support.powerbi.com).

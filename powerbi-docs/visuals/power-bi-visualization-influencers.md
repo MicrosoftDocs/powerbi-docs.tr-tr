@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995278"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544078"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Ana etmenler görseli ilgilendiğiniz bir ölçümü etkileyen faktörleri anlamanıza yardımcı olur. Verilerinizi çözümler, önemli faktörleri derecelendirir ve bunları ana etmenler olarak görüntüler. Örneğin, çalışan kaybı olarak da bilinen personel değişim oranını etkileyen etmenleri öğrenmek istediğinizi varsayalım. Faktörlerden biri istihdam sözleşmesinin süresi ve diğeri de çalışanların yaşı olabilir. 
  
 ## <a name="when-to-use-key-influencers"></a>Ana etmenler ne zaman kullanılmalı? 
@@ -49,6 +52,10 @@ Ana etmen görseli şunları yapmak için harika bir seçimdir:
  
 Kategorik bir ölçümle ana etmenler görseli oluşturmayı öğrenmek için bu videoyu izleyin. Ardından, bir ana etmen görseli oluşturmak için bu adımları izleyin. 
 
+   > [!NOTE]
+   > Bu videoda Power BI Desktop’ın önceki bir sürümü kullanılmaktadır.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ürün Yöneticiniz, müşterilerin bulut hizmetiniz hakkında olumsuz incelemeler yazmasına hangi faktörlerin yol açtığını bulmanızı istiyor. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) da indirebilirsiniz. 

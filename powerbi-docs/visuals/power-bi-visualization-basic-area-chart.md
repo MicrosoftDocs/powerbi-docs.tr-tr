@@ -10,19 +10,22 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839852"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544173"
 ---
 # <a name="basic-area-chart"></a>Basit Alan grafiği
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Basit alan grafiği (katmanlı alan grafiği olarak da bilinir) çizgi grafiğini temel alır. Eksen ve çizgi arasındaki alan, hacmi gösteren renklerle doldurulur. 
 
 Alan grafikleri, zaman içindeki değişimin büyüklüğünü vurgular ve bir eğilime ilişkin toplam değere dikkat çekmek için kullanılabilir. Örneğin, zaman içindeki kârı gösteren veriler, bir alan grafiğinde toplam kârı vurgulayacak şekilde gösterilebilir.
 
-![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 ## <a name="when-to-use-a-basic-area-chart"></a>Basit alan grafikleri ne zaman kullanılır?
 Basit alan grafikleri aşağıdaki durumlarda harika bir seçimdir:
@@ -31,29 +34,32 @@ Basit alan grafikleri aşağıdaki durumlarda harika bir seçimdir:
 * fiziksel olarak hesaplanabilen bir kümeyi temsil eden ayrı seriler için
 
 ### <a name="prerequisites"></a>Önkoşullar
- - Power BI hizmeti
- - Perakende Analizi örneği
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-Birlikte ilerlemek için Power BI'da oturum açıp **Veri Al \> Örnekler \> Perakende Analizi Örneği > Bağlan**'ı seçtikten sonra **Panoya git** seçeneğini belirleyin. 
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+   
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
+
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
 
 ## <a name="create-a-basic-area-chart"></a>Basit alan grafiği oluşturma
  
 
-1. "Retail Analysis Sample" panosunda, **Total Stores** kutucuğunu seçerek "Retail Analysis Sample" raporunu açın.
-2. **Düzenle**’yi seçerek Düzenleme Görünümü’nde raporu açın.
-3. Raporun alt kısmında bulunan sarı artı simgesini (+) seçerek yeni bir rapor sayfası ekleyin.
-4. İçinde bulunulan yılın ve geçen yılın satışlarını aya göre görüntüleyen bir alan grafiği oluşturun.
+1. Bu adımlar, aya göre bu yılın satışını ve geçen yılın satışını görüntüleyen bir alan grafiği oluşturmanıza yardımcı olur.
    
    a. Alanlar bölmesinde **Sales \> Last Year Sales** ve **This Year Sales > Değer** seçeneğini belirleyin.
 
-   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+   ![alan grafiği veri değerleri](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
    b.  Görsel öğeler bölmesinden Alan grafiği simgesini seçerek grafiği, basit bir alan grafiğine dönüştürün.
 
-   ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![alan grafiği simgesi](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **Eksen** kutusuna eklemek üzere **Time \> Month** seçeneğini belirleyin.   
-   ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+   c.  **Eksen** kutusuna eklemek üzere **Time \> FiscalMonth** alanını seçin.   
+   ![alan grafiği eksen değerleri](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Grafiği aya göre görüntülemek için, üç nokta (görselin sağ üst köşesinde) simgesini seçin ve **Sıralama Ölçütü: Month** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
 
@@ -62,14 +68,11 @@ Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekle
 
 Grafiğinizdeki belirli bir alanı vurgulamak için ilgili alanı veya üst kenarlığını seçin.  Diğer görselleştirme türlerinin aksine, sayfada başka görselleştirmeler varken basit alan grafiklerini vurguladığınızda rapor sayfasındaki diğer görselleştirmeler için çapraz filtre uygulanmaz. Ancak alan grafikleri, rapor sayfasındaki diğer görselleştirmeler tarafından tetiklenen çapraz filtrelemelerden etkilenir. 
 
-1. Alan grafiğinizi seçip başka bir rapor sayfasına (CTRL-C ve CTRL-V) kopyalayarak deneyin.
-2. Gölgeli alanlardan birini ve ardından diğer gölgeli alanı seçin. Sayfadaki diğer görsel öğelerde hiçbir etki olmadığını fark edeceksiniz.
+1. Alan grafiğinizi seçip **Yeni Mağaza Analizi** rapor sayfasına kopyalayarak (CTRL-C ve CTRL-V) deneyin.
+2. Alan grafiğinin gölgeli alanlarından birini ve ardından diğer gölgeli alanı seçin. Sayfadaki diğer görsel öğelerde hiçbir etki olmadığını fark edeceksiniz.
+1. Şimdi bir öğe seçin. Alan grafiği üzerindeki etkiye dikkat edin, çapraz filtrelenir.
 
-    ![Alan grafiğinde seçili bu yılın satışları](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
-
-3. Şimdi, sayfadaki diğer görsel öğelerden birinde, sütun grafik çubuğu veya çizgi grafikteki ay gibi bir öğe seçin. Alan grafiği üzerindeki filtreleme etkisine dikkat edin.  
-
-    ![Ft Oglethorpe çubuğu seçilir](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+    ![Filtre örnekleri](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
 Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](../service-reports-visual-interactions.md)
 

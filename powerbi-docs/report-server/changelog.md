@@ -1,5 +1,5 @@
 ---
-title: Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
+title: Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 description: Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 ms.author: jaimeta
 author: jtarquino
@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325719"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259969"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik değişiklik günlüğü
+# <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
@@ -24,12 +24,19 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 
 ## <a name="september-2019"></a>Eylül 2019
 
-- **Power BI Rapor Sunucusu**          
+- **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.6.7221.30698 (Derleme 15.0.1102.620), Yayınlanma Tarihi: 9 Ekim 2019*
+        - Hata düzeltmeleri
+            - Metin Filtresi özel görseli için düzeltme.
+            - Açılır liste dilimleyicilerinin performansı için düzeltme.
+            - Telemetriden Şerit PII için düzeltme.
+          - URL’lerin büyük/küçük harfe duyarlı olmaması için düzeltme.
+             
     - *Sürüm 1.6.7206.38019 (Derleme 15.0.1102.597), Yayınlanma tarihi: 26 Eylül 2019*
         - Güvenlik güncelleştirmeleri
-        - Hata Düzeltmeleri
-           - Sayfalandırılmış Raporlar
-             - IE ve Edge kullanılırken karşılaşılan erişilebilirlik sorunlarıyla ilgili çözüm.
+        - Hata düzeltmeleri
+           - Sayfalandırılmış raporlar
+             - Internet Explorer ve Microsoft Edge kullanılırken karşılaşılan erişilebilirlik sorunlarıyla ilgili çözüm.
              - Bağlantıyı test ederken karşılaşılan SAP HANA sorunlarıyla ilgili çözüm.
              - E-posta adresleri listesi sağlanırken bulunan sorunlar için çözüm.
              - DirectQuery veri kaynağı ve tümleşik kimlik doğrulaması kullanan Power BI raporları için çözüm.
@@ -43,10 +50,17 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
              - Web API: /PowerBIReports({Id})/DataSources (PATCH), bağlantı dizesi güncelleştirmelerine izin verecek şekilde güncelleştirildi.
          
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+
+    - *Sürüm: 2.73.5586.1241 (Eylül 2019), Yayınlanma Tarihi: 9 Ekim 2019*
+        - Hata düzeltmeleri
+            - Metin Filtresi özel görseli için düzeltme.
+            - Açılır liste dilimleyicilerinin performansı için düzeltme.
+            - Telemetriden Şerit PII için düzeltme.
+            
     - *Sürüm: 2.73.5586.821 (Eylül 2019), Yayınlanma tarihi: 26 Eylül 2019* (yeni derleme ve yeni sürüm)
-    - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Eylül 2019)
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Eylül 2019)
 
-
+    
 ## <a name="may-2019"></a>Mayıs 2019
 
 - **Power BI Rapor Sunucusu**          

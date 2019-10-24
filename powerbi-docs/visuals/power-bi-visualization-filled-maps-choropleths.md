@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299343"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544369"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak nasıl farklılık gösterdiğini görüntülemek için gölgelendirmeyi ya da tonlandırmayı veya desenleri kullanır.  Bu göreli farklılıkları açıktan (daha az sık/daha düşük) koyuya (daha fazla sık/daha yüksek) çeşitlilik gösteren gölgelendirme ile hızlıca görüntüleyin.    
 
 ![ABD haritası](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Kartogramlar şu durumlarda kullanım için mükemmel seçimdir:
 * coğrafi konumlarda dağıtıma ilişkin bir genel bakış edinmek için.
 
 ### <a name="prerequisites"></a>Önkoşullar
-- Power BI hizmeti veya Power BI Desktop
-- Satış ve Pazarlama Örneği
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) kullanılmıştır.
+1. Menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
+   
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
-Örneği takip etmek için bu öğreticide Power BI Desktop yerine Power BI hizmeti kullanılmaktadır.
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
 
 ## <a name="create-a-basic-filled-map"></a>Temel bir kartogram oluşturma
 Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
+   > [!NOTE]
+   > Bu videoda Power BI Desktop’ın önceki bir sürümü kullanılmaktadır.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Veri alma ve rapora yeni bir boş sayfa ekleme
-1. Kendi kartogramınızı oluşturmak için Power BI'da oturum açıp **Veri Al \> Örnekler \> Satış ve Pazarlama \> Bağlan** seçeneklerini belirleyerek [Satış ve Pazarlama örneğini indirin](../sample-datasets.md). İsterseniz appsource.com'dan **Power BI Satış ve Pazarlama** uygulamasını da alabilirsiniz. 
-
-2. Satış ve Pazarlama raporunu açın.
-
-   ![Satış ve pazarlama raporu açılır](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI, raporu açar. **Raporu düzenle**’yi seçerek [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)’nde raporu açın.
-
-4. Rapor tuvalinin alt kısmında bulunan sarı artı işaretini seçerek yeni bir sayfa ekleyin.
-
-    ![Rapor sekmeleri](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>Kartogram oluşturma
 1. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
@@ -75,9 +75,9 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
    ![kartogram simgesinin vurgulandığı şablonlar](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Haritayı, yalnızca Kıtasal Amerika Birleşik Devletleri görüntülenecek şekilde filtreleyin.
 
-   a.  Görsel Öğeler bölmesinin alt tarafında **Filtreler** alanını bulun.
+   a.  Görsel Öğeler bölmesinin sol tarafında **Filtreler** bölmesini bulun. Simge durumuna küçültüldüyse genişletin
 
-   b.  **State** seçeneğinin üzerine gelin ve genişlet köşeli çift ayracına tıklayın  
+   b.  **State** seçeneğinin üzerine gelin ve genişlet köşeli çift ayracını seçin  
    ![State(All) gösteren görsel düzeyi filtreleri](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  **Tümü** seçeneğinin yanına bir onay işareti koyun ve **AK** seçeneğinin yanındaki onay işaretini kaldırın.
@@ -115,11 +115,11 @@ Bir Kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselle�
 
     ![Yaklaşım sekmesi seçili](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Yer açmak için sayfadaki görselleştirmeleri taşıyıp yeniden boyutlandırın ve sonra CTRL-V kısayolunu kullanarak önceki rapordan kartogramı yapıştırın.
+4. Yer açmak için sayfadaki görselleştirmeleri taşıyıp yeniden boyutlandırın ve sonra CTRL-V kısayolunu kullanarak önceki rapordan kartogramı yapıştırın. (Aşağıdaki resmi görürsünüz)
 
    ![Yaklaşım sayfasına eklenen kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Kartogramda bir eyalet seçin.  Bu işlem, sayfadaki diğer görselleştirmeleri vurgular. Örneğin, **Texas** seçeneği belirlendiğinde Yaklaşımın 74 olduğu ve Texas’ın Central District \#23’te olduğu bana gösterilir.   
+5. Kartogramda bir eyalet seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır ve çapraz filtrelenir. Örneğin, **Texas** seçeneği belirlendiğinde Yaklaşımın 75 olduğu ve Texas’ın Central District #23’te olduğu bana gösterilir.   
    ![Texas seçili](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. VanArsdel üzerinde bir veri noktası seçin - Aya Göre Yaklaşım çizgi grafiği. Bu, rakibi için değil, VanArsdel için Yaklaşım verilerini göstermek amacıyla kartogramı filtreler.  
    ![yeni gölgelendirme](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

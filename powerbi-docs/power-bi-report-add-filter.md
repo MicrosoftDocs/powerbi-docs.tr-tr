@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968800"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544971"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
 
@@ -51,11 +51,12 @@ Bir görsele görsel düzeyi filtre eklemek için kullanabileceğiniz iki yönte
 * Görselleştirme tarafından kullanılan bir alanı filtreleyebilirsiniz.
 * Görselleştirme tarafından kullanılmayan bir alan belirleyip söz konusu alanı doğrudan **Görsel düzeyi filtreleri** demetine ekleyebilirsiniz.
 
-Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de indirip adımları takip edebilirsiniz. [Perakende Analizi örneğini](sample-retail-analysis.md) indirin.
+
+Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de indirip adımları takip edebilirsiniz. [Perakende Analizi örneği](sample-retail-analysis.md#get-the-content-pack-for-this-sample) içerik paketini indirin.
 
 ### <a name="filter-the-fields-in-the-visual"></a>Görseldeki alanları filtreleme
 
-1. **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
+1. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
    
    ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
 
 Şimdi de görselleştirmemize bir görsel düzeyinde filtre olarak yeni bir alan ekleyelim.
    
-1. Alanlar bölmesinden yeni görsel düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Görsel düzeyi filtreleri alanına** sürükleyin.  Bu örnekte, **Görsel düzeyi filtreleri** demetine **District Manager** öğesini sürükleyip **an** araması yapacak ve listelenen üç yöneticiyi seçeceğiz. 
+1. Alanlar bölmesinden yeni görsel düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Görsel düzeyi filtreleri alanına** sürükleyin.  Bu örnekte, **Görsel düzeyi filtreleri** demetine **District Manager** öğesini sürükleyip **an** araması yapacak ve listelenen üç yöneticiyi seçeceğiz.
      
     ![Filtreler bölmesine alan ekleme](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
 
 Sayfanın tamamını filtrelemek için sayfa düzeyi bir filtre de ekleyebilirsiniz.
 
-1. **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
+1. Power BI hizmetinde, Perakende Analizi raporunu açın ve **Bölge Aylık Satışı** sayfasına gidin. 
+
+2. **...**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
    
    ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
@@ -122,19 +125,21 @@ Sayfanın tamamını filtrelemek için sayfa düzeyi bir filtre de ekleyebilirsi
 Power BI hizmetinde ve Power BI Desktop'ta tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan *hedef* rapor sayfaları oluşturabilirsiniz. Artık kullanıcılar, diğer rapor sayfalarında söz konusu varlığa ilişkin veri noktasına sağ tıklayarak, odaklanılmış sayfada detaylandırma yapabilirler.
 
 ### <a name="create-a-drillthrough-filter"></a>Detaylandırma filtresi oluşturma
-Konuyu takip etmek için [Müşteri Kârlılığı örneğini](sample-customer-profitability.md) indirin. İdari işletme alanlarına odaklanan bir sayfa istediğinizi düşünelim.
+Konuyu takip etmek için [Müşteri Kârlılığı örneğini](sample-customer-profitability.md#get-the-content-pack-for-this-sample) indirin. İdari işletme alanlarına odaklanan bir sayfa istediğinizi düşünelim.
 
-1. **Raporu düzenle**'yi seçerek raporu Düzenleme görünümünde açın.
+1. Power BI hizmetinde, Perakende Analizi raporunu açın ve **Bölge Aylık Satışı** sayfasına gidin.
+
+2. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
    
    ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Rapora yeni bir sayfa ekleyip sayfayı **Team Executive** olarak adlandırın. Bu sayfa, detaylandırmanın *hedef* sayfası olacaktır.
 2. İdari ekibin işletme alanlarına yönelik ana ölçümleri takip eden görselleştirmeleri ekleyin.    
-3. Detaylandırma filtreleri bölmesine **Executive > Executive Name** seçeneğini ekleyin.    
+3. **İdareciler** tablosundan **İdari** öğesini Detaylandırma filtrelerine sürükleyin.    
    
     ![Detaylandırma filtrelerine değer ekleme](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Power BI'ın rapor sayfasına bir geri oku eklediğine dikkat edin.  Geri okunu seçen kullanıcılar, detaylandırma seçeneğini belirlerken bulundukları sayfa olan *kaynak* rapor sayfasına geri dönerler. Geri oku, yalnızca Okuma görünümü'nde çalışır.
+    Power BI'ın rapor sayfasına bir geri oku eklediğine dikkat edin.  Geri okunu seçen kullanıcılar, detaylandırma seçeneğini belirlerken bulundukları sayfa olan *kaynak* rapor sayfasına geri dönerler. Düzenleme görünümünde Ctrl tuşunu basılı tutarak geri okunu seçin
    
      ![Geri oku](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 2. Andrew Ma olduğunuzu ve yalnızca verilerinizi gösterecek şekilde filtrelenen Team Executive rapor sayfasını görmek istediğinizi düşünelim.  Detaylandırma menü seçeneğini açmak için sol üstteki alan grafiğinde bulunan herhangi bir yeşil veri noktasına sağ tıklayın.
    
     ![Detaylandırma eylemini başlatma](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. **Team Executive** adlı rapor sayfasında detaylandırma yapmak için **Detaylandırma > Team Executive** seçeneğini belirleyin. Sayfa, sağ tıkladığınız veri noktası (bu örnekte, Andrew Ma) hakkındaki bilgileri gösterecek şekilde filtrelenir. Yalnızca Detaylandırma filtreleri kutusundaki alan detaylandırma rapor sayfasına geçirilir.  
+3. **Team Executive** adlı rapor sayfasında detaylandırma yapmak için **Detaylandırma > Team Executive** seçeneğini belirleyin. Sayfa, sağ tıkladığınız veri noktası (bu örnekte, Andrew Ma) hakkındaki bilgileri gösterecek şekilde filtrelenir. Kaynak sayfadaki tüm filtreler, detaylandırma rapor sayfasına uygulanır.  
    
     ![Detaylandırma eylemini seçme](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

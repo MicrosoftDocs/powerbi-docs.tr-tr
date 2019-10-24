@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770786"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542961"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
@@ -33,10 +33,11 @@ Power BI hizmetini tarayıcıda açtığınızda kendi Giriş ekranınızdan ba�
 3. Power BI giriş düğmesi
 4. Simge düğmeleri (ayarlar, yardım ve geri bildirim gibi)
 5. Arama kutusu
-6. Sık kullanılan panonun kutucukları
-7. Sık kullanılan panolar ve raporlar
+6. Sık kullanılan panolar, raporlar ve çalışma alanları
+7. Son panolar, raporlar ve çalışma alanları
+8. Çalışma alanlarınız
 
-Raporlarınızın ve panolarınızın son kullanıcıları tarayıcıdaki Power BI hizmeti deneyimine aynı şekilde başlar.
+Siz ve raporlarınızın ve panolarınızın son kullanıcıları, tarayıcıdaki Power BI hizmetinde aynı başlangıç deneyimine sahipsiniz.
 
 Daha sonra bu özelliklerin ayrıntısına ineceğiz ancak şimdi bazı Power BI kavramlarını inceleyelim. Öte yandan önce bu videoyu izlemeniz de faydalı olabilir.  Videoda Will, temel kavramları inceliyor ve sizi Power BI hizmetinde bir tura çıkarıyor.
 
@@ -195,8 +196,8 @@ Soru-Cevap, panoya bağlı veri kümelerinde sorunuza cevap arar.  Söz konusu p
 
 Siz sorunuzu yazmaya başlar başlamaz Soru-Cevap sizi Soru-Cevap sayfasına götürür. Yazdığınız sırada Soru-Cevap, başka bir şekilde ifade etme, otomatik doldurma, öneriler ve daha fazlasıyla doğru soruyu sormanıza ve en iyi cevabı almanıza yardımcı olur. Memnun olduğunuz bir görselleştirme (cevap) bulunduğunda bunu panonuza sabitleyin. Daha fazla bilgi için bkz. [Power BI'daki Soru-Cevap](power-bi-q-and-a.md).
 
-### <a name="4-icon-buttons"></a>4. **Simge düğmeleri**
-Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma ve Power BI ekibine geri bildirim sağlamaya yönelik kaynaklarınızdır. Panoyu **Tam ekran** modunda açmak için çift oku seçin.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Siyah üst bilgi çubuğundaki simgeler**
+Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma, **Yeni görünümü** açıp kapatma ve Power BI ekibine geri bildirim sağlamaya yönelik kaynaklarınızdır.  
 
 ![simge düğmeleri](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Uygulama başlatıcısını kullanarak tüm Office 365 uygulamalarınıza tek t�
 
    ![Hizmette "Power BI"](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Etiketli simge düğmeleri**
-Ekranın bu bölümünde içerikle (bu durumda pano) etkileşim kurmak için kullanabileceğiniz ek seçenekler bulunur.  Etiketli simgelerin yanı sıra, üç noktanın seçilmesi halinde panoyu yineleme, yazdırma ve yenileme gibi seçeneklerle de karşılaşılır.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Gri menü çubuğundaki etiketli simgeler**
+Ekranın bu bölümünde içerikle (bu durumda pano) etkileşim kurmak için kullanabileceğiniz ek seçenekler bulunur.  Etiketli simgelerin yanı sıra, **Diğer seçenekler (...)** öğesinin seçilmesi halinde panoyu yineleme, yazdırma ve yenileme gibi seçeneklerle de karşılaşılır.
 
    ![Etiketli simge düğmeleri](media/service-basic-concepts/power-bi-labeled-icons.png)
 

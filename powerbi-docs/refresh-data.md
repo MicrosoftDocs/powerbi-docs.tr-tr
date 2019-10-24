@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325027"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307929"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -309,6 +309,13 @@ Uyarı simgesi, mevcut veri kümesi sorunlarının belirtilmesine yardımcı olu
 > [!NOTE]
 > Yenileme geçmişini görüntülemenizi sağlayan bağlantıyı veri kümesi ayarlarında bulabilirsiniz. Yenileme geçmişini, [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup)’sini kullanarak programlama yoluyla da alabilirsiniz. Özel bir çözüm kullanarak, birden fazla veri kümesinin yenileme geçmişini daha merkezi bir şekilde izleyebilirsiniz.
 
+## <a name="automatic-page-refresh"></a>Otomatik sayfa yenileme
+
+Otomatik sayfa yenileme, bir rapor sayfası düzeyinde çalışır ve rapor yazarlarının yalnızca sayfa kullanılırken etkin olan bir sayfadaki görseller için yenileme aralığı ayarlamasına olanak sağlar. Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir. Minimum yenileme aralığı, raporun hangi tür çalışma alanında yayımlandığına ve Premium çalışma alanları için kapasite yönetimi ayarlarına bağlıdır.
+
+[Otomatik sayfa yenileme](desktop-automatic-page-refresh.md) makalesinde otomatik sayfa yenileme hakkında daha fazla bilgi edinin.
+
+
 ## <a name="best-practices"></a>En iyi yöntemler
 
 Veri kümelerinizin yenileme geçmişini düzenli olarak denetleme, raporlarınızın ve panolarınızın mevcut verileri kullandığından emin olmak için benimseyebileceğiniz en önemli en iyi deneyimlerden biridir. Sorun bulursanız, bunları en kısa sürede çözün ve gerekirse veri kaynağı sahipleri ve ağ geçidi yöneticileriyle iletişim kurun.
@@ -324,6 +331,7 @@ Buna ek olarak, veri kümeleriniz için güvenilir veri yenileme işlemleri olu�
 - Veri kümelerinizi şirket içi veri kaynaklarına bağlamak için güvenilir bir kurumsal veri ağ geçidi dağıtımı kullanın. Ağ geçidinin kullanılamıyor veya aşırı yüklenmiş olması gibi ağ geçidiyle ilgili hataların oluştuğunu fark ederseniz, mevcut kümeye ek ağ geçitleri eklemek veya yeni bir küme dağıtmak (ölçeği artırmak veya ölçeği genişletmek) için ağ geçidi yöneticileriyle iletişim kurun.
 - Zamanlanmış yenilemeler esnasındaki veri içeri aktarma işlemlerinin, DirectQuery/LiveConnect veri kümelerinde bulunan ve her kullanıcı etkileşiminde veri kaynaklarını sorgulayan raporların ve panoların performansını etkilememesi için, İçeri aktarılan veri kümeleri ve DirectQuery/LiveConnect veri kümeleri için ayrı veri ağ geçitleri kullanın.
 - Power BI’ın, yenileme hatası bildirimlerini e-posta olarak size gönderebildiğinden emin olun. İstenmeyen posta filtreleri e-posta iletilerini engelleyebilir veya iletileri kolayca fark edemeyeceğiniz ayrı klasörlere taşıyabilir.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

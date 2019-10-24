@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945275"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307847"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -225,6 +225,201 @@ URL veya kaynak bağlantı bilgilerini girdikten sonra **Tamam**'ı seçin. Powe
 **Gezgin** bölmesinin alt kısmındaki **Yükle** düğmesini seçerek verileri yükleyebilir veya verileri yüklemeden önce sorguyu düzenlemek isterseniz **Düzenle** düğmesini seçebilirsiniz.
 
 Power BI Desktop'ta veri kaynaklarına bağlanmak için tüm yapmanız gereken bu! Sayısı sürekli artan veri kaynaklarımızdaki verilere bağlanın ve veri kaynaklarımızın bulunduğu listeyi sık sık kontrol edin. Yeni veri kaynakları eklemeye devam edeceğiz.
+
+## <a name="using-pbids-files-to-get-data"></a>Verileri almak için PBIDS dosyalarını kullanma
+
+PBIDS dosyaları, belirli bir yapıya sahip olan ve Power BI veri kaynağı dosyası olarak tanımlanması için .PBIDS uzantısına sahip olan Power BI Desktop dosyalarıdır.
+
+Kuruluşunuzda rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştırmak için bir .PBIDS dosyası oluşturabilirsiniz. Yöneticilerin, yeni rapor yazarları için PBIDS dosyalarının kullanımını kolaylaştırmak amacıyla yaygın olarak kullanılan bağlantılar için bu dosyaları oluşturması önerilir. 
+
+Bir yazar .PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. Gezinti iletişim kutusu görüntülenir ve kullanıcı, veri kaynağından modele yüklenecek tabloları seçmelidir. Kullanıcıların, .PBIDS dosyasında belirtilmemişse, veritabanlarını seçmesi de gerekebilir. 
+
+Bu noktadan itibaren kullanıcı, görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için *Son kaynakları yeniden ziyaret edebilir. 
+
+Şu anda .PBIDS dosyaları tek bir dosyada yalnızca tek bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır. 
+
+Yöneticiler, .PBIDS dosyası oluşturmak için tek bir bağlantıya yönelik gerekli girdileri belirtmelidir ve bağlantı modunu **DirectQuery** veya **İçeri Aktarma** olarak belirtebilir. Dosyada **mode** eksikse veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan DirectQuery veya İçeri Aktarma’yı seçmesi istenir. 
+
+### <a name="pbids-file-examples"></a>PBIDS dosyası örnekleri
+
+Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sağlanmaktadır. .PBIDS dosya türü yalnızca Power BI Desktop’ta da desteklenen veri bağlantılarını destekler. Bunun yalnızca iki istisnası vardır: Live Connect ve Boş sorgu. 
+
+.PBIDS dosyası, kimlik doğrulaması bilgilerini ve tablo ve şema bilgilerini *içermez*.  
+
+Aşağıda, .PBIDS dosyasının birkaç yaygın örneği verilmekte olup bu örnekler tamamını kapsamaz. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
+
+Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri kapsayıcı değildir ve DSR biçiminde desteklenen tüm bağlayıcıları içermez. Yöneticiler veya kuruluşlar kılavuz olarak bu örnekleri kullanarak kendi veri kaynaklarını oluşturabilir. Bu örnekler sayesinde kendi veri kaynağı dosyalarını oluşturup destekleyebilirler. 
+
+
+**Azure AS**
+```
+{ 
+    "version": "0.1", 
+    "connections": [ 
+    { 
+        "details": { 
+        "protocol": "analysis-services", 
+        "address": { 
+            "server": "server-here" 
+        }, 
+        } 
+    } 
+    ] 
+}
+```
+
+
+ 
+
+**Klasör**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "folder", 
+        "address": { 
+            "path": "folder-path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+
+**OData**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "odata", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP BW**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-bw-olap", 
+        "address": { 
+          "server": "server-name-here", 
+          "systemNumber": "system-number-here", 
+          "clientId": "client-id-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP Hana**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-hana-sql", 
+        "address": { 
+          "server": "server-name-here:port-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+
+**SharePoint Listesi**
+
+URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendisini işaret etmelidir. Kullanıcılar, bu siteden bir veya daha fazla liste seçmesine olanak sağlayan bir gezgin alır. Bu listelerin her biri modelde bir tablo olur. 
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sharepoint-list", 
+        "address": { 
+          "url": "URL-here" 
+        }, 
+       } 
+    } 
+  ] 
+} 
+```
+ 
+ 
+**SQL Server**
+```
+{ 
+  “version”: “0.1”, 
+  “connections”: [ 
+    { 
+      “details”: { 
+        “protocol”: “tds”, 
+        “address”: { 
+          “server”: “server-name-here”, 
+          “database”: “db-name-here (optional)” 
+        } 
+      }, 
+      “options”: {}, 
+      “mode”: “DirectQuery” 
+    } 
+  ] 
+} 
+} 
+```
+ 
+
+**Metin dosyası**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "file", 
+        "address": { 
+            "path": "path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+**Web**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "http", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:

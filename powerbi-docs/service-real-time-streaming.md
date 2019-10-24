@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514315"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307354"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -235,6 +235,13 @@ Sorunu gidermek için kullanabileceğiniz bir denetim listesi aşağıda verilmi
 4. Azure Akış Analizi sorgusu açık bir şekilde Power BI çıkışına mı yönlendirilmiş? (INTO anahtar sözcüğü kullanılarak)
 5. Azure Akış Analizi işi üzerinde veri akışı mevcut mu? Veri kümesi, yalnızca aktarılmakta olan veriler bulunduğunda oluşturulur.
 6. Herhangi bir uyarı veya hata olup olmadığını görmek için Azure Akış Analizi günlüklerine bakabilir misiniz?
+
+## <a name="automatic-page-refresh"></a>Otomatik sayfa yenileme
+
+Otomatik sayfa yenileme, bir rapor sayfası düzeyinde çalışır ve rapor yazarlarının yalnızca sayfa kullanılırken etkin olan bir sayfadaki görseller için yenileme aralığı ayarlamasına olanak sağlar. Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir. Minimum yenileme aralığı, raporun hangi tür çalışma alanında yayımlandığına ve Premium çalışma alanları için kapasite yönetimi ayarlarına bağlıdır.
+
+[Otomatik sayfa yenileme](desktop-automatic-page-refresh.md) makalesinde otomatik sayfa yenileme hakkında daha fazla bilgi edinin.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Burada, Power BI'da gerçek zamanlı akış kullanırken faydalı bulabileceğiniz birkaç bağlantı yer almaktadır:

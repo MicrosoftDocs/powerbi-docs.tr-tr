@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968880"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307392"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -70,6 +70,8 @@ Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakıl
 | **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
 | **Sorgu Belleği Sınırı (%)** | Sorguda veya DAX ölçüsünde geçici sonuçlar için kullanılabilecek en yüksek kullanılabilir bellek yüzdesi. |
 | **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. |
+| **Otomatik sayfa yenileme (önizleme)** | Premium çalışma alanlarının otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
+| **Minimum yenileme aralığı** | Otomatik sayfa yenileme açıksa, sayfa yenileme aralığı için izin verilen minimum aralık. Varsayılan değer beş dakika ve izin verilen minimum değer de bir saniyedir. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>En Büyük Ara Satır Kümesi Sayısı
@@ -112,6 +114,19 @@ Bu ayar tek bir sorgu için geçerlidir; veri kümesinin veya raporun güncelle�
 Tüm sorguların birleşik süresi 75 dakika ama bu ayar sınırına ulaşılmadı çünkü tek tek sorguların her birinin çalışması 20 dakikadan kısa sürdü.
 
 Power BI raporlarının, kapasitede her sorgu için daha küçük bir zaman aşımı süresiyle bu varsayılan süreyi geçersiz kıldığına dikkat edin. Her sorgu için zaman aşımı normalde yaklaşık üç dakikadır.
+
+#### <a name="automatic-page-refresh-preview"></a>Otomatik sayfa yenileme (önizleme)
+
+Etkinleştirildiğinde otomatik sayfa yenileme, Premium kapasitenizdeki kullanıcıların, DirectQuery kaynakları için tanımlı bir aralıkta raporlarındaki sayfaları yenilemesine olanak sağlar. Kapasite yöneticisi olarak şunları yapabilirsiniz:
+
+1.  Otomatik sayfa yenilemeyi açma ve kapatma
+2.  Minimum yenileme aralığı tanımlama
+
+Aşağıdaki görüntüde, otomatik yenileme aralığı ayarının konumu gösterilmektedir:
+
+![otomatik yenileme aralığı için yönetici ayarı](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+Otomatik sayfa yenileme tarafından oluşturulan sorgular doğrudan veri kaynağına gider, bu nedenle kuruluşunuzda otomatik sayfa yenilemeye izin verirken bu kaynaklarda güvenilirliği ve yükü göz önünde bulundurmanız önemlidir. 
 
 ### <a name="dataflows"></a>Veri akışları
 
@@ -181,5 +196,6 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)     
 [Veri akışları ile Power BI’da self servis veri hazırlığı](service-dataflows-overview.md)   
 [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)   
+[Power BI Desktop’ta otomatik sayfa yenileme (önizleme)](desktop-automatic-page-refresh.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
