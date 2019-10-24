@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning tümleştirmesi
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Makine Öğrenmesi modeli oluşturma (Önizleme)
+        - name: Makine Öğrenmesi modeli oluşturma
           href: service-tutorial-build-machine-learning-model.md
         - name: Verileri SQL Server'dan yenileme
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: Power BI’da Bilişsel Hizmetler’i kullanma
               href: service-cognitive-services.md
-            - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi (Önizleme)
+            - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
               href: service-machine-learning-automated.md
         - name: Veri kökeni
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
       href: guidance/dax-divide-function-operator.md
+    - name: Sorguyu kaynağa döndürmenin önemi
+      href: guidance/power-query-folding.md
     - name: Hata işlevlerinin uygun kullanımı
       href: guidance/dax-error-functions.md
     - name: Veri akışları için en iyi uygulamalar
