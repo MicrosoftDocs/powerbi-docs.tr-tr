@@ -1,4 +1,6 @@
-- name: Power BI yönetimi
+- name: Power BI yönetimi belgeleri
+  href: index.yml
+  expanded: true
   items:
     - name: Genel Bakış
       expanded: true
@@ -8,7 +10,7 @@
     - name: Kavramlar
       expanded: true
       items:
-        - name: Office 365'teki yönetim rolü
+        - name: Microsoft 365'teki yönetim rolü
           href: ../service-admin-role.md
         - name: Sık sorulan sorular (SSS)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro satın alma
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 Deneme sürümüne kaydolma
+            - name: Microsoft 365 Denemesine kaydolma
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Bir Office 365 iş ortağı ile Power BI ekleme
+            - name: Microsoft 365 iş ortağıyla Power BI ekleme
               href: ../service-admin-syndication-partner.md
         - name: Yönetici portalını kullanma
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: Oturum açan kullanıcıları bulma
           href: ../service-admin-access-usage.md
-        - name: Power BI uygulamasını denetleme
+        - name: Denetim
           href: ../service-admin-auditing.md
         - name: Hizmet durumunu izleme
           href: ../service-admin-health.md
-        - name: Power BI hesabınızı kapatma
+        - name: Hesabınızı kapatma
           href: ../service-admin-closing-your-account.md
-        - name: Power BI ve ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B hizmetini kullanma
           href: ../service-admin-azure-ad-b2b.md
-        - name: Power BI ile satır düzeyi güvenlik
+        - name: Satır düzeyi güvenlik
           href: ../service-admin-rls.md
-        - name: Power BI arşivlenmiş çalışma alanı
+        - name: Arşivlenmiş çalışma alanı
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: ../service-admin-mobile-intune.md

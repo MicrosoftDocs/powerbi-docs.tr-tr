@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Yöneticiler için Power BI
-summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+title: Power BI yönetimi belgeleri
+summary: Power BI yönetimi belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
 metadata:
-  title: Yöneticiler için Power BI
-  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  title: Power BI yönetimi belgeleri
+  description: Power BI yönetimi belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/04/2019
-  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
-  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.date: 10/25/2019
+  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/10/2019
-  ms.locfileid: "72245662"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959517"
 landingContent:
 - title: Yöneticiler için Power BI hakkında
   linkLists:

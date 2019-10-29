@@ -1,4 +1,5 @@
-- name: Geliştiriciler için Power BI
+- name: Power BI geliştirici belgelerini
+  href: index.yml
   items:
     - name: Genel Bakış
       expanded: true
