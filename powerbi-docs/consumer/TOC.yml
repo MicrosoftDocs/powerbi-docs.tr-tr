@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: Raporun görüntülenme yöntemini değiştirme
               href: end-user-report-view.md
+            - name: Görselde sıralama düzenini değiştirme
+              href: end-user-change-sort.md
             - name: Raporda filtre kullanma
               href: end-user-report-filter.md
             - name: Rapor görsellerinin birbirlerini karşılıklı nasıl filtrelediğini öğrenin
