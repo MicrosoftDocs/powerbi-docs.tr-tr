@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop Gülümseme Gönder gizlilik bildirimi
           href: desktop-send-smile-privacy-statement.md
-        - name: Power BI raporlarında erişilebilirlik
-          href: desktop-accessibility.md
         - name: Power BI Desktop oturum açma formunu yönetme
           href: desktop-admin-sign-in-form.md
+        - name: Erişilebilirlik
+          items:
+            - name: Power BI’da erişilebilirliğe genel bakış
+              href: desktop-accessibility-overview.md
+            - name: Erişilebilir Power BI raporları oluşturma
+              href: desktop-accessibility-creating-reports.md
+            - name: Power BI raporlarını erişilebilirlik araçlarıyla kullanma
+              href: desktop-accessibility-consuming-tools.md
+            - name: Power BI raporlarını erişilebilirlik araçlarıyla oluşturma
+              href: desktop-accessibility-creating-tools.md
+            - name: Power BI raporlarına yönelik erişilebilirlik klavye kısayolları
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI hizmeti
   items:
     - name: Genel Bakış
