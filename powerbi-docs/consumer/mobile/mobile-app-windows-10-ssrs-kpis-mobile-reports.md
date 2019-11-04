@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61340903"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059642"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI mobil uygulamasında Reporting Services (SSRS) mobil raporlarını ve KPI'lerini görüntüleme
 Windows 10 için Power BI mobil uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 
@@ -110,6 +110,6 @@ Reporting Services KPI'leri ve mobil raporları Power BI mobil uygulamasında ol
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)  
-* [Power BI nedir?](../../power-bi-overview.md)  
+* [Power BI nedir?](../../fundamentals/power-bi-overview.md)  
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

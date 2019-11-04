@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715446"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060315"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -69,6 +69,6 @@ Bu seçeneklerin hiçbiri işinize yaramazsa son ipucu olarak sistemi gözlemley
 Örneğin, bir güvenlik grubuyla pano paylaşıp paylaşamayacağınızı merak ediyorsunuz. Bu soruyu cevaplamak için paylaşım iletişim kutusuna gidin ve bir güvenlik grubu eklemeyi deneyin. Sonuç olarak bu testin ardından cevabı bulmuş olursunuz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI nedir?](power-bi-overview.md)
+* [Power BI nedir?](fundamentals/power-bi-overview.md)
 * [Power BI Topluluğu](http://community.powerbi.com/)'na sorun
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 497f3e76275f957599e80eadfd92b9073fca2ebb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 97fb91018acb2123783f99cc4234cdcdf7f09975
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185558"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060617"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Power BI ile Alpine Metrics Sales Predictions'a bağlanma
 Alpine Metrics, küçük ve büyük ölçekli satış kuruluşlarının isteği üzerine bulutta son teknoloji Tahmine Dayalı Satış Süreci Optimizasyonu olanağı sağlar. Power BI için Alpine Metrics Sales Predictions içerik paketinde, potansiyel ve öngörülen satışlar ve riskler gibi, işinizin geleceğine yönelik ayrıntılı öngörüler edinmenizi sağlayan ölçümler bulunur. 
@@ -68,7 +68,7 @@ Power BI için [Alpine Metrics Sales Predictions içerik paketine](https://app.p
 Bu içerik paketinin bir örneğini oluşturmak için yukarıdaki tabloların izinlerine sahip bir Alpine Metrics hesabı gereklidir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 

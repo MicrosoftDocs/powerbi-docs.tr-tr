@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: aa685ae9b51e1f5044dab883d8de871dcc7ed5da
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a72a1ef01b12b83e555a547a00ffd0dda0c8a34f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945845"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060975"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI ile Mandrill'e bağlanma
 Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir raporlar kümesi ve bir veri kümesi oluşturarak verilerinizi araştırmanıza olanak sağlar. Mandrill'in analizini kullanarak bülten veya pazarlama kampanyanız hakkında öngörüler elde edin. Veriler, güncel bir izleme deneyimi elde etmenizi sağlamak üzere günlük olarak yenilenir.
@@ -49,7 +49,7 @@ Power BI içerik paketi Mandrill hesabınızdan veri çeker ve bir pano, bir rap
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 

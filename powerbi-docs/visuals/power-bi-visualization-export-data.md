@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730075"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431104"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 
@@ -181,8 +181,6 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
 - Görselleştirme birden fazla veri tablosundaki veriler kullanıyorsa ve veri modelinde söz konusu tablolar için ilişki yoksa, Power BI yalnızca ilk tablo için verileri dışarı aktarır.
 
 - Şu anda özel görseller ve R görselleri desteklenmemektedir.
-
-- Verileri dışarı aktarma özelliği, bir iç kullanıcının kendileriyle paylaştığı panoyu kullanmakta olan, kuruluşunuzun dışındaki kullanıcılar tarafından kullanılamaz.
 
 - Power BI’da alana çift tıklayıp yeni bir ad yazarak alanı (sütun) yeniden adlandırabilirsiniz. Power BI yeni adı *diğer ad* olarak kabul eder. Bir Power BI raporunun yinelenen alan adları içermesi mümkündür ancak Excel yinelenen adlara izin vermez. Bu nedenle, Power BI verileri Excel'e aktardığında alan diğer adları özgün alan (sütun) adlarına geri döndürülür.  
 

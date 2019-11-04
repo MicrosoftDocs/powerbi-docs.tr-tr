@@ -9,12 +9,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9fc0360ccf2e036cca1c68cf21bb538b30adf7e6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4abf01163dbf454ee75b04e5d519ec2292b6e80c
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191000"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060778"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Olay raporlama için Power BI ile ServiceNow'a bağlanma
 ServiceNow işinizi geliştirmek için iş, operasyon ve BT yönetimi dahil olmak üzere birden fazla ürün ve çözüm sunar. Bu içerik paketi açık, yakın zamanda çözümlenmiş ve yakın zamanda kapatılan olaylar hakkında birden fazla rapor ve öngörü içerir.  
@@ -60,7 +60,7 @@ Yükleme sırasında bir kimlik bilgisi hatası ile karşılaşıyorsanız lütf
 Yükleme çok uzun sürüyorsa bağlantı sırasında belirttiğiniz olay sayısını ve gün sayısını gözden geçirip bunları azaltmayı deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 

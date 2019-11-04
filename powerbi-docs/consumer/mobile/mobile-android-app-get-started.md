@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61351130"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060282"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -23,7 +23,7 @@ Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor S
 
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
-* [Raporlarınızı Power BI hizmetinde yayımlayın](../../power-bi-overview.md) ve panolar oluşturun.
+* [Raporlarınızı Power BI hizmetinde yayımlayın](../../fundamentals/power-bi-overview.md) ve panolar oluşturun.
 * [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](../../report-server/quickstart-create-powerbi-report.md).
 
 Daha sonra Android için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
@@ -136,7 +136,7 @@ Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yan
 
 ### <a name="see-also"></a>Ayrıca bkz.
 * Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
-* [Power BI nedir?](../../power-bi-overview.md)
+* [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 
 

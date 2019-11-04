@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Power BI Desktop'ı başlatma ile ilgili sorunları giderme
               href: desktop-error-launching-desktop.md
+            - name: Power BI Desktop’ta DirectQuery modeli sorunlarını giderme
+              href: desktop-directquery-troubleshoot.md
     - name: Başvuru
       items:
         - name: Power BI Desktop'taki veri türleri
@@ -661,7 +663,7 @@
           items:
             - name: Yeni çalışma alanları oluşturma
               href: service-create-the-new-workspaces.md
-            - name: Uygulama çalışma alanları oluşturma
+            - name: Çalışma alanı oluşturma
               href: service-create-workspaces.md
             - name: Çalışma alanlarındaki uygulamaları yayımlama
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Veri akışları için en iyi uygulamalar
       href: service-dataflows-best-practices.md
+    - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
+      href: guidance/directquery-model-guidance.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

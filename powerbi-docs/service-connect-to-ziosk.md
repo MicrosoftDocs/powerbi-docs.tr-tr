@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 5e16264c3cf5b6d361353c18ba9eb666fd00ce5d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720421"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060458"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI ile Ziosk Survey Analytics'e bağlanma
 Power BI için Ziosk Survey Analytics içerik paketi, Ziosk tabletli restoranlar için gün, konum, çalışan ve daha fazlasına göre segmentasyon dahil olmak üzere Ziosk anket verileri ile sağlanan öngörülere rakipsiz erişim fırsatı sunar.
@@ -71,7 +71,7 @@ Power BI için [Ziosk Survey Analytics içerik paketine](https://app.powerbi.com
 Bu içerik paketinin bir örneğini oluşturmak için yukarıdaki tabloların izinlerine sahip bir Ziosk hesabı gereklidir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 

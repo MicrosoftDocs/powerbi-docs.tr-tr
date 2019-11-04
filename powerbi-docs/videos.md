@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9f6139376a713c85500a2e6bd430d5ee52f5b7ad
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514898"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060327"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.
@@ -47,7 +47,7 @@ Daha fazla video için aşağıdaki kaynak ve içerik koleksiyonuna göz atın.
 * [Guy in a Cube kanalı](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): Power BI'daki özelliklere ve işlevlere ilişkin yepyeni videolar
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fde61f2411fb04897cc23f24639dc373a98e6edd
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a5b73a5a2d0a4381981cd5c98accc48df662bd24
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70185119"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716462"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 [Uygulamalar hakkında temel bilgileri](end-user-apps.md) öğrendiğinize göre, şimdi uygulamaları açmayı ve uygulamalarla etkileşim kurmayı öğrenelim. 
 
 ## <a name="ways-to-get-a-new-app"></a>Yeni bir uygulama alma yolları
